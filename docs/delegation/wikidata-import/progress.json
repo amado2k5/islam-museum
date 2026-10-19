@@ -5,7 +5,7 @@
  "candidates_file": "$HARVEST/wikidata-import/candidates.tsv",
  "candidates_query": "select distinct id from wd_claim where property='P140' and value_id='Q432' minus Wikidata ids already linked in data/, ordered by sitelink count desc",
  "linked_preexisting": 987,
- "next_index": 60,
+ "next_index": 160,
  "created_ids": [
   {
    "i": 24,
@@ -26,6 +26,66 @@
    "i": 53,
    "qid": "Q41975",
    "id": "group/mongols"
+  },
+  {
+   "i": 65,
+   "qid": "Q797848",
+   "id": "person/babur-mughal"
+  },
+  {
+   "i": 77,
+   "qid": "Q83672",
+   "id": "person/shah-jahan-mughal"
+  },
+  {
+   "i": 91,
+   "qid": "Q485547",
+   "id": "person/aurangzeb-mughal"
+  },
+  {
+   "i": 93,
+   "qid": "Q83328",
+   "id": "group/turks"
+  },
+  {
+   "i": 94,
+   "qid": "Q484206",
+   "id": "group/persians"
+  },
+  {
+   "i": 118,
+   "qid": "Q255809",
+   "id": "person/khurram-sultan"
+  },
+  {
+   "i": 121,
+   "qid": "Q178379",
+   "id": "person/fuzuli"
+  },
+  {
+   "i": 124,
+   "qid": "Q128358",
+   "id": "person/bayezid-i-uthmani"
+  },
+  {
+   "i": 125,
+   "qid": "Q133168",
+   "id": "person/orhan-uthmani"
+  },
+  {
+   "i": 131,
+   "qid": "Q160614",
+   "id": "person/iskandar-beg"
+  },
+  {
+   "i": 137,
+   "qid": "Q214559",
+   "id": "person/ismail-i-safavi"
+  },
+  {
+   "i": 143,
+   "qid": "Q83653",
+   "id": "person/jahangir-mughal"
   }
  ],
  "linked_ids": [
@@ -143,6 +203,124 @@
    "i": 58,
    "qid": "Q40477",
    "to": "group/saqaliba"
+  },
+  {
+   "i": 67,
+   "qid": "Q45315",
+   "to": "group/berbers"
+  },
+  {
+   "i": 70,
+   "qid": "Q124058",
+   "to": "practice/zakat"
+  },
+  {
+   "i": 75,
+   "qid": "Q176770",
+   "to": "concept/five-pillars"
+  },
+  {
+   "i": 76,
+   "qid": "Q83100",
+   "to": "person/uthman-i-uthmani"
+  },
+  {
+   "i": 79,
+   "qid": "Q180123",
+   "to": "person/fatima"
+  },
+  {
+   "i": 85,
+   "qid": "Q131002",
+   "to": "person/harun-al-rashid"
+  },
+  {
+   "i": 88,
+   "qid": "Q165494",
+   "to": "practice/adhan"
+  },
+  {
+   "i": 104,
+   "qid": "Q190896",
+   "to": "person/abu-hanifa"
+  },
+  {
+   "i": 108,
+   "qid": "Q193027",
+   "to": "practice/mawlid-al-nabi"
+  },
+  {
+   "i": 109,
+   "qid": "Q494660",
+   "to": "person/selim-i-ottoman"
+  },
+  {
+   "i": 113,
+   "qid": "Q46420",
+   "to": "person/ibn-arabi-muhyi-al-din"
+  },
+  {
+   "i": 123,
+   "qid": "Q312458",
+   "to": "person/jami-abd-al-rahman"
+  },
+  {
+   "i": 128,
+   "qid": "Q179759",
+   "to": "person/al-kindi"
+  },
+  {
+   "i": 134,
+   "qid": "Q174495",
+   "to": "concept/tawhid"
+  },
+  {
+   "i": 138,
+   "qid": "Q241026",
+   "to": "person/al-bukhari"
+  },
+  {
+   "i": 140,
+   "qid": "Q216452",
+   "to": "practice/laylat-al-qadr"
+  },
+  {
+   "i": 144,
+   "qid": "Q162543",
+   "to": "person/muhammad-vi-uthmani"
+  },
+  {
+   "i": 146,
+   "qid": "Q486188",
+   "to": "person/humayun-mughal"
+  },
+  {
+   "i": 156,
+   "qid": "Q294281",
+   "to": "person/al-shafii"
+  },
+  {
+   "i": 63,
+   "qid": "Q484141",
+   "to": "person/muhammad-iqbal",
+   "replaced": "Q25073"
+  },
+  {
+   "i": 74,
+   "qid": "Q12192963",
+   "to": "building/al-aqsa-mosque",
+   "replaced": "Q121610806"
+  },
+  {
+   "i": 100,
+   "qid": "Q484181",
+   "to": "concept/fiqh",
+   "replaced": "Q172393"
+  },
+  {
+   "i": 96,
+   "qid": "Q42034",
+   "to": "person/khadija"
   }
  ],
  "skipped": [
@@ -315,9 +493,334 @@
    59,
    "Q131152",
    "modern lawyer/activist b.1947"
+  ],
+  [
+   60,
+   "Q57464",
+   "modern monarch; no matching record"
+  ],
+  [
+   61,
+   "Q80040",
+   "Kazakhs post-date the covered sources; no confirmed source"
+  ],
+  [
+   62,
+   "Q1110560",
+   "modern singer d.1975; ar label hits are different Umm Kulthums (Companions)"
+  ],
+  [
+   64,
+   "Q43944",
+   "modern president; no matching record"
+  ],
+  [
+   66,
+   "Q43292",
+   "generic title term; no matching record"
+  ],
+  [
+   68,
+   "Q45581",
+   "archangel entity fits no existing record/class decision; deferred"
+  ],
+  [
+   69,
+   "Q57308",
+   "modern president d.2021"
+  ],
+  [
+   71,
+   "Q125482",
+   "generic office item; imama is the Shi'i doctrine and imam-masjid the prayer leader — no exact match"
+  ],
+  [
+   72,
+   "Q134817",
+   "modern-era sultan d.1918; abd-al-hamid-i-uthmani is a different sultan"
+  ],
+  [
+   73,
+   "Q6122670",
+   "no link to Islamic history; P140 claim incidental"
+  ],
+  [
+   78,
+   "Q12237722",
+   "modern pop singer b.1982"
+  ],
+  [
+   80,
+   "Q9513",
+   "modern scientist/president d.2015"
+  ],
+  [
+   81,
+   "Q155164",
+   "modern politician b.1952"
+  ],
+  [
+   82,
+   "Q159888",
+   "Qur'anic figure; museum convention for such figures not yet established in this lane; deferred"
+  ],
+  [
+   83,
+   "Q172317",
+   "needs careful sourcing and possibly perspectives for the modern-contested sense; deferred"
+  ],
+  [
+   84,
+   "Q5947347",
+   "modern politician d.2024"
+  ],
+  [
+   86,
+   "Q2821724",
+   "modern militant leader d.2019; no matching record"
+  ],
+  [
+   87,
+   "Q57808",
+   "modern president b.1957"
+  ],
+  [
+   89,
+   "Q186316",
+   "modern militant leader d.2022; no matching record"
+  ],
+  [
+   90,
+   "Q361567",
+   "modern politician d.2025"
+  ],
+  [
+   92,
+   "Q151509",
+   "modern king d.1953; no matching record"
+  ],
+  [
+   95,
+   "Q131355",
+   "modern politician d.1979"
+  ],
+  [
+   97,
+   "Q152378",
+   "modern militant/political leader d.2024"
+  ],
+  [
+   98,
+   "Q157451",
+   "modern president d.2003"
+  ],
+  [
+   99,
+   "Q201190",
+   "modern national group; no matching record"
+  ],
+  [
+   101,
+   "Q57327",
+   "modern sultan b.1946"
+  ],
+  [
+   102,
+   "Q6892571",
+   "modern crown prince b.1985"
+  ],
+  [
+   103,
+   "Q892014",
+   "modern military officer d.2020"
+  ],
+  [
+   105,
+   "Q234262",
+   "'surah' term entity has no matching record; quran-sciences coverage deferred"
+  ],
+  [
+   106,
+   "Q31230",
+   "Chechens not covered in cited sources; no confirmed source"
+  ],
+  [
+   107,
+   "Q57331",
+   "modern sultan d.2020"
+  ],
+  [
+   110,
+   "Q4967771",
+   "modern activist b.1972"
+  ],
+  [
+   111,
+   "Q82918",
+   "modern president d.2006"
+  ],
+  [
+   112,
+   "Q170515",
+   "modern actor d.2015"
+  ],
+  [
+   114,
+   "Q183283",
+   "Ashura observance needs a perspectives treatment (Sunni fast vs Shi'a mourning); deferred"
+  ],
+  [
+   115,
+   "Q253410",
+   "Chuvash not covered in cited sources; no confirmed source"
+  ],
+  [
+   116,
+   "Q2919350",
+   "modern political-religious figure b.1969"
+  ],
+  [
+   117,
+   "Q204487",
+   "modern president d.2019"
+  ],
+  [
+   119,
+   "Q28189",
+   "modern physicist d.1996"
+  ],
+  [
+   120,
+   "Q488200",
+   "modern preacher d.2024"
+  ],
+  [
+   122,
+   "Q183297",
+   "modern president d.1973"
+  ],
+  [
+   126,
+   "Q133255",
+   "modern Bulgarians differ from the Volga Bulghar of Islamic sources; ambiguous, deferred"
+  ],
+  [
+   127,
+   "Q163140",
+   "denomination/movement is contested; needs perspectives block with two cited voices"
+  ],
+  [
+   129,
+   "Q486296",
+   "modern concept; needs sourcing beyond current scope"
+  ],
+  [
+   130,
+   "Q134068",
+   "modern prime minister b.1949"
+  ],
+  [
+   132,
+   "Q19014",
+   "mythological garden; no matching record, deferred"
+  ],
+  [
+   133,
+   "Q168827",
+   "prophethood concept needs an aqida source citation; deferred"
+  ],
+  [
+   135,
+   "Q180280",
+   "modern president d.1993"
+  ],
+  [
+   136,
+   "Q201501",
+   "Baloch not confirmed in cited sources; deferred"
+  ],
+  [
+   139,
+   "Q57350",
+   "modern president d.2021"
+  ],
+  [
+   141,
+   "Q217167",
+   "modern king d.1975"
+  ],
+  [
+   142,
+   "Q7934206",
+   "modern president b.1982"
+  ],
+  [
+   145,
+   "Q175047",
+   "qibla direction entity has no matching record; needs fiqh source check, deferred"
+  ],
+  [
+   147,
+   "Q940348",
+   "modern ethnic group; no confirmed source in cited works"
+  ],
+  [
+   148,
+   "Q1059948",
+   "modern president d.2022"
+  ],
+  [
+   149,
+   "Q142897",
+   "Zaza people not confirmed in cited sources; deferred"
+  ],
+  [
+   150,
+   "Q167884",
+   "garment item; no matching record, deferred"
+  ],
+  [
+   151,
+   "Q179248",
+   "modern ethnic group; no confirmed source"
+  ],
+  [
+   152,
+   "Q179846",
+   "modern Chechen leader d.1996"
+  ],
+  [
+   153,
+   "Q184906",
+   "modern poet d.1963"
+  ],
+  [
+   154,
+   "Q185166",
+   "honorific title term; no matching record"
+  ],
+  [
+   155,
+   "Q193714",
+   "modern mandate polity; no matching record"
+  ],
+  [
+   157,
+   "Q166382",
+   "title term; no matching record"
+  ],
+  [
+   158,
+   "Q174791",
+   "Ottoman sultan d.1839, post-1800; no matching record"
+  ],
+  [
+   159,
+   "Q183187",
+   "modern king d.2005"
   ]
  ],
- "skipped_total": 34,
+ "skipped_total": 99,
  "skipped_by_reason": {
   "modern sovereign state; no matching record (al-Hind region is a different entity)": 1,
   "modern sovereign state; no matching record": 8,
@@ -338,17 +841,79 @@
   "modern province; no matching record": 1,
   "modern actor; no matching record": 1,
   "modern leader d.1989; no matching record": 1,
-  "modern president; no matching record": 1,
+  "modern president; no matching record": 2,
   "modern president d.1970": 1,
   "modern political/militant organisation; no matching record": 1,
-  "modern president d.2019": 1,
+  "modern president d.2019": 2,
   "modern politician d.2023": 1,
   "modern president b.1950": 1,
   "modern ethnic group item; the Islamic-world counterpart (al-Rum/Byzantines) is a different item": 1,
-  "modern lawyer/activist b.1947": 1
+  "modern lawyer/activist b.1947": 1,
+  "modern monarch; no matching record": 1,
+  "Kazakhs post-date the covered sources; no confirmed source": 1,
+  "modern singer d.1975; ar label hits are different Umm Kulthums (Companions)": 1,
+  "generic title term; no matching record": 1,
+  "archangel entity fits no existing record/class decision; deferred": 1,
+  "modern president d.2021": 2,
+  "generic office item; imama is the Shi'i doctrine and imam-masjid the prayer leader — no exact match": 1,
+  "modern-era sultan d.1918; abd-al-hamid-i-uthmani is a different sultan": 1,
+  "no link to Islamic history; P140 claim incidental": 1,
+  "modern pop singer b.1982": 1,
+  "modern scientist/president d.2015": 1,
+  "modern politician b.1952": 1,
+  "Qur'anic figure; museum convention for such figures not yet established in this lane; deferred": 1,
+  "needs careful sourcing and possibly perspectives for the modern-contested sense; deferred": 1,
+  "modern politician d.2024": 1,
+  "modern militant leader d.2019; no matching record": 1,
+  "modern president b.1957": 1,
+  "modern militant leader d.2022; no matching record": 1,
+  "modern politician d.2025": 1,
+  "modern king d.1953; no matching record": 1,
+  "modern politician d.1979": 1,
+  "modern militant/political leader d.2024": 1,
+  "modern president d.2003": 1,
+  "modern national group; no matching record": 1,
+  "modern sultan b.1946": 1,
+  "modern crown prince b.1985": 1,
+  "modern military officer d.2020": 1,
+  "'surah' term entity has no matching record; quran-sciences coverage deferred": 1,
+  "Chechens not covered in cited sources; no confirmed source": 1,
+  "modern sultan d.2020": 1,
+  "modern activist b.1972": 1,
+  "modern president d.2006": 1,
+  "modern actor d.2015": 1,
+  "Ashura observance needs a perspectives treatment (Sunni fast vs Shi'a mourning); deferred": 1,
+  "Chuvash not covered in cited sources; no confirmed source": 1,
+  "modern political-religious figure b.1969": 1,
+  "modern physicist d.1996": 1,
+  "modern preacher d.2024": 1,
+  "modern president d.1973": 1,
+  "modern Bulgarians differ from the Volga Bulghar of Islamic sources; ambiguous, deferred": 1,
+  "denomination/movement is contested; needs perspectives block with two cited voices": 1,
+  "modern concept; needs sourcing beyond current scope": 1,
+  "modern prime minister b.1949": 1,
+  "mythological garden; no matching record, deferred": 1,
+  "prophethood concept needs an aqida source citation; deferred": 1,
+  "modern president d.1993": 1,
+  "Baloch not confirmed in cited sources; deferred": 1,
+  "modern king d.1975": 1,
+  "modern president b.1982": 1,
+  "qibla direction entity has no matching record; needs fiqh source check, deferred": 1,
+  "modern ethnic group; no confirmed source in cited works": 1,
+  "modern president d.2022": 1,
+  "Zaza people not confirmed in cited sources; deferred": 1,
+  "garment item; no matching record, deferred": 1,
+  "modern ethnic group; no confirmed source": 1,
+  "modern Chechen leader d.1996": 1,
+  "modern poet d.1963": 1,
+  "honorific title term; no matching record": 1,
+  "modern mandate polity; no matching record": 1,
+  "title term; no matching record": 1,
+  "Ottoman sultan d.1839, post-1800; no matching record": 1,
+  "modern king d.2005": 1
  },
  "last_commit": null,
  "last_push": null,
  "batch_current": 1,
- "updated_at": "2026-10-19T16:35:07-04:00"
+ "updated_at": "2026-10-19T16:41:52-04:00"
 }

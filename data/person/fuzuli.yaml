@@ -1,0 +1,27 @@
+id: person/fuzuli
+class: person
+label:
+  ar: "فضولي"
+  en: "Fuzuli"
+names:
+  - { kind: full, lang: ar, value: "محمد بن سليمان فضولي البغدادي" }
+roles: [poet]
+gender: male
+summary:
+  ar: "بطاقة أولية لفضولي البغدادي، شاعر القرن العاشر الهجري بفارسية وتركية وعربية، ورد في وصف مرجعي مفتوح (ويكي البيانات). لم تُراجع ترجمته في معجم الأعلام على الصفحة بعد، لذلك لا تُذكر هنا تواريخ."
+  en: "Draft card for Fuzuli of Baghdad, the tenth-century Hijri poet in Persian, Turkish and Arabic, named from an open reference description (Wikidata); his al-A'lam entry is not yet checked on the page, so no dates are given."
+wings: [people]
+regions: [levant-iraq]
+periods: [period/gunpowder-empires]
+sources: [source/al-aalam]
+external_ids:
+  wikidata: Q178379
+provenance:
+  layer: own-research
+  source: "Wikidata Q178379 (religion claim Islam); book source: al-Zirikli, al-A'lam — entry not yet read on the page"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-0002
+status:
+  review: draft
+  completeness: 1
