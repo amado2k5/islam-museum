@@ -5,7 +5,7 @@ source_lang: ar
 translators: ["Claude Haiku 5.5 (claude-haiku-5-5), draft translation"]
 ---
 ## خلاصہ
-شمائل حدیث کا ایک باب ہے جو [[person/muhammad|نبی]] کی خلقت اور خلق سے متعلق روایات کو جمع کرتا ہے۔ {cite:jami-al-tirmidhi}
+شمائل [[concept/al-hadith-al-nabawi|حدیث]] کا ایک باب ہے جو [[person/muhammad|نبی]] کی خلقت اور خلق سے متعلق روایات کو جمع کرتا ہے۔ {cite:jami-al-tirmidhi}
 
 ## باب میں کیا ہے
 اس میں آپ کے بال، چال، کلام، کھانا، مجلس، ہنسی اور رونا شامل ہیں، یعنی آپ کی جسمانی اور اخلاقی صورت، جیسی اہل بیت اور صحابہ نے نقل کی۔ {cite:jami-al-tirmidhi}
