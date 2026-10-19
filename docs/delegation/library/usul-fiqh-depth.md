@@ -77,6 +77,22 @@ Candidates (dry run, 18 Oct 2026; `--max-items 2`; identifier, file, size; sourc
 - `fetch_books.py` now skips a book with a downloaded file and skips a file already on disk. Not yet committed.
 - Books with no candidate found: see the lane's Downloads section.
 
+## Batch 1: al-Mawsu'a al-Fiqhiyya (draft, 18 Oct 2026)
+
+- **Copy:** `fiqh/fiqh-mawsua-foulabook`, a Shamela digital text file (1,246 scan pages) on the harvest drive, not in git.
+- **Identity mismatch:** the brief names the Kuwaiti encyclopedia, but the title page of this copy credits a Dorar.net compilation under Alawi al-Saqqaf in three volumes. Not attributed to the Kuwaiti encyclopedia. Founder to confirm which printed edition is wanted.
+- **Pages covered (scan markers):** pp.1–4 (title page, table of contents for worship chapters, start of the first topic, purity). The first real entry is purity (al-tahara); the table of contents lists it, the body was only skimmed.
+- **Entities created (all `status.review: draft`):**
+  - `work/al-mawsua-al-fiqhiyya` (book; no authors given in the copy)
+  - `source/fiqh-mawsua-foulabook-copy` (secondary; edition not verified)
+  - `content/ar/work/al-mawsua-al-fiqhiyya.md`
+- **Skipped and why:**
+  - `concept/tahara` already exists, so the first entry is linked (`mentions`), not created.
+  - `concept/fiqh` already exists and is linked.
+  - Authors: the copy names a supervisor and a team of researchers only; no person or group record created.
+  - Honorific formulas in the OCR text: not copied.
+- **Next step:** confirm the printed edition (volumes, publisher, date) before any dated claim. Read the start of the first topic body and decide whether any later entry is a new concept. Muwafaqat, Burhan, Mustasfa, Bidayat al-Mujtahid and Mughni remain on the lane list, not yet started.
+
 ## Next step
 
 Add this lane's entries to `scripts/harvest/library/books.yaml` in the lane's own commit, then run `fetch_books.py` for the lane after the workstream commit is on `origin/main`.
