@@ -1,0 +1,38 @@
+id: concept/uqud
+class: concept
+kind: term
+label: { ar: "العقود", en: "Contracts (al-'uqud)" }
+issue:
+  ar: "ما الذي يلزم الوفاء به من العقود، وهل تنعقد العقود المكتوبة بغير إيجاب وقبول لفظيين؟"
+summary:
+  ar: "الوفاء بالعقود كما يعرضه رشيد رضا في تفسير أول سورة المائدة. ينقل معاني العقود عن ابن عباس وقتادة وغيرهما، ويعرض تقسيم الراغب الأصفهاني للعقود إلى ما يجب الوفاء به وما يستحب وما يستحب تركه وما يحرم الوفاء به، ويقرر أن ظاهر الآية يشمل كل عقد مشروع. ثم يصف رضا فريقاً ممن يشترط الإيجاب والقبول لفظاً فلا يعد العقد المكتوب نافذاً، ويعيب على من يجعل الوفاء بعقد مباح معصية بناء على ذلك. وهذا نقد رضا، ويُعرض هنا مع الرأي الذي ينتقده."
+wings: [ideas]
+themes: []
+periods: [period/prophetic-era]
+perspectives:
+  - tradition: sunni
+    id: oral-offer-and-acceptance
+    stance:
+      ar: "لا ينعقد العقد إلا بإيجاب وقبول لفظيين"
+    summary:
+      ar: "يصف رضا فقهاء المذاهب المدونة الذين يشترطون الإيجاب والقبول لفظاً، فلا يعدون العقد المكتوب الموقع بالخط أو الختم عقداً صحيحاً نافذاً، ويشترطون في بعض العقود شروطاً منها ما يستند إلى حديث وما يستند إلى الاجتهاد وحده. ويذكر أن هذه الشروط تختلف عندهم في الإجازة والمنع."
+    holders: []
+    evidence: []
+    sources: [source/tafsir-manar-v06]
+  - tradition: other
+    id: rida-critique-of-formalism
+    stance:
+      ar: "رأي رشيد رضا: لا يجعل الشرط الشكلي الوفاء بالعقد المباح معصية"
+    summary:
+      ar: "ينتقد رضا أن يصبغ الفقهاء أو الناس التزام المتعاقدين بعقد مباح بصبغة الدين فيجعلون إيفاءه محرماً لعدم صحة العقد، ويرى أن ظاهر الآية الوفاء بالعقود كلها إلا ما كان تركه قربة أو واجباً، وهذا رأيه. وقد عرض قبل ذلك أقوال المفسرين في معنى العقود."
+    holders: [person/rashid-rida]
+    evidence: []
+    sources: [source/tafsir-manar-v06]
+sources: [source/tafsir-manar-v06]
+provenance:
+  layer: own-research
+  source: "تفسير المنار، المجلد السادس، ص 97-98 (نسخة OCR محلية)"
+  generated_by: "Claude Haiku 5.5"
+  model: claude-haiku-5-5
+  run: "lib-exp-tafsir-manar v6-v8 batch 1"
+status: { review: draft, completeness: 1, generated_by: "library-expansion (Claude Haiku 5.5); Ma'ida 1 read only; the figh sources behind each school's rule are not yet read; the Sunni opinion is described by Rida without naming the schools" }

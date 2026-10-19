@@ -120,6 +120,32 @@ Add this lane's entries to `scripts/harvest/library/books.yaml` in the lane's ow
   - No question or tension card written yet for the Crusades passage (Rida's answer on p. 9–10 is recorded only in the concept prose).
 - **Next step:** read vol. 7 from p. 12 on (Ma'ida 86 onward, then An'am), add a `person` record for the Negus only if it is needed for an edge, and once the other agent's `work/tafsir-al-manar` is on main, link the source to it. Then volumes 8 to 12, one source record each.
 
+## Tafsir al-Manar, volumes 6 and 8 (batch 1, library-expansion, 19 Oct 2026, draft)
+
+- **Branch:** `content/lib-exp-tafsir-manar-v6-v8` (from `origin/main` at `ae8727f52`; not pushed to main, not merged).
+- **Pages covered (OCR page markers, which match the printed page numbers where a number is visible):**
+  - Vol. 6: pp. 1 to 14 (title pages; the commentary from Q. 4:148 to 4:161, including the covenant and the Sabbath); pp. 95 to 98 (the opening of al-Ma'ida, Q. 5:1-2, and the relation of al-Ma'ida to al-Nisa).
+  - Vol. 8: pp. 1 to 13 (title pages; Q. 6:111 to 6:115); pp. 260 to 263 (opening of al-A'raf, its place among the surahs, and the disjoined letters).
+  - Not read: vol. 6 from p. 15 to p. 94 and p. 99 on; vol. 8 from p. 14 to p. 259 and p. 264 on.
+- **Entities created (9, all `status.review: draft` with a provenance block):**
+  - `source/tafsir-manar-v06`, `source/tafsir-manar-v08` (primary, book; reliability note: edition not verified; editor's name and year read with OCR errors, not recorded)
+  - `concept/tahrif` (Rida's reading of Q. 6:115 and of the Qur'an's statement on the alteration of earlier scripture; one `perspectives` entry, Sunni lead, attributed to the Qur'an as Rida reads it)
+  - `concept/ahl-al-kitab` (Rida's argument on belief in some messengers; the Constantine polemic labelled as his)
+  - `concept/sunnat-allah` (Rida's reading of the patterns in the enmity of the proud against the prophets; sociological terms he uses, labelled)
+  - `concept/shayatin-al-ins-wal-jinn` (the disagreement over whether humans can be shayatin; two `perspectives` entries, both Sunni tafsir views as Rida reports them)
+  - `concept/al-ummi` (the Prophet described as unlettered as evidence of revelation; Rida's argument)
+  - `concept/uqud` (the duty to keep contracts; two `perspectives` entries: the verbal-offer rule as described by Rida, and Rida's critique)
+  - `concept/al-sabt` (the Sabbath and the breach recorded in the Qur'an and in the Manar's gloss)
+  - `concept/mithaq-bani-israil` (the covenant; Rida's reading of the end of the Torah and of Paran; the Torah passage must be checked on a printed copy)
+  - `concept/al-muqattaat` (Rida's preferred view of the disjoined letters; other views not yet read)
+- **Reused, not created:** `person/rashid-rida`, `concept/israiliyyat` (not edited), `person/mujahid-ibn-jabr`, `person/qatada-ibn-diama`, `person/al-hasan-al-basri`, `person/al-tabari`, `passage/quran-4-150` to `quran-4-155`, `quran-5-1`, `quran-6-111` to `quran-6-115`, `quran-7-1` (cited in prose only, since the schema has no concept-to-passage edge). `work/tafsir-al-manar` was not edited.
+- **Skipped / blocked:**
+  - No `person/ibn-abbas` or `person/ikrima` record: not found in `data/` by slug; the names are cited in prose.
+  - No `relations` on the concept records: the predicates that would link a concept to a passage (`mentions`, `revealed_about`) do not take a concept as their domain.
+  - The Qur'an verses are only referenced, never typed. The Torah passage quoted by Rida (vol. 6, pp. 12-13) is summarised, not quoted.
+  - The sentence in vol. 8, p. 12 on whether God guarantees the wording of earlier books ends at a page break in the OCR; flagged in `concept/tahrif`.
+- **Checks:** `npm run validate` reports 0 errors and no warnings on the new files.
+- **Next step:** read vol. 6 from p. 15 (the rest of Q. 4:161 onward, including Q. 4:171 and the Trinity passage) and p. 99 onward (the rest of al-Ma'ida's opening); read vol. 8 from p. 14 (the rest of Q. 6:115 onward, including the lawful food verses) and the body of al-A'raf (from p. 264, starting with the story of Adam). Each read yields one or two concept records; add a classical tafsir source (al-Tabari or Ibn Kathir) for the perspectives marked as Sunni.
 ## Tafsir al-Manar, volumes 4 and 5 (batch, draft, branch `lib-exp/tafsir-manar-v04-05`, 19 Oct 2026)
 
 - **Pages covered (OCR page markers):** vol. 4, pp. 1 to 12 (title pages; commentary on Q. 3:93 to 97: Abraham's religion, the first house, the station, the sanctity of the Haram, the duty of the pilgrimage, Rida's footnote on the Hajj in his time); vol. 5, pp. 1 to 8 (title pages; opening of the commentary on Q. 4:24 and 4:25: married women, those whom the right hand possesses, captives in a religious war).
