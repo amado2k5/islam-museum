@@ -1,0 +1,13 @@
+---
+id: event/wathiq-captive-ransom-231
+lang: ur
+source_lang: ar
+translators: ["Claude Haiku 5.5 (claude-haiku-5-5), draft translation"]
+---
+## خلاصہ
+سیوطی بیان کرتے ہیں کہ خلیفہ [[person/al-wathiq|الواثق]] نے سنہ 231ھ میں رومیوں سے چھ سو اوپر ایک ہزار مسلمان قیدی چھڑائے۔ {cite:tarikh-khulafa-minhaj-1434 p. 530}
+
+## رہائی کی شرط
+سیوطی نقل کرتے ہیں کہ [[person/ahmad-ibn-abi-duad|ابن ابی دؤاد]] نے کہا: جو قیدی کہے کہ قرآن مخلوق ہے، انہیں رہا کر دو اور انہیں دو دینار دو، اور جو انکار کرے اسے قید میں چھوڑ دو۔ {cite:tarikh-khulafa-minhaj-1434 p. 530}
+
+اس واقعے اور اس کی تفصیلات کی تصدیق کے لیے اضافی ماخذ درکار ہے، کیونکہ میوزیم کے پاس اس کتاب کا یہی ایک مقام ہے۔

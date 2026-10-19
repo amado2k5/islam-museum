@@ -1,0 +1,26 @@
+---
+id: group/banu-makhzum
+lang: ur
+source_lang: ar
+translators: ["Claude Haiku 5.5 (claude-haiku-5-5), draft translation"]
+---
+## خلاصہ
+ابن اسحاق حبشہ کی ہجرت کی فہرستوں میں اس شاخ کا نسب «مخزوم بن یقظہ بن مرہ بن کعب» بیان کرتے ہیں۔ {cite:ibn-hisham-saqqa 4/7} {cite:ibn-hisham-saqqa 4/10}
+
+## حبشہ کی ہجرت کی فصل میں اس شاخ کے افراد
+**حبشہ کے باقی مہاجرین:**
+- [[person/habbar-ibn-sufyan|ہبار بن سفیان]] {cite:ibn-hisham-saqqa 4/7}
+- [[person/abdullah-ibn-sufyan-makhzumi|عبداللہ بن سفیان المخزومی]] {cite:ibn-hisham-saqqa 4/7}
+- [[person/hisham-ibn-abi-hudhayfa|ہشام بن ابی حذیفہ]] {cite:ibn-hisham-saqqa 4/7}
+
+**حبشہ کی مہاجرات:**
+- [[person/umm-salama|ام سلمہ بنت ابی امیہ]] {cite:ibn-hisham-saqqa 4/10}
+
+**حبشہ کی سرزمین میں پیدا ہونے والے:**
+- [[person/zaynab-bint-abi-salama|زینب بنت ابی سلمہ]] {cite:ibn-hisham-saqqa 4/10}
+
+## نبوی خاندان کی فصل میں الرحیق المختوم (ص52)
+اسی شاخ سے [[person/fatima-bint-amr|فاطمہ بنت عمرو]] تھیں، جو عائذ بن عمران بن مخزوم بن یقظہ بن مرہ کی اولاد میں سے تھیں، اور وہ [[person/abdullah-ibn-abd-al-muttalib|عبداللہ]] یعنی نبی کے والد کی والدہ تھیں، اس لیے بنو مخزوم عبداللہ کے ماموں تھے {cite:mubarakpuri-raheeq p.52} {cite:talqih-fuhum-ahl-al-athr p.8-9}۔ جب [[person/abd-al-muttalib|عبدالمطلب]] اپنے بیٹے کو کعبہ لے کر آئے تاکہ نذر پوری کرتے ہوئے اسے ذبح کریں تو قریش نے انہیں روکا، خاص طور پر ان کے ماموں بنو مخزوم نے، اور ان کے بھائی [[person/abu-talib|ابو طالب]] نے بھی ([[event/vow-and-lot-of-abd-al-muttalib|عبدالمطلب کی نذر اور قرعہ]]) {cite:mubarakpuri-raheeq p.52} {cite:ibn-hisham-sira 1/151-155}۔
+
+## فضول کے حلف کے دن کے احلاف میں (الرحیق المختوم ص60)
+الرحیق المختوم اس شاخ کو ان «احلاف» میں شمار کرتا ہے جن کے خلاف زبیدی مظلوم نے فریاد کی جب [[person/al-as-ibn-wail|عاص بن وائل]] نے اس کا حق روک لیا؛ یہ عبد الدار، مخزوم، جمح، سہم اور عدی تھے، جنہوں نے اس کی پروا نہ کی، اور یہی [[event/hilf-al-fudul|حلف الفضول]] کا سبب بنا جو بنو ہاشم، بنو المطلب، اسد، زہرہ اور تیم نے باندھا {cite:mubarakpuri-raheeq p.60} {cite:mukhtasar-sirat-al-rasul-al-najdi p.30-31}۔
