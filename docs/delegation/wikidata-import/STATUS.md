@@ -8,3 +8,11 @@ Updated at every push to `main`. Lane: `wikidata-import` (`docs/delegation/wikid
 - Created: 0 · Linked: 0 · Skipped: 0 · `next_index`: 0
 - Baseline: `npm run validate` 0 errors / 1996 warnings; `npm test` 101 passed.
 - Nothing blocked.
+
+## 19 Oct 2026 — batches 1–3 (candidates 0–259)
+
+- Created: **34** draft records · Linked: **69** existing records to Wikidata items · Skipped: **157** · `next_index`: **260**
+- Skips by reason: mostly modern/post-1800 people, unconfirmed sources, out-of-scope terms and collectives; see `batches/0001.md`–`0002.md`.
+- Relinks fixed 5 wrong pre-existing QIDs (Ali, Abu Bakr, Malcolm X, sharia, tasawwuf); Khadija and Ahmed III duplicates merged into the richer existing records; Umayyad candidate Q45646 is the distinct dynasty item — the record keeps the caliphate item Q8575586.
+- `npm run validate`: 0 errors / 1997 warnings.
+- Nothing blocked; pushing per the every-200-created rule once 200 new records accumulate — pushing now anyway to keep remote current.
