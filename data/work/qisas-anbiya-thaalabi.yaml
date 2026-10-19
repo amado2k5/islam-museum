@@ -1,0 +1,18 @@
+id: work/qisas-anbiya-thaalabi
+class: work
+kind: book
+label: { ar: "قصص الأنبياء (العرائس)", en: "Qisas al-Anbiya' (al-'Ara'is)" }
+summary:
+  ar: "كتاب في قصص الأنبياء المذكورة في القرآن لأبي إسحاق الثعلبي النيسابوري (ت 427هـ). يبدأ بمقدمة في حكمة قصّ الله أخبار الماضين، ثم بالكونيات، ثم بقصص الأنبياء بدءاً بآدم. الطبعة المفحوصة لم تُتحقق بعد."
+  en: "Al-Tha'labi's collection of the stories of the prophets named in the Qur'an. It opens with why God narrates earlier histories, then cosmology, then the prophets, beginning with Adam. The edition used here is not yet verified."
+wings: [words]
+themes: [prophets, scripture-and-its-sciences]
+authors: [person/abu-ishaq-al-thalabi]
+sources: [source/qisas-anbiya-thaalabi-edition, source/shadharat-dhahab]
+provenance:
+  layer: own-research
+  source: "al-Tha'labi, Qisas al-Anbiya' (OCR scan, edition not verified), pp. 1-54 of the OCR markers"
+  generated_by: "Claude Code sub-agent (library-expansion)"
+  model: "claude-haiku-5-5"
+  run: "lib-exp-qisas-prophets-batch-01"
+status: { review: draft, completeness: 1, generated_by: "Claude Code sub-agent (claude-haiku-5-5); edition not verified" }
