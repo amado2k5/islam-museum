@@ -56,10 +56,11 @@ check(archives.length >= Math.ceil(FILES / 500), `${FILES} files packed into ${a
 
 // 2. Stage every archive on the test bucket
 const dir = mkdtempSync(join(tmpdir(), "r2-perf-"));
-for (const a of archives) {
+for (const [n, a] of archives.entries()) {
   const file = join(dir, a.name);
   writeFileSync(file, a.bytes);
   aws("s3", "cp", file, `s3://${bucket}/${STAGING}${a.name}`);
+  console.log(`staged ${n + 1}/${archives.length}: ${a.name} (${(a.bytes.byteLength / 1024).toFixed(0)} KB, ${a.ops} operations)`);
 }
 check(true, `staged ${archives.length} archives under ${STAGING}`);
 
@@ -71,6 +72,7 @@ const queue = archives.map((a) => a.name);
 async function postArchive(name) {
   inflight += 1;
   peak = Math.max(peak, inflight);
+  const began = Date.now();
   try {
     const res = await fetch(`${url}/process`, {
       method: "POST",
@@ -80,7 +82,12 @@ async function postArchive(name) {
     });
     const report = await res.json();
     results.push({ name, status: res.status, report });
-    console.log(`[${name}] HTTP ${res.status}: ${JSON.stringify(report.summary ?? report)}`);
+    console.log(`[${name}] HTTP ${res.status} after ${((Date.now() - began) / 1000).toFixed(1)} s: ${JSON.stringify(report.summary ?? report)}`);
+  } catch (err) {
+    // Record the failure and carry on, so every archive's outcome shows in the log.
+    const reason = err.cause?.code ?? err.cause?.message ?? err.message;
+    results.push({ name, status: "network-error", report: { error: String(reason) } });
+    console.log(`[${name}] NETWORK ERROR after ${((Date.now() - began) / 1000).toFixed(1)} s: ${reason}`);
   } finally {
     inflight -= 1;
   }
