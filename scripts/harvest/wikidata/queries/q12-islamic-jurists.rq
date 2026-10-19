@@ -1,0 +1,5 @@
+# Humans whose occupation (P106) is Islamic jurist (Q1999841) or a subclass. Notability filter: at least 5 sitelinks, so the list stays readable. IDs verified 2026-10-18.
+SELECT DISTINCT ?item WHERE {
+  ?item wdt:P31 wd:Q5 ; wdt:P106/wdt:P279* wd:Q1999841 ; wikibase:sitelinks ?sl .
+  FILTER(?sl >= 5)
+} LIMIT 10000
