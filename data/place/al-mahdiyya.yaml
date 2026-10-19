@@ -1,4 +1,5 @@
 id: place/al-mahdiyya
+aliases: [place/mahdiyya]   # merged from the duplicate place/mahdiyya (same city); the id still resolves
 class: place
 kind: city
 label: { ar: "المهدية", en: "al-Mahdiyya" }
@@ -16,5 +17,5 @@ provenance:
   source: "المقدسي، أحسن التقاسيم في معرفة الأقاليم (de Goeje) ص 181"
   generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
   run: lib-geo-ahsan-2
-sources: [source/ahsan-al-taqasim]
+sources: [source/ahsan-al-taqasim, source/tarikh-khulafa-minhaj-1434]
 status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }
