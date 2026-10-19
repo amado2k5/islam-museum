@@ -1,0 +1,20 @@
+id: event/mosul-earthquake-376
+class: event
+kind: disaster-relief
+label: { ar: "زلزلة الموصل 376هـ", en: "The Mosul earthquake, 376" }
+summary:
+  ar: "في رجب سنة ست وسبعين وثلثمائة ورد الخبر ببغداد بزلزلة كانت بالموصل هدمت كثيراً من المنازل وأهلكت خلقاً كثيراً من الناس {cite:muntazam-ibn-al-jawzi j.7 p.132}."
+  en: "In Rajab 376 word reached Baghdad of an earthquake at Mosul that demolished many houses and killed a great number of people {cite:muntazam-ibn-al-jawzi j.7 p.132}."
+wings: [time]
+periods: [period/buyid-seljuk-fatimid-era]
+regions: [levant-iraq]
+date:
+  start: { edtf: "0986-11~", hijri: "0376-07", calendar: julian, precision: month, status: tradition, derived: true, note: "في رجب 376؛ التحويل مشتق {cite:muntazam-ibn-al-jawzi j.7 p.132}", sources: [source/muntazam-ibn-al-jawzi] }
+map: { kind: locator, precision: approximate, center: [36.34, 43.13] }
+provenance:
+  layer: own-research
+  source: "المنتظم لابن الجوزي (ط حيدرآباد 1357، ج7، سنة 376)، قراءة آبل فيجن"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-muntazam-350-474-2
+sources: [source/muntazam-ibn-al-jawzi]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }
