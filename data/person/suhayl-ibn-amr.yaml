@@ -31,5 +31,7 @@ relations:
   - { type: participated_in, target: event/treaty-of-hudaybiyya, role: meccan-negotiator, sources: [source/ibn-ishaq-guillaume] }
   - { type: signed, target: event/treaty-of-hudaybiyya, role: signatory-for-quraysh, sources: [source/ibn-ishaq-guillaume] }
   - { type: converted_under, target: person/muhammad, start: { edtf: "0630" }, sources: [source/ibn-sad-tabaqat-bewley] }
+external_ids:
+  wikidata: Q1440361
 sources: [source/ibn-ishaq-guillaume, source/ibn-sad-tabaqat-bewley, source/watt-1956-medina, source/ibn-hisham-saqqa]
 status: { review: draft, completeness: 2, generated_by: "Devin; 2026-10-11" }
