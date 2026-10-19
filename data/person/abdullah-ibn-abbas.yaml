@@ -31,5 +31,7 @@ relations:
   - { type: member_of, target: group/banu-hashim }
   - { type: member_of, target: group/quraysh }
   - { type: participated_in, target: event/hijra, sources: [source/ibn-sad-tabaqat-bewley] }
+external_ids:
+  wikidata: Q423600
 sources: [source/ibn-sad-tabaqat-bewley, source/watt-1956-medina, source/muruj-al-dhahab, source/bakr-umayyad-state-1134715, source/sahih-al-bukhari, source/sahih-muslim]
 status: { review: draft, completeness: 2, generated_by: "Devin; 2026-10-11" }

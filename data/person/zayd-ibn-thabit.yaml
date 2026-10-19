@@ -28,5 +28,7 @@ relations:
   - { type: member_of, target: group/ansar }
   - { type: participated_in, target: event/battle-of-the-trench, sources: [source/ibn-sad-tabaqat-bewley] }
   - { type: student_of, target: person/muhammad, note: "Scribe of the revelation; headed the committees that collected the Qur'an under Abu Bakr and standardized it under Uthman.", sources: [source/ibn-sad-tabaqat-bewley] }
+external_ids:
+  wikidata: Q144302
 sources: [source/ibn-sad-tabaqat-bewley, source/watt-1956-medina, source/fihrist-ibn-al-nadim, source/sahih-al-bukhari]
 status: { review: draft, completeness: 2, generated_by: "Devin; 2026-10-11" }

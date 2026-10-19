@@ -15,5 +15,7 @@ regions: [arabia]
 relations:
   - { type: part_of, target: concept/kutub-al-sitta, sources: [source/sunan-al-nasai] }
 provenance: { layer: own-research, source: "Sunan al-Nasa'i source record", generated_by: "Devin (SWE-2 High)", run: "hadith-section-1" }
+external_ids:
+  wikidata: Q2175237
 sources: [source/sunan-al-nasai]
 status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High); structure only, no hadith texts" }
