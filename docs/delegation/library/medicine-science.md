@@ -74,8 +74,21 @@ None yet.
   - The heart, arteries and diaphragm sections (flagged on Nafis p.7) are not read yet; they are the next Nafis batch.
 - **Schema or enum needs:** none. `based_on` cannot start from a work (predicate domain), so the Tahrir–Almagest link is in prose only.
 
+## Batch 2 (draft, branch `lib-exp-medicine-science/manazir-maalim-zij-batch-1`)
+
+- **Pages covered (scan markers):**
+  - *Kitab al-Manazir*, vol. 1 (Books 1–3, Kuwait 1983, ed. Sabra): pp.1–13 (title, editor's preface, contents). The text of Book 1 itself is not yet read.
+  - *al-Zij al-Sabi* (al-Battani, Byblion 2005, ed. Nallino): pp.1–7 (title pages, contents, opening of the chapter list).
+- **Entities created (all `status.review: draft`):**
+  - `work/kitab-al-manazir`, `person/ibn-al-haytham` (the editor places him in the 5th century AH; no birth or death date in the pages read), `concept/optics`, `source/manazir-sabra-1983`
+  - `work/al-zij-al-sabi` (author linked to the existing `person/al-battani`; the existing record is not edited), `concept/astronomy`, `source/zij-sabi-nallino-byblion`
+- **Skipped and why:** the al-Battani person record already exists and is not changed in this batch. The Zij's author name varies across the title pages and is noted in the source's reliability note. Ibn al-Haytham's other names (kunya, nisba) are not printed in the pages read, so none are entered. No Qur'an text or honorifics typed.
+- **Schema or enum needs:** none.
+- **Edition notes:** the Manazir copy is volume 1 only (Books 1–3); the Zij copy's original Nallino edition is not confirmed from this reprint.
+
 ## Next step
 
-1. Read the OCR pages 19–68 (Ta'lim 5 organs and the rest of Ta'lim 6), and find the front matter if the OCR has it under another page (none found in pp.1–18). Then create the organ and powers concepts.
+0. Manazir: read Book 1 of the text (after the contents, scan p.13 on), and the Zij chapter bodies (scan pp.5–7 onward); add entities only where `data/` has none. Canon line below remains open.
+1. Canon (Ibn Sina): read the OCR pages 19–68 (Ta'lim 5 organs and the rest of Ta'lim 6), and find the front matter if the OCR has it under another page (none found in pp.1–18). Then create the organ and powers concepts.
 2. Confirm the edition (publisher, date, volume) before any record moves from draft.
 3. Add this lane's entries to `scripts/harvest/library/books.yaml` in the lane's own commit, then run `fetch_books.py` for the lane after the workstream commit is on `origin/main`.
