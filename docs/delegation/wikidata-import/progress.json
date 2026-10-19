@@ -5,7 +5,7 @@
  "candidates_file": "$HARVEST/wikidata-import/candidates.tsv",
  "candidates_query": "select distinct id from wd_claim where property='P140' and value_id='Q432' minus Wikidata ids already linked in data/, ordered by sitelink count desc",
  "linked_preexisting": 987,
- "next_index": 360,
+ "next_index": 460,
  "created_ids": [
   {
    "i": 24,
@@ -226,6 +226,66 @@
    "i": 351,
    "qid": "Q328796",
    "id": "person/nasir-khusraw"
+  },
+  {
+   "i": 367,
+   "qid": "Q369690",
+   "id": "person/ibn-kathir"
+  },
+  {
+   "i": 368,
+   "qid": "Q541530",
+   "id": "person/nur-jahan"
+  },
+  {
+   "i": 369,
+   "qid": "Q544228",
+   "id": "person/bahadur-shah-i-mughal"
+  },
+  {
+   "i": 377,
+   "qid": "Q284550",
+   "id": "person/al-mutasim"
+  },
+  {
+   "i": 382,
+   "qid": "Q511943",
+   "id": "person/ibrahim-pasha-franji"
+  },
+  {
+   "i": 388,
+   "qid": "Q238091",
+   "id": "person/nurbanu-sultan"
+  },
+  {
+   "i": 397,
+   "qid": "Q80764",
+   "id": "person/mihrimah-sultan"
+  },
+  {
+   "i": 401,
+   "qid": "Q2425979",
+   "id": "person/hafsa-sultan"
+  },
+  {
+   "i": 407,
+   "qid": "Q796587",
+   "id": "person/shams-tabrizi"
+  },
+  {
+   "i": 410,
+   "qid": "Q123088",
+   "id": "person/ismail-ii-safavi"
+  },
+  {
+   "i": 430,
+   "qid": "Q276938",
+   "id": "person/ismail-ibn-al-sharif"
+  },
+  {
+   "i": 436,
+   "qid": "Q437197",
+   "id": "person/safiye-sultan"
   }
  ],
  "linked_ids": [
@@ -707,6 +767,146 @@
    "qid": "Q205766",
    "to": "concept/umma",
    "replaced": "Q193355"
+  },
+  {
+   "i": 362,
+   "qid": "Q316349",
+   "to": "person/al-ashari"
+  },
+  {
+   "i": 373,
+   "qid": "Q1647182",
+   "to": "person/shihab-al-din-ghuri"
+  },
+  {
+   "i": 374,
+   "qid": "Q189550",
+   "to": "person/imad-al-din-zangi"
+  },
+  {
+   "i": 376,
+   "qid": "Q263779",
+   "to": "person/maria-al-qibtiyya"
+  },
+  {
+   "i": 379,
+   "qid": "Q315031",
+   "to": "person/musa-ibn-jafar-al-kazim"
+  },
+  {
+   "i": 384,
+   "qid": "Q128307",
+   "to": "person/al-walid-ibn-yazid"
+  },
+  {
+   "i": 385,
+   "qid": "Q128371",
+   "to": "person/marwan-ibn-muhammad"
+  },
+  {
+   "i": 389,
+   "qid": "Q293482",
+   "to": "person/al-mahdi"
+  },
+  {
+   "i": 391,
+   "qid": "Q312973",
+   "to": "person/nur-al-din-mahmud-ibn-zangi"
+  },
+  {
+   "i": 393,
+   "qid": "Q334847",
+   "to": "person/ibn-ishaq"
+  },
+  {
+   "i": 394,
+   "qid": "Q42104",
+   "to": "person/umm-salama"
+  },
+  {
+   "i": 402,
+   "qid": "Q293571",
+   "to": "person/al-nawawi"
+  },
+  {
+   "i": 404,
+   "qid": "Q337506",
+   "to": "person/sanjar"
+  },
+  {
+   "i": 413,
+   "qid": "Q1647787",
+   "to": "person/talha-ibn-ubaydullah"
+  },
+  {
+   "i": 414,
+   "qid": "Q1943555",
+   "to": "person/sawda-bint-zama"
+  },
+  {
+   "i": 415,
+   "qid": "Q2046261",
+   "to": "person/abdullah-ibn-umar"
+  },
+  {
+   "i": 416,
+   "qid": "Q335599",
+   "to": "person/abu-l-faraj-al-isfahani"
+  },
+  {
+   "i": 427,
+   "qid": "Q2138599",
+   "to": "person/umm-habiba-bint-abi-sufyan"
+  },
+  {
+   "i": 428,
+   "qid": "Q220789",
+   "to": "person/al-mutawakkil"
+  },
+  {
+   "i": 431,
+   "qid": "Q298419",
+   "to": "person/sokollu-mehmed-pasha"
+  },
+  {
+   "i": 433,
+   "qid": "Q333703",
+   "to": "person/fakhr-al-din-al-razi"
+  },
+  {
+   "i": 437,
+   "qid": "Q471116",
+   "to": "person/ibn-hajar-al-asqalani"
+  },
+  {
+   "i": 442,
+   "qid": "Q1647771",
+   "to": "person/abd-al-rahman-ibn-awf"
+  },
+  {
+   "i": 446,
+   "qid": "Q263829",
+   "to": "person/safiyya-bint-huyayy"
+  },
+  {
+   "i": 448,
+   "qid": "Q293500",
+   "to": "person/al-hasan-al-basri"
+  },
+  {
+   "i": 453,
+   "qid": "Q3303021",
+   "to": "person/maymuna-bint-al-harith"
+  },
+  {
+   "i": 455,
+   "qid": "Q334140",
+   "to": "person/kara-mustafa-pasha"
+  },
+  {
+   "i": 456,
+   "qid": "Q3595927",
+   "to": "person/juwayriya-bint-al-harith"
   }
  ],
  "skipped": [
@@ -1819,9 +2019,309 @@
    359,
    "Q238539",
    "modern royal consort d.2013"
+  ],
+  [
+   360,
+   "Q298678",
+   "Mahdi of Sudan d.1885, post-1800"
+  ],
+  [
+   361,
+   "Q311839",
+   "modern king d.1936"
+  ],
+  [
+   363,
+   "Q317799",
+   "modern shah d.1930"
+  ],
+  [
+   364,
+   "Q32078",
+   "Naqshbandi order; no confirmed source covering the tariqa itself, deferred"
+  ],
+  [
+   365,
+   "Q328765",
+   "modern writer d.1973"
+  ],
+  [
+   366,
+   "Q334894",
+   "modern ayatollah b.1959"
+  ],
+  [
+   370,
+   "Q656765",
+   "Babri Masjid; contested modern-event site needing sourced perspectives, deferred"
+  ],
+  [
+   371,
+   "Q1066124",
+   "title term; no matching record"
+  ],
+  [
+   372,
+   "Q15467111",
+   "modern monarch b.1959"
+  ],
+  [
+   375,
+   "Q240575",
+   "modern queen b.1951"
+  ],
+  [
+   378,
+   "Q310886",
+   "modern president d.2021"
+  ],
+  [
+   380,
+   "Q355603",
+   "modern shah d.1925"
+  ],
+  [
+   381,
+   "Q431515",
+   "modern politician b.1941"
+  ],
+  [
+   383,
+   "Q94839",
+   "modern militant b.1965"
+  ],
+  [
+   386,
+   "Q128906",
+   "Sharif Hussein d.1931, post-1800"
+  ],
+  [
+   387,
+   "Q234289",
+   "modern figure d.1964"
+  ],
+  [
+   390,
+   "Q299732",
+   "modern figure d.1963"
+  ],
+  [
+   392,
+   "Q317011",
+   "modern figure d.1922"
+  ],
+  [
+   395,
+   "Q63111184",
+   "modern figure b.1960"
+  ],
+  [
+   396,
+   "Q743252",
+   "modern chemist b.1965"
+  ],
+  [
+   398,
+   "Q121198",
+   "modern mosque (built 2005); out of scope"
+  ],
+  [
+   399,
+   "Q12200906",
+   "Day-of-Judgment concept; no confirmed source read on the page, deferred"
+  ],
+  [
+   400,
+   "Q152369",
+   "modern politician d.2025"
+  ],
+  [
+   403,
+   "Q299215",
+   "Sabbatai Zevi; conversion claim contested, no confirmed source, deferred"
+  ],
+  [
+   405,
+   "Q392564",
+   "modern mosque (1926); out of scope"
+  ],
+  [
+   406,
+   "Q46932",
+   "modern politician d.1919"
+  ],
+  [
+   408,
+   "Q816321",
+   "tariqa concept term; no matching record, deferred"
+  ],
+  [
+   409,
+   "Q907234",
+   "modern protectorate 1912-1956"
+  ],
+  [
+   411,
+   "Q1410729",
+   "honorific title term; no matching record"
+  ],
+  [
+   412,
+   "Q157197",
+   "modern president d.2007"
+  ],
+  [
+   417,
+   "Q337489",
+   "modern marji b.1930"
+  ],
+  [
+   418,
+   "Q464947",
+   "modern figure d.1967"
+  ],
+  [
+   419,
+   "Q57550",
+   "modern sultan d.2017"
+  ],
+  [
+   420,
+   "Q5960902",
+   "modern cleric b.1959"
+  ],
+  [
+   421,
+   "Q750014",
+   "modern Thai region; no relevance"
+  ],
+  [
+   422,
+   "Q98497406",
+   "modern president b.1983"
+  ],
+  [
+   423,
+   "Q1021580",
+   "Quranism is a modern contested movement; deferred"
+  ],
+  [
+   424,
+   "Q12243161",
+   "modern emir b.1940"
+  ],
+  [
+   425,
+   "Q1266031",
+   "angels-in-Islam concept; no confirmed source read on the page, deferred"
+  ],
+  [
+   426,
+   "Q1638114",
+   "modern prime minister b.1961"
+  ],
+  [
+   429,
+   "Q255233",
+   "modern singer b.1950"
+  ],
+  [
+   432,
+   "Q316443",
+   "modern poet d.1936"
+  ],
+  [
+   434,
+   "Q335495",
+   "modern figure d.1914"
+  ],
+  [
+   435,
+   "Q337500",
+   "modern writer d.1888"
+  ],
+  [
+   438,
+   "Q631210",
+   "Nogai Horde; no confirmed source covering it, deferred"
+  ],
+  [
+   439,
+   "Q643638",
+   "shahid concept; no matching record, deferred"
+  ],
+  [
+   441,
+   "Q138388",
+   "Mazar-i-Sharif shrine; no confirmed source on the page, deferred"
+  ],
+  [
+   443,
+   "Q198770",
+   "modern theologian d.1960"
+  ],
+  [
+   444,
+   "Q2047700",
+   "Famagusta cathedral-mosque; no confirmed source on the page, deferred"
+  ],
+  [
+   445,
+   "Q230530",
+   "modern actress b.1980"
+  ],
+  [
+   447,
+   "Q290015",
+   "houri concept; no confirmed source read on the page, deferred"
+  ],
+  [
+   449,
+   "Q310773",
+   "modern scientist d.2021"
+  ],
+  [
+   450,
+   "Q313242",
+   "modern ruler d.2020"
+  ],
+  [
+   451,
+   "Q314688",
+   "modern president d.2012"
+  ],
+  [
+   452,
+   "Q317797",
+   "modern figure b.1949"
+  ],
+  [
+   454,
+   "Q332574",
+   "Dhu'l-Kifl; Qur'anic figure of contested identity, needs sourced perspectives, deferred"
+  ],
+  [
+   457,
+   "Q457242",
+   "modern protectorate 1912-1956"
+  ],
+  [
+   458,
+   "Q467021",
+   "modern shah d.1907"
+  ],
+  [
+   459,
+   "Q503147",
+   "modern billionaire b.1953"
+  ],
+  [
+   440,
+   "Q12844800",
+   "present: record already links the empire item Q249578; candidate is the distinct dynasty item"
   ]
  ],
- "skipped_total": 222,
+ "skipped_total": 282,
  "skipped_by_reason": {
   "modern sovereign state; no matching record (al-Hind region is a different entity)": 1,
   "modern sovereign state; no matching record": 8,
@@ -1855,7 +2355,7 @@
   "modern singer d.1975; ar label hits are different Umm Kulthums (Companions)": 1,
   "generic title term; no matching record": 1,
   "archangel entity fits no existing record/class decision; deferred": 1,
-  "modern president d.2021": 3,
+  "modern president d.2021": 4,
   "generic office item; imama is the Shi'i doctrine and imam-masjid the prayer leader — no exact match": 1,
   "modern-era sultan d.1918; abd-al-hamid-i-uthmani is a different sultan": 1,
   "no link to Islamic history; P140 claim incidental": 1,
@@ -1868,7 +2368,7 @@
   "modern militant leader d.2019; no matching record": 1,
   "modern president b.1957": 1,
   "modern militant leader d.2022; no matching record": 1,
-  "modern politician d.2025": 1,
+  "modern politician d.2025": 2,
   "modern king d.1953; no matching record": 1,
   "modern politician d.1979": 1,
   "modern militant/political leader d.2024": 1,
@@ -1907,9 +2407,9 @@
   "modern ethnic group; no confirmed source": 1,
   "modern Chechen leader d.1996": 1,
   "modern poet d.1963": 1,
-  "honorific title term; no matching record": 1,
+  "honorific title term; no matching record": 2,
   "modern mandate polity; no matching record": 1,
-  "title term; no matching record": 3,
+  "title term; no matching record": 4,
   "modern king d.2005": 1,
   "Yoruba people; no confirmed source covering them": 1,
   "modern Afghan commander d.2001": 1,
@@ -1949,7 +2449,7 @@
   "modern Indonesian city; no matching record": 1,
   "modern king d.1982": 1,
   "modern president d.1987": 1,
-  "modern figure b.1960": 1,
+  "modern figure b.1960": 2,
   "modern president": 1,
   "Ottoman sultan d.1808, post-1800; no matching record": 1,
   "modern prime minister d.2025": 2,
@@ -1966,7 +2466,7 @@
   "'madhhab' term entity; no matching record, deferred": 1,
   "modern prime minister d.1951": 1,
   "modern politician b.1970": 1,
-  "present": 1,
+  "present": 2,
   "modern emir b.1952": 1,
   "ayah concept; no confirmed source read on the page, deferred": 1,
   "Montenegrins; no Islamic-history source covering them": 1,
@@ -2027,11 +2527,63 @@
   "modern king d.1958": 1,
   "modern khedive d.1895": 1,
   "Jordanian royal house item; a modern-dynasty frame, deferred": 1,
-  "modern politician b.1941": 1,
-  "modern royal consort d.2013": 1
+  "modern politician b.1941": 2,
+  "modern royal consort d.2013": 1,
+  "Mahdi of Sudan d.1885, post-1800": 1,
+  "modern king d.1936": 1,
+  "modern shah d.1930": 1,
+  "Naqshbandi order; no confirmed source covering the tariqa itself, deferred": 1,
+  "modern writer d.1973": 1,
+  "modern ayatollah b.1959": 1,
+  "Babri Masjid; contested modern-event site needing sourced perspectives, deferred": 1,
+  "modern monarch b.1959": 1,
+  "modern queen b.1951": 1,
+  "modern shah d.1925": 1,
+  "modern militant b.1965": 1,
+  "Sharif Hussein d.1931, post-1800": 1,
+  "modern figure d.1964": 1,
+  "modern figure d.1963": 1,
+  "modern figure d.1922": 1,
+  "modern chemist b.1965": 1,
+  "modern mosque (built 2005); out of scope": 1,
+  "Day-of-Judgment concept; no confirmed source read on the page, deferred": 1,
+  "Sabbatai Zevi; conversion claim contested, no confirmed source, deferred": 1,
+  "modern mosque (1926); out of scope": 1,
+  "modern politician d.1919": 1,
+  "tariqa concept term; no matching record, deferred": 1,
+  "modern protectorate 1912-1956": 2,
+  "modern president d.2007": 1,
+  "modern marji b.1930": 1,
+  "modern figure d.1967": 1,
+  "modern sultan d.2017": 1,
+  "modern cleric b.1959": 1,
+  "modern Thai region; no relevance": 1,
+  "modern president b.1983": 1,
+  "Quranism is a modern contested movement; deferred": 1,
+  "modern emir b.1940": 1,
+  "angels-in-Islam concept; no confirmed source read on the page, deferred": 1,
+  "modern prime minister b.1961": 1,
+  "modern singer b.1950": 1,
+  "modern poet d.1936": 1,
+  "modern figure d.1914": 1,
+  "modern writer d.1888": 1,
+  "Nogai Horde; no confirmed source covering it, deferred": 1,
+  "shahid concept; no matching record, deferred": 1,
+  "Mazar-i-Sharif shrine; no confirmed source on the page, deferred": 1,
+  "modern theologian d.1960": 1,
+  "Famagusta cathedral-mosque; no confirmed source on the page, deferred": 1,
+  "modern actress b.1980": 1,
+  "houri concept; no confirmed source read on the page, deferred": 1,
+  "modern scientist d.2021": 1,
+  "modern ruler d.2020": 1,
+  "modern president d.2012": 1,
+  "modern figure b.1949": 1,
+  "Dhu'l-Kifl; Qur'anic figure of contested identity, needs sourced perspectives, deferred": 1,
+  "modern shah d.1907": 1,
+  "modern billionaire b.1953": 1
  },
- "last_commit": "521a6f13a",
+ "last_commit": "10e1f8c81",
  "last_push": "2caca308e",
- "batch_current": 3,
- "updated_at": "2026-10-19T16:54:01-04:00"
+ "batch_current": 4,
+ "updated_at": "2026-10-19T16:57:19-04:00"
 }
