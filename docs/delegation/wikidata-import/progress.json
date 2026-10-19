@@ -5,7 +5,7 @@
  "candidates_file": "$HARVEST/wikidata-import/candidates.tsv",
  "candidates_query": "select distinct id from wd_claim where property='P140' and value_id='Q432' minus Wikidata ids already linked in data/, ordered by sitelink count desc",
  "linked_preexisting": 987,
- "next_index": 460,
+ "next_index": 560,
  "created_ids": [
   {
    "i": 24,
@@ -286,6 +286,71 @@
    "i": 436,
    "qid": "Q437197",
    "id": "person/safiye-sultan"
+  },
+  {
+   "i": 471,
+   "qid": "Q293490",
+   "id": "person/al-hadi"
+  },
+  {
+   "i": 472,
+   "qid": "Q293495",
+   "id": "person/al-amin"
+  },
+  {
+   "i": 474,
+   "qid": "Q312763",
+   "id": "person/muhammad-xii-andalusi"
+  },
+  {
+   "i": 478,
+   "qid": "Q559490",
+   "id": "person/farrukhsiyar-mughal"
+  },
+  {
+   "i": 480,
+   "qid": "Q621548",
+   "id": "person/turhan-sultan"
+  },
+  {
+   "i": 497,
+   "qid": "Q355327",
+   "id": "person/safi-i-safavi"
+  },
+  {
+   "i": 502,
+   "qid": "Q5670642",
+   "id": "person/saljuq-ibn-duqaq"
+  },
+  {
+   "i": 503,
+   "qid": "Q1251392",
+   "id": "person/shahzade-mustafa"
+  },
+  {
+   "i": 516,
+   "qid": "Q381754",
+   "id": "person/ibrahim-lodi"
+  },
+  {
+   "i": 517,
+   "qid": "Q401543",
+   "id": "person/ahmad-yasavi"
+  },
+  {
+   "i": 518,
+   "qid": "Q446965",
+   "id": "person/sultan-husayn-safavi"
+  },
+  {
+   "i": 542,
+   "qid": "Q544182",
+   "id": "person/jahandar-shah-mughal"
+  },
+  {
+   "i": 556,
+   "qid": "Q210704",
+   "id": "person/sulayman-i-safavi"
   }
  ],
  "linked_ids": [
@@ -907,6 +972,157 @@
    "i": 456,
    "qid": "Q3595927",
    "to": "person/juwayriya-bint-al-harith"
+  },
+  {
+   "i": 464,
+   "qid": "Q753276",
+   "to": "place/mina"
+  },
+  {
+   "i": 467,
+   "qid": "Q128413",
+   "to": "person/yazid-ibn-al-walid"
+  },
+  {
+   "i": 470,
+   "qid": "Q293460",
+   "to": "person/al-hajjaj-ibn-yusuf"
+  },
+  {
+   "i": 477,
+   "qid": "Q369981",
+   "to": "person/yusuf-ibn-tashfin"
+  },
+  {
+   "i": 486,
+   "qid": "Q1764613",
+   "to": "practice/ghusl-al-janaba"
+  },
+  {
+   "i": 488,
+   "qid": "Q2001710",
+   "to": "person/adam"
+  },
+  {
+   "i": 490,
+   "qid": "Q201465",
+   "to": "person/al-muqtadir-billah"
+  },
+  {
+   "i": 491,
+   "qid": "Q2300129",
+   "to": "person/ruqayya-bint-muhammad"
+  },
+  {
+   "i": 493,
+   "qid": "Q284585",
+   "to": "person/al-wathiq"
+  },
+  {
+   "i": 504,
+   "qid": "Q1436115",
+   "to": "concept/al-sira-al-nabawiyya"
+  },
+  {
+   "i": 505,
+   "qid": "Q19819982",
+   "to": "concept/imama"
+  },
+  {
+   "i": 506,
+   "qid": "Q2540543",
+   "to": "practice/salat-al-janaza"
+  },
+  {
+   "i": 507,
+   "qid": "Q284531",
+   "to": "person/al-mustansir-hakam"
+  },
+  {
+   "i": 508,
+   "qid": "Q284567",
+   "to": "person/al-mutadid"
+  },
+  {
+   "i": 509,
+   "qid": "Q284721",
+   "to": "person/al-mutamid"
+  },
+  {
+   "i": 511,
+   "qid": "Q293454",
+   "to": "person/al-mustasim-billah"
+  },
+  {
+   "i": 512,
+   "qid": "Q315920",
+   "to": "person/al-hasan-al-askari"
+  },
+  {
+   "i": 513,
+   "qid": "Q32991",
+   "to": "person/muhammad-ibn-al-qasim"
+  },
+  {
+   "i": 515,
+   "qid": "Q34418",
+   "to": "person/zayd-ibn-haritha"
+  },
+  {
+   "i": 521,
+   "qid": "Q76330",
+   "to": "person/anas-ibn-malik"
+  },
+  {
+   "i": 525,
+   "qid": "Q1110653",
+   "to": "person/ammar-ibn-yasir"
+  },
+  {
+   "i": 527,
+   "qid": "Q1164707",
+   "to": "person/zaynab-bint-muhammad"
+  },
+  {
+   "i": 532,
+   "qid": "Q1750054",
+   "to": "person/abu-tammam"
+  },
+  {
+   "i": 534,
+   "qid": "Q25088",
+   "to": "person/muhammad-ibn-ali-al-jawad"
+  },
+  {
+   "i": 537,
+   "qid": "Q315377",
+   "to": "person/ali-al-hadi"
+  },
+  {
+   "i": 557,
+   "qid": "Q220228",
+   "to": "person/abd-al-rahman-al-ghafiqi"
+  },
+  {
+   "i": 539,
+   "qid": "Q348593",
+   "to": "person/hisham-i-andalusi"
+  },
+  {
+   "i": 541,
+   "qid": "Q520090",
+   "to": "person/muhammad-khwarazmshah"
+  },
+  {
+   "i": 548,
+   "qid": "Q984663",
+   "to": "person/ibn-qutayba"
+  },
+  {
+   "i": 487,
+   "qid": "Q182363",
+   "to": "person/fatima-al-fihri",
+   "replaced": "Q3067547"
   }
  ],
  "skipped": [
@@ -2319,9 +2535,294 @@
    440,
    "Q12844800",
    "present: record already links the empire item Q249578; candidate is the distinct dynasty item"
+  ],
+  [
+   460,
+   "Q59080",
+   "Ottoman consort; no confirmed source on the page, deferred"
+  ],
+  [
+   461,
+   "Q659567",
+   "Mevlevi order; no confirmed source covering the tariqa itself, deferred"
+  ],
+  [
+   462,
+   "Q679524",
+   "Pontic Greeks; no confirmed source"
+  ],
+  [
+   463,
+   "Q719449",
+   "Shah Alam II d.1806, post-1800"
+  ],
+  [
+   465,
+   "Q834479",
+   "Giralda; no book source confirmed covering the minaret itself, deferred"
+  ],
+  [
+   466,
+   "Q849489",
+   "Chora church-mosque; no confirmed source, deferred"
+  ],
+  [
+   468,
+   "Q1979112",
+   "modern Yerevan mosque"
+  ],
+  [
+   469,
+   "Q2375533",
+   "title term; no matching record"
+  ],
+  [
+   473,
+   "Q312716",
+   "modern president d.2019"
+  ],
+  [
+   475,
+   "Q316553",
+   "modern politician b.1968"
+  ],
+  [
+   476,
+   "Q369907",
+   "modern scholar d.1979"
+  ],
+  [
+   479,
+   "Q58813",
+   "modern warlord d.2013"
+  ],
+  [
+   481,
+   "Q644677",
+   "Sehzade Mosque; no confirmed source covering the building, deferred"
+  ],
+  [
+   482,
+   "Q662653",
+   "modern protectorate"
+  ],
+  [
+   483,
+   "Q85317569",
+   "modern politician b.1967"
+  ],
+  [
+   484,
+   "Q1137533",
+   "Koutoubia Mosque; no confirmed source covering the building, deferred"
+  ],
+  [
+   485,
+   "Q1569078",
+   "Hyder Ali d.1782 in scope but no confirmed source on the page, deferred"
+  ],
+  [
+   489,
+   "Q2006542",
+   "modern dominion 1947-1956"
+  ],
+  [
+   492,
+   "Q281900",
+   "modern mosque (1913)"
+  ],
+  [
+   494,
+   "Q297285",
+   "Ali Pasha of Ioannina d.1822; Islam claim marginal, coverage uncertain, deferred"
+  ],
+  [
+   495,
+   "Q311796",
+   "modern king b.1952"
+  ],
+  [
+   496,
+   "Q314784",
+   "modern king d.1939"
+  ],
+  [
+   498,
+   "Q361581",
+   "modern president d.2024"
+  ],
+  [
+   499,
+   "Q44642",
+   "modern federation project"
+  ],
+  [
+   500,
+   "Q5244614",
+   "modern monarch b.1969"
+  ],
+  [
+   501,
+   "Q542074",
+   "modern politician b.1961"
+  ],
+  [
+   510,
+   "Q2895606",
+   "modern scientist d.2020"
+  ],
+  [
+   514,
+   "Q332566",
+   "modern preacher d.2005"
+  ],
+  [
+   519,
+   "Q457341",
+   "Asante; no confirmed source"
+  ],
+  [
+   520,
+   "Q58418",
+   "jahannam concept; no confirmed source read on the page, deferred"
+  ],
+  [
+   522,
+   "Q844614",
+   "fard term; no matching record"
+  ],
+  [
+   523,
+   "Q982838",
+   "modern novelist d.1948"
+  ],
+  [
+   524,
+   "Q1075838",
+   "da'wah concept term; no confirmed source read on the page, deferred"
+  ],
+  [
+   526,
+   "Q1146970",
+   "Soninke; no confirmed source"
+  ],
+  [
+   528,
+   "Q123139628",
+   "modern poet d.2023"
+  ],
+  [
+   529,
+   "Q1369122",
+   "Zabur scripture concept; no matching record, deferred"
+  ],
+  [
+   530,
+   "Q1476251",
+   "Nicosia cathedral-mosque; no confirmed source on the page, deferred"
+  ],
+  [
+   531,
+   "Q1518629",
+   "Islamic feminism; modern discourse, deferred"
+  ],
+  [
+   533,
+   "Q1994796",
+   "juz' division concept; no matching record, deferred"
+  ],
+  [
+   535,
+   "Q293679",
+   "modern businessman b.1955"
+  ],
+  [
+   536,
+   "Q307921",
+   "modern prime minister b.1954"
+  ],
+  [
+   538,
+   "Q319984",
+   "modern colony"
+  ],
+  [
+   540,
+   "Q369988",
+   "modern politician d.1964"
+  ],
+  [
+   543,
+   "Q581641",
+   "Divrigi mosque-hospital; no confirmed source covering the building, deferred"
+  ],
+  [
+   544,
+   "Q60805",
+   "modern businessman b.1966"
+  ],
+  [
+   545,
+   "Q820842",
+   "Xi'an mosque; no confirmed source covering the building, deferred"
+  ],
+  [
+   546,
+   "Q853935",
+   "modern mosque (1987); out of scope"
+  ],
+  [
+   547,
+   "Q929300",
+   "modern militant b.1963"
+  ],
+  [
+   549,
+   "Q12212836",
+   "modern activist b.1984"
+  ],
+  [
+   550,
+   "Q137108",
+   "Qadiriyya order; no confirmed source covering the tariqa itself, deferred"
+  ],
+  [
+   551,
+   "Q1762323",
+   "Injil scripture concept; no matching record, deferred"
+  ],
+  [
+   552,
+   "Q17991320",
+   "modern diplomat d.2024"
+  ],
+  [
+   553,
+   "Q1909993",
+   "Wadi al-Salam cemetery; no confirmed source covering it, deferred"
+  ],
+  [
+   554,
+   "Q19609480",
+   "modern figure d.2020"
+  ],
+  [
+   555,
+   "Q2081829",
+   "amir al-mu'minin title; no matching record"
+  ],
+  [
+   558,
+   "Q2342822",
+   "modern province"
+  ],
+  [
+   559,
+   "Q2419984",
+   "modern royal d.2016"
   ]
  ],
- "skipped_total": 282,
+ "skipped_total": 339,
  "skipped_by_reason": {
   "modern sovereign state; no matching record (al-Hind region is a different entity)": 1,
   "modern sovereign state; no matching record": 8,
@@ -2345,7 +2846,7 @@
   "modern president; no matching record": 2,
   "modern president d.1970": 1,
   "modern political/militant organisation; no matching record": 1,
-  "modern president d.2019": 2,
+  "modern president d.2019": 3,
   "modern politician d.2023": 1,
   "modern president b.1950": 1,
   "modern ethnic group item; the Islamic-world counterpart (al-Rum/Byzantines) is a different item": 1,
@@ -2409,7 +2910,7 @@
   "modern poet d.1963": 1,
   "honorific title term; no matching record": 2,
   "modern mandate polity; no matching record": 1,
-  "title term; no matching record": 4,
+  "title term; no matching record": 5,
   "modern king d.2005": 1,
   "Yoruba people; no confirmed source covering them": 1,
   "modern Afghan commander d.2001": 1,
@@ -2466,12 +2967,12 @@
   "'madhhab' term entity; no matching record, deferred": 1,
   "modern prime minister d.1951": 1,
   "modern politician b.1970": 1,
-  "present": 2,
+  "present: record already links the caliphate item Q8575586; candidate is the distinct dynasty item": 1,
   "modern emir b.1952": 1,
   "ayah concept; no confirmed source read on the page, deferred": 1,
   "Montenegrins; no Islamic-history source covering them": 1,
   "modern figure d.1958": 1,
-  "modern politician b.1968": 1,
+  "modern politician b.1968": 2,
   "Alevism is a contested denomination; needs a perspectives block with two cited voices, deferred": 1,
   "Jama Masjid Delhi (1650s); no book source confirmed covering the building, deferred": 1,
   "Dargins; no confirmed source": 1,
@@ -2505,7 +3006,7 @@
   "modern president b.1967": 1,
   "modern Algerian province": 1,
   "modern politician b.1946": 1,
-  "modern militant b.1963": 1,
+  "modern militant b.1963": 2,
   "modern thinker d.1977": 1,
   "modern revolutionary d.1979": 1,
   "jannah concept; no confirmed source read on the page, deferred": 1,
@@ -2580,10 +3081,64 @@
   "modern figure b.1949": 1,
   "Dhu'l-Kifl; Qur'anic figure of contested identity, needs sourced perspectives, deferred": 1,
   "modern shah d.1907": 1,
-  "modern billionaire b.1953": 1
+  "modern billionaire b.1953": 1,
+  "present: record already links the empire item Q249578; candidate is the distinct dynasty item": 1,
+  "Ottoman consort; no confirmed source on the page, deferred": 1,
+  "Mevlevi order; no confirmed source covering the tariqa itself, deferred": 1,
+  "Pontic Greeks; no confirmed source": 1,
+  "Shah Alam II d.1806, post-1800": 1,
+  "Giralda; no book source confirmed covering the minaret itself, deferred": 1,
+  "Chora church-mosque; no confirmed source, deferred": 1,
+  "modern Yerevan mosque": 1,
+  "modern scholar d.1979": 1,
+  "modern warlord d.2013": 1,
+  "Sehzade Mosque; no confirmed source covering the building, deferred": 1,
+  "modern protectorate": 1,
+  "modern politician b.1967": 1,
+  "Koutoubia Mosque; no confirmed source covering the building, deferred": 1,
+  "Hyder Ali d.1782 in scope but no confirmed source on the page, deferred": 1,
+  "modern dominion 1947-1956": 1,
+  "modern mosque (1913)": 1,
+  "Ali Pasha of Ioannina d.1822; Islam claim marginal, coverage uncertain, deferred": 1,
+  "modern king b.1952": 1,
+  "modern king d.1939": 1,
+  "modern president d.2024": 1,
+  "modern federation project": 1,
+  "modern monarch b.1969": 1,
+  "modern politician b.1961": 1,
+  "modern scientist d.2020": 1,
+  "modern preacher d.2005": 1,
+  "Asante; no confirmed source": 1,
+  "jahannam concept; no confirmed source read on the page, deferred": 1,
+  "fard term; no matching record": 1,
+  "modern novelist d.1948": 1,
+  "da'wah concept term; no confirmed source read on the page, deferred": 1,
+  "Soninke; no confirmed source": 1,
+  "modern poet d.2023": 1,
+  "Zabur scripture concept; no matching record, deferred": 1,
+  "Nicosia cathedral-mosque; no confirmed source on the page, deferred": 1,
+  "Islamic feminism; modern discourse, deferred": 1,
+  "juz' division concept; no matching record, deferred": 1,
+  "modern businessman b.1955": 1,
+  "modern prime minister b.1954": 1,
+  "modern colony": 1,
+  "modern politician d.1964": 1,
+  "Divrigi mosque-hospital; no confirmed source covering the building, deferred": 1,
+  "modern businessman b.1966": 1,
+  "Xi'an mosque; no confirmed source covering the building, deferred": 1,
+  "modern mosque (1987); out of scope": 1,
+  "modern activist b.1984": 1,
+  "Qadiriyya order; no confirmed source covering the tariqa itself, deferred": 1,
+  "Injil scripture concept; no matching record, deferred": 1,
+  "modern diplomat d.2024": 1,
+  "Wadi al-Salam cemetery; no confirmed source covering it, deferred": 1,
+  "modern figure d.2020": 1,
+  "amir al-mu'minin title; no matching record": 1,
+  "modern province": 1,
+  "modern royal d.2016": 1
  },
- "last_commit": "10e1f8c81",
+ "last_commit": "8176ef6d5",
  "last_push": "2caca308e",
- "batch_current": 4,
- "updated_at": "2026-10-19T16:57:19-04:00"
+ "batch_current": 5,
+ "updated_at": "2026-10-19T17:01:50-04:00"
 }

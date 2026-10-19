@@ -22,5 +22,6 @@ relations:
   - { type: child_of, target: person/sumayya-bint-khayyat }
   - { type: participated_in, target: event/persecution-of-mustadafin, role: "عُذّب مع أبويه", sources: [source/mubarakpuri-raheeq] }
   - { type: participated_in, target: event/second-migration-to-abyssinia, role: "يُشك في عدّه ضمن المهاجرين", confidence: low, sources: [source/mubarakpuri-raheeq] }
+external_ids: { wikidata: "Q1110653" }
 sources: [source/mubarakpuri-raheeq, source/ibn-hisham-sira, source/muruj-al-dhahab]
 status: { review: draft, completeness: 2, generated_by: "Devin; al-Raheeq al-Makhtum pp. 90, 94" }
