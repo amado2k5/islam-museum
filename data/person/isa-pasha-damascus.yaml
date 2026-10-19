@@ -1,0 +1,25 @@
+id: person/isa-pasha-damascus
+class: person
+label: { ar: "عيسى باشا نائب دمشق", en: "'Isa Pasha, na'ib of Damascus" }
+names:
+  - { kind: full, lang: ar, value: "المولى عيسى باشا بن إبراهيم الرومي الحنفي أمير أمراء دمشق" }
+gender: male
+roles: [emir, scholar]
+traditions: [sunni]
+wings: [people]
+themes: [politics-governance-and-authority]
+periods: [period/gunpowder-empires]
+regions: [anatolia-balkans, levant-iraq]
+summary:
+  ar: "المولى عيسى باشا بن إبراهيم الرومي الحنفي أمير أمراء دمشق؛ كان له أولاً اشتغال بالعلم وصار مدرساً بعدة مدارس حتى اتصل إلى إحدى الثمان، ثم صار موقعاً بالديوان السلطاني ثم ولي الإمارة في بعض البلاد ثم إمارة حلب فأحسن فيها السيرة ثم إمارة دمشق وعُزل منها ثم أعيد إليها ورسخ فيها؛ وكان عالماً بعدة من العلوم ولم يترك المطالعة أيام الإمارة، وكان له حسن أدب ولطف معاشرة إلا أنه كان إذا اشتد غضبه خمش يديه فيدميها وهو لا يدري، وأبطل كثيراً من الظلامات وعاش أهل القرى أيام ولايته عيشة طيبة، وكان مكرماً لأهل العلم ومشايخ الصوفية ولبس الخرقة القادرية من الشيخ حسن الكيلاني لما قدم دمشق يوم الأحد تاسع صفر، وأوصى أن يُلقن فلقّنه الشيخ أبو الفتح المالكي، وأوصى أن يُسحب على الأرض قبل الدفن إلى قبره تعريراً لنفسه، فحمل سريره إلى الصالحية فلما قرب من قبره سُحب على الأرض قليلاً تنفيذاً لوصيته، ودُفن في حوش الشيخ محيي الدين العربي عند شباكه الشرقي بوصية منه {cite:shadharat-dhahab p. 698-699}."
+  en: "The scholar-amir of Damascus — a madrasa man first (to the Eight Colleges), then muwaqqi' of the imperial diwan, then amir of Aleppo 'where his conduct was praised', then of Damascus, reseated after dismissal; he never left reading in office, abolished many wrongs and 'the villagers lived well in his days', took the Qadiri khirqa from Hasan al-Kilani; by his will he was dragged a little on the ground before burial 'in self-abasement' and buried in Ibn 'Arabi's hawsh at its eastern window {cite:shadharat-dhahab p. 698-699}."
+died: { edtf: "1543~", hijri: "0950", calendar: julian, precision: year, status: tradition, derived: true, note: "وفيها (950)؛ التحويل مشتق {cite:shadharat-dhahab p. 699}", sources: [source/shadharat-dhahab] }
+relations:
+  - { type: buried_in, target: place/damascus, sources: [source/shadharat-dhahab] }
+provenance:
+  layer: own-research
+  source: "شذرات الذهب — ابن العماد (ط مكتبة المثنى 1351، ج8، سنة 950)، قراءة آبل فيجن"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-shadharat-batch-146
+sources: [source/shadharat-dhahab]
+status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 High)" }

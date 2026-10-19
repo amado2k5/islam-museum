@@ -12,16 +12,16 @@ gender: male
 roles: [historian]
 traditions: [sunni]
 born: { edtf: "1486", hijri: "0891", calendar: julian, precision: year, status: tradition, sources: [source/mawsuat-a3lam-ulama-adaba] }
-died: { edtf: "1547", hijri: "0954", calendar: julian, precision: year, status: tradition, sources: [source/mawsuat-a3lam-ulama-adaba] }
+died: { edtf: "1547-08-06~", hijri: "0954-06-15", calendar: julian, precision: day, status: tradition, derived: true, note: "توفي ليلة الثلاثاء 15 جمادى الآخرة 954 {cite:shadharat-dhahab p. 717}؛ التحويل مشتق", sources: [source/shadharat-dhahab, source/mawsuat-a3lam-ulama-adaba] }
 summary:
-  ar: "مؤرخ مكي من بني هاشم، يتصل نسبه بمحمد ابن الحنفية، ولد سنة 891هـ (1486م) وتوفي سنة 954هـ (1547م)."
-  en: "Meccan historian of the Hashimi lineage, descended from Muhammad ibn al-Hanafiyya; born 891 AH (1486 CE), died 954 AH (1547 CE)."
+  ar: "جار الله بن عبد العزيز بن عمر بن محمد بن فهد الهاشمي المكي الشافعي الإمام العلامة المسند المؤرخ؛ ولد ليلة السبت العشرين من رجب سنة إحدى وتسعين وثمانمائة بمكة ونشأ بها في كفل أبويه، وسمع من السخاوي والمحب الطبري ولازم والده في القراءة والسماع وتوجه معه للمدينة فجاورا بها سنة تسع وتسعمائة وسمع بها من لفظ والده تجاه الحجرة الشريفة الكتب الستة والشفا لعياض وعلى السيد السمهودي بعضها وتاريته الوفا وفتاواه وألبسه خرقة التصوف، ورحل إلى مصر والشام وبيت المقدس وحلب وأنمين وأخذ بها وبغيرها عن نحو السبعين من المسندين وأجاز له خلق كثيرون جمعهم في مجمع حافل، ولازم الشيخ عبد الحق السنباطي والمحب النويري وبرع في العلوم العقلية والشرعية ودخل بلاد الروم وحدث بالحرمين؛ توفي ليلة الثلاثاء خامس عشر جمادى الآخرة سنة أربع وخمسين وتسعمائة {cite:shadharat-dhahab p. 717}."
+  en: "Jar Allah Ibn Fahd — b. Saturday eve 20 Rajab 891 at Mecca; he heard the Six Books and Qadi 'Iyad's Shifa' read by his father opposite the Noble Chamber during the family's 909 Medina mujawara, received the khirqa, then journeyed through Egypt, Syria, Jerusalem, Aleppo and Armenia taking from some seventy musnids; companion of 'Abd al-Haqq al-Sunbati; died Tuesday eve 15 Jumada II 954 {cite:shadharat-dhahab p. 717}."
 wings: [people]
 themes: [history-writing-and-social-thought]
 periods: [period/gunpowder-empires]
 regions: [arabia]
 story_roles:
   - { role: scholar, status: tradition, sources: [source/mawsuat-a3lam-ulama-adaba] }
-sources: [source/mawsuat-a3lam-ulama-adaba]
+sources: [source/mawsuat-a3lam-ulama-adaba, source/shadharat-dhahab]
 status: { review: draft, completeness: 1, generated_by: "Devin; Mawsuat A'lam vol 5 pp. 39-40, lib-mawsuat-a3lam" }
 provenance: { layer: own-research, source: "موسوعة أعلام العلماء والأدباء (أليكسو/دار الجيل 2004) ج5 ص39", generated_by: "Devin", model: "SWE-2 High", run: "lib-mawsuat-a3lam" }
