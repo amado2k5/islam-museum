@@ -47,3 +47,10 @@ Updated at every push to `main`. Lane: `wikidata-import` (`docs/delegation/wikid
 - Earlier batches: 24 creates (1260–1359), 24 creates (1360–1459), 30 creates split into two commits (1460–1559), 25 creates (1560–1659), 25 creates (1660–1759), 24 creates + duplicate merge of al-Abbas al-Jawhari (1760–1859), 25 creates (1860–1959).
 - `npm run validate`: 0 errors / 1999 warnings; `npm test` 101 passed.
 - Pushed to main: `66fdae59b` (merge `66fdae59b` includes art assets from the parallel lane). Nothing blocked.
+
+## 19 Oct 2026 — push through candidates 2559 (batches 0020–0026)
+
+- Created: **533** · Linked: **498** · Skipped: **1534** · `next_index`: **2560**
+- Pushed through `86085d1ae`: Umayyad-era companions and scholars, Mamluk-era figures, Ottoman viziers, mosques; parallel-lane collisions (Abdullah ibn Abd al-Malik, Layla al-Akhyaliyya, Khuzayma ibn Thabit, al-Dahhak ibn Qays, Muqatil, Abu al-Abbas al-Mursi, al-Turtushi) merged into richer existing records as links.
+- `npm run validate`: 0 errors / ~2000 warnings; `npm test`: 101 passed.
+- Nothing blocked.
