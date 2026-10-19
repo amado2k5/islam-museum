@@ -1,0 +1,16 @@
+{
+  "name": "islam-museum-r2-sync",
+  "private": true,
+  "type": "module",
+  "description": "Test harness for a zip-based R2 sync: a Worker that exports and applies archives, and a driver that compares them with git.",
+  "scripts": {
+    "dev": "wrangler dev --local --port 8787",
+    "test": "node test/driver.mjs --url http://127.0.0.1:8787 --token dev-token --folders data,content/en"
+  },
+  "dependencies": {
+    "fflate": "0.8.2"
+  },
+  "devDependencies": {
+    "wrangler": "4.45.0"
+  }
+}
