@@ -1,0 +1,22 @@
+id: event/baha-al-dawla-accession-379
+class: event
+kind: other
+label: { ar: "تقليد بهاء الدولة إمرة العراق 379هـ", en: "Baha' al-Dawla invested with the emirate, 379" }
+summary:
+  ar: "لما توفي شرف الدولة في جمادى الأولى سنة تسع وسبعين وثلثمائة عهد إلى ولده أبي نصر أحمد، فاجتمع العسكر وطالبوا برسم البيعة، وترددت المراسلات بين أبي نصر والطائع حتى حلف كل واحد منهما لصاحبه على صدق الطوية وصحة العقيدة، وركب الطائع لله الطيار إلى دار الملكة بالكرخ معزياً فقبّل أبو نصر الأرض ثلاثاً، ويوم السبت عاشر جمادى الآخرة ركب إلى حضرة الطائع فخلع عليه الخلع السلطانية وقلّده لواءين ولقّبه بهاء الدولة وضياء الملة، وسار العسكر كله بين يديه إلى باب الشماسية، وأقرّ الوزير أبا منصور ابن صالحان على الوزارة {cite:muntazam-ibn-al-jawzi j.7 p.148-149}."
+  en: "On Sharaf al-Dawla's death in Jumada I 379 the army demanded the accession bounty from his son Abu Nasr Ahmad; after exchanges and mutual oaths of sincere intent, al-Ta'i' came by boat to Dar al-Mamlaka at the Karkh to condole, and on Saturday 10 Jumada II the young emir rode to the caliph's presence, received the sultanic robes and two standards and the laqabs Baha' al-Dawla wa-Diya' al-Milla, the whole army marching before him to Bab al-Shammasiyya, while Abu Mansur Ibn Salihan was confirmed as wazir {cite:muntazam-ibn-al-jawzi j.7 p.148-149}."
+wings: [time]
+periods: [period/buyid-seljuk-fatimid-era]
+regions: [levant-iraq]
+date:
+  start: { edtf: "0989-09-21~", hijri: "0379-06-10", calendar: julian, precision: day, status: tradition, derived: true, note: "يوم السبت 10 جمادى الآخرة 379؛ التحويل مشتق {cite:muntazam-ibn-al-jawzi j.7 p.149}", sources: [source/muntazam-ibn-al-jawzi] }
+relations:
+  - { type: occurred_at, target: place/baghdad, sources: [source/muntazam-ibn-al-jawzi] }
+map: { kind: locator, precision: approximate, center: [33.34, 44.39] }
+provenance:
+  layer: own-research
+  source: "المنتظم لابن الجوزي (ط حيدرآباد 1357، ج7، سنة 379)، قراءة آبل فيجن"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-muntazam-350-474-2
+sources: [source/muntazam-ibn-al-jawzi]
+status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 High)" }

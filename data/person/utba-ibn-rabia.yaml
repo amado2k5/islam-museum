@@ -27,5 +27,7 @@ relations:
   - { type: member_of, target: group/banu-abd-shams }
   - { type: member_of, target: group/quraysh }
   - { type: participated_in, target: event/battle-of-badr, role: meccan-side, sources: [source/ibn-ishaq-guillaume] }
+external_ids:
+  wikidata: Q3457432
 sources: [source/ibn-ishaq-guillaume, source/ibn-sad-tabaqat-bewley]
 status: { review: draft, completeness: 2, generated_by: "Devin; 2026-10-11" }

@@ -31,5 +31,7 @@ relations:
   - { type: participated_in, target: event/battle-of-badr, sources: [source/ibn-sad-tabaqat-bewley] }
   - { type: traveled_to, target: place/yemen, sources: [source/ibn-sad-tabaqat-bewley] }
   - { type: participated_in, target: event/mission-of-muadh-to-yemen, role: "أمير رسل النبي إلى اليمن", sources: [source/ibn-hisham-saqqa] }
+external_ids:
+  wikidata: Q1147464
 sources: [source/ibn-sad-tabaqat-bewley, source/ibn-ishaq-guillaume, source/ibn-hisham-saqqa, source/sahih-al-bukhari]
 status: { review: draft, completeness: 2, generated_by: "Devin; 2026-10-11" }

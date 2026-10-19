@@ -24,5 +24,7 @@ relations:
   - { type: ruler_of, target: polity/sasanian-empire, start: { edtf: "0590" }, end: { edtf: "0628" }, sources: [source/tabari-bosworth-1999] }
   - { type: corresponded_with, target: person/muhammad, note: "The tradition reports the Prophet's letter to Kisra and the shah's contemptuous reply.", sources: [source/ibn-sad-tabaqat-bewley, source/tabari-bosworth-1999] }
   - { type: fought, target: polity/byzantine-empire, start: { edtf: "0602" }, end: { edtf: "0628" }, note: "The great Byzantine-Sasanian war that exhausted both empires.", sources: [source/kaegi-2003, source/tabari-bosworth-1999] }
+external_ids:
+  wikidata: Q212732
 sources: [source/tabari-bosworth-1999, source/kaegi-2003]
 status: { review: draft, completeness: 2, generated_by: "Devin; 2026-10-11" }

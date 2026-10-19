@@ -1,0 +1,28 @@
+id: person/al-daraqutni
+class: person
+label: { ar: "الدارقطني", en: "Al-Daraqutni" }
+names:
+  - { value: "علي بن عمر بن أحمد بن مهدي بن مسعود بن دينار بن عبد الله أبو الحسن الدارقطني", kind: full }
+  - { value: "أبو الحسن الدارقطني", kind: alternate }
+gender: male
+roles: [scholar]
+summary:
+  ar: "علي بن عمر أبو الحسن الدارقطني (306–385هـ)، حافظ بغداد وفريد عصره؛ انتهى إليه علم الأثر والمعرفة بأسماء الرجال وعلل الحديث وانفرد بالحفظ، وكان الحاكم يقول ما رأى الدارقطني مثل نفسه، وقد اجتمع له مع علم الحديث المعرفة بالقراءات والنحو والفقه والشعر مع الأمانة والعدالة وصحة العقيدة. وحُكي أنه حضر في حداثته مجلس إسماعيل الصفار وهو ينسخ فأُنكر عليه فأعاد من الفور أسانيد ثمانية عشر حديثاً ومتونها على ترتيب الإملاء؛ وقيل إن كتاب «العلل» الذي يُروى عنه نقله البرقاني من إملائه على أبي منصور بن حمدان الصيرفي. توفي يوم الثلاثاء سابع ذي القعدة سنة خمس وثمانين ودفن في مقبرة معروف {cite:muntazam-ibn-al-jawzi j.7 p.183-184}."
+  en: "'Ali b. 'Umar Abu'l-Hasan al-Daraqutni (306–385), Baghdad's hafiz, singular of his age: the science of transmitted reports, narrators' names and the hidden defects of hadith ended with him; al-Hakim said al-Daraqutni never saw his own like. As a youth at Isma'il al-Saffar's circle he was rebuked for copying while listening — and recited back eighteen dictated hadiths, isnads and texts in order. The Kitab al-'Ilal current under his name was taken down by al-Barqani from his dictation at Abu Mansur b. Hamdan's gatherings. He died Tuesday 7 Dhu'l-Qa'da 385, buried at Maqbarat Ma'ruf {cite:muntazam-ibn-al-jawzi j.7 p.183-184}."
+wings: [people]
+periods: [period/buyid-seljuk-fatimid-era]
+regions: [levant-iraq]
+themes: [scripture-and-its-sciences]
+born:
+  { edtf: "0918-11~", hijri: "0306-11", calendar: julian, precision: month, status: tradition, derived: true, note: "ولد لخمس خلون من ذي القعدة 306؛ التحويل مشتق {cite:muntazam-ibn-al-jawzi j.7 p.184}", sources: [source/muntazam-ibn-al-jawzi] }
+died:
+  { edtf: "0995-11-08~", hijri: "0385-11-07", calendar: julian, precision: day, status: tradition, derived: true, note: "توفي يوم الثلاثاء 7 ذو القعدة 385؛ التحويل مشتق {cite:muntazam-ibn-al-jawzi j.7 p.184}", sources: [source/muntazam-ibn-al-jawzi] }
+relations:
+  - { type: teacher_of, target: person/al-barqani-ahmad-ibn-muhammad, role: "أملى عليه العلل في مجالس أبي منصور بن حمدان", sources: [source/muntazam-ibn-al-jawzi] }
+provenance:
+  layer: own-research
+  source: "المنتظم لابن الجوزي (ط حيدرآباد 1357، ج7، وفيات سنة 385)، قراءة آبل فيجن"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-muntazam-350-474-2
+sources: [source/muntazam-ibn-al-jawzi]
+status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 High)" }

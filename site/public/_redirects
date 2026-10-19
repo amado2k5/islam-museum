@@ -1,8 +1,7 @@
-# Transparent proxy: API JSON is served from R2 (moved there to stay under the
-# 100k-file CF Pages limit). The URL seen by clients is unchanged; CF Pages
-# fetches the content from R2 and serves it. CF transform rules for CORS on
-# /api/* still apply since the client-facing URL does not change.
-/api/*  https://pub-ab3983f1cb684ba8bb7c10be32804f74.r2.dev/api/:splat  200
+# API JSON is served from the R2 bucket at api.islam.museum (moved there to stay
+# under the 100k-file CF Pages limit). Cloudflare Pages cannot proxy to another
+# domain, so the old /api/ addresses answer with a permanent redirect instead.
+/api/*  https://api.islam.museum/api/:splat  301
 
 # Permanent redirects for renamed entities.
 # Cloudflare Pages resolves these at the edge as proper 301s.

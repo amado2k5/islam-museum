@@ -1,0 +1,23 @@
+id: event/tarsus-falls-354
+class: event
+kind: conquest
+label: { ar: "سقوط طرسوس بيد الروم 354هـ", en: "Tarsus falls to the Byzantines, 354" }
+summary:
+  ar: "في سنة أربع وخمسين وثلثمائة جاء ملك الروم إلى الصيصة ففتحها وقتل من أهلها مقتلة عظيمة وساق من بقي وكانوا نحو مائتي ألف، ومضى إلى طرسوس طالباً لحصارها فأذعنوا بالطاعة فأعطاهم الأمان فدخلها وأمرهم بالانتقال عنها فانتقلوا، وجعل المسجد الجامع إصطبلاً لدوابه ونقل ما فيه من القناديل إلى بلده وأحرق المنبر، ثم أمر بعمارتها فتراجع أهلها وتنصّر بعضهم {cite:muntazam-ibn-al-jawzi j.7 p.28}."
+  en: "In 354 the Byzantine emperor took Sis with a great slaughter and marched on Tarsus; the city surrendered on aman, its people were moved out, the congregational mosque made a stable for his beasts, its candelabra carried off and the minbar burned; on rebuilding some of its people returned and some converted {cite:muntazam-ibn-al-jawzi j.7 p.28}."
+wings: [time]
+periods: [period/abbasid-fragmentation]
+regions: [levant-iraq]
+date:
+  start: { edtf: "0965~", hijri: "0354", calendar: julian, precision: year, status: tradition, derived: true, note: "فيها (354)؛ التحويل مشتق {cite:muntazam-ibn-al-jawzi j.7 p.28}", sources: [source/muntazam-ibn-al-jawzi] }
+sides:
+  - label: { ar: "الروم" }
+  - label: { ar: "أهل الثغور الشامية" }
+map: { kind: campaign, precision: approximate, center: [36.92, 34.89] }
+provenance:
+  layer: own-research
+  source: "المنتظم لابن الجوزي (ط حيدرآباد 1357، ج7، سنة 354)، قراءة آبل فيجن"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-muntazam-350-474-2
+sources: [source/muntazam-ibn-al-jawzi]
+status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 High)" }

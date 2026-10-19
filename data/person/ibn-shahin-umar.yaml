@@ -1,0 +1,25 @@
+id: person/ibn-shahin-umar
+class: person
+label: { ar: "أبو حفص ابن شاهين الواعظ", en: "Abu Hafs Ibn Shahin" }
+names:
+  - { value: "عمر بن عثمان بن محمد بن أيوب أبو حفص الواعظ المعروف بابن شاهين", kind: full }
+gender: male
+roles: [scholar]
+summary:
+  ar: "عمر بن عثمان أبو حفص الواعظ المعروف بابن شاهين (297–385هـ)، محدث بغداد بالجانب الشرقي؛ قال إن أول ما كتب الحديث بيده سنة ثمان وثلاثمائة وله إحدى عشرة سنة، وقال إنه صنّف ثلاثة وثلاثين مصنفاً أحدها التفسير الكبير في ألف جزء والمسند في ألف وخمسمائة جزء والتاريخ في مائة وخمسين جزءاً والزهد في مائة جزء، وحسب ما اشترى من الحبر فكان سبعمائة درهم؛ توفي في الحادي والعشرين من ذي الحجة سنة خمس وثمانين ودفن بمقبرة باب حرب {cite:muntazam-ibn-al-jawzi j.7 p.186-187}."
+  en: "'Umar b. 'Uthman Abu Hafs the preacher, known as Ibn Shahin (297–385), muhaddith of eastern Baghdad: he first wrote hadith with his own hand at eleven, in 308, and counted thirty-three works to his name — among them a great tafsir of a thousand parts, a Musnad of fifteen hundred, a Tarikh of a hundred and fifty, and a Zuhd of a hundred; he reckoned he had spent seven hundred dirhams on ink. He died 21 Dhu'l-Hijja 385, buried at Bab Harb cemetery {cite:muntazam-ibn-al-jawzi j.7 p.186-187}."
+wings: [people]
+periods: [period/buyid-seljuk-fatimid-era]
+regions: [levant-iraq]
+themes: [scripture-and-its-sciences]
+born:
+  { edtf: "0909-10~", hijri: "0297-02", calendar: julian, precision: month, status: tradition, derived: true, note: "ولد في صفر 297؛ التحويل مشتق {cite:muntazam-ibn-al-jawzi j.7 p.186}", sources: [source/muntazam-ibn-al-jawzi] }
+died:
+  { edtf: "0996-01-22~", hijri: "0385-12-21", calendar: julian, precision: day, status: tradition, derived: true, note: "توفي 21 ذو الحجة 385؛ التحويل مشتق {cite:muntazam-ibn-al-jawzi j.7 p.187}", sources: [source/muntazam-ibn-al-jawzi] }
+provenance:
+  layer: own-research
+  source: "المنتظم لابن الجوزي (ط حيدرآباد 1357، ج7، وفيات سنة 385)، قراءة آبل فيجن"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-muntazam-350-474-2
+sources: [source/muntazam-ibn-al-jawzi]
+status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 High)" }
