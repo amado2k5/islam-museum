@@ -65,5 +65,5 @@ jobs:
           node-version: 22
       - name: Install Worker dependencies
         run: npm ci --prefix workers/r2-sync
-      - name: Run sync against the test bucket
-        run: node workers/r2-sync/test/driver.mjs --url "$SYNC_URL" --token "$SYNC_TOKEN" --folders "${{ inputs.folders }}"
+      - name: Archive logic test (in-memory bucket)
+        run: node workers/r2-sync/test/archive-test.mjs
