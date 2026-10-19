@@ -1,0 +1,17 @@
+{
+  "task": "Import Islam-related Wikidata items (P140=Q432) from the local subset into data/, autonomously, in batches of <=25 records, pushing to main every 200 new entries. Owner's megaplan of 19 Oct 2026; see README.md.",
+  "candidates_total": 82296,
+  "candidates_sha256": "7f50762aa737fffd9a4b275965e2fa09eb0fd9a324e26ea0e859af07ed4d6189",
+  "candidates_file": "$HARVEST/wikidata-import/candidates.tsv",
+  "candidates_query": "select distinct id from wd_claim where property='P140' and value_id='Q432' minus Wikidata ids already linked in data/, ordered by sitelink count desc",
+  "linked_preexisting": 987,
+  "next_index": 0,
+  "created_ids": [],
+  "linked_ids": [],
+  "skipped_total": 0,
+  "skipped_by_reason": {},
+  "last_commit": null,
+  "last_push": null,
+  "batch_current": 1,
+  "updated_at": "2026-10-19T20:05:00-04:00"
+}
