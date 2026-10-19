@@ -64,6 +64,20 @@ _Prepared 17 October 2026. Part A is an internal brief for the founder and is no
 | Every record is currently in `draft` review status; none is marked reviewed or verified | `docs/coverage.md`, "By review status" | Verified. The dossier must not say "verified content" |
 | WCAG 2.2 AA target; readable without JavaScript | `AGENTS.md`, `docs/site/README.md` | Rule verified; no third-party audit yet |
 
+### A.6 Changes since filing (checked 18 October 2026, 21:30 Toronto time)
+
+The PDF sent to CCUNESCO and the DPGA form (GID0094424) describe the repository as of 17 October 2026. Main has moved since. Each change below is classed as the gates document requires (`docs/ai-change-gates.md` §3), with what was done about it.
+
+| Change on main | Class | Submitted claim affected | Status |
+|---|---|---|---|
+| Hosting moved from GitHub Pages to Cloudflare Pages (paid plan) with the search indexes and the API JSON on Cloudflare R2 (commits fe4ef596d to 1847d76fb, 18 Oct) | submission-impacting | Dossier §2 table and Annex A ("GitHub Pages behind Cloudflare"); DPGA indicator 4 answer ("GitHub Pages behind Cloudflare, replaceable by any static host"); privacy page "Who delivers the files" | Dossier, evidence map, privacy page (ar, en, ur), README, SECURITY.md and AGENTS.md updated in this commit. The substance of the claim holds: static files, no server code, any static host can serve `dist/`. Tell the DPGA only if asked; mention in the next letter to CCUNESCO. |
+| **The public API returns 404** at `islam.museum/api/v1/*` since the move: Cloudflare Pages cannot proxy `/api/*` to an external host (its `_redirects` proxying "will only support relative URLs on your site"), so the 200 rule in `site/public/_redirects` does nothing; the files exist on R2 (`pub-ab3983f1cb684ba8bb7c10be32804f74.r2.dev/api/v1/...`) | submission-impacting | DPGA indicator 6 evidence links (`/api/v1/meta/index.json`, `/api/v1/person/index.json`, `/api/v1/person/ibn-sina.json`, graph dumps), dossier §2 "Machine access", `llms.txt`, `docs/data/README.md`, the footer "Open data (JSON)" link | **Open.** Fix needed before a reviewer clicks: give the R2 bucket a custom domain (for example `api.islam.museum`) and 301 `/api/*` to it, or restore `api/` to the Pages deployment. Until then the submitted links are dead. |
+| Urdu is now a full published language: interface, labels and 11,742 prose files (`content/ur/`), and AGENTS.md now requires every change to ship with English and Urdu | non-impacting (growth) | DPGA "available languages" said Urdu articles "in progress"; dossier said Urdu interface only | True then, truer now. Noted in the evidence map; no disclosure needed. |
+| Counts grew: 20,574 records (was 19,084), 31,439 relations (29,996), 4,580 persons, 1,523 events, 19,263 Arabic and 19,153 English prose files, 1.46 sources per record; all records still `draft` | non-impacting (growth) | Figures dated 17 Oct in both submissions | No action; the submissions date their figures. Re-quote from `docs/coverage.md` in any new letter. |
+| 750 AI-generated illustrations published in the Architecture and Art gallery (`/<lang>/art/`, `site/src/data/architecture-art.json`, images in `site/public/media/architecture-art/`), made locally with an open-weights model under prompt rules that exclude people, faces, figures and text; each page carries an "AI-generated illustration" badge and disclaimer | submission-impacting (media story) | DPGA 9b "types of content" said "a small number of illustrations and maps, accepted only under whitelisted open licences, with alt text"; dossier and AGENTS.md: no AI-generated portraits, alt text in every published language | Partly open. The no-portrait rule holds (no people are rendered). Gaps: the gallery entries have Arabic alt text only, not English or Urdu; no licence is stated for the renders on the page or in a `data/media/` record. Add a licence line (the museum's own illustrations, CC0) to the gallery and English and Urdu alt text to the JSON; then the DPGA answer is accurate again. |
+| 187 V&A photographs re-licensed from the vague `institution-open` to `VAM-NC` (non-commercial, embedded by URL) | submission-impacting | DPGA "right to redistribute" wording | Correction email drafted (see the conversation of 17 Oct); evidence map and `media-licence-audit.md` updated. Send if the reviewer asks, or proactively. |
+| Social links (X, YouTube, TikTok, Instagram, WhatsApp) and support links (PayPal, Patreon, LaunchGood) added to the footer as plain links; RSS feed added | non-impacting | Privacy claims (no third-party scripts) | Verified: links only, no embedded scripts or iframes; `check:static` still passes in CI. |
+
 What the dossier deliberately does not claim: an institutional partner, a legal entity, a human-reviewed corpus, a user study, or a track record longer than the project has. Each of these is a stated next step instead.
 
 ---
@@ -156,7 +170,7 @@ Submitted to the Canadian Commission for UNESCO by Ahmed Abdelaal, founder, Oakv
 
 | Layer | Choice | Consequence for the public |
 |---|---|---|
-| Hosting | Static files on GitHub Pages, cached by Cloudflare | No servers, no databases, no per-visitor computation; the site is free to run and free to copy |
+| Hosting | Static files on Cloudflare Pages, with the search indexes and the open-data JSON on Cloudflare R2 storage (GitHub Pages kept as a fallback mirror) | No servers, no databases, no per-visitor computation; the built site is a folder any static host can serve, and anyone can copy it |
 | Runtime AI | None | No model, API or server code runs for a visitor; AI is used only in the building phase, under review |
 | Visitor data | No accounts, no cookies, no advertising, no third-party tracking scripts | Traffic is counted only at the network edge, without identifying anyone |
 | Front end | Astro, Svelte islands, Tailwind; TypeScript build scripts | Every page is readable with JavaScript disabled; interactive layers are additive |
@@ -230,7 +244,7 @@ In return the museum commits to: completing its DPGA registration and WSIS submi
 | Default language | Arabic (right-to-left); English translations in progress |
 | Records / relations | 19,084 / 29,996 (17 October 2026) |
 | Licences | Data CC0 1.0; prose CC BY-SA 4.0; code MIT |
-| Hosting | Static files, GitHub Pages behind Cloudflare; no servers, no databases, no runtime AI |
+| Hosting | Static files on Cloudflare Pages and R2 (GitHub Pages fallback); no servers, no databases, no runtime AI |
 | Privacy | No accounts, no cookies, no advertising, no third-party tracking |
 | Accessibility | WCAG 2.2 AA target; readable without JavaScript |
 | Machine access | Static JSON API, JSON-LD, sitemaps, `llms.txt`, Wikidata alignment |
