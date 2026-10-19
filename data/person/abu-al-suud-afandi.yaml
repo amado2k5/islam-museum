@@ -5,8 +5,10 @@ names:
   - { value: "أبو السعود محمد بن محمد بن مصطفى العمادي الإسكليبي", kind: full }
 gender: male
 summary:
-  ar: "مفتي الدولة العثمانية المعروف بخوجة جلبي، صاحب تفسير إرشاد العقل السليم الذي أتم تبييضه في سنة واشتهر حتى سمي خطيب المفسرين {cite:kashf-zunun-furqan p. 348-349}."
-  en: "The Ottoman shaykh al-islam Abu al-Su'ud Afandi, whose Irshad al-aql al-salim became the most celebrated tafsir since al-Baydawi's {cite:kashf-zunun-furqan p. 348-349}."
+  ar: "مفتي الدولة العثمانية المعروف بخوجة جلبي، صاحب تفسير إرشاد العقل السليم الذي أتم تبييضه في سنة واشتهر حتى سمي خطيب المفسرين {cite:kashf-zunun-furqan p. 348-349}. وفي شذرات الذهب أنه ولد سنة ثمان وتسعين وتسعمائة وتوفي في مستهل جمادى الأولى سنة اثنتين وثمانين وتسعمائة {cite:shadharat-dhahab}."
+  en: "The Ottoman shaykh al-islam Abu al-Su'ud Afandi, whose Irshad al-aql al-salim became the most celebrated tafsir since al-Baydawi's {cite:kashf-zunun-furqan p. 348-349}. Shadharat al-Dhahab dates his birth to 898 and his death to early Jumada I 982 {cite:shadharat-dhahab}."
+born: { edtf: "1492~", hijri: "0898", calendar: julian, precision: year, status: tradition, derived: true, note: "ولد سنة 898؛ التحويل مشتق {cite:shadharat-dhahab}", sources: [source/shadharat-dhahab] }
+died: { edtf: "1574-08~", hijri: "0982-05", calendar: julian, precision: month, status: tradition, derived: true, note: "توفي في مستهل جمادى الأولى 982؛ التحويل مشتق {cite:shadharat-dhahab}", sources: [source/shadharat-dhahab] }
 roles: [scholar, jurist]
 wings: [people]
 periods: [period/gunpowder-empires]
@@ -16,5 +18,5 @@ provenance:
   source: "كشف الظنون عن أسامي الكتب والفنون (ط. الفرقان 2004) ج1"
   generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
   run: lib-kashf-zunun-batch-4
-sources: [source/kashf-zunun-furqan]
+sources: [source/kashf-zunun-furqan, source/shadharat-dhahab]
 status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 High)" }
