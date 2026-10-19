@@ -73,89 +73,35 @@ jobs:
             echo "skip=false" >> "$GITHUB_OUTPUT"
             echo "data/ or content/ changed — R2 sync will run."
           fi
-      - name: Upload pagefind indexes and API to R2
+      - name: Install R2 sync Worker dependencies
+        if: steps.content_gate.outputs.skip == 'false' && github.ref == 'refs/heads/main'
+        run: npm ci --prefix workers/r2-sync
+      - name: Deploy R2 sync Worker (production bucket)
+        id: r2_worker
+        if: steps.content_gate.outputs.skip == 'false' && github.ref == 'refs/heads/main'
+        working-directory: workers/r2-sync
+        env:
+          CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+          CLOUDFLARE_ACCOUNT_ID: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
+          SYNC_TOKEN: ${{ secrets.R2_SYNC_TOKEN }}
+        run: |
+          set -euo pipefail
+          npx wrangler deploy -c wrangler.production.toml | tee deploy.log
+          url=$(grep -o 'https://[^ ]*workers\.dev' deploy.log | head -1)
+          test -n "$url"
+          echo "url=$url" >> "$GITHUB_OUTPUT"
+          printf '%s' "$SYNC_TOKEN" | npx wrangler secret put SYNC_TOKEN -c wrangler.production.toml
+      - name: Publish pagefind indexes and API to R2 (zip archives via R2 sync Worker)
         if: steps.content_gate.outputs.skip == 'false' && github.ref == 'refs/heads/main'
         env:
           AWS_ACCESS_KEY_ID: ${{ secrets.R2_ACCESS_KEY_ID }}
           AWS_SECRET_ACCESS_KEY: ${{ secrets.R2_SECRET_ACCESS_KEY }}
           AWS_DEFAULT_REGION: auto
-          ACCOUNT_ID: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
-        run: |
-          set -euo pipefail
-          ENDPOINT="https://${ACCOUNT_ID}.r2.cloudflarestorage.com"
-          BUCKET="s3://islam-museum-search"
-
-          # Manifest-based incremental sync.
-          # After each successful build we store a manifest (one "size path" line
-          # per file) in R2. On the next build we download that manifest and diff
-          # it against the freshly built dist to find only the files that changed,
-          # were added, or were deleted — then operate only on those files.
-          # This is far cheaper than "aws s3 sync --size-only" which issues ~100
-          # S3 LIST calls (one per 1000 objects) to rebuild the same picture.
-          # First run (no manifest yet) falls back to a full sync automatically.
-
-          r2_sync() {
-            local src="$1"          # local directory, e.g. dist/pagefind-ar
-            local dst="$2"          # R2 prefix, e.g. pagefind-ar
-            local cache_control="$3"
-            local manifest_key="${dst}/.manifest"
-
-            # Build a manifest of the new local files: "size relative/path"
-            # sort at the end ensures lines are in a stable order for comm.
-            find "$src" -type f | sort | while read -r f; do
-              size=$(wc -c < "$f")
-              echo "$size ${f#$src/}"
-            done | sort > /tmp/manifest-new.txt
-
-            # Try to fetch the previous manifest; if absent, treat as empty.
-            aws s3 cp "$BUCKET/$manifest_key" /tmp/manifest-old.txt \
-              --endpoint-url "$ENDPOINT" --quiet 2>/dev/null || touch /tmp/manifest-old.txt
-            sort /tmp/manifest-old.txt -o /tmp/manifest-old.txt
-
-            # Files to upload: in new but not in old (new or changed size).
-            comm -23 /tmp/manifest-new.txt /tmp/manifest-old.txt \
-              | awk '{print $2}' > /tmp/to-upload.txt
-
-            # Files to delete: in old but not in new (removed).
-            comm -13 /tmp/manifest-new.txt /tmp/manifest-old.txt \
-              | awk '{print $2}' > /tmp/to-delete.txt
-
-            upload_count=$(wc -l < /tmp/to-upload.txt)
-            delete_count=$(wc -l < /tmp/to-delete.txt)
-            echo "[$dst] uploading $upload_count, deleting $delete_count"
-
-            # Upload changed/new files, logging progress every 100 files so a
-            # long run is visible in the job log.
-            uploaded=0
-            while IFS= read -r path; do
-              [ -z "$path" ] && continue
-              aws s3 cp "$src/$path" "$BUCKET/$dst/$path" \
-                --endpoint-url "$ENDPOINT" \
-                --cache-control "$cache_control" \
-                --only-show-errors
-              uploaded=$((uploaded + 1))
-              if [ $((uploaded % 100)) -eq 0 ] || [ "$uploaded" -eq "$upload_count" ]; then
-                echo "[$dst] uploaded $uploaded/$upload_count"
-              fi
-            done < /tmp/to-upload.txt
-
-            # Delete removed files.
-            while IFS= read -r path; do
-              [ -z "$path" ] && continue
-              aws s3 rm "$BUCKET/$dst/$path" \
-                --endpoint-url "$ENDPOINT" \
-                --quiet
-            done < /tmp/to-delete.txt
-
-            # Persist the new manifest so the next build can diff against it.
-            aws s3 cp /tmp/manifest-new.txt "$BUCKET/$manifest_key" \
-              --endpoint-url "$ENDPOINT" --quiet
-          }
-
-          r2_sync dist/pagefind-ar pagefind-ar "public, max-age=31536000, immutable"
-          r2_sync dist/pagefind-en pagefind-en "public, max-age=31536000, immutable"
-          r2_sync dist/pagefind-ur pagefind-ur "public, max-age=31536000, immutable"
-          r2_sync dist/api        api         "public, max-age=3600, stale-while-revalidate=86400"
+          ENDPOINT: https://${{ secrets.CLOUDFLARE_ACCOUNT_ID }}.r2.cloudflarestorage.com
+          BUCKET: islam-museum-search
+          SYNC_URL: ${{ steps.r2_worker.outputs.url }}
+          SYNC_TOKEN: ${{ secrets.R2_SYNC_TOKEN }}
+        run: node workers/r2-sync/batch/publish.mjs --dist dist
       - name: Strip R2-served dirs from Pages deployment
         run: rm -rf dist/pagefind-ar dist/pagefind-en dist/pagefind-ur dist/api
       - name: Upload built site

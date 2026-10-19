@@ -29,7 +29,7 @@ export function packArchives(ops, { namePrefix = "batch", maxBytes = DEFAULT_MAX
       const srcName = `files/${String(i).padStart(6, "0")}`;
       current.entries[srcName] = op.localBytes;
       current.bytes += size;
-      current.manifestOps.push({ op: "COPY", src: srcName, dst: op.dst, sha256: sha(op.localBytes) });
+      current.manifestOps.push({ op: "COPY", src: srcName, dst: op.dst, sha256: sha(op.localBytes), cache_control: op.cacheControl });
     } else {
       current.manifestOps.push(op.op === "MOVE" ? { op: "MOVE", src: op.src, dst: op.dst } : { op: "DELETE", dst: op.dst });
     }

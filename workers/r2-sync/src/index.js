@@ -84,7 +84,7 @@ export async function processArchive({ bucket, archiveKey, allowedPrefixes, log 
         if (!data) throw new Error(`source not in archive: ${op.src}`);
         if (op.sha256 && (await sha256Hex(data)) !== op.sha256) throw new Error(`checksum mismatch: ${op.src}`);
         for (const dir of newFolders(op.dst, seen)) report.folders.push(dir);
-        await bucket.put(op.dst, data, { httpMetadata: { contentType: contentType(op.dst) } });
+        await bucket.put(op.dst, data, { httpMetadata: { contentType: contentType(op.dst), cacheControl: op.cache_control } });
         report.copied.push({ from: op.src, to: op.dst, bytes: data.byteLength });
         log(`[copy ${i + 1}/${manifest.ops.length}] ${op.src} -> ${op.dst} (${data.byteLength} bytes)`);
       } else if (op.op === "MOVE") {
