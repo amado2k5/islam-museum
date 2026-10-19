@@ -4,7 +4,7 @@ compatibility_date = "2025-10-11"
 
 # Paid plan: the default 30 s CPU budget is raised here for zipping ~20 MB parts.
 [limits]
-cpu_ms = 120000
+cpu_ms = 300000
 
 # Dedicated test bucket. Never point this at the production search bucket.
 [[r2_buckets]]

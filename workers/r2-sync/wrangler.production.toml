@@ -4,7 +4,7 @@ compatibility_date = "2025-10-11"
 
 # Paid plan: archives of ~20 MB are read and written in one request.
 [limits]
-cpu_ms = 120000
+cpu_ms = 300000
 
 # Keep the Worker's console.log lines in Cloudflare Workers Logs (dashboard, searchable by time).
 [observability]
