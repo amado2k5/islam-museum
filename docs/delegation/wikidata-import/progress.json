@@ -5,7 +5,7 @@
  "candidates_file": "$HARVEST/wikidata-import/candidates.tsv",
  "candidates_query": "select distinct id from wd_claim where property='P140' and value_id='Q432' minus Wikidata ids already linked in data/, ordered by sitelink count desc",
  "linked_preexisting": 987,
- "next_index": 1560,
+ "next_index": 1660,
  "created_ids": [
   {
    "i": 24,
@@ -1436,6 +1436,131 @@
    "i": 1559,
    "qid": "Q1207606",
    "id": "building/emir-sultan-mosque-bursa"
+  },
+  {
+   "i": 1565,
+   "qid": "Q1378425",
+   "id": "person/sinan-pasha-admiral"
+  },
+  {
+   "i": 1566,
+   "qid": "Q1384097",
+   "id": "person/gul-baba"
+  },
+  {
+   "i": 1575,
+   "qid": "Q1572481",
+   "id": "building/atik-ali-pasha-mosque"
+  },
+  {
+   "i": 1576,
+   "qid": "Q1585494",
+   "id": "person/kuyucu-murad-pasha"
+  },
+  {
+   "i": 1578,
+   "qid": "Q1645415",
+   "id": "person/shah-shuja-mughal"
+  },
+  {
+   "i": 1580,
+   "qid": "Q1673689",
+   "id": "building/isa-bey-mosque-selcuk"
+  },
+  {
+   "i": 1581,
+   "qid": "Q1707580",
+   "id": "building/al-nasir-muhammad-mosque"
+  },
+  {
+   "i": 1584,
+   "qid": "Q1931590",
+   "id": "person/yahya-al-mutali"
+  },
+  {
+   "i": 1593,
+   "qid": "Q26177",
+   "id": "person/khusrau-mirza"
+  },
+  {
+   "i": 1602,
+   "qid": "Q3029931",
+   "id": "person/mubarak-shah-sayyid"
+  },
+  {
+   "i": 1603,
+   "qid": "Q3043486",
+   "id": "person/sultan-walad"
+  },
+  {
+   "i": 1605,
+   "qid": "Q3104923",
+   "id": "person/tughluq-khan"
+  },
+  {
+   "i": 1607,
+   "qid": "Q3141238",
+   "id": "person/yahya-ibn-idris-idrisi"
+  },
+  {
+   "i": 1608,
+   "qid": "Q32617",
+   "id": "person/ismail-ghazni"
+  },
+  {
+   "i": 1613,
+   "qid": "Q3481733",
+   "id": "person/sheikh-edebali"
+  },
+  {
+   "i": 1616,
+   "qid": "Q3773706",
+   "id": "person/qadi-abd-al-jabbar"
+  },
+  {
+   "i": 1624,
+   "qid": "Q4164547",
+   "id": "person/abd-al-ghani-al-nabulsi"
+  },
+  {
+   "i": 1626,
+   "qid": "Q4670446",
+   "id": "person/abu-l-hasan-al-kharaqani"
+  },
+  {
+   "i": 1628,
+   "qid": "Q508501",
+   "id": "person/ibn-idhari"
+  },
+  {
+   "i": 1633,
+   "qid": "Q5963076",
+   "id": "person/hafiz-osman"
+  },
+  {
+   "i": 1637,
+   "qid": "Q622698",
+   "id": "person/aq-sunqur-al-hajib"
+  },
+  {
+   "i": 1647,
+   "qid": "Q764947",
+   "id": "person/saad-al-din-al-taftazani"
+  },
+  {
+   "i": 1648,
+   "qid": "Q912441",
+   "id": "person/kanijeli-siyavush-pasha"
+  },
+  {
+   "i": 1654,
+   "qid": "Q1088315",
+   "id": "person/al-hakim-al-tirmidhi"
+  },
+  {
+   "i": 1657,
+   "qid": "Q11273979",
+   "id": "person/yahya-ii-idrisi"
   }
  ],
  "linked_ids": [
@@ -3273,6 +3398,76 @@
    "i": 1556,
    "qid": "Q1147560",
    "to": "person/khabbab-ibn-al-aratt"
+  },
+  {
+   "i": 1560,
+   "qid": "Q12194428",
+   "to": "person/al-numan-ibn-bashir"
+  },
+  {
+   "i": 1561,
+   "qid": "Q12219197",
+   "to": "person/shahda-al-katiba"
+  },
+  {
+   "i": 1579,
+   "qid": "Q1656017",
+   "to": "person/tulayha-ibn-khuwaylid"
+  },
+  {
+   "i": 1587,
+   "qid": "Q207016",
+   "to": "person/ziyad-ibn-abi-sufyan"
+  },
+  {
+   "i": 1598,
+   "qid": "Q2717238",
+   "to": "person/nuh-ibn-nasr"
+  },
+  {
+   "i": 1599,
+   "qid": "Q2745237",
+   "to": "person/muizz-al-dawla"
+  },
+  {
+   "i": 1600,
+   "qid": "Q286592",
+   "to": "person/al-ashraf-shaban"
+  },
+  {
+   "i": 1611,
+   "qid": "Q335476",
+   "to": "person/abu-yaqub-yusuf-marinid"
+  },
+  {
+   "i": 1612,
+   "qid": "Q337009",
+   "to": "person/abu-mikhnaf"
+  },
+  {
+   "i": 1622,
+   "qid": "Q4116044",
+   "to": "person/al-harith-al-muhasibi"
+  },
+  {
+   "i": 1644,
+   "qid": "Q7396324",
+   "to": "concept/sabr"
+  },
+  {
+   "i": 1649,
+   "qid": "Q918471",
+   "to": "person/abu-bakr-ibn-al-arabi-qadi"
+  },
+  {
+   "i": 1655,
+   "qid": "Q1112754",
+   "to": "person/muhammad-ibn-abi-bakr"
+  },
+  {
+   "i": 1656,
+   "qid": "Q1112943",
+   "to": "person/hujr-ibn-adi"
   }
  ],
  "skipped": [
@@ -7820,9 +8015,314 @@
    1557,
    "Q115596",
    "Afghan politician b.1950; modern"
+  ],
+  [
+   1562,
+   "Q1277332",
+   "Iranian writer d.2018; modern"
+  ],
+  [
+   1563,
+   "Q1323276",
+   "Iraqi scholar d.2003; modern"
+  ],
+  [
+   1564,
+   "Q1355038",
+   "Sultan Slimane d.1822; post-1800"
+  ],
+  [
+   1567,
+   "Q1387563",
+   "last Dey of Algiers d.1838; post-1800"
+  ],
+  [
+   1568,
+   "Q1391705",
+   "Egyptian PM d.2018; modern"
+  ],
+  [
+   1569,
+   "Q1392062",
+   "Pakistani judge b.1943; modern"
+  ],
+  [
+   1570,
+   "Q1395698",
+   "Shaykh Said d.1925; modern"
+  ],
+  [
+   1571,
+   "Q1398211",
+   "Ottoman official d.1914; modern"
+  ],
+  [
+   1572,
+   "Q1399191",
+   "Shaykh Nuri d.1909; modern"
+  ],
+  [
+   1573,
+   "Q1432832",
+   "Kuwait Grand Mosque 1986; modern"
+  ],
+  [
+   1574,
+   "Q1530120",
+   "modern imam"
+  ],
+  [
+   1577,
+   "Q16212126",
+   "American speaker b.1978; modern"
+  ],
+  [
+   1582,
+   "Q17525059",
+   "Kazakh wikimedian b.1979; modern"
+  ],
+  [
+   1583,
+   "Q190682",
+   "Almaty mosque 1999; modern"
+  ],
+  [
+   1585,
+   "Q19600291",
+   "modern militia commander"
+  ],
+  [
+   1586,
+   "Q198694",
+   "Afghan commander d.2006; modern"
+  ],
+  [
+   1588,
+   "Q2121610",
+   "Sultan Murad Mosque Skopje; deferred, no confirmed source on the page"
+  ],
+  [
+   1589,
+   "Q216168",
+   "German diplomat d.2020; modern"
+  ],
+  [
+   1590,
+   "Q2364796",
+   "Bhopal begum d.1901; modern"
+  ],
+  [
+   1591,
+   "Q2429589",
+   "Mangalia mosque Romania 1575; no confirmed source on the page"
+  ],
+  [
+   1592,
+   "Q25423500",
+   "university president d.2025; modern"
+  ],
+  [
+   1594,
+   "Q2638857",
+   "Iranian painter d.2025; modern"
+  ],
+  [
+   1595,
+   "Q2640707",
+   "Tatar scholar d.1949; modern"
+  ],
+  [
+   1596,
+   "Q2667107",
+   "Ottoman pretender d.2017; modern"
+  ],
+  [
+   1597,
+   "Q2671172",
+   "Turkish poet d.1927; modern"
+  ],
+  [
+   1601,
+   "Q2984620",
+   "Ajman emir b.1931; modern"
+  ],
+  [
+   1604,
+   "Q307121",
+   "Libyan diplomat d.2023; modern"
+  ],
+  [
+   1606,
+   "Q3115759",
+   "Lisbon mosque 1985; modern"
+  ],
+  [
+   1609,
+   "Q3284439",
+   "Kazakh militant d.1951; modern"
+  ],
+  [
+   1610,
+   "Q330662",
+   "Juhayman d.1980; modern"
+  ],
+  [
+   1614,
+   "Q3509731",
+   "Bosniak poet d.1870; post-1800"
+  ],
+  [
+   1615,
+   "Q372161",
+   "Albanian politician d.1925; modern"
+  ],
+  [
+   1617,
+   "Q3846204",
+   "Emir Abdelkader Mosque Constantine 1994; modern"
+  ],
+  [
+   1618,
+   "Q3906628",
+   "Mariupol mosque 2007; modern"
+  ],
+  [
+   1619,
+   "Q400334",
+   "Ahl al-Kisa item; thin, no confirmed source on the page"
+  ],
+  [
+   1620,
+   "Q401773",
+   "Azerbaijani journalist d.1939; modern"
+  ],
+  [
+   1621,
+   "Q4115655",
+   "Iranian scholar b.1933; modern"
+  ],
+  [
+   1623,
+   "Q4118007",
+   "Nigerian cleric b.1953; modern"
+  ],
+  [
+   1625,
+   "Q4207494",
+   "Perak sultan b.1956; modern"
+  ],
+  [
+   1627,
+   "Q4682828",
+   "Ottoman princess-poet d.1899; post-1800"
+  ],
+  [
+   1629,
+   "Q546577",
+   "Mihrisah Emine consort d.1732; no confirmed source on the page"
+  ],
+  [
+   1630,
+   "Q5501708",
+   "French Chad colony; out of scope"
+  ],
+  [
+   1631,
+   "Q559930",
+   "Russian politician b.1940; modern"
+  ],
+  [
+   1632,
+   "Q58613",
+   "al-Sa'di d.1957; modern"
+  ],
+  [
+   1634,
+   "Q6032505",
+   "Islamic ethics survey item; out of scope"
+  ],
+  [
+   1635,
+   "Q6038358",
+   "Gevherhan Sultan princess d.1624; no confirmed source on the page"
+  ],
+  [
+   1636,
+   "Q614237",
+   "Nusretiye Mosque 1826; post-1800"
+  ],
+  [
+   1638,
+   "Q641011",
+   "Fuat Sezgin d.2018; modern"
+  ],
+  [
+   1639,
+   "Q6424690",
+   "Koca Yusuf Pasha d.1800; borderline, deferred — no confirmed source on the page"
+  ],
+  [
+   1640,
+   "Q65195083",
+   "Iranian officer b.1960; modern"
+  ],
+  [
+   1641,
+   "Q653287",
+   "9/11 hijacker; modern"
+  ],
+  [
+   1642,
+   "Q6734521",
+   "Deobandi scholar d.1920; modern"
+  ],
+  [
+   1643,
+   "Q694636",
+   "Malaysian king d.2008; modern"
+  ],
+  [
+   1645,
+   "Q745216",
+   "Soliman Pasha d.1860; post-1800"
+  ],
+  [
+   1646,
+   "Q755878",
+   "Nigerian politician b.1946; modern"
+  ],
+  [
+   1650,
+   "Q924397",
+   "South Yemen leader b.1939; modern"
+  ],
+  [
+   1651,
+   "Q930186",
+   "Fawzi al-Qawuqji d.1977; modern"
+  ],
+  [
+   1652,
+   "Q958026",
+   "Azerbaijani mufti b.1949; modern"
+  ],
+  [
+   1653,
+   "Q959580",
+   "footballer; modern"
+  ],
+  [
+   1658,
+   "Q1166540",
+   "Darod clan; no confirmed source on the page"
+  ],
+  [
+   1659,
+   "Q119142653",
+   "Iranian general b.1965; modern"
   ]
  ],
- "skipped_total": 909,
+ "skipped_total": 970,
  "skipped_by_reason": {
   "modern sovereign state; no matching record (al-Hind region is a different entity)": 1,
   "modern sovereign state; no matching record": 8,
@@ -8537,7 +9037,7 @@
   "Lala Tulpan mosque Ufa 1998; modern": 1,
   "9/11 hijacker; modern, out of scope": 1,
   "Jezzar Pasha d.1804; post-1800": 1,
-  "9/11 hijacker; modern": 2,
+  "9/11 hijacker; modern": 3,
   "Ibrahim Bey Mamluk d.1817; post-1800": 1,
   "Aga Khan I d.1881; post-1800": 1,
   "Iraqi queen consort d.1950; modern": 1,
@@ -8673,10 +9173,70 @@
   "Iranian politician d.2024; modern": 1,
   "Crimean bey d.1651; no confirmed source on the page": 1,
   "Iranian marja b.1927; modern": 1,
-  "Afghan politician b.1950; modern": 1
+  "Afghan politician b.1950; modern": 1,
+  "Iranian writer d.2018; modern": 1,
+  "Iraqi scholar d.2003; modern": 1,
+  "Sultan Slimane d.1822; post-1800": 1,
+  "last Dey of Algiers d.1838; post-1800": 1,
+  "Egyptian PM d.2018; modern": 1,
+  "Pakistani judge b.1943; modern": 1,
+  "Shaykh Said d.1925; modern": 1,
+  "Ottoman official d.1914; modern": 1,
+  "Shaykh Nuri d.1909; modern": 1,
+  "Kuwait Grand Mosque 1986; modern": 1,
+  "modern imam": 1,
+  "American speaker b.1978; modern": 1,
+  "Kazakh wikimedian b.1979; modern": 1,
+  "Almaty mosque 1999; modern": 1,
+  "modern militia commander": 1,
+  "Afghan commander d.2006; modern": 1,
+  "Sultan Murad Mosque Skopje; deferred, no confirmed source on the page": 1,
+  "German diplomat d.2020; modern": 1,
+  "Bhopal begum d.1901; modern": 1,
+  "Mangalia mosque Romania 1575; no confirmed source on the page": 1,
+  "university president d.2025; modern": 1,
+  "Iranian painter d.2025; modern": 1,
+  "Tatar scholar d.1949; modern": 1,
+  "Ottoman pretender d.2017; modern": 1,
+  "Turkish poet d.1927; modern": 1,
+  "Ajman emir b.1931; modern": 1,
+  "Libyan diplomat d.2023; modern": 1,
+  "Lisbon mosque 1985; modern": 1,
+  "Kazakh militant d.1951; modern": 1,
+  "Juhayman d.1980; modern": 1,
+  "Bosniak poet d.1870; post-1800": 1,
+  "Albanian politician d.1925; modern": 1,
+  "Emir Abdelkader Mosque Constantine 1994; modern": 1,
+  "Mariupol mosque 2007; modern": 1,
+  "Ahl al-Kisa item; thin, no confirmed source on the page": 1,
+  "Azerbaijani journalist d.1939; modern": 1,
+  "Iranian scholar b.1933; modern": 1,
+  "Nigerian cleric b.1953; modern": 1,
+  "Perak sultan b.1956; modern": 1,
+  "Ottoman princess-poet d.1899; post-1800": 1,
+  "Mihrisah Emine consort d.1732; no confirmed source on the page": 1,
+  "French Chad colony; out of scope": 1,
+  "Russian politician b.1940; modern": 1,
+  "al-Sa'di d.1957; modern": 1,
+  "Islamic ethics survey item; out of scope": 1,
+  "Gevherhan Sultan princess d.1624; no confirmed source on the page": 1,
+  "Nusretiye Mosque 1826; post-1800": 1,
+  "Fuat Sezgin d.2018; modern": 1,
+  "Koca Yusuf Pasha d.1800; borderline, deferred — no confirmed source on the page": 1,
+  "Iranian officer b.1960; modern": 1,
+  "Deobandi scholar d.1920; modern": 1,
+  "Malaysian king d.2008; modern": 1,
+  "Soliman Pasha d.1860; post-1800": 1,
+  "Nigerian politician b.1946; modern": 1,
+  "South Yemen leader b.1939; modern": 1,
+  "Fawzi al-Qawuqji d.1977; modern": 1,
+  "Azerbaijani mufti b.1949; modern": 1,
+  "footballer; modern": 1,
+  "Darod clan; no confirmed source on the page": 1,
+  "Iranian general b.1965; modern": 1
  },
  "last_commit": "d246b7e49",
  "last_push": "2caca308e",
  "batch_current": 7,
- "updated_at": "2026-10-19T17:57:08-04:00"
+ "updated_at": "2026-10-19T18:01:20-04:00"
 }
