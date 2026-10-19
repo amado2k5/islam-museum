@@ -124,13 +124,19 @@ jobs:
             delete_count=$(wc -l < /tmp/to-delete.txt)
             echo "[$dst] uploading $upload_count, deleting $delete_count"
 
-            # Upload changed/new files.
+            # Upload changed/new files, logging progress every 100 files so a
+            # long run is visible in the job log.
+            uploaded=0
             while IFS= read -r path; do
               [ -z "$path" ] && continue
               aws s3 cp "$src/$path" "$BUCKET/$dst/$path" \
                 --endpoint-url "$ENDPOINT" \
                 --cache-control "$cache_control" \
-                --quiet
+                --only-show-errors
+              uploaded=$((uploaded + 1))
+              if [ $((uploaded % 100)) -eq 0 ] || [ "$uploaded" -eq "$upload_count" ]; then
+                echo "[$dst] uploaded $uploaded/$upload_count"
+              fi
             done < /tmp/to-upload.txt
 
             # Delete removed files.
