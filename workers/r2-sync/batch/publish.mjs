@@ -134,6 +134,11 @@ function postProcess(archive) {
   });
 }
 
+function clearStaging() {
+  execFileSync("aws", ["s3", "rm", `s3://${bucket}/${STAGING_PREFIX}`, "--recursive", "--endpoint-url", endpoint, "--only-show-errors"], { stdio: "inherit" });
+  log(`cleared s3://${bucket}/${STAGING_PREFIX}`);
+}
+
 async function main() {
   const desired = desiredFiles();
   const previous = dryRun ? {} : readPrevious();
@@ -145,8 +150,7 @@ async function main() {
   if (dryRun) return;
   // Clear archives left by earlier runs that timed out before the Worker applied them.
   // Runs never overlap (deploy.yml concurrency group "pages"), so nothing in staging is in use.
-  execFileSync("aws", ["s3", "rm", `s3://${bucket}/${STAGING_PREFIX}`, "--recursive", "--endpoint-url", endpoint, "--only-show-errors"], { stdio: "inherit" });
-  log(`cleared s3://${bucket}/${STAGING_PREFIX}`);
+  clearStaging();
   if (ops.length === 0) {
     log("nothing changed");
     return;
@@ -161,6 +165,7 @@ async function main() {
   const manifestFile = join(dir, "manifest.json");
   writeFileSync(manifestFile, JSON.stringify(next));
   execFileSync("aws", ["s3", "cp", manifestFile, `s3://${bucket}/${MANIFEST_KEY}`, "--endpoint-url", endpoint, "--only-show-errors"], { stdio: "inherit" });
+  clearStaging();
   log(`published ${desired.size} files; manifest updated`);
 }
 
