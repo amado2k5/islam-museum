@@ -13,6 +13,8 @@ import { execFileSync } from "node:child_process";
 import { join, relative, sep } from "node:path";
 import { tmpdir } from "node:os";
 import { packArchives } from "./pack.mjs";
+import { request as httpsRequest } from "node:https";
+import { request as httpRequest } from "node:http";
 
 const TARGETS = [
   { dir: "pagefind-ar", prefix: "pagefind-ar", cacheControl: "public, max-age=31536000, immutable" },
@@ -91,15 +93,44 @@ function applyArchive(archive, dir) {
   writeFileSync(file, archive.bytes);
   const stagedKey = `${STAGING_PREFIX}${archive.name}`;
   execFileSync("aws", ["s3", "cp", file, `s3://${bucket}/${stagedKey}`, "--endpoint-url", endpoint, "--only-show-errors"], { stdio: "inherit" });
-  return fetch(`${process.env.SYNC_URL}/process`, {
-    method: "POST",
-    headers: { authorization: `Bearer ${process.env.SYNC_TOKEN}`, "content-type": "application/json" },
-    body: JSON.stringify({ archive: stagedKey }),
-    signal: AbortSignal.timeout(10 * 60 * 1000),
-  }).then(async (res) => {
-    const report = await res.json().catch(() => ({}));
-    if (res.status !== 200) throw new Error(`${archive.name}: worker answered ${res.status} ${JSON.stringify(report)}`);
+  return postProcess(stagedKey).then(({ status, report }) => {
+    if (status !== 200) throw new Error(`${archive.name}: worker answered ${status} ${JSON.stringify(report)}`);
     log(`${archive.name}: ${JSON.stringify(report.summary)}`);
+  });
+}
+
+// POST /process and wait for the reply. Node's global fetch gives up after 5 minutes
+// without response headers, but the Worker answers only when the archive is fully
+// applied, which can take longer. node:https/http has no such default timeout.
+function postProcess(archive) {
+  const url = new URL(`${process.env.SYNC_URL}/process`);
+  const body = JSON.stringify({ archive });
+  const send = url.protocol === "http:" ? httpRequest : httpsRequest;
+  return new Promise((resolve, reject) => {
+    const req = send(url, {
+      method: "POST",
+      headers: {
+        authorization: `Bearer ${process.env.SYNC_TOKEN}`,
+        "content-type": "application/json",
+        "content-length": Buffer.byteLength(body),
+      },
+    }, (res) => {
+      let text = "";
+      res.setEncoding("utf8");
+      res.on("data", (chunk) => (text += chunk));
+      res.on("end", () => {
+        let report = {};
+        try {
+          report = JSON.parse(text);
+        } catch {
+          report = { raw: text.slice(0, 500) };
+        }
+        resolve({ status: res.statusCode, report });
+      });
+      res.on("error", reject);
+    });
+    req.on("error", reject);
+    req.end(body);
   });
 }
 
