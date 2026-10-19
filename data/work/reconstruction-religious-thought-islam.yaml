@@ -1,0 +1,33 @@
+id: work/reconstruction-religious-thought-islam
+class: work
+kind: book
+label: { ar: "تجديد الفكر الديني في الإسلام", en: "The Reconstruction of Religious Thought in Islam" }
+summary:
+  ar: "كتاب لمحمد إقبال من مقدمة وسبع محاضرات يحاول فيه إعادة بناء الفلسفة الدينية الإسلامية بالنظر إلى تراثها الفلسفي وإلى تطورات المعرفة الحديثة؛ تبحث المحاضرة الأولى في المعرفة والتجربة الدينية وتعرض معيارين لاختبار دعاوى تلك التجربة."
+  en: "A book by Muhammad Iqbal in a preface and seven lectures, in which he tries to reconstruct Muslim religious philosophy in the light of its philosophical tradition and of modern knowledge. Lecture I asks how knowledge and religious experience relate and proposes two tests for the claims that experience makes."
+wings: [ideas]
+themes: [renewal-and-reform, philosophy-and-logic, spirituality-and-sufism, scripture-and-its-sciences]
+regions: [south-asia]
+genre: [lectures, philosophy-of-religion]
+languages: [en]
+authors: [person/muhammad-iqbal]
+made: { by_muslims: true, basis: documented, sources: [source/iqbal-reconstruction-religious-thought] }
+structure: "Preface, then seven lectures (I: knowledge and religious experience; II: the philosophical test of the revelations of religious experience; III: the conception of God and the meaning of prayer; IV: the human ego, its freedom and immortality; V: the spirit of Muslim culture; VI: the principle of movement in the structure of Islam; VII: is religion possible?), followed by notes, references and a bibliography. The lectures were delivered at Madras, Hyderabad and Aligarh at the request of the Madras Muslim Association. This record covers the preface and Lecture I (pp. 3 to 19); the edition is not verified."
+relations:
+  - { type: mentions, target: concept/religious-experience, sources: [source/iqbal-reconstruction-religious-thought] }
+  - { type: mentions, target: concept/fuad-heart-as-insight, sources: [source/iqbal-reconstruction-religious-thought] }
+  - { type: mentions, target: concept/tests-of-religious-experience, sources: [source/iqbal-reconstruction-religious-thought] }
+  - { type: mentions, target: concept/ilm, sources: [source/iqbal-reconstruction-religious-thought] }
+  - { type: mentions, target: concept/tasawwuf, sources: [source/iqbal-reconstruction-religious-thought] }
+  - { type: mentions, target: person/muhammad, sources: [source/iqbal-reconstruction-religious-thought] }
+  - { type: mentions, target: person/al-ghazali-abu-hamid, sources: [source/iqbal-reconstruction-religious-thought] }
+  - { type: mentions, target: person/ibn-rushd, sources: [source/iqbal-reconstruction-religious-thought] }
+  - { type: mentions, target: person/ibn-khaldun, sources: [source/iqbal-reconstruction-religious-thought] }
+provenance:
+  layer: own-research
+  source: "Muhammad Iqbal, The Reconstruction of Religious Thought in Islam: machine-read copy, preface and pp. 4 to 19 (edition not verified)"
+  generated_by: "Claude Haiku 5.5 (library-expansion sub-agent), draft"
+  model: claude-haiku-5-5
+  run: lib-exp-modern-muslim-writers-iqbal-1
+sources: [source/iqbal-reconstruction-religious-thought]
+status: { review: draft, completeness: 1, generated_by: "Claude Haiku 5.5 (library-expansion); read from OCR of pp. 3-19; the edition, year and publisher are not verified; the Arabic title is the museum's label, not a checked translation" }
