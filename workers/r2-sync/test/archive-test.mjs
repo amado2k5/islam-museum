@@ -27,7 +27,7 @@ function memoryBucket() {
       return data ? { arrayBuffer: async () => data.slice().buffer } : null;
     },
     async put(key, data) {
-      objects.set(key, new Uint8Array(data));
+      objects.set(key, typeof data === "string" ? new TextEncoder().encode(data) : new Uint8Array(data));
     },
     async delete(keys) {
       for (const k of Array.isArray(keys) ? keys : [keys]) objects.delete(k);
@@ -63,6 +63,8 @@ await bucket.put(ARCHIVE_KEY, arc1.bytes);
 const r1 = await processArchive({ bucket, archiveKey: ARCHIVE_KEY, allowedPrefixes: ALLOWED, log: quiet });
 check(r1.summary.copied === 100 && r1.summary.failed === 0, `run 1: 100 copied, 0 failed (${JSON.stringify(r1.summary)})`);
 check(!bucket.objects.has(ARCHIVE_KEY), "run 1: archive deleted after success");
+const status1 = JSON.parse(new TextDecoder().decode(bucket.objects.get("_r2-sync/status.json")));
+check(status1.state === "done" && status1.done === 100 && status1.total === 100 && status1.copied === 100, `run 1: status written as done (${status1.state}, ${status1.done}/${status1.total})`);
 let run1Ok = true;
 for (const k of sampleKeys) {
   const want = readFileSync(join(repo, k));
