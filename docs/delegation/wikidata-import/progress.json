@@ -5,7 +5,7 @@
  "candidates_file": "$HARVEST/wikidata-import/candidates.tsv",
  "candidates_query": "select distinct id from wd_claim where property='P140' and value_id='Q432' minus Wikidata ids already linked in data/, ordered by sitelink count desc",
  "linked_preexisting": 987,
- "next_index": 1660,
+ "next_index": 1760,
  "created_ids": [
   {
    "i": 24,
@@ -1561,6 +1561,131 @@
    "i": 1657,
    "qid": "Q11273979",
    "id": "person/yahya-ii-idrisi"
+  },
+  {
+   "i": 1661,
+   "qid": "Q12201802",
+   "id": "person/taj-al-din-al-subki"
+  },
+  {
+   "i": 1664,
+   "qid": "Q127659",
+   "id": "person/salim-chishti"
+  },
+  {
+   "i": 1666,
+   "qid": "Q1346472",
+   "id": "person/muhammad-iv-nasri"
+  },
+  {
+   "i": 1667,
+   "qid": "Q1361266",
+   "id": "person/said-al-mutadid-almohad"
+  },
+  {
+   "i": 1669,
+   "qid": "Q1396312",
+   "id": "person/shah-abdul-latif-bhittai"
+  },
+  {
+   "i": 1671,
+   "qid": "Q1580610",
+   "id": "building/jeni-mosque-thessaloniki"
+  },
+  {
+   "i": 1672,
+   "qid": "Q1584312",
+   "id": "person/yemisci-hasan-pasha"
+  },
+  {
+   "i": 1673,
+   "qid": "Q1584879",
+   "id": "building/hammouda-pacha-mosque"
+  },
+  {
+   "i": 1674,
+   "qid": "Q15911667",
+   "id": "building/osman-shah-mosque-trikala"
+  },
+  {
+   "i": 1681,
+   "qid": "Q1959585",
+   "id": "person/ibn-al-tiqtaqa"
+  },
+  {
+   "i": 1686,
+   "qid": "Q2198528",
+   "id": "person/ahmad-ibn-yusuf-al-misri"
+  },
+  {
+   "i": 1689,
+   "qid": "Q246275",
+   "id": "building/molla-gurani-mosque"
+  },
+  {
+   "i": 1690,
+   "qid": "Q248058",
+   "id": "person/cigalazade-sinan-pasha"
+  },
+  {
+   "i": 1693,
+   "qid": "Q2565317",
+   "id": "building/firuz-aga-mosque"
+  },
+  {
+   "i": 1694,
+   "qid": "Q257745",
+   "id": "person/badr-al-din-al-ayni"
+  },
+  {
+   "i": 1695,
+   "qid": "Q2622234",
+   "id": "group/malamatiyya"
+  },
+  {
+   "i": 1698,
+   "qid": "Q2706762",
+   "id": "building/atik-mustafa-pasha-mosque"
+  },
+  {
+   "i": 1708,
+   "qid": "Q3048167",
+   "id": "person/sokolluzade-lala-mehmed-pasha"
+  },
+  {
+   "i": 1712,
+   "qid": "Q3080314",
+   "id": "person/yahya-ibn-al-qasim-idrisi"
+  },
+  {
+   "i": 1716,
+   "qid": "Q3303997",
+   "id": "person/abu-sulayman-al-sijistani"
+  },
+  {
+   "i": 1718,
+   "qid": "Q334857",
+   "id": "person/abu-bakr-al-kalabadhi"
+  },
+  {
+   "i": 1720,
+   "qid": "Q343494",
+   "id": "person/idris-bitlisi"
+  },
+  {
+   "i": 1725,
+   "qid": "Q3631019",
+   "id": "person/ibrahim-adil-shah-ii"
+  },
+  {
+   "i": 1740,
+   "qid": "Q4880399",
+   "id": "person/bega-begum"
+  },
+  {
+   "i": 1742,
+   "qid": "Q5263293",
+   "id": "person/dervish-mehmed-pasha"
   }
  ],
  "linked_ids": [
@@ -3468,6 +3593,91 @@
    "i": 1656,
    "qid": "Q1112943",
    "to": "person/hujr-ibn-adi"
+  },
+  {
+   "i": 1675,
+   "qid": "Q1640082",
+   "to": "person/abu-hayyan-al-gharnati"
+  },
+  {
+   "i": 1687,
+   "qid": "Q2265604",
+   "to": "person/ibrahim-al-fazari-al-munajjim"
+  },
+  {
+   "i": 1703,
+   "qid": "Q287317",
+   "to": "person/al-arqam-ibn-abi-al-arqam"
+  },
+  {
+   "i": 1705,
+   "qid": "Q292178",
+   "to": "person/al-fadl-ibn-sahl"
+  },
+  {
+   "i": 1707,
+   "qid": "Q3012690",
+   "to": "person/al-darimi"
+  },
+  {
+   "i": 1709,
+   "qid": "Q3063378",
+   "to": "person/al-sharif-al-jurjani-ali-ibn-muhammad"
+  },
+  {
+   "i": 1719,
+   "qid": "Q335461",
+   "to": "person/abu-yahya-ibn-abd-al-haqq"
+  },
+  {
+   "i": 1727,
+   "qid": "Q401463",
+   "to": "person/ahmad-al-rifai"
+  },
+  {
+   "i": 1729,
+   "qid": "Q403498",
+   "to": "person/al-jawhari-abu-nasr-ismail-ibn-hammad"
+  },
+  {
+   "i": 1733,
+   "qid": "Q4322459",
+   "to": "person/badr-al-din-al-zarkashi"
+  },
+  {
+   "i": 1737,
+   "qid": "Q4670027",
+   "to": "person/abu-amr-ibn-al-ala"
+  },
+  {
+   "i": 1739,
+   "qid": "Q481455",
+   "to": "person/abu-shama-al-dimashqi"
+  },
+  {
+   "i": 1741,
+   "qid": "Q519405",
+   "to": "person/khalifa-ibn-khayyat"
+  },
+  {
+   "i": 1743,
+   "qid": "Q529235",
+   "to": "person/ibn-rajab"
+  },
+  {
+   "i": 1746,
+   "qid": "Q590185",
+   "to": "person/abu-madyan"
+  },
+  {
+   "i": 1752,
+   "qid": "Q647942",
+   "to": "person/jaqmaq-al-zahiri"
+  },
+  {
+   "i": 1756,
+   "qid": "Q712890",
+   "to": "person/mujahid-ibn-jabr"
   }
  ],
  "skipped": [
@@ -8320,9 +8530,299 @@
    1659,
    "Q119142653",
    "Iranian general b.1965; modern"
+  ],
+  [
+   1660,
+   "Q1192016",
+   "Russian general d.1919; modern"
+  ],
+  [
+   1662,
+   "Q12271333",
+   "Alaca Imaret Thessaloniki; deferred — no confirmed source on the page"
+  ],
+  [
+   1663,
+   "Q123738450",
+   "journalist d.2025; modern"
+  ],
+  [
+   1665,
+   "Q12818349",
+   "Islamic theology survey item; close to but not identical with existing concept/ilm-al-kalam"
+  ],
+  [
+   1668,
+   "Q1392127",
+   "Pakistan governor d.1956; modern"
+  ],
+  [
+   1670,
+   "Q1492859",
+   "Tripoli cathedral-mosque item ambiguous; out of scope"
+  ],
+  [
+   1676,
+   "Q1672793",
+   "Timothy Winter b.1960; modern"
+  ],
+  [
+   1677,
+   "Q1775226",
+   "Tanzanian singer d.2013; modern"
+  ],
+  [
+   1678,
+   "Q1810435",
+   "al-Darazi, Druze founder; contested — needs perspectives block, deferred"
+  ],
+  [
+   1679,
+   "Q1884979",
+   "Uzbek writer d.1919; modern"
+  ],
+  [
+   1680,
+   "Q1953724",
+   "Mouride order founded 1886; modern"
+  ],
+  [
+   1682,
+   "Q1978758",
+   "Soviet general d.2019; modern"
+  ],
+  [
+   1683,
+   "Q204282",
+   "Zinat un-nisa Mughal princess; deferred — no confirmed source on the page"
+  ],
+  [
+   1684,
+   "Q2066255",
+   "Fazlur Rahman d.1988; modern"
+  ],
+  [
+   1685,
+   "Q2067470",
+   "Saudi minister b.1935; modern"
+  ],
+  [
+   1688,
+   "Q2442752",
+   "Taliban leader d.2018; modern"
+  ],
+  [
+   1691,
+   "Q25462647",
+   "al-Arsh item; contested creed topic — needs perspectives block, deferred"
+  ],
+  [
+   1692,
+   "Q2555542",
+   "Yemeni politician; modern"
+  ],
+  [
+   1696,
+   "Q2661303",
+   "Chinese warlord d.1936; modern"
+  ],
+  [
+   1697,
+   "Q2667123",
+   "Ottoman noble d.1973; modern"
+  ],
+  [
+   1699,
+   "Q2715450",
+   "Fana concept; deferred — no confirmed source on the page"
+  ],
+  [
+   1700,
+   "Q273398",
+   "Emine Nazikeda d.1941; modern"
+  ],
+  [
+   1701,
+   "Q2827445",
+   "Ibn Ata Allah; check existing record first — deferred"
+  ],
+  [
+   1702,
+   "Q2866447",
+   "actress b.1989; modern"
+  ],
+  [
+   1704,
+   "Q29089",
+   "Sharif Ali of Brunei; no confirmed source on the page"
+  ],
+  [
+   1706,
+   "Q2996414",
+   "conversion survey item; out of scope"
+  ],
+  [
+   1710,
+   "Q307187",
+   "Diriyah emir d.1803; post-1800 death"
+  ],
+  [
+   1711,
+   "Q308021",
+   "Tunisian writer d.2014; modern"
+  ],
+  [
+   1713,
+   "Q3082522",
+   "imam b.1967; modern"
+  ],
+  [
+   1714,
+   "Q3091905",
+   "Dongguan mosque; modern rebuild, no confirmed source"
+  ],
+  [
+   1715,
+   "Q3276643",
+   "actress d.2020; modern"
+  ],
+  [
+   1717,
+   "Q3304538",
+   "Tunisian politician d.2021; modern"
+  ],
+  [
+   1721,
+   "Q3486796",
+   "Republic of Sudan 1956; modern"
+  ],
+  [
+   1722,
+   "Q3497361",
+   "cleric b.1972; modern"
+  ],
+  [
+   1723,
+   "Q3522100",
+   "cricketer; modern"
+  ],
+  [
+   1724,
+   "Q3552726",
+   "usul al-din survey item; deferred"
+  ],
+  [
+   1726,
+   "Q3918390",
+   "honorific title item; out of scope"
+  ],
+  [
+   1728,
+   "Q4022677",
+   "Kampala mosque; modern"
+  ],
+  [
+   1730,
+   "Q403744",
+   "al-Manfaluti d.1924; modern"
+  ],
+  [
+   1731,
+   "Q4159817",
+   "Bangladeshi president; modern"
+  ],
+  [
+   1732,
+   "Q4165342",
+   "al-Muhsin ibn Ali item; contested — needs perspectives block, deferred"
+  ],
+  [
+   1734,
+   "Q446774",
+   "Iranian cleric d.2022; modern"
+  ],
+  [
+   1735,
+   "Q452264",
+   "Ahmadou Bamba d.1927; modern"
+  ],
+  [
+   1736,
+   "Q454382",
+   "Zanzibar president; modern"
+  ],
+  [
+   1738,
+   "Q4808954",
+   "Cavid Bey d.1926; modern"
+  ],
+  [
+   1744,
+   "Q558865",
+   "Danish politician b.1963; modern"
+  ],
+  [
+   1745,
+   "Q576586",
+   "Turkish writer b.1942; modern"
+  ],
+  [
+   1747,
+   "Q6033876",
+   "Aslanhane mosque Ankara; deferred — no confirmed source on the page"
+  ],
+  [
+   1748,
+   "Q6127147",
+   "Agra Jama Masjid; deferred — no confirmed source on the page"
+  ],
+  [
+   1749,
+   "Q633447",
+   "Khalkhali d.2003; modern"
+  ],
+  [
+   1750,
+   "Q6355649",
+   "Humashah Sultan; no confirmed source on the page"
+  ],
+  [
+   1751,
+   "Q6382405",
+   "Simferopol mosque; no confirmed source on the page"
+  ],
+  [
+   1753,
+   "Q6532706",
+   "Ibn Abi al-Dunya; deferred — no confirmed source on the page"
+  ],
+  [
+   1754,
+   "Q694908",
+   "Ibrahim Pechevi historian; deferred — batch cap"
+  ],
+  [
+   1755,
+   "Q705562",
+   "Israeli politician; modern"
+  ],
+  [
+   1757,
+   "Q715820",
+   "Murad Bakhsh; deferred — batch cap"
+  ],
+  [
+   1758,
+   "Q718173",
+   "Chechen warlord d.2009; modern"
+  ],
+  [
+   1759,
+   "Q7244305",
+   "Iraqi prince d.1970; modern"
   ]
  ],
- "skipped_total": 970,
+ "skipped_total": 1028,
  "skipped_by_reason": {
   "modern sovereign state; no matching record (al-Hind region is a different entity)": 1,
   "modern sovereign state; no matching record": 8,
@@ -9233,10 +9733,68 @@
   "Azerbaijani mufti b.1949; modern": 1,
   "footballer; modern": 1,
   "Darod clan; no confirmed source on the page": 1,
-  "Iranian general b.1965; modern": 1
+  "Iranian general b.1965; modern": 1,
+  "Russian general d.1919; modern": 1,
+  "Alaca Imaret Thessaloniki; deferred — no confirmed source on the page": 1,
+  "journalist d.2025; modern": 1,
+  "Islamic theology survey item; close to but not identical with existing concept/ilm-al-kalam": 1,
+  "Pakistan governor d.1956; modern": 1,
+  "Tripoli cathedral-mosque item ambiguous; out of scope": 1,
+  "Timothy Winter b.1960; modern": 1,
+  "Tanzanian singer d.2013; modern": 1,
+  "al-Darazi, Druze founder; contested — needs perspectives block, deferred": 1,
+  "Uzbek writer d.1919; modern": 1,
+  "Mouride order founded 1886; modern": 1,
+  "Soviet general d.2019; modern": 1,
+  "Zinat un-nisa Mughal princess; deferred — no confirmed source on the page": 1,
+  "Fazlur Rahman d.1988; modern": 1,
+  "Saudi minister b.1935; modern": 1,
+  "Taliban leader d.2018; modern": 1,
+  "al-Arsh item; contested creed topic — needs perspectives block, deferred": 1,
+  "Yemeni politician; modern": 1,
+  "Chinese warlord d.1936; modern": 1,
+  "Ottoman noble d.1973; modern": 1,
+  "Fana concept; deferred — no confirmed source on the page": 1,
+  "Emine Nazikeda d.1941; modern": 1,
+  "Ibn Ata Allah; check existing record first — deferred": 1,
+  "actress b.1989; modern": 1,
+  "Sharif Ali of Brunei; no confirmed source on the page": 1,
+  "conversion survey item; out of scope": 1,
+  "Diriyah emir d.1803; post-1800 death": 1,
+  "Tunisian writer d.2014; modern": 1,
+  "imam b.1967; modern": 1,
+  "Dongguan mosque; modern rebuild, no confirmed source": 1,
+  "actress d.2020; modern": 1,
+  "Tunisian politician d.2021; modern": 1,
+  "Republic of Sudan 1956; modern": 1,
+  "cleric b.1972; modern": 1,
+  "cricketer; modern": 1,
+  "usul al-din survey item; deferred": 1,
+  "honorific title item; out of scope": 1,
+  "Kampala mosque; modern": 1,
+  "al-Manfaluti d.1924; modern": 1,
+  "Bangladeshi president; modern": 1,
+  "al-Muhsin ibn Ali item; contested — needs perspectives block, deferred": 1,
+  "Iranian cleric d.2022; modern": 1,
+  "Ahmadou Bamba d.1927; modern": 1,
+  "Zanzibar president; modern": 1,
+  "Cavid Bey d.1926; modern": 1,
+  "Danish politician b.1963; modern": 1,
+  "Turkish writer b.1942; modern": 1,
+  "Aslanhane mosque Ankara; deferred — no confirmed source on the page": 1,
+  "Agra Jama Masjid; deferred — no confirmed source on the page": 1,
+  "Khalkhali d.2003; modern": 1,
+  "Humashah Sultan; no confirmed source on the page": 1,
+  "Simferopol mosque; no confirmed source on the page": 1,
+  "Ibn Abi al-Dunya; deferred — no confirmed source on the page": 1,
+  "Ibrahim Pechevi historian; deferred — batch cap": 1,
+  "Israeli politician; modern": 1,
+  "Murad Bakhsh; deferred — batch cap": 1,
+  "Chechen warlord d.2009; modern": 1,
+  "Iraqi prince d.1970; modern": 1
  },
  "last_commit": "d246b7e49",
  "last_push": "2caca308e",
  "batch_current": 7,
- "updated_at": "2026-10-19T18:01:20-04:00"
+ "updated_at": "2026-10-19T18:04:21-04:00"
 }
