@@ -1,0 +1,39 @@
+id: person/al-shams-al-bukhari-maqdisi
+class: person
+label: { ar: "الشمس البخاري المقدسي الحنبلي" }
+summary:
+  ar: "شمس الدين أبو العباس أحمد بن عبد الواحد بن أحمد بن عبد الرحمن بن إسماعيل بن منصور السعدي المقدسي ثم الدمشقي المعروف بالبخاري؛ أخو الحافظ ضياء الدين محمد ووالد الفخر علي، مسند عصره؛ ولد في العشر الأواخر من شوال سنة أربع وستين وخمسمائة بالجبل وسمع بدمشق من أبي المعالي بن صابر وغيره وببغداد من ابن الجوزي وطبقته وبنيسابور وواسط من جماعة، وتفقه في مذهب الإمام أحمد وبرع فيه وأقام مدة يشتغل بالخلاف على الرضي النيسابوري ولهذا عرف بالبخاري ثم رجع إلى الشام وسكن حمص مدة، قال المنذري وهو أول من ولي القضاء بها؛ قال ابن الدبيثي كان إماماً عالماً مفتياً مناظراً ذا سمت ووقار وكثير المحفوظ حجة صدوقاً تام المروءة لم يكن في المقادسة أنصح منه؛ توفي ليلة الخميس خامس جمادى الآخرة سنة ثلاث وعشرين وستمائة ودفن إلى جانب خاله الشيخ موفق الدين {cite:shadharat-dhahab p. 107}."
+  en: "al-Shams al-Bukhari — Ahmad b. Abd al-Wahid al-Maqdisi, brother of the hafiz al-Diya' and father of al-Fakhr Ali, musnid of his age; a Hanbali who honed his dialectic under al-Radi al-Naysaburi (whence the nisba), first qadi of Homs, and by Ibn al-Dabithi's account 'no Maqdisi sounder than he'; died 5 Jumada II 623, buried beside his uncle al-Muwaffaq Ibn Qudama {cite:shadharat-dhahab p. 107}."
+gender: male
+wings: [people]
+periods: [period/crusades-ayyubid-mamluk]
+regions: [levant-iraq]
+faith:
+  - value: sunni
+    basis: tradition
+    note: "حنبلي المذهب"
+born:
+  edtf: "1168~"
+  hijri: "0564-10"
+  calendar: julian
+  precision: month
+  status: tradition
+  derived: true
+  note: "ولد في العشر الأواخر من شوال سنة أربع وستين بالجبل؛ التحويل مشتق {cite:shadharat-dhahab p. 107}."
+died:
+  edtf: "1226~"
+  hijri: "0623-06-05"
+  calendar: julian
+  precision: day
+  status: tradition
+  derived: true
+  note: "توفي ليلة الخميس خامس جمادى الآخرة سنة ثلاث وعشرين ودفن إلى جانب خاله الموفق؛ التحويل مشتق {cite:shadharat-dhahab p. 107}."
+relations:
+  - { type: died_in, target: place/damascus, sources: [source/shadharat-dhahab] }
+sources: [source/shadharat-dhahab]
+status: { review: draft, completeness: 1 }
+provenance:
+  layer: own-research
+  source: "شذرات الذهب — ابن العماد (ج5، سنة 623)"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-shadharat-batch-124

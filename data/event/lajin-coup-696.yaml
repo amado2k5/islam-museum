@@ -1,0 +1,22 @@
+id: event/lajin-coup-696
+class: event
+kind: mutiny
+label: { ar: "انقلاب لاجين على الملك العادل كتبغا سنة 696هـ", en: "Lajin's coup against al-Adil Kitbugha, 696" }
+summary:
+  ar: "في سنة ست وتسعين توجه الملك العادل كتبغا إلى مصر، فلما كان باللجون وثب حسام الدين لاجين المنصوري على بيحاص وبكتوت الأزرق — جناحي أستاذهما العادل — فقتلهما، فخاف العادل وركب سراً في أربعة مماليك وساق إلى دمشق فدخل القلعة فلم ينفعه ذلك وزال ملكه، وخضع المصريون لحسام الدين ولم يختلف عليه اثنان ولُقّب بالملك المنصور، وأُخذ العادل تحت الحوطة فأسكن بقلعة صرخد وقنع بها {cite:shadharat-dhahab p. 758}."
+wings: [time]
+periods: [period/mongol-post-mongol]
+regions: [egypt-nile, levant-iraq]
+sides:
+  - { label: { ar: "حسام الدين لاجين والمماليك المنصورية" }, participants: [person/lajin] }
+  - { label: { ar: "الملك العادل كتبغا وأنصاره" }, participants: [person/kitbugha-al-mansuri] }
+map: { kind: locator, precision: locality, center: [32.5750, 35.1750] }
+date: { start: { edtf: "1297~", hijri: "0696", calendar: julian, precision: year, status: tradition, derived: true, note: "سنة ست وتسعين وستمائة {cite:shadharat-dhahab p. 758}", sources: [source/shadharat-dhahab] } }
+relations: []
+provenance:
+  layer: own-research
+  source: "شذرات الذهب — ابن العماد (ج7، سنة 696)، قراءة آبل فيجن"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-shadharat-batch-135
+sources: [source/shadharat-dhahab]
+status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 High)" }

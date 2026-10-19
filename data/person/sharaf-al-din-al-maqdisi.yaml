@@ -1,0 +1,28 @@
+id: person/sharaf-al-din-al-maqdisi
+class: person
+label: { ar: "شرف الدين المقدسي الصالحي", en: "Sharaf al-Din al-Maqdisi al-Salihi" }
+names:
+  - { value: "شرف الدين أبو محمد حسن بن عبد الله بن عبد الغني بن عبد الواحد بن علي بن سرور المقدسي ثم الصالحي الفقيه الحنبلي", kind: full }
+born: { edtf: "1209", hijri: "0605", calendar: julian, precision: year, status: tradition, derived: true, note: "ولد سنة خمس وستمائة {cite:shadharat-dhahab p. 306}." }
+died: { edtf: "1261-01~", hijri: "0659-01-08~", calendar: julian, precision: day, status: tradition, derived: true, note: "توفي ليلة ثامن المحرم بدمشق ودفن بالجبل {cite:shadharat-dhahab p. 306}." }
+summary:
+  ar: "الفقيه الحنبلي؛ سمع الكثير من أبي اليمن الكندي وجماعة بعده وتفقه على الشيخ الموفق وبرع وأفتى ودرس بالجوزية مدة؛ قال أبو شامة كان رجلاً خيراً؛ توفي ليلة ثامن المحرم بدمشق ودفن بالجبل {cite:shadharat-dhahab p. 306}."
+  en: "The Salihi Hanbali jurist (b. 605) — al-Muwaffaq's pupil, mufti and Jawziyya mudarris; Abu Shama: 'a good man'; d. night of 8 Muharram 659, buried on the mountain {cite:shadharat-dhahab p. 306}."
+gender: male
+roles: [jurist, scholar, teacher]
+wings: [people]
+periods: [period/crusades-ayyubid-mamluk]
+regions: [levant-iraq]
+faith:
+  - value: sunni-hanbali
+    basis: tradition
+relations:
+  - { type: student_of, target: person/ibn-qudama-al-maqdisi, sources: [source/shadharat-dhahab] }
+  - { type: died_in, target: place/damascus, sources: [source/shadharat-dhahab] }
+sources: [source/shadharat-dhahab]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }
+provenance:
+  layer: own-research
+  source: "شذرات الذهب — ابن العماد (ج5، سنة 659)، قراءة آبل فيجن"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-shadharat-batch-130

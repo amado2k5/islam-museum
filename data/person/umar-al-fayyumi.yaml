@@ -1,0 +1,26 @@
+id: person/umar-al-fayyumi
+class: person
+label: { ar: "عمر الفيومي قاضي العسكر بحلب", en: "Umar al-Fayyumi, Aleppo's army qadi" }
+names:
+  - { value: "عمر بن سراج الدين عبد اللطيف بن أحمد المصري الفيومي الشافعي نزيل حلب", kind: full }
+died: { edtf: "1398-09~", hijri: "0801-01", calendar: julian, precision: month, status: tradition, derived: true, note: "قتل في أواخر المحرم في خان غباغب خارج دمشق وهو قاصد للديار المصرية {cite:shadharat-dhahab p. 17}." }
+summary:
+  ar: "الفقيه الفيومي؛ تفقه بالقاهرة على السراج البلقيني ورحل إلى حلب فولي بها قضاء العسكر ثم عزل، وكان بارعاً في الفرائض مشاركاً في بقية العلوم وله نثر ونظم وشرح البردة، وقتل في أواخر المحرم في خان غباغب خارج دمشق وهو قاصد للديار المصرية {cite:shadharat-dhahab p. 17}."
+  en: "The faradi master and Burda commentator — murdered at Khan Ghabaghib outside Damascus on the road to Egypt; his father Siraj al-Din died at the same khan the next year {cite:shadharat-dhahab p. 17, 25}."
+gender: male
+roles: [jurist, scholar]
+wings: [people]
+periods: [period/mongol-post-mongol]
+regions: [egypt-nile, levant-iraq]
+faith:
+  - value: sunni-shafii
+    basis: tradition
+relations:
+  - { type: child_of, target: person/siraj-al-din-al-fayyumi, sources: [source/shadharat-dhahab] }
+sources: [source/shadharat-dhahab]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }
+provenance:
+  layer: own-research
+  source: "شذرات الذهب — ابن العماد (ط مثنى، ج7، سنة 801)، قراءة آبل فيجن"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-shadharat-batch-136

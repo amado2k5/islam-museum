@@ -1,0 +1,23 @@
+id: person/al-sayyid-al-nassaba
+class: person
+label: { ar: "السيد النسابة حسين الدمشقي", en: "al-Sayyid al-Nassaba Husayn" }
+names:
+  - { value: "السيد النسابة حسين الدمشقي الحسني الشافعي", kind: full }
+gender: male
+summary:
+  ar: "السيد النسابة حسين الدمشقي الحسني الشافعي شيخ مشايخ دمشق؛ ولد بالصالحية سنة أربع وسبعين وسبعمائة فسمع الحديث في حداثة سن أبيه وكان نسابةً وكان يزعم أنه جمع خمس كتب في الأنساب، توفي في شعبان سنة ست وستين وثمانمائة وقد جاوز المائة {cite:shadharat-dhahab p. 307}."
+  en: "Al-Sayyid Husayn (b. Salihiyya 774) — shaykh of Damascus's shaykhs and its genealogist, who 'claimed to have compiled five books on nasab'; died Sha'ban 866 past one hundred {cite:shadharat-dhahab p. 307}."
+roles: [scholar]
+wings: [people]
+themes: [education]
+periods: [period/mongol-post-mongol]
+regions: [levant-iraq]
+born: { edtf: "1373~", hijri: "0774", calendar: julian, precision: year, status: tradition, derived: true, note: "ولد بالصالحية 774 {cite:shadharat-dhahab p. 307}", sources: [source/shadharat-dhahab] }
+died: { edtf: "1462-05~", hijri: "0866-08", calendar: julian, precision: month, status: tradition, derived: true, note: "توفي شعبان 866 وقد جاوز المائة {cite:shadharat-dhahab p. 307}", sources: [source/shadharat-dhahab] }
+provenance:
+  layer: own-research
+  source: "شذرات الذهب — ابن العماد (ط مكتبة المثنى 1351، ج7، سنة 866)، قراءة آبل فيجن"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-shadharat-batch-140
+sources: [source/shadharat-dhahab]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

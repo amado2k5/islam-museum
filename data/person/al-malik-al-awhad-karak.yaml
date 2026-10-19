@@ -1,0 +1,26 @@
+id: person/al-malik-al-awhad-karak
+class: person
+label: { ar: "الملك الأوحد صاحب الكرك", en: "al-Malik al-Awhad, lord of Karak" }
+names:
+  - { value: "الملك الأوحد نجم الدين يوسف بن الناصر داود بن المعظم", kind: full }
+born: { edtf: "1231~", hijri: "0628~", calendar: julian, precision: year, status: tradition, derived: true, note: "توفي وله سبعون سنة {cite:shadharat-dhahab p. 774}." }
+died: { edtf: "1299-09~", hijri: "0698-12", calendar: julian, precision: month, status: tradition, derived: true, note: "توفي بالقدس في ذي الحجة وله سبعون سنة {cite:shadharat-dhahab p. 774}." }
+summary:
+  ar: "صاحب الكرك من بيت أيوب، ابن الناصر داود؛ سمع من ابن اللتي وروى عنه الدمياطي في معجمه، وتوفي بالقدس في ذي الحجة وله سبعون سنة {cite:shadharat-dhahab p. 774}."
+gender: male
+roles: [emir, scholar]
+wings: [people]
+periods: [period/mongol-post-mongol]
+regions: [levant-iraq]
+faith:
+  - value: sunni
+    basis: tradition
+relations:
+  - { type: died_in, target: place/jerusalem, sources: [source/shadharat-dhahab] }
+sources: [source/shadharat-dhahab]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }
+provenance:
+  layer: own-research
+  source: "شذرات الذهب — ابن العماد (ج7، سنة 698)، قراءة آبل فيجن"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-shadharat-batch-135

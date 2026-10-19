@@ -12,10 +12,11 @@ date:
   start: { edtf: "1402-07-20", hijri: "0804", calendar: julian, precision: day, status: tradition, derived: true, note: "٢٠ يوليو ٨٠٤هـ/١٤٠٢م {cite:dawlat-uthmaniyya-salabi p. 69}." }
 relations:
   - { type: had_participant, target: person/bayazid-i-yildirim, role: "المهزوم الأسير", sources: [source/dawlat-uthmaniyya-salabi] }
+  - { type: had_participant, target: person/timur-lang, role: "الغالب", sources: [source/dawlat-uthmaniyya-salabi, source/shadharat-dhahab] }
 provenance:
   layer: own-research
   source: "الدولة العثمانية لعلي محمد الصلابي (ط1 1421) ص 69-70"
   generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
   run: lib-salabi-uthmani-batch-2
-sources: [source/dawlat-uthmaniyya-salabi]
+sources: [source/dawlat-uthmaniyya-salabi, source/shadharat-dhahab]
 status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 High)" }

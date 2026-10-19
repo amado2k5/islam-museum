@@ -14,5 +14,7 @@ provenance:
   source: "وفيات الأعيان لابن خلكان — الجزء الثالث (عارضة 141 داخل ترجمة الملك المعظم)، طبعة إحسان عباس، النص المقروء آلياً (djvu) من archive.org"
   generated_by: "Devin (SWE-2 High) from djvu OCR text"
   run: lib-wafayat-batch-15
-sources: [source/wafayat-ayan]
+relations:
+  - { type: participated_in, target: event/salih-ismail-takes-damascus-637, role: "مخلّص الصالح أيوب من الكرك", sources: [source/shadharat-dhahab] }
+sources: [source/wafayat-ayan, source/shadharat-dhahab]
 status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

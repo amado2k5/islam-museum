@@ -1,0 +1,27 @@
+id: person/ibn-al-muqaddisiyya-al-adl
+class: person
+label: { ar: "شرف الدين ابن المقدسية العدل", en: "Sharaf al-Din Ibn al-Muqaddisiyya" }
+names:
+  - { value: "شرف الدين أبو بكر محمد بن الحسن بن عبد السلام التميمي السفاقسي الأصل الإسكندراني المالكي", kind: full }
+born: { edtf: "1177", hijri: "0573", calendar: julian, precision: year, status: tradition, derived: true, note: "ولد في أول سنة ثلاث وسبعين وخمسمائة {cite:shadharat-dhahab p. 274}." }
+died: { edtf: "1256-05~", hijri: "0654-05", calendar: julian, precision: month, status: tradition, derived: true, note: "توفي في جمادى الأولى سنة أربع وخمسين وستمائة وله مشيخة خرجها منصور {cite:shadharat-dhahab p. 274}." }
+summary:
+  ar: "العدل المالكي؛ أحضره خاله الحافظ ابن المفضل قراءة المسلسل بالأولية عند السلفي واستجازه له، ثم أسمعه من أحمد بن عبد الرحمن الحضرمي وغيره، وله مشيخة خرجها منصور {cite:shadharat-dhahab p. 274}."
+  en: "The Sfax-born Alexandrian Maliki (b. 573, d. Jumada I 654) — his uncle the hafiz Ibn al-Mufaddal brought him the musalsal bil-awwaliyya reading at al-Silafi's; Mansur extracted his mushaykha {cite:shadharat-dhahab p. 274}."
+gender: male
+roles: [scholar, jurist]
+wings: [people]
+periods: [period/crusades-ayyubid-mamluk]
+regions: [maghreb, egypt-nile]
+faith:
+  - value: sunni-maliki
+    basis: tradition
+relations:
+  - { type: lived_in, target: place/alexandria, sources: [source/shadharat-dhahab] }
+sources: [source/shadharat-dhahab]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }
+provenance:
+  layer: own-research
+  source: "شذرات الذهب — ابن العماد (ج5، سنة 654)، قراءة آبل فيجن"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-shadharat-batch-129

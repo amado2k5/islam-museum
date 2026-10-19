@@ -10,6 +10,8 @@ periods: [period/mongol-post-mongol]
 died: { hijri: "0857-02-03", edtf: "1453-02-09~", calendar: julian, precision: day, status: tradition, derived: true, note: "3 صفر 857؛ التحويل مشتق {cite:shadharat-dhahab p. 299}." }
 relations:
   - { type: ruler_of, target: place/cairo, sources: [source/shadharat-dhahab] }
+  - { type: participated_in, target: event/jaqmaq-accession-842, sources: [source/shadharat-dhahab] }
+  - { type: parent_of, target: person/nur-al-din-muhammad-ibn-jaqmaq, sources: [source/shadharat-dhahab] }
 provenance:
   layer: own-research
   source: "شذرات الذهب لابن العماد"

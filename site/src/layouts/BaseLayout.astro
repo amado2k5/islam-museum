@@ -166,6 +166,11 @@ const EXPLORE = explorePages(lang);
         if (mb && nav) {
           var setOpen = function (open, back) {
             nav.classList.toggle("open", open);
+            // the panel scrolls within the screen below the header, whatever the header's height
+            if (open) {
+              var below = nav.getBoundingClientRect().top, view = window.visualViewport ? window.visualViewport.height : window.innerHeight;
+              nav.style.maxHeight = Math.max(160, Math.floor(view - below - 8)) + "px";
+            } else nav.style.maxHeight = "";
             mb.setAttribute("aria-expanded", String(open));
             if (open) { var first = nav.querySelector("a"); if (first) first.focus(); } else if (back) mb.focus();
           };
@@ -177,7 +182,15 @@ const EXPLORE = explorePages(lang);
           });
           // one dropdown open at a time; a click elsewhere closes it
           nav.querySelectorAll("details[data-dd]").forEach(function (d) {
-            d.addEventListener("toggle", function () { if (d.open) nav.querySelectorAll("details[data-dd]").forEach(function (o) { if (o !== d) o.removeAttribute("open"); }); });
+            d.addEventListener("toggle", function () {
+              if (d.open) nav.querySelectorAll("details[data-dd]").forEach(function (o) { if (o !== d) o.removeAttribute("open"); });
+              // a desktop dropdown scrolls within the window below where it starts, so it never runs off the bottom
+              var m = d.querySelector(".dd-menu");
+              if (d.open && m && getComputedStyle(m).position === "absolute") {
+                var top = d.querySelector("summary").getBoundingClientRect().bottom + 8, view = window.visualViewport ? window.visualViewport.height : window.innerHeight;
+                m.style.maxHeight = Math.max(160, Math.floor(view - top - 12)) + "px";
+              }
+            });
           });
           document.addEventListener("click", function (e) { if (!nav.contains(e.target)) nav.querySelectorAll("details[data-dd][open]").forEach(function (d) { d.removeAttribute("open"); }); });
         }

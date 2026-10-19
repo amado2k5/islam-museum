@@ -1,0 +1,21 @@
+id: event/damascus-flood-683
+class: event
+kind: other
+label: { ar: "السيول العظام بدمشق سنة 683هـ", en: "The great Damascus flood, Sha'ban 683" }
+summary:
+  ar: "في شعبان سنة ثلاث وثمانين كانت الزيادة الهائلة بدمشق بالليل، وكان عسكر المصريين نزالاً بالوادي فذهب لهم ما لا يوصف، وخربت البيوت وانطمّت الأنهار، وكسر الماء أقفال باب الفراديس ودخل حتى وصل إلى مدرسة المقدمية، وكسر جسر باب الفراديس {cite:shadharat-dhahab p. 652}."
+  en: "Sha'ban 683 — the night flood at Damascus: the Egyptian army camped in the wadi was swept away beyond description, houses ruined, channels drowned, the water broke Bab al-Faradis's lock and bridge and reached the Muqaddamiyya {cite:shadharat-dhahab p. 652}."
+wings: [time]
+periods: [period/mongol-post-mongol]
+regions: [levant-iraq]
+map: { kind: locator, precision: locality, center: [33.5138, 36.2765] }
+date: { start: { edtf: "1284-10~", hijri: "0683-08", calendar: julian, precision: month, status: tradition, derived: true, note: "شعبان سنة ثلاث وثمانين وستمائة {cite:shadharat-dhahab p. 652}", sources: [source/shadharat-dhahab] } }
+relations:
+  - { type: occurred_at, target: place/damascus, sources: [source/shadharat-dhahab] }
+provenance:
+  layer: own-research
+  source: "شذرات الذهب — ابن العماد (ج7، سنة 683)، قراءة آبل فيجن"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-shadharat-batch-133
+sources: [source/shadharat-dhahab]
+status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 High)" }

@@ -1,0 +1,28 @@
+id: person/izz-al-din-al-maqdisi
+class: person
+label: { ar: "عز الدين المقدسي الحنبلي", en: "Izz al-Din al-Maqdisi" }
+names:
+  - { value: "عز الدين أبو محمد وأبو القاسم وأبو الفرج الحافظ عبد الرحمن بن محمد بن عبد الغني بن عبد الواحد بن علي بن شرف المقدسي المحدث الحنبلي", kind: full }
+born: { edtf: "1205", hijri: "0602", calendar: julian, precision: year, status: tradition, derived: true, note: "ولد في ربيع الآخر سنة اثنتين وستمائة {cite:shadharat-dhahab p. 530}." }
+died: { edtf: "1263-09~", hijri: "0661-12-15~", calendar: julian, precision: day, status: tradition, derived: true, note: "توفي في نصف ذي الحجة ودفن بسفح قاسيون سنة إحدى وستين وستمائة {cite:shadharat-dhahab p. 530}." }
+summary:
+  ar: "المحدث الحنبلي؛ حضر على أبي حفص بن طبرزد وسمع من الكندي وطبقته وارتحل إلى بغداد فسمع من الفتح بن عبد السلام وطائفة ثم إلى مصر، وكتب الكثير وعني بالحديث وتفقه على الشيخ الموفق، وكان فاضلاً صالحاً ثقةً انتفع به جماعة وحدث؛ توفي في نصف ذي الحجة ودفن بسفح قاسيون {cite:shadharat-dhahab p. 530}."
+  en: "The Maqdisi hafiz (b. 602) — Ibn Tabarzad, al-Kindi, Baghdad's Fath b. Abd al-Salam, then Egypt; Ibn Qudama's pupil in fiqh, devoted to hadith; d. mid-Dhu al-Hijja 661, buried at Qasyun's foot {cite:shadharat-dhahab p. 530}."
+gender: male
+roles: [scholar, muhaddith]
+wings: [people]
+periods: [period/crusades-ayyubid-mamluk]
+regions: [levant-iraq]
+faith:
+  - value: sunni-hanbali
+    basis: tradition
+relations:
+  - { type: student_of, target: person/ibn-qudama-al-maqdisi, sources: [source/shadharat-dhahab] }
+  - { type: buried_in, target: place/damascus, sources: [source/shadharat-dhahab] }
+sources: [source/shadharat-dhahab]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }
+provenance:
+  layer: own-research
+  source: "شذرات الذهب — ابن العماد (ج7، سنة 661)، قراءة آبل فيجن"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-shadharat-batch-131

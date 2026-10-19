@@ -1,0 +1,27 @@
+id: event/tatars-rayy-hamadan-621
+class: event
+kind: campaign
+label: { ar: "عودة التتار إلى الرى وهمدان سنة 621" }
+summary:
+  ar: "في سنة إحدى وعشرين وستمائة عادت التتار من بلاد القفجاق ووصلوا إلى الرى، وكان من سلم من أهلها قد تراجعوا إليها فما شعروا إلا بالتتار قد أحاطوا بهم فقتلوا وسبوا، ثم ساروا إلى قم وقاشان فنابذوهما، ثم عطفوا إلى همدان فقتلوا وفظعوا، ثم ساروا إلى تبريز فوقع بينهم وبين الخوارزمية مصاف {cite:shadharat-dhahab p. 95}."
+  en: "In 621 the Tatars returned from the Qipchaq lands to Rayy; the survivors who had drifted back found the Tatars upon them — killing and enslaving — then Qum and Kashan were sacked, Hamadan massacred, and at Tabriz they fought a set battle with the Khwarazmians {cite:shadharat-dhahab p. 95}."
+wings: [time]
+themes: [mongol-invasions]
+periods: [period/mongol-post-mongol]
+regions: [persia-central-asia]
+date:
+  start: { edtf: "1224~", hijri: "0621", calendar: julian, precision: year, status: tradition, derived: true, note: "621هـ؛ التحويل مشتق {cite:shadharat-dhahab p. 95}.", sources: [source/shadharat-dhahab] }
+sides:
+  - label: { ar: "التتار" }
+  - label: { ar: "أهل الرى وقم وقاشان وهمدان والخوارزمية" }
+relations:
+  - { type: occurred_at, target: place/hamadan }
+  - { type: occurred_at, target: place/rayy }
+  - { type: had_participant, target: polity/mongol-empire, role: "الغازون", sources: [source/shadharat-dhahab] }
+sources: [source/shadharat-dhahab]
+status: { review: draft, completeness: 2 }
+provenance:
+  layer: own-research
+  source: "شذرات الذهب — ابن العماد (ج5، سنة 621)"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-shadharat-batch-124

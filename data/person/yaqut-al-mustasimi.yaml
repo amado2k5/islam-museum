@@ -1,0 +1,26 @@
+id: person/yaqut-al-mustasimi
+class: person
+label: { ar: "ياقوت المستعصمي", en: "Yaqut al-Musta'simi" }
+names:
+  - { value: "جمال الدين ياقوت المستعصمي الكاتب الأديب البغدادي", kind: full }
+died: { edtf: "1298~", hijri: "0698", calendar: julian, precision: year, status: tradition, derived: true, note: "وفاته في أموات سنة ثمان وتسعين وستمائة {cite:shadharat-dhahab p. 774}." }
+summary:
+  ar: "الكاتب الأديب البغدادي، من مماليك المستعصم؛ آخر من انتهت إليه رئاسة الخط المنسوب، وكان يكتب على طريقة ابن البواب {cite:shadharat-dhahab p. 774}."
+  en: "The Baghdad scribe-adib, al-Musta'sim's mamluk — last to head the munasab script school, writing in Ibn al-Bawwab's manner {cite:shadharat-dhahab p. 774}."
+gender: male
+roles: [calligrapher, writer]
+wings: [people]
+periods: [period/mongol-post-mongol]
+regions: [levant-iraq]
+faith:
+  - value: sunni
+    basis: tradition
+relations:
+  - { type: died_in, target: place/baghdad, sources: [source/shadharat-dhahab] }
+sources: [source/shadharat-dhahab]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }
+provenance:
+  layer: own-research
+  source: "شذرات الذهب — ابن العماد (ج7، سنة 698)، قراءة آبل فيجن"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-shadharat-batch-135

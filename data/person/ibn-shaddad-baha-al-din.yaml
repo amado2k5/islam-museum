@@ -5,13 +5,14 @@ names:
   - { value: "أبو المحاسن يوسف بن رافع بن تميم الأسدي", kind: full }
 gender: male
 summary:
-  ar: "قاضي حلب الفقيه الشافعي المعروف بابن شداد، ولد بالموصل ليلة العاشر من رمضان سنة تسع وثلاثين وخمس مئة، ونشأ عند أخواله بني شداد فنسب إليهم، ولازم أبا بكر يحيى بن سعدون القرطي إحدى عشرة سنة فقرأ عليه القراءات السبع والحديث وشروحه والتفسير حتى شهد له بأنه ما قرأ عليه أحد أكثر مما قرأ {cite:wafayat-ayan p. 77-78}."
+  ar: "قاضي حلب الفقيه الشافعي المعروف بابن شداد، ولد بالموصل ليلة العاشر من رمضان سنة تسع وثلاثين وخمس مئة، ونشأ عند أخواله بني شداد فنسب إليهم، ولازم أبا بكر يحيى بن سعدون القرطي إحدى عشرة سنة فقرأ عليه القراءات السبع والحديث وشروحه والتفسير حتى شهد له بأنه ما قرأ عليه أحد أكثر مما قرأ {cite:wafayat-ayan p. 77-78}؛ وفي الشذرات أعاد بالنظامية في حدود سنة سبعين ثم انحدر إلى الموصل ودرس بمدرسة الكمال الشهرزوري، وحج سنة ثلاث وثمانين وزار الشام واتصل بالسلطان صلاح الدين فحظي عنده وولاه قضاء العسكر وقضاء القدس وصنف له كتاباً في فضل الجهاد، ثم ولاه ولده الظاهر قضاء حلب ونظر أوقافها وأجزل رزقه وعطاءه، وبنى بحلب مدرسة ودار حديث وبينهما تربة؛ من تصانيفه دلائل الأحكام على التنبيه في مجلدين والموجز الباهر في الفقه وملجأ الحكام في الأقضية وسيرة صلاح الدين؛ توفي في رابع صفر سنة اثنتين وثلاثين ودفن بتربته بحلب {cite:shadharat-dhahab p. 158-159}."
   en: "Baha' al-Din Ibn Shaddad, qadi of Aleppo and Saladin's biographer — born at Mosul in Ramadan 539, raised by the Banu Shaddad uncles whose name he bore, and eleven years the companion of Ibn Sa'dun al-Qurtubi in the seven readings, hadith and tafsir {cite:wafayat-ayan p. 77-78}."
 roles: [qadi, scholar, writer]
 wings: [people]
 periods: [period/crusades-ayyubid-mamluk]
 regions: [levant-iraq]
 born: { edtf: "1145~", hijri: "0539~", calendar: julian, precision: year, status: tradition, derived: true, note: "ليلة 10 رمضان 539هـ بالموصل {cite:wafayat-ayan p. 77}", sources: [source/wafayat-ayan] }
+died: { edtf: "1234-10~", hijri: "0632-02-04", calendar: julian, precision: day, status: tradition, derived: true, note: "توفي في رابع صفر سنة اثنتين وثلاثين وستمائة ودفن بتربته بحلب {cite:shadharat-dhahab p. 159}.", sources: [source/shadharat-dhahab] }
 provenance:
   layer: own-research
   source: "وفيات الأعيان وأنباء أبناء الزمان — ابن خلكان (حرف الياء)"
@@ -19,5 +20,5 @@ provenance:
   run: lib-wafayat-batch-2
 relations:
   - { type: authored, target: work/al-alaq-al-khatira, sources: [source/kashf-zunun-furqan] }
-sources: [source/wafayat-ayan, source/kashf-zunun-furqan]
+sources: [source/wafayat-ayan, source/kashf-zunun-furqan, source/shadharat-dhahab]
 status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 High)" }

@@ -1,0 +1,29 @@
+id: person/taj-al-din-al-firkah
+class: person
+label: { ar: "تاج الدين الفركاح فقيه الشام", en: "Taj al-Din al-Firkah, jurist of Syria" }
+names:
+  - { value: "تاج الدين الفركاح أبو محمد عبد الرحمن بن إبراهيم بن سباع الفزاري الدمشقي الشافعي", kind: full }
+born: { edtf: "1227-02~", hijri: "0624-03", calendar: julian, precision: month, status: tradition, derived: true, note: "ولد في ربيع الأول سنة أربع وعشرين وستمائة {cite:shadharat-dhahab p. 722}." }
+died: { edtf: "1291-06~", hijri: "0690-06-05", calendar: julian, precision: day, status: tradition, derived: true, note: "توفي بالبادرائية في خامس جمادى الآخرة ودفن بمقبرة باب الصغير {cite:shadharat-dhahab p. 724}." }
+summary:
+  ar: "فقيه الشام وشيخ الإسلام؛ تفقه على ابن الصلاح وابن عبد السلام وجلس للإشغال وله بضع وعشرون سنة وكتب على الفتاوى وله ثلاثون سنة، وكانت الفتاوى تأتيه من الأقطار، ومعظم قضاة الشام وما حولها تلامذته؛ قال الذهبي: انتهت إليه رئاسة المذهب في الدنيا وكان ممن بلغ رتبة الاجتهاد، وقال ابن قاضي شهبة: كان أفقه نفساً وأزكى قريحة من النووي وأكثر محفوظاً منه، وكان بينه وبين النووي وحشة؛ ودرّس بالبادرائية ودفن بمقبرة باب الصغير {cite:shadharat-dhahab p. 722-724}."
+  en: "Syria's chief jurist — teaching at twenty-odd, writing responsa at thirty, fatwas arriving from every quarter and most of Syria's qadis his pupils; al-Dhahabi: 'the headship of the madhhab worldwide ended with him, a rank-of-ijtihad man'; Ibn Qadi Shuhba rated him subtler and better-stored than al-Nawawi {cite:shadharat-dhahab p. 722-724}."
+gender: male
+roles: [jurist, scholar, teacher]
+wings: [people]
+periods: [period/mongol-post-mongol]
+regions: [levant-iraq]
+faith:
+  - value: sunni-shafii
+    basis: tradition
+relations:
+  - { type: student_of, target: person/ibn-al-salah, sources: [source/shadharat-dhahab] }
+  - { type: student_of, target: person/izz-al-din-ibn-abd-al-salam, sources: [source/shadharat-dhahab] }
+  - { type: died_in, target: place/damascus, sources: [source/shadharat-dhahab] }
+sources: [source/shadharat-dhahab]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }
+provenance:
+  layer: own-research
+  source: "شذرات الذهب — ابن العماد (ج7، سنة 690)، قراءة آبل فيجن"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-shadharat-batch-134

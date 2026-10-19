@@ -1,0 +1,28 @@
+id: person/al-sakhawi-alam
+class: person
+label: { ar: "علم الدين السخاوي المقريء", en: "Alam al-Din al-Sakhawi" }
+names:
+  - { value: "علم الدين أبو الحسن علي بن محمد بن عبد الصمد بن عبد الأحد الهمداني السخاوي المقريء النحوي الشافعي", kind: full }
+born: { edtf: "1164~", hijri: "0559~", calendar: julian, precision: year, status: tradition, derived: true, note: "ولد قبل الستين وخمسمائة بسخاو {cite:shadharat-dhahab p. 230}." }
+died: { edtf: "1245-11~", hijri: "0643-06", calendar: julian, precision: month, status: tradition, derived: true, note: "توفي في جمادى الآخرة سنة ثلاث وأربعين وستمائة ودفن بقاسيون {cite:shadharat-dhahab p. 230}." }
+summary:
+  ar: "المقريء النحوي الشافعي؛ قرأ القراءات على الشاطبي وغيره حتى فاق أهل زمانه في القراءات وانتهت إليه رياسة الإقراء والأدب بدمشق وقرأ عليه خلق لا يحصيهم إلا الله؛ قال الذهبي ما علمت أحداً في الإسلام حمل عنه القراءات أكثر مما حمل عنه؛ وقال ابن خلكان رأيته مراراً راكباً بهيمة وهو يصعد إلى جبل الصالحية وحوله اثنان أو ثلاثة كل واحد يقرأ ميعاده في غير موضع الآخر وهو يرد على الجميع؛ من تصانيفه التفسير إلى الكهف في أربع مجلدات وشرح الشاطبية في مجلدين وشرح المفصل للزمخشري في أربع مجلدات وجمال القراء وتاج الإقراء {cite:shadharat-dhahab p. 230-231}."
+  en: "Damascus's master of qira'at (d. Jumada II 643, Qasyun) — pupil of al-Shatibi himself; Dhahabi knew no one in Islam who transmitted more readings; Ibn Khallikan watched him ride up Salihiyya answering three students at once; author of a four-volume tafsir to al-Kahf and a Sharh al-Mufassal {cite:shadharat-dhahab p. 230-231}."
+gender: male
+roles: [scholar, teacher]
+wings: [people]
+periods: [period/crusades-ayyubid-mamluk]
+regions: [levant-iraq]
+faith:
+  - value: sunni-shafii
+    basis: tradition
+relations:
+  - { type: died_in, target: place/damascus, sources: [source/shadharat-dhahab] }
+  - { type: buried_in, target: place/damascus, sources: [source/shadharat-dhahab] }
+sources: [source/shadharat-dhahab]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }
+provenance:
+  layer: own-research
+  source: "شذرات الذهب — ابن العماد (ج5، سنة 643)، قراءة آبل فيجن"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-shadharat-batch-127

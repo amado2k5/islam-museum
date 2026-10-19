@@ -1,0 +1,27 @@
+id: person/al-qastallani-ahmad
+class: person
+label: { ar: "القسطلاني المصري", en: "al-Qastallani al-Misri" }
+names:
+  - { value: "أبو العباس أحمد بن علي القسطلاني ثم المصري المالكي", kind: full }
+died: { edtf: "1239", hijri: "0636-06", calendar: julian, precision: month, status: tradition, derived: true, note: "توفي بمكة المشرفة في جمادى الآخرة سنة ست وثلاثين وستمائة وقبره يزار بالشعب الأيسر {cite:shadharat-dhahab p. 187}.", sources: [source/shadharat-dhahab] }
+summary:
+  ar: "الفقيه المالكي الزاهد القدوة، تلميذ الشيخ أبي عبد الله القرشي؛ سمع من عبد الله بن بري ودرّس بمصر وأفتى ثم جاور بمكة مدة وتزوج بعد موت شيخه زوجته الصالحة الجليلة أم ولده قطب الدين؛ حكى أن أهل المدينة أجدبوا فاستسقى أهل المدينة يومهم فلم يُسقوا ثم عمل طعاماً للضعفاء واستسقى مع المجاورين فسُقوا؛ وله مؤلف جمع فيه كلام شيخه القرشي وكراماته {cite:shadharat-dhahab p. 187}."
+  en: "The Maliki ascetic of Mecca (d. Jumada II 636) — the mujawir whose rain prayer with the weak was answered when the Medinans' own day was not; compiled his shaykh al-Qurashi's sayings and karamat; grave visited in the Shi'b al-Aysar {cite:shadharat-dhahab p. 187}."
+gender: male
+roles: [scholar]
+wings: [people]
+periods: [period/crusades-ayyubid-mamluk]
+regions: [arabia, egypt-nile]
+faith:
+  - value: sunni-maliki
+    basis: tradition
+relations:
+  - { type: died_in, target: place/mecca, sources: [source/shadharat-dhahab] }
+  - { type: buried_in, target: place/mecca, sources: [source/shadharat-dhahab] }
+sources: [source/shadharat-dhahab]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }
+provenance:
+  layer: own-research
+  source: "شذرات الذهب — ابن العماد (ج5، سنة 636)، قراءة آبل فيجن"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-shadharat-batch-126

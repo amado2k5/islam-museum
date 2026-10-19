@@ -1,0 +1,24 @@
+id: person/sayf-al-din-al-amidi
+class: person
+label: { ar: "سيف الدين الآمدي", en: "Sayf al-Din al-Amidi" }
+names:
+  - { value: "أبو الحسن علي بن أبي علي بن محمد الحنبلي ثم الشافعي الآمدي", kind: full }
+born: { edtf: "1155~", hijri: "0550~", calendar: julian, precision: year, status: tradition, derived: true, note: "ولد بعد الخمسين وخمسمائة بآمد {cite:shadharat-dhahab p. 144}." }
+died: { edtf: "1233", hijri: "0631", calendar: julian, precision: month, status: tradition, derived: true, note: "توفي في صفر سنة إحدى وثلاثين وستمائة ودفن بتربته بقاسيون {cite:shadharat-dhahab p. 145}." }
+summary:
+  ar: "السيف الآمدي، المتكلم العلامة صاحب التصانيف العقلية؛ ولد بآمد وتفقه للحنابلة ثم للشافعية ببغداد على علي بن فضلان وحفظ الوسيط للغزالي، وتفنن في علم النظر والكلام والحكمة وكان من أذكياء العالم؛ أقرأ بمصر فنسب إلى دين الأوائل وكتبوا محضراً بإباحة دمه فخرج مستخفياً إلى الشام فنزل حماة وصنف في الأصلين والحكمة والمنطق، ثم قدم دمشق فولاه المعظم تدريس العزيزية فلما ولي الأشرف عُزل ونودي في المدارس أن من ذكر غير التفسير والحديث والفقه أو تعرض لكلام الفلاسفة نُفي، فأقام خافياً في بيته حتى توفي ودفن بقاسيون؛ قال ابن عبد السلام ما تعلمنا قواعد البحث إلا منه، وقال سبط ابن الجوزي لم يكن في زمانه من يجاريه في الأصلين وعلم الكلام؛ من تصانيفه الإحكام في أصول الأحكام في مجلدين وأبكار الأفكار في أصول الدين في خمس مجلدات {cite:shadharat-dhahab p. 144-145}."
+  en: "Sayf al-Din al-Amidi (post-550–631) — the master usuli of the age: born at Amid, Hanbali then Shafi'i at Baghdad, memorized al-Ghazali's Wasit; expelled from Egypt on a blood-licensing writ over his philosophical learning, sheltered in Hama then Damascus where al-Mu'azzam gave him the Aziziyya — until al-Ashraf banned everything but tafsir, hadith and fiqh; died in hiding at Qasyun. His Ihkam fi Usul al-Ahkam and Abkar al-Afkar became canonical {cite:shadharat-dhahab p. 144-145}."
+gender: male
+roles: [scholar]
+wings: [people]
+periods: [period/crusades-ayyubid-mamluk]
+regions: [levant-iraq, anatolia-balkans, egypt-nile]
+relations:
+  - { type: died_in, target: place/damascus, sources: [source/shadharat-dhahab] }
+sources: [source/shadharat-dhahab]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }
+provenance:
+  layer: own-research
+  source: "شذرات الذهب — ابن العماد (ج5، سنة 631)، قراءة آبل فيجن"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-shadharat-batch-125

@@ -1,0 +1,24 @@
+id: event/ceuta-fall-817
+class: event
+kind: battle
+label: { ar: "دخول الفرنج سبتة سنة 817هـ", en: "The Frankish storming of Ceuta, 817" }
+summary:
+  ar: "في سابع شعبان سنة سبع عشرة وثمانمائة دخل الفرنج مدينة سبتة من بلاد المغرب وخربوها وأخذوا ما كان بها من الأموال والذخائر حتى الكتب العلمية وتركوها قاعاً خراباً وبقيت بأيديهم؛ وكان أهلها وهم محاصرون قد أرسلوا قصيدة طنانة يستجدون فيها أهل الإسلام من أهل مصر وغيرها فلم يُغِثهم أحد ولم يجبهم إلا قصيدة من نظم ابن حجة {cite:shadharat-dhahab p. 132}."
+  en: "7 Sha'ban 817 — the Franks stormed Ceuta, razed it and carried off its wealth and stores down to the scholars' books, leaving it an empty ruin that stayed in their hands; its besieged people had sent a ringing poem begging the Muslims of Egypt and beyond for rescue and were answered only with a poem by Ibn Hijja {cite:shadharat-dhahab p. 132}."
+wings: [time]
+periods: [period/mongol-post-mongol]
+regions: [maghreb]
+map: { kind: locator, precision: approximate, center: [35.8893, -5.3198] }
+sides:
+  - { label: { ar: "الفرنج" } }
+  - { label: { ar: "أهل سبتة" } }
+date: { start: { edtf: "1415-10-01~", hijri: "0817-08-07", calendar: julian, precision: day, status: tradition, derived: true, note: "سابع شعبان 817؛ التحويل مشتق {cite:shadharat-dhahab p. 132}", sources: [source/shadharat-dhahab] } }
+relations:
+  - { type: occurred_at, target: place/ceuta, sources: [source/shadharat-dhahab] }
+provenance:
+  layer: own-research
+  source: "شذرات الذهب — ابن العماد (ط مكتبة المثنى 1351، ج7، سنة 817)، قراءة آبل فيجن"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-shadharat-batch-137
+sources: [source/shadharat-dhahab]
+status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 High)" }

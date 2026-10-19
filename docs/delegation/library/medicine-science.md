@@ -16,9 +16,24 @@
 | 5. Verified (`verify_cites.py`) | not started |
 | 6. Published in batches of at most 25 | not started |
 
+## Batch 1 (draft, branch `lib-exp-medicine-science/canon-batch-1`)
+
+- **Pages covered (OCR markers):** p.1 (title page), pp.2–18 (Book I, Fann 1, Ta'lim 1–5), p.69 (Ta'lim 6 heading), and heading-only checks at pp.77, 158, 197, 232, 543.
+- **Entities created (all `status.review: draft`):**
+  - `work/al-qanun-fi-al-tibb` (book; ID was already referenced by `person/ibn-sina`, so it is now written)
+  - `concept/medicine` (was a stub in `data/_stubs.yaml`; the stub line is removed)
+  - `concept/four-elements`, `concept/temperament`, `concept/humours`
+  - `source/canon-ibn-sina-print` (the printed copy, edition not verified; `status` only, no provenance block, since a source with a provenance layer needs cited sources)
+- **Skipped and why:**
+  - The author's front matter and the five-book division with page numbers: not in the OCR. p.1 is the title page only; p.2 opens Book I directly. Book IV and Book V were not located in the headings found so far.
+  - Author death date (428 AH) for the work record: not stated in the pages read. The person record `person/ibn-sina` already holds it, sourced to Gutas and al-Dhahabi; the work record carries no date.
+  - Organs (Ta'lim 5, p.18), powers and actions (Ta'lim 6, p.69), and the rest of Book I: next batch.
+  - No prose for the three concept files beyond the data summaries (matches `concept/madhahib-al-tibb`).
+- **Schema or enum needs:** none found for this batch. `source/` kinds and `provenance.layer` values used as the schema allows.
+
 ## Duplicates found and skipped
 
-None recorded yet. Pre-check counts (18 Oct 2026, `grep -ril` over `data/`) are in the lane document.
+No duplicate for the Canon, Ibn Sina, or the medical concepts in this batch: `grep` over `data/` found `person/ibn-sina` (existing), `concept/madhahib-al-tibb` (different topic, left alone) and `concept/arab-medicine-in-european-schools` (left alone). Pre-check counts (18 Oct 2026) are in the lane document.
 
 ## Downloads
 
@@ -41,4 +56,6 @@ None yet.
 
 ## Next step
 
-Add this lane's entries to `scripts/harvest/library/books.yaml` in the lane's own commit, then run `fetch_books.py` for the lane after the workstream commit is on `origin/main`.
+1. Read the OCR pages 19–68 (Ta'lim 5 organs and the rest of Ta'lim 6), and find the front matter if the OCR has it under another page (none found in pp.1–18). Then create the organ and powers concepts.
+2. Confirm the edition (publisher, date, volume) before any record moves from draft.
+3. Add this lane's entries to `scripts/harvest/library/books.yaml` in the lane's own commit, then run `fetch_books.py` for the lane after the workstream commit is on `origin/main`.

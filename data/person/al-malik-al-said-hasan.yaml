@@ -1,0 +1,27 @@
+id: person/al-malik-al-said-hasan
+class: person
+label: { ar: "الملك السعيد حسن بن العزيز", en: "al-Malik al-Sa'id Hasan" }
+names:
+  - { value: "الملك السعيد حسن بن العزيز عثمان بن العادل صاحب الصبيبة وبانياس", kind: full }
+died: { edtf: "1260-10~", hijri: "0658-10~", calendar: julian, precision: month, status: tradition, derived: true, note: "قاتل يوم عين جالوت مع التتار فلما انهزموا جيء به إلى الملك المظفر فضرب عنقه {cite:shadharat-dhahab p. 300}." }
+summary:
+  ar: "صاحب الصبيبة وبانياس؛ تملك سنة إحدى وثلاثين بعد أخيه الملك الظاهر إلى سنة بضع وأربعين فأخذ الصبيبة منه الملك الصالح وأعطاه إمرة مصر؛ فلما قتل المعظم ابن الصالح ساق إلى غزة وأخذ ما فيها وأخذ الصبيبة فتسلمها، فلما تملك الملك الناصر دمشق قبض عليه وسجنه بالبيرة، فلما أخذ هلاكو البيرة أحضره إليه بقيوده فأطلقه وخلع عليه وسلم إليه الصبيبة وبقي في خدمة كتبغا بدمشق، وكان بطلاً شجاعاً قاتل يوم عين جالوت فلما انهزمت التتار جيء به إلى الملك المظفر فضرب عنقه {cite:shadharat-dhahab p. 300}."
+  en: "Lord of al-Subayba and Banias (r. 631–640s) — stripped by al-Salih, jailed at al-Bira by al-Nasir, freed in his chains by Hulagu and restored to Subayba in Kitbugha's service; he fought at Ayn Jalut on the Tatar side and al-Muzaffar Qutuz struck off his head {cite:shadharat-dhahab p. 300}."
+gender: male
+roles: [emir]
+wings: [people]
+periods: [period/crusades-ayyubid-mamluk, period/mongol-post-mongol]
+regions: [levant-iraq]
+faith:
+  - value: sunni
+    basis: tradition
+relations:
+  - { type: child_of, target: person/al-malik-al-aziz-uthman, sources: [source/shadharat-dhahab] }
+  - { type: participated_in, target: event/ayn-jalut-658, role: "قاتل مع التتار فأُسر وأُعدم", sources: [source/shadharat-dhahab] }
+sources: [source/shadharat-dhahab]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }
+provenance:
+  layer: own-research
+  source: "شذرات الذهب — ابن العماد (ج5، سنة 658)، قراءة آبل فيجن"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-shadharat-batch-130

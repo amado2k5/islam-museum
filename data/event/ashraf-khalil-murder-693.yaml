@@ -8,7 +8,12 @@ summary:
 wings: [time]
 periods: [period/mongol-post-mongol]
 regions: [egypt-nile]
-date: { start: { edtf: "1293~", hijri: "0693", calendar: julian, precision: year, status: tradition, derived: true, note: "693هـ {cite:shadharat-dhahab p. 422}", sources: [source/shadharat-dhahab] } }
+date: { start: { edtf: "1293~", hijri: "0693", calendar: julian, precision: year, status: tradition, derived: true, note: "693هـ {cite:shadharat-dhahab p. 422}؛ وطبعة أرناؤوط ص 738", sources: [source/shadharat-dhahab] } }
+relations:
+  - { type: had_participant, target: person/al-ashraf-khalil, role: "السلطان المقتول", sources: [source/shadharat-dhahab] }
+  - { type: had_participant, target: person/kitbugha-al-mansuri, role: "مقدم الخاصكية الذي فض الوقعة", sources: [source/shadharat-dhahab] }
+  - { type: had_participant, target: person/al-nasir-muhammad-ibn-qalawun, role: "أُقيم سلطاناً بعدها", sources: [source/shadharat-dhahab] }
+  - { type: had_participant, target: person/ibn-al-salus, role: "الوزير المُمسك", sources: [source/shadharat-dhahab] }
 provenance:
   layer: own-research
   source: "شذرات الذهب — ابن العماد (ج5، سنة 693)"

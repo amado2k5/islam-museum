@@ -1,0 +1,22 @@
+id: person/al-kughiri
+class: person
+label: { ar: "شمس الدين الكغيري", en: "Shams al-Din al-Kughiri" }
+names:
+  - { value: "شمس الدين محمد بن أحمد بن موسى بن عبد الله الكغيري الشافعي", kind: full }
+gender: male
+summary:
+  ar: "شمس الدين الكغيري المجلوني الأصل ثم الدمشقي؛ ولد في العشر الأول من شوال سنة سبع وخمسين وسبعمائة وحفظ التنبيه وأخذ عن ابن قاضي شهبة ولازم الشيخ شمس الدين الغزي مدة طويلة واشتهر بحفظ الفروع وناب في الحكم وولي قضاء الركب وجمع شرحاً على البخاري في ست مجلدات وصنف عين البهية في شرح التنبيه واختصر الروض الأنف للسهيلي وسماها زهر الروض، توفي في ثالث عشر المحرم سنة إحدى وثلاثين وثمانمائة {cite:shadharat-dhahab p. 196}."
+  en: "Shams al-Din al-Kughiri (b. 757) — famed for memorized furu', qadi al-rakb, compiler of a six-volume commentary on al-Bukhari plus 'Ayn al-Bahiyya and Zahr al-Rawd; died 13 Muharram 831 {cite:shadharat-dhahab p. 196}."
+roles: [jurist, scholar]
+wings: [people]
+periods: [period/mongol-post-mongol]
+regions: [levant-iraq]
+born: { edtf: "1356~", hijri: "0757-10~", calendar: julian, precision: month, status: tradition, derived: true, note: "ولد في العشر الأول من شوال 757 {cite:shadharat-dhahab p. 196}", sources: [source/shadharat-dhahab] }
+died: { edtf: "1427-10-24~", hijri: "0831-01-13", calendar: julian, precision: day, status: tradition, derived: true, note: "توفي في ثالث عشر المحرم 831 {cite:shadharat-dhahab p. 196}", sources: [source/shadharat-dhahab] }
+provenance:
+  layer: own-research
+  source: "شذرات الذهب — ابن العماد (ط مكتبة المثنى 1351، ج7، سنة 831)، قراءة آبل فيجن"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-shadharat-batch-138
+sources: [source/shadharat-dhahab]
+status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 High)" }

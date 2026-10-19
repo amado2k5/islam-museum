@@ -1,0 +1,26 @@
+id: person/al-malik-al-amjad-hasan
+class: person
+label: { ar: "الملك الأمجد حسن", en: "al-Malik al-Amjad Hasan" }
+names:
+  - { value: "الملك الأمجد حسن بن الملك الناصر داود بن الملك المعظم عيسى بن الملك العادل أيوب", kind: full }
+died: { edtf: "1272~", hijri: "0670", calendar: julian, precision: year, status: tradition, derived: true, note: "مات بدمشق ودفن بتربة جده الملك المعظم بسفح قاسيون سنة سبعين {cite:shadharat-dhahab p. 577}." }
+summary:
+  ar: "ابن الملك الناصر داود صاحب الكرك؛ كان من الفضلاء عنده مشاركة جيدة في كثير من العلوم وله معرفة تامة بالأدب، وتزهد وصحب المشايخ وكان لا يدخر عنهم شيئاً وكان كثير المروءة والاحتمال؛ مات بدمشق ودفن بتربة جده الملك المعظم بسفح قاسيون {cite:shadharat-dhahab p. 577}."
+  en: "Karak's prince, al-Nasir Dawud's son — 'of the virtuous, with real shares in many sciences and complete adab'; he renounced rank, kept the shaykhs' company and withheld nothing from them; buried in his grandfather al-Mu'azzam's turba at Qasyun's foot {cite:shadharat-dhahab p. 577}."
+gender: male
+roles: [emir, scholar]
+wings: [people]
+periods: [period/mongol-post-mongol]
+regions: [levant-iraq]
+faith:
+  - value: sunni
+    basis: tradition
+relations:
+  - { type: buried_in, target: place/damascus, sources: [source/shadharat-dhahab] }
+sources: [source/shadharat-dhahab]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }
+provenance:
+  layer: own-research
+  source: "شذرات الذهب — ابن العماد (ج7، سنة 670)، قراءة آبل فيجن"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-shadharat-batch-132

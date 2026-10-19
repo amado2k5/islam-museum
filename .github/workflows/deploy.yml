@@ -1,4 +1,4 @@
-name: Deploy to GitHub Pages
+name: Deploy islam.museum to Cloudflare Pages
 
 on:
   push:
@@ -7,8 +7,7 @@ on:
 
 permissions:
   contents: read
-  pages: write
-  id-token: write
+  deployments: write
 
 concurrency:
   group: pages
@@ -52,37 +51,132 @@ jobs:
         run: npm ci && npm ci --prefix site
       - name: Validate, compile and build (validate → graph → derive → api → astro → pagefind)
         run: npm run build
+        env:
+          # Pagefind indexes are uploaded to R2 and served from there.
+          # Set PAGEFIND_BASE_URL as a GitHub Actions variable to the R2 public URL.
+          PUBLIC_PAGEFIND_BASE: ${{ vars.PAGEFIND_BASE_URL }}
       - name: No runtime AI or compute (guard)
         run: npm run check:static
-      - name: Configure Pages
-        uses: actions/configure-pages@v5
-      - name: Upload site
-        uses: actions/upload-pages-artifact@v3
+      - name: Check whether data/content changed (gate for R2 sync)
+        id: content_gate
+        run: |
+          # R2 holds the pagefind indexes and API JSON, both of which are derived
+          # exclusively from data/ and content/. If neither directory changed in the
+          # commits included in this push, the R2 files are already correct and the
+          # sync can be skipped entirely — saving ~4 GET + 4 PUT + N upload ops.
+          # Falls back to "changed" (forces sync) whenever git history is uncertain.
+          if git rev-parse HEAD~1 >/dev/null 2>&1 && \
+             git diff --quiet HEAD~1 HEAD -- data/ content/; then
+            echo "skip=true"  >> "$GITHUB_OUTPUT"
+            echo "No data/content changes — R2 sync skipped."
+          else
+            echo "skip=false" >> "$GITHUB_OUTPUT"
+            echo "data/ or content/ changed — R2 sync will run."
+          fi
+      - name: Upload pagefind indexes and API to R2
+        if: steps.content_gate.outputs.skip == 'false' && github.ref == 'refs/heads/main'
+        env:
+          AWS_ACCESS_KEY_ID: ${{ secrets.R2_ACCESS_KEY_ID }}
+          AWS_SECRET_ACCESS_KEY: ${{ secrets.R2_SECRET_ACCESS_KEY }}
+          AWS_DEFAULT_REGION: auto
+          ACCOUNT_ID: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
+        run: |
+          set -euo pipefail
+          ENDPOINT="https://${ACCOUNT_ID}.r2.cloudflarestorage.com"
+          BUCKET="s3://islam-museum-search"
+
+          # Manifest-based incremental sync.
+          # After each successful build we store a manifest (one "size path" line
+          # per file) in R2. On the next build we download that manifest and diff
+          # it against the freshly built dist to find only the files that changed,
+          # were added, or were deleted — then operate only on those files.
+          # This is far cheaper than "aws s3 sync --size-only" which issues ~100
+          # S3 LIST calls (one per 1000 objects) to rebuild the same picture.
+          # First run (no manifest yet) falls back to a full sync automatically.
+
+          r2_sync() {
+            local src="$1"          # local directory, e.g. dist/pagefind-ar
+            local dst="$2"          # R2 prefix, e.g. pagefind-ar
+            local cache_control="$3"
+            local manifest_key="${dst}/.manifest"
+
+            # Build a manifest of the new local files: "size relative/path"
+            # sort at the end ensures lines are in a stable order for comm.
+            find "$src" -type f | sort | while read -r f; do
+              size=$(wc -c < "$f")
+              echo "$size ${f#$src/}"
+            done | sort > /tmp/manifest-new.txt
+
+            # Try to fetch the previous manifest; if absent, treat as empty.
+            aws s3 cp "$BUCKET/$manifest_key" /tmp/manifest-old.txt \
+              --endpoint-url "$ENDPOINT" --quiet 2>/dev/null || touch /tmp/manifest-old.txt
+            sort /tmp/manifest-old.txt -o /tmp/manifest-old.txt
+
+            # Files to upload: in new but not in old (new or changed size).
+            comm -23 /tmp/manifest-new.txt /tmp/manifest-old.txt \
+              | awk '{print $2}' > /tmp/to-upload.txt
+
+            # Files to delete: in old but not in new (removed).
+            comm -13 /tmp/manifest-new.txt /tmp/manifest-old.txt \
+              | awk '{print $2}' > /tmp/to-delete.txt
+
+            upload_count=$(wc -l < /tmp/to-upload.txt)
+            delete_count=$(wc -l < /tmp/to-delete.txt)
+            echo "[$dst] uploading $upload_count, deleting $delete_count"
+
+            # Upload changed/new files.
+            while IFS= read -r path; do
+              [ -z "$path" ] && continue
+              aws s3 cp "$src/$path" "$BUCKET/$dst/$path" \
+                --endpoint-url "$ENDPOINT" \
+                --cache-control "$cache_control" \
+                --quiet
+            done < /tmp/to-upload.txt
+
+            # Delete removed files.
+            while IFS= read -r path; do
+              [ -z "$path" ] && continue
+              aws s3 rm "$BUCKET/$dst/$path" \
+                --endpoint-url "$ENDPOINT" \
+                --quiet
+            done < /tmp/to-delete.txt
+
+            # Persist the new manifest so the next build can diff against it.
+            aws s3 cp /tmp/manifest-new.txt "$BUCKET/$manifest_key" \
+              --endpoint-url "$ENDPOINT" --quiet
+          }
+
+          r2_sync dist/pagefind-ar pagefind-ar "public, max-age=31536000, immutable"
+          r2_sync dist/pagefind-en pagefind-en "public, max-age=31536000, immutable"
+          r2_sync dist/pagefind-ur pagefind-ur "public, max-age=31536000, immutable"
+          r2_sync dist/api        api         "public, max-age=3600, stale-while-revalidate=86400"
+      - name: Strip R2-served dirs from Pages deployment
+        run: rm -rf dist/pagefind-ar dist/pagefind-en dist/pagefind-ur dist/api
+      - name: Upload built site
+        uses: actions/upload-artifact@v4
         with:
+          name: dist
           path: dist
+          retention-days: 1
 
   deploy:
     needs: [test, build]
+    if: github.ref == 'refs/heads/main'
     runs-on: ubuntu-latest
-    environment:
-      name: github-pages
-      url: ${{ steps.deployment.outputs.page_url }}
     steps:
-      - name: Deploy
-        id: deployment
-        uses: actions/deploy-pages@v4
-      - name: Purge Cloudflare cache
-        # Needs repository secrets CF_ZONE_ID and CF_API_TOKEN (Zone → Cache Purge). Skipped until they exist.
-        env:
-          CF_ZONE_ID: ${{ secrets.CF_ZONE_ID }}
-          CF_API_TOKEN: ${{ secrets.CF_API_TOKEN }}
-        run: |
-          if [ -z "$CF_ZONE_ID" ] || [ -z "$CF_API_TOKEN" ]; then
-            echo "Cloudflare secrets not set; skipping cache purge."; exit 0
-          fi
-          curl -fsS -X POST "https://api.cloudflare.com/client/v4/zones/${CF_ZONE_ID}/purge_cache" \
-            -H "Authorization: Bearer ${CF_API_TOKEN}" -H "Content-Type: application/json" \
-            --data '{"purge_everything":true}'
+      - name: Download built site
+        uses: actions/download-artifact@v4
+        with:
+          name: dist
+          path: dist
+      - name: Deploy to Cloudflare Pages
+        uses: cloudflare/wrangler-action@v3
+        with:
+          apiToken: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+          accountId: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
+          wranglerVersion: "4"
+          command: pages deploy dist --project-name=islam-museum
+
   # Pings IndexNow with the URLs changed in this push (scripts/indexnow.mjs), so
   # Bing/Yandex pick up new and updated pages without waiting for a crawl.
   # Set the repository variable INDEXNOW to "off" to skip it.

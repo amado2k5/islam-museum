@@ -1,0 +1,26 @@
+id: person/bulos-al-habis
+class: person
+label: { ar: "بولص الراهب الحبيس", en: "Bulus the monk, al-Habis" }
+names:
+  - { value: "بولص الراهب الكاتب المعروف بالحبيس", kind: full }
+died: { edtf: "1268~", hijri: "0666", calendar: julian, precision: year, status: tradition, derived: true, note: "ضيق عليه السلطان وعذبه إلى أن مات ولم يقر بشيء فأخرج من القلعة ميتاً ورمي على باب القرافة {cite:shadharat-dhahab p. 561}." }
+summary:
+  ar: "الراهب الكاتب؛ أقام بمغارة بجبل حلوان بقرب القاهرة فقيل إنه وقع بكنز الحاكم صاحب مصر فواسى منه الفقراء والمستورين من كل ملة واشتهر أمره وشاع ذكره، وقام عن المصادرين بجملة عظيمة مبلغها ستمائة ألف دينار خارجاً عما كان يصرفه للفقراء؛ طلبه السلطان فأحضره وتلطف به وطلب منه المال فجعل يغالطه ويراوغه فلما أعياه ضيق عليه وعذبه إلى أن مات ولم يقر بشيء فأخرج من القلعة ميتاً ورمي على باب القرافة، وكان لا يأكل من هذا المال شيئاً ولا يلبس ولا ظهر منه شيء في تركته؛ قال الذهبي: وقد أفتى غير واحد بقتله خوفاً على ضعفاء الإيمان من المسلمين أن يضلهم ويغويهم {cite:shadharat-dhahab p. 561}."
+  en: "The monk-scribe of the Mount Hilwan cave — said to have chanced on the Fatimid treasury; he relieved the poor of every creed and stood security for the confiscated to the tune of six hundred thousand dinars, yet ate and wore nothing of it. The sultan coaxed, then squeezed, then tortured him to death without a confession; his body was thrown out at Qarafa's gate {cite:shadharat-dhahab p. 561}."
+gender: male
+roles: [scribe, mystic]
+wings: [people]
+periods: [period/mongol-post-mongol]
+regions: [egypt-nile]
+faith:
+  - value: christian
+    basis: tradition
+relations:
+  - { type: died_in, target: place/cairo, sources: [source/shadharat-dhahab] }
+sources: [source/shadharat-dhahab]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }
+provenance:
+  layer: own-research
+  source: "شذرات الذهب — ابن العماد (ج7، سنة 666)، قراءة آبل فيجن"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-shadharat-batch-131

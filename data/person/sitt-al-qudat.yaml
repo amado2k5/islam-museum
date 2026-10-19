@@ -1,0 +1,26 @@
+id: person/sitt-al-qudat
+class: person
+label: { ar: "ست القضاة بنت ابن كثير", en: "Sitt al-Qudat, Ibn Kathir's niece" }
+names:
+  - { value: "ست القضاة بنت عبد الوهاب بن عمر بن كثير أبنة أخي الحافظ عماد الدين", kind: full }
+born: { edtf: "1320~", hijri: "0720~", calendar: julian, precision: year, status: tradition, derived: true, note: "جاوزت الثمانين {cite:shadharat-dhahab p. 15}." }
+died: { edtf: "1399-02~", hijri: "0801-06", calendar: julian, precision: month, status: tradition, derived: true, note: "توفيت في جمادى الآخرة وقد جاوزت الثمانين {cite:shadharat-dhahab p. 15}." }
+summary:
+  ar: "بنت عبد الوهاب ابن كثير، أبنة أخي الحافظ عماد الدين؛ حدثت بالإجازة عن القاسم بن عساكر وغيره من شيوخ الشام وعن علي العلواني وغيره من شيوخ مصر، وخرّج لها صلاح الدين أربعين حديثاً عن شيوخها {cite:shadharat-dhahab p. 15}."
+gender: female
+roles: [scholar]
+wings: [people]
+periods: [period/mongol-post-mongol]
+regions: [levant-iraq]
+faith:
+  - value: sunni
+    basis: tradition
+relations:
+  - { type: died_in, target: place/damascus, sources: [source/shadharat-dhahab] }
+sources: [source/shadharat-dhahab]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }
+provenance:
+  layer: own-research
+  source: "شذرات الذهب — ابن العماد (ط مثنى، ج7، سنة 801)، قراءة آبل فيجن"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-shadharat-batch-136

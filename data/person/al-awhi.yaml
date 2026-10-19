@@ -1,0 +1,30 @@
+id: person/al-awhi
+class: person
+label: { ar: "الأوهي زاهد بيت المقدس" }
+summary:
+  ar: "الأوهي بفتحتين نسبة إلى أوه قرية بين زنجان وهمدان؛ الزاهد أبو علي الحسن بن أحمد بن يوسف نزيل بيت المقدس، أكثر عن السلفي وجماعة، وكان عبداً صالحاً قانتاً صاحب أحوال ومجاهدات له أجزاء يحدث بها؛ توفي في عاشر صفر سنة ثلاثين وستمائة {cite:shadharat-dhahab p. 136}."
+  en: "al-Awhi — Abu Ali Hasan b. Ahmad of Awuh, a village between Zanjan and Hamadan, settled at Jerusalem; a devout ascetic of states and strivings who transmitted his ajza'; died 10 Safar 630 {cite:shadharat-dhahab p. 136}."
+gender: male
+wings: [people]
+periods: [period/crusades-ayyubid-mamluk]
+regions: [levant-iraq]
+faith:
+  - value: sunni
+    basis: tradition
+died:
+  edtf: "1232~"
+  hijri: "0630-02-10"
+  calendar: julian
+  precision: day
+  status: tradition
+  derived: true
+  note: "توفي في عاشر صفر سنة ثلاثين؛ التحويل مشتق {cite:shadharat-dhahab p. 136}."
+relations:
+  - { type: died_in, target: place/jerusalem, sources: [source/shadharat-dhahab] }
+sources: [source/shadharat-dhahab]
+status: { review: draft, completeness: 1 }
+provenance:
+  layer: own-research
+  source: "شذرات الذهب — ابن العماد (ج5، سنة 630)"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-shadharat-batch-124

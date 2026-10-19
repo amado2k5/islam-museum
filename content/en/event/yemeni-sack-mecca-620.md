@@ -5,7 +5,7 @@ source_lang: ar
 translators: ["Claude Haiku 5.5 (claude-haiku-5-5), draft translation"]
 ---
 ## Overview
-In 620 AH [[person/al-masud-atsiz-yemen|al-Malik al-Mas'ud Atsiz]], lord of Yemen, marched to Mecca, whose lord at that time was [[person/hasan-ibn-qatada|al-Hasan ibn Qatada]]. His army plundered the city until the afternoon. {cite:kamil-ibn-al-athir p.435-436}
+In 620 AH [[person/al-malik-al-masud-ibn-al-kamil|al-Malik al-Mas'ud Atsiz]], lord of Yemen, marched to Mecca, whose lord at that time was [[person/hasan-ibn-qatada|al-Hasan ibn Qatada]]. His army plundered the city until the afternoon. {cite:kamil-ibn-al-athir p.435-436}
 
 ## What Ibn al-Athir relates
 Ibn al-Athir says that al-Hasan had treated badly the notables and mamluks who had belonged to his father, and they dispersed from him. He quotes some of the residents that the army took the clothes off the people and made them poor. {cite:kamil-ibn-al-athir p.435-436}

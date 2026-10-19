@@ -1,0 +1,28 @@
+id: person/umar-al-suhrawardi
+class: person
+label: { ar: "شهاب الدين عمر السهروردي", en: "Shihab al-Din Umar al-Suhrawardi" }
+names:
+  - { value: "أبو حفص عمر بن محمد التيمي البكري الصوفي الشافعي", kind: full }
+born: { edtf: "1144~", hijri: "0539", calendar: julian, precision: year, status: tradition, derived: true, note: "ولد سنة تسع وثلاثين وخمسمائة بسهرورد {cite:shadharat-dhahab p. 153}." }
+died: { edtf: "1234", hijri: "0632", calendar: julian, precision: day, status: tradition, derived: true, note: "توفي في مستهل المحرم سنة اثنتين وثلاثين وستمائة ببغداد {cite:shadharat-dhahab p. 154}." }
+summary:
+  ar: "قدوة أهل التوحيد وشيخ العارفين عند أهل الطريق، شيخ شيوخ بغداد وإليه انتهت رياسة تربية المريدين ومشيخة العراق؛ صحب عمه أبا النجيب السهروردي والشيخ عبد القادر وسمع من أبي القاسم بن فضلان، وكان له مجلس وعظ مقبول تواجد فيه الناس وتاب جمع كبير؛ من تصانيفه كتاب عوارف المعارف وهو أشهرها، وكان كثير الحج وتكتب إليه مشايخ الطريق صور فتاوى في أحوالهم؛ عمي في آخر عمره وأقعد ولم يخل بشيء من أوراده؛ توفي ببغداد {cite:shadharat-dhahab p. 153-155}."
+  en: "Shihab al-Din Umar al-Suhrawardi (539–632) — shaykh al-shuyukh of Baghdad and author of Awarif al-Ma'arif, the most-read Sufi manual of the later middle ages; companion of his uncle Abu al-Najib and of Abd al-Qadir, beloved preacher at whose gatherings crowds repented; blind and bedridden at the end yet never dropping a wird {cite:shadharat-dhahab p. 153-155}."
+gender: male
+wings: [people]
+periods: [period/crusades-ayyubid-mamluk]
+regions: [levant-iraq, persia-central-asia]
+faith:
+  - value: sufi
+    basis: tradition
+    note: "شافعي المذهب، شيخ الطريقة ببغداد"
+relations:
+  - { type: died_in, target: place/baghdad, sources: [source/shadharat-dhahab] }
+  - { type: student_of, target: person/abu-al-najib-al-suhrawardi, role: "عمه وشيخه", sources: [source/shadharat-dhahab] }
+sources: [source/shadharat-dhahab]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }
+provenance:
+  layer: own-research
+  source: "شذرات الذهب — ابن العماد (ج5، سنة 632)، قراءة آبل فيجن"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-shadharat-batch-125

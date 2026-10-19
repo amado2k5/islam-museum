@@ -1,0 +1,26 @@
+id: person/ahmad-ibn-aqbaras
+class: person
+label: { ar: "أحمد بن آقبرس الخوارزمي", en: "Ahmad ibn Aqbaras, the Khwarazmian" }
+names:
+  - { value: "أحمد بن آقبرس بن يلمان بن كنجك الخوارزمي ثم الصالحي", kind: full }
+died: { edtf: "1400~", hijri: "0803", calendar: julian, precision: year, status: tradition, derived: true, note: "مات في الفتنة سنة ثلاث وثمانمائة {cite:shadharat-dhahab p. 32}." }
+summary:
+  ar: "الخوارزمي الصالحي؛ سمع من إسحاق الآمدي ومحمد بن المحب وزينب بنت الكمال؛ قال ابن حجر: أخذت عنه بالصالحية كثيراً وكان خيراً، مات في الفتنة {cite:shadharat-dhahab p. 32}."
+gender: male
+roles: [scholar]
+wings: [people]
+periods: [period/mongol-post-mongol]
+regions: [levant-iraq]
+faith:
+  - value: sunni
+    basis: tradition
+relations:
+  - { type: died_in, target: place/damascus, sources: [source/shadharat-dhahab] }
+  - { type: participated_in, target: event/timur-sack-damascus-803, role: "مات في الفتنة", sources: [source/shadharat-dhahab] }
+sources: [source/shadharat-dhahab]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }
+provenance:
+  layer: own-research
+  source: "شذرات الذهب — ابن العماد (ط مثنى، ج7، سنة 803)، قراءة آبل فيجن"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-shadharat-batch-136

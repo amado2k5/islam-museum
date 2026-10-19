@@ -1,0 +1,24 @@
+id: person/ibn-al-qattan-al-misri
+class: person
+label: { ar: "شمس الدين ابن القطان المصري", en: "Shams al-Din Ibn al-Qattan al-Misri" }
+names:
+  - { value: "شمس الدين محمد بن علي بن محمد بن عمر بن عيسى المصري الشافعي المعروف بابن القطان", kind: full }
+gender: male
+summary:
+  ar: "شمس الدين ابن القطان المصري الشافعي؛ كان أبوه قطاناً وأخوه كذلك واشتغل بالعلم ومهر ولازم الشيخ بهاء الدين بن عقيل وصاهره على بنت له من جارية وسكن مصر ودرس وأفتى وصنف، قال ابن حجر قرأت عليه وأجاز لي وكان ماهراً في القراءات والعربية والحساب وناب في الحكم بأخيه فتهالك على ذلك إلى أن مات، توفي في أواخر شوال عن نيف وثمانين سنة {cite:shadharat-dhahab p. 112}."
+  en: "Shams al-Din Ibn al-Qattan (d. ~82) — son and brother of cotton-merchants who excelled instead in learning; pupil-son-in-law of Ibn 'Aqil, Ibn Hajar's own teacher ('I read on him and he licensed me'); wore himself out deputising the judgeship for his brother; died late Shawwal 812 {cite:shadharat-dhahab p. 112}."
+roles: [scholar, jurist]
+wings: [people]
+periods: [period/mongol-post-mongol]
+regions: [egypt-nile]
+born: { edtf: "1330~", hijri: "0730~", calendar: julian, precision: year, status: tradition, derived: true, note: "توفي عن نيف وثمانين سنة 812 {cite:shadharat-dhahab p. 112}", sources: [source/shadharat-dhahab] }
+died: { edtf: "1410-02~", hijri: "0812-10", calendar: julian, precision: month, status: tradition, derived: true, note: "توفي في أواخر شوال 812 {cite:shadharat-dhahab p. 112}", sources: [source/shadharat-dhahab] }
+relations:
+  - { type: teacher_of, target: person/ibn-hajar-al-asqalani, sources: [source/shadharat-dhahab] }
+provenance:
+  layer: own-research
+  source: "شذرات الذهب — ابن العماد (ط مكتبة المثنى 1351، ج7، سنة 812)، قراءة آبل فيجن"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-shadharat-batch-137
+sources: [source/shadharat-dhahab]
+status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 High)" }

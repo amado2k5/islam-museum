@@ -1,0 +1,27 @@
+id: person/majd-al-din-al-kinani
+class: person
+label: { ar: "مجد الدين الكناني قاضي مصر", en: "Majd al-Din al-Kinani, qadi of Egypt" }
+names:
+  - { value: "القاضي مجد الدين إسماعيل بن إبراهيم بن محمد بن علي بن موسى قاضي القضاة الكناني البليسي الحنفي قاضي مصر", kind: full }
+born: { edtf: "1327-08~", hijri: "0728-08-07", calendar: julian, precision: day, status: tradition, derived: true, note: "ولد ليلة السابع من شعبان سنة ثمان وعشرين وسبعمائة {cite:shadharat-dhahab p. 24}." }
+died: { edtf: "1399-10~", hijri: "0802-03", calendar: julian, precision: month, status: tradition, derived: true, note: "توفي في أول ربيع الأول سنة اثنتين وثمانمائة {cite:shadharat-dhahab p. 24}." }
+summary:
+  ar: "قاضي قضاة الحنفية بمصر؛ برع في الفقه والأصول والفرائض والحساب والأدب وشارك في الحديث والنحو والقراءات، وله ديوان شعر في مجلد، وقال المقريزي: صحبته مدة أعوام وأخذت عنه فوائد وكان لي به أنس — إلا أنه امتحن بالقضاء في دنياه {cite:shadharat-dhahab p. 24}."
+  en: "Egypt's Hanafi chief qadi with a bound volume of verse — al-Maqrizi's own teacher: 'I kept his company years and took benefits from him' {cite:shadharat-dhahab p. 24}."
+gender: male
+roles: [jurist, poet, scholar]
+wings: [people]
+periods: [period/mongol-post-mongol]
+regions: [egypt-nile]
+faith:
+  - value: sunni-hanafi
+    basis: tradition
+relations:
+  - { type: died_in, target: place/cairo, sources: [source/shadharat-dhahab] }
+sources: [source/shadharat-dhahab]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }
+provenance:
+  layer: own-research
+  source: "شذرات الذهب — ابن العماد (ط مثنى، ج7، سنة 802)، قراءة آبل فيجن"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-shadharat-batch-136

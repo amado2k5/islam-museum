@@ -1,0 +1,28 @@
+id: person/katila-al-harbi
+class: person
+label: { ar: "عبد الله كتيلة الحربي", en: "Abdallah Katila al-Harbi" }
+names:
+  - { value: "الشيخ عبد الله كتيلة بن أبي بكر الحربي الفقير الصوفي بقية شيوخ العراق", kind: full }
+born: { edtf: "1208~", hijri: "0605", calendar: julian, precision: year, status: tradition, derived: true, note: "قال ابن رجب: ولد سنة خمس وستمائة {cite:shadharat-dhahab p. 641}." }
+died: { edtf: "1284~", hijri: "0682", calendar: julian, precision: year, status: tradition, derived: true, note: "مات في عشر الثمانين وكان حنبلياً؛ ترجمته في أموات سنة إحدى وثمانين {cite:shadharat-dhahab p. 641}." }
+summary:
+  ar: "بقية شيوخ العراق، الفقير الصوفي الحنبلي؛ سمع الحديث بدمشق من الضياء المقدسي وسليمان الأسعردي، وتفقه ببغداد على القاضي أبي صالح وبحَرّان على مجد الدين بن تيمية وابن تميم وبدمشق على شمس الدين بن أبي عمر وبمصر على ابن حمدان، وشرح كتاب الخرقي وسماها «المهم»، وله «العدة للشدة» في أصول الدين ومصنف في السماع؛ كان قدوة زاهداً عابداً ذا أحوال وكرامات {cite:shadharat-dhahab p. 641-642}."
+  en: "'Last of Iraq's shaykhs' — the Sufi Hanbali whose teachers ran Majd al-Din Ibn Taymiyya at Harran, Ibn Abi Umar at Damascus; his sharh of al-Khiraqi called al-Muhimm, and a book on sama' {cite:shadharat-dhahab p. 641-642}."
+gender: male
+roles: [sufi, scholar, jurist]
+wings: [people]
+periods: [period/mongol-post-mongol]
+regions: [levant-iraq]
+faith:
+  - value: sunni-hanbali
+    basis: tradition
+relations:
+  - { type: student_of, target: person/majd-al-din-ibn-taymiyya, sources: [source/shadharat-dhahab] }
+  - { type: student_of, target: person/shams-al-din-ibn-abi-umar, sources: [source/shadharat-dhahab] }
+sources: [source/shadharat-dhahab]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }
+provenance:
+  layer: own-research
+  source: "شذرات الذهب — ابن العماد (ج7، سنة 681)، قراءة آبل فيجن"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-shadharat-batch-133

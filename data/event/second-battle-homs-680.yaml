@@ -1,0 +1,24 @@
+id: event/second-battle-homs-680
+class: event
+kind: battle
+label: { ar: "وقعة حمص الثانية على التتار سنة 680هـ", en: "The second battle of Homs, 680" }
+summary:
+  ar: "وقعة حمص الكبرى على التتار في سنة ثمانين وستمائة؛ استشهد فيها جماعة من الأمراء والعلماء، منهم الأمير عز الدين أزدمار الجمدار نائب دمشق لسنقر الأشقر — استشهد مقبلاً غير مدبر وله بضع وخمسون سنة — والفاضل الأديب شمس الدين محمد بن مكتوم البعلي شهيداً في وقعة حمص {cite:shadharat-dhahab p. 643-644}."
+  en: "The great encounter at Homs in 680 — among the martyrs Azdamur the jamadar, Sunqur al-Ashqar's Damascus na'ib ('advancing, not retreating', at fifty-odd) and the adib Shams al-Din Ibn Maktum of Baalbek {cite:shadharat-dhahab p. 643-644}."
+wings: [time]
+periods: [period/mongol-post-mongol]
+regions: [levant-iraq]
+sides:
+  - label: { ar: "المسلمون — عسكر مصر والشام" }
+  - label: { ar: "التتار — جيش إيلخانات فارس" }
+map: { kind: battle, precision: locality, center: [34.7324, 36.7137] }
+date: { start: { edtf: "1281~", hijri: "0680", calendar: julian, precision: year, status: tradition, derived: true, note: "شهادة أزدمار وابن مكتوم في وقعة حمص؛ ترجمتا أموات سنة ثمانين {cite:shadharat-dhahab p. 643-644}", sources: [source/shadharat-dhahab] } }
+relations:
+  - { type: occurred_at, target: place/homs, sources: [source/shadharat-dhahab] }
+provenance:
+  layer: own-research
+  source: "شذرات الذهب — ابن العماد (ج7، سنة 680)، قراءة آبل فيجن"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-shadharat-batch-133
+sources: [source/shadharat-dhahab]
+status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 High)" }
