@@ -1,0 +1,25 @@
+id: person/jaafari-tabrizi-qadi
+class: person
+label: { ar: "شمس الدين الجعفري التبريزي قاضي دمشق", en: "Shams al-Din al-Ja'fari al-Tabrizi, qadi of Damascus" }
+names:
+  - { kind: full, lang: ar, value: "قاضي القضاة شمس الدين محمد بن عبد الأول السيد الشريف الحسيني الجعفري التبريزي الشافعي ثم الحنفي المعروف بشيشلي أمير" }
+gender: male
+roles: [jurist, scholar]
+traditions: [sunni]
+wings: [people]
+themes: [law-and-courts]
+periods: [period/gunpowder-empires]
+regions: [persia-central-asia, anatolia-balkans, levant-iraq]
+summary:
+  ar: "قاضي القضاة شمس الدين محمد بن عبد الأول السيد الشريف الحسيني الجعفري التبريزي الشافعي ثم الحنفي، صدر تبريز وأحد موالي الرومية المعروف بشيشلي أمير؛ اشتغل على والده وعلى مولانا محمد البرلسي الشافعي ودرس في حياة أبيه الدرس العام سنة ست عشرة، ثم دخل الروم وترقى في مدارسها إلى أن وصل إلى إحدى الثمان، ثم ولي قضاء حلب في أواخر سنة تسع وأربعين ثم قضاء دمشق فدخلها في ربيع الثاني سنة اثنتين وخمسين، ووافق القطب بن سلطان والشيخ يونس العيثاوي في القول بتحريم القهوة ونادى بإبطالها ثم عرض بإبطالها إلى السلطان سليمان فورد أمره بإبطالها في شوال سنة ثلاث وخمسين وأشهر النداء بذلك؛ وكان عالماً فصيحاً حسن الخط، وكان له ذؤابتان يخضبهما ولحيته بالسواد، وكان محمود السيرة له حرمة زائدة؛ وتوفي بالقسطنطينية {cite:shadharat-dhahab p. 338}."
+  en: "Qadi al-qudat Shams al-Din al-Ja'fari — sadr of Tabriz who rose through the Ottoman madrasas to the Eight; qadi of Aleppo in 949 then of Damascus in 952, where with Qutb b. Sultan and Yunus al-'Uthawi he proclaimed coffee abolished and obtained Sulayman's sultanic order of Shawwal 953 — the first coffee ban at Damascus; he dyed his two locks and beard black; died at Constantinople {cite:shadharat-dhahab p. 338}."
+died: { edtf: "1556~", hijri: "0963~", calendar: julian, precision: year, status: tradition, derived: true, note: "وفيها تقريباً (963) توفي بالقسطنطينية {cite:shadharat-dhahab p. 338}", sources: [source/shadharat-dhahab] }
+relations:
+  - { type: participated_in, target: event/coffee-banned-damascus-953, sources: [source/shadharat-dhahab] }
+provenance:
+  layer: own-research
+  source: "شذرات الذهب — ابن العماد (ط مكتبة المثنى 1351، ج8، سنة 963)، قراءة آبل فيجن"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-shadharat-batch-147
+sources: [source/shadharat-dhahab]
+status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 High)" }
