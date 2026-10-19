@@ -1,0 +1,69 @@
+id: concept/awwal-ma-nazal-min-al-quran
+class: concept
+kind: term
+label: { ar: "أول ما نزل من القرآن", en: "The first revealed of the Qur'an" }
+issue:
+  ar: "أيّ ما نزل أولاً من القرآن: «اقرأ»، أم «المدثر»، أم الفاتحة؟"
+summary:
+  ar: "اختلاف العلماء في أول ما نزل من القرآن، وقد عرضه محمد رشيد رضا في تفسير سورة الفاتحة نقلاً عن السيوطي في الإتقان وعن الكشاف، ثم رجّح محمد عبده أمراً خاصاً به."
+  en: "A disagreement over what was revealed first. Rashid Rida sets it out at the start of the commentary on al-Fatiha, relying on al-Suyuti's al-Itqan and on al-Kashshaf, and then records the view of Muhammad Abduh."
+wings: [ideas]
+themes: []
+periods: [period/prophetic-era]
+perspectives:
+  - tradition: sunni
+    id: iqra-first
+    stance:
+      ar: "أول ما نزل «اقرأ باسم ربك» (العلق 1)"
+    summary:
+      ar: "ينقل رضا عن السيوطي أن هذا القول رواه الشيخان عن عائشة، وأن الذي ذهب إليه أكثر الأئمة، بحسب ما نقله ابن حجر، هو هذا القول. وينقل عن الكشاف أن ابن عباس ومجاهد ذهبا إليه."
+    holders: []
+    evidence:
+      - ref: source/tafsir-manar-v01
+        note:
+          ar: "ص 33"
+    sources: [source/tafsir-manar-v01]
+  - tradition: sunni
+    id: muddaththir-first
+    stance:
+      ar: "أول سورة نزلت بتمامها «يا أيها المدثر» (المدثر 1)"
+    summary:
+      ar: "ينقل رضا عن السيوطي رواية جابر بن عبد الله في الصحيحين أن أول ما نزل «يا أيها المدثر»، ويجمع بين القولين بأن «اقرأ» أول ما نزل مطلقاً، وأن «المدثر» أول ما نزل بعد فترة الوحي أو أول سورة نزلت كاملة."
+    holders: []
+    evidence:
+      - ref: source/tafsir-manar-v01
+        note:
+          ar: "ص 33"
+    sources: [source/tafsir-manar-v01]
+  - tradition: sunni
+    id: fatiha-first-complete
+    stance:
+      ar: "أول سورة نزلت كاملة الفاتحة"
+    summary:
+      ar: "ينقل رضا عن الكشاف أن أكثر المفسرين على أن أول سورة نزلت فاتحة الكتاب، ويذكر عن السيوطي أن هذا القول لم يقل به إلا عدد قليل، وأن حجته حديث مرسل في بدء الوحي يذكر الفاتحة. ويذكر أن بعضهم قال إنها نزلت مرتين."
+    holders: [person/al-zamakhshari]
+    evidence:
+      - ref: source/tafsir-manar-v01
+        note:
+          ar: "ص 33"
+    sources: [source/tafsir-manar-v01]
+  - tradition: other
+    id: abduh-fatiha-absolute-first
+    stance:
+      ar: "رأي محمد عبده: الفاتحة أول ما نزل على الإطلاق، ولا يستثني «اقرأ»"
+    summary:
+      ar: "ينقل رضا أن أستاذه محمد عبده رجّح أن الفاتحة أول ما نزل على الإطلاق، واستدل بالسنة الإلهية في الكون من الإجمال ثم التفصيل، وأن الفاتحة تشتمل على مجمل ما في القرآن. ويصف رضا هذا الاستدلال بأنه منزع غريب، وقد نقله كما ورد دون حكم."
+    holders: [person/muhammad-abduh]
+    evidence:
+      - ref: source/tafsir-manar-v01
+        note:
+          ar: "ص 34"
+    sources: [source/tafsir-manar-v01]
+sources: [source/tafsir-manar-v01]
+provenance:
+  layer: own-research
+  source: "تفسير المنار، المجلد الأول، ص 31-34 (نسخة OCR محلية)"
+  generated_by: "Claude Haiku 5.5"
+  model: claude-haiku-5-5
+  run: "lib-exp-modern-muslim-writers manar-1-6 batch 1"
+status: { review: draft, completeness: 1, generated_by: "library-expansion (Claude Haiku 5.5); Rida's account only; the hadith sources (Bukhari, Muslim) are to be checked in their own editions before the chain is cited" }
