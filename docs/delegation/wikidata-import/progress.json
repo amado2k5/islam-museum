@@ -5,7 +5,7 @@
  "candidates_file": "$HARVEST/wikidata-import/candidates.tsv",
  "candidates_query": "select distinct id from wd_claim where property='P140' and value_id='Q432' minus Wikidata ids already linked in data/, ordered by sitelink count desc",
  "linked_preexisting": 987,
- "next_index": 3460,
+ "next_index": 3560,
  "created_ids": [
   {
    "i": 24,
@@ -3663,6 +3663,111 @@
    "i": 3457,
    "qid": "Q5227853",
    "id": "person/daud-khan-panni"
+  },
+  {
+   "i": 3460,
+   "qid": "Q5436186",
+   "id": "person/farqad-al-sabakhi"
+  },
+  {
+   "i": 3461,
+   "qid": "Q5437879",
+   "id": "person/fatimah-bint-al-hasan"
+  },
+  {
+   "i": 3465,
+   "qid": "Q563201",
+   "id": "person/yahya-ibn-abd-al-aziz-hammadid"
+  },
+  {
+   "i": 3471,
+   "qid": "Q5670300",
+   "id": "person/abd-allah-ibn-ali-ibn-abi-talib"
+  },
+  {
+   "i": 3472,
+   "qid": "Q56822913",
+   "id": "person/abu-bakr-al-muradi-al-hadrami"
+  },
+  {
+   "i": 3474,
+   "qid": "Q5710209",
+   "id": "person/shifai-isfahani"
+  },
+  {
+   "i": 3475,
+   "qid": "Q5755209",
+   "id": "person/khvajeh-ali-safavi"
+  },
+  {
+   "i": 3481,
+   "qid": "Q5924865",
+   "id": "person/zurara-ibn-ayun"
+  },
+  {
+   "i": 3484,
+   "qid": "Q5951203",
+   "id": "person/jafar-ibn-ali-al-hadi"
+  },
+  {
+   "i": 3489,
+   "qid": "Q5984303",
+   "id": "person/ibn-al-fuwati"
+  },
+  {
+   "i": 3500,
+   "qid": "Q637541",
+   "id": "person/suleyman-celebi"
+  },
+  {
+   "i": 3501,
+   "qid": "Q6399323",
+   "id": "group/nurbakhshiyya"
+  },
+  {
+   "i": 3506,
+   "qid": "Q6411193",
+   "id": "person/shah-ghazi-rustam-iv"
+  },
+  {
+   "i": 3507,
+   "qid": "Q6412209",
+   "id": "person/dibill-al-khuzai"
+  },
+  {
+   "i": 3508,
+   "qid": "Q6536330",
+   "id": "person/ibn-shakir-al-kutubi"
+  },
+  {
+   "i": 3509,
+   "qid": "Q6538102",
+   "id": "person/ibn-hisham-al-ansari"
+  },
+  {
+   "i": 3522,
+   "qid": "Q6874847",
+   "id": "person/mirza-ghazi-beg"
+  },
+  {
+   "i": 3525,
+   "qid": "Q6930533",
+   "id": "person/al-muayyad-fi-al-din-al-shirazi"
+  },
+  {
+   "i": 3528,
+   "qid": "Q724488",
+   "id": "person/mahmud-hudayi"
+  },
+  {
+   "i": 3534,
+   "qid": "Q7405368",
+   "id": "person/salma-umm-al-khayr"
+  },
+  {
+   "i": 3540,
+   "qid": "Q7684920",
+   "id": "person/al-fasi-muhammad-ibn-ahmad"
   }
  ],
  "linked_ids": [
@@ -6502,7 +6607,34 @@
   },
   "person/hubab-ibn-al-mundhir",
   "person/umm-kulthum-bint-uqba",
-  "person/abd-al-rahman-ibn-habib-al-fihri"
+  "person/abd-al-rahman-ibn-habib-al-fihri",
+  {
+   "i": 3470,
+   "qid": "Q5666131",
+   "to": "person/nafi-ibn-al-azraq"
+  },
+  {
+   "i": 3476,
+   "qid": "Q5773868",
+   "to": "person/al-kumayt-ibn-zayd"
+  },
+  {
+   "i": 3515,
+   "qid": "Q6766690",
+   "to": "person/khawla-bint-thalaba"
+  },
+  {
+   "i": 3518,
+   "qid": "Q6825469",
+   "to": "person/fadala-ibn-ubayd"
+  },
+  {
+   "i": 3547,
+   "qid": "Q8064535",
+   "to": "person/nafi-ibn-al-harith"
+  },
+  "person/qudama-ibn-mazun",
+  "person/dib-l-al-khuzai"
  ],
  "skipped": [
   [
@@ -17324,9 +17456,379 @@
    3459,
    "Q5431615",
    "modern/post-1800/out-of-scope/deferred/insufficient"
+  ],
+  [
+   3462,
+   "Q545407",
+   "modern/post-1800/out-of-scope/mosque-deferred/insufficient"
+  ],
+  [
+   3463,
+   "Q550314",
+   "modern/post-1800/out-of-scope/mosque-deferred/insufficient"
+  ],
+  [
+   3464,
+   "Q56226042",
+   "modern/post-1800/out-of-scope/mosque-deferred/insufficient"
+  ],
+  [
+   3466,
+   "Q56369995",
+   "modern/post-1800/out-of-scope/mosque-deferred/insufficient"
+  ],
+  [
+   3467,
+   "Q5637427",
+   "modern/post-1800/out-of-scope/mosque-deferred/insufficient"
+  ],
+  [
+   3468,
+   "Q5637873",
+   "modern/post-1800/out-of-scope/mosque-deferred/insufficient"
+  ],
+  [
+   3469,
+   "Q5639814",
+   "modern/post-1800/out-of-scope/mosque-deferred/insufficient"
+  ],
+  [
+   3473,
+   "Q5688442",
+   "modern/post-1800/out-of-scope/mosque-deferred/insufficient"
+  ],
+  [
+   3477,
+   "Q58233",
+   "modern/post-1800/out-of-scope/mosque-deferred/insufficient"
+  ],
+  [
+   3478,
+   "Q5853951",
+   "modern/post-1800/out-of-scope/mosque-deferred/insufficient"
+  ],
+  [
+   3479,
+   "Q5909094",
+   "modern/post-1800/out-of-scope/mosque-deferred/insufficient"
+  ],
+  [
+   3480,
+   "Q5915287",
+   "modern/post-1800/out-of-scope/mosque-deferred/insufficient"
+  ],
+  [
+   3482,
+   "Q5946784",
+   "modern/post-1800/out-of-scope/mosque-deferred/insufficient"
+  ],
+  [
+   3483,
+   "Q5951091",
+   "modern/post-1800/out-of-scope/mosque-deferred/insufficient"
+  ],
+  [
+   3485,
+   "Q5953479",
+   "modern/post-1800/out-of-scope/mosque-deferred/insufficient"
+  ],
+  [
+   3486,
+   "Q5962247",
+   "modern/post-1800/out-of-scope/mosque-deferred/insufficient"
+  ],
+  [
+   3487,
+   "Q5964599",
+   "modern/post-1800/out-of-scope/mosque-deferred/insufficient"
+  ],
+  [
+   3488,
+   "Q59660242",
+   "modern/post-1800/out-of-scope/mosque-deferred/insufficient"
+  ],
+  [
+   3490,
+   "Q6022200",
+   "modern/post-1800/out-of-scope/mosque-deferred/insufficient"
+  ],
+  [
+   3491,
+   "Q6022826",
+   "modern/post-1800/out-of-scope/mosque-deferred/insufficient"
+  ],
+  [
+   3492,
+   "Q60463595",
+   "modern/post-1800/out-of-scope/mosque-deferred/insufficient"
+  ],
+  [
+   3493,
+   "Q6048068",
+   "modern/post-1800/out-of-scope/mosque-deferred/insufficient"
+  ],
+  [
+   3494,
+   "Q6049801",
+   "modern/post-1800/out-of-scope/mosque-deferred/insufficient"
+  ],
+  [
+   3495,
+   "Q6064113",
+   "modern/post-1800/out-of-scope/mosque-deferred/insufficient"
+  ],
+  [
+   3496,
+   "Q6070291",
+   "modern/post-1800/out-of-scope/mosque-deferred/insufficient"
+  ],
+  [
+   3497,
+   "Q6088485",
+   "modern/post-1800/out-of-scope/mosque-deferred/insufficient"
+  ],
+  [
+   3498,
+   "Q6099210",
+   "modern/post-1800/out-of-scope/mosque-deferred/insufficient"
+  ],
+  [
+   3499,
+   "Q61078759",
+   "modern/post-1800/out-of-scope/mosque-deferred/insufficient"
+  ],
+  [
+   3502,
+   "Q64006350",
+   "modern/post-1800/out-of-scope/mosque-deferred/insufficient"
+  ],
+  [
+   3503,
+   "Q6400784",
+   "modern/post-1800/out-of-scope/mosque-deferred/insufficient"
+  ],
+  [
+   3504,
+   "Q6401780",
+   "modern/post-1800/out-of-scope/mosque-deferred/insufficient"
+  ],
+  [
+   3505,
+   "Q6403143",
+   "modern/post-1800/out-of-scope/mosque-deferred/insufficient"
+  ],
+  [
+   3510,
+   "Q657513",
+   "modern/post-1800/out-of-scope/mosque-deferred/insufficient"
+  ],
+  [
+   3511,
+   "Q657601",
+   "modern/post-1800/out-of-scope/mosque-deferred/insufficient"
+  ],
+  [
+   3512,
+   "Q6603561",
+   "modern/post-1800/out-of-scope/mosque-deferred/insufficient"
+  ],
+  [
+   3513,
+   "Q6734388",
+   "modern/post-1800/out-of-scope/mosque-deferred/insufficient"
+  ],
+  [
+   3514,
+   "Q6734656",
+   "modern/post-1800/out-of-scope/mosque-deferred/insufficient"
+  ],
+  [
+   3516,
+   "Q6808291",
+   "modern/post-1800/out-of-scope/mosque-deferred/insufficient"
+  ],
+  [
+   3517,
+   "Q6809438",
+   "modern/post-1800/out-of-scope/mosque-deferred/insufficient"
+  ],
+  [
+   3519,
+   "Q6830647",
+   "create-failed:file-exists:data/person/qudama-ibn-mazun.yaml"
+  ],
+  [
+   3520,
+   "Q6842937",
+   "modern/post-1800/out-of-scope/mosque-deferred/insufficient"
+  ],
+  [
+   3521,
+   "Q6853918",
+   "modern/post-1800/out-of-scope/mosque-deferred/insufficient"
+  ],
+  [
+   3523,
+   "Q6890904",
+   "modern/post-1800/out-of-scope/mosque-deferred/insufficient"
+  ],
+  [
+   3524,
+   "Q6892198",
+   "modern/post-1800/out-of-scope/mosque-deferred/insufficient"
+  ],
+  [
+   3526,
+   "Q6932787",
+   "modern/post-1800/out-of-scope/mosque-deferred/insufficient"
+  ],
+  [
+   3527,
+   "Q701279",
+   "modern/post-1800/out-of-scope/mosque-deferred/insufficient"
+  ],
+  [
+   3529,
+   "Q7283452",
+   "modern/post-1800/out-of-scope/mosque-deferred/insufficient"
+  ],
+  [
+   3530,
+   "Q730549",
+   "modern/post-1800/out-of-scope/mosque-deferred/insufficient"
+  ],
+  [
+   3531,
+   "Q7399567",
+   "modern/post-1800/out-of-scope/mosque-deferred/insufficient"
+  ],
+  [
+   3532,
+   "Q7402580",
+   "modern/post-1800/out-of-scope/mosque-deferred/insufficient"
+  ],
+  [
+   3533,
+   "Q7404512",
+   "modern/post-1800/out-of-scope/mosque-deferred/insufficient"
+  ],
+  [
+   3535,
+   "Q7496060",
+   "modern/post-1800/out-of-scope/mosque-deferred/insufficient"
+  ],
+  [
+   3536,
+   "Q7521741",
+   "modern/post-1800/out-of-scope/mosque-deferred/insufficient"
+  ],
+  [
+   3537,
+   "Q7529988",
+   "modern/post-1800/out-of-scope/mosque-deferred/insufficient"
+  ],
+  [
+   3538,
+   "Q7636639",
+   "modern/post-1800/out-of-scope/mosque-deferred/insufficient"
+  ],
+  [
+   3539,
+   "Q7678945",
+   "modern/post-1800/out-of-scope/mosque-deferred/insufficient"
+  ],
+  [
+   3541,
+   "Q7701411",
+   "modern/post-1800/out-of-scope/mosque-deferred/insufficient"
+  ],
+  [
+   3542,
+   "Q77174440",
+   "modern/post-1800/out-of-scope/mosque-deferred/insufficient"
+  ],
+  [
+   3543,
+   "Q773517",
+   "modern/post-1800/out-of-scope/mosque-deferred/insufficient"
+  ],
+  [
+   3544,
+   "Q7881116",
+   "modern/post-1800/out-of-scope/mosque-deferred/insufficient"
+  ],
+  [
+   3545,
+   "Q7902722",
+   "modern/post-1800/out-of-scope/mosque-deferred/insufficient"
+  ],
+  [
+   3546,
+   "Q7967007",
+   "modern/post-1800/out-of-scope/mosque-deferred/insufficient"
+  ],
+  [
+   3548,
+   "Q842645",
+   "modern/post-1800/out-of-scope/mosque-deferred/insufficient"
+  ],
+  [
+   3549,
+   "Q9026427",
+   "modern/post-1800/out-of-scope/mosque-deferred/insufficient"
+  ],
+  [
+   3550,
+   "Q9164499",
+   "modern/post-1800/out-of-scope/mosque-deferred/insufficient"
+  ],
+  [
+   3551,
+   "Q918764",
+   "modern/post-1800/out-of-scope/mosque-deferred/insufficient"
+  ],
+  [
+   3552,
+   "Q926305",
+   "modern/post-1800/out-of-scope/mosque-deferred/insufficient"
+  ],
+  [
+   3553,
+   "Q952052",
+   "modern/post-1800/out-of-scope/mosque-deferred/insufficient"
+  ],
+  [
+   3554,
+   "Q96678573",
+   "modern/post-1800/out-of-scope/mosque-deferred/insufficient"
+  ],
+  [
+   3555,
+   "Q97259290",
+   "modern/post-1800/out-of-scope/mosque-deferred/insufficient"
+  ],
+  [
+   3556,
+   "Q97259765",
+   "modern/post-1800/out-of-scope/mosque-deferred/insufficient"
+  ],
+  [
+   3557,
+   "Q97486447",
+   "modern/post-1800/out-of-scope/mosque-deferred/insufficient"
+  ],
+  [
+   3558,
+   "Q97788576",
+   "modern/post-1800/out-of-scope/mosque-deferred/insufficient"
+  ],
+  [
+   3559,
+   "Q101977041",
+   "modern/post-1800/out-of-scope/mosque-deferred/insufficient"
   ]
  ],
- "skipped_total": 2169,
+ "skipped_total": 2243,
  "skipped_by_reason": {
   "modern sovereign state; no matching record (al-Hind region is a different entity)": 1,
   "modern sovereign state; no matching record": 8,
@@ -18541,7 +19043,7 @@
   "Free Officer d.2018; modern": 1,
   "Muhammad Imara d.2020; modern": 1,
   "Kizimkazi mosque Zanzibar; deferred": 1,
-  "create-failed:file-exists": 18,
+  "create-failed:file-exists": 19,
   "Mubarakpuri d.2006; modern": 1,
   "al-Nasir Muhammad madrasa Cairo; deferred": 1,
   "King Mosque Elbasan; no confirmed source": 1,
@@ -19099,11 +19601,11 @@
   "Affan ibn Abi al-As; thin, deferred": 1,
   "Ankara mosque; deferred": 1,
   "modern/post-1800/out-of-scope/insufficient": 70,
-  "modern/post-1800/out-of-scope/mosque-deferred/insufficient": 79,
+  "modern/post-1800/out-of-scope/mosque-deferred/insufficient": 152,
   "modern/post-1800/out-of-scope/deferred/insufficient": 71
  },
  "last_commit": "d6d413304",
  "last_push": "86085d1ae",
  "batch_current": 7,
- "updated_at": "2026-10-19T19:03:53-04:00"
+ "updated_at": "2026-10-19T19:05:57-04:00"
 }
