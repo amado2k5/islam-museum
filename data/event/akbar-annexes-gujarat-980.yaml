@@ -1,0 +1,25 @@
+id: event/akbar-annexes-gujarat-980
+class: event
+kind: conquest
+label: { ar: "أكبر يأخذ كجرات 980هـ", en: "Akbar takes Gujarat, 980" }
+summary:
+  ar: "في سنة ثمانين وتسعمائة أخذ السلطان أكبر بن همايون كجرات، وهو من ذرية تيمورلنك بينه وبينه أربعة آباء {cite:shadharat-dhahab p. 391}."
+  en: "In 980 Sultan Akbar b. Humayun — four generations from Timur — took Gujarat {cite:shadharat-dhahab p. 391}."
+wings: [time]
+periods: [period/gunpowder-empires]
+regions: [south-asia]
+date:
+  start: { edtf: "1572~", hijri: "0980", calendar: julian, precision: year, status: tradition, derived: true, note: "فيها (980)؛ التحويل مشتق {cite:shadharat-dhahab p. 391}", sources: [source/shadharat-dhahab] }
+sides:
+  - label: { ar: "الدولة المغولية بقيادة السلطان أكبر" }
+  - label: { ar: "سلطنة كجرات" }
+map: { kind: campaign, precision: approximate, center: [23.0225, 72.5714] }
+relations:
+  - { type: had_participant, target: person/jalal-al-din-akbar, role: "الغازي الفاتح", sources: [source/shadharat-dhahab] }
+provenance:
+  layer: own-research
+  source: "شذرات الذهب — ابن العماد (ط مكتبة المثنى 1351، ج8، سنة 980)، قراءة آبل فيجن"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-shadharat-batch-148
+sources: [source/shadharat-dhahab]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

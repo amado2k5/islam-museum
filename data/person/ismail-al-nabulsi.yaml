@@ -1,0 +1,26 @@
+id: person/ismail-al-nabulsi
+class: person
+label: { ar: "إسماعيل النابلسي مفتي دمشق", en: "Isma'il al-Nabulsi, mufti of Damascus" }
+names:
+  - { kind: full, lang: ar, value: "بدر الدين إسماعيل بن أحمد النابلسي الشافعي" }
+gender: male
+roles: [jurist, scholar, writer]
+traditions: [sunni]
+wings: [people]
+themes: [law-and-courts, education]
+periods: [period/gunpowder-empires]
+regions: [levant-iraq]
+summary:
+  ar: "بدر الدين إسماعيل بن أحمد النابلسي الشافعي مفتي الشام؛ ولد سنة سبع وثلاثين وتسعمائة بدمشق ونشأ يتيم الأب طالباً للعلم وسمع الحديث على الشيخ نصر الحموي ومحيي الدين النحاس وغيرهما وقرأ على الزكريا وأخذ عن البقاعي وقاضي زادة وابن طولون والصفدي والملا عبد القادر البغدادي والشيخ إبراهيم بن بنت عون، وصار يدرّس في السادسة عشرة من عمره بمدرسة الطرائفية، ولم يزل مجتهداً في طلب العلم والاشتغال به حتى برع في فنون كثيرة كالنحو واللغة والفقه والأصول وعلم الكلام والطب والفرائض والعروض، وأجازه الشيخ أبو الحسن البكري ووقف في نهار يناير على منصب الإفتاء بدمشق وقام به أحسن قيام، وتولى في آخر عمره مشيخة التدريس بالظاهرية وجمع بينها وبين الإفتاء؛ وكان نزيهاً عن الاستيلاء من المكاسب والرشوة وجعل الاستعلاء في طلبته وسكناه على سطح داره، ومن تصانيفه شرح العقيدة النسفية وشرح ألفية العراقي والمستقصى منه في اختلاف الأئمة الثلاثة وعقد فهرسه؛ وعزله الخادم مراد بيك عن الإفتاء سنة ثلاثة وتسعين، وتوفي يوم السبت ثالث عشر محرم ودُفن عند أستاذه ملا عبد القادر البغدادي {cite:shadharat-dhahab p. 433-434}."
+  en: "Badr al-Din Isma'il al-Nabulsi — Damascus's mufti and teacher at the Zahiriyya; orphaned, teaching at sixteen, a teacher's man of 'ulus and furu' who kept students housed on his roof and took no illicit fee; author of a sharh on al-'Aqida al-Nasafiyya and al-Mustaqsa fi'l-khilaf; dismissed by Murad Beg in 993 and died Saturday 13 Muharram 993 {cite:shadharat-dhahab p. 433-434}."
+born: { edtf: "1530~", hijri: "0937", calendar: julian, precision: year, status: tradition, derived: true, note: "ولد سنة 937 بدمشق {cite:shadharat-dhahab p. 433}", sources: [source/shadharat-dhahab] }
+died: { edtf: "1585-01-13~", hijri: "0993-01-13", calendar: julian, precision: day, status: tradition, derived: true, note: "توفي السبت 13 محرم؛ التحويل مشتق {cite:shadharat-dhahab p. 434}", sources: [source/shadharat-dhahab] }
+relations:
+  - { type: student_of, target: person/ibn-tulun-shams-al-din, sources: [source/shadharat-dhahab] }
+provenance:
+  layer: own-research
+  source: "شذرات الذهب — ابن العماد (ط مكتبة المثنى 1351، ج8، سنة 993)، قراءة آبل فيجن"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-shadharat-batch-148
+sources: [source/shadharat-dhahab]
+status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 High)" }

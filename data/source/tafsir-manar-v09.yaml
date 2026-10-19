@@ -1,0 +1,21 @@
+id: source/tafsir-manar-v09
+class: source
+kind: primary
+type: book
+label: { ar: "تفسير المنار، المجلد التاسع", en: "Tafsir al-Manar, volume 9" }
+summary:
+  ar: "الجزء التاسع من تفسير القرآن الحكيم المشهور بتفسير المنار لمحمد رشيد رضا، ويبدأ بتفسير آيات الأعراف من 88 ويمتد إلى آيات الأنفال إلى 40 بحسب صفحة العنوان في النسخة المحفوظة."
+  en: "Volume 9 of Muhammad Rashid Rida's Tafsir al-Manar, covering Qur'an 7:88 to 8:40 according to its title page."
+title: "تفسير القرآن الحكيم المشهور بتفسير المنار، الجزء التاسع"
+author:
+  - { family: "Rida", given: "Muhammad Rashid" }
+publisher: "منشورات محمد علي بيضون، دار الكتب العلمية، بيروت (بحسب صفحة العنوان في النسخة المحفوظة)"
+language: ar
+open_access: false
+reliability_note: "Edition not verified. The text was read from the OCR of a printed copy held on the harvest drive (PDF of 560 pages, OCR of all pages). The editor's name is rendered with OCR errors on the title page and is not recorded. Page citations use the page markers the OCR prints (p.4 to p.11 and pp.486 to 493 were read); they were not checked against the page images. The author's dates printed on the title page (1865 to 1925) are copied as printed and not checked against a second source."
+status: { review: draft, completeness: 2, generated_by: "Claude Haiku 5.5; OCR of title page and pp. 3-11, 486-493, 512-513 of the volume" }
+provenance:
+  source: "tafsir-manar-v09 book.txt, harvest drive (OCR); title page and the passages cited in the entities"
+  generated_by: "Claude Haiku 5.5"
+  model: "claude-haiku-5-5"
+  run: "lib-exp-tafsir-manar volumes 9-10 (library-expansion)"

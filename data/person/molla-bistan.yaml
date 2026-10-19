@@ -1,0 +1,23 @@
+id: person/molla-bistan
+class: person
+label: { ar: "الملا بستان قاضي عسكر الروملي والأناضول", en: "Molla Bistan, qadi 'askar of Rumeli and Anatolia" }
+names:
+  - { kind: full, lang: ar, value: "الملا بستان أستاذ ملا سعد الدين محمد" }
+gender: male
+roles: [jurist]
+traditions: [sunni]
+wings: [people]
+themes: [law-and-courts]
+periods: [period/gunpowder-empires]
+regions: [anatolia-balkans]
+summary:
+  ar: "الملا بستان؛ قال في الكواكب: وهو ممن شرف بالقضاء كلا العسكرين الروملي والأناضولي، وكان قاضي العسكر إذا توفي نُقل إلى مكانه من جمع الرويسين وأقسم بها الملوك، وقد شملت قضاء العسكرين وهما أربعة قضاة في نحو أحد عشر شهراً، وخالف هناك في مسألة الصفة والتأمات في الجهرية ووليها، ثم انتقل في العشر الأواخر من شهر رمضان ودُفن بأدرنة {cite:shadharat-dhahab p. 386}."
+  en: "Molla Bistan — one of the few to hold the qadi-'askar office of both Rumeli and Anatolia (~11 months, the two posts then four qadis); teacher of Sa'd al-Din; died in Ramadan's last ten days 977, buried at Edirne {cite:shadharat-dhahab p. 386}."
+died: { edtf: "1570-03~", hijri: "0977-09", calendar: julian, precision: month, status: tradition, derived: true, note: "انتقل في العشر الأواخر من رمضان ودُفن بأدرنة؛ التحويل مشتق {cite:shadharat-dhahab p. 386}", sources: [source/shadharat-dhahab] }
+provenance:
+  layer: own-research
+  source: "شذرات الذهب — ابن العماد (ط مكتبة المثنى 1351، ج8، سنة 977، عن الكواكب)، قراءة آبل فيجن"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-shadharat-batch-148
+sources: [source/shadharat-dhahab]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }
