@@ -5,7 +5,7 @@
  "candidates_file": "$HARVEST/wikidata-import/candidates.tsv",
  "candidates_query": "select distinct id from wd_claim where property='P140' and value_id='Q432' minus Wikidata ids already linked in data/, ordered by sitelink count desc",
  "linked_preexisting": 987,
- "next_index": 1960,
+ "next_index": 2060,
  "created_ids": [
   {
    "i": 24,
@@ -1941,6 +1941,136 @@
    "i": 1958,
    "qid": "Q3299880",
    "id": "person/al-numan-ibn-muqrin"
+  },
+  {
+   "i": 1961,
+   "qid": "Q335607",
+   "id": "person/muhammad-ii-aghlabid"
+  },
+  {
+   "i": 1971,
+   "qid": "Q3629943",
+   "id": "person/abd-al-qadir-al-badayuni"
+  },
+  {
+   "i": 1972,
+   "qid": "Q3634642",
+   "id": "person/murshid-quli-khan"
+  },
+  {
+   "i": 1973,
+   "qid": "Q3667328",
+   "id": "person/karacaoglan"
+  },
+  {
+   "i": 1974,
+   "qid": "Q372411",
+   "id": "person/ahmad-fanakati"
+  },
+  {
+   "i": 1978,
+   "qid": "Q3777403",
+   "id": "person/ferhad-pasha"
+  },
+  {
+   "i": 1979,
+   "qid": "Q3824866",
+   "id": "person/damat-halil-pasha"
+  },
+  {
+   "i": 1981,
+   "qid": "Q3918583",
+   "id": "person/husayn-hotaki"
+  },
+  {
+   "i": 1983,
+   "qid": "Q404118",
+   "id": "person/kiya-buzurg-ummid"
+  },
+  {
+   "i": 1986,
+   "qid": "Q4115262",
+   "id": "person/al-firuzabadi"
+  },
+  {
+   "i": 1998,
+   "qid": "Q4502475",
+   "id": "person/husayn-waiz-al-kashifi"
+  },
+  {
+   "i": 1999,
+   "qid": "Q4695880",
+   "id": "person/ahmed-karahisari"
+  },
+  {
+   "i": 2001,
+   "qid": "Q4998760",
+   "id": "person/burhan-al-din-al-marghinani"
+  },
+  {
+   "i": 2003,
+   "qid": "Q579171",
+   "id": "person/shams-al-aimma-al-sarakhsi"
+  },
+  {
+   "i": 2013,
+   "qid": "Q7081156",
+   "id": "person/ohrili-husayn-pasha"
+  },
+  {
+   "i": 2015,
+   "qid": "Q7462296",
+   "id": "person/shahryar-mughal"
+  },
+  {
+   "i": 2017,
+   "qid": "Q762418",
+   "id": "person/al-hajjaj-ibn-yusuf-ibn-matar"
+  },
+  {
+   "i": 2023,
+   "qid": "Q983510",
+   "id": "person/jahm-ibn-safwan"
+  },
+  {
+   "i": 2027,
+   "qid": "Q12192954",
+   "id": "building/great-mosque-tinmal"
+  },
+  {
+   "i": 2030,
+   "qid": "Q12251200",
+   "id": "person/waki-ibn-al-jarrah"
+  },
+  {
+   "i": 2040,
+   "qid": "Q141094",
+   "id": "person/bahram-shah-ghaznavi"
+  },
+  {
+   "i": 2048,
+   "qid": "Q1716887",
+   "id": "building/tarikhaneh-mosque"
+  },
+  {
+   "i": 2051,
+   "qid": "Q1796711",
+   "id": "person/kose-mihal"
+  },
+  {
+   "i": 2052,
+   "qid": "Q186169",
+   "id": "building/fakhr-al-din-mosque-mogadishu"
+  },
+  {
+   "i": 2053,
+   "qid": "Q1948938",
+   "id": "building/al-mansur-mosque-marrakesh"
+  },
+  {
+   "i": 2057,
+   "qid": "Q2024702",
+   "id": "person/yahya-al-shirvani"
   }
  ],
  "linked_ids": [
@@ -4080,7 +4210,107 @@
    "qid": "Q287501",
    "to": "person/al-nazzam"
   },
-  "person/bashir-ibn-sad-al-ansari"
+  "person/bashir-ibn-sad-al-ansari",
+  {
+   "i": 1960,
+   "qid": "Q335438",
+   "to": "person/abu-thabit-marinid"
+  },
+  {
+   "i": 1966,
+   "qid": "Q3502947",
+   "to": "person/al-hurr-ibn-yazid"
+  },
+  {
+   "i": 1967,
+   "qid": "Q3548234",
+   "to": "person/umm-haram-bint-milhan"
+  },
+  {
+   "i": 1970,
+   "qid": "Q3595521",
+   "to": "person/abd-allah-ibn-amir"
+  },
+  {
+   "i": 1976,
+   "qid": "Q3774518",
+   "to": "person/al-walid-ibn-uqba"
+  },
+  {
+   "i": 1977,
+   "qid": "Q3777031",
+   "to": "person/ibn-al-qutiyya"
+  },
+  {
+   "i": 1989,
+   "qid": "Q4120436",
+   "to": "person/ibn-al-salah"
+  },
+  {
+   "i": 1991,
+   "qid": "Q4164636",
+   "to": "person/nasir-al-dawla"
+  },
+  {
+   "i": 2004,
+   "qid": "Q5940162",
+   "to": "person/hafs-abu-umar-ibn-sulayman"
+  },
+  {
+   "i": 2007,
+   "qid": "Q6351410",
+   "to": "person/ibn-manda"
+  },
+  {
+   "i": 2008,
+   "qid": "Q662348",
+   "to": "person/ubayda-ibn-al-harith"
+  },
+  {
+   "i": 2009,
+   "qid": "Q6712721",
+   "to": "person/yaqub-beg-aq-qoyunlu"
+  },
+  {
+   "i": 2012,
+   "qid": "Q6957308",
+   "to": "person/ibrahim-al-nakhai"
+  },
+  {
+   "i": 2016,
+   "qid": "Q7531254",
+   "to": "person/sahib-ibn-abbad"
+  },
+  {
+   "i": 2018,
+   "qid": "Q7689344",
+   "to": "person/tawus-ibn-kaysan"
+  },
+  {
+   "i": 2019,
+   "qid": "Q7881630",
+   "to": "person/umm-hakim-bint-al-harith"
+  },
+  {
+   "i": 2025,
+   "qid": "Q12178105",
+   "to": "person/abu-ubayd-al-qasim-ibn-sallam"
+  },
+  {
+   "i": 2026,
+   "qid": "Q12190169",
+   "to": "person/izz-al-din-ibn-abd-al-salam"
+  },
+  {
+   "i": 2032,
+   "qid": "Q124746524",
+   "to": "person/al-amash-sulayman-ibn-mihran"
+  },
+  {
+   "i": 2054,
+   "qid": "Q1965143",
+   "to": "person/al-fadl-ibn-yahya-al-barmaki"
+  }
  ],
  "skipped": [
   [
@@ -9822,9 +10052,279 @@
    1959,
    "Q3304877",
    "nisab term item; deferred"
+  ],
+  [
+   1962,
+   "Q339765",
+   "Yakovali Hasan mosque Pecs; deferred — batch cap"
+  ],
+  [
+   1963,
+   "Q3411621",
+   "sin concept item; deferred"
+  ],
+  [
+   1964,
+   "Q343295",
+   "Ibrahim Hakki Pasha d.1918; modern"
+  ],
+  [
+   1965,
+   "Q346240",
+   "Somali politician d.2020; modern"
+  ],
+  [
+   1968,
+   "Q3556309",
+   "link-failed:already has wikidata"
+  ],
+  [
+   1969,
+   "Q3595190",
+   "singer; modern"
+  ],
+  [
+   1975,
+   "Q3774267",
+   "Bakht Khan d.1859; post-1800"
+  ],
+  [
+   1980,
+   "Q3918429",
+   "Afghan crown prince d.2024; modern"
+  ],
+  [
+   1982,
+   "Q403471",
+   "Syrian PM d.2020; modern"
+  ],
+  [
+   1984,
+   "Q4115052",
+   "Ali al-Akbar Karbala figure; hagiographic, needs two cited voices — deferred"
+  ],
+  [
+   1985,
+   "Q4115112",
+   "al-Alusi d.1854; post-1800"
+  ],
+  [
+   1987,
+   "Q4116755",
+   "Qa'ani poet d.1854; post-1800"
+  ],
+  [
+   1988,
+   "Q4117110",
+   "Hadi al-Amiri; modern"
+  ],
+  [
+   1990,
+   "Q4121866",
+   "al-Jawahiri d.1997; modern"
+  ],
+  [
+   1992,
+   "Q4165808",
+   "Saleh al-Ali d.1950; modern"
+  ],
+  [
+   1993,
+   "Q4201169",
+   "Suharto first lady; modern"
+  ],
+  [
+   1994,
+   "Q4213995",
+   "karama concept; deferred"
+  ],
+  [
+   1995,
+   "Q4250932",
+   "Indonesian general d.1948; modern"
+  ],
+  [
+   1996,
+   "Q428250",
+   "actor d.2018; modern"
+  ],
+  [
+   1997,
+   "Q432181",
+   "Sayed Kashua; modern"
+  ],
+  [
+   2000,
+   "Q4833028",
+   "Kars cathedral-mosque; deferred"
+  ],
+  [
+   2002,
+   "Q5594813",
+   "Dubai grand mosque; modern"
+  ],
+  [
+   2005,
+   "Q5957084",
+   "Nader Shah mausoleum; modern"
+  ],
+  [
+   2006,
+   "Q6012169",
+   "salik term item; deferred"
+  ],
+  [
+   2010,
+   "Q673566",
+   "mujtahid term; deferred"
+  ],
+  [
+   2011,
+   "Q676673",
+   "Malmo mosque; modern"
+  ],
+  [
+   2014,
+   "Q70813",
+   "Bhashani d.1976; modern"
+  ],
+  [
+   2020,
+   "Q8064464",
+   "Zagreb mosque; modern"
+  ],
+  [
+   2021,
+   "Q934584",
+   "Hasan Salama d.1948; modern"
+  ],
+  [
+   2022,
+   "Q967769",
+   "da'i term item; not a place"
+  ],
+  [
+   2024,
+   "Q11243005",
+   "Bohoniki mosque Poland; no confirmed source"
+  ],
+  [
+   2028,
+   "Q12209731",
+   "haya' concept; deferred"
+  ],
+  [
+   2029,
+   "Q12228012",
+   "imam b.1947; modern"
+  ],
+  [
+   2031,
+   "Q12318161",
+   "Copenhagen mosque; modern"
+  ],
+  [
+   2033,
+   "Q1278308",
+   "tawassul term; deferred"
+  ],
+  [
+   2034,
+   "Q1280130",
+   "Ebu Beker mosque Shkoder 1995; modern"
+  ],
+  [
+   2035,
+   "Q134697559",
+   "militant d.2025; modern"
+  ],
+  [
+   2036,
+   "Q1377926",
+   "ayatollah d.2009; modern"
+  ],
+  [
+   2037,
+   "Q1387678",
+   "al-Qaeda militant d.2011; modern"
+  ],
+  [
+   2038,
+   "Q1397212",
+   "Iranian politician; modern"
+  ],
+  [
+   2039,
+   "Q1399375",
+   "al-Yaziji d.1906; modern"
+  ],
+  [
+   2041,
+   "Q1529380",
+   "Koprulu Numan Pasha; deferred — batch cap"
+  ],
+  [
+   2042,
+   "Q1572582",
+   "Hamad bin Said of Oman d.1792; thin, deferred"
+  ],
+  [
+   2043,
+   "Q1584105",
+   "Ermeni Suleyman Pasha; deferred — batch cap"
+  ],
+  [
+   2044,
+   "Q1584117",
+   "Mehmed Said Efendi; deferred — batch cap"
+  ],
+  [
+   2045,
+   "Q1584693",
+   "Hekimoglu Ali Pasha; deferred — batch cap"
+  ],
+  [
+   2046,
+   "Q1588031",
+   "Muhammad as-Sadiq of Tunis d.1882; post-1800"
+  ],
+  [
+   2047,
+   "Q1634222",
+   "Ra'ad bin Zeid; modern"
+  ],
+  [
+   2049,
+   "Q17539794",
+   "Albanian cleric; modern"
+  ],
+  [
+   2050,
+   "Q1766088",
+   "Indian chief justice d.2017; modern"
+  ],
+  [
+   2055,
+   "Q1991314",
+   "Kasimov Khan's mosque; no confirmed source"
+  ],
+  [
+   2056,
+   "Q1999626",
+   "Kazan Acem mosque; modern"
+  ],
+  [
+   2058,
+   "Q20410627",
+   "Brunei mosque 1994; modern"
+  ],
+  [
+   2059,
+   "Q2058733",
+   "Defterdar mosque Istanbul; deferred — batch cap"
   ]
  ],
- "skipped_total": 1148,
+ "skipped_total": 1202,
  "skipped_by_reason": {
   "modern sovereign state; no matching record (al-Hind region is a different entity)": 1,
   "modern sovereign state; no matching record": 8,
@@ -10907,10 +11407,64 @@
   "Abdullah Goran d.1962; modern": 1,
   "Raziye Sultan; no confirmed source on the page": 1,
   "Egyptian princess d.2002; modern": 1,
-  "nisab term item; deferred": 1
+  "nisab term item; deferred": 1,
+  "Yakovali Hasan mosque Pecs; deferred — batch cap": 1,
+  "sin concept item; deferred": 1,
+  "Ibrahim Hakki Pasha d.1918; modern": 1,
+  "Somali politician d.2020; modern": 1,
+  "link-failed:already has wikidata": 1,
+  "singer; modern": 1,
+  "Bakht Khan d.1859; post-1800": 1,
+  "Afghan crown prince d.2024; modern": 1,
+  "Syrian PM d.2020; modern": 1,
+  "Ali al-Akbar Karbala figure; hagiographic, needs two cited voices — deferred": 1,
+  "al-Alusi d.1854; post-1800": 1,
+  "Qa'ani poet d.1854; post-1800": 1,
+  "Hadi al-Amiri; modern": 1,
+  "al-Jawahiri d.1997; modern": 1,
+  "Saleh al-Ali d.1950; modern": 1,
+  "Suharto first lady; modern": 1,
+  "karama concept; deferred": 1,
+  "Indonesian general d.1948; modern": 1,
+  "actor d.2018; modern": 1,
+  "Sayed Kashua; modern": 1,
+  "Kars cathedral-mosque; deferred": 1,
+  "Dubai grand mosque; modern": 1,
+  "Nader Shah mausoleum; modern": 1,
+  "salik term item; deferred": 1,
+  "mujtahid term; deferred": 1,
+  "Malmo mosque; modern": 1,
+  "Bhashani d.1976; modern": 1,
+  "Zagreb mosque; modern": 1,
+  "Hasan Salama d.1948; modern": 1,
+  "da'i term item; not a place": 1,
+  "Bohoniki mosque Poland; no confirmed source": 1,
+  "haya' concept; deferred": 1,
+  "imam b.1947; modern": 1,
+  "Copenhagen mosque; modern": 1,
+  "tawassul term; deferred": 1,
+  "Ebu Beker mosque Shkoder 1995; modern": 1,
+  "militant d.2025; modern": 1,
+  "ayatollah d.2009; modern": 1,
+  "al-Qaeda militant d.2011; modern": 1,
+  "Iranian politician; modern": 1,
+  "al-Yaziji d.1906; modern": 1,
+  "Koprulu Numan Pasha; deferred — batch cap": 1,
+  "Hamad bin Said of Oman d.1792; thin, deferred": 1,
+  "Ermeni Suleyman Pasha; deferred — batch cap": 1,
+  "Mehmed Said Efendi; deferred — batch cap": 1,
+  "Hekimoglu Ali Pasha; deferred — batch cap": 1,
+  "Muhammad as-Sadiq of Tunis d.1882; post-1800": 1,
+  "Ra'ad bin Zeid; modern": 1,
+  "Albanian cleric; modern": 1,
+  "Indian chief justice d.2017; modern": 1,
+  "Kasimov Khan's mosque; no confirmed source": 1,
+  "Kazan Acem mosque; modern": 1,
+  "Brunei mosque 1994; modern": 1,
+  "Defterdar mosque Istanbul; deferred — batch cap": 1
  },
  "last_commit": "d246b7e49",
  "last_push": "2caca308e",
  "batch_current": 7,
- "updated_at": "2026-10-19T18:11:25-04:00"
+ "updated_at": "2026-10-19T18:16:44-04:00"
 }
