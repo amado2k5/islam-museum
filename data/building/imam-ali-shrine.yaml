@@ -1,0 +1,30 @@
+id: building/imam-ali-shrine
+class: building
+kind: shrine
+label:
+  ar: "العتبة العلوية"
+  en: "Imam Ali shrine (Najaf)"
+summary:
+  ar: "بطاقة أولية للعتبة العلوية بالنجف، الضريح الذي يُزار على قبر علي بن أبي طالب، وردت في وصف مرجعي مفتوح (ويكي البيانات). لم يُراجع نص معجم البلدان في النجف والغريّ على الصفحة بعد."
+  en: "Draft card for the Imam Ali shrine at Najaf, the sanctuary visited at the grave of Ali ibn Abi Talib, named from an open reference description (Wikidata); its Mujam al-Buldan coverage is not yet read on the page."
+wings: [objects]
+regions: [levant-iraq]
+coordinates:
+  - 31.9961
+  - 44.3142
+relations:
+  - type: located_in
+    target: place/najaf
+    sources: [source/wikidata]
+sources: [source/mujam-al-buldan, source/wikidata]
+external_ids:
+  wikidata: Q838359
+provenance:
+  layer: own-research
+  source: "Wikidata Q838359 (religion claim Islam; coordinates from P625); book source: Yaqut, Mujam al-Buldan — entry not yet read on the page"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-0004
+status:
+  review: draft
+  completeness: 1

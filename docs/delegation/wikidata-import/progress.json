@@ -5,7 +5,7 @@
  "candidates_file": "$HARVEST/wikidata-import/candidates.tsv",
  "candidates_query": "select distinct id from wd_claim where property='P140' and value_id='Q432' minus Wikidata ids already linked in data/, ordered by sitelink count desc",
  "linked_preexisting": 987,
- "next_index": 260,
+ "next_index": 360,
  "created_ids": [
   {
    "i": 24,
@@ -176,6 +176,56 @@
    "i": 245,
    "qid": "Q187715",
    "id": "group/hashashin"
+  },
+  {
+   "i": 268,
+   "qid": "Q378902",
+   "id": "person/yunus-emre"
+  },
+  {
+   "i": 277,
+   "qid": "Q61127",
+   "id": "person/kosem-sultan"
+  },
+  {
+   "i": 280,
+   "qid": "Q298410",
+   "id": "person/tahmasp-i-safavi"
+  },
+  {
+   "i": 294,
+   "qid": "Q11075",
+   "id": "person/abd-al-rahman-al-sufi"
+  },
+  {
+   "i": 304,
+   "qid": "Q25105",
+   "id": "person/ali-al-rida"
+  },
+  {
+   "i": 318,
+   "qid": "Q1256501",
+   "id": "building/jame-masjid-isfahan"
+  },
+  {
+   "i": 326,
+   "qid": "Q324974",
+   "id": "person/agha-muhammad-khan-qajar"
+  },
+  {
+   "i": 342,
+   "qid": "Q83680",
+   "id": "person/shir-shah-suri"
+  },
+  {
+   "i": 343,
+   "qid": "Q838359",
+   "id": "building/imam-ali-shrine"
+  },
+  {
+   "i": 351,
+   "qid": "Q328796",
+   "id": "person/nasir-khusraw"
   }
  ],
  "linked_ids": [
@@ -531,6 +581,132 @@
    "i": 201,
    "qid": "Q199482",
    "to": "person/ahmed-iii-uthmani"
+  },
+  {
+   "i": 264,
+   "qid": "Q216894",
+   "to": "place/arafat"
+  },
+  {
+   "i": 265,
+   "qid": "Q219466",
+   "to": "practice/wudu"
+  },
+  {
+   "i": 267,
+   "qid": "Q33200",
+   "to": "building/great-mosque-cordoba"
+  },
+  {
+   "i": 270,
+   "qid": "Q190418",
+   "to": "person/abd-al-rahman-iii-al-nasir"
+  },
+  {
+   "i": 273,
+   "qid": "Q307665",
+   "to": "person/abdullah-ibn-al-zubayr"
+  },
+  {
+   "i": 274,
+   "qid": "Q461786",
+   "to": "concept/jizya"
+  },
+  {
+   "i": 276,
+   "qid": "Q61056",
+   "to": "person/abd-allah-al-mamun"
+  },
+  {
+   "i": 281,
+   "qid": "Q311826",
+   "to": "person/muhammad-abduh"
+  },
+  {
+   "i": 290,
+   "qid": "Q314978",
+   "to": "person/ali-zayn-al-abidin"
+  },
+  {
+   "i": 297,
+   "qid": "Q317787",
+   "to": "person/ibn-hazm"
+  },
+  {
+   "i": 298,
+   "qid": "Q557378",
+   "to": "person/salman-al-farisi"
+  },
+  {
+   "i": 299,
+   "qid": "Q640480",
+   "to": "practice/umrah"
+  },
+  {
+   "i": 309,
+   "qid": "Q693604",
+   "to": "practice/taraweeh"
+  },
+  {
+   "i": 313,
+   "qid": "Q31066",
+   "to": "person/al-mansur"
+  },
+  {
+   "i": 315,
+   "qid": "Q381240",
+   "to": "event/isra-and-miraj"
+  },
+  {
+   "i": 321,
+   "qid": "Q264210",
+   "to": "person/muawiya-ibn-yazid"
+  },
+  {
+   "i": 327,
+   "qid": "Q335210",
+   "to": "person/abu-muslim-al-khurasani"
+  },
+  {
+   "i": 332,
+   "qid": "Q192960",
+   "to": "person/baybars"
+  },
+  {
+   "i": 334,
+   "qid": "Q252087",
+   "to": "person/abu-al-abbas-al-saffah"
+  },
+  {
+   "i": 335,
+   "qid": "Q284003",
+   "to": "person/al-walid-ibn-abd-al-malik"
+  },
+  {
+   "i": 336,
+   "qid": "Q284233",
+   "to": "person/sulayman-ibn-abd-al-malik"
+  },
+  {
+   "i": 337,
+   "qid": "Q293578",
+   "to": "person/al-tirmidhi-muhammad-ibn-isa"
+  },
+  {
+   "i": 341,
+   "qid": "Q69326",
+   "to": "person/abu-hurayra"
+  },
+  {
+   "i": 344,
+   "qid": "Q948437",
+   "to": "practice/dhikr"
+  },
+  {
+   "i": 279,
+   "qid": "Q205766",
+   "to": "concept/umma",
+   "replaced": "Q193355"
   }
  ],
  "skipped": [
@@ -1318,9 +1494,334 @@
    206,
    "Q45646",
    "present: record already links the caliphate item Q8575586; candidate is the distinct dynasty item"
+  ],
+  [
+   260,
+   "Q57360",
+   "modern emir b.1952"
+  ],
+  [
+   261,
+   "Q188219",
+   "ayah concept; no confirmed source read on the page, deferred"
+  ],
+  [
+   262,
+   "Q19109",
+   "Montenegrins; no Islamic-history source covering them"
+  ],
+  [
+   263,
+   "Q196617",
+   "modern figure d.1958"
+  ],
+  [
+   266,
+   "Q25597826",
+   "modern politician b.1968"
+  ],
+  [
+   269,
+   "Q137097",
+   "Alevism is a contested denomination; needs a perspectives block with two cited voices, deferred"
+  ],
+  [
+   271,
+   "Q233678",
+   "Jama Masjid Delhi (1650s); no book source confirmed covering the building, deferred"
+  ],
+  [
+   272,
+   "Q274356",
+   "Dargins; no confirmed source"
+  ],
+  [
+   275,
+   "Q467692",
+   "Bektashi tariqa; contested/syncretic order needing sourced perspectives, deferred"
+  ],
+  [
+   278,
+   "Q159416",
+   "Naser al-Din Shah d.1896, post-1800"
+  ],
+  [
+   282,
+   "Q116430",
+   "modern king d.1983"
+  ],
+  [
+   283,
+   "Q12250314",
+   "modern sultan b.1955"
+  ],
+  [
+   284,
+   "Q153963",
+   "modern colonial territory"
+  ],
+  [
+   285,
+   "Q167846",
+   "modern ruler d.2004"
+  ],
+  [
+   286,
+   "Q272588",
+   "modern prime minister d.2025"
+  ],
+  [
+   287,
+   "Q49209",
+   "Javanese ethnic group; no confirmed source covering them"
+  ],
+  [
+   288,
+   "Q196546",
+   "Syed Ahmad Khan d.1898, post-1800"
+  ],
+  [
+   289,
+   "Q23810819",
+   "modern president b.1958"
+  ],
+  [
+   291,
+   "Q476757",
+   "modern republic 1978-1992"
+  ],
+  [
+   292,
+   "Q64129",
+   "modern scholar d.2022"
+  ],
+  [
+   293,
+   "Q683632",
+   "Great Mosque of Djenne — current structure is a 1907 rebuild; identity with the medieval mosque uncertain, deferred"
+  ],
+  [
+   295,
+   "Q153620",
+   "modern king d.1960"
+  ],
+  [
+   296,
+   "Q193874",
+   "modern king d.1961"
+  ],
+  [
+   300,
+   "Q641805",
+   "modern emir d.2023"
+  ],
+  [
+   301,
+   "Q671930",
+   "modern politician b.1964"
+  ],
+  [
+   302,
+   "Q1408764",
+   "Circassia region; no confirmed source"
+  ],
+  [
+   303,
+   "Q164745",
+   "modern figure d.1974"
+  ],
+  [
+   305,
+   "Q298718",
+   "modern president d.1989"
+  ],
+  [
+   306,
+   "Q377789",
+   "modern actor d.2021"
+  ],
+  [
+   307,
+   "Q380787",
+   "modern poet b.1930"
+  ],
+  [
+   308,
+   "Q503823",
+   "Tomb of Askia; no book source confirmed covering the monument, deferred"
+  ],
+  [
+   310,
+   "Q932829",
+   "modern preacher b.1965"
+  ],
+  [
+   311,
+   "Q1992645",
+   "modern figure d.2016"
+  ],
+  [
+   312,
+   "Q230291",
+   "modern leader d.1949"
+  ],
+  [
+   314,
+   "Q315888",
+   "modern politician d.1921"
+  ],
+  [
+   316,
+   "Q46930",
+   "modern politician b.1956"
+  ],
+  [
+   317,
+   "Q622820",
+   "women-in-Islam theme; exhibit/path-women-of-islam already carries the theme, no entity needed"
+  ],
+  [
+   319,
+   "Q152381",
+   "modern president b.1967"
+  ],
+  [
+   320,
+   "Q236752",
+   "modern Algerian province"
+  ],
+  [
+   322,
+   "Q312355",
+   "modern politician b.1956"
+  ],
+  [
+   323,
+   "Q315927",
+   "modern politician b.1946"
+  ],
+  [
+   324,
+   "Q317219",
+   "modern militant b.1963"
+  ],
+  [
+   325,
+   "Q317475",
+   "modern thinker d.1977"
+  ],
+  [
+   328,
+   "Q63831",
+   "modern revolutionary d.1979"
+  ],
+  [
+   329,
+   "Q835143",
+   "jannah concept; no confirmed source read on the page, deferred"
+  ],
+  [
+   330,
+   "Q1130350",
+   "Minangkabau; no confirmed source"
+  ],
+  [
+   331,
+   "Q1645980",
+   "Jats vs medieval Zutt identity uncertain; deferred"
+  ],
+  [
+   333,
+   "Q242124",
+   "modern activist b.1963"
+  ],
+  [
+   338,
+   "Q294365",
+   "modern king d.1972"
+  ],
+  [
+   339,
+   "Q3595661",
+   "modern scholar d.1986"
+  ],
+  [
+   340,
+   "Q47007",
+   "modern poet d.1900"
+  ],
+  [
+   345,
+   "Q157159",
+   "modern khedive d.1944"
+  ],
+  [
+   346,
+   "Q208135",
+   "modern figure b.1972"
+  ],
+  [
+   347,
+   "Q216826",
+   "modern figure b.1974"
+  ],
+  [
+   348,
+   "Q2423343",
+   "modern activist d.1947"
+  ],
+  [
+   349,
+   "Q28540613",
+   "modern militant faction"
+  ],
+  [
+   350,
+   "Q311793",
+   "modern imam d.2025"
+  ],
+  [
+   352,
+   "Q445754",
+   "modern activist b.1979"
+  ],
+  [
+   353,
+   "Q45917",
+   "modern field marshal d.2021"
+  ],
+  [
+   354,
+   "Q5298679",
+   "modern footballer b.1995"
+  ],
+  [
+   355,
+   "Q149724",
+   "modern king d.1958"
+  ],
+  [
+   356,
+   "Q159378",
+   "modern khedive d.1895"
+  ],
+  [
+   357,
+   "Q1774915",
+   "Jordanian royal house item; a modern-dynasty frame, deferred"
+  ],
+  [
+   358,
+   "Q217154",
+   "modern politician b.1941"
+  ],
+  [
+   359,
+   "Q238539",
+   "modern royal consort d.2013"
   ]
  ],
- "skipped_total": 157,
+ "skipped_total": 222,
  "skipped_by_reason": {
   "modern sovereign state; no matching record (al-Hind region is a different entity)": 1,
   "modern sovereign state; no matching record": 8,
@@ -1451,7 +1952,7 @@
   "modern figure b.1960": 1,
   "modern president": 1,
   "Ottoman sultan d.1808, post-1800; no matching record": 1,
-  "modern prime minister d.2025": 1,
+  "modern prime minister d.2025": 2,
   "former modern province; no matching record": 1,
   "garment item; no matching record": 1,
   "modern president d.1982": 1,
@@ -1459,16 +1960,78 @@
   "modern theorist d.1966; check for existing record separately": 1,
   "modern president d.1980": 1,
   "modern filmmaker b.1972": 1,
-  "modern king d.1961": 1,
+  "modern king d.1961": 2,
   "modern militant d.2006": 1,
   "modern president b.1961": 1,
   "'madhhab' term entity; no matching record, deferred": 1,
   "modern prime minister d.1951": 1,
   "modern politician b.1970": 1,
-  "present": 1
+  "present": 1,
+  "modern emir b.1952": 1,
+  "ayah concept; no confirmed source read on the page, deferred": 1,
+  "Montenegrins; no Islamic-history source covering them": 1,
+  "modern figure d.1958": 1,
+  "modern politician b.1968": 1,
+  "Alevism is a contested denomination; needs a perspectives block with two cited voices, deferred": 1,
+  "Jama Masjid Delhi (1650s); no book source confirmed covering the building, deferred": 1,
+  "Dargins; no confirmed source": 1,
+  "Bektashi tariqa; contested/syncretic order needing sourced perspectives, deferred": 1,
+  "Naser al-Din Shah d.1896, post-1800": 1,
+  "modern king d.1983": 1,
+  "modern sultan b.1955": 1,
+  "modern colonial territory": 1,
+  "modern ruler d.2004": 1,
+  "Javanese ethnic group; no confirmed source covering them": 1,
+  "Syed Ahmad Khan d.1898, post-1800": 1,
+  "modern president b.1958": 1,
+  "modern republic 1978-1992": 1,
+  "modern scholar d.2022": 1,
+  "Great Mosque of Djenne — current structure is a 1907 rebuild; identity with the medieval mosque uncertain, deferred": 1,
+  "modern king d.1960": 1,
+  "modern emir d.2023": 1,
+  "modern politician b.1964": 1,
+  "Circassia region; no confirmed source": 1,
+  "modern figure d.1974": 1,
+  "modern president d.1989": 1,
+  "modern actor d.2021": 1,
+  "modern poet b.1930": 1,
+  "Tomb of Askia; no book source confirmed covering the monument, deferred": 1,
+  "modern preacher b.1965": 1,
+  "modern figure d.2016": 1,
+  "modern leader d.1949": 1,
+  "modern politician d.1921": 1,
+  "modern politician b.1956": 2,
+  "women-in-Islam theme; exhibit/path-women-of-islam already carries the theme, no entity needed": 1,
+  "modern president b.1967": 1,
+  "modern Algerian province": 1,
+  "modern politician b.1946": 1,
+  "modern militant b.1963": 1,
+  "modern thinker d.1977": 1,
+  "modern revolutionary d.1979": 1,
+  "jannah concept; no confirmed source read on the page, deferred": 1,
+  "Minangkabau; no confirmed source": 1,
+  "Jats vs medieval Zutt identity uncertain; deferred": 1,
+  "modern activist b.1963": 1,
+  "modern king d.1972": 1,
+  "modern scholar d.1986": 1,
+  "modern poet d.1900": 1,
+  "modern khedive d.1944": 1,
+  "modern figure b.1972": 1,
+  "modern figure b.1974": 1,
+  "modern activist d.1947": 1,
+  "modern militant faction": 1,
+  "modern imam d.2025": 1,
+  "modern activist b.1979": 1,
+  "modern field marshal d.2021": 1,
+  "modern footballer b.1995": 1,
+  "modern king d.1958": 1,
+  "modern khedive d.1895": 1,
+  "Jordanian royal house item; a modern-dynasty frame, deferred": 1,
+  "modern politician b.1941": 1,
+  "modern royal consort d.2013": 1
  },
  "last_commit": "521a6f13a",
- "last_push": null,
+ "last_push": "2caca308e",
  "batch_current": 3,
- "updated_at": "2026-10-19T16:50:52"
+ "updated_at": "2026-10-19T16:54:01-04:00"
 }
