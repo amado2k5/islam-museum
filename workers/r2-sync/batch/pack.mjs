@@ -5,14 +5,18 @@ import { zipSync } from "fflate";
 import { createHash } from "node:crypto";
 
 const DEFAULT_MAX = 20 * 1024 * 1024;
+// One Worker request applies one archive, and a request that runs much past
+// five minutes is dropped. At the one-at-a-time speed measured on 19 Oct 2026
+// (about 5 operations per second), 500 operations take about 100 seconds.
+const DEFAULT_MAX_OPS = 500;
 
 const sha = (bytes) => createHash("sha256").update(bytes).digest("hex");
 
 // ops: [{ op: "COPY", localBytes: Uint8Array, dst }, { op: "MOVE", src, dst }, { op: "DELETE", dst }]
 // Returns an array of { name, bytes } archives. Each archive's manifest lists only
-// the operations for the files inside it. Archives are split when adding the next
-// file would go over maxBytes; DELETE and MOVE ops take no bytes and go in the first archive.
-export function packArchives(ops, { namePrefix = "batch", maxBytes = DEFAULT_MAX } = {}) {
+// the operations for the files inside it. A new archive starts when the next file
+// would go over maxBytes, or when the current one already has maxOps operations.
+export function packArchives(ops, { namePrefix = "batch", maxBytes = DEFAULT_MAX, maxOps = DEFAULT_MAX_OPS } = {}) {
   const archives = [];
   let current = null;
 
@@ -23,6 +27,7 @@ export function packArchives(ops, { namePrefix = "batch", maxBytes = DEFAULT_MAX
   start();
 
   for (const [i, op] of ops.entries()) {
+    if (current.manifestOps.length >= maxOps) start();
     if (op.op === "COPY") {
       const size = op.localBytes.byteLength;
       if (current.bytes > 0 && current.bytes + size > maxBytes) start();
