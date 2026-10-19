@@ -5,7 +5,7 @@
  "candidates_file": "$HARVEST/wikidata-import/candidates.tsv",
  "candidates_query": "select distinct id from wd_claim where property='P140' and value_id='Q432' minus Wikidata ids already linked in data/, ordered by sitelink count desc",
  "linked_preexisting": 987,
- "next_index": 1260,
+ "next_index": 1360,
  "created_ids": [
   {
    "i": 24,
@@ -1046,6 +1046,126 @@
    "i": 1245,
    "qid": "Q388979",
    "id": "person/sheref-khan-bedlisi"
+  },
+  {
+   "i": 1260,
+   "qid": "Q73103",
+   "id": "person/sadiq-khan-zand"
+  },
+  {
+   "i": 1264,
+   "qid": "Q783253",
+   "id": "person/maslama-al-majriti"
+  },
+  {
+   "i": 1266,
+   "qid": "Q81023",
+   "id": "person/ali-murad-khan-zand"
+  },
+  {
+   "i": 1267,
+   "qid": "Q81098",
+   "id": "person/jafar-khan-zand"
+  },
+  {
+   "i": 1277,
+   "qid": "Q1267418",
+   "id": "building/mustafa-pasha-mosque-skopje"
+  },
+  {
+   "i": 1284,
+   "qid": "Q1572506",
+   "id": "building/hirami-ahmed-pasha-mosque"
+  },
+  {
+   "i": 1286,
+   "qid": "Q1753844",
+   "id": "building/yivli-minare-mosque"
+  },
+  {
+   "i": 1291,
+   "qid": "Q2342579",
+   "id": "person/sharaf-al-din-al-tusi"
+  },
+  {
+   "i": 1296,
+   "qid": "Q2537376",
+   "id": "building/mihrimah-sultan-mosque-uskudar"
+  },
+  {
+   "i": 1299,
+   "qid": "Q2658398",
+   "id": "person/muhammad-shah-brunei"
+  },
+  {
+   "i": 1304,
+   "qid": "Q2879342",
+   "id": "person/bahadur-shah-gujarat"
+  },
+  {
+   "i": 1307,
+   "qid": "Q2918077",
+   "id": "person/said-al-andalusi"
+  },
+  {
+   "i": 1310,
+   "qid": "Q3087653",
+   "id": "person/sulayman-pasha-ibn-orhan"
+  },
+  {
+   "i": 1311,
+   "qid": "Q317408",
+   "id": "person/rahman-baba"
+  },
+  {
+   "i": 1313,
+   "qid": "Q3299394",
+   "id": "person/sharhabil-ibn-hasana"
+  },
+  {
+   "i": 1316,
+   "qid": "Q3363540",
+   "id": "person/iskandar-shah-malacca"
+  },
+  {
+   "i": 1322,
+   "qid": "Q389821",
+   "id": "group/rifaiyya"
+  },
+  {
+   "i": 1327,
+   "qid": "Q4116882",
+   "id": "person/yunus-pasha"
+  },
+  {
+   "i": 1332,
+   "qid": "Q4794354",
+   "id": "person/ibn-hibban"
+  },
+  {
+   "i": 1333,
+   "qid": "Q4893443",
+   "id": "person/semiz-ali-pasha"
+  },
+  {
+   "i": 1338,
+   "qid": "Q608787",
+   "id": "building/koca-mustafa-pasha-mosque"
+  },
+  {
+   "i": 1339,
+   "qid": "Q61595",
+   "id": "person/sulayman-shah-ii-rum"
+  },
+  {
+   "i": 1341,
+   "qid": "Q659457",
+   "id": "group/banu-qasi"
+  },
+  {
+   "i": 1350,
+   "qid": "Q838407",
+   "id": "person/piri-mehmed-pasha"
   }
  ],
  "linked_ids": [
@@ -2568,6 +2688,151 @@
    "i": 1251,
    "qid": "Q4892993",
    "to": "person/abu-al-suud-afandi"
+  },
+  {
+   "i": 1262,
+   "qid": "Q767220",
+   "to": "person/al-malik-al-afdal-ali"
+  },
+  {
+   "i": 1273,
+   "qid": "Q1108692",
+   "to": "person/abu-dujana"
+  },
+  {
+   "i": 1274,
+   "qid": "Q1111147",
+   "to": "person/umama-bint-abi-al-as"
+  },
+  {
+   "i": 1275,
+   "qid": "Q1145300",
+   "to": "person/hudhayfa-ibn-al-yaman"
+  },
+  {
+   "i": 1278,
+   "qid": "Q130561",
+   "to": "person/al-sharif-al-radi"
+  },
+  {
+   "i": 1280,
+   "qid": "Q1393417",
+   "to": "person/ali-ibn-sahl-al-tabari"
+  },
+  {
+   "i": 1285,
+   "qid": "Q1607512",
+   "to": "person/uthman-ibn-mazun"
+  },
+  {
+   "i": 1288,
+   "qid": "Q1951858",
+   "to": "person/al-mustansir-hafsi"
+  },
+  {
+   "i": 1289,
+   "qid": "Q2177228",
+   "to": "person/aqil-ibn-abi-talib"
+  },
+  {
+   "i": 1297,
+   "qid": "Q2555442",
+   "to": "person/abd-al-rahman-ibn-muljam"
+  },
+  {
+   "i": 1301,
+   "qid": "Q2738852",
+   "to": "person/wahshi-ibn-harb"
+  },
+  {
+   "i": 1302,
+   "qid": "Q285519",
+   "to": "person/al-malik-al-salih-ismail"
+  },
+  {
+   "i": 1303,
+   "qid": "Q285574",
+   "to": "person/al-qasim-ibn-hammud"
+  },
+  {
+   "i": 1308,
+   "qid": "Q3063361",
+   "to": "person/al-fudayl-ibn-iyad"
+  },
+  {
+   "i": 1314,
+   "qid": "Q334882",
+   "to": "person/abu-bakr-ibn-umar-al-lamtuni"
+  },
+  {
+   "i": 1315,
+   "qid": "Q335620",
+   "to": "person/abu-al-hasan-al-marini"
+  },
+  {
+   "i": 1321,
+   "qid": "Q3814358",
+   "to": "person/ibn-khuzayma"
+  },
+  {
+   "i": 1324,
+   "qid": "Q400930",
+   "to": "person/ibn-arabshah"
+  },
+  {
+   "i": 1326,
+   "qid": "Q4115264",
+   "to": "person/nusayba-bint-kab"
+  },
+  {
+   "i": 1330,
+   "qid": "Q439374",
+   "to": "person/wahb-ibn-munabbih"
+  },
+  {
+   "i": 1331,
+   "qid": "Q4670034",
+   "to": "person/abu-ubayda-mammar"
+  },
+  {
+   "i": 1336,
+   "qid": "Q557366",
+   "to": "person/al-baghdadi-abd-al-qahir-ibn-tahir"
+  },
+  {
+   "i": 1344,
+   "qid": "Q698037",
+   "to": "person/faraj-ibn-barquq"
+  },
+  {
+   "i": 1347,
+   "qid": "Q732363",
+   "to": "person/ibn-abd-al-barr"
+  },
+  {
+   "i": 1349,
+   "qid": "Q785506",
+   "to": "person/ibn-qudama-al-maqdisi"
+  },
+  {
+   "i": 1355,
+   "qid": "Q1108678",
+   "to": "person/malik-al-ashtar"
+  },
+  {
+   "i": 1356,
+   "qid": "Q1110826",
+   "to": "person/abu-hudhayfa-ibn-utba"
+  },
+  {
+   "i": 1357,
+   "qid": "Q1145321",
+   "to": "person/utba-ibn-ghazwan"
+  },
+  {
+   "i": 1359,
+   "qid": "Q1153185",
+   "to": "person/sahl-al-tustari"
   }
  ],
  "skipped": [
@@ -6320,9 +6585,244 @@
    1259,
    "Q728586",
    "modern Turkish politician d.1950"
+  ],
+  [
+   1261,
+   "Q754778",
+   "Sharjah ruler b.1939; modern"
+  ],
+  [
+   1263,
+   "Q775760",
+   "Iranian ayatollah d.1986; modern"
+  ],
+  [
+   1265,
+   "Q800236",
+   "Bahawalpur princely state, British Raj era; out of scope"
+  ],
+  [
+   1268,
+   "Q836059",
+   "Cologne mosque project 2018; modern"
+  ],
+  [
+   1269,
+   "Q922847",
+   "Ottoman pretender d.1994; modern"
+  ],
+  [
+   1270,
+   "Q981944",
+   "Iranian singer b.1951; modern"
+  ],
+  [
+   1271,
+   "Q1033917",
+   "Jordanian PM d.1971; modern"
+  ],
+  [
+   1272,
+   "Q106522361",
+   "modern basketball player"
+  ],
+  [
+   1276,
+   "Q123751521",
+   "modern journalist d.2025"
+  ],
+  [
+   1279,
+   "Q1363254",
+   "Iranian ayatollah d.2018; modern"
+  ],
+  [
+   1281,
+   "Q139573306",
+   "Iraqi PM b.1985; modern"
+  ],
+  [
+   1282,
+   "Q1397219",
+   "Russian mufti b.1959; modern"
+  ],
+  [
+   1283,
+   "Q1554548",
+   "Iranian activist; modern"
+  ],
+  [
+   1287,
+   "Q1907146",
+   "Masjid Sultan Singapore; colonial-era/modern fabric"
+  ],
+  [
+   1290,
+   "Q219028",
+   "Mausoleum of Mohammed V, 1971; modern"
+  ],
+  [
+   1292,
+   "Q2393668",
+   "Lala Tulpan mosque Ufa 1998; modern"
+  ],
+  [
+   1293,
+   "Q2414493",
+   "9/11 hijacker; modern, out of scope"
+  ],
+  [
+   1294,
+   "Q2453214",
+   "Jezzar Pasha d.1804; post-1800"
+  ],
+  [
+   1295,
+   "Q2471414",
+   "9/11 hijacker; modern"
+  ],
+  [
+   1298,
+   "Q2637668",
+   "Ibrahim Bey Mamluk d.1817; post-1800"
+  ],
+  [
+   1300,
+   "Q2717210",
+   "Aga Khan I d.1881; post-1800"
+  ],
+  [
+   1305,
+   "Q2914533",
+   "Iraqi queen consort d.1950; modern"
+  ],
+  [
+   1306,
+   "Q2914726",
+   "Jordanian queen consort d.2019; modern"
+  ],
+  [
+   1309,
+   "Q307352",
+   "Palestinian commander d.1948; modern"
+  ],
+  [
+   1312,
+   "Q3241714",
+   "Indian activist d.1931; modern"
+  ],
+  [
+   1317,
+   "Q3433216",
+   "Bosniak writer d.1934; modern"
+  ],
+  [
+   1318,
+   "Q3493526",
+   "Qatari emir d.1878; post-1800"
+  ],
+  [
+   1319,
+   "Q3562673",
+   "present: person/gulbahar-hatun already carries alternate item Q2690022 for the same consort"
+  ],
+  [
+   1320,
+   "Q368983",
+   "Russian mufti b.1948; modern"
+  ],
+  [
+   1323,
+   "Q3959320",
+   "Quran reciter d.1969; modern"
+  ],
+  [
+   1325,
+   "Q400961",
+   "Yemeni imam d.1962; modern"
+  ],
+  [
+   1328,
+   "Q4160569",
+   "Juma Mosque Baku 12th c.; no confirmed source on the page"
+  ],
+  [
+   1329,
+   "Q435799",
+   "Iranian politician b.1944; modern"
+  ],
+  [
+   1334,
+   "Q508133",
+   "Malaysian sultan d.1979; modern"
+  ],
+  [
+   1335,
+   "Q555004",
+   "Turkish diplomat d.2003; modern"
+  ],
+  [
+   1337,
+   "Q585408",
+   "colonial protectorate 1900-1914; out of scope"
+  ],
+  [
+   1340,
+   "Q62394296",
+   "Israeli politician b.1974; modern"
+  ],
+  [
+   1342,
+   "Q660970",
+   "Ottoman statesman d.1922; modern"
+  ],
+  [
+   1343,
+   "Q6721039",
+   "British activist b.1977; modern"
+  ],
+  [
+   1345,
+   "Q700668",
+   "Iranian PM d.2001; modern"
+  ],
+  [
+   1346,
+   "Q7283400",
+   "Ismaili imam b.1971; modern"
+  ],
+  [
+   1348,
+   "Q739401",
+   "Turkish novelist d.1970; modern"
+  ],
+  [
+   1351,
+   "Q971640",
+   "Alemdar Mustafa Pasha d.1808; post-1800"
+  ],
+  [
+   1352,
+   "Q1066898",
+   "Urdu poet Hali d.1914; modern"
+  ],
+  [
+   1353,
+   "Q1070772",
+   "Malik Muhammad Jayasi d.1542; no confirmed source on the page"
+  ],
+  [
+   1354,
+   "Q1077843",
+   "translator d.1953; modern"
+  ],
+  [
+   1358,
+   "Q1151724",
+   "Turkish writer d.1974; modern"
   ]
  ],
- "skipped_total": 750,
+ "skipped_total": 797,
  "skipped_by_reason": {
   "modern sovereign state; no matching record (al-Hind region is a different entity)": 1,
   "modern sovereign state; no matching record": 8,
@@ -7018,10 +7518,57 @@
   "von Sebottendorf d.1945; modern, marginal": 1,
   "modern Malaysian sultan d.2001": 1,
   "modern Iranian ayatollah d.2014": 1,
-  "modern Turkish politician d.1950": 1
+  "modern Turkish politician d.1950": 1,
+  "Sharjah ruler b.1939; modern": 1,
+  "Iranian ayatollah d.1986; modern": 1,
+  "Bahawalpur princely state, British Raj era; out of scope": 1,
+  "Cologne mosque project 2018; modern": 1,
+  "Ottoman pretender d.1994; modern": 1,
+  "Iranian singer b.1951; modern": 1,
+  "Jordanian PM d.1971; modern": 1,
+  "modern basketball player": 1,
+  "modern journalist d.2025": 1,
+  "Iranian ayatollah d.2018; modern": 1,
+  "Iraqi PM b.1985; modern": 1,
+  "Russian mufti b.1959; modern": 1,
+  "Iranian activist; modern": 1,
+  "Masjid Sultan Singapore; colonial-era/modern fabric": 1,
+  "Mausoleum of Mohammed V, 1971; modern": 1,
+  "Lala Tulpan mosque Ufa 1998; modern": 1,
+  "9/11 hijacker; modern, out of scope": 1,
+  "Jezzar Pasha d.1804; post-1800": 1,
+  "9/11 hijacker; modern": 1,
+  "Ibrahim Bey Mamluk d.1817; post-1800": 1,
+  "Aga Khan I d.1881; post-1800": 1,
+  "Iraqi queen consort d.1950; modern": 1,
+  "Jordanian queen consort d.2019; modern": 1,
+  "Palestinian commander d.1948; modern": 1,
+  "Indian activist d.1931; modern": 1,
+  "Bosniak writer d.1934; modern": 1,
+  "Qatari emir d.1878; post-1800": 1,
+  "present: person/gulbahar-hatun already carries alternate item Q2690022 for the same consort": 1,
+  "Russian mufti b.1948; modern": 1,
+  "Quran reciter d.1969; modern": 1,
+  "Yemeni imam d.1962; modern": 1,
+  "Juma Mosque Baku 12th c.; no confirmed source on the page": 1,
+  "Iranian politician b.1944; modern": 1,
+  "Malaysian sultan d.1979; modern": 1,
+  "Turkish diplomat d.2003; modern": 1,
+  "colonial protectorate 1900-1914; out of scope": 1,
+  "Israeli politician b.1974; modern": 1,
+  "Ottoman statesman d.1922; modern": 1,
+  "British activist b.1977; modern": 1,
+  "Iranian PM d.2001; modern": 1,
+  "Ismaili imam b.1971; modern": 1,
+  "Turkish novelist d.1970; modern": 1,
+  "Alemdar Mustafa Pasha d.1808; post-1800": 1,
+  "Urdu poet Hali d.1914; modern": 1,
+  "Malik Muhammad Jayasi d.1542; no confirmed source on the page": 1,
+  "translator d.1953; modern": 1,
+  "Turkish writer d.1974; modern": 1
  },
  "last_commit": "d246b7e49",
  "last_push": "2caca308e",
  "batch_current": 7,
- "updated_at": "2026-10-19T17:39:26.160585"
+ "updated_at": "2026-10-19T17:47:49-04:00"
 }

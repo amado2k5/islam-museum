@@ -27,5 +27,6 @@ relations:
   - { type: participated_in, target: event/battle-of-uhud, role: meccan-side, sources: [source/ibn-ishaq-guillaume] }
   - { type: participated_in, target: event/battle-of-yamama, role: muslim-side, sources: [source/ibn-sad-tabaqat-bewley] }
   - { type: fought, target: person/musaylima, start: { edtf: "0632" }, end: { edtf: "0632" }, note: "The tradition attributes Musaylima's death to his javelin.", sources: [source/ibn-sad-tabaqat-bewley] }
+external_ids: { wikidata: "Q2738852" }
 sources: [source/ibn-ishaq-guillaume, source/ibn-sad-tabaqat-bewley, source/tabari-donner-1993, source/sahih-al-bukhari]
 status: { review: draft, completeness: 2, generated_by: "Devin; 2026-10-11" }
