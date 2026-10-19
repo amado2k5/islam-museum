@@ -54,3 +54,9 @@ Updated at every push to `main`. Lane: `wikidata-import` (`docs/delegation/wikid
 - Pushed through `86085d1ae`: Umayyad-era companions and scholars, Mamluk-era figures, Ottoman viziers, mosques; parallel-lane collisions (Abdullah ibn Abd al-Malik, Layla al-Akhyaliyya, Khuzayma ibn Thabit, al-Dahhak ibn Qays, Muqatil, Abu al-Abbas al-Mursi, al-Turtushi) merged into richer existing records as links.
 - `npm run validate`: 0 errors / ~2000 warnings; `npm test`: 101 passed.
 - Nothing blocked.
+
+## 2026 push — through candidate 3859
+- next_index: 3860 / 82296
+- created: 822, linked: ~610, skipped: ~2430 (see progress.json for the live counters)
+- last_commit/push: 6adf6ca4c
+- blocked: nothing
