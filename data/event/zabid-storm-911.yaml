@@ -1,0 +1,21 @@
+id: event/zabid-storm-911
+class: event
+kind: other
+label: { ar: "ريح زبيد العاصفة 911هـ", en: "The Zabid windstorm, 911" }
+summary:
+  ar: "في سنة إحدى عشرة وتسعمائة — كما في النور السافر — هبت بمدينة زبيد وسائر جبالها ريح شديدة اقتلعت أشجاراً كثيرة وكسرتها وهدمت بعض البيوت {cite:shadharat-dhahab p. 462}."
+  en: "In 911, per al-Nur al-Safir, a violent wind struck Zabid and its mountains, uprooting and breaking many trees and demolishing houses {cite:shadharat-dhahab p. 462}."
+wings: [time]
+periods: [period/mongol-post-mongol]
+regions: [arabia]
+date:
+  start: { edtf: "1505/1506", hijri: "0911", calendar: julian, precision: year, status: tradition, derived: true, note: "911؛ التحويل مشتق {cite:shadharat-dhahab p. 462}", sources: [source/shadharat-dhahab] }
+relations:
+  - { type: occurred_at, target: place/zabid, sources: [source/shadharat-dhahab] }
+provenance:
+  layer: own-research
+  source: "شذرات الذهب — ابن العماد (ط مكتبة المثنى 1351، ج8، سنة 911)، قراءة آبل فيجن"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-shadharat-batch-144
+sources: [source/shadharat-dhahab]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

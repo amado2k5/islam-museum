@@ -1,0 +1,27 @@
+---
+id: group/banu-jumah
+lang: ur
+source_lang: ar
+translators: ["Claude Haiku 5.5 (claude-haiku-5-5), draft translation"]
+---
+## خلاصہ
+ابن اسحاق حبشہ کی ہجرت کی فہرستوں میں اس شاخ کا نسب «جمح بن عمرو بن ہصیص بن کعب» بیان کرتے ہیں۔ {cite:ibn-hisham-saqqa 4/5} {cite:ibn-hisham-saqqa 4/7}
+
+## حبشہ کی ہجرت کی فصل میں اس شاخ کے افراد
+**جو دونوں کشتیوں میں سوار ہوئے:**
+- [[person/uthman-ibn-rabi|عثمان بن ربیعہ]] {cite:ibn-hisham-saqqa 4/5}
+- [[person/muhammad-ibn-hatib|محمد بن حاطب]] {cite:ibn-hisham-saqqa 4/7}
+- [[person/al-harith-ibn-hatib-ibn-al-harith|الحارث بن حاطب]] {cite:ibn-hisham-saqqa 4/7}
+
+**حبشہ کے باقی مہاجرین:**
+- [[person/hatib-ibn-al-harith-jumahi|حاطب بن الحارث]] {cite:ibn-hisham-saqqa 4/7}
+- [[person/hattab-ibn-al-harith|حطاب بن الحارث]] {cite:ibn-hisham-saqqa 4/8}
+- [[person/sufyan-ibn-mamar-jumahi|سفیان بن معمر]] {cite:ibn-hisham-saqqa 4/8}
+- [[person/junada-ibn-sufyan|جنادہ بن سفیان]] {cite:ibn-hisham-saqqa 4/8}
+- [[person/jabir-ibn-sufyan|جابر بن سفیان]] {cite:ibn-hisham-saqqa 4/8}
+
+**حبشہ کی مہاجرات:**
+- [[person/fukayha-bint-yasar|فکیہہ بنت یسار]] {cite:ibn-hisham-saqqa 4/8}
+
+## فضول کے حلف کے دن کے احلاف میں (الرحیق المختوم ص60)
+الرحیق المختوم اس شاخ کو ان «احلاف» میں شمار کرتا ہے جن کے خلاف زبیدی مظلوم نے فریاد کی جب [[person/al-as-ibn-wail|عاص بن وائل]] نے اس کا حق روک لیا؛ یہ عبد الدار، مخزوم، جمح، سہم اور عدی تھے، جنہوں نے اس کی پروا نہ کی، اور یہی [[event/hilf-al-fudul|حلف الفضول]] کا سبب بنا جو بنو ہاشم، بنو المطلب، اسد، زہرہ اور تیم نے باندھا {cite:mubarakpuri-raheeq p.60} {cite:mukhtasar-sirat-al-rasul-al-najdi p.30-31}۔

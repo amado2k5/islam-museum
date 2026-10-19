@@ -1,0 +1,24 @@
+id: person/jan-balat
+class: person
+label: { ar: "الملك الأشرف جان بلاط", en: "al-Malik al-Ashraf Jan Balat" }
+names:
+  - { kind: full, lang: ar, value: "الملك الأشرف جان بلاط بن عبد الله أبو النصر" }
+gender: male
+roles: [sultan, emir]
+wings: [people]
+themes: [politics-governance-and-authority]
+periods: [period/mongol-post-mongol]
+regions: [egypt-nile]
+summary:
+  ar: "الملك الأشرف جان بلاط أبو النصر سلطان مصر؛ اشتراه بشتك الدوادار وقدمه للأشرف قايتباي فجعله خاصكياً وقربه إليه وعلمه القرآن والحساب، وأعطاه تقدمة ألف، وولى الدوادارية الكبرى في زمن الناصر بن قايتباي ثم نيابة حلب ست سنين ثم نيابة الشام سبعة أشهر، ثم قدم القاهرة فولي الإمرة الكبرى وزُوّج بأخت السلطان الظاهر قانصوه، وصار العادل طومان باي يرمي الفتنة بينه وبين الظاهر حتى تنافرا فغلبه جان بلاط فتسلطن في ضحوة يوم الاثنين ثاني ذي القعدة سنة خمس وتسعمائة، فأقام نصف سنة وستة عشر يوماً وبنى المدرسة الجنبلاطية خارج باب النصر، ثم خُلع ونُفي إلى الإسكندرية وقتل بها خنقاً سنة ست وتسعمائة، ودُفن بها نحو شهر ثم نُقل إلى القاهرة فدُفن بتربة أستاذه قايتباي ثم رُدّ إلى تربته التي أعدها خارج باب النصر فنُقل إليها ولم تتغير جثته {cite:shadharat-dhahab p. 445}."
+  en: "Qaytbay's mamluk, taught by him Qur'an and reckoning; grand dawadar under al-Nasir, governor of Aleppo six years and Damascus seven months, then amir-kabir in Cairo; overcame al-Zahir Qansuh and took the sultanate on 2 Dhu'l-Qa'da 905 for half a year, built the Janbalatiyya madrasa, then was deposed and strangled at Alexandria — his body carried to Qaytbay's tomb then to his own outside Bab al-Nasr, reportedly unchanged {cite:shadharat-dhahab p. 445}."
+died: { edtf: "1501~", hijri: "0906~", calendar: julian, precision: year, status: tradition, derived: true, note: "قُتل خنقاً بالإسكندرية بعد خلعه 906 {cite:shadharat-dhahab p. 445}", sources: [source/shadharat-dhahab] }
+relations:
+  - { type: participated_in, target: event/ghuri-accession-906, role: "السلطان المخلوع", sources: [source/shadharat-dhahab] }
+provenance:
+  layer: own-research
+  source: "شذرات الذهب — ابن العماد (ط مكتبة المثنى 1351، ج8، سنة 906)، قراءة آبل فيجن"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-shadharat-batch-143
+sources: [source/shadharat-dhahab]
+status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 High)" }

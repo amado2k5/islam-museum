@@ -1,0 +1,25 @@
+id: person/abd-al-karim-rumi
+class: person
+label: { ar: "الملا عبد الكريم الرومي", en: "Molla 'Abd al-Karim al-Rumi" }
+names:
+  - { kind: full, lang: ar, value: "الملا عبد الكريم بن عبد الله الرومي الحنفي" }
+gender: male
+roles: [scholar, jurist]
+traditions: [sunni]
+wings: [people]
+themes: [education, slavery-and-freedom]
+periods: [period/mongol-post-mongol]
+regions: [anatolia-balkans]
+summary:
+  ar: "الملا عبد الكريم بن عبد الله الرومي الحنفي العالم الفاضل المشهور؛ كان من الأرقاء ثم منّ الله عليه بالعتق فجدّ في طلب العلم وحصل فنوناً عدة، وقرأ على الملا الطوسي والملا سنان العجمي تلميذ الملا محمد شاه الفناري، ثم صار مدرساً ببعض المدارس الثمان التي بناها محمد خان الفاتح عند فتح القسطنطينية، ثم ولى قضاء العسكر ثم صار مفتياً زمن السلطان محمد واستمر بها إلى أن مات سنة إحدى وتسعمائة، وله حواشٍ على أوائل التلويح {cite:shadharat-dhahab p. 421}."
+  en: "A freed slave who rose to be mufti of Constantinople under Mehmed II — studied under al-Tusi and Sinan al-'Ajami (Molla Fenari's pupil), taught at one of the Eight Madrasas founded at the conquest, then judge of the 'askar, then mufti until his death in 901; author of hashiyas on the opening of al-Talwih {cite:shadharat-dhahab p. 421}."
+died: { edtf: "1495/1496", hijri: "0901", calendar: julian, precision: year, status: tradition, derived: true, note: "901؛ التحويل مشتق {cite:shadharat-dhahab p. 421}", sources: [source/shadharat-dhahab] }
+relations:
+  - { type: teacher_of, target: person/qasim-baghdadi-kirmani, sources: [source/shadharat-dhahab] }
+provenance:
+  layer: own-research
+  source: "شذرات الذهب — ابن العماد (ط مكتبة المثنى 1351، ج8، سنة 901)، قراءة آبل فيجن"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-shadharat-batch-143
+sources: [source/shadharat-dhahab]
+status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 High)" }
