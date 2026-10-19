@@ -74,7 +74,7 @@ jobs:
             echo "data/ or content/ changed — R2 sync will run."
           fi
       - name: Upload pagefind indexes and API to R2
-        if: steps.content_gate.outputs.skip == 'false'
+        if: steps.content_gate.outputs.skip == 'false' && github.ref == 'refs/heads/main'
         env:
           AWS_ACCESS_KEY_ID: ${{ secrets.R2_ACCESS_KEY_ID }}
           AWS_SECRET_ACCESS_KEY: ${{ secrets.R2_SECRET_ACCESS_KEY }}
@@ -159,6 +159,7 @@ jobs:
 
   deploy:
     needs: [test, build]
+    if: github.ref == 'refs/heads/main'
     runs-on: ubuntu-latest
     steps:
       - name: Download built site
