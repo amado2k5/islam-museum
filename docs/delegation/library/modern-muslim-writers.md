@@ -27,3 +27,12 @@ None yet.
 ## Next step
 
 Add this lane's entries to `scripts/harvest/library/books.yaml` in the lane's own commit, then run `fetch_books.py` for the lane after the workstream commit is on `origin/main`.
+
+## Batch 1 (18 Oct 2026, draft)
+
+- **Book:** al-Ghazali (Muhammad), Islam wal-Manahij al-Ishtirakiyya (Nahdat Misr, 4th ed., 2005)
+- **Pages covered:** pp. 1-5 of the scan
+- **Entities created (draft, `status.review: draft`):** work/al-islam-wal-manahij-al-ishtirakiyya; person/muhammad-al-ghazali-modern (new)
+- **Sources created:** one `source/` record for this edition, with `reliability_note` stating that the edition is unverified and that citations use scan page numbers (the `[pN]` OCR markers), not printed pages.
+- **Skipped:** no concept records; no perspectives block (no sourced Sunni-frame lead has been read yet, so none is written); no death year for the author where the book does not state it; no dates beyond those in the book's own text.
+- **Next step:** read the book beyond the pages listed above, add the sources needed for the second citation of any dated fact, and decide whether any concept record is warranted.

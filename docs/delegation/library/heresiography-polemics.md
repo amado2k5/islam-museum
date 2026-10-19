@@ -66,3 +66,12 @@ Candidates (dry run, 18 Oct 2026; `--max-items 2`; identifier, file, size; sourc
 ## Next step
 
 Add this lane's entries to `scripts/harvest/library/books.yaml` in the lane's own commit, then run `fetch_books.py` for the lane after the workstream commit is on `origin/main`.
+
+## Batch 1 (18 Oct 2026, draft)
+
+- **Book:** Ibn Taymiyya, al-Jawab al-Sahih vol. 1
+- **Pages covered:** pp. 1-4 of the scan only (title page, editor's introduction, opening section); the rest of the 1,436-page file is not read
+- **Entities created (draft, `status.review: draft`):** work/al-jawab-al-sahih-li-man-baddala-din-al-masih; person/ibn-taymiyya (reused, not changed)
+- **Sources created:** one `source/` record for this edition, with `reliability_note` stating that the edition is unverified and that citations use scan page numbers (the `[pN]` OCR markers), not printed pages.
+- **Skipped:** no concept records; no perspectives block (no sourced Sunni-frame lead has been read yet, so none is written); no death year for the author where the book does not state it; no dates beyond those in the book's own text.
+- **Next step:** read the book beyond the pages listed above, add the sources needed for the second citation of any dated fact, and decide whether any concept record is warranted.
