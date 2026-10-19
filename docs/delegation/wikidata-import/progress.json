@@ -5,7 +5,7 @@
  "candidates_file": "$HARVEST/wikidata-import/candidates.tsv",
  "candidates_query": "select distinct id from wd_claim where property='P140' and value_id='Q432' minus Wikidata ids already linked in data/, ordered by sitelink count desc",
  "linked_preexisting": 987,
- "next_index": 1860,
+ "next_index": 1960,
  "created_ids": [
   {
    "i": 24,
@@ -1811,6 +1811,136 @@
    "i": 1857,
    "qid": "Q4724557",
    "id": "person/ali-adil-shah-i"
+  },
+  {
+   "i": 1868,
+   "qid": "Q6414218",
+   "id": "person/hasan-beg-rumlu"
+  },
+  {
+   "i": 1871,
+   "qid": "Q717084",
+   "id": "person/umur-beg"
+  },
+  {
+   "i": 1874,
+   "qid": "Q727005",
+   "id": "person/tughtekin"
+  },
+  {
+   "i": 1877,
+   "qid": "Q769575",
+   "id": "building/haci-bayram-mosque"
+  },
+  {
+   "i": 1879,
+   "qid": "Q8080096",
+   "id": "building/ilyas-bey-mosque"
+  },
+  {
+   "i": 1882,
+   "qid": "Q919958",
+   "id": "building/great-mosque-sousse"
+  },
+  {
+   "i": 1887,
+   "qid": "Q1135925",
+   "id": "person/qutb-al-din-mawdud"
+  },
+  {
+   "i": 1889,
+   "qid": "Q1151481",
+   "id": "person/bahmanyar"
+  },
+  {
+   "i": 1894,
+   "qid": "Q12222083",
+   "id": "person/aisha-al-bauniyya"
+  },
+  {
+   "i": 1896,
+   "qid": "Q12223449",
+   "id": "person/hafiz-al-din-al-nasafi"
+  },
+  {
+   "i": 1899,
+   "qid": "Q124744455",
+   "id": "person/bashir-ibn-saad-al-ansari"
+  },
+  {
+   "i": 1909,
+   "qid": "Q1584306",
+   "id": "person/nasuh-pasha"
+  },
+  {
+   "i": 1917,
+   "qid": "Q2031579",
+   "id": "person/shams-al-din-al-samarqandi"
+  },
+  {
+   "i": 1929,
+   "qid": "Q2475961",
+   "id": "person/nimatullah-wali"
+  },
+  {
+   "i": 1931,
+   "qid": "Q2494934",
+   "id": "building/esrefoglu-mosque"
+  },
+  {
+   "i": 1932,
+   "qid": "Q2533343",
+   "id": "person/sedefkar-mehmed-agha"
+  },
+  {
+   "i": 1936,
+   "qid": "Q2672296",
+   "id": "person/seydi-ali-reis"
+  },
+  {
+   "i": 1940,
+   "qid": "Q2738482",
+   "id": "person/allahverdi-khan"
+  },
+  {
+   "i": 1941,
+   "qid": "Q2822075",
+   "id": "person/abul-hasan-qutb-shah"
+  },
+  {
+   "i": 1942,
+   "qid": "Q2822165",
+   "id": "person/abu-bakr-shah"
+  },
+  {
+   "i": 1943,
+   "qid": "Q2827500",
+   "id": "person/ahmad-baba-al-timbukti"
+  },
+  {
+   "i": 1948,
+   "qid": "Q290506",
+   "id": "person/al-allama-al-hilli"
+  },
+  {
+   "i": 1950,
+   "qid": "Q2996783",
+   "id": "group/nimatulliyya"
+  },
+  {
+   "i": 1952,
+   "qid": "Q3028975",
+   "id": "person/muhammad-shah-iii-tughluq"
+  },
+  {
+   "i": 1955,
+   "qid": "Q3180903",
+   "id": "person/yusuf-al-hamdani"
+  },
+  {
+   "i": 1958,
+   "qid": "Q3299880",
+   "id": "person/al-numan-ibn-muqrin"
   }
  ],
  "linked_ids": [
@@ -3874,7 +4004,83 @@
    "qid": "Q4703043",
    "to": "person/al-qaqa-ibn-amr"
   },
-  "person/al-abbas-al-jawhari"
+  "person/al-abbas-al-jawhari",
+  {
+   "i": 1863,
+   "qid": "Q6003346",
+   "to": "person/zaynab-fawwaz"
+  },
+  {
+   "i": 1870,
+   "qid": "Q716704",
+   "to": "person/ibn-malik-al-jayyani"
+  },
+  {
+   "i": 1876,
+   "qid": "Q7634669",
+   "to": "person/sufyan-ibn-uyayna"
+  },
+  {
+   "i": 1888,
+   "qid": "Q1146625",
+   "to": "person/abu-sufyan-ibn-al-harith"
+  },
+  {
+   "i": 1890,
+   "qid": "Q1169838",
+   "to": "person/al-hakam-ibn-abi-al-as"
+  },
+  {
+   "i": 1892,
+   "qid": "Q11926382",
+   "to": "person/ibrahim-ibn-al-ashtar"
+  },
+  {
+   "i": 1895,
+   "qid": "Q12222362",
+   "to": "person/amir-al-shabi"
+  },
+  {
+   "i": 1900,
+   "qid": "Q124773809",
+   "to": "person/hashim-ibn-utba"
+  },
+  {
+   "i": 1922,
+   "qid": "Q228203",
+   "to": "person/zufar-ibn-al-hudhayl"
+  },
+  {
+   "i": 1923,
+   "qid": "Q2357291",
+   "to": "person/ata-ibn-abi-rabah"
+  },
+  {
+   "i": 1937,
+   "qid": "Q2717231",
+   "to": "person/mansur-ibn-nuh"
+  },
+  {
+   "i": 1938,
+   "qid": "Q2719051",
+   "to": "person/ibn-sabin"
+  },
+  {
+   "i": 1944,
+   "qid": "Q2829222",
+   "to": "person/al-hajjam-al-idrisi"
+  },
+  {
+   "i": 1945,
+   "qid": "Q2829257",
+   "to": "person/muayyad-ahmad-ibn-inal"
+  },
+  {
+   "i": 1947,
+   "qid": "Q287501",
+   "to": "person/al-nazzam"
+  },
+  "person/bashir-ibn-sad-al-ansari"
  ],
  "skipped": [
   [
@@ -9321,9 +9527,304 @@
    1859,
    "Q5600070",
    "Ben Fares mosque Algiers; no confirmed source on the page"
+  ],
+  [
+   1860,
+   "Q5645435",
+   "Indonesian activist d.1981; modern"
+  ],
+  [
+   1861,
+   "Q5687128",
+   "consort d.1898; post-1800"
+  ],
+  [
+   1862,
+   "Q587928",
+   "Mimar Kemaleddin d.1927; modern"
+  ],
+  [
+   1864,
+   "Q6006823",
+   "Fatma Sultan; no confirmed source on the page"
+  ],
+  [
+   1865,
+   "Q6008130",
+   "actor; modern"
+  ],
+  [
+   1866,
+   "Q6061170",
+   "Sisli Mosque 1949; modern"
+  ],
+  [
+   1867,
+   "Q608989",
+   "Muhammadu Bello d.1837; post-1800"
+  ],
+  [
+   1869,
+   "Q659028",
+   "Ilyas Kandhlawi d.1944; modern"
+  ],
+  [
+   1872,
+   "Q720308",
+   "Asaf Jah IV d.1857; post-1800"
+  ],
+  [
+   1873,
+   "Q720313",
+   "Asaf Jah V d.1869; post-1800"
+  ],
+  [
+   1875,
+   "Q7530303",
+   "Sirin bint Sham'un; thin, no confirmed source on the page"
+  ],
+  [
+   1878,
+   "Q7885943",
+   "holy-sites list item; out of scope"
+  ],
+  [
+   1880,
+   "Q885411",
+   "Imam Said bin Ahmad d.1810; post-1800"
+  ],
+  [
+   1881,
+   "Q885547",
+   "Sultan bin Ahmad d.1804; post-1800"
+  ],
+  [
+   1883,
+   "Q983294",
+   "Tatar statesman d.1957; modern"
+  ],
+  [
+   1884,
+   "Q983454",
+   "cricketer; modern"
+  ],
+  [
+   1885,
+   "Q983601",
+   "Cebesoy d.1968; modern"
+  ],
+  [
+   1886,
+   "Q11317232",
+   "Chitral princely state; modern"
+  ],
+  [
+   1891,
+   "Q11853328",
+   "Egyptian director d.2018; modern"
+  ],
+  [
+   1893,
+   "Q12192958",
+   "Djamaa al-Djedid Algiers 1660; deferred — no confirmed source on the page"
+  ],
+  [
+   1897,
+   "Q1226149",
+   "din term item; deferred"
+  ],
+  [
+   1898,
+   "Q1236283",
+   "Christian saint; out of scope"
+  ],
+  [
+   1901,
+   "Q126923121",
+   "IRGC member; modern"
+  ],
+  [
+   1902,
+   "Q12960739",
+   "Cobanija mosque Sarajevo; no confirmed source on the page"
+  ],
+  [
+   1903,
+   "Q13097299",
+   "sujud tilawa term; deferred"
+  ],
+  [
+   1904,
+   "Q1322893",
+   "Yemeni politician; modern"
+  ],
+  [
+   1905,
+   "Q135183195",
+   "Iranian general; modern"
+  ],
+  [
+   1906,
+   "Q1394334",
+   "Islamic Center of America; modern"
+  ],
+  [
+   1907,
+   "Q140092",
+   "Hursid Pasha d.1822; post-1800"
+  ],
+  [
+   1908,
+   "Q1583802",
+   "Koca Husrev Pasha d.1855; post-1800"
+  ],
+  [
+   1910,
+   "Q16658448",
+   "Mohammed Helmy d.1982; modern"
+  ],
+  [
+   1911,
+   "Q17009591",
+   "Zeila mosque; our masjid-al-qiblatayn record is the Medina mosque — different building, no confirmed source"
+  ],
+  [
+   1912,
+   "Q17057004",
+   "al-Zirikli d.1976; modern (though a source author)"
+  ],
+  [
+   1913,
+   "Q17140201",
+   "Orenburg caravanserai; no confirmed source"
+  ],
+  [
+   1914,
+   "Q17627412",
+   "Chechen commander d.2015; modern"
+  ],
+  [
+   1915,
+   "Q1799369",
+   "Iraqi PM d.1986; modern"
+  ],
+  [
+   1916,
+   "Q2002354",
+   "Lebanese PM d.2000; modern"
+  ],
+  [
+   1918,
+   "Q2081158",
+   "Huseynzade d.1940; modern"
+  ],
+  [
+   1919,
+   "Q2092426",
+   "Mehmet Gormez b.1959; modern"
+  ],
+  [
+   1920,
+   "Q2110643",
+   "Prince Sabahaddin d.1948; modern"
+  ],
+  [
+   1921,
+   "Q21207203",
+   "Anas ibn Nadhar; no confirmed source on the page"
+  ],
+  [
+   1924,
+   "Q2369824",
+   "Saffet Pasha d.1883; post-1800"
+  ],
+  [
+   1925,
+   "Q24572906",
+   "Syrian politician d.2021; modern"
+  ],
+  [
+   1926,
+   "Q2464750",
+   "Gillani PM d.1927; modern"
+  ],
+  [
+   1927,
+   "Q2470048",
+   "Ali ibn al-Madini; possible overlap with ali-ibn-jafar-al-madini — deferred for review"
+  ],
+  [
+   1928,
+   "Q2474798",
+   "Mogadishu mosque 1987; modern"
+  ],
+  [
+   1930,
+   "Q2483550",
+   "Atik Valide mosque; deferred — no confirmed source on the page"
+  ],
+  [
+   1933,
+   "Q254925",
+   "Conakry mosque; modern"
+  ],
+  [
+   1934,
+   "Q2565343",
+   "Kefeli mosque; no confirmed source on the page"
+  ],
+  [
+   1935,
+   "Q2642200",
+   "Salabat Jung d.1763; thin — deferred"
+  ],
+  [
+   1939,
+   "Q2725984",
+   "cricketer; modern"
+  ],
+  [
+   1946,
+   "Q28714119",
+   "IRGC head; modern"
+  ],
+  [
+   1949,
+   "Q2983881",
+   "journalist b.1967; modern"
+  ],
+  [
+   1951,
+   "Q301493",
+   "Arifi Pasha d.1895; post-1800"
+  ],
+  [
+   1953,
+   "Q317420",
+   "al-Iryani president d.1998; modern"
+  ],
+  [
+   1954,
+   "Q317630",
+   "Abdullah Goran d.1962; modern"
+  ],
+  [
+   1956,
+   "Q3180990",
+   "Raziye Sultan; no confirmed source on the page"
+  ],
+  [
+   1957,
+   "Q3273670",
+   "Egyptian princess d.2002; modern"
+  ],
+  [
+   1959,
+   "Q3304877",
+   "nisab term item; deferred"
   ]
  ],
- "skipped_total": 1089,
+ "skipped_total": 1148,
  "skipped_by_reason": {
   "modern sovereign state; no matching record (al-Hind region is a different entity)": 1,
   "modern sovereign state; no matching record": 8,
@@ -10252,7 +10753,7 @@
   "Saudi minister b.1935; modern": 1,
   "Taliban leader d.2018; modern": 1,
   "al-Arsh item; contested creed topic — needs perspectives block, deferred": 1,
-  "Yemeni politician; modern": 1,
+  "Yemeni politician; modern": 2,
   "Chinese warlord d.1936; modern": 1,
   "Ottoman noble d.1973; modern": 1,
   "Fana concept; deferred — no confirmed source on the page": 1,
@@ -10269,7 +10770,7 @@
   "Tunisian politician d.2021; modern": 1,
   "Republic of Sudan 1956; modern": 1,
   "cleric b.1972; modern": 1,
-  "cricketer; modern": 1,
+  "cricketer; modern": 3,
   "usul al-din survey item; deferred": 1,
   "honorific title item; out of scope": 1,
   "Kampala mosque; modern": 1,
@@ -10350,10 +10851,66 @@
   "Iranian politician b.1962; modern": 1,
   "Fatima de Madrid; dubious attestation, no confirmed source": 1,
   "Laleh Bakhtiar d.2020; modern": 1,
-  "Ben Fares mosque Algiers; no confirmed source on the page": 1
+  "Ben Fares mosque Algiers; no confirmed source on the page": 1,
+  "Indonesian activist d.1981; modern": 1,
+  "consort d.1898; post-1800": 1,
+  "Mimar Kemaleddin d.1927; modern": 1,
+  "Fatma Sultan; no confirmed source on the page": 1,
+  "actor; modern": 1,
+  "Sisli Mosque 1949; modern": 1,
+  "Muhammadu Bello d.1837; post-1800": 1,
+  "Ilyas Kandhlawi d.1944; modern": 1,
+  "Asaf Jah IV d.1857; post-1800": 1,
+  "Asaf Jah V d.1869; post-1800": 1,
+  "Sirin bint Sham'un; thin, no confirmed source on the page": 1,
+  "holy-sites list item; out of scope": 1,
+  "Imam Said bin Ahmad d.1810; post-1800": 1,
+  "Sultan bin Ahmad d.1804; post-1800": 1,
+  "Tatar statesman d.1957; modern": 1,
+  "Cebesoy d.1968; modern": 1,
+  "Chitral princely state; modern": 1,
+  "Egyptian director d.2018; modern": 1,
+  "Djamaa al-Djedid Algiers 1660; deferred — no confirmed source on the page": 1,
+  "din term item; deferred": 1,
+  "Christian saint; out of scope": 1,
+  "IRGC member; modern": 1,
+  "Cobanija mosque Sarajevo; no confirmed source on the page": 1,
+  "sujud tilawa term; deferred": 1,
+  "Iranian general; modern": 1,
+  "Islamic Center of America; modern": 1,
+  "Hursid Pasha d.1822; post-1800": 1,
+  "Koca Husrev Pasha d.1855; post-1800": 1,
+  "Mohammed Helmy d.1982; modern": 1,
+  "Zeila mosque; our masjid-al-qiblatayn record is the Medina mosque — different building, no confirmed source": 1,
+  "al-Zirikli d.1976; modern (though a source author)": 1,
+  "Orenburg caravanserai; no confirmed source": 1,
+  "Chechen commander d.2015; modern": 1,
+  "Iraqi PM d.1986; modern": 1,
+  "Lebanese PM d.2000; modern": 1,
+  "Huseynzade d.1940; modern": 1,
+  "Mehmet Gormez b.1959; modern": 1,
+  "Prince Sabahaddin d.1948; modern": 1,
+  "Anas ibn Nadhar; no confirmed source on the page": 1,
+  "Saffet Pasha d.1883; post-1800": 1,
+  "Syrian politician d.2021; modern": 1,
+  "Gillani PM d.1927; modern": 1,
+  "Ali ibn al-Madini; possible overlap with ali-ibn-jafar-al-madini — deferred for review": 1,
+  "Mogadishu mosque 1987; modern": 1,
+  "Atik Valide mosque; deferred — no confirmed source on the page": 1,
+  "Conakry mosque; modern": 1,
+  "Kefeli mosque; no confirmed source on the page": 1,
+  "Salabat Jung d.1763; thin — deferred": 1,
+  "IRGC head; modern": 1,
+  "journalist b.1967; modern": 1,
+  "Arifi Pasha d.1895; post-1800": 1,
+  "al-Iryani president d.1998; modern": 1,
+  "Abdullah Goran d.1962; modern": 1,
+  "Raziye Sultan; no confirmed source on the page": 1,
+  "Egyptian princess d.2002; modern": 1,
+  "nisab term item; deferred": 1
  },
  "last_commit": "d246b7e49",
  "last_push": "2caca308e",
  "batch_current": 7,
- "updated_at": "2026-10-19T18:08:29-04:00"
+ "updated_at": "2026-10-19T18:11:25-04:00"
 }
