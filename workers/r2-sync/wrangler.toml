@@ -1,0 +1,16 @@
+name = "islam-museum-r2-sync-test"
+main = "src/index.js"
+compatibility_date = "2025-10-11"
+
+# Paid plan: the default 30 s CPU budget is raised here for zipping ~20 MB parts.
+[limits]
+cpu_ms = 120000
+
+# Dedicated test bucket. Never point this at the production search bucket.
+[[r2_buckets]]
+binding = "SYNC_BUCKET"
+bucket_name = "islam-museum-sync-test"
+
+[vars]
+# Only these prefixes may be written or deleted by an archive.
+ALLOWED_PREFIXES = "_sync-test/"
