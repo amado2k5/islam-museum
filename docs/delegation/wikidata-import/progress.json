@@ -5,7 +5,7 @@
  "candidates_file": "$HARVEST/wikidata-import/candidates.tsv",
  "candidates_query": "select distinct id from wd_claim where property='P140' and value_id='Q432' minus Wikidata ids already linked in data/, ordered by sitelink count desc",
  "linked_preexisting": 987,
- "next_index": 4960,
+ "next_index": 5060,
  "created_ids": [
   {
    "i": 24,
@@ -5273,6 +5273,81 @@
    "i": 4959,
    "qid": "Q5963182",
    "id": "person/abu-al-salah-al-halabi"
+  },
+  {
+   "i": 4961,
+   "qid": "Q6019580",
+   "id": "person/kinalizade-ali-celebi"
+  },
+  {
+   "i": 4975,
+   "qid": "Q6398757",
+   "id": "person/hindushah-al-nakhjavani"
+  },
+  {
+   "i": 4977,
+   "qid": "Q64031588",
+   "id": "person/seyyid-lokman"
+  },
+  {
+   "i": 4980,
+   "qid": "Q6407970",
+   "id": "person/abdallah-ibn-muhammad-nuqrahkar"
+  },
+  {
+   "i": 4982,
+   "qid": "Q6419135",
+   "id": "person/ibn-idris-al-hilli"
+  },
+  {
+   "i": 4990,
+   "qid": "Q6533520",
+   "id": "person/ibn-al-dayba"
+  },
+  {
+   "i": 4997,
+   "qid": "Q6743629",
+   "id": "person/malik-ibn-aws"
+  },
+  {
+   "i": 5000,
+   "qid": "Q6772446",
+   "id": "person/ribi-ibn-amir"
+  },
+  {
+   "i": 5004,
+   "qid": "Q6809600",
+   "id": "person/mehmet-emin-tokadi"
+  },
+  {
+   "i": 5005,
+   "qid": "Q6809706",
+   "id": "person/mehr-un-nissa"
+  },
+  {
+   "i": 5014,
+   "qid": "Q6933935",
+   "id": "person/muley-xeque"
+  },
+  {
+   "i": 5028,
+   "qid": "Q7429355",
+   "id": "person/abdullah-ibn-shaykh-al-aidarus"
+  },
+  {
+   "i": 5045,
+   "qid": "Q92314346",
+   "id": "person/sulayman-ibn-abd-al-wahhab"
+  },
+  {
+   "i": 5047,
+   "qid": "Q94610",
+   "id": "person/malkoc-beg"
+  },
+  {
+   "i": 5054,
+   "qid": "Q98399069",
+   "id": "person/afzal-khan-shirazi"
   }
  ],
  "linked_ids": [
@@ -8441,6 +8516,21 @@
    "i": 4835,
    "qid": "Q25453555",
    "to": "person/abdallah-ibn-yusuf-al-juwayni"
+  },
+  {
+   "i": 4988,
+   "qid": "Q6532983",
+   "to": "person/ibn-ruslan"
+  },
+  {
+   "i": 4991,
+   "qid": "Q6534962",
+   "to": "person/shihab-al-din-ibn-taymiyya"
+  },
+  {
+   "i": 4995,
+   "qid": "Q67101868",
+   "to": "person/ibn-batish"
   }
  ],
  "skipped": [
@@ -24847,9 +24937,419 @@
    4958,
    "Q5963050",
    "modern/post-1800/out-of-scope/deferred/insufficient"
+  ],
+  [
+   4960,
+   "Q5963380",
+   "modern/post-1800/out-of-scope/deferred/insufficient"
+  ],
+  [
+   4962,
+   "Q6020586",
+   "modern/post-1800/out-of-scope/deferred/insufficient"
+  ],
+  [
+   4963,
+   "Q6056382",
+   "modern/post-1800/out-of-scope/deferred/insufficient"
+  ],
+  [
+   4964,
+   "Q6058635",
+   "modern/post-1800/out-of-scope/deferred/insufficient"
+  ],
+  [
+   4965,
+   "Q6066416",
+   "modern/post-1800/out-of-scope/deferred/insufficient"
+  ],
+  [
+   4966,
+   "Q6074119",
+   "modern/post-1800/out-of-scope/deferred/insufficient"
+  ],
+  [
+   4967,
+   "Q6082578",
+   "modern/post-1800/out-of-scope/deferred/insufficient"
+  ],
+  [
+   4968,
+   "Q6090709",
+   "modern/post-1800/out-of-scope/deferred/insufficient"
+  ],
+  [
+   4969,
+   "Q6101524",
+   "modern/post-1800/out-of-scope/deferred/insufficient"
+  ],
+  [
+   4970,
+   "Q6101680",
+   "modern/post-1800/out-of-scope/deferred/insufficient"
+  ],
+  [
+   4971,
+   "Q6103601",
+   "modern/post-1800/out-of-scope/deferred/insufficient"
+  ],
+  [
+   4972,
+   "Q61740558",
+   "modern/post-1800/out-of-scope/deferred/insufficient"
+  ],
+  [
+   4973,
+   "Q631413",
+   "modern/post-1800/out-of-scope/deferred/insufficient"
+  ],
+  [
+   4974,
+   "Q6351756",
+   "modern/post-1800/out-of-scope/deferred/insufficient"
+  ],
+  [
+   4976,
+   "Q6400246",
+   "modern/post-1800/out-of-scope/deferred/insufficient"
+  ],
+  [
+   4978,
+   "Q6403412",
+   "modern/post-1800/out-of-scope/deferred/insufficient"
+  ],
+  [
+   4979,
+   "Q6405850",
+   "modern/post-1800/out-of-scope/deferred/insufficient"
+  ],
+  [
+   4981,
+   "Q6409380",
+   "modern/post-1800/out-of-scope/deferred/insufficient"
+  ],
+  [
+   4983,
+   "Q6455021",
+   "modern/post-1800/out-of-scope/deferred/insufficient"
+  ],
+  [
+   4984,
+   "Q6458601",
+   "modern/post-1800/out-of-scope/deferred/insufficient"
+  ],
+  [
+   4985,
+   "Q6464781",
+   "modern/post-1800/out-of-scope/deferred/insufficient"
+  ],
+  [
+   4986,
+   "Q64683553",
+   "modern/post-1800/out-of-scope/deferred/insufficient"
+  ],
+  [
+   4987,
+   "Q6529657",
+   "modern/post-1800/out-of-scope/deferred/insufficient"
+  ],
+  [
+   4989,
+   "Q6533166",
+   "modern/post-1800/out-of-scope/deferred/insufficient"
+  ],
+  [
+   4992,
+   "Q6538856",
+   "modern/post-1800/out-of-scope/deferred/insufficient"
+  ],
+  [
+   4993,
+   "Q6564730",
+   "modern/post-1800/out-of-scope/deferred/insufficient"
+  ],
+  [
+   4994,
+   "Q6584594",
+   "modern/post-1800/out-of-scope/deferred/insufficient"
+  ],
+  [
+   4996,
+   "Q67201596",
+   "modern/post-1800/out-of-scope/deferred/insufficient"
+  ],
+  [
+   4998,
+   "Q6748635",
+   "modern/post-1800/out-of-scope/deferred/insufficient"
+  ],
+  [
+   4999,
+   "Q676967",
+   "modern/post-1800/out-of-scope/deferred/insufficient"
+  ],
+  [
+   5001,
+   "Q6783330",
+   "modern/post-1800/out-of-scope/deferred/insufficient"
+  ],
+  [
+   5002,
+   "Q6802826",
+   "modern/post-1800/out-of-scope/deferred/insufficient"
+  ],
+  [
+   5003,
+   "Q6809537",
+   "modern/post-1800/out-of-scope/deferred/insufficient"
+  ],
+  [
+   5006,
+   "Q6814748",
+   "modern/post-1800/out-of-scope/deferred/insufficient"
+  ],
+  [
+   5007,
+   "Q6830668",
+   "modern/post-1800/out-of-scope/deferred/insufficient"
+  ],
+  [
+   5008,
+   "Q6831823",
+   "modern/post-1800/out-of-scope/deferred/insufficient"
+  ],
+  [
+   5009,
+   "Q6867498",
+   "modern/post-1800/out-of-scope/deferred/insufficient"
+  ],
+  [
+   5010,
+   "Q6874814",
+   "modern/post-1800/out-of-scope/deferred/insufficient"
+  ],
+  [
+   5011,
+   "Q6894663",
+   "modern/post-1800/out-of-scope/deferred/insufficient"
+  ],
+  [
+   5012,
+   "Q6932605",
+   "modern/post-1800/out-of-scope/deferred/insufficient"
+  ],
+  [
+   5013,
+   "Q6932726",
+   "modern/post-1800/out-of-scope/deferred/insufficient"
+  ],
+  [
+   5015,
+   "Q6967082",
+   "modern/post-1800/out-of-scope/deferred/insufficient"
+  ],
+  [
+   5016,
+   "Q6991043",
+   "modern/post-1800/out-of-scope/deferred/insufficient"
+  ],
+  [
+   5017,
+   "Q69981407",
+   "modern/post-1800/out-of-scope/deferred/insufficient"
+  ],
+  [
+   5018,
+   "Q7090173",
+   "modern/post-1800/out-of-scope/deferred/insufficient"
+  ],
+  [
+   5019,
+   "Q71920358",
+   "modern/post-1800/out-of-scope/deferred/insufficient"
+  ],
+  [
+   5020,
+   "Q7244259",
+   "modern/post-1800/out-of-scope/deferred/insufficient"
+  ],
+  [
+   5021,
+   "Q7272164",
+   "modern/post-1800/out-of-scope/deferred/insufficient"
+  ],
+  [
+   5022,
+   "Q7294930",
+   "modern/post-1800/out-of-scope/deferred/insufficient"
+  ],
+  [
+   5023,
+   "Q7294932",
+   "modern/post-1800/out-of-scope/deferred/insufficient"
+  ],
+  [
+   5024,
+   "Q7339060",
+   "modern/post-1800/out-of-scope/deferred/insufficient"
+  ],
+  [
+   5025,
+   "Q7398240",
+   "modern/post-1800/out-of-scope/deferred/insufficient"
+  ],
+  [
+   5026,
+   "Q7398857",
+   "modern/post-1800/out-of-scope/deferred/insufficient"
+  ],
+  [
+   5027,
+   "Q7404508",
+   "modern/post-1800/out-of-scope/deferred/insufficient"
+  ],
+  [
+   5029,
+   "Q7489710",
+   "modern/post-1800/out-of-scope/deferred/insufficient"
+  ],
+  [
+   5030,
+   "Q7513559",
+   "modern/post-1800/out-of-scope/deferred/insufficient"
+  ],
+  [
+   5031,
+   "Q7636761",
+   "modern/post-1800/out-of-scope/deferred/insufficient"
+  ],
+  [
+   5032,
+   "Q7660294",
+   "modern/post-1800/out-of-scope/deferred/insufficient"
+  ],
+  [
+   5033,
+   "Q7660445",
+   "modern/post-1800/out-of-scope/deferred/insufficient"
+  ],
+  [
+   5034,
+   "Q7689266",
+   "modern/post-1800/out-of-scope/deferred/insufficient"
+  ],
+  [
+   5035,
+   "Q7699796",
+   "modern/post-1800/out-of-scope/deferred/insufficient"
+  ],
+  [
+   5036,
+   "Q779375",
+   "modern/post-1800/out-of-scope/deferred/insufficient"
+  ],
+  [
+   5037,
+   "Q7853247",
+   "modern/post-1800/out-of-scope/deferred/insufficient"
+  ],
+  [
+   5038,
+   "Q7855209",
+   "modern/post-1800/out-of-scope/deferred/insufficient"
+  ],
+  [
+   5039,
+   "Q8065023",
+   "modern/post-1800/out-of-scope/deferred/insufficient"
+  ],
+  [
+   5040,
+   "Q8065788",
+   "modern/post-1800/out-of-scope/deferred/insufficient"
+  ],
+  [
+   5041,
+   "Q8080215",
+   "modern/post-1800/out-of-scope/deferred/insufficient"
+  ],
+  [
+   5042,
+   "Q90825872",
+   "modern/post-1800/out-of-scope/deferred/insufficient"
+  ],
+  [
+   5043,
+   "Q91194186",
+   "modern/post-1800/out-of-scope/deferred/insufficient"
+  ],
+  [
+   5044,
+   "Q922786",
+   "modern/post-1800/out-of-scope/deferred/insufficient"
+  ],
+  [
+   5046,
+   "Q9310644",
+   "modern/post-1800/out-of-scope/deferred/insufficient"
+  ],
+  [
+   5048,
+   "Q96108797",
+   "modern/post-1800/out-of-scope/deferred/insufficient"
+  ],
+  [
+   5049,
+   "Q97400241",
+   "modern/post-1800/out-of-scope/deferred/insufficient"
+  ],
+  [
+   5050,
+   "Q97496107",
+   "modern/post-1800/out-of-scope/deferred/insufficient"
+  ],
+  [
+   5051,
+   "Q97682670",
+   "modern/post-1800/out-of-scope/deferred/insufficient"
+  ],
+  [
+   5052,
+   "Q97818665",
+   "modern/post-1800/out-of-scope/deferred/insufficient"
+  ],
+  [
+   5053,
+   "Q97952904",
+   "modern/post-1800/out-of-scope/deferred/insufficient"
+  ],
+  [
+   5055,
+   "Q98460120",
+   "modern/post-1800/out-of-scope/deferred/insufficient"
+  ],
+  [
+   5056,
+   "Q99540064",
+   "modern/post-1800/out-of-scope/deferred/insufficient"
+  ],
+  [
+   5057,
+   "Q100152453",
+   "modern/post-1800/out-of-scope/deferred/insufficient"
+  ],
+  [
+   5058,
+   "Q100234984",
+   "modern/post-1800/out-of-scope/deferred/insufficient"
+  ],
+  [
+   5059,
+   "Q100432774",
+   "modern/post-1800/out-of-scope/deferred/insufficient"
   ]
  ],
- "skipped_total": 3284,
+ "skipped_total": 3366,
  "skipped_by_reason": {
   "modern sovereign state; no matching record (al-Hind region is a different entity)": 1,
   "modern sovereign state; no matching record": 8,
@@ -26623,11 +27123,11 @@
   "Ankara mosque; deferred": 1,
   "modern/post-1800/out-of-scope/insufficient": 70,
   "modern/post-1800/out-of-scope/mosque-deferred/insufficient": 152,
-  "modern/post-1800/out-of-scope/deferred/insufficient": 1105,
+  "modern/post-1800/out-of-scope/deferred/insufficient": 1187,
   "alternate Wikidata item; Q11903928 already linked to person/abu-al-baqa-khalid-hafsid": 1
  },
  "last_commit": "d6d413304",
  "last_push": "b35a3b40c",
  "batch_current": 7,
- "updated_at": "2026-10-19T19:44:28-04:00"
+ "updated_at": "2026-10-19T19:46:37-04:00"
 }
