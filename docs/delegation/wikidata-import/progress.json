@@ -5,7 +5,7 @@
  "candidates_file": "$HARVEST/wikidata-import/candidates.tsv",
  "candidates_query": "select distinct id from wd_claim where property='P140' and value_id='Q432' minus Wikidata ids already linked in data/, ordered by sitelink count desc",
  "linked_preexisting": 987,
- "next_index": 160,
+ "next_index": 260,
  "created_ids": [
   {
    "i": 24,
@@ -86,6 +86,96 @@
    "i": 143,
    "qid": "Q83653",
    "id": "person/jahangir-mughal"
+  },
+  {
+   "i": 160,
+   "qid": "Q188711",
+   "id": "group/sahaba"
+  },
+  {
+   "i": 162,
+   "qid": "Q192868",
+   "id": "person/nadir-shah-afshar"
+  },
+  {
+   "i": 183,
+   "qid": "Q172056",
+   "id": "person/uthman-ii-uthmani"
+  },
+  {
+   "i": 184,
+   "qid": "Q180688",
+   "id": "group/badw"
+  },
+  {
+   "i": 185,
+   "qid": "Q193163",
+   "id": "building/al-haram-al-sharif"
+  },
+  {
+   "i": 187,
+   "qid": "Q114749",
+   "id": "person/ahmad-i-uthmani"
+  },
+  {
+   "i": 189,
+   "qid": "Q168769",
+   "id": "person/mehmed-i-uthmani"
+  },
+  {
+   "i": 190,
+   "qid": "Q174762",
+   "id": "person/murad-iv-uthmani"
+  },
+  {
+   "i": 194,
+   "qid": "Q46798",
+   "id": "person/ahmad-shah-durrani"
+  },
+  {
+   "i": 200,
+   "qid": "Q174798",
+   "id": "person/mustafa-i-uthmani"
+  },
+  {
+   "i": 207,
+   "qid": "Q503340",
+   "id": "person/alishir-navai"
+  },
+  {
+   "i": 218,
+   "qid": "Q179293",
+   "id": "polity/castile"
+  },
+  {
+   "i": 225,
+   "qid": "Q378014",
+   "id": "building/qarawiyyin"
+  },
+  {
+   "i": 229,
+   "qid": "Q199825",
+   "id": "person/uthman-iii-uthmani"
+  },
+  {
+   "i": 236,
+   "qid": "Q10088",
+   "id": "person/tipu-sultan-mysuri"
+  },
+  {
+   "i": 239,
+   "qid": "Q69351",
+   "id": "person/muhammad-ibn-abd-al-wahhab"
+  },
+  {
+   "i": 242,
+   "qid": "Q202308",
+   "id": "person/evliya-celebi"
+  },
+  {
+   "i": 245,
+   "qid": "Q187715",
+   "id": "group/hashashin"
   }
  ],
  "linked_ids": [
@@ -321,6 +411,126 @@
    "i": 96,
    "qid": "Q42034",
    "to": "person/khadija"
+  },
+  {
+   "i": 165,
+   "qid": "Q486088",
+   "to": "person/ulugh-beg"
+  },
+  {
+   "i": 167,
+   "qid": "Q200582",
+   "to": "person/khayr-al-din-barbarossa"
+  },
+  {
+   "i": 175,
+   "qid": "Q51664",
+   "to": "person/isa-ibn-maryam"
+  },
+  {
+   "i": 178,
+   "qid": "Q199633",
+   "to": "person/selim-iii-uthmani"
+  },
+  {
+   "i": 180,
+   "qid": "Q151500",
+   "to": "person/abd-al-aziz-uthmani"
+  },
+  {
+   "i": 181,
+   "qid": "Q170046",
+   "to": "person/jafar-al-sadiq"
+  },
+  {
+   "i": 182,
+   "qid": "Q171465",
+   "to": "person/mehmed-iii-uthmani"
+  },
+  {
+   "i": 197,
+   "qid": "Q151494",
+   "to": "person/muhammad-v-rashad"
+  },
+  {
+   "i": 198,
+   "qid": "Q36788",
+   "to": "person/abd-al-malik-ibn-marwan"
+  },
+  {
+   "i": 199,
+   "qid": "Q170707",
+   "to": "person/abd-al-hamid-i-uthmani"
+  },
+  {
+   "i": 205,
+   "qid": "Q298403",
+   "to": "person/umar-ibn-abd-al-aziz"
+  },
+  {
+   "i": 208,
+   "qid": "Q140124",
+   "to": "person/muslim-ibn-al-hajjaj"
+  },
+  {
+   "i": 210,
+   "qid": "Q199481",
+   "to": "person/mahmud-i-uthmani"
+  },
+  {
+   "i": 215,
+   "qid": "Q192124",
+   "to": "person/al-tabari"
+  },
+  {
+   "i": 221,
+   "qid": "Q199660",
+   "to": "person/ahmad-ii-uthmani"
+  },
+  {
+   "i": 222,
+   "qid": "Q200193",
+   "to": "person/alp-arslan"
+  },
+  {
+   "i": 223,
+   "qid": "Q233387",
+   "to": "group/hanbali-madhhab"
+  },
+  {
+   "i": 231,
+   "qid": "Q228986",
+   "to": "group/hanafi-madhhab"
+  },
+  {
+   "i": 241,
+   "qid": "Q172862",
+   "to": "person/al-hallaj"
+  },
+  {
+   "i": 249,
+   "qid": "Q230497",
+   "to": "person/tariq-ibn-ziyad"
+  },
+  {
+   "i": 253,
+   "qid": "Q8245340",
+   "to": "concept/iman"
+  },
+  {
+   "i": 257,
+   "qid": "Q217915",
+   "to": "person/pir-reis-ahmad-ibn-muhyi-al-din"
+  },
+  {
+   "i": 158,
+   "qid": "Q174791",
+   "to": "person/mahmud-ii-uthmani"
+  },
+  {
+   "i": 201,
+   "qid": "Q199482",
+   "to": "person/ahmed-iii-uthmani"
   }
  ],
  "skipped": [
@@ -810,17 +1020,307 @@
    "title term; no matching record"
   ],
   [
-   158,
-   "Q174791",
-   "Ottoman sultan d.1839, post-1800; no matching record"
-  ],
-  [
    159,
    "Q183187",
    "modern king d.2005"
+  ],
+  [
+   161,
+   "Q190168",
+   "Yoruba people; no confirmed source covering them"
+  ],
+  [
+   163,
+   "Q200029",
+   "modern Afghan commander d.2001"
+  ],
+  [
+   164,
+   "Q2821166",
+   "modern president b.1945"
+  ],
+  [
+   166,
+   "Q643348",
+   "modern politician d.2000"
+  ],
+  [
+   168,
+   "Q57413",
+   "modern president b.1942"
+  ],
+  [
+   169,
+   "Q142702",
+   "Malays as an ethnic group not confirmed in cited sources; deferred"
+  ],
+  [
+   170,
+   "Q151735",
+   "modern president d.1986"
+  ],
+  [
+   171,
+   "Q16193885",
+   "modern president b.1960"
+  ],
+  [
+   172,
+   "Q172083",
+   "modern politician d.2009"
+  ],
+  [
+   173,
+   "Q1855372",
+   "modern emir b.1980"
+  ],
+  [
+   174,
+   "Q200678",
+   "modern queen consort b.1970"
+  ],
+  [
+   176,
+   "Q106974",
+   "Ossetians; no confirmed source"
+  ],
+  [
+   177,
+   "Q184402",
+   "title term; no matching record"
+  ],
+  [
+   179,
+   "Q2107268",
+   "modern president b.1951"
+  ],
+  [
+   186,
+   "Q24692",
+   "modern president b.1956"
+  ],
+  [
+   188,
+   "Q115473",
+   "Hazaras; no confirmed source covering them"
+  ],
+  [
+   191,
+   "Q174772",
+   "Ottoman sultan d.1861, post-1800; no matching record"
+  ],
+  [
+   192,
+   "Q212695",
+   "greeting term; no matching record"
+  ],
+  [
+   193,
+   "Q375774",
+   "Aceh sultan; source coverage uncertain, deferred"
+  ],
+  [
+   195,
+   "Q485010",
+   "Ingush; no confirmed source"
+  ],
+  [
+   196,
+   "Q863496",
+   "modern prime minister b.1955"
+  ],
+  [
+   202,
+   "Q212486",
+   "modern king d.1933; no matching record"
+  ],
+  [
+   203,
+   "Q192780",
+   "modern ruler d.1951"
+  ],
+  [
+   204,
+   "Q214475",
+   "modern activist b.1969"
+  ],
+  [
+   209,
+   "Q193354",
+   "modern Chechen warlord d.2005"
+  ],
+  [
+   211,
+   "Q313539",
+   "modern politician d.2019"
+  ],
+  [
+   212,
+   "Q57306",
+   "modern politician d.2017"
+  ],
+  [
+   213,
+   "Q57555",
+   "modern emir d.2020"
+  ],
+  [
+   214,
+   "Q190071",
+   "modern president d.1974"
+  ],
+  [
+   216,
+   "Q192604",
+   "Balkars; no confirmed source"
+  ],
+  [
+   217,
+   "Q244206",
+   "modern king d.1969"
+  ],
+  [
+   219,
+   "Q185992",
+   "title/office term; no matching record"
+  ],
+  [
+   220,
+   "Q192778",
+   "modern prime minister d.2005"
+  ],
+  [
+   224,
+   "Q3246667",
+   "modern president b.1944"
+  ],
+  [
+   226,
+   "Q83875",
+   "99 names of God; needs a doctrine-source check, deferred"
+  ],
+  [
+   227,
+   "Q1035516",
+   "Cumans vs the Islamic-source Qipchaq identity uncertain; deferred"
+  ],
+  [
+   228,
+   "Q14499",
+   "modern Indonesian city; no matching record"
+  ],
+  [
+   230,
+   "Q208301",
+   "modern king d.1982"
+  ],
+  [
+   232,
+   "Q273866",
+   "modern president d.2021"
+  ],
+  [
+   233,
+   "Q313357",
+   "modern president d.1987"
+  ],
+  [
+   234,
+   "Q334871",
+   "modern figure b.1960"
+  ],
+  [
+   235,
+   "Q57480",
+   "modern president"
+  ],
+  [
+   237,
+   "Q199830",
+   "Ottoman sultan d.1808, post-1800; no matching record"
+  ],
+  [
+   238,
+   "Q234814",
+   "modern prime minister d.2025"
+  ],
+  [
+   240,
+   "Q842931",
+   "former modern province; no matching record"
+  ],
+  [
+   243,
+   "Q210583",
+   "garment item; no matching record"
+  ],
+  [
+   244,
+   "Q158500",
+   "modern president d.1982"
+  ],
+  [
+   246,
+   "Q188942",
+   "title term; no matching record"
+  ],
+  [
+   247,
+   "Q202650",
+   "modern Rif leader d.1963"
+  ],
+  [
+   248,
+   "Q211379",
+   "modern theorist d.1966; check for existing record separately"
+  ],
+  [
+   250,
+   "Q333981",
+   "modern president d.1980"
+  ],
+  [
+   251,
+   "Q334242",
+   "modern filmmaker b.1972"
+  ],
+  [
+   252,
+   "Q60699",
+   "modern king d.1961"
+  ],
+  [
+   254,
+   "Q190731",
+   "modern militant d.2006"
+  ],
+  [
+   255,
+   "Q1951896",
+   "modern president b.1961"
+  ],
+  [
+   256,
+   "Q209928",
+   "'madhhab' term entity; no matching record, deferred"
+  ],
+  [
+   258,
+   "Q295713",
+   "modern prime minister d.1951"
+  ],
+  [
+   259,
+   "Q296771",
+   "modern politician b.1970"
+  ],
+  [
+   206,
+   "Q45646",
+   "present: record already links the caliphate item Q8575586; candidate is the distinct dynasty item"
   ]
  ],
- "skipped_total": 99,
+ "skipped_total": 157,
  "skipped_by_reason": {
   "modern sovereign state; no matching record (al-Hind region is a different entity)": 1,
   "modern sovereign state; no matching record": 8,
@@ -854,7 +1354,7 @@
   "modern singer d.1975; ar label hits are different Umm Kulthums (Companions)": 1,
   "generic title term; no matching record": 1,
   "archangel entity fits no existing record/class decision; deferred": 1,
-  "modern president d.2021": 2,
+  "modern president d.2021": 3,
   "generic office item; imama is the Shi'i doctrine and imam-masjid the prayer leader — no exact match": 1,
   "modern-era sultan d.1918; abd-al-hamid-i-uthmani is a different sultan": 1,
   "no link to Islamic history; P140 claim incidental": 1,
@@ -908,12 +1408,67 @@
   "modern poet d.1963": 1,
   "honorific title term; no matching record": 1,
   "modern mandate polity; no matching record": 1,
-  "title term; no matching record": 1,
-  "Ottoman sultan d.1839, post-1800; no matching record": 1,
-  "modern king d.2005": 1
+  "title term; no matching record": 3,
+  "modern king d.2005": 1,
+  "Yoruba people; no confirmed source covering them": 1,
+  "modern Afghan commander d.2001": 1,
+  "modern president b.1945": 1,
+  "modern politician d.2000": 1,
+  "modern president b.1942": 1,
+  "Malays as an ethnic group not confirmed in cited sources; deferred": 1,
+  "modern president d.1986": 1,
+  "modern president b.1960": 1,
+  "modern politician d.2009": 1,
+  "modern emir b.1980": 1,
+  "modern queen consort b.1970": 1,
+  "Ossetians; no confirmed source": 1,
+  "modern president b.1951": 1,
+  "modern president b.1956": 1,
+  "Hazaras; no confirmed source covering them": 1,
+  "Ottoman sultan d.1861, post-1800; no matching record": 1,
+  "greeting term; no matching record": 1,
+  "Aceh sultan; source coverage uncertain, deferred": 1,
+  "Ingush; no confirmed source": 1,
+  "modern prime minister b.1955": 1,
+  "modern king d.1933; no matching record": 1,
+  "modern ruler d.1951": 1,
+  "modern activist b.1969": 1,
+  "modern Chechen warlord d.2005": 1,
+  "modern politician d.2019": 1,
+  "modern politician d.2017": 1,
+  "modern emir d.2020": 1,
+  "modern president d.1974": 1,
+  "Balkars; no confirmed source": 1,
+  "modern king d.1969": 1,
+  "title/office term; no matching record": 1,
+  "modern prime minister d.2005": 1,
+  "modern president b.1944": 1,
+  "99 names of God; needs a doctrine-source check, deferred": 1,
+  "Cumans vs the Islamic-source Qipchaq identity uncertain; deferred": 1,
+  "modern Indonesian city; no matching record": 1,
+  "modern king d.1982": 1,
+  "modern president d.1987": 1,
+  "modern figure b.1960": 1,
+  "modern president": 1,
+  "Ottoman sultan d.1808, post-1800; no matching record": 1,
+  "modern prime minister d.2025": 1,
+  "former modern province; no matching record": 1,
+  "garment item; no matching record": 1,
+  "modern president d.1982": 1,
+  "modern Rif leader d.1963": 1,
+  "modern theorist d.1966; check for existing record separately": 1,
+  "modern president d.1980": 1,
+  "modern filmmaker b.1972": 1,
+  "modern king d.1961": 1,
+  "modern militant d.2006": 1,
+  "modern president b.1961": 1,
+  "'madhhab' term entity; no matching record, deferred": 1,
+  "modern prime minister d.1951": 1,
+  "modern politician b.1970": 1,
+  "present": 1
  },
- "last_commit": null,
+ "last_commit": "8e4bed7c4",
  "last_push": null,
- "batch_current": 1,
- "updated_at": "2026-10-19T16:41:52-04:00"
+ "batch_current": 2,
+ "updated_at": "2026-10-19T16:50:38"
 }

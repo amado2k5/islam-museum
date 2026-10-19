@@ -1,0 +1,30 @@
+id: building/al-haram-al-sharif
+class: building
+kind: shrine
+label:
+  ar: "الحرم القدسي الشريف"
+  en: "al-Haram al-Sharif (the Temple Mount esplanade)"
+summary:
+  ar: "بطاقة أولية للحرم القدسي الشريف، صحن المسجد الأقصى وقبة الصخرة وقبابه وأروقته في القدس، ورد في وصف مرجعي مفتوح (ويكي البيانات). وصفه المقدسي في أحسن التقاسيم، ولم تُراجع تفاصيله على الصفحة بعد."
+  en: "Draft card for al-Haram al-Sharif, the Jerusalem sanctuary esplanade holding the Aqsa mosque, the Dome of the Rock and its domes and arcades, named from an open reference description (Wikidata); al-Muqaddasi describes it in Ahsan al-Taqasim but the details are not yet checked on the page."
+wings: [objects]
+regions: [levant-iraq]
+coordinates:
+  - 31.7778
+  - 35.2356
+relations:
+  - type: located_in
+    target: place/jerusalem
+    sources: [source/wikidata]
+sources: [source/ahsan-al-taqasim, source/wikidata]
+external_ids:
+  wikidata: Q193163
+provenance:
+  layer: own-research
+  source: "Wikidata Q193163 (religion claim Islam; coordinates from P625); book source: al-Muqaddasi, Ahsan al-Taqasim — description not yet read on the page"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-0003
+status:
+  review: draft
+  completeness: 1
