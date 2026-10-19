@@ -1,0 +1,27 @@
+id: person/ibn-shuayb-al-siqilli
+class: person
+label: { ar: "ابن شعيب الصقلي", en: "Ibn Shu'ayb al-Siqilli" }
+names:
+  - { value: "ابن شعيب الإمام جمال الدين أحمد بن عبد الله بن شعيب التميمي الصقلي ثم الدمشقي المقريء الأديب الذهبي", kind: full }
+born: { edtf: "1194", hijri: "0590", calendar: julian, precision: year, status: tradition, derived: true, note: "ولد سنة تسعين وخمسمائة {cite:shadharat-dhahab p. 548}." }
+died: { edtf: "1266-03~", hijri: "0664-05", calendar: julian, precision: month, status: tradition, derived: true, note: "توفي في جمادى الأولى سنة أربع وستين وستمائة {cite:shadharat-dhahab p. 548}." }
+summary:
+  ar: "المقريء الأديب؛ لزم السخاوي مدة وأتقن القراءات وسمع من القاسم بن عساكر وطائفة وقرأ الكثير على السخاوي وطبقته؛ توفي في جمادى الأولى قاله في العبر {cite:shadharat-dhahab p. 548}."
+  en: "The Sicilian muqri'-adib transplanted to Damascus (b. 590) — al-Sakhawi's companion, master of the readings; d. Jumada I 664 {cite:shadharat-dhahab p. 548}."
+gender: male
+roles: [muqri, scholar]
+wings: [people]
+periods: [period/crusades-ayyubid-mamluk]
+regions: [levant-iraq, andalus-europe]
+faith:
+  - value: sunni
+    basis: tradition
+relations:
+  - { type: died_in, target: place/damascus, sources: [source/shadharat-dhahab] }
+sources: [source/shadharat-dhahab]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }
+provenance:
+  layer: own-research
+  source: "شذرات الذهب — ابن العماد (ج7، سنة 664)، قراءة آبل فيجن"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-shadharat-batch-131

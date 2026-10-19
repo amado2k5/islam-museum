@@ -1,0 +1,28 @@
+id: person/al-malik-al-mansur-ibn-shirkuh
+class: person
+label: { ar: "الملك المنصور ابن شيركوه", en: "al-Malik al-Mansur b. Shirkuh" }
+names:
+  - { value: "الملك المنصور إبراهيم بن المجاهد أسد الدين شيركوه بن محمد", kind: full }
+died: { edtf: "1246-07~", hijri: "0644-02-11~", calendar: julian, precision: day, status: tradition, derived: true, note: "مرض بدمشق ببستان الملك الأشرف بالنيرب ومات في حادي عشر صفر سنة أربع وأربعين وستمائة وحمل تابوته إلى حمص فدفن عند أبيه {cite:shadharat-dhahab p. 237}." }
+summary:
+  ar: "ابن أسد الدين شيركوه صاحب حمص؛ كان عازماً على أخذ دمشق ففجأه الموت ببستان الملك الأشرف بالنيرب في صفر سنة أربع وأربعين وستمائة، وحمل تابوته إلى حمص فدفن عند أبيه، وقام بعده بحمص ولده الملك الأشرف موسى {cite:shadharat-dhahab p. 237}."
+  en: "Asad al-Din Shirkuh's son (d. 11 Safar 644) — fell ill at al-Ashraf's Nirab estate outside Damascus while planning to take the city; his coffin was carried to Homs and his son al-Ashraf Musa succeeded {cite:shadharat-dhahab p. 237}."
+gender: male
+roles: [emir]
+wings: [people]
+periods: [period/crusades-ayyubid-mamluk]
+regions: [levant-iraq]
+faith:
+  - value: sunni
+    basis: tradition
+relations:
+  - { type: child_of, target: person/asad-al-din-shirkuh-homs, sources: [source/shadharat-dhahab] }
+  - { type: died_in, target: place/damascus, sources: [source/shadharat-dhahab] }
+  - { type: buried_in, target: place/homs, sources: [source/shadharat-dhahab] }
+sources: [source/shadharat-dhahab]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }
+provenance:
+  layer: own-research
+  source: "شذرات الذهب — ابن العماد (ج5، سنة 644)، قراءة آبل فيجن"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-shadharat-batch-127

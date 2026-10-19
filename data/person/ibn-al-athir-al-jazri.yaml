@@ -10,7 +10,7 @@ gender: male
 roles: [scholar, muhaddith]
 traditions: [sunni]
 born: { edtf: "1149", hijri: "0544", calendar: julian, precision: year, status: tradition, sources: [source/mawsuat-a3lam-ulama-adaba] }
-died: { edtf: "1210", hijri: "0606", calendar: julian, precision: year, status: tradition, sources: [source/mawsuat-a3lam-ulama-adaba] }
+died: { edtf: "1210-12~", hijri: "0606-12", calendar: julian, precision: month, status: tradition, derived: true, note: "توفي آخر يوم من سنة ست وستمائة برباطه في قرية من قرى الموصل ودفن به {cite:shadharat-dhahab p. 30}؛ التحويل مشتق.", sources: [source/mawsuat-a3lam-ulama-adaba, source/shadharat-dhahab] }
 summary:
   ar: "المحدث والفقيه مجد الدين أبو السعادات المبارك بن محمد الجزري الشيباني؛ أكبر أخوة ابن الأثير الثلاثة، عمل بدواوين الجزيرة والموصل وأصابه النقرس فأقعده فأنجز أكثر مؤلفاته إملاءً على طلابه، ومن آثاره «النهاية في غريب الحديث والأثر» و«جامع الأصول من أحاديث الرسول»."
   en: "The hadith scholar and jurist Majd al-Din Abu al-Sa'adat al-Mubarak ibn Muhammad al-Jazari al-Shaybani, the eldest of the three Ibn al-Athir brothers; he served the chanceries of the Jazira and Mosul, and after gout crippled him he produced most of his works by dictation, among them 'al-Nihaya fi Gharib al-Hadith' and 'Jami' al-Usul'."
@@ -30,6 +30,6 @@ relations:
   - { type: authored, target: work/al-lubab-fil-ansab, sources: [source/kashf-zunun-furqan] }
   - { type: sibling_of, target: person/ibn-al-athir-izz-al-din, sources: [source/mawsuat-a3lam-ulama-adaba] }
   - { type: sibling_of, target: person/ibn-al-athir-diya-al-din, sources: [source/mawsuat-a3lam-ulama-adaba] }
-sources: [source/mawsuat-a3lam-ulama-adaba]
+sources: [source/mawsuat-a3lam-ulama-adaba, source/shadharat-dhahab]
 status: { review: draft, completeness: 1, generated_by: "Devin; Mawsuat A'lam vol 1 pp. 266-269, lib-mawsuat-a3lam" }
 provenance: { layer: own-research, source: "موسوعة أعلام العلماء والأدباء (أليكسو/دار الجيل 2004) ج1 ص267-269", generated_by: "Devin", model: "SWE-2 High", run: "lib-mawsuat-a3lam" }

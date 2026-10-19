@@ -1,0 +1,26 @@
+id: event/normans-take-tripoli-541
+class: event
+kind: conquest
+label: { ar: "الفرنج يأخذون طرابلس المغرب سنة 541" }
+summary:
+  ar: "في سنة إحدى وأربعين وخمسمائة أخذت الفرنج طرابلس المغرب بالسيف ثم عمروها؛ وفي سنة ثلاث وأربعين استغل رجال صاحب صقلية شدة القحط بإفريقية فأقبلوا في مائتين وخمسين مركباً فهرب منهم صاحب المهدية فأخذوها بلا ضربة ولا طعنة وصار للفرنج من طرابلس المغرب إلى قريب تونس {cite:shadharat-dhahab p. 608, 615}."
+  en: "In 541 the Franks took Tripoli of the Maghreb by the sword and then settled it; and in 543, exploiting the famine in Ifriqiya, the men of Sicily's ruler came with two hundred and fifty ships — the lord of al-Mahdiyya fled and they took it without a blow or a thrust, so the Franks held the coast from Tripoli to near Tunis {cite:shadharat-dhahab p. 608, 615}."
+wings: [time]
+periods: [period/crusades-ayyubid-mamluk]
+regions: [maghreb]
+date:
+  start: { edtf: "1146~", hijri: "0541", calendar: julian, precision: year, status: tradition, derived: true, note: "سنة 541؛ التحويل مشتق {cite:shadharat-dhahab p. 608}." }
+sides:
+  - label: { ar: "فرنج صقلية" }
+    commanders: [person/roger-of-sicily]
+  - label: { ar: "أهل طرابلس المغرب" }
+relations:
+  - { type: occurred_at, target: place/tarabulus-gharb, sources: [source/shadharat-dhahab] }
+  - { type: had_participant, target: person/roger-of-sicily, role: "ملك الفرنج صاحب صقلية", sources: [source/shadharat-dhahab] }
+provenance:
+  layer: own-research
+  source: "شذرات الذهب لابن العماد — الجزء الرابع، ممسوح مكتبة الحصاد (AAlexandrina-223861)، قراءة آبل فيجن"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-shadharat-batch-116
+sources: [source/shadharat-dhahab]
+status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 High)" }

@@ -1,0 +1,26 @@
+id: person/al-harimi-abu-mansur
+class: person
+label: { ar: "أبو منصور الحريمي", en: "Abu Mansur al-Harimi" }
+names:
+  - { value: "أبو منصور عبد الله بن محمد بن أبي محمد بن الوليد البغدادي الحريمي الحنبلي", kind: full }
+died: { edtf: "1245-09~", hijri: "0643-05-03~", calendar: julian, precision: day, status: tradition, derived: true, note: "توفي ببغداد في ثالث جمادى الأولى سنة ثلاث وأربعين وستمائة {cite:shadharat-dhahab p. 227}." }
+summary:
+  ar: "الحافظ المحدث الحنبلي؛ سمع الكثير ببغداد من ابن الأخضر وغيره وبحران من الرهاوي الحافظ وبحلب وبدمشق من أبي اليمن الكندي؛ قال ابن نقطة سمع بالشام وبلاد الجزيرة وقرأ الكثير؛ وقال ابن رجب له تاريخ كبير وفوائد وأجزاء ورسائل إلى السامري صاحب المستوعب ينكر عليه؛ وذكر ابن الساعي أن المستنصر بالله لما بنى مدرسته رتب بدار الحديث بها شيخين أحدهما أبو منصور هذا والثاني ابن النجار الشافعي صاحب التاريخ {cite:shadharat-dhahab p. 227}."
+  en: "The Hanbali hafiz (d. 3 Jumada I 643, Baghdad) — one of the two hadith shaykhs al-Mustansir appointed to his madrasa's dar al-hadith, the other being Ibn al-Najjar; Ibn Rajab credits him with a large Tarikh and pamphlets against the Samiri author of al-Mustaw'ab {cite:shadharat-dhahab p. 227}."
+gender: male
+roles: [scholar, muhaddith, historian]
+wings: [people]
+periods: [period/crusades-ayyubid-mamluk]
+regions: [levant-iraq]
+faith:
+  - value: sunni-hanbali
+    basis: tradition
+relations:
+  - { type: died_in, target: place/baghdad, sources: [source/shadharat-dhahab] }
+sources: [source/shadharat-dhahab]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }
+provenance:
+  layer: own-research
+  source: "شذرات الذهب — ابن العماد (ج5، سنة 643)، قراءة آبل فيجن"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-shadharat-batch-127

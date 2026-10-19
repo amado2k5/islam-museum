@@ -1,0 +1,23 @@
+id: person/muhyi-al-din-ibn-fadlan
+class: person
+label: { ar: "محيي الدين ابن فضلان", en: "Muhyi al-Din Ibn Fadlan" }
+names:
+  - { value: "قاضي القضاة أبو عبد الله محمد بن يحيى بن علي بن الفضل البغدادي الشافعي", kind: full }
+died: { edtf: "1234", hijri: "0631", calendar: julian, precision: month, status: tradition, derived: true, note: "توفي بعد أشهر من تدريسه بالمستنصرية في شوال سنة إحدى وثلاثين وستمائة عن بضع وستين سنة {cite:shadharat-dhahab p. 147}." }
+summary:
+  ar: "قاضي القضاة الشافعي، مدرس المستنصرية؛ تفقه على والده العلامة أبي القاسم وبرع في المذهب والأصول والخلاف والنظر، وولي القضاء في آخر أيام الناصر فلما استخلف الظاهر عزله بعد شهرين، ورحل إلى خراسان وناظر علماءها وولي تدريس النظامية ببغداد ثم ولي قضاء القضاة ثم عزل، ودرس بالمستنصرية عند كمال عمارتها في رجب سنة إحدى وثلاثين وهو أول من درس بها؛ كان موصوفاً بحسن المناظرة سماحاً وجوداً ونبلاً {cite:shadharat-dhahab p. 146-147}."
+  en: "Muhyi al-Din Ibn Fadlan (d. 631) — Shafi'i qadi al-qudat of Baghdad and the very first lecturer of the new Mustansiriyya (Rajab 631); a noted debater, generous and noble, he died months later {cite:shadharat-dhahab p. 146-147}."
+gender: male
+roles: [qadi, scholar]
+wings: [people]
+periods: [period/crusades-ayyubid-mamluk]
+regions: [levant-iraq]
+relations:
+  - { type: died_in, target: place/baghdad, sources: [source/shadharat-dhahab] }
+sources: [source/shadharat-dhahab]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }
+provenance:
+  layer: own-research
+  source: "شذرات الذهب — ابن العماد (ج5، سنة 631)، قراءة آبل فيجن"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-shadharat-batch-125

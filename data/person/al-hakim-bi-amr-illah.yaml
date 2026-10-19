@@ -3,7 +3,8 @@ class: person
 label: { ar: "الحاكم بأمر الله أحمد القبي" }
 summary:
   ar: "ثاني خلفاء القاهرة [٦٦١–٧٠١هـ]، أبو العباس أحمد بن أبي علي الحسن القبي ابن علي بن أبي بكر ابن المسترشد، اختفى وقت أخذ بغداد ونجا فقصد حسين بن فلاح أمير بني خفاجة ثم الأمير عيسى بن مهنأ فأرسل المظفر في طلبه قليج البغدادي فبايع بالخلافة وافتتح عانة والحديثة وهيت والأنبار وصاف التتار وانتصر عليهم ثم أقام بحلب خليفة رتبته أميرها أقوش وبايعه عبد الحليم بن تيمية وجمع من أهلها، فلما عدم المستنصر قدم إلى مصر فتولى الخلافة إلى أن توفي ليلة الجمعة ثامن عشر جمادى الأولى سنة إحدى وسبع مئة ودفن بقرب السيدة نفيسة وهو أول من دفن منهم هناك واستمر مدفنهم إلى الآن وعهد بالخلافة لولده سليمان المستكفي {cite:tarikh-khulafa-minhaj-1434 p. 725,731}."
-  en: "Second Cairo caliph [661–701], of al-Mustarshid's line — he escaped the sack to the Arabs, fought the Tatars at Ana, Haditha, Hit and Anbar, reigned first at Aleppo where Abd al-Halim ibn Taymiyya swore him, then ruled Cairo forty years, first Abbasid buried by Sayyida Nafisa {cite:tarikh-khulafa-minhaj-1434 p. 725,731}."
+  en: "Second Cairo caliph [661–701], of al-Mustarshid's line — he escaped the sack to the Arabs, fought the Tatars at Ana, Haditha, Hit and Anbar, reigned first at Aleppo where Abd al-Halim ibn Taymiyya swore him, then ruled Cairo forty years, first Abbasid buried by Sayyida Nafisa {cite:tarikh-khulafa-minhaj-1434 p. 725,731}. At his Cairo bay'a on 8 Muharram 661 Baybars extended his hand and swore first, then the notables, and al-Hakim invested Baybars with the sultanate; next day's khutba opened 'Praise God who raised for the Abbasid house a pillar and a backer' — and the caliph was sequestered at the Citadel of the Mountain in 663 {cite:shadharat-dhahab p. 528-529, 542}."
+died: { edtf: "1302-01~", hijri: "0701-05-18~", calendar: julian, precision: day, status: tradition, derived: true, note: "توفي ليلة الجمعة ثامن عشر جمادى الأولى سنة إحدى وسبع مئة {cite:tarikh-khulafa-minhaj-1434 p. 731}." }
 gender: male
 wings: [people]
 periods: [period/mongol-post-mongol]
@@ -12,5 +13,7 @@ provenance:
   source: "تاريخ الخلفاء للسيوطي (ط المنهاج 1434هـ/2013م) ص 723–734"
   generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
   run: lib-tarikh-khulafa-batch-47
-sources: [source/tarikh-khulafa-minhaj-1434]
+relations:
+  - { type: participated_in, target: event/cairo-caliphate-baya-659, role: "الخليفة بعد المستنصر — بيعته بمصر ثامن المحرم 661", sources: [source/shadharat-dhahab] }
+sources: [source/shadharat-dhahab, source/tarikh-khulafa-minhaj-1434]
 status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

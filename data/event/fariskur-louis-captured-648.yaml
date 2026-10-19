@@ -1,0 +1,24 @@
+id: event/fariskur-louis-captured-648
+class: event
+kind: battle
+label: { ar: "أسر لويس التاسع قرب المنصورة سنة 648هـ", en: "Louis IX captured near Mansura, 648" }
+summary:
+  ar: "استهلت سنة ثمان وأربعين وستمائة والفرنج على المنصورة والمسلمون بازائهم مستظهرون لانقطاع الميرة عن الفرنج ووقوع المرض في خيلهم؛ ثم عزم ملكهم الفرنسيس على المسير ليلاً إلى دمياط ففطن المسلمون، وكان الفرنج قد عملوا جسراً على النيل فنسوا قطعة فعبر عليها الناس وأحدقوا بهم؛ فاجتمع إلى الفرنسيس خمسمائة فارس من أبطاله فحملوا على المسلمين حملة واحدة ففرّج لهم المسلمون فلما صاروا في وسطهم أطبقوا عليهم فلم ينجُ منهم أحد، وأمسك الفرنسيس أسرة سيف الدين القيمري باني المارستان بصالحية دمشق؛ قال سعد الدين بن هموية كانت الأسرى نيفاً وعشرين ألفاً فيهم ملوك وكبار وكانت القتلى سبعة آلاف واستشهد من المسلمين نحو مائتي نفس؛ وخلع الملك المعظم على كبار الفرنج خمسين خلعة فامتنع الفرنسيس من لبسها وقال أنا مملكتي بقدر مملكة صاحب مصر كيف ألبس خلعته؛ واعتقل بالمنصورة وذلك في أول يوم من المحرم {cite:shadharat-dhahab p. 247-248}."
+  en: "At the year's opening (Muharram 648) the Franks' king Louis marched by night toward Damietta; a forgotten section of their Nile bridge let the Muslims across to encircle them. Five hundred of Louis's champions charged, were let through, and were swallowed — not one escaped; Sayf al-Din al-Qaymari's men took Louis, twenty-five-odd thousand captives in all, seven thousand slain for about two hundred Muslim martyrs. Offered a khil'a, Louis refused: 'my kingdom is as big as Egypt's king's' {cite:shadharat-dhahab p. 247-248}."
+wings: [time]
+periods: [period/crusades-ayyubid-mamluk]
+regions: [egypt-nile]
+sides:
+  - label: { ar: "المسلمون — عسكر مصر والمماليك" }
+  - label: { ar: "الفرنج — حملة لويس التاسع" }
+map: { kind: battle, precision: approximate, center: [30.95, 31.32] }
+date: { start: { edtf: "1250-04-08~", hijri: "0648-01-01~", calendar: julian, precision: day, status: tradition, derived: true, note: "أول يوم من المحرم سنة ثمان وأربعين وستمائة {cite:shadharat-dhahab p. 248}", sources: [source/shadharat-dhahab] } }
+relations:
+  - { type: occurred_at, target: place/al-mansura, sources: [source/shadharat-dhahab] }
+provenance:
+  layer: own-research
+  source: "شذرات الذهب — ابن العماد (ج5، سنة 648)، قراءة آبل فيجن"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-shadharat-batch-128
+sources: [source/shadharat-dhahab]
+status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 High)" }

@@ -1,0 +1,26 @@
+id: person/jamal-al-din-ibn-jarir
+class: person
+label: { ar: "جمال الدين بن جرير الرقي", en: "Jamal al-Din Ibn Jarir al-Raqqi" }
+names:
+  - { value: "الصاحب جمال الدين علي بن جرير الرقي الوزير", kind: full }
+died: { edtf: "1239", hijri: "0636-06", calendar: julian, precision: month, status: tradition, derived: true, note: "توفي في جمادى الآخرة بدمشق سنة ست وثلاثين وستمائة {cite:shadharat-dhahab p. 189}.", sources: [source/shadharat-dhahab] }
+summary:
+  ar: "الصاحب الوزير الرقي؛ وزر للملك الأشرف ثم للملك الصالح إسماعيل بدمشق، وتوفي بها في جمادى الآخرة، قاله ابن الأثير في العبر {cite:shadharat-dhahab p. 189}."
+  en: "The Raqqan wazir (d. Jumada II 636, Damascus) — served al-Malik al-Ashraf then al-Salih Isma'il {cite:shadharat-dhahab p. 189}."
+gender: male
+roles: [vizier]
+wings: [people]
+periods: [period/crusades-ayyubid-mamluk]
+regions: [levant-iraq]
+faith:
+  - value: sunni
+    basis: tradition
+relations:
+  - { type: died_in, target: place/damascus, sources: [source/shadharat-dhahab] }
+sources: [source/shadharat-dhahab]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }
+provenance:
+  layer: own-research
+  source: "شذرات الذهب — ابن العماد (ج5، سنة 636)، قراءة آبل فيجن"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-shadharat-batch-126

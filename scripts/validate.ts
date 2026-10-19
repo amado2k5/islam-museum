@@ -62,6 +62,12 @@ function* textFields(o: any, path = ""): Generator<[string, string]> {
   else if (o && typeof o === "object") for (const [k, v] of Object.entries(o)) if (!["provenance", "id", "text", "text_search"].includes(k)) yield* textFields(v, path ? `${path}.${k}` : k);
 }
 
+/** The Qur'an text is frozen (docs/plan/15 §6.3): a passage must equal the committed Tanzil text, character for character. */
+export function frozenQuranTextProblem(ref: string, text: string, tanzil: Map<string, string> | undefined): string | null {
+  if (tanzil && tanzil.get(ref) !== text) return `Qur'an text of ${ref} differs from the frozen Tanzil file (the text is never edited; regenerate with scripts/harvest/quran/generate.py)`;
+  return null;
+}
+
 export function validateAll(extra: { entity: any; file: string }[] = []): { issues: Issue[]; entityCount: number; proseCount: number } {
   const issues: Issue[] = [];
   const err = (file: string, msg: string) => issues.push({ level: "error", file: rel(file), msg });
@@ -310,7 +316,8 @@ export function validateAll(extra: { entity: any; file: string }[] = []): { issu
       if (e?.class !== "passage" || e.work !== "work/quran") continue;
       if (e.unit === "sura") { suras++; continue; }
       ayat++;
-      if (mt && mt.get(e.ref) !== e.text) err(file, `Qur'an text of ${e.ref} differs from the frozen Tanzil file (the text is never edited; regenerate with scripts/harvest/quran/generate.py)`);
+      const frozenProblem = frozenQuranTextProblem(e.ref, e.text, mt);
+      if (frozenProblem) err(file, frozenProblem);
       if (ms && ms.get(e.ref) !== e.text_search) err(file, `text_search of ${e.ref} differs from the frozen Tanzil Simple Clean file`);
       if (e.provenance?.layer !== "by") err(file, "Qur'an passages must carry provenance.layer: by (Tanzil attribution)");
     }

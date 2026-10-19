@@ -1,0 +1,24 @@
+id: person/tuman-bay-i
+class: person
+label: { ar: "الملك العادل طومان باي الأول", en: "al-Malik al-'Adil Tuman Bay I" }
+names:
+  - { kind: full, lang: ar, value: "الملك العادل سيف الدين طومان باي" }
+gender: male
+roles: [sultan, emir]
+wings: [people]
+themes: [politics-governance-and-authority]
+periods: [period/mongol-post-mongol]
+regions: [egypt-nile]
+summary:
+  ar: "الملك العادل سيف الدين طومان باي من أعيان مماليك قايتباي؛ تغلب في الشام ثم بويع بالسلطنة بعد خلع جان بلاط وجلس على السرير بعد ظهر يوم السبت ثامن عشر جمادى الآخرة سنة ست وتسعمائة، فكانت مدته من حين تغلبه بالشام أربعة أشهر وخمسة عشر يوماً ومن حين بيعته بقلعة الجبل ثلاثة أشهر وثلاثة وعشرون يوماً، وبنى مدرسة العادلية وتربته خارج باب النصر، ثم هجم عليه العسكر وقتلوه {cite:shadharat-dhahab p. 443}."
+  en: "A leading mamluk of Qaytbay; seized power in Syria, then was acclaimed sultan after Jan Balat's deposition, mounting the throne on Saturday 18 Jumada II 906 — four months and fifteen days from his Syrian takeover, three months and twenty-three from his Citadel investiture; built the 'Adiliyya madrasa and his turba outside Bab al-Nasr, then the army stormed him and killed him {cite:shadharat-dhahab p. 443}."
+died: { edtf: "1501~", hijri: "0906~", calendar: julian, precision: year, status: tradition, derived: true, note: "قتله العسكر بعد نحو أربعة أشهر من سلطنته 906؛ ترجمته في المصدر تحت سنة 904 {cite:shadharat-dhahab p. 443}", sources: [source/shadharat-dhahab] }
+relations:
+  - { type: participated_in, target: event/ghuri-accession-906, role: "السلطان بين جان بلاط والغوري", sources: [source/shadharat-dhahab] }
+provenance:
+  layer: own-research
+  source: "شذرات الذهب — ابن العماد (ط مكتبة المثنى 1351، ج8، سنة 904)، قراءة آبل فيجن"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-shadharat-batch-143
+sources: [source/shadharat-dhahab]
+status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 High)" }

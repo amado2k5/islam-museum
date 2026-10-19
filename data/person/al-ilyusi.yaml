@@ -1,0 +1,38 @@
+id: person/al-ilyusi
+class: person
+label: { ar: "أبو محمد الإيليوسي" }
+names:
+  - { value: "أبو محمد عبد الله بن محمد الإيليوسي البطليوسي", kind: full }
+summary:
+  ar: "أبو محمد عبد الله بن محمد الإيليوسي نسبة إلى بطليوس مدينة بالأندلس؛ كان عالماً بالآداب واللغات متبحراً في معرفتها وإتقانها، سكن مدينة بلنسية وكان الناس يجتمعون إليه ويقرؤون عليه ويقتبسون منه وكان حسن التعليم جيد التفهيم ثقة ضابطاً؛ ألّف كتباً نافعة منها المثلّث في مجلدين والاقتضاب في شرح أدب الكتاب وشرح سقط الزند لأبي العلاء المعري وكتاب في الحروف الخمسة وكتاب الحلل في شرح أبيات الجمل وكتاب التنبيه على الأسباب الموجبة لاختلاف الأمة وشرح الموطأ، وقيل إنه لم يخرج من المغرب وكل شيء تكلم فيه ففي غاية الجودة؛ ومولده سنة أربع وأربعين وأربعمائة بمدينة بطليوس وتوفي في منتصف رجب سنة إحدى وعشرين وخمسمائة بمدينة بلنسية {cite:shadharat-dhahab p. 544-545}."
+  en: "Abu Muhammad Abdallah ibn Muhammad al-Ilyusi of Badajoz in al-Andalus; a profound master of adab and the languages who settled at Valencia where people gathered to read under him — a trustworthy, precise teacher; his works include the two-volume al-Muthallath, al-Iqtidab on the adab of the kuttab, a commentary on al-Ma'arri's Saqt al-Zand (said better than Abu al-Ala's own), a book on the five letters, al-Hilal on the Jummal verses, al-Tanbih on the causes of the umma's divergence and a commentary on the Muwatta — and it was said he never left the Maghreb, everything he touched being of the finest quality; b. 444 at Badajoz, d. mid-Rajab 521 at Valencia {cite:shadharat-dhahab p. 544-545}."
+gender: male
+wings: [people]
+roles: [scholar, writer, teacher]
+periods: [period/buyid-seljuk-fatimid-era]
+regions: [andalus-europe]
+born:
+  edtf: "1052~"
+  hijri: "0444"
+  calendar: julian
+  precision: year
+  status: tradition
+  derived: true
+  note: "ولد سنة أربع وأربعين وأربعمائة بمدينة بطليوس {cite:shadharat-dhahab p. 545}؛ التحويل مشتق."
+died:
+  edtf: "1127-06~"
+  hijri: "0521-07"
+  calendar: julian
+  precision: month
+  status: tradition
+  derived: true
+  note: "توفي في منتصف رجب سنة إحدى وعشرين وخمسمائة بمدينة بلنسية {cite:shadharat-dhahab p. 545}؛ التحويل مشتق."
+relations:
+  - { type: died_in, target: place/valencia, sources: [source/shadharat-dhahab] }
+provenance:
+  layer: own-research
+  source: "شذرات الذهب لابن العماد — الجزء الرابع، ممسوح مكتبة الحصاد (AAlexandrina-223861)، قراءة آبل فيجن"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-shadharat-batch-114
+sources: [source/shadharat-dhahab]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

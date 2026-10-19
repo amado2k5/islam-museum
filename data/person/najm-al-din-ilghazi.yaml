@@ -1,0 +1,30 @@
+id: person/najm-al-din-ilghazi
+class: person
+label: { ar: "نجم الدين أيلغازي بن أرتق" }
+names:
+  - { value: "نجم الدين أيلغازي بن أرتق بن أكسب التركماني", kind: full }
+summary:
+  ar: "الأمير الأرتقي صاحب ماردين؛ وليها بعد أخيه سقمان وكانا من أمراء تتش صاحب الشام، واستولى أيلغازي على حلب بعد موت أولاد تتش واستولى على ميافارقين، وكان فارساً شجاعاً كثير الغزو كثير العطاء؛ توفي سنة ست عشرة وخمسمائة وولي بعده بماردين ابنه حسام الدين تمرتاش {cite:shadharat-dhahab p. 528}."
+  en: "The Artuqid amir Najm al-Din Ilghazi, lord of Mardin after his brother Sukman — both former amirs of Tutush; he took Aleppo after Tutush's sons died and Mayyafariqin too, a brave and generous campaigner; d. 516, succeeded in Mardin by his son Husam al-Din Timurtash {cite:shadharat-dhahab p. 528}."
+gender: male
+wings: [people]
+roles: [ruler]
+periods: [period/crusades-ayyubid-mamluk]
+regions: [levant-iraq]
+died:
+  edtf: "1122~"
+  hijri: "0516"
+  calendar: julian
+  precision: year
+  status: tradition
+  derived: true
+  note: "توفي سنة ست عشرة وخمسمائة {cite:shadharat-dhahab p. 528}؛ التحويل مشتق."
+relations:
+  - { type: sibling_of, target: person/sukman-ibn-artuq, sources: [source/shadharat-dhahab] }
+provenance:
+  layer: own-research
+  source: "شذرات الذهب لابن العماد — الجزء الرابع، ممسوح مكتبة الحصاد (AAlexandrina-223861)، قراءة آبل فيجن"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-shadharat-batch-113
+sources: [source/shadharat-dhahab]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

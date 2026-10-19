@@ -7,10 +7,19 @@ summary:
 gender: male
 wings: [people]
 periods: [period/buyid-seljuk-fatimid-era]
+died:
+  edtf: "1123-10~"
+  hijri: "0517-09"
+  calendar: julian
+  precision: month
+  status: tradition
+  derived: true
+  note: "توفي في رمضان سنة سبع عشرة وخمسمائة بدمشق {cite:shadharat-dhahab p. 535}؛ التحويل مشتق."
+  sources: [source/shadharat-dhahab]
 provenance:
   layer: own-research
   source: "وفيات الأعيان لابن خلكان — المسح المحلي المقروء بآبل فيجن (الجزء الأول)"
   generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
   run: lib-wafayat-batch-5
-sources: [source/wafayat-ayan]
+sources: [source/wafayat-ayan, source/shadharat-dhahab]
 status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

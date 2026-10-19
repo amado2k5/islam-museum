@@ -1,0 +1,26 @@
+id: event/franks-evacuate-damietta-618
+class: event
+kind: truce
+label: { ar: "جلاء الفرنج عن دمياط سنة 618" }
+summary:
+  ar: "في سنة ثمان عشرة وستمائة سار الملك الأشرف ينجد أخاه الكامل وسار معه عسكر الشام، وخرجت الفرنج من دمياط بالفارس والراجل أيام زيادة النيل فنزلوا على ترعة فبثق المسلمون عليها النيل فلم يبلوهم وصولاً إلى دمياط وجاء الأسطول فأخذ مراكب الفرنج وأسروا نحو ثمانمائة فارس فيهم صاحب عكا وخلق من الرجالة، فلما عاينوا الخذلان طلبوا الصلح على أن يسلموا دمياط إلى الكامل فأجابهم، ثم جاءه أخواه المعظم والأشرف بالعساكر في رجب فعمل سماطاً عظيماً وأحضر ملوك الفرنج وأنعم عليهم وكان يوماً مشهوداً {cite:shadharat-dhahab p. 79}."
+wings: [time]
+periods: [period/crusades-ayyubid-mamluk]
+regions: [egypt-nile]
+date:
+  start: { edtf: "1221~", hijri: "0618", calendar: julian, precision: year, status: tradition, derived: true, note: "وقدم الأخوان بالعساكر في رجب 618هـ {cite:shadharat-dhahab p. 79}." }
+sides:
+  - label: { ar: "الملك الكامل وإخوته" }
+  - label: { ar: "الفرنج" }
+relations:
+  - { type: occurred_at, target: place/dimyat, sources: [source/shadharat-dhahab] }
+  - { type: had_participant, target: person/al-malik-al-kamil, role: "المتسلم لدمياط", sources: [source/shadharat-dhahab] }
+  - { type: had_participant, target: person/al-malik-al-ashraf, role: "المنجد بعسكر الشام", sources: [source/shadharat-dhahab] }
+  - { type: had_participant, target: person/al-malik-al-muazzam, role: "الواصل بالعساكر", sources: [source/shadharat-dhahab] }
+provenance:
+  layer: own-research
+  source: "شذرات الذهب لابن العماد — الجزء الخامس، ممسوح مكتبة الحصاد (AAlexandrina-001518)، قراءة آبل فيجن"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-shadharat-batch-123
+sources: [source/shadharat-dhahab]
+status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 High)" }

@@ -1,0 +1,28 @@
+id: person/ibn-nima
+class: person
+label: { ar: "زين الدين بن نعمة مسند الشام", en: "Ibn Ni'ma, musnid al-Sham" }
+names:
+  - { value: "زين الدين أبو العباس أحمد بن عبد الدائم بن نعمة بن أحمد بن محمد بن إبراهيم مسند الشام الحنبلي الناسخ", kind: full }
+born: { edtf: "1179", hijri: "0575", calendar: julian, precision: year, status: tradition, derived: true, note: "ولد سنة خمس وسبعين وخمسمائة {cite:shadharat-dhahab p. 567}." }
+died: { edtf: "1270-08~", hijri: "0668-07-07", calendar: julian, precision: day, status: tradition, derived: true, note: "توفي يوم الاثنين سابع رجب ودفن بسفح قاسيون سنة ثمان وستين {cite:shadharat-dhahab p. 568}." }
+summary:
+  ar: "مسند الشام وفقيهها ومحدثها، الحنبلي الناسخ؛ سمع من يحيى الثقفي وابن صدقة وابن الموازيني وعبد الرحمن الخرقي وانفرد في الدنيا بالرواية عنهم، وسمع بحران من خطيبها الشيخ فخر الدين بن تيمية؛ وخرج لنفسه مشيخة وجمع تاريخاً، وكان يكتب بسرعة خطاً حسناً فيكتب في اليوم الكراسين والثلاثة إلى التسعة، وكتب «تاريخ دمشق» لابن عساكر مرتين و«المغني» للموفق مرات، وذكر أنه كتب بيده ألفي مجلدة؛ وحدث بالكثير بضعاً وخمسين سنة وانتهى إليه علو الإسناد وكانت الرحلة إليه من أقطار البلاد؛ وسمع منه الحفاظ المتقدمون كالحافظ ضياء الدين والزكي البرزالي وعمر بن الحاجب، وروى عنه النووي وشمس الدين بن أبي عمر وابن دقيق العيد وابن تيمية وخلق، آخرهم ابن الخباز {cite:shadharat-dhahab p. 567-568}."
+  en: "Musnid al-Sham (b. 575) — the hand that wrote out Ibn Asakir's Tarikh Dimashq twice, al-Mughni several times, some two thousand bound volumes at two-to-nine quires a day; isnad-height ended with him; the rihla came to him from every quarter — among his hearers al-Nawawi, Ibn Daqiq al-Id and Ibn Taymiyya; d. Monday 7 Rajab 668 {cite:shadharat-dhahab p. 567-568}."
+gender: male
+roles: [scholar, muhaddith, scribe]
+wings: [people]
+periods: [period/crusades-ayyubid-mamluk]
+regions: [levant-iraq]
+faith:
+  - value: sunni-hanbali
+    basis: tradition
+relations:
+  - { type: student_of, target: person/fakhr-al-din-ibn-taymiyya, sources: [source/shadharat-dhahab] }
+  - { type: buried_in, target: place/damascus, sources: [source/shadharat-dhahab] }
+sources: [source/shadharat-dhahab]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }
+provenance:
+  layer: own-research
+  source: "شذرات الذهب — ابن العماد (ج7، سنة 668)، قراءة آبل فيجن"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-shadharat-batch-132

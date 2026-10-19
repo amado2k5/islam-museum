@@ -1,0 +1,27 @@
+id: event/sanjar-qara-khitai-defeat-536
+class: event
+kind: battle
+label: { ar: "هزيمة السلطان سنجر أمام الترك وراء النهر سنة 536" }
+summary:
+  ar: "في سنة ست وثلاثين وخمسمائة كانت ملحمة عظيمة بين السلطان سنجر وبين الترك الكفرة بما وراء النهر، أُصيب فيها المسلمون وأفلت سنجر في نفر يسير بحيث إنه وصل بلخ في ستة أنفس، وأُسرت زوجته وبنته وقُتل من جيشه مائة ألف أو أكثر، وكانت الترك في ثلاثمائة ألف فارس {cite:shadharat-dhahab p. 591}."
+  en: "In 536 the great slaughter between Sultan Sanjar and the unbelieving Turks beyond the River: the Muslims were crushed, Sanjar escaped with a mere handful — reaching Balkh with six souls — his wife and daughter were captured, a hundred thousand or more of his army were killed, and the Turks fielded three hundred thousand horse {cite:shadharat-dhahab p. 591}."
+wings: [time]
+periods: [period/buyid-seljuk-fatimid-era]
+regions: [persia-central-asia]
+date:
+  start: { edtf: "1141~", hijri: "0536", calendar: julian, precision: year, status: tradition, derived: true, note: "سنة 536؛ التحويل مشتق {cite:shadharat-dhahab p. 591}. وهي الوقعة المعروفة بواقعة قطوان قرب سمرقند." }
+sides:
+  - label: { ar: "السلطان سنجر وجيش السلاجقة" }
+    commanders: [person/sanjar]
+  - label: { ar: "الترك القراخطائية بما وراء النهر" }
+    commanders: [person/kukhan-qara-khitai]
+relations:
+  - { type: occurred_at, target: place/samarqand, sources: [source/shadharat-dhahab] }
+  - { type: had_participant, target: person/sanjar, role: "السلطان المهزوم", sources: [source/shadharat-dhahab] }
+provenance:
+  layer: own-research
+  source: "شذرات الذهب لابن العماد — الجزء الرابع، ممسوح مكتبة الحصاد (AAlexandrina-223861)، قراءة آبل فيجن"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-shadharat-batch-115
+sources: [source/shadharat-dhahab]
+status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 High)" }

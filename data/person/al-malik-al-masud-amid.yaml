@@ -1,0 +1,30 @@
+id: person/al-malik-al-masud-amid
+class: person
+label: { ar: "الملك المسعود صاحب آمد" }
+summary:
+  ar: "الملك المسعود صاحب آمد؛ حاصره الملك الكامل سنة ثلاثين وستمائة وضرب مدينته بالمجانيق فلما رأى الغلبة خرج وفي رقبته منديل فرسم عليه وتسلم منه البلد، وطلب منه تسليم القلاع فسلم الجميع إلا حصن كيفا فعذبه بأنواع العذاب وكان يبغضه؛ وكان المسعود فاسقاً يأخذ الحرم غصباً حتى وجدوا في قصره خمسمائة حرة من بنات الناس {cite:shadharat-dhahab p. 135}."
+  en: "al-Malik al-Mas'ud, lord of Amid — battered by al-Kamil's mangonels in 630 he surrendered with the suppliant's kerchief round his neck, gave up every fortress save Kayfa, and was tortured for it; a fasiq who seized women by force — five hundred free-born were found in his palace {cite:shadharat-dhahab p. 135}."
+gender: male
+wings: [people]
+periods: [period/crusades-ayyubid-mamluk]
+regions: [anatolia-balkans]
+faith:
+  - value: sunni
+    basis: tradition
+died:
+  edtf: "1233~"
+  hijri: "0630~"
+  calendar: julian
+  precision: year
+  status: tradition
+  derived: true
+  note: "أخرجه الكامل من آمد معذباً سنة 630 فلم يُعرف له بعدها حال؛ التحويل مشتق."
+relations:
+  - { type: ruler_of, target: place/amid, sources: [source/shadharat-dhahab] }
+sources: [source/shadharat-dhahab]
+status: { review: draft, completeness: 1 }
+provenance:
+  layer: own-research
+  source: "شذرات الذهب — ابن العماد (ج5، سنة 630)"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-shadharat-batch-124

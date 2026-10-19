@@ -1,0 +1,26 @@
+id: person/diya-al-din-al-muradi
+class: person
+label: { ar: "ضياء الدين المرادي شيخ النووي", en: "Diya al-Din al-Muradi, al-Nawawi's shaykh" }
+names:
+  - { value: "ضياء الدين أبو إسحاق إبراهيم بن عيسى المرادي الأندلسي ثم المصري ثم الدمشقي الفقيه الشافعي", kind: full }
+died: { edtf: "1269~", hijri: "0667~", calendar: julian, precision: year, status: tradition, derived: true, note: "توفي بمصر في أوائل سنة ثمان وستين قاله النووي؛ ترجمته في أموات 668 {cite:shadharat-dhahab p. 568}." }
+summary:
+  ar: "الإمام الحافظ المتقن المحقق الضابط الزاهد الورع، شيخ النووي؛ ذكره النووي فيما ألحقه في طبقات ابن الصلاح فقال: ولم تر عيني في وقته مثله، وكان بارعاً في معرفة الحديث وعلومه وتحقيق ألفاظه لا سيما الصحيحان، ذا عناية بالغة، والنحو والفقه ومعارف الصوفية، حسن المذاكرة فيها؛ وكان عندي من كبار السالكين في طرائق الحقائق، حسن التعليم، صحبته نحو عشر سنين فلم أر منه شيئاً يكره؛ وكان من السماحة بمحل عالٍ على قدر وجده، وأما الشفقة على المسلمين ونصيحتهم فقل نظيره فيهما {cite:shadharat-dhahab p. 568-569}."
+  en: "Al-Nawawi's own shaykh — whose testimony runs: 'my eyes never saw his like; brilliant in the knowledge of hadith and its sciences, the Sahihs above all; I kept his company some ten years and saw nothing blameworthy; few had his tenderness and care for the Muslims' {cite:shadharat-dhahab p. 568-569}."
+gender: male
+roles: [scholar, muhaddith, jurist]
+wings: [people]
+periods: [period/mongol-post-mongol]
+regions: [egypt-nile, andalus-europe]
+faith:
+  - value: sunni-shafii
+    basis: tradition
+relations:
+  - { type: died_in, target: place/cairo, sources: [source/shadharat-dhahab] }
+sources: [source/shadharat-dhahab]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }
+provenance:
+  layer: own-research
+  source: "شذرات الذهب — ابن العماد (ج7، سنة 668)، قراءة آبل فيجن"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-shadharat-batch-132

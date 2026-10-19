@@ -1,0 +1,34 @@
+id: person/al-kindi-abu-al-yumn
+class: person
+label: { ar: "أبو اليمن الكندي" }
+summary:
+  ar: "العلامة تاج الدين أبو اليمن زيد بن الحسن بن زيد بن الحسن البغدادي المقرئ النحوي اللغوي؛ شيخ القراء والنحويين بالشام ومسند العصر؛ ولد سنة عشرين وخمسمائة وأكمل القراءات العشر وله عشرة أعوام وهذا ما لا يُعلم تهيأ لأحد سواه؛ اعتنى به سبط الخياط فأقرأه وجهزه إلى أبي القاسم هبة الله بن الطبر وأبي منصور بن خيرون وأبي بكر خطيب الموصل وأبي الفضل بن المهتدي بالله؛ ونال الجاه الوافر فإن الملك المعظم كان مديماً للاشتغال عليه وكان ينزل إليه من القلعة؛ توفي في سادس شوال سنة ثلاث عشرة وستمائة ونزل الناس بموته درجة في القراءات والحديث لأنه آخر من سمع من القاضي أبي بكر آخر من سمع من الجوهري آخر من روى عن القطيعي آخر من روى عن الكري {cite:shadharat-dhahab p. 54-55}."
+gender: male
+wings: [people]
+periods: [period/crusades-ayyubid-mamluk]
+born:
+  edtf: "1126~"
+  hijri: "0520"
+  calendar: julian
+  precision: year
+  status: tradition
+  derived: true
+  note: "سنة 520هـ؛ التحويل مشتق {cite:shadharat-dhahab p. 54}."
+died:
+  edtf: "1216~"
+  hijri: "0613-08-06"
+  calendar: julian
+  precision: day
+  status: tradition
+  derived: true
+  note: "سادس شوال 613هـ؛ التحويل مشتق {cite:shadharat-dhahab p. 55}."
+relations:
+  - { type: lived_in, target: place/damascus, sources: [source/shadharat-dhahab] }
+  - { type: student_of, target: person/sibt-al-khiyat, sources: [source/shadharat-dhahab] }
+provenance:
+  layer: own-research
+  source: "شذرات الذهب لابن العماد — الجزء الخامس، ممسوح مكتبة الحصاد (AAlexandrina-001518)، قراءة آبل فيجن"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-shadharat-batch-123
+sources: [source/shadharat-dhahab]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

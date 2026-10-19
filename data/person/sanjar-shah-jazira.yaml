@@ -1,0 +1,30 @@
+id: person/sanjar-shah-jazira
+class: person
+label: { ar: "سنجر شاه صاحب الجزيرة العمرية" }
+names:
+  - { value: "الملك سنجر شاه بن غازي بن مودود بن أتابك زنكي", kind: full }
+summary:
+  ar: "الملك سنجر شاه بن غازي بن مودود بن أتابك زنكي صاحب الجزيرة العمرية؛ قتله ابنه غازي سنة خمس وستمائة وحلفوا له ثم وثب عليه من الغد خواص أبيه فقتلوه وملكوا أخاه الملك المعظم، وكان سنجر سيء السيرة ظلوماً {cite:shadharat-dhahab p. 23}."
+  en: "Al-Malik Sanjar Shah b. Ghazi b. Mawdud b. Atabeg Zangi, lord of Jazirat Ibn Umar; his son Ghazi killed him in 605 — they had sworn to him — then the next day his father's close men fell on Ghazi, killed him, and enthroned his brother al-Malik al-Mu'azzam; Sanjar was foul-mannered and a wrongdoer {cite:shadharat-dhahab p. 23}."
+gender: male
+wings: [people]
+roles: [ruler]
+periods: [period/crusades-ayyubid-mamluk]
+regions: [levant-iraq]
+died:
+  edtf: "1208~"
+  hijri: "0605"
+  calendar: julian
+  precision: year
+  status: tradition
+  derived: true
+  note: "قتله ابنه غازي سنة خمس وستمائة {cite:shadharat-dhahab p. 23}؛ التحويل مشتق."
+relations:
+  - { type: died_in, target: place/jazirat-ibn-umar, sources: [source/shadharat-dhahab] }
+provenance:
+  layer: own-research
+  source: "شذرات الذهب لابن العماد — الجزء الخامس، ممسوح مكتبة الحصاد (AAlexandrina-001518)، قراءة آبل فيجن"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-shadharat-batch-122
+sources: [source/shadharat-dhahab]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

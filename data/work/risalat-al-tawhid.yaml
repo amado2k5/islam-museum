@@ -1,0 +1,24 @@
+id: work/risalat-al-tawhid
+class: work
+kind: book
+label: { ar: "رسالة التوحيد", en: "Risalat al-Tawhid (The Treatise on the Oneness of God)" }
+summary:
+  ar: "كتاب في علم التوحيد ألّفه الشيخ محمد عبده، وقدّم له محمد عمارة في طبعة دار الشروق. يعرض الكتاب الإلهيات والنبوة والقرآن والعقائد كما تبلورت في الشريعة، ويعدّه المقدّم من أهم نصوص عبده {cite:abduh-risalat-tawhid-imara-1994 p.7} {cite:abduh-risalat-tawhid-imara-1994 p.10}."
+  en: "A treatise on the science of Tawhid by Muhammad Abduh, with an introduction by Muhammad Imara in the Dar al-Shuruq edition. It covers God and His attributes, humanity, prophecy and the Qur'an, and the editor counts it among Abduh's most important texts {cite:abduh-risalat-tawhid-imara-1994 p.7} {cite:abduh-risalat-tawhid-imara-1994 p.10}."
+language: language/arabic
+authors: [person/muhammad-abduh]
+genre: [theology]
+wings: [ideas]
+themes: [creed]
+periods: [period/modern-era]
+regions: [egypt-nile]
+relations:
+  - { type: about, target: concept/tawhid }
+provenance:
+  layer: own-research
+  source: "Muhammad Abduh, Risalat al-Tawhid, ed. Muhammad Imara (Dar al-Shuruq), scan pp. 7-11 read from OCR"
+  generated_by: "Claude Haiku 5.5"
+  model: claude-haiku-5-5
+  run: lib-exp-batch-1
+sources: [source/abduh-risalat-tawhid-imara-1994]
+status: { review: draft, completeness: 1, generated_by: "Claude Haiku 5.5; introduction only (scan pp. 7-11); body not yet read" }

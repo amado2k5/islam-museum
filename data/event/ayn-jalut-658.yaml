@@ -10,9 +10,16 @@ periods: [period/mongol-post-mongol]
 regions: [levant-iraq]
 date:
   start: { edtf: "1260-09-03~", hijri: "0658-09-15", calendar: julian, precision: day, status: tradition, derived: true, note: "الجمعة 15 رمضان 658؛ التحويل مشتق {cite:tarikh-khulafa-minhaj-1434 p. 720}." }
+sides:
+  - label: { ar: "المسلمون — جيش مصر بقيادة الملك المظفر قطز" }
+  - label: { ar: "التتار — حامية الشام بقيادة كتبغا" }
+map: { kind: battle, precision: locality, center: [32.4971, 35.4973] }
 relations:
+  - { type: occurred_at, target: place/baysan, sources: [source/shadharat-dhahab] }
   - { type: had_participant, target: person/qutuz, role: "السلطان المنتصر", sources: [source/shadharat-dhahab, source/tarikh-khulafa-minhaj-1434] }
   - { type: had_participant, target: person/baybars, role: "الشاليش", sources: [source/tarikh-khulafa-minhaj-1434] }
+  - { type: had_participant, target: person/kitbugha, role: "مقدم التتار المقتول", sources: [source/shadharat-dhahab] }
+  - { type: had_participant, target: person/al-malik-al-said-hasan, role: "قاتل مع التتار فأُسر وأُعدم", sources: [source/shadharat-dhahab] }
 provenance:
   layer: own-research
   source: "تاريخ الخلفاء للسيوطي (ط المنهاج 1434هـ/2013م) ص 714–723"

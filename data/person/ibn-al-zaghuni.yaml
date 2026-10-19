@@ -1,0 +1,38 @@
+id: person/ibn-al-zaghuni
+class: person
+label: { ar: "ابن الزاغوني" }
+names:
+  - { value: "أبو الحسن علي بن عبيد الله بن ناصر بن السري الزاغوني الجبلي", kind: full }
+summary:
+  ar: "شيخ الحنابلة وواعظهم أبو الحسن علي بن عبيد الله الزاغوني؛ ولد في جمادى الأولى سنة خمس وخمسين وأربعمائة وقرأ القرآن بالروايات وطلب الحديث بنفسه وقرأ الفقه على القاضي يعقوب البرزنجي، وكان متقناً في علوم شتى من الأصول والفروع والوعظ والحديث وصنف في ذلك كله: له الإقناع والواضح والخلاف الكبير والمفردات في مجلدين والتخليص في الفرائض والإيضاح في أصول الدين وغرر البيان في أصول الفقه وديوان خطب وتاريخ على السنين ومناسك الحج؛ قال ابن الجوزي صحبته زماناً وكانت له حلقة بالمنصور يناظر فيها يوم الجمعة ثم يعظ، وقال ابن ناصر كان فقيه الوقت؛ توفي يوم الأحد سادس عشر المحرم سنة سبع وعشرين وخمسمائة ودفن بمقبرة الإمام أحمد {cite:shadharat-dhahab p. 560-561}."
+  en: "Shaykh and preacher of the Hanbalis, Abu al-Hasan Ali ibn Ubaydallah al-Zaghuni; b. Jumada I 455, read the Qur'an in the readings, sought hadith himself, and read fiqh under qadi Ya'qub al-Barzanji; master of usul, furu', preaching and hadith, and author of al-Iqna', al-Wadih, al-Khilaf al-kabir, the two-volume Mufradat, al-Takhlis on inheritance, al-Idah on usul al-din, Ghurar al-bayan on usul al-fiqh, a diwan of sermons, an annalistic history and a manasik — Ibn al-Jawzi kept his company and he held a Friday circle of munazara then wa'z at al-Mansur, Ibn Nasir calling him 'the jurist of the age'; d. Sunday 16 Muharram 527, buried at Imam Ahmad's cemetery {cite:shadharat-dhahab p. 560-561}."
+gender: male
+wings: [people]
+roles: [jurist, scholar, writer]
+periods: [period/buyid-seljuk-fatimid-era]
+regions: [levant-iraq]
+born:
+  edtf: "1063-05~"
+  hijri: "0455-05"
+  calendar: julian
+  precision: month
+  status: tradition
+  derived: true
+  note: "ولد في جمادى الأولى سنة خمس وخمسين وأربعمائة {cite:shadharat-dhahab p. 560}؛ التحويل مشتق."
+died:
+  edtf: "1132-11~"
+  hijri: "0527-01"
+  calendar: julian
+  precision: day
+  status: tradition
+  derived: true
+  note: "توفي يوم الأحد سادس عشر المحرم سنة سبع وعشرين وخمسمائة ودفن بمقبرة الإمام أحمد {cite:shadharat-dhahab p. 561}؛ التحويل مشتق."
+relations:
+  - { type: teacher_of, target: person/ibn-al-jawzi, sources: [source/shadharat-dhahab] }
+provenance:
+  layer: own-research
+  source: "شذرات الذهب لابن العماد — الجزء الرابع، ممسوح مكتبة الحصاد (AAlexandrina-223861)، قراءة آبل فيجن"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-shadharat-batch-114
+sources: [source/shadharat-dhahab]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

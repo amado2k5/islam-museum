@@ -1,0 +1,26 @@
+id: person/ali-al-qifti
+class: person
+label: { ar: "القاضي الأكرم القفطي وزير حلب", en: "al-Qadi al-Akram al-Qifti" }
+names:
+  - { value: "علي بن يوسف القفطي المعروف بالقاضي الأكرم", kind: full }
+died: { edtf: "1248", hijri: "0646", calendar: julian, precision: year, status: tradition, derived: true, note: "وردت ترجمته في أموات سنة ست وأربعين وستمائة {cite:shadharat-dhahab p. 244}." }
+summary:
+  ar: "وزير حلب المعروف بالقاضي الأكرم؛ أحد الكتاب المبرزين في النثر والنظم، دان عارفاً باللغة والنحو والفقه والحديث وعلوم القرآن والأصول والمنطق والحكمة والنجوم والهندسة والتاريخ، وكان صدراً محتشماً كامل المروءة، جمع من الكتب ما لم يجمعه أحد وكان لا يحب من الدنيا سوى الكتب ولم تكن له دار ولا زوجة؛ صنف الدر الثمين في أخبار المنتمين وإصلاح خلل صحاح الجوهري والكلام على صحيح البخاري ونزهة الناظر ونزهة الخاطر وغير ذلك {cite:shadharat-dhahab p. 244}."
+  en: "Aleppo's vizier 'the Generous Judge' (d. 646) — master of prose and verse, versed in language, law, hadith, Qur'an sciences, usul, logic, astronomy, geometry and history; he owned no house and took no wife, gathering more books than anyone, loving nothing of this world but them; author of al-Durr al-Thamin on converts, an emendation of al-Jawhari's Sihah, and a work on Sahih al-Bukhari {cite:shadharat-dhahab p. 244}."
+gender: male
+roles: [vizier, scholar]
+wings: [people]
+periods: [period/crusades-ayyubid-mamluk]
+regions: [levant-iraq, egypt-nile]
+faith:
+  - value: sunni
+    basis: tradition
+relations:
+  - { type: died_in, target: place/aleppo, sources: [source/shadharat-dhahab] }
+sources: [source/shadharat-dhahab]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }
+provenance:
+  layer: own-research
+  source: "شذرات الذهب — ابن العماد (ج5، سنة 646)، قراءة آبل فيجن"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-shadharat-batch-127

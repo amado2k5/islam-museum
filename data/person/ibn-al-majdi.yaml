@@ -1,0 +1,23 @@
+id: person/ibn-al-majdi
+class: person
+label: { ar: "شهاب الدين ابن المجدي", en: "Shihab al-Din Ibn al-Majdi" }
+names:
+  - { value: "شهاب الدين أحمد بن رجب بن طيبغا الشهير بابن المجدي الشافعي القرضي", kind: full }
+gender: male
+summary:
+  ar: "شهاب الدين ابن المجدي القرضي الشافعي العلامة؛ ولد بالقاهرة سنة سبع وستين وسبعمائة ونشأ بها ولازم علماء عصره وجد في الطلب إلى أن برع في الفقه والفرائض والحساب والعربية وشارك في علوم كثيرة غيرها كالهندسة والميقات وفاق فيها أهل عصره وانفرد بها وما زال مستمراً على الاشتغال والأشغال وصنف تصانيف كثيرة مشهورة منها شرح العبقرية في الفرائض، إلى أن توفي ليلة السبت حادي عشر ذي القعدة سنة خمسين وثمانمائة {cite:shadharat-dhahab p. 268}."
+  en: "Ibn al-Majdi (b. Cairo 767) — jurist, calculator and astronomer who 'surpassed and uniquely held his age' in geometry and the science of timekeeping alongside fiqh, inheritance-arithmetic and Arabic; author of the famed Sharh al-Abqariyya on fara'id among many works; died Friday night 21 Dhu al-Qa'da 850 {cite:shadharat-dhahab p. 268}."
+roles: [scholar, astronomer, mathematician]
+wings: [people]
+themes: [astronomy-and-timekeeping, mathematics]
+periods: [period/mongol-post-mongol]
+regions: [egypt-nile]
+born: { edtf: "1366~", hijri: "0767", calendar: julian, precision: year, status: tradition, derived: true, note: "ولد بالقاهرة 767 {cite:shadharat-dhahab p. 268}", sources: [source/shadharat-dhahab] }
+died: { edtf: "1447-02-09~", hijri: "0850-11-21", calendar: julian, precision: day, status: tradition, derived: true, note: "توفي ليلة السبت 21 ذي القعدة 850 {cite:shadharat-dhahab p. 268}", sources: [source/shadharat-dhahab] }
+provenance:
+  layer: own-research
+  source: "شذرات الذهب — ابن العماد (ط مكتبة المثنى 1351، ج7، سنة 850)، قراءة آبل فيجن"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-shadharat-batch-139
+sources: [source/shadharat-dhahab]
+status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 High)" }

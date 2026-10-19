@@ -7,10 +7,20 @@ gender: male
 wings: [people]
 periods: [period/crusades-ayyubid-mamluk]
 regions: [arabia]
+died:
+  edtf: "1221~"
+  hijri: "0618"
+  calendar: julian
+  precision: year
+  status: tradition
+  derived: true
+  note: "قيل في موته سنة ثمان عشرة وستمائة إن ابنه الحسن خنقه {cite:kamil-ibn-al-athir p. 426-427}؛ وأوردته الشذرات في سنة سبع عشرة وقد عاش أكثر من ثمانين سنة {cite:shadharat-dhahab p. 76}؛ التحويل مشتق."
+relations:
+  - { type: ruler_of, target: place/mecca, sources: [source/kamil-ibn-al-athir] }
 provenance:
   layer: own-research
   source: "الكامل في التاريخ — ابن الأثير، مسح kamilt00_201908، سنة 618، ص 426–427"
   generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
   run: lib-kamil-562-629-13
-sources: [source/kamil-ibn-al-athir]
+sources: [source/kamil-ibn-al-athir, source/shadharat-dhahab]
 status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

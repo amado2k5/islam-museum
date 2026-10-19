@@ -1,4 +1,4 @@
-name: Deploy to GitHub Pages
+name: Deploy islam.museum to Cloudflare Pages
 
 on:
   push:
@@ -7,12 +7,15 @@ on:
 
 permissions:
   contents: read
-  pages: write
-  id-token: write
+  deployments: write
 
 concurrency:
   group: pages
   cancel-in-progress: false
+  # Keep every waiting run, so each push's R2 publish runs in order. Without this,
+  # a newer waiting run replaces an older one and the older content change is never
+  # published (the content gate only compares HEAD~1 to HEAD).
+  queue: max
 
 # The unit tests and the build run in parallel; deploy waits for both.
 jobs:
@@ -52,37 +55,84 @@ jobs:
         run: npm ci && npm ci --prefix site
       - name: Validate, compile and build (validate → graph → derive → api → astro → pagefind)
         run: npm run build
+        env:
+          # Pagefind indexes are uploaded to R2 and served from there.
+          # Set PAGEFIND_BASE_URL as a GitHub Actions variable to the R2 public URL.
+          PUBLIC_PAGEFIND_BASE: ${{ vars.PAGEFIND_BASE_URL }}
       - name: No runtime AI or compute (guard)
         run: npm run check:static
-      - name: Configure Pages
-        uses: actions/configure-pages@v5
-      - name: Upload site
-        uses: actions/upload-pages-artifact@v3
+      - name: Check whether data/content changed (gate for R2 sync)
+        id: content_gate
+        run: |
+          # R2 holds the pagefind indexes and API JSON, both of which are derived
+          # exclusively from data/ and content/. If neither directory changed in the
+          # commits included in this push, the R2 files are already correct and the
+          # sync can be skipped entirely — saving ~4 GET + 4 PUT + N upload ops.
+          # Falls back to "changed" (forces sync) whenever git history is uncertain.
+          if git rev-parse HEAD~1 >/dev/null 2>&1 && \
+             git diff --quiet HEAD~1 HEAD -- data/ content/; then
+            echo "skip=true"  >> "$GITHUB_OUTPUT"
+            echo "No data/content changes — R2 sync skipped."
+          else
+            echo "skip=false" >> "$GITHUB_OUTPUT"
+            echo "data/ or content/ changed — R2 sync will run."
+          fi
+      - name: Install R2 sync Worker dependencies
+        if: steps.content_gate.outputs.skip == 'false' && github.ref == 'refs/heads/main'
+        run: npm ci --prefix workers/r2-sync
+      - name: Deploy R2 sync Worker (production bucket)
+        id: r2_worker
+        if: steps.content_gate.outputs.skip == 'false' && github.ref == 'refs/heads/main'
+        working-directory: workers/r2-sync
+        env:
+          CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+          CLOUDFLARE_ACCOUNT_ID: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
+          SYNC_TOKEN: ${{ secrets.R2_SYNC_TOKEN }}
+        run: |
+          set -euo pipefail
+          npx wrangler deploy -c wrangler.production.toml | tee deploy.log
+          url=$(grep -o 'https://[^ ]*workers\.dev' deploy.log | head -1)
+          test -n "$url"
+          echo "url=$url" >> "$GITHUB_OUTPUT"
+          printf '%s' "$SYNC_TOKEN" | npx wrangler secret put SYNC_TOKEN -c wrangler.production.toml
+      - name: Publish pagefind indexes and API to R2 (zip archives via R2 sync Worker)
+        if: steps.content_gate.outputs.skip == 'false' && github.ref == 'refs/heads/main'
+        env:
+          AWS_ACCESS_KEY_ID: ${{ secrets.R2_ACCESS_KEY_ID }}
+          AWS_SECRET_ACCESS_KEY: ${{ secrets.R2_SECRET_ACCESS_KEY }}
+          AWS_DEFAULT_REGION: auto
+          ENDPOINT: https://${{ secrets.CLOUDFLARE_ACCOUNT_ID }}.r2.cloudflarestorage.com
+          BUCKET: islam-museum-search
+          SYNC_URL: ${{ steps.r2_worker.outputs.url }}
+          SYNC_TOKEN: ${{ secrets.R2_SYNC_TOKEN }}
+        run: node workers/r2-sync/batch/publish.mjs --dist dist
+      - name: Strip R2-served dirs from Pages deployment
+        run: rm -rf dist/pagefind-ar dist/pagefind-en dist/pagefind-ur dist/api
+      - name: Upload built site
+        uses: actions/upload-artifact@v4
         with:
+          name: dist
           path: dist
+          retention-days: 1
 
   deploy:
     needs: [test, build]
+    if: github.ref == 'refs/heads/main'
     runs-on: ubuntu-latest
-    environment:
-      name: github-pages
-      url: ${{ steps.deployment.outputs.page_url }}
     steps:
-      - name: Deploy
-        id: deployment
-        uses: actions/deploy-pages@v4
-      - name: Purge Cloudflare cache
-        # Needs repository secrets CF_ZONE_ID and CF_API_TOKEN (Zone → Cache Purge). Skipped until they exist.
-        env:
-          CF_ZONE_ID: ${{ secrets.CF_ZONE_ID }}
-          CF_API_TOKEN: ${{ secrets.CF_API_TOKEN }}
-        run: |
-          if [ -z "$CF_ZONE_ID" ] || [ -z "$CF_API_TOKEN" ]; then
-            echo "Cloudflare secrets not set; skipping cache purge."; exit 0
-          fi
-          curl -fsS -X POST "https://api.cloudflare.com/client/v4/zones/${CF_ZONE_ID}/purge_cache" \
-            -H "Authorization: Bearer ${CF_API_TOKEN}" -H "Content-Type: application/json" \
-            --data '{"purge_everything":true}'
+      - name: Download built site
+        uses: actions/download-artifact@v4
+        with:
+          name: dist
+          path: dist
+      - name: Deploy to Cloudflare Pages
+        uses: cloudflare/wrangler-action@v3
+        with:
+          apiToken: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+          accountId: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
+          wranglerVersion: "4"
+          command: pages deploy dist --project-name=islam-museum
+
   # Pings IndexNow with the URLs changed in this push (scripts/indexnow.mjs), so
   # Bing/Yandex pick up new and updated pages without waiting for a crawl.
   # Set the repository variable INDEXNOW to "off" to skip it.

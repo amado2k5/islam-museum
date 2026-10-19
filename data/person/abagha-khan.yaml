@@ -1,0 +1,24 @@
+id: person/abagha-khan
+class: person
+label: { ar: "أبغا خان ابن هولاكو", en: "Abagha Khan" }
+names:
+  - { value: "أبغا ملك التتار ابن ملكهم هولاكو بن قاآن بن جنكز خان", kind: full }
+born: { edtf: "1234~", hijri: "0632~", calendar: julian, precision: year, status: tradition, derived: true, note: "مات وله نحو خمسين سنة سنة ثمانين وستمائة {cite:shadharat-dhahab p. 643}." }
+died: { edtf: "1282~", hijri: "0680", calendar: julian, precision: year, status: tradition, derived: true, note: "مات بنواحي همدان بين العيدين سنة ثمانين وستمائة {cite:shadharat-dhahab p. 643}." }
+summary:
+  ar: "ملك التتار ابن ملكهم هولاكو؛ مات بنواحي همدان بين العيدين سنة ثمانين وستمائة وله نحو خمسين سنة، فولي السلطنة بعده أخوه أحمد المسلم {cite:shadharat-dhahab p. 643, 653}."
+  en: "Ilkhan of the Tatars, Hulagu's son — died between the two feasts near Hamadan at about fifty; his Muslim brother Ahmad succeeded {cite:shadharat-dhahab p. 643, 653}."
+gender: male
+roles: [sultan]
+wings: [people]
+periods: [period/mongol-post-mongol]
+regions: [persia-central-asia]
+relations:
+  - { type: child_of, target: person/hulagu, sources: [source/shadharat-dhahab] }
+sources: [source/shadharat-dhahab]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }
+provenance:
+  layer: own-research
+  source: "شذرات الذهب — ابن العماد (ج7، سنة 680)، قراءة آبل فيجن"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-shadharat-batch-133

@@ -1,0 +1,27 @@
+id: person/abu-al-hajjaj-al-biyasi
+class: person
+label: { ar: "أبو الحجاج البياسي", en: "Abu al-Hajjaj al-Biyasi" }
+names:
+  - { value: "أبو الحجاج يوسف بن محمد بن إبراهيم الأنصاري البياسي", kind: full }
+born: { edtf: "1177-10~", hijri: "0573-04-14", calendar: julian, precision: day, status: tradition, derived: true, note: "ولد يوم الخميس الرابع عشر من ربيع الآخر سنة ثلاث وسبعين وخمسمائة {cite:shadharat-dhahab p. 270}." }
+died: { edtf: "1255-11~", hijri: "0653-11-04", calendar: julian, precision: day, status: tradition, derived: true, note: "توفي يوم الأحد الرابع من ذي القعدة بمدينة تونس {cite:shadharat-dhahab p. 271}." }
+summary:
+  ar: "أحد فضلاء الأندلس وحفاظها المتقنين، نسبة إلى بياسة مدينة كبيرة من كورجيان؛ كان أديباً بارعاً مطلعاً على أقسام كلام العرب من النظم والنثر وراوية لوقائعها وحروبها وأيامها، قال ابن خلكان بلغني أنه كان يحفظ كتاب الحماسة وديوان المتنبي وسقط الزند؛ وتنقل في بلاد الأندلس وطاف أكثرها، وألف لصاحب إفريقية كتاب الإعلام بالحروب الواقعة في صدر الإسلام في مجلدين ابتدأه بقتل عمر بن الخطاب وختمه بخروج الوليد بن طريف الشاري على هارون الرشيد، وله كتاب الحماسة في مجلدين أيضاً {cite:shadharat-dhahab p. 270-271}."
+  en: "Andalusi hafiz and adib of Biyasa in the Coriana district (b. 573, d. Tunis 4 Dhu al-Qa'da 653) — he knew the Hamasa, the Mutanabbi diwan and Saqt al-Zand by heart, and wrote for the Hafsid ruler al-I'lam bi-al-Hurub al-Waqi'a fi Sadr al-Islam in two volumes, from Umar's killing to al-Walid b. Tarif's revolt {cite:shadharat-dhahab p. 270-271}."
+gender: male
+roles: [historian, writer, scholar]
+wings: [people]
+periods: [period/crusades-ayyubid-mamluk]
+regions: [andalus-europe, maghreb]
+faith:
+  - value: sunni
+    basis: tradition
+relations:
+  - { type: died_in, target: place/tunis, sources: [source/shadharat-dhahab] }
+sources: [source/shadharat-dhahab]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }
+provenance:
+  layer: own-research
+  source: "شذرات الذهب — ابن العماد (ج5، سنة 653)، قراءة آبل فيجن"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-shadharat-batch-129

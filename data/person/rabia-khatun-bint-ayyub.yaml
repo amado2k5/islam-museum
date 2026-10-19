@@ -13,5 +13,10 @@ provenance:
   source: "وفيات الأعيان لابن خلكان — الجزء الرابع (عارضة داخل ترجمة كوكبوري)، طبعة إحسان عباس، النص المقروء آلياً (djvu) من archive.org"
   generated_by: "Devin (SWE-2 High) from djvu OCR text"
   run: lib-wafayat-batch-12
-sources: [source/wafayat-ayan]
+relations:
+  - { type: sibling_of, target: person/salah-al-din-yusuf-ibn-ayyub, sources: [source/shadharat-dhahab] }
+  - { type: sibling_of, target: person/al-malik-al-adil-ayyub, sources: [source/shadharat-dhahab] }
+  - { type: died_in, target: place/damascus, sources: [source/shadharat-dhahab] }
+  - { type: buried_in, target: place/damascus, sources: [source/shadharat-dhahab] }
+sources: [source/wafayat-ayan, source/shadharat-dhahab]
 status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

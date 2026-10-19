@@ -1,0 +1,22 @@
+id: person/al-faryani
+class: person
+label: { ar: "شمس الدين الفرياني", en: "Shams al-Din al-Faryani" }
+names:
+  - { value: "شمس الدين محمد بن أحمد الفرياني المغربي", kind: full }
+gender: male
+summary:
+  ar: "شمس الدين محمد بن أحمد الفرياني المغربي نسبة إلى فريانة قرية قرب القيروان؛ قدم القاهرة وأكثر التردد إلى المقريزي وواظب الجولان في قرى الريف الأدنى يعمل المواعيد ويذكر الناس وكان يستحضر كثيراً من التواريخ والأخبار الماضية ويدعي معرفة الحديث النبوي ورجاله، وتحول عن مذهب مالك وأدغى أنه يقلد الشافعي وولي قضاء نابلس إلى أن ظهر منه ما ظهر، ثم توجه سنة ثمان وأربعين وثمانمائة إلى جبال حميدة بالأرض المقدسة وادعى أنه المهدي وقيل ادعى أنه القحطاني وراج أمره هناك {cite:shadharat-dhahab p. 261-262}."
+  en: "Al-Faryani of Faryana near Qayrawan — a Moroccan preacher who haunted Cairo, frequented al-Maqrizi, claimed hadith learning, moved from Maliki to Shafi'i allegiance and held the judgeship of Nablus before withdrawing in 848 to the Humayda stronghold where he claimed to be the Mahdi {cite:shadharat-dhahab p. 261-262}."
+roles: [preacher, jurist]
+wings: [people]
+periods: [period/mongol-post-mongol]
+regions: [maghreb, levant-iraq]
+relations:
+  - { type: participated_in, target: event/faryani-mahdi-848, sources: [source/shadharat-dhahab] }
+provenance:
+  layer: own-research
+  source: "شذرات الذهب — ابن العماد (ط مكتبة المثنى 1351، ج7، سنة 848)، قراءة آبل فيجن"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-shadharat-batch-139
+sources: [source/shadharat-dhahab]
+status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 High)" }

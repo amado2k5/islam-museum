@@ -1,0 +1,39 @@
+id: person/abu-musa-al-maqdisi
+class: person
+label: { ar: "الحافظ أبو موسى المقدسي" }
+summary:
+  ar: "الحافظ جمال الدين عبد الله بن عبد الغني بن عبد الواحد بن علي بن سرور المقدسي الحنبلي الحافظ ابن الحافظ أبو موسى؛ ولد في شوال سنة إحدى وثمانين وخمسمائة وسمع من عبد الرحمن بن الخرقي بدمشق ومن ابن كليب ببغداد ومن خليل الرازاني بأصبهان ومن الأرياحي بمصر ومن منصور الفراوي بنيسابور وكتب الكثير وعني بهذا الشأن وجمع وأفاد وتفقه وتأدب؛ قال الضياء اشتغل بالفقه والحديث وصار علماً من الأعلام حافظاً متقناً ثقة، وقال عمر بن الحاجب لم يكن في عصره مثله في الحفظ والمعرفة والأمانة، وغمزه الناصح بن الحنبلي وسبط ابن الجوزي بالميل إلى السلاطين فرد ابن رجب أنهما كانا أكثر الناس ميلاً إليهم وأن أبا موسى كان أتقى وأورع وأعلم منهما؛ وبنى له الملك الأشرف دار الحديث بالسفح على اسمه وجعله شيخها وقرر له معلوماً فمات قبل كمالها؛ توفي يوم الجمعة خامس رمضان سنة تسع وعشرين وستمائة ودفن بسفح قاسيون {cite:shadharat-dhahab p. 131}."
+  en: "Abu Musa al-Maqdisi — 'the hafiz son of the hafiz', born 581, a scholar of such standing that al-Ashraf built the Dar al-Hadith at the foot of Qasyun in his name and made him its shaykh; he died before its completion, 5 Ramadan 629, buried on the slope {cite:shadharat-dhahab p. 131}. Ibn Rajab defended him against the 'courtier' charge levelled by al-Nasih and Sibt — themselves, he noted, far closer to the sultans."
+gender: male
+wings: [people]
+periods: [period/crusades-ayyubid-mamluk]
+regions: [levant-iraq]
+faith:
+  - value: sunni
+    basis: tradition
+    note: "حنبلي المذهب"
+born:
+  edtf: "1185~"
+  hijri: "0581-10"
+  calendar: julian
+  precision: month
+  status: tradition
+  derived: true
+  note: "ولد في شوال سنة إحدى وثمانين وخمسمائة؛ التحويل مشتق {cite:shadharat-dhahab p. 131}."
+died:
+  edtf: "1232~"
+  hijri: "0629-09-05"
+  calendar: julian
+  precision: day
+  status: tradition
+  derived: true
+  note: "توفي يوم الجمعة خامس رمضان سنة تسع وعشرين ودفن بسفح قاسيون؛ التحويل مشتق {cite:shadharat-dhahab p. 131}."
+relations:
+  - { type: died_in, target: place/damascus, sources: [source/shadharat-dhahab] }
+sources: [source/shadharat-dhahab]
+status: { review: draft, completeness: 1 }
+provenance:
+  layer: own-research
+  source: "شذرات الذهب — ابن العماد (ج5، سنة 629)"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-shadharat-batch-124

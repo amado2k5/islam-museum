@@ -1,0 +1,27 @@
+id: person/ibn-sayyid-al-nas-al-akbar
+class: person
+label: { ar: "ابن سيد الناس الأكبر", en: "Ibn Sayyid al-Nas the Elder" }
+names:
+  - { value: "ابن سيد الناس الخطيب الحافظ أبو بكر محمد بن أحمد بن عبد الله بن محمد اليعمري الإشبيلي", kind: full }
+born: { edtf: "1201", hijri: "0597", calendar: julian, precision: year, status: tradition, derived: true, note: "ولد سنة سبع وتسعين وخمسمائة {cite:shadharat-dhahab p. 306}." }
+died: { edtf: "1261-07~", hijri: "0659-07", calendar: julian, precision: month, status: tradition, derived: true, note: "توفي بتونس في رجب سنة تسع وخمسين وستمائة {cite:shadharat-dhahab p. 307}." }
+summary:
+  ar: "الخطيب الحافظ؛ عني بالحديث فأكثر وحصل الأصول لنفسه وختم به معرفة الحديث بالمغرب؛ توفي بتونس في رجب {cite:shadharat-dhahab p. 306-307}."
+  en: "The Sevillian khatib-hafiz (b. 597, d. Tunis Rajab 659) — 'with him the knowledge of hadith in the Maghreb was sealed' {cite:shadharat-dhahab p. 306-307}."
+gender: male
+roles: [scholar, muhaddith]
+wings: [people]
+periods: [period/crusades-ayyubid-mamluk]
+regions: [andalus-europe, maghreb]
+faith:
+  - value: sunni
+    basis: tradition
+relations:
+  - { type: died_in, target: place/tunis, sources: [source/shadharat-dhahab] }
+sources: [source/shadharat-dhahab]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }
+provenance:
+  layer: own-research
+  source: "شذرات الذهب — ابن العماد (ج5، سنة 659)، قراءة آبل فيجن"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-shadharat-batch-130

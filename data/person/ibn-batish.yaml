@@ -1,0 +1,28 @@
+id: person/ibn-batish
+class: person
+label: { ar: "ابن باطيش الموصلي", en: "Ibn Batish al-Mawsili" }
+names:
+  - { value: "عماد الدين أبو المجد إسماعيل بن هبة الله بن سعيد بن هبة الله بن محمد الموصلي الشافعي", kind: full }
+born: { edtf: "1179-06~", hijri: "0575-01", calendar: julian, precision: month, status: tradition, derived: true, note: "ولد في محرم سنة خمس وسبعين وخمسمائة {cite:shadharat-dhahab p. 276}." }
+died: { edtf: "1257-07~", hijri: "0655-06", calendar: julian, precision: month, status: tradition, derived: true, note: "توفي في حلب في جمادى الآخرة سنة خمس وخمسين وستمائة {cite:shadharat-dhahab p. 276}." }
+summary:
+  ar: "العلامة الشافعي؛ دخل بغداد فتفقه بها وسمع من ابن الجوزي وغيره وبحلب من حنبل وبدمشق من جماعة، ودرس وأفتى وصنف تصانيف حسنة منها طبقات الشافعية وكتاب المغني في غريب المهذب، وكان من أعيان الأئمة عارفاً بالأصول قوي المشاركة في العلوم، لكن في كتابه المغني أوهام كثيرة نبه النووي في تهذيبه على كثير منها {cite:shadharat-dhahab p. 276}."
+  en: "The Mosul Shafi'i (b. 575, d. Aleppo Jumada II 655) — author of Tabaqat al-Shafi'iyya and al-Mughni fi Gharib al-Muhadhdhab, whose errors al-Nawawi catalogued in his Tahdhib {cite:shadharat-dhahab p. 276}."
+gender: male
+roles: [scholar, jurist, muhaddith]
+wings: [people]
+periods: [period/crusades-ayyubid-mamluk]
+regions: [levant-iraq]
+faith:
+  - value: sunni-shafii
+    basis: tradition
+relations:
+  - { type: born_in, target: place/mosul, sources: [source/shadharat-dhahab] }
+  - { type: died_in, target: place/aleppo, sources: [source/shadharat-dhahab] }
+sources: [source/shadharat-dhahab]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }
+provenance:
+  layer: own-research
+  source: "شذرات الذهب — ابن العماد (ج5، سنة 655)، قراءة آبل فيجن"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-shadharat-batch-129

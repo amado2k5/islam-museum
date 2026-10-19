@@ -1,0 +1,24 @@
+id: event/al-rashid-deposed-530
+class: event
+kind: other
+label: { ar: "خلع الخليفة الراشد وبيعة المقتفي سنة 530" }
+summary:
+  ar: "في سنة ثلاثين وخمسمائة حصل بين السلطان مسعود وبين الخليفة الراشد بالله خلاف فجُمعت العساكر وذهب الخليفة إلى الموصل، ودخل السلطان مسعود بغداد واحتوى على دار الخلافة وأخرج خط والد الخليفة المسترشد أنه من خرج من بغداد لقتال السلطان فقد خلع نفسه من الخلافة، فأفتى من أفتى من الفقهاء بخلعه فخُلع يوم الاثنين سادس عشر ذي القعدة بحكم الحاكم وفتيا الفقهاء، واستُدعي بعمه المقتفي لأمر الله فبُويع له بالخلافة {cite:shadharat-dhahab p. 574}."
+  en: "In 530 conflict broke out between Sultan Mas'ud and caliph al-Rashid bi'llah; armies were mustered, the caliph left for Mosul, and Mas'ud entered Baghdad, seized the palace, and produced al-Mustarshid's letter — whoever leaves Baghdad to fight the Sultan has deposed himself — so the jurists who were asked ruled for deposition, and he was deposed on Monday 16 Dhu al-Qa'da by the hakim's ruling and the fuqaha's fatwa, while his uncle al-Muqtafi was summoned and given the caliphate's bay'a {cite:shadharat-dhahab p. 574}."
+wings: [time]
+periods: [period/buyid-seljuk-fatimid-era]
+regions: [levant-iraq]
+date:
+  start: { edtf: "1136-08~", hijri: "0530-11", calendar: julian, precision: day, status: tradition, derived: true, note: "خُلع يوم الاثنين سادس عشر ذي القعدة سنة ثلاثين وخمسمائة {cite:shadharat-dhahab p. 574}؛ التحويل مشتق." }
+relations:
+  - { type: occurred_at, target: place/baghdad, sources: [source/shadharat-dhahab] }
+  - { type: had_participant, target: person/al-rashid-billah, role: "المخلوع", sources: [source/shadharat-dhahab] }
+  - { type: had_participant, target: person/al-muqtafi-billah, role: "المستدعى المُستخلَف", sources: [source/shadharat-dhahab] }
+  - { type: had_participant, target: person/masud-ibn-muhammad-saljuqi, role: "السلطان المُخلِع", sources: [source/shadharat-dhahab] }
+provenance:
+  layer: own-research
+  source: "شذرات الذهب لابن العماد — الجزء الرابع، ممسوح مكتبة الحصاد (AAlexandrina-223861)، قراءة آبل فيجن"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-shadharat-batch-115
+sources: [source/shadharat-dhahab]
+status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 High)" }

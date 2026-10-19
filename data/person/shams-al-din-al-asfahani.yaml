@@ -1,0 +1,27 @@
+id: person/shams-al-din-al-asfahani
+class: person
+label: { ar: "شمس الدين الأصفهاني الأصولي", en: "Shams al-Din al-Asfahani" }
+names:
+  - { value: "شمس الدين الأصفهاني الأصولي المتكلم العلامة أبو عبد الله محمد بن محمود بن محمد بن عباد العجلي", kind: full }
+born: { edtf: "1219~", hijri: "0616", calendar: julian, precision: year, status: tradition, derived: true, note: "ولد بأصفهان سنة ست عشرة وستمائة {cite:shadharat-dhahab p. 710}." }
+died: { edtf: "1291-07~", hijri: "0690-07-20", calendar: julian, precision: day, status: tradition, derived: true, note: "توفي في العشرين من رجب وله اثنتان وسبعون سنة {cite:shadharat-dhahab p. 711}." }
+summary:
+  ar: "الأصولي المتكلم العلامة نزيل مصر؛ اشتغل بأصفهان في حياة أبيه نائب السلطنة حتى فاق نظراءه، فلما استولى العدو على أصفهان رحل إلى بغداد فأخذ الفقه عن سراج الدين الهرقلي وبالعلوم عن تاج الدين الأرموي، ثم ذهب إلى الروم إلى أثير الدين الأبهري فأخذ عنه الجدل والحكمة، ثم دخل القاهرة وولي قضاء قوص خلافة عن القاضي تاج الدين ابن بنت الأعز فباشره مباشرة حسنة، ودرّس بالشافعي ومشهد الحسين؛ شرح «المحصول» وله «الفوائد في العلوم الأربعة» و«غاية المطلب» في المنطق؛ وقيل إن ابن دقيق العيد كان بحضر درسه بقوص {cite:shadharat-dhahab p. 710-711}."
+  en: "The usuli-mutakallim — driven from Isfahan by the conquest to Baghdad, then Rum to Athir al-Din al-Abhari, then Cairo and the qada of Qus; author of the Mahsul sharh and Fawa'id fi al-'ulum al-arba'a {cite:shadharat-dhahab p. 710-711}."
+gender: male
+roles: [theologian, jurist, scholar]
+wings: [people]
+periods: [period/mongol-post-mongol]
+regions: [persia-central-asia, egypt-nile]
+faith:
+  - value: sunni-shafii
+    basis: tradition
+relations:
+  - { type: born_in, target: place/isfahan, sources: [source/shadharat-dhahab] }
+sources: [source/shadharat-dhahab]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }
+provenance:
+  layer: own-research
+  source: "شذرات الذهب — ابن العماد (ج7، سنة 690)، قراءة آبل فيجن"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-shadharat-batch-134

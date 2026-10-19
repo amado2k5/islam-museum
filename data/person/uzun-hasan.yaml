@@ -1,0 +1,22 @@
+id: person/uzun-hasan
+class: person
+label: { ar: "حسن بك الأق قويونلو", en: "Hasan Bak the Aq Qoyunlu (Uzun Hasan)" }
+names:
+  - { value: "حسن بك بن علي بك بن قرا بلوك متملك العراقين وأذربيجان وديار بكر", kind: full }
+gender: male
+summary:
+  ar: "حسن بك بن علي بك بن قرا بلوك متملك العراقين وأذربيجان وديار بكر؛ توفي في جمادى الآخرة أو رجب سنة اثنتين وثمانين وثمانمائة {cite:shadharat-dhahab p. 335}."
+  en: "Uzun Hasan — Aq Qoyunlu lord of the two Iraqs, Azerbaijan and Diyar Bakr; died Jumada II or Rajab 882 {cite:shadharat-dhahab p. 335}."
+roles: [emir]
+wings: [people]
+periods: [period/mongol-post-mongol]
+regions: [levant-iraq, persia-central-asia]
+faith: [{ value: sunni, basis: documented }]
+died: { edtf: "1478-01~", hijri: "0882-07~", calendar: julian, precision: month, status: tradition, derived: true, note: "توفي جمادى الآخرة أو رجب 882 {cite:shadharat-dhahab p. 335}", sources: [source/shadharat-dhahab] }
+provenance:
+  layer: own-research
+  source: "شذرات الذهب — ابن العماد (ط مكتبة المثنى 1351، ج7، سنة 882)، قراءة آبل فيجن"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-shadharat-batch-141
+sources: [source/shadharat-dhahab]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

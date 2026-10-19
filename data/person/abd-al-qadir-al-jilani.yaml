@@ -7,7 +7,14 @@ gender: male
 roles: [mystic, scholar]
 traditions: [sunni]
 born: { edtf: "1078", hijri: "0470", calendar: julian, precision: year, status: tradition, sources: [source/mawsuat-a3lam-ulama-adaba] }
-died: { edtf: "1166", hijri: "0561", calendar: julian, precision: year, status: tradition, sources: [source/mawsuat-a3lam-ulama-adaba] }
+died:
+  edtf: "1166-02~"
+  hijri: "0561-04"
+  calendar: julian
+  precision: month
+  status: tradition
+  derived: true
+  note: "مات بعد عتمة ليلة السبت عاشر ربيع الآخر وصلى عليه ولده عبد الوهاب ودفن في رواق مدرسته وبلغ تسعين سنة {cite:shadharat-dhahab p. 682}؛ سنة 561هـ {cite:mawsuat-a3lam-ulama-adaba}؛ التحويل مشتق."
 summary:
   ar: "من كبار مشايخ التصوف السني، ونُسب إلى جيلان، وكان له أثر كبير في الوعظ والإرشاد."
   en: "One of the major masters of Sunni Sufism, named after Gilan. He had a large influence on preaching and spiritual guidance."
@@ -17,6 +24,6 @@ periods: [period/crusades-ayyubid-mamluk]
 regions: [levant-iraq]
 story_roles:
   - { role: saint, status: tradition, sources: [source/mawsuat-a3lam-ulama-adaba] }
-sources: [source/mawsuat-a3lam-ulama-adaba]
+sources: [source/mawsuat-a3lam-ulama-adaba, source/shadharat-dhahab]
 status: { review: draft, completeness: 1, generated_by: "Devin; Mawsuat A'lam vol 5 pp. 606, lib-mawsuat-a3lam" }
 provenance: { layer: own-research, source: "موسوعة أعلام العلماء والأدباء (أليكسو/دار الجيل 2004) ج5 ص606", generated_by: "Devin", model: "SWE-2 High", run: "lib-mawsuat-a3lam" }

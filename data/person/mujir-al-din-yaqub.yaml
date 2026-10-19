@@ -1,0 +1,26 @@
+id: person/mujir-al-din-yaqub
+class: person
+label: { ar: "مجير الدين يعقوب بن العادل", en: "Mujir al-Din Ya'qub b. al-Adil" }
+names:
+  - { value: "مجير الدين يعقوب بن الملك العادل أبي بكر بن أيوب", kind: full }
+died: { edtf: "1256-11~", hijri: "0654-11", calendar: julian, precision: month, status: tradition, derived: true, note: "توفي في ذي القعدة سنة أربع وخمسين وستمائة ودفن بالتربة عند أبيه {cite:shadharat-dhahab p. 274}." }
+summary:
+  ar: "ابن الملك العادل ويلقب هو بالملك المعز؛ كان فاضلاً أجاز له أبو روح الهروي وطائفة، توفي في ذي القعدة ودفن بالتربة عند أبيه {cite:shadharat-dhahab p. 274}."
+  en: "Al-Adil's son, styled al-Malik al-Mu'izz (d. Dhu al-Qa'da 654) — buried beside his father {cite:shadharat-dhahab p. 274}."
+gender: male
+roles: [emir]
+wings: [people]
+periods: [period/crusades-ayyubid-mamluk]
+regions: [levant-iraq]
+faith:
+  - value: sunni
+    basis: tradition
+relations:
+  - { type: child_of, target: person/al-malik-al-adil-ayyub, sources: [source/shadharat-dhahab] }
+sources: [source/shadharat-dhahab]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }
+provenance:
+  layer: own-research
+  source: "شذرات الذهب — ابن العماد (ج5، سنة 654)، قراءة آبل فيجن"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-shadharat-batch-129

@@ -1,0 +1,39 @@
+id: person/abd-al-latif-al-baghdadi
+class: person
+label: { ar: "موفق الدين عبد اللطيف البغدادي" }
+summary:
+  ar: "الموفق أبو محمد عبد اللطيف بن يوسف العلامة ذو الفنون البغدادي الشافعي النحوي اللغوي الطبيب الفيلسوف صاحب التصانيف الكثيرة؛ ولد سنة سبع وخمسين وخمسمائة وسمع من جماعة كثيرين منهم ابن البطي وأبو زرعة وتفقه على أبي القاسم بن فضلان وأقام بحلب وحفظ كتباً كثيرة؛ من تصانيفه شرح مقدمة ابن بابشاذ في النحو وشرح المقامات وشرح بانت سعاد والجامع الكبير في المنطق والطبيعي والإلهي في عشر مجلدات والرد على اليهود والنصارى وغريب الحديث في ثلاث مجلدات واختصره وشرح أحاديث ابن ماجه المتعلقة بالطب؛ قال الذهبي كان أحد الأذكياء البارعين في اللغة والآداب والطب وعلم الأوائل لكن كثرة دعاويه أزرت به، ومن كلامه من لم يحتمل ألم التعلم لم يذق لذة العلم ومن لم يكدح لم يفلح؛ سافر من حلب ليحج على العراق فأدركه الموت ببغداد في ثاني عشر المحرم سنة تسع وعشرين وستمائة {cite:shadharat-dhahab p. 132}."
+  en: "Muwaffaq al-Din Abd al-Latif al-Baghdadi — the polymath physician, grammarian and philosopher, pupil of Ibn Fadlan, resident of Aleppo, author of sharhs on Ibn Babshad, the Maqamat and Bint Su'ad, a ten-volume Jami' on logic and the sciences, a refutation of Jews and Christians, and a Gharib al-Hadith; al-Dhahabi counted him among the age's brilliant minds though his many claims diminished him — 'whoever cannot bear the pain of learning never tastes its sweetness'; died at Baghdad on the Hajj road, 12 Muharram 629 {cite:shadharat-dhahab p. 132}."
+gender: male
+wings: [people]
+periods: [period/mongol-post-mongol]
+regions: [levant-iraq]
+faith:
+  - value: sunni
+    basis: tradition
+    note: "شافعي المذهب"
+born:
+  edtf: "1162~"
+  hijri: "0557"
+  calendar: julian
+  precision: year
+  status: tradition
+  derived: true
+  note: "ولد سنة سبع وخمسين وخمسمائة؛ التحويل مشتق {cite:shadharat-dhahab p. 132}."
+died:
+  edtf: "1231~"
+  hijri: "0629-01-12"
+  calendar: julian
+  precision: day
+  status: tradition
+  derived: true
+  note: "أدركه الموت ببغداد في ثاني عشر المحرم سنة تسع وعشرين؛ التحويل مشتق {cite:shadharat-dhahab p. 132}."
+relations:
+  - { type: died_in, target: place/baghdad, sources: [source/shadharat-dhahab] }
+sources: [source/shadharat-dhahab]
+status: { review: draft, completeness: 1 }
+provenance:
+  layer: own-research
+  source: "شذرات الذهب — ابن العماد (ج5، سنة 629)"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-shadharat-batch-124

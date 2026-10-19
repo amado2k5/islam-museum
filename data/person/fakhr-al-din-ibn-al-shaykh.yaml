@@ -1,0 +1,30 @@
+id: person/fakhr-al-din-ibn-al-shaykh
+class: person
+label: { ar: "فخر الدين ابن شيخ الشيوخ", en: "Fakhr al-Din ibn al-Shaykh" }
+names:
+  - { value: "الأمير نائب السلطنة فخر الدين أبو الفضل يوسف بن الشيخ صدر الدين محمد بن عمر بن علي بن محمد بن هموية الجويني", kind: full }
+born: { edtf: "1166~", hijri: "0562~", calendar: julian, precision: year, status: tradition, derived: true, note: "ولد بدمشق بعد الستين وخمسمائة {cite:shadharat-dhahab p. 247}." }
+died: { edtf: "1250-02~", hijri: "0647-11", calendar: julian, precision: month, status: tradition, derived: true, note: "قُتل يوم المنصورة في ذي القعدة سنة سبع وأربعين وستمائة؛ جاءته ضربتان في وجهه فسقط {cite:shadharat-dhahab p. 246-247}." }
+summary:
+  ar: "ابن شيخ الشيوخ صدر الدين الجويني، نائب السلطنة؛ كان رئيساً محتشماً سيداً معظماً ذا عقل ورأي ودهاء وشجاعة وكرم؛ سجنه السلطان سنة أربعين وقاسى شدائد وبقي في الحسن ثلاث سنين ثم أخرجه وأنعم عليه وقدمه على الجيش؛ قاد فتح عسقلان وطبرية سنة أربع وأربعين، وكان بدمياط يوم نازلها الفرنج سنة سبع وأربعين، وطُعن يوم المنصورة فجاءته ضربتان في وجهه فسقط {cite:shadharat-dhahab p. 246-247}."
+  en: "Son of shaykh al-shuyukh Sadr al-Din al-Juwayni — commander of the Ascalon conquest of 644, present at Damietta when the Franks landed, and killed at Mansura in Dhu al-Qa'da 647 by two blows to the face, after three years in al-Salih's prison had ended in command of the army {cite:shadharat-dhahab p. 246-247}."
+gender: male
+roles: [general, emir]
+wings: [people]
+periods: [period/crusades-ayyubid-mamluk]
+regions: [egypt-nile, levant-iraq]
+faith:
+  - value: sunni
+    basis: tradition
+relations:
+  - { type: participated_in, target: event/battle-mansura-647, sources: [source/shadharat-dhahab] }
+  - { type: participated_in, target: event/ascalon-tiberias-644, sources: [source/shadharat-dhahab] }
+  - { type: died_in, target: place/al-mansura, sources: [source/shadharat-dhahab] }
+  - { type: born_in, target: place/damascus, sources: [source/shadharat-dhahab] }
+sources: [source/shadharat-dhahab]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }
+provenance:
+  layer: own-research
+  source: "شذرات الذهب — ابن العماد (ج5، سنة 647)، قراءة آبل فيجن"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-shadharat-batch-128

@@ -1,0 +1,26 @@
+id: person/al-malik-al-muzaffar-hama
+class: person
+label: { ar: "الملك المظفر صاحب حماة آخر ملوكها", en: "al-Malik al-Muzaffar, last king of Hama" }
+names:
+  - { value: "صاحب حماة الملك المظفر تقي الدين محمود بن الملك المنصور ناصر الدين محمد بن المظفر محمود بن المنصور محمد بن عمر شاهنشاه الحموي", kind: full }
+died: { edtf: "1299-08~", hijri: "0698-11-21", calendar: julian, precision: day, status: tradition, derived: true, note: "مات في الحادي والعشرين من ذي القعدة سنة ثمان وتسعين {cite:shadharat-dhahab p. 774}." }
+summary:
+  ar: "آخر ملوك حماة من بيت أيوب؛ مات في الحادي والعشرين من ذي القعدة سنة ثمان وتسعين وستمائة {cite:shadharat-dhahab p. 774}."
+gender: male
+roles: [sultan]
+wings: [people]
+periods: [period/mongol-post-mongol]
+regions: [levant-iraq]
+faith:
+  - value: sunni
+    basis: tradition
+relations:
+  - { type: child_of, target: person/al-malik-al-mansur-ii-hama, sources: [source/shadharat-dhahab] }
+  - { type: ruler_of, target: place/hama, sources: [source/shadharat-dhahab] }
+sources: [source/shadharat-dhahab]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }
+provenance:
+  layer: own-research
+  source: "شذرات الذهب — ابن العماد (ج7، سنة 698)، قراءة آبل فيجن"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-shadharat-batch-135

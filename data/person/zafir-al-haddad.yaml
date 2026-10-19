@@ -1,0 +1,30 @@
+id: person/zafir-al-haddad
+class: person
+label: { ar: "ظافر الحداد" }
+names:
+  - { value: "أبو المنصور ظافر بن القاسم بن منصور الجذامي الإسكندري المعروف بالحداد", kind: full }
+summary:
+  ar: "الشاعر المشهور أبو المنصور ظافر بن القاسم الجذامي الإسكندري المعروف بالحداد؛ كان من الشعراء المجيدين وله ديوان شعر أكثره جيد، ومدح جماعة من أمراء مصر، وروى عنه الحافظ أبو طاهر السلفي وغيره من الأعيان، وذكره ابن خلّكان وابن شهبة وأثنى عليه علي بن ظافر في بدائع البدائه؛ وكانت وفاته بمصر في المحرم سنة تسع وعشرين وخمسمائة {cite:shadharat-dhahab p. 571-573}."
+  en: "The celebrated poet Abu al-Mansur Zafir ibn al-Qasim al-Judhami of Alexandria, known as al-Haddad; among the accomplished poets with a mostly fine diwan, panegyrist of Egypt's amirs, transmitted from by the hafiz Abu Tahir al-Silafi and other notables, praised by Ali ibn Zafir in Bada'i al-Bada'ih; d. at Misr in Muharram 529 {cite:shadharat-dhahab p. 571-573}."
+gender: male
+wings: [people]
+roles: [poet]
+periods: [period/buyid-seljuk-fatimid-era]
+regions: [egypt-nile]
+died:
+  edtf: "1134-10~"
+  hijri: "0529-01"
+  calendar: julian
+  precision: month
+  status: tradition
+  derived: true
+  note: "توفي بمصر في المحرم سنة تسع وعشرين وخمسمائة {cite:shadharat-dhahab p. 573}؛ التحويل مشتق."
+relations:
+  - { type: died_in, target: place/misr, sources: [source/shadharat-dhahab] }
+provenance:
+  layer: own-research
+  source: "شذرات الذهب لابن العماد — الجزء الرابع، ممسوح مكتبة الحصاد (AAlexandrina-223861)، قراءة آبل فيجن"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-shadharat-batch-114
+sources: [source/shadharat-dhahab]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

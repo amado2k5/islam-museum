@@ -1,0 +1,26 @@
+id: event/tatars-sack-irbil-634
+class: event
+kind: raid
+label: { ar: "أخذ التتار أربل بالسيف سنة 634" }
+summary:
+  ar: "في سنة أربع وثلاثين وستمائة نزل التتار على أربل وحاصروها وأخذوها بالسيف حتى جافت المدينة بالقتلى وترحلوا بغنائم لا تحصى {cite:shadharat-dhahab p. 162}."
+  en: "In 634 the Tatars descended on Arbil, besieged it and took it by the sword until the city was choked with corpses, departing with countless spoils — the Begteginid capital overrun {cite:shadharat-dhahab p. 162}."
+wings: [time]
+themes: [mongol-invasions]
+periods: [period/mongol-post-mongol]
+regions: [levant-iraq]
+date:
+  start: { edtf: "1236~", hijri: "0634", calendar: julian, precision: year, status: tradition, derived: true, note: "634هـ؛ التحويل مشتق {cite:shadharat-dhahab p. 162}.", sources: [source/shadharat-dhahab] }
+sides:
+  - label: { ar: "التتار" }
+  - label: { ar: "أربل ومماليك كوكبوري" }
+relations:
+  - { type: occurred_at, target: place/irbil, sources: [source/shadharat-dhahab] }
+  - { type: had_participant, target: polity/mongol-empire, role: "الغازون", sources: [source/shadharat-dhahab] }
+sources: [source/shadharat-dhahab]
+status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 High)" }
+provenance:
+  layer: own-research
+  source: "شذرات الذهب — ابن العماد (ج5، سنة 634)، قراءة آبل فيجن"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-shadharat-batch-125

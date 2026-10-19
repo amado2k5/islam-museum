@@ -1,6 +1,6 @@
 ---
 import "../styles/global.css";
-import { ui, other, LANGS, WINGS, wingHref, type Lang } from "../lib/i18n";
+import { ui, LANGS, WINGS, wingHref, type Lang } from "../lib/i18n";
 import { SITE } from "../lib/graph";
 import { truncateDesc } from "../lib/meta";
 import { wingCountLabel, explorePages } from "../lib/nav";
@@ -23,7 +23,6 @@ const desc = truncateDesc(description ?? T.landing.meta_description ?? T.landing
 const canonical = `${SITE}${path}`;
 const alt = alternates ?? Object.fromEntries(LANGS.map((l) => [l, path.replace(`/${lang}/`, `/${l}/`)]));
 const multilingual = LANGS.length > 1;
-const switchHref = alt[other(lang)] ?? `/${other(lang)}/`;
 const ld = jsonld ? (Array.isArray(jsonld) ? jsonld : [jsonld]) : [];
 const fonts = lang === "ar" ? [naskh400, amiri400] : [serif400, inter400];
 const wingCount = (w: string) => wingCountLabel(lang, w);
@@ -128,7 +127,16 @@ const EXPLORE = explorePages(lang);
         </nav>
         <div class="nav-tools ui">
           <a class="chip" href={`/${lang}/search/`}>{T.nav.search} ⌕</a>
-          {multilingual && <a class="chip" href={switchHref} hreflang={other(lang)} lang={other(lang)} style="border:1px solid var(--line)"><span class="ltr" dir="ltr">AR | EN</span></a>}
+          {multilingual && (
+            <span class="chip lang-switch ltr" dir="ltr" style="border:1px solid var(--line)">
+              {LANGS.map((l, i) => (
+                <>
+                  {i > 0 && <span aria-hidden="true"> | </span>}
+                  {l === lang ? <span aria-current="true" style="font-weight:700">{l.toUpperCase()}</span> : <a href={alt[l] ?? `/${l}/`} hreflang={l} lang={l}>{l.toUpperCase()}</a>}
+                </>
+              ))}
+            </span>
+          )}
           <button class="chip" id="font-toggle" type="button" aria-pressed="false" style="border:0;cursor:pointer">{T.explore.font}</button>
           <button class="chip" id="theme" type="button" aria-label={T.a11y.theme} data-to-dark={T.a11y.theme} data-to-light={T.a11y.theme_light} style="border:0;cursor:pointer">◐</button>
         </div>
@@ -158,6 +166,11 @@ const EXPLORE = explorePages(lang);
         if (mb && nav) {
           var setOpen = function (open, back) {
             nav.classList.toggle("open", open);
+            // the panel scrolls within the screen below the header, whatever the header's height
+            if (open) {
+              var below = nav.getBoundingClientRect().top, view = window.visualViewport ? window.visualViewport.height : window.innerHeight;
+              nav.style.maxHeight = Math.max(160, Math.floor(view - below - 8)) + "px";
+            } else nav.style.maxHeight = "";
             mb.setAttribute("aria-expanded", String(open));
             if (open) { var first = nav.querySelector("a"); if (first) first.focus(); } else if (back) mb.focus();
           };
@@ -169,7 +182,15 @@ const EXPLORE = explorePages(lang);
           });
           // one dropdown open at a time; a click elsewhere closes it
           nav.querySelectorAll("details[data-dd]").forEach(function (d) {
-            d.addEventListener("toggle", function () { if (d.open) nav.querySelectorAll("details[data-dd]").forEach(function (o) { if (o !== d) o.removeAttribute("open"); }); });
+            d.addEventListener("toggle", function () {
+              if (d.open) nav.querySelectorAll("details[data-dd]").forEach(function (o) { if (o !== d) o.removeAttribute("open"); });
+              // a desktop dropdown scrolls within the window below where it starts, so it never runs off the bottom
+              var m = d.querySelector(".dd-menu");
+              if (d.open && m && getComputedStyle(m).position === "absolute") {
+                var top = d.querySelector("summary").getBoundingClientRect().bottom + 8, view = window.visualViewport ? window.visualViewport.height : window.innerHeight;
+                m.style.maxHeight = Math.max(160, Math.floor(view - top - 12)) + "px";
+              }
+            });
           });
           document.addEventListener("click", function (e) { if (!nav.contains(e.target)) nav.querySelectorAll("details[data-dd][open]").forEach(function (d) { d.removeAttribute("open"); }); });
         }

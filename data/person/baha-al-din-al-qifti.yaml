@@ -1,0 +1,28 @@
+id: person/baha-al-din-al-qifti
+class: person
+label: { ar: "بهاء الدين القفطي قاضي أسنا", en: "Baha' al-Din al-Qifti, qadi of Isna" }
+names:
+  - { value: "أبو القاسم بهاء الدين هبة الله بن عبد الله بن سيد الكل القاضي القفطي", kind: full }
+born: { edtf: "1203~", hijri: "0600~", calendar: julian, precision: year, status: tradition, derived: true, note: "ولد في سنة ستمائة أو إحدى وستمائة وقيل في أواخر سنة تسع وتسعين وخمسمائة {cite:shadharat-dhahab p. 768}." }
+died: { edtf: "1298~", hijri: "0697", calendar: julian, precision: year, status: tradition, derived: true, note: "توفي بأسنا ودفن بالمدرسة المجيدية {cite:shadharat-dhahab p. 769}." }
+summary:
+  ar: "القاضي القفطي؛ تفقه على المجد القشيري وقرأ الأصول على الشمس الأصفهاني بقوص واجتمع بالقاهرة بعز الدين بن عبد السلام والزكي المنذري، وولي قضاء أسنا وتدريس المعزية بها — وكانت أسنا مشحونة بالرافضة بحسب المصدر فقام في نصرة السنة وهمّ الرافضة بقتله فحماه الله منهم، وكان ممن انتفع به تقي الدين ابن دقيق العيد، وصنّف كتباً كثيرة وكانت أوقاته موزعة بين إقراء وتدريس وتصنيف {cite:shadharat-dhahab p. 768-769}."
+  en: "Isna's qadi — Ibn Daqiq al-Id among his pupils; the Sunni source says he 'stood for the Sunna' in a town 'stuffed with rawafid' who plotted to kill him {cite:shadharat-dhahab p. 768-769}."
+gender: male
+roles: [jurist, scholar, teacher]
+wings: [people]
+periods: [period/mongol-post-mongol]
+regions: [egypt-nile]
+faith:
+  - value: sunni-shafii
+    basis: tradition
+relations:
+  - { type: student_of, target: person/izz-al-din-ibn-abd-al-salam, sources: [source/shadharat-dhahab] }
+  - { type: died_in, target: place/isna, sources: [source/shadharat-dhahab] }
+sources: [source/shadharat-dhahab]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }
+provenance:
+  layer: own-research
+  source: "شذرات الذهب — ابن العماد (ج7، سنة 697)، قراءة آبل فيجن"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-shadharat-batch-135

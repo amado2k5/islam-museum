@@ -1,8 +1,9 @@
+import { readFileSync } from "node:fs";
 import { beforeEach, describe, expect, it } from "vitest";
 import { compile } from "./build-graph";
 import { derive } from "./derive";
-import { clearRepoCache, edtfRange } from "./lib";
-import { hijriCeMismatch, hijriProblem, validateAll } from "./validate";
+import { edtfRange } from "./lib";
+import { frozenQuranTextProblem, hijriCeMismatch, hijriProblem, validateAll } from "./validate";
 import { p } from "./lib";
 import { scan } from "./check-static";
 
@@ -54,8 +55,8 @@ describe("build-graph", () => {
     expect(n.span!.latest).toBeCloseTo(1037.5, 0);
   });
   it("marks unwritten targets as stubs and attaches prose by language", () => {
-    expect(c.nodes.find((x) => x.id === "work/al-qanun-fi-al-tibb")!.stub).toBe(true);
-    expect(Object.keys(c.nodes.find((x) => x.id === "person/ibn-sina")!.prose).sort()).toEqual(["ar", "en"]);
+    expect(c.nodes.find((x) => x.id === "work/kitab-al-shifa")!.stub).toBe(true);
+    expect(Object.keys(c.nodes.find((x) => x.id === "person/ibn-sina")!.prose).sort()).toEqual(["ar", "en", "ur"]);
   });
   it("derives timeline and map layers (GeoJSON is [lon, lat])", () => {
     const d = derive(c);
@@ -115,24 +116,15 @@ describe("rules from docs 12-15", () => {
 });
 
 describe("the Qur'an text is frozen (docs/plan/15 §6.3 acceptance test 3)", () => {
-  it("fails validation when one character of an ayah is changed, and passes again when restored", async () => {
-    const { readFileSync, writeFileSync } = await import("node:fs");
-    const file = p("data", "passage", "quran-112-1.yaml");
-    const original = readFileSync(file, "utf8");
-    try {
-      expect(validateAll().issues.filter((i) => i.level === "error")).toEqual([]);
-      // drop one combining mark from the text line (a one-character change)
-      const lines = original.split("\n").map((l) => (l.startsWith("text: ") ? l.replace(/[ً-ْٰ]/, "") : l));
-      writeFileSync(file, lines.join("\n"));
-      clearRepoCache();
-      const errs = validateAll().issues.filter((i) => i.level === "error").map((i) => i.msg).join("\n");
-      expect(errs).toMatch(/differs from the frozen Tanzil file/);
-    } finally {
-      writeFileSync(file, original);
-      clearRepoCache();
-    }
-    expect(validateAll().issues.filter((i) => i.level === "error")).toEqual([]);
-  }, 120_000);
+  it("flags a passage whose text differs from the frozen Tanzil text by one character, and accepts the frozen text", () => {
+    // Read-only: the committed passage is never written to; the one-character change is made in memory only.
+    const committed = readFileSync(p("data", "passage", "quran-112-1.yaml"), "utf8").split("\n").find((l) => l.startsWith("text: "))!.slice("text: ".length);
+    const tanzil = new Map([["112:1", committed]]);
+    expect(frozenQuranTextProblem("112:1", committed, tanzil)).toBeNull();
+    const changed = committed.replace(/[ً-ْٰ]/, ""); // drop one combining mark
+    expect(changed).not.toBe(committed);
+    expect(frozenQuranTextProblem("112:1", changed, tanzil)).toMatch(/differs from the frozen Tanzil file/);
+  });
   it("has all 114 suras and 6,236 ayat", () => {
     const c = compile();
     expect(c.nodes.filter((n) => n.class === "passage" && n.data.unit === "sura").length).toBe(114);
