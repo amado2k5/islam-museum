@@ -5,7 +5,7 @@
  "candidates_file": "$HARVEST/wikidata-import/candidates.tsv",
  "candidates_query": "select distinct id from wd_claim where property='P140' and value_id='Q432' minus Wikidata ids already linked in data/, ordered by sitelink count desc",
  "linked_preexisting": 987,
- "next_index": 2660,
+ "next_index": 2760,
  "created_ids": [
   {
    "i": 24,
@@ -2792,7 +2792,127 @@
    "qid": "Q3820443",
    "id": "person/tabanyassi-mehmed-pasha"
   },
-  "person/hadim-gurcu-mehmed-pasha"
+  "person/hadim-gurcu-mehmed-pasha",
+  {
+   "i": 2664,
+   "qid": "Q4670206",
+   "id": "person/abu-hatim-ahmad-al-razi"
+  },
+  {
+   "i": 2668,
+   "qid": "Q4806987",
+   "id": "person/asim-ibn-umar"
+  },
+  {
+   "i": 2671,
+   "qid": "Q4993555",
+   "id": "person/sari-saltuk"
+  },
+  {
+   "i": 2672,
+   "qid": "Q5227852",
+   "id": "person/daud-khan-karrani"
+  },
+  {
+   "i": 2675,
+   "qid": "Q5644672",
+   "id": "person/hamid-al-din-al-kirmani"
+  },
+  {
+   "i": 2676,
+   "qid": "Q5671436",
+   "id": "person/ibn-amir-al-shami"
+  },
+  {
+   "i": 2681,
+   "qid": "Q5984167",
+   "id": "person/ibn-abi-zayd-al-qayrawani"
+  },
+  {
+   "i": 2687,
+   "qid": "Q6399609",
+   "id": "person/khalid-ibn-yazid-al-shaybani"
+  },
+  {
+   "i": 2689,
+   "qid": "Q6406176",
+   "id": "person/ala-al-dawla-al-simnani"
+  },
+  {
+   "i": 2692,
+   "qid": "Q6448423",
+   "id": "person/kuthayyir-azza"
+  },
+  {
+   "i": 2693,
+   "qid": "Q6534150",
+   "id": "person/ibn-al-imad-al-hanbali"
+  },
+  {
+   "i": 2700,
+   "qid": "Q6892016",
+   "id": "person/muhammad-hayat-al-sindi"
+  },
+  {
+   "i": 2705,
+   "qid": "Q6956644",
+   "id": "person/ahmedi-poet"
+  },
+  {
+   "i": 2706,
+   "qid": "Q6967114",
+   "id": "person/nasir-al-din-qabacha"
+  },
+  {
+   "i": 2708,
+   "qid": "Q712787",
+   "id": "person/mustafa-naima"
+  },
+  {
+   "i": 2720,
+   "qid": "Q7685991",
+   "id": "person/tarhoncu-ahmed-pasha"
+  },
+  {
+   "i": 2723,
+   "qid": "Q7856360",
+   "id": "person/tursun-beg"
+  },
+  {
+   "i": 2729,
+   "qid": "Q931976",
+   "id": "person/yirmisekiz-mehmed-celebi"
+  },
+  {
+   "i": 2731,
+   "qid": "Q97259499",
+   "id": "person/fayz-kashani"
+  },
+  {
+   "i": 2733,
+   "qid": "Q982640",
+   "id": "person/arabaci-ali-pasha"
+  },
+  {
+   "i": 2742,
+   "qid": "Q11903777",
+   "id": "person/abd-al-razzaq-al-qashani"
+  },
+  {
+   "i": 2744,
+   "qid": "Q12177809",
+   "id": "person/al-rafii-al-qazwini"
+  },
+  {
+   "i": 2751,
+   "qid": "Q12221519",
+   "id": "person/taskopruzade"
+  },
+  {
+   "i": 2755,
+   "qid": "Q12224124",
+   "id": "person/abd-al-wahhab-rustamid"
+  }
  ],
  "linked_ids": [
   {
@@ -5310,7 +5430,59 @@
    "qid": "Q4115307",
    "to": "person/abu-ali-al-jubbai"
   },
-  "person/hamdan-ibn-hamdun"
+  "person/hamdan-ibn-hamdun",
+  {
+   "i": 2669,
+   "qid": "Q4841102",
+   "to": "person/badr-al-din-lulu"
+  },
+  {
+   "i": 2678,
+   "qid": "Q576613",
+   "to": "person/abdallah-al-battal"
+  },
+  {
+   "i": 2685,
+   "qid": "Q618360",
+   "to": "person/umar-ibn-sad"
+  },
+  {
+   "i": 2695,
+   "qid": "Q6646622",
+   "to": "person/muawiya-ibn-hisham"
+  },
+  {
+   "i": 2724,
+   "qid": "Q7876440",
+   "to": "person/ubaydallah-ibn-abdallah-ibn-utba"
+  },
+  {
+   "i": 2743,
+   "qid": "Q11917497",
+   "to": "person/jad-ibn-dirham"
+  },
+  {
+   "i": 2745,
+   "qid": "Q12192249",
+   "to": "person/ali-al-muttaqi-hindi"
+  },
+  {
+   "i": 2749,
+   "qid": "Q12220051",
+   "to": "person/safwan-ibn-al-muattal"
+  },
+  {
+   "i": 2750,
+   "qid": "Q12220160",
+   "to": "person/al-safadi"
+  },
+  {
+   "i": 2753,
+   "qid": "Q12223465",
+   "to": "person/al-humaydi-abd-allah-ibn-al-zubayr"
+  },
+  "person/badis-ibn-al-mansur",
+  "person/kathir-azza"
  ],
  "skipped": [
   [
@@ -13307,9 +13479,339 @@
    2659,
    "Q4287941",
    "Islam Khodja Madrasa built 1908; modern building"
+  ],
+  [
+   2660,
+   "Q4664522",
+   "Abdallah ibn Muhammad ibn al-Hanafiyya; deferred — batch cap"
+  ],
+  [
+   2661,
+   "Q4665471",
+   "Abdul Karim Khan Yarkand; deferred — batch cap"
+  ],
+  [
+   2662,
+   "Q46675",
+   "Akhtar Raza d.2018; modern"
+  ],
+  [
+   2663,
+   "Q466888",
+   "pirate Danseker; thin, deferred"
+  ],
+  [
+   2665,
+   "Q4695801",
+   "Esad Pasha d.1875; post-1800"
+  ],
+  [
+   2666,
+   "Q4699149",
+   "Babur's wife; deferred"
+  ],
+  [
+   2667,
+   "Q4725236",
+   "Ali Suavi d.1878; post-1800"
+  ],
+  [
+   2670,
+   "Q4869269",
+   "batil term; deferred"
+  ],
+  [
+   2673,
+   "Q5397556",
+   "Istanbul mosque; deferred"
+  ],
+  [
+   2674,
+   "Q5628517",
+   "activist; modern"
+  ],
+  [
+   2677,
+   "Q572499",
+   "Crimean politician; modern"
+  ],
+  [
+   2679,
+   "Q5772358",
+   "Izmir mosque; deferred"
+  ],
+  [
+   2680,
+   "Q589068",
+   "Modarres; modern"
+  ],
+  [
+   2682,
+   "Q6063292",
+   "Emirgan mosque; deferred"
+  ],
+  [
+   2683,
+   "Q6123209",
+   "Mughal empress; deferred"
+  ],
+  [
+   2684,
+   "Q618268",
+   "militant; modern"
+  ],
+  [
+   2686,
+   "Q6370538",
+   "actor; modern"
+  ],
+  [
+   2688,
+   "Q6405861",
+   "Umar ibn Ali; thin, deferred"
+  ],
+  [
+   2690,
+   "Q6414792",
+   "Kiraman Katibin angels; deferred"
+  ],
+  [
+   2691,
+   "Q6416288",
+   "Bahram Mirza; deferred — batch cap"
+  ],
+  [
+   2694,
+   "Q6578004",
+   "Ottoman princess d.1931; modern"
+  ],
+  [
+   2696,
+   "Q6684240",
+   "Indonesian mosque; deferred"
+  ],
+  [
+   2697,
+   "Q6783320",
+   "Dhu al-Hulayfa mosque Medina; deferred"
+  ],
+  [
+   2698,
+   "Q6809555",
+   "Ottoman prince d.1915; modern"
+  ],
+  [
+   2699,
+   "Q68773",
+   "al-Wadi'i; modern"
+  ],
+  [
+   2701,
+   "Q689858",
+   "Zurich mosque; modern"
+  ],
+  [
+   2702,
+   "Q6925992",
+   "ayatollah; modern"
+  ],
+  [
+   2703,
+   "Q6932035",
+   "scholar; modern"
+  ],
+  [
+   2704,
+   "Q6933491",
+   "politician; modern"
+  ],
+  [
+   2707,
+   "Q6993506",
+   "Diyarbakir mosque; deferred"
+  ],
+  [
+   2709,
+   "Q715050",
+   "Ma Lin; modern"
+  ],
+  [
+   2710,
+   "Q720334",
+   "Hyderabad prince; modern"
+  ],
+  [
+   2711,
+   "Q7250299",
+   "prophetic medicine term; deferred"
+  ],
+  [
+   2712,
+   "Q7325474",
+   "politician; modern"
+  ],
+  [
+   2713,
+   "Q7378659",
+   "Khalidi d.1913; modern"
+  ],
+  [
+   2714,
+   "Q7410274",
+   "Samra ibn Jundab; deferred — batch cap"
+  ],
+  [
+   2715,
+   "Q7419814",
+   "politician; modern"
+  ],
+  [
+   2716,
+   "Q7636672",
+   "Malaysian mosque; modern"
+  ],
+  [
+   2717,
+   "Q7636682",
+   "Malaysian mosque; modern"
+  ],
+  [
+   2718,
+   "Q7637027",
+   "Jordanian royal; modern"
+  ],
+  [
+   2719,
+   "Q7682971",
+   "Tangier mosque; deferred"
+  ],
+  [
+   2721,
+   "Q778316",
+   "create-failed:file-exists:data/person/badis-ibn-al-mansur.yaml"
+  ],
+  [
+   2722,
+   "Q7833451",
+   "Tranquerah mosque; deferred"
+  ],
+  [
+   2725,
+   "Q7961292",
+   "sainthood term; deferred"
+  ],
+  [
+   2726,
+   "Q8047540",
+   "Konak mosque; deferred"
+  ],
+  [
+   2727,
+   "Q809778",
+   "Kruje mosque; deferred"
+  ],
+  [
+   2728,
+   "Q883658",
+   "Lead mosque Berat; deferred"
+  ],
+  [
+   2730,
+   "Q953268",
+   "Muhammad II Marinid; deferred — batch cap"
+  ],
+  [
+   2732,
+   "Q97486517",
+   "Ardabili d.1585; deferred — batch cap"
+  ],
+  [
+   2734,
+   "Q1009877",
+   "Travnik mosque; deferred"
+  ],
+  [
+   2735,
+   "Q104816462",
+   "preacher; modern"
+  ],
+  [
+   2736,
+   "Q10667462",
+   "attributes of God term; deferred"
+  ],
+  [
+   2737,
+   "Q106925230",
+   "spokesman; modern"
+  ],
+  [
+   2738,
+   "Q107159719",
+   "Bosnia mosque; deferred"
+  ],
+  [
+   2739,
+   "Q1088179",
+   "Qatada ibn al-Nu'man; deferred — batch cap"
+  ],
+  [
+   2740,
+   "Q1137517",
+   "Tekke mosque Istanbul; deferred"
+  ],
+  [
+   2741,
+   "Q117188267",
+   "Casablanca mosque; modern"
+  ],
+  [
+   2746,
+   "Q12194955",
+   "Walid ibn al-Walid; deferred — batch cap"
+  ],
+  [
+   2747,
+   "Q12204207",
+   "al-Bakiriyya mosque; deferred"
+  ],
+  [
+   2748,
+   "Q12219331",
+   "reciter; modern"
+  ],
+  [
+   2752,
+   "Q12223339",
+   "imam; modern"
+  ],
+  [
+   2754,
+   "Q12223533",
+   "ibn Ubayy's son; thin, deferred"
+  ],
+  [
+   2756,
+   "Q12227598",
+   "signs term; deferred"
+  ],
+  [
+   2757,
+   "Q12497282",
+   "Indonesian mosque; deferred"
+  ],
+  [
+   2758,
+   "Q12497343",
+   "Mangkunegaran mosque; deferred"
+  ],
+  [
+   2759,
+   "Q1254341",
+   "Pristina mosque; deferred"
   ]
  ],
- "skipped_total": 1604,
+ "skipped_total": 1670,
  "skipped_by_reason": {
   "modern sovereign state; no matching record (al-Hind region is a different entity)": 1,
   "modern sovereign state; no matching record": 8,
@@ -14341,7 +14843,7 @@
   "consort d.1898; post-1800": 1,
   "Mimar Kemaleddin d.1927; modern": 1,
   "Fatma Sultan; no confirmed source on the page": 1,
-  "actor; modern": 2,
+  "actor; modern": 3,
   "Sisli Mosque 1949; modern": 1,
   "Muhammadu Bello d.1837; post-1800": 1,
   "Ilyas Kandhlawi d.1944; modern": 1,
@@ -14524,7 +15026,7 @@
   "Free Officer d.2018; modern": 1,
   "Muhammad Imara d.2020; modern": 1,
   "Kizimkazi mosque Zanzibar; deferred": 1,
-  "create-failed:file-exists": 6,
+  "create-failed:file-exists": 7,
   "Mubarakpuri d.2006; modern": 1,
   "al-Nasir Muhammad madrasa Cairo; deferred": 1,
   "King Mosque Elbasan; no confirmed source": 1,
@@ -14641,7 +15143,7 @@
   "Tekeli Mehmet mosque Antalya; deferred": 1,
   "Orta Cami Ukraine; no confirmed source": 1,
   "Bosnian leader d.1887; post-1800": 1,
-  "ayatollah; modern": 1,
+  "ayatollah; modern": 2,
   "Singapore politician d.1984; modern": 1,
   "Nuh Keller; modern": 1,
   "Ottoman consort d.1889; modern": 1,
@@ -14750,7 +15252,7 @@
   "fahisha term; deferred": 1,
   "al-Shanqiti; modern": 1,
   "al-Sabuni d.2021; modern": 1,
-  "imam; modern": 1,
+  "imam; modern": 2,
   "Medan grand mosque 1909; modern": 1,
   "Cekrekcija mosque; no confirmed source": 1,
   "Arif Agha mosque Edirne; no confirmed source": 1,
@@ -14781,12 +15283,12 @@
   "philosopher d.1947; modern": 1,
   "haqiqa Sufi term; deferred": 1,
   "al-Qaeda member; modern": 1,
-  "politician; modern": 1,
+  "politician; modern": 4,
   "playwright; modern": 1,
   "Ottoman composer d.1846; post-1800": 1,
   "scholar d.2025; modern": 1,
-  "activist; modern": 1,
-  "militant; modern": 1,
+  "activist; modern": 2,
+  "militant; modern": 2,
   "Malta mosque; modern": 1,
   "Liberation mosque; converted church, deferred": 1,
   "Begumpur mosque India; no confirmed source": 1,
@@ -14805,7 +15307,7 @@
   "Bajrakli mosque; deferred": 1,
   "Sidi Bel Hasan mosque; deferred": 1,
   "Vrioni d.1828; post-1800": 1,
-  "Malaysian mosque; modern": 2,
+  "Malaysian mosque; modern": 4,
   "da'i; modern": 1,
   "Lebanese PM; modern": 1,
   "Manastir mosque Istanbul; deferred": 1,
@@ -14823,10 +15325,64 @@
   "aql term; deferred": 1,
   "TV personality; modern": 1,
   "infaq term; deferred": 1,
-  "Islam Khodja Madrasa built 1908; modern building": 1
+  "Islam Khodja Madrasa built 1908; modern building": 1,
+  "Abdallah ibn Muhammad ibn al-Hanafiyya; deferred — batch cap": 1,
+  "Abdul Karim Khan Yarkand; deferred — batch cap": 1,
+  "Akhtar Raza d.2018; modern": 1,
+  "pirate Danseker; thin, deferred": 1,
+  "Esad Pasha d.1875; post-1800": 1,
+  "Babur's wife; deferred": 1,
+  "Ali Suavi d.1878; post-1800": 1,
+  "batil term; deferred": 1,
+  "Istanbul mosque; deferred": 1,
+  "Crimean politician; modern": 1,
+  "Izmir mosque; deferred": 1,
+  "Modarres; modern": 1,
+  "Emirgan mosque; deferred": 1,
+  "Mughal empress; deferred": 1,
+  "Umar ibn Ali; thin, deferred": 1,
+  "Kiraman Katibin angels; deferred": 1,
+  "Bahram Mirza; deferred — batch cap": 1,
+  "Ottoman princess d.1931; modern": 1,
+  "Indonesian mosque; deferred": 2,
+  "Dhu al-Hulayfa mosque Medina; deferred": 1,
+  "Ottoman prince d.1915; modern": 1,
+  "al-Wadi'i; modern": 1,
+  "Zurich mosque; modern": 1,
+  "scholar; modern": 1,
+  "Diyarbakir mosque; deferred": 1,
+  "Ma Lin; modern": 1,
+  "Hyderabad prince; modern": 1,
+  "prophetic medicine term; deferred": 1,
+  "Khalidi d.1913; modern": 1,
+  "Samra ibn Jundab; deferred — batch cap": 1,
+  "Jordanian royal; modern": 1,
+  "Tangier mosque; deferred": 1,
+  "Tranquerah mosque; deferred": 1,
+  "sainthood term; deferred": 1,
+  "Konak mosque; deferred": 1,
+  "Kruje mosque; deferred": 1,
+  "Lead mosque Berat; deferred": 1,
+  "Muhammad II Marinid; deferred — batch cap": 1,
+  "Ardabili d.1585; deferred — batch cap": 1,
+  "Travnik mosque; deferred": 1,
+  "preacher; modern": 1,
+  "attributes of God term; deferred": 1,
+  "spokesman; modern": 1,
+  "Bosnia mosque; deferred": 1,
+  "Qatada ibn al-Nu'man; deferred — batch cap": 1,
+  "Tekke mosque Istanbul; deferred": 1,
+  "Casablanca mosque; modern": 1,
+  "Walid ibn al-Walid; deferred — batch cap": 1,
+  "al-Bakiriyya mosque; deferred": 1,
+  "reciter; modern": 1,
+  "ibn Ubayy's son; thin, deferred": 1,
+  "signs term; deferred": 1,
+  "Mangkunegaran mosque; deferred": 1,
+  "Pristina mosque; deferred": 1
  },
  "last_commit": "d6d413304",
  "last_push": "86085d1ae",
  "batch_current": 7,
- "updated_at": "2026-10-19T18:43:49-04:00"
+ "updated_at": "2026-10-19T18:46:31-04:00"
 }
