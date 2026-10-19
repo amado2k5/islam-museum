@@ -5,7 +5,7 @@
  "candidates_file": "$HARVEST/wikidata-import/candidates.tsv",
  "candidates_query": "select distinct id from wd_claim where property='P140' and value_id='Q432' minus Wikidata ids already linked in data/, ordered by sitelink count desc",
  "linked_preexisting": 987,
- "next_index": 2960,
+ "next_index": 3060,
  "created_ids": [
   {
    "i": 24,
@@ -3142,7 +3142,98 @@
    "i": 2959,
    "qid": "Q8077698",
    "id": "building/cifte-minareli-madrasa"
-  }
+  },
+  {
+   "i": 2963,
+   "qid": "Q97486457",
+   "id": "person/al-najashi"
+  },
+  {
+   "i": 2965,
+   "qid": "Q10296786",
+   "id": "person/sayyid-ibn-tawus"
+  },
+  {
+   "i": 2973,
+   "qid": "Q11680334",
+   "id": "person/muhammad-ali-of-brunei"
+  },
+  {
+   "i": 2974,
+   "qid": "Q11680375",
+   "id": "person/abdul-jalilul-akbar"
+  },
+  {
+   "i": 2978,
+   "qid": "Q11946422",
+   "id": "person/rustam-mirza-timurid"
+  },
+  {
+   "i": 2980,
+   "qid": "Q12204250",
+   "id": "building/queen-arwa-mosque"
+  },
+  {
+   "i": 2987,
+   "qid": "Q12227337",
+   "id": "person/adud-al-din-al-iji"
+  },
+  {
+   "i": 3007,
+   "qid": "Q12870489",
+   "id": "person/qarachaqay-khan"
+  },
+  {
+   "i": 3016,
+   "qid": "Q14475864",
+   "id": "person/sikandar-shah-bengal"
+  },
+  {
+   "i": 3021,
+   "qid": "Q15818405",
+   "id": "building/yakutiye-madrasa"
+  },
+  {
+   "i": 3022,
+   "qid": "Q1584086",
+   "id": "person/seyyid-hasan-pasha"
+  },
+  {
+   "i": 3027,
+   "qid": "Q16511374",
+   "id": "person/hasan-kafi-pruscak"
+  },
+  {
+   "i": 3030,
+   "qid": "Q16847190",
+   "id": "person/abu-salim-al-marini"
+  },
+  {
+   "i": 3032,
+   "qid": "Q17004559",
+   "id": "person/ibn-hindu"
+  },
+  {
+   "i": 3045,
+   "qid": "Q19664343",
+   "id": "person/takin-al-khazari"
+  },
+  {
+   "i": 3049,
+   "qid": "Q1984103",
+   "id": "person/neshri"
+  },
+  {
+   "i": 3058,
+   "qid": "Q22947790",
+   "id": "person/sulayman-ibn-abdallah-ibn-tahir"
+  },
+  {
+   "i": 3059,
+   "qid": "Q2364811",
+   "id": "person/sultan-ibn-saif-i"
+  },
+  "person/uthman-ibn-said-al-darimi"
  ],
  "linked_ids": [
   {
@@ -5805,7 +5896,65 @@
    "to": "person/abu-quhafa"
   },
   "person/al-muzani",
-  "person/ubaydallah-ibn-umar"
+  "person/ubaydallah-ibn-umar",
+  {
+   "i": 2969,
+   "qid": "Q1108606",
+   "to": "person/uthman-ibn-hunayf"
+  },
+  {
+   "i": 2977,
+   "qid": "Q11938201",
+   "to": "person/maslama-ibn-mukhallad-al-ansari"
+  },
+  {
+   "i": 2979,
+   "qid": "Q12194385",
+   "to": "person/nadr-ibn-shumayl"
+  },
+  {
+   "i": 2981,
+   "qid": "Q12208657",
+   "to": "person/hammad-ibn-abi-sulayman"
+  },
+  {
+   "i": 2982,
+   "qid": "Q12218841",
+   "to": "person/shuba-ibn-al-hajjaj"
+  },
+  {
+   "i": 2984,
+   "qid": "Q12222770",
+   "to": "person/abd-al-rahman-ibn-mahdi"
+  },
+  {
+   "i": 2993,
+   "qid": "Q12248495",
+   "to": "person/nasr-ibn-asim"
+  },
+  {
+   "i": 2994,
+   "qid": "Q12251815",
+   "to": "person/yazid-ibn-umar-ibn-hubayra"
+  },
+  {
+   "i": 3024,
+   "qid": "Q16117932",
+   "to": "person/abu-bakra-al-thaqafi"
+  },
+  {
+   "i": 3025,
+   "qid": "Q16123024",
+   "to": "person/shurahbil-ibn-al-simt"
+  },
+  {
+   "i": 3050,
+   "qid": "Q19903176",
+   "to": "person/abu-talha-al-ansari"
+  },
+  "person/nafi-mawla-ibn-umar",
+  "person/muhammad-ibn-al-ashath-al-kindi",
+  "person/anbasa-ibn-ishaq-al-dabbi"
  ],
  "skipped": [
   [
@@ -14812,9 +14961,364 @@
    2957,
    "Q8073481",
    "translator; modern"
+  ],
+  [
+   2960,
+   "Q83944615",
+   "Minsk mosque; modern"
+  ],
+  [
+   2961,
+   "Q84597994",
+   "speaker; modern"
+  ],
+  [
+   2962,
+   "Q9335156",
+   "academic; modern"
+  ],
+  [
+   2964,
+   "Q97486490",
+   "Ansari marja d.1864; post-1800"
+  ],
+  [
+   2966,
+   "Q107319831",
+   "Tlemcen mosque; deferred"
+  ],
+  [
+   2967,
+   "Q108120939",
+   "scholar; modern"
+  ],
+  [
+   2968,
+   "Q10978480",
+   "Gad al-Haq; modern"
+  ],
+  [
+   2970,
+   "Q111187606",
+   "teacher; modern"
+  ],
+  [
+   2971,
+   "Q1118814",
+   "Albania mosque; deferred"
+  ],
+  [
+   2972,
+   "Q115039",
+   "create-failed:file-exists:data/person/nafi-mawla-ibn-umar.yaml"
+  ],
+  [
+   2975,
+   "Q1168043",
+   "Osman Digna; modern"
+  ],
+  [
+   2976,
+   "Q11903804",
+   "Lucknawi d.1886; post-1800"
+  ],
+  [
+   2983,
+   "Q12219545",
+   "imam; modern"
+  ],
+  [
+   2985,
+   "Q12223147",
+   "Hamas co-founder; modern"
+  ],
+  [
+   2986,
+   "Q12224360",
+   "link-failed:already has wikidata"
+  ],
+  [
+   2988,
+   "Q12230326",
+   "Tunisian politician; modern"
+  ],
+  [
+   2989,
+   "Q12240102",
+   "Muhammad ibn Buzurg-Ummid; distinct from father Kiya — deferred"
+  ],
+  [
+   2990,
+   "Q12242853",
+   "Namirah mosque; deferred"
+  ],
+  [
+   2991,
+   "Q12244500",
+   "maqasid term; deferred"
+  ],
+  [
+   2992,
+   "Q12246959",
+   "Na'ila bint al-Farafisa; thin, deferred"
+  ],
+  [
+   2995,
+   "Q12264773",
+   "Muhammad al-Awsat; thin, deferred"
+  ],
+  [
+   2996,
+   "Q123053878",
+   "doctor; modern"
+  ],
+  [
+   2997,
+   "Q124771497",
+   "create-failed:file-exists:data/person/muhammad-ibn-al-ashath-al-kindi.yaml"
+  ],
+  [
+   2998,
+   "Q12497260",
+   "Indonesian mosque; deferred"
+  ],
+  [
+   2999,
+   "Q12497304",
+   "Indonesian mosque; deferred"
+  ],
+  [
+   3000,
+   "Q12497334",
+   "Sumatra mosque; deferred"
+  ],
+  [
+   3001,
+   "Q12497340",
+   "Ternate mosque; deferred"
+  ],
+  [
+   3002,
+   "Q12497346",
+   "Indonesian mosque; deferred"
+  ],
+  [
+   3003,
+   "Q12560373",
+   "rizq term; deferred"
+  ],
+  [
+   3004,
+   "Q127643080",
+   "Edirne mosque; deferred"
+  ],
+  [
+   3005,
+   "Q127787058",
+   "Edirne mosque; deferred"
+  ],
+  [
+   3006,
+   "Q128256",
+   "Bursa mosque; deferred"
+  ],
+  [
+   3008,
+   "Q13040953",
+   "Albanian org; modern"
+  ],
+  [
+   3009,
+   "Q1337728",
+   "Arslan diplomat; modern"
+  ],
+  [
+   3010,
+   "Q134999463",
+   "IRGC officer; modern"
+  ],
+  [
+   3011,
+   "Q136126216",
+   "Hamas leader; modern"
+  ],
+  [
+   3012,
+   "Q1384598",
+   "Khaznadar d.1878; post-1800"
+  ],
+  [
+   3013,
+   "Q1408792",
+   "Gambia mosque; modern"
+  ],
+  [
+   3014,
+   "Q14319036",
+   "Taipei mosque; modern"
+  ],
+  [
+   3015,
+   "Q14324943",
+   "Taiwan mosque; modern"
+  ],
+  [
+   3017,
+   "Q14917383",
+   "Indonesian mosque; deferred"
+  ],
+  [
+   3018,
+   "Q14917384",
+   "Pontianak mosque; deferred"
+  ],
+  [
+   3019,
+   "Q15547365",
+   "China mosque; deferred"
+  ],
+  [
+   3020,
+   "Q15733433",
+   "FSA officer; modern"
+  ],
+  [
+   3023,
+   "Q1600162",
+   "maqam Sufi term; deferred"
+  ],
+  [
+   3026,
+   "Q1639036",
+   "Montenegro mosque; deferred"
+  ],
+  [
+   3028,
+   "Q16548523",
+   "princess; modern"
+  ],
+  [
+   3029,
+   "Q16825097",
+   "Uskudar mosque; deferred"
+  ],
+  [
+   3031,
+   "Q16858226",
+   "Nigde mosque; deferred"
+  ],
+  [
+   3033,
+   "Q1713447",
+   "Berat mosque; deferred"
+  ],
+  [
+   3034,
+   "Q1740599",
+   "Khatmiyya order founded 1817; modern"
+  ],
+  [
+   3035,
+   "Q17480560",
+   "Tirana mosque; deferred"
+  ],
+  [
+   3036,
+   "Q17626485",
+   "folklorist; modern"
+  ],
+  [
+   3037,
+   "Q18209673",
+   "Izmit mosque; deferred"
+  ],
+  [
+   3038,
+   "Q18394220",
+   "Afshar prince; thin, deferred"
+  ],
+  [
+   3039,
+   "Q18977598",
+   "ISIS leader; modern"
+  ],
+  [
+   3040,
+   "Q19143966",
+   "ISI officer; modern"
+  ],
+  [
+   3041,
+   "Q1942689",
+   "marja; modern"
+  ],
+  [
+   3042,
+   "Q1951883",
+   "Saudi prince; modern"
+  ],
+  [
+   3043,
+   "Q19573132",
+   "al-Fudayliya d.1831; post-1800"
+  ],
+  [
+   3044,
+   "Q19664085",
+   "Dhuka al-Rumi; thin, deferred"
+  ],
+  [
+   3046,
+   "Q19736869",
+   "Jaunpuri d.1873; post-1800"
+  ],
+  [
+   3047,
+   "Q1974031",
+   "scholar; modern"
+  ],
+  [
+   3048,
+   "Q1981764",
+   "wrestler; modern"
+  ],
+  [
+   3051,
+   "Q2033296",
+   "ayatollah; modern"
+  ],
+  [
+   3052,
+   "Q20385306",
+   "actor; modern"
+  ],
+  [
+   3053,
+   "Q2058725",
+   "Istanbul mosque; deferred"
+  ],
+  [
+   3054,
+   "Q206209",
+   "politician; modern"
+  ],
+  [
+   3055,
+   "Q21006020",
+   "Melaka mosque; modern"
+  ],
+  [
+   3056,
+   "Q21079414",
+   "create-failed:file-exists:data/person/anbasa-ibn-ishaq-al-dabbi.yaml"
+  ],
+  [
+   3057,
+   "Q2249484",
+   "Hamengkubuwono VI; modern"
   ]
  ],
- "skipped_total": 1806,
+ "skipped_total": 1877,
  "skipped_by_reason": {
   "modern sovereign state; no matching record (al-Hind region is a different entity)": 1,
   "modern sovereign state; no matching record": 8,
@@ -15846,7 +16350,7 @@
   "consort d.1898; post-1800": 1,
   "Mimar Kemaleddin d.1927; modern": 1,
   "Fatma Sultan; no confirmed source on the page": 1,
-  "actor; modern": 3,
+  "actor; modern": 4,
   "Sisli Mosque 1949; modern": 1,
   "Muhammadu Bello d.1837; post-1800": 1,
   "Ilyas Kandhlawi d.1944; modern": 1,
@@ -15902,7 +16406,7 @@
   "sin concept item; deferred": 1,
   "Ibrahim Hakki Pasha d.1918; modern": 1,
   "Somali politician d.2020; modern": 1,
-  "link-failed:already has wikidata": 2,
+  "link-failed:already has wikidata": 3,
   "singer; modern": 4,
   "Bakht Khan d.1859; post-1800": 1,
   "Afghan crown prince d.2024; modern": 1,
@@ -16029,7 +16533,7 @@
   "Free Officer d.2018; modern": 1,
   "Muhammad Imara d.2020; modern": 1,
   "Kizimkazi mosque Zanzibar; deferred": 1,
-  "create-failed:file-exists": 10,
+  "create-failed:file-exists": 13,
   "Mubarakpuri d.2006; modern": 1,
   "al-Nasir Muhammad madrasa Cairo; deferred": 1,
   "King Mosque Elbasan; no confirmed source": 1,
@@ -16146,7 +16650,7 @@
   "Tekeli Mehmet mosque Antalya; deferred": 1,
   "Orta Cami Ukraine; no confirmed source": 1,
   "Bosnian leader d.1887; post-1800": 1,
-  "ayatollah; modern": 2,
+  "ayatollah; modern": 3,
   "Singapore politician d.1984; modern": 1,
   "Nuh Keller; modern": 1,
   "Ottoman consort d.1889; modern": 1,
@@ -16255,7 +16759,7 @@
   "fahisha term; deferred": 1,
   "al-Shanqiti; modern": 1,
   "al-Sabuni d.2021; modern": 1,
-  "imam; modern": 2,
+  "imam; modern": 3,
   "Medan grand mosque 1909; modern": 1,
   "Cekrekcija mosque; no confirmed source": 1,
   "Arif Agha mosque Edirne; no confirmed source": 1,
@@ -16286,7 +16790,7 @@
   "philosopher d.1947; modern": 1,
   "haqiqa Sufi term; deferred": 1,
   "al-Qaeda member; modern": 1,
-  "politician; modern": 4,
+  "politician; modern": 5,
   "playwright; modern": 1,
   "Ottoman composer d.1846; post-1800": 1,
   "scholar d.2025; modern": 1,
@@ -16337,7 +16841,7 @@
   "Babur's wife; deferred": 1,
   "Ali Suavi d.1878; post-1800": 1,
   "batil term; deferred": 1,
-  "Istanbul mosque; deferred": 5,
+  "Istanbul mosque; deferred": 6,
   "Crimean politician; modern": 1,
   "Izmir mosque; deferred": 1,
   "Modarres; modern": 1,
@@ -16347,12 +16851,12 @@
   "Kiraman Katibin angels; deferred": 1,
   "Bahram Mirza; deferred — batch cap": 1,
   "Ottoman princess d.1931; modern": 1,
-  "Indonesian mosque; deferred": 2,
+  "Indonesian mosque; deferred": 6,
   "Dhu al-Hulayfa mosque Medina; deferred": 1,
   "Ottoman prince d.1915; modern": 1,
   "al-Wadi'i; modern": 1,
   "Zurich mosque; modern": 1,
-  "scholar; modern": 6,
+  "scholar; modern": 8,
   "Diyarbakir mosque; deferred": 1,
   "Ma Lin; modern": 1,
   "Hyderabad prince; modern": 1,
@@ -16383,15 +16887,15 @@
   "signs term; deferred": 1,
   "Mangkunegaran mosque; deferred": 1,
   "Pristina mosque; deferred": 1,
-  "Edirne mosque; deferred": 2,
+  "Edirne mosque; deferred": 4,
   "Bukhara madrasa; deferred": 1,
-  "Tirana mosque; deferred": 1,
+  "Tirana mosque; deferred": 2,
   "Taliban official; modern": 1,
-  "marja; modern": 2,
+  "marja; modern": 3,
   "Malaysian politician; modern": 2,
   "al-Zahir Baybars mosque; deferred": 1,
   "Khamenei's father; modern": 1,
-  "Hamas leader; modern": 1,
+  "Hamas leader; modern": 2,
   "Baku mosque; deferred": 1,
   "Samarkand mausoleum; deferred": 1,
   "Gaza mosque; deferred": 1,
@@ -16449,7 +16953,7 @@
   "officer; modern": 3,
   "Babur's wife; thin, deferred": 1,
   "yaqin Sufi term; deferred": 1,
-  "Taiwan mosque; modern": 1,
+  "Taiwan mosque; modern": 2,
   "Cape Town mosque; deferred": 1,
   "Salman Pak shrine; deferred": 1,
   "Omani mufti; modern": 1,
@@ -16478,13 +16982,13 @@
   "Umri; modern": 1,
   "boxer; modern": 1,
   "director; modern": 1,
-  "Albania mosque; deferred": 2,
+  "Albania mosque; deferred": 3,
   "Hamengkubuwono VIII; modern": 1,
   "historian; modern": 1,
   "Abdallah ibn Uthman; thin, deferred": 1,
   "Geneva mosque; modern": 1,
   "critic; modern": 1,
-  "Tlemcen mosque; deferred": 1,
+  "Tlemcen mosque; deferred": 2,
   "Mersin mosque; modern": 1,
   "Croatia mosque; deferred": 1,
   "producer; modern": 1,
@@ -16493,10 +16997,58 @@
   "Moroccan princess; modern": 1,
   "politician-scholar; modern": 1,
   "British politician; modern": 1,
-  "translator; modern": 1
+  "translator; modern": 1,
+  "Minsk mosque; modern": 1,
+  "speaker; modern": 1,
+  "academic; modern": 1,
+  "Ansari marja d.1864; post-1800": 1,
+  "Gad al-Haq; modern": 1,
+  "teacher; modern": 1,
+  "Osman Digna; modern": 1,
+  "Lucknawi d.1886; post-1800": 1,
+  "Hamas co-founder; modern": 1,
+  "Tunisian politician; modern": 1,
+  "Muhammad ibn Buzurg-Ummid; distinct from father Kiya — deferred": 1,
+  "Namirah mosque; deferred": 1,
+  "maqasid term; deferred": 1,
+  "Na'ila bint al-Farafisa; thin, deferred": 1,
+  "Muhammad al-Awsat; thin, deferred": 1,
+  "doctor; modern": 1,
+  "Sumatra mosque; deferred": 1,
+  "Ternate mosque; deferred": 1,
+  "rizq term; deferred": 1,
+  "Bursa mosque; deferred": 1,
+  "Albanian org; modern": 1,
+  "Arslan diplomat; modern": 1,
+  "IRGC officer; modern": 1,
+  "Khaznadar d.1878; post-1800": 1,
+  "Gambia mosque; modern": 1,
+  "Taipei mosque; modern": 1,
+  "Pontianak mosque; deferred": 1,
+  "China mosque; deferred": 1,
+  "FSA officer; modern": 1,
+  "maqam Sufi term; deferred": 1,
+  "Montenegro mosque; deferred": 1,
+  "princess; modern": 1,
+  "Uskudar mosque; deferred": 1,
+  "Nigde mosque; deferred": 1,
+  "Berat mosque; deferred": 1,
+  "Khatmiyya order founded 1817; modern": 1,
+  "folklorist; modern": 1,
+  "Izmit mosque; deferred": 1,
+  "Afshar prince; thin, deferred": 1,
+  "ISIS leader; modern": 1,
+  "ISI officer; modern": 1,
+  "Saudi prince; modern": 1,
+  "al-Fudayliya d.1831; post-1800": 1,
+  "Dhuka al-Rumi; thin, deferred": 1,
+  "Jaunpuri d.1873; post-1800": 1,
+  "wrestler; modern": 1,
+  "Melaka mosque; modern": 1,
+  "Hamengkubuwono VI; modern": 1
  },
  "last_commit": "d6d413304",
  "last_push": "86085d1ae",
  "batch_current": 7,
- "updated_at": "2026-10-19T18:50:57-04:00"
+ "updated_at": "2026-10-19T18:52:54-04:00"
 }
