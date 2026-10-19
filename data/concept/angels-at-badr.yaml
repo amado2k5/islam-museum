@@ -1,0 +1,51 @@
+id: concept/angels-at-badr
+class: concept
+kind: doctrine
+label: { ar: "الملائكة في بدر", en: "The angels at Badr" }
+issue:
+  ar: "هل قاتلت الملائكة يوم بدر، أم كان إمدادها بشرى وتثبيتاً للقلوب؟"
+summary:
+  ar: "يحكي رضا أن المحققين جزموا بأن الملائكة لم تقاتل يوم بدر، وأن الوحي إليهم بالتثبيت يُفهم منه أنهم أُمروا بإلقاء المعنى في قلوب المؤمنين بالإلهام. وينقل عن ابن كثير قول الربيع بن أنس في علامات قتلى الملائكة، ويرى أن الروايات في قتالهم ضعيفة لا يُعتد بها، وأن ابن جرير لم يثبتها."
+  en: "Rida says the verifiers held that the angels did not fight at Badr; that the command given to them was to cast the message into the hearts of the believers by inspiration. He quotes Ibn Kathir's transmission of al-Rabi' ibn Anas about marks on the slain angels, and holds that the reports of angelic fighting are weak and that al-Tabari did not accept them."
+wings: [ideas]
+themes:
+  - wars-and-campaigns
+  - scripture-and-its-sciences
+periods:
+  - period/prophetic-era
+regions:
+  - arabia
+perspectives:
+  - tradition: sunni
+    id: rida-angels-did-not-fight
+    stance:
+      ar: "لم تقاتل: الإمداد بشرى وتثبيت، والروايات في قتالهم ضعيفة"
+    summary:
+      ar: "يرى رضا أن الخطاب في السورة موجه إلى المؤمنين، وأن ذكر الوحي إلى الملائكة عرض، وأن ادعاء قتالهم لا يصح، لأن الروايات فيه لا سند لها تقوم به."
+    holders: [person/rashid-rida, person/al-tabari]
+    evidence:
+      - ref: source/tafsir-manar-v09
+        note:
+          ar: "ص 512-513 (رأي رضا وتعليله)"
+    sources: [source/tafsir-manar-v09]
+  - tradition: sunni
+    id: reports-of-angelic-fighting
+    stance:
+      ar: "قاتلت: روايات عن قتالهم مع المؤمنين وعلامات على قتلاهم، يذكرها رضا ليردّها"
+    summary:
+      ar: "ينقل رضا عن الآلوسي وغيره تأويل الآية بقتال الملائكة، ويذكر من الروايات قول الربيع بن أنس الذي أورده ابن كثير. ولا يُعرف قائل هذه الرواية بالتعيين في النص المنقول، ويرد رضا هذه الروايات بعدم السند وبمخالفتها لظاهر النص."
+    holders: []
+    evidence:
+      - ref: source/tafsir-manar-v09
+        note:
+          ar: "ص 512-513 (نقل رضا عن الآلوسي وابن كثير وعرضها للرد)"
+    sources: [source/tafsir-manar-v09]
+sources: [source/tafsir-manar-v09]
+relations: []
+provenance:
+  layer: own-research
+  source: "تفسير المنار، المجلد التاسع، ص 512-513 (نسخة OCR محلية)"
+  generated_by: "Claude Haiku 5.5"
+  model: claude-haiku-5-5
+  run: "lib-exp-tafsir-manar volumes 9-10 (library-expansion)"
+status: { review: draft, completeness: 1, generated_by: "library-expansion (Claude Haiku 5.5); Rida's account only; the academic and other views are still to be added; the classical reports are not checked against their own books" }
