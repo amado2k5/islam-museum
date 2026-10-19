@@ -64,28 +64,73 @@ jobs:
           AWS_DEFAULT_REGION: auto
           ACCOUNT_ID: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
         run: |
+          set -euo pipefail
           ENDPOINT="https://${ACCOUNT_ID}.r2.cloudflarestorage.com"
-          # --size-only skips files whose remote size matches the local size,
-          # ignoring timestamps (CI always produces fresh mtimes, so without
-          # this flag awscli would re-upload every file on every build).
-          # Pagefind files are content-addressed (filename = hash), so same
-          # name + same size guarantees same content; changed files get a new
-          # name and are uploaded fresh while the old name is removed by --delete.
-          for dir in pagefind-ar pagefind-en pagefind-ur; do
-            aws s3 sync dist/$dir s3://islam-museum-search/$dir \
-              --endpoint-url "$ENDPOINT" \
-              --cache-control "public, max-age=31536000, immutable" \
-              --size-only \
-              --delete
-          done
-          # API JSON: served via a transparent proxy rule in _redirects.
-          # Short TTL so stale entries refresh; stale-while-revalidate keeps
-          # responses fast while a fresh copy is fetched in the background.
-          aws s3 sync dist/api s3://islam-museum-search/api \
-            --endpoint-url "$ENDPOINT" \
-            --cache-control "public, max-age=3600, stale-while-revalidate=86400" \
-            --size-only \
-            --delete
+          BUCKET="s3://islam-museum-search"
+
+          # Manifest-based incremental sync.
+          # After each successful build we store a manifest (one "size path" line
+          # per file) in R2. On the next build we download that manifest and diff
+          # it against the freshly built dist to find only the files that changed,
+          # were added, or were deleted — then operate only on those files.
+          # This is far cheaper than "aws s3 sync --size-only" which issues ~100
+          # S3 LIST calls (one per 1000 objects) to rebuild the same picture.
+          # First run (no manifest yet) falls back to a full sync automatically.
+
+          r2_sync() {
+            local src="$1"          # local directory, e.g. dist/pagefind-ar
+            local dst="$2"          # R2 prefix, e.g. pagefind-ar
+            local cache_control="$3"
+            local manifest_key="${dst}/.manifest"
+
+            # Build a manifest of the new local files: "size relative/path"
+            find "$src" -type f | sort | while read -r f; do
+              size=$(wc -c < "$f")
+              echo "$size ${f#$src/}"
+            done > /tmp/manifest-new.txt
+
+            # Try to fetch the previous manifest; if absent, treat as empty.
+            aws s3 cp "$BUCKET/$manifest_key" /tmp/manifest-old.txt \
+              --endpoint-url "$ENDPOINT" --quiet 2>/dev/null || touch /tmp/manifest-old.txt
+
+            # Files to upload: in new but not in old (new or changed size).
+            comm -23 /tmp/manifest-new.txt /tmp/manifest-old.txt \
+              | awk '{print $2}' > /tmp/to-upload.txt
+
+            # Files to delete: in old but not in new (removed).
+            comm -13 /tmp/manifest-new.txt /tmp/manifest-old.txt \
+              | awk '{print $2}' > /tmp/to-delete.txt
+
+            upload_count=$(wc -l < /tmp/to-upload.txt)
+            delete_count=$(wc -l < /tmp/to-delete.txt)
+            echo "[$dst] uploading $upload_count, deleting $delete_count"
+
+            # Upload changed/new files.
+            while IFS= read -r path; do
+              [ -z "$path" ] && continue
+              aws s3 cp "$src/$path" "$BUCKET/$dst/$path" \
+                --endpoint-url "$ENDPOINT" \
+                --cache-control "$cache_control" \
+                --quiet
+            done < /tmp/to-upload.txt
+
+            # Delete removed files.
+            while IFS= read -r path; do
+              [ -z "$path" ] && continue
+              aws s3 rm "$BUCKET/$dst/$path" \
+                --endpoint-url "$ENDPOINT" \
+                --quiet
+            done < /tmp/to-delete.txt
+
+            # Persist the new manifest so the next build can diff against it.
+            aws s3 cp /tmp/manifest-new.txt "$BUCKET/$manifest_key" \
+              --endpoint-url "$ENDPOINT" --quiet
+          }
+
+          r2_sync dist/pagefind-ar pagefind-ar "public, max-age=31536000, immutable"
+          r2_sync dist/pagefind-en pagefind-en "public, max-age=31536000, immutable"
+          r2_sync dist/pagefind-ur pagefind-ur "public, max-age=31536000, immutable"
+          r2_sync dist/api        api         "public, max-age=3600, stale-while-revalidate=86400"
       - name: Strip R2-served dirs from Pages deployment
         run: rm -rf dist/pagefind-ar dist/pagefind-en dist/pagefind-ur dist/api
       - name: Upload built site
