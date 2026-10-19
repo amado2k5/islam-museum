@@ -154,7 +154,9 @@ jobs:
         uses: actions/upload-artifact@v4
         with:
           name: dist
-          path: dist
+          path: |
+            dist
+            functions
           retention-days: 1
 
   deploy:
@@ -162,10 +164,12 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Download built site
+        # Download into the working directory so dist/ and functions/ are siblings,
+        # which is what `wrangler pages deploy dist` requires to detect Functions.
         uses: actions/download-artifact@v4
         with:
           name: dist
-          path: dist
+          path: .
       - name: Deploy to Cloudflare Pages
         uses: cloudflare/wrangler-action@v3
         with:

@@ -1,8 +1,7 @@
-# Transparent proxy: API JSON is served from R2 (moved there to stay under the
-# 100k-file CF Pages limit). The URL seen by clients is unchanged; CF Pages
-# fetches the content from R2 and serves it. CF transform rules for CORS on
-# /api/* still apply since the client-facing URL does not change.
-/api/*  https://pub-ab3983f1cb684ba8bb7c10be32804f74.r2.dev/api/:splat  200
+# API JSON is served from R2 (to stay under the 100k-file CF Pages limit).
+# Proxied via functions/api/[[path]].ts (a Cloudflare Pages Function) so the
+# client-facing URL never changes. The 200-proxy rule below is replaced by the
+# Function because CF Pages does not support external-domain 200 proxies in _redirects.
 
 # Permanent redirects for renamed entities.
 # Cloudflare Pages resolves these at the edge as proper 301s.
