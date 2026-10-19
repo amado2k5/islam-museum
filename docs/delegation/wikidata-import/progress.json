@@ -5,7 +5,7 @@
  "candidates_file": "$HARVEST/wikidata-import/candidates.tsv",
  "candidates_query": "select distinct id from wd_claim where property='P140' and value_id='Q432' minus Wikidata ids already linked in data/, ordered by sitelink count desc",
  "linked_preexisting": 987,
- "next_index": 3360,
+ "next_index": 3460,
  "created_ids": [
   {
    "i": 24,
@@ -3563,6 +3563,106 @@
    "i": 3354,
    "qid": "Q26222320",
    "id": "person/khosrow-khan-safavid"
+  },
+  {
+   "i": 3365,
+   "qid": "Q2829232",
+   "id": "person/al-mamun-al-bataihi"
+  },
+  {
+   "i": 3368,
+   "qid": "Q29375042",
+   "id": "person/shams-al-din-muhammad-nizari"
+  },
+  {
+   "i": 3375,
+   "qid": "Q3147431",
+   "id": "person/ibn-abd-al-zahir"
+  },
+  {
+   "i": 3380,
+   "qid": "Q3327500",
+   "id": "person/muhammad-shah-i-bahmani"
+  },
+  {
+   "i": 3396,
+   "qid": "Q4019371",
+   "id": "person/kavanoz-ahmed-pasha"
+  },
+  {
+   "i": 3400,
+   "qid": "Q4076179",
+   "id": "person/sulayman-baqirghani"
+  },
+  {
+   "i": 3404,
+   "qid": "Q4117198",
+   "id": "person/muhammad-ibn-makki-al-amili"
+  },
+  {
+   "i": 3408,
+   "qid": "Q4120044",
+   "id": "person/habab-ibn-al-mundhir"
+  },
+  {
+   "i": 3414,
+   "qid": "Q4164181",
+   "id": "person/nur-allah-al-shustari"
+  },
+  {
+   "i": 3415,
+   "qid": "Q4165279",
+   "id": "person/abd-al-salam-al-asmar"
+  },
+  {
+   "i": 3418,
+   "qid": "Q4170178",
+   "id": "person/ibn-al-qaisarani"
+  },
+  {
+   "i": 3431,
+   "qid": "Q459407",
+   "id": "person/hizir-hayreddin-reis"
+  },
+  {
+   "i": 3433,
+   "qid": "Q4665440",
+   "id": "person/abdul-jalilul-jabbar-brunei"
+  },
+  {
+   "i": 3436,
+   "qid": "Q4670215",
+   "id": "person/abu-hilal-al-askari"
+  },
+  {
+   "i": 3441,
+   "qid": "Q4702360",
+   "id": "person/al-fadl-ibn-naubakht"
+  },
+  {
+   "i": 3449,
+   "qid": "Q4842211",
+   "id": "person/baha-al-din-zakariya"
+  },
+  {
+   "i": 3451,
+   "qid": "Q4887644",
+   "id": "person/junayd-of-aydin"
+  },
+  {
+   "i": 3454,
+   "qid": "Q4952586",
+   "id": "person/boynuyarali-mehmed-pasha"
+  },
+  {
+   "i": 3455,
+   "qid": "Q4952878",
+   "id": "person/bozoklu-mustafa-pasha"
+  },
+  {
+   "i": 3457,
+   "qid": "Q5227853",
+   "id": "person/daud-khan-panni"
   }
  ],
  "linked_ids": [
@@ -6364,7 +6464,45 @@
    "qid": "Q16126606",
    "to": "person/qasim-ibn-qutlubugha"
   },
-  "person/al-haytham-ibn-adi"
+  "person/al-haytham-ibn-adi",
+  {
+   "i": 3367,
+   "qid": "Q292484",
+   "to": "person/sayf-al-din-al-amidi"
+  },
+  {
+   "i": 3386,
+   "qid": "Q3478584",
+   "to": "person/al-sanusi"
+  },
+  {
+   "i": 3392,
+   "qid": "Q3818646",
+   "to": "person/abu-imran-al-fasi"
+  },
+  {
+   "i": 3399,
+   "qid": "Q4060354",
+   "to": "person/al-qaffal-al-shashi"
+  },
+  {
+   "i": 3405,
+   "qid": "Q4117210",
+   "to": "person/ahmad-ibn-al-tayyib-al-sarakhsi"
+  },
+  {
+   "i": 3412,
+   "qid": "Q4147420",
+   "to": "person/muawiya-ibn-khudayj"
+  },
+  {
+   "i": 3437,
+   "qid": "Q4670455",
+   "to": "person/al-baji-abu-al-walid-sulayman"
+  },
+  "person/hubab-ibn-al-mundhir",
+  "person/umm-kulthum-bint-uqba",
+  "person/abd-al-rahman-ibn-habib-al-fihri"
  ],
  "skipped": [
   [
@@ -16821,9 +16959,374 @@
    3359,
    "Q27998793",
    "modern/post-1800/out-of-scope/mosque-deferred/insufficient"
+  ],
+  [
+   3360,
+   "Q2820248",
+   "modern/post-1800/out-of-scope/deferred/insufficient"
+  ],
+  [
+   3361,
+   "Q2820909",
+   "modern/post-1800/out-of-scope/deferred/insufficient"
+  ],
+  [
+   3362,
+   "Q2827461",
+   "modern/post-1800/out-of-scope/deferred/insufficient"
+  ],
+  [
+   3363,
+   "Q2827499",
+   "modern/post-1800/out-of-scope/deferred/insufficient"
+  ],
+  [
+   3364,
+   "Q2827669",
+   "modern/post-1800/out-of-scope/deferred/insufficient"
+  ],
+  [
+   3366,
+   "Q2895287",
+   "modern/post-1800/out-of-scope/deferred/insufficient"
+  ],
+  [
+   3369,
+   "Q297498",
+   "modern/post-1800/out-of-scope/deferred/insufficient"
+  ],
+  [
+   3370,
+   "Q3055730",
+   "modern/post-1800/out-of-scope/deferred/insufficient"
+  ],
+  [
+   3371,
+   "Q3077032",
+   "modern/post-1800/out-of-scope/deferred/insufficient"
+  ],
+  [
+   3372,
+   "Q308123",
+   "modern/post-1800/out-of-scope/deferred/insufficient"
+  ],
+  [
+   3373,
+   "Q3115094",
+   "modern/post-1800/out-of-scope/deferred/insufficient"
+  ],
+  [
+   3374,
+   "Q3143491",
+   "modern/post-1800/out-of-scope/deferred/insufficient"
+  ],
+  [
+   3376,
+   "Q317657",
+   "modern/post-1800/out-of-scope/deferred/insufficient"
+  ],
+  [
+   3377,
+   "Q322897",
+   "modern/post-1800/out-of-scope/deferred/insufficient"
+  ],
+  [
+   3378,
+   "Q32947719",
+   "modern/post-1800/out-of-scope/deferred/insufficient"
+  ],
+  [
+   3379,
+   "Q3324921",
+   "modern/post-1800/out-of-scope/deferred/insufficient"
+  ],
+  [
+   3381,
+   "Q335433",
+   "modern/post-1800/out-of-scope/deferred/insufficient"
+  ],
+  [
+   3382,
+   "Q335469",
+   "modern/post-1800/out-of-scope/deferred/insufficient"
+  ],
+  [
+   3383,
+   "Q3361879",
+   "modern/post-1800/out-of-scope/deferred/insufficient"
+  ],
+  [
+   3384,
+   "Q3366354",
+   "modern/post-1800/out-of-scope/deferred/insufficient"
+  ],
+  [
+   3385,
+   "Q3409262",
+   "modern/post-1800/out-of-scope/deferred/insufficient"
+  ],
+  [
+   3387,
+   "Q3481233",
+   "modern/post-1800/out-of-scope/deferred/insufficient"
+  ],
+  [
+   3388,
+   "Q3490652",
+   "modern/post-1800/out-of-scope/deferred/insufficient"
+  ],
+  [
+   3389,
+   "Q35690938",
+   "modern/post-1800/out-of-scope/deferred/insufficient"
+  ],
+  [
+   3390,
+   "Q3570251",
+   "modern/post-1800/out-of-scope/deferred/insufficient"
+  ],
+  [
+   3391,
+   "Q3626220",
+   "modern/post-1800/out-of-scope/deferred/insufficient"
+  ],
+  [
+   3393,
+   "Q3906386",
+   "modern/post-1800/out-of-scope/deferred/insufficient"
+  ],
+  [
+   3394,
+   "Q3906652",
+   "modern/post-1800/out-of-scope/deferred/insufficient"
+  ],
+  [
+   3395,
+   "Q393422",
+   "modern/post-1800/out-of-scope/deferred/insufficient"
+  ],
+  [
+   3397,
+   "Q402108",
+   "modern/post-1800/out-of-scope/deferred/insufficient"
+  ],
+  [
+   3398,
+   "Q4059060",
+   "modern/post-1800/out-of-scope/deferred/insufficient"
+  ],
+  [
+   3401,
+   "Q4115277",
+   "modern/post-1800/out-of-scope/deferred/insufficient"
+  ],
+  [
+   3402,
+   "Q4115430",
+   "modern/post-1800/out-of-scope/deferred/insufficient"
+  ],
+  [
+   3403,
+   "Q4116707",
+   "modern/post-1800/out-of-scope/deferred/insufficient"
+  ],
+  [
+   3406,
+   "Q4119086",
+   "modern/post-1800/out-of-scope/deferred/insufficient"
+  ],
+  [
+   3407,
+   "Q4119164",
+   "modern/post-1800/out-of-scope/deferred/insufficient"
+  ],
+  [
+   3409,
+   "Q4120307",
+   "modern/post-1800/out-of-scope/deferred/insufficient"
+  ],
+  [
+   3410,
+   "Q4120345",
+   "modern/post-1800/out-of-scope/deferred/insufficient"
+  ],
+  [
+   3411,
+   "Q4121925",
+   "modern/post-1800/out-of-scope/deferred/insufficient"
+  ],
+  [
+   3413,
+   "Q4158694",
+   "modern/post-1800/out-of-scope/deferred/insufficient"
+  ],
+  [
+   3416,
+   "Q4165667",
+   "modern/post-1800/out-of-scope/deferred/insufficient"
+  ],
+  [
+   3417,
+   "Q4166189",
+   "create-failed:file-exists:data/person/umm-kulthum-bint-uqba.yaml"
+  ],
+  [
+   3419,
+   "Q4204017",
+   "modern/post-1800/out-of-scope/deferred/insufficient"
+  ],
+  [
+   3420,
+   "Q4206751",
+   "modern/post-1800/out-of-scope/deferred/insufficient"
+  ],
+  [
+   3421,
+   "Q4206829",
+   "modern/post-1800/out-of-scope/deferred/insufficient"
+  ],
+  [
+   3422,
+   "Q42377955",
+   "modern/post-1800/out-of-scope/deferred/insufficient"
+  ],
+  [
+   3423,
+   "Q4251711",
+   "modern/post-1800/out-of-scope/deferred/insufficient"
+  ],
+  [
+   3424,
+   "Q4252072",
+   "modern/post-1800/out-of-scope/deferred/insufficient"
+  ],
+  [
+   3425,
+   "Q4260016",
+   "modern/post-1800/out-of-scope/deferred/insufficient"
+  ],
+  [
+   3426,
+   "Q4287956",
+   "modern/post-1800/out-of-scope/deferred/insufficient"
+  ],
+  [
+   3427,
+   "Q4357936",
+   "modern/post-1800/out-of-scope/deferred/insufficient"
+  ],
+  [
+   3428,
+   "Q43634803",
+   "modern/post-1800/out-of-scope/deferred/insufficient"
+  ],
+  [
+   3429,
+   "Q4373132",
+   "modern/post-1800/out-of-scope/deferred/insufficient"
+  ],
+  [
+   3430,
+   "Q4504865",
+   "modern/post-1800/out-of-scope/deferred/insufficient"
+  ],
+  [
+   3432,
+   "Q4664589",
+   "create-failed:file-exists:data/person/abd-al-rahman-ibn-habib-al-fihri.yaml"
+  ],
+  [
+   3434,
+   "Q4666108",
+   "modern/post-1800/out-of-scope/deferred/insufficient"
+  ],
+  [
+   3435,
+   "Q4670090",
+   "modern/post-1800/out-of-scope/deferred/insufficient"
+  ],
+  [
+   3438,
+   "Q4681562",
+   "modern/post-1800/out-of-scope/deferred/insufficient"
+  ],
+  [
+   3439,
+   "Q4695337",
+   "modern/post-1800/out-of-scope/deferred/insufficient"
+  ],
+  [
+   3440,
+   "Q4700426",
+   "modern/post-1800/out-of-scope/deferred/insufficient"
+  ],
+  [
+   3442,
+   "Q4703264",
+   "modern/post-1800/out-of-scope/deferred/insufficient"
+  ],
+  [
+   3443,
+   "Q4724598",
+   "modern/post-1800/out-of-scope/deferred/insufficient"
+  ],
+  [
+   3444,
+   "Q473394",
+   "modern/post-1800/out-of-scope/deferred/insufficient"
+  ],
+  [
+   3445,
+   "Q4764583",
+   "modern/post-1800/out-of-scope/deferred/insufficient"
+  ],
+  [
+   3446,
+   "Q4804293",
+   "modern/post-1800/out-of-scope/deferred/insufficient"
+  ],
+  [
+   3447,
+   "Q4805125",
+   "modern/post-1800/out-of-scope/deferred/insufficient"
+  ],
+  [
+   3448,
+   "Q4841088",
+   "modern/post-1800/out-of-scope/deferred/insufficient"
+  ],
+  [
+   3450,
+   "Q48791511",
+   "modern/post-1800/out-of-scope/deferred/insufficient"
+  ],
+  [
+   3452,
+   "Q4934712",
+   "modern/post-1800/out-of-scope/deferred/insufficient"
+  ],
+  [
+   3453,
+   "Q4952188",
+   "modern/post-1800/out-of-scope/deferred/insufficient"
+  ],
+  [
+   3456,
+   "Q5005348",
+   "modern/post-1800/out-of-scope/deferred/insufficient"
+  ],
+  [
+   3458,
+   "Q53641533",
+   "modern/post-1800/out-of-scope/deferred/insufficient"
+  ],
+  [
+   3459,
+   "Q5431615",
+   "modern/post-1800/out-of-scope/deferred/insufficient"
   ]
  ],
- "skipped_total": 2096,
+ "skipped_total": 2169,
  "skipped_by_reason": {
   "modern sovereign state; no matching record (al-Hind region is a different entity)": 1,
   "modern sovereign state; no matching record": 8,
@@ -18038,7 +18541,7 @@
   "Free Officer d.2018; modern": 1,
   "Muhammad Imara d.2020; modern": 1,
   "Kizimkazi mosque Zanzibar; deferred": 1,
-  "create-failed:file-exists": 16,
+  "create-failed:file-exists": 18,
   "Mubarakpuri d.2006; modern": 1,
   "al-Nasir Muhammad madrasa Cairo; deferred": 1,
   "King Mosque Elbasan; no confirmed source": 1,
@@ -18596,10 +19099,11 @@
   "Affan ibn Abi al-As; thin, deferred": 1,
   "Ankara mosque; deferred": 1,
   "modern/post-1800/out-of-scope/insufficient": 70,
-  "modern/post-1800/out-of-scope/mosque-deferred/insufficient": 79
+  "modern/post-1800/out-of-scope/mosque-deferred/insufficient": 79,
+  "modern/post-1800/out-of-scope/deferred/insufficient": 71
  },
  "last_commit": "d6d413304",
  "last_push": "86085d1ae",
  "batch_current": 7,
- "updated_at": "2026-10-19T19:02:02-04:00"
+ "updated_at": "2026-10-19T19:03:53-04:00"
 }
