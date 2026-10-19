@@ -1,0 +1,23 @@
+id: building/masjid-qatiat-umm-jafar
+class: building
+kind: mosque
+label:
+  ar: جامع قطيعة أم جعفر
+  en: The mosque of Qati'at Umm Ja'far
+summary:
+  ar: "مسجد بقطيعة أم جعفر في الجانب الغربي من بغداد؛ تحدث الناس سنة تسع وسبعين وثلثمائة بأن امرأة من أهل الجانب الشرقي رأت في منامها أنه يصلي فيه ووضع كفه في حائط القبلة، فقصدت الموضع ووجدت أثر الكف وماتت في ذلك الوقت كما أُخبرت، فعُمر المسجد ووسّعه الشريف أبو أحمد الموسوي وبناه، واستأذن الطائع لله في أن يجعله جامعاً تُصلى فيه الجمعات واحتج بأنه من وراء خندق يقطع بينه وبين البلد فيصير بذلك الموضع بلداً آخر، فأذن له فصار جامعاً يُصلى فيه الجمعات {cite:muntazam-ibn-al-jawzi j.7 p.152-153}."
+  en: "A mosque at Qati'at Umm Ja'far in western Baghdad: in 379 a woman of the eastern side dreamt that she would die the next afternoon and that the mosque stood in that quarter with a handprint set in its qibla wall; they went to the spot, found the trace of the palm, and she died as foretold. The mosque was then built and enlarged by the sharif Abu Ahmad al-Musawi, who obtained al-Ta'i''s leave to make it a congregational mosque — arguing that the moat made the place a separate town — and Friday prayers were established there {cite:muntazam-ibn-al-jawzi j.7 p.152-153}."
+wings: [objects]
+periods: [period/buyid-seljuk-fatimid-era]
+regions: [levant-iraq]
+themes: [mosques]
+relations:
+- { type: located_in, target: place/baghdad, sources: [source/muntazam-ibn-al-jawzi] }
+- { type: founded_by, target: person/abu-ahmad-al-musawi, role: "وسّعه وبناه وجعله جامعاً بإذن الطائع سنة 379هـ", sources: [source/muntazam-ibn-al-jawzi] }
+provenance:
+  layer: own-research
+  source: "المنتظم لابن الجوزي (ط حيدرآباد 1357، ج7، سنة 379)، قراءة آبل فيجن"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-muntazam-350-474-2
+sources: [source/muntazam-ibn-al-jawzi]
+status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 High)" }
