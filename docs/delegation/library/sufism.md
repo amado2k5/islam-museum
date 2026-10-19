@@ -69,3 +69,12 @@ Candidates (dry run, 18 Oct 2026; `--max-items 2`; identifier, file, size; sourc
 ## Next step
 
 Add this lane's entries to `scripts/harvest/library/books.yaml` in the lane's own commit, then run `fetch_books.py` for the lane after the workstream commit is on `origin/main`.
+
+## Batch 1 (18 Oct 2026, draft)
+
+- **Book:** Ibn Arabi, Diwan Tarjuman al-Ashwaq (Dar al-Marefah, 2005)
+- **Pages covered:** pp. 1-6 of the scan (title page, publication page, editor's page, opening verses)
+- **Entities created (draft, `status.review: draft`):** work/tarjuman-al-ashwaq; person/ibn-arabi-muhyi-al-din (reused, not changed)
+- **Sources created:** one `source/` record for this edition, with `reliability_note` stating that the edition is unverified and that citations use scan page numbers (the `[pN]` OCR markers), not printed pages.
+- **Skipped:** no concept records; no perspectives block (no sourced Sunni-frame lead has been read yet, so none is written); no death year for the author where the book does not state it; no dates beyond those in the book's own text.
+- **Next step:** read the book beyond the pages listed above, add the sources needed for the second citation of any dated fact, and decide whether any concept record is warranted.

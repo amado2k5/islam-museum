@@ -5,6 +5,9 @@ import { ui, LANGS, type Lang } from "../../../lib/i18n";
 export function getStaticPaths() { return LANGS.map((lang) => ({ params: { lang }, props: { lang } })); }
 const { lang } = Astro.props as { lang: Lang };
 const T = ui(lang);
+// Pagefind indexes live in Cloudflare R2 (set PUBLIC_PAGEFIND_BASE at build time).
+// Falls back to the local path for `astro preview` after a full build.
+const pagefindBase = (import.meta.env.PUBLIC_PAGEFIND_BASE ?? "").replace(/\/$/, "");
 ---
 <BaseLayout lang={lang} title={T.search.title} path={`/${lang}/search/`} noindex>
   <div class="wrap" style="padding-block:10px 20px" data-pagefind-ignore>
@@ -13,17 +16,17 @@ const T = ui(lang);
     <p class="search-hint ui muted">{T.search.hint} {T.search.examples.map((q: string, i: number) => <><a href={`/${lang}/search/?q=${encodeURIComponent(q)}`}>{q}</a>{i < T.search.examples.length - 1 ? " · " : ""}</>)}</p></div>
     <p id="search-fallback" class="panel ui" hidden>{T.search.needs_build}</p>
     <noscript><p class="panel ui">{T.search.noscript}</p></noscript>
-    <link rel="stylesheet" href={`/pagefind-${lang}/pagefind-ui.css`} />
-    <script is:inline define:vars={{ placeholder: T.search.placeholder, zeroResults: T.search.zero_results, lang }}>
+    <link rel="stylesheet" href={`${pagefindBase}/pagefind-${lang}/pagefind-ui.css`} />
+    <script is:inline define:vars={{ placeholder: T.search.placeholder, zeroResults: T.search.zero_results, lang, pagefindBase }}>
       (function () {
         var s = document.createElement("script");
-        s.src = "/pagefind-" + lang + "/pagefind-ui.js";
+        s.src = pagefindBase + "/pagefind-" + lang + "/pagefind-ui.js";
         s.onload = function () {
           // Variant spellings (Koran, Mohammed, Madinah, Ghazali ...) are expanded with a static file built per language at build time; no server is involved.
           var syn = { whole: {}, words: {} };
           var norm = function (t) { return t.normalize("NFKD").replace(/[̀-ًͯ-ٰٟـ]/g, "").replace(/[أإآٱ]/g, "ا").replace(/ة/g, "ه").replace(/ى/g, "ي").replace(/ؤ/g, "و").replace(/ئ/g, "ي").toLowerCase().replace(/['’‘`ʿʾ]/g, "").replace(/[-_()\/,.]/g, " ").replace(/\s+/g, " ").trim(); };
           (lang === "en" ? fetch("/search-synonyms.en.json") : fetch("/search-synonyms.ar.json")).then(function (r) { return r.ok ? r.json() : {}; }).then(function (j) { syn = j; }).catch(function () {});
-          new PagefindUI({ element: "#search", bundlePath: "/pagefind-" + lang + "/", showSubResults: true, showImages: false, translations: { placeholder: placeholder, zero_results: zeroResults },
+          new PagefindUI({ element: "#search", bundlePath: pagefindBase + "/pagefind-" + lang + "/", showSubResults: true, showImages: false, translations: { placeholder: placeholder, zero_results: zeroResults },
             processTerm: function (term) {
               var whole = syn.whole[norm(term)];
               if (whole && whole.length) return whole[0];

@@ -1,0 +1,23 @@
+id: person/nasim-al-din-al-tabrizi
+class: person
+label: { ar: "نسيم الدين التبريزي", en: "Nasim al-Din al-Tabrizi" }
+names:
+  - { value: "نسيم الدين التبريزي نزيل حلب", kind: full }
+gender: male
+summary:
+  ar: "نسيم الدين التبريزي نزيل حلب شيخ الحروفية كحلب؛ كثر أتباعه ونشأت بدعته وشاعت فآل أمره إلى أن أمر السلطان بقتله فضربت عنقه وسلخ جلده وصلب سنة عشرين وثمانمائة {cite:shadharat-dhahab p. 153}."
+  en: "Nasim al-Din al-Tabrizi, leader of Aleppo's Hurufis — his following swelled and his doctrine spread until the sultan ordered his death in 820: beheaded, flayed and crucified {cite:shadharat-dhahab p. 153}."
+roles: [theologian]
+wings: [people]
+periods: [period/mongol-post-mongol]
+regions: [levant-iraq, persia-central-asia]
+died: { edtf: "1417~", hijri: "0820", calendar: julian, precision: year, status: tradition, derived: true, note: "قتل سنة 820 {cite:shadharat-dhahab p. 153}", sources: [source/shadharat-dhahab] }
+relations:
+  - { type: participated_in, target: event/hurufi-execution-820, sources: [source/shadharat-dhahab] }
+provenance:
+  layer: own-research
+  source: "شذرات الذهب — ابن العماد (ط مكتبة المثنى 1351، ج7، سنة 820)، قراءة آبل فيجن"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-shadharat-batch-137
+sources: [source/shadharat-dhahab]
+status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 High)" }

@@ -1,0 +1,24 @@
+id: person/nur-al-din-muhammad-ibn-jaqmaq
+class: person
+label: { ar: "نور الدين محمد بن السلطان جقمق", en: "Nur al-Din Muhammad ibn Sultan Jaqmaq" }
+names:
+  - { value: "نور الدين أبو المعالي محمد بن السلطان الظاهر جقمق", kind: full }
+gender: male
+summary:
+  ar: "نور الدين أبو المعالي محمد بن السلطان الظاهر جقمق؛ ولد في رجب سنة ست عشرة وثمانمائة وقرأ القرآن واشتغل بالعلم وحفظ كتباً ومهر في مدة يسيرة ولازم الشيخ سعد الدين بن الديري قبل أن يلي القضاء وأخذ عن الكافيجي وغيره وكان محباً في العلم والعلماء، وولي الإمارة بعد سلطنة أبيه بقليل وجلس رأس الميسرة وأصابه مرض السل ثم بعده توفي ليلة الاثنين الثاني عشر من ذي الحجة سنة سبع وأربعين وثمانمائة بعلة البطن بالقاهرة {cite:shadharat-dhahab p. 261}."
+  en: "Nur al-Din Muhammad — Sultan Jaqmaq's scholar son (b. Rajab 816), pupil of Ibn al-Dayri and al-Kafiyaji, 'a lover of learning and scholars'; emir shortly after his father's accession, then stricken with consumption and a bowel illness; died Sunday night 12 Dhu al-Hijja 847 in Cairo {cite:shadharat-dhahab p. 261}."
+roles: [emir]
+wings: [people]
+periods: [period/mongol-post-mongol]
+regions: [egypt-nile]
+born: { edtf: "1413-10~", hijri: "0816-07", calendar: julian, precision: month, status: tradition, derived: true, note: "ولد رجب 816 {cite:shadharat-dhahab p. 261}", sources: [source/shadharat-dhahab] }
+died: { edtf: "1444-04-01~", hijri: "0847-12-12", calendar: julian, precision: day, status: tradition, derived: true, note: "توفي ليلة الاثنين 12 ذي الحجة 847 بالقاهرة {cite:shadharat-dhahab p. 261}", sources: [source/shadharat-dhahab] }
+relations:
+  - { type: child_of, target: person/jaqmaq-al-zahiri, sources: [source/shadharat-dhahab] }
+provenance:
+  layer: own-research
+  source: "شذرات الذهب — ابن العماد (ط مكتبة المثنى 1351، ج7، سنة 847)، قراءة آبل فيجن"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-shadharat-batch-139
+sources: [source/shadharat-dhahab]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

@@ -1,0 +1,28 @@
+id: person/al-malik-al-mansur-ali-ibn-aybak
+class: person
+label: { ar: "الملك المنصور علي بن أيبك", en: "al-Malik al-Mansur Ali b. Aybak" }
+names:
+  - { value: "الملك المنصور علي بن المعز عز الدين أيبك التركماني", kind: full }
+born: { edtf: "1242~", hijri: "0640~", calendar: julian, precision: year, status: tradition, derived: true, note: "وله خمس عشرة سنة عند تسلطنه سنة خمس وخمسين وستمائة {cite:shadharat-dhahab p. 276}." }
+summary:
+  ar: "ولد الملك المعز عز الدين أيبك؛ سلطنوا عليهم بعد مقتل أبيه سنة خمس وخمسين وستمائة وله خمس عشرة سنة {cite:shadharat-dhahab p. 275-276}."
+  en: "Al-Mu'izz Aybak's son — enthroned at fifteen on his father's murder in 655 {cite:shadharat-dhahab p. 275-276}."
+gender: male
+roles: [sultan]
+wings: [people]
+periods: [period/mongol-post-mongol]
+regions: [egypt-nile]
+faith:
+  - value: sunni
+    basis: tradition
+relations:
+  - { type: child_of, target: person/izz-al-din-aybak, sources: [source/shadharat-dhahab] }
+  - { type: successor_of, target: person/izz-al-din-aybak, sources: [source/shadharat-dhahab] }
+  - { type: participated_in, target: event/aybak-murder-655, role: "المسلطن بعد أبيه", sources: [source/shadharat-dhahab] }
+sources: [source/shadharat-dhahab]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }
+provenance:
+  layer: own-research
+  source: "شذرات الذهب — ابن العماد (ج5، سنة 655)، قراءة آبل فيجن"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-shadharat-batch-129

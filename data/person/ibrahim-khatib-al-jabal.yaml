@@ -1,0 +1,28 @@
+id: person/ibrahim-khatib-al-jabal
+class: person
+label: { ar: "إبراهيم خطيب الجبل", en: "Ibrahim, khatib of the Mountain" }
+names:
+  - { value: "الشيخ العز خطيب الجبل أبو إسحاق إبراهيم بن الخطيب شرف الدين عبد الله بن أبي عمر الزاهد المقدسي الحنبلي", kind: full }
+born: { edtf: "1209", hijri: "0606", calendar: julian, precision: year, status: tradition, derived: true, note: "ولد سنة ست وستمائة {cite:shadharat-dhahab p. 560}." }
+died: { edtf: "1268-03~", hijri: "0666-03-19", calendar: julian, precision: day, status: tradition, derived: true, note: "توفي في تاسع عشر ربيع الأول ودفن بسفح قاسيون سنة ست وستين وستمائة {cite:shadharat-dhahab p. 561}." }
+summary:
+  ar: "خطيب الجبل الزاهد؛ سمع من العماد والشيخ موفق الدين وأبي اليمن الكندي وأبي القاسم بن الهرستاني وخلق، وكان إماماً في العلم والعمل بصيراً بالمذهب صالحاً عابداً زاهداً مخلصاً صاحب أحوال وكرامات، وأمر بالمعروف قوالاً بالحق؛ وقد جمع المحدث أبو الفداء بن الخباز سيرته في مجلد وحدث وسمع منه جماعة منهم أبو العباس الحيري وهو آخر أصحابه؛ توفي في تاسع عشر ربيع الأول ودفن بسفح قاسيون، وهو والد الإمامين عز الدين الفرائضي وعز الدين محمد خطيب الجامع المظفري {cite:shadharat-dhahab p. 560-561}."
+  en: "The ascetic khatib of the Salihiyya mountain (b. 606) — 'an imam in knowledge and deed, an enjoiner of right, a speaker of truth'; Ibn al-Khabbaz collected his sira in a volume; father of the two Izz al-Dins; d. 19 Rabi' I 666, buried at Qasyun's foot {cite:shadharat-dhahab p. 560-561}."
+gender: male
+roles: [scholar, muhaddith, mystic]
+wings: [people]
+periods: [period/crusades-ayyubid-mamluk]
+regions: [levant-iraq]
+faith:
+  - value: sunni-hanbali
+    basis: tradition
+relations:
+  - { type: student_of, target: person/ibn-qudama-al-maqdisi, sources: [source/shadharat-dhahab] }
+  - { type: buried_in, target: place/damascus, sources: [source/shadharat-dhahab] }
+sources: [source/shadharat-dhahab]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }
+provenance:
+  layer: own-research
+  source: "شذرات الذهب — ابن العماد (ج7، سنة 666)، قراءة آبل فيجن"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-shadharat-batch-131

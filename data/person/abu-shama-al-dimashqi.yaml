@@ -2,13 +2,14 @@ id: person/abu-shama-al-dimashqi
 class: person
 label: { ar: "أبو شامة الدمشقي" }
 summary:
-  ar: "الشيخ الإمام شهاب الدين عبد الرحمن بن إسماعيل المعروف بأبي شامة الدمشقي المتوفى سنة ٦٦٥هـ؛ صاحب أزهار الروضتين في أخبار الدولتين دولة نور الدين وصلاح الدين من الأكراد {cite:kashf-zunun-furqan p. 372-373}."
+  ar: "الشيخ الإمام شهاب الدين عبد الرحمن بن إسماعيل المعروف بأبي شامة الدمشقي المتوفى سنة ٦٦٥هـ؛ صاحب أزهار الروضتين في أخبار الدولتين دولة نور الدين وصلاح الدين من الأكراد {cite:kashf-zunun-furqan p. 372-373}. ولد سنة تسع وتسعين وخمسمائة في أحد ربيعيها بدمشق وسُمّي بأبي شامة لشامة كبيرة كانت فوق حاجبه الأيسر، وختم القرآن وله دون عشر سنين وأتقن فن القراءة على السخاوي وله ست عشرة سنة، وسمع الكثير حتى عد في الحفاظ وسمع من الموفق وطائفة وأخذ عن الشيخ عز الدين بن عبد السلام؛ وولي مشيخة القراءة بالتربة الأشرفية ومشيخة الحديث بالدار الأشرفية، ومن تصانيفه شرح الشاطبية ومختصرا تاريخ دمشق أحدهما في خمسة عشر مجلداً {cite:shadharat-dhahab p. 552-553}."
   en: "Shihab al-Din Abd al-Rahman ibn Isma'il, known as Abu Shama al-Dimashqi, d. AH 665 — author of Azhar al-Rawdatayn, the chronicle of Nur al-Din's and Salah al-Din's states {cite:kashf-zunun-furqan p. 372-373}."
 gender: male
 wings: [people]
 periods: [period/crusades-ayyubid-mamluk]
 regions: [levant-iraq]
-died: { edtf: "1267~", hijri: "0665", calendar: julian, precision: year, status: tradition, derived: true, note: "سنة 665هـ؛ التحويل مشتق {cite:kashf-zunun-furqan p. 373}." }
+born: { edtf: "1203", hijri: "0599", calendar: julian, precision: year, status: tradition, derived: true, note: "ولد سنة تسع وتسعين وخمسمائة في أحد ربيعيها بدمشق {cite:shadharat-dhahab p. 552}." }
+died: { edtf: "1267~", hijri: "0665", calendar: julian, precision: year, status: tradition, derived: true, note: "سنة 665هـ؛ التحويل مشتق {cite:kashf-zunun-furqan p. 373}؛ أموات سنة خمس وستين {cite:shadharat-dhahab p. 552}." }
 relations:
   - { type: authored, target: work/azhar-al-rawdatayn, sources: [source/kashf-zunun-furqan] }
 provenance:
@@ -16,5 +17,5 @@ provenance:
   source: "كشف الظنون لحاجي خليفة (ط الفرقان) ج١ ص 372-373 مدخل 770"
   generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
   run: lib-kashf-batch-4
-sources: [source/kashf-zunun-furqan]
+sources: [source/kashf-zunun-furqan, source/shadharat-dhahab]
 status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

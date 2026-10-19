@@ -1,0 +1,27 @@
+id: person/al-hafiziyya-arghwan
+class: person
+label: { ar: "أرغوان المعروفة بالحافظية", en: "Arghwan, called al-Hafiziyya" }
+names:
+  - { value: "أرغوان الحافظية عمة السلطان المعظم طوران شاه", kind: full }
+died: { edtf: "1250-10~", hijri: "0648-08-20~", calendar: julian, precision: day, status: tradition, derived: true, note: "توفيت بالقاهرة لعشرين خلون من شعبان {cite:shadharat-dhahab p. 248-249}." }
+summary:
+  ar: "عمة الملك المعظم طوران شاه بن الملك الصالح نجم الدين، جارية البستد أعتقها الملك العادل فقبضت مالاً عظيماً وأوقفت وأنشأت مدرسة الحافظية وبها البستان الكبار، وهي سيدة ثقاة مكرمة؛ توفيت بالقاهرة لعشرين خلون من شعبان سنة ثمان وأربعين وستمائة ودفنت بمدرستها {cite:shadharat-dhahab p. 248-249}."
+  en: "Freedwoman of al-Adil and great-aunt of Turanshah (d. 20 Sha'ban 648) — she endowed and built Cairo's Hafiziyya madrasa by the Bustan al-Kubar and was buried in it {cite:shadharat-dhahab p. 248-249}."
+gender: female
+roles: [patron]
+wings: [people]
+periods: [period/crusades-ayyubid-mamluk]
+regions: [egypt-nile]
+faith:
+  - value: sunni
+    basis: tradition
+relations:
+  - { type: died_in, target: place/cairo, sources: [source/shadharat-dhahab] }
+  - { type: buried_in, target: place/cairo, sources: [source/shadharat-dhahab] }
+sources: [source/shadharat-dhahab]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }
+provenance:
+  layer: own-research
+  source: "شذرات الذهب — ابن العماد (ج5، سنة 648)، قراءة آبل فيجن"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-shadharat-batch-128

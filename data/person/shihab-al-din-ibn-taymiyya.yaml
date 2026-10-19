@@ -1,0 +1,28 @@
+id: person/shihab-al-din-ibn-taymiyya
+class: person
+label: { ar: "شهاب الدين ابن تيمية", en: "Shihab al-Din ibn Taymiyya" }
+names:
+  - { value: "شهاب الدين عبد الحليم بن عبد السلام بن عبد الله بن محمد بن الخضر بن علي بن تيمية الحراني الحنبلي", kind: full }
+born: { edtf: "1229~", hijri: "0627", calendar: julian, precision: year, status: tradition, derived: true, note: "ولد سنة سبع وعشرين وستمائة بحَرّان {cite:shadharat-dhahab p. 645}." }
+died: { edtf: "1284-03~", hijri: "0682-12~", calendar: julian, precision: month, status: tradition, derived: true, note: "توفي ليلة الأحد سلخ ذي الحجة سنة اثنتين وثمانين ودفن من الغد يقال بسفح قاسيون {cite:shadharat-dhahab p. 645}." }
+summary:
+  ar: "الإمام عبد الحليم بن عبد السلام، ابن سيف الدين خطيب حران وأب شيخ الإسلام تقي الدين؛ قرأ المذهب حتى أتقنه على والده ودرس وأفتى وصنف وصار شيخ البلد بعد أبيه وخطيبه وحاكمه، وله يد طولى في الفرائض والحساب والهيئة، ثم هاجر بأهله وأقاربه إلى دمشق سنة سبع وستين فباشر مشيخة دار الحديث السكرية بالقصاعين وكان له كرسي بالجامع يتكلم عليه أيام الجمع من حفظه، ولما توفي خلفه فيهما ولده أبو العباس. قال البرزالي كان من أعيان الحنابلة، وقال الذهبي وإنما اختفى من نور القمر وضوء الشمس يشير إلى أبيه وابنه {cite:shadharat-dhahab p. 564, 645}."
+  en: "Son of Sayf al-Din, father of Taqi al-Din — shaykh, khatib and hakim of his town after his father, then the family's 667 migration to Damascus; he held the Dar al-Hadith Sukriyya chair at Qassa'in and the Friday chair at the Jami', succeeded in both by his son Abu al-Abbas; Dhahabi: 'he was eclipsed only as moonlight by the sun — of his father and his son' {cite:shadharat-dhahab p. 564, 645}."
+gender: male
+roles: [scholar, muhaddith]
+wings: [people]
+periods: [period/mongol-post-mongol]
+regions: [levant-iraq]
+faith:
+  - value: sunni-hanbali
+    basis: tradition
+relations:
+  - { type: child_of, target: person/sayf-al-din-ibn-taymiyya, sources: [source/shadharat-dhahab] }
+  - { type: died_in, target: place/damascus, sources: [source/shadharat-dhahab] }
+sources: [source/shadharat-dhahab]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }
+provenance:
+  layer: own-research
+  source: "شذرات الذهب — ابن العماد (ج7، سنة 667)، قراءة آبل فيجن"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-shadharat-batch-132

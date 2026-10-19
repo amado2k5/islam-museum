@@ -1,0 +1,26 @@
+id: person/badr-al-din-al-kalastani
+class: person
+label: { ar: "بدر الدين الكلستاني كاتب السر", en: "Badr al-Din al-Kalastani, katib al-sirr" }
+names:
+  - { value: "بدر الدين محمود بن عبد الله الكلستاني المعروف بالكلستاني السرائي نسبة إلى مدينة من مدن الدشت الحنفي", kind: full }
+died: { edtf: "1399-01~", hijri: "0801-05-05", calendar: julian, precision: day, status: tradition, derived: true, note: "توفي في خامس جمادى الأولى سنة إحدى وثمانمائة {cite:shadharat-dhahab p. 20}." }
+summary:
+  ar: "كاتب السر بالديار المصرية؛ اشتغل ببلاده ثم ببغداد وقدم دمشق خاملاً ثم مصر فحصل له نوع يسر لقربه من الجيوباني، ولما تولى الجيوباني نيابة الشام قدم معه وولي تدريس الظاهرية ومشيخة الأسدية وتصدير الجامع الأموي، ثم لما سار السلطان إلى حلب ورد عليه من اللنك كتاب بالتركي فلم يجد من يقرؤه فاستدعاه فقرأه وكتب الجواب فأجاد فأمره أن يكون في صحبته إلى أن ولّاه كتابة السر — وكان يحكي أنه أصبح لا يملك درهماً فما أمسى إلا وعنده من الخيل والمال ما لا يوصف — وخلف أموالاً يقال إنها وجدت مدفونة في كراسي المستراح {cite:shadharat-dhahab p. 20-21}."
+  en: "Egypt's katib al-sirr — the Turkic-literate secretary who alone could read Timur's letter on the Aleppo march, and rose in a day from penniless to boundless wealth; the tale of money found buried in the latrine chairs after his death {cite:shadharat-dhahab p. 20-21}."
+gender: male
+roles: [writer, vizier, scholar]
+wings: [people]
+periods: [period/mongol-post-mongol]
+regions: [egypt-nile, levant-iraq]
+faith:
+  - value: sunni-hanafi
+    basis: tradition
+relations:
+  - { type: died_in, target: place/cairo, sources: [source/shadharat-dhahab] }
+sources: [source/shadharat-dhahab]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }
+provenance:
+  layer: own-research
+  source: "شذرات الذهب — ابن العماد (ط مثنى، ج7، سنة 801)، قراءة آبل فيجن"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-shadharat-batch-136

@@ -1,0 +1,23 @@
+id: person/al-zarkashi-al-baghdadi
+class: person
+label: { ar: "شمس الدين الزركشي البغدادي", en: "Shams al-Din al-Zarkashi al-Baghdadi" }
+names:
+  - { value: "شمس الدين محمد بن سعد الدين بن محمد بن نجم الدين محمد البغدادي الزركشي", kind: full }
+gender: male
+summary:
+  ar: "شمس الدين الزركشي البغدادي نزيل القاهرة؛ مهر في القراءات وشارك في الفنون وتعانى النظم وله قصيدة حسنة في العروض وشرحها ونظم العواطل الحوالي ست عشرة قصيدة على سبعة عشر بحراً ليس فيها نقطة، وسمع منه ابن حجر وسمع هو أيضاً من ابن حجر ورافقه في السماع وجرت له في آخر عمره محنة، توفي في ذي الحجة سنة اثنتي عشرة وثمانمائة {cite:shadharat-dhahab p. 112}."
+  en: "Shams al-Din al-Zarkashi al-Baghdadi of Cairo — recitations-master who composed al-'Awatil al-Hawali: sixteen qasidas across seventeen metres containing not a single dotted letter; heard hadith with Ibn Hajar; died Dhu al-Hijja 812 {cite:shadharat-dhahab p. 112}."
+roles: [scholar, poet]
+wings: [people]
+periods: [period/mongol-post-mongol]
+regions: [egypt-nile, levant-iraq]
+died: { edtf: "1410-05~", hijri: "0812-12", calendar: julian, precision: month, status: tradition, derived: true, note: "توفي في ذي الحجة 812 {cite:shadharat-dhahab p. 112}", sources: [source/shadharat-dhahab] }
+relations:
+  - { type: teacher_of, target: person/ibn-hajar-al-asqalani, sources: [source/shadharat-dhahab] }
+provenance:
+  layer: own-research
+  source: "شذرات الذهب — ابن العماد (ط مكتبة المثنى 1351، ج7، سنة 812)، قراءة آبل فيجن"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-shadharat-batch-137
+sources: [source/shadharat-dhahab]
+status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 High)" }

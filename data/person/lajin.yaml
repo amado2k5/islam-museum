@@ -2,15 +2,20 @@ id: person/lajin
 class: person
 label: { ar: "الملك المنصور لاجين" }
 summary:
-  ar: "سلطان مملوكي، وثب على السلطنة والسلطان بدمشق سنة ست وتسعين وحلف له الأمراء ولم يختلف عليه اثنان وخلع عليه الخليفة الخلعة السوداء وكتب له تقليداً ثم قتل في جمادى الآخرة سنة ثمان وتسعين فأعيد الملك الناصر {cite:tarikh-khulafa-minhaj-1434 p. 731}."
+  ar: "سلطان مملوكي، وثب على السلطنة والسلطان بدمشق سنة ست وتسعين وحلف له الأمراء ولم يختلف عليه اثنان وخلع عليه الخليفة الخلعة السوداء وكتب له تقليداً ثم قتل في جمادى الآخرة سنة ثمان وتسعين فأعيد الملك الناصر {cite:tarikh-khulafa-minhaj-1434 p. 731}؛ وفي رواية شذرات الذهب: وثب على بيحاص وبكتوت الأزرق باللجون فقتلهما فزال ملك العادل كتبغا، وقُتل على يد كرجي الأشرفي وهو يلعب بالشطرنج {cite:shadharat-dhahab p. 758, 769}."
   en: "Usurper-sultan of 696–698, robed and deeded by the caliph, killed in Jumada II — al-Nasir restored {cite:tarikh-khulafa-minhaj-1434 p. 731}."
+died: { edtf: "1299-03~", hijri: "0698-06", calendar: julian, precision: month, status: tradition, derived: true, note: "قُتل في جمادى الآخرة سنة ثمان وتسعين على يد كرجي الأشرفي {cite:tarikh-khulafa-minhaj-1434 p. 731}؛ وجاء الخبر بالقتل في ربيع الآخر {cite:shadharat-dhahab p. 769}." }
 gender: male
+roles: [sultan, emir]
 wings: [people]
 periods: [period/mongol-post-mongol]
+relations:
+  - { type: participated_in, target: event/lajin-coup-696, role: "قائد الانقلاب", sources: [source/shadharat-dhahab] }
+  - { type: participated_in, target: event/lajin-murder-698, role: "السلطان المقتول", sources: [source/shadharat-dhahab] }
 provenance:
   layer: own-research
   source: "تاريخ الخلفاء للسيوطي (ط المنهاج 1434هـ/2013م) ص 723–734"
   generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
   run: lib-tarikh-khulafa-batch-47
-sources: [source/tarikh-khulafa-minhaj-1434]
+sources: [source/tarikh-khulafa-minhaj-1434, source/shadharat-dhahab]
 status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

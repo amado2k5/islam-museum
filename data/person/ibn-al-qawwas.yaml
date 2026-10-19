@@ -1,0 +1,26 @@
+id: person/ibn-al-qawwas
+class: person
+label: { ar: "ابن القواس مسند الوقت", en: "Ibn al-Qawwas, musnid of the age" }
+names:
+  - { value: "ابن القواس مسند الوقت ناصر الدين أبو حفص عمر بن عبد المنعم بن عمر الطائي الدمشقي", kind: full }
+born: { edtf: "1208~", hijri: "0605~", calendar: julian, precision: year, status: tradition, derived: true, note: "توفي وله ثلاث وتسعون سنة {cite:shadharat-dhahab p. 773}." }
+died: { edtf: "1299-08~", hijri: "0698-11-02", calendar: julian, precision: day, status: tradition, derived: true, note: "توفي في ثاني ذي القعدة وله ثلاث وتسعون سنة {cite:shadharat-dhahab p. 773}." }
+summary:
+  ar: "مسند الوقت الدمشقي؛ سمع حضوراً من ابن الحرستاني وأبي يعلى بن أبي لقمة فكان آخر من روى عنهما، وخرّجت له «مشيخة»، وكان ديناً خيراً متواضعاً محباً للرواية {cite:shadharat-dhahab p. 773}."
+gender: male
+roles: [scholar]
+wings: [people]
+periods: [period/mongol-post-mongol]
+regions: [levant-iraq]
+faith:
+  - value: sunni
+    basis: tradition
+relations:
+  - { type: died_in, target: place/damascus, sources: [source/shadharat-dhahab] }
+sources: [source/shadharat-dhahab]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }
+provenance:
+  layer: own-research
+  source: "شذرات الذهب — ابن العماد (ج7، سنة 698)، قراءة آبل فيجن"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-shadharat-batch-135

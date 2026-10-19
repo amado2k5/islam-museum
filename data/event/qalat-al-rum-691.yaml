@@ -1,0 +1,23 @@
+id: event/qalat-al-rum-691
+class: event
+kind: siege
+label: { ar: "فتح قلعة الروم سنة 691هـ", en: "The fall of Qal'at al-Rum, 691" }
+summary:
+  ar: "في رجب سنة إحدى وتسعين وستمائة نازل السلطان الملك الأشرف خليل قلعةَ الروم المجاورة لقلعة البيرة، وكان أهلها نصارى من تحت طاعة التتار، فنصب عليها المجانيق وجدّ في حصارها حتى فُتحت بعد خمسة وعشرين يوماً؛ وقال الشهاب محمود في كتاب «الفتح»: فسطا خميس الإسلام يوم السبت على أهل الأحد، فبارك الله للأمة في سبتها وخميسها {cite:shadharat-dhahab p. 729}."
+wings: [time]
+periods: [period/mongol-post-mongol]
+regions: [levant-iraq]
+sides:
+  - { label: { ar: "المماليك" }, participants: [person/al-ashraf-khalil] }
+  - { label: { ar: "أهل قلعة الروم" } }
+map: { kind: siege, precision: locality, center: [37.2700, 37.8400] }
+date: { start: { edtf: "1292-06~", hijri: "0691-07", calendar: julian, precision: month, status: tradition, derived: true, note: "فتحت في رجب سنة إحدى وتسعين وستمائة بعد خمسة وعشرين يوماً {cite:shadharat-dhahab p. 729}", sources: [source/shadharat-dhahab] } }
+relations:
+  - { type: occurred_at, target: place/qalat-al-rum, sources: [source/shadharat-dhahab] }
+provenance:
+  layer: own-research
+  source: "شذرات الذهب — ابن العماد (ج7، سنة 691)، قراءة آبل فيجن"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-shadharat-batch-134
+sources: [source/shadharat-dhahab]
+status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 High)" }

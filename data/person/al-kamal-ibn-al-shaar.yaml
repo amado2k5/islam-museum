@@ -1,0 +1,27 @@
+id: person/al-kamal-ibn-al-shaar
+class: person
+label: { ar: "الكمال ابن الشعار", en: "al-Kamal Ibn al-Sha'ar" }
+names:
+  - { value: "الكمال ابن الشعار أبو البركات المبارك بن أبي بكر بن حمدان الموصلي", kind: full }
+died: { edtf: "1256~", hijri: "0654", calendar: julian, precision: year, status: tradition, derived: true, note: "توفي بحلب سنة أربع وخمسين وستمائة {cite:shadharat-dhahab p. 266}." }
+summary:
+  ar: "الحافظ الموصلي، مؤلف عقود الجمان في شعراء الزمان؛ توفي بحلب سنة أربع وخمسين وستمائة {cite:shadharat-dhahab p. 266}."
+  en: "The Mosul hafiz (d. Aleppo 654) — author of Uqud al-Juman fi Shu'ara' al-Zaman, the anthology of his age's poets {cite:shadharat-dhahab p. 266}."
+gender: male
+roles: [historian, writer, scholar]
+wings: [people]
+periods: [period/crusades-ayyubid-mamluk]
+regions: [levant-iraq]
+faith:
+  - value: sunni
+    basis: tradition
+relations:
+  - { type: born_in, target: place/mosul, sources: [source/shadharat-dhahab] }
+  - { type: died_in, target: place/aleppo, sources: [source/shadharat-dhahab] }
+sources: [source/shadharat-dhahab]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }
+provenance:
+  layer: own-research
+  source: "شذرات الذهب — ابن العماد (ج5، سنة 654)، قراءة آبل فيجن"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-shadharat-batch-129

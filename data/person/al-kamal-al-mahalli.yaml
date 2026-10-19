@@ -1,0 +1,26 @@
+id: person/al-kamal-al-mahalli
+class: person
+label: { ar: "الكمال المحلي الضرير", en: "al-Kamal al-Mahalli the Blind" }
+names:
+  - { value: "الكمال المحلي أحمد بن علي الضرير شيخ القراء بالقاهرة", kind: full }
+born: { edtf: "1222~", hijri: "0621~", calendar: julian, precision: year, status: tradition, derived: true, note: "مات في ربيع الآخر سنة اثنتين وسبعين عن إحدى وخمسين سنة {cite:shadharat-dhahab p. 585}." }
+died: { edtf: "1273-10~", hijri: "0672-04", calendar: julian, precision: month, status: tradition, derived: true, note: "مات في ربيع الآخر سنة اثنتين وسبعين {cite:shadharat-dhahab p. 585}." }
+summary:
+  ar: "شيخ القراء بالقاهرة الضرير؛ انتفع به جماعة، وكان من المرتبين بتدريس الإيوان الغربي للحديث في المدرسة الظاهرية بين القصرين عند انتهاء عمارتها سنة اثنتين وستين؛ مات في ربيع الآخر عن إحدى وخمسين سنة {cite:shadharat-dhahab p. 585, 533}."
+  en: "Cairo's blind shaykh of the qurra' — holder of the western-iwan hadith chair at the newly finished Zahiriyya (662); d. Rabi' II 672 at fifty-one {cite:shadharat-dhahab p. 585, 533}."
+gender: male
+roles: [muqri, scholar, teacher]
+wings: [people]
+periods: [period/mongol-post-mongol]
+regions: [egypt-nile]
+faith:
+  - value: sunni
+    basis: tradition
+relations: []
+sources: [source/shadharat-dhahab]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }
+provenance:
+  layer: own-research
+  source: "شذرات الذهب — ابن العماد (ج7، سنة 672)، قراءة آبل فيجن"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-shadharat-batch-132

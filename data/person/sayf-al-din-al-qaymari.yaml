@@ -1,0 +1,28 @@
+id: person/sayf-al-din-al-qaymari
+class: person
+label: { ar: "سيف الدين القيمري", en: "Sayf al-Din al-Qaymari" }
+names:
+  - { value: "سيف الدين أبو الحسن علي بن يوسف بن أبي الفوارس القيمري", kind: full }
+died: { edtf: "1255~", hijri: "0653", calendar: julian, precision: year, status: tradition, derived: true, note: "توفي بنابلس ونقل فدفن بقبته قرب مارستانه بالصالحية {cite:shadharat-dhahab p. 269}." }
+summary:
+  ar: "صاحب المارستان بصالحية دمشق، ابن أخت صاحب قيمر؛ كان من جلة الأمراء وأبطالهم المذكورين وصلحائهم المشهورين، وأسرته هي التي قبضت على ملك الفرنج يوم الفوز بالمنصورة سنة ثمان وأربعين {cite:shadharat-dhahab p. 248}؛ توفي بنابلس ونقل فدفن بقبته بقرب مارستانه بالصالحية، والدعاء عند قبره مستجاب {cite:shadharat-dhahab p. 269}."
+  en: "Founder of the Maristan at Damascus's Salihiyya (d. 653 at Nablus) — of the great hero-amirs; it was his retinue that laid hands on the Franks' king at the Mansura victory of 648; buried by his maristan, where prayer at his grave is held answered {cite:shadharat-dhahab p. 248, 269}."
+gender: male
+roles: [emir, patron]
+wings: [people]
+periods: [period/crusades-ayyubid-mamluk]
+regions: [levant-iraq]
+faith:
+  - value: sunni
+    basis: tradition
+relations:
+  - { type: participated_in, target: event/fariskur-louis-captured-648, role: "أسرته قبضت على ملك الفرنج", sources: [source/shadharat-dhahab] }
+  - { type: died_in, target: place/nablus, sources: [source/shadharat-dhahab] }
+  - { type: buried_in, target: place/damascus, sources: [source/shadharat-dhahab] }
+sources: [source/shadharat-dhahab]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }
+provenance:
+  layer: own-research
+  source: "شذرات الذهب — ابن العماد (ج5، سنة 648 و653)، قراءة آبل فيجن"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-shadharat-batch-129

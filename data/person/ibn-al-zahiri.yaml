@@ -1,0 +1,26 @@
+id: person/ibn-al-zahiri
+class: person
+label: { ar: "ابن الظاهري الحافظ", en: "Ibn al-Zahiri, the hafiz" }
+names:
+  - { value: "ابن الظاهري الحافظ الزاهد القدوة جمال الدين أبو العباس أحمد بن محمد بن عبد الله الحلبي الحنفي المقرئ المحدث", kind: full }
+born: { edtf: "1229~", hijri: "0626~", calendar: julian, precision: year, status: tradition, derived: true, note: "توفي وله سبعون سنة {cite:shadharat-dhahab p. 759}." }
+died: { edtf: "1297-01~", hijri: "0696-03", calendar: julian, precision: month, status: tradition, derived: true, note: "توفي بزاويته بالمغس بظاهر القاهرة في ربيع الأول وله سبعون سنة {cite:shadharat-dhahab p. 759}." }
+summary:
+  ar: "الحافظ الزاهد؛ أحد من عني بشأن الحديث، وكتب عن سبعمائة شيخ بالشام والجزيرة ومصر، وما زال في طلب الحديث وإفادته وتخريجه إلى آخر أيامه، وكان من الثقات الأثبات؛ كان أبوه مولى للظاهر غازي بن يوسف {cite:shadharat-dhahab p. 759-760}."
+gender: male
+roles: [scholar]
+wings: [people]
+periods: [period/mongol-post-mongol]
+regions: [egypt-nile]
+faith:
+  - value: sunni-hanafi
+    basis: tradition
+relations:
+  - { type: died_in, target: place/cairo, sources: [source/shadharat-dhahab] }
+sources: [source/shadharat-dhahab]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }
+provenance:
+  layer: own-research
+  source: "شذرات الذهب — ابن العماد (ج7، سنة 696)، قراءة آبل فيجن"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-shadharat-batch-135

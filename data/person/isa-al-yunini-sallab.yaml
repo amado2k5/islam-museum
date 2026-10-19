@@ -1,0 +1,26 @@
+id: person/isa-al-yunini-sallab
+class: person
+label: { ar: "عيسى اليونيني سلاب الأجوال", en: "Isa al-Yunini, Sallab al-Ajwal" }
+names:
+  - { value: "الشيخ الكبير عيسى بن أحمد بن إلياس اليونيني الزاهد", kind: full }
+died: { edtf: "1256-11~", hijri: "0654-11", calendar: julian, precision: month, status: tradition, derived: true, note: "توفي في ذي القعدة سنة أربع وخمسين وستمائة ودفن بزاويته بيونين {cite:shadharat-dhahab p. 274}." }
+summary:
+  ar: "الزاهد، صاحب الشيخ عبد الله اليونيني؛ كان عابداً زاهداً صواماً قواماً خائفاً قانتاً لله متبتلاً منقطع القرين صاحب أحوال وإخلاص، إلا أنه كان حاد النفس ولذلك قيل له سلاب الأجوال، وكان خشن العيش في ملبسه ومأكله؛ توفي ودفن بزاويته بيونين {cite:shadharat-dhahab p. 274}."
+  en: "The companion-ascetic of Abdallah al-Yunini (d. Dhu al-Qa'da 654) — so sharp-tempered they called him Sallab al-Ajwal; buried at his zawiya in Yunin {cite:shadharat-dhahab p. 274}."
+gender: male
+roles: [mystic]
+wings: [people]
+periods: [period/crusades-ayyubid-mamluk]
+regions: [levant-iraq]
+faith:
+  - value: sunni-hanbali
+    basis: tradition
+relations:
+  - { type: student_of, target: person/abdallah-al-yunini, sources: [source/shadharat-dhahab] }
+sources: [source/shadharat-dhahab]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }
+provenance:
+  layer: own-research
+  source: "شذرات الذهب — ابن العماد (ج5، سنة 654)، قراءة آبل فيجن"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-shadharat-batch-129

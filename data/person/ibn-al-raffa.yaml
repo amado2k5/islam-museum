@@ -1,0 +1,28 @@
+id: person/ibn-al-raffa
+class: person
+label: { ar: "ابن الرفاع الحموي", en: "Ibn al-Raffa' of Hama" }
+names:
+  - { value: "شيخ الشيوخ شرف الدين عبد العزيز بن محمد بن عبد المحسن الأنصاري الدمشقي ثم الحموي الشافعي الأديب المعروف بابن الرفاع", kind: full }
+born: { edtf: "1190", hijri: "0586", calendar: julian, precision: year, status: tradition, derived: true, note: "ولد بدمشق سنة ست وثمانين وخمسمائة {cite:shadharat-dhahab p. 535}." }
+died: { edtf: "1264-08~", hijri: "0662-09-08", calendar: julian, precision: day, status: tradition, derived: true, note: "مات بحماة ودفن بظاهرها في ثامن رمضان بتربة كان أعدها له {cite:shadharat-dhahab p. 535-536}." }
+summary:
+  ar: "شيخ الشيوخ؛ كان أبوه قاضي حماة، وولد بدمشق سنة ست وثمانين وكان مفرط الذكاء؛ رحل به أبوه فسمع من ابن كليب جزء ابن عرفة ومن أبي المجد المسند كله؛ وله محفوظات كثيرة وفضائل شهيرة وحرمة وجلالة ولين جانب يكرم من يعرف ومن لا يعرف؛ مات بحماة ودفن بظاهرها في ثامن رمضان بتربة كان أعدها له، وله شعر {cite:shadharat-dhahab p. 535-536}."
+  en: "Hama's shaykh al-shuyukh (b. Damascus 586), 'of exceeding intelligence' — carried by his father the qadi on rihla, he heard all of Abu al-Majd's Musnad; died 8 Ramadan 662 in a turba he had prepared {cite:shadharat-dhahab p. 535-536}."
+gender: male
+roles: [scholar, muhaddith, poet]
+wings: [people]
+periods: [period/crusades-ayyubid-mamluk]
+regions: [levant-iraq]
+faith:
+  - value: sunni-shafii
+    basis: tradition
+relations:
+  - { type: died_in, target: place/hama, sources: [source/shadharat-dhahab] }
+  - { type: buried_in, target: place/hama, sources: [source/shadharat-dhahab] }
+sources: [source/shadharat-dhahab]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }
+provenance:
+  layer: own-research
+  source: "شذرات الذهب — ابن العماد (ج7، سنة 662)، قراءة آبل فيجن"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-shadharat-batch-131
