@@ -54,6 +54,22 @@ None yet.
 - Queued for OCR after the current items. The front matter and the five-book division are expected in these volumes; the earlier 1,161-page OCR has none. Edition details come from the printed title pages.
 - Source for future downloads: https://www.al-mostafa.com/ (requested by the founder). Not yet checked for licence or terms; not added to any fetch step.
 
+## Batch 1b: al-Khwarizmi, al-Kitab al-mukhtasar fi hisab al-jabr wal-muqabala (draft, 18 Oct 2026)
+
+- **Copy:** `unidentified/columbia-aco000196` (Columbia scan, 130 pages, Apple Vision OCR; not in git). The OCR is partly garbled but the title page and the editors' introduction are readable, so the copy was not treated as empty.
+- **Edition found:** Cairo, 1939, edited by Ali Mustafa Mosharafa and Muhammad Morsi Ahmad (Faculty of Science, Egyptian University; the preface is dated 1937 in the OCR). The printed title is "kitab al-jabr wal-muqabala"; the longer title in the brief is not confirmed by the OCR.
+- **Pages covered (scan markers):** pp.1, 2, 7, 8–9 (partly), 11–12 (editors' introduction). p.13 begins a historical section ("Algebra before al-Khwarizmi") and is not yet read.
+- **Entities created (all `status.review: draft`):**
+  - `work/al-jabr-wal-muqabala` (book; author `person/al-khwarizmi`, existing record, which keeps the sourced dates; no death year written here)
+  - `concept/algebra` (scientific; new)
+  - `source/khwarizmi-jabr-cairo-1939` (primary; edition not verified)
+  - `content/ar/work/al-jabr-wal-muqabala.md`, `content/ar/concept/algebra.md`
+- **Flags:** the editors say their base manuscript was a copy made about five hundred years after the author's death, with copying errors (scan pp.11–12). The text is treated as a late copy, not an autograph.
+- **Skipped and why:**
+  - Death year of al-Khwarizmi: not in the book, left empty on the work.
+  - `person/al-khwarizmi` already exists; not recreated.
+- **Next step:** read the mathematics (chapters after p.13) to check statements of method before any claim about content beyond the editors' introduction. Confirm the edition against a second print.
+
 ## Next step
 
 1. Read the OCR pages 19–68 (Ta'lim 5 organs and the rest of Ta'lim 6), and find the front matter if the OCR has it under another page (none found in pp.1–18). Then create the organ and powers concepts.
