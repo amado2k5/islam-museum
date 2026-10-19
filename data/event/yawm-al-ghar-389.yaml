@@ -1,0 +1,21 @@
+id: event/yawm-al-ghar-389
+class: event
+kind: other
+label: { ar: "استحداث يوم الغار ببغداد مقابلاً ليوم الغدير" }
+summary:
+  ar: "كانت عادة الشيعة بالكرخ وباب الطاق نصب القباب وتعليق الثياب وإظهار الزينة يوم الغدير وإشعال النار ليلته ونحر جمل صبيحته، فأرادت الطائفة الأخرى أن تعمل في مقابله شيئاً فادعت أن اليوم الثامن منه كان اليوم الذي حصل فيه النبي وأبو بكر في الغار فعملت فيه مثل ما عملت الشيعة، وجعلت بازاء يوم عاشوراء يوماً بعده بثمانية أيام نسبته إلى مقتل مصعب بن الزبير فزاروا قبره بمسكن كما يزار قبر الحسين، وكان ابتداء يوم الغار يوم الجمعة لأربع بقين من ذي الحجة سنة تسع وثمانين {cite:muntazam-ibn-al-jawzi j.7 p.209-210}."
+wings: [time]
+periods: [period/buyid-seljuk-fatimid-era]
+regions: [levant-iraq]
+date:
+  start: { edtf: "0999-11-21~", hijri: "0389-12-26", calendar: julian, precision: day, status: tradition, derived: true, note: "يوم الجمعة لأربع بقين من ذي الحجة 389؛ التحويل مشتق {cite:muntazam-ibn-al-jawzi j.7 p.210}" }
+relations:
+  - { type: located_in, target: place/baghdad, sources: [source/muntazam-ibn-al-jawzi] }
+  - { type: related_to, target: person/musab-ibn-al-zubayr, role: "جعلوا بازاء عاشوراء يوماً بعده بثمانية أيام نسبوه إلى مقتله وزاروا قبره بمسكن", sources: [source/muntazam-ibn-al-jawzi] }
+provenance:
+  layer: own-research
+  source: "المنتظم في تاريخ الملوك والأمم — ابن الجوزي (مطبوعات دار الأفاق الجديدة، ج7، أحداث سنة 389)، قراءة آبل فيجن"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-muntazam-batch-21
+sources: [source/muntazam-ibn-al-jawzi]
+status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 High)" }

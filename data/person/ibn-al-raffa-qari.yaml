@@ -1,0 +1,19 @@
+id: person/ibn-al-raffa-qari
+class: person
+label: { ar: "أبو الحسين ابن الرفاء القارئ" }
+summary:
+  ar: "أبو الحسين ابن الرفاء القارئ، تلميذ أبي الحسن بن الخشاب مليح الصوت حسن التلاوة، كان من أحسن الناس قراءة مع أبي عبد الله ابن الدجاجي، واعترض الأسيفر المنتفقي الحاج سنة أربع وتسعين فدخلا إليه فوهب لهما الحاج وأموالهم وذلك يزيد على ألف ألف دينار، ولما ورد أبو الحسين بن بويه بغداد أخذهما ورتبهما لصلاة التراويح فكانا يتناوبان الصلاة ورغب الناس لأجلهما في صلاة التراويح {cite:muntazam-ibn-al-jawzi j.7 p.227-228}."
+wings: [people]
+periods: [period/buyid-seljuk-fatimid-era]
+regions: [levant-iraq]
+roles: [scholar]
+themes: [scripture-and-its-sciences]
+relations:
+  - { type: student_of, target: person/ibn-al-khashab, role: "تلقن عنه القراءة", sources: [source/muntazam-ibn-al-jawzi] }
+provenance:
+  layer: own-research
+  source: "المنتظم في تاريخ الملوك والأمم — ابن الجوزي (ج7، أحداث سنة 394)، قراءة آبل فيجن"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-muntazam-batch-21
+sources: [source/muntazam-ibn-al-jawzi]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

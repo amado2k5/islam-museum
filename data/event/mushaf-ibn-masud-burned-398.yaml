@@ -1,0 +1,22 @@
+id: event/mushaf-ibn-masud-burned-398
+class: event
+kind: other
+label: { ar: "إحراق مصحف منسوب إلى ابن مسعود وفتنة الكرخ" }
+summary:
+  ar: "في رجب سنة ثمان وتسعين جرت فتنة بين أهل الكرخ والفقهاء بقطيعة الربيع بعد تعرض لأبي عبد الله ابن النعمان المعروف بابن المعلم فقيه الشيعة، وأحضر مصحف ذكر أنه مصحف ابن مسعود وهو يخالف المصاحف فاجتمع الأشراف والقضاة والفقهاء وعرض عليهم فأشار أبو حامد الاسفراييني والفقهاء بتحريقه ففعل بحضورهم، ثم قتل رجل دعا على من أحرقه فوقع القتال بين أهل الكرخ وأهل باب البصرة وباب الشعير والقلائين وصاحوا حاكم يا منصور، وبلغ الخليفة فأحفظه فوضع الحرس على بابه لمعاونة أهل السنة وأحرق ما يلي نهر الدجاج، وخرج ابن المعلم من البلد ليلة الأحد لسبع بقين من رمضان {cite:muntazam-ibn-al-jawzi j.7 p.238-239}."
+wings: [time]
+periods: [period/buyid-seljuk-fatimid-era]
+regions: [levant-iraq]
+date:
+  start: { edtf: "1008-03~", hijri: "0398-07", calendar: julian, precision: month, status: tradition, derived: true, note: "رجب 398؛ التحويل مشتق {cite:muntazam-ibn-al-jawzi j.7 p.238}" }
+relations:
+  - { type: located_in, target: place/baghdad, sources: [source/muntazam-ibn-al-jawzi] }
+  - { type: had_participant, target: person/abu-hamid-al-isfarayini, role: "أشار مع الفقهاء بتحريق المصحف", sources: [source/muntazam-ibn-al-jawzi] }
+  - { type: had_participant, target: person/al-qadir-billah, role: "أحفظه الأمر فوضع الحرس على بابه", sources: [source/muntazam-ibn-al-jawzi] }
+provenance:
+  layer: own-research
+  source: "المنتظم في تاريخ الملوك والأمم — ابن الجوزي (ج7، أحداث سنة 398)، قراءة آبل فيجن"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-muntazam-batch-21
+sources: [source/muntazam-ibn-al-jawzi]
+status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 High)" }
