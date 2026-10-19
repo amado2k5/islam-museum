@@ -112,6 +112,24 @@ Candidates (dry run, 18 Oct 2026; `--max-items 2`; identifier, file, size; sourc
   - Honorific formulas in the OCR text: not copied; the Qur'an verses cited in the entries are referenced by passage id only (`quran-2-29`), never typed.
 - **Next step:** read scan pp.1354–1360 to finish «آبار» (Shafi'i and Hanbali abundance thresholds), then pp.1404 and 1408–1410 for «إباحة», then the next headings (آبق, آجن, إبانة, إبدال). Confirm the printed volume number and edition before any dated claim beyond the second-edition date.
 
+## Kuwaiti encyclopedia, batch 2 from p.1408 (draft, 19 Oct 2026)
+
+- **Copy and identity:** as in the batch above (`books/fiqh/fiqh-mawsua-kuwaitiyya-noor-v3/`, OCR on the harvest drive, not in git). The batch above is the first Kuwaiti batch on main; this section is the second, and its naming in the earlier prose ("Batch 2") predates this numbering.
+- **Pages read (scan markers):** pp.1408-1416 (end of «إباحة» at the top of p.1408; «إباق» pp.1408-1412; «إبانة» pp.1412-1413; «ابتداع» cross-reference pp.1413; «إبدال» pp.1413-1415; first heading «إبراء» at p.1415-1416, not written up).
+- **Entities created (all `status.review: draft`, with `provenance` and `sources: [source/fiqh-mawsua-kuwaitiyya-noor-v3]`):**
+  - `concept/ibaq` (الإباق, running away of a slave; pp.1408-1411)
+  - `concept/ibana` (الإبانة, severance of a part of a living body; pp.1412-1413; the report «ما أبين من حي فهو ميت» is marked debated, with the encyclopedia's own account of its grading)
+  - `concept/ibdal` (الإبدال, substitution; pp.1413-1415)
+  - content for each in `content/ar/concept/`, `content/en/concept/`, `content/ur/concept/`.
+- **Skipped and why:**
+  - `ابتداع`: the encyclopedia says «انظر: بدعة»; `concept/bida` already exists, so no entity.
+  - The top of p.1408 (the end of «إباحة»: how permission ends by revocation, the death of the permitter or of the permitted): not added to `concept/ibaha` in this batch, to keep batch 1 unchanged. Next step.
+  - Sections of «إباق» on pp.1411-1412 (the runaway's transactions, booty before division, ownership claims, zakat al-fitr, punishment): read but not written up, to stay within the page budget. Next step.
+  - «إبراء» (pp.1415-1416): begins this batch's last page; not written up.
+  - No person or group records: the pages name no scholars as subjects beyond the schools.
+- **Checks:** `npm run validate` 0 errors; no new warnings on the new files; no honorifics; no Qur'an text typed.
+- **Next step:** finish «إباق» pp.1411-1412 as a second record only if it is a distinct concept (likely not; add as a section), then «إبراء» from p.1415 (an entity `concept/ibra`, with the note that its prose has a separate section on «المبارأة» that the encyclopedia treats under khul'). Check the pages read against the Kuwaiti volume and edition before any dated claim.
+
 ## Next step
 
 Add this lane's entries to `scripts/harvest/library/books.yaml` in the lane's own commit, then run `fetch_books.py` for the lane after the workstream commit is on `origin/main`.
