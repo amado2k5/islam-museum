@@ -5,7 +5,7 @@
  "candidates_file": "$HARVEST/wikidata-import/candidates.tsv",
  "candidates_query": "select distinct id from wd_claim where property='P140' and value_id='Q432' minus Wikidata ids already linked in data/, ordered by sitelink count desc",
  "linked_preexisting": 987,
- "next_index": 760,
+ "next_index": 860,
  "created_ids": [
   {
    "i": 24,
@@ -526,6 +526,81 @@
    "i": 755,
    "qid": "Q1148049",
    "id": "person/sanai"
+  },
+  {
+   "i": 766,
+   "qid": "Q2682717",
+   "id": "person/mahfiruz-sultan"
+  },
+  {
+   "i": 773,
+   "qid": "Q3238719",
+   "id": "person/shah-jahan-ii-mughal"
+  },
+  {
+   "i": 775,
+   "qid": "Q335728",
+   "id": "person/ahmad-ibn-ibrahim-al-ghazi"
+  },
+  {
+   "i": 777,
+   "qid": "Q455442",
+   "id": "person/firuz-shah-tughluq"
+  },
+  {
+   "i": 782,
+   "qid": "Q6932430",
+   "id": "person/azam-shah"
+  },
+  {
+   "i": 791,
+   "qid": "Q1571856",
+   "id": "person/kara-ahmed-pasha"
+  },
+  {
+   "i": 793,
+   "qid": "Q19629001",
+   "id": "person/sidi-boushaki"
+  },
+  {
+   "i": 795,
+   "qid": "Q2041521",
+   "id": "person/gulbadan-begum"
+  },
+  {
+   "i": 796,
+   "qid": "Q2355593",
+   "id": "person/bidil"
+  },
+  {
+   "i": 804,
+   "qid": "Q29896",
+   "id": "person/asaf-jah-i"
+  },
+  {
+   "i": 809,
+   "qid": "Q3299940",
+   "id": "person/hamida-banu-begum"
+  },
+  {
+   "i": 822,
+   "qid": "Q738649",
+   "id": "person/hamdallah-mustawfi"
+  },
+  {
+   "i": 833,
+   "qid": "Q1379164",
+   "id": "person/taqi-al-din-ibn-maruf"
+  },
+  {
+   "i": 846,
+   "qid": "Q2738287",
+   "id": "person/shabestari"
+  },
+  {
+   "i": 848,
+   "qid": "Q2747189",
+   "id": "person/bahlul-lodi"
   }
  ],
  "linked_ids": [
@@ -1528,6 +1603,86 @@
    "i": 680,
    "qid": "Q307680",
    "to": "person/abdallah-ibn-muhammad-andalusi"
+  },
+  {
+   "i": 768,
+   "qid": "Q284619",
+   "to": "person/al-mustansir-fatimid"
+  },
+  {
+   "i": 769,
+   "qid": "Q285668",
+   "to": "person/al-mustali-fatimid"
+  },
+  {
+   "i": 770,
+   "qid": "Q293509",
+   "to": "person/al-rashid-billah"
+  },
+  {
+   "i": 789,
+   "qid": "Q144287",
+   "to": "person/zayd-ibn-ali"
+  },
+  {
+   "i": 799,
+   "qid": "Q2665215",
+   "to": "person/ibn-adham-ibrahim"
+  },
+  {
+   "i": 801,
+   "qid": "Q286460",
+   "to": "person/al-adid-fatimid"
+  },
+  {
+   "i": 802,
+   "qid": "Q293450",
+   "to": "person/al-zahir-billah"
+  },
+  {
+   "i": 803,
+   "qid": "Q293549",
+   "to": "person/al-qaim-fatimid"
+  },
+  {
+   "i": 811,
+   "qid": "Q365543",
+   "to": "person/kerbogha"
+  },
+  {
+   "i": 820,
+   "qid": "Q731866",
+   "to": "person/ibn-al-jawzi"
+  },
+  {
+   "i": 829,
+   "qid": "Q1112739",
+   "to": "person/abu-al-darda"
+  },
+  {
+   "i": 831,
+   "qid": "Q1330145",
+   "to": "person/rashid-pasha-mustafa"
+  },
+  {
+   "i": 834,
+   "qid": "Q1417881",
+   "to": "person/al-mustansir-billah-egypt"
+  },
+  {
+   "i": 838,
+   "qid": "Q1788735",
+   "to": "place/muzdalifa"
+  },
+  {
+   "i": 847,
+   "qid": "Q2743400",
+   "to": "person/ubayy-ibn-kab"
+  },
+  {
+   "i": 854,
+   "qid": "Q335516",
+   "to": "person/abu-zayd-al-balkhi"
   }
  ],
  "skipped": [
@@ -3820,9 +3975,354 @@
    759,
    "Q1325825",
    "Id Kah mosque; building coverage not confirmed — deferred"
+  ],
+  [
+   760,
+   "Q1356809",
+   "modern mosque (Gibraltar 1997); out of scope"
+  ],
+  [
+   761,
+   "Q137111",
+   "Chishti order; no matching record and no confirmed source on the page — deferred"
+  ],
+  [
+   762,
+   "Q1379731",
+   "modern politician b.1951"
+  ],
+  [
+   763,
+   "Q1542247",
+   "taqlid term; no matching record, deferred"
+  ],
+  [
+   764,
+   "Q1964420",
+   "Nana Asmau d.1864, post-1800"
+  ],
+  [
+   765,
+   "Q2267244",
+   "Nakh peoples; no Islamic-history source"
+  ],
+  [
+   767,
+   "Q2822101",
+   "modern militant d.2021"
+  ],
+  [
+   771,
+   "Q311164",
+   "modern Ottoman pretender d.2009"
+  ],
+  [
+   772,
+   "Q32339",
+   "Bursa Ulu Cami; building coverage not confirmed — deferred"
+  ],
+  [
+   774,
+   "Q328786",
+   "modern cleric d.2010"
+  ],
+  [
+   776,
+   "Q4120118",
+   "tahajjud practice; no matching record, deferred"
+  ],
+  [
+   778,
+   "Q594565",
+   "modern writer d.2009"
+  ],
+  [
+   779,
+   "Q59981",
+   "modern president d.1967"
+  ],
+  [
+   780,
+   "Q614723",
+   "munafiq term; no matching record, deferred"
+  ],
+  [
+   781,
+   "Q64842485",
+   "modern politician b.1982"
+  ],
+  [
+   783,
+   "Q788652",
+   "modern mosque (2003); out of scope"
+  ],
+  [
+   784,
+   "Q853064",
+   "Bayezid II mosque Istanbul; building coverage not confirmed — deferred"
+  ],
+  [
+   785,
+   "Q963251",
+   "Muladi collective of al-Andalus; no confirmed source covering the group — deferred"
+  ],
+  [
+   786,
+   "Q1255835",
+   "Gazi Husrev-beg mosque Sarajevo; coverage not confirmed — deferred"
+  ],
+  [
+   787,
+   "Q1290529",
+   "Syrian Turkmen ethnic group; no confirmed source"
+  ],
+  [
+   788,
+   "Q1430127",
+   "modern mosque (1984); out of scope"
+  ],
+  [
+   790,
+   "Q154116",
+   "Kadhimiyya shrine; building coverage not confirmed — deferred"
+  ],
+  [
+   792,
+   "Q1581190",
+   "Mihrimah Edirnekapi mosque; coverage not confirmed — deferred"
+  ],
+  [
+   794,
+   "Q197094",
+   "Zeyrek mosque; coverage not confirmed — deferred"
+  ],
+  [
+   797,
+   "Q255545",
+   "modern president d.1969"
+  ],
+  [
+   798,
+   "Q266339",
+   "Polish general d.1850, post-1800"
+  ],
+  [
+   800,
+   "Q269182",
+   "modern general d.1948"
+  ],
+  [
+   805,
+   "Q307237",
+   "modern politician d.2020"
+  ],
+  [
+   806,
+   "Q307540",
+   "modern regent d.1958"
+  ],
+  [
+   807,
+   "Q308215",
+   "modern president d.1969"
+  ],
+  [
+   808,
+   "Q3091562",
+   "modern mosque (Colombia); out of scope"
+  ],
+  [
+   810,
+   "Q343562",
+   "modern historian b.1947"
+  ],
+  [
+   812,
+   "Q381150",
+   "modern politician d.1958"
+  ],
+  [
+   813,
+   "Q401433",
+   "modern footballer d.2020"
+  ],
+  [
+   814,
+   "Q40512",
+   "modern sultan d.1986"
+  ],
+  [
+   815,
+   "Q4308292",
+   "modern officer b.1960"
+  ],
+  [
+   816,
+   "Q471041",
+   "modern scholar b.1933"
+  ],
+  [
+   817,
+   "Q590900",
+   "Laleli mosque (18th c.); building coverage not confirmed — deferred"
+  ],
+  [
+   818,
+   "Q6879176",
+   "modern militant d.2025"
+  ],
+  [
+   819,
+   "Q709859",
+   "modern singer d.2025"
+  ],
+  [
+   821,
+   "Q735688",
+   "modern politician d.1997"
+  ],
+  [
+   823,
+   "Q739415",
+   "Great Omari mosque of Gaza; building coverage not confirmed — deferred"
+  ],
+  [
+   824,
+   "Q740282",
+   "modern writer d.1908"
+  ],
+  [
+   825,
+   "Q798610",
+   "Ethem Bey mosque Tirana; coverage not confirmed — deferred"
+  ],
+  [
+   826,
+   "Q948361",
+   "modern reciter b.1976"
+  ],
+  [
+   827,
+   "Q983036",
+   "Wazir Akbar Khan d.1845, post-1800"
+  ],
+  [
+   828,
+   "Q992508",
+   "Huaisheng mosque Guangzhou; coverage not confirmed — deferred"
+  ],
+  [
+   830,
+   "Q1231595",
+   "ibadah term; no matching record, deferred"
+  ],
+  [
+   832,
+   "Q1334803",
+   "modern politician d.2020"
+  ],
+  [
+   835,
+   "Q1420984",
+   "Pammakaristos/Fethiye mosque; coverage not confirmed — deferred"
+  ],
+  [
+   836,
+   "Q1430090",
+   "Nuruosmaniye mosque (18th c.); coverage not confirmed — deferred"
+  ],
+  [
+   837,
+   "Q1570185",
+   "Hala Sultan tekke Cyprus; coverage not confirmed — deferred"
+  ],
+  [
+   839,
+   "Q1813417",
+   "modern mosque (2008); out of scope"
+  ],
+  [
+   840,
+   "Q1865132",
+   "Aden Protectorate colonial territory; out of scope"
+  ],
+  [
+   841,
+   "Q187282",
+   "modern historian d.1970"
+  ],
+  [
+   842,
+   "Q19641",
+   "marja' term; no matching record, deferred"
+  ],
+  [
+   843,
+   "Q1995603",
+   "Ikhwan al-Safa as a society; no matching record and source coverage not confirmed — deferred"
+  ],
+  [
+   844,
+   "Q2086076",
+   "modern mosque (1988); out of scope"
+  ],
+  [
+   845,
+   "Q2471799",
+   "Ketchaoua mosque Algiers; coverage not confirmed — deferred"
+  ],
+  [
+   849,
+   "Q276936",
+   "Sultan of Morocco d.1937, post-1800"
+  ],
+  [
+   850,
+   "Q2975772",
+   "modern politician d.1975"
+  ],
+  [
+   851,
+   "Q308535",
+   "modern reciter d.1988"
+  ],
+  [
+   852,
+   "Q3108185",
+   "Baathist Iraq modern state; out of scope"
+  ],
+  [
+   853,
+   "Q313573",
+   "modern commander b.1960"
+  ],
+  [
+   855,
+   "Q349211",
+   "modern pretender d.2011"
+  ],
+  [
+   856,
+   "Q359381",
+   "modern businessman d.2017"
+  ],
+  [
+   857,
+   "Q3629485",
+   "Ahmad Raza Khan Barelvi d.1921, post-1800"
+  ],
+  [
+   858,
+   "Q380187",
+   "modern president d.2024"
+  ],
+  [
+   859,
+   "Q416646",
+   "Akbar's tomb Sikandra; building coverage not confirmed — deferred"
   ]
  ],
- "skipped_total": 458,
+ "skipped_total": 527,
  "skipped_by_reason": {
   "modern sovereign state; no matching record (al-Hind region is a different entity)": 1,
   "modern sovereign state; no matching record": 8,
@@ -4102,7 +4602,7 @@
   "Ali Pasha of Ioannina d.1822; Islam claim marginal, coverage uncertain, deferred": 1,
   "modern king b.1952": 1,
   "modern king d.1939": 1,
-  "modern president d.2024": 1,
+  "modern president d.2024": 2,
   "modern federation project": 1,
   "modern monarch b.1969": 1,
   "modern politician b.1961": 1,
@@ -4151,7 +4651,7 @@
   "modern politician b.1963": 1,
   "modern politician d.1927": 1,
   "Mudejars as a group; no confirmed source covering the collective, deferred": 1,
-  "modern mosque (2008); out of scope": 1,
+  "modern mosque (2008); out of scope": 2,
   "modern politician b.1945": 1,
   "modern nationalist d.1979": 1,
   "modern prime minister b.1970": 1,
@@ -4172,11 +4672,11 @@
   "Little Hagia Sophia; no confirmed source covering the building, deferred": 1,
   "modern mosque (1965); out of scope": 1,
   "modern mandate territory": 1,
-  "modern politician b.1951": 1,
+  "modern politician b.1951": 2,
   "modern figure b.1943": 1,
   "zina legal term; no matching record, deferred": 1,
   "modern figure b.1989": 1,
-  "modern politician d.2020": 1,
+  "modern politician d.2020": 3,
   "modern emir d.1999": 1,
   "modern prime minister b.1944": 1,
   "modern imam b.1962": 1,
@@ -4247,10 +4747,73 @@
   "Rahmaniyya order founded 1770s; tariqa coverage not confirmed — deferred": 1,
   "modern politician b.1954": 1,
   "Samanid mausoleum (10th c.); building coverage not confirmed — deferred": 1,
-  "Id Kah mosque; building coverage not confirmed — deferred": 1
+  "Id Kah mosque; building coverage not confirmed — deferred": 1,
+  "modern mosque (Gibraltar 1997); out of scope": 1,
+  "Chishti order; no matching record and no confirmed source on the page — deferred": 1,
+  "taqlid term; no matching record, deferred": 1,
+  "Nana Asmau d.1864, post-1800": 1,
+  "Nakh peoples; no Islamic-history source": 1,
+  "modern militant d.2021": 1,
+  "modern Ottoman pretender d.2009": 1,
+  "Bursa Ulu Cami; building coverage not confirmed — deferred": 1,
+  "modern cleric d.2010": 1,
+  "tahajjud practice; no matching record, deferred": 1,
+  "modern writer d.2009": 1,
+  "modern president d.1967": 1,
+  "munafiq term; no matching record, deferred": 1,
+  "modern politician b.1982": 1,
+  "modern mosque (2003); out of scope": 1,
+  "Bayezid II mosque Istanbul; building coverage not confirmed — deferred": 1,
+  "Muladi collective of al-Andalus; no confirmed source covering the group — deferred": 1,
+  "Gazi Husrev-beg mosque Sarajevo; coverage not confirmed — deferred": 1,
+  "Syrian Turkmen ethnic group; no confirmed source": 1,
+  "modern mosque (1984); out of scope": 1,
+  "Kadhimiyya shrine; building coverage not confirmed — deferred": 1,
+  "Mihrimah Edirnekapi mosque; coverage not confirmed — deferred": 1,
+  "Zeyrek mosque; coverage not confirmed — deferred": 1,
+  "modern president d.1969": 2,
+  "Polish general d.1850, post-1800": 1,
+  "modern general d.1948": 1,
+  "modern regent d.1958": 1,
+  "modern mosque (Colombia); out of scope": 1,
+  "modern historian b.1947": 1,
+  "modern politician d.1958": 1,
+  "modern footballer d.2020": 1,
+  "modern sultan d.1986": 1,
+  "modern officer b.1960": 1,
+  "modern scholar b.1933": 1,
+  "Laleli mosque (18th c.); building coverage not confirmed — deferred": 1,
+  "modern militant d.2025": 1,
+  "modern singer d.2025": 1,
+  "modern politician d.1997": 1,
+  "Great Omari mosque of Gaza; building coverage not confirmed — deferred": 1,
+  "modern writer d.1908": 1,
+  "Ethem Bey mosque Tirana; coverage not confirmed — deferred": 1,
+  "modern reciter b.1976": 1,
+  "Wazir Akbar Khan d.1845, post-1800": 1,
+  "Huaisheng mosque Guangzhou; coverage not confirmed — deferred": 1,
+  "ibadah term; no matching record, deferred": 1,
+  "Pammakaristos/Fethiye mosque; coverage not confirmed — deferred": 1,
+  "Nuruosmaniye mosque (18th c.); coverage not confirmed — deferred": 1,
+  "Hala Sultan tekke Cyprus; coverage not confirmed — deferred": 1,
+  "Aden Protectorate colonial territory; out of scope": 1,
+  "modern historian d.1970": 1,
+  "marja' term; no matching record, deferred": 1,
+  "Ikhwan al-Safa as a society; no matching record and source coverage not confirmed — deferred": 1,
+  "modern mosque (1988); out of scope": 1,
+  "Ketchaoua mosque Algiers; coverage not confirmed — deferred": 1,
+  "Sultan of Morocco d.1937, post-1800": 1,
+  "modern politician d.1975": 1,
+  "modern reciter d.1988": 1,
+  "Baathist Iraq modern state; out of scope": 1,
+  "modern commander b.1960": 1,
+  "modern pretender d.2011": 1,
+  "modern businessman d.2017": 1,
+  "Ahmad Raza Khan Barelvi d.1921, post-1800": 1,
+  "Akbar's tomb Sikandra; building coverage not confirmed — deferred": 1
  },
  "last_commit": "00bbf1129",
  "last_push": "2caca308e",
  "batch_current": 6,
- "updated_at": "2026-10-19T17:12:52-04:00"
+ "updated_at": "2026-10-19T17:16:04-04:00"
 }
