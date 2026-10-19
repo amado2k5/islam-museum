@@ -1,0 +1,25 @@
+id: person/ata-allah-muallim-selim
+class: person
+label: { ar: "عطاء الله أستاذ السلطان سليم الثاني", en: "'Ata' Allah, Sultan Selim II's teacher" }
+names:
+  - { kind: full, lang: ar, value: "المولى عطاء الله الكناري" }
+gender: male
+roles: [jurist, teacher]
+traditions: [sunni]
+wings: [people]
+themes: [law-and-courts, education]
+periods: [period/gunpowder-empires]
+regions: [anatolia-balkans]
+summary:
+  ar: "المولى عطاء الله مدرساً بإزنيق ثم بأدرنة ثم بالدر الأربعين منه إلى الستين منه إلى الثمانين ثم قاضي العسكر، وصار أستاذاً للسلطان سليم بن سليمان الذي هو الآن جالس على التخت، وتوفي بداية صفر {cite:shadharat-dhahab p. 388}."
+  en: "Molla 'Ata' Allah al-Konari — madrasa teacher at Iznik then Edirne, up the dar ladder to the eighty, then qadi 'askar, and teacher of Sultan Selim b. Sulayman while he reigned; died at the start of Safar 979 {cite:shadharat-dhahab p. 388}."
+died: { edtf: "1571-06~", hijri: "0979-02", calendar: julian, precision: month, status: tradition, derived: true, note: "توفي بداية صفر؛ التحويل مشتق {cite:shadharat-dhahab p. 388}", sources: [source/shadharat-dhahab] }
+relations:
+  - { type: teacher_of, target: person/selim-ii-uthmani, role: "أستاذ للسلطان", sources: [source/shadharat-dhahab] }
+provenance:
+  layer: own-research
+  source: "شذرات الذهب — ابن العماد (ط مكتبة المثنى 1351، ج8، سنة 979)، قراءة آبل فيجن"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-shadharat-batch-148
+sources: [source/shadharat-dhahab]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

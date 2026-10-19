@@ -93,6 +93,25 @@ Candidates (dry run, 18 Oct 2026; `--max-items 2`; identifier, file, size; sourc
   - Honorific formulas in the OCR text: not copied.
 - **Next step:** confirm the printed edition (volumes, publisher, date) before any dated claim. Read the start of the first topic body and decide whether any later entry is a new concept. Muwafaqat, Burhan, Mustasfa, Bidayat al-Mujtahid and Mughni remain on the lane list, not yet started.
 
+## Batch 2: al-Mawsu'a al-Fiqhiyya al-Kuwaitiyya, Noor-Book copy (draft, 19 Oct 2026)
+
+- **Copy:** `books/fiqh/fiqh-mawsua-kuwaitiyya-noor-v3/`, OCR on the harvest drive, not in git. OCR completeness: `pages.json` holds 18,079 entries and `book.txt` holds 18,079 page markers, matching the PDF's 18,079 pages.
+- **Identity:** the file name says volume 3 of 45, but the OCR title page (scan p.2) reads «الجزء الإول» (Part 1). The second-edition date (1404 AH / 1983, scan p.5) is the page's own statement and is flagged `needs_source`. Printed volume and edition not verified; the publisher is the Ministry of Awqaf and Islamic Affairs, Kuwait, as the page states. The title of the Shamela copy (batch 1) is a different book; both are kept, distinct ids.
+- **Pages covered (scan markers):** pp.1–8 (title and index), pp.1279–1344 (introduction: the encyclopedia's definition, aims, scope, exclusions, method, conclusion; read: pp.1282, 1326, 1327, 1331, 1338, 1340, 1341, 1344); entry «آبار» pp.1351–1353 (read in full); entry «إباحة» pp.1405–1407 (read in full).
+- **Entities created (all `status.review: draft`):**
+  - `work/al-mawsua-al-fiqhiyya-al-kuwaitiyya` (book)
+  - `source/fiqh-mawsua-kuwaitiyya-noor-v3` (secondary; edition and volume not verified)
+  - `concept/al-abar` (wells, fiqh of wells; Sections 1–3 of the entry only)
+  - `concept/ibaha` (permissibility; pp.1405–1407)
+  - content: `content/ar/work/al-mawsua-al-fiqhiyya-al-kuwaitiyya.md`, `content/ar/concept/al-abar.md`, `content/ar/concept/ibaha.md`
+- **Existing entities linked, not duplicated:** `concept/fiqh` (mentioned from the work). `concept/bida` exists and is the headword «ابتداع» of this encyclopedia; not yet linked from this batch.
+- **Skipped and why:**
+  - Headwords آبق, آجن, إبانة, إبدال, إبراء and the rest of the first pages of headings: outside this batch's three-page window or not yet read.
+  - Introduction pp.1283–1325 (the phases of fiqh, the history of the encyclopedia): read only in index form.
+  - No person or group records created: the pages read name no authors and no scholars as subjects.
+  - Honorific formulas in the OCR text: not copied; the Qur'an verses cited in the entries are referenced by passage id only (`quran-2-29`), never typed.
+- **Next step:** read scan pp.1354–1360 to finish «آبار» (Shafi'i and Hanbali abundance thresholds), then pp.1404 and 1408–1410 for «إباحة», then the next headings (آبق, آجن, إبانة, إبدال). Confirm the printed volume number and edition before any dated claim beyond the second-edition date.
+
 ## Next step
 
 Add this lane's entries to `scripts/harvest/library/books.yaml` in the lane's own commit, then run `fetch_books.py` for the lane after the workstream commit is on `origin/main`.

@@ -3,24 +3,24 @@ class: work
 kind: book
 label: { ar: "القانون في الطب", en: "The Canon of Medicine" }
 summary:
-  ar: "موسوعة ابن سينا في الطب. يبدأ كتابها الأول بالأمور الكلية في علم الطب، في أربعة فنون: حدّ الطب وموضوعاته، والأركان، والأمزجة، والأخلاط، والأعضاء، والقوى والأفعال. ويبدأ كتابها الثاني بالأدوية المفردة {cite:canon-ibn-sina-print p.2} {cite:canon-ibn-sina-print p.232}."
-  en: "Ibn Sina's encyclopaedia of medicine. Its first book sets out the general principles of medicine in four sections; the first covers the definition and subject of medicine, the elements, temperaments, humours, organs, and powers and actions. Its second book opens with simple drugs {cite:canon-ibn-sina-print p.2} {cite:canon-ibn-sina-print p.232}."
+  ar: "موسوعة ابن سينا في الطب، وقسمها المؤلف إلى خمسة كتب: الأمور الكلية في علم الطب (وفيه أربعة فنون)، والأدوية المفردة، والأمراض الجزئية الواقعة بالأعضاء، والأمراض التي لا تختص بعضو وفي الزينة، وتركيب الأدوية {cite:canon-ibn-sina-print-v1 p.10}."
+  en: "Ibn Sina's encyclopaedia of medicine, divided by the author into five books: general principles of medicine (four fanns), simple drugs, diseases of the organs one by one, diseases not confined to one organ and beauty care, and compound drugs {cite:canon-ibn-sina-print-v1 p.10}."
 genre: [medicine]
-made: { by_muslims: true, basis: documented, sources: [source/canon-ibn-sina-print] }
+made: { by_muslims: true, basis: documented, sources: [source/canon-ibn-sina-print-v1, source/canon-ibn-sina-print-v2, source/canon-ibn-sina-print-v3] }
 disciplines: [concept/medicine]
 authors: [person/ibn-sina]
 language: language/arabic
-structure: "الكتاب الأول: الأمور الكلية في علم الطب، أربعة فنون؛ الفن الأول من p.2، والثاني من p.77، والثالث من p.158، والرابع من p.197. الكتاب الثاني: الأدوية المفردة من p.232. الكتاب الثالث يبدأ في p.543. الكتب الرابع والخامس لم تُحدَّد صفحاتها بعد في الأجزاء المقروءة."
-editions: ["Arabic printed edition, publisher and date not verified (see source/canon-ibn-sina-print)"]
+structure: "الكتاب الأول: في الأمور الكلية في علم الطب، أربعة فنون، من المسح 11 إلى 311 (vol. 1): الفن الأول في حد الطب وموضوعاته من 13، والثاني في الأمراض والأسباب والأعراض الكلية من 103، والثالث في سبب الصحة والمرض وضرورة الموت من 200، والرابع في تصنيف وجوه المعالجات من 267. الكتاب الثاني: في الأدوية المفردة، من 313 إلى 728 (vol. 1). الكتاب الثالث: في الأمراض الجزئية الواقعة بأعضاء الإنسان عضواً عضواً، من 3 (vol. 2)؛ موضع انتهائه لم يُحدَّد بعد. الكتاب الرابع: في الأمراض الجزئية التي لا تختص بعضو وفي الزينة، من 3 إلى 393 (vol. 3). الكتاب الخامس: في تركيب الأدوية وهو الأقراباذين، من 395 (vol. 3)، والنص ينقطع عند 590 قبل خاتمته. الأرقام أرقام المسح في كل مجلد."
+editions: ["Vol. 1: Dar al-Kutub al-Ilmiyya, Beirut, 1st ed. 1420 AH / 1999 CE, notes by Muhammad Amin al-Dannawi (source/canon-ibn-sina-print-v1)", "Vol. 2: same edition, same date (source/canon-ibn-sina-print-v2)", "Vol. 3: same edition, same date (source/canon-ibn-sina-print-v3)"]
 wings: []
 themes: [medicine]
 periods: [period/buyid-seljuk-fatimid-era]
 regions: [persia-central-asia]
-sources: [source/canon-ibn-sina-print]
+sources: [source/canon-ibn-sina-print-v1, source/canon-ibn-sina-print-v2, source/canon-ibn-sina-print-v3]
 provenance:
   layer: own-research
-  source: "Canon of Medicine, Arabic printed edition (digital copy), scan pages 2 to 18, 69, 232, 543 (headings only)"
+  source: "Canon of Medicine, three Arabic printed volumes: title pages and verso (scan pp. 1 and 2 of each), author's preface and plan of the five books (vol. 1, scan pp. 9 and 10), book and fann headings (vol. 1 pp. 11, 13, 103, 200, 267, 313, 728; vol. 2 p. 3; vol. 3 pp. 3, 393, 395)"
   generated_by: "Claude Haiku 5.5"
   model: claude-haiku-5-5
-  run: lib-exp-medicine-science-canon-batch-1
-status: { review: draft, completeness: 1, generated_by: "Claude Haiku 5.5 (library-expansion); structure from OCR headings" }
+  run: lib-exp-medicine-science-canon-batch-2
+status: { review: draft, completeness: 2, generated_by: "Claude Haiku 5.5 (library-expansion); structure from OCR headings, corrected against the scan pages" }

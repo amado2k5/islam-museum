@@ -120,6 +120,75 @@ Add this lane's entries to `scripts/harvest/library/books.yaml` in the lane's ow
   - No question or tension card written yet for the Crusades passage (Rida's answer on p. 9–10 is recorded only in the concept prose).
 - **Next step:** read vol. 7 from p. 12 on (Ma'ida 86 onward, then An'am), add a `person` record for the Negus only if it is needed for an edge, and once the other agent's `work/tafsir-al-manar` is on main, link the source to it. Then volumes 8 to 12, one source record each.
 
+## Tafsir al-Manar, volumes 6 and 8 (batch 1, library-expansion, 19 Oct 2026, draft)
+
+- **Branch:** `content/lib-exp-tafsir-manar-v6-v8` (from `origin/main` at `ae8727f52`; not pushed to main, not merged).
+- **Pages covered (OCR page markers, which match the printed page numbers where a number is visible):**
+  - Vol. 6: pp. 1 to 14 (title pages; the commentary from Q. 4:148 to 4:161, including the covenant and the Sabbath); pp. 95 to 98 (the opening of al-Ma'ida, Q. 5:1-2, and the relation of al-Ma'ida to al-Nisa).
+  - Vol. 8: pp. 1 to 13 (title pages; Q. 6:111 to 6:115); pp. 260 to 263 (opening of al-A'raf, its place among the surahs, and the disjoined letters).
+  - Not read: vol. 6 from p. 15 to p. 94 and p. 99 on; vol. 8 from p. 14 to p. 259 and p. 264 on.
+- **Entities created (9, all `status.review: draft` with a provenance block):**
+  - `source/tafsir-manar-v06`, `source/tafsir-manar-v08` (primary, book; reliability note: edition not verified; editor's name and year read with OCR errors, not recorded)
+  - `concept/tahrif` (Rida's reading of Q. 6:115 and of the Qur'an's statement on the alteration of earlier scripture; one `perspectives` entry, Sunni lead, attributed to the Qur'an as Rida reads it)
+  - `concept/ahl-al-kitab` (Rida's argument on belief in some messengers; the Constantine polemic labelled as his)
+  - `concept/sunnat-allah` (Rida's reading of the patterns in the enmity of the proud against the prophets; sociological terms he uses, labelled)
+  - `concept/shayatin-al-ins-wal-jinn` (the disagreement over whether humans can be shayatin; two `perspectives` entries, both Sunni tafsir views as Rida reports them)
+  - `concept/al-ummi` (the Prophet described as unlettered as evidence of revelation; Rida's argument)
+  - `concept/uqud` (the duty to keep contracts; two `perspectives` entries: the verbal-offer rule as described by Rida, and Rida's critique)
+  - `concept/al-sabt` (the Sabbath and the breach recorded in the Qur'an and in the Manar's gloss)
+  - `concept/mithaq-bani-israil` (the covenant; Rida's reading of the end of the Torah and of Paran; the Torah passage must be checked on a printed copy)
+  - `concept/al-muqattaat` (Rida's preferred view of the disjoined letters; other views not yet read)
+- **Reused, not created:** `person/rashid-rida`, `concept/israiliyyat` (not edited), `person/mujahid-ibn-jabr`, `person/qatada-ibn-diama`, `person/al-hasan-al-basri`, `person/al-tabari`, `passage/quran-4-150` to `quran-4-155`, `quran-5-1`, `quran-6-111` to `quran-6-115`, `quran-7-1` (cited in prose only, since the schema has no concept-to-passage edge). `work/tafsir-al-manar` was not edited.
+- **Skipped / blocked:**
+  - No `person/ibn-abbas` or `person/ikrima` record: not found in `data/` by slug; the names are cited in prose.
+  - No `relations` on the concept records: the predicates that would link a concept to a passage (`mentions`, `revealed_about`) do not take a concept as their domain.
+  - The Qur'an verses are only referenced, never typed. The Torah passage quoted by Rida (vol. 6, pp. 12-13) is summarised, not quoted.
+  - The sentence in vol. 8, p. 12 on whether God guarantees the wording of earlier books ends at a page break in the OCR; flagged in `concept/tahrif`.
+- **Checks:** `npm run validate` reports 0 errors and no warnings on the new files.
+- **Next step:** read vol. 6 from p. 15 (the rest of Q. 4:161 onward, including Q. 4:171 and the Trinity passage) and p. 99 onward (the rest of al-Ma'ida's opening); read vol. 8 from p. 14 (the rest of Q. 6:115 onward, including the lawful food verses) and the body of al-A'raf (from p. 264, starting with the story of Adam). Each read yields one or two concept records; add a classical tafsir source (al-Tabari or Ibn Kathir) for the perspectives marked as Sunni.
+## Tafsir al-Manar, volumes 4 and 5 (batch, draft, branch `lib-exp/tafsir-manar-v04-05`, 19 Oct 2026)
+
+- **Pages covered (OCR page markers):** vol. 4, pp. 1 to 12 (title pages; commentary on Q. 3:93 to 97: Abraham's religion, the first house, the station, the sanctity of the Haram, the duty of the pilgrimage, Rida's footnote on the Hajj in his time); vol. 5, pp. 1 to 8 (title pages; opening of the commentary on Q. 4:24 and 4:25: married women, those whom the right hand possesses, captives in a religious war).
+- **Entities created (all `status.review: draft`, with provenance):**
+  - `source/tafsir-manar-v04` (primary, book; edition not verified, reliability note says so)
+  - `source/tafsir-manar-v05` (primary, book; edition not verified, reliability note says so)
+  - `concept/maqam-ibrahim-ayat-tafsir` (Rida's reading of the station and the signs listed for it; the stone itself is `object/maqam-ibrahim`, reused by link, not duplicated)
+  - `concept/hurmat-al-haram-makka` (security of the Sacred Precinct; the two objections and Abduh's answers; Rida's footnote on Hajj in his time)
+  - `concept/wujub-al-hajj-fawran-aw-tarakhi` (immediate or deferrable Hajj; perspectives with two sunni entries, holders not named in the text)
+  - `concept/al-sabi-fi-al-harb-al-diniyya` (captives and married women, Q. 4:24; three perspectives: majority reading, Hanafi and some Hanbali view, Rida and Abduh's conditions labelled other)
+- **Reused, not created (linked in prose or in perspectives):** `practice/hajj`, `place/mecca`, `object/maqam-ibrahim`, `person/rashid-rida`, `person/muhammad-abduh`, `person/ibrahim`, `person/al-hajjaj-ibn-yusuf`, `person/sad-ibn-ubada`, `person/sad-ibn-malik-al-khudri`, `passage/quran-3-97`. `work/tafsir-al-manar` is not yet linked from the new sources (no edge written in this batch).
+- **Skipped and why:**
+  - No new person record for Ibn Sa'ud (named in Rida's footnote; no record exists and no source beyond Rida was read).
+  - No event record for the Hajjaj bombardment of the Ka'ba or the conquest of Mecca: no date is given in the text read, and a dated event needs two sources.
+  - No perspectives entry on tawassul (Rida's criticism of seeking intercession through saints, vol. 4, p. 10): a Sunni lead needs a sourced Sunni position beyond Rida's report; left for a later batch.
+  - No record for the Imamiyya view on married slave women (vol. 5, p. 5): reported only in one sentence; left as prose.
+  - No Qur'an text typed anywhere; verses linked only as `passage/quran-3-97`.
+  - Rida's remarks on France (vol. 5, p. 8) are not used.
+- **Dates flagged:** the 1924 date in Rida's footnote (vol. 4, p. 9) is the book's own claim and needs a second source before any use. Hijri and other dates are not derived here.
+- **Edition:** both volumes are an OCR of a modern printing (editor Ibrahim Shams al-Din; Dar al-Kutub al-Ilmiyya, Beirut). The year is not read in the OCR. Every page number must be checked against the printed copy.
+- **Next step:** read vol. 4 from p. 13 (the rest of Q. 3:98 onward to 4:23) and vol. 5 from p. 9 (the rest of Q. 4:25), find a second source for the 1924 date, add a Sunni-frame source for the tawassul entry, and decide on a person record for Ibn Sa'ud only if an edge needs it.
+## Tafsir al-Manar, volumes 9 and 10 (library-expansion, draft, 19 Oct 2026)
+
+- **Branch:** `worktree-agent-ae03fbebc05a8aa96` (not pushed to main, not merged). Scope: at most 25 entities; 9 written.
+- **Pages covered (OCR markers):** vol. 9: title page and pp. 3 to 11 (Al-A'raf 88 to 93, the Shu'ayb story); pp. 20 to 23 (Al-A'raf 94 to 100, sunan of peoples); pp. 486 to 493 (Al-Anfal opening and 1 to 4, wajal of hearts); pp. 512 to 513 (Al-Anfal 9 to 14, the angels at Badr). Vol. 10: title page and pp. 3 to 5 (Al-Anfal 41, khums and the definitions of ghanima and fay').
+- **Entities created (all `status.review: draft`, with provenance):**
+  - `source/tafsir-manar-v09` and `source/tafsir-manar-v10` (edition not verified; reliability notes say so; the editor's name is OCR-garbled and not recorded; OCR markers were not checked against page images)
+  - `concept/ghanima` (term; Rida's definitions of ghanima, fay', nafl, salab, safi; the timing of the fifth at Badr as he reports it)
+  - `concept/khums-al-ghanima` (legal; the first Anfal verse as abrogated or muhkam, with Rida preferring Ibn Zayd's view; `perspectives`)
+  - `concept/angels-at-badr` (doctrine; `perspectives`: Rida's view that the angels did not fight, and the reports of angelic fighting he rejects)
+  - `concept/rajfa` (term; quake versus cry in the Madyan and Thamud accounts)
+  - `concept/sunan-allah-fi-al-umam` (doctrine; remnant of the righteous, religion and worldly good, causes of chastisement)
+  - `concept/fath-bayn-al-qawm` (term; judgment, the Ibn Abbas narration and the Yemeni usage as Rida reports them)
+  - `concept/wajal-al-qulub` (doctrine; awe versus fear at the remembrance of God, and his reconciliation with Ar-Ra'd 28)
+- **Reused by id (linked in prose, not edited):** `person/rashid-rida`, `person/al-tabari`, `person/abdullah-ibn-abbas`, `person/mujahid-ibn-jabr`, `person/ikrima-mawla-ibn-abbas`, `event/battle-of-badr`, `concept/fay`, `concept/tawakkul` (not used), passages `quran-7-78`, `7-89`, `7-91`, `7-96`, `8-1`, `8-2`, `8-9`, `8-10`, `8-12`, `8-14`, `8-41`.
+- **Skipped / blocked:**
+  - Al-Suddi (the exegete, Ismail ibn Abd al-Rahman) has no record. `person/salim-al-suddi` is a different man (courtier of Umar II) and was not reused. Ibn Zayd and Ibn Kathir have no records either; they are named in plain text.
+  - No edges from concepts to passages: the schema allows `revealed_about` only from passage to concept, so Qur'an links are in prose.
+  - `concept/ghanima` is also listed as a stub in `data/_stubs.d/muwatta-prose.yaml` (another lane). Not edited here; the validator warns to remove it once that lane reconciles.
+  - Ibn Abbas's narration on the word fath is cited as Rida gives it; the chain is not checked.
+  - The academic and non-Sunni views on the angels and the abrogation question are not yet added.
+  - Nothing on the Shu'ayb story beyond the verses read; no event or person entities created from tafsir alone.
+- **Next step:** read vol. 9 from p. 12 to p. 19 and from p. 24 onward (Al-A'raf 101 to 170 and the rest of Al-Anfal 1 to 40), and vol. 10 from p. 6 (Al-Anfal 42 to the Badr accounts, then Al-Tawba). Add the second source for any dated fact (for example the battle dates in the Badr passages), and add the al-Suddi record only when an edge needs it.
 ## Tafsir al-Manar, volumes 2 and 3 (batch, 19 Oct 2026, draft)
 
 - **Branch:** `worktree-agent-a98d87fbd80a5d886` (lane `lib-exp-tafsir-manar`; not pushed, not merged).
