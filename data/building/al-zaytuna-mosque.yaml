@@ -1,0 +1,27 @@
+id: building/al-zaytuna-mosque
+class: building
+kind: mosque
+label:
+  ar: "جامع الزيتونة"
+  en: "al-Zaytuna Mosque"
+summary:
+  ar: "بطاقة أولية لجامع الزيتونة بتونس، الجامع الأموي الأغلبي الذي صار مقصد العلم والفقه المالكي في إفريقية؛ يصفه المقدسي في جملة معالم المدينة ولم تُراجع الصفحة بعد."
+  en: "Draft card for the Zaytuna Mosque of Tunis, the Umayyad-Aghlabid congregational mosque that became the seat of Maliki learning in Ifriqiya; al-Muqaddasi describes it among the city's landmarks, the page not yet checked."
+wings: [objects]
+regions: [maghreb]
+periods: [period/umayyad]
+themes: [architecture]
+relations:
+- { type: located_in, target: place/tunis }
+sources: [source/ahsan-al-taqasim]
+external_ids:
+  wikidata: Q1291779
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; book source: al-Muqaddasi, Ahsan al-Taqasim — entry not yet read on the page"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-0013
+status:
+  review: draft
+  completeness: 1
