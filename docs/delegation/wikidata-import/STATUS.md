@@ -16,3 +16,10 @@ Updated at every push to `main`. Lane: `wikidata-import` (`docs/delegation/wikid
 - Relinks fixed 5 wrong pre-existing QIDs (Ali, Abu Bakr, Malcolm X, sharia, tasawwuf); Khadija and Ahmed III duplicates merged into the richer existing records; Umayyad candidate Q45646 is the distinct dynasty item — the record keeps the caliphate item Q8575586.
 - `npm run validate`: 0 errors / 1997 warnings.
 - Nothing blocked; pushing per the every-200-created rule once 200 new records accumulate — pushing now anyway to keep remote current.
+
+## 19 Oct 2026 — batches 4–6 (candidates 260–659)
+
+- Created: **89** draft records total · Linked: **174** · Skipped: **397** · `next_index`: **660**
+- Batch 6 (560–659) alone: 20 creates, 23 links, 57 skips — al-Dhahabi, Ibn Tumart, al-Kashi, Ibn Miskawayh, Ismail Samani, Bairam Khan, al-Askari shrine, the Tabi'un, and Ottoman figures (Cem, Rustem, Halime, Lala Mustafa, Sehzade Bayezid, Tahmasp II); links incl. Qilij Arslan I, Abu Ma'shar, Sa'id ibn Zayd, al-Muhtadi, al-Kamil, al-Nasa'i, Abu Yusuf, Qalawun, al-Mu'tazz, Ubayd Allah al-Mahdi, Yaqub al-Mansur, Ibn Hisham, al-Zamakhshari.
+- `npm run validate`: 0 errors / 1997 warnings; `npm test` 101 passed; graph 22,800 nodes.
+- Pushed to main: `af59bb827`. Nothing blocked.
