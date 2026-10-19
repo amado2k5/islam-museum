@@ -5,7 +5,7 @@
  "candidates_file": "$HARVEST/wikidata-import/candidates.tsv",
  "candidates_query": "select distinct id from wd_claim where property='P140' and value_id='Q432' minus Wikidata ids already linked in data/, ordered by sitelink count desc",
  "linked_preexisting": 987,
- "next_index": 860,
+ "next_index": 960,
  "created_ids": [
   {
    "i": 24,
@@ -601,6 +601,101 @@
    "i": 848,
    "qid": "Q2747189",
    "id": "person/bahlul-lodi"
+  },
+  {
+   "i": 861,
+   "qid": "Q423644",
+   "id": "person/ali-qushji"
+  },
+  {
+   "i": 867,
+   "qid": "Q468123",
+   "id": "person/nilufer-hatun"
+  },
+  {
+   "i": 869,
+   "qid": "Q4809153",
+   "id": "person/shahzade-jihangir"
+  },
+  {
+   "i": 872,
+   "qid": "Q537570",
+   "id": "person/husayn-bayqarah"
+  },
+  {
+   "i": 882,
+   "qid": "Q720989",
+   "id": "person/alaeddin-pasha"
+  },
+  {
+   "i": 887,
+   "qid": "Q1095044",
+   "id": "person/sulayman-calabi-prince"
+  },
+  {
+   "i": 895,
+   "qid": "Q1584707",
+   "id": "person/lutfi-pasha"
+  },
+  {
+   "i": 900,
+   "qid": "Q2682344",
+   "id": "person/dilasub-sultan"
+  },
+  {
+   "i": 905,
+   "qid": "Q3236324",
+   "id": "person/rafi-ud-darajat"
+  },
+  {
+   "i": 914,
+   "qid": "Q562502",
+   "id": "person/ashraf-hotaki"
+  },
+  {
+   "i": 920,
+   "qid": "Q965771",
+   "id": "person/mahmud-pasha-angelovic"
+  },
+  {
+   "i": 922,
+   "qid": "Q1111158",
+   "id": "person/abd-allah-ibn-umm-maktum"
+  },
+  {
+   "i": 929,
+   "qid": "Q138237",
+   "id": "person/kuchum-khan"
+  },
+  {
+   "i": 934,
+   "qid": "Q197881",
+   "id": "person/adil-shah-afsharid"
+  },
+  {
+   "i": 935,
+   "qid": "Q2016684",
+   "id": "person/ayas-mehmed-pasha"
+  },
+  {
+   "i": 944,
+   "qid": "Q2690022",
+   "id": "person/gulbahar-hatun"
+  },
+  {
+   "i": 948,
+   "qid": "Q2991836",
+   "id": "person/al-khazini"
+  },
+  {
+   "i": 954,
+   "qid": "Q539183",
+   "id": "person/gedik-ahmed-pasha"
+  },
+  {
+   "i": 959,
+   "qid": "Q852738",
+   "id": "person/baqi-poet"
   }
  ],
  "linked_ids": [
@@ -1683,6 +1778,116 @@
    "i": 854,
    "qid": "Q335516",
    "to": "person/abu-zayd-al-balkhi"
+  },
+  {
+   "i": 865,
+   "qid": "Q451427",
+   "to": "person/usama-ibn-munqidh"
+  },
+  {
+   "i": 871,
+   "qid": "Q510879",
+   "to": "person/muhammad-i-ibn-al-ahmar"
+  },
+  {
+   "i": 874,
+   "qid": "Q557847",
+   "to": "person/qaytbay"
+  },
+  {
+   "i": 875,
+   "qid": "Q561219",
+   "to": "person/jahan-shah-qaraqoyunlu"
+  },
+  {
+   "i": 879,
+   "qid": "Q676801",
+   "to": "person/negus-of-aksum"
+  },
+  {
+   "i": 881,
+   "qid": "Q715749",
+   "to": "person/muhammad-al-nasir-almohad"
+  },
+  {
+   "i": 886,
+   "qid": "Q1093767",
+   "to": "person/hind-bint-utba"
+  },
+  {
+   "i": 901,
+   "qid": "Q285731",
+   "to": "person/al-hafiz-fatimid"
+  },
+  {
+   "i": 902,
+   "qid": "Q286542",
+   "to": "person/al-aziz-fatimid"
+  },
+  {
+   "i": 903,
+   "qid": "Q293448",
+   "to": "person/al-mustanjid-billah"
+  },
+  {
+   "i": 906,
+   "qid": "Q3241108",
+   "to": "practice/itikaf"
+  },
+  {
+   "i": 913,
+   "qid": "Q510433",
+   "to": "person/umm-kulthum-bint-ali"
+  },
+  {
+   "i": 918,
+   "qid": "Q742319",
+   "to": "person/imad-al-din-al-isfahani"
+  },
+  {
+   "i": 919,
+   "qid": "Q919257",
+   "to": "person/muhammad-ibn-hisham-al-mahdi-cordoba"
+  },
+  {
+   "i": 921,
+   "qid": "Q1110691",
+   "to": "person/musab-ibn-umayr"
+  },
+  {
+   "i": 932,
+   "qid": "Q1740272",
+   "to": "person/al-zahir-fatimid"
+  },
+  {
+   "i": 945,
+   "qid": "Q293505",
+   "to": "person/al-nasir-muhammad-ibn-qalawun"
+  },
+  {
+   "i": 946,
+   "qid": "Q293632",
+   "to": "person/al-mustazhir-billah"
+  },
+  {
+   "i": 947,
+   "qid": "Q293669",
+   "to": "person/al-awzai-abd-al-rahman"
+  },
+  {
+   "i": 952,
+   "qid": "Q506243",
+   "to": "person/adud-al-dawla"
+  },
+  {
+   "i": 958,
+   "qid": "Q728324",
+   "to": "person/koprulu-mehmed-pasha"
+  },
+  {
+   "i": 870,
+   "qid": "Q481493",
+   "to": "person/abu-al-atahiyya"
   }
  ],
  "skipped": [
@@ -4320,9 +4525,304 @@
    859,
    "Q416646",
    "Akbar's tomb Sikandra; building coverage not confirmed — deferred"
+  ],
+  [
+   860,
+   "Q4231368",
+   "wali term; no matching record, deferred"
+  ],
+  [
+   862,
+   "Q430996",
+   "modern cosmonaut d.2024"
+  ],
+  [
+   863,
+   "Q439237",
+   "Ali Pasha d.1871, post-1800"
+  ],
+  [
+   864,
+   "Q446761",
+   "modern poet d.2007"
+  ],
+  [
+   866,
+   "Q460568",
+   "modern raja b.1943"
+  ],
+  [
+   868,
+   "Q472054",
+   "Amir Kabir d.1852, post-1800"
+  ],
+  [
+   873,
+   "Q539832",
+   "modern musician d.2013"
+  ],
+  [
+   876,
+   "Q58156",
+   "modern minister d.2015"
+  ],
+  [
+   877,
+   "Q60271",
+   "Emin Pasha d.1892, post-1800"
+  ],
+  [
+   878,
+   "Q635059",
+   "modern politician b.1965"
+  ],
+  [
+   880,
+   "Q7034181",
+   "Nigar Hanim d.1918, post-1800"
+  ],
+  [
+   883,
+   "Q739524",
+   "modern historian d.2016"
+  ],
+  [
+   884,
+   "Q804208",
+   "Bajrakli mosque Belgrade; coverage not confirmed — deferred"
+  ],
+  [
+   885,
+   "Q983328",
+   "modern politician d.1982"
+  ],
+  [
+   888,
+   "Q1191104",
+   "Pickthall d.1936, post-1800"
+  ],
+  [
+   889,
+   "Q12210796",
+   "modern politician b.1960"
+  ],
+  [
+   890,
+   "Q12214935",
+   "modern writer b.1969"
+  ],
+  [
+   891,
+   "Q13420049",
+   "Naksidil Sultan d.1817, post-1800"
+  ],
+  [
+   892,
+   "Q1397229",
+   "modern scholar d.1979"
+  ],
+  [
+   893,
+   "Q145401",
+   "Zaman Shah d.1845, post-1800"
+  ],
+  [
+   894,
+   "Q1574587",
+   "modern mosque (1990); out of scope"
+  ],
+  [
+   896,
+   "Q1710283",
+   "modern mosque (1938); out of scope"
+  ],
+  [
+   897,
+   "Q1817983",
+   "qira'at term; no matching record, deferred"
+  ],
+  [
+   898,
+   "Q2086068",
+   "Dolmabahce mosque (19th c.); out of scope"
+  ],
+  [
+   899,
+   "Q2304055",
+   "King Ali of Hejaz d.1935, post-1800"
+  ],
+  [
+   904,
+   "Q307185",
+   "modern mufti d.2025"
+  ],
+  [
+   907,
+   "Q340556",
+   "modern politician b.1959"
+  ],
+  [
+   908,
+   "Q378833",
+   "modern politician d.2023"
+  ],
+  [
+   909,
+   "Q380471",
+   "modern film director d.2005"
+  ],
+  [
+   910,
+   "Q3876358",
+   "modern politician b.1969"
+  ],
+  [
+   911,
+   "Q401574",
+   "modern minister d.2021"
+  ],
+  [
+   912,
+   "Q4905930",
+   "Big Khan mosque Crimea; coverage not confirmed — deferred"
+  ],
+  [
+   915,
+   "Q6418904",
+   "Basseri tribe; no Islamic-history source"
+  ],
+  [
+   916,
+   "Q648986",
+   "modern wrestler d.1968"
+  ],
+  [
+   917,
+   "Q722306",
+   "Mahmud Shevket Pasha d.1913, post-1800"
+  ],
+  [
+   923,
+   "Q115523480",
+   "modern militant d.2023"
+  ],
+  [
+   924,
+   "Q1238247",
+   "modern singer d.2020"
+  ],
+  [
+   925,
+   "Q1265294",
+   "Sankore madrasa Timbuktu; coverage not confirmed — deferred"
+  ],
+  [
+   926,
+   "Q12809521",
+   "Fatma Sultan daughter of Selim I; minor royal — deferred"
+  ],
+  [
+   927,
+   "Q1323845",
+   "Abu'l-Abbas al-Mursi mosque Alexandria (modern build); deferred"
+  ],
+  [
+   928,
+   "Q1334137",
+   "modern mosque (Kobe); out of scope"
+  ],
+  [
+   930,
+   "Q1568666",
+   "Trabzon Hagia Sophia; coverage not confirmed — deferred"
+  ],
+  [
+   931,
+   "Q1628496",
+   "Emperor's mosque Sarajevo; coverage not confirmed — deferred"
+  ],
+  [
+   933,
+   "Q18341384",
+   "modern mosque (2019); out of scope"
+  ],
+  [
+   936,
+   "Q2029666",
+   "modern sultan d.2024"
+  ],
+  [
+   937,
+   "Q2034890",
+   "Said Halim Pasha d.1921, post-1800"
+  ],
+  [
+   938,
+   "Q2083466",
+   "modern footballer b.1984"
+  ],
+  [
+   939,
+   "Q2347909",
+   "East Bengal province modern; out of scope"
+  ],
+  [
+   940,
+   "Q2357350",
+   "modern noble d.2012"
+  ],
+  [
+   941,
+   "Q2386475",
+   "Djamaa el Kebir Algiers; coverage not confirmed — deferred"
+  ],
+  [
+   942,
+   "Q238774",
+   "modern consort b.1959"
+  ],
+  [
+   943,
+   "Q2402814",
+   "al-Sirat eschatological term; no matching record, deferred"
+  ],
+  [
+   949,
+   "Q317381",
+   "modern monarch d.1960"
+  ],
+  [
+   950,
+   "Q400712",
+   "modern prime minister d.1955"
+  ],
+  [
+   951,
+   "Q470946",
+   "modern prime minister d.2020"
+  ],
+  [
+   953,
+   "Q535932",
+   "modern poet d.1988"
+  ],
+  [
+   955,
+   "Q57894",
+   "modern prime minister d.2024"
+  ],
+  [
+   956,
+   "Q672145",
+   "modern cleric d.1978"
+  ],
+  [
+   957,
+   "Q715273",
+   "Sulaymaniyya takiyya Damascus; coverage not confirmed — deferred"
   ]
  ],
- "skipped_total": 527,
+ "skipped_total": 586,
  "skipped_by_reason": {
   "modern sovereign state; no matching record (al-Hind region is a different entity)": 1,
   "modern sovereign state; no matching record": 8,
@@ -4347,7 +4847,7 @@
   "modern president d.1970": 2,
   "modern political/militant organisation; no matching record": 1,
   "modern president d.2019": 4,
-  "modern politician d.2023": 3,
+  "modern politician d.2023": 4,
   "modern president b.1950": 1,
   "modern ethnic group item; the Islamic-world counterpart (al-Rum/Byzantines) is a different item": 1,
   "modern lawyer/activist b.1947": 1,
@@ -4590,7 +5090,7 @@
   "Giralda; no book source confirmed covering the minaret itself, deferred": 1,
   "Chora church-mosque; no confirmed source, deferred": 1,
   "modern Yerevan mosque": 1,
-  "modern scholar d.1979": 1,
+  "modern scholar d.1979": 2,
   "modern warlord d.2013": 1,
   "Sehzade Mosque; no confirmed source covering the building, deferred": 1,
   "modern protectorate": 1,
@@ -4739,7 +5239,7 @@
   "Omer Pasha d.1871, post-1800": 1,
   "modern general b.1957": 1,
   "Ja'fari school term; no matching record, deferred": 1,
-  "modern politician d.1982": 1,
+  "modern politician d.1982": 2,
   "modern governorate": 1,
   "aqiqah practice; no matching record, deferred": 1,
   "British Cameroons mandate; out of scope": 1,
@@ -4810,10 +5310,66 @@
   "modern pretender d.2011": 1,
   "modern businessman d.2017": 1,
   "Ahmad Raza Khan Barelvi d.1921, post-1800": 1,
-  "Akbar's tomb Sikandra; building coverage not confirmed — deferred": 1
+  "Akbar's tomb Sikandra; building coverage not confirmed — deferred": 1,
+  "wali term; no matching record, deferred": 1,
+  "modern cosmonaut d.2024": 1,
+  "Ali Pasha d.1871, post-1800": 1,
+  "modern poet d.2007": 1,
+  "modern raja b.1943": 1,
+  "Amir Kabir d.1852, post-1800": 1,
+  "modern musician d.2013": 1,
+  "modern minister d.2015": 1,
+  "Emin Pasha d.1892, post-1800": 1,
+  "modern politician b.1965": 1,
+  "Nigar Hanim d.1918, post-1800": 1,
+  "modern historian d.2016": 1,
+  "Bajrakli mosque Belgrade; coverage not confirmed — deferred": 1,
+  "Pickthall d.1936, post-1800": 1,
+  "modern politician b.1960": 1,
+  "modern writer b.1969": 1,
+  "Naksidil Sultan d.1817, post-1800": 1,
+  "Zaman Shah d.1845, post-1800": 1,
+  "modern mosque (1990); out of scope": 1,
+  "modern mosque (1938); out of scope": 1,
+  "qira'at term; no matching record, deferred": 1,
+  "Dolmabahce mosque (19th c.); out of scope": 1,
+  "King Ali of Hejaz d.1935, post-1800": 1,
+  "modern mufti d.2025": 1,
+  "modern politician b.1959": 1,
+  "modern film director d.2005": 1,
+  "modern politician b.1969": 1,
+  "modern minister d.2021": 1,
+  "Big Khan mosque Crimea; coverage not confirmed — deferred": 1,
+  "Basseri tribe; no Islamic-history source": 1,
+  "modern wrestler d.1968": 1,
+  "Mahmud Shevket Pasha d.1913, post-1800": 1,
+  "modern militant d.2023": 1,
+  "modern singer d.2020": 1,
+  "Sankore madrasa Timbuktu; coverage not confirmed — deferred": 1,
+  "Fatma Sultan daughter of Selim I; minor royal — deferred": 1,
+  "Abu'l-Abbas al-Mursi mosque Alexandria (modern build); deferred": 1,
+  "modern mosque (Kobe); out of scope": 1,
+  "Trabzon Hagia Sophia; coverage not confirmed — deferred": 1,
+  "Emperor's mosque Sarajevo; coverage not confirmed — deferred": 1,
+  "modern mosque (2019); out of scope": 1,
+  "modern sultan d.2024": 1,
+  "Said Halim Pasha d.1921, post-1800": 1,
+  "modern footballer b.1984": 1,
+  "East Bengal province modern; out of scope": 1,
+  "modern noble d.2012": 1,
+  "Djamaa el Kebir Algiers; coverage not confirmed — deferred": 1,
+  "modern consort b.1959": 1,
+  "al-Sirat eschatological term; no matching record, deferred": 1,
+  "modern monarch d.1960": 1,
+  "modern prime minister d.1955": 1,
+  "modern prime minister d.2020": 1,
+  "modern poet d.1988": 1,
+  "modern prime minister d.2024": 1,
+  "modern cleric d.1978": 1,
+  "Sulaymaniyya takiyya Damascus; coverage not confirmed — deferred": 1
  },
  "last_commit": "00bbf1129",
  "last_push": "2caca308e",
  "batch_current": 6,
- "updated_at": "2026-10-19T17:16:04-04:00"
+ "updated_at": "2026-10-19T17:19:05-04:00"
 }
