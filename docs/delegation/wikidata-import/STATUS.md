@@ -60,3 +60,10 @@ Updated at every push to `main`. Lane: `wikidata-import` (`docs/delegation/wikid
 - created: 822, linked: ~610, skipped: ~2430 (see progress.json for the live counters)
 - last_commit/push: 6adf6ca4c
 - blocked: nothing
+
+## 2026 push — through candidate 4659
+- next_index: 4660 / 82296
+- created: 999, linked: 649, skipped: 3047 (progress.json is authoritative)
+- last_push: b35a3b40c
+- Notable merges: abu-al-muzaffar-al-samani, anushirwan-ibn-khalid, al-aswad-ibn-yazid-al-nakhai, salit-ibn-amr absorbed duplicate creates as links; Q18608788 (Ghurid empire item) skipped as alternate of polity/ghurid-dynasty.
+- validate: 0 errors / ~2004 warnings; npm test: 101 passed. Nothing blocked.
