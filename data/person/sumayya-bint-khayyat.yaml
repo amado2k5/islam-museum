@@ -28,5 +28,6 @@ relations:
   - { type: spouse_of, target: person/yasir-ibn-amir, sources: [source/ibn-sad-tabaqat-bewley] }
   - { type: persecuted_by, target: person/abu-jahl, start: { edtf: "0614~" }, end: { edtf: "0615~" }, sources: [source/ibn-sad-tabaqat-bewley] }
   - { type: participated_in, target: event/first-muslim-martyrdom, role: victim, sources: [source/ibn-sad-tabaqat-bewley] }
+external_ids: { wikidata: "Q2736992" }
 sources: [source/ibn-sad-tabaqat-bewley, source/ibn-ishaq-guillaume]
 status: { review: draft, completeness: 1, generated_by: "Devin; 2026-10-11" }

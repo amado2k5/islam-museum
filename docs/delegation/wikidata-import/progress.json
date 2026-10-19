@@ -5,7 +5,7 @@
  "candidates_file": "$HARVEST/wikidata-import/candidates.tsv",
  "candidates_query": "select distinct id from wd_claim where property='P140' and value_id='Q432' minus Wikidata ids already linked in data/, ordered by sitelink count desc",
  "linked_preexisting": 987,
- "next_index": 660,
+ "next_index": 760,
  "created_ids": [
   {
    "i": 24,
@@ -451,6 +451,81 @@
    "i": 656,
    "qid": "Q529665",
    "id": "person/lala-mustafa-pasha"
+  },
+  {
+   "i": 663,
+   "qid": "Q12827721",
+   "id": "person/abu-mansur-al-maturidi"
+  },
+  {
+   "i": 669,
+   "qid": "Q1998495",
+   "id": "person/siraj-ud-daulah"
+  },
+  {
+   "i": 671,
+   "qid": "Q2010955",
+   "id": "person/mulla-sadra"
+  },
+  {
+   "i": 682,
+   "qid": "Q336146",
+   "id": "person/abu-al-ghazi-bahadur"
+  },
+  {
+   "i": 689,
+   "qid": "Q604647",
+   "id": "person/dara-shikoh"
+  },
+  {
+   "i": 691,
+   "qid": "Q732026",
+   "id": "person/alamgir-ii-mughal"
+  },
+  {
+   "i": 697,
+   "qid": "Q1319659",
+   "id": "person/muhammad-ibn-saud"
+  },
+  {
+   "i": 698,
+   "qid": "Q1393228",
+   "id": "person/uwais-al-qarni"
+  },
+  {
+   "i": 702,
+   "qid": "Q2745815",
+   "id": "person/gulnus-sultan"
+  },
+  {
+   "i": 717,
+   "qid": "Q1391172",
+   "id": "person/ghiyath-al-din-tughluq"
+  },
+  {
+   "i": 725,
+   "qid": "Q2493613",
+   "id": "person/ahmad-sirhindi"
+  },
+  {
+   "i": 737,
+   "qid": "Q32075",
+   "id": "person/baha-al-din-naqshband"
+  },
+  {
+   "i": 743,
+   "qid": "Q469865",
+   "id": "person/haji-bektash"
+  },
+  {
+   "i": 744,
+   "qid": "Q470634",
+   "id": "person/oruc-reis"
+  },
+  {
+   "i": 755,
+   "qid": "Q1148049",
+   "id": "person/sanai"
   }
  ],
  "linked_ids": [
@@ -1333,6 +1408,126 @@
    "i": 654,
    "qid": "Q482451",
    "to": "person/al-zamakhshari"
+  },
+  {
+   "i": 662,
+   "qid": "Q981803",
+   "to": "person/dhu-al-nun-al-misri"
+  },
+  {
+   "i": 665,
+   "qid": "Q141317",
+   "to": "person/al-mukhtar-ibn-abi-ubayd"
+  },
+  {
+   "i": 668,
+   "qid": "Q1771935",
+   "to": "practice/tayammum"
+  },
+  {
+   "i": 672,
+   "qid": "Q2315457",
+   "to": "person/hassan-ibn-thabit"
+  },
+  {
+   "i": 674,
+   "qid": "Q2426845",
+   "to": "person/umm-kulthum-bint-muhammad"
+  },
+  {
+   "i": 675,
+   "qid": "Q284157",
+   "to": "person/al-mustain"
+  },
+  {
+   "i": 676,
+   "qid": "Q284750",
+   "to": "person/al-nasir-billah"
+  },
+  {
+   "i": 677,
+   "qid": "Q293520",
+   "to": "person/abu-hanifa-al-dinawari"
+  },
+  {
+   "i": 678,
+   "qid": "Q293604",
+   "to": "person/al-maqrizi"
+  },
+  {
+   "i": 686,
+   "qid": "Q558205",
+   "to": "person/al-ansari-al-harawi-abd-allah"
+  },
+  {
+   "i": 693,
+   "qid": "Q879046",
+   "to": "practice/dua"
+  },
+  {
+   "i": 703,
+   "qid": "Q293545",
+   "to": "person/al-mustansir-billah"
+  },
+  {
+   "i": 704,
+   "qid": "Q335170",
+   "to": "person/abu-musa-al-ashari"
+  },
+  {
+   "i": 705,
+   "qid": "Q335443",
+   "to": "person/al-muizz-li-din-allah"
+  },
+  {
+   "i": 706,
+   "qid": "Q423772",
+   "to": "person/uqba-ibn-nafi"
+  },
+  {
+   "i": 709,
+   "qid": "Q510679",
+   "to": "person/fazil-ahmed-koprulu"
+  },
+  {
+   "i": 726,
+   "qid": "Q2736992",
+   "to": "person/sumayya-bint-khayyat"
+  },
+  {
+   "i": 729,
+   "qid": "Q293538",
+   "to": "person/al-abbas-ibn-ali"
+  },
+  {
+   "i": 730,
+   "qid": "Q293621",
+   "to": "person/al-mustarshid-billah"
+  },
+  {
+   "i": 731,
+   "qid": "Q293626",
+   "to": "person/al-qaim-billah"
+  },
+  {
+   "i": 740,
+   "qid": "Q374374",
+   "to": "person/ahmad-ibn-tulun"
+  },
+  {
+   "i": 741,
+   "qid": "Q438601",
+   "to": "person/idris-ibn-abdallah"
+  },
+  {
+   "i": 754,
+   "qid": "Q1111126",
+   "to": "person/abd-allah-ibn-rawaha"
+  },
+  {
+   "i": 680,
+   "qid": "Q307680",
+   "to": "person/abdallah-ibn-muhammad-andalusi"
   }
  ],
  "skipped": [
@@ -3320,9 +3515,314 @@
    659,
    "Q7531880",
    "modern figure b.1926"
+  ],
+  [
+   660,
+   "Q77349",
+   "modern astronaut b.1959"
+  ],
+  [
+   661,
+   "Q773704",
+   "Imam Husayn shrine Karbala; sanctuary coverage on the source page not yet confirmed — deferred"
+  ],
+  [
+   664,
+   "Q1391746",
+   "modern officer b.1955"
+  ],
+  [
+   666,
+   "Q1548443",
+   "modern mosque (2001); out of scope"
+  ],
+  [
+   667,
+   "Q175176",
+   "modern prince b.1970"
+  ],
+  [
+   670,
+   "Q20049447",
+   "modern militant d.2024"
+  ],
+  [
+   673,
+   "Q2393680",
+   "Goharshad mosque (1418); building coverage on the source page not yet confirmed — deferred"
+  ],
+  [
+   679,
+   "Q294765",
+   "modern prime minister b.1941"
+  ],
+  [
+   681,
+   "Q310203",
+   "modern president d.2020"
+  ],
+  [
+   683,
+   "Q380474",
+   "modern president d.2019"
+  ],
+  [
+   684,
+   "Q382369",
+   "modern politician d.1995"
+  ],
+  [
+   685,
+   "Q4120224",
+   "modern activist d.1975"
+  ],
+  [
+   687,
+   "Q558626",
+   "last amir of Bukhara d.1944, post-1800"
+  ],
+  [
+   688,
+   "Q560078",
+   "al-Albani d.1999, modern scholar"
+  ],
+  [
+   690,
+   "Q652046",
+   "Muhammad Ali mosque (19th c.); out of scope"
+  ],
+  [
+   692,
+   "Q786184",
+   "qiyas juristic term; no matching record, deferred"
+  ],
+  [
+   694,
+   "Q981846",
+   "modern royal b.1945"
+  ],
+  [
+   695,
+   "Q12242407",
+   "al-Ijliyyah; the attestation itself is uncertain and no confirmed source record — skip"
+  ],
+  [
+   696,
+   "Q123382",
+   "modern writer d.1998"
+  ],
+  [
+   699,
+   "Q146862",
+   "Second Saudi State 1818-1891, post-1800 polity"
+  ],
+  [
+   700,
+   "Q2423137",
+   "Hatice Sultan daughter of Selim I; minor royal, source coverage not confirmed — deferred"
+  ],
+  [
+   701,
+   "Q2558262",
+   "modern militant leader b.1979"
+  ],
+  [
+   707,
+   "Q4342368",
+   "modern officer d.2026"
+  ],
+  [
+   708,
+   "Q467895",
+   "modern singer d.1991"
+  ],
+  [
+   710,
+   "Q603256",
+   "Niujie mosque; building coverage not confirmed — deferred"
+  ],
+  [
+   711,
+   "Q1009896",
+   "Sarena mosque Tetovo (15th c. painted mosque); coverage not confirmed — deferred"
+  ],
+  [
+   712,
+   "Q1137511",
+   "Rustem Pasha mosque; building coverage not confirmed — deferred"
+  ],
+  [
+   713,
+   "Q1143296",
+   "modern mosque (1909); out of scope"
+  ],
+  [
+   714,
+   "Q1210214",
+   "sadaqah term; no matching record, deferred"
+  ],
+  [
+   715,
+   "Q12178106",
+   "modern militant spokesman d.2025"
+  ],
+  [
+   716,
+   "Q1291612",
+   "Friday mosque of Herat; building coverage not confirmed — deferred"
+  ],
+  [
+   718,
+   "Q156501",
+   "modern writer d.1955"
+  ],
+  [
+   719,
+   "Q1572472",
+   "Sokollu Mehmed Pasha mosque; building coverage not confirmed — deferred"
+  ],
+  [
+   720,
+   "Q17032468",
+   "wahy term; no matching record, deferred"
+  ],
+  [
+   721,
+   "Q1789776",
+   "Rome mosque (1995); out of scope"
+  ],
+  [
+   722,
+   "Q1812992",
+   "mu'min term; no matching record, deferred"
+  ],
+  [
+   723,
+   "Q20645774",
+   "Soltaniyeh dome; building coverage not confirmed — deferred"
+  ],
+  [
+   724,
+   "Q247611",
+   "modern officer d.1937"
+  ],
+  [
+   727,
+   "Q276098",
+   "modern statesman d.1936"
+  ],
+  [
+   728,
+   "Q276937",
+   "Sultan of Morocco d.1927, post-1800"
+  ],
+  [
+   732,
+   "Q2976698",
+   "modern queen d.1968"
+  ],
+  [
+   733,
+   "Q305952",
+   "modern cleric d.1992"
+  ],
+  [
+   734,
+   "Q307193",
+   "modern mufti d.1999"
+  ],
+  [
+   735,
+   "Q311129",
+   "modern president b.1958"
+  ],
+  [
+   736,
+   "Q315011",
+   "modern politician b.1937"
+  ],
+  [
+   738,
+   "Q328331",
+   "modern marshal d.1950"
+  ],
+  [
+   739,
+   "Q369957",
+   "modern writer d.1992"
+  ],
+  [
+   742,
+   "Q464994",
+   "modern figure d.1975"
+  ],
+  [
+   745,
+   "Q473247",
+   "modern ruler d.1929"
+  ],
+  [
+   746,
+   "Q560045",
+   "Omer Pasha d.1871, post-1800"
+  ],
+  [
+   747,
+   "Q65195624",
+   "modern general b.1957"
+  ],
+  [
+   748,
+   "Q685567",
+   "Ja'fari school term; no matching record, deferred"
+  ],
+  [
+   749,
+   "Q888063",
+   "modern politician d.1982"
+  ],
+  [
+   750,
+   "Q941828",
+   "modern governorate"
+  ],
+  [
+   751,
+   "Q1022864",
+   "aqiqah practice; no matching record, deferred"
+  ],
+  [
+   752,
+   "Q1028835",
+   "British Cameroons mandate; out of scope"
+  ],
+  [
+   753,
+   "Q1057754",
+   "Malhun Hatun; attribution to Osman I is itself uncertain and no confirmed source — skip"
+  ],
+  [
+   756,
+   "Q1152210",
+   "Rahmaniyya order founded 1770s; tariqa coverage not confirmed — deferred"
+  ],
+  [
+   757,
+   "Q12213376",
+   "modern politician b.1954"
+  ],
+  [
+   758,
+   "Q1268850",
+   "Samanid mausoleum (10th c.); building coverage not confirmed — deferred"
+  ],
+  [
+   759,
+   "Q1325825",
+   "Id Kah mosque; building coverage not confirmed — deferred"
   ]
  ],
- "skipped_total": 397,
+ "skipped_total": 458,
  "skipped_by_reason": {
   "modern sovereign state; no matching record (al-Hind region is a different entity)": 1,
   "modern sovereign state; no matching record": 8,
@@ -3346,7 +3846,7 @@
   "modern president; no matching record": 2,
   "modern president d.1970": 2,
   "modern political/militant organisation; no matching record": 1,
-  "modern president d.2019": 3,
+  "modern president d.2019": 4,
   "modern politician d.2023": 3,
   "modern president b.1950": 1,
   "modern ethnic group item; the Islamic-world counterpart (al-Rum/Byzantines) is a different item": 1,
@@ -3484,7 +3984,7 @@
   "modern ruler d.2004": 1,
   "Javanese ethnic group; no confirmed source covering them": 1,
   "Syed Ahmad Khan d.1898, post-1800": 1,
-  "modern president b.1958": 1,
+  "modern president b.1958": 2,
   "modern republic 1978-1992": 1,
   "modern scholar d.2022": 1,
   "Great Mosque of Djenne — current structure is a 1907 rebuild; identity with the medieval mosque uncertain, deferred": 1,
@@ -3688,10 +4188,69 @@
   "Uthman dan Fodio d.1817, post-1800; record creation for the Sokoto founder deferred to a sourced pass": 1,
   "Taungoo dynasty of Burma; no Islamic-history source": 1,
   "modern politician b.1966": 1,
-  "modern figure b.1926": 1
+  "modern figure b.1926": 1,
+  "modern astronaut b.1959": 1,
+  "Imam Husayn shrine Karbala; sanctuary coverage on the source page not yet confirmed — deferred": 1,
+  "modern officer b.1955": 1,
+  "modern mosque (2001); out of scope": 1,
+  "modern prince b.1970": 1,
+  "modern militant d.2024": 1,
+  "Goharshad mosque (1418); building coverage on the source page not yet confirmed — deferred": 1,
+  "modern prime minister b.1941": 1,
+  "modern president d.2020": 1,
+  "modern politician d.1995": 1,
+  "modern activist d.1975": 1,
+  "last amir of Bukhara d.1944, post-1800": 1,
+  "al-Albani d.1999, modern scholar": 1,
+  "Muhammad Ali mosque (19th c.); out of scope": 1,
+  "qiyas juristic term; no matching record, deferred": 1,
+  "modern royal b.1945": 1,
+  "al-Ijliyyah; the attestation itself is uncertain and no confirmed source record — skip": 1,
+  "modern writer d.1998": 1,
+  "Second Saudi State 1818-1891, post-1800 polity": 1,
+  "Hatice Sultan daughter of Selim I; minor royal, source coverage not confirmed — deferred": 1,
+  "modern militant leader b.1979": 1,
+  "modern officer d.2026": 1,
+  "modern singer d.1991": 1,
+  "Niujie mosque; building coverage not confirmed — deferred": 1,
+  "Sarena mosque Tetovo (15th c. painted mosque); coverage not confirmed — deferred": 1,
+  "Rustem Pasha mosque; building coverage not confirmed — deferred": 1,
+  "modern mosque (1909); out of scope": 1,
+  "sadaqah term; no matching record, deferred": 1,
+  "modern militant spokesman d.2025": 1,
+  "Friday mosque of Herat; building coverage not confirmed — deferred": 1,
+  "modern writer d.1955": 1,
+  "Sokollu Mehmed Pasha mosque; building coverage not confirmed — deferred": 1,
+  "wahy term; no matching record, deferred": 1,
+  "Rome mosque (1995); out of scope": 1,
+  "mu'min term; no matching record, deferred": 1,
+  "Soltaniyeh dome; building coverage not confirmed — deferred": 1,
+  "modern officer d.1937": 1,
+  "modern statesman d.1936": 1,
+  "Sultan of Morocco d.1927, post-1800": 1,
+  "modern queen d.1968": 1,
+  "modern cleric d.1992": 1,
+  "modern mufti d.1999": 1,
+  "modern politician b.1937": 1,
+  "modern marshal d.1950": 1,
+  "modern writer d.1992": 1,
+  "modern figure d.1975": 1,
+  "modern ruler d.1929": 1,
+  "Omer Pasha d.1871, post-1800": 1,
+  "modern general b.1957": 1,
+  "Ja'fari school term; no matching record, deferred": 1,
+  "modern politician d.1982": 1,
+  "modern governorate": 1,
+  "aqiqah practice; no matching record, deferred": 1,
+  "British Cameroons mandate; out of scope": 1,
+  "Malhun Hatun; attribution to Osman I is itself uncertain and no confirmed source — skip": 1,
+  "Rahmaniyya order founded 1770s; tariqa coverage not confirmed — deferred": 1,
+  "modern politician b.1954": 1,
+  "Samanid mausoleum (10th c.); building coverage not confirmed — deferred": 1,
+  "Id Kah mosque; building coverage not confirmed — deferred": 1
  },
  "last_commit": "00bbf1129",
  "last_push": "2caca308e",
  "batch_current": 6,
- "updated_at": "2026-10-19T17:05:29-04:00"
+ "updated_at": "2026-10-19T17:12:52-04:00"
 }
