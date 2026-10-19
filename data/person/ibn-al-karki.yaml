@@ -1,0 +1,23 @@
+id: person/ibn-al-karki
+class: person
+label: { ar: "ابن الكركي المسند", en: "Ibn al-Karki the musnid" }
+names:
+  - { kind: full, lang: ar, value: "زين الدين عبد الرحمن بن محمد ابن الكركي الحنفي المصري" }
+gender: male
+roles: [hadith-scholar, scholar]
+traditions: [sunni]
+wings: [people]
+themes: [education]
+periods: [period/mongol-post-mongol]
+regions: [egypt-nile]
+summary:
+  ar: "زين الدين ابن الكركي الحنفي المصري مسند الديار المصرية؛ سمع على شيخ الإسلام جلال الدين البلقيني وأجاز له شيخنا ابن حجر وجمع السماعات وجالس كبراء عصره، وقُتل غرقاً في بركة الفيل يوم الثلاثاء خامس شعبان سنة اثنتين وعشرين وتسعمائة ومشى في جنازته السلطان طومان باي الثاني ماشياً {cite:shadharat-dhahab p. 473}."
+  en: "Egypt's musnid — heard under Jalal al-Din al-Bulqini, had Ibn Hajar's ijaza, and sat with the greats of his age; drowned in the Elephant Pond on Tuesday 5 Sha'ban 922, and Sultan Tuman Bay II walked in his funeral {cite:shadharat-dhahab p. 473}."
+died: { edtf: "1516-08-27~", hijri: "0922-08-05", calendar: julian, precision: day, status: tradition, derived: true, note: "غرق في بركة الفيل الثلاثاء 5 شعبان 922 {cite:shadharat-dhahab p. 473}", sources: [source/shadharat-dhahab] }
+provenance:
+  layer: own-research
+  source: "شذرات الذهب — ابن العماد (ط مكتبة المثنى 1351، ج8، سنة 922)، قراءة آبل فيجن"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-shadharat-batch-144
+sources: [source/shadharat-dhahab]
+status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 High)" }

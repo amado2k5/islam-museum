@@ -1,0 +1,25 @@
+id: person/ibn-zuhayr-al-ramli
+class: person
+label: { ar: "شمس الدين ابن زهير الرملي", en: "Shams al-Din Ibn Zuhayr al-Ramli" }
+names:
+  - { kind: full, lang: ar, value: "شمس الدين أحمد بن أحمد بن محمد بن عبد الله بن زهير بن خليل الرملي ثم الدمشقي الشافعي" }
+  - { kind: alternate, lang: ar, value: "ابن الحلاوي" }
+gender: male
+roles: [quran-reciter, scholar]
+traditions: [sunni]
+wings: [people]
+themes: [education]
+periods: [period/mongol-post-mongol]
+regions: [levant-iraq]
+summary:
+  ar: "شمس الدين أحمد ابن زهير الرملي ثم الدمشقي الشافعي، ولد بالرملة في ربيع الأول سنة أربع وخمسين وثمانمائة وتحول إلى دمشق وحفظ المنهاج وألفية النحو والحديث والشاطبيتين والدرة في القراءات الثلاث وسمع على الجمال عبد الله بن جماعة خطيب الأقصى المسلسل بالأولية، وناب في الحكم بدمشق فحسنت سيرته وولي مشيخة الإقراء بجامع بني أمية وبدار الحديث الأشرفية وبتربة الأشرفية وتربة أم الصالح بعد البقاعي، وانتهت إليه مشيخة الإقراء بدمشق؛ توفي يوم السبت عاشر ذي الحجة ودُفن بمقبرة باب الصغير {cite:shadharat-dhahab p. 520}."
+  en: "Damascus's last shaykh al-iqra' — b. Ramla Rabi' I 854, memorized the Minhaj, the Alfiyya, both Shatibiyyas and the Durra, heard the last primordial-linked Aqsa khatib Ibn Jama'a, and ended with the iqra' mashyakha of the Umayyad mosque and both Ashrafiyya institutions; d. Saturday 10 Dhu'l-Hijja [923], buried at Bab al-Saghir {cite:shadharat-dhahab p. 520}."
+born: { edtf: "1450-03~", hijri: "0854-03", calendar: julian, precision: month, status: tradition, derived: true, note: "ولد بالرملة ربيع الأول 854 {cite:shadharat-dhahab p. 520}", sources: [source/shadharat-dhahab] }
+died: { edtf: "1517-12-14~", hijri: "0923-12-10", calendar: julian, precision: day, status: tradition, derived: true, note: "توفي السبت 10 ذي الحجة ودُفن بمقبرة باب الصغير {cite:shadharat-dhahab p. 520}", sources: [source/shadharat-dhahab] }
+provenance:
+  layer: own-research
+  source: "شذرات الذهب — ابن العماد (ط مكتبة المثنى 1351، ج8، سنة 923)، قراءة آبل فيجن"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-shadharat-batch-144
+sources: [source/shadharat-dhahab]
+status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 High)" }

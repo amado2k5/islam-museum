@@ -1,0 +1,15 @@
+---
+id: person/dawud
+lang: ur
+source_lang: ar
+translators: ["Claude Haiku 5.5 (claude-haiku-5-5), draft translation"]
+---
+
+## خلاصہ
+داود بنی اسرائیل کے انبیاء میں سے ہیں اور [[person/sulayman|سلیمان]] کے والد ہیں۔ {cite:sahih-al-bukhari}
+
+## حدیث میں
+بخاری روایت کرتے ہیں کہ نبی کریم نے [[person/abu-musa-al-ashari|ابو موسیٰ اشعری]] کی قرآن پڑھنے کی خوش آوازی پر فرمایا کہ انہیں آل داود کی بانسری جیسی خوش الحانی عطا ہوئی ہے۔ {cite:sahih-al-bukhari 5048}
+
+## نوٹ
+ماخذ میں ان کا ذکر قرآن کے حوالے سے آیا ہے مگر مقام متعین نہیں کیا گیا؛ اس کے لیے مزید ماخذ کی ضرورت ہے۔

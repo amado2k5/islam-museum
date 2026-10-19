@@ -1,0 +1,26 @@
+id: person/al-qastallani-shihab-al-din
+class: person
+label: { ar: "القسطلاني شهاب الدين", en: "al-Qastallani Shihab al-Din" }
+names:
+  - { kind: full, lang: ar, value: "الحافظ شهاب الدين أبو العباس أحمد بن محمد بن أبي بكر بن عبد الملك القسطلاني المصري الشافعي" }
+gender: male
+roles: [hadith-scholar, jurist, scholar, preacher]
+traditions: [sunni]
+wings: [people]
+themes: [scripture-and-its-sciences, education]
+periods: [period/mongol-post-mongol]
+regions: [egypt-nile]
+summary:
+  ar: "الحافظ شهاب الدين أحمد القسطلاني المصري الشافعي؛ مولده ثاني عشر ذي القعدة سنة إحدى وخمسين وثمانمائة بمصر، حفظ القرآن وتلا للسبع وحفظ الشاطبية والجزرية والوردية، وقرأ صحيح البخاري على السخاوي في خمسة مجالس وتلمذ له، وجاور بمكة وولي مشيخة مقام الشيخ أحمد الحرار بالقرافة الصغرى ووعظ بالجامع الغوري «ولم يكن له نظير في الوعظ». من تصانيفه شرح صحيح البخاري المسمى إرشاد الساري — مزجه في عشرة أسفار كبار، لعله أجمع شروحه وأحسنها — والمواهب اللدنية بالمنح المحمدية، وشرح الشاطبية بزيادات ابن الجزري، والأنوار المضية شرح البردة، والروض الزاهر في مناقب الشيخ عبد القادر، والعقود السنية في شرح المقدمة الجزرية، وتحفة السامع والقاري بختم صحيح البخاري. حكى عن السيوطي أنه اتهمه بالنقل من كتبه بلا نسبة، وقصده بنفسه حافياً مكشوف الرأس إلى باب داره بالروضة ليطيب خاطره فلم يفتح له الباب؛ وذكر الكواكب أن موته كان بعارض ألمّ به من تأثره ببلوغه قطع رأس إبراهيم بن عطاء الله المكي بحيث سقط عن دابته وأغمي عليه فحُمل إلى منزله ومات بعد أيام. توفي ليلة الجمعة سابع المحرم سنة ثلاث وعشرين وتسعمائة بالقاهرة {cite:shadharat-dhahab p. 520-521}."
+  en: "The hafiz of Bukhari's greatest sharh — b. Cairo 12 Dhu'l-Qa'da 851, he read the Sahih on al-Sakhawi in five sessions, held the Harrar maqam mashyakha and preached at the Ghuri mosque 'without peer'. Works: Irshad al-Sari in ten large volumes ('perhaps the most complete and finest of Bukhari's commentaries'), al-Mawahib al-Ladunniyya, sharhs on the Shatibiyya and the Burda (al-Anwar al-Mudiyya), al-Rawd al-Zahir on 'Abd al-Qadir's manaqib. Al-Suyuti accused him of unattributed borrowing; Qastallani walked barefoot and bare-headed to Suyuti's Rawda door to soothe him — 'my heart is soothed,' said Suyuti, and never opened the door. News of Ibrahim b. 'Ata' Allah al-Makki's beheading struck him off his mount; he died days later, Thursday night 7 Muharram 923 {cite:shadharat-dhahab p. 520-521}."
+born: { edtf: "1448-01-25~", hijri: "0851-11-12", calendar: julian, precision: day, status: tradition, derived: true, note: "مولده 12 ذي القعدة 851 بمصر {cite:shadharat-dhahab p. 520}", sources: [source/shadharat-dhahab] }
+died: { edtf: "1517-01-31~", hijri: "0923-01-07", calendar: julian, precision: day, status: tradition, derived: true, note: "توفي ليلة الجمعة 7 المحرم 923 بالقاهرة؛ والكواكب يذكر أن موته كان بعد إغمائه تأثراً بقتل ابن عطاء الله المكي {cite:shadharat-dhahab p. 521}", sources: [source/shadharat-dhahab] }
+relations:
+  - { type: student_of, target: person/al-sakhawi, sources: [source/shadharat-dhahab] }
+provenance:
+  layer: own-research
+  source: "شذرات الذهب — ابن العماد (ط مكتبة المثنى 1351، ج8، سنة 923)، قراءة آبل فيجن"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-shadharat-batch-144
+sources: [source/shadharat-dhahab]
+status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 High)" }
