@@ -3,17 +3,17 @@ class: concept
 kind: discipline
 label: { ar: "الطب", en: "Medicine" }
 summary:
-  ar: "عرّف ابن سينا الطب بأنه علم يُتعرَّف منه أحوال بدن الإنسان من جهة ما يصح ويزول عن الصحة، ليُحفظ ما حصل منها ويُستردّ ما زال {cite:canon-ibn-sina-print p.2}. ومن موضوعاته الأركان والمزاجات والأخلاط والأعضاء والقوى والأفعال، ومن أسبابه المادية والفاعلية والصورية والتمامية {cite:canon-ibn-sina-print p.3}."
-  en: "Ibn Sina defines medicine as the science that studies the human body in so far as it is healthy or moves away from health, in order to keep health and restore it when lost {cite:canon-ibn-sina-print p.2}. Its subjects include the elements, temperaments, humours, organs, powers and actions, and it must know four kinds of cause: material, efficient, formal and final {cite:canon-ibn-sina-print p.3}."
+  ar: "عرّف ابن سينا الطب بأنه علم يُتعرَّف منه أحوال بدن الإنسان من جهة ما يصح ويزول عن الصحة، ليُحفظ ما حصل منها ويُستردّ ما زال {cite:canon-ibn-sina-print-v1 p.13}. ومن موضوعاته الأركان والأمزجة والأخلاط والأعضاء والأرواح والقوى والأفعال، ويعرف أسباب الصحة والمرض على أربعة أصناف: مادية وفاعلية وصورية وتمامية {cite:canon-ibn-sina-print-v1 p.14} {cite:canon-ibn-sina-print-v1 p.15}."
+  en: "Ibn Sina defines medicine as the science that studies the human body insofar as it is healthy or departs from health, in order to keep health and restore it when lost {cite:canon-ibn-sina-print-v1 p.13}. Its subjects include the elements, temperaments, humours, organs, spirits, powers and actions, and it knows the causes of health and disease in four kinds: material, efficient, formal and final {cite:canon-ibn-sina-print-v1 p.14} {cite:canon-ibn-sina-print-v1 p.15}."
 definitions:
-  - tradition: sunni-hanafi
+  - tradition: academic
     text: { ar: "علم يتعرف منه أحوال بدن الإنسان من جهة ما يصح ويزول عن الصحة، ليحفظ الصحة حاصلة ويستردها زائلة.", en: "The science by which the states of the human body are known, insofar as it is healthy or departs from health, in order to preserve health and restore it." }
-    sources: [source/canon-ibn-sina-print]
-sources: [source/canon-ibn-sina-print]
+    sources: [source/canon-ibn-sina-print-v1]
+sources: [source/canon-ibn-sina-print-v1]
 provenance:
   layer: own-research
-  source: "Canon of Medicine, Book I, Fann 1, Ta'lim 1 (scan pages 2 to 3), Arabic printed edition (digital copy)"
+  source: "Canon of Medicine, vol. 1, Book I, Fann 1, Ta'lim 1 (scan pages 13 to 15), Arabic printed edition (Dar al-Kutub al-Ilmiyya, 1999)"
   generated_by: "Claude Haiku 5.5"
   model: claude-haiku-5-5
-  run: lib-exp-medicine-science-canon-batch-1
-status: { review: draft, completeness: 1, generated_by: "Claude Haiku 5.5 (library-expansion)" }
+  run: lib-exp-medicine-science-canon-batch-2
+status: { review: draft, completeness: 1, generated_by: "Claude Haiku 5.5 (library-expansion); citations corrected from front matter to Book I" }
