@@ -1,0 +1,24 @@
+id: person/al-qatiqi
+class: person
+label: { ar: "أبو بكر القطيعي", en: "Abu Bakr al-Qati'i" }
+names:
+  - { value: "أحمد بن جعفر بن حمدان بن مالك بن شبيب أبو بكر القطيعي", kind: full }
+gender: male
+roles: [scholar]
+summary:
+  ar: "أحمد بن جعفر بن حمدان بن مالك بن شبيب أبو بكر القطيعي (274–368هـ)، محدث بغداد؛ سُمّي بقطيعة الدقيق التي كان يسكنها، وسمع أبا بكر بن إبراهيم بن إسحاق وإسحاق بن الحسن الحربيين وبشر بن دوسى والكديمي والكجي وعبد الله بن أحمد وغيرهم، وكان كثير الحديث ثقة، وروى عن عبد الله بن أحمد المسند والزهد والتاريخ والمسائل وغير ذلك، وروى عنه الدارقطني وابن شاهين والبرقاني وأبو نعيم والحاكم ولم يمتنع أحد من الرواية عنه ولا ترك الاحتجاج به؛ وتغيّر في آخر عمره فكان لا يعرف شيئاً مما قُرئ عليه، وتوفي سنة ثمان وستين وثلثمائة ودفن في مقابر باب حرب قريباً من قبر الإمام أحمد بن حنبل {cite:muntazam-ibn-al-jawzi j.7 p.96-97}."
+  en: "Ahmad b. Ja'far Abu Bakr al-Qati'i (274–368), the Baghdad muhaddith named for Qati'at al-Daqiq where he lived; he transmitted 'Abd Allah b. Ahmad's Musnad, Zuhd, Tarikh and Masa'il, and was himself transmitted from by al-Daraqutni, Ibn Shahin, al-Barqani, Abu Nu'aym and al-Hakim, no one refusing him or leaving off citing him as proof; in his last years he changed and knew nothing of what had been read to him. He died 368 and was buried at the Bab Harb cemeteries near Imam Ahmad's grave {cite:muntazam-ibn-al-jawzi j.7 p.96-97}."
+wings: [people]
+periods: [period/abbasid-fragmentation]
+regions: [levant-iraq]
+born:
+  { edtf: "0887-06~", hijri: "0274-01", calendar: julian, precision: month, status: tradition, derived: true, note: "ولد في محرم 274؛ التحويل مشتق {cite:muntazam-ibn-al-jawzi j.7 p.96}", sources: [source/muntazam-ibn-al-jawzi] }
+died:
+  { edtf: "0978~", hijri: "0368", calendar: julian, precision: year, status: tradition, derived: true, note: "توفي فيها (368)؛ التحويل مشتق {cite:muntazam-ibn-al-jawzi j.7 p.97}", sources: [source/muntazam-ibn-al-jawzi] }
+provenance:
+  layer: own-research
+  source: "المنتظم لابن الجوزي (ط حيدرآباد 1357، ج7، وفيات سنة 368)، قراءة آبل فيجن"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-muntazam-350-474-2
+sources: [source/muntazam-ibn-al-jawzi]
+status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 High)" }

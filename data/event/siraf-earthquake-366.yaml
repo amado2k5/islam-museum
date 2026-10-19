@@ -1,0 +1,20 @@
+id: event/siraf-earthquake-366
+class: event
+kind: disaster-relief
+label: { ar: "زلزلة سيراف 366هـ", en: "The Siraf earthquake, 366" }
+summary:
+  ar: "في يوم الأحد سابع ذي القعدة سنة ست وستين وثلثمائة كانت بسيراف زلزلة هدمت المنازل وأتت على أكثرها {cite:muntazam-ibn-al-jawzi j.7 p.102}."
+  en: "On Sunday 7 Dhu'l-Qa'da 366 an earthquake struck Siraf, demolishing the houses and destroying most of them {cite:muntazam-ibn-al-jawzi j.7 p.102}."
+wings: [time]
+periods: [period/abbasid-fragmentation]
+regions: [persia-central-asia]
+date:
+  start: { edtf: "0977-06-19~", hijri: "0366-11-07", calendar: julian, precision: day, status: tradition, derived: true, note: "الأحد 7 ذو القعدة 366؛ التحويل مشتق {cite:muntazam-ibn-al-jawzi j.7 p.102}", sources: [source/muntazam-ibn-al-jawzi] }
+map: { kind: locator, precision: approximate, center: [27.67, 52.34] }
+provenance:
+  layer: own-research
+  source: "المنتظم لابن الجوزي (ط حيدرآباد 1357، ج7، سنة 366)، قراءة آبل فيجن"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-muntazam-350-474-2
+sources: [source/muntazam-ibn-al-jawzi]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

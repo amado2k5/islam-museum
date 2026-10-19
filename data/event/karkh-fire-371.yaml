@@ -1,0 +1,20 @@
+id: event/karkh-fire-371
+class: event
+kind: disaster-relief
+label: { ar: "حريق الكرخ الكبير 371هـ", en: "The great Karkh fire, 371" }
+summary:
+  ar: "في ربيع الأول سنة إحدى وسبعين وثلثمائة كان حريق عظيم في الكرخ من درب القراطيس إلى البزازين وثّب في ألف وتسعمائة دار، ودام أسبوعاً {cite:muntazam-ibn-al-jawzi j.7 p.113}."
+  en: "In Rabi' I 371 a great fire swept the Karkh from Darb al-Qaratis to the Bazazin, leaping through 1,900 houses and lasting a week {cite:muntazam-ibn-al-jawzi j.7 p.113}."
+wings: [time]
+periods: [period/abbasid-fragmentation]
+regions: [levant-iraq]
+date:
+  start: { edtf: "0981-09~", hijri: "0371-03", calendar: julian, precision: month, status: tradition, derived: true, note: "في ربيع الأول 371؛ التحويل مشتق {cite:muntazam-ibn-al-jawzi j.7 p.113}", sources: [source/muntazam-ibn-al-jawzi] }
+map: { kind: locator, precision: approximate, center: [33.31, 44.35] }
+provenance:
+  layer: own-research
+  source: "المنتظم لابن الجوزي (ط حيدرآباد 1357، ج7، سنة 371)، قراءة آبل فيجن"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-muntazam-350-474-2
+sources: [source/muntazam-ibn-al-jawzi]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

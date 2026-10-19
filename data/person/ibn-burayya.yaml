@@ -1,0 +1,22 @@
+id: person/ibn-burayya
+class: person
+label: { ar: "ابن بُرَيَّة الهاشمي", en: "Ibn Burayya al-Hashimi" }
+names:
+  - { value: "عبد الله بن إسماعيل بن إبراهيم بن عيسى بن أبي جعفر المنصور أبو جعفر الهاشمي المعروف بابن بريّة", kind: full }
+gender: male
+roles: [scholar]
+summary:
+  ar: "عبد الله بن إسماعيل بن إبراهيم بن عيسى بن أبي جعفر المنصور، أبو جعفر الهاشمي المعروف بابن بُرَيَّة (ت 350هـ)؛ كان إمام جامع المنصور، وحدّث عن ابن أبي الدنيا وغيره وروى عنه ابن رزقويه. وحُكي عنه أنه قال: رقيت هذا المنبر — يعني منبر جامع المدينة بالجانب الغربي — في سنة ثلاثين ومائتين ورقيته في سنة ثلاثين وثلثمائة وبين الرقيتين مائة سنة، وأنا وهو — يعني الواثق — في العدد إلى المنصور سواء؛ توفي في صفر سنة خمسين وثلثمائة وقيل سنة اثنتين وخمسين {cite:muntazam-ibn-al-jawzi j.7 p.9}."
+  en: "'Abd Allah b. Isma'il b. Ibrahim b. 'Isa b. Abi Ja'far al-Mansur, Abu Ja'far al-Hashimi known as Ibn Burayya (d. 350), imam of the Mansur mosque: he once said he had mounted the minbar of the western city's mosque in 230 and again in 330 — a century between the two ascents — and that he and al-Wathiq stood at equal remove from al-Mansur; he died Safar 350, some say 352 {cite:muntazam-ibn-al-jawzi j.7 p.9}."
+wings: [people]
+periods: [period/abbasid-fragmentation]
+regions: [levant-iraq]
+died:
+  { edtf: "0961-03~", hijri: "0350-02", calendar: julian, precision: month, status: tradition, derived: true, note: "توفي في صفر 350 وقيل 352؛ التحويل مشتق {cite:muntazam-ibn-al-jawzi j.7 p.9}", sources: [source/muntazam-ibn-al-jawzi] }
+provenance:
+  layer: own-research
+  source: "المنتظم لابن الجوزي (ط حيدرآباد 1357، ج7، وفيات سنة 350)، قراءة آبل فيجن"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-muntazam-350-474-2
+sources: [source/muntazam-ibn-al-jawzi]
+status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 High)" }
