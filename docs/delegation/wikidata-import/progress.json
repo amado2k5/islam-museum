@@ -5,7 +5,7 @@
  "candidates_file": "$HARVEST/wikidata-import/candidates.tsv",
  "candidates_query": "select distinct id from wd_claim where property='P140' and value_id='Q432' minus Wikidata ids already linked in data/, ordered by sitelink count desc",
  "linked_preexisting": 987,
- "next_index": 2060,
+ "next_index": 2160,
  "created_ids": [
   {
    "i": 24,
@@ -2071,6 +2071,131 @@
    "i": 2057,
    "qid": "Q2024702",
    "id": "person/yahya-al-shirvani"
+  },
+  {
+   "i": 2063,
+   "qid": "Q2466263",
+   "id": "person/musa-ibn-musa-banu-qasi"
+  },
+  {
+   "i": 2064,
+   "qid": "Q2474377",
+   "id": "person/muhyi-al-din-al-maghribi"
+  },
+  {
+   "i": 2065,
+   "qid": "Q2476128",
+   "id": "person/shams-al-din-ildiguz"
+  },
+  {
+   "i": 2068,
+   "qid": "Q2537009",
+   "id": "person/turahan-bey"
+  },
+  {
+   "i": 2069,
+   "qid": "Q2604029",
+   "id": "person/iftikhar-al-dawla"
+  },
+  {
+   "i": 2075,
+   "qid": "Q2723071",
+   "id": "person/ahmad-shah-i-gujarati"
+  },
+  {
+   "i": 2077,
+   "qid": "Q2741906",
+   "id": "person/aisha-al-hurra"
+  },
+  {
+   "i": 2078,
+   "qid": "Q2820902",
+   "id": "person/abd-al-haqq-i-marinid"
+  },
+  {
+   "i": 2079,
+   "qid": "Q2829237",
+   "id": "person/al-mansur-fakhr-al-din-uthman"
+  },
+  {
+   "i": 2080,
+   "qid": "Q2829268",
+   "id": "person/al-qasim-gannun"
+  },
+  {
+   "i": 2082,
+   "qid": "Q287283",
+   "id": "building/al-aqmar-mosque"
+  },
+  {
+   "i": 2090,
+   "qid": "Q3128841",
+   "id": "person/haydar-al-amuli"
+  },
+  {
+   "i": 2097,
+   "qid": "Q3348836",
+   "id": "person/sikandar-shah-suri"
+  },
+  {
+   "i": 2098,
+   "qid": "Q339427",
+   "id": "person/sayyid-ali-hamadani"
+  },
+  {
+   "i": 2100,
+   "qid": "Q3437548",
+   "id": "person/dilaver-pasha"
+  },
+  {
+   "i": 2102,
+   "qid": "Q356542",
+   "id": "person/adham-khan"
+  },
+  {
+   "i": 2103,
+   "qid": "Q3646767",
+   "id": "person/mustafa-ali-gelibolulu"
+  },
+  {
+   "i": 2105,
+   "qid": "Q3775651",
+   "id": "person/gazi-husrev-pasha"
+  },
+  {
+   "i": 2106,
+   "qid": "Q3777119",
+   "id": "person/al-hurr-al-amili"
+  },
+  {
+   "i": 2108,
+   "qid": "Q3825050",
+   "id": "person/hadim-hasan-pasha"
+  },
+  {
+   "i": 2110,
+   "qid": "Q389025",
+   "id": "person/shaykh-ghalib"
+  },
+  {
+   "i": 2111,
+   "qid": "Q400949",
+   "id": "person/ahmad-ibn-said-al-busaidi"
+  },
+  {
+   "i": 2119,
+   "qid": "Q4117458",
+   "id": "person/zakariyya-al-ansari"
+  },
+  {
+   "i": 2124,
+   "qid": "Q4292343",
+   "id": "building/kalan-mosque-bukhara"
+  },
+  {
+   "i": 2144,
+   "qid": "Q61669",
+   "id": "person/ibn-bibi"
   }
  ],
  "linked_ids": [
@@ -4310,6 +4435,41 @@
    "i": 2054,
    "qid": "Q1965143",
    "to": "person/al-fadl-ibn-yahya-al-barmaki"
+  },
+  {
+   "i": 2085,
+   "qid": "Q2915617",
+   "to": "person/yaqut-al-mustasimi"
+  },
+  {
+   "i": 2087,
+   "qid": "Q2987645",
+   "to": "person/ibn-muadh-al-jayyani"
+  },
+  {
+   "i": 2126,
+   "qid": "Q4646815",
+   "to": "person/aisha-bint-talha"
+  },
+  {
+   "i": 2140,
+   "qid": "Q5954929",
+   "to": "person/yahya-ibn-zayd"
+  },
+  {
+   "i": 2141,
+   "qid": "Q6036774",
+   "to": "person/usayd-ibn-hudayr"
+  },
+  {
+   "i": 2147,
+   "qid": "Q6541274",
+   "to": "person/aban-ibn-said-ibn-al-as"
+  },
+  {
+   "i": 2149,
+   "qid": "Q6762300",
+   "to": "person/sari-al-saqati"
   }
  ],
  "skipped": [
@@ -10322,9 +10482,349 @@
    2059,
    "Q2058733",
    "Defterdar mosque Istanbul; deferred — batch cap"
+  ],
+  [
+   2060,
+   "Q22132925",
+   "Iraqi archaeologist d.2019; modern"
+  ],
+  [
+   2061,
+   "Q2227089",
+   "Saud al-Kabeer d.1814; post-1800"
+  ],
+  [
+   2062,
+   "Q2275149",
+   "muraqaba Sufi term; deferred"
+  ],
+  [
+   2066,
+   "Q2477311",
+   "Bamako grand mosque; modern rebuild"
+  ],
+  [
+   2067,
+   "Q2509312",
+   "Palestinian politician d.1962; modern"
+  ],
+  [
+   2070,
+   "Q2621758",
+   "Muzaffar Jung Nizam 1750-51; thin, deferred"
+  ],
+  [
+   2071,
+   "Q2657964",
+   "Marwani prayer hall; part of Haram complex coverage, deferred"
+  ],
+  [
+   2072,
+   "Q2667425",
+   "Chinguetti mosque; no confirmed source"
+  ],
+  [
+   2073,
+   "Q2719784",
+   "Tesviki mosque; no confirmed source"
+  ],
+  [
+   2074,
+   "Q2719794",
+   "Kucuk Mecidi mosque; no confirmed source"
+  ],
+  [
+   2076,
+   "Q2729985",
+   "Ibrahim Hakki Erzurumi d.1780; deferred — batch cap"
+  ],
+  [
+   2081,
+   "Q28534059",
+   "Saliha Banu Begum; thin Mughal consort, deferred"
+  ],
+  [
+   2083,
+   "Q28873691",
+   "American scholar b.1986; modern"
+  ],
+  [
+   2084,
+   "Q2908313",
+   "al-Muallaq mosque Acre 1758; deferred"
+  ],
+  [
+   2086,
+   "Q2984759",
+   "Tikka Khan d.2002; modern"
+  ],
+  [
+   2088,
+   "Q2989379",
+   "Subh Basque consort of al-Hakam; deferred"
+  ],
+  [
+   2089,
+   "Q2989480",
+   "imamate concept item; deferred"
+  ],
+  [
+   2091,
+   "Q3133071",
+   "Mezzo Morto Huseyin Pasha d.1701; deferred — batch cap"
+  ],
+  [
+   2092,
+   "Q3155477",
+   "militant d.2017; modern"
+  ],
+  [
+   2093,
+   "Q3237806",
+   "Ubudiah mosque 1917; modern"
+  ],
+  [
+   2094,
+   "Q325513",
+   "Mahmud Shaltut d.1963; modern"
+  ],
+  [
+   2095,
+   "Q3299081",
+   "Kemal Tahir d.1973; modern"
+  ],
+  [
+   2096,
+   "Q3318841",
+   "Ibn Ashur d.1973; modern"
+  ],
+  [
+   2099,
+   "Q3396984",
+   "As Syakirin mosque; modern"
+  ],
+  [
+   2101,
+   "Q3515869",
+   "tartil recitation term; deferred"
+  ],
+  [
+   2104,
+   "Q3676088",
+   "Ali Mirza Safavi Safavid order head; deferred — batch cap"
+  ],
+  [
+   2107,
+   "Q3814892",
+   "Hain Ahmed Pasha d.1524; deferred — batch cap"
+  ],
+  [
+   2109,
+   "Q3827158",
+   "Gazi Huseyin Pasha d.1658; deferred — batch cap"
+  ],
+  [
+   2112,
+   "Q401421",
+   "Ahmed Niyazi Bey d.1913; modern"
+  ],
+  [
+   2113,
+   "Q4022388",
+   "Menara Kudus mosque; deferred"
+  ],
+  [
+   2114,
+   "Q4022689",
+   "Khusrawiyya Aleppo; deferred"
+  ],
+  [
+   2115,
+   "Q403911",
+   "Hasan II of Alamut Q403911; needs check vs existing Nizari imam records — deferred"
+  ],
+  [
+   2116,
+   "Q40467872",
+   "Ali Erbas b.1961; modern"
+  ],
+  [
+   2117,
+   "Q410117",
+   "Issawa order; deferred — batch cap"
+  ],
+  [
+   2118,
+   "Q4116302",
+   "knowledge-in-Islam term; deferred"
+  ],
+  [
+   2120,
+   "Q4119263",
+   "Khamis mosque Bahrain; deferred"
+  ],
+  [
+   2121,
+   "Q4119544",
+   "actress d.2018; modern"
+  ],
+  [
+   2122,
+   "Q4120523",
+   "Hassanzadeh Amoli d.2021; modern"
+  ],
+  [
+   2123,
+   "Q4166497",
+   "Ibn Abidin d.1836; post-1800"
+  ],
+  [
+   2125,
+   "Q4403513",
+   "Sabit Damolla d.1934; modern"
+  ],
+  [
+   2127,
+   "Q46639312",
+   "Fatma Sultan d.1617; thin princess, deferred"
+  ],
+  [
+   2128,
+   "Q4665277",
+   "Abdul Aziz Hotak d.1717; deferred — batch cap"
+  ],
+  [
+   2129,
+   "Q4665394",
+   "Indian soldier d.1965; modern"
+  ],
+  [
+   2130,
+   "Q512960",
+   "Libyan politician; modern"
+  ],
+  [
+   2131,
+   "Q5267608",
+   "Devletsah Hatun; thin consort, deferred"
+  ],
+  [
+   2132,
+   "Q5312702",
+   "Dukakinzade Ahmed Pasha; deferred — batch cap"
+  ],
+  [
+   2133,
+   "Q5437792",
+   "Fatih mosque Trabzon; deferred"
+  ],
+  [
+   2134,
+   "Q5439206",
+   "Fazl-e-Haq Khairabadi d.1861; post-1800"
+  ],
+  [
+   2135,
+   "Q552342",
+   "Saudi grand mufti d.1969; modern"
+  ],
+  [
+   2136,
+   "Q559238",
+   "Ahmadi Donish d.1897; post-1800"
+  ],
+  [
+   2137,
+   "Q5686263",
+   "Uthman ibn Ali Karbala figure; hagiographic, deferred"
+  ],
+  [
+   2138,
+   "Q576731",
+   "Nali poet d.1877; post-1800"
+  ],
+  [
+   2139,
+   "Q594635",
+   "Russian politician; modern"
+  ],
+  [
+   2142,
+   "Q6038904",
+   "riya' term; deferred"
+  ],
+  [
+   2143,
+   "Q605254",
+   "huda term; deferred"
+  ],
+  [
+   2145,
+   "Q64831217",
+   "Russian politician; modern"
+  ],
+  [
+   2146,
+   "Q64853380",
+   "Saudi businessman; modern"
+  ],
+  [
+   2148,
+   "Q66452",
+   "Mehmed Ali Pasha marshal d.1878; post-1800"
+  ],
+  [
+   2150,
+   "Q683614",
+   "Kano great mosque; deferred"
+  ],
+  [
+   2151,
+   "Q6872075",
+   "Mir Emad calligrapher; deferred — batch cap"
+  ],
+  [
+   2152,
+   "Q6932427",
+   "imam of Prophet's Mosque d.2016; modern"
+  ],
+  [
+   2153,
+   "Q6932517",
+   "Ilyas Qadri b.1950; modern"
+  ],
+  [
+   2154,
+   "Q71635",
+   "Omid Nouripour; modern politician"
+  ],
+  [
+   2155,
+   "Q722705",
+   "Asikpasazade historian; deferred — batch cap"
+  ],
+  [
+   2156,
+   "Q7267019",
+   "al-Qaeda militant d.2015; modern"
+  ],
+  [
+   2157,
+   "Q7273017",
+   "Qutlugh Nigar Khanum; thin, deferred"
+  ],
+  [
+   2158,
+   "Q7402658",
+   "Iraqi militant d.2015; modern"
+  ],
+  [
+   2159,
+   "Q7418443",
+   "Indian actor b.1941; modern"
   ]
  ],
- "skipped_total": 1202,
+ "skipped_total": 1270,
  "skipped_by_reason": {
   "modern sovereign state; no matching record (al-Hind region is a different entity)": 1,
   "modern sovereign state; no matching record": 8,
@@ -11461,10 +11961,77 @@
   "Kasimov Khan's mosque; no confirmed source": 1,
   "Kazan Acem mosque; modern": 1,
   "Brunei mosque 1994; modern": 1,
-  "Defterdar mosque Istanbul; deferred — batch cap": 1
+  "Defterdar mosque Istanbul; deferred — batch cap": 1,
+  "Iraqi archaeologist d.2019; modern": 1,
+  "Saud al-Kabeer d.1814; post-1800": 1,
+  "muraqaba Sufi term; deferred": 1,
+  "Bamako grand mosque; modern rebuild": 1,
+  "Palestinian politician d.1962; modern": 1,
+  "Muzaffar Jung Nizam 1750-51; thin, deferred": 1,
+  "Marwani prayer hall; part of Haram complex coverage, deferred": 1,
+  "Chinguetti mosque; no confirmed source": 1,
+  "Tesviki mosque; no confirmed source": 1,
+  "Kucuk Mecidi mosque; no confirmed source": 1,
+  "Ibrahim Hakki Erzurumi d.1780; deferred — batch cap": 1,
+  "Saliha Banu Begum; thin Mughal consort, deferred": 1,
+  "American scholar b.1986; modern": 1,
+  "al-Muallaq mosque Acre 1758; deferred": 1,
+  "Tikka Khan d.2002; modern": 1,
+  "Subh Basque consort of al-Hakam; deferred": 1,
+  "imamate concept item; deferred": 1,
+  "Mezzo Morto Huseyin Pasha d.1701; deferred — batch cap": 1,
+  "militant d.2017; modern": 1,
+  "Ubudiah mosque 1917; modern": 1,
+  "Mahmud Shaltut d.1963; modern": 1,
+  "Kemal Tahir d.1973; modern": 1,
+  "Ibn Ashur d.1973; modern": 1,
+  "As Syakirin mosque; modern": 1,
+  "tartil recitation term; deferred": 1,
+  "Ali Mirza Safavi Safavid order head; deferred — batch cap": 1,
+  "Hain Ahmed Pasha d.1524; deferred — batch cap": 1,
+  "Gazi Huseyin Pasha d.1658; deferred — batch cap": 1,
+  "Ahmed Niyazi Bey d.1913; modern": 1,
+  "Menara Kudus mosque; deferred": 1,
+  "Khusrawiyya Aleppo; deferred": 1,
+  "Hasan II of Alamut Q403911; needs check vs existing Nizari imam records — deferred": 1,
+  "Ali Erbas b.1961; modern": 1,
+  "Issawa order; deferred — batch cap": 1,
+  "knowledge-in-Islam term; deferred": 1,
+  "Khamis mosque Bahrain; deferred": 1,
+  "actress d.2018; modern": 1,
+  "Hassanzadeh Amoli d.2021; modern": 1,
+  "Ibn Abidin d.1836; post-1800": 1,
+  "Sabit Damolla d.1934; modern": 1,
+  "Fatma Sultan d.1617; thin princess, deferred": 1,
+  "Abdul Aziz Hotak d.1717; deferred — batch cap": 1,
+  "Indian soldier d.1965; modern": 1,
+  "Libyan politician; modern": 1,
+  "Devletsah Hatun; thin consort, deferred": 1,
+  "Dukakinzade Ahmed Pasha; deferred — batch cap": 1,
+  "Fatih mosque Trabzon; deferred": 1,
+  "Fazl-e-Haq Khairabadi d.1861; post-1800": 1,
+  "Saudi grand mufti d.1969; modern": 1,
+  "Ahmadi Donish d.1897; post-1800": 1,
+  "Uthman ibn Ali Karbala figure; hagiographic, deferred": 1,
+  "Nali poet d.1877; post-1800": 1,
+  "Russian politician; modern": 2,
+  "riya' term; deferred": 1,
+  "huda term; deferred": 1,
+  "Saudi businessman; modern": 1,
+  "Mehmed Ali Pasha marshal d.1878; post-1800": 1,
+  "Kano great mosque; deferred": 1,
+  "Mir Emad calligrapher; deferred — batch cap": 1,
+  "imam of Prophet's Mosque d.2016; modern": 1,
+  "Ilyas Qadri b.1950; modern": 1,
+  "Omid Nouripour; modern politician": 1,
+  "Asikpasazade historian; deferred — batch cap": 1,
+  "al-Qaeda militant d.2015; modern": 1,
+  "Qutlugh Nigar Khanum; thin, deferred": 1,
+  "Iraqi militant d.2015; modern": 1,
+  "Indian actor b.1941; modern": 1
  },
  "last_commit": "d6d413304",
  "last_push": "66fdae59b",
  "batch_current": 7,
- "updated_at": "2026-10-19T18:20:31"
+ "updated_at": "2026-10-19T18:23:01-04:00"
 }
