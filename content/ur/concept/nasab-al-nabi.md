@@ -5,7 +5,7 @@ source_lang: ar
 translators: ["Claude Haiku 5.5 (claude-haiku-5-5), draft translation"]
 ---
 ## خلاصہ
-الرحیق المختوم کے مطابق نبی کے نسب کے تین حصے ہیں: ایک حصہ جس کی صحت پر اہل سیر اور انساب متفق ہیں اور وہ [[person/adnan|عدنان]] تک ہے؛ ایک حصہ جس میں اختلاف ہے، کچھ توقف کرتے ہیں اور کچھ اسے مانتے ہیں، اور وہ عدنان کے اوپر سے [[person/ibrahim|ابراہیم]] تک ہے؛ اور ایک حصہ جس میں مصنف کو کوئی شک نہیں کہ اس میں غیر صحیح باتیں ہیں، اور وہ ابراہیم کے اوپر سے آدم تک ہے۔ {cite:mubarakpuri-raheeq p.48}
+الرحیق المختوم کے مطابق [[person/muhammad|نبی]] کے نسب کے تین حصے ہیں: ایک حصہ جس کی صحت پر اہل سیر اور انساب متفق ہیں اور وہ [[person/adnan|عدنان]] تک ہے؛ ایک حصہ جس میں اختلاف ہے، کچھ توقف کرتے ہیں اور کچھ اسے مانتے ہیں، اور وہ عدنان کے اوپر سے [[person/ibrahim|ابراہیم]] تک ہے؛ اور ایک حصہ جس میں مصنف کو کوئی شک نہیں کہ اس میں غیر صحیح باتیں ہیں، اور وہ ابراہیم کے اوپر سے آدم تک ہے۔ {cite:mubarakpuri-raheeq p.48}
 
 ## پہلا حصہ: عدنان تک
 محمد بن [[person/abdullah-ibn-abd-al-muttalib|عبداللہ]] بن [[person/abd-al-muttalib|عبدالمطلب]] جن کا نام شیبہ تھا، بن [[person/hashim-ibn-abd-manaf|ہاشم]] جن کا نام عمرو تھا، بن [[person/abd-manaf-ibn-qusayy|عبد مناف]] جن کا نام المغیرہ تھا، بن [[person/qusayy-ibn-kilab|قصی]] جن کا نام زید تھا، بن کلاب بن مرۃ بن کعب بن لؤی بن غالب بن [[person/fihr-ibn-malik|فہر]] جو قریش کے لقب سے معروف ہیں اور قبیلہ انہی کی طرف منسوب ہے، بن مالک بن النضر جن کا نام قیس تھا، بن کنانہ بن خزیمہ بن [[person/mudrika-ibn-ilyas|مدرکہ]] جن کا نام عامر تھا، بن [[person/ilyas-ibn-mudar|الیاس]] بن مضر بن [[person/nizar-ibn-maadd|نزار]] بن [[person/maadd-ibn-adnan|معد]] بن عدنان {cite:mubarakpuri-raheeq p.48} {cite:ibn-hisham-sira 1/1-2} {cite:talqih-fuhum-ahl-al-athr p.5-6} {cite:rahma-lil-alamin 2/11-14}۔
