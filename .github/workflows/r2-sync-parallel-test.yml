@@ -4,6 +4,10 @@
 name: R2 sync parallel test (manual)
 
 on:
+  # TEMPORARY: runs on pushes to this branch so it can be tested before it is on main.
+  # Remove this push trigger before merging.
+  push:
+    branches: [perf/r2-archive-size]
   workflow_dispatch:
     inputs:
       deploy_worker:
@@ -28,7 +32,7 @@ concurrency:
 
 jobs:
   deploy-worker:
-    if: inputs.deploy_worker
+    if: ${{ github.event_name == 'push' || inputs.deploy_worker }}
     runs-on: ubuntu-latest
     timeout-minutes: 10
     env:
@@ -66,8 +70,8 @@ jobs:
       AWS_SECRET_ACCESS_KEY: ${{ secrets.R2_SECRET_ACCESS_KEY }}
       AWS_DEFAULT_REGION: auto
       BUCKET: islam-museum-sync-test
-      FILES: ${{ inputs.files }}
-      PARALLEL: ${{ inputs.parallel }}
+      FILES: ${{ inputs.files || 'all' }}
+      PARALLEL: ${{ inputs.parallel || '10' }}
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-node@v4
