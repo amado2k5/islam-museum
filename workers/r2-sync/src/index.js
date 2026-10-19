@@ -105,19 +105,30 @@ export async function processArchive({ bucket, archiveKey, allowedPrefixes, log 
   });
   await writeStatus(bucket, snapshot("running", 0), log);
 
-  for (const [i, op] of manifest.ops.entries()) {
-    if (i > 0 && i % STATUS_EVERY === 0) await writeStatus(bucket, snapshot("running", i), log);
+  // COPY ops run COPY_CONCURRENCY at a time. A MOVE, DELETE or unknown op runs alone,
+  // in manifest order, so it can never race a COPY to the same key.
+  const COPY_CONCURRENCY = 10;
+  let lastStatusAt = 0;
+
+  const copyOp = async (op, i) => {
     try {
-      if (op.op === "COPY") {
-        validateDst(op.dst, allowedPrefixes);
-        const data = entries[op.src];
-        if (!data) throw new Error(`source not in archive: ${op.src}`);
-        if (op.sha256 && (await sha256Hex(data)) !== op.sha256) throw new Error(`checksum mismatch: ${op.src}`);
-        for (const dir of newFolders(op.dst, seen)) report.folders.push(dir);
-        await bucket.put(op.dst, data, { httpMetadata: { contentType: contentType(op.dst), cacheControl: op.cache_control } });
-        report.copied.push({ from: op.src, to: op.dst, bytes: data.byteLength });
-        log(`[copy ${i + 1}/${manifest.ops.length}] ${op.src} -> ${op.dst} (${data.byteLength} bytes)`);
-      } else if (op.op === "MOVE") {
+      validateDst(op.dst, allowedPrefixes);
+      const data = entries[op.src];
+      if (!data) throw new Error(`source not in archive: ${op.src}`);
+      if (op.sha256 && (await sha256Hex(data)) !== op.sha256) throw new Error(`checksum mismatch: ${op.src}`);
+      for (const dir of newFolders(op.dst, seen)) report.folders.push(dir);
+      await bucket.put(op.dst, data, { httpMetadata: { contentType: contentType(op.dst), cacheControl: op.cache_control } });
+      report.copied.push({ from: op.src, to: op.dst, bytes: data.byteLength });
+      log(`[copy ${i + 1}/${total}] ${op.src} -> ${op.dst} (${data.byteLength} bytes)`);
+    } catch (err) {
+      report.failed.push({ index: i, op: op.op, error: String(err.message ?? err) });
+      log(`[fail ${i + 1}/${total}] ${op.op}: ${err.message ?? err}`);
+    }
+  };
+
+  const otherOp = async (op, i) => {
+    try {
+      if (op.op === "MOVE") {
         validateDst(op.dst, allowedPrefixes);
         validateDst(op.src, allowedPrefixes);
         const existing = await bucket.get(op.src);
@@ -127,18 +138,34 @@ export async function processArchive({ bucket, archiveKey, allowedPrefixes, log 
         await bucket.put(op.dst, data, { httpMetadata: { contentType: contentType(op.dst) } });
         await bucket.delete(op.src);
         report.moved.push({ from: op.src, to: op.dst });
-        log(`[move ${i + 1}/${manifest.ops.length}] ${op.src} -> ${op.dst}`);
+        log(`[move ${i + 1}/${total}] ${op.src} -> ${op.dst}`);
       } else if (op.op === "DELETE") {
         validateDst(op.dst, allowedPrefixes);
         await bucket.delete(op.dst);
         report.deleted.push(op.dst);
-        log(`[delete ${i + 1}/${manifest.ops.length}] ${op.dst}`);
+        log(`[delete ${i + 1}/${total}] ${op.dst}`);
       } else {
         throw new Error(`unknown op: ${op.op}`);
       }
     } catch (err) {
       report.failed.push({ index: i, op: op.op, error: String(err.message ?? err) });
-      log(`[fail ${i + 1}/${manifest.ops.length}] ${op.op}: ${err.message ?? err}`);
+      log(`[fail ${i + 1}/${total}] ${op.op}: ${err.message ?? err}`);
+    }
+  };
+
+  for (let i = 0; i < total; ) {
+    if (manifest.ops[i].op === "COPY") {
+      let end = i;
+      while (end < total && manifest.ops[end].op === "COPY" && end - i < COPY_CONCURRENCY) end += 1;
+      await Promise.all(Array.from({ length: end - i }, (_, k) => copyOp(manifest.ops[i + k], i + k)));
+      i = end;
+    } else {
+      await otherOp(manifest.ops[i], i);
+      i += 1;
+    }
+    if (Math.floor(i / STATUS_EVERY) > Math.floor(lastStatusAt / STATUS_EVERY)) {
+      lastStatusAt = i;
+      await writeStatus(bucket, snapshot("running", i), log);
     }
   }
 
