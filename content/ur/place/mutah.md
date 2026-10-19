@@ -1,0 +1,35 @@
+---
+id: place/mutah
+lang: ur
+source_lang: ar
+translators: ["Claude Haiku 5.5 (claude-haiku-5-5), draft translation"]
+---
+
+## تعارف
+اردن کے جنوب میں ایک گاؤں، جس کے قریب 629ء میں مسلمانوں نے ایک بازنطینی لشکر سے جنگ کی۔
+
+## محلِ وقوع
+اس کے تقریبی محدد 31.0925 شمالی عرض اور 35.6944 مشرقی طول ہیں {cite:geonames-gazetteer}۔
+
+## میوزیم میں
+میوزیم کے مواد میں اس مقام سے متعلق یہ چیزیں شامل ہیں: واقعات 5، یہاں وفات پانے والے 8۔
+
+### وہ واقعات جو یہاں پیش آئے
+- [[event/battle-of-mutah|غزوۂ موتہ]] (629ء)
+- [[event/mutah-khalid-command-withdrawal|خالد بن ولید کی قیادت اور لشکر کی واپسی]] (629ء)
+- [[event/mutah-martyrdom-of-ibn-rawaha|عبداللہ بن رواحہ کی شہادت، ان کے تردد کے بعد]] (629ء)
+- [[event/mutah-martyrdom-of-jafar|جعفر بن ابی طالب کی شہادت اور ان کا گھوڑا کاٹا جانا]] (629ء)
+- [[event/mutah-martyrdom-of-zayd|زید بن حارثہ کی بطور پہلے سالار شہادت]] (629ء)
+
+### یہاں وفات پانے والے
+- [[person/jafar-ibn-abi-talib|جعفر بن ابی طالب]]
+- [[person/zayd-ibn-haritha|زید بن حارثہ]]
+- [[person/abd-allah-ibn-rawaha|عبداللہ بن رواحہ]]
+- [[person/abbad-ibn-qays-mutah|عباد بن قیس]]
+- [[person/al-harith-ibn-al-numan-mutah|حارث بن نعمان بن اساف]]
+- [[person/masud-ibn-al-aswad-mutah|مسعود بن اسود بن حارثہ]]
+- [[person/suraqa-ibn-amr-mutah|سراقہ بن عمرو بن عطیہ]]
+- [[person/wahb-ibn-sad-ibn-abi-sarh|وہب بن سعد بن ابی سرح]]
+
+## یہ صفحہ کیا احاطہ کرتا ہے
+یہ صفحہ اس مقام سے میوزیم کے ربط رکھنے والے واقعات، افراد اور عمارات کو یکجا کرتا ہے، اور اسے اس مقام کی مکمل تاریخی تفصیل نہ سمجھا جائے۔ مقام کی تفصیل اور تاریخ اصل مآخذ سے اگلی کھیپ میں شامل کی جائے گی۔

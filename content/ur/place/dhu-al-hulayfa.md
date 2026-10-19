@@ -1,0 +1,8 @@
+---
+id: place/dhu-al-hulayfa
+lang: ur
+source_lang: ar
+translators: ["Claude Haiku 5.5 (claude-haiku-5-5), draft translation"]
+---
+## موجز
+[[place/medina|مدینہ]] والوں کی میقات ہے، اور اس کی مسجد کے پاس سے مدینہ سے آنے والے حجاج احرام باندھتے ہیں۔ آج اس کا مقام آبیارِ علی کے نام سے جانا جاتا ہے۔ ابن بطوطہ نے مکہ کی طرف اپنے سفر میں اس کا ذکر کیا ہے۔ {cite:geonames-gazetteer} {cite:rihla-ibn-battuta-1958}
