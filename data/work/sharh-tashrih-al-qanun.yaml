@@ -1,0 +1,24 @@
+id: work/sharh-tashrih-al-qanun
+class: work
+kind: book
+label: { ar: "شرح تشريح القانون", en: "Commentary on the Anatomy of the Canon" }
+summary:
+  ar: "شرح ابن النفيس على مباحث التشريح في القانون لابن سينا. جمع فيه ما قاله ابن سينا في الكتابين الأول والثالث ليكون كلامه في التشريح في موضع واحد، وذكر في مقدمته أنه اعتمد في صور الأعضاء الباطنة على جالينوس، وفي منافعها على النظر {cite:sharh-tashrih-qanun-print p.1}. ويتناول الفصول الأولى منه عظام الرأس والفك والأسنان والفقار {cite:sharh-tashrih-qanun-print p.9} {cite:sharh-tashrih-qanun-print p.35}."
+  en: "Ibn al-Nafis's commentary on the anatomy passages of Ibn Sina's Canon. He gathers what Ibn Sina said in Books I and III into one place, and says in his preface that he relied on Galen for the shapes of the inner organs and on reasoned inquiry for their uses {cite:sharh-tashrih-qanun-print p.1}. The opening sections treat the bones of the skull, jaws, teeth and spine {cite:sharh-tashrih-qanun-print p.9} {cite:sharh-tashrih-qanun-print p.35}."
+language: language/arabic
+authors: [person/ibn-al-nafis]
+genre: [medicine]
+made: { by_muslims: true, basis: documented, sources: [source/sharh-tashrih-qanun-print] }
+disciplines: [concept/medicine, concept/anatomy]
+wings: []
+regions: [egypt-nile]
+periods: [period/mongol-post-mongol]
+editions: ["Arabic printed text, edition not verified (see source/sharh-tashrih-qanun-print)"]
+sources: [source/sharh-tashrih-qanun-print]
+provenance:
+  layer: own-research
+  source: "Sharh Tashrih al-Qanun, preface and scan pages 1, 7, 9, 35 (digital copy)"
+  generated_by: "Claude Haiku 5.5"
+  model: claude-haiku-5-5
+  run: lib-exp-medicine-science-batch-1
+status: { review: draft, completeness: 1, generated_by: "Claude Haiku 5.5 (library-expansion); structure from OCR headings" }
