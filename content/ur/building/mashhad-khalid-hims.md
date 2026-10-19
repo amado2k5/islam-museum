@@ -5,7 +5,7 @@ source_lang: ar
 translators: ["Claude Haiku 5.5 (claude-haiku-5-5), draft translation"]
 ---
 ## خلاصہ
-حمص کے باہر ایک مشہد جسے عوام [[person/khalid-ibn-al-walid|خالد بن الولید]] سے منسوب کرتے ہیں۔ {cite:umari-masalik-1924 p. 219}
+[[place/homs|حمص]] کے باہر ایک مشہد جسے عوام [[person/khalid-ibn-al-walid|خالد بن الولید]] سے منسوب کرتے ہیں۔ {cite:umari-masalik-1924 p. 219}
 
 ## العمری کی تصحیح
 ابن فضل اللہ العمری اس نسبت کی قطعی نفی کرتے ہیں۔ وہ ذکر کرتے ہیں کہ عمر بن الخطاب نے خالد کو حمص کی امارت سے معزول کیا اور انہیں مدینہ بلوایا، جہاں وہ فوت ہوئے، اور ان کی وفات کے بعد عمر ان سے ناراض رہے۔ {cite:umari-masalik-1924 p. 219}

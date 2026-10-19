@@ -141,3 +141,24 @@ Add this lane's entries to `scripts/harvest/library/books.yaml` in the lane's ow
 - **Dates flagged:** the 1924 date in Rida's footnote (vol. 4, p. 9) is the book's own claim and needs a second source before any use. Hijri and other dates are not derived here.
 - **Edition:** both volumes are an OCR of a modern printing (editor Ibrahim Shams al-Din; Dar al-Kutub al-Ilmiyya, Beirut). The year is not read in the OCR. Every page number must be checked against the printed copy.
 - **Next step:** read vol. 4 from p. 13 (the rest of Q. 3:98 onward to 4:23) and vol. 5 from p. 9 (the rest of Q. 4:25), find a second source for the 1924 date, add a Sunni-frame source for the tawassul entry, and decide on a person record for Ibn Sa'ud only if an edge needs it.
+## Tafsir al-Manar, volumes 2 and 3 (batch, 19 Oct 2026, draft)
+
+- **Branch:** `worktree-agent-a98d87fbd80a5d886` (lane `lib-exp-tafsir-manar`; not pushed, not merged).
+- **Pages covered (OCR markers):** vol. 2, pp. 1 to 9 (title pages; commentary on Q. 2:142 to 2:143, the qibla dispute and the "wasat" passage; the end of 2:143 begins on p. 9). Vol. 3, pp. 1 to 7 (title pages; Q. 2:253 on the messengers, the speech of God, "raf'a darajat", and the "law shaa Allah" passage). Later pages of both volumes are not read.
+- **Entities created (all `status.review: draft`, with provenance):**
+  - `source/tafsir-manar-v02` (primary, book; edition not verified; reliability note records the death-year discrepancy with v01 and v07)
+  - `source/tafsir-manar-v03` (primary, book; edition not verified)
+  - `concept/ummat-wasat` (wasat: Rida's reading next to the classical "justice and choice" sense)
+  - `concept/ibtila` (the two readings of "li-na'lam" in 2:143)
+  - `concept/tafdil-al-rusul` (2:253: the majority reading of "raf'a darajat" as the Prophet, and the Idris reading)
+  - `concept/ikhtilaf-ahl-al-adyan` (2:253: the compulsion reading, rejected, and the reading of God's sunna in human choice)
+  - `person/al-baydawi` (named only as Rida quotes him; no dates or full name recorded)
+- **Entities extended:** `event/change-of-qibla`: `source/tafsir-manar-v02` added to its `sources` list only. No prose sentence added yet.
+- **Reused, not created:** `work/tafsir-al-manar`, `person/rashid-rida`, `person/muhammad-abduh`, `person/mujahid-ibn-jabr`, `concept/tafsir-bil-raay`, `event/change-of-qibla`, passages `quran-2-143`, `quran-2-253` (prose links only).
+- **Skipped and why:**
+  - A new `concept/tahwil-al-qibla` was drafted and removed: `event/change-of-qibla` already covers the same thing (duplicate title).
+  - `person/jalal-al-din-al-mahalli` not created: the volume names him only as "al-Jalal" and does not state the Jalalayn attribution; a second source is needed first.
+  - `concept/ilm-al-ghayb-wal-shahada` and `concept/ruh-al-qudus` not drafted (read in part, not written up).
+  - No Qur'an text typed; the verses appear only as `passage` links.
+- **Checks:** `npm run validate` 0 errors (1953 warnings, mostly pre-existing title-collision warnings); `npm run graph` and `npm run coverage` run in the same commit.
+- **Next step:** read vol. 2 from p. 10 (2:144 on) and vol. 3 from p. 8 (2:254 on, and 3:1 onward); add a second source for the two publication dates and the author's death year before any record leaves draft; add a sentence from Rida on the qibla view to `event/change-of-qibla` (its prose is not yet changed); decide whether a `concept/naskh` record is warranted once the naskh discussion in vol. 2 is read.

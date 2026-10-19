@@ -1,0 +1,41 @@
+id: concept/tafdil-al-rusul
+class: concept
+kind: term
+label: { ar: "تفضيل بعض الرسل على بعض" }
+issue:
+  ar: "من المقصود بقوله تعالى «ورفع بعضهم درجات»، وهل يجوز تفضيل بعض الرسل على بعض؟"
+summary:
+  ar: "قوله تعالى في البقرة 253: «تلك الرسل فضلنا بعضهم على بعض». يذكر محمد رشيد رضا أن جمهور المفسرين على أن «رفع بعضهم درجات» يعني النبي محمداً، ويرى أن السياق يؤيده، ويذكر من جوّز أن يكون المراد إدريس، ويرد على من عدّ حمل الآية على النبي من التفسير بالرأي."
+perspectives:
+  - tradition: sunni
+    id: raf-darajat-muhammad
+    stance:
+      ar: "المراد بالدرجات النبي محمد"
+    summary:
+      ar: "قول جمهور المفسرين كما يذكره رضا، ويرويه ابن جرير عن مجاهد، وقد عضده رضا بأن الآيات تذكر ما للنبي من درجات في نفسه وفي كتابه وفي أمته. {cite:tafsir-manar-v03 p.5}"
+    holders: [person/mujahid-ibn-jabr]
+    evidence:
+      - ref: source/tafsir-manar-v03
+        note:
+          ar: "ص 5"
+    sources: [source/tafsir-manar-v03]
+  - tradition: sunni
+    id: raf-darajat-idris
+    stance:
+      ar: "المراد إدريس، لقوله تعالى في مريم «ورفعناه مكاناً علياً»"
+    summary:
+      ar: "قول بعض العلماء كما يذكره رضا، وهو يرى أن المكان ليس بمعنى الدرجات. وينقل عن بعض المتأخرين أن حمل الآية على النبي من التفسير بالرأي، فيرد عليه رضا بأن تفسير المبهم بالدليل ليس من التفسير بالرأي. {cite:tafsir-manar-v03 p.6}"
+    holders: []
+    evidence:
+      - ref: source/tafsir-manar-v03
+        note:
+          ar: "ص 6"
+    sources: [source/tafsir-manar-v03]
+sources: [source/tafsir-manar-v03]
+provenance:
+  layer: own-research
+  source: "تفسير المنار، المجلد الثالث، ص 3-6 (نسخة OCR محلية)"
+  generated_by: "Claude Haiku 5.5"
+  model: claude-haiku-5-5
+  run: "lib-exp-tafsir-manar-v02-v03"
+status: { review: draft, completeness: 2, generated_by: "library-expansion (Claude Haiku 5.5); from Rida's commentary on Q. 2:253, volume 3 pp. 3 to 6" }
