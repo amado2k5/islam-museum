@@ -5,7 +5,7 @@
  "candidates_file": "$HARVEST/wikidata-import/candidates.tsv",
  "candidates_query": "select distinct id from wd_claim where property='P140' and value_id='Q432' minus Wikidata ids already linked in data/, ordered by sitelink count desc",
  "linked_preexisting": 987,
- "next_index": 1360,
+ "next_index": 1460,
  "created_ids": [
   {
    "i": 24,
@@ -1166,6 +1166,126 @@
    "i": 1350,
    "qid": "Q838407",
    "id": "person/piri-mehmed-pasha"
+  },
+  {
+   "i": 1367,
+   "qid": "Q1352813",
+   "id": "person/saman-khuda"
+  },
+  {
+   "i": 1368,
+   "qid": "Q1377629",
+   "id": "person/mir-khvand"
+  },
+  {
+   "i": 1370,
+   "qid": "Q15215483",
+   "id": "person/al-yasa"
+  },
+  {
+   "i": 1372,
+   "qid": "Q1531115",
+   "id": "person/lala-shahin-pasha"
+  },
+  {
+   "i": 1373,
+   "qid": "Q1572401",
+   "id": "person/candarli-kara-halil-pasha"
+  },
+  {
+   "i": 1381,
+   "qid": "Q207052",
+   "id": "person/ziyadat-allah-i"
+  },
+  {
+   "i": 1385,
+   "qid": "Q2551187",
+   "id": "person/abd-allah-al-tarjuman"
+  },
+  {
+   "i": 1387,
+   "qid": "Q2669775",
+   "id": "person/baysonqor"
+  },
+  {
+   "i": 1389,
+   "qid": "Q288067",
+   "id": "person/al-nuwayri"
+  },
+  {
+   "i": 1396,
+   "qid": "Q3239600",
+   "id": "person/satuq-bughra-khan"
+  },
+  {
+   "i": 1410,
+   "qid": "Q400919",
+   "id": "person/al-qalqashandi"
+  },
+  {
+   "i": 1412,
+   "qid": "Q4115413",
+   "id": "person/matrakci-nasuh"
+  },
+  {
+   "i": 1413,
+   "qid": "Q4116347",
+   "id": "person/shaykh-al-tusi"
+  },
+  {
+   "i": 1428,
+   "qid": "Q662404",
+   "id": "person/leo-of-tripoli"
+  },
+  {
+   "i": 1433,
+   "qid": "Q732272",
+   "id": "person/kemal-reis"
+  },
+  {
+   "i": 1437,
+   "qid": "Q862848",
+   "id": "building/kilic-ali-pasha-mosque"
+  },
+  {
+   "i": 1438,
+   "qid": "Q889571",
+   "id": "person/atsiz-khwarazmshah"
+  },
+  {
+   "i": 1439,
+   "qid": "Q912011",
+   "id": "person/jalal-al-din-ibn-tokhtamysh"
+  },
+  {
+   "i": 1443,
+   "qid": "Q1070476",
+   "id": "person/ahmad-jalayir"
+  },
+  {
+   "i": 1446,
+   "qid": "Q1111135",
+   "id": "person/umm-al-banin"
+  },
+  {
+   "i": 1451,
+   "qid": "Q1189261",
+   "id": "person/silahdar-damat-ali-pasha"
+  },
+  {
+   "i": 1452,
+   "qid": "Q11947898",
+   "id": "person/ala-al-din-alam-shah"
+  },
+  {
+   "i": 1454,
+   "qid": "Q12419221",
+   "id": "person/kamran-mirza"
+  },
+  {
+   "i": 1455,
+   "qid": "Q135668",
+   "id": "person/sayyid-murad-khan-zand"
   }
  ],
  "linked_ids": [
@@ -2833,6 +2953,96 @@
    "i": 1359,
    "qid": "Q1153185",
    "to": "person/sahl-al-tustari"
+  },
+  {
+   "i": 1376,
+   "qid": "Q1674390",
+   "to": "concept/isnad"
+  },
+  {
+   "i": 1380,
+   "qid": "Q2004370",
+   "to": "person/yahya-ibn-main"
+  },
+  {
+   "i": 1390,
+   "qid": "Q29480",
+   "to": "person/abu-zakariya-al-hafsi"
+  },
+  {
+   "i": 1394,
+   "qid": "Q3196955",
+   "to": "person/dawud-al-zahiri"
+  },
+  {
+   "i": 1395,
+   "qid": "Q320324",
+   "to": "person/ahmad-al-ghazali"
+  },
+  {
+   "i": 1400,
+   "qid": "Q336990",
+   "to": "person/abu-inan-faris"
+  },
+  {
+   "i": 1401,
+   "qid": "Q3467762",
+   "to": "person/jibril"
+  },
+  {
+   "i": 1404,
+   "qid": "Q3535516",
+   "to": "person/umm-ruman"
+  },
+  {
+   "i": 1414,
+   "qid": "Q4119690",
+   "to": "person/rufayda-al-aslamiyya"
+  },
+  {
+   "i": 1415,
+   "qid": "Q423552",
+   "to": "person/abdullah-ibn-sad-ibn-abi-sarh"
+  },
+  {
+   "i": 1418,
+   "qid": "Q481409",
+   "to": "person/abu-firas-al-hamdani"
+  },
+  {
+   "i": 1429,
+   "qid": "Q6943009",
+   "to": "person/muslim-ibn-aqil"
+  },
+  {
+   "i": 1435,
+   "qid": "Q788374",
+   "to": "person/ibn-durayd"
+  },
+  {
+   "i": 1441,
+   "qid": "Q1050575",
+   "to": "person/al-mughira-ibn-shuba"
+  },
+  {
+   "i": 1445,
+   "qid": "Q1108425",
+   "to": "person/muhammad-ibn-maslama"
+  },
+  {
+   "i": 1447,
+   "qid": "Q1145034",
+   "to": "person/umm-al-fadl-lubaba"
+  },
+  {
+   "i": 1448,
+   "qid": "Q1145327",
+   "to": "person/fayruz-al-daylami"
+  },
+  {
+   "i": 1459,
+   "qid": "Q1370750",
+   "to": "person/sad-ibn-ubada"
   }
  ],
  "skipped": [
@@ -6820,9 +7030,299 @@
    1358,
    "Q1151724",
    "Turkish writer d.1974; modern"
+  ],
+  [
+   1360,
+   "Q1153491",
+   "Oran mosque former synagogue; modern fabric, out of scope"
+  ],
+  [
+   1361,
+   "Q11772931",
+   "Kruszyniany wooden mosque Poland; no confirmed source on the page"
+  ],
+  [
+   1362,
+   "Q11957212",
+   "Asmara mosque 20th c.; modern"
+  ],
+  [
+   1363,
+   "Q12214827",
+   "modern politician b.1953"
+  ],
+  [
+   1364,
+   "Q125510324",
+   "modern militant"
+  ],
+  [
+   1365,
+   "Q1266334",
+   "concept 'dunya'; no confirmed source on the page"
+  ],
+  [
+   1366,
+   "Q1347675",
+   "Islamic revival; broad modern movement, out of scope"
+  ],
+  [
+   1369,
+   "Q1385497",
+   "hawza institution; modern framing, no confirmed source on the page"
+  ],
+  [
+   1371,
+   "Q15246895",
+   "Mardinli mosque Shusha; no confirmed source on the page"
+  ],
+  [
+   1374,
+   "Q15958739",
+   "Tzistarakis mosque Athens 1759; no confirmed source on the page"
+  ],
+  [
+   1375,
+   "Q1663754",
+   "title 'Maulana'; thin item, out of scope"
+  ],
+  [
+   1377,
+   "Q19411693",
+   "consort of Osman I; no confirmed source on the page"
+  ],
+  [
+   1378,
+   "Q196161",
+   "Cathedral of Ani; Armenian cathedral, not an Islamic monument"
+  ],
+  [
+   1379,
+   "Q2001807",
+   "Ali Abd al-Raziq d.1966; modern"
+  ],
+  [
+   1382,
+   "Q2344792",
+   "modern grand ayatollah"
+  ],
+  [
+   1383,
+   "Q2366085",
+   "Russian-Azerbaijani general d.1943; modern"
+  ],
+  [
+   1384,
+   "Q2529866",
+   "9/11 hijacker; modern"
+  ],
+  [
+   1386,
+   "Q2669342",
+   "modern Indonesian sultan b.1946"
+  ],
+  [
+   1388,
+   "Q2855200",
+   "Jezzar Pasha Mosque Acre 1781; post-1800 founder-era, thin source"
+  ],
+  [
+   1391,
+   "Q307814",
+   "Egyptian diplomat d.1976; modern"
+  ],
+  [
+   1392,
+   "Q317426",
+   "Lal Masjid figure d.2007; modern"
+  ],
+  [
+   1393,
+   "Q317495",
+   "footballer b.1973; modern"
+  ],
+  [
+   1397,
+   "Q3240863",
+   "Pakistani scholar b.1970; modern"
+  ],
+  [
+   1398,
+   "Q3250647",
+   "Abbasid shrine Karbala; modern fabric"
+  ],
+  [
+   1399,
+   "Q3349483",
+   "'Islamic mythology' framing; out of scope"
+  ],
+  [
+   1402,
+   "Q348127",
+   "Ashraf Ali Thanwi d.1943; modern"
+  ],
+  [
+   1403,
+   "Q3506406",
+   "Egyptian writer d.1973; modern"
+  ],
+  [
+   1405,
+   "Q3595321",
+   "Mir Qasim nawab d.1777; in scope but no confirmed source on the page"
+  ],
+  [
+   1406,
+   "Q365797",
+   "Ahmad al-Tijani d.1815; post-1800"
+  ],
+  [
+   1407,
+   "Q367997",
+   "Ottoman grand vizier d.1913; modern"
+  ],
+  [
+   1408,
+   "Q388730",
+   "Kuwaiti ruler d.1915; modern"
+  ],
+  [
+   1409,
+   "Q3935373",
+   "Islamic modernism; modern movement, out of scope"
+  ],
+  [
+   1411,
+   "Q4026369",
+   "Iranian politician d.2013; modern"
+  ],
+  [
+   1416,
+   "Q4481567",
+   "Tatar scholar d.1936; modern"
+  ],
+  [
+   1417,
+   "Q468528",
+   "Brunei queen consort b.1946; modern"
+  ],
+  [
+   1419,
+   "Q4846312",
+   "Deobandi scholar d.1957; modern"
+  ],
+  [
+   1420,
+   "Q496515",
+   "Seoul Central Mosque 1976; modern"
+  ],
+  [
+   1421,
+   "Q5294275",
+   "Sayyida Zaynab shrine Damascus; modern fabric"
+  ],
+  [
+   1422,
+   "Q544509",
+   "Murad Reis the Younger d.1641; no confirmed source on the page"
+  ],
+  [
+   1423,
+   "Q5951540",
+   "Arabian princess d.1935; modern"
+  ],
+  [
+   1424,
+   "Q6027272",
+   "Shah Sultan daughter of Selim II; no confirmed source on the page"
+  ],
+  [
+   1425,
+   "Q604832",
+   "concept 'fitra'; no confirmed source on the page"
+  ],
+  [
+   1426,
+   "Q62066735",
+   "Christchurch mosque; modern"
+  ],
+  [
+   1427,
+   "Q623802",
+   "Saudi diplomat b.1962; modern"
+  ],
+  [
+   1430,
+   "Q707266",
+   "Albanian poet d.1949; modern"
+  ],
+  [
+   1431,
+   "Q715482",
+   "Yemeni president d.1977; modern"
+  ],
+  [
+   1432,
+   "Q720302",
+   "Nizam of Hyderabad d.1829; post-1800"
+  ],
+  [
+   1434,
+   "Q7380456",
+   "Mughal empress consort d.1626; no confirmed source on the page"
+  ],
+  [
+   1436,
+   "Q83015",
+   "PIJ founder d.2020; modern"
+  ],
+  [
+   1440,
+   "Q96863707",
+   "Hezbollah commander d.2024; modern"
+  ],
+  [
+   1442,
+   "Q1062393",
+   "Uzbek PM d.2015; modern"
+  ],
+  [
+   1444,
+   "Q1087563",
+   "Qisas al-anbiya genre; no confirmed source on the page"
+  ],
+  [
+   1449,
+   "Q1153320",
+   "Zeynep Sultan Mosque 1769 Istanbul; no confirmed source on the page"
+  ],
+  [
+   1450,
+   "Q1176678",
+   "Ottoman grand vizier d.1883; modern"
+  ],
+  [
+   1453,
+   "Q124001410",
+   "Iranian general d.2023; modern"
+  ],
+  [
+   1456,
+   "Q1363916",
+   "Tunisian PM d.2020; modern"
+  ],
+  [
+   1457,
+   "Q1365162",
+   "Haydar Pasha Mosque Nicosia; no confirmed source on the page"
+  ],
+  [
+   1458,
+   "Q1366556",
+   "Iranian cleric d.2021; modern"
   ]
  ],
- "skipped_total": 797,
+ "skipped_total": 855,
  "skipped_by_reason": {
   "modern sovereign state; no matching record (al-Hind region is a different entity)": 1,
   "modern sovereign state; no matching record": 8,
@@ -7474,7 +7974,7 @@
   "modern Syrian politician": 1,
   "modern Iraqi politician d.2009": 1,
   "modern hijacker": 2,
-  "modern militant": 2,
+  "modern militant": 3,
   "Ahmed Vefik Pasha d.1891; modern": 1,
   "Pahang sultan d.2019; modern": 1,
   "Po-i-Kalyan Bukhara; no confirmed source on the page": 1,
@@ -7537,7 +8037,7 @@
   "Lala Tulpan mosque Ufa 1998; modern": 1,
   "9/11 hijacker; modern, out of scope": 1,
   "Jezzar Pasha d.1804; post-1800": 1,
-  "9/11 hijacker; modern": 1,
+  "9/11 hijacker; modern": 2,
   "Ibrahim Bey Mamluk d.1817; post-1800": 1,
   "Aga Khan I d.1881; post-1800": 1,
   "Iraqi queen consort d.1950; modern": 1,
@@ -7565,10 +8065,66 @@
   "Urdu poet Hali d.1914; modern": 1,
   "Malik Muhammad Jayasi d.1542; no confirmed source on the page": 1,
   "translator d.1953; modern": 1,
-  "Turkish writer d.1974; modern": 1
+  "Turkish writer d.1974; modern": 1,
+  "Oran mosque former synagogue; modern fabric, out of scope": 1,
+  "Kruszyniany wooden mosque Poland; no confirmed source on the page": 1,
+  "Asmara mosque 20th c.; modern": 1,
+  "modern politician b.1953": 1,
+  "concept 'dunya'; no confirmed source on the page": 1,
+  "Islamic revival; broad modern movement, out of scope": 1,
+  "hawza institution; modern framing, no confirmed source on the page": 1,
+  "Mardinli mosque Shusha; no confirmed source on the page": 1,
+  "Tzistarakis mosque Athens 1759; no confirmed source on the page": 1,
+  "title 'Maulana'; thin item, out of scope": 1,
+  "consort of Osman I; no confirmed source on the page": 1,
+  "Cathedral of Ani; Armenian cathedral, not an Islamic monument": 1,
+  "Ali Abd al-Raziq d.1966; modern": 1,
+  "modern grand ayatollah": 1,
+  "Russian-Azerbaijani general d.1943; modern": 1,
+  "modern Indonesian sultan b.1946": 1,
+  "Jezzar Pasha Mosque Acre 1781; post-1800 founder-era, thin source": 1,
+  "Egyptian diplomat d.1976; modern": 1,
+  "Lal Masjid figure d.2007; modern": 1,
+  "footballer b.1973; modern": 1,
+  "Pakistani scholar b.1970; modern": 1,
+  "Abbasid shrine Karbala; modern fabric": 1,
+  "'Islamic mythology' framing; out of scope": 1,
+  "Ashraf Ali Thanwi d.1943; modern": 1,
+  "Egyptian writer d.1973; modern": 1,
+  "Mir Qasim nawab d.1777; in scope but no confirmed source on the page": 1,
+  "Ahmad al-Tijani d.1815; post-1800": 1,
+  "Ottoman grand vizier d.1913; modern": 1,
+  "Kuwaiti ruler d.1915; modern": 1,
+  "Islamic modernism; modern movement, out of scope": 1,
+  "Iranian politician d.2013; modern": 1,
+  "Tatar scholar d.1936; modern": 1,
+  "Brunei queen consort b.1946; modern": 1,
+  "Deobandi scholar d.1957; modern": 1,
+  "Seoul Central Mosque 1976; modern": 1,
+  "Sayyida Zaynab shrine Damascus; modern fabric": 1,
+  "Murad Reis the Younger d.1641; no confirmed source on the page": 1,
+  "Arabian princess d.1935; modern": 1,
+  "Shah Sultan daughter of Selim II; no confirmed source on the page": 1,
+  "concept 'fitra'; no confirmed source on the page": 1,
+  "Christchurch mosque; modern": 1,
+  "Saudi diplomat b.1962; modern": 1,
+  "Albanian poet d.1949; modern": 1,
+  "Yemeni president d.1977; modern": 1,
+  "Nizam of Hyderabad d.1829; post-1800": 1,
+  "Mughal empress consort d.1626; no confirmed source on the page": 1,
+  "PIJ founder d.2020; modern": 1,
+  "Hezbollah commander d.2024; modern": 1,
+  "Uzbek PM d.2015; modern": 1,
+  "Qisas al-anbiya genre; no confirmed source on the page": 1,
+  "Zeynep Sultan Mosque 1769 Istanbul; no confirmed source on the page": 1,
+  "Ottoman grand vizier d.1883; modern": 1,
+  "Iranian general d.2023; modern": 1,
+  "Tunisian PM d.2020; modern": 1,
+  "Haydar Pasha Mosque Nicosia; no confirmed source on the page": 1,
+  "Iranian cleric d.2021; modern": 1
  },
  "last_commit": "d246b7e49",
  "last_push": "2caca308e",
  "batch_current": 7,
- "updated_at": "2026-10-19T17:47:49-04:00"
+ "updated_at": "2026-10-19T17:52:12-04:00"
 }
