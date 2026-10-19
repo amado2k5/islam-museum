@@ -1,0 +1,9 @@
+#!/bin/sh
+# Refuse any commit that changes a Qur'an passage file: the Qur'an text is frozen (docs/plan/15 §6.3).
+# Enable once per clone: git config core.hooksPath .githooks
+changed=$(git diff --cached --name-only -- 'data/passage/quran-*.yaml')
+if [ -n "$changed" ]; then
+  echo "Refusing to commit: Qur'an passage files are frozen and may not be changed:" >&2
+  echo "$changed" >&2
+  exit 1
+fi

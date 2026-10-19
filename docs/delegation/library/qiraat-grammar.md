@@ -12,13 +12,31 @@
 | 1. Books located (`books.yaml` entries) | not started |
 | 2. Downloaded (filename, source URL, size recorded below) | not started |
 | 3. OCR (local, drive only) | not started |
-| 4. Distilled into draft entities | not started |
+| 4. Distilled into draft entities | first batch drafted (branch `lib-exp-qiraat-grammar/al-kitab-batch-1`, 18 Oct 2026): al-Kitab pp. 1–28 (editor's introduction) and pp. 53–55 (opening bab on the word classes) |
 | 5. Verified (`verify_cites.py`) | not started |
 | 6. Published in batches of at most 25 | not started |
 
 ## Duplicates found and skipped
 
-None recorded yet. Pre-check counts (18 Oct 2026, `grep -ril` over `data/`) are in the lane document.
+- `work/kitab-sibawayh` (Devin draft, Fihrist-based) and `person/sibawayh` already exist. Not recreated; the Zein 2015 edition was added to their `sources` and the `authored` edge was added once on the person side. Their claims were not altered.
+- `person/al-sirafi`, `person/al-zajjaji`, `person/al-shantamari-yusuf-ibn-sulayman`, `person/ali-ibn-isa-al-rummani`, `person/al-kisai`, `person/al-mubarrad`, `person/yunus-ibn-habib`, `person/abu-zayd-al-ansari`, `person/isa-ibn-umar-al-thaqafi`, `person/hammad-ibn-salama`, `person/al-akhfash-al-awsat-said`, `person/al-khalil-ibn-ahmad-al-farahidi`, `person/ibn-khaldun` already exist. Not recreated.
+- `concept/ibtida-al-nahw` and `concept/madrasat-al-nahw-al-basriyya-kufiyya` already exist. Not recreated.
+- No existing record for the opening bab's word-class concept, nor for al-Sirafi's commentary as a work. Both created.
+
+## Batch 1 (18 Oct 2026, draft)
+
+- Edition: `source/bakka-kitab-sibawayh-2015`. Muhammad Kazim al-Bakka, Zein Legal and Literary Library, Beirut, 2015, vol. 1 part 1. Edition NOT yet verified against the physical book; ISBN and statement read from the OCR copyright page (p.3).
+- Pages covered: OCR pp. 1–28 (editor's introduction, outline, method, and Sibawayh's life pp. 13–16, title and attribution pp. 17–18, method pp. 21–28) and pp. 53–55 (the opening bab "هذا باب علم ما الكلم من العربية", the bab on the courses of word endings).
+- Entities created: `concept/al-kalim-wal-kalam`, `work/sharh-kitab-sibawayh-al-sirafi`, `source/bakka-kitab-sibawayh-2015`.
+- Entities edited (additions only): `work/kitab-sibawayh` (source and content section on the edition), `person/sibawayh` (`authored` edge and source), `person/al-sirafi` (`authored` edge and source).
+- Not added: no death date for Sibawayh. The editor (p.15) gives 180 AH only as a view of some modern scholars, citing al-Hadithi. Needs a second source before any date is recorded. Birth in Shiraz (p.14) is a closest-opinion claim in the editor's introduction, also not recorded.
+- Skipped: Sibawayh's birth and death details beyond the above; the editor's manuscript list (pp. 4–11) beyond the sources line.
+
+## Next step (batch 2)
+
+- Read OCR from p.56 onward in slices of about 30 pages: the bab on the courses of word endings (p.55 onward) and the verb's three courses (المجاري) noted in p.25. Create concept entities only where `data/concept/` lacks them.
+- Check `data/concept/` for an existing entry on i'rab (inflection) before creating one.
+- Two independent sources are needed for any death or birth date of Sibawayh before it is recorded.
 
 ## Downloads
 

@@ -79,3 +79,11 @@ Hudhud (هدهد), the wing's hoopoe guide, speaks in the first row's voice: war
 2. **Tap-to-place beats drag-and-drop.** Builders (mosque parts, era cards) use tap-to-place: one interaction model works identically for touch, mouse, and keyboard. Native `<button>`s with `aria-pressed`; never custom drag handlers.
 3. **Honorifics render in views, never in data.** `viewEras` honorifies prophet names via `kidsHonorify` (same as quest stories); the TimeMachine component renders them with `set:html` since the strings arrive pre-escaped. Authors keep names plain in YAML.
 4. **Milestone speech is state-derived.** Hudhud's reaction line derives from current state (highest true milestone), never from the last action — removing parts must always land on the correct line.
+
+## 10. Urdu and English for every kids' string (recorded 2026-10-18)
+
+1. **Urdu ships with the Arabic.** Since 18 October 2026 (`docs/language.md`), every kids' string has an Urdu (`ur`) value next to its `ar` and `en` values in the same change. Translate from the Arabic source, not from the English. An `ur` value that repeats the English is a gap, not a translation.
+2. **Same rules as the rest of the wing.** Urdu follows every rule in §§1–9: no typed honorifics (prophet names stay plain, e.g. آدم، نوح، ابراہیم، موسیٰ، عیسیٰ), no Qur'an text typed, no fear or shaming language, no promises, no figurative prophets. Keep the same emoji and icon values as the English.
+3. **Status stays draft.** Urdu translations are drafts with the file's `provenance` block. Scholar review covers the Urdu text as well.
+4. **Coverage.** Every kids' file now carries `ur` for every string: child-facing (`stories`, `deeds`, `quest-stops`, `eras`, `mosque-parts`, `retell`, `bridge`) and teacher-facing (`lessons`, `paths`, `pilot`). The teacher files are plain, practical Urdu for educators; their contact placeholder stays a visible TODO in both languages.
+5. **Adding content.** A new story, stop, deed, era, part, prompt or bridge card ships with its `ur` value in the same commit. If it cannot, say so in the commit message and the progress file.

@@ -1,0 +1,17 @@
+id: work/sharh-kitab-sibawayh-al-sirafi
+class: work
+kind: book
+label: { ar: "شرح كتاب سيبويه للسيرافي", en: "Sirafi's commentary on Sibawayh's Kitab" }
+summary:
+  ar: "شرح أبي سعيد السيرافي على كتاب سيبويه، وهو مخطوط ومطبوع بحسب ما يذكره محقق طبعة زين. يرجع إليه المحقق في توضيح المواضع المشكلة من الكتاب ويقتبس منه نصوصاً مع الإشارة إلى مواضعها، وقد تنبّه السيرافي إلى ظاهرة التكرار وتجزئة البحث الواحد في الكتاب. {cite:bakka-kitab-sibawayh-2015 p.7} {cite:bakka-kitab-sibawayh-2015 p.11}"
+  en: "Abu Sa'id al-Sirafi's commentary on Sibawayh's Kitab. The Zein edition's editor draws on manuscript and printed copies of it to clarify the difficult passages of the Kitab, and notes that al-Sirafi already observed the Kitab's repetitions and split treatments. {cite:bakka-kitab-sibawayh-2015 p.7} {cite:bakka-kitab-sibawayh-2015 p.11}"
+sources: [source/bakka-kitab-sibawayh-2015]
+relations:
+  - { type: commentary_on, target: work/kitab-sibawayh, sources: [source/bakka-kitab-sibawayh-2015] }
+provenance:
+  layer: own-research
+  source: "Sibawayh, Kitab, ed. al-Bakka (Zein 2015), editor's introduction pp. 7, 11, 12"
+  generated_by: "library-expansion (Claude Code sub-agent)"
+  model: claude-haiku-5-5
+  run: lib-exp-qiraat-grammar-batch-1
+status: { review: draft, completeness: 1, generated_by: "library-expansion (Claude Code sub-agent)" }
