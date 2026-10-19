@@ -1,0 +1,25 @@
+id: person/ibn-al-jazari
+class: person
+label: { ar: "شمس الدين ابن الجزري", en: "Shams al-Din Ibn al-Jazari" }
+names:
+  - { value: "شمس الدين أبو الخير محمد بن محمد بن محمد بن محمد بن علي بن يوسف المعروف بابن الجزري الشافعي", kind: full }
+gender: male
+summary:
+  ar: "الحافظ شمس الدين ابن الجزري مقرئ الممالك الإسلامية؛ ولد بدمشق ليلة السبت خامس وعشرين رمضان سنة إحدى وخمسين وسبعمائة وتفقه بها وهج بطلب الحديث والقراءات وبرز فيهما وعمر للقراء مدرسة سماها دار القرآن، وكان قد باشر عند تطلبك استادار إيتمش فنقم عليه شيئاً فتهدده ففر منه فنزل البحر إلى بلاد الروم سنة ثمان وتسعين فاتصل ببايزيد بن عثمان فعظمه وأخذ أهل البلاد عنه علم القراءات وأكثروا عنه ثم كان فيمن حضر الوقعة مع ابن عثمان والتنكية فلما أسر ابن عثمان اتصل به تيمورلنك فعظمه وفوض له قضاء شيراز فباشره مدة طويلة وكان كثير الإحسان لأهل الحجاز وأخذ عنه أهل تلك البلاد القراءات والحديث، وقد انتهت إليه رياسة علم القراءات في الممالك وكان قديماً صنف الحصن الحصين في الأدعية فولع به أهل اليمن واستكثروا منه قبل أن يدخل إليهم، وذيل طبقات القراء للذهبي وأجاد فيه ونظم قصيدة في قراءات الثلاثة وجمع النشر في القراءات العشر، قال ابن حجر بالجملة فإنه كان عديم النظير طائر الصيت انتفع الناس بكتبه وسارت في الآفاق مسير الشمس، توفي بشيراز في ربيع الأول سنة ثلاث وثلاثين وثمانمائة ودفن بمدرسته التي بناها بها {cite:shadharat-dhahab p. 204-206}."
+  en: "The hafiz Ibn al-Jazari (b. Damascus 25 Ramadan 751) — 'reciter of the Islamic realms,' founder of the Dar al-Qur'an; fled a vizier's threat to Bayezid's Rum in 798 where the land learned qira'at from him, witnessed the Ankara battle at Bayezid's side, was honoured by Timur himself and given Shiraz's judiciary; author of al-Hisn al-Hasin, al-Nashr on the ten readings, the Tayyiba poem and a dhayl on al-Dhahabi's Tabaqat al-Qurra'; died at Shiraz Rabi' I 833, buried at his own madrasa {cite:shadharat-dhahab p. 204-206}."
+roles: [scholar, jurist]
+wings: [people]
+themes: [scripture-and-its-sciences]
+periods: [period/mongol-post-mongol]
+regions: [levant-iraq, anatolia-balkans, persia-central-asia]
+born: { edtf: "1350-12-26~", hijri: "0751-09-25", calendar: julian, precision: day, status: tradition, derived: true, note: "ولد بدمشق ليلة السبت خامس وعشرين رمضان 751 {cite:shadharat-dhahab p. 204}", sources: [source/shadharat-dhahab] }
+died: { edtf: "1429-12~", hijri: "0833-03", calendar: julian, precision: month, status: tradition, derived: true, note: "توفي بشيراز في ربيع الأول 833 ودفن بمدرسته {cite:shadharat-dhahab p. 206}", sources: [source/shadharat-dhahab] }
+relations:
+  - { type: participated_in, target: event/battle-ankara-804, sources: [source/shadharat-dhahab] }
+provenance:
+  layer: own-research
+  source: "شذرات الذهب — ابن العماد (ط مكتبة المثنى 1351، ج7، سنة 833)، قراءة آبل فيجن"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-shadharat-batch-138
+sources: [source/shadharat-dhahab]
+status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 High)" }
