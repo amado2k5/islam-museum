@@ -1,9 +1,20 @@
-// R2 sync Worker: exports objects as zip parts and applies zip parts (with a
-// delete list) to the bucket. Every route needs the bearer token in SYNC_TOKEN.
-import { zipSync, unzipSync } from "fflate";
-
-const PART_BYTES = 20 * 1024 * 1024; // target size of one export part
-const LIST_PAGE = 200; // objects read from R2 per list call
+// R2 archive worker. The batch side uploads zip archives to a staging key in
+// R2 and asks this Worker to process one. The Worker reads the archive, unzips
+// it, validates manifest.json, applies the operations in order, logs progress,
+// and deletes the archive when every operation succeeded.
+//
+// Manifest (manifest.json at the zip root):
+//   {
+//     "version": 1,
+//     "ops": [
+//       { "op": "COPY",   "src": "files/0001.md", "dst": "content/en/x.md", "sha256": "<hex>" },
+//       { "op": "MOVE",   "src": "content/en/old.md", "dst": "content/en/new.md" },
+//       { "op": "DELETE", "dst": "content/en/gone.md" }
+//     ]
+//   }
+// COPY reads from the archive; MOVE and DELETE act on keys already in R2.
+// Every dst must start with an allowed prefix (ALLOWED_PREFIXES, comma-separated).
+import { unzipSync } from "fflate";
 
 const MIME = {
   html: "text/html; charset=utf-8",
@@ -15,102 +26,132 @@ const MIME = {
   jpg: "image/jpeg",
   webp: "image/webp",
   txt: "text/plain; charset=utf-8",
+  md: "text/markdown; charset=utf-8",
+  yaml: "text/yaml; charset=utf-8",
   xml: "application/xml",
 };
 
 const contentType = (key) => MIME[key.split(".").pop().toLowerCase()] ?? "application/octet-stream";
 
+const sha256Hex = async (bytes) => {
+  const digest = await crypto.subtle.digest("SHA-256", bytes);
+  return [...new Uint8Array(digest)].map((b) => b.toString(16).padStart(2, "0")).join("");
+};
+
+// Returns the top-level directory-like prefixes a key introduces that were not
+// seen before (R2 has no real folders, so this is what "creating folders" means).
+const newFolders = (key, seen) => {
+  const parts = key.split("/").slice(0, -1);
+  const created = [];
+  for (let i = 1; i <= parts.length; i += 1) {
+    const dir = parts.slice(0, i).join("/") + "/";
+    if (!seen.has(dir)) {
+      seen.add(dir);
+      created.push(dir);
+    }
+  }
+  return created;
+};
+
+function validateDst(dst, allowed) {
+  if (!dst || dst.startsWith("/") || dst.includes("..") || !allowed.some((p) => dst.startsWith(p))) {
+    throw new Error(`destination not allowed: "${dst}"`);
+  }
+}
+
+// Applies one archive. `bucket` is an R2 bucket binding (or a compatible stub).
+// `log` receives progress lines. Returns a report; throws only on a bad archive.
+export async function processArchive({ bucket, archiveKey, allowedPrefixes, log = console.log }) {
+  const archive = await bucket.get(archiveKey);
+  if (!archive) throw new Error(`archive not found: ${archiveKey}`);
+  const entries = unzipSync(new Uint8Array(await archive.arrayBuffer()));
+  log(`[process] ${archiveKey}: ${Object.keys(entries).length} entries`);
+
+  const manifestBytes = entries["manifest.json"];
+  if (!manifestBytes) throw new Error("manifest.json missing from archive");
+  const manifest = JSON.parse(new TextDecoder().decode(manifestBytes));
+  if (manifest.version !== 1 || !Array.isArray(manifest.ops)) throw new Error("unsupported manifest");
+  log(`[process] manifest: ${manifest.ops.length} operations`);
+
+  const report = { archive: archiveKey, copied: [], moved: [], deleted: [], folders: [], failed: [] };
+  const seen = new Set();
+
+  for (const [i, op] of manifest.ops.entries()) {
+    try {
+      if (op.op === "COPY") {
+        validateDst(op.dst, allowedPrefixes);
+        const data = entries[op.src];
+        if (!data) throw new Error(`source not in archive: ${op.src}`);
+        if (op.sha256 && (await sha256Hex(data)) !== op.sha256) throw new Error(`checksum mismatch: ${op.src}`);
+        for (const dir of newFolders(op.dst, seen)) report.folders.push(dir);
+        await bucket.put(op.dst, data, { httpMetadata: { contentType: contentType(op.dst) } });
+        report.copied.push({ from: op.src, to: op.dst, bytes: data.byteLength });
+        log(`[copy ${i + 1}/${manifest.ops.length}] ${op.src} -> ${op.dst} (${data.byteLength} bytes)`);
+      } else if (op.op === "MOVE") {
+        validateDst(op.dst, allowedPrefixes);
+        validateDst(op.src, allowedPrefixes);
+        const existing = await bucket.get(op.src);
+        if (!existing) throw new Error(`move source missing: ${op.src}`);
+        const data = new Uint8Array(await existing.arrayBuffer());
+        for (const dir of newFolders(op.dst, seen)) report.folders.push(dir);
+        await bucket.put(op.dst, data, { httpMetadata: { contentType: contentType(op.dst) } });
+        await bucket.delete(op.src);
+        report.moved.push({ from: op.src, to: op.dst });
+        log(`[move ${i + 1}/${manifest.ops.length}] ${op.src} -> ${op.dst}`);
+      } else if (op.op === "DELETE") {
+        validateDst(op.dst, allowedPrefixes);
+        await bucket.delete(op.dst);
+        report.deleted.push(op.dst);
+        log(`[delete ${i + 1}/${manifest.ops.length}] ${op.dst}`);
+      } else {
+        throw new Error(`unknown op: ${op.op}`);
+      }
+    } catch (err) {
+      report.failed.push({ index: i, op: op.op, error: String(err.message ?? err) });
+      log(`[fail ${i + 1}/${manifest.ops.length}] ${op.op}: ${err.message ?? err}`);
+    }
+  }
+
+  if (report.failed.length === 0) {
+    await bucket.delete(archiveKey);
+    log(`[done] ${archiveKey} applied and deleted`);
+  } else {
+    log(`[kept] ${archiveKey} kept because ${report.failed.length} operation(s) failed`);
+  }
+  report.summary = {
+    copied: report.copied.length,
+    moved: report.moved.length,
+    deleted: report.deleted.length,
+    failed: report.failed.length,
+    folders_created: report.folders.length,
+  };
+  return report;
+}
+
 const json = (body, status = 200) =>
-  new Response(JSON.stringify(body), { status, headers: { "content-type": "application/json" } });
-
-function authorised(request, env) {
-  const expected = `Bearer ${env.SYNC_TOKEN}`;
-  return Boolean(env.SYNC_TOKEN) && request.headers.get("authorization") === expected;
-}
-
-// GET /export?prefix=sync-test/&after=<key>
-// Reads objects under prefix in key order, starting after `after`, until about
-// PART_BYTES have been collected. Returns one zip (level 0, objects are already
-// compressed or small) with entries named relative to the prefix. Headers:
-// X-Next-After (pass back as `after`) and X-Done ("true" when nothing is left).
-async function exportPart(url, env) {
-  const prefix = url.searchParams.get("prefix") ?? "";
-  let after = url.searchParams.get("after") ?? undefined;
-  const files = {};
-  let bytes = 0;
-  let lastKey = null;
-  let done = false;
-
-  outer: while (true) {
-    const page = await env.SYNC_BUCKET.list({ prefix, startAfter: after, limit: LIST_PAGE });
-    for (const obj of page.objects) {
-      if (bytes > 0 && bytes + obj.size > PART_BYTES) break outer;
-      const body = await env.SYNC_BUCKET.get(obj.key);
-      const data = new Uint8Array(await body.arrayBuffer());
-      files[obj.key.slice(prefix.length)] = data;
-      bytes += data.byteLength;
-      lastKey = obj.key;
-    }
-    if (!page.truncated) {
-      done = true;
-      break;
-    }
-    after = page.objects.at(-1)?.key ?? after;
-    if (!page.objects.length) break;
-  }
-
-  const zip = zipSync(files, { level: 0 });
-  return new Response(zip, {
-    headers: {
-      "content-type": "application/zip",
-      "x-next-after": lastKey ?? after ?? "",
-      "x-done": String(done),
-      "x-entries": String(Object.keys(files).length),
-    },
-  });
-}
-
-// POST /apply?prefix=sync-test/   body: zip
-// The zip may contain "__delete.json" (a JSON array of relative keys). Deletes run
-// first, then every other entry is written, so a file that is removed and
-// re-added in the same run ends up present.
-async function applyPart(request, url, env) {
-  const prefix = url.searchParams.get("prefix") ?? "";
-  const entries = unzipSync(new Uint8Array(await request.arrayBuffer()));
-
-  const deleteList = entries["__delete.json"];
-  let deleted = 0;
-  if (deleteList) {
-    const keys = JSON.parse(new TextDecoder().decode(deleteList)).map((k) => prefix + k);
-    for (let i = 0; i < keys.length; i += 1000) {
-      await env.SYNC_BUCKET.delete(keys.slice(i, i + 1000));
-    }
-    deleted = keys.length;
-  }
-
-  let written = 0;
-  for (const [name, data] of Object.entries(entries)) {
-    if (name === "__delete.json") continue;
-    if (!name || name.endsWith("/")) return json({ error: `bad entry name: "${name}"` }, 400);
-    await env.SYNC_BUCKET.put(prefix + name, data, {
-      httpMetadata: { contentType: contentType(name) },
-    });
-    written += 1;
-  }
-  return json({ written, deleted });
-}
+  new Response(JSON.stringify(body, null, 2), { status, headers: { "content-type": "application/json" } });
 
 export default {
   async fetch(request, env) {
-    if (!authorised(request, env)) return json({ error: "unauthorised" }, 401);
-
+    const expected = `Bearer ${env.SYNC_TOKEN}`;
+    if (!env.SYNC_TOKEN || request.headers.get("authorization") !== expected) {
+      return json({ error: "unauthorised" }, 401);
+    }
     const url = new URL(request.url);
+    if (request.method !== "POST" || url.pathname !== "/process") return json({ error: "not found" }, 404);
+
+    const { archive } = await request.json();
+    const allowedPrefixes = (env.ALLOWED_PREFIXES ?? "").split(",").filter(Boolean);
     try {
-      if (request.method === "GET" && url.pathname === "/export") return await exportPart(url, env);
-      if (request.method === "POST" && url.pathname === "/apply") return await applyPart(request, url, env);
-      return json({ error: "not found" }, 404);
+      const report = await processArchive({
+        bucket: env.SYNC_BUCKET,
+        archiveKey: archive,
+        allowedPrefixes,
+        log: (line) => console.log(line),
+      });
+      return json(report, report.failed.length ? 207 : 200);
     } catch (err) {
-      return json({ error: String(err?.message ?? err) }, 500);
+      return json({ error: String(err.message ?? err) }, 400);
     }
   },
 };
