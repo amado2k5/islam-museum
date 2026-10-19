@@ -12,6 +12,7 @@ regions: [arabia]
 relations:
   - { type: related_to, target: person/muhammad, note: "الحديث أثره وكلامه وفعله", sources: [source/sahih-al-bukhari] }
   - { type: related_to, target: concept/isnad, note: "طريق وصول الحديث", sources: [source/sahih-muslim] }
+external_ids: { wikidata: "Q234343" }
 sources: [source/sahih-al-bukhari, source/sahih-muslim]
 provenance:
   layer: own-research

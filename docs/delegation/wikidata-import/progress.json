@@ -1,17 +1,354 @@
 {
-  "task": "Import Islam-related Wikidata items (P140=Q432) from the local subset into data/, autonomously, in batches of <=25 records, pushing to main every 200 new entries. Owner's megaplan of 19 Oct 2026; see README.md.",
-  "candidates_total": 82296,
-  "candidates_sha256": "7f50762aa737fffd9a4b275965e2fa09eb0fd9a324e26ea0e859af07ed4d6189",
-  "candidates_file": "$HARVEST/wikidata-import/candidates.tsv",
-  "candidates_query": "select distinct id from wd_claim where property='P140' and value_id='Q432' minus Wikidata ids already linked in data/, ordered by sitelink count desc",
-  "linked_preexisting": 987,
-  "next_index": 0,
-  "created_ids": [],
-  "linked_ids": [],
-  "skipped_total": 0,
-  "skipped_by_reason": {},
-  "last_commit": null,
-  "last_push": null,
-  "batch_current": 1,
-  "updated_at": "2026-10-19T20:05:00-04:00"
+ "task": "Import Islam-related Wikidata items (P140=Q432) from the local subset into data/, autonomously, in batches of <=25 records, pushing to main every 200 new entries. Owner's megaplan of 19 Oct 2026; see README.md.",
+ "candidates_total": 82296,
+ "candidates_sha256": "7f50762aa737fffd9a4b275965e2fa09eb0fd9a324e26ea0e859af07ed4d6189",
+ "candidates_file": "$HARVEST/wikidata-import/candidates.tsv",
+ "candidates_query": "select distinct id from wd_claim where property='P140' and value_id='Q432' minus Wikidata ids already linked in data/, ordered by sitelink count desc",
+ "linked_preexisting": 987,
+ "next_index": 60,
+ "created_ids": [
+  {
+   "i": 24,
+   "qid": "Q6240",
+   "id": "person/hafiz-al-shirazi"
+  },
+  {
+   "i": 30,
+   "qid": "Q35323",
+   "id": "group/arabs"
+  },
+  {
+   "i": 52,
+   "qid": "Q170302",
+   "id": "person/saadi-al-shirazi"
+  },
+  {
+   "i": 53,
+   "qid": "Q41975",
+   "id": "group/mongols"
+  }
+ ],
+ "linked_ids": [
+  {
+   "i": 7,
+   "qid": "Q928",
+   "to": "place/philippines"
+  },
+  {
+   "i": 10,
+   "qid": "Q233",
+   "to": "place/malta"
+  },
+  {
+   "i": 16,
+   "qid": "Q842",
+   "to": "place/oman"
+  },
+  {
+   "i": 18,
+   "qid": "Q428",
+   "to": "work/quran"
+  },
+  {
+   "i": 22,
+   "qid": "Q7331",
+   "to": "person/ibn-battuta-muhammad"
+  },
+  {
+   "i": 23,
+   "qid": "Q9294",
+   "to": "person/ibn-khaldun"
+  },
+  {
+   "i": 25,
+   "qid": "Q5670",
+   "to": "person/abu-nuwas"
+  },
+  {
+   "i": 28,
+   "qid": "Q8581",
+   "to": "person/salah-al-din-yusuf-ibn-ayyub"
+  },
+  {
+   "i": 31,
+   "qid": "Q39619",
+   "to": "person/ali-ibn-abi-talib",
+   "replaced": "Q7020"
+  },
+  {
+   "i": 34,
+   "qid": "Q9603",
+   "to": "concept/tasawwuf",
+   "replaced": "Q177134"
+  },
+  {
+   "i": 36,
+   "qid": "Q234915",
+   "to": "practice/hajj"
+  },
+  {
+   "i": 37,
+   "qid": "Q514400",
+   "to": "practice/eid-al-adha"
+  },
+  {
+   "i": 39,
+   "qid": "Q29466",
+   "to": "building/kaaba"
+  },
+  {
+   "i": 40,
+   "qid": "Q43303",
+   "to": "person/malcolm-x",
+   "replaced": "Q16503"
+  },
+  {
+   "i": 42,
+   "qid": "Q464458",
+   "to": "practice/eid-al-fitr"
+  },
+  {
+   "i": 44,
+   "qid": "Q334923",
+   "to": "person/abu-bakr",
+   "replaced": "Q43380"
+  },
+  {
+   "i": 47,
+   "qid": "Q482752",
+   "to": "concept/sharia",
+   "replaced": "Q534863"
+  },
+  {
+   "i": 48,
+   "qid": "Q234869",
+   "to": "practice/salah"
+  },
+  {
+   "i": 49,
+   "qid": "Q41831",
+   "to": "concept/shahada"
+  },
+  {
+   "i": 50,
+   "qid": "Q34503",
+   "to": "person/mehmed-ii"
+  },
+  {
+   "i": 51,
+   "qid": "Q234343",
+   "to": "concept/al-hadith-al-nabawi"
+  },
+  {
+   "i": 58,
+   "qid": "Q40477",
+   "to": "group/saqaliba"
+  }
+ ],
+ "skipped": [
+  [
+   0,
+   "Q668",
+   "modern sovereign state; no matching record (al-Hind region is a different entity)"
+  ],
+  [
+   1,
+   "Q252",
+   "modern sovereign state; no matching record"
+  ],
+  [
+   2,
+   "Q843",
+   "modern sovereign state; label hits only an exhibit path, not an entity"
+  ],
+  [
+   3,
+   "Q869",
+   "modern sovereign state; no matching record"
+  ],
+  [
+   4,
+   "Q851",
+   "modern sovereign state; first-saudi-state polity is a different entity"
+  ],
+  [
+   5,
+   "Q902",
+   "modern sovereign state; no matching record"
+  ],
+  [
+   6,
+   "Q225",
+   "modern sovereign state; no matching record"
+  ],
+  [
+   8,
+   "Q334",
+   "modern city-state; no matching record"
+  ],
+  [
+   9,
+   "Q424",
+   "modern sovereign state; no matching record"
+  ],
+  [
+   11,
+   "Q837",
+   "modern sovereign state; no matching record"
+  ],
+  [
+   12,
+   "Q865",
+   "modern state with limited recognition; no matching record"
+  ],
+  [
+   13,
+   "Q854",
+   "modern sovereign state; no matching record"
+  ],
+  [
+   14,
+   "Q8646",
+   "modern city/SAR; no matching record"
+  ],
+  [
+   15,
+   "Q921",
+   "modern sovereign sultanate; no matching record"
+  ],
+  [
+   17,
+   "Q574",
+   "modern sovereign state; no matching record"
+  ],
+  [
+   19,
+   "Q1861",
+   "modern capital city; no Islamic-history record"
+  ],
+  [
+   20,
+   "Q7176",
+   "modern person d.2006; exhibit path is not an entity"
+  ],
+  [
+   21,
+   "Q1316",
+   "modern politician d.2006"
+  ],
+  [
+   26,
+   "Q57336",
+   "modern politician (Supreme Leader of Iran, d.2026)"
+  ],
+  [
+   27,
+   "Q41662",
+   "the month fits no existing class cleanly (practice record is the fast, not the month); deferred"
+  ],
+  [
+   29,
+   "Q8733",
+   "non-Islamic dynasty; P140 claim incidental; weak link to Islamic history"
+  ],
+  [
+   32,
+   "Q34413",
+   "modern politician d.2007"
+  ],
+  [
+   33,
+   "Q47740",
+   "generic adherent term; no distinct museum entity"
+  ],
+  [
+   35,
+   "Q19770",
+   "modern province; no matching record"
+  ],
+  [
+   38,
+   "Q9535",
+   "modern actor; no matching record"
+  ],
+  [
+   41,
+   "Q38823",
+   "modern leader d.1989; no matching record"
+  ],
+  [
+   43,
+   "Q57371",
+   "modern president; no matching record"
+  ],
+  [
+   45,
+   "Q39524",
+   "modern president d.1970"
+  ],
+  [
+   46,
+   "Q41053",
+   "modern political/militant organisation; no matching record"
+  ],
+  [
+   54,
+   "Q4631",
+   "modern president d.2019"
+  ],
+  [
+   55,
+   "Q40495",
+   "modern politician d.2023"
+  ],
+  [
+   56,
+   "Q42852",
+   "modern president b.1950"
+  ],
+  [
+   57,
+   "Q539051",
+   "modern ethnic group item; the Islamic-world counterpart (al-Rum/Byzantines) is a different item"
+  ],
+  [
+   59,
+   "Q131152",
+   "modern lawyer/activist b.1947"
+  ]
+ ],
+ "skipped_total": 34,
+ "skipped_by_reason": {
+  "modern sovereign state; no matching record (al-Hind region is a different entity)": 1,
+  "modern sovereign state; no matching record": 8,
+  "modern sovereign state; label hits only an exhibit path, not an entity": 1,
+  "modern sovereign state; first-saudi-state polity is a different entity": 1,
+  "modern city-state; no matching record": 1,
+  "modern state with limited recognition; no matching record": 1,
+  "modern city/SAR; no matching record": 1,
+  "modern sovereign sultanate; no matching record": 1,
+  "modern capital city; no Islamic-history record": 1,
+  "modern person d.2006; exhibit path is not an entity": 1,
+  "modern politician d.2006": 1,
+  "modern politician (Supreme Leader of Iran, d.2026)": 1,
+  "the month fits no existing class cleanly (practice record is the fast, not the month); deferred": 1,
+  "non-Islamic dynasty; P140 claim incidental; weak link to Islamic history": 1,
+  "modern politician d.2007": 1,
+  "generic adherent term; no distinct museum entity": 1,
+  "modern province; no matching record": 1,
+  "modern actor; no matching record": 1,
+  "modern leader d.1989; no matching record": 1,
+  "modern president; no matching record": 1,
+  "modern president d.1970": 1,
+  "modern political/militant organisation; no matching record": 1,
+  "modern president d.2019": 1,
+  "modern politician d.2023": 1,
+  "modern president b.1950": 1,
+  "modern ethnic group item; the Islamic-world counterpart (al-Rum/Byzantines) is a different item": 1,
+  "modern lawyer/activist b.1947": 1
+ },
+ "last_commit": null,
+ "last_push": null,
+ "batch_current": 1,
+ "updated_at": "2026-10-19T16:35:07-04:00"
 }
