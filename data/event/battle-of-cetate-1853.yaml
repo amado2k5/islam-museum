@@ -1,0 +1,23 @@
+id: event/battle-of-cetate-1853
+class: event
+kind: battle
+label: { ar: "معركة تشيتاته", en: "Battle of Cetate" }
+summary:
+  ar: "بطاقة أولية لمعركة تشيتاته سنة ١٨٥٣م، فوز العثمانيين على الروس في حرب القرم؛ لم تُراجع مصادره على الصفحة بعد."
+  en: "Draft card for the Battle of Cetate in 1853, the Ottoman victory over the Russians at the Crimean War's opening; its sources are not yet checked on the page."
+wings: [time]
+periods: [period/colonial-era]
+regions: [anatolia-balkans]
+date:
+  start: { edtf: "1853", precision: year, status: tradition, derived: true }
+  end: { edtf: "1854", precision: year, status: tradition, derived: true }
+sources: [source/dawlat-uthmaniyya-salabi]
+external_ids:
+  wikidata: Q1351343
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; battle attested in narrative histories — entry not yet checked on the page"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-wave2
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

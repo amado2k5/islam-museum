@@ -1,0 +1,23 @@
+id: event/siege-of-eger-1596
+class: event
+kind: siege
+label: { ar: "حصار إغر (١٥٩٦)", en: "Siege of Eger" }
+summary:
+  ar: "بطاقة أولية لحصار إغر سنة ١٥٩٦م، سقوط القلعة المجرية بيد العثمانيين؛ لم تُراجع مصادره على الصفحة بعد."
+  en: "Draft card for the Siege of Eger in 1596, the Ottoman capture of the Hungarian castle; its sources are not yet checked on the page."
+wings: [time]
+periods: [period/gunpowder-empires]
+regions: [anatolia-balkans]
+date:
+  start: { edtf: "1596", precision: year, status: tradition, derived: true }
+  end: { edtf: "1596", precision: year, status: tradition, derived: true }
+sources: [source/dawlat-uthmaniyya-salabi]
+external_ids:
+  wikidata: Q1582631
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; battle attested in narrative histories — entry not yet checked on the page"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-wave2
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }
