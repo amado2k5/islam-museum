@@ -1,0 +1,23 @@
+id: event/siege-of-ganja-1734
+class: event
+kind: siege
+label: { ar: "حصار كنجة", en: "Siege of Ganja" }
+summary:
+  ar: "بطاقة أولية لحصار كنجة من ١٧٣٤ إلى ١٧٣٥م، استرداد نادر شاه للمدينة من العثمانيين؛ لم تُراجع مصادره على الصفحة بعد."
+  en: "Draft card for the Siege of Ganja of 1734–1735, Nader Shah's recovery of the city from the Ottomans; its sources are not yet checked on the page."
+wings: [time]
+periods: [period/gunpowder-empires]
+regions: [persia-central-asia]
+date:
+  start: { edtf: "1734", precision: year, status: tradition, derived: true }
+  end: { edtf: "1735", precision: year, status: tradition, derived: true }
+sources: [source/tarikh-islam-hasan-ibrahim]
+external_ids:
+  wikidata: Q18162521
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; battle attested in narrative histories — entry not yet checked on the page"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-wave2
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

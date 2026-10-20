@@ -1,0 +1,23 @@
+id: event/malay-portuguese-war-1509
+class: event
+kind: war
+label: { ar: "الحرب الملايوية البرتغالية", en: "Malay-Portuguese War" }
+summary:
+  ar: "بطاقة أولية للحرب الملايوية البرتغالية من ١٥٠٩م، نزاع سلطنة ملقا والبرتغاليين على المضيق؛ لم تُراجع مصادره على الصفحة بعد."
+  en: "Draft card for the Malay-Portuguese war from 1509, the Malacca sultanate's struggle against the Portuguese; its sources are not yet checked on the page."
+wings: [time]
+periods: [period/gunpowder-empires]
+regions: [southeast-asia]
+date:
+  start: { edtf: "1509", precision: year, status: tradition, derived: true }
+  end: { edtf: "1530~", precision: year, status: tradition, derived: true }
+sources: [source/tarikh-islam-hasan-ibrahim]
+external_ids:
+  wikidata: Q16932099
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; battle attested in narrative histories — entry not yet checked on the page"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-wave2
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

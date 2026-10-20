@@ -1,0 +1,23 @@
+id: event/battle-of-ghazni-1148
+class: event
+kind: battle
+label: { ar: "معركة غزنة (١١٤٨)", en: "Battle of Ghazni" }
+summary:
+  ar: "بطاقة أولية لمعركة غزنة سنة ١١٤٨م، فوز بهرام شاه على علاء الدين حسين الغوري؛ لم تُراجع مصادره على الصفحة بعد."
+  en: "Draft card for the Battle of Ghazni in 1148, Bahram-Shah's defeat of Ala al-Din Husayn the Ghurid; its sources are not yet checked on the page."
+wings: [time]
+periods: [period/crusades-ayyubid-mamluk]
+regions: [persia-central-asia]
+date:
+  start: { edtf: "1148", precision: year, status: tradition, derived: true }
+  end: { edtf: "1148", precision: year, status: tradition, derived: true }
+sources: [source/kamil-ibn-al-athir]
+external_ids:
+  wikidata: Q16207176
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; battle attested in narrative histories — entry not yet checked on the page"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-wave2
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }
