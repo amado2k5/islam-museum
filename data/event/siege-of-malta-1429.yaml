@@ -1,0 +1,23 @@
+id: event/siege-of-malta-1429
+class: event
+kind: siege
+label: { ar: "حصار مالطة (١٤٢٩)", en: "Siege of Malta" }
+summary:
+  ar: "بطاقة أولية لحصار مالطة سنة ١٤٢٩م، الحملة الحفصية على الجزيرة؛ لم تُراجع مصادره على الصفحة بعد."
+  en: "Draft card for the Siege of Malta in 1429, the Hafsid assault on the island; its sources are not yet checked on the page."
+wings: [time]
+periods: [period/crusades-ayyubid-mamluk]
+regions: [andalus-europe]
+date:
+  start: { edtf: "1429", precision: year, status: tradition, derived: true }
+  end: { edtf: "1429", precision: year, status: tradition, derived: true }
+sources: [source/tarikh-ibn-khaldun-ibar]
+external_ids:
+  wikidata: Q20706642
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; battle attested in narrative histories — entry not yet checked on the page"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-wave2
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

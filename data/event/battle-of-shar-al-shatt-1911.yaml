@@ -1,0 +1,23 @@
+id: event/battle-of-shar-al-shatt-1911
+class: event
+kind: battle
+label: { ar: "معركة شعر الشط", en: "Battle of Shar al-Shatt" }
+summary:
+  ar: "بطاقة أولية لمعركة شعر الشط سنة ١٩١١م، مقاومة أهالي طرابلس والمقاتلين العثمانيين للإيطاليين؛ لم تُراجع مصادره على الصفحة بعد."
+  en: "Draft card for the Battle of Shar al-Shatt (Sciara Sciat) in 1911, the Tripolitan and Ottoman resistance to the Italians; its sources are not yet checked on the page."
+wings: [time]
+periods: [period/modern-era]
+regions: [maghreb]
+date:
+  start: { edtf: "1911", precision: year, status: tradition, derived: true }
+  end: { edtf: "1911", precision: year, status: tradition, derived: true }
+sources: [source/dawlat-uthmaniyya-salabi]
+external_ids:
+  wikidata: Q25152060
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; battle attested in narrative histories — entry not yet checked on the page"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-wave2
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

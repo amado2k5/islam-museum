@@ -1,0 +1,23 @@
+id: event/siege-of-mosul-1743
+class: event
+kind: siege
+label: { ar: "حصار الموصل (١٧٤٣)", en: "Siege of Mosul" }
+summary:
+  ar: "بطاقة أولية لحصار الموصل سنة ١٧٤٣م، صد المدينة لحصار نادر شاه؛ لم تُراجع مصادره على الصفحة بعد."
+  en: "Draft card for the Siege of Mosul in 1743, the city's stand against Nader Shah; its sources are not yet checked on the page."
+wings: [time]
+periods: [period/gunpowder-empires]
+regions: [levant-iraq]
+date:
+  start: { edtf: "1743", precision: year, status: tradition, derived: true }
+  end: { edtf: "1743", precision: year, status: tradition, derived: true }
+sources: [source/dawlat-uthmaniyya-salabi]
+external_ids:
+  wikidata: Q22947760
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; battle attested in narrative histories — entry not yet checked on the page"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-wave2
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }
