@@ -1,0 +1,32 @@
+id: polity/dulafid-dynasty
+class: polity
+kind: dynasty
+label:
+  ar: "الدلفيون"
+  en: "Dulafid dynasty"
+summary:
+  ar: "بطاقة أولية للدلفيين، أسرة أمراء كردية حكمت جبال زاكروس وجوارها للعباسيين في القرن التاسع؛ لم تُراجع مصادرها على الصفحة بعد."
+  en: "Draft card for the Dulafids, the Kurdish emirs' house that held the Zagros marches for the Abbasids in the ninth century; its sources are not yet checked on the page."
+wings: [time]
+periods: [period/abbasid-early]
+regions: [levant-iraq]
+start:
+  edtf: "800"
+  precision: year
+  status: tradition
+  derived: true
+end:
+  edtf: "898"
+  precision: year
+  status: tradition
+  derived: true
+sources: [source/tarikh-al-tabari]
+external_ids:
+  wikidata: Q2615561
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; dynasty attested in Abbasid histories — entry not yet checked on the page"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-wave2
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

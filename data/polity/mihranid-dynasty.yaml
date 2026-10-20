@@ -1,0 +1,32 @@
+id: polity/mihranid-dynasty
+class: polity
+kind: dynasty
+label:
+  ar: "المهريون"
+  en: "Mihranids"
+summary:
+  ar: "بطاقة أولية للمهريين، الأسرة الفارسية التي حكمت كردمان والقوقاز من قبل الإسلام حتى القرن الثامن؛ لم تُراجع مصادرها على الصفحة بعد."
+  en: "Draft card for the Mihranids, the Iranian house that held Girdman and the Caucasus marches into the eighth century; its sources are not yet checked on the page."
+wings: [time]
+periods: [period/pre-islamic-arabia]
+regions: [persia-central-asia]
+start:
+  edtf: "500"
+  precision: year
+  status: tradition
+  derived: true
+end:
+  edtf: "821"
+  precision: year
+  status: tradition
+  derived: true
+sources: [source/tarikh-al-tabari]
+external_ids:
+  wikidata: Q2655716
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; dynasty attested in Caucasian histories — entry not yet checked on the page"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-wave2
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }
