@@ -1,0 +1,23 @@
+id: event/battle-of-abukir-1801
+class: event
+kind: battle
+label: { ar: "معركة أبو قير الثانية", en: "Second Battle of Abukir" }
+summary:
+  ar: "بطاقة أولية لمعركة أبو قير الثانية سنة ١٨٠١م، إنزال البريطانيين الذين أنهوا الحملة الفرنسية على مصر؛ لم تُراجع مصادره على الصفحة بعد."
+  en: "Draft card for the Second Battle of Abukir in 1801, the British landing that ended the French campaign in Egypt; its sources are not yet checked on the page."
+wings: [time]
+periods: [period/colonial-era]
+regions: [egypt-nile]
+date:
+  start: { edtf: "1801", precision: year, status: tradition, derived: true }
+  end: { edtf: "1801", precision: year, status: tradition, derived: true }
+sources: [source/al-aalam]
+external_ids:
+  wikidata: Q2510511
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; battle attested in Egyptian histories — entry not yet checked on the page"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-wave2
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

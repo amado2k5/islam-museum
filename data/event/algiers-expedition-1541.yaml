@@ -1,0 +1,23 @@
+id: event/algiers-expedition-1541
+class: event
+kind: campaign
+label: { ar: "حملة الجزائر (١٥٤١)", en: "Algiers Expedition" }
+summary:
+  ar: "بطاقة أولية لحملة الجزائر سنة ١٥٤١م، الحملة التي قادها شارل كان وغرّقتها العاصفة أمام دفاع خير الدين؛ لم تُراجع مصادره على الصفحة بعد."
+  en: "Draft card for the Algiers expedition of 1541, Charles V's armada wrecked by the storm before Khayr al-Din's defence; its sources are not yet checked on the page."
+wings: [time]
+periods: [period/gunpowder-empires]
+regions: [maghreb]
+date:
+  start: { edtf: "1541", precision: year, status: tradition, derived: true }
+  end: { edtf: "1541", precision: year, status: tradition, derived: true }
+sources: [source/dawlat-uthmaniyya-salabi]
+external_ids:
+  wikidata: Q2502863
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; expedition attested in Mediterranean histories — entry not yet checked on the page"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-wave2
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

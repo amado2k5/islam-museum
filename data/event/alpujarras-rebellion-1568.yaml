@@ -1,0 +1,23 @@
+id: event/alpujarras-rebellion-1568
+class: event
+kind: revolt
+label: { ar: "ثورة البشرات", en: "Rebellion of the Alpujarras" }
+summary:
+  ar: "بطاقة أولية لثورة البشرات (الألبُجَرّات) من ١٥٦٨ إلى ١٥٧١م، انتفاضة موريسكيي غرناطة على فيلب الثاني بقيادة ابن أمية؛ لم تُراجع مصادره على الصفحة بعد."
+  en: "Draft card for the Alpujarras Rebellion of 1568–1571, the Morisco rising of Granada against Philip II under Aben Humeya; its sources are not yet checked on the page."
+wings: [time]
+periods: [period/gunpowder-empires]
+regions: [andalus-europe]
+date:
+  start: { edtf: "1568", precision: year, status: tradition, derived: true }
+  end: { edtf: "1571", precision: year, status: tradition, derived: true }
+sources: [source/tarikh-ibn-khaldun-ibar]
+external_ids:
+  wikidata: Q685757
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; revolt attested in Spanish histories — entry not yet checked on the page"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-wave2
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }
