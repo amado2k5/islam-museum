@@ -1,0 +1,23 @@
+id: event/battle-of-kuwayfia-1911
+class: event
+kind: battle
+label: { ar: "معركة الكويفية", en: "Battle of Kuwayfia" }
+summary:
+  ar: "بطاقة أولية لمعركة الكويفية سنة ١٩١١م، صد الليبيين والعثمانيين الإيطاليين قرب بنغازي؛ لم تُراجع مصادره على الصفحة بعد."
+  en: "Draft card for the Battle of Kuwayfia in 1911, the Libyan-Ottoman check on the Italians near Benghazi; its sources are not yet checked on the page."
+wings: [time]
+periods: [period/modern-era]
+regions: [maghreb]
+date:
+  start: { edtf: "1911-11-28", precision: year, status: tradition, derived: true }
+  end: { edtf: "1911-11-28", precision: year, status: tradition, derived: true }
+sources: [source/tarikh-islam-hasan-ibrahim]
+external_ids:
+  wikidata: Q25066662
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; battle attested in narrative histories — entry not yet checked on the page"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-wave2
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

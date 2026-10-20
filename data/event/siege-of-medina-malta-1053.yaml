@@ -1,0 +1,23 @@
+id: event/siege-of-medina-malta-1053
+class: event
+kind: siege
+label: { ar: "حصار مدينة مالطة (١٠٥٣)", en: "Siege of Medina, Malta" }
+summary:
+  ar: "بطاقة أولية لحصار مدينة مالطة سنة ١٠٥٣م، صد المسلمين هجوم البيزنطيين على الجزيرة؛ لم تُراجع مصادره على الصفحة بعد."
+  en: "Draft card for the Siege of Medina in 1053, the Muslims' repulse of the Byzantine attack on the island; its sources are not yet checked on the page."
+wings: [time]
+periods: [period/buyid-seljuk-fatimid-era]
+regions: [andalus-europe]
+date:
+  start: { edtf: "1053", precision: year, status: tradition, derived: true }
+  end: { edtf: "1053", precision: year, status: tradition, derived: true }
+sources: [source/tarikh-islam-hasan-ibrahim]
+external_ids:
+  wikidata: Q28216518
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; battle attested in narrative histories — entry not yet checked on the page"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-wave2
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }
