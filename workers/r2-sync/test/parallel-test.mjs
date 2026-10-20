@@ -32,8 +32,11 @@ const check = (ok, msg) => {
   console.log(`${ok ? "ok  " : "FAIL"} ${msg}`);
   if (!ok) failures.push(msg);
 };
+// --only-show-errors is not accepted by "aws s3 ls", so listings call aws directly.
 const aws = (...args) =>
   execFileSync("aws", [...args, "--endpoint-url", endpoint, "--only-show-errors"], { encoding: "utf8", maxBuffer: 512 * 1024 * 1024 });
+const awsList = (...args) =>
+  execFileSync("aws", [...args, "--endpoint-url", endpoint], { encoding: "utf8", maxBuffer: 512 * 1024 * 1024 });
 const sha = (bytes) => createHash("sha256").update(bytes).digest("hex");
 
 // 1. Build the operations and pack them into archives
@@ -108,7 +111,7 @@ const copied = results.reduce((n, r) => n + (r.report.summary?.copied ?? 0), 0);
 check(copied === FILES, `Worker reports ${copied} copies for ${FILES} files`);
 check(peak >= Math.min(PARALLEL, archives.length), `at least ${Math.min(PARALLEL, archives.length)} requests were in flight at once (peak ${peak})`);
 
-const listing = aws("s3", "ls", `s3://${bucket}/${PREFIX}`, "--recursive").trim().split("\n").filter(Boolean);
+const listing = awsList("s3", "ls", `s3://${bucket}/${PREFIX}`, "--recursive").trim().split("\n").filter(Boolean);
 check(listing.length === FILES, `bucket holds ${listing.length} of ${FILES} test files`);
 
 const sample = [...expected.keys()].filter((_, i) => i % 200 === 0);
@@ -122,7 +125,7 @@ check(sampleOk === sample.length, `content matches for ${sampleOk}/${sample.leng
 const status = await fetch(`${url}/status`, { headers: { authorization: `Bearer ${token}` } });
 check(status.status === 200, `GET /status answers HTTP ${status.status}`);
 
-const staged = aws("s3", "ls", `s3://${bucket}/${STAGING}`).split("\n").filter((l) => l.includes(runId));
+const staged = awsList("s3", "ls", `s3://${bucket}/${STAGING}`).split("\n").filter((l) => l.includes(runId));
 check(staged.length === 0, `no archives from this run left in ${STAGING} (${staged.length})`);
 
 // 5. Clean up this run's files
