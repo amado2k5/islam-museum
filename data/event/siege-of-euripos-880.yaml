@@ -1,0 +1,23 @@
+id: event/siege-of-euripos-880
+class: event
+kind: siege
+label: { ar: "حصار أوريبوس", en: "Siege of Euripos" }
+summary:
+  ar: "بطاقة أولية لحصار أوريبوس سنة ٨٨٠م، الهجوم العربي على المدينة البيزنطية في إيوبيا؛ لم تُراجع مصادره على الصفحة بعد."
+  en: "Draft card for the Siege of Euripos in 880, the Arab attack on the Byzantine city of Euboea; its sources are not yet checked on the page."
+wings: [time]
+periods: [period/abbasid-early]
+regions: [andalus-europe]
+date:
+  start: { edtf: "0880", precision: year, status: tradition, derived: true }
+  end: { edtf: "0880", precision: year, status: tradition, derived: true }
+sources: [source/kamil-ibn-al-athir]
+external_ids:
+  wikidata: Q22244762
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; battle attested in narrative histories — entry not yet checked on the page"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-wave2
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

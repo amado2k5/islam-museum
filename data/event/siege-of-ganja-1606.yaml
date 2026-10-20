@@ -1,0 +1,23 @@
+id: event/siege-of-ganja-1606
+class: event
+kind: siege
+label: { ar: "حصار كنجة", en: "Siege of Ganja" }
+summary:
+  ar: "بطاقة أولية لحصار كنجة سنة ١٦٠٦م، استرداد الشاه عباس الأول للمدينة من العثمانيين؛ لم تُراجع مصادره على الصفحة بعد."
+  en: "Draft card for the Siege of Ganja in 1606, Shah Abbas I's recapture of the city from the Ottomans; its sources are not yet checked on the page."
+wings: [time]
+periods: [period/gunpowder-empires]
+regions: [anatolia-balkans]
+date:
+  start: { edtf: "1606", precision: year, status: tradition, derived: true }
+  end: { edtf: "1606", precision: year, status: tradition, derived: true }
+sources: [source/dawlat-uthmaniyya-salabi]
+external_ids:
+  wikidata: Q20473264
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; battle attested in narrative histories — entry not yet checked on the page"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-wave2
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }
