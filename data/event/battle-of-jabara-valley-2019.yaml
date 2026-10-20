@@ -1,0 +1,23 @@
+id: event/battle-of-jabara-valley-2019
+class: event
+kind: battle
+label: { ar: "معركة وادي جبارة", en: "Battle of the Jabara Valley" }
+summary:
+  ar: "بطاقة أولية لمعركة وادي جبارة سنة ٢٠١٩م، قتال الإمارات والمجلس الانتقالي في شبوة؛ لم تُراجع مصادره على الصفحة بعد."
+  en: "Draft card for the Battle of the Jabara Valley in 2019, the UAE-STC fighting in Shabwa; its sources are not yet checked on the page."
+wings: [time]
+periods: [period/contemporary-era]
+regions: [arabia]
+date:
+  start: { edtf: "2019-08-26", precision: year, status: tradition, derived: true }
+  end: { edtf: "2019-08-29", precision: year, status: tradition, derived: true }
+sources: [source/tarikh-islam-hasan-ibrahim]
+external_ids:
+  wikidata: Q67184364
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; battle attested in narrative histories — entry not yet checked on the page"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-wave2
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

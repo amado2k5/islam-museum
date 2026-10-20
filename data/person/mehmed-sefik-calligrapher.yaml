@@ -1,0 +1,27 @@
+id: person/mehmed-sefik-calligrapher
+class: person
+label:
+  ar: "محمد شفيق"
+  en: "Mehmed Şefik"
+roles: [calligrapher]
+gender: male
+summary:
+  ar: "بطاقة أولية لمحمد شفيق، الخطاط العثماني في القرن التاسع عشر؛ لم تُراجع ترجمته على الصفحة بعد."
+  en: "Draft card for Mehmed Şefik, the nineteenth-century Ottoman calligrapher; his entry is not yet checked on the page."
+wings: [people]
+regions: [anatolia-balkans]
+periods: [period/colonial-era]
+born: { edtf: "1819", precision: year, status: tradition, derived: true }
+died: { edtf: "1880", precision: year, status: tradition, derived: true }
+sources: [source/al-aalam]
+external_ids:
+  wikidata: Q6666847
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; entry not yet read on the page in a book source"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-wave2
+status:
+  review: draft
+  completeness: 1

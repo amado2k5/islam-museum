@@ -1,0 +1,23 @@
+id: event/siege-of-coria-1138
+class: event
+kind: siege
+label: { ar: "حصار قورية (١١٣٨)", en: "Siege of Coria" }
+summary:
+  ar: "بطاقة أولية لحصار قورية الأول سنة ١١٣٨م، فشل ألفونسو السابع في أخذها من المرابطين؛ لم تُراجع مصادره على الصفحة بعد."
+  en: "Draft card for the first Siege of Coria in 1138, Alfonso VII's failed assault on the Almoravid town; its sources are not yet checked on the page."
+wings: [time]
+periods: [period/crusades-ayyubid-mamluk]
+regions: [andalus-europe]
+date:
+  start: { edtf: "1138-07", precision: year, status: tradition, derived: true }
+  end: { edtf: "1138-07", precision: year, status: tradition, derived: true }
+sources: [source/tarikh-islam-hasan-ibrahim]
+external_ids:
+  wikidata: Q7509947
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; battle attested in narrative histories — entry not yet checked on the page"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-wave2
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

@@ -1,0 +1,23 @@
+id: event/siege-of-the-acropolis-1821
+class: event
+kind: siege
+label: { ar: "حصار الأكروبوليس", en: "Siege of the Acropolis" }
+summary:
+  ar: "بطاقة أولية لحصار الأكروبوليس في ١٨٢١–١٨٢٢م، حصار اليونانيين الحامية العثمانية في الثورة؛ لم تُراجع مصادره على الصفحة بعد."
+  en: "Draft card for the Siege of the Acropolis in 1821–22, the Greek siege of the Ottoman garrison in the revolution; its sources are not yet checked on the page."
+wings: [time]
+periods: [period/colonial-era]
+regions: [anatolia-balkans]
+date:
+  start: { edtf: "1821-04-25", precision: year, status: tradition, derived: true }
+  end: { edtf: "1822-06-09", precision: year, status: tradition, derived: true }
+sources: [source/dawlat-uthmaniyya-salabi]
+external_ids:
+  wikidata: Q7510534
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; battle attested in narrative histories — entry not yet checked on the page"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-wave2
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }
