@@ -1,0 +1,23 @@
+id: event/battle-of-kandahar-2001
+class: event
+kind: battle
+label: { ar: "معركة قندهار (٢٠٠١)", en: "Battle of Kandahar" }
+summary:
+  ar: "بطاقة أولية لمعركة قندهار سنة ٢٠٠١م، سقوط معقل طالبان في الغزو الأمريكي؛ لم تُراجع مصادره على الصفحة بعد."
+  en: "Draft card for the Battle of Kandahar in 2001, the Taliban stronghold's fall in the American invasion; its sources are not yet checked on the page."
+wings: [time]
+periods: [period/contemporary-era]
+regions: [persia-central-asia]
+date:
+  start: { edtf: "2001-10-07", precision: year, status: tradition, derived: true }
+  end: { edtf: "2001-10-07", precision: year, status: tradition, derived: true }
+sources: [source/tarikh-islam-hasan-ibrahim]
+external_ids:
+  wikidata: Q4871376
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; battle attested in narrative histories — entry not yet checked on the page"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-wave2
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

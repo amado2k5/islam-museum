@@ -1,0 +1,23 @@
+id: event/battle-of-mandora-1801
+class: event
+kind: battle
+label: { ar: "معركة مندورة", en: "Battle of Mandora" }
+summary:
+  ar: "بطاقة أولية لمعركة مندورة سنة ١٨٠١م، فوز البريطانيين على الفرنسيين قرب الإسكندرية؛ لم تُراجع مصادره على الصفحة بعد."
+  en: "Draft card for the Battle of Mandora in 1801, the British victory over the French near Alexandria; its sources are not yet checked on the page."
+wings: [time]
+periods: [period/colonial-era]
+regions: [egypt-nile]
+date:
+  start: { edtf: "1801-03-13", precision: year, status: tradition, derived: true }
+  end: { edtf: "1801-03-13", precision: year, status: tradition, derived: true }
+sources: [source/tarikh-islam-hasan-ibrahim]
+external_ids:
+  wikidata: Q4871655
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; battle attested in narrative histories — entry not yet checked on the page"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-wave2
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

@@ -1,0 +1,23 @@
+id: event/battle-of-garibpur-1971
+class: event
+kind: battle
+label: { ar: "معركة غاريبور", en: "Battle of Garibpur" }
+summary:
+  ar: "بطاقة أولية لمعركة غاريبور سنة ١٩٧١م، فتح حرب بنغلاديش في القطاع الشرقي؛ لم تُراجع مصادره على الصفحة بعد."
+  en: "Draft card for the Battle of Garibpur in 1971, the Bangladesh war's opening clash in the eastern sector; its sources are not yet checked on the page."
+wings: [time]
+periods: [period/contemporary-era]
+regions: [south-asia]
+date:
+  start: { edtf: "1971-11-20", precision: year, status: tradition, derived: true }
+  end: { edtf: "1971-11-21", precision: year, status: tradition, derived: true }
+sources: [source/tarikh-islam-hasan-ibrahim]
+external_ids:
+  wikidata: Q4871079
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; battle attested in narrative histories — entry not yet checked on the page"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-wave2
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

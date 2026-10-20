@@ -1,0 +1,23 @@
+id: event/battle-of-nablus-1918
+class: event
+kind: battle
+label: { ar: "معركة نابلس (١٩١٨)", en: "Battle of Nablus" }
+summary:
+  ar: "بطاقة أولية لمعركة نابلس سنة ١٩١٨م، سقوط المدينة في حملة مجيدو؛ لم تُراجع مصادره على الصفحة بعد."
+  en: "Draft card for the Battle of Nablus in 1918, the city's fall in the Megiddo campaign; its sources are not yet checked on the page."
+wings: [time]
+periods: [period/modern-era]
+regions: [levant-iraq]
+date:
+  start: { edtf: "1918-09-19", precision: year, status: tradition, derived: true }
+  end: { edtf: "1918-09-25", precision: year, status: tradition, derived: true }
+sources: [source/tarikh-islam-hasan-ibrahim]
+external_ids:
+  wikidata: Q4871841
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; battle attested in narrative histories — entry not yet checked on the page"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-wave2
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

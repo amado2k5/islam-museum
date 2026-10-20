@@ -1,0 +1,23 @@
+id: event/battle-of-mughar-ridge-1917
+class: event
+kind: battle
+label: { ar: "معركة تل مغار", en: "Battle of Mughar Ridge" }
+summary:
+  ar: "بطاقة أولية لمعركة تل مغار سنة ١٩١٧م، كسر البريطانيين الخط العثماني في فلسطين؛ لم تُراجع مصادره على الصفحة بعد."
+  en: "Draft card for the Battle of Mughar Ridge in 1917, the British break of the Ottoman line in Palestine; its sources are not yet checked on the page."
+wings: [time]
+periods: [period/modern-era]
+regions: [levant-iraq]
+date:
+  start: { edtf: "1917-11-13", precision: year, status: tradition, derived: true }
+  end: { edtf: "1917-11-13", precision: year, status: tradition, derived: true }
+sources: [source/tarikh-islam-hasan-ibrahim]
+external_ids:
+  wikidata: Q4871819
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; battle attested in narrative histories — entry not yet checked on the page"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-wave2
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }
