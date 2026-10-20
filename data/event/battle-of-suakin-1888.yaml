@@ -1,0 +1,23 @@
+id: event/battle-of-suakin-1888
+class: event
+kind: battle
+label: { ar: "معركة سواكن (١٨٨٨)", en: "Battle of Suakin" }
+summary:
+  ar: "بطاقة أولية لمعركة سواكن سنة ١٨٨٨م، صد البريطانيين هجوم عثمان دقنة المهدي؛ لم تُراجع مصادره على الصفحة بعد."
+  en: "Draft card for the Battle of Suakin in 1888, the British repulse of Osman Digna's Mahdist attack; its sources are not yet checked on the page."
+wings: [time]
+periods: [period/colonial-era]
+regions: [east-africa]
+date:
+  start: { edtf: "1888-12-20", precision: year, status: tradition, derived: true }
+  end: { edtf: "1888-12-20", precision: year, status: tradition, derived: true }
+sources: [source/tarikh-islam-hasan-ibrahim]
+external_ids:
+  wikidata: Q4872453
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; battle attested in narrative histories — entry not yet checked on the page"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-wave2
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

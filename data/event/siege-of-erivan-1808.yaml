@@ -1,0 +1,23 @@
+id: event/siege-of-erivan-1808
+class: event
+kind: siege
+label: { ar: "حصار يريفان (١٨٠٨)", en: "Siege of Erivan" }
+summary:
+  ar: "بطاقة أولية لحصار يريفان سنة ١٨٠٨م، فشل الروس في أخذ الخانية القاجارية؛ لم تُراجع مصادره على الصفحة بعد."
+  en: "Draft card for the Siege of Erivan in 1808, the Russians' failure to take the Qajar khanate; its sources are not yet checked on the page."
+wings: [time]
+periods: [period/colonial-era]
+regions: [persia-central-asia]
+date:
+  start: { edtf: "1808-10", precision: year, status: tradition, derived: true }
+  end: { edtf: "1808-11", precision: year, status: tradition, derived: true }
+sources: [source/tarikh-islam-hasan-ibrahim]
+external_ids:
+  wikidata: Q48804713
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; battle attested in narrative histories — entry not yet checked on the page"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-wave2
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }
