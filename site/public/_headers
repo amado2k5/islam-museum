@@ -1,3 +1,8 @@
+# Link headers on the homepage for agent discovery (RFC 8288, RFC 9727 §3).
+
+/
+  Link: </.well-known/api-catalog>; rel="api-catalog", <https://islam.museum/openapi/v1.json>; rel="service-desc", <https://github.com/amado2k5/islam-museum/blob/main/docs/data/README.md>; rel="service-doc", </sitemap.xml>; rel="describedby"
+
 # API catalog for automated discovery (RFC 9727). Cloudflare Pages does not infer a
 # media type for an extensionless file, so the linkset type is set here.
 /.well-known/api-catalog
