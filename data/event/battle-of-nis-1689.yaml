@@ -1,0 +1,23 @@
+id: event/battle-of-nis-1689
+class: event
+kind: battle
+label: { ar: "معركة نيش (١٦٨٩)", en: "Battle of Niš" }
+summary:
+  ar: "بطاقة أولية لمعركة نيش سنة ١٦٨٩م، أخذ الإمبراطوريين للمدينة من العثمانيين في الحرب المقدسة؛ لم تُراجع مصادره على الصفحة بعد."
+  en: "Draft card for the Battle of Niš in 1689, the Imperial capture of the city from the Ottomans; its sources are not yet checked on the page."
+wings: [time]
+periods: [period/gunpowder-empires]
+regions: [anatolia-balkans]
+date:
+  start: { edtf: "1689", precision: year, status: tradition, derived: true }
+  end: { edtf: "1689", precision: year, status: tradition, derived: true }
+sources: [source/dawlat-uthmaniyya-salabi]
+external_ids:
+  wikidata: Q4438417
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; battle attested in narrative histories — entry not yet checked on the page"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-wave2
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

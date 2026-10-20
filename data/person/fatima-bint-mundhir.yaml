@@ -1,0 +1,27 @@
+id: person/fatima-bint-mundhir
+class: person
+label:
+  ar: "فاطمة بنت المنذر"
+  en: "Fatima bint Mundhir"
+roles: [muhaddith]
+gender: male
+summary:
+  ar: "بطاقة أولية لفاطمة بنت المنذر بن الزبير، المحدثة المدنية التابعية؛ لم تُراجع ترجمتها على الصفحة بعد."
+  en: "Draft card for Fatima bint Mundhir ibn al-Zubayr, the Medinan successor and hadith transmitter; her entry is not yet checked on the page."
+wings: [people]
+regions: [arabia]
+periods: [period/umayyad]
+born: { edtf: "0668~", precision: decade, status: tradition, derived: true }
+died: { edtf: "0729~", precision: decade, status: tradition, derived: true }
+sources: [source/al-aalam]
+external_ids:
+  wikidata: Q54861810
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; entry not yet read on the page in a book source"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-wave2
+status:
+  review: draft
+  completeness: 1

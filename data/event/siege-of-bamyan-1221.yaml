@@ -1,0 +1,23 @@
+id: event/siege-of-bamyan-1221
+class: event
+kind: siege
+label: { ar: "حصار باميان (١٢٢١)", en: "Siege of Bamyan" }
+summary:
+  ar: "بطاقة أولية لحصار باميان سنة ١٢٢١م، تدمير جنكيز خان للمدينة بعد مصرع حفيده؛ لم تُراجع مصادره على الصفحة بعد."
+  en: "Draft card for the Siege of Bamyan in 1221, Chinggis Khan's destruction of the city after his grandson's death; its sources are not yet checked on the page."
+wings: [time]
+periods: [period/crusades-ayyubid-mamluk]
+regions: [persia-central-asia]
+date:
+  start: { edtf: "1221", precision: year, status: tradition, derived: true }
+  end: { edtf: "1221", precision: year, status: tradition, derived: true }
+sources: [source/tarikh-islam-hasan-ibrahim]
+external_ids:
+  wikidata: Q4548218
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; battle attested in narrative histories — entry not yet checked on the page"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-wave2
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

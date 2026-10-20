@@ -1,0 +1,23 @@
+id: event/khiva-campaign-1873
+class: event
+kind: battle
+label: { ar: "حملة خيوة (١٨٧٣)", en: "Khiva Campaign" }
+summary:
+  ar: "بطاقة أولية لحملة خيوة سنة ١٨٧٣م، إخضاع روسيا لخانية خيوة؛ لم تُراجع مصادره على الصفحة بعد."
+  en: "Draft card for the Khiva campaign of 1873, Russia's subjugation of the khanate; its sources are not yet checked on the page."
+wings: [time]
+periods: [period/colonial-era]
+regions: [persia-central-asia]
+date:
+  start: { edtf: "1873", precision: year, status: tradition, derived: true }
+  end: { edtf: "1873", precision: year, status: tradition, derived: true }
+sources: [source/tarikh-islam-hasan-ibrahim]
+external_ids:
+  wikidata: Q4497452
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; battle attested in narrative histories — entry not yet checked on the page"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-wave2
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }
