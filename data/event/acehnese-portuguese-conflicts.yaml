@@ -1,0 +1,23 @@
+id: event/acehnese-portuguese-conflicts
+class: event
+kind: war
+label: { ar: "الصراعات الأتشية البرتغالية", en: "Acehnese–Portuguese Conflicts" }
+summary:
+  ar: "بطاقة أولية للصراعات الأتشية البرتغالية في ١٥١٩–١٦٣٩م، حروب سلطنة أتشيه ضد البرتغال؛ لم تُراجع مصادره على الصفحة بعد."
+  en: "Draft card for the Acehnese–Portuguese conflicts of 1519–1639, the Aceh sultanate's wars against Portugal; its sources are not yet checked on the page."
+wings: [time]
+periods: [period/gunpowder-empires]
+regions: [southeast-asia]
+date:
+  start: { edtf: "1519", precision: year, status: tradition, derived: true }
+  end: { edtf: "1639", precision: year, status: tradition, derived: true }
+sources: [source/tarikh-islam-hasan-ibrahim]
+external_ids:
+  wikidata: Q97348258
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; battle attested in narrative histories — entry not yet checked on the page"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-wave2
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }
