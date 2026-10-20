@@ -1,0 +1,23 @@
+id: event/siege-of-eger-1552
+class: event
+kind: siege
+label: { ar: "حصار إيغر (١٥٥٢)", en: "Siege of Eger" }
+summary:
+  ar: "بطاقة أولية لحصار إيغر سنة ١٥٥٢م، صمود القلعة المجرية أمام الحملة العثمانية؛ لم تُراجع مصادره على الصفحة بعد."
+  en: "Draft card for the Siege of Eger in 1552, the Hungarian castle's stand against the Ottoman campaign; its sources are not yet checked on the page."
+wings: [time]
+periods: [period/gunpowder-empires]
+regions: [anatolia-balkans]
+date:
+  start: { edtf: "1552", precision: year, status: tradition, derived: true }
+  end: { edtf: "1552", precision: year, status: tradition, derived: true }
+sources: [source/dawlat-uthmaniyya-salabi]
+external_ids:
+  wikidata: Q3321519
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; siege attested in Ottoman-Hungarian histories — entry not yet checked on the page"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-wave2
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

@@ -1,0 +1,23 @@
+id: event/battle-of-indus-1221
+class: event
+kind: battle
+label: { ar: "معركة السند", en: "Battle of the Indus" }
+summary:
+  ar: "بطاقة أولية لمعركة السند سنة ١٢٢١م، نصر جنكيز خان على جلال الدين الخوارزمي عند نهر السند؛ لم تُراجع مصادره على الصفحة بعد."
+  en: "Draft card for the Battle of the Indus in 1221, Chinggis Khan's victory over Jalal al-Din Khwarazmshah on the river Indus; its sources are not yet checked on the page."
+wings: [time]
+periods: [period/mongol-post-mongol]
+regions: [south-asia]
+date:
+  start: { edtf: "1221", precision: year, status: tradition, derived: true }
+  end: { edtf: "1221", precision: year, status: tradition, derived: true }
+sources: [source/kamil-ibn-al-athir]
+external_ids:
+  wikidata: Q3269760
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; battle attested in Mongol-invasion histories — entry not yet checked on the page"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-wave2
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

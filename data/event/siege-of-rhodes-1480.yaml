@@ -1,0 +1,23 @@
+id: event/siege-of-rhodes-1480
+class: event
+kind: siege
+label: { ar: "حصار رودس (١٤٨٠)", en: "Siege of Rhodes" }
+summary:
+  ar: "بطاقة أولية لحصار رودس سنة ١٤٨٠م، الحملة العثمانية التي ردها فرسان الاستشفار؛ لم تُراجع مصادره على الصفحة بعد."
+  en: "Draft card for the Siege of Rhodes in 1480, the Ottoman expedition repelled by the Knights Hospitaller; its sources are not yet checked on the page."
+wings: [time]
+periods: [period/crusades-ayyubid-mamluk]
+regions: [anatolia-balkans]
+date:
+  start: { edtf: "1480", precision: year, status: tradition, derived: true }
+  end: { edtf: "1480", precision: year, status: tradition, derived: true }
+sources: [source/dawlat-uthmaniyya-salabi]
+external_ids:
+  wikidata: Q701067
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; siege attested in Ottoman histories — entry not yet checked on the page"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-wave2
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

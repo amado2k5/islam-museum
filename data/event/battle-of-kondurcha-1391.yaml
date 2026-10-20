@@ -1,0 +1,23 @@
+id: event/battle-of-kondurcha-1391
+class: event
+kind: battle
+label: { ar: "معركة نهر كوندورشا", en: "Battle of the Kondurcha River" }
+summary:
+  ar: "بطاقة أولية لمعركة نهر كوندورشا سنة ١٣٩١م، أول هزيمة كبرى ألحقها تيمور بخان القبيل الذهبي تختامش؛ لم تُراجع مصادره على الصفحة بعد."
+  en: "Draft card for the Battle of the Kondurcha River in 1391, Timur's first great defeat of Tokhtamysh of the Golden Horde; its sources are not yet checked on the page."
+wings: [time]
+periods: [period/mongol-post-mongol]
+regions: [persia-central-asia]
+date:
+  start: { edtf: "1391", precision: year, status: tradition, derived: true }
+  end: { edtf: "1391", precision: year, status: tradition, derived: true }
+sources: [source/tarikh-ibn-khaldun-ibar]
+external_ids:
+  wikidata: Q1085253
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; battle attested in Timurid histories — entry not yet checked on the page"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-wave2
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

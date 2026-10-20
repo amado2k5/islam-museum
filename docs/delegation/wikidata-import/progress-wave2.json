@@ -1,4553 +1,5065 @@
 {
- "task": "wikidata-import-wave2",
- "candidates_total": 26951,
- "candidates_file": "/Volumes/exmicroSD/islam-museum-harvest/wikidata-import/candidates-wave2.tsv",
- "candidates_query": "P31 in (mosque,turbe,mausoleum,madrasa,tomb,shrine,tekke,khaneqah,palace,fort,hammam,minaret,dynasty,tribe,madhhab,battle,siege,war,military-op,rebellion,conflict,works) OR P106 in (faqih,ulema,muhaddith,theologian,calligrapher,religious leader,caliph,sultan,vizier,sufi) OR P101 in (fiqh,hadith,tafsir,kalam,sufism,islam) OR P39 in (grand vizier,caliph,sultan,vizier) — minus wave-1 decided/linked",
- "created_ids": [
-  {
-   "i": 66,
-   "qid": "Q51884",
-   "id": "person/yuhanna-al-dimashqi"
-  },
-  {
-   "i": 68,
-   "qid": "Q170495",
-   "id": "building/topkapi-palace"
-  },
-  {
-   "i": 83,
-   "qid": "Q191057",
-   "id": "group/salafiyya"
-  },
-  {
-   "i": 92,
-   "qid": "Q189648",
-   "id": "building/humayun-tomb"
-  },
-  {
-   "i": 105,
-   "qid": "Q200855",
-   "id": "event/siege-vienna-1094"
-  },
-  {
-   "i": 131,
-   "qid": "Q193383",
-   "id": "group/al-uthman"
-  },
-  {
-   "i": 133,
-   "qid": "Q210610",
-   "id": "building/golestan-palace"
-  },
-  {
-   "i": 136,
-   "qid": "Q31711",
-   "id": "group/al-saud"
-  },
-  {
-   "i": 140,
-   "qid": "Q312952",
-   "id": "person/mirza-ghulam-ahmad-al-qadiani"
-  },
-  {
-   "i": 143,
-   "qid": "Q887684",
-   "id": "event/conquest-of-persia"
-  },
-  {
-   "i": 147,
-   "qid": "Q207600",
-   "id": "polity/aghlabid-emirate"
-  },
-  {
-   "i": 149,
-   "qid": "Q239060",
-   "id": "event/arab-revolt-1334"
-  },
-  {
-   "i": 156,
-   "qid": "Q58732",
-   "id": "event/siege-of-malta-1565"
-  },
-  {
-   "i": 164,
-   "qid": "Q4437641",
-   "id": "group/banu-abbas"
-  },
-  {
-   "i": 169,
-   "qid": "Q274141",
-   "id": "building/dolmabahce-palace"
-  },
-  {
-   "i": 180,
-   "qid": "Q1771696",
-   "id": "building/charminar"
-  },
-  {
-   "i": 186,
-   "qid": "Q373981",
-   "id": "polity/tahirid-dynasty"
-  },
-  {
-   "i": 187,
-   "qid": "Q4706020",
-   "id": "building/alamut-castle"
-  },
-  {
-   "i": 194,
-   "qid": "Q338889",
-   "id": "building/shirvanshah-palace"
-  },
-  {
-   "i": 198,
-   "qid": "Q643098",
-   "id": "building/masjid-al-shah-isfahan"
-  },
-  {
-   "i": 200,
-   "qid": "Q1481968",
-   "id": "building/jami-halab-al-kabir"
-  },
-  {
-   "i": 208,
-   "qid": "Q1455917",
-   "id": "event/conquest-of-hispania"
-  },
-  {
-   "i": 210,
-   "qid": "Q388739",
-   "id": "polity/afsharid-dynasty"
-  },
-  {
-   "i": 211,
-   "qid": "Q46069",
-   "id": "building/mazar-ahmad-yasawi"
-  },
-  {
-   "i": 213,
-   "qid": "Q492415",
-   "id": "event/battle-of-talas-133"
-  },
-  {
-   "i": 214,
-   "qid": "Q525811",
-   "id": "building/generalife"
-  },
-  {
-   "i": 215,
-   "qid": "Q605321",
-   "id": "event/battle-of-panipat-932"
-  },
-  {
-   "i": 217,
-   "qid": "Q847420",
-   "id": "polity/mamluk-dynasty-delhi"
-  },
-  {
-   "i": 225,
-   "qid": "Q498261",
-   "id": "building/alcazar-seville"
-  },
-  {
-   "i": 234,
-   "qid": "Q332543",
-   "id": "event/battle-of-the-pyramids-1213"
-  },
-  {
-   "i": 235,
-   "qid": "Q381830",
-   "id": "person/muhammad-ibn-tughluq"
-  },
-  {
-   "i": 242,
-   "qid": "Q1962312",
-   "id": "building/nasir-al-mulk-mosque-shiraz"
-  },
-  {
-   "i": 243,
-   "qid": "Q2092093",
-   "id": "event/mongol-invasions"
-  },
-  {
-   "i": 244,
-   "qid": "Q244980",
-   "id": "event/siege-of-belgrade-1456"
-  },
-  {
-   "i": 251,
-   "qid": "Q957186",
-   "id": "event/battle-of-covadonga"
-  },
-  {
-   "i": 252,
-   "qid": "Q1124402",
-   "id": "polity/tughlaq-dynasty"
-  },
-  {
-   "i": 253,
-   "qid": "Q1129036",
-   "id": "polity/alawi-dynasty-morocco"
-  },
-  {
-   "i": 255,
-   "qid": "Q11709",
-   "id": "polity/lodi-dynasty"
-  },
-  {
-   "i": 267,
-   "qid": "Q919071",
-   "id": "polity/khalji-dynasty"
-  },
-  {
-   "i": 285,
-   "qid": "Q13527812",
-   "id": "polity/achaemenid-empire"
-  },
-  {
-   "i": 293,
-   "qid": "Q31944",
-   "id": "event/mahdist-war"
-  },
-  {
-   "i": 294,
-   "qid": "Q4243",
-   "id": "building/khaneqah-sheikh-safi-ardabil"
-  },
-  {
-   "i": 302,
-   "qid": "Q743881",
-   "id": "building/bakhchysarai-palace"
-  },
-  {
-   "i": 311,
-   "qid": "Q606763",
-   "id": "building/gonbad-e-qabus"
-  },
-  {
-   "i": 313,
-   "qid": "Q657055",
-   "id": "event/greco-turkish-war-1897"
-  },
-  {
-   "i": 317,
-   "qid": "Q970799",
-   "id": "polity/wattasid-dynasty"
-  },
-  {
-   "i": 323,
-   "qid": "Q2366025",
-   "id": "group/deobandiyya"
-  },
-  {
-   "i": 330,
-   "qid": "Q766437",
-   "id": "event/rif-war"
-  },
-  {
-   "i": 331,
-   "qid": "Q829104",
-   "id": "event/russo-turkish-war-1686"
-  },
-  {
-   "i": 333,
-   "qid": "Q123210",
-   "id": "event/russo-turkish-war-1787"
-  },
-  {
-   "i": 337,
-   "qid": "Q368689",
-   "id": "event/first-serbian-uprising"
-  },
-  {
-   "i": 340,
-   "qid": "Q630259",
-   "id": "event/byzantine-ottoman-wars"
-  },
-  {
-   "i": 341,
-   "qid": "Q6579646",
-   "id": "work/mathnawi-rumi"
-  },
-  {
-   "i": 342,
-   "qid": "Q847287",
-   "id": "event/battle-of-montgisard-573"
-  },
-  {
-   "i": 348,
-   "qid": "Q142913",
-   "id": "polity/muhammad-ali-dynasty"
-  },
-  {
-   "i": 349,
-   "qid": "Q2326099",
-   "id": "event/byzantine-sasanian-war-602"
-  },
-  {
-   "i": 361,
-   "qid": "Q827472",
-   "id": "event/battle-of-ascalon-492"
-  },
-  {
-   "i": 365,
-   "qid": "Q939570",
-   "id": "event/battle-of-maritsa-1371"
-  },
-  {
-   "i": 368,
-   "qid": "Q248984",
-   "id": "event/conquest-of-the-levant"
-  },
-  {
-   "i": 370,
-   "qid": "Q46057",
-   "id": "event/palestine-arab-revolt-1936"
-  },
-  {
-   "i": 372,
-   "qid": "Q517486",
-   "id": "event/battle-of-zenta-1697"
-  },
-  {
-   "i": 377,
-   "qid": "Q690361",
-   "id": "event/ottoman-habsburg-long-war"
-  },
-  {
-   "i": 378,
-   "qid": "Q699602",
-   "id": "event/cretan-war-1645"
-  },
-  {
-   "i": 381,
-   "qid": "Q940026",
-   "id": "event/battle-of-arsuf-587"
-  },
-  {
-   "i": 382,
-   "qid": "Q940123",
-   "id": "polity/rustamid-imamate"
-  },
-  {
-   "i": 386,
-   "qid": "Q12428",
-   "id": "event/battle-of-dorylaeum-490"
-  },
-  {
-   "i": 387,
-   "qid": "Q1906014",
-   "id": "work/baburnama"
-  },
-  {
-   "i": 392,
-   "qid": "Q373650",
-   "id": "polity/sur-empire"
-  },
-  {
-   "i": 395,
-   "qid": "Q61964",
-   "id": "person/kayqubad-i"
-  },
-  {
-   "i": 396,
-   "qid": "Q642117",
-   "id": "event/siege-of-nicaea-1097"
-  },
-  {
-   "i": 219,
-   "qid": "Q123070",
-   "id": "event/russo-turkish-war-1768"
-  },
-  {
-   "i": 232,
-   "qid": "Q209312",
-   "id": "event/russo-turkish-war-1806"
-  },
-  {
-   "i": 245,
-   "qid": "Q287942",
-   "id": "event/russo-turkish-war-1828"
-  },
-  {
-   "i": 262,
-   "qid": "Q638587",
-   "id": "event/russo-turkish-war-1735"
-  },
-  {
-   "i": 297,
-   "qid": "Q631799",
-   "id": "event/russo-turkish-war-1568"
-  },
-  {
-   "i": 400,
-   "qid": "Q690470",
-   "id": "event/battle-of-mohacs-1687"
-  },
-  {
-   "i": 402,
-   "qid": "Q755966",
-   "id": "event/battle-of-nineveh-627"
-  },
-  {
-   "i": 409,
-   "qid": "Q1509619",
-   "id": "event/battle-of-bapheus-1302"
-  },
-  {
-   "i": 410,
-   "qid": "Q1519733",
-   "id": "building/masjid-kabud-tabriz"
-  },
-  {
-   "i": 411,
-   "qid": "Q15955102",
-   "id": "group/al-sasan"
-  },
-  {
-   "i": 413,
-   "qid": "Q2352054",
-   "id": "building/wazir-khan-mosque-lahore"
-  },
-  {
-   "i": 415,
-   "qid": "Q392835",
-   "id": "person/shah-waliullah-al-dahlawi"
-  },
-  {
-   "i": 418,
-   "qid": "Q606621",
-   "id": "event/siege-of-szigetvar-1566"
-  },
-  {
-   "i": 419,
-   "qid": "Q741545",
-   "id": "person/muin-al-din-al-jishti"
-  },
-  {
-   "i": 420,
-   "qid": "Q790052",
-   "id": "building/banya-bashi-mosque-sofia"
-  },
-  {
-   "i": 421,
-   "qid": "Q815116",
-   "id": "event/siege-of-acre-1189"
-  },
-  {
-   "i": 422,
-   "qid": "Q838159",
-   "id": "concept/turba"
-  },
-  {
-   "i": 424,
-   "qid": "Q90801",
-   "id": "building/rumeli-hisari"
-  },
-  {
-   "i": 427,
-   "qid": "Q1121532",
-   "id": "event/battle-of-wadi-al-makhazin-1578"
-  },
-  {
-   "i": 429,
-   "qid": "Q1354033",
-   "id": "building/qasr-al-jafariyya"
-  },
-  {
-   "i": 431,
-   "qid": "Q16566",
-   "id": "building/chehel-sotun"
-  },
-  {
-   "i": 434,
-   "qid": "Q243585",
-   "id": "event/second-serbian-uprising"
-  },
-  {
-   "i": 435,
-   "qid": "Q248786",
-   "id": "polity/bahri-dynasty"
-  },
-  {
-   "i": 436,
-   "qid": "Q255221",
-   "id": "person/tahira-qurrat-al-ayn"
-  },
-  {
-   "i": 437,
-   "qid": "Q273225",
-   "id": "building/ciragan-palace"
-  },
-  {
-   "i": 440,
-   "qid": "Q3769089",
-   "id": "event/second-fitna"
-  },
-  {
-   "i": 443,
-   "qid": "Q558486",
-   "id": "person/baba-tahir-uryan"
-  },
-  {
-   "i": 447,
-   "qid": "Q6542740",
-   "id": "event/austro-turkish-war-1788"
-  },
-  {
-   "i": 451,
-   "qid": "Q911734",
-   "id": "building/yildiz-palace"
-  },
-  {
-   "i": 452,
-   "qid": "Q925960",
-   "id": "event/conquest-of-the-maghreb"
-  },
-  {
-   "i": 453,
-   "qid": "Q961430",
-   "id": "event/ottoman-venetian-war-1570"
-  },
-  {
-   "i": 456,
-   "qid": "Q1418582",
-   "id": "event/russo-persian-war-1722"
-  },
-  {
-   "i": 458,
-   "qid": "Q170113",
-   "id": "event/battle-of-saint-gotthard-1664"
-  },
-  {
-   "i": 460,
-   "qid": "Q192295",
-   "id": "building/gol-gumbaz"
-  },
-  {
-   "i": 464,
-   "qid": "Q307132",
-   "id": "person/abd-al-aziz-al-alawi"
-  },
-  {
-   "i": 466,
-   "qid": "Q312268",
-   "id": "event/siege-of-constantinople-626"
-  },
-  {
-   "i": 472,
-   "qid": "Q762732",
-   "id": "event/battle-of-sardarabad-1918"
-  },
-  {
-   "i": 474,
-   "qid": "Q794349",
-   "id": "building/beylerbeyi-palace"
-  },
-  {
-   "i": 475,
-   "qid": "Q856361",
-   "id": "polity/shaybanid-dynasty"
-  },
-  {
-   "i": 476,
-   "qid": "Q913604",
-   "id": "event/battle-of-alma-1854"
-  },
-  {
-   "i": 477,
-   "qid": "Q1158126",
-   "id": "group/al-khalifa"
-  },
-  {
-   "i": 482,
-   "qid": "Q1973736",
-   "id": "building/mukhtarov-mosque"
-  },
-  {
-   "i": 483,
-   "qid": "Q2353443",
-   "id": "group/giray-dynasty"
-  },
-  {
-   "i": 488,
-   "qid": "Q380726",
-   "id": "person/rida-abbasi"
-  },
-  {
-   "i": 494,
-   "qid": "Q603549",
-   "id": "event/battle-of-nahavand-21"
-  },
-  {
-   "i": 497,
-   "qid": "Q815154",
-   "id": "event/siege-of-jerusalem-15"
-  },
-  {
-   "i": 499,
-   "qid": "Q815216",
-   "id": "event/siege-of-sevastopol-1854"
-  },
-  {
-   "i": 504,
-   "qid": "Q136344",
-   "id": "event/battle-of-kose-dag-641"
-  },
-  {
-   "i": 510,
-   "qid": "Q206231",
-   "id": "building/qalat-halab"
-  },
-  {
-   "i": 513,
-   "qid": "Q375624",
-   "id": "building/mazar-safdarjang"
-  },
-  {
-   "i": 514,
-   "qid": "Q431177",
-   "id": "event/mongol-invasion-of-khwarazm"
-  },
-  {
-   "i": 517,
-   "qid": "Q490898",
-   "id": "building/larabanga-mosque"
-  },
-  {
-   "i": 522,
-   "qid": "Q694835",
-   "id": "event/ottoman-venetian-war-1714"
-  },
-  {
-   "i": 524,
-   "qid": "Q778800",
-   "id": "event/battle-of-abukir-1799"
-  },
-  {
-   "i": 526,
-   "qid": "Q856259",
-   "id": "building/bibi-ka-maqbara"
-  },
-  {
-   "i": 529,
-   "qid": "Q1137302",
-   "id": "event/battle-of-omdurman-1898"
-  },
-  {
-   "i": 531,
-   "qid": "Q1192616",
-   "id": "event/battle-of-didgori-1121"
-  },
-  {
-   "i": 534,
-   "qid": "Q14932665",
-   "id": "group/al-fatimiyun"
-  },
-  {
-   "i": 538,
-   "qid": "Q1809288",
-   "id": "event/ottoman-saudi-war-1811"
-  },
-  {
-   "i": 539,
-   "qid": "Q2258726",
-   "id": "event/herzegovina-uprising-1875"
-  },
-  {
-   "i": 541,
-   "qid": "Q3432153",
-   "id": "polity/sajid-dynasty"
-  },
-  {
-   "i": 544,
-   "qid": "Q652320",
-   "id": "event/battle-of-toulouse-721"
-  },
-  {
-   "i": 545,
-   "qid": "Q694379",
-   "id": "event/battle-of-krbava-field-1493"
-  },
-  {
-   "i": 546,
-   "qid": "Q700841",
-   "id": "event/ottoman-safavid-war-1532"
-  },
-  {
-   "i": 553,
-   "qid": "Q759988",
-   "id": "event/zanj-rebellion"
-  },
-  {
-   "i": 554,
-   "qid": "Q1263379",
-   "id": "group/al-alawiyun"
-  },
-  {
-   "i": 562,
-   "qid": "Q2309898",
-   "id": "event/battle-of-karansebes-1788"
-  },
-  {
-   "i": 563,
-   "qid": "Q2383104",
-   "id": "work/tawrat"
-  },
-  {
-   "i": 564,
-   "qid": "Q2422313",
-   "id": "person/yahya"
-  },
-  {
-   "i": 565,
-   "qid": "Q2502270",
-   "id": "group/al-thani"
-  },
-  {
-   "i": 568,
-   "qid": "Q345427",
-   "id": "group/qawm-ad"
-  },
-  {
-   "i": 571,
-   "qid": "Q471167",
-   "id": "person/montgomery-watt"
-  },
-  {
-   "i": 575,
-   "qid": "Q535542",
-   "id": "event/conquest-of-belgrade-1521"
-  },
-  {
-   "i": 583,
-   "qid": "Q902222",
-   "id": "building/darul-aman-palace"
-  },
-  {
-   "i": 592,
-   "qid": "Q1436196",
-   "id": "group/qabilat-afshar"
-  },
-  {
-   "i": 594,
-   "qid": "Q1681449",
-   "id": "building/jamkaran-mosque"
-  },
-  {
-   "i": 595,
-   "qid": "Q1957722",
-   "id": "building/shah-chiragh-shiraz"
-  },
-  {
-   "i": 596,
-   "qid": "Q2309409",
-   "id": "event/morean-war-1684"
-  },
-  {
-   "i": 598,
-   "qid": "Q2429287",
-   "id": "building/ali-qapu"
-  },
-  {
-   "i": 600,
-   "qid": "Q26799687",
-   "id": "event/austro-turkish-war-1716"
-  },
-  {
-   "i": 606,
-   "qid": "Q3849563",
-   "id": "event/khwarezmian-sack-of-jerusalem-1244"
-  },
-  {
-   "i": 608,
-   "qid": "Q4338038",
-   "id": "event/ottoman-mamluk-war-1516"
-  },
-  {
-   "i": 609,
-   "qid": "Q467015",
-   "id": "person/henry-corbin"
-  },
-  {
-   "i": 611,
-   "qid": "Q639827",
-   "id": "event/conquest-of-damascus-13"
-  },
-  {
-   "i": 614,
-   "qid": "Q700886",
-   "id": "event/siege-of-constantinople-1422"
-  },
-  {
-   "i": 615,
-   "qid": "Q74298",
-   "id": "event/polish-ottoman-war-1672"
-  },
-  {
-   "i": 625,
-   "qid": "Q1314130",
-   "id": "building/hasht-behesht"
-  },
-  {
-   "i": 626,
-   "qid": "Q1318766",
-   "id": "building/itimad-ud-daulah-tomb"
-  },
-  {
-   "i": 634,
-   "qid": "Q1540737",
-   "id": "event/hispano-moroccan-war-1859"
-  },
-  {
-   "i": 637,
-   "qid": "Q1678536",
-   "id": "building/jahangir-tomb"
-  },
-  {
-   "i": 644,
-   "qid": "Q2426040",
-   "id": "event/conquest-of-thessalonica-1430"
-  },
-  {
-   "i": 645,
-   "qid": "Q249934",
-   "id": "polity/burji-dynasty"
-  },
-  {
-   "i": 646,
-   "qid": "Q2568851",
-   "id": "event/battle-of-baku-1918"
-  },
-  {
-   "i": 647,
-   "qid": "Q2584439",
-   "id": "event/first-egyptian-ottoman-war"
-  },
-  {
-   "i": 649,
-   "qid": "Q291639",
-   "id": "group/al-sabah"
-  },
-  {
-   "i": 651,
-   "qid": "Q3431885",
-   "id": "polity/sallarid-dynasty"
-  },
-  {
-   "i": 653,
-   "qid": "Q401411",
-   "id": "person/ahmad-mukhtar-pasha"
-  },
-  {
-   "i": 661,
-   "qid": "Q690391",
-   "id": "event/battle-of-petrovaradin-1716"
-  },
-  {
-   "i": 664,
-   "qid": "Q860981",
-   "id": "event/battle-of-khotyn-1621"
-  },
-  {
-   "i": 670,
-   "qid": "Q1153331",
-   "id": "event/ottoman-venetian-war-1499"
-  },
-  {
-   "i": 672,
-   "qid": "Q128996",
-   "id": "event/battle-of-akroinon-740"
-  },
-  {
-   "i": 676,
-   "qid": "Q1378270",
-   "id": "event/battle-of-jerusalem-1917"
-  },
-  {
-   "i": 677,
-   "qid": "Q1473825",
-   "id": "building/palazzo-dei-normanni"
-  },
-  {
-   "i": 680,
-   "qid": "Q2045508",
-   "id": "event/java-war-1825"
-  },
-  {
-   "i": 681,
-   "qid": "Q2083368",
-   "id": "event/siege-of-edessa-1144"
-  },
-  {
-   "i": 683,
-   "qid": "Q2279688",
-   "id": "building/masjid-al-husayn-cairo"
-  },
-  {
-   "i": 685,
-   "qid": "Q29660",
-   "id": "building/al-madrasa-al-bu-inaniyya-fas"
-  },
-  {
-   "i": 688,
-   "qid": "Q3621258",
-   "id": "event/conquest-of-armenia"
-  },
-  {
-   "i": 689,
-   "qid": "Q382967",
-   "id": "event/siege-of-damascus-1148"
-  },
-  {
-   "i": 695,
-   "qid": "Q690481",
-   "id": "event/battle-of-slankamen-1691"
-  },
-  {
-   "i": 698,
-   "qid": "Q770536",
-   "id": "event/battle-of-inkerman-1854"
-  },
-  {
-   "i": 701,
-   "qid": "Q879855",
-   "id": "group/al-bu-said"
-  },
-  {
-   "i": 703,
-   "qid": "Q960395",
-   "id": "polity/shaddadid-dynasty"
-  },
-  {
-   "i": 705,
-   "qid": "Q1070201",
-   "id": "building/cheraman-juma-masjid"
-  },
-  {
-   "i": 706,
-   "qid": "Q1099263",
-   "id": "event/conquest-of-bursa-1326"
-  },
-  {
-   "i": 707,
-   "qid": "Q1138460",
-   "id": "event/battle-of-annual-1921"
-  },
-  {
-   "i": 709,
-   "qid": "Q1362188",
-   "id": "event/battle-of-talikota-1565"
-  },
-  {
-   "i": 710,
-   "qid": "Q1433670",
-   "id": "group/qabilat-durrani"
-  },
-  {
-   "i": 714,
-   "qid": "Q185938",
-   "id": "person/al-hajj-umar-tal"
-  },
-  {
-   "i": 717,
-   "qid": "Q2115869",
-   "id": "building/govhar-agha-mosque-shusha"
-  },
-  {
-   "i": 718,
-   "qid": "Q212110",
-   "id": "building/haram-fatima-masuma-qum"
-  },
-  {
-   "i": 719,
-   "qid": "Q2234632",
-   "id": "event/battle-of-rymnik-1789"
-  },
-  {
-   "i": 722,
-   "qid": "Q233663",
-   "id": "event/second-anglo-mysore-war"
-  },
-  {
-   "i": 727,
-   "qid": "Q2503775",
-   "id": "event/sack-of-maarrat-al-numan-491"
-  },
-  {
-   "i": 728,
-   "qid": "Q258679",
-   "id": "event/austro-turkish-war-1663"
-  },
-  {
-   "i": 729,
-   "qid": "Q2600326",
-   "id": "event/second-egyptian-ottoman-war"
-  },
-  {
-   "i": 731,
-   "qid": "Q2792158",
-   "id": "building/al-madrasa-al-zinjirliyya"
-  },
-  {
-   "i": 735,
-   "qid": "Q4022334",
-   "id": "building/shah-jahan-mosque-thatta"
-  },
-  {
-   "i": 736,
-   "qid": "Q460204",
-   "id": "person/amjazada-koprulu-husayn-pasha"
-  },
-  {
-   "i": 737,
-   "qid": "Q492144",
-   "id": "building/madrasa-ulugh-beg-samarqand"
-  },
-  {
-   "i": 740,
-   "qid": "Q5959602",
-   "id": "building/mazar-firdawsi-tus"
-  },
-  {
-   "i": 741,
-   "qid": "Q617782",
-   "id": "event/fourth-anglo-mysore-war"
-  },
-  {
-   "i": 743,
-   "qid": "Q695198",
-   "id": "event/ottoman-invasion-of-otranto-1480"
-  },
-  {
-   "i": 744,
-   "qid": "Q695730",
-   "id": "person/aloys-musil"
-  },
-  {
-   "i": 745,
-   "qid": "Q700874",
-   "id": "event/battle-of-bileca-1388"
-  },
-  {
-   "i": 746,
-   "qid": "Q700893",
-   "id": "event/conquest-of-tunis-1535"
-  },
-  {
-   "i": 748,
-   "qid": "Q815109",
-   "id": "event/siege-of-acre-1799"
-  },
-  {
-   "i": 750,
-   "qid": "Q902957",
-   "id": "building/turbat-mawlana-konya"
-  },
-  {
-   "i": 751,
-   "qid": "Q919971",
-   "id": "polity/kalbid-emirate"
-  },
-  {
-   "i": 755,
-   "qid": "Q964226",
-   "id": "event/battle-of-pelekanon-1329"
-  },
-  {
-   "i": 757,
-   "qid": "Q1073358",
-   "id": "event/battle-of-vaslui-1475"
-  },
-  {
-   "i": 760,
-   "qid": "Q1154983",
-   "id": "event/ottoman-venetian-war-1463"
-  },
-  {
-   "i": 761,
-   "qid": "Q1177668",
-   "id": "building/maqam-nabi-dawud"
-  },
-  {
-   "i": 763,
-   "qid": "Q124746531",
-   "id": "person/rashid-al-din-sinan"
-  },
-  {
-   "i": 766,
-   "qid": "Q1450532",
-   "id": "event/franco-turkish-war-1918"
-  },
-  {
-   "i": 773,
-   "qid": "Q199371",
-   "id": "event/battle-of-megiddo-1918"
-  },
-  {
-   "i": 774,
-   "qid": "Q2008448",
-   "id": "event/battle-of-jaffa-1192"
-  },
-  {
-   "i": 777,
-   "qid": "Q2277692",
-   "id": "building/qasr-al-hayr-al-gharbi"
-  },
-  {
-   "i": 778,
-   "qid": "Q238528",
-   "id": "building/berlin-mosque"
-  },
-  {
-   "i": 784,
-   "qid": "Q32434",
-   "id": "building/qasr-ardashir-firuzabad"
-  },
-  {
-   "i": 788,
-   "qid": "Q427107",
-   "id": "work/qabus-nama"
-  },
-  {
-   "i": 789,
-   "qid": "Q524208",
-   "id": "event/erzurum-offensive-1916"
-  },
-  {
-   "i": 793,
-   "qid": "Q636520",
-   "id": "event/battle-of-marj-ayyun-1179"
-  },
-  {
-   "i": 797,
-   "qid": "Q690291",
-   "id": "event/battle-of-breadfield-1479"
-  },
-  {
-   "i": 799,
-   "qid": "Q697654",
-   "id": "event/siege-of-buda-1686"
-  },
-  {
-   "i": 800,
-   "qid": "Q759998",
-   "id": "event/berber-revolt-122"
-  },
-  {
-   "i": 806,
-   "qid": "Q1010035",
-   "id": "work/gesta-francorum"
-  },
-  {
-   "i": 808,
-   "qid": "Q1030940",
-   "id": "work/kitab-al-shifa"
-  },
-  {
-   "i": 813,
-   "qid": "Q1231638",
-   "id": "work/diwan-shams-tabrizi"
-  },
-  {
-   "i": 815,
-   "qid": "Q1328380",
-   "id": "event/battle-of-inab-544"
-  },
-  {
-   "i": 816,
-   "qid": "Q1454816",
-   "id": "building/jami-yazd"
-  },
-  {
-   "i": 819,
-   "qid": "Q1501534",
-   "id": "building/ishak-pasha-palace"
-  },
-  {
-   "i": 824,
-   "qid": "Q1734616",
-   "id": "polity/kartid-dynasty"
-  },
-  {
-   "i": 825,
-   "qid": "Q1792643",
-   "id": "event/battle-of-rio-salado-1340"
-  },
-  {
-   "i": 835,
-   "qid": "Q2424300",
-   "id": "building/qabr-rahil"
-  },
-  {
-   "i": 836,
-   "qid": "Q251600",
-   "id": "event/unification-of-saudi-arabia"
-  },
-  {
-   "i": 842,
-   "qid": "Q2984031",
-   "id": "building/jami-makhachkala"
-  },
-  {
-   "i": 845,
-   "qid": "Q3397498",
-   "id": "building/green-mosque-balkh"
-  },
-  {
-   "i": 846,
-   "qid": "Q3514109",
-   "id": "building/taj-ul-masajid"
-  },
-  {
-   "i": 847,
-   "qid": "Q3630998",
-   "id": "building/bara-imambara-lucknow"
-  },
-  {
-   "i": 851,
-   "qid": "Q493304",
-   "id": "building/kukeldash-madrasa-tashkent"
-  },
-  {
-   "i": 852,
-   "qid": "Q55504",
-   "id": "event/battle-of-azaz-1125"
-  },
-  {
-   "i": 853,
-   "qid": "Q561747",
-   "id": "person/hamad-ibn-thuwayni"
-  },
-  {
-   "i": 855,
-   "qid": "Q577190",
-   "id": "event/battle-of-cresson-583"
-  },
-  {
-   "i": 856,
-   "qid": "Q578201",
-   "id": "event/battle-of-forbie-1244"
-  },
-  {
-   "i": 857,
-   "qid": "Q616939",
-   "id": "event/anglo-egyptian-war-1882"
-  },
-  {
-   "i": 858,
-   "qid": "Q617070",
-   "id": "event/first-anglo-mysore-war"
-  },
-  {
-   "i": 859,
-   "qid": "Q622784",
-   "id": "building/aqsunqur-mosque-cairo"
-  },
-  {
-   "i": 861,
-   "qid": "Q673641",
-   "id": "event/siege-of-guns-1532"
-  },
-  {
-   "i": 864,
-   "qid": "Q701335",
-   "id": "event/battle-of-sisak-1593"
-  },
-  {
-   "i": 866,
-   "qid": "Q7116539",
-   "id": "building/ozbek-han-mosque"
-  },
-  {
-   "i": 868,
-   "qid": "Q7818644",
-   "id": "building/turbat-sulayman-shah"
-  },
-  {
-   "i": 869,
-   "qid": "Q793784",
-   "id": "building/qasr-al-azm-dimashq"
-  },
-  {
-   "i": 870,
-   "qid": "Q1030249",
-   "id": "event/battle-of-fahl-13"
-  },
-  {
-   "i": 871,
-   "qid": "Q1044149",
-   "id": "building/grand-mosque-constanta"
-  },
-  {
-   "i": 875,
-   "qid": "Q1086625",
-   "id": "event/siege-of-famagusta-1570"
-  },
-  {
-   "i": 887,
-   "qid": "Q15075626",
-   "id": "building/marble-palace-tehran"
-  },
-  {
-   "i": 890,
-   "qid": "Q163476",
-   "id": "event/ottoman-safavid-war-1623"
-  },
-  {
-   "i": 891,
-   "qid": "Q1816972",
-   "id": "building/mazar-mumina-khatun"
-  },
-  {
-   "i": 892,
-   "qid": "Q1831907",
-   "id": "building/vakil-mosque-shiraz"
-  },
-  {
-   "i": 893,
-   "qid": "Q2006052",
-   "id": "building/tombul-mosque-shumen"
-  },
-  {
-   "i": 894,
-   "qid": "Q2022139",
-   "id": "event/night-attack-targoviste-1462"
-  },
-  {
-   "i": 895,
-   "qid": "Q2069929",
-   "id": "building/jami-shamakhi"
-  },
-  {
-   "i": 897,
-   "qid": "Q2290814",
-   "id": "event/battle-of-wadi-al-khaznadar-1299"
-  },
-  {
-   "i": 899,
-   "qid": "Q2346983",
-   "id": "event/battle-of-kumanovo-1912"
-  }
- ],
- "linked_ids": [
-  {
-   "i": 9,
-   "qid": "Q9077",
-   "to": "person/musa"
-  },
-  {
-   "i": 14,
-   "qid": "Q8258",
-   "to": "work/alf-layla-wa-layla"
-  },
-  {
-   "i": 58,
-   "qid": "Q485732",
-   "to": "group/quraysh"
-  },
-  {
-   "i": 64,
-   "qid": "Q486124",
-   "to": "event/battle-of-badr"
-  },
-  {
-   "i": 101,
-   "qid": "Q189271",
-   "to": "person/mahmud-ghaznawi"
-  },
-  {
-   "i": 102,
-   "qid": "Q82245",
-   "to": "group/shafii-madhhab"
-  },
-  {
-   "i": 107,
-   "qid": "Q48221",
-   "to": "group/maliki-madhhab"
-  },
-  {
-   "i": 111,
-   "qid": "Q200032",
-   "to": "event/battle-of-manzikert-463"
-  },
-  {
-   "i": 113,
-   "qid": "Q488278",
-   "to": "event/battle-of-uhud"
-  },
-  {
-   "i": 121,
-   "qid": "Q233568",
-   "to": "event/battle-of-hattin-583"
-  },
-  {
-   "i": 125,
-   "qid": "Q194226",
-   "to": "event/battle-of-yarmuk"
-  },
-  {
-   "i": 152,
-   "qid": "Q369560",
-   "to": "event/sack-of-baghdad-656"
-  },
-  {
-   "i": 157,
-   "qid": "Q826083",
-   "to": "event/battle-of-the-trench"
-  },
-  {
-   "i": 167,
-   "qid": "Q204200",
-   "to": "building/al-haram-al-ibrahimi"
-  },
-  {
-   "i": 184,
-   "qid": "Q733668",
-   "to": "polity/ghassanid-kingdom"
-  },
-  {
-   "i": 195,
-   "qid": "Q456993",
-   "to": "event/franks-jerusalem-492"
-  },
-  {
-   "i": 203,
-   "qid": "Q207576",
-   "to": "event/siege-vienna-935"
-  },
-  {
-   "i": 204,
-   "qid": "Q311153",
-   "to": "person/muhammad-al-baqir"
-  },
-  {
-   "i": 224,
-   "qid": "Q425144",
-   "to": "group/ansar"
-  },
-  {
-   "i": 241,
-   "qid": "Q1639459",
-   "to": "event/battle-of-mutah"
-  },
-  {
-   "i": 254,
-   "qid": "Q1133574",
-   "to": "event/battle-of-the-camel"
-  },
-  {
-   "i": 264,
-   "qid": "Q815161",
-   "to": "event/conquest-of-jerusalem"
-  },
-  {
-   "i": 265,
-   "qid": "Q836844",
-   "to": "event/battle-of-al-qadisiyya"
-  },
-  {
-   "i": 266,
-   "qid": "Q846670",
-   "to": "polity/danishmendid-emirate"
-  },
-  {
-   "i": 279,
-   "qid": "Q565661",
-   "to": "event/battle-of-khaybar"
-  },
-  {
-   "i": 239,
-   "qid": "Q847837",
-   "to": "group/banu-nasr"
-  },
-  {
-   "i": 301,
-   "qid": "Q735876",
-   "to": "event/battle-of-siffin"
-  },
-  {
-   "i": 305,
-   "qid": "Q282883",
-   "to": "person/shihab-al-din-al-suhrawardi"
-  },
-  {
-   "i": 307,
-   "qid": "Q337126",
-   "to": "person/al-bakri-abu-ubayd"
-  },
-  {
-   "i": 334,
-   "qid": "Q1750892",
-   "to": "event/franks-constantinople-601"
-  },
-  {
-   "i": 355,
-   "qid": "Q399482",
-   "to": "event/arab-siege-of-constantinople-667"
-  },
-  {
-   "i": 360,
-   "qid": "Q741098",
-   "to": "event/franks-antioch-491"
-  },
-  {
-   "i": 379,
-   "qid": "Q767935",
-   "to": "event/conquest-of-rhodes-928"
-  },
-  {
-   "i": 412,
-   "qid": "Q2088170",
-   "to": "event/expedition-to-tabuk"
-  },
-  {
-   "i": 506,
-   "qid": "Q146076",
-   "to": "group/zanata"
-  },
-  {
-   "i": 567,
-   "qid": "Q285255",
-   "to": "person/al-waqidi"
-  },
-  {
-   "i": 582,
-   "qid": "Q790108",
-   "to": "group/banu-hilal"
-  },
-  {
-   "i": 599,
-   "qid": "Q2456292",
-   "to": "event/battle-of-yamama"
-  },
-  {
-   "i": 603,
-   "qid": "Q293612",
-   "to": "person/muhammad-ibn-al-hasan-al-shaybani"
-  },
-  {
-   "i": 607,
-   "qid": "Q428400",
-   "to": "polity/ildigizid-atabegs"
-  },
-  {
-   "i": 620,
-   "qid": "Q974105",
-   "to": "person/ibn-muqla"
-  },
-  {
-   "i": 632,
-   "qid": "Q1510021",
-   "to": "group/sanhaja"
-  },
-  {
-   "i": 643,
-   "qid": "Q2294218",
-   "to": "polity/burid-dynasty"
-  },
-  {
-   "i": 684,
-   "qid": "Q2484843",
-   "to": "event/battle-of-nahrawan"
-  },
-  {
-   "i": 692,
-   "qid": "Q581780",
-   "to": "group/al-khazraj"
-  },
-  {
-   "i": 730,
-   "qid": "Q2732255",
-   "to": "event/battle-of-marj-al-suffar"
-  },
-  {
-   "i": 747,
-   "qid": "Q742693",
-   "to": "event/franks-damietta-616"
-  },
-  {
-   "i": 759,
-   "qid": "Q1148862",
-   "to": "event/fariskur-louis-captured-648"
-  },
-  {
-   "i": 770,
-   "qid": "Q1669285",
-   "to": "event/conquest-of-amorium"
-  },
-  {
-   "i": 781,
-   "qid": "Q2726734",
-   "to": "event/second-battle-homs-680"
-  },
-  {
-   "i": 802,
-   "qid": "Q777586",
-   "to": "group/al-aws"
-  }
- ],
- "skipped": [
-  [
-   0,
-   "Q1845",
-   "non-Islamic subject / modern politics / out of scope (wave2)"
-  ],
-  [
-   1,
-   "Q302",
-   "link-failed:already has wikidata"
-  ],
-  [
-   2,
-   "Q868",
-   "non-Islamic subject / modern politics / out of scope (wave2)"
-  ],
-  [
-   3,
-   "Q5879",
-   "non-Islamic subject / modern politics / out of scope (wave2)"
-  ],
-  [
-   4,
-   "Q9441",
-   "non-Islamic subject / modern politics / out of scope (wave2)"
-  ],
-  [
-   5,
-   "Q1067",
-   "non-Islamic subject / modern politics / out of scope (wave2)"
-  ],
-  [
-   6,
-   "Q7813",
-   "non-Islamic subject / modern politics / out of scope (wave2)"
-  ],
-  [
-   7,
-   "Q5816",
-   "non-Islamic subject / modern politics / out of scope (wave2)"
-  ],
-  [
-   8,
-   "Q9438",
-   "non-Islamic subject / modern politics / out of scope (wave2)"
-  ],
-  [
-   10,
-   "Q2494",
-   "non-Islamic subject / modern politics / out of scope (wave2)"
-  ],
-  [
-   11,
-   "Q9200",
-   "non-Islamic subject / modern politics / out of scope (wave2)"
-  ],
-  [
-   12,
-   "Q7226",
-   "non-Islamic subject / modern politics / out of scope (wave2)"
-  ],
-  [
-   13,
-   "Q35802",
-   "non-Islamic subject / modern politics / out of scope (wave2)"
-  ],
-  [
-   15,
-   "Q8620",
-   "non-Islamic subject / modern politics / out of scope (wave2)"
-  ],
-  [
-   16,
-   "Q8663",
-   "non-Islamic subject / modern politics / out of scope (wave2)"
-  ],
-  [
-   17,
-   "Q34990",
-   "non-Islamic subject / modern politics / out of scope (wave2)"
-  ],
-  [
-   18,
-   "Q40185",
-   "non-Islamic subject / modern politics / out of scope (wave2)"
-  ],
-  [
-   19,
-   "Q12551",
-   "non-Islamic subject / modern politics / out of scope (wave2)"
-  ],
-  [
-   20,
-   "Q122962941",
-   "non-Islamic subject / modern politics / out of scope (wave2)"
-  ],
-  [
-   21,
-   "Q8265",
-   "non-Islamic subject / modern politics / out of scope (wave2)"
-  ],
-  [
-   22,
-   "Q37643",
-   "non-Islamic subject / modern politics / out of scope (wave2)"
-  ],
-  [
-   23,
-   "Q33761",
-   "non-Islamic subject / modern politics / out of scope (wave2)"
-  ],
-  [
-   24,
-   "Q545449",
-   "non-Islamic subject / modern politics / out of scope (wave2)"
-  ],
-  [
-   25,
-   "Q2946",
-   "non-Islamic subject / modern politics / out of scope (wave2)"
-  ],
-  [
-   26,
-   "Q6113985",
-   "non-Islamic subject / modern politics / out of scope (wave2)"
-  ],
-  [
-   27,
-   "Q11235",
-   "non-Islamic subject / modern politics / out of scope (wave2)"
-  ],
-  [
-   28,
-   "Q34628",
-   "non-Islamic subject / modern politics / out of scope (wave2)"
-  ],
-  [
-   29,
-   "Q83322",
-   "non-Islamic subject / modern politics / out of scope (wave2)"
-  ],
-  [
-   30,
-   "Q101054",
-   "non-Islamic subject / modern politics / out of scope (wave2)"
-  ],
-  [
-   31,
-   "Q80290",
-   "non-Islamic subject / modern politics / out of scope (wave2)"
-  ],
-  [
-   32,
-   "Q63070",
-   "non-Islamic subject / modern politics / out of scope (wave2)"
-  ],
-  [
-   33,
-   "Q138503695",
-   "non-Islamic subject / modern politics / out of scope (wave2)"
-  ],
-  [
-   34,
-   "Q78994",
-   "non-Islamic subject / modern politics / out of scope (wave2)"
-  ],
-  [
-   35,
-   "Q83085",
-   "non-Islamic subject / modern politics / out of scope (wave2)"
-  ],
-  [
-   36,
-   "Q1143049",
-   "non-Islamic subject / modern politics / out of scope (wave2)"
-  ],
-  [
-   37,
-   "Q123034",
-   "non-Islamic subject / modern politics / out of scope (wave2)"
-  ],
-  [
-   38,
-   "Q254106",
-   "non-Islamic subject / modern politics / out of scope (wave2)"
-  ],
-  [
-   39,
-   "Q80330",
-   "non-Islamic subject / modern politics / out of scope (wave2)"
-  ],
-  [
-   40,
-   "Q33143",
-   "non-Islamic subject / modern politics / out of scope (wave2)"
-  ],
-  [
-   41,
-   "Q65968",
-   "non-Islamic subject / modern politics / out of scope (wave2)"
-  ],
-  [
-   42,
-   "Q82664",
-   "non-Islamic subject / modern politics / out of scope (wave2)"
-  ],
-  [
-   43,
-   "Q172891",
-   "non-Islamic subject / modern politics / out of scope (wave2)"
-  ],
-  [
-   44,
-   "Q181182",
-   "non-Islamic subject / modern politics / out of scope (wave2)"
-  ],
-  [
-   45,
-   "Q49100",
-   "non-Islamic subject / modern politics / out of scope (wave2)"
-  ],
-  [
-   46,
-   "Q60059",
-   "non-Islamic subject / modern politics / out of scope (wave2)"
-  ],
-  [
-   47,
-   "Q4152",
-   "non-Islamic subject / modern politics / out of scope (wave2)"
-  ],
-  [
-   48,
-   "Q79791",
-   "non-Islamic subject / modern politics / out of scope (wave2)"
-  ],
-  [
-   49,
-   "Q170314",
-   "non-Islamic subject / modern politics / out of scope (wave2)"
-  ],
-  [
-   50,
-   "Q45368",
-   "non-Islamic subject / modern politics / out of scope (wave2)"
-  ],
-  [
-   51,
-   "Q47672",
-   "non-Islamic subject / modern politics / out of scope (wave2)"
-  ],
-  [
-   52,
-   "Q132783",
-   "non-Islamic subject / modern politics / out of scope (wave2)"
-  ],
-  [
-   53,
-   "Q42646",
-   "non-Islamic subject / modern politics / out of scope (wave2)"
-  ],
-  [
-   54,
-   "Q71229",
-   "non-Islamic subject / modern politics / out of scope (wave2)"
-  ],
-  [
-   55,
-   "Q124988",
-   "non-Islamic subject / modern politics / out of scope (wave2)"
-  ],
-  [
-   56,
-   "Q182865",
-   "non-Islamic subject / modern politics / out of scope (wave2)"
-  ],
-  [
-   57,
-   "Q28179",
-   "non-Islamic subject / modern politics / out of scope (wave2)"
-  ],
-  [
-   59,
-   "Q620735",
-   "non-Islamic subject / modern politics / out of scope (wave2)"
-  ],
-  [
-   60,
-   "Q129864",
-   "non-Islamic subject / modern politics / out of scope (wave2)"
-  ],
-  [
-   61,
-   "Q172383",
-   "non-Islamic subject / modern politics / out of scope (wave2)"
-  ],
-  [
-   62,
-   "Q33745",
-   "non-Islamic subject / modern politics / out of scope (wave2)"
-  ],
-  [
-   63,
-   "Q104273",
-   "non-Islamic subject / modern politics / out of scope (wave2)"
-  ],
-  [
-   65,
-   "Q171724",
-   "non-Islamic subject / modern politics / out of scope (wave2)"
-  ],
-  [
-   67,
-   "Q151616",
-   "non-Islamic subject / modern politics / out of scope (wave2)"
-  ],
-  [
-   69,
-   "Q29269",
-   "non-Islamic subject / modern politics / out of scope (wave2)"
-  ],
-  [
-   70,
-   "Q3708255",
-   "link-failed:already has wikidata"
-  ],
-  [
-   71,
-   "Q58389",
-   "non-Islamic subject / modern politics / out of scope (wave2)"
-  ],
-  [
-   72,
-   "Q150229",
-   "non-Islamic subject / modern politics / out of scope (wave2)"
-  ],
-  [
-   73,
-   "Q177918",
-   "non-Islamic subject / modern politics / out of scope (wave2)"
-  ],
-  [
-   74,
-   "Q3906600",
-   "non-Islamic subject / modern politics / out of scope (wave2)"
-  ],
-  [
-   75,
-   "Q170389",
-   "non-Islamic subject / modern politics / out of scope (wave2)"
-  ],
-  [
-   76,
-   "Q178687",
-   "non-Islamic subject / modern politics / out of scope (wave2)"
-  ],
-  [
-   77,
-   "Q191282",
-   "non-Islamic subject / modern politics / out of scope (wave2)"
-  ],
-  [
-   78,
-   "Q134900605",
-   "non-Islamic subject / modern politics / out of scope (wave2)"
-  ],
-  [
-   79,
-   "Q16438",
-   "non-Islamic subject / modern politics / out of scope (wave2)"
-  ],
-  [
-   80,
-   "Q182147",
-   "non-Islamic subject / modern politics / out of scope (wave2)"
-  ],
-  [
-   81,
-   "Q49104",
-   "non-Islamic subject / modern politics / out of scope (wave2)"
-  ],
-  [
-   82,
-   "Q185729",
-   "non-Islamic subject / modern politics / out of scope (wave2)"
-  ],
-  [
-   84,
-   "Q51252",
-   "non-Islamic subject / modern politics / out of scope (wave2)"
-  ],
-  [
-   85,
-   "Q161205",
-   "link-failed:already has wikidata"
-  ],
-  [
-   86,
-   "Q24237654",
-   "non-Islamic subject / modern politics / out of scope (wave2)"
-  ],
-  [
-   87,
-   "Q33570",
-   "non-Islamic subject / modern politics / out of scope (wave2)"
-  ],
-  [
-   88,
-   "Q184183",
-   "non-Islamic subject / modern politics / out of scope (wave2)"
-  ],
-  [
-   89,
-   "Q189326",
-   "link-failed:already has wikidata"
-  ],
-  [
-   90,
-   "Q244742",
-   "non-Islamic subject / modern politics / out of scope (wave2)"
-  ],
-  [
-   91,
-   "Q81589",
-   "non-Islamic subject / modern politics / out of scope (wave2)"
-  ],
-  [
-   93,
-   "Q277072",
-   "non-Islamic subject / modern politics / out of scope (wave2)"
-  ],
-  [
-   94,
-   "Q83969",
-   "non-Islamic subject / modern politics / out of scope (wave2)"
-  ],
-  [
-   95,
-   "Q152499",
-   "non-Islamic subject / modern politics / out of scope (wave2)"
-  ],
-  [
-   96,
-   "Q192408",
-   "non-Islamic subject / modern politics / out of scope (wave2)"
-  ],
-  [
-   97,
-   "Q371394",
-   "non-Islamic subject / modern politics / out of scope (wave2)"
-  ],
-  [
-   98,
-   "Q381375",
-   "non-Islamic subject / modern politics / out of scope (wave2)"
-  ],
-  [
-   99,
-   "Q418151",
-   "non-Islamic subject / modern politics / out of scope (wave2)"
-  ],
-  [
-   100,
-   "Q748780",
-   "non-Islamic subject / modern politics / out of scope (wave2)"
-  ],
-  [
-   103,
-   "Q19133",
-   "non-Islamic subject / modern politics / out of scope (wave2)"
-  ],
-  [
-   104,
-   "Q193369",
-   "non-Islamic subject / modern politics / out of scope (wave2)"
-  ],
-  [
-   106,
-   "Q215894",
-   "non-Islamic subject / modern politics / out of scope (wave2)"
-  ],
-  [
-   108,
-   "Q120843",
-   "non-Islamic subject / modern politics / out of scope (wave2)"
-  ],
-  [
-   109,
-   "Q17790",
-   "non-Islamic subject / modern politics / out of scope (wave2)"
-  ],
-  [
-   110,
-   "Q179670",
-   "non-Islamic subject / modern politics / out of scope (wave2)"
-  ],
-  [
-   112,
-   "Q207991",
-   "non-Islamic subject / modern politics / out of scope (wave2)"
-  ],
-  [
-   114,
-   "Q49097",
-   "non-Islamic subject / modern politics / out of scope (wave2)"
-  ],
-  [
-   115,
-   "Q68969",
-   "non-Islamic subject / modern politics / out of scope (wave2)"
-  ],
-  [
-   116,
-   "Q131505",
-   "non-Islamic subject / modern politics / out of scope (wave2)"
-  ],
-  [
-   117,
-   "Q152486",
-   "non-Islamic subject / modern politics / out of scope (wave2)"
-  ],
-  [
-   118,
-   "Q170682",
-   "non-Islamic subject / modern politics / out of scope (wave2)"
-  ],
-  [
-   119,
-   "Q191414",
-   "non-Islamic subject / modern politics / out of scope (wave2)"
-  ],
-  [
-   120,
-   "Q203824",
-   "non-Islamic subject / modern politics / out of scope (wave2)"
-  ],
-  [
-   122,
-   "Q4132",
-   "non-Islamic subject / modern politics / out of scope (wave2)"
-  ],
-  [
-   123,
-   "Q17324420",
-   "non-Islamic subject / modern politics / out of scope (wave2)"
-  ],
-  [
-   124,
-   "Q188856",
-   "non-Islamic subject / modern politics / out of scope (wave2)"
-  ],
-  [
-   126,
-   "Q211818",
-   "non-Islamic subject / modern politics / out of scope (wave2)"
-  ],
-  [
-   127,
-   "Q28208",
-   "non-Islamic subject / modern politics / out of scope (wave2)"
-  ],
-  [
-   128,
-   "Q1413732",
-   "non-Islamic subject / modern politics / out of scope (wave2)"
-  ],
-  [
-   129,
-   "Q145093",
-   "non-Islamic subject / modern politics / out of scope (wave2)"
-  ],
-  [
-   130,
-   "Q189883",
-   "non-Islamic subject / modern politics / out of scope (wave2)"
-  ],
-  [
-   132,
-   "Q233583",
-   "non-Islamic subject / modern politics / out of scope (wave2)"
-  ],
-  [
-   134,
-   "Q234364",
-   "non-Islamic subject / modern politics / out of scope (wave2)"
-  ],
-  [
-   135,
-   "Q297006",
-   "non-Islamic subject / modern politics / out of scope (wave2)"
-  ],
-  [
-   137,
-   "Q836531",
-   "non-Islamic subject / modern politics / out of scope (wave2)"
-  ],
-  [
-   138,
-   "Q151545",
-   "non-Islamic subject / modern politics / out of scope (wave2)"
-  ],
-  [
-   139,
-   "Q207318",
-   "non-Islamic subject / modern politics / out of scope (wave2)"
-  ],
-  [
-   141,
-   "Q486382",
-   "non-Islamic subject / modern politics / out of scope (wave2)"
-  ],
-  [
-   142,
-   "Q278825",
-   "non-Islamic subject / modern politics / out of scope (wave2)"
-  ],
-  [
-   144,
-   "Q154697",
-   "non-Islamic subject / modern politics / out of scope (wave2)"
-  ],
-  [
-   145,
-   "Q192841",
-   "non-Islamic subject / modern politics / out of scope (wave2)"
-  ],
-  [
-   146,
-   "Q200565",
-   "non-Islamic subject / modern politics / out of scope (wave2)"
-  ],
-  [
-   148,
-   "Q208694",
-   "non-Islamic subject / modern politics / out of scope (wave2)"
-  ],
-  [
-   150,
-   "Q2854543",
-   "non-Islamic subject / modern politics / out of scope (wave2)"
-  ],
-  [
-   151,
-   "Q320713",
-   "non-Islamic subject / modern politics / out of scope (wave2)"
-  ],
-  [
-   153,
-   "Q189358",
-   "non-Islamic subject / modern politics / out of scope (wave2)"
-  ],
-  [
-   154,
-   "Q46242",
-   "non-Islamic subject / modern politics / out of scope (wave2)"
-  ],
-  [
-   155,
-   "Q49103",
-   "non-Islamic subject / modern politics / out of scope (wave2)"
-  ],
-  [
-   158,
-   "Q87138",
-   "non-Islamic subject / modern politics / out of scope (wave2)"
-  ],
-  [
-   159,
-   "Q201620",
-   "non-Islamic subject / modern politics / out of scope (wave2)"
-  ],
-  [
-   160,
-   "Q207385",
-   "non-Islamic subject / modern politics / out of scope (wave2)"
-  ],
-  [
-   161,
-   "Q216954",
-   "non-Islamic subject / modern politics / out of scope (wave2)"
-  ],
-  [
-   162,
-   "Q243684",
-   "non-Islamic subject / modern politics / out of scope (wave2)"
-  ],
-  [
-   163,
-   "Q404517",
-   "non-Islamic subject / modern politics / out of scope (wave2)"
-  ],
-  [
-   165,
-   "Q74623",
-   "non-Islamic subject / modern politics / out of scope (wave2)"
-  ],
-  [
-   166,
-   "Q151330",
-   "non-Islamic subject / modern politics / out of scope (wave2)"
-  ],
-  [
-   168,
-   "Q205666",
-   "non-Islamic subject / modern politics / out of scope (wave2)"
-  ],
-  [
-   170,
-   "Q329852",
-   "non-Islamic subject / modern politics / out of scope (wave2)"
-  ],
-  [
-   171,
-   "Q368519",
-   "non-Islamic subject / modern politics / out of scope (wave2)"
-  ],
-  [
-   172,
-   "Q728428",
-   "non-Islamic subject / modern politics / out of scope (wave2)"
-  ],
-  [
-   173,
-   "Q201692",
-   "non-Islamic subject / modern politics / out of scope (wave2)"
-  ],
-  [
-   174,
-   "Q202902",
-   "non-Islamic subject / modern politics / out of scope (wave2)"
-  ],
-  [
-   175,
-   "Q382116",
-   "non-Islamic subject / modern politics / out of scope (wave2)"
-  ],
-  [
-   176,
-   "Q615404",
-   "non-Islamic subject / modern politics / out of scope (wave2)"
-  ],
-  [
-   177,
-   "Q108102583",
-   "non-Islamic subject / modern politics / out of scope (wave2)"
-  ],
-  [
-   178,
-   "Q158148",
-   "non-Islamic subject / modern politics / out of scope (wave2)"
-  ],
-  [
-   179,
-   "Q167566",
-   "non-Islamic subject / modern politics / out of scope (wave2)"
-  ],
-  [
-   181,
-   "Q1922071",
-   "non-Islamic subject / modern politics / out of scope (wave2)"
-  ],
-  [
-   182,
-   "Q256548",
-   "non-Islamic subject / modern politics / out of scope (wave2)"
-  ],
-  [
-   183,
-   "Q732489",
-   "non-Islamic subject / modern politics / out of scope (wave2)"
-  ],
-  [
-   185,
-   "Q115253",
-   "non-Islamic subject / modern politics / out of scope (wave2)"
-  ],
-  [
-   188,
-   "Q477157",
-   "non-Islamic subject / modern politics / out of scope (wave2)"
-  ],
-  [
-   189,
-   "Q49092",
-   "non-Islamic subject / modern politics / out of scope (wave2)"
-  ],
-  [
-   190,
-   "Q623171",
-   "non-Islamic subject / modern politics / out of scope (wave2)"
-  ],
-  [
-   191,
-   "Q652285",
-   "non-Islamic subject / modern politics / out of scope (wave2)"
-  ],
-  [
-   192,
-   "Q155483",
-   "non-Islamic subject / modern politics / out of scope (wave2)"
-  ],
-  [
-   193,
-   "Q162665",
-   "non-Islamic subject / modern politics / out of scope (wave2)"
-  ],
-  [
-   196,
-   "Q477973",
-   "non-Islamic subject / modern politics / out of scope (wave2)"
-  ],
-  [
-   197,
-   "Q496922",
-   "non-Islamic subject / modern politics / out of scope (wave2)"
-  ],
-  [
-   199,
-   "Q1332160",
-   "non-Islamic subject / modern politics / out of scope (wave2)"
-  ],
-  [
-   201,
-   "Q157229",
-   "non-Islamic subject / modern politics / out of scope (wave2)"
-  ],
-  [
-   202,
-   "Q19085",
-   "non-Islamic subject / modern politics / out of scope (wave2)"
-  ],
-  [
-   205,
-   "Q462966",
-   "non-Islamic subject / modern politics / out of scope (wave2)"
-  ],
-  [
-   206,
-   "Q469930",
-   "non-Islamic subject / modern politics / out of scope (wave2)"
-  ],
-  [
-   207,
-   "Q107790",
-   "non-Islamic subject / modern politics / out of scope (wave2)"
-  ],
-  [
-   209,
-   "Q18817",
-   "non-Islamic subject / modern politics / out of scope (wave2)"
-  ],
-  [
-   212,
-   "Q46313",
-   "non-Islamic subject / modern politics / out of scope (wave2)"
-  ],
-  [
-   216,
-   "Q719422",
-   "non-Islamic subject / modern politics / out of scope (wave2)"
-  ],
-  [
-   218,
-   "Q8666",
-   "non-Islamic subject / modern politics / out of scope (wave2)"
-  ],
-  [
-   219,
-   "Q123070",
-   "non-Islamic subject / modern politics / out of scope (wave2)"
-  ],
-  [
-   220,
-   "Q143463",
-   "non-Islamic subject / modern politics / out of scope (wave2)"
-  ],
-  [
-   221,
-   "Q156316",
-   "non-Islamic subject / modern politics / out of scope (wave2)"
-  ],
-  [
-   222,
-   "Q255352",
-   "non-Islamic subject / modern politics / out of scope (wave2)"
-  ],
-  [
-   223,
-   "Q26749",
-   "non-Islamic subject / modern politics / out of scope (wave2)"
-  ],
-  [
-   226,
-   "Q576338",
-   "non-Islamic subject / modern politics / out of scope (wave2)"
-  ],
-  [
-   227,
-   "Q635533",
-   "non-Islamic subject / modern politics / out of scope (wave2)"
-  ],
-  [
-   228,
-   "Q1055311",
-   "non-Islamic subject / modern politics / out of scope (wave2)"
-  ],
-  [
-   229,
-   "Q164150",
-   "non-Islamic subject / modern politics / out of scope (wave2)"
-  ],
-  [
-   230,
-   "Q170119",
-   "non-Islamic subject / modern politics / out of scope (wave2)"
-  ],
-  [
-   231,
-   "Q171517",
-   "non-Islamic subject / modern politics / out of scope (wave2)"
-  ],
-  [
-   232,
-   "Q209312",
-   "non-Islamic subject / modern politics / out of scope (wave2)"
-  ],
-  [
-   233,
-   "Q321219",
-   "non-Islamic subject / modern politics / out of scope (wave2)"
-  ],
-  [
-   236,
-   "Q391620",
-   "non-Islamic subject / modern politics / out of scope (wave2)"
-  ],
-  [
-   237,
-   "Q482485",
-   "non-Islamic subject / modern politics / out of scope (wave2)"
-  ],
-  [
-   238,
-   "Q691928",
-   "non-Islamic subject / modern politics / out of scope (wave2)"
-  ],
-  [
-   239,
-   "Q847837",
-   "create-failed:file-exists:data/group/banu-nasr.yaml"
-  ],
-  [
-   240,
-   "Q856650",
-   "non-Islamic subject / modern politics / out of scope (wave2)"
-  ],
-  [
-   245,
-   "Q287942",
-   "non-Islamic subject / modern politics / out of scope (wave2)"
-  ],
-  [
-   246,
-   "Q369920",
-   "non-Islamic subject / modern politics / out of scope (wave2)"
-  ],
-  [
-   247,
-   "Q456817",
-   "non-Islamic subject / modern politics / out of scope (wave2)"
-  ],
-  [
-   248,
-   "Q505950",
-   "non-Islamic subject / modern politics / out of scope (wave2)"
-  ],
-  [
-   249,
-   "Q51650",
-   "non-Islamic subject / modern politics / out of scope (wave2)"
-  ],
-  [
-   250,
-   "Q696018",
-   "non-Islamic subject / modern politics / out of scope (wave2)"
-  ],
-  [
-   256,
-   "Q159512",
-   "non-Islamic subject / modern politics / out of scope (wave2)"
-  ],
-  [
-   257,
-   "Q220641",
-   "non-Islamic subject / modern politics / out of scope (wave2)"
-  ],
-  [
-   258,
-   "Q2635530",
-   "non-Islamic subject / modern politics / out of scope (wave2)"
-  ],
-  [
-   259,
-   "Q269876",
-   "non-Islamic subject / modern politics / out of scope (wave2)"
-  ],
-  [
-   260,
-   "Q53692",
-   "non-Islamic subject / modern politics / out of scope (wave2)"
-  ],
-  [
-   261,
-   "Q602358",
-   "non-Islamic subject / modern politics / out of scope (wave2)"
-  ],
-  [
-   262,
-   "Q638587",
-   "non-Islamic subject / modern politics / out of scope (wave2)"
-  ],
-  [
-   263,
-   "Q756098",
-   "non-Islamic subject / modern politics / out of scope (wave2)"
-  ],
-  [
-   268,
-   "Q10406562",
-   "audit: almohad-caliphate covers the dynasty; carries state item Q199688"
-  ],
-  [
-   269,
-   "Q1145682",
-   "non-Islamic subject / modern politics / out of scope (wave2)"
-  ],
-  [
-   270,
-   "Q138414208",
-   "non-Islamic subject / modern politics / out of scope (wave2)"
-  ],
-  [
-   271,
-   "Q155107",
-   "non-Islamic subject / modern politics / out of scope (wave2)"
-  ],
-  [
-   272,
-   "Q155726",
-   "non-Islamic subject / modern politics / out of scope (wave2)"
-  ],
-  [
-   273,
-   "Q169072",
-   "non-Islamic subject / modern politics / out of scope (wave2)"
-  ],
-  [
-   274,
-   "Q184999",
-   "non-Islamic subject / modern politics / out of scope (wave2)"
-  ],
-  [
-   275,
-   "Q2033385",
-   "non-Islamic subject / modern politics / out of scope (wave2)"
-  ],
-  [
-   276,
-   "Q235131",
-   "non-Islamic subject / modern politics / out of scope (wave2)"
-  ],
-  [
-   277,
-   "Q302556",
-   "non-Islamic subject / modern politics / out of scope (wave2)"
-  ],
-  [
-   278,
-   "Q366213",
-   "non-Islamic subject / modern politics / out of scope (wave2)"
-  ],
-  [
-   280,
-   "Q641479",
-   "non-Islamic subject / modern politics / out of scope (wave2)"
-  ],
-  [
-   281,
-   "Q654006",
-   "non-Islamic subject / modern politics / out of scope (wave2)"
-  ],
-  [
-   282,
-   "Q735349",
-   "non-Islamic subject / modern politics / out of scope (wave2)"
-  ],
-  [
-   283,
-   "Q936633",
-   "non-Islamic subject / modern politics / out of scope (wave2)"
-  ],
-  [
-   284,
-   "Q111012552",
-   "non-Islamic subject / modern politics / out of scope (wave2)"
-  ],
-  [
-   286,
-   "Q154860",
-   "non-Islamic subject / modern politics / out of scope (wave2)"
-  ],
-  [
-   287,
-   "Q162052",
-   "non-Islamic subject / modern politics / out of scope (wave2)"
-  ],
-  [
-   288,
-   "Q2019145",
-   "non-Islamic subject / modern politics / out of scope (wave2)"
-  ],
-  [
-   289,
-   "Q216511",
-   "non-Islamic subject / modern politics / out of scope (wave2)"
-  ],
-  [
-   290,
-   "Q221967",
-   "non-Islamic subject / modern politics / out of scope (wave2)"
-  ],
-  [
-   291,
-   "Q310898",
-   "non-Islamic subject / modern politics / out of scope (wave2)"
-  ],
-  [
-   292,
-   "Q312384",
-   "non-Islamic subject / modern politics / out of scope (wave2)"
-  ],
-  [
-   295,
-   "Q464512",
-   "non-Islamic subject / modern politics / out of scope (wave2)"
-  ],
-  [
-   296,
-   "Q475379",
-   "non-Islamic subject / modern politics / out of scope (wave2)"
-  ],
-  [
-   297,
-   "Q631799",
-   "non-Islamic subject / modern politics / out of scope (wave2)"
-  ],
-  [
-   298,
-   "Q6500483",
-   "non-Islamic subject / modern politics / out of scope (wave2)"
-  ],
-  [
-   299,
-   "Q677316",
-   "non-Islamic subject / modern politics / out of scope (wave2)"
-  ],
-  [
-   300,
-   "Q70207089",
-   "non-Islamic subject / modern politics / out of scope (wave2)"
-  ],
-  [
-   303,
-   "Q844886",
-   "non-Islamic subject / modern politics / out of scope (wave2)"
-  ],
-  [
-   304,
-   "Q187525",
-   "non-Islamic subject / modern politics / out of scope (wave2)"
-  ],
-  [
-   306,
-   "Q299446",
-   "non-Islamic subject / modern politics / out of scope (wave2)"
-  ],
-  [
-   308,
-   "Q482423",
-   "non-Islamic subject / modern politics / out of scope (wave2)"
-  ],
-  [
-   309,
-   "Q482456",
-   "non-Islamic subject / modern politics / out of scope (wave2)"
-  ],
-  [
-   310,
-   "Q495276",
-   "non-Islamic subject / modern politics / out of scope (wave2)"
-  ],
-  [
-   312,
-   "Q631991",
-   "non-Islamic subject / modern politics / out of scope (wave2)"
-  ],
-  [
-   314,
-   "Q696848",
-   "non-Islamic subject / modern politics / out of scope (wave2)"
-  ],
-  [
-   315,
-   "Q714435",
-   "non-Islamic subject / modern politics / out of scope (wave2)"
-  ],
-  [
-   316,
-   "Q940733",
-   "non-Islamic subject / modern politics / out of scope (wave2)"
-  ],
-  [
-   318,
-   "Q1075988",
-   "non-Islamic subject / modern politics / out of scope (wave2)"
-  ],
-  [
-   319,
-   "Q1791841",
-   "non-Islamic subject / modern politics / out of scope (wave2)"
-  ],
-  [
-   320,
-   "Q179275",
-   "non-Islamic subject / modern politics / out of scope (wave2)"
-  ],
-  [
-   321,
-   "Q203797",
-   "non-Islamic subject / modern politics / out of scope (wave2)"
-  ],
-  [
-   322,
-   "Q20737645",
-   "audit: timurid-empire already carries the state item Q484195; dynasty item kept distinct"
-  ],
-  [
-   324,
-   "Q2425839",
-   "non-Islamic subject / modern politics / out of scope (wave2)"
-  ],
-  [
-   325,
-   "Q311160",
-   "non-Islamic subject / modern politics / out of scope (wave2)"
-  ],
-  [
-   326,
-   "Q335353",
-   "non-Islamic subject / modern politics / out of scope (wave2)"
-  ],
-  [
-   327,
-   "Q68359",
-   "non-Islamic subject / modern politics / out of scope (wave2)"
-  ],
-  [
-   328,
-   "Q69513",
-   "non-Islamic subject / modern politics / out of scope (wave2)"
-  ],
-  [
-   329,
-   "Q747516",
-   "non-Islamic subject / modern politics / out of scope (wave2)"
-  ],
-  [
-   332,
-   "Q852429",
-   "non-Islamic subject / modern politics / out of scope (wave2)"
-  ],
-  [
-   335,
-   "Q193254",
-   "non-Islamic subject / modern politics / out of scope (wave2)"
-  ],
-  [
-   336,
-   "Q206101",
-   "non-Islamic subject / modern politics / out of scope (wave2)"
-  ],
-  [
-   338,
-   "Q437791",
-   "non-Islamic subject / modern politics / out of scope (wave2)"
-  ],
-  [
-   339,
-   "Q557337",
-   "non-Islamic subject / modern politics / out of scope (wave2)"
-  ],
-  [
-   343,
-   "Q848386",
-   "non-Islamic subject / modern politics / out of scope (wave2)"
-  ],
-  [
-   344,
-   "Q957586",
-   "non-Islamic subject / modern politics / out of scope (wave2)"
-  ],
-  [
-   345,
-   "Q1059073",
-   "non-Islamic subject / modern politics / out of scope (wave2)"
-  ],
-  [
-   346,
-   "Q1145236",
-   "non-Islamic subject / modern politics / out of scope (wave2)"
-  ],
-  [
-   347,
-   "Q1252408",
-   "non-Islamic subject / modern politics / out of scope (wave2)"
-  ],
-  [
-   350,
-   "Q250652",
-   "non-Islamic subject / modern politics / out of scope (wave2)"
-  ],
-  [
-   351,
-   "Q27429856",
-   "non-Islamic subject / modern politics / out of scope (wave2)"
-  ],
-  [
-   352,
-   "Q316654",
-   "non-Islamic subject / modern politics / out of scope (wave2)"
-  ],
-  [
-   353,
-   "Q317091",
-   "non-Islamic subject / modern politics / out of scope (wave2)"
-  ],
-  [
-   354,
-   "Q327085",
-   "non-Islamic subject / modern politics / out of scope (wave2)"
-  ],
-  [
-   356,
-   "Q420810",
-   "non-Islamic subject / modern politics / out of scope (wave2)"
-  ],
-  [
-   357,
-   "Q622438",
-   "non-Islamic subject / modern politics / out of scope (wave2)"
-  ],
-  [
-   358,
-   "Q644464",
-   "non-Islamic subject / modern politics / out of scope (wave2)"
-  ],
-  [
-   359,
-   "Q706183",
-   "non-Islamic subject / modern politics / out of scope (wave2)"
-  ],
-  [
-   362,
-   "Q850590",
-   "non-Islamic subject / modern politics / out of scope (wave2)"
-  ],
-  [
-   363,
-   "Q910180",
-   "non-Islamic subject / modern politics / out of scope (wave2)"
-  ],
-  [
-   364,
-   "Q937255",
-   "non-Islamic subject / modern politics / out of scope (wave2)"
-  ],
-  [
-   366,
-   "Q1154819",
-   "non-Islamic subject / modern politics / out of scope (wave2)"
-  ],
-  [
-   367,
-   "Q123285238",
-   "non-Islamic subject / modern politics / out of scope (wave2)"
-  ],
-  [
-   369,
-   "Q353547",
-   "non-Islamic subject / modern politics / out of scope (wave2)"
-  ],
-  [
-   371,
-   "Q486831",
-   "non-Islamic subject / modern politics / out of scope (wave2)"
-  ],
-  [
-   373,
-   "Q5679009",
-   "non-Islamic subject / modern politics / out of scope (wave2)"
-  ],
-  [
-   374,
-   "Q596373",
-   "non-Islamic subject / modern politics / out of scope (wave2)"
-  ],
-  [
-   375,
-   "Q62364",
-   "non-Islamic subject / modern politics / out of scope (wave2)"
-  ],
-  [
-   376,
-   "Q631163",
-   "non-Islamic subject / modern politics / out of scope (wave2)"
-  ],
-  [
-   380,
-   "Q917702",
-   "non-Islamic subject / modern politics / out of scope (wave2)"
-  ],
-  [
-   383,
-   "Q1130266",
-   "non-Islamic subject / modern politics / out of scope (wave2)"
-  ],
-  [
-   384,
-   "Q1136575",
-   "non-Islamic subject / modern politics / out of scope (wave2)"
-  ],
-  [
-   385,
-   "Q118618",
-   "non-Islamic subject / modern politics / out of scope (wave2)"
-  ],
-  [
-   388,
-   "Q200693",
-   "non-Islamic subject / modern politics / out of scope (wave2)"
-  ],
-  [
-   389,
-   "Q247253",
-   "non-Islamic subject / modern politics / out of scope (wave2)"
-  ],
-  [
-   390,
-   "Q349263",
-   "non-Islamic subject / modern politics / out of scope (wave2)"
-  ],
-  [
-   391,
-   "Q356568",
-   "non-Islamic subject / modern politics / out of scope (wave2)"
-  ],
-  [
-   393,
-   "Q3986360",
-   "non-Islamic subject / modern politics / out of scope (wave2)"
-  ],
-  [
-   394,
-   "Q528415",
-   "non-Islamic subject / modern politics / out of scope (wave2)"
-  ],
-  [
-   397,
-   "Q645719",
-   "non-Islamic subject / modern politics / out of scope (wave2)"
-  ],
-  [
-   398,
-   "Q646085",
-   "non-Islamic subject / modern politics / out of scope (wave2)"
-  ],
-  [
-   399,
-   "Q666935",
-   "non-Islamic subject / modern politics / out of scope (wave2)"
-  ],
-  [
-   401,
-   "Q725404",
-   "non-Islamic subject / modern politics / out of scope (wave2)"
-  ],
-  [
-   403,
-   "Q867537",
-   "non-Islamic subject / modern politics / out of scope (wave2)"
-  ],
-  [
-   404,
-   "Q874234",
-   "non-Islamic subject / modern politics / out of scope (wave2)"
-  ],
-  [
-   405,
-   "Q88158",
-   "non-Islamic subject / modern politics / out of scope (wave2)"
-  ],
-  [
-   406,
-   "Q1076004",
-   "non-Islamic subject / modern politics / out of scope (wave2)"
-  ],
-  [
-   407,
-   "Q13360213",
-   "non-Islamic subject / modern politics / out of scope (wave2)"
-  ],
-  [
-   408,
-   "Q147220",
-   "non-Islamic subject / modern politics / out of scope (wave2)"
-  ],
-  [
-   414,
-   "Q369608",
-   "non-Islamic subject / modern politics / out of scope (wave2)"
-  ],
-  [
-   416,
-   "Q483039",
-   "non-Islamic subject / modern politics / out of scope (wave2)"
-  ],
-  [
-   417,
-   "Q496950",
-   "non-Islamic subject / modern politics / out of scope (wave2)"
-  ],
-  [
-   423,
-   "Q867541",
-   "non-Islamic subject / modern politics / out of scope (wave2)"
-  ],
-  [
-   425,
-   "Q912192",
-   "non-Islamic subject / modern politics / out of scope (wave2)"
-  ],
-  [
-   426,
-   "Q944941",
-   "non-Islamic subject / modern politics / out of scope (wave2)"
-  ],
-  [
-   428,
-   "Q1123987",
-   "non-Islamic subject / modern politics / out of scope (wave2)"
-  ],
-  [
-   430,
-   "Q1370087",
-   "non-Islamic subject / modern politics / out of scope (wave2)"
-  ],
-  [
-   432,
-   "Q2047548",
-   "non-Islamic subject / modern politics / out of scope (wave2)"
-  ],
-  [
-   433,
-   "Q2344561",
-   "non-Islamic subject / modern politics / out of scope (wave2)"
-  ],
-  [
-   438,
-   "Q289427",
-   "non-Islamic subject / modern politics / out of scope (wave2)"
-  ],
-  [
-   439,
-   "Q339291",
-   "non-Islamic subject / modern politics / out of scope (wave2)"
-  ],
-  [
-   441,
-   "Q454703",
-   "non-Islamic subject / modern politics / out of scope (wave2)"
-  ],
-  [
-   442,
-   "Q469299",
-   "non-Islamic subject / modern politics / out of scope (wave2)"
-  ],
-  [
-   444,
-   "Q564981",
-   "non-Islamic subject / modern politics / out of scope (wave2)"
-  ],
-  [
-   445,
-   "Q597051",
-   "non-Islamic subject / modern politics / out of scope (wave2)"
-  ],
-  [
-   446,
-   "Q611089",
-   "non-Islamic subject / modern politics / out of scope (wave2)"
-  ],
-  [
-   448,
-   "Q678259",
-   "non-Islamic subject / modern politics / out of scope (wave2)"
-  ],
-  [
-   449,
-   "Q780845",
-   "non-Islamic subject / modern politics / out of scope (wave2)"
-  ],
-  [
-   450,
-   "Q830626",
-   "non-Islamic subject / modern politics / out of scope (wave2)"
-  ],
-  [
-   454,
-   "Q976827",
-   "non-Islamic subject / modern politics / out of scope (wave2)"
-  ],
-  [
-   455,
-   "Q1164788",
-   "non-Islamic subject / modern politics / out of scope (wave2)"
-  ],
-  [
-   457,
-   "Q167314",
-   "non-Islamic subject / modern politics / out of scope (wave2)"
-  ],
-  [
-   459,
-   "Q1842866",
-   "non-Islamic subject / modern politics / out of scope (wave2)"
-  ],
-  [
-   461,
-   "Q2000542",
-   "non-Islamic subject / modern politics / out of scope (wave2)"
-  ],
-  [
-   462,
-   "Q2628708",
-   "non-Islamic subject / modern politics / out of scope (wave2)"
-  ],
-  [
-   463,
-   "Q283364",
-   "non-Islamic subject / modern politics / out of scope (wave2)"
-  ],
-  [
-   465,
-   "Q3111454",
-   "non-Islamic subject / modern politics / out of scope (wave2)"
-  ],
-  [
-   467,
-   "Q321783",
-   "non-Islamic subject / modern politics / out of scope (wave2)"
-  ],
-  [
-   468,
-   "Q383614",
-   "non-Islamic subject / modern politics / out of scope (wave2)"
-  ],
-  [
-   469,
-   "Q482631",
-   "non-Islamic subject / modern politics / out of scope (wave2)"
-  ],
-  [
-   470,
-   "Q578771",
-   "non-Islamic subject / modern politics / out of scope (wave2)"
-  ],
-  [
-   471,
-   "Q655480",
-   "non-Islamic subject / modern politics / out of scope (wave2)"
-  ],
-  [
-   473,
-   "Q7722735",
-   "non-Islamic subject / modern politics / out of scope (wave2)"
-  ],
-  [
-   478,
-   "Q1517884",
-   "non-Islamic subject / modern politics / out of scope (wave2)"
-  ],
-  [
-   479,
-   "Q1585785",
-   "non-Islamic subject / modern politics / out of scope (wave2)"
-  ],
-  [
-   480,
-   "Q18071930",
-   "non-Islamic subject / modern politics / out of scope (wave2)"
-  ],
-  [
-   481,
-   "Q181146",
-   "non-Islamic subject / modern politics / out of scope (wave2)"
-  ],
-  [
-   484,
-   "Q247595",
-   "non-Islamic subject / modern politics / out of scope (wave2)"
-  ],
-  [
-   485,
-   "Q311726",
-   "non-Islamic subject / modern politics / out of scope (wave2)"
-  ],
-  [
-   486,
-   "Q318980",
-   "non-Islamic subject / modern politics / out of scope (wave2)"
-  ],
-  [
-   487,
-   "Q342360",
-   "non-Islamic subject / modern politics / out of scope (wave2)"
-  ],
-  [
-   489,
-   "Q4392418",
-   "non-Islamic subject / modern politics / out of scope (wave2)"
-  ],
-  [
-   490,
-   "Q561218",
-   "non-Islamic subject / modern politics / out of scope (wave2)"
-  ],
-  [
-   491,
-   "Q573972",
-   "non-Islamic subject / modern politics / out of scope (wave2)"
-  ],
-  [
-   492,
-   "Q590605",
-   "non-Islamic subject / modern politics / out of scope (wave2)"
-  ],
-  [
-   493,
-   "Q599223",
-   "non-Islamic subject / modern politics / out of scope (wave2)"
-  ],
-  [
-   495,
-   "Q625133",
-   "non-Islamic subject / modern politics / out of scope (wave2)"
-  ],
-  [
-   496,
-   "Q698281",
-   "non-Islamic subject / modern politics / out of scope (wave2)"
-  ],
-  [
-   498,
-   "Q815177",
-   "non-Islamic subject / modern politics / out of scope (wave2)"
-  ],
-  [
-   500,
-   "Q915851",
-   "non-Islamic subject / modern politics / out of scope (wave2)"
-  ],
-  [
-   501,
-   "Q1218608",
-   "non-Islamic subject / modern politics / out of scope (wave2)"
-  ],
-  [
-   502,
-   "Q123912788",
-   "non-Islamic subject / modern politics / out of scope (wave2)"
-  ],
-  [
-   503,
-   "Q12497177",
-   "non-Islamic subject / modern politics / out of scope (wave2)"
-  ],
-  [
-   505,
-   "Q1367970",
-   "non-Islamic subject / modern politics / out of scope (wave2)"
-  ],
-  [
-   507,
-   "Q166015",
-   "non-Islamic subject / modern politics / out of scope (wave2)"
-  ],
-  [
-   508,
-   "Q19682450",
-   "non-Islamic subject / modern politics / out of scope (wave2)"
-  ],
-  [
-   509,
-   "Q1987213",
-   "non-Islamic subject / modern politics / out of scope (wave2)"
-  ],
-  [
-   511,
-   "Q243590",
-   "non-Islamic subject / modern politics / out of scope (wave2)"
-  ],
-  [
-   512,
-   "Q29242",
-   "non-Islamic subject / modern politics / out of scope (wave2)"
-  ],
-  [
-   515,
-   "Q483821",
-   "non-Islamic subject / modern politics / out of scope (wave2)"
-  ],
-  [
-   516,
-   "Q484966",
-   "non-Islamic subject / modern politics / out of scope (wave2)"
-  ],
-  [
-   518,
-   "Q605675",
-   "non-Islamic subject / modern politics / out of scope (wave2)"
-  ],
-  [
-   519,
-   "Q636365",
-   "non-Islamic subject / modern politics / out of scope (wave2)"
-  ],
-  [
-   520,
-   "Q673265",
-   "non-Islamic subject / modern politics / out of scope (wave2)"
-  ],
-  [
-   521,
-   "Q676093",
-   "non-Islamic subject / modern politics / out of scope (wave2)"
-  ],
-  [
-   523,
-   "Q734539",
-   "non-Islamic subject / modern politics / out of scope (wave2)"
-  ],
-  [
-   525,
-   "Q79220",
-   "non-Islamic subject / modern politics / out of scope (wave2)"
-  ],
-  [
-   527,
-   "Q1049259",
-   "non-Islamic subject / modern politics / out of scope (wave2)"
-  ],
-  [
-   528,
-   "Q1087557",
-   "non-Islamic subject / modern politics / out of scope (wave2)"
-  ],
-  [
-   530,
-   "Q1143379",
-   "non-Islamic subject / modern politics / out of scope (wave2)"
-  ],
-  [
-   532,
-   "Q1229016",
-   "non-Islamic subject / modern politics / out of scope (wave2)"
-  ],
-  [
-   533,
-   "Q1429256",
-   "non-Islamic subject / modern politics / out of scope (wave2)"
-  ],
-  [
-   535,
-   "Q161156",
-   "non-Islamic subject / modern politics / out of scope (wave2)"
-  ],
-  [
-   536,
-   "Q170400",
-   "non-Islamic subject / modern politics / out of scope (wave2)"
-  ],
-  [
-   537,
-   "Q17512479",
-   "non-Islamic subject / modern politics / out of scope (wave2)"
-  ],
-  [
-   540,
-   "Q2571455",
-   "non-Islamic subject / modern politics / out of scope (wave2)"
-  ],
-  [
-   542,
-   "Q353633",
-   "non-Islamic subject / modern politics / out of scope (wave2)"
-  ],
-  [
-   543,
-   "Q456575",
-   "non-Islamic subject / modern politics / out of scope (wave2)"
-  ],
-  [
-   547,
-   "Q705553",
-   "non-Islamic subject / modern politics / out of scope (wave2)"
-  ],
-  [
-   548,
-   "Q705813",
-   "non-Islamic subject / modern politics / out of scope (wave2)"
-  ],
-  [
-   549,
-   "Q714744",
-   "non-Islamic subject / modern politics / out of scope (wave2)"
-  ],
-  [
-   550,
-   "Q714749",
-   "non-Islamic subject / modern politics / out of scope (wave2)"
-  ],
-  [
-   551,
-   "Q737907",
-   "non-Islamic subject / modern politics / out of scope (wave2)"
-  ],
-  [
-   552,
-   "Q7461",
-   "non-Islamic subject / modern politics / out of scope (wave2)"
-  ],
-  [
-   555,
-   "Q127299",
-   "non-Islamic subject / modern politics / out of scope (wave2)"
-  ],
-  [
-   556,
-   "Q130388076",
-   "non-Islamic subject / modern politics / out of scope (wave2)"
-  ],
-  [
-   557,
-   "Q1322445",
-   "non-Islamic subject / modern politics / out of scope (wave2)"
-  ],
-  [
-   558,
-   "Q1361929",
-   "non-Islamic subject / modern politics / out of scope (wave2)"
-  ],
-  [
-   559,
-   "Q1520581",
-   "non-Islamic subject / modern politics / out of scope (wave2)"
-  ],
-  [
-   560,
-   "Q164743",
-   "non-Islamic subject / modern politics / out of scope (wave2)"
-  ],
-  [
-   561,
-   "Q2086556",
-   "non-Islamic subject / modern politics / out of scope (wave2)"
-  ],
-  [
-   566,
-   "Q26690015",
-   "non-Islamic subject / modern politics / out of scope (wave2)"
-  ],
-  [
-   569,
-   "Q371345",
-   "non-Islamic subject / modern politics / out of scope (wave2)"
-  ],
-  [
-   570,
-   "Q468214",
-   "non-Islamic subject / modern politics / out of scope (wave2)"
-  ],
-  [
-   572,
-   "Q475338",
-   "non-Islamic subject / modern politics / out of scope (wave2)"
-  ],
-  [
-   573,
-   "Q486886",
-   "non-Islamic subject / modern politics / out of scope (wave2)"
-  ],
-  [
-   574,
-   "Q512934",
-   "non-Islamic subject / modern politics / out of scope (wave2)"
-  ],
-  [
-   576,
-   "Q568640",
-   "non-Islamic subject / modern politics / out of scope (wave2)"
-  ],
-  [
-   577,
-   "Q611071",
-   "non-Islamic subject / modern politics / out of scope (wave2)"
-  ],
-  [
-   578,
-   "Q622577",
-   "non-Islamic subject / modern politics / out of scope (wave2)"
-  ],
-  [
-   579,
-   "Q631972",
-   "non-Islamic subject / modern politics / out of scope (wave2)"
-  ],
-  [
-   580,
-   "Q707238",
-   "non-Islamic subject / modern politics / out of scope (wave2)"
-  ],
-  [
-   581,
-   "Q757870",
-   "non-Islamic subject / modern politics / out of scope (wave2)"
-  ],
-  [
-   584,
-   "Q975430",
-   "non-Islamic subject / modern politics / out of scope (wave2)"
-  ],
-  [
-   585,
-   "Q1003322",
-   "non-Islamic subject / modern politics / out of scope (wave2)"
-  ],
-  [
-   586,
-   "Q1018969",
-   "non-Islamic subject / modern politics / out of scope (wave2)"
-  ],
-  [
-   587,
-   "Q1052171",
-   "non-Islamic subject / modern politics / out of scope (wave2)"
-  ],
-  [
-   588,
-   "Q130374882",
-   "non-Islamic subject / modern politics / out of scope (wave2)"
-  ],
-  [
-   589,
-   "Q131401087",
-   "non-Islamic subject / modern politics / out of scope (wave2)"
-  ],
-  [
-   590,
-   "Q1323932",
-   "non-Islamic subject / modern politics / out of scope (wave2)"
-  ],
-  [
-   591,
-   "Q1368885",
-   "non-Islamic subject / modern politics / out of scope (wave2)"
-  ],
-  [
-   593,
-   "Q151663",
-   "non-Islamic subject / modern politics / out of scope (wave2)"
-  ],
-  [
-   597,
-   "Q2428714",
-   "non-Islamic subject / modern politics / out of scope (wave2)"
-  ],
-  [
-   601,
-   "Q283120",
-   "non-Islamic subject / modern politics / out of scope (wave2)"
-  ],
-  [
-   602,
-   "Q28769",
-   "non-Islamic subject / modern politics / out of scope (wave2)"
-  ],
-  [
-   604,
-   "Q313435",
-   "non-Islamic subject / modern politics / out of scope (wave2)"
-  ],
-  [
-   605,
-   "Q375278",
-   "non-Islamic subject / modern politics / out of scope (wave2)"
-  ],
-  [
-   610,
-   "Q630922",
-   "non-Islamic subject / modern politics / out of scope (wave2)"
-  ],
-  [
-   612,
-   "Q663405",
-   "non-Islamic subject / modern politics / out of scope (wave2)"
-  ],
-  [
-   613,
-   "Q699477",
-   "non-Islamic subject / modern politics / out of scope (wave2)"
-  ],
-  [
-   616,
-   "Q756807",
-   "non-Islamic subject / modern politics / out of scope (wave2)"
-  ],
-  [
-   617,
-   "Q815160",
-   "non-Islamic subject / modern politics / out of scope (wave2)"
-  ],
-  [
-   618,
-   "Q8655",
-   "non-Islamic subject / modern politics / out of scope (wave2)"
-  ],
-  [
-   619,
-   "Q965258",
-   "non-Islamic subject / modern politics / out of scope (wave2)"
-  ],
-  [
-   621,
-   "Q1066641",
-   "non-Islamic subject / modern politics / out of scope (wave2)"
-  ],
-  [
-   622,
-   "Q1072510",
-   "non-Islamic subject / modern politics / out of scope (wave2)"
-  ],
-  [
-   623,
-   "Q1190696",
-   "non-Islamic subject / modern politics / out of scope (wave2)"
-  ],
-  [
-   624,
-   "Q125465957",
-   "non-Islamic subject / modern politics / out of scope (wave2)"
-  ],
-  [
-   627,
-   "Q1338405",
-   "non-Islamic subject / modern politics / out of scope (wave2)"
-  ],
-  [
-   628,
-   "Q1345223",
-   "non-Islamic subject / modern politics / out of scope (wave2)"
-  ],
-  [
-   629,
-   "Q1348955",
-   "non-Islamic subject / modern politics / out of scope (wave2)"
-  ],
-  [
-   630,
-   "Q136190686",
-   "non-Islamic subject / modern politics / out of scope (wave2)"
-  ],
-  [
-   631,
-   "Q147994",
-   "non-Islamic subject / modern politics / out of scope (wave2)"
-  ],
-  [
-   633,
-   "Q1519034",
-   "non-Islamic subject / modern politics / out of scope (wave2)"
-  ],
-  [
-   635,
-   "Q1545405",
-   "non-Islamic subject / modern politics / out of scope (wave2)"
-  ],
-  [
-   636,
-   "Q1577652",
-   "non-Islamic subject / modern politics / out of scope (wave2)"
-  ],
-  [
-   638,
-   "Q1721042",
-   "non-Islamic subject / modern politics / out of scope (wave2)"
-  ],
-  [
-   639,
-   "Q18357664",
-   "non-Islamic subject / modern politics / out of scope (wave2)"
-  ],
-  [
-   640,
-   "Q1946569",
-   "non-Islamic subject / modern politics / out of scope (wave2)"
-  ],
-  [
-   641,
-   "Q223622",
-   "non-Islamic subject / modern politics / out of scope (wave2)"
-  ],
-  [
-   642,
-   "Q225373",
-   "non-Islamic subject / modern politics / out of scope (wave2)"
-  ],
-  [
-   648,
-   "Q2757538",
-   "non-Islamic subject / modern politics / out of scope (wave2)"
-  ],
-  [
-   650,
-   "Q30041564",
-   "non-Islamic subject / modern politics / out of scope (wave2)"
-  ],
-  [
-   652,
-   "Q345276",
-   "non-Islamic subject / modern politics / out of scope (wave2)"
-  ],
-  [
-   654,
-   "Q423525",
-   "non-Islamic subject / modern politics / out of scope (wave2)"
-  ],
-  [
-   655,
-   "Q482852",
-   "non-Islamic subject / modern politics / out of scope (wave2)"
-  ],
-  [
-   656,
-   "Q532399",
-   "non-Islamic subject / modern politics / out of scope (wave2)"
-  ],
-  [
-   657,
-   "Q549506",
-   "non-Islamic subject / modern politics / out of scope (wave2)"
-  ],
-  [
-   658,
-   "Q644589",
-   "non-Islamic subject / modern politics / out of scope (wave2)"
-  ],
-  [
-   659,
-   "Q677383",
-   "non-Islamic subject / modern politics / out of scope (wave2)"
-  ],
-  [
-   660,
-   "Q682399",
-   "non-Islamic subject / modern politics / out of scope (wave2)"
-  ],
-  [
-   662,
-   "Q692723",
-   "non-Islamic subject / modern politics / out of scope (wave2)"
-  ],
-  [
-   663,
-   "Q831361",
-   "non-Islamic subject / modern politics / out of scope (wave2)"
-  ],
-  [
-   665,
-   "Q878102",
-   "non-Islamic subject / modern politics / out of scope (wave2)"
-  ],
-  [
-   666,
-   "Q930376",
-   "non-Islamic subject / modern politics / out of scope (wave2)"
-  ],
-  [
-   667,
-   "Q1028296",
-   "non-Islamic subject / modern politics / out of scope (wave2)"
-  ],
-  [
-   668,
-   "Q1072284",
-   "non-Islamic subject / modern politics / out of scope (wave2)"
-  ],
-  [
-   669,
-   "Q1112125",
-   "non-Islamic subject / modern politics / out of scope (wave2)"
-  ],
-  [
-   671,
-   "Q1242472",
-   "non-Islamic subject / modern politics / out of scope (wave2)"
-  ],
-  [
-   673,
-   "Q1290590",
-   "non-Islamic subject / modern politics / out of scope (wave2)"
-  ],
-  [
-   674,
-   "Q131355384",
-   "non-Islamic subject / modern politics / out of scope (wave2)"
-  ],
-  [
-   675,
-   "Q1330136",
-   "non-Islamic subject / modern politics / out of scope (wave2)"
-  ],
-  [
-   678,
-   "Q1537159",
-   "non-Islamic subject / modern politics / out of scope (wave2)"
-  ],
-  [
-   679,
-   "Q19834",
-   "non-Islamic subject / modern politics / out of scope (wave2)"
-  ],
-  [
-   682,
-   "Q2187746",
-   "non-Islamic subject / modern politics / out of scope (wave2)"
-  ],
-  [
-   686,
-   "Q2991838",
-   "non-Islamic subject / modern politics / out of scope (wave2)"
-  ],
-  [
-   687,
-   "Q326668",
-   "non-Islamic subject / modern politics / out of scope (wave2)"
-  ],
-  [
-   690,
-   "Q492998",
-   "non-Islamic subject / modern politics / out of scope (wave2)"
-  ],
-  [
-   691,
-   "Q569877",
-   "non-Islamic subject / modern politics / out of scope (wave2)"
-  ],
-  [
-   693,
-   "Q608932",
-   "non-Islamic subject / modern politics / out of scope (wave2)"
-  ],
-  [
-   694,
-   "Q661534",
-   "non-Islamic subject / modern politics / out of scope (wave2)"
-  ],
-  [
-   696,
-   "Q697053",
-   "non-Islamic subject / modern politics / out of scope (wave2)"
-  ],
-  [
-   697,
-   "Q704831",
-   "non-Islamic subject / modern politics / out of scope (wave2)"
-  ],
-  [
-   699,
-   "Q83755",
-   "non-Islamic subject / modern politics / out of scope (wave2)"
-  ],
-  [
-   700,
-   "Q843588",
-   "non-Islamic subject / modern politics / out of scope (wave2)"
-  ],
-  [
-   702,
-   "Q930795",
-   "non-Islamic subject / modern politics / out of scope (wave2)"
-  ],
-  [
-   704,
-   "Q1034173",
-   "non-Islamic subject / modern politics / out of scope (wave2)"
-  ],
-  [
-   708,
-   "Q1355145",
-   "non-Islamic subject / modern politics / out of scope (wave2)"
-  ],
-  [
-   711,
-   "Q1472490",
-   "non-Islamic subject / modern politics / out of scope (wave2)"
-  ],
-  [
-   712,
-   "Q1760491",
-   "non-Islamic subject / modern politics / out of scope (wave2)"
-  ],
-  [
-   713,
-   "Q1785978",
-   "non-Islamic subject / modern politics / out of scope (wave2)"
-  ],
-  [
-   715,
-   "Q187333",
-   "non-Islamic subject / modern politics / out of scope (wave2)"
-  ],
-  [
-   716,
-   "Q198097",
-   "non-Islamic subject / modern politics / out of scope (wave2)"
-  ],
-  [
-   720,
-   "Q2330335",
-   "non-Islamic subject / modern politics / out of scope (wave2)"
-  ],
-  [
-   721,
-   "Q2330391",
-   "non-Islamic subject / modern politics / out of scope (wave2)"
-  ],
-  [
-   723,
-   "Q234048",
-   "non-Islamic subject / modern politics / out of scope (wave2)"
-  ],
-  [
-   724,
-   "Q2370784",
-   "non-Islamic subject / modern politics / out of scope (wave2)"
-  ],
-  [
-   725,
-   "Q2376970",
-   "non-Islamic subject / modern politics / out of scope (wave2)"
-  ],
-  [
-   726,
-   "Q247395",
-   "non-Islamic subject / modern politics / out of scope (wave2)"
-  ],
-  [
-   732,
-   "Q286611",
-   "non-Islamic subject / modern politics / out of scope (wave2)"
-  ],
-  [
-   733,
-   "Q338708",
-   "non-Islamic subject / modern politics / out of scope (wave2)"
-  ],
-  [
-   734,
-   "Q383067",
-   "non-Islamic subject / modern politics / out of scope (wave2)"
-  ],
-  [
-   738,
-   "Q558159",
-   "non-Islamic subject / modern politics / out of scope (wave2)"
-  ],
-  [
-   739,
-   "Q565148",
-   "non-Islamic subject / modern politics / out of scope (wave2)"
-  ],
-  [
-   742,
-   "Q61895",
-   "non-Islamic subject / modern politics / out of scope (wave2)"
-  ],
-  [
-   749,
-   "Q819575",
-   "non-Islamic subject / modern politics / out of scope (wave2)"
-  ],
-  [
-   752,
-   "Q931371",
-   "non-Islamic subject / modern politics / out of scope (wave2)"
-  ],
-  [
-   753,
-   "Q932599",
-   "non-Islamic subject / modern politics / out of scope (wave2)"
-  ],
-  [
-   754,
-   "Q942688",
-   "non-Islamic subject / modern politics / out of scope (wave2)"
-  ],
-  [
-   756,
-   "Q1069936",
-   "non-Islamic subject / modern politics / out of scope (wave2)"
-  ],
-  [
-   758,
-   "Q112501",
-   "non-Islamic subject / modern politics / out of scope (wave2)"
-  ],
-  [
-   762,
-   "Q1192398",
-   "non-Islamic subject / modern politics / out of scope (wave2)"
-  ],
-  [
-   764,
-   "Q130354504",
-   "non-Islamic subject / modern politics / out of scope (wave2)"
-  ],
-  [
-   765,
-   "Q1393493",
-   "non-Islamic subject / modern politics / out of scope (wave2)"
-  ],
-  [
-   767,
-   "Q1499188",
-   "non-Islamic subject / modern politics / out of scope (wave2)"
-  ],
-  [
-   768,
-   "Q1591054",
-   "non-Islamic subject / modern politics / out of scope (wave2)"
-  ],
-  [
-   769,
-   "Q1601019",
-   "non-Islamic subject / modern politics / out of scope (wave2)"
-  ],
-  [
-   771,
-   "Q1942724",
-   "non-Islamic subject / modern politics / out of scope (wave2)"
-  ],
-  [
-   772,
-   "Q1968086",
-   "non-Islamic subject / modern politics / out of scope (wave2)"
-  ],
-  [
-   775,
-   "Q2034331",
-   "non-Islamic subject / modern politics / out of scope (wave2)"
-  ],
-  [
-   776,
-   "Q2237280",
-   "non-Islamic subject / modern politics / out of scope (wave2)"
-  ],
-  [
-   779,
-   "Q2479435",
-   "non-Islamic subject / modern politics / out of scope (wave2)"
-  ],
-  [
-   780,
-   "Q2524228",
-   "non-Islamic subject / modern politics / out of scope (wave2)"
-  ],
-  [
-   782,
-   "Q2739100",
-   "non-Islamic subject / modern politics / out of scope (wave2)"
-  ],
-  [
-   783,
-   "Q277392",
-   "non-Islamic subject / modern politics / out of scope (wave2)"
-  ],
-  [
-   785,
-   "Q3274200",
-   "non-Islamic subject / modern politics / out of scope (wave2)"
-  ],
-  [
-   786,
-   "Q3427966",
-   "non-Islamic subject / modern politics / out of scope (wave2)"
-  ],
-  [
-   787,
-   "Q400624",
-   "non-Islamic subject / modern politics / out of scope (wave2)"
-  ],
-  [
-   790,
-   "Q570515",
-   "non-Islamic subject / modern politics / out of scope (wave2)"
-  ],
-  [
-   791,
-   "Q588110",
-   "non-Islamic subject / modern politics / out of scope (wave2)"
-  ],
-  [
-   792,
-   "Q593045",
-   "non-Islamic subject / modern politics / out of scope (wave2)"
-  ],
-  [
-   794,
-   "Q645474",
-   "non-Islamic subject / modern politics / out of scope (wave2)"
-  ],
-  [
-   795,
-   "Q649971",
-   "non-Islamic subject / modern politics / out of scope (wave2)"
-  ],
-  [
-   796,
-   "Q662491",
-   "non-Islamic subject / modern politics / out of scope (wave2)"
-  ],
-  [
-   798,
-   "Q695925",
-   "non-Islamic subject / modern politics / out of scope (wave2)"
-  ],
-  [
-   801,
-   "Q767844",
-   "non-Islamic subject / modern politics / out of scope (wave2)"
-  ],
-  [
-   803,
-   "Q791185",
-   "non-Islamic subject / modern politics / out of scope (wave2)"
-  ],
-  [
-   804,
-   "Q860317",
-   "non-Islamic subject / modern politics / out of scope (wave2)"
-  ],
-  [
-   805,
-   "Q879941",
-   "non-Islamic subject / modern politics / out of scope (wave2)"
-  ],
-  [
-   807,
-   "Q1029706",
-   "non-Islamic subject / modern politics / out of scope (wave2)"
-  ],
-  [
-   809,
-   "Q1050082",
-   "non-Islamic subject / modern politics / out of scope (wave2)"
-  ],
-  [
-   810,
-   "Q1144592",
-   "non-Islamic subject / modern politics / out of scope (wave2)"
-  ],
-  [
-   811,
-   "Q1199651",
-   "non-Islamic subject / modern politics / out of scope (wave2)"
-  ],
-  [
-   812,
-   "Q1205254",
-   "non-Islamic subject / modern politics / out of scope (wave2)"
-  ],
-  [
-   814,
-   "Q1267721",
-   "non-Islamic subject / modern politics / out of scope (wave2)"
-  ],
-  [
-   817,
-   "Q1461235",
-   "non-Islamic subject / modern politics / out of scope (wave2)"
-  ],
-  [
-   818,
-   "Q1476042",
-   "non-Islamic subject / modern politics / out of scope (wave2)"
-  ],
-  [
-   820,
-   "Q15542964",
-   "non-Islamic subject / modern politics / out of scope (wave2)"
-  ],
-  [
-   821,
-   "Q1572046",
-   "non-Islamic subject / modern politics / out of scope (wave2)"
-  ],
-  [
-   822,
-   "Q163298",
-   "non-Islamic subject / modern politics / out of scope (wave2)"
-  ],
-  [
-   823,
-   "Q1638733",
-   "non-Islamic subject / modern politics / out of scope (wave2)"
-  ],
-  [
-   826,
-   "Q182708",
-   "non-Islamic subject / modern politics / out of scope (wave2)"
-  ],
-  [
-   827,
-   "Q187499",
-   "non-Islamic subject / modern politics / out of scope (wave2)"
-  ],
-  [
-   828,
-   "Q19838",
-   "non-Islamic subject / modern politics / out of scope (wave2)"
-  ],
-  [
-   829,
-   "Q2033910",
-   "non-Islamic subject / modern politics / out of scope (wave2)"
-  ],
-  [
-   830,
-   "Q2047566",
-   "non-Islamic subject / modern politics / out of scope (wave2)"
-  ],
-  [
-   831,
-   "Q2068670",
-   "non-Islamic subject / modern politics / out of scope (wave2)"
-  ],
-  [
-   832,
-   "Q2080325",
-   "non-Islamic subject / modern politics / out of scope (wave2)"
-  ],
-  [
-   833,
-   "Q2237751",
-   "non-Islamic subject / modern politics / out of scope (wave2)"
-  ],
-  [
-   834,
-   "Q2326446",
-   "non-Islamic subject / modern politics / out of scope (wave2)"
-  ],
-  [
-   837,
-   "Q2522104",
-   "non-Islamic subject / modern politics / out of scope (wave2)"
-  ],
-  [
-   838,
-   "Q25591101",
-   "non-Islamic subject / modern politics / out of scope (wave2)"
-  ],
-  [
-   839,
-   "Q2630165",
-   "non-Islamic subject / modern politics / out of scope (wave2)"
-  ],
-  [
-   840,
-   "Q27017",
-   "non-Islamic subject / modern politics / out of scope (wave2)"
-  ],
-  [
-   841,
-   "Q280468",
-   "non-Islamic subject / modern politics / out of scope (wave2)"
-  ],
-  [
-   843,
-   "Q300739",
-   "non-Islamic subject / modern politics / out of scope (wave2)"
-  ],
-  [
-   844,
-   "Q30140821",
-   "non-Islamic subject / modern politics / out of scope (wave2)"
-  ],
-  [
-   848,
-   "Q3636391",
-   "non-Islamic subject / modern politics / out of scope (wave2)"
-  ],
-  [
-   849,
-   "Q483291",
-   "non-Islamic subject / modern politics / out of scope (wave2)"
-  ],
-  [
-   850,
-   "Q486866",
-   "non-Islamic subject / modern politics / out of scope (wave2)"
-  ],
-  [
-   854,
-   "Q572436",
-   "non-Islamic subject / modern politics / out of scope (wave2)"
-  ],
-  [
-   860,
-   "Q638850",
-   "non-Islamic subject / modern politics / out of scope (wave2)"
-  ],
-  [
-   862,
-   "Q692381",
-   "non-Islamic subject / modern politics / out of scope (wave2)"
-  ],
-  [
-   863,
-   "Q696689",
-   "non-Islamic subject / modern politics / out of scope (wave2)"
-  ],
-  [
-   865,
-   "Q7084890",
-   "non-Islamic subject / modern politics / out of scope (wave2)"
-  ],
-  [
-   867,
-   "Q721435",
-   "non-Islamic subject / modern politics / out of scope (wave2)"
-  ],
-  [
-   872,
-   "Q105061488",
-   "non-Islamic subject / modern politics / out of scope (wave2)"
-  ],
-  [
-   873,
-   "Q10566876",
-   "non-Islamic subject / modern politics / out of scope (wave2)"
-  ],
-  [
-   874,
-   "Q1085392",
-   "non-Islamic subject / modern politics / out of scope (wave2)"
-  ],
-  [
-   876,
-   "Q113453221",
-   "non-Islamic subject / modern politics / out of scope (wave2)"
-  ],
-  [
-   877,
-   "Q1138524",
-   "non-Islamic subject / modern politics / out of scope (wave2)"
-  ],
-  [
-   878,
-   "Q1204208",
-   "non-Islamic subject / modern politics / out of scope (wave2)"
-  ],
-  [
-   879,
-   "Q1255284",
-   "non-Islamic subject / modern politics / out of scope (wave2)"
-  ],
-  [
-   880,
-   "Q1290337",
-   "non-Islamic subject / modern politics / out of scope (wave2)"
-  ],
-  [
-   881,
-   "Q133309815",
-   "non-Islamic subject / modern politics / out of scope (wave2)"
-  ],
-  [
-   882,
-   "Q1371109",
-   "non-Islamic subject / modern politics / out of scope (wave2)"
-  ],
-  [
-   883,
-   "Q1424839",
-   "non-Islamic subject / modern politics / out of scope (wave2)"
-  ],
-  [
-   884,
-   "Q1464499",
-   "non-Islamic subject / modern politics / out of scope (wave2)"
-  ],
-  [
-   885,
-   "Q147009",
-   "non-Islamic subject / modern politics / out of scope (wave2)"
-  ],
-  [
-   886,
-   "Q1492495",
-   "non-Islamic subject / modern politics / out of scope (wave2)"
-  ],
-  [
-   888,
-   "Q15430363",
-   "non-Islamic subject / modern politics / out of scope (wave2)"
-  ],
-  [
-   889,
-   "Q1584774",
-   "non-Islamic subject / modern politics / out of scope (wave2)"
-  ],
-  [
-   896,
-   "Q2073517",
-   "non-Islamic subject / modern politics / out of scope (wave2)"
-  ],
-  [
-   898,
-   "Q2307647",
-   "non-Islamic subject / modern politics / out of scope (wave2)"
-  ]
- ],
- "skipped_total": 590,
- "skipped_by_reason": {
-  "non-Islamic subject / modern politics / out of scope (wave2)": 583,
-  "link-failed:already has wikidata": 4,
-  "create-failed:file-exists": 1,
-  "audit: almohad-caliphate covers the dynasty; carries state item Q199688": 1,
-  "audit: timurid-empire already carries the state item Q484195; dynasty item kept distinct": 1
- },
- "next_index": 900,
- "batch_current": 200,
- "updated_at": "2026-10-19T23:44:49-04:00"
+  "task": "wikidata-import-wave2",
+  "candidates_total": 26951,
+  "candidates_file": "/Volumes/exmicroSD/islam-museum-harvest/wikidata-import/candidates-wave2.tsv",
+  "candidates_query": "P31 in (mosque,turbe,mausoleum,madrasa,tomb,shrine,tekke,khaneqah,palace,fort,hammam,minaret,dynasty,tribe,madhhab,battle,siege,war,military-op,rebellion,conflict,works) OR P106 in (faqih,ulema,muhaddith,theologian,calligrapher,religious leader,caliph,sultan,vizier,sufi) OR P101 in (fiqh,hadith,tafsir,kalam,sufism,islam) OR P39 in (grand vizier,caliph,sultan,vizier) — minus wave-1 decided/linked",
+  "created_ids": [
+    {
+      "i": 66,
+      "qid": "Q51884",
+      "id": "person/yuhanna-al-dimashqi"
+    },
+    {
+      "i": 68,
+      "qid": "Q170495",
+      "id": "building/topkapi-palace"
+    },
+    {
+      "i": 83,
+      "qid": "Q191057",
+      "id": "group/salafiyya"
+    },
+    {
+      "i": 92,
+      "qid": "Q189648",
+      "id": "building/humayun-tomb"
+    },
+    {
+      "i": 105,
+      "qid": "Q200855",
+      "id": "event/siege-vienna-1094"
+    },
+    {
+      "i": 131,
+      "qid": "Q193383",
+      "id": "group/al-uthman"
+    },
+    {
+      "i": 133,
+      "qid": "Q210610",
+      "id": "building/golestan-palace"
+    },
+    {
+      "i": 136,
+      "qid": "Q31711",
+      "id": "group/al-saud"
+    },
+    {
+      "i": 140,
+      "qid": "Q312952",
+      "id": "person/mirza-ghulam-ahmad-al-qadiani"
+    },
+    {
+      "i": 143,
+      "qid": "Q887684",
+      "id": "event/conquest-of-persia"
+    },
+    {
+      "i": 147,
+      "qid": "Q207600",
+      "id": "polity/aghlabid-emirate"
+    },
+    {
+      "i": 149,
+      "qid": "Q239060",
+      "id": "event/arab-revolt-1334"
+    },
+    {
+      "i": 156,
+      "qid": "Q58732",
+      "id": "event/siege-of-malta-1565"
+    },
+    {
+      "i": 164,
+      "qid": "Q4437641",
+      "id": "group/banu-abbas"
+    },
+    {
+      "i": 169,
+      "qid": "Q274141",
+      "id": "building/dolmabahce-palace"
+    },
+    {
+      "i": 180,
+      "qid": "Q1771696",
+      "id": "building/charminar"
+    },
+    {
+      "i": 186,
+      "qid": "Q373981",
+      "id": "polity/tahirid-dynasty"
+    },
+    {
+      "i": 187,
+      "qid": "Q4706020",
+      "id": "building/alamut-castle"
+    },
+    {
+      "i": 194,
+      "qid": "Q338889",
+      "id": "building/shirvanshah-palace"
+    },
+    {
+      "i": 198,
+      "qid": "Q643098",
+      "id": "building/masjid-al-shah-isfahan"
+    },
+    {
+      "i": 200,
+      "qid": "Q1481968",
+      "id": "building/jami-halab-al-kabir"
+    },
+    {
+      "i": 208,
+      "qid": "Q1455917",
+      "id": "event/conquest-of-hispania"
+    },
+    {
+      "i": 210,
+      "qid": "Q388739",
+      "id": "polity/afsharid-dynasty"
+    },
+    {
+      "i": 211,
+      "qid": "Q46069",
+      "id": "building/mazar-ahmad-yasawi"
+    },
+    {
+      "i": 213,
+      "qid": "Q492415",
+      "id": "event/battle-of-talas-133"
+    },
+    {
+      "i": 214,
+      "qid": "Q525811",
+      "id": "building/generalife"
+    },
+    {
+      "i": 215,
+      "qid": "Q605321",
+      "id": "event/battle-of-panipat-932"
+    },
+    {
+      "i": 217,
+      "qid": "Q847420",
+      "id": "polity/mamluk-dynasty-delhi"
+    },
+    {
+      "i": 225,
+      "qid": "Q498261",
+      "id": "building/alcazar-seville"
+    },
+    {
+      "i": 234,
+      "qid": "Q332543",
+      "id": "event/battle-of-the-pyramids-1213"
+    },
+    {
+      "i": 235,
+      "qid": "Q381830",
+      "id": "person/muhammad-ibn-tughluq"
+    },
+    {
+      "i": 242,
+      "qid": "Q1962312",
+      "id": "building/nasir-al-mulk-mosque-shiraz"
+    },
+    {
+      "i": 243,
+      "qid": "Q2092093",
+      "id": "event/mongol-invasions"
+    },
+    {
+      "i": 244,
+      "qid": "Q244980",
+      "id": "event/siege-of-belgrade-1456"
+    },
+    {
+      "i": 251,
+      "qid": "Q957186",
+      "id": "event/battle-of-covadonga"
+    },
+    {
+      "i": 252,
+      "qid": "Q1124402",
+      "id": "polity/tughlaq-dynasty"
+    },
+    {
+      "i": 253,
+      "qid": "Q1129036",
+      "id": "polity/alawi-dynasty-morocco"
+    },
+    {
+      "i": 255,
+      "qid": "Q11709",
+      "id": "polity/lodi-dynasty"
+    },
+    {
+      "i": 267,
+      "qid": "Q919071",
+      "id": "polity/khalji-dynasty"
+    },
+    {
+      "i": 285,
+      "qid": "Q13527812",
+      "id": "polity/achaemenid-empire"
+    },
+    {
+      "i": 293,
+      "qid": "Q31944",
+      "id": "event/mahdist-war"
+    },
+    {
+      "i": 294,
+      "qid": "Q4243",
+      "id": "building/khaneqah-sheikh-safi-ardabil"
+    },
+    {
+      "i": 302,
+      "qid": "Q743881",
+      "id": "building/bakhchysarai-palace"
+    },
+    {
+      "i": 311,
+      "qid": "Q606763",
+      "id": "building/gonbad-e-qabus"
+    },
+    {
+      "i": 313,
+      "qid": "Q657055",
+      "id": "event/greco-turkish-war-1897"
+    },
+    {
+      "i": 317,
+      "qid": "Q970799",
+      "id": "polity/wattasid-dynasty"
+    },
+    {
+      "i": 323,
+      "qid": "Q2366025",
+      "id": "group/deobandiyya"
+    },
+    {
+      "i": 330,
+      "qid": "Q766437",
+      "id": "event/rif-war"
+    },
+    {
+      "i": 331,
+      "qid": "Q829104",
+      "id": "event/russo-turkish-war-1686"
+    },
+    {
+      "i": 333,
+      "qid": "Q123210",
+      "id": "event/russo-turkish-war-1787"
+    },
+    {
+      "i": 337,
+      "qid": "Q368689",
+      "id": "event/first-serbian-uprising"
+    },
+    {
+      "i": 340,
+      "qid": "Q630259",
+      "id": "event/byzantine-ottoman-wars"
+    },
+    {
+      "i": 341,
+      "qid": "Q6579646",
+      "id": "work/mathnawi-rumi"
+    },
+    {
+      "i": 342,
+      "qid": "Q847287",
+      "id": "event/battle-of-montgisard-573"
+    },
+    {
+      "i": 348,
+      "qid": "Q142913",
+      "id": "polity/muhammad-ali-dynasty"
+    },
+    {
+      "i": 349,
+      "qid": "Q2326099",
+      "id": "event/byzantine-sasanian-war-602"
+    },
+    {
+      "i": 361,
+      "qid": "Q827472",
+      "id": "event/battle-of-ascalon-492"
+    },
+    {
+      "i": 365,
+      "qid": "Q939570",
+      "id": "event/battle-of-maritsa-1371"
+    },
+    {
+      "i": 368,
+      "qid": "Q248984",
+      "id": "event/conquest-of-the-levant"
+    },
+    {
+      "i": 370,
+      "qid": "Q46057",
+      "id": "event/palestine-arab-revolt-1936"
+    },
+    {
+      "i": 372,
+      "qid": "Q517486",
+      "id": "event/battle-of-zenta-1697"
+    },
+    {
+      "i": 377,
+      "qid": "Q690361",
+      "id": "event/ottoman-habsburg-long-war"
+    },
+    {
+      "i": 378,
+      "qid": "Q699602",
+      "id": "event/cretan-war-1645"
+    },
+    {
+      "i": 381,
+      "qid": "Q940026",
+      "id": "event/battle-of-arsuf-587"
+    },
+    {
+      "i": 382,
+      "qid": "Q940123",
+      "id": "polity/rustamid-imamate"
+    },
+    {
+      "i": 386,
+      "qid": "Q12428",
+      "id": "event/battle-of-dorylaeum-490"
+    },
+    {
+      "i": 387,
+      "qid": "Q1906014",
+      "id": "work/baburnama"
+    },
+    {
+      "i": 392,
+      "qid": "Q373650",
+      "id": "polity/sur-empire"
+    },
+    {
+      "i": 395,
+      "qid": "Q61964",
+      "id": "person/kayqubad-i"
+    },
+    {
+      "i": 396,
+      "qid": "Q642117",
+      "id": "event/siege-of-nicaea-1097"
+    },
+    {
+      "i": 219,
+      "qid": "Q123070",
+      "id": "event/russo-turkish-war-1768"
+    },
+    {
+      "i": 232,
+      "qid": "Q209312",
+      "id": "event/russo-turkish-war-1806"
+    },
+    {
+      "i": 245,
+      "qid": "Q287942",
+      "id": "event/russo-turkish-war-1828"
+    },
+    {
+      "i": 262,
+      "qid": "Q638587",
+      "id": "event/russo-turkish-war-1735"
+    },
+    {
+      "i": 297,
+      "qid": "Q631799",
+      "id": "event/russo-turkish-war-1568"
+    },
+    {
+      "i": 400,
+      "qid": "Q690470",
+      "id": "event/battle-of-mohacs-1687"
+    },
+    {
+      "i": 402,
+      "qid": "Q755966",
+      "id": "event/battle-of-nineveh-627"
+    },
+    {
+      "i": 409,
+      "qid": "Q1509619",
+      "id": "event/battle-of-bapheus-1302"
+    },
+    {
+      "i": 410,
+      "qid": "Q1519733",
+      "id": "building/masjid-kabud-tabriz"
+    },
+    {
+      "i": 411,
+      "qid": "Q15955102",
+      "id": "group/al-sasan"
+    },
+    {
+      "i": 413,
+      "qid": "Q2352054",
+      "id": "building/wazir-khan-mosque-lahore"
+    },
+    {
+      "i": 415,
+      "qid": "Q392835",
+      "id": "person/shah-waliullah-al-dahlawi"
+    },
+    {
+      "i": 418,
+      "qid": "Q606621",
+      "id": "event/siege-of-szigetvar-1566"
+    },
+    {
+      "i": 419,
+      "qid": "Q741545",
+      "id": "person/muin-al-din-al-jishti"
+    },
+    {
+      "i": 420,
+      "qid": "Q790052",
+      "id": "building/banya-bashi-mosque-sofia"
+    },
+    {
+      "i": 421,
+      "qid": "Q815116",
+      "id": "event/siege-of-acre-1189"
+    },
+    {
+      "i": 422,
+      "qid": "Q838159",
+      "id": "concept/turba"
+    },
+    {
+      "i": 424,
+      "qid": "Q90801",
+      "id": "building/rumeli-hisari"
+    },
+    {
+      "i": 427,
+      "qid": "Q1121532",
+      "id": "event/battle-of-wadi-al-makhazin-1578"
+    },
+    {
+      "i": 429,
+      "qid": "Q1354033",
+      "id": "building/qasr-al-jafariyya"
+    },
+    {
+      "i": 431,
+      "qid": "Q16566",
+      "id": "building/chehel-sotun"
+    },
+    {
+      "i": 434,
+      "qid": "Q243585",
+      "id": "event/second-serbian-uprising"
+    },
+    {
+      "i": 435,
+      "qid": "Q248786",
+      "id": "polity/bahri-dynasty"
+    },
+    {
+      "i": 436,
+      "qid": "Q255221",
+      "id": "person/tahira-qurrat-al-ayn"
+    },
+    {
+      "i": 437,
+      "qid": "Q273225",
+      "id": "building/ciragan-palace"
+    },
+    {
+      "i": 440,
+      "qid": "Q3769089",
+      "id": "event/second-fitna"
+    },
+    {
+      "i": 443,
+      "qid": "Q558486",
+      "id": "person/baba-tahir-uryan"
+    },
+    {
+      "i": 447,
+      "qid": "Q6542740",
+      "id": "event/austro-turkish-war-1788"
+    },
+    {
+      "i": 451,
+      "qid": "Q911734",
+      "id": "building/yildiz-palace"
+    },
+    {
+      "i": 452,
+      "qid": "Q925960",
+      "id": "event/conquest-of-the-maghreb"
+    },
+    {
+      "i": 453,
+      "qid": "Q961430",
+      "id": "event/ottoman-venetian-war-1570"
+    },
+    {
+      "i": 456,
+      "qid": "Q1418582",
+      "id": "event/russo-persian-war-1722"
+    },
+    {
+      "i": 458,
+      "qid": "Q170113",
+      "id": "event/battle-of-saint-gotthard-1664"
+    },
+    {
+      "i": 460,
+      "qid": "Q192295",
+      "id": "building/gol-gumbaz"
+    },
+    {
+      "i": 464,
+      "qid": "Q307132",
+      "id": "person/abd-al-aziz-al-alawi"
+    },
+    {
+      "i": 466,
+      "qid": "Q312268",
+      "id": "event/siege-of-constantinople-626"
+    },
+    {
+      "i": 472,
+      "qid": "Q762732",
+      "id": "event/battle-of-sardarabad-1918"
+    },
+    {
+      "i": 474,
+      "qid": "Q794349",
+      "id": "building/beylerbeyi-palace"
+    },
+    {
+      "i": 475,
+      "qid": "Q856361",
+      "id": "polity/shaybanid-dynasty"
+    },
+    {
+      "i": 476,
+      "qid": "Q913604",
+      "id": "event/battle-of-alma-1854"
+    },
+    {
+      "i": 477,
+      "qid": "Q1158126",
+      "id": "group/al-khalifa"
+    },
+    {
+      "i": 482,
+      "qid": "Q1973736",
+      "id": "building/mukhtarov-mosque"
+    },
+    {
+      "i": 483,
+      "qid": "Q2353443",
+      "id": "group/giray-dynasty"
+    },
+    {
+      "i": 488,
+      "qid": "Q380726",
+      "id": "person/rida-abbasi"
+    },
+    {
+      "i": 494,
+      "qid": "Q603549",
+      "id": "event/battle-of-nahavand-21"
+    },
+    {
+      "i": 497,
+      "qid": "Q815154",
+      "id": "event/siege-of-jerusalem-15"
+    },
+    {
+      "i": 499,
+      "qid": "Q815216",
+      "id": "event/siege-of-sevastopol-1854"
+    },
+    {
+      "i": 504,
+      "qid": "Q136344",
+      "id": "event/battle-of-kose-dag-641"
+    },
+    {
+      "i": 510,
+      "qid": "Q206231",
+      "id": "building/qalat-halab"
+    },
+    {
+      "i": 513,
+      "qid": "Q375624",
+      "id": "building/mazar-safdarjang"
+    },
+    {
+      "i": 514,
+      "qid": "Q431177",
+      "id": "event/mongol-invasion-of-khwarazm"
+    },
+    {
+      "i": 517,
+      "qid": "Q490898",
+      "id": "building/larabanga-mosque"
+    },
+    {
+      "i": 522,
+      "qid": "Q694835",
+      "id": "event/ottoman-venetian-war-1714"
+    },
+    {
+      "i": 524,
+      "qid": "Q778800",
+      "id": "event/battle-of-abukir-1799"
+    },
+    {
+      "i": 526,
+      "qid": "Q856259",
+      "id": "building/bibi-ka-maqbara"
+    },
+    {
+      "i": 529,
+      "qid": "Q1137302",
+      "id": "event/battle-of-omdurman-1898"
+    },
+    {
+      "i": 531,
+      "qid": "Q1192616",
+      "id": "event/battle-of-didgori-1121"
+    },
+    {
+      "i": 534,
+      "qid": "Q14932665",
+      "id": "group/al-fatimiyun"
+    },
+    {
+      "i": 538,
+      "qid": "Q1809288",
+      "id": "event/ottoman-saudi-war-1811"
+    },
+    {
+      "i": 539,
+      "qid": "Q2258726",
+      "id": "event/herzegovina-uprising-1875"
+    },
+    {
+      "i": 541,
+      "qid": "Q3432153",
+      "id": "polity/sajid-dynasty"
+    },
+    {
+      "i": 544,
+      "qid": "Q652320",
+      "id": "event/battle-of-toulouse-721"
+    },
+    {
+      "i": 545,
+      "qid": "Q694379",
+      "id": "event/battle-of-krbava-field-1493"
+    },
+    {
+      "i": 546,
+      "qid": "Q700841",
+      "id": "event/ottoman-safavid-war-1532"
+    },
+    {
+      "i": 553,
+      "qid": "Q759988",
+      "id": "event/zanj-rebellion"
+    },
+    {
+      "i": 554,
+      "qid": "Q1263379",
+      "id": "group/al-alawiyun"
+    },
+    {
+      "i": 562,
+      "qid": "Q2309898",
+      "id": "event/battle-of-karansebes-1788"
+    },
+    {
+      "i": 563,
+      "qid": "Q2383104",
+      "id": "work/tawrat"
+    },
+    {
+      "i": 564,
+      "qid": "Q2422313",
+      "id": "person/yahya"
+    },
+    {
+      "i": 565,
+      "qid": "Q2502270",
+      "id": "group/al-thani"
+    },
+    {
+      "i": 568,
+      "qid": "Q345427",
+      "id": "group/qawm-ad"
+    },
+    {
+      "i": 571,
+      "qid": "Q471167",
+      "id": "person/montgomery-watt"
+    },
+    {
+      "i": 575,
+      "qid": "Q535542",
+      "id": "event/conquest-of-belgrade-1521"
+    },
+    {
+      "i": 583,
+      "qid": "Q902222",
+      "id": "building/darul-aman-palace"
+    },
+    {
+      "i": 592,
+      "qid": "Q1436196",
+      "id": "group/qabilat-afshar"
+    },
+    {
+      "i": 594,
+      "qid": "Q1681449",
+      "id": "building/jamkaran-mosque"
+    },
+    {
+      "i": 595,
+      "qid": "Q1957722",
+      "id": "building/shah-chiragh-shiraz"
+    },
+    {
+      "i": 596,
+      "qid": "Q2309409",
+      "id": "event/morean-war-1684"
+    },
+    {
+      "i": 598,
+      "qid": "Q2429287",
+      "id": "building/ali-qapu"
+    },
+    {
+      "i": 600,
+      "qid": "Q26799687",
+      "id": "event/austro-turkish-war-1716"
+    },
+    {
+      "i": 606,
+      "qid": "Q3849563",
+      "id": "event/khwarezmian-sack-of-jerusalem-1244"
+    },
+    {
+      "i": 608,
+      "qid": "Q4338038",
+      "id": "event/ottoman-mamluk-war-1516"
+    },
+    {
+      "i": 609,
+      "qid": "Q467015",
+      "id": "person/henry-corbin"
+    },
+    {
+      "i": 611,
+      "qid": "Q639827",
+      "id": "event/conquest-of-damascus-13"
+    },
+    {
+      "i": 614,
+      "qid": "Q700886",
+      "id": "event/siege-of-constantinople-1422"
+    },
+    {
+      "i": 615,
+      "qid": "Q74298",
+      "id": "event/polish-ottoman-war-1672"
+    },
+    {
+      "i": 625,
+      "qid": "Q1314130",
+      "id": "building/hasht-behesht"
+    },
+    {
+      "i": 626,
+      "qid": "Q1318766",
+      "id": "building/itimad-ud-daulah-tomb"
+    },
+    {
+      "i": 634,
+      "qid": "Q1540737",
+      "id": "event/hispano-moroccan-war-1859"
+    },
+    {
+      "i": 637,
+      "qid": "Q1678536",
+      "id": "building/jahangir-tomb"
+    },
+    {
+      "i": 644,
+      "qid": "Q2426040",
+      "id": "event/conquest-of-thessalonica-1430"
+    },
+    {
+      "i": 645,
+      "qid": "Q249934",
+      "id": "polity/burji-dynasty"
+    },
+    {
+      "i": 646,
+      "qid": "Q2568851",
+      "id": "event/battle-of-baku-1918"
+    },
+    {
+      "i": 647,
+      "qid": "Q2584439",
+      "id": "event/first-egyptian-ottoman-war"
+    },
+    {
+      "i": 649,
+      "qid": "Q291639",
+      "id": "group/al-sabah"
+    },
+    {
+      "i": 651,
+      "qid": "Q3431885",
+      "id": "polity/sallarid-dynasty"
+    },
+    {
+      "i": 653,
+      "qid": "Q401411",
+      "id": "person/ahmad-mukhtar-pasha"
+    },
+    {
+      "i": 661,
+      "qid": "Q690391",
+      "id": "event/battle-of-petrovaradin-1716"
+    },
+    {
+      "i": 664,
+      "qid": "Q860981",
+      "id": "event/battle-of-khotyn-1621"
+    },
+    {
+      "i": 670,
+      "qid": "Q1153331",
+      "id": "event/ottoman-venetian-war-1499"
+    },
+    {
+      "i": 672,
+      "qid": "Q128996",
+      "id": "event/battle-of-akroinon-740"
+    },
+    {
+      "i": 676,
+      "qid": "Q1378270",
+      "id": "event/battle-of-jerusalem-1917"
+    },
+    {
+      "i": 677,
+      "qid": "Q1473825",
+      "id": "building/palazzo-dei-normanni"
+    },
+    {
+      "i": 680,
+      "qid": "Q2045508",
+      "id": "event/java-war-1825"
+    },
+    {
+      "i": 681,
+      "qid": "Q2083368",
+      "id": "event/siege-of-edessa-1144"
+    },
+    {
+      "i": 683,
+      "qid": "Q2279688",
+      "id": "building/masjid-al-husayn-cairo"
+    },
+    {
+      "i": 685,
+      "qid": "Q29660",
+      "id": "building/al-madrasa-al-bu-inaniyya-fas"
+    },
+    {
+      "i": 688,
+      "qid": "Q3621258",
+      "id": "event/conquest-of-armenia"
+    },
+    {
+      "i": 689,
+      "qid": "Q382967",
+      "id": "event/siege-of-damascus-1148"
+    },
+    {
+      "i": 695,
+      "qid": "Q690481",
+      "id": "event/battle-of-slankamen-1691"
+    },
+    {
+      "i": 698,
+      "qid": "Q770536",
+      "id": "event/battle-of-inkerman-1854"
+    },
+    {
+      "i": 701,
+      "qid": "Q879855",
+      "id": "group/al-bu-said"
+    },
+    {
+      "i": 703,
+      "qid": "Q960395",
+      "id": "polity/shaddadid-dynasty"
+    },
+    {
+      "i": 705,
+      "qid": "Q1070201",
+      "id": "building/cheraman-juma-masjid"
+    },
+    {
+      "i": 706,
+      "qid": "Q1099263",
+      "id": "event/conquest-of-bursa-1326"
+    },
+    {
+      "i": 707,
+      "qid": "Q1138460",
+      "id": "event/battle-of-annual-1921"
+    },
+    {
+      "i": 709,
+      "qid": "Q1362188",
+      "id": "event/battle-of-talikota-1565"
+    },
+    {
+      "i": 710,
+      "qid": "Q1433670",
+      "id": "group/qabilat-durrani"
+    },
+    {
+      "i": 714,
+      "qid": "Q185938",
+      "id": "person/al-hajj-umar-tal"
+    },
+    {
+      "i": 717,
+      "qid": "Q2115869",
+      "id": "building/govhar-agha-mosque-shusha"
+    },
+    {
+      "i": 718,
+      "qid": "Q212110",
+      "id": "building/haram-fatima-masuma-qum"
+    },
+    {
+      "i": 719,
+      "qid": "Q2234632",
+      "id": "event/battle-of-rymnik-1789"
+    },
+    {
+      "i": 722,
+      "qid": "Q233663",
+      "id": "event/second-anglo-mysore-war"
+    },
+    {
+      "i": 727,
+      "qid": "Q2503775",
+      "id": "event/sack-of-maarrat-al-numan-491"
+    },
+    {
+      "i": 728,
+      "qid": "Q258679",
+      "id": "event/austro-turkish-war-1663"
+    },
+    {
+      "i": 729,
+      "qid": "Q2600326",
+      "id": "event/second-egyptian-ottoman-war"
+    },
+    {
+      "i": 731,
+      "qid": "Q2792158",
+      "id": "building/al-madrasa-al-zinjirliyya"
+    },
+    {
+      "i": 735,
+      "qid": "Q4022334",
+      "id": "building/shah-jahan-mosque-thatta"
+    },
+    {
+      "i": 736,
+      "qid": "Q460204",
+      "id": "person/amjazada-koprulu-husayn-pasha"
+    },
+    {
+      "i": 737,
+      "qid": "Q492144",
+      "id": "building/madrasa-ulugh-beg-samarqand"
+    },
+    {
+      "i": 740,
+      "qid": "Q5959602",
+      "id": "building/mazar-firdawsi-tus"
+    },
+    {
+      "i": 741,
+      "qid": "Q617782",
+      "id": "event/fourth-anglo-mysore-war"
+    },
+    {
+      "i": 743,
+      "qid": "Q695198",
+      "id": "event/ottoman-invasion-of-otranto-1480"
+    },
+    {
+      "i": 744,
+      "qid": "Q695730",
+      "id": "person/aloys-musil"
+    },
+    {
+      "i": 745,
+      "qid": "Q700874",
+      "id": "event/battle-of-bileca-1388"
+    },
+    {
+      "i": 746,
+      "qid": "Q700893",
+      "id": "event/conquest-of-tunis-1535"
+    },
+    {
+      "i": 748,
+      "qid": "Q815109",
+      "id": "event/siege-of-acre-1799"
+    },
+    {
+      "i": 750,
+      "qid": "Q902957",
+      "id": "building/turbat-mawlana-konya"
+    },
+    {
+      "i": 751,
+      "qid": "Q919971",
+      "id": "polity/kalbid-emirate"
+    },
+    {
+      "i": 755,
+      "qid": "Q964226",
+      "id": "event/battle-of-pelekanon-1329"
+    },
+    {
+      "i": 757,
+      "qid": "Q1073358",
+      "id": "event/battle-of-vaslui-1475"
+    },
+    {
+      "i": 760,
+      "qid": "Q1154983",
+      "id": "event/ottoman-venetian-war-1463"
+    },
+    {
+      "i": 761,
+      "qid": "Q1177668",
+      "id": "building/maqam-nabi-dawud"
+    },
+    {
+      "i": 763,
+      "qid": "Q124746531",
+      "id": "person/rashid-al-din-sinan"
+    },
+    {
+      "i": 766,
+      "qid": "Q1450532",
+      "id": "event/franco-turkish-war-1918"
+    },
+    {
+      "i": 773,
+      "qid": "Q199371",
+      "id": "event/battle-of-megiddo-1918"
+    },
+    {
+      "i": 774,
+      "qid": "Q2008448",
+      "id": "event/battle-of-jaffa-1192"
+    },
+    {
+      "i": 777,
+      "qid": "Q2277692",
+      "id": "building/qasr-al-hayr-al-gharbi"
+    },
+    {
+      "i": 778,
+      "qid": "Q238528",
+      "id": "building/berlin-mosque"
+    },
+    {
+      "i": 784,
+      "qid": "Q32434",
+      "id": "building/qasr-ardashir-firuzabad"
+    },
+    {
+      "i": 788,
+      "qid": "Q427107",
+      "id": "work/qabus-nama"
+    },
+    {
+      "i": 789,
+      "qid": "Q524208",
+      "id": "event/erzurum-offensive-1916"
+    },
+    {
+      "i": 793,
+      "qid": "Q636520",
+      "id": "event/battle-of-marj-ayyun-1179"
+    },
+    {
+      "i": 797,
+      "qid": "Q690291",
+      "id": "event/battle-of-breadfield-1479"
+    },
+    {
+      "i": 799,
+      "qid": "Q697654",
+      "id": "event/siege-of-buda-1686"
+    },
+    {
+      "i": 800,
+      "qid": "Q759998",
+      "id": "event/berber-revolt-122"
+    },
+    {
+      "i": 806,
+      "qid": "Q1010035",
+      "id": "work/gesta-francorum"
+    },
+    {
+      "i": 808,
+      "qid": "Q1030940",
+      "id": "work/kitab-al-shifa"
+    },
+    {
+      "i": 813,
+      "qid": "Q1231638",
+      "id": "work/diwan-shams-tabrizi"
+    },
+    {
+      "i": 815,
+      "qid": "Q1328380",
+      "id": "event/battle-of-inab-544"
+    },
+    {
+      "i": 816,
+      "qid": "Q1454816",
+      "id": "building/jami-yazd"
+    },
+    {
+      "i": 819,
+      "qid": "Q1501534",
+      "id": "building/ishak-pasha-palace"
+    },
+    {
+      "i": 824,
+      "qid": "Q1734616",
+      "id": "polity/kartid-dynasty"
+    },
+    {
+      "i": 825,
+      "qid": "Q1792643",
+      "id": "event/battle-of-rio-salado-1340"
+    },
+    {
+      "i": 835,
+      "qid": "Q2424300",
+      "id": "building/qabr-rahil"
+    },
+    {
+      "i": 836,
+      "qid": "Q251600",
+      "id": "event/unification-of-saudi-arabia"
+    },
+    {
+      "i": 842,
+      "qid": "Q2984031",
+      "id": "building/jami-makhachkala"
+    },
+    {
+      "i": 845,
+      "qid": "Q3397498",
+      "id": "building/green-mosque-balkh"
+    },
+    {
+      "i": 846,
+      "qid": "Q3514109",
+      "id": "building/taj-ul-masajid"
+    },
+    {
+      "i": 847,
+      "qid": "Q3630998",
+      "id": "building/bara-imambara-lucknow"
+    },
+    {
+      "i": 851,
+      "qid": "Q493304",
+      "id": "building/kukeldash-madrasa-tashkent"
+    },
+    {
+      "i": 852,
+      "qid": "Q55504",
+      "id": "event/battle-of-azaz-1125"
+    },
+    {
+      "i": 853,
+      "qid": "Q561747",
+      "id": "person/hamad-ibn-thuwayni"
+    },
+    {
+      "i": 855,
+      "qid": "Q577190",
+      "id": "event/battle-of-cresson-583"
+    },
+    {
+      "i": 856,
+      "qid": "Q578201",
+      "id": "event/battle-of-forbie-1244"
+    },
+    {
+      "i": 857,
+      "qid": "Q616939",
+      "id": "event/anglo-egyptian-war-1882"
+    },
+    {
+      "i": 858,
+      "qid": "Q617070",
+      "id": "event/first-anglo-mysore-war"
+    },
+    {
+      "i": 859,
+      "qid": "Q622784",
+      "id": "building/aqsunqur-mosque-cairo"
+    },
+    {
+      "i": 861,
+      "qid": "Q673641",
+      "id": "event/siege-of-guns-1532"
+    },
+    {
+      "i": 864,
+      "qid": "Q701335",
+      "id": "event/battle-of-sisak-1593"
+    },
+    {
+      "i": 866,
+      "qid": "Q7116539",
+      "id": "building/ozbek-han-mosque"
+    },
+    {
+      "i": 868,
+      "qid": "Q7818644",
+      "id": "building/turbat-sulayman-shah"
+    },
+    {
+      "i": 869,
+      "qid": "Q793784",
+      "id": "building/qasr-al-azm-dimashq"
+    },
+    {
+      "i": 870,
+      "qid": "Q1030249",
+      "id": "event/battle-of-fahl-13"
+    },
+    {
+      "i": 871,
+      "qid": "Q1044149",
+      "id": "building/grand-mosque-constanta"
+    },
+    {
+      "i": 875,
+      "qid": "Q1086625",
+      "id": "event/siege-of-famagusta-1570"
+    },
+    {
+      "i": 887,
+      "qid": "Q15075626",
+      "id": "building/marble-palace-tehran"
+    },
+    {
+      "i": 890,
+      "qid": "Q163476",
+      "id": "event/ottoman-safavid-war-1623"
+    },
+    {
+      "i": 891,
+      "qid": "Q1816972",
+      "id": "building/mazar-mumina-khatun"
+    },
+    {
+      "i": 892,
+      "qid": "Q1831907",
+      "id": "building/vakil-mosque-shiraz"
+    },
+    {
+      "i": 893,
+      "qid": "Q2006052",
+      "id": "building/tombul-mosque-shumen"
+    },
+    {
+      "i": 894,
+      "qid": "Q2022139",
+      "id": "event/night-attack-targoviste-1462"
+    },
+    {
+      "i": 895,
+      "qid": "Q2069929",
+      "id": "building/jami-shamakhi"
+    },
+    {
+      "i": 897,
+      "qid": "Q2290814",
+      "id": "event/battle-of-wadi-al-khaznadar-1299"
+    },
+    {
+      "i": 899,
+      "qid": "Q2346983",
+      "id": "event/battle-of-kumanovo-1912"
+    },
+    {
+      "i": 900,
+      "qid": "Q2393709",
+      "id": "building/pul-e-khishti-mosque"
+    },
+    {
+      "i": 901,
+      "qid": "Q2472640",
+      "id": "polity/bavand-dynasty"
+    },
+    {
+      "i": 903,
+      "qid": "Q2548705",
+      "id": "building/jami-sanaa"
+    },
+    {
+      "i": 904,
+      "qid": "Q257153",
+      "id": "building/mazar-salah-al-din"
+    },
+    {
+      "i": 907,
+      "qid": "Q2737233",
+      "id": "person/muhammad-ibn-idris-ii"
+    },
+    {
+      "i": 908,
+      "qid": "Q2791318",
+      "id": "event/battle-of-gaza-1917"
+    },
+    {
+      "i": 911,
+      "qid": "Q311441",
+      "id": "building/masjid-al-rifai"
+    },
+    {
+      "i": 912,
+      "qid": "Q3125809",
+      "id": "building/haji-piyada-mosque"
+    },
+    {
+      "i": 913,
+      "qid": "Q3215775",
+      "id": "work/qasidat-al-burda"
+    },
+    {
+      "i": 915,
+      "qid": "Q3396964",
+      "id": "building/agha-bozorg-mosque-kashan"
+    },
+    {
+      "i": 916,
+      "qid": "Q3437688",
+      "id": "building/burj-tughrul"
+    },
+    {
+      "i": 919,
+      "qid": "Q430163",
+      "id": "work/tafsir-al-jalalayn"
+    },
+    {
+      "i": 921,
+      "qid": "Q4695300",
+      "id": "person/ahmad-dahlan"
+    },
+    {
+      "i": 922,
+      "qid": "Q4955540",
+      "id": "polity/hindu-shahi"
+    },
+    {
+      "i": 925,
+      "qid": "Q536288",
+      "id": "building/makka-masjid-hyderabad"
+    },
+    {
+      "i": 927,
+      "qid": "Q617350",
+      "id": "event/third-anglo-mysore-war"
+    },
+    {
+      "i": 929,
+      "qid": "Q659184",
+      "id": "person/muhammad-al-sadr"
+    },
+    {
+      "i": 930,
+      "qid": "Q668264",
+      "id": "building/islamic-centre-hamburg"
+    },
+    {
+      "i": 933,
+      "qid": "Q701067",
+      "id": "event/siege-of-rhodes-1480"
+    },
+    {
+      "i": 937,
+      "qid": "Q780367",
+      "id": "event/siege-of-plevna-1877"
+    },
+    {
+      "i": 940,
+      "qid": "Q916266",
+      "id": "event/fall-of-gallipoli-1354"
+    },
+    {
+      "i": 944,
+      "qid": "Q1033421",
+      "id": "polity/hammudid-dynasty"
+    },
+    {
+      "i": 947,
+      "qid": "Q1085253",
+      "id": "event/battle-of-kondurcha-1391"
+    },
+    {
+      "i": 948,
+      "qid": "Q110970851",
+      "id": "event/siege-of-bukhara-1220"
+    },
+    {
+      "i": 949,
+      "qid": "Q1149473",
+      "id": "building/qasr-al-hayr-al-sharqi"
+    },
+    {
+      "i": 951,
+      "qid": "Q116004",
+      "id": "event/battle-of-shipka-pass-1877"
+    },
+    {
+      "i": 957,
+      "qid": "Q1518266",
+      "id": "event/battle-of-simancas-939"
+    },
+    {
+      "i": 958,
+      "qid": "Q1557987",
+      "id": "building/lhasa-great-mosque"
+    },
+    {
+      "i": 961,
+      "qid": "Q1713936",
+      "id": "building/tilakari-madrasa"
+    },
+    {
+      "i": 962,
+      "qid": "Q1719427",
+      "id": "event/battle-of-lalakaon-863"
+    },
+    {
+      "i": 966,
+      "qid": "Q2032672",
+      "id": "polity/rawadid-dynasty"
+    },
+    {
+      "i": 967,
+      "qid": "Q206246",
+      "id": "building/qalat-dimashq"
+    },
+    {
+      "i": 968,
+      "qid": "Q2176345",
+      "id": "event/siege-of-tyre-1187"
+    },
+    {
+      "i": 970,
+      "qid": "Q2278212",
+      "id": "building/sherdar-madrasa"
+    },
+    {
+      "i": 972,
+      "qid": "Q2420811",
+      "id": "event/battle-of-mount-tabor-1799"
+    },
+    {
+      "i": 973,
+      "qid": "Q2528398",
+      "id": "event/battle-of-mansurah-1250"
+    },
+    {
+      "i": 975,
+      "qid": "Q2664371",
+      "id": "event/conquest-of-tunis-1574"
+    },
+    {
+      "i": 976,
+      "qid": "Q2737628",
+      "id": "event/russian-circassian-war"
+    },
+    {
+      "i": 979,
+      "qid": "Q2816439",
+      "id": "polity/dabuyid-dynasty"
+    },
+    {
+      "i": 981,
+      "qid": "Q2888296",
+      "id": "event/conquest-of-ceuta-1415"
+    },
+    {
+      "i": 982,
+      "qid": "Q2913821",
+      "id": "event/ottoman-persian-war-1730"
+    },
+    {
+      "i": 985,
+      "qid": "Q3079892",
+      "id": "event/ghazwat-banu-qaynuqa"
+    },
+    {
+      "i": 986,
+      "qid": "Q3179907",
+      "id": "person/qutb-al-din-mubarak-shah"
+    },
+    {
+      "i": 987,
+      "qid": "Q3269760",
+      "id": "event/battle-of-indus-1221"
+    },
+    {
+      "i": 988,
+      "qid": "Q3321519",
+      "id": "event/siege-of-eger-1552"
+    },
+    {
+      "i": 990,
+      "qid": "Q3820159",
+      "id": "person/kara-mehmed-pasha"
+    },
+    {
+      "i": 991,
+      "qid": "Q402937",
+      "id": "building/ahsan-manzil"
+    },
+    {
+      "i": 993,
+      "qid": "Q4164538",
+      "id": "person/muhammad-mutawalli-al-shaarawi"
+    },
+    {
+      "i": 994,
+      "qid": "Q4164550",
+      "id": "work/jami-al-bayan"
+    },
+    {
+      "i": 995,
+      "qid": "Q536924",
+      "id": "building/nabi-huri-shrine"
+    },
+    {
+      "i": 999,
+      "qid": "Q6745731",
+      "id": "polity/mamluk-iraq"
+    }
+  ],
+  "linked_ids": [
+    {
+      "i": 9,
+      "qid": "Q9077",
+      "to": "person/musa"
+    },
+    {
+      "i": 14,
+      "qid": "Q8258",
+      "to": "work/alf-layla-wa-layla"
+    },
+    {
+      "i": 58,
+      "qid": "Q485732",
+      "to": "group/quraysh"
+    },
+    {
+      "i": 64,
+      "qid": "Q486124",
+      "to": "event/battle-of-badr"
+    },
+    {
+      "i": 101,
+      "qid": "Q189271",
+      "to": "person/mahmud-ghaznawi"
+    },
+    {
+      "i": 102,
+      "qid": "Q82245",
+      "to": "group/shafii-madhhab"
+    },
+    {
+      "i": 107,
+      "qid": "Q48221",
+      "to": "group/maliki-madhhab"
+    },
+    {
+      "i": 111,
+      "qid": "Q200032",
+      "to": "event/battle-of-manzikert-463"
+    },
+    {
+      "i": 113,
+      "qid": "Q488278",
+      "to": "event/battle-of-uhud"
+    },
+    {
+      "i": 121,
+      "qid": "Q233568",
+      "to": "event/battle-of-hattin-583"
+    },
+    {
+      "i": 125,
+      "qid": "Q194226",
+      "to": "event/battle-of-yarmuk"
+    },
+    {
+      "i": 152,
+      "qid": "Q369560",
+      "to": "event/sack-of-baghdad-656"
+    },
+    {
+      "i": 157,
+      "qid": "Q826083",
+      "to": "event/battle-of-the-trench"
+    },
+    {
+      "i": 167,
+      "qid": "Q204200",
+      "to": "building/al-haram-al-ibrahimi"
+    },
+    {
+      "i": 184,
+      "qid": "Q733668",
+      "to": "polity/ghassanid-kingdom"
+    },
+    {
+      "i": 195,
+      "qid": "Q456993",
+      "to": "event/franks-jerusalem-492"
+    },
+    {
+      "i": 203,
+      "qid": "Q207576",
+      "to": "event/siege-vienna-935"
+    },
+    {
+      "i": 204,
+      "qid": "Q311153",
+      "to": "person/muhammad-al-baqir"
+    },
+    {
+      "i": 224,
+      "qid": "Q425144",
+      "to": "group/ansar"
+    },
+    {
+      "i": 241,
+      "qid": "Q1639459",
+      "to": "event/battle-of-mutah"
+    },
+    {
+      "i": 254,
+      "qid": "Q1133574",
+      "to": "event/battle-of-the-camel"
+    },
+    {
+      "i": 264,
+      "qid": "Q815161",
+      "to": "event/conquest-of-jerusalem"
+    },
+    {
+      "i": 265,
+      "qid": "Q836844",
+      "to": "event/battle-of-al-qadisiyya"
+    },
+    {
+      "i": 266,
+      "qid": "Q846670",
+      "to": "polity/danishmendid-emirate"
+    },
+    {
+      "i": 279,
+      "qid": "Q565661",
+      "to": "event/battle-of-khaybar"
+    },
+    {
+      "i": 239,
+      "qid": "Q847837",
+      "to": "group/banu-nasr"
+    },
+    {
+      "i": 301,
+      "qid": "Q735876",
+      "to": "event/battle-of-siffin"
+    },
+    {
+      "i": 305,
+      "qid": "Q282883",
+      "to": "person/shihab-al-din-al-suhrawardi"
+    },
+    {
+      "i": 307,
+      "qid": "Q337126",
+      "to": "person/al-bakri-abu-ubayd"
+    },
+    {
+      "i": 334,
+      "qid": "Q1750892",
+      "to": "event/franks-constantinople-601"
+    },
+    {
+      "i": 355,
+      "qid": "Q399482",
+      "to": "event/arab-siege-of-constantinople-667"
+    },
+    {
+      "i": 360,
+      "qid": "Q741098",
+      "to": "event/franks-antioch-491"
+    },
+    {
+      "i": 379,
+      "qid": "Q767935",
+      "to": "event/conquest-of-rhodes-928"
+    },
+    {
+      "i": 412,
+      "qid": "Q2088170",
+      "to": "event/expedition-to-tabuk"
+    },
+    {
+      "i": 506,
+      "qid": "Q146076",
+      "to": "group/zanata"
+    },
+    {
+      "i": 567,
+      "qid": "Q285255",
+      "to": "person/al-waqidi"
+    },
+    {
+      "i": 582,
+      "qid": "Q790108",
+      "to": "group/banu-hilal"
+    },
+    {
+      "i": 599,
+      "qid": "Q2456292",
+      "to": "event/battle-of-yamama"
+    },
+    {
+      "i": 603,
+      "qid": "Q293612",
+      "to": "person/muhammad-ibn-al-hasan-al-shaybani"
+    },
+    {
+      "i": 607,
+      "qid": "Q428400",
+      "to": "polity/ildigizid-atabegs"
+    },
+    {
+      "i": 620,
+      "qid": "Q974105",
+      "to": "person/ibn-muqla"
+    },
+    {
+      "i": 632,
+      "qid": "Q1510021",
+      "to": "group/sanhaja"
+    },
+    {
+      "i": 643,
+      "qid": "Q2294218",
+      "to": "polity/burid-dynasty"
+    },
+    {
+      "i": 684,
+      "qid": "Q2484843",
+      "to": "event/battle-of-nahrawan"
+    },
+    {
+      "i": 692,
+      "qid": "Q581780",
+      "to": "group/al-khazraj"
+    },
+    {
+      "i": 730,
+      "qid": "Q2732255",
+      "to": "event/battle-of-marj-al-suffar"
+    },
+    {
+      "i": 747,
+      "qid": "Q742693",
+      "to": "event/franks-damietta-616"
+    },
+    {
+      "i": 759,
+      "qid": "Q1148862",
+      "to": "event/fariskur-louis-captured-648"
+    },
+    {
+      "i": 770,
+      "qid": "Q1669285",
+      "to": "event/conquest-of-amorium"
+    },
+    {
+      "i": 781,
+      "qid": "Q2726734",
+      "to": "event/second-battle-homs-680"
+    },
+    {
+      "i": 802,
+      "qid": "Q777586",
+      "to": "group/al-aws"
+    },
+    {
+      "i": 931,
+      "qid": "Q672740",
+      "to": "group/banu-yafran"
+    },
+    {
+      "i": 977,
+      "qid": "Q2740828",
+      "to": "person/safiyya-bint-abd-al-muttalib"
+    }
+  ],
+  "skipped": [
+    [
+      0,
+      "Q1845",
+      "non-Islamic subject / modern politics / out of scope (wave2)"
+    ],
+    [
+      1,
+      "Q302",
+      "link-failed:already has wikidata"
+    ],
+    [
+      2,
+      "Q868",
+      "non-Islamic subject / modern politics / out of scope (wave2)"
+    ],
+    [
+      3,
+      "Q5879",
+      "non-Islamic subject / modern politics / out of scope (wave2)"
+    ],
+    [
+      4,
+      "Q9441",
+      "non-Islamic subject / modern politics / out of scope (wave2)"
+    ],
+    [
+      5,
+      "Q1067",
+      "non-Islamic subject / modern politics / out of scope (wave2)"
+    ],
+    [
+      6,
+      "Q7813",
+      "non-Islamic subject / modern politics / out of scope (wave2)"
+    ],
+    [
+      7,
+      "Q5816",
+      "non-Islamic subject / modern politics / out of scope (wave2)"
+    ],
+    [
+      8,
+      "Q9438",
+      "non-Islamic subject / modern politics / out of scope (wave2)"
+    ],
+    [
+      10,
+      "Q2494",
+      "non-Islamic subject / modern politics / out of scope (wave2)"
+    ],
+    [
+      11,
+      "Q9200",
+      "non-Islamic subject / modern politics / out of scope (wave2)"
+    ],
+    [
+      12,
+      "Q7226",
+      "non-Islamic subject / modern politics / out of scope (wave2)"
+    ],
+    [
+      13,
+      "Q35802",
+      "non-Islamic subject / modern politics / out of scope (wave2)"
+    ],
+    [
+      15,
+      "Q8620",
+      "non-Islamic subject / modern politics / out of scope (wave2)"
+    ],
+    [
+      16,
+      "Q8663",
+      "non-Islamic subject / modern politics / out of scope (wave2)"
+    ],
+    [
+      17,
+      "Q34990",
+      "non-Islamic subject / modern politics / out of scope (wave2)"
+    ],
+    [
+      18,
+      "Q40185",
+      "non-Islamic subject / modern politics / out of scope (wave2)"
+    ],
+    [
+      19,
+      "Q12551",
+      "non-Islamic subject / modern politics / out of scope (wave2)"
+    ],
+    [
+      20,
+      "Q122962941",
+      "non-Islamic subject / modern politics / out of scope (wave2)"
+    ],
+    [
+      21,
+      "Q8265",
+      "non-Islamic subject / modern politics / out of scope (wave2)"
+    ],
+    [
+      22,
+      "Q37643",
+      "non-Islamic subject / modern politics / out of scope (wave2)"
+    ],
+    [
+      23,
+      "Q33761",
+      "non-Islamic subject / modern politics / out of scope (wave2)"
+    ],
+    [
+      24,
+      "Q545449",
+      "non-Islamic subject / modern politics / out of scope (wave2)"
+    ],
+    [
+      25,
+      "Q2946",
+      "non-Islamic subject / modern politics / out of scope (wave2)"
+    ],
+    [
+      26,
+      "Q6113985",
+      "non-Islamic subject / modern politics / out of scope (wave2)"
+    ],
+    [
+      27,
+      "Q11235",
+      "non-Islamic subject / modern politics / out of scope (wave2)"
+    ],
+    [
+      28,
+      "Q34628",
+      "non-Islamic subject / modern politics / out of scope (wave2)"
+    ],
+    [
+      29,
+      "Q83322",
+      "non-Islamic subject / modern politics / out of scope (wave2)"
+    ],
+    [
+      30,
+      "Q101054",
+      "non-Islamic subject / modern politics / out of scope (wave2)"
+    ],
+    [
+      31,
+      "Q80290",
+      "non-Islamic subject / modern politics / out of scope (wave2)"
+    ],
+    [
+      32,
+      "Q63070",
+      "non-Islamic subject / modern politics / out of scope (wave2)"
+    ],
+    [
+      33,
+      "Q138503695",
+      "non-Islamic subject / modern politics / out of scope (wave2)"
+    ],
+    [
+      34,
+      "Q78994",
+      "non-Islamic subject / modern politics / out of scope (wave2)"
+    ],
+    [
+      35,
+      "Q83085",
+      "non-Islamic subject / modern politics / out of scope (wave2)"
+    ],
+    [
+      36,
+      "Q1143049",
+      "non-Islamic subject / modern politics / out of scope (wave2)"
+    ],
+    [
+      37,
+      "Q123034",
+      "non-Islamic subject / modern politics / out of scope (wave2)"
+    ],
+    [
+      38,
+      "Q254106",
+      "non-Islamic subject / modern politics / out of scope (wave2)"
+    ],
+    [
+      39,
+      "Q80330",
+      "non-Islamic subject / modern politics / out of scope (wave2)"
+    ],
+    [
+      40,
+      "Q33143",
+      "non-Islamic subject / modern politics / out of scope (wave2)"
+    ],
+    [
+      41,
+      "Q65968",
+      "non-Islamic subject / modern politics / out of scope (wave2)"
+    ],
+    [
+      42,
+      "Q82664",
+      "non-Islamic subject / modern politics / out of scope (wave2)"
+    ],
+    [
+      43,
+      "Q172891",
+      "non-Islamic subject / modern politics / out of scope (wave2)"
+    ],
+    [
+      44,
+      "Q181182",
+      "non-Islamic subject / modern politics / out of scope (wave2)"
+    ],
+    [
+      45,
+      "Q49100",
+      "non-Islamic subject / modern politics / out of scope (wave2)"
+    ],
+    [
+      46,
+      "Q60059",
+      "non-Islamic subject / modern politics / out of scope (wave2)"
+    ],
+    [
+      47,
+      "Q4152",
+      "non-Islamic subject / modern politics / out of scope (wave2)"
+    ],
+    [
+      48,
+      "Q79791",
+      "non-Islamic subject / modern politics / out of scope (wave2)"
+    ],
+    [
+      49,
+      "Q170314",
+      "non-Islamic subject / modern politics / out of scope (wave2)"
+    ],
+    [
+      50,
+      "Q45368",
+      "non-Islamic subject / modern politics / out of scope (wave2)"
+    ],
+    [
+      51,
+      "Q47672",
+      "non-Islamic subject / modern politics / out of scope (wave2)"
+    ],
+    [
+      52,
+      "Q132783",
+      "non-Islamic subject / modern politics / out of scope (wave2)"
+    ],
+    [
+      53,
+      "Q42646",
+      "non-Islamic subject / modern politics / out of scope (wave2)"
+    ],
+    [
+      54,
+      "Q71229",
+      "non-Islamic subject / modern politics / out of scope (wave2)"
+    ],
+    [
+      55,
+      "Q124988",
+      "non-Islamic subject / modern politics / out of scope (wave2)"
+    ],
+    [
+      56,
+      "Q182865",
+      "non-Islamic subject / modern politics / out of scope (wave2)"
+    ],
+    [
+      57,
+      "Q28179",
+      "non-Islamic subject / modern politics / out of scope (wave2)"
+    ],
+    [
+      59,
+      "Q620735",
+      "non-Islamic subject / modern politics / out of scope (wave2)"
+    ],
+    [
+      60,
+      "Q129864",
+      "non-Islamic subject / modern politics / out of scope (wave2)"
+    ],
+    [
+      61,
+      "Q172383",
+      "non-Islamic subject / modern politics / out of scope (wave2)"
+    ],
+    [
+      62,
+      "Q33745",
+      "non-Islamic subject / modern politics / out of scope (wave2)"
+    ],
+    [
+      63,
+      "Q104273",
+      "non-Islamic subject / modern politics / out of scope (wave2)"
+    ],
+    [
+      65,
+      "Q171724",
+      "non-Islamic subject / modern politics / out of scope (wave2)"
+    ],
+    [
+      67,
+      "Q151616",
+      "non-Islamic subject / modern politics / out of scope (wave2)"
+    ],
+    [
+      69,
+      "Q29269",
+      "non-Islamic subject / modern politics / out of scope (wave2)"
+    ],
+    [
+      70,
+      "Q3708255",
+      "link-failed:already has wikidata"
+    ],
+    [
+      71,
+      "Q58389",
+      "non-Islamic subject / modern politics / out of scope (wave2)"
+    ],
+    [
+      72,
+      "Q150229",
+      "non-Islamic subject / modern politics / out of scope (wave2)"
+    ],
+    [
+      73,
+      "Q177918",
+      "non-Islamic subject / modern politics / out of scope (wave2)"
+    ],
+    [
+      74,
+      "Q3906600",
+      "non-Islamic subject / modern politics / out of scope (wave2)"
+    ],
+    [
+      75,
+      "Q170389",
+      "non-Islamic subject / modern politics / out of scope (wave2)"
+    ],
+    [
+      76,
+      "Q178687",
+      "non-Islamic subject / modern politics / out of scope (wave2)"
+    ],
+    [
+      77,
+      "Q191282",
+      "non-Islamic subject / modern politics / out of scope (wave2)"
+    ],
+    [
+      78,
+      "Q134900605",
+      "non-Islamic subject / modern politics / out of scope (wave2)"
+    ],
+    [
+      79,
+      "Q16438",
+      "non-Islamic subject / modern politics / out of scope (wave2)"
+    ],
+    [
+      80,
+      "Q182147",
+      "non-Islamic subject / modern politics / out of scope (wave2)"
+    ],
+    [
+      81,
+      "Q49104",
+      "non-Islamic subject / modern politics / out of scope (wave2)"
+    ],
+    [
+      82,
+      "Q185729",
+      "non-Islamic subject / modern politics / out of scope (wave2)"
+    ],
+    [
+      84,
+      "Q51252",
+      "non-Islamic subject / modern politics / out of scope (wave2)"
+    ],
+    [
+      85,
+      "Q161205",
+      "link-failed:already has wikidata"
+    ],
+    [
+      86,
+      "Q24237654",
+      "non-Islamic subject / modern politics / out of scope (wave2)"
+    ],
+    [
+      87,
+      "Q33570",
+      "non-Islamic subject / modern politics / out of scope (wave2)"
+    ],
+    [
+      88,
+      "Q184183",
+      "non-Islamic subject / modern politics / out of scope (wave2)"
+    ],
+    [
+      89,
+      "Q189326",
+      "link-failed:already has wikidata"
+    ],
+    [
+      90,
+      "Q244742",
+      "non-Islamic subject / modern politics / out of scope (wave2)"
+    ],
+    [
+      91,
+      "Q81589",
+      "non-Islamic subject / modern politics / out of scope (wave2)"
+    ],
+    [
+      93,
+      "Q277072",
+      "non-Islamic subject / modern politics / out of scope (wave2)"
+    ],
+    [
+      94,
+      "Q83969",
+      "non-Islamic subject / modern politics / out of scope (wave2)"
+    ],
+    [
+      95,
+      "Q152499",
+      "non-Islamic subject / modern politics / out of scope (wave2)"
+    ],
+    [
+      96,
+      "Q192408",
+      "non-Islamic subject / modern politics / out of scope (wave2)"
+    ],
+    [
+      97,
+      "Q371394",
+      "non-Islamic subject / modern politics / out of scope (wave2)"
+    ],
+    [
+      98,
+      "Q381375",
+      "non-Islamic subject / modern politics / out of scope (wave2)"
+    ],
+    [
+      99,
+      "Q418151",
+      "non-Islamic subject / modern politics / out of scope (wave2)"
+    ],
+    [
+      100,
+      "Q748780",
+      "non-Islamic subject / modern politics / out of scope (wave2)"
+    ],
+    [
+      103,
+      "Q19133",
+      "non-Islamic subject / modern politics / out of scope (wave2)"
+    ],
+    [
+      104,
+      "Q193369",
+      "non-Islamic subject / modern politics / out of scope (wave2)"
+    ],
+    [
+      106,
+      "Q215894",
+      "non-Islamic subject / modern politics / out of scope (wave2)"
+    ],
+    [
+      108,
+      "Q120843",
+      "non-Islamic subject / modern politics / out of scope (wave2)"
+    ],
+    [
+      109,
+      "Q17790",
+      "non-Islamic subject / modern politics / out of scope (wave2)"
+    ],
+    [
+      110,
+      "Q179670",
+      "non-Islamic subject / modern politics / out of scope (wave2)"
+    ],
+    [
+      112,
+      "Q207991",
+      "non-Islamic subject / modern politics / out of scope (wave2)"
+    ],
+    [
+      114,
+      "Q49097",
+      "non-Islamic subject / modern politics / out of scope (wave2)"
+    ],
+    [
+      115,
+      "Q68969",
+      "non-Islamic subject / modern politics / out of scope (wave2)"
+    ],
+    [
+      116,
+      "Q131505",
+      "non-Islamic subject / modern politics / out of scope (wave2)"
+    ],
+    [
+      117,
+      "Q152486",
+      "non-Islamic subject / modern politics / out of scope (wave2)"
+    ],
+    [
+      118,
+      "Q170682",
+      "non-Islamic subject / modern politics / out of scope (wave2)"
+    ],
+    [
+      119,
+      "Q191414",
+      "non-Islamic subject / modern politics / out of scope (wave2)"
+    ],
+    [
+      120,
+      "Q203824",
+      "non-Islamic subject / modern politics / out of scope (wave2)"
+    ],
+    [
+      122,
+      "Q4132",
+      "non-Islamic subject / modern politics / out of scope (wave2)"
+    ],
+    [
+      123,
+      "Q17324420",
+      "non-Islamic subject / modern politics / out of scope (wave2)"
+    ],
+    [
+      124,
+      "Q188856",
+      "non-Islamic subject / modern politics / out of scope (wave2)"
+    ],
+    [
+      126,
+      "Q211818",
+      "non-Islamic subject / modern politics / out of scope (wave2)"
+    ],
+    [
+      127,
+      "Q28208",
+      "non-Islamic subject / modern politics / out of scope (wave2)"
+    ],
+    [
+      128,
+      "Q1413732",
+      "non-Islamic subject / modern politics / out of scope (wave2)"
+    ],
+    [
+      129,
+      "Q145093",
+      "non-Islamic subject / modern politics / out of scope (wave2)"
+    ],
+    [
+      130,
+      "Q189883",
+      "non-Islamic subject / modern politics / out of scope (wave2)"
+    ],
+    [
+      132,
+      "Q233583",
+      "non-Islamic subject / modern politics / out of scope (wave2)"
+    ],
+    [
+      134,
+      "Q234364",
+      "non-Islamic subject / modern politics / out of scope (wave2)"
+    ],
+    [
+      135,
+      "Q297006",
+      "non-Islamic subject / modern politics / out of scope (wave2)"
+    ],
+    [
+      137,
+      "Q836531",
+      "non-Islamic subject / modern politics / out of scope (wave2)"
+    ],
+    [
+      138,
+      "Q151545",
+      "non-Islamic subject / modern politics / out of scope (wave2)"
+    ],
+    [
+      139,
+      "Q207318",
+      "non-Islamic subject / modern politics / out of scope (wave2)"
+    ],
+    [
+      141,
+      "Q486382",
+      "non-Islamic subject / modern politics / out of scope (wave2)"
+    ],
+    [
+      142,
+      "Q278825",
+      "non-Islamic subject / modern politics / out of scope (wave2)"
+    ],
+    [
+      144,
+      "Q154697",
+      "non-Islamic subject / modern politics / out of scope (wave2)"
+    ],
+    [
+      145,
+      "Q192841",
+      "non-Islamic subject / modern politics / out of scope (wave2)"
+    ],
+    [
+      146,
+      "Q200565",
+      "non-Islamic subject / modern politics / out of scope (wave2)"
+    ],
+    [
+      148,
+      "Q208694",
+      "non-Islamic subject / modern politics / out of scope (wave2)"
+    ],
+    [
+      150,
+      "Q2854543",
+      "non-Islamic subject / modern politics / out of scope (wave2)"
+    ],
+    [
+      151,
+      "Q320713",
+      "non-Islamic subject / modern politics / out of scope (wave2)"
+    ],
+    [
+      153,
+      "Q189358",
+      "non-Islamic subject / modern politics / out of scope (wave2)"
+    ],
+    [
+      154,
+      "Q46242",
+      "non-Islamic subject / modern politics / out of scope (wave2)"
+    ],
+    [
+      155,
+      "Q49103",
+      "non-Islamic subject / modern politics / out of scope (wave2)"
+    ],
+    [
+      158,
+      "Q87138",
+      "non-Islamic subject / modern politics / out of scope (wave2)"
+    ],
+    [
+      159,
+      "Q201620",
+      "non-Islamic subject / modern politics / out of scope (wave2)"
+    ],
+    [
+      160,
+      "Q207385",
+      "non-Islamic subject / modern politics / out of scope (wave2)"
+    ],
+    [
+      161,
+      "Q216954",
+      "non-Islamic subject / modern politics / out of scope (wave2)"
+    ],
+    [
+      162,
+      "Q243684",
+      "non-Islamic subject / modern politics / out of scope (wave2)"
+    ],
+    [
+      163,
+      "Q404517",
+      "non-Islamic subject / modern politics / out of scope (wave2)"
+    ],
+    [
+      165,
+      "Q74623",
+      "non-Islamic subject / modern politics / out of scope (wave2)"
+    ],
+    [
+      166,
+      "Q151330",
+      "non-Islamic subject / modern politics / out of scope (wave2)"
+    ],
+    [
+      168,
+      "Q205666",
+      "non-Islamic subject / modern politics / out of scope (wave2)"
+    ],
+    [
+      170,
+      "Q329852",
+      "non-Islamic subject / modern politics / out of scope (wave2)"
+    ],
+    [
+      171,
+      "Q368519",
+      "non-Islamic subject / modern politics / out of scope (wave2)"
+    ],
+    [
+      172,
+      "Q728428",
+      "non-Islamic subject / modern politics / out of scope (wave2)"
+    ],
+    [
+      173,
+      "Q201692",
+      "non-Islamic subject / modern politics / out of scope (wave2)"
+    ],
+    [
+      174,
+      "Q202902",
+      "non-Islamic subject / modern politics / out of scope (wave2)"
+    ],
+    [
+      175,
+      "Q382116",
+      "non-Islamic subject / modern politics / out of scope (wave2)"
+    ],
+    [
+      176,
+      "Q615404",
+      "non-Islamic subject / modern politics / out of scope (wave2)"
+    ],
+    [
+      177,
+      "Q108102583",
+      "non-Islamic subject / modern politics / out of scope (wave2)"
+    ],
+    [
+      178,
+      "Q158148",
+      "non-Islamic subject / modern politics / out of scope (wave2)"
+    ],
+    [
+      179,
+      "Q167566",
+      "non-Islamic subject / modern politics / out of scope (wave2)"
+    ],
+    [
+      181,
+      "Q1922071",
+      "non-Islamic subject / modern politics / out of scope (wave2)"
+    ],
+    [
+      182,
+      "Q256548",
+      "non-Islamic subject / modern politics / out of scope (wave2)"
+    ],
+    [
+      183,
+      "Q732489",
+      "non-Islamic subject / modern politics / out of scope (wave2)"
+    ],
+    [
+      185,
+      "Q115253",
+      "non-Islamic subject / modern politics / out of scope (wave2)"
+    ],
+    [
+      188,
+      "Q477157",
+      "non-Islamic subject / modern politics / out of scope (wave2)"
+    ],
+    [
+      189,
+      "Q49092",
+      "non-Islamic subject / modern politics / out of scope (wave2)"
+    ],
+    [
+      190,
+      "Q623171",
+      "non-Islamic subject / modern politics / out of scope (wave2)"
+    ],
+    [
+      191,
+      "Q652285",
+      "non-Islamic subject / modern politics / out of scope (wave2)"
+    ],
+    [
+      192,
+      "Q155483",
+      "non-Islamic subject / modern politics / out of scope (wave2)"
+    ],
+    [
+      193,
+      "Q162665",
+      "non-Islamic subject / modern politics / out of scope (wave2)"
+    ],
+    [
+      196,
+      "Q477973",
+      "non-Islamic subject / modern politics / out of scope (wave2)"
+    ],
+    [
+      197,
+      "Q496922",
+      "non-Islamic subject / modern politics / out of scope (wave2)"
+    ],
+    [
+      199,
+      "Q1332160",
+      "non-Islamic subject / modern politics / out of scope (wave2)"
+    ],
+    [
+      201,
+      "Q157229",
+      "non-Islamic subject / modern politics / out of scope (wave2)"
+    ],
+    [
+      202,
+      "Q19085",
+      "non-Islamic subject / modern politics / out of scope (wave2)"
+    ],
+    [
+      205,
+      "Q462966",
+      "non-Islamic subject / modern politics / out of scope (wave2)"
+    ],
+    [
+      206,
+      "Q469930",
+      "non-Islamic subject / modern politics / out of scope (wave2)"
+    ],
+    [
+      207,
+      "Q107790",
+      "non-Islamic subject / modern politics / out of scope (wave2)"
+    ],
+    [
+      209,
+      "Q18817",
+      "non-Islamic subject / modern politics / out of scope (wave2)"
+    ],
+    [
+      212,
+      "Q46313",
+      "non-Islamic subject / modern politics / out of scope (wave2)"
+    ],
+    [
+      216,
+      "Q719422",
+      "non-Islamic subject / modern politics / out of scope (wave2)"
+    ],
+    [
+      218,
+      "Q8666",
+      "non-Islamic subject / modern politics / out of scope (wave2)"
+    ],
+    [
+      219,
+      "Q123070",
+      "non-Islamic subject / modern politics / out of scope (wave2)"
+    ],
+    [
+      220,
+      "Q143463",
+      "non-Islamic subject / modern politics / out of scope (wave2)"
+    ],
+    [
+      221,
+      "Q156316",
+      "non-Islamic subject / modern politics / out of scope (wave2)"
+    ],
+    [
+      222,
+      "Q255352",
+      "non-Islamic subject / modern politics / out of scope (wave2)"
+    ],
+    [
+      223,
+      "Q26749",
+      "non-Islamic subject / modern politics / out of scope (wave2)"
+    ],
+    [
+      226,
+      "Q576338",
+      "non-Islamic subject / modern politics / out of scope (wave2)"
+    ],
+    [
+      227,
+      "Q635533",
+      "non-Islamic subject / modern politics / out of scope (wave2)"
+    ],
+    [
+      228,
+      "Q1055311",
+      "non-Islamic subject / modern politics / out of scope (wave2)"
+    ],
+    [
+      229,
+      "Q164150",
+      "non-Islamic subject / modern politics / out of scope (wave2)"
+    ],
+    [
+      230,
+      "Q170119",
+      "non-Islamic subject / modern politics / out of scope (wave2)"
+    ],
+    [
+      231,
+      "Q171517",
+      "non-Islamic subject / modern politics / out of scope (wave2)"
+    ],
+    [
+      232,
+      "Q209312",
+      "non-Islamic subject / modern politics / out of scope (wave2)"
+    ],
+    [
+      233,
+      "Q321219",
+      "non-Islamic subject / modern politics / out of scope (wave2)"
+    ],
+    [
+      236,
+      "Q391620",
+      "non-Islamic subject / modern politics / out of scope (wave2)"
+    ],
+    [
+      237,
+      "Q482485",
+      "non-Islamic subject / modern politics / out of scope (wave2)"
+    ],
+    [
+      238,
+      "Q691928",
+      "non-Islamic subject / modern politics / out of scope (wave2)"
+    ],
+    [
+      239,
+      "Q847837",
+      "create-failed:file-exists:data/group/banu-nasr.yaml"
+    ],
+    [
+      240,
+      "Q856650",
+      "non-Islamic subject / modern politics / out of scope (wave2)"
+    ],
+    [
+      245,
+      "Q287942",
+      "non-Islamic subject / modern politics / out of scope (wave2)"
+    ],
+    [
+      246,
+      "Q369920",
+      "non-Islamic subject / modern politics / out of scope (wave2)"
+    ],
+    [
+      247,
+      "Q456817",
+      "non-Islamic subject / modern politics / out of scope (wave2)"
+    ],
+    [
+      248,
+      "Q505950",
+      "non-Islamic subject / modern politics / out of scope (wave2)"
+    ],
+    [
+      249,
+      "Q51650",
+      "non-Islamic subject / modern politics / out of scope (wave2)"
+    ],
+    [
+      250,
+      "Q696018",
+      "non-Islamic subject / modern politics / out of scope (wave2)"
+    ],
+    [
+      256,
+      "Q159512",
+      "non-Islamic subject / modern politics / out of scope (wave2)"
+    ],
+    [
+      257,
+      "Q220641",
+      "non-Islamic subject / modern politics / out of scope (wave2)"
+    ],
+    [
+      258,
+      "Q2635530",
+      "non-Islamic subject / modern politics / out of scope (wave2)"
+    ],
+    [
+      259,
+      "Q269876",
+      "non-Islamic subject / modern politics / out of scope (wave2)"
+    ],
+    [
+      260,
+      "Q53692",
+      "non-Islamic subject / modern politics / out of scope (wave2)"
+    ],
+    [
+      261,
+      "Q602358",
+      "non-Islamic subject / modern politics / out of scope (wave2)"
+    ],
+    [
+      262,
+      "Q638587",
+      "non-Islamic subject / modern politics / out of scope (wave2)"
+    ],
+    [
+      263,
+      "Q756098",
+      "non-Islamic subject / modern politics / out of scope (wave2)"
+    ],
+    [
+      268,
+      "Q10406562",
+      "audit: almohad-caliphate covers the dynasty; carries state item Q199688"
+    ],
+    [
+      269,
+      "Q1145682",
+      "non-Islamic subject / modern politics / out of scope (wave2)"
+    ],
+    [
+      270,
+      "Q138414208",
+      "non-Islamic subject / modern politics / out of scope (wave2)"
+    ],
+    [
+      271,
+      "Q155107",
+      "non-Islamic subject / modern politics / out of scope (wave2)"
+    ],
+    [
+      272,
+      "Q155726",
+      "non-Islamic subject / modern politics / out of scope (wave2)"
+    ],
+    [
+      273,
+      "Q169072",
+      "non-Islamic subject / modern politics / out of scope (wave2)"
+    ],
+    [
+      274,
+      "Q184999",
+      "non-Islamic subject / modern politics / out of scope (wave2)"
+    ],
+    [
+      275,
+      "Q2033385",
+      "non-Islamic subject / modern politics / out of scope (wave2)"
+    ],
+    [
+      276,
+      "Q235131",
+      "non-Islamic subject / modern politics / out of scope (wave2)"
+    ],
+    [
+      277,
+      "Q302556",
+      "non-Islamic subject / modern politics / out of scope (wave2)"
+    ],
+    [
+      278,
+      "Q366213",
+      "non-Islamic subject / modern politics / out of scope (wave2)"
+    ],
+    [
+      280,
+      "Q641479",
+      "non-Islamic subject / modern politics / out of scope (wave2)"
+    ],
+    [
+      281,
+      "Q654006",
+      "non-Islamic subject / modern politics / out of scope (wave2)"
+    ],
+    [
+      282,
+      "Q735349",
+      "non-Islamic subject / modern politics / out of scope (wave2)"
+    ],
+    [
+      283,
+      "Q936633",
+      "non-Islamic subject / modern politics / out of scope (wave2)"
+    ],
+    [
+      284,
+      "Q111012552",
+      "non-Islamic subject / modern politics / out of scope (wave2)"
+    ],
+    [
+      286,
+      "Q154860",
+      "non-Islamic subject / modern politics / out of scope (wave2)"
+    ],
+    [
+      287,
+      "Q162052",
+      "non-Islamic subject / modern politics / out of scope (wave2)"
+    ],
+    [
+      288,
+      "Q2019145",
+      "non-Islamic subject / modern politics / out of scope (wave2)"
+    ],
+    [
+      289,
+      "Q216511",
+      "non-Islamic subject / modern politics / out of scope (wave2)"
+    ],
+    [
+      290,
+      "Q221967",
+      "non-Islamic subject / modern politics / out of scope (wave2)"
+    ],
+    [
+      291,
+      "Q310898",
+      "non-Islamic subject / modern politics / out of scope (wave2)"
+    ],
+    [
+      292,
+      "Q312384",
+      "non-Islamic subject / modern politics / out of scope (wave2)"
+    ],
+    [
+      295,
+      "Q464512",
+      "non-Islamic subject / modern politics / out of scope (wave2)"
+    ],
+    [
+      296,
+      "Q475379",
+      "non-Islamic subject / modern politics / out of scope (wave2)"
+    ],
+    [
+      297,
+      "Q631799",
+      "non-Islamic subject / modern politics / out of scope (wave2)"
+    ],
+    [
+      298,
+      "Q6500483",
+      "non-Islamic subject / modern politics / out of scope (wave2)"
+    ],
+    [
+      299,
+      "Q677316",
+      "non-Islamic subject / modern politics / out of scope (wave2)"
+    ],
+    [
+      300,
+      "Q70207089",
+      "non-Islamic subject / modern politics / out of scope (wave2)"
+    ],
+    [
+      303,
+      "Q844886",
+      "non-Islamic subject / modern politics / out of scope (wave2)"
+    ],
+    [
+      304,
+      "Q187525",
+      "non-Islamic subject / modern politics / out of scope (wave2)"
+    ],
+    [
+      306,
+      "Q299446",
+      "non-Islamic subject / modern politics / out of scope (wave2)"
+    ],
+    [
+      308,
+      "Q482423",
+      "non-Islamic subject / modern politics / out of scope (wave2)"
+    ],
+    [
+      309,
+      "Q482456",
+      "non-Islamic subject / modern politics / out of scope (wave2)"
+    ],
+    [
+      310,
+      "Q495276",
+      "non-Islamic subject / modern politics / out of scope (wave2)"
+    ],
+    [
+      312,
+      "Q631991",
+      "non-Islamic subject / modern politics / out of scope (wave2)"
+    ],
+    [
+      314,
+      "Q696848",
+      "non-Islamic subject / modern politics / out of scope (wave2)"
+    ],
+    [
+      315,
+      "Q714435",
+      "non-Islamic subject / modern politics / out of scope (wave2)"
+    ],
+    [
+      316,
+      "Q940733",
+      "non-Islamic subject / modern politics / out of scope (wave2)"
+    ],
+    [
+      318,
+      "Q1075988",
+      "non-Islamic subject / modern politics / out of scope (wave2)"
+    ],
+    [
+      319,
+      "Q1791841",
+      "non-Islamic subject / modern politics / out of scope (wave2)"
+    ],
+    [
+      320,
+      "Q179275",
+      "non-Islamic subject / modern politics / out of scope (wave2)"
+    ],
+    [
+      321,
+      "Q203797",
+      "non-Islamic subject / modern politics / out of scope (wave2)"
+    ],
+    [
+      322,
+      "Q20737645",
+      "audit: timurid-empire already carries the state item Q484195; dynasty item kept distinct"
+    ],
+    [
+      324,
+      "Q2425839",
+      "non-Islamic subject / modern politics / out of scope (wave2)"
+    ],
+    [
+      325,
+      "Q311160",
+      "non-Islamic subject / modern politics / out of scope (wave2)"
+    ],
+    [
+      326,
+      "Q335353",
+      "non-Islamic subject / modern politics / out of scope (wave2)"
+    ],
+    [
+      327,
+      "Q68359",
+      "non-Islamic subject / modern politics / out of scope (wave2)"
+    ],
+    [
+      328,
+      "Q69513",
+      "non-Islamic subject / modern politics / out of scope (wave2)"
+    ],
+    [
+      329,
+      "Q747516",
+      "non-Islamic subject / modern politics / out of scope (wave2)"
+    ],
+    [
+      332,
+      "Q852429",
+      "non-Islamic subject / modern politics / out of scope (wave2)"
+    ],
+    [
+      335,
+      "Q193254",
+      "non-Islamic subject / modern politics / out of scope (wave2)"
+    ],
+    [
+      336,
+      "Q206101",
+      "non-Islamic subject / modern politics / out of scope (wave2)"
+    ],
+    [
+      338,
+      "Q437791",
+      "non-Islamic subject / modern politics / out of scope (wave2)"
+    ],
+    [
+      339,
+      "Q557337",
+      "non-Islamic subject / modern politics / out of scope (wave2)"
+    ],
+    [
+      343,
+      "Q848386",
+      "non-Islamic subject / modern politics / out of scope (wave2)"
+    ],
+    [
+      344,
+      "Q957586",
+      "non-Islamic subject / modern politics / out of scope (wave2)"
+    ],
+    [
+      345,
+      "Q1059073",
+      "non-Islamic subject / modern politics / out of scope (wave2)"
+    ],
+    [
+      346,
+      "Q1145236",
+      "non-Islamic subject / modern politics / out of scope (wave2)"
+    ],
+    [
+      347,
+      "Q1252408",
+      "non-Islamic subject / modern politics / out of scope (wave2)"
+    ],
+    [
+      350,
+      "Q250652",
+      "non-Islamic subject / modern politics / out of scope (wave2)"
+    ],
+    [
+      351,
+      "Q27429856",
+      "non-Islamic subject / modern politics / out of scope (wave2)"
+    ],
+    [
+      352,
+      "Q316654",
+      "non-Islamic subject / modern politics / out of scope (wave2)"
+    ],
+    [
+      353,
+      "Q317091",
+      "non-Islamic subject / modern politics / out of scope (wave2)"
+    ],
+    [
+      354,
+      "Q327085",
+      "non-Islamic subject / modern politics / out of scope (wave2)"
+    ],
+    [
+      356,
+      "Q420810",
+      "non-Islamic subject / modern politics / out of scope (wave2)"
+    ],
+    [
+      357,
+      "Q622438",
+      "non-Islamic subject / modern politics / out of scope (wave2)"
+    ],
+    [
+      358,
+      "Q644464",
+      "non-Islamic subject / modern politics / out of scope (wave2)"
+    ],
+    [
+      359,
+      "Q706183",
+      "non-Islamic subject / modern politics / out of scope (wave2)"
+    ],
+    [
+      362,
+      "Q850590",
+      "non-Islamic subject / modern politics / out of scope (wave2)"
+    ],
+    [
+      363,
+      "Q910180",
+      "non-Islamic subject / modern politics / out of scope (wave2)"
+    ],
+    [
+      364,
+      "Q937255",
+      "non-Islamic subject / modern politics / out of scope (wave2)"
+    ],
+    [
+      366,
+      "Q1154819",
+      "non-Islamic subject / modern politics / out of scope (wave2)"
+    ],
+    [
+      367,
+      "Q123285238",
+      "non-Islamic subject / modern politics / out of scope (wave2)"
+    ],
+    [
+      369,
+      "Q353547",
+      "non-Islamic subject / modern politics / out of scope (wave2)"
+    ],
+    [
+      371,
+      "Q486831",
+      "non-Islamic subject / modern politics / out of scope (wave2)"
+    ],
+    [
+      373,
+      "Q5679009",
+      "non-Islamic subject / modern politics / out of scope (wave2)"
+    ],
+    [
+      374,
+      "Q596373",
+      "non-Islamic subject / modern politics / out of scope (wave2)"
+    ],
+    [
+      375,
+      "Q62364",
+      "non-Islamic subject / modern politics / out of scope (wave2)"
+    ],
+    [
+      376,
+      "Q631163",
+      "non-Islamic subject / modern politics / out of scope (wave2)"
+    ],
+    [
+      380,
+      "Q917702",
+      "non-Islamic subject / modern politics / out of scope (wave2)"
+    ],
+    [
+      383,
+      "Q1130266",
+      "non-Islamic subject / modern politics / out of scope (wave2)"
+    ],
+    [
+      384,
+      "Q1136575",
+      "non-Islamic subject / modern politics / out of scope (wave2)"
+    ],
+    [
+      385,
+      "Q118618",
+      "non-Islamic subject / modern politics / out of scope (wave2)"
+    ],
+    [
+      388,
+      "Q200693",
+      "non-Islamic subject / modern politics / out of scope (wave2)"
+    ],
+    [
+      389,
+      "Q247253",
+      "non-Islamic subject / modern politics / out of scope (wave2)"
+    ],
+    [
+      390,
+      "Q349263",
+      "non-Islamic subject / modern politics / out of scope (wave2)"
+    ],
+    [
+      391,
+      "Q356568",
+      "non-Islamic subject / modern politics / out of scope (wave2)"
+    ],
+    [
+      393,
+      "Q3986360",
+      "non-Islamic subject / modern politics / out of scope (wave2)"
+    ],
+    [
+      394,
+      "Q528415",
+      "non-Islamic subject / modern politics / out of scope (wave2)"
+    ],
+    [
+      397,
+      "Q645719",
+      "non-Islamic subject / modern politics / out of scope (wave2)"
+    ],
+    [
+      398,
+      "Q646085",
+      "non-Islamic subject / modern politics / out of scope (wave2)"
+    ],
+    [
+      399,
+      "Q666935",
+      "non-Islamic subject / modern politics / out of scope (wave2)"
+    ],
+    [
+      401,
+      "Q725404",
+      "non-Islamic subject / modern politics / out of scope (wave2)"
+    ],
+    [
+      403,
+      "Q867537",
+      "non-Islamic subject / modern politics / out of scope (wave2)"
+    ],
+    [
+      404,
+      "Q874234",
+      "non-Islamic subject / modern politics / out of scope (wave2)"
+    ],
+    [
+      405,
+      "Q88158",
+      "non-Islamic subject / modern politics / out of scope (wave2)"
+    ],
+    [
+      406,
+      "Q1076004",
+      "non-Islamic subject / modern politics / out of scope (wave2)"
+    ],
+    [
+      407,
+      "Q13360213",
+      "non-Islamic subject / modern politics / out of scope (wave2)"
+    ],
+    [
+      408,
+      "Q147220",
+      "non-Islamic subject / modern politics / out of scope (wave2)"
+    ],
+    [
+      414,
+      "Q369608",
+      "non-Islamic subject / modern politics / out of scope (wave2)"
+    ],
+    [
+      416,
+      "Q483039",
+      "non-Islamic subject / modern politics / out of scope (wave2)"
+    ],
+    [
+      417,
+      "Q496950",
+      "non-Islamic subject / modern politics / out of scope (wave2)"
+    ],
+    [
+      423,
+      "Q867541",
+      "non-Islamic subject / modern politics / out of scope (wave2)"
+    ],
+    [
+      425,
+      "Q912192",
+      "non-Islamic subject / modern politics / out of scope (wave2)"
+    ],
+    [
+      426,
+      "Q944941",
+      "non-Islamic subject / modern politics / out of scope (wave2)"
+    ],
+    [
+      428,
+      "Q1123987",
+      "non-Islamic subject / modern politics / out of scope (wave2)"
+    ],
+    [
+      430,
+      "Q1370087",
+      "non-Islamic subject / modern politics / out of scope (wave2)"
+    ],
+    [
+      432,
+      "Q2047548",
+      "non-Islamic subject / modern politics / out of scope (wave2)"
+    ],
+    [
+      433,
+      "Q2344561",
+      "non-Islamic subject / modern politics / out of scope (wave2)"
+    ],
+    [
+      438,
+      "Q289427",
+      "non-Islamic subject / modern politics / out of scope (wave2)"
+    ],
+    [
+      439,
+      "Q339291",
+      "non-Islamic subject / modern politics / out of scope (wave2)"
+    ],
+    [
+      441,
+      "Q454703",
+      "non-Islamic subject / modern politics / out of scope (wave2)"
+    ],
+    [
+      442,
+      "Q469299",
+      "non-Islamic subject / modern politics / out of scope (wave2)"
+    ],
+    [
+      444,
+      "Q564981",
+      "non-Islamic subject / modern politics / out of scope (wave2)"
+    ],
+    [
+      445,
+      "Q597051",
+      "non-Islamic subject / modern politics / out of scope (wave2)"
+    ],
+    [
+      446,
+      "Q611089",
+      "non-Islamic subject / modern politics / out of scope (wave2)"
+    ],
+    [
+      448,
+      "Q678259",
+      "non-Islamic subject / modern politics / out of scope (wave2)"
+    ],
+    [
+      449,
+      "Q780845",
+      "non-Islamic subject / modern politics / out of scope (wave2)"
+    ],
+    [
+      450,
+      "Q830626",
+      "non-Islamic subject / modern politics / out of scope (wave2)"
+    ],
+    [
+      454,
+      "Q976827",
+      "non-Islamic subject / modern politics / out of scope (wave2)"
+    ],
+    [
+      455,
+      "Q1164788",
+      "non-Islamic subject / modern politics / out of scope (wave2)"
+    ],
+    [
+      457,
+      "Q167314",
+      "non-Islamic subject / modern politics / out of scope (wave2)"
+    ],
+    [
+      459,
+      "Q1842866",
+      "non-Islamic subject / modern politics / out of scope (wave2)"
+    ],
+    [
+      461,
+      "Q2000542",
+      "non-Islamic subject / modern politics / out of scope (wave2)"
+    ],
+    [
+      462,
+      "Q2628708",
+      "non-Islamic subject / modern politics / out of scope (wave2)"
+    ],
+    [
+      463,
+      "Q283364",
+      "non-Islamic subject / modern politics / out of scope (wave2)"
+    ],
+    [
+      465,
+      "Q3111454",
+      "non-Islamic subject / modern politics / out of scope (wave2)"
+    ],
+    [
+      467,
+      "Q321783",
+      "non-Islamic subject / modern politics / out of scope (wave2)"
+    ],
+    [
+      468,
+      "Q383614",
+      "non-Islamic subject / modern politics / out of scope (wave2)"
+    ],
+    [
+      469,
+      "Q482631",
+      "non-Islamic subject / modern politics / out of scope (wave2)"
+    ],
+    [
+      470,
+      "Q578771",
+      "non-Islamic subject / modern politics / out of scope (wave2)"
+    ],
+    [
+      471,
+      "Q655480",
+      "non-Islamic subject / modern politics / out of scope (wave2)"
+    ],
+    [
+      473,
+      "Q7722735",
+      "non-Islamic subject / modern politics / out of scope (wave2)"
+    ],
+    [
+      478,
+      "Q1517884",
+      "non-Islamic subject / modern politics / out of scope (wave2)"
+    ],
+    [
+      479,
+      "Q1585785",
+      "non-Islamic subject / modern politics / out of scope (wave2)"
+    ],
+    [
+      480,
+      "Q18071930",
+      "non-Islamic subject / modern politics / out of scope (wave2)"
+    ],
+    [
+      481,
+      "Q181146",
+      "non-Islamic subject / modern politics / out of scope (wave2)"
+    ],
+    [
+      484,
+      "Q247595",
+      "non-Islamic subject / modern politics / out of scope (wave2)"
+    ],
+    [
+      485,
+      "Q311726",
+      "non-Islamic subject / modern politics / out of scope (wave2)"
+    ],
+    [
+      486,
+      "Q318980",
+      "non-Islamic subject / modern politics / out of scope (wave2)"
+    ],
+    [
+      487,
+      "Q342360",
+      "non-Islamic subject / modern politics / out of scope (wave2)"
+    ],
+    [
+      489,
+      "Q4392418",
+      "non-Islamic subject / modern politics / out of scope (wave2)"
+    ],
+    [
+      490,
+      "Q561218",
+      "non-Islamic subject / modern politics / out of scope (wave2)"
+    ],
+    [
+      491,
+      "Q573972",
+      "non-Islamic subject / modern politics / out of scope (wave2)"
+    ],
+    [
+      492,
+      "Q590605",
+      "non-Islamic subject / modern politics / out of scope (wave2)"
+    ],
+    [
+      493,
+      "Q599223",
+      "non-Islamic subject / modern politics / out of scope (wave2)"
+    ],
+    [
+      495,
+      "Q625133",
+      "non-Islamic subject / modern politics / out of scope (wave2)"
+    ],
+    [
+      496,
+      "Q698281",
+      "non-Islamic subject / modern politics / out of scope (wave2)"
+    ],
+    [
+      498,
+      "Q815177",
+      "non-Islamic subject / modern politics / out of scope (wave2)"
+    ],
+    [
+      500,
+      "Q915851",
+      "non-Islamic subject / modern politics / out of scope (wave2)"
+    ],
+    [
+      501,
+      "Q1218608",
+      "non-Islamic subject / modern politics / out of scope (wave2)"
+    ],
+    [
+      502,
+      "Q123912788",
+      "non-Islamic subject / modern politics / out of scope (wave2)"
+    ],
+    [
+      503,
+      "Q12497177",
+      "non-Islamic subject / modern politics / out of scope (wave2)"
+    ],
+    [
+      505,
+      "Q1367970",
+      "non-Islamic subject / modern politics / out of scope (wave2)"
+    ],
+    [
+      507,
+      "Q166015",
+      "non-Islamic subject / modern politics / out of scope (wave2)"
+    ],
+    [
+      508,
+      "Q19682450",
+      "non-Islamic subject / modern politics / out of scope (wave2)"
+    ],
+    [
+      509,
+      "Q1987213",
+      "non-Islamic subject / modern politics / out of scope (wave2)"
+    ],
+    [
+      511,
+      "Q243590",
+      "non-Islamic subject / modern politics / out of scope (wave2)"
+    ],
+    [
+      512,
+      "Q29242",
+      "non-Islamic subject / modern politics / out of scope (wave2)"
+    ],
+    [
+      515,
+      "Q483821",
+      "non-Islamic subject / modern politics / out of scope (wave2)"
+    ],
+    [
+      516,
+      "Q484966",
+      "non-Islamic subject / modern politics / out of scope (wave2)"
+    ],
+    [
+      518,
+      "Q605675",
+      "non-Islamic subject / modern politics / out of scope (wave2)"
+    ],
+    [
+      519,
+      "Q636365",
+      "non-Islamic subject / modern politics / out of scope (wave2)"
+    ],
+    [
+      520,
+      "Q673265",
+      "non-Islamic subject / modern politics / out of scope (wave2)"
+    ],
+    [
+      521,
+      "Q676093",
+      "non-Islamic subject / modern politics / out of scope (wave2)"
+    ],
+    [
+      523,
+      "Q734539",
+      "non-Islamic subject / modern politics / out of scope (wave2)"
+    ],
+    [
+      525,
+      "Q79220",
+      "non-Islamic subject / modern politics / out of scope (wave2)"
+    ],
+    [
+      527,
+      "Q1049259",
+      "non-Islamic subject / modern politics / out of scope (wave2)"
+    ],
+    [
+      528,
+      "Q1087557",
+      "non-Islamic subject / modern politics / out of scope (wave2)"
+    ],
+    [
+      530,
+      "Q1143379",
+      "non-Islamic subject / modern politics / out of scope (wave2)"
+    ],
+    [
+      532,
+      "Q1229016",
+      "non-Islamic subject / modern politics / out of scope (wave2)"
+    ],
+    [
+      533,
+      "Q1429256",
+      "non-Islamic subject / modern politics / out of scope (wave2)"
+    ],
+    [
+      535,
+      "Q161156",
+      "non-Islamic subject / modern politics / out of scope (wave2)"
+    ],
+    [
+      536,
+      "Q170400",
+      "non-Islamic subject / modern politics / out of scope (wave2)"
+    ],
+    [
+      537,
+      "Q17512479",
+      "non-Islamic subject / modern politics / out of scope (wave2)"
+    ],
+    [
+      540,
+      "Q2571455",
+      "non-Islamic subject / modern politics / out of scope (wave2)"
+    ],
+    [
+      542,
+      "Q353633",
+      "non-Islamic subject / modern politics / out of scope (wave2)"
+    ],
+    [
+      543,
+      "Q456575",
+      "non-Islamic subject / modern politics / out of scope (wave2)"
+    ],
+    [
+      547,
+      "Q705553",
+      "non-Islamic subject / modern politics / out of scope (wave2)"
+    ],
+    [
+      548,
+      "Q705813",
+      "non-Islamic subject / modern politics / out of scope (wave2)"
+    ],
+    [
+      549,
+      "Q714744",
+      "non-Islamic subject / modern politics / out of scope (wave2)"
+    ],
+    [
+      550,
+      "Q714749",
+      "non-Islamic subject / modern politics / out of scope (wave2)"
+    ],
+    [
+      551,
+      "Q737907",
+      "non-Islamic subject / modern politics / out of scope (wave2)"
+    ],
+    [
+      552,
+      "Q7461",
+      "non-Islamic subject / modern politics / out of scope (wave2)"
+    ],
+    [
+      555,
+      "Q127299",
+      "non-Islamic subject / modern politics / out of scope (wave2)"
+    ],
+    [
+      556,
+      "Q130388076",
+      "non-Islamic subject / modern politics / out of scope (wave2)"
+    ],
+    [
+      557,
+      "Q1322445",
+      "non-Islamic subject / modern politics / out of scope (wave2)"
+    ],
+    [
+      558,
+      "Q1361929",
+      "non-Islamic subject / modern politics / out of scope (wave2)"
+    ],
+    [
+      559,
+      "Q1520581",
+      "non-Islamic subject / modern politics / out of scope (wave2)"
+    ],
+    [
+      560,
+      "Q164743",
+      "non-Islamic subject / modern politics / out of scope (wave2)"
+    ],
+    [
+      561,
+      "Q2086556",
+      "non-Islamic subject / modern politics / out of scope (wave2)"
+    ],
+    [
+      566,
+      "Q26690015",
+      "non-Islamic subject / modern politics / out of scope (wave2)"
+    ],
+    [
+      569,
+      "Q371345",
+      "non-Islamic subject / modern politics / out of scope (wave2)"
+    ],
+    [
+      570,
+      "Q468214",
+      "non-Islamic subject / modern politics / out of scope (wave2)"
+    ],
+    [
+      572,
+      "Q475338",
+      "non-Islamic subject / modern politics / out of scope (wave2)"
+    ],
+    [
+      573,
+      "Q486886",
+      "non-Islamic subject / modern politics / out of scope (wave2)"
+    ],
+    [
+      574,
+      "Q512934",
+      "non-Islamic subject / modern politics / out of scope (wave2)"
+    ],
+    [
+      576,
+      "Q568640",
+      "non-Islamic subject / modern politics / out of scope (wave2)"
+    ],
+    [
+      577,
+      "Q611071",
+      "non-Islamic subject / modern politics / out of scope (wave2)"
+    ],
+    [
+      578,
+      "Q622577",
+      "non-Islamic subject / modern politics / out of scope (wave2)"
+    ],
+    [
+      579,
+      "Q631972",
+      "non-Islamic subject / modern politics / out of scope (wave2)"
+    ],
+    [
+      580,
+      "Q707238",
+      "non-Islamic subject / modern politics / out of scope (wave2)"
+    ],
+    [
+      581,
+      "Q757870",
+      "non-Islamic subject / modern politics / out of scope (wave2)"
+    ],
+    [
+      584,
+      "Q975430",
+      "non-Islamic subject / modern politics / out of scope (wave2)"
+    ],
+    [
+      585,
+      "Q1003322",
+      "non-Islamic subject / modern politics / out of scope (wave2)"
+    ],
+    [
+      586,
+      "Q1018969",
+      "non-Islamic subject / modern politics / out of scope (wave2)"
+    ],
+    [
+      587,
+      "Q1052171",
+      "non-Islamic subject / modern politics / out of scope (wave2)"
+    ],
+    [
+      588,
+      "Q130374882",
+      "non-Islamic subject / modern politics / out of scope (wave2)"
+    ],
+    [
+      589,
+      "Q131401087",
+      "non-Islamic subject / modern politics / out of scope (wave2)"
+    ],
+    [
+      590,
+      "Q1323932",
+      "non-Islamic subject / modern politics / out of scope (wave2)"
+    ],
+    [
+      591,
+      "Q1368885",
+      "non-Islamic subject / modern politics / out of scope (wave2)"
+    ],
+    [
+      593,
+      "Q151663",
+      "non-Islamic subject / modern politics / out of scope (wave2)"
+    ],
+    [
+      597,
+      "Q2428714",
+      "non-Islamic subject / modern politics / out of scope (wave2)"
+    ],
+    [
+      601,
+      "Q283120",
+      "non-Islamic subject / modern politics / out of scope (wave2)"
+    ],
+    [
+      602,
+      "Q28769",
+      "non-Islamic subject / modern politics / out of scope (wave2)"
+    ],
+    [
+      604,
+      "Q313435",
+      "non-Islamic subject / modern politics / out of scope (wave2)"
+    ],
+    [
+      605,
+      "Q375278",
+      "non-Islamic subject / modern politics / out of scope (wave2)"
+    ],
+    [
+      610,
+      "Q630922",
+      "non-Islamic subject / modern politics / out of scope (wave2)"
+    ],
+    [
+      612,
+      "Q663405",
+      "non-Islamic subject / modern politics / out of scope (wave2)"
+    ],
+    [
+      613,
+      "Q699477",
+      "non-Islamic subject / modern politics / out of scope (wave2)"
+    ],
+    [
+      616,
+      "Q756807",
+      "non-Islamic subject / modern politics / out of scope (wave2)"
+    ],
+    [
+      617,
+      "Q815160",
+      "non-Islamic subject / modern politics / out of scope (wave2)"
+    ],
+    [
+      618,
+      "Q8655",
+      "non-Islamic subject / modern politics / out of scope (wave2)"
+    ],
+    [
+      619,
+      "Q965258",
+      "non-Islamic subject / modern politics / out of scope (wave2)"
+    ],
+    [
+      621,
+      "Q1066641",
+      "non-Islamic subject / modern politics / out of scope (wave2)"
+    ],
+    [
+      622,
+      "Q1072510",
+      "non-Islamic subject / modern politics / out of scope (wave2)"
+    ],
+    [
+      623,
+      "Q1190696",
+      "non-Islamic subject / modern politics / out of scope (wave2)"
+    ],
+    [
+      624,
+      "Q125465957",
+      "non-Islamic subject / modern politics / out of scope (wave2)"
+    ],
+    [
+      627,
+      "Q1338405",
+      "non-Islamic subject / modern politics / out of scope (wave2)"
+    ],
+    [
+      628,
+      "Q1345223",
+      "non-Islamic subject / modern politics / out of scope (wave2)"
+    ],
+    [
+      629,
+      "Q1348955",
+      "non-Islamic subject / modern politics / out of scope (wave2)"
+    ],
+    [
+      630,
+      "Q136190686",
+      "non-Islamic subject / modern politics / out of scope (wave2)"
+    ],
+    [
+      631,
+      "Q147994",
+      "non-Islamic subject / modern politics / out of scope (wave2)"
+    ],
+    [
+      633,
+      "Q1519034",
+      "non-Islamic subject / modern politics / out of scope (wave2)"
+    ],
+    [
+      635,
+      "Q1545405",
+      "non-Islamic subject / modern politics / out of scope (wave2)"
+    ],
+    [
+      636,
+      "Q1577652",
+      "non-Islamic subject / modern politics / out of scope (wave2)"
+    ],
+    [
+      638,
+      "Q1721042",
+      "non-Islamic subject / modern politics / out of scope (wave2)"
+    ],
+    [
+      639,
+      "Q18357664",
+      "non-Islamic subject / modern politics / out of scope (wave2)"
+    ],
+    [
+      640,
+      "Q1946569",
+      "non-Islamic subject / modern politics / out of scope (wave2)"
+    ],
+    [
+      641,
+      "Q223622",
+      "non-Islamic subject / modern politics / out of scope (wave2)"
+    ],
+    [
+      642,
+      "Q225373",
+      "non-Islamic subject / modern politics / out of scope (wave2)"
+    ],
+    [
+      648,
+      "Q2757538",
+      "non-Islamic subject / modern politics / out of scope (wave2)"
+    ],
+    [
+      650,
+      "Q30041564",
+      "non-Islamic subject / modern politics / out of scope (wave2)"
+    ],
+    [
+      652,
+      "Q345276",
+      "non-Islamic subject / modern politics / out of scope (wave2)"
+    ],
+    [
+      654,
+      "Q423525",
+      "non-Islamic subject / modern politics / out of scope (wave2)"
+    ],
+    [
+      655,
+      "Q482852",
+      "non-Islamic subject / modern politics / out of scope (wave2)"
+    ],
+    [
+      656,
+      "Q532399",
+      "non-Islamic subject / modern politics / out of scope (wave2)"
+    ],
+    [
+      657,
+      "Q549506",
+      "non-Islamic subject / modern politics / out of scope (wave2)"
+    ],
+    [
+      658,
+      "Q644589",
+      "non-Islamic subject / modern politics / out of scope (wave2)"
+    ],
+    [
+      659,
+      "Q677383",
+      "non-Islamic subject / modern politics / out of scope (wave2)"
+    ],
+    [
+      660,
+      "Q682399",
+      "non-Islamic subject / modern politics / out of scope (wave2)"
+    ],
+    [
+      662,
+      "Q692723",
+      "non-Islamic subject / modern politics / out of scope (wave2)"
+    ],
+    [
+      663,
+      "Q831361",
+      "non-Islamic subject / modern politics / out of scope (wave2)"
+    ],
+    [
+      665,
+      "Q878102",
+      "non-Islamic subject / modern politics / out of scope (wave2)"
+    ],
+    [
+      666,
+      "Q930376",
+      "non-Islamic subject / modern politics / out of scope (wave2)"
+    ],
+    [
+      667,
+      "Q1028296",
+      "non-Islamic subject / modern politics / out of scope (wave2)"
+    ],
+    [
+      668,
+      "Q1072284",
+      "non-Islamic subject / modern politics / out of scope (wave2)"
+    ],
+    [
+      669,
+      "Q1112125",
+      "non-Islamic subject / modern politics / out of scope (wave2)"
+    ],
+    [
+      671,
+      "Q1242472",
+      "non-Islamic subject / modern politics / out of scope (wave2)"
+    ],
+    [
+      673,
+      "Q1290590",
+      "non-Islamic subject / modern politics / out of scope (wave2)"
+    ],
+    [
+      674,
+      "Q131355384",
+      "non-Islamic subject / modern politics / out of scope (wave2)"
+    ],
+    [
+      675,
+      "Q1330136",
+      "non-Islamic subject / modern politics / out of scope (wave2)"
+    ],
+    [
+      678,
+      "Q1537159",
+      "non-Islamic subject / modern politics / out of scope (wave2)"
+    ],
+    [
+      679,
+      "Q19834",
+      "non-Islamic subject / modern politics / out of scope (wave2)"
+    ],
+    [
+      682,
+      "Q2187746",
+      "non-Islamic subject / modern politics / out of scope (wave2)"
+    ],
+    [
+      686,
+      "Q2991838",
+      "non-Islamic subject / modern politics / out of scope (wave2)"
+    ],
+    [
+      687,
+      "Q326668",
+      "non-Islamic subject / modern politics / out of scope (wave2)"
+    ],
+    [
+      690,
+      "Q492998",
+      "non-Islamic subject / modern politics / out of scope (wave2)"
+    ],
+    [
+      691,
+      "Q569877",
+      "non-Islamic subject / modern politics / out of scope (wave2)"
+    ],
+    [
+      693,
+      "Q608932",
+      "non-Islamic subject / modern politics / out of scope (wave2)"
+    ],
+    [
+      694,
+      "Q661534",
+      "non-Islamic subject / modern politics / out of scope (wave2)"
+    ],
+    [
+      696,
+      "Q697053",
+      "non-Islamic subject / modern politics / out of scope (wave2)"
+    ],
+    [
+      697,
+      "Q704831",
+      "non-Islamic subject / modern politics / out of scope (wave2)"
+    ],
+    [
+      699,
+      "Q83755",
+      "non-Islamic subject / modern politics / out of scope (wave2)"
+    ],
+    [
+      700,
+      "Q843588",
+      "non-Islamic subject / modern politics / out of scope (wave2)"
+    ],
+    [
+      702,
+      "Q930795",
+      "non-Islamic subject / modern politics / out of scope (wave2)"
+    ],
+    [
+      704,
+      "Q1034173",
+      "non-Islamic subject / modern politics / out of scope (wave2)"
+    ],
+    [
+      708,
+      "Q1355145",
+      "non-Islamic subject / modern politics / out of scope (wave2)"
+    ],
+    [
+      711,
+      "Q1472490",
+      "non-Islamic subject / modern politics / out of scope (wave2)"
+    ],
+    [
+      712,
+      "Q1760491",
+      "non-Islamic subject / modern politics / out of scope (wave2)"
+    ],
+    [
+      713,
+      "Q1785978",
+      "non-Islamic subject / modern politics / out of scope (wave2)"
+    ],
+    [
+      715,
+      "Q187333",
+      "non-Islamic subject / modern politics / out of scope (wave2)"
+    ],
+    [
+      716,
+      "Q198097",
+      "non-Islamic subject / modern politics / out of scope (wave2)"
+    ],
+    [
+      720,
+      "Q2330335",
+      "non-Islamic subject / modern politics / out of scope (wave2)"
+    ],
+    [
+      721,
+      "Q2330391",
+      "non-Islamic subject / modern politics / out of scope (wave2)"
+    ],
+    [
+      723,
+      "Q234048",
+      "non-Islamic subject / modern politics / out of scope (wave2)"
+    ],
+    [
+      724,
+      "Q2370784",
+      "non-Islamic subject / modern politics / out of scope (wave2)"
+    ],
+    [
+      725,
+      "Q2376970",
+      "non-Islamic subject / modern politics / out of scope (wave2)"
+    ],
+    [
+      726,
+      "Q247395",
+      "non-Islamic subject / modern politics / out of scope (wave2)"
+    ],
+    [
+      732,
+      "Q286611",
+      "non-Islamic subject / modern politics / out of scope (wave2)"
+    ],
+    [
+      733,
+      "Q338708",
+      "non-Islamic subject / modern politics / out of scope (wave2)"
+    ],
+    [
+      734,
+      "Q383067",
+      "non-Islamic subject / modern politics / out of scope (wave2)"
+    ],
+    [
+      738,
+      "Q558159",
+      "non-Islamic subject / modern politics / out of scope (wave2)"
+    ],
+    [
+      739,
+      "Q565148",
+      "non-Islamic subject / modern politics / out of scope (wave2)"
+    ],
+    [
+      742,
+      "Q61895",
+      "non-Islamic subject / modern politics / out of scope (wave2)"
+    ],
+    [
+      749,
+      "Q819575",
+      "non-Islamic subject / modern politics / out of scope (wave2)"
+    ],
+    [
+      752,
+      "Q931371",
+      "non-Islamic subject / modern politics / out of scope (wave2)"
+    ],
+    [
+      753,
+      "Q932599",
+      "non-Islamic subject / modern politics / out of scope (wave2)"
+    ],
+    [
+      754,
+      "Q942688",
+      "non-Islamic subject / modern politics / out of scope (wave2)"
+    ],
+    [
+      756,
+      "Q1069936",
+      "non-Islamic subject / modern politics / out of scope (wave2)"
+    ],
+    [
+      758,
+      "Q112501",
+      "non-Islamic subject / modern politics / out of scope (wave2)"
+    ],
+    [
+      762,
+      "Q1192398",
+      "non-Islamic subject / modern politics / out of scope (wave2)"
+    ],
+    [
+      764,
+      "Q130354504",
+      "non-Islamic subject / modern politics / out of scope (wave2)"
+    ],
+    [
+      765,
+      "Q1393493",
+      "non-Islamic subject / modern politics / out of scope (wave2)"
+    ],
+    [
+      767,
+      "Q1499188",
+      "non-Islamic subject / modern politics / out of scope (wave2)"
+    ],
+    [
+      768,
+      "Q1591054",
+      "non-Islamic subject / modern politics / out of scope (wave2)"
+    ],
+    [
+      769,
+      "Q1601019",
+      "non-Islamic subject / modern politics / out of scope (wave2)"
+    ],
+    [
+      771,
+      "Q1942724",
+      "non-Islamic subject / modern politics / out of scope (wave2)"
+    ],
+    [
+      772,
+      "Q1968086",
+      "non-Islamic subject / modern politics / out of scope (wave2)"
+    ],
+    [
+      775,
+      "Q2034331",
+      "non-Islamic subject / modern politics / out of scope (wave2)"
+    ],
+    [
+      776,
+      "Q2237280",
+      "non-Islamic subject / modern politics / out of scope (wave2)"
+    ],
+    [
+      779,
+      "Q2479435",
+      "non-Islamic subject / modern politics / out of scope (wave2)"
+    ],
+    [
+      780,
+      "Q2524228",
+      "non-Islamic subject / modern politics / out of scope (wave2)"
+    ],
+    [
+      782,
+      "Q2739100",
+      "non-Islamic subject / modern politics / out of scope (wave2)"
+    ],
+    [
+      783,
+      "Q277392",
+      "non-Islamic subject / modern politics / out of scope (wave2)"
+    ],
+    [
+      785,
+      "Q3274200",
+      "non-Islamic subject / modern politics / out of scope (wave2)"
+    ],
+    [
+      786,
+      "Q3427966",
+      "non-Islamic subject / modern politics / out of scope (wave2)"
+    ],
+    [
+      787,
+      "Q400624",
+      "non-Islamic subject / modern politics / out of scope (wave2)"
+    ],
+    [
+      790,
+      "Q570515",
+      "non-Islamic subject / modern politics / out of scope (wave2)"
+    ],
+    [
+      791,
+      "Q588110",
+      "non-Islamic subject / modern politics / out of scope (wave2)"
+    ],
+    [
+      792,
+      "Q593045",
+      "non-Islamic subject / modern politics / out of scope (wave2)"
+    ],
+    [
+      794,
+      "Q645474",
+      "non-Islamic subject / modern politics / out of scope (wave2)"
+    ],
+    [
+      795,
+      "Q649971",
+      "non-Islamic subject / modern politics / out of scope (wave2)"
+    ],
+    [
+      796,
+      "Q662491",
+      "non-Islamic subject / modern politics / out of scope (wave2)"
+    ],
+    [
+      798,
+      "Q695925",
+      "non-Islamic subject / modern politics / out of scope (wave2)"
+    ],
+    [
+      801,
+      "Q767844",
+      "non-Islamic subject / modern politics / out of scope (wave2)"
+    ],
+    [
+      803,
+      "Q791185",
+      "non-Islamic subject / modern politics / out of scope (wave2)"
+    ],
+    [
+      804,
+      "Q860317",
+      "non-Islamic subject / modern politics / out of scope (wave2)"
+    ],
+    [
+      805,
+      "Q879941",
+      "non-Islamic subject / modern politics / out of scope (wave2)"
+    ],
+    [
+      807,
+      "Q1029706",
+      "non-Islamic subject / modern politics / out of scope (wave2)"
+    ],
+    [
+      809,
+      "Q1050082",
+      "non-Islamic subject / modern politics / out of scope (wave2)"
+    ],
+    [
+      810,
+      "Q1144592",
+      "non-Islamic subject / modern politics / out of scope (wave2)"
+    ],
+    [
+      811,
+      "Q1199651",
+      "non-Islamic subject / modern politics / out of scope (wave2)"
+    ],
+    [
+      812,
+      "Q1205254",
+      "non-Islamic subject / modern politics / out of scope (wave2)"
+    ],
+    [
+      814,
+      "Q1267721",
+      "non-Islamic subject / modern politics / out of scope (wave2)"
+    ],
+    [
+      817,
+      "Q1461235",
+      "non-Islamic subject / modern politics / out of scope (wave2)"
+    ],
+    [
+      818,
+      "Q1476042",
+      "non-Islamic subject / modern politics / out of scope (wave2)"
+    ],
+    [
+      820,
+      "Q15542964",
+      "non-Islamic subject / modern politics / out of scope (wave2)"
+    ],
+    [
+      821,
+      "Q1572046",
+      "non-Islamic subject / modern politics / out of scope (wave2)"
+    ],
+    [
+      822,
+      "Q163298",
+      "non-Islamic subject / modern politics / out of scope (wave2)"
+    ],
+    [
+      823,
+      "Q1638733",
+      "non-Islamic subject / modern politics / out of scope (wave2)"
+    ],
+    [
+      826,
+      "Q182708",
+      "non-Islamic subject / modern politics / out of scope (wave2)"
+    ],
+    [
+      827,
+      "Q187499",
+      "non-Islamic subject / modern politics / out of scope (wave2)"
+    ],
+    [
+      828,
+      "Q19838",
+      "non-Islamic subject / modern politics / out of scope (wave2)"
+    ],
+    [
+      829,
+      "Q2033910",
+      "non-Islamic subject / modern politics / out of scope (wave2)"
+    ],
+    [
+      830,
+      "Q2047566",
+      "non-Islamic subject / modern politics / out of scope (wave2)"
+    ],
+    [
+      831,
+      "Q2068670",
+      "non-Islamic subject / modern politics / out of scope (wave2)"
+    ],
+    [
+      832,
+      "Q2080325",
+      "non-Islamic subject / modern politics / out of scope (wave2)"
+    ],
+    [
+      833,
+      "Q2237751",
+      "non-Islamic subject / modern politics / out of scope (wave2)"
+    ],
+    [
+      834,
+      "Q2326446",
+      "non-Islamic subject / modern politics / out of scope (wave2)"
+    ],
+    [
+      837,
+      "Q2522104",
+      "non-Islamic subject / modern politics / out of scope (wave2)"
+    ],
+    [
+      838,
+      "Q25591101",
+      "non-Islamic subject / modern politics / out of scope (wave2)"
+    ],
+    [
+      839,
+      "Q2630165",
+      "non-Islamic subject / modern politics / out of scope (wave2)"
+    ],
+    [
+      840,
+      "Q27017",
+      "non-Islamic subject / modern politics / out of scope (wave2)"
+    ],
+    [
+      841,
+      "Q280468",
+      "non-Islamic subject / modern politics / out of scope (wave2)"
+    ],
+    [
+      843,
+      "Q300739",
+      "non-Islamic subject / modern politics / out of scope (wave2)"
+    ],
+    [
+      844,
+      "Q30140821",
+      "non-Islamic subject / modern politics / out of scope (wave2)"
+    ],
+    [
+      848,
+      "Q3636391",
+      "non-Islamic subject / modern politics / out of scope (wave2)"
+    ],
+    [
+      849,
+      "Q483291",
+      "non-Islamic subject / modern politics / out of scope (wave2)"
+    ],
+    [
+      850,
+      "Q486866",
+      "non-Islamic subject / modern politics / out of scope (wave2)"
+    ],
+    [
+      854,
+      "Q572436",
+      "non-Islamic subject / modern politics / out of scope (wave2)"
+    ],
+    [
+      860,
+      "Q638850",
+      "non-Islamic subject / modern politics / out of scope (wave2)"
+    ],
+    [
+      862,
+      "Q692381",
+      "non-Islamic subject / modern politics / out of scope (wave2)"
+    ],
+    [
+      863,
+      "Q696689",
+      "non-Islamic subject / modern politics / out of scope (wave2)"
+    ],
+    [
+      865,
+      "Q7084890",
+      "non-Islamic subject / modern politics / out of scope (wave2)"
+    ],
+    [
+      867,
+      "Q721435",
+      "non-Islamic subject / modern politics / out of scope (wave2)"
+    ],
+    [
+      872,
+      "Q105061488",
+      "non-Islamic subject / modern politics / out of scope (wave2)"
+    ],
+    [
+      873,
+      "Q10566876",
+      "non-Islamic subject / modern politics / out of scope (wave2)"
+    ],
+    [
+      874,
+      "Q1085392",
+      "non-Islamic subject / modern politics / out of scope (wave2)"
+    ],
+    [
+      876,
+      "Q113453221",
+      "non-Islamic subject / modern politics / out of scope (wave2)"
+    ],
+    [
+      877,
+      "Q1138524",
+      "non-Islamic subject / modern politics / out of scope (wave2)"
+    ],
+    [
+      878,
+      "Q1204208",
+      "non-Islamic subject / modern politics / out of scope (wave2)"
+    ],
+    [
+      879,
+      "Q1255284",
+      "non-Islamic subject / modern politics / out of scope (wave2)"
+    ],
+    [
+      880,
+      "Q1290337",
+      "non-Islamic subject / modern politics / out of scope (wave2)"
+    ],
+    [
+      881,
+      "Q133309815",
+      "non-Islamic subject / modern politics / out of scope (wave2)"
+    ],
+    [
+      882,
+      "Q1371109",
+      "non-Islamic subject / modern politics / out of scope (wave2)"
+    ],
+    [
+      883,
+      "Q1424839",
+      "non-Islamic subject / modern politics / out of scope (wave2)"
+    ],
+    [
+      884,
+      "Q1464499",
+      "non-Islamic subject / modern politics / out of scope (wave2)"
+    ],
+    [
+      885,
+      "Q147009",
+      "non-Islamic subject / modern politics / out of scope (wave2)"
+    ],
+    [
+      886,
+      "Q1492495",
+      "non-Islamic subject / modern politics / out of scope (wave2)"
+    ],
+    [
+      888,
+      "Q15430363",
+      "non-Islamic subject / modern politics / out of scope (wave2)"
+    ],
+    [
+      889,
+      "Q1584774",
+      "non-Islamic subject / modern politics / out of scope (wave2)"
+    ],
+    [
+      896,
+      "Q2073517",
+      "non-Islamic subject / modern politics / out of scope (wave2)"
+    ],
+    [
+      898,
+      "Q2307647",
+      "non-Islamic subject / modern politics / out of scope (wave2)"
+    ],
+    [
+      902,
+      "Q2517648",
+      "non-Islamic subject / foreign palace / modern noise (wave2)"
+    ],
+    [
+      905,
+      "Q2620862",
+      "non-Islamic subject / foreign palace / modern noise (wave2)"
+    ],
+    [
+      906,
+      "Q264482",
+      "non-Islamic subject / foreign palace / modern noise (wave2)"
+    ],
+    [
+      909,
+      "Q284719",
+      "non-Islamic subject / foreign palace / modern noise (wave2)"
+    ],
+    [
+      910,
+      "Q2986276",
+      "non-Islamic subject / foreign palace / modern noise (wave2)"
+    ],
+    [
+      914,
+      "Q335246",
+      "modern cleric / alleged militant (out of scope)"
+    ],
+    [
+      917,
+      "Q3694565",
+      "non-Islamic subject / foreign palace / modern noise (wave2)"
+    ],
+    [
+      918,
+      "Q426926",
+      "non-Islamic subject / foreign palace / modern noise (wave2)"
+    ],
+    [
+      920,
+      "Q431614",
+      "non-Islamic subject / foreign palace / modern noise (wave2)"
+    ],
+    [
+      923,
+      "Q509638",
+      "non-Islamic subject / foreign palace / modern noise (wave2)"
+    ],
+    [
+      924,
+      "Q527260",
+      "non-Islamic subject / foreign palace / modern noise (wave2)"
+    ],
+    [
+      926,
+      "Q56240051",
+      "non-Islamic subject / foreign palace / modern noise (wave2)"
+    ],
+    [
+      928,
+      "Q632787",
+      "modern insurgency (out of scope)"
+    ],
+    [
+      932,
+      "Q694478",
+      "non-Islamic subject / foreign palace / modern noise (wave2)"
+    ],
+    [
+      934,
+      "Q704059",
+      "non-Islamic subject / foreign palace / modern noise (wave2)"
+    ],
+    [
+      935,
+      "Q715791",
+      "non-Islamic subject / foreign palace / modern noise (wave2)"
+    ],
+    [
+      936,
+      "Q760002",
+      "modern politics (out of scope)"
+    ],
+    [
+      938,
+      "Q854317",
+      "non-Islamic subject / foreign palace / modern noise (wave2)"
+    ],
+    [
+      939,
+      "Q864758",
+      "non-Islamic subject / foreign palace / modern noise (wave2)"
+    ],
+    [
+      941,
+      "Q950653",
+      "non-Islamic subject / foreign palace / modern noise (wave2)"
+    ],
+    [
+      942,
+      "Q975426",
+      "non-Islamic subject / foreign palace / modern noise (wave2)"
+    ],
+    [
+      943,
+      "Q993863",
+      "non-Islamic subject / foreign palace / modern noise (wave2)"
+    ],
+    [
+      945,
+      "Q1072042",
+      "modern conflict (out of scope)"
+    ],
+    [
+      946,
+      "Q10769129",
+      "non-Islamic subject / foreign palace / modern noise (wave2)"
+    ],
+    [
+      950,
+      "Q1158530",
+      "non-Islamic subject / foreign palace / modern noise (wave2)"
+    ],
+    [
+      952,
+      "Q122982851",
+      "modern conflict (out of scope)"
+    ],
+    [
+      953,
+      "Q1252915",
+      "ancient pre-Islamic event (out of scope)"
+    ],
+    [
+      954,
+      "Q1265593",
+      "non-Islamic subject / foreign palace / modern noise (wave2)"
+    ],
+    [
+      955,
+      "Q1389520",
+      "non-Islamic subject / foreign palace / modern noise (wave2)"
+    ],
+    [
+      956,
+      "Q1473630",
+      "non-Islamic subject / foreign palace / modern noise (wave2)"
+    ],
+    [
+      959,
+      "Q156555",
+      "non-Islamic subject / foreign palace / modern noise (wave2)"
+    ],
+    [
+      960,
+      "Q1705125",
+      "non-Islamic subject / foreign palace / modern noise (wave2)"
+    ],
+    [
+      963,
+      "Q1789166",
+      "non-Islamic subject / foreign palace / modern noise (wave2)"
+    ],
+    [
+      964,
+      "Q1804983",
+      "modern Iraq war (out of scope)"
+    ],
+    [
+      965,
+      "Q19273430",
+      "non-Islamic subject / foreign palace / modern noise (wave2)"
+    ],
+    [
+      969,
+      "Q2270170",
+      "non-Islamic subject / foreign palace / modern noise (wave2)"
+    ],
+    [
+      971,
+      "Q2363565",
+      "modern rebellion (out of scope)"
+    ],
+    [
+      974,
+      "Q2629065",
+      "non-Islamic subject / foreign palace / modern noise (wave2)"
+    ],
+    [
+      978,
+      "Q277337",
+      "Korean war, non-Islamic (out of scope)"
+    ],
+    [
+      980,
+      "Q2832241",
+      "non-Islamic subject / foreign palace / modern noise (wave2)"
+    ],
+    [
+      983,
+      "Q30081749",
+      "modern diplomat (out of scope)"
+    ],
+    [
+      984,
+      "Q30447692",
+      "modern liberal mosque (out of scope)"
+    ],
+    [
+      989,
+      "Q3780506",
+      "modern military operation (out of scope)"
+    ],
+    [
+      992,
+      "Q4068391",
+      "non-Islamic subject / foreign palace / modern noise (wave2)"
+    ],
+    [
+      996,
+      "Q647268",
+      "non-Islamic subject / foreign palace / modern noise (wave2)"
+    ],
+    [
+      997,
+      "Q648534",
+      "non-Islamic subject / foreign palace / modern noise (wave2)"
+    ],
+    [
+      998,
+      "Q665954",
+      "non-Islamic subject / foreign palace / modern noise (wave2)"
+    ]
+  ],
+  "skipped_total": 637,
+  "skipped_by_reason": {
+    "non-Islamic subject / modern politics / out of scope (wave2)": 583,
+    "link-failed:already has wikidata": 4,
+    "create-failed:file-exists": 1,
+    "audit: almohad-caliphate covers the dynasty; carries state item Q199688": 1,
+    "audit: timurid-empire already carries the state item Q484195; dynasty item kept distinct": 1,
+    "non-Islamic subject / foreign palace / modern noise (wave2)": 35,
+    "modern cleric / alleged militant (out of scope)": 1,
+    "modern insurgency (out of scope)": 1,
+    "modern politics (out of scope)": 1,
+    "modern conflict (out of scope)": 2,
+    "ancient pre-Islamic event (out of scope)": 1,
+    "modern Iraq war (out of scope)": 1,
+    "modern rebellion (out of scope)": 1,
+    "Korean war, non-Islamic (out of scope)": 1,
+    "modern diplomat (out of scope)": 1,
+    "modern liberal mosque (out of scope)": 1,
+    "modern military operation (out of scope)": 1
+  },
+  "next_index": 1000,
+  "batch_current": 200,
+  "updated_at": "2026-10-20T06:46:30-04:00"
 }
