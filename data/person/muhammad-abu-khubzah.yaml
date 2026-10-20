@@ -1,0 +1,27 @@
+id: person/muhammad-abu-khubzah
+class: person
+label:
+  ar: "محمد أبو خبزة"
+  en: "Muhammad Abu Khubzah"
+roles: [scholar]
+gender: male
+summary:
+  ar: "بطاقة أولية لمحمد أبو خبزة، العالم المغربي والمحدث؛ لم تُراجع ترجمته على الصفحة بعد."
+  en: "Draft card for Muhammad Abu Khubzah, the Moroccan hadith scholar; his entry is not yet checked on the page."
+wings: [people]
+regions: [maghreb]
+periods: [period/contemporary-era]
+born: { edtf: "1932", precision: year, status: tradition, derived: true }
+died: { edtf: "2020", precision: year, status: tradition, derived: true }
+sources: [source/al-aalam]
+external_ids:
+  wikidata: Q3739287
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; entry not yet read on the page in a book source"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-wave2
+status:
+  review: draft
+  completeness: 1
