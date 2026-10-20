@@ -65,7 +65,7 @@ function desiredFiles() {
   return files;
 }
 
-// Previous state: key -> sha. A missing manifest means nothing was published yet.
+// Previous state: key -> sha. Returns null when no manifest exists yet.
 function readPrevious() {
   try {
     const out = execFileSync("aws", ["s3", "cp", `s3://${bucket}/${MANIFEST_KEY}`, "-", "--endpoint-url", endpoint, "--only-show-errors"], {
@@ -75,9 +75,37 @@ function readPrevious() {
     });
     return JSON.parse(out).files;
   } catch (err) {
-    if (/NoSuchKey|404|Not Found/.test(String(err.stderr))) return {};
+    if (/NoSuchKey|404|Not Found/.test(String(err.stderr))) return null;
     throw err;
   }
+}
+
+// Bootstrap when no manifest exists: the bucket already holds the files from an earlier
+// publish. Compare each stored object's ETag with the MD5 of the local file. A match is
+// recorded as published, so only different or missing files are uploaded. Stored objects
+// that are not in the build are recorded with an empty sha, so the diff deletes them.
+// An ETag is an MD5 only for single-part uploads; anything else counts as a difference
+// and is simply uploaded again.
+function bootstrapPrevious(desired) {
+  const previous = {};
+  for (const t of TARGETS) {
+    let token;
+    do {
+      const args = ["s3api", "list-objects-v2", "--bucket", bucket, "--prefix", `${t.prefix}/`, "--endpoint-url", endpoint, "--output", "json"];
+      if (token) args.push("--continuation-token", token);
+      const page = JSON.parse(execFileSync("aws", args, { encoding: "utf8", maxBuffer: 512 * 1024 * 1024 }));
+      for (const obj of page.Contents ?? []) {
+        const local = desired.get(obj.Key);
+        const etag = String(obj.ETag ?? "").replace(/"/g, "");
+        const sameBytes = local && createHash("md5").update(local.bytes).digest("hex") === etag;
+        previous[obj.Key] = sameBytes ? local.sha : "";
+      }
+      token = page.IsTruncated ? page.NextContinuationToken : undefined;
+    } while (token);
+  }
+  const matched = Object.values(previous).filter(Boolean).length;
+  log(`no manifest yet: ${Object.keys(previous).length} objects in the bucket, ${matched} already match the build`);
+  return previous;
 }
 
 function diff(desired, previous) {
@@ -144,7 +172,14 @@ function clearStaging() {
 
 async function main() {
   const desired = desiredFiles();
-  const previous = dryRun ? {} : readPrevious();
+  // The manifest is the record of what is published. Without one, a publish would
+  // upload everything, so that case needs an explicit one-time --seed run.
+  const stored = dryRun ? {} : readPrevious();
+  const seeding = process.argv.includes("--seed");
+  if (!dryRun && stored === null && !seeding) {
+    throw new Error("no manifest in the bucket: run once with --seed to record the files already published");
+  }
+  const previous = stored ?? (dryRun ? {} : bootstrapPrevious(desired));
   const ops = diff(desired, previous);
   const copies = ops.filter((o) => o.op === "COPY").length;
   const deletes = ops.length - copies;
