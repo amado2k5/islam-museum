@@ -1,0 +1,23 @@
+id: event/battle-of-kassala-1894
+class: event
+kind: battle
+label: { ar: "معركة كسلا", en: "Battle of Kassala" }
+summary:
+  ar: "بطاقة أولية لمعركة كسلا سنة ١٨٩٤م، أخذ الإيطاليين للمدينة من المهديين؛ لم تُراجع مصادره على الصفحة بعد."
+  en: "Draft card for the Battle of Kassala in 1894, the Italian capture of the town from the Mahdists; its sources are not yet checked on the page."
+wings: [time]
+periods: [period/colonial-era]
+regions: [east-africa]
+date:
+  start: { edtf: "1894", precision: year, status: tradition, derived: true }
+  end: { edtf: "1894", precision: year, status: tradition, derived: true }
+sources: [source/tarikh-islam-hasan-ibrahim]
+external_ids:
+  wikidata: Q3636373
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; battle attested in narrative histories — entry not yet checked on the page"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-wave2
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }
