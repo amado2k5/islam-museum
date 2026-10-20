@@ -1,0 +1,27 @@
+id: person/ibn-ulayyah
+class: person
+label:
+  ar: "ابن علية"
+  en: "Ibn Ulayyah"
+roles: [muhaddith]
+gender: male
+summary:
+  ar: "بطاقة أولية لإسماعيل بن إبراهيم بن علية، شيخ الحديث بالبصرة؛ لم تُراجع ترجمته على الصفحة بعد."
+  en: "Draft card for Ismail ibn Ibrahim ibn Ulayyah, the Basran hadith master; his entry is not yet checked on the page."
+wings: [people]
+regions: [levant-iraq]
+periods: [period/abbasid-early]
+born: { edtf: "0729", precision: year, status: tradition, derived: true }
+died: { edtf: "0809", precision: year, status: tradition, derived: true }
+sources: [source/al-aalam]
+external_ids:
+  wikidata: Q6537222
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; entry not yet read on the page in a book source"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-wave2
+status:
+  review: draft
+  completeness: 1

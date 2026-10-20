@@ -1,0 +1,23 @@
+id: event/zeitun-resistance-1914
+class: event
+kind: battle
+label: { ar: "مقاومة زيتون (١٩١٤)", en: "Zeitun Resistance" }
+summary:
+  ar: "بطاقة أولية لمقاومة زيتون سنة ١٩١٤م، صد الأرمن للجيش العثماني في جيليقيا؛ لم تُراجع مصادره على الصفحة بعد."
+  en: "Draft card for the Zeitun Resistance of 1914, the Armenian defiance of the Ottoman army in Cilicia; its sources are not yet checked on the page."
+wings: [time]
+periods: [period/modern-era]
+regions: [anatolia-balkans]
+date:
+  start: { edtf: "1914", precision: year, status: tradition, derived: true }
+  end: { edtf: "1914", precision: year, status: tradition, derived: true }
+sources: [source/dawlat-uthmaniyya-salabi]
+external_ids:
+  wikidata: Q8068632
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; battle attested in narrative histories — entry not yet checked on the page"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-wave2
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

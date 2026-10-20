@@ -1,0 +1,23 @@
+id: event/siege-of-trebizond-1222
+class: event
+kind: siege
+label: { ar: "حصار طرابزون (١٢٢٢)", en: "Siege of Trebizond" }
+summary:
+  ar: "بطاقة أولية لحصار طرابزون في ١٢٢٢–١٢٢٣م، حصار ملك شاه السلجوقي للمدينة؛ لم تُراجع مصادره على الصفحة بعد."
+  en: "Draft card for the Siege of Trebizond in 1222–23, Melikshah the Seljuk's blockade of the city; its sources are not yet checked on the page."
+wings: [time]
+periods: [period/crusades-ayyubid-mamluk]
+regions: [anatolia-balkans]
+date:
+  start: { edtf: "1222", precision: year, status: tradition, derived: true }
+  end: { edtf: "1223", precision: year, status: tradition, derived: true }
+sources: [source/kamil-ibn-al-athir]
+external_ids:
+  wikidata: Q7510460
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; battle attested in narrative histories — entry not yet checked on the page"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-wave2
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }
