@@ -1,0 +1,23 @@
+id: event/capture-of-santarem-1111
+class: event
+kind: battle
+label: { ar: "أخذ سانترم (١١١١)", en: "Capture of Santarém" }
+summary:
+  ar: "بطاقة أولية لأخذ سانترم سنة ١١١١م، استرداد المرابطين المدينة من البرتغاليين؛ لم تُراجع مصادره على الصفحة بعد."
+  en: "Draft card for the Capture of Santarém in 1111, the Almoravid recovery of the town from the Portuguese; its sources are not yet checked on the page."
+wings: [time]
+periods: [period/buyid-seljuk-fatimid-era]
+regions: [andalus-europe]
+date:
+  start: { edtf: "1111", precision: year, status: tradition, derived: true }
+  end: { edtf: "1111", precision: year, status: tradition, derived: true }
+sources: [source/tarikh-islam-hasan-ibrahim]
+external_ids:
+  wikidata: Q121237458
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; battle attested in narrative histories — entry not yet checked on the page"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-wave2
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

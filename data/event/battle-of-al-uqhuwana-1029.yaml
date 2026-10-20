@@ -1,0 +1,23 @@
+id: event/battle-of-al-uqhuwana-1029
+class: event
+kind: battle
+label: { ar: "معركة الأقهوانة", en: "Battle of al-Uqhuwana" }
+summary:
+  ar: "بطاقة أولية لمعركة الأقهوانة سنة ١٠٢٩م، هزيمة الفاطميين أمام بني جراح وبيعة القدس لهم؛ لم تُراجع مصادره على الصفحة بعد."
+  en: "Draft card for the Battle of al-Uqhuwana in 1029, the Fatimids' defeat by Banu Jarrah who then took Jerusalem's allegiance; its sources are not yet checked on the page."
+wings: [time]
+periods: [period/buyid-seljuk-fatimid-era]
+regions: [levant-iraq]
+date:
+  start: { edtf: "1029", precision: year, status: tradition, derived: true }
+  end: { edtf: "1029", precision: year, status: tradition, derived: true }
+sources: [source/kamil-ibn-al-athir]
+external_ids:
+  wikidata: Q116148546
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; battle attested in narrative histories — entry not yet checked on the page"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-wave2
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }
