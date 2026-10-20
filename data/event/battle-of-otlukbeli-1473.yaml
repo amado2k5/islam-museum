@@ -1,0 +1,23 @@
+id: event/battle-of-otlukbeli-1473
+class: event
+kind: battle
+label: { ar: "معركة أوتلوق بلي", en: "Battle of Otlukbeli" }
+summary:
+  ar: "بطاقة أولية لمعركة أوتلوق بلي سنة ١٤٧٣م، نصر محمد الفاتح على أوزون حسن الخروف الأبيض؛ لم تُراجع مصادره على الصفحة بعد."
+  en: "Draft card for the Battle of Otlukbeli in 1473, Mehmed the Conqueror's victory over Uzun Hasan of the Aq Qoyunlu; its sources are not yet checked on the page."
+wings: [time]
+periods: [period/crusades-ayyubid-mamluk]
+regions: [anatolia-balkans]
+date:
+  start: { edtf: "1473", precision: year, status: tradition, derived: true }
+  end: { edtf: "1473", precision: year, status: tradition, derived: true }
+sources: [source/dawlat-uthmaniyya-salabi]
+external_ids:
+  wikidata: Q2007212
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; battle attested in Ottoman histories — entry not yet checked on the page"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-wave2
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }
