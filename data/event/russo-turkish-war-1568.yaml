@@ -1,0 +1,23 @@
+id: event/russo-turkish-war-1568
+class: event
+kind: war
+label: { ar: "الحرب العثمانية الروسية (١٥٦٨–١٥٧٠)", en: "Russo-Turkish War of 1568–1570" }
+summary:
+  ar: "بطاقة أولية للحرب العثمانية الروسية ١٥٦٨م؛ لم تُراجع مصادرها على الصفحة بعد."
+  en: "Draft card for the Russo-Turkish War of 1568–1570; its sources are not yet checked on the page."
+wings: [time]
+periods: [period/gunpowder-empires]
+regions: [anatolia-balkans]
+date:
+  start: { edtf: "1568", hijri: "", precision: year, status: tradition, derived: true }
+  end: { edtf: "1570", hijri: "", precision: year, status: tradition, derived: true }
+sources: [source/dawlat-uthmaniyya-salabi]
+external_ids:
+  wikidata: Q631799
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; war attested in Ottoman-history surveys — entry not yet checked on the page"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-wave2
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

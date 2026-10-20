@@ -1,0 +1,23 @@
+id: event/battle-of-ascalon-492
+class: event
+kind: battle
+label: { ar: "معركة عسقلان", en: "Battle of Ascalon" }
+summary:
+  ar: "بطاقة أولية لمعركة عسقلان سنة ١٠٩٩م، موقعة الفرنج على جيش الفاطميين بعد سقوط القدس بأيديهم؛ لم تُراجع مصادره على الصفحة بعد."
+  en: "Draft card for the Battle of Ascalon in 1099, the Crusader victory over the Fatimid army weeks after the fall of Jerusalem; its sources are not yet checked on the page."
+wings: [time]
+periods: [period/crusades-ayyubid-mamluk]
+regions: [levant-iraq]
+date:
+  start: { edtf: "1099", precision: year, status: tradition, derived: true }
+  end: { edtf: "1099", precision: year, status: tradition, derived: true }
+sources: [source/kamil-ibn-al-athir]
+external_ids:
+  wikidata: Q827472
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; battle attested in Crusades histories — entry not yet checked on the page"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-wave2
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

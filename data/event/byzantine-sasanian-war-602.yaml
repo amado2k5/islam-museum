@@ -1,0 +1,23 @@
+id: event/byzantine-sasanian-war-602
+class: event
+kind: war
+label: { ar: "الحرب الساسانية البيزنطية (٦٠٢–٦٢٨)", en: "Byzantine–Sasanian War of 602–628" }
+summary:
+  ar: "بطاقة أولية لآخر الحروب الساسانية البيزنطية من ٦٠٢ إلى ٦٢٨م، الصراع الذي أنهك الإمبراطوريتين عشية الفتوحات الإسلامية؛ لم تُراجع مصادره على الصفحة بعد."
+  en: "Draft card for the last Byzantine–Sasanian war of 602–628, the struggle that exhausted both empires on the eve of the Islamic conquests; its sources are not yet checked on the page."
+wings: [time]
+periods: [period/pre-islamic-arabia]
+regions: [levant-iraq]
+date:
+  start: { edtf: "602", precision: year, status: tradition, derived: true }
+  end: { edtf: "628", precision: year, status: tradition, derived: true }
+sources: [source/tarikh-al-tabari]
+external_ids:
+  wikidata: Q2326099
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; war attested in late-antique histories — entry not yet checked on the page"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-wave2
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

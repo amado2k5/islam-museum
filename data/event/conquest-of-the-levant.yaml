@@ -1,0 +1,23 @@
+id: event/conquest-of-the-levant
+class: event
+kind: campaign
+label: { ar: "الفتح الإسلامي للشام", en: "Muslim conquest of the Levant" }
+summary:
+  ar: "بطاقة أولية للفتح الإسلامي للشام، حملات خالد بن الوليد وأبي عبيدة ويزيد بن أبي سفيان من أجنادين إلى اليرموك وفتح القدس بين ٦٣٤ و٦٣٨م؛ لم تُراجع مصادره على الصفحة بعد."
+  en: "Draft card for the Muslim conquest of the Levant, the Rashidun campaigns of Khalid ibn al-Walid, Abu Ubayda and Yazid ibn Abi Sufyan from Ajnadayn to Yarmouk and the surrender of Jerusalem, 634–638; its sources are not yet checked on the page."
+wings: [time]
+periods: [period/rashidun]
+regions: [levant-iraq]
+date:
+  start: { edtf: "634", precision: year, status: tradition, derived: true }
+  end: { edtf: "638", precision: year, status: tradition, derived: true }
+sources: [source/futuh-buldan-maarif-1407]
+external_ids:
+  wikidata: Q248984
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; conquest attested in al-Baladhuri's Futuh al-Buldan — entry not yet checked on the page"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-wave2
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

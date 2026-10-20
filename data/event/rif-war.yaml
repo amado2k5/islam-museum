@@ -1,0 +1,23 @@
+id: event/rif-war
+class: event
+kind: war
+label: { ar: "حرب الريف", en: "The Rif War" }
+summary:
+  ar: "بطاقة أولية لحرب الريف، مقاومة عبد الكريم الخطابي وقبائل الريف للاستعمار الإسباني ثم الفرنسي من ١٩٢١ إلى ١٩٢٦م؛ لم تُراجع مصادره على الصفحة بعد."
+  en: "Draft card for the Rif War, Abd el-Krim al-Khattabi's Riffian resistance against Spanish then French colonial power from 1921 to 1926; its sources are not yet checked on the page."
+wings: [time]
+periods: [period/modern-era]
+regions: [maghreb]
+date:
+  start: { edtf: "1921", precision: year, status: tradition, derived: true }
+  end: { edtf: "1926", precision: year, status: tradition, derived: true }
+sources: [source/tarikh-islam-hasan-ibrahim]
+external_ids:
+  wikidata: Q766437
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; war attested in Moroccan histories — entry not yet checked on the page"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-wave2
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }
