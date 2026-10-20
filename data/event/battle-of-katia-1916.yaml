@@ -1,0 +1,23 @@
+id: event/battle-of-katia-1916
+class: event
+kind: battle
+label: { ar: "معركة كاتيا", en: "Battle of Katia" }
+summary:
+  ar: "بطاقة أولية لمعركة كاتيا سنة ١٩١٦م، هجوم العثمانيين على الخيالة البريطانيين في سيناء؛ لم تُراجع مصادره على الصفحة بعد."
+  en: "Draft card for the Battle of Katia in 1916, the Ottoman strike on the British cavalry in Sinai; its sources are not yet checked on the page."
+wings: [time]
+periods: [period/modern-era]
+regions: [egypt-nile]
+date:
+  start: { edtf: "1916", precision: year, status: tradition, derived: true }
+  end: { edtf: "1916", precision: year, status: tradition, derived: true }
+sources: [source/dawlat-uthmaniyya-salabi]
+external_ids:
+  wikidata: Q3866914
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; battle attested in narrative histories — entry not yet checked on the page"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-wave2
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

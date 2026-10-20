@@ -1,0 +1,23 @@
+id: event/capture-of-jeddah-1813
+class: event
+kind: battle
+label: { ar: "فتح جدة (١٨١٣)", en: "Capture of Jeddah" }
+summary:
+  ar: "بطاقة أولية لاسترداد جدة سنة ١٨١٣م، أخذ المصريين لها من الدولة السعودية الأولى في حملة الحجاز؛ لم تُراجع مصادره على الصفحة بعد."
+  en: "Draft card for the Capture of Jeddah in 1813, the Egyptian-Ottoman retaking of the port in the Hejaz campaign; its sources are not yet checked on the page."
+wings: [time]
+periods: [period/colonial-era]
+regions: [arabia]
+date:
+  start: { edtf: "1813", precision: year, status: tradition, derived: true }
+  end: { edtf: "1813", precision: year, status: tradition, derived: true }
+sources: [source/dawlat-uthmaniyya-salabi]
+external_ids:
+  wikidata: Q3656242
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; battle attested in narrative histories — entry not yet checked on the page"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-wave2
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

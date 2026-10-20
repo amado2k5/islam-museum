@@ -1,0 +1,23 @@
+id: event/mokrani-revolt
+class: event
+kind: revolt
+label: { ar: "ثورة المقراني", en: "Mokrani Revolt" }
+summary:
+  ar: "بطاقة أولية لثورة المقراني من ١٨٧١ إلى ١٨٧٢م، انتفاضة الشيخ المقراني والشيخ الحداد على الاستعمار الفرنسي في الجزائر؛ لم تُراجع مصادره على الصفحة بعد."
+  en: "Draft card for the Mokrani Revolt of 1871–1872, Shaykh al-Mokrani and Shaykh al-Haddad's rising against the French in Algeria; its sources are not yet checked on the page."
+wings: [time]
+periods: [period/colonial-era]
+regions: [maghreb]
+date:
+  start: { edtf: "1871", precision: year, status: tradition, derived: true }
+  end: { edtf: "1872", precision: year, status: tradition, derived: true }
+sources: [source/tarikh-islam-hasan-ibrahim]
+external_ids:
+  wikidata: Q3458306
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; battle attested in narrative histories — entry not yet checked on the page"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-wave2
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

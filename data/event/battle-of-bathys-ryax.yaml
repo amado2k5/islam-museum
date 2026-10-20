@@ -1,0 +1,23 @@
+id: event/battle-of-bathys-ryax
+class: event
+kind: battle
+label: { ar: "معركة باثوس رياكس", en: "Battle of Bathys Ryax" }
+summary:
+  ar: "بطاقة أولية لمعركة باثوس رياكس سنة ٨٧٢م، هزيمة البوليكيين على يد البيزنطيين في الأناضول؛ لم تُراجع مصادره على الصفحة بعد."
+  en: "Draft card for the Battle of Bathys Ryax in 872, the Byzantine defeat of the Paulicians on the frontier; its sources are not yet checked on the page."
+wings: [time]
+periods: [period/abbasid-early]
+regions: [anatolia-balkans]
+date:
+  start: { edtf: "872", precision: year, status: tradition, derived: true }
+  end: { edtf: "872", precision: year, status: tradition, derived: true }
+sources: [source/kamil-ibn-al-athir]
+external_ids:
+  wikidata: Q335871
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; battle attested in narrative histories — entry not yet checked on the page"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-wave2
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }
