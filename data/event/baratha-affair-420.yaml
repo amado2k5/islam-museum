@@ -1,0 +1,26 @@
+id: event/baratha-affair-420
+class: event
+kind: persecution
+label: { ar: "فتنة مسجد براثا ٤٢٠" }
+summary:
+  ar: "قبضت دار الخلافة على خطيب مسجد براثا لما في خطبته من غلو في علي بن أبي طالب، وخُطّب بدله يوم الجمعة تاسع عشر ذي القعدة أبو منصور بن تمام فأنقص ذكر علي وختم «اللهم اغفر للمسلمين ومن زعم أن عليًّا مولاه» فرماه العامة بالمدر فكُسر كتفه وأسنانه وسال دمه؛ وخرج خطاب الخليفة غاضبًا «مسجد يجمع الكفرة والزنادقة» ووصفه بأنه أشبه شيء بمسجد الضرار، وهوجم دار الخطيب بنحو ثلاثين رجلًا، وتعطلت الجمعة أسابيع حتى كان يوم عيد النهر فلبّس المؤذن التكبير ووقع الذعر، وتدخل مشايخ الكرخ والشريف المرتضى وأُعيد خطيب على خط مكتوب أول محرم، وأُعفي من ضرب المنبر بالسيف ومن ذكر «مولاه» {cite:muntazam-ibn-al-jawzi j.8 p.383-387}."
+wings: [time]
+themes: [sects-and-schools, factions-splits-schisms, sacred-space-and-pilgrimage]
+periods: [period/buyid-seljuk-fatimid-era]
+regions: [levant-iraq]
+date:
+  start: { edtf: "1029-11~", hijri: "0420-11", calendar: julian, precision: month, status: tradition, derived: true, note: "ذو القعدة سنة ٤٢٠ {cite:muntazam-ibn-al-jawzi j.8 p.383}." }
+relations:
+  - { type: occurred_at, target: place/baghdad, sources: [source/muntazam-ibn-al-jawzi] }
+  - { type: had_participant, target: person/al-qadir-billah, role: "آمر بغلق الخطبة وكاتب التوقيع", sources: [source/muntazam-ibn-al-jawzi] }
+  - { type: had_participant, target: person/al-sharif-al-murtada, role: "متشفّع في إعادة الخطيب", sources: [source/muntazam-ibn-al-jawzi] }
+provenance:
+  layer: own-research
+  source: "المنتظم في تاريخ الملوك والأمم — ابن الجوزي (ج8، أحداث سنة ٤٢٠)، قراءة آبل فيجن، مسح AAlexandrina-224011"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-muntazam-350-474-batch23
+sources: [source/muntazam-ibn-al-jawzi]
+status:
+  review: draft
+  completeness: 2
+  generated_by: "Devin (SWE-2 High)"

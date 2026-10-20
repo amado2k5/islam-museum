@@ -1,0 +1,25 @@
+id: event/black-stone-attack-413
+class: event
+kind: other
+label: { ar: "كسر الحجر الأسود ٤١٣" }
+summary:
+  ar: "في أيام الحج سنة ٤١٣ ضرب رجل من حجاج مصر الحجر الأسود بدبوس فكسر منه شيئًا فقتله الناس في الحال، ووقعت فتنة على أهل مصر والمغاربة وقتل منهم عشرون ونهبهم أهل الحرم وكانوا بين مكة ومنى لأجل ذلك. وقال ابن الجوزي: قال أبو الغنائم رأيت رجلًا أحمر عظيمًا معه سيف ودبوس صعد إلى الحجر يوم النفر يوم الجمعة وضربه ثلاث ضربات متواليات وهو يقول إلى متى يعبد الحجر لا محمد ولا علي يمنعني، فخرج الناس عليه فقتلوه وقتلوا معه نحوًا من عشرين رجلًا صعدوا إليه بعده وحُرق منهم أربعة، وانكسر من الحجر كسرة وهو ثلاث حجيرات فنزع جلده من كل جهة حتى بقي شيء ظاهر وثلاث كسرات، فجمع بنو شيبة ما انكسر من الحجر وجمعوه بماء المسك واللك لطخوا به فهو على حاله اليوم {cite:muntazam-ibn-al-jawzi j.8 p.350-351}."
+wings: [time]
+themes: [sacred-space-and-pilgrimage, dissent-heresy-freethought]
+periods: [period/buyid-seljuk-fatimid-era]
+regions: [arabia]
+date:
+  start: { edtf: "1023-03~", hijri: "0413-12", calendar: julian, precision: month, status: tradition, derived: true, note: "يوم النفر في الحج سنة ٤١٣ {cite:muntazam-ibn-al-jawzi j.8 p.350}." }
+relations:
+  - { type: occurred_at, target: place/mecca, sources: [source/muntazam-ibn-al-jawzi] }
+  - { type: mentions, target: object/al-hajar-al-aswad, sources: [source/muntazam-ibn-al-jawzi] }
+provenance:
+  layer: own-research
+  source: "المنتظم في تاريخ الملوك والأمم — ابن الجوزي (ج8، أحداث سنة ٤١٣)، قراءة آبل فيجن، مسح AAlexandrina-224011"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-muntazam-350-474-batch23
+sources: [source/muntazam-ibn-al-jawzi]
+status:
+  review: draft
+  completeness: 2
+  generated_by: "Devin (SWE-2 High)"

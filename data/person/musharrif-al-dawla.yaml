@@ -1,0 +1,22 @@
+id: person/musharrif-al-dawla
+class: person
+label: { ar: "مشرف الدولة أبو علي بن بهاء الدولة", en: "Musharrif al-Dawla" }
+summary:
+  ar: "أبو علي بن بهاء الدولة الديلمي، خُطب له بعد أخيه سلطان الدولة سنة ٤١٢. استقبله الخليفة القادر سنة ٤١٤ استقبالًا قيل إنه لم يُفعل بملك قبله، ووقعت بينهما سنة ٤١٥ شدة أيمان مع كبار الدولة، وتزوج ابنة ملك الكاكوية بصداق خمسين ألف دينار. مات في ثمان بقين من ربيع الأول سنة ٤١٦ وله ثلاث وعشرون سنة وثلاثة أشهر وأربعة عشر يومًا، وملكه خمس سنين وشهر وخمسة وعشرون يومًا {cite:muntazam-ibn-al-jawzi j.8 p.363-366}."
+gender: male
+wings: [people]
+roles: [sultan]
+periods: [period/buyid-seljuk-fatimid-era]
+regions: [levant-iraq]
+died: { edtf: "1025-03~", hijri: "0416-02", calendar: julian, precision: month, status: tradition, derived: true, note: "لثمان بقين من ربيع الأول ٤١٦ {cite:muntazam-ibn-al-jawzi j.8 p.366}." }
+relations:
+  - { type: child_of, target: person/baha-al-dawla, sources: [source/muntazam-ibn-al-jawzi] }
+  - { type: sibling_of, target: person/jalal-al-dawla, sources: [source/muntazam-ibn-al-jawzi] }
+  - { type: successor_of, target: person/sultan-al-dawla, sources: [source/muntazam-ibn-al-jawzi] }
+provenance:
+  layer: own-research
+  source: "المنتظم في تاريخ الملوك والأمم — ابن الجوزي (ج8، أحداث ٤١٤–٤١٦)، قراءة آبل فيجن، مسح AAlexandrina-224011"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-muntazam-350-474-batch23
+sources: [source/muntazam-ibn-al-jawzi]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

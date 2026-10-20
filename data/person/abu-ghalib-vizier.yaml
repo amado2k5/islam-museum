@@ -1,0 +1,22 @@
+id: person/abu-ghalib-vizier
+class: person
+label: { ar: "أبو غالب الوزير ذو السعادتين", en: "Abu Ghalib the vizier" }
+summary:
+  ar: "أبو غالب الحسن بن منصور ذو السعادتين؛ ولد بسيراف سنة ٣٥٢، وخدم فخر الملك، ثم أعطاه سلطان الدولة لقب الوزارة «نجاح الملوك» فكان نظّارًا ببغداد؛ فلما انتقلت الخطبة إلى مشرف الدولة أُنزل مع الديلم إلى خوزستان فوثبت عليه الديلمية فقتلوه بالأهواز، وكانت وزارته ثمانية عشر شهرًا وثلاثة أيام، وعمره ستون سنة وخمسة أشهر؛ وصودر ابنه في ثمانين ألف دينار فتنفّس سلطان الدولة؛ ورثاه المطرّز {cite:muntazam-ibn-al-jawzi j.8 p.345}."
+gender: male
+born: { edtf: "0963~", hijri: "0352", calendar: julian, precision: year, status: tradition, derived: true, note: "ولد بسيراف سنة ٣٥٢ {cite:muntazam-ibn-al-jawzi j.8 p.345}." }
+died: { edtf: "1023~", hijri: "0414", calendar: julian, precision: year, status: tradition, derived: true, note: "قُتل بالأهواز؛ أوردته الترجمة في وفيات هذه الفترة {cite:muntazam-ibn-al-jawzi j.8 p.345}." }
+wings: [people]
+roles: [vizier]
+periods: [period/buyid-seljuk-fatimid-era]
+regions: [levant-iraq, persia-central-asia]
+relations:
+  - { type: allied_with, target: person/sultan-al-dawla, role: "نظّار بغداد بلقب نجاح الملوك", sources: [source/muntazam-ibn-al-jawzi] }
+  - { type: died_in, target: place/al-ahwaz, sources: [source/muntazam-ibn-al-jawzi] }
+provenance:
+  layer: own-research
+  source: "المنتظم في تاريخ الملوك والأمم — ابن الجوزي (ج8، أحداث سنة ٤١٢)، قراءة آبل فيجن، مسح AAlexandrina-224011"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-muntazam-350-474-batch23
+sources: [source/muntazam-ibn-al-jawzi]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

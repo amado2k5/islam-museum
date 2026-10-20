@@ -3,15 +3,16 @@ class: person
 label:
   ar: "أبو القاسم الحسين بن علي المغربي"
   en: "Abu'l-Qasim al-Husayn ibn Ali al-Maghribi"
-roles: [writer]
 gender: male
 summary:
-  ar: "بطاقة أولية لأبي القاسم الحسين بن علي المغربي، كاتب ووزير القرن الحادي عشر آخر بني المغربي، توفي سنة ١٠٢٧م؛ تذكره كتب التراجم ولم تُراجع ترجمته على الصفحة بعد."
+  ar: "أبو القاسم الحسين بن علي المغربي، الكاتب الوزير وآخر بني المغربي؛ تولى الوزارة لجلال الدولة، وأورد له ابن الجوزي ترجمة مطولة في وفيات سنة ٤١٨ {cite:muntazam-ibn-al-jawzi j.8 p.373-375}."
   en: "Draft card for Abu'l-Qasim al-Husayn ibn Ali al-Maghribi, the eleventh-century secretary and vizier, last of the Banu'l-Maghribi, d. 1027; the biographical entry is not yet checked on the page."
 wings: [people]
 regions: [levant-iraq]
 periods: [period/buyid-seljuk-fatimid-era]
-sources: [source/wafayat-ayan]
+roles: [writer, vizier]
+died: { edtf: "1027~", hijri: "0418", calendar: julian, precision: year, status: tradition, derived: true, note: "ترجمته المطولة في وفيات ٤١٨ {cite:muntazam-ibn-al-jawzi j.8 p.373-375}." }
+sources: [source/wafayat-ayan, source/muntazam-ibn-al-jawzi]
 external_ids:
   wikidata: Q11903945
 provenance:

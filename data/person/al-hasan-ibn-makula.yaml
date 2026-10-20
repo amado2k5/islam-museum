@@ -1,0 +1,22 @@
+id: person/al-hasan-ibn-makula
+class: person
+label: { ar: "أبو علي الحسن بن ماكولا الوزير", en: "al-Hasan ibn Makula" }
+summary:
+  ar: "أبو علي الحسن بن علي بن جعفر ابن ماكولا، وزير جلال الدولة بعد حبس ابن عمه أبي سعد سنة ٤١٧؛ قتله غلامه بالأهواز في ذي الحجة سنة ٤٢٢ وله ست وخمسون سنة {cite:muntazam-ibn-al-jawzi j.8 p.403}."
+gender: male
+wings: [people]
+roles: [vizier]
+periods: [period/buyid-seljuk-fatimid-era]
+regions: [levant-iraq]
+died: { edtf: "1031-12~", hijri: "0422-12", calendar: julian, precision: month, status: tradition, derived: true, note: "قتل بغلامه بالأهواز في ذي الحجة ٤٢٢ {cite:muntazam-ibn-al-jawzi j.8 p.403}." }
+relations:
+  - { type: sibling_of, target: person/ibn-makula, sources: [source/muntazam-ibn-al-jawzi] }
+  - { type: allied_with, target: person/jalal-al-dawla, role: "وزيره", sources: [source/muntazam-ibn-al-jawzi] }
+  - { type: died_in, target: place/al-ahwaz, sources: [source/muntazam-ibn-al-jawzi] }
+provenance:
+  layer: own-research
+  source: "المنتظم في تاريخ الملوك والأمم — ابن الجوزي (ج8، أحداث سنة ٤٢٢)، قراءة آبل فيجن، مسح AAlexandrina-224011"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-muntazam-350-474-batch23
+sources: [source/muntazam-ibn-al-jawzi]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

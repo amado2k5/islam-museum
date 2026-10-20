@@ -1,9 +1,10 @@
 id: event/battle-of-al-uqhuwana-420
 class: event
 kind: battle
+aliases: [event/battle-of-al-uqhuwana-1029, event/battle-tiberias-429]
 label: { ar: "وقعة الأقحوانة وقتل صالح بن مرداس" }
 summary:
-  ar: "في جمادى الأولى سنة عشرين وأربعمائة تلاقى صالح بن مرداس أميرُ حلب وأنوشكين الدزبري أميرُ جيوش الظاهر العبيدي على الأقحوانة — بلدة بالشام من أعمال فلسطين قرب طبريا — فتصافّا وجرت بينهما مقتلة انجلت عن قتل صالح المذكور، وهو أول ملوك بني مرداس المتملّكين بحلب {cite:shadharat-dhahab p. 215}."
+  ar: "في جمادى الأولى سنة عشرين وأربعمائة تلاقى صالح بن مرداس أميرُ حلب وأنوشكين الدزبري أميرُ جيوش الظاهر العبيدي على الأقحوانة — بلدة بالشام من أعمال فلسطين قرب طبريا — فتصافّا وجرت بينهما مقتلة انجلت عن قتل صالح المذكور، وهو أول ملوك بني مرداس المتملّكين بحلب {cite:shadharat-dhahab p. 215}. وعند ابن خلدون جهّز الظاهر العساكر لقتال صالح وحسان بن مفرج صاحب الرملة فلقيهم أنوشتكين على الأردن بطبرية فانهزموا وقُتل صالح وولده الأصغر ونجا ولده الأكبر نصر إلى حلب، ويؤرخه في سنة ٤٢٩ {cite:tarikh-ibn-khaldun-ibar p. 1075}؛ ويذكره ابن الجوزي في أحداث سنة ٤٢٠ قتل صالح وابنه على يد عساكر مصر {cite:muntazam-ibn-al-jawzi j.8 p.388}."
   en: "In Jumada I 420 Salih b. Mirdas, the new Mirdasid amir of Aleppo, met Anushtakin al-Dizbiri, al-Zahir's commander-in-chief, at al-Uqhuwana near Tiberias; the battle ended with Salih dead {cite:shadharat-dhahab p. 215}."
 wings: [time]
 periods: [period/abbasid-early]
@@ -17,10 +18,13 @@ date:
   start: { edtf: "1029~", hijri: "0420-05", calendar: julian, precision: month, status: tradition, derived: true, note: "جمادى الأولى سنة 420 {cite:shadharat-dhahab p. 215}." }
 relations:
   - { type: occurred_at, target: place/tabariyya, sources: [source/shadharat-dhahab] }
+  - { type: had_participant, target: person/salih-ibn-mirdas, role: "أمير حلب، قُتل فيها", sources: [source/shadharat-dhahab] }
+  - { type: had_participant, target: person/anushtakin-al-dizbiri, role: "أمير جيوش الظاهر", sources: [source/shadharat-dhahab] }
+external_ids: { wikidata: "Q116148546" }
 provenance:
   layer: own-research
   source: "شذرات الذهب لابن العماد — الجزء الثالث، ممسوح مكتبة الحصاد (AAlexandrina-223861)، قراءة آبل فيجن"
   generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
   run: lib-shadharat-batch-91
-sources: [source/shadharat-dhahab]
+sources: [source/shadharat-dhahab, source/tarikh-ibn-khaldun-ibar, source/kamil-ibn-al-athir, source/muntazam-ibn-al-jawzi]
 status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 High)" }

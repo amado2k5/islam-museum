@@ -1,0 +1,27 @@
+id: event/al-qaim-accession-422
+class: event
+kind: other
+label: { ar: "وفاة القادر وبيعة القائم بأمر الله ٤٢٢" }
+summary:
+  ar: "مات الخليفة القادر بالله ليلة الاثنين حادي عشر ذي الحجة سنة ٤٢٢ وله ست وثمانون سنة وعشرة أشهر وإحدى وعشرون يومًا، وخلافته إحدى وأربعون سنة وثلاثة أشهر — ولم يبلغها خليفة قبله. أُغلقت الأبواب، ثم خرج القائم بأمر الله وقت العصر فصلى بالناس المغرب ثم صلى على أبيه أربع تكبيرات، وجلس بدار الشجرة في قميص ورداء فبايعه الناس وأولهم الشريف المرتضى، وجاء أبو أحمد الحسن بن عيسى بن المقتدر في الغد فبايع؛ وشغب الأتراك على مال البيعة فقتل هاشميٌّ تركيًّا فخرج توقيع الخليفة في ذلك، واستقر أن تكلف البيعة ثلاثة آلاف ألف دينار؛ ومن أدبه المشهور أنه عرض خانًا وبستانًا وركامًا للبيع ليدفعها. ولقّب الوزراء والحجاب ورتب الدولة {cite:muntazam-ibn-al-jawzi j.8 p.399-403}."
+wings: [time]
+themes: [family-marriage-kinship]
+periods: [period/buyid-seljuk-fatimid-era]
+regions: [levant-iraq]
+date:
+  start: { edtf: "1031-11~", hijri: "0422-12-11", calendar: julian, precision: day, status: tradition, derived: true, note: "ليلة الاثنين ١١ ذي الحجة ٤٢٢ {cite:muntazam-ibn-al-jawzi j.8 p.399}." }
+relations:
+  - { type: occurred_at, target: place/baghdad, sources: [source/muntazam-ibn-al-jawzi] }
+  - { type: had_participant, target: person/al-qadir-billah, role: "الخليفة المتوفى", sources: [source/muntazam-ibn-al-jawzi] }
+  - { type: had_participant, target: person/al-qaim-billah, role: "الخليفة الجديد", sources: [source/muntazam-ibn-al-jawzi] }
+  - { type: had_participant, target: person/al-sharif-al-murtada, role: "أول المبايعين", sources: [source/muntazam-ibn-al-jawzi] }
+provenance:
+  layer: own-research
+  source: "المنتظم في تاريخ الملوك والأمم — ابن الجوزي (ج8، أحداث سنة ٤٢٢)، قراءة آبل فيجن، مسح AAlexandrina-224011"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-muntazam-350-474-batch23
+sources: [source/muntazam-ibn-al-jawzi]
+status:
+  review: draft
+  completeness: 2
+  generated_by: "Devin (SWE-2 High)"
