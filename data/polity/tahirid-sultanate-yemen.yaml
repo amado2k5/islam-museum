@@ -1,0 +1,32 @@
+id: polity/tahirid-sultanate-yemen
+class: polity
+kind: dynasty
+label:
+  ar: "الدولة الطاهرية (اليمن)"
+  en: "Tahirid Sultanate"
+summary:
+  ar: "بطاقة أولية للدولة الطاهرية في اليمن، أسرة سلاطين الجند والمقرة من ١٤٥٤ إلى ١٥١٧م؛ لم تُراجع مصادرها على الصفحة بعد."
+  en: "Draft card for the Tahirid sultanate of Yemen, the house that ruled from al-Janad and al-Miqranah from 1454 to 1517; its sources are not yet checked on the page."
+wings: [time]
+periods: [period/crusades-ayyubid-mamluk]
+regions: [arabia]
+start:
+  edtf: "1454"
+  precision: year
+  status: tradition
+  derived: true
+end:
+  edtf: "1517"
+  precision: year
+  status: tradition
+  derived: true
+sources: [source/mujam-al-buldan]
+external_ids:
+  wikidata: Q2342941
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; dynasty attested in Yemeni histories — entry not yet checked on the page"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-wave2
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }
