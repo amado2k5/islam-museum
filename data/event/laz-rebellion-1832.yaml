@@ -1,0 +1,23 @@
+id: event/laz-rebellion-1832
+class: event
+kind: revolt
+label: { ar: "ثورة اللاز (١٨٣٢–١٨٣٤)", en: "Laz Rebellion (1832–34)" }
+summary:
+  ar: "بطاقة أولية لثورة اللاز من ١٨٣٢ إلى ١٨٣٤م، انتفاضة ولاية لازستان على السلطة العثمانية؛ لم تُراجع مصادره على الصفحة بعد."
+  en: "Draft card for the Laz Rebellion of 1832–34, the rising of Lazistan's aghas against Ottoman authority; its sources are not yet checked on the page."
+wings: [time]
+periods: [period/modern-era]
+regions: [anatolia-balkans]
+date:
+  start: { edtf: "1832", precision: year, status: tradition, derived: true }
+  end: { edtf: "1834", precision: year, status: tradition, derived: true }
+sources: [source/dawlat-uthmaniyya-salabi]
+external_ids:
+  wikidata: Q65589564
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; battle attested in narrative histories — entry not yet checked on the page"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-wave2
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }
