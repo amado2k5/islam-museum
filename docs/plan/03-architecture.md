@@ -97,6 +97,8 @@ A second repo **`islam-museum-media`** (GitHub Pages at `media.islam.museum`, or
 
 ## 4. Build pipeline
 
+The R2 upload step is a Worker-based sync, not a shell script. Its flow, secrets, test workflow and Worker configs are in [`workers/r2-sync/README.md`](../../workers/r2-sync/README.md).
+
 ```
 data/ + content/ + geo/ + schema/
         │
