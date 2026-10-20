@@ -1,0 +1,23 @@
+id: event/siege-of-kerman-1794
+class: event
+kind: siege
+label: { ar: "حصار كرمان (١٧٩٤)", en: "Siege of Kerman" }
+summary:
+  ar: "بطاقة أولية لحصار كرمان سنة ١٧٩٤م، أخذ آغا محمد خان القاجاري المدينة ونكبة أهلها؛ لم تُراجع مصادره على الصفحة بعد."
+  en: "Draft card for the Siege of Kerman in 1794, Agha Mohammad Khan Qajar's capture of the city and its sack; its sources are not yet checked on the page."
+wings: [time]
+periods: [period/colonial-era]
+regions: [persia-central-asia]
+date:
+  start: { edtf: "1794", precision: year, status: tradition, derived: true }
+  end: { edtf: "1794", precision: year, status: tradition, derived: true }
+sources: [source/tarikh-islam-hasan-ibrahim]
+external_ids:
+  wikidata: Q1268596
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; battle attested in narrative histories — entry not yet checked on the page"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-wave2
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

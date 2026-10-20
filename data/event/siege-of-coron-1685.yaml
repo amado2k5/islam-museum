@@ -1,0 +1,23 @@
+id: event/siege-of-coron-1685
+class: event
+kind: siege
+label: { ar: "حصار كورون (١٦٨٥)", en: "Siege of Coron" }
+summary:
+  ar: "بطاقة أولية لحصار كورون سنة ١٦٨٥م، أخذ البنادقة حصن المورة من العثمانيين؛ لم تُراجع مصادره على الصفحة بعد."
+  en: "Draft card for the Siege of Coron in 1685, the Venetians' capture of the Morea fortress from the Ottomans; its sources are not yet checked on the page."
+wings: [time]
+periods: [period/gunpowder-empires]
+regions: [anatolia-balkans]
+date:
+  start: { edtf: "1685-06-25", precision: year, status: tradition, derived: true }
+  end: { edtf: "1685-08-11", precision: year, status: tradition, derived: true }
+sources: [source/dawlat-uthmaniyya-salabi]
+external_ids:
+  wikidata: Q126902909
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; battle attested in narrative histories — entry not yet checked on the page"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-wave2
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }
