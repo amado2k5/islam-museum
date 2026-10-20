@@ -1,0 +1,23 @@
+id: event/battle-of-kochisar-1516
+class: event
+kind: battle
+label: { ar: "معركة قوج حصار", en: "Battle of Koçhisar" }
+summary:
+  ar: "بطاقة أولية لمعركة قوج حصار سنة ١٥١٦م، فوز سليم الأول على الأكرماس في طريق جالديران؛ لم تُراجع مصادره على الصفحة بعد."
+  en: "Draft card for the Battle of Koçhisar in 1516, Selim I's victory over the Qizilbash on the road to Chaldiran; its sources are not yet checked on the page."
+wings: [time]
+periods: [period/gunpowder-empires]
+regions: [anatolia-balkans]
+date:
+  start: { edtf: "1516-05", precision: year, status: tradition, derived: true }
+  end: { edtf: "1516-05", precision: year, status: tradition, derived: true }
+sources: [source/dawlat-uthmaniyya-salabi]
+external_ids:
+  wikidata: Q85972229
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; battle attested in narrative histories — entry not yet checked on the page"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-wave2
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }
