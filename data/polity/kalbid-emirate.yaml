@@ -1,0 +1,32 @@
+id: polity/kalbid-emirate
+class: polity
+kind: emirate
+label:
+  ar: "إمارة بني كلب بصقلية"
+  en: "Kalbid emirate of Sicily"
+summary:
+  ar: "بطاقة أولية لإمارة بني كلب في صقلية، الأسرة التي حكمت الجزيرة للفاطميين من ٩٤٨ إلى ١٠٥٣م؛ لم تُراجع مصادرها على الصفحة بعد."
+  en: "Draft card for the Kalbid emirate of Sicily, the house ruling the island for the Fatimids from 948 to 1053; its sources are not yet checked on the page."
+wings: [time]
+periods: [period/buyid-seljuk-fatimid-era]
+regions: [andalus-europe]
+start:
+  edtf: "948"
+  precision: year
+  status: tradition
+  derived: true
+end:
+  edtf: "1053"
+  precision: year
+  status: tradition
+  derived: true
+sources: [source/tarikh-ibn-khaldun-ibar]
+external_ids:
+  wikidata: Q919971
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; dynasty attested in Sicilian histories — entry not yet checked on the page"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-wave2
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

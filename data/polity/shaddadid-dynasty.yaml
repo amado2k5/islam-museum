@@ -1,0 +1,32 @@
+id: polity/shaddadid-dynasty
+class: polity
+kind: dynasty
+label:
+  ar: "بنو شداد"
+  en: "Shaddadid dynasty"
+summary:
+  ar: "بطاقة أولية لبني شداد، السلالة الكردية التي حكمت أران وأذربيجان وأرمينية من ٩٥١ إلى ١١٩٩م؛ لم تُراجع مصادرها على الصفحة بعد."
+  en: "Draft card for the Banu Shaddad, the Kurdish dynasty ruling Arran, Azerbaijan and Armenia from 951 to 1199; its sources are not yet checked on the page."
+wings: [time]
+periods: [period/buyid-seljuk-fatimid-era]
+regions: [persia-central-asia]
+start:
+  edtf: "951"
+  precision: year
+  status: tradition
+  derived: true
+end:
+  edtf: "1199"
+  precision: year
+  status: tradition
+  derived: true
+sources: [source/tarikh-ibn-khaldun-ibar]
+external_ids:
+  wikidata: Q960395
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; dynasty attested in historical works — entry not yet checked on the page"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-wave2
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }
