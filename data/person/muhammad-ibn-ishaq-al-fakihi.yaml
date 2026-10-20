@@ -1,0 +1,27 @@
+id: person/muhammad-ibn-ishaq-al-fakihi
+class: person
+label:
+  ar: "محمد بن إسحاق الفاكهي"
+  en: "Muhammad ibn Ishaq al-Fakihi"
+roles: [historian]
+gender: male
+summary:
+  ar: "بطاقة أولية لمحمد بن إسحاق الفاكهي، مؤرخ مكة وصاحب أخبارها؛ لم تُراجع ترجمته على الصفحة بعد."
+  en: "Draft card for Muhammad ibn Ishaq al-Fakihi, the historian of Mecca and author of its annals; his entry is not yet checked on the page."
+wings: [people]
+regions: [arabia]
+periods: [period/abbasid-early]
+born: { edtf: "0839~", precision: decade, status: tradition, derived: true }
+died: { edtf: "0885~", precision: decade, status: tradition, derived: true }
+sources: [source/al-aalam]
+external_ids:
+  wikidata: Q4702369
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; entry not yet read on the page in a book source"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-wave2
+status:
+  review: draft
+  completeness: 1
