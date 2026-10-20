@@ -67,3 +67,10 @@ Updated at every push to `main`. Lane: `wikidata-import` (`docs/delegation/wikid
 - last_push: b35a3b40c
 - Notable merges: abu-al-muzaffar-al-samani, anushirwan-ibn-khalid, al-aswad-ibn-yazid-al-nakhai, salit-ibn-amr absorbed duplicate creates as links; Q18608788 (Ghurid empire item) skipped as alternate of polity/ghurid-dynasty.
 - validate: 0 errors / ~2004 warnings; npm test: 101 passed. Nothing blocked.
+
+## 2026 push — through candidate 5859
+- next_index: 5860 / 82296
+- created: 1238, linked: 687, skipped: 3971 (progress.json is authoritative)
+- last_push: 88cfe5d59 (merge 88cfe5d59 of remote r2-sync test change)
+- Notable merges: umayr-ibn-al-humam, rabi-bint-al-nadr (al-rabi-bint-al-nadr), shurayk-ibn-abd-allah-al-nakhai, ibn-muflih-burhan absorbed duplicate creates as links.
+- validate: 0 errors / ~2009 warnings; npm test: 101 passed. Nothing blocked.
