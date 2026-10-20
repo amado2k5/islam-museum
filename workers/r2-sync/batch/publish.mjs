@@ -218,6 +218,11 @@ async function main() {
 }
 
 main().catch((err) => {
-  console.error(`[r2-publish] FAILED: ${err.message}`);
+  // Print everything we can: some errors have an empty message, and the cause and the
+  // command's stderr are often where the real reason is.
+  const detail = [err?.stack ?? String(err)];
+  if (err?.cause) detail.push(`cause: ${err.cause?.stack ?? err.cause?.message ?? String(err.cause)}`);
+  if (err?.stderr) detail.push(`stderr: ${String(err.stderr).trim()}`);
+  console.error(`[r2-publish] FAILED: ${err?.message || "(no message)"}\n${detail.join("\n")}`);
   process.exit(1);
 });
