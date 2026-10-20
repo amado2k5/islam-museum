@@ -1,0 +1,32 @@
+id: polity/turk-shahi
+class: polity
+kind: dynasty
+label:
+  ar: "الشاهية التركية"
+  en: "Turk Shahis"
+summary:
+  ar: "بطاقة أولية للشاهية التركية، ملوك كابل وزابلستان الذين قاوموا الفتوحات العربية حتى القرن التاسع؛ لم تُراجع مصادرها على الصفحة بعد."
+  en: "Draft card for the Turk Shahis, the kings of Kabul and Zabulistan who resisted the Arab conquests into the ninth century; its sources are not yet checked on the page."
+wings: [time]
+periods: [period/umayyad]
+regions: [persia-central-asia]
+start:
+  edtf: "665"
+  precision: year
+  status: tradition
+  derived: true
+end:
+  edtf: "850"
+  precision: year
+  status: tradition
+  derived: true
+sources: [source/futuh-buldan-maarif-1407]
+external_ids:
+  wikidata: Q39047075
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; dynasty attested in conquest-era histories — entry not yet checked on the page"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-wave2
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }
