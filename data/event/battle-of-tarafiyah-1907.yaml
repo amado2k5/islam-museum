@@ -1,0 +1,23 @@
+id: event/battle-of-tarafiyah-1907
+class: event
+kind: battle
+label: { ar: "معركة الطرفية (١٩٠٧)", en: "Battle of Tarafiyah" }
+summary:
+  ar: "بطاقة أولية لمعركة الطرفية سنة ١٩٠٧م في القصيم، انتصار عبد العزيز آل سعود على تحالف ابن رشيد ومطير؛ لم تُراجع مصادره على الصفحة بعد."
+  en: "Draft card for the Battle of Tarafiyah in 1907, Ibn Saud's decisive victory in Qassim; its sources are not yet checked on the page."
+wings: [time]
+periods: [period/modern-era]
+regions: [arabia]
+date:
+  start: { edtf: "1907-09-24", precision: year, status: tradition, derived: true }
+  end: { edtf: "1907-09-24", precision: year, status: tradition, derived: true }
+sources: [source/tarikh-islam-hasan-ibrahim]
+external_ids:
+  wikidata: Q4872507
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; battle attested in narrative histories — entry not yet checked on the page"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-wave2
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }
