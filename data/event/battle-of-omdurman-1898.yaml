@@ -1,0 +1,23 @@
+id: event/battle-of-omdurman-1898
+class: event
+kind: battle
+label: { ar: "معركة كرري (أم درمان)", en: "Battle of Omdurman" }
+summary:
+  ar: "بطاقة أولية لمعركة كرري بأم درمان سنة ١٨٩٨م، الموقعة التي أسقطت دولة خلفاء المهدي أمام الجيش الإنجلو-مصري؛ لم تُراجع مصادره على الصفحة بعد."
+  en: "Draft card for the Battle of Omdurman (Karari) in 1898, the engagement that brought down the Mahdist successor state before the Anglo-Egyptian army; its sources are not yet checked on the page."
+wings: [time]
+periods: [period/colonial-era]
+regions: [east-africa]
+date:
+  start: { edtf: "1898", precision: year, status: tradition, derived: true }
+  end: { edtf: "1898", precision: year, status: tradition, derived: true }
+sources: [source/tarikh-islam-hasan-ibrahim]
+external_ids:
+  wikidata: Q1137302
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; battle attested in Sudanese histories — entry not yet checked on the page"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-wave2
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

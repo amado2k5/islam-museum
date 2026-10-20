@@ -1,0 +1,23 @@
+id: event/battle-of-toulouse-721
+class: event
+kind: battle
+label: { ar: "معركة تولوز", en: "Battle of Toulouse" }
+summary:
+  ar: "بطاقة أولية لمعركة تولوز سنة ٧٢١م، نصر أودو دوق آكيتين على جيش السمح بن مالك الخولاني الأموي؛ لم تُراجع مصادره على الصفحة بعد."
+  en: "Draft card for the Battle of Toulouse in 721, Duke Odo of Aquitaine's victory over the Umayyad army of al-Samh ibn Malik al-Khawlani; its sources are not yet checked on the page."
+wings: [time]
+periods: [period/umayyad]
+regions: [andalus-europe]
+date:
+  start: { edtf: "721", precision: year, status: tradition, derived: true }
+  end: { edtf: "721", precision: year, status: tradition, derived: true }
+sources: [source/tarikh-ibn-khaldun-ibar]
+external_ids:
+  wikidata: Q652320
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; battle attested in Andalusian histories — entry not yet checked on the page"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-wave2
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

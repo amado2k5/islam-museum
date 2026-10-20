@@ -1,0 +1,23 @@
+id: event/battle-of-karansebes-1788
+class: event
+kind: battle
+label: { ar: "معركة كارانسيبيش", en: "Battle of Karánsebes" }
+summary:
+  ar: "بطاقة أولية لواقعة كارانسيبيش سنة ١٧٨٨م، الاشتباك الداخلي الشهير في الجيش النمساوي أثناء حربه على العثمانيين؛ لم تُراجع مصادره على الصفحة بعد."
+  en: "Draft card for the Karánsebes affair of 1788, the notorious friendly-fire incident in the Austrian army during its war with the Ottomans; its sources are not yet checked on the page."
+wings: [time]
+periods: [period/gunpowder-empires]
+regions: [anatolia-balkans]
+date:
+  start: { edtf: "1788", precision: year, status: tradition, derived: true }
+  end: { edtf: "1788", precision: year, status: tradition, derived: true }
+sources: [source/dawlat-uthmaniyya-salabi]
+external_ids:
+  wikidata: Q2309898
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; incident attested in Habsburg histories — entry not yet checked on the page"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-wave2
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }
