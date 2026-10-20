@@ -1,0 +1,23 @@
+id: event/second-anglo-mysore-war
+class: event
+kind: war
+label: { ar: "الحرب الأنغلو-ميسورية الثانية", en: "Second Anglo-Mysore War" }
+summary:
+  ar: "بطاقة أولية للحرب الأنغلو-ميسورية الثانية من ١٧٨٠ إلى ١٧٨٤م، حرب حيدر علي وتيبو سلطان ضد شركة الهند الشرقية؛ لم تُراجع مصادره على الصفحة بعد."
+  en: "Draft card for the Second Anglo-Mysore War of 1780–1784, Haidar Ali and Tipu Sultan's war against the East India Company; its sources are not yet checked on the page."
+wings: [time]
+periods: [period/colonial-era]
+regions: [south-asia]
+date:
+  start: { edtf: "1780", precision: year, status: tradition, derived: true }
+  end: { edtf: "1784", precision: year, status: tradition, derived: true }
+sources: [source/tarikh-islam-hasan-ibrahim]
+external_ids:
+  wikidata: Q233663
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; war attested in Indian histories — entry not yet checked on the page"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-wave2
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

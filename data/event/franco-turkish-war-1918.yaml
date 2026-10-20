@@ -1,0 +1,23 @@
+id: event/franco-turkish-war-1918
+class: event
+kind: war
+label: { ar: "الحرب التركية الفرنسية", en: "Franco-Turkish War" }
+summary:
+  ar: "بطاقة أولية للحرب التركية الفرنسية من ١٩١٨ إلى ١٩٢١م في قيليقية ضمن حرب الاستقلال التركية؛ لم تُراجع مصادره على الصفحة بعد."
+  en: "Draft card for the Franco-Turkish War of 1918–1921 in Cilicia during the Turkish War of Independence; its sources are not yet checked on the page."
+wings: [time]
+periods: [period/modern-era]
+regions: [anatolia-balkans]
+date:
+  start: { edtf: "1918", precision: year, status: tradition, derived: true }
+  end: { edtf: "1921", precision: year, status: tradition, derived: true }
+sources: [source/dawlat-uthmaniyya-salabi]
+external_ids:
+  wikidata: Q1450532
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; war attested in Turkish histories — entry not yet checked on the page"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-wave2
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

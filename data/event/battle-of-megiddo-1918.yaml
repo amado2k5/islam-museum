@@ -1,0 +1,23 @@
+id: event/battle-of-megiddo-1918
+class: event
+kind: battle
+label: { ar: "معركة مجدو", en: "Battle of Megiddo" }
+summary:
+  ar: "بطاقة أولية لمعركة مجدو سنة ١٩١٨م، هزيمة الجيوش العثمانية الحاسمة أمام أللنبي في فلسطين؛ لم تُراجع مصادره على الصفحة بعد."
+  en: "Draft card for the Battle of Megiddo in 1918, the decisive defeat of the Ottoman armies by Allenby in Palestine; its sources are not yet checked on the page."
+wings: [time]
+periods: [period/modern-era]
+regions: [levant-iraq]
+date:
+  start: { edtf: "1918", precision: year, status: tradition, derived: true }
+  end: { edtf: "1918", precision: year, status: tradition, derived: true }
+sources: [source/tarikh-islam-hasan-ibrahim]
+external_ids:
+  wikidata: Q199371
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; battle attested in WWI histories — entry not yet checked on the page"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-wave2
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

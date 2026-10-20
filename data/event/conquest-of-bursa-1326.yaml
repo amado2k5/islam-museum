@@ -1,0 +1,23 @@
+id: event/conquest-of-bursa-1326
+class: event
+kind: siege
+label: { ar: "فتح بورصة", en: "Conquest of Bursa" }
+summary:
+  ar: "بطاقة أولية لحصار وفتح بورصة من ١٣١٧ إلى ١٣٢٦م، أول عاصمة كبرى للدولة العثمانية الناشئة في عهد أورخان؛ لم تُراجع مصادره على الصفحة بعد."
+  en: "Draft card for the siege and conquest of Bursa from 1317 to 1326, the first great capital of the rising Ottoman state under Orhan; its sources are not yet checked on the page."
+wings: [time]
+periods: [period/mongol-post-mongol]
+regions: [anatolia-balkans]
+date:
+  start: { edtf: "1317", precision: year, status: tradition, derived: true }
+  end: { edtf: "1326", precision: year, status: tradition, derived: true }
+sources: [source/dawlat-uthmaniyya-salabi]
+external_ids:
+  wikidata: Q1099263
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; siege attested in Ottoman histories — entry not yet checked on the page"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-wave2
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

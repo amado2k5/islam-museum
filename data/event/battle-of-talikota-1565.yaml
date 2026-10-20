@@ -1,0 +1,23 @@
+id: event/battle-of-talikota-1565
+class: event
+kind: battle
+label: { ar: "معركة تاليكوته", en: "Battle of Talikota" }
+summary:
+  ar: "بطاقة أولية لمعركة تاليكوته سنة ١٥٦٥م، انتصار ائتلاف سلطنات الدكن على إمبراطورية فيجايانغارا؛ لم تُراجع مصادره على الصفحة بعد."
+  en: "Draft card for the Battle of Talikota in 1565, the victory of the Deccan sultanates' coalition over the Vijayanagara Empire; its sources are not yet checked on the page."
+wings: [time]
+periods: [period/gunpowder-empires]
+regions: [south-asia]
+date:
+  start: { edtf: "1565", precision: year, status: tradition, derived: true }
+  end: { edtf: "1565", precision: year, status: tradition, derived: true }
+sources: [source/tarikh-islam-hasan-ibrahim]
+external_ids:
+  wikidata: Q1362188
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; battle attested in Deccan histories — entry not yet checked on the page"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-wave2
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

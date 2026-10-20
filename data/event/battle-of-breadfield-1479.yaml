@@ -1,0 +1,23 @@
+id: event/battle-of-breadfield-1479
+class: event
+kind: battle
+label: { ar: "معركة حقل الخبز", en: "Battle of Breadfield" }
+summary:
+  ar: "بطاقة أولية لمعركة حقل الخبز سنة ١٤٧٩م، النصر المجري الكبير على الجيش العثماني في ترانسيلفانيا؛ لم تُراجع مصادره على الصفحة بعد."
+  en: "Draft card for the Battle of the Breadfield in 1479, the great Hungarian victory over the Ottoman army in Transylvania; its sources are not yet checked on the page."
+wings: [time]
+periods: [period/crusades-ayyubid-mamluk]
+regions: [anatolia-balkans]
+date:
+  start: { edtf: "1479", precision: year, status: tradition, derived: true }
+  end: { edtf: "1479", precision: year, status: tradition, derived: true }
+sources: [source/dawlat-uthmaniyya-salabi]
+external_ids:
+  wikidata: Q690291
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; battle attested in Hungarian histories — entry not yet checked on the page"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-wave2
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

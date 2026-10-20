@@ -1,0 +1,23 @@
+id: event/siege-of-acre-1799
+class: event
+kind: siege
+label: { ar: "حصار عكا (١٧٩٩)", en: "Siege of Acre (1799)" }
+summary:
+  ar: "بطاقة أولية لحصار عكا سنة ١٧٩٩م، صمود أحمد باشا الجزار أمام نابليون الذي فشل في أخذ المدينة؛ لم تُراجع مصادره على الصفحة بعد."
+  en: "Draft card for the Siege of Acre in 1799, Ahmad Pasha al-Jazzar's stand against Napoleon, who failed to take the city; its sources are not yet checked on the page."
+wings: [time]
+periods: [period/colonial-era]
+regions: [levant-iraq]
+date:
+  start: { edtf: "1799", precision: year, status: tradition, derived: true }
+  end: { edtf: "1799", precision: year, status: tradition, derived: true }
+sources: [source/tarikh-islam-hasan-ibrahim]
+external_ids:
+  wikidata: Q815109
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; siege attested in Syrian histories — entry not yet checked on the page"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-wave2
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }
