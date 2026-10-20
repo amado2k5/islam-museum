@@ -1,0 +1,24 @@
+id: event/baghdad-manifesto-402
+class: event
+kind: declaration
+label: { ar: "المحضر البغدادي في الطعن في نسب الفاطميين" }
+summary:
+  ar: "في ربيع الآخر سنة اثنتين وأربعمائة كُتب في ديوان الخلافة ببغداد محضر شهده وأمضى خطوطه الأشراف والقضاة والفقهاء والصالحون والمعدلون، يشهدون بالقدح في نسب خلفاء مصر الفاطميين وأصل دعوتهم، وأنهم منسوبون إلى ديصان بن سعيد وأن انتسابهم إلى ولد علي بن أبي طالب باطل وزور، وأن هذا الإنكار شائع بالحرمين ومستفيض بالغرب. وكتب خطه في المحضر جمع عظيم من العلويين في مقدمتهم الشريفان الرضي والمرتضى وابن الأزرق الموسوي، ومن القضاة ابن الأكفاني والخرزي والسوري، ومن الفقهاء أبو حامد الاسفراييني وأبو الحسين القدوري وأبو عبد الله الصيمري والبيضاوي، وقرئ بالبصرة وسائر الآفاق {cite:muntazam-ibn-al-jawzi j.7 p.255-256}."
+wings: [time]
+periods: [period/buyid-seljuk-fatimid-era]
+regions: [levant-iraq]
+date:
+  start: { edtf: "1011-11~", hijri: "0402-04", calendar: julian, precision: month, status: tradition, derived: true, note: "ربيع الآخر 402هـ؛ التحويل مشتق {cite:muntazam-ibn-al-jawzi j.7 p.255}" }
+relations:
+  - { type: located_in, target: place/baghdad, sources: [source/muntazam-ibn-al-jawzi] }
+  - { type: had_participant, target: person/al-qadir-billah, role: "كُتب المحضر في ديوان خلافته", sources: [source/muntazam-ibn-al-jawzi] }
+  - { type: had_participant, target: person/al-sharif-al-radi, role: "كتب خطه في المحضر", sources: [source/muntazam-ibn-al-jawzi] }
+  - { type: had_participant, target: person/al-sharif-al-murtada, role: "كتب خطه في المحضر", sources: [source/muntazam-ibn-al-jawzi] }
+  - { type: had_participant, target: person/abu-hamid-al-isfarayini, role: "شهد وكتب خطه في المحضر", sources: [source/muntazam-ibn-al-jawzi] }
+provenance:
+  layer: own-research
+  source: "المنتظم في تاريخ الملوك والأمم — ابن الجوزي (ج7، أحداث سنة 402)، قراءة آبل فيجن"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-muntazam-batch-22
+sources: [source/muntazam-ibn-al-jawzi]
+status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 High)" }

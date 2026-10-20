@@ -1,0 +1,21 @@
+id: person/hibat-allah-ibn-salama
+class: person
+label: { ar: "أبو القاسم هبة الله بن سلامة المفسر الضرير" }
+summary:
+  ar: "هبة الله بن سلامة بن نصر أبو القاسم البغدادي الضرير المفسر، كان من أحفظ الناس لتفسير القرآن، وله حلقة مشهورة في جامع المنصور، وصنف كتاب الناسخ والمنسوخ المشهور. سمع الحديث من أبي بكر أحمد بن جعفر بن مالك القطيعي وغيره، وتوفي ببغداد في رجب سنة عشر وأربعمائة {cite:muntazam-ibn-al-jawzi j.7 p.295}."
+wings: [people]
+periods: [period/buyid-seljuk-fatimid-era]
+regions: [levant-iraq]
+roles: [scholar, teacher]
+themes: [scripture-and-its-sciences]
+died:
+  { edtf: "1019-11~", hijri: "0410-07", calendar: julian, precision: month, status: tradition, derived: true, note: "رجب 410هـ؛ التحويل مشتق {cite:muntazam-ibn-al-jawzi j.7 p.295}" }
+relations:
+  - { type: died_in, target: place/baghdad, sources: [source/muntazam-ibn-al-jawzi] }
+provenance:
+  layer: own-research
+  source: "المنتظم في تاريخ الملوك والأمم — ابن الجوزي (ج7، وفيات سنة 410)، قراءة آبل فيجن"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-muntazam-batch-22
+sources: [source/muntazam-ibn-al-jawzi]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

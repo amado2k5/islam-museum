@@ -1,0 +1,21 @@
+id: event/bint-abi-nuh-funeral-riot-403
+class: event
+kind: other
+label: { ar: "فتنة جنازة بنت أبي نوح ونهب بيعة دار الروم" }
+summary:
+  ar: "في شوال سنة ثلاث وأربعمائة أُخرجت جنازة زوجة كاتب المناصح أبي الهيجاء نهاراً ومعها النوائح والطبول والزمور والرهبان والصلبان والشموع، فرجمها رجل هاشمي فشجّه أحد غلمان المناصح بدبوس، فهربت الجنازة إلى بيعة دار الروم فتبعهم المسلمون ونهبوا البيعة والدور المجاورة وثارت فتنة عظيمة ورُفعت المصاحف في الأسواق وغلقت أبواب المساجد وقُصدت دار الخليفة وامتنع الناس من صلاة الجمعة، حتى أصلح الخليفة طياره هماً بالخروج من البلد غضباً، إلى أن أُحضر كاتب المناصح وسُلم إلى دار الخلافة وكفّت العامة وأُلزم أهل الذمة الغيار {cite:muntazam-ibn-al-jawzi j.7 p.261-262}."
+wings: [time]
+periods: [period/buyid-seljuk-fatimid-era]
+regions: [levant-iraq]
+date:
+  start: { edtf: "1013-05~", hijri: "0403-10", calendar: julian, precision: month, status: tradition, derived: true, note: "شوال 403هـ؛ التحويل مشتق {cite:muntazam-ibn-al-jawzi j.7 p.261}" }
+relations:
+  - { type: located_in, target: place/baghdad, sources: [source/muntazam-ibn-al-jawzi] }
+  - { type: had_participant, target: person/al-qadir-billah, role: "الخليفة الذي غضب وهم بالخروج حتى حُسمت الفتنة", sources: [source/muntazam-ibn-al-jawzi] }
+provenance:
+  layer: own-research
+  source: "المنتظم في تاريخ الملوك والأمم — ابن الجوزي (ج7، أحداث سنة 403)، قراءة آبل فيجن"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-muntazam-batch-22
+sources: [source/muntazam-ibn-al-jawzi]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

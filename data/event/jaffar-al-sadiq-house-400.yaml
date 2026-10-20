@@ -1,0 +1,22 @@
+id: event/jaffar-al-sadiq-house-400
+class: event
+kind: other
+label: { ar: "فتح دار جعفر الصادق بالمدينة ونقل آثاره إلى مصر" }
+summary:
+  ar: "في سنة أربعمائة أنفذ الحاكم صاحب مصر رجلاً ومعه رسوم الحسنيين والحسينيين وزادهم فيها، وأمره بفتح دار جعفر بن محمد الصادق بالمدينة بعد استئذانهم، ولم يتعرض لتلك الدار أحد منذ وفاة جعفر، فحُمل منها مصحفه وقعب من خشب مطوّق بحديد ودرقة خيزران وحربة وسرير إلى مصر، فرد الحاكم عليهم السرير وأخذ الباقي مدعياً أنه أحق به {cite:muntazam-ibn-al-jawzi j.7 p.246-247}."
+wings: [time]
+periods: [period/buyid-seljuk-fatimid-era]
+regions: [arabia, egypt-nile]
+date:
+  start: { edtf: "1009~", hijri: "0400", calendar: julian, precision: year, status: tradition, derived: true, note: "أحداث سنة 400هـ؛ التحويل مشتق {cite:muntazam-ibn-al-jawzi j.7 p.246}" }
+relations:
+  - { type: located_in, target: place/medina, sources: [source/muntazam-ibn-al-jawzi] }
+  - { type: had_participant, target: person/al-hakim-bi-amr-allah, role: "الآمر بفتح الدار واستجلاب الآثار", sources: [source/muntazam-ibn-al-jawzi] }
+  - { type: had_participant, target: person/jafar-al-sadiq, role: "صاحب الدار والمقتنيات المفتوحة", sources: [source/muntazam-ibn-al-jawzi] }
+provenance:
+  layer: own-research
+  source: "المنتظم في تاريخ الملوك والأمم — ابن الجوزي (ج7، أحداث سنة 400)، قراءة آبل فيجن"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-muntazam-batch-22
+sources: [source/muntazam-ibn-al-jawzi]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

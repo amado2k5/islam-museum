@@ -1,0 +1,21 @@
+id: event/al-qadiriyya-creed-409
+class: event
+kind: declaration
+label: { ar: "قراءة الاعتقاد القادري في دار الخلافة" }
+summary:
+  ar: "في يوم الخميس السابع عشر من المحرم سنة تسع وأربعمائة قُرئ في الموكب بدار الخلافة ببغداد كتابٌ بمذاهب أهل السنة، ونُص فيه على عقائد الإمام القادر بالله، وقيل فيه «من قال إن القرآن مخلوق فهو كافر حلال الدم»، وثبّت القادر مذهب أصحاب الحديث وألزم به الناس في مكاتباته ومحافله {cite:muntazam-ibn-al-jawzi j.7 p.289}."
+wings: [time]
+periods: [period/buyid-seljuk-fatimid-era]
+regions: [levant-iraq]
+date:
+  start: { edtf: "1018-06-05~", hijri: "0409-01-17", calendar: julian, precision: day, status: tradition, derived: true, note: "يوم الخميس 17 المحرم 409هـ؛ التحويل مشتق {cite:muntazam-ibn-al-jawzi j.7 p.289}" }
+relations:
+  - { type: located_in, target: place/baghdad, sources: [source/muntazam-ibn-al-jawzi] }
+  - { type: had_participant, target: person/al-qadir-billah, role: "الخليفة صاحب الكتاب والآمر بقراءته", sources: [source/muntazam-ibn-al-jawzi] }
+provenance:
+  layer: own-research
+  source: "المنتظم في تاريخ الملوك والأمم — ابن الجوزي (ج7، أحداث سنة 409)، قراءة آبل فيجن"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-muntazam-batch-22
+sources: [source/muntazam-ibn-al-jawzi]
+status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 High)" }

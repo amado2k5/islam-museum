@@ -1,0 +1,23 @@
+id: event/al-radi-robed-black-403
+class: event
+kind: other
+label: { ar: "خلع السواد على الشريف الرضي بنقابة النقباء" }
+summary:
+  ar: "في يوم الجمعة السادس عشر من المحرم سنة ثلاث وأربعمائة قُلد الشريف الرضي أبو الحسن الموسوي نقابة نقباء الطالبيين في سائر الممالك، وورد له عهد بذلك من حضرة بهاء الدولة، وقرئ في دار فخر الملك بحضرته بعد أن جُمع الأكابر من الأشراف والقضاة والعلماء والجند، وخُلعت عليه خلعة سوداء، وهو أول طالبي خُلع عليه السواد في تاريخ الدولة العباسية {cite:muntazam-ibn-al-jawzi j.7 p.260}."
+wings: [time]
+periods: [period/buyid-seljuk-fatimid-era]
+regions: [levant-iraq]
+date:
+  start: { edtf: "1012-08-08~", hijri: "0403-01-16", calendar: julian, precision: day, status: tradition, derived: true, note: "يوم الجمعة 16 المحرم 403هـ؛ التحويل مشتق {cite:muntazam-ibn-al-jawzi j.7 p.260}" }
+relations:
+  - { type: located_in, target: place/baghdad, sources: [source/muntazam-ibn-al-jawzi] }
+  - { type: had_participant, target: person/al-sharif-al-radi, role: "المنعوت بنقابة النقباء والمخلوع عليه السواد", sources: [source/muntazam-ibn-al-jawzi] }
+  - { type: had_participant, target: person/fakhr-al-mulk-ibn-khalaf, role: "قرئ العهد في داره بحضرته", sources: [source/muntazam-ibn-al-jawzi] }
+  - { type: had_participant, target: person/baha-al-dawla, role: "صادر التقليد من حضرته", sources: [source/muntazam-ibn-al-jawzi] }
+provenance:
+  layer: own-research
+  source: "المنتظم في تاريخ الملوك والأمم — ابن الجوزي (ج7، أحداث سنة 403)، قراءة آبل فيجن"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-muntazam-batch-22
+sources: [source/muntazam-ibn-al-jawzi]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

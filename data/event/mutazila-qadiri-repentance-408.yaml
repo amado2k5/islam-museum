@@ -1,0 +1,22 @@
+id: event/mutazila-qadiri-repentance-408
+class: event
+kind: declaration
+label: { ar: "استتابة القادر للمعتزلة ببغداد وخراسان" }
+summary:
+  ar: "في سنة ثمان وأربعمائة استتاب أمير المؤمنين القادر بالله فقهاء المعتزلة الحنفية ببغداد، فأظهروا الرجوع وتبرأوا من الاعتزال، ونهاهم عن الكلام والتدريس والمناظرة في الاعتزال والرفض والمقالات المخالفة للسنة وأخذ خطوطهم بذلك، وامتثل يمين الدولة محمود بن سبكتكين أمر الخليفة في أعماله بخراسان فقتل وحبس ونفى المعتزلة والرافضة والإسماعيلية وأمر بلعنهم على منابر المسلمين {cite:muntazam-ibn-al-jawzi j.7 p.288}."
+wings: [time]
+periods: [period/buyid-seljuk-fatimid-era]
+regions: [levant-iraq, persia-central-asia]
+date:
+  start: { edtf: "1017~", hijri: "0408", calendar: julian, precision: year, status: tradition, derived: true, note: "أحداث سنة 408هـ؛ التحويل مشتق {cite:muntazam-ibn-al-jawzi j.7 p.288}" }
+relations:
+  - { type: located_in, target: place/baghdad, sources: [source/muntazam-ibn-al-jawzi] }
+  - { type: had_participant, target: person/al-qadir-billah, role: "الآمر بالاستتابة وأخذ الخطوط", sources: [source/muntazam-ibn-al-jawzi] }
+  - { type: had_participant, target: person/mahmud-ghaznawi, role: "السلطان الممتثل للأمر في خراسان", sources: [source/muntazam-ibn-al-jawzi] }
+provenance:
+  layer: own-research
+  source: "المنتظم في تاريخ الملوك والأمم — ابن الجوزي (ج7، أحداث سنة 408)، قراءة آبل فيجن"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-muntazam-batch-22
+sources: [source/muntazam-ibn-al-jawzi]
+status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 High)" }

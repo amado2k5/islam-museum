@@ -2,15 +2,19 @@ id: person/badr-ibn-hasanwayh
 class: person
 label: { ar: "بدر بن حسنويه" }
 summary:
-  ar: "أبو النجم بدر بن حسنويه الكردي؛ اصطنعه عضد الدولة من بين إخوته بعد موت أبيه سنة 369هـ وقواه بالرجال فضبط تلك النواحي وكف عادية من بها من الأكراد واستقام أمره وكان عاقلاً {cite:kamil-ibn-al-athir p. 518}."
+  ar: "أبو النجم بدر بن حسنويه الكردي؛ اصطنعه عضد الدولة من بين إخوته بعد موت أبيه سنة 369هـ وقواه بالرجال فضبط تلك النواحي وكف عادية من بها من الأكراد واستقام أمره وكان عاقلاً {cite:kamil-ibn-al-athir p. 518}. وعند ابن الجوزي لقبه القادر بناصر الدولة، وكانت ولايته على الجبل وهمذان والدينور وبروجرد ونهاوند وأسداباذ، واستحدث في أعماله ثلاثة آلاف مسجد وخان للغرباء، وعمر القناطر والمصانع والآبار، وكان ينفذ كل سنة في الصدقات على أهل الحرمين وخفر الطريق ومصالحها مائة ألف دينار، ويصرف في كل سنة ثلاثة آلاف دينار للأساكفة بين همذان وبغداد ليقيموا للمنقطعين من الحاج الأحذية، ويتصدق كل جمعة بعشرة آلاف درهم على الأرامل والضعفاء، وحمل بعد مقتله سنة خمس وأربعمائة إلى مشهد علي بن أبي طالب بالنجف فدُفن به {cite:muntazam-ibn-al-jawzi j.7 p.275-276}."
   en: "Abu'l-Najm Badr ibn Hasanwayh; the son Adud al-Dawla singled out and strengthened among the brothers in 369 till he ruled the Kurdish marches soundly {cite:kamil-ibn-al-athir p. 518}."
+died:
+  { edtf: "1014~", hijri: "0405", calendar: julian, precision: year, status: tradition, derived: true, note: "قتل سنة 405هـ وحُمل إلى مشهد علي ودُفن به؛ التحويل مشتق {cite:muntazam-ibn-al-jawzi j.7 p.276}" }
+relations:
+  - { type: buried_in, target: place/najaf, role: "مشهد علي بن أبي طالب", sources: [source/muntazam-ibn-al-jawzi] }
 gender: male
 wings: [people]
 periods: [period/abbasid-early]
 provenance:
   layer: own-research
-  source: "الكامل في التاريخ لابن الأثير (ط تورنبرغ، ليدن)"
+  source: "الكامل في التاريخ لابن الأثير؛ المنتظم في تاريخ الملوك والأمم لابن الجوزي ج7"
   generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
-  run: lib-kamil-batch-15
-sources: [source/kamil-ibn-al-athir]
+  run: lib-kamil-batch-15; lib-muntazam-batch-22
+sources: [source/kamil-ibn-al-athir, source/muntazam-ibn-al-jawzi]
 status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }
