@@ -1,0 +1,23 @@
+id: event/battle-of-lahore-1759
+class: event
+kind: battle
+label: { ar: "معركة لاهور (١٧٥٩)", en: "Battle of Lahore (1759)" }
+summary:
+  ar: "بطاقة أولية لمعركة لاهور (١٧٥٩)؛ لم تُراجع مصادره على الصفحة بعد."
+  en: "Draft card for Battle of Lahore (1759); its sources are not yet checked on the page."
+wings: [time]
+periods: [period/gunpowder-empires]
+regions: [south-asia]
+date:
+  start: { edtf: "1759", precision: year, status: tradition, derived: true }
+  end: { edtf: "1759", precision: year, status: tradition, derived: true }
+sources: [source/tarikh-islam-hasan-ibrahim]
+external_ids:
+  wikidata: Q25302650
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; battle attested in narrative histories — entry not yet checked on the page"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-wave2
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }
