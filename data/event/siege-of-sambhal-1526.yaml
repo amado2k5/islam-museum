@@ -1,0 +1,23 @@
+id: event/siege-of-sambhal-1526
+class: event
+kind: siege
+label: { ar: "حصار سمبهل (١٥٢٦)", en: "Siege of Sambhal (1526)" }
+summary:
+  ar: "بطاقة أولية لحصار سمبهل سنة ١٥٢٦م، من فتح بابر للهند؛ لم تُراجع مصادره على الصفحة بعد."
+  en: "Draft card for the Siege of Sambhal in 1526, during Babur's conquest of India; its sources are not yet checked on the page."
+wings: [time]
+periods: [period/gunpowder-empires]
+regions: [south-asia]
+date:
+  start: { edtf: "1526", precision: year, status: tradition, derived: true }
+  end: { edtf: "1526", precision: year, status: tradition, derived: true }
+sources: [source/tarikh-islam-hasan-ibrahim]
+external_ids:
+  wikidata: Q7510369
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; battle attested in narrative histories — entry not yet checked on the page"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-wave2
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }
