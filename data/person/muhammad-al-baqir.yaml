@@ -16,5 +16,6 @@ died: { hijri: "0114", edtf: "0732~", calendar: julian, precision: year, status:
 relations:
   - { type: lived_in, target: place/medina, sources: [source/tabaqat-fuqaha-abbas-1981] }
 provenance: { layer: own-research, source: "طبقات الفقهاء (تحقيق إحسان عباس) PDF ص35–36", generated_by: "Claude (Haiku 5.5)", run: "lib-tabaqat-fuqaha-batch-3" }
+external_ids: { wikidata: "Q311153" }
 sources: [source/tabaqat-fuqaha-abbas-1981, source/bakr-umayyad-state-1134715]
 status: { review: draft, completeness: 1, generated_by: "Claude (Haiku 5.5); batch 3 from Shirazi's list of Medina jurists; the death year as the book reports it; a second source is needed" }

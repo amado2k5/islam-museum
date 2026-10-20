@@ -23,5 +23,6 @@ relations:
   - { type: participated_in, target: event/battle-of-badr, role: defeated-party, sources: [source/ibn-ishaq-guillaume] }
   - { type: participated_in, target: event/battle-of-uhud, role: attacking-party, sources: [source/ibn-ishaq-guillaume] }
   - { type: participated_in, target: event/conquest-of-mecca, role: submitted, sources: [source/ibn-ishaq-guillaume] }
+external_ids: { wikidata: "Q485732" }
 sources: [source/ibn-ishaq-guillaume, source/watt-1953-mecca, source/watt-1956-medina, source/muruj-al-dhahab, source/mubarakpuri-raheeq, source/sahih-muslim]
 status: { review: draft, completeness: 2, generated_by: "Devin; 2026-10-11" }
