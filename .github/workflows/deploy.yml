@@ -14,7 +14,7 @@ concurrency:
   cancel-in-progress: false
   # Keep every waiting run, so each push's R2 publish runs in order. Without this,
   # a newer waiting run replaces an older one and the older content change is never
-  # published (the content gate only compares HEAD~1 to HEAD).
+  # published. Every push publishes; the manifest diff decides what to upload.
   queue: max
 
 # The unit tests and the build run in parallel; deploy waits for both.
@@ -61,28 +61,12 @@ jobs:
           PUBLIC_PAGEFIND_BASE: ${{ vars.PAGEFIND_BASE_URL }}
       - name: No runtime AI or compute (guard)
         run: npm run check:static
-      - name: Check whether data/content changed (gate for R2 sync)
-        id: content_gate
-        run: |
-          # R2 holds the pagefind indexes and API JSON, both of which are derived
-          # exclusively from data/ and content/. If neither directory changed in the
-          # commits included in this push, the R2 files are already correct and the
-          # sync can be skipped entirely — saving ~4 GET + 4 PUT + N upload ops.
-          # Falls back to "changed" (forces sync) whenever git history is uncertain.
-          if git rev-parse HEAD~1 >/dev/null 2>&1 && \
-             git diff --quiet HEAD~1 HEAD -- data/ content/; then
-            echo "skip=true"  >> "$GITHUB_OUTPUT"
-            echo "No data/content changes — R2 sync skipped."
-          else
-            echo "skip=false" >> "$GITHUB_OUTPUT"
-            echo "data/ or content/ changed — R2 sync will run."
-          fi
       - name: Install R2 sync Worker dependencies
-        if: steps.content_gate.outputs.skip == 'false' && github.ref == 'refs/heads/main'
+        if: github.ref == 'refs/heads/main'
         run: npm ci --prefix workers/r2-sync
       - name: Deploy R2 sync Workers (production bucket, seven copies)
         id: r2_worker
-        if: steps.content_gate.outputs.skip == 'false' && github.ref == 'refs/heads/main'
+        if: github.ref == 'refs/heads/main'
         working-directory: workers/r2-sync
         env:
           CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
@@ -101,7 +85,7 @@ jobs:
           done
           echo "urls=$urls" >> "$GITHUB_OUTPUT"
       - name: Publish pagefind indexes and API to R2 (zip archives via R2 sync Worker)
-        if: steps.content_gate.outputs.skip == 'false' && github.ref == 'refs/heads/main'
+        if: github.ref == 'refs/heads/main'
         env:
           AWS_ACCESS_KEY_ID: ${{ secrets.R2_ACCESS_KEY_ID }}
           AWS_SECRET_ACCESS_KEY: ${{ secrets.R2_SECRET_ACCESS_KEY }}

@@ -1,0 +1,73 @@
+# One-time seed of the production R2 search bucket. Manual only; it runs from main.
+#
+# The bucket already holds the files from before the Worker sync, but the publisher
+# keeps its record in _r2-sync/manifest.json, which does not exist yet. This run builds
+# the site, makes sure the seven production Workers exist with the production token,
+# and publishes with --seed: files that already match the build are recorded, and only
+# different or missing files are uploaded. Stored files that are not in the build are
+# deleted. After this run the manifest exists and regular publishes are incremental.
+name: R2 seed (manual, one time)
+
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+# Shares the deploy queue, so a seed never runs alongside a publish.
+concurrency:
+  group: pages
+  cancel-in-progress: false
+
+jobs:
+  seed:
+    runs-on: ubuntu-latest
+    timeout-minutes: 180
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+          cache-dependency-path: |
+            package-lock.json
+            site/package-lock.json
+      - name: Install
+        run: npm ci && npm ci --prefix site
+      - name: Build the site
+        run: npm run build
+        env:
+          PUBLIC_PAGEFIND_BASE: ${{ vars.PAGEFIND_BASE_URL }}
+      - name: Install R2 sync Worker dependencies
+        run: npm ci --prefix workers/r2-sync
+      - name: Deploy the seven production Workers and set their token
+        id: r2_workers
+        working-directory: workers/r2-sync
+        env:
+          CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+          CLOUDFLARE_ACCOUNT_ID: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
+          SYNC_TOKEN: ${{ secrets.R2_SYNC_TOKEN }}
+        run: |
+          set -euo pipefail
+          urls=""
+          for name in islam-museum-r2-sync islam-museum-r2-sync-2 islam-museum-r2-sync-3 islam-museum-r2-sync-4 islam-museum-r2-sync-5 islam-museum-r2-sync-6 islam-museum-r2-sync-7; do
+            npx wrangler deploy -c wrangler.production.toml --name "$name" | tee deploy.log
+            url=$(grep -o 'https://[^ ]*workers\.dev' deploy.log | head -1)
+            test -n "$url"
+            printf '%s' "$SYNC_TOKEN" | npx wrangler secret put SYNC_TOKEN -c wrangler.production.toml --name "$name"
+            urls="${urls:+$urls,}$url"
+          done
+          echo "urls=$urls" >> "$GITHUB_OUTPUT"
+      - name: Seed the bucket (publish --seed)
+        env:
+          AWS_ACCESS_KEY_ID: ${{ secrets.R2_ACCESS_KEY_ID }}
+          AWS_SECRET_ACCESS_KEY: ${{ secrets.R2_SECRET_ACCESS_KEY }}
+          AWS_DEFAULT_REGION: auto
+          ENDPOINT: https://${{ secrets.CLOUDFLARE_ACCOUNT_ID }}.r2.cloudflarestorage.com
+          BUCKET: islam-museum-search
+          SYNC_URLS: ${{ steps.r2_workers.outputs.urls }}
+          SYNC_TOKEN: ${{ secrets.R2_SYNC_TOKEN }}
+        run: node workers/r2-sync/batch/publish.mjs --dist dist --seed
