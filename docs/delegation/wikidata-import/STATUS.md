@@ -82,3 +82,18 @@ Updated at every push to `main`. Lane: `wikidata-import` (`docs/delegation/wikid
 - Notable links: ibn-qindas (Ibn Qundus), burhan-ibn-abi-sharif, muhammad-al-bakri-siddiqi, al-husayn-al-najjar (Mu'tazili), abu-al-abbas-al-nashi (Nashi al-Akbar), rajih-al-hilli, al-sayyid-al-himyari, ibn-al-shihna (al-Saghir).
 - New buildings: al-zahiriyah-madrasa-taiz (Rasulid), al-jami-al-kabir-diriyah.
 - validate: 0 errors / ~2013 warnings; npm test: 101 passed.
+
+## 19 Oct 2026 — through candidate 9259
+- next_index: 9260 / 82296
+- created: ~1890, linked: ~720, skipped: ~6750 (progress.json is authoritative)
+- last_push: d87cf2e5e
+- Large Ottoman tezkere clusters: hundreds of named writers, poets, jurists, calligraphers and composers created as draft cards; homonym conflicts resolved via data/_homonyms.yaml (yumni vs yamini-poet) and merges (musannifak linked to the rich existing record).
+- validate: 0 errors / ~2013 warnings; npm test: 101 passed.
+
+## 19 Oct 2026 — lane complete, candidate list exhausted (through 82295)
+- next_index: 82296 / 82296 — every candidate decided.
+- Totals: created 2,179 draft records; linked 722 existing records to Wikidata items (incl. relinks of wrong QIDs); skipped 79,432.
+- The dominant skip: indices ~9579–82181 are a mass modern Saudi mosque-list import (P31=Q32815, P17=Saudi Arabia, four-claim items); all mundane modern list items skipped. Heritage-registered historic mosques documented in the Saudi and Yemen "Atlas of Historic Mosques" (new source records source/atlas-masajid-tarikhiyya-saudi, -yaman) were created (13), as were the historic Haramayn mosques surfaced earlier in the list (Quba-era sites were already linked; al-Rawda, Masjid al-Ijaba, al-Ghamama, al-Nimrah, al-Jinn, al-Khayf, Sayyid al-Shuhada, al-Jumu'ah, Juranah, the Seven Mosques, the Green Dome, Masjid Aisha at al-Tan'im created).
+- Final tail (82182–82295): ~36 Rasulid/medieval Yemeni madrasas and dar al-Qur'an records created, plus historic figures (Ibn Karama al-Bayhaqi, Abu al-Hasan al-Sindi, Isabel of Granada, Mai Safoora).
+- validate: 0 errors / ~2013 warnings; npm test: 101 passed.
+- Lane is complete: no further candidates remain in the frozen subset.
