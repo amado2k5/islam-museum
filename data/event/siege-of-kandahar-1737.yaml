@@ -1,0 +1,23 @@
+id: event/siege-of-kandahar-1737
+class: event
+kind: siege
+label: { ar: "حصار قندهار (١٧٣٧)", en: "Siege of Kandahar" }
+summary:
+  ar: "بطاقة أولية لحصار قندهار من ١٧٣٧ إلى ١٧٣٨م، استرداد نادر شاه للمدينة من الهوتكيين؛ لم تُراجع مصادره على الصفحة بعد."
+  en: "Draft card for the Siege of Kandahar of 1737–1738, Nader Shah's recapture of the city from the Hotaks; its sources are not yet checked on the page."
+wings: [time]
+periods: [period/gunpowder-empires]
+regions: [persia-central-asia]
+date:
+  start: { edtf: "1737", precision: year, status: tradition, derived: true }
+  end: { edtf: "1738", precision: year, status: tradition, derived: true }
+sources: [source/tarikh-islam-hasan-ibrahim]
+external_ids:
+  wikidata: Q7510145
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; siege attested in Afsharid histories — entry not yet checked on the page"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-wave2
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

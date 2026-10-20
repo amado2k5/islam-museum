@@ -1,0 +1,23 @@
+id: event/java-war-1741
+class: event
+kind: war
+label: { ar: "حرب جاوة (١٧٤١-١٧٤٣)", en: "Java War of 1741–1743" }
+summary:
+  ar: "بطاقة أولية لحرب جاوة من ١٧٤١ إلى ١٧٤٣م، ثورة الصينيين والجاوة على شركة الهند الشرقية الهولندية؛ لم تُراجع مصادره على الصفحة بعد."
+  en: "Draft card for the Java War of 1741–1743, the Chinese-Javanese rising against the Dutch East India Company; its sources are not yet checked on the page."
+wings: [time]
+periods: [period/gunpowder-empires]
+regions: [southeast-asia]
+date:
+  start: { edtf: "1741", precision: year, status: tradition, derived: true }
+  end: { edtf: "1743", precision: year, status: tradition, derived: true }
+sources: [source/tarikh-islam-hasan-ibrahim]
+external_ids:
+  wikidata: Q6165029
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; war attested in Indonesian histories — entry not yet checked on the page"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-wave2
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

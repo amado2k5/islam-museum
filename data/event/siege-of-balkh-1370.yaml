@@ -1,0 +1,23 @@
+id: event/siege-of-balkh-1370
+class: event
+kind: siege
+label: { ar: "حصار بلخ (١٣٧٠)", en: "Siege of Balkh" }
+summary:
+  ar: "بطاقة أولية لحصار بلخ سنة ١٣٧٠م، أخذ تيمور للمدينة من آل كرت في أول فتوحه؛ لم تُراجع مصادره على الصفحة بعد."
+  en: "Draft card for the Siege of Balkh in 1370, Timur's capture of the city from the Karts in his first campaigns; its sources are not yet checked on the page."
+wings: [time]
+periods: [period/crusades-ayyubid-mamluk]
+regions: [persia-central-asia]
+date:
+  start: { edtf: "1370", precision: year, status: tradition, derived: true }
+  end: { edtf: "1370", precision: year, status: tradition, derived: true }
+sources: [source/tarikh-islam-hasan-ibrahim]
+external_ids:
+  wikidata: Q7509853
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; siege attested in Timurid histories — entry not yet checked on the page"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-wave2
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }
