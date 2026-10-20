@@ -1,0 +1,23 @@
+id: event/battle-of-apamea-998
+class: event
+kind: battle
+label: { ar: "معركة أفامية (٩٩٨)", en: "Battle of Apamea" }
+summary:
+  ar: "بطاقة أولية لمعركة أفامية سنة ٩٩٨م، نصر الفاطميين على باسيل الثاني في سوريا؛ لم تُراجع مصادره على الصفحة بعد."
+  en: "Draft card for the Battle of Apamea in 998, the Fatimid victory over Basil II's armies in Syria; its sources are not yet checked on the page."
+wings: [time]
+periods: [period/buyid-seljuk-fatimid-era]
+regions: [levant-iraq]
+date:
+  start: { edtf: "998", precision: year, status: tradition, derived: true }
+  end: { edtf: "998", precision: year, status: tradition, derived: true }
+sources: [source/kamil-ibn-al-athir]
+external_ids:
+  wikidata: Q20054768
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; battle attested in Fatimid histories — entry not yet checked on the page"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-wave2
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

@@ -1,0 +1,23 @@
+id: event/bergmann-offensive-1914
+class: event
+kind: battle
+label: { ar: "هجوم بيرغمان", en: "Bergmann Offensive" }
+summary:
+  ar: "بطاقة أولية لهجوم بيرغمان سنة ١٩١٤م، التقدم الروسي في أراضي العثمانيين في فتح حملة القوقاز؛ لم تُراجع مصادره على الصفحة بعد."
+  en: "Draft card for the Bergmann Offensive of 1914, the Russian thrust into Ottoman territory opening the Caucasus campaign; its sources are not yet checked on the page."
+wings: [time]
+periods: [period/modern-era]
+regions: [anatolia-balkans]
+date:
+  start: { edtf: "1914", precision: year, status: tradition, derived: true }
+  end: { edtf: "1914", precision: year, status: tradition, derived: true }
+sources: [source/dawlat-uthmaniyya-salabi]
+external_ids:
+  wikidata: Q1936524
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; offensive attested in WWI histories — entry not yet checked on the page"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-wave2
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

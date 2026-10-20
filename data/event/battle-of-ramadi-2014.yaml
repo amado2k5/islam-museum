@@ -1,0 +1,23 @@
+id: event/battle-of-ramadi-2014
+class: event
+kind: battle
+label: { ar: "معركة الرمادي (٢٠١٤)", en: "Battle of Ramadi" }
+summary:
+  ar: "بطاقة أولية لمعارك الرمادي من ٢٠١٤ إلى ٢٠١٦م، سقوط المدينة بيد تنظيم الدولة ثم استردادها؛ لم تُراجع مصادره على الصفحة بعد."
+  en: "Draft card for the Battles of Ramadi of 2014–2016, the city's fall to the Islamic State and its recapture; its sources are not yet checked on the page."
+wings: [time]
+periods: [period/contemporary-era]
+regions: [levant-iraq]
+date:
+  start: { edtf: "2014", precision: year, status: tradition, derived: true }
+  end: { edtf: "2016", precision: year, status: tradition, derived: true }
+sources: [source/tarikh-islam-hasan-ibrahim]
+external_ids:
+  wikidata: Q18639122
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; battles attested in Iraqi-war histories — entry not yet checked on the page"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-wave2
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

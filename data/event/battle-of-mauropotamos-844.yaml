@@ -1,0 +1,23 @@
+id: event/battle-of-mauropotamos-844
+class: event
+kind: battle
+label: { ar: "معركة موروبوتاموس", en: "Battle of Mauropotamos" }
+summary:
+  ar: "بطاقة أولية لمعركة موروبوتاموس سنة ٨٤٤م، نصر العباسيين على البيزنطيين في الأناضول؛ لم تُراجع مصادره على الصفحة بعد."
+  en: "Draft card for the Battle of Mauropotamos in 844, the Abbasid victory over the Byzantines in Anatolia; its sources are not yet checked on the page."
+wings: [time]
+periods: [period/abbasid-early]
+regions: [anatolia-balkans]
+date:
+  start: { edtf: "844", precision: year, status: tradition, derived: true }
+  end: { edtf: "844", precision: year, status: tradition, derived: true }
+sources: [source/tarikh-al-tabari]
+external_ids:
+  wikidata: Q2028494
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; battle attested in Arab-Byzantine histories — entry not yet checked on the page"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-wave2
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

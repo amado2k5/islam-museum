@@ -1,0 +1,23 @@
+id: event/siege-of-temesvar-1552
+class: event
+kind: conquest
+label: { ar: "فتح تيميشوارا", en: "Siege of Temesvár" }
+summary:
+  ar: "بطاقة أولية لحصار تيميشوار سنة ١٥٥٢م، أخذ العثمانيين لعاصمة البانات من الهابسبورغ؛ لم تُراجع مصادره على الصفحة بعد."
+  en: "Draft card for the Siege of Temesvár in 1552, the Ottoman capture of the Banat's capital from the Habsburgs; its sources are not yet checked on the page."
+wings: [time]
+periods: [period/gunpowder-empires]
+regions: [anatolia-balkans]
+date:
+  start: { edtf: "1552", precision: year, status: tradition, derived: true }
+  end: { edtf: "1552", precision: year, status: tradition, derived: true }
+sources: [source/dawlat-uthmaniyya-salabi]
+external_ids:
+  wikidata: Q1317918
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; siege attested in Hungarian-frontier histories — entry not yet checked on the page"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-wave2
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }
