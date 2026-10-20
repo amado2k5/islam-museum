@@ -1,0 +1,23 @@
+id: event/mughal-safavid-war-1622
+class: event
+kind: war
+label: { ar: "حرب مغول الهند والصفويين (١٦٢٢)", en: "Mughal–Safavid War of 1622–1623" }
+summary:
+  ar: "بطاقة أولية لحرب مغول الهند والصفويين من ١٦٢٢ إلى ١٦٢٣م، استرداد شاه عباس لقندهار من جاهانكير؛ لم تُراجع مصادره على الصفحة بعد."
+  en: "Draft card for the Mughal–Safavid War of 1622–1623, Shah Abbas's recapture of Kandahar from Jahangir; its sources are not yet checked on the page."
+wings: [time]
+periods: [period/gunpowder-empires]
+regions: [persia-central-asia]
+date:
+  start: { edtf: "1622", precision: year, status: tradition, derived: true }
+  end: { edtf: "1623", precision: year, status: tradition, derived: true }
+sources: [source/tarikh-islam-hasan-ibrahim]
+external_ids:
+  wikidata: Q6932168
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; war attested in Mughal and Safavid histories — entry not yet checked on the page"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-wave2
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }
