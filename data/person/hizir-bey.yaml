@@ -1,0 +1,27 @@
+id: person/hizir-bey
+class: person
+label:
+  ar: "خضر بك"
+  en: "Hızır Bey"
+roles: [qadi]
+gender: male
+summary:
+  ar: "بطاقة أولية لخضر بك، أول قاضي لإسطنبول العثمانية؛ لم تُراجع ترجمته على الصفحة بعد."
+  en: "Draft card for Hızır Bey, the first qadi of Ottoman Istanbul; his entry is not yet checked on the page."
+wings: [people]
+regions: [anatolia-balkans]
+periods: [period/crusades-ayyubid-mamluk]
+born: { edtf: "1407", precision: year, status: tradition, derived: true }
+died: { edtf: "1459", precision: year, status: tradition, derived: true }
+sources: [source/dawlat-uthmaniyya-salabi]
+external_ids:
+  wikidata: Q25452040
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; entry not yet read on the page in a book source"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-wave2
+status:
+  review: draft
+  completeness: 1
