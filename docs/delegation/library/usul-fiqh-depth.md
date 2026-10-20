@@ -130,6 +130,19 @@ Candidates (dry run, 18 Oct 2026; `--max-items 2`; identifier, file, size; sourc
 - **Checks:** `npm run validate` 0 errors; no new warnings on the new files; no honorifics; no Qur'an text typed.
 - **Next step:** finish «إباق» pp.1411-1412 as a second record only if it is a distinct concept (likely not; add as a section), then «إبراء» from p.1415 (an entity `concept/ibra`, with the note that its prose has a separate section on «المبارأة» that the encyclopedia treats under khul'). Check the pages read against the Kuwaiti volume and edition before any dated claim.
 
+## Kuwaiti encyclopedia, batch 3 from p.1415 (draft, 19 Oct 2026)
+
+- **Copy and identity:** as above (`books/fiqh/fiqh-mawsua-kuwaitiyya-noor-v3/`, OCR on the harvest drive, not in git). Batch 1 (pp.1351-1353, 1405-1407) and batch 2 (pp.1408-1415) are not recreated.
+- **Pages read (scan markers):** pp.1415-1429 (about 15 pages). The headword «إبراء» starts on p.1415 and continues past p.1429, so the first complete headword is not reached inside the page budget.
+- **Entity created (`status.review: draft`, `completeness: 0` = partial):**
+  - `concept/ibra` (الإبراء, release of a debt or right). Covers pp.1415-1429: definition and related terms, ruling, kinds, dropping or transfer, elements and wording, acceptance and rejection, conditions on the releasor, the released and the matter released, and the conditions on the release itself.
+  - content: `content/ar/concept/ibra.md`, `content/en/concept/ibra.md`, `content/ur/concept/ibra.md`.
+  - Partiality is recorded in `status.generated_by` and in the closing line of each prose file. Do not treat this record as the whole headword.
+- **Entities drafted:** 1 of the 25 allowed. No further headword is complete within the pages read.
+- **Skipped and why:** none in the range. No other headword begins on pp.1415-1429: the rest of that span belongs to «إبراء».
+- **Qur'an:** referenced by passage id only (`quran-2-280`, `quran-2-237`, `quran-4-92`); no verse text typed.
+- **Next step (exact):** resume «إبراء» at scan p.1429, in the paragraph «ج - شرط ...» of the section «شروط للإبراء في ذاته» (the printed heading at p.1429 continues with the conditions on the release and on the subject of the release), read pp.1430-1445 or until the next headword («إبراء» ends where the next heading begins; find its first line, which is the next complete headword). Extend `concept/ibra` (its completeness goes from 0 to a higher value only after the full headword is written up), then draft the following complete headwords from that point. A later agent should confirm the first heading after «إبراء» by reading its start page; this batch did not read past p.1429.
+
 ## Next step
 
 Add this lane's entries to `scripts/harvest/library/books.yaml` in the lane's own commit, then run `fetch_books.py` for the lane after the workstream commit is on `origin/main`.
