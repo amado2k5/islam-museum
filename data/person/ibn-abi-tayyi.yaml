@@ -1,0 +1,27 @@
+id: person/ibn-abi-tayyi
+class: person
+label:
+  ar: "ابن أبي طيء"
+  en: "Ibn Abi Tayyi"
+roles: [historian]
+gender: male
+summary:
+  ar: "بطاقة أولية لابن أبي طيء، المؤرخ والنحوي صاحب الفصول الفخرية؛ لم تُراجع ترجمته على الصفحة بعد."
+  en: "Draft card for Ibn Abi Tayyi, the historian and grammarian of al-Fusul al-Fakhriyya; his entry is not yet checked on the page."
+wings: [people]
+regions: [levant-iraq]
+periods: [period/crusades-ayyubid-mamluk]
+born: { edtf: "1180~", precision: decade, status: tradition, derived: true }
+died: { edtf: "1233~", precision: year, status: tradition, derived: true }
+sources: [source/al-aalam]
+external_ids:
+  wikidata: Q20003172
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; entry not yet read on the page in a book source"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-wave2
+status:
+  review: draft
+  completeness: 1
