@@ -1,0 +1,23 @@
+id: event/siege-of-golubac-1428
+class: event
+kind: siege
+label: { ar: "حصار غولوباتس", en: "Siege of Golubac" }
+summary:
+  ar: "بطاقة أولية لحصار غولوباتس سنة ١٤٢٨م، أخذ العثمانيين للحصن الدانوبي؛ لم تُراجع مصادره على الصفحة بعد."
+  en: "Draft card for the Siege of Golubac in 1428, the Ottoman capture of the Danube fortress; its sources are not yet checked on the page."
+wings: [time]
+periods: [period/crusades-ayyubid-mamluk]
+regions: [anatolia-balkans]
+date:
+  start: { edtf: "1428", precision: year, status: tradition, derived: true }
+  end: { edtf: "1428", precision: year, status: tradition, derived: true }
+sources: [source/dawlat-uthmaniyya-salabi]
+external_ids:
+  wikidata: Q1007513
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; battle attested in narrative histories — entry not yet checked on the page"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-wave2
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

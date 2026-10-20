@@ -1,0 +1,23 @@
+id: event/habsburg-ottoman-war-1551
+class: event
+kind: war
+label: { ar: "الحرب الهابسبورغية العثمانية (١٥٥١-١٥٦٢)", en: "Habsburg–Ottoman War of 1551–1562" }
+summary:
+  ar: "بطاقة أولية للحرب الهابسبورغية العثمانية من ١٥٥١ إلى ١٥٦٢م، النزاع الطويل على المجر وسواحلها؛ لم تُراجع مصادره على الصفحة بعد."
+  en: "Draft card for the Habsburg–Ottoman War of 1551–1562, the long struggle over Hungary and the Mediterranean; its sources are not yet checked on the page."
+wings: [time]
+periods: [period/gunpowder-empires]
+regions: [anatolia-balkans]
+date:
+  start: { edtf: "1551", precision: year, status: tradition, derived: true }
+  end: { edtf: "1562", precision: year, status: tradition, derived: true }
+sources: [source/dawlat-uthmaniyya-salabi]
+external_ids:
+  wikidata: Q118929717
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; battle attested in narrative histories — entry not yet checked on the page"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-wave2
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }
