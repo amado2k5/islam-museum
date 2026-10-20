@@ -1,0 +1,23 @@
+id: event/battle-of-derbent-722
+class: event
+kind: battle
+label: { ar: "معركة باب الأبواب (٧٢٢)", en: "Battle of Derbent (722)" }
+summary:
+  ar: "بطاقة أولية لمعركة باب الأبواب (٧٢٢)؛ لم تُراجع مصادره على الصفحة بعد."
+  en: "Draft card for Battle of Derbent (722); its sources are not yet checked on the page."
+wings: [time]
+periods: [period/umayyad]
+regions: [persia-central-asia]
+date:
+  start: { edtf: "722", precision: year, status: tradition, derived: true }
+  end: { edtf: "722", precision: year, status: tradition, derived: true }
+sources: [source/tarikh-islam-hasan-ibrahim]
+external_ids:
+  wikidata: Q138545680
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; battle attested in narrative histories — entry not yet checked on the page"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-wave2
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }
