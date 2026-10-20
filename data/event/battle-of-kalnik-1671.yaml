@@ -1,0 +1,23 @@
+id: event/battle-of-kalnik-1671
+class: event
+kind: battle
+label: { ar: "معركة كالنيك (١٦٧١)", en: "Battle of Kalnik" }
+summary:
+  ar: "بطاقة أولية لمعركة كالنيك سنة ١٦٧١م، اشتباك الجيش البولندي مع التتار وقوزاق دوروشينكو؛ لم تُراجع مصادره على الصفحة بعد."
+  en: "Draft card for the Battle of Kalnik in 1671 between Polish forces and Crimean Tatars; its sources are not yet checked on the page."
+wings: [time]
+periods: [period/gunpowder-empires]
+regions: [anatolia-balkans]
+date:
+  start: { edtf: "1671-10-21", precision: year, status: tradition, derived: true }
+  end: { edtf: "1671-10-21", precision: year, status: tradition, derived: true }
+sources: [source/dawlat-uthmaniyya-salabi]
+external_ids:
+  wikidata: Q4087379
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; battle attested in narrative histories — entry not yet checked on the page"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-wave2
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }
