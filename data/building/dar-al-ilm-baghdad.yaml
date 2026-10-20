@@ -1,0 +1,22 @@
+id: building/dar-al-ilm-baghdad
+class: building
+kind: library
+label:
+  ar: دار العلم ببغداد (دار العلم السابورية)
+  en: Dar al-'Ilm of Baghdad (Sabur's library)
+summary:
+  ar: "دار علم أسّسها أبو نصر سابور بن أردشير وزير بهاء الدولة؛ اشترى دارًا بين السورين سنة ٣٨١ وحمل إليها كتبًا من كل علم فبلغت أكثر من عشرة آلاف مجلد ووقفها على طلاب العلم، وبقيت نحو سبعين سنة حتى احترقت حين قدم طغرلبك بغداد سنة ٤٥٠ {cite:muntazam-ibn-al-jawzi j.8 p.364-365}."
+wings: [objects]
+periods: [period/buyid-seljuk-fatimid-era]
+regions: [levant-iraq]
+themes: [libraries-paper-and-the-book]
+relations:
+- { type: located_in, target: place/baghdad, sources: [source/muntazam-ibn-al-jawzi] }
+- { type: founded_by, target: person/sabur-ibn-ardashir, role: "أوقفها على طلاب العلم سنة ٣٨١", sources: [source/muntazam-ibn-al-jawzi] }
+provenance:
+  layer: own-research
+  source: "المنتظم في تاريخ الملوك والأمم — ابن الجوزي (ج8، ترجمة سابور بن أردشير في أحداث سنة ٤١٦)، قراءة آبل فيجن، مسح AAlexandrina-224011"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-muntazam-350-474-batch23
+sources: [source/muntazam-ibn-al-jawzi]
+status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 High)" }

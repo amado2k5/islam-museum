@@ -1,0 +1,27 @@
+id: event/qaim-heir-designation-421
+class: event
+kind: other
+label: { ar: "إظهار ولاية عهد القائم بأمر الله ٤٢١" }
+summary:
+  ar: "لما أرجف الناس بمرض الخليفة القادر عقد مجلسًا عامًّا يوم الأحد ثامن عشر جمادى الأولى سنة ٤٢١ فتكلم الناظر التركي أبو الغنائم مادحًا الاختيار للأمير أبي جعفر، فقال القادر «إذا كان الله قد أذن في ذلك فقد أذنا فيه» وجلس أبو جعفر على السرير؛ ويوم الجمعة لسبع بقين من الشهر خُطب له بلقب «القائم بأمر الله ولي عهد المسلمين» وثُبت على السكة والورق، وجاء كتاب جلال الدولة ثاني عشر جمادى الأولى يستأذن في إجراء ولاية العهد فقُرئ على الناس يوم الثلاثاء ببيت الموكب بمقدمة مفصلة ثم توقيع الخليفة {cite:muntazam-ibn-al-jawzi j.8 p.389-392}."
+wings: [time]
+themes: [family-marriage-kinship]
+periods: [period/buyid-seljuk-fatimid-era]
+regions: [levant-iraq]
+date:
+  start: { edtf: "1030-04~", hijri: "0421-05", calendar: julian, precision: month, status: tradition, derived: true, note: "جمادى الأولى سنة ٤٢١ {cite:muntazam-ibn-al-jawzi j.8 p.389}." }
+relations:
+  - { type: occurred_at, target: place/baghdad, sources: [source/muntazam-ibn-al-jawzi] }
+  - { type: had_participant, target: person/al-qadir-billah, role: "الخليفة المُظهِر", sources: [source/muntazam-ibn-al-jawzi] }
+  - { type: had_participant, target: person/al-qaim-billah, role: "ولي العهد", sources: [source/muntazam-ibn-al-jawzi] }
+  - { type: had_participant, target: person/jalal-al-dawla, role: "صاحب كتاب الاستئذان", sources: [source/muntazam-ibn-al-jawzi] }
+provenance:
+  layer: own-research
+  source: "المنتظم في تاريخ الملوك والأمم — ابن الجوزي (ج8، أحداث سنة ٤٢١)، قراءة آبل فيجن، مسح AAlexandrina-224011"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-muntazam-350-474-batch23
+sources: [source/muntazam-ibn-al-jawzi]
+status:
+  review: draft
+  completeness: 1
+  generated_by: "Devin (SWE-2 High)"

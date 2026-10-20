@@ -1,0 +1,29 @@
+id: event/ahwaz-sack-421
+class: event
+kind: massacre
+label: { ar: "نهب الأهواز ٤٢١" }
+summary:
+  ar: "دخل جلال الدولة الأهواز فبسط جنوده فيها ستة عشر يومًا، وجاء كتابه إلى بغداد يوم الحادي عشر من ربيع الآخر سنة ٤٢١ يصف ما أُخذ: زعم الكتاب أن الغنائم زادت على خمسة آلاف ألف دينار وأسر ألفي جارية، مع ما في رواية الملك المنتصر عن نفسه وعددها {cite:muntazam-ibn-al-jawzi j.8 p.388-389}."
+wings: [time]
+themes: [wars-and-campaigns]
+periods: [period/buyid-seljuk-fatimid-era]
+regions: [persia-central-asia]
+sides:
+  - label: { ar: "جند جلال الدولة البويهي" }
+    commanders: [person/jalal-al-dawla]
+  - label: { ar: "أهل الأهواز" }
+date:
+  start: { edtf: "1030-03~", hijri: "0421-03", calendar: julian, precision: month, status: tradition, derived: true, note: "ورد كتاب الجلالة إلى بغداد في ١١ ربيع الآخر ٤٢١ {cite:muntazam-ibn-al-jawzi j.8 p.388}." }
+relations:
+  - { type: occurred_at, target: place/al-ahwaz, sources: [source/muntazam-ibn-al-jawzi] }
+  - { type: had_participant, target: person/jalal-al-dawla, role: "صاحب الحملة", sources: [source/muntazam-ibn-al-jawzi] }
+provenance:
+  layer: own-research
+  source: "المنتظم في تاريخ الملوك والأمم — ابن الجوزي (ج8، أحداث سنة ٤٢١)، قراءة آبل فيجن، مسح AAlexandrina-224011"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-muntazam-350-474-batch23
+sources: [source/muntazam-ibn-al-jawzi]
+status:
+  review: draft
+  completeness: 1
+  generated_by: "Devin (SWE-2 High)"

@@ -1,0 +1,28 @@
+id: event/smallpox-epidemic-423
+class: event
+kind: epidemic
+label: { ar: "موتان الجدري والوباء ٤٢٢–٤٢٥" }
+summary:
+  ar: "تتابع الموتان أربع سنين: ففي ٤٢٢ تأخر المطر فنشفت الأبدان وكثرت النازلات والسعال حتى روج بيع الحساء؛ وفي ٤٢٣ عمّ الوباء الهند وغزنة وخراسان وجرجان والري، ودفن بأصبهان في أيام قليلة أربعون ألفًا، وببلد الجبل، ومات بالموصل أربعة آلاف صبي بالجدري، وعمّ بغداد الجدري من نيسان إلى تشرين فلم يسلم بيت؛ وفي ٤٢٤ حصل الجدري للخليفة نفسه حين دخل الحمام فأُقيم؛ وفي ٤٢٥ كثر الموت لا سيما في النساء بالهوانق، وقيل في ذي الحجة مات ببغداد سبعون ألفًا {cite:muntazam-ibn-al-jawzi j.8 p.402} {cite:muntazam-ibn-al-jawzi j.8 p.411-412} {cite:muntazam-ibn-al-jawzi j.8 p.414} {cite:muntazam-ibn-al-jawzi j.8 p.419} {cite:muntazam-ibn-al-jawzi j.8 p.422}."
+wings: [time]
+themes: [health-body-death]
+periods: [period/buyid-seljuk-fatimid-era]
+regions: [levant-iraq, persia-central-asia]
+date:
+  start: { edtf: "1031~", hijri: "0422", calendar: julian, precision: year, status: tradition, derived: true }
+  end: { edtf: "1034~", hijri: "0425", calendar: julian, precision: year, status: tradition, derived: true }
+relations:
+  - { type: occurred_at, target: place/baghdad, sources: [source/muntazam-ibn-al-jawzi] }
+  - { type: occurred_at, target: place/isfahan, sources: [source/muntazam-ibn-al-jawzi] }
+  - { type: occurred_at, target: place/mosul, sources: [source/muntazam-ibn-al-jawzi] }
+  - { type: had_participant, target: person/al-qaim-billah, role: "أصابه الجدري وأُقيم", sources: [source/muntazam-ibn-al-jawzi] }
+provenance:
+  layer: own-research
+  source: "المنتظم في تاريخ الملوك والأمم — ابن الجوزي (ج8، أحداث ٤٢٢–٤٢٥)، قراءة آبل فيجن، مسح AAlexandrina-224011"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-muntazam-350-474-batch23
+sources: [source/muntazam-ibn-al-jawzi]
+status:
+  review: draft
+  completeness: 2
+  generated_by: "Devin (SWE-2 High)"

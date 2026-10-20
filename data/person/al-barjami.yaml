@@ -1,0 +1,21 @@
+id: person/al-barjami
+class: person
+label: { ar: "البرجمي كبير العيارين", en: "al-Barjami" }
+summary:
+  ar: "كبير عيارين بغداد في سنوتي انحلال الدولة البويهية؛ غزا دور أبي الربيع ونهب مخازنها، واتخذ له حصنًا في الأجمة (غيضة خمسة فراسخ) يسكن التل، وكاد يُخطب له في جامع الرصافة «إن خطبت للبرجمي وإلا فلا تخطب لخليفة ولا ملك» فتلقته الأمراء بالهدايا، وضمن عسكر الموصل الأعلى وله سميريتان وعهد، ونهب خان القوارير بباب الطاق؛ حتى أغرقه أصحاب معتمد الدولة بفم الدجيل في السادس عشر من رمضان سنة ٤٢٥ لما أبى أن يخليه بمال، فقُتل أخوه ثأرًا {cite:muntazam-ibn-al-jawzi j.8 p.414-422}."
+gender: male
+wings: [people]
+roles: [politician]
+themes: [crime-and-punishment]
+periods: [period/buyid-seljuk-fatimid-era]
+regions: [levant-iraq]
+died: { edtf: "1034-08~", hijri: "0425-09", calendar: julian, precision: month, status: tradition, derived: true, note: "أُغرق بفم الدجيل في ١٦ رمضان ٤٢٥ {cite:muntazam-ibn-al-jawzi j.8 p.422}." }
+relations:
+  - { type: lived_in, target: place/baghdad, sources: [source/muntazam-ibn-al-jawzi] }
+provenance:
+  layer: own-research
+  source: "المنتظم في تاريخ الملوك والأمم — ابن الجوزي (ج8، أحداث ٤٢٤–٤٢٥)، قراءة آبل فيجن، مسح AAlexandrina-224011"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-muntazam-350-474-batch23
+sources: [source/muntazam-ibn-al-jawzi]
+status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 High)" }

@@ -1,0 +1,29 @@
+id: event/ghaznavid-rayy-420
+class: event
+kind: conquest
+label: { ar: "دخول محمود الغزنوي الريّ سنة ٤٢٠" }
+summary:
+  ar: "ورد على بغداد كتاب محمود بن سبكتكين إلى الخليفة مؤرخ في غرة جمادى الآخرة سنة ٤٢٠ من معسكره بسواد الري، يصف فيه خروجه من أصبهان في محرم ودخوله الري غدوة الاثنين السادس عشر من جمادى الأولى مع الجيش الكثيف؛ وذكر أن أهل الري عذبوا بظلم الديلم واستجاشوا به فاستجار بهم، وأن أبا طالب رستم بن علي ابن فخر الدولة استسلم بالمصالحة، فقُبض على رؤساء الباطنية، وشهد الديلم على ما عندهم، فأفتى الفقهاء بإهدار الدماء فصُلبوا على رأس الطريق، وقُسمت أموالهم، وأُخرجت الكتب فكان ما أخرج من مدينة واحدة خمسين بعيرًا من كتب المعتزلة والفلاسفة والرافضة فأُحرقت تحت المصابين، وبلغ ما أُخذ من النفائس ما يقارب خمسمائة ألف دينار ومن الدراهم مائتين وستين ألفًا، ورحل أبو طالب وابنه وكبار الأمراء إلى خراسان. وفي الكتاب دعاؤه «أزال الله عن هذه البقعة أيدي الظلمة وطهّرها من دعوة الباطنية» — وهو رواية الفاتح عن نفسه وأسبابه {cite:muntazam-ibn-al-jawzi j.8 p.380-383}."
+wings: [time]
+themes: [wars-and-campaigns, conquest-and-its-debates, takfir-and-its-critics]
+periods: [period/buyid-seljuk-fatimid-era]
+regions: [persia-central-asia]
+sides:
+  - label: { ar: "جيش محمود الغزنوي" }
+    commanders: [person/mahmud-ghaznawi]
+  - label: { ar: "ديلم الري (آل بويه)" }
+date:
+  start: { edtf: "1029-04~", hijri: "0420-05", calendar: julian, precision: month, status: tradition, derived: true, note: "دخول الرايات سواد الري يوم الاثنين ١٦ جمادى الأولى ٤٢٠ بحسب كتاب محمود {cite:muntazam-ibn-al-jawzi j.8 p.381}." }
+relations:
+  - { type: occurred_at, target: place/rayy, sources: [source/muntazam-ibn-al-jawzi] }
+  - { type: had_participant, target: person/mahmud-ghaznawi, role: "قائد الحملة وكاتب الخطاب", sources: [source/muntazam-ibn-al-jawzi] }
+provenance:
+  layer: own-research
+  source: "المنتظم في تاريخ الملوك والأمم — ابن الجوزي (ج8، أحداث سنة ٤٢٠)، قراءة آبل فيجن، مسح AAlexandrina-224011"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-muntazam-350-474-batch23
+sources: [source/muntazam-ibn-al-jawzi]
+status:
+  review: draft
+  completeness: 2
+  generated_by: "Devin (SWE-2 High)"
