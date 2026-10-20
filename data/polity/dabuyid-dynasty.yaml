@@ -1,0 +1,32 @@
+id: polity/dabuyid-dynasty
+class: polity
+kind: dynasty
+label:
+  ar: "الدابوية"
+  en: "Dabuyid dynasty"
+summary:
+  ar: "بطاقة أولية للدابوية، إسبهبذات طبرستان آخر من قاوم الفتح الإسلامي حتى ٧٦١م؛ لم تُراجع مصادرها على الصفحة بعد."
+  en: "Draft card for the Dabuyids, the ispahbads of Tabaristan who resisted the Islamic conquest until 761; its sources are not yet checked on the page."
+wings: [time]
+periods: [period/umayyad]
+regions: [persia-central-asia]
+start:
+  edtf: "642"
+  precision: year
+  status: tradition
+  derived: true
+end:
+  edtf: "761"
+  precision: year
+  status: tradition
+  derived: true
+sources: [source/tarikh-al-tabari]
+external_ids:
+  wikidata: Q2816439
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; dynasty attested in conquest-era histories — entry not yet checked on the page"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-wave2
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

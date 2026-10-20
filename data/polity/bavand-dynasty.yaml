@@ -1,0 +1,32 @@
+id: polity/bavand-dynasty
+class: polity
+kind: dynasty
+label:
+  ar: "آل باوند"
+  en: "Bavand dynasty"
+summary:
+  ar: "بطاقة أولية لآل باوند، الأسرة الإسبهبذية التي حكمت طبرستان من ٦٥١ إلى ١٣٤٩م؛ لم تُراجع مصادرها على الصفحة بعد."
+  en: "Draft card for the Bavands, the ispahbad line ruling Tabaristan from 651 to 1349; its sources are not yet checked on the page."
+wings: [time]
+periods: [period/abbasid-early]
+regions: [persia-central-asia]
+start:
+  edtf: "651"
+  precision: year
+  status: tradition
+  derived: true
+end:
+  edtf: "1349"
+  precision: year
+  status: tradition
+  derived: true
+sources: [source/tarikh-ibn-khaldun-ibar]
+external_ids:
+  wikidata: Q2472640
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; dynasty attested in Tabaristan histories — entry not yet checked on the page"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-wave2
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

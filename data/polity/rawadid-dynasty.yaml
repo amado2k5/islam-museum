@@ -1,0 +1,32 @@
+id: polity/rawadid-dynasty
+class: polity
+kind: dynasty
+label:
+  ar: "الروادية"
+  en: "Rawadid dynasty"
+summary:
+  ar: "بطاقة أولية للروادية، الأسرة العربية الأزدية التي حكمت أذربيجان وأرمينيا من ٩٥٥ إلى ١٠٧١م؛ لم تُراجع مصادرها على الصفحة بعد."
+  en: "Draft card for the Rawadids, the Arab Azdi dynasty ruling Azerbaijan and Armenia from 955 to 1071; its sources are not yet checked on the page."
+wings: [time]
+periods: [period/buyid-seljuk-fatimid-era]
+regions: [persia-central-asia]
+start:
+  edtf: "955"
+  precision: year
+  status: tradition
+  derived: true
+end:
+  edtf: "1071"
+  precision: year
+  status: tradition
+  derived: true
+sources: [source/tarikh-ibn-khaldun-ibar]
+external_ids:
+  wikidata: Q2032672
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; dynasty attested in Caucasian histories — entry not yet checked on the page"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-wave2
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }
