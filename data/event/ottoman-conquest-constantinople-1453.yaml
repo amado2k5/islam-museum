@@ -10,6 +10,8 @@ relations:
   - { type: had_participant, target: person/mehmed-ii, role: "السلطان الفاتح", sources: [source/stoddard-arslan-hadir-1923] }
   - { type: occurred_at, target: place/istanbul }
 wings: [time]
+external_ids:
+  wikidata: Q160077
 sources: [source/stoddard-arslan-hadir-1923]
 # Verification: Draft from one source (Arslan's commentary, volume 1, scan pages 235–237, book pp. 218–220). Arslan's dates (the siege beginning under Bayezid I, given as 1396; the chronogram 853 AH) and the claim about Mehmed II's artillery (quoted from Baron Carra de Vaux) need a second source before any date is stated as fact. Standard histories give 29 May 1453; that date is not in the book and must be cited separately.
 status: { review: draft, completeness: 1 }

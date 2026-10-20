@@ -1,0 +1,35 @@
+id: concept/shayatin-al-ins-wal-jinn
+class: concept
+kind: term
+label: { ar: "الشياطين من الإنس والجن", en: "Evil ones among humans and jinn" }
+issue:
+  ar: "هل في الإنس شياطين كما في الجن، أم أن الشياطين كلهم من الجن وذريته؟"
+summary:
+  ar: "الشياطين الذين جعلهم الله أعداء الأنبياء في تفسير الأنعام 112. يذكر رشيد رضا قولين: قول عكرمة والسدي بأنهم من الجن وذريته فقط، وقول مجاهد وقتادة والحسن بأن من الإنس شياطين كما من الجن، ويرجح ابن جرير الطبري القول الثاني بحديث أبي ذر، ويرده رضا قول الأول بآية البقرة 14. وينقل عن ابن عباس أن كل عات متمرد من الجن والإنس شيطان. ويرى رضا أن المفسدين من الشياطين هم المترفون والمستكبرون وزعماء الباطل، ويطبق ذلك على شياطين السياسة في زمنه."
+perspectives:
+  - tradition: sunni
+    id: humans-among-shayatin
+    stance:
+      ar: "من الإنس شياطين كما من الجن (مجاهد وقتادة والحسن، ويرجحه ابن جرير)"
+    summary:
+      ar: "ينقل رضا عن مجاهد وقتادة والحسن أن الشياطين من الإنس ومن الجن، ويرجح ابن جرير الطبري هذا القول بحديث أبي ذر، إذ يسأله النبي هل تعوذ من شر شياطين الإنس والجن، فيسأل أبو ذر هل للإنس شياطين، فيجيبه النبي بالإثبات. وينقل عن ابن عباس قريباً منه أن كل عات متمرد من الجن والإنس شيطان."
+    holders: [person/mujahid-ibn-jabr, person/qatada-ibn-diama, person/al-hasan-al-basri, person/al-tabari]
+    evidence: []
+    sources: [source/tafsir-manar-v08]
+  - tradition: sunni
+    id: only-jinn-shayatin
+    stance:
+      ar: "الشياطين كلهم من ذرية إبليس، وليس في الإنس شياطين (عكرمة والسدي، وقد رده رضا)"
+    summary:
+      ar: "ينقل رضا عن عكرمة والسدي أن الشياطين كلهم من ولد إبليس، وأنه ليس في الإنس شياطين، ثم يرد ذلك بآية في سورة البقرة تحكي أن الذين يخلون إلى شياطينهم يقولون إنهم معهم، ويرى أن ذلك دليل على أن للإنس شياطينهم. هذا رد رضا على القول، وليس حكماً من المؤلف لهذا المتن."
+    holders: []
+    evidence: []
+    sources: [source/tafsir-manar-v08]
+sources: [source/tafsir-manar-v08]
+provenance:
+  layer: own-research
+  source: "تفسير المنار، المجلد الثامن، ص 5-8 (نسخة OCR محلية)"
+  generated_by: "Claude Haiku 5.5"
+  model: claude-haiku-5-5
+  run: "lib-exp-tafsir-manar v6-v8 batch 1"
+status: { review: draft, completeness: 1, generated_by: "library-expansion (Claude Haiku 5.5); Rida's commentary and the views he names; the other classical views and the chains of narration are still to be checked in the tafsir of al-Tabari" }

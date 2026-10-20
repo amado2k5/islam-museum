@@ -1,0 +1,23 @@
+id: event/capture-of-alexandria-1798
+class: event
+kind: battle
+label: { ar: "أخذ الإسكندرية (١٧٩٨)", en: "Capture of Alexandria" }
+summary:
+  ar: "بطاقة أولية لأخذ الإسكندرية سنة ١٧٩٨م، إنزال نابليون في حملة مصر؛ لم تُراجع مصادره على الصفحة بعد."
+  en: "Draft card for the 1798 capture of Alexandria, Napoleon's landing in the Egyptian campaign; its sources are not yet checked on the page."
+wings: [time]
+periods: [period/colonial-era]
+regions: [egypt-nile]
+date:
+  start: { edtf: "1798", precision: year, status: tradition, derived: true }
+  end: { edtf: "1798", precision: year, status: tradition, derived: true }
+sources: [source/tarikh-islam-hasan-ibrahim]
+external_ids:
+  wikidata: Q3403790
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; battle attested in narrative histories — entry not yet checked on the page"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-wave2
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

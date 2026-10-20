@@ -1,0 +1,41 @@
+id: concept/ibtila
+class: concept
+kind: term
+label: { ar: "الابتلاء والامتحان" }
+issue:
+  ar: "كيف يُفهم أن الله يعلم أو يعلم ليظهر، وهل يتغير العلم أم المعلوم؟"
+summary:
+  ar: "الامتحان الإلهي للناس، ويرد في قوله تعالى «لنعلم من يتبع الرسول». يعرض محمد رشيد رضا وجهين في معنى «لنعلم»: أن الفعل منسوب إلى الله على سبيل أسلوب العرب في إسناد الفعل إلى الرئيس الذي يأمر به، وأن العلم هنا علم وقوع يترتب عليه الجزاء، فيتجدد المعلوم لا العلم."
+perspectives:
+  - tradition: sunni
+    id: knowledge-of-occurrence
+    stance:
+      ar: "العلم هنا علم وقوع يترتب عليه الجزاء، لا تجدد في علم الله"
+    summary:
+      ar: "قراءة يعرضها رضا مقرونة بالأستاذ الإمام: علم الله بالأشياء قبل وقوعها أنها ستقع، وبعد وقوعها أنها وقعت، والجزاء يترتب على الواقع. فالتجدد في المعلوم لا في العلم. {cite:tafsir-manar-v02 p.8}"
+    holders: [person/muhammad-abduh]
+    evidence:
+      - ref: source/tafsir-manar-v02
+        note:
+          ar: "ص 8"
+    sources: [source/tafsir-manar-v02]
+  - tradition: sunni
+    id: idiom-of-attribution
+    stance:
+      ar: "الفعل منسوب إلى الله على أسلوب العرب في إسناد الفعل إلى الرئيس"
+    summary:
+      ar: "قراءة يذكرها رضا عن الأستاذ الإمام، وفيها أن العرب تنسب إلى الأمير فتح البلد وإن لم يباشر القتال، وأن الله لما ولي المؤمنين وخاطبهم خطاب السيد صح الإسناد بصيغة الجمع. وينقل أمثلة من الحديث القدسي والقرآن يُحمل فيها الفعل على هذا الأسلوب. {cite:tafsir-manar-v02 p.7} {cite:tafsir-manar-v02 p.8}"
+    holders: [person/muhammad-abduh]
+    evidence:
+      - ref: source/tafsir-manar-v02
+        note:
+          ar: "ص 7 إلى 8"
+    sources: [source/tafsir-manar-v02]
+sources: [source/tafsir-manar-v02]
+provenance:
+  layer: own-research
+  source: "تفسير المنار، المجلد الثاني، ص 7-8 (نسخة OCR محلية)"
+  generated_by: "Claude Haiku 5.5"
+  model: claude-haiku-5-5
+  run: "lib-exp-tafsir-manar-v02-v03"
+status: { review: draft, completeness: 2, generated_by: "library-expansion (Claude Haiku 5.5); from Rida's commentary on Q. 2:143, volume 2 pp. 7 to 8; the second reading in Rida's text is not named in the passage and is not attributed here" }

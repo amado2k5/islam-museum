@@ -1,0 +1,23 @@
+id: event/battle-of-dhu-qissa-632
+class: event
+kind: battle
+label: { ar: "معركة ذي قصة", en: "Battle of Dhu Qissa" }
+summary:
+  ar: "بطاقة أولية لمعركة ذي قصة سنة ٦٣٢م، وقعة أهل الردة على جبل ذي قصة في أول مظاهر حروب الردة؛ لم تُراجع مصادره على الصفحة بعد."
+  en: "Draft card for the Battle of Dhu Qissa in 632, the Ridda-war clash against apostate tribes on Dhu Qissa hill; its sources are not yet checked on the page."
+wings: [time]
+periods: [period/rashidun]
+regions: [arabia]
+date:
+  start: { edtf: "632", precision: year, status: tradition, derived: true }
+  end: { edtf: "632", precision: year, status: tradition, derived: true }
+sources: [source/ibn-hisham-sira]
+external_ids:
+  wikidata: Q17001408
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; battle attested in Ridda-war histories — entry not yet checked on the page"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-wave2
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

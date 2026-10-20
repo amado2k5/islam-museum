@@ -1,0 +1,22 @@
+id: person/abd-al-samad-al-dinawari
+class: person
+label: { ar: "أبو القاسم عبد الصمد بن علي الدينوري الواعظ" }
+summary:
+  ar: "عبد الصمد بن عمر بن علي بن إسحاق أبو القاسم الدينوري الواعظ الزاهد، قرأ القرآن ودرس فقه الشافعي على أبي سعيد الاصطخري وسمع الحديث من أبي بكر النجاد وروى عنه الأزجي والصيمري، ولزم طريقة يضرب بها المثل من مجاهدة النفس والتقشف والأمر بالمعروف. وكان يدق السعد في العطارين فسمع عطاراً يهودياً يقول لابنه إنه جرب المسلمين فما وجد فيهم ثقة، فاستأجر نفسه لحفظ دكانه على ثلاثة أرطال خبز ودرهمين كل يوم وأعمل معه سنة بلا خيانة ثم قال له إني ما أردت العمل معك وإنما سمعتك تقول لولدك إنك لم تر في المسلمين أميناً فأردت أن أكذب قولك، فأخبره واشتهر دينه عند الناس وانقطع إلى الوعظ. توفي بدرب شماس من نهر القلائين بالجانب الغربي يوم الثلاثاء لسبع بقين من ذي الحجة سنة سبع وتسعين ودفن بمقبرة الإمام أحمد {cite:muntazam-ibn-al-jawzi j.7 p.235-236}."
+wings: [people]
+periods: [period/buyid-seljuk-fatimid-era]
+regions: [levant-iraq]
+roles: [mystic, teacher]
+themes: [spirituality-and-sufism]
+died:
+  { edtf: "1007-08-27~", hijri: "0397-12-07", calendar: julian, precision: day, status: tradition, derived: true, note: "يوم الثلاثاء لسبع بقين من ذي الحجة 397؛ التحويل مشتق {cite:muntazam-ibn-al-jawzi j.7 p.236}" }
+relations:
+  - { type: died_in, target: place/baghdad, sources: [source/muntazam-ibn-al-jawzi] }
+  - { type: buried_in, target: place/baghdad, role: "مقبرة الإمام أحمد", sources: [source/muntazam-ibn-al-jawzi] }
+provenance:
+  layer: own-research
+  source: "المنتظم في تاريخ الملوك والأمم — ابن الجوزي (ج7، وفيات سنة 397)، قراءة آبل فيجن"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-muntazam-batch-21
+sources: [source/muntazam-ibn-al-jawzi]
+status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 High)" }

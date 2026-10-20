@@ -1,0 +1,23 @@
+id: event/conquest-of-tunis-1534
+class: event
+kind: conquest
+label: { ar: "فتح تونس (١٥٣٤)", en: "Conquest of Tunis" }
+summary:
+  ar: "بطاقة أولية لفتح تونس سنة ١٥٣٤م، أخذ خير الدين بارباروسا للمدينة من الحفصيين؛ لم تُراجع مصادره على الصفحة بعد."
+  en: "Draft card for the conquest of Tunis in 1534, Hayreddin Barbarossa's capture of the city from the Hafsids; its sources are not yet checked on the page."
+wings: [time]
+periods: [period/gunpowder-empires]
+regions: [maghreb]
+date:
+  start: { edtf: "1534", precision: year, status: tradition, derived: true }
+  end: { edtf: "1534", precision: year, status: tradition, derived: true }
+sources: [source/tarikh-ibn-khaldun-ibar]
+external_ids:
+  wikidata: Q5245689
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; conquest attested in Maghrebi histories — entry not yet checked on the page"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-wave2
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

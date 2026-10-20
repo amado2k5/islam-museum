@@ -1,0 +1,23 @@
+id: event/battle-of-marash-953
+class: event
+kind: battle
+label: { ar: "معركة مرعش (٩٥٣)", en: "Battle of Marash" }
+summary:
+  ar: "بطاقة أولية لمعركة مرعش سنة ٩٥٣م، فوز الحمدانيين على البيزنطيين؛ لم تُراجع مصادره على الصفحة بعد."
+  en: "Draft card for the Battle of Marash in 953, the Hamdanid victory over the Byzantines; its sources are not yet checked on the page."
+wings: [time]
+periods: [period/abbasid-fragmentation]
+regions: [anatolia-balkans]
+date:
+  start: { edtf: "0953", precision: year, status: tradition, derived: true }
+  end: { edtf: "0953", precision: year, status: tradition, derived: true }
+sources: [source/kamil-ibn-al-athir]
+external_ids:
+  wikidata: Q2889228
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; battle attested in narrative histories — entry not yet checked on the page"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-wave2
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

@@ -1,0 +1,23 @@
+id: event/battle-of-kafr-el-dawwar-1882
+class: event
+kind: battle
+label: { ar: "معركة كفر الدوار", en: "Battle of Kafr-el-Dawwar" }
+summary:
+  ar: "بطاقة أولية لمعركة كفر الدوار سنة ١٨٨٢م، صد عرابي للبريطانيين في حملة مصر؛ لم تُراجع مصادره على الصفحة بعد."
+  en: "Draft card for the Battle of Kafr-el-Dawwar in 1882, Urabi's stand against the British in Egypt; its sources are not yet checked on the page."
+wings: [time]
+periods: [period/colonial-era]
+regions: [egypt-nile]
+date:
+  start: { edtf: "1882", precision: year, status: tradition, derived: true }
+  end: { edtf: "1882", precision: year, status: tradition, derived: true }
+sources: [source/tarikh-islam-hasan-ibrahim]
+external_ids:
+  wikidata: Q4871366
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; battle attested in narrative histories — entry not yet checked on the page"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-wave2
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

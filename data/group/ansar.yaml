@@ -21,5 +21,6 @@ relations:
   - { type: protected, target: group/muhajirun, start: { edtf: "0622" }, sources: [source/ibn-sad-tabaqat-bewley] }
   - { type: participated_in, target: event/pledges-of-aqaba, role: pledging-party, sources: [source/ibn-ishaq-guillaume] }
   - { type: participated_in, target: event/brotherhood-of-muhajirun-and-ansar, sources: [source/ibn-sad-tabaqat-bewley] }
+external_ids: { wikidata: "Q425144" }
 sources: [source/ibn-ishaq-guillaume, source/ibn-sad-tabaqat-bewley, source/watt-1956-medina, source/sahih-al-bukhari]
 status: { review: draft, completeness: 2, generated_by: "Devin; 2026-10-11" }

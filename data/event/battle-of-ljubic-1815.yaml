@@ -1,0 +1,23 @@
+id: event/battle-of-ljubic-1815
+class: event
+kind: battle
+label: { ar: "معركة ليوبيتش", en: "Battle of Ljubić" }
+summary:
+  ar: "بطاقة أولية لمعركة ليوبيتش سنة ١٨١٥م، فوز الصرب على العثمانيين في الانتفاضة الثانية؛ لم تُراجع مصادره على الصفحة بعد."
+  en: "Draft card for the Battle of Ljubić in 1815, the Serbs' victory over the Ottomans in the Second Uprising; its sources are not yet checked on the page."
+wings: [time]
+periods: [period/colonial-era]
+regions: [anatolia-balkans]
+date:
+  start: { edtf: "1815-05-08", precision: year, status: tradition, derived: true }
+  end: { edtf: "1815-05-08", precision: year, status: tradition, derived: true }
+sources: [source/dawlat-uthmaniyya-salabi]
+external_ids:
+  wikidata: Q12747919
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; battle attested in narrative histories — entry not yet checked on the page"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-wave2
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

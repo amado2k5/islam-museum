@@ -1,0 +1,23 @@
+id: event/conquest-of-tunis-1535
+class: event
+kind: battle
+label: { ar: "غزو تونس (١٥٣٥)", en: "Conquest of Tunis (1535)" }
+summary:
+  ar: "بطاقة أولية لغزو تونس سنة ١٥٣٥م، استيلاء أسطول شارلكان على المدينة من خير الدين بربروس؛ لم تُراجع مصادره على الصفحة بعد."
+  en: "Draft card for the Conquest of Tunis in 1535, Charles V's fleet taking the city from Khayr al-Din Barbarossa; its sources are not yet checked on the page."
+wings: [time]
+periods: [period/gunpowder-empires]
+regions: [maghreb]
+date:
+  start: { edtf: "1535", precision: year, status: tradition, derived: true }
+  end: { edtf: "1535", precision: year, status: tradition, derived: true }
+sources: [source/tarikh-ibn-khaldun-ibar]
+external_ids:
+  wikidata: Q700893
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; battle attested in Maghreb histories — entry not yet checked on the page"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-wave2
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

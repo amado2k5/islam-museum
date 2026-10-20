@@ -1,0 +1,23 @@
+id: event/battle-of-dujaila-1916
+class: event
+kind: battle
+label: { ar: "معركة الدجيلة", en: "Battle of Dujaila" }
+summary:
+  ar: "بطاقة أولية لمعركة الدجيلة سنة ١٩١٦م، صد العثمانيين لمحاولة إنقاذ كوت؛ لم تُراجع مصادره على الصفحة بعد."
+  en: "Draft card for the Battle of Dujaila in 1916, the Ottoman repulse of the Kut relief attempt; its sources are not yet checked on the page."
+wings: [time]
+periods: [period/modern-era]
+regions: [levant-iraq]
+date:
+  start: { edtf: "1916", precision: year, status: tradition, derived: true }
+  end: { edtf: "1916", precision: year, status: tradition, derived: true }
+sources: [source/tarikh-islam-hasan-ibrahim]
+external_ids:
+  wikidata: Q957155
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; battle attested in narrative histories — entry not yet checked on the page"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-wave2
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

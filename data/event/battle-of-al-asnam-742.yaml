@@ -1,0 +1,23 @@
+id: event/battle-of-al-asnam-742
+class: event
+kind: battle
+label: { ar: "معركة الأصنام (٧٤٢)", en: "Battle of al-Asnam" }
+summary:
+  ar: "بطاقة أولية لمعركة الأصنام سنة ٧٤٢م، فوز حنظلة بن صفوان على البربر قرب القيروان؛ لم تُراجع مصادره على الصفحة بعد."
+  en: "Draft card for the Battle of al-Asnam in 742, Hanzala ibn Safwan's victory over the Berbers near Kairouan; its sources are not yet checked on the page."
+wings: [time]
+periods: [period/umayyad]
+regions: [maghreb]
+date:
+  start: { edtf: "0742-05", precision: year, status: tradition, derived: true }
+  end: { edtf: "0742-05", precision: year, status: tradition, derived: true }
+sources: [source/tarikh-al-tabari]
+external_ids:
+  wikidata: Q22690029
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; battle attested in narrative histories — entry not yet checked on the page"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-wave2
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

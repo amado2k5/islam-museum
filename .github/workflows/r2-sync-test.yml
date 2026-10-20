@@ -1,0 +1,69 @@
+# Standalone test of the zip-based R2 sync. Manual only: it never runs on push
+# and never touches the production search bucket (islam-museum-search). It
+# deploys workers/r2-sync (optional), then runs the driver against the
+# dedicated test bucket islam-museum-sync-test under the prefix sync-test/repo/.
+name: R2 sync test (manual)
+
+on:
+  workflow_dispatch:
+    inputs:
+      folders:
+        description: "Comma-separated git folders to sync (e.g. data,content/en)"
+        required: true
+        default: "data,content/en"
+      deploy_worker:
+        description: "Deploy workers/r2-sync and set its token before testing"
+        type: boolean
+        default: false
+
+permissions:
+  contents: read
+
+concurrency:
+  group: r2-sync-test
+  cancel-in-progress: false
+
+jobs:
+  deploy-worker:
+    if: inputs.deploy_worker
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    env:
+      CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+      CLOUDFLARE_ACCOUNT_ID: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      - name: Install Worker dependencies
+        run: npm ci --prefix workers/r2-sync
+      - name: Create test bucket (ignore if it exists)
+        working-directory: workers/r2-sync
+        run: npx wrangler r2 bucket create islam-museum-sync-test || true
+      - name: Deploy Worker
+        working-directory: workers/r2-sync
+        run: npx wrangler deploy
+      - name: Set Worker token
+        working-directory: workers/r2-sync
+        env:
+          SYNC_TOKEN: ${{ secrets.R2_SYNC_TEST_TOKEN }}
+        run: printf '%s' "$SYNC_TOKEN" | npx wrangler secret put SYNC_TOKEN
+
+  test:
+    needs: [deploy-worker]
+    if: ${{ always() && (needs.deploy-worker.result == 'success' || needs.deploy-worker.result == 'skipped') }}
+    runs-on: ubuntu-latest
+    timeout-minutes: 60
+    env:
+      SYNC_URL: ${{ secrets.R2_SYNC_TEST_URL }}
+      SYNC_TOKEN: ${{ secrets.R2_SYNC_TEST_TOKEN }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      - name: Install Worker dependencies
+        run: npm ci --prefix workers/r2-sync
+      - name: Archive logic test (in-memory bucket)
+        run: node workers/r2-sync/test/archive-test.mjs

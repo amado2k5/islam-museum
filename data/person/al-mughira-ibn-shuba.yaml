@@ -22,5 +22,6 @@ relations:
   - { type: member_of, target: group/thaqif }
   - { type: born_in, target: place/taif }
   - { type: participated_in, target: event/demolition-of-al-lat, role: "مهدّم الصنم بالكُرزُن", sources: [source/mubarakpuri-raheeq] }
+external_ids: { wikidata: "Q1050575" }
 sources: [source/mubarakpuri-raheeq, source/ibn-hisham-sira, source/muruj-al-dhahab, source/sahih-muslim]
 status: { review: draft, completeness: 2, generated_by: "Devin; al-Raheeq al-Makhtum pp. 440-454 (batch 22)" }

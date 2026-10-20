@@ -24,5 +24,7 @@ relations:
   - { type: ruler_of, target: polity/byzantine-empire, start: { edtf: "0610" }, end: { edtf: "0641" }, sources: [source/kaegi-2003] }
   - { type: corresponded_with, target: person/muhammad, note: "The tradition preserves the Prophet's letter summoning him to Islam.", sources: [source/ibn-sad-tabaqat-bewley] }
   - { type: fought, target: polity/sasanian-empire, start: { edtf: "0622" }, end: { edtf: "0628" }, note: "His victorious counter-invasion ended the Byzantine-Sasanian war.", sources: [source/kaegi-2003] }
+external_ids:
+  wikidata: Q41852
 sources: [source/kaegi-2003, source/ibn-sad-tabaqat-bewley, source/muqaddima-ibn-khaldun]
 status: { review: draft, completeness: 2, generated_by: "Devin; 2026-10-11" }

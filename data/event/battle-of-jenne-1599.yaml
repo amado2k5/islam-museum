@@ -1,0 +1,23 @@
+id: event/battle-of-jenne-1599
+class: event
+kind: battle
+label: { ar: "معركة جينيه", en: "Battle of Jenné" }
+summary:
+  ar: "بطاقة أولية لمعركة جينيه سنة ١٥٩٩م، فتح المغربيين للمدينة في طريق سونغاي؛ لم تُراجع مصادره على الصفحة بعد."
+  en: "Draft card for the Battle of Jenné in 1599, the Moroccan capture of the city en route to Songhai; its sources are not yet checked on the page."
+wings: [time]
+periods: [period/gunpowder-empires]
+regions: [west-africa-sahel]
+date:
+  start: { edtf: "1599", precision: year, status: tradition, derived: true }
+  end: { edtf: "1599", precision: year, status: tradition, derived: true }
+sources: [source/tarikh-ibn-khaldun-ibar]
+external_ids:
+  wikidata: Q4871323
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; battle attested in narrative histories — entry not yet checked on the page"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-wave2
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

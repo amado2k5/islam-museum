@@ -1,0 +1,50 @@
+id: concept/khums-al-ghanima
+class: concept
+kind: legal
+label: { ar: "خمس الغنيمة", en: "The fifth of spoils (khums)" }
+issue:
+  ar: "هل آية الأنفال الأولى، «يسألونك عن الأنفال»، منسوخة بآية الخمس أم محكمة؟"
+summary:
+  ar: "يبيّن رضا أن مفسرين نقلوا عن مجاهد وعكرمة والسدي أن آية الأنفال الأولى منسوخة بآية الخمس، وأن الصواب عنده قول ابن زيد أن الآية محكمة، وأن الله بيّن مصارف الغنيمة في آية الخمس، وأن للإمام أن ينفِّل من شاء قبل التخميس."
+  en: "Rida reports that Mujahid, Ikrima and al-Suddi held that the first Anfal verse is abrogated by the verse of the fifth, and prefers the view of Ibn Zayd that the verse is muhkam (not abrogated): the fifth verse gives its destinations, and the imam may grant a share to whom he wills before the division into fifths."
+wings: [ideas]
+themes:
+  - wars-and-campaigns
+  - scripture-and-its-sciences
+periods:
+  - period/prophetic-era
+regions:
+  - arabia
+perspectives:
+  - tradition: sunni
+    id: abrogated-by-fifth-verse
+    stance:
+      ar: "منسوخة: بيّن آية الخمس ما أُجمل في الآية الأولى"
+    summary:
+      ar: "ينقل رضا عن مجاهد وعكرمة والسدي أن التفصيل في آية الخمس يكون ناسخاً للإجمال في الآية الأولى."
+    holders: [person/mujahid-ibn-jabr, person/ikrima-mawla-ibn-abbas]
+    evidence:
+      - ref: source/tafsir-manar-v09
+        note:
+          ar: "ص 491 (نقل رضا عن هؤلاء)"
+    sources: [source/tafsir-manar-v09]
+  - tradition: sunni
+    id: muhkam-ibn-zayd
+    stance:
+      ar: "محكمة: الآية باقية، والتفصيل في آية الخمس يبيّن مصارفها"
+    summary:
+      ar: "قول ابن زيد الذي يرجحه رضا: الآية محكمة، وقد بيّن الله مصارفها في آية الخمس، وللإمام أن ينفل من شاء قبل التخميس."
+    holders: [person/rashid-rida]
+    evidence:
+      - ref: source/tafsir-manar-v09
+        note:
+          ar: "ص 491 (ترجيح رضا لقول ابن زيد)"
+    sources: [source/tafsir-manar-v09]
+sources: [source/tafsir-manar-v09, source/tafsir-manar-v10]
+provenance:
+  layer: own-research
+  source: "تفسير المنار، المجلد التاسع، ص 491؛ والمجلد العاشر، ص 4-5 (نسخة OCR محلية)"
+  generated_by: "Claude Haiku 5.5"
+  model: claude-haiku-5-5
+  run: "lib-exp-tafsir-manar volumes 9-10 (library-expansion)"
+status: { review: draft, completeness: 1, generated_by: "library-expansion (Claude Haiku 5.5); Rida's account of the disagreement only; the classical tafsir books he cites are not checked against their own text; the academic view is still to be added" }

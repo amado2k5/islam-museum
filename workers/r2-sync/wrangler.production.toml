@@ -1,0 +1,20 @@
+name = "islam-museum-r2-sync"
+main = "src/index.js"
+compatibility_date = "2025-10-11"
+
+# Paid plan: archives of ~20 MB are read and written in one request.
+[limits]
+cpu_ms = 300000
+
+# Keep the Worker's console.log lines in Cloudflare Workers Logs (dashboard, searchable by time).
+[observability]
+enabled = true
+
+# Production search bucket: Pagefind indexes and API JSON served from R2.
+[[r2_buckets]]
+binding = "SYNC_BUCKET"
+bucket_name = "islam-museum-search"
+
+[vars]
+# Only these prefixes may be written or deleted by an archive.
+ALLOWED_PREFIXES = "pagefind-ar/,pagefind-en/,pagefind-ur/,api/"

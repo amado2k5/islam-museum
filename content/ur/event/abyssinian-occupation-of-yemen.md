@@ -5,7 +5,7 @@ source_lang: ar
 translators: ["Claude Haiku 5.5 (claude-haiku-5-5), draft translation"]
 ---
 ## خلاصہ
-یمن پر حبشہ کا دوسرا قبضہ: سنہ 525ء میں [[person/aryat|اریاط]] کی قیادت میں ستر ہزار حبشی سپاہی اترے، ایک ایسے بیڑے کے ذریعے جو روم کے شہنشاہوں نے تیار کیا، نجران کے عیسائیوں کے ساتھ [[person/dhu-nuwas|ذونواس]] کے کیے ہوئے سلوک کے انتقام میں، پھر [[person/abraha|ابرہہ]] کا اقتدار پر قبضہ کرنا۔ {cite:mubarakpuri-raheeq p.24} {cite:mubarakpuri-raheeq p.25} {cite:tafhim-al-quran 4/195-198}
+[[place/yemen|یمن]] پر حبشہ کا دوسرا قبضہ: سنہ 525ء میں [[person/aryat|اریاط]] کی قیادت میں ستر ہزار حبشی سپاہی اترے، ایک ایسے بیڑے کے ذریعے جو روم کے شہنشاہوں نے تیار کیا، نجران کے عیسائیوں کے ساتھ ذونواس کے کیے ہوئے سلوک کے انتقام میں، پھر [[person/abraha|ابرہہ]] کا اقتدار پر قبضہ کرنا۔ {cite:mubarakpuri-raheeq p.24} {cite:mubarakpuri-raheeq p.25} {cite:tafhim-al-quran 4/195-198}
 
 ## سبب
 [[event/massacre-of-najran|نجران کے خندق]] کے واقعے کا نتیجہ یہ ہوا کہ فتح اور توسیع کے لیے سرگرم عیسائیت روم کے شہنشاہوں کی قیادت میں عرب کے ملک کے خلاف انتقام پر آمادہ ہو گئی، تو انہوں نے حبشیوں کو بھڑکایا اور ان کے لیے بحری بیڑا تیار کیا۔ {cite:mubarakpuri-raheeq p.24} {cite:mubarakpuri-raheeq p.25}

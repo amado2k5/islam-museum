@@ -1,0 +1,23 @@
+id: event/tabaristan-uprising-784
+class: event
+kind: revolt
+label: { ar: "ثورة طبرستان (١٦٨هـ)", en: "Tabaristan uprising" }
+summary:
+  ar: "بطاقة أولية لثورة طبرستان في ١٦٨–١٨٨هـ، قيام إسبهبذ خورشيد على الخليفة المهدي؛ لم تُراجع مصادره على الصفحة بعد."
+  en: "Draft card for the Tabaristan uprising of 168–188 AH, Ispahbadh Khurshid's revolt against al-Mahdi; its sources are not yet checked on the page."
+wings: [time]
+periods: [period/abbasid-early]
+regions: [persia-central-asia]
+date:
+  start: { edtf: "0784", precision: year, status: tradition, derived: true }
+  end: { edtf: "0804", precision: year, status: tradition, derived: true }
+sources: [source/tarikh-al-tabari]
+external_ids:
+  wikidata: Q5954316
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; battle attested in narrative histories — entry not yet checked on the page"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-wave2
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

@@ -28,5 +28,7 @@ relations:
   - { type: died_in, target: place/sanaa }
   - { type: opposed, target: polity/rashidun-caliphate, start: { edtf: "0632" }, end: { edtf: "0632" }, sources: [source/tabari-donner-1993] }
   - { type: ruled_over, target: place/yemen, start: { edtf: "0632" }, end: { edtf: "0632" }, sources: [source/tabari-donner-1993] }
+external_ids:
+  wikidata: Q1658041
 sources: [source/tabari-donner-1993, source/watt-1956-medina, source/ibn-sad-tabaqat-bewley]
 status: { review: draft, completeness: 2, generated_by: "Devin; 2026-10-11" }

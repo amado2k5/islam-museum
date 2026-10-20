@@ -37,5 +37,7 @@ relations:
   - { type: member_of, target: group/early-muslims }
   - { type: participated_in, target: event/battle-of-badr }
   - { type: participated_in, target: event/battle-of-uhud, role: killed }
+external_ids:
+  wikidata: Q770033
 sources: [source/ibn-ishaq-guillaume, source/ibn-sad-tabaqat-bewley, source/watt-1956-medina, source/mubarakpuri-raheeq, source/talqih-fuhum-ahl-al-athr, source/zad-al-maad, source/sahih-al-bukhari]
 status: { review: draft, completeness: 2, generated_by: "Devin; 2026-10-11" }

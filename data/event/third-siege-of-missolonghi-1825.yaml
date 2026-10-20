@@ -1,0 +1,23 @@
+id: event/third-siege-of-missolonghi-1825
+class: event
+kind: siege
+label: { ar: "حصار ميسولونغي الثالث", en: "Third Siege of Missolonghi" }
+summary:
+  ar: "بطاقة أولية لحصار ميسولونغي الثالث سنة ١٨٢٥م، سقوط المدينة اليونانية بعد حصار عثماني مصري طويل في حرب الاستقلال؛ لم تُراجع مصادره على الصفحة بعد."
+  en: "Draft card for the Third Siege of Missolonghi of 1825–26, the Greek city's fall after the long Ottoman-Egyptian blockade; its sources are not yet checked on the page."
+wings: [time]
+periods: [period/colonial-era]
+regions: [anatolia-balkans]
+date:
+  start: { edtf: "1825", precision: year, status: tradition, derived: true }
+  end: { edtf: "1826", precision: year, status: tradition, derived: true }
+sources: [source/dawlat-uthmaniyya-salabi]
+external_ids:
+  wikidata: Q650567
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; siege attested in Greek independence histories — entry not yet checked on the page"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-wave2
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

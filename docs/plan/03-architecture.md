@@ -97,6 +97,8 @@ A second repo **`islam-museum-media`** (GitHub Pages at `media.islam.museum`, or
 
 ## 4. Build pipeline
 
+The R2 upload step is a Worker-based sync, not a shell script. Its flow, secrets, test workflow and Worker configs are in [`workers/r2-sync/README.md`](../../workers/r2-sync/README.md).
+
 ```
 data/ + content/ + geo/ + schema/
         │
@@ -242,7 +244,7 @@ The ~37k pagefind chunk files are served from **Cloudflare R2** (`islam-museum-s
 - Content Security Policy strict; external embeds (IIIF, YouTube) are opt-in per visitor click.
 - Dependabot and lockfile; signed deploys from `main` only; branch protection with required CI.
 - Monthly export of the full graph (`api/v1/graph/*.ndjson`) and a GitHub Release; Zenodo DOI per release for citation.
-- The site has no runtime dependency: if Cloudflare disappears, GitHub Pages still serves it; if GitHub disappears, any static host serves `dist/`; if the web disappears, the repo is the museum.
+- The site has no runtime dependency: if Cloudflare Pages or R2 disappears, GitHub Pages (the fallback mirror) or any static host serves `dist/` unchanged, including the `api/` and `pagefind-*` folders; if GitHub disappears, any static host and any CI serve and build it; if the web disappears, the repo is the museum.
 
 ## 13. No AI and no compute at runtime (hard rule)
 

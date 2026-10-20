@@ -15,5 +15,7 @@ regions: [arabia]
 relations:
   - { type: part_of, target: concept/kutub-al-sitta, sources: [source/sunan-abi-dawud] }
 provenance: { layer: own-research, source: "Sunan Abi Dawud source record (Kanpur/Deoband edition)", generated_by: "Devin (SWE-2 High)", run: "hadith-section-1" }
+external_ids:
+  wikidata: Q947278
 sources: [source/sunan-abi-dawud]
 status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High); structure only, no hadith texts" }

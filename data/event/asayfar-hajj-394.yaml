@@ -1,0 +1,23 @@
+id: event/asayfar-hajj-394
+class: event
+kind: raid
+label: { ar: "اعتراض الأسيفر المنتفقي الحاج وهبته أموالهم" }
+summary:
+  ar: "اعترض الأسيفر المنتفقي الحاج في سنة أربع وتسعين بالباطنة وحاصرهم وعول على نهبهم فدخل إليه أبو الحسين بن الرفاء وأبو عبد الله بن الدجاجي القارئان فقرا بين يديه وسألهما عن عيشهما ببغداد فقالا تصلنا الخلع والصلات والهدايا، فلما أنكرا أن يكون قد وهب لهما أهل بغداد ألف ألف دينار قال قد وهبت لكما الحاج وأموالهم وذلك يزيد على ألف ألف دينار فوفى للحاج بذلك، وقال أهل مكة ومصر والشام ما سمعنا عن أهل بغداد تبذيراً مثل هذا {cite:muntazam-ibn-al-jawzi j.7 p.227-228}."
+wings: [time]
+periods: [period/buyid-seljuk-fatimid-era]
+regions: [arabia, levant-iraq]
+date:
+  start: { edtf: "1003~", hijri: "0394", calendar: julian, precision: year, status: tradition, derived: true, note: "موسم حج سنة 394؛ التحويل مشتق {cite:muntazam-ibn-al-jawzi j.7 p.227}" }
+sides:
+  - label: { ar: "الأسيفر المنتفقي وجمعه من الباطنة" }
+  - label: { ar: "قافلة الحاج العراقية" }
+relations:
+  - { type: had_participant, target: person/ibn-al-raffa-qari, role: "دخل إليه وقرأ بين يديه", sources: [source/muntazam-ibn-al-jawzi] }
+provenance:
+  layer: own-research
+  source: "المنتظم في تاريخ الملوك والأمم — ابن الجوزي (ج7، أحداث سنة 394)، قراءة آبل فيجن"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-muntazam-batch-21
+sources: [source/muntazam-ibn-al-jawzi]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

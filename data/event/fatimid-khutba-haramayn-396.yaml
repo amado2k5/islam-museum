@@ -1,0 +1,22 @@
+id: event/fatimid-khutba-haramayn-396
+class: event
+kind: other
+label: { ar: "الخطبة للحاكم صاحب مصر بمكة والمدينة" }
+summary:
+  ar: "في سنة ست وتسعين حج بالناس أحمد بن محمد بن عمر العلوي وخطب بمكة والمدينة للحاكم صاحب مصر على الرسم في ذلك، وأمر الناس في الحرمين بالقيام عند ذكره وفعل مثل ذلك بمصر وكان إذا ذكر قاموا وسجدوا في السوق ومواضع الاجتماع {cite:muntazam-ibn-al-jawzi j.7 p.231}."
+wings: [time]
+periods: [period/buyid-seljuk-fatimid-era]
+regions: [arabia, egypt-nile]
+date:
+  start: { edtf: "1005~", hijri: "0396", calendar: julian, precision: year, status: tradition, derived: true, note: "أحداث سنة 396؛ التحويل مشتق {cite:muntazam-ibn-al-jawzi j.7 p.231}" }
+relations:
+  - { type: located_in, target: place/mecca, sources: [source/muntazam-ibn-al-jawzi] }
+  - { type: located_in, target: place/medina, sources: [source/muntazam-ibn-al-jawzi] }
+  - { type: had_participant, target: person/al-hakim-bi-amr-allah, role: "خطب له بالحرمين", sources: [source/muntazam-ibn-al-jawzi] }
+provenance:
+  layer: own-research
+  source: "المنتظم في تاريخ الملوك والأمم — ابن الجوزي (ج7، أحداث سنة 396)، قراءة آبل فيجن"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-muntazam-batch-21
+sources: [source/muntazam-ibn-al-jawzi]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

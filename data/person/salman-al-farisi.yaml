@@ -29,5 +29,6 @@ relations:
   - { type: member_of, target: group/early-muslims }
   - { type: converted_under, target: person/muhammad, start: { edtf: "0622~" }, sources: [source/ibn-sad-tabaqat-bewley] }
   - { type: participated_in, target: event/battle-of-the-trench, role: proposed-digging-the-trench, sources: [source/ibn-ishaq-guillaume, source/ibn-sad-tabaqat-bewley] }
+external_ids: { wikidata: "Q557378" }
 sources: [source/ibn-sad-tabaqat-bewley, source/ibn-ishaq-guillaume, source/muruj-al-dhahab]
 status: { review: draft, completeness: 2, generated_by: "Devin; 2026-10-11" }

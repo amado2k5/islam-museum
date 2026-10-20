@@ -28,6 +28,7 @@ relations:
   - { type: parent_of, target: person/awn-ibn-ali, sources: [source/nisa-hawl-alrasul] }
   - { type: participated_in, target: event/return-from-abyssinia, role: participant, sources: [source/ibn-hisham-saqqa-1936] }
   - { type: participated_in, target: event/mutah-prophets-grief-and-condolence, role: bereaved-widow, sources: [source/ibn-hisham-saqqa-1936] }
+external_ids: { wikidata: "Q2739346" }
 sources: [source/ibn-hisham-saqqa-1936, source/ibn-hisham-saqqa, source/nisa-hawl-alrasul, source/muruj-al-dhahab]
 status:
   review: draft

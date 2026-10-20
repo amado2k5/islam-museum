@@ -1,0 +1,27 @@
+id: building/al-askari-shrine
+class: building
+kind: shrine
+label:
+  ar: "العتبة العسكرية"
+  en: "al-Askari shrine (Samarra)"
+summary:
+  ar: "بطاقة أولية للعتبة العسكرية بسامراء، الضريح الذي يضم قبر علي الهادي والحسن العسكري، وردت في وصف مرجعي مفتوح (ويكي البيانات). لم يُراجع نص معجم البلدان في سامراء وسرّ من رأى على الصفحة بعد."
+  en: "Draft card for the al-Askari shrine at Samarra, the sanctuary holding the graves of Ali al-Hadi and Hasan al-Askari, named from an open reference description (Wikidata); its Mujam al-Buldan coverage is not yet read on the page."
+wings: [objects]
+regions: [levant-iraq]
+relations:
+  - type: located_in
+    target: place/samarra
+    sources: [source/wikidata]
+sources: [source/mujam-al-buldan, source/wikidata]
+external_ids:
+  wikidata: Q309484
+provenance:
+  layer: own-research
+  source: "Wikidata Q309484 (religion claim Islam); book source: Yaqut, Mujam al-Buldan — entry not yet read on the page"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-0007
+status:
+  review: draft
+  completeness: 1

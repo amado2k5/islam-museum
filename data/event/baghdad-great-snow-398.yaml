@@ -1,0 +1,21 @@
+id: event/baghdad-great-snow-398
+class: event
+kind: other
+label: { ar: "ثلج بغداد العظيم سنة ثمان وتسعين" }
+summary:
+  ar: "وقع الثلج ببغداد يوم الأربعاء الحادي عشر من ربيع الأول سنة ثمان وتسعين فعلا على وجه الأرض ذراعاً في موضع وذراعاً ونصفاً وأقام أسبوعاً لم يذب فرماه الناس عن سطوحهم بالرفوش إلى الشوارع والدروب وبقيت منه بقايا في موضع نحو عشرين يوماً، وبلغ سقوطه إلى تكريت ووردت الكتب من واسط بسقوطه فيها وبين البطيحة والبصرة والكوفة وعكبرا ومهروبان {cite:muntazam-ibn-al-jawzi j.7 p.238}."
+wings: [time]
+periods: [period/buyid-seljuk-fatimid-era]
+regions: [levant-iraq]
+date:
+  start: { edtf: "1007-12-04~", hijri: "0398-03-11", calendar: julian, precision: day, status: tradition, derived: true, note: "يوم الأربعاء 11 ربيع الأول 398؛ التحويل مشتق {cite:muntazam-ibn-al-jawzi j.7 p.238}" }
+relations:
+  - { type: located_in, target: place/baghdad, sources: [source/muntazam-ibn-al-jawzi] }
+  - { type: located_in, target: place/tikrit, sources: [source/muntazam-ibn-al-jawzi] }
+provenance:
+  layer: own-research
+  source: "المنتظم في تاريخ الملوك والأمم — ابن الجوزي (ج7، أحداث سنة 398)، قراءة آبل فيجن"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-muntazam-batch-21
+sources: [source/muntazam-ibn-al-jawzi]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

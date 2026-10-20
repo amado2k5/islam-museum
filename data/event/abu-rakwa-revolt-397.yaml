@@ -1,0 +1,26 @@
+id: event/abu-rakwa-revolt-397
+class: event
+kind: war
+label: { ar: "خروج أبي ركوة الأموي على الحاكم" }
+summary:
+  ar: "خرج أبو ركوة — وهو رجل أموي من ولد هشام بن عبد الملك اسمه الوليد، كني بأبي ركوة لركوة كانت معه في أسفاره على مذهب الصوفية — يدعو إلى القائم من ولد هشام بن عبد الملك ويأخذ البيعة، فنزل الحلة معلماً واجتمع عنده صبيان العرب ثم أعلمهم أنه الإمام ولقب نفسه الثائر بأمر الله المنتصر من أعداء الله، فدخل برقة فجمع له أهلها مائتي ألف دينار وأخذ من رجل يهودي اتهمه بودائع عنده مائة ألف دينار ونقش السكة باسمه وألقابه وركب يوم الجمعة وخطب ولعن الحاكم، فجمع له الحاكم ستة عشر ألفاً وبعث عليهم الفضل بن عبد الله وحمل إليه خمسمائة ألف دينار وخمسة آلاف قطعة ثياب، فتلقاه أبو ركوة فراوغه الفضل حتى طلب أصحابه تسليمه إلى بلاد النوبة لعهد وذمام بينه وبينهم، فأوصلوه إليها فبعث الفضل وراءه فتسلموه وحمل إلى الحاكم فأركبه جملاً وشهره ثم قتله، وأكرم الحاكم الفضل إكراماً عظيماً ثم قتله بعد أن برئ من علة عرضت له {cite:muntazam-ibn-al-jawzi j.7 p.234-235}."
+wings: [time]
+periods: [period/buyid-seljuk-fatimid-era]
+regions: [egypt-nile, levant-iraq]
+date:
+  start: { edtf: "1006~", hijri: "0397", calendar: julian, precision: year, status: tradition, derived: true, note: "أحداث سنة 397؛ التحويل مشتق {cite:muntazam-ibn-al-jawzi j.7 p.234}" }
+sides:
+  - label: { ar: "أبو ركوة وأصحابه — أهل برقة ومن انضم إليه" }
+  - label: { ar: "جيش الحاكم بقيادة الفضل بن عبد الله" }
+map: { kind: campaign, precision: locality, center: [32.0667, 20.2667] }
+relations:
+  - { type: occurred_at, target: place/barqa, sources: [source/muntazam-ibn-al-jawzi] }
+  - { type: had_participant, target: person/abu-rakwa, role: "الخارج المتلبس بإمارة ولد هشام", sources: [source/muntazam-ibn-al-jawzi] }
+  - { type: had_participant, target: person/al-hakim-bi-amr-allah, role: "أرسل جيش الفضل بن عبد الله عليه", sources: [source/muntazam-ibn-al-jawzi] }
+provenance:
+  layer: own-research
+  source: "المنتظم في تاريخ الملوك والأمم — ابن الجوزي (ج7، أحداث سنة 397)، قراءة آبل فيجن"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-muntazam-batch-21
+sources: [source/muntazam-ibn-al-jawzi]
+status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 High)" }

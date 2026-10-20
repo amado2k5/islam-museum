@@ -1,6 +1,7 @@
 id: person/makhul-al-dimashqi
 class: person
 label: { ar: "مكحول الدمشقي", en: "Makhul al-Dimashqi" }
+aliases: [person/makhul-al-shami]
 died: { edtf: "0736~", hijri: "0118", calendar: julian, precision: year, status: tradition, derived: true, note: "توفي سنة ثمان عشرة ومائة وقيل ثلاث عشرة وقيل ست عشرة وقيل اثنتي عشرة وقيل أربع عشرة {cite:wafayat-ayan}." }
 summary:
   ar: "أبو عبد الله مكحول بن عبد الله الشامي نسباً الكابلي؛ قال ابن عائشة كان مولى لامرأة من قيس، وقال الواقدي مولى لامرأة من هذيل، وقيل مولى لبني ليث؛ وقال الخطيب كان جده ساسانياً من أهل هراة تزوج ابنة ملك من ملوك كابل فهلك عنها وهي حامل فولدت مكحولاً فلم يزل في أخواله بكابل ثم قدم؛ وقيل: والحسن البصري بالبصرة ومكحول بالشام، ولم يكن في زمنه أبصر منه بالفتيا {cite:wafayat-ayan}."
@@ -13,5 +14,7 @@ provenance:
   source: "وفيات الأعيان لابن خلكان — المسح المحلي المقروء بآبل فيجن (الجزء الثاني، حروف م–ي)"
   generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
   run: lib-wafayat-batch-6
-sources: [source/wafayat-ayan]
+sources: [source/wafayat-ayan, source/muruj-al-dhahab]
+external_ids:
+  wikidata: Q6867022
 status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

@@ -28,5 +28,6 @@ relations:
   - { type: member_of, target: group/early-muslims }
   - { type: participated_in, target: event/battle-of-mutah, role: third-commander, sources: [source/ibn-hisham-saqqa] }
   - { type: died_in, target: place/mutah }
+external_ids: { wikidata: "Q1111126" }
 sources: [source/ibn-hisham-saqqa]
 status: { review: draft, completeness: 2, generated_by: "kiro; mined from Ibn Hisham juz' 4 pp. 15-22" }

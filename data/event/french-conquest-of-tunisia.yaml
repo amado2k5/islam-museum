@@ -1,0 +1,23 @@
+id: event/french-conquest-of-tunisia
+class: event
+kind: conquest
+label: { ar: "الغزو الفرنسي لتونس", en: "French conquest of Tunisia" }
+summary:
+  ar: "بطاقة أولية للغزو الفرنسي لتونس سنة ١٨٨١م، الحملة التي فرضت حماية باردو على البايلك؛ لم تُراجع مصادره على الصفحة بعد."
+  en: "Draft card for the French conquest of Tunisia in 1881, the campaign that imposed the Bardo protectorate on the beylik; its sources are not yet checked on the page."
+wings: [time]
+periods: [period/colonial-era]
+regions: [maghreb]
+date:
+  start: { edtf: "1881", precision: year, status: tradition, derived: true }
+  end: { edtf: "1882", precision: year, status: tradition, derived: true }
+sources: [source/tarikh-islam-hasan-ibrahim]
+external_ids:
+  wikidata: Q385820
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; conquest attested in Tunisian histories — entry not yet checked on the page"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-wave2
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

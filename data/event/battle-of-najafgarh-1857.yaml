@@ -1,0 +1,23 @@
+id: event/battle-of-najafgarh-1857
+class: event
+kind: battle
+label: { ar: "معركة نجف غره", en: "Battle of Najafgarh" }
+summary:
+  ar: "بطاقة أولية لمعركة نجف غره سنة ١٨٥٧م، فوز البريطانيين على الثوار قرب دلهي؛ لم تُراجع مصادره على الصفحة بعد."
+  en: "Draft card for the Battle of Najafgarh in 1857, the British win over the rebels near Delhi; its sources are not yet checked on the page."
+wings: [time]
+periods: [period/colonial-era]
+regions: [south-asia]
+date:
+  start: { edtf: "1857", precision: year, status: tradition, derived: true }
+  end: { edtf: "1857", precision: year, status: tradition, derived: true }
+sources: [source/tarikh-islam-hasan-ibrahim]
+external_ids:
+  wikidata: Q4087449
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; battle attested in narrative histories — entry not yet checked on the page"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-wave2
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

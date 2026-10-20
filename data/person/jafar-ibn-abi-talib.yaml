@@ -32,5 +32,7 @@ relations:
   - { type: participated_in, target: event/first-migration-to-abyssinia, role: leader-and-spokesman, sources: [source/ibn-sad-tabaqat-bewley, source/ibn-ishaq-guillaume] }
   - { type: traveled_to, target: place/aksum, sources: [source/ibn-sad-tabaqat-bewley] }
   - { type: participated_in, target: event/battle-of-mutah, role: second-commander, sources: [source/ibn-ishaq-guillaume] }
+external_ids:
+  wikidata: Q1147498
 sources: [source/ibn-sad-tabaqat-bewley, source/ibn-ishaq-guillaume, source/sahih-al-bukhari]
 status: { review: draft, completeness: 2, generated_by: "Devin; 2026-10-11" }

@@ -33,5 +33,7 @@ relations:
   - { type: converted_under, target: person/muhammad, start: { edtf: "0629" }, sources: [source/ibn-sad-tabaqat-bewley] }
   - { type: participated_in, target: event/conquest-of-egypt, role: muslim-commander, sources: [source/tabari-donner-1993] }
   - { type: allied_with, target: person/muawiya-ibn-abi-sufyan, start: { edtf: "0657~" }, sources: [source/ibn-sad-tabaqat-bewley] }
+external_ids:
+  wikidata: Q314781
 sources: [source/ibn-sad-tabaqat-bewley, source/tabari-donner-1993, source/ibn-ishaq-guillaume, source/muruj-al-dhahab, source/ibn-hisham-saqqa]
 status: { review: draft, completeness: 2, generated_by: "Devin; 2026-10-11" }

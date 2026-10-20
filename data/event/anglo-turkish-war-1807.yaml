@@ -1,0 +1,23 @@
+id: event/anglo-turkish-war-1807
+class: event
+kind: war
+label: { ar: "الحرب الأنجلو-عثمانية", en: "Anglo-Turkish War" }
+summary:
+  ar: "بطاقة أولية للحرب الأنجلو-عثمانية من ١٨٠٧ إلى ١٨٠٩م، حرب البحر المتوسط في زمن نابليون التي ضمت محاولة الإسكندرية؛ لم تُراجع مصادره على الصفحة بعد."
+  en: "Draft card for the Anglo-Turkish War of 1807–1809, the Napoleonic-era Mediterranean war that included the Alexandria attempt; its sources are not yet checked on the page."
+wings: [time]
+periods: [period/colonial-era]
+regions: [anatolia-balkans]
+date:
+  start: { edtf: "1807", precision: year, status: tradition, derived: true }
+  end: { edtf: "1809", precision: year, status: tradition, derived: true }
+sources: [source/dawlat-uthmaniyya-salabi]
+external_ids:
+  wikidata: Q31301
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; war attested in Ottoman histories — entry not yet checked on the page"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-wave2
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

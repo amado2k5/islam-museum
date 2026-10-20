@@ -1,0 +1,64 @@
+---
+id: period/pre-islamic-arabia
+lang: ur
+source_lang: ar
+translators: ["Claude Haiku 5.5 (claude-haiku-5-5), draft translation"]
+---
+
+## تعارف
+جزیرہ نما عرب اور اس کے قریبی علاقے، وحی سے پہلے کی نسلیں: تجارتی شہر، قبائل، شاعری اور یہودی، عیسائی و بت پرست جماعتیں۔ میوزیم اسے تقریباً 500ء سے 610ء تک رکھتا ہے۔ یہ حدود میوزیم نے ترتیب کے لیے مقرر کی ہیں اور قطعی نہیں ہیں۔
+
+## جائزہ
+میوزیم میں اس دور کا مواد آج یہ ہے: نمایاں واقعات: 10، ریاستیں: 8، گروہ: 13، سب سے زیادہ ذکر ہونے والی شخصیات: 28، عمارات: 4۔
+
+### نمایاں واقعات
+- [[event/sacrifice-of-ismail|اسماعیل کو ذبح کرنے کا حکم]] (تقریباً 1900 قبل مسیح)
+- [[event/building-of-the-kaaba|کعبہ کی بنیادوں کا اٹھانا]] (تقریباً 1900 قبل مسیح)
+- [[event/qusayy-takes-mecca|قصی بن کلاب کا مکہ پر قبضہ]] (440ء)
+- [[event/flood-of-al-aram|سیلِ عرم]] (تقریباً 450ء)
+- [[event/massacre-of-najran|نجران کا قتلِ عام (اصحابِ الأخدود)]] (523ء)
+- [[event/abyssinian-occupation-of-yemen|یمن پر حبشیوں کا دوسرا قبضہ]] (525ء تا 575ء)
+- [[event/persian-rule-of-yemen|یمن کی آزادی اور فارسی حکمرانی]] (575ء تا 638ء)
+- [[event/battle-of-dhu-qar|یومِ ذی قار]] (تقریباً 604ء)
+
+### ریاستیں
+- [[polity/byzantine-empire|بازنطینی سلطنت (روم)]]
+- [[polity/sasanian-empire|ساسانی سلطنت (فارس)]]
+- [[polity/aksumite-kingdom|مملکتِ اکسوم (حبشہ)]]
+- [[polity/ghassanid-kingdom|غسانی سلطنت]] (تقریباً 220ء تا 636ء)
+- [[polity/himyarite-kingdom|حمیری سلطنت]] (تقریباً 115 قبل مسیح تا 638ء)
+- [[polity/kingdom-of-saba|سبا کی سلطنت]] (تقریباً 1100 قبل مسیح تا تقریباً 115 قبل مسیح)
+- [[polity/lakhmid-kingdom|حیرہ کی سلطنت (منذری)]] (تقریباً 268ء تا 632ء)
+- [[polity/nabataean-kingdom|نبطی سلطنت]]
+
+### گروہ
+- [[group/quraysh|قریش]]
+- [[group/hawazin|ہوازن]]
+- [[group/jurhum|جرہم]]
+- [[group/himyar|حمیر]]
+- [[group/banu-lakhm|لخم (منذری)]]
+- [[group/banu-shayban|بنو شیبان بن بکر بن وائل]]
+
+### سب سے زیادہ ذکر ہونے والی شخصیات
+- [[person/abu-talib|ابو طالب بن عبد المطلب]]
+- [[person/abd-al-muttalib|عبد المطلب بن ہاشم]]
+- [[person/halima-al-sadiyya|حلیمہ سعدیہ]]
+- [[person/durayd-ibn-al-simma|دُرَید بن الصمّہ]]
+- [[person/hajar|ہاجرہ]]
+- [[person/ibrahim|ابراہیم]]
+- [[person/hashim-ibn-abd-manaf|ہاشم بن عبد مناف]]
+- [[person/ismail|اسماعیل]]
+- [[person/qusayy-ibn-kilab|قصی بن کلاب]]
+- [[person/abd-manaf-ibn-qusayy|عبد مناف بن قصی]]
+
+### عمارات
+- [[building/kaaba|کعبہ]]
+- [[building/dar-al-nadwa|دار الندوہ]]
+- [[building/marib-dam|مآرب کا بند]]
+- [[building/al-qullays|القُلَیس (یمانی کعبہ)]]
+
+## یہ صفحہ کیا احاطہ کرتا ہے
+ذکر کردہ فہرستیں میوزیم کے سب سے مشہور اور زیادہ ذکر ہونے والے مواد کی ہیں، نہ کہ اس میں موجود تمام مواد کی؛ اس دور کا مزید مواد اصل مصادر سے ہر نئے مرحلے کے ساتھ شامل ہوتا رہے گا۔
+
+## محققین کے لیے نوٹس
+دور کی حدود میوزیم کی متعین کردہ اور تقریبی ہیں؛ اس دور کی وسیع تاریخ کے لیے دیکھیے {cite:hodgson-1974} {cite:hourani-1991}۔

@@ -31,5 +31,6 @@ relations:
   - { type: traveled_to, target: place/aksum, note: "أرض الحبشة", sources: [source/ibn-hisham-saqqa] }
   - { type: member_of, target: group/mothers-of-the-believers, sources: [source/tanzil-quran, source/mubarakpuri-raheeq] }
 provenance: { layer: own-research, source: "sira-ibn-hisham saqqa 1936, juz' 4 pp. 38–39", generated_by: "Devin", run: "ibn-hisham-batch-1a" }
+external_ids: { wikidata: "Q2138599" }
 sources: [source/ibn-hisham-saqqa, source/ibn-sad-tabaqat-bewley, source/mubarakpuri-raheeq, source/nisa-hawl-alrasul]
 status: { review: draft, completeness: 1, generated_by: "Devin; mined from Ibn Hisham juz' 4 pp. 38–39; restored and merged with pp. 6, 10 by Claude Sonnet 5.5 after a thin overwrite in 84108c2" }

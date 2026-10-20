@@ -1,20 +1,21 @@
 id: person/al-shanbudhi
 class: person
-label: { ar: "الشنبوذي" }
-names:
-  - { value: "أبو الفرج محمد بن أحمد بن إبراهيم الشنبوذي المقريء", kind: full }
-gender: male
+label: { ar: "أبو الفرج محمد بن أحمد الشنبوذي المقري" }
 summary:
-  ar: "المقريء البغدادي غلام ابن شنبوذ، قرأ عليه القراءات وعلى ابن مجاهد وجماعة واعتنى بهذا الشأن وتصدر للإقراء وكان عارفاً بالتفسير وكان يقول أحفظ خمسين ألف بيت من الشعر شواهد للقرآن؛ تكلم فيه الدارقطني {cite:shadharat-dhahab p. 137}."
-  en: "The Baghdadi muqri' al-Shanbudhi, reader under Ibn Mujahid, who held fifty thousand verses of poetry as Qur'anic shawahid {cite:shadharat-dhahab p. 137}."
-roles: [scholar]
+  ar: "محمد بن أحمد بن إبراهيم أبو الفرج المقري المعروف بغلام الشنبوذي، ولد سنة ثلاثمائة، وقرأ على أبي الحسن بن شنبوذ وكتب في القراءات. قال أبو الفضل عبيد الله بن أحمد الصيرفي عظم أمره ووصف علمه بالقراءات وحفظه للتفسير وسمعته يقول حفظت خمسين ألف بيت من الشعر شواهد للقرآن. وأساء الدارقطني القول فيه والثناء عليه. توفي في صفر سنة ثمان وثمانين وقيل سنة سبع وثمانين {cite:muntazam-ibn-al-jawzi j.7 p.207-208}."
 wings: [people]
 periods: [period/buyid-seljuk-fatimid-era]
 regions: [levant-iraq]
+roles: [scholar, teacher]
+themes: [scripture-and-its-sciences]
+born:
+  { edtf: "0912~", hijri: "0300", calendar: julian, precision: year, status: tradition, derived: true, note: "ولد سنة 300؛ التحويل مشتق {cite:muntazam-ibn-al-jawzi j.7 p.207}" }
+died:
+  { edtf: "0998-01~", hijri: "0388-02", calendar: julian, precision: month, status: tradition, derived: true, note: "صفر 388 وقيل 387؛ التحويل مشتق {cite:muntazam-ibn-al-jawzi j.7 p.208}" }
 provenance:
   layer: own-research
-  source: "شذرات الذهب — ابن العماد (ج3، سنين 350–600)"
+  source: "المنتظم في تاريخ الملوك والأمم — ابن الجوزي (ج7، وفيات سنة 388)، قراءة آبل فيجن"
   generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
-  run: lib-shadharat-batch-33
-sources: [source/shadharat-dhahab]
-status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 High)" }
+  run: lib-muntazam-batch-21
+sources: [source/muntazam-ibn-al-jawzi]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

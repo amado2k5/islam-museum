@@ -1,0 +1,23 @@
+id: event/siege-of-malta-1565
+class: event
+kind: siege
+label: { ar: "حصار مالطة الكبير", en: "Great Siege of Malta" }
+summary:
+  ar: "بطاقة أولية للحصار العثماني الكبير لمالطة سنة ١٥٦٥م، حين صمد فرسان القديس يوحنا أمام الأسطول والجيش العثمانيين؛ لم تُراجع مصادره على الصفحة بعد."
+  en: "Draft card for the Great Siege of Malta in 1565, when the Knights of Saint John withstood the Ottoman fleet and army; its sources are not yet checked on the page."
+wings: [time]
+periods: [period/gunpowder-empires]
+regions: [anatolia-balkans]
+date:
+  start: { edtf: "1565", precision: year, status: tradition, derived: true }
+  end: { edtf: "1565", precision: year, status: tradition, derived: true }
+sources: [source/dawlat-uthmaniyya-salabi]
+external_ids:
+  wikidata: Q58732
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; siege attested in Ottoman-history surveys — entry not yet checked on the page"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-wave2
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

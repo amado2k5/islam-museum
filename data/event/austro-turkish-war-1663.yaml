@@ -1,0 +1,23 @@
+id: event/austro-turkish-war-1663
+class: event
+kind: war
+label: { ar: "الحرب العثمانية النمساوية (١٦٦٣–١٦٦٤)", en: "Austro-Turkish War of 1663–1664" }
+summary:
+  ar: "بطاقة أولية للحرب العثمانية النمساوية من ١٦٦٣ إلى ١٦٦٤م التي انتهت بصلح فاشفار؛ لم تُراجع مصادرها على الصفحة بعد."
+  en: "Draft card for the Austro-Turkish War of 1663–1664 ended by the Peace of Vasvár; its sources are not yet checked on the page."
+wings: [time]
+periods: [period/gunpowder-empires]
+regions: [anatolia-balkans]
+date:
+  start: { edtf: "1663", precision: year, status: tradition, derived: true }
+  end: { edtf: "1664", precision: year, status: tradition, derived: true }
+sources: [source/dawlat-uthmaniyya-salabi]
+external_ids:
+  wikidata: Q258679
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; war attested in Ottoman histories — entry not yet checked on the page"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-wave2
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

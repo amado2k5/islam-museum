@@ -1,0 +1,23 @@
+id: event/siege-of-aleppo-1260
+class: event
+kind: siege
+label: { ar: "حصار حلب (١٢٦٠)", en: "Siege of Aleppo" }
+summary:
+  ar: "بطاقة أولية لحصار حلب سنة ١٢٦٠م، سقوط المدينة بيد هولاكو في الغزو المغولي لبلاد الشام؛ لم تُراجع مصادره على الصفحة بعد."
+  en: "Draft card for the Siege of Aleppo in 1260, the city's fall to Hulegu in the Mongol invasion of Syria; its sources are not yet checked on the page."
+wings: [time]
+periods: [period/crusades-ayyubid-mamluk]
+regions: [levant-iraq]
+date:
+  start: { edtf: "1260", precision: year, status: tradition, derived: true }
+  end: { edtf: "1260", precision: year, status: tradition, derived: true }
+sources: [source/kamil-ibn-al-athir]
+external_ids:
+  wikidata: Q7509797
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; siege attested in Mongol-period histories — entry not yet checked on the page"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-wave2
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

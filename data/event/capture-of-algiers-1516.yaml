@@ -1,0 +1,23 @@
+id: event/capture-of-algiers-1516
+class: event
+kind: conquest
+label: { ar: "فتح الجزائر (١٥١٦)", en: "Capture of Algiers" }
+summary:
+  ar: "بطاقة أولية لفتح الجزائر سنة ١٥١٦م، دخول عروج بربروسا للمدينة بدعوة أهلها ضد الإسبان؛ لم تُراجع مصادره على الصفحة بعد."
+  en: "Draft card for the capture of Algiers in 1516, Aruj Barbarossa's entry at the townspeople's call against Spain; its sources are not yet checked on the page."
+wings: [time]
+periods: [period/gunpowder-empires]
+regions: [maghreb]
+date:
+  start: { edtf: "1516", precision: year, status: tradition, derived: true }
+  end: { edtf: "1516", precision: year, status: tradition, derived: true }
+sources: [source/tarikh-ibn-khaldun-ibar]
+external_ids:
+  wikidata: Q4188858
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; capture attested in Algerian histories — entry not yet checked on the page"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-wave2
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

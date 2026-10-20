@@ -1,0 +1,20 @@
+id: person/al-muwaffaq-al-iskafi
+class: person
+label: { ar: "أبو علي الحسن بن محمد الإسكافي الموفق" }
+summary:
+  ar: "الحسن بن محمد بن إسماعيل أبو علي الإسكافي ويلقب بالموفق، كان متقدماً عند بهاء الدولة بن ناصر فولاه بغداد فقبض على اليهود وأخذ منهم دنانير وهرب إلى البطيحة فأقام بها سنتين ثم خرج فوزر لبهاء الدولة، وكان شهماً في الحروب منصوراً فيها فأخذ بلاد فارس ممن استولى عليها وارتفع أمره حتى قال قائل لبهاء الدولة زينك الله يا مولانا في عين الموفق فألغ في عقوبته ثم قتله سنة أربع وتسعين وله تسع وأربعون سنة {cite:muntazam-ibn-al-jawzi j.7 p.228-229}."
+wings: [people]
+periods: [period/buyid-seljuk-fatimid-era]
+regions: [levant-iraq, persia-central-asia]
+roles: [vizier, general]
+died:
+  { edtf: "1003~", hijri: "0394", calendar: julian, precision: year, status: tradition, derived: true, note: "394 وله تسع وأربعون سنة؛ التحويل مشتق {cite:muntazam-ibn-al-jawzi j.7 p.229}" }
+relations:
+  - { type: related_to, target: person/baha-al-dawla, role: "وزيره؛ ولاه بغداد ثم أخذ فارس، فألغ في عقوبته ثم قتله سنة 394", sources: [source/muntazam-ibn-al-jawzi] }
+provenance:
+  layer: own-research
+  source: "المنتظم في تاريخ الملوك والأمم — ابن الجوزي (ج7، وفيات سنة 394)، قراءة آبل فيجن"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-muntazam-batch-21
+sources: [source/muntazam-ibn-al-jawzi]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

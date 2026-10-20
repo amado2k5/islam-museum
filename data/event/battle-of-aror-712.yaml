@@ -1,0 +1,23 @@
+id: event/battle-of-aror-712
+class: event
+kind: battle
+label: { ar: "معركة أرور", en: "Battle of Aror" }
+summary:
+  ar: "بطاقة أولية لمعركة أرور سنة ٧١٢م، فوز محمد بن القاسم على راجا داهر وفتح السند؛ لم تُراجع مصادره على الصفحة بعد."
+  en: "Draft card for the Battle of Aror in 712, Muhammad ibn al-Qasim's victory over Raja Dahir opening Sind; its sources are not yet checked on the page."
+wings: [time]
+periods: [period/umayyad]
+regions: [south-asia]
+date:
+  start: { edtf: "0712", precision: year, status: tradition, derived: true }
+  end: { edtf: "0712", precision: year, status: tradition, derived: true }
+sources: [source/futuh-buldan-maarif-1407]
+external_ids:
+  wikidata: Q122382759
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; battle attested in narrative histories — entry not yet checked on the page"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-wave2
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

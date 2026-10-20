@@ -1,0 +1,23 @@
+id: event/conquest-of-thessalonica-1430
+class: event
+kind: siege
+label: { ar: "فتح سالونيك", en: "Conquest of Thessalonica" }
+summary:
+  ar: "بطاقة أولية لحصار وفتح مراد الثاني لسالونيك سنة ١٤٣٠م بعد استلامها من البنادقة؛ لم تُراجع مصادره على الصفحة بعد."
+  en: "Draft card for Murad II's siege and capture of Thessalonica in 1430 after taking it over from Venice; its sources are not yet checked on the page."
+wings: [time]
+periods: [period/crusades-ayyubid-mamluk]
+regions: [anatolia-balkans]
+date:
+  start: { edtf: "1422", precision: year, status: tradition, derived: true }
+  end: { edtf: "1430", precision: year, status: tradition, derived: true }
+sources: [source/dawlat-uthmaniyya-salabi]
+external_ids:
+  wikidata: Q2426040
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; siege attested in Ottoman histories — entry not yet checked on the page"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-wave2
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

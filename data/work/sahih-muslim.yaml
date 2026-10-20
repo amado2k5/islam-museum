@@ -15,5 +15,7 @@ regions: [arabia]
 relations:
   - { type: part_of, target: concept/kutub-al-sitta, sources: [source/sahih-muslim] }
 provenance: { layer: own-research, source: "Sahih Muslim source record (al-Maktaba al-Rashidiyya, Delhi 1376 AH)", generated_by: "Devin (SWE-2 High)", run: "hadith-section-1" }
+external_ids:
+  wikidata: Q886659
 sources: [source/sahih-muslim]
 status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High); structure only, no hadith texts" }

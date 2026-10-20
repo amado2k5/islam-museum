@@ -29,5 +29,7 @@ relations:
   - { type: converted_under, target: person/muhammad, start: { edtf: "0614~" }, sources: [source/ibn-sad-tabaqat-bewley] }
   - { type: participated_in, target: event/hijra, sources: [source/ibn-sad-tabaqat-bewley] }
   - { type: died_in, target: place/al-rabadha, sources: [source/ibn-sad-tabaqat-bewley] }
+external_ids:
+  wikidata: Q1029610
 sources: [source/ibn-sad-tabaqat-bewley, source/madelung-1997, source/sahih-al-bukhari]
 status: { review: draft, completeness: 2, generated_by: "Devin; 2026-10-11" }

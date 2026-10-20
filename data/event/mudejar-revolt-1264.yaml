@@ -1,0 +1,23 @@
+id: event/mudejar-revolt-1264
+class: event
+kind: revolt
+label: { ar: "ثورة المدجنين (١٢٦٤)", en: "Mudéjar Revolt of 1264–1266" }
+summary:
+  ar: "بطاقة أولية لثورة المدجنين من ١٢٦٤ إلى ١٢٦٦م، انتفاضة مسلمي قشتالة بتحريض من غرناطة والمرينيين؛ لم تُراجع مصادره على الصفحة بعد."
+  en: "Draft card for the Mudéjar revolt of 1264–1266, the rising of Castile's Muslims stirred by Granada and the Marinids; its sources are not yet checked on the page."
+wings: [time]
+periods: [period/crusades-ayyubid-mamluk]
+regions: [andalus-europe]
+date:
+  start: { edtf: "1264", precision: year, status: tradition, derived: true }
+  end: { edtf: "1266", precision: year, status: tradition, derived: true }
+sources: [source/tarikh-islam-hasan-ibrahim]
+external_ids:
+  wikidata: Q47452670
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; revolt attested in Nasrid histories — entry not yet checked on the page"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-wave2
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

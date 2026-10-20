@@ -1,0 +1,23 @@
+id: person/abu-rakwa
+class: person
+label: { ar: "أبو ركوة الوليد الأموي" }
+summary:
+  ar: "الوليد المعروف بأبي ركوة، رجل أموي من ولد هشام بن عبد الملك، كني بأبي ركوة لركوة كانت معه في أسفاره على مذهب الصوفية، لقي الشيوخ وكتب الحديث بمصر وانتقل إلى مكة ثم اليمن ثم عاد إلى الشام، وكان يدعو إلى القائم من ولد هشام بن عبد الملك ويأخذ البيعة ممن يجد عنده انقياداً، فنزل الحلة معلماً واجتمع عنده صبيان العرب ثم أعلمهم أنه الإمام الذي يدعو إليه ولقب نفسه الثائر بأمر الله المنتصر من أعداء الله، ودخل برقة فنقش السكة باسمه وخطب ولعن الحاكم، فبعث الحاكم عليه الفضل بن عبد الله فهزمه وسلمته بلاد النوبة بعد أن أوصلوه إليها لعهد زعمه، فحمل إلى مصر فأركبه الحاكم جملاً وشهره ثم قتله {cite:muntazam-ibn-al-jawzi j.7 p.234-235}."
+wings: [people]
+periods: [period/buyid-seljuk-fatimid-era]
+regions: [egypt-nile, levant-iraq]
+roles: [activist]
+story_roles:
+  - { role: rival-claimant, status: tradition, sources: [source/muntazam-ibn-al-jawzi] }
+  - { role: rebel, status: tradition, sources: [source/muntazam-ibn-al-jawzi] }
+died:
+  { edtf: "1006~", hijri: "0397~", calendar: julian, precision: year, status: tradition, derived: true, note: "قتل بعد هزيمته قريباً من سنة 397؛ التحويل مشتق {cite:muntazam-ibn-al-jawzi j.7 p.235}" }
+relations:
+  - { type: opposed, target: person/al-hakim-bi-amr-allah, role: "خرج عليه بلعنه على المنبر ونقش السكة باسمه", sources: [source/muntazam-ibn-al-jawzi] }
+provenance:
+  layer: own-research
+  source: "المنتظم في تاريخ الملوك والأمم — ابن الجوزي (ج7، أحداث سنة 397)، قراءة آبل فيجن"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-muntazam-batch-21
+sources: [source/muntazam-ibn-al-jawzi]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

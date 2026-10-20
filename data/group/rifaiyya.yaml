@@ -1,0 +1,27 @@
+id: group/rifaiyya
+class: group
+kind: order
+label:
+  ar: "الطريقة الرفاعية"
+  en: "Rifa'iyya order"
+summary:
+  ar: "بطاقة أولية للطريقة الرفاعية، الطريقة الصوفية المنسوبة إلى أحمد الرفاعي البطائحي والمشهورة بأذكارها وأورادها في العراق وما حوله؛ تذكرها كتب التراجم عند ترجمة مؤسسها ولم تُراجع الصفحة بعد."
+  en: "Draft card for the Rifa'iyya, the Sufi order ascribed to Ahmad al-Rifa'i of the Bata'ih marshes, known for its dhikr practices in Iraq and beyond; treated in the biographical sources under its founder, the page not yet checked."
+wings: [ideas]
+regions: [levant-iraq]
+periods: [period/crusades-ayyubid-mamluk]
+themes: [spirituality-and-sufism]
+relations:
+- { type: founded_by, target: person/ahmad-al-rifai }
+sources: [source/shadharat-dhahab]
+external_ids:
+  wikidata: Q389821
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; book source: Ibn al-Imad, Shadharat al-Dhahab (founder entry) — not yet read on the page"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-0014
+status:
+  review: draft
+  completeness: 1

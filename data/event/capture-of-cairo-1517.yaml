@@ -1,0 +1,23 @@
+id: event/capture-of-cairo-1517
+class: event
+kind: battle
+label: { ar: "أخذ القاهرة (١٥١٧)", en: "Capture of Cairo" }
+summary:
+  ar: "بطاقة أولية لأخذ القاهرة سنة ١٥١٧م، دخول سليم الأول ونهاية دولة المماليك؛ لم تُراجع مصادره على الصفحة بعد."
+  en: "Draft card for the 1517 capture of Cairo, Selim I's entry ending the Mamluk state; its sources are not yet checked on the page."
+wings: [time]
+periods: [period/gunpowder-empires]
+regions: [egypt-nile]
+date:
+  start: { edtf: "1517", precision: year, status: tradition, derived: true }
+  end: { edtf: "1517", precision: year, status: tradition, derived: true }
+sources: [source/dawlat-uthmaniyya-salabi]
+external_ids:
+  wikidata: Q5036992
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; battle attested in narrative histories — entry not yet checked on the page"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-wave2
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

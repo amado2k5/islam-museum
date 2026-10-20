@@ -1,0 +1,23 @@
+id: event/battle-of-wadi-al-makhazin-1578
+class: event
+kind: battle
+label: { ar: "معركة وادي المخازن", en: "Battle of Alcácer Quibir" }
+summary:
+  ar: "بطاقة أولية لمعركة وادي المخازن (القصر الكبير) سنة ١٥٧٨م، موقعة الملوك الثلاثة التي هلك فيها سبستيان البرتغالي والسلطان عبد الملك السعدي؛ لم تُراجع مصادره على الصفحة بعد."
+  en: "Draft card for the Battle of Wadi al-Makhazin (Alcácer Quibir) in 1578, the Battle of the Three Kings in which Sebastian of Portugal and the Sa'di Sultan Abd al-Malik perished; its sources are not yet checked on the page."
+wings: [time]
+periods: [period/gunpowder-empires]
+regions: [maghreb]
+date:
+  start: { edtf: "1578", precision: year, status: tradition, derived: true }
+  end: { edtf: "1578", precision: year, status: tradition, derived: true }
+sources: [source/tarikh-ibn-khaldun-ibar]
+external_ids:
+  wikidata: Q1121532
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; battle attested in Moroccan histories — entry not yet checked on the page"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-wave2
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

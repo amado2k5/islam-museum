@@ -1,0 +1,23 @@
+id: event/qing-reconquest-of-xinjiang-1876
+class: event
+kind: war
+label: { ar: "استرداد تشينغ لشينجيانغ", en: "Qing reconquest of Xinjiang" }
+summary:
+  ar: "بطاقة أولية لاسترداد تشينغ لشينجيانغ من ١٨٧٦ إلى ١٨٧٨م، حملة تسو تسونغ تانغ على دولة يعقوب بيك؛ لم تُراجع مصادره على الصفحة بعد."
+  en: "Draft card for the Qing reconquest of Xinjiang of 1876–1878, Zuo Zongtang's campaign against Yaqub Beg's state; its sources are not yet checked on the page."
+wings: [time]
+periods: [period/colonial-era]
+regions: [china-east-asia]
+date:
+  start: { edtf: "1876", precision: year, status: tradition, derived: true }
+  end: { edtf: "1878", precision: year, status: tradition, derived: true }
+sources: [source/tarikh-islam-hasan-ibrahim]
+external_ids:
+  wikidata: Q6140819
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; battle attested in narrative histories — entry not yet checked on the page"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-wave2
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

@@ -32,5 +32,7 @@ relations:
   - { type: participated_in, target: event/hijra, sources: [source/ibn-sad-tabaqat-bewley] }
   - { type: participated_in, target: event/battle-of-badr, sources: [source/ibn-sad-tabaqat-bewley] }
   - { type: participated_in, target: event/conquest-of-mecca, role: called-the-first-adhan-from-the-kaaba, sources: [source/ibn-sad-tabaqat-bewley] }
+external_ids:
+  wikidata: Q493136
 sources: [source/ibn-sad-tabaqat-bewley, source/ibn-ishaq-guillaume, source/muruj-al-dhahab, source/mubarakpuri-raheeq, source/ibn-hisham-sira, source/sahih-al-bukhari, source/sahih-muslim, source/ibn-hisham-saqqa]
 status: { review: draft, completeness: 2, generated_by: "Devin; 2026-10-11" }

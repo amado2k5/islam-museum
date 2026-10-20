@@ -21,5 +21,7 @@ relations:
   - { type: authored, target: work/aqida-wasitiyya, sources: [source/aqida-wasitiyya] }
   - { type: authored, target: work/iqtida-al-sirat-al-mustaqim, sources: [source/kashf-zunun-furqan] }
 provenance: { layer: own-research, source: "العقيدة الواسطية، المطبعة السلفية، صفحة العنوان", generated_by: "Claude (maintainer session)", model: claude-sonnet-5-5, run: wasitiyya-1 }
+external_ids:
+  wikidata: Q491558
 sources: [source/aqida-wasitiyya, source/tarikh-khulafa-minhaj-1434]
 status: { review: draft, completeness: 1, generated_by: "Claude Sonnet 5.5; from the title page of the edition, no prose yet" }

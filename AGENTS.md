@@ -7,7 +7,7 @@ islam.museum is an open, free, all-digital museum of Islam: the faith, civilizat
 ## Read, in this order
 
 1. This file (the rules that never bend).
-   Then `docs/ai-change-gates.md`, binding on every agent: no edit without an approved written proposal, stay in scope, label anything that could alter a filed submission (DPGA, UNESCO) as submission-impacting, three-way merge before every push, the quality and content gates restated, attribution trailers, and the no-go registry of reserved areas (currently the Urdu edition).
+   Then `docs/ai-change-gates.md`, binding on every agent: no edit without an approved written proposal, stay in scope, label anything that could alter a filed submission (DPGA, UNESCO) as submission-impacting, three-way merge before every push, the quality and content gates restated, attribution trailers, and the no-go registry of reserved areas.
 2. `docs/agents/README.md` (index of the agent documents), then the one or two you need:
    - `docs/agents/workflow.md`: how to set up, commit, push, merge, hand off.
    - `docs/agents/content-standards.md`: what a good entity looks like and the mistakes to avoid.
@@ -19,7 +19,7 @@ islam.museum is an open, free, all-digital museum of Islam: the faith, civilizat
 
 ## Rules that never bend
 
-- **Static, no AI at runtime.** Static site on GitHub Pages behind Cloudflare; no servers, no databases, no paid services. Models are used only in the building phase; nothing on the published site calls a model or any server code per visitor (`docs/plan/03-architecture.md` §13, ADR 0002). Astro + Svelte islands + Tailwind; TypeScript scripts; Pagefind; MapLibre + PMTiles; Sigma.js.
+- **Static, no AI at runtime.** Static site on Cloudflare Pages (paid plan, chosen for its file limit; since 18 October 2026) with the search indexes and the API JSON on Cloudflare R2 and GitHub Pages kept as a fallback mirror; no servers, no databases, no paid services beyond hosting. Models are used only in the building phase; nothing on the published site calls a model or any server code per visitor (`docs/plan/03-architecture.md` §13, ADR 0002). Astro + Svelte islands + Tailwind; TypeScript scripts; Pagefind; MapLibre + PMTiles; Sigma.js.
 - **Graph in git.** IDs are `class/slug`, immutable; renames go through `aliases`. Relations use `schema/predicates.yaml` only; write each edge once (inverses are computed). Reuse before you create; a duplicate becomes an alias of the richer entity.
 - **Sources.** Every entity cites sources; every dated fact needs two sources or a flag. Wikipedia and Wikidata are pointers, not sources. Never invent a date, quote, page number, ISBN or citation. Dates: EDTF + Hijri string + calendar + precision; conversions marked derived.
 - **Arabic first, English and Urdu always** (`docs/language.md`). Arabic is written first: `label.ar` and `summary.ar` are required, and new prose goes in `content/ar/`. From 18 October 2026, every new prose file, UI string, menu item and component also ships with its English (`content/en/`, `i18n/en.yaml`) and Urdu (`content/ur/`, `i18n/ur.yaml`) translation in the same commit, marked `status.review: draft` with a `provenance` block. Any agent from any vendor follows this; a change that cannot include its translations says so in the commit and progress file.

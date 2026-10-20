@@ -1,0 +1,23 @@
+id: event/battle-of-araviana-1359
+class: event
+kind: battle
+label: { ar: "معركة أرافيانا", en: "Battle of Araviana" }
+summary:
+  ar: "بطاقة أولية لمعركة أرافيانا سنة ١٣٥٩م، فوز القسطلنيين على حملة غرناطة في الحرب الأهلية؛ لم تُراجع مصادره على الصفحة بعد."
+  en: "Draft card for the Battle of Araviana in 1359, the Castilians' victory over Granada's campaign in the civil war; its sources are not yet checked on the page."
+wings: [time]
+periods: [period/crusades-ayyubid-mamluk]
+regions: [andalus-europe]
+date:
+  start: { edtf: "1359-09-24", precision: year, status: tradition, derived: true }
+  end: { edtf: "1359-09-24", precision: year, status: tradition, derived: true }
+sources: [source/tarikh-islam-hasan-ibrahim]
+external_ids:
+  wikidata: Q3817182
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; battle attested in narrative histories — entry not yet checked on the page"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-wave2
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

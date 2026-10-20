@@ -1,0 +1,20 @@
+id: event/dinawar-earthquake-398
+class: event
+kind: other
+label: { ar: "زلزلة الدينور العظيمة" }
+summary:
+  ar: "في ليلة الأحد سادس عشر شعبان سنة ثمان وتسعين حدثت زلزلة عظيمة بالدينور هدمت المنازل وهلك فيها أكثر من ستة عشر ألف إنسان غير من خسفت به الأرض وطمه الهدم، وخرج السالمون إلى الصحراء فأقاموا في أكواخ عملوها، وذهب من الأثاث والمتاع فيما تهدم ما لا يحصى {cite:muntazam-ibn-al-jawzi j.7 p.239}."
+wings: [time]
+periods: [period/buyid-seljuk-fatimid-era]
+regions: [persia-central-asia]
+date:
+  start: { edtf: "1008-03-16~", hijri: "0398-08-16", calendar: julian, precision: day, status: tradition, derived: true, note: "ليلة الأحد 16 شعبان 398؛ التحويل مشتق {cite:muntazam-ibn-al-jawzi j.7 p.239}" }
+relations:
+  - { type: located_in, target: place/dinawar, sources: [source/muntazam-ibn-al-jawzi] }
+provenance:
+  layer: own-research
+  source: "المنتظم في تاريخ الملوك والأمم — ابن الجوزي (ج7، أحداث سنة 398)، قراءة آبل فيجن"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-muntazam-batch-21
+sources: [source/muntazam-ibn-al-jawzi]
+status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 High)" }

@@ -5,7 +5,7 @@ source_lang: ar
 translators: ["Claude Haiku 5.5 (claude-haiku-5-5), draft translation"]
 ---
 ## خلاصہ
-الرحیق المختوم کے مطابق عربوں کے ملک میں عیسائیت حبشہ اور رومیوں کے قبضے کے ذریعے آئی {cite:mubarakpuri-raheeq p.40} {cite:tafhim-al-quran 6/297}۔
+الرحیق المختوم کے مطابق عربوں کے ملک میں عیسائیت [[polity/aksumite-kingdom|حبشہ]] اور [[polity/byzantine-empire|رومیوں]] کے قبضے کے ذریعے آئی {cite:mubarakpuri-raheeq p.40} {cite:tafhim-al-quran 6/297}۔
 
 ## یمن اور نجران
 حبشہ کا یمن پر پہلا قبضہ سنہ 340ء میں ہوا اور سنہ 378ء تک رہا، اور اسی زمانے میں عیسائی تبلیغ یمن کے علاقوں میں پہنچی {cite:mubarakpuri-raheeq p.40} {cite:tafhim-al-quran 6/297}۔ اسی کے قریب ایک زاہد، مستجاب الدعوات اور کرامات والا شخص [[person/faymiyun|فیمیون]] نامی [[place/najran|نجران]] آیا، اور انہیں عیسائی دین کی طرف بلایا؛ اہل نجران نے اس کی سچائی اور اس کے دین کی سچائی کی ایسی نشانیاں دیکھیں کہ انہوں نے اس کی خاطر عیسائیت قبول کر لی {cite:mubarakpuri-raheeq p.40} {cite:mubarakpuri-raheeq p.41} {cite:ibn-hisham-sira 1/31-34}۔ دیکھیں [[group/christians-of-najran|نجران کے نصاریٰ]] اور [[event/massacre-of-najran|الأخدود]]۔

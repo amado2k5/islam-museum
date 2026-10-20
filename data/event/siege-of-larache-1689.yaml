@@ -1,0 +1,23 @@
+id: event/siege-of-larache-1689
+class: event
+kind: siege
+label: { ar: "حصار العرائش (١٦٨٩)", en: "Siege of Larache" }
+summary:
+  ar: "بطاقة أولية لحصار العرائش سنة ١٦٨٩م، استرداد مولاي إسماعيل المدينة من الإسبان؛ لم تُراجع مصادره على الصفحة بعد."
+  en: "Draft card for the Siege of Larache in 1689, Moulay Ismail's recovery of the city from the Spanish; its sources are not yet checked on the page."
+wings: [time]
+periods: [period/gunpowder-empires]
+regions: [maghreb]
+date:
+  start: { edtf: "1689-08", precision: year, status: tradition, derived: true }
+  end: { edtf: "1689-11-11", precision: year, status: tradition, derived: true }
+sources: [source/tarikh-islam-hasan-ibrahim]
+external_ids:
+  wikidata: Q3485921
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; battle attested in narrative histories — entry not yet checked on the page"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-wave2
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

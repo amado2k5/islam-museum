@@ -1,0 +1,23 @@
+id: event/battle-of-tukaroi-1575
+class: event
+kind: battle
+label: { ar: "معركة توكاروي", en: "Battle of Tukaroi" }
+summary:
+  ar: "بطاقة أولية لمعركة توكاروي سنة ١٥٧٥م، فوز أكبر على سلطان البنغال؛ لم تُراجع مصادره على الصفحة بعد."
+  en: "Draft card for the Battle of Tukaroi in 1575, Akbar's victory over the Sultan of Bengal; its sources are not yet checked on the page."
+wings: [time]
+periods: [period/gunpowder-empires]
+regions: [south-asia]
+date:
+  start: { edtf: "1575", precision: year, status: tradition, derived: true }
+  end: { edtf: "1575", precision: year, status: tradition, derived: true }
+sources: [source/kamil-ibn-al-athir]
+external_ids:
+  wikidata: Q3297309
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; battle attested in narrative histories — entry not yet checked on the page"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-wave2
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

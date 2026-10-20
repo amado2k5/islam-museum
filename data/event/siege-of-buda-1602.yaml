@@ -1,0 +1,23 @@
+id: event/siege-of-buda-1602
+class: event
+kind: siege
+label: { ar: "حصار بودا (١٦٠٢)", en: "Siege of Buda" }
+summary:
+  ar: "بطاقة أولية لحصار بودا سنة ١٦٠٢م، فشل النمساويين في أخذ عاصمة المجر العثمانية؛ لم تُراجع مصادره على الصفحة بعد."
+  en: "Draft card for the Siege of Buda in 1602, the Habsburgs' failed attempt on Ottoman Hungary's capital; its sources are not yet checked on the page."
+wings: [time]
+periods: [period/gunpowder-empires]
+regions: [anatolia-balkans]
+date:
+  start: { edtf: "1602-10-02", precision: year, status: tradition, derived: true }
+  end: { edtf: "1602-11-09", precision: year, status: tradition, derived: true }
+sources: [source/dawlat-uthmaniyya-salabi]
+external_ids:
+  wikidata: Q27583276
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; battle attested in narrative histories — entry not yet checked on the page"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-wave2
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

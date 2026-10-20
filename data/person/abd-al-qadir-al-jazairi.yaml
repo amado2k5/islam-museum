@@ -18,6 +18,8 @@ relations:
   - { type: related_to, target: event/french-occupation-algiers-1246, note: "بويع لقيادة الجهاد إثر دخول الفرنسيين", sources: [source/al-aalam] }
   - { type: died_in, target: place/damascus, sources: [source/al-aalam] }
   - { type: lived_in, target: place/wahran, note: "نشأ فيها وتعلم", sources: [source/al-aalam] }
+external_ids:
+  wikidata: Q179825
 sources: [source/al-aalam]
 provenance:
   layer: own-research

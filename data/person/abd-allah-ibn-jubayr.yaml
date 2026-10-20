@@ -11,6 +11,7 @@ relations:
   - { type: member_of, target: group/ansar }
   - { type: participated_in, target: event/battle-of-uhud, role: "قائد الرماة؛ ثبت في موقفه وقُتل" }
   - { type: participated_in, target: event/battle-of-badr, role: "شهد بدراً" }
+external_ids: { wikidata: "Q12223476" }
 sources: [source/mubarakpuri-raheeq, source/ibn-hisham-sira]
 provenance: { layer: own-research, generated_by: "kiro", model: "claude-opus-4-5", run: "raheeq-batch-11a", sources: [source/mubarakpuri-raheeq] }
 status: { review: draft, completeness: 2, generated_by: "kiro; raheeq pp. 255-264" }
