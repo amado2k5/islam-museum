@@ -1,0 +1,23 @@
+id: event/battle-of-garonne-732
+class: event
+kind: battle
+label: { ar: "معركة بوردو", en: "Battle of the Garonne" }
+summary:
+  ar: "بطاقة أولية لمعركة بوردو سنة ٧٣٢م، نصر عبد الرحمن الغافقي على يادو دوق الأكويتانيين؛ لم تُراجع مصادره على الصفحة بعد."
+  en: "Draft card for the Battle of the Garonne in 732, Abd al-Rahman al-Ghafiqi's victory over Duke Eudo of Aquitaine; its sources are not yet checked on the page."
+wings: [time]
+periods: [period/umayyad]
+regions: [andalus-europe]
+date:
+  start: { edtf: "732", precision: year, status: tradition, derived: true }
+  end: { edtf: "732", precision: year, status: tradition, derived: true }
+sources: [source/futuh-buldan-maarif-1407]
+external_ids:
+  wikidata: Q2524627
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; battle attested in Andalusian histories — entry not yet checked on the page"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-wave2
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

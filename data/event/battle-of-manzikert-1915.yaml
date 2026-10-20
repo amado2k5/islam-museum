@@ -1,0 +1,23 @@
+id: event/battle-of-manzikert-1915
+class: event
+kind: battle
+label: { ar: "معركة مانزيكرت (١٩١٥)", en: "Battle of Manzikert" }
+summary:
+  ar: "بطاقة أولية لمعركة مانزيكرت سنة ١٩١٥م، تقدم الروس في جبهة القوقاز على أرض المعركة السلجوقية القديمة؛ لم تُراجع مصادره على الصفحة بعد."
+  en: "Draft card for the Battle of Manzikert in 1915, Russia's Caucasus advance over the old Seljuk battleground; its sources are not yet checked on the page."
+wings: [time]
+periods: [period/modern-era]
+regions: [anatolia-balkans]
+date:
+  start: { edtf: "1915", precision: year, status: tradition, derived: true }
+  end: { edtf: "1915", precision: year, status: tradition, derived: true }
+sources: [source/dawlat-uthmaniyya-salabi]
+external_ids:
+  wikidata: Q220766
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; battle attested in WWI histories — entry not yet checked on the page"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-wave2
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

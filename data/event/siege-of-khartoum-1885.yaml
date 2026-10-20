@@ -1,0 +1,23 @@
+id: event/siege-of-khartoum-1885
+class: event
+kind: siege
+label: { ar: "حصار الخرطوم", en: "Siege of Khartoum" }
+summary:
+  ar: "بطاقة أولية لحصار الخرطوم من ١٨٨٤ إلى ١٨٨٥م، سقوط المدينة بيد المهديين ومقتل غوردون؛ لم تُراجع مصادره على الصفحة بعد."
+  en: "Draft card for the Siege of Khartoum of 1884–85, the city's fall to the Mahdists and Gordon's death; its sources are not yet checked on the page."
+wings: [time]
+periods: [period/colonial-era]
+regions: [east-africa]
+date:
+  start: { edtf: "1884", precision: year, status: tradition, derived: true }
+  end: { edtf: "1885", precision: year, status: tradition, derived: true }
+sources: [source/tarikh-islam-hasan-ibrahim]
+external_ids:
+  wikidata: Q815159
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; siege attested in Mahdist histories — entry not yet checked on the page"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-wave2
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

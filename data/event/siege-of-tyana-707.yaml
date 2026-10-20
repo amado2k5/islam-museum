@@ -1,0 +1,23 @@
+id: event/siege-of-tyana-707
+class: event
+kind: conquest
+label: { ar: "فتح طوانة", en: "Siege of Tyana" }
+summary:
+  ar: "بطاقة أولية لفتح طوانة من ٧٠٧ إلى ٧٠٩م، أخذ الأمويين لآخر معاقل بيزنطة على طريق الأناضول؛ لم تُراجع مصادره على الصفحة بعد."
+  en: "Draft card for the Siege of Tyana of 707–709, the Umayyad capture of the last Byzantine stronghold on the Anatolian road; its sources are not yet checked on the page."
+wings: [time]
+periods: [period/umayyad]
+regions: [anatolia-balkans]
+date:
+  start: { edtf: "707", precision: year, status: tradition, derived: true }
+  end: { edtf: "709", precision: year, status: tradition, derived: true }
+sources: [source/futuh-buldan-maarif-1407]
+external_ids:
+  wikidata: Q815221
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; siege attested in conquest histories — entry not yet checked on the page"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-wave2
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

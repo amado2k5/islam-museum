@@ -1,0 +1,23 @@
+id: event/siege-of-kerak-1183
+class: event
+kind: siege
+label: { ar: "حصار الكرك (١١٨٣)", en: "Siege of Kerak" }
+summary:
+  ar: "بطاقة أولية لحصار الكرك سنة ١١٨٣م، حملة صلاح الدين على قلعة رينو دي شاتيون إبان عرس أختها؛ لم تُراجع مصادره على الصفحة بعد."
+  en: "Draft card for the Siege of Kerak in 1183, Saladin's assault on Reynald of Châtillon's castle during the wedding feast; its sources are not yet checked on the page."
+wings: [time]
+periods: [period/crusades-ayyubid-mamluk]
+regions: [levant-iraq]
+date:
+  start: { edtf: "1183", precision: year, status: tradition, derived: true }
+  end: { edtf: "1183", precision: year, status: tradition, derived: true }
+sources: [source/kamil-ibn-al-athir]
+external_ids:
+  wikidata: Q815156
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; siege attested in Crusades histories — entry not yet checked on the page"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-wave2
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }
