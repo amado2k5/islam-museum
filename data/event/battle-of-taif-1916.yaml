@@ -1,0 +1,23 @@
+id: event/battle-of-taif-1916
+class: event
+kind: siege
+label: { ar: "معركة الطائف (١٩١٦)", en: "Battle of Taif" }
+summary:
+  ar: "بطاقة أولية لمعركة الطائف سنة ١٩١٦م، أخذ جيش الشريف للمدينة العثمانية في ثورة الحجاز؛ لم تُراجع مصادره على الصفحة بعد."
+  en: "Draft card for the Battle of Taif in 1916, the Sharifian army's capture of the Ottoman town in the Arab Revolt; its sources are not yet checked on the page."
+wings: [time]
+periods: [period/modern-era]
+regions: [arabia]
+date:
+  start: { edtf: "1916", precision: year, status: tradition, derived: true }
+  end: { edtf: "1916", precision: year, status: tradition, derived: true }
+sources: [source/tarikh-islam-hasan-ibrahim]
+external_ids:
+  wikidata: Q3695659
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; battle attested in narrative histories — entry not yet checked on the page"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-wave2
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }
