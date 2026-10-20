@@ -64,6 +64,8 @@ jobs:
     timeout-minutes: 60
     env:
       SYNC_URL: ${{ secrets.R2_SYNC_TEST_URL }}
+      # The seven test Workers. Each runs the same code and uses the test token.
+      SYNC_URLS: "https://islam-museum-r2-sync-test.ahamdy.workers.dev,https://islam-museum-r2-sync-test-2.ahamdy.workers.dev,https://islam-museum-r2-sync-test-3.ahamdy.workers.dev,https://islam-museum-r2-sync-test-4.ahamdy.workers.dev,https://islam-museum-r2-sync-test-5.ahamdy.workers.dev,https://islam-museum-r2-sync-test-6.ahamdy.workers.dev,https://islam-museum-r2-sync-test-7.ahamdy.workers.dev"
       SYNC_TOKEN: ${{ secrets.R2_SYNC_TEST_TOKEN }}
       ENDPOINT: "https://${{ secrets.CLOUDFLARE_ACCOUNT_ID }}.r2.cloudflarestorage.com"
       # Test-bucket key only. The production publish keys (R2_ACCESS_KEY_ID) must not be used here.
