@@ -1,0 +1,23 @@
+id: event/battle-of-el-burj-1917
+class: event
+kind: battle
+label: { ar: "معركة البرج (١٩١٧)", en: "Battle of El Burj (1917)" }
+summary:
+  ar: "بطاقة أولية لمعركة البرج سنة ١٩١٧م، من حملة البريطانيين على فلسطين العثمانية؛ لم تُراجع مصادره على الصفحة بعد."
+  en: "Draft card for the Battle of El Burj in 1917, an action of the British campaign in Ottoman Palestine; its sources are not yet checked on the page."
+wings: [time]
+periods: [period/modern-era]
+regions: [levant-iraq]
+date:
+  start: { edtf: "1917-12", precision: year, status: tradition, derived: true }
+  end: { edtf: "1917-12", precision: year, status: tradition, derived: true }
+sources: [source/tarikh-islam-hasan-ibrahim]
+external_ids:
+  wikidata: Q4870952
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; battle attested in narrative histories — entry not yet checked on the page"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-wave2
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

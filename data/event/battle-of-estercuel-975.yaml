@@ -1,0 +1,23 @@
+id: event/battle-of-estercuel-975
+class: event
+kind: battle
+label: { ar: "معركة إستركويل (٩٧٥)", en: "Battle of Estercuel (975)" }
+summary:
+  ar: "بطاقة أولية لمعركة إستركويل سنة ٩٧٥م، من مصادمات قرطبة والممالك النصرانية؛ لم تُراجع مصادره على الصفحة بعد."
+  en: "Draft card for the Battle of Estercuel in 975, a Cordoban–Christian clash; its sources are not yet checked on the page."
+wings: [time]
+periods: [period/buyid-seljuk-fatimid-era]
+regions: [andalus-europe]
+date:
+  start: { edtf: "0975", precision: year, status: tradition, derived: true }
+  end: { edtf: "0975", precision: year, status: tradition, derived: true }
+sources: [source/tarikh-islam-hasan-ibrahim]
+external_ids:
+  wikidata: Q4870988
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; battle attested in narrative histories — entry not yet checked on the page"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-wave2
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }
