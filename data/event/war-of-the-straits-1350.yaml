@@ -1,0 +1,23 @@
+id: event/war-of-the-straits-1350
+class: event
+kind: war
+label: { ar: "حرب المضيق", en: "War of the Straits" }
+summary:
+  ar: "بطاقة أولية لحرب المضيق من ١٣٥٠ إلى ١٣٥٥م، نزاع قشتالة والمرينيين على المضيق؛ لم تُراجع مصادره على الصفحة بعد."
+  en: "Draft card for the War of the Straits of 1350–1355, the Castilian–Marinid struggle for the strait; its sources are not yet checked on the page."
+wings: [time]
+periods: [period/crusades-ayyubid-mamluk]
+regions: [andalus-europe]
+date:
+  start: { edtf: "1350", precision: year, status: tradition, derived: true }
+  end: { edtf: "1355", precision: year, status: tradition, derived: true }
+sources: [source/tarikh-ibn-khaldun-ibar]
+external_ids:
+  wikidata: Q894486
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; battle attested in narrative histories — entry not yet checked on the page"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-wave2
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }
