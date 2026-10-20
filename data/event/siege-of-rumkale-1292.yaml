@@ -1,0 +1,23 @@
+id: event/siege-of-rumkale-1292
+class: event
+kind: siege
+label: { ar: "حصار قلعة الروم (١٢٩٢)", en: "Siege of Rumkale (1292)" }
+summary:
+  ar: "بطاقة أولية لحصار قلعة الروم سنة ١٢٩٢م، أخذ المماليك لها من الأرمن؛ لم تُراجع مصادره على الصفحة بعد."
+  en: "Draft card for the Siege of Rumkale in 1292, the Mamluk capture of the Armenian-held fortress; its sources are not yet checked on the page."
+wings: [time]
+periods: [period/crusades-ayyubid-mamluk]
+regions: [levant-iraq]
+date:
+  start: { edtf: "1292", precision: year, status: tradition, derived: true }
+  end: { edtf: "1292", precision: year, status: tradition, derived: true }
+sources: [source/tarikh-islam-hasan-ibrahim]
+external_ids:
+  wikidata: "Q124118369"
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; battle attested in narrative histories — entry not yet checked on the page"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-wave2
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

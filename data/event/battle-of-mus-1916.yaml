@@ -1,0 +1,23 @@
+id: event/battle-of-mus-1916
+class: event
+kind: battle
+label: { ar: "معركة موش (١٩١٦)", en: "Battle of Muş (1916)" }
+summary:
+  ar: "بطاقة أولية لمعركة موش سنة ١٩١٦م، من حوادث الجبهة القوقازية بين الروس والعثمانيين؛ لم تُراجع مصادره على الصفحة بعد."
+  en: "Draft card for the Battle of Muş in 1916, a Russian–Ottoman engagement on the Caucasus Front; its sources are not yet checked on the page."
+wings: [time]
+periods: [period/modern-era]
+regions: [anatolia-balkans]
+date:
+  start: { edtf: "1916-02", precision: year, status: tradition, derived: true }
+  end: { edtf: "1916-03", precision: year, status: tradition, derived: true }
+sources: [source/dawlat-uthmaniyya-salabi]
+external_ids:
+  wikidata: "Q120798811"
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; battle attested in narrative histories — entry not yet checked on the page"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-wave2
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }
