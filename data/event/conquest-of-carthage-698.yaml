@@ -1,0 +1,23 @@
+id: event/conquest-of-carthage-698
+class: event
+kind: conquest
+label: { ar: "فتح قرطاج", en: "Conquest of Carthage" }
+summary:
+  ar: "بطاقة أولية لفتح قرطاج سنة ٦٩٨م، أخذ حسان بن النعمان لآخر معاقل بيزنطة في إفريقية؛ لم تُراجع مصادره على الصفحة بعد."
+  en: "Draft card for the conquest of Carthage in 698, Hassan ibn al-Nu'man's capture of Byzantium's last Ifriqiyan stronghold; its sources are not yet checked on the page."
+wings: [time]
+periods: [period/umayyad]
+regions: [maghreb]
+date:
+  start: { edtf: "698", precision: year, status: tradition, derived: true }
+  end: { edtf: "698", precision: year, status: tradition, derived: true }
+sources: [source/futuh-buldan-maarif-1407]
+external_ids:
+  wikidata: Q1478970
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; conquest attested in Futuh al-Buldan — entry not yet checked on the page"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-wave2
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

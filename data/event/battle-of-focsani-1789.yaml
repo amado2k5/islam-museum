@@ -1,0 +1,23 @@
+id: event/battle-of-focsani-1789
+class: event
+kind: battle
+label: { ar: "معركة فوكشاني", en: "Battle of Focșani" }
+summary:
+  ar: "بطاقة أولية لمعركة فوكشاني سنة ١٧٨٩م، نصر النمسا وروسيا على العثمانيين في مولدافيا؛ لم تُراجع مصادره على الصفحة بعد."
+  en: "Draft card for the Battle of Focșani in 1789, the Austro-Russian victory over the Ottomans in Moldavia; its sources are not yet checked on the page."
+wings: [time]
+periods: [period/colonial-era]
+regions: [anatolia-balkans]
+date:
+  start: { edtf: "1789", precision: year, status: tradition, derived: true }
+  end: { edtf: "1789", precision: year, status: tradition, derived: true }
+sources: [source/dawlat-uthmaniyya-salabi]
+external_ids:
+  wikidata: Q1025134
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; battle attested in Russo-Turkish histories — entry not yet checked on the page"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-wave2
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }
