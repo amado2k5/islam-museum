@@ -1,0 +1,23 @@
+id: event/landing-at-cape-helles
+class: event
+kind: battle
+label: { ar: "إنزال رأس الهلس", en: "Landing at Cape Helles" }
+summary:
+  ar: "بطاقة أولية لإنزال رأس الهلس سنة ١٩١٥م، نزول الحلفاء في أول جاليبولي تحت النار العثمانية؛ لم تُراجع مصادره على الصفحة بعد."
+  en: "Draft card for the Landing at Cape Helles in 1915, the Allied amphibious assault under Ottoman fire at Gallipoli; its sources are not yet checked on the page."
+wings: [time]
+periods: [period/modern-era]
+regions: [anatolia-balkans]
+date:
+  start: { edtf: "1915", precision: year, status: tradition, derived: true }
+  end: { edtf: "1915", precision: year, status: tradition, derived: true }
+sources: [source/dawlat-uthmaniyya-salabi]
+external_ids:
+  wikidata: Q1754797
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; landing attested in Gallipoli histories — entry not yet checked on the page"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-wave2
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

@@ -1,0 +1,23 @@
+id: event/battle-of-giurgiu-1595
+class: event
+kind: battle
+label: { ar: "معركة جورجو (١٥٩٥)", en: "Battle of Giurgiu" }
+summary:
+  ar: "بطاقة أولية لمعركة جورجو سنة ١٥٩٥م، ظفر ميخائيل الشجاع على الجيش العثماني في الأفلاق؛ لم تُراجع مصادره على الصفحة بعد."
+  en: "Draft card for the Battle of Giurgiu in 1595, Michael the Brave's victory over the Ottoman army in Wallachia; its sources are not yet checked on the page."
+wings: [time]
+periods: [period/gunpowder-empires]
+regions: [anatolia-balkans]
+date:
+  start: { edtf: "1595", precision: year, status: tradition, derived: true }
+  end: { edtf: "1595", precision: year, status: tradition, derived: true }
+sources: [source/dawlat-uthmaniyya-salabi]
+external_ids:
+  wikidata: Q12723161
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; battle attested in Wallachian-Ottoman histories — entry not yet checked on the page"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-wave2
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

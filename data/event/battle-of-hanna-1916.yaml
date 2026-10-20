@@ -1,0 +1,23 @@
+id: event/battle-of-hanna-1916
+class: event
+kind: battle
+label: { ar: "معركة خانة", en: "Battle of Hanna" }
+summary:
+  ar: "بطاقة أولية لمعركة خانة سنة ١٩١٦م، صد العثمانيين للبريطانيين في حملتهم لفك كوت؛ لم تُراجع مصادره على الصفحة بعد."
+  en: "Draft card for the Battle of Hanna in 1916, the Ottoman repulse of the British relief force bound for Kut; its sources are not yet checked on the page."
+wings: [time]
+periods: [period/modern-era]
+regions: [levant-iraq]
+date:
+  start: { edtf: "1916", precision: year, status: tradition, derived: true }
+  end: { edtf: "1916", precision: year, status: tradition, derived: true }
+sources: [source/dawlat-uthmaniyya-salabi]
+external_ids:
+  wikidata: Q1729793
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; battle attested in Mesopotamian-campaign histories — entry not yet checked on the page"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-wave2
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }
