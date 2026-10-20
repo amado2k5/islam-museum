@@ -1,0 +1,23 @@
+id: event/battle-of-amritsar-1757
+class: event
+kind: battle
+label: { ar: "معركة أمريتسار (١٧٧٧)", en: "Battle of Amritsar" }
+summary:
+  ar: "بطاقة أولية لمعركة أمريتسار سنة ١٧٥٧م، قتال السيخ والأفغان في حملة أحمد شاه دراني؛ لم تُراجع مصادره على الصفحة بعد."
+  en: "Draft card for the Battle of Amritsar in 1757, the Sikh-Afghan fighting in Ahmad Shah Durrani's campaign; its sources are not yet checked on the page."
+wings: [time]
+periods: [period/gunpowder-empires]
+regions: [south-asia]
+date:
+  start: { edtf: "1757-11", precision: year, status: tradition, derived: true }
+  end: { edtf: "1757-11", precision: year, status: tradition, derived: true }
+sources: [source/tarikh-islam-hasan-ibrahim]
+external_ids:
+  wikidata: Q55647639
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; battle attested in narrative histories — entry not yet checked on the page"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-wave2
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }
