@@ -1,0 +1,32 @@
+id: polity/sallarid-dynasty
+class: polity
+kind: dynasty
+label:
+  ar: "بنو سلار"
+  en: "Sallarid dynasty"
+summary:
+  ar: "بطاقة أولية لبني سلار، السلالة الديلمية التي حكمت أذربيجان من ٩١٩ إلى ١٠٩٠م؛ لم تُراجع مصادرها على الصفحة بعد."
+  en: "Draft card for the Banu Sallar, the Daylamite dynasty ruling Azerbaijan from 919 to 1090; its sources are not yet checked on the page."
+wings: [time]
+periods: [period/abbasid-fragmentation]
+regions: [persia-central-asia]
+start:
+  edtf: "919"
+  precision: year
+  status: tradition
+  derived: true
+end:
+  edtf: "1090"
+  precision: year
+  status: tradition
+  derived: true
+sources: [source/tarikh-ibn-khaldun-ibar]
+external_ids:
+  wikidata: Q3431885
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; dynasty attested in historical works — entry not yet checked on the page"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-wave2
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

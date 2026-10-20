@@ -1,0 +1,32 @@
+id: polity/burji-dynasty
+class: polity
+kind: dynasty
+label:
+  ar: "المماليك الجراكسة (البرجية)"
+  en: "Burji dynasty"
+summary:
+  ar: "بطاقة أولية للمماليك البرجية، ثاني سلالات دولة المماليك بمصر وملوكها من الجراكسة من ١٣٨٢ إلى ١٥١٧م؛ لم تُراجع مصادرها على الصفحة بعد."
+  en: "Draft card for the Burji Mamluks, the second dynasty of the Mamluk sultanate in Egypt, its Circassian kings ruling from 1382 to 1517; its sources are not yet checked on the page."
+wings: [time]
+periods: [period/crusades-ayyubid-mamluk]
+regions: [egypt-nile]
+start:
+  edtf: "1382"
+  precision: year
+  status: tradition
+  derived: true
+end:
+  edtf: "1517"
+  precision: year
+  status: tradition
+  derived: true
+sources: [source/tarikh-ibn-khaldun-ibar]
+external_ids:
+  wikidata: Q249934
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; dynasty attested in Mamluk histories — entry not yet checked on the page"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-wave2
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }
