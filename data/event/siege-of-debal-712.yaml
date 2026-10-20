@@ -1,0 +1,23 @@
+id: event/siege-of-debal-712
+class: event
+kind: siege
+label: { ar: "حصار ديبال", en: "Siege of Debal" }
+summary:
+  ar: "بطاقة أولية لحصار ديبال سنة ٧١٢م، أخذ محمد بن القاسم ميناء السند في فتحه؛ لم تُراجع مصادره على الصفحة بعد."
+  en: "Draft card for the Siege of Debal in 712, Muhammad ibn al-Qasim's capture of the Sindh port in his conquest; its sources are not yet checked on the page."
+wings: [time]
+periods: [period/umayyad]
+regions: [south-asia]
+date:
+  start: { edtf: "712", precision: year, status: tradition, derived: true }
+  end: { edtf: "712", precision: year, status: tradition, derived: true }
+sources: [source/tarikh-al-tabari]
+external_ids:
+  wikidata: Q120496147
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; battle attested in narrative histories — entry not yet checked on the page"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-wave2
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

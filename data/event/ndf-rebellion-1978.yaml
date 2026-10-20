@@ -1,0 +1,23 @@
+id: event/ndf-rebellion-1978
+class: event
+kind: revolt
+label: { ar: "ثورة الجبهة الوطنية الديمقراطية", en: "NDF Rebellion" }
+summary:
+  ar: "بطاقة أولية لثورة الجبهة الوطنية الديمقراطية في ١٩٧٨–١٩٨٢م، الحرب الأهلية في اليمن الشمالي؛ لم تُراجع مصادره على الصفحة بعد."
+  en: "Draft card for the NDF Rebellion of 1978–82, the civil war in North Yemen; its sources are not yet checked on the page."
+wings: [time]
+periods: [period/contemporary-era]
+regions: [arabia]
+date:
+  start: { edtf: "1978", precision: year, status: tradition, derived: true }
+  end: { edtf: "1982", precision: year, status: tradition, derived: true }
+sources: [source/tarikh-islam-hasan-ibrahim]
+external_ids:
+  wikidata: Q12207429
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; battle attested in narrative histories — entry not yet checked on the page"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-wave2
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }
