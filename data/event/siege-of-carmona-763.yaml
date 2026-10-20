@@ -1,0 +1,23 @@
+id: event/siege-of-carmona-763
+class: event
+kind: siege
+label: { ar: "حصار قرمونة (٧٦٣)", en: "Siege of Carmona" }
+summary:
+  ar: "بطاقة أولية لحصار قرمونة سنة ٧٦٣م، حصار عبد الرحمن الداخل للعلاء بن مغيث الجذامي والقضاء على ثورته؛ لم تُراجع مصادره على الصفحة بعد."
+  en: "Draft card for the Siege of Carmona in 763, Abd al-Rahman I's defeat of al-Ala ibn Mughith's Abbasid-backed revolt; its sources are not yet checked on the page."
+wings: [time]
+periods: [period/abbasid-early]
+regions: [andalus-europe]
+date:
+  start: { edtf: "0763", precision: year, status: tradition, derived: true }
+  end: { edtf: "0763", precision: year, status: tradition, derived: true }
+sources: [source/tarikh-islam-hasan-ibrahim]
+external_ids:
+  wikidata: Q125045173
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; battle attested in narrative histories — entry not yet checked on the page"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-wave2
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }
