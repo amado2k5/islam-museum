@@ -1,0 +1,23 @@
+id: event/battle-of-haifa-1918
+class: event
+kind: battle
+label: { ar: "معركة حيفا (١٩١٨)", en: "Battle of Haifa" }
+summary:
+  ar: "بطاقة أولية لمعركة حيفا سنة ١٩١٨م، أخذ الخيالة البريطانية والهندية للمدينة في حملة فلسطين؛ لم تُراجع مصادره على الصفحة بعد."
+  en: "Draft card for the Battle of Haifa in 1918, the British-Indian cavalry's capture of the city in the Palestine campaign; its sources are not yet checked on the page."
+wings: [time]
+periods: [period/modern-era]
+regions: [levant-iraq]
+date:
+  start: { edtf: "1918", precision: year, status: tradition, derived: true }
+  end: { edtf: "1918", precision: year, status: tradition, derived: true }
+sources: [source/dawlat-uthmaniyya-salabi]
+external_ids:
+  wikidata: Q4871176
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; battle attested in WWI Palestine histories — entry not yet checked on the page"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-wave2
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

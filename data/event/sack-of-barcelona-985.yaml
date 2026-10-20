@@ -1,0 +1,23 @@
+id: event/sack-of-barcelona-985
+class: event
+kind: raid
+label: { ar: "غزو برشلونة (٩٨٥)", en: "Sack of Barcelona" }
+summary:
+  ar: "بطاقة أولية لغزو برشلونة سنة ٩٨٥م، أخذ المنصور بن أبي عامر للمدينة في أعظم صائفاته؛ لم تُراجع مصادره على الصفحة بعد."
+  en: "Draft card for the Sack of Barcelona in 985, al-Mansur's capture of the city in his greatest summer campaign; its sources are not yet checked on the page."
+wings: [time]
+periods: [period/buyid-seljuk-fatimid-era]
+regions: [andalus-europe]
+date:
+  start: { edtf: "985", precision: year, status: tradition, derived: true }
+  end: { edtf: "985", precision: year, status: tradition, derived: true }
+sources: [source/tarikh-islam-hasan-ibrahim]
+external_ids:
+  wikidata: Q4110440
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; sack attested in Cordoban histories — entry not yet checked on the page"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-wave2
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

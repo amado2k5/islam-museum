@@ -1,0 +1,23 @@
+id: event/capture-of-baghdad-1624
+class: event
+kind: conquest
+label: { ar: "سقوط بغداد (١٦٢٤)", en: "Capture of Baghdad" }
+summary:
+  ar: "بطاقة أولية لسقوط بغداد سنة ١٦٢٤م، أخذ شاه عباس للمدينة في أول حروبه العثمانية؛ لم تُراجع مصادره على الصفحة بعد."
+  en: "Draft card for the capture of Baghdad in 1624, Shah Abbas's seizure of the city in his first Ottoman war; its sources are not yet checked on the page."
+wings: [time]
+periods: [period/gunpowder-empires]
+regions: [levant-iraq]
+date:
+  start: { edtf: "1624", precision: year, status: tradition, derived: true }
+  end: { edtf: "1624", precision: year, status: tradition, derived: true }
+sources: [source/dawlat-uthmaniyya-salabi]
+external_ids:
+  wikidata: Q5036984
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; capture attested in Safavid histories — entry not yet checked on the page"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-wave2
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

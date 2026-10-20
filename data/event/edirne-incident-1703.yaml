@@ -1,0 +1,23 @@
+id: event/edirne-incident-1703
+class: event
+kind: revolt
+label: { ar: "حادثة أدرنة (١٧٠٣)", en: "Edirne Incident" }
+summary:
+  ar: "بطاقة أولية لحادثة أدرنة سنة ١٧٠٣م، انتفاضة الإنكشارية التي خلعت مصطفى الثاني؛ لم تُراجع مصادره على الصفحة بعد."
+  en: "Draft card for the Edirne Incident of 1703, the janissary rising that deposed Mustafa II; its sources are not yet checked on the page."
+wings: [time]
+periods: [period/gunpowder-empires]
+regions: [anatolia-balkans]
+date:
+  start: { edtf: "1703", precision: year, status: tradition, derived: true }
+  end: { edtf: "1703", precision: year, status: tradition, derived: true }
+sources: [source/dawlat-uthmaniyya-salabi]
+external_ids:
+  wikidata: Q5338335
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; incident attested in Ottoman histories — entry not yet checked on the page"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-wave2
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

@@ -1,0 +1,23 @@
+id: event/defense-of-van-1915
+class: event
+kind: siege
+label: { ar: "الدفاع عن وان (١٩١٥)", en: "Defense of Van" }
+summary:
+  ar: "بطاقة أولية للدفاع عن وان سنة ١٩١٥م، صمود الأرمن في المدينة أمام العثمانيين حتى قدوم الروس؛ لم تُراجع مصادره على الصفحة بعد."
+  en: "Draft card for the Defense of Van in 1915, the Armenians' stand in the city until the Russians arrived; its sources are not yet checked on the page."
+wings: [time]
+periods: [period/modern-era]
+regions: [anatolia-balkans]
+date:
+  start: { edtf: "1915", precision: year, status: tradition, derived: true }
+  end: { edtf: "1915", precision: year, status: tradition, derived: true }
+sources: [source/dawlat-uthmaniyya-salabi]
+external_ids:
+  wikidata: Q5251450
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; siege attested in WWI Caucasus histories — entry not yet checked on the page"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-wave2
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }
