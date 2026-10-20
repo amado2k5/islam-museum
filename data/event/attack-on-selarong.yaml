@@ -1,0 +1,23 @@
+id: event/attack-on-selarong
+class: event
+kind: battle
+label: { ar: "الهجوم على سيلارونغ", en: "Attack on Selarong" }
+summary:
+  ar: "بطاقة أولية لالهجوم على سيلارونغ؛ لم تُراجع مصادره على الصفحة بعد."
+  en: "Draft card for Attack on Selarong; its sources are not yet checked on the page."
+wings: [time]
+periods: [period/colonial-era]
+regions: [southeast-asia]
+date:
+  start: { edtf: "1826", precision: year, status: tradition, derived: true }
+  end: { edtf: "1826", precision: year, status: tradition, derived: true }
+sources: [source/tarikh-islam-hasan-ibrahim]
+external_ids:
+  wikidata: Q133287944
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; battle attested in narrative histories — entry not yet checked on the page"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-wave2
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }
