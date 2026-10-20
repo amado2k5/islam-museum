@@ -1,0 +1,23 @@
+id: event/fall-of-saruj-1145
+class: event
+kind: conquest
+label: { ar: "سقوط سروج (١١٤٥)", en: "Fall of Saruj (1145)" }
+summary:
+  ar: "بطاقة أولية لسقوط سروج سنة ١١٤٥م، أخذ المسلمين لها من الفرنج؛ لم تُراجع مصادره على الصفحة بعد."
+  en: "Draft card for the Fall of Saruj in 1145, its capture from the Franks; its sources are not yet checked on the page."
+wings: [time]
+periods: [period/crusades-ayyubid-mamluk]
+regions: [levant-iraq]
+date:
+  start: { edtf: "1145", precision: year, status: tradition, derived: true }
+  end: { edtf: "1145", precision: year, status: tradition, derived: true }
+sources: [source/tarikh-islam-hasan-ibrahim]
+external_ids:
+  wikidata: Q113576006
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; battle attested in narrative histories — entry not yet checked on the page"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-wave2
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }
