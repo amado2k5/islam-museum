@@ -130,6 +130,41 @@ Candidates (dry run, 18 Oct 2026; `--max-items 2`; identifier, file, size; sourc
 - **Checks:** `npm run validate` 0 errors; no new warnings on the new files; no honorifics; no Qur'an text typed.
 - **Next step:** finish «إباق» pp.1411-1412 as a second record only if it is a distinct concept (likely not; add as a section), then «إبراء» from p.1415 (an entity `concept/ibra`, with the note that its prose has a separate section on «المبارأة» that the encyclopedia treats under khul'). Check the pages read against the Kuwaiti volume and edition before any dated claim.
 
+## Kuwaiti encyclopedia, batch 3 from p.1415 (draft, 19 Oct 2026)
+
+- **Copy and identity:** as above (`books/fiqh/fiqh-mawsua-kuwaitiyya-noor-v3/`, OCR on the harvest drive, not in git). Batch 1 (pp.1351-1353, 1405-1407) and batch 2 (pp.1408-1415) are not recreated.
+- **Pages read (scan markers):** pp.1415-1429 (about 15 pages). The headword «إبراء» starts on p.1415 and continues past p.1429, so the first complete headword is not reached inside the page budget.
+- **Entity created (`status.review: draft`, `completeness: 0` = partial):**
+  - `concept/ibra` (الإبراء, release of a debt or right). Covers pp.1415-1429: definition and related terms, ruling, kinds, dropping or transfer, elements and wording, acceptance and rejection, conditions on the releasor, the released and the matter released, and the conditions on the release itself.
+  - content: `content/ar/concept/ibra.md`, `content/en/concept/ibra.md`, `content/ur/concept/ibra.md`.
+  - Partiality is recorded in `status.generated_by` and in the closing line of each prose file. Do not treat this record as the whole headword.
+- **Entities drafted:** 1 of the 25 allowed. No further headword is complete within the pages read.
+- **Skipped and why:** none in the range. No other headword begins on pp.1415-1429: the rest of that span belongs to «إبراء».
+- **Qur'an:** referenced by passage id only (`quran-2-280`, `quran-2-237`, `quran-4-92`); no verse text typed.
+- **Next step (exact):** resume «إبراء» at scan p.1429, in the paragraph «ج - شرط ...» of the section «شروط للإبراء في ذاته» (the printed heading at p.1429 continues with the conditions on the release and on the subject of the release), read pp.1430-1445 or until the next headword («إبراء» ends where the next heading begins; find its first line, which is the next complete headword). Extend `concept/ibra` (its completeness goes from 0 to a higher value only after the full headword is written up), then draft the following complete headwords from that point. A later agent should confirm the first heading after «إبراء» by reading its start page; this batch did not read past p.1429.
+
 ## Next step
 
 Add this lane's entries to `scripts/harvest/library/books.yaml` in the lane's own commit, then run `fetch_books.py` for the lane after the workstream commit is on `origin/main`.
+
+## Kuwaiti encyclopedia, batch 4 from p.1429 (draft, 19 Oct 2026)
+
+- **Copy and identity:** as above (`books/fiqh/fiqh-mawsua-kuwaitiyya-noor-v3/`, OCR on the harvest drive, not in git). Branch `lib-exp-usul-fiqh-depth-batch4` from `origin/main` with batch 3 merged in (`docs/coverage.md` taken from main and regenerated).
+- **Pages read (scan markers):** pp.1429-1455 (27 pages, the page budget for this batch). Pages 1456 onward were not read.
+- **`concept/ibra` finished (completeness 1):** the headword runs pp.1415-1443 and ends where «إبراد» begins on p.1444. Arabic, English and Urdu prose rewritten to cover the whole headword (sections 1-60). Batch 3's partial status is superseded; the entity id is unchanged.
+- **Headwords drafted as complete (all `status.review: draft`, `completeness: 1`):**
+  - `concept/ibrad` (الإبراد, delaying the noon prayer to the cool; p.1444)
+  - `concept/ibda` (الإبضاع, sending capital to trade as a gift; pp.1445-1451)
+  - `concept/ibtal` (الإبطال, invalidation of acts and worship; pp.1452-1453). Distinct from `concept/ibtal-al-falsafa`, which is a different headword.
+  - `concept/abkam` (الأبكم, the mute person in fiqh; pp.1454-1455)
+- **Entities drafted in this batch:** 4 new, 1 completed (ibra). Concept entities of the lane so far: 10 (al-abar, ibaha, ibaq, ibana, ibdal, ibra, ibrad, ibda, ibtal, abkam), excluding the work and source records.
+- **Skipped and why:**
+  - `إبط` (p.1451): cross-reference entry; its one ruling (removing armpit hair is recommended by most jurists) is a fitra matter, to be folded into a fitra entry, not a concept of its own.
+  - `إبل` (pp.1455-1456): a list of cross-references to other chapters with little independent ruling; not drafted.
+  - `إبلاغ`, `أبرص`, `إبريسم`: cross-reference only ("انظر").
+  - `أبطح` (p.1454): a place (Mina valley area), not a concept; belongs to the place class if wanted.
+  - `ابن` (from p.1456): started but not finished within the page budget; next step.
+- **Qur'an:** referenced by passage id only (`quran-2-280`, `quran-2-237`, `quran-4-92`, `quran-47-33`); no verse text typed or completed. No honorific formulas typed (the OCR's «صلى الله عليه وسلم» and «رضي الله عنه» are not copied; the Urdu draft has no ؓ or ﷺ).
+- **Not yet done:** `perspectives` blocks for contested points in ibra (the school-by-school positions are attributed in prose, as in batch 1-3 entries, but no structured perspectives block was added). A reviewer should decide whether to add them.
+- **Checks:** `npm run validate` 0 errors; `npm test` 101 of 101 passed (exit 0); `npm run graph` and `npm run coverage` run after the content edits.
+- **Next headword and page (exact):** `ابن` (ibn, the son, kinship and inheritance entry), begins on scan p.1456 (the heading «ابن» appears after «إبلاغ / انظر: تبليغ» at the foot of p.1456). Its completeness must be checked by reading to the next heading; the entry is long and likely needs a separate batch. If the next batch prefers shorter headwords first, the next short complete headword after p.1456 has not yet been checked; read from p.1456 and look for the next heading.
