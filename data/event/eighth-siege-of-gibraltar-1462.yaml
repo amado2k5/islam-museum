@@ -1,0 +1,23 @@
+id: event/eighth-siege-of-gibraltar-1462
+class: event
+kind: siege
+label: { ar: "حصار جبل طارق الثامن", en: "Eighth Siege of Gibraltar" }
+summary:
+  ar: "بطاقة أولية لحصار جبل طارق الثامن سنة ١٤٦٢م، أخذ القشتاليين الجبل من المسلمين نهائياً؛ لم تُراجع مصادره على الصفحة بعد."
+  en: "Draft card for the Eighth Siege of Gibraltar in 1462, Castile's final capture of the Rock from the Muslims; its sources are not yet checked on the page."
+wings: [time]
+periods: [period/crusades-ayyubid-mamluk]
+regions: [andalus-europe]
+date:
+  start: { edtf: "1462", precision: year, status: tradition, derived: true }
+  end: { edtf: "1462", precision: year, status: tradition, derived: true }
+sources: [source/tarikh-ibn-khaldun-ibar]
+external_ids:
+  wikidata: Q5349120
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; battle attested in narrative histories — entry not yet checked on the page"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-wave2
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }
