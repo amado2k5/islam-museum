@@ -1,0 +1,23 @@
+id: event/battle-of-parwan-1221
+class: event
+kind: battle
+label: { ar: "معركة بروان", en: "Battle of Parwan" }
+summary:
+  ar: "بطاقة أولية لمعركة بروان سنة ١٢٢١م، نصر جلال الدين الخوارزمي على طليعة المغول قبل السند؛ لم تُراجع مصادره على الصفحة بعد."
+  en: "Draft card for the Battle of Parwan in 1221, Jalal al-Din Khwarazmshah's victory over the Mongol vanguard before the Indus; its sources are not yet checked on the page."
+wings: [time]
+periods: [period/mongol-post-mongol]
+regions: [persia-central-asia]
+date:
+  start: { edtf: "1221", precision: year, status: tradition, derived: true }
+  end: { edtf: "1221", precision: year, status: tradition, derived: true }
+sources: [source/kamil-ibn-al-athir]
+external_ids:
+  wikidata: Q3269746
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; battle attested in Mongol-invasion histories — entry not yet checked on the page"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-wave2
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

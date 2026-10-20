@@ -1,0 +1,23 @@
+id: event/siege-of-scutari-1912
+class: event
+kind: siege
+label: { ar: "حصار إشقودرة", en: "Siege of Scutari" }
+summary:
+  ar: "بطاقة أولية لحصار إشقودرة من ١٩١٢ إلى ١٩١٣م، سقوط المدينة العثمانية بيد مونتنيغرو وصربيا في حرب البلقان؛ لم تُراجع مصادره على الصفحة بعد."
+  en: "Draft card for the Siege of Scutari of 1912–1913, the Ottoman city's fall to Montenegro and Serbia in the Balkan War; its sources are not yet checked on the page."
+wings: [time]
+periods: [period/modern-era]
+regions: [anatolia-balkans]
+date:
+  start: { edtf: "1912", precision: year, status: tradition, derived: true }
+  end: { edtf: "1913", precision: year, status: tradition, derived: true }
+sources: [source/dawlat-uthmaniyya-salabi]
+external_ids:
+  wikidata: Q2149254
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; siege attested in Balkan histories — entry not yet checked on the page"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-wave2
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

@@ -1,0 +1,23 @@
+id: event/siege-of-belgrade-1717
+class: event
+kind: siege
+label: { ar: "حصار بلغراد (١٧١٧)", en: "Siege of Belgrade" }
+summary:
+  ar: "بطاقة أولية لحصار بلغراد سنة ١٧١٧م، أخذ الأمير أوجين للمدينة من العثمانيين في حرب البنات؛ لم تُراجع مصادره على الصفحة بعد."
+  en: "Draft card for the Siege of Belgrade in 1717, Prince Eugene's capture of the city from the Ottomans; its sources are not yet checked on the page."
+wings: [time]
+periods: [period/gunpowder-empires]
+regions: [anatolia-balkans]
+date:
+  start: { edtf: "1717", precision: year, status: tradition, derived: true }
+  end: { edtf: "1717", precision: year, status: tradition, derived: true }
+sources: [source/dawlat-uthmaniyya-salabi]
+external_ids:
+  wikidata: Q2631076
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; siege attested in Habsburg-Ottoman histories — entry not yet checked on the page"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-wave2
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }
