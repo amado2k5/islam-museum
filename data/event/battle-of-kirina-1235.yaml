@@ -1,0 +1,23 @@
+id: event/battle-of-kirina-1235
+class: event
+kind: battle
+label: { ar: "معركة كيرينا", en: "Battle of Kirina" }
+summary:
+  ar: "بطاقة أولية لمعركة كيرينا سنة ١٢٣٥م، نصر سونياتا كيتا على سومانغورو الذي أسس مملكة مالي؛ لم تُراجع مصادره على الصفحة بعد."
+  en: "Draft card for the Battle of Kirina in 1235, Sundiata Keita's victory over Sumanguru that founded the Mali empire; its sources are not yet checked on the page."
+wings: [time]
+periods: [period/crusades-ayyubid-mamluk]
+regions: [west-africa-sahel]
+date:
+  start: { edtf: "1235", precision: year, status: tradition, derived: true }
+  end: { edtf: "1235", precision: year, status: tradition, derived: true }
+sources: [source/tarikh-islam-hasan-ibrahim]
+external_ids:
+  wikidata: Q1319855
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; battle attested in Mande oral and written histories — entry not yet checked on the page"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-wave2
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

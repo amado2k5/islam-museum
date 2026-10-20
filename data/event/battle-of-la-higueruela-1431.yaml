@@ -1,0 +1,23 @@
+id: event/battle-of-la-higueruela-1431
+class: event
+kind: battle
+label: { ar: "معركة شجرة التين", en: "Battle of La Higueruela" }
+summary:
+  ar: "بطاقة أولية لمعركة شجرة التين سنة ١٤٣١م، نصر القشتاليين على جيش غرناطة قرب فيغا؛ لم تُراجع مصادره على الصفحة بعد."
+  en: "Draft card for the Battle of La Higueruela in 1431, the Castilian victory over Granada's army in the vega; its sources are not yet checked on the page."
+wings: [time]
+periods: [period/crusades-ayyubid-mamluk]
+regions: [andalus-europe]
+date:
+  start: { edtf: "1431", precision: year, status: tradition, derived: true }
+  end: { edtf: "1431", precision: year, status: tradition, derived: true }
+sources: [source/tarikh-ibn-khaldun-ibar]
+external_ids:
+  wikidata: Q1807251
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; battle attested in Nasrid histories — entry not yet checked on the page"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-wave2
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

@@ -1,0 +1,23 @@
+id: event/mongol-campaign-against-nizaris
+class: event
+kind: war
+label: { ar: "حملة المغول ضد النزاريين", en: "Mongol Campaign against the Nizaris" }
+summary:
+  ar: "بطاقة أولية لحملة المغول على النزاريين من ١٢٥٣ إلى ١٢٥٦م، هجوم هولاكو الذي أنهى دولة ألموت؛ لم تُراجع مصادره على الصفحة بعد."
+  en: "Draft card for the Mongol campaign against the Nizaris of 1253–1256, Hulagu's offensive that ended the Alamut state; its sources are not yet checked on the page."
+wings: [time]
+periods: [period/crusades-ayyubid-mamluk]
+regions: [persia-central-asia]
+date:
+  start: { edtf: "1253", precision: year, status: tradition, derived: true }
+  end: { edtf: "1256", precision: year, status: tradition, derived: true }
+sources: [source/kamil-ibn-al-athir]
+external_ids:
+  wikidata: Q92987578
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; campaign attested in Mongol histories — entry not yet checked on the page"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-wave2
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

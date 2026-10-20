@@ -1,0 +1,23 @@
+id: event/fao-landing-1914
+class: event
+kind: conquest
+label: { ar: "إنزال الفاو (١٩١٤)", en: "Fao Landing" }
+summary:
+  ar: "بطاقة أولية لإنزال الفاو سنة ١٩١٤م، نزول البريطانيين والهنود على رأس الخليج في فتح الحرب العالمية؛ لم تُراجع مصادره على الصفحة بعد."
+  en: "Draft card for the Fao Landing of 1914, the British-Indian landing at the Gulf's head opening the Mesopotamian campaign; its sources are not yet checked on the page."
+wings: [time]
+periods: [period/modern-era]
+regions: [levant-iraq]
+date:
+  start: { edtf: "1914", precision: year, status: tradition, derived: true }
+  end: { edtf: "1914", precision: year, status: tradition, derived: true }
+sources: [source/dawlat-uthmaniyya-salabi]
+external_ids:
+  wikidata: Q1286106
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; landing attested in WWI histories — entry not yet checked on the page"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-wave2
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

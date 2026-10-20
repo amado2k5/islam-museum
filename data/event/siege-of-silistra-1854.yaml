@@ -1,0 +1,23 @@
+id: event/siege-of-silistra-1854
+class: event
+kind: siege
+label: { ar: "حصار سلستره (١٨٥٤)", en: "Siege of Silistra" }
+summary:
+  ar: "بطاقة أولية لحصار سلستره سنة ١٨٥٤م، صمود العثمانيين أمام الروس في حرب القرم؛ لم تُراجع مصادره على الصفحة بعد."
+  en: "Draft card for the Siege of Silistra in 1854, the Ottoman stand against the Russians in the Crimean War; its sources are not yet checked on the page."
+wings: [time]
+periods: [period/colonial-era]
+regions: [anatolia-balkans]
+date:
+  start: { edtf: "1854", precision: year, status: tradition, derived: true }
+  end: { edtf: "1854", precision: year, status: tradition, derived: true }
+sources: [source/dawlat-uthmaniyya-salabi]
+external_ids:
+  wikidata: Q815207
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; siege attested in Crimean-war histories — entry not yet checked on the page"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-wave2
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

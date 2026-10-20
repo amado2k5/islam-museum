@@ -1,0 +1,23 @@
+id: event/siege-of-lucknow-1857
+class: event
+kind: siege
+label: { ar: "حصار لكنو", en: "Siege of Lucknow" }
+summary:
+  ar: "بطاقة أولية لحصار لكنو سنة ١٨٥٧م، صمود حامية الرزيدنسي وفك الحصار مرتين خلال الثورة الهندية؛ لم تُراجع مصادره على الصفحة بعد."
+  en: "Draft card for the Siege of Lucknow in 1857, the Residency garrison's stand and double relief during the Indian rising; its sources are not yet checked on the page."
+wings: [time]
+periods: [period/colonial-era]
+regions: [south-asia]
+date:
+  start: { edtf: "1857", precision: year, status: tradition, derived: true }
+  end: { edtf: "1857", precision: year, status: tradition, derived: true }
+sources: [source/tarikh-islam-hasan-ibrahim]
+external_ids:
+  wikidata: Q815165
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; siege attested in Indian-revolt histories — entry not yet checked on the page"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-wave2
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

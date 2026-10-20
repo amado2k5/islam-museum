@@ -1,0 +1,23 @@
+id: event/siege-of-antioch-1268
+class: event
+kind: conquest
+label: { ar: "حصار أنطاكية (١٢٦٨)", en: "Siege of Antioch" }
+summary:
+  ar: "بطاقة أولية لحصار أنطاكية سنة ١٢٦٨م، أخذ الظاهر بيبرس لعاصمة الإمارة الصليبية؛ لم تُراجع مصادره على الصفحة بعد."
+  en: "Draft card for the Siege of Antioch in 1268, Baybars' capture of the Crusader principality's capital; its sources are not yet checked on the page."
+wings: [time]
+periods: [period/crusades-ayyubid-mamluk]
+regions: [levant-iraq]
+date:
+  start: { edtf: "1268", precision: year, status: tradition, derived: true }
+  end: { edtf: "1268", precision: year, status: tradition, derived: true }
+sources: [source/tarikh-ibn-khaldun-ibar]
+external_ids:
+  wikidata: Q815112
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; siege attested in Mamluk histories — entry not yet checked on the page"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-wave2
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }
