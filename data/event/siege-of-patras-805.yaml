@@ -1,0 +1,23 @@
+id: event/siege-of-patras-805
+class: event
+kind: siege
+label: { ar: "حصار باتراس (٨٠٥)", en: "Siege of Patras" }
+summary:
+  ar: "بطاقة أولية لحصار باتراس نحو سنة ٨٠٥م، الحصار العربي الصقلي للمدينة البيزنطية؛ لم تُراجع مصادره على الصفحة بعد."
+  en: "Draft card for the Siege of Patras about 805, the Arab siege of the Byzantine city; its sources are not yet checked on the page."
+wings: [time]
+periods: [period/abbasid-early]
+regions: [andalus-europe]
+date:
+  start: { edtf: "0805~", precision: year, status: tradition, derived: true }
+  end: { edtf: "0805~", precision: year, status: tradition, derived: true }
+sources: [source/kamil-ibn-al-athir]
+external_ids:
+  wikidata: Q13842749
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; battle attested in narrative histories — entry not yet checked on the page"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-wave2
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }
