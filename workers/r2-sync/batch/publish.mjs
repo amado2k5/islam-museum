@@ -35,6 +35,9 @@ const distRoot = args.dist ?? "dist";
 const dryRun = args["dry-run"] === true;
 const bucket = process.env.BUCKET ?? "islam-museum-search";
 const endpoint = process.env.ENDPOINT;
+// SYNC_URLS: comma-separated Worker URLs. Falls back to SYNC_URL (one Worker).
+const workerUrls = (process.env.SYNC_URLS ?? process.env.SYNC_URL ?? "").split(",").filter(Boolean);
+const parallel = Number(process.env.PARALLEL ?? workerUrls.length * 6);
 const log = (msg) => console.log(`[r2-publish] ${msg}`);
 
 const sha = (bytes) => createHash("sha256").update(bytes).digest("hex");
@@ -62,7 +65,7 @@ function desiredFiles() {
   return files;
 }
 
-// Previous state: key -> sha. A missing manifest means nothing was published yet.
+// Previous state: key -> sha. Returns null when no manifest exists yet.
 function readPrevious() {
   try {
     const out = execFileSync("aws", ["s3", "cp", `s3://${bucket}/${MANIFEST_KEY}`, "-", "--endpoint-url", endpoint, "--only-show-errors"], {
@@ -72,9 +75,37 @@ function readPrevious() {
     });
     return JSON.parse(out).files;
   } catch (err) {
-    if (/NoSuchKey|404|Not Found/.test(String(err.stderr))) return {};
+    if (/NoSuchKey|404|Not Found/.test(String(err.stderr))) return null;
     throw err;
   }
+}
+
+// Bootstrap when no manifest exists: the bucket already holds the files from an earlier
+// publish. Compare each stored object's ETag with the MD5 of the local file. A match is
+// recorded as published, so only different or missing files are uploaded. Stored objects
+// that are not in the build are recorded with an empty sha, so the diff deletes them.
+// An ETag is an MD5 only for single-part uploads; anything else counts as a difference
+// and is simply uploaded again.
+function bootstrapPrevious(desired) {
+  const previous = {};
+  for (const t of TARGETS) {
+    let token;
+    do {
+      const args = ["s3api", "list-objects-v2", "--bucket", bucket, "--prefix", `${t.prefix}/`, "--endpoint-url", endpoint, "--output", "json"];
+      if (token) args.push("--continuation-token", token);
+      const page = JSON.parse(execFileSync("aws", args, { encoding: "utf8", maxBuffer: 512 * 1024 * 1024 }));
+      for (const obj of page.Contents ?? []) {
+        const local = desired.get(obj.Key);
+        const etag = String(obj.ETag ?? "").replace(/"/g, "");
+        const sameBytes = local && createHash("md5").update(local.bytes).digest("hex") === etag;
+        previous[obj.Key] = sameBytes ? local.sha : "";
+      }
+      token = page.IsTruncated ? page.NextContinuationToken : undefined;
+    } while (token);
+  }
+  const matched = Object.values(previous).filter(Boolean).length;
+  log(`no manifest yet: ${Object.keys(previous).length} objects in the bucket, ${matched} already match the build`);
+  return previous;
 }
 
 function diff(desired, previous) {
@@ -88,12 +119,12 @@ function diff(desired, previous) {
   return ops;
 }
 
-function applyArchive(archive, dir) {
+function applyArchive(archive, dir, workerUrl) {
   const file = join(dir, archive.name);
   writeFileSync(file, archive.bytes);
   const stagedKey = `${STAGING_PREFIX}${archive.name}`;
   execFileSync("aws", ["s3", "cp", file, `s3://${bucket}/${stagedKey}`, "--endpoint-url", endpoint, "--only-show-errors"], { stdio: "inherit" });
-  return postProcess(stagedKey).then(({ status, report }) => {
+  return postProcess(workerUrl, stagedKey).then(({ status, report }) => {
     if (status !== 200) throw new Error(`${archive.name}: worker answered ${status} ${JSON.stringify(report)}`);
     log(`${archive.name}: ${JSON.stringify(report.summary)}`);
   });
@@ -102,8 +133,8 @@ function applyArchive(archive, dir) {
 // POST /process and wait for the reply. Node's global fetch gives up after 5 minutes
 // without response headers, but the Worker answers only when the archive is fully
 // applied, which can take longer. node:https/http has no such default timeout.
-function postProcess(archive) {
-  const url = new URL(`${process.env.SYNC_URL}/process`);
+function postProcess(workerUrl, archive) {
+  const url = new URL(`${workerUrl}/process`);
   const body = JSON.stringify({ archive });
   const send = url.protocol === "http:" ? httpRequest : httpsRequest;
   return new Promise((resolve, reject) => {
@@ -141,7 +172,14 @@ function clearStaging() {
 
 async function main() {
   const desired = desiredFiles();
-  const previous = dryRun ? {} : readPrevious();
+  // The manifest is the record of what is published. Without one, a publish would
+  // upload everything, so that case needs an explicit one-time --seed run.
+  const stored = dryRun ? {} : readPrevious();
+  const seeding = process.argv.includes("--seed");
+  if (!dryRun && stored === null && !seeding) {
+    throw new Error("no manifest in the bucket: run once with --seed to record the files already published");
+  }
+  const previous = stored ?? (dryRun ? {} : bootstrapPrevious(desired));
   const ops = diff(desired, previous);
   const copies = ops.filter((o) => o.op === "COPY").length;
   const deletes = ops.length - copies;
@@ -156,10 +194,19 @@ async function main() {
     return;
   }
 
+  // Archives go to the Workers in SYNC_URLS in turn, PARALLEL at a time.
+  // PARALLEL defaults to six per Worker: each Worker invocation can hold six R2 connections.
   const dir = mkdtempSync(join(tmpdir(), "r2-publish-"));
-  for (const archive of packArchives(ops, { namePrefix: `publish-${Date.now()}` })) {
-    await applyArchive(archive, dir);
-  }
+  const archives = packArchives(ops, { namePrefix: `publish-${Date.now()}` });
+  let nextArchive = 0;
+  const runner = async () => {
+    while (nextArchive < archives.length) {
+      const i = nextArchive;
+      nextArchive += 1;
+      await applyArchive(archives[i], dir, workerUrls[i % workerUrls.length]);
+    }
+  };
+  await Promise.all(Array.from({ length: Math.min(parallel, archives.length) }, runner));
 
   const next = { version: 1, files: Object.fromEntries([...desired].map(([key, f]) => [key, f.sha])) };
   const manifestFile = join(dir, "manifest.json");
