@@ -1,0 +1,23 @@
+id: event/battle-of-balanjar-732
+class: event
+kind: battle
+label: { ar: "معركة بلنجر (٧٣٢)", en: "Battle of Balanjar (732)" }
+summary:
+  ar: "بطاقة أولية لمعركة بلنجر الثانية سنة ٧٣٢م بقيادة مسلمة بن عبد الملك ومروان بن محمد في حرب الخزر؛ لم تُراجع مصادره على الصفحة بعد."
+  en: "Draft card for the second Battle of Balanjar in 732 during the Umayyad-Khazar wars; its sources are not yet checked on the page."
+wings: [time]
+periods: [period/umayyad]
+regions: [persia-central-asia]
+date:
+  start: { edtf: "0732", precision: year, status: tradition, derived: true }
+  end: { edtf: "0732", precision: year, status: tradition, derived: true }
+sources: [source/tarikh-al-tabari]
+external_ids:
+  wikidata: Q4870396
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; battle attested in narrative histories — entry not yet checked on the page"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-wave2
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }
