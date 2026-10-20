@@ -1,0 +1,23 @@
+id: event/battle-of-nisa-1035
+class: event
+kind: battle
+label: { ar: "معركة نسا (١٠٣٥)", en: "Battle of Nisa (1035)" }
+summary:
+  ar: "بطاقة أولية لمعركة نسا سنة ١٠٣٥م، من مصادمات الغزنويين والسلاجقة؛ لم تُراجع مصادره على الصفحة بعد."
+  en: "Draft card for the Battle of Nisa in 1035, a Ghaznavid–Seljuk clash; its sources are not yet checked on the page."
+wings: [time]
+periods: [period/buyid-seljuk-fatimid-era]
+regions: [persia-central-asia]
+date:
+  start: { edtf: "1035-06", precision: year, status: tradition, derived: true }
+  end: { edtf: "1035-06", precision: year, status: tradition, derived: true }
+sources: [source/tarikh-islam-hasan-ibrahim]
+external_ids:
+  wikidata: Q113576133
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; battle attested in narrative histories — entry not yet checked on the page"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-wave2
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

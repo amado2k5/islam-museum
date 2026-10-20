@@ -1,0 +1,23 @@
+id: event/siege-of-ceuta-1309
+class: event
+kind: siege
+label: { ar: "حصار سبتة (١٣٠٩)", en: "Siege of Ceuta (1309)" }
+summary:
+  ar: "بطاقة أولية لحصار سبتة سنة ١٣٠٩م، من مصادمات المغرب والأندلس في عصر المرينيين؛ لم تُراجع مصادره على الصفحة بعد."
+  en: "Draft card for the Siege of Ceuta in 1309, a clash of the Maghreb–Andalus struggle in the Marinid age; its sources are not yet checked on the page."
+wings: [time]
+periods: [period/crusades-ayyubid-mamluk]
+regions: [maghreb]
+date:
+  start: { edtf: "1309-07", precision: year, status: tradition, derived: true }
+  end: { edtf: "1309-07", precision: year, status: tradition, derived: true }
+sources: [source/tarikh-islam-hasan-ibrahim]
+external_ids:
+  wikidata: Q11949527
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; battle attested in narrative histories — entry not yet checked on the page"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-wave2
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

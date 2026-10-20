@@ -1,0 +1,23 @@
+id: event/great-siege-of-tangier-1684
+class: event
+kind: siege
+label: { ar: "الحصار الكبير لطنجة (١٦٨٠–١٦٨٤)", en: "Great Siege of Tangier (1680–84)" }
+summary:
+  ar: "بطاقة أولية للحصار الكبير لطنجة من ١٦٨٠ إلى ١٦٨٤م، حملة مولاي إسماعيل التي أنهت الاحتلال الإنجليزي للمدينة؛ لم تُراجع مصادره على الصفحة بعد."
+  en: "Draft card for the Great Siege of Tangier in 1680–84, Moulay Ismail's campaign that ended the English occupation of the city; its sources are not yet checked on the page."
+wings: [time]
+periods: [period/gunpowder-empires]
+regions: [maghreb]
+date:
+  start: { edtf: "1680", precision: year, status: tradition, derived: true }
+  end: { edtf: "1684", precision: year, status: tradition, derived: true }
+sources: [source/tarikh-islam-hasan-ibrahim]
+external_ids:
+  wikidata: Q109256037
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; battle attested in narrative histories — entry not yet checked on the page"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-wave2
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

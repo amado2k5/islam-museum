@@ -1,0 +1,23 @@
+id: event/battles-of-heraclea-1101
+class: event
+kind: battle
+label: { ar: "معارك هيراقليا (١١٠١)", en: "Battles of Heraclea (1101)" }
+summary:
+  ar: "بطاقة أولية لمعارك هيراقليا سنة ١١٠١م، إبادة السلاجقة والدناشمندية لحملة ١١٠١م الصليبية في الأناضول؛ لم تُراجع مصادره على الصفحة بعد."
+  en: "Draft card for the Battles of Heraclea in 1101, the Seljuk and Danishmendid destruction of the Crusade of 1101 in Anatolia; its sources are not yet checked on the page."
+wings: [time]
+periods: [period/crusades-ayyubid-mamluk]
+regions: [anatolia-balkans]
+date:
+  start: { edtf: "1101-08", precision: year, status: tradition, derived: true }
+  end: { edtf: "1101-09", precision: year, status: tradition, derived: true }
+sources: [source/tarikh-islam-hasan-ibrahim]
+external_ids:
+  wikidata: Q113624851
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; battle attested in narrative histories — entry not yet checked on the page"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-wave2
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }
