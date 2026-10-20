@@ -69,5 +69,7 @@ jobs:
           ENDPOINT: https://${{ secrets.CLOUDFLARE_ACCOUNT_ID }}.r2.cloudflarestorage.com
           BUCKET: islam-museum-search
           SYNC_URLS: ${{ steps.r2_workers.outputs.urls }}
+          # Two archives per Worker at a time. At 42, connections from the runner timed out.
+          PARALLEL: "14"
           SYNC_TOKEN: ${{ secrets.R2_SYNC_TOKEN }}
         run: node workers/r2-sync/batch/publish.mjs --dist dist --seed
