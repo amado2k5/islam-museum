@@ -21,7 +21,7 @@ on:
       parallel:
         description: "Archives posted to the Worker at the same time"
         required: true
-        default: "6"
+        default: "42"
 
 permissions:
   contents: read

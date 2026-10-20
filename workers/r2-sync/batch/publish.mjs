@@ -35,6 +35,9 @@ const distRoot = args.dist ?? "dist";
 const dryRun = args["dry-run"] === true;
 const bucket = process.env.BUCKET ?? "islam-museum-search";
 const endpoint = process.env.ENDPOINT;
+// SYNC_URLS: comma-separated Worker URLs. Falls back to SYNC_URL (one Worker).
+const workerUrls = (process.env.SYNC_URLS ?? process.env.SYNC_URL ?? "").split(",").filter(Boolean);
+const parallel = Number(process.env.PARALLEL ?? workerUrls.length * 6);
 const log = (msg) => console.log(`[r2-publish] ${msg}`);
 
 const sha = (bytes) => createHash("sha256").update(bytes).digest("hex");
@@ -88,12 +91,12 @@ function diff(desired, previous) {
   return ops;
 }
 
-function applyArchive(archive, dir) {
+function applyArchive(archive, dir, workerUrl) {
   const file = join(dir, archive.name);
   writeFileSync(file, archive.bytes);
   const stagedKey = `${STAGING_PREFIX}${archive.name}`;
   execFileSync("aws", ["s3", "cp", file, `s3://${bucket}/${stagedKey}`, "--endpoint-url", endpoint, "--only-show-errors"], { stdio: "inherit" });
-  return postProcess(stagedKey).then(({ status, report }) => {
+  return postProcess(workerUrl, stagedKey).then(({ status, report }) => {
     if (status !== 200) throw new Error(`${archive.name}: worker answered ${status} ${JSON.stringify(report)}`);
     log(`${archive.name}: ${JSON.stringify(report.summary)}`);
   });
@@ -102,8 +105,8 @@ function applyArchive(archive, dir) {
 // POST /process and wait for the reply. Node's global fetch gives up after 5 minutes
 // without response headers, but the Worker answers only when the archive is fully
 // applied, which can take longer. node:https/http has no such default timeout.
-function postProcess(archive) {
-  const url = new URL(`${process.env.SYNC_URL}/process`);
+function postProcess(workerUrl, archive) {
+  const url = new URL(`${workerUrl}/process`);
   const body = JSON.stringify({ archive });
   const send = url.protocol === "http:" ? httpRequest : httpsRequest;
   return new Promise((resolve, reject) => {
@@ -156,10 +159,19 @@ async function main() {
     return;
   }
 
+  // Archives go to the Workers in SYNC_URLS in turn, PARALLEL at a time.
+  // PARALLEL defaults to six per Worker: each Worker invocation can hold six R2 connections.
   const dir = mkdtempSync(join(tmpdir(), "r2-publish-"));
-  for (const archive of packArchives(ops, { namePrefix: `publish-${Date.now()}` })) {
-    await applyArchive(archive, dir);
-  }
+  const archives = packArchives(ops, { namePrefix: `publish-${Date.now()}` });
+  let nextArchive = 0;
+  const runner = async () => {
+    while (nextArchive < archives.length) {
+      const i = nextArchive;
+      nextArchive += 1;
+      await applyArchive(archives[i], dir, workerUrls[i % workerUrls.length]);
+    }
+  };
+  await Promise.all(Array.from({ length: Math.min(parallel, archives.length) }, runner));
 
   const next = { version: 1, files: Object.fromEntries([...desired].map(([key, f]) => [key, f.sha])) };
   const manifestFile = join(dir, "manifest.json");
