@@ -1,0 +1,23 @@
+id: event/battle-of-wolf-ravine-1909
+class: event
+kind: battle
+label: { ar: "معركة وادي الذئاب", en: "Battle of Wolf Ravine" }
+summary:
+  ar: "بطاقة أولية لمعركة وادي الذئاب سنة ١٩٠٩م، هزيمة الإسبانيين أمام الريفيين في حرب مليلية؛ لم تُراجع مصادره على الصفحة بعد."
+  en: "Draft card for the Battle of the Wolf Ravine (Barranco del Lobo) in 1909, the Rifian defeat of the Spanish column in the Melilla war; its sources are not yet checked on the page."
+wings: [time]
+periods: [period/colonial-era]
+regions: [maghreb]
+date:
+  start: { edtf: "1909", precision: year, status: tradition, derived: true }
+  end: { edtf: "1909", precision: year, status: tradition, derived: true }
+sources: [source/tarikh-islam-hasan-ibrahim]
+external_ids:
+  wikidata: Q3027801
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; battle attested in Rif-war histories — entry not yet checked on the page"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-wave2
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

@@ -1,0 +1,23 @@
+id: event/battle-of-kinburn-1787
+class: event
+kind: battle
+label: { ar: "معركة كينبورن", en: "Battle of Kinburn" }
+summary:
+  ar: "بطاقة أولية لمعركة كينبورن سنة ١٧٨٧م، صد سوفوروف للإنزال العثماني في حرب القيصرية؛ لم تُراجع مصادره على الصفحة بعد."
+  en: "Draft card for the Battle of Kinburn in 1787, Suvorov's repulse of the Ottoman landing in the war with Russia; its sources are not yet checked on the page."
+wings: [time]
+periods: [period/colonial-era]
+regions: [anatolia-balkans]
+date:
+  start: { edtf: "1787", precision: year, status: tradition, derived: true }
+  end: { edtf: "1787", precision: year, status: tradition, derived: true }
+sources: [source/dawlat-uthmaniyya-salabi]
+external_ids:
+  wikidata: Q2914954
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; battle attested in Russo-Turkish war histories — entry not yet checked on the page"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-wave2
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }
