@@ -1,0 +1,32 @@
+id: polity/wattasid-dynasty
+class: polity
+kind: dynasty
+label:
+  ar: "الدولة الوطاسية"
+  en: "Wattasid dynasty"
+summary:
+  ar: "بطاقة أولية للدولة الوطاسية، سلالة بني وطاس الحاكمة للمغرب من ١٤٧٢ حتى ١٥٥٤م؛ لم تُراجع مصادرها على الصفحة بعد."
+  en: "Draft card for the Wattasid dynasty, the Banu Wattas ruling Morocco from 1472 to 1554; its sources are not yet checked on the page."
+wings: [time]
+periods: [period/gunpowder-empires]
+regions: [maghreb]
+start:
+  edtf: "1472"
+  precision: year
+  status: tradition
+  derived: true
+end:
+  edtf: "1554"
+  precision: year
+  status: tradition
+  derived: true
+sources: [source/tarikh-ibn-khaldun-ibar]
+external_ids:
+  wikidata: Q970799
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; dynasty attested in Moroccan histories — entry not yet checked on the page"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-wave2
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }
