@@ -1,0 +1,32 @@
+id: polity/marashi-dynasty
+class: polity
+kind: dynasty
+label:
+  ar: "المرعشيون"
+  en: "Mar'ashis"
+summary:
+  ar: "بطاقة أولية للمرعشيين، الأسرة العلوية الإثني عشرية التي حكمت مازندران من ١٣٥٩ إلى ١٥٩٦م؛ لم تُراجع مصادرها على الصفحة بعد."
+  en: "Draft card for the Mar'ashis, the Twelver Alid house that ruled Mazandaran from 1359 to 1596; its sources are not yet checked on the page."
+wings: [time]
+periods: [period/crusades-ayyubid-mamluk]
+regions: [persia-central-asia]
+start:
+  edtf: "1359"
+  precision: year
+  status: tradition
+  derived: true
+end:
+  edtf: "1596"
+  precision: year
+  status: tradition
+  derived: true
+sources: [source/tarikh-islam-hasan-ibrahim]
+external_ids:
+  wikidata: Q117208
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; dynasty attested in Caspian histories — entry not yet checked on the page"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-wave2
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }
