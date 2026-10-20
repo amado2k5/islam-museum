@@ -1,0 +1,23 @@
+id: event/naousa-massacre-1822
+class: event
+kind: massacre
+label: { ar: "مذبحة ناؤسا", en: "Naousa Massacre" }
+summary:
+  ar: "بطاقة أولية لمذبحة ناؤسا سنة ١٨٢٢م، تدمير الجيش العثماني للمدينة اليونانية؛ لم تُراجع مصادره على الصفحة بعد."
+  en: "Draft card for the Naousa massacre of 1822, the Ottoman destruction of the Greek town; its sources are not yet checked on the page."
+wings: [time]
+periods: [period/colonial-era]
+regions: [anatolia-balkans]
+date:
+  start: { edtf: "1822", precision: year, status: tradition, derived: true }
+  end: { edtf: "1822", precision: year, status: tradition, derived: true }
+sources: [source/dawlat-uthmaniyya-salabi]
+external_ids:
+  wikidata: Q3396743
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; battle attested in narrative histories — entry not yet checked on the page"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-wave2
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

@@ -1,0 +1,23 @@
+id: event/battle-of-mazagran-1840
+class: event
+kind: battle
+label: { ar: "معركة مزغران", en: "Battle of Mazagran" }
+summary:
+  ar: "بطاقة أولية لمعركة مزغران سنة ١٨٤٠م، دفاع الحامية الفرنسية أمام عبد القادر؛ لم تُراجع مصادره على الصفحة بعد."
+  en: "Draft card for the Battle of Mazagran in 1840, the French garrison's stand against Abd al-Qadir; its sources are not yet checked on the page."
+wings: [time]
+periods: [period/colonial-era]
+regions: [maghreb]
+date:
+  start: { edtf: "1840", precision: year, status: tradition, derived: true }
+  end: { edtf: "1840", precision: year, status: tradition, derived: true }
+sources: [source/tarikh-islam-hasan-ibrahim]
+external_ids:
+  wikidata: Q2889297
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; battle attested in narrative histories — entry not yet checked on the page"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-wave2
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

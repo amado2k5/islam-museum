@@ -1,0 +1,23 @@
+id: event/battle-of-the-puig-1237
+class: event
+kind: battle
+label: { ar: "معركة إل بويتش", en: "Battle of the Puig" }
+summary:
+  ar: "بطاقة أولية لمعركة إل بويتش سنة ١٢٣٧م، فوز خايمه الأول على جيش بلنسية؛ لم تُراجع مصادره على الصفحة بعد."
+  en: "Draft card for the Battle of the Puig in 1237, James I's victory over the Muslim army of Valencia; its sources are not yet checked on the page."
+wings: [time]
+periods: [period/crusades-ayyubid-mamluk]
+regions: [andalus-europe]
+date:
+  start: { edtf: "1237", precision: year, status: tradition, derived: true }
+  end: { edtf: "1237", precision: year, status: tradition, derived: true }
+sources: [source/kamil-ibn-al-athir]
+external_ids:
+  wikidata: Q2890815
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; battle attested in narrative histories — entry not yet checked on the page"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-wave2
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

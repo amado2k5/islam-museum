@@ -1,0 +1,23 @@
+id: event/battle-of-otoneta-1446
+class: event
+kind: battle
+label: { ar: "معركة أوتونيته", en: "Battle of Otonetë" }
+summary:
+  ar: "بطاقة أولية لمعركة أوتونيته سنة ١٤٤٦م، هجوم إسكندر بك على جيش مراد الثاني؛ لم تُراجع مصادره على الصفحة بعد."
+  en: "Draft card for the Battle of Otonetë in 1446, Skanderbeg's attack on Murad II's army; its sources are not yet checked on the page."
+wings: [time]
+periods: [period/crusades-ayyubid-mamluk]
+regions: [anatolia-balkans]
+date:
+  start: { edtf: "1446", precision: year, status: tradition, derived: true }
+  end: { edtf: "1446", precision: year, status: tradition, derived: true }
+sources: [source/dawlat-uthmaniyya-salabi]
+external_ids:
+  wikidata: Q3302743
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; battle attested in narrative histories — entry not yet checked on the page"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-wave2
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

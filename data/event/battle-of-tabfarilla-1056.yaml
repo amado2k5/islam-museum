@@ -1,0 +1,23 @@
+id: event/battle-of-tabfarilla-1056
+class: event
+kind: battle
+label: { ar: "معركة طبفريلّة", en: "Battle of Tabfarilla" }
+summary:
+  ar: "بطاقة أولية لمعركة طبفريلّة سنة ١٠٥٦م، هزيمة المرابطين أمام الغزيين؛ لم تُراجع مصادره على الصفحة بعد."
+  en: "Draft card for the Battle of Tabfarilla in 1056, the Almoravid defeat by the desert tribes; its sources are not yet checked on the page."
+wings: [time]
+periods: [period/buyid-seljuk-fatimid-era]
+regions: [west-africa-sahel]
+date:
+  start: { edtf: "1056", precision: year, status: tradition, derived: true }
+  end: { edtf: "1056", precision: year, status: tradition, derived: true }
+sources: [source/kamil-ibn-al-athir]
+external_ids:
+  wikidata: Q2890092
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; battle attested in narrative histories — entry not yet checked on the page"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-wave2
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }
