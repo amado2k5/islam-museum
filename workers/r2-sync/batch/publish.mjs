@@ -208,7 +208,8 @@ async function main() {
   };
   await Promise.all(Array.from({ length: Math.min(parallel, archives.length) }, runner));
 
-  const next = { version: 1, files: Object.fromEntries([...desired].map(([key, f]) => [key, f.sha])) };
+  // commit: the build this manifest describes, recorded for tracing (null outside CI).
+  const next = { version: 1, commit: process.env.GITHUB_SHA ?? null, files: Object.fromEntries([...desired].map(([key, f]) => [key, f.sha])) };
   const manifestFile = join(dir, "manifest.json");
   writeFileSync(manifestFile, JSON.stringify(next));
   execFileSync("aws", ["s3", "cp", manifestFile, `s3://${bucket}/${MANIFEST_KEY}`, "--endpoint-url", endpoint, "--only-show-errors"], { stdio: "inherit" });
