@@ -20,7 +20,9 @@ const FILES = process.env.FILES === undefined || process.env.FILES === "all" ? s
 const PARALLEL = Number(process.env.PARALLEL ?? 10);
 const bucket = process.env.BUCKET ?? "islam-museum-sync-test";
 const endpoint = process.env.ENDPOINT;
-const url = process.env.SYNC_URL;
+// Comma-separated Worker URLs. Archives are spread across them in turn. Falls back to SYNC_URL.
+const urls = (process.env.SYNC_URLS ?? process.env.SYNC_URL ?? "").split(",").filter(Boolean);
+const url = urls[0];
 const token = process.env.SYNC_TOKEN;
 if (bucket === "islam-museum-search") throw new Error("refusing to run against the production bucket");
 
@@ -32,8 +34,11 @@ const check = (ok, msg) => {
   console.log(`${ok ? "ok  " : "FAIL"} ${msg}`);
   if (!ok) failures.push(msg);
 };
+// --only-show-errors is not accepted by "aws s3 ls", so listings call aws directly.
 const aws = (...args) =>
   execFileSync("aws", [...args, "--endpoint-url", endpoint, "--only-show-errors"], { encoding: "utf8", maxBuffer: 512 * 1024 * 1024 });
+const awsList = (...args) =>
+  execFileSync("aws", [...args, "--endpoint-url", endpoint], { encoding: "utf8", maxBuffer: 512 * 1024 * 1024 });
 const sha = (bytes) => createHash("sha256").update(bytes).digest("hex");
 
 // 1. Build the operations and pack them into archives
@@ -69,25 +74,42 @@ let inflight = 0;
 let peak = 0;
 const results = [];
 const queue = archives.map((a) => a.name);
+const workerFor = new Map(archives.map((a, i) => [a.name, urls[i % urls.length]]));
+const MAX_ATTEMPTS = 3;
+// One archive: post it, and retry after a connection reset (ECONNRESET) or a
+// transient response. A retry re-applies the same archive, which is harmless.
 async function postArchive(name) {
   inflight += 1;
   peak = Math.max(peak, inflight);
-  const began = Date.now();
   try {
-    const res = await fetch(`${url}/process`, {
-      method: "POST",
-      headers: { authorization: `Bearer ${token}`, "content-type": "application/json" },
-      body: JSON.stringify({ archive: `${STAGING}${name}` }),
-      signal: AbortSignal.timeout(10 * 60 * 1000),
-    });
-    const report = await res.json();
-    results.push({ name, status: res.status, report });
-    console.log(`[${name}] HTTP ${res.status} after ${((Date.now() - began) / 1000).toFixed(1)} s: ${JSON.stringify(report.summary ?? report)}`);
-  } catch (err) {
-    // Record the failure and carry on, so every archive's outcome shows in the log.
-    const reason = err.cause?.code ?? err.cause?.message ?? err.message;
-    results.push({ name, status: "network-error", report: { error: String(reason) } });
-    console.log(`[${name}] NETWORK ERROR after ${((Date.now() - began) / 1000).toFixed(1)} s: ${reason}`);
+    for (let attempt = 1; attempt <= MAX_ATTEMPTS; attempt += 1) {
+      const began = Date.now();
+      try {
+        const target = workerFor.get(name);
+        const res = await fetch(`${target}/process`, {
+          method: "POST",
+          headers: { authorization: `Bearer ${token}`, "content-type": "application/json" },
+          body: JSON.stringify({ archive: `${STAGING}${name}` }),
+          signal: AbortSignal.timeout(10 * 60 * 1000),
+        });
+        const report = await res.json();
+        const secs = ((Date.now() - began) / 1000).toFixed(1);
+        console.log(`[${name}] ${new URL(target).host} attempt ${attempt}: HTTP ${res.status} after ${secs} s: ${JSON.stringify(report.summary ?? report)}`);
+        if (res.status === 200 || attempt === MAX_ATTEMPTS) {
+          results.push({ name, status: res.status, report, attempts: attempt });
+          return;
+        }
+      } catch (err) {
+        const reason = err.cause?.code ?? err.cause?.message ?? err.message;
+        const secs = ((Date.now() - began) / 1000).toFixed(1);
+        console.log(`[${name}] ${new URL(target).host} attempt ${attempt}: NETWORK ERROR after ${secs} s: ${reason}`);
+        if (attempt === MAX_ATTEMPTS) {
+          results.push({ name, status: "network-error", report: { error: String(reason) }, attempts: attempt });
+          return;
+        }
+      }
+      await new Promise((resolve) => setTimeout(resolve, 5000));
+    }
   } finally {
     inflight -= 1;
   }
@@ -108,7 +130,7 @@ const copied = results.reduce((n, r) => n + (r.report.summary?.copied ?? 0), 0);
 check(copied === FILES, `Worker reports ${copied} copies for ${FILES} files`);
 check(peak >= Math.min(PARALLEL, archives.length), `at least ${Math.min(PARALLEL, archives.length)} requests were in flight at once (peak ${peak})`);
 
-const listing = aws("s3", "ls", `s3://${bucket}/${PREFIX}`, "--recursive").trim().split("\n").filter(Boolean);
+const listing = awsList("s3", "ls", `s3://${bucket}/${PREFIX}`, "--recursive").trim().split("\n").filter(Boolean);
 check(listing.length === FILES, `bucket holds ${listing.length} of ${FILES} test files`);
 
 const sample = [...expected.keys()].filter((_, i) => i % 200 === 0);
@@ -122,7 +144,7 @@ check(sampleOk === sample.length, `content matches for ${sampleOk}/${sample.leng
 const status = await fetch(`${url}/status`, { headers: { authorization: `Bearer ${token}` } });
 check(status.status === 200, `GET /status answers HTTP ${status.status}`);
 
-const staged = aws("s3", "ls", `s3://${bucket}/${STAGING}`).split("\n").filter((l) => l.includes(runId));
+const staged = awsList("s3", "ls", `s3://${bucket}/${STAGING}`).split("\n").filter((l) => l.includes(runId));
 check(staged.length === 0, `no archives from this run left in ${STAGING} (${staged.length})`);
 
 // 5. Clean up this run's files
