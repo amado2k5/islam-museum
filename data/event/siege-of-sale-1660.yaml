@@ -1,0 +1,23 @@
+id: event/siege-of-sale-1660
+class: event
+kind: siege
+label: { ar: "حصار سلا (١٦٦٠)", en: "Siege of Sale (1660)" }
+summary:
+  ar: "بطاقة أولية لحصار سلا (١٦٦٠)؛ لم تُراجع مصادره على الصفحة بعد."
+  en: "Draft card for Siege of Sale (1660); its sources are not yet checked on the page."
+wings: [time]
+periods: [period/gunpowder-empires]
+regions: [maghreb]
+date:
+  start: { edtf: "1660", precision: year, status: tradition, derived: true }
+  end: { edtf: "1664", precision: year, status: tradition, derived: true }
+sources: [source/tarikh-islam-hasan-ibrahim]
+external_ids:
+  wikidata: Q21083888
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; battle attested in narrative histories — entry not yet checked on the page"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-wave2
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }
