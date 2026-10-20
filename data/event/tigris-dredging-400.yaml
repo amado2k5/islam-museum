@@ -1,0 +1,20 @@
+id: event/tigris-dredging-400
+class: event
+kind: other
+label: { ar: "نقصان ماء دجلة وكريه سنة أربعمائة" }
+summary:
+  ar: "في ربيع الأول سنة أربعمائة نقص الماء في دجلة نقصاناً فاحشاً لم يُعهد مثله وظهرت فيها جزائر لم تكن قبل، وامتنع سير السفن فيها من أوانا والراشدية من أعالي دجلة، فأُنفذ من كرى هذا الموضع، وكان كرى دجلة مما استظرف وعُجب منه لأنه لم تُكر دجلة قط إلا في هذه السنة {cite:muntazam-ibn-al-jawzi j.7 p.245}."
+wings: [time]
+periods: [period/buyid-seljuk-fatimid-era]
+regions: [levant-iraq]
+date:
+  start: { edtf: "1009-10~", hijri: "0400-03", calendar: julian, precision: month, status: tradition, derived: true, note: "ربيع الأول 400هـ؛ التحويل مشتق {cite:muntazam-ibn-al-jawzi j.7 p.245}" }
+relations:
+  - { type: located_in, target: place/baghdad, sources: [source/muntazam-ibn-al-jawzi] }
+provenance:
+  layer: own-research
+  source: "المنتظم في تاريخ الملوك والأمم — ابن الجوزي (ج7، أحداث سنة 400)، قراءة آبل فيجن"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-muntazam-batch-22
+sources: [source/muntazam-ibn-al-jawzi]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

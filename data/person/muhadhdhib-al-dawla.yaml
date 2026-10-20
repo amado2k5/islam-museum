@@ -1,0 +1,23 @@
+id: person/muhadhdhib-al-dawla
+class: person
+label: { ar: "مهذب الدولة أبو الحسن علي بن نصر صاحب البطائح" }
+summary:
+  ar: "علي بن نصر أبو الحسن الملقب مهذب الدولة، صاحب البطائح، كان ذا كرم ووفاء، يلجأ إليه الناس في الشدائد. أكبر فخره نزول القادر بالله عليه وإقامته في جواره نحو سنتين في خفائه حتى جاءته الخلافة، فتوجت الأيام مفرق فخاره بمقام القادر عنده. كان يرتفع له من إقطاعه آلاف الأكرار من الحنطة والشعير والأرز، وتزوج بنت الملك بهاء الدولة وأعانه في نوائبه وأقرضه الأموال، وهو الذي بنى جامع القطيعة ببغداد وسقايات واسط. توفي سنة تسع وأربعمائة {cite:muntazam-ibn-al-jawzi j.7 p.149,290-291}."
+wings: [people]
+periods: [period/buyid-seljuk-fatimid-era]
+regions: [levant-iraq]
+roles: [emir]
+story_roles:
+  - { role: protector, status: tradition, sources: [source/muntazam-ibn-al-jawzi] }
+died:
+  { edtf: "1018~", hijri: "0409", calendar: julian, precision: year, status: tradition, derived: true, note: "توفي سنة 409هـ؛ التحويل مشتق {cite:muntazam-ibn-al-jawzi j.7 p.290}" }
+relations:
+  - { type: protected, target: person/al-qadir-billah, role: "آواه بالبطيحة نحو سنتين حتى أفضت إليه الخلافة", sources: [source/muntazam-ibn-al-jawzi] }
+  - { type: allied_with, target: person/baha-al-dawla, role: "صهره، تزوج ابنته وأعانه وأقرضه", sources: [source/muntazam-ibn-al-jawzi] }
+provenance:
+  layer: own-research
+  source: "المنتظم في تاريخ الملوك والأمم — ابن الجوزي (ج7، وفيات سنة 409)، قراءة آبل فيجن"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-muntazam-batch-22
+sources: [source/muntazam-ibn-al-jawzi]
+status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 High)" }

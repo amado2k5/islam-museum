@@ -1,0 +1,22 @@
+id: person/abu-ali-ibn-ustadh-hurmuz
+class: person
+label: { ar: "عميد الجيوش أبو علي الحسن بن أستاذ هرمز" }
+summary:
+  ar: "الحسن بن أبي جعفر أستاذ هرمز أبو علي الملقب عميد الجيوش، ولد سنة خمسين وثلاثمائة، وكان أبوه من حجاب عضد الدولة، فخدم هو صمصام الدولة وبهاء الدولة، وولاه بهاء الدولة تدبير العراق فقدم بغداد سنة اثنتين وتسعين وثلثمائة والفتن متأججة والعيارون قد استولوا، فضبط البلد بحزم وشدة ومنع السنة والشيعة من إظهار المذاهب في المواسم ونفى ابن المعلم فقيه الشيعة حتى انقادت له الأمور وسكنت الفتن، وظل مدبراً للعراق حتى توفي في ذي القعدة سنة إحدى وأربعمائة {cite:muntazam-ibn-al-jawzi j.7 p.220,252}."
+wings: [people]
+periods: [period/buyid-seljuk-fatimid-era]
+regions: [levant-iraq]
+roles: [general, politician]
+born:
+  { edtf: "0961~", hijri: "0350", calendar: julian, precision: year, status: tradition, derived: true, note: "ولد سنة 350هـ؛ التحويل مشتق {cite:muntazam-ibn-al-jawzi j.7 p.252}" }
+died:
+  { edtf: "1011-06~", hijri: "0401-11", calendar: julian, precision: month, status: tradition, derived: true, note: "ذو القعدة 401هـ؛ التحويل مشتق {cite:muntazam-ibn-al-jawzi j.7 p.252}" }
+relations:
+  - { type: allied_with, target: person/baha-al-dawla, role: "قائده ومدبر العراق في دولته", sources: [source/muntazam-ibn-al-jawzi] }
+provenance:
+  layer: own-research
+  source: "المنتظم في تاريخ الملوك والأمم — ابن الجوزي (ج7، أحداث سنة 401)، قراءة آبل فيجن"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-muntazam-batch-22
+sources: [source/muntazam-ibn-al-jawzi]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

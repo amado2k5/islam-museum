@@ -1,0 +1,20 @@
+id: event/karbala-wall-construction-400
+class: event
+kind: other
+label: { ar: "بناء السور الحصين على مشهد الحائر بكربلاء" }
+summary:
+  ar: "في جمادى الأولى سنة أربعمائة بُدئ ببناء سور حصين على المشهد بالحائر، وكان أبو محمد الحسن بن الفضل بن سهلان قد زار المشهد ونذر أن يعمل عليه سوراً حصيناً مانعاً لكثرة من يطرق الموضع من أعراب البادية، فشرع في قضاء نذره وعمل السور وأحكم وعُلّي وعُرّض ونُصبت عليه أبواب وثيقة بعضها من حديد وتحصن المشهد به وحسن الأثر فيه {cite:muntazam-ibn-al-jawzi j.7 p.246}."
+wings: [time]
+periods: [period/buyid-seljuk-fatimid-era]
+regions: [levant-iraq]
+date:
+  start: { edtf: "1009-12~", hijri: "0400-05", calendar: julian, precision: month, status: tradition, derived: true, note: "جمادى الأولى 400هـ؛ التحويل مشتق {cite:muntazam-ibn-al-jawzi j.7 p.246}" }
+relations:
+  - { type: located_in, target: place/karbala, sources: [source/muntazam-ibn-al-jawzi] }
+provenance:
+  layer: own-research
+  source: "المنتظم في تاريخ الملوك والأمم — ابن الجوزي (ج7، أحداث سنة 400)، قراءة آبل فيجن"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-muntazam-batch-22
+sources: [source/muntazam-ibn-al-jawzi]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

@@ -8,6 +8,8 @@ periods: [period/buyid-seljuk-fatimid-era]
 regions: [levant-iraq]
 roles: [scholar]
 themes: [scripture-and-its-sciences]
+died:
+  { edtf: "1009~", hijri: "0400", calendar: julian, precision: year, status: tradition, derived: true, note: "توفي سنة 400هـ؛ التحويل مشتق {cite:muntazam-ibn-al-jawzi j.7 p.248}" }
 relations:
   - { type: student_of, target: person/ibn-al-khashab, role: "تلقن عنه القراءة", sources: [source/muntazam-ibn-al-jawzi] }
 provenance:

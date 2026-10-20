@@ -1,0 +1,20 @@
+id: event/tigris-flood-401
+class: event
+kind: other
+label: { ar: "غرق بغداد وفيضان دجلة إحدى وعشرين ذراعاً" }
+summary:
+  ar: "في رجب سنة إحدى وأربعمائة زادت دجلة وامتدت الزيادة إلى رمضان فبلغت إحدى وعشرين ذراعاً، ودخل الماء أكثر الدور الشاطئة وقطيعة الدقيق وباب التبن وباب الشعير وباب الطاق، وفاض على مسجد الكف بقطيعة الدقيق فخربه واحتمل أفرعته وسقوفه وتفجرت البثوق وغرقت القرى والحصون {cite:muntazam-ibn-al-jawzi j.7 p.251-252}."
+wings: [time]
+periods: [period/buyid-seljuk-fatimid-era]
+regions: [levant-iraq]
+date:
+  start: { edtf: "1011-02~", hijri: "0401-07", calendar: julian, precision: month, status: tradition, derived: true, note: "رجب إلى رمضان 401هـ؛ التحويل مشتق {cite:muntazam-ibn-al-jawzi j.7 p.251}" }
+relations:
+  - { type: located_in, target: place/baghdad, sources: [source/muntazam-ibn-al-jawzi] }
+provenance:
+  layer: own-research
+  source: "المنتظم في تاريخ الملوك والأمم — ابن الجوزي (ج7، أحداث سنة 401)، قراءة آبل فيجن"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-muntazam-batch-22
+sources: [source/muntazam-ibn-al-jawzi]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

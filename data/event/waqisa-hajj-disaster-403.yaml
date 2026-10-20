@@ -1,0 +1,25 @@
+id: event/waqisa-hajj-disaster-403
+class: event
+kind: raid
+label: { ar: "كارثة واقصة وقطع خفاجة على الحاج" }
+summary:
+  ar: "في صفر سنة ثلاث وأربعمائة سبق أبو فليتة ابن القوي في ستمائة رجل من بني خفاجة الحاج إلى واقصة فنزح الماء في مصانع البرمكي والريان وغوّرها وطرح في الآبار الحنظل، فلما ورد الحاج العقبة اعتقلهم ومنعهم الاجتياز وطلب خمسين ألف دينار، فلما بلغ منهم العطش هجم عليهم فاحتوى على الأحمال والأموال وهلك من الناس نحو خمسة عشر ألف إنسان، وأفلت أميرهم أبو الحارث العلوي راجلاً. فكاتب فخر الملك علي بن مزيد الأسدي فأوقع بخفاجة في البرية قرب البصرة وقتل منهم وأسر أبا فليتة وأربعة عشر رجلاً واسترجع ما أمكن {cite:muntazam-ibn-al-jawzi j.7 p.260-261}."
+wings: [time]
+periods: [period/buyid-seljuk-fatimid-era]
+regions: [levant-iraq, arabia]
+date:
+  start: { edtf: "1012-09~", hijri: "0403-02", calendar: julian, precision: month, status: tradition, derived: true, note: "صفر 403هـ؛ التحويل مشتق {cite:muntazam-ibn-al-jawzi j.7 p.260}" }
+sides:
+  - label: { ar: "أبو فليتة وبنو خفاجة" }
+  - label: { ar: "قافلة الحاج وجيش علي بن مزيد الأسدي" }
+map: { kind: route, precision: approximate, center: [30.5, 43.5] }
+relations:
+  - { type: had_participant, target: person/ali-ibn-mazyad, role: "القائد الذي لاحق بني خفاجة وأسر أبا فليتة", sources: [source/muntazam-ibn-al-jawzi] }
+  - { type: had_participant, target: person/fakhr-al-mulk-ibn-khalaf, role: "الوزير الآمر بإنقاذ الناجين وتوجيه ابن مزيد", sources: [source/muntazam-ibn-al-jawzi] }
+provenance:
+  layer: own-research
+  source: "المنتظم في تاريخ الملوك والأمم — ابن الجوزي (ج7، أحداث سنة 403)، قراءة آبل فيجن"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-muntazam-batch-22
+sources: [source/muntazam-ibn-al-jawzi]
+status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 High)" }
