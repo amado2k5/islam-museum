@@ -1,0 +1,23 @@
+id: event/alid-revolt-762
+class: event
+kind: revolt
+label: { ar: "ثورة العلويين (٧٦٢)", en: "Alid Revolt of 762" }
+summary:
+  ar: "بطاقة أولية لثورة العلويين سنة ٧٦٢م، انتفاضة محمد النفس الزكية وأخيه إبراهيم على المنصور؛ لم تُراجع مصادره على الصفحة بعد."
+  en: "Draft card for the Alid Revolt of 762, Muhammad al-Nafs al-Zakiyya and his brother Ibrahim's rising against al-Mansur; its sources are not yet checked on the page."
+wings: [time]
+periods: [period/abbasid-early]
+regions: [arabia]
+date:
+  start: { edtf: "762", precision: year, status: tradition, derived: true }
+  end: { edtf: "763", precision: year, status: tradition, derived: true }
+sources: [source/tarikh-al-tabari]
+external_ids:
+  wikidata: Q3636337
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; revolt attested in Abbasid histories — entry not yet checked on the page"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-wave2
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

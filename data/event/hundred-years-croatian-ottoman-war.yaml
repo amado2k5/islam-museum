@@ -1,0 +1,23 @@
+id: event/hundred-years-croatian-ottoman-war
+class: event
+kind: war
+label: { ar: "حرب المئة عام الكرواتية العثمانية", en: "Hundred Years' Croatian–Ottoman War" }
+summary:
+  ar: "بطاقة أولية لحرب المئة عام الكرواتية العثمانية، سلسلة صدامات الحدود الطويلة بين كرواتيا والعثمانيين؛ لم تُراجع مصادره على الصفحة بعد."
+  en: "Draft card for the Hundred Years' Croatian–Ottoman War, the long chain of border wars between Croatia and the Ottomans; its sources are not yet checked on the page."
+wings: [time]
+periods: [period/gunpowder-empires]
+regions: [anatolia-balkans]
+date:
+  start: { edtf: "1493", precision: year, status: tradition, derived: true }
+  end: { edtf: "1593", precision: year, status: tradition, derived: true }
+sources: [source/dawlat-uthmaniyya-salabi]
+external_ids:
+  wikidata: Q3502774
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; war attested in Croatian histories — entry not yet checked on the page"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-wave2
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

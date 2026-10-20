@@ -1,0 +1,23 @@
+id: event/siege-of-esztergom-1543
+class: event
+kind: conquest
+label: { ar: "حصار إسترغوم", en: "Siege of Esztergom" }
+summary:
+  ar: "بطاقة أولية لحصار إسترغوم سنة ١٥٤٣م، أخذ سليمان القانوني لمقر رئاسة الأساقفة المجرية؛ لم تُراجع مصادره على الصفحة بعد."
+  en: "Draft card for the Siege of Esztergom in 1543, Suleiman's capture of Hungary's primatial see; its sources are not yet checked on the page."
+wings: [time]
+periods: [period/gunpowder-empires]
+regions: [anatolia-balkans]
+date:
+  start: { edtf: "1543", precision: year, status: tradition, derived: true }
+  end: { edtf: "1543", precision: year, status: tradition, derived: true }
+sources: [source/dawlat-uthmaniyya-salabi]
+external_ids:
+  wikidata: Q4207737
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; siege attested in Ottoman histories — entry not yet checked on the page"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-wave2
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

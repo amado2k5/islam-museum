@@ -1,0 +1,23 @@
+id: event/siege-of-alexandria-1801
+class: event
+kind: siege
+label: { ar: "حصار الإسكندرية (١٨٠١)", en: "Siege of Alexandria" }
+summary:
+  ar: "بطاقة أولية لحصار الإسكندرية سنة ١٨٠١م، استسلام الفرنسيين للبريطانيين والعثمانيين في نهاية الحملة؛ لم تُراجع مصادره على الصفحة بعد."
+  en: "Draft card for the Siege of Alexandria in 1801, the French capitulation to the British and Ottomans ending the campaign; its sources are not yet checked on the page."
+wings: [time]
+periods: [period/colonial-era]
+regions: [egypt-nile]
+date:
+  start: { edtf: "1801", precision: year, status: tradition, derived: true }
+  end: { edtf: "1801", precision: year, status: tradition, derived: true }
+sources: [source/tarikh-islam-hasan-ibrahim]
+external_ids:
+  wikidata: Q3485805
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; siege attested in French-campaign histories — entry not yet checked on the page"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-wave2
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

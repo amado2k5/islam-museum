@@ -1,0 +1,23 @@
+id: event/battle-of-dragashani-1821
+class: event
+kind: battle
+label: { ar: "معركة دراغاشاني", en: "Battle of Dragashani" }
+summary:
+  ar: "بطاقة أولية لمعركة دراغاشاني سنة ١٨٢١م، سقوط الفرقة المقدسة اليونانية أمام العثمانيين في أول الثورة؛ لم تُراجع مصادره على الصفحة بعد."
+  en: "Draft card for the Battle of Dragashani in 1821, the Sacred Band's defeat by the Ottomans at the Greek rising's start; its sources are not yet checked on the page."
+wings: [time]
+periods: [period/colonial-era]
+regions: [anatolia-balkans]
+date:
+  start: { edtf: "1821", precision: year, status: tradition, derived: true }
+  end: { edtf: "1821", precision: year, status: tradition, derived: true }
+sources: [source/dawlat-uthmaniyya-salabi]
+external_ids:
+  wikidata: Q2888462
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; battle attested in Greek independence histories — entry not yet checked on the page"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-wave2
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

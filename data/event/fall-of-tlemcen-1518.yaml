@@ -1,0 +1,23 @@
+id: event/fall-of-tlemcen-1518
+class: event
+kind: conquest
+label: { ar: "سقوط تلمسان (١٥١٨)", en: "Fall of Tlemcen" }
+summary:
+  ar: "بطاقة أولية لسقوط تلمسان سنة ١٥١٨م، احتلال عروج بربروسا لعاصمة بني زيان ومقتله في المنسر؛ لم تُراجع مصادره على الصفحة بعد."
+  en: "Draft card for the Fall of Tlemcen in 1518, Aruj Barbarossa's capture of the Zayyanid capital and his death that year; its sources are not yet checked on the page."
+wings: [time]
+periods: [period/gunpowder-empires]
+regions: [maghreb]
+date:
+  start: { edtf: "1518", precision: year, status: tradition, derived: true }
+  end: { edtf: "1518", precision: year, status: tradition, derived: true }
+sources: [source/tarikh-ibn-khaldun-ibar]
+external_ids:
+  wikidata: Q4090268
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; fall attested in Maghrebi histories — entry not yet checked on the page"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-wave2
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

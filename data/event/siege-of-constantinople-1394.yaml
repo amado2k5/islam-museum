@@ -1,0 +1,23 @@
+id: event/siege-of-constantinople-1394
+class: event
+kind: siege
+label: { ar: "حصار القسطنطينية (١٣٩٤)", en: "Siege of Constantinople" }
+summary:
+  ar: "بطاقة أولية لحصار القسطنطينية من ١٣٩٤ إلى ١٤٠٢م، حصار بايزيد الأول المديد للعاصمة البيزنطية؛ لم تُراجع مصادره على الصفحة بعد."
+  en: "Draft card for the Siege of Constantinople of 1394–1402, Bayezid I's long blockade of the Byzantine capital; its sources are not yet checked on the page."
+wings: [time]
+periods: [period/crusades-ayyubid-mamluk]
+regions: [anatolia-balkans]
+date:
+  start: { edtf: "1394", precision: year, status: tradition, derived: true }
+  end: { edtf: "1402", precision: year, status: tradition, derived: true }
+sources: [source/dawlat-uthmaniyya-salabi]
+external_ids:
+  wikidata: Q3485863
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; siege attested in Ottoman histories — entry not yet checked on the page"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-wave2
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

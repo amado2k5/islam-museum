@@ -1,0 +1,23 @@
+id: event/battle-of-peshawar-1001
+class: event
+kind: battle
+label: { ar: "معركة بيشاور (١٠٠١)", en: "Battle of Peshawar" }
+summary:
+  ar: "بطاقة أولية لمعركة بيشاور سنة ١٠٠١م، نصر محمود الغزنوي على جاي بال شاه الهند؛ لم تُراجع مصادره على الصفحة بعد."
+  en: "Draft card for the Battle of Peshawar in 1001, Mahmud of Ghazna's victory over the Hindu Shahi Jayapala; its sources are not yet checked on the page."
+wings: [time]
+periods: [period/buyid-seljuk-fatimid-era]
+regions: [persia-central-asia]
+date:
+  start: { edtf: "1001", precision: year, status: tradition, derived: true }
+  end: { edtf: "1001", precision: year, status: tradition, derived: true }
+sources: [source/kamil-ibn-al-athir]
+external_ids:
+  wikidata: Q4872019
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; battle attested in Ghaznavid histories — entry not yet checked on the page"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-wave2
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }
