@@ -1,0 +1,23 @@
+id: event/siege-of-mazagan-1562
+class: event
+kind: siege
+label: { ar: "حصار مازاغان (١٥٦٢)", en: "Siege of Mazagan (1562)" }
+summary:
+  ar: "بطاقة أولية لحصار مازاغان سنة ١٥٦٢م، محاولة السعديين استرداد المدينة من البرتغاليين؛ لم تُراجع مصادره على الصفحة بعد."
+  en: "Draft card for the Siege of Mazagan in 1562, the Sa'adian attempt to retake the city from the Portuguese; its sources are not yet checked on the page."
+wings: [time]
+periods: [period/gunpowder-empires]
+regions: [maghreb]
+date:
+  start: { edtf: "1562-02", precision: year, status: tradition, derived: true }
+  end: { edtf: "1562-03", precision: year, status: tradition, derived: true }
+sources: [source/tarikh-islam-hasan-ibrahim]
+external_ids:
+  wikidata: Q96387538
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; battle attested in narrative histories — entry not yet checked on the page"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-wave2
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }
