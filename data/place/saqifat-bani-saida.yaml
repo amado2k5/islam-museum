@@ -12,6 +12,7 @@ relations:
   - { type: part_of, target: place/medina, sources: [source/samhudi-wafa-al-wafa] }
   - { type: site_of, target: event/saqifa, sources: [source/samhudi-wafa-al-wafa] }
   - { type: related_to, target: group/banu-saida, note: "سقيفتهم", sources: [source/samhudi-wafa-al-wafa] }
+external_ids: { wikidata: "Q138050306" }
 sources: [source/samhudi-wafa-al-wafa, source/sahih-al-bukhari]
 provenance:
   layer: own-research

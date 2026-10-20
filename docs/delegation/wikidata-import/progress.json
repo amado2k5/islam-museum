@@ -5,7 +5,7 @@
  "candidates_file": "$HARVEST/wikidata-import/candidates.tsv",
  "candidates_query": "select distinct id from wd_claim where property='P140' and value_id='Q432' minus Wikidata ids already linked in data/, ordered by sitelink count desc",
  "linked_preexisting": 987,
- "next_index": 9660,
+ "next_index": 9760,
  "created_ids": [
   {
    "i": 24,
@@ -10568,6 +10568,11 @@
    "i": 9633,
    "qid": "Q138050209",
    "id": "building/masjid-al-jumua-madina"
+  },
+  {
+   "i": 9676,
+   "qid": "Q138050261",
+   "id": "place/al-rawda-al-sharifa"
   }
  ],
  "linked_ids": [
@@ -14041,6 +14046,11 @@
    "i": 9357,
    "qid": "Q136121731",
    "to": "person/musannifak"
+  },
+  {
+   "i": 9715,
+   "qid": "Q138050306",
+   "to": "place/saqifat-bani-saida"
   }
  ],
  "skipped": [
@@ -48352,9 +48362,499 @@
    9659,
    "Q138050239",
    "modern/post-1800/out-of-scope/deferred/insufficient"
+  ],
+  [
+   9660,
+   "Q138050241",
+   "modern mosque list item — out of scope/insufficient"
+  ],
+  [
+   9661,
+   "Q138050242",
+   "modern mosque list item — out of scope/insufficient"
+  ],
+  [
+   9662,
+   "Q138050243",
+   "modern mosque list item — out of scope/insufficient"
+  ],
+  [
+   9663,
+   "Q138050244",
+   "modern mosque list item — out of scope/insufficient"
+  ],
+  [
+   9664,
+   "Q138050245",
+   "modern mosque list item — out of scope/insufficient"
+  ],
+  [
+   9665,
+   "Q138050247",
+   "modern mosque list item — out of scope/insufficient"
+  ],
+  [
+   9666,
+   "Q138050249",
+   "modern mosque list item — out of scope/insufficient"
+  ],
+  [
+   9667,
+   "Q138050250",
+   "modern mosque list item — out of scope/insufficient"
+  ],
+  [
+   9668,
+   "Q138050252",
+   "modern mosque list item — out of scope/insufficient"
+  ],
+  [
+   9669,
+   "Q138050254",
+   "modern mosque list item — out of scope/insufficient"
+  ],
+  [
+   9670,
+   "Q138050255",
+   "modern mosque list item — out of scope/insufficient"
+  ],
+  [
+   9671,
+   "Q138050256",
+   "modern mosque list item — out of scope/insufficient"
+  ],
+  [
+   9672,
+   "Q138050257",
+   "modern mosque list item — out of scope/insufficient"
+  ],
+  [
+   9673,
+   "Q138050258",
+   "modern mosque list item — out of scope/insufficient"
+  ],
+  [
+   9674,
+   "Q138050259",
+   "modern mosque list item — out of scope/insufficient"
+  ],
+  [
+   9675,
+   "Q138050260",
+   "modern mosque list item — out of scope/insufficient"
+  ],
+  [
+   9677,
+   "Q138050262",
+   "modern mosque list item — out of scope/insufficient"
+  ],
+  [
+   9678,
+   "Q138050264",
+   "modern mosque list item — out of scope/insufficient"
+  ],
+  [
+   9679,
+   "Q138050265",
+   "modern mosque list item — out of scope/insufficient"
+  ],
+  [
+   9680,
+   "Q138050266",
+   "modern mosque list item — out of scope/insufficient"
+  ],
+  [
+   9681,
+   "Q138050267",
+   "modern mosque list item — out of scope/insufficient"
+  ],
+  [
+   9682,
+   "Q138050268",
+   "modern mosque list item — out of scope/insufficient"
+  ],
+  [
+   9683,
+   "Q138050269",
+   "modern mosque list item — out of scope/insufficient"
+  ],
+  [
+   9684,
+   "Q138050270",
+   "modern mosque list item — out of scope/insufficient"
+  ],
+  [
+   9685,
+   "Q138050271",
+   "modern mosque list item — out of scope/insufficient"
+  ],
+  [
+   9686,
+   "Q138050272",
+   "modern mosque list item — out of scope/insufficient"
+  ],
+  [
+   9687,
+   "Q138050274",
+   "modern mosque list item — out of scope/insufficient"
+  ],
+  [
+   9688,
+   "Q138050275",
+   "modern mosque list item — out of scope/insufficient"
+  ],
+  [
+   9689,
+   "Q138050276",
+   "duplicate Wikidata item — prophets-mosque already carries Q486080"
+  ],
+  [
+   9690,
+   "Q138050277",
+   "modern mosque list item — out of scope/insufficient"
+  ],
+  [
+   9691,
+   "Q138050278",
+   "modern mosque list item — out of scope/insufficient"
+  ],
+  [
+   9692,
+   "Q138050279",
+   "modern mosque list item — out of scope/insufficient"
+  ],
+  [
+   9693,
+   "Q138050280",
+   "modern mosque list item — out of scope/insufficient"
+  ],
+  [
+   9694,
+   "Q138050281",
+   "modern mosque list item — out of scope/insufficient"
+  ],
+  [
+   9695,
+   "Q138050282",
+   "modern mosque list item — out of scope/insufficient"
+  ],
+  [
+   9696,
+   "Q138050283",
+   "modern mosque list item — out of scope/insufficient"
+  ],
+  [
+   9697,
+   "Q138050285",
+   "modern mosque list item — out of scope/insufficient"
+  ],
+  [
+   9698,
+   "Q138050286",
+   "modern mosque list item — out of scope/insufficient"
+  ],
+  [
+   9699,
+   "Q138050287",
+   "modern mosque list item — out of scope/insufficient"
+  ],
+  [
+   9700,
+   "Q138050288",
+   "modern mosque list item — out of scope/insufficient"
+  ],
+  [
+   9701,
+   "Q138050289",
+   "modern mosque list item — out of scope/insufficient"
+  ],
+  [
+   9702,
+   "Q138050291",
+   "modern mosque list item — out of scope/insufficient"
+  ],
+  [
+   9703,
+   "Q138050292",
+   "modern mosque list item — out of scope/insufficient"
+  ],
+  [
+   9704,
+   "Q138050293",
+   "modern mosque list item — out of scope/insufficient"
+  ],
+  [
+   9705,
+   "Q138050294",
+   "modern mosque list item — out of scope/insufficient"
+  ],
+  [
+   9706,
+   "Q138050296",
+   "modern mosque list item — out of scope/insufficient"
+  ],
+  [
+   9707,
+   "Q138050297",
+   "modern mosque list item — out of scope/insufficient"
+  ],
+  [
+   9708,
+   "Q138050298",
+   "modern mosque list item — out of scope/insufficient"
+  ],
+  [
+   9709,
+   "Q138050299",
+   "modern mosque list item — out of scope/insufficient"
+  ],
+  [
+   9710,
+   "Q138050300",
+   "modern mosque list item — out of scope/insufficient"
+  ],
+  [
+   9711,
+   "Q138050301",
+   "modern mosque list item — out of scope/insufficient"
+  ],
+  [
+   9712,
+   "Q138050303",
+   "modern mosque list item — out of scope/insufficient"
+  ],
+  [
+   9713,
+   "Q138050304",
+   "modern mosque list item — out of scope/insufficient"
+  ],
+  [
+   9714,
+   "Q138050305",
+   "modern mosque list item — out of scope/insufficient"
+  ],
+  [
+   9716,
+   "Q138050307",
+   "modern mosque list item — out of scope/insufficient"
+  ],
+  [
+   9717,
+   "Q138050308",
+   "modern mosque list item — out of scope/insufficient"
+  ],
+  [
+   9718,
+   "Q138050309",
+   "modern mosque list item — out of scope/insufficient"
+  ],
+  [
+   9719,
+   "Q138050310",
+   "modern mosque list item — out of scope/insufficient"
+  ],
+  [
+   9720,
+   "Q138050311",
+   "modern mosque list item — out of scope/insufficient"
+  ],
+  [
+   9721,
+   "Q138050313",
+   "modern mosque list item — out of scope/insufficient"
+  ],
+  [
+   9722,
+   "Q138050314",
+   "modern mosque list item — out of scope/insufficient"
+  ],
+  [
+   9723,
+   "Q138050315",
+   "modern mosque list item — out of scope/insufficient"
+  ],
+  [
+   9724,
+   "Q138050316",
+   "modern mosque list item — out of scope/insufficient"
+  ],
+  [
+   9725,
+   "Q138050317",
+   "modern mosque list item — out of scope/insufficient"
+  ],
+  [
+   9726,
+   "Q138050318",
+   "modern mosque list item — out of scope/insufficient"
+  ],
+  [
+   9727,
+   "Q138050319",
+   "modern mosque list item — out of scope/insufficient"
+  ],
+  [
+   9728,
+   "Q138050320",
+   "modern mosque list item — out of scope/insufficient"
+  ],
+  [
+   9729,
+   "Q138050322",
+   "modern mosque list item — out of scope/insufficient"
+  ],
+  [
+   9730,
+   "Q138050324",
+   "modern mosque list item — out of scope/insufficient"
+  ],
+  [
+   9731,
+   "Q138050325",
+   "modern mosque list item — out of scope/insufficient"
+  ],
+  [
+   9732,
+   "Q138050326",
+   "modern mosque list item — out of scope/insufficient"
+  ],
+  [
+   9733,
+   "Q138050327",
+   "modern mosque list item — out of scope/insufficient"
+  ],
+  [
+   9734,
+   "Q138050328",
+   "modern mosque list item — out of scope/insufficient"
+  ],
+  [
+   9735,
+   "Q138050329",
+   "modern mosque list item — out of scope/insufficient"
+  ],
+  [
+   9736,
+   "Q138050330",
+   "modern mosque list item — out of scope/insufficient"
+  ],
+  [
+   9737,
+   "Q138050331",
+   "modern mosque list item — out of scope/insufficient"
+  ],
+  [
+   9738,
+   "Q138050332",
+   "modern mosque list item — out of scope/insufficient"
+  ],
+  [
+   9739,
+   "Q138050333",
+   "modern mosque list item — out of scope/insufficient"
+  ],
+  [
+   9740,
+   "Q138050334",
+   "modern mosque list item — out of scope/insufficient"
+  ],
+  [
+   9741,
+   "Q138050336",
+   "modern mosque list item — out of scope/insufficient"
+  ],
+  [
+   9742,
+   "Q138050337",
+   "modern mosque list item — out of scope/insufficient"
+  ],
+  [
+   9743,
+   "Q138050338",
+   "modern mosque list item — out of scope/insufficient"
+  ],
+  [
+   9744,
+   "Q138050339",
+   "modern mosque list item — out of scope/insufficient"
+  ],
+  [
+   9745,
+   "Q138050340",
+   "modern mosque list item — out of scope/insufficient"
+  ],
+  [
+   9746,
+   "Q138050341",
+   "modern mosque list item — out of scope/insufficient"
+  ],
+  [
+   9747,
+   "Q138050342",
+   "modern mosque list item — out of scope/insufficient"
+  ],
+  [
+   9748,
+   "Q138050343",
+   "modern mosque list item — out of scope/insufficient"
+  ],
+  [
+   9749,
+   "Q138050344",
+   "modern mosque list item — out of scope/insufficient"
+  ],
+  [
+   9750,
+   "Q138050346",
+   "modern mosque list item — out of scope/insufficient"
+  ],
+  [
+   9751,
+   "Q138050347",
+   "modern mosque list item — out of scope/insufficient"
+  ],
+  [
+   9752,
+   "Q138050348",
+   "modern mosque list item — out of scope/insufficient"
+  ],
+  [
+   9753,
+   "Q138050349",
+   "modern mosque list item — out of scope/insufficient"
+  ],
+  [
+   9754,
+   "Q138050350",
+   "modern mosque list item — out of scope/insufficient"
+  ],
+  [
+   9755,
+   "Q138050351",
+   "modern mosque list item — out of scope/insufficient"
+  ],
+  [
+   9756,
+   "Q138050352",
+   "modern mosque list item — out of scope/insufficient"
+  ],
+  [
+   9757,
+   "Q138050353",
+   "modern mosque list item — out of scope/insufficient"
+  ],
+  [
+   9758,
+   "Q138050354",
+   "modern mosque list item — out of scope/insufficient"
+  ],
+  [
+   9759,
+   "Q138050356",
+   "modern mosque list item — out of scope/insufficient"
   ]
  ],
- "skipped_total": 6865,
+ "skipped_total": 6963,
  "skipped_by_reason": {
   "modern sovereign state; no matching record (al-Hind region is a different entity)": 1,
   "modern sovereign state; no matching record": 8,
@@ -50133,10 +50633,12 @@
   "identity ambiguous: Wikidata item labeled Makhdum I but carries Makhdum II dates (1531-1620)": 1,
   "duplicate Wikidata item — canonical record kara-davud (Q6033054) exists": 1,
   "duplicate Wikidata item — canonical record hasan-kafi-pruscak (Q16511374) exists": 1,
-  "duplicate Wikidata item — existing record already carries canonical QID": 5
+  "duplicate Wikidata item — existing record already carries canonical QID": 5,
+  "modern mosque list item — out of scope/insufficient": 97,
+  "duplicate Wikidata item — prophets-mosque already carries Q486080": 1
  },
  "last_commit": "d6d413304",
  "last_push": "d87cf2e5e",
  "batch_current": 7,
- "updated_at": "2026-10-19T22:04:02-04:00"
+ "updated_at": "2026-10-19T22:06:06-04:00"
 }
