@@ -124,10 +124,31 @@ function applyArchive(archive, dir, workerUrl) {
   writeFileSync(file, archive.bytes);
   const stagedKey = `${STAGING_PREFIX}${archive.name}`;
   execFileSync("aws", ["s3", "cp", file, `s3://${bucket}/${stagedKey}`, "--endpoint-url", endpoint, "--only-show-errors"], { stdio: "inherit" });
-  return postProcess(workerUrl, stagedKey).then(({ status, report }) => {
+  return postWithRetry(workerUrl, stagedKey, archive.name).then(({ status, report }) => {
     if (status !== 200) throw new Error(`${archive.name}: worker answered ${status} ${JSON.stringify(report)}`);
     log(`${archive.name}: ${JSON.stringify(report.summary)}`);
   });
+}
+
+// A connection can time out or reset before the Worker answers. Retrying the same archive
+// is safe: operations are idempotent, and a retry that finds the archive already deleted
+// means an earlier attempt applied it.
+const ATTEMPTS = 3;
+async function postWithRetry(workerUrl, stagedKey, name) {
+  for (let attempt = 1; ; attempt += 1) {
+    try {
+      const result = await postProcess(workerUrl, stagedKey);
+      if (attempt > 1 && result.status === 400 && /archive not found/.test(JSON.stringify(result.report))) {
+        log(`${name}: already applied by an earlier attempt`);
+        return { status: 200, report: { summary: { already_applied: true } } };
+      }
+      return result;
+    } catch (err) {
+      if (attempt >= ATTEMPTS) throw err;
+      log(`${name}: attempt ${attempt} to ${workerUrl} failed (${err.code ?? err.message}); retrying`);
+      await new Promise((resolve) => setTimeout(resolve, 5000 * attempt));
+    }
+  }
 }
 
 // POST /process and wait for the reply. Node's global fetch gives up after 5 minutes
