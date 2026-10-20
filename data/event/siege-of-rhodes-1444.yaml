@@ -1,0 +1,23 @@
+id: event/siege-of-rhodes-1444
+class: event
+kind: siege
+label: { ar: "حصار رودس (١٤٤٤)", en: "Siege of Rhodes (1444)" }
+summary:
+  ar: "بطاقة أولية لحصار رودس سنة ١٤٤٤م، الحملة المملوكية على فرسان القديس يوحنا؛ لم تُراجع مصادره على الصفحة بعد."
+  en: "Draft card for the Siege of Rhodes in 1444, the Mamluk campaign against the Hospitallers; its sources are not yet checked on the page."
+wings: [time]
+periods: [period/crusades-ayyubid-mamluk]
+regions: [anatolia-balkans]
+date:
+  start: { edtf: "1444", precision: year, status: tradition, derived: true }
+  end: { edtf: "1444", precision: year, status: tradition, derived: true }
+sources: [source/tarikh-islam-hasan-ibrahim]
+external_ids:
+  wikidata: Q48790246
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; battle attested in narrative histories — entry not yet checked on the page"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-wave2
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }
