@@ -1,0 +1,23 @@
+id: event/battle-of-konya-1832
+class: event
+kind: battle
+label: { ar: "معركة قونية (١٨٣٢)", en: "Battle of Konya" }
+summary:
+  ar: "بطاقة أولية لمعركة قونية سنة ١٨٣٢م، نصر إبراهيم باشا على الصدر الأعظم رشيد باشا في الحرب المصرية العثمانية؛ لم تُراجع مصادره على الصفحة بعد."
+  en: "Draft card for the Battle of Konya in 1832, Ibrahim Pasha's rout of Grand Vizier Reshid's army in the first Turko-Egyptian war; its sources are not yet checked on the page."
+wings: [time]
+periods: [period/colonial-era]
+regions: [anatolia-balkans]
+date:
+  start: { edtf: "1832", precision: year, status: tradition, derived: true }
+  end: { edtf: "1832", precision: year, status: tradition, derived: true }
+sources: [source/dawlat-uthmaniyya-salabi]
+external_ids:
+  wikidata: Q2981297
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; battle attested in Egyptian-Ottoman histories — entry not yet checked on the page"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-wave2
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

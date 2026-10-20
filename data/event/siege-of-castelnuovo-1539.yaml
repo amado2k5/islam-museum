@@ -1,0 +1,23 @@
+id: event/siege-of-castelnuovo-1539
+class: event
+kind: siege
+label: { ar: "حصار كاستلنوفو", en: "Siege of Castelnuovo" }
+summary:
+  ar: "بطاقة أولية لحصار كاستلنوفو سنة ١٥٣٩م، استرداد خير الدين بارباروسا للقلعة بعد صمود إسباني مشهور؛ لم تُراجع مصادره على الصفحة بعد."
+  en: "Draft card for the Siege of Castelnuovo in 1539, Hayreddin Barbarossa's recapture of the fortress after a famed Spanish stand; its sources are not yet checked on the page."
+wings: [time]
+periods: [period/gunpowder-empires]
+regions: [anatolia-balkans]
+date:
+  start: { edtf: "1539", precision: year, status: tradition, derived: true }
+  end: { edtf: "1539", precision: year, status: tradition, derived: true }
+sources: [source/dawlat-uthmaniyya-salabi]
+external_ids:
+  wikidata: Q2621537
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; siege attested in Mediterranean histories — entry not yet checked on the page"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-wave2
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

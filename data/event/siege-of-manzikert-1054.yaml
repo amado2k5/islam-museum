@@ -1,0 +1,23 @@
+id: event/siege-of-manzikert-1054
+class: event
+kind: siege
+label: { ar: "حصار ملاذكرد (١٠٥٤)", en: "Siege of Manzikert" }
+summary:
+  ar: "بطاقة أولية لحصار ملاذكرد سنة ١٠٥٤م، غزوة ألب أرسلان الأولى على حدود أرمينيا قبل معركته الكبرى؛ لم تُراجع مصادره على الصفحة بعد."
+  en: "Draft card for the Siege of Manzikert in 1054, Alp Arslan's first thrust on the Armenian frontier before his great battle; its sources are not yet checked on the page."
+wings: [time]
+periods: [period/buyid-seljuk-fatimid-era]
+regions: [anatolia-balkans]
+date:
+  start: { edtf: "1054", precision: year, status: tradition, derived: true }
+  end: { edtf: "1054", precision: year, status: tradition, derived: true }
+sources: [source/kamil-ibn-al-athir]
+external_ids:
+  wikidata: Q3636516
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; siege attested in Seljuk histories — entry not yet checked on the page"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-wave2
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

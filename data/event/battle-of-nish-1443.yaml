@@ -1,0 +1,23 @@
+id: event/battle-of-nish-1443
+class: event
+kind: battle
+label: { ar: "معركة نيش (١٤٤٣)", en: "Battle of Niš" }
+summary:
+  ar: "بطاقة أولية لمعركة نيش سنة ١٤٤٣م، نصر يانوس هونيادي على العثمانيين في حملة فارنا؛ لم تُراجع مصادره على الصفحة بعد."
+  en: "Draft card for the Battle of Niš in 1443, Hunyadi's victory over the Ottomans in the crusade that led to Varna; its sources are not yet checked on the page."
+wings: [time]
+periods: [period/crusades-ayyubid-mamluk]
+regions: [anatolia-balkans]
+date:
+  start: { edtf: "1443", precision: year, status: tradition, derived: true }
+  end: { edtf: "1443", precision: year, status: tradition, derived: true }
+sources: [source/dawlat-uthmaniyya-salabi]
+external_ids:
+  wikidata: Q3339470
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; battle attested in Balkan histories — entry not yet checked on the page"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-wave2
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

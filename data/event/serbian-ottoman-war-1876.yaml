@@ -1,0 +1,23 @@
+id: event/serbian-ottoman-war-1876
+class: event
+kind: war
+label: { ar: "الحرب الصربية العثمانية", en: "Serbian–Ottoman War" }
+summary:
+  ar: "بطاقة أولية للحرب الصربية العثمانية من ١٨٧٦ إلى ١٨٧٨م، حرب الاستقلال الصربية التي انتهت بمعاهدة برلين؛ لم تُراجع مصادره على الصفحة بعد."
+  en: "Draft card for the Serbian–Ottoman War of 1876–1878, Serbia's independence war closed by the Treaty of Berlin; its sources are not yet checked on the page."
+wings: [time]
+periods: [period/colonial-era]
+regions: [anatolia-balkans]
+date:
+  start: { edtf: "1876", precision: year, status: tradition, derived: true }
+  end: { edtf: "1878", precision: year, status: tradition, derived: true }
+sources: [source/dawlat-uthmaniyya-salabi]
+external_ids:
+  wikidata: Q686564
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; war attested in Balkan histories — entry not yet checked on the page"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-wave2
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

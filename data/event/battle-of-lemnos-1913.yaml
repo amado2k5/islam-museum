@@ -1,0 +1,23 @@
+id: event/battle-of-lemnos-1913
+class: event
+kind: battle
+label: { ar: "معركة ليمنوس", en: "Battle of Lemnos" }
+summary:
+  ar: "بطاقة أولية لمعركة ليمنوس البحرية سنة ١٩١٣م، نصر الأسطول اليوناني على العثماني في حرب البلقان الأولى؛ لم تُراجع مصادره على الصفحة بعد."
+  en: "Draft card for the naval Battle of Lemnos in 1913, the Greek fleet's victory over the Ottomans in the First Balkan War; its sources are not yet checked on the page."
+wings: [time]
+periods: [period/modern-era]
+regions: [anatolia-balkans]
+date:
+  start: { edtf: "1913", precision: year, status: tradition, derived: true }
+  end: { edtf: "1913", precision: year, status: tradition, derived: true }
+sources: [source/dawlat-uthmaniyya-salabi]
+external_ids:
+  wikidata: Q604185
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; battle attested in Balkan War histories — entry not yet checked on the page"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-wave2
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }
