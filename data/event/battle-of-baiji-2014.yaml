@@ -1,0 +1,23 @@
+id: event/battle-of-baiji-2014
+class: event
+kind: battle
+label: { ar: "معركة بيجي (٢٠١٤)", en: "Battle of Baiji" }
+summary:
+  ar: "بطاقة أولية لمعركة بيجي سنة ٢٠١٤م، قتال داعش والقوات العراقية على المدينة والمصفاة؛ لم تُراجع مصادره على الصفحة بعد."
+  en: "Draft card for the Battle of Baiji in 2014, the fight between ISIL and Iraqi forces over the town and refinery; its sources are not yet checked on the page."
+wings: [time]
+periods: [period/contemporary-era]
+regions: [levant-iraq]
+date:
+  start: { edtf: "2014-06-11", precision: year, status: tradition, derived: true }
+  end: { edtf: "2014-12-21", precision: year, status: tradition, derived: true }
+sources: [source/tarikh-islam-hasan-ibrahim]
+external_ids:
+  wikidata: Q19799151
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; battle attested in narrative histories — entry not yet checked on the page"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-wave2
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

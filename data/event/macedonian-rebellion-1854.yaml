@@ -1,0 +1,23 @@
+id: event/macedonian-rebellion-1854
+class: event
+kind: revolt
+label: { ar: "ثورة مقدونيا (١٨٥٤)", en: "1854 Macedonian rebellion" }
+summary:
+  ar: "بطاقة أولية لثورة مقدونيا سنة ١٨٥٤م، انتفاضة اليونانيين على العثمانيين في حرب القرم؛ لم تُراجع مصادره على الصفحة بعد."
+  en: "Draft card for the 1854 Macedonian rebellion, the Greeks' uprising against the Ottomans during the Crimean War; its sources are not yet checked on the page."
+wings: [time]
+periods: [period/colonial-era]
+regions: [anatolia-balkans]
+date:
+  start: { edtf: "1854-04", precision: year, status: tradition, derived: true }
+  end: { edtf: "1854-06", precision: year, status: tradition, derived: true }
+sources: [source/dawlat-uthmaniyya-salabi]
+external_ids:
+  wikidata: Q17156269
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; battle attested in narrative histories — entry not yet checked on the page"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-wave2
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }
