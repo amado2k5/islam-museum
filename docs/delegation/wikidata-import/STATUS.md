@@ -74,3 +74,11 @@ Updated at every push to `main`. Lane: `wikidata-import` (`docs/delegation/wikid
 - last_push: 88cfe5d59 (merge 88cfe5d59 of remote r2-sync test change)
 - Notable merges: umayr-ibn-al-humam, rabi-bint-al-nadr (al-rabi-bint-al-nadr), shurayk-ibn-abd-allah-al-nakhai, ibn-muflih-burhan absorbed duplicate creates as links.
 - validate: 0 errors / ~2009 warnings; npm test: 101 passed. Nothing blocked.
+
+## 2026 push — through candidate 7059
+- next_index: 7060 / 82296
+- created: 1530, linked: 710, skipped: 4859 (progress.json is authoritative)
+- last_push: ca3a4ef2b (merge of remote r2-sync test changes)
+- Notable links: ibn-qindas (Ibn Qundus), burhan-ibn-abi-sharif, muhammad-al-bakri-siddiqi, al-husayn-al-najjar (Mu'tazili), abu-al-abbas-al-nashi (Nashi al-Akbar), rajih-al-hilli, al-sayyid-al-himyari, ibn-al-shihna (al-Saghir).
+- New buildings: al-zahiriyah-madrasa-taiz (Rasulid), al-jami-al-kabir-diriyah.
+- validate: 0 errors / ~2013 warnings; npm test: 101 passed.
