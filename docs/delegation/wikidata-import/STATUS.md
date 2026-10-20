@@ -97,3 +97,11 @@ Updated at every push to `main`. Lane: `wikidata-import` (`docs/delegation/wikid
 - Final tail (82182–82295): ~36 Rasulid/medieval Yemeni madrasas and dar al-Qur'an records created, plus historic figures (Ibn Karama al-Bayhaqi, Abu al-Hasan al-Sindi, Isabel of Granada, Mai Safoora).
 - validate: 0 errors / ~2013 warnings; npm test: 101 passed.
 - Lane is complete: no further candidates remain in the frozen subset.
+
+## 19 Oct 2026 — post-completion audit of revisitable skip cohorts
+- Re-reviewed two skip cohorts without reopening decided indices:
+  - 27 create-failed:file-exists collisions (22 remain on file): 20 already carried their candidate QID (correct skips); 2 fixed — person/umm-kulthum-bint-uqba relinked Q4165667 (politician Essam el-Erian's item) → Q4166189, person/nasr-ibn-muzahim linked Q24519267.
+  - 152 mosque-deferred skips (indices 3260–3559): re-decided as 54 creates, 7 links, 6 already-linked confirmations, 91 confirmed modern/out-of-scope skips. New records include ~37 historic buildings (White Mosque of Ramla, Great Mosque of Sfax, Hudavendigar Bursa, Haci Ozbek Iznik 1334, Hadim Ibrahim Pasa and Sokollu Mehmed Pasa by Sinan, Mahmut Pasa 1464, Cinili 1640, Aali Masjid Srinagar, Khirki Delhi, Jameh Ardestan, Shah Nematollah Vali shrine, Salihiyya Cairo, Balkan Ottoman mosques), 10 persons (al-Khiraqi, Hisham ibn Hakam, al-Wahid al-Bihbahani, Shibl al-Dawla Nasr, Ahmad al-Siqilli, Mu'awwaz ibn Amr, Ruqayya bint Ali, Ya'rubid and Brunei rulers), groups (Chveneburi, Hasanids, Jahriyya, Nasiriyya) and concepts (sa', al-sirat al-mustaqim, tazkiyya).
+- Merged thin draft person/umara-ibn-abi-al-hasan into richer person/umara-al-yamani (alias + QID moved).
+- Totals after audit: created 2,233; linked 731; skipped 79,369; next_index 82,296 unchanged.
+- validate: 0 errors / ~2014 warnings; npm test pending at push.
