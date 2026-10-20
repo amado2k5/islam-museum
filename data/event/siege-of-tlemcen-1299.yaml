@@ -1,0 +1,23 @@
+id: event/siege-of-tlemcen-1299
+class: event
+kind: siege
+label: { ar: "حصار تلمسان (١٢٩٩)", en: "Siege of Tlemcen" }
+summary:
+  ar: "بطاقة أولية لحصار تلمسان في ١٢٩٩–١٣٠٧م، حصار المرينيين الطويل لعاصمة بني عبد الواد؛ لم تُراجع مصادره على الصفحة بعد."
+  en: "Draft card for the Siege of Tlemcen in 1299–1307, the Marinids' long siege of the Abd al-Wadid capital; its sources are not yet checked on the page."
+wings: [time]
+periods: [period/crusades-ayyubid-mamluk]
+regions: [maghreb]
+date:
+  start: { edtf: "1299", precision: year, status: tradition, derived: true }
+  end: { edtf: "1307", precision: year, status: tradition, derived: true }
+sources: [source/tarikh-islam-hasan-ibrahim]
+external_ids:
+  wikidata: Q3486030
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; battle attested in narrative histories — entry not yet checked on the page"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-wave2
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

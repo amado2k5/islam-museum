@@ -1,0 +1,23 @@
+id: event/battle-of-domanic-1287
+class: event
+kind: battle
+label: { ar: "معركة دومانيش", en: "Battle of Domaniç" }
+summary:
+  ar: "بطاقة أولية لمعركة دومانيش سنة ١٢٨٧م، أولى غزوات عثمان بن أرطغرل على البيزنطيين؛ لم تُراجع مصادره على الصفحة بعد."
+  en: "Draft card for the Battle of Domaniç in 1287, one of Osman ibn Ertugrul's first raids on the Byzantines; its sources are not yet checked on the page."
+wings: [time]
+periods: [period/crusades-ayyubid-mamluk]
+regions: [anatolia-balkans]
+date:
+  start: { edtf: "1287", precision: year, status: tradition, derived: true }
+  end: { edtf: "1287", precision: year, status: tradition, derived: true }
+sources: [source/dawlat-uthmaniyya-salabi]
+external_ids:
+  wikidata: Q32119001
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; battle attested in narrative histories — entry not yet checked on the page"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-wave2
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

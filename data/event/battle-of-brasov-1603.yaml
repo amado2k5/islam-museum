@@ -1,0 +1,23 @@
+id: event/battle-of-brasov-1603
+class: event
+kind: battle
+label: { ar: "معركة براشوف (١٦٠٣)", en: "Battle of Braşov" }
+summary:
+  ar: "بطاقة أولية لمعركة براشوف سنة ١٦٠٣م، هزيمة موزيس سيكلي أمام موالي العثمانيين وقتله؛ لم تُراجع مصادره على الصفحة بعد."
+  en: "Draft card for the Battle of Braşov in 1603, Mózes Székely's defeat and death at the hands of the Ottoman allies; its sources are not yet checked on the page."
+wings: [time]
+periods: [period/gunpowder-empires]
+regions: [anatolia-balkans]
+date:
+  start: { edtf: "1603-07-17", precision: year, status: tradition, derived: true }
+  end: { edtf: "1603-07-17", precision: year, status: tradition, derived: true }
+sources: [source/dawlat-uthmaniyya-salabi]
+external_ids:
+  wikidata: Q3565434
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; battle attested in narrative histories — entry not yet checked on the page"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-wave2
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

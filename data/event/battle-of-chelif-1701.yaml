@@ -1,0 +1,23 @@
+id: event/battle-of-chelif-1701
+class: event
+kind: battle
+label: { ar: "معركة الشلف (١٧٠١)", en: "Battle of Chelif" }
+summary:
+  ar: "بطاقة أولية لمعركة الشلف سنة ١٧٠١م، فوز المغاربة على جيش بك الجزائر في غزو مولاي إسماعيل؛ لم تُراجع مصادره على الصفحة بعد."
+  en: "Draft card for the Battle of Chelif in 1701, the Moroccans' victory over the Algiers bey's army in Moulay Ismail's invasion; its sources are not yet checked on the page."
+wings: [time]
+periods: [period/gunpowder-empires]
+regions: [maghreb]
+date:
+  start: { edtf: "1701-04-28", precision: year, status: tradition, derived: true }
+  end: { edtf: "1701-04-28", precision: year, status: tradition, derived: true }
+sources: [source/tarikh-islam-hasan-ibrahim]
+external_ids:
+  wikidata: Q30742449
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; battle attested in narrative histories — entry not yet checked on the page"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-wave2
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

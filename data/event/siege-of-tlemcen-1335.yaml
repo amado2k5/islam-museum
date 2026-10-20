@@ -1,0 +1,23 @@
+id: event/siege-of-tlemcen-1335
+class: event
+kind: siege
+label: { ar: "حصار تلمسان (١٣٣٥)", en: "Siege of Tlemcen" }
+summary:
+  ar: "بطاقة أولية لحصار تلمسان في ١٣٣٥–١٣٣٧م، أخذ أبي الحسن المريني المدينة ونهاية بني عبد الواد؛ لم تُراجع مصادره على الصفحة بعد."
+  en: "Draft card for the Siege of Tlemcen in 1335–37, Abu al-Hasan the Marinid's capture of the city and the Abd al-Wadids' end; its sources are not yet checked on the page."
+wings: [time]
+periods: [period/crusades-ayyubid-mamluk]
+regions: [maghreb]
+date:
+  start: { edtf: "1335", precision: year, status: tradition, derived: true }
+  end: { edtf: "1337", precision: year, status: tradition, derived: true }
+sources: [source/tarikh-islam-hasan-ibrahim]
+external_ids:
+  wikidata: Q3486034
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; battle attested in narrative histories — entry not yet checked on the page"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-wave2
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

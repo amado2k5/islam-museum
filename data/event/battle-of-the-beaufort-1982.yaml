@@ -1,0 +1,23 @@
+id: event/battle-of-the-beaufort-1982
+class: event
+kind: battle
+label: { ar: "معركة قلعة الشقيف (١٩٨٢)", en: "Battle of the Beaufort" }
+summary:
+  ar: "بطاقة أولية لمعركة قلعة الشقيف سنة ١٩٨٢م، أخذ الإسرائيليين قلعة بوفور في حرب لبنان؛ لم تُراجع مصادره على الصفحة بعد."
+  en: "Draft card for the Battle of the Beaufort in 1982, the Israeli capture of Beaufort Castle in the Lebanon war; its sources are not yet checked on the page."
+wings: [time]
+periods: [period/contemporary-era]
+regions: [levant-iraq]
+date:
+  start: { edtf: "1982-06-06", precision: year, status: tradition, derived: true }
+  end: { edtf: "1982-06-07", precision: year, status: tradition, derived: true }
+sources: [source/tarikh-islam-hasan-ibrahim]
+external_ids:
+  wikidata: Q2904564
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; battle attested in narrative histories — entry not yet checked on the page"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-wave2
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

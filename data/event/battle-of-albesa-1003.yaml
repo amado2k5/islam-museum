@@ -1,0 +1,23 @@
+id: event/battle-of-albesa-1003
+class: event
+kind: battle
+label: { ar: "معركة البيسة", en: "Battle of Albesa" }
+summary:
+  ar: "بطاقة أولية لمعركة البيسة سنة ١٠٠٣م، فوز عبد الملك المظفر على تحالف الكتلان والقسطلنيين؛ لم تُراجع مصادره على الصفحة بعد."
+  en: "Draft card for the Battle of Albesa in 1003, Abd al-Malik al-Muzaffar's victory over the Catalan-Castilian alliance; its sources are not yet checked on the page."
+wings: [time]
+periods: [period/buyid-seljuk-fatimid-era]
+regions: [andalus-europe]
+date:
+  start: { edtf: "1003-02-25", precision: year, status: tradition, derived: true }
+  end: { edtf: "1003-02-25", precision: year, status: tradition, derived: true }
+sources: [source/tarikh-islam-hasan-ibrahim]
+external_ids:
+  wikidata: Q3781410
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; battle attested in narrative histories — entry not yet checked on the page"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-wave2
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }
