@@ -1,0 +1,4 @@
+# API catalog for automated discovery (RFC 9727). Cloudflare Pages does not infer a
+# media type for an extensionless file, so the linkset type is set here.
+/.well-known/api-catalog
+  Content-Type: application/linkset+json
