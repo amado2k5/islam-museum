@@ -22,6 +22,13 @@ const TARGETS = [
   { dir: "pagefind-ur", prefix: "pagefind-ur", cacheControl: "public, max-age=31536000, immutable" },
   { dir: "api", prefix: "api", cacheControl: "public, max-age=3600, stale-while-revalidate=86400" },
 ];
+// HTML pages served by workers/site. Off unless PUBLISH_HTML=1, so the default publish is unchanged.
+const HTML_TARGETS = [
+  { dir: "ar", prefix: "ar", cacheControl: "public, max-age=60, s-maxage=3600" },
+  { dir: "en", prefix: "en", cacheControl: "public, max-age=60, s-maxage=3600" },
+  { dir: "ur", prefix: "ur", cacheControl: "public, max-age=60, s-maxage=3600" },
+];
+const activeTargets = process.env.PUBLISH_HTML === "1" ? [...TARGETS, ...HTML_TARGETS] : TARGETS;
 const MANIFEST_KEY = "_r2-sync/manifest.json";
 const STAGING_PREFIX = "_staging/";
 
@@ -52,7 +59,7 @@ function walk(dir) {
 // key -> { bytes, sha, cacheControl } for every file the site serves from R2
 function desiredFiles() {
   const files = new Map();
-  for (const t of TARGETS) {
+  for (const t of activeTargets) {
     const root = join(distRoot, t.dir);
     if (!existsSync(root)) throw new Error(`missing build output: ${root}`);
     for (const full of walk(root)) {
@@ -88,7 +95,7 @@ function readPrevious() {
 // and is simply uploaded again.
 function bootstrapPrevious(desired) {
   const previous = {};
-  for (const t of TARGETS) {
+  for (const t of activeTargets) {
     let token;
     do {
       const args = ["s3api", "list-objects-v2", "--bucket", bucket, "--prefix", `${t.prefix}/`, "--endpoint-url", endpoint, "--output", "json"];
