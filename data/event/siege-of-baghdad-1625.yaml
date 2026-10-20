@@ -1,0 +1,23 @@
+id: event/siege-of-baghdad-1625
+class: event
+kind: siege
+label: { ar: "حصار بغداد (١٦٢٥)", en: "Siege of Baghdad" }
+summary:
+  ar: "بطاقة أولية لحصار بغداد في ١٦٢٥–١٦٢٦م، فشل العثمانيين في استردادها من الصفويين؛ لم تُراجع مصادره على الصفحة بعد."
+  en: "Draft card for the Siege of Baghdad in 1625–26, the failed Ottoman attempt to retake it from the Safavids; its sources are not yet checked on the page."
+wings: [time]
+periods: [period/gunpowder-empires]
+regions: [levant-iraq]
+date:
+  start: { edtf: "1625-11-13", precision: year, status: tradition, derived: true }
+  end: { edtf: "1626-07-03", precision: year, status: tradition, derived: true }
+sources: [source/dawlat-uthmaniyya-salabi]
+external_ids:
+  wikidata: Q5959281
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; battle attested in narrative histories — entry not yet checked on the page"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-wave2
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

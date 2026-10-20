@@ -1,0 +1,23 @@
+id: event/siege-of-constantine-1837
+class: event
+kind: siege
+label: { ar: "حصار قسنطينة (١٨٣٧)", en: "Siege of Constantine" }
+summary:
+  ar: "بطاقة أولية لحصار قسنطينة سنة ١٨٣٧م، أخذ الفرنسيين المدينة من أحمد باي؛ لم تُراجع مصادره على الصفحة بعد."
+  en: "Draft card for the Siege of Constantine in 1837, the French capture of the city from Ahmad Bey; its sources are not yet checked on the page."
+wings: [time]
+periods: [period/colonial-era]
+regions: [maghreb]
+date:
+  start: { edtf: "1837-10-10", precision: year, status: tradition, derived: true }
+  end: { edtf: "1837-10-13", precision: year, status: tradition, derived: true }
+sources: [source/tarikh-islam-hasan-ibrahim]
+external_ids:
+  wikidata: Q636772
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; battle attested in narrative histories — entry not yet checked on the page"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-wave2
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }
