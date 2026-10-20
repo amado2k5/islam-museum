@@ -1,0 +1,23 @@
+id: event/conquest-of-al-hasa-1913
+class: event
+kind: conquest
+label: { ar: "فتح الأحساء", en: "Conquest of al-Hasa" }
+summary:
+  ar: "بطاقة أولية لفتح الأحساء سنة ١٩١٣م، أخذ عبد العزيز بن سعود للإقليم من العثمانيين؛ لم تُراجع مصادره على الصفحة بعد."
+  en: "Draft card for the conquest of al-Hasa in 1913, Abd al-Aziz ibn Saud's capture of the province from the Ottomans; its sources are not yet checked on the page."
+wings: [time]
+periods: [period/modern-era]
+regions: [arabia]
+date:
+  start: { edtf: "1913", precision: year, status: tradition, derived: true }
+  end: { edtf: "1913", precision: year, status: tradition, derived: true }
+sources: [source/dawlat-uthmaniyya-salabi]
+external_ids:
+  wikidata: Q16692266
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; battle attested in narrative histories — entry not yet checked on the page"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-wave2
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

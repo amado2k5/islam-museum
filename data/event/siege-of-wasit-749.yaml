@@ -1,0 +1,23 @@
+id: event/siege-of-wasit-749
+class: event
+kind: siege
+label: { ar: "حصار واسط (٧٤٩)", en: "Siege of Wasit" }
+summary:
+  ar: "بطاقة أولية لحصار واسط في ٧٤٩–٧٥٠م، آخر معاقل يزيد بن عمر الفضلي أمام العباسيين؛ لم تُراجع مصادره على الصفحة بعد."
+  en: "Draft card for the Siege of Wasit in 749–750, the last stand of Yazid ibn Umar al-Fadli before the Abbasids; its sources are not yet checked on the page."
+wings: [time]
+periods: [period/umayyad]
+regions: [levant-iraq]
+date:
+  start: { edtf: "0749", precision: year, status: tradition, derived: true }
+  end: { edtf: "0750", precision: year, status: tradition, derived: true }
+sources: [source/kamil-ibn-al-athir]
+external_ids:
+  wikidata: Q16931475
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; battle attested in narrative histories — entry not yet checked on the page"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-wave2
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

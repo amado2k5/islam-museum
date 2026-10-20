@@ -1,0 +1,23 @@
+id: event/battle-of-hareira-and-sheria-1917
+class: event
+kind: battle
+label: { ar: "معركة هريرة وشريعة", en: "Battle of Hareira and Sheria" }
+summary:
+  ar: "بطاقة أولية لمعركة هريرة وشريعة سنة ١٩١٧م، اختراق البريطانيين للخط العثماني في فلسطين؛ لم تُراجع مصادره على الصفحة بعد."
+  en: "Draft card for the Battle of Hareira and Sheria in 1917, the British breach of the Ottoman Gaza-Beersheba line; its sources are not yet checked on the page."
+wings: [time]
+periods: [period/modern-era]
+regions: [levant-iraq]
+date:
+  start: { edtf: "1917", precision: year, status: tradition, derived: true }
+  end: { edtf: "1917", precision: year, status: tradition, derived: true }
+sources: [source/dawlat-uthmaniyya-salabi]
+external_ids:
+  wikidata: Q16841208
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; battle attested in narrative histories — entry not yet checked on the page"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-wave2
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

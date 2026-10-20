@@ -1,0 +1,23 @@
+id: event/siege-of-tortosa-1148
+class: event
+kind: siege
+label: { ar: "حصار طرطوشة", en: "Siege of Tortosa" }
+summary:
+  ar: "بطاقة أولية لحصار طرطوشة سنة ١١٤٨م، أخذ رامون برنغر الرابع والحملة الصليبية لها من المرابطين؛ لم تُراجع مصادره على الصفحة بعد."
+  en: "Draft card for the Siege of Tortosa in 1148, Ramon Berenguer IV's crusade-era capture from the Almoravids; its sources are not yet checked on the page."
+wings: [time]
+periods: [period/buyid-seljuk-fatimid-era]
+regions: [andalus-europe]
+date:
+  start: { edtf: "1148", precision: year, status: tradition, derived: true }
+  end: { edtf: "1148", precision: year, status: tradition, derived: true }
+sources: [source/kamil-ibn-al-athir]
+external_ids:
+  wikidata: Q18008727
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; battle attested in narrative histories — entry not yet checked on the page"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-wave2
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }
