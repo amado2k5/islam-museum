@@ -1,0 +1,23 @@
+id: event/mahdist-war
+class: event
+kind: war
+label: { ar: "الثورة المهدية (السودان)", en: "The Mahdist War" }
+summary:
+  ar: "بطاقة أولية للثورة المهدية في السودان، حركة محمد أحمد المهدي التي أقامت دولة خلفاء المهدي من ١٨٨١ حتى سقوطها سنة ١٨٩٩م؛ لم تُراجع مصادره على الصفحة بعد."
+  en: "Draft card for the Mahdist War in Sudan, the rising of Muhammad Ahmad al-Mahdi whose successor state lasted from 1881 to 1899; its sources are not yet checked on the page."
+wings: [time]
+periods: [period/colonial-era]
+regions: [east-africa]
+date:
+  start: { edtf: "1881", precision: year, status: tradition, derived: true }
+  end: { edtf: "1899", precision: year, status: tradition, derived: true }
+sources: [source/tarikh-islam-hasan-ibrahim]
+external_ids:
+  wikidata: Q31944
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; war attested in modern Sudanese histories — entry not yet checked on the page"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-wave2
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

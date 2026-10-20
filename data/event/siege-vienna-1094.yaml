@@ -1,0 +1,23 @@
+id: event/siege-vienna-1094
+class: event
+kind: siege
+label: { ar: "حصار فيينا الثاني", en: "Second Siege of Vienna" }
+summary:
+  ar: "بطاقة أولية لحصار فيينا الثاني سنة ١٦٨٣م، حين حاصر الصدر الأعظم قرة مصطفى باشا بجيش عثماني العاصمة الهابسبورغية فهُزم أمام الجيش البولندي-الإمبراطوري بقيادة يان سوبيسكي في كهلنبرغ وبدأ بعدها تراجع العثمانيين في أوروبا الوسطى؛ لم تُراجع مصادره على الصفحة بعد."
+  en: "Draft card for the second siege of Vienna in 1683, when Kara Mustafa Pasha's Ottoman army besieged the Habsburg capital and was defeated by the Polish-Imperial relief under John Sobieski at Kahlenberg, opening the long Ottoman retreat from Central Europe; sources not yet checked on the page."
+wings: [time]
+periods: [period/gunpowder-empires]
+regions: [anatolia-balkans]
+date:
+  start: { edtf: "1683", precision: year, status: tradition, derived: true }
+  end: { edtf: "1683", precision: year, status: tradition, derived: true }
+sources: [source/dawlat-uthmaniyya-salabi]
+external_ids:
+  wikidata: Q200855
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; battle attested in Ottoman-history surveys — entry not yet checked on the page"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-wave2
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

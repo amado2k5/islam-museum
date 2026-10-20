@@ -1,0 +1,32 @@
+id: polity/aghlabid-emirate
+class: polity
+kind: emirate
+label:
+  ar: "الدولة الأغلبية"
+  en: "Aghlabid emirate"
+summary:
+  ar: "بطاقة أولية للدولة الأغلبية، إمارة بني الأغلب في إفريقية من تولية إبراهيم بن الأغلب سنة ١٨٤هـ/٨٠٠م حتى سقوطها بيد الفاطميين سنة ٢٩٦هـ/٩٠٩م، وفتحت صقلية وبنت الجامع الكبير بصفاقس؛ لم تُراجع مصادرها على الصفحة بعد."
+  en: "Draft card for the Aghlabid emirate, the house of Banu al-Aghlab ruling Ifriqiya from Ibrahim ibn al-Aghlab's investiture in 184/800 until the Fatimid takeover in 296/909 — conquerors of Sicily and builders of Sfax's Great Mosque; its sources are not yet checked on the page."
+wings: [time]
+periods: [period/abbasid-early]
+regions: [maghreb]
+start:
+  edtf: "800"
+  precision: year
+  status: tradition
+  derived: true
+end:
+  edtf: "909"
+  precision: year
+  status: tradition
+  derived: true
+sources: [source/tarikh-ibn-khaldun-ibar]
+external_ids:
+  wikidata: Q207600
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; dynasty attested in Ibn Khaldun's al-Ibar — entry not yet checked on the page"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-wave2
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

@@ -1,0 +1,23 @@
+id: event/battle-of-panipat-932
+class: event
+kind: battle
+label: { ar: "معركة باني بت الأولى", en: "First Battle of Panipat" }
+summary:
+  ar: "بطاقة أولية لمعركة باني بت الأولى سنة ٩٣٢هـ/١٥٢٦م، فتح بابر المغولي بها الطريق إلى دلهي بعد هزيمة سلطان اللودي إبراهيم؛ لم تُراجع مصادره على الصفحة بعد."
+  en: "Draft card for the First Battle of Panipat in 932/1526, Babur's victory over Sultan Ibrahim Lodi that opened the road to Delhi and founded Mughal rule; its sources are not yet checked on the page."
+wings: [time]
+periods: [period/gunpowder-empires]
+regions: [south-asia]
+date:
+  start: { edtf: "1526", precision: year, status: tradition, derived: true }
+  end: { edtf: "1526", precision: year, status: tradition, derived: true }
+sources: [source/akbarnama]
+external_ids:
+  wikidata: Q605321
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; battle attested in Mughal histories — entry not yet checked on the page"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-wave2
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

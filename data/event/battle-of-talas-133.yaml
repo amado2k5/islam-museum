@@ -1,0 +1,23 @@
+id: event/battle-of-talas-133
+class: event
+kind: battle
+label: { ar: "معركة نهر طلاس", en: "Battle of Talas" }
+summary:
+  ar: "بطاقة أولية لمعركة نهر طلاس سنة ١٣٣هـ/٧٥١م، الموقعة التي غلب فيها العباسيون والترك جيش أسرة تانغ الصينية على حدود آسيا الوسطى؛ لم تُراجع مصادره على الصفحة بعد."
+  en: "Draft card for the Battle of the Talas River in 133/751, the clash in which the Abbasids and their Turkic allies prevailed over the Tang Chinese army at the edge of Central Asia; its sources are not yet checked on the page."
+wings: [time]
+periods: [period/abbasid-early]
+regions: [persia-central-asia]
+date:
+  start: { edtf: "751", precision: year, status: tradition, derived: true }
+  end: { edtf: "751", precision: year, status: tradition, derived: true }
+sources: [source/tarikh-al-tabari]
+external_ids:
+  wikidata: Q492415
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; battle attested in Tabari and general histories — entry not yet checked on the page"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-wave2
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

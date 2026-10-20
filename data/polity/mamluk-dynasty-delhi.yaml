@@ -1,0 +1,32 @@
+id: polity/mamluk-dynasty-delhi
+class: polity
+kind: dynasty
+label:
+  ar: "دولة المماليك بدلهي"
+  en: "Mamluk dynasty of Delhi"
+summary:
+  ar: "بطاقة أولية لدولة المماليك بدلهي، أسرة العبيد الملكية التي أسسها قطب الدين أيبك وحكمت دلهي من ١٢٠٦ حتى ١٢٩٠م؛ لم تُراجع مصادرها على الصفحة بعد."
+  en: "Draft card for the Mamluk dynasty of Delhi, the slave-soldier royal house founded by Qutb al-Din Aibak ruling Delhi from 1206 to 1290; its sources are not yet checked on the page."
+wings: [time]
+periods: [period/crusades-ayyubid-mamluk]
+regions: [south-asia]
+start:
+  edtf: "1206"
+  precision: year
+  status: tradition
+  derived: true
+end:
+  edtf: "1290"
+  precision: year
+  status: tradition
+  derived: true
+sources: [source/tarikh-islam-hasan-ibrahim]
+external_ids:
+  wikidata: Q847420
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; dynasty attested in surveys of Indian Islamic history — entry not yet checked on the page"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-wave2
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

@@ -39,5 +39,6 @@ map:
     - { type: point, role: landmark, label: { ar: "جبل الرماة", en: "The archers' hill" }, at: [24.501, 39.612], precision: schematic, source: source/mubarakpuri-raheeq }
     - { type: line, role: march, side: 1, from: [21.4225, 39.8262], to: [24.492, 39.596], label: { ar: "مسير جيش قريش من مكة", en: "Quraysh army's march from Mecca" }, precision: schematic, source: source/mubarakpuri-raheeq }
     - { type: line, role: retreat, side: 0, from: [24.503, 39.607], to: [24.505, 39.617], label: { ar: "انسحاب المسلمين المنظم إلى شعب الجبل", en: "The Muslims' ordered withdrawal into the shi'b" }, precision: schematic, source: source/mubarakpuri-raheeq }
+external_ids: { wikidata: "Q488278" }
 sources: [source/ibn-ishaq-guillaume, source/watt-1956-medina, source/lings-1983, source/mubarakpuri-raheeq, source/sahih-al-bukhari]
 status: { review: draft, completeness: 1, generated_by: "Claude Sonnet 5.5; dates follow the cited tradition and are approximate where marked" }

@@ -1,0 +1,32 @@
+id: polity/alawi-dynasty-morocco
+class: polity
+kind: dynasty
+label:
+  ar: "السلالة العلوية (المغرب)"
+  en: "Alawi dynasty of Morocco"
+summary:
+  ar: "بطاقة أولية للسلالة العلوية الفيلالية، الأسرة الحاكمة للمغرب من مولاي الرشيد سنة ١٦٦٦م حتى اليوم؛ لم تُراجع مصادرها على الصفحة بعد."
+  en: "Draft card for the Alawi (Filali) dynasty, the sharifian ruling house of Morocco since Mulay al-Rashid in 1666 to the present; its sources are not yet checked on the page."
+wings: [time]
+periods: [period/gunpowder-empires]
+regions: [maghreb]
+start:
+  edtf: "1666"
+  precision: year
+  status: tradition
+  derived: true
+end:
+  edtf: ""
+  precision: year
+  status: tradition
+  derived: true
+sources: [source/tarikh-islam-hasan-ibrahim]
+external_ids:
+  wikidata: Q1129036
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; dynasty attested in Moroccan histories — entry not yet checked on the page"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-wave2
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

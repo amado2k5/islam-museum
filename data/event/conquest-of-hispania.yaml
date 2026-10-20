@@ -1,0 +1,23 @@
+id: event/conquest-of-hispania
+class: event
+kind: campaign
+label: { ar: "الفتح الإسلامي للأندلس", en: "Umayyad conquest of Hispania" }
+summary:
+  ar: "بطاقة أولية للفتح الإسلامي للأندلس، الحملة التي قادها طارق بن زياد وموسى بن نصير وأسقطت مملكة القوط الغربيين بين ٧١١ و٧٢٠م؛ لم تُراجع مصادره على الصفحة بعد."
+  en: "Draft card for the Umayyad conquest of Hispania, the campaigns of Tariq ibn Ziyad and Musa ibn Nusayr that toppled the Visigothic kingdom between 711 and 720; its sources are not yet checked on the page."
+wings: [time]
+periods: [period/umayyad]
+regions: [andalus-europe]
+date:
+  start: { edtf: "711", precision: year, status: tradition, derived: true }
+  end: { edtf: "720", precision: year, status: tradition, derived: true }
+sources: [source/futuh-buldan-maarif-1407]
+external_ids:
+  wikidata: Q1455917
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; conquest attested in al-Baladhuri's Futuh al-Buldan — entry not yet checked on the page"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-wave2
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

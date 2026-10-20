@@ -1,0 +1,32 @@
+id: polity/tahirid-dynasty
+class: polity
+kind: dynasty
+label:
+  ar: "الدولة الطاهرية"
+  en: "Tahirid dynasty"
+summary:
+  ar: "بطاقة أولية للدولة الطاهرية، ولاة خراسان المستقلين فعلياً عن بغداد بقيادة طاهر بن الحسين ونسله من ٢٠٥هـ/٨٢١م حتى سقوطهم بيد الصفاريين سنة ٢٥٩هـ/٨٧٣م؛ لم تُراجع مصادرها على الصفحة بعد."
+  en: "Draft card for the Tahirid dynasty, the effectively autonomous governors of Khurasan under Tahir ibn al-Husayn and his line from 205/821 until the Saffarid takeover in 259/873; its sources are not yet checked on the page."
+wings: [time]
+periods: [period/abbasid-early]
+regions: [persia-central-asia]
+start:
+  edtf: "821"
+  precision: year
+  status: tradition
+  derived: true
+end:
+  edtf: "873"
+  precision: year
+  status: tradition
+  derived: true
+sources: [source/tarikh-ibn-khaldun-ibar]
+external_ids:
+  wikidata: Q373981
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; dynasty attested in Ibn Khaldun's al-Ibar — entry not yet checked on the page"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-wave2
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }
