@@ -1,0 +1,23 @@
+id: event/battle-of-al-buqaia-1163
+class: event
+kind: battle
+label: { ar: "معركة البقيعة (١١٦٣)", en: "Battle of al-Buqaia" }
+summary:
+  ar: "بطاقة أولية لمعركة البقيعة سنة ١١٦٣م، نصر الصليبيين والبيزنطيين على نور الدين في سهل البقاع؛ لم تُراجع مصادره على الصفحة بعد."
+  en: "Draft card for the Battle of al-Buqaia in 1163, the Crusader-Byzantine victory over Nur al-Din in the Beqaa; its sources are not yet checked on the page."
+wings: [time]
+periods: [period/crusades-ayyubid-mamluk]
+regions: [levant-iraq]
+date:
+  start: { edtf: "1163", precision: year, status: tradition, derived: true }
+  end: { edtf: "1163", precision: year, status: tradition, derived: true }
+sources: [source/kamil-ibn-al-athir]
+external_ids:
+  wikidata: Q4872819
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; battle attested in Crusade histories — entry not yet checked on the page"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-wave2
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

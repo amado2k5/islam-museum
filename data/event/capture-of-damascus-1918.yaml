@@ -1,0 +1,23 @@
+id: event/capture-of-damascus-1918
+class: event
+kind: conquest
+label: { ar: "معركة دمشق (١٩١٨)", en: "Capture of Damascus" }
+summary:
+  ar: "بطاقة أولية لدخول دمشق في أكتوبر ١٩١٨م، دخول الجيش العربي والحلفاء المدينة مع انتهاء الحكم العثماني؛ لم تُراجع مصادره على الصفحة بعد."
+  en: "Draft card for the capture of Damascus in October 1918, the Arab and Allied entry ending Ottoman rule; its sources are not yet checked on the page."
+wings: [time]
+periods: [period/modern-era]
+regions: [levant-iraq]
+date:
+  start: { edtf: "1918", precision: year, status: tradition, derived: true }
+  end: { edtf: "1918", precision: year, status: tradition, derived: true }
+sources: [source/dawlat-uthmaniyya-salabi]
+external_ids:
+  wikidata: Q5037002
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; capture attested in WWI histories — entry not yet checked on the page"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-wave2
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }
