@@ -1,0 +1,23 @@
+id: event/edirne-incident-1806
+class: event
+kind: revolt
+label: { ar: "حادثة أدرنة (١٨٠٦)", en: "Edirne Incident (1806)" }
+summary:
+  ar: "بطاقة أولية لحادثة أدرنة سنة ١٨٠٦م، تجمّع الينيجارية ضد إصلاحات سليم الثالث؛ لم تُراجع مصادره على الصفحة بعد."
+  en: "Draft card for the Edirne Incident of 1806, the Janissary rally against Selim III's reforms; its sources are not yet checked on the page."
+wings: [time]
+periods: [period/modern-era]
+regions: [anatolia-balkans]
+date:
+  start: { edtf: "1806", precision: year, status: tradition, derived: true }
+  end: { edtf: "1806", precision: year, status: tradition, derived: true }
+sources: [source/dawlat-uthmaniyya-salabi]
+external_ids:
+  wikidata: Q55600402
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; battle attested in narrative histories — entry not yet checked on the page"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-wave2
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }
