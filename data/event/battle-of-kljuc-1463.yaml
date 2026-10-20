@@ -1,0 +1,23 @@
+id: event/battle-of-kljuc-1463
+class: event
+kind: battle
+label: { ar: "معركة كليوتش", en: "Battle of Ključ" }
+summary:
+  ar: "بطاقة أولية لمعركة كليوتش سنة ١٤٦٣م، فوز العثمانيين وإتمام فتح البوسنة؛ لم تُراجع مصادره على الصفحة بعد."
+  en: "Draft card for the Battle of Ključ in 1463, the Ottoman victory completing the conquest of Bosnia; its sources are not yet checked on the page."
+wings: [time]
+periods: [period/crusades-ayyubid-mamluk]
+regions: [anatolia-balkans]
+date:
+  start: { edtf: "1463", precision: year, status: tradition, derived: true }
+  end: { edtf: "1463", precision: year, status: tradition, derived: true }
+sources: [source/dawlat-uthmaniyya-salabi]
+external_ids:
+  wikidata: Q121283166
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; battle attested in narrative histories — entry not yet checked on the page"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-wave2
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }
