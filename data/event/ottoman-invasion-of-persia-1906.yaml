@@ -1,0 +1,23 @@
+id: event/ottoman-invasion-of-persia-1906
+class: event
+kind: war
+label: { ar: "الغزو العثماني لبلاد فارس", en: "Ottoman Invasion of Persia" }
+summary:
+  ar: "بطاقة أولية للغزو العثماني لبلاد فارس سنة ١٩٠٦م، توغل الجيوش العثمانية في أذربيجان؛ لم تُراجع مصادره على الصفحة بعد."
+  en: "Draft card for the Ottoman invasion of Persia in 1906, the Ottoman advance into Azerbaijan; its sources are not yet checked on the page."
+wings: [time]
+periods: [period/modern-era]
+regions: [persia-central-asia]
+date:
+  start: { edtf: "1906", precision: year, status: tradition, derived: true }
+  end: { edtf: "1907", precision: year, status: tradition, derived: true }
+sources: [source/dawlat-uthmaniyya-salabi]
+external_ids:
+  wikidata: Q77458574
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; battle attested in narrative histories — entry not yet checked on the page"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-wave2
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

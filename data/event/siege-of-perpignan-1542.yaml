@@ -1,0 +1,23 @@
+id: event/siege-of-perpignan-1542
+class: event
+kind: siege
+label: { ar: "حصار بربينيان", en: "Siege of Perpignan" }
+summary:
+  ar: "بطاقة أولية لحصار بربينيان سنة ١٥٤٢م، حصار الحلف الفرنسي العثماني للمدينة الإسبانية؛ لم تُراجع مصادره على الصفحة بعد."
+  en: "Draft card for the Siege of Perpignan in 1542, the Franco-Ottoman siege of the Spanish city; its sources are not yet checked on the page."
+wings: [time]
+periods: [period/gunpowder-empires]
+regions: [andalus-europe]
+date:
+  start: { edtf: "1542", precision: year, status: tradition, derived: true }
+  end: { edtf: "1542", precision: year, status: tradition, derived: true }
+sources: [source/dawlat-uthmaniyya-salabi]
+external_ids:
+  wikidata: Q7510304
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; battle attested in narrative histories — entry not yet checked on the page"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-wave2
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }
