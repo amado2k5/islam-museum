@@ -1,0 +1,23 @@
+id: event/battle-of-zurawno-1676
+class: event
+kind: battle
+label: { ar: "معركة جورافنو", en: "Battle of Żurawno" }
+summary:
+  ar: "بطاقة أولية لمعركة جورافنو سنة ١٦٧٦م، اشتباك البولنديين والعثمانيين قبل صلح جورافنو؛ لم تُراجع مصادره على الصفحة بعد."
+  en: "Draft card for the Battle of Żurawno in 1676, the Polish–Ottoman clash before the Treaty of Żurawno; its sources are not yet checked on the page."
+wings: [time]
+periods: [period/gunpowder-empires]
+regions: [anatolia-balkans]
+date:
+  start: { edtf: "1676", precision: year, status: tradition, derived: true }
+  end: { edtf: "1676", precision: year, status: tradition, derived: true }
+sources: [source/dawlat-uthmaniyya-salabi]
+external_ids:
+  wikidata: Q4809918
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; battle attested in narrative histories — entry not yet checked on the page"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-wave2
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

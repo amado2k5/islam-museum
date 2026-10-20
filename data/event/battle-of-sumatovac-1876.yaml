@@ -1,0 +1,23 @@
+id: event/battle-of-sumatovac-1876
+class: event
+kind: battle
+label: { ar: "معركة شوماتوفاتس", en: "Battle of Šumatovac" }
+summary:
+  ar: "بطاقة أولية لمعركة شوماتوفاتس سنة ١٨٧٦م، فوز الصرب على العثمانيين في الحرب الصربية العثمانية؛ لم تُراجع مصادره على الصفحة بعد."
+  en: "Draft card for the Battle of Šumatovac in 1876, the Serbian win over the Ottomans in the Serbian–Ottoman war; its sources are not yet checked on the page."
+wings: [time]
+periods: [period/colonial-era]
+regions: [anatolia-balkans]
+date:
+  start: { edtf: "1876", precision: year, status: tradition, derived: true }
+  end: { edtf: "1876", precision: year, status: tradition, derived: true }
+sources: [source/dawlat-uthmaniyya-salabi]
+external_ids:
+  wikidata: Q4087409
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; battle attested in narrative histories — entry not yet checked on the page"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-wave2
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }
