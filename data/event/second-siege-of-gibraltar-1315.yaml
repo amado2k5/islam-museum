@@ -1,0 +1,23 @@
+id: event/second-siege-of-gibraltar-1315
+class: event
+kind: siege
+label: { ar: "حصار جبل طارق الثاني (١٣١٥)", en: "Second Siege of Gibraltar" }
+summary:
+  ar: "بطاقة أولية للحصار الثاني لجبل طارق سنة ١٣١٥م، محاولة قشتالة الفاشلة لاستردادها من المرينيين؛ لم تُراجع مصادره على الصفحة بعد."
+  en: "Draft card for the Second Siege of Gibraltar in 1315, Castile's failed bid to retake the rock from the Marinids; its sources are not yet checked on the page."
+wings: [time]
+periods: [period/crusades-ayyubid-mamluk]
+regions: [maghreb]
+date:
+  start: { edtf: "1315", precision: year, status: tradition, derived: true }
+  end: { edtf: "1315", precision: year, status: tradition, derived: true }
+sources: [source/tarikh-islam-hasan-ibrahim]
+external_ids:
+  wikidata: Q7443529
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; siege attested in Nasrid histories — entry not yet checked on the page"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-wave2
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

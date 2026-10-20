@@ -1,0 +1,23 @@
+id: event/ottoman-habsburg-war-1540
+class: event
+kind: war
+label: { ar: "الحرب العثمانية الهابسبورغية (١٥٤٠-١٥٤٧)", en: "Ottoman–Habsburg War of 1540–1547" }
+summary:
+  ar: "بطاقة أولية للحرب العثمانية الهابسبورغية من ١٥٤٠ إلى ١٥٤٧م، صراع المجر الذي انتهى بصلح أدرنة؛ لم تُراجع مصادره على الصفحة بعد."
+  en: "Draft card for the Ottoman–Habsburg War of 1540–1547, the Hungarian struggle closed by the peace of Adrianople; its sources are not yet checked on the page."
+wings: [time]
+periods: [period/gunpowder-empires]
+regions: [anatolia-balkans]
+date:
+  start: { edtf: "1540", precision: year, status: tradition, derived: true }
+  end: { edtf: "1547", precision: year, status: tradition, derived: true }
+sources: [source/dawlat-uthmaniyya-salabi]
+external_ids:
+  wikidata: Q1032343
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; war attested in Hungarian histories — entry not yet checked on the page"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-wave2
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

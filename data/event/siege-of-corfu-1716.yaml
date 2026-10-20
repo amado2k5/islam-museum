@@ -1,0 +1,23 @@
+id: event/siege-of-corfu-1716
+class: event
+kind: siege
+label: { ar: "حصار كورفو (١٧١٦)", en: "Siege of Corfu" }
+summary:
+  ar: "بطاقة أولية لحصار كورفو سنة ١٧١٦م، فشل العثمانيين في أخذ الجزيرة من البندقية في الحرب السابعة؛ لم تُراجع مصادره على الصفحة بعد."
+  en: "Draft card for the Siege of Corfu in 1716, the Ottoman failure to take the island from Venice in the seventh war; its sources are not yet checked on the page."
+wings: [time]
+periods: [period/gunpowder-empires]
+regions: [anatolia-balkans]
+date:
+  start: { edtf: "1716", precision: year, status: tradition, derived: true }
+  end: { edtf: "1716", precision: year, status: tradition, derived: true }
+sources: [source/dawlat-uthmaniyya-salabi]
+external_ids:
+  wikidata: Q11794876
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; siege attested in Ottoman-Venetian histories — entry not yet checked on the page"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-wave2
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }
