@@ -1,0 +1,23 @@
+id: event/shabin-karahisar-uprising-1915
+class: event
+kind: revolt
+label: { ar: "انتفاضة شابين قره حصار", en: "Shabin-Karahisar Uprising" }
+summary:
+  ar: "بطاقة أولية لانتفاضة شابين قره حصار سنة ١٩١٥م، صمود المدينة الأرمنية؛ لم تُراجع مصادره على الصفحة بعد."
+  en: "Draft card for the Shabin-Karahisar uprising of 1915, the Armenian town's stand; its sources are not yet checked on the page."
+wings: [time]
+periods: [period/modern-era]
+regions: [anatolia-balkans]
+date:
+  start: { edtf: "1915", precision: year, status: tradition, derived: true }
+  end: { edtf: "1915", precision: year, status: tradition, derived: true }
+sources: [source/dawlat-uthmaniyya-salabi]
+external_ids:
+  wikidata: Q7460102
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; battle attested in narrative histories — entry not yet checked on the page"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-wave2
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

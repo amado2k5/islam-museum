@@ -1,0 +1,23 @@
+id: event/siege-of-kandahar-1605
+class: event
+kind: siege
+label: { ar: "حصار قندهار", en: "Siege of Kandahar" }
+summary:
+  ar: "بطاقة أولية لحصار قندهار من ١٦٠٥ إلى ١٦٠٦م، صد الصفويين للهجوم المغولي؛ لم تُراجع مصادره على الصفحة بعد."
+  en: "Draft card for the Siege of Kandahar of 1605–1606, the Safavid defense against the Mughals; its sources are not yet checked on the page."
+wings: [time]
+periods: [period/gunpowder-empires]
+regions: [persia-central-asia]
+date:
+  start: { edtf: "1605", precision: year, status: tradition, derived: true }
+  end: { edtf: "1606", precision: year, status: tradition, derived: true }
+sources: [source/kamil-ibn-al-athir]
+external_ids:
+  wikidata: Q7510146
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; battle attested in narrative histories — entry not yet checked on the page"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-wave2
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }
