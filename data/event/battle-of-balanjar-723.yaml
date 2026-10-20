@@ -1,0 +1,23 @@
+id: event/battle-of-balanjar-723
+class: event
+kind: battle
+label: { ar: "معركة بلنجر (٧٢٣)", en: "Battle of Balanjar (723)" }
+summary:
+  ar: "بطاقة أولية لمعركة بلنجر سنة ٧٢٣م، معركة العرب والخزر في حرب القوقاز الأولى؛ لم تُراجع مصادره على الصفحة بعد."
+  en: "Draft card for the Battle of Balanjar in 723, the Arab–Khazar battle of the first Caucasus war; its sources are not yet checked on the page."
+wings: [time]
+periods: [period/umayyad]
+regions: [persia-central-asia]
+date:
+  start: { edtf: "723", precision: year, status: tradition, derived: true }
+  end: { edtf: "723", precision: year, status: tradition, derived: true }
+sources: [source/tarikh-al-tabari]
+external_ids:
+  wikidata: Q4870395
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; battle attested in narrative histories — entry not yet checked on the page"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-wave2
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

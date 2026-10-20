@@ -1,0 +1,23 @@
+id: event/bakhtrioni-uprising-1659
+class: event
+kind: revolt
+label: { ar: "انتفاضة باختريوني", en: "Bakhtrioni Uprising" }
+summary:
+  ar: "بطاقة أولية لانتفاضة باختريوني سنة ١٦٥٩م، ثورة الجورجيين على الحكم الصفوي؛ لم تُراجع مصادره على الصفحة بعد."
+  en: "Draft card for the Bakhtrioni Uprising of 1659, the Georgians' revolt against Safavid rule; its sources are not yet checked on the page."
+wings: [time]
+periods: [period/gunpowder-empires]
+regions: [persia-central-asia]
+date:
+  start: { edtf: "1659", precision: year, status: tradition, derived: true }
+  end: { edtf: "1659", precision: year, status: tradition, derived: true }
+sources: [source/tarikh-islam-hasan-ibrahim]
+external_ids:
+  wikidata: Q4849424
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; battle attested in narrative histories — entry not yet checked on the page"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-wave2
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }
