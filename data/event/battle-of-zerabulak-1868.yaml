@@ -1,0 +1,23 @@
+id: event/battle-of-zerabulak-1868
+class: event
+kind: battle
+label: { ar: "معركة زرابلق (١٨٦٨)", en: "Battle of Zerabulak (1868)" }
+summary:
+  ar: "بطاقة أولية لمعركة زرابلق سنة ١٨٦٨م، هزيمة أمير بخارى أمام الروس؛ لم تُراجع مصادره على الصفحة بعد."
+  en: "Draft card for the Battle of Zerabulak in 1868, the Emir of Bukhara's defeat by the Russians; its sources are not yet checked on the page."
+wings: [time]
+periods: [period/modern-era]
+regions: [persia-central-asia]
+date:
+  start: { edtf: "1868-05", precision: year, status: tradition, derived: true }
+  end: { edtf: "1868-05", precision: year, status: tradition, derived: true }
+sources: [source/tarikh-islam-hasan-ibrahim]
+external_ids:
+  wikidata: Q25533853
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; battle attested in narrative histories — entry not yet checked on the page"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-wave2
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }
