@@ -1,0 +1,23 @@
+id: event/khivan-campaign-1839
+class: event
+kind: war
+label: { ar: "حملة خيوة (١٨٣٩)", en: "Khivan Campaign of 1839–1840" }
+summary:
+  ar: "بطاقة أولية لحملة خيوة الروسية من ١٨٣٩ إلى ١٨٤٠م، الغزو القيصري الفاشل لخانية الخوارزم؛ لم تُراجع مصادره على الصفحة بعد."
+  en: "Draft card for the Khivan campaign of 1839–1840, Russia's failed invasion of the Khanate of Khiva; its sources are not yet checked on the page."
+wings: [time]
+periods: [period/colonial-era]
+regions: [persia-central-asia]
+date:
+  start: { edtf: "1839", precision: year, status: tradition, derived: true }
+  end: { edtf: "1840", precision: year, status: tradition, derived: true }
+sources: [source/tarikh-islam-hasan-ibrahim]
+external_ids:
+  wikidata: Q4497453
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; campaign attested in Central Asian histories — entry not yet checked on the page"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-wave2
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

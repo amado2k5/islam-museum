@@ -1,0 +1,23 @@
+id: event/battle-of-magdhaba-1916
+class: event
+kind: battle
+label: { ar: "معركة مغضبة", en: "Battle of Magdhaba" }
+summary:
+  ar: "بطاقة أولية لمعركة مغضبة سنة ١٩١٦م، نصر البريطانيين على العثمانيين في سيناء خلال الحرب العالمية؛ لم تُراجع مصادره على الصفحة بعد."
+  en: "Draft card for the Battle of Magdhaba in 1916, the British victory over the Ottomans in Sinai during the Great War; its sources are not yet checked on the page."
+wings: [time]
+periods: [period/modern-era]
+regions: [egypt-nile]
+date:
+  start: { edtf: "1916", precision: year, status: tradition, derived: true }
+  end: { edtf: "1916", precision: year, status: tradition, derived: true }
+sources: [source/dawlat-uthmaniyya-salabi]
+external_ids:
+  wikidata: Q2889191
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; battle attested in Sinai-campaign histories — entry not yet checked on the page"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-wave2
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

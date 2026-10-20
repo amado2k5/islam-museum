@@ -1,0 +1,23 @@
+id: event/battle-of-zafar-632
+class: event
+kind: battle
+label: { ar: "معركة ظفر", en: "Battle of Zafar" }
+summary:
+  ar: "بطاقة أولية لمعركة ظفر سنة ٦٣٢م، هزيمة خالد بن الوليد لعياض بن غنم في حروب الردة؛ لم تُراجع مصادره على الصفحة بعد."
+  en: "Draft card for the Battle of Zafar in 632, Khalid ibn al-Walid's defeat of Iyad ibn Ghanm's rebels in the Ridda wars; its sources are not yet checked on the page."
+wings: [time]
+periods: [period/rashidun]
+regions: [arabia]
+date:
+  start: { edtf: "632", precision: year, status: tradition, derived: true }
+  end: { edtf: "632", precision: year, status: tradition, derived: true }
+sources: [source/tarikh-al-tabari]
+external_ids:
+  wikidata: Q3696172
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; battle attested in Ridda-war histories — entry not yet checked on the page"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-wave2
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

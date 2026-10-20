@@ -1,0 +1,23 @@
+id: event/battle-of-mecca-1813
+class: event
+kind: conquest
+label: { ar: "معركة مكة (١٨١٣)", en: "Battle of Mecca" }
+summary:
+  ar: "بطاقة أولية لمعركة مكة سنة ١٨١٣م، استرداد العثمانيين لبيت الله من الدولة السعودية الأولى؛ لم تُراجع مصادره على الصفحة بعد."
+  en: "Draft card for the Battle of Mecca in 1813, the Ottoman recapture of the sanctuary from the first Saudi state; its sources are not yet checked on the page."
+wings: [time]
+periods: [period/colonial-era]
+regions: [arabia]
+date:
+  start: { edtf: "1813", precision: year, status: tradition, derived: true }
+  end: { edtf: "1813", precision: year, status: tradition, derived: true }
+sources: [source/dawlat-uthmaniyya-salabi]
+external_ids:
+  wikidata: Q3608484
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; battle attested in Ottoman-Saudi war histories — entry not yet checked on the page"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-wave2
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }
