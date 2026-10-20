@@ -5,7 +5,7 @@
  "candidates_file": "$HARVEST/wikidata-import/candidates.tsv",
  "candidates_query": "select distinct id from wd_claim where property='P140' and value_id='Q432' minus Wikidata ids already linked in data/, ordered by sitelink count desc",
  "linked_preexisting": 987,
- "next_index": 9160,
+ "next_index": 9260,
  "created_ids": [
   {
    "i": 24,
@@ -9383,6 +9383,331 @@
    "i": 9159,
    "qid": "Q136093566",
    "id": "person/tavukcubashi-damadi-mustafa-efendi"
+  },
+  {
+   "i": 9161,
+   "qid": "Q136093571",
+   "id": "person/dahki-mustafa-efendi"
+  },
+  {
+   "i": 9162,
+   "qid": "Q136093577",
+   "id": "person/sehdi-osman-efendi"
+  },
+  {
+   "i": 9163,
+   "qid": "Q136093596",
+   "id": "person/vehbi-osman-celebi"
+  },
+  {
+   "i": 9165,
+   "qid": "Q136093598",
+   "id": "person/hafiz-komur-efendi"
+  },
+  {
+   "i": 9169,
+   "qid": "Q136093606",
+   "id": "person/nazim-mustafa-efendi"
+  },
+  {
+   "i": 9172,
+   "qid": "Q136093613",
+   "id": "person/kucuk-muezzin-mehmed-efendi"
+  },
+  {
+   "i": 9173,
+   "qid": "Q136093617",
+   "id": "person/dervish-sadayi"
+  },
+  {
+   "i": 9174,
+   "qid": "Q136093618",
+   "id": "person/hafiz-kumral"
+  },
+  {
+   "i": 9175,
+   "qid": "Q136093621",
+   "id": "person/yakubzade-mehmed-efendi"
+  },
+  {
+   "i": 9176,
+   "qid": "Q136093623",
+   "id": "person/karaoglan-mustafa-efendi"
+  },
+  {
+   "i": 9177,
+   "qid": "Q136093626",
+   "id": "person/dervish-omer-efendi"
+  },
+  {
+   "i": 9178,
+   "qid": "Q136093627",
+   "id": "person/yusuf-dede-efendi"
+  },
+  {
+   "i": 9179,
+   "qid": "Q136093634",
+   "id": "person/hocazade-mehmed-enveri"
+  },
+  {
+   "i": 9182,
+   "qid": "Q136093639",
+   "id": "person/talib-efendi"
+  },
+  {
+   "i": 9184,
+   "qid": "Q136093642",
+   "id": "person/catalsakal-mustafa-efendi"
+  },
+  {
+   "i": 9187,
+   "qid": "Q136093813",
+   "id": "person/jalal-amasi"
+  },
+  {
+   "i": 9188,
+   "qid": "Q136093815",
+   "id": "person/jalalzade-muhyiddin-amasi"
+  },
+  {
+   "i": 9189,
+   "qid": "Q136093828",
+   "id": "person/fanari-hasan-celebi"
+  },
+  {
+   "i": 9191,
+   "qid": "Q136093865",
+   "id": "person/sucudi-celebi"
+  },
+  {
+   "i": 9192,
+   "qid": "Q136093881",
+   "id": "person/jalalzade-salih-celebi"
+  },
+  {
+   "i": 9193,
+   "qid": "Q136093890",
+   "id": "person/vahdi-efendi"
+  },
+  {
+   "i": 9194,
+   "qid": "Q136093910",
+   "id": "person/keshfi-mehmed-celebi"
+  },
+  {
+   "i": 9196,
+   "qid": "Q136098523",
+   "id": "person/mehmed-nazmi-efendi"
+  },
+  {
+   "i": 9200,
+   "qid": "Q136099374",
+   "id": "person/corlulu-zarifi"
+  },
+  {
+   "i": 9201,
+   "qid": "Q136099378",
+   "id": "person/emrullah-emri"
+  },
+  {
+   "i": 9202,
+   "qid": "Q136099379",
+   "id": "person/subhizade-feyzi"
+  },
+  {
+   "i": 9203,
+   "qid": "Q136099380",
+   "id": "person/gufti"
+  },
+  {
+   "i": 9204,
+   "qid": "Q136099381",
+   "id": "person/hayali-yi-evvel"
+  },
+  {
+   "i": 9205,
+   "qid": "Q136099383",
+   "id": "person/haziq"
+  },
+  {
+   "i": 9206,
+   "qid": "Q136099385",
+   "id": "person/qabuli"
+  },
+  {
+   "i": 9207,
+   "qid": "Q136099387",
+   "id": "person/mostarli-hasan-ziyai"
+  },
+  {
+   "i": 9208,
+   "qid": "Q136099389",
+   "id": "person/peshteli-hisali"
+  },
+  {
+   "i": 9209,
+   "qid": "Q136099392",
+   "id": "person/rahmi"
+  },
+  {
+   "i": 9210,
+   "qid": "Q136099395",
+   "id": "person/sabit-poet"
+  },
+  {
+   "i": 9211,
+   "qid": "Q136099396",
+   "id": "person/sabri"
+  },
+  {
+   "i": 9212,
+   "qid": "Q136099397",
+   "id": "person/sehabi"
+  },
+  {
+   "i": 9213,
+   "qid": "Q136099399",
+   "id": "person/simkeshzade-feyzi"
+  },
+  {
+   "i": 9214,
+   "qid": "Q136099400",
+   "id": "person/prizrenli-shemi"
+  },
+  {
+   "i": 9215,
+   "qid": "Q136099405",
+   "id": "person/vahyi"
+  },
+  {
+   "i": 9216,
+   "qid": "Q136099406",
+   "id": "person/hamidizade-jalili"
+  },
+  {
+   "i": 9217,
+   "qid": "Q136099409",
+   "id": "person/sadi-yi-jem"
+  },
+  {
+   "i": 9218,
+   "qid": "Q136099411",
+   "id": "person/jinani"
+  },
+  {
+   "i": 9219,
+   "qid": "Q136099413",
+   "id": "person/khalifezade-tahir-efendi"
+  },
+  {
+   "i": 9220,
+   "qid": "Q136099415",
+   "id": "person/divitcizade-mehmed-efendi"
+  },
+  {
+   "i": 9221,
+   "qid": "Q136099418",
+   "id": "person/kogacizade-mehmed-efendi"
+  },
+  {
+   "i": 9222,
+   "qid": "Q136099419",
+   "id": "person/hasan-kenzi"
+  },
+  {
+   "i": 9223,
+   "qid": "Q136099428",
+   "id": "person/dervish-musa"
+  },
+  {
+   "i": 9224,
+   "qid": "Q136099431",
+   "id": "person/ebezade-mustafa-efendi"
+  },
+  {
+   "i": 9225,
+   "qid": "Q136099434",
+   "id": "person/niznam-yusuf-celebi"
+  },
+  {
+   "i": 9228,
+   "qid": "Q136099438",
+   "id": "person/qazzaz-hasan-celebi"
+  },
+  {
+   "i": 9231,
+   "qid": "Q136099446",
+   "id": "person/kucek-mustafa-dede-efendi"
+  },
+  {
+   "i": 9232,
+   "qid": "Q136099447",
+   "id": "person/calakzade-mustafa-efendi"
+  },
+  {
+   "i": 9233,
+   "qid": "Q136099448",
+   "id": "person/comlekcizade-receb-celebi"
+  },
+  {
+   "i": 9234,
+   "qid": "Q136099451",
+   "id": "person/seyyid-nuh"
+  },
+  {
+   "i": 9235,
+   "qid": "Q136099453",
+   "id": "person/mehmed-tului-efendi"
+  },
+  {
+   "i": 9242,
+   "qid": "Q136099484",
+   "id": "person/bezcizade-mehmed-muhyiddin"
+  },
+  {
+   "i": 9245,
+   "qid": "Q136099499",
+   "id": "person/bedri-mehmed-efendi"
+  },
+  {
+   "i": 9246,
+   "qid": "Q136099500",
+   "id": "person/mehmed-emin-belig"
+  },
+  {
+   "i": 9247,
+   "qid": "Q136099509",
+   "id": "person/yanyali-esad-efendi"
+  },
+  {
+   "i": 9250,
+   "qid": "Q136099557",
+   "id": "person/izzet-ali-pasha"
+  },
+  {
+   "i": 9251,
+   "qid": "Q136099558",
+   "id": "person/izzeti-mehmed-efendi"
+  },
+  {
+   "i": 9252,
+   "qid": "Q136099559",
+   "id": "person/izzi-suleyman-efendi"
+  },
+  {
+   "i": 9253,
+   "qid": "Q136099566",
+   "id": "person/qutb-al-dinzade-izniki"
+  },
+  {
+   "i": 9258,
+   "qid": "Q136099830",
+   "id": "person/abu-bakr-ibn-bahram"
+  },
+  {
+   "i": 9259,
+   "qid": "Q136099831",
+   "id": "person/mustafa-sami-bey"
   }
  ],
  "linked_ids": [
@@ -45847,9 +46172,184 @@
    9158,
    "Q136093564",
    "modern/post-1800/out-of-scope/deferred/insufficient"
+  ],
+  [
+   9160,
+   "Q136093569",
+   "modern/post-1800/out-of-scope/deferred/insufficient"
+  ],
+  [
+   9164,
+   "Q136093597",
+   "modern/post-1800/out-of-scope/deferred/insufficient"
+  ],
+  [
+   9166,
+   "Q136093602",
+   "modern/post-1800/out-of-scope/deferred/insufficient"
+  ],
+  [
+   9167,
+   "Q136093603",
+   "modern/post-1800/out-of-scope/deferred/insufficient"
+  ],
+  [
+   9168,
+   "Q136093605",
+   "modern/post-1800/out-of-scope/deferred/insufficient"
+  ],
+  [
+   9170,
+   "Q136093607",
+   "modern/post-1800/out-of-scope/deferred/insufficient"
+  ],
+  [
+   9171,
+   "Q136093612",
+   "modern/post-1800/out-of-scope/deferred/insufficient"
+  ],
+  [
+   9180,
+   "Q136093635",
+   "modern/post-1800/out-of-scope/deferred/insufficient"
+  ],
+  [
+   9181,
+   "Q136093638",
+   "modern/post-1800/out-of-scope/deferred/insufficient"
+  ],
+  [
+   9183,
+   "Q136093640",
+   "modern/post-1800/out-of-scope/deferred/insufficient"
+  ],
+  [
+   9185,
+   "Q136093784",
+   "modern/post-1800/out-of-scope/deferred/insufficient"
+  ],
+  [
+   9186,
+   "Q136093802",
+   "modern/post-1800/out-of-scope/deferred/insufficient"
+  ],
+  [
+   9190,
+   "Q136093861",
+   "modern/post-1800/out-of-scope/deferred/insufficient"
+  ],
+  [
+   9195,
+   "Q136093914",
+   "modern/post-1800/out-of-scope/deferred/insufficient"
+  ],
+  [
+   9197,
+   "Q136098579",
+   "modern/post-1800/out-of-scope/deferred/insufficient"
+  ],
+  [
+   9198,
+   "Q136098586",
+   "modern/post-1800/out-of-scope/deferred/insufficient"
+  ],
+  [
+   9199,
+   "Q136098587",
+   "modern/post-1800/out-of-scope/deferred/insufficient"
+  ],
+  [
+   9226,
+   "Q136099436",
+   "modern/post-1800/out-of-scope/deferred/insufficient"
+  ],
+  [
+   9227,
+   "Q136099437",
+   "modern/post-1800/out-of-scope/deferred/insufficient"
+  ],
+  [
+   9229,
+   "Q136099440",
+   "modern/post-1800/out-of-scope/deferred/insufficient"
+  ],
+  [
+   9230,
+   "Q136099442",
+   "modern/post-1800/out-of-scope/deferred/insufficient"
+  ],
+  [
+   9236,
+   "Q136099456",
+   "modern/post-1800/out-of-scope/deferred/insufficient"
+  ],
+  [
+   9237,
+   "Q136099458",
+   "modern/post-1800/out-of-scope/deferred/insufficient"
+  ],
+  [
+   9238,
+   "Q136099462",
+   "modern/post-1800/out-of-scope/deferred/insufficient"
+  ],
+  [
+   9239,
+   "Q136099465",
+   "modern/post-1800/out-of-scope/deferred/insufficient"
+  ],
+  [
+   9240,
+   "Q136099466",
+   "modern/post-1800/out-of-scope/deferred/insufficient"
+  ],
+  [
+   9241,
+   "Q136099477",
+   "modern/post-1800/out-of-scope/deferred/insufficient"
+  ],
+  [
+   9243,
+   "Q136099489",
+   "modern/post-1800/out-of-scope/deferred/insufficient"
+  ],
+  [
+   9244,
+   "Q136099497",
+   "modern/post-1800/out-of-scope/deferred/insufficient"
+  ],
+  [
+   9248,
+   "Q136099522",
+   "modern/post-1800/out-of-scope/deferred/insufficient"
+  ],
+  [
+   9249,
+   "Q136099526",
+   "modern/post-1800/out-of-scope/deferred/insufficient"
+  ],
+  [
+   9254,
+   "Q136099568",
+   "modern/post-1800/out-of-scope/deferred/insufficient"
+  ],
+  [
+   9255,
+   "Q136099771",
+   "modern/post-1800/out-of-scope/deferred/insufficient"
+  ],
+  [
+   9256,
+   "Q136099828",
+   "modern/post-1800/out-of-scope/deferred/insufficient"
+  ],
+  [
+   9257,
+   "Q136099829",
+   "modern/post-1800/out-of-scope/deferred/insufficient"
   ]
  ],
- "skipped_total": 6602,
+ "skipped_total": 6637,
  "skipped_by_reason": {
   "modern sovereign state; no matching record (al-Hind region is a different entity)": 1,
   "modern sovereign state; no matching record": 8,
@@ -47623,12 +48123,12 @@
   "Ankara mosque; deferred": 1,
   "modern/post-1800/out-of-scope/insufficient": 70,
   "modern/post-1800/out-of-scope/mosque-deferred/insufficient": 152,
-  "modern/post-1800/out-of-scope/deferred/insufficient": 4416,
+  "modern/post-1800/out-of-scope/deferred/insufficient": 4451,
   "alternate Wikidata item; Q11903928 already linked to person/abu-al-baqa-khalid-hafsid": 1,
   "identity ambiguous: Wikidata item labeled Makhdum I but carries Makhdum II dates (1531-1620)": 1
  },
  "last_commit": "d6d413304",
  "last_push": "b35a3b40c",
  "batch_current": 7,
- "updated_at": "2026-10-19T21:44:46-04:00"
+ "updated_at": "2026-10-19T21:50:29-04:00"
 }
