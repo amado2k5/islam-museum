@@ -1,0 +1,23 @@
+id: event/sieges-of-ceuta-1694
+class: event
+kind: siege
+label: { ar: "حصارات سبتة (١٦٩٤-١٧٢٧)", en: "Sieges of Ceuta" }
+summary:
+  ar: "بطاقة أولية لحصارات سبتة من ١٦٩٤ إلى ١٧٢٧م، محاصرة السلطان إسماعيل للمدينة الإسبانية ثلاثة عقود؛ لم تُراجع مصادره على الصفحة بعد."
+  en: "Draft card for the Sieges of Ceuta of 1694–1727, Sultan Ismail's three-decade blockade of the Spanish enclave; its sources are not yet checked on the page."
+wings: [time]
+periods: [period/gunpowder-empires]
+regions: [maghreb]
+date:
+  start: { edtf: "1694", precision: year, status: tradition, derived: true }
+  end: { edtf: "1727", precision: year, status: tradition, derived: true }
+sources: [source/tarikh-islam-hasan-ibrahim]
+external_ids:
+  wikidata: Q18149882
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; sieges attested in Alaouite histories — entry not yet checked on the page"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-wave2
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

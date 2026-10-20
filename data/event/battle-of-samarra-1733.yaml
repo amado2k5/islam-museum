@@ -1,0 +1,23 @@
+id: event/battle-of-samarra-1733
+class: event
+kind: battle
+label: { ar: "معركة سامراء (١٧٣٣)", en: "Battle of Samarra" }
+summary:
+  ar: "بطاقة أولية لمعركة سامراء سنة ١٧٣٣م، نصر نادر شاه على طوبال عثمان في حرب العراق؛ لم تُراجع مصادره على الصفحة بعد."
+  en: "Draft card for the Battle of Samarra in 1733, Nader Shah's victory over Topal Osman in the Iraqi war; its sources are not yet checked on the page."
+wings: [time]
+periods: [period/gunpowder-empires]
+regions: [levant-iraq]
+date:
+  start: { edtf: "1733", precision: year, status: tradition, derived: true }
+  end: { edtf: "1733", precision: year, status: tradition, derived: true }
+sources: [source/tarikh-islam-hasan-ibrahim]
+external_ids:
+  wikidata: Q18162704
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; battle attested in Afsharid histories — entry not yet checked on the page"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-wave2
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

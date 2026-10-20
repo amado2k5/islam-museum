@@ -1,0 +1,23 @@
+id: event/battle-of-valdejunquera-920
+class: event
+kind: battle
+label: { ar: "معركة خونكيرا", en: "Battle of Valdejunquera" }
+summary:
+  ar: "بطاقة أولية لمعركة خونكيرا سنة ٩٢٠م، نصر عبد الرحمن الثالث على ليون وناورة في أولى حملاته؛ لم تُراجع مصادره على الصفحة بعد."
+  en: "Draft card for the Battle of Valdejunquera in 920, Abd al-Rahman III's victory over León and Navarre in his first campaign; its sources are not yet checked on the page."
+wings: [time]
+periods: [period/buyid-seljuk-fatimid-era]
+regions: [andalus-europe]
+date:
+  start: { edtf: "920", precision: year, status: tradition, derived: true }
+  end: { edtf: "920", precision: year, status: tradition, derived: true }
+sources: [source/tarikh-islam-hasan-ibrahim]
+external_ids:
+  wikidata: Q1511005
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; battle attested in Cordoban histories — entry not yet checked on the page"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-wave2
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }
