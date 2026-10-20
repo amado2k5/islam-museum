@@ -55,7 +55,7 @@ describe("build-graph", () => {
     expect(n.span!.latest).toBeCloseTo(1037.5, 0);
   });
   it("marks unwritten targets as stubs and attaches prose by language", () => {
-    expect(c.nodes.find((x) => x.id === "work/kitab-al-shifa")!.stub).toBe(true);
+    expect(c.nodes.find((x) => x.id === "work/sharh-sahih-muslim-al-nawawi")!.stub).toBe(true);
     expect(Object.keys(c.nodes.find((x) => x.id === "person/ibn-sina")!.prose).sort()).toEqual(["ar", "en", "ur"]);
   });
   it("derives timeline and map layers (GeoJSON is [lon, lat])", () => {
