@@ -1,0 +1,23 @@
+id: event/siege-of-daman-1581
+class: event
+kind: siege
+label: { ar: "حصار دامان (١٥٨١)", en: "Siege of Daman (1581)" }
+summary:
+  ar: "بطاقة أولية لحصار دامان سنة ١٥٨١م، من صراع المغول والبرتغاليين؛ لم تُراجع مصادره على الصفحة بعد."
+  en: "Draft card for the Siege of Daman in 1581, of the Mughal–Portuguese struggle; its sources are not yet checked on the page."
+wings: [time]
+periods: [period/gunpowder-empires]
+regions: [south-asia]
+date:
+  start: { edtf: "1581", precision: year, status: tradition, derived: true }
+  end: { edtf: "1581", precision: year, status: tradition, derived: true }
+sources: [source/tarikh-islam-hasan-ibrahim]
+external_ids:
+  wikidata: Q116687231
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; battle attested in narrative histories — entry not yet checked on the page"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-wave2
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }
