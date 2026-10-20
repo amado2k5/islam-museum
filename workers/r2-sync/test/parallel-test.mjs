@@ -20,7 +20,9 @@ const FILES = process.env.FILES === undefined || process.env.FILES === "all" ? s
 const PARALLEL = Number(process.env.PARALLEL ?? 10);
 const bucket = process.env.BUCKET ?? "islam-museum-sync-test";
 const endpoint = process.env.ENDPOINT;
-const url = process.env.SYNC_URL;
+// Comma-separated Worker URLs. Archives are spread across them in turn. Falls back to SYNC_URL.
+const urls = (process.env.SYNC_URLS ?? process.env.SYNC_URL ?? "").split(",").filter(Boolean);
+const url = urls[0];
 const token = process.env.SYNC_TOKEN;
 if (bucket === "islam-museum-search") throw new Error("refusing to run against the production bucket");
 
@@ -72,6 +74,7 @@ let inflight = 0;
 let peak = 0;
 const results = [];
 const queue = archives.map((a) => a.name);
+const workerFor = new Map(archives.map((a, i) => [a.name, urls[i % urls.length]]));
 const MAX_ATTEMPTS = 3;
 // One archive: post it, and retry after a connection reset (ECONNRESET) or a
 // transient response. A retry re-applies the same archive, which is harmless.
@@ -82,7 +85,8 @@ async function postArchive(name) {
     for (let attempt = 1; attempt <= MAX_ATTEMPTS; attempt += 1) {
       const began = Date.now();
       try {
-        const res = await fetch(`${url}/process`, {
+        const target = workerFor.get(name);
+        const res = await fetch(`${target}/process`, {
           method: "POST",
           headers: { authorization: `Bearer ${token}`, "content-type": "application/json" },
           body: JSON.stringify({ archive: `${STAGING}${name}` }),
@@ -90,7 +94,7 @@ async function postArchive(name) {
         });
         const report = await res.json();
         const secs = ((Date.now() - began) / 1000).toFixed(1);
-        console.log(`[${name}] attempt ${attempt}: HTTP ${res.status} after ${secs} s: ${JSON.stringify(report.summary ?? report)}`);
+        console.log(`[${name}] ${new URL(target).host} attempt ${attempt}: HTTP ${res.status} after ${secs} s: ${JSON.stringify(report.summary ?? report)}`);
         if (res.status === 200 || attempt === MAX_ATTEMPTS) {
           results.push({ name, status: res.status, report, attempts: attempt });
           return;
@@ -98,7 +102,7 @@ async function postArchive(name) {
       } catch (err) {
         const reason = err.cause?.code ?? err.cause?.message ?? err.message;
         const secs = ((Date.now() - began) / 1000).toFixed(1);
-        console.log(`[${name}] attempt ${attempt}: NETWORK ERROR after ${secs} s: ${reason}`);
+        console.log(`[${name}] ${new URL(target).host} attempt ${attempt}: NETWORK ERROR after ${secs} s: ${reason}`);
         if (attempt === MAX_ATTEMPTS) {
           results.push({ name, status: "network-error", report: { error: String(reason) }, attempts: attempt });
           return;
