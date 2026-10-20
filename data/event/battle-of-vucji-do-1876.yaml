@@ -1,0 +1,23 @@
+id: event/battle-of-vucji-do-1876
+class: event
+kind: battle
+label: { ar: "معركة فوتشي دو", en: "Battle of Vučji Do" }
+summary:
+  ar: "بطاقة أولية لمعركة فوتشي دو سنة ١٨٧٦م، نصر مونتنيغرو على الجيش العثماني في حرب الاستقلال؛ لم تُراجع مصادره على الصفحة بعد."
+  en: "Draft card for the Battle of Vučji Do in 1876, Montenegro's victory over the Ottoman army in the independence war; its sources are not yet checked on the page."
+wings: [time]
+periods: [period/colonial-era]
+regions: [anatolia-balkans]
+date:
+  start: { edtf: "1876", precision: year, status: tradition, derived: true }
+  end: { edtf: "1876", precision: year, status: tradition, derived: true }
+sources: [source/dawlat-uthmaniyya-salabi]
+external_ids:
+  wikidata: Q2586933
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; battle attested in Montenegrin histories — entry not yet checked on the page"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-wave2
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

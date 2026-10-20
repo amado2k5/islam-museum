@@ -1,0 +1,23 @@
+id: event/battle-of-marj-al-saffar-1126
+class: event
+kind: battle
+label: { ar: "معركة مرج الصفر", en: "Battle of Marj al-Saffar" }
+summary:
+  ar: "بطاقة أولية لمعركة مرج الصفر سنة ١١٢٦م، نصر طغتكين والدمشقيين على بالدوين الثاني الفرنجي؛ لم تُراجع مصادره على الصفحة بعد."
+  en: "Draft card for the Battle of Marj al-Saffar in 1126, Tughtakin's Damascene victory over Baldwin II's Crusaders; its sources are not yet checked on the page."
+wings: [time]
+periods: [period/crusades-ayyubid-mamluk]
+regions: [levant-iraq]
+date:
+  start: { edtf: "1126", precision: year, status: tradition, derived: true }
+  end: { edtf: "1126", precision: year, status: tradition, derived: true }
+sources: [source/kamil-ibn-al-athir]
+external_ids:
+  wikidata: Q2396752
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; battle attested in Crusades histories — entry not yet checked on the page"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-wave2
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }
