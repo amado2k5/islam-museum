@@ -1,0 +1,23 @@
+id: event/siege-of-belgrade-1688
+class: event
+kind: siege
+label: { ar: "حصار بلغراد (١٦٨٨)", en: "Siege of Belgrade" }
+summary:
+  ar: "بطاقة أولية لحصار بلغراد سنة ١٦٨٨م، أخذ النمساويين للمدينة من العثمانيين بعد فيينا؛ لم تُراجع مصادره على الصفحة بعد."
+  en: "Draft card for the Siege of Belgrade in 1688, the Habsburg capture of the city after Vienna; its sources are not yet checked on the page."
+wings: [time]
+periods: [period/gunpowder-empires]
+regions: [anatolia-balkans]
+date:
+  start: { edtf: "1688", precision: year, status: tradition, derived: true }
+  end: { edtf: "1688", precision: year, status: tradition, derived: true }
+sources: [source/dawlat-uthmaniyya-salabi]
+external_ids:
+  wikidata: Q699902
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; siege attested in Habsburg-Ottoman histories — entry not yet checked on the page"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-wave2
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

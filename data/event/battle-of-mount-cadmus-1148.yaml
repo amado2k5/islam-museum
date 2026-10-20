@@ -1,0 +1,23 @@
+id: event/battle-of-mount-cadmus-1148
+class: event
+kind: battle
+label: { ar: "معركة جبل قدموس", en: "Battle of Mount Cadmus" }
+summary:
+  ar: "بطاقة أولية لمعركة جبل قدموس سنة ١١٤٨م، كمين السلاجقة لجيش لويس السابع في الحملة الثانية؛ لم تُراجع مصادره على الصفحة بعد."
+  en: "Draft card for the Battle of Mount Cadmus in 1148, the Seljuk ambush of Louis VII's army in the Second Crusade; its sources are not yet checked on the page."
+wings: [time]
+periods: [period/crusades-ayyubid-mamluk]
+regions: [anatolia-balkans]
+date:
+  start: { edtf: "1148", precision: year, status: tradition, derived: true }
+  end: { edtf: "1148", precision: year, status: tradition, derived: true }
+sources: [source/kamil-ibn-al-athir]
+external_ids:
+  wikidata: Q4871798
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; battle attested in Crusades histories — entry not yet checked on the page"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-wave2
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

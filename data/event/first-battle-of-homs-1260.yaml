@@ -1,0 +1,23 @@
+id: event/first-battle-of-homs-1260
+class: event
+kind: battle
+label: { ar: "معركة حمص الأولى", en: "First Battle of Homs" }
+summary:
+  ar: "بطاقة أولية لمعركة حمص الأولى سنة ١٢٦٠م، نصر المماليك على المغول بعد عين جالوت؛ لم تُراجع مصادره على الصفحة بعد."
+  en: "Draft card for the First Battle of Homs in 1260, the Mamluk victory over the Mongols after Ain Jalut; its sources are not yet checked on the page."
+wings: [time]
+periods: [period/crusades-ayyubid-mamluk]
+regions: [levant-iraq]
+date:
+  start: { edtf: "1260", precision: year, status: tradition, derived: true }
+  end: { edtf: "1260", precision: year, status: tradition, derived: true }
+sources: [source/kamil-ibn-al-athir]
+external_ids:
+  wikidata: Q939358
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; battle attested in Mamluk histories — entry not yet checked on the page"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-wave2
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

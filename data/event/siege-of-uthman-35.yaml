@@ -1,0 +1,23 @@
+id: event/siege-of-uthman-35
+class: event
+kind: siege
+label: { ar: "حصار عثمان", en: "Siege of Uthman" }
+summary:
+  ar: "بطاقة أولية لحصار دار عثمان بن عفان سنة ٣٥هـ/٦٥٦م، محاصرة الثائرين للخليفة في داره حتى قتله؛ لم تُراجع مصادره على الصفحة بعد."
+  en: "Draft card for the siege of Uthman's house in 35/656, the rebels' blockade of the caliph that ended in his killing; its sources are not yet checked on the page."
+wings: [time]
+periods: [period/rashidun]
+regions: [arabia]
+date:
+  start: { edtf: "656", precision: year, status: tradition, derived: true }
+  end: { edtf: "656", precision: year, status: tradition, derived: true }
+sources: [source/tarikh-al-tabari]
+external_ids:
+  wikidata: Q3625539
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; siege attested in the early-fitna histories — entry not yet checked on the page"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-wave2
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

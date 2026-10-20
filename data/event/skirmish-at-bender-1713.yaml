@@ -1,0 +1,23 @@
+id: event/skirmish-at-bender-1713
+class: event
+kind: skirmish
+label: { ar: "حادثة بندر", en: "Skirmish at Bender" }
+summary:
+  ar: "بطاقة أولية لحادثة بندر (القلق أت) سنة ١٧١٣م، اشتباك العثمانيين مع كارل الثاني عشر في منفاه المولدافي؛ لم تُراجع مصادره على الصفحة بعد."
+  en: "Draft card for the Skirmish at Bender (Kalabalik) in 1713, the Ottoman clash with the exiled Charles XII in Moldavia; its sources are not yet checked on the page."
+wings: [time]
+periods: [period/gunpowder-empires]
+regions: [anatolia-balkans]
+date:
+  start: { edtf: "1713", precision: year, status: tradition, derived: true }
+  end: { edtf: "1713", precision: year, status: tradition, derived: true }
+sources: [source/dawlat-uthmaniyya-salabi]
+external_ids:
+  wikidata: Q638601
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; skirmish attested in Ottoman histories — entry not yet checked on the page"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-wave2
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

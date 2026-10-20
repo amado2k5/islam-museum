@@ -1,0 +1,23 @@
+id: event/battle-of-lule-burgas-1912
+class: event
+kind: battle
+label: { ar: "معركة لول بورغاس", en: "Battle of Lule Burgas" }
+summary:
+  ar: "بطاقة أولية لمعركة لول بورغاس سنة ١٩١٢م، نصر بلغاريا الكبير على العثمانيين الذي قربهم من إسطنبول؛ لم تُراجع مصادره على الصفحة بعد."
+  en: "Draft card for the Battle of Lule Burgas in 1912, Bulgaria's great victory that brought its army near Constantinople; its sources are not yet checked on the page."
+wings: [time]
+periods: [period/modern-era]
+regions: [anatolia-balkans]
+date:
+  start: { edtf: "1912", precision: year, status: tradition, derived: true }
+  end: { edtf: "1912", precision: year, status: tradition, derived: true }
+sources: [source/dawlat-uthmaniyya-salabi]
+external_ids:
+  wikidata: Q1445532
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; battle attested in Balkan histories — entry not yet checked on the page"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-wave2
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

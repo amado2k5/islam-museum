@@ -1,0 +1,23 @@
+id: event/french-invasion-of-algiers-1830
+class: event
+kind: conquest
+label: { ar: "غزو الجزائر (١٨٣٠)", en: "French invasion of Algiers" }
+summary:
+  ar: "بطاقة أولية للغزو الفرنسي للجزائر سنة ١٨٣٠م، إنزال الجيش الفرنسي الذي أسقط داي الجزائر وفتح استعمار المغرب العربي؛ لم تُراجع مصادره على الصفحة بعد."
+  en: "Draft card for the French invasion of Algiers in 1830, the landing that toppled the Dey and opened the colonization of the Maghreb; its sources are not yet checked on the page."
+wings: [time]
+periods: [period/colonial-era]
+regions: [maghreb]
+date:
+  start: { edtf: "1830", precision: year, status: tradition, derived: true }
+  end: { edtf: "1830", precision: year, status: tradition, derived: true }
+sources: [source/tarikh-islam-hasan-ibrahim]
+external_ids:
+  wikidata: Q3317226
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; invasion attested in Algerian histories — entry not yet checked on the page"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-wave2
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }
