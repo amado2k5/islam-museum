@@ -1,0 +1,58 @@
+# Test workflow: builds the site and prints dist file counts. Does not deploy.
+name: dist file count (test)
+
+on:
+  push:
+    branches: [ci/dist-file-count]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  count:
+    runs-on: ubuntu-latest
+    timeout-minutes: 60
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+          cache-dependency-path: |
+            package-lock.json
+            site/package-lock.json
+      - name: Install
+        run: npm ci && npm ci --prefix site
+      - name: Build
+        run: npm run build
+      - name: Count dist files
+        run: |
+          cd dist
+          {
+            echo "## dist file count"
+            echo
+            echo "Total files: $(find . -type f | wc -l)"
+            echo "Total size: $(du -sh . | cut -f1)"
+            echo
+            echo "### By top-level directory"
+            echo '```'
+            find . -type f | awk -F/ '{print $2}' | sort | uniq -c | sort -rn
+            echo '```'
+            echo "### By file extension (top 25)"
+            echo '```'
+            find . -type f | awk -F. '{print tolower($NF)}' | sort | uniq -c | sort -rn | head -25
+            echo '```'
+            echo "### HTML pages by language and class (lang/class, top 60)"
+            echo '```'
+            find . -name index.html | awk -F/ '{print $2"/"$3}' | sort | uniq -c | sort -rn | head -60
+            echo '```'
+            echo "### Non-HTML files outside the R2-served directories"
+            echo '```'
+            find . -type f ! -name '*.html' ! -path './pagefind-*' ! -path './api/*' | awk -F/ '{print $2}' | sort | uniq -c | sort -rn | head -40
+            echo '```'
+            echo "### Size of each R2-served directory"
+            echo '```'
+            du -sh pagefind-ar pagefind-en pagefind-ur api 2>/dev/null || true
+            echo '```'
+          } | tee -a "$GITHUB_STEP_SUMMARY"
