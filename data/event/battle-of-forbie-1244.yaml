@@ -1,0 +1,23 @@
+id: event/battle-of-forbie-1244
+class: event
+kind: battle
+label: { ar: "معركة الفوربية", en: "Battle of Forbie" }
+summary:
+  ar: "بطاقة أولية لمعركة الفوربية (هربيا) سنة ١٢٤٤م، هزيمة الفرنج وحلفائهم الأيوبيين أمام الخوارزمية والمصريين؛ لم تُراجع مصادره على الصفحة بعد."
+  en: "Draft card for the Battle of Forbie in 1244, the crushing defeat of the Franks and their Ayyubid allies by the Khwarezmians and Egyptians; its sources are not yet checked on the page."
+wings: [time]
+periods: [period/crusades-ayyubid-mamluk]
+regions: [levant-iraq]
+date:
+  start: { edtf: "1244", precision: year, status: tradition, derived: true }
+  end: { edtf: "1244", precision: year, status: tradition, derived: true }
+sources: [source/kamil-ibn-al-athir]
+external_ids:
+  wikidata: Q578201
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; battle attested in Crusades histories — entry not yet checked on the page"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-wave2
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

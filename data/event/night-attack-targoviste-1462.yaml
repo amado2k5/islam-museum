@@ -1,0 +1,23 @@
+id: event/night-attack-targoviste-1462
+class: event
+kind: battle
+label: { ar: "الهجوم الليلي على ترجوفيشت", en: "Night Attack at Târgoviște" }
+summary:
+  ar: "بطاقة أولية للهجوم الليلي على ترجوفيشت سنة ١٤٦٢م، غارة فلاد الثالث على معسكر محمد الفاتح في الأفلاق؛ لم تُراجع مصادره على الصفحة بعد."
+  en: "Draft card for the Night Attack at Târgoviște in 1462, Vlad III's raid on Mehmed the Conqueror's camp in Wallachia; its sources are not yet checked on the page."
+wings: [time]
+periods: [period/crusades-ayyubid-mamluk]
+regions: [anatolia-balkans]
+date:
+  start: { edtf: "1462", precision: year, status: tradition, derived: true }
+  end: { edtf: "1462", precision: year, status: tradition, derived: true }
+sources: [source/dawlat-uthmaniyya-salabi]
+external_ids:
+  wikidata: Q2022139
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; raid attested in Balkan histories — entry not yet checked on the page"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-wave2
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

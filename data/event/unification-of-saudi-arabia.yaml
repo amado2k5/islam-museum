@@ -1,0 +1,23 @@
+id: event/unification-of-saudi-arabia
+class: event
+kind: campaign
+label: { ar: "حروب توحيد السعودية", en: "Unification of Saudi Arabia" }
+summary:
+  ar: "بطاقة أولية لحروب توحيد السعودية، حملات عبد العزيز آل سعود التي جمعت نجد والحجاز وعسير والأحساء في مملكة من ١٩٠٢ إلى ١٩٣٢م؛ لم تُراجع مصادره على الصفحة بعد."
+  en: "Draft card for the wars of Saudi unification, Abd al-Aziz Al Saud's campaigns that joined Najd, the Hijaz, Asir and al-Ahsa into a kingdom between 1902 and 1932; its sources are not yet checked on the page."
+wings: [time]
+periods: [period/modern-era]
+regions: [arabia]
+date:
+  start: { edtf: "1902", precision: year, status: tradition, derived: true }
+  end: { edtf: "1932", precision: year, status: tradition, derived: true }
+sources: [source/al-aalam]
+external_ids:
+  wikidata: Q251600
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; conquest attested in Saudi histories — entry not yet checked on the page"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-wave2
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }
