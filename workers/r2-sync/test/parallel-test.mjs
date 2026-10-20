@@ -69,25 +69,40 @@ let inflight = 0;
 let peak = 0;
 const results = [];
 const queue = archives.map((a) => a.name);
+const MAX_ATTEMPTS = 3;
+// One archive: post it, and retry after a connection reset (ECONNRESET) or a
+// transient response. A retry re-applies the same archive, which is harmless.
 async function postArchive(name) {
   inflight += 1;
   peak = Math.max(peak, inflight);
-  const began = Date.now();
   try {
-    const res = await fetch(`${url}/process`, {
-      method: "POST",
-      headers: { authorization: `Bearer ${token}`, "content-type": "application/json" },
-      body: JSON.stringify({ archive: `${STAGING}${name}` }),
-      signal: AbortSignal.timeout(10 * 60 * 1000),
-    });
-    const report = await res.json();
-    results.push({ name, status: res.status, report });
-    console.log(`[${name}] HTTP ${res.status} after ${((Date.now() - began) / 1000).toFixed(1)} s: ${JSON.stringify(report.summary ?? report)}`);
-  } catch (err) {
-    // Record the failure and carry on, so every archive's outcome shows in the log.
-    const reason = err.cause?.code ?? err.cause?.message ?? err.message;
-    results.push({ name, status: "network-error", report: { error: String(reason) } });
-    console.log(`[${name}] NETWORK ERROR after ${((Date.now() - began) / 1000).toFixed(1)} s: ${reason}`);
+    for (let attempt = 1; attempt <= MAX_ATTEMPTS; attempt += 1) {
+      const began = Date.now();
+      try {
+        const res = await fetch(`${url}/process`, {
+          method: "POST",
+          headers: { authorization: `Bearer ${token}`, "content-type": "application/json" },
+          body: JSON.stringify({ archive: `${STAGING}${name}` }),
+          signal: AbortSignal.timeout(10 * 60 * 1000),
+        });
+        const report = await res.json();
+        const secs = ((Date.now() - began) / 1000).toFixed(1);
+        console.log(`[${name}] attempt ${attempt}: HTTP ${res.status} after ${secs} s: ${JSON.stringify(report.summary ?? report)}`);
+        if (res.status === 200 || attempt === MAX_ATTEMPTS) {
+          results.push({ name, status: res.status, report, attempts: attempt });
+          return;
+        }
+      } catch (err) {
+        const reason = err.cause?.code ?? err.cause?.message ?? err.message;
+        const secs = ((Date.now() - began) / 1000).toFixed(1);
+        console.log(`[${name}] attempt ${attempt}: NETWORK ERROR after ${secs} s: ${reason}`);
+        if (attempt === MAX_ATTEMPTS) {
+          results.push({ name, status: "network-error", report: { error: String(reason) }, attempts: attempt });
+          return;
+        }
+      }
+      await new Promise((resolve) => setTimeout(resolve, 5000));
+    }
   } finally {
     inflight -= 1;
   }

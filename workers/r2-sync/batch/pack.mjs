@@ -6,9 +6,10 @@ import { createHash } from "node:crypto";
 
 const DEFAULT_MAX = 20 * 1024 * 1024;
 // One Worker request applies one archive, and a request that runs much past
-// five minutes is dropped. At the one-at-a-time speed measured on 19 Oct 2026
-// (about 5 operations per second), 500 operations take about 100 seconds.
-const DEFAULT_MAX_OPS = 500;
+// sixty seconds is dropped (test runs of 19 Oct 2026 lost requests at 60 s). At the
+// speed measured then (about 5 operations per second one at a time), 250 operations
+// take about 50 seconds.
+const DEFAULT_MAX_OPS = 250;
 
 const sha = (bytes) => createHash("sha256").update(bytes).digest("hex");
 
