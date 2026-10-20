@@ -1,0 +1,23 @@
+id: event/siege-of-malaga-1487
+class: event
+kind: siege
+label: { ar: "حصار ملقة (١٤٨٧)", en: "Siege of Málaga" }
+summary:
+  ar: "بطاقة أولية لحصار ملقة سنة ١٤٨٧م، سقوط المدينة بيد الملكين الكاثوليكيين؛ لم تُراجع مصادره على الصفحة بعد."
+  en: "Draft card for the Siege of Málaga in 1487, the Catholic Monarchs' capture of the city; its sources are not yet checked on the page."
+wings: [time]
+periods: [period/crusades-ayyubid-mamluk]
+regions: [andalus-europe]
+date:
+  start: { edtf: "1487", precision: year, status: tradition, derived: true }
+  end: { edtf: "1487", precision: year, status: tradition, derived: true }
+sources: [source/tarikh-ibn-khaldun-ibar]
+external_ids:
+  wikidata: Q5103591
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; battle attested in narrative histories — entry not yet checked on the page"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-wave2
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

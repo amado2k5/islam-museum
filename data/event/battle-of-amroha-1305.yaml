@@ -1,0 +1,23 @@
+id: event/battle-of-amroha-1305
+class: event
+kind: battle
+label: { ar: "معركة أمروهة", en: "Battle of Amroha" }
+summary:
+  ar: "بطاقة أولية لمعركة أمروهة سنة ١٣٠٥م، فوز سلطنة دلهي على المغول؛ لم تُراجع مصادره على الصفحة بعد."
+  en: "Draft card for the Battle of Amroha in 1305, the Delhi Sultanate's victory over the Mongols; its sources are not yet checked on the page."
+wings: [time]
+periods: [period/mongol-post-mongol]
+regions: [south-asia]
+date:
+  start: { edtf: "1305", precision: year, status: tradition, derived: true }
+  end: { edtf: "1305", precision: year, status: tradition, derived: true }
+sources: [source/kamil-ibn-al-athir]
+external_ids:
+  wikidata: Q4870295
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; battle attested in narrative histories — entry not yet checked on the page"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-wave2
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

@@ -1,0 +1,23 @@
+id: event/battle-of-zernest-1690
+class: event
+kind: battle
+label: { ar: "معركة زرنشت", en: "Battle of Zernest" }
+summary:
+  ar: "بطاقة أولية لمعركة زرنشت سنة ١٦٩٠م، فوز العثمانيين على النمساويين في ترانسيلفانيا؛ لم تُراجع مصادره على الصفحة بعد."
+  en: "Draft card for the Battle of Zernest in 1690, the Ottoman victory over the Austrians in Transylvania; its sources are not yet checked on the page."
+wings: [time]
+periods: [period/gunpowder-empires]
+regions: [anatolia-balkans]
+date:
+  start: { edtf: "1690", precision: year, status: tradition, derived: true }
+  end: { edtf: "1690", precision: year, status: tradition, derived: true }
+sources: [source/dawlat-uthmaniyya-salabi]
+external_ids:
+  wikidata: Q4872808
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; battle attested in narrative histories — entry not yet checked on the page"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-wave2
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }
