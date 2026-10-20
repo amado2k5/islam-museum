@@ -1,0 +1,23 @@
+id: event/battle-of-hebron-1834
+class: event
+kind: massacre
+label: { ar: "مجزرة الخليل (١٨٣٤)", en: "Battle of Hebron" }
+summary:
+  ar: "بطاقة أولية لأحداث الخليل سنة ١٨٣٤م، إخضاع إبراهيم باشا المدينة وقتل كثير من أهلها في ثورة الفلاحين؛ لم تُراجع مصادره على الصفحة بعد."
+  en: "Draft card for the Hebron events of 1834, Ibrahim Pasha's subjugation of the city killing many townspeople in the peasants' revolt; its sources are not yet checked on the page."
+wings: [time]
+periods: [period/colonial-era]
+regions: [levant-iraq]
+date:
+  start: { edtf: "1834", precision: year, status: tradition, derived: true }
+  end: { edtf: "1834", precision: year, status: tradition, derived: true }
+sources: [source/tarikh-islam-hasan-ibrahim]
+external_ids:
+  wikidata: Q4554399
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; battle attested in narrative histories — entry not yet checked on the page"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-wave2
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }
