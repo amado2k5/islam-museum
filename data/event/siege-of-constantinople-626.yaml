@@ -1,0 +1,23 @@
+id: event/siege-of-constantinople-626
+class: event
+kind: siege
+label: { ar: "حصار القسطنطينية (٦٢٦)", en: "Siege of Constantinople (626)" }
+summary:
+  ar: "بطاقة أولية لحصار القسطنطينية سنة ٦٢٦م، الحملة الساسانية الأفارية الفاشلة على العاصمة البيزنطية في ذروة حربها الأخيرة؛ لم تُراجع مصادره على الصفحة بعد."
+  en: "Draft card for the Siege of Constantinople in 626, the failed Sasanian-Avar assault on the Byzantine capital at the height of their last war; its sources are not yet checked on the page."
+wings: [time]
+periods: [period/pre-islamic-arabia]
+regions: [anatolia-balkans]
+date:
+  start: { edtf: "626", precision: year, status: tradition, derived: true }
+  end: { edtf: "626", precision: year, status: tradition, derived: true }
+sources: [source/tarikh-al-tabari]
+external_ids:
+  wikidata: Q312268
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; siege attested in late-antique histories — entry not yet checked on the page"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-wave2
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

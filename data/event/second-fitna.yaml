@@ -1,0 +1,23 @@
+id: event/second-fitna
+class: event
+kind: war
+label: { ar: "الفتنة الثانية", en: "The Second Fitna" }
+summary:
+  ar: "بطاقة أولية للفتنة الثانية، حروب الأحقاف الأموية بعد موت يزيد من ثورة ابن الزبير إلى رجوع مروان بن الحكم ثم عبد الملك؛ لم تُراجع مصادره على الصفحة بعد."
+  en: "Draft card for the Second Fitna, the civil wars of the late Umayyad house after Yazid's death, from Ibn al-Zubayr's rising to the Marwanid restoration under Abd al-Malik; its sources are not yet checked on the page."
+wings: [time]
+periods: [period/umayyad]
+regions: [levant-iraq]
+date:
+  start: { edtf: "680", precision: year, status: tradition, derived: true }
+  end: { edtf: "692", precision: year, status: tradition, derived: true }
+sources: [source/tarikh-al-tabari]
+external_ids:
+  wikidata: Q3769089
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; fitna attested in Tabari and general histories — entry not yet checked on the page"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-wave2
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

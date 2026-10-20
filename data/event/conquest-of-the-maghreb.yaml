@@ -1,0 +1,23 @@
+id: event/conquest-of-the-maghreb
+class: event
+kind: campaign
+label: { ar: "الفتح الإسلامي للمغرب", en: "Muslim conquest of the Maghreb" }
+summary:
+  ar: "بطاقة أولية للفتح الإسلامي للمغرب، حملات حسان بن النعمان وموسى بن نصير التي ضمت إفريقية وبلاد البربر إلى الدولة بين ٦٧٠ و٧١٠م تقريباً؛ لم تُراجع مصادره على الصفحة بعد."
+  en: "Draft card for the Muslim conquest of the Maghreb, the campaigns of Hassan ibn al-Nu'man and Musa ibn Nusayr that joined Ifriqiya and the Berber lands to the caliphate roughly between 670 and 710; its sources are not yet checked on the page."
+wings: [time]
+periods: [period/umayyad]
+regions: [maghreb]
+date:
+  start: { edtf: "670", precision: year, status: tradition, derived: true }
+  end: { edtf: "710", precision: year, status: tradition, derived: true }
+sources: [source/futuh-buldan-maarif-1407]
+external_ids:
+  wikidata: Q925960
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; conquest attested in Futuh al-Buldan — entry not yet checked on the page"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-wave2
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

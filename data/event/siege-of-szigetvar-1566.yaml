@@ -1,0 +1,23 @@
+id: event/siege-of-szigetvar-1566
+class: event
+kind: siege
+label: { ar: "حصار سيكتوار", en: "Siege of Szigetvár" }
+summary:
+  ar: "بطاقة أولية لحصار سيكتوار سنة ١٥٦٦م، آخر حملات سليمان القانوني التي مات فيها واستشهد مدافعها زريني؛ لم تُراجع مصادره على الصفحة بعد."
+  en: "Draft card for the Siege of Szigetvár in 1566, Suleiman the Magnificent's last campaign, during which he died and the defender Zrínyi fell; its sources are not yet checked on the page."
+wings: [time]
+periods: [period/gunpowder-empires]
+regions: [anatolia-balkans]
+date:
+  start: { edtf: "1566", precision: year, status: tradition, derived: true }
+  end: { edtf: "1566", precision: year, status: tradition, derived: true }
+sources: [source/dawlat-uthmaniyya-salabi]
+external_ids:
+  wikidata: Q606621
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; siege attested in Ottoman-history surveys — entry not yet checked on the page"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-wave2
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

@@ -1,0 +1,23 @@
+id: event/second-serbian-uprising
+class: event
+kind: revolt
+label: { ar: "الانتفاضة الصربية الثانية", en: "Second Serbian Uprising" }
+summary:
+  ar: "بطاقة أولية للانتفاضة الصربية الثانية ضد الحكم العثماني بقيادة ميلوش أوبرينوفيتش من ١٨١٥ إلى ١٨١٧م؛ لم تُراجع مصادرها على الصفحة بعد."
+  en: "Draft card for the Second Serbian Uprising against Ottoman rule under Miloš Obrenović from 1815 to 1817; its sources are not yet checked on the page."
+wings: [time]
+periods: [period/colonial-era]
+regions: [anatolia-balkans]
+date:
+  start: { edtf: "1815", precision: year, status: tradition, derived: true }
+  end: { edtf: "1817", precision: year, status: tradition, derived: true }
+sources: [source/dawlat-uthmaniyya-salabi]
+external_ids:
+  wikidata: Q243585
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; revolt attested in Balkan histories — entry not yet checked on the page"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-wave2
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

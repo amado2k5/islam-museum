@@ -1,0 +1,23 @@
+id: event/siege-of-acre-1189
+class: event
+kind: siege
+label: { ar: "حصار عكا (١١٨٩–١١٩١)", en: "Siege of Acre" }
+summary:
+  ar: "بطاقة أولية لحصار عكا من ١١٨٩ إلى ١١٩١م، وقعة الحملة الصليبية الثالثة التي انتهت باسترداد الفرنج المدينة من صلاح الدين؛ لم تُراجع مصادره على الصفحة بعد."
+  en: "Draft card for the Siege of Acre from 1189 to 1191, the Third Crusade's long investment that ended with the Crusaders retaking the city from Saladin; its sources are not yet checked on the page."
+wings: [time]
+periods: [period/crusades-ayyubid-mamluk]
+regions: [levant-iraq]
+date:
+  start: { edtf: "1189", precision: year, status: tradition, derived: true }
+  end: { edtf: "1191", precision: year, status: tradition, derived: true }
+sources: [source/kamil-ibn-al-athir]
+external_ids:
+  wikidata: Q815116
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; siege attested in Crusades histories — entry not yet checked on the page"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-wave2
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }
