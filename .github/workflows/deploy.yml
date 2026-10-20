@@ -80,7 +80,7 @@ jobs:
       - name: Install R2 sync Worker dependencies
         if: steps.content_gate.outputs.skip == 'false' && github.ref == 'refs/heads/main'
         run: npm ci --prefix workers/r2-sync
-      - name: Deploy R2 sync Worker (production bucket)
+      - name: Deploy R2 sync Workers (production bucket, seven copies)
         id: r2_worker
         if: steps.content_gate.outputs.skip == 'false' && github.ref == 'refs/heads/main'
         working-directory: workers/r2-sync
@@ -90,11 +90,16 @@ jobs:
           SYNC_TOKEN: ${{ secrets.R2_SYNC_TOKEN }}
         run: |
           set -euo pipefail
-          npx wrangler deploy -c wrangler.production.toml | tee deploy.log
-          url=$(grep -o 'https://[^ ]*workers\.dev' deploy.log | head -1)
-          test -n "$url"
-          echo "url=$url" >> "$GITHUB_OUTPUT"
-          printf '%s' "$SYNC_TOKEN" | npx wrangler secret put SYNC_TOKEN -c wrangler.production.toml
+          # Seven identical Workers on the production bucket. Publish spreads archives across them.
+          urls=""
+          for name in islam-museum-r2-sync islam-museum-r2-sync-2 islam-museum-r2-sync-3 islam-museum-r2-sync-4 islam-museum-r2-sync-5 islam-museum-r2-sync-6 islam-museum-r2-sync-7; do
+            npx wrangler deploy -c wrangler.production.toml --name "$name" | tee deploy.log
+            url=$(grep -o 'https://[^ ]*workers\.dev' deploy.log | head -1)
+            test -n "$url"
+            printf '%s' "$SYNC_TOKEN" | npx wrangler secret put SYNC_TOKEN -c wrangler.production.toml --name "$name"
+            urls="${urls:+$urls,}$url"
+          done
+          echo "urls=$urls" >> "$GITHUB_OUTPUT"
       - name: Publish pagefind indexes and API to R2 (zip archives via R2 sync Worker)
         if: steps.content_gate.outputs.skip == 'false' && github.ref == 'refs/heads/main'
         env:
@@ -103,7 +108,7 @@ jobs:
           AWS_DEFAULT_REGION: auto
           ENDPOINT: https://${{ secrets.CLOUDFLARE_ACCOUNT_ID }}.r2.cloudflarestorage.com
           BUCKET: islam-museum-search
-          SYNC_URL: ${{ steps.r2_worker.outputs.url }}
+          SYNC_URLS: ${{ steps.r2_worker.outputs.urls }}
           SYNC_TOKEN: ${{ secrets.R2_SYNC_TOKEN }}
         run: node workers/r2-sync/batch/publish.mjs --dist dist
       - name: Strip R2-served dirs from Pages deployment
