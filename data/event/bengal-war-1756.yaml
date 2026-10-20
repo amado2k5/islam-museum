@@ -1,0 +1,23 @@
+id: event/bengal-war-1756
+class: event
+kind: war
+label: { ar: "حرب البنغال", en: "Bengal War" }
+summary:
+  ar: "بطاقة أولية لحرب البنغال في ١٧٥٦–١٧٦٥م، حملة شركة الهند الشرقية على سراج الدولة وخلفائه؛ لم تُراجع مصادره على الصفحة بعد."
+  en: "Draft card for the Bengal War of 1756–65, the East India Company's campaign against Siraj ud-Daula and his successors; its sources are not yet checked on the page."
+wings: [time]
+periods: [period/gunpowder-empires]
+regions: [south-asia]
+date:
+  start: { edtf: "1756", precision: year, status: tradition, derived: true }
+  end: { edtf: "1765", precision: year, status: tradition, derived: true }
+sources: [source/tarikh-islam-hasan-ibrahim]
+external_ids:
+  wikidata: Q65077587
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; battle attested in narrative histories — entry not yet checked on the page"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-wave2
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

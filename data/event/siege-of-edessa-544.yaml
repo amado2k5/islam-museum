@@ -1,0 +1,23 @@
+id: event/siege-of-edessa-544
+class: event
+kind: siege
+label: { ar: "حصار الرها (٥٤٤)", en: "Siege of Edessa (544)" }
+summary:
+  ar: "بطاقة أولية لحصار الرها سنة ٥٤٤م، حصار كسرى الأول الساساني للمدينة؛ لم تُراجع مصادره على الصفحة بعد."
+  en: "Draft card for the Siege of Edessa in 544, Khosrow I's Sasanian blockade of the city; its sources are not yet checked on the page."
+wings: [time]
+periods: [period/abbasid-early]
+regions: [levant-iraq]
+date:
+  start: { edtf: "544", precision: year, status: tradition, derived: true }
+  end: { edtf: "544", precision: year, status: tradition, derived: true }
+sources: [source/tarikh-islam-hasan-ibrahim]
+external_ids:
+  wikidata: Q65007372
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; battle attested in narrative histories — entry not yet checked on the page"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-wave2
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }
