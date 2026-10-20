@@ -247,7 +247,7 @@ class:
 search:
   title: Search
   placeholder: Search the museum
-  needs_build: Search is built with the site. Run a full build (npm run build) to enable it locally.
+  needs_build: Search is temporarily unavailable. Please try again in a few minutes.
   filter_class: Class
   filter_wing: Wing
   noscript: Search needs JavaScript. You can still browse the wings from the home page.
@@ -752,7 +752,7 @@ licenses:
   col_license: Licence
   col_note: Note
   col_records: Records
-  layer_code: Site code and build scripts
+  layer_code: Site code
   layer_code_note: Free under MIT; see LICENSE in the repository.
   layer_data: Knowledge-graph records
   layer_data_note: Dedicated to the public domain under CC0.
@@ -761,7 +761,7 @@ licenses:
   quran_title: The Quran text
   quran_body: The Quran text is the Tanzil v1.1 transmission, kept verbatim and never edited; attribution to <a href="{url}">Tanzil</a> is required and given wherever it appears.
   media_title: Media and images
-  media_body: Every media record carries one of these whitelisted licences; the validator refuses anything else. The museum links rather than copies wherever it can.
+  media_body: Every media record carries one of these approved licences; anything else is refused. The museum links rather than copies wherever it can.
   records: '{n} records'
   ext_title: Museum catalogues and IIIF
   ext_body: Object pages link to the holding institutions' catalogues; {n} objects also carry IIIF manifest links. Those images and manifests remain the institution's own.
@@ -770,7 +770,7 @@ licenses:
   layer_vendor: 'Vendored libraries'
   layer_vendor_note: 'OpenSeadragon 5.0.1 for IIIF deep zoom, under BSD-3-Clause.'
   data_title: Accessing the data
-  data_body: 'The data is dedicated to the public domain (CC0): clone the repository with <code>git clone {repo}</code> or read it via <code>{api}/api/v1/…</code>. The full guide to the three extraction routes is in <a href="{doc}">docs/data/README.md</a>.'
+  data_body: 'The data is dedicated to the public domain (CC0), so anyone may reuse it. The guide to the open data is <a href="{doc}">here</a>.'
 ids:
   iiif: IIIF manifest
   wikidata: Wikidata
@@ -932,7 +932,7 @@ foundation:
   story_title: The story
   story_1: 'The project began with a simple question: why is there no single place online that gathers the whole story of Islam, where a stranger can walk in and learn, and a researcher can check a claim and go back to the source? What is known about Islam is scattered across scripture sites, museum archives, encyclopedia articles, academic studies and press coverage, and much of it is written to defend or attack rather than to understand.'
   story_2: 'The project chose to be built as a museum, not as one long article: nine wings (Time, Place, People, Ideas, Objects, Words, Living Islam, Today, and Made) look at the same subject from different angles, and every person, place, event, idea or object is a node in a graph that connects it to what surrounds it in time and space.'
-  story_3: 'The material lives in git as plain files: data without a language in YAML, prose for each language in Markdown, every fact tied to a source, and every date written in its precise form with its Hijri and Gregorian calendars. The site itself is static files published on GitHub Pages behind Cloudflare, with no server, no database, no paid service, and no AI model running when a visitor arrives.'
+  story_3: 'The material is kept as plain, readable files, with every fact tied to a source and every date written in its precise form with its Hijri and Gregorian calendars. The site itself is a set of static pages: no server, no database, no paid service, and no AI model running when a visitor arrives.'
   story_4: 'When the museum chose its visual identity, its colours came from Islamic architecture and manuscript making: deep lapis blue, the muted gold of manuscript pages, warm alabaster, and the sand of tiles. No single ornament was copied from an existing work; the patterns grow from the geometry of the star, the square and the circle.'
   story_5: 'Then came shared work: contributors and parallel working sessions add small batches of material, and review turns drafts into reviewed entries before they are marked as such. The museum is still being built, and it says so on every page; the coverage page counts what is complete and what is still waiting.'
   founder_title: The founder
@@ -1233,7 +1233,7 @@ privacy:
   traffic_title: Counting visits
   traffic_body: 'Visits are counted in the network analytics of Cloudflare, the network that delivers the pages. These analytics run at the network edge, with no cookies and no code in the page, and give the museum aggregate figures only: number of requests, countries, most-visited pages. Nothing that identifies a particular person reaches us.'
   hosts_title: Who delivers the files
-  hosts_body: "The pages are published on Cloudflare Pages and delivered through the Cloudflare network; the search index and the open-data files are served from the museum's own storage at Cloudflare (R2). Photographs of objects from partner museums (the Victoria and Albert Museum, the Metropolitan Museum of Art, the Cleveland Museum of Art, Wikimedia Commons) load from those institutions' own servers. Like every service on the internet, these providers need your device's IP address to deliver a file to you, and they process it under their own policies. The museum does not receive or keep that data."
+  hosts_body: "The pages are delivered through the Cloudflare network; the search index and the open-data files are served from the museum's own storage. Photographs of objects from partner museums (the Victoria and Albert Museum, the Metropolitan Museum of Art, the Cleveland Museum of Art, Wikimedia Commons) load from those institutions' own servers. Like every service on the internet, these providers need your device's IP address to deliver a file to you, and they process it under their own policies. The museum does not receive or keep that data."
   contact_title: When you contact us
   contact_body: If you email us or open a report or a discussion on GitHub, we see what you choose to send and use it only to reply and to correct the content. What you write on GitHub is governed by GitHub's terms and privacy statement, and is public unless you choose otherwise.
   people_title: People the museum writes about
