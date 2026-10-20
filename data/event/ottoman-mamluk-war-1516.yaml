@@ -1,0 +1,23 @@
+id: event/ottoman-mamluk-war-1516
+class: event
+kind: war
+label: { ar: "الحرب العثمانية المملوكية", en: "Ottoman–Mamluk War of 1516–17" }
+summary:
+  ar: "بطاقة أولية للحرب العثمانية المملوكية من ١٥١٦ إلى ١٥١٧م، حملتا سليم الأول اللتان أسقطتا دولة المماليك بمرج دابق وريدانية؛ لم تُراجع مصادره على الصفحة بعد."
+  en: "Draft card for the Ottoman–Mamluk War of 1516–1517, Selim I's campaigns at Marj Dabiq and Raydaniyya that ended the Mamluk sultanate; its sources are not yet checked on the page."
+wings: [time]
+periods: [period/gunpowder-empires]
+regions: [levant-iraq]
+date:
+  start: { edtf: "1516", precision: year, status: tradition, derived: true }
+  end: { edtf: "1517", precision: year, status: tradition, derived: true }
+sources: [source/tarikh-ibn-khaldun-ibar]
+external_ids:
+  wikidata: Q4338038
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; war attested in Ottoman and Mamluk histories — entry not yet checked on the page"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-wave2
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

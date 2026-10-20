@@ -1,0 +1,23 @@
+id: event/austro-turkish-war-1716
+class: event
+kind: war
+label: { ar: "الحرب العثمانية النمساوية (١٧١٦–١٧١٨)", en: "Austro-Turkish War of 1716–1718" }
+summary:
+  ar: "بطاقة أولية للحرب العثمانية النمساوية من ١٧١٦ إلى ١٧١٨م، حرب يوجين السافوي التي انتهت بصلح باساروفيتش؛ لم تُراجع مصادرها على الصفحة بعد."
+  en: "Draft card for the Austro-Turkish War of 1716–1718, Eugene of Savoy's war ended by the Peace of Passarowitz; its sources are not yet checked on the page."
+wings: [time]
+periods: [period/gunpowder-empires]
+regions: [anatolia-balkans]
+date:
+  start: { edtf: "1716", precision: year, status: tradition, derived: true }
+  end: { edtf: "1718", precision: year, status: tradition, derived: true }
+sources: [source/dawlat-uthmaniyya-salabi]
+external_ids:
+  wikidata: Q26799687
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; war attested in Ottoman-history surveys — entry not yet checked on the page"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-wave2
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

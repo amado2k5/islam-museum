@@ -1,0 +1,23 @@
+id: event/siege-of-damascus-1148
+class: event
+kind: siege
+label: { ar: "حصار دمشق (١١٤٨)", en: "Siege of Damascus (1148)" }
+summary:
+  ar: "بطاقة أولية لحصار دمشق سنة ١١٤٨م، حملة الفرنج الثانية الفاشلة على المدينة؛ لم تُراجع مصادره على الصفحة بعد."
+  en: "Draft card for the Siege of Damascus in 1148, the Second Crusade's failed assault on the city; its sources are not yet checked on the page."
+wings: [time]
+periods: [period/crusades-ayyubid-mamluk]
+regions: [levant-iraq]
+date:
+  start: { edtf: "1148", precision: year, status: tradition, derived: true }
+  end: { edtf: "1148", precision: year, status: tradition, derived: true }
+sources: [source/kamil-ibn-al-athir]
+external_ids:
+  wikidata: Q382967
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; siege attested in Crusades histories — entry not yet checked on the page"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-wave2
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }
