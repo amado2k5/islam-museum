@@ -1,0 +1,23 @@
+id: event/battle-of-raban-958
+class: event
+kind: battle
+label: { ar: "معركة الربان", en: "Battle of Raban" }
+summary:
+  ar: "بطاقة أولية لمعركة الربان سنة ٩٥٨م، نصر الحمدانيين على الروم في الثغور الشامية؛ لم تُراجع مصادره على الصفحة بعد."
+  en: "Draft card for the Battle of Raban in 958, the Hamdanid victory over the Byzantines in the Syrian marches; its sources are not yet checked on the page."
+wings: [time]
+periods: [period/buyid-seljuk-fatimid-era]
+regions: [levant-iraq]
+date:
+  start: { edtf: "958", precision: year, status: tradition, derived: true }
+  end: { edtf: "958", precision: year, status: tradition, derived: true }
+sources: [source/kamil-ibn-al-athir]
+external_ids:
+  wikidata: Q2889727
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; battle attested in Hamdanid histories — entry not yet checked on the page"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-wave2
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

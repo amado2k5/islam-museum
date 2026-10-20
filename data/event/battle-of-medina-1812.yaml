@@ -1,0 +1,23 @@
+id: event/battle-of-medina-1812
+class: event
+kind: battle
+label: { ar: "معركة المدينة (١٨١٢)", en: "Battle of Medina" }
+summary:
+  ar: "بطاقة أولية لمعركة المدينة سنة ١٨١٢م، استرداد طوسون باشا للمدينة المنورة من السعوديين في حرب محمد علي؛ لم تُراجع مصادره على الصفحة بعد."
+  en: "Draft card for the Battle of Medina in 1812, Tusun Pasha's recovery of Medina from the Saudis in Muhammad Ali's war; its sources are not yet checked on the page."
+wings: [time]
+periods: [period/colonial-era]
+regions: [arabia]
+date:
+  start: { edtf: "1812", precision: year, status: tradition, derived: true }
+  end: { edtf: "1812", precision: year, status: tradition, derived: true }
+sources: [source/tarikh-islam-hasan-ibrahim]
+external_ids:
+  wikidata: Q3656325
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; battle attested in Ottoman-Saudi War histories — entry not yet checked on the page"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-wave2
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

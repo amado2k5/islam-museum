@@ -1,0 +1,23 @@
+id: event/siege-of-svetigrad-1448
+class: event
+kind: siege
+label: { ar: "فتح سفيتغراد (١٤٤٨)", en: "Siege of Svetigrad" }
+summary:
+  ar: "بطاقة أولية لحصار سفيتغراد سنة ١٤٤٨م، أخذ مراد الثاني لحصن إسكندر بك في ألبانيا؛ لم تُراجع مصادره على الصفحة بعد."
+  en: "Draft card for the Siege of Svetigrad in 1448, Murad II's capture of Skanderbeg's Albanian fortress; its sources are not yet checked on the page."
+wings: [time]
+periods: [period/crusades-ayyubid-mamluk]
+regions: [anatolia-balkans]
+date:
+  start: { edtf: "1448", precision: year, status: tradition, derived: true }
+  end: { edtf: "1448", precision: year, status: tradition, derived: true }
+sources: [source/dawlat-uthmaniyya-salabi]
+external_ids:
+  wikidata: Q3302682
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; siege attested in Albanian histories — entry not yet checked on the page"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-wave2
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }
