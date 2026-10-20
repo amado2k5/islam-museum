@@ -1,0 +1,23 @@
+id: event/siege-of-caffa-1346
+class: event
+kind: siege
+label: { ar: "حصار كفة (١٣٤٦)", en: "Siege of Caffa" }
+summary:
+  ar: "بطاقة أولية لحصار كفة سنة ١٣٤٦م، حصار جنيبك القرمي المدينة وانتشار الطاعون؛ لم تُراجع مصادره على الصفحة بعد."
+  en: "Draft card for the Siege of Caffa in 1346, Janibeg the Golden Horde khan's blockade with the plague's spread; its sources are not yet checked on the page."
+wings: [time]
+periods: [period/crusades-ayyubid-mamluk]
+regions: [anatolia-balkans]
+date:
+  start: { edtf: "1346", precision: year, status: tradition, derived: true }
+  end: { edtf: "1346", precision: year, status: tradition, derived: true }
+sources: [source/tarikh-islam-hasan-ibrahim]
+external_ids:
+  wikidata: Q96506039
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; battle attested in narrative histories — entry not yet checked on the page"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-wave2
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }
