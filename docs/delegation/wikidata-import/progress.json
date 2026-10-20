@@ -5,7 +5,7 @@
  "candidates_file": "$HARVEST/wikidata-import/candidates.tsv",
  "candidates_query": "select distinct id from wd_claim where property='P140' and value_id='Q432' minus Wikidata ids already linked in data/, ordered by sitelink count desc",
  "linked_preexisting": 987,
- "next_index": 82182,
+ "next_index": 82296,
  "created_ids": [
   {
    "i": 24,
@@ -10643,6 +10643,256 @@
    "i": 82181,
    "qid": "Q138263042",
    "id": "building/masjid-al-tawus"
+  },
+  {
+   "i": 82198,
+   "qid": "Q139570555",
+   "id": "person/abu-bakr-ibn-dawud-al-hanbali"
+  },
+  {
+   "i": 82206,
+   "qid": "Q141259888",
+   "id": "building/al-madrasa-al-muzaffariyya-taiz"
+  },
+  {
+   "i": 82207,
+   "qid": "Q141260304",
+   "id": "building/al-madrasa-al-shamsiyya-taiz"
+  },
+  {
+   "i": 82208,
+   "qid": "Q141260314",
+   "id": "building/al-madrasa-al-shamsiyya-zabid"
+  },
+  {
+   "i": 82209,
+   "qid": "Q141260330",
+   "id": "building/al-madrasa-al-sabiqiyya"
+  },
+  {
+   "i": 82210,
+   "qid": "Q141260415",
+   "id": "building/madrasa-al-dar-al-jadida"
+  },
+  {
+   "i": 82211,
+   "qid": "Q141260494",
+   "id": "building/madrasa-madiyya"
+  },
+  {
+   "i": 82212,
+   "qid": "Q141260536",
+   "id": "person/muhammad-ibn-najah"
+  },
+  {
+   "i": 82213,
+   "qid": "Q141260543",
+   "id": "building/al-madrasa-al-najahiyya"
+  },
+  {
+   "i": 82214,
+   "qid": "Q141260558",
+   "id": "building/al-madrasa-al-ashrafiyya-taiz"
+  },
+  {
+   "i": 82215,
+   "qid": "Q141260613",
+   "id": "person/abu-hafs-umar-al-alawi"
+  },
+  {
+   "i": 82216,
+   "qid": "Q141260662",
+   "id": "building/al-madrasa-al-umariyya-zabid"
+  },
+  {
+   "i": 82217,
+   "qid": "Q141261195",
+   "id": "building/al-madrasa-al-wathiqiyya"
+  },
+  {
+   "i": 82218,
+   "qid": "Q141261303",
+   "id": "building/madrasa-umm-afif"
+  },
+  {
+   "i": 82219,
+   "qid": "Q141261312",
+   "id": "building/al-madrasa-al-muzaffariyya-al-maharib"
+  },
+  {
+   "i": 82220,
+   "qid": "Q141261432",
+   "id": "building/al-madrasa-al-salahiyya-zabid"
+  },
+  {
+   "i": 82221,
+   "qid": "Q141261450",
+   "id": "building/al-madrasa-al-mujahidiyya-taiz"
+  },
+  {
+   "i": 82222,
+   "qid": "Q141269873",
+   "id": "building/al-madrasa-al-afdaliyya"
+  },
+  {
+   "i": 82223,
+   "qid": "Q141270322",
+   "id": "building/madrasa-taqi-al-din-ibn-muaybad"
+  },
+  {
+   "i": 82224,
+   "qid": "Q141270542",
+   "id": "person/abd-al-rahman-abu-muhammad-al-alawi"
+  },
+  {
+   "i": 82225,
+   "qid": "Q141270709",
+   "id": "person/ismail-ibn-ibrahim-ibn-abd-al-samad"
+  },
+  {
+   "i": 82226,
+   "qid": "Q141270920",
+   "id": "building/madrasa-al-asabi"
+  },
+  {
+   "i": 82227,
+   "qid": "Q141271743",
+   "id": "building/al-madrasa-al-waziriyya"
+  },
+  {
+   "i": 82228,
+   "qid": "Q141271751",
+   "id": "building/al-madrasa-al-mansuriyya-al-ulya"
+  },
+  {
+   "i": 82229,
+   "qid": "Q141272715",
+   "id": "building/masjid-al-hind-yemen"
+  },
+  {
+   "i": 82230,
+   "qid": "Q141282929",
+   "id": "building/al-madrasa-al-dahmaniyya"
+  },
+  {
+   "i": 82231,
+   "qid": "Q141284903",
+   "id": "building/al-madrasa-al-mansuriyya-al-sufla"
+  },
+  {
+   "i": 82234,
+   "qid": "Q141335458",
+   "id": "building/al-madrasa-al-abbasiyya-taiz"
+  },
+  {
+   "i": 82235,
+   "qid": "Q141335563",
+   "id": "building/madrasa-ibn-al-jallad"
+  },
+  {
+   "i": 82236,
+   "qid": "Q141341958",
+   "id": "building/jami-uqba-ibn-amir-al-qarafa"
+  },
+  {
+   "i": 82237,
+   "qid": "Q141375836",
+   "id": "building/al-madrasa-al-mansuriyya-aden"
+  },
+  {
+   "i": 82238,
+   "qid": "Q141401094",
+   "id": "building/al-madrasa-al-tajiyya"
+  },
+  {
+   "i": 82239,
+   "qid": "Q141417797",
+   "id": "building/madrasa-jawhar-taiz"
+  },
+  {
+   "i": 82241,
+   "qid": "Q141460167",
+   "id": "building/al-madrasa-al-hafiziyya"
+  },
+  {
+   "i": 82242,
+   "qid": "Q141470309",
+   "id": "building/al-madrasa-al-sharifiyya"
+  },
+  {
+   "i": 82243,
+   "qid": "Q141474788",
+   "id": "building/dar-al-quran-al-khaydariyya"
+  },
+  {
+   "i": 82244,
+   "qid": "Q141493046",
+   "id": "building/dar-al-quran-al-juzriyya"
+  },
+  {
+   "i": 82245,
+   "qid": "Q141493101",
+   "id": "building/dar-al-quran-al-dalamiyya"
+  },
+  {
+   "i": 82246,
+   "qid": "Q141493631",
+   "id": "building/dar-al-quran-al-rashaiyya"
+  },
+  {
+   "i": 82247,
+   "qid": "Q141493689",
+   "id": "building/dar-al-quran-al-sinjariyya"
+  },
+  {
+   "i": 82248,
+   "qid": "Q141493721",
+   "id": "building/dar-al-quran-al-sabuniyya"
+  },
+  {
+   "i": 82251,
+   "qid": "Q141592111",
+   "id": "building/hauz-khas-madrasa"
+  },
+  {
+   "i": 82255,
+   "qid": "Q18689544",
+   "id": "person/fatima-bint-al-hasan-al-athram"
+  },
+  {
+   "i": 82261,
+   "qid": "Q21600699",
+   "id": "person/kara-fazli"
+  },
+  {
+   "i": 82262,
+   "qid": "Q25463062",
+   "id": "building/al-madrasa-al-nasiriyya-cairo"
+  },
+  {
+   "i": 82266,
+   "qid": "Q42414810",
+   "id": "person/abu-al-hasan-al-sindi"
+  },
+  {
+   "i": 82270,
+   "qid": "Q55911809",
+   "id": "person/al-muhsin-ibn-muhammad-al-bayhaqi"
+  },
+  {
+   "i": 82271,
+   "qid": "Q5688414",
+   "id": "person/mai-safoora-qadiriyya"
+  },
+  {
+   "i": 82282,
+   "qid": "Q69652038",
+   "id": "person/shami-ottoman"
+  },
+  {
+   "i": 82295,
+   "qid": "Q99388220",
+   "id": "person/isabel-of-granada"
   }
  ],
  "linked_ids": [
@@ -410962,9 +411212,329 @@
    82179,
    "Q138135547",
    "modern mosque list item — out of scope/insufficient"
+  ],
+  [
+   82182,
+   "Q138387666",
+   "modern/post-1800/out-of-scope/deferred/insufficient"
+  ],
+  [
+   82183,
+   "Q138387691",
+   "modern/post-1800/out-of-scope/deferred/insufficient"
+  ],
+  [
+   82184,
+   "Q138387745",
+   "modern/post-1800/out-of-scope/deferred/insufficient"
+  ],
+  [
+   82185,
+   "Q138387759",
+   "modern/post-1800/out-of-scope/deferred/insufficient"
+  ],
+  [
+   82186,
+   "Q138501993",
+   "modern/post-1800/out-of-scope/deferred/insufficient"
+  ],
+  [
+   82187,
+   "Q138567551",
+   "modern/post-1800/out-of-scope/deferred/insufficient"
+  ],
+  [
+   82188,
+   "Q138684507",
+   "modern/post-1800/out-of-scope/deferred/insufficient"
+  ],
+  [
+   82189,
+   "Q138815151",
+   "modern/post-1800/out-of-scope/deferred/insufficient"
+  ],
+  [
+   82190,
+   "Q138865725",
+   "modern/post-1800/out-of-scope/deferred/insufficient"
+  ],
+  [
+   82191,
+   "Q138922118",
+   "modern/post-1800/out-of-scope/deferred/insufficient"
+  ],
+  [
+   82192,
+   "Q138946053",
+   "modern/post-1800/out-of-scope/deferred/insufficient"
+  ],
+  [
+   82193,
+   "Q138947090",
+   "modern/post-1800/out-of-scope/deferred/insufficient"
+  ],
+  [
+   82194,
+   "Q138974716",
+   "modern/post-1800/out-of-scope/deferred/insufficient"
+  ],
+  [
+   82195,
+   "Q139021379",
+   "modern/post-1800/out-of-scope/deferred/insufficient"
+  ],
+  [
+   82196,
+   "Q139234352",
+   "modern/post-1800/out-of-scope/deferred/insufficient"
+  ],
+  [
+   82197,
+   "Q139254543",
+   "modern/post-1800/out-of-scope/deferred/insufficient"
+  ],
+  [
+   82199,
+   "Q139740413",
+   "modern/post-1800/out-of-scope/deferred/insufficient"
+  ],
+  [
+   82200,
+   "Q139970731",
+   "modern/post-1800/out-of-scope/deferred/insufficient"
+  ],
+  [
+   82201,
+   "Q140307174",
+   "modern/post-1800/out-of-scope/deferred/insufficient"
+  ],
+  [
+   82202,
+   "Q140323904",
+   "modern/post-1800/out-of-scope/deferred/insufficient"
+  ],
+  [
+   82203,
+   "Q140360963",
+   "modern/post-1800/out-of-scope/deferred/insufficient"
+  ],
+  [
+   82204,
+   "Q141106330",
+   "modern/post-1800/out-of-scope/deferred/insufficient"
+  ],
+  [
+   82205,
+   "Q141176123",
+   "modern/post-1800/out-of-scope/deferred/insufficient"
+  ],
+  [
+   82232,
+   "Q141311930",
+   "modern/post-1800/out-of-scope/deferred/insufficient"
+  ],
+  [
+   82233,
+   "Q141324142",
+   "modern/post-1800/out-of-scope/deferred/insufficient"
+  ],
+  [
+   82240,
+   "Q141458569",
+   "modern/post-1800/out-of-scope/deferred/insufficient"
+  ],
+  [
+   82249,
+   "Q141523695",
+   "modern/post-1800/out-of-scope/deferred/insufficient"
+  ],
+  [
+   82250,
+   "Q141575621",
+   "modern/post-1800/out-of-scope/deferred/insufficient"
+  ],
+  [
+   82252,
+   "Q15982475",
+   "modern/post-1800/out-of-scope/deferred/insufficient"
+  ],
+  [
+   82253,
+   "Q16119086",
+   "modern/post-1800/out-of-scope/deferred/insufficient"
+  ],
+  [
+   82254,
+   "Q17153139",
+   "modern/post-1800/out-of-scope/deferred/insufficient"
+  ],
+  [
+   82256,
+   "Q20110342",
+   "modern/post-1800/out-of-scope/deferred/insufficient"
+  ],
+  [
+   82257,
+   "Q20412491",
+   "modern/post-1800/out-of-scope/deferred/insufficient"
+  ],
+  [
+   82258,
+   "Q20473973",
+   "modern/post-1800/out-of-scope/deferred/insufficient"
+  ],
+  [
+   82259,
+   "Q20476260",
+   "modern/post-1800/out-of-scope/deferred/insufficient"
+  ],
+  [
+   82260,
+   "Q20961723",
+   "modern/post-1800/out-of-scope/deferred/insufficient"
+  ],
+  [
+   82263,
+   "Q28713875",
+   "modern/post-1800/out-of-scope/deferred/insufficient"
+  ],
+  [
+   82264,
+   "Q28756434",
+   "modern/post-1800/out-of-scope/deferred/insufficient"
+  ],
+  [
+   82265,
+   "Q29439251",
+   "modern/post-1800/out-of-scope/deferred/insufficient"
+  ],
+  [
+   82267,
+   "Q52770691",
+   "modern/post-1800/out-of-scope/deferred/insufficient"
+  ],
+  [
+   82268,
+   "Q54861764",
+   "modern/post-1800/out-of-scope/deferred/insufficient"
+  ],
+  [
+   82269,
+   "Q55908157",
+   "modern/post-1800/out-of-scope/deferred/insufficient"
+  ],
+  [
+   82272,
+   "Q57237758",
+   "modern/post-1800/out-of-scope/deferred/insufficient"
+  ],
+  [
+   82273,
+   "Q5948254",
+   "modern/post-1800/out-of-scope/deferred/insufficient"
+  ],
+  [
+   82274,
+   "Q5954353",
+   "modern/post-1800/out-of-scope/deferred/insufficient"
+  ],
+  [
+   82275,
+   "Q60834066",
+   "modern/post-1800/out-of-scope/deferred/insufficient"
+  ],
+  [
+   82276,
+   "Q6110304",
+   "modern/post-1800/out-of-scope/deferred/insufficient"
+  ],
+  [
+   82277,
+   "Q64014834",
+   "modern/post-1800/out-of-scope/deferred/insufficient"
+  ],
+  [
+   82278,
+   "Q65950915",
+   "modern/post-1800/out-of-scope/deferred/insufficient"
+  ],
+  [
+   82279,
+   "Q66711840",
+   "modern/post-1800/out-of-scope/deferred/insufficient"
+  ],
+  [
+   82280,
+   "Q68362435",
+   "modern/post-1800/out-of-scope/deferred/insufficient"
+  ],
+  [
+   82281,
+   "Q68438321",
+   "modern/post-1800/out-of-scope/deferred/insufficient"
+  ],
+  [
+   82283,
+   "Q6983235",
+   "modern/post-1800/out-of-scope/deferred/insufficient"
+  ],
+  [
+   82284,
+   "Q6989792",
+   "modern/post-1800/out-of-scope/deferred/insufficient"
+  ],
+  [
+   82285,
+   "Q70972716",
+   "modern/post-1800/out-of-scope/deferred/insufficient"
+  ],
+  [
+   82286,
+   "Q80363855",
+   "modern/post-1800/out-of-scope/deferred/insufficient"
+  ],
+  [
+   82287,
+   "Q83277834",
+   "modern/post-1800/out-of-scope/deferred/insufficient"
+  ],
+  [
+   82288,
+   "Q84559360",
+   "modern/post-1800/out-of-scope/deferred/insufficient"
+  ],
+  [
+   82289,
+   "Q94419673",
+   "modern/post-1800/out-of-scope/deferred/insufficient"
+  ],
+  [
+   82290,
+   "Q94645588",
+   "modern/post-1800/out-of-scope/deferred/insufficient"
+  ],
+  [
+   82291,
+   "Q94999503",
+   "modern/post-1800/out-of-scope/deferred/insufficient"
+  ],
+  [
+   82292,
+   "Q97065974",
+   "modern/post-1800/out-of-scope/deferred/insufficient"
+  ],
+  [
+   82293,
+   "Q98099445",
+   "modern/post-1800/out-of-scope/deferred/insufficient"
+  ],
+  [
+   82294,
+   "Q98109062",
+   "modern/post-1800/out-of-scope/deferred/insufficient"
   ]
  ],
- "skipped_total": 79371,
+ "skipped_total": 79435,
  "skipped_by_reason": {
   "modern sovereign state; no matching record (al-Hind region is a different entity)": 1,
   "modern sovereign state; no matching record": 8,
@@ -412738,7 +413308,7 @@
   "Ankara mosque; deferred": 1,
   "modern/post-1800/out-of-scope/insufficient": 70,
   "modern/post-1800/out-of-scope/mosque-deferred/insufficient": 152,
-  "modern/post-1800/out-of-scope/deferred/insufficient": 4671,
+  "modern/post-1800/out-of-scope/deferred/insufficient": 4735,
   "alternate Wikidata item; Q11903928 already linked to person/abu-al-baqa-khalid-hafsid": 1,
   "identity ambiguous: Wikidata item labeled Makhdum I but carries Makhdum II dates (1531-1620)": 1,
   "duplicate Wikidata item — canonical record kara-davud (Q6033054) exists": 1,
@@ -412752,5 +413322,5 @@
  "last_commit": "d6d413304",
  "last_push": "d87cf2e5e",
  "batch_current": 7,
- "updated_at": "2026-10-19T22:33:01-04:00"
+ "updated_at": "2026-10-19T22:37:09-04:00"
 }
