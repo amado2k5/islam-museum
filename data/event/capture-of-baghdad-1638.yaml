@@ -1,0 +1,23 @@
+id: event/capture-of-baghdad-1638
+class: event
+kind: conquest
+label: { ar: "فتح بغداد (١٦٣٨)", en: "Capture of Baghdad" }
+summary:
+  ar: "بطاقة أولية لفتح بغداد سنة ١٦٣٨م، استرداد مراد الرابع للمدينة من الصفويين بعد حصار شديد؛ لم تُراجع مصادره على الصفحة بعد."
+  en: "Draft card for the Capture of Baghdad in 1638, Murad IV's retaking of the city from the Safavids after a hard siege; its sources are not yet checked on the page."
+wings: [time]
+periods: [period/gunpowder-empires]
+regions: [levant-iraq]
+date:
+  start: { edtf: "1638", precision: year, status: tradition, derived: true }
+  end: { edtf: "1638", precision: year, status: tradition, derived: true }
+sources: [source/dawlat-uthmaniyya-salabi]
+external_ids:
+  wikidata: Q5036981
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; capture attested in Ottoman histories — entry not yet checked on the page"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-wave2
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

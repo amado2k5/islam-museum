@@ -1,0 +1,23 @@
+id: event/siege-of-ochakov-1788
+class: event
+kind: siege
+label: { ar: "حصار أوتشاكيف", en: "Siege of Ochakov" }
+summary:
+  ar: "بطاقة أولية لحصار أوتشاكيف سنة ١٧٨٨م، أخذ بوتمكين للقلعة العثمانية على البحر الأسود في حرب ١٧٨٧؛ لم تُراجع مصادره على الصفحة بعد."
+  en: "Draft card for the Siege of Ochakov in 1788, Potemkin's storming of the Ottoman Black Sea fortress in the war of 1787–92; its sources are not yet checked on the page."
+wings: [time]
+periods: [period/colonial-era]
+regions: [anatolia-balkans]
+date:
+  start: { edtf: "1788", precision: year, status: tradition, derived: true }
+  end: { edtf: "1788", precision: year, status: tradition, derived: true }
+sources: [source/dawlat-uthmaniyya-salabi]
+external_ids:
+  wikidata: Q2724886
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; siege attested in Russo-Turkish histories — entry not yet checked on the page"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-wave2
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

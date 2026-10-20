@@ -1,0 +1,23 @@
+id: event/day-of-thirst-724
+class: event
+kind: battle
+label: { ar: "يوم العطش", en: "Day of Thirst" }
+summary:
+  ar: "بطاقة أولية ليوم العطش سنة ٧٢٤م، صمود الجيش الأموي العطشان أمام التركش في ما وراء النهر؛ لم تُراجع مصادره على الصفحة بعد."
+  en: "Draft card for the Day of Thirst in 724, the Umayyad army's thirsty stand against the Türgesh beyond the river; its sources are not yet checked on the page."
+wings: [time]
+periods: [period/umayyad]
+regions: [persia-central-asia]
+date:
+  start: { edtf: "724", precision: year, status: tradition, derived: true }
+  end: { edtf: "724", precision: year, status: tradition, derived: true }
+sources: [source/tarikh-al-tabari]
+external_ids:
+  wikidata: Q5242954
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; battle attested in the Transoxianan histories — entry not yet checked on the page"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-wave2
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

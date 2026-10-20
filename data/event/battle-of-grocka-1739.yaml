@@ -1,0 +1,23 @@
+id: event/battle-of-grocka-1739
+class: event
+kind: battle
+label: { ar: "معركة غروتسكا", en: "Battle of Grocka" }
+summary:
+  ar: "بطاقة أولية لمعركة غروتسكا سنة ١٧٣٩م، نصر العثمانيين على النمسا الذي ختم حرب ١٧٣٧؛ لم تُراجع مصادره على الصفحة بعد."
+  en: "Draft card for the Battle of Grocka in 1739, the Ottoman victory over Austria that ended the war of 1737–39; its sources are not yet checked on the page."
+wings: [time]
+periods: [period/gunpowder-empires]
+regions: [anatolia-balkans]
+date:
+  start: { edtf: "1739", precision: year, status: tradition, derived: true }
+  end: { edtf: "1739", precision: year, status: tradition, derived: true }
+sources: [source/dawlat-uthmaniyya-salabi]
+external_ids:
+  wikidata: Q700866
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; battle attested in Habsburg-Ottoman histories — entry not yet checked on the page"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-wave2
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

@@ -1,0 +1,23 @@
+id: event/siege-of-kruje-1450
+class: event
+kind: siege
+label: { ar: "حصار كرويه (١٤٥٠)", en: "First Siege of Krujë" }
+summary:
+  ar: "بطاقة أولية لحصار كرويه الأول سنة ١٤٥٠م، صد إسكندر بك لجيش مراد الثاني في قلعته الألبانية؛ لم تُراجع مصادره على الصفحة بعد."
+  en: "Draft card for the First Siege of Krujë in 1450, Skanderbeg's defence against Murad II's army in his Albanian castle; its sources are not yet checked on the page."
+wings: [time]
+periods: [period/crusades-ayyubid-mamluk]
+regions: [anatolia-balkans]
+date:
+  start: { edtf: "1450", precision: year, status: tradition, derived: true }
+  end: { edtf: "1450", precision: year, status: tradition, derived: true }
+sources: [source/dawlat-uthmaniyya-salabi]
+external_ids:
+  wikidata: Q73670
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; siege attested in Albanian histories — entry not yet checked on the page"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-wave2
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

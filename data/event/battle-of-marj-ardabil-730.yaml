@@ -1,0 +1,23 @@
+id: event/battle-of-marj-ardabil-730
+class: event
+kind: battle
+label: { ar: "معركة مرج أردبيل", en: "Battle of Marj Ardabil" }
+summary:
+  ar: "بطاقة أولية لمعركة مرج أردبيل سنة ٧٣٠م، هزيمة الجراح بن عبد الله الحكمي وقتله على يد الخزر؛ لم تُراجع مصادره على الصفحة بعد."
+  en: "Draft card for the Battle of Marj Ardabil in 730, the Khazar victory that killed al-Jarrah ibn Abd Allah al-Hakami; its sources are not yet checked on the page."
+wings: [time]
+periods: [period/umayyad]
+regions: [persia-central-asia]
+date:
+  start: { edtf: "730", precision: year, status: tradition, derived: true }
+  end: { edtf: "730", precision: year, status: tradition, derived: true }
+sources: [source/tarikh-al-tabari]
+external_ids:
+  wikidata: Q4087410
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; battle attested in Khazar war histories — entry not yet checked on the page"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-wave2
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

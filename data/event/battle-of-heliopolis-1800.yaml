@@ -1,0 +1,23 @@
+id: event/battle-of-heliopolis-1800
+class: event
+kind: battle
+label: { ar: "معركة هليوبوليس (١٨٠٠)", en: "Battle of Heliopolis" }
+summary:
+  ar: "بطاقة أولية لمعركة هليوبوليس سنة ١٨٠٠م، نصر كليبر الفرنسي على الجيش العثماني قرب القاهرة؛ لم تُراجع مصادره على الصفحة بعد."
+  en: "Draft card for the Battle of Heliopolis in 1800, Kléber's victory over the Ottoman army near Cairo; its sources are not yet checked on the page."
+wings: [time]
+periods: [period/colonial-era]
+regions: [egypt-nile]
+date:
+  start: { edtf: "1800", precision: year, status: tradition, derived: true }
+  end: { edtf: "1800", precision: year, status: tradition, derived: true }
+sources: [source/tarikh-islam-hasan-ibrahim]
+external_ids:
+  wikidata: Q2887968
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; battle attested in French-campaign histories — entry not yet checked on the page"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-wave2
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }
