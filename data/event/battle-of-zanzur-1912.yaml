@@ -1,0 +1,23 @@
+id: event/battle-of-zanzur-1912
+class: event
+kind: battle
+label: { ar: "معركة زنزور", en: "Battle of Zanzur" }
+summary:
+  ar: "بطاقة أولية لمعركة زنزور سنة ١٩١٢م، قتال الليبيين والعثمانيين الإيطاليين غرب طرابلس؛ لم تُراجع مصادره على الصفحة بعد."
+  en: "Draft card for the Battle of Zanzur in 1912, the Libyan-Ottoman fight against the Italians west of Tripoli; its sources are not yet checked on the page."
+wings: [time]
+periods: [period/modern-era]
+regions: [maghreb]
+date:
+  start: { edtf: "1912-09-20", precision: year, status: tradition, derived: true }
+  end: { edtf: "1912-09-20", precision: year, status: tradition, derived: true }
+sources: [source/tarikh-islam-hasan-ibrahim]
+external_ids:
+  wikidata: Q15561557
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; battle attested in narrative histories — entry not yet checked on the page"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-wave2
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

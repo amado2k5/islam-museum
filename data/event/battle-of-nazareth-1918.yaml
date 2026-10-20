@@ -1,0 +1,23 @@
+id: event/battle-of-nazareth-1918
+class: event
+kind: battle
+label: { ar: "معركة الناصرة (١٩١٨)", en: "Battle of Nazareth" }
+summary:
+  ar: "بطاقة أولية لمعركة الناصرة سنة ١٩١٨م، هجوم الفرسان البريطانيين على مقر الجيش العثماني في حملة فلسطين؛ لم تُراجع مصادره على الصفحة بعد."
+  en: "Draft card for the Battle of Nazareth in 1918, the British cavalry raid on the Ottoman army HQ in the Palestine campaign; its sources are not yet checked on the page."
+wings: [time]
+periods: [period/modern-era]
+regions: [levant-iraq]
+date:
+  start: { edtf: "1918-09-20", precision: year, status: tradition, derived: true }
+  end: { edtf: "1918-09-21", precision: year, status: tradition, derived: true }
+sources: [source/tarikh-islam-hasan-ibrahim]
+external_ids:
+  wikidata: Q15197370
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; battle attested in narrative histories — entry not yet checked on the page"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-wave2
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

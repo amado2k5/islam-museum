@@ -1,0 +1,23 @@
+id: event/siege-of-mosul-1261
+class: event
+kind: siege
+label: { ar: "حصار الموصل (١٢٦١)", en: "Siege of Mosul" }
+summary:
+  ar: "بطاقة أولية لحصار الموصل في ١٢٦١–١٢٦٢م، أخذ المغول المدينة بعد قتال بدر الدين لؤلؤ؛ لم تُراجع مصادره على الصفحة بعد."
+  en: "Draft card for the Siege of Mosul in 1261–62, the Mongol capture of the city after Badr al-Din Lu'lu's fight; its sources are not yet checked on the page."
+wings: [time]
+periods: [period/crusades-ayyubid-mamluk]
+regions: [levant-iraq]
+date:
+  start: { edtf: "1261", precision: year, status: tradition, derived: true }
+  end: { edtf: "1262-07", precision: year, status: tradition, derived: true }
+sources: [source/kamil-ibn-al-athir]
+external_ids:
+  wikidata: Q138037968
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; battle attested in narrative histories — entry not yet checked on the page"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-wave2
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }
