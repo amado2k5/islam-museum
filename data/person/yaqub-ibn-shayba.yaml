@@ -1,0 +1,27 @@
+id: person/yaqub-ibn-shayba
+class: person
+label:
+  ar: "يعقوب بن شيبة"
+  en: "Ya'qub ibn Shayba"
+roles: [muhaddith]
+gender: male
+summary:
+  ar: "بطاقة أولية ليعقوب بن شيبة السدوسي، الإمام الحافظ البغدادي ومؤلف المسند الكبير المعلل؛ لم تُراجع ترجمته على الصفحة بعد."
+  en: "Draft card for Ya'qub ibn Shayba al-Sadusi, the Baghdad hadith imam and author of al-Musnad al-Kabir; his entry is not yet checked on the page."
+wings: [people]
+regions: [levant-iraq]
+periods: [period/abbasid-early]
+born: { edtf: "798", precision: year, status: tradition, derived: true }
+died: { edtf: "875", precision: year, status: tradition, derived: true }
+sources: [source/al-aalam]
+external_ids:
+  wikidata: Q22690835
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; entry not yet read on the page in a book source"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-wave2
+status:
+  review: draft
+  completeness: 1
