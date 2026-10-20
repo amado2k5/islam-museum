@@ -1,0 +1,23 @@
+id: event/trunajaya-rebellion
+class: event
+kind: revolt
+label: { ar: "تمرد تروناجايا", en: "Trunajaya Rebellion" }
+summary:
+  ar: "بطاقة أولية لتمرد تروناجايا في جاوة من ١٦٧٤ إلى ١٦٨٠م، الثورة المادورية على سلطنة ماترم؛ لم تُراجع مصادره على الصفحة بعد."
+  en: "Draft card for the Trunajaya rebellion of 1674–1680, the Madurese rising against Mataram; its sources are not yet checked on the page."
+wings: [time]
+periods: [period/gunpowder-empires]
+regions: [southeast-asia]
+date:
+  start: { edtf: "1674", precision: year, status: tradition, derived: true }
+  end: { edtf: "1680", precision: year, status: tradition, derived: true }
+sources: [source/tarikh-islam-hasan-ibrahim]
+external_ids:
+  wikidata: Q28136838
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; battle attested in narrative histories — entry not yet checked on the page"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-wave2
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }
