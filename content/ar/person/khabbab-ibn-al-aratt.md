@@ -6,7 +6,7 @@ translators: []
 ---
 
 ## موجز
-خباب بن الأرت ، من أوائل المسلمين في [[event/al-dawa-al-sirriyya|الدعوة السرية]] بمكة في عدّ الرحيق المختوم {cite:mubarakpuri-raheeq p.76} {cite:ibn-hisham-sira 1/245-262}.
+خباب بن الأرت، من أوائل المسلمين في [[event/al-dawa-al-sirriyya|الدعوة السرية]] بمكة في عدّ الرحيق المختوم {cite:mubarakpuri-raheeq p.76} {cite:ibn-hisham-sira 1/245-262}.
 
 ## في الرحيق المختوم
 يذكره الكتاب فيمن تلا الرعيل الأول من أوائل المسلمين، مع عبد الله بن مسعود الهذلي وخلق سواهم {cite:mubarakpuri-raheeq p.76} {cite:ibn-hisham-sira 1/245-262}. ويعود إليه الكتاب فيمن ابتُلي من المستضعفين في فصل لاحق.
