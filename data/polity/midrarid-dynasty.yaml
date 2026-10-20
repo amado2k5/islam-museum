@@ -1,0 +1,32 @@
+id: polity/midrarid-dynasty
+class: polity
+kind: dynasty
+label:
+  ar: "بنو مدرار"
+  en: "Midrarid dynasty"
+summary:
+  ar: "بطاقة أولية لبني مدرار، الأسرة البربرية التي حكمت سجلماسة من القرن الثامن إلى العاشر؛ لم تُراجع مصادرها على الصفحة بعد."
+  en: "Draft card for the Midrarids, the Berber house that ruled Sijilmasa from the eighth to the tenth century; its sources are not yet checked on the page."
+wings: [time]
+periods: [period/abbasid-early]
+regions: [maghreb]
+start:
+  edtf: "757"
+  precision: year
+  status: tradition
+  derived: true
+end:
+  edtf: "976"
+  precision: year
+  status: tradition
+  derived: true
+sources: [source/mujam-al-buldan]
+external_ids:
+  wikidata: Q4292856
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; dynasty attested in Maghrebi histories — entry not yet checked on the page"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-wave2
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

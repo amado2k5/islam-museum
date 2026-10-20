@@ -1,0 +1,32 @@
+id: polity/paduspanid-dynasty
+class: polity
+kind: dynasty
+label:
+  ar: "آل بادوسبان"
+  en: "Paduspanids"
+summary:
+  ar: "بطاقة أولية لآل بادوسبان، الأسرة المازندرانية التي حكمت رويان نحو تسعة قرون حتى ١٥٩٨م؛ لم تُراجع مصادرها على الصفحة بعد."
+  en: "Draft card for the Paduspanids, the Mazandarani house that held Royan for nine centuries until 1598; its sources are not yet checked on the page."
+wings: [time]
+periods: [period/umayyad]
+regions: [persia-central-asia]
+start:
+  edtf: "665"
+  precision: year
+  status: tradition
+  derived: true
+end:
+  edtf: "1598"
+  precision: year
+  status: tradition
+  derived: true
+sources: [source/tarikh-al-tabari]
+external_ids:
+  wikidata: Q6395203
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; dynasty attested in Caspian histories — entry not yet checked on the page"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-wave2
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }
