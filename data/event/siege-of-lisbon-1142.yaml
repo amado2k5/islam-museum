@@ -1,0 +1,23 @@
+id: event/siege-of-lisbon-1142
+class: event
+kind: siege
+label: { ar: "حصار لشبونة (١١٤٢)", en: "Siege of Lisbon" }
+summary:
+  ar: "بطاقة أولية لحصار لشبونة سنة ١١٤٢م، فشل ألفونسو الأول في أخذها من المرابطين؛ لم تُراجع مصادره على الصفحة بعد."
+  en: "Draft card for the Siege of Lisbon in 1142, Afonso I's failed assault on the Almoravid city; its sources are not yet checked on the page."
+wings: [time]
+periods: [period/crusades-ayyubid-mamluk]
+regions: [andalus-europe]
+date:
+  start: { edtf: "1142", precision: year, status: tradition, derived: true }
+  end: { edtf: "1142", precision: year, status: tradition, derived: true }
+sources: [source/tarikh-islam-hasan-ibrahim]
+external_ids:
+  wikidata: Q107087739
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; battle attested in narrative histories — entry not yet checked on the page"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-wave2
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }
