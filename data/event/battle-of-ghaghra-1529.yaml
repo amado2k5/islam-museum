@@ -1,0 +1,23 @@
+id: event/battle-of-ghaghra-1529
+class: event
+kind: battle
+label: { ar: "معركة غاغرة", en: "Battle of Ghaghra" }
+summary:
+  ar: "بطاقة أولية لمعركة غاغرة سنة ١٥٢٩م، فوز بابر على الأفغان واللوهانيين؛ لم تُراجع مصادره على الصفحة بعد."
+  en: "Draft card for the Battle of Ghaghra in 1529, Babur's victory over the Afghan confederates; its sources are not yet checked on the page."
+wings: [time]
+periods: [period/gunpowder-empires]
+regions: [south-asia]
+date:
+  start: { edtf: "1529", precision: year, status: tradition, derived: true }
+  end: { edtf: "1529", precision: year, status: tradition, derived: true }
+sources: [source/tarikh-islam-hasan-ibrahim]
+external_ids:
+  wikidata: Q4871091
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; battle attested in narrative histories — entry not yet checked on the page"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-wave2
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

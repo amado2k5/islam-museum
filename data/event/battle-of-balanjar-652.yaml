@@ -1,0 +1,23 @@
+id: event/battle-of-balanjar-652
+class: event
+kind: battle
+label: { ar: "معركة بلنجر", en: "Battle of Balanjar" }
+summary:
+  ar: "بطاقة أولية لمعركة بلنجر سنة ٦٥٢م، الهجوم الخزري على المسلمين في القوقاز؛ لم تُراجع مصادره على الصفحة بعد."
+  en: "Draft card for the Battle of Balanjar in 652, the Khazar clash with the Muslim forces; its sources are not yet checked on the page."
+wings: [time]
+periods: [period/rashidun]
+regions: [persia-central-asia]
+date:
+  start: { edtf: "0652", precision: year, status: tradition, derived: true }
+  end: { edtf: "0652", precision: year, status: tradition, derived: true }
+sources: [source/kamil-ibn-al-athir]
+external_ids:
+  wikidata: Q4870393
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; battle attested in narrative histories — entry not yet checked on the page"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-wave2
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

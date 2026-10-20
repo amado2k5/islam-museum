@@ -1,0 +1,23 @@
+id: event/capture-of-bejaia-1555
+class: event
+kind: siege
+label: { ar: "أخذ بجاية", en: "Capture of Béjaïa" }
+summary:
+  ar: "بطاقة أولية لأخذ بجاية سنة ١٥٥٥م، استرداد صالح رئيس للمدينة من الإسبان؛ لم تُراجع مصادره على الصفحة بعد."
+  en: "Draft card for the Capture of Béjaïa in 1555, Salah Rais's recovery of the city from the Spanish; its sources are not yet checked on the page."
+wings: [time]
+periods: [period/gunpowder-empires]
+regions: [maghreb]
+date:
+  start: { edtf: "1555", precision: year, status: tradition, derived: true }
+  end: { edtf: "1555", precision: year, status: tradition, derived: true }
+sources: [source/dawlat-uthmaniyya-salabi]
+external_ids:
+  wikidata: Q5036991
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; battle attested in narrative histories — entry not yet checked on the page"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-wave2
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }
