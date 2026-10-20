@@ -1,0 +1,23 @@
+id: event/battle-of-sale-1260
+class: event
+kind: massacre
+label: { ar: "غارة سلا (١٢٦٠)", en: "Battle of Salé" }
+summary:
+  ar: "بطاقة أولية لغارة سلا سنة ١٢٦٠م، هجوم ألفونسو العاشر الصليبي على المدينة يوم عيد الفطر ومذبحة أهلها؛ لم تُراجع مصادره على الصفحة بعد."
+  en: "Draft card for the Raid on Salé in 1260, Alfonso X's crusader attack on the town on Eid al-Fitr and its people's massacre; its sources are not yet checked on the page."
+wings: [time]
+periods: [period/crusades-ayyubid-mamluk]
+regions: [maghreb]
+date:
+  start: { edtf: "1260-09-10", precision: year, status: tradition, derived: true }
+  end: { edtf: "1260-09-23", precision: year, status: tradition, derived: true }
+sources: [source/tarikh-islam-hasan-ibrahim]
+external_ids:
+  wikidata: Q2388708
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; battle attested in narrative histories — entry not yet checked on the page"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-wave2
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

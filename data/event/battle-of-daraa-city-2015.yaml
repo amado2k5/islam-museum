@@ -1,0 +1,23 @@
+id: event/battle-of-daraa-city-2015
+class: event
+kind: battle
+label: { ar: "معركة مدينة درعا (٢٠١٥)", en: "Battle of Daraa City" }
+summary:
+  ar: "بطاقة أولية لمعركة مدينة درعا سنة ٢٠١٥م، هجوم المعارضة على المدينة في الحرب السورية؛ لم تُراجع مصادره على الصفحة بعد."
+  en: "Draft card for the Battle of Daraa City in 2015, the opposition's offensive on the city in the Syrian war; its sources are not yet checked on the page."
+wings: [time]
+periods: [period/contemporary-era]
+regions: [levant-iraq]
+date:
+  start: { edtf: "2015-07-10", precision: year, status: tradition, derived: true }
+  end: { edtf: "2015-07-10", precision: year, status: tradition, derived: true }
+sources: [source/tarikh-islam-hasan-ibrahim]
+external_ids:
+  wikidata: Q20305838
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; battle attested in narrative histories — entry not yet checked on the page"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-wave2
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

@@ -1,0 +1,23 @@
+id: event/ottoman-habsburg-war-1565
+class: event
+kind: war
+label: { ar: "الحرب العثمانية الهابسبورغية (١٥٦٥)", en: "Ottoman-Habsburg War of 1565–1568" }
+summary:
+  ar: "بطاقة أولية للحرب العثمانية الهابسبورغية في ١٥١٥–١٥٦٨م، حملة سيغيتفار الأخيرة لسليمان؛ لم تُراجع مصادرها على الصفحة بعد."
+  en: "Draft card for the Ottoman-Habsburg War of 1565–68, Suleiman's last Szigetvár campaign; its sources are not yet checked on the page."
+wings: [time]
+periods: [period/gunpowder-empires]
+regions: [anatolia-balkans]
+date:
+  start: { edtf: "1565", precision: year, status: tradition, derived: true }
+  end: { edtf: "1568-02-17", precision: year, status: tradition, derived: true }
+sources: [source/dawlat-uthmaniyya-salabi]
+external_ids:
+  wikidata: Q21655930
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; battle attested in narrative histories — entry not yet checked on the page"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-wave2
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }
