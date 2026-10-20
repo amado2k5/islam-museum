@@ -3,7 +3,9 @@
 // last publish are sent. The last publish is kept in R2 at _r2-sync/manifest.json.
 //
 // Usage: node workers/r2-sync/batch/publish.mjs --dist dist [--dry-run]
-// Env (dry-run needs none): SYNC_URL, SYNC_TOKEN, ENDPOINT, BUCKET (default islam-museum-search).
+// Env (dry-run needs none): SYNC_URLS (comma-separated Worker URLs, archives are spread
+// across them round-robin; SYNC_URL with one URL still works), SYNC_TOKEN, ENDPOINT,
+// BUCKET (default islam-museum-search).
 //
 // The manifest is written only after every archive was applied, so a failed run
 // is repeated in full on the next run. Applying an operation twice is harmless.
@@ -36,6 +38,7 @@ const dryRun = args["dry-run"] === true;
 const bucket = process.env.BUCKET ?? "islam-museum-search";
 const endpoint = process.env.ENDPOINT;
 const log = (msg) => console.log(`[r2-publish] ${msg}`);
+const syncUrls = (process.env.SYNC_URLS ?? process.env.SYNC_URL ?? "").split(",").map((u) => u.trim()).filter(Boolean);
 
 const sha = (bytes) => createHash("sha256").update(bytes).digest("hex");
 
@@ -88,12 +91,12 @@ function diff(desired, previous) {
   return ops;
 }
 
-function applyArchive(archive, dir) {
+function applyArchive(archive, dir, syncUrl) {
   const file = join(dir, archive.name);
   writeFileSync(file, archive.bytes);
   const stagedKey = `${STAGING_PREFIX}${archive.name}`;
   execFileSync("aws", ["s3", "cp", file, `s3://${bucket}/${stagedKey}`, "--endpoint-url", endpoint, "--only-show-errors"], { stdio: "inherit" });
-  return postProcess(stagedKey).then(({ status, report }) => {
+  return postProcess(stagedKey, syncUrl).then(({ status, report }) => {
     if (status !== 200) throw new Error(`${archive.name}: worker answered ${status} ${JSON.stringify(report)}`);
     log(`${archive.name}: ${JSON.stringify(report.summary)}`);
   });
@@ -102,8 +105,8 @@ function applyArchive(archive, dir) {
 // POST /process and wait for the reply. Node's global fetch gives up after 5 minutes
 // without response headers, but the Worker answers only when the archive is fully
 // applied, which can take longer. node:https/http has no such default timeout.
-function postProcess(archive) {
-  const url = new URL(`${process.env.SYNC_URL}/process`);
+function postProcess(archive, syncUrl) {
+  const url = new URL(`${syncUrl}/process`);
   const body = JSON.stringify({ archive });
   const send = url.protocol === "http:" ? httpRequest : httpsRequest;
   return new Promise((resolve, reject) => {
@@ -156,9 +159,11 @@ async function main() {
     return;
   }
 
+  if (syncUrls.length === 0) throw new Error("SYNC_URLS is not set");
   const dir = mkdtempSync(join(tmpdir(), "r2-publish-"));
+  let i = 0;
   for (const archive of packArchives(ops, { namePrefix: `publish-${Date.now()}` })) {
-    await applyArchive(archive, dir);
+    await applyArchive(archive, dir, syncUrls[i++ % syncUrls.length]);
   }
 
   const next = { version: 1, files: Object.fromEntries([...desired].map(([key, f]) => [key, f.sha])) };
