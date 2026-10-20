@@ -1,0 +1,32 @@
+id: polity/kartid-dynasty
+class: polity
+kind: dynasty
+label:
+  ar: "آل كرت"
+  en: "Kartid dynasty"
+summary:
+  ar: "بطاقة أولية لآل كرت، السلالة التي حكمت هراة باسم المغول ثم تيمور من ١٢٤٤ إلى ١٣٨١م؛ لم تُراجع مصادرها على الصفحة بعد."
+  en: "Draft card for the Kartids, the dynasty ruling Herat under Mongol then Timurid suzerainty from 1244 to 1381; its sources are not yet checked on the page."
+wings: [time]
+periods: [period/mongol-post-mongol]
+regions: [persia-central-asia]
+start:
+  edtf: "1244"
+  precision: year
+  status: tradition
+  derived: true
+end:
+  edtf: "1381"
+  precision: year
+  status: tradition
+  derived: true
+sources: [source/tarikh-ibn-khaldun-ibar]
+external_ids:
+  wikidata: Q1734616
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; dynasty attested in historical works — entry not yet checked on the page"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-wave2
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }
