@@ -67,8 +67,12 @@ export function buildRelated(c: Compiled, perNode = 8) {
     (nbr.get(e.from) ?? nbr.set(e.from, new Set()).get(e.from)!).add(e.to);
     (nbr.get(e.to) ?? nbr.set(e.to, new Set()).get(e.to)!).add(e.from);
   }
+  // Theme candidates: a big theme is capped at its 200 best-connected members (degree, then id), not its first 200 in file
+  // order, so that adding an entity only changes the lists it genuinely enters; file order would shift every list behind it.
   const byTheme = new Map<string, string[]>();
   for (const n of nodes) for (const t of n.themes) (byTheme.get(t) ?? byTheme.set(t, []).get(t)!).push(n.id);
+  const degree = new Map(nodes.map((n) => [n.id, n.degree]));
+  for (const [t, ids] of byTheme) byTheme.set(t, ids.sort((a, b) => (degree.get(b) ?? 0) - (degree.get(a) ?? 0) || a.localeCompare(b)).slice(0, 200));
   const related: Record<string, string[]> = {};
   for (const n of nodes) {
     const score = new Map<string, number>();
@@ -77,7 +81,7 @@ export function buildRelated(c: Compiled, perNode = 8) {
       bump(m, 2);                                            // direct neighbours
       for (const k of nbr.get(m) ?? []) bump(k, 3);          // shares a neighbour
     }
-    for (const t of n.themes) for (const k of (byTheme.get(t) ?? []).slice(0, 200)) bump(k, 1);
+    for (const t of n.themes) for (const k of byTheme.get(t) ?? []) bump(k, 1);
     const top = [...score].sort((a, b) => b[1] - a[1] || a[0].localeCompare(b[0])).slice(0, perNode).map(([id]) => id);
     if (top.length) related[n.id] = top;
   }
