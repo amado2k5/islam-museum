@@ -4,15 +4,17 @@ import { mkdirSync, writeFileSync } from "node:fs";
 import { fileURLToPath } from "node:url";
 import { MultiDirectedGraph } from "graphology";
 import {
-  Entity, LANGS, Localized, loadEnumIds, Prose, dateRange, loadEntities, loadPredicates, loadProse, loadStubs, p,
-  resolvePredicates, Range,
+  Entity, LANGS, Localized, loadEnumIds, Prose, dateRange, listFiles, loadEntities, loadPredicates, loadProse, loadStubs, p, rel,
+  resolvePredicates, Range, ROOT,
 } from "./lib.js";
+import { gitDates } from "./git-dates.js";
 
 export interface Edge {
   from: string; to: string; type: string; inverse: boolean;
   start?: any; end?: any; role?: string; note?: string; sources?: string[]; confidence?: string; perspective?: string;
 }
-export interface ProseDoc { sections: { heading: string; markdown: string }[]; frontmatter: Record<string, any> }
+/** `updated`: YYYY-MM-DD of the last commit that touched this prose file (scripts/git-dates.ts). */
+export interface ProseDoc { sections: { heading: string; markdown: string }[]; frontmatter: Record<string, any>; updated: string }
 export interface Node {
   id: string; class: string; slug: string; label: Localized; summary: Localized;
   stub: boolean; wings: string[]; regions: string[]; periods: string[]; tags: string[]; aliases: string[]; themes: string[];
@@ -22,8 +24,11 @@ export interface Node {
   prose: Record<string, ProseDoc>;
   degree: number;
   contemporaries: string[];
+  /** YYYY-MM-DD of the last commit that touched data/<class>/<slug>.yaml (a stub: its stubs file); see scripts/git-dates.ts. */
+  updated: string;
 }
-export interface Compiled { generated: string; nodes: Node[]; edges: Edge[]; coverage: Coverage }
+/** `generated` and `commit` come from the HEAD commit, so the same commit compiles to the same graph (the clock only when there is no git). */
+export interface Compiled { generated: string; commit: string | null; nodes: Node[]; edges: Edge[]; coverage: Coverage }
 export interface Coverage {
   entities: number; stubs: number;
   byClass: Record<string, number>; byWing: Record<string, number>; byPeriod: Record<string, number>; byRegion: Record<string, number>; byTheme: Record<string, number>; emptyThemes: string[];
@@ -53,7 +58,7 @@ export function entitySpan(e: Entity): { span?: Range; display?: { start?: any; 
   }
 }
 
-function splitSections(pr: Prose): ProseDoc {
+function splitSections(pr: Prose, updated: string): ProseDoc {
   const sections: { heading: string; markdown: string }[] = [];
   let cur: { heading: string; lines: string[] } | null = null;
   for (const line of pr.body.split("\n")) {
@@ -62,25 +67,30 @@ function splitSections(pr: Prose): ProseDoc {
     else if (cur) cur.lines.push(line);
   }
   if (cur) sections.push({ heading: cur.heading, markdown: cur.lines.join("\n").trim() });
-  return { sections, frontmatter: pr.frontmatter };
+  return { sections, frontmatter: pr.frontmatter, updated };
 }
 
 export function compile(): Compiled {
   const preds = loadPredicates();
   const resolved = resolvePredicates(preds);
-  const entities = loadEntities().map((x) => x.entity);
+  const loaded = loadEntities();
+  const entities = loaded.map((x) => x.entity);
   const stubs = loadStubs();
   const prose = loadProse();
   const g = new MultiDirectedGraph();
   const nodes = new Map<string, Node>();
+  const dates = gitDates(ROOT, ["data", "content"]);
+  // a stub has no file of its own: the newest of the stub files stands for all of them
+  const stubFiles = [p("data", "_stubs.yaml"), ...listFiles(p("data", "_stubs.d"), ".yaml")].map((f) => dates.dateOf(rel(f)));
+  const stubsUpdated = stubFiles.length ? stubFiles.sort().at(-1)! : dates.dateOf("data");
 
-  for (const e of entities) {
+  for (const { entity: e, file } of loaded) {
     const { span, display } = entitySpan(e);
     const { relations, label, summary, wings, regions, periods, tags, aliases, themes, id, class: cls, ...rest } = e;
     const node: Node = {
       id, class: cls, slug: id.split("/")[1], label, summary, stub: false,
       wings: wings ?? [], regions: regions ?? [], periods: periods ?? [], tags: tags ?? [], aliases: aliases ?? [], themes: themes ?? [],
-      span, display, coordinates: e.coordinates, data: rest, prose: {}, degree: 0, contemporaries: [],
+      span, display, coordinates: e.coordinates, data: rest, prose: {}, degree: 0, contemporaries: [], updated: dates.dateOf(rel(file)),
     };
     nodes.set(id, node);
   }
@@ -90,12 +100,12 @@ export function compile(): Compiled {
     const [cls, slug] = s.id.split("/");
     nodes.set(s.id, {
       id: s.id, class: cls, slug, label: s.label ?? { en: slug }, summary: {}, stub: true, wings: [], regions: [], periods: [],
-      tags: [], aliases: [], themes: [], data: { note: s.note }, prose: {}, degree: 0, contemporaries: [],
+      tags: [], aliases: [], themes: [], data: { note: s.note }, prose: {}, degree: 0, contemporaries: [], updated: stubsUpdated,
     });
   }
   for (const pr of prose) {
     const n = nodes.get(pr.id);
-    if (n) n.prose[pr.lang] = splitSections(pr);
+    if (n) n.prose[pr.lang] = splitSections(pr, dates.dateOf(rel(pr.file)));
   }
   for (const n of nodes.values()) g.addNode(n.id);
 
@@ -128,7 +138,7 @@ export function compile(): Compiled {
   }
 
   const list = [...nodes.values()].sort((a, b) => a.id.localeCompare(b.id));
-  return { generated: new Date().toISOString(), nodes: list, edges: [...edges.values()], coverage: coverage(list, entities) };
+  return { generated: dates.committed ?? new Date().toISOString(), commit: dates.commit, nodes: list, edges: [...edges.values()], coverage: coverage(list, entities) };
 }
 
 function tally<T>(items: T[], key: (t: T) => string[]): Record<string, number> {

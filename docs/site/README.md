@@ -19,6 +19,7 @@ Read this before you change anything under `site/`, `i18n/`, `scripts/validate.t
    npm run validate && npm test && npm run build
    ```
    `npm run build` runs `validate`, the graph and derive steps, the Astro build, and then `check:site` (the rendered-output assertions). A failure is a real finding: fix the data or the code, do not weaken the check.
+   The build is a function of the commit, not the clock: nothing under `site/` or `scripts/` may read the date or `Math.random()` at build time (citation dates come from git, the Hudhud ids are per-page indexes, the landing art strip is seeded from the commit). Two builds of the same commit must produce byte-identical pages; the R2 publish depends on it.
 5. **Look at the change in a browser** when it is visual: `npm --prefix site run dev` for the dev server, or serve `dist/` with `python3 -m http.server` after a build. Check at 390px width as well as desktop, and in dark mode when colours are involved.
 6. **Record the change** in the relevant document here if it changes a rule, a token, a check, or a convention. Add one line to `docs/status.md` only if the change matters to the project's live state.
 7. Attribution trailers on the commit (`AI-Agent`, `AI-Model`, `AI-Editor`), as `docs/agents/workflow.md` requires.
@@ -32,6 +33,7 @@ Read this before you change anything under `site/`, `i18n/`, `scripts/validate.t
 | Entity page (hero, at a glance, identifiers, timeline and map panel) | `site/src/layouts/EntityLayout.astro` |
 | Wing pages (time wing sort and its assertion) | `site/src/pages/[lang]/[hall]/index.astro` |
 | Hijri and Gregorian display, timeline sort key | `site/src/lib/dates.ts` |
+| Entity citation date: the day the entity's data or prose last changed (git commit dates, never the build day, so a page's HTML only changes with its content and the R2 publish re-uploads only what moved) | `scripts/git-dates.ts`, `scripts/build-graph.ts` (`updated`), `site/src/lib/graph.ts` (`updatedOn`) |
 | Timeline strip | `site/src/components/TimeStrip.astro` |
 | Schematic map and its basemap | `site/src/components/MiniMap.astro`, `site/src/data/basemap-mena.json`, `scripts/map/build_basemap.py` |
 | Hijri ↔ civil conversion | `scripts/hijri/convert.ts` |
