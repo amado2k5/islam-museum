@@ -12,3 +12,8 @@ Al-Fallas said "I never saw a better memoriser", his companion Ibn Mahdi called 
 
 ## His death
 He died in 204 AH in his eighties. {cite:tazkirat-al-huffaz j.1 p.325}
+
+## In al-Dhahabi's Siyar
+Al-Dhahabi calls him the great memoriser and author of the Musnad, Abu Dawud, Persian then Asadi then Zubayri, client of the family of al-Zubayr ibn al-'Awwam, the Basran hafiz, and places his death in 203 or 204 AH. {cite:siyar-alam-nubala-ideas-house p.1913}
+
+He heard Ayman ibn Nabil — a Follower — Ma'ruf ibn Kharrabudh, Talha ibn 'Amr, Hisham ibn Abi 'Abdallah, Shu'ba ibn al-Hajjaj, Sufyan al-Thawri, Bistam ibn Muslim, Abu Khalda Khalid ibn Dinar, Qurra ibn Khalid, Salih ibn Abi al-Akhdar, Abu 'Amir al-Khazzaz and the two Hammads. {cite:siyar-alam-nubala-ideas-house p.1913}
