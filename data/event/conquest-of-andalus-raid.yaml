@@ -1,0 +1,19 @@
+id: event/conquest-of-andalus-raid
+class: event
+kind: raid
+label: { ar: "غزوة الأندلس الأولى", en: "the first raid on al-Andalus (27 AH)" }
+date:
+  start: { edtf: "0647", hijri: "0027", calendar: julian, precision: year, status: tradition, derived: true, note: "سنة 27؛ التحويل مشتق {cite:kamil-ibn-al-athir p. 466}." }
+summary:
+  ar: "أول غزوة الأندلس: لما افتُتحت إفريقية أمر عثمان عبد الله بن نافع بن الحصين وعبد الله بن نافع بن عبد القيس أن يسيرا إلى الأندلس فأتياها من قبل البحر، وكتب عثمان إلى من انتدب معهما: أما بعد فإن القسطنطينية إنما تُفتح من قبل الأندلس. فخرجوا ومعهم البربر ففتح الله على المسلمين {cite:kamil-ibn-al-athir p. 466}."
+  en: "The first raid on al-Andalus: after Ifriqiya's conquest 'Uthman ordered 'Abdallah ibn Nafi' ibn al-Husayn and 'Abdallah ibn Nafi' ibn 'Abd al-Qays across the sea, writing to the volunteers: «Constantinople shall only be opened from the side of al-Andalus.« They went out with Berbers in their ranks and God granted them victory {cite:kamil-ibn-al-athir p. 466}."
+relations:
+  - { type: occurred_at, target: place/al-andalus, sources: [source/kamil-ibn-al-athir] }
+  - { type: had_participant, target: person/uthman-ibn-affan, role: "الخليفة", sources: [source/kamil-ibn-al-athir] }
+provenance:
+  layer: own-research
+  source: "الكامل في التاريخ لابن الأثير (دار الكتاب العربي 2012، ج2)، قراءة آبل فيجن"
+  generated_by: "Devin (SWE-2 Medium) from Apple Vision OCR"
+  run: lib-kamil-v2-batch04
+sources: [source/kamil-ibn-al-athir]
+status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 Medium)" }
