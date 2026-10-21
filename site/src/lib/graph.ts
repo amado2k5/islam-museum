@@ -14,8 +14,15 @@ export const realNodes = nodes.filter((n) => !n.stub);
 export const edgesFrom = (id: string): Edge[] => graph.edges.filter((e) => e.from === id);
 export const derived = <T = any>(name: string): T => JSON.parse(readFileSync(repoPath(".cache", "derived", `${name}.json`), "utf8"));
 export const related = (id: string): string[] => (derived<Record<string, string[]>>("related")[id] ?? []);
-// The date of this build (shown in citations); the compiled graph is regenerated on every build.
-export const buildDate = new Date().toISOString().slice(0, 10);
+// The commit the site was built from (null outside git); build-graph.ts records it so a build is a function of the commit, not the clock.
+export const buildCommit: string | null = graph.commit ?? null;
+// The day an entity page's content last changed: the later of its data file and the prose it shows (git commit dates,
+// scripts/git-dates.ts). Citations show this, not the build day, so a page's HTML only changes when its content does.
+export const updatedOn = (n: Pick<Node, "updated" | "prose">, lang: Lang): string => {
+  const pl = n.prose[lang] ? lang : n.prose.ar ? "ar" : n.prose.en ? "en" : null;
+  const prose = pl ? n.prose[pl].updated : "";
+  return prose > n.updated ? prose : n.updated;
+};
 
 // A title in the page language, else the other language (an honest interim), never the slug.
 export const labelOf = (n: Pick<Node, "label" | "slug">, lang: Lang) => n.label[lang] ?? n.label.ar ?? n.label.en ?? "";
