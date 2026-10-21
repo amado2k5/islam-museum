@@ -45,3 +45,7 @@ Cite `{cite:muntazam-ibn-al-jawzi p. N}`. Overlaps lib-kamil years 295–349 →
 - Enriched: musa-ibn-bugha (+ 259 Zanj dispatch + 261 attachment to al-Mufawwid), al-mufawwid (+ the 261 investiture detail), al-hasan-ibn-makhlad (de-stubbed: vizier for one day after Ibn Khaqan's death, fled before Musa b. Bugha).
 - Already covered, not duplicated: plague-of-basra-258 (the 258 epidemic already carried the muntazam citation), battle-of-dayr-al-aqul 262.
 - Prose (ar): zanj-sack-ahwaz-259, realm-division-261.
+
+### Batch 32 — vol. 7, obituary-roster sweep I (AH 258–262)
+- New persons (9): ahmad-ibn-sawada ("Khashish", the renunciation poet al-Mutawakkil sent 10k dirhams, d. 258), muhammad-ibn-al-hasan-al-asbahani, abu-urwa-al-bahili, ahmad-ibn-tamim-al-ifriqi (d. 'Aqsa, Ibn Yunus's rainless-city note), ishaq-ibn-ibrahim-al-saffar (al-Waqidi's pupil, d. 262), hatim-ibn-al-layth, hamdun-ibn-ammara (d. Jumada I 262), khalf-ibn-rabia (Egypt akhbar scholar), ahmad-ibn-al-hasan-rasul-nafsihi (the abandoned/fabricating Kufan, d. Egypt 262).
+- Already covered, not duplicated: khalid-ibn-yazid-al-katib (batch 26), abdallah-ibn-hashim-al-tusi (exists).
