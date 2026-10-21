@@ -1,0 +1,23 @@
+id: event/siege-of-morella-1117
+class: event
+kind: siege
+label: { ar: "حصار موريلة", en: "Siege of Morella (1117)" }
+summary:
+  ar: "بطاقة أولية لحصار موريلة؛ لم تُراجع مصادره على الصفحة بعد."
+  en: "Draft card for Siege of Morella (1117); its sources are not yet checked on the page."
+wings: [time]
+periods: [period/crusades-ayyubid-mamluk]
+regions: [andalus-europe]
+date:
+  start: { edtf: "1117", precision: year, status: tradition, derived: true }
+  end: { edtf: "1117", precision: year, status: tradition, derived: true }
+sources: [source/tarikh-islam-hasan-ibrahim]
+external_ids:
+  wikidata: Q23504964
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; event attested in narrative histories — entry not yet checked on the page"
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: wikidata-import-wave2
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 Medium)" }
