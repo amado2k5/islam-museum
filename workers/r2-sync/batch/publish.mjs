@@ -161,8 +161,11 @@ async function postWithRetry(workerUrl, stagedKey, name) {
     try {
       const result = await postProcess(workerUrl, stagedKey);
       // A 5xx reply means the Worker or the edge failed, not the archive: retry it like a
-      // dropped connection. A 4xx reply is final and is reported by applyArchive.
-      if (result.status >= 500) throw new Error(`worker answered ${result.status} ${JSON.stringify(result.report)}`);
+      // dropped connection. A 207 means some operations failed (e.g. a transient R2
+      // "internal error 10001"); the Worker keeps the archive staged in that case, so
+      // re-sending it re-applies the idempotent operations. A 4xx reply is final and is
+      // reported by applyArchive.
+      if (result.status >= 500 || result.status === 207) throw new Error(`worker answered ${result.status} ${JSON.stringify(result.report)}`);
       if (attempt > 1 && result.status === 400 && /archive not found/.test(JSON.stringify(result.report))) {
         log(`${name}: already applied by an earlier attempt`);
         return { status: 200, report: { summary: { already_applied: true } } };
