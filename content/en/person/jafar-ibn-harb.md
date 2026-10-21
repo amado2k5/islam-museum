@@ -2,11 +2,10 @@
 id: person/jafar-ibn-harb
 lang: en
 source_lang: ar
-translators: ["Claude Haiku 5.5 (claude-haiku-5-5), draft translation"]
+translators: []
 ---
-
 ## Overview
-Ja'far ibn Harb, who held great offices for the sultan, and whose favour came close to that of the vizierate, according to Ibn al-Jawzi. {cite:muntazam-ibn-al-jawzi p.687}
+The scholar Abu al-Fadl Ja'far ibn Harb of Hamadhan, the ascetic Mu'tazili, among the most devout of his people, author of works; he died in 236 AH. {cite:siyar-alam-nubala-ideas-house p.1297}
 
-## A moment of repentance
-Ibn al-Jawzi relates that one day he passed by riding in a great procession, and heard a man reading a verse with humility at the remembrance of God. He cried out "Yes, O God" several times and wept. Then he dismounted, took off his clothes, went into the Tigris and hid himself under the water. {cite:muntazam-ibn-al-jawzi p.687}
+## Anecdotes
+He attended al-Wathiq's assembly for disputation; when prayer time came al-Wathiq stepped forward and led them while Ja'far withdrew, removed his leather socks and prayed alone — though he was close to Yahya ibn Kamil. {cite:siyar-alam-nubala-ideas-house p.1297}

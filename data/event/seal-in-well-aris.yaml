@@ -1,0 +1,19 @@
+id: event/seal-in-well-aris
+class: event
+kind: other
+label: { ar: "سقوط خاتم النبي في بئر أريس", en: "the Prophet's seal lost in Bi'r Aris (30 AH)" }
+date:
+  start: { edtf: "0650", hijri: "0030", calendar: julian, precision: year, status: tradition, derived: true, note: "سنة 30؛ التحويل مشتق {cite:kamil-ibn-al-athir p. 483}." }
+summary:
+  ar: "في هذه السنة وقع خاتم النبي من يد عثمان في بئر أريس وهي على ميلين من المدينة فنزحوا البئر فلم يوجد، وكان ذلك مما أوجب على الناس {cite:kamil-ibn-al-athir p. 483}."
+  en: "The Prophet's seal-ring slipped from 'Uthman's hand into Bi'r Aris, a well two miles from Medina; they bailed it out and never found it — an omen people long remembered {cite:kamil-ibn-al-athir p. 483}."
+relations:
+  - { type: occurred_at, target: place/madinat-al-mubarak, sources: [source/kamil-ibn-al-athir] }
+  - { type: had_participant, target: person/uthman-ibn-affan, sources: [source/kamil-ibn-al-athir] }
+provenance:
+  layer: own-research
+  source: "الكامل في التاريخ لابن الأثير (دار الكتاب العربي 2012، ج2)، قراءة آبل فيجن"
+  generated_by: "Devin (SWE-2 Medium) from Apple Vision OCR"
+  run: lib-kamil-v2-batch04
+sources: [source/kamil-ibn-al-athir]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 Medium)" }

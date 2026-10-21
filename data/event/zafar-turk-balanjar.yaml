@@ -1,0 +1,21 @@
+id: event/zafar-turk-balanjar
+class: event
+kind: battle
+label: { ar: "ظفر الترك وقتل عبد الرحمن بن ربيعة", en: "the Turks' victory at Balanjar — the killing of 'Abd al-Rahman ibn Rabi'a (32 AH)" }
+date:
+  start: { edtf: "0652", hijri: "0032", calendar: julian, precision: year, status: tradition, derived: true, note: "سنة 32؛ التحويل مشتق {cite:kamil-ibn-al-athir p. 503}." }
+summary:
+  ar: "ظفر الترك والخزر على المسلمين وقتل عبد الرحمن بن ربيعة الملقب بذي النور: لما تتابعت الغزوات تذامر الترك وقالوا كنا أمة لا يُقرن بنا أحد حتى جاءت هذه الأمة القليلة فصرنا لا نقوم لها وقال بعضهم إن هؤلاء لا يموتون فكمّنوا لهم في الغياض فقتلوا نفرًا من الجند. وكان عثمان كتب إلى عبد الرحمن وهو على الباب: إن الرعية قد أبطرها البطنة فلا تقتحم بالمسلمين فإني أخشى أن يُقتلوا، فلم يرجع عن مقصده فغزا نحو بلنجر فقاتلوا المسلمين قتالًا شديدًا وقتل عبد الرحمن وكان ذو النور اسم سيفه، فأخذ أهل بلنجر جسده وجعلوه في تابوت يستسقون به. وانهزم الناس فرقتين ففرقة نحو الباب لقوا سلمان بن ربيعة أخا عبد الرحمن فنجا بهم، وفرقة نحو يلان وجرجان فيهم سلمان الفارسي وأبو هريرة. ثم تأمر سلمان على الجيش فأبى حبيب بن مسلمة حتى كاد أهل الشام يضربونه فقال الكوفيون إذن نضرب حبيبًا ونحبسه {cite:kamil-ibn-al-athir p. 503-504}."
+  en: "Balanjar: the Turks and Khazars, after testing that Muslims could bleed, turned on the invaders; 'Uthman's letter — «the flock has grown fat with ease; do not lead them into peril« — came too late or went unheeded, and 'Abd al-Rahman ibn Rabi'a, called Dhu'l-Nur after his sword, was killed before the town, his body kept by its people in a coffin they prayed with for rain. The army split in flight — one part reaching Salman ibn Rabi'a at the Bab, another Salman al-Farisi and Abu Hurayra in Yilan and Jurjan. When the Kufans and Syrians nearly came to blows over command, the Kufans answered the Syrians' threat to strike Salman: «then we shall strike Habib and jail him« {cite:kamil-ibn-al-athir p. 503-504}."
+relations:
+  - { type: occurred_at, target: place/balanjar, sources: [source/kamil-ibn-al-athir] }
+  - { type: had_participant, target: person/abd-al-rahman-ibn-rabia, role: "قُتل", sources: [source/kamil-ibn-al-athir] }
+  - { type: had_participant, target: person/salman-ibn-rabia, sources: [source/kamil-ibn-al-athir] }
+  - { type: had_participant, target: person/habib-ibn-maslama, sources: [source/kamil-ibn-al-athir] }
+provenance:
+  layer: own-research
+  source: "الكامل في التاريخ لابن الأثير (دار الكتاب العربي 2012، ج2)، قراءة آبل فيجن"
+  generated_by: "Devin (SWE-2 Medium) from Apple Vision OCR"
+  run: lib-kamil-v2-batch04
+sources: [source/kamil-ibn-al-athir]
+status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 Medium)" }

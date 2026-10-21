@@ -2,8 +2,7 @@
 id: person/rawh-ibn-hatim
 lang: en
 source_lang: ar
-translators: ["Claude Haiku 5.5 (claude-haiku-5-5), draft translation"]
+translators: []
 ---
-
 ## Overview
-Rawh ibn Hatim. al-Baladhuri reports that he was appointed over Ifriqiya after Yazid ibn Hatim al-Muhallabi, and that after him Fadl ibn Rawh was appointed {cite:futuh-buldan-maarif-1407 p.326}. See [[event/yazid-ibn-hatim-ifriqiya|Yazid ibn Hatim's governorship of Ifriqiya]].
+Rawh ibn Hatim ibn Qaysa ibn al-Muhallab ibn Abi Sufra al-Muhallabi, the amir Abu Hatim, one of the generous and the brave; he held great governorships for al-Saffah, al-Mansur and others, ruling al-Sind then Basra. When his brother Yazid ibn Hatim, amir of the Maghreb, died, al-Rashid appointed Rawh over Ifriqiya; he died in Ramadan 174 AH and was buried beside his brother at Qayrawan. {cite:siyar-alam-nubala-ideas-house p.1700}
