@@ -182,3 +182,11 @@ Validation: 0 errors; coverage regenerated.
 - Deferred: layth-ibn-sad (entry exists but body unlocated in scan), yahya-ibn-adam + muhammad-ibn-yusuf-al-firyabi + amr-ibn-awn (no data records — new-entity candidates, out of this lane's scope), nafi-ibn-umar-al-jumahi, said-ibn-abi-maryam, adam-ibn-abi-iyas, yahya-ibn-muadh-al-razi, hisham-ibn-al-kalbi, harmala-ibn-yahya, ubaydallah-ibn-jarir-al-utaki (tarjama bodies not located).
 - Lane total: 95 records.
 - Validation: 0 errors; coverage regenerated.
+
+## Batch 011 — siyar sweep via header index (9 records)
+
+- New prose (missing): salim-ibn-ayyub-al-razi (p.1889, Shafi'i murabit, d.447), asbagh-ibn-al-faraj (p.1144, scholar of Egypt, d.225), muslim-ibn-khalid-al-zanji (p.3840-3841, faqih of Mecca, al-Shafi'i's teacher, d.180), abu-bakr-ibn-qawam (p.1236, ascetic of Balis/Aleppo region, d.658), al-zubayr-ibn-abd-al-wahid-al-asadabadi (p.1711, hafiz traveller, d.347), abd-al-aziz-ibn-al-walid (p.2296, son of al-Walid I, the succession affair).
+- Enriched: ibrahim-ibn-al-ashtar (p.652), umar-ibn-abi-salama (p.2902), ashhab-ibn-abd-al-aziz (p.1143, mufti of Egypt, d.204, "Egypt produced no one more versed in fiqh than Ashhab").
+- Rejected false matches: al-rabi-ibn-ziyad-al-bakri (matched al-Rabi' b. Anas the exegete), yusuf-ibn-abd-al-rahman-al-fihri (matched a later Murcia ruler), adi-ibn-zayd-al-ibadi (quote only, no tarjama), sharhabil-ibn-hasana (matched a descendant).
+- Lane total: 104 records.
+- Validation: 0 errors; coverage regenerated.
