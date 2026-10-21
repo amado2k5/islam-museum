@@ -2,12 +2,10 @@
 id: person/shahr-ibn-hawshab
 lang: en
 source_lang: ar
-translators: ["Claude Haiku 5.5 (claude-haiku-5-5), draft translation"]
+translators: []
 ---
 ## Overview
-One of the jurists of Syria in the third generation in al-Shirazi's classification. He is mentioned together with Mujahid, Abd Allah ibn Abi Mulayka and others {cite:tabaqat-fuqaha-abbas-1981}.
+Shahr ibn Hawshab Abu Sa'id al-Ash'ari of Syria, client of the Companion Asma' bint Yazid al-Ansariyya, one of the great scholars of the Successors; he narrated from his patroness Asma', Abu Hurayra, 'A'isha, Ibn 'Umar, 'Abdallah ibn 'Amr and others. {cite:siyar-alam-nubala-ideas-house p.1996}
 
-## His death
-al-Shirazi says that he died in the year 112 AH. The editor quotes Ibn Sa'd with a differing opinion, the year 98 AH. The corresponding Common Era date is derived {cite:tabaqat-fuqaha-abbas-1981 p.40}.
-
-The date of death needs an additional source.
+## Reports
+He presented the Qur'an to Ibn 'Abbas, and while in charge of the treasury took a purse of dirhams over which there was talk. He died in 100 AH or after; some found him weak and others trustworthy, and al-Nasa'i counted his reports from Asma' objectionable. {cite:siyar-alam-nubala-ideas-house p.1997}

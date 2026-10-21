@@ -2,7 +2,7 @@
 id: person/yazid-ibn-al-asamm
 lang: en
 source_lang: ar
-translators: ["Claude Haiku 5.5 (claude-haiku-5-5), draft translation"]
+translators: []
 ---
 ## Overview
-From the people of al-Raqqa, the son of a sister of [[person/maymuna-bint-al-harith|Maymuna]], wife of the Prophet. He died in the days of Yazid ibn Abd al-Malik {cite:muruj-al-dhahab p. 191}.
+Yazid ibn al-Asamm, among the senior Successors of Raqqa, whose father had companionship; the imam and hafiz Abu 'Awf al-'Amiri al-Bakka'i. He narrated from his aunt the Mother of the Faithful Maymuna, her nephew Ibn 'Abbas, 'Ali ibn Abi Talib, Sa'd ibn Abi Waqqas, Abu Hurayra, 'A'isha and others. He died in 103 AH. {cite:siyar-alam-nubala-ideas-house p.4219}
