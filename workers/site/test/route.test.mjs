@@ -69,7 +69,7 @@ test("_headers blocks apply to exact paths and to /* wildcards", () => {
 });
 
 test("edge cache: HTML and redirects carry an hour of cache, 404s none", async () => {
-  const { HTML_CACHE_CONTROL, REDIRECT_CACHE_CONTROL, redirectTo } = await import("../src/index.js");
+  const { HTML_CACHE_CONTROL, REDIRECT_CACHE_CONTROL, redirectTo } = await import("../src/route.js");
   assert.match(HTML_CACHE_CONTROL, /public, max-age=3600, s-maxage=3600/);
   const r = redirectTo("https://islam.museum/ar/person/muhammad/", 301);
   assert.equal(r.status, 301);
