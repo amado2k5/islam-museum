@@ -2,9 +2,10 @@
 id: person/bishr-al-hafi
 lang: en
 source_lang: ar
-translators: ["Claude Haiku 5.5 (claude-haiku-5-5), draft translation"]
+translators: []
 ---
 ## Overview
-Abu Nasr Bishr ibn al-Harith al-Hafi, from the land of Merv, who died in Baghdad in 227 AH. {cite:muruj-al-dhahab p.453}
+Abu Nasr Bishr ibn al-Harith ibn 'Abd al-Rahman ibn 'Ata' al-Marwazi, known as al-Hafi, was among the most renowned ascetics and worshippers of third-century Baghdad. Born in 152 AH, he died in Baghdad in 227 AH. Ibn al-Nadim describes him as the ascetic worshipper and lists a work on renunciation (al-Zuhd) for him. {cite:siyar-alam-nubala-ideas-house p.1204} {cite:fihrist-ibn-al-nadim p.261} {cite:muruj-al-dhahab p.453}
 
-Ibn al-Nadim describes him as the devout ascetic, and mentions a book of his called "al-Zuhd". {cite:fihrist-ibn-al-nadim p.261}
+## Life
+He heard from Sharik al-Qadi, Hammad ibn Zayd, Ibn al-Mubarak and others, and leading hadith masters narrated from him. He later became so famous for preferring piety over learning that it was said he buried his books. His name became a byword in Baghdad for scrupulous self-denial, and al-Dhahabi reports that his grave was visited for blessing. {cite:siyar-alam-nubala-ideas-house p.1204-1205}
