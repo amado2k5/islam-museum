@@ -159,3 +159,10 @@ Validation: 0 errors; coverage regenerated.
 - New prose: simak-ibn-harb (siyar #2391, p.1936), muawiya-ibn-salih (siyar #6176, p.3893), hammad-ibn-usama (tazkirat-al-huffaz j.2 p.299).
 - Still deferred: waki-ibn-al-jarrah, nafi-ibn-umar-al-jumahi (tarjama bodies not located in the scanned volumes), plus prior deferrals.
 - Lane total: 76 records with trilingual prose (69 after batch 006).
+
+## Batch 008 — waki', ibn-ulayyah, jurayri, kalbi, ibn-ma'in (5 records)
+
+- New prose: waki-ibn-al-jarrah (siyar #6558, p.4121-4123), ibn-ulayyah (siyar p.1092-1093), said-ibn-iyas-al-jariri (siyar #2230, p.1793-1794).
+- Enriched: muhammad-ibn-al-saib-al-kalbi (siyar #5212, p.3432), yahya-ibn-main (siyar #6694, p.4202-4204).
+- Deferred this round: hisham-ibn-al-kalbi, yahya-ibn-muadh-al-razi, ubaydallah-ibn-jarir, fudayl-ibn-iyad, ibrahim-ibn-adham, nafi-ibn-umar-al-jumahi (tarjama bodies not located in scanned volumes).
+- Lane total: 81 records.
