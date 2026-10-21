@@ -33,3 +33,8 @@ Cite `{cite:muntazam-ibn-al-jawzi p. N}`. Overlaps lib-kamil years 295–349 →
 - New buildings (2): bimaristan-al-sayyida, bimaristan-al-muqtadiri (both 306).
 - New persons (3): warqa-ibn-nawfal, ibn-al-jassas-al-jawhari, ishaq-ibn-ismail-al-samani.
 - Enriched (~14): killing-of-al-hallaj (E/W crucifixion days), abu-said + abu-tahir al-qarmati (301 succession), ali-ibn-isa, ali-ibn-al-furat (disgrace 299 + return 304), muanis-al-muzaffar (laqab 309), al-husayn-ibn-hamdan (296 plot + 301 raid), abu-l-hayja, nasr-ibn-ahmad, al-qasim-ibn-sima, thabit-ibn-sinan, abu-bakr-ibn-dawud + al-tabari (309 Hanbali debate), ibn-al-mutazz-caliphate-296.
+
+### Batch 30 — vol. 7, AH 310–349 (scan AAlexandrina-151934, ~p.458–687)
+- New events (15): euphrates-flood-329, baghdad-famine-330, mandylion-request-331, ras-al-ayn-sack-332, baghdad-rains-collapse-332, baratha-demolition-313, nasir-dawla-march-335, night-phantom-and-flood-337, karkh-fitna-338, sayf-dawla-disaster-339, mecca-khutba-war-341, sayf-dawla-domesticos-342, sea-recession-346, baghdad-quakes-347, wasit-boats-drown-348, qantara-fitna-349.
+- New person: al-mustajir-billah-claimant (349 Muqan pretender).
+- Enriched (~13): buyid-entry-baghdad-334 (oaths/laqabs/coins), muttaqi-blinding-333 (Mosul/Raqqa + broken oaths), black-stone-return-339 (Kufa column + 50k ask), rayy-talaqan-earthquake-346, tuzun, al-muttaqi, sayf-al-dawla (339 disaster + 342/343 victories), muizz + nasir al-dawla, al-mustakfi ("imam al-haqq" coinage), al-radi, ibn-muqla (fires + severed hand), al-shalmaghani.
