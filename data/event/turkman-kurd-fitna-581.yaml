@@ -1,0 +1,23 @@
+id: event/turkman-kurd-fitna-581
+class: event
+kind: civil-war
+label: { ar: "الفتنة بين التركمان والأكراد بديار الجزيرة والموصل", en: "the Turkmen-Kurd war across the Jazira and Mosul" }
+date:
+  start: { edtf: "1185~", hijri: "0581", calendar: julian, precision: year, status: tradition, derived: true }
+summary:
+  ar: "وقعت الفتنة بين التركمان والأكراد بديار الجزيرة والموصل حتى امتلأت البلاد من قتلاها ونهبها وكانت من أعظم فتن تلك الديار {cite:kamil-ibn-al-athir p. 136}."
+  en: "A great fitna ran between the Turkmen and the Kurds through the Jazira and Mosul until the lands filled with dead and plunder — among the greatest disturbances of that country {cite:kamil-ibn-al-athir p. 136}."
+sides:
+- label: { ar: "التركمان", en: "the Turkmen" }
+- label: { ar: "الأكراد", en: "the Kurds" }
+
+relations:
+  - { type: occurred_at, target: place/mosul, sources: [source/kamil-ibn-al-athir] }
+  - { type: occurred_at, target: place/jazira, sources: [source/kamil-ibn-al-athir] }
+provenance:
+  layer: own-research
+  source: "الكامل في التاريخ لابن الأثير، قراءة آبل فيجن"
+  generated_by: "Devin (SWE-2 Medium) from Apple Vision OCR"
+  run: lib-kamil-v12-batch03
+sources: [source/kamil-ibn-al-athir]
+status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 Medium)" }
