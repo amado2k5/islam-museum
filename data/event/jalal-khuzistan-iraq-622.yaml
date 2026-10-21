@@ -1,0 +1,22 @@
+id: event/jalal-khuzistan-iraq-622
+class: event
+kind: campaign
+label: { ar: "وصول جلال الدين إلى خوزستان والعراق", en: "Jalal al-Din reaches Khuzistan and Iraq" }
+date:
+  start: { edtf: "1225~", hijri: "0622", calendar: julian, precision: year, status: tradition, derived: true }
+summary:
+  ar: "وصل جلال الدين بن خوارزم شاه بعد انهزامه من التتر إلى خوزستان والعراق فجمع له جندًا وقوي أمره {cite:kamil-ibn-al-athir p. 443}."
+  en: "Jalal al-Din, fresh from defeat by the Mongols, reached Khuzistan and Iraq and gathered a new army {cite:kamil-ibn-al-athir p. 443}."
+sides:
+  - label: { ar: "المسلمون" }
+  - label: { ar: "خصومهم" }
+relations:
+  - { type: occurred_at, target: place/khuzistan, sources: [source/kamil-ibn-al-athir] }
+  - { type: had_participant, target: person/jalal-al-din-khwarazmshah, role: "الواصل", sources: [source/kamil-ibn-al-athir] }
+provenance:
+  layer: own-research
+  source: "الكامل في التاريخ لابن الأثير، قراءة آبل فيجن"
+  generated_by: "Devin (SWE-2 Medium) from Apple Vision OCR"
+  run: lib-kamil-v12-batch07
+sources: [source/kamil-ibn-al-athir]
+status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 Medium)" }

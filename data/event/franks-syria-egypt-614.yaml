@@ -1,0 +1,22 @@
+id: event/franks-syria-egypt-614
+class: event
+kind: campaign
+label: { ar: "ظهور الفرنج بالشام ومسيرهم إلى ديار مصر", en: "The Franks appear in Syria and march on Egypt" }
+date:
+  start: { edtf: "1217~", hijri: "0614", calendar: julian, precision: year, status: tradition, derived: true }
+summary:
+  ar: "خرج الفرنج إلى الشام ثم ساروا نحو الديار المصرية، فكان مبدأ وقعة دمياط الكبرى {cite:kamil-ibn-al-athir p. 373}."
+  en: "The Franks came out to Syria then marched on Egypt — the opening move of the great Damietta war {cite:kamil-ibn-al-athir p. 373}."
+sides:
+  - label: { ar: "المسلمون" }
+  - label: { ar: "خصومهم" }
+relations:
+  - { type: occurred_at, target: place/dimyat, sources: [source/kamil-ibn-al-athir] }
+  - { type: had_participant, target: group/ifranja, role: "الغازون", sources: [source/kamil-ibn-al-athir] }
+provenance:
+  layer: own-research
+  source: "الكامل في التاريخ لابن الأثير، قراءة آبل فيجن"
+  generated_by: "Devin (SWE-2 Medium) from Apple Vision OCR"
+  run: lib-kamil-v12-batch07
+sources: [source/kamil-ibn-al-athir]
+status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 Medium)" }

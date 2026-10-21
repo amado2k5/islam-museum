@@ -1,0 +1,20 @@
+id: event/death-muazzam-624
+class: event
+kind: death
+label: { ar: "وفاة الملك المعظم صاحب دمشق وملك ولده", en: "Death of al-Malik al-Mu'azzam of Damascus" }
+date:
+  start: { edtf: "1227~", hijri: "0624", calendar: julian, precision: year, status: tradition, derived: true }
+summary:
+  ar: "توفي الملك المعظم عيسى بن العادل صاحب دمشق فملك ولده الناصر داود مكانه، فتغيرت أحوال البيت الأيوبي {cite:kamil-ibn-al-athir p. 473}."
+  en: "al-Mu'azzam Isa of Damascus died; his son al-Nasir Dawud succeeded, and the Ayyubid balance shifted {cite:kamil-ibn-al-athir p. 473}."
+relations:
+  - { type: occurred_at, target: place/damascus, sources: [source/kamil-ibn-al-athir] }
+  - { type: had_participant, target: person/al-malik-al-muazzam, role: "المتوفى", sources: [source/kamil-ibn-al-athir] }
+  - { type: had_participant, target: person/al-malik-al-nasir-salah-al-din-dawud, role: "الخلف", sources: [source/kamil-ibn-al-athir] }
+provenance:
+  layer: own-research
+  source: "الكامل في التاريخ لابن الأثير، قراءة آبل فيجن"
+  generated_by: "Devin (SWE-2 Medium) from Apple Vision OCR"
+  run: lib-kamil-v12-batch07
+sources: [source/kamil-ibn-al-athir]
+status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 Medium)" }

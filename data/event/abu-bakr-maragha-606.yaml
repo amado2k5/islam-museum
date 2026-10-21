@@ -1,0 +1,19 @@
+id: event/abu-bakr-maragha-606
+class: event
+kind: other
+label: { ar: "ملك أبي بكر بن البهلوان مراغة", en: "Abu Bakr ibn al-Bahlawan takes Maragha" }
+date:
+  start: { edtf: "1209~", hijri: "0606", calendar: julian, precision: year, status: tradition, derived: true }
+summary:
+  ar: "ملك أبو بكر بن البهلوان مدينة مراغة بأذربيجان بعد موت أبيه {cite:kamil-ibn-al-athir p. 342}."
+  en: "Abu Bakr ibn Bahlawan succeeded to Maragha in Azerbaijan on his father's death {cite:kamil-ibn-al-athir p. 342}."
+relations:
+  - { type: occurred_at, target: place/maragha, sources: [source/kamil-ibn-al-athir] }
+  - { type: had_participant, target: person/abu-bakr-ibn-bahlawan, role: "المالك", sources: [source/kamil-ibn-al-athir] }
+provenance:
+  layer: own-research
+  source: "الكامل في التاريخ لابن الأثير، قراءة آبل فيجن"
+  generated_by: "Devin (SWE-2 Medium) from Apple Vision OCR"
+  run: lib-kamil-v12-batch06
+sources: [source/kamil-ibn-al-athir]
+status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 Medium)" }

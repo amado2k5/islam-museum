@@ -1,0 +1,22 @@
+id: event/georgians-ganja-622
+class: event
+kind: siege
+label: { ar: "حصر الكرج مدينة كنجة", en: "The Georgians besiege Ganja" }
+date:
+  start: { edtf: "1225~", hijri: "0622", calendar: julian, precision: year, status: tradition, derived: true }
+summary:
+  ar: "حصرت الكرج مدينة كنجة من بلاد أران وشدّدوا على أهلها {cite:kamil-ibn-al-athir p. 443}."
+  en: "The Georgians besieged Ganja in Arran and pressed its people hard {cite:kamil-ibn-al-athir p. 443}."
+sides:
+  - label: { ar: "المسلمون" }
+  - label: { ar: "خصومهم" }
+relations:
+  - { type: occurred_at, target: place/kanjah, sources: [source/kamil-ibn-al-athir] }
+  - { type: had_participant, target: group/georgians, role: "الحاصرون", sources: [source/kamil-ibn-al-athir] }
+provenance:
+  layer: own-research
+  source: "الكامل في التاريخ لابن الأثير، قراءة آبل فيجن"
+  generated_by: "Devin (SWE-2 Medium) from Apple Vision OCR"
+  run: lib-kamil-v12-batch07
+sources: [source/kamil-ibn-al-athir]
+status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 Medium)" }

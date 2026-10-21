@@ -1,0 +1,22 @@
+id: event/mongols-maragha-628
+class: event
+kind: conquest
+label: { ar: "ملك التتر مراغة", en: "The Mongols take Maragha" }
+date:
+  start: { edtf: "1231~", hijri: "0628", calendar: julian, precision: year, status: tradition, derived: true }
+summary:
+  ar: "ملكت التتر مدينة مراغة من بلاد أذربيجان بعد خروجهم إليها في جموع لم يسمع بمثلها {cite:kamil-ibn-al-athir p. 490}."
+  en: "The Mongols took Maragha in Azerbaijan after pouring in in unheard-of numbers {cite:kamil-ibn-al-athir p. 490}."
+sides:
+  - label: { ar: "المسلمون وخصومهم" }
+  - label: { ar: "الطرف الآخر" }
+relations:
+  - { type: occurred_at, target: place/maragha, sources: [source/kamil-ibn-al-athir] }
+  - { type: had_participant, target: group/mongols, role: "المالكون", sources: [source/kamil-ibn-al-athir] }
+provenance:
+  layer: own-research
+  source: "الكامل في التاريخ لابن الأثير، قراءة آبل فيجن"
+  generated_by: "Devin (SWE-2 Medium) from Apple Vision OCR"
+  run: lib-kamil-v12-batch08
+sources: [source/kamil-ibn-al-athir]
+status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 Medium)" }

@@ -1,0 +1,22 @@
+id: event/qatada-madina-war-601
+class: event
+kind: war
+label: { ar: "الحرب بين أمير مكة وأمير المدينة", en: "War between the amirs of Mecca and Medina" }
+date:
+  start: { edtf: "1204~", hijri: "0601", calendar: julian, precision: "year", status: tradition, derived: true }
+summary:
+  ar: "كانت الحرب بين الأمير قتادة الحسيني أمير مكة وأمير المدينة، وتقاتلا حتى استظهر قتادة {cite:kamil-ibn-al-athir p. 298}."
+  en: "War broke out between Qatada al-Husayni, amir of Mecca, and the amir of Medina; Qatada prevailed {cite:kamil-ibn-al-athir p. 298}."
+sides:
+  - label: { ar: "قتادة الحسيني أمير مكة" }
+  - label: { ar: "أمير المدينة ومن معه" }
+relations:
+  - { type: occurred_at, target: place/mecca, sources: [source/kamil-ibn-al-athir] }
+  - { type: had_participant, target: person/qatada-ibn-idris-al-alawi, role: "أمير مكة", sources: [source/kamil-ibn-al-athir] }
+provenance:
+  layer: own-research
+  source: "الكامل في التاريخ لابن الأثير، قراءة آبل فيجن"
+  generated_by: "Devin (SWE-2 Medium) from Apple Vision OCR"
+  run: lib-kamil-v12-batch05
+sources: [source/kamil-ibn-al-athir]
+status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 Medium)" }
