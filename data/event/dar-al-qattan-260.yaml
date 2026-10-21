@@ -1,0 +1,21 @@
+id: event/dar-al-qattan-260
+class: event
+kind: other
+label: { ar: "إلحاق دار القطان بجامع المنصور" }
+summary:
+  ar: "في سنة ستين ومائتين أمر مفلح التركي أن تُزاد في جامع المنصور الدار المسماة بدار القطان، وكان قديمًا ديوانًا للنصور، فتقدم مفلح إلى صاحبه القطان ببنائها وجعلها في الجامع ليُصلى فيها فنُسبت إلى القطان {cite:muntazam-ibn-al-jawzi p. 110}."
+  en: "In 260 the Turk Muflih ordered the annexation to al-Mansur's congregational mosque of the hall called Dar al-Qattan, formerly a falconry bureau; its keeper al-Qattan built it into the mosque for prayer, and it took his name {cite:muntazam-ibn-al-jawzi p. 110}."
+wings: [time]
+periods: [period/abbasid-early]
+regions: [levant-iraq]
+date:
+  start: { edtf: "0873~", hijri: "0260", calendar: julian, precision: year, status: tradition, derived: true, note: "٢٦٠؛ التحويل مشتق {cite:muntazam-ibn-al-jawzi p. 110}." }
+relations:
+  - { type: occurred_at, target: place/baghdad, sources: [source/muntazam-ibn-al-jawzi] }
+provenance:
+  layer: own-research
+  source: "المنتظم لابن الجوزي (ط حيدرآباد 1357، ج5، سنة 260)، قراءة آبل فيجن"
+  generated_by: "Devin (SWE-2 Medium) from Apple Vision OCR"
+  run: lib-muntazam-258-349-batch31
+sources: [source/muntazam-ibn-al-jawzi]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 Medium)" }
