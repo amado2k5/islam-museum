@@ -50,6 +50,7 @@ _Second edition, 21 October 2026 (repository state: commit 509fd6db8 on `main`, 
 5. **December 2026.** WSIS Prizes 2027 submission.
 6. **March 2027.** Read the ICT in Education Prize 2027 theme.
 7. **Before any nomination is confirmed.** Decide the legal vehicle (incorporation as a Canadian not-for-profit); do not name an entity that does not exist.
+8. **Every time the package is sent.** Replace the `[date of sending]` and `[telephone]` placeholders; refresh the figures from the public coverage page at that moment (not from the repository) so that what the reader can check matches what the dossier says, and date them; check that the last Pages deploy completed (deploys are cancelled by newer pushes, so the HTML can lag the API by hours).
 
 ### A.5 Claims register: what the dossier says and where it comes from
 
@@ -73,6 +74,8 @@ _Second edition, 21 October 2026 (repository state: commit 509fd6db8 on `main`, 
 | No servers, no databases, no runtime AI, no accounts, no cookies, no third-party scripts | ADR 0002, `scripts/check-static.ts`, live home page scan 21 Oct | verified | verified (no external script tags in the live page) |
 | Visitors | Founder's reading of Cloudflare edge analytics | about 2,150 human unique visitors from more than 80 countries; about 200,000 automated requests, first week | **not refreshed; the founder must supply current figures before sending** |
 | Public site first published; planning began | first commit; founder's statement and domain record | 11 Oct 2026; Sep 2025 (timelinethis.app) | unchanged |
+| Founder's name form | founder's instruction (21 Oct 2026) | Ahmed Abdelaal | **Ahmed Abdel Aal** in Parts B and C; `GOVERNANCE.md`, `LICENSE` and commit trailers still use "Abdelaal" |
+| Legal entity | founder's statement (21 Oct 2026) | "incorporation in progress" | **none exists, no filing made; intention only.** `GOVERNANCE.md` and the DPGA ownership answer still say "in progress" and need the same correction |
 
 What the dossier deliberately does not claim: an institutional partner, a legal entity, a human-reviewed corpus, a user study, a licence for the AI illustrations that has not been written down, or a track record longer than the project has.
 
@@ -92,7 +95,7 @@ What the dossier deliberately does not claim: an institutional partner, a legal 
 
 ## Part B: cover letter to the nominating organisation
 
-Ahmed Abdelaal
+Ahmed Abdel Aal
 Founder, islam.museum
 Oakville, Ontario, Canada
 ahamdy@gmail.com · [telephone]
@@ -111,7 +114,7 @@ Dear colleagues,
 
 I am writing to ask whether the International Council of Museums, which holds associate status in official partnership with UNESCO, would provide a nomination letter for islam.museum for the UNESCO-Sharjah Prize for Arab Culture, 22nd edition.
 
-islam.museum is a free, open, Arabic-first digital museum of Islamic civilization: its faith, peoples, places, ideas, buildings, objects, texts and living culture across fourteen centuries. It is built as an open knowledge graph in which every person, place, event, text and idea is a record with sources, dates in two calendars and documented relations to other records. As of 21 October 2026 it holds 33,578 records in 21 classes, linked by about 31,800 relations, with articles in Arabic, English and Urdu for more than 19,500 of them. The structured data is dedicated to the public domain under CC0 1.0, the prose is licensed CC BY-SA 4.0, and the software is MIT-licensed, so that any school, library, museum or researcher may copy, translate and build on the whole collection. Photographs of objects are never copied: they are displayed from the holding institutions' own servers, under their own terms, with credit.
+islam.museum is a free, open, Arabic-first digital museum of Islamic civilization: its faith, peoples, places, ideas, buildings, objects, texts and living culture across fourteen centuries. It is built as an open knowledge graph in which every person, place, event, text and idea is a record with sources, dates in two calendars and documented relations to other records. On 21 October 2026 the repository held 33,578 records in 21 classes, linked by about 31,800 relations, with articles in Arabic, English and Urdu for more than 19,500 of them; the public coverage page shows the figures of the last completed build. The structured data is dedicated to the public domain under CC0 1.0, the prose is licensed CC BY-SA 4.0, and the software is MIT-licensed, so that any school, library, museum or researcher may copy, translate and build on the whole collection. Photographs of objects are never copied: they are displayed from the holding institutions' own servers, under their own terms, with credit.
 
 The museum grew out of a prototype timeline application, timelinethis.app, which I began in September 2025; the public site went live on 11 October 2026. It is designed to the standard of a public institution: static files with no servers, no databases and no artificial intelligence on the visitor's path; no personal data collected, no cookies, no accounts, no advertising; every page readable without JavaScript and built to WCAG 2.2 AA. Its editorial charter commits it to a neutral, descriptive voice, and no record is marked reviewed until a person has checked it against its sources.
 
@@ -121,15 +124,15 @@ I would be grateful for answers to three questions:
 
 1. Does ICOM nominate candidates for the UNESCO-Sharjah Prize, and if so, what must a nomination letter contain?
 2. What is the deadline for the 22nd edition, and does ICOM set an earlier deadline for requests?
-3. How may I submit the dossier to ICOM electronically, and would ICOM be willing to discuss the project by video call or in writing?
+3. Would ICOM be willing to discuss the project by video call or in writing? The dossier is enclosed as a PDF; if ICOM prefers another format or route, I will provide it.
 
-The enclosed dossier sets out the mission, the technical architecture, the open-data framework, the sustainable development goals the project serves, and its limits. It states plainly what the museum has not yet done: its records are still in draft review, about a fifth of them are preliminary cards awaiting proper sourcing, its legal entity is being incorporated, and it is young. I would rather ICOM judge the project on an exact account than on an inflated one.
+The enclosed dossier sets out the mission, the technical architecture, the open-data framework, the sustainable development goals the project serves, and its limits. It states plainly what the museum has not yet done: its records are still in draft review, about a fifth of them are preliminary cards awaiting proper sourcing, it has no legal entity yet, and it is young. I would rather ICOM judge the project on an exact account than on an inflated one.
 
 Thank you for your time, and for ICOM's work for museums everywhere.
 
 Yours sincerely,
 
-Ahmed Abdelaal
+Ahmed Abdel Aal
 Founder, islam.museum
 
 Enclosure: islam.museum dossier (PDF)
@@ -141,7 +144,7 @@ Enclosure: islam.museum dossier (PDF)
 # islam.museum
 ## An open, Arabic-first digital museum of Islamic civilization, built as a public good
 
-Submitted by Ahmed Abdelaal, founder, Oakville, Ontario, Canada. Figures as of 21 October 2026; current figures are published at https://islam.museum/en/coverage/.
+Submitted by Ahmed Abdel Aal, founder, Oakville, Ontario, Canada. Figures are a dated snapshot of the repository (21 October 2026, 17:13 UTC); the public coverage page at https://islam.museum/en/coverage/ shows the figures of the last completed build and may lag the repository by some hours.
 
 ### 1. Executive summary
 
@@ -164,9 +167,9 @@ Submitted by Ahmed Abdelaal, founder, Oakville, Ontario, Canada. Figures as of 2
 | Articles in Arabic / English / Urdu | 19,584 / 19,504 / 19,504 |
 | Records that are preliminary cards awaiting proper sourcing (see section 4) | about 6,840 |
 
-**Reach.** In its first week of publication (11 to 17 October 2026) the site was read by approximately 2,150 human unique visitors from more than 80 countries and answered approximately 200,000 automated requests from search engines and AI indexers (founder-reported, from Cloudflare edge analytics, which set no cookies). [Replace with current figures before sending.]
+**Reach.** In its first week of publication (11 to 17 October 2026) the site was read by approximately 2,150 human unique visitors from more than 80 countries and answered approximately 200,000 automated requests from search engines and AI indexers (founder's reading of Cloudflare edge analytics, which set no cookies).
 
-**Who built it.** The museum is founded and led from Oakville, Ontario, by Ahmed Abdelaal. Planning began in September 2025 with a prototype timeline application, timelinethis.app, more than a year before the public site opened on 11 October 2026. It is Arabic-first by charter: Arabic labels, summaries, prose, alt text, map labels and interface come first; English and Urdu are translations, shipped with every change since 18 October 2026. Drafting is assisted by AI models at build time under a published editorial charter; every draft enters as a labelled draft with full provenance, and nothing is marked reviewed until a person has checked it.
+**Who built it.** The museum is founded and led from Oakville, Ontario, by Ahmed Abdel Aal. Planning began in September 2025 with a prototype timeline application, timelinethis.app, more than a year before the public site opened on 11 October 2026. It is Arabic-first by charter: Arabic labels, summaries, prose, alt text, map labels and interface come first; English and Urdu are translations, shipped with every change since 18 October 2026. Drafting is assisted by AI models at build time under a published editorial charter; every draft enters as a labelled draft with full provenance, and nothing is marked reviewed until a person has checked it.
 
 **What is asked.** A nomination letter for the UNESCO-Sharjah Prize for Arab Culture, 22nd edition, from an NGO in official partnership with UNESCO, and guidance toward the UNESCO programmes where an open-knowledge institution of this kind can contribute most.
 
@@ -209,15 +212,6 @@ Submitted by Ahmed Abdelaal, founder, Oakville, Ontario, Canada. Figures as of 2
 
 **UNESCO programme alignment.** Arabic language and Arabic cultural dissemination (Arabic by default; English and Urdu as translations of the finished Arabic); intercultural dialogue (a neutral front door for readers outside the tradition, and a broad front door for readers inside it); open educational resources and open science (CC0, CC BY-SA, MIT, stable identifiers, open API); Memory of the World principles (sourced, dated, machine-readable documentation); media and information literacy (every claim carries its source and its review state).
 
-**Reach to date (first week online, founder-reported from edge analytics; replace with current figures before sending).**
-
-| Indicator | Figure |
-|---|---|
-| Human unique visitors | approximately 2,150 |
-| Countries of origin | more than 80 |
-| Automated requests from search and AI indexers | approximately 200,000 |
-| Languages fully published | 3 (Arabic, English, Urdu) |
-
 **Indicators the museum will report each year.** Records by class, period and region; share of records reviewed by a person; share of records still preliminary; sources per record; languages published; human visitors and countries; downloads and forks of the data; citations by third parties, including AI systems; zero-result searches turned into new question pages; accessibility audit results.
 
 **Canadian dimension.** The project is founded and operated in Ontario, published under Canadian stewardship, and designed to be adopted by Canadian schools, public libraries and museums serving one of the most diverse Muslim populations in the world. It embodies values Canada brings to UNESCO: open knowledge, linguistic plurality, privacy by design and intercultural understanding.
@@ -230,7 +224,7 @@ The museum states its limits so that the reader can judge it exactly.
 - **Review status.** All 33,578 records are machine-validated and carry a review state, and none has yet been marked reviewed by a person. Human review is the museum's largest cost and its next priority; the review state is shown on every page.
 - **Preliminary cards.** About 6,840 records, most of them buildings and events imported from Wikidata between 19 and 21 October 2026, are preliminary cards: they carry labels, identifiers and a placeholder citation, and their summary states that their sources have not yet been reviewed. They are counted in the totals above and are being resolved record by record. Excluding them, the collection holds about 26,700 records with at least one citation other than the placeholder.
 - **Media.** 471 photograph and map records: 284 under CC0, the public-domain mark, CC BY or CC BY-SA, and 187 photographs from the Victoria and Albert Museum displayed from the museum's own servers under its non-commercial terms, never copied and not part of the reusable data. The 1,261 illustrations in the art gallery are AI-generated, made locally with an open-weights model under rules that exclude people, faces, figures and text, and badged as such on every page; their licence line and their English and Urdu alt text are being added.
-- **Legal vehicle.** The project is currently the founder's own. Incorporation as a Canadian not-for-profit is in progress so that prize funds, grants and partnerships can be received by an institution rather than an individual.
+- **Legal vehicle.** The project is the founder's own; no legal entity exists and no filing has been made. The founder intends to incorporate a Canadian not-for-profit so that prize funds, grants and partnerships can be received by an institution rather than an individual.
 - **Independence.** The project has received no funding from UNESCO and has no affiliation with it. It carries no advertising, is funded by its founder, and will not change its editorial rules for any funder.
 - **Risk of misuse.** The charter forbids rulings, sermon voice, inferred religious affiliation and the phrase "enemy of Islam" or its equivalents in the museum's own voice. Contested matters are presented through labelled perspectives. Scripture is never retyped. These rules are enforced by the validator, not only by policy.
 
@@ -240,9 +234,9 @@ The founder respectfully asks the nominating organisation to:
 
 1. **Confirm** whether it will provide a nomination letter for islam.museum for the UNESCO-Sharjah Prize for Arab Culture (22nd edition), and **advise** on its process and internal deadlines.
 2. **Meet** the founder, by video call or in writing, to discuss the project and the nomination.
-3. **Consider nominating** islam.museum in the first cycle for which it judges the project ready, and, if its rules permit, **endorse** the founder's parallel applications to the Digital Public Goods Alliance registry and the WSIS Prizes 2027 by letter.
+3. **Consider nominating** islam.museum in the first cycle for which it judges the project ready.
 
-In return the museum commits to: resolving the preliminary cards and publishing the share reviewed by a person each year; incorporating as a Canadian not-for-profit; publishing an annual indicator report; keeping the whole collection free, open and tracking-free; and acknowledging the organisation's support publicly, if it gives any.
+In return the museum commits to: resolving the preliminary cards and publishing the share reviewed by a person each year; incorporating as a Canadian not-for-profit before any prize funds are received; publishing an annual indicator report; keeping the whole collection free, open and tracking-free; and acknowledging the organisation's support publicly, if it gives any.
 
 ### Annex A: fact sheet
 
@@ -251,7 +245,7 @@ In return the museum commits to: resolving the preliminary cards and publishing 
 | Name | islam.museum |
 | URL | https://islam.museum (Arabic default; /en/ and /ur/) |
 | Repository | https://github.com/amado2k5/islam-museum |
-| Founder | Ahmed Abdelaal, Oakville, Ontario, Canada |
+| Founder | Ahmed Abdel Aal, Oakville, Ontario, Canada |
 | Planning and design began | September 2025 (prototype timelinethis.app; domain registered 19 September 2025) |
 | First public release | 11 October 2026 |
 | Languages | Arabic (default, right-to-left), English, Urdu |
