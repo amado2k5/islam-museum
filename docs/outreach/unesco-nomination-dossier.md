@@ -90,6 +90,7 @@ What the dossier deliberately does not claim: an institutional partner, a legal 
 | Urdu is a full third language (19,504 prose files; interface; labels) | growth | DPGA "available languages" under-stated | No action. |
 | Counts roughly doubled since 17 Oct, mostly from the Wikidata import and the Shadharat al-Dhahab, Futuh al-Buldan and library lanes | growth | Figures dated | A.5 carries both dates. |
 | CCUNESCO declined (19 Oct); ICDE requires membership (21 Oct) | route | Part B addressee | Part B now addresses the nominating organisation; ICOM first. |
+| Two Cloudflare settings were contradicting the privacy claims: Email Address Obfuscation injected a script into every page (and broke the no-JavaScript contact address), and Pages attached Network Error Logging headers | submission-impacting (privacy) | "no code in the page", "no third-party scripts", "readable without JavaScript" | Closed 21 Oct 2026: obfuscation turned off, NEL disabled on the zone and stripped by a response-header rule; verified on islam.museum, www and api hosts. Recorded in `docs/plan/03-architecture.md` §6. |
 
 ---
 
