@@ -1,25 +1,18 @@
 // Serves the HTML pages under /ar/, /en/ and /ur/ from the R2 site prefix.
 // Everything else (root pages, images, CSS, JS) comes from static assets, as before.
 // Redirects and response headers follow the site's _redirects and _headers files, as Pages does.
+//
+// The two rule files are bundled at deploy time (scripts/bundle-rules.mjs writes
+// src/rules.generated.js): static assets consume _redirects and _headers themselves
+// and do not serve them, so they cannot be fetched through env.ASSETS.
 import { resolve, parseRedirects, parseDynamicRedirects, matchDynamicRedirect, parseHeaders, headersFor } from "./route.js";
+import { redirectsText, headersText } from "./rules.generated.js";
 
-let rules = null;
-
-// Reads _redirects and _headers once per Worker instance.
-async function loadRules(env, request) {
-  if (rules) return rules;
-  const fetchText = async (path) => {
-    const res = await env.ASSETS.fetch(new URL(path, request.url));
-    return res.ok ? res.text() : "";
-  };
-  const [redirects, headers] = await Promise.all([fetchText("/_redirects"), fetchText("/_headers")]);
-  rules = {
-    static: parseRedirects(redirects),
-    dynamic: parseDynamicRedirects(redirects),
-    headers: parseHeaders(headers),
-  };
-  return rules;
-}
+const rules = {
+  static: parseRedirects(redirectsText),
+  dynamic: parseDynamicRedirects(redirectsText),
+  headers: parseHeaders(headersText),
+};
 
 // Copies the _headers values for this path onto a response. The response is rebuilt
 // so its headers can be changed.
@@ -35,13 +28,12 @@ export default {
   async fetch(request, env) {
     if (request.method !== "GET" && request.method !== "HEAD") return env.ASSETS.fetch(request);
     const url = new URL(request.url);
-    const loaded = await loadRules(env, request);
-    const respond = (response) => withHeaders(response, loaded.headers, url.pathname);
+    const respond = (response) => withHeaders(response, rules.headers, url.pathname);
 
-    const rule = loaded.static.get(url.pathname);
+    const rule = rules.static.get(url.pathname);
     if (rule) return respond(Response.redirect(new URL(rule.to, url).toString(), rule.status));
 
-    const dynamic = matchDynamicRedirect(loaded.dynamic, url.pathname);
+    const dynamic = matchDynamicRedirect(rules.dynamic, url.pathname);
     if (dynamic) return respond(Response.redirect(new URL(dynamic.location, url).toString(), dynamic.status));
 
     const target = resolve(url.pathname);
