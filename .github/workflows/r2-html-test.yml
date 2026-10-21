@@ -54,7 +54,7 @@ jobs:
           PUBLISH_HTML: "1"
           SYNC_URL: ${{ secrets.R2_SYNC_TEST_URL }}
           SYNC_TOKEN: ${{ secrets.R2_SYNC_TEST_TOKEN }}
-        run: node workers/r2-sync/batch/publish.mjs --dist dist
+        run: node workers/r2-sync/batch/publish.mjs --dist dist --seed
       - name: Build assets-only folder (no R2-served directories)
         run: |
           rm -rf dist-assets && cp -r dist dist-assets
