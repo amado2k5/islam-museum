@@ -2,10 +2,13 @@
 id: person/al-zubayr-ibn-ahmad-al-basri
 lang: en
 source_lang: ar
-translators: ["Claude Haiku 5.5 (claude-haiku-5-5), draft translation"]
+translators: []
 ---
 ## Overview
-Abu Abd Allah al-Zubayr ibn Ahmad ibn Sulayman al-Basri, a jurist, of the descendants of al-Zubayr ibn al-Awwam. He died before 320 AH. {cite:tabaqat-fuqaha-abbas-1981 p.57}
+Abu 'Abdallah al-Zubayr ibn Ahmad ibn Sulayman ibn 'Abdallah ibn 'Asim ibn al-Mundhir ibn al-Zubayr ibn al-'Awwam — the erudite shaykh of the Shafi'is, Qurashi, Asadi, Zubayri, Basran, blind — a descendant of the Companion al-Zubayr ibn al-'Awwam. {cite:siyar-alam-nubala-ideas-house p.1710}
 
-## His works
-Among his books are "al-Kafi", "Satr al-Awra" and "al-Hadiyya". {cite:tabaqat-fuqaha-abbas-1981 p.57}
+## Learning and works
+A group studied fiqh under him and he held standing in the school; he read the Qur'an under Rawh ibn Qurra and others. Shaykh Abu Ishaq says he was blind and left many fine works, among them al-Kafi, al-Niyya, Satr al-'Awra, al-Hadiyya, al-Istishara wa-l-Istikhara, Riyadat al-Muta'allim and al-Imara. {cite:siyar-alam-nubala-ideas-house p.1710}
+
+## Death
+He died at Basra in Safar 320 AH — 317 is also reported — and his son Abu 'Asim led the funeral prayer. {cite:siyar-alam-nubala-ideas-house p.1710}

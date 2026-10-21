@@ -2,7 +2,7 @@
 id: person/abd-al-ghani-ibn-said-al-azdi
 lang: en
 source_lang: ar
-translators: ["Claude Haiku 5.5 (claude-haiku-5-5), draft translation"]
+translators: []
 ---
 ## Overview
-Abu Muhammad Abd al-Ghani ibn Said ibn Ali al-Azdi was a hadith memorizer from Egypt, from a family known for hadith and transmission. His birth is estimated at around 941 CE and his death was in 409 AH (1018 CE). {cite:mawsuat-a3lam-ulama-adaba j.1 p.508}
+'Abd al-Ghani ibn Sa'id ibn 'Ali ibn Sa'id ibn Bishr ibn Marwan, the imam, hafiz, authority and genealogist, traditionist of the Egyptian lands Abu Muhammad al-Azdi, author of al-Mu'talif wa-l-Mukhtalif; born in 332 AH, he died in 409 AH. {cite:siyar-alam-nubala-ideas-house p.2300}

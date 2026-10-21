@@ -152,3 +152,84 @@ Deferred list unchanged. Validation: 0 errors; coverage regenerated.
 Likely duplicate flagged: `person/mutarrif-ibn-abdallah` (muruj-al-dhahab letter to Umar II) vs `person/mutarrif-ibn-al-shikhkhir` — same man; needs dedup decision.
 Still deferred: hammad-ibn-salama, bishr-al-hafi, maruf-al-karkhi, malik-ibn-dinar-al-khattat, waki-ibn-al-jarrah, shuba-ibn-al-hajjaj (entries not in this scan's OCR or garbled); plus previous deferrals.
 Validation: 0 errors; coverage regenerated.
+
+## Batch 007 — siyar + tadhkirat sweep (8 records)
+
+- Enriched thin files: shuba-ibn-al-hajjaj, bishr-al-hafi, maruf-al-karkhi, malik-ibn-dinar-al-khattat, hammad-ibn-salama — all from siyar-alam-nubala (Ideas House scan), entries 2460/1188/6193/4668/1826.
+- New prose: simak-ibn-harb (siyar #2391, p.1936), muawiya-ibn-salih (siyar #6176, p.3893), hammad-ibn-usama (tazkirat-al-huffaz j.2 p.299).
+- Still deferred: waki-ibn-al-jarrah, nafi-ibn-umar-al-jumahi (tarjama bodies not located in the scanned volumes), plus prior deferrals.
+- Lane total: 76 records with trilingual prose (69 after batch 006).
+
+## Batch 008 — waki', ibn-ulayyah, jurayri, kalbi, ibn-ma'in (5 records)
+
+- New prose: waki-ibn-al-jarrah (siyar #6558, p.4121-4123), ibn-ulayyah (siyar p.1092-1093), said-ibn-iyas-al-jariri (siyar #2230, p.1793-1794).
+- Enriched: muhammad-ibn-al-saib-al-kalbi (siyar #5212, p.3432), yahya-ibn-main (siyar #6694, p.4202-4204).
+- Deferred this round: hisham-ibn-al-kalbi, yahya-ibn-muadh-al-razi, ubaydallah-ibn-jarir, fudayl-ibn-iyad, ibrahim-ibn-adham, nafi-ibn-umar-al-jumahi (tarjama bodies not located in scanned volumes).
+- Lane total: 81 records.
+
+## Batch 009 — farqad, abd-al-wahhab al-thaqafi, al-darimi, al-fadl ibn dukayn, al-zubayr ibn bakkar, muslim ibn yasar (6 records)
+
+- New source record: `source/tahdhib-al-kamal-mizzi` (Tahdhib al-Kamal fi Asma' al-Rijal, al-Mizzi, registered for the farqad + muslim ibn yasar cites).
+- New prose: farqad-al-sabakhi (tahdhib-al-kamal j.6 p.24), abd-al-wahhab-al-thaqafi (tadhkirat j.2 p.313-314).
+- Enriched: al-darimi (tadhkirat j.2 p.481-482 + tarikh-khulafa p.559), al-fadl-ibn-dukayn (tadhkirat j.2 p.342-343 + muruj p.442), al-zubayr-ibn-bakkar (tadhkirat j.2 p.475), muslim-ibn-yasar (tabaqat-fuqaha p.47 + tahdhib refs).
+- Stub summaries corrected to sourced facts: farqad (removed unsourced d.729, replaced with critics' consensus), abd-al-wahhab (810 → late 204 AH per tadhkirat).
+- Lane total: 87 records.
+- Validation: 0 errors; coverage regenerated.
+
+## Batch 010 — siyar enrichments: awza'i, zuhri, ibn al-mubarak, yazid ibn harun, ibn adham, fudayl, tayalisi, yahya ibn yahya (8 records)
+
+- Enriched thin/short person files with sections read on the page in the full Siyar scan (20250923_20250923_0238 = siyar-alam-nubala-ideas-house): al-awzai-abd-al-rahman (p.2202), muhammad-ibn-shihab-al-zuhri (p.3700), abd-allah-ibn-al-mubarak (p.2468), yazid-ibn-harun-al-wasiti (p.4233), ibn-adham-ibrahim (p.646), al-fudayl-ibn-iyad (p.3045), abu-dawud-al-tayalisi (p.1913), yahya-ibn-yahya-al-laythi (p.4215).
+- Deferred: layth-ibn-sad (entry exists but body unlocated in scan), yahya-ibn-adam + muhammad-ibn-yusuf-al-firyabi + amr-ibn-awn (no data records — new-entity candidates, out of this lane's scope), nafi-ibn-umar-al-jumahi, said-ibn-abi-maryam, adam-ibn-abi-iyas, yahya-ibn-muadh-al-razi, hisham-ibn-al-kalbi, harmala-ibn-yahya, ubaydallah-ibn-jarir-al-utaki (tarjama bodies not located).
+- Lane total: 95 records.
+- Validation: 0 errors; coverage regenerated.
+
+## Batch 011 — siyar sweep via header index (9 records)
+
+- New prose (missing): salim-ibn-ayyub-al-razi (p.1889, Shafi'i murabit, d.447), asbagh-ibn-al-faraj (p.1144, scholar of Egypt, d.225), muslim-ibn-khalid-al-zanji (p.3840-3841, faqih of Mecca, al-Shafi'i's teacher, d.180), abu-bakr-ibn-qawam (p.1236, ascetic of Balis/Aleppo region, d.658), al-zubayr-ibn-abd-al-wahid-al-asadabadi (p.1711, hafiz traveller, d.347), abd-al-aziz-ibn-al-walid (p.2296, son of al-Walid I, the succession affair).
+- Enriched: ibrahim-ibn-al-ashtar (p.652), umar-ibn-abi-salama (p.2902), ashhab-ibn-abd-al-aziz (p.1143, mufti of Egypt, d.204, "Egypt produced no one more versed in fiqh than Ashhab").
+- Rejected false matches: al-rabi-ibn-ziyad-al-bakri (matched al-Rabi' b. Anas the exegete), yusuf-ibn-abd-al-rahman-al-fihri (matched a later Murcia ruler), adi-ibn-zayd-al-ibadi (quote only, no tarjama), sharhabil-ibn-hasana (matched a descendant).
+- Lane total: 104 records.
+- Validation: 0 errors; coverage regenerated.
+
+## Batch 012 — siyar header-index sweep II (10 records)
+
+- New prose: yusuf-ibn-adi (p.4275-4276, Kufan hafiz in Egypt, d.230+), shabath-ibn-ribi (p.1966, Tamimi sayyid at Siffin), ali-ibn-mabad-ibn-shaddad (p.2860, hafiz of Egypt, d.218).
+- Enriched: aban-ibn-uthman (p.640, governor of Medina 7 yrs, d.105), kab-ibn-suwar (p.3116, qadi of Basra, killed at the Camel), marthad-ibn-abd-allah-al-yazani (p.3812, mufti of Egypt, d.90), mukhallad-ibn-yazid (p.3809, Harrani thiqa, d.193), al-zubayr-ibn-ahmad-al-basri (p.1710, blind Shafi'i shaykh, author of al-Kafi, d.320), ahmad-ibn-al-tayyib-al-sarakhsi (p.805, al-Kindi's pupil executed by al-Mu'tadid, d.286), amr-ibn-al-layth (p.2970-2971, Saffarid ruler captured at Balkh, d.289).
+- Rejected false matches: hasan-al-utrush (body was Hasan b. Arafa), nasr-ibn-ahmad (a Harawi, not the Samanid), umar-ibn-hafs-hazarmard, fatima-bint-abbas-al-baghdadiyya, fatima-bint-sad-al-azdiyya, ali-ibn-al-jad-al-shufni, adi-ibn-zayd-al-ibadi (index hits only).
+- Lane total: 114 records.
+- Validation: 0 errors; coverage regenerated.
+
+## Batch 013 — siyar header-index sweep III (22 records + dedup)
+
+- New prose: qutlumush-ibn-arslan-israil (p.3086, Seljuk, d.456), bakr-ibn-abd-allah-al-muzani (p.1228, d.108), ismail-ibn-ubayd-allah (p.1114, tutor of Abd al-Malik's sons, d.132), yaqub-ibn-ahmad-ibn-al-sabuni (p.4240, Aleppo, d.719), shuayb-ibn-harb (p.1988, mujawir of Mecca, d.196/7), uthman-ibn-said-al-darimi (p.2651, author of the Musnad, d.280), isa-ibn-muhanna (p.2995, Malik al-Arab, d.683), hajjaj-ibn-yusuf-al-thaqafi (p.1371, Ibn al-Sha'ir the muhaddith, d.259).
+- Enriched: said-ibn-makhlad (p.2010, vizier, d.276), zufar-ibn-al-hudhayl (p.1720, Abu Hanifa's successor, d.158), shahr-ibn-hawshab (p.1996-7), hisham-al-kalbi (p.4095, d.204/6), jafar-ibn-harb (p.1297, Mu'tazili, d.236), qatari-ibn-al-fujaa (p.3098, Khariji amir, d.79), yazid-ibn-al-asamm (p.4219, d.103), sakina-bint-al-husayn (p.1860, d.117), musa-ibn-talha (p.3982, d.103), mansur-ibn-ammar (p.3948, the preacher, d.~200), tughril-shah-iii (p.2061, last Malikshahid, d.590), abd-al-ghani-ibn-said-al-azdi (p.2300, author of al-Mu'talif, d.409), yahya-ibn-watthab (p.4212), ahmad-ibn-nasr-al-khuzai (p.1026, executed in the Mihna).
+- Dedup: merged qutam-ibn-al-abbas into qutham-ibn-al-abbas (alias + richer summary/sources); prose rewritten under canonical id.
+- Rejected/deferred: al-harith-al-muhasibi, al-hakam-ibn-utayba, al-rabi-ibn-sabih, surayj-ibn-yunus, razin-ibn-muawiya, mahmud-ibn-ghaylan, salih-ibn-ahmad-ibn-hanbal, yazid-ibn-mazyad (index hits or wrong-person bodies).
+- Lane total: 136 records. Validation: 0 errors; coverage regenerated.
+
+## Batch 014 — siyar header-index sweep IV (15 records)
+
+- New prose: aqil-ibn-abi-talib (p.2701), al-qasim-ibn-muhammad-ibn-abi-bakr (p.3072, Seven Fuqaha), tamim-ibn-al-muizz-badis (p.1264, Zirid sultan, d.501), amr-ibn-hurayth-al-makhzumi (p.2944, late Companion in Kufa), awana-ibn-al-hakam (p.2979, historian, d.147), abu-awana-al-yashkuri (p.4119-4120, d.176), zurara-ibn-awfa (p.1718, qadi of Basra, d.93), hammad-ibn-ishaq-al-basri (p.1551), sad-ibn-ibrahim-al-zuhri (p.1771, d.201), hatim-ibn-ismail (p.1345, d.187), ibrahim-ibn-uyayna (p.686, d.199), yusuf-ibn-musa-al-qattan (p.4286, b.269), yaeish-bin-sadaqa-al-furati (p.4255, d.593), auf-ibn-al-harith (p.2979, Badri martyr).
+- Enriched: aisha-bint-talha (p.2077).
+- Deferred: al-kumayt, al-hasan-ibn-sahl, anas-ibn-iyad, ismail-ibn-hammad-al-qadi, amr-ibn-al-harith (index or interleaved bodies).
+- Lane total: 151 records. Validation: 0 errors; coverage regenerated.
+
+## Batch 015 — siyar header-index sweep V (16 records)
+
+- New/enriched prose: kharija-ibn-zayd-ibn-thabit (p.1590, Seven Fuqaha, d.99/100), hajjaj-ibn-artah (p.1366, mufti of Kufa, d.149), maqil-ibn-yasar (p.3905, Companion), rawh-ibn-hatim (p.1700, Muhallabid amir, d.174), bishr-ibn-marwan (p.1209, d.75), salih-ibn-kaysan (p.2016, tutor of Umar II's sons), humran-ibn-aban (p.1566, Uthman's mawla, d.89), makhrama-ibn-nawfal (p.3808, Companion, d.54), hammad-ibn-abi-sulayman (p.1558, Abu Hanifa's teacher, d.119), ata-ibn-yasar (p.2692, d.103), musab-ibn-sad-ibn-abi-waqqas (p.3859, d.103 — earlier deferral resolved), ibrahim-ibn-sad-al-zuhri (p.661, d.183), sulayman-ibn-qutta (p.1922, muqri' poet), malik-ibn-abdallah-al-khathami (p.3169, Malik al-Sawa'if), ishaq-ibn-al-furat (p.1072, qadi of Egypt, d.204), ali-ibn-rabah-al-lakhmi (p.2779, d.114).
+- Lane total: 167 records. Validation: 0 errors; coverage regenerated.
+
+## Batch 016 — siyar header-index sweep VI (25 records)
+
+- Persons: dhikwan-ibn-abd-qays (Abu Salih al-Samman, d.101), abdullah-ibn-busr (Companion, d.88), surayj-ibn-yunus (d.235), said-ibn-mansur (Sunan author, d.227), asim-ibn-abi-al-najud (the Reader, d.128), awn-ibn-abd-allah-ibn-utba (d.230), imran-ibn-talha, muadh-ibn-al-harith (Badri), muawwaz-ibn-amr-ibn-al-jamuh (Badri), yala-ibn-umayya (mufti of Mecca, d.60), khawat-ibn-jubayr (d.40), al-harith-ibn-nawfal (gov of Mecca), sulayman-ibn-al-mughira (d.165), ibrahim-ibn-issa-al-muradi (d.667), ahmad-ibn-baqi (d.244), ummat-al-wahid (faqiha Sutayta, d.377), hatim-ibn-al-layth (d.262), hajib-ibn-malik-al-farghani (d.306), amrah-bint-abd-al-rahman (faqiha, pupil of A'isha, d.98/106), fatima-bint-abbas-al-baghdadiyya (muftiya of Damascus, d.704), muhammad-ibn-mahran (d.239), musa-ibn-al-hasan-al-jalajil (muqri', d.287), yazid-ibn-mufarrigh (poet, d.69), yahya-ibn-ayyub-al-maqabiri (d.234), ali-ibn-harb (d.265).
+- All from siyar-alam-nubala-ideas-house, bodies read on the page; page-level cites. Lane total: 192. Validation: 0 errors.
+- Deferred (mismatched/identity-uncertain): al-abbas-ibn-abd-al-azim, ahmad-ibn-sad-al-zuhri, muhammad-ibn-dawud-al-asbahani, muhammad-ibn-masud-al-ayyashi, khalid-ibn-yazid-al-katib, muhammad-ibn-jarir-al-tabari-imami, al-khalil-ibn-ahmad-al-qadi, abd-al-salam-ibn-mashish, zaynab-bint-makki, fatima-bint-sad-al-azdiyya, hisham-ibn-amr-al-fuwati, umar-ibn-husayn-al-khiraqi, anas-ibn-iyad, razin-ibn-muawiya, mahmud-ibn-ghaylan (index-only in scanned siyar volumes).
+
+## Batch 017 — person-class verified-summary sweep
+First non-Siyar batch: 25 person records whose data summaries were already verified and carry inline `{cite:}` markers (Shadharat, Muntazam, Wafayat reads by earlier agents). Prose restructures the cited summaries into sections; no new unsourced claims. Sabuktigin, al-Silafi, Ibn al-Mustawfi, Sibt Ibn al-Jawzi, al-Khuyuqi, al-Shaykh al-Imad, Musannifak, Fakhr al-Din ibn Taymiyya, Muhammad ibn Ali al-Suri, Abu Umar al-Maqdisi, Ahmad ibn Kulayb, Ali ibn Muhammad al-Sulayhi, al-Jubba'i Abdallah, Fakhr al-Mulk ibn Khalaf, Ibn al-Hurastani, Abd al-Salam ibn Abd al-Qadir, Ibn Qindas, Ali ibn Umar al-Qazwini, Abu Bakr ibn Abd al-Baqi, Arslan Khatun, Ibn Kamil al-Mansuri, Khayr al-Din al-Talsami, Sayf al-Din al-Baktmari, Taj al-Din al-Hamadani, Nasr ibn Mansur al-Muqri. Validation 0 errors. Lane total: 217.
+
+## Batch 018 — verified-summary sweep II
+25 person records from the same pool (data summaries already carry inline cites from earlier page-level reads). Abu'l-Najib al-Suhrawardi, al-Salmasi, Abu Musa al-Maqdisi, al-Rafi'i, Ibn al-Sam'ani 'Abd al-Rahim, Muhammad al-Yunini, 'Abd al-Latif al-Baghdadi, Mahmud al-Na'al, Salah al-Din al-Irbili, al-Mubarak ibn Kamil, al-Shams al-Bukhari (al-Maqdisi), Sayf al-Din al-Amidi, Hilal ibn al-Muhassin al-Sabi', Ibn al-Ma'ni (Nasih al-Islam), al-Samiri Ibn Sinina, 'Abdallah al-Yunini (Asad al-Sham), al-Ja'fari Badr, Abu Hamid al-Isfara'ini, Isma'il al-Taymi, al-Shatibi, al-Damaghani, Ibn al-Jinbali, Qarwash ibn al-Muqallad, al-Sharmaqani, al-'Ulaymi Shams. Validation 0 errors. Lane total: 242.
+
+## Batch 019 — verified-summary sweep III + one dedup
+24 new person records + one merge. Ibn Sana' al-Mulk, al-'Izz ibn 'Abd al-Ghani, Ahmad al-Rifa'i, Ibrahim ibn 'Abd Rabbih, Ibn al-Akhdar, Qara Ughli (Ottoman qadi of Damascus), Ibn Nasir al-Sulami, al-Zafar al-Asadi, Ibn al-Hallawi, Ibn Ni'ma (musnid of Syria, copied 2,000 volumes), 'Abd al-Razzaq ibn 'Abd al-Qadir al-Jilani, Abu'l-Fath Ibn al-Ta'awidhi (merged with person/ibn-al-taawidhi — same blind poet; 584 vs 553 death noted), Majd al-Din ibn Taymiyya (the grandfather), 'Abd al-Wahhab al-Shirazi, Shihab al-Din al-Suhrawardi (the slain philosopher), Sayf al-Din Ghazi II, al-Kindi Abu'l-Yumn, 'Abd al-Qadir al-Ruhawi, al-Ilyusi (Valencia), al-Hasan al-Rakji, al-Dakhwar (physician), Ibn al-Tilmidh (Christian physician of Baghdad), Ibn al-Zaghuni, Ibn al-Habbariyya. Validation 0 errors. Lane total: 266.

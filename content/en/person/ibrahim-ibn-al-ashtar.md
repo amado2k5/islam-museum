@@ -12,3 +12,6 @@ Ibrahim ibn al-Ashtar, a commander who rose up with [[person/al-mukhtar-ibn-abi-
 After [[person/ubayd-allah-ibn-ziyad|Ubayd Allah ibn Ziyad]] was killed, his head was brought to al-Mukhtar. Al-Mukhtar sent it to [[person/abdullah-ibn-al-zubayr|Abdallah ibn al-Zubayr]] in Mecca. {cite:muruj-mari-2005 p.85}
 
 The citation is from the third volume of *Muruj al-Dhahab*, in the edition of Mari.
+
+## In al-Dhahabi's Siyar
+Al-Dhahabi counts him among the champions and nobles, mentions the battle of al-Khazir, records that he was one of Mus'ab ibn al-Zubayr's commanders, and places his death in 72 AH. {cite:siyar-alam-nubala-ideas-house p.652}

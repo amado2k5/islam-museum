@@ -1,0 +1,24 @@
+id: event/yawm-al-nabaj-thaytal
+class: event
+kind: battle
+label: { ar: "يوم النباج وثيتل — غزوة قيس بن عاصم", en: "the day of al-Nabaj and Thaytal — Qays ibn ʿĀṣim's two raids" }
+date:
+  start: { edtf: "0590~", calendar: julian, precision: century, status: tradition, derived: true, note: "جاهلي؛ التاريخ تقريبي عند أهل الأيام {cite:kamil-ibn-al-athir p. 486-487}." }
+summary:
+  ar: "غزا قيس بن عاصم المنقري ثم التميمي بمقاعس تميم — صريم وربيع وعبيد بنو الحارث — ومعه سلامة بن ظرب الحماني في الأحارث، فوجدوا اللهازم من بكر بن وائل ومعهم بنو ذهل وعجل وعنزة بالنباج وثيتل وبينهما روحة، فأغار قيس على النباج فسقى خيله ثم أراق ما معهم من الماء وقال لمن معه قاتلوا فالموت بين أيديكم والفلاة من ورائكم، فقاتلوهم فانهزمت بكر وأصاب من غنائمهم ما لا يحد كثرة، ثم أسرع إلى سلامة نحو ثيتل فأغار عليهم أيضًا فانهزموا وأصاب غنائم نحو ما أصاب بالنباج، فنازعه سلامة في الغنائم حتى كاد الشر يقع ثم اتفقوا على تسليمها إليه {cite:kamil-ibn-al-athir p. 486-487}."
+  en: "Qays ibn ʿĀṣim the Minqarī raided the Lahāzim of Bakr at al-Nabaj: he watered his horses, poured out every skin they carried — «fight: death is before you and the waste is behind you» — and broke Bakr for spoil beyond count, then galloped on to Thaytal and beat a second force for nearly as much again. His companion Salama ibn Ẓarib, whose quarry he had taken, nearly came to blows with him over the spoils until they agreed to yield them to him {cite:kamil-ibn-al-athir p. 486-487}."
+sides:
+- label: { ar: "بنو تميم", en: "Banū Tamīm" }
+  commanders: [person/qays-ibn-asim]
+- label: { ar: "بكر بن وائل", en: "Bakr ibn Wāʾil" }
+relations:
+  - { type: occurred_at, target: place/al-nabaj, sources: [source/kamil-ibn-al-athir] }
+  - { type: had_participant, target: person/qays-ibn-asim, sources: [source/kamil-ibn-al-athir] }
+  - { type: had_participant, target: person/salama-ibn-zarib, sources: [source/kamil-ibn-al-athir] }
+provenance:
+  layer: own-research
+  source: "الكامل في التاريخ لابن الأثير (مكتبة التوفيقية، ج1)، قراءة آبل فيجن"
+  generated_by: "Devin (SWE-2 Medium) from Apple Vision OCR"
+  run: lib-kamil-v1-batch02
+sources: [source/kamil-ibn-al-athir]
+status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 Medium)" }

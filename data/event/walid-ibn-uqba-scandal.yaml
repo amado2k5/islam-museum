@@ -1,0 +1,22 @@
+id: event/walid-ibn-uqba-scandal
+class: event
+kind: court-ruling
+label: { ar: "عزل الوليد بن عقبة عن الكوفة", en: "al-Walid ibn 'Uqba's dismissal from Kufa (30 AH)" }
+date:
+  start: { edtf: "0650", hijri: "0030", calendar: julian, precision: year, status: tradition, derived: true, note: "سنة 30؛ التحويل مشتق {cite:kamil-ibn-al-athir p. 477}." }
+summary:
+  ar: "عزل عثمان الوليد بن عقبة عن الكوفة وولاّها سعيد بن العاص: كان الوليد محبوبًا إلى الناس خمس سنين وليس لداره باب، ثم قُتل ابن الحيسمان الخزاعي فشهد أبو شريح على القتلة فقتلهم على باب القصر فحفظوا الوليد، وشهد شهود أنه شرب الخمر وقيل سكر وصلى بالناس الصبح أربعًا ثم قال أزيدكم؟ فقال ابن مسعود: ما زلنا معك في زيادة منذ اليوم، وقدِموا على عثمان فجلده أربعين — قال علي: أمسك، جلد رسول الله وأبو بكر أربعين وجلد عثمان ثمانين وكل سنة وهذا أحب إلي؛ وأمر علي بنزع خميصته لما جُلد، وقال الحسن حين أمره بالجلد: ولِّ حارّها من تولّى قارّها فجلده عبد الله بن جعفر {cite:kamil-ibn-al-athir p. 477-478}."
+  en: "Al-Walid, governor of Kufa for five beloved years, was dismissed after two chains of scandal: the execution of Ibn al-Haysuman's killers on the palace gate made enemies who watched him, and witnesses bore that he drank wine — one account has him lead the dawn prayer with four rak'as then ask «shall I give you more?«, Ibn Mas'ud answering «we have been with you in increase since today.« Carried to 'Uthman he was flogged forty; 'Ali held the count: «the Messenger and Abu Bakr flogged forty, 'Uthman eighty — both are sunna, and this is dearer to me«; when al-Hasan was told to do the flogging he said «let him who took the cool side of it take the hot,« so 'Abdallah ibn Ja'far struck the blows and his Khamisa was stripped off {cite:kamil-ibn-al-athir p. 477-478}."
+relations:
+  - { type: occurred_at, target: place/kufa, sources: [source/kamil-ibn-al-athir] }
+  - { type: had_participant, target: person/al-walid-ibn-uqba, sources: [source/kamil-ibn-al-athir] }
+  - { type: had_participant, target: person/uthman-ibn-affan, role: "الخليفة", sources: [source/kamil-ibn-al-athir] }
+  - { type: had_participant, target: person/ali-ibn-abi-talib, sources: [source/kamil-ibn-al-athir] }
+  - { type: had_participant, target: person/said-ibn-al-as, role: "خلفه", sources: [source/kamil-ibn-al-athir] }
+provenance:
+  layer: own-research
+  source: "الكامل في التاريخ لابن الأثير (دار الكتاب العربي 2012، ج2)، قراءة آبل فيجن"
+  generated_by: "Devin (SWE-2 Medium) from Apple Vision OCR"
+  run: lib-kamil-v2-batch04
+sources: [source/kamil-ibn-al-athir]
+status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 Medium)" }

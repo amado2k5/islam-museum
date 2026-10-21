@@ -1,0 +1,29 @@
+id: event/ibn-qubath-jazira-raid-39
+class: event
+kind: raid
+label: { ar: "غارة ابن قباث على الجزيرة وانتصار كميل وشبيب", en: "the Jazīra raid — Kumayl's counterattack and Shabīb's pursuit to Baʿlabakk (39 AH)" }
+date:
+  start: { edtf: "0659", hijri: "0039", calendar: julian, precision: year, status: tradition, derived: true, note: "سنة 39؛ التحويل مشتق {cite:kamil-ibn-al-athir p. 727-728}." }
+summary:
+  ar: "سيّر معاوية عبد الرحمن بن قباث بن أشيم إلى بلاد الجزيرة، فكتب شبيب بن عامر من نصيبين إلى كميل بن زياد يعلمه خبرهم، فسار كميل في ستمائة فارس فأدركهم وقاتلهم وهزمهم وأكثر القتل فيهم وأمر أن لا يتبع مدبر ولا يجهز على جريح، وقتل من أصحابه رجلان. واتبع شبيب الشاميين فعبر الفرات فأغار حتى بلغ بعلبك، فبعث معاوية حبيب بن مسلمة فلم يدركه، ورجع شبيب فأغار على نواحي الرقة فلم يدع للعثمانية ماشية إلا استاقها، فكتب إليه علي ينهاه عن أخذ أموال الناس إلا الخيل والسلاح، وقال رحم الله شبيبًا لقد أبعد الغارة وعجل الانتصار {cite:kamil-ibn-al-athir p. 727-728}."
+  en: "Muʿāwiya sent ʿAbd al-Raḥmān ibn Qubāth raiding into the Jazīra; Shabīb ibn ʿĀmir warned Kumayl ibn Ziyād, who rode out with six hundred and routed them — ordering no fleeing man pursued and no wounded man finished. Shabīb chased the Syrians across the Euphrates as far as Baʿlabakk, then swept the Raqqa country bare of stock; ʿAli wrote forbidding any property but arms and mounts: «may God have mercy on Shabīb — he pushed the raid far and made the victory swift» {cite:kamil-ibn-al-athir p. 727-728}."
+sides:
+- label: { ar: "أهل الشام", en: "Syrians" }
+  commanders: [person/abd-al-rahman-ibn-qubath]
+- label: { ar: "أصحاب علي", en: "ʿAli's men" }
+  commanders: [person/kumayl-ibn-ziyad, person/shabib-ibn-amir]
+relations:
+  - { type: occurred_at, target: place/nasibin, sources: [source/kamil-ibn-al-athir] }
+  - { type: occurred_at, target: place/baalbek, sources: [source/kamil-ibn-al-athir] }
+  - { type: had_participant, target: person/abd-al-rahman-ibn-qubath, sources: [source/kamil-ibn-al-athir] }
+  - { type: had_participant, target: person/kumayl-ibn-ziyad, sources: [source/kamil-ibn-al-athir] }
+  - { type: had_participant, target: person/shabib-ibn-amir, sources: [source/kamil-ibn-al-athir] }
+  - { type: had_participant, target: person/habib-ibn-maslama, sources: [source/kamil-ibn-al-athir] }
+  - { type: had_participant, target: person/ali-ibn-abi-talib, sources: [source/kamil-ibn-al-athir] }
+provenance:
+  layer: own-research
+  source: "الكامل في التاريخ لابن الأثير (دار الكتاب العربي 2012، ج2)، قراءة آبل فيجن"
+  generated_by: "Devin (SWE-2 Medium) from Apple Vision OCR"
+  run: lib-kamil-v2-batch05
+sources: [source/kamil-ibn-al-athir]
+status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 Medium)" }

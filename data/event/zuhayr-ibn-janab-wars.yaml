@@ -1,0 +1,25 @@
+id: event/zuhayr-ibn-janab-wars
+class: event
+kind: campaign
+label: { ar: "حروب زهير بن جناب الكلبي — تعطيل حرم غطفان وأسر كليب ومهلهل", en: "the wars of Zuhayr ibn Janāb — the ḥaram of Ghaṭafān destroyed, Kulayb and al-Muhalhil taken" }
+date:
+  start: { edtf: "0500", calendar: julian, precision: year, status: tradition, derived: true, note: "جاهلي؛ التاريخ تقريبي عند أهل الأيام {cite:kamil-ibn-al-athir p. 378-380}." }
+summary:
+  ar: "كان زهير بن جناب الكلبي أحد من اجتمعت عليه قضاعة، يدعى الكاهن لصحة رأيه، عاش مائتين وخمسين سنة وقيل أربعمائة وخمسين أوقع فيها مائتي وقعة. غزا غطفان لما بنى بنو بغيض حرمًا على غرار حرم مكة فقاتلهم وعطل الحرم وقتل فارسًا فيه ثم منّ عليهم ورد النساء. وحارب بكرًا وتغلب وقد وليهما أبرهة يجبي خراجه، فطعنه ابن زيابة التيمي وهو نائم طعنة خرجت من ظهره فكظم وأومأ إلى أصحابه فأظهروا موته واستأذنوا في دفنه فدفنوا ثيابًا ملفوفة، ثم جمع الجموع وغزاهم فانهزمت بكر ثم تغلب وأُسر كليب ومهلهل ابنا ربيعة وكثرت القتلى والأسرى في فرسانهم ووجوههم. وغزا بني القين بن جسر لما بلغه من أخته بصرة فيها رمل وصرة فيها قتاد أن عدوًا كثيرًا ذا شوكة يأتيهم {cite:kamil-ibn-al-athir p. 378-380}."
+  en: "Zuhayr ibn Janāb al-Kalbī — called «the soothsayer» for his judgment, said to have lived 250 years (some say 450) and fought two hundred battles — was one of the few all Quḍāʿa obeyed. When Banū Baghīḍ built a ḥaram on Mecca's model he destroyed it and killed a horseman inside it, then freed the captives and returned the women. Taxing Bakr and Taghlib for Abraha, he was stabbed through in his sleep by Ibn Ziyāba al-Tamīmī; he lay still, had his men fake his funeral with a corpse of folded clothes, then mustered and routed both tribes — Kulayb and al-Muhalhil, the two sons of Rabīʿa, were taken prisoner and their knights slaughtered. His sister's gifts of a bag of sand and a bag of thorns warned him of Banū'l-Qayn's coming {cite:kamil-ibn-al-athir p. 378-380}."
+sides:
+- label: { ar: "قضاعة", en: "Quḍāʿa" }
+  commanders: [person/zuhayr-ibn-janab-al-kalbi]
+- label: { ar: "بكر وتغلب وغطفان وبنو القين", en: "Bakr, Taghlib, Ghaṭafān, Banū'l-Qayn" }
+relations:
+  - { type: had_participant, target: person/zuhayr-ibn-janab-al-kalbi, sources: [source/kamil-ibn-al-athir] }
+  - { type: had_participant, target: person/kulayb-ibn-rabia, role: "أُسر", sources: [source/kamil-ibn-al-athir] }
+  - { type: had_participant, target: person/al-muhalhil, role: "أُسر", sources: [source/kamil-ibn-al-athir] }
+  - { type: had_participant, target: person/ibn-ziyaba-al-taymi, sources: [source/kamil-ibn-al-athir] }
+provenance:
+  layer: own-research
+  source: "الكامل في التاريخ لابن الأثير (مكتبة التوفيقية، ج1)، قراءة آبل فيجن"
+  generated_by: "Devin (SWE-2 Medium) from Apple Vision OCR"
+  run: lib-kamil-v1-batch01
+sources: [source/kamil-ibn-al-athir]
+status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 Medium)" }

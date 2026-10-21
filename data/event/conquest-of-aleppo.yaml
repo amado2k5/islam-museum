@@ -1,0 +1,20 @@
+id: event/conquest-of-aleppo
+class: event
+kind: battle
+label: { ar: "فتح حلب", en: "Conquest of Aleppo (15 AH)" }
+date:
+  start: { edtf: "0636", hijri: "0015", calendar: julian, precision: year, status: tradition, derived: true, note: "سنة 15؛ التحويل مشتق {cite:kamil-ibn-al-athir p. 323}." }
+summary:
+  ar: "فتح حلب: سار أبو عبيدة من قنسرين إلى حلب وقد صالح أهل قنسرين نقضوا فبعث السمط الكندي فحصرهم وفتحها وأصاب بقرًا وغنمًا، وصالح أعراب حاضر حلب على الجزية فأسلموا بعد ذلك. وأتى حلب وعلى مقدمته عياض بن غنم الفهري فتحصن أهلها فحصرهم المسلمون، فلم يلبثوا أن طلبوا الصلح والأمان على أنفسهم وأولادهم ومدينتهم وكنائسهم وحصنهم فأعطوا ذلك واستُني عليهم موضع المسجد، وصالحهم عياض فأجازه أبو عبيدة؛ وقيل صولحوا على أن يُقاسموا منازلهم وكنائسهم، وقيل إن أهلها كانوا انتقلوا إلى أنطاكية فراسلوا في الصلح فلما تم رجعوا {cite:kamil-ibn-al-athir p. 323}."
+  en: "Aleppo: Abu 'Ubayda sent 'Iyad ibn Ghanim ahead; the Aleppans held their fortress briefly, then asked for peace and aman over themselves, their children, city, churches and citadel — granted, with a site for the mosque stipulated; one tradition has them sharing houses and churches, another that they had decamped to Antioch and negotiated their return by treaty {cite:kamil-ibn-al-athir p. 323}."
+relations:
+  - { type: occurred_at, target: place/aleppo, sources: [source/kamil-ibn-al-athir] }
+  - { type: had_participant, target: person/abu-ubayda-ibn-al-jarrah, role: "قائد الجيش", sources: [source/kamil-ibn-al-athir] }
+  - { type: had_participant, target: person/iyad-ibn-ghanm, sources: [source/kamil-ibn-al-athir] }
+provenance:
+  layer: own-research
+  source: "الكامل في التاريخ لابن الأثير (دار الكتاب العربي 2012، ج2)، قراءة آبل فيجن"
+  generated_by: "Devin (SWE-2 Medium) from Apple Vision OCR"
+  run: lib-kamil-v2-batch02
+sources: [source/kamil-ibn-al-athir]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 Medium)" }
