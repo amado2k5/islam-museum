@@ -2,10 +2,10 @@
 id: person/yahya-ibn-main
 lang: en
 source_lang: ar
-translators: ["Claude Haiku 5.5 (claude-haiku-5-5), draft translation"]
+translators: []
 ---
 ## Overview
-Yahya ibn Ma'in, a traditionist. al-Suyuti reports that [[person/abd-allah-al-mamun|al-Ma'mun]] summoned him in the year 218 AH among the first seven, and tested him on the createdness of the Qur'an. He answered out of dissimulation, and then sent him back to Baghdad. He and others used to say that they had answered out of fear of the sword {cite:tarikh-khulafa-minhaj-1434 p.490}.
+Yahya ibn Ma'in ibn 'Awn ibn Ziyad al-Ghatafani al-Murri, Abu Zakariyya of Baghdad, was the master of narrator criticism — the science of wounding and accrediting — and the foremost authority on the transmitters of his age. He died in 233 AH, leaving thirty book-chests and twenty cases of writings. {cite:siyar-alam-nubala-ideas-house p.4202}
 
-## His death
-Ibn al-Nadim reports that he died in the year 233 AH, and that he has a book, the History, which his companions compiled from him {cite:fihrist-ibn-al-nadim p.322}. al-Mas'udi reports that he reached seventy-five years, and died in Medina, and it is said in the year 233 AH, which is the more common view.
+## Method and standing
+It was said of him that his word judged and settled disputes between quarrelling critics. Among his companions 'Ali ibn al-Madini was the most knowledgeable, Sulayman al-Shadhakuni the most retentive of the chapters, and Yahya himself the most prolific writer. His verdicts "trustworthy" and "weak" became the accepted currency of the hadith collections. {cite:siyar-alam-nubala-ideas-house p.4202-4204}
