@@ -1,0 +1,23 @@
+id: event/jalal-ayubiyya-turkmen-623
+class: event
+kind: massacre
+label: { ar: "إيقاع جلال الدين بالتركمان الأيوية", en: "Jalal al-Din's blow on the Ayubiyya Turkmen" }
+date:
+  start: { edtf: "1226~", hijri: "0623", calendar: julian, precision: year, status: tradition, derived: true }
+summary:
+  ar: "أوقع جلال الدين بالتركمان الأيوية إيقاعًا شديدًا فأفنى كثيرًا منهم لانحيازهم لخصومه {cite:kamil-ibn-al-athir p. 467}."
+  en: "Jalal al-Din fell on the Ayubiyya Turkmen and destroyed many of them for siding with his enemies {cite:kamil-ibn-al-athir p. 467}."
+sides:
+  - label: { ar: "المسلمون وخصومهم" }
+  - label: { ar: "الطرف الآخر" }
+relations:
+  - { type: occurred_at, target: place/azerbaijan, sources: [source/kamil-ibn-al-athir] }
+  - { type: had_participant, target: person/jalal-al-din-khwarazmshah, role: "المُوقع", sources: [source/kamil-ibn-al-athir] }
+  - { type: had_participant, target: group/ayubiyya-turkmen, role: "المُوقع بهم", sources: [source/kamil-ibn-al-athir] }
+provenance:
+  layer: own-research
+  source: "الكامل في التاريخ لابن الأثير، قراءة آبل فيجن"
+  generated_by: "Devin (SWE-2 Medium) from Apple Vision OCR"
+  run: lib-kamil-v12-batch08
+sources: [source/kamil-ibn-al-athir]
+status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 Medium)" }

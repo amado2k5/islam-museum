@@ -1,0 +1,22 @@
+id: event/ashrafiyya-azerbaijan-624
+class: event
+kind: campaign
+label: { ar: "دخول العساكر الأشرفية أذربيجان وملك بعضها", en: "al-Ashraf's armies enter Azerbaijan and take part of it" }
+date:
+  start: { edtf: "1227~", hijri: "0624", calendar: julian, precision: year, status: tradition, derived: true }
+summary:
+  ar: "دخلت العساكر الأشرفية بلاد أذربيجان فملكت بعضها في غيبة جلال الدين {cite:kamil-ibn-al-athir p. 473}."
+  en: "al-Ashraf's armies entered Azerbaijan and took part of it in Jalal al-Din's absence {cite:kamil-ibn-al-athir p. 473}."
+sides:
+  - label: { ar: "المسلمون وخصومهم" }
+  - label: { ar: "الطرف الآخر" }
+relations:
+  - { type: occurred_at, target: place/azerbaijan, sources: [source/kamil-ibn-al-athir] }
+  - { type: had_participant, target: person/al-malik-al-ashraf, role: "صاحب العساكر", sources: [source/kamil-ibn-al-athir] }
+provenance:
+  layer: own-research
+  source: "الكامل في التاريخ لابن الأثير، قراءة آبل فيجن"
+  generated_by: "Devin (SWE-2 Medium) from Apple Vision OCR"
+  run: lib-kamil-v12-batch08
+sources: [source/kamil-ibn-al-athir]
+status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 Medium)" }

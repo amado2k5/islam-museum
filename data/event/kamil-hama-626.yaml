@@ -1,0 +1,22 @@
+id: event/kamil-hama-626
+class: event
+kind: conquest
+label: { ar: "ملك الملك الكامل مدينة حماة", en: "al-Kamil takes Hama" }
+date:
+  start: { edtf: "1229~", hijri: "0626", calendar: julian, precision: year, status: tradition, derived: true }
+summary:
+  ar: "ملك الملك الكامل محمد بن العادل مدينة حماة فضمّها إلى ما استقر له من بلاد الشام {cite:kamil-ibn-al-athir p. 483}."
+  en: "al-Kamil took Hama and added it to his Syrian holdings {cite:kamil-ibn-al-athir p. 483}."
+sides:
+  - label: { ar: "المسلمون وخصومهم" }
+  - label: { ar: "الطرف الآخر" }
+relations:
+  - { type: occurred_at, target: place/hama, sources: [source/kamil-ibn-al-athir] }
+  - { type: had_participant, target: person/al-malik-al-kamil, role: "المالك", sources: [source/kamil-ibn-al-athir] }
+provenance:
+  layer: own-research
+  source: "الكامل في التاريخ لابن الأثير، قراءة آبل فيجن"
+  generated_by: "Devin (SWE-2 Medium) from Apple Vision OCR"
+  run: lib-kamil-v12-batch08
+sources: [source/kamil-ibn-al-athir]
+status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 Medium)" }

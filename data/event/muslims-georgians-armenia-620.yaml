@@ -1,0 +1,22 @@
+id: event/muslims-georgians-armenia-620
+class: event
+kind: battle
+label: { ar: "حرب بين المسلمين والكرج بأرمينية", en: "Muslim–Georgian war in Armenia" }
+date:
+  start: { edtf: "1223~", hijri: "0620", calendar: julian, precision: year, status: tradition, derived: true }
+summary:
+  ar: "جرت حرب بين المسلمين والكرج ببلاد أرمينية تقاتلوا فيها قتالًا شديدًا {cite:kamil-ibn-al-athir p. 435}."
+  en: "Heavy fighting ran between the Muslims and the Georgians in Armenia {cite:kamil-ibn-al-athir p. 435}."
+sides:
+  - label: { ar: "المسلمون وخصومهم" }
+  - label: { ar: "الطرف الآخر" }
+relations:
+  - { type: occurred_at, target: place/armenia, sources: [source/kamil-ibn-al-athir] }
+  - { type: had_participant, target: group/georgians, role: "أحد الطرفين", sources: [source/kamil-ibn-al-athir] }
+provenance:
+  layer: own-research
+  source: "الكامل في التاريخ لابن الأثير، قراءة آبل فيجن"
+  generated_by: "Devin (SWE-2 Medium) from Apple Vision OCR"
+  run: lib-kamil-v12-batch08
+sources: [source/kamil-ibn-al-athir]
+status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 Medium)" }
