@@ -1,0 +1,22 @@
+id: event/night-phantom-and-flood-337
+class: event
+kind: other
+label: { ar: "وهم السطوح الليلي وفيضان دجلة سنة ٣٣٧" }
+summary:
+  ar: "في سنة سبع وثلاثين وثلاثمائة تفزع الناس بالليل وتحارسوا وخُيّل إليهم حيوان يظهر في سطوحهم فتارة يظنونه ذئبًا وتارة غيره فبقوا على ذلك أيامًا كثيرة ثم سكنوا، وكان ابتداؤه من سوق الثلاثاء ثم انتشر في الجانبين؛ وفي يوم الاثنين لليلتين خلتا من رمضان انتهت زيادة دجلة إلى إحدى وعشرين ذراعًا وثلث فغرقت الضياع والدور التي عليها وأشفى الجانب الشرقي على الغرق وهمّ الناس بالهرب منه {cite:muntazam-ibn-al-jawzi p. 649}."
+  en: "In 337 Baghdadis panicked by night for days at an animal imagined on the rooftops — now a wolf, now something else — beginning in Suq al-Thalatha' and spreading to both sides; and on Monday two nights before Ramadan's end the Tigris crested at twenty-one and a third cubits, drowning estates and nearly the whole east bank {cite:muntazam-ibn-al-jawzi p. 649}."
+wings: [time]
+periods: [period/abbasid-early]
+regions: [levant-iraq]
+map: { kind: locator, precision: approximate, center: [44.36, 33.31] }
+date:
+  start: { edtf: "0948~", hijri: "0337", calendar: julian, precision: year, status: tradition, derived: true, note: "٣٣٧؛ التحويل مشتق {cite:muntazam-ibn-al-jawzi p. 649}." }
+relations:
+  - { type: occurred_at, target: place/baghdad, sources: [source/muntazam-ibn-al-jawzi] }
+provenance:
+  layer: own-research
+  source: "المنتظم لابن الجوزي (ط حيدرآباد 1357، ج7، سنة 337)، قراءة آبل فيجن"
+  generated_by: "Devin (SWE-2 Medium) from Apple Vision OCR"
+  run: lib-muntazam-258-349-batch30
+sources: [source/muntazam-ibn-al-jawzi]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 Medium)" }

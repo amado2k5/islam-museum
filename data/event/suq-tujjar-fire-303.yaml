@@ -1,0 +1,21 @@
+id: event/suq-tujjar-fire-303
+class: event
+kind: other
+label: { ar: "حريق سوق التجارين ومنارة جامع المدينة" }
+summary:
+  ar: "في سنة ثلاث وثلاثمائة وقع حريق في سوق التجارين بباب الشام فاحترقت السوق بأهلها، ووقعت شرارات في منارة الجامع بالمدينة فاحترقت {cite:muntazam-ibn-al-jawzi p. 418}."
+  en: "In 303 fire took the merchants' market at Bab al-Sham with the people in it, and flying sparks burned the minaret of the congregational mosque of al-Madina {cite:muntazam-ibn-al-jawzi p. 418}."
+wings: [time]
+periods: [period/abbasid-early]
+regions: [levant-iraq]
+date:
+  start: { edtf: "0915~", hijri: "0303", calendar: julian, precision: year, status: tradition, derived: true, note: "٣٠٣؛ التحويل مشتق {cite:muntazam-ibn-al-jawzi p. 418}." }
+relations:
+  - { type: occurred_at, target: place/baghdad, sources: [source/muntazam-ibn-al-jawzi] }
+provenance:
+  layer: own-research
+  source: "المنتظم لابن الجوزي (ط حيدرآباد 1357، ج6، سنة 303)، قراءة آبل فيجن"
+  generated_by: "Devin (SWE-2 Medium) from Apple Vision OCR"
+  run: lib-muntazam-258-349-batch29
+sources: [source/muntazam-ibn-al-jawzi]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 Medium)" }

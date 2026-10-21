@@ -2,18 +2,13 @@
 id: person/nadr-ibn-shumayl
 lang: en
 source_lang: ar
-translators: ["Claude Haiku 5.5 (claude-haiku-5-5), draft translation"]
+translators: []
 ---
+## In brief
+Al-Nadr b. Shumayl, the imam, memoriser, and polymath Abu al-Hasan al-Mazini of Basra, the philologist and scholar of the people of Marw; his father took him out of Marw and al-Rudwan to Basra when he was five or six years old. He narrated from Hisham b. Urwa, Humayd al-Tawil, Isma'il b. Abi Khalid, Ibn Awn, Hisham b. Hassan, and others of the Kufans and Basrans, while Ishaq b. Rahawayh, Ishaq al-Kawsaj, Muhammad b. Rafi', Abu Muhammad al-Darimi, Sa'id b. Mas'ud al-Marwazi, and many narrated from him. {cite:tazkirat-al-huffaz j.1 p.292}
 
-## Overview
-Nadr ibn Shumayl, a philologist of the Banu Mazin, died in the days of al-Ma'mun. {cite:tarikh-khulafa-minhaj-1434 p.499-501}
+## Scholarship and judgeship
+Abu Hatim called him "reliable, a man of the sunna"; Ibn al-Mubarak said "he is one of the collectors — none of our companions approached his level"; al-Abbas b. Mus'ab said "he was an imam in Arabic and hadith, and the first to make the sunna manifest in Marw and Khurasan"; he was the most prolific narrator of Shu'ba, composed many works, and held the judgeship of Marw. {cite:tazkirat-al-huffaz j.1 p.293}
 
-## His lineage and teachers
-According to Ibn al-Nadim, he is Nadr ibn Shumayl ibn Kharasha al-Mazini, of Basran origin, who settled in Marw al-Rudh. He studied with al-Khalil ibn Ahmad and with eloquent Bedouins. {cite:fihrist-ibn-al-nadim p.144}
-
-## With al-Ma'mun
-al-Suyuti relates that he corrected [[person/abd-allah-al-mamun|al-Ma'mun]]'s grammatical error in Hashim's use of the word «al-sadad» with an s. Al-Ma'mun gave him fifty thousand dirhams. {cite:tarikh-khulafa-minhaj-1434 p.499-501}
-
-When al-Fadl ibn Sahl heard that Nadr had corrected the Commander of the Faithful, he said the error came from Hashim. Al-Ma'mun then ordered thirty thousand more for him, and he left with eighty thousand. {cite:tarikh-khulafa-minhaj-1434 p.499-501}
-
-al-Suyuti describes him as the author of "al-Sihah fi al-Hadith". {cite:tarikh-khulafa-minhaj-1434 p.519}
+## His death
+Al-Nadr died on the last day of 203 AH and was buried on the first day of 204. {cite:tazkirat-al-huffaz j.1 p.293}

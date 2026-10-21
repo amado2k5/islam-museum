@@ -2,11 +2,7 @@
 id: person/jabir-ibn-zayd
 lang: en
 source_lang: ar
-translators: ["Claude Haiku 5.5 (claude-haiku-5-5), draft translation"]
+translators: []
 ---
-
-## Overview
-Jabir ibn Zayd al-Azdi, a client of the Azd, from Basra, known by the kunya Abu al-Sha'tha'. Al-Mas'udi counts him among the scholars who died in the days of Yazid ibn Abd al-Malik. {cite:muruj-al-dhahab p.191}
-
-## Death
-The date of his death is disputed. Al-Shirazi says that he died in 103 AH, and it is also said 93 AH; the word "it is said" marks doubt. The Gregorian equivalent is derived from the Hijri date. {cite:tabaqat-fuqaha-abbas-1981}
+## In brief
+Abu al-Sha'tha' Jabir b. Zayd al-Azdi of Basra, one of the great figures and the companion of Ibn Abbas; Qatada, Ayyub, Amr b. Dinar, and a group narrated from him. Ata' reports Ibn Abbas saying "were the people of Basra to clear themselves by Jabir b. Zayd's verdict, it would suffice them year after year in God's book", and Ibn Abbas is reported saying "ask me whatever you like while Jabir b. Zayd is among you", and Amr b. Dinar said "I have never seen anyone more learned". {cite:tazkirat-al-huffaz j.1 p.71-72}

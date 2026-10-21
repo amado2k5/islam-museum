@@ -100,3 +100,69 @@ Un-deferred: Ibn al-Munkadir and al-Baqir both found in the same Tadhkirat scan 
 Still deferred: musab-ibn-sad-ibn-abi-waqqas, mabad-ibn-kab-ibn-malik, malik-ibn-abi-amir-al-asbahi, muhammad-ibn-yahya-ibn-habban.
 
 Validation: 0 errors; 101 tests pass; coverage regenerated.
+
+### 005 — 21 Oct 2026
+
+Largest batch so far: trilingual prose (ar+en+ur) for 20 `person` records, all from tazkirat-al-huffaz juz 1-2 (AAlexandrina-224163), entries read on the page:
+
+- `person/kathir-ibn-murra` — e31 p.53 (faqih of Homs, met 70 Badris)
+- `person/mutarrif-ibn-al-shikhkhir` — e54 p.64-65 (Basri, escaped Ibn al-Ash'ath fitna, d. 95)
+- `person/amr-ibn-maymun` — e55 p.65 (Yamani Kufan, 100 hajj/umra, d. 74/75)
+- `person/abu-uthman-al-nahdi` — e56 p.65-66 (14 at Qadisiyya, lived 130 years, d. 95)
+- `person/malik-ibn-aws` — e61 p.67 (mukhadram Nasri, witnessed Jerusalem conquest)
+- `person/jabir-ibn-zayd` — e67 p.71-72 (Abu al-Sha'tha', Ibn Abbas's companion)
+- `person/ibrahim-al-nakhai` — e70 p.73-74 (faqih of Iraq, d. 95/96)
+- `person/salim-ibn-abd-allah-ibn-umar` — e78 p.86-87 (Ibn Umar's son, d. 106)
+- `person/tawus-ibn-kaysan` — e79 p.87-88 (40 hajjs, "like Ibn Sirin in Basra")
+- `person/ata-ibn-yasar` — e80 p.88 (Maymuna's mawla, d. 87/103)
+- `person/amr-ibn-dinar` — p.110-111 (scholar of the Haram, d. 126, one of Ibn al-Mufaddal's four)
+- `person/qatada-ibn-diama` — p.118-120 (best memoriser of Basra, d. Wasit plague 117/118)
+- `person/mansur-ibn-zadhan` — e39 p.137-138 (sunrise-to-sunset worshipper, d. 131)
+- `person/mansur-ibn-al-mutamir` — e40 p.138-139 (40 years fasting, forced judgeship, d. 132)
+- `person/muammar-ibn-rashid` — p.182-183 (scholar of Yemen, "put him before anyone and he is above")
+- `person/zaida-ibn-qudama` — e47 p.204 (Shu'ba's peer in exactitude, d. 161)
+- `person/hushaim-ibn-bashir` — p.233-234 (11,000 hadiths, b. 104, Ahmad's 4-year companion)
+- `person/hajjaj-ibn-muhammad` — p.319 (al-Missisi, "asleep more reliable than Abd al-Razzaq awake", d. 206)
+- `person/hisham-ibn-yusuf-al-sanani` — p.320 (qadi/mufti of Sanaa, soundest book, d. 197)
+- `person/sulayman-ibn-harb` — p.359-360 (qadi of Mecca, summoned by al-Ma'mun, d. 224)
+- `person/muslim-ibn-ibrahim` — e80 p.360-361 (Farahidi musnad-master, "100 shaykhs before the bridge", d. Safar 222)
+
+Deferred list unchanged. Validation: 0 errors; coverage regenerated.
+
+### 006 — 21 Oct 2026
+
+15 `person` records, trilingual, all entries read on the page in tazkirat-al-huffaz (AAlexandrina-224163):
+
+- `person/imran-ibn-husayn` — p.32 (Companion, qadi of Basra, d. 52)
+- `person/qays-ibn-abi-hazim` — p.61-62 (mukhadram, Yamama veteran, d. ~97)
+- `person/yunus-ibn-ubayd` — p.141-142 (the honest cloth-merchant, d. 139)
+- `person/musa-ibn-uqba` — p.143-144 (author of the Maghazi, d. 141)
+- `person/ibn-jurayj` — p.164-166 (faqih of the Haram, first compiler, d. 150)
+- `person/israil-ibn-yunus` — p.203-204 (Abu Yusuf al-Sabi'i, d. 161/162)
+- `person/hammad-ibn-zayd` — p.215-216 (one of Ibn Mahdi's four imams, blind, d. 179)
+- `person/mutamir-ibn-sulayman` — p.249-250 (al-Taymi of Basra, b. 106, d. Safar 187)
+- `person/hafs-ibn-ghiyath` — p.278 (qadi of Baghdad then Kufa, d. 184)
+- `person/yahya-al-qattan` — p.278-279 (sayyid al-huffaz, b. 120)
+- `person/nadr-ibn-shumayl` — p.292-293 (philologist of Marw, d. 203)
+- `person/abd-al-rahman-ibn-mahdi` — p.305-307 (the great critic, d. 198)
+- `person/abu-dawud-al-tayalisi` — p.324-325 (40,000 hadiths by memory, d. 204)
+- `person/abu-asim-al-nabil` — p.337-338 (never narrated but from memory, d. 212)
+- `person/qutayba-ibn-said` — p.406-407 (hadith-master of Khurasan, d. 240)
+
+Likely duplicate flagged: `person/mutarrif-ibn-abdallah` (muruj-al-dhahab letter to Umar II) vs `person/mutarrif-ibn-al-shikhkhir` — same man; needs dedup decision.
+Still deferred: hammad-ibn-salama, bishr-al-hafi, maruf-al-karkhi, malik-ibn-dinar-al-khattat, waki-ibn-al-jarrah, shuba-ibn-al-hajjaj (entries not in this scan's OCR or garbled); plus previous deferrals.
+Validation: 0 errors; coverage regenerated.
+
+## Batch 007 — siyar + tadhkirat sweep (8 records)
+
+- Enriched thin files: shuba-ibn-al-hajjaj, bishr-al-hafi, maruf-al-karkhi, malik-ibn-dinar-al-khattat, hammad-ibn-salama — all from siyar-alam-nubala (Ideas House scan), entries 2460/1188/6193/4668/1826.
+- New prose: simak-ibn-harb (siyar #2391, p.1936), muawiya-ibn-salih (siyar #6176, p.3893), hammad-ibn-usama (tazkirat-al-huffaz j.2 p.299).
+- Still deferred: waki-ibn-al-jarrah, nafi-ibn-umar-al-jumahi (tarjama bodies not located in the scanned volumes), plus prior deferrals.
+- Lane total: 76 records with trilingual prose (69 after batch 006).
+
+## Batch 008 — waki', ibn-ulayyah, jurayri, kalbi, ibn-ma'in (5 records)
+
+- New prose: waki-ibn-al-jarrah (siyar #6558, p.4121-4123), ibn-ulayyah (siyar p.1092-1093), said-ibn-iyas-al-jariri (siyar #2230, p.1793-1794).
+- Enriched: muhammad-ibn-al-saib-al-kalbi (siyar #5212, p.3432), yahya-ibn-main (siyar #6694, p.4202-4204).
+- Deferred this round: hisham-ibn-al-kalbi, yahya-ibn-muadh-al-razi, ubaydallah-ibn-jarir, fudayl-ibn-iyad, ibrahim-ibn-adham, nafi-ibn-umar-al-jumahi (tarjama bodies not located in scanned volumes).
+- Lane total: 81 records.

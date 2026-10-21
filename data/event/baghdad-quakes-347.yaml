@@ -1,0 +1,22 @@
+id: event/baghdad-quakes-347
+class: event
+kind: other
+label: { ar: "زلازل سنة ٣٤٧ وجراد العراق" }
+summary:
+  ar: "في سنة سبع وأربعين وثلاثمائة كانت زلزلة بغداد في نيسان وكانت زلازل عظيمة في حلوان وبادان الجبل وقم وكاشان فقتلت خلقًا كثيرًا وأخربت، وظهر في آخر نيسان وأيار جراد أتلف الغلات الصيفية والبقول ببغداد وأتلف من الغلات الشتوية بديار مضر شيئًا عظيمًا واجتاح الرطاب والبطيخ، وورد الخبر بأن الروم خرجوا إلى آمد وميافارقين وفتحوا حصونًا كثيرة وقتلوا من المسلمين ألفًا وخمسمائة رجل، وفي آخر هذه السنة فتح الروم سميساط وأخربوها {cite:muntazam-ibn-al-jawzi p. 683}."
+  en: "In 347 earthquakes struck Baghdad, Hulwan, Badan al-Jabal, Qum and Kashan killing many; locusts devoured the summer crops and melons across Iraq and Diyar Mudar; the Byzantines took Amid and Mayyafariqin's forts killing 1,500, and ended the year by taking and ruining Samosata {cite:muntazam-ibn-al-jawzi p. 683}."
+wings: [time]
+periods: [period/abbasid-early]
+regions: [levant-iraq, persia-central-asia]
+map: { kind: locator, precision: approximate, center: [45.00, 33.80] }
+date:
+  start: { edtf: "0958-04~", hijri: "0347", calendar: julian, precision: year, status: tradition, derived: true, note: "٣٤٧؛ التحويل مشتق {cite:muntazam-ibn-al-jawzi p. 683}." }
+relations:
+  - { type: occurred_at, target: place/baghdad, sources: [source/muntazam-ibn-al-jawzi] }
+provenance:
+  layer: own-research
+  source: "المنتظم لابن الجوزي (ط حيدرآباد 1357، ج7، سنة 347)، قراءة آبل فيجن"
+  generated_by: "Devin (SWE-2 Medium) from Apple Vision OCR"
+  run: lib-muntazam-258-349-batch30
+sources: [source/muntazam-ibn-al-jawzi]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 Medium)" }

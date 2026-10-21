@@ -1,15 +1,24 @@
 id: person/ubaydallah-ibn-yahya-ibn-khaqan
 class: person
-label: { ar: "عبيد الله بن يحيى بن خاقان", en: "'Ubaydallah ibn Yahya" }
-summary:
-  ar: "استكتبه المتوكل سنة ثلاث وثلاثين ومائتين بعد صرف محمد بن الفضل الجرجرائي فوزر إلى أن قتل {cite:muruj-al-dhahab p. 476}."
-  en: "The wazir taken in 233 after al-Jarjara'i's dismissal — in office until his death {cite:muruj-al-dhahab p. 476}."
+label: { ar: "عبيد الله بن يحيى بن خاقان", en: "Ubaydallah ibn Yahya ibn Khaqan" }
+roles: [vizier]
 gender: male
+died:
+  hijri: "0263"
+  status: tradition
+  sources: [source/muntazam-ibn-al-jawzi]
+summary:
+  ar: "وزير المعتمد على الله؛ هلك سنة ثلاث وستين ومائتين فاستُوزر من الغد الحسين بن مخلد، ثم تقدم موسى بن بغا فهرب الحسين بن مخلد إلى بغداد واستُوزر مكانه سليمان بن وهب {cite:muntazam-ibn-al-jawzi p. 120}."
+  en: "Al-Mu'tamid's vizier, of the Khaqanid bureaucratic house; on his death in 263 al-Hasan ibn Makhlad was made vizier, but when Musa ibn Bugha advanced Ibn Makhlad fled to Baghdad and Sulayman ibn Wahb took the office {cite:muntazam-ibn-al-jawzi p. 120}."
 wings: [people]
+periods: [period/abbasid-early]
+regions: [levant-iraq]
+relations:
+  - { type: allied_with, target: person/al-mutamid, role: "وزير", sources: [source/muntazam-ibn-al-jawzi] }
 provenance:
   layer: own-research
-  source: "مروج الذهب للمسعودي (ط الدار الإفريقية/دار التحرير) ج2 ص 476"
-  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
-  run: lib-muruj-dhahab-batch-93
-sources: [source/muruj-al-dhahab]
-status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }
+  source: "المنتظم لابن الجوزي (ط حيدرآباد 1357، ج5، سنة 263)، قراءة آبل فيجن"
+  generated_by: "Devin (SWE-2 Medium) from Apple Vision OCR"
+  run: lib-muntazam-258-349-batch31
+sources: [source/muntazam-ibn-al-jawzi]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 Medium)" }

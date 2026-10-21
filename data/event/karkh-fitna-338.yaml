@@ -1,0 +1,25 @@
+id: event/karkh-fitna-338
+class: event
+kind: civil-war
+label: { ar: "فتنة الكرخ بين السنة والشيعة ٣٣٨" }
+summary:
+  ar: "في آخر ربيع الأول سنة ثمان وثلاثين وثلاثمائة وقعت فتنة بين أهل السنة والشيعة في الكرخ ونُهبت، وفي يوم الخميس لإحدى عشرة ليلة بقيت من جمادى الآخرة عُزل القاضي أبو السائب عتبة بن عبيد الله الهمذاني عن قضاء القضاة {cite:muntazam-ibn-al-jawzi p. 656}."
+  en: "In late Rabi' I 338 a fitna between Sunnis and Shi'is broke out in Karkh and it was looted; the chief qadi Abu'l-Sa'ib 'Utba ibn 'Ubaydallah al-Hamadhani was dismissed that Jumada II {cite:muntazam-ibn-al-jawzi p. 656}."
+wings: [time]
+periods: [period/abbasid-early]
+regions: [levant-iraq]
+sides:
+  - label: { ar: "أهل السنة" }
+  - label: { ar: "الشيعة" }
+map: { kind: locator, precision: approximate, center: [44.35, 33.31] }
+date:
+  start: { edtf: "0949-10~", hijri: "0338-03", calendar: julian, precision: month, status: tradition, derived: true, note: "ربيع الأول ٣٣٨؛ التحويل مشتق {cite:muntazam-ibn-al-jawzi p. 656}." }
+relations:
+  - { type: occurred_at, target: place/baghdad, sources: [source/muntazam-ibn-al-jawzi] }
+provenance:
+  layer: own-research
+  source: "المنتظم لابن الجوزي (ط حيدرآباد 1357، ج7، سنة 338)، قراءة آبل فيجن"
+  generated_by: "Devin (SWE-2 Medium) from Apple Vision OCR"
+  run: lib-muntazam-258-349-batch30
+sources: [source/muntazam-ibn-al-jawzi]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 Medium)" }
