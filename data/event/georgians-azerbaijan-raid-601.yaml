@@ -1,0 +1,22 @@
+id: event/georgians-azerbaijan-raid-601
+class: event
+kind: raid
+label: { ar: "غارة الكرج على بلاد الإسلام من أذربيجان", en: "Georgian raid into Azerbaijan" }
+date:
+  start: { edtf: "1204~", hijri: "0601", calendar: julian, precision: "year", status: tradition, derived: true }
+summary:
+  ar: "أغارت الكرج على بلاد الإسلام من ناحية أذربيجان فأكثروا العيث والقتل والنهب {cite:kamil-ibn-al-athir p. 297}."
+  en: "The Georgians raided the Islamic lands from the Azerbaijan side, ravaging, killing and plundering {cite:kamil-ibn-al-athir p. 297}."
+sides:
+  - label: { ar: "الكرج" }
+  - label: { ar: "أهل أذربيجان" }
+relations:
+  - { type: occurred_at, target: place/azerbaijan, sources: [source/kamil-ibn-al-athir] }
+  - { type: had_participant, target: group/georgians, role: "الغازون", sources: [source/kamil-ibn-al-athir] }
+provenance:
+  layer: own-research
+  source: "الكامل في التاريخ لابن الأثير، قراءة آبل فيجن"
+  generated_by: "Devin (SWE-2 Medium) from Apple Vision OCR"
+  run: lib-kamil-v12-batch05
+sources: [source/kamil-ibn-al-athir]
+status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 Medium)" }

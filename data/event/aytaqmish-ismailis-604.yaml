@@ -1,0 +1,23 @@
+id: event/aytaqmish-ismailis-604
+class: event
+kind: campaign
+label: { ar: "إيقاع أيتغمش بالإسماعيلية", en: "Aytaqmish ravages the Ismailis near Qazvin" }
+date:
+  start: { edtf: "1207~", hijri: "0604", calendar: julian, precision: "year", status: tradition, derived: true }
+summary:
+  ar: "سار أيتغمش صاحب الجبل إلى بلاد الإسماعيلية المجاورة لقزوين فقتل منهم ونهب {cite:kamil-ibn-al-athir p. 319}."
+  en: "Aytaqmish marched against the Ismaili lands adjoining Qazvin, killing and plundering {cite:kamil-ibn-al-athir p. 319}."
+sides:
+  - label: { ar: "أيتغمش وعسكر الجبل" }
+  - label: { ar: "الإسماعيلية ببلاد قزوين" }
+relations:
+  - { type: occurred_at, target: place/qazwin, sources: [source/kamil-ibn-al-athir] }
+  - { type: had_participant, target: person/aytaqmish, role: "الغازي", sources: [source/kamil-ibn-al-athir] }
+  - { type: had_participant, target: group/ismaili-dawa, role: "المغارّ عليهم", sources: [source/kamil-ibn-al-athir] }
+provenance:
+  layer: own-research
+  source: "الكامل في التاريخ لابن الأثير، قراءة آبل فيجن"
+  generated_by: "Devin (SWE-2 Medium) from Apple Vision OCR"
+  run: lib-kamil-v12-batch05
+sources: [source/kamil-ibn-al-athir]
+status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 Medium)" }

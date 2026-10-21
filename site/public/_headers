@@ -7,3 +7,11 @@
 # media type for an extensionless file, so the linkset type is set here.
 /.well-known/api-catalog
   Content-Type: application/linkset+json
+
+# Cloudflare Pages added these three to every response on its own. The site Worker
+# (workers/site) applies this file to every response it serves, so they are set here
+# explicitly and the two origins answer alike.
+/*
+  X-Content-Type-Options: nosniff
+  Referrer-Policy: strict-origin-when-cross-origin
+  Access-Control-Allow-Origin: *

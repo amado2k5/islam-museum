@@ -1,0 +1,20 @@
+id: event/sanjar-shah-killed-606
+class: event
+kind: death
+label: { ar: "قتل سنجر شاه وملك ابنه محمود", en: "Sanjar Shah killed; his son Mahmud succeeds" }
+date:
+  start: { edtf: "1209~", hijri: "0606", calendar: julian, precision: year, status: tradition, derived: true }
+summary:
+  ar: "قُتل سنجر شاه وملك بعده ابنه محمود على ما كان بيده من البلاد {cite:kamil-ibn-al-athir p. 345}."
+  en: "Sanjar Shah was killed and his son Mahmud took over his lands {cite:kamil-ibn-al-athir p. 345}."
+relations:
+  - { type: occurred_at, target: place/jibal, sources: [source/kamil-ibn-al-athir] }
+  - { type: had_participant, target: person/sanjar-shah, role: "المقتول", sources: [source/kamil-ibn-al-athir] }
+  - { type: had_participant, target: person/mahmud-ibn-sanjar-shah, role: "الخلف", sources: [source/kamil-ibn-al-athir] }
+provenance:
+  layer: own-research
+  source: "الكامل في التاريخ لابن الأثير، قراءة آبل فيجن"
+  generated_by: "Devin (SWE-2 Medium) from Apple Vision OCR"
+  run: lib-kamil-v12-batch06
+sources: [source/kamil-ibn-al-athir]
+status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 Medium)" }

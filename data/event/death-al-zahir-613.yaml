@@ -1,0 +1,19 @@
+id: event/death-al-zahir-613
+class: event
+kind: death
+label: { ar: "وفاة الملك الظاهر غازي بن صلاح الدين", en: "Death of al-Malik al-Zahir of Aleppo" }
+date:
+  start: { edtf: "1216~", hijri: "0613", calendar: julian, precision: year, status: tradition, derived: true }
+summary:
+  ar: "توفي الملك الظاهر غازي بن صلاح الدين صاحب حلب، وكان من خيار أولاد أيوب وأعدلهم، وملك بعده ولده العزيز وهو طفل {cite:kamil-ibn-al-athir p. 369}."
+  en: "al-Malik al-Zahir Ghazi ibn Saladin, lord of Aleppo, died — the best and justest of the Ayyubids, Ibn al-Athir says; his infant son al-Aziz succeeded {cite:kamil-ibn-al-athir p. 369}."
+relations:
+  - { type: occurred_at, target: place/aleppo, sources: [source/kamil-ibn-al-athir] }
+  - { type: had_participant, target: person/al-malik-al-zahir-ghazi, role: "المتوفى", sources: [source/kamil-ibn-al-athir] }
+provenance:
+  layer: own-research
+  source: "الكامل في التاريخ لابن الأثير، قراءة آبل فيجن"
+  generated_by: "Devin (SWE-2 Medium) from Apple Vision OCR"
+  run: lib-kamil-v12-batch06
+sources: [source/kamil-ibn-al-athir]
+status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 Medium)" }

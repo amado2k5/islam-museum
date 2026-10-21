@@ -102,3 +102,16 @@ export function headersFor(blocks, pathname) {
   }
   return out;
 }
+
+// HTML pages: an hour in the browser and at the edge, a day of stale-while-revalidate.
+// A page republished to R2 reaches visitors within the hour; the museum's content
+// changes slowly enough for that (founder's decision, 21 October 2026). The edge part
+// is Workers Caching ([cache] in wrangler.production.toml): a cached page is served
+// without running this Worker or reading R2, once per hour per edge location.
+export const HTML_CACHE_CONTROL = "public, max-age=3600, s-maxage=3600, stale-while-revalidate=86400";
+// Redirects are fixed by the rule files, so they may be cached for the same hour.
+export const REDIRECT_CACHE_CONTROL = "public, max-age=3600";
+
+export function redirectTo(location, status) {
+  return new Response(null, { status, headers: { location, "cache-control": REDIRECT_CACHE_CONTROL } });
+}

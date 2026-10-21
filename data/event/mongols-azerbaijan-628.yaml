@@ -1,0 +1,22 @@
+id: event/mongols-azerbaijan-628
+class: event
+kind: campaign
+label: { ar: "خروج التتر إلى أذربيجان", en: "The Mongols burst into Azerbaijan" }
+date:
+  start: { edtf: "1231~", hijri: "0628", calendar: julian, precision: year, status: tradition, derived: true }
+summary:
+  ar: "خرج التتر إلى أذربيجان في جموع لم يُسمع بمثلها فملكوا مراغة وما والاها وأفسدوا في البلاد {cite:kamil-ibn-al-athir p. 490}."
+  en: "The Mongols poured into Azerbaijan in unheard-of numbers, took Maragha and its neighbors, and ravaged the land {cite:kamil-ibn-al-athir p. 490}."
+sides:
+  - label: { ar: "المسلمون" }
+  - label: { ar: "خصومهم" }
+relations:
+  - { type: occurred_at, target: place/azerbaijan, sources: [source/kamil-ibn-al-athir] }
+  - { type: had_participant, target: group/mongols, role: "الغازون", sources: [source/kamil-ibn-al-athir] }
+provenance:
+  layer: own-research
+  source: "الكامل في التاريخ لابن الأثير، قراءة آبل فيجن"
+  generated_by: "Devin (SWE-2 Medium) from Apple Vision OCR"
+  run: lib-kamil-v12-batch07
+sources: [source/kamil-ibn-al-athir]
+status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 Medium)" }

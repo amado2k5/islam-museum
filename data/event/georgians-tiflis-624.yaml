@@ -1,0 +1,23 @@
+id: event/georgians-tiflis-624
+class: event
+kind: raid
+label: { ar: "دخول الكرج تفليس وإحراقها", en: "The Georgians enter and burn Tiflis" }
+date:
+  start: { edtf: "1226~", hijri: "0624", calendar: julian, precision: year, status: tradition, derived: true }
+summary:
+  ar: "دخلت الكرج مدينة تفليس وأحرقوها بعد أن كان جلال الدين ملكها فنكث أهلها واستعانوا بهم {cite:kamil-ibn-al-athir p. 472}."
+  en: "The Georgians entered and burned Tiflis after its people defected from Jalal al-Din and called them in {cite:kamil-ibn-al-athir p. 472}."
+sides:
+  - label: { ar: "المسلمون" }
+  - label: { ar: "خصومهم" }
+relations:
+  - { type: occurred_at, target: place/tiflis, sources: [source/kamil-ibn-al-athir] }
+  - { type: had_participant, target: group/georgians, role: "الداخلون", sources: [source/kamil-ibn-al-athir] }
+  - { type: had_participant, target: person/jalal-al-din-khwarazmshah, role: "المالك السابق", sources: [source/kamil-ibn-al-athir] }
+provenance:
+  layer: own-research
+  source: "الكامل في التاريخ لابن الأثير، قراءة آبل فيجن"
+  generated_by: "Devin (SWE-2 Medium) from Apple Vision OCR"
+  run: lib-kamil-v12-batch07
+sources: [source/kamil-ibn-al-athir]
+status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 Medium)" }
