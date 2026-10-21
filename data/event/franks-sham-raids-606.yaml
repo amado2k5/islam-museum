@@ -1,0 +1,22 @@
+id: event/franks-sham-raids-606
+class: event
+kind: raid
+label: { ar: "غارات الفرنج بالشام", en: "Frankish raids on Syria" }
+date:
+  start: { edtf: "1209~", hijri: "0606", calendar: julian, precision: year, status: tradition, derived: true }
+summary:
+  ar: "توالت غارات الفرنج على سواحل الشام وثغورها في غيبة الجيوش بحروب السلاطين بعضهم مع بعض {cite:kamil-ibn-al-athir p. 341}."
+  en: "Frankish raids recurred on the Syrian coast and ports while the sultans fought one another {cite:kamil-ibn-al-athir p. 341}."
+sides:
+  - label: { ar: "الفرنج" }
+  - label: { ar: "أهل سواحل الشام" }
+relations:
+  - { type: occurred_at, target: place/al-sham, sources: [source/kamil-ibn-al-athir] }
+  - { type: had_participant, target: group/ifranja, role: "الغازون", sources: [source/kamil-ibn-al-athir] }
+provenance:
+  layer: own-research
+  source: "الكامل في التاريخ لابن الأثير، قراءة آبل فيجن"
+  generated_by: "Devin (SWE-2 Medium) from Apple Vision OCR"
+  run: lib-kamil-v12-batch06
+sources: [source/kamil-ibn-al-athir]
+status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 Medium)" }
