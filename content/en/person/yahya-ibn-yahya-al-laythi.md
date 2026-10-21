@@ -20,3 +20,10 @@ The sources give his death as the year 234 AH, in Rajab, and his grave is in Cor
 
 ## Notes
 - His date of birth (152 AH) and of death need a second source. The reading of the year of death in the edition is not certain (244 or 234). The entry needs an additional source.
+
+## In al-Dhahabi's Siyar
+Al-Dhahabi gives him as Yahya ibn Yahya ibn Kathir ibn Wisalas, the great imam and jurist of al-Andalus, Abu Muhammad al-Laythi of Berber Masmuda stock, from Cordoba, born in 152 AH. {cite:siyar-alam-nubala-ideas-house p.4215}
+
+He travelled east late in Malik's life and heard the Muwatta from him except for some chapters of i'tikaf, which he doubted hearing and narrated instead from Ziyad Shabtun from Malik; he also heard al-Layth ibn Sa'd, Sufyan ibn 'Uyayna, 'Abdallah ibn Wahb and 'Abd al-Rahman ibn al-Qasim, from whom he carried ten volumes of questions and legal issues. He stayed until Malik died and witnessed his funeral, then returned to Cordoba with abundant knowledge, took the lead in teaching, and students thronged to him. {cite:siyar-alam-nubala-ideas-house p.4215}
+
+It is reported that he took hold of al-Layth's stirrup, and when al-Layth's servant moved to stop him, al-Layth said "leave him", then told him: "knowledge has served you" — and the days proved it so. {cite:siyar-alam-nubala-ideas-house p.4215}
