@@ -206,3 +206,10 @@ Validation: 0 errors; coverage regenerated.
 - Dedup: merged qutam-ibn-al-abbas into qutham-ibn-al-abbas (alias + richer summary/sources); prose rewritten under canonical id.
 - Rejected/deferred: al-harith-al-muhasibi, al-hakam-ibn-utayba, al-rabi-ibn-sabih, surayj-ibn-yunus, razin-ibn-muawiya, mahmud-ibn-ghaylan, salih-ibn-ahmad-ibn-hanbal, yazid-ibn-mazyad (index hits or wrong-person bodies).
 - Lane total: 136 records. Validation: 0 errors; coverage regenerated.
+
+## Batch 014 — siyar header-index sweep IV (15 records)
+
+- New prose: aqil-ibn-abi-talib (p.2701), al-qasim-ibn-muhammad-ibn-abi-bakr (p.3072, Seven Fuqaha), tamim-ibn-al-muizz-badis (p.1264, Zirid sultan, d.501), amr-ibn-hurayth-al-makhzumi (p.2944, late Companion in Kufa), awana-ibn-al-hakam (p.2979, historian, d.147), abu-awana-al-yashkuri (p.4119-4120, d.176), zurara-ibn-awfa (p.1718, qadi of Basra, d.93), hammad-ibn-ishaq-al-basri (p.1551), sad-ibn-ibrahim-al-zuhri (p.1771, d.201), hatim-ibn-ismail (p.1345, d.187), ibrahim-ibn-uyayna (p.686, d.199), yusuf-ibn-musa-al-qattan (p.4286, b.269), yaeish-bin-sadaqa-al-furati (p.4255, d.593), auf-ibn-al-harith (p.2979, Badri martyr).
+- Enriched: aisha-bint-talha (p.2077).
+- Deferred: al-kumayt, al-hasan-ibn-sahl, anas-ibn-iyad, ismail-ibn-hammad-al-qadi, amr-ibn-al-harith (index or interleaved bodies).
+- Lane total: 151 records. Validation: 0 errors; coverage regenerated.
