@@ -1,0 +1,19 @@
+id: event/ildigiz-rayy-566
+class: event
+kind: conquest
+label: { ar: "ملك إيلدكز الري", en: "Īldigiz takes al-Rayy" }
+date:
+  start: { edtf: "1170~", hijri: "0566", calendar: julian, precision: year, status: tradition, derived: true }
+summary:
+  ar: "ملك شمس الدين إيلدكز أتابك أذربيجان مدينة الريّ، وكان ملكه لها بواسطة ابن عربشاه الإبراهيمي وزير السلطان أرسلان بن طغرل، ثم استقلّ بأذربيجان والجبل {cite:kamil-ibn-al-athir p. 20}."
+  en: "Shams al-Dīn Īldigiz, atabeg of Azerbaijan, took al-Rayy — won through the vizier Ibn ʿArabshāh al-Ibrāhīmī — then held Azerbaijan and the Jibāl as an independent power {cite:kamil-ibn-al-athir p. 20}."
+relations:
+  - { type: occurred_at, target: place/rayy, sources: [source/kamil-ibn-al-athir] }
+  - { type: had_participant, target: person/shams-al-din-ildigiz, sources: [source/kamil-ibn-al-athir] }
+provenance:
+  layer: own-research
+  source: "الكامل في التاريخ لابن الأثير، قراءة آبل فيجن"
+  generated_by: "Devin (SWE-2 Medium) from Apple Vision OCR"
+  run: lib-kamil-v12-batch01
+sources: [source/kamil-ibn-al-athir]
+status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 Medium)" }
