@@ -126,15 +126,23 @@ function diff(desired, previous) {
   return ops;
 }
 
-function applyArchive(archive, dir, workerUrl) {
+// Node's AggregateError (from a failed connect across several addresses) has an empty
+// message, so take the error code, or the codes of its inner errors, instead.
+function describeError(err) {
+  if (err?.code) return err.code;
+  if (Array.isArray(err?.errors) && err.errors.length) return `${err.name} [${err.errors.map(describeError).join(", ")}]`;
+  return err?.message || err?.name || String(err);
+}
+
+async function applyArchive(archive, dir, workerUrl, progress) {
+  const started = Date.now();
   const file = join(dir, archive.name);
   writeFileSync(file, archive.bytes);
   const stagedKey = `${STAGING_PREFIX}${archive.name}`;
   execFileSync("aws", ["s3", "cp", file, `s3://${bucket}/${stagedKey}`, "--endpoint-url", endpoint, "--only-show-errors"], { stdio: "inherit" });
-  return postWithRetry(workerUrl, stagedKey, archive.name).then(({ status, report }) => {
-    if (status !== 200) throw new Error(`${archive.name}: worker answered ${status} ${JSON.stringify(report)}`);
-    log(`${archive.name}: ${JSON.stringify(report.summary)}`);
-  });
+  const { status, report } = await postWithRetry(workerUrl, stagedKey, archive.name);
+  if (status !== 200) throw new Error(`${archive.name}: worker answered ${status} ${JSON.stringify(report)}`);
+  log(`${progress} ${archive.name} via ${workerUrl} in ${Date.now() - started} ms: ${JSON.stringify(report.summary)}`);
 }
 
 // A connection can time out or reset before the Worker answers. Retrying the same archive
@@ -143,6 +151,7 @@ function applyArchive(archive, dir, workerUrl) {
 const ATTEMPTS = 3;
 async function postWithRetry(workerUrl, stagedKey, name) {
   for (let attempt = 1; ; attempt += 1) {
+    const started = Date.now();
     try {
       const result = await postProcess(workerUrl, stagedKey);
       if (attempt > 1 && result.status === 400 && /archive not found/.test(JSON.stringify(result.report))) {
@@ -151,8 +160,11 @@ async function postWithRetry(workerUrl, stagedKey, name) {
       }
       return result;
     } catch (err) {
-      if (attempt >= ATTEMPTS) throw err;
-      log(`${name}: attempt ${attempt} to ${workerUrl} failed (${err.code ?? err.message}); retrying`);
+      const reason = `${describeError(err)} after ${Date.now() - started} ms`;
+      if (attempt >= ATTEMPTS) {
+        throw new Error(`${name} via ${workerUrl} failed on attempt ${attempt} of ${ATTEMPTS}: ${reason}`, { cause: err });
+      }
+      log(`${name}: attempt ${attempt} of ${ATTEMPTS} via ${workerUrl} failed (${reason}); retrying in ${5 * attempt} s`);
       await new Promise((resolve) => setTimeout(resolve, 5000 * attempt));
     }
   }
@@ -227,11 +239,22 @@ async function main() {
   const dir = mkdtempSync(join(tmpdir(), "r2-publish-"));
   const archives = packArchives(ops, { namePrefix: `publish-${Date.now()}` });
   let nextArchive = 0;
+  let applied = 0;
+  const total = archives.length;
+  log(`${total} archives, ${parallel} in parallel across ${workerUrls.length} workers`);
   const runner = async () => {
     while (nextArchive < archives.length) {
       const i = nextArchive;
       nextArchive += 1;
-      await applyArchive(archives[i], dir, workerUrls[i % workerUrls.length]);
+      const progress = `[${i + 1}/${total}]`;
+      try {
+        await applyArchive(archives[i], dir, workerUrls[i % workerUrls.length], progress);
+      } catch (err) {
+        // Other archives may still be in flight, so say how far the run got before rethrowing.
+        log(`${progress} ${archives[i].name} failed; ${applied} of ${total} archives applied so far`);
+        throw err;
+      }
+      applied += 1;
     }
   };
   await Promise.all(Array.from({ length: Math.min(parallel, archives.length) }, runner));
@@ -249,8 +272,12 @@ main().catch((err) => {
   // Print everything we can: some errors have an empty message, and the cause and the
   // command's stderr are often where the real reason is.
   const detail = [err?.stack ?? String(err)];
-  if (err?.cause) detail.push(`cause: ${err.cause?.stack ?? err.cause?.message ?? String(err.cause)}`);
+  if (err?.cause) detail.push(`cause: ${describeError(err.cause)}`, `cause stack: ${err.cause?.stack ?? "(none)"}`);
   if (err?.stderr) detail.push(`stderr: ${String(err.stderr).trim()}`);
-  console.error(`[r2-publish] FAILED: ${err?.message || "(no message)"}\n${detail.join("\n")}`);
+  const message = err?.message || describeError(err);
+  console.error(`[r2-publish] FAILED: ${message}\n${detail.join("\n")}`);
+  // Shows the failure in the job summary and on the run page, not only in the raw log.
+  console.log(`::error title=R2 publish failed::${message.replace(/\r?\n/g, " ")}`);
+  console.log("[r2-publish] manifest not updated: the next run re-sends every file that differs from the last successful publish");
   process.exit(1);
 });
