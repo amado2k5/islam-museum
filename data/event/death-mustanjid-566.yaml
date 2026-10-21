@@ -1,0 +1,20 @@
+id: event/death-mustanjid-566
+class: event
+kind: death
+label: { ar: "وفاة المستنجد بالله وخلافة المستضيء", en: "death of the caliph al-Mustanjid — al-Mustaḍīʾ succeeds" }
+date:
+  start: { edtf: "1170~", hijri: "0566", calendar: julian, precision: year, status: tradition, derived: true }
+summary:
+  ar: "توفي الخليفة المستنجد بالله فبويع من بعده ابنه المستضيء بأمر الله الحسن بن يوسف، وكان المستنجد من خير خلفاء بني العباس عقلًا وعدلًا وديانة حتى ضُرب به المثل في ذلك {cite:kamil-ibn-al-athir p. 28}."
+  en: "The caliph al-Mustanjid bi-llāh died and his son al-Mustaḍīʾ bi-amr Allāh — al-Ḥasan ibn Yūsuf — was given the bayʿa. Al-Mustanjid was reckoned the best of the late Abbasids for mind, justice and piety, proverbial in it {cite:kamil-ibn-al-athir p. 28}."
+relations:
+  - { type: occurred_at, target: place/baghdad, sources: [source/kamil-ibn-al-athir] }
+  - { type: had_participant, target: person/al-mustanjid-billah, role: "المتوفى", sources: [source/kamil-ibn-al-athir] }
+  - { type: had_participant, target: person/al-mustadi-billah, role: "الخليفة الجديد", sources: [source/kamil-ibn-al-athir] }
+provenance:
+  layer: own-research
+  source: "الكامل في التاريخ لابن الأثير، قراءة آبل فيجن"
+  generated_by: "Devin (SWE-2 Medium) from Apple Vision OCR"
+  run: lib-kamil-v12-batch01
+sources: [source/kamil-ibn-al-athir]
+status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 Medium)" }

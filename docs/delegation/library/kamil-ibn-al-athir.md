@@ -36,3 +36,8 @@ Same as lib-fihrist: read page ranges, reuse entities, create person/place/event
 - Added `yawm-al-rabi`, `yawm-al-buqay`, `yawm-al-ghars`, `fijar-al-ansar-1`, `fijar-al-ansar-2` (pp. 504–509); enriched `yawm-buath` with Ḥuḍayr's "wa-ʿiqratah", Ibn Ubayy's prophecy fulfilled, the clemency scene, Saʿd b. Muʿādh's jiwār and Thābit b. Qays's forelock (pp. 509–510).
 - New stub `person/kab-ibn-asad-al-qurazi`; `amr-ibn-al-numan-al-bayadi` and `hudayr-ibn-al-simmak` were already written — stub lines removed.
 - Vol. 1 now mined end-to-end: Lakhmid annals + ~18 ayyām + the Anṣār war sequence; Sīrah set-pieces were already covered.
+
+### V12 — Crusades-era scan kamilt00_201908 (AH 562–629) opened — batch 01 (AH 563–568)
+- New events: `qalat-jabar-564` (Nūr al-Dīn's negotiated purchase; "العز فارقناه بالقلعة"), `shawar-killed-shirkuh-vizier-564`, `death-of-shirkuh-564`, `nur-al-din-karak-565`, `death-qutb-al-din-mawdud-565`, `death-mustanjid-566`, `nur-al-din-mosul-567`, `nur-saladin-rift-568`, `khita-jayhun-568`, `death-ibn-mardanish-568`, `shamla-fars-566`, `ildigiz-rayy-566`; Arabic prose for all twelve.
+- New stubs: qalat-jabar, jayhun, majd-al-din-ibn-al-daya, shihab-al-din-malik-al-aqili, yusuf-ibn-abd-al-mumin, shamla-turki, qara-khitay, salghurids.
+- Scan is a late volume covering Nur al-Din's last decade, Saladin, the Ayyubid succession and the Mongol irruption through ~AH 629.
