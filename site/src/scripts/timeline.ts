@@ -4,7 +4,7 @@
 import { civilToHijri, hijriToCivil } from "../../../scripts/hijri/convert";
 import { layoutBands, layoutMarkers, W, xOf, yearLabel, type TlEvent } from "../lib/timeline-layout";
 
-interface Payload { lang: "ar" | "en"; rtl: boolean; min: number; max: number; events: TlEvent[]; bands: { id: string; href: string; label: string; from: number; to: number }[]; early: number; t: Record<string, string> }
+interface Payload { lang: "ar" | "en" | "ur"; rtl: boolean; min: number; max: number; events: TlEvent[]; bands: { id: string; href: string; label: string; from: number; to: number }[]; early: number; t: Record<string, string> }
 
 const esc = (s: string) => s.replace(/[&<>"]/g, (c) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" })[c]!);
 const svgNS = "http://www.w3.org/2000/svg";
@@ -81,7 +81,7 @@ function init(root: HTMLElement) {
       if (y < min || y > max) continue;
       const x = xOf(y, min, max, rtl);
       gg.appendChild(el("line", { x1: x, x2: x, y1: axisY - 4, y2: axisY + 4 }));
-      gg.appendChild(el("text", { x, y: axisY + 16, "text-anchor": "middle" }, `${ce}${lang === "ar" ? "م" : ""}`));
+      gg.appendChild(el("text", { x, y: axisY + 16, "text-anchor": "middle" }, `${ce}${lang === "en" ? "" : t.ce ?? ""}`));
     }
     svg.appendChild(gg);
     const gm = el("g", {});

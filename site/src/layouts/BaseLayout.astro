@@ -1,6 +1,6 @@
 ---
 import "../styles/global.css";
-import { ui, LANGS, WINGS, wingHref, type Lang } from "../lib/i18n";
+import { ui, LANGS, WINGS, wingHref, ARABIC_SCRIPT, OG_LOCALE, type Lang } from "../lib/i18n";
 import { SITE } from "../lib/graph";
 import { truncateDesc } from "../lib/meta";
 import { wingCountLabel, explorePages } from "../lib/nav";
@@ -24,7 +24,7 @@ const canonical = `${SITE}${path}`;
 const alt = alternates ?? Object.fromEntries(LANGS.map((l) => [l, path.replace(`/${lang}/`, `/${l}/`)]));
 const multilingual = LANGS.length > 1;
 const ld = jsonld ? (Array.isArray(jsonld) ? jsonld : [jsonld]) : [];
-const fonts = lang === "ar" ? [naskh400, amiri400] : [serif400, inter400];
+const fonts = ARABIC_SCRIPT.includes(lang) ? [naskh400, amiri400] : [serif400, inter400];
 const wingCount = (w: string) => wingCountLabel(lang, w);
 const EXPLORE = explorePages(lang);
 ---
@@ -44,7 +44,7 @@ const EXPLORE = explorePages(lang);
     <meta property="og:type" content={ogType} />
     <meta property="og:url" content={canonical} />
     <meta property="og:site_name" content="islam.museum" />
-    <meta property="og:locale" content={lang === "ar" ? "ar_AR" : "en_US"} />
+    <meta property="og:locale" content={OG_LOCALE[lang]} />
     <meta property="og:image" content={`${SITE}/brand/og-image.jpg`} />
     <meta property="og:image:width" content="1200" />
     <meta property="og:image:height" content="630" />

@@ -4,9 +4,10 @@
 // «نحو» mark. Static SVG: no script; the caption lists the contemporaries for screen readers and without JS.
 import { byId, href, labelOf, realNodes } from "../lib/graph";
 import { ui, type Lang } from "../lib/i18n";
+import { ERA } from "../lib/dates";
 const { span, ids = [], lang, self } = Astro.props as { span: { earliest: number; latest: number }; ids?: string[]; lang: Lang; self: string };
 const T = ui(lang);
-const rtl = lang === "ar";
+const rtl = T.dir === "rtl";
 const approx = (d: any) => typeof d?.edtf === "string" && /[~?%X]/.test(d.edtf);
 const ends = (id: string) => { const d = byId.get(id)?.data ?? {}; return { a: approx(d.born ?? d.floruit ?? d.date?.start ?? d.start), b: approx(d.died ?? d.date?.end ?? d.end) }; };
 const rows = [{ id: self, span }, ...ids.slice(0, 5).map((i) => ({ id: i, span: byId.get(i)?.span! })).filter((r) => r.span)].map((r) => ({ ...r, ...ends(r.id) }));
@@ -31,7 +32,7 @@ const eras = realNodes.filter((n) => n.class === "period" && n.span && n.span.la
 const ROW = 7, TOP = 3;
 const H = rows.length * ROW + 2;
 const uid = self.replace(/[^a-z0-9]/gi, "-");
-const CE = lang === "ar" ? "م" : "";
+const CE = lang === "en" ? "" : ERA[lang].ce;
 ---
 <figure style="margin:0" class="no-print lifespan">
   <svg viewBox={`0 0 100 ${H + 7}`} role="img" aria-label={rows.map((r) => `${labelOf(byId.get(r.id)!, lang)}: ${Math.floor(r.span.earliest)}–${Math.floor(r.span.latest)}`).join("; ")} style="width:100%;height:auto;display:block;direction:ltr">
@@ -50,7 +51,7 @@ const CE = lang === "ar" ? "م" : "";
           {fuzzy
             ? <rect x={bx - (rtl ? (r.b ? bw * 0.12 : 0) : (r.a ? bw * 0.12 : 0))} y={i * ROW + TOP - 1.5} width={bw * (1 + (r.a ? 0.12 : 0) + (r.b ? 0.12 : 0))} height="4" rx="1" fill={`url(#g-${uid}-${i})`} opacity={i === 0 ? 1 : 0.6} />
             : <rect x={bx} y={i * ROW + TOP - 1.5} width={bw} height="4" rx="1" fill="currentColor" opacity={i === 0 ? 1 : 0.55} />}
-          {fuzzy && <text x={rtl ? bx + bw + 1.2 : bx - 1.2} y={i * ROW + TOP + 1.8} font-size="2.4" text-anchor={rtl ? "start" : "end"} fill="currentColor" opacity=".8">{lang === "ar" ? "نحو" : "c."}</text>}
+          {fuzzy && <text x={rtl ? bx + bw + 1.2 : bx - 1.2} y={i * ROW + TOP + 1.8} font-size="2.4" text-anchor={rtl ? "start" : "end"} fill="currentColor" opacity=".8">{lang !== "en" ? ERA[lang].approx.trim() : "c."}</text>}
         </g>
       );
     })}

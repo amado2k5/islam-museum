@@ -27,7 +27,7 @@ for (const root of document.querySelectorAll<HTMLElement>("[data-surahmap]")) {
   const playBtn = root.querySelector<HTMLButtonElement>("[data-play]")!;
   const TOTAL = p.total, W = 900;
   const secs = p.sections as SecL[];
-  const loc = (n: number) => n.toLocaleString(p.lang === "ar" ? "ar-EG" : "en-GB");
+  const loc = (n: number) => n.toLocaleString(p.lang === "ar" ? "ar-EG" : p.lang === "ur" ? "ur-PK-u-nu-latn" : "en-GB");
   const el = (tag: string, attrs: Record<string, string | number>, text?: string) => {
     const e = document.createElementNS(NS, tag);
     for (const [k, v] of Object.entries(attrs)) e.setAttribute(k, String(v));

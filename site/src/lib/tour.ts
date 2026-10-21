@@ -6,7 +6,7 @@ import { parse } from "yaml";
 import { repoPath } from "./paths";
 import type { Lang } from "./i18n";
 
-export interface Bilingual { ar: string; en: string }
+export interface Bilingual { ar: string; en: string; ur?: string }
 
 export interface Journey {
   id: string;

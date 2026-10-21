@@ -6,11 +6,11 @@ import { repoPath } from "./paths";
 export interface Habit { ar: string; en: string; weekly: number }
 export interface ChallengeFile {
   slug: string;
-  title: { ar: string; en: string };
-  lede: { ar: string; en: string };
+  title: { ar: string; en: string; ur?: string };
+  lede: { ar: string; en: string; ur?: string };
   days: number;
   habits: Habit[];
-  note?: { ar: string; en: string };
+  note?: { ar: string; en: string; ur?: string };
 }
 
 let cache: ChallengeFile | null = null;

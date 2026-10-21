@@ -6,7 +6,7 @@ import type { Lang } from "../lib/i18n";
 
 interface Props { deck: DeckFile; lang: Lang; t: Record<string, string> }
 const { deck, lang, t } = Astro.props;
-const L = (x: { ar: string; en: string }) => (lang === "ar" ? x.ar : x.en);
+const L = (x: { ar: string; en: string; ur?: string }) => (x[lang] ?? x.ar);
 ---
 <div class="flipdeck" data-flipdeck>
   <div class="fd-progress"><div class="fd-bar" data-bar style="width:0%"></div></div>

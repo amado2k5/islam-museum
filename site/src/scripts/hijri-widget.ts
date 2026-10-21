@@ -16,7 +16,7 @@ if (form && out) {
     try {
       const [y, m, d] = v.split("-").map(Number);
       const h = civilToHijri("gregorian", { y, m, d }).date;
-      const gTxt = `${d} ${payload.gm?.[m - 1] ?? m} ${y}${lang === "ar" ? " م" : ""}`;
+      const gTxt = `${d} ${payload.gm?.[m - 1] ?? m} ${y}${lang === "en" ? "" : ` ${T.ce ?? ""}`}`;
       const hTxt = `${h.d} ${payload.hm?.[h.m - 1] ?? h.m} ${h.y} ${T.ah ?? "AH"}`;
       const hits: any[] = [...(payload.h ?? []).filter((x: any) => x.m === h.m && x.d === h.d), ...(payload.g ?? []).filter((x: any) => x.m === m && x.d === d)];
       const corr = form.dataset.corresponds ?? "→";

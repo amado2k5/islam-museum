@@ -10,10 +10,17 @@ const esc = (s: string) => s.replace(/&/g, "&amp;").replace(/</g, "&lt;").replac
 
 // Honorifics, one place so the policy stays uniform and reversible. The Prophet gets ﷺ after the first mention, and each
 // Companion gets the Sunni formula after the first mention, per article (see newHonState). Headings and tables are left alone.
-// Arabic uses رضي الله عنه/عنها; English uses the gloss "(may God be pleased with him/her)" so the prose reads naturally.
+// Arabic uses رضي الله عنه/عنها, Urdu its own spelling رضی اللہ عنہ/عنہا; English uses the gloss "(may God be pleased with
+// him/her)" so the prose reads naturally.
 const HON_PATTERNS: Record<Lang, RegExp> = {
   ar: /(?<![\u0621-\u064A])(رسول الله|النبي)(?![\u0621-\u064A])/g,
   en: /(?<![A-Za-z])(the Messenger of God|Prophet Muhammad|the Prophet)(?![A-Za-z])/g,
+  ur: /(?<![\u0621-\u06D3])(رسول اللہ|نبی کریم)(?![\u0621-\u06D3])/g,
+};
+const COMPANION_SUFFIX: Record<Lang, { m: string; f: string }> = {
+  ar: { m: "رضي الله عنه", f: "رضي الله عنها" },
+  ur: { m: "رضی اللہ عنہ", f: "رضی اللہ عنہا" },
+  en: { m: "(may God be pleased with him)", f: "(may God be pleased with her)" },
 };
 const companionCache = new Map<Lang, { name: string; suffix: string }[]>();
 function companionsFor(lang: Lang) {
@@ -23,8 +30,8 @@ function companionsFor(lang: Lang) {
       .filter((n) => n.class === "person" && (n.data.roles ?? []).includes("companion"))
       .map((n) => {
         const female = n.data.gender === "female";
-        const name = lang === "ar" ? labelOf(n, "ar") : n.label?.en;
-        const suffix = lang === "ar" ? (female ? "رضي الله عنها" : "رضي الله عنه") : female ? "(may God be pleased with her)" : "(may God be pleased with him)";
+        const name = lang === "en" ? n.label?.en : labelOf(n, lang);
+        const suffix = female ? COMPANION_SUFFIX[lang].f : COMPANION_SUFFIX[lang].m;
         return { name: name ?? "", suffix };
       })
       .filter((c) => c.name)

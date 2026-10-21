@@ -9,7 +9,7 @@ export interface SurahMapPayload {
   sections: { t: string; a: number; b: number; f: string; s: string; kids: { t: string; a: number; b: number }[] }[];
 }
 const { payload, hint } = Astro.props as { payload: SurahMapPayload; hint: string };
-const loc = (n: number) => n.toLocaleString(payload.lang === "ar" ? "ar-EG" : "en-GB");
+const loc = (n: number) => n.toLocaleString(payload.lang === "ar" ? "ar-EG" : payload.lang === "ur" ? "ur-PK-u-nu-latn" : "en-GB");
 const ticks = [1, Math.round(payload.total / 4), Math.round(payload.total / 2), Math.round((3 * payload.total) / 4), payload.total];
 ---
 <div class="sm-studio" data-surahmap>

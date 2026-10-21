@@ -13,7 +13,7 @@ const { lang, slug } = Astro.props as { lang: Lang; slug: string };
 const T = ui(lang);
 const C = T.cards;
 const map = loadWordMap(slug);
-const title = lang === "ar" ? map.title.ar : map.title.en;
+const title = map.title[lang] ?? map.title.ar;
 const t = {
   close: C.close, quiz_title: C.quiz_title, quiz_next: C.quiz_next,
   quiz_start: C.quiz_start, all_occurrences: C.all_occurrences,

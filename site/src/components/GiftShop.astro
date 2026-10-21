@@ -70,7 +70,7 @@ const GIVE = [
   .card { display: flex; flex-direction: column; height: 100%; color: var(--fg); text-decoration: none; border-radius: 12px; overflow: hidden; background: var(--bg); }
   .card img { display: block; width: 100%; aspect-ratio: 4 / 5; object-fit: cover; }
   .cap { font-family: var(--serif); font-size: 1.2rem; padding: 12px 14px 4px; }
-  html[lang="ar"] .cap, html[lang="ur"] .cap { font-family: var(--ar-display); }
+  html:is([lang="ar"], [lang="ur"]) .cap { font-family: var(--ar-display); }
   .go { padding: 0 14px 14px; color: var(--link); font-size: 0.95rem; font-weight: 600; }
   .card:hover .cap { text-decoration: underline; }
   .controls { display: flex; align-items: center; justify-content: center; gap: 16px; margin-top: 14px; }

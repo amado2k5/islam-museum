@@ -8,7 +8,7 @@ export function getStaticPaths() { return LANGS.map((lang) => ({ params: { lang 
 const { lang } = Astro.props as { lang: Lang };
 const T = ui(lang);
 const C = T.cards;
-const L = (x: { ar: string; en: string }) => (lang === "ar" ? x.ar : x.en);
+const L = (x: { ar: string; en: string; ur?: string }) => (x[lang] ?? x.ar);
 const decks = listDecks();
 ---
 <BaseLayout lang={lang} title={C.lists} description={C.lists_lede} path={`/${lang}/cards/lists/`}>

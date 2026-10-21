@@ -13,7 +13,7 @@ const { lang, slug } = Astro.props as { lang: Lang; slug: string };
 const T = ui(lang);
 const C = T.cards;
 const deck = loadDeck(slug);
-const L = (x: { ar: string; en: string }) => (lang === "ar" ? x.ar : x.en);
+const L = (x: { ar: string; en: string; ur?: string }) => (x[lang] ?? x.ar);
 const t = { flip: C.flip, tap_to_flip: C.tap_to_flip, prev: C.prev, next: C.next, all_items: C.all_items };
 ---
 <BaseLayout lang={lang} title={L(deck.title)} description={L(deck.lede)} path={`/${lang}/cards/list/${slug}/`}>

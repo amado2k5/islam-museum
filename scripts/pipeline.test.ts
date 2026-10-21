@@ -218,7 +218,7 @@ describe("Arabic first (docs/language.md)", () => {
 });
 
 describe("published UI languages (docs/language.md)", () => {
-  it("i18n/ar.yaml and i18n/en.yaml carry the same key set (a missing key renders as a raw path in the UI)", async () => {
+  it("i18n/ar.yaml, i18n/en.yaml and i18n/ur.yaml carry the same key set (a missing key renders as a raw path or falls back to English)", async () => {
     const { readFileSync } = await import("node:fs");
     const { parse } = await import("yaml");
     const keys = (o: any, prefix = ""): Set<string> =>
@@ -227,9 +227,11 @@ describe("published UI languages (docs/language.md)", () => {
         return v && typeof v === "object" && !Array.isArray(v) ? [...keys(v, key)] : [key];
       }));
     const ar = keys(parse(readFileSync(p("i18n", "ar.yaml"), "utf8")));
-    const en = keys(parse(readFileSync(p("i18n", "en.yaml"), "utf8")));
-    expect([...en].filter((k) => !ar.has(k))).toEqual([]);
-    expect([...ar].filter((k) => !en.has(k))).toEqual([]);
+    for (const lang of ["en", "ur"]) {
+      const other = keys(parse(readFileSync(p("i18n", `${lang}.yaml`), "utf8")));
+      expect([...other].filter((k) => !ar.has(k)), `${lang} keys absent from ar`).toEqual([]);
+      expect([...ar].filter((k) => !other.has(k)), `ar keys absent from ${lang}`).toEqual([]);
+    }
   });
 });
 
