@@ -2,11 +2,10 @@
 id: person/kab-ibn-suwar
 lang: en
 source_lang: ar
-translators: ["Claude Haiku 5.5 (claude-haiku-5-5), draft translation"]
+translators: []
 ---
-
 ## Overview
-Ka'b ibn Suwar, judge of Basra in the time of [[person/umar-ibn-al-khattab|Umar ibn al-Khattab]]. The sources relate that he understood the complaint of a woman who praised her husband for much standing in prayer and much fasting, and ruled that she should have one day in every four and one night in every four. {cite:tarikh-khulafa-minhaj-1434}
+Ka'b ibn Suwar al-Azdi, judge of Basra, appointed over it under 'Umar and 'Uthman; he was counted among the noblest and most learned of men. {cite:siyar-alam-nubala-ideas-house p.3116}
 
-## What is not stated here
-The data for this page include no other details of his life. It needs an additional source.
+## His death at the Camel
+It is said that on the Day of the Camel he stood exhorting the people and reminding them when a stray arrow struck and killed him, in 36 AH. {cite:siyar-alam-nubala-ideas-house p.3116}

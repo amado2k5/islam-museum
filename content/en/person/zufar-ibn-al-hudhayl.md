@@ -2,7 +2,10 @@
 id: person/zufar-ibn-al-hudhayl
 lang: en
 source_lang: ar
-translators: ["Claude Haiku 5.5 (claude-haiku-5-5), draft translation"]
+translators: []
 ---
 ## Overview
-Zufar ibn al-Hudhayl, a jurist and companion of [[person/abu-hanifa|Abu Hanifa al-Nu'man ibn Thabit]]. He died in the year 158 AH, which al-Mas'udi gives as the year of al-Mahdi's allegiance {cite:muruj-al-dhahab p.313}.
+Zufar ibn al-Hudhayl ibn Qays ibn Salm al-'Anbari, the striving jurist and devout scholar Abu al-Hudhayl; his father was in Isfahan in the days of Yazid ibn al-Walid and had three sons: Zufar, Harthama and Kawthar. He was born in 110 AH. {cite:siyar-alam-nubala-ideas-house p.1720}
+
+## Standing
+He narrated from al-A'mash, Isma'il ibn Abi Khalid and their peers, and was the foremost of Abu Hanifa's companions, leading the school after him. He died in 158 AH. {cite:siyar-alam-nubala-ideas-house p.1720}
