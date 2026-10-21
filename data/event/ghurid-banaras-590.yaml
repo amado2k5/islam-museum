@@ -1,0 +1,24 @@
+id: event/ghurid-banaras-590
+class: event
+kind: battle
+label: { ar: "الحرب بين شهاب الدين وملك بنارس الهندي", en: "Shihab al-Din al-Ghuri versus the king of Banaras" }
+date:
+  start: { edtf: "1194~", hijri: "0590", calendar: julian, precision: year, status: tradition, derived: true }
+summary:
+  ar: "جرت الحرب بين شهاب الدين محمد الغوري وملك بنارس الهندي فظفر به المسلمون وملكوا بلاده وأخذوا من أموالها ما لا يحصى {cite:kamil-ibn-al-athir p. 233}."
+  en: "Shihab al-Din Muhammad al-Ghuri warred on the king of Banaras; the Muslims took his lands and plunder beyond counting {cite:kamil-ibn-al-athir p. 233}."
+sides:
+- label: { ar: "الغوريون", en: "the Ghurids" }
+  commanders: [person/muhammad-al-ghuri]
+- label: { ar: "ملك بنارس", en: "the king of Banaras" }
+
+relations:
+  - { type: occurred_at, target: place/banaras, sources: [source/kamil-ibn-al-athir] }
+  - { type: had_participant, target: person/muhammad-al-ghuri, sources: [source/kamil-ibn-al-athir] }
+provenance:
+  layer: own-research
+  source: "الكامل في التاريخ لابن الأثير، قراءة آبل فيجن"
+  generated_by: "Devin (SWE-2 Medium) from Apple Vision OCR"
+  run: lib-kamil-v12-batch04
+sources: [source/kamil-ibn-al-athir]
+status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 Medium)" }

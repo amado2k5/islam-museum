@@ -11,7 +11,7 @@ sides:
 - label: { ar: "الأوس", en: "Aws" }
 - label: { ar: "الخزرج", en: "Khazraj" }
 relations:
-  - { type: occurred_at, target: place/madinah, sources: [source/kamil-ibn-al-athir] }
+  - { type: occurred_at, target: place/medina, sources: [source/kamil-ibn-al-athir] }
   - { type: had_participant, target: person/hudayr-ibn-al-simmak, sources: [source/kamil-ibn-al-athir] }
 provenance:
   layer: own-research
