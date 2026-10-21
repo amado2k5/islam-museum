@@ -26,16 +26,21 @@ const related = extra.related ?? [];
       </a>
       <figcaption class="ui muted" style="padding-top:8px">{item.source === "met" ? T.art.badge_met : T.art.badge} · <a href={`/media/architecture-art/${item.slug}.webp`} target="_blank" rel="noopener">{T.art.open_full}</a></figcaption>
     </figure>
-    {desc && <p class="ui" style="margin-top:20px">{desc}</p>}
-    {related.length > 0 && (
-      <section aria-labelledby="art-related" style="margin-top:20px">
-        <h2 id="art-related" style="font-size:1.15rem">{T.art.related_title}</h2>
-        <ul class="ui">
-          {related.map((r) => (
-            <li><a href={`/${lang}/${r.ref}/`}>{r.label[lang] ?? r.label.ar}</a></li>
-          ))}
-        </ul>
-      </section>
+    {desc && (
+      <p class="ui" style="margin-top:20px">
+        {desc}
+        {related.length > 0 && (
+          <>
+            {" "}{T.art.related_title}:{" "}
+            {related.map((r, k) => (
+              <>
+                {k > 0 && ", "}
+                <a href={`/${lang}/${r.ref}/`}>{r.label[lang] ?? r.label.ar}</a>
+              </>
+            ))}
+          </>
+        )}
+      </p>
     )}
     <p class="panel ui" style="margin-top:20px">{item.source === "met" ? T.art.credit_met : T.art.disclaimer}</p>
     <p class="ui" style="margin-top:16px"><a href={`/${lang}/art/`}>{T.art.back}</a></p>
