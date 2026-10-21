@@ -2,8 +2,10 @@
 id: person/habib-ibn-maslama
 lang: en
 source_lang: ar
-translators: ["Claude Haiku 5.5 (claude-haiku-5-5), draft translation"]
+translators: []
 ---
+## In brief
+Habib b. Maslama b. Malik b. Wahb b. Tha'laba al-Fihri, Abu Abd al-Rahman, of the Hijaz and later resident in Syria; al-Bukhari records his companionship of the Prophet. {cite:ibn-hajar-isaba p.291}
 
-## Overview
-Habib ibn Maslama al-Fihri of the Quraysh. [[person/khalid-ibn-al-walid|Khalid ibn al-Walid]] sent him with Bishr ibn Abi Artat al-Amiri to the Ghouta of Damascus on his march from Iraq to Syria ([[event/khalid-march-to-syria|Khalid's march to Syria]]), and they raided some of its villages. {cite:futuh-buldan-maarif-1407}
+## Habib of the Romans
+Mus'ab al-Zubayri says he was called "Habib of the Romans" for the frequency of his campaigning against them, and Ibn Sa'd reports through al-Waqidi that he was twelve years old when the Prophet died. In the story of the arbitration, when Mu'awiya spoke, Ibn Umar wanted to say "I am worthier of this matter than one who fought you and your father over Islam" but feared a word that would divide the gathering — so Habib b. Maslama said to him, "You kept to yourself and stayed safe." {cite:ibn-hajar-isaba p.291-292}
