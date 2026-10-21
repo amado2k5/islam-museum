@@ -1,0 +1,23 @@
+id: event/siege-of-madrid-932
+class: event
+kind: siege
+label: { ar: "حصار مدريد", en: "Siege of Madrid (932)" }
+summary:
+  ar: "بطاقة أولية لحصار مدريد؛ لم تُراجع مصادره على الصفحة بعد."
+  en: "Draft card for Siege of Madrid (932); its sources are not yet checked on the page."
+wings: [time]
+periods: [period/umayyad]
+regions: [andalus-europe]
+date:
+  start: { edtf: "932", precision: year, status: tradition, derived: true }
+  end: { edtf: "932", precision: year, status: tradition, derived: true }
+sources: [source/tarikh-islam-hasan-ibrahim]
+external_ids:
+  wikidata: Q130638918
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; event attested in narrative histories — entry not yet checked on the page"
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: wikidata-import-wave2
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 Medium)" }

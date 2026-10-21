@@ -1,0 +1,23 @@
+id: event/siege-of-shahrukhiya-1462
+class: event
+kind: siege
+label: { ar: "حصار شاهرخية", en: "Siege of Shahrukhiya" }
+summary:
+  ar: "بطاقة أولية لحصار شاهرخية؛ لم تُراجع مصادره على الصفحة بعد."
+  en: "Draft card for Siege of Shahrukhiya; its sources are not yet checked on the page."
+wings: [time]
+periods: [period/mongol-post-mongol]
+regions: [persia-central-asia]
+date:
+  start: { edtf: "1462", precision: year, status: tradition, derived: true }
+  end: { edtf: "1463", precision: year, status: tradition, derived: true }
+sources: [source/tarikh-islam-hasan-ibrahim]
+external_ids:
+  wikidata: Q76995347
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; event attested in narrative histories — entry not yet checked on the page"
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: wikidata-import-wave2
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 Medium)" }

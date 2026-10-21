@@ -612,6 +612,11 @@ html[dir="rtl"] .page-banner { background-position: -80px -60px, 0 0; }
 .search-wrap[data-empty="1"] .pagefind-ui__search-clear { display: none; }
 .search-hint { margin: 10px 0 0; }
 .search-wrap:not([data-empty="1"]) .search-hint { display: none; }
+/* Pagefind UI ships light-only tokens (#393939 text on a transparent box), so dark mode maps them to the site's dark tokens */
+:root[data-theme="dark"] .pagefind-ui { --pagefind-ui-text: var(--fg); --pagefind-ui-primary: var(--link); --pagefind-ui-background: var(--panel); --pagefind-ui-border: var(--line); --pagefind-ui-tag: var(--bg); }
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) .pagefind-ui { --pagefind-ui-text: var(--fg); --pagefind-ui-primary: var(--link); --pagefind-ui-background: var(--panel); --pagefind-ui-border: var(--line); --pagefind-ui-tag: var(--bg); }
+}
 
 /* Breakpoint scale: 480 (small phones), 720 (large phones), 1024 (tablet landscape, small laptop), 1440 (large desktop). */
 @media (max-width: 480px) {

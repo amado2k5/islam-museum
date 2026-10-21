@@ -132,50 +132,70 @@ function diff(desired, previous) {
   return ops;
 }
 
-function applyArchive(archive, dir, workerUrl) {
+// Node's AggregateError (from a failed connect across several addresses) has an empty
+// message, so take the error code, or the codes of its inner errors, instead.
+function describeError(err) {
+  if (err?.code) return err.code;
+  if (Array.isArray(err?.errors) && err.errors.length) return `${err.name} [${err.errors.map(describeError).join(", ")}]`;
+  return err?.message || err?.name || String(err);
+}
+
+async function applyArchive(archive, dir, workerUrl, progress) {
+  const started = Date.now();
   const file = join(dir, archive.name);
   writeFileSync(file, archive.bytes);
   const stagedKey = `${STAGING_PREFIX}${archive.name}`;
   execFileSync("aws", ["s3", "cp", file, `s3://${bucket}/${stagedKey}`, "--endpoint-url", endpoint, "--only-show-errors"], { stdio: "inherit" });
-  return postWithRetry(workerUrl, stagedKey, archive.name).then(({ status, report }) => {
-    if (status !== 200) throw new Error(`${archive.name}: worker answered ${status} ${JSON.stringify(report)}`);
-    log(`${archive.name}: ${JSON.stringify(report.summary)}`);
-  });
+  const { status, report } = await postWithRetry(workerUrl, stagedKey, archive.name);
+  if (status !== 200) throw new Error(`${archive.name}: worker answered ${status} ${JSON.stringify(report)}`);
+  log(`${progress} ${archive.name} via ${workerUrl} in ${Date.now() - started} ms: ${JSON.stringify(report.summary)}`);
 }
 
 // A connection can time out or reset before the Worker answers. Retrying the same archive
 // is safe: operations are idempotent, and a retry that finds the archive already deleted
 // means an earlier attempt applied it.
-const ATTEMPTS = 3;
+const ATTEMPTS = 5;
 async function postWithRetry(workerUrl, stagedKey, name) {
   for (let attempt = 1; ; attempt += 1) {
+    const started = Date.now();
     try {
       const result = await postProcess(workerUrl, stagedKey);
+      // A 5xx reply means the Worker or the edge failed, not the archive: retry it like a
+      // dropped connection. A 4xx reply is final and is reported by applyArchive.
+      if (result.status >= 500) throw new Error(`worker answered ${result.status} ${JSON.stringify(result.report)}`);
       if (attempt > 1 && result.status === 400 && /archive not found/.test(JSON.stringify(result.report))) {
         log(`${name}: already applied by an earlier attempt`);
         return { status: 200, report: { summary: { already_applied: true } } };
       }
       return result;
     } catch (err) {
-      if (attempt >= ATTEMPTS) throw err;
-      log(`${name}: attempt ${attempt} to ${workerUrl} failed (${err.code ?? err.message}); retrying`);
+      const reason = `${describeError(err)} after ${Date.now() - started} ms`;
+      if (attempt >= ATTEMPTS) {
+        throw new Error(`${name} via ${workerUrl} failed on attempt ${attempt} of ${ATTEMPTS}: ${reason}`, { cause: err });
+      }
+      log(`${name}: attempt ${attempt} of ${ATTEMPTS} via ${workerUrl} failed (${reason}); retrying in ${5 * attempt} s`);
       await new Promise((resolve) => setTimeout(resolve, 5000 * attempt));
     }
   }
 }
 
+// A Worker that cannot be reached fails the TCP connect after the OS default (about a
+// minute per address). Fail faster than that so the retry can try again.
+const CONNECT_TIMEOUT_MS = 20000;
+
 // POST /process and wait for the reply. Node's global fetch gives up after 5 minutes
 // without response headers, but the Worker answers only when the archive is fully
-// applied, which can take longer. node:https/http has no such default timeout.
+// applied, which can take longer. node:https/http has no such default timeout, so only
+// the connect phase is bounded here.
 function postProcess(workerUrl, archive) {
   const url = new URL(`${workerUrl}/process`);
   const body = JSON.stringify({ archive });
   const send = url.protocol === "http:" ? httpRequest : httpsRequest;
   return new Promise((resolve, reject) => {
-    // agent: false opens a new connection per request and closes it after the reply,
-    // so no idle sockets stay open between batches.
     const req = send(url, {
       method: "POST",
+      // agent: false opens a new connection per request and closes it after the reply,
+      // so no idle sockets stay open between batches.
       agent: false,
       headers: {
         authorization: `Bearer ${process.env.SYNC_TOKEN}`,
@@ -196,6 +216,15 @@ function postProcess(workerUrl, archive) {
         resolve({ status: res.statusCode, report });
       });
       res.on("error", reject);
+    });
+    req.on("socket", (socket) => {
+      const timer = setTimeout(() => {
+        const err = new Error(`no TCP connection within ${CONNECT_TIMEOUT_MS} ms`);
+        err.code = "ECONNECT_TIMEOUT";
+        req.destroy(err);
+      }, CONNECT_TIMEOUT_MS);
+      socket.once("connect", () => clearTimeout(timer));
+      socket.once("close", () => clearTimeout(timer));
     });
     req.on("error", reject);
     req.end(body);
@@ -231,6 +260,8 @@ async function main() {
     return;
   }
 
+  // Archives go to the Workers in SYNC_URLS in turn, PARALLEL at a time.
+  // PARALLEL defaults to six per Worker: each Worker invocation can hold six R2 connections.
   // Operations are published in batches of BATCH_OPS. Each batch is packed into archives
   // only when it starts, so memory holds one batch of archives at a time.
   // Archives go to the Workers in SYNC_URLS in turn, PARALLEL at a time.
@@ -238,16 +269,26 @@ async function main() {
   const dir = mkdtempSync(join(tmpdir(), "r2-publish-"));
   const stamp = Date.now();
   const batches = Math.ceil(ops.length / BATCH_OPS);
+  let applied = 0;
   for (let b = 0; b < batches; b += 1) {
     const batchOps = ops.slice(b * BATCH_OPS, (b + 1) * BATCH_OPS);
     const archives = packArchives(batchOps, { namePrefix: `publish-${stamp}-b${b}` });
-    log(`batch ${b + 1}/${batches}: ${batchOps.length} operations in ${archives.length} archives`);
+    const total = archives.length;
     let nextArchive = 0;
+    log(`batch ${b + 1}/${batches}: ${batchOps.length} operations in ${total} archives, ${parallel} in parallel across ${workerUrls.length} workers`);
     const runner = async () => {
       while (nextArchive < archives.length) {
         const i = nextArchive;
         nextArchive += 1;
-        await applyArchive(archives[i], dir, workerUrls[i % workerUrls.length]);
+        const progress = `[batch ${b + 1}/${batches} ${i + 1}/${total}]`;
+        try {
+          await applyArchive(archives[i], dir, workerUrls[i % workerUrls.length], progress);
+        } catch (err) {
+          // Other archives may still be in flight, so say how far the run got before rethrowing.
+          log(`${progress} ${archives[i].name} failed; ${applied} archives applied so far in this run`);
+          throw err;
+        }
+        applied += 1;
       }
     };
     await Promise.all(Array.from({ length: Math.min(parallel, archives.length) }, runner));
@@ -270,8 +311,12 @@ main().catch((err) => {
   // Print everything we can: some errors have an empty message, and the cause and the
   // command's stderr are often where the real reason is.
   const detail = [err?.stack ?? String(err)];
-  if (err?.cause) detail.push(`cause: ${err.cause?.stack ?? err.cause?.message ?? String(err.cause)}`);
+  if (err?.cause) detail.push(`cause: ${describeError(err.cause)}`, `cause stack: ${err.cause?.stack ?? "(none)"}`);
   if (err?.stderr) detail.push(`stderr: ${String(err.stderr).trim()}`);
-  console.error(`[r2-publish] FAILED: ${err?.message || "(no message)"}\n${detail.join("\n")}`);
+  const message = err?.message || describeError(err);
+  console.error(`[r2-publish] FAILED: ${message}\n${detail.join("\n")}`);
+  // Shows the failure in the job summary and on the run page, not only in the raw log.
+  console.log(`::error title=R2 publish failed::${message.replace(/\r?\n/g, " ")}`);
+  console.log("[r2-publish] manifest not updated: the next run re-sends every file that differs from the last successful publish");
   process.exit(1);
 });

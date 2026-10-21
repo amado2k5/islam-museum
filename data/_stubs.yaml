@@ -1,13 +1,10 @@
 # Wanted entities referenced but not yet written. They render as a gentle 'not yet in the museum' placeholder
 # and feed the coverage map. Move an entry out of here by writing data/<class>/<slug>.yaml.
-- { id: person/abu-abdallah-al-natili, label: { en: "al-Natili" }, note: "Tutor of Ibn Sina in logic in Bukhara" }
-- { id: work/kitab-al-shifa, label: { en: "The Book of Healing (al-Shifa)" } }
 - { id: building/avicenna-mausoleum-hamadan, label: { en: "Mausoleum of Ibn Sina, Hamadan" } }
 - { id: person/ala-al-dawla-muhammad, label: { en: "Ala al-Dawla Muhammad" } }
 - { id: person/aristotle, label: { en: "Aristotle" } }
 - { id: person/al-ghazali, label: { en: "al-Ghazali" } }
 - { id: person/thomas-aquinas, label: { en: "Thomas Aquinas" } }
-- { id: concept/hijri-calendar, label: { ar: "التقويم الهجري", en: "The Hijri calendar" } }
 - { id: concept/logic, label: { en: "Logic (mantiq)" } }
 # Stubs for the al-Raheeq mining, batch 1 (Badr pp. 204–233) — remove each line as the entity is written.
 - { id: person/ibn-umm-maktum, label: { ar: "عبد الله بن أم مكتوم", en: "Abdullah ibn Umm Maktum" } }
@@ -18,7 +15,6 @@
 - { id: person/al-walid-ibn-utba, label: { ar: "الوليد بن عتبة", en: "al-Walid ibn Utba" } }
 - { id: person/al-aswad-ibn-abd-al-asad, label: { ar: "الأسود بن عبد الأسد", en: "al-Aswad ibn Abd al-Asad" } }
 - { id: person/al-mujadhdhar-ibn-ziyad, label: { ar: "المجذر بن زياد البلوي", en: "al-Mujadhdhar ibn Ziyad al-Balawi" } }
-- { id: person/abu-al-bakhtari-ibn-hisham, label: { ar: "أبو البختري بن هشام", en: "Abu al-Bakhtari ibn Hisham" } }
 - { id: person/ali-ibn-umayya, label: { ar: "علي بن أمية بن خلف", en: "Ali ibn Umayya ibn Khalaf" } }
 - { id: person/al-as-ibn-hisham, label: { ar: "العاص بن هشام", en: "al-As ibn Hisham" } }
 - { id: person/ukkasha-ibn-mihsan, label: { ar: "عكاشة بن محصن", en: "Ukkasha ibn Mihsan" } }
@@ -36,7 +32,6 @@
 - { id: person/abdullah-ibn-kaab, label: { ar: "عبد الله بن كعب", en: "Abdullah ibn Ka'b" } }
 - { id: person/bisbas-ibn-amr, label: { ar: "بسباس بن عمرو الجهني", en: "Bisbas ibn Amr al-Juhani" } }
 - { id: person/uday-ibn-abi-al-zaghba, label: { ar: "عدي بن أبي الزغباء الجهني", en: "Uday ibn Abi al-Zaghba" } }
-- { id: person/qays-ibn-abi-sasaa, label: { ar: "قيس بن أبي صعصعة", en: "Qays ibn Abi Sa'sa'a" } }
 - { id: person/marthad-ibn-abi-marthad, label: { ar: "مرثد بن أبي مرثد الغنوي", en: "Marthad ibn Abi Marthad al-Ghanawi" } }
 - { id: person/ibn-amir-al-hadrami, label: { ar: "عمرو بن الحضرمي", en: "Amr ibn al-Hadrami" } }
 - { id: place/al-naziya, label: { ar: "النازية", en: "al-Naziya" } }
@@ -61,7 +56,6 @@
 - { id: group/banu-al-aswad-b-razn, label: { ar: "بنو الأسود بن رزن", en: "Banu al-Aswad ibn Razn" } }
 - { id: group/banu-kab-ibn-khuzaa, label: { ar: "بنو كعب بن خزاعة", en: "Banu Ka'b ibn Khuza'a" } }
 - { id: person/abu-mabad, label: { ar: "أبو معبد الخزاعي", en: "Abu Ma'bad al-Khuza'i" } }
-- { id: person/zamaa-ibn-al-aswad, label: { ar: "زمعة بن الأسود", en: "Zam'a ibn al-Aswad" } }
 - { id: person/tuayma-ibn-adi, label: { ar: "طعيمة بن عدي", en: "Tu'ayma ibn Adi" } }
 - { id: person/ubayy-ibn-khalaf, label: { ar: "أُبيّ بن خلف", en: "Ubayy ibn Khalaf" } }
 - { id: person/nubayh-ibn-al-hajjaj, label: { ar: "نبيه بن الحجاج", en: "Nubayh ibn al-Hajjaj" } }
@@ -73,9 +67,7 @@
 - { id: person/amr-ibn-nufayl, label: { ar: "عمرو بن نفيل", en: "Amr ibn Nufayl" }, note: "Meccan monotheist" }
 - { id: person/utba-ibn-abi-lahab, label: { ar: "عتبة بن أبي لهب", en: "Utba ibn Abi Lahab" }, note: "Son of Abu Lahab; divorced Ruqayya" }
 - { id: person/utayba-ibn-abi-lahab, label: { ar: "عتيبة بن أبي لهب", en: "Utayba ibn Abi Lahab" }, note: "Son of Abu Lahab; divorced Umm Kulthum" }
-- { id: person/zinnira, label: { ar: "زنيرة", en: "Zinnira" }, note: "Slave woman freed by Abu Bakr" }
 - { id: person/al-nahdiyya, label: { ar: "النهدية", en: "al-Nahdiyya" }, note: "Slave woman freed by Abu Bakr with her daughter" }
-- { id: person/umm-ubays, label: { ar: "أم عبيس", en: "Umm Ubays" }, note: "Slave woman freed by Abu Bakr" }
 - { id: person/umm-anmar, label: { ar: "أم أنمار", en: "Umm Anmar" }, note: "Khabbab's mistress" }
 - { id: person/amar-ibn-al-walid, label: { ar: "عمارة بن الوليد", en: "Amara ibn al-Walid" }, note: "Whom Quraysh offered in exchange" }
 - { id: person/jaria-banu-muammal, label: { ar: "جارية بني مؤمل", en: "Slave girl of Banu Mu'ammal" }, note: "Freed by Abu Bakr" }

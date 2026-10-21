@@ -1,7 +1,7 @@
 // Run: node --test workers/site/test/
 import { test } from "node:test";
 import assert from "node:assert/strict";
-import { resolve, parseRedirects } from "../src/route.js";
+import { resolve, parseRedirects, parseDynamicRedirects, matchDynamicRedirect, parseHeaders, headersFor } from "../src/route.js";
 
 test("language pages map to index.html keys", () => {
   assert.deepEqual(resolve("/ar/person/muhammad/"), { type: "r2", key: "ar/person/muhammad/index.html" });
@@ -32,4 +32,38 @@ test("parseRedirects keeps static rules and skips dynamic ones", () => {
   ].join("\n"));
   assert.deepEqual(rules.get("/ar/event/old/"), { to: "/ar/event/new/", status: 301 });
   assert.equal(rules.has("/api/*"), false);
+});
+
+test("dynamic /api/* redirect keeps the rest of the path", () => {
+  const rules = parseDynamicRedirects("/api/*  https://api.islam.museum/api/:splat  301\n");
+  assert.deepEqual(matchDynamicRedirect(rules, "/api/v1/meta/index.json"), {
+    location: "https://api.islam.museum/api/v1/meta/index.json",
+    status: 301,
+  });
+  assert.equal(matchDynamicRedirect(rules, "/ar/person/muhammad/"), null);
+});
+
+test("dynamic rules fill :placeholders from the path", () => {
+  const rules = parseDynamicRedirects("/old/:slug  /new/:slug  302");
+  assert.deepEqual(matchDynamicRedirect(rules, "/old/abc"), { location: "/new/abc", status: 302 });
+  assert.equal(matchDynamicRedirect(rules, "/old/abc/def"), null);
+});
+
+test("_headers blocks apply to exact paths and to /* wildcards", () => {
+  const blocks = parseHeaders([
+    "# comment",
+    "/",
+    "  Link: </sitemap.xml>; rel=\"describedby\"",
+    "/*",
+    "  X-Frame-Options: DENY",
+    "/.well-known/api-catalog",
+    "  Content-Type: application/linkset+json",
+    "",
+  ].join("\n"));
+  assert.deepEqual(headersFor(blocks, "/"), { Link: '</sitemap.xml>; rel="describedby"', "X-Frame-Options": "DENY" });
+  assert.deepEqual(headersFor(blocks, "/.well-known/api-catalog"), {
+    "X-Frame-Options": "DENY",
+    "Content-Type": "application/linkset+json",
+  });
+  assert.deepEqual(headersFor(blocks, "/ar/"), { "X-Frame-Options": "DENY" });
 });

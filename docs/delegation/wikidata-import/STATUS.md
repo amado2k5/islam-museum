@@ -105,3 +105,18 @@ Updated at every push to `main`. Lane: `wikidata-import` (`docs/delegation/wikid
 - Merged thin draft person/umara-ibn-abi-al-hasan into richer person/umara-al-yamani (alias + QID moved).
 - Totals after audit: created 2,233; linked 731; skipped 79,369; next_index 82,296 unchanged.
 - validate: 0 errors / ~2014 warnings; npm test pending at push.
+
+## 2026 — wave 2 complete, candidate list exhausted (26951/26951)
+- Wave 2 broadened discovery beyond P140=Islam to uncovered cohorts: historic mosques, türbes/mausoleums, madrasas, khaneqahs/tekkes, persons with Islamic occupations, officeholders, dynasties/religious groups, historic battles/sieges/wars, and selected authored works (editions and verse excluded).
+- next_index: 26951/26951 — every candidate decided (`progress-wave2.json` is authoritative).
+- Wave-2 approximate totals (see batches/*.md for the live log): ~4,700 created records — dominated by the large structured heritage blocks (Ottoman türbes ~2,300, Yemen Rasulid madrasas, Saudi historic mosques) plus classical works (Ibn Taymiyya, Ibn Qayyim, al-Qasimi, Bayhaqi, Juwayni clusters), Abbasid/Ottoman-era battles and sieges, and ~1,500 scholars/ulema/muhaddiths/calligraphers.
+- Collision policy held throughout: richer canonical records kept, duplicate Wikidata items either linked (adding the candidate QID to the existing record) or skipped; ~80 create-failed:file-exists cases recorded and resolved the same way.
+- validate: 0 errors; npm test: 101 passed at every push. Final push: fe96e3036.
+
+## 2026 — wave 3 reconciliation sweep, lane complete
+- Enumerated the 156,810 subset entities never reached by the wave-1/wave-2 queries; filtered to our class types. Almost all famous canonical items (Alhambra, Nizamiyya, Ridda Wars, the Sahih collections, Fath al-Bari, Battle of Hunayn/Ajnadayn) were already imported or linked.
+- 51 new records created: Galata Tower, Beyazıt Tower, Edirne Palace, Mabeyn-i Hümayun, five Yıldız Palace structures, Husuni Kubwa (Kilwa), Mustatil, Barzan/Adile Sultan/al-Hamra palaces, Madrasa of al-Zahir Baibars, al-Ghuri sabil-kuttab, mausoleum of al-Ashraf Khalil, Dome of the Ascension, Dome of Yusuf Agha, Mashhad/Najaf shrine complexes, Imam Riza & Fatima Masumeh tomb chambers, Marcania madrasa, Sultan Abdul Samad Building, Istana Seri Menanti, Konya Bedesten, Tophane Fountain, Edirnekapı, Torre del Trovador (Aljafería), and ~10 Saudi/Anatolian towers and gates.
+- Housekeeping: 74 now-written entries removed from data/_stubs.yaml and data/_stubs.d/* (validator warnings resolved); bad region enums fixed on 3 files; 4 duplicate-QID tomb files removed.
+- Remaining undecided items (~700k) are correctly out of scope: countries, non-Islamic people/places/events, edition-level records, modern publications.
+- validate: 0 errors / ~6,700 warnings; npm test: 101 passed. Repo at 33,497 entities.
+- **Lane closed: all three waves complete, no more suitable items can be sourced from the Wikidata subset.** Last push: 923132e13.

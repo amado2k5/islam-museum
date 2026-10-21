@@ -1,0 +1,24 @@
+id: person/qarwash-ibn-al-muqallad
+class: person
+label:
+  ar: "قرواش بن المقلد أبو المنيع معتمد الدولة"
+  en: "Qarwash ibn al-Muqallad al-Uqayli"
+summary:
+  ar: "أمير بني عقيل بالموصل؛ جلس له القادر سنة ست وتسعين وثلاثمائة ولقّبه معتمد الدولة، ثم تفرد بالإمارة وكانت له بلاد الموصل والكوفة وشطّا الفرات، واستُنزل على ابن مزيد فيما كان إليه. جمع بين أختين فلامته العرب فقال «أيّ شيء أستعمل فما تُبيحه الشريعة؟»، وكان يقول «ما على رقبتي غير خمسة أو ستة من البادية قتلتهم، فأما الحاضرة فلا يُعبأ الله بهم». وكان الحاكم بمصر يكاتبه ويستميله حتى أقام له الدعوة بالموصل والكوفة ثم اعتذر إلى القادر. ودخل الغز الموصل سنة ٤٣٥ فأخذوا حرمه ونهبوا من داره ما يزيد على مائتي ألف دينار، فاجتمع هو ودبيس بن علي بن مزيد على الإيقاع بالغز فقتلوا منهم مقتلة عظيمة. توفي سنة اثنتين وأربعين وأربعمائة وقام بالأمر بعده قريش بن بدران بن المقلد {cite:muntazam-ibn-al-jawzi j.8 p.459,489-490}."
+  en: "Uqaylid amir of Mosul — invested by al-Qadir in 396 with the laqab Mu'tamid al-Dawla, then sole ruler of Mosul, Kufa and the two banks of the Euphrates. Corresponded with the Fatimid al-Hakim and proclaimed his da'wa at Mosul and Kufa before apologizing to al-Qadir; when the Ghuzz took Mosul in 435 they plundered over 200,000 dinars from his palace, and he joined Dubays ibn Mazyad in slaughtering them. Died 442, succeeded by Quraysh ibn Badran {cite:muntazam-ibn-al-jawzi j.8 p.459,489-490}."
+gender: male
+roles: [ruler]
+wings: [people]
+periods: [period/buyid-seljuk-fatimid-era]
+regions: [levant-iraq]
+died: { edtf: "1050~", hijri: "0442", calendar: julian, precision: year, status: tradition, derived: true, note: "توفي سنة ٤٤٢ {cite:muntazam-ibn-al-jawzi j.8 p.489-490}" }
+relations:
+  - { type: ruler_of, target: polity/uqaylid-dynasty, sources: [source/muntazam-ibn-al-jawzi] }
+  - { type: participated_in, target: event/fatimid-khutba-iraq-401, role: "الذي أقام الدعوة ثم اعتذر", sources: [source/muntazam-ibn-al-jawzi] }
+provenance:
+  layer: own-research
+  source: "المنتظم في تاريخ الملوك والأمم — ابن الجوزي (ج8، أحداث سنة ٤٣٥ وترجمة سنة ٤٤٢)، قراءة آبل فيجن، مسح AAlexandrina-224011"
+  generated_by: "Devin (SWE-2 Medium) from Apple Vision OCR"
+  run: lib-muntazam-350-474-batch24
+sources: [source/muntazam-ibn-al-jawzi]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 Medium)" }

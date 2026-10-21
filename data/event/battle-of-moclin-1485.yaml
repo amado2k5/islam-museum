@@ -1,0 +1,23 @@
+id: event/battle-of-moclin-1485
+class: event
+kind: battle
+label: { ar: "معركة موكلين (١٤٨٥)", en: "Battle of Moclín (1485)" }
+summary:
+  ar: "بطاقة أولية لمعركة موكلين (١٤٨٥)؛ لم تُراجع مصادره على الصفحة بعد."
+  en: "Draft card for Battle of Moclín (1485); its sources are not yet checked on the page."
+wings: [time]
+periods: [period/crusades-ayyubid-mamluk]
+regions: [andalus-europe]
+date:
+  start: { edtf: "1485", precision: year, status: tradition, derived: true }
+  end: { edtf: "1485", precision: year, status: tradition, derived: true }
+sources: [source/tarikh-islam-hasan-ibrahim]
+external_ids:
+  wikidata: Q132132650
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; event attested in narrative histories — entry not yet checked on the page"
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: wikidata-import-wave2
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 Medium)" }

@@ -1,0 +1,23 @@
+id: event/battle-of-akkum-1108
+class: event
+kind: battle
+label: { ar: "معركة عكوم", en: "Battle of Akkum (1108)" }
+summary:
+  ar: "بطاقة أولية لمعركة عكوم؛ لم تُراجع مصادره على الصفحة بعد."
+  en: "Draft card for Battle of Akkum (1108); its sources are not yet checked on the page."
+wings: [time]
+periods: [period/buyid-seljuk-fatimid-era]
+regions: [levant-iraq]
+date:
+  start: { edtf: "1108", precision: year, status: tradition, derived: true }
+  end: { edtf: "1108", precision: year, status: tradition, derived: true }
+sources: [source/tarikh-islam-hasan-ibrahim]
+external_ids:
+  wikidata: Q9172715
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; event attested in narrative histories — entry not yet checked on the page"
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: wikidata-import-wave2
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 Medium)" }
