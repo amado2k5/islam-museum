@@ -13,6 +13,9 @@ const { lang, item } = Astro.props as { lang: Lang; item: Item };
 const T = ui(lang);
 const label = item.label[lang as "ar" | "en"] ?? item.label.ar;
 const groupTitle = { architecture: T.art.group_architecture, patterns: T.art.group_patterns, art: T.art.group_art }[item.group as "architecture" | "patterns" | "art"];
+const extra = item as Item & { desc?: Record<string, string>; related?: { ref: string; label: Record<string, string> }[] };
+const desc = extra.desc?.[lang] ?? extra.desc?.ar;
+const related = extra.related ?? [];
 ---
 <BaseLayout lang={lang} title={label} description={T.art.disclaimer} path={`/${lang}/art/${item.slug}/`}>
   <PageHeader title={label} lede={groupTitle} crumbs={[{ label: T.entity.breadcrumb, href: `/${lang}/` }, { label: T.art.title, href: `/${lang}/art/` }, { label }]} crumbsLabel={T.entity.breadcrumb} />
@@ -23,6 +26,22 @@ const groupTitle = { architecture: T.art.group_architecture, patterns: T.art.gro
       </a>
       <figcaption class="ui muted" style="padding-top:8px">{item.source === "met" ? T.art.badge_met : T.art.badge} · <a href={`/media/architecture-art/${item.slug}.webp`} target="_blank" rel="noopener">{T.art.open_full}</a></figcaption>
     </figure>
+    {desc && (
+      <p class="ui" style="margin-top:20px">
+        {desc}
+        {related.length > 0 && (
+          <>
+            {" "}{T.art.related_title}:{" "}
+            {related.map((r, k) => (
+              <>
+                {k > 0 && ", "}
+                <a href={`/${lang}/${r.ref}/`}>{r.label[lang] ?? r.label.ar}</a>
+              </>
+            ))}
+          </>
+        )}
+      </p>
+    )}
     <p class="panel ui" style="margin-top:20px">{item.source === "met" ? T.art.credit_met : T.art.disclaimer}</p>
     <p class="ui" style="margin-top:16px"><a href={`/${lang}/art/`}>{T.art.back}</a></p>
   </div>
