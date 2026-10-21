@@ -2,10 +2,10 @@
 id: person/ahmad-ibn-al-tayyib-al-sarakhsi
 lang: en
 source_lang: ar
-translators: ["Claude Haiku 5.5 (claude-haiku-5-5), draft translation"]
+translators: []
 ---
 ## Overview
-Ahmad ibn al-Tayyib al-Sarakhsi, a companion of Ya'qub ibn Ishaq al-Kindi, who held the office of market supervision (hisba) in Baghdad. {cite:muruj-al-dhahab p. 620-621}
+Ahmad ibn al-Tayyib al-Sarakhsi, the brilliant philosopher and prolific author Abu al-'Abbas, pupil of the philosopher Ya'qub ibn Ishaq al-Kindi. {cite:siyar-alam-nubala-ideas-house p.805}
 
-## What al-Mas'udi relates
-Al-Mas'udi says that his place in philosophy is well known, and that he wrote works on kinds of philosophy and on the arts of reports. He then relates that the caliph [[person/al-mutadid|al-Mu'tadid]] arrested him in 283 AH and handed him to his servant Badr. They extracted from him a hundred thousand dinars, fifty thousand in gold and silver, and the price of his instruments. He adds that people disputed how and why he was killed. {cite:muruj-al-dhahab p. 620-621}
+## At al-Mu'tadid's court
+He was al-Mu'tadid's tutor, then became his boon-companion, keeper of his secrets and adviser, enjoying great rank and standing. But al-Mu'tadid turned to God and had him killed for his philosophy and corrupt creed; it is said he disavowed it and claimed to have sold his books of philosophy, astrology and kalam keeping only books of fiqh and hadith, whereupon al-Mu'tadid declared him a zindiq acting in dissimulation. He died in 286 AH. {cite:siyar-alam-nubala-ideas-house p.805}

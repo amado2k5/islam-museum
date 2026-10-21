@@ -190,3 +190,11 @@ Validation: 0 errors; coverage regenerated.
 - Rejected false matches: al-rabi-ibn-ziyad-al-bakri (matched al-Rabi' b. Anas the exegete), yusuf-ibn-abd-al-rahman-al-fihri (matched a later Murcia ruler), adi-ibn-zayd-al-ibadi (quote only, no tarjama), sharhabil-ibn-hasana (matched a descendant).
 - Lane total: 104 records.
 - Validation: 0 errors; coverage regenerated.
+
+## Batch 012 — siyar header-index sweep II (10 records)
+
+- New prose: yusuf-ibn-adi (p.4275-4276, Kufan hafiz in Egypt, d.230+), shabath-ibn-ribi (p.1966, Tamimi sayyid at Siffin), ali-ibn-mabad-ibn-shaddad (p.2860, hafiz of Egypt, d.218).
+- Enriched: aban-ibn-uthman (p.640, governor of Medina 7 yrs, d.105), kab-ibn-suwar (p.3116, qadi of Basra, killed at the Camel), marthad-ibn-abd-allah-al-yazani (p.3812, mufti of Egypt, d.90), mukhallad-ibn-yazid (p.3809, Harrani thiqa, d.193), al-zubayr-ibn-ahmad-al-basri (p.1710, blind Shafi'i shaykh, author of al-Kafi, d.320), ahmad-ibn-al-tayyib-al-sarakhsi (p.805, al-Kindi's pupil executed by al-Mu'tadid, d.286), amr-ibn-al-layth (p.2970-2971, Saffarid ruler captured at Balkh, d.289).
+- Rejected false matches: hasan-al-utrush (body was Hasan b. Arafa), nasr-ibn-ahmad (a Harawi, not the Samanid), umar-ibn-hafs-hazarmard, fatima-bint-abbas-al-baghdadiyya, fatima-bint-sad-al-azdiyya, ali-ibn-al-jad-al-shufni, adi-ibn-zayd-al-ibadi (index hits only).
+- Lane total: 114 records.
+- Validation: 0 errors; coverage regenerated.
