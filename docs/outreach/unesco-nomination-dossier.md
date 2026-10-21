@@ -1,6 +1,6 @@
 # islam.museum: nomination dossier for UNESCO prizes and digital public good recognition
 
-_Prepared 17 October 2026. Part A is an internal brief for the founder and is not sent. Parts B and C are the outgoing package: a cover letter to the Canadian Commission for UNESCO and the dossier itself. Every figure in Parts B and C is traced in the claims register (A.5); update the register before any resubmission._
+_Second edition, 21 October 2026 (repository state: commit 509fd6db8 on `main`, 17:12 UTC). The first edition of 17 October 2026 was sent to the Canadian Commission for UNESCO and filed with the Digital Public Goods Alliance (GID0094424); its figures are kept in the claims register (A.5) beside the current ones. Part A is an internal brief and is not sent. Parts B and C are the outgoing package: a cover letter to the nominating organisation and the dossier. Every figure in Parts B and C is traced in A.5; regenerate `docs/coverage.md` and update A.5 before any resubmission._
 
 ---
 
@@ -8,82 +8,89 @@ _Prepared 17 October 2026. Part A is an internal brief for the founder and is no
 
 ### A.1 The short answer
 
-**Nominator.** For every UNESCO prize that fits islam.museum, Canada's official nominating body is the **Canadian Commission for UNESCO (CCUNESCO)**, Canada's National Commission, housed within the Canada Council for the Arts in Ottawa. UNESCO prize rules allow two kinds of nominator only: a Member State acting through its National Commission, or a non-governmental organization in official partnership with UNESCO. Self-nominations are rejected by every secretariat. Because the founder and the project are based in Ontario, CCUNESCO is the correct door; an NGO in official partnership (for example the International Council of Museums, ICOM) is the route now: CCUNESCO abstained from supporting UNESCO prize applications on 19 October 2026 and pointed Canadian applicants to such NGOs (see A.6).
+**Nominator.** UNESCO prize candidates may be nominated only by a Member State through its National Commission, or by a non-governmental organization in official partnership with UNESCO. Self-nominations are rejected. On 19 October 2026 the Canadian Commission for UNESCO (CCUNESCO) replied that it "is unable to support applications for the various UNESCO prizes" and is "abstaining from the process", and pointed Canadian applicants to NGOs in official partnership. The route is therefore an NGO partner. The International Council of Museums (ICOM, associate status, Paris) was asked on 19 October through its contact form and has not yet replied. The International Council for Open and Distance Education (ICDE) replied on 21 October that it nominates only from its membership network (membership EUR 200 for an individual); not pursued. The Arabic Language International Council (Beirut, consultative status on UNESCO's September 2026 list) can be reached at info@alarabiah.org; its status needs confirming because other sources call it intergovernmental. Details and drafts: `docs/outreach/ngo-nomination-package.md`.
 
-**Timing.** Every 2026 UNESCO prize window relevant to the museum closed between February and May 2026. The next openings are the 2027 cycles. Planning began in September 2025 as a prototype timeline application, timelinethis.app (domain registered 19 September 2025); the public site went live on 11 October 2026. The UNESCO ICT in Education Prize requires that the project "should have been implemented for at least 1 year with evidence of concrete activities", and a jury may read "implemented" as public use rather than planning, so the realistic UNESCO calendar is: register interest with CCUNESCO now, nominate for the UNESCO-Sharjah Prize in its 22nd edition (call expected winter 2026-27), and present the ICT in Education Prize candidacy in 2027 with the full project history (planning, design, content development, launch) documented as concrete activities, if the annual theme fits.
+**Direct routes that need no nominator.**
 
-**Act now, no nominator needed.** Two channels accept direct applications and should be filed before any UNESCO letter goes out, because each one gives CCUNESCO an external validation to point to:
+1. **Digital Public Goods Alliance registry.** Filed 17 October 2026 (GID0094424, Open Content), under review. Two corrections are pending: the hosting description and the V&A photograph licence (A.6).
+2. **Museums + Heritage Awards 2027, "Best Digital Experience – Global".** The awards director confirmed eligibility on 21 October. Entries open 2 November 2026; a placeholder entry submitted by 23:59 GMT on 30 November with the code EarlyBird costs GBP 100 plus VAT and can be edited until 29 January 2027. If shortlisted, two ceremony tickets (London, 12 May 2027, GBP 256 plus VAT each) must be bought.
+3. **WSIS Prizes 2027** (ITU with UNESCO). Call expected December 2026; Action Line C8.
+4. **Sheikh Zayed Book Award, Publishing and Technology.** Direct submission at alcawards.ae; the open window's deadline year is unconfirmed (the site says "until 1 September"). An eligibility email is drafted.
 
-1. **Digital Public Goods Alliance (DPGA) registry.** Direct application, reviewed against nine indicators in about 30 days. islam.museum meets all nine on paper (CC0 data, CC BY-SA prose, MIT code, static JSON API, no personal data collected). Listing confers the formal "digital public good" designation this dossier already uses.
-2. **WSIS Prizes 2027** (International Telecommunication Union with UNESCO, UNDP and UNCTAD). Any stakeholder may submit; the 2026 call ran 18 December 2025 to 23 March 2026, so the 2027 call should open in December 2026. Category: Action Line C8, cultural diversity and identity, linguistic diversity and local content.
+**Timing.** The UNESCO-Sharjah Prize for Arab Culture, 22nd edition, is the primary UNESCO target; its page says nominations are open with no deadline posted (prix.sharjah@unesco.org). The ICT in Education Prize 2027 depends on its theme (published around March 2027) and on a year of documented implementation.
 
-### A.2 Channel assessment (status as of 17 October 2026)
+### A.2 Channel assessment (status as of 21 October 2026)
 
-| Channel | Who nominates | Fit | Last window | Expected next window | Verdict |
-|---|---|---|---|---|---|
-| **UNESCO-Sharjah Prize for Arab Culture** (US$60,000 shared by two laureates) | Member State government via National Commission, or NGO in official partnership; no self-nomination | Strong on theme: "dissemination and promotion of Arab art and culture" and intercultural dialogue; Arabic-first museum. Weak on track record: laureates typically have long-term records | 21st edition closed 28 Feb 2026; laureates named (Brahim El Mazned, Dhow Countries Music Academy) | The UNESCO prize page already refers to the 22nd edition and links a form; no deadline posted. Confirm with prix.sharjah@unesco.org | **Primary UNESCO target.** Ask CCUNESCO to carry the nomination in the 22nd edition |
-| **UNESCO King Hamad Bin Isa Al-Khalifa Prize for the Use of ICT in Education** (two prizes of US$25,000) | National Commission (max 3 nominations) or NGO in official partnership; no self-nomination | Theme changes yearly (2026: creativity and critical thinking with AI). Requires one year of implementation and evidence of activities. The museum is a learning resource, not a classroom programme, so fit depends on the theme | 2026 call opened March, closed 29 May 2026 | Call around February or March 2027; deadline late May 2027. The one-year rule is met if the jury counts the project's documented pre-launch development; if it counts public use only, the first fully eligible cycle is 2028 | **Secondary.** Watch the theme; document the project history as concrete activities; prepare a classroom-use pilot to produce evidence of learning |
-| **UNESCO/Jikji Memory of the World Prize** (US$40,000) | Member States and NGOs in official relations, up to 3 candidates | Preservation of original documentary heritage; the museum is secondary, derived knowledge | 2026 closed 30 Apr 2026; awarded to Gaza manuscript rescuers | 2028 (biennial) | Not a fit; do not pursue |
-| **WSIS Prizes 2027** (ITU, co-organized with UNESCO) | Direct submission by any stakeholder, in English; one project per category | Strong: Action Line C8 (cultural diversity, linguistic diversity, local content); also C7 e-learning | 2026 submissions 18 Dec 2025 to 23 Mar 2026 | December 2026 to March 2027 | **File directly** when the call opens |
-| **Digital Public Goods Alliance registry** | Direct application by an authorised representative | Strong: all nine indicators met on paper | Rolling | Rolling; review about 30 days; annual renewal | **File this month** |
-| **Sheikh Zayed Book Award, Publishing and Technology** (Abu Dhabi Arabic Language Centre) | Direct submission via alcawards.ae | Strong: cultural organisations using technology to widen Arabic cultural content | 21st edition closed 1 Sep 2026 | 22nd edition opens around mid-2027, closes around 1 Sep 2027 | File in 2027 |
-| **Digital Museums Canada** (Canadian Museum of History) | Direct funding application | Funding, not a prize; eligibility is normally for Canadian museums and heritage organisations with legal status | Annual | Check the 2027 call | Verify eligibility after the legal entity is set up (see A.4) |
+| Channel | Who nominates or enters | Fit | Status | Next step |
+|---|---|---|---|---|
+| **UNESCO-Sharjah Prize for Arab Culture** (US$60,000 shared by two laureates) | Member State via National Commission, or NGO in official partnership; no self-nomination | Strong on theme (dissemination of Arab culture, Arabic-first). Weak on track record | CCUNESCO declined 19 Oct; ICOM asked 19 Oct, pending; ALIC contact found | Send the dossier to ICOM electronically once it says how; ask ALIC; ask the secretariat whether an NGO nomination is accepted for the 22nd edition |
+| **UNESCO King Hamad Bin Isa Al-Khalifa Prize for the Use of ICT in Education** | National Commission (max 3) or NGO partner; no self-nomination; one year of implementation | Theme-dependent; the museum is a learning resource, not a classroom programme | 2026 closed 29 May; 2027 call around March | Watch the theme; document the project history as concrete activities |
+| **UNESCO/Jikji Memory of the World Prize** | Member States and NGOs | Not a fit (preservation of original documents) | 2026 awarded | Do not pursue |
+| **Digital Public Goods Alliance registry** | Direct | Strong; all nine indicators evidenced | Filed 17 Oct (GID0094424), under review | Send the two corrections (hosting, V&A licence) when the reviewer writes, or proactively |
+| **Museums + Heritage Awards 2027, Best Digital Experience – Global** | Direct, online platform (mandhawards.awardsplatform.com, registered) | Strong; judged on user impact, not reach | Eligible (director's email, 21 Oct) | Placeholder entry by 30 Nov; evidence of use and six owned images by January |
+| **WSIS Prizes 2027** | Direct, English | Strong (Action Line C8) | Call expected Dec 2026 | File when open |
+| **Sheikh Zayed Book Award, Publishing and Technology** | Direct via alcawards.ae | Strong | Deadline year unconfirmed | Send the eligibility email; confirm the cycle |
+| **ICDE** (NGO partner, Norway) | Members only | Good for the Education Prize | Declined non-member nomination, 21 Oct | Not pursued unless membership is wanted |
+| **Mohammed Bin Rashid Arabic Language Award; ESCWA Digital Arabic Content Award** | Direct | Strong (Arabic digital content) | Both closed for 2026; next calls expected 2027 | Watch arabicaward.ae and ESCWA |
 
-### A.3 CCUNESCO: who, where, how
+### A.3 Who receives the package now
 
-- **Secretary General:** Marie-Christine Morin, in office since April 2026 (Canada Council for the Arts senior management page). Her predecessor was Yves-Gérard Méhou-Loko (2023-2026).
-- **Address:** Canadian Commission for UNESCO, 150 Elgin Street, P.O. Box 1047, Ottawa, Ontario K1P 5V8, Canada.
-- **General contact:** ccunesco@ccunesco.ca; (613) 566-4414; toll-free 1-800-263-5588.
-- **Process:** CCUNESCO publishes no standing "prizes" page. Like other National Commissions it screens Canadian candidates internally, may set its own earlier deadlines, and may decline to nominate. UNESCO's own guidance for every prize says to contact the National Commission "from the very beginning" of the application, before the UNESCO call closes.
-- **What to send:** the cover letter (Part B) with the dossier (Part C) as a PDF, by email to the general address, with "Expression of interest: UNESCO-Sharjah Prize 22nd edition and UNESCO prizes 2027" in the subject line. Follow up by phone after ten working days and ask to be put in touch with the programme officer for culture and the programme officer for education.
+- **ICOM General Secretariat**, 15 rue Lasson, 75012 Paris; contact form at icom.museum/en/contact-us (Executive Affairs department); telephone +33 (0)1 47 34 05 00. Electronic submission only; ask ICOM for its route.
+- **Arabic Language International Council**, Beirut: info@alarabiah.org; +961 1 364 611.
+- **UNESCO-Sharjah Prize secretariat**: prix.sharjah@unesco.org.
+- **Museums + Heritage Awards**: Anna Preedy, Awards Director, anna@museumsandheritage.com.
+- **Digital Public Goods Alliance**: support@digitalpublicgoods.net, quoting GID0094424.
 
 ### A.4 Submission steps and calendar
 
-1. **Done 17 October 2026.** Letter and dossier sent to ccunesco@ccunesco.ca. DPGA application submitted (GID0094424, under review; declared as Open Content). Every answer for the nine indicators, with its evidence in the repo or on the live site, is prepared in `docs/outreach/dpga-evidence-map.md`; the privacy and data statement it relies on is live at islam.museum/ar/privacy/.
-2. **Before any formal nomination.** Decide the legal vehicle. Prize money and most Canadian funding require a legal entity (a federally incorporated not-for-profit is the usual choice). The dossier says this is in progress; do not name an entity that does not exist.
-3. **November 2026.** Email prix.sharjah@unesco.org to confirm the 22nd edition deadline and ask whether a government nomination must come through CCUNESCO or through Canada's Permanent Delegation to UNESCO in Paris. Pass the answer to CCUNESCO.
-4. **December 2026.** When the WSIS Prizes 2027 call opens, submit under Action Line C8. English only; no nominator needed.
-5. **February to March 2027.** Read the ICT in Education Prize 2027 theme the day it is published. If it fits, request an account at unesco.org/ict-ed-prize/register, name CCUNESCO as nominating entity, and tell CCUNESCO the same day.
-6. **Mid-2027.** Sheikh Zayed Book Award, 22nd edition, Publishing and Technology category.
-7. **Every cycle.** Refresh the claims register (A.5) and regenerate the figures from `docs/coverage.md` on `origin/main`.
+1. **Done, 17 October.** Letter and dossier to CCUNESCO; DPGA application filed.
+2. **Done, 19 to 21 October.** CCUNESCO declined; ICOM asked; ICDE declined; API moved to `api.islam.museum` with a redirect from the old addresses; Museums + Heritage eligibility confirmed.
+3. **Now.** Send ICOM the refreshed dossier when it answers how; email ALIC and the Sharjah secretariat; send the Sheikh Zayed eligibility email; send the DPGA the hosting and V&A corrections.
+4. **2 November.** Start the Museums + Heritage entry; submit a placeholder with EarlyBird by 30 November; final edits by 29 January 2027.
+5. **December 2026.** WSIS Prizes 2027 submission.
+6. **March 2027.** Read the ICT in Education Prize 2027 theme.
+7. **Before any nomination is confirmed.** Decide the legal vehicle (incorporation as a Canadian not-for-profit); do not name an entity that does not exist.
 
 ### A.5 Claims register: what the dossier says and where it comes from
 
-| Claim in Parts B and C | Source | Status |
-|---|---|---|
-| 19,084 structured records in 21 classes; 29,996 relations; 1,637 wanted stubs | `docs/coverage.md` on `origin/main`, 17 Oct 2026 | Verified in repo |
-| 19,082 Arabic prose entries; 17,738 English prose entries | `content/ar/` and `content/en/` file counts on `origin/main`, 17 Oct 2026 | Verified in repo. The founder's earlier figure of about 10,250 English entries is out of date |
-| Class counts (persons 3,702; places 1,651; events 1,404; Qur'an passages 9,546; concepts 316; works 264; questions 220; sources 175; listings 115) | `docs/coverage.md` | Verified in repo |
-| 13 named periods from pre-Islamic Arabia to the contemporary era | `docs/coverage.md` | Verified in repo |
-| Licences: data CC0 1.0, prose CC BY-SA 4.0, code MIT | `LICENSE`, `LICENSE-CONTENT.md` | Verified in repo |
-| Static site, no servers, no databases, no runtime AI, no accounts, no cookies | `docs/plan/03-architecture.md` §13, ADR 0002, `AGENTS.md` | Verified in repo |
-| About 2,150 human unique visitors from more than 80 countries; about 200,000 automated AI and search-indexing requests | Founder's reading of Cloudflare edge analytics, which run at the network edge and set no cookies | Founder-reported; keep the "approximately" and the date |
-| Public site first published 11 October 2026 | First commit on `main` | Verified in repo |
-| Planning began in September 2025 as the prototype timeline application timelinethis.app, which evolved into islam.museum | Domain registration confirmation for timelinethis.app, 19 September 2025 (Squarespace Domains, reseller Google Cloud Domains, email to the founder); prototype built in Google AI Studio (https://ai.studio/apps/599c9dfd-a952-4208-a2a9-d5b0a6dc1172, may require sign-in); two public videos: "Building timelineThis.app using Google AI Studio" (https://www.youtube.com/watch?v=LMkDOykCUYs) and "This app Demo" (https://www.youtube.com/watch?v=K4_SR_4udSo) | Founder-provided, 17 Oct 2026. Keep the registration email; a jury may ask for it |
-| Every record cites sources; dated facts need two sources or a flag | `AGENTS.md`, validator | Rule verified; average 1.16 sources per record today |
-| Every record is currently in `draft` review status; none is marked reviewed or verified | `docs/coverage.md`, "By review status" | Verified. The dossier must not say "verified content" |
-| WCAG 2.2 AA target; readable without JavaScript | `AGENTS.md`, `docs/site/README.md` | Rule verified; no third-party audit yet |
-
-### A.6 Changes since filing (checked 18 October 2026, 21:30 Toronto time)
-
-The PDF sent to CCUNESCO and the DPGA form (GID0094424) describe the repository as of 17 October 2026. Main has moved since. Each change below is classed as the gates document requires (`docs/ai-change-gates.md` §3), with what was done about it.
-
-| Change on main | Class | Submitted claim affected | Status |
+| Claim in Parts B and C | Source | 17 Oct 2026 (first edition, filed) | 21 Oct 2026 (this edition) |
 |---|---|---|---|
-| Hosting moved from GitHub Pages to Cloudflare Pages (paid plan) with the search indexes and the API JSON on Cloudflare R2 (commits fe4ef596d to 1847d76fb, 18 Oct) | submission-impacting | Dossier §2 table and Annex A ("GitHub Pages behind Cloudflare"); DPGA indicator 4 answer ("GitHub Pages behind Cloudflare, replaceable by any static host"); privacy page "Who delivers the files" | Dossier, evidence map, privacy page (ar, en, ur), README, SECURITY.md and AGENTS.md updated in this commit. The substance of the claim holds: static files, no server code, any static host can serve `dist/`. Tell the DPGA only if asked; mention in the next letter to CCUNESCO. |
-| **The public API returns 404** at `islam.museum/api/v1/*` since the move: Cloudflare Pages cannot proxy `/api/*` to an external host (its `_redirects` proxying "will only support relative URLs on your site"), so the 200 rule in `site/public/_redirects` does nothing; the files exist on R2 (`pub-ab3983f1cb684ba8bb7c10be32804f74.r2.dev/api/v1/...`) | submission-impacting | DPGA indicator 6 evidence links (`/api/v1/meta/index.json`, `/api/v1/person/index.json`, `/api/v1/person/ibn-sina.json`, graph dumps), dossier §2 "Machine access", `llms.txt`, `docs/data/README.md`, the footer "Open data (JSON)" link | **Open.** Fix needed before a reviewer clicks: give the R2 bucket a custom domain (for example `api.islam.museum`) and 301 `/api/*` to it, or restore `api/` to the Pages deployment. Until then the submitted links are dead. |
-| Urdu is now a full published language: interface, labels and 11,742 prose files (`content/ur/`), and AGENTS.md now requires every change to ship with English and Urdu | non-impacting (growth) | DPGA "available languages" said Urdu articles "in progress"; dossier said Urdu interface only | True then, truer now. Noted in the evidence map; no disclosure needed. |
-| Counts grew: 20,574 records (was 19,084), 31,439 relations (29,996), 4,580 persons, 1,523 events, 19,263 Arabic and 19,153 English prose files, 1.46 sources per record; all records still `draft` | non-impacting (growth) | Figures dated 17 Oct in both submissions | No action; the submissions date their figures. Re-quote from `docs/coverage.md` in any new letter. |
-| 750 AI-generated illustrations published in the Architecture and Art gallery (`/<lang>/art/`, `site/src/data/architecture-art.json`, images in `site/public/media/architecture-art/`), made locally with an open-weights model under prompt rules that exclude people, faces, figures and text; each page carries an "AI-generated illustration" badge and disclaimer | submission-impacting (media story) | DPGA 9b "types of content" said "a small number of illustrations and maps, accepted only under whitelisted open licences, with alt text"; dossier and AGENTS.md: no AI-generated portraits, alt text in every published language | Partly open. The no-portrait rule holds (no people are rendered). Gaps: the gallery entries have Arabic alt text only, not English or Urdu; no licence is stated for the renders on the page or in a `data/media/` record. Add a licence line (the museum's own illustrations, CC0) to the gallery and English and Urdu alt text to the JSON; then the DPGA answer is accurate again. |
-| 187 V&A photographs re-licensed from the vague `institution-open` to `VAM-NC` (non-commercial, embedded by URL) | submission-impacting | DPGA "right to redistribute" wording | Correction email drafted (see the conversation of 17 Oct); evidence map and `media-licence-audit.md` updated. Send if the reviewer asks, or proactively. |
-| Social links (X, YouTube, TikTok, Instagram, WhatsApp) and support links (PayPal, Patreon, LaunchGood) added to the footer as plain links; RSS feed added | non-impacting | Privacy claims (no third-party scripts) | Verified: links only, no embedded scripts or iframes; `check:static` still passes in CI. |
-| CCUNESCO reply (19 Oct 2026): the Commission "is unable to support applications for the various UNESCO prizes" and is "abstaining from the process" for fairness and transparency, because there is no nationwide selection process; Canadian applications can go through an NGO with official partnership with UNESCO | submission-impacting (route) | Dossier Part B request 3 and Part C section 5 ask the Commission to nominate islam.museum; the brief's Canadian nominator route | Answered. The Commission will not nominate. Next: identify an NGO in official partnership (UNESCO publishes the list), send it the dossier with a request for a nomination letter, and ask the Sharjah secretariat whether an NGO nomination is accepted for the 22nd edition. The Commission's reply is filed in the outreach folder and is not disputed. |
+| Structured records; classes | `docs/coverage.md` regenerated from the data on `main` (`npm run graph && npm run coverage`) | 19,084 in 21 classes | **33,578 in 21 classes** |
+| Relations between records | same | 29,996 | **31,823** |
+| Persons / places / events / buildings | same | 3,702 / 1,651 / 1,404 / 69 | **8,122 / 1,665 / 4,000 / 5,568** |
+| Qur'an passages; works; concepts; sources | same | 9,546 / 264 / 316 / 175 | **9,546 / 1,453 / 399 / 228** |
+| Questions; learning trails (exhibits); films and series (screen); journeys; practices | same | 220 / – / – / 49 / 4 | **220 / 301 / 315 / 49 / 52** |
+| Periods; regions; themes | same | 13 periods | **13 periods; 14 regions; 132 themes (18 still empty)** |
+| Prose files, Arabic / English / Urdu | `content/ar`, `content/en`, `content/ur` file counts | 19,082 / 17,738 / 0 | **19,584 / 19,504 / 19,504** |
+| Records that are preliminary cards from the Wikidata import, carrying one placeholder citation and a summary that says their sources are not yet reviewed | count of records whose only source is `source/tarikh-islam-hasan-ibrahim` | none | **about 6,840** (5,178 buildings, 1,507 events, 88 persons, the rest groups, polities, concepts); see A.6 |
+| Average sources per record | `docs/coverage.md` | 1.16 | **1.28** |
+| Review status | `docs/coverage.md` "By review status" | all `draft` | **all 33,578 `draft`** |
+| Media records and licences | `data/media/*.yaml` | 471: 284 open, 187 V&A | **471: 232 CC0, 32 public-domain mark, 5 CC BY, 15 CC BY-SA, 187 V&A non-commercial terms (embedded by URL)** |
+| AI-generated illustrations in the art gallery | `site/src/data/architecture-art.json` | 750 | **1,261**, Arabic alt text only, no licence line on the page (A.6) |
+| Licences | `LICENSE`, `LICENSE-CONTENT.md` | data CC0 1.0, prose CC BY-SA 4.0, code MIT | unchanged |
+| Hosting | `docs/plan/03-architecture.md` §1; live checks 21 Oct | GitHub Pages behind Cloudflare | **Cloudflare Pages (paid plan) for the pages; Cloudflare R2 for the search indexes and the API, served at api.islam.museum; GitHub Pages as fallback mirror** |
+| Public API | live check 21 Oct | `islam.museum/api/v1/…` | **`api.islam.museum/api/v1/…` returns 200; the old addresses return 301 to it** |
+| No servers, no databases, no runtime AI, no accounts, no cookies, no third-party scripts | ADR 0002, `scripts/check-static.ts`, live home page scan 21 Oct | verified | verified (no external script tags in the live page) |
+| Visitors | Founder's reading of Cloudflare edge analytics | about 2,150 human unique visitors from more than 80 countries; about 200,000 automated requests, first week | **not refreshed; the founder must supply current figures before sending** |
+| Public site first published; planning began | first commit; founder's statement and domain record | 11 Oct 2026; Sep 2025 (timelinethis.app) | unchanged |
 
-What the dossier deliberately does not claim: an institutional partner, a legal entity, a human-reviewed corpus, a user study, or a track record longer than the project has. Each of these is a stated next step instead.
+What the dossier deliberately does not claim: an institutional partner, a legal entity, a human-reviewed corpus, a user study, a licence for the AI illustrations that has not been written down, or a track record longer than the project has.
+
+### A.6 Changes since the first edition, and open items
+
+| Change on `main` | Class (`docs/ai-change-gates.md` §3) | Effect on filed claims | Status |
+|---|---|---|---|
+| Hosting moved to Cloudflare Pages and R2 (18 Oct); API on `api.islam.museum` with a 301 from the old addresses (21 Oct, commit aefbef9ef) | submission-impacting | DPGA indicator 4 and 6 answers and the first-edition dossier say GitHub Pages and `islam.museum/api/v1` | Repository, privacy page (ar, en, ur), README, SECURITY.md, AGENTS.md and this dossier updated. Tell the DPGA when its reviewer writes, or proactively. |
+| **Wikidata import, waves 1 to 3 (19 to 21 Oct):** about 4,700 created and thousands of records linked; the lane reports itself complete. About 6,840 of its records are "preliminary cards" whose only citation is `source/tarikh-islam-hasan-ibrahim`, a general history of Islam, and whose Arabic summary says the sources "have not yet been reviewed on the page". Many are post-1800 buildings (a Karachi mosque, a 1920s mausoleum, Ottoman tombs) and one is a Slovak castle. | submission-impacting | "Every record cites its sources" and "nothing invented" are claims in both submissions and in `AGENTS.md`. A citation that does not support the record is a placeholder, not a source. | **Open, founder's decision.** Options: (a) mark these records with a distinct status or flag and exclude them from the "sourced records" figure, (b) replace the placeholder with the Wikidata pointer plus a real source per record before publication, (c) remove records outside scope. This dossier states the number and describes them as preliminary cards. |
+| 1,261 AI-generated illustrations in the art gallery, Arabic alt text only, no licence line | submission-impacting (media) | DPGA 9b and the accessibility claim (alt text in every published language) | Open. Add a licence line (the museum's own illustrations, CC0) and English and Urdu alt text. |
+| 187 V&A photographs under non-commercial terms | submission-impacting | DPGA "right to redistribute" wording | Correction email drafted (19 Oct); send when the reviewer writes, or proactively. |
+| Urdu is a full third language (19,504 prose files; interface; labels) | growth | DPGA "available languages" under-stated | No action. |
+| Counts roughly doubled since 17 Oct, mostly from the Wikidata import and the Shadharat al-Dhahab, Futuh al-Buldan and library lanes | growth | Figures dated | A.5 carries both dates. |
+| CCUNESCO declined (19 Oct); ICDE requires membership (21 Oct) | route | Part B addressee | Part B now addresses the nominating organisation; ICOM first. |
 
 ---
 
-## Part B: cover letter to the Canadian Commission for UNESCO
+## Part B: cover letter to the nominating organisation
 
 Ahmed Abdelaal
 Founder, islam.museum
@@ -91,42 +98,41 @@ Oakville, Ontario, Canada
 ahamdy@gmail.com · [telephone]
 https://islam.museum · https://github.com/amado2k5/islam-museum
 
-17 October 2026
+[date of sending]
 
-Marie-Christine Morin
-Secretary General
-Canadian Commission for UNESCO
-150 Elgin Street, P.O. Box 1047
-Ottawa, Ontario K1P 5V8
+General Secretariat
+International Council of Museums (ICOM)
+15 rue Lasson
+75012 Paris, France
 
-**Subject: Expression of interest in nomination by the Canadian Commission for UNESCO: UNESCO-Sharjah Prize for Arab Culture (22nd edition) and UNESCO prizes in the 2027 cycle**
+**Subject: Request for a nomination letter for islam.museum, UNESCO-Sharjah Prize for Arab Culture (22nd edition)**
 
-Dear Secretary General Morin,
+Dear colleagues,
 
-I am writing to introduce islam.museum, a Canadian-led digital public good, and to ask the Canadian Commission for UNESCO to consider it as a Canadian candidate for UNESCO prizes in the coming cycle, beginning with the 22nd edition of the UNESCO-Sharjah Prize for Arab Culture.
+I am writing to ask whether the International Council of Museums, which holds associate status in official partnership with UNESCO, would provide a nomination letter for islam.museum for the UNESCO-Sharjah Prize for Arab Culture, 22nd edition.
 
-islam.museum is a free, open, all-digital museum of Islamic civilization: its faith, peoples, places, ideas, objects, texts and living culture across fourteen centuries, published first in Arabic. It is built as an open knowledge graph in which every person, place, event, text and idea is a record with sources, dates in two calendars and documented relations to other records. As of 17 October 2026 the museum holds 19,084 structured records in 21 classes, linked by roughly 30,000 relations, with Arabic prose for every record and English prose for 17,738 of them. The structured data is dedicated to the public domain under CC0 1.0, the prose is licensed CC BY-SA 4.0, and the software is MIT-licensed, so that any school, library, museum or researcher may copy, translate and build on the whole collection.
+islam.museum is a free, open, Arabic-first digital museum of Islamic civilization: its faith, peoples, places, ideas, buildings, objects, texts and living culture across fourteen centuries. It is built as an open knowledge graph in which every person, place, event, text and idea is a record with sources, dates in two calendars and documented relations to other records. As of 21 October 2026 it holds 33,578 records in 21 classes, linked by about 31,800 relations, with articles in Arabic, English and Urdu for more than 19,500 of them. The structured data is dedicated to the public domain under CC0 1.0, the prose is licensed CC BY-SA 4.0, and the software is MIT-licensed, so that any school, library, museum or researcher may copy, translate and build on the whole collection. Photographs of objects are never copied: they are displayed from the holding institutions' own servers, under their own terms, with credit.
 
-The museum grew out of a prototype timeline application, timelinethis.app, which I began in September 2025; after a year of design and content development the public site went live on 11 October 2026. It is designed to the standard of a public institution rather than a website. It runs as static files with no servers, no databases and no artificial intelligence on the visitor's path. It collects no personal data, sets no cookies, requires no account and carries no advertising. Every page is readable without JavaScript and is built to WCAG 2.2 AA. Its editorial charter commits the museum to a neutral, descriptive voice: contested questions are presented through labelled, cited perspectives with no verdict, and no record is marked reviewed until a person has checked it against its sources.
+The museum grew out of a prototype timeline application, timelinethis.app, which I began in September 2025; the public site went live on 11 October 2026. It is designed to the standard of a public institution: static files with no servers, no databases and no artificial intelligence on the visitor's path; no personal data collected, no cookies, no accounts, no advertising; every page readable without JavaScript and built to WCAG 2.2 AA. Its editorial charter commits it to a neutral, descriptive voice, and no record is marked reviewed until a person has checked it against its sources.
 
-The museum's aims sit squarely within UNESCO's mandate and within Canada's priorities for the Commission: Sustainable Development Goal 4 (quality education, through a free multilingual learning resource), SDG 11.4 (safeguarding cultural heritage, through open, durable, machine-readable documentation of a civilization), and UNESCO's programmes on Arabic language, intercultural dialogue and open educational resources. In its first week online the site has been read by visitors from more than 80 countries and has become a cited source for automated search and AI systems, which increasingly mediate the public's first contact with knowledge about Islam.
+The Canadian Commission for UNESCO has told me that it is unable to support applications for the UNESCO prizes and that Canadian applicants should approach an NGO in official partnership with UNESCO. I am therefore writing to ICOM. I do not ask ICOM to take any position beyond its own judgement of the museum's work.
 
-I am aware that UNESCO prize candidates may be nominated only by a Member State through its National Commission or by an NGO in official partnership with UNESCO, and that the Commission screens Canadian candidates according to its own process and deadlines. I therefore ask for three things:
+I would be grateful for answers to three questions:
 
-1. **Guidance on the Commission's process** for Canadian candidates to the UNESCO-Sharjah Prize for Arab Culture (22nd edition) and to the UNESCO King Hamad Bin Isa Al-Khalifa Prize for the Use of ICT in Education (2027 cycle), including any internal deadlines.
-2. **A meeting**, in person in Ottawa or online, with the programme officers responsible for culture and for education, to present the museum and to hear which UNESCO programmes the Commission considers the best fit.
-3. **Consideration of islam.museum as a Canadian nominee** in the next cycle in which the Commission judges it ready.
+1. Does ICOM nominate candidates for the UNESCO-Sharjah Prize, and if so, what must a nomination letter contain?
+2. What is the deadline for the 22nd edition, and does ICOM set an earlier deadline for requests?
+3. How may I submit the dossier to ICOM electronically, and would ICOM be willing to discuss the project by video call or in writing?
 
-The enclosed dossier sets out the project's mission, architecture, open-data framework, measurable reach and next steps. It states plainly what the museum has not yet done: its public site is new, its records are still in draft review, and its legal vehicle is being incorporated. I would rather the Commission judge the project on an exact account than on an inflated one.
+The enclosed dossier sets out the mission, the technical architecture, the open-data framework, the sustainable development goals the project serves, and its limits. It states plainly what the museum has not yet done: its records are still in draft review, about a fifth of them are preliminary cards awaiting proper sourcing, its legal entity is being incorporated, and it is young. I would rather ICOM judge the project on an exact account than on an inflated one.
 
-Thank you for your attention and for the Commission's work in bringing Canadian initiatives to UNESCO. I look forward to your reply.
+Thank you for your time, and for ICOM's work for museums everywhere.
 
 Yours sincerely,
 
 Ahmed Abdelaal
 Founder, islam.museum
 
-Enclosure: islam.museum nomination dossier (Part C)
+Enclosure: islam.museum dossier (PDF)
 
 ---
 
@@ -135,33 +141,34 @@ Enclosure: islam.museum nomination dossier (Part C)
 # islam.museum
 ## An open, Arabic-first digital museum of Islamic civilization, built as a public good
 
-Submitted to the Canadian Commission for UNESCO by Ahmed Abdelaal, founder, Oakville, Ontario, Canada. 17 October 2026.
+Submitted by Ahmed Abdelaal, founder, Oakville, Ontario, Canada. Figures as of 21 October 2026; current figures are published at https://islam.museum/en/coverage/.
 
 ### 1. Executive summary
 
-**What it is.** islam.museum is a free, open, all-digital museum of Islam: the faith, the civilization, the peoples, places, ideas, objects, texts and living culture, from the world Islam was born into until today. It is not a textbook, a religious-rulings site, a missionary site or a single collection online. It is a knowledge graph with a museum's structure: every person, place, event, idea, object, text, practice, journey, polity and language is a record; every record is connected; every connection is dated and sourced; and the whole can be walked through many doors (time, place, people, ideas, words, objects, living culture, today) or searched directly.
+**What it is.** islam.museum is a free, open, all-digital museum of Islam: the faith, the civilization, the peoples, places, ideas, buildings, objects, texts and living culture, from the world Islam was born into until today. It is not a textbook, a religious-rulings site, a missionary site or a single collection online. It is a knowledge graph with a museum's structure: every person, place, event, building, idea, object, text, practice, journey, polity and language is a record; every record is connected; every connection is dated; and the whole can be walked through many doors (time, place, people, ideas, words, objects, living culture, today) or searched directly in three languages.
 
-**Why it matters.** Knowledge about Islamic civilization online is fragmented into silos: scripture sites, hadith databases, museum catalogues, encyclopaedia articles, academic databases and polemics. Nobody connects the astrolabe to the astronomer to the city to the ruler to the verse he was reading. The curious outsider finds apologetics, polemics or a forty-page encyclopaedia article; Muslim readers know their own tradition deeply and the civilization's breadth thinly. Meanwhile, search engines and AI assistants now mediate most first contact with this knowledge, and they cite whatever is structured, sourced and machine-readable. islam.museum is built to be that source.
+**Why it matters.** Knowledge about Islamic civilization online is fragmented into silos: scripture sites, hadith databases, museum catalogues, encyclopaedia articles, academic databases and polemics. Nobody connects the astrolabe to the astronomer to the city to the ruler to the verse he was reading. The curious outsider finds apologetics, polemics or a forty-page encyclopaedia article; Muslim readers know their own tradition deeply and the civilization's breadth thinly. Search engines and AI assistants now mediate most first contact with this knowledge, and they cite whatever is structured, sourced and machine-readable. islam.museum is built to be that source.
 
-**Scale (17 October 2026).**
+**Scale (21 October 2026).**
 
 | Measure | Figure |
 |---|---|
-| Structured records | 19,084 in 21 classes |
-| Relations between records | 29,996 |
-| Persons / places / events | 3,702 / 1,651 / 1,404 |
-| Qur'anic passages indexed as records | 9,546 |
-| Concepts / works / sources | 316 / 264 / 175 |
-| Reviewed answers to common questions | 220 |
-| Named historical periods | 13, from pre-Islamic Arabia to the contemporary era |
-| Arabic prose entries | 19,082 (one for every record) |
-| English prose entries | 17,738 |
+| Structured records | 33,578 in 21 classes |
+| Relations between records | 31,823 |
+| Persons / events / buildings / places | 8,122 / 4,000 / 5,568 / 1,665 |
+| Works / concepts / polities / groups | 1,453 / 399 / 174 / 339 |
+| Qur'anic passages indexed as records (Tanzil text, unaltered) | 9,546 |
+| Learning trails (exhibits) / films and series indexed / journeys | 301 / 315 / 49 |
+| Plain-language answers to common questions | 220 |
+| Named historical periods / regions / themes | 13 / 14 / 132 |
+| Articles in Arabic / English / Urdu | 19,584 / 19,504 / 19,504 |
+| Records that are preliminary cards awaiting proper sourcing (see section 4) | about 6,840 |
 
-**Reach.** In its first week of publication the site was read by approximately 2,150 human unique visitors from more than 80 countries and answered approximately 200,000 automated requests from search engines and AI indexers (founder-reported, Cloudflare edge analytics, which set no cookies).
+**Reach.** In its first week of publication (11 to 17 October 2026) the site was read by approximately 2,150 human unique visitors from more than 80 countries and answered approximately 200,000 automated requests from search engines and AI indexers (founder-reported, from Cloudflare edge analytics, which set no cookies). [Replace with current figures before sending.]
 
-**Who built it.** The museum is founded and led from Oakville, Ontario, by Ahmed Abdelaal. Planning began in September 2025 with a prototype timeline application, timelinethis.app, more than a year before the public site opened on 11 October 2026. It is Arabic-first by charter: Arabic labels, summaries, prose, alt text, map labels and interface come first; English and later languages are translations of the finished Arabic. Drafting is assisted by AI models at build time under a published editorial charter; every draft enters as a labelled draft with full provenance, and nothing is marked reviewed until a person has checked it.
+**Who built it.** The museum is founded and led from Oakville, Ontario, by Ahmed Abdelaal. Planning began in September 2025 with a prototype timeline application, timelinethis.app, more than a year before the public site opened on 11 October 2026. It is Arabic-first by charter: Arabic labels, summaries, prose, alt text, map labels and interface come first; English and Urdu are translations, shipped with every change since 18 October 2026. Drafting is assisted by AI models at build time under a published editorial charter; every draft enters as a labelled draft with full provenance, and nothing is marked reviewed until a person has checked it.
 
-**What is asked.** Endorsement and nomination by the Canadian Commission for UNESCO, beginning with the UNESCO-Sharjah Prize for Arab Culture, and guidance toward the UNESCO programmes where a Canadian open-knowledge institution can contribute most.
+**What is asked.** A nomination letter for the UNESCO-Sharjah Prize for Arab Culture, 22nd edition, from an NGO in official partnership with UNESCO, and guidance toward the UNESCO programmes where an open-knowledge institution of this kind can contribute most.
 
 ### 2. Technical architecture and open-data standard
 
@@ -171,99 +178,104 @@ Submitted to the Canadian Commission for UNESCO by Ahmed Abdelaal, founder, Oakv
 
 | Layer | Choice | Consequence for the public |
 |---|---|---|
-| Hosting | Static files on Cloudflare Pages, with the search indexes and the open-data JSON on Cloudflare R2 storage (GitHub Pages kept as a fallback mirror) | No servers, no databases, no per-visitor computation; the built site is a folder any static host can serve, and anyone can copy it |
+| Hosting | Static files on Cloudflare Pages; the search indexes and the open-data JSON on Cloudflare R2 storage, served at api.islam.museum; GitHub Pages kept as a fallback mirror | No servers, no databases, no per-visitor computation; the built site is a folder any static host can serve |
 | Runtime AI | None | No model, API or server code runs for a visitor; AI is used only in the building phase, under review |
-| Visitor data | No accounts, no cookies, no advertising, no third-party tracking scripts | Traffic is counted only at the network edge, without identifying anyone |
+| Visitor data | No accounts, no cookies, no advertising, no third-party tracking scripts; a build check fails on any of them | Traffic is counted only at the network edge, without identifying anyone; the privacy statement is published in Arabic, English and Urdu |
 | Front end | Astro, Svelte islands, Tailwind; TypeScript build scripts | Every page is readable with JavaScript disabled; interactive layers are additive |
-| Search | Pagefind, a static chunked index with Arabic support | Search works offline from the published files; no search server |
-| Maps | MapLibre GL JS with PMTiles basemaps and GeoJSON overlays | No tile API keys, no map provider dependency |
+| Search | Pagefind, a static chunked index per language with Arabic support | No search server |
+| Maps and 3D | MapLibre GL JS with PMTiles basemaps; a walkable 3D hall built on Three.js | No tile API keys, no map provider dependency |
 | Graph | Sigma.js on graphology | Tens of thousands of nodes explorable in the browser |
-| Accessibility | WCAG 2.2 AA target; alt text required on every image; right-to-left layout as the default | Readable by screen readers and on low-bandwidth connections |
+| Accessibility | WCAG 2.2 AA target; alt text required on every media record in all three languages; right-to-left layout as the default | Readable by screen readers and on low-bandwidth connections |
+
+**What the public can do on the site.** Read any record with its sources, dates in the Hijri and Gregorian calendars and its relations; read the Qur'an in a continuous reader with public-domain English and Urdu translations; read the Muwatta of Malik report by report with transmission chains shown; browse a poetry anthology; follow 301 learning trails with a step-by-step player that works without JavaScript and prints as a handout; ask 220 common questions and get sourced plain-language answers; explore the knowledge graph, the map and the timeline; walk a 3D hall; use a Hijri calendar with a converter and calendar export; keep a personal "my tour" of bookmarks in the browser only; visit a children's section that hides violent, mature and contested material; browse an art gallery of 1,261 AI-generated illustrations, each badged as such; and download everything.
 
 **Open data by design.**
 
-- **Licences.** Structured facts (`data/`, `geo/`, `datasets/`, `schema/`) are dedicated to the public domain under CC0 1.0 Universal. Prose (`content/`) is CC BY-SA 4.0. Code is MIT. Third-party media keep their own licences, recorded per item against a published whitelist and audited in `docs/outreach/media-licence-audit.md`; institution photographs that carry no open licence (187 from the V&A) are embedded by URL only, never copied, under the holder's own terms, and are not part of what the museum offers for reuse.
+- **Licences.** Structured facts (`data/`, `geo/`, `datasets/`, `schema/`) are dedicated to the public domain under CC0 1.0 Universal. Prose (`content/`) is CC BY-SA 4.0. Code is MIT. Third-party media keep their own licences, recorded per item against a published whitelist and audited record by record.
 - **Stable identifiers.** Every record has an immutable identifier of the form `class/slug`; renames are handled by aliases and redirects, so citations never break.
-- **Machine access.** A static JSON API (`/api/v1/<class>/<slug>.json` and per-class indexes), JSON-LD in every page using schema.org types with `sameAs` links to Wikidata, sitemaps, an `llms.txt` file and a public changelog. Data can be extracted wholesale by cloning the repository or record by record from the API, in non-proprietary formats.
-- **Dates with uncertainty.** Every dated fact carries an Extended Date/Time Format value, a Hijri string, the calendar used and a precision level; conversions are marked as derived. Nothing is invented: a date without two sources is flagged.
-- **Controlled vocabulary.** Relations use a single published predicate list; each edge is written once and inverses are computed, so the graph stays consistent as it grows.
+- **Machine access.** A static JSON API at `https://api.islam.museum/api/v1/` (index of classes and licences, per-class indexes, one document per record, whole-graph dumps as newline-delimited JSON), JSON-LD in every page using schema.org types with `sameAs` links to Wikidata, sitemaps, an `llms.txt` file, an RSS feed and a public changelog. Data can be extracted wholesale by cloning the repository or record by record from the API, in non-proprietary formats.
+- **Dates with uncertainty.** Every dated fact carries an Extended Date/Time Format value, a Hijri string, the calendar used and a precision level; conversions are marked as derived. A date without two sources is flagged.
+- **Controlled vocabulary.** Relations use a single published predicate list; each edge is written once and inverses are computed.
 
-**Editorial standard.** The charter (public in the repository) binds every contributor, human or machine: a warm, precise, neutral docent voice that describes and never prescribes; Sunni Islam as the default frame with every other view labelled before it is stated; contested topics presented as labelled, cited perspectives with no verdict; a person's faith recorded only with its basis; opponents and critics included with time-scoped roles; scriptural text drawn only from a frozen reference edition and never retyped; every record citing sources. AI output enters as `draft` with a provenance block naming the model, the run and the source; the validator rejects honorifics, retyped scripture and uncited claims. As of this dossier every record is in draft status: the museum publishes its review state on each page and does not describe its corpus as verified.
+**Editorial standard.** The charter (public in the repository) binds every contributor, human or machine: a warm, precise, neutral docent voice that describes and never prescribes; Sunni Islam as the default frame with every other view labelled before it is stated; contested topics presented as labelled, cited perspectives with no verdict; a person's faith recorded only with its basis; opponents and critics included with time-scoped roles; scriptural text drawn only from a frozen reference edition and never retyped; every record citing sources. AI output enters as `draft` with a provenance block naming the model, the run and the source; the validator rejects honorifics, retyped scripture and uncited claims. A change-control document binds every agent to written proposals, scope limits, three-way merges and a freeze on anything that could alter a filed claim while submissions are under review.
 
 ### 3. Measurable impact and alignment with the Sustainable Development Goals
 
-**SDG 4, quality education (targets 4.7 and 4.a).** The museum is a free, open, Arabic-first learning resource that requires no account, no payment and no high-bandwidth device. Its 220 question pages answer, in plain words and with sources, the questions the public actually asks about Islam. Its depth dial lets a twelve-year-old and a historian read the same record at different depths. Its CC BY-SA prose and CC0 data can be reused in textbooks, school projects and open educational resources without permission. It is built for the 1.9 to 2 billion people for whom Islamic civilization is their own history and for everyone else who meets it through news, travel or neighbours.
+**SDG 4, quality education (targets 4.7 and 4.a).** The museum is a free, open, Arabic-first learning resource that requires no account, no payment and no high-bandwidth device. Its 220 question pages answer, in plain words and with sources, the questions the public actually asks about Islam. Its 301 learning trails give a goal, prerequisites and a route, and print as handouts. Its depth setting lets a twelve-year-old and a historian read the same record at different depths. Its CC BY-SA prose and CC0 data can be reused in textbooks, school projects and open educational resources without permission. It is built for the 1.9 to 2 billion people for whom Islamic civilization is their own history and for everyone else who meets it through news, travel or neighbours.
 
-**SDG 11.4, safeguarding cultural and natural heritage.** The museum documents heritage rather than holding it: 1,651 places with gazetteer identifiers, 1,404 dated events, 3,702 people, 264 works, and the relations between them, in a durable, forkable, public-domain form. Documentation in this form survives the loss of any single institution, server or funder, and it is the layer that search engines and AI systems read when they describe heritage to the public.
+**SDG 11.4, safeguarding cultural and natural heritage.** The museum documents heritage rather than holding it: 5,568 buildings, 1,665 places with gazetteer identifiers, 4,000 dated events, 8,122 people, 1,453 works and 516 objects, and the relations between them, in a durable, forkable, public-domain form. Documentation in this form survives the loss of any single institution, server or funder, and it is the layer that search engines and AI systems read when they describe heritage to the public.
 
-**UNESCO programme alignment.** Arabic language and Arabic cultural dissemination (the museum is Arabic by default and reaches non-Arabic readers through translation of the finished Arabic); intercultural dialogue (a neutral front door for readers outside the tradition, and a broad front door for readers inside it); open educational resources and open science (CC0, CC BY-SA, MIT, stable identifiers, open API); Memory of the World principles (sourced, dated, machine-readable documentation); media and information literacy (every claim carries its source and its review state).
+**SDG 16.10, public access to information.** Every record shows its sources and its review state; contested questions are shown as labelled, cited perspectives; the collection is open to everyone, in every country, with no tracking, no accounts and no advertising.
 
-**Reach to date (first week online, founder-reported from edge analytics).**
+**UNESCO programme alignment.** Arabic language and Arabic cultural dissemination (Arabic by default; English and Urdu as translations of the finished Arabic); intercultural dialogue (a neutral front door for readers outside the tradition, and a broad front door for readers inside it); open educational resources and open science (CC0, CC BY-SA, MIT, stable identifiers, open API); Memory of the World principles (sourced, dated, machine-readable documentation); media and information literacy (every claim carries its source and its review state).
+
+**Reach to date (first week online, founder-reported from edge analytics; replace with current figures before sending).**
 
 | Indicator | Figure |
 |---|---|
 | Human unique visitors | approximately 2,150 |
 | Countries of origin | more than 80 |
 | Automated requests from search and AI indexers | approximately 200,000 |
-| Records available in Arabic | 19,082 |
-| Records available in English | 17,738 |
+| Languages fully published | 3 (Arabic, English, Urdu) |
 
-**Indicators the museum will report each year.** Records by class, period and region; share of records reviewed by a person; sources per record; languages published; human visitors and countries; downloads and forks of the data; citations by third parties, including AI systems; zero-result searches turned into new question pages; accessibility audit results.
+**Indicators the museum will report each year.** Records by class, period and region; share of records reviewed by a person; share of records still preliminary; sources per record; languages published; human visitors and countries; downloads and forks of the data; citations by third parties, including AI systems; zero-result searches turned into new question pages; accessibility audit results.
 
 **Canadian dimension.** The project is founded and operated in Ontario, published under Canadian stewardship, and designed to be adopted by Canadian schools, public libraries and museums serving one of the most diverse Muslim populations in the world. It embodies values Canada brings to UNESCO: open knowledge, linguistic plurality, privacy by design and intercultural understanding.
 
 ### 4. Governance, risks and what is not yet done
 
-The museum states its limits so that the Commission can judge it exactly.
+The museum states its limits so that the reader can judge it exactly.
 
-- **Age.** Planning, design and content development began in September 2025 with the prototype timelinethis.app; the public site was first published on 11 October 2026. Several UNESCO prizes require at least one year of implementation with evidence of concrete activities. The museum can document its full development history and asks for guidance now so that it is nominated in the first cycle for which the Commission judges it to qualify.
-- **Review status.** All 19,084 records are machine-validated and cite sources, but none has yet been marked reviewed by a person. Human review is the museum's largest cost and its next priority; the review state is shown on every page.
+- **Age.** Planning, design and content development began in September 2025; the public site was first published on 11 October 2026. Several UNESCO prizes require at least one year of implementation with evidence of concrete activities; the museum can document its full development history.
+- **Review status.** All 33,578 records are machine-validated and carry a review state, and none has yet been marked reviewed by a person. Human review is the museum's largest cost and its next priority; the review state is shown on every page.
+- **Preliminary cards.** About 6,840 records, most of them buildings and events imported from Wikidata between 19 and 21 October 2026, are preliminary cards: they carry labels, identifiers and a placeholder citation, and their summary states that their sources have not yet been reviewed. They are counted in the totals above and are being resolved record by record. Excluding them, the collection holds about 26,700 records with at least one citation other than the placeholder.
+- **Media.** 471 photograph and map records: 284 under CC0, the public-domain mark, CC BY or CC BY-SA, and 187 photographs from the Victoria and Albert Museum displayed from the museum's own servers under its non-commercial terms, never copied and not part of the reusable data. The 1,261 illustrations in the art gallery are AI-generated, made locally with an open-weights model under rules that exclude people, faces, figures and text, and badged as such on every page; their licence line and their English and Urdu alt text are being added.
 - **Legal vehicle.** The project is currently the founder's own. Incorporation as a Canadian not-for-profit is in progress so that prize funds, grants and partnerships can be received by an institution rather than an individual.
-- **Independence.** The project has received no funding from UNESCO and has no affiliation with it. It carries no advertising and will not change its editorial rules for any funder.
+- **Independence.** The project has received no funding from UNESCO and has no affiliation with it. It carries no advertising, is funded by its founder, and will not change its editorial rules for any funder.
 - **Risk of misuse.** The charter forbids rulings, sermon voice, inferred religious affiliation and the phrase "enemy of Islam" or its equivalents in the museum's own voice. Contested matters are presented through labelled perspectives. Scripture is never retyped. These rules are enforced by the validator, not only by policy.
 
 ### 5. Call to action and next steps
 
-The founder respectfully asks the Canadian Commission for UNESCO to:
+The founder respectfully asks the nominating organisation to:
 
-1. **Advise** on the Commission's process and internal deadlines for Canadian candidates to the UNESCO-Sharjah Prize for Arab Culture (22nd edition) and to the UNESCO King Hamad Bin Isa Al-Khalifa Prize for the Use of ICT in Education (2027 cycle).
-2. **Meet** the founder, in Ottawa or online, with the programme officers for culture and for education.
-3. **Consider nominating** islam.museum as a Canadian candidate in the first cycle for which the Commission judges it ready, and **endorse** its parallel applications to the Digital Public Goods Alliance registry and the WSIS Prizes 2027 by letter if the Commission's rules permit.
+1. **Confirm** whether it will provide a nomination letter for islam.museum for the UNESCO-Sharjah Prize for Arab Culture (22nd edition), and **advise** on its process and internal deadlines.
+2. **Meet** the founder, by video call or in writing, to discuss the project and the nomination.
+3. **Consider nominating** islam.museum in the first cycle for which it judges the project ready, and, if its rules permit, **endorse** the founder's parallel applications to the Digital Public Goods Alliance registry and the WSIS Prizes 2027 by letter.
 
-In return the museum commits to: completing its DPGA registration and WSIS submission on its own account; incorporating as a Canadian not-for-profit; publishing an annual indicator report; keeping the whole collection free, open and tracking-free; and acknowledging the Commission's support publicly.
+In return the museum commits to: resolving the preliminary cards and publishing the share reviewed by a person each year; incorporating as a Canadian not-for-profit; publishing an annual indicator report; keeping the whole collection free, open and tracking-free; and acknowledging the organisation's support publicly, if it gives any.
 
 ### Annex A: fact sheet
 
 | Item | Detail |
 |---|---|
 | Name | islam.museum |
-| URL | https://islam.museum |
+| URL | https://islam.museum (Arabic default; /en/ and /ur/) |
 | Repository | https://github.com/amado2k5/islam-museum |
 | Founder | Ahmed Abdelaal, Oakville, Ontario, Canada |
 | Planning and design began | September 2025 (prototype timelinethis.app; domain registered 19 September 2025) |
 | First public release | 11 October 2026 |
-| Default language | Arabic (right-to-left); English translations in progress |
-| Records / relations | 19,084 / 29,996 (17 October 2026) |
-| Licences | Data CC0 1.0; prose CC BY-SA 4.0; code MIT |
+| Languages | Arabic (default, right-to-left), English, Urdu |
+| Records / relations | 33,578 / 31,823 (21 October 2026), of which about 6,840 preliminary cards |
+| Licences | Data CC0 1.0; prose CC BY-SA 4.0; code MIT; media per item |
 | Hosting | Static files on Cloudflare Pages and R2 (GitHub Pages fallback); no servers, no databases, no runtime AI |
-| Privacy | No accounts, no cookies, no advertising, no third-party tracking |
+| Privacy | No accounts, no cookies, no advertising, no third-party tracking; statement in three languages |
 | Accessibility | WCAG 2.2 AA target; readable without JavaScript |
-| Machine access | Static JSON API, JSON-LD, sitemaps, `llms.txt`, Wikidata alignment |
-| SDGs | 4 (4.7, 4.a), 11.4 |
+| Machine access | https://api.islam.museum/api/v1/meta/index.json; JSON-LD; sitemaps; llms.txt; RSS; Wikidata alignment |
+| SDGs | 4 (4.7, 4.a), 11.4, 16.10 |
 | Funding received | None from UNESCO or any government; founder-funded |
+| Digital Public Goods Alliance | Application GID0094424 under review (filed 17 October 2026) |
 
 ### Annex B: how a record is built
 
-Each record is a YAML file of facts (labels in Arabic and English, dates in EDTF and Hijri with precision, coordinates, external identifiers, sources, relations, review status, provenance) and a Markdown file of Arabic prose, with an English file where translated. The validator rejects any record without Arabic label and summary, without sources, with a typed honorific, with retyped scripture, or with an unknown relation type. The build computes inverse relations, timelines, maps, search chunks and the JSON API from the validated graph. The public page shows the sources, the review state and a link to the record's history.
+Each record is a YAML file of facts (labels in Arabic, English and Urdu, dates in EDTF and Hijri with precision, coordinates, external identifiers, sources, relations, review status, provenance) and a Markdown article per language, Arabic first. The validator rejects any record without an Arabic label and summary, without sources, with a typed honorific, with retyped scripture, with an unknown relation type or with a media licence outside the whitelist. The build computes inverse relations, timelines, maps, search chunks and the JSON API from the validated graph. The public page shows the sources, the review state and a link to the record's history.
 
 ### Annex C: references
 
-- UNESCO-Sharjah Prize for Arab Culture, prize page and secretariat (prix.sharjah@unesco.org): https://www.unesco.org/en/prizes/sharjah
-- UNESCO King Hamad Bin Isa Al-Khalifa Prize for the Use of ICT in Education, 2026 guidelines (nominating entities, one-year rule, three nominations per National Commission): https://www.unesco.org/en/prizes/ict-education
-- Canadian Commission for UNESCO, contact: https://en.ccunesco.ca/contact-us
-- Canada Council for the Arts, senior management (Secretary General, CCUNESCO): https://canadacouncil.ca/about/governance/senior-management
+- UNESCO-Sharjah Prize for Arab Culture: https://www.unesco.org/en/prizes/sharjah (secretariat prix.sharjah@unesco.org)
+- UNESCO King Hamad Bin Isa Al-Khalifa Prize for the Use of ICT in Education: https://www.unesco.org/en/prizes/ict-education
+- UNESCO list of NGOs in official partnership (September 2026): linked from https://www.unesco.org/en/partnerships/ngo-foundations
 - Digital Public Goods Alliance, submission guide and DPG Standard: https://digitalpublicgoods.net/digital-public-goods/submission-guide/
+- Museums + Heritage Awards 2027: https://awards.museumsandheritage.com/how-to-enter/
 - WSIS Prizes (ITU): https://www.itu.int/net4/wsis/stocktaking/Prizes
-- Sheikh Zayed Book Award, 21st edition call (Publishing and Technology): https://internationalpublishers.org/submissions-open-for-21st-edition-of-the-sheikh-zayed-book-award/
 - Project history: "Building timelineThis.app using Google AI Studio", https://www.youtube.com/watch?v=LMkDOykCUYs; "This app Demo", https://www.youtube.com/watch?v=K4_SR_4udSo
-- islam.museum architecture and charter: `docs/plan/03-architecture.md`, `AGENTS.md`, `docs/sources-policy.md`, `LICENSE-CONTENT.md` in the repository
+- islam.museum architecture, charter and data guide: `docs/plan/03-architecture.md`, `AGENTS.md`, `docs/sources-policy.md`, `docs/data/README.md`, `LICENSE-CONTENT.md`, `docs/outreach/media-licence-audit.md` in the repository

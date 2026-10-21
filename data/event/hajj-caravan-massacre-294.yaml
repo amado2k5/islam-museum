@@ -1,0 +1,26 @@
+id: event/hajj-caravan-massacre-294
+class: event
+kind: massacre
+label: { ar: "وقعتا قافلتي الحاج بالعقبة والطليح" }
+summary:
+  ar: "في سنة أربع وتسعين ومائتين اعترض القرامطة قافلة الحاج في طريق مكة بالعقبة فقتلوهم وسبوا من النساء ما أرادوا واحتووا على ما في القافلة فأخذوا ما قيمته ألف ألف دينار، فأشخص السلطان أبا عبد الله الحسن بن داود الهاشمي الكاتب إلى الكوفة لتسريح الجيوش منها إلى القرمطي، ثم صار القرمطي إلى الشقوق فأقام بموضع يعرف بالطليح ينتظر القافلة الأخرى، فلما وافته حاربوه يومهم إلى الليل ثم عاودهم القتال حتى كان في اليوم الثالث عطش أهل القافلة وهم على غير ماء فتهافتوا ثم استسلموا فوُضع فيهم السيف فلم يقتل منهم إلا اليسير وأُخذ جميع ما في القافلة {cite:muntazam-ibn-al-jawzi p. 351-352}."
+  en: "In 294 the Qarmatians fell on the pilgrim caravan at al-'Aqaba on the Mecca road — killed, enslaved women, took a million dinars' worth; the caliph sent al-Hasan ibn Dawud al-Hashimi to Kufa to dispatch armies. Then at al-Talih in the Shaquq they fought the next caravan for three days until the pilgrims, waterless, collapsed and surrendered; the sword was put to them and the whole caravan seized {cite:muntazam-ibn-al-jawzi p. 351-352}."
+wings: [time]
+periods: [period/abbasid-early]
+regions: [arabia]
+sides:
+  - label: { ar: "القرامطة" }
+    commanders: [person/zakarawayh-ibn-mihrawayh]
+  - label: { ar: "قوافل الحاج" }
+map: { kind: locator, precision: approximate, center: [42.50, 28.50] }
+date:
+  start: { edtf: "0906~", hijri: "0294", calendar: julian, precision: year, status: tradition, derived: true, note: "٢٩٤؛ التحويل مشتق {cite:muntazam-ibn-al-jawzi p. 351}." }
+relations:
+  - { type: had_participant, target: person/zakarawayh-ibn-mihrawayh, role: "القرمطي المعترض", sources: [source/muntazam-ibn-al-jawzi] }
+provenance:
+  layer: own-research
+  source: "المنتظم لابن الجوزي (ط حيدرآباد 1357، ج6، سنة 294)، قراءة آبل فيجن"
+  generated_by: "Devin (SWE-2 Medium) from Apple Vision OCR"
+  run: lib-muntazam-258-349-batch28
+sources: [source/muntazam-ibn-al-jawzi]
+status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 Medium)" }

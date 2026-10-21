@@ -1,0 +1,21 @@
+id: event/fida-ransom-295
+class: event
+kind: other
+label: { ar: "الفداء بين المسلمين والروم سنة ٢٩٥" }
+summary:
+  ar: "في سنة خمس وتسعين ومائتين كانت المفاداة بين المسلمين والروم، ففُودي من الرجال والنساء ثلاثة آلاف نفس، وفي ذي القعدة من هذه السنة توفي المكتفي بالله {cite:muntazam-ibn-al-jawzi p. 358-359}."
+  en: "In 295 the ransom exchange with the Byzantines freed three thousand souls — men and women — before al-Muktafi's death that Dhu'l-Qa'da {cite:muntazam-ibn-al-jawzi p. 358-359}."
+wings: [time]
+periods: [period/abbasid-early]
+regions: [anatolia-balkans]
+date:
+  start: { edtf: "0907~", hijri: "0295", calendar: julian, precision: year, status: tradition, derived: true, note: "٢٩٥؛ التحويل مشتق {cite:muntazam-ibn-al-jawzi p. 358}." }
+relations:
+  - { type: had_participant, target: person/al-muktafi-billah, role: "الخليفة", sources: [source/muntazam-ibn-al-jawzi] }
+provenance:
+  layer: own-research
+  source: "المنتظم لابن الجوزي (ط حيدرآباد 1357، ج6، سنة 295)، قراءة آبل فيجن"
+  generated_by: "Devin (SWE-2 Medium) from Apple Vision OCR"
+  run: lib-muntazam-258-349-batch28
+sources: [source/muntazam-ibn-al-jawzi]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 Medium)" }
