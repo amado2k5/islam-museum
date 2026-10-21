@@ -8,7 +8,7 @@ The site's search indexes (`pagefind-ar`, `pagefind-en`, `pagefind-ur`) and API 
 
 | Piece | Where | Role |
 |---|---|---|
-| Publisher | `batch/publish.mjs` | Builds the desired file list from `dist/`, diffs it against the manifest in the bucket, packs the changes into archives, uploads each archive to `_staging/`, and posts it to a Worker. Writes the new manifest only after every archive succeeds. |
+| Publisher | `batch/publish.mjs` | Builds the desired file list from `dist/`, diffs it against the manifest in the bucket, packs the changes into archives, uploads each archive to `_staging/` (retried on S3 errors), and posts it to a Worker. Writes the manifest after every batch, so a failed run resumes from the failed batch; before a large publish it also lists the bucket and skips files whose ETag already matches the build. |
 | Packer | `batch/pack.mjs` | Splits operations into archives of at most 250 operations and 20 MB. Archives are stored without compression (`level: 0`). |
 | Worker | `src/index.js` | `POST /process` reads one archive, checks each operation, and applies them. COPY runs six at a time; MOVE, DELETE and unknown operations run one at a time, in order. Writes progress to `_r2-sync/status.json`, and deletes the archive only if every operation succeeded. `GET /status` returns that file. |
 | Config | `wrangler.toml` (test), `wrangler.production.toml` (production) | Bucket binding, `ALLOWED_PREFIXES`, `limits.cpu_ms = 300000` (paid-plan maximum). Observability is on in the production config. |
@@ -30,7 +30,7 @@ Production is meant to run **seven identical Workers** on `islam-museum-search`:
 2. The Worker deploy step deploys the Worker copies and sets their token from `R2_SYNC_TOKEN`. It collects their URLs.
 3. `publish.mjs` reads `_r2-sync/manifest.json` from the bucket and diffs it against `dist/`. It packs the changes.
 4. Each archive is uploaded to `_staging/` with the S3 API, then posted to a Worker. Archives go to the Workers in turn, `PARALLEL` at a time.
-5. After every archive succeeds, the manifest is written and `_staging/` is cleared.
+5. After each batch of archives succeeds, the manifest is written (`partial: true` until the last batch). `_staging/` is cleared only after the whole publish succeeds, never before a resume.
 
 Runs don't overlap: the workflow's `concurrency: group: pages` with `cancel-in-progress: false` queues every waiting run.
 
