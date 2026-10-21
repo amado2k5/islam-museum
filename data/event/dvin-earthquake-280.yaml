@@ -1,0 +1,22 @@
+id: event/dvin-earthquake-280
+class: event
+kind: other
+label: { ar: "زلزلة دبيل" }
+summary:
+  ar: "في ذي الحجة سنة ثمانين ومائتين ورد كتاب من دبيل أن القمر انكسف في شوال ثم تجلّى في آخر الليل، فأصبحوا والدنيا مظلمة، ثم هبّت ريح سوداء شديدة، ثم زُلزلوا فتذهبّت المدينة فلم ينجُ من منازلها إلا نحو مائة دار، ودُفن إلى حين كتابة الكتاب ثلاثون ألف نفس يُخرجون من تحت الهدم، وزُلزلوا بعد الهدم خمس مرات {cite:muntazam-ibn-al-jawzi p. 143}."
+  en: "In Dhu'l-Hijja 280 a dispatch from Dabil (Dvin) reported a lunar eclipse in Shawwal followed by darkness at dawn, a violent black wind, and an earthquake that buried the city — only about a hundred houses survived, thirty thousand dead were pulled out and buried, and five aftershocks followed {cite:muntazam-ibn-al-jawzi p. 143}."
+wings: [time]
+periods: [period/abbasid-early]
+regions: [anatolia-balkans]
+date:
+  start: { edtf: "0894-03~", hijri: "0280-12", calendar: julian, precision: month, status: tradition, derived: true, note: "ورد الخبر ذو الحجة ٢٨٠ والزلزلة عقب كسوف شوال؛ التحويل مشتق {cite:muntazam-ibn-al-jawzi p. 143}." }
+relations:
+  - { type: occurred_at, target: place/dabil, sources: [source/muntazam-ibn-al-jawzi] }
+map: { kind: locator, precision: approximate, center: [44.58, 40.00] }
+provenance:
+  layer: own-research
+  source: "المنتظم لابن الجوزي (ط حيدرآباد 1357، ج5 ق2، سنة 280)، قراءة آبل فيجن"
+  generated_by: "Devin (SWE-2 Medium) from Apple Vision OCR"
+  run: lib-muntazam-258-349-batch27
+sources: [source/muntazam-ibn-al-jawzi]
+status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 Medium)" }
