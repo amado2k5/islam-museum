@@ -32,11 +32,11 @@ jobs:
             package-lock.json
             site/package-lock.json
       - name: Install
-        run: npm ci && npm ci --prefix site
+        run: npm ci && npm ci --prefix site && npm ci --prefix workers/r2-sync
       - name: Test
         run: npm test
-      - name: Site Worker unit tests (routing, redirects, headers)
-        run: node --test 'workers/site/test/*.test.mjs'
+      - name: Worker unit tests (site routing and rules; R2 publish diff, resume and retry)
+        run: node --test 'workers/site/test/*.test.mjs' workers/r2-sync/test/publish.test.mjs
 
   build:
     runs-on: ubuntu-latest

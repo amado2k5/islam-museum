@@ -1,0 +1,21 @@
+id: event/abu-faqqas-execution-258
+class: event
+kind: other
+label: { ar: "قتل أبي فقعس بالضرب" }
+summary:
+  ar: "في يوم الخميس لسبع خلون من رمضان سنة ثمان وخمسين ومائتين ضُرب رجل يعرف بأبي فقعس قامت عليه البينة أنه يشتم السلف، فضُرب خمسين سوطًا فمات {cite:muntazam-ibn-al-jawzi p. 100}."
+  en: "On Thursday 7 Ramadan 258 a man known as Abu Faqqas, convicted by testimony of reviling the Salaf, was given fifty lashes and died {cite:muntazam-ibn-al-jawzi p. 100}."
+wings: [time]
+periods: [period/abbasid-early]
+regions: [levant-iraq]
+date:
+  start: { edtf: "0872-08~", hijri: "0258-09", calendar: julian, precision: month, status: tradition, derived: true, note: "رمضان ٢٥٨؛ التحويل مشتق {cite:muntazam-ibn-al-jawzi p. 100}." }
+relations:
+  - { type: occurred_at, target: place/samarra, sources: [source/muntazam-ibn-al-jawzi] }
+provenance:
+  layer: own-research
+  source: "المنتظم لابن الجوزي (ط حيدرآباد 1357، ج5، سنة 258)، قراءة آبل فيجن"
+  generated_by: "Devin (SWE-2 Medium) from Apple Vision OCR"
+  run: lib-muntazam-258-349-batch31
+sources: [source/muntazam-ibn-al-jawzi]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 Medium)" }
