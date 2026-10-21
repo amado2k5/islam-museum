@@ -20,17 +20,17 @@ The static JSON API repeats the licence of each record in a `license` field. Att
    git clone https://github.com/amado2k5/islam-museum.git
    ```
    Source of truth: `data/<class>/<slug>.yaml` (facts) and `content/<lang>/<class>/<slug>.md` (prose). YAML is a superset of JSON; any YAML library reads it.
-2. **Fetch the static JSON API** from the live site, one file per record or one file per class. No key, no rate limit beyond the CDN's, CORS-neutral static files:
+2. **Fetch the static JSON API**, one file per record or one file per class, served from the museum's own storage at `api.islam.museum` (since 21 October 2026; the older `islam.museum/api/v1/...` addresses answer with a permanent redirect to the same files). No key, no rate limit beyond the CDN's, CORS-neutral static files:
    | URL | Contents |
    |---|---|
-   | `https://islam.museum/api/v1/meta/index.json` | API version, generation date, list of classes, licences |
-   | `https://islam.museum/api/v1/meta/coverage.json` | Counts by class, wing, period, region, review status |
-   | `https://islam.museum/api/v1/<class>/index.json` | Compact rows for every record of a class (id, labels, summaries, dates, coordinates, Wikidata id, review status) |
-   | `https://islam.museum/api/v1/<class>/<slug>.json` | Full record: all data fields, resolved labels, outgoing `connections`, computed `related` list, licences |
-   | `https://islam.museum/api/v1/graph/nodes.ndjson` | Every node, one compact JSON object per line |
-   | `https://islam.museum/api/v1/graph/edges.ndjson` | Every forward edge, one JSON object per line (`from`, `to`, `type`, time span, sources) |
-   | `https://islam.museum/api/v1/graph/<class>/<slug>.json` | Two-hop neighbourhood of a record (at most 40 nodes) for network views |
-   | `https://islam.museum/api/v1/themes/index.json` | The 130-odd themes with the ids of their entries |
+   | `https://api.islam.museum/api/v1/meta/index.json` | API version, generation date, list of classes, licences |
+   | `https://api.islam.museum/api/v1/meta/coverage.json` | Counts by class, wing, period, region, review status |
+   | `https://api.islam.museum/api/v1/<class>/index.json` | Compact rows for every record of a class (id, labels, summaries, dates, coordinates, Wikidata id, review status) |
+   | `https://api.islam.museum/api/v1/<class>/<slug>.json` | Full record: all data fields, resolved labels, outgoing `connections`, computed `related` list, licences |
+   | `https://api.islam.museum/api/v1/graph/nodes.ndjson` | Every node, one compact JSON object per line |
+   | `https://api.islam.museum/api/v1/graph/edges.ndjson` | Every forward edge, one JSON object per line (`from`, `to`, `type`, time span, sources) |
+   | `https://api.islam.museum/api/v1/graph/<class>/<slug>.json` | Two-hop neighbourhood of a record (at most 40 nodes) for network views |
+   | `https://api.islam.museum/api/v1/themes/index.json` | The 130-odd themes with the ids of their entries |
    | `https://islam.museum/llms.txt` | Plain-text index of every entry with its URL, for language models and crawlers |
    | `https://islam.museum/sitemap-index.xml` | Sitemap of every page in every language |
 3. **Build the API yourself** from a clone, which also gives you the derived files the site uses:
