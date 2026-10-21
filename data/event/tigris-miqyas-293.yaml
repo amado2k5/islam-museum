@@ -1,0 +1,21 @@
+id: event/tigris-miqyas-293
+class: event
+kind: other
+label: { ar: "نصب المقياس على دجلة" }
+summary:
+  ar: "في سنة ثلاث وتسعين ومائتين نُصب المقياس على دجلة من جانبيها طوله خمس وعشرون ذراعًا، على كل ذراع علامة مدوّرة وعلى كل خمس أذرع علامة مربعة مكتوب عليها بحديدة تُعرف بها مبالغ الزيادات {cite:muntazam-ibn-al-jawzi p. 349}."
+  en: "In 293 a gauge was set up on the Tigris spanning both banks, twenty-five cubits long — a round mark at each cubit and a square mark every five, with iron inscriptions, to read the river's rises {cite:muntazam-ibn-al-jawzi p. 349}."
+wings: [time]
+periods: [period/abbasid-early]
+regions: [levant-iraq]
+date:
+  start: { edtf: "0905~", hijri: "0293", calendar: julian, precision: year, status: tradition, derived: true, note: "٢٩٣؛ التحويل مشتق {cite:muntazam-ibn-al-jawzi p. 349}." }
+relations:
+  - { type: occurred_at, target: place/baghdad, sources: [source/muntazam-ibn-al-jawzi] }
+provenance:
+  layer: own-research
+  source: "المنتظم لابن الجوزي (ط حيدرآباد 1357، ج6، سنة 293)، قراءة آبل فيجن"
+  generated_by: "Devin (SWE-2 Medium) from Apple Vision OCR"
+  run: lib-muntazam-258-349-batch28
+sources: [source/muntazam-ibn-al-jawzi]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 Medium)" }
