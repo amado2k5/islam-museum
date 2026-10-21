@@ -45,7 +45,13 @@ const endpoint = process.env.ENDPOINT;
 // SYNC_URLS: comma-separated Worker URLs. Falls back to SYNC_URL (one Worker).
 const workerUrls = (process.env.SYNC_URLS ?? process.env.SYNC_URL ?? "").split(",").filter(Boolean);
 const parallel = Number(process.env.PARALLEL ?? workerUrls.length * 6);
+// Operations per batch. After each batch the publish closes its connections and pauses,
+// so the Workers and the runner can release resources. A single run of the full site
+// (about 210,000 files) was stopped by the runner partway through.
+const BATCH_OPS = Number(process.env.BATCH_OPS ?? 20000);
+const BATCH_PAUSE_MS = Number(process.env.BATCH_PAUSE_MS ?? 5000);
 const log = (msg) => console.log(`[r2-publish] ${msg}`);
+const sleep = (ms) => new Promise((resolve) => setTimeout(resolve, ms));
 
 const sha = (bytes) => createHash("sha256").update(bytes).digest("hex");
 
@@ -154,6 +160,9 @@ async function postWithRetry(workerUrl, stagedKey, name) {
     const started = Date.now();
     try {
       const result = await postProcess(workerUrl, stagedKey);
+      // A 5xx reply means the Worker or the edge failed, not the archive: retry it like a
+      // dropped connection. A 4xx reply is final and is reported by applyArchive.
+      if (result.status >= 500) throw new Error(`worker answered ${result.status} ${JSON.stringify(result.report)}`);
       if (attempt > 1 && result.status === 400 && /archive not found/.test(JSON.stringify(result.report))) {
         log(`${name}: already applied by an earlier attempt`);
         return { status: 200, report: { summary: { already_applied: true } } };
@@ -185,6 +194,9 @@ function postProcess(workerUrl, archive) {
   return new Promise((resolve, reject) => {
     const req = send(url, {
       method: "POST",
+      // agent: false opens a new connection per request and closes it after the reply,
+      // so no idle sockets stay open between batches.
+      agent: false,
       headers: {
         authorization: `Bearer ${process.env.SYNC_TOKEN}`,
         "content-type": "application/json",
@@ -250,28 +262,41 @@ async function main() {
 
   // Archives go to the Workers in SYNC_URLS in turn, PARALLEL at a time.
   // PARALLEL defaults to six per Worker: each Worker invocation can hold six R2 connections.
+  // Operations are published in batches of BATCH_OPS. Each batch is packed into archives
+  // only when it starts, so memory holds one batch of archives at a time.
+  // Archives go to the Workers in SYNC_URLS in turn, PARALLEL at a time.
+  // PARALLEL defaults to six per Worker: each Worker invocation can hold six R2 connections.
   const dir = mkdtempSync(join(tmpdir(), "r2-publish-"));
-  const archives = packArchives(ops, { namePrefix: `publish-${Date.now()}` });
-  let nextArchive = 0;
+  const stamp = Date.now();
+  const batches = Math.ceil(ops.length / BATCH_OPS);
   let applied = 0;
-  const total = archives.length;
-  log(`${total} archives, ${parallel} in parallel across ${workerUrls.length} workers`);
-  const runner = async () => {
-    while (nextArchive < archives.length) {
-      const i = nextArchive;
-      nextArchive += 1;
-      const progress = `[${i + 1}/${total}]`;
-      try {
-        await applyArchive(archives[i], dir, workerUrls[i % workerUrls.length], progress);
-      } catch (err) {
-        // Other archives may still be in flight, so say how far the run got before rethrowing.
-        log(`${progress} ${archives[i].name} failed; ${applied} of ${total} archives applied so far`);
-        throw err;
+  for (let b = 0; b < batches; b += 1) {
+    const batchOps = ops.slice(b * BATCH_OPS, (b + 1) * BATCH_OPS);
+    const archives = packArchives(batchOps, { namePrefix: `publish-${stamp}-b${b}` });
+    const total = archives.length;
+    let nextArchive = 0;
+    log(`batch ${b + 1}/${batches}: ${batchOps.length} operations in ${total} archives, ${parallel} in parallel across ${workerUrls.length} workers`);
+    const runner = async () => {
+      while (nextArchive < archives.length) {
+        const i = nextArchive;
+        nextArchive += 1;
+        const progress = `[batch ${b + 1}/${batches} ${i + 1}/${total}]`;
+        try {
+          await applyArchive(archives[i], dir, workerUrls[i % workerUrls.length], progress);
+        } catch (err) {
+          // Other archives may still be in flight, so say how far the run got before rethrowing.
+          log(`${progress} ${archives[i].name} failed; ${applied} archives applied so far in this run`);
+          throw err;
+        }
+        applied += 1;
       }
-      applied += 1;
+    };
+    await Promise.all(Array.from({ length: Math.min(parallel, archives.length) }, runner));
+    if (b + 1 < batches) {
+      log(`batch ${b + 1}/${batches} applied; pausing ${BATCH_PAUSE_MS / 1000}s before the next batch`);
+      await sleep(BATCH_PAUSE_MS);
     }
-  };
-  await Promise.all(Array.from({ length: Math.min(parallel, archives.length) }, runner));
+  }
 
   // commit: the build this manifest describes, recorded for tracing (null outside CI).
   const next = { version: 1, commit: process.env.GITHUB_SHA ?? null, files: Object.fromEntries([...desired].map(([key, f]) => [key, f.sha])) };
