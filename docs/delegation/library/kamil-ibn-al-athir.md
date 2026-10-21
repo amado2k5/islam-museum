@@ -41,3 +41,7 @@ Same as lib-fihrist: read page ranges, reuse entities, create person/place/event
 - New events: `qalat-jabar-564` (Nūr al-Dīn's negotiated purchase; "العز فارقناه بالقلعة"), `shawar-killed-shirkuh-vizier-564`, `death-of-shirkuh-564`, `nur-al-din-karak-565`, `death-qutb-al-din-mawdud-565`, `death-mustanjid-566`, `nur-al-din-mosul-567`, `nur-saladin-rift-568`, `khita-jayhun-568`, `death-ibn-mardanish-568`, `shamla-fars-566`, `ildigiz-rayy-566`; Arabic prose for all twelve.
 - New stubs: qalat-jabar, jayhun, majd-al-din-ibn-al-daya, shihab-al-din-malik-al-aqili, yusuf-ibn-abd-al-mumin, shamla-turki, qara-khitay, salghurids.
 - Scan is a late volume covering Nur al-Din's last decade, Saladin, the Ayyubid succession and the Mongol irruption through ~AH 629.
+
+### V12 — batch 02 (AH 569–579)
+- New events: `franks-banias-569` (Ibn al-Muqaddam's bluff), `al-salih-taken-aleppo-569` (Kumashtakin's coup), `death-of-amalric-569` (Baldwin IV, Raymond regent), `saladin-aleppo-570` (the boy-king's speech, Sinān's fedayeen, Khumārtakīn's eye), `saladin-homs-hama-573`, `sayf-al-din-sinjar-573`, `saladin-barin-573`, `bahlawan-tabriz-573`, `death-shamla-573`, `mecca-amir-fitna-574`, `ajam-earthquake-574`, `kumashtikin-killed-harim-576`, `taqi-al-din-routs-qilij-arslan-579` (1,000 vs 20,000), `death-mustadi-575` (al-Nāṣir's 47-year caliphate opens); Arabic prose ×14.
+- Stubs: kumashtikin, raymond-iii, amalric-i, baldwin-iv, bahlawan, banias, barin, harim, al-ahzan.

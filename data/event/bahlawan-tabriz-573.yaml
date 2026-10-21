@@ -1,0 +1,20 @@
+id: event/bahlawan-tabriz-573
+class: event
+kind: conquest
+label: { ar: "ملك البهلوان مدينة تبريز", en: "al-Bahlawān takes Tabrīz" }
+date:
+  start: { edtf: "1177~", hijri: "0573", calendar: julian, precision: year, status: tradition, derived: true }
+summary:
+  ar: "ملك البهلوان بن إيلدكز مدينة تبريز، وكانت من كور أذربيجان، بعد أبيه في ملكها وما والاها {cite:kamil-ibn-al-athir p. 70}."
+  en: "Muḥammad al-Bahlawān ibn Īldigiz took Tabrīz in Azerbaijan, succeeding his father's hold on it and its dependencies {cite:kamil-ibn-al-athir p. 70}."
+relations:
+  - { type: occurred_at, target: place/tabriz, sources: [source/kamil-ibn-al-athir] }
+  - { type: had_participant, target: person/bahlawan-ildigizi, sources: [source/kamil-ibn-al-athir] }
+  - { type: had_participant, target: person/shams-al-din-ildigiz, role: "أبوه", sources: [source/kamil-ibn-al-athir] }
+provenance:
+  layer: own-research
+  source: "الكامل في التاريخ لابن الأثير، قراءة آبل فيجن"
+  generated_by: "Devin (SWE-2 Medium) from Apple Vision OCR"
+  run: lib-kamil-v12-batch02
+sources: [source/kamil-ibn-al-athir]
+status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 Medium)" }
