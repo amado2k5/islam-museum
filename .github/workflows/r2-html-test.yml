@@ -1,0 +1,74 @@
+# TEST: builds the site, publishes all R2-served files (search, API and HTML) to the TEST bucket,
+# and deploys the HTML Worker to a workers.dev test URL. Never touches production or islam.museum.
+name: R2 HTML test (manual)
+
+on:
+  push:
+    branches: [feat/html-from-r2]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: r2-html-test
+  cancel-in-progress: false
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    timeout-minutes: 360
+    env:
+      CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+      CLOUDFLARE_ACCOUNT_ID: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+          cache-dependency-path: |
+            package-lock.json
+            site/package-lock.json
+      - name: Install
+        run: npm ci && npm ci --prefix site && npm ci --prefix workers/r2-sync
+      - name: Unit tests (route logic)
+        run: node --test workers/site/test/route.test.mjs
+      - name: Build
+        run: npm run build
+      - name: Deploy test sync Worker (test bucket, adds ar/en/ur prefixes)
+        working-directory: workers/r2-sync
+        env:
+          SYNC_TOKEN: ${{ secrets.R2_SYNC_TEST_TOKEN }}
+        run: |
+          set -euo pipefail
+          npx wrangler deploy -c wrangler.toml
+          printf '%s' "$SYNC_TOKEN" | npx wrangler secret put SYNC_TOKEN -c wrangler.toml
+      - name: Publish all R2-served files to the test bucket
+        env:
+          AWS_ACCESS_KEY_ID: ${{ secrets.R2_SYNC_TEST_ACCESS_KEY_ID }}
+          AWS_SECRET_ACCESS_KEY: ${{ secrets.R2_SYNC_TEST_SECRET_ACCESS_KEY }}
+          AWS_DEFAULT_REGION: auto
+          ENDPOINT: https://${{ secrets.CLOUDFLARE_ACCOUNT_ID }}.r2.cloudflarestorage.com
+          BUCKET: islam-museum-sync-test
+          PUBLISH_HTML: "1"
+          SYNC_URL: ${{ secrets.R2_SYNC_TEST_URL }}
+          SYNC_TOKEN: ${{ secrets.R2_SYNC_TEST_TOKEN }}
+        run: node workers/r2-sync/batch/publish.mjs --dist dist --seed
+      - name: Build assets-only folder (no R2-served directories)
+        run: |
+          rm -rf dist-assets && cp -r dist dist-assets
+          rm -rf dist-assets/ar dist-assets/en dist-assets/ur dist-assets/api dist-assets/pagefind-ar dist-assets/pagefind-en dist-assets/pagefind-ur
+          echo "assets: $(find dist-assets -type f | wc -l) files"
+      - name: Deploy HTML test Worker (workers.dev, test bucket)
+        working-directory: workers/site
+        run: ../r2-sync/node_modules/.bin/wrangler deploy -c wrangler.test.toml
+      - name: Smoke test the test Worker
+        run: |
+          set -u
+          base=https://islam-museum-site-test.ahamdy.workers.dev
+          echo "Worker: $base"
+          for p in /ar/ /en/ /ur/ /ar/person/muhammad/ /en/person/muhammad/ /brand/logo-mark.svg /404.html; do
+            echo "$p $(curl -s -o /dev/null -w '%{http_code}' "$base$p")"
+          done
+          echo "/ar/person/muhammad $(curl -s -o /dev/null -w '%{http_code} %{redirect_url}' "$base/ar/person/muhammad")"
