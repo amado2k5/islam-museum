@@ -16,4 +16,25 @@ Top of `empty-records-priority.md`, class `building` missing list is rank-sorted
 
 ## Batches
 
-_None yet — lane opened 21 Oct 2026._
+### 001 — 21 Oct 2026 (commit in this push)
+
+Trilingual prose (ar+en+ur) for 13 `person` entities at the linked-head of the report. Sources read on the page in the harvest OCR library:
+
+- `person/nafi-mawla-ibn-umar` (560 inbound) — wafayat-ayan, ihsan-abbas v5 tarjama (unpaged OCR → bare cite)
+- `person/hisham-ibn-urwa` (489) — wafayat-ayan v6 tarjama (bare cite)
+- `person/zayd-ibn-khalid-al-juhani` (32) — ibn-hajar-isaba p.515
+- `person/muhammad-ibn-al-munkadir` — deferred: entry not yet located on the page
+- `person/abu-bakr-ibn-abd-al-rahman-ibn-al-harith`, `person/amr-ibn-shuayb`, `person/malik-ibn-abi-amir-al-asbahi` — deferred to next batch
+- `person/abu-umama-ibn-sahl-ibn-hunayf` (24) — ibn-hajar-isaba p.1620-1
+- `person/sahl-ibn-hunayf` (14) — usd-al-ghaba p.364-5
+- `person/abu-qatada-al-ansari` (12) — ibn-hajar-isaba p.1747
+- `person/abu-waqid-al-laythi` (12) — ibn-hajar-isaba p.268
+- `person/amir-ibn-rabia` — deferred: his isti-ab/usd-ghaba entry not yet pulled
+- `person/abdallah-ibn-abdallah-ibn-umar` (8) — ibn-hajar-isaba p.908
+- `person/abd-al-rahman-ibn-kab-ibn-malik` (8) — ibn-hajar-isaba p.823
+- `person/suhayl-ibn-bayda` (7) — ibn-hajar-isaba p.629
+- `person/umm-kulthum-bint-abi-bakr` (5) — ibn-hajar-isaba p.2030-1
+- `person/asim-ibn-umar` (4) — ibn-hajar-isaba p.746
+- `person/abu-humayd-al-saidi` (4) — ibn-hajar-isaba p.1653
+
+Validation: 0 errors; tests pass; coverage regenerated. Urdu translations shipped in the same commit per AGENTS.md.
