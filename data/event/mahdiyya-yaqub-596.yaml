@@ -1,0 +1,20 @@
+id: event/mahdiyya-yaqub-596
+class: event
+kind: revolt
+label: { ar: "عصيان أهل المهدية على يعقوب وطاعتها لولده محمد", en: "al-Mahdiyya revolts from Yaqub to his son Muhammad" }
+date:
+  start: { edtf: "1199~", hijri: "0596", calendar: julian, precision: year, status: tradition, derived: true }
+summary:
+  ar: "عصى أهل المهدية على يعقوب المنصور بن عبد المؤمن وأظهروا الطاعة لولده محمد، وكان يعقوب قد جعل لابنه حظًّا في الملك فانقادت إليه الثغور {cite:kamil-ibn-al-athir p. 259}."
+  en: "Al-Mahdiyya rose against the Almohad Yaqub al-Mansur and declared for his son Muhammad — the father had already given the son a share of rule, and the coast-towns obeyed him {cite:kamil-ibn-al-athir p. 259}."
+relations:
+  - { type: occurred_at, target: place/mahdiyya, sources: [source/kamil-ibn-al-athir] }
+  - { type: had_participant, target: person/yaqub-al-mansur, sources: [source/kamil-ibn-al-athir] }
+  - { type: had_participant, target: person/muhammad-al-nasir-almohad, role: "المطاع", sources: [source/kamil-ibn-al-athir] }
+provenance:
+  layer: own-research
+  source: "الكامل في التاريخ لابن الأثير، قراءة آبل فيجن"
+  generated_by: "Devin (SWE-2 Medium) from Apple Vision OCR"
+  run: lib-kamil-v12-batch04
+sources: [source/kamil-ibn-al-athir]
+status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 Medium)" }

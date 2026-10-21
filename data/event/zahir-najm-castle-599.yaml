@@ -1,0 +1,20 @@
+id: event/zahir-najm-castle-599
+class: event
+kind: conquest
+label: { ar: "أخذ الظاهر قلعة نجم من أخيه الأفضل", en: "al-Zahir takes Qal'at Najm from his brother al-Afdal" }
+date:
+  start: { edtf: "1202~", hijri: "0599", calendar: julian, precision: year, status: tradition, derived: true }
+summary:
+  ar: "أخذ الملك الظاهر غازي بن صلاح الدين قلعة نجم على الفرات من أخيه الأفضل علي، وكان العادل قد أقطعها الأفضل تعويضًا عما فقد من مصر {cite:kamil-ibn-al-athir p. 283}."
+  en: "Al-Zahir Ghazi ibn Saladin took the Euphrates castle of Najm from his brother al-Afdal — which al-Adil had granted him in compensation for lost Egypt {cite:kamil-ibn-al-athir p. 283}."
+relations:
+  - { type: occurred_at, target: place/qalat-najm, sources: [source/kamil-ibn-al-athir] }
+  - { type: had_participant, target: person/al-malik-al-zahir, sources: [source/kamil-ibn-al-athir] }
+  - { type: had_participant, target: person/al-malik-al-afdal-ali, role: "المأخوذة منه", sources: [source/kamil-ibn-al-athir] }
+provenance:
+  layer: own-research
+  source: "الكامل في التاريخ لابن الأثير، قراءة آبل فيجن"
+  generated_by: "Devin (SWE-2 Medium) from Apple Vision OCR"
+  run: lib-kamil-v12-batch04
+sources: [source/kamil-ibn-al-athir]
+status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 Medium)" }
