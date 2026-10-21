@@ -16,3 +16,4 @@
 - **Trademark:** no registered trademark. The name "islam.museum" and the emblem (`site/public/brand/`, described on the Foundation page) identify the project; the brand files are published so that partners can refer to it accurately.
 - **Legal entity:** none yet. Incorporation as a Canadian not-for-profit is in progress so that grants, prizes and partnerships can be received by an institution rather than an individual. Until then, agreements are made with the founder personally, and this file will be updated the day the entity exists. No entity name is to be used before that.
 - **Applicable law and contact:** Canada and Ontario. Contact for ownership, licensing, privacy and takedown questions: discover@islam.museum.
+- **Identifiers:** the project's Wikidata item is [Q141801006](https://www.wikidata.org/wiki/Q141801006), declared as `sameAs` in the homepage's structured data.
