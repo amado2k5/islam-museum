@@ -2,13 +2,10 @@
 id: person/nafi-al-madani
 lang: en
 source_lang: ar
-translators: ["Claude Haiku 5.5 (claude-haiku-5-5), draft translation"]
+translators: []
 ---
+## In brief
+Abu Ruwaym Nafi' b. Abd al-Rahman b. Abi Nu'aym, mawla of Ja'una, the Medinan qur'an-reader, one of the Seven Readers; al-Asma'i says his origin was Isfahan, as the hadith master Abu Nu'aym relates in his Tarikh Isbahan. {cite:wafayat-ayan}
 
-## Overview
-Nafi ibn Abd al-Rahman ibn Abi Na'im al-Madani, one of the seven readers of the Qur'an. {cite:fihrist-ibn-al-nadim p.72}
-
-## His transmission
-Ibn al-Nadim relates that al-Asma'i narrated from him that he said: "My origin is from Isfahan." {cite:fihrist-ibn-al-nadim p.72}
-
-His transmission was also narrated by Isa ibn Mina Qalun, Muhammad ibn Ishaq al-Musayyabi, al-Asma'i, Isma'il ibn Ja'far al-Ansari, and Ya'qub ibn Ibrahim al-Zuhri. {cite:fihrist-ibn-al-nadim p.72}
+## His reading
+He was the imam of the Medinans in qur'an-reading, the reader to whose recitation people came and to whose selection they returned, belonging to the second layer after the Companions; he was dark-skinned and given to playfulness. He read under Umm Salama's client, and had the zawiya at Quba' mentioned above; Ibn Abi Uways reports that Malik told him he had read under Nafi'. {cite:wafayat-ayan}

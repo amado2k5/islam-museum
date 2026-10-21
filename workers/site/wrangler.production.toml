@@ -1,0 +1,22 @@
+# Production deployment of the R2-backed HTML Worker. Deployed by deploy.yml on every
+# push to main, on its workers.dev URL only: no route is set here. Attaching the
+# islam.museum/* route is a separate, approved step (dashboard), and removing the
+# route is the rollback.
+name = "islam-museum-site"
+main = "src/index.js"
+compatibility_date = "2025-10-11"
+
+[observability]
+enabled = true
+
+[assets]
+# CI copies dist without the R2-served directories (ar, en, ur, api, pagefind-*)
+# into dist-assets; see deploy.yml. About 1,600 files.
+directory = "../../dist-assets"
+binding = "ASSETS"
+# Only these paths run the Worker; all other requests are served straight from assets.
+run_worker_first = ["/ar/*", "/en/*", "/ur/*"]
+
+[[r2_buckets]]
+binding = "SITE_BUCKET"
+bucket_name = "islam-museum-search"

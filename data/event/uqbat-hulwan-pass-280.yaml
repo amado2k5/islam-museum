@@ -1,0 +1,22 @@
+id: event/uqbat-hulwan-pass-280
+class: event
+kind: other
+label: { ar: "تسهيل عقبة حلوان" }
+summary:
+  ar: "في سنة ثمانين ومائتين أمر المعتضد بالله بتسهيل عقبة حلوان فسُهّلت وأُنفق عليها عشرون ألف دينار، وكان الناس يلقون منها مشقة شديدة {cite:muntazam-ibn-al-jawzi p. 143}."
+  en: "In 280 AH al-Mu'tadid ordered the Hulwan pass leveled at a cost of twenty thousand dinars — travelers had long suffered its hardship {cite:muntazam-ibn-al-jawzi p. 143}."
+wings: [time]
+periods: [period/abbasid-early]
+regions: [levant-iraq]
+date:
+  start: { edtf: "0893~", hijri: "0280", calendar: julian, precision: year, status: tradition, derived: true, note: "٢٨٠؛ التحويل مشتق {cite:muntazam-ibn-al-jawzi p. 143}." }
+relations:
+  - { type: occurred_at, target: place/hulwan, sources: [source/muntazam-ibn-al-jawzi] }
+  - { type: had_participant, target: person/al-mutadid, role: "الخليفة الآمر", sources: [source/muntazam-ibn-al-jawzi] }
+provenance:
+  layer: own-research
+  source: "المنتظم لابن الجوزي (ط حيدرآباد 1357، ج5 ق2، سنة 280)، قراءة آبل فيجن"
+  generated_by: "Devin (SWE-2 Medium) from Apple Vision OCR"
+  run: lib-muntazam-258-349-batch27
+sources: [source/muntazam-ibn-al-jawzi]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 Medium)" }

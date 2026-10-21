@@ -3,8 +3,9 @@
 // Poses: greet (one wing raised, waving), think (wing up by the head +
 // thought dots), celebrate (both wings up + gold motion arcs).
 // Decorative by default (aria-hidden); pass `label` for role="img".
-// Clip-path IDs get a random per-instance suffix so multiple Hudhuds on one
-// page never collide.
+// Clip-path IDs get a per-instance suffix (the instance's index on its page)
+// so multiple Hudhuds on one page never collide, and the same page renders
+// the same bytes on every build (no randomness at build time).
 interface Props {
   pose?: "greet" | "think" | "celebrate";
   size?: number;
@@ -12,7 +13,12 @@ interface Props {
 }
 const { pose = "greet", size = 120, label } = Astro.props;
 
-const uid = `hudhud-${Math.random().toString(36).slice(2, 10)}`;
+// One counter per rendered page, in render order (kept on globalThis: this frontmatter runs once per instance).
+const perPage: Map<string, number> = ((globalThis as any).__hudhudPerPage ??= new Map());
+const page = Astro.url.pathname;
+const index = (perPage.get(page) ?? 0) + 1;
+perPage.set(page, index);
+const uid = `hudhud-${index}`;
 const wingClip = `wingclip-${uid}`;
 const wingClip2 = `wingclip2-${uid}`;
 const tailClip = `tailclip-${uid}`;

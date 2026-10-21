@@ -1,0 +1,21 @@
+id: event/prison-riot-306
+class: event
+kind: other
+label: { ar: "شغب السجن الجديد وكسر حبوس مدينة المنصور" }
+summary:
+  ar: "في سنة ست وثلاثمائة شغب أهل السجن الجديد وصعدوا السور، فركب نزاد صاحب الشرطة وحاربهم وقتل منهم واحدًا ورمى برأسه إليهم فسكنوا؛ وفي سنة سبع وثلاثمائة كسرت العامة الحبوس بمدينة المنصور فأفلت من كان فيها، وكانت أبواب المدينة الحديد باقية فعلُّقت وتتبع أصحاب الشرط من أفلت فلم يفتهم أحد {cite:muntazam-ibn-al-jawzi p. 439, 446}."
+  en: "In 306 the New Prison's inmates rioted and scaled the wall; the police chief Nazad fought them, killed one and threw his head back at them. In 307 the mob broke the prisons of al-Madina — the escapees were all rounded up, the iron gates left hanging {cite:muntazam-ibn-al-jawzi p. 439, 446}."
+wings: [time]
+periods: [period/abbasid-early]
+regions: [levant-iraq]
+date:
+  start: { edtf: "0918~", hijri: "0306", calendar: julian, precision: year, status: tradition, derived: true, note: "٣٠٦–٣٠٧؛ التحويل مشتق {cite:muntazam-ibn-al-jawzi p. 439, 446}." }
+relations:
+  - { type: occurred_at, target: place/baghdad, sources: [source/muntazam-ibn-al-jawzi] }
+provenance:
+  layer: own-research
+  source: "المنتظم لابن الجوزي (ط حيدرآباد 1357، ج6، سنة 306–307)، قراءة آبل فيجن"
+  generated_by: "Devin (SWE-2 Medium) from Apple Vision OCR"
+  run: lib-muntazam-258-349-batch29
+sources: [source/muntazam-ibn-al-jawzi]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 Medium)" }

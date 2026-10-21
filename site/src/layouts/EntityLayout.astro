@@ -8,7 +8,7 @@ import JourneyPlayer from "../components/JourneyPlayer.astro";
 import Pathway from "../components/Pathway.astro";
 import PageHeader from "../components/PageHeader.astro";
 import ExploreBar from "../components/ExploreBar.astro";
-import { byId, buildDate, href, labelOf, summaryOf, summaryRaw, related, REPO, SITE } from "../lib/graph";
+import { byId, href, labelOf, summaryOf, summaryRaw, related, updatedOn, REPO, SITE } from "../lib/graph";
 import { ui, fmt, LANGS, WINGS, wingHref, type Lang } from "../lib/i18n";
 import { renderProse, newHonState } from "../lib/markdown";
 import { formatDate } from "../lib/dates";
@@ -105,7 +105,7 @@ const alternates = Object.fromEntries(LANGS.map((l) => [l, href(l, n.id)]));
 const altNames = [...new Set([...Object.values(n.label), ...(d.names ?? []).map((x: any) => x.value), ...n.aliases.map((a) => a.split("/")[1].replace(/-/g, " "))])].filter((x) => x !== title);
 const wingChips = n.wings.filter((w) => (WINGS as readonly string[]).includes(w));
 const wishUrl = `${REPO}/issues/new?template=request-translation.yml&title=${encodeURIComponent(`Translate ${n.id} to ${lang}`)}`;
-const citeText = fmt(T.entity.cite_text, { title, url: `${SITE}${path}`, date: buildDate });
+const citeText = fmt(T.entity.cite_text, { title, url: `${SITE}${path}`, date: updatedOn(n, lang) });
 const relatedIds = related(n.id).filter((r) => byId.has(r));
 const crumbs = [
   { label: T.entity.breadcrumb, href: `/${lang}/` },
@@ -232,7 +232,7 @@ const showGraph = n.degree > 0 && !(n.class === "passage" && d.unit === "ayah" &
         {groups.length > 0 && (
           <section data-role="main" class="sec ui" aria-labelledby="conn">
             <h2 id="conn">{T.entity.connections}</h2>
-          {showGraph && <p class="ui no-print" style="margin:0 0 10px"><a class="chip" style="border:1px solid var(--gold)" href={`/${lang}/graph/?from=${n.id}`}>{T.graph.explore_link} <span class="flip" aria-hidden="true">→</span></a></p>}
+          {showGraph && <p class="ui no-print" style="margin:0 0 10px"><a class="chip" style="border:1px solid var(--gold)" rel="nofollow" href={`/${lang}/graph/?from=${n.id}`}>{T.graph.explore_link} <span class="flip" aria-hidden="true">→</span></a></p>}
             <dl style="display:grid;grid-template-columns:minmax(120px,max-content) 1fr;gap:8px 18px;margin:0">
               {groups.map((g) => (
                 <>

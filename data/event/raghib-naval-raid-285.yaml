@@ -1,0 +1,26 @@
+id: event/raghib-naval-raid-285
+class: event
+kind: naval-battle
+label: { ar: "غزوة راغب مولى الموفق البحرية" }
+summary:
+  ar: "ورد الخبر لثلاث خلون من شعبان سنة خمس وثمانين ومائتين أن راغبًا الخادم مولى الموفق غزا في البحر فأظفره الله بمراكب كثيرة وبجميع ما فيها من الروم، فضُربت أعناق ثلاثة آلاف منهم وأُحرقت المراكب وفُتح حصون كثيرة من حصون الروم {cite:muntazam-ibn-al-jawzi p. 295}."
+  en: "In Sha'ban 285 news came that Raghib, a mawla of al-Muwaffaq, had raided by sea and won: many Byzantine ships taken with all aboard, three thousand beheaded, the ships burned and numerous fortresses captured {cite:muntazam-ibn-al-jawzi p. 295}."
+wings: [time]
+periods: [period/abbasid-early]
+regions: [anatolia-balkans]
+sides:
+  - label: { ar: "أسطول المسلمين" }
+    commanders: [person/raghib-mawla-al-muwaffaq]
+  - label: { ar: "الروم" }
+map: { kind: naval, precision: approximate, center: [33.5, 35.5] }
+date:
+  start: { edtf: "0898-08~", hijri: "0285-08", calendar: julian, precision: month, status: tradition, derived: true, note: "شعبان ٢٨٥؛ التحويل مشتق {cite:muntazam-ibn-al-jawzi p. 295}." }
+relations:
+  - { type: had_participant, target: person/raghib-mawla-al-muwaffaq, role: "القائد", sources: [source/muntazam-ibn-al-jawzi] }
+provenance:
+  layer: own-research
+  source: "المنتظم لابن الجوزي (ط حيدرآباد 1357، ج5 ق2، سنة 285)، قراءة آبل فيجن"
+  generated_by: "Devin (SWE-2 Medium) from Apple Vision OCR"
+  run: lib-muntazam-258-349-batch27
+sources: [source/muntazam-ibn-al-jawzi]
+status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 Medium)" }

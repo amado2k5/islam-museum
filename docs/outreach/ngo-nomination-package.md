@@ -2,13 +2,26 @@
 
 _Prepared 19 October 2026, after the Canadian Commission for UNESCO replied that it abstains from supporting applications for the UNESCO prizes and that Canadian applicants should go through an NGO with official UNESCO partnership. The recommendation and contact details were checked on 19 October 2026 against UNESCO's September 2026 list of NGOs in official partnership and the sources noted. Confirm each contact before sending._
 
+## 0. Status log
+
+| Date | Organisation | What happened |
+|---|---|---|
+| 19 Oct 2026 | CCUNESCO | Replied: abstains from supporting UNESCO prize applications; use an NGO in official partnership. |
+| 19 Oct 2026 | ICOM | Request sent through the contact form (Executive Affairs); acknowledged automatically; no reply yet. |
+| 19 Oct 2026 | ICDE | Email sent. |
+| 21 Oct 2026 | ICDE | Replied: nominates only from its membership network; membership EUR 200 for an individual; not pursued. |
+| 21 Oct 2026 | Museums + Heritage Awards | Awards Director confirmed eligibility for "Best Digital Experience – Global"; entries open 2 Nov 2026, early-bird placeholder by 30 Nov (code EarlyBird, GBP 100 + VAT), deadline 29 Jan 2027; two ceremony tickets obligatory if shortlisted. Platform: mandhawards.awardsplatform.com (registered). |
+| 21 Oct 2026 | Arabic Language International Council | Contact found on its own site: info@alarabiah.org, +961 1 364 611. Email drafted; UNESCO status to confirm. |
+| 21 Oct 2026 | Sheikh Zayed Book Award | Contact form at zayedaward.ae/en/contact-us; portal alcawards.ae. Eligibility email drafted; deadline year unconfirmed. |
+| 21 Oct 2026 | Dossier | Second edition written on the current state of `main` (`unesco-nomination-dossier.md`); the API links now work (`api.islam.museum`). |
+
 ## 1. Recommendation
 
 Send the request first to the **International Council of Museums (ICOM)**. It is an NGO with associate status in official partnership with UNESCO, based in Paris, and it is the body whose members run the museums the prize would be judged against. Its address and form are below.
 
-Send the second request to the **International Council for Open and Distance Education (ICDE)**, in Norway, if ICOM does not nominate or cannot respond in time. ICDE is an NGO in consultative status with UNESCO, and its field is open learning, which matches the Education Prize and SDG 4. An earlier search showed ICDE as an NGO partner that screens candidates before forwarding them to UNESCO for the ICT in Education Prize; confirm this before relying on it.
+The **International Council for Open and Distance Education (ICDE)**, in Norway, replied on 21 October 2026 that it nominates only from its membership network and invited the museum to join (EUR 200 a year for an individual). Membership is not pursued unless the founder wants ICDE's education network for its own sake.
 
-The Arabic Language International Council (Lebanon, consultative status) fits the Arabic-first design, but I could not find a working contact for it. Do not send to it until you have one.
+The **Arabic Language International Council** (Beirut, consultative status on UNESCO's September 2026 list) fits the Arabic-first design; its own site gives info@alarabiah.org. Other sources describe it as intergovernmental, so the email asks it to confirm its UNESCO status (section 7b).
 
 ## 2. Contacts
 
@@ -16,7 +29,7 @@ The Arabic Language International Council (Lebanon, consultative status) fits th
 |---|---|---|---|---|
 | International Council of Museums (ICOM), General Secretariat | Associate (France) | 15 rue Lasson, 75012 Paris, France | Web form at https://icom.museum/en/contact-us, choose the department that fits best; telephone +33 (0)1 47 34 05 00 | No public email for nominations was found on the contact page. Use the form. If there is no reply in 10 working days, send one follow-up through the same form. |
 | International Council for Open and Distance Education (ICDE) | Consultative (Norway) | P.O. Box 202, 1372 Asker, Norway (an older page gives a visiting address at Pløens gate 2B, 0181 Oslo) | icde@icde.org; +47 22 06 26 33 | Use the email address. Do not post anything; the postal address is for reference only. |
-| Arabic Language International Council (ALIC) | Consultative (Lebanon) | Not confirmed | Not confirmed | Find the official website first. |
+| Arabic Language International Council (ALIC) | Consultative (Lebanon) | Beirut, Lebanon | info@alarabiah.org; +961 1 364 611 (from alarabiah.org, 21 Oct 2026) | Email only. Confirm its partnership status in the reply. |
 
 **Do not use** csp.applications@unesco.org. That mailbox is for applications to become an NGO in official partnership, not for nominations. ngo@unesco.org is for corrections to the partner list.
 
@@ -26,7 +39,7 @@ The prize page (https://www.unesco.org/en/prizes/sharjah) says "Nominations are 
 
 ## 4. Before anything is sent
 
-1. **Fix the API links.** Since the hosting move, `https://islam.museum/api/v1/*` returns 404. The dossier, the letter and the DPGA form all link to it. A reviewer who clicks a dead link will doubt the rest. Fix it or remove the links first (see `docs/outreach/unesco-nomination-dossier.md` A.6).
+1. **API links: fixed 21 October 2026.** The API is served at `https://api.islam.museum/api/v1/...` and the old `islam.museum/api/v1/...` addresses answer a 301 to it. Use the new host in anything new; old links keep working.
 2. **Refresh the figures.** The dossier figures are dated 17 October 2026. The current counts are on https://islam.museum/en/coverage/. The letter says so, and quotes no figure.
 3. **Rebuild the PDF** from the dossier after step 1, and check page one.
 4. **Check the letter header** carries your current email and telephone, and replace the date placeholder when you send.
@@ -115,6 +128,15 @@ Thank you,
 Ahmed Abdelaal
 Founder, islam.museum
 ahamdy@gmail.com · +1 416 827 9994
+
+## 7b. Email to the Arabic Language International Council
+
+To: info@alarabiah.org
+Subject: طلب خطاب ترشيح لموقع islam.museum | Request for a nomination letter for islam.museum
+
+السلام عليكم ورحمة الله وبركاته، أكتب إليكم من كندا بشأن موقع islam.museum، وهو متحف رقمي مفتوح ومجاني عن الحضارة الإسلامية، يبدأ باللغة العربية.
+
+Dear colleagues, I am writing to ask whether the Arabic Language International Council would provide a nomination letter for islam.museum (https://islam.museum) for the UNESCO-Sharjah Prize for Arab Culture, 22nd edition. The Canadian Commission for UNESCO has told me it does not support applications for the UNESCO prizes and suggested an NGO in official partnership with UNESCO. Four questions: (1) Is the Council an NGO in official partnership with UNESCO? (2) Does it nominate candidates for UNESCO prizes, and what must a nomination contain? (3) What is the deadline for the 22nd edition? (4) How can I submit a dossier electronically? With respect, Ahmed Abdelaal, Founder, islam.museum, ahamdy@gmail.com.
 
 ## 8. Follow-up
 

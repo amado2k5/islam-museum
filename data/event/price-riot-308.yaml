@@ -1,0 +1,22 @@
+id: event/price-riot-308
+class: event
+kind: other
+label: { ar: "فتنة الأسعار على باب حامد بن العباس" }
+summary:
+  ar: "في آخر سنة ثمان وثلاثمائة تحركت الأسعار فاضطربت العامة لذلك وقصدوا باب حامد بن العباس، فخرج إليهم غلمانه فحاربوهم فقتل من العوام جماعة، ومنعوا يوم الجمعة الإمام من الصلاة وهدموا المنابر وحطبوا مجالس الشرط وأحرقوا الحبوس، وأمر السلطان بمحاربة العوام فأُخذوا وضُربوا وفُسخ ضمان حامد وبِيع الخبز بنقصان خمسة دنانير فسكنوا؛ وفي تموز هذه السنة برد الهواء حتى نزل الناس من السطوح وتدثروا باللحف {cite:muntazam-ibn-al-jawzi p. 446}."
+  en: "At the end of 308 prices spiked and the mob surged on Hamid ibn al-Abbas's gate — his ghilman killed people, the Imam was barred from Friday prayer, minbars demolished, police platforms wrecked and prisons burned; the Sultan ordered them fought, Hamid's tax-farm was cancelled and bread sold five dinars lower; that July the air turned so cold people left the rooftops and wrapped themselves in quilts {cite:muntazam-ibn-al-jawzi p. 446}."
+wings: [time]
+periods: [period/abbasid-early]
+regions: [levant-iraq]
+date:
+  start: { edtf: "0920~", hijri: "0308", calendar: julian, precision: year, status: tradition, derived: true, note: "٣٠٨؛ التحويل مشتق {cite:muntazam-ibn-al-jawzi p. 446}." }
+relations:
+  - { type: occurred_at, target: place/baghdad, sources: [source/muntazam-ibn-al-jawzi] }
+  - { type: had_participant, target: person/hamid-ibn-al-abbas, role: "صاحب الباب", sources: [source/muntazam-ibn-al-jawzi] }
+provenance:
+  layer: own-research
+  source: "المنتظم لابن الجوزي (ط حيدرآباد 1357، ج6، سنة 308)، قراءة آبل فيجن"
+  generated_by: "Devin (SWE-2 Medium) from Apple Vision OCR"
+  run: lib-muntazam-258-349-batch29
+sources: [source/muntazam-ibn-al-jawzi]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 Medium)" }

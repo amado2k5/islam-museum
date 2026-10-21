@@ -1,0 +1,26 @@
+id: event/zanj-wasit-264
+class: event
+kind: conquest
+label: { ar: "دخول الزنج واسطًا" }
+summary:
+  ar: "في سنة أربع وستين ومائتين دخل الزنج واسطًا فأخلوا الناس البلد وخرجوا عنه حفاة على وجوههم، وكانوا يدخلون المنازل فيجدونها مفروشة، ومضى الناس وكان يأخذ أحدهم عما ملكه ورداءه فيشد به رجليه ويمشي، وضُربت واسط بالنار {cite:muntazam-ibn-al-jawzi p. 46}."
+  en: "In 264 AH the Zanj entered Wasit and emptied it — the people walked out barefoot while the rebels found houses still furnished; the town was struck with fire {cite:muntazam-ibn-al-jawzi p. 46}."
+wings: [time]
+periods: [period/abbasid-early]
+regions: [levant-iraq]
+sides:
+  - label: { ar: "الزنج" }
+  - label: { ar: "أهل واسط والدولة العباسية" }
+map: { kind: locator, precision: approximate, center: [46.03, 32.17] }
+date:
+  start: { edtf: "0878~", hijri: "0264", calendar: julian, precision: year, status: tradition, derived: true, note: "٢٦٤؛ التحويل مشتق {cite:muntazam-ibn-al-jawzi p. 46}." }
+relations:
+  - { type: occurred_at, target: place/wasit, sources: [source/muntazam-ibn-al-jawzi] }
+  - { type: had_participant, target: person/sahib-al-zanj, role: "زعيم الزنج", sources: [source/muntazam-ibn-al-jawzi] }
+provenance:
+  layer: own-research
+  source: "المنتظم لابن الجوزي (ط حيدرآباد 1357، ج5 ق2، سنة 264)، قراءة آبل فيجن"
+  generated_by: "Devin (SWE-2 Medium) from Apple Vision OCR"
+  run: lib-muntazam-258-349-batch26
+sources: [source/muntazam-ibn-al-jawzi]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 Medium)" }

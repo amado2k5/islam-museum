@@ -1,0 +1,21 @@
+id: event/hajj-ajfar-mud-281
+class: event
+kind: disaster-relief
+label: { ar: "غرق الحاج بوحل الأجفر سنة ٢٨١" }
+summary:
+  ar: "حجّ بالناس سنة إحدى وثمانين ومائتين محمد بن هارون، وأصاب الحاج بالأجفر مطر عظيم فمات منهم بشر كثير، وكان الرجل يغرق في الوحل فلا يقدر أحد على إخراجه {cite:muntazam-ibn-al-jawzi p. 147}."
+  en: "In the 281 pilgrimage a great rain struck the caravan at al-Ajfar; many perished, a man would sink into the mud and none could pull him out {cite:muntazam-ibn-al-jawzi p. 147}."
+wings: [time]
+periods: [period/abbasid-early]
+regions: [arabia]
+date:
+  start: { edtf: "0894~", hijri: "0281", calendar: julian, precision: year, status: tradition, derived: true, note: "٢٨١؛ التحويل مشتق {cite:muntazam-ibn-al-jawzi p. 147}." }
+relations:
+  - { type: occurred_at, target: place/mecca, sources: [source/muntazam-ibn-al-jawzi] }
+provenance:
+  layer: own-research
+  source: "المنتظم لابن الجوزي (ط حيدرآباد 1357، ج5 ق2، سنة 281)، قراءة آبل فيجن"
+  generated_by: "Devin (SWE-2 Medium) from Apple Vision OCR"
+  run: lib-muntazam-258-349-batch27
+sources: [source/muntazam-ibn-al-jawzi]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 Medium)" }

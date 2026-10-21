@@ -2,13 +2,10 @@
 id: person/zaynab-bint-abi-salama
 lang: en
 source_lang: ar
-translators: ["Devin (SWE-2), draft translation"]
+translators: []
 ---
-## Summary
-Born in the land of Abyssinia to her father Abu Salama and her mother Umm Salama; she came back with her mother. {cite:ibn-hisham-saqqa 4/10}
+## In brief
+Zaynab bint Abi Salama b. Abd al-Asad al-Makhzumiyya, stepdaughter of the Prophet and sister of Umar; the Mother of the Believers Umm Salama bore them in Abyssinia. {cite:siyar-alam-nubala-ideas-house p.1755}
 
-## In the Abyssinian emigrants chapter
-Ibn Ishaq names her daughter of Umm Salama bint Abi Umayya, saying her mother brought her back, having borne her there to Abu Salama. {cite:ibn-hisham-saqqa 4/10} He counts her among "their children at Abyssinia" of Banu Makhzum, and among the five females. {cite:ibn-hisham-saqqa 4/11}
-
-## Tribe
-She belongs, per Ibn Ishaq, to [[group/banu-makhzum|Banu Makhzum]] {cite:ibn-hisham-saqqa 4/10}
+## Her transmission
+She narrated from A'isha, Zaynab bint Jahsh, Umm Habiba, and a group; from her narrated Urwa b. al-Zubayr, Ali b. al-Husayn, al-Qasim b. Muhammad, Abu Qilaba al-Jarmi, Kulayb b. Wa'il, Muhammad b. Amr b. Ata', Ubaydallah b. Abdallah b. Utba, Irak b. Malik, her son Abu Ubayda b. Ubaydallah b. Zam'a, and others. Among her hadith is her report that the Messenger of God was at Umm Salama's when he placed al-Hasan on one side, al-Husayn on the other, and Fatima in his lap, saying "the mercy of God and His blessings upon you, People of the House". She died around 74 AH. {cite:siyar-alam-nubala-ideas-house p.1755}

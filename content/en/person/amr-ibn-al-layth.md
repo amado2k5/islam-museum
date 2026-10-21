@@ -2,11 +2,12 @@
 id: person/amr-ibn-al-layth
 lang: en
 source_lang: ar
-translators: ["Claude Haiku 5.5 (claude-haiku-5-5), draft translation"]
+translators: []
 ---
 ## Overview
-Amr ibn al-Layth al-Saffar, whom Isma'il ibn Ahmad captured in 287 AH. Al-Tabari says that al-Mu'tadid reproached him for it. {cite:tabari-tarikh-abu-al-fadl p.76} {cite:tabari-tarikh-abu-al-fadl p.77}
+'Amr ibn al-Layth al-Saffar, ruler of the Saffarid state after his brother Ya'qub; his rule ended when he fell captive to the Samanid Isma'il near Balkh. {cite:siyar-alam-nubala-ideas-house p.2970}
 
-Ibn al-Jawzi says that Isma'il came to him at Balkh, and he was defeated and captured. He relates from him his saying that if he wanted to build a bridge of gold over the river of Balkh he would do it, and that he carried his bedding and kitchen on six hundred camels. {cite:muntazam-ibn-al-jawzi p.309-310}
+## Capture and death
+His defeat came because the people of Balkh had grown weary of his soldiers and their injustice; Isma'il advanced, 'Amr's army broke and his mount mired, so he was taken. Isma'il embraced him, served him and took his oath, but al-Mu'tadid's envoy demanded him and Isma'il surrendered him. He was brought into Baghdad on a Bactrian camel, then imprisoned; the vizier al-Qasim ibn 'Ubaydallah killed him on the day of al-Mu'tadid's death in 289 AH, after a reign of more than twenty years. {cite:siyar-alam-nubala-ideas-house p.2970-2971}
 
-Al-Mas'udi says his gifts reached al-Mu'tadid in 283 AH, among them a hundred Khurasani riding camels, four million dirhams and a bronze statue. {cite:muruj-al-dhahab p.601-602}
+Al-Qushayri relates that 'Amr ibn al-Layth was seen in a dream and asked what God had done with him; he said: I once looked down from a mountain on my armies and wished I had stood with the Messenger of God to aid and support him — so God thanked me and forgave me. {cite:siyar-alam-nubala-ideas-house p.2971}

@@ -5,12 +5,13 @@
 // Usage: node workers/r2-sync/batch/publish.mjs --dist dist [--dry-run]
 // Env (dry-run needs none): SYNC_URL, SYNC_TOKEN, ENDPOINT, BUCKET (default islam-museum-search).
 //
-// The manifest is written only after every archive was applied, so a failed run
-// is repeated in full on the next run. Applying an operation twice is harmless.
+// The manifest is written after every batch, so a failed run resumes from the
+// batch that failed on the next run. Applying an operation twice is harmless.
 import { readFileSync, readdirSync, statSync, writeFileSync, mkdtempSync, existsSync } from "node:fs";
+import { fileURLToPath } from "node:url";
 import { createHash } from "node:crypto";
 import { execFileSync } from "node:child_process";
-import { join, relative, sep } from "node:path";
+import { join, relative, sep, resolve as resolvePath } from "node:path";
 import { tmpdir } from "node:os";
 import { packArchives } from "./pack.mjs";
 import { request as httpsRequest } from "node:https";
@@ -93,35 +94,57 @@ function readPrevious() {
   }
 }
 
-// Bootstrap when no manifest exists: the bucket already holds the files from an earlier
-// publish. Compare each stored object's ETag with the MD5 of the local file. A match is
-// recorded as published, so only different or missing files are uploaded. Stored objects
-// that are not in the build are recorded with an empty sha, so the diff deletes them.
-// An ETag is an MD5 only for single-part uploads; anything else counts as a difference
-// and is simply uploaded again.
-function bootstrapPrevious(desired) {
-  const previous = {};
-  for (const t of activeTargets) {
+// key -> ETag for every stored object under the given prefixes.
+function listBucket(prefixes) {
+  const stored = new Map();
+  for (const prefix of prefixes) {
     let token;
     do {
-      const args = ["s3api", "list-objects-v2", "--bucket", bucket, "--prefix", `${t.prefix}/`, "--endpoint-url", endpoint, "--output", "json"];
+      const args = ["s3api", "list-objects-v2", "--bucket", bucket, "--prefix", `${prefix}/`, "--endpoint-url", endpoint, "--output", "json"];
       if (token) args.push("--continuation-token", token);
       const page = JSON.parse(execFileSync("aws", args, { encoding: "utf8", maxBuffer: 512 * 1024 * 1024 }));
-      for (const obj of page.Contents ?? []) {
-        const local = desired.get(obj.Key);
-        const etag = String(obj.ETag ?? "").replace(/"/g, "");
-        const sameBytes = local && createHash("md5").update(local.bytes).digest("hex") === etag;
-        previous[obj.Key] = sameBytes ? local.sha : "";
-      }
+      for (const obj of page.Contents ?? []) stored.set(obj.Key, String(obj.ETag ?? "").replace(/"/g, ""));
       token = page.IsTruncated ? page.NextContinuationToken : undefined;
     } while (token);
   }
+  return stored;
+}
+
+// A stored object whose ETag equals the MD5 of the local file already holds the build's
+// bytes. An ETag is an MD5 only for single-part uploads, which is how the sync Worker
+// writes every file; anything else counts as a difference and is simply uploaded again.
+const sameBytes = (local, etag) => Boolean(local) && createHash("md5").update(local.bytes).digest("hex") === etag;
+
+// Bootstrap when no manifest exists: the bucket already holds the files from an earlier
+// publish. Matching objects are recorded as published, so only different or missing files
+// are uploaded. Stored objects that are not in the build are recorded with an empty sha,
+// so the diff deletes them.
+export function bootstrapPrevious(desired, stored = listBucket(activeTargets.map((t) => t.prefix))) {
+  const previous = {};
+  for (const [key, etag] of stored) previous[key] = sameBytes(desired.get(key), etag) ? desired.get(key).sha : "";
   const matched = Object.values(previous).filter(Boolean).length;
   log(`no manifest yet: ${Object.keys(previous).length} objects in the bucket, ${matched} already match the build`);
   return previous;
 }
 
-function diff(desired, previous) {
+// A run that failed part-way left files in the bucket that the manifest does not know
+// about. Before a large publish, compare the bucket with the build and record every file
+// that is already there, so the run resumes instead of re-sending them. Small publishes
+// skip the listing: it costs about one request per thousand stored objects.
+const RECONCILE_MIN = Number(process.env.RECONCILE_MIN ?? 2000);
+export function reconcile(desired, previous, stored) {
+  let matched = 0;
+  for (const [key, etag] of stored) {
+    const local = desired.get(key);
+    if (local && previous[key] !== local.sha && sameBytes(local, etag)) {
+      previous[key] = local.sha;
+      matched += 1;
+    }
+  }
+  return matched;
+}
+
+export function diff(desired, previous) {
   const ops = [];
   for (const [key, f] of desired) {
     if (previous[key] !== f.sha) ops.push({ op: "COPY", localBytes: f.bytes, dst: key, cacheControl: f.cacheControl });
@@ -145,7 +168,9 @@ async function applyArchive(archive, dir, workerUrl, progress) {
   const file = join(dir, archive.name);
   writeFileSync(file, archive.bytes);
   const stagedKey = `${STAGING_PREFIX}${archive.name}`;
-  execFileSync("aws", ["s3", "cp", file, `s3://${bucket}/${stagedKey}`, "--endpoint-url", endpoint, "--only-show-errors"], { stdio: "inherit" });
+  await withRetry(archive.name, "staging upload", () => {
+    execFileSync("aws", ["s3", "cp", file, `s3://${bucket}/${stagedKey}`, "--endpoint-url", endpoint, "--only-show-errors"], { stdio: "inherit" });
+  });
   const { status, report } = await postWithRetry(workerUrl, stagedKey, archive.name);
   if (status !== 200) throw new Error(`${archive.name}: worker answered ${status} ${JSON.stringify(report)}`);
   log(`${progress} ${archive.name} via ${workerUrl} in ${Date.now() - started} ms: ${JSON.stringify(report.summary)}`);
@@ -155,14 +180,32 @@ async function applyArchive(archive, dir, workerUrl, progress) {
 // is safe: operations are idempotent, and a retry that finds the archive already deleted
 // means an earlier attempt applied it.
 const ATTEMPTS = 5;
+
+// Runs fn up to ATTEMPTS times with a growing pause. The S3 endpoint answers a burst of
+// "internal server error" now and then; a staging upload that fails is simply repeated.
+export async function withRetry(name, what, fn, { attempts = ATTEMPTS, pauseMs = 5000 } = {}) {
+  for (let attempt = 1; ; attempt += 1) {
+    try {
+      return await fn();
+    } catch (err) {
+      if (attempt >= attempts) throw new Error(`${name}: ${what} failed on attempt ${attempt} of ${attempts}: ${describeError(err)}`, { cause: err });
+      log(`${name}: ${what} attempt ${attempt} of ${attempts} failed (${describeError(err)}); retrying in ${(pauseMs * attempt) / 1000} s`);
+      await sleep(pauseMs * attempt);
+    }
+  }
+}
+
 async function postWithRetry(workerUrl, stagedKey, name) {
   for (let attempt = 1; ; attempt += 1) {
     const started = Date.now();
     try {
       const result = await postProcess(workerUrl, stagedKey);
       // A 5xx reply means the Worker or the edge failed, not the archive: retry it like a
-      // dropped connection. A 4xx reply is final and is reported by applyArchive.
-      if (result.status >= 500) throw new Error(`worker answered ${result.status} ${JSON.stringify(result.report)}`);
+      // dropped connection. A 207 means some operations failed (e.g. a transient R2
+      // "internal error 10001"); the Worker keeps the archive staged in that case, so
+      // re-sending it re-applies the idempotent operations. A 4xx reply is final and is
+      // reported by applyArchive.
+      if (result.status >= 500 || result.status === 207) throw new Error(`worker answered ${result.status} ${JSON.stringify(result.report)}`);
       if (attempt > 1 && result.status === 400 && /archive not found/.test(JSON.stringify(result.report))) {
         log(`${name}: already applied by an earlier attempt`);
         return { status: 200, report: { summary: { already_applied: true } } };
@@ -246,17 +289,25 @@ async function main() {
     throw new Error("no manifest in the bucket: run once with --seed to record the files already published");
   }
   const previous = stored ?? (dryRun ? {} : bootstrapPrevious(desired));
-  const ops = diff(desired, previous);
-  const copies = ops.filter((o) => o.op === "COPY").length;
+  let ops = diff(desired, previous);
+  let copies = ops.filter((o) => o.op === "COPY").length;
+  if (!dryRun && stored !== null && copies >= RECONCILE_MIN) {
+    const prefixes = [...new Set(ops.filter((o) => o.op === "COPY").map((o) => o.dst.split("/")[0]))];
+    const matched = reconcile(desired, previous, listBucket(prefixes));
+    log(`reconciled with the bucket: ${matched} of ${copies} files to copy are already there (skipped)`);
+    ops = diff(desired, previous);
+    copies = ops.filter((o) => o.op === "COPY").length;
+  }
   const deletes = ops.length - copies;
   log(`${desired.size} files in dist, ${Object.keys(previous).length} in last publish: ${copies} to copy, ${deletes} to delete`);
 
   if (dryRun) return;
-  // Clear archives left by earlier runs that timed out before the Worker applied them.
-  // Runs never overlap (deploy.yml concurrency group "pages"), so nothing in staging is in use.
-  clearStaging();
+  // Archives left in staging by a failed run are not touched here: nothing is deleted
+  // before the resume, and the cleanup happens only after a successful publish below.
+  // Archive names carry the run's timestamp, so old ones never clash with new ones.
   if (ops.length === 0) {
     log("nothing changed");
+    clearStaging();
     return;
   }
 
@@ -292,22 +343,41 @@ async function main() {
       }
     };
     await Promise.all(Array.from({ length: Math.min(parallel, archives.length) }, runner));
+    // Record this batch, so a failure in a later batch does not send it again.
+    applyToPrevious(previous, batchOps, desired);
+    writeManifest(dir, previous, b + 1 < batches);
     if (b + 1 < batches) {
-      log(`batch ${b + 1}/${batches} applied; pausing ${BATCH_PAUSE_MS / 1000}s before the next batch`);
+      log(`batch ${b + 1}/${batches} applied and recorded; pausing ${BATCH_PAUSE_MS / 1000}s before the next batch`);
       await sleep(BATCH_PAUSE_MS);
     }
   }
 
-  // commit: the build this manifest describes, recorded for tracing (null outside CI).
-  const next = { version: 1, commit: process.env.GITHUB_SHA ?? null, files: Object.fromEntries([...desired].map(([key, f]) => [key, f.sha])) };
-  const manifestFile = join(dir, "manifest.json");
-  writeFileSync(manifestFile, JSON.stringify(next));
-  execFileSync("aws", ["s3", "cp", manifestFile, `s3://${bucket}/${MANIFEST_KEY}`, "--endpoint-url", endpoint, "--only-show-errors"], { stdio: "inherit" });
+  // Only now: every archive of this run and of any earlier failed run is either applied
+  // or superseded, so staging can be emptied.
   clearStaging();
   log(`published ${desired.size} files; manifest updated`);
 }
 
-main().catch((err) => {
+// Updates the record of the bucket with the operations of an applied batch.
+export function applyToPrevious(previous, batchOps, desired) {
+  for (const op of batchOps) {
+    if (op.op === "COPY") previous[op.dst] = desired.get(op.dst).sha;
+    else delete previous[op.dst];
+  }
+  return previous;
+}
+
+// commit: the build this manifest describes, recorded for tracing (null outside CI).
+// partial: true while later batches of the same run are still to come.
+function writeManifest(dir, files, partial) {
+  const next = { version: 1, commit: process.env.GITHUB_SHA ?? null, partial, files };
+  const manifestFile = join(dir, "manifest.json");
+  writeFileSync(manifestFile, JSON.stringify(next));
+  execFileSync("aws", ["s3", "cp", manifestFile, `s3://${bucket}/${MANIFEST_KEY}`, "--endpoint-url", endpoint, "--only-show-errors"], { stdio: "inherit" });
+}
+
+const isMain = process.argv[1] && resolvePath(process.argv[1]) === fileURLToPath(import.meta.url);
+if (isMain) main().catch((err) => {
   // Print everything we can: some errors have an empty message, and the cause and the
   // command's stderr are often where the real reason is.
   const detail = [err?.stack ?? String(err)];
@@ -317,6 +387,6 @@ main().catch((err) => {
   console.error(`[r2-publish] FAILED: ${message}\n${detail.join("\n")}`);
   // Shows the failure in the job summary and on the run page, not only in the raw log.
   console.log(`::error title=R2 publish failed::${message.replace(/\r?\n/g, " ")}`);
-  console.log("[r2-publish] manifest not updated: the next run re-sends every file that differs from the last successful publish");
+  console.log("[r2-publish] the next run resumes: batches already recorded in the manifest are not sent again, and files found in the bucket are skipped");
   process.exit(1);
 });

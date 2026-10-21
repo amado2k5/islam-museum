@@ -32,9 +32,11 @@ jobs:
             package-lock.json
             site/package-lock.json
       - name: Install
-        run: npm ci && npm ci --prefix site
+        run: npm ci && npm ci --prefix site && npm ci --prefix workers/r2-sync
       - name: Test
         run: npm test
+      - name: Worker unit tests (site routing and rules; R2 publish diff, resume and retry)
+        run: node --test 'workers/site/test/*.test.mjs' workers/r2-sync/test/publish.test.mjs
 
   build:
     runs-on: ubuntu-latest
@@ -84,7 +86,24 @@ jobs:
             urls="${urls:+$urls,}$url"
           done
           echo "urls=$urls" >> "$GITHUB_OUTPUT"
-      - name: Publish pagefind indexes and API to R2 (zip archives via R2 sync Worker)
+      - name: Build assets-only folder for the site Worker (no R2-served directories)
+        if: github.ref == 'refs/heads/main'
+        run: |
+          set -euo pipefail
+          rm -rf dist-assets && cp -r dist dist-assets
+          rm -rf dist-assets/ar dist-assets/en dist-assets/ur dist-assets/api dist-assets/pagefind-ar dist-assets/pagefind-en dist-assets/pagefind-ur
+          echo "assets: $(find dist-assets -type f | wc -l) files"
+          node workers/site/scripts/bundle-rules.mjs
+      - name: Deploy site Worker (production bucket, workers.dev only, no route)
+        if: github.ref == 'refs/heads/main'
+        working-directory: workers/site
+        env:
+          CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+          CLOUDFLARE_ACCOUNT_ID: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
+        # Assets go up before the HTML that references them is published below.
+        # The Worker has no route until the cutover is approved; islam.museum stays on Pages.
+        run: ../r2-sync/node_modules/.bin/wrangler deploy -c wrangler.production.toml
+      - name: Publish pagefind indexes, API and HTML pages to R2 (zip archives via R2 sync Worker)
         if: github.ref == 'refs/heads/main'
         env:
           AWS_ACCESS_KEY_ID: ${{ secrets.R2_ACCESS_KEY_ID }}
@@ -94,6 +113,9 @@ jobs:
           BUCKET: islam-museum-search
           SYNC_URLS: ${{ steps.r2_worker.outputs.urls }}
           SYNC_TOKEN: ${{ secrets.R2_SYNC_TOKEN }}
+          # HTML pages (ar/, en/, ur/) are published to R2 for the site Worker. Pages still
+          # deploys them too until the route cutover; the publish is additive.
+          PUBLISH_HTML: "1"
         run: node workers/r2-sync/batch/publish.mjs --dist dist
       - name: Strip R2-served dirs from Pages deployment
         run: rm -rf dist/pagefind-ar dist/pagefind-en dist/pagefind-ur dist/api

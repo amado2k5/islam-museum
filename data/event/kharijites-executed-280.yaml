@@ -1,0 +1,21 @@
+id: event/kharijites-executed-280
+class: event
+kind: other
+label: { ar: "إعدام الخوارج القادمين من الموصل" }
+summary:
+  ar: "في سنة ثمانين ومائتين وجّه يوسف بن أبي الساج اثنين وثلاثين نفسًا من الخوارج من طريق الموصل، فضُربت أعناق خمسة وعشرين منهم وصُلبوا وحُبس الباقون {cite:muntazam-ibn-al-jawzi p. 142}."
+  en: "In 280 AH Yusuf ibn Abi'l-Saj sent thirty-two Kharijites down the Mosul road; twenty-five were beheaded and gibbeted, the rest imprisoned {cite:muntazam-ibn-al-jawzi p. 142}."
+wings: [time]
+periods: [period/abbasid-early]
+regions: [levant-iraq]
+date:
+  start: { edtf: "0893~", hijri: "0280", calendar: julian, precision: year, status: tradition, derived: true, note: "٢٨٠؛ التحويل مشتق {cite:muntazam-ibn-al-jawzi p. 142}." }
+relations:
+  - { type: had_participant, target: person/yusuf-ibn-abi-al-saj, role: "الأمير الساجي", sources: [source/muntazam-ibn-al-jawzi] }
+provenance:
+  layer: own-research
+  source: "المنتظم لابن الجوزي (ط حيدرآباد 1357، ج5 ق2، سنة 280)، قراءة آبل فيجن"
+  generated_by: "Devin (SWE-2 Medium) from Apple Vision OCR"
+  run: lib-muntazam-258-349-batch27
+sources: [source/muntazam-ibn-al-jawzi]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 Medium)" }

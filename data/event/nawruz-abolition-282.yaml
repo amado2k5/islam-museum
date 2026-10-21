@@ -3,7 +3,7 @@ class: event
 kind: law-enacted
 label: { ar: "إبطال المعتضد مراسم النيروز" }
 summary:
-  ar: "في سنة اثنتين وثمانين أبطل المعتضد ما يفعل في النيروز من وقيد النيران وصب الماء على الناس وأزال سنة المجوس {cite:tarikh-khulafa-minhaj-1434 p. 574}."
+  ar: "في سنة اثنتين وثمانين أبطل المعتضد ما يفعل في النيروز من وقيد النيران وصب الماء على الناس وأزال سنة المجوس {cite:tarikh-khulafa-minhaj-1434 p. 574}. وعند ابن الجوزي أمر المعتضد بإنشاء الكتب إلى العمال بترك افتتاح الخراج في النيروز الذي هو نيروز العجم وتأخيره إلى اليوم الحادي عشر من حزيران فسُمّي النيروز المعتضدي، وكتب بذلك من الموصل إرادةً للترفيه على الناس؛ ويروى أن المتوكل بدأ تعيين النيروز لما رأى الزرع أخضر وقد استؤذن في الخراج قبل حصاده فوُلّي أمره منجمًا ثم قُتل قبل إتمامه {cite:muntazam-ibn-al-jawzi p. 153-154}."
   en: "In 282 al-Mu'tadid abolished the Nawruz observances — the fire-lighting and the water-pouring on people — doing away with the Magian custom {cite:tarikh-khulafa-minhaj-1434 p. 574}."
 wings: [time]
 periods: [period/abbasid-early]
@@ -11,11 +11,11 @@ regions: [levant-iraq]
 date:
   start: { edtf: "0895~", hijri: "0282", calendar: julian, precision: year, status: tradition, derived: true, note: "282؛ التحويل مشتق {cite:tarikh-khulafa-minhaj-1434 p. 574}." }
 relations:
-  - { type: had_participant, target: person/al-mutadid, role: "الخليفة", sources: [source/tarikh-khulafa-minhaj-1434] }
+  - { type: had_participant, target: person/al-mutadid, role: "الخليفة", sources: [source/tarikh-khulafa-minhaj-1434, source/muntazam-ibn-al-jawzi] }
 provenance:
   layer: own-research
   source: "تاريخ الخلفاء للسيوطي (ط المنهاج 1434هـ/2013م) ص 569–576"
   generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
   run: lib-tarikh-khulafa-batch-32
-sources: [source/tarikh-khulafa-minhaj-1434]
+sources: [source/tarikh-khulafa-minhaj-1434, source/muntazam-ibn-al-jawzi]
 status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 High)" }

@@ -2,13 +2,10 @@
 id: person/muslim-ibn-yasar
 lang: en
 source_lang: ar
-translators: ["Claude Haiku 5.5 (claude-haiku-5-5), draft translation"]
+translators: []
 ---
-
 ## Overview
-Abu Abdallah Muslim ibn Yasar, a jurist from Basra. {cite:tabaqat-fuqaha-abbas-1981 p.47}
+Abu 'Abdallah Muslim ibn Yasar, of Basra then Mecca, a client of the Banu Umayya, was a jurist of the Followers' generation. Qatada counted him among the five jurists of Basra, and Ibn 'Awn said: "I found this mosque with no circle where jurisprudence was mentioned except the circle of Muslim ibn Yasar." {cite:tabaqat-fuqaha-abbas-1981 p. 47}
 
-## His standing
-Qatada said that he was counted as the fifth of five jurists of Basra. Ibn Awn said that he reached the mosque and there was no circle in it where jurisprudence was discussed except the circle of Muslim ibn Yasar. {cite:tabaqat-fuqaha-abbas-1981 p.47}
-
-A second source is needed: the page gives no date for him.
+## Standing in narration
+Ibn Hajar accredited him and placed him in the fourth generation; it is reported that Qatada did not hear anything from him on one account, while others affirmed that he did. {cite:tahdhib-tahdhib} {cite:tahdhib-al-kamal-mizzi j.6}

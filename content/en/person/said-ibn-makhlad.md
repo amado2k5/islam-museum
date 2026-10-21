@@ -2,11 +2,10 @@
 id: person/said-ibn-makhlad
 lang: en
 source_lang: ar
-translators: ["Claude Haiku 5.5 (claude-haiku-5-5), draft translation"]
+translators: []
 ---
 ## Overview
-Ṣāʿid ibn Makhlad, an Abbasid vizier in Baghdad, nicknamed Dhu al-Wizaratayn (the holder of two vizierates).
+Sa'id ibn Makhlad, the great vizier Abu al-'Ala the scribe; a Christian of Kaskar who embraced Islam, became secretary to al-Muwaffaq and then vizier to al-Mu'tamid in 206 AH, earning the title Dhu al-Wizaratayn (holder of the two vizierates). {cite:siyar-alam-nubala-ideas-house p.2010}
 
-al-Maqqari reports that Ahmad ibn Abd al-Malik ibn Shuhayd, vizier of Abd al-Rahman al-Nasir, followed his example in the name, and that he was the first to be called Dhu al-Wizaratayn in al-Andalus {cite:nafh-tib-maqqari p.392}.
-
-Note: the file name in the museum is "Sa'id" (سعيد), while the entity's title in the data is "Ṣāʿid" (صاعد). This needs review.
+## Charity and imprisonment
+He was known for almsgiving, piety and night prayer though sparing of literary grace. Al-Muwaffaq had him arrested in 278, and he died in 276 AH. {cite:siyar-alam-nubala-ideas-house p.2010}

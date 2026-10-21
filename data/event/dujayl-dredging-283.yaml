@@ -1,0 +1,21 @@
+id: event/dujayl-dredging-283
+class: event
+kind: other
+label: { ar: "كري نهر دجيل" }
+summary:
+  ar: "في رجب سنة ثلاث وثمانين ومائتين أمر المعتضد بكري دجيل والاستقصاء عليه، وقلع صخر كان في فوهته يمنع الماء، فجُمع لذلك من أرباب الإقطاعات والضياع أربعة آلاف دينار وأُنفقت عليه {cite:muntazam-ibn-al-jawzi p. 163}."
+  en: "In Rajab 283 al-Mu'tadid ordered the Dujayl canal dredged and cleared of a rock blocking its mouth; four thousand dinars were levied from the iqta' holders and estate owners for the work {cite:muntazam-ibn-al-jawzi p. 163}."
+wings: [time]
+periods: [period/abbasid-early]
+regions: [levant-iraq]
+date:
+  start: { edtf: "0896-08~", hijri: "0283-07", calendar: julian, precision: month, status: tradition, derived: true, note: "رجب ٢٨٣؛ التحويل مشتق {cite:muntazam-ibn-al-jawzi p. 163}." }
+relations:
+  - { type: had_participant, target: person/al-mutadid, role: "الخليفة الآمر", sources: [source/muntazam-ibn-al-jawzi] }
+provenance:
+  layer: own-research
+  source: "المنتظم لابن الجوزي (ط حيدرآباد 1357، ج5 ق2، سنة 283)، قراءة آبل فيجن"
+  generated_by: "Devin (SWE-2 Medium) from Apple Vision OCR"
+  run: lib-muntazam-258-349-batch27
+sources: [source/muntazam-ibn-al-jawzi]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 Medium)" }

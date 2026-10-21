@@ -12,7 +12,7 @@
 | Cloudflare Pages (paid) | 100,000 files per deployment, 25 MB/file, 500 builds/month (wrangler v4 required for 100k limit) | **Main host for HTML and assets** (~69k files after stripping pagefind and API, well under 100k limit). Project name `islam-museum`, served at `islam-museum.pages.dev` and `islam.museum`. |
 | Cloudflare D1 / KV / Vectorize / Workers AI | Free tiers | **Not used on the published site.** No runtime AI, no runtime database (see §13). |
 
-Decision: **Cloudflare Pages (paid plan) hosts the site**, built by GitHub Actions. Pagefind search indexes and the API JSON go to **Cloudflare R2** (`islam-museum-search` bucket, public URL `https://pub-ab3983f1cb684ba8bb7c10be32804f74.r2.dev`) to stay within the 100k-file CF Pages limit — the site HTML alone is ~69k files, leaving no room for the ~37k pagefind chunk files. Both are deployed in the same GitHub Actions workflow on every push to `main`. No runtime compute: the published site is static files only (see §13).
+Decision: **Cloudflare Pages (paid plan) hosts the site**, built by GitHub Actions. Pagefind search indexes and the API JSON go to **Cloudflare R2** (`islam-museum-search` bucket, served on the custom domain `api.islam.museum` since 21 October 2026; the bucket's public development URL `https://pub-ab3983f1cb684ba8bb7c10be32804f74.r2.dev` is rate-limited and not for production) to stay within the 100k-file CF Pages limit — the site HTML alone is ~69k files, leaving no room for the ~37k pagefind chunk files. Both are deployed in the same GitHub Actions workflow on every push to `main`. No runtime compute: the published site is static files only (see §13).
 
 ## 2. Stack
 
@@ -151,10 +151,11 @@ https://islam.museum/en/screen/al-risala-1976
 https://islam.museum/en/themes/medicine
 https://islam.museum/en/wander              random entity (static: picks client-side from index)
 https://islam.museum/en/today               on this day (Hijri + Gregorian)
-https://islam.museum/api/v1/person/ibn-sina.json
-https://islam.museum/api/v1/person/index.json
-https://islam.museum/api/v1/graph/nodes.ndjson  edges.ndjson
-https://islam.museum/api/v1/meta/coverage.json
+https://api.islam.museum/api/v1/person/ibn-sina.json
+https://api.islam.museum/api/v1/person/index.json
+https://api.islam.museum/api/v1/graph/nodes.ndjson  edges.ndjson
+https://api.islam.museum/api/v1/meta/coverage.json
+(https://islam.museum/api/v1/... answers 301 to the same path on api.islam.museum)
 https://islam.museum/llms.txt  robots.txt  sitemap-index.xml
 ```
 
@@ -165,8 +166,8 @@ Slugs are ASCII, lowercase, hyphenated, derived from the common English/translit
 - DNS: `islam.museum` and `www` → `islam-museum.pages.dev` (CNAME, proxied, orange cloud). `media` → R2 custom domain.
 - SSL: Full (strict); HSTS; always HTTPS.
 - Cache rules: cache everything; HTML edge TTL 1 hour, browser 10 min; hashed assets 1 year; `/api/` 1 day with `stale-while-revalidate`. CF Pages invalidates automatically on deploy.
-- Redirect rules: `site/public/_redirects` handles two cases: (1) a transparent 200 proxy `/api/* → R2/api/:splat` so `islam.museum/api/v1/…` URLs work without change even though the files live on R2; (2) entity slug 301 renames. Root → language via Cloudflare redirect rule.
-- Transform rules: add CORS `Access-Control-Allow-Origin: *` on `/api/*`; security headers. CORS applies to the client-facing `/api/*` URL before the proxy rewrites it, so external API consumers get the header.
+- Redirect rules: `site/public/_redirects` handles two cases: (1) `/api/*` answers a permanent redirect (301) to `https://api.islam.museum/api/:splat`, the R2 bucket's custom domain, because Cloudflare Pages cannot proxy (200) to another host, so the earlier proxy rule returned 404 (fixed 21 October 2026, commit aefbef9ef); (2) entity slug 301 renames. Root → language via Cloudflare redirect rule.
+- Transform rules: add CORS `Access-Control-Allow-Origin: *` on `/api/*`; security headers. **Response Header Transform Rule `remove-logging` (21 Oct 2026):** removes `NEL` and `Report-To` from every response, because Cloudflare Pages attaches Network Error Logging headers itself even when the zone's NEL setting is off (the setting was also turned off by API the same day). **Scrape Shield, Email Address Obfuscation: off (21 Oct 2026):** when on, Cloudflare injected `email-decode.min.js` into every page and the contact address rendered as `[email protected]` without JavaScript, contradicting the privacy page ("no code in the page") and the no-JS rule. Both settings are part of the privacy claims in `docs/outreach/`; do not re-enable them. CORS applies to the client-facing `/api/*` URL before the proxy rewrites it, so external API consumers get the header.
 - R2 bucket `islam-museum-search`: public development URL enabled; CORS policy allows `https://islam.museum`; pagefind chunks `immutable, max-age=31536000`; API JSON `max-age=3600, stale-while-revalidate=86400`.
 - Web Analytics: enabled, no cookies.
 - No Workers in front of visitors. Random, on-this-day and search run client-side on prebuilt indexes; share cards are built at build time.

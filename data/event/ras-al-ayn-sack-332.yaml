@@ -1,0 +1,25 @@
+id: event/ras-al-ayn-sack-332
+class: event
+kind: raid
+label: { ar: "دخول الروم رأس العين" }
+summary:
+  ar: "في ربيع الأول سنة اثنتين وثلاثين وثلاثمائة دخل الروم رأس العين وسبوا من أهلها ثلاثة آلاف إنسان ونهبوا البلاد، وكان الذي قصدها الدمستق في ثمانين ألفًا {cite:muntazam-ibn-al-jawzi p. 623}."
+  en: "In Rabi' I 332 the Byzantines entered Ra's al-'Ayn, enslaved three thousand of its people and plundered the country — the Domesticos had come against it with eighty thousand {cite:muntazam-ibn-al-jawzi p. 623}."
+wings: [time]
+periods: [period/abbasid-early]
+regions: [anatolia-balkans]
+sides:
+  - label: { ar: "الروم" }
+  - label: { ar: "أهل رأس العين" }
+map: { kind: locator, precision: approximate, center: [40.08, 36.83] }
+date:
+  start: { edtf: "0943-10~", hijri: "0332-03", calendar: julian, precision: month, status: tradition, derived: true, note: "ربيع الأول ٣٣٢؛ التحويل مشتق {cite:muntazam-ibn-al-jawzi p. 623}." }
+relations:
+  - { type: occurred_at, target: place/ras-al-ayn, sources: [source/muntazam-ibn-al-jawzi] }
+provenance:
+  layer: own-research
+  source: "المنتظم لابن الجوزي (ط حيدرآباد 1357، ج7، سنة 332)، قراءة آبل فيجن"
+  generated_by: "Devin (SWE-2 Medium) from Apple Vision OCR"
+  run: lib-muntazam-258-349-batch30
+sources: [source/muntazam-ibn-al-jawzi]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 Medium)" }

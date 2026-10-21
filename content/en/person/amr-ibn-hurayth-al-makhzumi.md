@@ -2,9 +2,7 @@
 id: person/amr-ibn-hurayth-al-makhzumi
 lang: en
 source_lang: ar
-translators: ["Claude Haiku 5.5 (claude-haiku-5-5), draft translation"]
+translators: []
 ---
 ## Overview
-Amr ibn Hurayth al-Makhzumi, a man of Makhzum in Kufa. {cite:futuh-buldan-maarif-1407 p.389}
-
-Al-Baladhuri says that he built a building in its mosque, and Ziyad used to appoint him over Kufa when he set out for Basra. {cite:futuh-buldan-maarif-1407 p.389}
+'Amr ibn Hurayth ibn 'Amr ibn 'Uthman ibn 'Abdallah ibn 'Umar ibn Makhzum al-Makhzumi, brother of Sa'id ibn Hurayth; born shortly before the Hijra, he was among the last surviving Companions of those who settled in Kufa, with companionship and transmission including reports from Abu Bakr al-Siddiq. He died in 85 AH. {cite:siyar-alam-nubala-ideas-house p.2944}

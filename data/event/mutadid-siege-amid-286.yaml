@@ -1,0 +1,27 @@
+id: event/mutadid-siege-amid-286
+class: event
+kind: siege
+label: { ar: "حصار المعتضد لآمد" }
+summary:
+  ar: "في ربيع الآخر سنة ست وثمانين ومائتين وصل المعتضد إلى آمد فأناخ بجنده عليها وحاصرها ونصب المنجنيقات، فبعث رئيسها يطلب الأمان فأمّنه وخرج إليه فخلع عليه، وأقام المعتضد بها بقية جمادى الأولى وعشرين يومًا من جمادى الآخرة ثم ارتحل وأمر بهدم سورها فهُدم بعضه ولم يُقدر على هدم الباقي، وهنّأه ابن المعتز بالفتح شعرًا {cite:muntazam-ibn-al-jawzi p. 307-309}."
+  en: "In Rabi' II 286 al-Mu'tadid camped his army on Amid, set mangonels and besieged it; its lord sought and received aman, came out and was robed; the caliph stayed into Jumada II, then left ordering the wall razed — only part could be demolished; Ibn al-Mu'tazz greeted the conquest in verse {cite:muntazam-ibn-al-jawzi p. 307-309}."
+wings: [time]
+periods: [period/abbasid-early]
+regions: [anatolia-balkans]
+sides:
+  - label: { ar: "الدولة العباسية" }
+    commanders: [person/al-mutadid]
+  - label: { ar: "صاحب آمد" }
+map: { kind: siege, precision: approximate, center: [40.23, 37.91] }
+date:
+  start: { edtf: "0899-04~", hijri: "0286-04", calendar: julian, precision: month, status: tradition, derived: true, note: "ربيع الآخر ٢٨٦؛ التحويل مشتق {cite:muntazam-ibn-al-jawzi p. 307}." }
+relations:
+  - { type: occurred_at, target: place/amid, sources: [source/muntazam-ibn-al-jawzi] }
+  - { type: had_participant, target: person/al-mutadid, role: "الخليفة الغازي", sources: [source/muntazam-ibn-al-jawzi] }
+provenance:
+  layer: own-research
+  source: "المنتظم لابن الجوزي (ط حيدرآباد 1357، ج6، سنة 286)، قراءة آبل فيجن"
+  generated_by: "Devin (SWE-2 Medium) from Apple Vision OCR"
+  run: lib-muntazam-258-349-batch28
+sources: [source/muntazam-ibn-al-jawzi]
+status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 Medium)" }

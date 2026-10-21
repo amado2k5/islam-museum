@@ -1,0 +1,23 @@
+id: event/tayma-dahhak-raids-39
+class: event
+kind: raid
+label: { ar: "سرايا معاوية إلى تيماء وأسفل واقصة", en: "Muʿāwiya's columns to Taymāʾ and lower Wāqisa (39 AH)" }
+date:
+  start: { edtf: "0659", hijri: "0039", calendar: julian, precision: year, status: tradition, derived: true, note: "سنة 39؛ التحويل مشتق {cite:kamil-ibn-al-athir p. 725-726}." }
+summary:
+  ar: "وجّه معاوية عبد الله بن مسعدة الفزاري إلى تيماء، والضحاك بن قيس أمره أن يمر بأسفل واقصة ويغير على من مر به من أهل العراق ممن ليس في طاعته، وسار معاوية بنفسه حتى شارف دجلة ثم نكص راجعًا {cite:kamil-ibn-al-athir p. 725-726}."
+  en: "Muʿāwiya sent ʿAbdallāh ibn Masʿada al-Fazārī against Taymāʾ and al-Ḍaḥḥāk ibn Qays along the lower Wāqisa with orders to raid every Iraqi outside Muʿāwiya's allegiance; Muʿāwiya himself marched to the Tigris bank, then turned back {cite:kamil-ibn-al-athir p. 725-726}."
+sides:
+- label: { ar: "أهل الشام", en: "Syrians" }
+  commanders: [person/al-dahhak-ibn-qays-al-fihri]
+- label: { ar: "أهل العراق", en: "Iraqis" }
+relations:
+  - { type: had_participant, target: person/muawiya-ibn-abi-sufyan, sources: [source/kamil-ibn-al-athir] }
+  - { type: had_participant, target: person/al-dahhak-ibn-qays-al-fihri, sources: [source/kamil-ibn-al-athir] }
+provenance:
+  layer: own-research
+  source: "الكامل في التاريخ لابن الأثير (دار الكتاب العربي 2012، ج2)، قراءة آبل فيجن"
+  generated_by: "Devin (SWE-2 Medium) from Apple Vision OCR"
+  run: lib-kamil-v2-batch05
+sources: [source/kamil-ibn-al-athir]
+status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 Medium)" }
