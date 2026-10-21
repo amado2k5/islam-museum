@@ -1,6 +1,6 @@
 # islam.museum: nomination dossier for UNESCO prizes and digital public good recognition
 
-_Second edition, 21 October 2026 (repository state: commit 509fd6db8 on `main`, 17:12 UTC). The first edition of 17 October 2026 was sent to the Canadian Commission for UNESCO and filed with the Digital Public Goods Alliance (GID0094424); its figures are kept in the claims register (A.5) beside the current ones. Part A is an internal brief and is not sent. Parts B and C are the outgoing package: a cover letter to the nominating organisation and the dossier. Every figure in Parts B and C is traced in A.5; regenerate `docs/coverage.md` and update A.5 before any resubmission._
+_Second edition, 21 October 2026 (repository state: commit 5cef03793 on `main`, 23:46 UTC). The first edition of 17 October 2026 was sent to the Canadian Commission for UNESCO and filed with the Digital Public Goods Alliance (GID0094424); its figures are kept in the claims register (A.5) beside the current ones. Part A is an internal brief and is not sent. Parts B and C are the outgoing package: a cover letter to the nominating organisation and the dossier. Every figure in Parts B and C is traced in A.5; regenerate `docs/coverage.md` and update A.5 before any resubmission._
 
 ---
 
@@ -56,18 +56,18 @@ _Second edition, 21 October 2026 (repository state: commit 509fd6db8 on `main`, 
 
 | Claim in Parts B and C | Source | 17 Oct 2026 (first edition, filed) | 21 Oct 2026 (this edition) |
 |---|---|---|---|
-| Structured records; classes | `docs/coverage.md` regenerated from the data on `main` (`npm run graph && npm run coverage`) | 19,084 in 21 classes | **33,578 in 21 classes** |
-| Relations between records | same | 29,996 | **31,823** |
-| Persons / places / events / buildings | same | 3,702 / 1,651 / 1,404 / 69 | **8,122 / 1,665 / 4,000 / 5,568** |
-| Qur'an passages; works; concepts; sources | same | 9,546 / 264 / 316 / 175 | **9,546 / 1,453 / 399 / 228** |
+| Structured records; classes | `docs/coverage.md` regenerated from the data on `main` (`npm run graph && npm run coverage`) | 19,084 in 21 classes | **33,919 in 21 classes** |
+| Relations between records | same | 29,996 | **32,526** |
+| Persons / places / events / buildings | same | 3,702 / 1,651 / 1,404 / 69 | **8,191 / 1,665 / 4,268 / 5,571** |
+| Qur'an passages; works; concepts; sources | same | 9,546 / 264 / 316 / 175 | **9,546 / 1,453 / 399 / 229** |
 | Questions; learning trails (exhibits); films and series (screen); journeys; practices | same | 220 / – / – / 49 / 4 | **220 / 301 / 315 / 49 / 52** |
 | Periods; regions; themes | same | 13 periods | **13 periods; 14 regions; 132 themes (18 still empty)** |
-| Prose files, Arabic / English / Urdu | `content/ar`, `content/en`, `content/ur` file counts | 19,082 / 17,738 / 0 | **19,584 / 19,504 / 19,504** |
-| Records that are preliminary cards from the Wikidata import, carrying one placeholder citation and a summary that says their sources are not yet reviewed | count of records whose only source is `source/tarikh-islam-hasan-ibrahim` | none | **about 6,840** (5,178 buildings, 1,507 events, 88 persons, the rest groups, polities, concepts); see A.6 |
+| Prose files, Arabic / English / Urdu | `content/ar`, `content/en`, `content/ur` file counts | 19,082 / 17,738 / 0 | **20,055 / 19,759 / 19,759** |
+| Records that are preliminary cards from the Wikidata import, carrying one placeholder citation and a summary that says their sources are not yet reviewed | count of records whose only source is `source/tarikh-islam-hasan-ibrahim` | none | **6,841** (5,178 buildings, 1,507 events, 88 persons, the rest groups, polities, concepts); see A.6 |
 | Average sources per record | `docs/coverage.md` | 1.16 | **1.28** |
-| Review status | `docs/coverage.md` "By review status" | all `draft` | **all 33,578 `draft`** |
+| Review status | `docs/coverage.md` "By review status" | all `draft` | **all 33,919 `draft`** |
 | Media records and licences | `data/media/*.yaml` | 471: 284 open, 187 V&A | **471: 232 CC0, 32 public-domain mark, 5 CC BY, 15 CC BY-SA, 187 V&A non-commercial terms (embedded by URL)** |
-| AI-generated illustrations in the art gallery | `site/src/data/architecture-art.json` | 750 | **1,261**, Arabic alt text only, no licence line on the page (A.6) |
+| AI-generated illustrations in the art gallery | `site/src/data/architecture-art.json`; `docs/delegation/art-renders-verification.md` | 750 | **1,361**, Arabic alt text only, no licence line on the page; twelve flagged by the visual audit are still published (A.6) |
 | Licences | `LICENSE`, `LICENSE-CONTENT.md` | data CC0 1.0, prose CC BY-SA 4.0, code MIT | unchanged |
 | Hosting | `docs/plan/03-architecture.md` §1; live checks 21 Oct | GitHub Pages behind Cloudflare | **Cloudflare Pages (paid plan) for the pages; Cloudflare R2 for the search indexes and the API, served at api.islam.museum; GitHub Pages as fallback mirror** |
 | Public API | live check 21 Oct | `islam.museum/api/v1/…` | **`api.islam.museum/api/v1/…` returns 200; the old addresses return 301 to it** |
@@ -85,10 +85,11 @@ What the dossier deliberately does not claim: an institutional partner, a legal 
 |---|---|---|---|
 | Hosting moved to Cloudflare Pages and R2 (18 Oct); API on `api.islam.museum` with a 301 from the old addresses (21 Oct, commit aefbef9ef) | submission-impacting | DPGA indicator 4 and 6 answers and the first-edition dossier say GitHub Pages and `islam.museum/api/v1` | Repository, privacy page (ar, en, ur), README, SECURITY.md, AGENTS.md and this dossier updated. Tell the DPGA when its reviewer writes, or proactively. |
 | **Wikidata import, waves 1 to 3 (19 to 21 Oct):** about 4,700 created and thousands of records linked; the lane reports itself complete. About 6,840 of its records are "preliminary cards" whose only citation is `source/tarikh-islam-hasan-ibrahim`, a general history of Islam, and whose Arabic summary says the sources "have not yet been reviewed on the page". Many are post-1800 buildings (a Karachi mosque, a 1920s mausoleum, Ottoman tombs) and one is a Slovak castle. | submission-impacting | "Every record cites its sources" and "nothing invented" are claims in both submissions and in `AGENTS.md`. A citation that does not support the record is a placeholder, not a source. | **Open, founder's decision.** Options: (a) mark these records with a distinct status or flag and exclude them from the "sourced records" figure, (b) replace the placeholder with the Wikidata pointer plus a real source per record before publication, (c) remove records outside scope. This dossier states the number and describes them as preliminary cards. |
-| 1,261 AI-generated illustrations in the art gallery, Arabic alt text only, no licence line | submission-impacting (media) | DPGA 9b and the accessibility claim (alt text in every published language) | Open. Add a licence line (the museum's own illustrations, CC0) and English and Urdu alt text. |
+| 1,261 AI-generated illustrations in the art gallery (1,361 by 23:46 UTC), Arabic alt text only, no licence line | submission-impacting (media) | DPGA 9b and the accessibility claim (alt text in every published language) | Open. Add a licence line (the museum's own illustrations, CC0) and English and Urdu alt text. |
 | 187 V&A photographs under non-commercial terms | submission-impacting | DPGA "right to redistribute" wording | Correction email drafted (19 Oct); send when the reviewer writes, or proactively. |
 | Urdu is a full third language (19,504 prose files; interface; labels) | growth | DPGA "available languages" under-stated | No action. |
 | Counts roughly doubled since 17 Oct, mostly from the Wikidata import and the Shadharat al-Dhahab, Futuh al-Buldan and library lanes | growth | Figures dated | A.5 carries both dates. |
+| Twelve illustrations that the visual audit flagged against the museum's own image rules (four show a human figure or face: art3-106, art3-124, art3-151, art3-215; eight show script-like marks: art3-066, art3-102, art3-127, art3-158, art3-160, art3-172, art3-182, art3-188) are still in `site/src/data/architecture-art.json` and on the site; the queued re-renders were lost (`docs/delegation/art-renders-verification.md`) | submission-impacting (media rules) | "no figurative depictions", "rules that exclude people, faces, figures and text" (dossier §2 and §4; DPGA 9b) | Disclosed in §4. Removal of the twelve entries and files is a founder-approved change still to be made; then regenerate. |
 | CCUNESCO declined (19 Oct); ICDE requires membership (21 Oct) | route | Part B addressee | Part B now addresses the nominating organisation; ICOM first. |
 | Two Cloudflare settings were contradicting the privacy claims: Email Address Obfuscation injected a script into every page (and broke the no-JavaScript contact address), and Pages attached Network Error Logging headers | submission-impacting (privacy) | "no code in the page", "no third-party scripts", "readable without JavaScript" | Closed 21 Oct 2026: obfuscation turned off, NEL disabled on the zone and stripped by a response-header rule; verified on islam.museum, www and api hosts. Recorded in `docs/plan/03-architecture.md` §6. |
 
@@ -115,7 +116,7 @@ Dear colleagues,
 
 I am writing to ask whether the International Council of Museums, which holds associate status in official partnership with UNESCO, would provide a nomination letter for islam.museum for the UNESCO-Sharjah Prize for Arab Culture, 22nd edition.
 
-islam.museum is a free, open, Arabic-first digital museum of Islamic civilization: its faith, peoples, places, ideas, buildings, objects, texts and living culture across fourteen centuries. It is built as an open knowledge graph in which every person, place, event, text and idea is a record with sources, dates in two calendars and documented relations to other records. On 21 October 2026 the repository held 33,578 records in 21 classes, linked by about 31,800 relations, with articles in Arabic, English and Urdu for more than 19,500 of them; the public coverage page shows the figures of the last completed build. The structured data is dedicated to the public domain under CC0 1.0, the prose is licensed CC BY-SA 4.0, and the software is MIT-licensed, so that any school, library, museum or researcher may copy, translate and build on the whole collection. Photographs of objects are never copied: they are displayed from the holding institutions' own servers, under their own terms, with credit.
+islam.museum is a free, open, Arabic-first digital museum of Islamic civilization: its faith, peoples, places, ideas, buildings, objects, texts and living culture across fourteen centuries. It is built as an open knowledge graph in which every person, place, event, text and idea is a record with sources, dates in two calendars and documented relations to other records. On 21 October 2026 the repository held 33,919 records in 21 classes, linked by about 32,500 relations, with articles in Arabic, English and Urdu for more than 19,700 of them; the public coverage page shows the figures of the last completed build. The structured data is dedicated to the public domain under CC0 1.0, the prose is licensed CC BY-SA 4.0, and the software is MIT-licensed, so that any school, library, museum or researcher may copy, translate and build on the whole collection. Photographs of objects are never copied: they are displayed from the holding institutions' own servers, under their own terms, with credit.
 
 The museum grew out of a prototype timeline application, timelinethis.app, which I began in September 2025; the public site went live on 11 October 2026. It is designed to the standard of a public institution: static files with no servers, no databases and no artificial intelligence on the visitor's path; no personal data collected, no cookies, no accounts, no advertising; every page readable without JavaScript and built to WCAG 2.2 AA. Its editorial charter commits it to a neutral, descriptive voice, and no record is marked reviewed until a person has checked it against its sources.
 
@@ -145,7 +146,7 @@ Enclosure: islam.museum dossier (PDF)
 # islam.museum
 ## An open, Arabic-first digital museum of Islamic civilization, built as a public good
 
-Submitted by Ahmed Abdel Aal, founder, Oakville, Ontario, Canada. Figures are a dated snapshot of the repository (21 October 2026, 17:13 UTC); the public coverage page at https://islam.museum/en/coverage/ shows the figures of the last completed build and may lag the repository by some hours.
+Submitted by Ahmed Abdel Aal, founder, Oakville, Ontario, Canada. Figures are a dated snapshot of the repository (21 October 2026, 23:46 UTC); the public coverage page at https://islam.museum/en/coverage/ shows the figures of the last completed build and may lag the repository by some hours.
 
 ### 1. Executive summary
 
@@ -157,16 +158,16 @@ Submitted by Ahmed Abdel Aal, founder, Oakville, Ontario, Canada. Figures are a 
 
 | Measure | Figure |
 |---|---|
-| Structured records | 33,578 in 21 classes |
-| Relations between records | 31,823 |
-| Persons / events / buildings / places | 8,122 / 4,000 / 5,568 / 1,665 |
+| Structured records | 33,919 in 21 classes |
+| Relations between records | 32,526 |
+| Persons / events / buildings / places | 8,191 / 4,268 / 5,571 / 1,665 |
 | Works / concepts / polities / groups | 1,453 / 399 / 174 / 339 |
 | Qur'anic passages indexed as records (Tanzil text, unaltered) | 9,546 |
 | Learning trails (exhibits) / films and series indexed / journeys | 301 / 315 / 49 |
 | Plain-language answers to common questions | 220 |
 | Named historical periods / regions / themes | 13 / 14 / 132 |
-| Articles in Arabic / English / Urdu | 19,584 / 19,504 / 19,504 |
-| Records that are preliminary cards awaiting proper sourcing (see section 4) | about 6,840 |
+| Articles in Arabic / English / Urdu | 20,055 / 19,759 / 19,759 |
+| Records that are preliminary cards awaiting proper sourcing (see section 4) | 6,841 |
 
 **Reach.** Between its launch on 11 October and 21 October 2026, Cloudflare's edge analytics (which set no cookies and run no code in the page) counted 37,930 distinct addresses, about 1.4 million requests and 960,000 page views. Most of this traffic is automated, and that is itself the point of a machine-readable museum: by user agent alone, GPTBot (OpenAI), ClaudeBot (Anthropic), PerplexityBot, Amazonbot, Googlebot and Meta's crawler account for about 71 percent of page views, and about 91 percent of page views came from United States data-centre addresses. Human readership in the first ten days is in the low thousands; visits referred by Google search numbered about 1,700. The share of human readers will be reported from Cloudflare's bot classification once a full month has passed.
 
@@ -191,7 +192,7 @@ Submitted by Ahmed Abdel Aal, founder, Oakville, Ontario, Canada. Figures are a 
 | Graph | Sigma.js on graphology | Tens of thousands of nodes explorable in the browser |
 | Accessibility | WCAG 2.2 AA target; alt text required on every media record in all three languages; right-to-left layout as the default | Readable by screen readers and on low-bandwidth connections |
 
-**What the public can do on the site.** Read any record with its sources, dates in the Hijri and Gregorian calendars and its relations; read the Qur'an in a continuous reader with public-domain English and Urdu translations; read the Muwatta of Malik report by report with transmission chains shown; browse a poetry anthology; follow 301 learning trails with a step-by-step player that works without JavaScript and prints as a handout; ask 220 common questions and get sourced plain-language answers; explore the knowledge graph, the map and the timeline; walk a 3D hall; use a Hijri calendar with a converter and calendar export; keep a personal "my tour" of bookmarks in the browser only; visit a children's section that hides violent, mature and contested material; browse an art gallery of 1,261 AI-generated illustrations, each badged as such; and download everything.
+**What the public can do on the site.** Read any record with its sources, dates in the Hijri and Gregorian calendars and its relations; read the Qur'an in a continuous reader with public-domain English and Urdu translations; read the Muwatta of Malik report by report with transmission chains shown; browse a poetry anthology; follow 301 learning trails with a step-by-step player that works without JavaScript and prints as a handout; ask 220 common questions and get sourced plain-language answers; explore the knowledge graph, the map and the timeline; walk a 3D hall; use a Hijri calendar with a converter and calendar export; keep a personal "my tour" of bookmarks in the browser only; visit a children's section that hides violent, mature and contested material; browse an art gallery of 1,361 AI-generated illustrations, each badged as such; and download everything.
 
 **Open data by design.**
 
@@ -207,7 +208,7 @@ Submitted by Ahmed Abdel Aal, founder, Oakville, Ontario, Canada. Figures are a 
 
 **SDG 4, quality education (targets 4.7 and 4.a).** The museum is a free, open, Arabic-first learning resource that requires no account, no payment and no high-bandwidth device. Its 220 question pages answer, in plain words and with sources, the questions the public actually asks about Islam. Its 301 learning trails give a goal, prerequisites and a route, and print as handouts. Its depth setting lets a twelve-year-old and a historian read the same record at different depths. Its CC BY-SA prose and CC0 data can be reused in textbooks, school projects and open educational resources without permission. It is built for the 1.9 to 2 billion people for whom Islamic civilization is their own history and for everyone else who meets it through news, travel or neighbours.
 
-**SDG 11.4, safeguarding cultural and natural heritage.** The museum documents heritage rather than holding it: 5,568 buildings, 1,665 places with gazetteer identifiers, 4,000 dated events, 8,122 people, 1,453 works and 516 objects, and the relations between them, in a durable, forkable, public-domain form. Documentation in this form survives the loss of any single institution, server or funder, and it is the layer that search engines and AI systems read when they describe heritage to the public.
+**SDG 11.4, safeguarding cultural and natural heritage.** The museum documents heritage rather than holding it: 5,571 buildings, 1,665 places with gazetteer identifiers, 4,268 dated events, 8,191 people, 1,453 works and 516 objects, and the relations between them, in a durable, forkable, public-domain form. Documentation in this form survives the loss of any single institution, server or funder, and it is the layer that search engines and AI systems read when they describe heritage to the public.
 
 **SDG 16.10, public access to information.** Every record shows its sources and its review state; contested questions are shown as labelled, cited perspectives; the collection is open to everyone, in every country, with no tracking, no accounts and no advertising.
 
@@ -222,9 +223,9 @@ Submitted by Ahmed Abdel Aal, founder, Oakville, Ontario, Canada. Figures are a 
 The museum states its limits so that the reader can judge it exactly.
 
 - **Age.** Planning, design and content development began in September 2025; the public site was first published on 11 October 2026. Several UNESCO prizes require at least one year of implementation with evidence of concrete activities; the museum can document its full development history.
-- **Review status.** All 33,578 records are machine-validated and carry a review state, and none has yet been marked reviewed by a person. Human review is the museum's largest cost and its next priority; the review state is shown on every page.
-- **Preliminary cards.** About 6,840 records, most of them buildings and events imported from Wikidata between 19 and 21 October 2026, are preliminary cards: they carry labels, identifiers and a placeholder citation, and their summary states that their sources have not yet been reviewed. They are counted in the totals above and are being resolved record by record. Excluding them, the collection holds about 26,700 records with at least one citation other than the placeholder.
-- **Media.** 471 photograph and map records: 284 under CC0, the public-domain mark, CC BY or CC BY-SA, and 187 photographs from the Victoria and Albert Museum displayed from the museum's own servers under its non-commercial terms, never copied and not part of the reusable data. The 1,261 illustrations in the art gallery are AI-generated, made locally with an open-weights model under rules that exclude people, faces, figures and text, and badged as such on every page; their licence line and their English and Urdu alt text are being added.
+- **Review status.** All 33,919 records are machine-validated and carry a review state, and none has yet been marked reviewed by a person. Human review is the museum's largest cost and its next priority; the review state is shown on every page.
+- **Preliminary cards.** 6,841 records, most of them buildings and events imported from Wikidata between 19 and 21 October 2026, are preliminary cards: they carry labels, identifiers and a placeholder citation, and their summary states that their sources have not yet been reviewed. They are counted in the totals above and are being resolved record by record. Excluding them, the collection holds about 27,100 records with at least one citation other than the placeholder.
+- **Media.** 471 photograph and map records: 284 under CC0, the public-domain mark, CC BY or CC BY-SA, and 187 photographs from the Victoria and Albert Museum displayed from the museum's own servers under its non-commercial terms, never copied and not part of the reusable data. The 1,361 illustrations in the art gallery are AI-generated, made locally with an open-weights model under rules that exclude people, faces, figures and text, and badged as such on every page. A visual audit has flagged twelve of them against those rules (four show a human figure or face, eight show script-like marks); they are listed for removal and regeneration and were still published on the date of this dossier. Their licence line and their English and Urdu alt text are being added.
 - **Legal vehicle.** The project is the founder's own; no legal entity exists and no filing has been made. The founder intends to incorporate a Canadian not-for-profit so that prize funds, grants and partnerships can be received by an institution rather than an individual.
 - **Independence.** The project has received no funding from UNESCO and has no affiliation with it. It carries no advertising, is funded by its founder, and will not change its editorial rules for any funder.
 - **Risk of misuse.** The charter forbids rulings, sermon voice, inferred religious affiliation and the phrase "enemy of Islam" or its equivalents in the museum's own voice. Contested matters are presented through labelled perspectives. Scripture is never retyped. These rules are enforced by the validator, not only by policy.
@@ -250,7 +251,7 @@ In return the museum commits to: resolving the preliminary cards and publishing 
 | Planning and design began | September 2025 (prototype timelinethis.app; domain registered 19 September 2025) |
 | First public release | 11 October 2026 |
 | Languages | Arabic (default, right-to-left), English, Urdu |
-| Records / relations | 33,578 / 31,823 (21 October 2026), of which about 6,840 preliminary cards |
+| Records / relations | 33,919 / 32,526 (21 October 2026, 23:46 UTC), of which 6,841 preliminary cards |
 | Licences | Data CC0 1.0; prose CC BY-SA 4.0; code MIT; media per item |
 | Hosting | Static files on Cloudflare Pages and R2 (GitHub Pages fallback); no servers, no databases, no runtime AI |
 | Privacy | No accounts, no cookies, no advertising, no third-party tracking; statement in three languages |
