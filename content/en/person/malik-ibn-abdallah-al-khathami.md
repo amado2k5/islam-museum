@@ -2,11 +2,7 @@
 id: person/malik-ibn-abdallah-al-khathami
 lang: en
 source_lang: ar
-translators: ["Claude Haiku 5.5 (claude-haiku-5-5), draft translation"]
+translators: []
 ---
-
 ## Overview
-Malik ibn Abdallah al-Khathami, also called Malik al-Sawa'if, from Palestine. {cite:futuh-buldan-maarif-1407}
-
-## The raid on the Romans
-Al-Baladhuri says that he raided the lands of the Romans in 46 AH and took much booty. On the way back, fifteen miles from the pass of [[place/al-hadath|al-Hadath]], he stayed three days at a place called al-Rahwa. He sold the booty and divided its shares, and so al-Rahwa was called "Rahwat Malik". {cite:futuh-buldan-maarif-1407}
+Malik al-Saraya — the amir Abu Hakim Malik ibn 'Abdallah al-Khath'ami; he led the summer-expedition armies for forty years, and when he died, it is said, forty banners were broken over his grave, for he had a great share of fasting, night prayer and jihad. He died in 60 AH or after. {cite:siyar-alam-nubala-ideas-house p.3169}
