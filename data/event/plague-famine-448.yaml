@@ -1,0 +1,22 @@
+id: event/plague-famine-448
+class: event
+kind: epidemic
+label: { ar: "الطاعون والمجاعة العظمى" }
+summary:
+  ar: "في سنة ثمان وأربعين وأربعمائة عمّ الغلاء والوباء بغداد ومصر ومكة والحجاز والبصرة والموصل وخراسان والجبال والدنيا كلها، حتى بلغ الكر من الحنطة ببغداد تسعين دينارًا ثم مائة وثمانين، وكان يموت في اليوم الألف نفس وكفّن السلطان من ماله ثمانية عشر ألف إنسان وحُمل كل أربعة وخمسة في تابوت، وباع عطّار في يوم ألف قارورة فيها شراب {cite:muntazam-ibn-al-jawzi j.8 p.512-513}. وفي سنة ٤٤٩ ورد كتاب من تجار ما وراء النهر أن الوباء خرج من إقليمهم في يوم واحد ثمانية عشر ألف جنازة، وأُحصي من مات حتى كُتب الكتاب فكانوا ألف ألف وستمائة ألف وخمسين ألفًا، وأتى الخبر بمثله عن آذربيجان والأهواز وواسط والنيل ومطيراباذ والكوفة حتى كان يُحفر للعشرين زبية فيُلقون فيها؛ وأكل الفقراء الكلاب ونبشوا القبور، وشُوهدت امرأة تمضغ فخذ كلب ميت ورُؤي رجل شوى صبيّة في أتون فأكلها فقُتل، وسُدّت أبواب دور مات أهلها، وطُويت التجارات وليس للناس شغل إلا غسل الأموات ودفنهم، وتاب الناس وأراقوا الخمور وكسّروا المعازف ولزموا المساجد {cite:muntazam-ibn-al-jawzi j.8 p.521-522}."
+  en: "The great plague-and-famine of 448–449: wheat at 90 then 180 dinars the kurr in Baghdad, a thousand deaths a day, the sultan shrouding 18,000 corpses at his own expense four and five to a bier; a Transoxianan merchants' letter counting 18,000 funerals in a single day and 1,650,000 dead before the ink dried — graves dug for twenty at a time, markets empty, the poor eating dogs and exhuming the dead, and a general repentance of wine-pouring and instrument-breaking {cite:muntazam-ibn-al-jawzi j.8 p.512-513,521-522}."
+wings: [time]
+periods: [period/buyid-seljuk-fatimid-era]
+regions: [levant-iraq, persia-central-asia, egypt-nile]
+themes: [cities]
+date:
+  start: { edtf: "1056", hijri: "0448", calendar: julian, precision: year, status: tradition, derived: true, note: "448–449؛ التحويل مشتق." }
+relations:
+  - { type: occurred_at, target: place/baghdad, sources: [source/muntazam-ibn-al-jawzi] }
+provenance:
+  layer: own-research
+  source: "المنتظم لابن الجوزي (ط حيدرآباد 1357، ج8، سنة 448–449)، قراءة آبل فيجن"
+  generated_by: "Devin (SWE-2 Medium) from Apple Vision OCR"
+  run: lib-muntazam-350-474-batch25
+sources: [source/muntazam-ibn-al-jawzi]
+status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 Medium)" }

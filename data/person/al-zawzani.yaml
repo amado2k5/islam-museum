@@ -1,0 +1,26 @@
+id: person/al-zawzani
+class: person
+label:
+  ar: "أبو الحسن الزوزني"
+  en: "Abu'l-Hasan al-Zawzani"
+names:
+  - { value: "علي بن محمود بن إبراهيم بن ماخرة أبو الحسن الزوزني", kind: full }
+summary:
+  ar: "شيخ الصوفية ببغداد، ولد سنة ست وستين وثلاثمائة وأمه ماخرة كانت عجوزًا، صحب أبا الحسن الحصري وروى عن أبي عبد الرحمن السلمي، وصار شيخ الصوفية فنُسب إليه الرباط المقابل لجامع المنصور، وإنما بني للحصري والزوزني صاحب الحصري فنُسب إلى الزوزني، وكان يقول «صحبت ألف شيخ أحدهم الحصري، أحفظ عن كل شيخ حكاية». توفي في رمضان سنة إحدى وخمسين وأربعمائة ودُفن بالرباط {cite:muntazam-ibn-al-jawzi j.8 p.555}."
+  en: "Shaykh of the Sufis of Baghdad, companion of Abu'l-Hasan al-Husri and transmitter from Abd al-Rahman al-Sulami; the ribat opposite the Mansur mosque — built for al-Husri — came to bear his name, and he used to say 'I accompanied a thousand shaykhs, the first of them al-Husri, and from each I kept a tale'. Died Ramadan 451, buried in the ribat {cite:muntazam-ibn-al-jawzi j.8 p.555}."
+gender: male
+wings: [people]
+periods: [period/buyid-seljuk-fatimid-era]
+regions: [levant-iraq]
+born: { edtf: "0977~", hijri: "0366", calendar: julian, precision: year, status: tradition, derived: true, note: "ولد سنة ٣٦٦؛ التحويل مشتق {cite:muntazam-ibn-al-jawzi j.8 p.555}." }
+died: { edtf: "1059-08", hijri: "0451-09", calendar: julian, precision: month, status: tradition, derived: true, note: "رمضان ٤٥١؛ التحويل مشتق {cite:muntazam-ibn-al-jawzi j.8 p.555}." }
+roles: [scholar]
+relations:
+  - { type: student_of, target: person/al-sulami, role: "روى عنه", sources: [source/muntazam-ibn-al-jawzi] }
+provenance:
+  layer: own-research
+  source: "المنتظم لابن الجوزي (ط حيدرآباد 1357، ج8، وفيات سنة 451)، قراءة آبل فيجن"
+  generated_by: "Devin (SWE-2 Medium) from Apple Vision OCR"
+  run: lib-muntazam-350-474-batch25
+sources: [source/muntazam-ibn-al-jawzi]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 Medium)" }

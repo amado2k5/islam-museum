@@ -5,7 +5,7 @@ source_lang: ar
 translators: ["Claude Haiku 5.5 (claude-haiku-5-5), draft translation"]
 ---
 ## خلاصہ
-سیوطی کے مطابق سنہ 454ھ میں خلیفہ [[person/al-qaim-billah|القائم]] نے اپنی بیٹی کا نکاح [[person/tughrul-beg|طغرل بیگ]] سے کیا۔ {cite:tarikh-khulafa-minhaj-1434 p.645}
+سیوطی کے مطابق سنہ 454ھ میں خلیفہ [[person/al-qaim-billah|القائم]] نے اپنی بیٹی کا نکاح [[person/tughril-beg|طغرل بیگ]] سے کیا۔ {cite:tarikh-khulafa-minhaj-1434 p.645}
 
 ## خبر
 سیوطی بیان کرتے ہیں کہ القائم نے اس معاملے کو ہر ممکن طریقے سے ٹالا، پریشان ہوئے اور معذرت کی، پھر آخر کار راضی ہو گئے۔ وہ کہتے ہیں کہ بنی بویہ کے بادشاہوں کو، خلفاء پر اپنا تسلط ہونے کے باوجود، یہ مقام کبھی حاصل نہ ہوا۔ {cite:tarikh-khulafa-minhaj-1434 p.645}

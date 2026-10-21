@@ -15,4 +15,4 @@ Ibn al-Imad describes him as generally just, forbearing and generous, observant 
 ## His marriage and death
 He reports that the daughter of al-Qa'im was conducted to him on the night of Monday, the fifteenth of Safar in the year 455 AH. He consummated the marriage when he was seventy years old, and had no child after her. He died in al-Rayy and was buried beside the grave of his brother Dawud {cite:shadharat-dhahab p.302-303}.
 
-The date of death in the data is derived (around 1063 CE) and is flagged as a report. See also [[person/tughrul-beg|Tughrul Beg in Tarikh al-Khulafa']].
+The date of death in the data is derived (around 1063 CE) and is flagged as a report. See also [[person/tughril-beg|Tughrul Beg in Tarikh al-Khulafa']].

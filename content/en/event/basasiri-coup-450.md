@@ -5,7 +5,7 @@ source_lang: ar
 translators: ["Claude Haiku 5.5 (claude-haiku-5-5), draft translation"]
 ---
 ## Overview
-The author of "Tarikh al-Khulafa" relates that the power of [[person/al-basasiri|Arslan al-Turki al-Basasiri]] grew, and prayers were said for him from the pulpits. Then news reached the caliph [[person/al-qaim-billah|al-Qa'im]] of what he took to be the man's corrupt belief and his resolve to plunder the caliphal palace, so he called on [[person/tughrul-beg|Tughril Beg]] for help. {cite:tarikh-khulafa-minhaj-1434 p. 642}
+The author of "Tarikh al-Khulafa" relates that the power of [[person/al-basasiri|Arslan al-Turki al-Basasiri]] grew, and prayers were said for him from the pulpits. Then news reached the caliph [[person/al-qaim-billah|al-Qa'im]] of what he took to be the man's corrupt belief and his resolve to plunder the caliphal palace, so he called on [[person/tughril-beg|Tughril Beg]] for help. {cite:tarikh-khulafa-minhaj-1434 p. 642}
 
 ## Entry into Baghdad
 al-Basasiri came to Baghdad in 450 AH with the Egyptian banners. Prayers were said there for the ruler of Egypt, [[person/al-mustansir-fatimid|al-Mustansir]], in the mosque of al-Mansur, and "come to the best of works" was added to the call to prayer. The fighting lasted a month, then the caliph was seized and imprisoned at Anah. {cite:tarikh-khulafa-minhaj-1434 p. 642}
