@@ -1,4 +1,10 @@
 User-agent: *
 Allow: /
+# The graph explorer is one page per language; every entity page links to it with
+# ?from=<class/slug>, which made crawlers fetch about 100,000 identical copies
+# (about 150,000 page views in the first ten days). The bare /graph/ pages stay crawlable.
+Disallow: /ar/graph/?
+Disallow: /en/graph/?
+Disallow: /ur/graph/?
 Content-Signal: ai-train=no, search=yes, ai-input=no
 Sitemap: https://islam.museum/sitemap.xml

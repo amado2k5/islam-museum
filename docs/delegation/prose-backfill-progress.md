@@ -128,3 +128,27 @@ Largest batch so far: trilingual prose (ar+en+ur) for 20 `person` records, all f
 - `person/muslim-ibn-ibrahim` — e80 p.360-361 (Farahidi musnad-master, "100 shaykhs before the bridge", d. Safar 222)
 
 Deferred list unchanged. Validation: 0 errors; coverage regenerated.
+
+### 006 — 21 Oct 2026
+
+15 `person` records, trilingual, all entries read on the page in tazkirat-al-huffaz (AAlexandrina-224163):
+
+- `person/imran-ibn-husayn` — p.32 (Companion, qadi of Basra, d. 52)
+- `person/qays-ibn-abi-hazim` — p.61-62 (mukhadram, Yamama veteran, d. ~97)
+- `person/yunus-ibn-ubayd` — p.141-142 (the honest cloth-merchant, d. 139)
+- `person/musa-ibn-uqba` — p.143-144 (author of the Maghazi, d. 141)
+- `person/ibn-jurayj` — p.164-166 (faqih of the Haram, first compiler, d. 150)
+- `person/israil-ibn-yunus` — p.203-204 (Abu Yusuf al-Sabi'i, d. 161/162)
+- `person/hammad-ibn-zayd` — p.215-216 (one of Ibn Mahdi's four imams, blind, d. 179)
+- `person/mutamir-ibn-sulayman` — p.249-250 (al-Taymi of Basra, b. 106, d. Safar 187)
+- `person/hafs-ibn-ghiyath` — p.278 (qadi of Baghdad then Kufa, d. 184)
+- `person/yahya-al-qattan` — p.278-279 (sayyid al-huffaz, b. 120)
+- `person/nadr-ibn-shumayl` — p.292-293 (philologist of Marw, d. 203)
+- `person/abd-al-rahman-ibn-mahdi` — p.305-307 (the great critic, d. 198)
+- `person/abu-dawud-al-tayalisi` — p.324-325 (40,000 hadiths by memory, d. 204)
+- `person/abu-asim-al-nabil` — p.337-338 (never narrated but from memory, d. 212)
+- `person/qutayba-ibn-said` — p.406-407 (hadith-master of Khurasan, d. 240)
+
+Likely duplicate flagged: `person/mutarrif-ibn-abdallah` (muruj-al-dhahab letter to Umar II) vs `person/mutarrif-ibn-al-shikhkhir` — same man; needs dedup decision.
+Still deferred: hammad-ibn-salama, bishr-al-hafi, maruf-al-karkhi, malik-ibn-dinar-al-khattat, waki-ibn-al-jarrah, shuba-ibn-al-hajjaj (entries not in this scan's OCR or garbled); plus previous deferrals.
+Validation: 0 errors; coverage regenerated.
