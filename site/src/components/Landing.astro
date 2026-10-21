@@ -20,7 +20,7 @@ const EXPLORE = explorePages(lang);
 const pages = 2 * realNodes.length;
 const stats = fmt(T.landing.stats, { items: num(realNodes.length, lang), pages: num(Math.round(pages / 1000) * 1000, lang) });
 ---
-<BaseLayout lang={lang} title={T.tagline} path={path} jsonld={{ "@context": "https://schema.org", "@type": "WebSite", name: "islam.museum", url: "https://islam.museum/", inLanguage: ["en", "ar"], license: "https://creativecommons.org/licenses/by-sa/4.0/" }}>
+<BaseLayout lang={lang} title={T.tagline} path={path} jsonld={{ "@context": "https://schema.org", "@type": "WebSite", name: "islam.museum", url: "https://islam.museum/", inLanguage: ["en", "ar"], license: "https://creativecommons.org/licenses/by-sa/4.0/", sameAs: "https://www.wikidata.org/wiki/Q141801006" }}>
   <section class="lhero" aria-labelledby="hero-title">
     <Logo size={300} class="lhero-star" variant="mono" alt={T.name} />
     <div class="wrap" style="position:relative">

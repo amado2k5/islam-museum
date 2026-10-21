@@ -1,0 +1,28 @@
+id: event/muwaffaq-rescue-267
+class: event
+kind: campaign
+label: { ar: "حملة الموفق على الزنج واستنقاذ الأسارى" }
+summary:
+  ar: "في سنة سبع وستين ومائتين دخل الزنج واسطًا، فندب أبو أحمد الموفق ولده أبا العباس لحربهم في عشرة آلاف، فاستنقذ من النساء اللواتي كنّ في أيدي الزنج خلقًا كثيرًا فردّهن إلى أهلهن، ثم وافاه أبوه أبو أحمد فحاربهم واستنقذ من المسلمات زهاء خمسة عشر ألف امرأة وأمر بحملهن إلى واسط ليدفعهن إلى أوليائهن، ثم ألجأهم إلى مدينة بنوها وحصّنوها وحفروا حولها الخنادق فأجلاهم عنها، وبعث إلى رئيس الزنج كتابًا يدعوه فيه إلى التوبة والدخول في جماعة المسلمين فلم يجب عنه، فعسكر أبو أحمد في المدينة التي سُمّيت الموفقية ومنها عبر إلى مدينة القوم في ذي الحجة فغلبوا على ركن من أركانها وأحرقوا ما كان على سورهم من منجنيق وعرادة وكشفوا الزنج {cite:muntazam-ibn-al-jawzi p. 58-60}."
+  en: "In 267 the Zanj entered Wasit; Abu Ahmad al-Muwaffaq sent his son Abu'l-Abbas with ten thousand who freed a great number of captive women, then joined him and rescued some fifteen thousand Muslim women, penned the Zanj back into their fortified city, and — when his letter inviting their leader to repent went unanswered — founded the camp-city al-Muwaffaqiyya and crossed in Dhu'l-Hijja to burn the mangonels on their walls and rout them {cite:muntazam-ibn-al-jawzi p. 58-60}."
+wings: [time]
+periods: [period/abbasid-early]
+regions: [levant-iraq]
+sides:
+  - label: { ar: "عسكر أبي أحمد الموفق" }
+    commanders: [person/abu-ahmad-al-muwaffaq]
+  - label: { ar: "الزنج" }
+map: { kind: locator, precision: approximate, center: [46.03, 32.17] }
+date:
+  start: { edtf: "0881~", hijri: "0267", calendar: julian, precision: year, status: tradition, derived: true, note: "٢٦٧؛ التحويل مشتق {cite:muntazam-ibn-al-jawzi p. 58}." }
+relations:
+  - { type: occurred_at, target: place/wasit, sources: [source/muntazam-ibn-al-jawzi] }
+  - { type: had_participant, target: person/abu-ahmad-al-muwaffaq, role: "القائد", sources: [source/muntazam-ibn-al-jawzi] }
+  - { type: had_participant, target: person/sahib-al-zanj, role: "زعيم الزنج", sources: [source/muntazam-ibn-al-jawzi] }
+provenance:
+  layer: own-research
+  source: "المنتظم لابن الجوزي (ط حيدرآباد 1357، ج5 ق2، سنة 267)، قراءة آبل فيجن"
+  generated_by: "Devin (SWE-2 Medium) from Apple Vision OCR"
+  run: lib-muntazam-258-349-batch26
+sources: [source/muntazam-ibn-al-jawzi]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 Medium)" }

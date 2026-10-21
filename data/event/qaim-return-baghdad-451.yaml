@@ -1,0 +1,26 @@
+id: event/qaim-return-baghdad-451
+class: event
+kind: other
+label: { ar: "عودة القائم من الحديثة إلى بغداد" }
+summary:
+  ar: "في سنة إحدى وخمسين وأربعمائة استرد الخليفة القائم بأمر الله عاصمته بعد سنة كاملة من ملك البساسيري لبغداد: كان مضيفه مهارش العقيلي صاحب الحديثة قد وفى له ورفض طلب قريش بن بدران إخراجه، فلما وصل طغربك بغداد وأرسل عميد الملك في ثلاثمائة غلام بأربع عشرة بختية عليها السرادق والفروش وستة بغال عليها الثياب وبغل عليه مهد مسجّف وثلاثة أفراس بالمراكب الذهب، نقله ابن فورك من الحديثة إلى قلعة تل عكبرا ثم إلى سرادق النهروان. فلما وقعت عين السلطان على السرادق نزل عن فرسه ومشى إليه ودخل فقبّل الأرض سبع مرات، وأخرج الخليفة من قبائه جبل الياقوت الأحمر الذي كان لبني بويه واثنتي عشرة حبة لؤلؤ كبارًا فطرحها بين يديه وأرسلت أرسلان خاتون تسأل أن تسبح بها سبحة. واعتذر طغربك عن تأخره بعصيان أخيه إبراهيم الذي خنقه بوتر قوسه، وقال: أنا إن شاء الله أمضي وراء هذا الكلب — يعني البساسيري — فأقتنصه وأرم إلى الشام وأفعل بصاحب مصر فيها ما يكون جزاء فعله هنا؛ فقلّده الخليفة بيده سيفًا كان إلى جنبه وقال إنه لم يُسلم معه وقت خروجه غير هذا السيف فقد تبرّك به وشرّفه بتقليده. ودخل الخليفة البلد يوم الاثنين لخمس بقين من ذي القعدة، وتقدّم السلطان إلى باب النوبي وقعد مكان الحاجب على دكته حتى ورد الخليفة والعسكر محتفون به، ولم يكن في بغداد من يستقبله سوى قاضي القضاة وثلاثة أنفس من الشهود لهرب الناس {cite:muntazam-ibn-al-jawzi j.8 p.547-550}. واتفق أن خروج الخليفة من داره كان يوم الثلاثاء ثامن عشر كانون الثاني ومقتل البساسيري يوم الثلاثاء ثامن عشر كانون الثاني من السنة الآتية، وهذا من الاتفاقات الظريفة {cite:muntazam-ibn-al-jawzi j.8 p.552-553}."
+  en: "The caliph al-Qa'im's restoration after a full year of al-Basasiri's rule: Mihrash the 'Uqaylid of Haditha refused to surrender him, Tughril sent Amid al-Mulk with three hundred ghilman, fourteen Bactrian camels of tents and furnishings and a gold-plated litter; at the Nahrwan pavilion the sultan dismounted, walked, and kissed the ground seven times, while the caliph brought out the Buyid mountain of red yaqut and twelve large pearls. Tughril begged pardon for his delay — 'my jealous brother Ibrahim; I strangled him with his own bowstring' — and the caliph girded on him the only sword saved from his flight. The caliph entered Monday 25 Dhu'l-Qa'da 451, Tughril seated on the gatekeeper's bench at Bab al-Nubi until the procession passed; only the chief qadi and three witnesses were left in Baghdad to receive him {cite:muntazam-ibn-al-jawzi j.8 p.547-550}."
+wings: [time]
+periods: [period/buyid-seljuk-fatimid-era]
+regions: [levant-iraq]
+themes: [politics-governance-and-authority, cities]
+date:
+  start: { edtf: "1060-01", hijri: "0451-11-25", calendar: julian, precision: day, status: tradition, derived: true, note: "الاثنين ٢٥ ذو القعدة ٤٥١؛ التحويل مشتق." }
+relations:
+  - { type: occurred_at, target: place/baghdad, sources: [source/muntazam-ibn-al-jawzi] }
+  - { type: had_participant, target: person/al-qaim-billah, role: "العائد إلى ملكه", sources: [source/muntazam-ibn-al-jawzi] }
+  - { type: had_participant, target: person/tughril-beg, role: "السلطان المستقبل", sources: [source/muntazam-ibn-al-jawzi] }
+  - { type: had_participant, target: person/miharish-ibn-al-majli, role: "مضيف الخليفة بالحديثة", sources: [source/muntazam-ibn-al-jawzi] }
+  - { type: had_participant, target: person/al-kunduri-amid-al-mulk, role: "الموفد بالسرادق", sources: [source/muntazam-ibn-al-jawzi] }
+provenance:
+  layer: own-research
+  source: "المنتظم لابن الجوزي (ط حيدرآباد 1357، ج8، سنة 451)، قراءة آبل فيجن"
+  generated_by: "Devin (SWE-2 Medium) from Apple Vision OCR"
+  run: lib-muntazam-350-474-batch25
+sources: [source/muntazam-ibn-al-jawzi]
+status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 Medium)" }

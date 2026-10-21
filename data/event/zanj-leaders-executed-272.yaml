@@ -1,0 +1,21 @@
+id: event/zanj-leaders-executed-272
+class: event
+kind: persecution
+label: { ar: "قتل رؤساء الزنج في حبس ابن طاهر" }
+summary:
+  ar: "في سنة اثنتين وسبعين ومائتين تحرّكت الزنج بواسط وكان رؤساؤهم في حبس ابن طاهر، فقُتل رؤساؤهم وصُلبوا {cite:muntazam-ibn-al-jawzi p. 85}."
+  en: "In 272 the Zanj stirred again at Wasit while their ringleaders were held in Ibn Tahir's prison; the ringleaders were killed and crucified {cite:muntazam-ibn-al-jawzi p. 85}."
+wings: [time]
+periods: [period/abbasid-early]
+regions: [levant-iraq]
+date:
+  start: { edtf: "0886~", hijri: "0272", calendar: julian, precision: year, status: tradition, derived: true, note: "٢٧٢؛ التحويل مشتق {cite:muntazam-ibn-al-jawzi p. 85}." }
+relations:
+  - { type: occurred_at, target: place/baghdad, sources: [source/muntazam-ibn-al-jawzi] }
+provenance:
+  layer: own-research
+  source: "المنتظم لابن الجوزي (ط حيدرآباد 1357، ج5 ق2، سنة 272)، قراءة آبل فيجن"
+  generated_by: "Devin (SWE-2 Medium) from Apple Vision OCR"
+  run: lib-muntazam-258-349-batch26
+sources: [source/muntazam-ibn-al-jawzi]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 Medium)" }
