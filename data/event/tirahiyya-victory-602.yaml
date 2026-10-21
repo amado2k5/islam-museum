@@ -1,0 +1,22 @@
+id: event/tirahiyya-victory-602
+class: event
+kind: campaign
+label: { ar: "الظفر بالتيراهية", en: "Shihab al-Din's victory over the Tirahis" }
+date:
+  start: { edtf: "1205~", hijri: "0602", calendar: julian, precision: "year", status: tradition, derived: true }
+summary:
+  ar: "ظفر شهاب الدين الغوري بالتيراهية من أهل الجبال بين الهند وخراسان في مسيره إلى بلاد الهند {cite:kamil-ibn-al-athir p. 302}."
+  en: "Shihab al-Din defeated the Tirah mountain folk on his march into India {cite:kamil-ibn-al-athir p. 302}."
+sides:
+  - label: { ar: "شهاب الدين الغوري" }
+  - label: { ar: "التيراهية" }
+relations:
+  - { type: occurred_at, target: place/tirah, sources: [source/kamil-ibn-al-athir] }
+  - { type: had_participant, target: person/shihab-al-din-ghuri, role: "الظافر", sources: [source/kamil-ibn-al-athir] }
+provenance:
+  layer: own-research
+  source: "الكامل في التاريخ لابن الأثير، قراءة آبل فيجن"
+  generated_by: "Devin (SWE-2 Medium) from Apple Vision OCR"
+  run: lib-kamil-v12-batch05
+sources: [source/kamil-ibn-al-athir]
+status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 Medium)" }
