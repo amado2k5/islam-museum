@@ -1,0 +1,28 @@
+id: event/zanj-sack-ahwaz-259
+class: event
+kind: massacre
+label: { ar: "دخول الزنج الأهواز" }
+summary:
+  ar: "في سنة تسع وخمسين ومائتين رجع الموفق من حرب الزنج مسلولًا بالمرض فبعث المعتمد موسى بن بغا فشخّص من سامرا لحرب الزنج في ذي القعدة وشيّعه المعتمد وخلع عليه في الطريق، وكانت بينه وبينهم حروب يطول ذكرها في بضعة عشر شهرًا ثم صُرف موسى عن الحرب؛ ودخل الزنج الأهواز في هذه السنة فقتلوا زهاء خمسين ألفًا {cite:muntazam-ibn-al-jawzi p. 105}."
+  en: "In 259 al-Muwaffaq returned from the Zanj war wasted by illness; al-Mu'tamid sent Musa ibn Bugha against the Zanj in Dhu'l-Qa'da, seeing him off with robes — their war dragged on some thirteen months before Musa was recalled. That year the Zanj entered Ahwaz and killed some fifty thousand {cite:muntazam-ibn-al-jawzi p. 105}."
+wings: [time]
+periods: [period/abbasid-early]
+regions: [levant-iraq, persia-central-asia]
+sides:
+  - label: { ar: "الزنج" }
+    commanders: [person/sahib-al-zanj]
+  - label: { ar: "أهل الأهواز" }
+map: { kind: locator, precision: approximate, center: [48.68, 31.33] }
+date:
+  start: { edtf: "0873~", hijri: "0259", calendar: julian, precision: year, status: tradition, derived: true, note: "٢٥٩؛ التحويل مشتق {cite:muntazam-ibn-al-jawzi p. 105}." }
+relations:
+  - { type: occurred_at, target: place/al-ahwaz, sources: [source/muntazam-ibn-al-jawzi] }
+  - { type: had_participant, target: person/sahib-al-zanj, sources: [source/muntazam-ibn-al-jawzi] }
+  - { type: had_participant, target: person/musa-ibn-bugha, role: "قائد الجند", sources: [source/muntazam-ibn-al-jawzi] }
+provenance:
+  layer: own-research
+  source: "المنتظم لابن الجوزي (ط حيدرآباد 1357، ج5، سنة 259)، قراءة آبل فيجن"
+  generated_by: "Devin (SWE-2 Medium) from Apple Vision OCR"
+  run: lib-muntazam-258-349-batch31
+sources: [source/muntazam-ibn-al-jawzi]
+status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 Medium)" }

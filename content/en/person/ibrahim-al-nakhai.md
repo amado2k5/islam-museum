@@ -2,13 +2,13 @@
 id: person/ibrahim-al-nakhai
 lang: en
 source_lang: ar
-translators: ["Claude Haiku 5.5 (claude-haiku-5-5), draft translation"]
+translators: []
 ---
+## In brief
+Abu Imran Ibrahim b. Yazid b. Qays b. al-Aswad al-Nakha'i of Kufa, the jurist of Iraq; he narrated from Alqama, Masruq, al-Aswad, and a group, and entered upon the Mother of the Believers A'isha, while Hammad b. Abi Sulayman the jurist, Simak b. Harb, al-Hakam b. Utayba, Ibn Awn, al-A'mash, Mansur, and many others took from him. {cite:tazkirat-al-huffaz j.1 p.73}
 
-## Overview
-Abu Imran Ibrahim ibn Yazid ibn al-Aswad ibn Amr ibn Rabi'a al-Nakhai, one of the jurists among the Successors (tabi'un). He grew up in a family of jurisprudence. {cite:tabaqat-fuqaha-abbas-1981 p.44}
+## Standing and scrupulousness
+He was among the sincere scholars; al-Mughira said "we used to fear Ibrahim as an emir is feared", al-A'mash said "I would see Ibrahim praying, then he would come to us and stay a while like a sick man", and he shunned fame and would not sit against the column. {cite:tazkirat-al-huffaz j.1 p.73-74}
 
-## Death
-Al-Shirazi relays from Ahmad that he died in 96 AH. When al-Sha'bi heard of his death he said: "If I said I mourn knowledge, it has left no one like him after it." {cite:tabaqat-fuqaha-abbas-1981 p.44}
-
-The date comes from one source and needs an additional source.
+## His death
+Abu Nu'aym says al-Nakha'i died in 96 AH, Amr b. Ali says at the end of 95 AH, and other reports exist; he was one of the jurist imams of Kufa. {cite:tazkirat-al-huffaz j.1 p.73-74}

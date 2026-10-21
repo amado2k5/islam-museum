@@ -2,13 +2,13 @@
 id: person/salim-ibn-abd-allah-ibn-umar
 lang: en
 source_lang: ar
-translators: ["Claude Haiku 5.5 (claude-haiku-5-5), draft translation"]
+translators: []
 ---
-## Overview
-Salim ibn Abd Allah ibn Umar ibn al-Khattab, one of the jurists of [[place/medina|Medina]], and of the Sunni community {cite:tabaqat-fuqaha-abbas-1981}.
+## In brief
+Salim b. Abdallah b. Umar b. al-Khattab, Abu Abdallah al-Adawi al-Umari of Medina, the jurist and proof, one who combined learning, practice, asceticism, and nobility; he heard his father, A'isha, Abu Hurayra, Rafi' b. Khadij, Safina, and Sa'id b. al-Musayyab, while Amr b. Dinar, al-Zuhri, Ubaydallah b. Umar, Salih b. Kaysan, Musa b. Uqba, Hanzala b. Abi Sufyan, and many others narrated from him. {cite:tazkirat-al-huffaz j.1 p.86}
 
-Rabi'a, according to al-Shirazi, said that the matter of issuing legal opinions ended with Sa'id ibn al-Musayyab, and after his death with al-Qasim and Salim {cite:tabaqat-fuqaha-abbas-1981}.
+## His austerity
+He was very dark-skinned, afflicted in the throat, rough in living, wore wool, and was humble — it is said he bought a garment for two dirhams. Malik said "no one in his time resembled the righteous of the past more in asceticism and merit", Ahmad and Ishaq held the soundest chains from al-Zuhri to be "from Salim, from his father", and Maymun b. Mihran said "Salim was on his father's pattern, without comfort". {cite:tazkirat-al-huffaz j.1 p.86-87}
 
-al-Salabi reports that he was one of the ten jurists whom [[person/umar-ibn-abd-al-aziz|Umar ibn Abd al-Aziz]] invited to the consultative council in Medina, and that he was among the scholars from whom Umar learned good manners {cite:salabi-umayyad-state-2020 p.169-173}.
-
-The reports of his death differ. al-Waqidi said he died in the year 106 AH, and al-Haytham said in the year 108 AH. The conversion to the Common Era, approximately 724 CE, is derived. The entry needs an additional source {cite:tabaqat-fuqaha-abbas-1981}.
+## His death
+He died in 106 AH at an advanced age. {cite:tazkirat-al-huffaz j.1 p.87}

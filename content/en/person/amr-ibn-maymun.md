@@ -2,9 +2,10 @@
 id: person/amr-ibn-maymun
 lang: en
 source_lang: ar
-translators: ["Claude Haiku 5.5 (claude-haiku-5-5), draft translation"]
+translators: []
 ---
-## Overview
-Amr ibn Maymun al-Awdi, one of those who witnessed the stabbing of Umar ibn al-Khattab. He related from Abu Lu'lu' that he stabbed Umar with a double-headed dagger, and stabbed twelve men with him, six of whom died. Then a man threw a cloak over him, and when he was pressed by it he killed himself. He also related the wills of Umar. {cite:tarikh-khulafa-minhaj-1434}
+## In brief
+Amr b. Maymun, the imam Abu Abdallah al-Awdi al-Mudhhaji of Yemen resident in Kufa; he arrived in Abu Bakr's time with Mu'adh and narrated from him and from Umar, Ali, and Ibn Mas'ud, while Abu Ishaq, Husayn, Abda b. Abi Lubaba, Muhammad b. Sawqa, and others narrated from him, and Yahya b. Ma'in declared him reliable. {cite:tazkirat-al-huffaz j.1 p.65}
 
-The data do not give the page number or the text of the wills, which needs an additional source.
+## Pilgrimages and death
+Abu Ishaq says he performed hajj and umra a hundred times and that the sight of him recalled God, and Ibrahim says that in old age he leaned against the wall, and when he heard someone standing in prayer for God he sought refuge in Him. He is said to have died in 75 or 74 AH; his hadith is in the collections but not copious. {cite:tazkirat-al-huffaz j.1 p.65}
