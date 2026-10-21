@@ -4,8 +4,5 @@ lang: en
 source_lang: ar
 translators: []
 ---
-## In brief
-Ata' b. Yasar, the imam al-Rababi Abu Muhammad of Medina, client of the Mother of the Believers Maymuna, the jurist and preacher, brother of Sulayman b. Yasar; he narrated from Maymuna, Ibn Mas'ud, Ubayy b. Ka'b, and Abu Dharr, while Abu Salama, Habib b. Abi Thabit, and Abu Ja'far al-Baqir narrated from him, and al-Nasa'i called him reliable. {cite:tazkirat-al-huffaz j.1 p.88}
-
-## His death
-Al-Haytham b. Adi says he died in 87 AH, while Amr b. Ali gives 103 AH. {cite:tazkirat-al-huffaz j.1 p.88}
+## Overview
+'Ata' ibn Yasar of Medina, an imam, jurist, preacher and admonisher, precise and authoritative, of great standing; he narrated from Abu Ayyub, Zayd, 'A'isha, Abu Hurayra, Usama ibn Zayd and others, while Zayd ibn Aslam, Safwan ibn Sulaym, 'Amr ibn Dinar and others narrated from him. He died in 103 AH. {cite:siyar-alam-nubala-ideas-house p.2692}

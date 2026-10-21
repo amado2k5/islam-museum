@@ -2,13 +2,7 @@
 id: person/makhrama-ibn-nawfal
 lang: en
 source_lang: ar
-translators: ["Claude Haiku 5.5 (claude-haiku-5-5), draft translation"]
+translators: []
 ---
-
 ## Overview
-Makhrama ibn Nawfal of Quraysh, whom the source describes as one of "the tongues of Quraysh", that is, one who knew the lineages of his people. {cite:futuh-buldan-maarif-1407}
-
-## In the register
-[[person/umar-ibn-al-khattab|Umar]] summoned him, with Aqil and Jubayr, to record people in the register (diwan) according to their ranks. {cite:futuh-buldan-maarif-1407}
-
-The data do not give the page number, and the rest of his life needs an additional source.
+Makhrama ibn Nawfal ibn Uhayb ibn 'Abd Manaf ibn Zuhra ibn Kilab, Abu al-Miswar al-Qurashi al-Zuhri, a Companion among the tulaqa', and one of those whose hearts were reconciled — the Prophet gifted him a fine suit which he sold for forty uqiyyas. He died in 54 AH. {cite:siyar-alam-nubala-ideas-house p.3808}

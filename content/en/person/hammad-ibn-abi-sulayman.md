@@ -2,14 +2,7 @@
 id: person/hammad-ibn-abi-sulayman
 lang: en
 source_lang: ar
-translators: ["Claude Haiku 5.5 (claude-haiku-5-5), draft translation"]
+translators: []
 ---
-
 ## Overview
-Abu Isma'il Hammad ibn Abi Sulayman, a client of Ibrahim ibn Abi Musa al-Ash'ari, a jurist who studied under [[person/ibrahim-al-nakhai|Ibrahim al-Nakha'i]]. {cite:tabaqat-fuqaha-abbas-1981 p.44}.
-
-## His succession to al-Nakha'i
-Al-Shirazi in "Tabaqat al-Fuqaha" mentions that Ibrahim was asked who would succeed him, and he said: Hammad. {cite:tabaqat-fuqaha-abbas-1981 p.44}.
-
-## His death
-He died in 119 AH, and it is said in 120 AH, according to al-Shirazi. The word "it is said" signals doubt, so the date is disputed. {cite:tabaqat-fuqaha-abbas-1981 p.44}.
+Hammad ibn Abi Sulayman ibn Muslim of Kufa, client of the Ash'ari family, originally from Isfahan; he narrated from Anas ibn Malik and took fiqh from Ibrahim al-Nakha'i, being his noblest, most juridical and sharpest pupil in disputation and ra'y — and it is to him that Abu Hanifa traces his fiqh. He died in 119 AH. {cite:siyar-alam-nubala-ideas-house p.1558}

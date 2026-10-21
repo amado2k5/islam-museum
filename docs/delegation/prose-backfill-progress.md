@@ -213,3 +213,8 @@ Validation: 0 errors; coverage regenerated.
 - Enriched: aisha-bint-talha (p.2077).
 - Deferred: al-kumayt, al-hasan-ibn-sahl, anas-ibn-iyad, ismail-ibn-hammad-al-qadi, amr-ibn-al-harith (index or interleaved bodies).
 - Lane total: 151 records. Validation: 0 errors; coverage regenerated.
+
+## Batch 015 — siyar header-index sweep V (16 records)
+
+- New/enriched prose: kharija-ibn-zayd-ibn-thabit (p.1590, Seven Fuqaha, d.99/100), hajjaj-ibn-artah (p.1366, mufti of Kufa, d.149), maqil-ibn-yasar (p.3905, Companion), rawh-ibn-hatim (p.1700, Muhallabid amir, d.174), bishr-ibn-marwan (p.1209, d.75), salih-ibn-kaysan (p.2016, tutor of Umar II's sons), humran-ibn-aban (p.1566, Uthman's mawla, d.89), makhrama-ibn-nawfal (p.3808, Companion, d.54), hammad-ibn-abi-sulayman (p.1558, Abu Hanifa's teacher, d.119), ata-ibn-yasar (p.2692, d.103), musab-ibn-sad-ibn-abi-waqqas (p.3859, d.103 — earlier deferral resolved), ibrahim-ibn-sad-al-zuhri (p.661, d.183), sulayman-ibn-qutta (p.1922, muqri' poet), malik-ibn-abdallah-al-khathami (p.3169, Malik al-Sawa'if), ishaq-ibn-al-furat (p.1072, qadi of Egypt, d.204), ali-ibn-rabah-al-lakhmi (p.2779, d.114).
+- Lane total: 167 records. Validation: 0 errors; coverage regenerated.
