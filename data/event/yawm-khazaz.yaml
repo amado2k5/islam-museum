@@ -1,0 +1,24 @@
+id: event/yawm-khazaz
+class: event
+kind: battle
+label: { ar: "يوم خزاز — اجتماع معد على كليب", en: "the day of Khazāz — all Maʿadd under Kulayb break the Yemen host" }
+date:
+  start: { edtf: "0470", calendar: julian, precision: year, status: tradition, derived: true, note: "جاهلي؛ التاريخ تقريبي عند أهل الأيام {cite:kamil-ibn-al-athir p. 392-393}." }
+summary:
+  ar: "احتبس ملك من ملوك اليمن بعض وفد معد رهينة وقال ائتوني برؤساء قومكم لآخذ عليهم المواثيق وإلا قتلت أصحابكم، فبعث كليب وائل إلى ربيعة فجمعهم واجتمعت عليه معد — وهو أحد ثلاثة اجتمعت عليهم معد — وجعل على مقدمته السفاح التغلبي وأمرهم أن يوقدوا على خزاز نارًا ليهتدوا بها وإن غشيهم العدو أوقدوا نارين، وخزاز جبل بطخفة ما بين البصرة إلى مكة قريب من سالع. فسارت مذحج بجموع اليمن فأوقد السفاح نارين فصحبهم كليب بالجموع فالتقوا بخزاز فانهزمت مذحج وانفضت جموعها، وقيل لم يعلم من كان الرئيس يوم خزاز لأن عمرو بن كلثوم وهو ابن ابنة كليب لم يدع له الرياسة في فخره وهي أشرف ما كان يفتخر به {cite:kamil-ibn-al-athir p. 392-393}."
+  en: "A Yemeni king held part of a Maʿadd embassy hostage, demanding their chiefs come covenant obedience or the captives die. Kulayb ibn Rabīʿa summoned Rabīʿa and all Maʿadd gathered to him — one of only three men ever so followed — with al-Saffāḥ al-Taghlibī leading the van and ordered to light signal fires on Mount Khazāz, by Ṭakhfā on the Basra–Mecca road: two fires if the enemy closed. When the fires rose, Kulayb brought the host and at Khazāz they broke Madhḥij and scattered the Yemen host — though the genealogists said no one knows who held the chief command that day, for ʿAmr ibn Kulthūm never claimed it in his boast though his mother was Kulayb's daughter {cite:kamil-ibn-al-athir p. 392-393}."
+sides:
+- label: { ar: "معد", en: "Maʿadd" }
+  commanders: [person/kulayb-ibn-rabia]
+- label: { ar: "جموع اليمن", en: "the Yemen host" }
+relations:
+  - { type: occurred_at, target: place/khazaz, sources: [source/kamil-ibn-al-athir] }
+  - { type: had_participant, target: person/kulayb-ibn-rabia, sources: [source/kamil-ibn-al-athir] }
+  - { type: had_participant, target: person/salama-ibn-khalid-al-saffah, sources: [source/kamil-ibn-al-athir] }
+provenance:
+  layer: own-research
+  source: "الكامل في التاريخ لابن الأثير (مكتبة التوفيقية، ج1)، قراءة آبل فيجن"
+  generated_by: "Devin (SWE-2 Medium) from Apple Vision OCR"
+  run: lib-kamil-v1-batch01
+sources: [source/kamil-ibn-al-athir]
+status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 Medium)" }
