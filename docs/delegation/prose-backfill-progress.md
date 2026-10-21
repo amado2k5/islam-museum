@@ -152,3 +152,26 @@ Deferred list unchanged. Validation: 0 errors; coverage regenerated.
 Likely duplicate flagged: `person/mutarrif-ibn-abdallah` (muruj-al-dhahab letter to Umar II) vs `person/mutarrif-ibn-al-shikhkhir` — same man; needs dedup decision.
 Still deferred: hammad-ibn-salama, bishr-al-hafi, maruf-al-karkhi, malik-ibn-dinar-al-khattat, waki-ibn-al-jarrah, shuba-ibn-al-hajjaj (entries not in this scan's OCR or garbled); plus previous deferrals.
 Validation: 0 errors; coverage regenerated.
+
+## Batch 007 — siyar + tadhkirat sweep (8 records)
+
+- Enriched thin files: shuba-ibn-al-hajjaj, bishr-al-hafi, maruf-al-karkhi, malik-ibn-dinar-al-khattat, hammad-ibn-salama — all from siyar-alam-nubala (Ideas House scan), entries 2460/1188/6193/4668/1826.
+- New prose: simak-ibn-harb (siyar #2391, p.1936), muawiya-ibn-salih (siyar #6176, p.3893), hammad-ibn-usama (tazkirat-al-huffaz j.2 p.299).
+- Still deferred: waki-ibn-al-jarrah, nafi-ibn-umar-al-jumahi (tarjama bodies not located in the scanned volumes), plus prior deferrals.
+- Lane total: 76 records with trilingual prose (69 after batch 006).
+
+## Batch 008 — waki', ibn-ulayyah, jurayri, kalbi, ibn-ma'in (5 records)
+
+- New prose: waki-ibn-al-jarrah (siyar #6558, p.4121-4123), ibn-ulayyah (siyar p.1092-1093), said-ibn-iyas-al-jariri (siyar #2230, p.1793-1794).
+- Enriched: muhammad-ibn-al-saib-al-kalbi (siyar #5212, p.3432), yahya-ibn-main (siyar #6694, p.4202-4204).
+- Deferred this round: hisham-ibn-al-kalbi, yahya-ibn-muadh-al-razi, ubaydallah-ibn-jarir, fudayl-ibn-iyad, ibrahim-ibn-adham, nafi-ibn-umar-al-jumahi (tarjama bodies not located in scanned volumes).
+- Lane total: 81 records.
+
+## Batch 009 — farqad, abd-al-wahhab al-thaqafi, al-darimi, al-fadl ibn dukayn, al-zubayr ibn bakkar, muslim ibn yasar (6 records)
+
+- New source record: `source/tahdhib-al-kamal-mizzi` (Tahdhib al-Kamal fi Asma' al-Rijal, al-Mizzi, registered for the farqad + muslim ibn yasar cites).
+- New prose: farqad-al-sabakhi (tahdhib-al-kamal j.6 p.24), abd-al-wahhab-al-thaqafi (tadhkirat j.2 p.313-314).
+- Enriched: al-darimi (tadhkirat j.2 p.481-482 + tarikh-khulafa p.559), al-fadl-ibn-dukayn (tadhkirat j.2 p.342-343 + muruj p.442), al-zubayr-ibn-bakkar (tadhkirat j.2 p.475), muslim-ibn-yasar (tabaqat-fuqaha p.47 + tahdhib refs).
+- Stub summaries corrected to sourced facts: farqad (removed unsourced d.729, replaced with critics' consensus), abd-al-wahhab (810 → late 204 AH per tadhkirat).
+- Lane total: 87 records.
+- Validation: 0 errors; coverage regenerated.
