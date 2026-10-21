@@ -148,7 +148,7 @@ async function applyArchive(archive, dir, workerUrl, progress) {
 // A connection can time out or reset before the Worker answers. Retrying the same archive
 // is safe: operations are idempotent, and a retry that finds the archive already deleted
 // means an earlier attempt applied it.
-const ATTEMPTS = 3;
+const ATTEMPTS = 5;
 async function postWithRetry(workerUrl, stagedKey, name) {
   for (let attempt = 1; ; attempt += 1) {
     const started = Date.now();
@@ -170,9 +170,14 @@ async function postWithRetry(workerUrl, stagedKey, name) {
   }
 }
 
+// A Worker that cannot be reached fails the TCP connect after the OS default (about a
+// minute per address). Fail faster than that so the retry can try again.
+const CONNECT_TIMEOUT_MS = 20000;
+
 // POST /process and wait for the reply. Node's global fetch gives up after 5 minutes
 // without response headers, but the Worker answers only when the archive is fully
-// applied, which can take longer. node:https/http has no such default timeout.
+// applied, which can take longer. node:https/http has no such default timeout, so only
+// the connect phase is bounded here.
 function postProcess(workerUrl, archive) {
   const url = new URL(`${workerUrl}/process`);
   const body = JSON.stringify({ archive });
@@ -199,6 +204,15 @@ function postProcess(workerUrl, archive) {
         resolve({ status: res.statusCode, report });
       });
       res.on("error", reject);
+    });
+    req.on("socket", (socket) => {
+      const timer = setTimeout(() => {
+        const err = new Error(`no TCP connection within ${CONNECT_TIMEOUT_MS} ms`);
+        err.code = "ECONNECT_TIMEOUT";
+        req.destroy(err);
+      }, CONNECT_TIMEOUT_MS);
+      socket.once("connect", () => clearTimeout(timer));
+      socket.once("close", () => clearTimeout(timer));
     });
     req.on("error", reject);
     req.end(body);
