@@ -25,3 +25,7 @@ Re-renders of these failures were queued in the earlier session and are lost.
 ## Not yet verified
 
 Items 261 to 300, and every re-render of the failures listed above.
+
+## Removed 21 October 2026 (founder's instruction)
+
+The twelve flagged renders that had stayed published were removed from `site/src/data/architecture-art.json` and `site/public/media/architecture-art/`: human figure or face: art3-106, art3-124, art3-151, art3-215; script-like marks: art3-066, art3-102, art3-127, art3-158, art3-160, art3-172, art3-182, art3-188. Gallery count 1,361 to 1,349. Re-render them under the house-style suffix before adding them back.
