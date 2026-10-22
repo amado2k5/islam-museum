@@ -277,6 +277,27 @@ function postProcess(workerUrl, archive) {
 function clearStaging() {
   execFileSync("aws", ["s3", "rm", `s3://${bucket}/${STAGING_PREFIX}`, "--recursive", "--endpoint-url", endpoint, "--only-show-errors"], { stdio: "inherit" });
   log(`cleared s3://${bucket}/${STAGING_PREFIX}`);
+  abortStagingMultipartUploads();
+}
+
+// A staging upload that dies part-way (the S3 endpoint's "internal server error" burst
+// of 21 October 2026) leaves an incomplete multipart upload behind. It is not an
+// object, so "s3 rm" never touches it, and R2 keeps charging for its parts until it is
+// aborted. Listing or aborting may itself fail; that must not fail the publish.
+export function abortStagingMultipartUploads(run = (args) => execFileSync("aws", args, { encoding: "utf8", stdio: ["ignore", "pipe", "pipe"] })) {
+  let aborted = 0;
+  try {
+    const out = run(["s3api", "list-multipart-uploads", "--bucket", bucket, "--prefix", STAGING_PREFIX, "--endpoint-url", endpoint, "--output", "json"]);
+    const uploads = out.trim() ? JSON.parse(out).Uploads ?? [] : [];
+    for (const u of uploads) {
+      run(["s3api", "abort-multipart-upload", "--bucket", bucket, "--key", u.Key, "--upload-id", u.UploadId, "--endpoint-url", endpoint]);
+      aborted += 1;
+    }
+    log(`aborted ${aborted} incomplete multipart upload(s) in ${STAGING_PREFIX}`);
+  } catch (err) {
+    log(`could not abort incomplete multipart uploads in ${STAGING_PREFIX} (${describeError(err)}); ${aborted} aborted so far`);
+  }
+  return aborted;
 }
 
 async function main() {
