@@ -1,0 +1,20 @@
+id: place/western-wall
+class: place
+kind: site
+label: { ar: "حائط البراق", en: "Western Wall (al-Buraq wall)" }
+summary:
+  ar: "الجدار الغربي للحرم الشريف ببيت المقدس، ويسميه المسلمون حائط البراق، ويسميه اليهود حائط المبكى. يعرض الكتاب تقرير لجنة عصبة الأمم سنة 1930م، الذي جعل الحائط جزءاً من ساحة الحرم وملكه للمسلمين وقفاً، وأبقى للمصلين اليهود حرية الصلاة عنده دون حق عيني، ويرى الكتاب أن النزاع قد حُسم بذلك القرار {cite:bayt-al-maqdis-fi-al-islam-azhar p. 85-86, 122}."
+  en: "The Western Wall of the Haram al-Sharif in Jerusalem, called al-Buraq wall by Muslims and the Wailing Wall by Jews. The book reprints the 1930 League of Nations commission's ruling, which held the wall part of the Haram and waqf property of Muslims and left Jewish worshippers free to pray there without a property right; the book holds that this settled the dispute {cite:bayt-al-maqdis-fi-al-islam-azhar p. 85-86, 122}."
+wings: [place]
+regions: [levant-iraq]
+relations:
+  - { type: located_in, target: place/jerusalem }
+  - { type: part_of, target: place/al-aqsa-mosque }
+sources: [source/bayt-al-maqdis-fi-al-islam-azhar]
+provenance:
+  layer: own-research
+  source: "Bayt al-Maqdis fi al-Islam (Academy, Scientific Series), PDF pp. 80-81, 85-86, 121-122"
+  generated_by: "Claude Code (Haiku 5.5)"
+  model: claude-haiku-5-5
+  run: azhar-bayt-al-maqdis-fi-al-islam-azhar
+status: { review: draft, completeness: 1, generated_by: "Claude Code (Haiku 5.5); contested topic, the ruling is quoted from the book and its reading is labelled as the book's; the perspectives block needs Tier A review" }
