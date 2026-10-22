@@ -7,6 +7,19 @@ summary:
 date:
   start: { hijri: "0037", precision: year, status: historical, note: "فهرس الجزء الخامس ص627 وص48", sources: [source/tabari-tarikh-abu-al-fadl] }
 external_ids: { wikidata: "Q735876" }
-sources: [source/tabari-tarikh-abu-al-fadl, source/muruj-al-dhahab]
+perspectives:
+  - tradition: sunni
+    id: sunni-sallabi
+    summary:
+      ar: "يرى الصلابي، من منظور أهل السنة، أن علياً كان على الحق وأن معاوية مجتهد متأول، وأن الحرب لم تكن لطلب الخلافة عند معاوية بل لطلب القصاص أولاً، مع نقد روايات أبي مخنف ونصر بن مزاحم {cite:sallabi-ali-vol2 p. 104} {cite:sallabi-ali-vol2 p. 148}."
+      en: "al-Sallabi, from a Sunni standpoint, holds that Ali was in the right and Muawiya a mujtahid who was mistaken, and that Muawiya fought for qisas first rather than for the caliphate; he grades the Abu Mikhnaf and Nasr ibn Muzahim narrations weak."
+    sources: [source/sallabi-ali-vol2]
+  - tradition: academic
+    id: academic
+    summary:
+      ar: "الرأي الأكاديمي الحديث عن صفين لم يُعرض بعد من هذا المجلد؛ يُضاف عند توفر مصدر أكاديمي."
+      en: "The academic view of Siffin is not yet set out from this volume; to be added from an academic source."
+    sources: []
+sources: [source/sallabi-ali-vol2, source/tabari-tarikh-abu-al-fadl, source/muruj-al-dhahab]
 provenance: { layer: own-research, generated_by: "Claude (Haiku 5.5) from Apple Vision OCR of Tabari, Tarikh al-Rusul wa'l-Muluk (Dar al-Ma'arif), batch 2", sources: [source/tabari-tarikh-abu-al-fadl] }
 status: { review: draft, completeness: 1, generated_by: "Claude (Haiku 5.5); cites juz'/page of the scan (printed page = scan page)" }
