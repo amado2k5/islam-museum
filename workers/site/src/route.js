@@ -110,8 +110,14 @@ export function headersFor(blocks, pathname) {
 // without running this Worker or reading R2, once per hour per edge location.
 export const HTML_CACHE_CONTROL = "public, max-age=3600, s-maxage=3600, stale-while-revalidate=86400";
 // Redirects are fixed by the rule files, so they may be cached for the same hour.
+// Workers Caching keys a response by path only, never by host (the same Worker answers
+// on workers.dev and on islam.museum), so a same-site redirect must carry a path-only
+// Location: an absolute one would be served to visitors of the other host.
 export const REDIRECT_CACHE_CONTROL = "public, max-age=3600";
 
 export function redirectTo(location, status) {
   return new Response(null, { status, headers: { location, "cache-control": REDIRECT_CACHE_CONTROL } });
 }
+
+// A rule target: kept as is when it is absolute (another host), otherwise a path.
+export const redirectLocation = (to) => (/^https?:\/\//.test(to) ? to : to.startsWith("/") ? to : `/${to}`);

@@ -5,7 +5,7 @@
 // The two rule files are bundled at deploy time (scripts/bundle-rules.mjs writes
 // src/rules.generated.js): static assets consume _redirects and _headers themselves
 // and do not serve them, so they cannot be fetched through env.ASSETS.
-import { resolve, parseRedirects, parseDynamicRedirects, matchDynamicRedirect, parseHeaders, headersFor, HTML_CACHE_CONTROL, redirectTo } from "./route.js";
+import { resolve, parseRedirects, parseDynamicRedirects, matchDynamicRedirect, parseHeaders, headersFor, HTML_CACHE_CONTROL, redirectTo, redirectLocation } from "./route.js";
 import { redirectsText, headersText } from "./rules.generated.js";
 
 const rules = {
@@ -31,16 +31,24 @@ export default {
     const respond = (response) => withHeaders(response, rules.headers, url.pathname);
 
     const rule = rules.static.get(url.pathname);
-    if (rule) return respond(redirectTo(new URL(rule.to, url).toString(), rule.status));
+    if (rule) return respond(redirectTo(redirectLocation(rule.to), rule.status));
 
     const dynamic = matchDynamicRedirect(rules.dynamic, url.pathname);
-    if (dynamic) return respond(redirectTo(new URL(dynamic.location, url).toString(), dynamic.status));
+    if (dynamic) return respond(redirectTo(redirectLocation(dynamic.location), dynamic.status));
 
     const target = resolve(url.pathname);
-    if (target.type === "assets") return respond(await env.ASSETS.fetch(request));
-    if (target.type === "redirect") {
-      return respond(redirectTo(new URL(target.location + url.search, url).toString(), 301));
+    if (target.type === "assets") {
+      const asset = await env.ASSETS.fetch(request);
+      // The asset layer's own redirects name the request host in Location; keep them
+      // out of the host-blind cache.
+      if (asset.status >= 300 && asset.status < 400) {
+        const headers = new Headers(asset.headers);
+        headers.set("cache-control", "no-store");
+        return respond(new Response(null, { status: asset.status, headers }));
+      }
+      return respond(asset);
     }
+    if (target.type === "redirect") return respond(redirectTo(target.location + url.search, 301));
 
     const object = await env.SITE_BUCKET.get(target.key);
     if (!object) {
