@@ -132,6 +132,16 @@ Doubts:
 - The author's reading of the hadith against writing (p. 53, footnote) is not used.
 - The Mawlid and contested matters are not in this book's scope; no perspectives block is needed.
 
+## Batch: رحلة الإمام الأكبر إلى إندونيسيا (azhar-rihla-imam-akbar-indonesia-azhar)
+- Source read in full (170 PDF pages, pp. 1-169 with the press list at pp. 158-165; the French and English summary at pp. 166-169 is not used). Edition: Academy Scientific Series, 49th year (1439 AH / 2018 CE), deposit 2017/27759 (catalogue), no ISBN recorded.
+- New entities, all `status.review: draft`: `source/rihla-imam-akbar-indonesia-azhar`, `person/ahmad-al-tayyib`, `polity/indonesia`, `place/jakarta`, `place/malang`, `group/council-of-muslim-elders`, `group/indonesian-ulama-council`, `group/darussalam-gontor`, `group/sharif-hidayatullah-university`, `group/maulana-malik-ibrahim-university`, `journey/grand-imam-visit-indonesia-2016`. Arabic prose: `content/ar/journey/grand-imam-visit-indonesia-2016.md`.
+- Edits (sources only): `place/al-azhar`, `place/java`.
+- Claims table outside git: `/Volumes/exmicroSD/islam-museum-harvest/claims/azhar-academy/rihla-imam-akbar-indonesia-azhar.tsv` (about 70 rows).
+- Dates: the visit dates (20-27 Feb 2016) are the book's own, printed with weekdays; the arrival day (21 Feb) is inferred from the text. Every date needs a second source before it is stated as verified.
+- Doubts in the book: teachers sent to Indonesia (26 at p. 36, 31 at pp. 43 and 85); trade figures (import unit printed as pounds, p. 34); population figure of Jakarta (OCR garbled, p. 24); the Egypt "first recognition" claim (p. 28) conflicts with the Arab League resolution of November 1946 (p. 30).
+- Contested: the Sunni-Shia statements (pp. 65, 104, 149) are recorded as the Imam's own and need the `perspectives` block (Tier A review) before any use in the museum's voice.
+- Not done: no English or Urdu translations; no `coverage.md` regeneration (the brief said not to edit it, so `npm run coverage` is for the next check-in); the 2014 founding date of the Council of Muslim Elders and the 2016 visit have no second source yet.
+
 ## Batch 3: الإشاعات الكاذبة وكيف حاربها الإسلام (al-ishaat-al-kadhiba-azhar)
 
 - Author Muhammad Sayyid Tantawi; publisher Dar al-Shorouk, Cairo, 1421 AH / 2001 CE as printed (PDF p. 4). Printed page = PDF page minus 2. Read whole front matter, Adam and Iblis, the Mongol section, the Balat al-Shuhada rumour, the Aisha affair (summary) and the methods section (pp. 189–195). Not read in full: the prophets' sections (Noah, Hud, Salih, Moses, Muhammad, Qur'an, resurrection; PDF pp. 22–176) and the second Aisha section; only headings and cited lines were checked.
