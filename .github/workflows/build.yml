@@ -21,6 +21,10 @@ concurrency:
 jobs:
   test:
     runs-on: ubuntu-latest
+    permissions:
+      contents: read
+      # Cancel the run when the tests fail (last step).
+      actions: write
     steps:
       - name: Checkout
         uses: actions/checkout@v4
@@ -37,10 +41,26 @@ jobs:
         run: npm test
       - name: Worker unit tests (site routing and rules; R2 publish diff, resume and retry)
         run: node --test 'workers/site/test/*.test.mjs' workers/r2-sync/test/publish.test.mjs
+      # Founder's instruction of 22 October 2026: a failed test job stops the build job
+      # instead of letting a 45-minute build run to its end for nothing. The summary line
+      # goes first, so the "cancelled" conclusion is not mistaken for a manual stop. Any
+      # other failure (the build job itself) keeps the normal end-of-run failure path.
+      - name: Cancel the run (tests failed)
+        if: failure()
+        env:
+          GH_TOKEN: ${{ github.token }}
+          GH_REPO: ${{ github.repository }}
+        run: |
+          echo "**Run cancelled: the unit tests failed.** The build job was stopped so it does not run to the end; this is not a manual stop. No artifact was kept; deploy.yml never selects a cancelled run." >> "$GITHUB_STEP_SUMMARY"
+          gh run cancel "${{ github.run_id }}"
 
   # The unit tests and the build run in parallel. The build uploads its artifact as
   # soon as the validation (part of `npm run build`) passed; whether the run counts as
   # a successful build (the only kind deploy.yml deploys) depends on the tests too.
+  # When the tests fail, the test job cancels the whole run (see above): a cancelled run
+  # uploads no artifact (the build job is stopped before its upload step, or its upload
+  # is cancelled), and the deploy never selects it, since it only takes runs whose
+  # conclusion is success.
   build:
     runs-on: ubuntu-latest
     outputs:
