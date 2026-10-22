@@ -60,6 +60,23 @@ Doubts:
 - Two hadiths quoted by the author (PDF pp. 41, 44–45) and the hadith in PDF pp. 82, 83 and 120 carry no source footnote on the page; they need checking in Bukhari or Muslim before reuse.
 - `docs/coverage.md` not regenerated in this batch (brief instruction); run `npm run coverage` at the next check-in.
 
+## Batch: نظرات موضوعية في قضايا إنسانية (Muhyi al-Din Afifi Ahmad)
+
+- Source entity `source/nazarat-mawdu-iyya-azhar` (252 pp., Academy Scientific Series, 1439 AH / 2018 CE as printed on the title page). Printed page equals PDF page (offset 0, checked on the headings of pp. 11, 21, 31, 43, 57, 69, 81, 91, 95, 105, 113, 119, 143, 155, 165, 171, 191, 213, 231, 241).
+- New entities: `person/muhyi-al-din-afifi-ahmad`, `concept/environmental-protection-in-islam`, `event/azhar-strategy-un-security-council-2016` (date from the book's footnote only, needs a second source). Edited: `place/al-azhar`, `concept/ihtikar`, `concept/equality-in-islam`, `concept/waqf` (each adds the book as a source and cited sentences in ar and en).
+- Claims table (outside git): `claims/azhar-academy/nazarat-mawdu-iyya-azhar.tsv`, 45 rows.
+- Read: title and catalogue pages, introduction, the Tirana and UN Security Council speeches (pp. 11-12, 95-104), waqf opening (pp. 69-71, 81-83), equality (113-114), hoarding (143-145), environment (119-121), Rohingya opening (213-214), Jerusalem (231-235), conclusion and bibliography (241-243).
+- Not read: pp. 21-68 (the essays on relations, responsibility, youth, dialogue), pp. 84-94, 104-112, 122-142 (difference, environment rest), 146-230 beyond the openings, 236-240.
+- Not yet written: `perspectives` blocks for the Jerusalem and Mawdudi/Qutb passages; a content/ar prose file for the UN event (deferred: en and ur translations not in this commit).
+
+## Doubts
+
+- Date 11 May 2016 for the UN speech is from one source only (`needs_source`).
+- Figures: 40,000 students and 130 countries (p. 100); the Rohingya population of about 10 million (p. 214) is far above common estimates, not used.
+- Jerusalem: the author's claims that Jews were present only transitionally and that the city is purely Arab (p. 233) are contested; not adopted, need a perspectives block before any reuse.
+- Mawdudi and Sayyid Qutb as the origin of Daesh-style ideas (p. 99): attributed polemic, not adopted.
+- Hadith on hoarding and on the covenanted non-Muslim (pp. 114, 144): printed numbers recorded, grades not given in the book, not checked.
+- docs/coverage.md not regenerated in this batch (brief says do not edit it).
 ## Muhammad the Supreme Commander (عبد المجيد إبراهيم هندي), branch azhar-muhammad-qaid-al-aala-azhar
 
 - Read: cover, title page, catalogue block, foreword, introduction, and the Badr chapter to p. 46 (PDF page = printed page in the body, checked on pp. 22-46). Pp. 47-198 (rest of Badr, Uhud, the Confederates, Qurayza, Hudaybiyya, Khaybar, Mu'ta, Makka, Hunayn, Ta'if, Tabuk) not yet read.
