@@ -5,6 +5,7 @@ function init(root: HTMLElement) {
   const bar = root.querySelector("[data-bar]") as HTMLElement;
   const count = root.querySelector("[data-count]")!;
   let i = 0;
+  const rtl = document.documentElement.dir === "rtl";
 
   const show = (n: number) => {
     i = (n + cards.length) % cards.length;
@@ -24,8 +25,9 @@ function init(root: HTMLElement) {
     el.addEventListener("keydown", (e) => {
       const k = (e as KeyboardEvent).key;
       if (k === " " || k === "Enter") { e.preventDefault(); flip(); }
-      if (k === "ArrowLeft") show(i + 1);
-      if (k === "ArrowRight") show(i - 1);
+      // Keys follow the screen: the previous card is on the left, or on the right in RTL.
+      if (k === "ArrowLeft") show(i + (rtl ? 1 : -1));
+      if (k === "ArrowRight") show(i + (rtl ? -1 : 1));
     });
   });
   // Touch swipe
