@@ -1,12 +1,12 @@
 // Shared navigation data (Part 3, A): wing counts for the menus and the landing cards, and the Explore pages with their readiness.
 import { realNodes } from "./graph";
-import { fmt, ui, type Lang, type Wing } from "./i18n";
+import { fmt, ui, NUM_LOCALE, type Lang, type Wing } from "./i18n";
 import { wingCounts } from "../../../scripts/wings";
 
 // What each counted wing holds, by class (scripts/wings.ts; the three uncounted wings show a phrase instead of a number).
 const counts = wingCounts(realNodes);
 export const wingCount = (w: Wing | string) => counts[w] ?? 0;
-export const num = (n: number, lang: Lang) => new Intl.NumberFormat(lang === "ar" ? "ar-EG-u-nu-latn" : "en-GB").format(n);
+export const num = (n: number, lang: Lang) => new Intl.NumberFormat(NUM_LOCALE[lang]).format(n);
 /** "764 حدثًا" / "Worship and practice": the counted thing for the six counted wings, a phrase for the other three.
  *  Only for pages that change with the content anyway (the landing page). Shared layouts must not bake a count into every
  *  page: they use wingCountTemplate and let the client fill the number from /api/v1/meta/counts.json (docs/site/README.md). */

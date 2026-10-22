@@ -17,6 +17,7 @@
 //   enter_title, enter_lede (plain text, \n for line breaks),
 //   enter_button, logo_alt, loading, failed
 // journeys[].kind must be one of: "event" | "place" | "time".
+import { ARABIC_SCRIPT, type Lang } from "../lib/i18n";
 interface JourneyView {
   id: string;
   kind: string;
@@ -26,13 +27,13 @@ interface JourneyView {
   lines: string[];
 }
 interface Props {
-  lang: "ar" | "en";
+  lang: Lang;
   t: Record<string, string>;
   journeys: JourneyView[];
   wingTitles: Record<string, string>;
 }
 const { lang, t, journeys, wingTitles } = Astro.props;
-const dir = lang === "ar" ? "rtl" : "ltr";
+const dir = ARABIC_SCRIPT.includes(lang) ? "rtl" : "ltr";
 // Defensive: journeys carry no HTML, but never let a stray "<" break the
 // JSON script block (in particular "</script>").
 const payloadJson = JSON.stringify({ lang, t, journeys, wingTitles }).replace(/</g, "\\u003c");

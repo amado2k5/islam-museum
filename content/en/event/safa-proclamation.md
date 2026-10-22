@@ -2,10 +2,21 @@
 id: event/safa-proclamation
 lang: en
 source_lang: ar
-translators: ["Devin (SWE-2), draft translation"]
+translators: ["Claude Haiku 5.5 (claude-haiku-5-5), draft translation"]
 ---
-Once the Prophet was reassured by [[person/abu-talib|Abu Talib]]'s pledge to protect him, he climbed al-Safa one day and cried "Ya sabahah!" — the alarm-call — and Quraysh's clans gathered to him, until a man who could not come out sent a messenger to see what it was; [[person/abu-lahab|Abu Lahab]] and Quraysh came. {cite:sahih-al-bukhari}
 
-He said: "what if I told you there was cavalry in the valley meaning to raid you — would you believe me?" They said: yes — we have never known anything from you but truth. He said: "then I am a warner to you before a severe punishment"; and in Muslim's version from Abu Hurayra he called Quraysh generally and specifically: "company of Quraysh, save yourselves from the Fire … Fatima bint Muhammad, save yourself from the Fire." {cite:sahih-muslim}
+## Summary
+The [[person/muhammad|Prophet]] climbed the hill of [[place/al-safa|al-Safa]] and called out: "Ya sabahah!" The clans of [[group/quraysh|Quraysh]] gathered to him. He invited them to monotheism, to belief in his mission and in the Last Day, and then told them that he was a warner before a severe punishment. Abu Lahab said: "Ruin upon you all day! Is this what you gathered us for?" Then Sura al-Masad was revealed. {cite:mubarakpuri-raheeq p.79} {cite:mubarakpuri-raheeq p.80}
 
-Abu Lahab said: "confound you all this day — is this what you gathered us for?" So Sura al-Masad came down; then "proclaim what you are commanded and turn from the polytheists" came down, and the Prophet stood proclaiming the truth throughout Mecca. {cite:sahih-al-bukhari}
+## The warning at al-Safa
+Al-Bukhari relates, on the authority of Ibn Abbas, that when the command to warn his nearest kin came down, the Prophet climbed al-Safa and began to call out: "Banu Fihr! Banu Adi!" and to the clans of Quraysh, until they gathered. He asked them whether they would believe him if he told them that cavalry in the valley meant to raid them. They said: yes, for they had never known anything from him but truth. He said: "Then I am a warner to you before a severe punishment." {cite:mubarakpuri-raheeq p.79} Muslim relates, on the authority of Abu Hurayra, that the Prophet called Quraysh, Banu Ka'b and Fatima bint Muhammad to save themselves from the Fire, and said that he could not possess anything for them from God, except that they had ties of kinship which he would keep fresh. {cite:mubarakpuri-raheeq p.80}
+
+## The meaning of the cry in the author's view
+The author sees this cry as the fullest delivery of the message. The Prophet made clear to his nearest kin that belief in the message was the life of their ties with him, and that the tribal solidarity on which the Arabs were built melted in the heat of the warning. {cite:mubarakpuri-raheeq p.80}
+
+## Notes for researchers
+- The story of Abu Lahab at al-Safa is told in other reports in a different form, concerning stones. The book affirms the hadith of Ibn Abbas as al-Bukhari gives it.
+- The book places the revelation of Sura al-Masad after the cry, and does not examine when it was revealed.
+
+## For young visitors
+The Prophet climbed the hill of al-Safa and called all the people of Mecca. He invited them to believe in God alone. His uncle Abu Lahab said he did not want to hear this, and a whole sura was revealed about him.

@@ -2,27 +2,21 @@
 id: event/fath-mecca-proscribed-persons
 lang: en
 source_lang: ar
-translators: ["Devin (SWE-2), draft translation"]
+translators: ["Claude Haiku 5.5 (claude-haiku-5-5), draft translation"]
 ---
 
 ## Summary
-The Prophet charged his commanders to fight only those who fought them, excepting a specific few he named, ordering them killed even if they clung to the curtains of the Ka'ba — for specific criminal offences such as treacherous killing or grave harm. Some were killed; others sought safe-conduct and the Prophet pardoned them {cite:ibn-hisham-saqqa 4/51-53}.
+The Prophet charged his commanders not to fight except those who fought them. He excepted a few named individuals whom he ordered killed, even if they clung to the curtains of the Ka'ba. These were for specific criminal offences, such as killing after treachery or grave harm. Some of them were killed, while others sought safe-conduct and the Prophet pardoned them. {cite:ibn-hisham-saqqa 4/51-53}
 
-## The names and their fates
-The list in Ibn Hisham's sira comprises:
-1. [[person/abdullah-ibn-sad-ibn-abi-sarh|Abdullah ibn Sa'd ibn Abi Sarh]]: a scribe of revelation who apostatised and fled to Mecca; he hid with his foster-brother [[person/uthman-ibn-affan|Uthman ibn Affan]], who brought him seeking safe-conduct; the Prophet pardoned him after a long silence, and he became Muslim and proved good {cite:ibn-hisham-saqqa 4/51-52}.
-2. [[person/abdullah-ibn-khatal|Abdullah ibn Khatal]]: apostatised, killed his Muslim servant, stole the alms and kept two singing-girls to satirise the Prophet; he was killed clinging to the Ka'ba's curtains {cite:ibn-hisham-saqqa 4/52-53}.
-3. [[person/al-huwayrith-ibn-nuqayd|al-Huwayrith ibn Nuqaydh]]: one who had harmed the Prophet and prodded the camel of Fatima and Umm Kulthum at the Hijra; [[person/ali-ibn-abi-talib|Ali ibn Abi Talib]] killed him {cite:ibn-hisham-saqqa 4/52-53}.
-4. [[person/miqyas-ibn-subaba|Miqyas ibn Subaba]]: killed his brother's slayer after taking the blood-money and apostatised as a polytheist; Numayla ibn Abdullah killed him in the market {cite:ibn-hisham-saqqa 4/52-53}.
-5. [[person/fartana|Fartana]] and her companion (Ibn Khatal's two singing-girls): one was killed, the other fled, was granted safety and became Muslim {cite:ibn-hisham-saqqa 4/52-53}.
-6. [[person/sara-al-mawla|Sara]], freedwoman of Banu Abd al-Muttalib: was granted safety, then died in Umar's caliphate after horses trampled her at al-Abtah {cite:ibn-hisham-saqqa 4/52-53}.
-7. Ikrima ibn Abi Jahl: fled to Yemen; his wife Umm Hakim bint al-Harith sought safety for him and brought him back — he became Muslim and proved good {cite:ibn-hisham-saqqa 4/53}.
-
-:::perspectives
-The Sunni tradition holds that the proscription was not for unbelief or mere opposition but for specific criminal offences its subjects had committed — deliberate killing after treachery, prodding the Prophet's daughters' mount, and warmongering incitement — the proof being that everyone who came seeking safety and repenting, like Ibn Abi Sarh and Ikrima, was embraced by the Prophet's complete pardon.
-
-Contemporary historians study the list as a narrowly bounded exceptional measure aimed at removing the leadership most schismatic and inciting against the nascent state in Medina, noting that the early reports vary in the number of the excepted and in the fates of some.
-:::
+## Names and fates
+The list in Ibn Hisham's Sira includes the following:
+1. [[person/abdullah-ibn-sad-ibn-abi-sarh|Abdullah ibn Sa'd ibn Abi Sarh]]: a scribe of revelation who apostatised and fled to Mecca. He hid with his foster-brother [[person/uthman-ibn-affan|Uthman ibn Affan]], who brought him to seek safe-conduct. The Prophet pardoned him after a long silence, and he became a Muslim and his Islam was good. {cite:ibn-hisham-saqqa 4/51-52}
+2. [[person/abdullah-ibn-khatal|Abdullah ibn Khatal]]: apostatised, killed his Muslim servant, stole the alms, and kept two singing-girls to lampoon the Prophet. He was killed while clinging to the curtains of the Ka'ba. {cite:ibn-hisham-saqqa 4/52-53}
+3. [[person/al-huwayrith-ibn-nuqayd|al-Huwayrith ibn Nuqayd]]: one who harmed the Prophet and goaded the camel of Fatima and Umm Kulthum during the Hijra. [[person/ali-ibn-abi-talib|Ali ibn Abi Talib]] killed him. {cite:ibn-hisham-saqqa 4/52-53}
+4. [[person/miqyas-ibn-subaba|Miqyas ibn Subaba]]: having taken the blood-money for his brother, he killed his brother's killer and then apostatised as a polytheist. Numayla ibn Abdullah killed him in the market. {cite:ibn-hisham-saqqa 4/52-53}
+5. [[person/fartana|Fartana]] and her companion (the two singing-girls of Ibn Khatal): one of them was killed, and the other fled, was granted safe-conduct, and became a Muslim. {cite:ibn-hisham-saqqa 4/52-53}
+6. [[person/sara-al-mawla|Sara]], freedwoman of Banu Abd al-Muttalib: she was granted safe-conduct, then died in the caliphate of Umar after horses trampled her at al-Abtah. {cite:ibn-hisham-saqqa 4/52-53}
+7. Ikrima ibn Abi Jahl: fled to Yemen. His wife Umm Hakim bint al-Harith asked for safe-conduct for him and brought him back. He became a Muslim, and his Islam was good. {cite:ibn-hisham-saqqa 4/53}
 
 ## For young visitors
-When the Muslims entered Mecca the Prophet granted safety to all the city's people, except a small number who had committed clear crimes of killing and treachery. Even so, whoever of them sought safety and repented, the Prophet pardoned and left free.
+When the Muslims entered Mecca, the Prophet granted safe-conduct to all the people of the city, except a small number of individuals whom the accounts say committed murder and treachery. Yet whoever among them sought safe-conduct and repented, the Prophet pardoned and set free.

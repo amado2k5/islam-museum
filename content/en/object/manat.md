@@ -2,13 +2,16 @@
 id: object/manat
 lang: en
 source_lang: ar
-translators: ["Devin (SWE-2), draft translation"]
+translators: ["Claude Haiku 5.5 (claude-haiku-5-5), draft translation"]
 ---
-## Overview
-Manat: an idol erected on the seashore in Qudayd's quarter between Mecca and Medina; the people of Yathrib of the Aws and Khazraj and the Arabs who made pilgrimage venerated it.
+## Summary
+Manat is one of the oldest idols of the Arabs in the account of al-Raheeq al-Makhtum. It stood at al-Mushallal on the Red Sea coast near [[place/qudayd|Qudayd]], and together with [[object/al-lat|al-Lat]] and [[object/al-uzza|al-Uzza]] it was among their greatest idols {cite:mubarakpuri-raheeq p.35} {cite:mukhtasar-sirat-al-rasul p.12}.
 
-## In the sira presentation
-Al-Mubarakpuri mentions that idolatry entered the Arabs in the time of [[person/amr-ibn-luhayy|Amr ibn Luhayy]], who saw the people of al-Balqa venerating idols and carried them to the Hijaz — until every clan had an idol and every house an idol {cite:mubarakpuri-raheeq}.
+## On the order of the idols
+The author notes that among their oldest idols was Manat. Then they took al-Lat in Ta'if, and then they took al-Uzza at Wadi Nakhla. Then shirk multiplied and idols multiplied in every part of the Hijaz, until each tribe had an idol and then each house {cite:mubarakpuri-raheeq p.35}. The rites of its worship are covered in [[concept/ibadat-al-asnam-jahiliyya|Idol worship in the Jahiliyya]].
+
+## Not covered here
+The veneration of the Aws and the Khazraj for Manat, and its demolition at its entrances after the conquest.
 
 ## For young visitors
-Manat is an idol some Arabs worshipped before Islam instead of God — until Islam demolished all the idols.
+Manat is an ancient idol on the sea coast between Mecca and Medina, which some Arabs worshipped before Islam.

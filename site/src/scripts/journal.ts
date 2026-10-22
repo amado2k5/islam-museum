@@ -42,7 +42,7 @@ function init(root: HTMLElement) {
   // JS is running: drop the no-JS explanation section.
   root.querySelector("[data-nojs]")?.remove();
 
-  const locale = document.documentElement.lang === "en" ? "en-US" : "ar-EG";
+  const locale = ({ ar: "ar-EG", en: "en-US", ur: "ur-PK" } as Record<string, string>)[document.documentElement.lang] ?? "ar-EG";
   const dateFmt = (ts: number): string => {
     try {
       return new Date(ts).toLocaleDateString(locale, { year: "numeric", month: "long", day: "numeric" });

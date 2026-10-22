@@ -5,7 +5,7 @@ import type { Lang } from "../lib/i18n";
 
 interface Props { ch: ChallengeFile; lang: Lang; t: Record<string, string> }
 const { ch, lang, t } = Astro.props;
-const L = (x: { ar: string; en: string }) => (lang === "ar" ? x.ar : x.en);
+const L = (x: { ar: string; en: string; ur?: string }) => (x[lang] ?? x.ar);
 ---
 <div class="chal" data-challenge data-slug={ch.slug}>
   <div class="chal-head">

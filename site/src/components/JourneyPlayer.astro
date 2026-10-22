@@ -9,6 +9,7 @@ import type { Node } from "../../../scripts/build-graph";
 const { node: n, lang } = Astro.props as { node: Node; lang: Lang };
 const T = ui(lang);
 const J = T.journey;
+const rtl = T.dir === "rtl";
 const d = n.data;
 const wps: any[] = d.waypoints ?? [];
 const loc = (o: any) => o?.[lang] ?? o?.en ?? o?.ar ?? "";
@@ -20,7 +21,7 @@ const N0 = Math.max(pts.length - 1, 1);
 // cubic Bezier from the lower right (start) to the upper left (end), mirrored for LTR pages
 const P0 = [84, 50], P1 = [60, 58], P2 = [40, 6], P3 = [16, 14];
 const bez = (t: number) => { const u = 1 - t; return [u * u * u * P0[0] + 3 * u * u * t * P1[0] + 3 * u * t * t * P2[0] + t * t * t * P3[0], u * u * u * P0[1] + 3 * u * u * t * P1[1] + 3 * u * t * t * P2[1] + t * t * t * P3[1]]; };
-const xy = pts.map((_, i) => { const [x, y] = bez(i / N0); return [lang === "ar" ? x : W - x, y]; });
+const xy = pts.map((_, i) => { const [x, y] = bez(i / N0); return [rtl ? x : W - x, y]; });
 // a gentle Catmull-Rom curve through the stations
 const path = xy.map((p, i) => {
   if (i === 0) return `M${p[0].toFixed(1)} ${p[1].toFixed(1)}`;
@@ -73,8 +74,8 @@ const payload = { n: N, stations: stations.map((s) => ({ title: s.title, narrati
   </div>
   <div class="jp-bar">
     <button type="button" class="jp-play" data-play aria-label={J.play}>▶</button>
-    <button type="button" class="jp-step" data-prev aria-label={J.prev}><span aria-hidden="true">{lang === "ar" ? "›" : "‹"}</span></button>
-    <button type="button" class="jp-step" data-next aria-label={J.next}><span aria-hidden="true">{lang === "ar" ? "‹" : "›"}</span></button>
+    <button type="button" class="jp-step" data-prev aria-label={J.prev}><span aria-hidden="true">{rtl ? "›" : "‹"}</span></button>
+    <button type="button" class="jp-step" data-next aria-label={J.next}><span aria-hidden="true">{rtl ? "‹" : "›"}</span></button>
     <div class="jp-ticks" role="tablist" aria-label={J.stations}>
       {stations.map((s) => <button type="button" role="tab" aria-selected={s.i === 0 ? "true" : "false"} data-tick={s.i} title={`${s.title} · ${s.dayText}`}><span class="sr-only">{s.title}</span></button>)}
     </div>

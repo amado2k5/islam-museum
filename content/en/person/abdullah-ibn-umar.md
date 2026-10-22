@@ -2,26 +2,29 @@
 id: person/abdullah-ibn-umar
 lang: en
 source_lang: ar
-translators: ["Devin (SWE-2), draft translation"]
+translators: ["Claude Haiku 5.5 (claude-haiku-5-5), draft translation"]
 ---
 
-## Summary
-[[person/abdullah-ibn-umar|Abdullah ibn Umar]] ibn al-Khattab al-Qurashi al-Adawi; his mother Zaynab bint Maz'un al-Jumahiyya {cite:ibn-hajar-isaba p. 917}. He was born in year three of the mission, as al-Zubayr ibn Bakkar asserted, saying he emigrated at ten; Ibn Manda said he was eleven and a half, and Ibn Hajar remarks it is established he was thirteen on the day of Badr {cite:ibn-hajar-isaba p. 917}.
+## Brief
+[[person/abdullah-ibn-umar|Abdullah ibn Umar]] ibn al-Khattab al-Qurashi al-Adawi; his mother was Zaynab bint Maz'un al-Jumahi {cite:ibn-hajar-isaba p.917}. He was born in the third year of the mission, as al-Zubayr ibn Bakkar affirmed. Al-Zubayr said he emigrated at the age of ten; Ibn Manda said he was eleven and a half; and Ibn Hajar notes that it is established from him that he was thirteen on the day of Badr {cite:ibn-hajar-isaba p.917}.
 
-## His conversion and campaigns
-He became Muslim with his father and emigrated; he was presented to the Prophet at Badr who found him too young, likewise at Uhud, then at the [[event/battle-of-the-trench|Trench]] he passed him at fifteen, as established in the Sahih {cite:ibn-hajar-isaba p. 917}. Ibn Hajar also records al-Baghawi's account from Anas and Sa'id ibn al-Musayyab that Ibn Umar witnessed Badr, against al-Bara's account: "Ibn Umar and I were presented on the day of Badr and were sent back" {cite:ibn-hajar-isaba p. 917}.
+## Conversion and campaigns
+He embraced Islam with his father and emigrated. He was presented to the Prophet at Badr and was judged too young; the same happened at Uhud. At the [[event/battle-of-the-trench|Trench]] he was permitted, at fifteen years old, as the Sahih establishes {cite:ibn-hajar-isaba p.917}. Ibn Hajar also cites al-Baghawi's report, from Anas and Sa'id ibn al-Musayyib, that Ibn Umar witnessed Badr. The opposing report, from al-Bara', runs: "I and Ibn Umar were presented at Badr, and he sent us back" {cite:ibn-hajar-isaba p.917}.
 
-## His abundant transmission
-He is among the most copious transmitters from the Prophet {cite:ibn-hajar-isaba p. 917}. He also related from Abu Bakr, Umar, Uthman, Abu Dharr, Mu'adh and A'isha; among the Companions Jabir and Ibn Abbas relate from him, of his sons Salim, Abdullah, Hamza, Bilal and Zayd, of the great Successors Sa'id ibn al-Musayyab, Alqama ibn Waqqas, Abu Abd al-Rahman al-Nahdi, Masruq and Jubayr ibn Nufayr, and of their clients Nafi' and Abdullah ibn Dinar {cite:ibn-hajar-isaba p. 918}.
+## Transmission and its extent
+He is among the most prolific narrators from the Prophet {cite:ibn-hajar-isaba p.917}. He also narrated from Abu Bakr, Umar, Uthman, Abu Dharr, Mu'adh and Aisha. Among the Companions who narrated from him were Jabir and Ibn Abbas. His sons included Salim, Abdullah, Hamza, Bilal and Zayd. Among the senior Successors were Sa'id ibn al-Musayyib, Alqama ibn Waqqas, Abu Abd al-Rahman al-Nahdi, Masruq and Jubayr ibn Nufayr; and among their freedmen, Nafi' and Abdullah ibn Dinar {cite:ibn-hajar-isaba p.918}.
 
-## What was said of his piety and merit
-In the Sahih from Salim: Ibn Umar saw a dream which Hafsa related to the Prophet, who said "Abdullah is a good man — if only he would pray at night", and afterwards he slept but little of the night {cite:ibn-hajar-isaba p. 918}. In Ahmad's Zuhd from Ibn Mas'ud: "the most self-possessed of Quraysh's youth in this world is Abdullah ibn Umar" {cite:ibn-hajar-isaba p. 918}. Jabir said, as Ibn al-A'rabi recorded with a sound chain: "there is none of us who met the world but it swayed him and he swayed with it — except Abdullah ibn Umar" {cite:ibn-hajar-isaba p. 918}. And from Sa'id ibn al-Musayyab with a good chain in al-Baghawi: "had I to testify for one of Paradise's people I would testify for Ibn Umar" {cite:ibn-hajar-isaba p. 918}.
+## What is said of his piety and merit
+In the Sahih, Salim reports that Ibn Umar had a dream which Hafsa related to the Prophet. The Prophet said: "What a fine man Abdullah is — if only he prayed at night." After that he slept only a little at night {cite:ibn-hajar-isaba p.918}. In Ahmad's Kitab al-Zuhd, Ibn Mas'ud is reported as saying: "The young man of Quraysh most self-controlled in worldly matters is Abdullah ibn Umar" {cite:ibn-hajar-isaba p.918}. Jabir said, as reported by Ibn al-A'rabi with a sound chain: "None of us who lived to see this world was not tilted by it and did not tilt it — except Abdullah ibn Umar" {cite:ibn-hajar-isaba p.918}. On the authority of Sa'id ibn al-Musayyib, with a good chain in al-Baghawi: "Had I to bear witness for any one of the people of Paradise, I would bear witness for Ibn Umar" {cite:ibn-hajar-isaba p.918}.
 
 ## Following the Prophet's traces
-Al-Zubayr ibn Bakkar said: Ibn Umar preserved what he heard from the Prophet and asked those present whenever he missed a word or deed; he traced his steps to every mosque he prayed in, steered his mount where he saw the Prophet steer his camel in the road, and when he stood at Arafa he stood where the Prophet had stood {cite:ibn-hajar-isaba p. 919}. From Malik: he lived sixty years after the Prophet, receiving people's delegations; he was "among the leaders of the religion", and as Zayd ibn Thabit was the people's imam after Umar, Ibn Umar was their imam after Zayd {cite:ibn-hajar-isaba p. 919}.
+Al-Zubayr ibn Bakkar said: Ibn Umar would memorise what he heard from the Prophet, and when he was absent he would ask those present about the Prophet's words and deeds. He would follow the Prophet's traces in every mosque where the Prophet had prayed; he would take the road on which he had seen the Prophet turn his she-camel; and when he stood at Arafat, he stood at the spot where the Prophet had stood {cite:ibn-hajar-isaba p.919}. From Malik: Ibn Umar remained sixty years after the Prophet, with delegations of people coming to him; he was "one of the imams of religion"; and Zayd ibn Thabit was the imam of the people after Umar, and then Ibn Umar was their imam after Zayd {cite:ibn-hajar-isaba p.919}.
 
-## Asking about what he did not know
-Ibn al-Mubarak recorded in the Zuhd that Ibn Umar was asked a thing and said "I do not know", then added: "do you mean to make our backs bridges into Hell?" {cite:ibn-hajar-isaba p. 919}.
+## His refusal to answer what he did not know
+Ibn al-Mubarak, in al-Zuhd, reports that Ibn Umar was asked about something and said, "I do not know." Then he said: "Do you want to make our backs bridges over Hell?" {cite:ibn-hajar-isaba p.919}.
 
 ## His age and death
-Bukhari in al-Tarikh says from Malik that he reached eighty-seven; others than Malik say he lived eighty-four — Ibn Hajar holds the first more established {cite:ibn-hajar-isaba p. 920}. Damra ibn Rabi'a said he died in year seventy-two or seventy-three, once asserting seventy-three, and so Abu Nu'aym, Yahya ibn Bukayr and the majority — some adding that it was Dhu al-Hijja; al-Fallas once said year seventy-four, as asserted by Khalifa, Sa'id ibn Jubayr and Ibn Zabr {cite:ibn-hajar-isaba p. 920}.
+Al-Bukhari, in al-Tarikh, reports from Malik that he reached eighty-seven years; others besides Malik said he lived eighty-four, and Ibn Hajar judges the first figure the more reliable {cite:ibn-hajar-isaba p.920}. Damra ibn Rabi'a said he died in the year seventy-two or seventy-three, and once firmly affirmed seventy-three; so did Abu Nu'aym, Yahya ibn Bukayr and the majority, and some added that it was in Dhu al-Hijja. Al-Fallas once said it was "the year four" (the source gives only the final digit), and Khalifa, Sa'id ibn Jubayr and Ibn Zabr affirmed that date {cite:ibn-hajar-isaba p.920}.
+
+## Letting the turban's end hang
+Ibn Ishaq reports from Ata' ibn Abi Rabah that a man from Basra asked Ibn Umar about letting the end of a turban hang down behind the wearer. Ibn Umar answered with an account of a gathering of the Prophet in the mosque, where he was the tenth of ten. In it, a young Ansari asked about the best and most discerning believers; the Prophet related [[work/hadith-of-the-five-afflictions|the hadith of the five afflictions]]; and the Prophet turbanned Abd al-Rahman ibn Awf with his own hand and let four fingers' length hang behind him. See [[event/sariyya-of-abd-al-rahman-ibn-awf-to-dumat-al-jandal|the expedition]]. {cite:ibn-hisham-saqqa 4/280}

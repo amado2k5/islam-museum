@@ -1,10 +1,10 @@
 // DecisionTree client: render question → options → next or result, with restart.
 {
-interface Node { q?: { ar: string; en: string }; result?: { ar: string; en: string }; options?: { label: { ar: string; en: string }; next?: Node; result?: { ar: string; en: string } }[] }
+interface Node { q?: { ar: string; en: string; ur?: string }; result?: { ar: string; en: string; ur?: string }; options?: { label: { ar: string; en: string; ur?: string }; next?: Node; result?: { ar: string; en: string; ur?: string } }[] }
 function init(root: HTMLElement) {
   const payload = JSON.parse(root.querySelector("[data-payload]")!.textContent!) as { tree: Node; lang: string; labels: { restart: string } };
   const stage = root.querySelector("[data-stage]")!;
-  const L = (x: { ar: string; en: string }) => (payload.lang === "ar" ? x.ar : x.en);
+  const L = (x: { ar: string; en: string; ur?: string }) => (x[payload.lang as "ar" | "en" | "ur"] ?? x.ar);
   const render = (node: Node) => {
     stage.innerHTML = "";
     if (node.result) {

@@ -24,7 +24,7 @@ const name = labelOf(node, lang);
 const total = realNodes.filter((n) => n.class === "passage" && (n as any).data.unit === "ayah" && (n as any).data.sura === file.surah).length;
 const place = (node as any).data.revelation_place as string;
 const revOrder = (node as any).data.revelation_order as number;
-const L = (t: { ar: string; en: string }) => (lang === "ar" ? t.ar : t.en);
+const L = (t: { ar: string; en: string; ur?: string }) => (t[lang] ?? t.ar);
 const payload: SurahMapPayload = {
   lang, total, name,
   families: { faith: SM.family_faith, stories: SM.family_stories, law: SM.family_law },
@@ -64,13 +64,13 @@ const desc = fmt(SM.map_lede, { n: String(total) });
       <ol>
         {file.map.map((s) => (
           <li style="margin-bottom:10px">
-            <strong>{lang === "ar" ? s.title.ar : s.title.en}</strong>
+            <strong>{s.title[lang] ?? s.title.ar}</strong>
             <span class="muted ui" style="font-size:.85rem"> · {s.range[0]}–{s.range[1]}</span>
-            <br /><span class="ui" style="font-size:.92rem">{lang === "ar" ? s.summary.ar : s.summary.en}</span>
+            <br /><span class="ui" style="font-size:.92rem">{s.summary[lang] ?? s.summary.ar}</span>
             {(s.children ?? []).length > 0 && (
               <ul style="margin-top:4px">
                 {(s.children ?? []).map((k) => (
-                  <li class="ui" style="font-size:.88rem">{lang === "ar" ? k.title.ar : k.title.en} <span class="muted">· {k.range[0]}–{k.range[1]}</span></li>
+                  <li class="ui" style="font-size:.88rem">{k.title[lang] ?? k.title.ar} <span class="muted">· {k.range[0]}–{k.range[1]}</span></li>
                 ))}
               </ul>
             )}

@@ -2,17 +2,20 @@
 id: event/prophets-mosque-built
 lang: en
 source_lang: ar
-translators: ["Devin (SWE-2), draft translation"]
+translators: ["Claude Haiku 5.5 (claude-haiku-5-5), draft translation"]
 ---
+
 ## Summary
-On reaching [[place/medina|Medina]] the Prophet lodged among Banu al-Najjar on Friday 12 Rabi' al-Awwal 1 AH (27 September 622 CE), staying at the house of [[person/abu-ayyub-al-ansari|Abu Ayyub al-Ansari]] until he built his mosque and dwellings. {cite:mubarakpuri-raheeq p. 184}
+The [[person/muhammad|Prophet]] built the Prophet's Mosque on the spot where his camel had knelt, after buying the land from two orphan boys, and he took part in its construction himself. {cite:mubarakpuri-raheeq p.184} {cite:mubarakpuri-raheeq p.185} The site contained polytheist graves, ruins and palm trees. He ordered the graves dug up, the ruins levelled and the palms cut down, and the qibla was set toward Jerusalem. {cite:mubarakpuri-raheeq p.184}
 
-## Buying and preparing the land
-The Prophet's camel knelt at a drying-yard belonging to two orphan boys of the Ansar in the care of [[person/asad-ibn-zurara|As'ad ibn Zurara]]; the Prophet called them and bargained for the yard to make it a mosque, and they said — we give it to you — but he refused until he bought it from them for ten dinars, which [[person/abu-bakr|Abu Bakr]] paid. {cite:mubarakpuri-raheeq p. 184} {cite:zad-al-maad 2/56}
+## Construction
+Its door-posts were of stone, its walls of mudbrick and clay, and its roof of palm fronds, with palm trunks as its pillars. Its floor was laid with sand and pebbles, and it had three doors. He built mudbrick rooms beside it for his wives, and moved into them when they were complete. {cite:mubarakpuri-raheeq p.184} {cite:mubarakpuri-raheeq p.185} He carried bricks and stones together with the Companions, reciting verses of supplication for the Ansar and the Muhajirun, and they grew more energetic for it. {cite:mubarakpuri-raheeq p.184}
 
-The place held polytheist graves, palms, ruins and gharqad trees; the Prophet ordered the polytheist graves exhumed, the ruins levelled, and the palms and trees cut down and lined up in the mosque's qibla wall. {cite:mubarakpuri-raheeq p. 184} {cite:sahih-al-bukhari 1/71}
+## Functions
+The mosque was not for prayer alone. It was a centre of learning, a forum in which tribes that had been at feud in the time of ignorance came together, a base for administering affairs, and a council chamber for assemblies. It also gave shelter to the poor Muhajirun who had no homes. {cite:mubarakpuri-raheeq p.185} At the beginning of the hijra the call to prayer was instituted, and the book refers to the dream of Abdullah ibn Zayd concerning it. {cite:mubarakpuri-raheeq p.185} {cite:mubarakpuri-raheeq p.185-186}
 
-## The building
-The Prophet himself joined his companions of the [[group/muhajirun|Muhajirun]] and [[group/ansar|Ansar]] in carrying the bricks and stones; the mosque's supports were of stone, its walls of mudbrick and clay, its roof of palm fronds, its pillars palm trunks, and its floor spread with sand and pebbles. {cite:mubarakpuri-raheeq p. 184} {cite:sahih-al-bukhari 1/555}
+## Notes for researchers
+- The book states that the Prophet's arrival in Medina was on Friday 12 Rabi' al-Awwal of the first year of the hijra, corresponding to 27 September 622 CE. This is the author's arrangement. {cite:mubarakpuri-raheeq p.184}
 
-The qibla then faced Jerusalem; the mosque was given three doors, its length about a hundred cubits and its width near that, and the apartments of his wives were built beside it. The mosque was a seat of worship, a college of learning, a starting-point for governing the community's affairs, and a shelter for the poor Muhajirun at the Suffa. {cite:mubarakpuri-raheeq p. 184}
+## For young visitors
+The Prophet built the first mosque in Medina with his own hands and the hands of his Companions, from palm trunks and mudbrick, so that Muslims could gather there for prayer and learning. It had a place where the poor could sleep.

@@ -20,7 +20,7 @@ interface JourneyView {
 }
 
 interface TourData {
-  lang: "ar" | "en";
+  lang: "ar" | "en" | "ur";
   t: Record<string, string>;
   journeys: JourneyView[];
   wingTitles: Record<string, string>;
@@ -228,9 +228,9 @@ function init(
         "The light of homes and mosques before electricity — oil, glass, and a quiet flame.",
     },
   ];
-  const exName = (ex: Exhibit): string => (lang === "ar" ? ex.ar : ex.en);
+  const exName = (ex: Exhibit): string => (lang === "en" ? ex.en : ex.ar);
   const exDesc = (ex: Exhibit): string =>
-    lang === "ar" ? ex.descAr : ex.descEn;
+    lang === "en" ? ex.descEn : ex.descAr;
 
   /* ---------------- renderer / scene / camera / lights ---------------- */
   const app = $("#app");

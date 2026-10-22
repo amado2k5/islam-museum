@@ -2,16 +2,19 @@
 id: group/hawazin
 lang: en
 source_lang: ar
-translators: ["Devin (SWE-2), draft translation"]
+translators: ["Claude Haiku 5.5 (claude-haiku-5-5), draft translation"]
 ---
 
 ## Overview
-Hawazin, a great Adnani tribal confederacy of the western Hijaz — [[group/quraysh|Quraysh]]'s old rival at al-Afaq — fought Islam at [[event/battle-of-hunayn|Hunayn]], then entered its noblest sons in the Companions' register.
+Hawazin is a great Adnanite tribal confederacy of the western Hijaz, the old rival of [[group/quraysh|Quraysh]] at Afaj. It fought the Muslims at [[event/battle-of-hunayn|Hunayn]], and later its most honoured sons entered the register of the Companions.
 
 ## History
-Hawazin with [[group/thaqif|Thaqif]] led the answer at [[event/battle-of-hunayn|Hunayn]] in 630 CE to the conquest allegiance, under [[person/malik-ibn-awf|Malik ibn Awf]]'s banner, and the confederacy broke after the volley of arrows in the valley {cite:ibn-ishaq-guillaume}. In the Sunni tradition it is related that on the day of division the Prophet chose Hawazin's captives' land over Quraysh's "for they are nearer in nursing" — [[person/halima-al-sadiyya|Halima al-Sa'diyya]], his wet-nurse, was of them {cite:ibn-sad-tabaqat-bewley}.
+Hawazin, together with [[group/thaqif|Thaqif]], led the fighting at [[event/battle-of-hunayn|Hunayn]] in 630 CE after the conquest-era pledge, under the banner of [[person/malik-ibn-awf|Malik ibn Awf]]. The confederacy broke after the arrows were shot in the valley {cite:ibn-ishaq-guillaume}. In the Sunni tradition it is related that on the day of the distribution the Prophet chose Hawazin's captives over Quraysh's captives, "because they are closer in suckling". [[person/halima-al-sadiyya|Halima al-Sa'diyya]], his wet-nurse, was of them {cite:ibn-sad-tabaqat-bewley}.
 
-Malik and its leaders became Muslim thereafter, and in Abu Bakr's reign they were among the knights of the Ridda and the conquests {cite:watt-1956-medina}.
+Malik and the leaders of Hawazin embraced Islam afterwards. In Abu Bakr's time they became among the knights of the Ridda and the conquests {cite:watt-1956-medina}.
 
 ## Legacy
-Hunayn — the battle most mentioned in Surat al-Tawba — became in Islamic edification the example of pride in numbers before victory, and for historians the last serious military attempt of the Bedouin tribes against the new state {cite:ibn-sad-tabaqat-bewley}.
+Hunayn, the battle most mentioned in Surat al-Tawba, became in Islamic moral teaching an example of pride in numbers before victory. For historians it was the last serious military attempt by the Bedouin tribes against the new state {cite:ibn-sad-tabaqat-bewley}.
+
+## In the introduction to al-Raheeq al-Makhtum
+Hawazin is of Qays Aylan ibn [[group/mudar-ibn-nizar|Mudar]], along with Banu Sulaym and Ghatafan {cite:mubarakpuri-raheeq p.21} {cite:muhadarat-tarikh-al-umam-al-islamiyya 1/14-15}. Hawazin settled to the east of Mecca in the area of [[place/awtas|Awtas]], on the road between Mecca and Basra {cite:mubarakpuri-raheeq p.22} {cite:muhadarat-tarikh-al-umam-al-islamiyya 1/15-16}.

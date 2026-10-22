@@ -4,27 +4,27 @@ import { readFileSync, readdirSync } from "node:fs";
 import { parse } from "yaml";
 import { repoPath } from "./paths";
 
-export interface ExplainerStep { q: { ar: string; en: string }; a: { ar: string; en: string }; ref?: string; evidence?: { source: string; note?: string }[] }
+export interface ExplainerStep { q: { ar: string; en: string; ur?: string }; a: { ar: string; en: string; ur?: string }; ref?: string; evidence?: { source: string; note?: string }[] }
 export interface ExplainerFile {
   slug: string;
-  title: { ar: string; en: string };
-  lede: { ar: string; en: string };
+  title: { ar: string; en: string; ur?: string };
+  lede: { ar: string; en: string; ur?: string };
   source_card: string;
   widget: "stepper" | "decision-tree" | "timeline" | "compare";
   steps?: ExplainerStep[];
   tree?: any;
   stations?: any[];
   columns?: any[];
-  attribution?: { ar: string; en: string };
-  caution?: { ar: string; en: string };
-  cautions?: { ar: string; en: string }[];
-  nuance?: { ar: string; en: string };
-  footer?: { ar: string; en: string };
+  attribution?: { ar: string; en: string; ur?: string };
+  caution?: { ar: string; en: string; ur?: string };
+  cautions?: { ar: string; en: string; ur?: string }[];
+  nuance?: { ar: string; en: string; ur?: string };
+  footer?: { ar: string; en: string; ur?: string };
 }
 
 const dir = () => repoPath("cards/explainers");
 
-export function listExplainers(): { slug: string; title: { ar: string; en: string }; widget: string }[] {
+export function listExplainers(): { slug: string; title: { ar: string; en: string; ur?: string }; widget: string }[] {
   return readdirSync(dir())
     .filter((f) => f.endsWith(".yaml"))
     .map((f) => {

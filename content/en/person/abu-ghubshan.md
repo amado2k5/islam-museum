@@ -2,13 +2,17 @@
 id: person/abu-ghubshan
 lang: en
 source_lang: ar
-translators: ["Devin (SWE-2), draft translation"]
+translators: ["Claude Haiku 5.5 (claude-haiku-5-5), draft translation"]
 ---
-## Overview
-Abu Ghubshan al-Khuza'i: agent for Hubba bint Hulayl over the Ka'ba's custodianship, and the man who sold it to Qusayy for a skin of wine in one account of the taking of Mecca.
 
-## Life
-In al-Mubarakpuri's third account, Hulayl gave his daughter Hubba the guardianship of the House and made Abu Ghubshan her agent, who held the custodianship on her behalf; when Hulayl died, Qusayy bought the House's guardianship from him for a skin of wine. Khuza'a did not accept this sale and tried to stop Qusayy — and that was among the preludes to the war {cite:mubarakpuri-raheeq}.
+## Brief
+Abu Ghubshan al-Khuza'i, the agent of Hubba, daughter of [[person/hulayl-ibn-hubshiyya|Hulayl]], in the custody of the Kaaba. He appears in the third account that The Sealed Nectar gives for the cause of the war between [[person/qusayy-ibn-kilab|Qusayy]] and Khuza'a {cite:mubarakpuri-raheeq p.30} {cite:rahma-lil-alamin 2/55}.
+
+## The account
+Hulayl gave his daughter Hubba the custody of the House and appointed Abu Ghubshan as her agent, so Abu Ghubshan carried out the custody of the Kaaba on her behalf. When Hulayl died, Qusayy bought the custody of the House from Abu Ghubshan for a skin of wine. Khuza'a did not accept this sale and tried to keep Qusayy away from the House. Qusayy then gathered men of Quraysh and the Banu Kinana to expel Khuza'a from Mecca, and they answered his call {cite:mubarakpuri-raheeq p.30} {cite:rahma-lil-alamin 2/55}. See [[event/qusayy-takes-mecca|Qusayy's seizure of Mecca]].
+
+## Notes for researchers
+This is one of three accounts the author gives, after which he says "whatever the case may be." It is a report, not a verdict.
 
 ## For young visitors
-Abu Ghubshan was a man who sold the Ka'ba's key for a water-skin of wine — a sale his tribe refused to accept, and war broke out because of it.
+In one account, Abu Ghubshan sold the key of the Kaaba for a skin of wine. His tribe did not accept the sale, and a war broke out over it.

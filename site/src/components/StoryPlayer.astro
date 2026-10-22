@@ -5,7 +5,7 @@ import type { Lang } from "../lib/i18n";
 
 interface Props { story: StoryFile; lang: Lang; t: Record<string, string> }
 const { story, lang, t } = Astro.props;
-const L = (x: { ar: string; en: string }) => (lang === "ar" ? x.ar : x.en);
+const L = (x: { ar: string; en: string; ur?: string }) => (x[lang] ?? x.ar);
 ---
 <div class="story" data-story>
   <p class="intro">{L(story.intro)}</p>

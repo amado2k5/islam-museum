@@ -6,7 +6,7 @@ import { parse } from "yaml";
 import { repoPath } from "./paths";
 import type { Lang } from "./i18n";
 
-export interface Bilingual { ar: string; en: string }
+export interface Bilingual { ar: string; en: string; ur?: string }
 
 export interface QuestStop {
   slug: string;
@@ -47,12 +47,12 @@ const esc = (s: string) =>
   s.replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;").replace(/"/g, "&quot;");
 
 /**
- * Appends «عليه السلام» (ar) / "(peace be upon him)" (en) after the FIRST mention
+ * Appends «عليه السلام» (ar) / «علیہ السلام» (ur) / "(peace be upon him)" (en) after the FIRST mention
  * of each name in `names`. HTML-escapes first; names come from data, never typed here.
  */
 export function kidsHonorify(text: string, lang: Lang, names: string[]): string {
   let t = esc(text);
-  const suffix = lang === "ar" ? "عليه السلام" : "(peace be upon him)";
+  const suffix = lang === "ar" ? "عليه السلام" : lang === "ur" ? "علیہ السلام" : "(peace be upon him)";
   for (const name of names) {
     if (!name) continue;
     const i = t.indexOf(name);
@@ -62,8 +62,8 @@ export function kidsHonorify(text: string, lang: Lang, names: string[]): string 
   return t;
 }
 
-/** The text for a language; the stops are written in Arabic and English only, so Urdu falls back to English. */
-const pick = <T>(b: { ar: T; en: T }, lang: Lang): T => (lang === "ar" ? b.ar : b.en);
+/** The text for a language; a language without its own text falls back to Arabic (same script and direction). */
+const pick = <T>(b: { ar: T; en: T; ur?: T }, lang: Lang): T => (b[lang] ?? b.ar);
 
 /** Select the page language and honorify each stop's story with that stop's prophet name. */
 export function viewQuestStops(stops: QuestStop[], lang: Lang): QuestStopView[] {
@@ -165,7 +165,7 @@ export function viewSproutLines(stops: QuestStop[], lang: Lang): SproutLine[] {
 }
 
 /** Bilingual string list: every string has an ar and an en entry. */
-export interface BilingualList { ar: string[]; en: string[] }
+export interface BilingualList { ar: string[]; en: string[]; ur?: string[] }
 
 // ---------- Retell (Phase 4) ----------
 
@@ -283,7 +283,7 @@ export interface LessonUnit {
   unit_slug: string;
   experience_href: string;
   objectives: BilingualList;
-  flow_40min: { ar: LessonFlowStep[]; en: LessonFlowStep[] };
+  flow_40min: { ar: LessonFlowStep[]; en: LessonFlowStep[]; ur?: LessonFlowStep[] };
   discussion_prompts: BilingualList;
   worksheet: BilingualList;
 }
@@ -610,6 +610,7 @@ export function loadEras(): Era[] {
 const ERA_PROPHET_NAMES = {
   ar: ["النبي", "إبراهيم", "إسماعيل"],
   en: ["the Prophet", "Ibrahim", "Ismail"],
+  ur: ["نبی", "ابراہیم", "اسماعیل"],
 };
 
 /**

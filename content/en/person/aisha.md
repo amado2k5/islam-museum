@@ -1,28 +1,28 @@
 ---
 id: person/aisha
 lang: en
-source_lang: en
-translators: []
+source_lang: ar
+translators: ["Claude Haiku 5.5 (claude-haiku-5-5), draft translation"]
 ---
 
-## Brief
-Aisha bint Abi Bakr was a daughter of the first caliph and a wife of the Prophet. In Sunni tradition she is among the greatest transmitters of hadith — reports of what the Prophet said and did — and one of the most learned women of the first Islamic century.
+## Summary
+Aisha bint Abi Bakr was the daughter of the first caliph and a wife of the Prophet. Sunni tradition counts her among the greatest transmitters of hadith, and among the most learned women of the first Islamic century.
 
 ## Life
-Born in Mecca about 613–614 CE (the traditional chronology is debated), Aisha migrated to Medina with [[event/hijra]] and was married to [[person/muhammad]] around 623 {cite:watt-1956-medina}. She grew up in the Prophet's household and was remembered by contemporaries for a sharp memory and a probing mind {cite:ibn-sad-tabaqat-bewley}.
+She was born in Mecca around 613–614 CE, and the date of her birth is disputed. She migrated to Medina with the [[event/hijra|Hijra]], and married [[person/muhammad|Muhammad]] around 623 CE {cite:watt-1956-medina}. She grew up in the Prophet's household, and her contemporaries recorded her sharp memory and intelligence {cite:ibn-sad-tabaqat-bewley}.
 
-In 627 CE she was caught in the episode the tradition calls *the slander*: separated from the caravan on the return from a raid, she was escorted back by a young Companion, and gossip accused her of adultery. The tafsir tradition links her vindication to verses of the Qur'an (24:11 and following) {cite:ibn-sad-tabaqat-bewley}.
+In 627 CE came the episode of the slander. She fell behind the caravan on the way back from a raid, and a young Companion brought her back to the people, while the rabble gossiped with malice. The tradition of tafsir links her innocence to verses revealed on that matter {cite:ibn-sad-tabaqat-bewley}.
 
-Widowed at about eighteen, she lived on in Medina for nearly five decades. She narrated well over two thousand reports in the Sunni collections, corrected Companions on points of law and ritual, and took part in the politics of the first civil war, leading the party that confronted [[person/ali-ibn-abi-talib]] at the Battle of the Camel in 656 {cite:watt-1956-medina}. She died in Medina in July 678 CE.
-
-:::perspectives
-- **Sunni**: Sunni tradition honors Aisha as Mother of the Believers, the Prophet's beloved wife and one of the most important narrators of hadith, whose legal judgment shaped early practice {cite:ibn-sad-tabaqat-bewley}.
-- **Academic**: Historians treat the reports about her age and marriage cautiously as later tradition, while recognizing her as a major early authority for hadith and a central actor in the first civil war {cite:watt-1956-medina}.
-- **Twelver Shia**: Twelver Shia tradition is critical of Aisha chiefly for leading the forces that fought Ali at the Camel, while still acknowledging her place among the Prophet's wives {cite:momen-1985}.
-:::
+The Prophet died when she was about eighteen. She lived in Medina for nearly five decades and related more than two thousand hadith in the Sunni collections. She corrected the Companions in matters of fiqh and worship. She had a part in the first civil strife, when she led the side that met [[person/ali-ibn-abi-talib|Ali]] at the Battle of the Camel in 656 CE {cite:watt-1956-medina}. She died in Medina in July 678 CE.
 
 ## Legacy
-Her voice runs through Sunni law, theology and Qur'an commentary: where the community asked what the Prophet had done or said, Aisha's answer carried exceptional weight.
+Her voice runs through Sunni fiqh, creed and tafsir. Whenever the community asked what the Prophet had said or done, Aisha's answer carried a particular weight.
 
 ## For young visitors
-Aisha had one of the best memories of her generation. People came from far away to ask her what the Prophet had said and done, and her answers helped write down the tradition.
+Aisha had one of the strongest memories of her generation. People came from far away to ask her what the Prophet had said and done, and her answers are among the things the tradition was written down from.
+
+## A slave of the descendants of Isma'il
+Ibn Ishaq, from Asim ibn Umar ibn Qatada, relates that Aisha said to the Prophet that she owed the freeing of a slave from the descendants of Isma'il. He said to her: "The captives of Banu al-Anbar are coming now, and we will give you one of them to free." See [[event/sariyya-of-uyayna-to-banu-tamim|the raid on Banu al-Anbar]] {cite:ibn-hisham-saqqa 4/269}.
+
+## Her marriage (The Sealed Nectar, p.136)
+The Prophet married her in Shawwal of the eleventh year of the mission, when she was six years old. He consummated the marriage in Medina in Shawwal of the first year of the Hijra, when she was nine {cite:mubarakpuri-raheeq p.136} {cite:sahih-al-bukhari 1/551}.

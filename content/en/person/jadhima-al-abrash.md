@@ -2,15 +2,20 @@
 id: person/jadhima-al-abrash
 lang: en
 source_lang: ar
-translators: ["Devin (SWE-2), draft translation"]
+translators: ["Claude Haiku 5.5 (claude-haiku-5-5), draft translation"]
 ---
-## Overview
-Jadhima al-Abrash: Ardashir's governor over al-Hira and the desert Arabs — the first model of ruling the Arabs through a man of their own, before the house of Lakhm arose.
 
-## Life
-In Ardashir's reign, the rule of Jadhima al-Waddah (al-Abrash) extended over al-Hira and all of Rabi'a and Mudar in the Iraqi desert and the Jazira {cite:muhadarat-tarikh-al-umam-al-islamiyya}.
+## Summary
+Jadhima al-Waddah, known as al-Abrash, governor of [[person/ardashir-i-ibn-babak|Ardashir]] over [[place/al-hira|al-Hira]] and over all of Rabi'a and Mudar in the Iraqi desert and the Jazira. He was the first model of the Persians ruling the Arabs through a man of their own, before the house of [[group/banu-lakhm|Lakhm]] arose {cite:mubarakpuri-raheeq p.26} {cite:muhadarat-tarikh-al-umam-al-islamiyya 1/29-32}.
 
-Ardashir had seen that he could not rule the Arabs directly nor bar them from raiding his realm's marches unless he set over them a man of their own with tribal partisans to back and defend him, using him against the kings of Byzantium — and he kept with him a corps of Persian troops {cite:mubarakpuri-raheeq}. Jadhima's death was around the year 268 CE {cite:muhadarat-tarikh-al-umam-al-islamiyya}.
+## Ardashir's policy
+Ardashir judged that he could not rule the Arabs directly or stop them raiding the borders of his realm, unless he set over them a man of their own who had tribal support to back and protect him. Such a man could also be used against the Roman kings whom Ardashir feared, and would place the Arabs of Iraq against the Arabs of Syria whom the Romans had raised. Ardashir kept with the ruler of al-Hira a Persian force to call on against the Arabs of the desert who rebelled against his authority {cite:mubarakpuri-raheeq p.26}.
+
+## His death
+Jadhima died around the year 268 CE. After him, [[person/amr-ibn-adi|Amr ibn Adi ibn Nasr al-Lakhmi]], the first of the Lakhmid kings, ruled al-Hira {cite:mubarakpuri-raheeq p.26} {cite:muhadarat-tarikh-al-umam-al-islamiyya 1/29-32}.
+
+## What is not mentioned here
+The story of Jadhima and al-Zabba', which is famous among the chroniclers, is not mentioned in al-Raheeq.
 
 ## For young visitors
-Jadhima was an Arab ruler whom Persia appointed to guard its borders from desert raids — he was the first to try this arrangement.
+Jadhima was an Arab ruler appointed by Persia to guard its borders from raids of the desert. He was the first to try this system.

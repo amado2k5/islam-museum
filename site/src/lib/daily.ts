@@ -3,8 +3,8 @@ import { readFileSync } from "node:fs";
 import { parse } from "yaml";
 import { repoPath } from "./paths";
 
-export interface DailyEntry { card: string; prompt: { ar: string; en: string } }
-export interface DailySeries { series: string; title: { ar: string; en: string }; entries: DailyEntry[] }
+export interface DailyEntry { card: string; prompt: { ar: string; en: string; ur?: string } }
+export interface DailySeries { series: string; title: { ar: string; en: string; ur?: string }; entries: DailyEntry[] }
 
 let cache: DailySeries | null = null;
 export function loadDaily(): DailySeries {

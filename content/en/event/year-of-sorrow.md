@@ -2,12 +2,20 @@
 id: event/year-of-sorrow
 lang: en
 source_lang: ar
-translators: ["Devin (SWE-2), draft translation"]
+translators: ["Claude Haiku 5.5 (claude-haiku-5-5), draft translation"]
 ---
-In the tenth year of the prophethood, about six months after the emergence from Abu Talib's quarter, the Prophet's uncle and protector [[person/abu-talib|Abu Talib]] died in Rajab at the age of eighty-odd, worn down by the years and the siege's hardships — or it is said he died in Ramadan. {cite:mubarakpuri-raheeq}
 
-When death drew near him the Prophet came in to him — [[person/abu-jahl|Abu Jahl]] and [[person/abdullah-ibn-abi-umayya|Abdullah ibn Abi Umayya]] at his side — and pleaded with him to say "there is no god but God", a word by which he could plead for him before God; the two men said to him: do you forsake Abd al-Muttalib's creed? He kept repeating it to him until the last thing he spoke to them was that he was on Abd al-Muttalib's creed. God's word came down: "you do not guide whom you love, but God guides whom He wills", and the believers were forbidden to ask forgiveness for the polytheists. {cite:sahih-al-bukhari}
+## Summary
+In the tenth year of the prophethood, [[person/abu-talib|Abu Talib]], the Prophet's uncle and protector, died. Two or three months later [[person/khadija|Khadija]] died. The Prophet named that year "the Year of Sorrow", and by this title it became known in history {cite:mubarakpuri-raheeq p.115} {cite:mubarakpuri-raheeq p.116} {cite:mubarakpuri-raheeq p.117}.
 
-Some two or three months after Abu Talib's death, the Mother of the Believers [[person/khadija|Khadija the Elder]] died in Ramadan at sixty-five years of age, the Messenger of God being fifty — after she had spent a quarter-century at his side, supporting and consoling him with her wealth and herself. {cite:mubarakpuri-raheeq}
+## The harm that followed
+When Abu Talib died, Quraysh inflicted on the Prophet what they had not dared to inflict while Abu Talib was alive. They openly moved against him with punishment and harm, until he went out to al-Ta'if hoping that they would respond to him, or shelter him and support him against his people. He found no one who would give him shelter, and they harmed him most severely {cite:mubarakpuri-raheeq p.117}. The Prophet said, as Ibn Ishaq relates: "Quraysh did not reach me with anything I disliked until Abu Talib died" {cite:mubarakpuri-raheeq p.117}.
 
-Calamities came on the Prophet in succession within a counted span of days, and that year was named the Year of Sorrow; Quraysh grew bold against him after his uncle's and wife's deaths as they had never hoped to in their lifetimes — until he went out to al-Ta'if seeking support. {cite:mubarakpuri-raheeq}
+## The second migration to Abyssinia
+The pressure also mounted on the Prophet's companions. [[person/abu-bakr|Abu Bakr]] resolved to emigrate from Mecca and reached Barak al-Ghimad on his way to Abyssinia, but [[person/ibn-al-dughunna|Ibn al-Dughunna]] brought him back under his protection {cite:mubarakpuri-raheeq p.117} {cite:sahih-al-bukhari 1/548}.
+
+## Notes for researchers
+- The book notes that most sources agree the siege lasted three years, and that the siege began on the night of the new moon of Muharram in the seventh year of the prophethood {cite:mubarakpuri-raheeq p.115}.
+
+## For young visitors
+The year in which Abu Talib and Khadija died was called "the Year of Sorrow", because in that year the Prophet lost his uncle and his wife, who had protected and comforted him.

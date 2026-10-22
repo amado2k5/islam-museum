@@ -4,7 +4,7 @@ import { readFileSync, readdirSync } from "node:fs";
 import { parse } from "yaml";
 import { repoPath } from "./paths";
 
-export interface MapTitle { ar: string; en: string }
+export interface MapTitle { ar: string; en: string; ur?: string }
 export interface MapKid { title: MapTitle; range: [number, number] }
 export interface MapSection { title: MapTitle; range: [number, number]; family: string; summary: MapTitle; children: MapKid[] }
 export interface SurahMapFile { surah: number; slug: string; map: MapSection[] }

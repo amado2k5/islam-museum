@@ -6,7 +6,9 @@ export interface TlBand { id: string; href: string; label: string; from: number;
 
 export const W = 1000;
 export const xOf = (y: number, min: number, max: number, rtl: boolean) => { const t = (Math.min(Math.max(y, min), max) - min) / (max - min); return (rtl ? 1 - t : t) * W; };
-export const yearLabel = (y: number, lang: "ar" | "en") => (y < 1 ? `${1 - y} ${lang === "ar" ? "ق.هـ" : "BH"}` : `${y} ${lang === "ar" ? "هـ" : "AH"}`);
+// Hijri era marks per language (the same forms as ERA in dates.ts, kept here so the browser bundle stays free of the converter).
+const HIJRI_ERA: Record<string, { ah: string; bh: string }> = { ar: { ah: "هـ", bh: "ق.هـ" }, en: { ah: "AH", bh: "BH" }, ur: { ah: "ھ", bh: "قبل ہجرت" } };
+export const yearLabel = (y: number, lang: string) => { const e = HIJRI_ERA[lang] ?? HIJRI_ERA.en; return y < 1 ? `${1 - y} ${e.bh}` : `${y} ${e.ah}`; };
 
 /** One marker per Hijri year, stacked into lanes so neighbours do not overlap; a marker's radius grows with its count. */
 export function layoutMarkers(events: TlEvent[], min: number, max: number, rtl: boolean, gap = 7): TlMarker[] {

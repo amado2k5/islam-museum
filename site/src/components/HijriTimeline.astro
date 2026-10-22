@@ -3,12 +3,13 @@
 // a draggable playhead with a dual-date readout, and a هجري/ميلادي toggle for the axis labels. Rendered at build time so it
 // reads without JavaScript; the browser script adds the cards, the drag and the era zoom from the same embedded data.
 import { ui, type Lang } from "../lib/i18n";
+import { ERA } from "../lib/dates";
 import { buildDay } from "../lib/today";
 import { ceTicks, timelineEvents, timelinePeriods } from "../lib/timeline";
 import { layoutBands, layoutMarkers, W, xOf, yearLabel } from "../lib/timeline-layout";
 const { lang } = Astro.props as { lang: Lang };
 const T = ui(lang);
-const rtl = lang === "ar";
+const rtl = T.dir === "rtl";
 const MAX = buildDay().h.y;
 const FLOOR = -150; // earlier events (the patriarchs) gather at the edge marker rather than stretching the axis by millennia
 const all = timelineEvents(lang);
@@ -30,7 +31,7 @@ const hTicks: number[] = [1];
 for (let y = 100; y < MAX; y += 100) hTicks.push(y);
 hTicks.push(MAX);
 const gTicks = ceTicks(MIN, MAX);
-const payload = { lang, rtl, min: MIN, max: MAX, events, bands: bands.map(({ id, href, label, from, to }) => ({ id, href, label, from, to })), early: early.length, t: { ah: lang === "ar" ? "هـ" : "AH", bh: lang === "ar" ? "ق.هـ" : "BH", ce: lang === "ar" ? "م" : "CE", year: T.timeline.year, events: T.timeline.events_in, before: T.timeline.before, close: T.timeline.close, all: T.timeline.all } };
+const payload = { lang, rtl, min: MIN, max: MAX, events, bands: bands.map(({ id, href, label, from, to }) => ({ id, href, label, from, to })), early: early.length, t: { ah: ERA[lang].ah, bh: ERA[lang].bh, ce: ERA[lang].ce, year: T.timeline.year, events: T.timeline.events_in, before: T.timeline.before, close: T.timeline.close, all: T.timeline.all } };
 const dual = (y: number) => `${yearLabel(Math.floor(y), lang)}`;
 ---
 <section class="tl ui" data-timeline data-cal="h" aria-labelledby="tl-title">

@@ -5,25 +5,25 @@ import { parse } from "yaml";
 import { repoPath } from "./paths";
 
 export interface DeckItem {
-  title: { ar: string; en: string };
-  body: { ar: string; en: string };
+  title: { ar: string; en: string; ur?: string };
+  body: { ar: string; en: string; ur?: string };
   ref?: string;
   verify?: string;
 }
 export interface DeckFile {
   slug: string;
-  title: { ar: string; en: string };
-  lede: { ar: string; en: string };
+  title: { ar: string; en: string; ur?: string };
+  lede: { ar: string; en: string; ur?: string };
   source_card: string;
   quiz: boolean;
-  note?: { ar: string; en: string };
+  note?: { ar: string; en: string; ur?: string };
   items: DeckItem[];
 }
 
 const dir = () => repoPath("cards/lists");
 
 /** All available decks, sorted by slug. */
-export function listDecks(): { slug: string; title: { ar: string; en: string }; count: number }[] {
+export function listDecks(): { slug: string; title: { ar: string; en: string; ur?: string }; count: number }[] {
   return readdirSync(dir())
     .filter((f) => f.endsWith(".yaml"))
     .map((f) => {

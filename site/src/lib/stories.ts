@@ -3,23 +3,23 @@ import { readFileSync, readdirSync } from "node:fs";
 import { parse } from "yaml";
 import { repoPath } from "./paths";
 
-export interface StoryStation { title: { ar: string; en: string }; ref: string; body: { ar: string; en: string }; evidence?: { source: string; note?: string }[] }
+export interface StoryStation { title: { ar: string; en: string; ur?: string }; ref: string; body: { ar: string; en: string; ur?: string }; evidence?: { source: string; note?: string }[] }
 export interface StoryFile {
   slug: string;
-  title: { ar: string; en: string };
-  lede: { ar: string; en: string };
+  title: { ar: string; en: string; ur?: string };
+  lede: { ar: string; en: string; ur?: string };
   source_card: string;
-  intro: { ar: string; en: string };
+  intro: { ar: string; en: string; ur?: string };
   stations: StoryStation[];
-  facts?: { ar: string; en: string }[];
-  lessons?: { ar: string; en: string }[];
-  cautions?: { ar: string; en: string }[];
-  khulasa?: { ar: string; en: string };
+  facts?: { ar: string; en: string; ur?: string }[];
+  lessons?: { ar: string; en: string; ur?: string }[];
+  cautions?: { ar: string; en: string; ur?: string }[];
+  khulasa?: { ar: string; en: string; ur?: string };
 }
 
 const dir = () => repoPath("cards/stories");
 
-export function listStories(): { slug: string; title: { ar: string; en: string }; count: number }[] {
+export function listStories(): { slug: string; title: { ar: string; en: string; ur?: string }; count: number }[] {
   return readdirSync(dir())
     .filter((f) => f.endsWith(".yaml"))
     .map((f) => {

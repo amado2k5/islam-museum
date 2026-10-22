@@ -8,7 +8,7 @@ export interface WordForm { form: string; count: number; refs: WordRef[] }
 export interface WordColloc { after: string; phrase: string; count: number; refs: WordRef[] }
 export interface WordMapFile {
   slug: string; word: string;
-  title: { ar: string; en: string };
+  title: { ar: string; en: string; ur?: string };
   total: number;
   forms: WordForm[];
   collocations: WordColloc[];
@@ -20,7 +20,7 @@ export interface WordMapFile {
 const dir = () => repoPath("cards/wordmap");
 
 /** All available word maps, sorted by slug. */
-export function listWordMaps(): { slug: string; word: string; title: { ar: string; en: string }; count: number }[] {
+export function listWordMaps(): { slug: string; word: string; title: { ar: string; en: string; ur?: string }; count: number }[] {
   return readdirSync(dir())
     .filter((f) => f.endsWith(".json") && f !== "index.json")
     .map((f) => {

@@ -2,10 +2,18 @@
 id: person/amina-bint-wahb
 lang: en
 source_lang: ar
-translators: ["Devin (SWE-2), draft translation"]
+translators: ["Claude Haiku 5.5 (claude-haiku-5-5), draft translation"]
 ---
-Amina bint Wahb ibn Abd Manaf ibn Zuhra, of [[group/banu-zuhra|Banu Zuhra]] of [[group/quraysh|Quraysh]], mother of the Prophet Muhammad. [[person/abdullah-ibn-abd-al-muttalib|Abdullah ibn Abd al-Muttalib]] married her, then died at Yathrib leaving her pregnant with him. {cite:mubarakpuri-raheeq}
+Amina bint Wahb ibn Abd Manaf ibn Zuhra, of [[group/banu-zuhra|Banu Zuhra]] of [[group/quraysh|Quraysh]], was the mother of the Prophet Muhammad. [[person/abdullah-ibn-abd-al-muttalib|Abd Allah ibn Abd al-Muttalib]] married her, then died in Yathrib, leaving her pregnant with him {cite:mubarakpuri-raheeq}.
 
-When her son was six she took him to Yathrib to visit his father's grave among his maternal uncles, her servant [[person/umm-ayman|Umm Ayman]] with her; she stayed a month, then illness struck them on the return road and she died in the village of [[place/al-abwa|al-Abwa']] between Mecca and Medina, where she was buried. {cite:mubarakpuri-raheeq}
+When her son reached six, she took him to Yathrib to visit his father's grave among his maternal uncles, with her servant [[person/umm-ayman|Umm Ayman]]. She stayed a month. Then illness struck them on the return road, and she died in the village of [[place/al-abwa|al-Abwa']], between Mecca and Medina, and was buried there {cite:mubarakpuri-raheeq}.
 
-Her father-in-law [[person/abd-al-muttalib|Abd al-Muttalib]] took the orphan back to Mecca and gathered him to his bosom until he died two years after her. {cite:mubarakpuri-raheeq}
+Her father-in-law [[person/abd-al-muttalib|Abd al-Muttalib]] took the orphan back to Mecca and held him in his lap until he died, two years after her {cite:mubarakpuri-raheeq}.
+
+
+## Her choice, marriage and elegy for her husband (The Sealed Nectar, p.53)
+[[person/abd-al-muttalib|Abd al-Muttalib]] chose Amina bint [[person/wahb-ibn-abd-manaf|Wahb]] ibn Abd Manaf ibn Zuhra ibn Kilab for his son Abd Allah. At that time she was counted the best woman of Quraysh in lineage and standing, and her father was the chief of Banu Zuhra in lineage and nobility. Abd Allah consummated the marriage in Mecca {cite:mubarakpuri-raheeq p.53} {cite:ibn-hisham-sira 1/156-158}. When news of his death reached her from Medina, she mourned him in an elegy which the author describes as among the finest elegies. In it she recalls the emptiness that the son of Hashim left in the open ground of the Batha, his answering the call of death, and that he was generous and very compassionate {cite:mubarakpuri-raheeq p.53} {cite:tabaqat-ibn-sad 1/62}. Among what she inherited from him was the Abyssinian slave-girl Barakah, [[person/umm-ayman|Umm Ayman]] {cite:mubarakpuri-raheeq p.53} {cite:mukhtasar-sirat-al-rasul-al-najdi p.12}. See [[event/death-of-abdullah-ibn-abd-al-muttalib|Abd Allah's death in Medina]].
+
+
+## Birth and the journey to Yathrib (The Sealed Nectar, pp.54–57)
+Amina gave birth to her son in the Shi'b (valley) of Banu Hashim in Mecca, on the morning of Monday, the ninth of Rabi' al-Awwal, in the Year of the Elephant. She sent to Abd al-Muttalib to give him the news of his grandson {cite:mubarakpuri-raheeq p.54} {cite:ibn-hisham-sira 1/159-160}. Ibn Sa'd relates from her that when she bore him she saw a light by which the palaces of Syria were illuminated {cite:mubarakpuri-raheeq p.54} {cite:tabaqat-ibn-sad 1/63}. Two years later, in the desert of Banu Sa'd, [[person/halima-al-sadiyya|Halima]] asked her to leave the boy with her, for fear of the plague of Mecca, and Amina sent him back with her {cite:mubarakpuri-raheeq p.56} {cite:ibn-hisham-sira 1/162-164}. When he reached six, she took him to Yathrib to visit his father's grave, with [[person/umm-ayman|Umm Ayman]] and his guardian Abd al-Muttalib. She stayed a month, then died on the way back, at [[place/al-abwa|al-Abwa']] ([[event/death-of-amina|Amina's death]]) {cite:mubarakpuri-raheeq p.57} {cite:ibn-hisham-sira 1/168} {cite:talqih-fuhum-ahl-al-athr p.7}.
