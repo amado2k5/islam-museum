@@ -25,7 +25,7 @@ Production is meant to run **seven identical Workers** on `islam-museum-search`:
 
 ### Publish flow (every deploy, started by the founder)
 
-Since 21 October 2026 building and deploying are two workflows. `build.yml` ("Build islam.museum") runs on every push to `main` and keeps `dist/` as the artifact `dist` (two days). `deploy.yml` ("Deploy islam.museum to Cloudflare") runs only when the founder starts it and never builds: its input `build_run_id` picks the build run whose artifact to deploy (empty: the latest successful build of `main`). The same build can be deployed again while its artifact lives; a redeploy sends nothing to R2, because the manifest already matches the build.
+Since 21 October 2026 building and deploying are two workflows. `build.yml` ("Build islam.museum") runs on every push to `main` and keeps `dist/` as the artifact `dist` and deletes the older ones, so only the newest successful build is deployable. `deploy.yml` ("Deploy islam.museum to Cloudflare") runs only when the founder starts it and never builds: its input `build_run_id` picks the build run whose artifact to deploy (empty: the latest successful build of `main`). The same build can be deployed again while its artifact exists; a redeploy sends nothing to R2, because the manifest already matches the build.
 
 1. `deploy.yml` downloads the `dist` artifact of the chosen build and checks out that build's commit, so the Worker code and `publish.mjs` match the build.
 2. The Worker deploy step deploys the Worker copies and sets their token from `R2_SYNC_TOKEN`. It collects their URLs.

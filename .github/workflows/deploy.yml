@@ -9,7 +9,7 @@ on:
   workflow_dispatch:
     inputs:
       build_run_id:
-        description: "Build run id to deploy (Build islam.museum). Empty: the latest successful build of main."
+        description: "Build run id to deploy (Build islam.museum). Empty: the latest successful build of main. Only the newest build's artifact is kept, so an older run id works only if its artifact still exists."
         required: false
         type: string
 

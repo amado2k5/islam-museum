@@ -10,6 +10,8 @@ on:
 
 permissions:
   contents: read
+  # Delete the older dist artifacts after a successful upload (last step of the build job).
+  actions: write
 
 # One build at a time. A running build always finishes; of the pushes that arrive
 # meanwhile only the newest waits (GitHub cancels the pending runs in between), so
@@ -79,11 +81,39 @@ jobs:
             echo "Deploy it with **Deploy islam.museum to Cloudflare** → Run workflow, build_run_id \`${{ github.run_id }}\` (or empty for the latest build)."
           } >> "$GITHUB_STEP_SUMMARY"
       - name: Upload built site (the whole dist, including the R2-served directories)
+        id: upload
         uses: actions/upload-artifact@v4
         with:
           name: dist
           path: dist
-          # Public repository: artifact storage is free. Two days covers the daily deploy
-          # and a redeploy of the previous build; older builds are rebuilt from the commit.
+          # Public repository: artifact storage is free. The step below keeps only the newest
+          # artifact; retention is the safety net, not the mechanism.
           retention-days: 2
           if-no-files-found: error
+      # Founder's instruction of 22 October 2026: only the newest successful build's artifact
+      # is kept. Every successful build deletes the older `dist` artifacts once its own upload
+      # succeeded, so deploy.yml's build_run_id input must point at a run whose artifact still
+      # exists: the latest build, or an older one only if nothing was built since. A rollback
+      # copy of an older build exists only when the founder asks for it to be kept.
+      - name: Delete the older dist artifacts (keep only this build's)
+        if: success()
+        env:
+          GH_TOKEN: ${{ github.token }}
+          GH_REPO: ${{ github.repository }}
+          KEEP: ${{ steps.upload.outputs.artifact-id }}
+        run: |
+          set -uo pipefail
+          test -n "$KEEP" || { echo "::warning::No artifact id from the upload step; nothing deleted."; exit 0; }
+          # Every live artifact named dist in the repository, all pages, except the one just uploaded.
+          ids=$(gh api --paginate "repos/$GH_REPO/actions/artifacts?name=dist&per_page=100" \
+            --jq '.artifacts[] | select(.expired == false) | .id' | grep -vx "$KEEP" || true)
+          deleted=0; failed=0
+          for id in $ids; do
+            if gh api -X DELETE "repos/$GH_REPO/actions/artifacts/$id" >/dev/null 2>&1; then
+              deleted=$((deleted + 1))
+            else
+              failed=$((failed + 1)); echo "::warning::Could not delete artifact $id (left in place)."
+            fi
+          done
+          echo "deleted $deleted older dist artifact(s), $failed failed; kept $KEEP (this build)"
+          echo "- Older dist artifacts deleted: $deleted ($failed could not be deleted)" >> "$GITHUB_STEP_SUMMARY"
