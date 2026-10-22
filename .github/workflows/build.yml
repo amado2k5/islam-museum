@@ -11,12 +11,18 @@ on:
 permissions:
   contents: read
 
-# One build at a time. A running build always finishes; of the pushes that arrive
-# meanwhile only the newest waits (GitHub cancels the pending runs in between), so
-# the artifact is always the newest state of main and the queue never grows.
+# One active build per branch, and every run waits its turn (founder, 22 October 2026).
+# A running build is never cancelled by a later one, and with queue: max no waiting run
+# is cancelled either: pushes and builds started by hand line up in the order they
+# arrived (up to 100) and each runs to its end. So a build the founder starts by hand is
+# never replaced or stopped by a push that follows it. The price is that every push
+# queues a full build, so after many pushes the newest artifact arrives hours later; the
+# deploy still takes the latest successful build. Only a failed test job (below) or a
+# person cancels a run.
 concurrency:
-  group: build
+  group: build-${{ github.ref }}
   cancel-in-progress: false
+  queue: max
 
 jobs:
   test:
@@ -114,9 +120,13 @@ jobs:
   # Founder's instruction of 22 October 2026: only the newest successful build's artifact
   # is kept. This job runs only when both the tests and the build passed, so a run whose
   # tests failed neither becomes the newest kept artifact nor deletes the previous good one.
-  # deploy.yml's build_run_id input must therefore point at a run whose artifact still
-  # exists: the latest successful build, or an older one only if nothing succeeded since.
-  # A rollback copy of an older build exists only when the founder asks for it to be kept.
+  # It deletes only the artifacts of older runs (lower run id), so a run that finishes
+  # after a newer one, should the queue ever let that happen, cannot remove the newer
+  # artifact, which is the one the deploy picks by default. deploy.yml's build_run_id
+  # input must therefore point at a run
+  # whose artifact still exists: the latest successful build, or an older one only if
+  # nothing succeeded since. A rollback copy of an older build exists only when the
+  # founder asks for it to be kept.
   keep-newest:
     needs: [test, build]
     runs-on: ubuntu-latest
@@ -129,12 +139,14 @@ jobs:
           GH_TOKEN: ${{ github.token }}
           GH_REPO: ${{ github.repository }}
           KEEP: ${{ needs.build.outputs.artifact-id }}
+          RUN_ID: ${{ github.run_id }}
         run: |
           set -uo pipefail
           test -n "$KEEP" || { echo "::warning::No artifact id from the upload step; nothing deleted."; exit 0; }
-          # Every live artifact named dist in the repository, all pages, except the one just uploaded.
+          # Every live artifact named dist that an older run uploaded, all pages; never this
+          # run's own and never one of a newer run.
           ids=$(gh api --paginate "repos/$GH_REPO/actions/artifacts?name=dist&per_page=100" \
-            --jq '.artifacts[] | select(.expired == false) | .id' | grep -vx "$KEEP" || true)
+            --jq ".artifacts[] | select(.expired == false and .workflow_run.id < $RUN_ID) | .id" | grep -vx "$KEEP" || true)
           deleted=0; failed=0
           for id in $ids; do
             if gh api -X DELETE "repos/$GH_REPO/actions/artifacts/$id" >/dev/null 2>&1; then
@@ -144,4 +156,4 @@ jobs:
             fi
           done
           echo "deleted $deleted older dist artifact(s), $failed failed; kept $KEEP (this build)"
-          echo "Tests and build passed: artifact $KEEP of run ${{ github.run_id }} is the newest kept build. Older dist artifacts deleted: $deleted ($failed could not be deleted)." >> "$GITHUB_STEP_SUMMARY"
+          echo "Tests and build passed: artifact $KEEP of run $RUN_ID is kept. Artifacts of older runs deleted: $deleted ($failed could not be deleted)." >> "$GITHUB_STEP_SUMMARY"
