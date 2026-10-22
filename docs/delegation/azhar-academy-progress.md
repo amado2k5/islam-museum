@@ -10,8 +10,8 @@ Lane document: `docs/agents/lanes/azhar-academy.md`. Approved by the founder in 
 
 ## Next step
 
-1. Batch 1, continued: add the second dated claim for al-Azhar's foundation (24 Jumada I 359, against the existing Rabi' II 359 on `place/al-azhar`), marked `debated`, and attach this book as a second source on `place/al-azhar` and `event/azhar-founding-361`. Arabic prose in `content/ar/` only after the claims are checked against the page images.
-2. Batch 2: `منهج القرآن في بناء المجتمع`.
+1. Batch 1 done: this book is attached as a second source on `place/al-azhar` and `event/azhar-founding-361`; the foundation-date difference (24 Jumada I 359 against Rabi' II 359) is recorded in the event's date note as debated. Page cited is the PDF page (p. 32); printed page not yet checked.
+2. Batch 2 started: source entity `source/azhar-quran-building-society-shaltut` written (Shaltut, Academy 2018, 216 pages, three chapters). Claims not yet extracted from the text.
 3. Batch 3: `الإسلام عقيدة وشريعة`.
 
 ## Doubts
