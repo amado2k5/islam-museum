@@ -21,18 +21,19 @@ Worker limits behind the design (Cloudflare docs): no wall-clock limit for HTTP 
 
 Production is meant to run **seven identical Workers** on `islam-museum-search`: `islam-museum-r2-sync` and `islam-museum-r2-sync-2` to `-7`. They share one token, `R2_SYNC_TOKEN`.
 
-- The `deploy.yml` change that creates and updates all seven is in a separate PR. Until it is merged, production has one Worker.
-- Once it is merged, every push to `main` deploys all seven and sets each token, and publish spreads archives across their URLs (`SYNC_URLS`).
+- Every deploy (`deploy.yml`) deploys all seven and sets each token, and publish spreads archives across their URLs (`SYNC_URLS`).
 
-### Publish flow (every push to `main`)
+### Publish flow (every deploy, started by the founder)
 
-1. `deploy.yml` builds the site and `dist/`.
+Since 21 October 2026 building and deploying are two workflows. `build.yml` ("Build islam.museum") runs on every push to `main` and keeps `dist/` as the artifact `dist` and deletes the older ones, so only the newest successful build is deployable. `deploy.yml` ("Deploy islam.museum to Cloudflare") runs only when the founder starts it and never builds: its input `build_run_id` picks the build run whose artifact to deploy (empty: the latest successful build of `main`). The same build can be deployed again while its artifact exists; a redeploy sends nothing to R2, because the manifest already matches the build.
+
+1. `deploy.yml` downloads the `dist` artifact of the chosen build and checks out that build's commit, so the Worker code and `publish.mjs` match the build.
 2. The Worker deploy step deploys the Worker copies and sets their token from `R2_SYNC_TOKEN`. It collects their URLs.
 3. `publish.mjs` reads `_r2-sync/manifest.json` from the bucket and diffs it against `dist/`. It packs the changes.
 4. Each archive is uploaded to `_staging/` with the S3 API, then posted to a Worker. Archives go to the Workers in turn, `PARALLEL` at a time.
-5. After each batch of archives succeeds, the manifest is written (`partial: true` until the last batch). `_staging/` is cleared only after the whole publish succeeds, never before a resume; the clear also aborts incomplete multipart uploads under `_staging/` (a staging upload that died part-way leaves one behind, invisible to `s3 rm` and billed until aborted).
+5. After each batch of archives succeeds, the manifest is written (`partial: true` until the last batch; `commit` is the built commit, not the deploy run's head). `_staging/` is cleared only after the whole publish succeeds, never before a resume; the clear also aborts incomplete multipart uploads under `_staging/` (a staging upload that died part-way leaves one behind, invisible to `s3 rm` and billed until aborted).
 
-Runs don't overlap: the workflow's `concurrency: group: pages` with `cancel-in-progress: false` queues every waiting run.
+Deploys don't overlap: `deploy.yml`'s `concurrency: group: pages` with `cancel-in-progress: false` queues every waiting run.
 
 `PARALLEL` defaults to six per Worker (six concurrent requests each, matching the connection limit). With one Worker that's six at a time; with seven, 42.
 
@@ -41,7 +42,7 @@ Runs don't overlap: the workflow's `concurrency: group: pages` with `cancel-in-p
 Without a manifest, `publish.mjs` now fails instead of uploading everything. The bucket already holds the files from before the Worker sync, so the first run needs `--seed`:
 
 - `--seed` lists the bucket and compares each object's ETag (its MD5 for single-part uploads) with the local file. Matching files are recorded as published. Changed or missing files are uploaded, and stored objects not in the build are deleted. It then writes the manifest.
-- Run it once by adding `--seed` to the publish command in `deploy.yml`, for one push. Check the log's "already match the build" count is close to the file count. After that, remove `--seed`.
+- Run it once by adding `--seed` to the publish command in `deploy.yml`, for one deploy. Check the log's "already match the build" count is close to the file count. After that, remove `--seed`.
 
 ### Known problem (open)
 
