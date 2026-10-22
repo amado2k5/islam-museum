@@ -151,14 +151,17 @@ jobs:
           BUCKET: islam-museum-search
           SYNC_URLS: ${{ steps.r2_worker.outputs.urls }}
           SYNC_TOKEN: ${{ secrets.R2_SYNC_TOKEN }}
-          # HTML pages (ar/, en/, ur/) are published to R2 for the site Worker. Pages still
-          # deploys them too until the route cutover; the publish is additive.
+          # HTML pages (ar/, en/, ur/) are published to R2 for the site Worker, which serves
+          # islam.museum. Pages no longer carries them (see the strip step below).
           PUBLISH_HTML: "1"
           # The manifest records the commit it describes: the built one, not this run's head.
           GITHUB_SHA: ${{ steps.build.outputs.sha }}
         run: node workers/r2-sync/batch/publish.mjs --dist dist
       - name: Strip R2-served dirs from Pages deployment
-        run: rm -rf dist/pagefind-ar dist/pagefind-en dist/pagefind-ur dist/api
+        # Pages refuses a deployment over 100,000 files, and the HTML pages alone are about
+        # 112,000. The site Worker serves every page from R2 and the rest from the assets
+        # layer, so Pages keeps only what the Worker does not serve.
+        run: rm -rf dist/ar dist/en dist/ur dist/pagefind-ar dist/pagefind-en dist/pagefind-ur dist/api
       - name: Deploy to Cloudflare Pages
         uses: cloudflare/wrangler-action@v3
         with:
