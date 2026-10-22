@@ -27,6 +27,7 @@ Rules for every lane: [`../../AGENTS.md`](../../AGENTS.md), [`workflow.md`](work
 | `lib-exp-modern-muslim-writers` | Library expansion: modern Muslim writers, openly printed or openly licensed texts only | [section below](#library-expansion-lanes) | `docs/delegation/library/modern-muslim-writers.md` | `content/lib-exp-modern-muslim-writers` | `data/_stubs.d/lib-exp-modern-muslim-writers.yaml` |
 | `wikidata-import` | Exhaustive import of the Islam-related items of the local Wikidata subset (P140=Islam, ~82k candidates, sitelinks-desc); creates trilingual draft records + prose, or links `external_ids.wikidata` on existing records | [`../delegation/wikidata-import/README.md`](../delegation/wikidata-import/README.md) | `docs/delegation/wikidata-import/progress.json` | commits go straight to `main` per the owner's task | `data/_stubs.d/wikidata-import.yaml` |
 | `prose-backfill` | Arabic prose for entities with a `data/` record and none (~13.5k) or a thin one (<800 bytes, ~6.5k), ranked by inbound links | [`lanes/prose-backfill.md`](lanes/prose-backfill.md) | `docs/delegation/prose-backfill-progress.md` + `docs/delegation/empty-records-priority.md` | `content/prose-backfill` | `data/_stubs.d/prose-backfill.yaml` |
+| `lib-azhar-academy` | Mine the Scientific Series of the Al-Azhar Islamic Research Academy (about 100 titles, free on azhar.eg) | [`lanes/azhar-academy.md`](lanes/azhar-academy.md) | `docs/delegation/azhar-academy-progress.md` | `content/lib-azhar-academy` | `data/_stubs.d/lib-azhar-academy.yaml` |
 
 ## Library expansion lanes
 
