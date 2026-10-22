@@ -60,6 +60,19 @@ Doubts:
 - Two hadiths quoted by the author (PDF pp. 41, 44–45) and the hadith in PDF pp. 82, 83 and 120 carry no source footnote on the page; they need checking in Bukhari or Muslim before reuse.
 - `docs/coverage.md` not regenerated in this batch (brief instruction); run `npm run coverage` at the next check-in.
 
+## Batch 3: الاستشراق والخلفية الفكرية للصراع الحضاري (al-istishraq-wal-khalfiyya-azhar)
+
+- Source `source/al-istishraq-wal-khalfiyya-azhar` written (Zaqzuq, supervised by the Academy's Secretary-General; printed 1439 AH / 2018 CE on the title page; catalogue deposit 2017 recorded separately, not as publication date). Page numbers are PDF pages (printed = PDF minus 8).
+- New: `concept/orientalism`, `concept/orientalist-claims-on-quran-authorship`, `concept/orientalist-claims-on-sharia-and-roman-law`, `person/george-sale`, `person/ignaz-goldziher`. Each has a `perspectives` block with the author's view labelled and other views labelled as reported. Arabic prose in `content/ar/concept/` for the three concepts.
+- Edited: `person/robert-of-ketton` (second source added to `sources`, no summary change).
+- Claims table (39 rows, outside git): `/Volumes/exmicroSD/islam-museum-harvest/claims/azhar-academy/al-istishraq-wal-khalfiyya-azhar.tsv`.
+- Read: foreword and introduction (PDF 11-29), chapter one opening and the Jewish and future sections (PDF 29-73), chapter two aims, categories, Quran and Sunna claims, and law (PDF 96-145), chapter three opening (PDF 165-167) and the encyclopaedia proposal headings (PDF 175-181). Not read in full: chapter one middle sections (PDF 56-70), the philosophy claims (PDF 148-162), the chapter three proposals 2-9 (PDF 178-210).
+- Not done: English and Urdu companions (`content/en`, `content/ur`, `i18n`) for the new prose; `docs/coverage.md` not regenerated (brief instruction).
+
+Doubts:
+- ISBN printed on the catalogue card (not recorded). Catalogue says 212 pages; the contents end at printed 204.
+- Sale's 1736 date and Watt's and Paret's views are as the book reports them; originals not checked.
+- Goldziher and Sale birth and death dates are not in the book, so none recorded.
 ## al-Masjid fi al-Islam, part one (Muhammad Rajab al-Bayoumi), batch 1
 
 - Read PDF pp. 1-33 (cover, card, foreword, Prophet's Mosque, Dar al-Arqam, Ibn Umar, Masjid al-Haram to the Ibn Jubayr passage). Not read: Fustat, Kufa, Basra, Umayyad, Zaytuna, al-Azhar chapters and pp. 34-166 of the OCR beyond p33.
