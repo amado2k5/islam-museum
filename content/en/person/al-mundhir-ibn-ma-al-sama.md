@@ -2,15 +2,17 @@
 id: person/al-mundhir-ibn-ma-al-sama
 lang: en
 source_lang: ar
-translators: ["Devin (SWE-2), draft translation"]
+translators: ["Claude Haiku 5.5 (claude-haiku-5-5), draft translation"]
 ---
-## Overview
-Al-Mundhir ibn Ma' al-Sama': king of al-Hira who refused the Mazdakite creed and was deposed by Qubadh, then restored by Anushirwan after Mazdak's killing.
 
-## Life
-In the reign of Qubadh ibn Fayruz, Mazdak arose preaching permissiveness; Qubadh and many of his subjects followed him. Qubadh sent to the king of al-Hira, al-Mundhir ibn Ma' al-Sama', calling him to choose this creed, but he refused out of jealous pride, so Qubadh deposed him and appointed in his place al-Harith ibn Amr ibn Hujr al-Kindi, who had answered the call {cite:mubarakpuri-raheeq}.
+## Summary
+Al-Mundhir ibn Ma' al-Sama', the Lakhmid king of [[place/al-hira|al-Hira]]. Qubadh ibn Fayruz invited him to the Mazdakite doctrine, and out of zeal and pride he refused. Qubadh deposed him and appointed [[person/al-harith-ibn-amr-al-kindi|al-Harith ibn Amr al-Kindi]] in his place. Later [[person/khosrow-i-anushirvan|Khosrow Anushirvan]] restored him. {cite:mubarakpuri-raheeq p.26} {cite:muhadarat-tarikh-al-umam-al-islamiyya 1/29-32}
 
-Qubadh was succeeded by Kisra Anushirwan, who detested this creed deeply; he killed Mazdak and many of its adherents, restored al-Mundhir to the rule of al-Hira, and sought al-Harith — but he escaped to the Kalb territory {cite:mubarakpuri-raheeq}.
+## Mazdakism
+In the reign of Qubadh, [[person/mazdak|Mazdak]] appeared and called people to a permissive doctrine. Qubadh followed him, and so did many of his subjects. He then sent to al-Mundhir, inviting him to choose this doctrine and adopt it. He refused, so Qubadh deposed him and appointed al-Harith ibn Amr ibn Hujr al-Kindi, who had answered his call. {cite:mubarakpuri-raheeq p.26}
+
+## The return
+Qubadh was succeeded by Khosrow Anushirvan, who strongly disliked this doctrine. He killed Mazdak and many of those who followed him, and restored al-Mundhir to the rule of al-Hira. He sought al-Harith, but al-Harith escaped to the lands of Kalb and stayed among them until he died. {cite:mubarakpuri-raheeq p.26} The kingship after al-Mundhir remained in his line until the time of [[person/al-numan-ibn-al-mundhir|al-Nu'man ibn al-Mundhir]]. {cite:mubarakpuri-raheeq p.26}
 
 ## For young visitors
-Al-Mundhir was a king who refused a new creed, so the great king deposed him; then the king's son restored him after killing the creed's founder.
+Al-Mundhir was a king who refused a new doctrine, so the great king removed him. Then the great king's son restored him, after the teacher of that doctrine had been killed.
