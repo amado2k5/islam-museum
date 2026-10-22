@@ -2,18 +2,19 @@ id: person/fadl-ibn-al-rabi
 class: person
 label: { ar: "الفضل بن الربيع" }
 summary:
-  ar: "وزير الأمين وحاجب الرشيد، أنبه الناس وأعظمهم عند الجاحظ، علم أن الخلافة إذا أفضت إلى المأمون لم يبق عليه فأغرى الأمين بخلعه وحثه على أن يولي العهد لابنه موسى {cite:tarikh-khulafa-minhaj-1434 p. 459,473}."
-  en: "Al-Amin's vizier and al-Rashid's chamberlain — 'the shrewdest and greatest of men' per al-Jahiz; knowing the caliphate's passage to al-Ma'mun meant his end, he egged al-Amin on to depose him and settle the succession on his infant son Musa {cite:tarikh-khulafa-minhaj-1434 p. 459,473}."
+  ar: "أبو العباس الفضل بن الربيع بن يونس بن محمد بن أبي فروة — واسم أبي فروة كيسان — وزير الأمين؛ وكان أبوه الربيع حاجب المنصور والمهدي، وكان الفضل حاجب هارون الرشيد، فلما أفضت الخلافة إلى الأمين قدم عليه من خراسان بالأموال والقضيب والخاتم فألقى إليه زمام الأمور حتى صار يولي ويعزل، وروى الحديث عن المنصور والمهدي. وأنبه الناس وأعظمهم عند الجاحظ؛ علم أن الخلافة إذا أفضت إلى المأمون لم يبق عليه فأغرى الأمين بخلعه وحثه على أن يولي العهد لابنه موسى. وله فيه قول أبي نواس: «أرى الفضل للدنيا وللدين جامعاً كما السهم فيه الفوق والريش والنصل». توفي يوم الاثنين سلخ ذي القعدة سنة ثمان ومائتين، وقيل سنة سبع، وقيل مولده سنة أربعين ومائة وقيل ثمان وثلاثين {cite:tarikh-baghdad-khatib j.10 p.343-344}."
+  en: "Abu'l-'Abbas al-Fadl ibn al-Rabi' — son of al-Mansur's and al-Mahdi's chamberlain, chamberlain of al-Rashid and vizier of al-Amin, to whom he delivered the staff and seal from Khurasan and who then 'appointed and dismissed at will'; he also narrated hadith from al-Mansur and al-Mahdi. Al-Jahiz: 'the shrewdest and greatest of men'; knowing al-Ma'mun's accession meant his end he egged al-Amin to depose him for his infant son Musa. Died at the close of Dhu'l-Qa'da 208 {cite:tarikh-baghdad-khatib j.10 p.343-344}."
 gender: male
 wings: [people]
 periods: [period/abbasid-early]
 relations:
   - { type: related_to, target: person/muhammad-al-amin, sources: [source/tarikh-khulafa-minhaj-1434] }
   - { type: related_to, target: person/harun-al-rashid, sources: [source/tarikh-khulafa-minhaj-1434] }
+died: { hijri: "0208-11", status: tradition, sources: [source/tarikh-baghdad-khatib] }
 provenance:
   layer: own-research
-  source: "تاريخ الخلفاء للسيوطي (ط المنهاج 1434هـ/2013م) ص 459، 473"
+  source: "تاريخ الخلفاء للسيوطي (ط المنهاج 1434هـ/2013م) ص 459، 473؛ تاريخ بغداد ج10 ص343-344"
   generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
   run: lib-tarikh-khulafa-batch-22
-sources: [source/tarikh-khulafa-minhaj-1434]
-status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }
+sources: [source/tarikh-khulafa-minhaj-1434, source/tarikh-baghdad-khatib]
+status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 Medium)" }
