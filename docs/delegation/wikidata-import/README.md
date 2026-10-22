@@ -26,3 +26,15 @@ Exhaustive import of the Islam-related Wikidata items from the local subset into
 1. Read `AGENTS.md`, `docs/agents/workflow.md`, `docs/agents/content-standards.md`, this file, `progress.json`, and the last `batches/NNNN.md`.
 2. `git fetch origin && git merge origin/main`; rebuild the helper index (`wd_import.py index`).
 3. Continue the loop at `next_index`; anything not yet committed is re-done.
+
+## Deferred revisit — wd-deferred-1 (22 Oct 2026, Devin)
+
+The 5,334 decision-log items carrying "deferred" in their skip reason are mapped to QIDs in
+`$HARVEST/wikidata-import/deferred-queue.tsv` (index → QID → sitelinks; artifacts stay on the
+harvest drive). Revisit pipeline per item: scan ar/en/ur Wikipedia for the fact skeleton and
+footnote bibliography → match cited titles to SD books → verify the claim in the book's OCR →
+write a sourced trilingual record; academic/DOI refs are used when no cited book is on the SD;
+unmatched book titles are queued in `deferred-notes/` for download.
+
+Pilot batch `wd-deferred-1`: Ashura, Jannah, Dhu'l-Kifl, Jama Masjid Delhi, Naqshbandiyya.
+See `deferred-notes/wd-deferred-1.md` for verification pages and the needs-book queue.
