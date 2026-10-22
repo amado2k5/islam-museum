@@ -2,13 +2,14 @@
 id: person/yamar-ibn-awf
 lang: en
 source_lang: ar
-translators: ["Devin (SWE-2), draft translation"]
+translators: ["Claude Haiku 5.5 (claude-haiku-5-5), draft translation"]
 ---
-## Overview
-Ya'mar ibn Awf, nicknamed al-Shaddakh: arbiter between Qusayy and Khuza'a who ruled for Qusayy the charge of the Ka'ba and Mecca.
 
-## Life
-When Qusayy and Khuza'a and Banu Bakr fought a hard fight they submitted the matter to him, and he ruled that Qusayy had the better right to the Ka'ba and to Mecca's affair; that every drop of blood Qusayy had exacted from them was wiped out, thrown under his feet, while whatever Khuza'a and Banu Bakr had suffered carried blood-money — so he was called al-Shaddakh that day {cite:ibn-hisham-sira}.
+## Summary
+Yamar ibn Awf, of Banu Bakr, was the arbiter to whom [[person/qusayy-ibn-kilab|Qusayy]], [[group/khuzaa|Khuza'a]] and Banu Bakr turned after their fierce fighting. He ruled that Qusayy had the better right to the Ka'ba and to the affairs of [[place/mecca|Mecca]] over Khuza'a. From that day he was named al-Shaddakh, "the Crusher" {cite:mubarakpuri-raheeq p.30} {cite:ibn-hisham-sira 1/123-124}.
+
+## The ruling
+Yamar ruled that Qusayy had the better right to the Ka'ba and to the affairs of Mecca. He ruled that every blood that Qusayy had shed among them was void, which he crushed under his feet. Whatever Khuza'a and Banu Bakr had suffered carried blood-money. Qusayy was to be left free to the Ka'ba. The name al-Shaddakh comes from his crushing of the bloods {cite:mubarakpuri-raheeq p.30} {cite:ibn-hisham-sira 1/123-124}. See [[event/qusayy-takes-mecca|Qusayy's seizure of Mecca]].
 
 ## For young visitors
-Ya'mar was a tribal judge who ruled on the great dispute over guarding the Ka'ba and gave it to Qusayy.
+Yamar was a tribal judge who ruled in the great dispute over guarding the Ka'ba, and he gave it to Qusayy.

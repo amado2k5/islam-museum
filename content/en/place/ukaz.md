@@ -2,15 +2,14 @@
 id: place/ukaz
 lang: en
 source_lang: ar
-translators: ["Devin (SWE-2), draft translation"]
+translators: ["Claude Haiku 5.5 (claude-haiku-5-5), draft translation"]
 ---
-## Overview
-Ukaz: the greatest of the Arabs' seasonal markets near Ta'if; meeting-place of poets and orators, and site of the Prophet's first call to the delegations.
 
-## The place
-Ukaz was among the Arabs' greatest markets; people gathered there from every tribe in the hajj season, boasting and vaunting in poetry and oratory {cite:mubarakpuri-raheeq}.
+## Summary
+Ukaz was one of the famous markets of the Arabs. It was held in the sacred months alongside [[place/dhu-al-majaz|Dhu al-Majaz]], [[place/majanna|Majanna]] and others, as The Sealed Nectar presents it. Trade was the greatest means of obtaining the necessities of life, and it could only be carried on in safety, which was missing across the peninsula except in those months {cite:mubarakpuri-raheeq p.46}. See [[concept/economic-condition-jahiliyya|the economic condition]].
 
-The Prophet used to go out to Ukaz, al-Majanna and Dhu al-Majaz offering himself to the tribes and calling them to Islam before the Hijra {cite:mubarakpuri-raheeq}.
+## What is not covered here
+The site of Ukaz near al-Ta'if, the poetic boasting that took place there, and the Prophet's going out there to present himself to the tribes belong at their own places in the book. They will be added when we reach them.
 
 ## For young visitors
-Ukaz is a great market where the Arabs gathered long ago for trade and poetry contests; the Prophet used to call people to God there.
+Ukaz was a great market where Arabs gathered in ancient times for trade and poetry contests, in the months when there was no fighting.

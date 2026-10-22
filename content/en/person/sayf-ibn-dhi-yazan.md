@@ -2,15 +2,20 @@
 id: person/sayf-ibn-dhi-yazan
 lang: en
 source_lang: ar
-translators: ["Devin (SWE-2), draft translation"]
+translators: ["Claude Haiku 5.5 (claude-haiku-5-5), draft translation"]
 ---
-## Overview
-Sayf ibn Dhi Yazan al-Himyari (Ma'di Yakrib): leader of Yemen's liberation from the Abyssinians in 575 CE, and its king, assassinated by his Abyssinian guard.
 
-## Life
-The Yemenis sought the Persians' aid after the Elephant affair and mounted resistance to the Abyssinians under Ma'di Yakrib ibn Sayf Dhi Yazan al-Himyari until they drove them out of the land in 575 CE and made him king {cite:mubarakpuri-raheeq}.
+## Summary
+Maadi Yakrib ibn Sayf Dhi Yazan al-Himyari led the liberation of [[place/yemen|Yemen]] from the Abyssinians in 575 CE, with Persian help. He was made king, and his own Abyssinian guard murdered him. With his death the kingship passed out of the House of Dhi Yazan. {cite:mubarakpuri-raheeq p.25} {cite:tafhim-al-quran 4/195-198}.
 
-He kept with him a band of Abyssinians who served him and walked in his retinue — and one day they assassinated him. With his death kingship departed the house of Dhi Yazan, and Kisra appointed a Persian governor over San'a' {cite:mubarakpuri-raheeq}.
+## Liberation
+After the Battle of the Elephant, the Yemenis asked the Persians for help. They resisted the Abyssinians until they drove them out of the country and gained independence in 575 CE under the leadership of Maadi Yakrib ibn Sayf Dhi Yazan al-Himyari. They made him their king. {cite:mubarakpuri-raheeq p.25}.
+
+## Assassination
+Maadi Yakrib kept a group of Abyssinians near him to serve him and walk beside his horse. One day they assassinated him. With his death, the kingship passed out of the House of Dhi Yazan. Khosrow appointed a Persian governor in Sanaa and made Yemen a Persian province. {cite:mubarakpuri-raheeq p.25}. See [[event/persian-rule-of-yemen|the liberation of Yemen and Persian rule]].
+
+## Notes for researchers
+The author calls him “Maadi Yakrib ibn Sayf Dhi Yazan.” In the biographical literature he is better known as “Sayf ibn Dhi Yazan.” Both names are recorded in the entry's data.
 
 ## For young visitors
-Sayf Dhi Yazan freed Yemen from the Abyssinians and became king, but his own guards killed him — and Persia ruled it.
+Sayf Dhi Yazan freed Yemen from the Abyssinians and became its king. But his own guards killed him, and after that Persia ruled the country.
