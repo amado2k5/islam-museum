@@ -1,0 +1,23 @@
+id: event/umar-covenant-jerusalem
+class: event
+kind: treaty
+label: { ar: "العهدة العمرية لأهل إيلياء (بيت المقدس)", en: "Umar's covenant with the people of Jerusalem" }
+summary:
+  ar: "وثيقة الأمان التي كتبها عمر بن الخطاب لأهل إيلياء عند صلحه معهم، وينقلها الكتاب عن الطبري: أمان لأنفسهم وأموالهم وكنائسهم وصلبانهم، لا تسكن كنائسهم ولا تهدم، ولا يكره أحد على دينه، ولا يسكن معهم يهودي في إيلياء، وعليهم الجزية. ويذكر الكتاب أنها كُتبت وشهد عليها خالد بن الوليد وعمرو بن العاص وعبد الرحمن بن عوف ومعاوية بن أبي سفيان، سنة 15هـ {cite:bayt-al-maqdis-fi-al-islam-azhar p. 61-62}. ويرى الكتاب أن اسم إيلياء ورد في الوثيقة لأنه كان الأشهر في موضع عقدها، ومعناه بيت الله {cite:bayt-al-maqdis-fi-al-islam-azhar p. 54-55}."
+  en: "The covenant of safe-conduct that Umar ibn al-Khattab gave the people of Iliya when they surrendered the city, as the book quotes it from al-Tabari: safety for persons, property, churches and crosses; no church to be taken or destroyed; no compulsion in religion; no Jew to live in Iliya; the jizya to be paid. The book places it in 15 AH with four named witnesses {cite:bayt-al-maqdis-fi-al-islam-azhar p. 61-62}."
+wings: [time]
+periods: [period/prophetic-era]
+regions: [levant-iraq]
+date:
+  start: { edtf: "0636~", hijri: "0015", calendar: julian, precision: year, status: tradition, derived: true, note: "15 هـ كما يذكره الكتاب {cite:bayt-al-maqdis-fi-al-islam-azhar p. 61-62}؛ التحويل إلى الميلادي مشتق ويحتاج مصدراً ثانياً." }
+relations:
+  - { type: occurred_at, target: place/jerusalem }
+  - { type: had_participant, target: person/umar-ibn-al-khattab, role: "الكاتب والمانح للأمان" }
+sources: [source/bayt-al-maqdis-fi-al-islam-azhar]
+provenance:
+  layer: own-research
+  source: "Bayt al-Maqdis fi al-Islam (Academy, Scientific Series), PDF pp. 41-42, 54-55, 61-62; text as the book quotes Tabari, rewritten in the museum's words except the one short clause quoted in Arabic"
+  generated_by: "Claude Code (Haiku 5.5)"
+  model: claude-haiku-5-5
+  run: azhar-bayt-al-maqdis-fi-al-islam-azhar
+status: { review: draft, completeness: 1, generated_by: "Claude Code (Haiku 5.5); the text is quoted from Tabari through the book and needs a direct second source" }
