@@ -30,7 +30,7 @@ Production is meant to run **seven identical Workers** on `islam-museum-search`:
 2. The Worker deploy step deploys the Worker copies and sets their token from `R2_SYNC_TOKEN`. It collects their URLs.
 3. `publish.mjs` reads `_r2-sync/manifest.json` from the bucket and diffs it against `dist/`. It packs the changes.
 4. Each archive is uploaded to `_staging/` with the S3 API, then posted to a Worker. Archives go to the Workers in turn, `PARALLEL` at a time.
-5. After each batch of archives succeeds, the manifest is written (`partial: true` until the last batch). `_staging/` is cleared only after the whole publish succeeds, never before a resume.
+5. After each batch of archives succeeds, the manifest is written (`partial: true` until the last batch). `_staging/` is cleared only after the whole publish succeeds, never before a resume; the clear also aborts incomplete multipart uploads under `_staging/` (a staging upload that died part-way leaves one behind, invisible to `s3 rm` and billed until aborted).
 
 Runs don't overlap: the workflow's `concurrency: group: pages` with `cancel-in-progress: false` queues every waiting run.
 

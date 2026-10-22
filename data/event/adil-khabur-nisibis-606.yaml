@@ -1,0 +1,23 @@
+id: event/adil-khabur-nisibis-606
+class: event
+kind: conquest
+label: { ar: "ملك العادل الخابور ونصيبين وحصره سنجار", en: "al-Adil takes the Khabur and Nisibis and besieges Sinjar" }
+date:
+  start: { edtf: "1209~", hijri: "0606", calendar: julian, precision: year, status: tradition, derived: true }
+summary:
+  ar: "ملك الملك العادل الخابور ونصيبين وحصر سنجار ثم عاد عنها، واتفق مع نور الدين أرسلان شاه على الصلح {cite:kamil-ibn-al-athir p. 348}."
+  en: "al-Adil took the Khabur district and Nisibis, besieged Sinjar then made peace with Nur al-Din Arslan Shah of Mosul {cite:kamil-ibn-al-athir p. 348}."
+sides:
+  - label: { ar: "الملك العادل" }
+  - label: { ar: "حامية نصيبين وسنجار" }
+relations:
+  - { type: occurred_at, target: place/nasibin, sources: [source/kamil-ibn-al-athir] }
+  - { type: had_participant, target: person/al-malik-al-adil-ayyub, role: "المالك", sources: [source/kamil-ibn-al-athir] }
+  - { type: had_participant, target: person/nur-al-din-arslan-shah, role: "المصالح", sources: [source/kamil-ibn-al-athir] }
+provenance:
+  layer: own-research
+  source: "الكامل في التاريخ لابن الأثير، قراءة آبل فيجن"
+  generated_by: "Devin (SWE-2 Medium) from Apple Vision OCR"
+  run: lib-kamil-v12-batch06
+sources: [source/kamil-ibn-al-athir]
+status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 Medium)" }

@@ -3,7 +3,7 @@ import "../styles/global.css";
 import { ui, LANGS, WINGS, wingHref, type Lang } from "../lib/i18n";
 import { SITE } from "../lib/graph";
 import { truncateDesc } from "../lib/meta";
-import { wingCountLabel, explorePages } from "../lib/nav";
+import { wingCountTemplate, explorePages } from "../lib/nav";
 import { SHOP } from "../lib/links";
 import { BROWSE_CLASSES, browseSegment } from "../lib/browse";
 import Logo from "../components/Logo.astro";
@@ -25,7 +25,10 @@ const alt = alternates ?? Object.fromEntries(LANGS.map((l) => [l, path.replace(`
 const multilingual = LANGS.length > 1;
 const ld = jsonld ? (Array.isArray(jsonld) ? jsonld : [jsonld]) : [];
 const fonts = lang === "ar" ? [naskh400, amiri400] : [serif400, inter400];
-const wingCount = (w: string) => wingCountLabel(lang, w);
+// The per-wing counts are not baked into the page: a count in the header would change every one of the 100k+ pages on each
+// content commit (docs/site/README.md, "site-wide numbers"). The HTML carries the template ("{n} events"), the client fills the
+// number from /api/v1/meta/counts.json when the menu is first opened; without JavaScript the menu shows the names and blurbs.
+const wingCount = (w: string) => wingCountTemplate(lang, w);
 const EXPLORE = explorePages(lang);
 ---
 <!doctype html>
@@ -100,7 +103,7 @@ const EXPLORE = explorePages(lang);
           <details class="dd" data-dd>
             <summary>{T.nav.wings_menu}</summary>
             <ul class="dd-menu" role="list">
-              {WINGS.map((w) => <li><a href={wingHref(lang, w)}><span class="t">{T.wings[w].title}</span><span class="d">{wingCount(w)} — {T.wings[w].blurb}</span></a></li>)}
+              {WINGS.map((w) => <li><a href={wingHref(lang, w)}><span class="t">{T.wings[w].title}</span><span class="d">{wingCount(w) ? <span data-wing-count={w} data-tpl={wingCount(w)}></span> : `${T.wings.counts[w]} — `}{T.wings[w].blurb}</span></a></li>)}
             </ul>
           </details>
           <details class="dd" data-dd>
@@ -193,6 +196,21 @@ const EXPLORE = explorePages(lang);
             });
           });
           document.addEventListener("click", function (e) { if (!nav.contains(e.target)) nav.querySelectorAll("details[data-dd][open]").forEach(function (d) { d.removeAttribute("open"); }); });
+          // Wing counts: one static JSON for the whole site (api/v1/meta/counts.json, cached an hour by its Cache-Control), fetched
+          // the first time the wings menu opens and written into the "{n} events" templates. Decorative: nothing else depends on it.
+          var slots = nav.querySelectorAll("[data-wing-count]"), wingsDd = slots.length ? slots[0].closest("details") : null;
+          if (wingsDd) {
+            var fill = function () {
+              if (!wingsDd.open) return;
+              wingsDd.removeEventListener("toggle", fill);
+              var lang = document.documentElement.lang, nf = new Intl.NumberFormat(lang === "ar" ? "ar-EG-u-nu-latn" : "en-GB");
+              fetch("/api/v1/meta/counts.json").then(function (r) { return r.ok ? r.json() : null; }).then(function (c) {
+                if (!c || !c.wings) return;
+                slots.forEach(function (s) { var n = c.wings[s.dataset.wingCount]; if (typeof n === "number") s.textContent = s.dataset.tpl.replace("{n}", nf.format(n)) + " — "; });
+              }).catch(function () {});
+            };
+            wingsDd.addEventListener("toggle", fill);
+          }
         }
       })();
       (function () {

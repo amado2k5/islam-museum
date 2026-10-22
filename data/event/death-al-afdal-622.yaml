@@ -1,0 +1,19 @@
+id: event/death-al-afdal-622
+class: event
+kind: death
+label: { ar: "وفاة الملك الأفضل علي بن صلاح الدين", en: "Death of al-Malik al-Afdal" }
+date:
+  start: { edtf: "1225~", hijri: "0622", calendar: julian, precision: year, status: tradition, derived: true }
+summary:
+  ar: "توفي الملك الأفضل علي بن صلاح الدين بسميساط بعد أن سُلب الملك من قبل عمه العادل، ومات غيره من الملوك في هذه السنة {cite:kamil-ibn-al-athir p. 445}."
+  en: "al-Malik al-Afdal Ali ibn Saladin died at Samosata, long stripped of power by his uncle al-Adil; other princes died the same year {cite:kamil-ibn-al-athir p. 445}."
+relations:
+  - { type: occurred_at, target: place/sumaysat, sources: [source/kamil-ibn-al-athir] }
+  - { type: had_participant, target: person/al-malik-al-afdal-ali, role: "المتوفى", sources: [source/kamil-ibn-al-athir] }
+provenance:
+  layer: own-research
+  source: "الكامل في التاريخ لابن الأثير، قراءة آبل فيجن"
+  generated_by: "Devin (SWE-2 Medium) from Apple Vision OCR"
+  run: lib-kamil-v12-batch07
+sources: [source/kamil-ibn-al-athir]
+status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 Medium)" }

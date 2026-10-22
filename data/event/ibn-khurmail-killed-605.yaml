@@ -1,0 +1,23 @@
+id: event/ibn-khurmail-killed-605
+class: event
+kind: death
+label: { ar: "قتل ابن خرميل وحصر هراة", en: "Ibn Khurmail killed; Herat besieged again" }
+date:
+  start: { edtf: "1208~", hijri: "0605", calendar: julian, precision: year, status: tradition, derived: true }
+summary:
+  ar: "قُتل ابن خرميل وحُصرت هراة مرة أخرى، وأُسر خوارزم شاه في مسيره ثم خلّصه بعض أهلها {cite:kamil-ibn-al-athir p. 334}."
+  en: "Ibn Khurmail was killed and Herat besieged anew; Khwarazmshah himself was captured on the march and freed {cite:kamil-ibn-al-athir p. 334}."
+sides:
+  - label: { ar: "ابن خرميل وعسكره" }
+  - label: { ar: "خصومه من أهل خراسان" }
+relations:
+  - { type: occurred_at, target: place/harat, sources: [source/kamil-ibn-al-athir] }
+  - { type: had_participant, target: person/ibn-khurmail, role: "المقتول", sources: [source/kamil-ibn-al-athir] }
+  - { type: had_participant, target: person/muhammad-khwarazmshah, role: "المأسور المخلّص", sources: [source/kamil-ibn-al-athir] }
+provenance:
+  layer: own-research
+  source: "الكامل في التاريخ لابن الأثير، قراءة آبل فيجن"
+  generated_by: "Devin (SWE-2 Medium) from Apple Vision OCR"
+  run: lib-kamil-v12-batch06
+sources: [source/kamil-ibn-al-athir]
+status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 Medium)" }
