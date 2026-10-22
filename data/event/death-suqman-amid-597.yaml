@@ -1,0 +1,20 @@
+id: event/death-suqman-amid-597
+class: event
+kind: death
+label: { ar: "وفاة سقمان صاحب آمد وملك أخيه محمود", en: "death of Suqman of Amid — his brother Mahmud succeeds" }
+date:
+  start: { edtf: "1200~", hijri: "0597", calendar: julian, precision: year, status: tradition, derived: true }
+summary:
+  ar: "توفي سقمان الثاني صاحب آمد الأرتقي وملك أخوه نجم الدين محمود، وكان سقمان قد هزم قلج أرسلان صاحب الروم وقائعًا مشهورة {cite:kamil-ibn-al-athir p. 276}."
+  en: "Suqman II al-Artuqi of Amid died and his brother Najm al-Din Mahmud succeeded — the Suqman who had famously defeated Qilij Arslan of Rum {cite:kamil-ibn-al-athir p. 276}."
+relations:
+  - { type: occurred_at, target: place/amid, sources: [source/kamil-ibn-al-athir] }
+  - { type: had_participant, target: person/suqman-ii-artuqi, role: "المتوفى", sources: [source/kamil-ibn-al-athir] }
+  - { type: had_participant, target: person/najm-al-din-mahmud-artuqi, role: "الخلف", sources: [source/kamil-ibn-al-athir] }
+provenance:
+  layer: own-research
+  source: "الكامل في التاريخ لابن الأثير، قراءة آبل فيجن"
+  generated_by: "Devin (SWE-2 Medium) from Apple Vision OCR"
+  run: lib-kamil-v12-batch04
+sources: [source/kamil-ibn-al-athir]
+status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 Medium)" }

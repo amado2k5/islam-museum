@@ -1,0 +1,23 @@
+id: event/ashraf-damascus-626
+class: event
+kind: conquest
+label: { ar: "ملك الملك الأشرف مدينة دمشق", en: "al-Ashraf takes Damascus" }
+date:
+  start: { edtf: "1229~", hijri: "0626", calendar: julian, precision: year, status: tradition, derived: true }
+summary:
+  ar: "ملك الملك الأشرف مدينة دمشق بعد موت أخيه المعظم وضعف ولده الناصر داود فاستبدّ بها {cite:kamil-ibn-al-athir p. 482}."
+  en: "al-Ashraf took Damascus after his brother al-Mu'azzam's death, displacing the weak al-Nasir Dawud {cite:kamil-ibn-al-athir p. 482}."
+sides:
+  - label: { ar: "المسلمون" }
+  - label: { ar: "خصومهم" }
+relations:
+  - { type: occurred_at, target: place/damascus, sources: [source/kamil-ibn-al-athir] }
+  - { type: had_participant, target: person/al-malik-al-ashraf, role: "المالك", sources: [source/kamil-ibn-al-athir] }
+  - { type: had_participant, target: person/al-malik-al-nasir-salah-al-din-dawud, role: "المزاح", sources: [source/kamil-ibn-al-athir] }
+provenance:
+  layer: own-research
+  source: "الكامل في التاريخ لابن الأثير، قراءة آبل فيجن"
+  generated_by: "Devin (SWE-2 Medium) from Apple Vision OCR"
+  run: lib-kamil-v12-batch07
+sources: [source/kamil-ibn-al-athir]
+status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 Medium)" }

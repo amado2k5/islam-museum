@@ -3,25 +3,30 @@ class: person
 label:
   ar: "يعقوب بن شيبة"
   en: "Ya'qub ibn Shayba"
+names:
+  - { kind: full, lang: ar, value: "أبو يوسف يعقوب بن شيبة بن الصلت بن عصفور السدوسي البصري" }
+  - { kind: kunya, lang: ar, value: "أبو يوسف" }
+  - { kind: nisba, lang: ar, value: "السدوسي" }
 roles: [muhaddith]
 gender: male
+born: { edtf: "0798", hijri: "0182", calendar: julian, precision: year, status: tradition, derived: true, note: "ولد سنة اثنتين وثمانين ومائة على قول ابنه {cite:tarikh-baghdad-khatib j.11 p.283}." }
+died: { edtf: "0875-12~", hijri: "0262-03", calendar: julian, precision: month, status: tradition, derived: true, note: "مات لثلاث عشرة ليلة خلت من ربيع الأول سنة اثنتين وستين ومائتين {cite:tarikh-baghdad-khatib j.11 p.283}." }
 summary:
-  ar: "بطاقة أولية ليعقوب بن شيبة السدوسي، الإمام الحافظ البغدادي ومؤلف المسند الكبير المعلل؛ لم تُراجع ترجمته على الصفحة بعد."
-  en: "Draft card for Ya'qub ibn Shayba al-Sadusi, the Baghdad hadith imam and author of al-Musnad al-Kabir; his entry is not yet checked on the page."
+  ar: "أبو يوسف السدوسي، بصري مولى شداد بن هميان السدوسي، سكن بغداد وسر من رأى وحدّث بها؛ سمع علي بن عاصم ويزيد بن هارون وروح بن عبادة وعفان بن مسلم ومعلى بن منصور ومحمد بن عبد الله الأنصاري وأبا النضر هاشم بن القاسم وأسود بن عامر وأبا نعيم وقبيصة بن عقبة ويحيى بن أبي بكير وحسيناً المروزي ومسلم بن إبراهيم وأبا الوليد الطيالسي ومحمد بن كثير وأبا سلمة التبوذكي وأبا أحمد الزبيري وخلقاً كثيراً، وروى عنه ابن ابنه محمد بن أحمد بن يعقوب ويوسف بن يعقوب بن إسحاق بن البهلول وكان ثقة. صنّف مسنداً معللاً لم يتممه — وقيل لو كان كتابه مسطوراً على همام لوجب أن يُكتب — وكان في منزله أربعون لحافاً أعدّها لمن يبيت من الوراقين لتبييض المسند، وذهب فيه نحو عشرة آلاف دينار. وكان من فقهاء البغداديين على مذهب مالك من كبار أصحاب أحمد بن المعذل والحارث بن مسكين، وكان يقف في القرآن؛ ولما سأل المتوكل أحمد بن حنبل عمن يتقلد القضاء وسُئل عن يعقوب بن شيبة قال مبتدع صاحب هوى — قيل لأنه كان يذهب إلى الوقف في القرآن {cite:tarikh-baghdad-khatib j.11 p.281-283}."
+  en: "Abu Yusuf al-Sadusi of Basra, settled at Baghdad and Samarra; his Musnad ma'lul remained unfinished despite a staff of forty warraqun lodging in his house and some ten thousand dinars spent — 'had his book been written on doves it would deserve copying'; a Maliki faqih of Baghdad among the senior companions of Ahmad b. al-Mu'adhdhal and al-Harith b. Miskin; when al-Mutawakkil asked Ahmad b. Hanbal who should hold the judgeship and asked about Ya'qub, Ahmad called him an innovator — it was said, because he held the waqf position on the Qur'an {cite:tarikh-baghdad-khatib j.11 p.281-283}."
 wings: [people]
+themes: [scripture-and-its-sciences]
 regions: [levant-iraq]
 periods: [period/abbasid-early]
-born: { edtf: "798", precision: year, status: tradition, derived: true }
-died: { edtf: "875", precision: year, status: tradition, derived: true }
-sources: [source/al-aalam]
+sources: [source/al-aalam, source/tarikh-baghdad-khatib]
 external_ids:
   wikidata: Q22690835
 provenance:
   layer: own-research
-  source: "Wikidata candidate; entry not yet read on the page in a book source"
-  generated_by: "Devin (SWE-2 High)"
-  model: "SWE-2 High"
-  run: wikidata-import-wave2
+  source: "تاريخ بغداد للخطيب البغدادي (ج11، ترجمة 7575، ص281-283)، قراءة آبل فيجن؛ بطاقة ويكيداتا سابقة"
+  generated_by: "Devin (SWE-2 Medium) from Apple Vision OCR"
+  model: "SWE-2 Medium"
+  run: lib-tarikh-baghdad-tb5
 status:
   review: draft
-  completeness: 1
+  completeness: 2

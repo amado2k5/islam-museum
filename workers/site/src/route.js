@@ -102,3 +102,33 @@ export function headersFor(blocks, pathname) {
   }
   return out;
 }
+
+// HTML pages: an hour in the browser and at the edge, a day of stale-while-revalidate.
+// A page republished to R2 reaches visitors within the hour; the museum's content
+// changes slowly enough for that (founder's decision, 21 October 2026). The edge part
+// is Workers Caching ([cache] in wrangler.production.toml): a cached page is served
+// without running this Worker or reading R2, once per hour per edge location.
+export const HTML_CACHE_CONTROL = "public, max-age=3600, s-maxage=3600, stale-while-revalidate=86400";
+// Redirects are fixed by the rule files, so they may be cached for the same hour.
+// Workers Caching keys a response by path only, never by host (the same Worker answers
+// on workers.dev and on islam.museum), so a same-site redirect must carry a path-only
+// Location: an absolute one would be served to visitors of the other host.
+export const REDIRECT_CACHE_CONTROL = "public, max-age=3600";
+
+export function redirectTo(location, status) {
+  return new Response(null, { status, headers: { location, "cache-control": REDIRECT_CACHE_CONTROL } });
+}
+
+// A rule target: kept as is when it is absolute (another host), otherwise a path.
+export const redirectLocation = (to) => (/^https?:\/\//.test(to) ? to : to.startsWith("/") ? to : `/${to}`);
+
+// A language page whose "class/slug" is a former id (an alias in data/) redirects to the
+// current id in the same language: /ar/person/old-slug/ -> /ar/person/new-slug/.
+// Returns the path-only Location, or null when the path is not an alias.
+export function aliasTarget(pathname, aliases) {
+  const m = pathname.match(/^\/(ar|en|ur)\/([a-z]+)\/([^/]+)\/?$/);
+  if (!m) return null;
+  const current = aliases[`${m[2]}/${m[3]}`];
+  return current ? `/${m[1]}/${current}/` : null;
+}
+

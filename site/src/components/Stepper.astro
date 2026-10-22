@@ -25,9 +25,9 @@ const steps = deck.steps ?? [];
     ))}
   </div>
   <div class="st-nav">
-    <button data-prev aria-label={t.prev}>→</button>
+    <button data-prev aria-label={t.prev}><span class="st-arrow" aria-hidden="true">←</span></button>
     <span class="ui" data-count>1 / {steps.length}</span>
-    <button data-next aria-label={t.next}>←</button>
+    <button data-next aria-label={t.next}><span class="st-arrow" aria-hidden="true">→</span></button>
   </div>
   {deck.cautions?.map((c) => <p class="caution">⚠ {L(c)}</p>)}
   <div class="st-fallback">
@@ -50,6 +50,8 @@ const steps = deck.steps ?? [];
 .st-ref { color: #8a6d1a; }
 .st-ev { font-size: .9rem; }
 .caution { background: #e8a13d22; border: 1px solid #e8a13d; border-radius: 8px; padding: 10px 14px; }
+.st-arrow { display: inline-block; }
+:root[dir="rtl"] .st-arrow { transform: scaleX(-1); }
 .st-nav { display: flex; align-items: center; justify-content: center; gap: 18px; margin-top: 14px; }
 .st-nav button { font-size: 22px; background: #152c55; color: #f8f1de; border: 1px solid #c9a227;
   border-radius: 50%; width: 48px; height: 48px; cursor: pointer; }

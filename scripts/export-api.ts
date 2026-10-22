@@ -7,6 +7,7 @@ import { fileURLToPath } from "node:url";
 import { Compiled, Node } from "./build-graph.js";
 import { CLASSES, p } from "./lib.js";
 import { buildRelated } from "./derive.js";
+import { wingCounts } from "./wings.js";
 
 const OUT = p("site", "public", "api", "v1");
 const write = (rel: string, body: string) => {
@@ -54,6 +55,10 @@ export function exportApi(c: Compiled) {
   write("graph/edges.ndjson", c.edges.filter((e) => !e.inverse).map((e) => JSON.stringify(e)).join("\n") + "\n");
   write("themes/index.json", JSON.stringify(themeIndex(c), null, 1));
   write("meta/coverage.json", JSON.stringify({ generated: c.generated, ...c.coverage }, null, 1));
+  // Site-wide totals that every page's header shows (docs/site/README.md, "site-wide numbers"): one small file, fetched by a
+  // few lines of client script, so the numbers are never baked into the 100k+ static pages and a content commit leaves them untouched.
+  // No `generated` field: the file changes only when a count does.
+  write("meta/counts.json", JSON.stringify({ wings: wingCounts(real), entities: real.length }));
   write("meta/index.json", JSON.stringify({
     version: "v1", generated: c.generated, classes: CLASSES.filter((k) => real.some((n) => n.class === k)),
     docs: "https://github.com/amado2k5/islam-museum/blob/main/docs/plan/09-ai-content-pipeline.md",

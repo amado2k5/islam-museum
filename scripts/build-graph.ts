@@ -132,7 +132,7 @@ export function compile(): Compiled {
       .filter((b) => b.id !== a.id)
       .map((b) => ({ id: b.id, overlap: Math.min(a.span!.latest, b.span!.latest) - Math.max(a.span!.earliest, b.span!.earliest) }))
       .filter((x) => x.overlap > 0)
-      .sort((x, y) => y.overlap - x.overlap)
+      .sort((x, y) => y.overlap - x.overlap || x.id.localeCompare(y.id)) // ties by id, so file order never decides who is shown
       .slice(0, 12)
       .map((x) => x.id);
   }

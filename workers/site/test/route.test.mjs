@@ -67,3 +67,27 @@ test("_headers blocks apply to exact paths and to /* wildcards", () => {
   });
   assert.deepEqual(headersFor(blocks, "/ar/"), { "X-Frame-Options": "DENY" });
 });
+
+test("edge cache: HTML and redirects carry an hour of cache, 404s none", async () => {
+  const { HTML_CACHE_CONTROL, REDIRECT_CACHE_CONTROL, redirectTo, redirectLocation } = await import("../src/route.js");
+  assert.match(HTML_CACHE_CONTROL, /public, max-age=3600, s-maxage=3600/);
+  const r = redirectTo("/ar/person/muhammad/", 301);
+  assert.equal(r.status, 301);
+  assert.equal(r.headers.get("location"), "/ar/person/muhammad/");
+  assert.equal(r.headers.get("cache-control"), REDIRECT_CACHE_CONTROL);
+  // Same-site targets stay path-only (the cache key has no host); other hosts stay absolute.
+  assert.equal(redirectLocation("/ar/person/ikrima-ibn-abi-jahl/"), "/ar/person/ikrima-ibn-abi-jahl/");
+  assert.equal(redirectLocation("ar/x/"), "/ar/x/");
+  assert.equal(redirectLocation("https://api.islam.museum/api/v1/meta/index.json"), "https://api.islam.museum/api/v1/meta/index.json");
+});
+
+test("aliasTarget redirects a former entity id to the current one in the same language", async () => {
+  const { aliasTarget } = await import("../src/route.js");
+  const aliases = { "person/tughrul-beg": "person/tughril-beg", "event/tulunid-collapse-292": "event/fall-of-tulunids-292" };
+  assert.equal(aliasTarget("/ar/person/tughrul-beg/", aliases), "/ar/person/tughril-beg/");
+  assert.equal(aliasTarget("/ur/event/tulunid-collapse-292", aliases), "/ur/event/fall-of-tulunids-292/");
+  assert.equal(aliasTarget("/en/person/tughril-beg/", aliases), null);
+  assert.equal(aliasTarget("/en/search/", aliases), null);
+  assert.equal(aliasTarget("/brand/logo-mark.svg", aliases), null);
+});
+

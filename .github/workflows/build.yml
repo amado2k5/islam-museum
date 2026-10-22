@@ -1,0 +1,204 @@
+name: Build islam.museum
+
+# Builds the site on every push to main (and on demand) and keeps the result as the
+# artifact `dist`, so a deploy (deploy.yml) reuses a finished build instead of
+# rebuilding. Nothing here touches Cloudflare: no Worker, no R2, no Pages.
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+# One active build per branch, and every run waits its turn (founder, 22 October 2026).
+# A running build is never cancelled by a later one, and with queue: max no waiting run
+# is cancelled either: pushes and builds started by hand line up in the order they
+# arrived (up to 100) and each runs to its end. So a build the founder starts by hand is
+# never replaced or stopped by a push that follows it. The price is that every push
+# queues a full build, so after many pushes the newest artifact arrives hours later; the
+# deploy still takes the latest successful build. Only a failed test job (below) or a
+# person cancels a run.
+concurrency:
+  group: build-${{ github.ref }}
+  cancel-in-progress: false
+  queue: max
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+      # Cancel the run when the tests fail (last step).
+      actions: write
+    steps:
+      - name: Only the repository owner or an admin may start this workflow
+        # Founder's rule of 22 October 2026. Starting a workflow needs write access, which
+        # only the owner has today; this step keeps the rule if collaborators are ever added.
+        if: github.event_name == 'workflow_dispatch'
+        env:
+          GH_TOKEN: ${{ github.token }}
+          GH_REPO: ${{ github.repository }}
+          ACTOR: ${{ github.actor }}
+          OWNER: ${{ github.repository_owner }}
+        run: |
+          [ "$ACTOR" = "$OWNER" ] && { echo "started by the owner ($ACTOR)"; exit 0; }
+          perm=$(gh api "repos/$GH_REPO/collaborators/$ACTOR/permission" --jq .permission 2>/dev/null || echo unknown)
+          [ "$perm" = "admin" ] && { echo "started by an admin ($ACTOR)"; exit 0; }
+          echo "::error::$ACTOR ($perm) may not start this workflow: only the repository owner or an admin may."
+          exit 1
+      - name: Checkout
+        uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+          cache-dependency-path: |
+            package-lock.json
+            site/package-lock.json
+      - name: Install
+        run: npm ci && npm ci --prefix site && npm ci --prefix workers/r2-sync
+      - name: Test
+        run: npm test
+      - name: Worker unit tests (site routing and rules; R2 publish diff, resume and retry)
+        run: node --test 'workers/site/test/*.test.mjs' workers/r2-sync/test/publish.test.mjs
+      # Founder's instruction of 22 October 2026: a failed test job stops the build job
+      # instead of letting a 45-minute build run to its end for nothing. The summary line
+      # goes first, so the "cancelled" conclusion is not mistaken for a manual stop. Any
+      # other failure (the build job itself) keeps the normal end-of-run failure path.
+      - name: Cancel the run (tests failed)
+        if: failure()
+        env:
+          GH_TOKEN: ${{ github.token }}
+          GH_REPO: ${{ github.repository }}
+        run: |
+          echo "**Run cancelled: the unit tests failed.** The build job was stopped so it does not run to the end; this is not a manual stop. No artifact was kept; deploy.yml never selects a cancelled run." >> "$GITHUB_STEP_SUMMARY"
+          gh run cancel "${{ github.run_id }}"
+
+  # The unit tests and the build run in parallel. The build uploads its artifact as
+  # soon as the validation (part of `npm run build`) passed; whether the run counts as
+  # a successful build (the only kind deploy.yml deploys) depends on the tests too.
+  # When the tests fail, the test job cancels the whole run (see above): a cancelled run
+  # uploads no artifact (the build job is stopped before its upload step, or its upload
+  # is cancelled), and the deploy never selects it, since it only takes runs whose
+  # conclusion is success.
+  build:
+    runs-on: ubuntu-latest
+    outputs:
+      artifact-id: ${{ steps.upload.outputs.artifact-id }}
+    steps:
+      - name: Only the repository owner or an admin may start this workflow
+        # Founder's rule of 22 October 2026. Starting a workflow needs write access, which
+        # only the owner has today; this step keeps the rule if collaborators are ever added.
+        if: github.event_name == 'workflow_dispatch'
+        env:
+          GH_TOKEN: ${{ github.token }}
+          GH_REPO: ${{ github.repository }}
+          ACTOR: ${{ github.actor }}
+          OWNER: ${{ github.repository_owner }}
+        run: |
+          [ "$ACTOR" = "$OWNER" ] && { echo "started by the owner ($ACTOR)"; exit 0; }
+          perm=$(gh api "repos/$GH_REPO/collaborators/$ACTOR/permission" --jq .permission 2>/dev/null || echo unknown)
+          [ "$perm" = "admin" ] && { echo "started by an admin ($ACTOR)"; exit 0; }
+          echo "::error::$ACTOR ($perm) may not start this workflow: only the repository owner or an admin may."
+          exit 1
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          # Full history: feed.xml lists recent data commits at build time, and the
+          # entity citation date comes from each file's last commit.
+          fetch-depth: 0
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+          cache-dependency-path: |
+            package-lock.json
+            site/package-lock.json
+      - name: Install
+        run: npm ci && npm ci --prefix site
+      - name: Validate, compile and build (validate → graph → derive → api → astro → pagefind)
+        run: npm run build
+        env:
+          # Pagefind indexes are uploaded to R2 and served from there.
+          # Set PAGEFIND_BASE_URL as a GitHub Actions variable to the R2 public URL.
+          PUBLIC_PAGEFIND_BASE: ${{ vars.PAGEFIND_BASE_URL }}
+      - name: No runtime AI or compute (guard)
+        run: npm run check:static
+      - name: Record the build
+        run: |
+          {
+            echo "## Build ${{ github.run_id }}"
+            echo
+            echo "- Commit: \`${{ github.sha }}\` (${{ github.ref_name }})"
+            echo "- Files in dist: $(find dist -type f | wc -l)"
+            echo
+            echo "Deploy it with **Deploy islam.museum to Cloudflare** → Run workflow, build_run_id \`${{ github.run_id }}\` (or empty for the latest build)."
+          } >> "$GITHUB_STEP_SUMMARY"
+      - name: Upload built site (the whole dist, including the R2-served directories)
+        id: upload
+        uses: actions/upload-artifact@v4
+        with:
+          name: dist
+          path: dist
+          # Public repository: artifact storage is free. The keep-newest job below keeps only
+          # the newest successful build's artifact; retention is the safety net, not the
+          # mechanism, and the artifact of a run whose tests failed simply expires.
+          retention-days: 2
+          if-no-files-found: error
+
+  # Founder's instruction of 22 October 2026: only the newest successful build's artifact
+  # is kept. This job runs only when both the tests and the build passed, so a run whose
+  # tests failed neither becomes the newest kept artifact nor deletes the previous good one.
+  # It deletes only the artifacts of older runs (lower run id), so a run that finishes
+  # after a newer one, should the queue ever let that happen, cannot remove the newer
+  # artifact, which is the one the deploy picks by default. deploy.yml's build_run_id
+  # input must therefore point at a run
+  # whose artifact still exists: the latest successful build, or an older one only if
+  # nothing succeeded since. A rollback copy of an older build exists only when the
+  # founder asks for it to be kept.
+  keep-newest:
+    needs: [test, build]
+    runs-on: ubuntu-latest
+    permissions:
+      # Delete the older dist artifacts.
+      actions: write
+    steps:
+      - name: Only the repository owner or an admin may start this workflow
+        # Founder's rule of 22 October 2026. Starting a workflow needs write access, which
+        # only the owner has today; this step keeps the rule if collaborators are ever added.
+        if: github.event_name == 'workflow_dispatch'
+        env:
+          GH_TOKEN: ${{ github.token }}
+          GH_REPO: ${{ github.repository }}
+          ACTOR: ${{ github.actor }}
+          OWNER: ${{ github.repository_owner }}
+        run: |
+          [ "$ACTOR" = "$OWNER" ] && { echo "started by the owner ($ACTOR)"; exit 0; }
+          perm=$(gh api "repos/$GH_REPO/collaborators/$ACTOR/permission" --jq .permission 2>/dev/null || echo unknown)
+          [ "$perm" = "admin" ] && { echo "started by an admin ($ACTOR)"; exit 0; }
+          echo "::error::$ACTOR ($perm) may not start this workflow: only the repository owner or an admin may."
+          exit 1
+      - name: Delete the older dist artifacts (keep only this build's)
+        env:
+          GH_TOKEN: ${{ github.token }}
+          GH_REPO: ${{ github.repository }}
+          KEEP: ${{ needs.build.outputs.artifact-id }}
+          RUN_ID: ${{ github.run_id }}
+        run: |
+          set -uo pipefail
+          test -n "$KEEP" || { echo "::warning::No artifact id from the upload step; nothing deleted."; exit 0; }
+          # Every live artifact named dist that an older run uploaded, all pages; never this
+          # run's own and never one of a newer run.
+          ids=$(gh api --paginate "repos/$GH_REPO/actions/artifacts?name=dist&per_page=100" \
+            --jq ".artifacts[] | select(.expired == false and .workflow_run.id < $RUN_ID) | .id" | grep -vx "$KEEP" || true)
+          deleted=0; failed=0
+          for id in $ids; do
+            if gh api -X DELETE "repos/$GH_REPO/actions/artifacts/$id" >/dev/null 2>&1; then
+              deleted=$((deleted + 1))
+            else
+              failed=$((failed + 1)); echo "::warning::Could not delete artifact $id (left in place)."
+            fi
+          done
+          echo "deleted $deleted older dist artifact(s), $failed failed; kept $KEEP (this build)"
+          echo "Tests and build passed: artifact $KEEP of run $RUN_ID is kept. Artifacts of older runs deleted: $deleted ($failed could not be deleted)." >> "$GITHUB_STEP_SUMMARY"

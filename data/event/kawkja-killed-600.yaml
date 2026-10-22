@@ -1,0 +1,20 @@
+id: event/kawkja-killed-600
+class: event
+kind: death
+label: { ar: "قتل كوكجة ببلاد الجبل وولاية أيتغمش", en: "Kawkja killed in the Jibal; Aytaqmish succeeds" }
+date:
+  start: { edtf: "1203~", hijri: "0600", calendar: julian, precision: "year", status: tradition, derived: true }
+summary:
+  ar: "قُتل كوكجة صاحب بلاد الجبل وولي مكانه أيتغمش على ما كان بيده من ممالك {cite:kamil-ibn-al-athir p. 292}."
+  en: "Kawkja, master of the Jibal, was killed and Aytaqmish took over his domains {cite:kamil-ibn-al-athir p. 292}."
+relations:
+  - { type: occurred_at, target: place/jibal, sources: [source/kamil-ibn-al-athir] }
+  - { type: had_participant, target: person/kawkja, role: "المقتول", sources: [source/kamil-ibn-al-athir] }
+  - { type: had_participant, target: person/aytaqmish, role: "الخلف", sources: [source/kamil-ibn-al-athir] }
+provenance:
+  layer: own-research
+  source: "الكامل في التاريخ لابن الأثير، قراءة آبل فيجن"
+  generated_by: "Devin (SWE-2 Medium) from Apple Vision OCR"
+  run: lib-kamil-v12-batch05
+sources: [source/kamil-ibn-al-athir]
+status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 Medium)" }

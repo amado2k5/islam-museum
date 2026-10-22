@@ -30,7 +30,7 @@ _Origin: founder decision of 11 October 2026 that several sessions work in paral
 
 ## 4. Commit and push often
 
-Work can be lost if an agent runs out of credit or time, so push small validated commits to `main` frequently (after about every 10 entities and at the end of every batch). The sequence, every time:
+Work can be lost if an agent runs out of credit or time, so push small validated commits frequently (after about every 10 entities and at the end of every batch). Since 22 October 2026 `main` accepts pull requests only: a repository ruleset ("main: pull requests only") blocks direct pushes, force-pushes and branch deletion, with no bypass for anyone. You open the pull request and merge it yourself; no review is required. The sequence, every time:
 
 ```
 git fetch origin
@@ -38,11 +38,14 @@ git add <explicit paths of your own files>
 git commit -m "<type>(<lane>): <what> pp. N-M (draft)"      # conventional message, plus the trailers in section 7
 git pull --rebase origin main            # review what arrived; combine both sides; never drop another session's work
 npm run validate && npm test             # clean AFTER the rebase
-git push origin HEAD:main
-git push origin HEAD:<your-branch>       # keep your branch in sync too
+git push origin HEAD:<your-branch>
+gh pr create --base main --head <your-branch> --fill   # once per branch; later pushes update the same pull request
+gh pr merge --merge --delete-branch=false              # merge it yourself when the checks you ran are clean
 ```
 
-If the push is rejected because main moved, repeat. If pushing to `main` is blocked by a policy of your tool, push your branch, say so in your progress file, and carry on: the maintainer will merge. Small commits, at most 25 content entities per batch; one logical change per commit.
+The Validate workflow runs the tests and the build on every pull request; you may merge before it finishes when your local checks passed, since the deploy is manual and never picks an unbuilt commit (section 9). If the merge is rejected because main moved, rebase and push again. Small commits, at most 25 content entities per batch; one logical change per commit.
+
+A push to `main` does not deploy anything (section 9). The checks you run before the push are the gate; CI runs the same checks on pull requests only.
 
 **Totals on every check-in.** `docs/coverage.md` holds the public totals (entities, stubs, edges, by class, wing, period, region, theme). Every commit that adds, removes or changes entities, stubs or edges must regenerate it in the same commit: run `npm run coverage` after your data changes, then `git add docs/coverage.md` with your other explicit paths. Do not hand-edit the file, and do not commit a check-in that leaves it stale. If another session has just merged data, regenerate after the rebase, before the validate. The homepage counts (`الناس`, `المكان`, `الزمان`, `الكلمة`, `الآثار`, `الأفكار`) are not rendered from this file: a deployed site that shows them must be rebuilt from `origin/main` to update.
 
@@ -86,3 +89,20 @@ AI-Editor: <editor or host the agent ran in, e.g. Claude desktop app, VS Code, C
 - Keep your lane's progress file (`docs/delegation/<lane>-progress.md`) current after every push: edition and item used, sections done with pages, section in progress, flagged doubts, the exact next step. Update your lane's row in `docs/status.md` when a book or a stream finishes.
 - If you cannot decide something, flag it in the progress file and continue with the next item; do not stop to ask unless the lane document says to. Never wait for the founder's sign-off on using a source, writing an entity, or committing and pushing validated work: that permission is standing (`docs/sources-policy.md` §5).
 - Long jobs (downloads, extraction) run in the harvest workspace outside the repository, use a separate database file per job so locks do not collide, and never block other sessions. After merging anything, record in `docs/status.md` what changed and what the next session should know.
+
+## 9. Deploying to Cloudflare: manual, founder only
+
+Since 21 October 2026 a push to `main` publishes nothing. Two workflows share the work:
+
+- **`build.yml`, "Build islam.museum"**, runs on every push to `main` (and on demand). It runs the unit tests and, in parallel, `npm run build` (validation first) and `check:static`, and keeps the whole `dist/` as the artifact `dist`. A deploy takes only a run whose conclusion is success, which needs both jobs green, so a broken build can never be deployed: the artifact of a run whose tests failed is never chosen and simply expires. When the tests fail, the test job cancels the whole run so the build job does not run to the end (the job summary says the cancel was for failed tests, not a manual stop); a cancelled run has no deployable artifact. One active build per branch: every run, from a push or started by hand, waits its turn in the order it arrived and runs to its end (`queue: max`); no later push replaces or stops an earlier build. After many pushes the newest artifact can therefore arrive hours later; the deploy always takes the latest successful build. **One artifact is kept** (founder's rule of 22 October 2026): a final `keep-newest` job, which runs only when tests and build both passed, deletes the `dist` artifacts of older runs (never a newer run's), so the newest successful build is the only one that can be deployed and a failed run never removes the previous good one. The build touches nothing on Cloudflare.
+- **`deploy.yml`, "Deploy islam.museum to Cloudflare"**, has no trigger but the founder's hand (Actions tab, or `gh workflow run deploy.yml --ref main`). It does not build: it downloads the `dist` artifact of a build run, deploys the sync Workers and the site Worker from that build's commit, publishes to R2 what differs from the last publish, uploads the rest to Pages, and pings IndexNow. Its one input, `build_run_id`, picks the build: empty means the latest successful build of `main`; a run id (from the build's Actions page, or `gh run list --workflow build.yml --branch main --status success`) deploys or redeploys that build, which is possible only while its artifact still exists, in practice only for the newest build. If the founder wants a rollback copy of an older build, they ask for it to be kept. The job summary names the build deployed (run id, commit, date). Redeploying the same build sends nothing to R2: the manifest diff finds no change. A deploy takes minutes, not the 45 minutes of a build.
+
+The founder deploys normally once a day when enough work has landed on `main`. The reason is cost: every deploy republishes to R2 whatever differs from the last publish, redeploys the sync Workers and the site Worker, and uploads to Pages; a deploy per push would do that dozens of times a day for the same files.
+
+What this means for you:
+
+- **Never start the deploy yourself**, by any route, and never add a push trigger to `deploy.yml`. The same goes for the other `R2 *` workflows, which touch the buckets. Starting `build.yml` by hand is harmless (it only builds) but not needed: every push to `main` builds. Every manually startable workflow checks who started it and stops unless it was the repository owner or an admin (founder's rule of 22 October 2026), and a pull request from an outside contributor runs no workflow until the founder approves it.
+- **When your work needs to be live, ask the founder in chat.** Say which commits (or the range since the last deploy), what they change, and whether any of them touch `workers/`, `.github/workflows/`, `site/public/_redirects` or `_headers`, because those change the Worker or the routing and the founder may want to check the deploy's result. A deploy is not needed for most content batches: the next daily deploy publishes them.
+- **Your own gate is unchanged:** `npm run validate`, `npm test` and, for anything under `site/`, `npm run build`, all clean before you push. If you want the same checks run by CI, open a pull request; `validate.yml` runs on pull requests. A red "Build islam.museum" run on `main` means your push broke the build for everyone: fix it at once, because no deployable artifact exists until a build goes green again.
+- **What a deploy publishes:** the manifest in R2 (`_r2-sync/manifest.json`) records what is already there, so a run sends only the files whose content changed since the previous successful run, in batches that are recorded as they finish. A failed or cancelled run resumes from the last recorded batch; nothing is re-sent. See `workers/r2-sync/README.md`.
+

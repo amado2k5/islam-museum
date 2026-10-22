@@ -3,7 +3,7 @@
 import { test } from "node:test";
 import assert from "node:assert/strict";
 import { createHash } from "node:crypto";
-import { diff, reconcile, applyToPrevious, withRetry, bootstrapPrevious } from "../batch/publish.mjs";
+import { diff, reconcile, applyToPrevious, withRetry, bootstrapPrevious, abortStagingMultipartUploads } from "../batch/publish.mjs";
 
 const file = (text) => {
   const bytes = Buffer.from(text);
@@ -62,3 +62,16 @@ test("withRetry repeats a failing step and gives up after the attempts", async (
     /y\.zip: upload failed on attempt 2 of 2: still down/,
   );
 });
+
+test("abortStagingMultipartUploads aborts every listed upload and survives a failing call", () => {
+  const calls = [];
+  const fake = (args) => {
+    calls.push(args[1]);
+    if (args[1] === "list-multipart-uploads") return JSON.stringify({ Uploads: [{ Key: "_staging/a.zip", UploadId: "u1" }, { Key: "_staging/b.zip", UploadId: "u2" }] });
+    return "";
+  };
+  assert.equal(abortStagingMultipartUploads(fake), 2);
+  assert.deepEqual(calls, ["list-multipart-uploads", "abort-multipart-upload", "abort-multipart-upload"]);
+  assert.equal(abortStagingMultipartUploads(() => { throw new Error("AccessDenied"); }), 0);
+});
+

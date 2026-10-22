@@ -3,10 +3,12 @@ class: work
 kind: book
 label: { ar: "أحكام القرآن (الشافعي)", en: "Ahkam al-Qur'an (al-Shafi'i)" }
 summary:
-  ar: "بطاقة أولية لأحكام القرآن المنسوب للإمام الشافعي، جمعه البيهقي من نصوصه الفقهية؛ لم تُراجع مصادره على الصفحة بعد."
-  en: "Draft card for Ahkam al-Qur'an attributed to Imam al-Shafi'i, compiled by al-Bayhaqi; its sources are not yet checked on the page."
+  ar: "أحكام القرآن للإمام الشافعي (ت 204هـ)؛ يذكر حاجي خليفة أنه أول من صنّف في هذا الفن، وقد جمعه البيهقي من نصوص الشافعي الفقهية {cite:kashf-zunun-furqan p. 210}."
+  en: "Ahkam al-Qur'an of Imam al-Shafi'i (d. 204 AH); Hajji Khalifa notes he was the first to compose in this genre, the text being gathered by al-Bayhaqi from al-Shafi'i's legal corpus {cite:kashf-zunun-furqan p. 210}."
 wings: []
-sources: [source/al-aalam]
+relations:
+  - { type: authored_by, target: person/al-shafii, sources: [source/kashf-zunun-furqan] }
+sources: [source/kashf-zunun-furqan, source/al-aalam]
 external_ids: { wikidata: "Q19416617" }
 provenance:
   layer: own-research

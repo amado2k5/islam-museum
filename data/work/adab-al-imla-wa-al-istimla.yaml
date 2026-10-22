@@ -3,10 +3,12 @@ class: work
 kind: book
 label: { ar: "أدب الإملاء والاستملاء", en: "Adab al-Imla' wa-al-Istimla'" }
 summary:
-  ar: "بطاقة أولية لـأدب الإملاء والاستملاء؛ لم تُراجع مصادرها على الصفحة بعد."
-  en: "Draft card for Adab al-Imla' wa-al-Istimla'; its sources are not yet checked on the page."
+  ar: "آداب الإملاء والاستملاء للحافظ عبد الكريم بن محمد السمعاني (ت 562هـ)، في قواعد الإملاء وآداب السماع والقراءة على الشيوخ؛ يذكره حاجي خليفة بعنوان «أدب الإملاء» {cite:kashf-zunun-furqan p. 284}."
+  en: "Adab al-Imla' wa-al-Istimla' by the hafiz 'Abd al-Karim b. Muhammad al-Sam'ani (d. 562 AH) — rules of dictation and the etiquette of samā'; Hajji Khalifa lists it as 'Adab al-Imla'' {cite:kashf-zunun-furqan p. 284}."
 wings: []
-sources: [source/al-aalam]
+relations:
+  - { type: authored_by, target: person/al-samani, sources: [source/kashf-zunun-furqan] }
+sources: [source/kashf-zunun-furqan, source/al-aalam]
 external_ids: { wikidata: "Q12179226" }
 provenance:
   layer: own-research

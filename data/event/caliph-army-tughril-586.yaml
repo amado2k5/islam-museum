@@ -1,0 +1,26 @@
+id: event/caliph-army-tughril-586
+class: event
+kind: battle
+label: { ar: "انهزام عسكر الخليفة من السلطان طغرل", en: "the caliph army routed by Sultan Tughril" }
+date:
+  start: { edtf: "1190~", hijri: "0586", calendar: julian, precision: year, status: tradition, derived: true }
+summary:
+  ar: "انهزم عسكر الخليفة الناصر لدين الله من السلطان طغرل بن أرسلان، وكان الناصر قد سرّه وقوّاه على الأتابكية حتى ملك الري وهمذان وأصفهان وأذربيجان {cite:kamil-ibn-al-athir p. 178}."
+  en: "The caliph al-Nasir army was routed by Sultan Tughril III — the caliph own fosterling, raised against the atabegs until he held Rayy, Hamadan, Isfahan and Azerbaijan {cite:kamil-ibn-al-athir p. 178}."
+sides:
+- label: { ar: "عسكر الخليفة الناصر", en: "the caliph army" }
+  commanders: [person/al-nasir-billah]
+- label: { ar: "السلطان طغرل", en: "Sultan Tughril" }
+  commanders: [person/tughril-iii]
+
+relations:
+  - { type: occurred_at, target: place/baghdad, sources: [source/kamil-ibn-al-athir] }
+  - { type: had_participant, target: person/al-nasir-billah, sources: [source/kamil-ibn-al-athir] }
+  - { type: had_participant, target: person/tughril-iii, sources: [source/kamil-ibn-al-athir] }
+provenance:
+  layer: own-research
+  source: "الكامل في التاريخ لابن الأثير، قراءة آبل فيجن"
+  generated_by: "Devin (SWE-2 Medium) from Apple Vision OCR"
+  run: lib-kamil-v12-batch03
+sources: [source/kamil-ibn-al-athir]
+status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 Medium)" }

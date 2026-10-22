@@ -30,9 +30,9 @@ const L = (x: { ar: string; en: string; ur?: string }) => (x[lang] ?? x.ar);
     ))}
   </div>
   <div class="fd-nav">
-    <button data-prev aria-label={t.prev}>→</button>
+    <button data-prev aria-label={t.prev}><span class="fd-arrow" aria-hidden="true">←</span></button>
     <span class="ui" data-count>1 / {deck.items.length}</span>
-    <button data-next aria-label={t.next}>←</button>
+    <button data-next aria-label={t.next}><span class="fd-arrow" aria-hidden="true">→</span></button>
   </div>
   {deck.note && <p class="fd-note muted">{L(deck.note)}</p>}
   <div class="fd-fallback">
@@ -65,6 +65,8 @@ const L = (x: { ar: string; en: string; ur?: string }) => (x[lang] ?? x.ar);
 .fd-hint { font-size: .85rem; opacity: .65; }
 .fd-ref { color: #c9a227; }
 .fd-verify { color: #e8a13d; font-size: .85rem; }
+.fd-arrow { display: inline-block; }
+:root[dir="rtl"] .fd-arrow { transform: scaleX(-1); }
 .fd-nav { display: flex; align-items: center; justify-content: center; gap: 18px; margin-top: 14px; }
 .fd-nav button { font-size: 22px; background: #152c55; color: #f8f1de; border: 1px solid #c9a227;
   border-radius: 50%; width: 48px; height: 48px; cursor: pointer; }

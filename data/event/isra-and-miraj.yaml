@@ -10,7 +10,7 @@ themes: [prophets, worship-and-the-pillars]
 periods: [period/prophetic-era]
 regions: [arabia, levant-iraq]
 date:
-  start: { edtf: "0621~", calendar: julian, precision: year, status: debated, note: "اختلف في زمنه على ستة أقوال؛ رجح المباركفوري وقوعه بعد رحلة الطائف وقبل بيعة العقبة، في حدود السنة الحادية عشرة أو الثانية عشرة من النبوة (الرحيق ص137-138)." }
+  start: { edtf: "0621~", calendar: julian, precision: year, status: debated, note: "اختلف في زمنه على ستة أقوال؛ رجح المباركفوري وقوعه بعد رحلة الطائف وقبل بيعة العقبة، في حدود السنة الحادية عشرة أو الثانية عشرة من النبوة (الرحيق ص137-138). ويذكر الشعراوي أنه كان في ليلة واحدة قبل الهجرة بسنة واحدة {cite:al-isra-wal-miraj-azhar p. 19}، فيُضاف قولاً آخر محل خلاف ولا يُرجَّح." }
 relations:
   - { type: occurred_at, target: place/mecca }
   - { type: occurred_at, target: place/jerusalem }
@@ -23,10 +23,10 @@ perspectives:
   - tradition: sunni
     id: sunni
     summary: { en: "Sunni scholars hold that the journey occurred in both body and soul while awake, citing explicit hadith reports in Bukhari and Muslim and the opening of Surat al-Isra." }
-    sources: [source/zad-al-maad, source/sahih-al-bukhari, source/sahih-muslim]
+    sources: [source/zad-al-maad, source/sahih-al-bukhari, source/sahih-muslim, source/al-isra-wal-miraj-azhar]
   - tradition: academic
     id: academic
     summary: { en: "Historians analyse the varied early reports and traditions regarding the dating and nature of the night journey, contrasting the concise Qur'anic text with the developed details in classical hadith literature." }
 external_ids: { wikidata: "Q381240" }
-sources: [source/mubarakpuri-raheeq, source/zad-al-maad, source/sahih-al-bukhari, source/sahih-muslim, source/ibn-hisham-sira]
+sources: [source/mubarakpuri-raheeq, source/zad-al-maad, source/sahih-al-bukhari, source/sahih-muslim, source/ibn-hisham-sira, source/al-isra-wal-miraj-azhar]
 status: { review: draft, completeness: 2, generated_by: "Devin; al-Raheeq al-Makhtum pp. 137-142" }

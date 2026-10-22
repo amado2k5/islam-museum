@@ -4,7 +4,7 @@ import assert from "node:assert/strict";
 import { mkdtempSync, writeFileSync, readFileSync, mkdirSync } from "node:fs";
 import { join } from "node:path";
 import { tmpdir } from "node:os";
-import { bundleRules } from "../scripts/bundle-rules.mjs";
+import { bundleRules, scanAliases } from "../scripts/bundle-rules.mjs";
 import { parseRedirects, parseDynamicRedirects, parseHeaders, headersFor } from "../src/route.js";
 
 test("bundleRules writes a module whose text parses into the same rules", async () => {
@@ -29,3 +29,31 @@ test("the real site/public files bundle and contain the API redirect", () => {
   assert.ok(dynamic.some((r) => r.pattern.test("/api/v1/meta/index.json")), "the /api/* rule is present");
   assert.ok(headersFor(parseHeaders(headers), "/").Link, "the homepage Link header is present");
 });
+
+test("scanAliases reads inline and block alias forms and skips stubs", () => {
+  const dir = mkdtempSync(join(tmpdir(), "aliases-"));
+  mkdirSync(join(dir, "person")); mkdirSync(join(dir, "event")); mkdirSync(join(dir, "_stubs.d"));
+  writeFileSync(join(dir, "person", "tughril-beg.yaml"), "id: person/tughril-beg\naliases: [person/tughrul-beg, \"person/toghrul\"]\nlabel:\n  ar: x\n");
+  writeFileSync(join(dir, "person", "mutim-ibn-adi.yaml"), "id: person/mutim-ibn-adi\naliases:\n- person/muthim-ibn-adi\n  - person/mutim-adi\nlabel:\n  ar: x\n");
+  writeFileSync(join(dir, "event", "plain.yaml"), "id: event/plain\nlabel:\n  ar: x\n");
+  writeFileSync(join(dir, "_stubs.d", "lane.yaml"), "aliases: [person/ignored]\n");
+  assert.deepEqual(scanAliases(dir), {
+    "person/tughrul-beg": "person/tughril-beg",
+    "person/toghrul": "person/tughril-beg",
+    "person/muthim-ibn-adi": "person/mutim-ibn-adi",
+    "person/mutim-adi": "person/mutim-ibn-adi",
+  });
+});
+
+test("the real data/ aliases include the six merged entities muse.ai found missing", () => {
+  const aliases = scanAliases();
+  for (const [old, current] of [
+    ["person/tughrul-beg", "person/tughril-beg"],
+    ["person/ibn-al-taawidhi", "person/abu-al-fath-ibn-al-taawidhi"],
+    ["person/ibrahim-ibn-ishaq-al-harbi", "person/ibrahim-al-harbi"],
+    ["person/qutam-ibn-al-abbas", "person/qutham-ibn-al-abbas"],
+    ["event/tulunid-collapse-292", "event/fall-of-tulunids-292"],
+    ["person/hamza-ibn-abdallah-ibn-al-zubayr", "person/hamza-ibn-abd-allah-ibn-al-zubayr"],
+  ]) assert.equal(aliases[old], current, old);
+});
+
