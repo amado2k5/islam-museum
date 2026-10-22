@@ -27,7 +27,12 @@ Read this before you change anything under `site/`, `i18n/`, `scripts/validate.t
 
 ## Deploying (manual, founder only)
 
-A push to `main` does not deploy. Since 21 October 2026 `.github/workflows/deploy.yml` runs only when the founder starts it (Actions tab or `gh workflow run deploy.yml --ref main`), normally once a day, to keep R2 and build costs down. The run tests, builds, deploys the R2 sync Workers and the site Worker (`workers/site`, which serves `/ar/`, `/en/` and `/ur/` from R2), publishes to R2 only the files whose content changed since the last successful publish, and uploads the rest to Pages. Agents never start it; when a site change needs to be live, ask the founder in chat and name the commits (`docs/agents/workflow.md` section 9). This is why two builds of the same commit must be byte-identical and why no site-wide number may sit in a shared layout: every changed page costs an upload on the next deploy.
+A push to `main` does not deploy. Since 21 October 2026 the work is split in two workflows:
+
+- `.github/workflows/build.yml` ("Build islam.museum") runs on every push to `main`: unit tests, then `npm run build` (validation included) and `check:static`, then the whole `dist/` is kept as the artifact `dist` for two days. The artifact exists only when tests and validation both passed. One build runs at a time and only the newest waiting push is kept.
+- `.github/workflows/deploy.yml` ("Deploy islam.museum to Cloudflare") runs only when the founder starts it (Actions tab or `gh workflow run deploy.yml --ref main`), normally once a day, to keep R2 costs down. It does not build. It downloads the `dist` artifact of a build run (input `build_run_id`; empty means the latest successful build of `main`, a run id means that build, which can be redeployed any time while its artifact lives), checks out that build's commit, deploys the R2 sync Workers and the site Worker (`workers/site`, which serves `/ar/`, `/en/` and `/ur/` from R2), publishes to R2 only the files whose content changed since the last successful publish (redeploying the same build sends nothing: the manifest diff is empty), uploads the rest to Pages, and pings IndexNow. The job summary says which build (run id, commit, date) went live.
+
+Agents never start the deploy; when a site change needs to be live, ask the founder in chat and name the commits (`docs/agents/workflow.md` section 9). This is why two builds of the same commit must be byte-identical and why no site-wide number may sit in a shared layout: every changed page costs an upload on the next deploy.
 
 ## Where the code lives
 

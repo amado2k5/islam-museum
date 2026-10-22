@@ -1,0 +1,89 @@
+name: Build islam.museum
+
+# Builds the site on every push to main (and on demand) and keeps the result as the
+# artifact `dist`, so a deploy (deploy.yml) reuses a finished build instead of
+# rebuilding. Nothing here touches Cloudflare: no Worker, no R2, no Pages.
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+# One build at a time. A running build always finishes; of the pushes that arrive
+# meanwhile only the newest waits (GitHub cancels the pending runs in between), so
+# the artifact is always the newest state of main and the queue never grows.
+concurrency:
+  group: build
+  cancel-in-progress: false
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+          cache-dependency-path: |
+            package-lock.json
+            site/package-lock.json
+      - name: Install
+        run: npm ci && npm ci --prefix site && npm ci --prefix workers/r2-sync
+      - name: Test
+        run: npm test
+      - name: Worker unit tests (site routing and rules; R2 publish diff, resume and retry)
+        run: node --test 'workers/site/test/*.test.mjs' workers/r2-sync/test/publish.test.mjs
+
+  build:
+    # The build waits for the tests, so the artifact exists only when both the
+    # validation (part of `npm run build`) and the tests passed: a broken build is
+    # never deployable. The tests take a few minutes next to a 45-minute build.
+    needs: test
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          # Full history: feed.xml lists recent data commits at build time, and the
+          # entity citation date comes from each file's last commit.
+          fetch-depth: 0
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+          cache-dependency-path: |
+            package-lock.json
+            site/package-lock.json
+      - name: Install
+        run: npm ci && npm ci --prefix site
+      - name: Validate, compile and build (validate → graph → derive → api → astro → pagefind)
+        run: npm run build
+        env:
+          # Pagefind indexes are uploaded to R2 and served from there.
+          # Set PAGEFIND_BASE_URL as a GitHub Actions variable to the R2 public URL.
+          PUBLIC_PAGEFIND_BASE: ${{ vars.PAGEFIND_BASE_URL }}
+      - name: No runtime AI or compute (guard)
+        run: npm run check:static
+      - name: Record the build
+        run: |
+          {
+            echo "## Build ${{ github.run_id }}"
+            echo
+            echo "- Commit: \`${{ github.sha }}\` (${{ github.ref_name }})"
+            echo "- Files in dist: $(find dist -type f | wc -l)"
+            echo
+            echo "Deploy it with **Deploy islam.museum to Cloudflare** → Run workflow, build_run_id \`${{ github.run_id }}\` (or empty for the latest build)."
+          } >> "$GITHUB_STEP_SUMMARY"
+      - name: Upload built site (the whole dist, including the R2-served directories)
+        uses: actions/upload-artifact@v4
+        with:
+          name: dist
+          path: dist
+          # Public repository: artifact storage is free. Two days covers the daily deploy
+          # and a redeploy of the previous build; older builds are rebuilt from the commit.
+          retention-days: 2
+          if-no-files-found: error

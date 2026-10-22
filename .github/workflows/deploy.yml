@@ -1,12 +1,23 @@
-name: Deploy islam.museum to Cloudflare Pages
+name: Deploy islam.museum to Cloudflare
 
 # Manual only: runs when started from the Actions tab (or gh workflow run). Pushes to main do not deploy.
+# A deploy does not build: it downloads the `dist` artifact of a build run (build.yml,
+# "Build islam.museum") and publishes it. Empty build_run_id means the latest successful
+# build of main; a run id redeploys that build (nothing is sent to R2 twice: the manifest
+# diff finds no change).
 on:
   workflow_dispatch:
+    inputs:
+      build_run_id:
+        description: "Build run id to deploy (Build islam.museum). Empty: the latest successful build of main."
+        required: false
+        type: string
 
 permissions:
   contents: read
   deployments: write
+  # Read another run's artifact.
+  actions: read
 
 concurrency:
   group: pages
@@ -16,58 +27,73 @@ concurrency:
   # published. Every deploy publishes; the manifest diff decides what to upload.
   queue: max
 
-# The unit tests and the build run in parallel; deploy waits for both.
 jobs:
-  test:
+  deploy:
     runs-on: ubuntu-latest
+    outputs:
+      sha: ${{ steps.build.outputs.sha }}
     steps:
-      - name: Checkout
-        uses: actions/checkout@v4
-      - uses: actions/setup-node@v4
-        with:
-          node-version: 22
-          cache: npm
-          cache-dependency-path: |
-            package-lock.json
-            site/package-lock.json
-      - name: Install
-        run: npm ci && npm ci --prefix site && npm ci --prefix workers/r2-sync
-      - name: Test
-        run: npm test
-      - name: Worker unit tests (site routing and rules; R2 publish diff, resume and retry)
-        run: node --test 'workers/site/test/*.test.mjs' workers/r2-sync/test/publish.test.mjs
-
-  build:
-    runs-on: ubuntu-latest
-    steps:
-      - name: Checkout
-        uses: actions/checkout@v4
-        with:
-          # Full history: feed.xml lists recent data commits at build time.
-          fetch-depth: 0
-      - uses: actions/setup-node@v4
-        with:
-          node-version: 22
-          cache: npm
-          cache-dependency-path: |
-            package-lock.json
-            site/package-lock.json
-      - name: Install
-        run: npm ci && npm ci --prefix site
-      - name: Validate, compile and build (validate → graph → derive → api → astro → pagefind)
-        run: npm run build
+      - name: Find the build to deploy
+        id: build
         env:
-          # Pagefind indexes are uploaded to R2 and served from there.
-          # Set PAGEFIND_BASE_URL as a GitHub Actions variable to the R2 public URL.
-          PUBLIC_PAGEFIND_BASE: ${{ vars.PAGEFIND_BASE_URL }}
-      - name: No runtime AI or compute (guard)
-        run: npm run check:static
+          GH_TOKEN: ${{ github.token }}
+          GH_REPO: ${{ github.repository }}
+          REQUESTED: ${{ inputs.build_run_id }}
+        run: |
+          set -euo pipefail
+          fields=databaseId,headSha,headBranch,conclusion,createdAt,displayTitle,url,workflowName
+          if [ -n "$REQUESTED" ]; then
+            run=$(gh run view "$REQUESTED" --json "$fields")
+          else
+            run=$(gh run list --workflow build.yml --branch main --status success --limit 1 --json "$fields" | jq '.[0] // empty')
+            test -n "$run" || { echo "::error::No successful build of main yet. Run \"Build islam.museum\" (or push to main) first."; exit 1; }
+          fi
+          id=$(jq -r .databaseId <<<"$run")
+          sha=$(jq -r .headSha <<<"$run")
+          branch=$(jq -r .headBranch <<<"$run")
+          conclusion=$(jq -r .conclusion <<<"$run")
+          created=$(jq -r .createdAt <<<"$run")
+          title=$(jq -r .displayTitle <<<"$run")
+          url=$(jq -r .url <<<"$run")
+          workflow=$(jq -r .workflowName <<<"$run")
+          [ "$workflow" = "Build islam.museum" ] || { echo "::error::Run $id is \"$workflow\", not a build run."; exit 1; }
+          [ "$conclusion" = "success" ] || { echo "::error::Build run $id ended with \"$conclusion\", not success."; exit 1; }
+          [ "$branch" = "main" ] || { echo "::error::Build run $id built $branch, not main."; exit 1; }
+          # The artifact must still exist (retention-days in build.yml).
+          gh api "repos/$GH_REPO/actions/runs/$id/artifacts" --jq '.artifacts[] | select(.name == "dist" and .expired == false) | .id' | grep -q . \
+            || { echo "::error::Build run $id has no live dist artifact (expired or never uploaded). Rebuild the commit with \"Build islam.museum\"."; exit 1; }
+          {
+            echo "run_id=$id"
+            echo "sha=$sha"
+            echo "created=$created"
+            echo "title=$title"
+          } >> "$GITHUB_OUTPUT"
+          {
+            echo "## Deploying build $id"
+            echo
+            echo "- Build run: [$id]($url), built $created"
+            echo "- Commit: \`$sha\` — $title"
+          } >> "$GITHUB_STEP_SUMMARY"
+      - name: Checkout the built commit (Worker code and publish scripts of the same build)
+        uses: actions/checkout@v4
+        with:
+          ref: ${{ steps.build.outputs.sha }}
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+          cache-dependency-path: workers/r2-sync/package-lock.json
+      - name: Download the built site
+        uses: actions/download-artifact@v4
+        with:
+          name: dist
+          path: dist
+          run-id: ${{ steps.build.outputs.run_id }}
+          github-token: ${{ github.token }}
       - name: Install R2 sync Worker dependencies
-        if: github.ref == 'refs/heads/main'
         run: npm ci --prefix workers/r2-sync
       - name: Deploy R2 sync Workers (production bucket, seven copies)
         id: r2_worker
-        if: github.ref == 'refs/heads/main'
         working-directory: workers/r2-sync
         env:
           CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
@@ -86,7 +112,6 @@ jobs:
           done
           echo "urls=$urls" >> "$GITHUB_OUTPUT"
       - name: Build assets-only folder for the site Worker (no R2-served directories)
-        if: github.ref == 'refs/heads/main'
         run: |
           set -euo pipefail
           rm -rf dist-assets && cp -r dist dist-assets
@@ -94,7 +119,6 @@ jobs:
           echo "assets: $(find dist-assets -type f | wc -l) files"
           node workers/site/scripts/bundle-rules.mjs
       - name: Deploy site Worker (production bucket, workers.dev only, no route)
-        if: github.ref == 'refs/heads/main'
         working-directory: workers/site
         env:
           CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
@@ -103,7 +127,6 @@ jobs:
         # The Worker has no route until the cutover is approved; islam.museum stays on Pages.
         run: ../r2-sync/node_modules/.bin/wrangler deploy -c wrangler.production.toml
       - name: Publish pagefind indexes, API and HTML pages to R2 (zip archives via R2 sync Worker)
-        if: github.ref == 'refs/heads/main'
         env:
           AWS_ACCESS_KEY_ID: ${{ secrets.R2_ACCESS_KEY_ID }}
           AWS_SECRET_ACCESS_KEY: ${{ secrets.R2_SECRET_ACCESS_KEY }}
@@ -115,35 +138,33 @@ jobs:
           # HTML pages (ar/, en/, ur/) are published to R2 for the site Worker. Pages still
           # deploys them too until the route cutover; the publish is additive.
           PUBLISH_HTML: "1"
+          # The manifest records the commit it describes: the built one, not this run's head.
+          GITHUB_SHA: ${{ steps.build.outputs.sha }}
         run: node workers/r2-sync/batch/publish.mjs --dist dist
       - name: Strip R2-served dirs from Pages deployment
         run: rm -rf dist/pagefind-ar dist/pagefind-en dist/pagefind-ur dist/api
-      - name: Upload built site
-        uses: actions/upload-artifact@v4
-        with:
-          name: dist
-          path: dist
-          retention-days: 1
-
-  deploy:
-    needs: [test, build]
-    if: github.ref == 'refs/heads/main'
-    runs-on: ubuntu-latest
-    steps:
-      - name: Download built site
-        uses: actions/download-artifact@v4
-        with:
-          name: dist
-          path: dist
       - name: Deploy to Cloudflare Pages
         uses: cloudflare/wrangler-action@v3
         with:
           apiToken: ${{ secrets.CLOUDFLARE_API_TOKEN }}
           accountId: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
           wranglerVersion: "4"
-          command: pages deploy dist --project-name=islam-museum
+          # The checkout above is a detached HEAD, so name the production branch and the
+          # built commit explicitly instead of letting wrangler read them from git.
+          command: pages deploy dist --project-name=islam-museum --branch=main --commit-hash=${{ steps.build.outputs.sha }} --commit-dirty=false
+      - name: Record what was deployed
+        env:
+          RUN_ID: ${{ steps.build.outputs.run_id }}
+          SHA: ${{ steps.build.outputs.sha }}
+          TITLE: ${{ steps.build.outputs.title }}
+          CREATED: ${{ steps.build.outputs.created }}
+        run: |
+          {
+            echo
+            echo "Deployed build **$RUN_ID**: commit \`$SHA\` ($TITLE), built $CREATED."
+          } >> "$GITHUB_STEP_SUMMARY"
 
-  # Pings IndexNow with the URLs changed in this push (scripts/indexnow.mjs), so
+  # Pings IndexNow with the URLs changed in the deployed commit (scripts/indexnow.mjs), so
   # Bing/Yandex pick up new and updated pages without waiting for a crawl.
   # Set the repository variable INDEXNOW to "off" to skip it.
   notify-indexnow:
@@ -151,9 +172,10 @@ jobs:
     runs-on: ubuntu-latest
     needs: deploy
     steps:
-      - name: Check out repository
+      - name: Check out the deployed commit
         uses: actions/checkout@v4
         with:
+          ref: ${{ needs.deploy.outputs.sha }}
           # The previous commit is the cut-off for "changed".
           fetch-depth: 2
       - name: Submit changed URLs to IndexNow
