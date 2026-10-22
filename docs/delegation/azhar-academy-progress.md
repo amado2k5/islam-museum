@@ -76,3 +76,20 @@ Doubts:
 - Biographical dates in the footnotes (Sahnun, Malik, Ibn al-Qasim, Ibn Ajurrum, al-Dardir) need a second source before any entity takes them.
 - The author's reading of the hadith against writing (p. 53, footnote) is not used.
 - The Mawlid and contested matters are not in this book's scope; no perspectives block is needed.
+
+## Batch 3: الإشاعات الكاذبة وكيف حاربها الإسلام (al-ishaat-al-kadhiba-azhar)
+
+- Author Muhammad Sayyid Tantawi; publisher Dar al-Shorouk, Cairo, 1421 AH / 2001 CE as printed (PDF p. 4). Printed page = PDF page minus 2. Read whole front matter, Adam and Iblis, the Mongol section, the Balat al-Shuhada rumour, the Aisha affair (summary) and the methods section (pp. 189–195). Not read in full: the prophets' sections (Noah, Hud, Salih, Moses, Muhammad, Qur'an, resurrection; PDF pp. 22–176) and the second Aisha section; only headings and cited lines were checked.
+- Source `source/al-ishaat-al-kadhiba-azhar` written. Cover and catalogue show no Scientific Series name on the OCR pages; check the PDF cover before filing under the series.
+- New concept `concept/rumour-in-islam`, Arabic prose only (`content/ar/concept/rumour-in-islam.md`). English and Urdu prose and the translation pass are not yet written.
+- Edited (sources list only, plus one appended note): `event/incident-of-the-slander`, `event/balat-al-shuhada`, `event/ayn-jalut-658`, `person/qutuz`, `person/genghis-khan`, `person/iblis`.
+- Claims table outside git: `/Volumes/exmicroSD/islam-museum-harvest/claims/azhar-academy/al-ishaat-al-kadhiba-azhar.tsv` (35 claims).
+
+Doubts:
+- Ayn Jalut date: the book gives Friday 25 Ramadan 658 (PDF p. 186); the existing entity gives Friday 15 Ramadan 658, and its source phrase "خامس عشري رمضان" reads as 25. The Hijri field is left unchanged and flagged in the note of `event/ayn-jalut-658`; `scripts/hijri/` should check it.
+- Balat al-Shuhada figures (cavalry, 20,000 martyrs, army of 100,000) and the baggage rumour are quoted by the author from Muhammad Abdullah Inan; not verified.
+- Hulagu's letter text and the Zuwayla gate detail are quoted without a source in the book.
+- Preface sign-off (11 Rabi I 1421 / 14 June 2000, PDF p. 9) conflicts with the printed year 2001.
+- Hadith of Usama ibn Zayd and the sayings of the Prophet, Ali and Umar ibn Abd al-Aziz carry no isnad or grading in the book; they are cited only as the author's report.
+
+Not done: `docs/coverage.md` not regenerated (per brief); run `npm run coverage` at the next check-in. Translations (en, ur) for the new concept not written.
