@@ -2,17 +2,19 @@
 id: person/hani-ibn-masud
 lang: en
 source_lang: ar
-translators: ["Devin (SWE-2), draft translation"]
+translators: ["Claude Haiku 5.5 (claude-haiku-5-5), draft translation"]
 ---
-## Overview
-Hani' ibn Mas'ud al-Shaybani: chief of the house of Shayban, keeper of al-Nu'man's deposit, and leader of the victory over the Persians on the day of Dhi Qar.
+## Summary
+Hani ibn Mas'ud al-Shaybani, chief of [[group/banu-shayban|Shayban]], keeper of the deposit of [[person/al-numan-ibn-al-mundhir|al-Nu'man ibn al-Mundhir]], and the victor over the Persians on the day of [[event/battle-of-dhu-qar|Dhu Qar]] {cite:mubarakpuri-raheeq p.26} {cite:muhadarat-tarikh-al-umam-al-islamiyya 1/29-32}.
 
-## Life
-Al-Nu'man ibn al-Mundhir alighted on him in secret and deposited with him his family and wealth before going to Kisra {cite:mubarakpuri-raheeq}.
+## The deposit
+Al-Nu'man came to him secretly and left with him his family and his wealth before he set out to meet Kisra {cite:mubarakpuri-raheeq p.26}. When Kisra appointed [[person/iyas-ibn-qabisa|Iyas ibn Qabisa]] governor of al-Hira and ordered him to send to Hani' asking him to hand over what was with him, Hani' refused out of pride and declared war on the king {cite:mubarakpuri-raheeq p.26}.
 
-When Kisra appointed Iyas ibn Qubaysa over al-Hira and ordered him to take what was with Hani', Hani' refused out of jealous honour and declared war on the king — hence the day of Dhi Qar, in which the sons of Shayban triumphed and the Persians suffered a grievous rout {cite:mubarakpuri-raheeq}.
+## Dhu Qar
+The marzbans and battalions of Kisra came in Iyas's procession, and between the two sides there was a terrible battle at Dhu Qar. In it the Banu Shayban triumphed and the Persians were routed in a severe defeat. In the author's view, it was the first day on which the Arabs won against the non-Arabs {cite:mubarakpuri-raheeq p.26}.
 
-Al-Mubarakpuri tells his story in the chapter on Jahiliyya morals: keeping a covenant was for them a religion, for whose sake they risked their sons' deaths and their homes' ruin; it suffices to know this from the stories of Hani' ibn Mas'ud al-Shaybani, al-Samaw'al ibn Adiya' and Hajib ibn Zurara {cite:mubarakpuri-raheeq}.
+## An example of fidelity
+In describing the morals of the people of the Jahiliyya, the author notes that a covenant was for them a religion, for which they would make light of killing their children and ruining their homes. The stories of Hani ibn Mas'ud al-Shaybani, [[person/al-samawal-ibn-adiya|al-Samaw'al ibn Adiya]] and Hajib ibn Zurara al-Tamimi are enough to show this {cite:mubarakpuri-raheeq p.47}.
 
 ## For young visitors
-Hani' was a man who kept his absent friend's trust and refused to hand it over to the greatest king — and fought for it and prevailed.
+Hani kept the trust of his absent friend and refused to hand it over to the greatest king. He fought for it, and he prevailed.

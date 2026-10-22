@@ -2,15 +2,20 @@
 id: person/hulayl-ibn-hubshiyya
 lang: en
 source_lang: ar
-translators: ["Devin (SWE-2), draft translation"]
+translators: ["Claude Haiku 5.5 (claude-haiku-5-5), draft translation"]
 ---
-## Overview
-Hulayl ibn Hubshiyya al-Khuza'i: governor of Mecca in the time of Qusayy's arrival, father of his wife Hubba; at his death the struggle over the House's rule began.
 
-## Life
-He was Mecca's governor when [[person/qusayy-ibn-kilab|Qusayy ibn Kilab]] grew up and returned to it; Qusayy asked for his daughter Hubba's hand — Hulayl took a liking to him and married her to him {cite:ibn-hisham-sira}.
+## Summary
+Hulayl ibn Hubshiyya al-Khuza'i, governor of [[place/mecca|Mecca]] from [[group/khuzaa|Khuza'a]] when [[person/qusayy-ibn-kilab|Qusayy ibn Kilab]] returned to it, and father of his wife Hubba. On his death the war broke out that ended with Qusayy prevailing over the government of Mecca and the House {cite:mubarakpuri-raheeq p.29} {cite:ibn-hisham-sira 1/117-118}.
 
-When Hulayl died, war broke out between Khuza'a and Quraysh, ending with Qusayy taking charge of Mecca and the House {cite:mubarakpuri-raheeq}. In one telling, Hulayl bequeathed to Qusayy the charge of the Ka'ba; in another he gave his daughter the rule of the House and [[person/abu-ghubshan|Abu Ghubshan]] held it for her as a trustee {cite:mubarakpuri-raheeq}.
+## His marriage of Qusayy
+When Qusayy grew up he returned to Mecca, whose governor at that time was Hulayl ibn Hubshiyya. Qusayy proposed for Hulayl's daughter Hubba. Hulayl was pleased with him and married her to him {cite:mubarakpuri-raheeq p.29} {cite:ibn-hisham-sira 1/117-118}.
+
+## On the reports of the cause of the war
+Al-Raheeq al-Makhtum gives three accounts of the cause of the war after Hulayl's death. In the first, Qusayy saw himself as more deserving of the Ka'ba once Hulayl had died. In the second, Hulayl, as Khuza'a claim, bequeathed to Qusayy the charge of the Ka'ba and the rule of Mecca. In the third, Hulayl gave his daughter Hubba the rule of the House and appointed [[person/abu-ghubshan|Abu Ghubshan]] as her agent {cite:mubarakpuri-raheeq p.29} {cite:mubarakpuri-raheeq p.30} {cite:ibn-hisham-sira 1/118} {cite:rahma-lil-alamin 2/55}. Its details are in [[event/qusayy-takes-mecca|Qusayy's seizure of Mecca]].
+
+## Notes for researchers
+The name appears in the book's edition as both "Hulayl" and "Halil". The familiar form in Ibn Hisham is "Hulayl ibn Hubshiyya".
 
 ## For young visitors
-Hulayl was the old ruler of Mecca who married his daughter to Qusayy; after his death Mecca's rule passed to Quraysh.
+Hulayl was the old ruler of Mecca who married his daughter to Qusayy. After his death, the rule of Mecca passed to Quraysh.

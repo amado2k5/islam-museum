@@ -2,18 +2,31 @@
 id: person/ibrahim
 lang: en
 source_lang: ar
-translators: ["Devin (SWE-2), draft translation"]
+translators: ["Claude Haiku 5.5 (claude-haiku-5-5), draft translation"]
 ---
-## Overview
-Ibrahim, father of the Arabised Arabs in the Sira's telling: emigrant from Ur to Harran then Palestine; settler of Hagar and Isma'il in Mecca; raiser of the House's foundations; caller of the people to pilgrimage.
+## Summary
+Ibrahim, the great forefather of the Arabised Arabs in the account of al-Raheeq al-Makhtum. His origin is the town of [[place/ur|Ur]] in Iraq. He migrated to Harran and then to [[place/palestine|Palestine]], and he settled [[person/hajar|Hagar]] and [[person/ismail|Isma'il]] in Mecca. With his son he raised the foundations of the [[building/kaaba|House]], and he proclaimed the pilgrimage among the people {cite:mubarakpuri-raheeq p.18} {cite:mubarakpuri-raheeq p.20}.
 
-## Life
-Ibrahim's origin is in the land of Iraq, in a town called Ur on the western bank of the Euphrates near Kufa {cite:mubarakpuri-raheeq}. He emigrated from it to Harran, then to Palestine which he made the base of his call, and once came to Egypt {cite:mubarakpuri-raheeq}.
+## From Ur to Palestine
+Ibrahim's origin is the land of [[place/iraq|Iraq]], from a town called Ur on the western bank of the Euphrates near Kufa. Excavations have brought wide details about this town, about Ibrahim's family, and about the religious and social conditions there {cite:mubarakpuri-raheeq p.18} {cite:tafhim-al-quran 1/553-556}. He migrated from there to Haran, and then to Palestine, which he took as the base of his call. He made tours across these lands and others {cite:mubarakpuri-raheeq p.18} {cite:tafhim-al-quran 1/108}.
 
-God gave him, by [[person/hajar|Hagar]], [[person/ismail|Isma'il]], and revealed to him that he bring her and her child to Mecca, settling them in a barren valley by the place of the House {cite:mubarakpuri-raheeq}. The sources preserve for him four journeys to Mecca: the journey of settlement, the journey of the sacrifice, the two journeys of testing the wives, and the journey of raising the foundations {cite:mubarakpuri-raheeq}.
+## In Egypt
+He once came to [[place/misr|Egypt]], where the Pharaoh plotted against his wife [[person/sara|Sara]], but God foiled the plot. The Pharaoh recognised the strong bond Sara had with God, and so he gave Hagar to her in service as a mark of respect for her. Sara then gave her in marriage to Ibrahim {cite:mubarakpuri-raheeq p.18} {cite:sahih-al-bukhari 1/474} {cite:rahma-lil-alamin 2/34}.
 
-## The legacy
-On the last journey he built the [[building/kaaba|Ka'ba]] with his son, and they raised its foundations, and he proclaimed the pilgrimage to the people {cite:mubarakpuri-raheeq}. To him the genealogy of the Adnanite Arabs traces through Isma'il and Qaydar {cite:tarikh-al-tabari}.
+## Settling Hagar and Isma'il
+Ibrahim returned to Palestine, and God granted him Isma'il by Hagar. Sara grew jealous until she forced him to take Hagar and her small son away. He brought them to the Hijaz and settled them in a barren valley beside the Sacred House, which at that time was only a raised mound of earth, like a hillock {cite:mubarakpuri-raheeq p.18} {cite:sahih-al-bukhari 1/474-475}. He placed them beneath a tree above Zamzam, when no one was in Mecca and there was no water. He left with them a bag of dates and a waterskin, and returned to Palestine {cite:mubarakpuri-raheeq p.18}. See [[event/settlement-of-hajar-and-ismail|The settlement of Hagar and Isma'il]].
+
+## His journeys to Mecca
+Ibrahim used to travel to Mecca from time to time to look in on what he had left there. The sources record four of his journeys: the journey of the vision and [[event/sacrifice-of-ismail|the ransom of Isma'il]]; two journeys in which he met Isma'il's wives; and a third journey in which he met Isma'il. On that journey they built the Ka'ba and raised its foundations, and Ibrahim proclaimed the pilgrimage to the people as God had commanded him {cite:mubarakpuri-raheeq p.19} {cite:mubarakpuri-raheeq p.20} {cite:sahih-al-bukhari 1/475-476}. Details are in [[event/ibrahim-visits-ismail-in-mecca|Ibrahim's visits to Mecca]] and [[event/building-of-the-kaaba|The raising of the foundations of the Ka'ba]].
+
+## On lineage
+The lineage of the [[group/adnan|Adnanite Arabs]] ends with him through Isma'il, [[person/qaydar|Qaydar]] and [[person/adnan|Adnan]]. Some scholars held that there were forty fathers between Adnan and Ibrahim {cite:mubarakpuri-raheeq p.20} {cite:rahma-lil-alamin 2/7-17}. The author quotes Muslim's hadith that God chose Isma'il from among the offspring of Ibrahim {cite:mubarakpuri-raheeq p.21} {cite:sahih-muslim 2/245}.
+
+## What is not mentioned here
+Ibrahim's call to his people, the story of the fire, and his accounts in the Qur'an are presented in their own entries. This entry presents what the introduction of al-Raheeq al-Makhtum mentions. On religion, the author notes that most of the Arabs were on the religion of Ibrahim until time lengthened over them (see [[concept/diyanat-al-jahiliyya|The religions of the Arabs]]) {cite:mubarakpuri-raheeq p.35}.
 
 ## For young visitors
-Ibrahim is a prophet who travelled from Iraq to Palestine, placed his wife and son in Mecca, then built God's House with his son and called the people to visit it.
+Ibrahim is a prophet who travelled from Iraq to Palestine and placed his wife and son in Mecca. Then he built God's House with his son and called people to visit it.
+
+## Above Ibrahim in al-Raheeq al-Makhtum
+In the third part of the Prophet's lineage, the author mentions Ibrahim son of Tarih, whose name was Azar, son of Nahur, son of Saruj or Sarugh, son of Ra'u, son of Falakh, son of Eber, son of Shalakh, son of Arpakhshad, son of Sam, son of Nuh, son of Lamak, son of Mutawshalakh, son of Akhnukh, said to be Idris, son of Yard, son of Mahla'il, son of Qaynan, son of Anush, son of Shayth, son of Adam. The author considers that this part certainly contains inaccurate material. He notes that the sources differ in how some names are pronounced, and that some names are missing {cite:mubarakpuri-raheeq p.48} {cite:mubarakpuri-raheeq p.49} {cite:ibn-hisham-sira 1/2-4} {cite:khulasat-al-siyar p.6}. See [[concept/nasab-al-nabi|The Prophet's lineage]].
