@@ -59,3 +59,29 @@ Doubts:
 - Not written, for Tier A review: the chapter on the Mawlid (PDF pp. 176–180), which is contested and needs the perspectives block; and the chapter on Ibtida' in religion (PDF pp. 163–167), which overlaps `concept/bida` and should extend that entity rather than duplicate it.
 - Two hadiths quoted by the author (PDF pp. 41, 44–45) and the hadith in PDF pp. 82, 83 and 120 carry no source footnote on the page; they need checking in Bukhari or Muslim before reuse.
 - `docs/coverage.md` not regenerated in this batch (brief instruction); run `npm run coverage` at the next check-in.
+
+## Batch: سفير الإسلام إلى سائر الأقوام (Wajdi, Tokyo congress message)
+
+- Read the full OCR text (53 PDF pages; cover = p1; printed page numbers not visible, so every cite is a PDF page). Source entity `source/sufara-al-islam-azhar` created; the 2017 date is the deposit number on the card, not a print date.
+- Entities: `event/tokyo-religions-congress-1907` (new, confidence low, needs_source); `person/muhammad-farid-wajdi` (second source, prose section added); `concept/islam-common-religion-of-prophets`, `concept/fitra`, `concept/al-taqlid`, `concept/individual-liberty`, `concept/equality-in-islam` (second source added to each; summaries unchanged). All draft.
+- Claims table (28 rows) outside git: `/Volumes/exmicroSD/islam-museum-harvest/claims/azhar-academy/sufara-al-islam-azhar.tsv`.
+- Doubts: death year 1372 AH on the cover (p1) against 1373 AH on the title page (p2); the memoir gives age 91 at death (p12), which does not fit 1954; the 1907 Tokyo date and the Dustur newspaper date come from this book only; the hadith "every child is born upon fitra" (p41-42) has no isnad or grading in the book; the Gospel saying on false prophets (p51) has no reference.
+- Contested or apologetic: the seven-objection argument for prophethood (p46-53) is recorded as the author's argument, with no other view given; it needs a Tier A review before any perspectives block.
+- Not done: English and Urdu translations of the new prose (content/en, content/ur) are not written yet; coverage not regenerated (brief instruction); the Qur'an verses are cited by surah and ayah only, never typed.
+
+## Batch: المتون العلمية وأثرها في التربية (al-Mutun al-Ilmiyya, Abd al-Rahman Muhammad Salih)
+
+- Source `source/al-mutun-al-ilmiyya-azhar`: a 1937 al-Azhar thesis (26 May 1937 as dated by the author), published by the Academy in 1446 AH / 2025 CE, 148 pages. Printed page = PDF page for the body (p. 47 = printed 47).
+- New: `concept/al-matn-al-ilmi` (data and Arabic prose). Arabic prose only; English and Urdu translations are not yet written (to follow in the translation pass).
+- Second source added (sources line only, no summary changed): `person/ibn-arafa`, `person/ibn-khaldun`, `work/ajurrumiyya`, `work/al-kharida-al-bahiyya`, `work/al-qamus-al-muhit`, `work/lisan-al-arab`, `work/matn-ibn-ashir`, `work/risala-qayrawani`.
+- Claims table (42 rows) outside git: `/Volumes/exmicroSD/islam-museum-harvest/claims/azhar-academy/al-mutun-al-ilmiyya-azhar.tsv`.
+- Read: cover, title and catalogue pages, preface, pp. 43-65, 73-74, 90-93, 105, 120, 129-148. Not read: pp. 66-72, 75-89, 94-104, 106-119, 121-128. The chapter 2 comparisons of prose and verse matns and the chapter 3 examples on the Academy's book list remain to be read.
+- Not created: `person/sahnun-ibn-said`, `person/malik-ibn-anas`, `person/al-dardir`, `person/ibn-al-hajib`, `work/mukhtasar-khalil`, `work/aqida-sanusiyya-wusta` (the claims are in the TSV, targets not edited in this batch).
+
+Doubts:
+- The author's name is garbled on the cover; confirmed on the catalogue card (p. 2) and the signature (p. 144).
+- ISBN printed on the catalogue card (p. 2) is not transcribed; deposit 2024/28977 is recorded only as a cataloguing detail.
+- The Ibn Khaldun edition cited by the author (p. 490) is not identified in the book; the Muqaddima quotation needs the page check before reuse.
+- Biographical dates in the footnotes (Sahnun, Malik, Ibn al-Qasim, Ibn Ajurrum, al-Dardir) need a second source before any entity takes them.
+- The author's reading of the hadith against writing (p. 53, footnote) is not used.
+- The Mawlid and contested matters are not in this book's scope; no perspectives block is needed.
