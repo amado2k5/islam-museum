@@ -59,3 +59,13 @@ Doubts:
 - Not written, for Tier A review: the chapter on the Mawlid (PDF pp. 176–180), which is contested and needs the perspectives block; and the chapter on Ibtida' in religion (PDF pp. 163–167), which overlaps `concept/bida` and should extend that entity rather than duplicate it.
 - Two hadiths quoted by the author (PDF pp. 41, 44–45) and the hadith in PDF pp. 82, 83 and 120 carry no source footnote on the page; they need checking in Bukhari or Muslim before reuse.
 - `docs/coverage.md` not regenerated in this batch (brief instruction); run `npm run coverage` at the next check-in.
+
+## al-Masjid fi al-Islam, part one (Muhammad Rajab al-Bayoumi), batch 1
+
+- Read PDF pp. 1-33 (cover, card, foreword, Prophet's Mosque, Dar al-Arqam, Ibn Umar, Masjid al-Haram to the Ibn Jubayr passage). Not read: Fustat, Kufa, Basra, Umayyad, Zaytuna, al-Azhar chapters and pp. 34-166 of the OCR beyond p33.
+- Claims: 43 rows in /Volumes/exmicroSD/islam-museum-harvest/claims/azhar-academy/al-masjid-fi-al-islam-azhar.tsv.
+- New: source/al-masjid-fi-al-islam-azhar, practice/mosque-study-circle (ar prose only).
+- Extended (second source and cited Arabic prose appended, summaries untouched): building/prophets-mosque, building/masjid-al-haram, building/dar-al-arqam, person/abdullah-ibn-umar.
+- Doubts: dar al-Arqam entry says fifth year of prophethood, book says fourth (recorded as a second claim); the book's claim that the Prophet left Mu'adh ibn Jabal teaching in Mecca is not corroborated and is flagged in masjid-al-haram; Ibn Umar's Jalula' money figures are printed in the narration and must be checked on the page image; the Ibn Jubayr passages are quoted as the book quotes them.
+- PDF pages and printed page numbers differ (OCR prints numbers such as 236 on PDF p12); citations use PDF pages.
+- English and Urdu translations of the new prose and of the appended sections are not in this batch (the claims are Arabic-first; to follow in a later commit).
