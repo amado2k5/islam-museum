@@ -7,6 +7,8 @@ compatibility_date = "2025-10-11"
 # CI copies only the non-R2 files into dist-assets (see the workflow).
 directory = "../../dist-assets"
 binding = "ASSETS"
+# A path that matches no asset answers with the site's own 404 page (404.html), as Pages did.
+not_found_handling = "404-page"
 run_worker_first = ["/ar/*", "/en/*", "/ur/*"]
 
 [[r2_buckets]]

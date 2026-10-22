@@ -80,3 +80,14 @@ test("edge cache: HTML and redirects carry an hour of cache, 404s none", async (
   assert.equal(redirectLocation("ar/x/"), "/ar/x/");
   assert.equal(redirectLocation("https://api.islam.museum/api/v1/meta/index.json"), "https://api.islam.museum/api/v1/meta/index.json");
 });
+
+test("aliasTarget redirects a former entity id to the current one in the same language", async () => {
+  const { aliasTarget } = await import("../src/route.js");
+  const aliases = { "person/tughrul-beg": "person/tughril-beg", "event/tulunid-collapse-292": "event/fall-of-tulunids-292" };
+  assert.equal(aliasTarget("/ar/person/tughrul-beg/", aliases), "/ar/person/tughril-beg/");
+  assert.equal(aliasTarget("/ur/event/tulunid-collapse-292", aliases), "/ur/event/fall-of-tulunids-292/");
+  assert.equal(aliasTarget("/en/person/tughril-beg/", aliases), null);
+  assert.equal(aliasTarget("/en/search/", aliases), null);
+  assert.equal(aliasTarget("/brand/logo-mark.svg", aliases), null);
+});
+

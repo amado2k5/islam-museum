@@ -15,3 +15,13 @@
   X-Content-Type-Options: nosniff
   Referrer-Policy: strict-origin-when-cross-origin
   Access-Control-Allow-Origin: *
+
+# Hashed build assets never change under the same name: cache them for a year.
+# (Workers static assets served them with max-age=0; Pages with four hours.)
+/_astro/*
+  Cache-Control: public, max-age=31536000, immutable
+
+# The root page is served by the asset layer, which omits the charset.
+/
+  Content-Type: text/html; charset=utf-8
+

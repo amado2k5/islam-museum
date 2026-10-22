@@ -5,13 +5,14 @@
 // The two rule files are bundled at deploy time (scripts/bundle-rules.mjs writes
 // src/rules.generated.js): static assets consume _redirects and _headers themselves
 // and do not serve them, so they cannot be fetched through env.ASSETS.
-import { resolve, parseRedirects, parseDynamicRedirects, matchDynamicRedirect, parseHeaders, headersFor, HTML_CACHE_CONTROL, redirectTo, redirectLocation } from "./route.js";
-import { redirectsText, headersText } from "./rules.generated.js";
+import { resolve, parseRedirects, parseDynamicRedirects, matchDynamicRedirect, parseHeaders, headersFor, HTML_CACHE_CONTROL, redirectTo, redirectLocation, aliasTarget } from "./route.js";
+import { redirectsText, headersText, aliasesText } from "./rules.generated.js";
 
 const rules = {
   static: parseRedirects(redirectsText),
   dynamic: parseDynamicRedirects(redirectsText),
   headers: parseHeaders(headersText),
+  aliases: JSON.parse(aliasesText),
 };
 
 // Copies the _headers values for this path onto a response. The response is rebuilt
@@ -50,11 +51,16 @@ export default {
     }
     if (target.type === "redirect") return respond(redirectTo(target.location + url.search, 301));
 
+    // A former id (alias in data/) redirects to the entity's current page.
+    const alias = aliasTarget(url.pathname, rules.aliases);
+    if (alias) return respond(redirectTo(alias + url.search, 301));
+
     const object = await env.SITE_BUCKET.get(target.key);
     if (!object) {
       // Never cached: the page appears as soon as a publish writes it to R2.
       const notFound = await env.ASSETS.fetch(new URL("/404.html", url));
       const headers = new Headers(notFound.headers);
+      headers.set("content-type", "text/html; charset=utf-8");
       headers.set("cache-control", "no-store");
       return respond(new Response(request.method === "HEAD" ? null : notFound.body, { status: 404, headers }));
     }
