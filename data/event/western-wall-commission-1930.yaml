@@ -1,0 +1,24 @@
+id: event/western-wall-commission-1930
+class: event
+kind: council
+label:
+  ar: لجنة حائط البراق الدولية (1930)
+  en: League of Nations commission on the Western Wall (1930)
+summary:
+  ar: "لجنة شكّلها مجلس عصبة الأمم بقرار في 14 يناير 1930م بعد اضطرابات آب 1929م حول الحائط الغربي للحرم الشريف، لتسوية حقوق المسلمين واليهود فيه؛ ضمت ثلاثة أعضاء من غير البريطانيين رأسهم وزير الخارجية السويدي السابق إلياس لوفغرن. عملت في القدس من حزيران إلى تموز 1930م، وأصدرت قرارها في كانون الأول 1930م بإجماع أعضائها: الحائط جزء من ساحة الحرم، وملكيته للمسلمين وحدهم بوصفه وقفا، وتُحفظ الحالة الراهنة في الصلاة اليهودية عنده. يعرض كتاب عمارة نص التقرير كما نشرته الدراسة {cite:al-quds-bayn-al-yahudiyya-wal-islam-azhar p. 66-70}، ويقرؤه الكتاب شهادة على حق الوقف الإسلامي في الحائط، وهي قراءة الكتاب نفسه {cite:al-quds-bayn-al-yahudiyya-wal-islam-azhar p. 66}."
+  en: "A commission set up by the League of Nations Council on 14 January 1930 after the August 1929 disturbances over the Western Wall of the Haram al-Sharif, to settle Muslim and Jewish claims there; three non-British members led by former Swedish foreign minister Eliel Lofgren. It sat in Jerusalem in June and July 1930 and its unanimous decision of December 1930 held the wall part of the Haram and Muslim waqf property, and kept the status quo for Jewish worship there. Imara's book reprints the report and reads it as proof of Muslim ownership; the reading is the book's own."
+wings: [time]
+periods: [period/prophetic-era]
+regions: [levant-iraq]
+date:
+  start: { edtf: "1930-12", hijri: "", calendar: gregorian, precision: month, status: historical, note: "needs_source: كانون الأول 1930م كما يطبعه الكتاب في ص 66 و185 (PDF)؛ يحتاج مصدراً ثانياً." }
+relations:
+  - { type: occurred_at, target: place/jerusalem }
+sources: [source/al-quds-bayn-al-yahudiyya-wal-islam-azhar]
+provenance:
+  layer: own-research
+  source: "Imara, al-Quds bayn al-Yahudiyya wal-Islam (Academy, 2018), PDF pp. 65-70, 185-186; reprint of the 1930 report, rewritten in the museum's words"
+  generated_by: "Claude (Haiku 5.5), Claude desktop app"
+  model: claude-haiku-5-5
+  run: azhar-al-quds-bayn-al-yahudiyya
+status: { review: draft, completeness: 1, generated_by: "Claude (Haiku 5.5); contested topic, needs Tier A review of the perspectives" }
