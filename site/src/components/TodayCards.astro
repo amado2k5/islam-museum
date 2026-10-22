@@ -27,7 +27,7 @@ const cards = [
         <h3 id={`today-${c.cal}`} class="ui">{c.title}</h3>
         <p class="ui muted" data-note style="min-height:1.2em;margin:0 0 4px;font-size:.9rem">{c.r.items.length ? (c.r.exact ? "" : T.today.nearest) : T.today.none}</p>
         <ul data-items class="today-list">
-          {(full ? c.r.items : c.r.items.slice(0, 1)).map((x) => <li><a href={x.href}><strong>{x.label}</strong></a> <span class="muted">— {x.date}</span></li>)}
+          {(full ? c.r.items : c.r.items.slice(0, 1)).map((x) => <li><a href={x.href}><strong><bdi>{x.label}</bdi></strong></a> <span class="muted">— {x.date}</span></li>)}
         </ul>
         {!full && c.r.items[0] && <a class="ui go" data-go href={c.r.items[0].href}>{T.today.read_story} <span class="flip" aria-hidden="true">→</span></a>}
       </section>
