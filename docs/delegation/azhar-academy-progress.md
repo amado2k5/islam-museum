@@ -77,6 +77,14 @@ Doubts:
 - Mawdudi and Sayyid Qutb as the origin of Daesh-style ideas (p. 99): attributed polemic, not adopted.
 - Hadith on hoarding and on the covenanted non-Muslim (pp. 114, 144): printed numbers recorded, grades not given in the book, not checked.
 - docs/coverage.md not regenerated in this batch (brief says do not edit it).
+## Batch: سفير الإسلام إلى سائر الأقوام (Wajdi, Tokyo congress message)
+
+- Read the full OCR text (53 PDF pages; cover = p1; printed page numbers not visible, so every cite is a PDF page). Source entity `source/sufara-al-islam-azhar` created; the 2017 date is the deposit number on the card, not a print date.
+- Entities: `event/tokyo-religions-congress-1907` (new, confidence low, needs_source); `person/muhammad-farid-wajdi` (second source, prose section added); `concept/islam-common-religion-of-prophets`, `concept/fitra`, `concept/al-taqlid`, `concept/individual-liberty`, `concept/equality-in-islam` (second source added to each; summaries unchanged). All draft.
+- Claims table (28 rows) outside git: `/Volumes/exmicroSD/islam-museum-harvest/claims/azhar-academy/sufara-al-islam-azhar.tsv`.
+- Doubts: death year 1372 AH on the cover (p1) against 1373 AH on the title page (p2); the memoir gives age 91 at death (p12), which does not fit 1954; the 1907 Tokyo date and the Dustur newspaper date come from this book only; the hadith "every child is born upon fitra" (p41-42) has no isnad or grading in the book; the Gospel saying on false prophets (p51) has no reference.
+- Contested or apologetic: the seven-objection argument for prophethood (p46-53) is recorded as the author's argument, with no other view given; it needs a Tier A review before any perspectives block.
+- Not done: English and Urdu translations of the new prose (content/en, content/ur) are not written yet; coverage not regenerated (brief instruction); the Qur'an verses are cited by surah and ayah only, never typed.
 
 ## Batch: المتون العلمية وأثرها في التربية (al-Mutun al-Ilmiyya, Abd al-Rahman Muhammad Salih)
 
