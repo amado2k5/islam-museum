@@ -60,6 +60,13 @@ Doubts:
 - Two hadiths quoted by the author (PDF pp. 41, 44–45) and the hadith in PDF pp. 82, 83 and 120 carry no source footnote on the page; they need checking in Bukhari or Muslim before reuse.
 - `docs/coverage.md` not regenerated in this batch (brief instruction); run `npm run coverage` at the next check-in.
 
+## Muhammad the Supreme Commander (عبد المجيد إبراهيم هندي), branch azhar-muhammad-qaid-al-aala-azhar
+
+- Read: cover, title page, catalogue block, foreword, introduction, and the Badr chapter to p. 46 (PDF page = printed page in the body, checked on pp. 22-46). Pp. 47-198 (rest of Badr, Uhud, the Confederates, Qurayza, Hudaybiyya, Khaybar, Mu'ta, Makka, Hunayn, Ta'if, Tabuk) not yet read.
+- Claims table (49 rows, outside git): claims/azhar-academy/muhammad-qaid-al-aala-azhar.tsv.
+- Added: source/muhammad-qaid-al-aala-azhar (draft); the book added as a second source on event/battle-of-badr, event/badr-duel, event/badr-prisoners, event/badr-expedition-setup, event/expedition-of-al-abwa-waddan.
+- Not done: no claims written into entity prose (event schema has no field for them; the Arabic prose would need a Tier A review pass); no Urdu translation of the source entity; docs/coverage.md not regenerated (per the founder's instruction for this batch).
+- Doubts logged in the claims table: troop counts (Quraysh 900-1000 vs 1300; horses 2 vs 3), Muhajirun banner (Ali vs Mus'ab), duel variant (Abu Dawud), caravan value (50,000 dinars), Nakhla date (Rajab 2 AH), and the series name (the book prints سلسلة البحوث الإسلامية).
 ## Batch: سفير الإسلام إلى سائر الأقوام (Wajdi, Tokyo congress message)
 
 - Read the full OCR text (53 PDF pages; cover = p1; printed page numbers not visible, so every cite is a PDF page). Source entity `source/sufara-al-islam-azhar` created; the 2017 date is the deposit number on the card, not a print date.
