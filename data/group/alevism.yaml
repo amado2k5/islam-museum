@@ -1,0 +1,48 @@
+id: group/alevism
+class: group
+kind: community-organisation
+label:
+  ar: العلوية الأناضولية
+  en: Alevism
+  ur: علویت
+summary:
+  ar: "العلوية تيار ديني وثقافي أناضولي يتمحور حول التولي لعلي وأهل البيت؛ يميز الدارسون بين تشكلها الحديث كفئة وبين جذورها في الحركات الغلاة والنصيرية التي تعالجها كتب الملل القديمة {cite:dressler-writing-religion-2013} {cite:milal-nihal-shahrastani}."
+  en: "Alevism is an Anatolian religious-cultural current centred on devotion to Ali and the ahl al-bayt; scholars distinguish its modern formation as a category from its roots in the ghulat and Nusayri currents treated by the classical heresiographies {cite:dressler-writing-religion-2013} {cite:milal-nihal-shahrastani}."
+wings: [people]
+themes: [minorities-within-islam, sects-and-schools]
+regions: [anatolia-balkans]
+periods: [period/gunpowder-empires, period/modern-era]
+external_ids: { wikidata: "Q137097" }
+sources: [source/dressler-writing-religion-2013, source/milal-nihal-shahrastani]
+perspectives:
+- tradition: sunni
+  id: sunni-classification
+  stance:
+    ar: فرقة غلاة تُدرج في كتب الملل مع المرتبطين بالنصيرية
+    en: An extremist sect classed in the heresiographies alongside the Nusayri-related currents
+  summary:
+    ar: "تعالج كتب الملل عند الشهرستاني الحركات المرتبطة بالغلو في علي — ومنها النصيرية — ضمن فرق الغلاة {cite:milal-nihal-shahrastani}؛ وعلى هذا التصنيف تقيس المصنفات السنية موقع العلوية الحديثة مع ملاحظة الفارق التاريخي."
+    en: "Shahrastani's heresiography treats the currents linked to extremism concerning Ali — the Nusayriyya among them — among the ghulat sects {cite:milal-nihal-shahrastani}; Sunni classifications locate modern Alevism against that classical grid while noting the historical distance."
+  sources: [source/milal-nihal-shahrastani]
+- tradition: academic
+  id: academic-formation
+  stance:
+    en: A modern identity category forged in late-Ottoman and Turkish nation-making, over older Qizilbash and saint-lineage layers
+  summary:
+    en: "Scholarship describes 'Alevism' as a category consolidated in the late Ottoman and republican Turkish context, layered over older Qizilbash loyalty and ocak saint-lineages rather than a timeless sect {cite:dressler-writing-religion-2013}."
+  sources: [source/dressler-writing-religion-2013]
+- tradition: other
+  id: self-description
+  stance:
+    ar: "طريق علي: تولي أهل البيت عبر سلاسل الأولياء (أوجاق) ومجالس الجم"
+    en: "The path of Ali: devotion to the ahl al-bayt through saintly ocak lineages and cem gatherings"
+  summary:
+    en: "Practitioners describe Alevism as the path of loyalty to Ali and the ahl al-bayt transmitted through hereditary ocak saint-lineages, centred on the cem assembly rather than the mosque {cite:dressler-writing-religion-2013}."
+  sources: [source/dressler-writing-religion-2013]
+sensitivity: contested
+provenance:
+  layer: own-research
+  source: "wikidata-import deferred Q137097; contested: classical Shahrastani (Nusayriyya verified in OCR) + academic fallback"
+  generated_by: "Devin (SWE-2 Medium)"
+  run: wd-deferred-10
+status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 Medium)" }
