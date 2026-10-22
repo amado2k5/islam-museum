@@ -2,13 +2,16 @@
 id: object/al-lat
 lang: en
 source_lang: ar
-translators: ["Devin (SWE-2), draft translation"]
+translators: ["Claude Haiku 5.5 (claude-haiku-5-5), draft translation"]
 ---
-## Overview
-Al-Lat: a carved white rock over which a building was raised with curtains, at Ta'if; Thaqif and its people venerated it and made tawaf around it as is done around the Ka'ba.
+## Summary
+Al-Lat is the idol that the Arabs took in [[place/taif|Ta'if]] after [[object/manat|Manat]]. Together with Manat and [[object/al-uzza|al-Uzza]], it was among their greatest idols in the account of al-Raheeq al-Makhtum {cite:mubarakpuri-raheeq p.35} {cite:mukhtasar-sirat-al-rasul p.12}.
 
-## In the sira presentation
-Al-Mubarakpuri mentions that idolatry entered the Arabs in the time of [[person/amr-ibn-luhayy|Amr ibn Luhayy]], who saw the people of al-Balqa venerating idols and carried them to the Hijaz — until every clan had an idol and every house an idol {cite:mubarakpuri-raheeq}.
+## On the order of the idols
+Among their oldest idols was Manat, at al-Mushallal near Qudayd. Then they took al-Lat in Ta'if, then al-Uzza in Wadi Nakhla, and then shirk multiplied {cite:mubarakpuri-raheeq p.35}. The rites of its worship are covered in [[concept/ibadat-al-asnam-jahiliyya|Idol worship in the Jahiliyya]].
+
+## Not covered here
+The rock of al-Lat, its building and its curtains among Thaqif; the Thaqif delegation and its request to keep the idol; and its demolition at its entrances.
 
 ## For young visitors
-Al-Lat is an idol some Arabs worshipped before Islam instead of God — until Islam demolished all the idols.
+Al-Lat is the idol of the people of Ta'if, one of the three greatest idols of the Arabs before Islam.
