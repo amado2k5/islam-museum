@@ -9,7 +9,7 @@ wings: [time]
 periods: [period/mongol-post-mongol]
 regions: [levant-iraq]
 date:
-  start: { edtf: "1260-09-03~", hijri: "0658-09-15", calendar: julian, precision: day, status: tradition, derived: true, note: "الجمعة 15 رمضان 658؛ التحويل مشتق {cite:tarikh-khulafa-minhaj-1434 p. 720}." }
+  start: { edtf: "1260-09-03~", hijri: "0658-09-15", calendar: julian, precision: day, status: tradition, derived: true, note: "الجمعة 15 رمضان 658؛ التحويل مشتق {cite:tarikh-khulafa-minhaj-1434 p. 720}. ملاحظة مراجعة (لم يُغيَّر التاريخ أعلاه): عبارة «خامس عشري رمضان» في المصدر تعني الخامس والعشرين، وكذلك يذكر كتاب الطنطاوي يوم الجمعة الخامس والعشرين من رمضان 658 {cite:al-ishaat-al-kadhiba-azhar p. 186}؛ فالحقل الهجري يحتاج إلى مراجعة بمحول التاريخ، وهو خلاف مفتوح (debated)." }
 sides:
   - label: { ar: "المسلمون — جيش مصر بقيادة الملك المظفر قطز" }
   - label: { ar: "التتار — حامية الشام بقيادة كتبغا" }
@@ -27,5 +27,5 @@ provenance:
   run: lib-tarikh-khulafa-batch-46
 external_ids:
   wikidata: Q244356
-sources: [source/tarikh-khulafa-minhaj-1434]
+sources: [source/tarikh-khulafa-minhaj-1434, source/al-ishaat-al-kadhiba-azhar]
 status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 High)" }
