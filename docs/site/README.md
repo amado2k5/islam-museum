@@ -25,6 +25,10 @@ Read this before you change anything under `site/`, `i18n/`, `scripts/validate.t
 6. **Record the change** in the relevant document here if it changes a rule, a token, a check, or a convention. Add one line to `docs/status.md` only if the change matters to the project's live state.
 7. Attribution trailers on the commit (`AI-Agent`, `AI-Model`, `AI-Editor`), as `docs/agents/workflow.md` requires.
 
+## Deploying (manual, founder only)
+
+A push to `main` does not deploy. Since 21 October 2026 `.github/workflows/deploy.yml` runs only when the founder starts it (Actions tab or `gh workflow run deploy.yml --ref main`), normally once a day, to keep R2 and build costs down. The run tests, builds, deploys the R2 sync Workers and the site Worker (`workers/site`, which serves `/ar/`, `/en/` and `/ur/` from R2), publishes to R2 only the files whose content changed since the last successful publish, and uploads the rest to Pages. Agents never start it; when a site change needs to be live, ask the founder in chat and name the commits (`docs/agents/workflow.md` section 9). This is why two builds of the same commit must be byte-identical and why no site-wide number may sit in a shared layout: every changed page costs an upload on the next deploy.
+
 ## Where the code lives
 
 | Concern | File |
