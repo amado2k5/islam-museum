@@ -1,0 +1,32 @@
+id: event/muawiya-demand-for-uthman-killers
+class: event
+kind: other
+label: { ar: "مطالبة معاوية بتسليم قتلة عثمان", en: "Muawiya's demand that the killers of Uthman be surrendered" }
+summary:
+  ar: "لم يبايع معاوية عليّاً بعد بيعة المدينة، وطلب أن يُقتصّ من قتلة عثمان ثم يبايع من أهل الشام؛ وروى الكتاب أن أبا مسلم الخولاني وآخرين سألوه: أتنازع علياً أم أنت مثله؟ فقال: «لا والله إني لأعلم أنه أفضل مني وأحق بالأمر، ولكن ... أنا ابن عمه والطالب بدمه» (ص187-188). ويخلص الكتاب إلى أن معاوية لم ينازع علياً في الخلافة ذاتها، وأن الخلاف كان حول الدم (ص188)."
+wings: [people, ideas]
+periods: [period/rashidun]
+regions: [levant-iraq]
+date:
+  start: { edtf: "0656/0660", calendar: julian, precision: year, status: tradition, derived: true, note: "الكتاب لا يذكر السنة لهذه المطالبة في الصفحات المقروءة؛ المدة خلافة علي (35-40هـ)." }
+relations:
+  - { type: had_participant, target: person/muawiya-ibn-abi-sufyan, role: "طالب بتسليم القتلة وامتنع عن البيعة", sources: [source/sallabi-ali-vol1] }
+  - { type: had_participant, target: person/ali-ibn-abi-talib, role: "امتنع عن تسليم القتلة في حينه", sources: [source/sallabi-ali-vol1] }
+  - { type: had_participant, target: person/uthman-ibn-affan, role: "المقتول الذي طُلب القصاص لدمه", sources: [source/sallabi-ali-vol1] }
+sources: [source/sallabi-ali-vol1]
+issue: { ar: "لماذا امتنع معاوية عن بيعة علي، وهل نازعه الخلافة؟", en: "Why did Muawiya withhold the pledge to Ali, and did he contest the caliphate?" }
+perspectives:
+  - tradition: sunni
+    id: sunni-blood-claim
+    summary: { ar: "يرى الكتاب، نقلاً عن ابن حجر الهيثمي وابن تيمية، أن معاوية لم يدّع الخلافة ولم يقاتل علياً على أنه ليس بخليفة، وأن الفتنة هاجت بسبب طلب القصاص من القتلة (ص188).", en: "The book, citing Ibn Hajar al-Haytami and Ibn Taymiyya, holds that Muawiya did not claim the caliphate; the strife arose from his demand for the killers (p. 188)." }
+    sources: [source/sallabi-ali-vol1]
+  - tradition: academic
+    id: academic-note
+    summary: { ar: "لم يرد في الصفحات المقروءة عرض لرأي أكاديمي حديث في دوافع معاوية؛ يحتاج ذلك إلى مرجع محدد (needs_source).", en: "No modern academic reading of Muawiya's motives is given in these pages (needs_source)." }
+    sources: [source/sallabi-ali-vol1]
+  - tradition: other
+    id: other-caliphate-dispute
+    summary: { ar: "يذكر الكتاب أن بعض المؤرخين صوّروا الخلاف على أنه نزاع على الخلافة نفسها، وهو تصوير يرفضه الكتاب استناداً إلى روايات أبي مسلم الخولاني وإقرار معاوية بفضل علي (ص187-188). الكتاب لا يسمّي هؤلاء المؤرخين هنا (needs_source).", en: "The book notes that some historians portrayed a dispute over the caliphate itself, which it rejects; it does not name them here (needs_source)." }
+    sources: [source/sallabi-ali-vol1]
+status: { review: draft, completeness: 1, generated_by: "Claude Code (claude-haiku-5-5); mined from sallabi-ali-vol1 pp. 187-188" }
+provenance: { layer: own-research, source: "sallabi-ali-vol1 pp. 187-188", generated_by: "Claude Code", model: "claude-haiku-5-5", run: "sallabi-ali-vol1-deep-pp151-200" }

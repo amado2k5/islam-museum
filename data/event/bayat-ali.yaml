@@ -17,5 +17,19 @@ provenance:
   source: "تاريخ الخلفاء للسيوطي (ط المنهاج 1434هـ/2013م) ص 275، 293–294"
   generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
   run: lib-tarikh-khulafa-batch-5
-sources: [source/tarikh-khulafa-minhaj-1434]
+sources: [source/tarikh-khulafa-minhaj-1434, source/sallabi-ali-vol1]
+issue: { ar: "كيف تمت بيعة علي بعد مقتل عثمان، وهل كانت عن رضا الصحابة؟", en: "How was Ali pledged after Uthman was killed, and with the consent of the Companions?" }
+perspectives:
+  - tradition: sunni
+    id: sunni-medina-pledge
+    summary: { ar: "يرى الصلابي أن علياً بويع بعد مقتل عثمان في المدينة بإجماع من بقي من الصحابة من المهاجرين والأنصار، وأنه لم يطلب الإمامة لنفسه، بل ألحّ عليه الناس حتى قبل، وأنه قال: «لا تريدوني فإني لكم وزير خير مني لكم أمير» (ص176-177)، وأنه اشترط أن تكون البيعة علانية في المسجد (ص177، 188-189).", en: "Al-Sallabi holds that Ali was pledged in Medina by the Companions who remained there, after he resisted at first and asked that the pledge be public in the mosque (pp. 176-177, 188-189)." }
+    sources: [source/sallabi-ali-vol1]
+  - tradition: academic
+    id: academic-note
+    summary: { ar: "لم يرد في الصفحات المقروءة عرض لرأي أكاديمي حديث في كيفية البيعة؛ يحتاج ذلك إلى مرجع محدد (needs_source).", en: "No modern academic account of how the pledge was made is given in these pages (needs_source)." }
+    sources: [source/sallabi-ali-vol1]
+  - tradition: other
+    id: other-reports
+    summary: { ar: "تذكر بعض الروايات أن طلحة والزبير بايعا مكرهين، ويذكر الكتاب أن هذا لا يثبت والروايات الصحيحة على خلافه (ص181-183). وينقل الكتاب عن ابن خلدون قوله إن الناس كانوا مفترقين في الأمصار فلم يشهدوا البيعة، فيردّه الكتاب بأن أكثر من بقي في المدينة بايعوا، وأن ابن خلدون نفسه نقل اتفاق أهل العصر الثاني (ص186). ويرد الكتاب أيضاً على الروايات التي تجعل الغوغاء أول من بايع (ص177-178).", en: "Some reports say Talha and al-Zubayr pledged under duress; the book rejects this. It cites Ibn Khaldun's claim that the Companions were scattered and did not witness the pledge, and rebuts it (pp. 181-183, 186). It also rejects reports that the rioters pledged first (pp. 177-178)." }
+    sources: [source/sallabi-ali-vol1]
 status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 High)" }
