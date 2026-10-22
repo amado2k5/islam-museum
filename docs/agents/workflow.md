@@ -30,7 +30,7 @@ _Origin: founder decision of 11 October 2026 that several sessions work in paral
 
 ## 4. Commit and push often
 
-Work can be lost if an agent runs out of credit or time, so push small validated commits to `main` frequently (after about every 10 entities and at the end of every batch). The sequence, every time:
+Work can be lost if an agent runs out of credit or time, so push small validated commits frequently (after about every 10 entities and at the end of every batch). Since 22 October 2026 `main` accepts pull requests only: a repository ruleset ("main: pull requests only") blocks direct pushes, force-pushes and branch deletion, with no bypass for anyone. You open the pull request and merge it yourself; no review is required. The sequence, every time:
 
 ```
 git fetch origin
@@ -38,11 +38,12 @@ git add <explicit paths of your own files>
 git commit -m "<type>(<lane>): <what> pp. N-M (draft)"      # conventional message, plus the trailers in section 7
 git pull --rebase origin main            # review what arrived; combine both sides; never drop another session's work
 npm run validate && npm test             # clean AFTER the rebase
-git push origin HEAD:main
-git push origin HEAD:<your-branch>       # keep your branch in sync too
+git push origin HEAD:<your-branch>
+gh pr create --base main --head <your-branch> --fill   # once per branch; later pushes update the same pull request
+gh pr merge --merge --delete-branch=false              # merge it yourself when the checks you ran are clean
 ```
 
-If the push is rejected because main moved, repeat. If pushing to `main` is blocked by a policy of your tool, push your branch, say so in your progress file, and carry on: the maintainer will merge. Small commits, at most 25 content entities per batch; one logical change per commit.
+The Validate workflow runs the tests and the build on every pull request; you may merge before it finishes when your local checks passed, since the deploy is manual and never picks an unbuilt commit (section 9). If the merge is rejected because main moved, rebase and push again. Small commits, at most 25 content entities per batch; one logical change per commit.
 
 A push to `main` does not deploy anything (section 9). The checks you run before the push are the gate; CI runs the same checks on pull requests only.
 
