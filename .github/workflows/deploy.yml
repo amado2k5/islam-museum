@@ -57,7 +57,8 @@ jobs:
           url=$(jq -r .url <<<"$run")
           workflow=$(jq -r .workflowName <<<"$run")
           [ "$workflow" = "Build islam.museum" ] || { echo "::error::Run $id is \"$workflow\", not a build run."; exit 1; }
-          [ "$conclusion" = "success" ] || { echo "::error::Build run $id ended with \"$conclusion\", not success."; exit 1; }
+          # A build run is successful only when its tests, its build and the keep-newest job all passed.
+          [ "$conclusion" = "success" ] || { echo "::error::Build run $id ended with \"$conclusion\", not success: its tests or build failed, so it is not deployable."; exit 1; }
           [ "$branch" = "main" ] || { echo "::error::Build run $id built $branch, not main."; exit 1; }
           # The artifact must still exist (retention-days in build.yml).
           gh api "repos/$GH_REPO/actions/runs/$id/artifacts" --jq '.artifacts[] | select(.name == "dist" and .expired == false) | .id' | grep -q . \
