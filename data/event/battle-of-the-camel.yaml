@@ -7,6 +7,19 @@ summary:
 date:
   start: { hijri: "0036", precision: year, status: historical, note: "فهرس الجزء الرابع، ص583–584", sources: [source/tabari-tarikh-abu-al-fadl, source/tarikh-khulafa-minhaj-1434] }
 external_ids: { wikidata: "Q1133574" }
-sources: [source/tabari-tarikh-abu-al-fadl, source/tarikh-khulafa-minhaj-1434, source/muruj-al-dhahab]
+perspectives:
+  - tradition: sunni
+    id: sunni-sallabi
+    summary:
+      ar: "يرى الصلابي، من منظور أهل السنة، أن عائشة وطلحة والزبير خرجوا للإصلاح والطلب بدم عثمان لا لقتال علي، وأن السبئية أشعلوا القتال ليلاً، وأن علياً كان أقرب إلى الحق، مع تضعيف روايات أبي مخنف وسيف وعمر بن شبة في العدد والتفاصيل {cite:sallabi-ali-vol2 p. 33}."
+      en: "al-Sallabi, from a Sunni standpoint, holds that Aisha, Talha and Zubayr went out for reconciliation and for the blood of Uthman, not to fight Ali; that the Sabaites began the fighting at night; and that Ali was nearer to the truth. He grades the narrations of Abu Mikhnaf, Sayf and Ibn Shabba as weak on figures and detail."
+    sources: [source/sallabi-ali-vol2]
+  - tradition: academic
+    id: academic
+    summary:
+      ar: "الرأي الأكاديمي الحديث عن الوقعة لم يُعرض بعد من هذا المجلد؛ يُضاف عند توفر مصدر أكاديمي."
+      en: "The academic view of the battle is not yet set out from this volume; to be added from an academic source."
+    sources: []
+sources: [source/sallabi-ali-vol2, source/tabari-tarikh-abu-al-fadl, source/tarikh-khulafa-minhaj-1434, source/muruj-al-dhahab]
 provenance: { layer: own-research, generated_by: "Claude (Haiku 5.5) from Apple Vision OCR of Tabari, Tarikh al-Rusul wa'l-Muluk (Dar al-Ma'arif), batch 1", sources: [source/tabari-tarikh-abu-al-fadl, source/tarikh-khulafa-minhaj-1434] }
 status: { review: draft, completeness: 1, generated_by: "Claude (Haiku 5.5); cites juz'/page of the scan (printed page = scan page)" }
