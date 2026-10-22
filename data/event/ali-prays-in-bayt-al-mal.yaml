@@ -1,0 +1,32 @@
+id: event/ali-prays-in-bayt-al-mal
+class: event
+kind: other
+label: { ar: "علي يفرّغ بيت المال ويصلي فيه", en: "Ali empties the treasury and prays in it" }
+summary:
+  ar: "جاء ابن النبّاح إلى علي فأخبره أن بيت مال المسلمين امتلأ بالذهب والفضة، فقام علي إليه متوكئاً على ابن النبّاح، وأنشد بيتاً في الذهب، ثم نادى أشياع الكوفة فأعطاهم جميع ما في بيت المال حتى لم يبق منه دينار ولا درهم، ثم أمر بنضحه وصلى فيه ركعتين {cite:sallabi-ali-vol1 p. 206}. وفي رواية أبي نعيم أنه كان يكنس بيت المال ويصلي فيه رجاء أن يشهد له يوم القيامة {cite:sallabi-ali-vol1 p. 206}."
+  en: "Ali was told the treasury of the Muslims was full of gold and silver; he went, leaning on the informant, gave all of it away to the people of Kufa until nothing remained, had the place sprinkled, and prayed two rak'as in it. The book reads the act as detachment from worldly goods."
+wings: [people, ideas]
+periods: [period/rashidun]
+regions: [levant-iraq]
+date:
+  start: { edtf: "0656/0661", calendar: julian, precision: year, status: tradition, derived: true, note: "الكتاب لا يؤرخ هذه الواقعة؛ الإطار (خلافة علي بالكوفة) مشتق؛ ثقة منخفضة." }
+relations:
+  - { type: had_participant, target: person/ali-ibn-abi-talib, role: "المتصدِّق والمصلي", sources: [source/sallabi-ali-vol1] }
+  - { type: occurred_at, target: place/kufa }
+sources: [source/sallabi-ali-vol1]
+issue: { ar: "هل يتخذ الترفع عن المال صورة إفراغ بيت المال، وما دلالة الصلاة فيه؟", en: "Whether emptying the treasury is a sign of detachment, and what the prayer in it means" }
+perspectives:
+  - tradition: sunni
+    id: sunni-book
+    summary:
+      ar: "يعرض الصلابي الخبر بوصفه مثلاً في الترفع عن متاع الدنيا، ويرى أن الصلاة في بيت المال رمز لعلو الآخرة على الدنيا وشهادة له يوم القيامة بالعدل {cite:sallabi-ali-vol1 p. 206-207}."
+      en: "Al-Sallabi reads the act as an example of rising above worldly goods, and the prayer in the treasury as a sign of the Hereafter's precedence over this world {cite:sallabi-ali-vol1 p. 206-207}."
+    sources: [source/sallabi-ali-vol1]
+  - tradition: academic
+    id: academic
+    summary:
+      ar: "لم يُعرض في هذا الجزء رأي أكاديمي في صحة الرواية أو في دلالة إفراغ بيت المال؛ يحتاج إلى مرجع محدد (needs_source)."
+      en: "No academic reading of the report's reliability or meaning is set out in this section; to be added from a named source (needs_source)."
+    sources: []
+provenance: { layer: own-research, source: "sallabi-ali-vol1 pp. 206-207", generated_by: "Claude Code", model: "claude-haiku-5-5", run: "sallabi-ali-vol1-deep-pp201-250" }
+status: { review: draft, completeness: 1, generated_by: "Claude Code (claude-haiku-5-5); mined from sallabi-ali-vol1 pp. 206-207" }

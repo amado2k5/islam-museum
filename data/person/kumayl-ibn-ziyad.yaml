@@ -1,0 +1,13 @@
+id: person/kumayl-ibn-ziyad
+class: person
+label: { ar: "كميل بن زياد النخعي", en: "Kumayl ibn Ziyad al-Nakha'i" }
+summary:
+  ar: "كميل بن زياد النخعي، من أصحاب علي بن أبي طالب الملازمين له. يروي الصلابي في هذا الجزء أن علياً أخذ بيده إلى ناحية الجبّان (الصحراء)، فلما جلس وتنفس قال له: «يا كميل بن زياد، القلوب أوعية فخيرها أوعاها للعلم»، ثم فصّل له وصيته في العلماء وطلاب العلم والرعاع {cite:sallabi-ali-vol1 p. 201}. ولا يذكر هذا الجزء من أخبار كميل شيئاً بعد ذلك، فتبقى سيرته الأخرى خارج هذا النص."
+  en: "Kumayl ibn Ziyad al-Nakha'i, one of Ali's close companions; Ali took him by the hand into the open desert and gave him counsel on knowledge and its people. This section of the book records no other episode of his life."
+wings: [people, words]
+periods: [period/rashidun]
+relations:
+  - { type: participated_in, target: event/ali-counsel-to-kumayl, role: "المخاطَب في الوصية", sources: [source/sallabi-ali-vol1] }
+sources: [source/sallabi-ali-vol1]
+provenance: { layer: own-research, source: "sallabi-ali-vol1 pp. 201-202", generated_by: "Claude Code", model: "claude-haiku-5-5", run: "sallabi-ali-vol1-deep-pp201-250" }
+status: { review: draft, completeness: 1, generated_by: "Claude Code (claude-haiku-5-5); mined from sallabi-ali-vol1 pp. 201-202" }
