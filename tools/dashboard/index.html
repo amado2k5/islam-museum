@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>islam.museum — command center</title>
+<style>
+:root{--bg:#0e1116;--card:#171c24;--ink:#e8e4da;--mut:#8b93a1;--gold:#c9a227;--teal:#4ec9b0;--red:#e06060;--blue:#5b9bd5;--line:#262d38}
+*{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--ink);font:14px/1.5 -apple-system,"SF Pro",system-ui,sans-serif}
+.wrap{max-width:1180px;margin:0 auto;padding:28px 20px 60px}
+h1{font-size:22px;letter-spacing:.02em;margin:0 0 4px}h1 span{color:var(--gold)}
+.sub{color:var(--mut);font-size:12px;margin-bottom:26px}
+h2{font-size:13px;text-transform:uppercase;letter-spacing:.12em;color:var(--mut);margin:34px 0 12px;border-bottom:1px solid var(--line);padding-bottom:6px}
+.grid{display:grid;gap:12px}.g4{grid-template-columns:repeat(auto-fit,minmax(160px,1fr))}.g3{grid-template-columns:repeat(auto-fit,minmax(240px,1fr))}.g2{grid-template-columns:repeat(auto-fit,minmax(340px,1fr))}
+.card{background:var(--card);border:1px solid var(--line);border-radius:10px;padding:14px 16px}
+.big{font-size:30px;font-weight:700;font-variant-numeric:tabular-nums}.lab{color:var(--mut);font-size:12px;margin-top:2px}
+.bar{height:6px;background:var(--line);border-radius:3px;margin-top:8px;overflow:hidden}.bar i{display:block;height:100%;border-radius:3px}
+table{width:100%;border-collapse:collapse;font-size:12.5px}td,th{padding:5px 8px;text-align:left;border-bottom:1px solid var(--line);font-variant-numeric:tabular-nums}
+th{color:var(--mut);font-weight:600;font-size:11px;text-transform:uppercase;letter-spacing:.06em}
+td.num,th.num{text-align:right}
+.mini{height:4px;background:var(--line);border-radius:2px;min-width:60px}.mini i{display:block;height:100%;border-radius:2px;background:var(--teal)}
+.warn{color:var(--red)}.ok{color:var(--teal)}.acc{color:var(--gold)}
+.hist{display:flex;align-items:flex-end;gap:3px;height:110px;padding-top:8px}
+.hist div{flex:1;background:var(--blue);border-radius:2px 2px 0 0;position:relative;min-height:2px}
+.hist div span{position:absolute;bottom:100%;left:0;right:0;text-align:center;font-size:9px;color:var(--mut)}
+.histx{display:flex;gap:3px;font-size:9px;color:var(--mut)}.histx div{flex:1;text-align:center}
+.plan{background:var(--card);border:1px solid var(--line);border-radius:10px;padding:16px 18px;font-size:13px}
+.plan li{margin:6px 0}
+code{background:#0a0d11;padding:1px 6px;border-radius:4px;color:var(--gold)}
+</style></head><body><div class="wrap">
+<h1>islam.museum <span>command center</span></h1>
+<div class="sub">local only · generated 22/10/2026, 12:45:39</div>
+<div id="app"></div>
+<h2>The megaplan — where we are going</h2>
+<div class="plan">
+<p><b>Goal:</b> the whole of Islam — faith, civilization, peoples, places, texts, objects, living culture — as an Arabic-first knowledge graph in git, published as a static museum. The work splits into: <b>(a)</b> prose coverage of what the graph already knows, <b>(b)</b> entity coverage of what the books still hold, <b>(c)</b> new books still to harvest.</p>
+<ol>
+<li><b>Prose backlog (biggest lever):</b> ~13k entities lack Arabic prose — buildings (~5.5k), works (~1.2k), second-tier persons/events (~6k). Buildings: most are Wikidata imports the sources never name — realistic target is the famous subset; works: Kashf al-Zunun + Fihrist lanes; persons/events: tabaqat + tarikh lanes.</li>
+<li><b>Entity backlog:</b> unmined harvest — juz' 2/3/10/11 of Subki; rijal set (Tahdhib al-Kamal, Mizan, Jarh wa'l-Ta'dil, Thiqat Ibn Hibban, al-Tarikh al-Kabir); tarikh set (Tabari, Tarikh Dimashq, Shadharat al-Dhahab); geography set (Mu'jam al-Buldan, Mu'jam ma Ustu'jima); 'alam al-Zirikli for modern-era persons; khitat al-Maqrizi + Azraqi + Wafa' al-Wafa' for buildings/places.</li>
+<li><b>Gaps needing new scans:</b> Tarikh Baghdad vols. 10 (first ~100pp) &amp; 11 waw section; Kashf vol. 2; al-Kamil AH 41-294; Isaba residual.</li>
+<li><b>Translation parity:</b> en/ur prose lags ar on ~300 files; rule is now trilingual-per-commit so the gap only shrinks.</li>
+</ol>
+<p>Suggested prompts this data supports: <code>"continue"</code> (next batch on the active lane), <code>"fill prose for buildings/places"</code>, <code>"open the rijal lane"</code>, <code>"open the works lane (Kashf/Fihrist)"</code>, <code>"list books to scan next"</code>.</p>
+</div>
+</div>
+<script>
+const D = {"generated":"2026-10-22T16:45:39.306Z","totals":{"entities":33746,"ar":20288,"en":20097,"ur":20097,"missingAr":13458,"relations":33389,"sources":241,"wikidata":14315,"entitiesWithSources":33739},"classTable":[{"cls":"passage","ent":9546,"ar":9546,"en":9546,"ur":9546,"missing":0,"pct":100},{"cls":"person","ent":8222,"ar":4596,"en":4583,"ur":4583,"missing":3626,"pct":56},{"cls":"building","ent":5572,"ar":99,"en":99,"ur":99,"missing":5473,"pct":2},{"cls":"event","ent":4270,"ar":1794,"en":1618,"ur":1618,"missing":2476,"pct":42},{"cls":"place","ent":1665,"ar":1649,"en":1649,"ur":1649,"missing":16,"pct":99},{"cls":"work","ent":1452,"ar":290,"en":290,"ur":290,"missing":1162,"pct":20},{"cls":"object","ent":516,"ar":512,"en":512,"ur":512,"missing":4,"pct":99},{"cls":"media","ent":471,"ar":4,"en":4,"ur":4,"missing":467,"pct":1},{"cls":"concept","ent":422,"ar":379,"en":377,"ur":377,"missing":43,"pct":90},{"cls":"group","ent":339,"ar":235,"en":235,"ur":235,"missing":104,"pct":69},{"cls":"screen","ent":315,"ar":315,"en":315,"ur":315,"missing":0,"pct":100},{"cls":"exhibit","ent":301,"ar":301,"en":301,"ur":301,"missing":0,"pct":100},{"cls":"question","ent":220,"ar":220,"en":220,"ur":220,"missing":0,"pct":100},{"cls":"polity","ent":174,"ar":88,"en":88,"ur":88,"missing":86,"pct":51},{"cls":"listing","ent":116,"ar":116,"en":116,"ur":116,"missing":0,"pct":100},{"cls":"practice","ent":52,"ar":51,"en":51,"ur":51,"missing":1,"pct":98},{"cls":"journey","ent":49,"ar":49,"en":49,"ur":49,"missing":0,"pct":100},{"cls":"dataset","ent":16,"ar":16,"en":16,"ur":16,"missing":0,"pct":100},{"cls":"language","ent":15,"ar":15,"en":15,"ur":15,"missing":0,"pct":100},{"cls":"period","ent":13,"ar":13,"en":13,"ur":13,"missing":0,"pct":100}],"prose":{"ar":{"building":99,"concept":379,"dataset":16,"event":1794,"exhibit":301,"group":235,"journey":49,"language":15,"listing":116,"media":4,"object":512,"passage":9546,"period":13,"person":4596,"place":1649,"polity":88,"practice":51,"question":220,"screen":315,"source":173,"work":290},"en":{"building":99,"concept":377,"dataset":16,"event":1618,"exhibit":301,"group":235,"journey":49,"language":15,"listing":116,"media":4,"object":512,"passage":9546,"period":13,"person":4583,"place":1649,"polity":88,"practice":51,"question":220,"screen":315,"source":173,"work":290},"ur":{"building":99,"concept":377,"dataset":16,"event":1618,"exhibit":301,"group":235,"journey":49,"language":15,"listing":116,"media":4,"object":512,"passage":9546,"period":13,"person":4583,"place":1649,"polity":88,"practice":51,"question":220,"screen":315,"source":173,"work":290}},"completeness":{"0":2,"1":28158,"2":5518,"3":49,"4":0,"5":0,"none":19},"centuryHist":{"1":{"event":475,"journey":18,"period":4,"person":132,"work":16},"2":{"event":94,"period":2,"person":132,"polity":3,"work":1},"3":{"event":159,"person":189,"polity":4},"4":{"event":136,"period":2,"person":281,"polity":11,"work":1},"5":{"event":113,"person":337,"polity":14},"6":{"event":176,"journey":18,"period":1,"person":494,"polity":8,"work":1},"7":{"event":225,"person":537,"polity":9,"work":1},"8":{"event":21,"journey":1,"person":140,"polity":5},"9":{"event":63,"person":274},"10":{"event":43,"person":184,"polity":1},"11":{"event":3,"person":25},"12":{"event":5,"person":35},"13":{"event":4,"person":49,"polity":1},"14":{"event":3,"person":73},"15":{"person":16}},"predicates":[["part_of",9691],["mentions",9463],["had_participant",3745],["basis_for",3692],["occurred_at",1219],["participated_in",1066],["member_of",643],["features",518],["died_in",340],["child_of",337],["related_to",187],["lived_in",160],["sibling_of",157],["student_of",154],["located_in",146],["authored",145],["revealed_about",126],["spouse_of",125],["directed_by",117],["written_by",110],["born_in",107],["ruler_of",102],["set_in",91],["about",68],["site_of",67]],"stubLanes":[{"file":"README","stubs":0},{"file":"culture-index","stubs":0},{"file":"devin-batch25a","stubs":0},{"file":"devin-people","stubs":0},{"file":"ibn-hisham","stubs":0},{"file":"isaba","stubs":0},{"file":"izz","stubs":0},{"file":"lib-ansab","stubs":0},{"file":"lib-futuh-buldan","stubs":0},{"file":"lib-ibar","stubs":0},{"file":"lib-jami-ulum-hikam","stubs":0},{"file":"lib-kamil-v2","stubs":0},{"file":"lib-kashf-zunun","stubs":0},{"file":"lib-mawsuat-a3lam","stubs":0},{"file":"lib-muntazam","stubs":0},{"file":"lib-nisa-hawl-rasul","stubs":0},{"file":"lib-shadharat-dhahab","stubs":0},{"file":"lib-wafayat-ayan","stubs":0},{"file":"muwatta-prose","stubs":0},{"file":"quran-mentions","stubs":0},{"file":"raheeq","stubs":0},{"file":"screen-index","stubs":0},{"file":"tahawiyya","stubs":0},{"file":"wikidata-import","stubs":0},{"file":"wikidata-polities","stubs":0}],"lanes":["ansab-al-ashraf","aqida-tahawiyya","fihrist-ibn-nadim","futuh-buldan","heresiography-polemics","jami-ulum-hikam","kamil-ibn-al-athir","kashf-zunun","lumat-al-itiqad","lumat-itiqad","madkhal-mazhab-ahmad","maqalat-islamiyyin","mawsuat-a3lam-ulama-adaba","medicine-science","modern-muslim-writers","muntazam-ibn-al-jawzi","muqaddima-ibn-khaldun","muruj-dhahab","nafh-tib-maqqari","nisa-hawl-rasul","poetry-adab","qiraat-grammar","qisas-prophets","regional-histories-travel","sahih-muslim","shadharat-dhahab","sharh-tahawiyya","siyasa-hisba","sufism","tabaqat-fuqaha","tabaqat-ibn-saad","tabaqat-shafiiyya-subki","tarikh-baghdad","tarikh-ibn-khaldun-ibar","tarikh-khulafa","usul-fiqh-depth","wafayat-ayan"],"harvest":{"available":true,"categories":[{"cat":"adab-zuhd","books":5,"scans":14,"ocrdScans":14,"noOcr":0},{"cat":"aqeedah","books":16,"scans":61,"ocrdScans":60,"noOcr":0},{"cat":"colocr","books":9,"scans":0,"ocrdScans":0,"noOcr":9},{"cat":"extra-architecture","books":36,"scans":55,"ocrdScans":55,"noOcr":0},{"cat":"extra-calligraphy","books":33,"scans":43,"ocrdScans":43,"noOcr":0},{"cat":"extra-crafts","books":8,"scans":8,"ocrdScans":8,"noOcr":0},{"cat":"extra-gardens_cities","books":1,"scans":1,"ocrdScans":1,"noOcr":0},{"cat":"extra-geometry_ornament","books":1,"scans":1,"ocrdScans":1,"noOcr":0},{"cat":"extra-numismatics_science","books":13,"scans":13,"ocrdScans":13,"noOcr":0},{"cat":"extra-painting_manuscripts","books":19,"scans":19,"ocrdScans":19,"noOcr":0},{"cat":"fiqh","books":16,"scans":48,"ocrdScans":47,"noOcr":1},{"cat":"geography","books":17,"scans":33,"ocrdScans":30,"noOcr":1},{"cat":"hadith","books":41,"scans":158,"ocrdScans":158,"noOcr":0},{"cat":"hadith-sciences","books":5,"scans":16,"ocrdScans":16,"noOcr":0},{"cat":"lugha","books":6,"scans":17,"ocrdScans":17,"noOcr":0},{"cat":"medicine-science","books":10,"scans":10,"ocrdScans":10,"noOcr":0},{"cat":"modern","books":3,"scans":3,"ocrdScans":3,"noOcr":0},{"cat":"mostafa-mahmoud","books":15,"scans":36,"ocrdScans":36,"noOcr":0},{"cat":"quran-sciences","books":6,"scans":17,"ocrdScans":17,"noOcr":0},{"cat":"rijal","books":8,"scans":35,"ocrdScans":28,"noOcr":1},{"cat":"sahaba","books":13,"scans":56,"ocrdScans":56,"noOcr":0},{"cat":"sahabiyat","books":4,"scans":14,"ocrdScans":14,"noOcr":0},{"cat":"seerah","books":20,"scans":64,"ocrdScans":64,"noOcr":0},{"cat":"shamail","books":2,"scans":8,"ocrdScans":8,"noOcr":0},{"cat":"sunnah-aqeedah","books":5,"scans":14,"ocrdScans":14,"noOcr":0},{"cat":"tabaqat","books":5,"scans":21,"ocrdScans":20,"noOcr":0},{"cat":"tafsir","books":33,"scans":87,"ocrdScans":87,"noOcr":0},{"cat":"tareekh","books":22,"scans":92,"ocrdScans":91,"noOcr":0},{"cat":"travel","books":2,"scans":2,"ocrdScans":2,"noOcr":0},{"cat":"unidentified","books":1,"scans":1,"ocrdScans":1,"noOcr":0},{"cat":"usul","books":1,"scans":1,"ocrdScans":1,"noOcr":0}],"totalBooks":376,"totalScans":948,"totalOcrd":934},"pipeline":{"available":true,"candidates":170,"candidatesByTopic":{"architecture":62,"calligraphy":48,"geometry_ornament":1,"crafts":11,"painting_manuscripts":25,"numismatics_science":22,"gardens_cities":1},"downloadQueue":{"total":111,"done":111,"pending":0},"downloadedPdfs":1112,"ocrQueue":{"total":37,"pending":0},"extractionQueue":6,"sourceRecords":241,"harvestedBooks":376,"harvestedScans":934,"notYetHarvested":1112,"awaitingOcrBooks":178},"wdByClass":{"building":5521,"concept":58,"dataset":0,"event":2462,"exhibit":0,"group":138,"journey":0,"language":15,"listing":74,"media":0,"object":67,"passage":0,"period":0,"person":4198,"place":80,"polity":136,"practice":20,"question":0,"screen":308,"work":1238},"wikidataLane":{"candidates":82296,"processed":82296,"created":2233,"linked":731,"skipped":79472,"createdByClass":{"person":2004,"building":191,"group":28,"polity":3,"concept":5,"practice":1,"place":1},"skipTop":[["modern mosque list item",72503],["modern / post-1800 / out-of-scope / deferred",4877],["thin, deferred",40],["deferred — batch cap",39],["no confirmed source",188],["create-failed: file exists",71]]}};
+const fmt = n => n.toLocaleString('en-US');
+const card = (v,l,c)=>'<div class="card"><div class="big" style="color:'+(c||'var(--ink)')+'">'+fmt(v)+'</div><div class="lab">'+l+'</div></div>';
+const bar = (pct,c)=>'<div class="bar"><i style="width:'+pct+'%;background:'+c+'"></i></div>';
+let h = '<div class="grid g4">'
+ + card(D.totals.entities,'entities')
+ + card(D.totals.relations,'relation edges')
+ + card(D.totals.ar,'Arabic prose files','var(--teal)')
+ + card(D.totals.missingAr,'entities with NO ar prose','var(--red)')
+ + card(D.totals.en,'English prose','var(--blue)')
+ + card(D.totals.ur,'Urdu prose','var(--blue)')
+ + card(D.totals.sources,'source records','var(--gold)')
+ + card(D.totals.wikidata,'entities with wikidata id')
+ + '</div>';
+
+h += '<h2>Prose coverage by class (Arabic-first)</h2><div class="card"><table><tr><th>class</th><th class="num">entities</th><th class="num">ar prose</th><th class="num">en</th><th class="num">ur</th><th class="num">missing ar</th><th style="width:30%">coverage</th></tr>';
+for (const r of D.classTable) {
+  const pc = r.pct;
+  const c = pc>80?'var(--teal)':pc>40?'var(--gold)':'var(--red)';
+  h += '<tr><td><b>'+r.cls+'</b></td><td class="num">'+fmt(r.ent)+'</td><td class="num">'+fmt(r.ar)+'</td><td class="num">'+fmt(r.en)+'</td><td class="num">'+fmt(r.ur)+'</td><td class="num warn">'+fmt(r.missing)+'</td><td><div class="mini"><i style="width:'+pc+'%;background:'+c+'"></i></div></td><td class="num">'+pc+'%</td></tr>';
+}
+h += '</table></div>';
+
+h += '<h2>What is left to write (top gaps, Arabic)</h2><div class="card"><table><tr><th>class</th><th class="num">missing</th><th style="width:50%">share of gap</th></tr>';
+const gaps = D.classTable.filter(r=>r.missing>0).sort((a,b)=>b.missing-a.missing).slice(0,12);
+const maxG = gaps[0]?.missing||1;
+for (const r of gaps) h += '<tr><td>'+r.cls+'</td><td class="num warn">'+fmt(r.missing)+'</td><td><div class="mini"><i style="width:'+Math.round(r.missing/maxG*100)+'%;background:var(--red)"></i></div></td></tr>';
+h += '</table></div>';
+
+h += '<h2>Book pipeline — candidates → canon</h2>';
+if (!D.pipeline.available) h += '<div class="card warn">harvest drive not mounted — pipeline unknown</div>';
+else {
+  const P = D.pipeline;
+  h += '<div class="grid g4" style="margin-bottom:12px">'
+    + card(P.candidates,'candidates identified (archive.org)','var(--mut)')
+    + card(P.downloadedPdfs,'PDFs downloaded','var(--blue)')
+    + card(P.harvestedBooks,'books OCRd into harvest/books','var(--teal)')
+    + card(P.sourceRecords,'source records in canon (git)','var(--gold)')
+    + '</div>';
+  // funnel
+  const stages = [
+    ['candidates identified', P.candidates],
+    ['download queue — pending', P.downloadQueue?.pending ?? 0],
+    ['download queue — done', P.downloadQueue?.done ?? 0],
+    ['PDFs on disk (raw/library)', P.downloadedPdfs],
+    ['OCR queue — pending', P.ocrQueue?.pending ?? 0],
+    ['OCR queue — done', (P.ocrQueue?.total ?? 0) - (P.ocrQueue?.pending ?? 0)],
+    ['books OCRd (harvest/books)', P.harvestedBooks],
+    ['scan volumes OCRd', P.harvestedScans],
+    ['source records in canon', P.sourceRecords],
+  ];
+  const smax = Math.max(...stages.map(s=>s[1]),1);
+  h += '<div class="card"><div class="lab" style="margin-bottom:8px">the funnel — where every book stands'+(P.extractionQueue!=null?' · extraction queue (mining backlog): <b>'+P.extractionQueue+'</b> books':'')+'</div><table>';
+  for (const [n,v] of stages) h+='<tr><td>'+n+'</td><td class="num">'+fmt(v)+'</td><td><div class="mini"><i style="width:'+Math.round(v/smax*100)+'%;background:var(--gold)"></i></div></td></tr>';
+  h += '</table>';
+  if (P.candidatesByTopic && Object.keys(P.candidatesByTopic).length) {
+    h += '<div class="lab" style="margin:10px 0 6px">candidates by topic</div><table>';
+    const tmax = Math.max(...Object.values(P.candidatesByTopic));
+    for (const [t,n] of Object.entries(P.candidatesByTopic).sort((a,b)=>b[1]-a[1])) h+='<tr><td>'+t+'</td><td class="num">'+n+'</td><td><div class="mini"><i style="width:'+Math.round(n/tmax*100)+'%;background:var(--blue)"></i></div></td></tr>';
+    h += '</table>';
+  }
+  h += '</div>';
+}
+
+h += '<h2>Harvest drive — books &amp; OCR</h2>';
+if (!D.harvest.available) h += '<div class="card warn">harvest drive not mounted</div>';
+else {
+  h += '<div class="grid g4" style="margin-bottom:12px">'+card(D.harvest.totalBooks,'book folders')+card(D.harvest.totalScans,'scan volumes')+card(D.harvest.totalOcrd,'OCRed scans','var(--teal)')+card(D.harvest.categories.reduce((a,c)=>a+c.noOcr,0),'books with no OCR','var(--red)')+'</div>';
+  h += '<div class="card"><table><tr><th>category</th><th class="num">books</th><th class="num">scan vols</th><th class="num">OCRed</th><th class="num">no OCR</th><th style="width:30%">OCR coverage</th></tr>';
+  for (const c of D.harvest.categories.filter(c=>c.books>0).sort((a,b)=>b.books-a.books)) {
+    const p = c.scans?Math.round(c.ocrdScans/c.scans*100):0;
+    h += '<tr><td>'+c.cat+'</td><td class="num">'+c.books+'</td><td class="num">'+c.scans+'</td><td class="num">'+c.ocrdScans+'</td><td class="num warn">'+c.noOcr+'</td><td><div class="mini"><i style="width:'+p+'%"></i></div></td><td class="num">'+p+'%</td></tr>';
+  }
+  h += '</table></div>';
+}
+
+h += '<h2>Graph depth</h2><div class="grid g2"><div class="card"><div class="lab" style="margin-bottom:8px">completeness levels (entity record depth)</div><table>';
+const cnames = {0:'0 — id only',1:'1 — minimal',2:'2 — basic',3:'3 — good',4:'4 — rich',5:'5 — exhaustive',none:'unset'};
+const cmax = Math.max(...Object.values(D.completeness));
+for (const k of ['none','0','1','2','3','4','5']) if(D.completeness[k]) h+='<tr><td>'+cnames[k]+'</td><td class="num">'+fmt(D.completeness[k])+'</td><td><div class="mini"><i style="width:'+Math.round(D.completeness[k]/cmax*100)+'%;background:var(--gold)"></i></div></td></tr>';
+h += '</table></div><div class="card"><div class="lab" style="margin-bottom:8px">top relation predicates</div><table>';
+const pmax = D.predicates[0]?.[1]||1;
+for (const [p,n] of D.predicates.slice(0,15)) h+='<tr><td>'+p+'</td><td class="num">'+fmt(n)+'</td><td><div class="mini"><i style="width:'+Math.round(n/pmax*100)+'%;background:var(--blue)"></i></div></td></tr>';
+h += '</table></div></div>';
+
+// century histogram (persons/events only)
+h += '<h2>Hijri-century density (dated facts in person/event records)</h2><div class="card">';
+const cents = [];
+for (let c=1;c<=15;c++){ const v=D.centuryHist[c]||{}; cents.push((v.person||0)+(v.event||0)); }
+const cmax2 = Math.max(...cents,1);
+h += '<div class="hist">';
+cents.forEach((n,i)=>{ h+='<div style="height:'+Math.max(2,Math.round(n/cmax2*100))+'%" title="'+(i+1)+'c AH: '+fmt(n)+'"><span>'+(n?'':i+1)+'</span></div>'; });
+h += '</div><div class="histx">'+cents.map((n,i)=>'<div>'+(i+1)+'</div>').join('')+'</div>';
+h += '<div class="lab" style="margin-top:6px">counts of hijri fields per century (1–15 AH)</div></div>';
+
+h += '<h2>Wikidata — done, remaining, next</h2><div class="grid g2">'
+ + '<div class="card"><div class="lab" style="margin-bottom:8px">the import lane (P140=Islam, finished 20 Oct)</div><table>'
+ + '<tr><td>candidates frozen</td><td class="num">'+fmt(D.wikidataLane.candidates)+'</td></tr>'
+ + '<tr><td>processed (lane exhausted)</td><td class="num ok">'+fmt(D.wikidataLane.processed)+'</td></tr>'
+ + '<tr><td>new records created</td><td class="num ok">'+fmt(D.wikidataLane.created)+'</td></tr>'
+ + '<tr><td>existing records linked</td><td class="num">'+fmt(D.wikidataLane.linked)+'</td></tr>'
+ + '<tr><td>skipped</td><td class="num warn">'+fmt(D.wikidataLane.skipped)+'</td></tr></table>'
+ + '<div class="lab" style="margin:10px 0 6px">created by class · top skip reasons</div><table>';
+for (const [k,v] of Object.entries(D.wikidataLane.createdByClass)) h+='<tr><td>'+k+'</td><td class="num">'+fmt(v)+'</td></tr>';
+h += '<tr><td colspan="2">&nbsp;</td></tr>';
+for (const [k,v] of D.wikidataLane.skipTop) h+='<tr><td>'+k+'</td><td class="num warn">'+fmt(v)+'</td></tr>';
+h += '</table></div><div class="card"><div class="lab" style="margin-bottom:8px">wikidata-linked entities per class (live)</div><table>';
+const wdmax = Math.max(...Object.values(D.wdByClass));
+for (const r of D.classTable) {
+  const w = D.wdByClass[r.cls]||0; if(!w) continue;
+  h+='<tr><td>'+r.cls+'</td><td class="num">'+fmt(w)+' / '+fmt(r.ent)+'</td><td><div class="mini"><i style="width:'+Math.round(w/wdmax*100)+'%;background:var(--blue)"></i></div></td><td class="num">'+Math.round(w/r.ent*100)+'%</td></tr>';
+}
+h += '</table><div class="lab" style="margin-top:8px">next: ~5k deferred/thin items revisited case-by-case · 71 file-exists collisions to reconcile · non-P140 waves (events, battles) live in the candidates TSVs.</div></div></div>';
+
+h += '<h2>Lanes &amp; stubs</h2><div class="grid g2"><div class="card"><div class="lab" style="margin-bottom:8px">stub files (placeholder entities awaiting real records)</div><table>';
+for (const s of D.stubLanes.slice(0,20)) h+='<tr><td>'+s.file+'</td><td class="num warn">'+fmt(s.stubs)+'</td></tr>';
+h += '</table></div><div class="card"><div class="lab" style="margin-bottom:8px">library lanes ('+D.lanes.length+')</div><table>';
+for (const l of D.lanes) h+='<tr><td>'+l+'</td></tr>';
+h += '</table></div></div>';
+
+document.getElementById('app').innerHTML = h;
+</script></body></html>

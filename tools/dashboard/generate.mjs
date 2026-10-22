@@ -49,6 +49,16 @@ for (const cls of list(join(ROOT, 'data'))) {
   classes[cls] = n;
 }
 
+// per-class wikidata linkage
+const wdByClass = {};
+for (const cls of Object.keys(classes)) {
+  let w = 0;
+  for (const f of list(join(ROOT, 'data', cls))) {
+    if (f.endsWith('.yaml') && readFileSync(join(ROOT, 'data', cls, f), 'utf8').includes('wikidata:')) w++;
+  }
+  wdByClass[cls] = w;
+}
+
 /* ---------- prose ---------- */
 const prose = {}; // prose[lang][cls] = count
 const proseFiles = {}; // proseFiles[lang][cls] = Set of slugs
@@ -109,6 +119,60 @@ if (harvest.available) {
   }
 }
 
+/* ---------- book pipeline (harvest → canon) ---------- */
+const HROOT = '/Volumes/exmicroSD/islam-museum-harvest';
+const pipeline = { available: existsSync(HROOT) };
+if (pipeline.available) {
+  const rd = (p) => { try { return readFileSync(p, 'utf8'); } catch { return null; } };
+  // candidates.json: archive.org book candidates identified for download
+  try {
+    const cands = JSON.parse(rd(join(HROOT, 'library/candidates.json')) ?? '[]');
+    pipeline.candidates = cands.length;
+    pipeline.candidatesByTopic = {};
+    for (const c of cands) pipeline.candidatesByTopic[c.topic ?? '?'] = (pipeline.candidatesByTopic[c.topic ?? '?'] ?? 0) + 1;
+  } catch { pipeline.candidates = 0; pipeline.candidatesByTopic = {}; }
+  // download lists: URL + target path lines; pending = target missing
+  let dlTotal = 0, dlDone = 0;
+  for (const f of ['download_list.tsv', 'download_list2.tsv']) {
+    const t = rd(join(HROOT, 'library', f));
+    if (!t) continue;
+    for (const line of t.split('\n')) {
+      if (!line.trim() || !line.includes('\t')) continue;
+      dlTotal++;
+      const target = line.split('\t').pop().trim().replace('/Users/ahmedabdelaal/islam-museum-harvest', HROOT);
+      if (existsSync(target)) dlDone++;
+    }
+  }
+  pipeline.downloadQueue = { total: dlTotal, done: dlDone, pending: dlTotal - dlDone };
+  // raw/library PDFs = downloaded, awaiting OCR
+  let rawPdfs = 0;
+  const countPdf = (dir) => { for (const e of list(dir)) { const p = join(dir, e); if (isDir(p)) countPdf(p); else if (e.toLowerCase().endsWith('.pdf')) rawPdfs++; } };
+  try { countPdf(join(HROOT, 'raw/library')); } catch {}
+  pipeline.downloadedPdfs = rawPdfs;
+  // OCR queue: books queued for OCR → pending if no book.txt under books/<cat>/<book>
+  let oqTotal = 0, oqPending = 0;
+  const oq = rd(join(HROOT, 'library/queue.txt'));
+  if (oq) for (const line of oq.split('\n')) {
+    const l = line.trim();
+    if (!l || l.startsWith('#') || !l.endsWith('.pdf')) continue;
+    oqTotal++;
+    const bookDir = join(HROOT, 'books', l.replace(/\/[^/]+\.pdf$/, ''));
+    let done = false;
+    for (const s of list(bookDir)) if (isDir(join(bookDir, s)) && existsSync(join(bookDir, s, 'book.txt'))) done = true;
+    if (!done) oqPending++;
+  }
+  pipeline.ocrQueue = { total: oqTotal, pending: oqPending };
+  // extraction queue (mining backlog)
+  const eq = rd(join(HROOT, 'library/extraction-queue.md'));
+  pipeline.extractionQueue = eq ? (eq.match(/^\d+\./gm) ?? []).length : null;
+}
+// canon = source records in git; harvested = books/ dirs (computed above)
+pipeline.sourceRecords = sourceCount;
+pipeline.harvestedBooks = harvest.categories.reduce((a, c) => a + c.books, 0);
+pipeline.harvestedScans = harvest.categories.reduce((a, c) => a + c.ocrdScans, 0);
+pipeline.notYetHarvested = (pipeline.downloadedPdfs ?? 0) - 0; // downloaded but not OCR'd books estimated below
+pipeline.awaitingOcrBooks = Math.max(0, (pipeline.downloadedPdfs ?? 0) - pipeline.harvestedScans);
+
 /* ---------- derived ---------- */
 const totalEntities = Object.values(classes).reduce((a, b) => a + b, 0);
 const totalAr = classTable.reduce((a, r) => a + r.ar, 0);
@@ -126,6 +190,12 @@ const DATA = {
   predicates: Object.entries(predicateCounts).sort((a, b) => b[1] - a[1]).slice(0, 25),
   stubLanes, lanes,
   harvest: { available: harvest.available, categories: harvest.categories, totalBooks, totalScans, totalOcrd },
+  pipeline, wdByClass,
+  wikidataLane: {
+    candidates: 82296, processed: 82296, created: 2233, linked: 731, skipped: 79472,
+    createdByClass: { person: 2004, building: 191, group: 28, polity: 3, concept: 5, practice: 1, place: 1 },
+    skipTop: [['modern mosque list item', 72503], ['modern / post-1800 / out-of-scope / deferred', 4877], ['thin, deferred', 40], ['deferred — batch cap', 39], ['no confirmed source', 188], ['create-failed: file exists', 71]],
+  },
 };
 
 /* ---------- html ---------- */
@@ -201,6 +271,41 @@ const maxG = gaps[0]?.missing||1;
 for (const r of gaps) h += '<tr><td>'+r.cls+'</td><td class="num warn">'+fmt(r.missing)+'</td><td><div class="mini"><i style="width:'+Math.round(r.missing/maxG*100)+'%;background:var(--red)"></i></div></td></tr>';
 h += '</table></div>';
 
+h += '<h2>Book pipeline — candidates → canon</h2>';
+if (!D.pipeline.available) h += '<div class="card warn">harvest drive not mounted — pipeline unknown</div>';
+else {
+  const P = D.pipeline;
+  h += '<div class="grid g4" style="margin-bottom:12px">'
+    + card(P.candidates,'candidates identified (archive.org)','var(--mut)')
+    + card(P.downloadedPdfs,'PDFs downloaded','var(--blue)')
+    + card(P.harvestedBooks,'books OCRd into harvest/books','var(--teal)')
+    + card(P.sourceRecords,'source records in canon (git)','var(--gold)')
+    + '</div>';
+  // funnel
+  const stages = [
+    ['candidates identified', P.candidates],
+    ['download queue — pending', P.downloadQueue?.pending ?? 0],
+    ['download queue — done', P.downloadQueue?.done ?? 0],
+    ['PDFs on disk (raw/library)', P.downloadedPdfs],
+    ['OCR queue — pending', P.ocrQueue?.pending ?? 0],
+    ['OCR queue — done', (P.ocrQueue?.total ?? 0) - (P.ocrQueue?.pending ?? 0)],
+    ['books OCRd (harvest/books)', P.harvestedBooks],
+    ['scan volumes OCRd', P.harvestedScans],
+    ['source records in canon', P.sourceRecords],
+  ];
+  const smax = Math.max(...stages.map(s=>s[1]),1);
+  h += '<div class="card"><div class="lab" style="margin-bottom:8px">the funnel — where every book stands'+(P.extractionQueue!=null?' · extraction queue (mining backlog): <b>'+P.extractionQueue+'</b> books':'')+'</div><table>';
+  for (const [n,v] of stages) h+='<tr><td>'+n+'</td><td class="num">'+fmt(v)+'</td><td><div class="mini"><i style="width:'+Math.round(v/smax*100)+'%;background:var(--gold)"></i></div></td></tr>';
+  h += '</table>';
+  if (P.candidatesByTopic && Object.keys(P.candidatesByTopic).length) {
+    h += '<div class="lab" style="margin:10px 0 6px">candidates by topic</div><table>';
+    const tmax = Math.max(...Object.values(P.candidatesByTopic));
+    for (const [t,n] of Object.entries(P.candidatesByTopic).sort((a,b)=>b[1]-a[1])) h+='<tr><td>'+t+'</td><td class="num">'+n+'</td><td><div class="mini"><i style="width:'+Math.round(n/tmax*100)+'%;background:var(--blue)"></i></div></td></tr>';
+    h += '</table>';
+  }
+  h += '</div>';
+}
+
 h += '<h2>Harvest drive — books &amp; OCR</h2>';
 if (!D.harvest.available) h += '<div class="card warn">harvest drive not mounted</div>';
 else {
@@ -231,6 +336,25 @@ h += '<div class="hist">';
 cents.forEach((n,i)=>{ h+='<div style="height:'+Math.max(2,Math.round(n/cmax2*100))+'%" title="'+(i+1)+'c AH: '+fmt(n)+'"><span>'+(n?'':i+1)+'</span></div>'; });
 h += '</div><div class="histx">'+cents.map((n,i)=>'<div>'+(i+1)+'</div>').join('')+'</div>';
 h += '<div class="lab" style="margin-top:6px">counts of hijri fields per century (1–15 AH)</div></div>';
+
+h += '<h2>Wikidata — done, remaining, next</h2><div class="grid g2">'
+ + '<div class="card"><div class="lab" style="margin-bottom:8px">the import lane (P140=Islam, finished 20 Oct)</div><table>'
+ + '<tr><td>candidates frozen</td><td class="num">'+fmt(D.wikidataLane.candidates)+'</td></tr>'
+ + '<tr><td>processed (lane exhausted)</td><td class="num ok">'+fmt(D.wikidataLane.processed)+'</td></tr>'
+ + '<tr><td>new records created</td><td class="num ok">'+fmt(D.wikidataLane.created)+'</td></tr>'
+ + '<tr><td>existing records linked</td><td class="num">'+fmt(D.wikidataLane.linked)+'</td></tr>'
+ + '<tr><td>skipped</td><td class="num warn">'+fmt(D.wikidataLane.skipped)+'</td></tr></table>'
+ + '<div class="lab" style="margin:10px 0 6px">created by class · top skip reasons</div><table>';
+for (const [k,v] of Object.entries(D.wikidataLane.createdByClass)) h+='<tr><td>'+k+'</td><td class="num">'+fmt(v)+'</td></tr>';
+h += '<tr><td colspan="2">&nbsp;</td></tr>';
+for (const [k,v] of D.wikidataLane.skipTop) h+='<tr><td>'+k+'</td><td class="num warn">'+fmt(v)+'</td></tr>';
+h += '</table></div><div class="card"><div class="lab" style="margin-bottom:8px">wikidata-linked entities per class (live)</div><table>';
+const wdmax = Math.max(...Object.values(D.wdByClass));
+for (const r of D.classTable) {
+  const w = D.wdByClass[r.cls]||0; if(!w) continue;
+  h+='<tr><td>'+r.cls+'</td><td class="num">'+fmt(w)+' / '+fmt(r.ent)+'</td><td><div class="mini"><i style="width:'+Math.round(w/wdmax*100)+'%;background:var(--blue)"></i></div></td><td class="num">'+Math.round(w/r.ent*100)+'%</td></tr>';
+}
+h += '</table><div class="lab" style="margin-top:8px">next: ~5k deferred/thin items revisited case-by-case · 71 file-exists collisions to reconcile · non-P140 waves (events, battles) live in the candidates TSVs.</div></div></div>';
 
 h += '<h2>Lanes &amp; stubs</h2><div class="grid g2"><div class="card"><div class="lab" style="margin-bottom:8px">stub files (placeholder entities awaiting real records)</div><table>';
 for (const s of D.stubLanes.slice(0,20)) h+='<tr><td>'+s.file+'</td><td class="num warn">'+fmt(s.stubs)+'</td></tr>';
