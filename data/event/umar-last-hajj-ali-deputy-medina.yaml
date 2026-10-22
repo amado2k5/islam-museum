@@ -1,0 +1,20 @@
+id: event/umar-last-hajj-ali-deputy-medina
+class: event
+kind: other
+label: { en: "Umar's last pilgrimage and Ali left as deputy in Medina", ar: "آخر حج لعمر واستخلاف علي على المدينة" }
+summary:
+  en: "The last pilgrimage Umar led in 23 AH, taking the Prophet's wives with their guardians who did not cover from him; Ali ibn Abi Talib was left as deputy over Medina. The book also records Umar appointing Ali as his deputy in Medina during the campaign of Ajnadayn and Jabiya."
+  ar: "آخر حجة حجها عمر بالناس سنة 23هـ، ومعه أمهات المؤمنين وأولياؤهن ممن لا يحتجبن منه، واستخلف علي بن أبي طالب على المدينة. ويذكر الكتاب أيضاً استخلاف عمر لعلي على المدينة حين نزل بالجابية بعد أجنادين."
+wings: [people, place]
+themes: [pilgrimages-and-mass-gatherings, politics-governance-and-authority]
+periods: [period/rashidun]
+regions: [arabia]
+date:
+  start: { edtf: "0644", hijri: "0023", calendar: julian, precision: year, status: tradition, note: "سنة 23هـ منصوص عليها في الكتاب (ص 146)؛ شهر الحج غير مذكور في هذا الموضع." }
+relations:
+  - { type: had_participant, target: person/umar-ibn-al-khattab, role: "حج بالناس", sources: [source/sallabi-ali-vol1] }
+  - { type: had_participant, target: person/ali-ibn-abi-talib, role: "استخلفه عمر على المدينة", sources: [source/sallabi-ali-vol1] }
+  - { type: occurred_at, target: place/mecca }
+sources: [source/sallabi-ali-vol1]
+status: { review: draft, completeness: 1, generated_by: "Claude Code (claude-haiku-5-5); mined from sallabi-ali-vol1 p. 146" }
+provenance: { layer: own-research, source: "sallabi-ali-vol1 p. 146", generated_by: "Claude Code", model: "claude-haiku-5-5", run: "sallabi-ali-vol1-deep-pp111-150" }
