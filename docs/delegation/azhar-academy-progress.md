@@ -14,7 +14,21 @@ Lane document: `docs/agents/lanes/azhar-academy.md`. Approved by the founder in 
 2. Batch 2 started: source entity `source/azhar-quran-building-society-shaltut` written (Shaltut, Academy 2018, 216 pages, three chapters). Claims not yet extracted from the text.
 3. Batch 3: `الإسلام عقيدة وشريعة`.
 
+## Batch: نشأة الفقه الاجتهادي وأطواره (al-Sayis)
+
+- Source entity `source/nashat-al-fiqh-al-ijtihadi-azhar` (116 pp., Academy Scientific Series, supervision of the Secretary-General). Printed page = PDF page minus 9 (checked on p52/43, p68/59, p113/104, and the table of contents). Entities cite printed pages.
+- New entities: `person/muhammad-ali-al-sayis`, `concept/ijtihad`. Edited: `concept/fiqh`, `group/hanafi-madhhab`, `group/maliki-madhhab`, `group/shafii-madhhab`, `group/hanbali-madhhab`, `event/mission-of-muadh-to-yemen`. Each edit adds the book as a source and one cited sentence.
+- Claims table (outside git): `claims/azhar-academy/nashat-al-fiqh-al-ijtihadi-azhar.tsv`, 32 claims.
+- Whole book read (PDF pp. 1-117). Not yet done: person entries for the Companions named in the Rashidun section (Abu Bakr, Umar, Ali, Ibn Mas'ud, Ibn Abbas, Zayd ibn Thabit) as edits; a `perspectives` entity for the triple-divorce ruling and the post-ijtihad closure of ijtihad, both contested.
+- Not regenerated: `docs/coverage.md` (not in this batch's scope per the brief; the next entity-changing commit regenerates it).
+
 ## Doubts
+
+- The book's view that ijtihad ended with al-Tabari (d. 310 AH) is the author's judgement; any entity that uses it needs a `perspectives` block.
+- The printed year of publication is not visible; the card gives deposit 2017/27369 only. The author's death year (1396 AH / 1976 CE) is from the cover only and is flagged needs_source.
+- Quotations from the hadith of Mu'adh and the Umar letter are as the author prints them; grades were not checked.
+
+## Doubts (earlier batch)
 
 - Cover page OCR is garbled on the author line; the title page names Ahmad Muhammad Awf. Check the page image before quoting the cover.
 - ISBN not transcribed (OCR unclear); cataloguing card gives deposit 2017/27567.
