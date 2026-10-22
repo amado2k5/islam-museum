@@ -18,5 +18,25 @@ relations:
   - { type: had_participant, target: person/ali-ibn-abi-talib }
   - { type: part_of, target: period/prophetic-era }
   - { type: caused_by, target: event/hijra }
-sources: [source/ibn-ishaq-guillaume, source/watt-1956-medina, source/lings-1983]
+sources: [source/ibn-ishaq-guillaume, source/watt-1956-medina, source/lings-1983, source/sallabi-ali-vol1]
 status: { review: draft, completeness: 1, generated_by: "Claude Sonnet 5.5; dates follow the cited tradition and are approximate where marked" }
+issue:
+  ar: "ما الذي قدّمه علي مهراً لفاطمة، وهل كانت الدرع التي يذكرها هو المهر؟"
+  en: "What did Ali give Fatima as dower, and was the armour he mentions the dower?"
+perspectives:
+  - tradition: sunni
+    id: sunni-author
+    stance:
+      ar: "الدرع الحطيمة مهراً، قيمتها أربعمائة درهم، بحسب رواية علي"
+      en: "The worn coat of mail as dower, worth four hundred dirhams, according to Ali's own report"
+    summary:
+      ar: "يذكر الصلابي رواية علي عن الخطبة، وأن النبي سأله عن شيء يستحلّ به فاطمة، فذكر الدرع، فقال النبي إنها حطيمة قيمتها أربعمائة درهم، وزوّجه ثم أمره أن يبعث بها ليستحلها (ص 80)."
+    sources: [source/sallabi-ali-vol1]
+  - tradition: other
+    id: shia-sale-narrative
+    stance:
+      ar: "رواية شيعية: علي باع الدرع من عثمان بن عفان ثم أهداها النبي إليه"
+      en: "A Shi'i report: Ali sold the armour to Uthman ibn Affan and the Prophet then gave it back to him as a gift"
+    summary:
+      ar: "ينقل الكتاب عن روايات الشيعة أن علياً باع الدرع من عثمان بأربعمائة درهم، فلما قبض الدراهم قال له عثمان إن الدرع هدية منه إليه، فأقبل بالدرع والدراهم إلى النبي فدعا له بخير، وذكر الكتاب هذه الرواية بوصفها من غير رواية أهل السنة (ص 80 والهامش 342)."
+    sources: [source/sallabi-ali-vol1]
