@@ -60,6 +60,7 @@ Doubts:
 - Two hadiths quoted by the author (PDF pp. 41, 44–45) and the hadith in PDF pp. 82, 83 and 120 carry no source footnote on the page; they need checking in Bukhari or Muslim before reuse.
 - `docs/coverage.md` not regenerated in this batch (brief instruction); run `npm run coverage` at the next check-in.
 
+
 ## Batch: المتون العلمية وأثرها في التربية (al-Mutun al-Ilmiyya, Abd al-Rahman Muhammad Salih)
 
 - Source `source/al-mutun-al-ilmiyya-azhar`: a 1937 al-Azhar thesis (26 May 1937 as dated by the author), published by the Academy in 1446 AH / 2025 CE, 148 pages. Printed page = PDF page for the body (p. 47 = printed 47).
@@ -76,3 +77,14 @@ Doubts:
 - Biographical dates in the footnotes (Sahnun, Malik, Ibn al-Qasim, Ibn Ajurrum, al-Dardir) need a second source before any entity takes them.
 - The author's reading of the hadith against writing (p. 53, footnote) is not used.
 - The Mawlid and contested matters are not in this book's scope; no perspectives block is needed.
+
+## Batch: رحلة الإمام الأكبر إلى إندونيسيا (azhar-rihla-imam-akbar-indonesia-azhar)
+- Source read in full (170 PDF pages, pp. 1-169 with the press list at pp. 158-165; the French and English summary at pp. 166-169 is not used). Edition: Academy Scientific Series, 49th year (1439 AH / 2018 CE), deposit 2017/27759 (catalogue), no ISBN recorded.
+- New entities, all `status.review: draft`: `source/rihla-imam-akbar-indonesia-azhar`, `person/ahmad-al-tayyib`, `polity/indonesia`, `place/jakarta`, `place/malang`, `group/council-of-muslim-elders`, `group/indonesian-ulama-council`, `group/darussalam-gontor`, `group/sharif-hidayatullah-university`, `group/maulana-malik-ibrahim-university`, `journey/grand-imam-visit-indonesia-2016`. Arabic prose: `content/ar/journey/grand-imam-visit-indonesia-2016.md`.
+- Edits (sources only): `place/al-azhar`, `place/java`.
+- Claims table outside git: `/Volumes/exmicroSD/islam-museum-harvest/claims/azhar-academy/rihla-imam-akbar-indonesia-azhar.tsv` (about 70 rows).
+- Dates: the visit dates (20-27 Feb 2016) are the book's own, printed with weekdays; the arrival day (21 Feb) is inferred from the text. Every date needs a second source before it is stated as verified.
+- Doubts in the book: teachers sent to Indonesia (26 at p. 36, 31 at pp. 43 and 85); trade figures (import unit printed as pounds, p. 34); population figure of Jakarta (OCR garbled, p. 24); the Egypt "first recognition" claim (p. 28) conflicts with the Arab League resolution of November 1946 (p. 30).
+- Contested: the Sunni-Shia statements (pp. 65, 104, 149) are recorded as the Imam's own and need the `perspectives` block (Tier A review) before any use in the museum's voice.
+- Not done: no English or Urdu translations; no `coverage.md` regeneration (the brief said not to edit it, so `npm run coverage` is for the next check-in); the 2014 founding date of the Council of Muslim Elders and the 2016 visit have no second source yet.
+

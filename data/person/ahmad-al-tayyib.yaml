@@ -1,0 +1,26 @@
+id: person/ahmad-al-tayyib
+class: person
+label:
+  ar: أحمد محمد الطيب
+  en: "Ahmad Muhammad al-Tayyib"
+roles: [scholar, teacher]
+gender: male
+summary:
+  ar: "شيخ الأزهر الشريف ورئيس مجلس حكماء المسلمين. يذكر كتاب الزيارة أنه وُلد في القرنة بالأقصر، وتخرج في كلية أصول الدين (العقيدة والفلسفة) سنة 1969م، واختير مفتياً للديار المصرية 2002–2003م، ثم رئيساً لجامعة الأزهر 2003–2010م، وتولى مشيخة الأزهر سنة 2010م خلفاً للإمام محمد سيد طنطاوي {cite:rihla-imam-akbar-indonesia-azhar p. 16}. زار إندونيسيا في فبراير 2016م، وهي أول زيارة له إليها منذ توليه المشيخة {cite:rihla-imam-akbar-indonesia-azhar p. 34}."
+  en: "Grand Imam of al-Azhar and chairman of the Council of Muslim Elders. The book records his birth in al-Qurna, Luxor, his 1969 degree from the Faculty of Usul al-Din, his terms as Mufti of Egypt (2002–2003) and rector of al-Azhar University (2003–2010), and his Grand Imamate from 2010; he visited Indonesia in February 2016, his first visit there as Grand Imam."
+wings: [people]
+regions: [egypt-nile, southeast-asia]
+periods: [period/contemporary-era]
+relations:
+  - { type: traveled_to, target: place/jakarta, sources: [source/rihla-imam-akbar-indonesia-azhar] }
+sources: [source/rihla-imam-akbar-indonesia-azhar]
+provenance:
+  layer: own-research
+  source: "Al-Azhar Islamic Research Academy, Scientific Series, 'The Grand Imam's Journey to Indonesia' (2018), pp. 14-18, 33-34 (PDF pagination), introduction by Mahmud Hamdi Zaqzuq"
+  generated_by: "Claude Code"
+  model: "claude-haiku-5-5"
+  run: "azhar-rihla-imam-akbar-indonesia-azhar"
+status:
+  review: draft
+  completeness: 1
+# Verification: birth date (6 January 1946 as printed, p. 14) and the Mufti and rector dates need a second source; the book is the only source so far
