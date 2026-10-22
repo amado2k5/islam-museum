@@ -25,6 +25,10 @@ Read this before you change anything under `site/`, `i18n/`, `scripts/validate.t
 6. **Record the change** in the relevant document here if it changes a rule, a token, a check, or a convention. Add one line to `docs/status.md` only if the change matters to the project's live state.
 7. Attribution trailers on the commit (`AI-Agent`, `AI-Model`, `AI-Editor`), as `docs/agents/workflow.md` requires.
 
+## Renamed or merged entities: aliases become redirects
+
+Ids are immutable (`AGENTS.md`): a rename or a merge keeps the old id in the surviving entity's `aliases`. The site Worker turns every alias into a 301 in all three languages at deploy time (`workers/site/scripts/bundle-rules.mjs` reads `data/**/*.yaml`, `aliasTarget` in `workers/site/src/route.js` answers `/ar/person/old-slug/` with `/ar/person/new-slug/`), so a cited URL never breaks and nothing has to be added to `site/public/_redirects` for a rename. `_redirects` stays for cross-class moves, non-entity paths and the Pages fallback. An entity deleted without an alias leaves its old URL as a 404: on 21 October 2026 six merged entities shipped that way, which is why the Worker now reads the aliases itself; when you merge, always add the alias.
+
 ## Deploying (manual, founder only)
 
 A push to `main` does not deploy. Since 21 October 2026 the work is split in two workflows:

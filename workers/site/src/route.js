@@ -121,3 +121,14 @@ export function redirectTo(location, status) {
 
 // A rule target: kept as is when it is absolute (another host), otherwise a path.
 export const redirectLocation = (to) => (/^https?:\/\//.test(to) ? to : to.startsWith("/") ? to : `/${to}`);
+
+// A language page whose "class/slug" is a former id (an alias in data/) redirects to the
+// current id in the same language: /ar/person/old-slug/ -> /ar/person/new-slug/.
+// Returns the path-only Location, or null when the path is not an alias.
+export function aliasTarget(pathname, aliases) {
+  const m = pathname.match(/^\/(ar|en|ur)\/([a-z]+)\/([^/]+)\/?$/);
+  if (!m) return null;
+  const current = aliases[`${m[2]}/${m[3]}`];
+  return current ? `/${m[1]}/${current}/` : null;
+}
+

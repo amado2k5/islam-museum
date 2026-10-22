@@ -23,6 +23,8 @@ cross_version_cache = true
 # into dist-assets; see deploy.yml. About 1,600 files.
 directory = "../../dist-assets"
 binding = "ASSETS"
+# A path that matches no asset answers with the site's own 404 page (404.html), as Pages did.
+not_found_handling = "404-page"
 # Only these paths run the Worker; all other requests are served straight from assets.
 run_worker_first = ["/ar/*", "/en/*", "/ur/*"]
 
