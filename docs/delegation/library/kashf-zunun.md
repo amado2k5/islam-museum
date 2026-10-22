@@ -28,3 +28,15 @@ Scans on shelf are all vol. 1 (alif + tāʾ, entries 1–2000). Mined:
   al-ulum hundred-science riddle (p. 665-666).
 - Ihya' chain enriched: Lubab al-ihya' (Ahmad al-Ghazali), anti-Ihya'
   critique, Irshad entry already covered.
+
+## KZ-2 — works prose-fill pass (Devin)
+
+Drove the lane from the entity side this time: 1,168 unprosed `data/work` records (1,140 Wikidata stubs) were title-matched against vol 1's ~1,994 numbered entries (alif/tāʾ/thāʾ only — the harvest lacks vol 2). After author verification inside each entry, five clean matches were written with ar+en+ur prose:
+
+- ahkam-al-quran-shafii (#150, p.210 — Kashf: al-Shafi'i "أول من صنّف فيه"; compiled from his corpus)
+- tuhfat-al-mawdud (#169, p.215 — Ibn Qayyim; Kashf's title "أحكام المولود")
+- adab-al-imla-wa-al-istimla (#438, p.284 — Ibn al-Sam'ani; Kashf's short title "أدب الإملاء")
+- al-adab-al-shariyya (#424, p.280 — Ibn Muflih al-Hanbali d.763; duplicate `al-adab-al-shariyya-work` merged as alias; stubbed person/muhammad-ibn-muflih-al-maqdisi)
+- arbaeen-al-nawawiyya (p.330-332 — the Ibn al-Salah 29→42 expansion, "فاشتهرت", sharh list)
+
+Lesson for next pass: grep hits below ~line 4009 are muqaddima/footnote noise — entries are numbered `NNN_` or `NNN-` lines; match on the entry-head line only, then verify the author inside the entry before writing.

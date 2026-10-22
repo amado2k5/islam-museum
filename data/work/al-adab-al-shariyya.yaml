@@ -3,10 +3,13 @@ class: work
 kind: book
 label: { ar: "الآداب الشرعية", en: "Al-Adab al-Shar'iyya" }
 summary:
-  ar: "بطاقة أولية لـالآداب الشرعية؛ لم تُراجع مصادرها على الصفحة بعد."
-  en: "Draft card for Al-Adab al-Shar'iyya; its sources are not yet checked on the page."
+  ar: "الآداب الشرعية لشمس الدين محمد بن مفلح الحنبلي الدمشقي (ت 763هـ)، موسوعة الآداب والأحكام على مذهب الحنابلة {cite:kashf-zunun-furqan p. 280}."
+  en: "Al-Adab al-Shar'iyya by Shams al-Din Muhammad b. Muflih al-Hanbali of Damascus (d. 763 AH) — the encyclopedia of legal etiquettes and rulings on the Hanbali school {cite:kashf-zunun-furqan p. 280}."
+aliases: [work/al-adab-al-shariyya-work]
 wings: []
-sources: [source/al-aalam]
+relations:
+  - { type: authored_by, target: person/muhammad-ibn-muflih-al-maqdisi, sources: [source/kashf-zunun-furqan] }
+sources: [source/kashf-zunun-furqan, source/al-aalam]
 external_ids: { wikidata: "Q29513757" }
 provenance:
   layer: own-research
