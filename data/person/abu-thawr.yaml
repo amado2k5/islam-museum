@@ -1,0 +1,26 @@
+id: person/abu-thawr
+class: person
+label: { ar: "أبو ثور", en: "Abu Thawr" }
+names:
+  - { kind: full, lang: ar, value: "إبراهيم بن خالد بن اليمان، أبو ثور الكلبي البغدادي" }
+gender: male
+roles: [jurist, hadith-scholar]
+traditions: [sunni]
+summary:
+  ar: "إمام بغدادي من كبار أصحاب الشافعي؛ روى عن سفيان بن عيينة وابن علية وعبيد بن حميد وأبي معاوية ووكيع ومعاذ بن معاذ وعبد الرحمن بن مهدي والشافعي ويزيد بن هارون، وروى عنه مسلم خارج الصحيح وأبو داود وابن ماجة وأبو القاسم البغوي. قال أحمد بن حنبل: أعرفه بالسنة منذ خمسين سنة وهو عندي في مسلاخ سفيان الثوري، وكان إذا سُئل مسألة قال للسائل: سل غيرنا، سل الفقهاء، سل أبا ثور. وقال النسائي: هو أحد الفقهاء، ثقة مأمون. ذكر الخطيب أنه كان أولًا يتفقه بالرأي فلما قدم الشافعي بغداد اختلف إليه ورجع عن الرأي إلى الحديث. توفي في صفر سنة أربعين ومائتين {cite:tabaqat-shafiiyya-subki j.1 p.228}."
+  en: "A great Baghdad imam among the foremost companions of al-Shafi'i; he transmitted from Sufyan b. 'Uyayna, Ibn 'Uyayna's peers, Waki', 'Abd al-Rahman b. Mahdi and al-Shafi'i himself, and Muslim (outside the Sahih), Abu Dawud, Ibn Maja and al-Baghawi transmitted from him. Ahmad b. Hanbal said 'I have known him for the Sunna for fifty years; in my view he stands in the skin of Sufyan al-Thawri' and would tell questioners 'ask Abu Thawr'; al-Nasa'i called him 'one of the jurists, trustworthy'. Al-Khatib relates that he began in the ra'y method until al-Shafi'i came to Baghdad, whereupon he attached himself to him and turned to hadith. He died in Safar 240 {cite:tabaqat-shafiiyya-subki j.1 p.228}."
+died: { hijri: "0240-01", edtf: "0854", calendar: julian, precision: month, status: tradition, derived: true, note: "توفي في صفر سنة 240هـ (السبكي). التحويل مشتق.", sources: [source/tabaqat-shafiiyya-subki] }
+wings: [people]
+themes: [scripture-and-its-sciences]
+regions: [levant-iraq]
+periods: [period/abbasid-early]
+relations:
+  - { type: student_of, target: person/al-shafii, role: "اختلف إليه لما قدم بغداد ورجع عن الرأي إلى الحديث (الخطيب عند السبكي)", sources: [source/tabaqat-shafiiyya-subki] }
+provenance:
+  layer: own-research
+  source: "طبقات الشافعية الكبرى للسبكي (ج1، ترجمة أبي ثور، ص228 وما بعدها)، قراءة آبل فيجن"
+  generated_by: "Devin (SWE-2 Medium) from Apple Vision OCR"
+  model: "SWE-2 Medium"
+  run: lib-subki-tabaqat-ts1
+sources: [source/tabaqat-shafiiyya-subki]
+status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 Medium)" }
