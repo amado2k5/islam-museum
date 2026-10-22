@@ -1,8 +1,7 @@
 name: Deploy islam.museum to Cloudflare Pages
 
+# Manual only: runs when started from the Actions tab (or gh workflow run). Pushes to main do not deploy.
 on:
-  push:
-    branches: [main]
   workflow_dispatch:
 
 permissions:
@@ -12,9 +11,9 @@ permissions:
 concurrency:
   group: pages
   cancel-in-progress: false
-  # Keep every waiting run, so each push's R2 publish runs in order. Without this,
+  # Keep every waiting run, so each deploy's R2 publish runs in order. Without this,
   # a newer waiting run replaces an older one and the older content change is never
-  # published. Every push publishes; the manifest diff decides what to upload.
+  # published. Every deploy publishes; the manifest diff decides what to upload.
   queue: max
 
 # The unit tests and the build run in parallel; deploy waits for both.
