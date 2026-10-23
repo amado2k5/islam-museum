@@ -38,3 +38,27 @@ Ihram divides by what the pilgrim intends to perform: ifrad, which is intending 
 
 ## Obligations of ihram
 The obligations of ihram come down to two: that the ihram begins at the miqat, and that it is guarded against the prohibited acts. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.1790}
+
+## Places and times of ihram (miqat)
+A miqat is, in the lexicon, a set time or place; in law, the set places and times for a specific rite. Ihram has a time miqat and a place miqat. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.1790} {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.1791}
+
+## Time miqat for the hajj
+The three imams and Ahmad fix the time of ihram for the hajj as Shawwal, Dhu al-Qa'da and the first ten days of Dhu al-Hijja; for Malik it runs to the end of Dhu al-Hijja. Part of this span is the time for beginning ihram, and part is the time for release. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.1791} {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.1792}
+The Hanafis and Hanbalis count the day of sacrifice among the months of hajj; the Shafi'is count only its night. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.1792}
+The Hanafis, Malikis and Hanbalis allow ihram for the hajj before its months, with dislike; the Shafi'is hold that it does not make a hajj and so is an umra. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.1792} {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.1793}
+
+## Time miqat for the umra
+The umra may be performed at any time in the year, and it is recommended in Ramadan. The Hanafis hold it disliked as forbidden on the day of Arafa and four days after; for the Malikis, a pilgrim already in hajj cannot begin an umra until he has finished the hajj rites. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.1793} {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.1794}
+
+## Place miqat
+People stand in four categories with regard to the places: the one from afar, whose home lies outside the miqat zone; the one of the miqat; the one of the sanctuary; and the Meccan. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.1794}
+The places fixed for those coming from afar are agreed: Dhu al-Hulayfa for the people of Madina and those who pass it, al-Juhfa for Syria, Egypt and the Maghrib, and Qarn al-Manazil for the people of Najd. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.1794}
+
+## Rules on the miqats
+The miqat for the people of Yemen is Yalamlam, and for Iraq and the rest of the East it is Dhat Irq; the miqats are fixed by the sunna and by consensus. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.1795} Dhat Irq is disputed: al-Shafi'i and Malik hold that it was fixed by Umar's judgment, which the Companions accepted and so became consensus; the Hanafis, Hanbalis and most Shafi'is hold it was fixed by text. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.1795} {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.1796}
+Whoever passes a miqat intending one of the rites must enter ihram there; delaying it past the miqat is forbidden by agreement, and beginning at its far edge is best. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.1796}
+The place counts, not the village's name; entering ihram at the miqat or at its alignment suffices, and Umar's alignment for Dhat Irq made alignment the agreed basis. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.1796} {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.1797}
+For someone passing two miqats, the Shafi'is and Hanbalis require ihram at the farther one; the Malikis allow the nearer; the Hanafis allow either and dislike delay. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.1797}
+Entering ihram before the place miqat is lawful by agreement; the Malikis, Shafi'is and Hanbalis dislike it, and the Hanafis consider it better when the pilgrim is safe from breaking the rules. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.1797} {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.1798}
+Whoever passes the miqat without ihram intending a rite is sinful and must return and enter ihram there; if he does not return he owes a sacrifice, but one who does not return for an excuse such as fear of missing Arafa or severe sickness is not sinful. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.1798}
+The resident of the miqat zone takes his place as the miqat according to the Malikis, his village or encampment according to the Shafi'is and Hanbalis, and the whole zone according to the Hanafis. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.1798}
