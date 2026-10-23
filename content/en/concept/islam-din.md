@@ -21,3 +21,6 @@ Gabriel's hadith contains three questions: about [[concept/iman|faith]], about I
 
 ## What is not covered here
 The relation between Islam and faith is a subject treated in the creed books. A presentation of their authors' sayings, attributed to them, will be added in a later batch; this entry presents only what is documented from al-Bukhari's text.
+
+## Sha'rawi on submitting the face to God
+Sha'rawi holds that the religion with God from Adam to the Hour is the submission of the face to God, since the face is the noblest part of a person, and placing it on the ground in prostration is a sign of submission. He says that Islam is surrendering one's leadership to God, so that one's choices in this world match what God wants. {cite:tafsir-sharawi-khawatir-scan p.593} {cite:tafsir-sharawi-khawatir-scan p.594}
