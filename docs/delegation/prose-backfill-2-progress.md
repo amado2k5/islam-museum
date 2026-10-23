@@ -345,3 +345,29 @@ Eleven of the next queue segment already had committed prose (audit fixes only);
 ### Deferred this batch
 - `person/jalal-al-dawla`, `person/abu-kalijar` — Buyid dynasts with committed prose and real sources already (shadharat/muntazam); own-entry verification belongs to the dynastic-history lane rather than the rijal books; completeness left to that lane.
 - `person/mabad-ibn-kab-ibn-malik`, `person/muhammad-ibn-abd-al-rahman-ibn-nawfal` — already completeness 3 with verified sources; skipped.
+
+## Batch 11 — thin-stub expansion cohort, 13 records (agent pb2-rijal)
+
+Queue recomputed over `data/person/*.yaml` lacking or thin (`<900 B`) `content/ar` prose, ranked by distinct inbound-linking files. The truly missing heads are non-rijal (`muhammad-mutawalli-al-shaarawi`, Ottoman/Persian/modern figures) — deferred; the rijal tier below it was all thin one-section stubs. Each stub's own entry was located by full nasab, then the stub was expanded (existing cited paragraphs kept) and the used source id added with completeness 3.
+
+| record | own entry verified |
+|---|---|
+| person/ata-ibn-yasar | Taqrib ٤٦٠٥ (عطاء بن يسار الهلالي أبو محمد المدني مولى ميمونة), Majmuat scan p.431 |
+| person/abu-salama-ibn-abd-al-rahman | Taqrib ٨١٤٢ (أبو سلمة بن عبد الرحمن بن عوف الزهري), p.707 |
+| person/al-tirmidhi-muhammad-ibn-isa | Taqrib ٦٢٠٦ (محمد بن عيسى بن سورة بن موسى بن الضحاك السلمي الترمذي), p.558 |
+| person/said-ibn-jubayr | Taqrib ٢٢٧٨ (سعيد بن جبير الأسدي مولاهم الكوفي), p.223 |
+| person/sahl-ibn-sad-al-saidi | Isaba ٣٧٠٩ (سهل بن سعد بن مالك بن خالد بن ثعلبة … الساعدي), al-Asriyya pp.624-625 |
+| person/asad-ibn-zurara | Isaba ١٦٣ (أسد بن زرارة؛ تصحيح أسعد), p.46 |
+| person/muawiya-ibn-khudayj | Isaba ٨٣٥٥ (معاوية بن حُديج بن جفنة من تجيب السكوني), p.1429 |
+| person/iyyad-ibn-ghanm | Isaba ٦٩٢٨ (عياض بن غنم الأشعري؛ الفهري/الأشعري لبس داخل الترجمة), p.1166 + p.1000 (Mosul with Utba) |
+| person/utba-ibn-farqad | Isaba ٥٨٧١ (عتبة بن فرقد بن يربوع … السلمي), pp.1000-1001 |
+| person/abd-al-rahman-ibn-abi-bakr | Isaba ٤٦٥٤ (عبد الرحمن بن أبي بكر الصديق بن أبي قحافة), p.783 |
+| person/ubaydallah-ibn-umar | Isaba ٥٨٠٤ (عبيد الله بن عمر بن الخطاب القرشي العدوي), pp.988-989 |
+| person/abdallah-ibn-khazim-al-sulami | Isaba ٥٠٩٠ (عبد الله بن خازم ابن أسماء بن الصلت … أبو صالح الأمير المشهور), p.867 |
+| person/al-rabi-ibn-ziyad-al-harithi | Isaba ٢٦١٥-٢٦١٦ (الربيع بن زياد … العبسي الحارثي، فتح سجستان 29هـ), p.455 |
+
+### Notes
+- `iyyad-ibn-ghanm`: the Isaba entry is titled الأشعري while the record and history works keep الفهري; the entry's own text records Ibn Manda's "الفهري أو الأشعري" — prose cites the entry and flags the نسبة reading instead of resolving it.
+- `iyyad` conquest of Mosul (18 AH, with Utba) is cited from Utba's own Isaba entry ٥٨٧١, p.1000, not from a passing mention in Iyad's entry.
+- `ubaydallah-ibn-umar`'s killing stays flagged (Mas'udi's three reports); `abdallah-ibn-khazim` and `al-rabi-ibn-ziyad` Companionship recorded as "not established" per Ibn Hajar.
+- `qays-ibn-al-haytham`, `ubayd-allah-ibn-ziyad`, `musab-ibn-al-zubayr`, `abd-al-rahman-ibn-habib-al-fihri`, `ayyub-al-sakhtiyani` — queue neighbours without a readable own entry in the extracted Taqrib/Isaba scans (Ayyub's Tahdhib entry sits in vol. 1, not extracted; Mus'ab/Ubaydallah are non-Companion figures needing Tabari/Kamil passes) — deferred.
