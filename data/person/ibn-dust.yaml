@@ -1,0 +1,24 @@
+id: person/ibn-dust
+class: person
+label: { ar: "أبو عبد الله أحمد بن محمد بن دوست البزاز الحافظ" }
+summary:
+  ar: "أحمد بن محمد بن يوسف بن دوست أبو عبد الله البزاز، ولد في صفر سنة ثلاث وعشرين وثلاثمائة، وحدث عن إسماعيل الصفار والمطيري وغيرهما، وكان مكثراً من الحديث حافظاً له، مكث سبع عشرة سنة يملي الحديث من حفظه عارفاً بالفقه على مذهب مالك، ولما قيل له أراك تملي المجالس من حفظك فلم لا تملي من كتابك قال انظر فيما أمليت فإن كان فيه خطأ لم أمل من حفظي وإن كان جميعه صواباً فما الحاجة إلى الكتاب. توفي في رمضان سنة سبع وأربعمائة ودُفن حذاء منارة جامع المنصور {cite:muntazam-ibn-al-jawzi j.7 p.284-285}."
+wings: [people]
+periods: [period/buyid-seljuk-fatimid-era]
+regions: [levant-iraq]
+roles: [scholar, jurist, teacher]
+themes: [scripture-and-its-sciences]
+born:
+  { edtf: "0935-10~", hijri: "0323-02", calendar: julian, precision: month, status: tradition, derived: true, note: "صفر 323هـ؛ التحويل مشتق {cite:muntazam-ibn-al-jawzi j.7 p.284}" }
+died:
+  { edtf: "1017-01~", hijri: "0407-09", calendar: julian, precision: month, status: tradition, derived: true, note: "رمضان 407هـ؛ التحويل مشتق {cite:muntazam-ibn-al-jawzi j.7 p.285}" }
+relations:
+  - { type: died_in, target: place/baghdad, sources: [source/muntazam-ibn-al-jawzi] }
+  - { type: buried_in, target: place/baghdad, role: "حذاء منارة جامع المنصور", sources: [source/muntazam-ibn-al-jawzi] }
+provenance:
+  layer: own-research
+  source: "المنتظم في تاريخ الملوك والأمم — ابن الجوزي (ج7، وفيات سنة 407)، قراءة آبل فيجن"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-muntazam-batch-22
+sources: [source/muntazam-ibn-al-jawzi]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

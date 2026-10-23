@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 55:33 (سورة الرحمن، الآية 33)."
 text: "يَـٰمَعْشَرَ ٱلْجِنِّ وَٱلْإِنسِ إِنِ ٱسْتَطَعْتُمْ أَن تَنفُذُوا۟ مِنْ أَقْطَارِ ٱلسَّمَـٰوَٰتِ وَٱلْأَرْضِ فَٱنفُذُوا۟ ۚ لَا تَنفُذُونَ إِلَّا بِسُلْطَـٰنٍ"
 text_search: "يا معشر الجن والإنس إن استطعتم أن تنفذوا من أقطار السماوات والأرض فانفذوا ۚ لا تنفذون إلا بسلطان"
+translations:
+  en: { text: "O company of jinn and men, if ye have power to penetrate (all) regions of the heavens and the earth, then penetrate (them)! Ye will never penetrate them save with (Our) sanction.", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "اے گروہِ جن وانس اگر تمہیں قدرت ہو کہ آسمان اور زمین کے کناروں سے نکل جاؤ تو نکل جاؤ۔ اور زور کے سوا تم نکل سکنے ہی کے نہیں", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-55 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

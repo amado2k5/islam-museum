@@ -1,0 +1,38 @@
+id: person/monke-khan
+class: person
+label:
+  ar: منكوفان بن طولي
+  en: Monke Khan ibn Tolui
+summary:
+  ar: "منكوفان بن طولي بن جنكزخان، الخان الأعظم؛ ولى بعد أوكداي وولى أولاد جفتاي عمهم على ما وراء النهر إمضاء لوصية جنكزخان لأبيهم، وحسن له أخوه بركة ملك القفجاق الاستيلاء على أعمال الخلافة فأذن له فيه، وعلم بأمر الإسماعيلية وفسادهم فجهز أخاه هلاكو لقتالهم واستئصالهم وغزو بلاد الخطا مع أخيه قبلاي، فأوقع هلاكو بالملاحدة وفتح قلاعهم ثم سار إلى بغداد فكانت له الواقعة المشهورة."
+  en: "Monke ibn Tolui ibn Genghis Khan, the Great Khan; ruling after Ogedei he set Chaghatay's sons under their uncle over Transoxiana by Genghis's bequest — his brother Berke of the Qipchaq urged him to seize the caliphate's domains and he assented, and informed of the Ismailis' corruption he dispatched his brother Hulagu to exterminate them and conquer Khita with their brother Qubilai; Hulagu crushed the Mulahida's castles then marched on Baghdad to the famous catastrophe."
+gender: male
+roles: [ruler]
+relations:
+- type: child_of
+  target: person/tolui-ibn-genghis
+  sources:
+  - source/tarikh-ibn-khaldun-ibar
+- type: sibling_of
+  target: person/hulagu
+  sources:
+  - source/tarikh-ibn-khaldun-ibar
+- type: sibling_of
+  target: person/qubilay-khan
+  sources:
+  - source/tarikh-ibn-khaldun-ibar
+wings: [people]
+periods: [period/mongol-post-mongol]
+regions: [persia-central-asia, china-east-asia]
+sources:
+- source/tarikh-ibn-khaldun-ibar
+provenance:
+  layer: own-research
+  source: ابن خلدون، العبر — دولة التتر، ولاية منكوفان وتجهيز هلاكو، ص1536 (طبعة هيليوبوليس)
+  generated_by: Devin (SWE-2 High) from Apple Vision OCR
+  model: swe-2-high
+  run: lib-ibar-east-12
+status:
+  review: draft
+  completeness: 1
+  generated_by: Devin (SWE-2 High); extracted from Ibn Khaldun al-Ibar via Apple Vision OCR

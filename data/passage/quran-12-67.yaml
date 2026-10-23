@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 12:67 (سورة يوسف، الآية 67)."
 text: "وَقَالَ يَـٰبَنِىَّ لَا تَدْخُلُوا۟ مِنۢ بَابٍ وَٰحِدٍ وَٱدْخُلُوا۟ مِنْ أَبْوَٰبٍ مُّتَفَرِّقَةٍ ۖ وَمَآ أُغْنِى عَنكُم مِّنَ ٱللَّهِ مِن شَىْءٍ ۖ إِنِ ٱلْحُكْمُ إِلَّا لِلَّهِ ۖ عَلَيْهِ تَوَكَّلْتُ ۖ وَعَلَيْهِ فَلْيَتَوَكَّلِ ٱلْمُتَوَكِّلُونَ"
 text_search: "وقال يا بني لا تدخلوا من باب واحد وادخلوا من أبواب متفرقة ۖ وما أغني عنكم من الله من شيء ۖ إن الحكم إلا لله ۖ عليه توكلت ۖ وعليه فليتوكل المتوكلون"
+translations:
+  en: { text: "And he said: O my sons! Go not in by one gate; go in by different gates. I can naught avail you as against Allah. Lo! the decision rests with Allah only. In Him do I put my trust, and in Him let all the trusting put their trust.", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "اور ہدایت کی کہ بیٹا ایک ہی دروازے سے داخل نہ ہونا بلکہ جدا جدا دروازوں سے داخل ہونا۔ اور میں خدا کی تقدیر کو تم سے نہیں روک سکتا۔ بےشک حکم اسی کا ہے میں اسی پر بھروسہ رکھتا ہوں۔ اور اہلِ توکل کو اسی پر بھروسہ رکھنا چاہیئے", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-12 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

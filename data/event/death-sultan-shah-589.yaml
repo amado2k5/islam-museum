@@ -1,0 +1,20 @@
+id: event/death-sultan-shah-589
+class: event
+kind: death
+label: { ar: "وفاة سلطان شاه صاحب مرو وملك أخيه ملكشاه خراسان", en: "death of Sultan Shah of Merv — Malikshah takes Khurasan" }
+date:
+  start: { edtf: "1193~", hijri: "0589", calendar: julian, precision: year, status: tradition, derived: true }
+summary:
+  ar: "توفي في رمضان سلطان شاه صاحب مرو وما والاها من خراسان وملك أخوه ملكشاه، وكان سلطان شاه قد خاصم أخاه خوارزم شاه تكش دهرًا حتى أدخله على خوارزم القرا خطائيين {cite:kamil-ibn-al-athir p. 228}."
+  en: "Sultan Shah, lord of Merv and its Khurasan, died in Ramadan and his brother Malikshah succeeded — the rival who had fought Khwarazmshah Tekish for years and brought the Qara Khitay down upon him {cite:kamil-ibn-al-athir p. 228}."
+relations:
+  - { type: occurred_at, target: place/merv, sources: [source/kamil-ibn-al-athir] }
+  - { type: had_participant, target: person/sultan-shah-khurasan, role: "المتوفى", sources: [source/kamil-ibn-al-athir] }
+  - { type: had_participant, target: person/malik-shah-khwarazmshah, role: "الخلف", sources: [source/kamil-ibn-al-athir] }
+provenance:
+  layer: own-research
+  source: "الكامل في التاريخ لابن الأثير، قراءة آبل فيجن"
+  generated_by: "Devin (SWE-2 Medium) from Apple Vision OCR"
+  run: lib-kamil-v12-batch04
+sources: [source/kamil-ibn-al-athir]
+status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 Medium)" }

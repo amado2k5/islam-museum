@@ -1,0 +1,17 @@
+id: passage/muslim-2577
+class: passage
+unit: hadith
+work: work/sahih-muslim
+ref: "2577"
+label: { ar: "مسلم 2577 — يا عبادي إني حرمت الظلم على نفسي", en: "Muslim 2577 — My servants, I have forbidden injustice for Myself" }
+text: "عن أبي ذر عن النبي فيما روى عن الله أنه قال: «يا عبادي إني حرمت الظلم على نفسي وجعلته بينكم محرماً فلا تظالموا. يا عبادي كلكم ضال إلا من هديته فاستهدوني أهدكم، يا عبادي كلكم جائع إلا من أطعمته فاستطعموني أطعمكم، يا عبادي كلكم عار إلا من كسوته فاستكسوني أكسكم، يا عبادي إنكم تخطئون بالليل والنهار وأنا أغفر الذنوب جميعاً فاستغفروني أغفر لكم»"
+summary:
+  ar: "الحديث القدسي الجامع، رواية أبي ذر عن النبي فيما يروى عن ربه في كتاب البر من صحيح مسلم؛ تحريم الظلم على نفسه وجعله محرماً بين العباد، ثم أبواب الهداية والرزق والغفران — من أعظم نصوص العدل والرحمة."
+relations:
+  - { type: mentions, target: person/muhammad, sources: [source/sahih-muslim] }
+  - { type: mentions, target: person/abu-dharr-al-ghifari, sources: [source/sahih-muslim] }
+  - { type: mentions, target: concept/hadith-qudsi, sources: [source/sahih-muslim] }
+  - { type: mentions, target: concept/zulm, sources: [source/sahih-muslim] }
+provenance: { layer: own-research, source: "صحيح مسلم، كتاب البر والصلة، باب تحريم الظلم (طبعة دار التأصيل، الحديث 6737؛ ترقيم عبد الباقي المعروف 2577)، تصوير Apple Vision OCR", generated_by: "Devin (SWE-2 High) from Apple Vision OCR", run: "hadith-muslim-passages-2" }
+sources: [source/sahih-muslim]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High); matn excerpt checked against the scan" }

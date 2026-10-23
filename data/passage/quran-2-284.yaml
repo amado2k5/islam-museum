@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 2:284 (سورة البقرة، الآية 284)."
 text: "لِّلَّهِ مَا فِى ٱلسَّمَـٰوَٰتِ وَمَا فِى ٱلْأَرْضِ ۗ وَإِن تُبْدُوا۟ مَا فِىٓ أَنفُسِكُمْ أَوْ تُخْفُوهُ يُحَاسِبْكُم بِهِ ٱللَّهُ ۖ فَيَغْفِرُ لِمَن يَشَآءُ وَيُعَذِّبُ مَن يَشَآءُ ۗ وَٱللَّهُ عَلَىٰ كُلِّ شَىْءٍ قَدِيرٌ"
 text_search: "لله ما في السماوات وما في الأرض ۗ وإن تبدوا ما في أنفسكم أو تخفوه يحاسبكم به الله ۖ فيغفر لمن يشاء ويعذب من يشاء ۗ والله على كل شيء قدير"
+translations:
+  en: { text: "Unto Allah (belongeth) whatsoever is in the heavens and whatsoever is in the earth; and whether ye make known what is in your minds or hide it, Allah will bring you to account for it. He will forgive whom He will and He will punish whom He will. Allah is Able to do all things.", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "جو کچھ آسمانوں میں اور جو کچھ زمین میں ہے سب خدا ہی کا ہے۔ تم اپنے دلوں کی بات کو ظاہر کرو گے تو یا چھپاؤ گے تو خدا تم سے اس کا حساب لے گا پھر وہ جسے چاہے مغفرت کرے اور جسے چاہے عذاب دے۔ اور خدا ہر چیز پر قادر ہے", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-2 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

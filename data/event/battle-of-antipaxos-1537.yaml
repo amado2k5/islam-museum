@@ -1,0 +1,23 @@
+id: event/battle-of-antipaxos-1537
+class: event
+kind: naval-battle
+label: { ar: "معركة أنتيباكسوس (١٥٣٧)", en: "Battle of Antipaxos" }
+summary:
+  ar: "بطاقة أولية لمعركة أنتيباكسوس سنة ١٥٣٧م، اشتباك خير الدين بربروس والأسطول البندقي؛ لم تُراجع مصادره على الصفحة بعد."
+  en: "Draft card for the Battle of Antipaxos in 1537, Hayreddin Barbarossa's naval clash with the Venetians; its sources are not yet checked on the page."
+wings: [time]
+periods: [period/gunpowder-empires]
+regions: [anatolia-balkans]
+date:
+  start: { edtf: "1537-07-22", precision: year, status: tradition, derived: true }
+  end: { edtf: "1537-07-23", precision: year, status: tradition, derived: true }
+sources: [source/dawlat-uthmaniyya-salabi]
+external_ids:
+  wikidata: Q134994090
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; battle attested in narrative histories — entry not yet checked on the page"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-wave2
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

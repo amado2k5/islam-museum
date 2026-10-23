@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 43:53 (سورة الزخرف، الآية 53)."
 text: "فَلَوْلَآ أُلْقِىَ عَلَيْهِ أَسْوِرَةٌ مِّن ذَهَبٍ أَوْ جَآءَ مَعَهُ ٱلْمَلَـٰٓئِكَةُ مُقْتَرِنِينَ"
 text_search: "فلولا ألقي عليه أسورة من ذهب أو جاء معه الملائكة مقترنين"
+translations:
+  en: { text: "Why, then, have armlets of gold not been set upon him, or angels sent along with him?", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "تو اس پر سونے کے کنگن کیوں نہ اُتارے گئے یا (یہ ہوتا کہ) فرشتے جمع ہو کر اس کے ساتھ آتے", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-43 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

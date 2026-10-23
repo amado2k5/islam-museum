@@ -5,7 +5,9 @@ import { existsSync, readFileSync } from "node:fs";
 import { fileURLToPath } from "node:url";
 import { listFiles, p, rel } from "./lib.js";
 
-export function scan(files: { path: string; html: string }[]): { errors: string[]; warns: string[] } {
+// Accepts a lazy iterable so callers can read one page at a time; holding every page's HTML in memory
+// at once exhausted the Node heap on the full site (about 4 GB).
+export function scan(files: Iterable<{ path: string; html: string }>): { errors: string[]; warns: string[] } {
   const errors: string[] = [];
   const warns: string[] = [];
   for (const { path, html } of files) {
@@ -27,10 +29,14 @@ export function scan(files: { path: string; html: string }[]): { errors: string[
 if (process.argv[1] && fileURLToPath(import.meta.url) === process.argv[1]) {
   const dist = p("dist");
   if (!existsSync(dist)) { console.error("dist/ not found: run npm run build first"); process.exit(2); }
-  const files = listFiles(dist, ".html").filter((f) => !f.includes("/pagefind/")).map((path) => ({ path, html: readFileSync(path, "utf8") }));
-  const { errors, warns } = scan(files);
+  const paths = listFiles(dist, ".html").filter((f) => !f.includes("/pagefind/"));
+  // One page in memory at a time; only the findings are kept.
+  function* pages() {
+    for (const path of paths) yield { path, html: readFileSync(path, "utf8") };
+  }
+  const { errors, warns } = scan(pages());
   for (const w of warns) console.log("warn  " + w);
   for (const e of errors) console.log("ERROR " + e);
-  console.log(`checked ${files.length} pages: ${errors.length} errors, ${warns.length} warnings`);
+  console.log(`checked ${paths.length} pages: ${errors.length} errors, ${warns.length} warnings`);
   process.exit(errors.length ? 1 : 0);
 }

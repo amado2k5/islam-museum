@@ -1,0 +1,24 @@
+id: person/muayyid-al-mulk-ibn-nizam
+class: person
+label:
+  ar: "مؤيد الملك أبو بكر بن نظام الملك"
+  en: "Mu'ayyid al-Mulk Abu Bakr ibn Nizam al-Mulk"
+names:
+  - { value: "أبو بكر بن نظام الملك مؤيد الملك", kind: full }
+summary:
+  ar: "ابن الوزير نظام الملك الطوسي؛ دخل بغداد سنة ثمان وستين وأربعمائة لتزوّجه بابنة السلطان، وانصرف إلى دار بناها والده مع المدرسة ومضى الوزير إليه في موكب {cite:muntazam-ibn-al-jawzi j.8 p.641}. حضر بيعة المقتدي سنة ٤٦٧، وفي فتنة سوق المدرسة سنة ٤٧٠ خاف على داره فأرسل إلى العميد أبي نصر فأنفذ إليه الديلم والحرسانية، وفتح تكريت {cite:muntazam-ibn-al-jawzi j.8 p.634,655,668}."
+  en: "Son of the vizier Nizam al-Mulk: came to Baghdad in 468 for his marriage to the sultan's daughter and took up the palace his father had built beside the madrasa; present at al-Muqtadi's bay'a in 467, defended his quarter in the 470 madrasa-market riot, and took Tikrit for the sultan {cite:muntazam-ibn-al-jawzi j.8 p.634,641,655,668}."
+gender: male
+wings: [people]
+periods: [period/buyid-seljuk-fatimid-era]
+regions: [levant-iraq, persia-central-asia]
+roles: [military]
+relations:
+  - { type: child_of, target: person/nizam-al-mulk, sources: [source/muntazam-ibn-al-jawzi] }
+provenance:
+  layer: own-research
+  source: "المنتظم لابن الجوزي (ط حيدرآباد 1357، ج8، سنوات 467–472)، قراءة آبل فيجن"
+  generated_by: "Devin (SWE-2 Medium) from Apple Vision OCR"
+  run: lib-muntazam-350-474-batch25
+sources: [source/muntazam-ibn-al-jawzi]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 Medium)" }

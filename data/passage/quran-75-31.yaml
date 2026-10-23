@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 75:31 (سورة القيامة، الآية 31)."
 text: "فَلَا صَدَّقَ وَلَا صَلَّىٰ"
 text_search: "فلا صدق ولا صلى"
+translations:
+  en: { text: "For he neither trusted, nor prayed.", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "تو اس (ناعاقبت) اندیش نے نہ تو (کلام خدا) کی تصدیق کی نہ نماز پڑھی", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-75 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

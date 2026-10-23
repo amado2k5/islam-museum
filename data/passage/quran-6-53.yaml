@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 6:53 (سورة الأنعام، الآية 53)."
 text: "وَكَذَٰلِكَ فَتَنَّا بَعْضَهُم بِبَعْضٍ لِّيَقُولُوٓا۟ أَهَـٰٓؤُلَآءِ مَنَّ ٱللَّهُ عَلَيْهِم مِّنۢ بَيْنِنَآ ۗ أَلَيْسَ ٱللَّهُ بِأَعْلَمَ بِٱلشَّـٰكِرِينَ"
 text_search: "وكذلك فتنا بعضهم ببعض ليقولوا أهؤلاء من الله عليهم من بيننا ۗ أليس الله بأعلم بالشاكرين"
+translations:
+  en: { text: "And even so do We try some of them by others, that they say: Are these they whom Allah favoureth among us? Is not Allah best Aware of the thanksgivers?", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "اور اسی طرح ہم نے بعض لوگوں کی بعض سے آزمائش کی ہے کہ (جو دولتمند ہیں وہ غریبوں کی نسبت) کہتے ہیں کیا یہی لوگ ہیں جن پر خدا نے ہم میں سے فضل کیا ہے (خدا نے فرمایا) بھلا خدا شکر کرنے والوں سے واقف نہیں؟", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-6 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

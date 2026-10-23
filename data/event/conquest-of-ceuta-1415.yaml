@@ -1,0 +1,23 @@
+id: event/conquest-of-ceuta-1415
+class: event
+kind: conquest
+label: { ar: "سقوط سبتة (١٤١٥)", en: "Conquest of Ceuta" }
+summary:
+  ar: "بطاقة أولية لسقوط سبتة سنة ١٤١٥م، انتزاع البرتغال للمدينة المغربية وفاتحة التوسع البرتغالي؛ لم تُراجع مصادره على الصفحة بعد."
+  en: "Draft card for the fall of Ceuta in 1415, Portugal's seizure of the Moroccan city that opened its overseas expansion; its sources are not yet checked on the page."
+wings: [time]
+periods: [period/crusades-ayyubid-mamluk]
+regions: [maghreb]
+date:
+  start: { edtf: "1415", precision: year, status: tradition, derived: true }
+  end: { edtf: "1415", precision: year, status: tradition, derived: true }
+sources: [source/tarikh-ibn-khaldun-ibar]
+external_ids:
+  wikidata: Q2888296
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; conquest attested in Maghrebi histories — entry not yet checked on the page"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-wave2
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

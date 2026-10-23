@@ -1,0 +1,24 @@
+id: person/suwayd-ibn-rabia
+class: person
+label:
+  ar: "سويد بن ربيعة التميمي"
+  en: "Suwayd ibn Rabi'a al-Tamimi"
+  ur: "سویدبن ربیعہ تمیمی"
+names:
+  - { kind: full, lang: ar, value: "سويد بن ربيعة التميمي" }
+gender: male
+roles: [other]
+traditions: [sunni]
+summary:
+  ar: "رجل من بني تميم في الجاهلية، قتل أخاه، فنذر عمرو أن يقتل مائة من تميم بأخيه؛ وفي قصة عمرو مع امرأة ومع رجل من البراجم صار مثل 'الشقي وافد البراجم'. {cite:nihayat-al-arab-nuwayri-vol3-scan p. 17-18}"
+  en: "A man of Tamim in pre-Islamic times who killed his brother; the story of Amr's revenge, including the Barajim man, gave rise to the proverb 'the wretched one came to the Barajim'. {cite:nihayat-al-arab-nuwayri-vol3-scan p. 17-18}"
+  ur: "جاہلیت کے تمیم کے ایک شخص؛ انہوں نے اپنے بھائی کو قتل کیا، اور عمرو کے انتقام کے قصے سے 'بدبخت براجم کا مہمان ہوا' کا مثل بنا۔ {cite:nihayat-al-arab-nuwayri-vol3-scan p. 17-18}"
+wings: [people]
+themes: [literature]
+periods: [period/pre-islamic-arabia]
+regions: [arabia]
+story_roles:
+  - { role: ruler, status: tradition, sources: [source/nihayat-al-arab-nuwayri-vol3-scan] }
+sources: [source/nihayat-al-arab-nuwayri-vol3-scan]
+status: { review: draft, completeness: 1, generated_by: "Claude Haiku 5.5 (Nihayat vol. 3 proverbs, scan p. 17-18, from OCR; not image-checked)" }
+provenance: { layer: pd, source: "archive.org nefa03 (Nihayat al-Arab vol. 3), scan p. 17-18", generated_by: "Claude Haiku 5.5", model: "claude-haiku-5-5", run: "lib-nihayat-vol3-pp17-19" }

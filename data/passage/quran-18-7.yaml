@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 18:7 (سورة الكهف، الآية 7)."
 text: "إِنَّا جَعَلْنَا مَا عَلَى ٱلْأَرْضِ زِينَةً لَّهَا لِنَبْلُوَهُمْ أَيُّهُمْ أَحْسَنُ عَمَلًا"
 text_search: "إنا جعلنا ما على الأرض زينة لها لنبلوهم أيهم أحسن عملا"
+translations:
+  en: { text: "Lo! We have placed all that is on the earth as an ornament thereof that We may try them: which of them is best in conduct.", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "جو چیز زمین پر ہے ہم نے اس کو زمین کے لئے آرائش بنایا ہے تاکہ لوگوں کی آزمائش کریں کہ ان میں کون اچھے عمل کرنے والا ہے", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-18 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

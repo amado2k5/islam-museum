@@ -1,0 +1,29 @@
+id: event/nasir-dawla-march-335
+class: event
+kind: battle
+label: { ar: "مسير ناصر الدولة إلى بغداد وهزيمته", en: "Nasir al-Dawla's march on Baghdad and his defeat" }
+summary:
+  ar: "في سنة خمس وثلاثين وثلاثمائة جاء ناصر الدولة بن حمدان إلى بغداد يخاصم عن الخليفة المطيع الذي حصره معز الدولة ووكّل به، فحارب معز الدولة فعبر إلى الجانب الشرقي ولكه في أول يوم من المحرم فانهزم ناصر الدولة، ونهب الديلم باب الطاق وسوق يحيى وقتل من العامة جماعة، وخرج نساء وصبيان من بغداد هاربين في طريق عكبرا وقد وقع للناس أن الديلم إذا ملكوا الشرقية وضعوا السيف تشفيًا من العوام الذين كانوا يشتمون معز الدولة، فاستعمل معز الدولة الحلم ومنع من القتل، وهلك في طريق عكبرا من الحر والعطش خلق كثير لأنهم خرجوا مشاة حفاة {cite:muntazam-ibn-al-jawzi p. 646-647}."
+  en: "In 335 Nasir al-Dawla ibn Hamdan came to Baghdad championing the besieged al-Muti'; Mu'izz al-Dawla crossed east and struck him on the first of Muharram — the Daylamis looted Bab al-Taq and Suq Yahya, the mob fled barefoot toward Ukbara where many died of heat and thirst, while Mu'izz forbore and forbade the killing {cite:muntazam-ibn-al-jawzi p. 646-647}."
+wings: [time]
+periods: [period/abbasid-early]
+regions: [levant-iraq]
+sides:
+  - label: { ar: "معز الدولة البويهي" }
+    commanders: [person/muizz-al-dawla]
+  - label: { ar: "ناصر الدولة الحمداني" }
+    commanders: [person/nasir-al-dawla]
+map: { kind: locator, precision: approximate, center: [44.36, 33.31] }
+date:
+  start: { edtf: "0946-08~", hijri: "0335-01", calendar: julian, precision: month, status: tradition, derived: true, note: "المحرم ٣٣٥؛ التحويل مشتق {cite:muntazam-ibn-al-jawzi p. 646}." }
+relations:
+  - { type: occurred_at, target: place/baghdad, sources: [source/muntazam-ibn-al-jawzi] }
+  - { type: had_participant, target: person/muizz-al-dawla, role: "الغالب", sources: [source/muntazam-ibn-al-jawzi] }
+  - { type: had_participant, target: person/nasir-al-dawla, role: "المهزوم", sources: [source/muntazam-ibn-al-jawzi] }
+provenance:
+  layer: own-research
+  source: "المنتظم لابن الجوزي (ط حيدرآباد 1357، ج7، سنة 335)، قراءة آبل فيجن"
+  generated_by: "Devin (SWE-2 Medium) from Apple Vision OCR"
+  run: lib-muntazam-258-349-batch30
+sources: [source/muntazam-ibn-al-jawzi]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 Medium)" }

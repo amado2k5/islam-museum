@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 22:17 (سورة الحج، الآية 17)."
 text: "إِنَّ ٱلَّذِينَ ءَامَنُوا۟ وَٱلَّذِينَ هَادُوا۟ وَٱلصَّـٰبِـِٔينَ وَٱلنَّصَـٰرَىٰ وَٱلْمَجُوسَ وَٱلَّذِينَ أَشْرَكُوٓا۟ إِنَّ ٱللَّهَ يَفْصِلُ بَيْنَهُمْ يَوْمَ ٱلْقِيَـٰمَةِ ۚ إِنَّ ٱللَّهَ عَلَىٰ كُلِّ شَىْءٍ شَهِيدٌ"
 text_search: "إن الذين آمنوا والذين هادوا والصابئين والنصارى والمجوس والذين أشركوا إن الله يفصل بينهم يوم القيامة ۚ إن الله على كل شيء شهيد"
+translations:
+  en: { text: "Lo! those who believe (this revelation), and those who are Jews, and the Sabaeans and the Christians and the Magians and the idolaters - Lo! Allah will decide between them on the Day of Resurrection. Lo! Allah is Witness over all things.", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "جو لوگ مومن (یعنی مسلمان) ہیں اور جو یہودی ہیں اور ستارہ پرست اور عیسائی اور مجوسی اور مشرک۔ خدا ان (سب) میں قیامت کے دن فیصلہ کردے گا۔ بےشک خدا ہر چیز سے باخبر ہے", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-22 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

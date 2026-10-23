@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 5:88 (سورة المائدة، الآية 88)."
 text: "وَكُلُوا۟ مِمَّا رَزَقَكُمُ ٱللَّهُ حَلَـٰلًا طَيِّبًا ۚ وَٱتَّقُوا۟ ٱللَّهَ ٱلَّذِىٓ أَنتُم بِهِۦ مُؤْمِنُونَ"
 text_search: "وكلوا مما رزقكم الله حلالا طيبا ۚ واتقوا الله الذي أنتم به مؤمنون"
+translations:
+  en: { text: "Eat of that which Allah hath bestowed on you as food lawful and good, and keep your duty to Allah in Whom ye are believers.", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "اور جو حلال طیّب روزی خدا نے تم کو دی ہے اسے کھاؤ اور خدا سے جس پر ایمان رکھتے ہو ڈرتے رہو", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-5 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

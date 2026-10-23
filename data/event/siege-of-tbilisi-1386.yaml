@@ -1,0 +1,23 @@
+id: event/siege-of-tbilisi-1386
+class: event
+kind: siege
+label: { ar: "حصار تبليسي (١٣٨٦)", en: "Siege of Tbilisi" }
+summary:
+  ar: "بطاقة أولية لحصار تبليسي سنة ١٣٨٦م، أخذ تيمور عاصمة جورجيا وأسر بقراط السابع؛ لم تُراجع مصادره على الصفحة بعد."
+  en: "Draft card for the Siege of Tbilisi in 1386, Timur's capture of Georgia's capital and Bagrat V's capture; its sources are not yet checked on the page."
+wings: [time]
+periods: [period/crusades-ayyubid-mamluk]
+regions: [persia-central-asia]
+date:
+  start: { edtf: "1386-10-01", precision: year, status: tradition, derived: true }
+  end: { edtf: "1386-11-22", precision: year, status: tradition, derived: true }
+sources: [source/tarikh-islam-hasan-ibrahim]
+external_ids:
+  wikidata: Q21481366
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; battle attested in narrative histories — entry not yet checked on the page"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-wave2
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

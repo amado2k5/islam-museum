@@ -1,0 +1,27 @@
+id: event/bab-tibn-desecration-443
+class: event
+kind: persecution
+label:
+  ar: "نبش مشهد باب التبن ووقعة باب السماكين"
+  en: "The Bab al-Tibn shrine exhumed and the Sammakin gate battle"
+summary:
+  ar: "في صفر سنة ثلاث وأربعين وأربعمائة تجددت الفتنة بين السنة والشيعة حين فرغ أهل الكرخ من بناء باب السماكين وكتبوا عليه «وعلى خير البشر»، فأنكر أهل السنة وطالبوا بإسقاط «حي على خير العمل»، وقطع أهل باب الشعير الماء عن الكرخ حتى بيعت الراوية بقيراط، وعُدل بماء الودود يُخلط ويُصاح «السبيل». ثم جمع الطقطقي العيار من أهل درزيجان وكبس بهم طاق الحراني من معاقل الكرخ فقتل رجلين وقطع رأسيهما ونصبهما على حائط المسجد المستجد، وهجم أهل القلائين على باب السماكين فأحرقوا البوارى المسبلة، وتقاتل الفريقان وكثر القتل، وصلب الطقطقي رجلين على الباب بعد أن قتل ثلاثة ورمى رؤوسهم إلى أهل الكرخ وقال «تغدوا برؤوسكم». واستُنفر البلد وقُبض مشهد باب التبن فنُهب ما فيه وأُخرجت جماعة من القبور فأُحرقت — مثل العوفي والناشئ والجذوعي — ونُقل موتى فدُفنوا في مقابر شتى، وطُرحت النار في الترب القديمة والحديثة واحترق الضريحان وقبتا الساج، وحُفر أحد الضريحين ليُنقل صاحبه إلى قبر أحمد فمنع النقيب والناس، وكبس أهل الكرخ خان الفقهاء الحنفية بقطيعة الربيع فنهبوه وأحرقوه. وفي يوم الجمعة لعشر بقين من ربيع الآخر خُطب في جامع براثا وأُسقط «حي على خير العمل» وذُكر العباس في الخطبة {cite:muntazam-ibn-al-jawzi j.8 p.491-493}."
+  en: "In Safar 443 the Sunni–Shi'i war resumed over the 'wa-Ali khayr al-bashar' inscription on the new Sammakin gate; water was cut to Karkh until a waterskin sold for a qirat, and rosewater was mixed into public troughs. The Darzijani 'ayyar al-Tuqtuqi stormed the Taq al-Hurrani stronghold, beheaded two men and raised the heads on the new mosque's wall, then crucified two more on the gate after killing three, hurling their heads into Karkh with 'have your heads for breakfast'. The city rose: the Bab al-Tibn shrine was seized and looted, corpses — the 'Awfi, al-Nashi' and al-Judhu'i among them — were dragged out and burned or reburied elsewhere, the teak domes torched, the Hanafi jurists' khan in Qati'at al-Rabi' sacked, and at last Baratha's khutba returned with 'hayya ala khayr al-amal' dropped and al-Abbas named {cite:muntazam-ibn-al-jawzi j.8 p.491-493}."
+wings: [time]
+periods: [period/buyid-seljuk-fatimid-era]
+regions: [levant-iraq]
+themes: [sects-and-schools, cities]
+sides:
+  - label: { ar: "أهل السنة والعيارون" }
+  - label: { ar: "أهل الكرخ" }
+date:
+  start: { edtf: "1051-04~", hijri: "0443-02", calendar: julian, precision: month, status: tradition, derived: true, note: "صفر–ربيع الآخر ٤٤٣ {cite:muntazam-ibn-al-jawzi j.8 p.491-493}" }
+relations:
+  - { type: occurred_at, target: place/baghdad, sources: [source/muntazam-ibn-al-jawzi] }
+provenance:
+  layer: own-research
+  source: "المنتظم في تاريخ الملوك والأمم — ابن الجوزي (ج8، أحداث سنة ٤٤٣)، قراءة آبل فيجن، مسح AAlexandrina-224011"
+  generated_by: "Devin (SWE-2 Medium) from Apple Vision OCR"
+  run: lib-muntazam-350-474-batch24
+sources: [source/muntazam-ibn-al-jawzi]
+status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 Medium)" }

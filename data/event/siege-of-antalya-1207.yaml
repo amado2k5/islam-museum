@@ -1,0 +1,23 @@
+id: event/siege-of-antalya-1207
+class: event
+kind: siege
+label: { ar: "حصار أنطاليا (١٢٠٧)", en: "Siege of Antalya" }
+summary:
+  ar: "بطاقة أولية لحصار أنطاليا سنة ١٢٠٧م، أخذ سلاجقة الروم للمدينة من البيزنطيين؛ لم تُراجع مصادره على الصفحة بعد."
+  en: "Draft card for the Siege of Antalya in 1207, the Seljuk capture of the city from the Byzantines; its sources are not yet checked on the page."
+wings: [time]
+periods: [period/crusades-ayyubid-mamluk]
+regions: [anatolia-balkans]
+date:
+  start: { edtf: "1207", precision: year, status: tradition, derived: true }
+  end: { edtf: "1207", precision: year, status: tradition, derived: true }
+sources: [source/kamil-ibn-al-athir]
+external_ids:
+  wikidata: Q3485813
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; battle attested in narrative histories — entry not yet checked on the page"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-wave2
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

@@ -1,0 +1,23 @@
+id: event/battle-of-arnisol-1126
+class: event
+kind: battle
+label: { ar: "معركة أرنيسول (١١٢٦)", en: "Battle of Arnisol (1126)" }
+summary:
+  ar: "بطاقة أولية لمعركة أرنيسول سنة ١١٢٦م، نصر ألفونس الأول ملك أراغون على المرابطين؛ لم تُراجع مصادره على الصفحة بعد."
+  en: "Draft card for the Battle of Arnisol in 1126, Alfonso I of Aragon's victory over the Almoravids; its sources are not yet checked on the page."
+wings: [time]
+periods: [period/crusades-ayyubid-mamluk]
+regions: [andalus-europe]
+date:
+  start: { edtf: "1126-03", precision: year, status: tradition, derived: true }
+  end: { edtf: "1126-03", precision: year, status: tradition, derived: true }
+sources: [source/tarikh-islam-hasan-ibrahim]
+external_ids:
+  wikidata: Q11908711
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; battle attested in narrative histories — entry not yet checked on the page"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-wave2
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

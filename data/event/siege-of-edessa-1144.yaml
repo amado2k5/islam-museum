@@ -1,0 +1,23 @@
+id: event/siege-of-edessa-1144
+class: event
+kind: siege
+label: { ar: "حصار الرها", en: "Siege of Edessa" }
+summary:
+  ar: "بطاقة أولية لسقوط الرها سنة ١١٤٤م، استردادها عماد الدين زنكي من أيدي الفرنج وهو الحدث الذي استدعى الحملة الثانية؛ لم تُراجع مصادره على الصفحة بعد."
+  en: "Draft card for the fall of Edessa in 1144, Imad al-Din Zengi's recovery of the city from the Franks — the event that summoned the Second Crusade; its sources are not yet checked on the page."
+wings: [time]
+periods: [period/crusades-ayyubid-mamluk]
+regions: [levant-iraq]
+date:
+  start: { edtf: "1144", precision: year, status: tradition, derived: true }
+  end: { edtf: "1144", precision: year, status: tradition, derived: true }
+sources: [source/kamil-ibn-al-athir]
+external_ids:
+  wikidata: Q2083368
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; siege attested in Crusades histories — entry not yet checked on the page"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-wave2
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

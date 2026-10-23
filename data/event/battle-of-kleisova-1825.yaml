@@ -1,0 +1,23 @@
+id: event/battle-of-kleisova-1825
+class: event
+kind: battle
+label: { ar: "معركة كليسوفا (١٨٢٥)", en: "Battle of Kleisova (1825)" }
+summary:
+  ar: "بطاقة أولية لمعركة كليسوفا (١٨٢٥)؛ لم تُراجع مصادره على الصفحة بعد."
+  en: "Draft card for Battle of Kleisova (1825); its sources are not yet checked on the page."
+wings: [time]
+periods: [period/colonial-era]
+regions: [anatolia-balkans]
+date:
+  start: { edtf: "1825", precision: year, status: tradition, derived: true }
+  end: { edtf: "1825", precision: year, status: tradition, derived: true }
+sources: [source/tarikh-islam-hasan-ibrahim]
+external_ids:
+  wikidata: Q16331889
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; battle attested in narrative histories — entry not yet checked on the page"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-wave2
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

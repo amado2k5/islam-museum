@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 18:32 (سورة الكهف، الآية 32)."
 text: "۞ وَٱضْرِبْ لَهُم مَّثَلًا رَّجُلَيْنِ جَعَلْنَا لِأَحَدِهِمَا جَنَّتَيْنِ مِنْ أَعْنَـٰبٍ وَحَفَفْنَـٰهُمَا بِنَخْلٍ وَجَعَلْنَا بَيْنَهُمَا زَرْعًا"
 text_search: "۞ واضرب لهم مثلا رجلين جعلنا لأحدهما جنتين من أعناب وحففناهما بنخل وجعلنا بينهما زرعا"
+translations:
+  en: { text: "Coin for them a similitude: Two men, unto one of whom We had assigned two gardens of grapes, and We had surrounded both with date-palms and had put between them tillage.", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "اور ان سے دو شخصوں کا حال بیان کرو جن میں سے ایک ہم نے انگور کے دو باغ (عنایت) کئے تھے اور ان کے گردا گرد کھجوروں کے درخت لگا دیئے تھے اور ان کے درمیان کھیتی پیدا کردی تھی", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-18 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

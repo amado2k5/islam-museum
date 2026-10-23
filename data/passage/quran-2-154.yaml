@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 2:154 (سورة البقرة، الآية 154)."
 text: "وَلَا تَقُولُوا۟ لِمَن يُقْتَلُ فِى سَبِيلِ ٱللَّهِ أَمْوَٰتٌۢ ۚ بَلْ أَحْيَآءٌ وَلَـٰكِن لَّا تَشْعُرُونَ"
 text_search: "ولا تقولوا لمن يقتل في سبيل الله أموات ۚ بل أحياء ولكن لا تشعرون"
+translations:
+  en: { text: "And call not those who are slain in the way of Allah \"dead.\" Nay, they are living, only ye perceive not.", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "اور جو لوگ خدا کی راہ میں مارے جائیں ان کی نسبت یہ کہنا کہ وہ مرے ہوئے ہیں (وہ مردہ نہیں) بلکہ زندہ ہیں لیکن تم نہیں جانتے", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-2 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

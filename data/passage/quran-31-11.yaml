@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 31:11 (سورة لقمان، الآية 11)."
 text: "هَـٰذَا خَلْقُ ٱللَّهِ فَأَرُونِى مَاذَا خَلَقَ ٱلَّذِينَ مِن دُونِهِۦ ۚ بَلِ ٱلظَّـٰلِمُونَ فِى ضَلَـٰلٍ مُّبِينٍ"
 text_search: "هذا خلق الله فأروني ماذا خلق الذين من دونه ۚ بل الظالمون في ضلال مبين"
+translations:
+  en: { text: "This is the Creation of Allah. Now show me that which those (ye worship) beside Him have created. Nay, but the wrong-doers are in error manifest!", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "یہ تو خدا کی پیدائش ہے تو مجھے دکھاؤ کہ خدا کے سوا جو لوگ ہیں اُنہوں نے کیا پیدا کیا ہے؟ حقیقت یہ ہے کہ یہ ظالم صریح گمراہی میں ہیں", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-31 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

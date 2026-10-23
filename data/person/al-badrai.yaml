@@ -1,0 +1,27 @@
+id: person/al-badrai
+class: person
+label: { ar: "نجم الدين البدرائي", en: "Najm al-Din al-Badrai" }
+names:
+  - { value: "البدرائي العلامة نجم الدين أبو محمد عبد الله بن أبي الوفاء محمد بن الحسن الشافعي الفرضي", kind: full }
+born: { edtf: "1198", hijri: "0594", calendar: julian, precision: year, status: tradition, derived: true, note: "ولد سنة أربع وتسعين وخمسمائة {cite:shadharat-dhahab p. 277}." }
+died: { edtf: "1257-11~", hijri: "0655-11", calendar: julian, precision: month, status: tradition, derived: true, note: "ولي القضاء ببغداد على كره وتوفي بعد خمسة عشر يوماً في ذي القعدة سنة خمس وخمسين وستمائة، وعافاه الله من كائنة التتار {cite:shadharat-dhahab p. 277}." }
+summary:
+  ar: "العلامة الفرضي؛ درس بالنظامية وترسل غير مرة وحدث بحلب ودمشق ومصر وبغداد، وبنى بدمشق المدرسة الكبيرة المشهورة به المعروفة بالبدرائية؛ قال الذهبي كان فقيهاً عالماً ديّناً صدراً محتشماً جليل القدر وافر الحرمة متواضعاً دمث الأخلاق منبسطاً، وولي القضاء ببغداد على كره وتوفي بعد خمسة عشر يوماً في ذي القعدة وعافاه الله من كائنة التتار؛ قال السيوطي نسبة إلى بادرايا قرية من عمل واسط {cite:shadharat-dhahab p. 277}."
+  en: "The faridi (b. 594) — taught at the Nizamiyya, built Damascus's famous Badra'iyya madrasa; appointed qadi of Baghdad against his will he died fifteen days later, Dhu al-Qa'da 655 — 'God spared him the Tatar calamity' {cite:shadharat-dhahab p. 277}."
+gender: male
+roles: [scholar, jurist, teacher]
+wings: [people]
+periods: [period/crusades-ayyubid-mamluk]
+regions: [levant-iraq, egypt-nile]
+faith:
+  - value: sunni-shafii
+    basis: tradition
+relations:
+  - { type: died_in, target: place/baghdad, sources: [source/shadharat-dhahab] }
+sources: [source/shadharat-dhahab]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }
+provenance:
+  layer: own-research
+  source: "شذرات الذهب — ابن العماد (ج5، سنة 655)، قراءة آبل فيجن"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-shadharat-batch-129

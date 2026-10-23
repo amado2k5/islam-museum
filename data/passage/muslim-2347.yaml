@@ -1,0 +1,16 @@
+id: passage/muslim-2347
+class: passage
+unit: hadith
+work: work/sahih-muslim
+ref: "2347"
+label: { ar: "مسلم 2347 — صفة خلقه ومبعثه وسنه عند الوفاة", en: "Muslim 2347 — His appearance, mission age, and age at death" }
+text: "قال أنس: كان رسول الله ليس بالطويل البائن ولا بالقصير، وليس بالأبيض الأمهق ولا بالآدم، ولا بالجعد القطط ولا بالسبط؛ بعثه الله على رأس أربعين سنة، فأقام بمكة عشر سنين وبالمدينة عشر سنين، وتوفاه الله على رأس ستين سنة، وليس في رأسه ولحيته عشرون شعرة بيضاء"
+summary:
+  ar: "رواية أنس بن مالك في باب صفة النبي ومبعثه وسنه من كتاب الفضائل في صحيح مسلم؛ الوصف الجسدي الكامل مع مبعثه على رأس الأربعين وإقامته بمكة والمدينة عشراً عشراً ووفاته على رأس الستين — النص الجامع للشمائل والسيرة."
+relations:
+  - { type: mentions, target: person/muhammad, sources: [source/sahih-muslim] }
+  - { type: mentions, target: person/anas-ibn-malik, sources: [source/sahih-muslim] }
+  - { type: mentions, target: concept/al-shamail-al-muhammadiyya, sources: [source/sahih-muslim] }
+provenance: { layer: own-research, source: "صحيح مسلم، كتاب الفضائل، باب في صفة النبي ومبعثه وسنه (طبعة دار التأصيل، الحديث 6236؛ ترقيم عبد الباقي المعروف 2347)، تصوير Apple Vision OCR", generated_by: "Devin (SWE-2 High) from Apple Vision OCR", run: "hadith-muslim-passages-2" }
+sources: [source/sahih-muslim]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High); matn excerpt checked against the scan" }

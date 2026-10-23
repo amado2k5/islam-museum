@@ -1,0 +1,23 @@
+id: event/nur-aldin-adiliyya-defeat-600
+class: event
+kind: battle
+label: { ar: "انهزام نور الدين صاحب الموصل من العساكر العادلية", en: "Nur al-Din Arslan Shah of Mosul defeated by al-Adil's armies" }
+date:
+  start: { edtf: "1203~", hijri: "0600", calendar: julian, precision: "year", status: tradition, derived: true }
+summary:
+  ar: "انهزم نور الدين أرسلان شاه صاحب الموصل في العشرين من شوال من العساكر العادلية حين تصادف الفريقان {cite:kamil-ibn-al-athir p. 289}."
+  en: "Nur al-Din Arslan Shah of Mosul was routed by al-Adil's forces when the two armies met {cite:kamil-ibn-al-athir p. 289}."
+sides:
+  - label: { ar: "نور الدين أرسلان شاه صاحب الموصل" }
+  - label: { ar: "العساكر العادلية" }
+relations:
+  - { type: occurred_at, target: place/mosul, sources: [source/kamil-ibn-al-athir] }
+  - { type: had_participant, target: person/nur-al-din-arslan-shah, role: "المنهزم", sources: [source/kamil-ibn-al-athir] }
+  - { type: had_participant, target: person/al-malik-al-adil-ayyub, role: "الطرف الغالب", sources: [source/kamil-ibn-al-athir] }
+provenance:
+  layer: own-research
+  source: "الكامل في التاريخ لابن الأثير، قراءة آبل فيجن"
+  generated_by: "Devin (SWE-2 Medium) from Apple Vision OCR"
+  run: lib-kamil-v12-batch05
+sources: [source/kamil-ibn-al-athir]
+status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 Medium)" }

@@ -1,0 +1,15 @@
+id: passage/muslim-1829
+class: passage
+unit: hadith
+work: work/sahih-muslim
+ref: "1829"
+label: { ar: "مسلم 1829 — ألا كلكم راع وكلكم مسؤول عن رعيته", en: "Muslim 1829 — Each of you is a shepherd, each responsible for his flock" }
+text: "قال عبد الله بن عمر عن النبي: ألا كلكم راع وكلكم مسؤول عن رعيته، فالأمير الذي على الناس راع وهو مسؤول عن رعيته، والرجل راع على أهل بيته وهو مسؤول عنهم، والمرأة راعية على بيت بعلها وولده وهي مسؤولة عنهم، والعبد راع على مال سيده وهو مسؤول عنه، ألا فكلكم راع وكلكم مسؤول عن رعيته"
+summary:
+  ar: "رواية عبد الله بن عمر في باب الولاة من كتاب الإمارة في صحيح مسلم؛ نظرية المسؤولية المتداخلة: كل امرئ راعٍ في مجاله ومسؤول عن رعيته."
+relations:
+  - { type: mentions, target: person/muhammad, sources: [source/sahih-muslim] }
+  - { type: mentions, target: person/abdullah-ibn-umar, sources: [source/sahih-muslim] }
+provenance: { layer: own-research, source: "صحيح مسلم، كتاب الإمارة (طبعة دار التأصيل، الحديث 1876؛ ترقيم عبد الباقي المعروف 1829)، تصوير Apple Vision OCR", generated_by: "Devin (SWE-2 High) from Apple Vision OCR", run: "hadith-muslim-passages-4" }
+sources: [source/sahih-muslim]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High); matn excerpt at most 40 words checked against the scan" }

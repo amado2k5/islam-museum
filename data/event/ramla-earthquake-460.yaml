@@ -1,0 +1,22 @@
+id: event/ramla-earthquake-460
+class: event
+kind: other
+label: { ar: "زلزلة الرملة الكبرى", en: "The great earthquake of Ramla" }
+summary:
+  ar: "في جمادى الأولى سنة ستين وأربعمائة كانت زلزلة بأرض فلسطين أهلكت بلد الرملة، وكتب بعض التجار في هذه الزلزلة أنها خسفت الرملة جميعها، وانجفل البحر وقت الزلزلة حتى انكشفت أرضه ومشى الناس فيه ثم عاد إلى حاله، وتغيّرت إحدى زوايا الجامع بمصر {cite:muntazam-ibn-al-jawzi j.8 p.598}."
+  en: "The great Jumada I 460 earthquake in Palestine destroyed Ramla outright — a merchant's letter says the town was swallowed whole; the sea recoiled so far its floor lay bare and people walked on it before it returned, and one corner of the mosque in Egypt shifted {cite:muntazam-ibn-al-jawzi j.8 p.598}."
+wings: [time]
+periods: [period/buyid-seljuk-fatimid-era]
+regions: [levant-iraq, egypt-nile]
+themes: [cities]
+date:
+  start: { edtf: "1068-03", hijri: "0460-05", calendar: julian, precision: month, status: tradition, derived: true, note: "جمادى الأولى ٤٦٠؛ التحويل مشتق." }
+relations:
+  - { type: occurred_at, target: place/ramla, sources: [source/muntazam-ibn-al-jawzi] }
+provenance:
+  layer: own-research
+  source: "المنتظم لابن الجوزي (ط حيدرآباد 1357، ج8، سنة 460)، قراءة آبل فيجن"
+  generated_by: "Devin (SWE-2 Medium) from Apple Vision OCR"
+  run: lib-muntazam-350-474-batch25
+sources: [source/muntazam-ibn-al-jawzi]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 Medium)" }

@@ -1,0 +1,113 @@
+id: screen/umar-2012
+class: screen
+format: series
+relevance: primary
+label:
+  en: Omar
+  ar: عمر
+titles:
+- lang: ar
+  value: عمر
+  kind: original
+- lang: en
+  value: Omar
+  kind: alternate
+- lang: en
+  value: Farouk Omar
+  kind: broadcast
+summary:
+  ar: مسلسل تاريخي إنتاج إم بي سي يتابع سيرة عمر بن الخطاب من الجاهلية إلى استشهاده خليفةً، ولا يظهر فيه النبي ولا يُسمع صوته.
+  en: An MBC historical series following the life of Umar ibn al-Khattab from the Jahiliya to his assassination as caliph;
+    the Prophet is neither shown nor heard.
+wings: []
+themes:
+- prophets
+- wars-and-campaigns
+first_broadcast:
+  edtf: '2012'
+  calendar: gregorian
+  precision: year
+countries:
+- sa
+languages:
+  original:
+  - ar
+  dubbed:
+  - fa
+  - tr
+  - ur
+  - id
+seasons: 1
+episodes: 31
+broadcaster: group/mbc
+depiction:
+  prophet: not-shown
+  companions: shown
+  imams: shown
+  note: The Prophet is never shown; Companions including Ali are played by actors — a depiction Sunni religious authorities
+    have often objected to.
+approach: historical-drama
+sensitivity: figurative-prophet
+relations:
+- type: about
+  target: person/umar-ibn-al-khattab
+- type: about
+  target: person/muhammad
+- type: set_in
+  target: period/prophetic-era
+- type: set_in
+  target: period/rashidun
+- type: set_in
+  target: place/mecca
+- type: set_in
+  target: place/medina
+- type: features
+  target: person/samer-ismail
+- type: features
+  target: person/ghassan-massoud
+- type: features
+  target: person/ghanem-zrelli
+- type: features
+  target: person/qasim-melho
+- type: features
+  target: person/fethi-haddaoui
+- type: features
+  target: person/mohammed-hassan-el-joundi
+- type: features
+  target: person/may-skaf
+- type: features
+  target: person/muna-wassef
+- type: directed_by
+  target: person/hatem-ali
+- type: written_by
+  target: person/walid-saif
+- type: broadcast_by
+  target: group/mbc-1
+- type: broadcast_by
+  target: group/qatar-tv
+external_ids:
+  wikidata: Q3184088
+  imdb: tt2063241
+  elcinema: '2012535'
+sources:
+- source/wikidata
+- source/imdb
+- source/elcinema
+status:
+  review: draft
+  completeness: 2
+  generated_by: Devin (SWE-2 High), screen-index lane; existence, year and identifiers verified against Wikidata and IMDb,
+    2026-10-16
+reception:
+- kind: fatwa
+  note: Al-Azhar's Islamic Research Academy and Saudi Dar al-Ifta opposed the series for depicting the Companions; other scholars
+    including Salman al-Ouda and Yusuf al-Qaradawi approved it.
+  sources:
+  - source/thr-omar-fatwa-2012
+  - source/national-omar-2012
+- kind: protest
+  note: Pre-broadcast campaign against the series ('No to showing Farouk Omar'); defenders argued dramatising the Companions
+    has precedent.
+  sources:
+  - source/egyptind-omar-2012
+  - source/alarabiya-omar-2012

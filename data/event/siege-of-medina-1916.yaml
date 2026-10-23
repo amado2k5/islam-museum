@@ -1,0 +1,23 @@
+id: event/siege-of-medina-1916
+class: event
+kind: siege
+label: { ar: "حصار المدينة (١٩١٦–١٩١٩)", en: "Siege of Medina" }
+summary:
+  ar: "بطاقة أولية لحصار المدينة المنورة من ١٩١٦ إلى ١٩١٩م، محاصرة الحجازيين للحامية العثمانية بقيادة فخري باشا حتى استسلامها؛ لم تُراجع مصادره على الصفحة بعد."
+  en: "Draft card for the Siege of Medina from 1916 to 1919, the Hashemite blockade of Fahreddin Pasha's Ottoman garrison until its surrender; its sources are not yet checked on the page."
+wings: [time]
+periods: [period/modern-era]
+regions: [arabia]
+date:
+  start: { edtf: "1916", precision: year, status: tradition, derived: true }
+  end: { edtf: "1919", precision: year, status: tradition, derived: true }
+sources: [source/dawlat-uthmaniyya-salabi]
+external_ids:
+  wikidata: Q2089011
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; siege attested in WWI histories — entry not yet checked on the page"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-wave2
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

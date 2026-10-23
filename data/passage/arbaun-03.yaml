@@ -1,0 +1,17 @@
+id: passage/arbaun-03
+class: passage
+unit: hadith
+work: work/arbaun-nawawi
+ref: "3"
+label: { ar: "الأربعون 3 — بني الإسلام على خمس", en: "Arba'un 3 — Islam is built on five" }
+text: "بني الإسلام على خمس: شهادة أن لا إله إلا الله وأن محمدا عبده ورسوله، وإقام الصلاة، وإيتاء الزكاة، وحج البيت، وصوم رمضان"
+summary:
+  ar: "حديث عبد الله بن عمر في أركان الإسلام، وهو الحديث الثالث في الأربعين النووية وفي شرح ابن رجب؛ رواه البخاري (8) ومسلم (16) من طرق عن عكرمة بن خالد وسعد بن عبيد ومحمد بن زيد عن ابن عمر، وأخرجه أحمد (2/143) والترمذي (2609) والنسائي وابن خزيمة وابن حبان وغيرهم، وروي أيضاً من حديث جرير بن عبد الله البجلي عند أحمد (4/363–364)؛ يبيّن ابن رجب أن الإسلام مبني على هذه الخمس كالبنيان على دعائمه، وأن الإيمان بالله ورسوله داخل في ضمن الإسلام (جامع العلوم والحكم ص 121–130)."
+  en: "Abdullah ibn Umar's hadith on the pillars of Islam, the third hadith of al-Nawawi's Forty and of Ibn Rajab's commentary; transmitted by al-Bukhari (8) and Muslim (16) through Ikrama ibn Khalid, Sa'd ibn Ubayd and Muhammad ibn Zayd from Ibn Umar, and also by Ahmad (2/143), al-Tirmidhi (2609), al-Nasa'i, Ibn Khuzayma, Ibn Hibban and others; a version from Jarir ibn Abdullah al-Bajali is transmitted by Ahmad (4/363–364). Ibn Rajab explains Islam as a structure resting on these five supports, with belief in God and His Messenger included within islam (Jami' al-Ulum wal-Hikam pp. 121–130)."
+relations:
+  - { type: basis_for, target: concept/five-pillars, sources: [source/ibn-rajab-jami-ulum-hikam] }
+  - { type: basis_for, target: concept/islam-din, sources: [source/ibn-rajab-jami-ulum-hikam] }
+  - { type: mentions, target: person/abdullah-ibn-umar, sources: [source/ibn-rajab-jami-ulum-hikam] }
+provenance: { layer: own-research, source: "Jami' al-Ulum wal-Hikam (Dar Ibn Kathir 1429/2008), hadith 3 pp. 121–130", generated_by: "Devin (SWE-2 High) from Apple Vision OCR", run: "lib-jami-ulum-hikam-batch-2" }
+sources: [source/ibn-rajab-jami-ulum-hikam]
+status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 High); matn verified against OCR of printed p. 121, takhrij from the edition's apparatus" }

@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 79:8 (سورة النازعات، الآية 8)."
 text: "قُلُوبٌ يَوْمَئِذٍ وَاجِفَةٌ"
 text_search: "قلوب يومئذ واجفة"
+translations:
+  en: { text: "On that day hearts beat painfully", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "اس دن (لوگوں) کے دل خائف ہو رہے ہوں گے", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-79 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

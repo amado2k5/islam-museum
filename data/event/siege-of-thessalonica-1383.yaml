@@ -1,0 +1,23 @@
+id: event/siege-of-thessalonica-1383
+class: event
+kind: siege
+label: { ar: "حصار سلانيك (١٣٨٣–١٣٨٧)", en: "Siege of Thessalonica (1383–87)" }
+summary:
+  ar: "بطاقة أولية لحصار سلانيك من ١٣٨٣ إلى ١٣٨٧م، أخذ العثمانيين للمدينة؛ لم تُراجع مصادره على الصفحة بعد."
+  en: "Draft card for the Siege of Thessalonica in 1383–87, the Ottoman capture of the city; its sources are not yet checked on the page."
+wings: [time]
+periods: [period/crusades-ayyubid-mamluk]
+regions: [anatolia-balkans]
+date:
+  start: { edtf: "1383", precision: year, status: tradition, derived: true }
+  end: { edtf: "1387", precision: year, status: tradition, derived: true }
+sources: [source/dawlat-uthmaniyya-salabi]
+external_ids:
+  wikidata: Q60315800
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; battle attested in narrative histories — entry not yet checked on the page"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-wave2
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

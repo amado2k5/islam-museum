@@ -1,0 +1,15 @@
+id: passage/muwatta-17-1947
+class: passage
+unit: hadith
+work: work/muwatta-malik
+ref: "1947"
+label: { ar: "الموطأ 1947 — مالك: أما أن يبيع رجل من رجل سلعة يبت بيعها، ثم يندم المشتري فيقول للبائع: ضع عني. فيأبى البائع ويقول: بع ولا نقصان عليك، فهذا لا بأس به، لأنه ليس من المخاطرة، وإنما هو شيء وضعه له", en: "Muwatta 1947" }
+summary:
+  ar: "قال مالك: فأما أن يبيع رجل من رجل سلعة يبت بيعها، ثم يندم المشتري فيقول للبائع: ضع عني. فيأبى البائع ويقول: بع ولا نقصان عليك. فهذا لا بأس به، لأنه ليس من المخاطرة، وإنما هو شيء وضعه له، وليس على ذلك عقد بيعهما. وذلك الذي عليه الأمر عندنا. {cite:muwatta-maruf-1997 p.196}"
+relations:
+  - { type: part_of, target: passage/muwatta-kitab-17-buyu }
+  - { type: mentions, target: person/malik-ibn-anas, sources: [source/muwatta-maruf-1997] }
+  - { type: basis_for, target: concept/bay, sources: [source/muwatta-maruf-1997] }
+provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 2, hadith 1947 at PDF p. 196; بيع الغرر", generated_by: "Claude Code (claude-haiku-5-5) from Apple Vision OCR of the Noor-Book PDF, checked on the page image where doubtful", run: "muwatta-prose-k17-b50" }
+sources: [source/muwatta-maruf-1997]
+status: { review: draft, completeness: 2, generated_by: "Claude Code (claude-haiku-5-5); own-words account written from PDF p. 196; matn excerpt at most 40 words" }

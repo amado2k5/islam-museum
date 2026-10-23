@@ -1,0 +1,23 @@
+id: event/ismailis-khurasan-600
+class: event
+kind: massacre
+label: { ar: "قتل طائفة من الإسماعيلية بخراسان", en: "Ismailis massacred in Khurasan" }
+date:
+  start: { edtf: "1203~", hijri: "0600", calendar: julian, precision: "year", status: tradition, derived: true }
+summary:
+  ar: "أُلقي كتاب إلى شهاب الدين الغوري من مقدم الإسماعيلية فحمله على قتل طائفة منهم بخراسان؛ قيل إنه فخّ دُبّر عليه ليستميله العامة {cite:kamil-ibn-al-athir p. 288}."
+  en: "A letter from an Ismaili leader reached Shihab al-Din and led to a slaughter of Ismailis in Khurasan — said by some to be a trap laid to turn public feeling against him {cite:kamil-ibn-al-athir p. 288}."
+sides:
+  - label: { ar: "جند شهاب الدين الغوري" }
+  - label: { ar: "الإسماعيلية بخراسان" }
+relations:
+  - { type: occurred_at, target: place/khurasan, sources: [source/kamil-ibn-al-athir] }
+  - { type: had_participant, target: group/ismaili-dawa, role: "المقتولون", sources: [source/kamil-ibn-al-athir] }
+  - { type: had_participant, target: person/shihab-al-din-ghuri, role: "الآمر", sources: [source/kamil-ibn-al-athir] }
+provenance:
+  layer: own-research
+  source: "الكامل في التاريخ لابن الأثير، قراءة آبل فيجن"
+  generated_by: "Devin (SWE-2 Medium) from Apple Vision OCR"
+  run: lib-kamil-v12-batch05
+sources: [source/kamil-ibn-al-athir]
+status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 Medium)" }

@@ -1,0 +1,19 @@
+id: event/ghiyath-mahmud-ghuri-killed-605
+class: event
+kind: death
+label: { ar: "قتل غياث الدين محمود الغوري", en: "Ghiyath al-Din Mahmud al-Ghuri killed" }
+date:
+  start: { edtf: "1208~", hijri: "0605", calendar: julian, precision: year, status: tradition, derived: true }
+summary:
+  ar: "قُتل غياث الدين محمود بن غياث الدين صاحب الغور، واضطرب ملك الغوريين بعده حتى ملك الخوارزميون أكثر بلادهم {cite:kamil-ibn-al-athir p. 337}."
+  en: "Ghiyath al-Din Mahmud of Ghur was killed and the Ghurid realm fell into disorder until the Khwarazmians took most of it {cite:kamil-ibn-al-athir p. 337}."
+relations:
+  - { type: occurred_at, target: place/ghazna, sources: [source/kamil-ibn-al-athir] }
+  - { type: had_participant, target: person/ghiyath-al-din-mahmud-ghuri, role: "المقتول", sources: [source/kamil-ibn-al-athir] }
+provenance:
+  layer: own-research
+  source: "الكامل في التاريخ لابن الأثير، قراءة آبل فيجن"
+  generated_by: "Devin (SWE-2 Medium) from Apple Vision OCR"
+  run: lib-kamil-v12-batch06
+sources: [source/kamil-ibn-al-athir]
+status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 Medium)" }

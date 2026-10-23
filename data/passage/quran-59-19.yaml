@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 59:19 (سورة الحشر، الآية 19)."
 text: "وَلَا تَكُونُوا۟ كَٱلَّذِينَ نَسُوا۟ ٱللَّهَ فَأَنسَىٰهُمْ أَنفُسَهُمْ ۚ أُو۟لَـٰٓئِكَ هُمُ ٱلْفَـٰسِقُونَ"
 text_search: "ولا تكونوا كالذين نسوا الله فأنساهم أنفسهم ۚ أولئك هم الفاسقون"
+translations:
+  en: { text: "And be not ye as those who forgot Allah, therefor He caused them to forget their souls. Such are the evil-doers.", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "اور ان لوگوں جیسے نہ ہونا جنہوں نے خدا کو بھلا دیا تو خدا نے انہیں ایسا کردیا کہ خود اپنے تئیں بھول گئے۔ یہ بدکردار لوگ ہیں", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-59 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

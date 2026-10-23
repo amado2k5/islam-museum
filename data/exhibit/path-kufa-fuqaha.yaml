@@ -1,0 +1,76 @@
+id: exhibit/path-kufa-fuqaha
+class: exhibit
+kind: trail
+label:
+  ar: فقه الكوفة
+  en: The Kufa School
+summary:
+  ar: 'مسار في مدرسة الكوفة: إبراهيم النخعي والشعبي وسفيان الثوري يمهدون، وأبو حنيفة يؤسس أكبر مذهب.'
+  en: A trail through the Kufa school.
+audience:
+- newcomer
+- student
+duration_minutes: 30
+wings: []
+regions:
+- levant-iraq
+rooms:
+- title:
+    ar: إبراهيم النخعي
+    en: Ibrahim
+  body:
+    ar: 'النخعي: فقيه الكوفة بعد علقمة.'
+    en: 'النخعي: فقيه الكوفة بعد علقمة.'
+  features:
+  - person/ibrahim-al-nakhai
+  - place/kufa
+- title:
+    ar: الشعبي
+    en: Al-Sha'bi
+  body:
+    ar: 'عامر الشعبي: عالِم الأعراب الموسوعي.'
+    en: 'عامر الشعبي: عالِم الأعراب الموسوعي.'
+  features:
+  - person/amir-al-shabi
+  - place/kufa
+- title:
+    ar: أبو حنيفة
+    en: Abu Hanifa
+  body:
+    ar: 'الإمام الأعظم: الرأي والقياس.'
+    en: 'الإمام الأعظم: الرأي والقياس.'
+  features:
+  - person/abu-hanifa
+  - place/kufa
+- title:
+    ar: سفيان الثوري
+    en: Al-Thawri
+  body:
+    ar: 'فقيه الحديث: الجيل الثاني.'
+    en: 'فقيه الحديث: الجيل الثاني.'
+  features:
+  - person/sufyan-al-thawri
+  - place/kufa
+- title:
+    ar: المدرسة
+    en: The school
+  body:
+    ar: 'من الكوفة إلى العالم: حنفية الأمة.'
+    en: 'من الكوفة إلى العالم: حنفية الأمة.'
+  features:
+  - place/kufa
+  - concept/fiqh
+prerequisites:
+- exhibit/path-islam-in-30-minutes
+sources:
+- source/wikidata
+provenance:
+  layer: own-research
+  source: Devin-assembled trail from existing museum entities
+  generated_by: Devin (SWE-2 High)
+  model: SWE-2 High
+  run: pathways-batch-7
+status:
+  review: draft
+  completeness: 1
+  generated_by: Devin (SWE-2 High), pathways lane, 2026-10-16

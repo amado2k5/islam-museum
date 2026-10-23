@@ -1,0 +1,78 @@
+---
+// Teacher's Kit hub: what the wing offers, the three age bands, learning
+// paths, lessons, printables index and the 5-school pilot teaser.
+// All server-rendered.
+import BaseLayout from "../../../layouts/BaseLayout.astro";
+import { ui, LANGS, type Lang } from "../../../lib/i18n";
+import { loadPaths, viewPaths, loadLessons, viewLessons } from "../../../lib/kids";
+import "../../../styles/kids.css";
+
+export function getStaticPaths() { return LANGS.map((lang) => ({ params: { lang }, props: { lang } })); }
+const { lang } = Astro.props as { lang: Lang };
+const T = ui(lang);
+const t = T.kids;
+const paths = viewPaths(loadPaths(), lang);
+const lessons = viewLessons(loadLessons(), lang);
+const lessonTitle = (unit_slug: string): string => t[`${unit_slug}_title`] as string;
+const crumbLabel = lang === "ar" ? "مسار التنقل" : "breadcrumb";
+---
+<BaseLayout lang={lang} title={t.teachers_title} description={t.teachers_lede} path={`/${lang}/sighar/teachers/`} kids={true}>
+  <nav aria-label={crumbLabel} class="crumbs">
+    <a href={`/${lang}/sighar/`}>{t.hub_title}</a>
+    <span aria-hidden="true"> / </span>
+    <span aria-current="page">{t.teachers_title}</span>
+  </nav>
+  <div class="kids teachers">
+    <h1>{t.teachers_title}</h1>
+    <p class="lede">{t.teachers_lede}</p>
+
+    <section class="teachers-bands" aria-label={t.teachers_bands_title}>
+      <h2>{t.teachers_bands_title}</h2>
+      <ul>
+        <li><b>🌱 {t.band_sprouts}</b> — {t.band_sprouts_desc}</li>
+        <li><b>🔍 {t.band_explorers}</b> — {t.band_explorers_desc}</li>
+        <li><b>📖 {t.band_storytellers}</b> — {t.band_storytellers_desc}</li>
+      </ul>
+    </section>
+
+    <section class="teachers-paths" aria-label={t.teachers_paths_title}>
+      <h2>{t.teachers_paths_title}</h2>
+      <ul class="entries">
+        {paths.map((p) => (
+          <li>
+            <a class="entry-card" href={`/${lang}/sighar/teachers/paths/${p.path_slug}/`}>
+              <h3>{p.title}</h3>
+              <p>{p.desc}</p>
+            </a>
+          </li>
+        ))}
+      </ul>
+    </section>
+
+    <section class="teachers-lessons" aria-label={t.teachers_lessons_title}>
+      <h2>{t.teachers_lessons_title}</h2>
+      <ul>
+        {lessons.map((l) => (
+          <li><a href={`/${lang}/sighar/teachers/lessons/${l.unit_slug}/`}>{lessonTitle(l.unit_slug)}</a></li>
+        ))}
+      </ul>
+    </section>
+
+    <section class="teachers-printables" aria-label={t.teachers_printables_title}>
+      <h2>{t.teachers_printables_title}</h2>
+      <ul>
+        {lessons.map((l) => (
+          <li><a href={`/${lang}/sighar/teachers/lessons/${l.unit_slug}/#worksheet`}>{lessonTitle(l.unit_slug)} — {t.lesson_worksheet}</a></li>
+        ))}
+        <li><a href={`/${lang}/sighar/kindness/#kindness-chart`}>{t.kindness_title} — {t.kindness_print}</a></li>
+        <li><a href={`/${lang}/sighar/retell/#retell-print`}>{t.retell_title} — {t.retell_print}</a></li>
+      </ul>
+    </section>
+
+    <section class="teachers-pilot" aria-label={t.teachers_pilot_title}>
+      <h2>{t.teachers_pilot_title}</h2>
+      <p>{t.teachers_pilot_teaser}</p>
+      <p><a class="kids-btn" href={`/${lang}/sighar/teachers/pilot/`}>{t.teachers_pilot_title}</a></p>
+    </section>
+  </div>
+</BaseLayout>

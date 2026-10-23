@@ -1,0 +1,19 @@
+id: person/yasar-mawla-al-nabi
+class: person
+label: { ar: "يسار راعي لقاح النبي", en: "Yasar, herdsman of the Prophet's milch-camels" }
+names:
+  - { kind: given, lang: ar, value: "يسار" }
+gender: male
+summary:
+  ar: "عبد أصابه النبي في غزوة محارب وبني ثعلبة فجعله في لقاحه ترعى بناحية الجماء؛ قتله نفر من قيس كبّة من بجيلة كانوا قد استشفوا بألبان اللقاح، فذبحوه وغرزوا الشوك في عينيه، فعاقبهم النبي بقطع الأيدي والأرجل وسمل الأعين."
+  en: "A slave the Prophet acquired in the raid on Muharib and Banu Tha'laba and set over his milch-camels grazing near al-Jamma'; a party of Qays Kubba of Bajila who had been cured by the camels' milk slaughtered him and drove thorns into his eyes, and the Prophet punished them with amputation and blinding."
+wings: [people]
+themes: [slavery-and-freedom]
+periods: [period/prophetic-era]
+regions: [arabia]
+died: { edtf: "0627~", hijri: "0006~", calendar: julian, precision: year, status: debated, note: "قُتل قبل رجوع النبي من ذي قرد (needs_source).", sources: [source/ibn-hisham-saqqa] }
+relations:
+  - { type: participated_in, target: event/sariyya-of-kurz-ibn-jabir-against-the-killers-of-yasar, role: "الراعي المقتول", sources: [source/ibn-hisham-saqqa] }
+provenance: { layer: own-research, source: "sira-ibn-hisham saqqa 1936, juz' 4 p. 290", generated_by: "Claude Code", model: "claude-fable-5-1", run: "ibn-hisham-batch-14" }
+sources: [source/ibn-hisham-saqqa]
+status: { review: draft, completeness: 1, generated_by: "Claude Fable 5.1; mined from Ibn Hisham juz' 4 p. 290" }

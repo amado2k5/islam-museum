@@ -1,0 +1,23 @@
+id: event/sheikh-khazal-rebellion-1924
+class: event
+kind: revolt
+label: { ar: "ثورة الشيخ خزعل", en: "Sheikh Khazal rebellion" }
+summary:
+  ar: "بطاقة أولية لثورة الشيخ خزعل في ١٩٢٢–١٩٢٤م، عصيان أمير عربستان على رضا شاه وسقوطها؛ لم تُراجع مصادره على الصفحة بعد."
+  en: "Draft card for Sheikh Khazal's rebellion of 1922–24, the Arabistan emir's defiance of Reza Shah and his fall; its sources are not yet checked on the page."
+wings: [time]
+periods: [period/modern-era]
+regions: [persia-central-asia]
+date:
+  start: { edtf: "1922-07", precision: year, status: tradition, derived: true }
+  end: { edtf: "1924-11", precision: year, status: tradition, derived: true }
+sources: [source/tarikh-islam-hasan-ibrahim]
+external_ids:
+  wikidata: Q17081443
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; battle attested in narrative histories — entry not yet checked on the page"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-wave2
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

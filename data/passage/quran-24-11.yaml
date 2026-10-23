@@ -12,10 +12,13 @@ summary:
   ar: "القرآن 24:11 (سورة النور، الآية 11)."
 text: "إِنَّ ٱلَّذِينَ جَآءُو بِٱلْإِفْكِ عُصْبَةٌ مِّنكُمْ ۚ لَا تَحْسَبُوهُ شَرًّا لَّكُم ۖ بَلْ هُوَ خَيْرٌ لَّكُمْ ۚ لِكُلِّ ٱمْرِئٍ مِّنْهُم مَّا ٱكْتَسَبَ مِنَ ٱلْإِثْمِ ۚ وَٱلَّذِى تَوَلَّىٰ كِبْرَهُۥ مِنْهُمْ لَهُۥ عَذَابٌ عَظِيمٌ"
 text_search: "إن الذين جاءوا بالإفك عصبة منكم ۚ لا تحسبوه شرا لكم ۖ بل هو خير لكم ۚ لكل امرئ منهم ما اكتسب من الإثم ۚ والذي تولى كبره منهم له عذاب عظيم"
+translations:
+  en: { text: "Lo! they who spread the slander are a gang among you. Deem it not a bad thing for you; nay, it is good for you. Unto every man of them (will be paid) that which he hath earned of the sin; and as for him among them who had the greater share therein, his will be an awful doom.", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "جن لوگوں نے بہتان باندھا ہے تم ہی میں سے ایک جماعت ہے اس کو اپنے حق میں برا نہ سمجھنا۔ بلکہ وہ تمہارے لئے اچھا ہے۔ ان میں سے جس شخص نے گناہ کا جتنا حصہ لیا اس کے لئے اتنا ہی وبال ہے۔ اور جس نے ان میں سے اس بہتان کا بڑا بوجھ اٹھایا ہے اس کو بڑا عذاب ہوگا", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: revealed_about, target: event/incident-of-the-slander }
   - { type: part_of, target: passage/quran-24 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

@@ -1,0 +1,23 @@
+id: person/muhammad-ibn-ismail-al-sanani
+class: person
+label: { ar: "محمد بن إسماعيل الأمير الصنعاني", en: "Muhammad ibn Ismail al-Amir al-San'ani" }
+names:
+  - { kind: full, lang: ar, value: "محمد بن إسماعيل بن صلاح بن محمد، أبو إبراهيم، الكحلاني ثم الصنعاني" }
+gender: male
+roles: [jurist, scholar]
+born: { hijri: "1099", precision: year, status: tradition, sources: [source/fiqh-mawsua-kuwaitiyya-noor-v3] }
+died: { hijri: "1182", precision: year, status: tradition, sources: [source/fiqh-mawsua-kuwaitiyya-noor-v3] }
+summary:
+  ar: "محمد بن إسماعيل بن صلاح الكحلاني ثم الصنعاني، المعروف بالأمير، مجتهد يلقب «المؤيد بالله». أخذ عن زيد بن محمد بن الحسن وصلاح بن الحسين الأخفش وعبد الله بن علي الوزير وغيرهم، وصنف «سبل السلام» شرحا لـ«بلوغ المرام». {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.3134}"
+  en: "Muhammad ibn Ismail ibn Salah al-Kahlani then al-San'ani, known as al-Amir, a mujtahid titled al-Mu'ayyad billah. He studied with Zayd ibn Muhammad ibn al-Hasan, Salah ibn al-Husayn al-Akhfash, Abd Allah ibn Ali al-Wazir and others, and wrote Subul al-Salam, a commentary on Bulugh al-Maram. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.3134}"
+wings: [people]
+regions: [arabia]
+periods: [period/gunpowder-empires]
+sources: [source/fiqh-mawsua-kuwaitiyya-noor-v3]
+status: { review: draft, completeness: 1 }
+provenance:
+  layer: own-research
+  source: "al-Mawsu'a al-Fiqhiyya al-Kuwaitiyya (Noor copy), appendix of jurists, p.3134; dates as printed (birth 1099 and death 1182 AH read from the heading order); not yet checked against al-Badr al-Tali' or al-A'lam"
+  generated_by: "Claude Haiku 5.5"
+  model: "claude-haiku-5-5"
+  run: "mawsua-w02-1"

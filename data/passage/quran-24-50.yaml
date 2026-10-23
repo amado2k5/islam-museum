@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 24:50 (سورة النور، الآية 50)."
 text: "أَفِى قُلُوبِهِم مَّرَضٌ أَمِ ٱرْتَابُوٓا۟ أَمْ يَخَافُونَ أَن يَحِيفَ ٱللَّهُ عَلَيْهِمْ وَرَسُولُهُۥ ۚ بَلْ أُو۟لَـٰٓئِكَ هُمُ ٱلظَّـٰلِمُونَ"
 text_search: "أفي قلوبهم مرض أم ارتابوا أم يخافون أن يحيف الله عليهم ورسوله ۚ بل أولئك هم الظالمون"
+translations:
+  en: { text: "Is there in their hearts a disease, or have they doubts, or fear they lest Allah and His messenger should wrong them in judgment? Nay, but such are evil-doers.", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "کیا ان کے دلوں میں بیماری ہے یا (یہ) شک میں ہیں یا ان کو یہ خوف ہے کہ خدا اور اس کا رسول ان کے حق میں ظلم کریں گے (نہیں) بلکہ یہ خود ظالم ہیں", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-24 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

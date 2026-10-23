@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 7:8 (سورة الأعراف، الآية 8)."
 text: "وَٱلْوَزْنُ يَوْمَئِذٍ ٱلْحَقُّ ۚ فَمَن ثَقُلَتْ مَوَٰزِينُهُۥ فَأُو۟لَـٰٓئِكَ هُمُ ٱلْمُفْلِحُونَ"
 text_search: "والوزن يومئذ الحق ۚ فمن ثقلت موازينه فأولئك هم المفلحون"
+translations:
+  en: { text: "The weighing on that day is the true (weighing). As for those whose scale is heavy, they are the successful.", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "اور اس روز (اعمال کا) تلنا برحق ہے تو جن لوگوں کے (عملوں کے) وزن بھاری ہوں گے وہ تو نجات پانے والے ہیں", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-7 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

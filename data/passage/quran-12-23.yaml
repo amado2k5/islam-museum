@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 12:23 (سورة يوسف، الآية 23)."
 text: "وَرَٰوَدَتْهُ ٱلَّتِى هُوَ فِى بَيْتِهَا عَن نَّفْسِهِۦ وَغَلَّقَتِ ٱلْأَبْوَٰبَ وَقَالَتْ هَيْتَ لَكَ ۚ قَالَ مَعَاذَ ٱللَّهِ ۖ إِنَّهُۥ رَبِّىٓ أَحْسَنَ مَثْوَاىَ ۖ إِنَّهُۥ لَا يُفْلِحُ ٱلظَّـٰلِمُونَ"
 text_search: "وراودته التي هو في بيتها عن نفسه وغلقت الأبواب وقالت هيت لك ۚ قال معاذ الله ۖ إنه ربي أحسن مثواي ۖ إنه لا يفلح الظالمون"
+translations:
+  en: { text: "And she, in whose house he was, asked of him an evil act. She bolted the doors and said: Come! He said: I seek refuge in Allah! Lo! he is my lord, who hath treated me honourably. Lo! wrong-doers never prosper.", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "تو جس عورت کے گھر میں وہ رہتے تھے اس نے ان کو اپنی طرف مائل کرنا چاہا اور دروازے بند کرکے کہنے لگی (یوسف) جلدی آؤ۔ انہوں نے کہا کہ خدا پناہ میں رکھے (وہ یعنی تمہارے میاں) تو میرے آقا ہیں انہوں نے مجھے اچھی طرح سے رکھا ہے (میں ایسا ظلم نہیں کرسکتا) بےشک ظالم لوگ فلاح نہیں پائیں گے", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-12 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

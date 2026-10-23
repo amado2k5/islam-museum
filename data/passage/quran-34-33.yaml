@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 34:33 (سورة سبأ، الآية 33)."
 text: "وَقَالَ ٱلَّذِينَ ٱسْتُضْعِفُوا۟ لِلَّذِينَ ٱسْتَكْبَرُوا۟ بَلْ مَكْرُ ٱلَّيْلِ وَٱلنَّهَارِ إِذْ تَأْمُرُونَنَآ أَن نَّكْفُرَ بِٱللَّهِ وَنَجْعَلَ لَهُۥٓ أَندَادًا ۚ وَأَسَرُّوا۟ ٱلنَّدَامَةَ لَمَّا رَأَوُا۟ ٱلْعَذَابَ وَجَعَلْنَا ٱلْأَغْلَـٰلَ فِىٓ أَعْنَاقِ ٱلَّذِينَ كَفَرُوا۟ ۚ هَلْ يُجْزَوْنَ إِلَّا مَا كَانُوا۟ يَعْمَلُونَ"
 text_search: "وقال الذين استضعفوا للذين استكبروا بل مكر الليل والنهار إذ تأمروننا أن نكفر بالله ونجعل له أندادا ۚ وأسروا الندامة لما رأوا العذاب وجعلنا الأغلال في أعناق الذين كفروا ۚ هل يجزون إلا ما كانوا يعملون"
+translations:
+  en: { text: "Those who were despised say unto those who were proud: Nay but (it was your) scheming night and day, when ye commanded us to disbelieve in Allah and set up rivals unto Him. And they are filled with remorse when they behold the doom; and We place carcans on the necks of those who disbelieved. Are they requited aught save what they used to do?", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "اور کمزور لوگ بڑے لوگوں سے کہیں گے (نہیں) بلکہ (تمہاری) رات دن کی چالوں نے (ہمیں روک رکھا تھا) جب تم ہم سے کہتے تھے کہ ہم خدا سے کفر کریں اور اس کا شریک بنائیں۔ اور جب وہ عذاب کو دیکھیں گے تو دل میں پشیمان ہوں گے۔ اور ہم کافروں کی گردنوں میں طوق ڈال دیں گے۔ بس جو عمل وہ کرتے تھے ان ہی کا ان کو بدلہ ملے گا", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-34 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 27:62 (سورة النمل، الآية 62)."
 text: "أَمَّن يُجِيبُ ٱلْمُضْطَرَّ إِذَا دَعَاهُ وَيَكْشِفُ ٱلسُّوٓءَ وَيَجْعَلُكُمْ خُلَفَآءَ ٱلْأَرْضِ ۗ أَءِلَـٰهٌ مَّعَ ٱللَّهِ ۚ قَلِيلًا مَّا تَذَكَّرُونَ"
 text_search: "أمن يجيب المضطر إذا دعاه ويكشف السوء ويجعلكم خلفاء الأرض ۗ أإله مع الله ۚ قليلا ما تذكرون"
+translations:
+  en: { text: "Is not He (best) Who answereth the wronged one when he crieth unto Him and removeth the evil, and hath made you viceroys of the earth? Is there any Allah beside Allah? Little do they reflect!", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "بھلا کون بیقرار کی التجا قبول کرتا ہے۔ جب وہ اس سے دعا کرتا ہے اور (کون اس کی) تکلیف کو دور کرتا ہے اور (کون) تم کو زمین میں (اگلوں کا) جانشین بناتا ہے (یہ سب کچھ خدا کرتا ہے) تو کیا خدا کے ساتھ کوئی اور معبود بھی ہے (ہرگز نہیں مگر) تم بہت کم غور کرتے ہو", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-27 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

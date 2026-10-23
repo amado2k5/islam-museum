@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 57:16 (سورة الحديد، الآية 16)."
 text: "۞ أَلَمْ يَأْنِ لِلَّذِينَ ءَامَنُوٓا۟ أَن تَخْشَعَ قُلُوبُهُمْ لِذِكْرِ ٱللَّهِ وَمَا نَزَلَ مِنَ ٱلْحَقِّ وَلَا يَكُونُوا۟ كَٱلَّذِينَ أُوتُوا۟ ٱلْكِتَـٰبَ مِن قَبْلُ فَطَالَ عَلَيْهِمُ ٱلْأَمَدُ فَقَسَتْ قُلُوبُهُمْ ۖ وَكَثِيرٌ مِّنْهُمْ فَـٰسِقُونَ"
 text_search: "۞ ألم يأن للذين آمنوا أن تخشع قلوبهم لذكر الله وما نزل من الحق ولا يكونوا كالذين أوتوا الكتاب من قبل فطال عليهم الأمد فقست قلوبهم ۖ وكثير منهم فاسقون"
+translations:
+  en: { text: "Is not the time ripe for the hearts of those who believe to submit to Allah's reminder and to the truth which is revealed, that they become not as those who received the scripture of old but the term was prolonged for them and so their hearts were hardened, and many of them are evil-livers.", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "کیا ابھی تک مومنوں کے لئے اس کا وقت نہیں آیا کہ خدا کی یاد کرنے کے وقت اور (قرآن) جو (خدائے) برحق (کی طرف) سے نازل ہوا ہے اس کے سننے کے وقت ان کے دل نرم ہوجائیں اور وہ ان لوگوں کی طرف نہ ہوجائیں جن کو (ان سے) پہلے کتابیں دی گئی تھیں۔ پھر ان پر زمان طویل گزر گیا تو ان کے دل سخت ہوگئے۔ اور ان میں سے اکثر نافرمان ہیں", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-57 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

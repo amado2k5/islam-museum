@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 2:205 (سورة البقرة، الآية 205)."
 text: "وَإِذَا تَوَلَّىٰ سَعَىٰ فِى ٱلْأَرْضِ لِيُفْسِدَ فِيهَا وَيُهْلِكَ ٱلْحَرْثَ وَٱلنَّسْلَ ۗ وَٱللَّهُ لَا يُحِبُّ ٱلْفَسَادَ"
 text_search: "وإذا تولى سعى في الأرض ليفسد فيها ويهلك الحرث والنسل ۗ والله لا يحب الفساد"
+translations:
+  en: { text: "And when he turneth away (from thee) his effort in the land is to make mischief therein and to destroy the crops and the cattle; and Allah loveth not mischief.", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "اور جب پیٹھ پھیر کر چلا جاتا ہے تو زمین میں دوڑتا پھرتا ہے تاکہ اس میں فتنہ انگیزی کرے اور کھیتی کو (برباد) اور (انسانوں اور حیوانوں کی) نسل کو نابود کردے اور خدا فتنہ انگیزی کو پسند نہیں کرتا", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-2 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

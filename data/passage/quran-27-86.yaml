@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 27:86 (سورة النمل، الآية 86)."
 text: "أَلَمْ يَرَوْا۟ أَنَّا جَعَلْنَا ٱلَّيْلَ لِيَسْكُنُوا۟ فِيهِ وَٱلنَّهَارَ مُبْصِرًا ۚ إِنَّ فِى ذَٰلِكَ لَـَٔايَـٰتٍ لِّقَوْمٍ يُؤْمِنُونَ"
 text_search: "ألم يروا أنا جعلنا الليل ليسكنوا فيه والنهار مبصرا ۚ إن في ذلك لآيات لقوم يؤمنون"
+translations:
+  en: { text: "Have they not seen how We have appointed the night that they may rest therein, and the day sight-giving? Lo! therein verily are portents for a people who believe.", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "کیا اُنہوں نے نہیں دیکھا کہ ہم نے رات کو (اس لئے) بنایا ہے کہ اس میں آرام کریں اور دن کو روشن (بنایا ہے کہ اس میں کام کریں) بےشک اس میں مومن لوگوں کے لئے نشانیاں ہیں", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-27 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

@@ -1,0 +1,20 @@
+id: person/awf-ibn-malik-al-ashjai
+class: person
+label: { ar: "عوف بن مالك الأشجعي", en: "Awf ibn Malik al-Ashja'i" }
+names:
+  - { kind: full, lang: ar, value: "عوف بن مالك الأشجعي" }
+gender: male
+roles: [companion]
+summary:
+  ar: "صحابي من أشجع؛ يروي عن نفسه أنه كان في غزوة ذات السلاسل صاحباً لأبي بكر وعمر، فمرّ بقوم نحروا جزوراً لا يحسنون قسمتها فقسمها لهم على نصيب منها وحمله إلى أصحابه فأكلوه، فأنكر عليه أبو بكر وعمر وتقيّآ ما أكلا، وكان أول قادم على النبي فقال له: أصاحب الجزور؟ ولم يزده على ذلك."
+  en: "A Companion of Ashja'; he tells of himself that in the Dhat al-Salasil campaign, travelling with Abu Bakr and Umar, he passed people who had slaughtered a camel and could not divide it, divided it for a share which he brought to his companions to eat; Abu Bakr and Umar rebuked him and vomited what they had eaten, and when he was the first to reach the Prophet, the Prophet said to him 'the man of the camel?' and nothing more."
+wings: [people]
+periods: [period/prophetic-era]
+regions: [arabia]
+story_roles:
+  - { role: companion, status: tradition, sources: [source/ibn-hisham-saqqa] }
+relations:
+  - { type: participated_in, target: event/expedition-of-dhat-al-salasil, role: "راوي خبر الجزور؛ صاحب أبي بكر وعمر", sources: [source/ibn-hisham-saqqa] }
+provenance: { layer: own-research, source: "sira-ibn-hisham saqqa 1936, juz' 4 p. 274", generated_by: "Claude Code", model: "claude-fable-5-1", run: "ibn-hisham-batch-13" }
+sources: [source/ibn-hisham-saqqa]
+status: { review: draft, completeness: 1, generated_by: "Claude Fable 5.1; mined from Ibn Hisham juz' 4 p. 274; his later life and hadith transmission not read here (needs_source)" }

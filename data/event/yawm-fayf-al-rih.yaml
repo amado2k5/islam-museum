@@ -1,0 +1,22 @@
+id: event/yawm-fayf-al-rih
+class: event
+kind: battle
+label: { ar: "يوم فيف الريح", en: "the day of Fayf al-Rīḥ — ʿĀmir ibn al-Ṭufayl's twenty wounds and Mūshir's eye" }
+date:
+  start: { edtf: "0590~", calendar: julian, precision: century, status: tradition, derived: true, note: "جاهلي؛ التاريخ تقريبي عند أهل الأيام {cite:kamil-ibn-al-athir p. 475-476}." }
+summary:
+  ar: "يوم فيف الريح من أيام بني عامر بن صعصعة، التقى فيه الصميل بن الأعور الكلابي وعمرو بن صبيح النهدي فطعنه عمر، واقتتلوا ثلاثة أيام يعاودون القتال، وشهدت بنو نمير مع عامر بن الطفيل فأبلوا وسمّوا يومهم حريجة الطعان لاجتماع رماحهم كالحرجة، وكان عامر يتعهد الناس فيقول من أبلى فليرني سيفه أو رمحه، فأتاه رجل من الحرثيين اسمه مسهر فلما أقبل لينظر وجأه بالرمح في وجنته ففلقها وفقأ عينه، وقد طعن عامر يومئذ ما بين ثغرة نحره إلى سرته عشرين طعنة، وأسروا سيد مراد جريحًا فلما برأ أطلق {cite:kamil-ibn-al-athir p. 475-476}."
+  en: "At Fayf al-Rīḥ the armies fought three days running. ʿĀmir ibn al-Ṭufayl took twenty lance-thrusts from collar to navel and still went through the ranks demanding each man show a bloodied blade or go prove himself — until a Ḥārithī named Mūshir offered his spear for inspection and drove it through ʿĀmir's cheek, gouging out the eye. Banū Numayr stood with him so densely their day was named «the thicket of lances»; the chief of Murād was taken wounded and freed on recovery {cite:kamil-ibn-al-athir p. 475-476}."
+sides:
+- label: { ar: "بنو عامر", en: "Banū ʿĀmir" }
+- label: { ar: "خصومهم من الأحاليف", en: "the confederate foes" }
+relations:
+  - { type: occurred_at, target: place/fayf-al-rih, sources: [source/kamil-ibn-al-athir] }
+  - { type: had_participant, target: person/amir-ibn-al-tufayl, role: "جُرح وفُقئت عينه", sources: [source/kamil-ibn-al-athir] }
+provenance:
+  layer: own-research
+  source: "الكامل في التاريخ لابن الأثير (مكتبة التوفيقية، ج1)، قراءة آبل فيجن"
+  generated_by: "Devin (SWE-2 Medium) from Apple Vision OCR"
+  run: lib-kamil-v1-batch02
+sources: [source/kamil-ibn-al-athir]
+status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 Medium)" }

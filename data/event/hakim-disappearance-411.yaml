@@ -1,0 +1,29 @@
+id: event/hakim-disappearance-411
+class: event
+kind: death
+label: { ar: "مقتل الحاكم بأمر الله وتستّر أخته ٤١١", en: "The Death of al-Hakim bi-Amr Allah and His Sister's Concealment, 411" }
+summary:
+  ar: "يروي ابن الجوزي عن أهل مصر أن ست الملك أخت الحاكم جمعها وابن دوّاس قاعده، وأن الحاكم كان يخافه ويقول لست الملك ما لي ولهذا الرجل فهو يريد أن يجمع بيني وبينه، فاصطنعت ست الملك بينهما وأصلا ورد عليها وكلفها أن يقنع لها بما تريد؛ فرجعت إلى ابن دوّاس وركب في ليلته إلى المقطم فخرج معه وصعد الجبل مع اثنين من الرقيق المغاربة، وعلى الصباح جاء العبدان يحملان عليه إلى ابن دوّاس فحمله إلى مجلس ست الملك فدفنته هناك ولم يعرف به، وسترته ثلاثة أيام ونشرت أنه غائب سبعة أيام فمن يتعرض لأمرها فأجرت الركابية ثم بويع علي بن الحاكم وخطب له ونصبته ولي العهد وألبسته تاج المعز ثم قتلت ابن دوّاس على يد نسيم صاحب الستر والسيف بعد أن وعدته الملك والمال، فحزنت وأماتت من العبيد والخدم من علم؛ قيل مات في شوال سنة ٤١١ وله سبع وثلاثون سنة، مدة خلافته خمس وعشرون سنة {cite:muntazam-ibn-al-jawzi j.7 p.302-305}."
+  en: "Ibn al-Jawzi relates from the people of Egypt that Sitt al-Mulk, al-Hakim's sister, had a gathering with Ibn Dawwas seated by her. Al-Hakim feared him and said to Sitt al-Mulk, 'What have I to do with this man? He wants to bring me together with him.' Sitt al-Mulk arranged a link between them; Ibn Dawwas came back to her and charged her to bring him round to what she wanted. She returned to Ibn Dawwas, and that night he rode to al-Muqattam and climbed the mountain with two Maghribi slaves. At dawn the two slaves came carrying him back to Ibn Dawwas, who brought him to Sitt al-Mulk's assembly. She buried him there and kept it unknown, concealing the matter for three days, and she announced that he was absent for seven. She paid the rikabiyya (the mounted guard) to deal with anyone who opposed her affair. Then Ali ibn al-Hakim was pledged allegiance, the khutba was given in his name, and she set him up as heir apparent and crowned him with the crown of al-Mu'izz. She had Ibn Dawwas killed by the hand of Nasim, master of the curtain and the sword, after promising him kingship and wealth. She grieved, and put to death those among the slaves and servants who knew. It is said he died in Shawwal 411, aged thirty-seven, and that his caliphate lasted twenty-five years {cite:muntazam-ibn-al-jawzi j.7 p.302-305}."
+wings: [time]
+themes: [family-marriage-kinship, civil-wars-and-revolts]
+periods: [period/buyid-seljuk-fatimid-era]
+regions: [egypt-nile]
+date:
+  start: { edtf: "1021-02~", hijri: "0411-10", calendar: julian, precision: month, status: tradition, derived: true, note: "اختفاؤه ومقتله في شوال سنة ٤١١ {cite:muntazam-ibn-al-jawzi j.7 p.302}." }
+relations:
+  - { type: occurred_at, target: place/al-muqattam, sources: [source/muntazam-ibn-al-jawzi] }
+  - { type: had_participant, target: person/al-hakim-bi-amr-allah, role: "مقتول", sources: [source/muntazam-ibn-al-jawzi] }
+  - { type: had_participant, target: person/sitt-al-mulk, role: "مدبّرة الاغتيال ومدفنه", sources: [source/muntazam-ibn-al-jawzi] }
+  - { type: had_participant, target: person/ibn-dawwas, role: "قاعد متواطئ قُتل لاحقًا", sources: [source/muntazam-ibn-al-jawzi] }
+  - { type: had_participant, target: person/al-zahir-fatimid, role: "خليفة خلف", sources: [source/muntazam-ibn-al-jawzi] }
+provenance:
+  layer: own-research
+  source: "المنتظم في تاريخ الملوك والأمم — ابن الجوزي (ج7، أحداث سنة ٤١١)، قراءة آبل فيجن، مسح AAlexandrina-224011"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-muntazam-350-474-batch23
+sources: [source/muntazam-ibn-al-jawzi]
+status:
+  review: draft
+  completeness: 2
+  generated_by: "Devin (SWE-2 High)"

@@ -1,0 +1,23 @@
+id: event/sunpadh-rebellion-755
+class: event
+kind: revolt
+label: { ar: "ثورة سنباذ (٧٥٥)", en: "Sunpadh Rebellion (755)" }
+summary:
+  ar: "بطاقة أولية لثورة سنباذ سنة ٧٥٥م، انتفاضة أتباع أبي مسلم على العباسيين؛ لم تُراجع مصادره على الصفحة بعد."
+  en: "Draft card for the Sunpadh Rebellion of 755, the rising of Abu Muslim's followers against the Abbasids; its sources are not yet checked on the page."
+wings: [time]
+periods: [period/abbasid-early]
+regions: [persia-central-asia]
+date:
+  start: { edtf: "0755", precision: year, status: tradition, derived: true }
+  end: { edtf: "0755", precision: year, status: tradition, derived: true }
+sources: [source/tarikh-islam-hasan-ibrahim]
+external_ids:
+  wikidata: Q30082876
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; battle attested in narrative histories — entry not yet checked on the page"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-wave2
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

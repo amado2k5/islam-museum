@@ -1,0 +1,19 @@
+id: place/hisn-kamkh
+class: place
+kind: site
+label: { ar: "حصن كَمْخ", en: "Hisn Kamkh (Kamacha)" }
+summary:
+  ar: "حصن كَمْخ من ثغور أرمينية على مقربة من شمشاط؛ تناوب عليه المسلمون والروم غزواً بعد غزو: فُتح لعمير بن الحباب سنة 59 إذ صعد سوره وحده، وفتحه مسلمة بن عبد الملك، وحوصر بالمجانيق والدبابات سنة 149 تحت العباس بن محمد ففُتح بعد مقتل مائتي رجل من المسلمين بالحجارة، وفتحه عامل شمشاط سنة 177، وردّه عبد الله بن طاهر في خلافة المأمون، ثم دُفع إلى الروم مؤامرةً من نصارى شمشاط مع يقلّا وبقراط بن أشوط."
+  en: "Hisn Kamkh (Kamacha), a fortress of the Armenian marches near Shimshat, contested raid after raid between Muslims and Romans: taken for Umayr ibn al-Habab in year 59 who climbed its wall alone, retaken by Maslama ibn Abd al-Malik, besieged with mangonels and armoured shelters in year 149 under al-Abbas ibn Muhammad until it fell after two hundred Muslims were killed by stones, taken again by Shimshat's governor in year 177, restored by Abdallah ibn Tahir in al-Ma'mun's caliphate, then delivered to the Romans by a plot of Shimshat's Christians with Yiqala and Baqrat ibn Ashut."
+wings: [place]
+periods: [period/umayyad]
+regions: [levant-iraq]
+relations:
+  - { type: site_of, target: event/conquest-of-kamkh, sources: [source/futuh-buldan-maarif-1407] }
+provenance:
+  layer: own-research
+  source: "فتوح البلدان (ط مؤسسة المعارف 1407هـ/1987م) ص 259–261"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-futuh-buldan-batch-15
+sources: [source/futuh-buldan-maarif-1407]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

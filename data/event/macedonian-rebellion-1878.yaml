@@ -1,0 +1,23 @@
+id: event/macedonian-rebellion-1878
+class: event
+kind: revolt
+label: { ar: "ثورة مقدونيا (١٨٧٨)", en: "1878 Macedonian rebellion" }
+summary:
+  ar: "بطاقة أولية لثورة مقدونيا سنة ١٨٧٨م، انتفاضة اليونانيين على العثمانيين بعد برلين؛ لم تُراجع مصادره على الصفحة بعد."
+  en: "Draft card for the 1878 Macedonian rebellion, the Greeks' uprising against the Ottomans after Berlin; its sources are not yet checked on the page."
+wings: [time]
+periods: [period/colonial-era]
+regions: [anatolia-balkans]
+date:
+  start: { edtf: "1878", precision: year, status: tradition, derived: true }
+  end: { edtf: "1878", precision: year, status: tradition, derived: true }
+sources: [source/dawlat-uthmaniyya-salabi]
+external_ids:
+  wikidata: Q12277460
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; battle attested in narrative histories — entry not yet checked on the page"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-wave2
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

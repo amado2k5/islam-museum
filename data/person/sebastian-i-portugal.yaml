@@ -1,0 +1,26 @@
+id: person/sebastian-i-portugal
+class: person
+label: { ar: "سبستيان ملك البرتغال", en: "Sebastian I of Portugal" }
+names:
+  - { kind: full, lang: ar, value: "سبستيان بن يوحنا" }
+gender: male
+roles: [ruler]
+summary:
+  ar: "ملك البرتغال الشاب؛ قبل عرض المتوكل المخلوع التنازل عن شواطئ المغرب مقابل طرد عمه، وجمع عشرات الألوف من الأسبان والبرتغاليين والطليان والألمان في ألف مركب — تقديرات المؤرخين بين ثمانين ألفاً ومائة وخمسة وعشرين — راغباً بحرب مقدسة تعلو شأنه بين ملوك أوروبا في وصف الصلابي. ورد على خطاب عبد الملك التحدي بالتريث مخالفاً مشورة أركان جيشه، وقُتل في وادي المخازن يوم ٣٠ جمادى الآخرة ٩٨٦هـ/٤ أغسطس ١٥٧٨م، فسقط نجم البرتغال وتهاوت قوتها كما يصف مؤرخها لويس ماريه {cite:dawlat-uthmaniyya-salabi p. 260-267}."
+  en: "The young king of Portugal; he accepted the deposed al-Mutawakkil's offer of Morocco's coasts for his uncle's expulsion, massed tens of thousands — chroniclers say between eighty and a hundred and twenty-five thousand — of Spanish, Portuguese, Italians and Germans in a thousand ships, desiring, in al-Salabi's words, a holy war to raise his name among Europe's kings. To Abd al-Malik's taunting letter he answered by delay against his commanders' counsel; he was killed at Wadi al-Makhazin, 30 Jumada II 986/4 August 1578, and Portugal's star sank as her own historian Luís de Menezes mourns {cite:dawlat-uthmaniyya-salabi p. 260-267}."
+wings: [people]
+regions: [andalus-europe, maghreb]
+periods: [period/gunpowder-empires]
+died: { edtf: "1578-08-04", hijri: "0986-06-30", calendar: gregorian, precision: day, status: tradition, derived: true, note: "قتل في وادي المخازن", sources: [source/dawlat-uthmaniyya-salabi] }
+relations:
+  - { type: allied_with, target: person/muhammad-ii-mutawakkil-saadi, sources: [source/dawlat-uthmaniyya-salabi] }
+  - { type: opposed, target: person/abd-al-malik-al-sadi, sources: [source/dawlat-uthmaniyya-salabi] }
+sources: [source/dawlat-uthmaniyya-salabi]
+external_ids: { wikidata: "Q161514" }
+provenance:
+  layer: own-research
+  source: "الدولة العثمانية لعلي محمد الصلابي (ط1 1421) ص 260-267"
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: salabi-uthmani-batch14
+status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 Medium)" }

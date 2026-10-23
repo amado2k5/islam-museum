@@ -2,16 +2,16 @@
 id: event/battle-of-the-camel
 lang: en
 source_lang: ar
-translators: []
+translators: ["Claude Haiku 5.5 (claude-haiku-5-5), draft translation"]
 ---
-## Brief
-The Battle of the Camel followed the killing of Uthman ibn Affan and the accession of Ali ibn Abi Talib. Disagreement over how to pursue Uthman's killers led [[person/talha-ibn-ubaydullah|Talha]], [[person/zubayr-ibn-al-awwam|al-Zubayr]] and [[person/aisha|Aisha]] to go to [[place/basra|Basra]], where fighting broke out between the two sides. {cite:nisaa-annabi-aisha-qadi p.14}
+## Overview
+The battle of the Camel took place in 36 AH near Basra, between [[person/ali-ibn-abi-talib|Ali ibn Abi Talib]] and a group that included Talha, al-Zubayr and [[person/aisha|Aisha]]. al-Tabari placed its account in 36 AH. {cite:tabari-tarikh-abu-al-fadl j.4 p.583}
 
-## What happened
-The book says Ali preferred to wait until affairs were settled, while the other party wanted to move quickly against the killers. Despite attempts at reconciliation, the two armies clashed. {cite:nisaa-annabi-aisha-qadi p.14} Aisha's camel fell and her litter was carried away from the fighting. Ali came to ask about her, and she said she was well; he prayed for her forgiveness. {cite:nisaa-annabi-aisha-qadi p.14}
+## al-Tabari's account
+al-Tabari says that Ali went out toward Basra after Talha and al-Zubayr had asked his leave. He halted at Dhi Qar and sent al-Hasan and Ammar ibn Yasir to Kufa to rouse the people. Then the battle took place, in which al-Zubayr ibn al-Awwam was killed. Then Ali came to Aisha, and the people of Basra gave him their allegiance. {cite:tabari-tarikh-abu-al-fadl j.4 p.583}
 
-## Afterwards
-The book reports that Aisha deeply regretted her journey to Basra and her part in the battle, and that she wept whenever she recited a verse of Surat al-Ahzab about remaining in one's home. {cite:nisaa-annabi-aisha-qadi p.14} It also reports the story of the dogs of Hawab, after which she said she thought she would turn back. {cite:nisaa-annabi-aisha-qadi p.15} Ali then equipped her for the journey back to Medina and gave her twelve thousand (the currency is not stated), and said she was the Prophet's wife in this world and the next. {cite:nisaa-annabi-aisha-qadi p.15}
+## al-Suyuti's account
+al-Suyuti says that Talha and al-Zubayr went out to Mecca, and took Aisha to Basra seeking vengeance for the blood of Uthman, and that Ali met them. The battle was in Jumada al-Akhira 36 AH, and Talha and al-Zubayr were killed, and the dead reached thirteen thousand. Ali stayed in Basra for fifteen nights, then went back to Kufa. {cite:tarikh-khulafa-minhaj-1434 p.294}
 
-## Note on the source
-This is a children's popular biography. It gives no chains of transmission for its anecdotes and does not date the battle, so dates and details should be checked against primary sources before they are relied on.
+## The numbers according to al-Mas'udi
+al-Mas'udi says that the dead of the Camel were thirteen thousand, and five thousand of Ali's companions were killed. He notes that people disputed the number, some saying seven thousand and some ten thousand, according to the leaning of each side. {cite:muruj-al-dhahab p.645}

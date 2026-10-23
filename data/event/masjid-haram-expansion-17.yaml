@@ -1,0 +1,19 @@
+id: event/masjid-haram-expansion-17
+class: event
+kind: founding
+label: { ar: "توسعة المسجد الحرام", en: "'Umar's expansion of al-Masjid al-Haram (17 AH)" }
+date:
+  start: { edtf: "0638", hijri: "0017", calendar: julian, precision: year, status: tradition, derived: true, note: "سنة 17؛ التحويل مشتق {cite:kamil-ibn-al-athir p. 352}." }
+summary:
+  ar: "في سنة سبع عشرة اعتمر عمر بن الخطاب وبنى المسجد الحرام ووسّع فيه {cite:kamil-ibn-al-athir p. 352}."
+  en: "In year 17 'Umar performed 'umra, rebuilt al-Masjid al-Haram and enlarged it — the first caliphal expansion of the sanctuary {cite:kamil-ibn-al-athir p. 352}."
+relations:
+  - { type: occurred_at, target: place/makkah, sources: [source/kamil-ibn-al-athir] }
+  - { type: had_participant, target: person/umar-ibn-al-khattab, sources: [source/kamil-ibn-al-athir] }
+provenance:
+  layer: own-research
+  source: "الكامل في التاريخ لابن الأثير (دار الكتاب العربي 2012، ج2)، قراءة آبل فيجن"
+  generated_by: "Devin (SWE-2 Medium) from Apple Vision OCR"
+  run: lib-kamil-v2-batch03
+sources: [source/kamil-ibn-al-athir]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 Medium)" }

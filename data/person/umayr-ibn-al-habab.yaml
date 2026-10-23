@@ -1,0 +1,18 @@
+id: person/umayr-ibn-al-habab
+class: person
+label: { ar: "عمير بن الحباب السلمي", en: "Umayr ibn al-Habab al-Sulami" }
+summary:
+  ar: "عمير بن الحباب السلمي؛ عند البلاذري: غزا حصن كمخ مع صفوان بن المعطل في سنة 59 فعلا سوره ولم يزل يجالد عليه وحده حتى كشف الروم وصعد المسلمون ففُتح له وبذلك كان يفخر ويفاخر له."
+  en: "Umayr ibn al-Habab al-Sulami; in al-Baladhuri: he raided the fortress of Kamkh with Safwan ibn al-Mu'attal in year 59, climbed its wall and fought on alone until the Romans gave way and the Muslims ascended — it was opened for him, and by that he would boast and be boasted for."
+wings: [people]
+periods: [period/umayyad]
+relations:
+  - { type: participated_in, target: event/conquest-of-kamkh, role: "صعد السور وحده ففُتح له", sources: [source/futuh-buldan-maarif-1407] }
+  - { type: member_of, target: group/banu-sulaym, sources: [source/futuh-buldan-maarif-1407] }
+provenance:
+  layer: own-research
+  source: "فتوح البلدان (ط مؤسسة المعارف 1407هـ/1987م) ص 260"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-futuh-buldan-batch-15
+sources: [source/futuh-buldan-maarif-1407]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

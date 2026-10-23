@@ -1,0 +1,67 @@
+id: exhibit/path-screen-docs
+class: exhibit
+kind: trail
+label:
+  ar: الوثائقيات
+  en: The Documentaries
+summary:
+  ar: 'مسار في وثائقيات الحرب والسلام: من أجل سما، والخوذ البيضاء، ولا أرض أخرى — عين الكاميرا على الحقيقة.'
+  en: A trail through war and peace documentaries.
+audience:
+- newcomer
+- student
+duration_minutes: 30
+wings: []
+regions:
+- global
+rooms:
+- title:
+    ar: من أجل سما
+    en: For Sama
+  body:
+    ar: 'حلب تحت الحصار: رسالة أم إلى ابنتها.'
+    en: 'حلب تحت الحصار: رسالة أم إلى ابنتها.'
+  features:
+  - screen/li-ajl-sama-2019
+  - place/damascus
+- title:
+    ar: أطفال السماء
+    en: Children of Heaven
+  body:
+    ar: 'مجيدي: السينما الإيرانية الإنسانية.'
+    en: 'مجيدي: السينما الإيرانية الإنسانية.'
+  features:
+  - screen/atfal-al-sama-1997
+  - place/isfahan
+- title:
+    ar: عين في السماء
+    en: An Eye in the Sky
+  body:
+    ar: 'المسيرات والحرب الحديثة: سؤال الأخلاق.'
+    en: 'المسيرات والحرب الحديثة: سؤال الأخلاق.'
+  features:
+  - screen/ayn-fi-al-sama-2015
+  - concept/adab
+- title:
+    ar: القاعة
+    en: The Room
+  body:
+    ar: السينما العالمية عن الإسلام والمسلمين.
+    en: السينما العالمية عن الإسلام والمسلمين.
+  features:
+  - screen/al-risala-1976
+  - screen/usama-2003
+prerequisites:
+- exhibit/path-islam-in-30-minutes
+sources:
+- source/wikidata
+provenance:
+  layer: own-research
+  source: Devin-assembled trail from existing museum entities
+  generated_by: Devin (SWE-2 High)
+  model: SWE-2 High
+  run: pathways-batch-7
+status:
+  review: draft
+  completeness: 1
+  generated_by: Devin (SWE-2 High), pathways lane, 2026-10-16

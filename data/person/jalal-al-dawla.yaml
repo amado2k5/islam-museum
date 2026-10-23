@@ -1,0 +1,24 @@
+id: person/jalal-al-dawla
+class: person
+label: { ar: "جلال الدولة أبو طاهر بن بهاء الدولة" }
+summary:
+  ar: "جلال الدولة أبو طاهر ولد بهاء الدولة بن عضد الدولة، تسلطن سنة ست عشرة وأربعمائة حين مات السلطان شرف الدولة وهو بالبصرة، فخلع على وزيره علم الدين شرف الملك أبي سعيد بن ماكولا، ثم عدل الجند عنه إلى الملك أبي كاليجار فخُطب لهذا ببغداد {cite:shadharat-dhahab p. 204}. وعند ابن الجوزي خُطب لجلال الدولة بعد أخيه مشرف الدولة سنة ٤١٦ بثلاثة ألقاب، وفيها نُهبت الأهواز بجنده ستة عشر يومًا سنة ٤٢١، وطرده الغلمان إلى عكبرا سنة ٤٢٣ فعاد بشفاعة كمال الدولة أبي سنان، ثم أسروه وأهانوه في رمضان ٤٢٤ فنجّده القاعد أبو الوفاء ولجأ إلى دار الشريف المرتضى بالكرخ حتى عادوا يقبلون الأرض {cite:muntazam-ibn-al-jawzi j.8 p.363, 388, 404-410, 414-417}. ثم شغب عليه الجند سنة ٤٢٧ فرموه بآجرتين فتلقى إحداهما بيده وخرج نصف الليل إلى دجلة فأغرقوا سميريته تقديرًا أنه فيها ومضى مستترًا إلى دار المرتضى {cite:muntazam-ibn-al-jawzi j.8 p.431}، وفي رمضان ٤٢٩ استُقرئ في ألقابه «شاهنشاه الأعظم ملك الملوك» فأنكر العامة ورموا الخطيب بالآجر {cite:muntazam-ibn-al-jawzi j.8 p.439}، وفي ذي القعدة ٤٣٠ شغب الأتراك لما تأخرت أقساطهم وامتنعت أقواتهم فأبَوا قراءة رقعته وطلبوا وساطة الخليفة، حتى صلى الخطيب يوم عيد الأضحى ببراثا وليس وراءه إلا ثلاثة {cite:muntazam-ibn-al-jawzi j.8 p.446-447}، وخرج يزور المشهدين ماشيًا حافيًا من القير إلى مشهد الحائر ومن الخندق إلى مشهد الكوفة نحو فرسخ {cite:muntazam-ibn-al-jawzi j.8 p.447}. وأُرجف بموته سنة ٤٣٥ فانزعج الناس ونقلوا أموالهم إلى دار الخلافة حتى خرج فتقعّد على كرسي فرآه الناس فسكتوا ثم توفي ليلة الجمعة خامس شعبان ٤٣٥ وغسّله أبو القاسم بن شاهين الواعظ وعبد القادر بن السماك ودُفن بدار الملكة حيث دُفن عضد الدولة وبهاء الدولة، وكانت ولايته ست عشرة سنة وأحد عشر شهرًا وعمره إحدى وخمسون سنة وأشهر وخلف خمس عشرة ابنة وأولادًا ذكورًا {cite:muntazam-ibn-al-jawzi j.8 p.458-460}."
+  en: "Jalal al-Dawla Abu Tahir, son of Baha' al-Dawla — succeeded at Basra when Sultan Sharaf al-Dawla died in 416, robed his vizier Ibn Makula, then the army defected to Abu Kalijar who was proclaimed at Baghdad {cite:shadharat-dhahab p. 204}."
+gender: male
+died: { edtf: "1044~", hijri: "0435", calendar: julian, precision: year, status: tradition, derived: true, note: "مات بالخوانق سنة خمس وثلاثين وأربعمائة وعاش اثنتين وخمسين سنة وكانت دولته سبع عشرة سنة وخلّف عشرين ولداً بنين وبنات؛ وولي بعده ابنه الملك العزيز أبو منصور فكاتب ابن عمه أبا كاليجار فخُطب للاثنين معاً {cite:shadharat-dhahab p. 254-255}." }
+roles: [ruler]
+wings: [people]
+periods: [period/abbasid-early]
+relations:
+  - { type: child_of, target: person/baha-al-dawla, sources: [source/shadharat-dhahab] }
+  - { type: sibling_of, target: person/musharrif-al-dawla, sources: [source/muntazam-ibn-al-jawzi] }
+  - { type: successor_of, target: person/musharrif-al-dawla, sources: [source/muntazam-ibn-al-jawzi] }
+  - { type: participated_in, target: event/jalal-expulsion-423, sources: [source/muntazam-ibn-al-jawzi] }
+  - { type: participated_in, target: event/jalal-abduction-424, sources: [source/muntazam-ibn-al-jawzi] }
+provenance:
+  layer: own-research
+  source: "شذرات الذهب لابن العماد — الجزء الثالث، ممسوح مكتبة الحصاد (AAlexandrina-223861)، قراءة آبل فيجن"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-shadharat-batch-89
+sources: [source/shadharat-dhahab, source/muntazam-ibn-al-jawzi]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

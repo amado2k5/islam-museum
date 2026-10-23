@@ -1,0 +1,21 @@
+id: event/zabid-mawza-earthquakes-916
+class: event
+kind: other
+label: { ar: "زلازل زبيد وموزع 916هـ", en: "The Zabid and Mawza' earthquakes, 916" }
+summary:
+  ar: "في سنة ست عشرة وتسعمائة زُلزلت مدينة زبيد زلزالاً شديداً ثم زُلزلت مرة أخرى ثم ثالثة، وانقض في عصر ذلك اليوم كوكب عظيم من جهة المشرق آخذاً في جهة الشام يُرى نهاراً وحصل عقبه رجفة عظيمة للرعد الشديد، وزُلزلت مدينة موزع وتوابعها زلزالاً عظيماً ما سُمع بمثله، واستمرت تتردد ليلاً ونهاراً زلازل صغار وكبار حتى أضرت بأهل الجهة إضراراً عظيماً فتصدعت البيوت ولم يسلم بيت من تشعث، وتشققت الأرض المعدة للزراعة وتهدمت القبور واختلطت الآبار {cite:shadharat-dhahab p. 490}. وفي السنة نفسها انقض كوكب عظيم آخر من نصف الليل أضاءت له الدنيا {cite:shadharat-dhahab p. 490}."
+  en: "In 916 Zabid shook three times in a day; that afternoon a great bolide plunged east-to-Syria visible in daylight, followed by a thunderous tremor; then Mawza' and its dependencies suffered an earthquake 'such as had never been heard', recurring night and day — houses cracked, farmland split, tombs collapsed and wells ran together {cite:shadharat-dhahab p. 490}. The same year saw another great midnight bolide that lit the world {cite:shadharat-dhahab p. 490}."
+wings: [time]
+periods: [period/mongol-post-mongol]
+regions: [arabia]
+date:
+  start: { edtf: "1510/1511", hijri: "0916", calendar: julian, precision: year, status: tradition, derived: true, note: "916؛ التحويل مشتق {cite:shadharat-dhahab p. 490}", sources: [source/shadharat-dhahab] }
+relations:
+  - { type: occurred_at, target: place/zabid, sources: [source/shadharat-dhahab] }
+provenance:
+  layer: own-research
+  source: "شذرات الذهب — ابن العماد (ط مكتبة المثنى 1351، ج8، سنة 916)، قراءة آبل فيجن"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-shadharat-batch-144
+sources: [source/shadharat-dhahab]
+status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 High)" }

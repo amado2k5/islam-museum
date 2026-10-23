@@ -1,0 +1,23 @@
+id: event/conquest-of-damascus-13
+class: event
+kind: siege
+label: { ar: "فتح دمشق", en: "Conquest of Damascus" }
+summary:
+  ar: "بطاقة أولية لحصار وفتح دمشق سنة ١٣هـ/٦٣٤–٦٣٥م، استسلام المدينة لجيوش خالد بن الوليد وأبي عبيدة؛ لم تُراجع مصادره على الصفحة بعد."
+  en: "Draft card for the siege and conquest of Damascus in 13/634–635, the city's surrender to the armies of Khalid ibn al-Walid and Abu Ubayda; its sources are not yet checked on the page."
+wings: [time]
+periods: [period/rashidun]
+regions: [levant-iraq]
+date:
+  start: { edtf: "634", precision: year, status: tradition, derived: true }
+  end: { edtf: "635", precision: year, status: tradition, derived: true }
+sources: [source/futuh-buldan-maarif-1407]
+external_ids:
+  wikidata: Q639827
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; conquest attested in Futuh al-Buldan — entry not yet checked on the page"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-wave2
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

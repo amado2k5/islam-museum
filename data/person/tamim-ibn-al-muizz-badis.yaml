@@ -1,0 +1,38 @@
+id: person/tamim-ibn-al-muizz-badis
+class: person
+label: { ar: "تميم بن المعز بن باديس" }
+names:
+  - { value: "أبو يحيى تميم بن المعز بن باديس الصنهاجي", kind: full }
+summary:
+  ar: "سلطان إفريقية الزيري، ملك بعد أبيه المعز بن باديس وكانت دولته ستة وخمسين عاماً؛ كان حسن السيرة محباً للعلماء مقصداً للشعراء كامل الشجاعة وافر الهيبة، وخلف أكثر من مائة ولد وتملك بعده ابنه يحيى؛ ولد بالمنصورية سنة اثنتين وعشرين وأربعمائة وتوفي ليلة السبت متع رجب سنة إحدى وخمسمائة عن تسع وسبعين سنة {cite:shadharat-dhahab p. 482-483}."
+  en: "The Zirid sultan of Ifriqiya — fifty-six years on the throne after his father al-Mu'izz b. Badis; a patron of scholars and poets, famed for courage and majesty, who left over a hundred sons; d. Rajab 501 at seventy-nine {cite:shadharat-dhahab p. 482-483}."
+gender: male
+wings: [people]
+roles: [ruler, poet]
+periods: [period/buyid-seljuk-fatimid-era]
+regions: [maghreb]
+born:
+  edtf: "1031~"
+  hijri: "0422"
+  calendar: julian
+  precision: year
+  status: tradition
+  derived: true
+  note: "ولد بالمنصورية في ثالث عشر رجب سنة اثنتين وعشرين وأربعمائة {cite:shadharat-dhahab p. 483}؛ التحويل مشتق."
+died:
+  edtf: "1108-02~"
+  hijri: "0501-07"
+  calendar: julian
+  precision: month
+  status: tradition
+  derived: true
+  note: "توفي ليلة السبت متع رجب سنة إحدى وخمسمائة عن تسع وسبعين سنة {cite:shadharat-dhahab p. 483}؛ التحويل مشتق."
+relations:
+  - { type: child_of, target: person/al-muizz-ibn-badis, sources: [source/shadharat-dhahab] }
+provenance:
+  layer: own-research
+  source: "شذرات الذهب لابن العماد — الجزء الرابع، ممسوح مكتبة الحصاد (AAlexandrina-223861)، قراءة آبل فيجن"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-shadharat-batch-111
+sources: [source/shadharat-dhahab]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

@@ -1,0 +1,16 @@
+id: passage/arbaun-49
+class: passage
+unit: hadith
+work: work/jami-ulum-hikam
+ref: "49"
+label: { ar: "الأربعون 49 — لو أنكم توكلون على الله حق توكله لرزقكم", en: "Arba'un 49 — were you to trust in God as He deserves" }
+text: "لو أنكم توكلون على الله حق توكله لرزقكم كما يرزق الطير تغدو خماصاً وتروح بطاناً"
+summary:
+  ar: "حديث عمر بن الخطاب عن النبي قال: «لو أنكم توكلون على الله حق توكله لرزقكم كما يرزق الطير تغدو خماصاً وتروح بطاناً» — سابع الأحاديث التي زادها ابن رجب؛ أخرجه أحمد 1/30 و52 والترمذي (2344) وقال حسن صحيح والنسائي وابن ماجه (4164) وابن حبان (730) والحاكم 4/318 كلهم من رواية عبد الله بن هبيرة سمع أبا تميم الجيشاني سمع عمر يحدثه عن النبي، وأبو تميم وعبد الله بن هبيرة خرج لهما مسلم ووثقهما غير واحد — أبو تميم ولد في حياة النبي وهاجر إلى المدينة في زمن عمر، وأبو هبيرة ذكره ابن حبان في الثقات ووثقه أحمد؛ وروي من حديث ابن عمر في تاريخ أصبهان لأبي نعيم لكن في إسناده من لا يعرف حاله — قال أبو حاتم الرازي فيه سعيد بن إسحاق بن الحمار مجهول لا أعرفه (جامع العلوم والحكم ص 914–926)."
+  en: "The hadith of Umar ibn al-Khattab from the Prophet: 'were you to put your trust in God as He deserves, He would provide for you as He provides for the birds — they set out hungry in the morning and return full in the evening' — the seventh of Ibn Rajab's added hadiths, transmitted by Ahmad (1/30, 52), al-Tirmidhi (2344, hasan sahih), al-Nasa'i, Ibn Majah (4164), Ibn Hibban (730) and al-Hakim (4/318), all through Abdullah ibn Hubayra who heard Abu Tamim al-Jayshani narrate Umar's report from the Prophet — both Abu Tamim and Ibn Hubayra used by Muslim and declared trustworthy by many, Abu Tamim having been born in the Prophet's lifetime and emigrated to Medina under Umar, Ibn Hubayra listed in Ibn Hibban's Thiqat and authenticated by Ahmad; a route through Ibn Umar exists in Abu Nu'aym's Tarikh Asbahan but contains narrators of unknown standing — Abu Hatim al-Razi naming Sa'id ibn Ishaq ibn al-Himmar as unknown (Jami' al-Ulum wal-Hikam pp. 914–926)."
+relations:
+  - { type: mentions, target: person/umar-ibn-al-khattab, sources: [source/ibn-rajab-jami-ulum-hikam] }
+  - { type: basis_for, target: concept/tawakkul, sources: [source/ibn-rajab-jami-ulum-hikam] }
+provenance: { layer: own-research, source: "Jami' al-Ulum wal-Hikam (Dar Ibn Kathir 1429/2008), hadith 49 pp. 914–926", generated_by: "Devin (SWE-2 High) from Apple Vision OCR", run: "lib-jami-ulum-hikam-batch-18" }
+sources: [source/ibn-rajab-jami-ulum-hikam]
+status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 High); matn verified against OCR of printed p. 914 (~18 words); the Abu Tamim/Ibn Hubayra tawthiq and the criticised Ibn Umar route from p. 914" }

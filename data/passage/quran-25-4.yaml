@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 25:4 (سورة الفرقان، الآية 4)."
 text: "وَقَالَ ٱلَّذِينَ كَفَرُوٓا۟ إِنْ هَـٰذَآ إِلَّآ إِفْكٌ ٱفْتَرَىٰهُ وَأَعَانَهُۥ عَلَيْهِ قَوْمٌ ءَاخَرُونَ ۖ فَقَدْ جَآءُو ظُلْمًا وَزُورًا"
 text_search: "وقال الذين كفروا إن هذا إلا إفك افتراه وأعانه عليه قوم آخرون ۖ فقد جاءوا ظلما وزورا"
+translations:
+  en: { text: "Those who disbelieve say: This is naught but a lie that he hath invented, and other folk have helped him with it, so that they have produced a slander and a lie.", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "اور کافر کہتے ہیں کہ یہ (قرآن) من گھڑت باتیں ہی جو اس (مدعی رسالت) نے بنالی ہیں۔ اور لوگوں نے اس میں اس کی مدد کی ہے۔ یہ لوگ (ایسا کہنے سے) ظلم اور جھوٹ پر (اُتر) آئے ہیں", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-25 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

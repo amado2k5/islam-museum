@@ -1,15 +1,54 @@
 ---
+import { readFileSync } from "node:fs";
+import { parse } from "yaml";
 import BaseLayout from "../../../layouts/BaseLayout.astro";
 import { ui, LANGS, type Lang } from "../../../lib/i18n";
 import { href, realNodes, labelOf, summaryOf } from "../../../lib/graph";
+import { repoPath } from "../../../lib/paths";
 
 export function getStaticPaths() { return LANGS.map((lang) => ({ params: { lang }, props: { lang } })); }
 const { lang } = Astro.props as { lang: Lang };
 const T = ui(lang);
 const L = T.learn;
+const P = T.pathway;
 const ORDER = ["path-islam-in-30-minutes", "path-meccan-period", "path-abyssinia-migrations", "path-women-around-the-prophet", "path-from-opposition-to-islam"];
 const rank = (id: string) => { const k = ORDER.indexOf(id.replace("exhibit/", "")); return k === -1 ? 99 : k; };
 const paths = realNodes.filter((n: any) => n.class === "exhibit" && String(n.id).startsWith("exhibit/path-")).sort((a: any, b: any) => rank(a.id) - rank(b.id) || String(a.id).localeCompare(String(b.id)));
+
+// a pathway's goal kind: authored `path_kind` wins, else the dominant class of its steps' features (19-tour-learn §4.1)
+const KIND_OF: Record<string, string> = {
+  person: "personalities", group: "personalities",
+  event: "events",
+  period: "era", polity: "era",
+  place: "places", building: "places",
+  concept: "ideas", practice: "ideas",
+  work: "texts", source: "texts", passage: "texts",
+  object: "art", media: "art",
+  question: "hard-question",
+  screen: "culture", listing: "culture",
+};
+const pathKind = (n: any): string => {
+  if (n.data.path_kind) return n.data.path_kind;
+  if (ORDER.includes(n.id.replace("exhibit/", ""))) return "starter";
+  const hist: Record<string, number> = {};
+  for (const r of n.data.rooms ?? []) for (const fid of r.features ?? []) {
+    const k = KIND_OF[String(fid).split("/")[0]];
+    if (k) hist[k] = (hist[k] ?? 0) + 1;
+  }
+  return Object.entries(hist).sort((a, b) => b[1] - a[1])[0]?.[0] ?? "era";
+};
+const cards = paths.map((n: any) => ({
+  n,
+  kind: pathKind(n),
+  regions: (n.data.regions ?? []) as string[],
+  audience: (n.data.audience ?? []) as string[],
+}));
+const regionsYaml = parse(readFileSync(repoPath("schema", "enums", "regions.yaml"), "utf8")) as { id: string; label: Record<string, string> }[];
+const regionLabel = (id: string) => regionsYaml.find((r) => r.id === id)?.label?.[lang] ?? regionsYaml.find((r) => r.id === id)?.label?.en ?? id;
+const kindsPresent = [...new Set(cards.map((c) => c.kind))];
+const regionsPresent = [...new Set(cards.flatMap((c) => c.regions))].sort((a, b) => regionLabel(a).localeCompare(regionLabel(b)));
+const audiencePresent = [...new Set(cards.flatMap((c) => c.audience))];
+const chipClass = (f: string, v: string) => ({ "data-f": f, "data-v": v });
 ---
 <BaseLayout lang={lang} title={L.title} description={L.lede} path={`/${lang}/learn/`}>
   <div class="wrap" style="padding-block:10px 20px" data-pagefind-ignore>
@@ -18,12 +57,27 @@ const paths = realNodes.filter((n: any) => n.class === "exhibit" && String(n.id)
     <p style="font-size:1.2rem;max-width:var(--measure)">{L.lede}</p>
     <p class="panel ui" style="max-width:var(--measure);border:1px solid var(--gold)">{L.status}</p>
 
-    {paths.length > 0 && (
-      <section>
-        <h2>{L.available_title}</h2>
+    {cards.length > 0 && (
+      <section data-chooser-wrap>
+        <h2>{L.chooser_title ?? L.available_title}</h2>
         <p class="muted" style="max-width:var(--measure)">{L.available_note}</p>
-        <ul class="grid-cards" style="margin-bottom:2rem">{paths.map((n: any) => (
-          <li><a class="card" href={href(lang, n.id)}><h3 class="card-title">{labelOf(n, lang)}</h3><span>{summaryOf(n, lang)}</span><span class="ui muted" style="display:block;margin-top:8px">{L[`kind_${n.kind}`] ?? L.kind_trail} · {n.duration_minutes} {L.minutes} · {(n.rooms ?? []).length} {L.steps}</span></a></li>
+        <div class="chooser" data-chooser>
+          <div class="ch-group">
+            <span class="ch-label ui muted">{L.filter_kind}</span>
+            {kindsPresent.map((k) => <button type="button" class="chip" aria-pressed="false" {...chipClass("kind", k)}>{P[`pk_${k.replace(/-/g, "_")}`] ?? k}</button>)}
+          </div>
+          <div class="ch-group">
+            <span class="ch-label ui muted">{L.filter_region}</span>
+            {regionsPresent.map((r) => <button type="button" class="chip" aria-pressed="false" {...chipClass("regions", r)}>{regionLabel(r)}</button>)}
+          </div>
+          <div class="ch-group">
+            <span class="ch-label ui muted">{L.filter_audience}</span>
+            {audiencePresent.map((a) => <button type="button" class="chip" aria-pressed="false" {...chipClass("audience", a)}>{P[`aud_${a}`] ?? a}</button>)}
+            <button type="button" class="chip" data-reset>{L.filter_reset}</button>
+          </div>
+        </div>
+        <ul class="grid-cards" style="margin:1rem 0 2rem">{cards.map(({ n, kind, regions, audience }: any) => (
+          <li data-card data-kind={kind} data-regions={regions.join(" ")} data-audience={audience.join(" ")}><a class="card" href={href(lang, n.id)}><h3 class="card-title">{labelOf(n, lang)}</h3><span>{summaryOf(n, lang)}</span><span class="ui muted" style="display:block;margin-top:8px">{P[`pk_${kind.replace(/-/g, "_")}`] ?? L[`kind_${n.kind}`] ?? L.kind_trail} · {n.data.duration_minutes} {L.minutes} · {(n.data.rooms ?? []).length} {L.steps}</span></a></li>
         ))}</ul>
       </section>
     )}
@@ -49,4 +103,11 @@ const paths = realNodes.filter((n: any) => n.class === "exhibit" && String(n.id)
       <li><a href="https://github.com/amado2k5/islam-museum/blob/main/docs/plan/19-tour-learn.md" rel="noopener">{L.plan}</a></li>
     </ul>
   </div>
+  <style>
+    .chooser { display: flex; flex-direction: column; gap: 8px; max-width: var(--measure); }
+    .ch-group { display: flex; flex-wrap: wrap; align-items: center; gap: 6px 8px; }
+    .ch-label { font-size: .85rem; min-width: 6.5em; }
+    .chip[aria-pressed="true"] { background: var(--gold); color: #1d3a6e; border-color: var(--gold); }
+  </style>
+  <script src="../../../scripts/learn-chooser.ts"></script>
 </BaseLayout>

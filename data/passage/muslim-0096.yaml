@@ -1,0 +1,16 @@
+id: passage/muslim-0096
+class: passage
+unit: hadith
+work: work/sahih-muslim
+ref: "96"
+label: { ar: "مسلم 96 — أفلا شققت عن قلبه", en: "Muslim 96 — Did you split open his heart?" }
+text: "قال رسول الله لأسامة بن زيد حين قتل رجلاً قال لا إله إلا الله: «أقتلته بعدما قال لا إله إلا الله؟» قال: يا رسول الله إنما كان متعوذاً، قال: «أفلا شققت عن قلبه حتى تعلم أقالها أم لا؟» فما زال يكررها حتى تمنيت أني لم أكن أسلمت قبل ذلك اليوم"
+summary:
+  ar: "رواية أسامة بن زيد في كتاب الإيمان من صحيح مسلم، في سرية إلى الحرقات من جهينة؛ يجعل كلمة التوحيد عاصماً للدم حتى في حالة القتال، ومن أشد النصوص المؤنبة في صحيح مسلم."
+relations:
+  - { type: mentions, target: person/muhammad, sources: [source/sahih-muslim] }
+  - { type: mentions, target: person/usama-ibn-zayd, sources: [source/sahih-muslim] }
+  - { type: mentions, target: concept/iman, sources: [source/sahih-muslim] }
+provenance: { layer: own-research, source: "صحيح مسلم، كتاب الإيمان، باب من قتل رجلاً من الكفار بعد أن قال لا إله إلا الله (طبعة دار التأصيل، الحديث ٨٨؛ ترقيم عبد الباقي المعروف 96)، تصوير Apple Vision OCR", generated_by: "Devin (SWE-2 High) from Apple Vision OCR", run: "hadith-muslim-passages-3" }
+sources: [source/sahih-muslim]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High); matn excerpt at most 40 words checked against the scan" }

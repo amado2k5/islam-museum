@@ -1,0 +1,26 @@
+id: person/hilal-ibn-al-muhassin-al-sabi
+class: person
+label:
+  ar: "هلال بن المحسن الصابئ"
+  en: "Hilal ibn al-Muhassin al-Sabi'"
+names:
+  - { value: "هلال بن المحسن بن إبراهيم بن هلال أبو الحسين الكاتب الصابئ", kind: full }
+summary:
+  ar: "كاتب ومؤرخ، ابن المؤرخ المحسن بن إبراهيم الصابئ وابن أخ المؤرخ الشهير غرس النعمة هلال بن المحسن؛ وُلد سنة تسع وخمسين وثلاثمائة، وسمع أبا علي الفارسي وعلي بن عيسى الرماني، وكان صدوقًا. ذكر سبب إسلامه على لسانه: أن أباه المحسن كان صابئًا فأسلم هلال متأخرًا بعد رؤيا في المنام سنة ٣٩٩ رأى فيها أنه يتوضأ ويصلي خلف رسول الله، ثم رآه ثانية على دجلة في مشرعة باب البستان يعاتبه على التوقف، فاغتسل وجثا إلى المشهد وصلى وزال عنه الشك؛ وأسلم رسميًا سنة ٤٠٣ فاستحسن الناس إسلامه، وبعث إليه فخر الملك بدست ثياب ومائتي دينار فردّها وقال ما أحب أن أخلط بفعلي شيئًا من الدنيا. صنّف التكملة في التاريخ — تكملة تاريخ الطبري من حيث انتهى إلى أيامه — وكانت له يد في الأدب والشعر. توفي في رمضان سنة ثمان وأربعين وأربعمائة {cite:muntazam-ibn-al-jawzi j.8 p.518-521}."
+  en: "The last historian of the great Sabi' katib family — son of the historian al-Muhassin and nephew of Ghars al-Ni'ma Hilal: born 359, raised Sabian, he converted to Islam in 403 after a series of dreams he related himself, refusing the vizier Fakhr al-Mulk's celebratory gift 'lest he mix worldly things in the deed'; author of the Takmila continuing al-Tabari's annals to his own day. Died Ramadan 448 {cite:muntazam-ibn-al-jawzi j.8 p.518-521}."
+gender: male
+wings: [people]
+periods: [period/buyid-seljuk-fatimid-era]
+regions: [levant-iraq]
+born: { edtf: "0969~", hijri: "0359", calendar: julian, precision: year, status: tradition, derived: true, note: "ولد سنة ٣٥٩؛ التحويل مشتق {cite:muntazam-ibn-al-jawzi j.8 p.518}." }
+died: { edtf: "1056-12", hijri: "0448-09", calendar: julian, precision: month, status: tradition, derived: true, note: "رمضان ٤٤٨؛ التحويل مشتق {cite:muntazam-ibn-al-jawzi j.8 p.518}." }
+roles: [historian, writer]
+relations:
+  - { type: student_of, target: person/ali-ibn-isa-al-rummani, sources: [source/muntazam-ibn-al-jawzi] }
+provenance:
+  layer: own-research
+  source: "المنتظم لابن الجوزي (ط حيدرآباد 1357، ج8، وفيات سنة 448)، قراءة آبل فيجن"
+  generated_by: "Devin (SWE-2 Medium) from Apple Vision OCR"
+  run: lib-muntazam-350-474-batch25
+sources: [source/muntazam-ibn-al-jawzi]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 Medium)" }

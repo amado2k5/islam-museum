@@ -1,0 +1,40 @@
+id: event/birth-of-hasan-ibn-ali
+class: event
+kind: other
+label: { ar: "ولادة الحسن بن علي وتسميته وعقيقته", en: "The birth, naming and aqiqa of Hasan ibn Ali" }
+summary:
+  ar: "يذكر الصلابي أن الحسن ولد للنصف من رمضان سنة ثلاث للهجرة، وأن أقوالاً أخرى قيلت في شعبان أو في سنة أربع أو خمس، وأنه اختار في كتابه السيرة النبوية أنه ولد في العام الرابع (ص 86-87 والهامش). سمّاه علي حرباً فسمّاه النبي حسناً، وأذّن النبي في أذنه، وأمرت فاطمة بوزن شعره فضة تُتصدّق على المساكين وأهل الصفة بدل الذبح (ص 86)."
+  en: "Al-Sallabi gives Hasan's birth as the middle of Ramadan in the third year after the Hijra, notes other reports, and says he prefers the fourth year in his own sira; Ali first named him Harb, and the Prophet renamed him Hasan; for the aqiqa, silver equal to the weight of the infant's hair was given in charity instead of sacrifice (p. 86)."
+wings: [people, ideas]
+periods: [period/prophetic-era]
+regions: [arabia]
+date:
+  start: { edtf: "0625-03~", hijri: "0003-09~", calendar: julian, precision: month, status: tradition, derived: true, note: "يذكر الكتاب النصف من رمضان سنة ثلاث، وأقوالاً أخرى، ويرجح في كتابه السيرة السنة الرابعة (ص 86). التاريخ الميلادي تحويل مشتق من السنة الهجرية." }
+relations:
+  - { type: occurred_at, target: place/medina }
+  - { type: had_participant, target: person/hasan-ibn-ali, role: "المولود ومسمّاه", sources: [source/sallabi-ali-vol1] }
+  - { type: had_participant, target: person/fatima, role: "أمرت بالعقيقة وصدقة وزن الشعر فضة", sources: [source/sallabi-ali-vol1] }
+  - { type: had_participant, target: person/ali-ibn-abi-talib, role: "سمّاه حرباً", sources: [source/sallabi-ali-vol1] }
+  - { type: had_participant, target: person/muhammad, role: "غيّر اسمه إلى حسن", sources: [source/sallabi-ali-vol1] }
+  - { type: part_of, target: period/prophetic-era }
+issue: { ar: "في أي سنة ولد الحسن؟", en: "In which year was Hasan born?" }
+perspectives:
+  - tradition: sunni
+    id: sunni-author
+    stance:
+      ar: "يذكر الكتاب النصف من رمضان سنة ثلاث، ويرجّح في كتابه السيرة السنة الرابعة"
+      en: "The book gives the middle of Ramadan in the third year and says it prefers the fourth in his own sira"
+    summary:
+      ar: "ينقل الصلابي الرواية الأولى عن نفسه في كتابه السيرة النبوية، فيرجّح أن الحسن ولد في العام الرابع للهجرة (ص 86 والهامش 385)."
+    sources: [source/sallabi-ali-vol1]
+  - tradition: sunni
+    id: variant-reports
+    stance:
+      ar: "أقوال أخرى في الشهر والسنة"
+      en: "Other reports of the month and year"
+    summary:
+      ar: "يذكر الكتاب أن الأقوال الأخرى هي شعبان، وسنة أربع أو خمس، دون أن يحكم بينها (ص 86)."
+    sources: [source/sallabi-ali-vol1]
+sources: [source/sallabi-ali-vol1]
+status: { review: draft, completeness: 1, generated_by: "Claude Code (claude-haiku-5-5); mined from sallabi-ali-vol1 p. 86; the year is debated in the book itself" }
+provenance: { layer: own-research, source: "sallabi-ali-vol1 p. 86", generated_by: "Claude Code", model: "claude-haiku-5-5", run: "sallabi-ali-vol1-deep-p75-92" }

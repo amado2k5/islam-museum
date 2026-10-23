@@ -1,0 +1,23 @@
+id: event/siege-of-basra-1775
+class: event
+kind: siege
+label: { ar: "حصار البصرة (١٧٧٥)", en: "Siege of Basra (1775)" }
+summary:
+  ar: "بطاقة أولية لحصار البصرة (١٧٧٥)؛ لم تُراجع مصادره على الصفحة بعد."
+  en: "Draft card for Siege of Basra (1775); its sources are not yet checked on the page."
+wings: [time]
+periods: [period/gunpowder-empires]
+regions: [levant-iraq]
+date:
+  start: { edtf: "1775", precision: year, status: tradition, derived: true }
+  end: { edtf: "1776", precision: year, status: tradition, derived: true }
+sources: [source/tarikh-islam-hasan-ibrahim]
+external_ids:
+  wikidata: Q141376638
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; battle attested in narrative histories — entry not yet checked on the page"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-wave2
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

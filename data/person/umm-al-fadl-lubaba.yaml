@@ -19,8 +19,7 @@ summary:
   ar: 'زوج العباس بن عبد المطلب وأم عبد الله بن عباس، أخت ميمونة أم المؤمنين؛ قال ابن سعد إنها أول امرأة آمنت بعد خديجة، وقال النبي في أخواتها: «الأخوات الأربع مؤمنات»؛ وكان النبي يزورها وهي من المنجبات.'
   en: The wife of al-Abbas ibn Abd al-Muttalib and mother of Abdullah ibn Abbas, sister of the Mother of the Believers Maymuna; Ibn Sa'd says she was the first woman to believe after Khadija, and the Prophet said of her sisters 'The four sisters
     are believers'; he used to visit her and she was among the women who bore illustrious children.
-wings:
-- people
+wings: [people]
 themes:
 - women
 periods:
@@ -43,6 +42,11 @@ relations:
   target: person/abbas-ibn-abd-al-muttalib
   sources:
   - source/ibn-hajar-isaba
+- type: child_of
+  target: person/khawla-bint-awf
+  note: "أمها هند وهي خولة بنت عوف بن زهير بن الحارث (نساء حول الرسول ص203)."
+  sources:
+  - source/nisa-hawl-alrasul
 - type: parent_of
   target: person/abdullah-ibn-abbas
   sources:
@@ -61,8 +65,10 @@ provenance:
   generated_by: Claude (maintainer session)
   model: claude-sonnet-5-5
   run: isaba-batch-5
+external_ids: { wikidata: "Q1145034" }
 sources:
 - source/ibn-hajar-isaba
+- source/nisa-hawl-alrasul
 status:
   review: draft
   completeness: 2

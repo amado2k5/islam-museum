@@ -1,0 +1,38 @@
+id: person/muhammad-ibn-abd-al-haqq-marinid
+class: person
+label:
+  ar: محمد بن عبد الحق المريني
+  en: Muhammad ibn Abd al-Haqq al-Marini
+summary:
+  ar: "محمد بن عبد الحق المريني الملقب بأبي ضربة؛ قام بأمر بني مرين بعد أخيه عثمان فتقبل سننه في تدويخ بلاد المغرب وجباية المغارم والوضائع، وبارز قائداً من الروم فاختلفا ضربتين هلك العلج بإحداهما وجرح محمداً في وجهه بالأخرى فاندمل جرحه وصار أثراً في وجهه لُقب من أجله أبا ضربة، وبعث الرشيد الموحدي ابن وانودين إلى مكناسة فأجحف بأهلها، ثم لما بويع السعيد بن المأمون أغزى عسكر الموحدين مع قبائل العرب والمصامدة وجموع الروم يناهزون عشرين ألفاً سنة 642هـ فزحف إليهم بنو مرين بوادي ياباش وصبر الفريقان فهلك الأمير محمد في الجولة بيد زعيم من زعماء الروم، وانكشف بنو مرين ولاذوا بجبال غياثة."
+  en: "Muhammad ibn Abd al-Haqq al-Marini, nicknamed Abu Darba ('father of the blow'); succeeding his brother Uthman he kept up the pressure on Morocco's towns, and in single combat with a Christian captain they exchanged two strokes — the Frank dying of one, Muhammad's face cut by the other, the scar earning him his laqab; when al-Sa'id ibn al-Ma'mun's Almohad host of Arabs, Masmuda and Christian troops near twenty thousand marched in 642, Banu Marin met them at Wadi Yabash where Muhammad fell in the melee to a Frankish champion and the tribe broke to the Ghiyatha mountains."
+gender: male
+roles: [ruler]
+died:
+  edtf: "1244"
+  hijri: "0642"
+  calendar: julian
+  precision: year
+  status: tradition
+  derived: true
+  note: هلك بواقعة وادي ياباش سنة 642هـ بيد زعيم من الروم؛ التحويل مشتق.
+  sources:
+  - source/tarikh-ibn-khaldun-ibar
+wings: [people]
+periods: [period/crusades-ayyubid-mamluk]
+regions: [maghreb]
+relations:
+- { type: "child_of", target: "person/abd-al-haqq-ibn-mahyu", sources: [source/tarikh-ibn-khaldun-ibar] }
+- { type: "successor_of", target: "person/uthman-ibn-abd-al-haqq-marinid", sources: [source/tarikh-ibn-khaldun-ibar] }
+sources:
+- source/tarikh-ibn-khaldun-ibar
+provenance:
+  layer: own-research
+  source: ابن خلدون، العبر — إمارة محمد بن عبد الحق، ص1904 (طبعة هيليوبوليس)
+  generated_by: Devin (SWE-2 High) from Apple Vision OCR
+  model: swe-2-high
+  run: lib-ibar-maghreb-39
+status:
+  review: draft
+  completeness: 1
+  generated_by: Devin (SWE-2 High); extracted from Ibn Khaldun al-Ibar via Apple Vision OCR

@@ -1,0 +1,31 @@
+id: person/ismail-i-safavi
+class: person
+label:
+  ar: "إسماعيل الصفوي"
+  en: "Ismail I (Shah Ismail Safavi)"
+names:
+  - { kind: full, lang: ar, value: "إسماعيل بن حيدر الصفوي" }
+roles: [sultan]
+gender: male
+summary:
+  ar: "إسماعيل الصفوي، مؤسس الدولة الصفوية؛ ينسب الصلابي الصفويين إلى الشيخ [[person/safi-al-din-ardabili|صفي الدين الأردبيلي]] (650–735هـ) الجد الأكبر لإسماعيل، ويذكر أن دعوتهم انتشرت بين المتصوفة والدراويش في إيران وبعض أقاليم الدولة العثمانية والعراق والشام، وأنهم أشاعوا انتسابهم إلى علي بن أبي طالب، ويزعم الكتاب أن صفي الدين مارس التقية وأظهر أنه شافعي {cite:dawlat-uthmaniyya-salabi p. 177-178}. وحين تنازع إسماعيل و[[person/selim-i-ottoman|سليم الأول]] أرسل إليه سليم خرقة ومسبحة وكشكولاً وعصاً تذكيراً بأصل الدراويش، فرد إسماعيل بطلب المهادنة فقتل سليم رسوله، ثم هُزم هزيمة ساحقة في [[event/battle-chaldiran-920|جالديران]] أغسطس 1514م وفرّ ودخل سليم تبريز {cite:dawlat-uthmaniyya-salabi p. 181}. ويذكر الكتاب أن هزيمته جعلته أكثر ميلاً للتحالف مع البرتغاليين فأقرّ استيلاءهم على هرمز مقابل مساعدتهم له على البحرين والقطيف، في مشروع ذُكر فيه تقسيم المشرق العربي بينهما {cite:dawlat-uthmaniyya-salabi p. 182-183}."
+  en: "Shah Ismail, founder of the Safavid state; al-Salabi traces the Safavids to Shaykh [[person/safi-al-din-ardabili|Safi al-Din al-Ardabili]] (650–735 AH), Ismail's great ancestor, whose Sufi following spread through Iran, Ottoman lands, Iraq and Syria, and claims Safi al-Din practised dissimulation, appearing outwardly Shafi'i {cite:dawlat-uthmaniyya-salabi p. 177-178}. When Ismail contended with [[person/selim-i-ottoman|Selim I]], Selim sent him a dervish's rag, beads, bowl and staff to mock his roots, killed his envoy after the shah sought a truce, then crushed him at [[event/battle-chaldiran-920|Chaldiran]] in August 1514 and entered Tabriz {cite:dawlat-uthmaniyya-salabi p. 181}. The book says the defeat pushed Ismail toward the Portuguese, conceding Hormuz in exchange for help against Bahrain and Qatif {cite:dawlat-uthmaniyya-salabi p. 182-183}."
+wings: [people]
+regions: [persia-central-asia]
+periods: [period/gunpowder-empires]
+relations:
+  - { type: founder_of, target: polity/safavid-iran, sources: [source/dawlat-uthmaniyya-salabi] }
+  - { type: opposed, target: person/selim-i-ottoman, sources: [source/dawlat-uthmaniyya-salabi] }
+  - { type: participated_in, target: event/battle-chaldiran-920, role: "المهزوم", sources: [source/dawlat-uthmaniyya-salabi] }
+sources: [source/tarikh-islam-hasan-ibrahim, source/dawlat-uthmaniyya-salabi]
+external_ids:
+  wikidata: Q214559
+provenance:
+  layer: own-research
+  source: "الدولة العثمانية لعلي محمد الصلابي (ط1 1421)"
+  generated_by: "Devin (SWE-2 Medium) from Apple Vision OCR"
+  model: "SWE-2 Medium"
+  run: lib-salabi-uthmani-batch-7
+status:
+  review: draft
+  completeness: 2

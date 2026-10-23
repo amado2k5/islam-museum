@@ -1,0 +1,20 @@
+id: event/sulh-saladin-atabeg-581
+class: event
+kind: treaty
+label: { ar: "الصلح بين صلاح الدين وأتابك عز الدين صاحب الموصل", en: "the Mosul truce — Saladin and the atabeg Izz al-Din Masud" }
+date:
+  start: { edtf: "1185~", hijri: "0581", calendar: julian, precision: year, status: tradition, derived: true }
+summary:
+  ar: "عاد صلاح الدين إلى بلد الموصل فجرى الصلح بينه وبين أتابك عز الدين مسعود بن مودود على إقرار كل صاحب بلد ببلده ونصرة من اعتدى على بلاد أحدهما {cite:kamil-ibn-al-athir p. 134}."
+  en: "Saladin returned to Mosul and made peace with the atabeg Izz al-Din Masud ibn Mawdud — each confirmed in his lands, bound to aid against any aggressor {cite:kamil-ibn-al-athir p. 134}."
+relations:
+  - { type: occurred_at, target: place/mosul, sources: [source/kamil-ibn-al-athir] }
+  - { type: had_participant, target: person/salah-al-din-yusuf-ibn-ayyub, sources: [source/kamil-ibn-al-athir] }
+  - { type: had_participant, target: person/izz-al-din-masud, sources: [source/kamil-ibn-al-athir] }
+provenance:
+  layer: own-research
+  source: "الكامل في التاريخ لابن الأثير، قراءة آبل فيجن"
+  generated_by: "Devin (SWE-2 Medium) from Apple Vision OCR"
+  run: lib-kamil-v12-batch03
+sources: [source/kamil-ibn-al-athir]
+status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 Medium)" }

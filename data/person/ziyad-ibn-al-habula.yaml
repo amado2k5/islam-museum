@@ -1,0 +1,23 @@
+id: person/ziyad-ibn-al-habula
+class: person
+label: { ar: "زياد بن الهبولة", en: "Ziyad ibn al-Habula" }
+names:
+  - { kind: full, lang: ar, value: "زياد بن الهبولة الضجعمي" }
+gender: male
+roles: [ruler]
+summary:
+  ar: "من أشهر ملوك الضجاعمة، بني ضجعم بن سليح من قضاعة، الذين اصطنعهم الرومان ملوكاً على عرب الشام قبل الغساسنة؛ ويقدَّر زمن الضجاعمة من أوائل القرن الثاني الميلادي إلى نهايته تقريباً، في رواية الرحيق المختوم."
+  en: "The most famous king of the Daja'ima, Banu Dajam ibn Salih of Quda'a, whom the Romans set up as kings over the Arabs of al-Sham before the Ghassanids; their era is reckoned from the early second century CE to about its end, in al-Raheeq al-Makhtum's account."
+wings: [people]
+periods: [period/pre-islamic-arabia]
+regions: [levant-iraq]
+relations:
+  - { type: member_of, target: group/dajaima, sources: [source/mubarakpuri-raheeq] }
+provenance:
+  layer: own-research
+  source: "الرحيق المختوم ص25–28 و40 نقلاً عن محاضرات تاريخ الأمم الإسلامية للخضري 1/29–34 وتاريخ أرض القرآن 2/80–82 وتفهيم القرآن 6/297–298"
+  generated_by: "Claude Code"
+  model: "claude-fable-5-1"
+  run: "raheeq-prose-batch-2b"
+sources: [source/mubarakpuri-raheeq, source/muhadarat-tarikh-al-umam-al-islamiyya, source/tarikh-ard-al-quran]
+status: { review: draft, completeness: 1, generated_by: "Claude Code (claude-fable-5-1); al-Raheeq al-Makhtum p. 27" }

@@ -1,0 +1,30 @@
+id: person/ala-al-dawla-ibn-kakuya
+class: person
+label:
+  ar: علاء الدولة بن كاكويه
+  en: Ala al-Dawla ibn Kakuya
+summary:
+  ar: "علاء الدولة بن كاكويه، ملك الديلم على أصفهان؛ أطاع السلطان محمود بن سبكتكين وخطب له سنة 420هـ، وقصد مسعود بن محمود أصفهان فملكها منه واستخلف عليها بعض أصحابه فثار أهلها بعامله وقتلوه، وكان أمير الري سنة 429هـ حين اقتحمها الغز فأفحشوا في النهب والقتل."
+  en: "Ala al-Dawla ibn Kakuya, Daylamite king of Isfahan; he gave Sultan Mahmud ibn Subuktigin allegiance and the khutba in 420 AH, and when Mas'ud ibn Mahmud took Isfahan and left a lieutenant the townsfolk rose and killed him — he was amir of Rayy in 429 when the Ghuzz stormed it with plunder and massacre."
+gender: male
+roles: [ruler]
+relations:
+- type: ruler_of
+  target: polity/kakuyid-dynasty
+  sources:
+  - source/tarikh-ibn-khaldun-ibar
+wings: [people]
+periods: [period/buyid-seljuk-fatimid-era]
+regions: [persia-central-asia]
+sources:
+- source/tarikh-ibn-khaldun-ibar
+provenance:
+  layer: own-research
+  source: ابن خلدون، العبر — أخبار علاء الدولة بن كاكويه بأصفهان والري ويزد، ص878 و960 و1145 (طبعة هيليوبوليس)
+  generated_by: Devin (SWE-2 High) from Apple Vision OCR
+  model: swe-2-high
+  run: lib-ibar-east-8
+status:
+  review: draft
+  completeness: 1
+  generated_by: Devin (SWE-2 High); extracted from Ibn Khaldun al-Ibar via Apple Vision OCR

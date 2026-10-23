@@ -1,0 +1,23 @@
+id: event/battle-of-dilam-1903
+class: event
+kind: battle
+label: { ar: "معركة الدلم", en: "Battle of Dilam" }
+summary:
+  ar: "بطاقة أولية لمعركة الدلم سنة ١٩٠٣م، فوز ابن رشيد على ابن سعود قرب الخرج؛ لم تُراجع مصادره على الصفحة بعد."
+  en: "Draft card for the Battle of Dilam in 1903, Ibn Rashid's victory over Ibn Saud near al-Kharj; its sources are not yet checked on the page."
+wings: [time]
+periods: [period/modern-era]
+regions: [arabia]
+date:
+  start: { edtf: "1903-01-27", precision: year, status: tradition, derived: true }
+  end: { edtf: "1903-01-27", precision: year, status: tradition, derived: true }
+sources: [source/tarikh-islam-hasan-ibrahim]
+external_ids:
+  wikidata: Q4870874
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; battle attested in narrative histories — entry not yet checked on the page"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-wave2
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

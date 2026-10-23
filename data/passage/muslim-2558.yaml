@@ -1,0 +1,15 @@
+id: passage/muslim-2558
+class: passage
+unit: hadith
+work: work/sahih-muslim
+ref: "2558"
+label: { ar: "مسلم 2558 — إن لي قرابة أصلهم ويقطعوني", en: "Muslim 2558 — I have kin whom I keep and who sever me" }
+text: "قال رجل: يا رسول الله إن لي قرابة أصلهم ويقطعوني وأحسن إليهم ويسيئون إلي وأحلم عنهم ويجهلون علي، فقال رسول الله: «لئن كنت كما قلت فكأنما تسفهم المل، ولا يزال معك من الله ظهير عليهم ما دمت على ذلك»"
+summary:
+  ar: "رواية أبي هريرة في باب صلة الرحم من صحيح مسلم؛ وصية النبي للواصل المسيء إليه: يكفيهم الرماد الحار ويظهره الله عليهم ما دام على صلته."
+relations:
+  - { type: mentions, target: person/muhammad, sources: [source/sahih-muslim] }
+  - { type: mentions, target: person/abu-hurayra, sources: [source/sahih-muslim] }
+provenance: { layer: own-research, source: "صحيح مسلم، كتاب البر والصلة والآداب، باب صلة من قطع (طبعة دار التأصيل، الحديث ٢٦٤٠؛ ترقيم عبد الباقي المعروف 2558)، تصوير Apple Vision OCR", generated_by: "Devin (SWE-2 High) from Apple Vision OCR", run: "hadith-muslim-passages-3" }
+sources: [source/sahih-muslim]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High); matn excerpt at most 40 words checked against the scan" }

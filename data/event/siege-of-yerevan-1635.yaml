@@ -1,0 +1,23 @@
+id: event/siege-of-yerevan-1635
+class: event
+kind: siege
+label: { ar: "حصار يريفان (١٦٣٥)", en: "Siege of Yerevan (1635)" }
+summary:
+  ar: "بطاقة أولية لحصار يريفان سنة ١٦٣٥م، فتح مراد الرابع لروان في حملته الكبرى على الصفويين؛ لم تُراجع مصادره على الصفحة بعد."
+  en: "Draft card for the Siege of Yerevan in 1635, Murad IV's capture of the fortress from the Safavids; its sources are not yet checked on the page."
+wings: [time]
+periods: [period/gunpowder-empires]
+regions: [persia-central-asia]
+date:
+  start: { edtf: "1635-07-28", precision: year, status: tradition, derived: true }
+  end: { edtf: "1635-08-08", precision: year, status: tradition, derived: true }
+sources: [source/dawlat-uthmaniyya-salabi]
+external_ids:
+  wikidata: Q31070845
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; battle attested in narrative histories — entry not yet checked on the page"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-wave2
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

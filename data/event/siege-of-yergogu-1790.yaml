@@ -1,0 +1,23 @@
+id: event/siege-of-yergogu-1790
+class: event
+kind: siege
+label: { ar: "حصار يركوي (١٧٩٠)", en: "Siege of Yergöğü (1790)" }
+summary:
+  ar: "بطاقة أولية لحصار يركوي (جرجو) سنة ١٧٩٠م، سقوط القلعة العثمانية بيد النمساويين والروس؛ لم تُراجع مصادره على الصفحة بعد."
+  en: "Draft card for the Siege of Yergöğü (Giurgiu) in 1790, the Ottoman fortress's fall to the Austrians and Russians; its sources are not yet checked on the page."
+wings: [time]
+periods: [period/gunpowder-empires]
+regions: [anatolia-balkans]
+date:
+  start: { edtf: "1790", precision: year, status: tradition, derived: true }
+  end: { edtf: "1790", precision: year, status: tradition, derived: true }
+sources: [source/dawlat-uthmaniyya-salabi]
+external_ids:
+  wikidata: Q124812424
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; battle attested in narrative histories — entry not yet checked on the page"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-wave2
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

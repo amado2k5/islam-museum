@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 37:47 (سورة الصافات، الآية 47)."
 text: "لَا فِيهَا غَوْلٌ وَلَا هُمْ عَنْهَا يُنزَفُونَ"
 text_search: "لا فيها غول ولا هم عنها ينزفون"
+translations:
+  en: { text: "Wherein there is no headache nor are they made mad thereby.", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "نہ اس سے دردِ سر ہو اور نہ وہ اس سے متوالے ہوں گے", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-37 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

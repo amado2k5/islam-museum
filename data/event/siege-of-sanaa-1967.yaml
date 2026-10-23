@@ -1,0 +1,23 @@
+id: event/siege-of-sanaa-1967
+class: event
+kind: siege
+label: { ar: "حصار صنعاء (١٩٦٧)", en: "Siege of Sanaa (1967)" }
+summary:
+  ar: "بطاقة أولية لحصار صنعاء السبعيني سنة ١٩٦٧م، حصار الملكيين للعاصمة في حرب اليمن الأهلية؛ لم تُراجع مصادره على الصفحة بعد."
+  en: "Draft card for the seventy-day Siege of Sanaa in 1967, the royalist investment of the capital in the North Yemen Civil War; its sources are not yet checked on the page."
+wings: [time]
+periods: [period/modern-era]
+regions: [arabia]
+date:
+  start: { edtf: "1967-11", precision: year, status: tradition, derived: true }
+  end: { edtf: "1968-02", precision: year, status: tradition, derived: true }
+sources: [source/tarikh-islam-hasan-ibrahim]
+external_ids:
+  wikidata: Q17034099
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; battle attested in narrative histories — entry not yet checked on the page"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-wave2
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

@@ -1,0 +1,23 @@
+id: event/siege-of-tlemcen-1272
+class: event
+kind: siege
+label: { ar: "حصار تلمسان (١٢٧٢)", en: "Siege of Tlemcen (1272)" }
+summary:
+  ar: "بطاقة أولية لحصار تلمسان سنة ١٢٧٢م، من حصارات المرينيين الطويلة لعاصمة بني عبد الواد؛ لم تُراجع مصادره على الصفحة بعد."
+  en: "Draft card for the Siege of Tlemcen in 1272, one of the long Marinid investments of the Zayyanid capital; its sources are not yet checked on the page."
+wings: [time]
+periods: [period/crusades-ayyubid-mamluk]
+regions: [maghreb]
+date:
+  start: { edtf: "1272-05", precision: year, status: tradition, derived: true }
+  end: { edtf: "1272-05", precision: year, status: tradition, derived: true }
+sources: [source/tarikh-islam-hasan-ibrahim]
+external_ids:
+  wikidata: Q125146296
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; battle attested in narrative histories — entry not yet checked on the page"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-wave2
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

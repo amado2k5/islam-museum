@@ -1,0 +1,27 @@
+id: person/qutayba-ibn-said
+class: person
+label:
+  ar: "قتيبة بن سعيد"
+  en: "Qutayba ibn Sa'id"
+roles: [muhaddith]
+gender: male
+summary:
+  ar: "بطاقة أولية لقتيبة بن سعيد الثقفي البلخي، شيخ البخاري والرواة؛ لم تُراجع ترجمته على الصفحة بعد."
+  en: "Draft card for Qutayba ibn Sa'id al-Thaqafi of Balkh, shaykh of al-Bukhari and the narrators; his entry is not yet checked on the page."
+wings: [people]
+regions: [persia-central-asia]
+periods: [period/abbasid-early]
+born: { edtf: "767", precision: year, status: tradition, derived: true }
+died: { edtf: "854", precision: year, status: tradition, derived: true }
+sources: [source/al-aalam]
+external_ids:
+  wikidata: Q12232295
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; entry not yet read on the page in a book source"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-wave2
+status:
+  review: draft
+  completeness: 1

@@ -1,0 +1,17 @@
+id: passage/muslim-2646
+class: passage
+unit: hadith
+work: work/sahih-muslim
+ref: "2646"
+label: { ar: "مسلم 2646 — الشقي من شقي في بطن أمه", en: "Muslim 2646 — The wretched one is wretched in the womb" }
+text: "قال عبد الله بن مسعود: الشقي من شقي في بطن أمه، والسعيد من وعظ بغيره"
+summary:
+  ar: "رواية ابن مسعود عند عامر بن واثلة أيّدها حذيفة بن أسيد بسماعه من النبي، في باب كيفية خلق الآدمي ومبتدأ الأمر فيه من كتاب القدر في صحيح مسلم؛ الشقاوة والسعادة تُكتبان في الرحم."
+relations:
+  - { type: mentions, target: person/muhammad, sources: [source/sahih-muslim] }
+  - { type: mentions, target: person/abdullah-ibn-masud, sources: [source/sahih-muslim] }
+  - { type: mentions, target: person/hudhayfa-ibn-al-yaman, sources: [source/sahih-muslim] }
+  - { type: mentions, target: concept/qadar, sources: [source/sahih-muslim] }
+provenance: { layer: own-research, source: "صحيح مسلم، كتاب القدر، باب كيفية خلق الآدمي ومبتدأ الأمر فيه والشقاء والسعادة (طبعة دار التأصيل، الحديث 2734؛ ترقيم عبد الباقي المعروف 2646)، تصوير Apple Vision OCR", generated_by: "Devin (SWE-2 High) from Apple Vision OCR", run: "hadith-muslim-passages-4" }
+sources: [source/sahih-muslim]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High); matn excerpt at most 40 words checked against the scan" }

@@ -1,0 +1,32 @@
+id: person/al-mamun-almohad
+class: person
+label:
+  ar: المأمون بن المنصور الموحدي
+  en: al-Ma'mun ibn al-Mansur al-Muwahhidi
+summary:
+  ar: "خليفة موحدي (624-630هـ)، ثار على مذهب دولته نفسها: بويع بإشبيلية فدخل مراكش سنة 626هـ بمدد من النصارى، وعدّد على مشيخة الموحدين فعلاتهم وقتل مائة من أعيانهم، وأصدر كتابه إلى البلدان بمحو اسم المهدي ابن تومرت من السكة والخطبة والنعي عليه في النداء باللسان البربري، وأذن للنصارى في بناء كنيسة بمراكش، فخلعت إفريقية طاعته لأبي زكريا الحفصي سنة 627هـ، وهلك بوادي أم الربيع سنة 630هـ."
+  en: "The Almohad caliph (624-630 AH) who revolted against his own dynasty's doctrine: acclaimed at Seville, he entered Marrakesh in 626 AH with a Christian army, reproached the Almohad shaykhs and killed a hundred of their notables, ordered Ibn Tumart's name erased from coinage and khutba and cursed in the Berber adhan, licensed a church in Marrakesh, lost Ifriqiya to Abu Zakariya al-Hafsi in 627 AH, and died at Wadi Umm al-Rabi' in 630 AH."
+gender: male
+roles: [ruler]
+traditions: [sunni]
+died: { edtf: "1232", hijri: "0630", calendar: julian, precision: year, status: tradition, derived: true, note: "هلك بوادي أم الربيع سنة ثلاثين وستمائة؛ التحويل مشتق.", sources: [source/tarikh-ibn-khaldun-ibar] }
+relations:
+- type: ruler_of
+  target: polity/almohad-caliphate
+  sources:
+  - source/tarikh-ibn-khaldun-ibar
+wings: [people]
+periods: [period/mongol-post-mongol]
+regions: [maghreb, andalus-europe]
+sources:
+- source/tarikh-ibn-khaldun-ibar
+provenance:
+  layer: own-research
+  source: ابن خلدون، العبر — دولة المأمون بن المنصور، ص1684 (المجلد السادس، طبعة هيليوبوليس)
+  generated_by: Devin (SWE-2 High) from Apple Vision OCR
+  model: swe-2-high
+  run: lib-ibar-maghreb-2
+status:
+  review: draft
+  completeness: 1
+  generated_by: Devin (SWE-2 High); extracted from Ibn Khaldun al-Ibar via Apple Vision OCR

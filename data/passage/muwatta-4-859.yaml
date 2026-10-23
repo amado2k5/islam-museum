@@ -1,0 +1,20 @@
+id: passage/muwatta-4-859
+class: passage
+unit: hadith
+chain: [person/malik-ibn-anas, person/abu-al-nadr, person/abu-salama-ibn-abd-al-rahman, person/aisha, person/muhammad]
+work: work/muwatta-malik
+ref: "859"
+label: { ar: "الموطأ 859 — عائشة: كان رسول الله يصوم حتى نقول لا يفطر، ويفطر حتى نقول لا يصوم، وما رأيته استكمل صيام شهر قط إلا رمضان، وما رأيته في شهر أكثر صياماً منه في شعبان", en: "Muwatta 859" }
+summary:
+  ar: "أول حديث في باب جامع الصيام. يرويه مالك عن أبي النضر مولى عمر بن عبيد الله عن أبي سلمة بن عبد الرحمن عن عائشة زوج النبي، أنها قالت: كان رسول الله يصوم حتى نقول لا يفطر، ويفطر حتى نقول لا يصوم، وما رأيت رسول الله استكمل صيام شهر قط إلا رمضان، وما رأيته في شهر أكثر صياماً منه في شعبان. ويذكر المحقق أنه رواه عن مالك أبو مصعب (852) والترمذي في الشمائل (307) وابن حبان، وأن البخاري ومسلم رويا نحوه من غير طريق مالك. {cite:muwatta-maruf-1997 p.415}"
+relations:
+  - { type: part_of, target: passage/muwatta-kitab-04-siyam }
+  - { type: mentions, target: person/muhammad, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/aisha, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/abu-salama-ibn-abd-al-rahman, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/al-tirmidhi-muhammad-ibn-isa, sources: [source/muwatta-maruf-1997] }
+  - { type: basis_for, target: practice/sawm-tatawwu, sources: [source/muwatta-maruf-1997] }
+  - { type: basis_for, target: practice/sawm-ramadan, sources: [source/muwatta-maruf-1997] }
+provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 1, hadith 859 at PDF p. 415; باب جامع الصيام", generated_by: "Claude Code (claude-haiku-5-5) from Apple Vision OCR of the Noor-Book PDF, checked on the page image where doubtful", run: "muwatta-prose-k4-b04" }
+sources: [source/muwatta-maruf-1997]
+status: { review: draft, completeness: 2, generated_by: "Claude Code (claude-haiku-5-5); own-words account written from PDF p. 415; matn excerpt at most 40 words" }

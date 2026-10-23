@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 17:7 (سورة الإسراء، الآية 7)."
 text: "إِنْ أَحْسَنتُمْ أَحْسَنتُمْ لِأَنفُسِكُمْ ۖ وَإِنْ أَسَأْتُمْ فَلَهَا ۚ فَإِذَا جَآءَ وَعْدُ ٱلْـَٔاخِرَةِ لِيَسُـۥٓـُٔوا۟ وُجُوهَكُمْ وَلِيَدْخُلُوا۟ ٱلْمَسْجِدَ كَمَا دَخَلُوهُ أَوَّلَ مَرَّةٍ وَلِيُتَبِّرُوا۟ مَا عَلَوْا۟ تَتْبِيرًا"
 text_search: "إن أحسنتم أحسنتم لأنفسكم ۖ وإن أسأتم فلها ۚ فإذا جاء وعد الآخرة ليسوءوا وجوهكم وليدخلوا المسجد كما دخلوه أول مرة وليتبروا ما علوا تتبيرا"
+translations:
+  en: { text: "(Saying): If ye do good, ye do good for your own souls, and if ye do evil, it is for them (in like manner). So, when the time for the second (of the judgments) came (We roused against you others of Our slaves) to ravage you, and to enter the Temple even as they entered it the first time, and to lay waste all that they conquered with an utter wasting.", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "اگر تم نیکوکاری کرو گے تو اپنی جانوں کے لئے کرو گے۔ اور اگر اعمال بد کرو گے تو (اُن کا) وبال بھی تمہاری ہی جانوں پر ہوگا پھر جب دوسرے (وعدے) کا وقت آیا (تو ہم نے پھر اپنے بندے بھیجے) تاکہ تمہارے چہروں کو بگاڑ دیں اور جس طرح پہلی دفعہ مسجد (بیت المقدس) میں داخل ہوگئے تھے اسی طرح پھر اس میں داخل ہوجائیں اور جس چیز پر غلبہ پائیں اُسے تباہ کردیں", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-17 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

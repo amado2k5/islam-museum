@@ -1,0 +1,83 @@
+id: exhibit/path-life-cycle
+class: exhibit
+kind: trail
+label:
+  ar: دورة الحياة المسلمة
+  en: A Muslim Life Cycle
+summary:
+  ar: 'مسار في مناسبات العمر: من العقيقة إلى الختان إلى النكاح إلى الجنازة والدفن.'
+  en: 'A trail through life-cycle rites: aqiqa, circumcision, marriage, funeral and burial.'
+audience:
+- newcomer
+- student
+duration_minutes: 30
+wings: []
+regions:
+- global
+rooms:
+- title:
+    ar: المولود
+    en: Birth
+  body:
+    ar: العقيقة والتسمية يوم السابع.
+    en: Aqiqa and naming on the seventh day.
+  features:
+  - practice/aqiqa
+- title:
+    ar: الختان
+    en: Circumcision
+  body:
+    ar: سنة الفطرة عند جمهور الفقهاء.
+    en: A fitra practice in the majority's view.
+  features:
+  - practice/khitan
+- title:
+    ar: النكاح
+    en: Marriage
+  body:
+    ar: عقد وإعلان ووليمة.
+    en: Contract, announcement and feast.
+  features:
+  - practice/nikah
+  - practice/walima
+- title:
+    ar: الاحتضار
+    en: The passing
+  body:
+    ar: الغسل والتكفين بعد الموت.
+    en: Washing and shrouding after death.
+  features:
+  - practice/ghusl-al-janaza
+  - practice/dua
+- title:
+    ar: الجنازة
+    en: The funeral
+  body:
+    ar: صلاة الجنازة وحمل النعش والدفن.
+    en: Funeral prayer, the bier and burial.
+  features:
+  - practice/salat-al-janaza
+  - practice/dafn
+- title:
+    ar: الذكرى
+    en: Remembrance
+  body:
+    ar: زيارة القبور والتعزية في أحكامها.
+    en: Grave-visiting and condolence within their rules.
+  features:
+  - practice/ziyarat-al-qubur
+  - practice/taziya
+prerequisites:
+- exhibit/path-islam-in-30-minutes
+sources:
+- source/wikidata
+provenance:
+  layer: own-research
+  source: Devin-assembled trail from existing museum entities
+  generated_by: Devin (SWE-2 High)
+  model: SWE-2 High
+  run: pathways-batch-1
+status:
+  review: draft
+  completeness: 1
+  generated_by: Devin (SWE-2 High), pathways lane, 2026-10-16

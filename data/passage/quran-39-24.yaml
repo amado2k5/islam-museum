@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 39:24 (سورة الزمر، الآية 24)."
 text: "أَفَمَن يَتَّقِى بِوَجْهِهِۦ سُوٓءَ ٱلْعَذَابِ يَوْمَ ٱلْقِيَـٰمَةِ ۚ وَقِيلَ لِلظَّـٰلِمِينَ ذُوقُوا۟ مَا كُنتُمْ تَكْسِبُونَ"
 text_search: "أفمن يتقي بوجهه سوء العذاب يوم القيامة ۚ وقيل للظالمين ذوقوا ما كنتم تكسبون"
+translations:
+  en: { text: "Is he then, who will strike his face against the awful doom upon the Day of Resurrection (as he who doeth right)? And it will be said unto the wrong-doers: Taste what ye used to earn.", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "بھلا جو شخص قیامت کے دن اپنے منہ سے برے عذاب کو روکتا ہو (کیا وہ ویسا ہوسکتا ہے جو چین میں ہو) اور ظالموں سے کہا جائے گا کہ جو کچھ تم کرتے رہے تھے اس کے مزے چکھو", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-39 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

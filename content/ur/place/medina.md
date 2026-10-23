@@ -1,0 +1,77 @@
+---
+id: place/medina
+lang: ur
+source_lang: ar
+translators: ["Claude Haiku 5.5 (claude-haiku-5-5), draft translation"]
+---
+
+## تعارف
+حجاز کا وہ شہر جہاں نبی 622ء میں ہجرت کر کے آئے، اور جہاں مسجدِ نبوی اور پہلا اسلامی معاشرہ وجود میں آیا۔
+
+## محلِ وقوع
+اس کے تقریبی محدد 24.4686 شمالی عرض اور 39.6142 مشرقی طول ہیں {cite:geonames-gazetteer}۔ 622ء تک یہ شہر «یثرب» کے نام سے پہچانا جاتا تھا۔
+
+## میوزیم میں
+میوزیم کے مواد میں اس مقام سے متعلق یہ چیزیں شامل ہیں: واقعات 74، یہاں پیدا ہونے والے 32، یہاں وفات پانے والے 21، یہاں زندگی گزارنے والے 16، یہاں کا قصد کرنے والے 1، وہ ریاستیں جن کا یہ دارالحکومت رہا 1، یہاں کی عمارات 1، اور وہ گروہ جو یہاں آباد رہے 6۔
+
+### وہ واقعات جو یہاں پیش آئے
+- [[event/pledges-of-aqaba|عقبہ کی دو بیعتیں]] (621ء)
+- [[event/hijra|ہجرتِ نبوی]] (622ء)
+- [[event/battle-of-uhud|غزوۂ احد]] (625ء)
+- [[event/battle-of-the-trench|غزوۂ احزاب (خندق)]] (627ء)
+- [[event/the-three-left-behind|تبوک کے بعد پیچھے رہ جانے والے تین صحابی]] (630ء)
+- [[event/masjid-al-dirar-builders-ask-the-prophet-to-pray|مسجد والوں کا نبی سے اس میں نماز پڑھنے کی درخواست کرنا]] (630ء)
+- [[event/repentance-of-the-three-accepted|تین افراد کی توبہ کی قبولیت]] (630ء)
+- [[event/expedition-to-tabuk|غزوۂ تبوک]] (630ء)
+- [[event/the-weepers-al-bakkaun|رونے والے: سات افراد جنہوں نے سواری طلب کی]] (630ء)
+- [[event/year-of-delegations|وفود کا سال]] (631ء)
+
+### یہاں پیدا ہونے والے
+- [[person/abd-al-muttalib|عبدالمطلب بن ہاشم]]
+- [[person/abdullah-ibn-ubayy|عبداللہ بن ابی بن سلول]]
+- [[person/husayn-ibn-ali|حسین بن علی]]
+- [[person/asad-ibn-zurara|اسعد بن زرارہ]]
+- [[person/hasan-ibn-ali|حسن بن علی]]
+- [[person/hassan-ibn-thabit|حسان بن ثابت]]
+- [[person/muadh-ibn-jabal|معاذ بن جبل]]
+- [[person/zayd-ibn-thabit|زید بن ثابت]]
+
+### یہاں وفات پانے والے
+- [[person/muhammad|محمد]]
+- [[person/abu-bakr|ابوبکر صدیق]]
+- [[person/umar-ibn-al-khattab|عمر بن خطاب]]
+- [[person/uthman-ibn-affan|عثمان بن عفان]]
+- [[person/abbas-ibn-abd-al-muttalib|عباس بن عبدالمطلب]]
+- [[person/fatima|فاطمہ بنت محمد]]
+- [[person/aisha|عائشہ بنت ابی بکر]]
+- [[person/abdullah-ibn-ubayy|عبداللہ بن ابی بن سلول]]
+
+### یہاں زندگی گزارنے والے
+- [[person/umm-ayman|ام ایمن برکہ بنت ثعلبہ]]
+- [[person/anas-ibn-malik|انس بن مالک]]
+- [[person/maria-al-qibtiyya|ماریہ قبطیہ]]
+- [[person/salma-bint-amr|سلمیٰ بنت عمرو]]
+- [[person/salman-al-farisi|سلمان فارسی]]
+- [[person/khawla-bint-thalaba|خولہ بنت ثعلبہ]]
+- [[person/al-shifa-bint-abdullah|الشفاء بنت عبداللہ]]
+- [[person/busra-bint-safwan|بسرہ بنت صفوان]]
+
+### یہاں کا قصد کرنے والے
+- [[person/ibn-rajab|ابن رجب حنبلی]]
+
+### وہ ریاستیں جن کا یہ دارالحکومت رہا
+- [[polity/rashidun-caliphate|خلافتِ راشدہ]] (632ء)
+
+### یہاں کی عمارات
+- [[building/prophets-mosque|مسجدِ نبوی]] (622ء)
+
+### وہ گروہ جو یہاں آباد رہے
+- [[group/ansar|انصار]]
+- [[group/early-muslims|ابتدائی مسلم جماعت]]
+- [[group/muhajirun|مہاجرین]]
+- [[group/banu-nadir|بنو نضیر]]
+- [[group/banu-qaynuqa|بنو قینقاع]]
+- [[group/banu-qurayza|بنو قریظہ]]
+
+## یہ صفحہ کیا احاطہ کرتا ہے
+یہ صفحہ اس مقام سے میوزیم کے ربط رکھنے والے واقعات، افراد اور عمارات کو یکجا کرتا ہے، اور اسے اس مقام کی مکمل تاریخی تفصیل نہ سمجھا جائے۔ مقام کی تفصیل اور تاریخ اصل مآخذ سے اگلی کھیپ میں شامل کی جائے گی۔

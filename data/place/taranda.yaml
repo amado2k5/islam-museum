@@ -1,0 +1,19 @@
+id: place/taranda
+class: place
+kind: town
+label: { ar: "طرندة", en: "Taranda (Taranta)" }
+summary:
+  ar: "طرندة حصنٌ واقعة في بلاد الروم على ثلاث مراحل من ملطية؛ نزلها المسلمون بعد أن غزاها عبد الله بن عبد الملك سنة 83 وبنوا بها مساكن، وكانت ملطية يومئذ خراباً فكانت تأتيهم طالعة من جند الجزيرة في الصيف فيقيمون بها حتى يسقط الثلج فيقفلون؛ ثم رحّل عمر بن عبد العزيز أهلها عنها وهم كارهون إشفاقاً عليهم من العدو فكسروا خوابي الخل والزيت وأنزلهم ملطية وأخرب طرندة."
+  en: "Taranda (Taranta), a fortress lying in Byzantine country three stages from Malatya; the Muslims settled it after Abdallah ibn Abd al-Malik raided it in year 83, building dwellings while Malatya lay ruined — Jaziran troops coming up each summer to stay until the snows fell, then marching home; Umar ibn Abd al-Aziz removed its people against their will, fearing the enemy for them — they smashed their vinegar and oil jars — settled them in Malatya and demolished Taranda."
+wings: [place]
+periods: [period/umayyad]
+regions: [levant-iraq]
+relations:
+  - { type: located_in, target: place/malatya, sources: [source/futuh-buldan-maarif-1407] }
+provenance:
+  layer: own-research
+  source: "فتوح البلدان (ط مؤسسة المعارف 1407هـ/1987م) ص 262"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-futuh-buldan-batch-15
+sources: [source/futuh-buldan-maarif-1407]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

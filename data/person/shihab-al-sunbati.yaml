@@ -1,0 +1,25 @@
+id: person/shihab-al-sunbati
+class: person
+label: { ar: "شهاب الدين ابن عبد الحق السنباطي", en: "Shihab al-Din ibn 'Abd al-Haqq al-Sunbati" }
+names:
+  - { kind: full, lang: ar, value: "شهاب الدين أحمد بن عبد الحق بن محمد السنباطي المصري الشافعي" }
+gender: male
+roles: [scholar, teacher]
+traditions: [sunni]
+wings: [people]
+themes: [education, scripture-and-its-sciences]
+periods: [period/gunpowder-empires]
+regions: [egypt-nile, arabia]
+summary:
+  ar: "شهاب الدين أحمد بن عبد الحق السنباطي المصري الشافعي، الواعظ بالجامع الأزهر؛ أخذ عن والده وغيره وكان معه بمكة في مجاورته سنة إحدى وثلاثين وتسعمائة ووعظ بالمسجد الحرام في حياة أبيه وفُتح عليه في الوعظ حينئذ، وهو الذي تقدم للصلاة على والده حين توفي بمكة. قال الشعراني: لم نر أحداً من الوعاظ أقبل عليه الخلائق مثله، وكان إذا نزل عن الكرسي اقتتل الناس عليه، وكان متفنناً في العلوم الشرعية وله الباع الطويل في الخلاف ومذاهب المجتهدين، وكان من رؤوس أهل السنة والجماعة واشتهر في أقطار الأرض كالشام والحجاز واليمن والروم وصاروا يضربون به المثل وأذعن له علماء مصر الخاص والعام، وولي تدريس الخشابية بمصر بعد الضيروطي وهي مشروطة لأعلى علماء الشافعية كالشامية البرانية بدمشق، وكان يقول بتحريم قهوة البن ثم انعقد الآن الإجماع على حلها في ذاتها؛ توفي في أواخر صفر، قال الشعراني: ولما مات أظلمت مصر لموته وانهدم ركن عظيم من الدين وما رأيت في عمري كله أكثر خلقاً من جنازته إلا جنازة الشهاب الرملي {cite:shadharat-dhahab p. 696-697}."
+  en: "The Azhar's greatest preacher — son of the Meccan mujawir 'Abd al-Haqq, he preached in the Haram in his father's lifetime and prayed over him at his death; 'we never saw the crowds flock to a preacher like him', men fighting over him when he stepped down; a Sunni champion famous from Syria to Yemen and Rum, holder of the Khushabiyya chair, first a coffee-prohibitionist 'then ijma' settled on its permissibility'; Egypt went dark at his death in late Safar [950] — the largest funeral al-Sha'rani ever saw bar al-Ramli's {cite:shadharat-dhahab p. 696-697}."
+died: { edtf: "1543-08~", hijri: "0950-02", calendar: julian, precision: month, status: tradition, derived: true, note: "توفي في أواخر صفر 950؛ اليوم غير محدد {cite:shadharat-dhahab p. 697}", sources: [source/shadharat-dhahab] }
+relations:
+  - { type: child_of, target: person/abd-al-haqq-al-sunbati, sources: [source/shadharat-dhahab] }
+provenance:
+  layer: own-research
+  source: "شذرات الذهب — ابن العماد (ط مكتبة المثنى 1351، ج8، سنة 950)، قراءة آبل فيجن"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-shadharat-batch-146
+sources: [source/shadharat-dhahab]
+status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 High)" }

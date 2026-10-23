@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 2:110 (سورة البقرة، الآية 110)."
 text: "وَأَقِيمُوا۟ ٱلصَّلَوٰةَ وَءَاتُوا۟ ٱلزَّكَوٰةَ ۚ وَمَا تُقَدِّمُوا۟ لِأَنفُسِكُم مِّنْ خَيْرٍ تَجِدُوهُ عِندَ ٱللَّهِ ۗ إِنَّ ٱللَّهَ بِمَا تَعْمَلُونَ بَصِيرٌ"
 text_search: "وأقيموا الصلاة وآتوا الزكاة ۚ وما تقدموا لأنفسكم من خير تجدوه عند الله ۗ إن الله بما تعملون بصير"
+translations:
+  en: { text: "Establish worship, and pay the poor-due; and whatever of good ye send before (you) for your souls, ye will find it with Allah. Lo! Allah is Seer of what ye do.", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "اور نماز ادا کرتے رہو اور زکوٰة دیتے رہو۔ اور جو بھلائی اپنے لیے آگے بھیج رکھو گے، اس کو خدا کے ہاں پا لو گے۔ کچھ شک نہیں کہ خدا تمہارے سب کاموں کو دیکھ رہا ہے", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-2 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

@@ -1,0 +1,30 @@
+id: person/majd-al-din-ibn-taymiyya
+class: person
+label: { ar: "مجد الدين بن تيمية", en: "Majd al-Din Ibn Taymiyya" }
+names:
+  - { value: "شيخ الإسلام مجد الدين أبو البركات عبد السلام بن عبد الله بن أبي القاسم الخضر بن محمد بن علي بن تيمية الحراني الحنبلي", kind: full }
+born: { edtf: "1194~", hijri: "0590~", calendar: julian, precision: year, status: tradition, derived: true, note: "ولد سنة تسعين وخمسمائة تقريباً بحران {cite:shadharat-dhahab p. 265}." }
+died: { edtf: "1255-01~", hijri: "0653-01~", calendar: julian, precision: year, status: tradition, derived: true, note: "توفي يوم عيد الفطر بعد صلاة الجمعة بحران، وأوردت ترجمته في أموات 652؛ وتوفيت زوجته بدرة بنت فخر الدين بن تيمية قبله بيوم واحد {cite:shadharat-dhahab p. 266}." }
+summary:
+  ar: "شيخ الإسلام الحنبلي، جد شيخ الإسلام تقي الدين ابن تيمية؛ ولد بحران وحفظ بها القرآن وسمع من عمه الخطيب فخر الدين والحافظ عبد القادر الرهاوي، وارتحل إلى بغداد سنة ثلاث وستمائة مع ابن عمه سيف الدين عبد الغني فأقام بها ست سنين، وتفقه على أبي بكر بن غنيمة والفخر إسماعيل وأتقن العربية والحساب والجبر والمقابلة؛ قال الذهبي عن شيخنا تقي الدين إن جده ربّى اليتامى؛ وقال جمال الدين بن مالك للمجد: ليّن لك الفقه كما ليّن الحديد لداود؛ وقال ابن رجب كان يفتي أحياناً أن الطلاق الثلاث المجموعة إنما يقع منها واحدة فقط؛ من مصنفاته المنتقى من أحاديث الأحكام والمحرر في الفقه ومنتهى الغاية في شرح الهداية وأطراف أحاديث التفسير والأحكام الكبرى {cite:shadharat-dhahab p. 265-266}."
+  en: "Shaykh al-islam of Harran (b. ~590, d. Eid al-Fitr) — grandfather of Taqi al-Din Ibn Taymiyya, who told Dhahabi his grandfather had raised the orphans and recited the khilaf questions to Fakhr Isma'il at thirteen; author of al-Muntaqa fi Ahadith al-Ahkam, al-Muharrar fi al-Fiqh and Muntaha al-Ghaya on the Hidaya; Ibn Rajab records his fatwa that a triple divorce uttered together counts as one {cite:shadharat-dhahab p. 265-266}."
+gender: male
+roles: [scholar, jurist, muhaddith]
+wings: [people]
+periods: [period/crusades-ayyubid-mamluk]
+regions: [levant-iraq]
+faith:
+  - value: sunni-hanbali
+    basis: tradition
+relations:
+  - { type: student_of, target: person/fakhr-al-din-ibn-taymiyya, sources: [source/shadharat-dhahab] }
+  - { type: related_to, target: person/ibn-taymiyya, sources: [source/shadharat-dhahab] }
+  - { type: born_in, target: place/harran, sources: [source/shadharat-dhahab] }
+  - { type: died_in, target: place/harran, sources: [source/shadharat-dhahab] }
+sources: [source/shadharat-dhahab]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }
+provenance:
+  layer: own-research
+  source: "شذرات الذهب — ابن العماد (ج5، سنة 652)، قراءة آبل فيجن"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-shadharat-batch-128

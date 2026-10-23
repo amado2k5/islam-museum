@@ -1,0 +1,24 @@
+id: person/sarim-al-din-ibn-al-muayyad
+class: person
+label: { ar: "صارم الدين إبراهيم بن المؤيد", en: "Sarim al-Din Ibrahim b. al-Mu'ayyad" }
+names:
+  - { value: "صارم الدين إبراهيم بن شيخ المحمودي الظاهري الملك المؤيد", kind: full }
+gender: male
+summary:
+  ar: "صارم الدين إبراهيم بن المؤيد شيخ المحمودي؛ ولد بالبلاد الشامية في أوائل القرن تقريباً وأمه أم ولد جاركسية تسمى توروز، وكان ملكاً شجاعاً شاباً حسناً مقداماً كريماً ساكناً وعنده أدب وحشمة ملوكية وكان يميل إلى الخير والعدل والعفة عن أموال الرعية إلا أنه كان مسرفاً على نفسه، توفي سنة ثلاث وعشرين وثمانمائة {cite:shadharat-dhahab p. 168}."
+  en: "Sarim al-Din Ibrahim, al-Mu'ayyad Shaykh's son by the Circassian Turuz — 'brave, comely, munificent, with royal gravity,' raised briefly to the sultanate; died 823 {cite:shadharat-dhahab p. 168}."
+roles: [sultan]
+wings: [people]
+periods: [period/mongol-post-mongol]
+regions: [egypt-nile]
+born: { edtf: "1400~", hijri: "0802~", calendar: julian, precision: year, status: tradition, derived: true, note: "ولد بالبلاد الشامية في أوائل القرن تقريباً {cite:shadharat-dhahab p. 168}", sources: [source/shadharat-dhahab] }
+died: { edtf: "1420~", hijri: "0823", calendar: julian, precision: year, status: tradition, derived: true, note: "توفي سنة 823 {cite:shadharat-dhahab p. 168}", sources: [source/shadharat-dhahab] }
+relations:
+  - { type: child_of, target: person/al-muayyad-shaykh, sources: [source/shadharat-dhahab] }
+provenance:
+  layer: own-research
+  source: "شذرات الذهب — ابن العماد (ط مكتبة المثنى 1351، ج7، سنة 823)، قراءة آبل فيجن"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-shadharat-batch-137
+sources: [source/shadharat-dhahab]
+status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 High)" }

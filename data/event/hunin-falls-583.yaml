@@ -1,0 +1,19 @@
+id: event/hunin-falls-583
+class: event
+kind: conquest
+label: { ar: "فتح هونين وبقية حصون الجليل", en: "Hunin falls — the remaining fortresses of the Galilee" }
+date:
+  start: { edtf: "1187~", hijri: "0583", calendar: julian, precision: year, status: tradition, derived: true }
+summary:
+  ar: "فتح صلاح الدين هونين بعد البيت المقدس ثم حصر صفد وكوكب والكرك، فكان كل حصن يملكه يهدمه ويقطع أسباب الفرنج من الشام {cite:kamil-ibn-al-athir p. 161}."
+  en: "After Jerusalem Saladin took Hunin, then invested Safad, Kawkab and al-Karak — razing each castle that fell, severing the Frankish roots in Syria {cite:kamil-ibn-al-athir p. 161}."
+relations:
+  - { type: occurred_at, target: place/hunin, sources: [source/kamil-ibn-al-athir] }
+  - { type: had_participant, target: person/salah-al-din-yusuf-ibn-ayyub, sources: [source/kamil-ibn-al-athir] }
+provenance:
+  layer: own-research
+  source: "الكامل في التاريخ لابن الأثير، قراءة آبل فيجن"
+  generated_by: "Devin (SWE-2 Medium) from Apple Vision OCR"
+  run: lib-kamil-v12-batch03
+sources: [source/kamil-ibn-al-athir]
+status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 Medium)" }

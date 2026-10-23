@@ -1,0 +1,23 @@
+id: event/polish-ottoman-war-1593
+class: event
+kind: war
+label: { ar: "الحرب البولندية العثمانية (١٥٩٣–١٥٩٥)", en: "Polish–Ottoman War (1593–1595)" }
+summary:
+  ar: "بطاقة أولية لالحرب البولندية العثمانية (١٥٩٣–١٥٩٥)؛ لم تُراجع مصادره على الصفحة بعد."
+  en: "Draft card for Polish–Ottoman War (1593–1595); its sources are not yet checked on the page."
+wings: [time]
+periods: [period/gunpowder-empires]
+regions: [anatolia-balkans]
+date:
+  start: { edtf: "1593", precision: year, status: tradition, derived: true }
+  end: { edtf: "1595", precision: year, status: tradition, derived: true }
+sources: [source/tarikh-islam-hasan-ibrahim]
+external_ids:
+  wikidata: Q1178498
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; battle attested in narrative histories — entry not yet checked on the page"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-wave2
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

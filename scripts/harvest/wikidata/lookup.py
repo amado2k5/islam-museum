@@ -2,14 +2,14 @@
 """Read the local Wikidata subset (CC0) instead of the live query service.
   lookup.py QID [QID ...]        show labels, description, sitelinks and claims (property labels resolved)
   lookup.py --search TEXT        find items whose Arabic or English label contains TEXT
-Reads $HARVEST/layers/cc0/wikidata/wikidata-subset.duckdb read-only. Never calls the network."""
+Reads the v2 subset, $HARVEST/layers/cc0/wikidata-v2/wikidata-subset.duckdb, read-only (override with WIKIDATA_SUBSET=path). Never calls the network."""
 import argparse, os, sys
 from pathlib import Path
 
 import duckdb
 
 HARVEST = Path(os.environ.get("HARVEST", Path.home() / "islam-museum-harvest"))
-DB = HARVEST / "layers" / "cc0" / "wikidata" / "wikidata-subset.duckdb"
+DB = Path(os.environ.get("WIKIDATA_SUBSET", HARVEST / "layers" / "cc0" / "wikidata-v2" / "wikidata-subset.duckdb"))
 
 
 def connect():

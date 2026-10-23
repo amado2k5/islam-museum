@@ -1,0 +1,23 @@
+id: event/battle-of-krtsanisi-1795
+class: event
+kind: battle
+label: { ar: "معركة كرتسانيسي", en: "Battle of Krtsanisi" }
+summary:
+  ar: "بطاقة أولية لمعركة كرتسانيسي سنة ١٧٩٥م، سقوط تفليس بيد آغا محمد خان القاجاري في حملته على جورجيا؛ لم تُراجع مصادره على الصفحة بعد."
+  en: "Draft card for the Battle of Krtsanisi in 1795, Agha Muhammad Khan Qajar's capture of Tbilisi in his invasion of Georgia; its sources are not yet checked on the page."
+wings: [time]
+periods: [period/colonial-era]
+regions: [persia-central-asia]
+date:
+  start: { edtf: "1795", precision: year, status: tradition, derived: true }
+  end: { edtf: "1795", precision: year, status: tradition, derived: true }
+sources: [source/tarikh-islam-hasan-ibrahim]
+external_ids:
+  wikidata: Q2615347
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; battle attested in Caucasian histories — entry not yet checked on the page"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-wave2
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

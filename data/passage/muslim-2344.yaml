@@ -1,0 +1,16 @@
+id: passage/muslim-2344
+class: passage
+unit: hadith
+work: work/sahih-muslim
+ref: "2344"
+label: { ar: "مسلم 2344 — رأيت خاتماً في ظهره كأنه بيضة حمام", en: "Muslim 2344 — I saw a seal on his back like a dove's egg" }
+text: "قال جابر بن سمرة: رأيت خاتماً في ظهر رسول الله كأنه بيضة حمام"
+summary:
+  ar: "رواية جابر بن سمرة في باب إثبات خاتم النبوة من كتاب الفضائل في صحيح مسلم؛ الخاتم بين كتفيه شبيه بيضة الحمام — أوجز نصوص الخاتم."
+relations:
+  - { type: mentions, target: person/muhammad, sources: [source/sahih-muslim] }
+  - { type: mentions, target: person/jabir-ibn-samura, sources: [source/sahih-muslim] }
+  - { type: mentions, target: concept/khatm-al-nubuwwa, sources: [source/sahih-muslim] }
+provenance: { layer: own-research, source: "صحيح مسلم، كتاب الفضائل، باب إثبات خاتم النبوة (طبعة دار التأصيل، الحديث 6232؛ ترقيم عبد الباقي المعروف 2344)، تصوير Apple Vision OCR", generated_by: "Devin (SWE-2 High) from Apple Vision OCR", run: "hadith-muslim-passages-3" }
+sources: [source/sahih-muslim]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High); matn excerpt at most 40 words checked against the scan" }

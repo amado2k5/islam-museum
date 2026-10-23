@@ -1,0 +1,23 @@
+id: event/battle-of-ivankovac-1805
+class: event
+kind: battle
+label: { ar: "معركة إيفانكوفاتس", en: "Battle of Ivankovac" }
+summary:
+  ar: "بطاقة أولية لمعركة إيفانكوفاتس سنة ١٨٠٥م، نصر الصرب على الجيش العثماني في الثورة الصربية الأولى؛ لم تُراجع مصادره على الصفحة بعد."
+  en: "Draft card for the Battle of Ivankovac in 1805, the Serbian victory over the Ottoman army in the First Serbian Uprising; its sources are not yet checked on the page."
+wings: [time]
+periods: [period/colonial-era]
+regions: [anatolia-balkans]
+date:
+  start: { edtf: "1805", precision: year, status: tradition, derived: true }
+  end: { edtf: "1805", precision: year, status: tradition, derived: true }
+sources: [source/dawlat-uthmaniyya-salabi]
+external_ids:
+  wikidata: Q692074
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; battle attested in Serbian histories — entry not yet checked on the page"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-wave2
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

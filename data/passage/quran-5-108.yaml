@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 5:108 (سورة المائدة، الآية 108)."
 text: "ذَٰلِكَ أَدْنَىٰٓ أَن يَأْتُوا۟ بِٱلشَّهَـٰدَةِ عَلَىٰ وَجْهِهَآ أَوْ يَخَافُوٓا۟ أَن تُرَدَّ أَيْمَـٰنٌۢ بَعْدَ أَيْمَـٰنِهِمْ ۗ وَٱتَّقُوا۟ ٱللَّهَ وَٱسْمَعُوا۟ ۗ وَٱللَّهُ لَا يَهْدِى ٱلْقَوْمَ ٱلْفَـٰسِقِينَ"
 text_search: "ذلك أدنى أن يأتوا بالشهادة على وجهها أو يخافوا أن ترد أيمان بعد أيمانهم ۗ واتقوا الله واسمعوا ۗ والله لا يهدي القوم الفاسقين"
+translations:
+  en: { text: "Thus it is more likely that they will bear true witness or fear that after their oaths the oaths (of others) will be taken. So be mindful of your duty (to Allah) and hearken. Allah guideth not the froward folk.", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "اس طریق سے بہت قریب ہے کہ یہ لوگ صحیح صحیح شہادت دیں یا اس بات سے خوف کریں کہ (ہماری) قسمیں ان کی قسموں کے بعد رد کر دی جائیں گی اور خدا سے ڈرو اور اس کے حکموں کو (گوشِ ہوش سے) سنو اور خدا نافرمان لوگوں کو ہدایت نہیں دیتا", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-5 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

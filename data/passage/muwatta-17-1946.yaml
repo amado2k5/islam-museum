@@ -1,0 +1,15 @@
+id: passage/muwatta-17-1946
+class: passage
+unit: hadith
+work: work/muwatta-malik
+ref: "1946"
+label: { ar: "الموطأ 1946 — مالك: من باع سلعة لرجل على أنه لا نقصان على المبتاع، فإن ذلك بيع غير جائز ومن المخاطرة، كأنه استأجره برمح، إن كان في تلك السلعة ربح، وإن باع برأس المال أو بنقصان فلا شيء له", en: "Muwatta 1946" }
+summary:
+  ar: "قال مالك في رجل باع سلعة من رجل، على أنه لا نقصان على المبتاع: إن ذلك بيع غير جائز وهو من المخاطرة. وتفسير ذلك أنه كأنه استأجره برمح، إن كان في تلك السلعة ربح، وإن باع برأس المال أو بنقصان فلا شيء له، وذهب عناؤه باطلا، فهذا لا يصلح. وللمبتاع في هذا أجرة بمقدار ما عالج من ذلك. وما كان في تلك السلعة من نقصان أو ربح، فهو للبائع وعليه. {cite:muwatta-maruf-1997 p.196}"
+relations:
+  - { type: part_of, target: passage/muwatta-kitab-17-buyu }
+  - { type: mentions, target: person/malik-ibn-anas, sources: [source/muwatta-maruf-1997] }
+  - { type: basis_for, target: concept/gharar, sources: [source/muwatta-maruf-1997] }
+provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 2, hadith 1946 at PDF p. 196; بيع الغرر", generated_by: "Claude Code (claude-haiku-5-5) from Apple Vision OCR of the Noor-Book PDF, checked on the page image where doubtful", run: "muwatta-prose-k17-b50" }
+sources: [source/muwatta-maruf-1997]
+status: { review: draft, completeness: 2, generated_by: "Claude Code (claude-haiku-5-5); own-words account written from PDF p. 196; matn excerpt at most 40 words" }

@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 28:28 (سورة القصص، الآية 28)."
 text: "قَالَ ذَٰلِكَ بَيْنِى وَبَيْنَكَ ۖ أَيَّمَا ٱلْأَجَلَيْنِ قَضَيْتُ فَلَا عُدْوَٰنَ عَلَىَّ ۖ وَٱللَّهُ عَلَىٰ مَا نَقُولُ وَكِيلٌ"
 text_search: "قال ذلك بيني وبينك ۖ أيما الأجلين قضيت فلا عدوان علي ۖ والله على ما نقول وكيل"
+translations:
+  en: { text: "He said: That (is settled) between thee and me. Whichever of the two terms I fulfil, there will be no injustice to me, and Allah is Surety over what we say.", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "موسٰی نے کہا کہ مجھ میں اور آپ میں یہ (عہد پختہ ہوا) میں جونسی مدت (چاہوں) پوری کردوں پھر مجھ پر کوئی زیادتی نہ ہو۔ اور ہم جو معاہدہ کرتے ہیں خدا اس کا گواہ ہے", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-28 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

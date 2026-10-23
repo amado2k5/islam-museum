@@ -1,0 +1,28 @@
+id: person/al-fakhr-ibn-al-bukhari
+class: person
+label: { ar: "الفخر ابن البخاري مسند الدنيا", en: "al-Fakhr ibn al-Bukhari, musnid of the age" }
+names:
+  - { value: "الفخر بن البخاري مسند الدنيا أبو الحسن علي بن أحمد بن عبد الواحد السعدي المقدسي الصالحي الحنبلي", kind: full }
+born: { edtf: "1199~", hijri: "0595~", calendar: julian, precision: year, status: tradition, derived: true, note: "ولد في آخر سنة خمس وتسعين وخمسمائة {cite:shadharat-dhahab p. 725}." }
+died: { edtf: "1291~", hijri: "0690", calendar: julian, precision: year, status: tradition, derived: true, note: "وفاته في أموات سنة تسعين وستمائة {cite:shadharat-dhahab p. 720}." }
+summary:
+  ar: "مسند الدنيا؛ روى الحديث فوق ستين سنة وتفرد بالرواية العالية حتى ألحق الأسباط بالأجداد في علو الإسناد، ورحل إليه الطلبة من البلاد، وتفقه على الشيخ موفق الدين وقرأ عليه «المقنع» وأذن له في إقرائه؛ قال الذهبي سائلاً المزي عنه: أحد المشايخ الأكابر من بيت العلم والحديث، ولا نعلم أحداً حصل له من الحظوة في الرواية في هذه الأزمان مثل ما حصل له؛ وقال ابن تيمية: ينشرح صدري إذا أدخلت ابن البخاري بيني وبين النبي في حديث، وقد دخل بينه وبينه في أحاديث لا تحصى منها الحديث المسلسل بالحنابلة المسمى «سلسلة الذهب» {cite:shadharat-dhahab p. 725-726}."
+  en: "Musnid al-dunya — transmitted hadith over sixty years, joining grandsons to grandfathers in isnad-loftiness; Ibn Taymiyya: 'my breast opens when I put Ibn al-Bukhari between me and the Prophet in a hadith', among them the Hanbali musalsal called the Golden Chain {cite:shadharat-dhahab p. 725-726}."
+gender: male
+roles: [scholar, jurist]
+wings: [people]
+periods: [period/mongol-post-mongol]
+regions: [levant-iraq]
+faith:
+  - value: sunni-hanbali
+    basis: tradition
+relations:
+  - { type: student_of, target: person/ibn-qudama-al-maqdisi, sources: [source/shadharat-dhahab] }
+  - { type: died_in, target: place/damascus, sources: [source/shadharat-dhahab] }
+sources: [source/shadharat-dhahab]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }
+provenance:
+  layer: own-research
+  source: "شذرات الذهب — ابن العماد (ج7، سنة 690)، قراءة آبل فيجن"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-shadharat-batch-134

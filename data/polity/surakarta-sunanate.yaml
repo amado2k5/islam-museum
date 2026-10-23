@@ -1,0 +1,32 @@
+id: polity/surakarta-sunanate
+class: polity
+kind: sultanate
+label:
+  ar: "سلطنة سوراكارتا"
+  en: "Surakarta Sunanate"
+summary:
+  ar: "بطاقة أولية لسلطنة سوراكارتا، المملكة الجاوية الإسلامية التي انقسمت عن ماتارام سنة ١٧٤٥م؛ لم تُراجع مصادرها على الصفحة بعد."
+  en: "Draft card for the Surakarta Sunanate, the Javanese Muslim kingdom split from Mataram in 1745; its sources are not yet checked on the page."
+wings: [time]
+periods: [period/gunpowder-empires]
+regions: [southeast-asia]
+start:
+  edtf: "1745"
+  precision: year
+  status: tradition
+  derived: true
+end:
+  edtf: "1946"
+  precision: year
+  status: tradition
+  derived: true
+sources: [source/tarikh-islam-hasan-ibrahim]
+external_ids:
+  wikidata: Q2122499
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; sultanate attested in Javanese histories — entry not yet checked on the page"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-wave2
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

@@ -1,0 +1,19 @@
+id: place/jurjuma
+class: place
+kind: town
+label: { ar: "الجرجومة", en: "al-Jurjuma" }
+summary:
+  ar: "الجرجومة مدينة على جبل اللكام عند معدن الزاج فيما بين بياس وبوقا من أعمال أنطاكية؛ دار الجراجمة الذين صالحهم المسلمون على المسالح والأعوان، وأخربها الوليد بن عبد الملك سنة 88 بعد أن فتحها مسلمة بن عبد الملك على شروط الإجلاء فأسكن أهلها جبل الموار وسنح اللولون وعمق تيزين وفرّقهم في الشام."
+  en: "al-Jurjuma, a city on Jabal al-Lukkam by the vitriol mine between Bayyas and Buqa in the Antioch district; home of the Jarajima who compounded with the Muslims as watchmen and auxiliaries, and which al-Walid ibn Abd al-Malik razed in year 88 after Maslama ibn Abd al-Malik took it on evacuation terms, settling its people at Jabal al-Mawar, Sanh al-Lulun and the Tizin vale and scattering them through Syria."
+wings: [place]
+periods: [period/umayyad]
+regions: [levant-iraq]
+relations:
+  - { type: part_of, target: place/antakiya, note: "من أعمالها على جبل اللكام", sources: [source/futuh-buldan-maarif-1407] }
+provenance:
+  layer: own-research
+  source: "فتوح البلدان (ط مؤسسة المعارف 1407هـ/1987م) ص 217، 220"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-futuh-buldan-batch-12
+sources: [source/futuh-buldan-maarif-1407]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 5:61 (سورة المائدة، الآية 61)."
 text: "وَإِذَا جَآءُوكُمْ قَالُوٓا۟ ءَامَنَّا وَقَد دَّخَلُوا۟ بِٱلْكُفْرِ وَهُمْ قَدْ خَرَجُوا۟ بِهِۦ ۚ وَٱللَّهُ أَعْلَمُ بِمَا كَانُوا۟ يَكْتُمُونَ"
 text_search: "وإذا جاءوكم قالوا آمنا وقد دخلوا بالكفر وهم قد خرجوا به ۚ والله أعلم بما كانوا يكتمون"
+translations:
+  en: { text: "When they come unto you (Muslims), they say: We believe; but they came in unbelief and they went out in the same; and Allah knoweth best what they were hiding.", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "اور جب یہ لوگ تمہارے پاس آتے ہیں تو کہتے ہیں کہ ہم ایمان لے آئے حالانکہ کفر لے کر آتے ہیں اور اسی کو لیکر جاتے ہیں اور جن باتوں کو یہ مخفی رکھتے ہیں خدا ان کو خوب جانتا ہے", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-5 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

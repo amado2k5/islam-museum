@@ -1,0 +1,15 @@
+id: passage/muwatta-17-1797
+class: passage
+unit: hadith
+work: work/muwatta-malik
+ref: "1797"
+label: { ar: "الموطأ 1797 — مالك: من باع عبدا أو وليدة أو حيوانا بالبراءة فقد برئ من كل عيب فيما باع، إلا أن يكون علم عيبا فكتمه، فإن كتمه لم تنفعه تبرئته، وكان ما باع مردودا عليه", en: "Muwatta 1797" }
+summary:
+  ar: "قال مالك: الأمر المجتمع عليه عندنا فيمن باع عبدا أو وليدة أو حيوانا بالبراءة، من أهل الميراث أو غيرهم: فقد برئ من كل عيب فيما باع، إلا أن يكون علم في ذلك عيبا فكتمه. فإن كان علم عيبا فكتمه، لم تنفعه تبرئته، وكان ما باع مردودا عليه. {cite:muwatta-maruf-1997 p.136}"
+relations:
+  - { type: part_of, target: passage/muwatta-kitab-17-buyu }
+  - { type: mentions, target: person/malik-ibn-anas, sources: [source/muwatta-maruf-1997] }
+  - { type: basis_for, target: concept/ayb, sources: [source/muwatta-maruf-1997] }
+provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 2, hadith 1797 at PDF p. 136; العيب في الرقيق", generated_by: "Claude Code (claude-haiku-5-5) from Apple Vision OCR of the Noor-Book PDF, checked on the page image where doubtful", run: "muwatta-prose-k17-b43" }
+sources: [source/muwatta-maruf-1997]
+status: { review: draft, completeness: 2, generated_by: "Claude Code (claude-haiku-5-5); own-words account written from PDF p. 136; matn excerpt at most 40 words" }

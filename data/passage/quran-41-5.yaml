@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 41:5 (سورة فصلت، الآية 5)."
 text: "وَقَالُوا۟ قُلُوبُنَا فِىٓ أَكِنَّةٍ مِّمَّا تَدْعُونَآ إِلَيْهِ وَفِىٓ ءَاذَانِنَا وَقْرٌ وَمِنۢ بَيْنِنَا وَبَيْنِكَ حِجَابٌ فَٱعْمَلْ إِنَّنَا عَـٰمِلُونَ"
 text_search: "وقالوا قلوبنا في أكنة مما تدعونا إليه وفي آذاننا وقر ومن بيننا وبينك حجاب فاعمل إننا عاملون"
+translations:
+  en: { text: "And they say: Our hearts are protected from that unto which thou (O Muhammad) callest us, and in our ears there is a deafness, and between us and thee there is a veil. Act, then. Lo! we also shall be acting.", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "اور کہتے ہیں کہ جس چیز کی طرف تم ہمیں بلاتے ہو اس سے ہمارے دل پردوں میں ہیں اور ہمارے کانوں میں بوجھ (یعنی بہراپن) ہے اور ہمارے اور تمہارے درمیان پردہ ہے تو تم (اپنا) کام کرو ہم (اپنا) کام کرتے ہیں", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-41 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

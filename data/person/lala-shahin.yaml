@@ -1,0 +1,24 @@
+id: person/lala-shahin
+class: person
+label:
+  ar: "لاله شاهين باشا"
+  en: "Lala Şahin Pasha"
+roles: [general]
+gender: male
+summary:
+  ar: "لاله شاهين؛ القائد العثماني في عهد مراد الأول. يذكر الصلابي أنه كان على رأس الجيش العثماني في معركة نهر الماريتسا (صيرمن) ضد الحلف البلقاني، فهاجم معسكر النصارى ليلاً قبل طلوع الفجر وأبادهم عن آخرهم {cite:dawlat-uthmaniyya-salabi p. 58-59}."
+  en: "Lala Şahin Pasha, Murad I's field commander — in al-Sallabi's telling he led the Ottoman force at the Maritsa (Sırpsındığı) night attack that annihilated the Balkan coalition's camp before dawn {cite:dawlat-uthmaniyya-salabi p. 58-59}."
+wings: [people]
+regions: [anatolia-balkans]
+periods: [period/mongol-post-mongol]
+relations:
+  - { type: participated_in, target: event/battle-of-maritsa-763, role: "القائد العثماني", sources: [source/dawlat-uthmaniyya-salabi] }
+  - { type: related_to, target: person/murad-i-uthmani, role: "قائده", sources: [source/dawlat-uthmaniyya-salabi] }
+sources: [source/dawlat-uthmaniyya-salabi]
+provenance:
+  layer: own-research
+  source: "الدولة العثمانية لعلي محمد الصلابي، ص 58–59"
+  generated_by: "Devin (SWE-2 Medium) from Apple Vision OCR"
+  model: "SWE-2 Medium"
+  run: lib-salabi-uthmani-batch-3
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 Medium)" }

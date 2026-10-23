@@ -1,0 +1,20 @@
+id: place/shimshat
+class: place
+kind: city
+label: { ar: "شمشاط", en: "Shimshat (Arsamosata)" }
+summary:
+  ar: "شمشاط — وهي أرمينية الرابعة — من ثغور الجزيرة؛ فتحها حبيب بن مسلمة الفهري وصفوان بن المعطل السلمي بإمرة معاوية أيام عثمان على مثل صلح الرها وأوطنها صفوان وتوفي بها؛ أناخ عليها قسطنطين سنة 133 فلم يمكنه شيئاً؛ ولم تزل خراجية حتى صيّرها المتوكل عشرية أسوة الثغور؛ ومنها خرج مالك بن عبد الله الخثعمي الملقب مالك الصوائف غازياً سنة 46، ومن قراها وما حواليها تدور فتوح كمخ ويغرا وخلاط."
+  en: "Shimshat (Arsamosata) — the fourth Armenia — of the Jaziran frontier; Habib ibn Maslama al-Fihri and Safwan ibn al-Mu'attal al-Sulami took it under Mu'awiya in Uthman's days on the like of al-Ruha's treaty, Safwan settling and dying there; Constantine camped on it in year 133 gaining nothing; it stayed kharaj-land until al-Mutawakkil made it tithe-land like the rest of the thughur; from it Malik al-Sawa'if rode raiding in year 46, and around it turn the fortunes of Kamkh, Yaghra and Khilat."
+wings: [place]
+periods: [period/rashidun]
+regions: [levant-iraq]
+relations:
+  - { type: part_of, target: place/jazira, sources: [source/futuh-buldan-maarif-1407] }
+  - { type: site_of, target: event/conquest-of-shimshat, sources: [source/futuh-buldan-maarif-1407] }
+provenance:
+  layer: own-research
+  source: "فتوح البلدان (ط مؤسسة المعارف 1407هـ/1987م) ص 259، 269"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-futuh-buldan-batch-15
+sources: [source/futuh-buldan-maarif-1407]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

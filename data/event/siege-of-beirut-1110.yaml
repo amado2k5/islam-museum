@@ -1,0 +1,23 @@
+id: event/siege-of-beirut-1110
+class: event
+kind: siege
+label: { ar: "حصار بيروت (١١١٠)", en: "Siege of Beirut" }
+summary:
+  ar: "بطاقة أولية لحصار بيروت سنة ١١١٠م، أخذ بالدوين الأول المدينة من الفاطميين؛ لم تُراجع مصادره على الصفحة بعد."
+  en: "Draft card for the Siege of Beirut in 1110, Baldwin I's capture of the city from the Fatimids; its sources are not yet checked on the page."
+wings: [time]
+periods: [period/crusades-ayyubid-mamluk]
+regions: [levant-iraq]
+date:
+  start: { edtf: "1110-02", precision: year, status: tradition, derived: true }
+  end: { edtf: "1110-05-13", precision: year, status: tradition, derived: true }
+sources: [source/kamil-ibn-al-athir]
+external_ids:
+  wikidata: Q111291326
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; battle attested in narrative histories — entry not yet checked on the page"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-wave2
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

@@ -1,0 +1,32 @@
+id: polity/sur-empire
+class: polity
+kind: empire
+label:
+  ar: "الدولة السورية (الهند)"
+  en: "Sur Empire"
+summary:
+  ar: "بطاقة أولية للدولة السورية في الهند، إمبراطورية شير شاه سوري الأفغانية التي حكمت شمال الهند من ١٥٤٠ إلى ١٥٥٦م؛ لم تُراجع مصادرها على الصفحة بعد."
+  en: "Draft card for the Sur Empire, Sher Shah Suri's Afghan state ruling northern India from 1540 to 1556; its sources are not yet checked on the page."
+wings: [time]
+periods: [period/gunpowder-empires]
+regions: [south-asia]
+start:
+  edtf: "1540"
+  precision: year
+  status: tradition
+  derived: true
+end:
+  edtf: "1556"
+  precision: year
+  status: tradition
+  derived: true
+sources: [source/tarikh-islam-hasan-ibrahim]
+external_ids:
+  wikidata: Q373650
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; empire attested in Indian Islamic histories — entry not yet checked on the page"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-wave2
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

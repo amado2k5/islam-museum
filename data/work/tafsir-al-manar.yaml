@@ -1,0 +1,23 @@
+id: work/tafsir-al-manar
+class: work
+kind: book
+label: { ar: "تفسير المنار", en: "Tafsir al-Manar" }
+summary:
+  ar: "تفسير للقرآن الكريم لمحمد رشيد رضا، بناه على دروس شيخه محمد عبده، وكان يُنشر فصولاً في مجلة المنار من سنة 1318هـ. يقصد إلى هداية القرآن ومعالجة أحوال المسلمين في زمنه، ولم يتمّه مؤلفه، فبلغ به الآية 52 من سورة يوسف بحسب ما يذكره المحقق في تقديم الطبعة."
+  en: "Tafsir of the Qur'an by Muhammad Rashid Rida, built on the lessons of his teacher Muhammad Abduh and printed in installments in al-Manar from 1318 AH. It aims at the guidance the Qur'an gives and at the needs of Muslims in its author's time. The author did not finish it; the editor says it reaches Q. 12:52."
+genre: [tafsir]
+authors: [person/rashid-rida]
+language: language/arabic
+composed: { hijri: "0317-01", precision: month, status: tradition, derived: false, note: "بدأ الدرس في غرة المحرم سنة 1317هـ، ونُشر الشرح في المنار من أول المحرم سنة 1318هـ، بحسب المؤلف في مقدمة المجلد الأول (ص 19). مصدر واحد حتى الآن؛ يحتاج إلى مصدر ثانٍ.", sources: [source/tafsir-manar-v01] }
+wings: []
+periods: [period/modern-era]
+relations:
+  - { type: authored_by, target: person/rashid-rida }
+provenance:
+  layer: own-research
+  source: "تفسير المنار، المجلد الأول، مقدمة المؤلف والمحقق، ص 3-21 (نسخة OCR محلية)"
+  generated_by: "Claude Haiku 5.5"
+  model: claude-haiku-5-5
+  run: "lib-exp-modern-muslim-writers manar-1-6 batch 1"
+sources: [source/tafsir-manar-v01]
+status: { review: draft, completeness: 1, generated_by: "library-expansion (Claude Haiku 5.5); volume 1 only, volumes 2-6 not yet read" }

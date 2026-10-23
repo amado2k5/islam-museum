@@ -1,0 +1,20 @@
+id: place/al-safa
+class: place
+kind: site
+label: { ar: "الصفا", en: "al-Safa" }
+summary:
+  ar: "جبل صغير قريب من الكعبة بمكة؛ صعد عليه النبي فنادى بطون قريش وأنذرهم، وعليه كانت دار الأرقم بن أبي الأرقم التي اتخذها النبي مركزاً لدعوته."
+  en: "A small hill beside the Kaaba at Mecca; the Prophet climbed it to summon the clans of Quraysh and warn them, and the house of al-Arqam ibn Abi al-Arqam, his centre for the call, stood on it."
+wings: [place]
+periods: [period/prophetic-era]
+regions: [arabia]
+relations:
+  - { type: located_in, target: place/mecca, sources: [source/mubarakpuri-raheeq] }
+provenance:
+  layer: own-research
+  source: "الرحيق المختوم ص79، 91–92"
+  generated_by: "Claude Code"
+  model: "claude-haiku-5-5"
+  run: "raheeq-prose-batch-8a"
+sources: [source/mubarakpuri-raheeq, source/ibn-hisham-sira]
+status: { review: draft, completeness: 1, generated_by: "Claude Code (claude-haiku-5-5); al-Raheeq al-Makhtum pp. 79, 91–92" }

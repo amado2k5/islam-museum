@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 53:29 (سورة النجم، الآية 29)."
 text: "فَأَعْرِضْ عَن مَّن تَوَلَّىٰ عَن ذِكْرِنَا وَلَمْ يُرِدْ إِلَّا ٱلْحَيَوٰةَ ٱلدُّنْيَا"
 text_search: "فأعرض عن من تولى عن ذكرنا ولم يرد إلا الحياة الدنيا"
+translations:
+  en: { text: "Then withdraw (O Muhammad) from him who fleeth from Our remembrance and desireth but the life of the world.", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "تو جو ہماری یاد سے روگردانی اور صرف دنیا ہی کی زندگی کا خواہاں ہو اس سے تم بھی منہ پھیر لو", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-53 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

@@ -1,0 +1,76 @@
+id: exhibit/path-abyssinia-habasha
+class: exhibit
+kind: trail
+label:
+  ar: الحبشة
+  en: Abyssinia
+summary:
+  ar: 'مسار في جارة الجزيرة: أكسوم مملكة قديمة، والنجاشي يحمي المهاجرين، وبلال من أهلها — الحبشة في السيرة.'
+  en: A trail through the neighbour kingdom.
+audience:
+- newcomer
+- student
+duration_minutes: 30
+wings: []
+regions:
+- east-africa
+rooms:
+- title:
+    ar: أكسوم
+    en: Aksum
+  body:
+    ar: 'مملكة الحبشة القديمة: ملكة سبأ وتجارة.'
+    en: 'مملكة الحبشة القديمة: ملكة سبأ وتجارة.'
+  features:
+  - place/aksum
+  - place/abyssinia
+- title:
+    ar: النجاشي
+    en: The Negus
+  body:
+    ar: 'أصحمة: الملك الذي آوى المسلمين.'
+    en: 'أصحمة: الملك الذي آوى المسلمين.'
+  features:
+  - place/abyssinia
+  - place/abyssinia
+- title:
+    ar: الهجرة
+    en: The migration
+  body:
+    ar: 'أول هجرة: جعفر يتكلم أمام الملك.'
+    en: 'أول هجرة: جعفر يتكلم أمام الملك.'
+  features:
+  - place/abyssinia
+  - place/abyssinia
+- title:
+    ar: بلال
+    en: Bilal
+  body:
+    ar: 'ابن رباح: من الحبشة إلى أذان الإسلام.'
+    en: 'ابن رباح: من الحبشة إلى أذان الإسلام.'
+  features:
+  - person/bilal-ibn-rabah
+  - place/medina
+- title:
+    ar: الإسلام اليوم
+    en: Islam today
+  body:
+    ar: 'الحبشة مسلمة ونصرانية: الجار القديم.'
+    en: 'الحبشة مسلمة ونصرانية: الجار القديم.'
+  features:
+  - place/abyssinia
+  - place/aksum
+prerequisites:
+- exhibit/path-islam-in-30-minutes
+sources:
+- source/wikidata
+provenance:
+  layer: own-research
+  source: Devin-assembled trail from existing museum entities
+  generated_by: Devin (SWE-2 High)
+  model: SWE-2 High
+  run: pathways-batch-7
+status:
+  review: draft
+  completeness: 1
+  generated_by: Devin (SWE-2 High), pathways lane, 2026-10-16

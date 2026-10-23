@@ -1,0 +1,23 @@
+id: event/siege-of-ghunib-1859
+class: event
+kind: siege
+label: { ar: "حصار غونيب (١٨٥٩)", en: "Siege of Ghunib" }
+summary:
+  ar: "بطاقة أولية لحصار غونيب سنة ١٨٥٩م، آخر معاقل الإمام شامل في داغستان واستسلامه للقوات الروسية؛ لم تُراجع مصادره على الصفحة بعد."
+  en: "Draft card for the Siege of Ghunib in 1859, Imam Shamil's final stand in Dagestan; its sources are not yet checked on the page."
+wings: [time]
+periods: [period/colonial-era]
+regions: [persia-central-asia]
+date:
+  start: { edtf: "1859-08-09", precision: year, status: tradition, derived: true }
+  end: { edtf: "1859-08-25", precision: year, status: tradition, derived: true }
+sources: [source/tarikh-islam-hasan-ibrahim]
+external_ids:
+  wikidata: Q4871094
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; battle attested in narrative histories — entry not yet checked on the page"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-wave2
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

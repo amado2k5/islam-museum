@@ -1,0 +1,19 @@
+id: event/franks-armenians-fitna-623
+class: event
+kind: other
+label: { ar: "الفتنة بين الفرنج والأرمن", en: "Strife between the Franks and the Armenians" }
+date:
+  start: { edtf: "1226~", hijri: "0623", calendar: julian, precision: year, status: tradition, derived: true }
+summary:
+  ar: "وقعت فتنة بين الفرنج والأرمن بثغور الشام فتقاتلوا بينهم {cite:kamil-ibn-al-athir p. 469}."
+  en: "Strife broke out between the Franks and the Armenians on the Syrian marches {cite:kamil-ibn-al-athir p. 469}."
+relations:
+  - { type: occurred_at, target: place/al-sham, sources: [source/kamil-ibn-al-athir] }
+  - { type: had_participant, target: group/ifranja, role: "طرف", sources: [source/kamil-ibn-al-athir] }
+provenance:
+  layer: own-research
+  source: "الكامل في التاريخ لابن الأثير، قراءة آبل فيجن"
+  generated_by: "Devin (SWE-2 Medium) from Apple Vision OCR"
+  run: lib-kamil-v12-batch08
+sources: [source/kamil-ibn-al-athir]
+status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 Medium)" }

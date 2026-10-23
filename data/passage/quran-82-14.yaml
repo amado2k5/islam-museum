@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 82:14 (سورة الانفطار، الآية 14)."
 text: "وَإِنَّ ٱلْفُجَّارَ لَفِى جَحِيمٍ"
 text_search: "وإن الفجار لفي جحيم"
+translations:
+  en: { text: "And lo! the wicked verily will be in hell;", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "اور بدکردار دوزخ میں", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-82 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

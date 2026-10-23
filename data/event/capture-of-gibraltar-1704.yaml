@@ -1,0 +1,23 @@
+id: event/capture-of-gibraltar-1704
+class: event
+kind: siege
+label: { ar: "سقوط جبل طارق (١٧٠٤)", en: "Capture of Gibraltar" }
+summary:
+  ar: "بطاقة أولية لسقوط جبل طارق سنة ١٧٠٤م، استيلاء الأسطول الأنجلو-هولندي على الصخرة في حرب الوراثة الإسبانية؛ لم تُراجع مصادره على الصفحة بعد."
+  en: "Draft card for the capture of Gibraltar in 1704, the Anglo-Dutch seizure of the Rock during the War of the Spanish Succession; its sources are not yet checked on the page."
+wings: [time]
+periods: [period/gunpowder-empires]
+regions: [andalus-europe]
+date:
+  start: { edtf: "1704", precision: year, status: tradition, derived: true }
+  end: { edtf: "1704", precision: year, status: tradition, derived: true }
+sources: [source/tarikh-ibn-khaldun-ibar]
+external_ids:
+  wikidata: Q694073
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; capture attested in Spanish histories — entry not yet checked on the page"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-wave2
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

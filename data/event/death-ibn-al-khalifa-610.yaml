@@ -1,0 +1,19 @@
+id: event/death-ibn-al-khalifa-610
+class: event
+kind: death
+label: { ar: "وفاة ابن الخليفة الناصر", en: "Death of caliph al-Nasir's son" }
+date:
+  start: { edtf: "1213~", hijri: "0610", calendar: julian, precision: year, status: tradition, derived: true }
+summary:
+  ar: "توفي ابن الخليفة الناصر لدين الله، وحزن عليه أبوه حزنًا شديدًا وكثر الرثاء فيه {cite:kamil-ibn-al-athir p. 365}."
+  en: "The caliph al-Nasir's son died; the caliph mourned him deeply and the elegies multiplied {cite:kamil-ibn-al-athir p. 365}."
+relations:
+  - { type: occurred_at, target: place/baghdad, sources: [source/kamil-ibn-al-athir] }
+  - { type: had_participant, target: person/al-nasir-billah, role: "الوالد", sources: [source/kamil-ibn-al-athir] }
+provenance:
+  layer: own-research
+  source: "الكامل في التاريخ لابن الأثير، قراءة آبل فيجن"
+  generated_by: "Devin (SWE-2 Medium) from Apple Vision OCR"
+  run: lib-kamil-v12-batch06
+sources: [source/kamil-ibn-al-athir]
+status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 Medium)" }

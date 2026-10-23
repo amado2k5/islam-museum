@@ -1,0 +1,51 @@
+id: practice/ashura
+class: practice
+kind: festival
+label:
+  ar: عاشوراء
+  en: Ashura
+  ur: عاشورا
+summary:
+  ar: "اليوم العاشر من محرم؛ كان يومًا تصومه قريش في الجاهلية فصامه النبي وأمر بصيامه، حتى فرض رمضان فصار صيامه تطوعًا {cite:sahih-al-bukhari} {cite:sahih-muslim}؛ وفي سنة 61هـ قُتل فيه الحسين بن علي بكربلاء فاتخذه الشيعة يوم عزاء {cite:al-bidaya-wal-nihaya}."
+  en: "The tenth of Muharram; Quraysh fasted it in the Jahiliyya and the Prophet fasted it and ordered its fast until Ramadan made it voluntary {cite:sahih-al-bukhari} {cite:sahih-muslim}; in 61 AH Husayn ibn Ali was killed at Karbala on this day, and the Shi'a adopted it as a day of mourning {cite:al-bidaya-wal-nihaya}."
+wings: [living]
+themes:
+- worship-and-the-pillars
+- sacred-time
+obligation: recommended
+regions: [global]
+external_ids: { wikidata: "Q183283" }
+perspectives:
+- tradition: sunni
+  id: sunni-fast
+  stance:
+    ar: يوم صيام مشروع شكرًا لله على نجاة موسى
+    en: A recommended fast of gratitude for the rescue of Moses
+  summary:
+    ar: "روى البخاري عن ابن عباس أن النبي قدم المدينة فرأى اليهود يصومون يوم عاشوراء فقالوا: هذا يوم صالح، نجّى الله فيه بني إسرائيل من عدوهم فصامه موسى، فقال «أنا أحق بموسى منكم» فصامه وأمر بصيامه {cite:sahih-al-bukhari}؛ وروى مسلم أن قريشًا كانت تصومه في الجاهلية، وأنه لما فرض رمضان خيّر النبي فيه {cite:sahih-muslim}."
+    en: "Bukhari reports from Ibn Abbas that the Prophet found the Jews of Medina fasting Ashura because God rescued the Israelites on it and Moses fasted it; he said 'I am worthier of Moses than you' and fasted it {cite:sahih-al-bukhari}. Muslim adds that Quraysh fasted it in the Jahiliyya and that after Ramadan was prescribed the Prophet left its fast optional {cite:sahih-muslim}."
+  sources: [source/sahih-al-bukhari, source/sahih-muslim, source/fiqh-mawsua-kuwaitiyya-noor-v3]
+- tradition: academic
+  id: academic-history
+  stance:
+    en: A pre-Islamic fast day absorbed into the Islamic calendar, then overlaid by Karbala memory
+  summary:
+    en: "Historians note Ashura was observed before Islam — Quraysh fasted it in the Jahiliyya — and that the Medinan adoption was followed after 61 AH by the Karbala mourning layer, producing today's dual character of the day."
+  sources: [source/al-bidaya-wal-nihaya, source/sahih-al-bukhari]
+- tradition: shia-twelver
+  id: shia-mourning
+  stance:
+    ar: يوم عزاء على الحسين بن علي المقتول بكربلاء سنة 61هـ
+    en: A day of mourning for Husayn ibn Ali, killed at Karbala in 61 AH
+  summary:
+    ar: "سجّل ابن كثير في حوادث سنة 61هـ مقتل الحسين بن علي بكربلاء يوم عاشوراء {cite:al-bidaya-wal-nihaya}؛ ومن هنا جعلته الشيعة موسم العزاء الأكبر بالمجالس والزيارات والشعائر."
+    en: "Ibn Kathir records under the events of 61 AH the killing of Husayn ibn Ali at Karbala on Ashura {cite:al-bidaya-wal-nihaya}; the Shi'a made it their greatest season of mourning with gatherings, visitations and rituals."
+  sources: [source/al-bidaya-wal-nihaya, source/salabi-umayyad-state-2020]
+sensitivity: contested
+sources: [source/sahih-al-bukhari, source/sahih-muslim, source/al-bidaya-wal-nihaya, source/salabi-umayyad-state-2020]
+provenance:
+  layer: own-research
+  source: "wikidata-import deferred Q183283; claims verified in Apple Vision OCR: Sahih Muslim kitab al-siyam (bab fi siyam yawm ashura), Sahih al-Bukhari (hadiths 2000+), Fath al-Bari/Bidaya hawadith 61 AH"
+  generated_by: "Devin (SWE-2 Medium) from Apple Vision OCR + Wikipedia bibliography harvest"
+  run: wd-deferred-1
+status: { review: draft, completeness: 3, generated_by: "Devin (SWE-2 Medium)" }

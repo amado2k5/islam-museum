@@ -7,8 +7,7 @@ label:
 summary:
   ar: 'موقف الطحاوي: لا خروج على الأئمة وولاة الأمر وإن جاروا، وطاعتهم من طاعة الله ما لم يأمروا بمعصية، والحج والجهاد ماضيان معهم.'
   en: 'al-Tahawi''s position: no rebelling against the imams and rulers even if they are unjust, obeying them is part of obeying God so long as they do not command disobedience, and the pilgrimage and jihad continue with them.'
-wings:
-- ideas
+wings: [ideas]
 themes:
 - creed
 - development-of-law-theology-institutions
@@ -55,6 +54,42 @@ perspectives:
       en: pp. 39 and 42
   sources:
   - source/lumat-al-itiqad
+- tradition: sunni-hanbali
+  id: aqida-wasitiyya
+  stance:
+    ar: إقامة الحج والجهاد والجمعة والأعياد مع الأمراء أبراراً كانوا أو فجاراً
+    en: Holding the pilgrimage, jihad, Friday prayer and festivals with the commanders, righteous or sinful
+  summary:
+    ar: يقول ابن تيمية إن أهل السنة «يرون إقامة الحج والجهاد والجمع والأعياد مع الأمراء أبراراً كانوا أو فجاراً»، ويأمرون بالمعروف وينهون عن المنكر على ما توجبه الشريعة، ولا يذكر في هذا الموضع حكم الخروج على الحاكم.
+    en: Ibn Taymiyya says Ahl al-Sunna hold that the pilgrimage, jihad, Friday prayers and the festivals are held with the commanders, righteous or sinful, and enjoin the right and forbid the wrong as the law requires; he does not state a ruling on rebelling against the ruler in this passage.
+  holders:
+  - person/ibn-taymiyya
+  - work/aqida-wasitiyya
+  evidence:
+  - ref: source/aqida-wasitiyya
+    note:
+      ar: ص 27
+      en: p. 27
+  sources:
+  - source/aqida-wasitiyya
+- tradition: sunni-ashari
+  id: maqalat-ashari
+  stance:
+    ar: الصلاة والجمعة والعيد خلف كل إمام برّاً كان أو فاجراً، وألا يُخرج عليهم بالسيف
+    en: Prayer, Friday and festival prayers behind every imam, righteous or sinful, and not rebelling against them with the sword
+  summary:
+    ar: يذكر الأشعري أنهم يرون العيد والجمعة والجماعة خلف كل إمام برّ وفاجر، ويرون الدعاء لأئمة المسلمين بالصلاح، وألا يخرجوا عليهم بالسيف، وألا يقاتلوا في الفتنة.
+    en: Al-Ash'ari reports they hold the festival, Friday and congregational prayers behind every imam, righteous or sinful, pray for the imams of the Muslims to be righteous, and that they do not rebel against them with the sword nor fight in civil strife.
+  holders:
+  - person/al-ashari
+  - work/maqalat-islamiyyin
+  evidence:
+  - ref: source/maqalat-islamiyyin
+    note:
+      ar: ص 348 و349
+      en: pp. 348 and 349
+  sources:
+  - source/maqalat-islamiyyin
 provenance:
   layer: own-research
   source: العقيدة الطحاوية، طبعة دار ابن حزم 1995 (نص كامل؛ 134 بنداً، الصفحات 7-32)
@@ -64,6 +99,8 @@ provenance:
 sources:
 - source/aqida-tahawiyya
 - source/lumat-al-itiqad
+- source/aqida-wasitiyya
+- source/maqalat-islamiyyin
 status:
   review: draft
   completeness: 2

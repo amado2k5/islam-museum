@@ -1,0 +1,17 @@
+id: person/muhammad-ibn-al-ashath-al-khuzai
+class: person
+label: { ar: "محمد بن الأشعث الخزاعي", en: "Muhammad ibn al-Ash'ath al-Khuza'i" }
+summary:
+  ar: "محمد بن الأشعث الخزاعي؛ ولّاه أبو العباس إفريقية فرمّ مدينة القيروان ومسجدها ثم عزله المنصور وولّى مكانه عمر بن حفص هزارمرد."
+  en: "Muhammad ibn al-Ash'ath al-Khuza'i; Abu al-Abbas gave him Ifriqiya — he repaired Qayrawan's city and mosque — then al-Mansur dismissed him and put Umar ibn Hafs Hazarmard in his place."
+wings: [people]
+periods: [period/abbasid-early]
+relations:
+  - { type: participated_in, target: event/founding-of-qayrawan, role: "مرمّم المدينة ومسجدها", sources: [source/futuh-buldan-maarif-1407] }
+provenance:
+  layer: own-research
+  source: "فتوح البلدان (ط مؤسسة المعارف 1407هـ/1987م) ص 322"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-futuh-buldan-batch-21
+sources: [source/futuh-buldan-maarif-1407]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

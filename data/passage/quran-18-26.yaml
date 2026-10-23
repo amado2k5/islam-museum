@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 18:26 (سورة الكهف، الآية 26)."
 text: "قُلِ ٱللَّهُ أَعْلَمُ بِمَا لَبِثُوا۟ ۖ لَهُۥ غَيْبُ ٱلسَّمَـٰوَٰتِ وَٱلْأَرْضِ ۖ أَبْصِرْ بِهِۦ وَأَسْمِعْ ۚ مَا لَهُم مِّن دُونِهِۦ مِن وَلِىٍّ وَلَا يُشْرِكُ فِى حُكْمِهِۦٓ أَحَدًا"
 text_search: "قل الله أعلم بما لبثوا ۖ له غيب السماوات والأرض ۖ أبصر به وأسمع ۚ ما لهم من دونه من ولي ولا يشرك في حكمه أحدا"
+translations:
+  en: { text: "Say: Allah is Best Aware how long they tarried. His is the Invisible of the heavens and the earth. How clear of sight is He and keen of hearing! They have no protecting friend beside Him, and He maketh none to share in His government.", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "کہہ دو کہ جتنی مدّت وہ رہے اسے خدا ہی خوب جانتا ہے۔ اسی کو آسمانوں اور زمین کی پوشیدہ باتیں (معلوم) ہیں۔ وہ کیا خوب دیکھنے والا اور کیا خوب سننے والا ہے۔ اس کے سوا ان کا کوئی کارساز نہیں اور نہ وہ اپنے حکم میں کسی شریک کو کرتا ہے", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-18 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

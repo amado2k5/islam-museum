@@ -1,0 +1,11 @@
+---
+id: passage/muwatta-2-629
+lang: en
+source_lang: ar
+translators: ["Claude Haiku 5.5 (claude-haiku-5-5), draft translation"]
+---
+## Summary
+The first report in the chapter on forbidding weeping over the dead. Malik transmits from Abdullah ibn Abdallah ibn Jabir ibn Atik, from his grandfather Atik ibn al-Harith ibn Atik, who was his maternal grandfather, from Jabir ibn Atik, that the Prophet came to visit Abdullah ibn Thabit and found him overcome. He called to him and got no answer, so he said the words of return and said: we have been overcome for your sake, Abu al-Rabi. The women cried out and wept, and Jabir kept quieting them. The Prophet said: leave them, and when it is due, no weeping woman should weep. They asked: what is the due? He said: when he dies. His daughter said: by God, I hoped you would be a martyr, for you had already prepared your equipment. The Prophet told them that God gives the reward according to the intention, and asked what they count as martyrdom. They said: being killed in God's path. He then counted seven martyrs besides being killed in God's path: the one who dies of plague, drowning, pleurisy, intestinal illness, burning, the one killed under a collapse, and the woman who dies in childbirth. The editor notes that al-Baghawi quoted al-Shafii that Malik erred in naming Jabir ibn Atik, the right name being Jabr; Ibn Qani said Jabr is correct, but the editor thinks the claim of Malik's error is questionable because Jabir ibn Atik and Jabr ibn Atik are the same, as he showed in his notes on Tahdhib al-Kamal. Abu Musab transmitted it from Malik, as did Ibn Hibban and al-Baghawi, Rawh ibn Ubada in Ahmad, al-Qanabi in Abu Dawud and al-Hakim, Utba ibn Abdallah in al-Nasai, al-Shafii, and al-Shaybani. {cite:muwatta-maruf-1997 p.320}
+
+## Place in the museum
+Belongs to [[passage/muwatta-kitab-02-janaza|the Muwatta, Book of Funerals]]. Source: [[work/muwatta-malik|the Muwatta]]. Mentions [[person/muhammad|Muhammad]], [[person/abdallah-ibn-thabit-al-ansari|Abdallah ibn Thabit al-Ansari]], [[person/jabir-ibn-atik|Jabir ibn Atik]], [[person/atik-ibn-al-harith|Atik ibn al-Harith]], [[person/abdallah-ibn-abdallah-ibn-jabir-ibn-atik|Abdallah ibn Abdallah ibn Jabir ibn Atik]], [[person/al-shafii|Muhammad ibn Idris al-Shafii]]. Built on in the chapters on [[concept/shahada-martyrdom|martyrdom]].

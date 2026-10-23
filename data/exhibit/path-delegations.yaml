@@ -1,0 +1,76 @@
+id: exhibit/path-delegations
+class: exhibit
+kind: trail
+label:
+  ar: عام الوفود
+  en: The Year of Delegations
+summary:
+  ar: 'مسار في سنة التاسعة: الجزيرة كلها تدخل الإسلام، والوفود تصل المدينة من كل حدب — الدعوة تكمل دورتها.'
+  en: A trail through the year of delegations.
+audience:
+- newcomer
+- student
+duration_minutes: 30
+wings: []
+regions:
+- arabia
+rooms:
+- title:
+    ar: السنة
+    en: The year
+  body:
+    ar: 'عام الوفود 630-631: القبائل تتحول.'
+    en: 'عام الوفود 630-631: القبائل تتحول.'
+  features:
+  - event/year-of-delegations
+  - place/medina
+- title:
+    ar: عبد القيس
+    en: Abd al-Qays
+  body:
+    ar: 'وفد البحرين: أول العرب إسلامًا جماعة.'
+    en: 'وفد البحرين: أول العرب إسلامًا جماعة.'
+  features:
+  - event/delegation-of-abd-al-qays
+  - event/delegation-of-abd-al-qays
+- title:
+    ar: تميم
+    en: Tamim
+  body:
+    ar: 'بنو تميم يفدون: الشعراء يتسابقون.'
+    en: 'بنو تميم يفدون: الشعراء يتسابقون.'
+  features:
+  - event/delegation-of-banu-tamim
+  - event/delegation-of-banu-tamim
+- title:
+    ar: حنيفة
+    en: Hanifa
+  body:
+    ar: 'وفد اليمامة: قبل مسيلمة بسنين.'
+    en: 'وفد اليمامة: قبل مسيلمة بسنين.'
+  features:
+  - event/delegation-of-banu-hanifa
+  - event/battle-of-yamama
+- title:
+    ar: النظام
+    en: The system
+  body:
+    ar: 'جباة وموظفون ومعلمون: الدولة تنتظم.'
+    en: 'جباة وموظفون ومعلمون: الدولة تنتظم.'
+  features:
+  - event/year-of-delegations
+  - person/muhammad
+prerequisites:
+- exhibit/path-islam-in-30-minutes
+sources:
+- source/wikidata
+provenance:
+  layer: own-research
+  source: Devin-assembled trail from existing museum entities
+  generated_by: Devin (SWE-2 High)
+  model: SWE-2 High
+  run: pathways-batch-7
+status:
+  review: draft
+  completeness: 1
+  generated_by: Devin (SWE-2 High), pathways lane, 2026-10-16

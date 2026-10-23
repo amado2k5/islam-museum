@@ -1,0 +1,17 @@
+id: passage/arbaun-50
+class: passage
+unit: hadith
+work: work/jami-ulum-hikam
+ref: "50"
+label: { ar: "الأربعون 50 — لا يزال لسانك رطباً من ذكر الله", en: "Arba'un 50 — keep your tongue moist with remembrance of God" }
+text: "لا يزال لسانك رطباً من ذكر الله عز وجل"
+summary:
+  ar: "حديث عبد الله بن بسر قال: أتى النبي رجل فقال يا رسول الله إن شرائع الإسلام قد كثرت علينا فباب نتمسك به جامع قال: «لا يزال لسانك رطباً من ذكر الله عز وجل» — ثامن الأحاديث التي زادها ابن رجب وخاتمة الخمسين؛ أخرجه أحمد 4/188 و190 بهذا اللفظ وخرجه الترمذي (3375) وابن ماجه (3793) وابن حبان (814) بمعناه وقال الترمذي حسن غريب وكلهم من رواية عمرو بن قيس الكندي عن عبد الله بن بسر؛ وخرج ابن حبان (818) والبخاري في خلق أفعال العباد والطبراني والبيهقي في شعب الإيمان من حديث معاذ بن جبل قال: آخر ما فارقت عليه رسول الله أن قلت له أي الأعمال خير وأقرب إلى الله قال «أن تموت ولسانك رطب من ذكر الله عز وجل»؛ قال ابن رجب قد سبق في هذا الكتاب مفرقاً ذكر كثير من فضائل الذكر ونذكر ههنا فضل إدامته والإكثار منه — مستدلاً بالأمر بذكر الله ذكراً كثيراً ومدح فاعله في آيات منها «يا أيها الذين آمنوا اذكروا الله ذكراً كثيراً وسبحوه بكرة وأصيلاً» و«والذاكرين الله كثيراً والذاكرات أعد الله لهم مغفرة وأجراً عظيماً» (جامع العلوم والحكم ص 927–956)."
+  en: "The hadith of Abdullah ibn Busr that a man came to the Prophet saying 'Messenger of God, the laws of Islam have grown many upon us — is there a comprehensive gate we may hold to?' and he said 'keep your tongue moist with the remembrance of God' — the eighth of Ibn Rajab's added hadiths and the seal of the fifty; Ahmad (4/188, 190) carries it in this wording while al-Tirmidhi (3375), Ibn Majah (3793) and Ibn Hibban (814) carry its meaning, al-Tirmidhi grading it hasan gharib, all through Amr ibn Qays al-Kindi from Abdullah ibn Busr; Ibn Hibban (818), al-Bukhari in Khalq af'al al-ibad, al-Tabarani and al-Bayhaqi in Shu'ab al-iman carry Mu'adh ibn Jabal's parallel: 'the last thing on which I parted from the Messenger of God was my asking which deed is best and nearest to God — he said: that you die with your tongue moist with the remembrance of God'; Ibn Rajab notes that many excellences of remembrance were scattered through the book and treats here the merit of its constancy and abundance, citing the command to remember God much and His praise of those who do — 'you who believe, remember God with much remembrance and glorify Him morning and evening' and 'the men and women who remember God much, God has prepared for them forgiveness and a great reward' (Jami' al-Ulum wal-Hikam pp. 927–956)."
+relations:
+  - { type: mentions, target: person/abdullah-ibn-busr, sources: [source/ibn-rajab-jami-ulum-hikam] }
+  - { type: mentions, target: person/muadh-ibn-jabal, sources: [source/ibn-rajab-jami-ulum-hikam] }
+  - { type: basis_for, target: concept/dhikr, sources: [source/ibn-rajab-jami-ulum-hikam] }
+provenance: { layer: own-research, source: "Jami' al-Ulum wal-Hikam (Dar Ibn Kathir 1429/2008), hadith 50 pp. 927–956", generated_by: "Devin (SWE-2 High) from Apple Vision OCR", run: "lib-jami-ulum-hikam-batch-18" }
+sources: [source/ibn-rajab-jami-ulum-hikam]
+status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 High); matn verified against OCR of printed p. 927 (~9 words); the Amr b. Qays route and Mu'adh's farewell parallel from p. 927" }

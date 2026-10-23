@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 4:97 (سورة النساء، الآية 97)."
 text: "إِنَّ ٱلَّذِينَ تَوَفَّىٰهُمُ ٱلْمَلَـٰٓئِكَةُ ظَالِمِىٓ أَنفُسِهِمْ قَالُوا۟ فِيمَ كُنتُمْ ۖ قَالُوا۟ كُنَّا مُسْتَضْعَفِينَ فِى ٱلْأَرْضِ ۚ قَالُوٓا۟ أَلَمْ تَكُنْ أَرْضُ ٱللَّهِ وَٰسِعَةً فَتُهَاجِرُوا۟ فِيهَا ۚ فَأُو۟لَـٰٓئِكَ مَأْوَىٰهُمْ جَهَنَّمُ ۖ وَسَآءَتْ مَصِيرًا"
 text_search: "إن الذين توفاهم الملائكة ظالمي أنفسهم قالوا فيم كنتم ۖ قالوا كنا مستضعفين في الأرض ۚ قالوا ألم تكن أرض الله واسعة فتهاجروا فيها ۚ فأولئك مأواهم جهنم ۖ وساءت مصيرا"
+translations:
+  en: { text: "Lo! as for those whom the angels take (in death) while they wrong themselves, (the angels) will ask: In what were ye engaged? They will say: We were oppressed in the land. (The angels) will say: Was not Allah's earth spacious that ye could have migrated therein? As for such, their habitation will be hell, an evil journey's end;", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "اور جو لوگ اپنی جانوں پر ظلم کرتے ہیں جب فرشتے ان کی جان قبض کرنے لگتے ہیں تو ان سے پوچھتے ہیں کہ تم کس حال میں تھے وہ کہتے ہیں کہ ہم ملک میں عاجز وناتواں تھے فرشتے کہتے ہیں کیا خدا کا ملک فراخ نہیں تھا کہ تم اس میں ہجرت کر جاتے ایسے لوگوں کا ٹھکانہ دوزخ ہے اور وہ بری جگہ ہے", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-4 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

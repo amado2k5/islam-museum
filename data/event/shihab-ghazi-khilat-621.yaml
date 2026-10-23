@@ -1,0 +1,23 @@
+id: event/shihab-ghazi-khilat-621
+class: event
+kind: revolt
+label: { ar: "عصيان شهاب الدين غازي على أخيه الأشرف وأخذه خلاط", en: "Shihab al-Din Ghazi rebels against his brother al-Ashraf and takes Khilat" }
+date:
+  start: { edtf: "1224~", hijri: "0621", calendar: julian, precision: year, status: tradition, derived: true }
+summary:
+  ar: "عصى شهاب الدين غازي على أخيه الملك الأشرف وأخذ خلاط منه، ثم استردها الأشرف منه {cite:kamil-ibn-al-athir p. 440}."
+  en: "Shihab al-Din Ghazi rose against his brother al-Ashraf and wrested Khilat from him before al-Ashraf took it back {cite:kamil-ibn-al-athir p. 440}."
+sides:
+  - label: { ar: "المسلمون" }
+  - label: { ar: "خصومهم" }
+relations:
+  - { type: occurred_at, target: place/khilat, sources: [source/kamil-ibn-al-athir] }
+  - { type: had_participant, target: person/shihab-al-din-ghazi-khilat, role: "العاصي", sources: [source/kamil-ibn-al-athir] }
+  - { type: had_participant, target: person/al-malik-al-ashraf, role: "أخوه", sources: [source/kamil-ibn-al-athir] }
+provenance:
+  layer: own-research
+  source: "الكامل في التاريخ لابن الأثير، قراءة آبل فيجن"
+  generated_by: "Devin (SWE-2 Medium) from Apple Vision OCR"
+  run: lib-kamil-v12-batch07
+sources: [source/kamil-ibn-al-athir]
+status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 Medium)" }

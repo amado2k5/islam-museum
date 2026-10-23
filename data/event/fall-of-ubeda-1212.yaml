@@ -1,0 +1,23 @@
+id: event/fall-of-ubeda-1212
+class: event
+kind: conquest
+label: { ar: "سقوط أبدة (١٢١٢)", en: "Fall of Úbeda (1212)" }
+summary:
+  ar: "بطاقة أولية لسقوط أبدة سنة ١٢١٢م، أخذ النصارى للمدينة بعد العقاب؛ لم تُراجع مصادره على الصفحة بعد."
+  en: "Draft card for the Fall of Úbeda in 1212, the Christian capture of the town after Las Navas de Tolosa; its sources are not yet checked on the page."
+wings: [time]
+periods: [period/crusades-ayyubid-mamluk]
+regions: [andalus-europe]
+date:
+  start: { edtf: "1212", precision: year, status: tradition, derived: true }
+  end: { edtf: "1212", precision: year, status: tradition, derived: true }
+sources: [source/tarikh-islam-hasan-ibrahim]
+external_ids:
+  wikidata: Q107445561
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; battle attested in narrative histories — entry not yet checked on the page"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-wave2
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

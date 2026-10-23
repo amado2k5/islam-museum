@@ -1,0 +1,16 @@
+id: passage/muslim-0034
+class: passage
+unit: hadith
+work: work/sahih-muslim
+ref: "34"
+label: { ar: "مسلم 34 — ذاق طعم الإيمان من رضي بالله رباً", en: "Muslim 34 — Whoever is pleased with God as Lord has tasted faith's flavor" }
+text: "سمع العباس بن عبد المطلب رسول الله يقول: «ذاق طعم الإيمان من رضي بالله رباً، وبالإسلام ديناً، وبمحمد رسولاً»"
+summary:
+  ar: "رواية العباس بن عبد المطلب في كتاب الإيمان من صحيح مسلم؛ ذوق طعم الإيمان مشروط بالرضا الثلاثي — بالله رباً وبالإسلام ديناً وبالنبي رسولاً."
+relations:
+  - { type: mentions, target: person/muhammad, sources: [source/sahih-muslim] }
+  - { type: mentions, target: person/abbas-ibn-abd-al-muttalib, sources: [source/sahih-muslim] }
+  - { type: mentions, target: concept/iman, sources: [source/sahih-muslim] }
+provenance: { layer: own-research, source: "صحيح مسلم، كتاب الإيمان، باب ذوق طعم الإيمان (طبعة دار التأصيل، الحديث 161؛ ترقيم عبد الباقي المعروف 34)، تصوير Apple Vision OCR", generated_by: "Devin (SWE-2 High) from Apple Vision OCR", run: "hadith-muslim-passages-2" }
+sources: [source/sahih-muslim]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High); matn excerpt at most 40 words checked against the scan" }

@@ -1,0 +1,23 @@
+id: event/moldavian-campaign-1684
+class: event
+kind: war
+label: { ar: "الحملة المولدافية (١٦٨٤)", en: "Moldavian campaign" }
+summary:
+  ar: "بطاقة أولية للحملة المولدافية في ١٦٨٤–١٦٩١م، حرب البولنديين والعثمانيين على مولدافيا في التحالف المقدس؛ لم تُراجع مصادرها على الصفحة بعد."
+  en: "Draft card for the Moldavian campaign of 1684–91, the Polish-Ottoman war over Moldavia in the Holy League; its sources are not yet checked on the page."
+wings: [time]
+periods: [period/gunpowder-empires]
+regions: [anatolia-balkans]
+date:
+  start: { edtf: "1684-08", precision: year, status: tradition, derived: true }
+  end: { edtf: "1691-10", precision: year, status: tradition, derived: true }
+sources: [source/dawlat-uthmaniyya-salabi]
+external_ids:
+  wikidata: Q4300304
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; battle attested in narrative histories — entry not yet checked on the page"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-wave2
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

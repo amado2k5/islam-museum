@@ -1,0 +1,24 @@
+id: event/shihab-khwarazm-siege-600
+class: event
+kind: siege
+label: { ar: "حصر شهاب الدين الغوري خوارزم وانهزامه", en: "Shihab al-Din's siege of Khwarazm and his defeat by the Khita" }
+date:
+  start: { edtf: "1204~", hijri: "0600", calendar: julian, precision: "year", status: tradition, derived: true }
+summary:
+  ar: "عاد شهاب الدين الغوري من قصد الهند فحصر خوارزم وشدّد على أهلها، فاستنجد خوارزم شاه بالخطا فلما وصلوا انهزم شهاب الدين إلى خراسان {cite:kamil-ibn-al-athir p. 285}."
+  en: "Shihab al-Din al-Ghuri returned from India and besieged Khwarazm city hard; Khwarazmshah called in the Qara Khitai and Shihab al-Din broke and fled to Khurasan {cite:kamil-ibn-al-athir p. 285}."
+sides:
+  - label: { ar: "شهاب الدين الغوري" }
+  - label: { ar: "علاء الدين خوارزم شاه والخطا" }
+relations:
+  - { type: occurred_at, target: place/khwarizm, sources: [source/kamil-ibn-al-athir] }
+  - { type: had_participant, target: person/shihab-al-din-ghuri, role: "الحاصر", sources: [source/kamil-ibn-al-athir] }
+  - { type: had_participant, target: group/qara-khitay, role: "المنصر للخوارزميين", sources: [source/kamil-ibn-al-athir] }
+  - { type: had_participant, target: person/muhammad-khwarazmshah, role: "المحصور", sources: [source/kamil-ibn-al-athir] }
+provenance:
+  layer: own-research
+  source: "الكامل في التاريخ لابن الأثير، قراءة آبل فيجن"
+  generated_by: "Devin (SWE-2 Medium) from Apple Vision OCR"
+  run: lib-kamil-v12-batch05
+sources: [source/kamil-ibn-al-athir]
+status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 Medium)" }

@@ -1,0 +1,77 @@
+id: exhibit/path-kaaba
+class: exhibit
+kind: trail
+label:
+  ar: الكعبة
+  en: The Ka'ba
+summary:
+  ar: 'مسار في البيت الحرام: إبراهيم يرفع القواعد، وقريش تعمرها، والنبي يطوف بها فاتحًا — قبلتنا الأولى
+    والأخيرة.'
+  en: A trail through the Sacred House.
+audience:
+- newcomer
+- student
+duration_minutes: 30
+wings: []
+regions:
+- arabia
+rooms:
+- title:
+    ar: البناء
+    en: The building
+  body:
+    ar: إبراهيم وإسماعيل يرفعان القواعد.
+    en: إبراهيم وإسماعيل يرفعان القواعد.
+  features:
+  - building/kaaba
+  - passage/quran-2-127
+- title:
+    ar: قريش
+    en: Quraysh
+  body:
+    ar: 'بناء قريش والحجر: القرآن يقص.'
+    en: 'بناء قريش والحجر: القرآن يقص.'
+  features:
+  - building/kaaba
+  - place/mecca
+- title:
+    ar: الفتح
+    en: The conquest
+  body:
+    ar: 'النبي يطهر البيت: ثلاثمائة وستون صنمًا.'
+    en: 'النبي يطهر البيت: ثلاثمائة وستون صنمًا.'
+  features:
+  - event/conquest-of-mecca
+  - building/kaaba
+- title:
+    ar: الطواف
+    en: Tawaf
+  body:
+    ar: 'سبعة أشواط: شعيرة الحج الكبرى.'
+    en: 'سبعة أشواط: شعيرة الحج الكبرى.'
+  features:
+  - practice/hajj
+  - building/masjid-al-haram
+- title:
+    ar: اليوم
+    en: Today
+  body:
+    ar: 'الحرم يكبر: مئات التوسعات.'
+    en: 'الحرم يكبر: مئات التوسعات.'
+  features:
+  - building/masjid-al-haram
+  - place/mecca
+prerequisites:
+- exhibit/path-islam-in-30-minutes
+sources:
+- source/wikidata
+provenance:
+  layer: own-research
+  source: Devin-assembled trail from existing museum entities
+  generated_by: Devin (SWE-2 High)
+  model: SWE-2 High
+  run: pathways-batch-7
+status:
+  review: draft
+  completeness: 1
+  generated_by: Devin (SWE-2 High), pathways lane, 2026-10-16

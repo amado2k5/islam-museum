@@ -1,0 +1,23 @@
+id: event/siege-of-lazarevsky-1840
+class: event
+kind: siege
+label: { ar: "حصار لازاريفسكي (١٨٤٠)", en: "Siege of Lazarevsky (1840)" }
+summary:
+  ar: "بطاقة أولية لحصار لازاريفسكي سنة ١٨٤٠م، من الحرب الروسية الشركسية؛ لم تُراجع مصادره على الصفحة بعد."
+  en: "Draft card for the Siege of Lazarevsky in 1840, of the Russo-Circassian War; its sources are not yet checked on the page."
+wings: [time]
+periods: [period/modern-era]
+regions: [persia-central-asia]
+date:
+  start: { edtf: "1840-05", precision: year, status: tradition, derived: true }
+  end: { edtf: "1840-07", precision: year, status: tradition, derived: true }
+sources: [source/tarikh-islam-hasan-ibrahim]
+external_ids:
+  wikidata: Q98085279
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; battle attested in narrative histories — entry not yet checked on the page"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-wave2
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

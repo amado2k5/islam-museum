@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 24:8 (سورة النور، الآية 8)."
 text: "وَيَدْرَؤُا۟ عَنْهَا ٱلْعَذَابَ أَن تَشْهَدَ أَرْبَعَ شَهَـٰدَٰتٍۭ بِٱللَّهِ ۙ إِنَّهُۥ لَمِنَ ٱلْكَـٰذِبِينَ"
 text_search: "ويدرأ عنها العذاب أن تشهد أربع شهادات بالله ۙ إنه لمن الكاذبين"
+translations:
+  en: { text: "And it shall avert the punishment from her if she bear witness before Allah four times that the thing he saith is indeed false,", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "اور عورت سے سزا کو یہ بات ٹال سکتی ہے کہ وہ پہلے چار بار خدا کی قسم کھائے کہ بےشک یہ جھوٹا ہے", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-24 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

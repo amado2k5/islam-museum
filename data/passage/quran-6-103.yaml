@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 6:103 (سورة الأنعام، الآية 103)."
 text: "لَّا تُدْرِكُهُ ٱلْأَبْصَـٰرُ وَهُوَ يُدْرِكُ ٱلْأَبْصَـٰرَ ۖ وَهُوَ ٱللَّطِيفُ ٱلْخَبِيرُ"
 text_search: "لا تدركه الأبصار وهو يدرك الأبصار ۖ وهو اللطيف الخبير"
+translations:
+  en: { text: "Vision comprehendeth Him not, but He comprehendeth (all) vision. He is the Subtile, the Aware.", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "(وہ ایسا ہے کہ) نگاہیں اس کا ادراک نہیں کرسکتیں اور وہ نگاہوں کا ادراک کرسکتا ہے اور وہ بھید جاننے والا خبردار ہے", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-6 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

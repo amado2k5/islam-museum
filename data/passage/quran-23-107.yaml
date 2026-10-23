@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 23:107 (سورة المؤمنون، الآية 107)."
 text: "رَبَّنَآ أَخْرِجْنَا مِنْهَا فَإِنْ عُدْنَا فَإِنَّا ظَـٰلِمُونَ"
 text_search: "ربنا أخرجنا منها فإن عدنا فإنا ظالمون"
+translations:
+  en: { text: "Our Lord! Oh, bring us forth from hence! If we return (to evil) then indeed we shall be wrong-doers.", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "اے پروردگار! ہم کو اس میں سے نکال دے، اگر ہم پھر (ایسے کام) کریں تو ظالم ہوں گے", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-23 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

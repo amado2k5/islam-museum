@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 7:176 (سورة الأعراف، الآية 176)."
 text: "وَلَوْ شِئْنَا لَرَفَعْنَـٰهُ بِهَا وَلَـٰكِنَّهُۥٓ أَخْلَدَ إِلَى ٱلْأَرْضِ وَٱتَّبَعَ هَوَىٰهُ ۚ فَمَثَلُهُۥ كَمَثَلِ ٱلْكَلْبِ إِن تَحْمِلْ عَلَيْهِ يَلْهَثْ أَوْ تَتْرُكْهُ يَلْهَث ۚ ذَّٰلِكَ مَثَلُ ٱلْقَوْمِ ٱلَّذِينَ كَذَّبُوا۟ بِـَٔايَـٰتِنَا ۚ فَٱقْصُصِ ٱلْقَصَصَ لَعَلَّهُمْ يَتَفَكَّرُونَ"
 text_search: "ولو شئنا لرفعناه بها ولكنه أخلد إلى الأرض واتبع هواه ۚ فمثله كمثل الكلب إن تحمل عليه يلهث أو تتركه يلهث ۚ ذلك مثل القوم الذين كذبوا بآياتنا ۚ فاقصص القصص لعلهم يتفكرون"
+translations:
+  en: { text: "And had We willed We could have raised him by their means, but he clung to the earth and followed his own lust. Therefor his likeness is as the likeness of a dog: if thou attackest him he panteth with his tongue out, and if thou leavest him he panteth with his tongue out. Such is the likeness of the people who deny Our revelations. Narrate unto them the history (of the men of old), that haply they may take thought.", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "اور اگر ہم چاہتے تو ان آیتوں سے اس (کے درجے) کو بلند کر دیتے مگر وہ تو پستی کی طرف مائل ہوگیا اور اپنی خواہش کے پیچھے چل پڑا۔ تو اس کی مثال کتے کی سی ہوگئی کہ اگر سختی کرو تو زبان نکالے رہے اور یونہی چھوڑ دو تو بھی زبان نکالے رہے۔ یہی مثال ان لوگوں کی ہے جنہوں نے ہماری آیتوں کو جھٹلایا تو ان سے یہ قصہ بیان کردو۔ تاکہ وہ فکر کریں", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-7 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

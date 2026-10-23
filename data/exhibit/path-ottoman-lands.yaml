@@ -1,0 +1,77 @@
+id: exhibit/path-ottoman-lands
+class: exhibit
+kind: trail
+label:
+  ar: الأرض العثمانية
+  en: Ottoman Lands
+summary:
+  ar: 'مسار في ستة قرون عثمانية: بورصة وأدرنة ثم إسطنبول، وسليمان وسنان، والبلقان إلى اليوم.'
+  en: A trail through six Ottoman centuries.
+audience:
+- newcomer
+- student
+duration_minutes: 30
+wings: []
+regions:
+- anatolia-balkans
+rooms:
+- title:
+    ar: البدايات
+    en: The beginnings
+  body:
+    ar: بورصة أولى العواصم ثم أدرنة على أوروبا.
+    en: بورصة أولى العواصم ثم أدرنة على أوروبا.
+  features:
+  - place/bursa
+  - place/edirne
+  - polity/ottoman-empire
+- title:
+    ar: الفاتح
+    en: The Conqueror
+  body:
+    ar: محمد الثاني يأخذ القسطنطينية ويبني العاصمة.
+    en: محمد الثاني يأخذ القسطنطينية ويبني العاصمة.
+  features:
+  - person/mehmed-ii
+  - event/conquest-constantinople-857
+  - place/istanbul
+- title:
+    ar: القانوني
+    en: Sulayman
+  body:
+    ar: 'أوج الدولة: ستة وأربعون سنة من الحكم والبناء.'
+    en: 'أوج الدولة: ستة وأربعون سنة من الحكم والبناء.'
+  features:
+  - person/sulayman-al-qanuni
+  - building/sulaymaniyya-mosque
+- title:
+    ar: البلقان
+    en: The Balkans
+  body:
+    ar: 'سراييفو والبوسنة: الإسلام في أوروبا منذ خمسة قرون.'
+    en: 'سراييفو والبوسنة: الإسلام في أوروبا منذ خمسة قرون.'
+  features:
+  - place/sarajevo
+- title:
+    ar: النهاية والميراث
+    en: Legacy
+  body:
+    ar: الخلافة تلغى 1924 ويبقى الأثر.
+    en: الخلافة تلغى 1924 ويبقى الأثر.
+  features:
+  - polity/ottoman-empire
+  - question/what-was-the-ottoman-empire
+prerequisites:
+- exhibit/path-islam-in-30-minutes
+sources:
+- source/wikidata
+provenance:
+  layer: own-research
+  source: Devin-assembled trail from existing museum entities
+  generated_by: Devin (SWE-2 High)
+  model: SWE-2 High
+  run: pathways-batch-4
+status:
+  review: draft
+  completeness: 1
+  generated_by: Devin (SWE-2 High), pathways lane, 2026-10-16

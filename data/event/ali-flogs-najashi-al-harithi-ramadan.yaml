@@ -1,0 +1,28 @@
+id: event/ali-flogs-najashi-al-harithi-ramadan
+class: event
+kind: court-ruling
+label: { ar: "علي يجلد النجاشي الحارثي الشاعر لشربه الخمر في رمضان", en: "Ali flogs the poet al-Najashi al-Harithi for drinking wine in Ramadan" }
+summary:
+  ar: "شرب النجاشي الحارثي الشاعر الخمر في رمضان، فضربه علي ثمانين جلدة ثم حبسه، ثم أخرجه في الغد فضربه عشرين أخرى وقال له إنما جلدتك لجرأتك على الله وإفطارك في رمضان {cite:sallabi-ali-vol1 p. 306}. ويذكر الكتاب هذا مثالاً على تعزير علي بالحبس بعد الحد {cite:sallabi-ali-vol1 p. 316}."
+  en: "Al-Najashi al-Harithi, a poet, drank wine in Ramadan; Ali flogged him eighty lashes and jailed him, then flogged him twenty more the next day, saying the lashes were for his defiance of God and breaking the fast. The book cites the case as an example of prison as ta'zir."
+wings: [people, ideas]
+themes: [crime-and-punishment, law-and-courts]
+periods: [period/rashidun]
+regions: [levant-iraq]
+date:
+  start: { edtf: "0656/0661", calendar: julian, precision: year, status: tradition, derived: true, note: "الكتاب لا يؤرخ الواقعة؛ الإطار خلافة علي مشتق؛ ثقة منخفضة. رمضان المذكور لا سنة له في النص." }
+relations:
+  - { type: had_participant, target: person/ali-ibn-abi-talib, role: "الحاكم الآمر بالجلد والحبس", sources: [source/sallabi-ali-vol1] }
+  - { type: had_participant, target: person/najashi-al-harithi, role: "الشارب المجلود", sources: [source/sallabi-ali-vol1] }
+  - { type: part_of, target: period/rashidun }
+issue: { ar: "هل يُضاعف الحد أو يُزاد التعزير في شرب الخمر في رمضان؟", en: "Should the penalty for drinking in Ramadan be increased?" }
+perspectives:
+  - tradition: sunni
+    id: sunni-author
+    summary:
+      ar: "يورد الكتاب الرواية عن عطاء عن أبيه، ويجعل الضربة الثانية تعزيراً على الجرأة على الله وإفطار رمضان، ولا يحكم في جواز الجمع بين الحد والتعزير (ص 306)، بل يعرض الحادثة في باب الحد والتعزير {cite:sallabi-ali-vol1 p. 306}{cite:sallabi-ali-vol1 p. 316}."
+      en: "The book gives the narration from Ata on his father's authority and treats the second twenty lashes as ta'zir for defiance and for breaking the fast; it does not rule on combining hadd with ta'zir {cite:sallabi-ali-vol1 p. 306}."
+    sources: [source/sallabi-ali-vol1]
+provenance: { layer: own-research, source: "sallabi-ali-vol1 pp. 306, 316", generated_by: "Claude Code", model: "claude-haiku-5-5", run: "sallabi-ali-vol1-deep-pp301-350" }
+sources: [source/sallabi-ali-vol1]
+status: { review: draft, completeness: 1, generated_by: "Claude Code (claude-haiku-5-5); mined from sallabi-ali-vol1 pp. 306, 316; OCR garbled on one number (check image)" }

@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 12:20 (سورة يوسف، الآية 20)."
 text: "وَشَرَوْهُ بِثَمَنٍۭ بَخْسٍ دَرَٰهِمَ مَعْدُودَةٍ وَكَانُوا۟ فِيهِ مِنَ ٱلزَّٰهِدِينَ"
 text_search: "وشروه بثمن بخس دراهم معدودة وكانوا فيه من الزاهدين"
+translations:
+  en: { text: "And they sold him for a low price, a number of silver coins; and they attached no value to him.", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "اور اس کو تھوڑی سی قیمت (یعنی) معدودے چند درہموں پر بیچ ڈالا۔ اور انہیں ان (کے بارے) میں کچھ لالچ نہ تھا", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-12 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

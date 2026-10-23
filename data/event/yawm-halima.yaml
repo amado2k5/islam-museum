@@ -1,0 +1,25 @@
+id: event/yawm-halima
+class: event
+kind: battle
+label: { ar: "يوم حليمة — مقتل المنذر الأسود", en: "the day of Ḥalīma — al-Mundhir 'the Black' killed by al-Ḥārith's hundred" }
+date:
+  start: { edtf: "0554", calendar: julian, precision: year, status: tradition, derived: true, note: "جاهلي؛ التاريخ تقريبي عند أهل الأيام {cite:kamil-ibn-al-athir p. 409-412}." }
+summary:
+  ar: "لما قتل المنذر بن ماء السماء ملك بعده ابنه المنذر الملقب بالأسود فسار إلى الحارث الأعرج طلبًا بثأر أبيه، فنزلا مرج حليمة، فأمر الحارث أهل قرى المرج أن يصنعوا الطعام في الجفان فكان الرجل يقاتل ثم يأكل، ودامت الحرب بينهما أيامًا لا ينتصف أحدهما، حتى بذل الحارث الصلح والإتاوة وقال إني باعث رؤوس القبائل لتقرير الحال، فانتدب له مائة غلام وقيل ثمانون فألبسهم السلاح تحت الثياب والبرانس وأمر ابنته حليمة أن تطيبهم وتلبسهم، فخطبها لبيد بن عمرو فارسهم فوعده إياها، فلما تتاموا عند الملك أبدوا السلاح فقتلوا الأشراف ومنهم لبيد ملك العراقيين، وقاتل لبيد بن عمرو حتى قتل وقد قال للملك لا يتحدث الناس أني فلّ مائة، وزحفت غسان فانهزم أهل العراق. واختلف النسابون في يومي أباغ وحليمة أيهما قتل فيه أي المنذرين، والأصح أن المنذر بن ماء السماء هو المقتول وابنه مات بالحيرة {cite:kamil-ibn-al-athir p. 409-412}."
+  en: "To avenge his father, the new Lakhmid king al-Mundhir «the Black» marched to Ḥalīma's meadow. For days neither side prevailed, the Ghassanid army eating from great platters set among them. Then al-Ḥārith offered tribute and asked to send «the heads of the tribes to settle matters»: a hundred youths — some say eighty — with swords hidden beneath burnouses, perfumed and dressed by his daughter Ḥalīma. When they stood before the king they bared steel and cut down the Iraqi nobles, including the king himself; the rider Labīd ibn ʿAmr, promised Ḥalīma's hand, refused to survive («let no one say I fled a hundred») and died fighting. The genealogists disputed which Mundhir fell at which day; Ibn al-Athīr judges the slain king was al-Mundhir ibn Māʾ al-Samāʾ and the son died at al-Ḥīra {cite:kamil-ibn-al-athir p. 409-412}."
+sides:
+- label: { ar: "غسان", en: "Ghassān" }
+  commanders: [person/al-harith-ibn-abi-shamir]
+- label: { ar: "المناذرة", en: "Lakhmids" }
+relations:
+  - { type: occurred_at, target: place/marj-halima, sources: [source/kamil-ibn-al-athir] }
+  - { type: had_participant, target: person/al-harith-ibn-abi-shamir, sources: [source/kamil-ibn-al-athir] }
+  - { type: had_participant, target: person/labid-ibn-amr, role: "قُتل", sources: [source/kamil-ibn-al-athir] }
+  - { type: had_participant, target: person/al-mundhir-ibn-ma-al-sama, role: "قُتل على الأصح", sources: [source/kamil-ibn-al-athir] }
+provenance:
+  layer: own-research
+  source: "الكامل في التاريخ لابن الأثير (مكتبة التوفيقية، ج1)، قراءة آبل فيجن"
+  generated_by: "Devin (SWE-2 Medium) from Apple Vision OCR"
+  run: lib-kamil-v1-batch01
+sources: [source/kamil-ibn-al-athir]
+status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 Medium)" }

@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 35:10 (سورة فاطر، الآية 10)."
 text: "مَن كَانَ يُرِيدُ ٱلْعِزَّةَ فَلِلَّهِ ٱلْعِزَّةُ جَمِيعًا ۚ إِلَيْهِ يَصْعَدُ ٱلْكَلِمُ ٱلطَّيِّبُ وَٱلْعَمَلُ ٱلصَّـٰلِحُ يَرْفَعُهُۥ ۚ وَٱلَّذِينَ يَمْكُرُونَ ٱلسَّيِّـَٔاتِ لَهُمْ عَذَابٌ شَدِيدٌ ۖ وَمَكْرُ أُو۟لَـٰٓئِكَ هُوَ يَبُورُ"
 text_search: "من كان يريد العزة فلله العزة جميعا ۚ إليه يصعد الكلم الطيب والعمل الصالح يرفعه ۚ والذين يمكرون السيئات لهم عذاب شديد ۖ ومكر أولئك هو يبور"
+translations:
+  en: { text: "Whoso desireth power (should know that) all power belongeth to Allah. Unto Him good words ascend, and the pious deed doth He exalt; but those who plot iniquities, theirs will be an awful doom; and the plotting of such (folk) will come to naught.", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "جو شخص عزت کا طلب گار ہے تو عزت تو سب خدا ہی کی ہے۔ اسی کی طرف پاکیزہ کلمات چڑھتے ہیں اور نیک عمل اس کو بلند کرتے ہیں۔ اور جو لوگ برے برے مکر کرتے ہیں ان کے لئے سخت عذاب ہے۔ اور ان کا مکر نابود ہوجائے گا", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-35 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

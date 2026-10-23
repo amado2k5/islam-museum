@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 30:49 (سورة الروم، الآية 49)."
 text: "وَإِن كَانُوا۟ مِن قَبْلِ أَن يُنَزَّلَ عَلَيْهِم مِّن قَبْلِهِۦ لَمُبْلِسِينَ"
 text_search: "وإن كانوا من قبل أن ينزل عليهم من قبله لمبلسين"
+translations:
+  en: { text: "Though before that, even before it was sent down upon them, they were in despair.", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "اور بیشتر تو وہ مینھہ کے اُترنے سے پہلے نااُمید ہو رہے تھے", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-30 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

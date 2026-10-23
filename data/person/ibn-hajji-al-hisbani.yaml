@@ -1,0 +1,24 @@
+id: person/ibn-hajji-al-hisbani
+class: person
+label: { ar: "شهاب الدين ابن حجي الحسباني", en: "Shihab al-Din Ibn Hajji al-Hisbani" }
+names:
+  - { kind: full, lang: ar, value: "القاضي شهاب الدين أبو العباس أحمد بن حجي الحسباني الدمشقي الأطروش الشافعي" }
+gender: male
+roles: [jurist, scholar]
+traditions: [sunni]
+wings: [people]
+themes: [education, disability]
+periods: [period/mongol-post-mongol]
+regions: [levant-iraq]
+summary:
+  ar: "القاضي شهاب الدين أبو العباس أحمد بن حجي الحسباني الدمشقي الأطروش الشافعي، ولد ليلة الأربعاء خامس ذي الحجة سنة ثمان عشرة وثمانمائة، وسمع قبل طرشه على الحافظ ابن حجر والمستدعلاء الدين بن بردس البعالي وغيرهما، وأذن للنعيمي في الرواية عنه وأجازه بكل ما تجوز له روايته؛ توفي يوم الأربعاء سابع رمضان سنة سبع وتسعمائة ودفن بمقبرة باب الفراديس {cite:shadharat-dhahab p. 450}."
+  en: "The deaf judge of Damascus, b. 5 Dhu'l-Hijja 818 — before his hearing went he had already listened to Ibn Hajar himself and Ibn Burdis al-Ba'ali; the chronicler al-Nu'aymi was licensed to transmit all he had from him; d. Wednesday 7 Ramadan 907, buried at Bab al-Faradis cemetery {cite:shadharat-dhahab p. 450}."
+born: { edtf: "1416-02-01~", hijri: "0818-12-05", calendar: julian, precision: day, status: tradition, derived: true, note: "ولد ليلة الأربعاء 5 ذي الحجة 818 {cite:shadharat-dhahab p. 450}", sources: [source/shadharat-dhahab] }
+died: { edtf: "1502-04-02~", hijri: "0907-09-07", calendar: julian, precision: day, status: tradition, derived: true, note: "توفي يوم الأربعاء 7 رمضان 907 {cite:shadharat-dhahab p. 450}", sources: [source/shadharat-dhahab] }
+provenance:
+  layer: own-research
+  source: "شذرات الذهب — ابن العماد (ط مكتبة المثنى 1351، ج8، سنة 907)، قراءة آبل فيجن"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-shadharat-batch-143
+sources: [source/shadharat-dhahab]
+status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 High)" }

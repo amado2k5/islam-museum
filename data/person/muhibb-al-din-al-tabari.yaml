@@ -1,0 +1,27 @@
+id: person/muhibb-al-din-al-tabari
+class: person
+label: { ar: "محب الدين الطبري شيخ الحرم", en: "Muhibb al-Din al-Tabari, shaykh of the haram" }
+names:
+  - { value: "محب الدين أبو العباس أحمد بن عبد الله بن محمد بن أبي بكر بن محمد الطبري المكي", kind: full }
+born: { edtf: "1218-09~", hijri: "0615-06", calendar: julian, precision: month, status: tradition, derived: true, note: "ولد بمكة في جمادى الآخرة سنة خمس عشرة وستمائة {cite:shadharat-dhahab p. 743}." }
+died: { edtf: "1296-04~", hijri: "0695-06", calendar: julian, precision: month, status: tradition, derived: true, note: "توفي في جمادى الآخرة على الصحيح {cite:shadharat-dhahab p. 743}." }
+summary:
+  ar: "شيخ الحرم بمكة، شيخ الشافعية ومحدث الحجاز؛ صنّف كتاباً كبيراً في الأحكام في ست مجلدات ورحل به إلى اليمن فأسمعه سلطانَها، ومن تصانيفه «الرياض النضرة في فضائل العشرة» و«ذخائر العقبى في مناقب ذوي القربى» و«السمط الثمين في مناقب أمهات المؤمنين» و«القرى في ساكن أم القرى» وشرح «التنبيه»؛ روى عنه الدمياطي وابن العطار وابن الخباز والبرزالي {cite:shadharat-dhahab p. 743}."
+  en: "Shaykh of the Meccan haram — the Ri'yad al-Nadira, Dhakha'ir al-Uqba, al-Simt al-Thamin and al-Qira are his; carried his six-volume Ahkam to Yemen's sultan {cite:shadharat-dhahab p. 743}."
+gender: male
+roles: [scholar, jurist]
+wings: [people]
+periods: [period/mongol-post-mongol]
+regions: [arabia]
+faith:
+  - value: sunni-shafii
+    basis: tradition
+relations:
+  - { type: died_in, target: place/mecca, sources: [source/shadharat-dhahab] }
+sources: [source/shadharat-dhahab]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }
+provenance:
+  layer: own-research
+  source: "شذرات الذهب — ابن العماد (ج7، سنة 694)، قراءة آبل فيجن"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-shadharat-batch-134

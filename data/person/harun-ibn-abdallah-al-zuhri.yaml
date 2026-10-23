@@ -1,0 +1,26 @@
+id: person/harun-ibn-abdallah-al-zuhri
+class: person
+label: { ar: "هارون بن عبد الله الزهري", en: "Harun ibn Abdallah al-Zuhri" }
+names:
+  - { kind: full, lang: ar, value: "أبو يحيى هارون بن عبد الله بن محمد بن كثير بن معن بن عبد الرحمن بن عوف الزهري المدني" }
+  - { kind: kunya, lang: ar, value: "أبو يحيى" }
+  - { kind: nisba, lang: ar, value: "الزهري" }
+roles: [muhaddith]
+gender: male
+summary:
+  ar: "أبو يحيى الزهري المدني، من ذرية عبد الرحمن بن عوف؛ سمع مالك بن أنس وعبد الرحمن بن زيد بن أسلم وهدامة(هدام?) الزهري وعبد العزيز الدراوردي وعبد الله بن سلمة الزبيري، وروى عنه يحيى بن بكير وغيره؛ نسبه يصل ببيت الزهرة بني عبد الرحمن بن عوف {cite:tarikh-baghdad-khatib j.11 p.13}."
+  en: "Abu Yahya al-Zuhri of Medina, descended of the line of 'Abd al-Rahman b. 'Awf — among the late hearers of Malik b. Anas, transmitting also from Ibn Zayd b. Aslam, al-Darawardi and Ibn Salama al-Zubayri; Yahya b. Bukayr among his students {cite:tarikh-baghdad-khatib j.11 p.13}."
+wings: [people]
+themes: [scripture-and-its-sciences]
+regions: [arabia, levant-iraq]
+periods: [period/abbasid-early]
+relations:
+  - { type: student_of, target: person/malik-ibn-anas, sources: [source/tarikh-baghdad-khatib] }
+provenance:
+  layer: own-research
+  source: "تاريخ بغداد للخطيب البغدادي (ج11، ترجمة 7349، ص13)، قراءة آبل فيجن"
+  generated_by: "Devin (SWE-2 Medium) from Apple Vision OCR"
+  model: "SWE-2 Medium"
+  run: lib-tarikh-baghdad-tb6
+sources: [source/tarikh-baghdad-khatib]
+status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 Medium)" }

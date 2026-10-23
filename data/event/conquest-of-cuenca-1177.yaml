@@ -1,0 +1,23 @@
+id: event/conquest-of-cuenca-1177
+class: event
+kind: siege
+label: { ar: "فتح قونكة (١١٧٧)", en: "Conquest of Cuenca (1177)" }
+summary:
+  ar: "بطاقة أولية لفتح قونكة سنة ١١٧٧م، أخذ ألفونسو الثامن للمدينة من الموحدين؛ لم تُراجع مصادره على الصفحة بعد."
+  en: "Draft card for the Conquest of Cuenca in 1177, Alfonso VIII's capture of the city from the Almohads; its sources are not yet checked on the page."
+wings: [time]
+periods: [period/crusades-ayyubid-mamluk]
+regions: [andalus-europe]
+date:
+  start: { edtf: "1177-09", precision: year, status: tradition, derived: true }
+  end: { edtf: "1177-10", precision: year, status: tradition, derived: true }
+sources: [source/tarikh-islam-hasan-ibrahim]
+external_ids:
+  wikidata: Q16189704
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; battle attested in narrative histories — entry not yet checked on the page"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-wave2
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

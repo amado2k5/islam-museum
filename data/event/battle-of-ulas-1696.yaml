@@ -1,0 +1,23 @@
+id: event/battle-of-ulas-1696
+class: event
+kind: battle
+label: { ar: "معركة أولاش", en: "Battle of Ulaş" }
+summary:
+  ar: "بطاقة أولية لمعركة أولاش سنة ١٦٩٦م، اشتباك العثمانيين والنمساويين في الحرب التركية الكبرى؛ لم تُراجع مصادره على الصفحة بعد."
+  en: "Draft card for the Battle of Ulaş in 1696, the Ottoman-Habsburg clash in the Great Turkish War; its sources are not yet checked on the page."
+wings: [time]
+periods: [period/gunpowder-empires]
+regions: [anatolia-balkans]
+date:
+  start: { edtf: "1696", precision: year, status: tradition, derived: true }
+  end: { edtf: "1696", precision: year, status: tradition, derived: true }
+sources: [source/dawlat-uthmaniyya-salabi]
+external_ids:
+  wikidata: Q2237649
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; battle attested in Great Turkish War histories — entry not yet checked on the page"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-wave2
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

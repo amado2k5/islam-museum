@@ -1,0 +1,23 @@
+id: event/armenian-revolt-850
+class: event
+kind: revolt
+label: { ar: "الثورة الأرمنية (٨٥٠–٨٥٥)", en: "Armenian Revolt (850–55)" }
+summary:
+  ar: "بطاقة أولية للثورة الأرمنية من ٨٥٠ إلى ٨٥٥م، انتفاضة أمراء أرمينيا على العباسيين؛ لم تُراجع مصادره على الصفحة بعد."
+  en: "Draft card for the Armenian Revolt of 850–55, the princes' rising against the Abbasids; its sources are not yet checked on the page."
+wings: [time]
+periods: [period/abbasid-early]
+regions: [anatolia-balkans]
+date:
+  start: { edtf: "850", precision: year, status: tradition, derived: true }
+  end: { edtf: "855", precision: year, status: tradition, derived: true }
+sources: [source/tarikh-islam-hasan-ibrahim]
+external_ids:
+  wikidata: Q20506839
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; battle attested in narrative histories — entry not yet checked on the page"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-wave2
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

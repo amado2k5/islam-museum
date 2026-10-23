@@ -1,0 +1,21 @@
+id: person/yahya
+class: person
+label: { ar: "يحيى", en: "Yahya" }
+gender: male
+summary:
+  ar: "بطاقة أولية ليحيى بن زكريا، النبي الذي بشّر به القرآن أباه شيخاً وسمّاه الله لم يسمّه أحد قبله؛ لم تُراجع مصادره على الصفحة بعد."
+  en: "Draft card for Yahya ibn Zakariya, the prophet announced to his aged father in the Qur'an, named by God a name given to none before; its sources are not yet checked on the page."
+wings: [people]
+themes: [prophets]
+periods: [period/pre-islamic-arabia]
+story_roles:
+  - { role: prophet-figure, status: scriptural, sources: [source/tanzil-quran] }
+sources: [source/tanzil-quran]
+external_ids: { wikidata: "Q2422313" }
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; prophet attested in the Qur'an — entry not yet checked on the page"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-wave2
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

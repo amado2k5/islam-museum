@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 2:220 (سورة البقرة، الآية 220)."
 text: "فِى ٱلدُّنْيَا وَٱلْـَٔاخِرَةِ ۗ وَيَسْـَٔلُونَكَ عَنِ ٱلْيَتَـٰمَىٰ ۖ قُلْ إِصْلَاحٌ لَّهُمْ خَيْرٌ ۖ وَإِن تُخَالِطُوهُمْ فَإِخْوَٰنُكُمْ ۚ وَٱللَّهُ يَعْلَمُ ٱلْمُفْسِدَ مِنَ ٱلْمُصْلِحِ ۚ وَلَوْ شَآءَ ٱللَّهُ لَأَعْنَتَكُمْ ۚ إِنَّ ٱللَّهَ عَزِيزٌ حَكِيمٌ"
 text_search: "في الدنيا والآخرة ۗ ويسألونك عن اليتامى ۖ قل إصلاح لهم خير ۖ وإن تخالطوهم فإخوانكم ۚ والله يعلم المفسد من المصلح ۚ ولو شاء الله لأعنتكم ۚ إن الله عزيز حكيم"
+translations:
+  en: { text: "Upon the world and the Hereafter. And they question thee concerning orphans. Say: To improve their lot is best. And if ye mingle your affairs with theirs, then (they are) your brothers. Allah knoweth him who spoileth from him who improveth. Had Allah willed He could have overburdened you. Allah is Mighty, Wise.", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "(یعنی) دنیا اور آخرت (کی باتوں) میں (غور کرو) ۔ اور تم سے یتیموں کے بارے میں دریافت کرتے ہیں کہہ دو کہ ان کی (حالت کی) اصلاح بہت اچھا کام ہے۔ اور اگر تم ان سے مل جل کر رہنا (یعنی خرچ اکھٹا رکھنا) چاہو تو وہ تمہارے بھائی ہیں اور خدا خوب جانتا ہے کہ خرابی کرنے والا کون ہے اور اصلاح کرنے والا کون۔ اور اگر خدا چاہتا تو تم کو تکلیف میں ڈال دیتا۔بےشک خدا غالب (اور) حکمت والا ہے", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-2 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

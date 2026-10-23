@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 9:17 (سورة التوبة، الآية 17)."
 text: "مَا كَانَ لِلْمُشْرِكِينَ أَن يَعْمُرُوا۟ مَسَـٰجِدَ ٱللَّهِ شَـٰهِدِينَ عَلَىٰٓ أَنفُسِهِم بِٱلْكُفْرِ ۚ أُو۟لَـٰٓئِكَ حَبِطَتْ أَعْمَـٰلُهُمْ وَفِى ٱلنَّارِ هُمْ خَـٰلِدُونَ"
 text_search: "ما كان للمشركين أن يعمروا مساجد الله شاهدين على أنفسهم بالكفر ۚ أولئك حبطت أعمالهم وفي النار هم خالدون"
+translations:
+  en: { text: "It is not for the idolaters to tend Allah's sanctuaries, bearing witness against themselves of disbelief. As for such, their works are vain and in the Fire they will abide.", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "مشرکوں کی زیبا نہیں کہ خدا کی مسجدوں کو آباد کریں جب کہ وہ اپنے آپ پر کفر کی گواہی دے رہے ہیں۔ ان لوگوں کے سب اعمال بےکار ہیں اور یہ ہمیشہ دوزخ میں رہیں گے", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-9 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

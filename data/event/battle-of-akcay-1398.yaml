@@ -1,0 +1,23 @@
+id: event/battle-of-akcay-1398
+class: event
+kind: battle
+label: { ar: "معركة أقچاي (١٣٩٨)", en: "Battle of Akçay (1398)" }
+summary:
+  ar: "بطاقة أولية لمعركة أقچاي سنة ١٣٩٨م، من مصادمات العثمانيين والمماليك؛ لم تُراجع مصادره على الصفحة بعد."
+  en: "Draft card for the Battle of Akçay in 1398, an Ottoman–Mamluk clash; its sources are not yet checked on the page."
+wings: [time]
+periods: [period/crusades-ayyubid-mamluk]
+regions: [anatolia-balkans]
+date:
+  start: { edtf: "1398", precision: year, status: tradition, derived: true }
+  end: { edtf: "1398", precision: year, status: tradition, derived: true }
+sources: [source/dawlat-uthmaniyya-salabi]
+external_ids:
+  wikidata: Q115177789
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; battle attested in narrative histories — entry not yet checked on the page"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-wave2
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

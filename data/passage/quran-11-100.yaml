@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 11:100 (سورة هود، الآية 100)."
 text: "ذَٰلِكَ مِنْ أَنۢبَآءِ ٱلْقُرَىٰ نَقُصُّهُۥ عَلَيْكَ ۖ مِنْهَا قَآئِمٌ وَحَصِيدٌ"
 text_search: "ذلك من أنباء القرى نقصه عليك ۖ منها قائم وحصيد"
+translations:
+  en: { text: "That is (something) of the tidings of the townships (which were destroyed of old). We relate it unto thee (Muhammad). Some of them are standing and some (already) reaped.", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "یہ (پرانی) بستیوں کے تھوڑے سے حالات ہیں جو ہم تم سے بیان کرتے ہیں۔ ان میں سے بعض تو باقی ہیں اور بعض کا تہس نہس ہوگیا", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-11 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

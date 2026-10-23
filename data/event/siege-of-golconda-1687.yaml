@@ -1,0 +1,23 @@
+id: event/siege-of-golconda-1687
+class: event
+kind: siege
+label: { ar: "حصار غولكوندا", en: "Siege of Golconda" }
+summary:
+  ar: "بطاقة أولية لحصار غولكوندا سنة ١٦٨٧م، أخذ أورنكزيب عاصمة القطب شاهيين وأسر أبي الحسن؛ لم تُراجع مصادره على الصفحة بعد."
+  en: "Draft card for the Siege of Golconda in 1687, Aurangzeb's capture of the Qutb Shahi capital and Abu al-Hasan's capture; its sources are not yet checked on the page."
+wings: [time]
+periods: [period/gunpowder-empires]
+regions: [south-asia]
+date:
+  start: { edtf: "1687-01", precision: year, status: tradition, derived: true }
+  end: { edtf: "1687-09-22", precision: year, status: tradition, derived: true }
+sources: [source/tarikh-islam-hasan-ibrahim]
+external_ids:
+  wikidata: Q16931432
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; battle attested in narrative histories — entry not yet checked on the page"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-wave2
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

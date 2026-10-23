@@ -12,10 +12,13 @@ summary:
   ar: "القرآن 9:107 (سورة التوبة، الآية 107)."
 text: "وَٱلَّذِينَ ٱتَّخَذُوا۟ مَسْجِدًا ضِرَارًا وَكُفْرًا وَتَفْرِيقًۢا بَيْنَ ٱلْمُؤْمِنِينَ وَإِرْصَادًا لِّمَنْ حَارَبَ ٱللَّهَ وَرَسُولَهُۥ مِن قَبْلُ ۚ وَلَيَحْلِفُنَّ إِنْ أَرَدْنَآ إِلَّا ٱلْحُسْنَىٰ ۖ وَٱللَّهُ يَشْهَدُ إِنَّهُمْ لَكَـٰذِبُونَ"
 text_search: "والذين اتخذوا مسجدا ضرارا وكفرا وتفريقا بين المؤمنين وإرصادا لمن حارب الله ورسوله من قبل ۚ وليحلفن إن أردنا إلا الحسنى ۖ والله يشهد إنهم لكاذبون"
+translations:
+  en: { text: "And as for those who chose a place of worship out of opposition and disbelief, and in order to cause dissent among the believers, and as an outpost for those who warred against Allah and His messenger aforetime, they will surely swear: We purposed naught save good. Allah beareth witness that they verily are liars.", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "اور (ان میں سے ایسے بھی ہیں) جنہوں نے اس غرض سے مسجد بنوائی کہ ضرر پہنچائیں اور کفر کریں اور مومنوں میں تفرقہ ڈالیں اور جو لوگ خدا اور اس کے رسول سے پہلے جنگ کرچکے ہیں ان کے لیے گھات کی جگہ بنائیں۔ اور قسمیں کھائیں گے کہ ہمارا مقصود تو صرف بھلائی تھی۔ مگر خدا گواہی دیتا ہے کہ یہ جھوٹے ہیں", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: revealed_about, target: event/demolition-of-masjid-al-dirar, note: "نزلت فيمن اتخذوا مسجد الضرار بحسب ابن إسحاق، وهو يذكر افتتاح الآية صراحة (ص174)", sources: [source/ibn-hisham-saqqa] }
   - { type: part_of, target: passage/quran-9 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

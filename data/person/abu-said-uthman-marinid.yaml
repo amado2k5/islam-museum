@@ -1,0 +1,36 @@
+id: person/abu-said-uthman-marinid
+class: person
+label:
+  ar: السلطان أبو سعيد عثمان المريني
+  en: Sultan Abu Sa'id Uthman II al-Marini
+summary:
+  ar: "أبو سعيد عثمان بن يعقوب بن عبد الحق المريني (710-731هـ)؛ خرجت أخته عريبة على العمل في بيعته حتى قام بالأمر، فرفع الظلامات وحط المغارم والمكوس وسرح أهل السجون، وغزا تلمسان سنة 714هـ فنازلها بالملعب، ونازله ابنه أبو علي في فتنة أشعلها حتى قتل، وكانت دولته زهرة ملك بني مرين رخاء وعمراناً، وخطب له بالأندلس، وهلك سنة 731هـ وبويع ابنه أبو الحسن."
+  en: "Abu Sa'id Uthman ibn Ya'qub ibn Abd al-Haqq al-Marini (710-731 AH); his sister Urayba worked for his bay'a until he stood in command, lifted the grievances, cut the unlawful taxes and freed the prisoners, besieged Tlemcen in 714 AH at the playground field, fought his son Abu Ali's revolt until the son was killed — his reign the flower of Marinid prosperity, preached in al-Andalus, dying in 731 AH when his son Abu al-Hasan was acclaimed."
+gender: male
+roles: [sultan]
+traditions: [sunni]
+died: { edtf: "1331", hijri: "0731", calendar: julian, precision: year, status: tradition, derived: true, note: "هلك سنة 731هـ؛ التحويل مشتق.", sources: [source/tarikh-ibn-khaldun-ibar] }
+relations:
+- type: ruler_of
+  target: polity/marinid-dynasty
+  sources:
+  - source/tarikh-ibn-khaldun-ibar
+- type: successor_of
+  target: person/abu-al-rabi-sulayman-marinid
+  sources:
+  - source/tarikh-ibn-khaldun-ibar
+wings: [people]
+periods: [period/mongol-post-mongol]
+regions: [maghreb, andalus-europe]
+sources:
+- source/tarikh-ibn-khaldun-ibar
+provenance:
+  layer: own-research
+  source: ابن خلدون، العبر — دولة السلطان أبي سعيد، ص1951-1952 (المجلد السادس، طبعة هيليوبوليس)
+  generated_by: Devin (SWE-2 High) from Apple Vision OCR
+  model: swe-2-high
+  run: lib-ibar-maghreb-3
+status:
+  review: draft
+  completeness: 1
+  generated_by: Devin (SWE-2 High); extracted from Ibn Khaldun al-Ibar via Apple Vision OCR

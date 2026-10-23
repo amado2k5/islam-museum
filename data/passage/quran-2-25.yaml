@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 2:25 (سورة البقرة، الآية 25)."
 text: "وَبَشِّرِ ٱلَّذِينَ ءَامَنُوا۟ وَعَمِلُوا۟ ٱلصَّـٰلِحَـٰتِ أَنَّ لَهُمْ جَنَّـٰتٍ تَجْرِى مِن تَحْتِهَا ٱلْأَنْهَـٰرُ ۖ كُلَّمَا رُزِقُوا۟ مِنْهَا مِن ثَمَرَةٍ رِّزْقًا ۙ قَالُوا۟ هَـٰذَا ٱلَّذِى رُزِقْنَا مِن قَبْلُ ۖ وَأُتُوا۟ بِهِۦ مُتَشَـٰبِهًا ۖ وَلَهُمْ فِيهَآ أَزْوَٰجٌ مُّطَهَّرَةٌ ۖ وَهُمْ فِيهَا خَـٰلِدُونَ"
 text_search: "وبشر الذين آمنوا وعملوا الصالحات أن لهم جنات تجري من تحتها الأنهار ۖ كلما رزقوا منها من ثمرة رزقا ۙ قالوا هذا الذي رزقنا من قبل ۖ وأتوا به متشابها ۖ ولهم فيها أزواج مطهرة ۖ وهم فيها خالدون"
+translations:
+  en: { text: "And give glad tidings (O Muhammad) unto those who believe and do good works; that theirs are Gardens underneath which rivers flow; as often as they are regaled with food of the fruit thereof, they say: this is what was given us aforetime; and it is given to them in resemblance. There for them are pure companions; there for ever they abide.", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "اور جو لوگ ایمان لائے اور نیک عمل کرتے رہے، ان کو خوشخبری سنا دو کہ ان کے لیے (نعمت کے) باغ ہیں، جن کے نیچے نہریں بہہ رہی ہیں۔ جب انہیں ان میں سے کسی قسم کا میوہ کھانے کو دیا جائے گا تو کہیں گے، یہ تو وہی ہے جو ہم کو پہلے دیا گیا تھا۔ اور ان کو ایک دوسرے کے ہم شکل میوے دیئے جائیں گے اور وہاں ان کے لیے پاک بیویاں ہوں گی اور وہ بہشتوں میں ہمیشہ رہیں گے", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-2 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

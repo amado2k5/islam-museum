@@ -1,0 +1,23 @@
+id: event/battle-of-cecora-1620
+class: event
+kind: battle
+label: { ar: "معركة تسوتسورا", en: "Battle of Cecora" }
+summary:
+  ar: "بطاقة أولية لمعركة تسوتسورا سنة ١٦٢٠م، نصر العثمانيين والتتار على جيش بولندا في مولدافيا؛ لم تُراجع مصادره على الصفحة بعد."
+  en: "Draft card for the Battle of Cecora in 1620, the Ottoman-Tatar victory over the Polish army in Moldavia; its sources are not yet checked on the page."
+wings: [time]
+periods: [period/gunpowder-empires]
+regions: [anatolia-balkans]
+date:
+  start: { edtf: "1620", precision: year, status: tradition, derived: true }
+  end: { edtf: "1620", precision: year, status: tradition, derived: true }
+sources: [source/dawlat-uthmaniyya-salabi]
+external_ids:
+  wikidata: Q650411
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; battle attested in Ottoman histories — entry not yet checked on the page"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-wave2
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

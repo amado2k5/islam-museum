@@ -1,0 +1,24 @@
+id: person/shurahbil-ibn-al-harith
+class: person
+label: { ar: "شرحبيل بن الحارث الكندي" }
+names:
+  - { value: "شرحبيل بن الحارث بن عمرو الكندي", kind: full }
+gender: male
+summary:
+  ar: "شرحبيل بن الحارث بن عمرو الكندي، ملكه أبوه على بكر بن وائل وبني حنظلة وأسيد والرباب؛ لما هلك الحارث وتشتت أمر بنيه زحف شرحبيل بجموعه إلى ماء الكلاب بين البصرة والكوفة فاقتتل مع أخيه سلمة يوم الكلاب الأول، فطعنه أبو حنش التغلبي فألقاه عن فرسه وأخذ رأسه وبعث به إلى سلمة {cite:kamil-ibn-al-athir p. 410-411}."
+  en: "Shurahbil ibn al-Harith al-Kindi, set by his father over Bakr ibn Wa'il and their allies; after al-Harith's death scattered the brothers' rule he marched on the water of al-Kullab against his brother Salama, and at the first day of al-Kullab Abu Hanash the Taghlibi speared him and carried his head to Salama {cite:kamil-ibn-al-athir p. 410-411}."
+wings: [people]
+periods: [period/pre-islamic-arabia]
+regions: [arabia]
+relations:
+  - { type: child_of, target: person/al-harith-ibn-amr-al-kindi, sources: [source/kamil-ibn-al-athir] }
+  - { type: member_of, target: group/kinda, sources: [source/kamil-ibn-al-athir] }
+  - { type: sibling_of, target: person/hujr-ibn-al-harith-al-kindi, sources: [source/kamil-ibn-al-athir] }
+sources: [source/kamil-ibn-al-athir]
+provenance:
+  layer: own-research
+  source: "الكامل في التاريخ لابن الأثير — يوم الكلاب الأول، ص410-411"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  model: swe-2-high
+  run: lib-kamil-22
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

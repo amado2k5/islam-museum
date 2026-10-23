@@ -1,0 +1,20 @@
+id: person/sitt-al-mulk
+class: person
+label: { ar: "ست الملك أخت الحاكم بأمر الله", en: "Sitt al-Mulk" }
+summary:
+  ar: "أخت الحاكم بأمر الله الفاطمي وابنة العزيز بالله. يروي ابن الجوزي عن أهل مصر أنها اصطنعت بين أخيها وقاعده ابن دوّاس الذي كان يخافه الحاكم، فلما قُتل الحاكم ليلًا على جبل المقطم حُمل إليها فدفنته في مجلسها وسترت الأمر ثلاثة أيام ونشرت أنه غائب، ثم بويع علي بن الحاكم الظاهر لإعزاز دين الله فنصبته وألبسته تاج المعز، ثم أماتت ابن دوّاس على يد نسيم صاحب الستر والسيف وأماتت من علم من الخدم، فعظم هيبها في الدولة {cite:muntazam-ibn-al-jawzi j.7 p.302-305}."
+gender: female
+wings: [people]
+roles: [politician]
+periods: [period/buyid-seljuk-fatimid-era]
+regions: [egypt-nile]
+relations:
+  - { type: sibling_of, target: person/al-hakim-bi-amr-allah, sources: [source/muntazam-ibn-al-jawzi] }
+  - { type: participated_in, target: event/hakim-disappearance-411, sources: [source/muntazam-ibn-al-jawzi] }
+provenance:
+  layer: own-research
+  source: "المنتظم في تاريخ الملوك والأمم — ابن الجوزي (ج7، أحداث سنة ٤١١)، قراءة آبل فيجن، مسح AAlexandrina-224011"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-muntazam-350-474-batch23
+sources: [source/muntazam-ibn-al-jawzi]
+status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 High)" }

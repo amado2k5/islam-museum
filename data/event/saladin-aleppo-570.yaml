@@ -1,0 +1,29 @@
+id: event/saladin-aleppo-570
+class: event
+kind: siege
+label: { ar: "حصر صلاح الدين حلب الأول — خطاب الملك الصالح وفرسان الإسماعيلية", en: "Saladin's first siege of Aleppo — the boy-king's speech and the Ismaili knives" }
+date:
+  start: { edtf: "1174~", hijri: "0570", calendar: julian, precision: year, status: tradition, derived: true }
+summary:
+  ar: "حصر صلاح الدين حلب ثالث جمادى الآخرة فركب الملك الصالح وهو صبي ابن اثنتي عشرة سنة وقال لأهلها قد عرفتم إحسان أبي إليكم وأنا يتيمكم وقد جاء هذا الظالم يأخذ بلدي وبكى فأبكى الناس فبذلوا الأموال والأنفس وجدّوا في القتال عند جبل حوشن، وأرسل سعد الدين كمشتكين إلى سنان مقدم الإسماعيلية بأموال ليقتلوا صلاح الدين فدخل فرسانهم عسكره فعرفهم خمارتكين صاحب بوقيس فجرحوه وحمل أحدهم على صلاح الدين فقُتل دونه وقُتل الباقون، وبقي محاصرًا حتى رحل مستهل رجب حين سار القمص ريموند إلى حمص فقصده صلاح الدين {cite:kamil-ibn-al-athir p. 67-68}."
+  en: "At his first siege of Aleppo, the twelve-year-old al-Ṣāliḥ mounted the walls weeping — «you knew my father's goodness; I am your orphan, and this unjust man comes to take my land» — and Aleppo fought for him at Jabal Jawshan. Saʿd al-Dīn bought Sinān's Assassins against Saladin; Khumārtakīn of Būqīs spotted them in camp, one broke for Saladin and was cut down before him. Saladin held the siege until Rajab, when Raymond's march on Homs drew him off {cite:kamil-ibn-al-athir p. 67-68}."
+sides:
+- label: { ar: "عسكر صلاح الدين", en: "Saladin's army" }
+  commanders: [person/salah-al-din-yusuf-ibn-ayyub]
+- label: { ar: "حلب وأمراؤها", en: "Aleppo and its emirs" }
+  commanders: [person/al-malik-al-salih-ismail, person/sad-al-din-kumashtikin]
+
+relations:
+  - { type: occurred_at, target: place/aleppo, sources: [source/kamil-ibn-al-athir] }
+  - { type: had_participant, target: person/salah-al-din-yusuf-ibn-ayyub, sources: [source/kamil-ibn-al-athir] }
+  - { type: had_participant, target: person/al-malik-al-salih-ismail, sources: [source/kamil-ibn-al-athir] }
+  - { type: had_participant, target: person/sad-al-din-kumashtikin, sources: [source/kamil-ibn-al-athir] }
+  - { type: had_participant, target: person/rashid-al-din-sinan, role: "أرسل الفدائيين", sources: [source/kamil-ibn-al-athir] }
+  - { type: had_participant, target: person/raymond-iii-tripoli, role: "قصد حمص", sources: [source/kamil-ibn-al-athir] }
+provenance:
+  layer: own-research
+  source: "الكامل في التاريخ لابن الأثير، قراءة آبل فيجن"
+  generated_by: "Devin (SWE-2 Medium) from Apple Vision OCR"
+  run: lib-kamil-v12-batch02
+sources: [source/kamil-ibn-al-athir]
+status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 Medium)" }

@@ -1,0 +1,23 @@
+id: event/fath-al-bari-yemen-901
+class: event
+kind: other
+label: { ar: "وصول فتح الباري إلى اليمن 901هـ", en: "Fath al-Bari reaches Yemen, 901" }
+summary:
+  ar: "في سنة إحدى وتسعمائة قدم إلى مدينة زبيد كتاب «فتح الباري شرح البخاري» للحافظ ابن حجر العسقلاني من البلد الحرام، وهو أول دخول للكتاب إلى اليمن؛ وكان سلطان اليمن عامر بن عبد الوهاب قد أرسل لشرائه فاشترى له بمال جزيل {cite:shadharat-dhahab p. 419}."
+  en: "In 901 a copy of Ibn Hajar's Fath al-Bari reached Zabid from the Haram — the book's first entry into Yemen; Sultan 'Amir ibn 'Abd al-Wahhab had sent for it and it was bought for him at a great price {cite:shadharat-dhahab p. 419}."
+wings: [time]
+themes: [libraries-paper-and-the-book, education]
+periods: [period/mongol-post-mongol]
+regions: [arabia]
+date:
+  start: { edtf: "1495/1496", hijri: "0901", calendar: julian, precision: year, status: tradition, derived: true, note: "901؛ التحويل مشتق {cite:shadharat-dhahab p. 419}", sources: [source/shadharat-dhahab] }
+relations:
+  - { type: occurred_at, target: place/zabid, sources: [source/shadharat-dhahab] }
+  - { type: had_participant, target: person/ibn-hajar-al-asqalani, role: "مؤلف الكتاب الواصل", sources: [source/shadharat-dhahab] }
+provenance:
+  layer: own-research
+  source: "شذرات الذهب — ابن العماد (ط مكتبة المثنى 1351، ج8، سنة 901)، قراءة آبل فيجن"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-shadharat-batch-143
+sources: [source/shadharat-dhahab]
+status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 High)" }

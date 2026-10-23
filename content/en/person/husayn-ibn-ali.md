@@ -1,26 +1,20 @@
 ---
 id: person/husayn-ibn-ali
 lang: en
-source_lang: en
-translators: []
+source_lang: ar
+translators: ["Claude Haiku 5.5 (claude-haiku-5-5), draft translation"]
 ---
 
 ## Brief
-Husayn was the younger grandson of the Prophet, son of [[person/fatima]] and [[person/ali-ibn-abi-talib]]. In 680 CE he refused allegiance to the caliph Yazid I and was killed with his family and companions at Karbala — an event whose religious meaning, especially in Shia devotion, far outweighs its military size.
+Husayn, the younger grandson of the Prophet, son of [[person/fatima|Fatima]] and [[person/ali-ibn-abi-talib|Ali]]. In 680 CE he refused the pledge of allegiance to the caliph Yazid I, and he was killed with his family and companions at Karbala. The religious meaning of that event, especially in Shi'i sentiment, far exceeds its military scale.
 
 ## Life
-Born in Medina about January 626 CE {cite:ibn-sad-tabaqat-bewley}, Husayn grew up in the Prophet's household and was remembered in tradition as resembling him.
+He was born in Medina around January 626 CE {cite:ibn-sad-tabaqat-bewley}. He grew up in the household of prophethood, and traditions mention his resemblance to the Prophet.
 
-When Muawiya died in 680 and his son Yazid was installed — the first hereditary succession in the caliphate — Husayn refused the oath of allegiance {cite:madelung-1997}. Invited by the people of Kufa, who promised support, he set out for Iraq with a small band of family and followers. Umayyad forces intercepted them at Karbala and, on 10 Muharram 61 AH (10 October 680 CE), killed Husayn and nearly all the men of the party; the women and children, including his sister [[person/zaynab-bint-ali]], were taken captive {cite:watt-1956-medina}.
-
-:::perspectives
-- **Sunni**: Sunni tradition venerates Husayn as the Prophet's beloved grandson and remembers Karbala as a tragedy and an injustice done to the Prophet's family {cite:ibn-sad-tabaqat-bewley}.
-- **Academic**: Historians describe a failed bid for the caliphate, relying on support that did not materialize, crushed by the Umayyad authorities — an event whose religious meaning grew far beyond its scale {cite:madelung-1997}.
-- **Twelver Shia**: Twelver Shia tradition venerates Husayn as the third Imam, whose willing sacrifice at Karbala stands at the center of Shia devotion and is mourned each year on the day of Ashura {cite:momen-1985}.
-:::
+When Mu'awiya died in 680 CE and his son Yazid was installed, the first hereditary succession to the caliphate, Husayn refused the pledge of allegiance {cite:madelung-1997}. The people of Kufa invited him and promised him support, so he set out for Iraq with a small group of his family and companions. Umayyad forces intercepted them at Karbala. On the tenth of Muharram 61 AH (10 October 680 CE) Husayn and most of his men were killed, and the women and children were taken captive, among them his sister [[person/zaynab-bint-ali|Zaynab]] {cite:watt-1956-medina}.
 
 ## Legacy
-Karbala became the archetype of martyrdom in Islam — a story every generation retells, in every language, to argue about justice, power and what a single life can refuse.
+Karbala became the supreme model of martyrdom in Islam: a story that every generation retells in every language, to argue about justice, power, and what a single person can refuse.
 
 ## For young visitors
-Husayn was offered safety if he accepted a ruler he believed was unjust. He refused, and died for it. Every year, millions of people still remember his choice.
+Husayn was offered safety if he accepted a ruler he saw as unjust. He refused, and he died for that refusal. Millions of people still remember his choice every year.

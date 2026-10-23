@@ -1,0 +1,21 @@
+id: event/death-of-shirkuh-564
+class: event
+kind: death
+label: { ar: "وفاة أسد الدين شيركوه وولاية صلاح الدين", en: "death of Asad al-Dīn Shīrkūh — Saladin chosen vizier in his place" }
+date:
+  start: { edtf: "1168~", hijri: "0564", calendar: julian, precision: year, status: tradition, derived: true }
+summary:
+  ar: "توفي أسد الدين شيركوه بعد ولايته الوزارة بأيام قلائل، وقيل كان يكثر أكل العظام الدسمة فاختنقت به نفسه، فأمر العاضد بضرب الوزارة على صلاح الدين يوسف بن أيوب ابن أخيه وكان أصغر أمرائهم سنًا وكان الأمراء النورية قد كاتبوا العاضد أن يوليه لما رأوا من تواضعه وحسن سيرته ورفقه بأصحابه {cite:kamil-ibn-al-athir p. 15}."
+  en: "Shīrkūh died days into his vizierate — said to have choked on the rich marrow he loved. Al-ʿĀḍid invested his nephew Saladin Yūsuf ibn Ayyūb, the youngest of the emirs, because the Nūrid commanders had written recommending him: they saw his humility, his good conduct, his kindness to his companions {cite:kamil-ibn-al-athir p. 15}."
+relations:
+  - { type: occurred_at, target: place/cairo, sources: [source/kamil-ibn-al-athir] }
+  - { type: had_participant, target: person/asad-al-din-shirkuh, role: "المتوفى", sources: [source/kamil-ibn-al-athir] }
+  - { type: had_participant, target: person/salah-al-din-yusuf-ibn-ayyub, role: "خلفه في الوزارة", sources: [source/kamil-ibn-al-athir] }
+  - { type: had_participant, target: person/al-adid-fatimid, sources: [source/kamil-ibn-al-athir] }
+provenance:
+  layer: own-research
+  source: "الكامل في التاريخ لابن الأثير، قراءة آبل فيجن"
+  generated_by: "Devin (SWE-2 Medium) from Apple Vision OCR"
+  run: lib-kamil-v12-batch01
+sources: [source/kamil-ibn-al-athir]
+status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 Medium)" }

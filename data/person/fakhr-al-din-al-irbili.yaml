@@ -1,0 +1,22 @@
+id: person/fakhr-al-din-al-irbili
+class: person
+label: { ar: "فخر الدين الإربلي", en: "Fakhr al-Din al-Irbili" }
+names:
+  - { value: "فخر الدين أبو عبد الله محمد بن إبراهيم بن مسلم بن سليمان الإربلي الصوفي", kind: full }
+died: { edtf: "1236", hijri: "0633", calendar: julian, precision: month, status: tradition, derived: true, note: "توفي بأربل في رمضان سنة ثلاث وثلاثين وستمائة {cite:shadharat-dhahab p. 161}." }
+summary:
+  ar: "الصوفي الإربلي؛ روى عن يحيى بن ثابت وأبي بكر بن النقور وجماعة كثيرة، وروايته منتشرة غالية؛ توفي بأربل في رمضان {cite:shadharat-dhahab p. 161}."
+  en: "Fakhr al-Din al-Irbili (d. Ramadan 633) — the Sufi transmitter whose lofty isnads were prized far beyond Arbil {cite:shadharat-dhahab p. 161}."
+gender: male
+wings: [people]
+periods: [period/crusades-ayyubid-mamluk]
+regions: [levant-iraq]
+relations:
+  - { type: died_in, target: place/irbil, sources: [source/shadharat-dhahab] }
+sources: [source/shadharat-dhahab]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }
+provenance:
+  layer: own-research
+  source: "شذرات الذهب — ابن العماد (ج5، سنة 633)، قراءة آبل فيجن"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-shadharat-batch-125

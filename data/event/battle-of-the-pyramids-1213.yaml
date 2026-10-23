@@ -1,0 +1,23 @@
+id: event/battle-of-the-pyramids-1213
+class: event
+kind: battle
+label: { ar: "معركة إمبابة (الأهرام)", en: "Battle of the Pyramids" }
+summary:
+  ar: "بطاقة أولية لمعركة الأهرام قرب إمبابة سنة ١٢١٣هـ/١٧٩٨م، انتصار نابليون على جيوش المماليك في مطلع الحملة الفرنسية على مصر؛ لم تُراجع مصادره على الصفحة بعد."
+  en: "Draft card for the Battle of the Pyramids near Imbaba in 1213/1798, Napoleon's victory over the Mamluk armies at the opening of the French campaign in Egypt; its sources are not yet checked on the page."
+wings: [time]
+periods: [period/colonial-era]
+regions: [egypt-nile]
+date:
+  start: { edtf: "1798", precision: year, status: tradition, derived: true }
+  end: { edtf: "1798", precision: year, status: tradition, derived: true }
+sources: [source/tarikh-islam-hasan-ibrahim]
+external_ids:
+  wikidata: Q332543
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; battle attested in modern-Egyptian-history surveys — entry not yet checked on the page"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-wave2
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

@@ -16,12 +16,13 @@ The museum already had a `perspectives` block (one entry per tradition). This do
 ## 2. Rules (editorial)
 
 1. **Lead opinion.** The first opinion is Sunni (any `sunni*` tradition), per `docs/scope.md`. The choice of which Sunni opinion leads follows the source the entry is built from (for a creed book, that book's own position), then the order `sunni`, `sunni-hanafi`, `sunni-maliki`, `sunni-shafii`, `sunni-hanbali`. A visitor's "preferred school first" setting (planned) reorders only among Sunni opinions and hides none.
-2. **Order beneath.** Further Sunni opinions, then `academic`, then every other view, each labelled before it is stated (validator-enforced).
-3. **No verdict.** Never "the correct view", "the stronger opinion" or "the majority view" in the museum's voice. A source may say so; the museum then attributes it («رجّح ابن حجر…»).
-4. **A view is described in its own words** where its own books are available, not only through its critics. If only a critic's description is at hand, the entry says so and the view is marked as to be added.
-5. **Every opinion cites a source** (warning today; error when the entry is promoted to `reviewed`). Evidence entries point at passages, works or sources; quotation limits apply (at most 40 words).
-6. **An entry that records only one book's position says so** and lists what is still to be added (as the creed entries from al-Tahawi do). Contested entries need Tier A review before promotion.
-7. **Disagreement about facts** (a date, a number, who did what) stays as dated claims with `status: debated` and their own sources (`02-content-model.md`), shown in the same component as opinions when the page has an `issue`.
+2. **Standing tag.** Each opinion shows a chip: *Main reference* (Sunni), *Secondary opinion* (academic, or a Sunni position the entry marks as outside the mainstream), *Other opinion* (any other tradition); see the addendum to `docs/scope.md`. The tag is derived from the tradition unless `standing` is set.
+3. **Order beneath.** Further Sunni opinions, then `academic`, then every other view, each labelled before it is stated (validator-enforced).
+4. **No verdict.** Never "the correct view", "the stronger opinion" or "the majority view" in the museum's voice. A source may say so; the museum then attributes it («رجّح ابن حجر…»).
+5. **A view is described in its own words** where its own books are available, not only through its critics. If only a critic's description is at hand, the entry says so and the view is marked as to be added.
+6. **Every opinion cites a source** (warning today; error when the entry is promoted to `reviewed`). Evidence entries point at passages, works or sources; quotation limits apply (at most 40 words).
+7. **An entry that records only one book's position says so** and lists what is still to be added (as the creed entries from al-Tahawi do). Contested entries need Tier A review before promotion.
+8. **Disagreement about facts** (a date, a number, who did what) stays as dated claims with `status: debated` and their own sources (`02-content-model.md`), shown in the same component as opinions when the page has an `issue`.
 
 ## 3. Data (what an editor writes)
 
@@ -81,6 +82,7 @@ The library pipeline (`docs/delegation/local-model-library-prompt.md`) gets one 
 |---|---|
 | Done (12 Oct 2026) | Schema fields (`issue`, `id`, `stance`, `holders`, `evidence`), validator rules and tests, the entity-page component, English and Arabic strings, one worked example (`concept/iman`: the hadith scholars' and the Hanafi creed's definitions). |
 | Done (12 Oct 2026, second step) | `issue` and anchors on the 37 data entries that had two or more perspectives; a source on five opinions that the cited works plainly carry (11 opinions still cite nothing and the validator lists them); Ibn Qudama's Lum'at al-I'tiqad added as a second opinion on 14 of the Tahawi creed concepts and a third on `concept/iman`. |
-| Next | Headlines (`stance`) and holders for the older entries; the 33 prose entries (`:::perspectives`) to move to the data form; al-Wasitiyya and the Ash'ari and Maturidi texts as further opinions on the creed concepts. |
+| Done (13 Oct 2026, third step) | 30 prose opinion blocks moved to the data form (18 entries with Arabic text, 12 al-Isaba report variants); the Ash'ari report of the creed (Maqalat al-Islamiyyin) added on 13 concepts with new traditions `sunni-ashari` and `sunni-maturidi`; the Wasitiyya on 14. |
+| Next | Headlines (`stance`) and holders for the older entries; the Maturidi view and the Ash'ari and Maturidi schools' own books; Ibn Abi al-Izz's Sharh al-Tahawiyya as a source that describes other views in its own words. |
 | Phase 2 | The differences index, positions-held, compare view, search facet. |
 | Phase 3 | Preferred-school ordering among Sunni opinions; the opinion claim kind in the library pipeline at volume. |

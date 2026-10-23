@@ -1,0 +1,23 @@
+id: event/tirah-campaign-1897
+class: event
+kind: campaign
+label: { ar: "حملة تيراه", en: "Tirah Campaign" }
+summary:
+  ar: "بطاقة أولية لحملة تيراه في ١٨٩٧–١٨٩٨م، حملة البريطانيين على قبائل الأفريدي والأوركزاي الثائرة؛ لم تُراجع مصادره على الصفحة بعد."
+  en: "Draft card for the Tirah Campaign of 1897–98, the British expedition against the rising Afridi and Orakzai tribes; its sources are not yet checked on the page."
+wings: [time]
+periods: [period/colonial-era]
+regions: [south-asia]
+date:
+  start: { edtf: "1897", precision: year, status: tradition, derived: true }
+  end: { edtf: "1898", precision: year, status: tradition, derived: true }
+sources: [source/tarikh-islam-hasan-ibrahim]
+external_ids:
+  wikidata: Q17025641
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; battle attested in narrative histories — entry not yet checked on the page"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-wave2
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

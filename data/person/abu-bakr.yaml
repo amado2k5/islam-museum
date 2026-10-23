@@ -5,10 +5,10 @@ gender: male
 born: { edtf: "0573~", calendar: julian, precision: year, status: tradition }
 died: { edtf: "0634-08", hijri: "0013-06", calendar: julian, precision: month, status: tradition }
 roles: [companion, caliph]
-traditions: [sunni, shia-twelver]
+traditions: [sunni]
 summary:
   en: Close companion of the Prophet and the first caliph (r. 632–634 CE); his succession is understood differently in Sunni and Shia tradition.
-  ar: صاحب النبي وأول الخلفاء (حكم 632–634م)، ويُفهم تولّيه الخلافة بصورة مختلفة في التقليدين السني والشيعي.
+  ar: "صاحب النبي وأول الخلفاء (حكم 632–634م)، ويُفهم تولّيه الخلافة بصورة مختلفة في التقليدين السني والشيعي. وفي الصحيح قال النبي «لو كنت متخذاً من أمتي خليلاً لاتخذت أبا بكر ولكن أخي وصاحبي» {cite:sahih-al-bukhari 3656}، وسئل عمرو بن العاص أي الناس أحب إليك فقال «عائشة» فقيل من الرجال فقال «أبوها» {cite:sahih-al-bukhari 3662}، وقال عمر «أبو بكر سيدنا وأعتق سيدنا» يعني بلالاً {cite:sahih-al-bukhari 3754}. وفي الصحيح أنه هو الذي دفع عقبة بن أبي معيط عن النبي يوم خنقه بردائه وهو يصلي، وقال «أتقتلون رجلاً أن يقول ربي الله وقد جاءكم بالبينات من ربكم» {cite:sahih-al-bukhari 3678}، وفي مسلم قال النبي قبل موته بخمس «لو كنت متخذا من أمتي خليلا لاتخذت أبا بكر خليلا» {cite:sahih-muslim 532}، وقال أيضاً «إن أمن الناس علي في ماله وصحبته أبو بكر... لا تبقين في المسجد خوخة إلا سدت إلا خوخة أبي بكر» {cite:sahih-muslim 2382}، وأبو بكر نفسه راوي حديث الغار «ما ظنك باثنين الله ثالثهما» {cite:sahih-muslim 2381}."
 wings: [people]
 themes: [sects-and-schools]
 periods: [period/prophetic-era]
@@ -17,11 +17,12 @@ story_roles:
   - { role: companion, start: { edtf: "0610~", calendar: julian, precision: year }, status: tradition, sources: [source/ibn-ishaq-guillaume] }
   - { role: ruler, toward: polity/rashidun-caliphate, start: { edtf: "0632", calendar: julian, precision: year }, end: { edtf: "0634", calendar: julian, precision: year }, status: historical, sources: [source/watt-1956-medina] }
 relations:
+  - { type: participated_in, target: event/expedition-of-dhat-al-salasil, role: "من المهاجرين الأولين في المدد؛ صحبه رافع الطائي وأوصاه", sources: [source/ibn-hisham-saqqa] }
   - { type: born_in, target: place/mecca }
   - { type: died_in, target: place/medina }
   - { type: child_of, target: person/abu-quhafa }
   - { type: participated_in, target: event/hijra, role: companion }
-external_ids: { wikidata: Q43380 }
+external_ids: { wikidata: Q334923 }
 issue: { ar: "ما موقف التقاليد من خلافة أبي بكر؟", en: "What is each tradition's position on the caliphate of Abu Bakr?" }
 perspectives:
   - tradition: sunni
@@ -34,5 +35,5 @@ perspectives:
   - tradition: shia-twelver
     id: shia-twelver
     summary: { en: "Twelver Shia tradition holds that the Prophet had designated Ali ibn Abi Talib as successor, so regards Abu Bakr's accession as a departure from that designation." }
-sources: [source/ibn-ishaq-guillaume, source/watt-1956-medina]
+sources: [source/ibn-ishaq-guillaume, source/watt-1956-medina, source/mubarakpuri-raheeq, source/ibn-hisham-saqqa, source/ibn-hisham-sira, source/rahma-lil-alamin, source/sahih-al-bukhari, source/sahih-muslim]
 status: { review: draft, completeness: 1, generated_by: "Claude Sonnet 5.5 (scaffold)" }

@@ -1,0 +1,14 @@
+---
+id: person/farazdaq
+lang: ur
+source_lang: ar
+translators: ["Claude Haiku 5.5 (claude-haiku-5-5), draft translation"]
+---
+
+## خلاصہ
+ہمام بن غالب فرزدق اموی دور کے شاعر تھے۔ بلاذری ذکر کرتے ہیں کہ انہوں نے نہرِ مبارک کی مدح کی جسے خالد بن عبداللہ قسری نے کھدوایا تھا {cite:futuh-buldan-maarif-1407}۔
+
+## مروج الذہب میں
+مسعودی روایت کرتے ہیں کہ جب ولید نے کلیسا گرایا تو رومی بادشاہ نے ان کو خط لکھا، اور فرزدق نے قرآن کی ایک آیت سے اس کا جواب دیا {cite:muruj-al-dhahab p.157}۔ اسی طرح ان کے عمر بن عبدالعزیز کے مرثیے کے چند شعر بھی نقل ہوئے ہیں {cite:muruj-al-dhahab p.184}۔
+
+ماخذ ان کی طرف ایک کام منسوب کرتا ہے، یعنی [[work/farazdaq-verses-on-al-aqra-ibn-habis|اقرع بن حابس کے بارے میں ان کے اشعار]] {cite:ibn-hisham-saqqa}۔

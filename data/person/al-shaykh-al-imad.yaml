@@ -1,0 +1,35 @@
+id: person/al-shaykh-al-imad
+class: person
+label: { ar: "الشيخ العماد", en: "al-Shaykh al-Imad" }
+summary:
+  ar: "الشيخ العماد أبو إسحاق إبراهيم بن عبد الواحد المقدسي الحنبلي أخو الحافظ عبد الغني؛ ولد بجماعيل سنة ثلاث وأربعين وخمسمائة وهاجر سنة إحدى وخمسين مع أقاربه وسمع ببغداد من شهدة وصالح بن الرحلة وبالموصل من خطيبها وحفظ الخرقي وغريب العزيزي وألقى الدروس وناظر وقرأ القراءات على أبي الحسن البطايحي وكان متصدياً لإقراء القرآن والفقه، ورعاً تقياً متواضعاً سمحاً مفضالاً صواماً قواماً صاحب أحوال وكرامات موصوفاً بطول الصلاة؛ قال الشيخ الموفق ما فارقته إلا أن يسافر فما عرفته أنه عصى الله معصية، وقال الضياء كان عالماً بالقرآن والنحو والفرائض وصنف «كتاب الفروق في المسائل الفقهية»؛ وكان يشغل بالجبل إذا كان الشيخ موفق الدين في المدينة فإذا صعد الموفق نزل هو فأشغل بالمدينة، وكان يشغل بجامع دمشق من الفجر إلى العشاء لا يخرج إلا لما لا بد له منه، وكان كثير الأمر بالمعروف والنهي عن المنكر خرج مرة إلى قوم من الفساق فكسّر ما معهم فضربوه ونالوا منه حتى غشي عليه فأراد الوالي ضرب الذين نالوا منه فقال إن تابوا ولزموا الصلاة فلا تؤذوهم وهم في حل من قبلي فتابوا؛ توفي ليلة الخميس سابع عشر ذي القعدة سنة أربع عشرة وستمائة فجأة، وأخرجت جنازته إلى جامع دمشق فما وسع الناس الجامع وصلى عليه الموفق بحلقة الحنابلة بعد جهد جهيد وكان يوماً لم يُر في الإسلام مثله فيما وصف سبط ابن الجوزي {cite:shadharat-dhahab p. 57-60}."
+  en: "Al-Shaykh al-Imad Abu Ishaq Ibrahim ibn Abd al-Wahid al-Maqdisi al-Hanbali, brother of the hafiz Abd al-Ghani. Born at Jama'il in 543, he emigrated with his relatives in 551. At Baghdad he heard from Shuhda and Salih ibn al-Rahla, and at Mosul from its preacher; he memorised al-Khiraqi and Gharib al-Azizi, gave lessons, took part in disputations, read the readings under Abu al-Hasan al-Bataihi, and devoted himself to teaching the Qur'an and fiqh. Pious, humble, generous and bountiful, he fasted often and prayed through the night, a man of spiritual states and marvels, known for long prayer. Al-Shaykh al-Muwaffaq said: 'I never parted from him except when he travelled, and I never knew him to disobey God in any act.' Al-Diya' said he was learned in the Qur'an, grammar and inheritance, and wrote Kitab al-Furuq fi al-masa'il al-fiqhiyya. He taught on the mountain while Shaykh Muwaffaq al-Din was in the town, and when Shaykh Muwaffaq al-Din went up to the mountain he came down and taught in the town. He taught at the Mosque of Damascus from dawn until night prayer, leaving only for what he could not avoid. He often enjoined good and forbade wrong; once he went out to a group of wrongdoers and smashed what they had, and they beat and abused him until he fainted. When the governor wanted to punish those who had abused him, he said: 'If they repent and keep up the prayer, do not harm them; they are absolved by me.' They repented. He died suddenly on the night of Thursday 17 Dhu al-Qa'da 614. His bier was carried to the Mosque of Damascus; the mosque could not hold the people, and Shaykh Muwaffaq al-Din led the prayer over him at the Hanbali circle after great effort. It was, as Sibt Ibn al-Jawzi described it, a day the like of which had not been seen in Islam {cite:shadharat-dhahab p. 57-60}."
+gender: male
+wings: [people]
+periods: [period/crusades-ayyubid-mamluk]
+born:
+  edtf: "1148~"
+  hijri: "0543"
+  calendar: julian
+  precision: year
+  status: tradition
+  derived: true
+  note: "سنة 543هـ بجماعيل؛ التحويل مشتق {cite:shadharat-dhahab p. 57}."
+died:
+  edtf: "1218~"
+  hijri: "0614-11-17"
+  calendar: julian
+  precision: day
+  status: tradition
+  derived: true
+  note: "ليلة الخميس سابع عشر ذي القعدة 614هـ فجأة؛ التحويل مشتق {cite:shadharat-dhahab p. 60}."
+relations:
+  - { type: lived_in, target: place/damascus, sources: [source/shadharat-dhahab] }
+  - { type: died_in, target: place/damascus, sources: [source/shadharat-dhahab] }
+provenance:
+  layer: own-research
+  source: "شذرات الذهب لابن العماد — الجزء الخامس، ممسوح مكتبة الحصاد (AAlexandrina-001518)، قراءة آبل فيجن"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-shadharat-batch-123
+sources: [source/shadharat-dhahab]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

@@ -1,0 +1,28 @@
+id: person/al-kamil-mayyafariqin
+class: person
+label: { ar: "الملك الكامل صاحب ميافارقين", en: "al-Malik al-Kamil of Mayyafariqin" }
+names:
+  - { value: "الملك الكامل ناصر الدين محمد بن الملك المظفر شهاب الدين غازي بن العادل", kind: full }
+died: { edtf: "1260~", hijri: "0658", calendar: julian, precision: year, status: tradition, derived: true, note: "أسرته التتار بعد حصار عشرين شهراً فضرب هلاكو عنقه بعد أخذ حلب وطيف برأسه ثم علق على باب الفراديس ودفنه المسلمون بمسجد الرأس {cite:shadharat-dhahab p. 303}." }
+summary:
+  ar: "صاحب ميافارقين، ملك سنة خمس وأربعين وستمائة؛ كان عالماً فاضلاً شجاعاً عادلاً محسناً إلى الرعية ذا عبادة وورع ولم يكن في بيته من يضاهيه؛ حاصرته التتار عشرين شهراً حتى فني أهل البلد بالوباء والقحط ثم دخلوا وأسروه فضرب هلاكو عنقه بعد أخذ حلب وطيف برأسه ثم علق على باب الفراديس ثم دفنه المسلمون بمسجد الرأس داخل الباب؛ قال الذهبي بلغني أن التتار دخلوا البلد فوجدوا به سبعين نفساً بعد ألوف كثيرة {cite:shadharat-dhahab p. 303}."
+  en: "Lord of Mayyafariqin (r. 645) — 'a learned, virtuous, just prince, none in his house his peer'; after a twenty-month Tatar siege that emptied the city by plague and famine, Hulagu had him beheaded, his head paraded and hung on Bab al-Faradis; Dhahabi heard the Tatars found seventy souls in what had been thousands {cite:shadharat-dhahab p. 303}."
+gender: male
+roles: [sultan]
+wings: [people]
+periods: [period/crusades-ayyubid-mamluk, period/mongol-post-mongol]
+regions: [levant-iraq, anatolia-balkans]
+faith:
+  - value: sunni
+    basis: tradition
+relations:
+  - { type: child_of, target: person/al-malik-al-muzaffar-ghazi, sources: [source/shadharat-dhahab] }
+  - { type: ruler_of, target: place/mayyafariqin, sources: [source/shadharat-dhahab] }
+  - { type: died_in, target: place/mayyafariqin, sources: [source/shadharat-dhahab] }
+sources: [source/shadharat-dhahab]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }
+provenance:
+  layer: own-research
+  source: "شذرات الذهب — ابن العماد (ج5، سنة 658)، قراءة آبل فيجن"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-shadharat-batch-130

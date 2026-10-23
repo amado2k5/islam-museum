@@ -1,0 +1,27 @@
+id: person/ibn-wathiq
+class: person
+label: { ar: "ابن وثيق شيخ القراء", en: "Ibn Wathiq, shaykh al-qurra'" }
+names:
+  - { value: "ابن وثيق شيخ القراء أبو إسحاق إبراهيم بن محمد بن عبد الرحمن الأموي الإشبيلي المجود الحاذق", kind: full }
+born: { edtf: "1171", hijri: "0567", calendar: julian, precision: year, status: tradition, derived: true, note: "ولد سنة سبع وستين وخمسمائة {cite:shadharat-dhahab p. 272}." }
+died: { edtf: "1256-05~", hijri: "0654-04", calendar: julian, precision: month, status: tradition, derived: true, note: "توفي بالإسكندرية في ربيع الآخر سنة أربع وخمسين وستمائة {cite:shadharat-dhahab p. 272}." }
+summary:
+  ar: "شيخ القراء المجوّد الحاذق؛ قرأ القراءات السبع بغزة وغيرها سنة خمس وتسعين على غير واحد من أصحاب أبي الحسن شريح، وأجاز له أبو عبد الله ابن زرقون فروى عنه التيسير بالإجازة، وأقرأ بالموصل والشام ومصر وكان عالي الإسناد {cite:shadharat-dhahab p. 272}."
+  en: "Shaykh al-qurra' (b. 567, d. Alexandria Rabi' II 654) — read the seven qira'at at Ghaza on Shurayh's pupils, transmitted al-Taysir from Ibn Zarqun, and taught at Mosul, Syria and Egypt on a towering isnad {cite:shadharat-dhahab p. 272}."
+gender: male
+roles: [scholar, teacher]
+wings: [people]
+periods: [period/crusades-ayyubid-mamluk]
+regions: [andalus-europe, levant-iraq, egypt-nile]
+faith:
+  - value: sunni
+    basis: tradition
+relations:
+  - { type: died_in, target: place/alexandria, sources: [source/shadharat-dhahab] }
+sources: [source/shadharat-dhahab]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }
+provenance:
+  layer: own-research
+  source: "شذرات الذهب — ابن العماد (ج5، سنة 654)، قراءة آبل فيجن"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-shadharat-batch-129

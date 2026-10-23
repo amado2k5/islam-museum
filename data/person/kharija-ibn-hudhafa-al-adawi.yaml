@@ -1,0 +1,18 @@
+id: person/kharija-ibn-hudhafa-al-adawi
+class: person
+label: { ar: "خارجة بن حذافة العدوي", en: "Kharija ibn Hudhafa al-Adawi" }
+summary:
+  ar: "خارجة بن حذافة العدوي؛ كان في جيش الزبير بن العوام المعزّز إلى مصر ووجّهه عمرو بن العاص بعد فتح الفسطاط إلى الفيوم والأشمونين وإخميم والبشرودات وقرى الصعيد فصالح أهلها على مثل حكم الفسطاط."
+  en: "Kharija ibn Hudhafa al-Adawi; he rode in al-Zubayr ibn al-Awwam's reinforcement to Egypt, and after al-Fustat's fall Amr ibn al-As sent him to al-Fayyum, al-Ashmunayn, Ikhmim, al-Bashrudat and the Sa'id's villages, whose people compounded on Fustat's terms."
+wings: [people]
+periods: [period/rashidun]
+relations:
+  - { type: participated_in, target: event/conquest-of-egypt, role: "في جيش الزبير", sources: [source/futuh-buldan-maarif-1407] }
+  - { type: participated_in, target: event/four-lieutenants-egypt, role: "موجّه الفيوم والصعيد", sources: [source/futuh-buldan-maarif-1407] }
+provenance:
+  layer: own-research
+  source: "فتوح البلدان (ط مؤسسة المعارف 1407هـ/1987م) ص 299، 304"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-futuh-buldan-batch-19
+sources: [source/futuh-buldan-maarif-1407]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

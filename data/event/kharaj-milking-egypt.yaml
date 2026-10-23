@@ -1,0 +1,24 @@
+id: event/kharaj-milking-egypt
+class: event
+kind: other
+label: { ar: "اللقاح وأولادها: خراج عمرو وعبد الله بن سعد", en: "The Milch-Camel Exchange: Amr's and Ibn Abi Sarh's Kharaj" }
+summary:
+  ar: "عند البلاذري عن يزيد بن أبي حبيب: جبى عمرو بن العاص خراج مصر وجزيتها ألفي ألف وجباها عبد الله بن سعد بن أبي سرح أربعة آلاف ألف فقال عثمان لعمرو إن اللقاح بمصر بعدك قد درّت ألبانها فقال ذاك لأنكم أعجفتم أولادها. وكان عمر بن الخطاب يكتب أموال عمّاله إذا ولّاهم ثم يقاسمهم ما زاد على ذلك وربما أخذه منهم فكتب إلى عمرو بن العاص أنه قد فشت له فاشية من متاع ورقيق وآنية وحيوان لم تكن حين وليت مصر."
+  en: "In al-Baladhuri on Yazid ibn Abi Habib's report: Amr ibn al-As gathered Egypt's kharaj and jizya at two thousand thousand, while Abdallah ibn Sa'd ibn Abi Sarh gathered it at four thousand thousand — whereupon Uthman said to Amr 'the milch-camels of Egypt have milked fuller since you', and Amr answered 'that is because you have starved their calves'. And Umar ibn al-Khattab would record his governors' wealth when appointing them, then share with them whatever grew beyond it, sometimes taking it from them outright — so he wrote to Amr ibn al-As that goods, slaves, vessels and beasts had flourished for him beyond what he held when given Egypt."
+wings: [time]
+periods: [period/rashidun]
+regions: [egypt-nile]
+date:
+  start: { hijri: "0025~", precision: year, status: tradition, derived: true, note: "في خلافة عثمان لعزل عمرو وتولية ابن أبي سرح (البلاذري ص 303). التحويل مشتق." }
+relations:
+  - { type: occurred_at, target: place/al-fustat }
+  - { type: had_participant, target: person/amr-ibn-al-as, role: "الجابي الأول وصاحب الجواب", sources: [source/futuh-buldan-maarif-1407] }
+  - { type: had_participant, target: person/abdullah-ibn-sad-ibn-abi-sarh, role: "الجابي الثاني", sources: [source/futuh-buldan-maarif-1407] }
+  - { type: had_participant, target: person/uthman-ibn-affan, role: "صاحب المثل", sources: [source/futuh-buldan-maarif-1407] }
+provenance:
+  layer: own-research
+  source: "فتوح البلدان (ط مؤسسة المعارف 1407هـ/1987م) ص 303، 307"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-futuh-buldan-batch-19
+sources: [source/futuh-buldan-maarif-1407]
+status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 High)" }

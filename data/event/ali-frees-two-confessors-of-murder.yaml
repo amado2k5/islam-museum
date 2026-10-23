@@ -1,0 +1,28 @@
+id: event/ali-frees-two-confessors-of-murder
+class: event
+kind: court-ruling
+label: { ar: "علي يفرج عن رجلين اعترفا بقتل واحد ويدفع الدية من بيت المال", en: "Ali frees two men who each confessed to one killing and pays the diya from the treasury" }
+summary:
+  ar: "أُتي علي برجل بيده سكين ملطخة بدم، وبين يديه قتيل، فاعترف بالقتل ثم ظهر رجل آخر فاعترف هو أيضاً، فسأل علي كلاً منهما، فروى كل واحد قصته، ثم قال الحسن الحكم فيهما: إن كان قد قتل نفساً فقد أحيا نفساً. فخلى علي سبيلهما، وأخرج دية القتيل من بيت المال، ويرى الصلابي أن علياً ربما فعل ذلك بعد أن أسقط أولياء القتيل حقهم بالقصاص {cite:sallabi-ali-vol1 p. 313}."
+  en: "Two men each confessed to the same killing before Ali. Hasan's ruling was that the one who had killed had saved a life by confessing; Ali released both and paid the diya from the treasury. The book suggests the victim's heirs may have waived retaliation."
+wings: [people, ideas]
+themes: [crime-and-punishment, law-and-courts]
+periods: [period/rashidun]
+regions: [levant-iraq]
+date:
+  start: { edtf: "0656/0661", calendar: julian, precision: year, status: tradition, derived: true, note: "الكتاب لا يؤرخ الواقعة؛ الإطار خلافة علي مشتق؛ ثقة منخفضة." }
+relations:
+  - { type: had_participant, target: person/ali-ibn-abi-talib, role: "القاضي الذي أطلق سراح المعترفين", sources: [source/sallabi-ali-vol1] }
+  - { type: had_participant, target: person/hasan-ibn-ali, role: "أفتى بالحكم الذي أخذ به علي", sources: [source/sallabi-ali-vol1] }
+  - { type: part_of, target: period/rashidun }
+issue: { ar: "إذا اعترف رجلان بقتل واحد، فمن يُقتص منه وكيف تُدفع الدية؟", en: "If two men confess to the same killing, who is punished and how is the diya paid?" }
+perspectives:
+  - tradition: sunni
+    id: sunni-author
+    summary:
+      ar: "يروي الكتاب الواقعة ويعرض حكم الحسن، ثم يذكر أن علياً أطلق سراحهما وأخرج الدية من بيت المال، ويرجّح أن ذلك كان بعد إسقاط أولياء القتيل حقهم، دون نص صريح بذلك {cite:sallabi-ali-vol1 p. 313}."
+      en: "The book tells the story, gives Hasan's ruling, and says Ali released both and paid the diya from the treasury; it suggests the heirs may have waived retaliation, without an explicit statement {cite:sallabi-ali-vol1 p. 313}."
+    sources: [source/sallabi-ali-vol1]
+provenance: { layer: own-research, source: "sallabi-ali-vol1 p. 313", generated_by: "Claude Code", model: "claude-haiku-5-5", run: "sallabi-ali-vol1-deep-pp301-350" }
+sources: [source/sallabi-ali-vol1]
+status: { review: draft, completeness: 1, generated_by: "Claude Code (claude-haiku-5-5); mined from sallabi-ali-vol1 p. 313; OCR noisy in parts" }

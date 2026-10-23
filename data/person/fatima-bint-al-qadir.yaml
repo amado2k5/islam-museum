@@ -1,0 +1,26 @@
+id: person/fatima-bint-al-qadir
+class: person
+label:
+  ar: "فاطمة بنت القادر"
+  en: "Fatima bint al-Qadir"
+names:
+  - { value: "فاطمة بنت القادر بالله", kind: full }
+summary:
+  ar: "بنت الخليفة القادر بالله وأخت الخليفة القائم بأمر الله؛ توفيت سنة ثمان وأربعين وأربعمائة فأُخرج تابوتها وتابوت الذخيرة أبي العباس بن القائم، وصلى الخليفة عليهما في صحن السلام وجلس رئيس الرؤساء في الطيار مع التابوتين وحُملا إلى الرصافة، وحضر في العزاء عدد لا يتجاوزون أربعين لخلوّ البلد وانقراض الناس بالموت والفقر {cite:muntazam-ibn-al-jawzi j.8 p.517}."
+  en: "Daughter of the caliph al-Qadir and sister of al-Qa'im; died in the plague year 448 — her bier and that of the heir Dhakhirat al-Din were carried out together, the caliph prayed over both in the courtyard of the palace and they were borne to Rusafa, with fewer than forty mourners present for the emptiness of the plague-stricken city {cite:muntazam-ibn-al-jawzi j.8 p.517}."
+gender: female
+wings: [people]
+periods: [period/buyid-seljuk-fatimid-era]
+regions: [levant-iraq]
+died: { edtf: "1056", hijri: "0448", calendar: julian, precision: year, status: tradition, derived: true, note: "٤٤٨؛ التحويل مشتق {cite:muntazam-ibn-al-jawzi j.8 p.517}." }
+roles: [royal]
+relations:
+  - { type: child_of, target: person/al-qadir-billah, sources: [source/muntazam-ibn-al-jawzi] }
+  - { type: sibling_of, target: person/al-qaim-billah, sources: [source/muntazam-ibn-al-jawzi] }
+provenance:
+  layer: own-research
+  source: "المنتظم لابن الجوزي (ط حيدرآباد 1357، ج8، وفيات سنة 448)، قراءة آبل فيجن"
+  generated_by: "Devin (SWE-2 Medium) from Apple Vision OCR"
+  run: lib-muntazam-350-474-batch25
+sources: [source/muntazam-ibn-al-jawzi]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 Medium)" }

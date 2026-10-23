@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 16:56 (سورة النحل، الآية 56)."
 text: "وَيَجْعَلُونَ لِمَا لَا يَعْلَمُونَ نَصِيبًا مِّمَّا رَزَقْنَـٰهُمْ ۗ تَٱللَّهِ لَتُسْـَٔلُنَّ عَمَّا كُنتُمْ تَفْتَرُونَ"
 text_search: "ويجعلون لما لا يعلمون نصيبا مما رزقناهم ۗ تالله لتسألن عما كنتم تفترون"
+translations:
+  en: { text: "And they assign a portion of that which We have given them unto what they know not. By Allah! but ye will indeed be asked concerning (all) that ye used to invent.", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "اور ہمارے دیئے ہوئے مال میں سے ایسی چیزوں کا حصہ مقرر کرتے ہیں جن کو جانتے ہی نہیں۔ (کافرو) خدا کی قسم کہ جو تم افتراء کرتے ہو اس کی تم سے ضرور پرسش ہوگی", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-16 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

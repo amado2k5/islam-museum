@@ -1,0 +1,23 @@
+id: event/battle-of-kokovo-1478
+class: event
+kind: battle
+label: { ar: "معركة كوكوفو (١٤٧٨)", en: "Battle of Kokovo (1478)" }
+summary:
+  ar: "بطاقة أولية لمعركة كوكوفو (١٤٧٨)؛ لم تُراجع مصادره على الصفحة بعد."
+  en: "Draft card for Battle of Kokovo (1478); its sources are not yet checked on the page."
+wings: [time]
+periods: [period/crusades-ayyubid-mamluk]
+regions: [anatolia-balkans]
+date:
+  start: { edtf: "1478", precision: year, status: tradition, derived: true }
+  end: { edtf: "1478", precision: year, status: tradition, derived: true }
+sources: [source/tarikh-islam-hasan-ibrahim]
+external_ids:
+  wikidata: Q4871471
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; battle attested in narrative histories — entry not yet checked on the page"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-wave2
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

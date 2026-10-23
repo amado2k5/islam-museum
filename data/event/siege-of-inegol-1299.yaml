@@ -1,0 +1,23 @@
+id: event/siege-of-inegol-1299
+class: event
+kind: siege
+label: { ar: "حصار إينكول (١٢٩٩)", en: "Siege of İnegöl" }
+summary:
+  ar: "بطاقة أولية لحصار إينكول سنة ١٢٩٩م، فتح عثمان الأول المدينة البيزنطية؛ لم تُراجع مصادره على الصفحة بعد."
+  en: "Draft card for the Siege of İnegöl in 1299, Osman I's capture of the Byzantine town; its sources are not yet checked on the page."
+wings: [time]
+periods: [period/crusades-ayyubid-mamluk]
+regions: [anatolia-balkans]
+date:
+  start: { edtf: "1299", precision: year, status: tradition, derived: true }
+  end: { edtf: "1299", precision: year, status: tradition, derived: true }
+sources: [source/dawlat-uthmaniyya-salabi]
+external_ids:
+  wikidata: Q118929881
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; battle attested in narrative histories — entry not yet checked on the page"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-wave2
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

@@ -1,0 +1,16 @@
+id: passage/muslim-0058
+class: passage
+unit: hadith
+work: work/sahih-muslim
+ref: "58"
+label: { ar: "مسلم 58 — أربع من كن فيه كان منافقاً خالصاً", en: "Muslim 58 — Four traits make a pure hypocrite" }
+text: "قال عبد الله بن عمرو: قال رسول الله: أربع من كن فيه كان منافقاً خالصاً، ومن كانت فيه خلة منهن كانت فيه خلة من نفاق حتى يدعها: إذا حدث كذب، وإذا عاهد غدر، وإذا وعد أخلف، وإذا خاصم فجر"
+summary:
+  ar: "رواية عبد الله بن عمرو بن العاص في باب بيان خصال المنافق من كتاب الإيمان في صحيح مسلم؛ الخصال الأربع التي تجمع نفاق العمل."
+relations:
+  - { type: mentions, target: person/muhammad, sources: [source/sahih-muslim] }
+  - { type: mentions, target: person/abdullah-ibn-amr-ibn-al-as, sources: [source/sahih-muslim] }
+  - { type: mentions, target: concept/nifaq, sources: [source/sahih-muslim] }
+provenance: { layer: own-research, source: "صحيح مسلم، كتاب الإيمان، باب بيان خصال المنافق (طبعة دار التأصيل، الحديث 50؛ ترقيم عبد الباقي المعروف 58)، تصوير Apple Vision OCR", generated_by: "Devin (SWE-2 High) from Apple Vision OCR", run: "hadith-muslim-passages-4" }
+sources: [source/sahih-muslim]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High); matn excerpt at most 40 words checked against the scan" }

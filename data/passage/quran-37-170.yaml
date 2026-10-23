@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 37:170 (سورة الصافات، الآية 170)."
 text: "فَكَفَرُوا۟ بِهِۦ ۖ فَسَوْفَ يَعْلَمُونَ"
 text_search: "فكفروا به ۖ فسوف يعلمون"
+translations:
+  en: { text: "Yet (now that it is come) they disbelieve therein; but they will come to know.", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "لیکن (اب) اس سے کفر کرتے ہیں سو عنقریب ان کو (اس کا نتیجہ) معلوم ہوجائے گا", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-37 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

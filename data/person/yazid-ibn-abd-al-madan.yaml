@@ -1,0 +1,25 @@
+id: person/yazid-ibn-abd-al-madan
+class: person
+label: { ar: "يزيد بن عبد المدان", en: "Yazid ibn Abd al-Madan" }
+names:
+  - { kind: full, lang: ar, value: "يزيد بن عبد المدان" }
+gender: male
+roles: [companion]
+traditions: [sunni]
+summary:
+  ar: "من وفد بني الحارث بن كعب سنة 10هـ؛ هو الذي أجاب النبي في المرة الرابعة: نحن الذين إذا زُجروا استقدموا، وقال له: ما حمدناك ولا حمدنا خالداً، حمدنا الله الذي هدانا بك."
+  en: "A member of the Banu al-Harith ibn Ka'b delegation of 10 AH; it was he who answered the Prophet's fourth question, we are the ones who advance when rebuked, and told him they praised neither him nor Khalid but God who had guided them."
+wings: [people]
+themes: [converts-and-leavers]
+periods: [period/prophetic-era]
+regions: [arabia]
+story_roles:
+  - { role: convert, toward: person/muhammad, start: { edtf: "0631" }, status: tradition, note: "أسلم مع بني الحارث بن كعب على يدي خالد سنة 10هـ وقدم في وفدهم (ابن هشام ص240).", sources: [source/ibn-hisham-saqqa] }
+faith:
+  - { value: sunni, basis: tradition, start: { edtf: "0631" }, sources: [source/ibn-hisham-saqqa] }
+relations:
+  - { type: member_of, target: group/banu-al-harith-ibn-kab, sources: [source/ibn-hisham-saqqa] }
+  - { type: participated_in, target: event/mission-of-khalid-to-banu-al-harith, role: "من الوفد؛ أجاب النبي", sources: [source/ibn-hisham-saqqa] }
+provenance: { layer: own-research, source: "sira-ibn-hisham saqqa 1936, juz' 4 pp. 240-241", generated_by: "Claude Code", model: "claude-fable-5-1", run: "ibn-hisham-batch-9c" }
+sources: [source/ibn-hisham-saqqa]
+status: { review: draft, completeness: 1, generated_by: "Claude Fable 5.1; mined from Ibn Hisham juz' 4 pp. 240-241" }

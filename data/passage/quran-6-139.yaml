@@ -12,10 +12,13 @@ summary:
   ar: "القرآن 6:139 (سورة الأنعام، الآية 139)."
 text: "وَقَالُوا۟ مَا فِى بُطُونِ هَـٰذِهِ ٱلْأَنْعَـٰمِ خَالِصَةٌ لِّذُكُورِنَا وَمُحَرَّمٌ عَلَىٰٓ أَزْوَٰجِنَا ۖ وَإِن يَكُن مَّيْتَةً فَهُمْ فِيهِ شُرَكَآءُ ۚ سَيَجْزِيهِمْ وَصْفَهُمْ ۚ إِنَّهُۥ حَكِيمٌ عَلِيمٌ"
 text_search: "وقالوا ما في بطون هذه الأنعام خالصة لذكورنا ومحرم على أزواجنا ۖ وإن يكن ميتة فهم فيه شركاء ۚ سيجزيهم وصفهم ۚ إنه حكيم عليم"
+translations:
+  en: { text: "And they say: That which is in the bellies of such cattle is reserved for our males and is forbidden to our wives; but if it be born dead, then they (all) may be partakers thereof. He will reward them for their attribution (of such ordinances unto Him). Lo, He is Wise, Aware.", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "اور یہ بھی کہتے ہیں کہ جو بچہ ان چارپایوں کے پیٹ میں ہے وہ خاص ہمارے مردوں کے لئے ہے اور ہماری عورتوں کو (اس کا کھانا) حرام ہے اور اگر وہ بچہ مرا ہوا ہو تو سب اس میں شریک ہیں (یعنی اسے مرد اور عورتیں سب کھائیں) عنقریب خدا ان کو ان کے ڈھکوسلوں کی سزا دے گا بےشک وہ حکمت والا خبردار ہے", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: revealed_about, target: concept/sacred-livestock-jahiliyya }
   - { type: part_of, target: passage/quran-6 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

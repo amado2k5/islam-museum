@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 12:22 (سورة يوسف، الآية 22)."
 text: "وَلَمَّا بَلَغَ أَشُدَّهُۥٓ ءَاتَيْنَـٰهُ حُكْمًا وَعِلْمًا ۚ وَكَذَٰلِكَ نَجْزِى ٱلْمُحْسِنِينَ"
 text_search: "ولما بلغ أشده آتيناه حكما وعلما ۚ وكذلك نجزي المحسنين"
+translations:
+  en: { text: "And And when he reached his prime We gave him wisdom and knowledge. Thus We reward the good.", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "اور جب وہ اپنی جوانی کو پہنچے تو ہم نے ان کو دانائی اور علم بخشا۔ اور نیکوکاروں کو ہم اسی طرح بدلہ دیا کرتے ہیں", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-12 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

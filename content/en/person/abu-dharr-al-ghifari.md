@@ -1,20 +1,23 @@
 ---
 id: person/abu-dharr-al-ghifari
 lang: en
-source_lang: en
-translators: []
+source_lang: ar
+translators: ["Claude Haiku 5.5 (claude-haiku-5-5), draft translation"]
 ---
 
 ## Brief
-Abu Dharr al-Ghifari was a desert tribesman among the very first Muslims — and the tradition's fiercest conscience about wealth, exiled by a caliph for saying so out loud.
+Abu Dharr al-Ghifari, a man of the desert and one of the earliest Muslims — and the sharpest conscience in the tradition on wealth, whom a caliph exiled for saying it openly.
 
 ## Life
-A man of [[group/banu-ghifar|Banu Ghifar]], a tribe of the Hijazi desert, Abu Dharr walked to Mecca and became one of the first handful of converts, about 614 CE {cite:ibn-sad-tabaqat-bewley}. He preached to his own people, then lived austerely in Medina and later Damascus.
+A man of the [[group/banu-ghifar|Banu Ghifar]], a tribe of the Hijaz desert, he went to Mecca and became one of the first Muslims around 614 CE {cite:ibn-sad-tabaqat-bewley}. He called his own people to Islam, then lived in ascetic simplicity in Medina and later in Damascus.
 
-There the sources record his open denunciations of the governors' accumulating gold and silver, quoting scripture against hoarding. Sent back to Medina, he kept speaking; the caliph [[person/uthman-ibn-affan|Uthman]] finally exiled him to the desert hamlet of al-Rabadha, where he died in 652 CE {cite:ibn-sad-tabaqat-bewley}.
+There, the sources record, he publicly condemned the governors who gathered gold and silver, citing the Book (the Qur'an) on hoarding. When he was sent back to Medina he did not stop, so the caliph [[person/uthman-ibn-affan|Uthman]] exiled him to al-Rabadha, where he died in 652 CE {cite:ibn-sad-tabaqat-bewley}.
 
 ## Legacy
-Later generations — Sufis, social critics, modern writers on Islamic economics — all reach back to Abu Dharr: the man who asked, at the very beginning, what the community owed the poor.
+Later generations — Sufis, social critics and contemporary writers on Islamic economics — all return to Abu Dharr: the man who asked from the start what the community owes to the poor.
 
 ## For young visitors
-Abu Dharr believed being rich while others were poor was wrong, and he kept saying so to the most powerful men alive — even when it cost him his home.
+Abu Dharr believed that someone who grows rich while others are poor is doing wrong, and he kept saying so to the most powerful men of his time — even when it cost him his home.
+
+## His conversion in Mecca (The Sealed Nectar p.133)
+He came to Mecca and asked about the man who claimed to be a prophet. He embraced Islam after the Prophet presented it to him. Then he declared his testimony in the mosque, and the pagans beat him until he nearly died; al-Abbas rescued him. The next day he returned, and they did the same to him again {cite:mubarakpuri-raheeq p.133} {cite:sahih-al-bukhari 1/545}.

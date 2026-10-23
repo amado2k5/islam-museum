@@ -1,0 +1,29 @@
+id: person/zagan-pasha
+class: person
+label:
+  ar: "زاغانوس باشا"
+  en: "Zaganos Pasha"
+names:
+  - { kind: full, lang: ar, value: "زوغنوش باشا" }
+gender: male
+roles: [military-leader, grand-vizier]
+summary:
+  ar: "زاغانوس باشا — وفي نص الصلابي «زوغنوش باشا» — قائد في جيش محمد الفاتح، ينقل الكتاب أنه من أصل ألباني كان نصرانياً فأسلم {cite:dawlat-uthmaniyya-salabi p. 105}. في مجلس الشورى عشية الاقتحام العام للقسطنطينية، لما دعا الوزير خليل باشا إلى الانسحاب، صاح زوغنوش بلكنته الأرناؤوطية: «حاشا وكلا أيها السلطان، أنا لا أقبل أبداً ما قاله خليل باشا، فما أتينا هنا إلا لنموت لا لنرجع»، وقال إن جيش الإسكندر الذي قهر نصف آسيا لم يكن أكبر من جيشهم، فأيده القائد طرخان والشيخان آق شمس الدين والكوراني، وظهرت البشرى على وجه الفاتح {cite:dawlat-uthmaniyya-salabi p. 105-106}."
+  en: "Zaganos Pasha — spelled 'Zughnush' in al-Salabi's text — a commander in Mehmed II's army whom the book describes as an Albanian-born convert {cite:dawlat-uthmaniyya-salabi p. 105}. At the war council before the final assault, when the vizier Khalil Pasha urged withdrawal, he cried out in his Albanian-accented Turkish: 'God forbid, O Sultan — we came here to die, not to return,' and argued Alexander's army was no larger than theirs; Tarkhan, Aq Shams al-Din and al-Kurani backed him, and joy showed on the Conqueror's face {cite:dawlat-uthmaniyya-salabi p. 105-106}."
+wings: [people]
+regions: [anatolia-balkans]
+periods: [period/mongol-post-mongol]
+relations:
+  - { type: participated_in, target: event/conquest-constantinople-857, role: "قائد", sources: [source/dawlat-uthmaniyya-salabi] }
+sources: [source/dawlat-uthmaniyya-salabi]
+external_ids:
+  wikidata: Q2353735
+provenance:
+  layer: own-research
+  source: "الدولة العثمانية لعلي محمد الصلابي (ط1 1421) ص 105-106"
+  generated_by: "Devin (SWE-2 Medium) from Apple Vision OCR"
+  model: "SWE-2 Medium"
+  run: lib-salabi-uthmani-batch-5
+status:
+  review: draft
+  completeness: 2

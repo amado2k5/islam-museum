@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 12:25 (سورة يوسف، الآية 25)."
 text: "وَٱسْتَبَقَا ٱلْبَابَ وَقَدَّتْ قَمِيصَهُۥ مِن دُبُرٍ وَأَلْفَيَا سَيِّدَهَا لَدَا ٱلْبَابِ ۚ قَالَتْ مَا جَزَآءُ مَنْ أَرَادَ بِأَهْلِكَ سُوٓءًا إِلَّآ أَن يُسْجَنَ أَوْ عَذَابٌ أَلِيمٌ"
 text_search: "واستبقا الباب وقدت قميصه من دبر وألفيا سيدها لدى الباب ۚ قالت ما جزاء من أراد بأهلك سوءا إلا أن يسجن أو عذاب أليم"
+translations:
+  en: { text: "And they raced with one another to the door, and she tore his shirt from behind, and they met her lord and master at the door. She said: What shall be his reward, who wisheth evil to thy folk, save prison or a painful doom?", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "اور دونوں دروازے کی طرف بھاگے (آگے یوسف اور پیچھے زلیخا) اور عورت نے ان کا کرتا پیچھے سے (پکڑ کر جو کھینچا تو) پھاڑ ڈالا اور دونوں کو دروازے کے پاس عورت کا خاوند مل گیا تو عورت بولی کہ جو شخص تمہاری بیوی کے ساتھ برا ارادہ کرے اس کی اس کے سوا کیا سزا ہے کہ یا تو قید کیا جائے یا دکھ کا عذاب دیا جائے", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-12 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 2:214 (سورة البقرة، الآية 214)."
 text: "أَمْ حَسِبْتُمْ أَن تَدْخُلُوا۟ ٱلْجَنَّةَ وَلَمَّا يَأْتِكُم مَّثَلُ ٱلَّذِينَ خَلَوْا۟ مِن قَبْلِكُم ۖ مَّسَّتْهُمُ ٱلْبَأْسَآءُ وَٱلضَّرَّآءُ وَزُلْزِلُوا۟ حَتَّىٰ يَقُولَ ٱلرَّسُولُ وَٱلَّذِينَ ءَامَنُوا۟ مَعَهُۥ مَتَىٰ نَصْرُ ٱللَّهِ ۗ أَلَآ إِنَّ نَصْرَ ٱللَّهِ قَرِيبٌ"
 text_search: "أم حسبتم أن تدخلوا الجنة ولما يأتكم مثل الذين خلوا من قبلكم ۖ مستهم البأساء والضراء وزلزلوا حتى يقول الرسول والذين آمنوا معه متى نصر الله ۗ ألا إن نصر الله قريب"
+translations:
+  en: { text: "Or think ye that ye will enter paradise while yet there hath not come unto you the like of (that which came to) those who passed away before you? Affliction and adversity befell them, they were shaken as with earthquake, till the messenger (of Allah) and those who believed along with him said: When cometh Allah's help? Now surely Allah's help is nigh.", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "کیا تم یہ خیال کرتے ہو کہ (یوں ہی) بہشت میں داخل ہوجاؤ گے اور ابھی تم کو پہلے لوگوں کی سی (مشکلیں) تو پیش آئی ہی نہیں۔ ان کو (بڑی بڑی) سختیاں اور تکلیفیں پہنچیں اور وہ (صعوبتوں میں) ہلا ہلا دیئے گئے۔ یہاں تک کہ پیغمبر اور مومن لوگ جو ان کے ساتھ تھے سب پکار اٹھے کہ کب خدا کی مدد آئے گی ۔ دیکھو خدا کی مدد (عن) قریب (آيا چاہتی) ہے", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-2 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

@@ -1,0 +1,23 @@
+id: event/battle-for-no3-post-1915
+class: event
+kind: battle
+label: { ar: "معركة الموقع الثالث", en: "Battle for No.3 Post" }
+summary:
+  ar: "بطاقة أولية لمعركة الموقع الثالث؛ لم تُراجع مصادره على الصفحة بعد."
+  en: "Draft card for Battle for No.3 Post; its sources are not yet checked on the page."
+wings: [time]
+periods: [period/modern-era]
+regions: [anatolia-balkans]
+date:
+  start: { edtf: "1915", precision: year, status: tradition, derived: true }
+  end: { edtf: "1915", precision: year, status: tradition, derived: true }
+sources: [source/tarikh-islam-hasan-ibrahim]
+external_ids:
+  wikidata: Q16822556
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; battle attested in narrative histories — entry not yet checked on the page"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-wave2
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

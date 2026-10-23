@@ -1,0 +1,76 @@
+id: exhibit/path-elephant
+class: exhibit
+kind: trail
+label:
+  ar: عام الفيل
+  en: The Year of the Elephant
+summary:
+  ar: 'مسار في سنة الميلاد: أبرهة يخرج بالفيل إلى الكعبة، والطير الأبابيل تردّه، وفي تلك السنة يولد النبي.'
+  en: A trail through the year of the birth.
+audience:
+- newcomer
+- student
+duration_minutes: 30
+wings: []
+regions:
+- arabia
+rooms:
+- title:
+    ar: أبرهة
+    en: Abraha
+  body:
+    ar: 'والي الحبشة: القليس تُهدم لحج البيت.'
+    en: 'والي الحبشة: القليس تُهدم لحج البيت.'
+  features:
+  - event/year-of-the-elephant-and-birth
+  - place/sanaa
+- title:
+    ar: الفيل
+    en: The elephant
+  body:
+    ar: 'محمود يبرك: الجيش يتوقف عند مكة.'
+    en: 'محمود يبرك: الجيش يتوقف عند مكة.'
+  features:
+  - event/year-of-the-elephant-and-birth
+  - place/mecca
+- title:
+    ar: الطير
+    en: The birds
+  body:
+    ar: 'سجيل من السماء: سورة الفيل تقص.'
+    en: 'سجيل من السماء: سورة الفيل تقص.'
+  features:
+  - passage/quran-105
+  - passage/quran-105-1
+- title:
+    ar: الميلاد
+    en: The birth
+  body:
+    ar: 'في عام الفيل: مولد النبي.'
+    en: 'في عام الفيل: مولد النبي.'
+  features:
+  - event/year-of-the-elephant-and-birth
+  - person/muhammad
+- title:
+    ar: الإرث
+    en: The legacy
+  body:
+    ar: 'الفيل في الذاكرة: معجزة البيت.'
+    en: 'الفيل في الذاكرة: معجزة البيت.'
+  features:
+  - passage/quran-105
+  - building/kaaba
+prerequisites:
+- exhibit/path-islam-in-30-minutes
+sources:
+- source/wikidata
+provenance:
+  layer: own-research
+  source: Devin-assembled trail from existing museum entities
+  generated_by: Devin (SWE-2 High)
+  model: SWE-2 High
+  run: pathways-batch-7
+status:
+  review: draft
+  completeness: 1
+  generated_by: Devin (SWE-2 High), pathways lane, 2026-10-16

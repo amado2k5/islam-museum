@@ -1,0 +1,20 @@
+id: event/mungli-killed-aghlamish-610
+class: event
+kind: death
+label: { ar: "قتل منكلي وولاية أغلمش", en: "Mungli killed; Aghlamish inherits his domains" }
+date:
+  start: { edtf: "1213~", hijri: "0610", calendar: julian, precision: year, status: tradition, derived: true }
+summary:
+  ar: "قُتل منكلي صاحب الجبل وأصفهان، وولي مكانه أغلمش على ما كان بيده من الممالك {cite:kamil-ibn-al-athir p. 364}."
+  en: "Mungli was killed and Aghlamish took over his domains in the Jibal and Isfahan {cite:kamil-ibn-al-athir p. 364}."
+relations:
+  - { type: occurred_at, target: place/isfahan, sources: [source/kamil-ibn-al-athir] }
+  - { type: had_participant, target: person/mangli, role: "المقتول", sources: [source/kamil-ibn-al-athir] }
+  - { type: had_participant, target: person/aghlamish, role: "الخلف", sources: [source/kamil-ibn-al-athir] }
+provenance:
+  layer: own-research
+  source: "الكامل في التاريخ لابن الأثير، قراءة آبل فيجن"
+  generated_by: "Devin (SWE-2 Medium) from Apple Vision OCR"
+  run: lib-kamil-v12-batch06
+sources: [source/kamil-ibn-al-athir]
+status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 Medium)" }

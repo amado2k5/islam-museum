@@ -1,0 +1,27 @@
+id: event/duel-of-amr-ibn-abd-wudd
+class: event
+kind: other
+label: { ar: "مبارزة علي لعمرو بن عبد ود يوم الخندق", en: "Ali's duel with Amr ibn Abd Wudd at the Trench" }
+summary:
+  ar: "في غزوة الخندق اقتحمت خيل المشركين ثغرة فيه، فخرج علي في نفر من المسلمين حتى أخذوا الثغرة عليهم، ثم برز عمرو بن عبد ود فدعا إلى النزال، فبارزه علي فقتله، فانهزمت خيلهم هاربة من الخندق؛ ويذكر الكتاب من أشعار عمرو ما روي في ذلك."
+  en: "At the Battle of the Trench, enemy horsemen forced a breach in the ditch. Ali went out with a few Muslims to close it, then Amr ibn Abd Wudd called for single combat; Ali fought him and killed him, and the enemy horsemen fled."
+wings: [time, people]
+themes: [battles]
+periods: [period/prophetic-era]
+regions: [arabia]
+date:
+  start: { edtf: "0627-02~", hijri: "0005-10", calendar: julian, precision: month, status: tradition, derived: true, note: "تاريخ الغزوة الأم (شوال 5هـ) منسوب إلى هذه المبارزة بوصفها جزءاً منها؛ الكتاب لا يذكر يوماً محدداً لها (ص98)." }
+relations:
+  - { type: occurred_at, target: place/medina }
+  - { type: part_of, target: event/battle-of-the-trench }
+  - { type: had_participant, target: person/ali-ibn-abi-talib, role: "بارز عمرو بن عبد ود فقتله", sources: [source/sallabi-ali-vol1] }
+  - { type: had_participant, target: person/muhammad, role: "قائد المسلمين في الخندق", sources: [source/sallabi-ali-vol1] }
+issue: { ar: "هل تجوز المبارزة، ومتى؟", en: "Is single combat lawful, and when?" }
+perspectives:
+  - tradition: sunni
+    id: sunni-author
+    summary: { ar: "يسوق الصلابي رواية ابن إسحاق في المبارزة، وينقل عن ابن كثير ما رواه البيهقي من أشعار عمرو، ويعدّ الموقف من مواقف الثبات والبطولة لعلي (ص98).", en: "Al-Sallabi follows Ibn Ishaq's account and cites Ibn Kathir on the verses attributed to Amr through al-Bayhaqi, presenting the scene as a model of steadfastness for Ali (p. 98)." }
+    sources: [source/sallabi-ali-vol1]
+sources: [source/sallabi-ali-vol1]
+status: { review: draft, completeness: 1, generated_by: "Claude Code (claude-haiku-5-5); mined from sallabi-ali-vol1 p. 98" }
+provenance: { layer: own-research, source: "sallabi-ali-vol1 p. 98", generated_by: "Claude Code", model: "claude-haiku-5-5", run: "sallabi-ali-vol1-batch1" }

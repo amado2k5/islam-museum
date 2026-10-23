@@ -1,0 +1,23 @@
+id: event/berber-revolt-122
+class: event
+kind: revolt
+label: { ar: "ثورة البربر", en: "The Berber Revolt" }
+summary:
+  ar: "بطاقة أولية لثورة البربر سنة ١٢٢هـ/٧٤٠م، انتفاضة أهل المغرب على ولاة بني أمية بقيادة ميسرة وخالد بن حميد؛ لم تُراجع مصادره على الصفحة بعد."
+  en: "Draft card for the Berber Revolt of 122/740, the Maghreb's rising against the Umayyad governors under Maysara and Khalid ibn Humayd; its sources are not yet checked on the page."
+wings: [time]
+periods: [period/umayyad]
+regions: [maghreb]
+date:
+  start: { edtf: "740", precision: year, status: tradition, derived: true }
+  end: { edtf: "743", precision: year, status: tradition, derived: true }
+sources: [source/tarikh-al-tabari]
+external_ids:
+  wikidata: Q759998
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; revolt attested in Tabari and Maghreb histories — entry not yet checked on the page"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-wave2
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

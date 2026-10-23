@@ -1,0 +1,32 @@
+id: polity/annazid-dynasty
+class: polity
+kind: dynasty
+label:
+  ar: "العنازيون"
+  en: "Annazids"
+summary:
+  ar: "بطاقة أولية للعنازيين، الأسرة الكردية السنية التي حكمت كرمانشاه ودينور من ٩٩٠ إلى ١١١٧م؛ لم تُراجع مصادرها على الصفحة بعد."
+  en: "Draft card for the Annazids, the Sunni Kurdish house that ruled Kermanshah and Dinavar from 990 to 1117; its sources are not yet checked on the page."
+wings: [time]
+periods: [period/buyid-seljuk-fatimid-era]
+regions: [persia-central-asia]
+start:
+  edtf: "990"
+  precision: year
+  status: tradition
+  derived: true
+end:
+  edtf: "1117"
+  precision: year
+  status: tradition
+  derived: true
+sources: [source/kamil-ibn-al-athir]
+external_ids:
+  wikidata: Q564671
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; dynasty attested in Iranian histories — entry not yet checked on the page"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-wave2
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

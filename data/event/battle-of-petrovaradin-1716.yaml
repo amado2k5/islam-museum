@@ -1,0 +1,23 @@
+id: event/battle-of-petrovaradin-1716
+class: event
+kind: battle
+label: { ar: "معركة بتروفارادين", en: "Battle of Petrovaradin" }
+summary:
+  ar: "بطاقة أولية لمعركة بتروفارادين سنة ١٧١٦م، نصر يوجين السافوي على الجيش العثماني في الحرب النمساوية التركية؛ لم تُراجع مصادره على الصفحة بعد."
+  en: "Draft card for the Battle of Petrovaradin in 1716, Eugene of Savoy's victory over the Ottoman army in the Austro-Turkish war; its sources are not yet checked on the page."
+wings: [time]
+periods: [period/gunpowder-empires]
+regions: [anatolia-balkans]
+date:
+  start: { edtf: "1716", precision: year, status: tradition, derived: true }
+  end: { edtf: "1716", precision: year, status: tradition, derived: true }
+sources: [source/dawlat-uthmaniyya-salabi]
+external_ids:
+  wikidata: Q690391
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; battle attested in Ottoman histories — entry not yet checked on the page"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-wave2
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

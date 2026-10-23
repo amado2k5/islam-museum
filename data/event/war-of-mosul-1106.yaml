@@ -1,0 +1,23 @@
+id: event/war-of-mosul-1106
+class: event
+kind: war
+label: { ar: "حرب الموصل (١١٠٦)", en: "War of Mosul (1106)" }
+summary:
+  ar: "بطاقة أولية لحرب الموصل (١١٠٦)؛ لم تُراجع مصادره على الصفحة بعد."
+  en: "Draft card for War of Mosul (1106); its sources are not yet checked on the page."
+wings: [time]
+periods: [period/crusades-ayyubid-mamluk]
+regions: [levant-iraq]
+date:
+  start: { edtf: "1106", precision: year, status: tradition, derived: true }
+  end: { edtf: "1107", precision: year, status: tradition, derived: true }
+sources: [source/tarikh-islam-hasan-ibrahim]
+external_ids:
+  wikidata: Q140077696
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; battle attested in narrative histories — entry not yet checked on the page"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-wave2
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

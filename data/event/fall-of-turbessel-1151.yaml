@@ -1,0 +1,23 @@
+id: event/fall-of-turbessel-1151
+class: event
+kind: conquest
+label: { ar: "سقوط تل باشر (١١٥١)", en: "Fall of Turbessel (1151)" }
+summary:
+  ar: "بطاقة أولية لسقوط تل باشر سنة ١١٥١م، أخذ نور الدين لها من الفرنج؛ لم تُراجع مصادره على الصفحة بعد."
+  en: "Draft card for the Fall of Turbessel in 1151, Nur al-Din's capture of it from the Franks; its sources are not yet checked on the page."
+wings: [time]
+periods: [period/crusades-ayyubid-mamluk]
+regions: [levant-iraq]
+date:
+  start: { edtf: "1151", precision: year, status: tradition, derived: true }
+  end: { edtf: "1151", precision: year, status: tradition, derived: true }
+sources: [source/tarikh-islam-hasan-ibrahim]
+external_ids:
+  wikidata: Q113576053
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; battle attested in narrative histories — entry not yet checked on the page"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-wave2
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

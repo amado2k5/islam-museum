@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 31:9 (سورة لقمان، الآية 9)."
 text: "خَـٰلِدِينَ فِيهَا ۖ وَعْدَ ٱللَّهِ حَقًّا ۚ وَهُوَ ٱلْعَزِيزُ ٱلْحَكِيمُ"
 text_search: "خالدين فيها ۖ وعد الله حقا ۚ وهو العزيز الحكيم"
+translations:
+  en: { text: "Wherein they will abide. It is a promise of Allah in truth. He is the Mighty, the Wise.", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "ہمیشہ اُن میں رہیں گے۔ خدا کا وعدہ سچا ہے اور وہ غالب حکمت والا ہے", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-31 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

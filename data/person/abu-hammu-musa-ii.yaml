@@ -1,0 +1,32 @@
+id: person/abu-hammu-musa-ii
+class: person
+label:
+  ar: السلطان أبو حمو موسى الثاني
+  en: Sultan Abu Hammu Musa II
+summary:
+  ar: "أبو حمو موسى بن يوسف بن عبد الرحمن، سلطان بني عبد الواد بتلمسان وصاحب «الكرة الثالثة»؛ نجا من نكبة أهله إلى تونس فنزل على الحاجب ابن تافراكين الذي حمى له أنفه وأبى عن إنزاجه لسلطان أبي عنان، فرجع بمدد الدواودة وزغبة واقتحم تلمسان يوم الأربعاء لثمان خلون من ربيع الأول سنة 760هـ وبويع بالخلافة، وأجفل أمام عساكر المغرب ثم عاد إليها ثالثاً، وكان سلطاناً عالماً كتب في الأنساب والأخبار وجمع العلماء في حضرته ومنهم ابن خلدون الذي أتم عنده تلخيص كتابه العبر."
+  en: "Abu Hammu Musa ibn Yusuf ibn Abd al-Rahman, the Abd al-Wadid sultan of Tlemcen of the 'third return'; he escaped his family's ruin to Tunis where the hajib Ibn Tafrakin sheltered him and refused Sultan Abu Inan's demand for his extradition, then came back with Dawawida and Zaghba support and stormed Tlemcen on Wednesday 8 Rabi I 760 AH, taking the bay'a of the caliphate, was driven out before the Maghreb's armies and returned a third time — a scholar-sultan who wrote on genealogies and history, hosting the learned at his court, Ibn Khaldun among them, who finished the abridgement of al-Ibar under him."
+gender: male
+roles: [sultan, scholar, historian]
+traditions: [sunni]
+died: { edtf: "1389", hijri: "0791", calendar: julian, precision: year, status: tradition, derived: true, note: "هلك سنة 791هـ على مشهور التواريخ؛ التحويل مشتق.", sources: [source/tarikh-ibn-khaldun-ibar] }
+relations:
+- type: ruler_of
+  target: polity/zayyanid-tlemcen
+  sources:
+  - source/tarikh-ibn-khaldun-ibar
+wings: [people]
+periods: [period/mongol-post-mongol]
+regions: [maghreb]
+sources:
+- source/tarikh-ibn-khaldun-ibar
+provenance:
+  layer: own-research
+  source: ابن خلدون، العبر — دولة السلطان أبي حمو الأخير، ص1875-1876 (المجلد السادس، طبعة هيليوبوليس)
+  generated_by: Devin (SWE-2 High) from Apple Vision OCR
+  model: swe-2-high
+  run: lib-ibar-maghreb-3
+status:
+  review: draft
+  completeness: 1
+  generated_by: Devin (SWE-2 High); extracted from Ibn Khaldun al-Ibar via Apple Vision OCR

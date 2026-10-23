@@ -1,0 +1,23 @@
+id: event/siege-of-belgrade-1690
+class: event
+kind: siege
+label: { ar: "حصار بلغراد (١٦٩٠)", en: "Siege of Belgrade" }
+summary:
+  ar: "بطاقة أولية لحصار بلغراد سنة ١٦٨٩-١٦٩٠م، استرداد العثمانيين للمدينة من النمسا في الحرب التركية الكبرى؛ لم تُراجع مصادره على الصفحة بعد."
+  en: "Draft card for the Siege of Belgrade of 1689–1690, the Ottoman recapture of the city in the Great Turkish War; its sources are not yet checked on the page."
+wings: [time]
+periods: [period/gunpowder-empires]
+regions: [anatolia-balkans]
+date:
+  start: { edtf: "1690", precision: year, status: tradition, derived: true }
+  end: { edtf: "1690", precision: year, status: tradition, derived: true }
+sources: [source/dawlat-uthmaniyya-salabi]
+external_ids:
+  wikidata: Q7509869
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; siege attested in Great Turkish War histories — entry not yet checked on the page"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-wave2
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

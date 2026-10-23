@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 43:65 (سورة الزخرف، الآية 65)."
 text: "فَٱخْتَلَفَ ٱلْأَحْزَابُ مِنۢ بَيْنِهِمْ ۖ فَوَيْلٌ لِّلَّذِينَ ظَلَمُوا۟ مِنْ عَذَابِ يَوْمٍ أَلِيمٍ"
 text_search: "فاختلف الأحزاب من بينهم ۖ فويل للذين ظلموا من عذاب يوم أليم"
+translations:
+  en: { text: "But the factions among them differed. Then woe unto those who do wrong from the doom of a painful day.", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "پھر کتنے فرقے ان میں سے پھٹ گئے۔ سو جو لوگ ظالم ہیں ان کی درد دینے والے دن کے عذاب سے خرابی ہے", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-43 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

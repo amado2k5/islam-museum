@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 12:100 (سورة يوسف، الآية 100)."
 text: "وَرَفَعَ أَبَوَيْهِ عَلَى ٱلْعَرْشِ وَخَرُّوا۟ لَهُۥ سُجَّدًا ۖ وَقَالَ يَـٰٓأَبَتِ هَـٰذَا تَأْوِيلُ رُءْيَـٰىَ مِن قَبْلُ قَدْ جَعَلَهَا رَبِّى حَقًّا ۖ وَقَدْ أَحْسَنَ بِىٓ إِذْ أَخْرَجَنِى مِنَ ٱلسِّجْنِ وَجَآءَ بِكُم مِّنَ ٱلْبَدْوِ مِنۢ بَعْدِ أَن نَّزَغَ ٱلشَّيْطَـٰنُ بَيْنِى وَبَيْنَ إِخْوَتِىٓ ۚ إِنَّ رَبِّى لَطِيفٌ لِّمَا يَشَآءُ ۚ إِنَّهُۥ هُوَ ٱلْعَلِيمُ ٱلْحَكِيمُ"
 text_search: "ورفع أبويه على العرش وخروا له سجدا ۖ وقال يا أبت هذا تأويل رؤياي من قبل قد جعلها ربي حقا ۖ وقد أحسن بي إذ أخرجني من السجن وجاء بكم من البدو من بعد أن نزغ الشيطان بيني وبين إخوتي ۚ إن ربي لطيف لما يشاء ۚ إنه هو العليم الحكيم"
+translations:
+  en: { text: "And he placed his parents on the dais and they fell down before him prostrate, and he said: O my father! This is the interpretation of my dream of old. My Lord hath made it true, and He hath shown me kindness, since He took me out of the prison and hath brought you from the desert after Satan had made strife between me and my brethren. Lo! my Lord is tender unto whom He will. He is the Knower, the Wise.", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "اور اپنے والدین کو تخت پر بٹھایا اور سب یوسفؑ کے آگے سجدہ میں گر پڑے اور (اس وقت) یوسف نے کہا ابا جان یہ میرے اس خواب کی تعبیر ہے جو میں نے پہلے (بچپن میں) دیکھا تھا۔ میرے پروردگار نے اسے سچ کر دکھایا اور اس نے مجھ پر (بہت سے) احسان کئے ہیں کہ مجھ کو جیل خانے سے نکالا۔ اور اس کے بعد کہ شیطان نے مجھ میں اور میرے بھائیوں میں فساد ڈال دیا تھا۔ آپ کو گاؤں سے یہاں لایا۔ بےشک میرا پروردگار جو چاہتا ہے تدبیر سے کرتا ہے۔ وہ دانا (اور) حکمت والا ہے", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-12 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

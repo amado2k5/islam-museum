@@ -1,0 +1,23 @@
+id: event/siege-of-tyre-1111
+class: event
+kind: siege
+label: { ar: "حصار صور (١١١١)", en: "Siege of Tyre" }
+summary:
+  ar: "بطاقة أولية لحصار صور سنة ١١١١م، محاولة بلدوين الأول أخذ المدينة الفاطمية؛ لم تُراجع مصادره على الصفحة بعد."
+  en: "Draft card for the Siege of Tyre in 1111, Baldwin I's attempt on the Fatimid city; its sources are not yet checked on the page."
+wings: [time]
+periods: [period/buyid-seljuk-fatimid-era]
+regions: [levant-iraq]
+date:
+  start: { edtf: "1111", precision: year, status: tradition, derived: true }
+  end: { edtf: "1112", precision: year, status: tradition, derived: true }
+sources: [source/kamil-ibn-al-athir]
+external_ids:
+  wikidata: Q130343176
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; battle attested in narrative histories — entry not yet checked on the page"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-wave2
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

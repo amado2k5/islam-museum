@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 15:79 (سورة الحجر، الآية 79)."
 text: "فَٱنتَقَمْنَا مِنْهُمْ وَإِنَّهُمَا لَبِإِمَامٍ مُّبِينٍ"
 text_search: "فانتقمنا منهم وإنهما لبإمام مبين"
+translations:
+  en: { text: "So we took vengeance on them; and lo! they both are on a high-road plain to see.", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "تو ہم نے ان سے بھی بدلہ لیا۔ اور یہ دونوں شہر کھلے رستے پر (موجود) ہیں", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-15 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

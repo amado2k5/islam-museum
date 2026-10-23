@@ -86,6 +86,8 @@ const base = {
         // docs/plan/20-opinions.md: a named opinion within a disagreement
         id: { type: "string", pattern: "^[a-z0-9][a-z0-9-]*$" },
         stance: ref("localized"),
+        // docs/scope.md addendum: the museum's main reference is Sunni Islam and its wasatiyya; other opinions are tagged secondary or other
+        standing: enm(["main", "secondary", "other"]),
         holders: entityRefs,
         evidence: { type: "array", items: { type: "object", additionalProperties: false, required: ["ref"], properties: { ref: entityRef, note: ref("localized") } } },
       },
@@ -228,7 +230,11 @@ const classProps: Record<string, { properties: any; required?: string[] }> = {
   journey: {
     properties: { ...kind("journey"), travelers: entityRefs, distance_km: { type: "number" }, geometry: str,
       legs: { type: "array", items: { type: "object", required: ["from", "to"],
-        properties: { from: entityRef, to: entityRef, start: D, end: D, mode: str, events: entityRefs, note: str } } } },
+        properties: { from: entityRef, to: entityRef, start: D, end: D, mode: str, events: entityRefs, note: str } } },
+      // day-by-day stations for the journey player (docs/plan/21 §C.4): ordered, each at a place, with a day number and a narrative
+      waypoints: { type: "array", items: { type: "object", additionalProperties: false, required: ["place", "day", "title", "narrative"],
+        properties: { place: entityRef, day: intStr, day_status: enm(claimStatus), day_note: str, date: D, title: ref("localized"), narrative: ref("localized"),
+          events: entityRefs, sources: strs, coordinates_note: str } } } },
     required: ["kind"],
   },
   place: {
@@ -269,9 +275,15 @@ const classProps: Record<string, { properties: any; required?: string[] }> = {
   },
   passage: {
     properties: { work: entityRef, ref: str, unit: enm(["sura", "ayah", "hadith", "poem-line", "chapter", "other"]), sura: intStr, aya: intStr, text: str, text_search: str,
+      // sura chronology (docs/plan/21 §C.6): the Cairo-edition order of revelation and its Meccan/Medinan classification
+      revelation_order: intStr, revelation_place: enm(["meccan", "medinan"]),
       translations: { type: "object", additionalProperties: { type: "object", required: ["text"],
         properties: { text: str, translator: str, license: enm(licenses) } } },
-      audio: entityRefs, context: L },
+      audio: entityRefs,
+      // ordered isnad (commit 4d20f6f17): person refs only; the validator checks each one resolves
+      chain: { type: "array", description: "ordered isnad as stated in the source: first narrator nearest the work; person/muhammad is the terminal when the report reaches him (marfu'), otherwise the last element is the Companion the report stops at",
+        items: { type: "string", pattern: "^person/[a-z0-9][a-z0-9-]*$" }, minItems: 1 },
+      context: L },
     required: ["work", "ref"],
   },
   concept: {
@@ -295,7 +307,12 @@ const classProps: Record<string, { properties: any; required?: string[] }> = {
   exhibit: {
     properties: { ...kind("exhibit"), audience: strs, duration_minutes: intStr, curator: str, opened: { type: "string", format: "date" },
       prerequisites: entityRefs,
-      rooms: { type: "array", items: { type: "object", required: ["title"], properties: { title: L, body: L, features: entityRefs, media: entityRefs } } } },
+      goal: L, path_kind: enm(["era", "personalities", "events", "ideas", "places", "texts", "art", "culture", "hard-question", "starter"]),
+      level: enm(["intro", "standard", "deep"]),
+      outcomes: { type: "array", items: { type: "object", required: ["text"], properties: { text: L, steps: { type: "array", items: intStr } } } },
+      next: entityRefs,
+      rooms: { type: "array", items: { type: "object", required: ["title"], properties: { title: L, body: L, features: entityRefs, media: entityRefs,
+        depth: enm(["brief", "standard", "deep"]), optional: { type: "boolean" }, why_next: L, branch_of: intStr } } } },
     required: ["kind"],
   },
   question: {

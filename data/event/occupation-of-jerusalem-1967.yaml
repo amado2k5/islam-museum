@@ -1,0 +1,21 @@
+id: event/occupation-of-jerusalem-1967
+class: event
+kind: war
+label: { ar: "احتلال القدس الشرقية (1967)", en: "Occupation of East Jerusalem (1967)" }
+summary:
+  ar: "دخلت القوات الإسرائيلية بيت المقدس في 5 حزيران 1967م، وينظر الكتاب إلى ذلك بوصفه احتلالاً بعد حرب حزيران؛ ويعدّ ما تلاه من ضم للقدس وتغيير لمعالمها ومؤسساتها، ومن هدم أحياء ومساجد وكنائس، اعتداءً على الحالة الراهنة {cite:bayt-al-maqdis-fi-al-islam-azhar p. 52, 107-108}."
+  en: "Israeli forces entered Jerusalem on 5 June 1967. The book treats this as an occupation in the June war and describes the later annexation and changes in the city, including demolitions of quarters, mosques and churches, as a breach of the status quo {cite:bayt-al-maqdis-fi-al-islam-azhar p. 52, 107-108}. The characterisation is the book's own."
+wings: [time]
+regions: [levant-iraq]
+date:
+  start: { edtf: "1967-06-05", hijri: "", calendar: gregorian, precision: day, status: historical, note: "needs_source: 5 حزيران 1967 كما يطبعه الكتاب في ص 52؛ يحتاج مصدراً ثانياً." }
+relations:
+  - { type: occurred_at, target: place/jerusalem }
+sources: [source/bayt-al-maqdis-fi-al-islam-azhar]
+provenance:
+  layer: own-research
+  source: "Bayt al-Maqdis fi al-Islam (Academy, Scientific Series), PDF pp. 52, 96, 107-108"
+  generated_by: "Claude Code (Haiku 5.5)"
+  model: claude-haiku-5-5
+  run: azhar-bayt-al-maqdis-fi-al-islam-azhar
+status: { review: draft, completeness: 1, generated_by: "Claude Code (Haiku 5.5); contested topic, the book's position is labelled and needs the perspectives block with other views" }

@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 44:42 (سورة الدخان، الآية 42)."
 text: "إِلَّا مَن رَّحِمَ ٱللَّهُ ۚ إِنَّهُۥ هُوَ ٱلْعَزِيزُ ٱلرَّحِيمُ"
 text_search: "إلا من رحم الله ۚ إنه هو العزيز الرحيم"
+translations:
+  en: { text: "Save him on whom Allah hath mercy. Lo! He is the Mighty, the Merciful.", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "مگر جس پر خدا مہربانی کرے۔ وہ تو غالب اور مہربان ہے", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-44 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

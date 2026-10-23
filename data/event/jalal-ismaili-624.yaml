@@ -1,0 +1,23 @@
+id: event/jalal-ismaili-624
+class: event
+kind: raid
+label: { ar: "نهب جلال الدين بلد الإسماعيلية", en: "Jalal al-Din plunders the Ismaili lands" }
+date:
+  start: { edtf: "1227~", hijri: "0624", calendar: julian, precision: year, status: tradition, derived: true }
+summary:
+  ar: "نهب جلال الدين بلد الإسماعيلية ببلاد الجبل فأكثر فيهم القتل والسبي {cite:kamil-ibn-al-athir p. 472}."
+  en: "Jalal al-Din plundered the Ismaili lands of the Jibal, killing and capturing many {cite:kamil-ibn-al-athir p. 472}."
+sides:
+  - label: { ar: "المسلمون وخصومهم" }
+  - label: { ar: "الطرف الآخر" }
+relations:
+  - { type: occurred_at, target: place/jibal, sources: [source/kamil-ibn-al-athir] }
+  - { type: had_participant, target: person/jalal-al-din-khwarazmshah, role: "الغازي", sources: [source/kamil-ibn-al-athir] }
+  - { type: had_participant, target: group/ismaili-dawa, role: "المغارّ عليهم", sources: [source/kamil-ibn-al-athir] }
+provenance:
+  layer: own-research
+  source: "الكامل في التاريخ لابن الأثير، قراءة آبل فيجن"
+  generated_by: "Devin (SWE-2 Medium) from Apple Vision OCR"
+  run: lib-kamil-v12-batch08
+sources: [source/kamil-ibn-al-athir]
+status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 Medium)" }

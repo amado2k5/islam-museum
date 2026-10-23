@@ -1,0 +1,23 @@
+id: event/siege-of-nicosia-1570
+class: event
+kind: siege
+label: { ar: "حصار نيقوسيا (١٥٧٠)", en: "Siege of Nicosia (1570)" }
+summary:
+  ar: "بطاقة أولية لحصار نيقوسيا سنة ١٥٧٠م، سقوط عاصمة قبرص البندقية بيد العثمانيين في فتح الجزيرة؛ لم تُراجع مصادره على الصفحة بعد."
+  en: "Draft card for the Siege of Nicosia in 1570, the Ottoman capture of the Venetian capital of Cyprus during the conquest of the island; its sources are not yet checked on the page."
+wings: [time]
+periods: [period/gunpowder-empires]
+regions: [anatolia-balkans]
+date:
+  start: { edtf: "1570-07", precision: year, status: tradition, derived: true }
+  end: { edtf: "1570-09", precision: year, status: tradition, derived: true }
+sources: [source/dawlat-uthmaniyya-salabi]
+external_ids:
+  wikidata: Q97648727
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; battle attested in narrative histories — entry not yet checked on the page"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-wave2
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

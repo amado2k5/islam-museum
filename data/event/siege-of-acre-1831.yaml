@@ -1,0 +1,23 @@
+id: event/siege-of-acre-1831
+class: event
+kind: siege
+label: { ar: "حصار عكا (١٨٣١–١٨٣٢)", en: "Siege of Acre (1831–1832)" }
+summary:
+  ar: "بطاقة أولية لحصار عكا (١٨٣١–١٨٣٢)؛ لم تُراجع مصادره على الصفحة بعد."
+  en: "Draft card for Siege of Acre (1831–1832); its sources are not yet checked on the page."
+wings: [time]
+periods: [period/colonial-era]
+regions: [levant-iraq]
+date:
+  start: { edtf: "1831", precision: year, status: tradition, derived: true }
+  end: { edtf: "1832", precision: year, status: tradition, derived: true }
+sources: [source/tarikh-islam-hasan-ibrahim]
+external_ids:
+  wikidata: Q110430865
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; battle attested in narrative histories — entry not yet checked on the page"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-wave2
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

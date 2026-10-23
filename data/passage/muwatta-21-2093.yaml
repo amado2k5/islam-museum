@@ -1,0 +1,15 @@
+id: passage/muwatta-21-2093
+class: passage
+unit: hadith
+work: work/muwatta-malik
+ref: "2093"
+label: { ar: "الموطأ 2093 — مالك: من باع شقصا من أرض مشتركة، فسلم بعض من له فيها الشفعة للبائع، وأبى بعضهم إلا أن يأخذ بشفعته: إن من أبى أن يسلم يأخذ بالشفعة كلها، وليس له أن يأخذ بقدر حقه ويترك ما بقي", en: "Muwatta 2093" }
+summary:
+  ar: "قال مالك: ومن باع شقصا من أرض مشتركة، فسلم بعض من له فيها الشفعة للبائع، وأبى بعضهم إلا أن يأخذ بشفعته، فإن من أبى أن يسلم يأخذ بالشفعة كلها، وليس له أن يأخذ بقدر حقه ويترك ما بقي. {cite:muwatta-maruf-1997 p.256}"
+relations:
+  - { type: part_of, target: passage/muwatta-kitab-21-shufa }
+  - { type: mentions, target: person/malik-ibn-anas, sources: [source/muwatta-maruf-1997] }
+  - { type: basis_for, target: concept/shufa, sources: [source/muwatta-maruf-1997] }
+provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 2, hadith 2093 at PDF p. 256; ما تقع فيه الشفعة", generated_by: "Claude Code (claude-haiku-5-5) from Apple Vision OCR of the Noor-Book PDF, checked on the page image where doubtful", run: "muwatta-prose-k21-b59" }
+sources: [source/muwatta-maruf-1997]
+status: { review: draft, completeness: 2, generated_by: "Claude Code (claude-haiku-5-5); own-words account written from PDF p. 256; matn excerpt at most 40 words" }

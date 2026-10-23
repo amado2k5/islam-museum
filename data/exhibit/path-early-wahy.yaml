@@ -1,0 +1,76 @@
+id: exhibit/path-early-wahy
+class: exhibit
+kind: trail
+label:
+  ar: أول الوحي
+  en: The First Revelations
+summary:
+  ar: 'مسار في بدء النزول: اقرأ في الغار، والمدثر والمزمل يخاطبان، والضحى تواسي — الوحي يبدأ.'
+  en: A trail through the opening of revelation.
+audience:
+- newcomer
+- student
+duration_minutes: 30
+wings: []
+regions:
+- arabia
+rooms:
+- title:
+    ar: اقرأ
+    en: Iqra'
+  body:
+    ar: 'غار حراء: العلق أول النازل.'
+    en: 'غار حراء: العلق أول النازل.'
+  features:
+  - passage/quran-96-1
+  - place/mecca
+- title:
+    ar: المدثر
+    en: Al-Muddaththir
+  body:
+    ar: 'قم فأنذر: الدعوة تبدأ.'
+    en: 'قم فأنذر: الدعوة تبدأ.'
+  features:
+  - passage/quran-74
+  - passage/quran-74-1
+- title:
+    ar: المزمل
+    en: Al-Muzzammil
+  body:
+    ar: 'يا أيها المزمل: قيام الليل.'
+    en: 'يا أيها المزمل: قيام الليل.'
+  features:
+  - passage/quran-73
+  - passage/quran-73-1
+- title:
+    ar: الضحى
+    en: Ad-Duha
+  body:
+    ar: 'ما ودعك ربك وما قلى: المواساة.'
+    en: 'ما ودعك ربك وما قلى: المواساة.'
+  features:
+  - passage/quran-93
+  - passage/quran-93-1
+- title:
+    ar: الشرح
+    en: Ash-Sharh
+  body:
+    ar: 'ألم نشرح لك صدرك: البشارة.'
+    en: 'ألم نشرح لك صدرك: البشارة.'
+  features:
+  - passage/quran-94
+  - passage/quran-94
+prerequisites:
+- exhibit/path-islam-in-30-minutes
+sources:
+- source/wikidata
+provenance:
+  layer: own-research
+  source: Devin-assembled trail from existing museum entities
+  generated_by: Devin (SWE-2 High)
+  model: SWE-2 High
+  run: pathways-batch-7
+status:
+  review: draft
+  completeness: 1
+  generated_by: Devin (SWE-2 High), pathways lane, 2026-10-16

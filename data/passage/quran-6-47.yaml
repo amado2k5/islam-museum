@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 6:47 (سورة الأنعام، الآية 47)."
 text: "قُلْ أَرَءَيْتَكُمْ إِنْ أَتَىٰكُمْ عَذَابُ ٱللَّهِ بَغْتَةً أَوْ جَهْرَةً هَلْ يُهْلَكُ إِلَّا ٱلْقَوْمُ ٱلظَّـٰلِمُونَ"
 text_search: "قل أرأيتكم إن أتاكم عذاب الله بغتة أو جهرة هل يهلك إلا القوم الظالمون"
+translations:
+  en: { text: "Say: Can ye see yourselves, if the punishment of Allah come upon you unawares or openly? Would any perish save wrongdoing folk?", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "کہو کہ بھلا بتاؤ تو اگر تم پر خدا کا عذاب بےخبری میں یا خبر آنے کے بعد آئے تو کیا ظالم لوگوں کے سوا کوئی اور بھی ہلاک ہوگا؟", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-6 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

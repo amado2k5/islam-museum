@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 2:162 (سورة البقرة، الآية 162)."
 text: "خَـٰلِدِينَ فِيهَا ۖ لَا يُخَفَّفُ عَنْهُمُ ٱلْعَذَابُ وَلَا هُمْ يُنظَرُونَ"
 text_search: "خالدين فيها ۖ لا يخفف عنهم العذاب ولا هم ينظرون"
+translations:
+  en: { text: "They ever dwell therein. The doom will not be lightened for them, neither will they be reprieved.", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "وہ ہمیشہ اسی (لعنت) میں (گرفتار) رہیں گے۔ ان سے نہ تو عذاب ہی ہلکا کیا جائے گا اور نہ انہیں (کچھ) مہلت ملے گی", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-2 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

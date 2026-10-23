@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 18:18 (سورة الكهف، الآية 18)."
 text: "وَتَحْسَبُهُمْ أَيْقَاظًا وَهُمْ رُقُودٌ ۚ وَنُقَلِّبُهُمْ ذَاتَ ٱلْيَمِينِ وَذَاتَ ٱلشِّمَالِ ۖ وَكَلْبُهُم بَـٰسِطٌ ذِرَاعَيْهِ بِٱلْوَصِيدِ ۚ لَوِ ٱطَّلَعْتَ عَلَيْهِمْ لَوَلَّيْتَ مِنْهُمْ فِرَارًا وَلَمُلِئْتَ مِنْهُمْ رُعْبًا"
 text_search: "وتحسبهم أيقاظا وهم رقود ۚ ونقلبهم ذات اليمين وذات الشمال ۖ وكلبهم باسط ذراعيه بالوصيد ۚ لو اطلعت عليهم لوليت منهم فرارا ولملئت منهم رعبا"
+translations:
+  en: { text: "And thou wouldst have deemed them waking though they were asleep, and We caused them to turn over to the right and the left, and their dog stretching out his paws on the threshold. If thou hadst observed them closely thou hadst assuredly turned away from them in flight, and hadst been filled with awe of them.", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "اور تم ان کو خیال کرو کہ جاگ رہے ہیں حالانکہ وہ سوتے ہیں۔ اور ہم ان کو دائیں اور بائیں کروٹ بدلاتے تھے۔ اور ان کا کتا چوکھٹ پر دونوں ہاتھ پھیلائے ہوئے تھا۔ اگر تم ان کو جھانک کر دیکھتے تو پیٹھ پھیر کر بھاگ جاتے اور ان سے دہشت میں آجاتے", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-18 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }
