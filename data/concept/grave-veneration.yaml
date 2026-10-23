@@ -1,0 +1,35 @@
+id: concept/grave-veneration
+class: concept
+kind: belief
+label: { ar: "تعظيم القبور", en: "Veneration of graves" }
+summary:
+  ar: "تعظيم القبور بالصلاة عندها والدعاء والاستغاثة بأصحابها والطواف بها والبناء عليها وإيقاد السرج؛ يرى ابن قيم الجوزية، كما ينقله منتخب «إغاثة اللهفان»، أن هذا كان أصل فتنة عبادة الأصنام، وأنه يُفضي إلى الشرك، وأن النهي عنه متواتر في الحديث."
+  en: "The veneration of graves: praying at them, supplicating and seeking help from their occupants, circling them, building on them and lighting lamps. As the extract of Ighathat al-Lahfan presents Ibn Qayyim's view, this was the origin of idol worship, leads to shirk, and is forbidden by hadith that is widely transmitted."
+themes: [creed, worship-and-the-pillars]
+periods: [period/prophetic-era, period/crusades-ayyubid-mamluk]
+regions: [global]
+issue:
+  ar: "هل يجوز التوسل بالقبور وأصحابها، وما حدود زيارتها والدعاء عندها؟"
+  en: "Is it permitted to seek nearness through graves and their occupants, and where do visiting and praying at graves stop?"
+perspectives:
+  - tradition: sunni
+    id: ighathat-lahfan
+    stance:
+      ar: "النهي عن الصلاة عند القبور وبناء المساجد عليها والاستغاثة بأصحابها؛ وهذا من تحقيق التوحيد، والزيارة الشرعية مقصورة على السلام والدعاء والاعتبار"
+      en: "Prayer at graves, building mosques on them and seeking help from their occupants are forbidden; this protects tawhid, and the lawful visit is limited to greeting, prayer for the dead and reflection"
+    summary:
+      ar: "يذكر ابن قيم الجوزية، في منتخب «إغاثة اللهفان»، أن الشيطان أوقع الناس في الفتنة بالقبور تدريجياً، من الزيارة إلى الدعاء عندها إلى الاستغاثة بأصحابها إلى عبادتها، وأن الصحابة والتابعين لم ينقل عنهم شيء من ذلك. ويرى أن حديث النهي عن اتخاذ القبور مساجد وعن جعل القبر عيداً صريح، وأن الصلاة عند القبور منهي عنها إجماعاً بحسب قوله. ويعدّ الاستدلال على جواز الدعاء عند القبر بأنه «أفضل» أو بأنه «بركة» استدلالاً فاسداً."
+      en: "Ibn Qayyim, as the extract presents him, describes Satan leading people step by step at graves: from visiting, to praying there, to seeking help from the occupants, to worshipping them. He argues that the Companions and Successors transmitted nothing of this, that the hadith against taking graves as mosques or as festivals is explicit, and that the claim of consensus is that prayer at graves is forbidden. He rejects the argument that the place is blessed or that the dead answer prayers there as a proof of legitimacy."
+    holders:
+      - person/ibn-qayyim-al-jawziyya
+      - work/ighathat-al-lahfan
+    evidence:
+      - ref: source/ighathat-lahfan-muntakhab
+        note:
+          ar: "ص 2-5 (النهي عن اتخاذ القبور مساجد ومنع الصلاة عندها)، ص 14-16 (ترك الصحابة والتابعين لذلك)، ص 18 (مراحل الفتنة)"
+          en: "pp. 2-5 (the prohibition on taking graves as mosques and on praying at them), pp. 14-16 (the Companions' and Successors' silence on it), p. 18 (the stages of the trap)"
+    sources:
+      - source/ighathat-lahfan-muntakhab
+provenance: { layer: own-research, source: "منتخب من إغاثة اللهفان، ص 2-21 (النصوص عن القبور والبدع والشرك)", generated_by: "Claude Haiku 5.5 (book-3 harvest)", model: claude-haiku-5-5, run: book-3-ighathat }
+sources: [source/ighathat-lahfan-muntakhab]
+status: { review: draft, completeness: 1, generated_by: "Claude Haiku 5.5; from the extract only; the academic view and the views of other jurists on visiting graves are not yet added and need their own sources" }
