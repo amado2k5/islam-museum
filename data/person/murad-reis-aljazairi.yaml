@@ -1,0 +1,25 @@
+id: person/murad-reis-aljazairi
+class: person
+label:
+  ar: "مراد رايس الجزائري"
+  en: "Murad Reis of Algiers"
+names:
+  - { kind: full, lang: ar, value: "مراد رايس" }
+roles: [corsair, military-leader]
+gender: male
+summary:
+  ar: "رايس جزائري في عهد حسن فنزيانو؛ توغل في المحيط الأطلسي نحو سنة ٩٩٤هـ/١٥٨٦م فأغار على جزر الكناري وغنم منها غنائم كثيرة، ومن بين الأسرى زوجة حاكم تلك الجزر {cite:dawlat-uthmaniyya-salabi p. 272}."
+  en: "An Algerian reis of Hasan Veneziano's era; around 994/1586 he pushed into the Atlantic, raided the Canary Islands and took rich plunder — the islands' governor's wife among the captives {cite:dawlat-uthmaniyya-salabi p. 272}."
+wings: [people]
+regions: [maghreb]
+periods: [period/gunpowder-empires]
+relations:
+  - { type: allied_with, target: person/hasan-veneziano, sources: [source/dawlat-uthmaniyya-salabi] }
+sources: [source/dawlat-uthmaniyya-salabi]
+provenance:
+  layer: own-research
+  source: "الدولة العثمانية لعلي محمد الصلابي (ط1 1421) ص 272"
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: salabi-uthmani-batch15
+status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 Medium)" }
