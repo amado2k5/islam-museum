@@ -4,6 +4,7 @@
 // (site/src/scripts/kindness.ts) reveals stickers, paints progress and handles erase/print.
 import type { DeedView } from "../lib/kids";
 import { fmt, type Lang } from "../lib/i18n";
+import Qr from "./Qr.astro";
 
 interface Props { lang: Lang; t: Record<string, string>; deeds: DeedView[] }
 const { lang, t, deeds } = Astro.props;
@@ -49,6 +50,7 @@ const dayLabel = (n: number) => fmt(t.kindness_day, { n: String(n) });
   <section class="kindness-chart print-only" id="kindness-chart" aria-label={t.kindness_print}>
     <h2>{t.kindness_print}</h2>
     <p class="no-print"><button type="button" class="kids-btn" data-print>{t.kindness_print}</button></p>
+    <Qr lang={lang} path={`/${lang}/sighar/kindness/`} />
     <ol class="sticker-chart">
       {deeds.map((d) => (
         <li data-day={d.day}>
