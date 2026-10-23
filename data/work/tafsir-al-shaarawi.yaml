@@ -1,0 +1,21 @@
+id: work/tafsir-al-shaarawi
+class: work
+kind: book
+label: { ar: "تفسير الشعراوي (الخواطر)", en: "Tafsir al-Sha'rawi (al-Khawatir)" }
+summary:
+  ar: "تفسير للقرآن الكريم ألقاه محمد متولي الشعراوي على الناس، ثم دُوّن في كتب تحمل اسم «تفسير الشعراوي» أو «الخواطر». يمضي مع الآيات بالترتيب، ويجمع بين بيان المعنى اللغوي والتعليق الاجتماعي والوعظ. تستند هذه البطاقة إلى نسخة ممسوحة واحدة لم تُتحقق طبعتها بعد."
+  en: "A Qur'an commentary delivered orally by Muhammad Mutawalli al-Sha'rawi and later transcribed in books titled Tafsir al-Sha'rawi or al-Khawatir. It takes the verses in order and combines the explanation of meaning with social commentary and admonition. This card rests on one scanned copy whose edition has not been verified."
+genre: [tafsir]
+authors: [person/muhammad-mutawalli-al-shaarawi]
+language: language/arabic
+relations:
+  - { type: authored_by, target: person/muhammad-mutawalli-al-shaarawi }
+periods: [period/modern-era]
+provenance:
+  layer: own-research
+  source: "تفسير الشعراوي، نسخة ممسوحة، صفحات المسح 2501-2522 (نص OCR محلي)"
+  generated_by: "Claude Haiku 5.5"
+  model: claude-haiku-5-5
+  run: "tafsir-sharawi-2501-3000 batch 1"
+sources: [source/tafsir-sharawi-khawatir-scan]
+status: { review: draft, completeness: 1, generated_by: "Claude Haiku 5.5; scan pages 2501-2522 only; edition unverified; the rest of the scan not yet harvested" }
