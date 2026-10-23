@@ -1,0 +1,23 @@
+id: event/siege-of-cawnpore-1857
+class: event
+kind: siege
+label: { ar: "حصار كانبور", en: "Siege of Cawnpore" }
+summary:
+  ar: "بطاقة أولية لحصار كانبور سنة ١٨٥٧م، محاصرة نانا صاحب للحامية البريطانية ومذبحة ستيبويل في الثورة الهندية؛ لم تُراجع مصادره على الصفحة بعد."
+  en: "Draft card for the Siege of Cawnpore in 1857, Nana Sahib's investment of the British garrison and the massacre of the rising; its sources are not yet checked on the page."
+wings: [time]
+periods: [period/colonial-era]
+regions: [south-asia]
+date:
+  start: { edtf: "1857", precision: year, status: tradition, derived: true }
+  end: { edtf: "1857", precision: year, status: tradition, derived: true }
+sources: [source/tarikh-islam-hasan-ibrahim]
+external_ids:
+  wikidata: Q627881
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; siege attested in Indian-revolt histories — entry not yet checked on the page"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-wave2
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

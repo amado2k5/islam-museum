@@ -1,0 +1,32 @@
+id: event/ali-equal-distribution-of-fay
+class: event
+kind: other
+label: { ar: "تسوية علي في قسمة المال بين الناس", en: "Ali's equal distribution of the fay and the treasury" }
+summary:
+  ar: "يذكر الصلابي أن علياً كان يقسم المال حين يرد إليه بالتسوية بين الناس، بعد أن يحتجز ما تحتاجه المرافق العامة، ولا يفضل شريفاً على مشروف ولا عربياً على أعجمي؛ فلما شكت امرأة عربية إليه أن الأعجمية تساويها قال: لا أجد لبني إسماعيل في هذا الفيء فضلاً على بني إسحاق {cite:sallabi-ali-vol1 p. 229}. ويروي الكتاب كذلك قصة مال من أصبهان قُسم سبعة أسباع، ووجد فيه رغيف فقُسم سبع كسر وأُقرع بين الناس {cite:sallabi-ali-vol1 p. 228}، وقصة عمرو بن سلمة مع أم كلثوم بنت علي في الزقاق من العسل والسمن {cite:sallabi-ali-vol1 p. 229}."
+  en: "Ali distributed incoming money equally among the people after setting aside what public needs required, and gave Arab and non-Arab women the same portion, saying he finds no merit for the children of Ishmael over the children of Isaac in the fay. The book also records a sum from Isfahan split into seven shares and a loaf cut into seven pieces drawn by lot, and a dispute over two jars of honey and ghee taken by Ali's daughter Umm Kulthum."
+wings: [people, ideas]
+periods: [period/rashidun]
+regions: [levant-iraq]
+date:
+  start: { edtf: "0656/0661", calendar: julian, precision: year, status: tradition, derived: true, note: "الكتاب يذكر الوقائع في سياق خلافة علي ولا يؤرخ كل خبر؛ ثقة منخفضة." }
+relations:
+  - { type: had_participant, target: person/ali-ibn-abi-talib, role: "المقسِّم", sources: [source/sallabi-ali-vol1] }
+  - { type: had_participant, target: person/umm-kulthum-bint-ali, role: "صاحبة الزقين في خبر العسل والسمن", sources: [source/sallabi-ali-vol1] }
+sources: [source/sallabi-ali-vol1]
+issue: { ar: "هل تكون قسمة المال بالتساوي بين الناس، وما حدود هذه التسوية؟", en: "Whether the distribution of public money should be equal, and what limits apply" }
+perspectives:
+  - tradition: sunni
+    id: sunni-book
+    summary:
+      ar: "يعرض الصلابي المساواة في العطاء بوصفها مبدأ إسلامياً عاماً، ويقتدي فيه علي بأبي بكر، ويرى أنها لا تخرج عن الفقه العام لقسمة الفيء {cite:sallabi-ali-vol1 p. 229}."
+      en: "Al-Sallabi presents equality in giving as a general Islamic principle that Ali followed in the manner of Abu Bakr {cite:sallabi-ali-vol1 p. 229}."
+    sources: [source/sallabi-ali-vol1]
+  - tradition: academic
+    id: academic
+    summary:
+      ar: "لم يُعرض في هذا الجزء رأي أكاديمي في صحة الأخبار المالية أو في مقدار التسوية المنسوب إلى علي؛ يحتاج إلى مرجع محدد (needs_source)."
+      en: "No academic reading is set out here of the reports on distribution or of the degree of equality attributed to Ali; to be added from a named source (needs_source)."
+    sources: []
+provenance: { layer: own-research, source: "sallabi-ali-vol1 pp. 228-230", generated_by: "Claude Code", model: "claude-haiku-5-5", run: "sallabi-ali-vol1-deep-pp201-250" }
+status: { review: draft, completeness: 1, generated_by: "Claude Code (claude-haiku-5-5); mined from sallabi-ali-vol1 pp. 228-230" }

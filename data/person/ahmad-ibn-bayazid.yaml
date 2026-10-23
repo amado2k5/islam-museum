@@ -1,0 +1,28 @@
+id: person/ahmad-ibn-bayazid
+class: person
+label:
+  ar: "الأمير أحمد بن بايزيد الثاني"
+  en: "Prince Ahmad, son of Bayezid II"
+gender: male
+roles: [prince]
+summary:
+  ar: "الأمير أحمد، أخو السلطان [[person/selim-i-ottoman|سليم الأول]]؛ ينقل الصلابي أنه فرّ من وجه سليم إلى المماليك في مقدمة الأمراء العثمانيين الفارين، وأن السلطات المملوكية أرادت اتخاذ وجود هؤلاء الأمراء لديها أداة لإثارة المتاعب في وجه سليم {cite:dawlat-uthmaniyya-salabi p. 184-185}."
+  en: "Prince Ahmad, brother of Sultan [[person/selim-i-ottoman|Selim I]]; al-Salabi places him foremost among the Ottoman princes who fled to the Mamluks, whose court meant to use them as instruments of trouble against Selim {cite:dawlat-uthmaniyya-salabi p. 184-185}."
+wings: [people]
+regions: [anatolia-balkans, egypt-nile]
+periods: [period/gunpowder-empires]
+relations:
+  - { type: child_of, target: person/bayazid-ii, sources: [source/dawlat-uthmaniyya-salabi] }
+  - { type: sibling_of, target: person/selim-i-ottoman, sources: [source/dawlat-uthmaniyya-salabi] }
+sources: [source/dawlat-uthmaniyya-salabi]
+external_ids:
+  wikidata: Q4692614
+provenance:
+  layer: own-research
+  source: "الدولة العثمانية لعلي محمد الصلابي (ط1 1421)"
+  generated_by: "Devin (SWE-2 Medium) from Apple Vision OCR"
+  model: "SWE-2 Medium"
+  run: lib-salabi-uthmani-batch-7
+status:
+  review: draft
+  completeness: 2

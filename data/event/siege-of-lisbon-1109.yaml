@@ -1,0 +1,23 @@
+id: event/siege-of-lisbon-1109
+class: event
+kind: siege
+label: { ar: "حصار لشبونة (١١٠٩)", en: "Siege of Lisbon (1109)" }
+summary:
+  ar: "بطاقة أولية لحصار لشبونة (١١٠٩)؛ لم تُراجع مصادره على الصفحة بعد."
+  en: "Draft card for Siege of Lisbon (1109); its sources are not yet checked on the page."
+wings: [time]
+periods: [period/crusades-ayyubid-mamluk]
+regions: [andalus-europe]
+date:
+  start: { edtf: "1109", precision: year, status: tradition, derived: true }
+  end: { edtf: "1109", precision: year, status: tradition, derived: true }
+sources: [source/tarikh-islam-hasan-ibrahim]
+external_ids:
+  wikidata: Q126372137
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; battle attested in narrative histories — entry not yet checked on the page"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-wave2
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

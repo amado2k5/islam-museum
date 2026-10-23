@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 2:254 (سورة البقرة، الآية 254)."
 text: "يَـٰٓأَيُّهَا ٱلَّذِينَ ءَامَنُوٓا۟ أَنفِقُوا۟ مِمَّا رَزَقْنَـٰكُم مِّن قَبْلِ أَن يَأْتِىَ يَوْمٌ لَّا بَيْعٌ فِيهِ وَلَا خُلَّةٌ وَلَا شَفَـٰعَةٌ ۗ وَٱلْكَـٰفِرُونَ هُمُ ٱلظَّـٰلِمُونَ"
 text_search: "يا أيها الذين آمنوا أنفقوا مما رزقناكم من قبل أن يأتي يوم لا بيع فيه ولا خلة ولا شفاعة ۗ والكافرون هم الظالمون"
+translations:
+  en: { text: "O ye who believe! spend of that wherewith We have provided you ere a day come when there will be no trafficking, nor friendship, nor intercession. The disbelievers, they are the wrong-doers.", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "اے ایمان والو جو (مال) ہم نے تم کو دیا ہے اس میں سے اس دن کے آنے سے پہلے پہلے خرچ کرلو جس میں نہ (اعمال کا) سودا ہو اور نہ دوستی اور سفارش ہو سکے اور کفر کرنے والے لوگ ظالم ہیں", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-2 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

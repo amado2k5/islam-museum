@@ -1,0 +1,27 @@
+id: person/sultan-al-balabakki
+class: person
+label: { ar: "الشيخ سلطان البعلبكي", en: "al-Shaykh Sultan al-Ba'labakki" }
+names:
+  - { value: "سلطان بن محمود البعلبكي الزاهد", kind: full }
+died: { edtf: "1243", hijri: "0641", calendar: julian, precision: year, status: tradition, derived: true, note: "وردت ترجمته في أموات سنة إحدى وأربعين وستمائة {cite:shadharat-dhahab p. 219}." }
+summary:
+  ar: "الزاهد أحد أصحاب الشيخ عبد الله اليونيني؛ قال السخاوي في طبقاته كان من كبار أولياء الله؛ حكى خادمه أنه سأله كم مرة رحت إلى مكة في ليلة فقال ثلاث عشرة مرة، وحكى ابنه أنه كانت تفتح له أبواب بعلبك بالليل؛ وأعطى سايساً كردياً الحال ثم أمره بدفنه بعد ثلاثة أيام فمات السايس بعد ثلاث {cite:shadharat-dhahab p. 219}."
+  en: "The Baalbek ascetic, companion of Abdallah al-Yunini (d. 641) — al-Sakhawi counts him among the great awliya'; his tradition credits him with reaching Mecca in a night thirteen times and with Baalbek's gates opening for him after dark {cite:shadharat-dhahab p. 219}."
+gender: male
+roles: [mystic]
+wings: [people]
+periods: [period/crusades-ayyubid-mamluk]
+regions: [levant-iraq]
+faith:
+  - value: sunni
+    basis: tradition
+relations:
+  - { type: student_of, target: person/abdallah-al-yunini, sources: [source/shadharat-dhahab] }
+  - { type: lived_in, target: place/baalbek, sources: [source/shadharat-dhahab] }
+sources: [source/shadharat-dhahab]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }
+provenance:
+  layer: own-research
+  source: "شذرات الذهب — ابن العماد (ج5، سنة 641)، قراءة آبل فيجن"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-shadharat-batch-127

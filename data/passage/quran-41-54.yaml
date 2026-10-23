@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 41:54 (سورة فصلت، الآية 54)."
 text: "أَلَآ إِنَّهُمْ فِى مِرْيَةٍ مِّن لِّقَآءِ رَبِّهِمْ ۗ أَلَآ إِنَّهُۥ بِكُلِّ شَىْءٍ مُّحِيطٌۢ"
 text_search: "ألا إنهم في مرية من لقاء ربهم ۗ ألا إنه بكل شيء محيط"
+translations:
+  en: { text: "How! Are they still in doubt about the meeting with their Lord? Lo! Is not He surrounding all things?", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "دیکھو یہ اپنے پروردگار کے روبرو حاضر ہونے سے شک میں ہیں۔ سن رکھو کہ وہ ہر چیز پر احاطہ کئے ہوئے ہے", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-41 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

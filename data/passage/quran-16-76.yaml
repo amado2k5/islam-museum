@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 16:76 (سورة النحل، الآية 76)."
 text: "وَضَرَبَ ٱللَّهُ مَثَلًا رَّجُلَيْنِ أَحَدُهُمَآ أَبْكَمُ لَا يَقْدِرُ عَلَىٰ شَىْءٍ وَهُوَ كَلٌّ عَلَىٰ مَوْلَىٰهُ أَيْنَمَا يُوَجِّههُّ لَا يَأْتِ بِخَيْرٍ ۖ هَلْ يَسْتَوِى هُوَ وَمَن يَأْمُرُ بِٱلْعَدْلِ ۙ وَهُوَ عَلَىٰ صِرَٰطٍ مُّسْتَقِيمٍ"
 text_search: "وضرب الله مثلا رجلين أحدهما أبكم لا يقدر على شيء وهو كل على مولاه أينما يوجهه لا يأت بخير ۖ هل يستوي هو ومن يأمر بالعدل ۙ وهو على صراط مستقيم"
+translations:
+  en: { text: "And Allah coineth a similitude: Two men, one of them dumb, having control of nothing, and he is a burden on his owner; whithersoever he directeth him to go, he bringeth no good. Is he equal with one who enjoineth justice and followeth a straight path (of conduct)?", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "اور خدا ایک اور مثال بیان فرماتا ہے کہ دو آدمی ہیں ایک اُن میں سے گونگا (اور دوسرے کی ملک) ہے (بےاختیار وناتوان) کہ کسی چیز پر قدرت نہیں رکھتا۔ اور اپنے مالک کو دوبھر ہو رہا ہے وہ جہاں اُسے بھیجتا ہے (خیر سے کبھی) بھلائی نہیں لاتا۔ کیا ایسا (گونگا بہرا) اور وہ شخص جو (سنتا بولتا اور) لوگوں کو انصاف کرنے کا حکم دیتا ہے اور خود سیدھے راستے پر چل رہا ہے دونوں برابر ہیں؟", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-16 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

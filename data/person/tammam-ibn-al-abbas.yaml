@@ -1,0 +1,21 @@
+id: person/tammam-ibn-al-abbas
+class: person
+label: { ar: "تمام بن العباس بن عبد المطلب", en: "Tammam ibn al-Abbas" }
+gender: male
+roles: [emir]
+summary:
+  ar: "ابن العباس بن عبد المطلب، ذكره الصلابي واليا على المدينة في عهد علي ضمن أبناء عمه الذين ولاهم {cite:sallabi-ali-vol1 p. 357}."
+  en: "A son of al-Abbas ibn Abd al-Muttalib whom the book lists as Ali's governor of Medina among his cousins {cite:sallabi-ali-vol1 p. 357}."
+periods: [period/rashidun]
+wings: [people]
+relations:
+  - { type: ruler_of, target: place/medina, sources: [source/sallabi-ali-vol1] }
+  - { type: participated_in, target: event/ali-appoints-abbas-sons-as-governors, sources: [source/sallabi-ali-vol1] }
+sources: [source/sallabi-ali-vol1]
+provenance:
+  layer: own-research
+  source: "sallabi-ali-vol1 p. 357, governors list (harvest OCR)"
+  generated_by: "Claude Code"
+  model: "claude-haiku-5-5"
+  run: "sallabi-ali-vol1-deep-pp351-388"
+status: { review: draft, completeness: 1, generated_by: "Claude Code (claude-haiku-5-5); from the book's list only" }

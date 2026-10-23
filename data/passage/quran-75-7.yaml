@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 75:7 (سورة القيامة، الآية 7)."
 text: "فَإِذَا بَرِقَ ٱلْبَصَرُ"
 text_search: "فإذا برق البصر"
+translations:
+  en: { text: "But when sight is confounded", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "جب آنکھیں چندھیا جائیں", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-75 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

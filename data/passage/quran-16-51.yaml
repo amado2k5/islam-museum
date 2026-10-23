@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 16:51 (سورة النحل، الآية 51)."
 text: "۞ وَقَالَ ٱللَّهُ لَا تَتَّخِذُوٓا۟ إِلَـٰهَيْنِ ٱثْنَيْنِ ۖ إِنَّمَا هُوَ إِلَـٰهٌ وَٰحِدٌ ۖ فَإِيَّـٰىَ فَٱرْهَبُونِ"
 text_search: "۞ وقال الله لا تتخذوا إلهين اثنين ۖ إنما هو إله واحد ۖ فإياي فارهبون"
+translations:
+  en: { text: "Allah hath said: Choose not two gods. There is only One Allah. So of Me, Me only, be in awe.", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "اور خدا نے فرمایا ہے کہ دو دو معبود نہ بناؤ۔ معبود وہی ایک ہے۔ تو مجھ ہی سے ڈرتے رہو", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-16 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

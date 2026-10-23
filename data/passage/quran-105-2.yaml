@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 105:2 (سورة الفيل، الآية 2)."
 text: "أَلَمْ يَجْعَلْ كَيْدَهُمْ فِى تَضْلِيلٍ"
 text_search: "ألم يجعل كيدهم في تضليل"
+translations:
+  en: { text: "Did He not bring their stratagem to naught,", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "کیا ان کا داؤں غلط نہیں کیا؟ (گیا)", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-105 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

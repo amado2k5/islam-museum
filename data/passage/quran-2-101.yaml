@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 2:101 (سورة البقرة، الآية 101)."
 text: "وَلَمَّا جَآءَهُمْ رَسُولٌ مِّنْ عِندِ ٱللَّهِ مُصَدِّقٌ لِّمَا مَعَهُمْ نَبَذَ فَرِيقٌ مِّنَ ٱلَّذِينَ أُوتُوا۟ ٱلْكِتَـٰبَ كِتَـٰبَ ٱللَّهِ وَرَآءَ ظُهُورِهِمْ كَأَنَّهُمْ لَا يَعْلَمُونَ"
 text_search: "ولما جاءهم رسول من عند الله مصدق لما معهم نبذ فريق من الذين أوتوا الكتاب كتاب الله وراء ظهورهم كأنهم لا يعلمون"
+translations:
+  en: { text: "And when there cometh unto them a messenger from Allah, confirming that which they possess, a party of those who have received the Scripture fling the Scripture of Allah behind their backs as if they knew not,", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "اور جب ان کے پاس الله کی طرف سے پیغمبر (آخرالزماں) آئے، اور وہ ان کی (آسمانی) کتاب کی بھی تصدیق کرتے ہیں تو جن لوگوں کو کتاب دی گئی تھی، ان میں سے ایک جماعت نے خدا کی کتاب کو پیٹھ پیچھے پھینک دیا، گویا وہ جانتے ہی نہیں", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-2 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

@@ -20,7 +20,8 @@ story_roles:
 faith:
   - { value: sunni, basis: tradition, start: { edtf: "0630" }, note: "صحابي وسيد ثقيف استشهد داعياً للإسلام." }
 relations:
+  - { type: participated_in, target: event/delegation-of-thaqif, role: "أسلم قبل وفد ثقيف ودعا قومه إلى الإسلام فقُتل", sources: [source/ibn-hisham-saqqa] }
   - { type: born_in, target: place/taif }
   - { type: participated_in, target: event/treaty-of-hudaybiyya, role: "مفاوض قريش", sources: [source/mubarakpuri-raheeq, source/sahih-al-bukhari] }
-sources: [source/mubarakpuri-raheeq, source/sahih-al-bukhari, source/ibn-hisham-sira]
+sources: [source/mubarakpuri-raheeq, source/sahih-al-bukhari, source/ibn-hisham-sira, source/ibn-hisham-saqqa]
 status: { review: draft, completeness: 2, generated_by: "Devin; al-Raheeq al-Makhtum pp. 340, 421" }

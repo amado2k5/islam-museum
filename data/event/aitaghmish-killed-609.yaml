@@ -1,0 +1,19 @@
+id: event/aitaghmish-killed-609
+class: event
+kind: death
+label: { ar: "قتل أيتغمش", en: "Aytaqmish killed" }
+date:
+  start: { edtf: "1212~", hijri: "0609", calendar: julian, precision: year, status: tradition, derived: true }
+summary:
+  ar: "قُتل أيتغمش صاحب بلاد الجبل سابقًا بعد هربه من منكلي {cite:kamil-ibn-al-athir p. 360}."
+  en: "Aytaqmish, former master of the Jibal, was killed after his flight before Mungli {cite:kamil-ibn-al-athir p. 360}."
+relations:
+  - { type: occurred_at, target: place/jibal, sources: [source/kamil-ibn-al-athir] }
+  - { type: had_participant, target: person/aytaqmish, role: "المقتول", sources: [source/kamil-ibn-al-athir] }
+provenance:
+  layer: own-research
+  source: "الكامل في التاريخ لابن الأثير، قراءة آبل فيجن"
+  generated_by: "Devin (SWE-2 Medium) from Apple Vision OCR"
+  run: lib-kamil-v12-batch06
+sources: [source/kamil-ibn-al-athir]
+status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 Medium)" }

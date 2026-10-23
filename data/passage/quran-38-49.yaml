@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 38:49 (سورة ص، الآية 49)."
 text: "هَـٰذَا ذِكْرٌ ۚ وَإِنَّ لِلْمُتَّقِينَ لَحُسْنَ مَـَٔابٍ"
 text_search: "هذا ذكر ۚ وإن للمتقين لحسن مآب"
+translations:
+  en: { text: "This is a reminder. And lo! for those who ward off (evil) is a happy journey's end,", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "یہ نصیحت ہے اور پرہیزگاروں کے لئے تو عمدہ مقام ہے", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-38 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

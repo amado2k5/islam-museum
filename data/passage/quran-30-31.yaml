@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 30:31 (سورة الروم، الآية 31)."
 text: "۞ مُنِيبِينَ إِلَيْهِ وَٱتَّقُوهُ وَأَقِيمُوا۟ ٱلصَّلَوٰةَ وَلَا تَكُونُوا۟ مِنَ ٱلْمُشْرِكِينَ"
 text_search: "۞ منيبين إليه واتقوه وأقيموا الصلاة ولا تكونوا من المشركين"
+translations:
+  en: { text: "Turning unto Him (only); and be careful of your duty unto Him and establish worship, and be not of those who ascribe partners (unto Him);", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "(مومنو) اُسی (خدا) کی طرف رجوع کئے رہو اور اس سے ڈرتے رہو اور نماز پڑھتے رہو اور مشرکوں میں نہ ہونا", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-30 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

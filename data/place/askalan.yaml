@@ -1,0 +1,19 @@
+id: place/askalan
+class: place
+kind: city
+label: { ar: "عسقلان", en: "Ascalon" }
+summary:
+  ar: "عسقلان من ساحل فلسطين؛ فتحها عمر بن الخطاب — وقيل عمرو بن العاص — صلحاً بعد كيد، ويقال إن عمرو كان فتحها ثم نقض أهلها وأمدّهم الروم ففتحها معاوية وأسكنها الروابط ووكّل بها الحفظة؛ وأخبر مشايخ من أهلها أن الروم أخربتها وأجلت أهلها عنها في أيام الزبير فلما ولي عبد الملك بن مروان بناها وحصنها؛ وبها قطائع أقطعت بأمر عمر وعثمان لو دخل فيها رجل لم يجد بذلك بأساً عند محمد بن يوسف الفاريابي، وأقطع عبد الملك رجلاً من العرب بها قطيعة ممن أقطع من المرابطة."
+  en: "Ascalon on the Filastin coast; taken under Umar — some say by Amr ibn al-As — by treaty after stratagem, and it is said Amr had taken it before its people broke faith and the Byzantines reinforced them, so Mu'awiya retook it, settling ribat-fighters there and placing guards; shaykhs of its people reported the Byzantines ruined it and expelled its inhabitants in Ibn al-Zubayr's days, and Abd al-Malik rebuilt and fortified it; it holds land-grants made at Umar's and Uthman's command, which Muhammad ibn Yusuf al-Faryabi saw no harm in entering, and Abd al-Malik granted an Arab man an estate there among the murabita grants."
+wings: [place]
+periods: [period/rashidun]
+regions: [levant-iraq]
+relations:
+  - { type: part_of, target: place/jerusalem, note: "من أعمال جند فلسطين", sources: [source/futuh-buldan-maarif-1407] }
+provenance:
+  layer: own-research
+  source: "فتوح البلدان (ط مؤسسة المعارف 1407هـ/1987م) ص 194، 196"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-futuh-buldan-batch-10
+sources: [source/futuh-buldan-maarif-1407]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

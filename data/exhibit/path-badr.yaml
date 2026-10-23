@@ -1,0 +1,77 @@
+id: exhibit/path-badr
+class: exhibit
+kind: trail
+label:
+  ar: بدر الكبرى
+  en: The Battle of Badr
+summary:
+  ar: 'مسار في أول معارك الإسلام: الشورى قبل القتال، والمبارزة والوقعة، والأسرى وعاقبة الفرقان — يوم بدر
+    بالتفصيل.'
+  en: A trail through the first great battle.
+audience:
+- newcomer
+- student
+duration_minutes: 30
+wings: []
+regions:
+- arabia
+rooms:
+- title:
+    ar: الإعداد
+    en: The setup
+  body:
+    ar: ثلاثمائة وثلاثة عشر يخرجون للعير.
+    en: ثلاثمائة وثلاثة عشر يخرجون للعير.
+  features:
+  - event/badr-expedition-setup
+  - event/badr-council
+- title:
+    ar: المبارزة
+    en: The duel
+  body:
+    ar: علي وحمزة وعبيدة يفتتحون القتال.
+    en: علي وحمزة وعبيدة يفتتحون القتال.
+  features:
+  - event/badr-duel
+  - event/badr-duel
+- title:
+    ar: الوقعة
+    en: The battle
+  body:
+    ar: 'يوم الفرقان: قريش تُهزم في أول لقاء.'
+    en: 'يوم الفرقان: قريش تُهزم في أول لقاء.'
+  features:
+  - event/battle-of-badr
+  - event/badr-battle-day
+- title:
+    ar: الأسرى
+    en: The prisoners
+  body:
+    ar: 'سبعون أسيرًا: الفداء والتعليم.'
+    en: 'سبعون أسيرًا: الفداء والتعليم.'
+  features:
+  - event/badr-prisoners
+  - event/badr-aftermath
+- title:
+    ar: الأثر
+    en: The legacy
+  body:
+    ar: 'بدر وعدًا آخر: غزوة بدر الموعد.'
+    en: 'بدر وعدًا آخر: غزوة بدر الموعد.'
+  features:
+  - event/expedition-of-badr-al-mawida
+  - place/medina
+prerequisites:
+- exhibit/path-islam-in-30-minutes
+sources:
+- source/wikidata
+provenance:
+  layer: own-research
+  source: Devin-assembled trail from existing museum entities
+  generated_by: Devin (SWE-2 High)
+  model: SWE-2 High
+  run: pathways-batch-7
+status:
+  review: draft
+  completeness: 1
+  generated_by: Devin (SWE-2 High), pathways lane, 2026-10-16

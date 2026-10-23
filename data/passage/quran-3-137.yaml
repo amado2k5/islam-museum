@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 3:137 (سورة آل عمران، الآية 137)."
 text: "قَدْ خَلَتْ مِن قَبْلِكُمْ سُنَنٌ فَسِيرُوا۟ فِى ٱلْأَرْضِ فَٱنظُرُوا۟ كَيْفَ كَانَ عَـٰقِبَةُ ٱلْمُكَذِّبِينَ"
 text_search: "قد خلت من قبلكم سنن فسيروا في الأرض فانظروا كيف كان عاقبة المكذبين"
+translations:
+  en: { text: "Systems have passed away before you. Do but travel in the land and see the nature of the consequence for those who did deny (the messengers).", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "تم لوگوں سے پہلے بھی بہت سے واقعات گزر چکے ہیں تو تم زمین کی سیر کرکے دیکھ لو کہ جھٹلانے والوں کا کیسا انجام ہوا", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-3 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

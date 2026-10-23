@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 21:4 (سورة الأنبياء، الآية 4)."
 text: "قَالَ رَبِّى يَعْلَمُ ٱلْقَوْلَ فِى ٱلسَّمَآءِ وَٱلْأَرْضِ ۖ وَهُوَ ٱلسَّمِيعُ ٱلْعَلِيمُ"
 text_search: "قال ربي يعلم القول في السماء والأرض ۖ وهو السميع العليم"
+translations:
+  en: { text: "He saith: My Lord knoweth what is spoken in the heaven and the earth. He is the Hearer, the Knower.", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "(پیغمبر نے) کہا کہ جو بات آسمان اور زمین میں (کہی جاتی) ہے میرا پروردگار اسے جانتا ہے۔ اور وہ سننے والا (اور) جاننے والا ہے", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-21 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

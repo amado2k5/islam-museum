@@ -1,0 +1,16 @@
+id: passage/muslim-2637
+class: passage
+unit: hadith
+work: work/sahih-muslim
+ref: "2637"
+label: { ar: "مسلم 2637 — إن الله إذا أحب عبداً دعا جبريل فقال إني أحب فلاناً فأحبه", en: "Muslim 2637 — When God loves a servant He calls Jibril: I love so-and-so, love him" }
+text: "قال رسول الله: «إن الله إذا أحب عبداً دعا جبريل فيقول: إني أحب فلاناً فأحبه، فيحبه جبريل، ثم ينادي في السماء فيقول: إن الله يحب فلاناً فأحبوه، فيحبه أهل السماء، ثم يوضع له القبول في الأرض»"
+summary:
+  ar: "رواية أبي هريرة في باب إذا أحب الله عبداً حببه إلى عباده من كتاب البر في صحيح مسلم؛ تدرج المحبة من الله إلى جبريل إلى أهل السماء إلى قبول الأرض — وفسر به سهيل بن أبي صالح محبة الناس لعمر بن عبد العزيز في الموسم."
+relations:
+  - { type: mentions, target: person/muhammad, sources: [source/sahih-muslim] }
+  - { type: mentions, target: person/abu-hurayra, sources: [source/sahih-muslim] }
+  - { type: mentions, target: person/jibril, sources: [source/sahih-muslim] }
+provenance: { layer: own-research, source: "صحيح مسلم، كتاب البر والصلة والآداب، باب إذا أحب الله عبداً حببه إلى عباده (طبعة دار التأصيل، الحديث ٢٧٢٦؛ ترقيم عبد الباقي المعروف 2637)، تصوير Apple Vision OCR", generated_by: "Devin (SWE-2 High) from Apple Vision OCR", run: "hadith-muslim-passages-3" }
+sources: [source/sahih-muslim]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High); matn excerpt at most 40 words checked against the scan" }

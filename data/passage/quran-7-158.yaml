@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 7:158 (سورة الأعراف، الآية 158)."
 text: "قُلْ يَـٰٓأَيُّهَا ٱلنَّاسُ إِنِّى رَسُولُ ٱللَّهِ إِلَيْكُمْ جَمِيعًا ٱلَّذِى لَهُۥ مُلْكُ ٱلسَّمَـٰوَٰتِ وَٱلْأَرْضِ ۖ لَآ إِلَـٰهَ إِلَّا هُوَ يُحْىِۦ وَيُمِيتُ ۖ فَـَٔامِنُوا۟ بِٱللَّهِ وَرَسُولِهِ ٱلنَّبِىِّ ٱلْأُمِّىِّ ٱلَّذِى يُؤْمِنُ بِٱللَّهِ وَكَلِمَـٰتِهِۦ وَٱتَّبِعُوهُ لَعَلَّكُمْ تَهْتَدُونَ"
 text_search: "قل يا أيها الناس إني رسول الله إليكم جميعا الذي له ملك السماوات والأرض ۖ لا إله إلا هو يحيي ويميت ۖ فآمنوا بالله ورسوله النبي الأمي الذي يؤمن بالله وكلماته واتبعوه لعلكم تهتدون"
+translations:
+  en: { text: "Say (O Muhammad): O mankind! Lo! I am the messenger of Allah to you all - (the messenger of) Him unto Whom belongeth the Sovereignty of the heavens and the earth. There is no Allah save Him. He quickeneth and He giveth death. So believe in Allah and His messenger, the Prophet who can neither read nor write, who believeth in Allah and in His Words, and follow him that haply ye may be led aright.", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "(اے محمدﷺ) کہہ دو کہ لوگو میں تم سب کی طرف خدا کا بھیجا ہوا (یعنی اس کا رسول) ہوں۔ (وہ) جو آسمانوں اور زمین کا بادشاہ ہے۔ اس کے سوا کوئی معبود نہیں وہی زندگانی بخشتا ہے اور وہی موت دیتا ہے۔ تو خدا پر اور اس کے رسول پیغمبر اُمی پر جو خدا پر اور اس کے تمام کلام پر ایمان رکھتے ہیں ایمان لاؤ اور ان کی پیروی کرو تاکہ ہدایت پاؤ", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-7 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

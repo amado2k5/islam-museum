@@ -1,0 +1,23 @@
+id: event/siege-of-nishapur-1221
+class: event
+kind: siege
+label: { ar: "حصار نيسابور (١٢٢١)", en: "Siege of Nishapur" }
+summary:
+  ar: "بطاقة أولية لحصار نيسابور في ١٢٢٠–١٢٢١م، دك المغول المدينة بعد سقوطها الثاني؛ لم تُراجع مصادره على الصفحة بعد."
+  en: "Draft card for the Siege of Nishapur in 1220–21, the Mongols' reduction of the city after its second fall; its sources are not yet checked on the page."
+wings: [time]
+periods: [period/crusades-ayyubid-mamluk]
+regions: [persia-central-asia]
+date:
+  start: { edtf: "1220-11", precision: year, status: tradition, derived: true }
+  end: { edtf: "1221-04", precision: year, status: tradition, derived: true }
+sources: [source/tarikh-islam-hasan-ibrahim]
+external_ids:
+  wikidata: Q5961259
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; battle attested in narrative histories — entry not yet checked on the page"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-wave2
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

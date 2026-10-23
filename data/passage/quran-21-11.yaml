@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 21:11 (سورة الأنبياء، الآية 11)."
 text: "وَكَمْ قَصَمْنَا مِن قَرْيَةٍ كَانَتْ ظَالِمَةً وَأَنشَأْنَا بَعْدَهَا قَوْمًا ءَاخَرِينَ"
 text_search: "وكم قصمنا من قرية كانت ظالمة وأنشأنا بعدها قوما آخرين"
+translations:
+  en: { text: "How many a community that dealt unjustly have We shattered, and raised up after them another folk!", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "اور ہم نے بہت سی بستیوں کو جو ستمگار تھیں ہلاک کر مارا اور ان کے بعد اور لوگ پیدا کردیئے", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-21 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

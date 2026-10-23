@@ -1,0 +1,23 @@
+id: event/siege-of-alexandria-1167
+class: event
+kind: siege
+label: { ar: "حصار الإسكندرية (١١٦٧)", en: "Siege of Alexandria" }
+summary:
+  ar: "بطاقة أولية لحصار الإسكندرية سنة ١١٦٧م، حصار أمراك الصليبي للمدينة في حملته على مصر؛ لم تُراجع مصادره على الصفحة بعد."
+  en: "Draft card for the Siege of Alexandria in 1167, Amalric's siege during his Egyptian campaign; its sources are not yet checked on the page."
+wings: [time]
+periods: [period/crusades-ayyubid-mamluk]
+regions: [egypt-nile]
+date:
+  start: { edtf: "1167", precision: year, status: tradition, derived: true }
+  end: { edtf: "1167", precision: year, status: tradition, derived: true }
+sources: [source/kamil-ibn-al-athir]
+external_ids:
+  wikidata: Q130581258
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; battle attested in narrative histories — entry not yet checked on the page"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-wave2
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

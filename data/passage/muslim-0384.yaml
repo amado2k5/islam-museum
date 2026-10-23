@@ -1,0 +1,16 @@
+id: passage/muslim-0384
+class: passage
+unit: hadith
+work: work/sahih-muslim
+ref: "384"
+label: { ar: "مسلم 384 — من صلى علي صلاة صلى الله عليه بها عشراً وسألوا لي الوسيلة", en: "Muslim 384 — Whoever sends one prayer on me, God sends ten; ask for me the wasila" }
+text: "قال رسول الله: «إذا سمعتم المؤذن فقولوا مثل ما يقول، ثم صلوا علي؛ فإنه من صلى علي صلاة صلى الله عليه بها عشراً، ثم سلوا الله لي الوسيلة؛ فإنها منزلة في الجنة لا تنبغي إلا لعبد من عباد الله، وأرجو أن أكون أنا هو»"
+summary:
+  ar: "رواية عبد الله بن عمرو بن العاص في باب النداء إلى الصلاة من صحيح مسلم؛ يجمع الرد على المؤذن والصلاة على النبي وسؤال الوسيلة — أصل دعاء ما بعد الأذان."
+relations:
+  - { type: mentions, target: person/muhammad, sources: [source/sahih-muslim] }
+  - { type: mentions, target: person/abdullah-ibn-amr-ibn-al-as, sources: [source/sahih-muslim] }
+  - { type: mentions, target: concept/shafaa, sources: [source/sahih-muslim] }
+provenance: { layer: own-research, source: "صحيح مسلم، كتاب الصلاة، باب الاستحباب في الصلاة على النبي عند سماع النداء وسؤال الوسيلة (طبعة دار التأصيل، الحديث ٣٧٨؛ ترقيم عبد الباقي المعروف 384)، تصوير Apple Vision OCR", generated_by: "Devin (SWE-2 High) from Apple Vision OCR", run: "hadith-muslim-passages-3" }
+sources: [source/sahih-muslim]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High); matn excerpt at most 40 words checked against the scan" }

@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 21:110 (سورة الأنبياء، الآية 110)."
 text: "إِنَّهُۥ يَعْلَمُ ٱلْجَهْرَ مِنَ ٱلْقَوْلِ وَيَعْلَمُ مَا تَكْتُمُونَ"
 text_search: "إنه يعلم الجهر من القول ويعلم ما تكتمون"
+translations:
+  en: { text: "Lo! He knoweth that which is said openly, and that which ye conceal.", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "اور جو بات پکار کی جائے وہ اسے بھی جانتا ہے اور جو تم پوشیدہ کرتے ہو اس سے بھی واقف ہے", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-21 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

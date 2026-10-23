@@ -2,24 +2,30 @@ id: concept/riba
 class: concept
 kind: legal
 label:
-  ar: "الربا"
-  en: "Riba (usury)"
+  ar: الربا
+  en: "Usury (riba)"
 summary:
-  ar: "الربا في ورقة قدي وبوزيد زيادةٌ محرّمة تُقسم إلى ربا البيوع وربا القرض؛ ويعدّ الباحثان ربا البيوع معاوضةً ويرون أن القرض ليس من المعاوضات، ثم يقسمان ربا البيوع إلى ربا الفضل وربا النسيئة."
-  en: "In the Qeddi and Bouzid paper riba is a forbidden excess, divided into riba of sales (ribā al-buyūʿ) and riba of loans (ribā al-qarḍ). The authors treat sales as exchange contracts and loans as not exchange contracts, and they split riba of sales into riba of excess (ribā al-faḍl) and riba of deferment (ribā al-nasīʾa)."
-wings:
-- ideas
+  ar: "يذكر قعدات الربا بوصفه وسيلة من وسائل الافتتان بالمال، وصورة من استغلال حاجات الناس وظروفهم المادية، فيعدّه من الجرائم الاقتصادية {cite:qadan-manhaj-iqtisad-quran p. 140}. ويجعل الاشتغال به جريمة يعاقب عليها صاحبها في الدنيا والآخرة {cite:qadan-manhaj-iqtisad-quran p. 140}، ويستدل بآيات الأمر بترك ما بقي منه، ويعد التوبة بردّ رأس المال دون ظلم {cite:qadan-manhaj-iqtisad-quran p. 140}، {cite:qadan-manhaj-iqtisad-quran p. 141}. ويقابله عنده الإنفاق الذي يُراد به وجه الله {cite:qadan-manhaj-iqtisad-quran p. 141}. ويذكر المؤلف الربا بين الأسباب الممنوعة للتملك {cite:usul-iqtisad-islami-0660 p. 53}، ويعدّه من وسائل ابتزاز الفقراء في النظام الرأسمالي مع الاحتكار والضرائب المصممة لصالح الأغنياء {cite:usul-iqtisad-islami-0660 p. 47}، ويعدّ الآيات والأحاديث الناهية عن الربا من النصوص المتصلة بالاقتصاد {cite:usul-iqtisad-islami-0660 p. 35}. يرى المؤلف أن القرض ذا الفائدة المضمونة لا يجوز، وأن القراض بحصة من الربح الاحتمالي جائز تكون فيه المخاطرة على رب المال، وأن عقود الإرفاق لا تنقلب إلى عقود معاوضة، وأن جذب المدخرات يكون بالقراض لا بالقرض الربوي."
+wings: [ideas]
 themes:
 - trade-and-finance
 periods:
-- period/prophetic-era
+- period/modern-era
 regions:
 - global
-issue:
-  ar: "ما الربا المحرّم، وما أنواعه، وما صلته بالبيع والقرض؟"
-  en: "What riba is forbidden, what are its kinds, and how does it relate to sale and loan?"
-relations: []
+relations:
+  - { type: part_of, target: concept/al-iqtisad-fi-al-quran, sources: [source/qadan-manhaj-iqtisad-quran] }
 sources:
+- source/qadan-manhaj-iqtisad-quran
+- source/usul-iqtisad-islami-0660
 - source/qeddi-bouzid-islamic-finance-concept
-provenance: { layer: own-research, source: "source/qeddi-bouzid-islamic-finance-concept, pp. 10 to 13 (OCR, unverified against print)", generated_by: "Claude Haiku 5.5", model: "claude-haiku-5-5", run: "book-8-islamic-finance" }
-status: { review: draft, completeness: 1, generated_by: "Claude Haiku 5.5; OCR of the Qeddi and Bouzid paper, pp. 10 to 13; page numbers are OCR-derived and must be checked" }
+provenance:
+  layer: own-research
+  source: "زيدان عبد الفتاح قعدات، منهج القرآن في الاقتصاد، ص 83–164 من ملف PDF"
+  generated_by: "Claude Code (claude-haiku-5-5)"
+  model: "claude-haiku-5-5"
+  run: "econ-qadan-quran-pp83-164"
+status:
+  review: draft
+  completeness: 1
+  generated_by: "Claude Code (claude-haiku-5-5); the author's economic and moral reading, not a juristic or scholarly consensus"

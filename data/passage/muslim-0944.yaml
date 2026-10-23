@@ -1,0 +1,15 @@
+id: passage/muslim-0944
+class: passage
+unit: hadith
+work: work/sahih-muslim
+ref: "944"
+label: { ar: "مسلم 944 — أسرعوا بالجنازة", en: "Muslim 944 — Hasten with the bier" }
+text: "قال أبو هريرة: سمعت رسول الله يقول: أسرعوا بالجنازة، فإن كانت صالحة قربتموها إلى الخير، وإن كانت غير ذلك كان شراً تضعونه عن رقابكم"
+summary:
+  ar: "رواية أبي هريرة في باب الإسراع بالجنازة من كتاب الجنائز في صحيح مسلم."
+relations:
+  - { type: mentions, target: person/muhammad, sources: [source/sahih-muslim] }
+  - { type: mentions, target: person/abu-hurayra, sources: [source/sahih-muslim] }
+provenance: { layer: own-research, source: "صحيح مسلم، كتاب الجنائز، باب الإسراع بالجنازة (طبعة دار التأصيل، الحديث 952؛ ترقيم عبد الباقي المعروف 944)، تصوير Apple Vision OCR", generated_by: "Devin (SWE-2 High) from Apple Vision OCR", run: "hadith-muslim-passages-4" }
+sources: [source/sahih-muslim]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High); matn excerpt at most 40 words checked against the scan" }

@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 3:47 (سورة آل عمران، الآية 47)."
 text: "قَالَتْ رَبِّ أَنَّىٰ يَكُونُ لِى وَلَدٌ وَلَمْ يَمْسَسْنِى بَشَرٌ ۖ قَالَ كَذَٰلِكِ ٱللَّهُ يَخْلُقُ مَا يَشَآءُ ۚ إِذَا قَضَىٰٓ أَمْرًا فَإِنَّمَا يَقُولُ لَهُۥ كُن فَيَكُونُ"
 text_search: "قالت رب أنى يكون لي ولد ولم يمسسني بشر ۖ قال كذلك الله يخلق ما يشاء ۚ إذا قضى أمرا فإنما يقول له كن فيكون"
+translations:
+  en: { text: "She said: My Lord! How can I have a child when no mortal hath touched me? He said: So (it will be). Allah createth what He will. If He decreeth a thing, He saith unto it only: Be! and it is.", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "مریم نے کہا پروردگار میرے ہاں بچہ کیونکر ہوگا کہ کسی انسان نے مجھے ہاتھ تک تو لگایا نہیں فرمایا کہ خدا اسی طرح جو چاہتا ہے پیدا کرتا ہے جب وہ کوئی کام کرنا چاہتا ہے تو ارشاد فرما دیتا ہے کہ ہوجا تو وہ ہو جاتا ہے", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-3 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

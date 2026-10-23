@@ -1,0 +1,23 @@
+id: event/battle-of-mersivan-1101
+class: event
+kind: battle
+label: { ar: "معركة مرزيفون", en: "Battle of Mersivan" }
+summary:
+  ar: "بطاقة أولية لمعركة مرزيفون سنة ١١٠١م، سحق الدانشمنديين والسلاجقة جيش الحملة؛ لم تُراجع مصادره على الصفحة بعد."
+  en: "Draft card for the Battle of Mersivan in 1101, the Danishmendid-Seljuk crushing of the Crusader army; its sources are not yet checked on the page."
+wings: [time]
+periods: [period/crusades-ayyubid-mamluk]
+regions: [anatolia-balkans]
+date:
+  start: { edtf: "1101-08", precision: year, status: tradition, derived: true }
+  end: { edtf: "1101-08", precision: year, status: tradition, derived: true }
+sources: [source/kamil-ibn-al-athir]
+external_ids:
+  wikidata: Q9173248
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; battle attested in narrative histories — entry not yet checked on the page"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-wave2
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

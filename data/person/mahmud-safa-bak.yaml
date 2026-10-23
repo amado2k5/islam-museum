@@ -1,0 +1,23 @@
+id: person/mahmud-safa-bak
+class: person
+label: { ar: "محمود صفا بك", en: "Mahmud Safa Bak" }
+names:
+  - { kind: full, lang: ar, value: "محمود صفا بك" }
+gender: male
+roles: [military]
+summary:
+  ar: "قائد الحامية العثمانية في تلمسان؛ صمد بها في وجه جيوش محمد الشيخ السعدي التي دخلت المدينة على غفلة بعد إبحار الأسطول العثماني إلى استانبول، حتى احتوى الهجوم السعدي {cite:dawlat-uthmaniyya-salabi p. 244}."
+  en: "Commander of the Ottoman garrison at Tlemcen; he held out against Muhammad al-Shaykh's army, which had entered the city unawares while the Ottoman fleet was away, until the Sa'di attack was contained {cite:dawlat-uthmaniyya-salabi p. 244}."
+wings: [people]
+regions: [maghreb]
+periods: [period/gunpowder-empires]
+relations:
+  - { type: opposed, target: person/muhammad-al-shaykh-al-sadi, sources: [source/dawlat-uthmaniyya-salabi] }
+sources: [source/dawlat-uthmaniyya-salabi]
+provenance:
+  layer: own-research
+  source: "الدولة العثمانية لعلي محمد الصلابي (ط1 1421) ص 244"
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: salabi-uthmani-batch12
+status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 Medium)" }

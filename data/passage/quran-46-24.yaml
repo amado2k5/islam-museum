@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 46:24 (سورة الأحقاف، الآية 24)."
 text: "فَلَمَّا رَأَوْهُ عَارِضًا مُّسْتَقْبِلَ أَوْدِيَتِهِمْ قَالُوا۟ هَـٰذَا عَارِضٌ مُّمْطِرُنَا ۚ بَلْ هُوَ مَا ٱسْتَعْجَلْتُم بِهِۦ ۖ رِيحٌ فِيهَا عَذَابٌ أَلِيمٌ"
 text_search: "فلما رأوه عارضا مستقبل أوديتهم قالوا هذا عارض ممطرنا ۚ بل هو ما استعجلتم به ۖ ريح فيها عذاب أليم"
+translations:
+  en: { text: "Then, when they beheld it as a dense cloud coming toward their valleys, they said: Here is a cloud bringing us rain. Nay, but it is that which ye did seek to hasten, a wind wherein is painful torment,", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "پھر جب انہوں نے اس (عذاب کو) دیکھا کہ بادل (کی صورت میں) ان کے میدانوں کی طرف آرہا ہے تو کہنے لگے یہ تو بادل ہے جو ہم پر برس کر رہے گا۔ (نہیں) بلکہ (یہ) وہ چیز ہے جس کے لئے تم جلدی کرتے تھے یعنی آندھی جس میں درد دینے والا عذاب بھرا ہوا ہے", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-46 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

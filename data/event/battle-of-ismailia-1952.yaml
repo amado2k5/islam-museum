@@ -1,0 +1,23 @@
+id: event/battle-of-ismailia-1952
+class: event
+kind: battle
+label: { ar: "معركة الإسماعيلية (١٩٥٢)", en: "Battle of Ismailia" }
+summary:
+  ar: "بطاقة أولية لمعركة الإسماعيلية سنة ١٩٥٢م، صمود الشرطة المصرية أمام القوات البريطانية؛ لم تُراجع مصادره على الصفحة بعد."
+  en: "Draft card for the Battle of Ismailia in 1952, the Egyptian police's stand against British forces; its sources are not yet checked on the page."
+wings: [time]
+periods: [period/contemporary-era]
+regions: [egypt-nile]
+date:
+  start: { edtf: "1952-01-25", precision: year, status: tradition, derived: true }
+  end: { edtf: "1952-01-25", precision: year, status: tradition, derived: true }
+sources: [source/tarikh-islam-hasan-ibrahim]
+external_ids:
+  wikidata: Q12246335
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; battle attested in narrative histories — entry not yet checked on the page"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-wave2
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

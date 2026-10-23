@@ -1,0 +1,15 @@
+id: passage/muwatta-3-708
+class: passage
+unit: hadith
+work: work/muwatta-malik
+ref: "708"
+label: { ar: "الموطأ 708 — مالك: الإبل النواضح والبقر السواني وبقر الحرث يؤخذ من ذلك كله إذا وجبت فيه الصدقة", en: "Muwatta 708" }
+summary:
+  ar: "قول لمالك في الإبل النواضح والبقر السواني وبقر الحرث: إنه يرى أن يؤخذ من ذلك كله إذا وجبت فيه الصدقة. ويذكر المحقق أن الناضح ما يحمل الماء من بئر أو نهر لسقي الزرع، والسواني ما يُستقى عليها من البئر، وأنه رواه عن مالك أبو مصعب. {cite:muwatta-maruf-1997 p.354}"
+relations:
+  - { type: part_of, target: passage/muwatta-kitab-03-zakat }
+  - { type: mentions, target: person/malik-ibn-anas, sources: [source/muwatta-maruf-1997] }
+  - { type: basis_for, target: practice/zakat, sources: [source/muwatta-maruf-1997] }
+provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 1, hadith 708 at PDF p. 354; باب ما جاء في صدقة البقر", generated_by: "Claude Code (claude-haiku-5-5) from Apple Vision OCR of the Noor-Book PDF, checked on the page image where doubtful", run: "muwatta-prose-k3-b03" }
+sources: [source/muwatta-maruf-1997]
+status: { review: draft, completeness: 2, generated_by: "Claude Code (claude-haiku-5-5); own-words account written from PDF p. 354; matn excerpt at most 40 words" }

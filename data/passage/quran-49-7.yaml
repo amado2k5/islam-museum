@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 49:7 (سورة الحجرات، الآية 7)."
 text: "وَٱعْلَمُوٓا۟ أَنَّ فِيكُمْ رَسُولَ ٱللَّهِ ۚ لَوْ يُطِيعُكُمْ فِى كَثِيرٍ مِّنَ ٱلْأَمْرِ لَعَنِتُّمْ وَلَـٰكِنَّ ٱللَّهَ حَبَّبَ إِلَيْكُمُ ٱلْإِيمَـٰنَ وَزَيَّنَهُۥ فِى قُلُوبِكُمْ وَكَرَّهَ إِلَيْكُمُ ٱلْكُفْرَ وَٱلْفُسُوقَ وَٱلْعِصْيَانَ ۚ أُو۟لَـٰٓئِكَ هُمُ ٱلرَّٰشِدُونَ"
 text_search: "واعلموا أن فيكم رسول الله ۚ لو يطيعكم في كثير من الأمر لعنتم ولكن الله حبب إليكم الإيمان وزينه في قلوبكم وكره إليكم الكفر والفسوق والعصيان ۚ أولئك هم الراشدون"
+translations:
+  en: { text: "And know that the messenger of Allah is among you. If he were to obey you in much of the government, ye would surely be in trouble; but Allah hath endeared the faith to you and hath beautified it in your hearts, and hath made disbelief and lewdness and rebellion hateful unto you. Such are they who are the rightly guided.", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "اور جان رکھو کہ تم میں خدا کے پیغمبرﷺ ہیں۔ اگر بہت سی باتوں میں وہ تمہارا کہا مان لیا کریں تو تم مشکل میں پڑ جاؤ لیکن خدا نے تم کو ایمان عزیز بنا دیا اور اس کو تمہارے دلوں میں سجا دیا اور کفر اور گناہ اور نافرمانی سے تم کو بیزار کردیا۔ یہی لوگ راہ ہدایت پر ہیں", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-49 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

@@ -1,0 +1,16 @@
+id: person/sawran
+class: person
+label: { ar: "سوران" }
+summary:
+  ar: "عند البلاذري: قام بعد المفرج بن سلام في الأرض الكبيرة فوجه رسوله إلى المتوكل يسأله عقداً وكتاب ولاية فتوفي المتوكل قبل أن ينصرف رسوله إليه — وجاءت في نسخة «سودان» — وبقي العقد حتى عقده له وصيف مولى أمير المؤمنين وأنفذه في زمن المستعين."
+  en: "In al-Baladhuri: succeeded al-Mufarraj ibn Sallam in the Great Land and sent his envoy to al-Mutawakkil asking patent and letter of appointment; al-Mutawakkil died before the envoy reached him — one copy reads 'Sudan' — and the contract stayed until Wasif the caliph's mawla contracted and dispatched it in al-Musta'in's time."
+gender: male
+relations:
+  - { type: participated_in, target: event/al-mufarraj-fortresses, role: "القائم بعده طالب العقد", sources: [source/futuh-buldan-maarif-1407] }
+provenance:
+  layer: own-research
+  source: "فتوح البلدان (ط مؤسسة المعارف 1407هـ/1987م) ص 328–329"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-futuh-buldan-batch-24
+sources: [source/futuh-buldan-maarif-1407]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

@@ -1,0 +1,23 @@
+id: event/siege-of-algeciras-1309
+class: event
+kind: siege
+label: { ar: "حصار الجزيرة الخضراء (١٣٠٩)", en: "Siege of Algeciras (1309)" }
+summary:
+  ar: "بطاقة أولية لحصار الجزيرة الخضراء في ١٣٠٩–١٣١٠م، حصار قشتالة الفاشل للمدينة النصرية؛ لم تُراجع مصادره على الصفحة بعد."
+  en: "Draft card for the Siege of Algeciras in 1309–10, Castile's failed blockade of the Nasrid city; its sources are not yet checked on the page."
+wings: [time]
+periods: [period/crusades-ayyubid-mamluk]
+regions: [andalus-europe]
+date:
+  start: { edtf: "1309", precision: year, status: tradition, derived: true }
+  end: { edtf: "1310", precision: year, status: tradition, derived: true }
+sources: [source/tarikh-islam-hasan-ibrahim]
+external_ids:
+  wikidata: Q4118163
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; battle attested in narrative histories — entry not yet checked on the page"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-wave2
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

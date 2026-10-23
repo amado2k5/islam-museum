@@ -1,0 +1,23 @@
+id: event/first-battle-of-amman-1918
+class: event
+kind: battle
+label: { ar: "معركة عمان الأولى", en: "First Battle of Amman" }
+summary:
+  ar: "بطاقة أولية لمعركة عمان الأولى سنة ١٩١٨م، صد العثمانيين والعرب للهجوم البريطاني الأول؛ لم تُراجع مصادره على الصفحة بعد."
+  en: "Draft card for the First Battle of Amman in 1918, the Ottoman–Arab repulse of the first British attack; its sources are not yet checked on the page."
+wings: [time]
+periods: [period/modern-era]
+regions: [levant-iraq]
+date:
+  start: { edtf: "1918", precision: year, status: tradition, derived: true }
+  end: { edtf: "1918", precision: year, status: tradition, derived: true }
+sources: [source/tarikh-islam-hasan-ibrahim]
+external_ids:
+  wikidata: Q5480936
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; battle attested in narrative histories — entry not yet checked on the page"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-wave2
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

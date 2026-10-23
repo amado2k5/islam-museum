@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 43:10 (سورة الزخرف، الآية 10)."
 text: "ٱلَّذِى جَعَلَ لَكُمُ ٱلْأَرْضَ مَهْدًا وَجَعَلَ لَكُمْ فِيهَا سُبُلًا لَّعَلَّكُمْ تَهْتَدُونَ"
 text_search: "الذي جعل لكم الأرض مهدا وجعل لكم فيها سبلا لعلكم تهتدون"
+translations:
+  en: { text: "Who made the earth a resting-place for you, and placed roads for you therein, that haply ye may find your way;", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "جس نے تمہارے لئے زمین کو بچھونا بنایا۔ اور اس میں تمہارے لئے رستے بنائے تاکہ تم راہ معلوم کرو", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-43 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

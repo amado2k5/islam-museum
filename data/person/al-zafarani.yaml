@@ -1,0 +1,27 @@
+id: person/al-zafarani
+class: person
+label: { ar: "الزعفراني", en: "Al-Za'farani" }
+names:
+  - { kind: full, lang: ar, value: "الحسن بن محمد بن الصباح البغدادي، أبو علي الزعفراني" }
+gender: male
+roles: [hadith-scholar, jurist]
+traditions: [sunni]
+summary:
+  ar: "إمام بغدادي فقيه محدث فصيح، أحد رواة مذهب الشافعي القديم — قال الماوردي: هو أنبت رواة القديم. كان يتولى القراءة على الشافعي في مجلسه يحضره أحمد وأبو ثور، وقال: قدم علينا الشافعي فاجتمعنا إليه فقال التمسوا من يقرأ لكم فلم يجترئ أحد أن يقرأ عليه غيري، فقرأت عليه الكتب كلها إلا كتابين قرأهما عليّ: المناسك والصلاة. سمع من سفيان بن عيينة والشافعي وعبيدة بن حميد وعبد الوهاب الثقفي ويزيد بن هارون، وروى عنه البخاري وأبو داود والترمذي والنسائي وابن ماجة وابن خزيمة وأبو عوانة، وقال النسائي: ثقة. نُسب إلى قرية بالسواد اسمها الزعفرانية، وسُمي ببغداد درب الزعفران به وبه مسجد الشافعي الذي درّس فيه الشيرازي. توفي في شهر رمضان سنة ستين ومائتين {cite:tabaqat-shafiiyya-subki j.1 p.250-258}."
+  en: "A Baghdad imam — jurist, hadith scholar and master of eloquence — counted among the transmitters of al-Shafi'i's 'old' (Iraqi) corpus; al-Mawardi called him 'the most flourishing of the qadim transmitters'. He was the reader in al-Shafi'i's circle attended by Ahmad and Abu Thawr: 'when al-Shafi'i came to us none dared read to him but me, and I read him all the books save two he read to me.' He heard Ibn 'Uyayna, 'Ubayda b. Humayd and Yazid b. Harun; the Six-save-Muslim transmitted from him, and al-Nasa'i graded him thiqa. Baghdad's Darb al-Za'faran took its name from him and held the mosque where al-Shirazi taught. He died in Ramadan 260 {cite:tabaqat-shafiiyya-subki j.1 p.250-258}."
+born: { hijri: "0154", edtf: "0771", calendar: julian, precision: year, status: tradition, derived: true, note: "مولده سنة 154هـ (السبكي). التحويل مشتق.", sources: [source/tabaqat-shafiiyya-subki] }
+died: { hijri: "0260-09", edtf: "0874", calendar: julian, precision: month, status: tradition, derived: true, note: "توفي في شهر رمضان سنة 260هـ (السبكي). التحويل مشتق.", sources: [source/tabaqat-shafiiyya-subki] }
+wings: [people]
+themes: [scripture-and-its-sciences]
+regions: [levant-iraq]
+periods: [period/abbasid-early]
+relations:
+  - { type: student_of, target: person/al-shafii, role: "يتولى القراءة على الشافعي في مجلسه؛ من رواة القديم", sources: [source/tabaqat-shafiiyya-subki] }
+provenance:
+  layer: own-research
+  source: "طبقات الشافعية الكبرى للسبكي (ج1، ترجمة الزعفراني، ص250-258)، قراءة آبل فيجن"
+  generated_by: "Devin (SWE-2 Medium) from Apple Vision OCR"
+  model: "SWE-2 Medium"
+  run: lib-subki-tabaqat-ts1
+sources: [source/tabaqat-shafiiyya-subki]
+status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 Medium)" }

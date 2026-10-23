@@ -1,0 +1,23 @@
+id: event/battle-of-urfa-1480
+class: event
+kind: battle
+label: { ar: "معركة الرها (١٤٨٠)", en: "Battle of Urfa (1480)" }
+summary:
+  ar: "بطاقة أولية لمعركة الرها سنة ١٤٨٠م، انتصار آق قويونلو الساحق على الحملة المملوكية بقيادة يشبك من مهدي؛ لم تُراجع مصادره على الصفحة بعد."
+  en: "Draft card for the Battle of Urfa in 1480, the Aq Qoyunlu defeat of the Mamluk invasion; its sources are not yet checked on the page."
+wings: [time]
+periods: [period/crusades-ayyubid-mamluk]
+regions: [anatolia-balkans]
+date:
+  start: { edtf: "1480-08", precision: year, status: tradition, derived: true }
+  end: { edtf: "1480-08", precision: year, status: tradition, derived: true }
+sources: [source/dawlat-uthmaniyya-salabi]
+external_ids:
+  wikidata: Q55702594
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; battle attested in narrative histories — entry not yet checked on the page"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-wave2
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

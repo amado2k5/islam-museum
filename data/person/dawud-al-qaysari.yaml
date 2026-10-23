@@ -1,0 +1,23 @@
+id: person/dawud-al-qaysari
+class: person
+label:
+  ar: "داود القيصري"
+  en: "Dawud al-Qaysari"
+roles: [scholar, teacher]
+gender: male
+summary:
+  ar: "داود القيصري؛ أحد العلماء العثمانيين الذين درسوا في مصر. يذكر الصلابي أن السلطان أورخان أنشأ في نيقوميديا بعد فتحها سنة ٧٢٧هـ أول جامعة عثمانية وعهد بإدارتها إلى داود القيصري {cite:dawlat-uthmaniyya-salabi p. 52}."
+  en: "Dawud al-Qaysari — the Egypt-trained scholar to whom, in al-Sallabi's account, Sultan Orhan entrusted the first Ottoman madrasa founded in Nicomedia after its fall in 727 AH {cite:dawlat-uthmaniyya-salabi p. 52}."
+wings: [people]
+regions: [anatolia-balkans]
+periods: [period/mongol-post-mongol]
+relations:
+  - { type: related_to, target: person/urkhan-ibn-uthman, role: "عهد إليه إدارة أول مدرسة عثمانية", sources: [source/dawlat-uthmaniyya-salabi] }
+sources: [source/dawlat-uthmaniyya-salabi]
+provenance:
+  layer: own-research
+  source: "الدولة العثمانية لعلي محمد الصلابي، ص 52"
+  generated_by: "Devin (SWE-2 Medium) from Apple Vision OCR"
+  model: "SWE-2 Medium"
+  run: lib-salabi-uthmani-batch-3
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 Medium)" }

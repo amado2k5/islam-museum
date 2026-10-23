@@ -1,0 +1,16 @@
+id: passage/arbaun-10
+class: passage
+unit: hadith
+work: work/arbaun-nawawi
+ref: "10"
+label: { ar: "الأربعون 10 — إن الله طيب لا يقبل إلا طيباً", en: "Arba'un 10 — God is pure and accepts only what is pure" }
+text: "إن الله طيب لا يقبل إلا طيباً، وإن الله تعالى أمر المؤمنين بما أمر به المرسلين فقال [المؤمنون: 51]، وقال تعالى [البقرة: 172]، ثم ذكر الرجل يطيل السفر أشعث أغبر يمد يديه إلى السماء يا رب يا رب ومطعمه حرام ومشربه حرام وملبسه حرام وغذي بالحرام فأنى يستجاب لذلك"
+summary:
+  ar: "حديث أبي هريرة، وهو الحديث العاشر في الأربعين النووية وفي شرح ابن رجب؛ رواه مسلم (1015) من رواية فضيل بن مرزوق عن عدي بن ثابت عن أبي حازم عن أبي هريرة، وخرجه الترمذي (2989) وقال: حسن غريب، وله طرق عن أبي هريرة عند عبد الرزاق وأحمد والدارمي والبيهقي والبغوي؛ يقول ابن رجب إن الطيب هنا بمعنى الطاهر، فالله مقدس منزه عن النقائص والعيوب، وقوله «لا يقبل إلا طيباً» ورد بمعناه في حديث الصدقة «لا يقبل الله إلا طيباً»، وقيل إن المراد هنا أعم: لا يقبل من الأعمال إلا ما كان طاهراً من المفسدات كالرياء والعجب، ولا من الأموال إلا ما كان حلالاً، فالأعمال والأقوال والاعتقادات تنقسم إلى طيب وخبيث، وقسّم القرآن الكلام إلى كلمة طيبة كشجرة طيبة وكلمة خبيثة كشجرة خبيثة (جامع العلوم والحكم ص 239–259)."
+  en: "Abu Hurayra's hadith, the tenth of al-Nawawi's Forty and of Ibn Rajab's commentary; transmitted by Muslim (1015) through Fudayl ibn Marzuq from Adi ibn Thabit from Abu Hazim from Abu Hurayra, and by al-Tirmidhi (2989) who graded it hasan gharib, with further routes in Abd al-Razzaq, Ahmad, al-Darimi, al-Bayhaqi and al-Baghawi; Ibn Rajab explains that tayyib here means pure — God being exalted above all defects — and that 'He accepts only what is pure' occurs in the sadaqa hadith, though some read it more broadly: no deeds are accepted unless pure of corrupting motives such as showing off and conceit, and no wealth unless lawfully gained, since deeds, words and beliefs all divide into pure and foul, as the Quran divides speech into a good word like a good tree and a foul word like a foul tree (Jami' al-Ulum wal-Hikam pp. 239–259)."
+relations:
+  - { type: basis_for, target: concept/tayyib, sources: [source/ibn-rajab-jami-ulum-hikam] }
+  - { type: mentions, target: person/abu-hurayra, sources: [source/ibn-rajab-jami-ulum-hikam] }
+provenance: { layer: own-research, source: "Jami' al-Ulum wal-Hikam (Dar Ibn Kathir 1429/2008), hadith 10 pp. 239–259", generated_by: "Devin (SWE-2 High) from Apple Vision OCR", run: "lib-jami-ulum-hikam-batch-5" }
+sources: [source/ibn-rajab-jami-ulum-hikam]
+status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 High); matn from OCR of printed p. 239 with the two embedded Qur'an verses reduced to sura-verse references, takhrij from the edition's apparatus" }

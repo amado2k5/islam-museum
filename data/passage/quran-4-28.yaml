@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 4:28 (سورة النساء، الآية 28)."
 text: "يُرِيدُ ٱللَّهُ أَن يُخَفِّفَ عَنكُمْ ۚ وَخُلِقَ ٱلْإِنسَـٰنُ ضَعِيفًا"
 text_search: "يريد الله أن يخفف عنكم ۚ وخلق الإنسان ضعيفا"
+translations:
+  en: { text: "Allah would make the burden light for you, for man was created weak.", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "خدا چاہتا ہے کہ تم پر سے بوجھ ہلکا کرے اور انسان (طبعاً) کمزور پیدا ہوا ہے", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-4 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

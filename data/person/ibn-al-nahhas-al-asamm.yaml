@@ -1,0 +1,27 @@
+id: person/ibn-al-nahhas-al-asamm
+class: person
+label: { ar: "العماد ابن النحاس الأصم", en: "al-Imad Ibn al-Nahhas the Deaf" }
+names:
+  - { value: "العماد ابن النحاس الأصم أبو بكر عبد الله بن أبي المجد الحسن بن الحسين بن علي الأنصاري الدمشقي", kind: full }
+born: { edtf: "1177", hijri: "0572", calendar: julian, precision: year, status: tradition, derived: true, note: "ولد سنة اثنتين وسبعين وخمسمائة {cite:shadharat-dhahab p. 273}." }
+died: { edtf: "1256-03~", hijri: "0654-02-22", calendar: julian, precision: day, status: tradition, derived: true, note: "مات في الثاني والعشرين من صفر سنة أربع وخمسين وستمائة {cite:shadharat-dhahab p. 273}." }
+summary:
+  ar: "كان آخر من روى عن أبي سعد ابن أبي عصرون، وسمع من الفضل بن البانياسي ويحيى الثقفي وبنيسابور من منصور الفراوي وبإصبهان من علي بن منصور الثقفي؛ وكان ثقة خيراً نبيلاً به صمم مفرط سمع الناس من لفظه {cite:shadharat-dhahab p. 273}."
+  en: "The deaf Ansari (b. 572, d. 22 Safar 654) — last transmitter from Ibn Abi Asrun; so deaf that people heard the hadith only from his own lips {cite:shadharat-dhahab p. 273}."
+gender: male
+roles: [scholar, muhaddith]
+wings: [people]
+periods: [period/crusades-ayyubid-mamluk]
+regions: [levant-iraq, persia-central-asia]
+faith:
+  - value: sunni
+    basis: tradition
+relations:
+  - { type: died_in, target: place/damascus, sources: [source/shadharat-dhahab] }
+sources: [source/shadharat-dhahab]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }
+provenance:
+  layer: own-research
+  source: "شذرات الذهب — ابن العماد (ج5، سنة 654)، قراءة آبل فيجن"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-shadharat-batch-129

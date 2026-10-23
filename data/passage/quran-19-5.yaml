@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 19:5 (سورة مريم، الآية 5)."
 text: "وَإِنِّى خِفْتُ ٱلْمَوَٰلِىَ مِن وَرَآءِى وَكَانَتِ ٱمْرَأَتِى عَاقِرًا فَهَبْ لِى مِن لَّدُنكَ وَلِيًّا"
 text_search: "وإني خفت الموالي من ورائي وكانت امرأتي عاقرا فهب لي من لدنك وليا"
+translations:
+  en: { text: "Lo! I fear my kinsfolk after me, since my wife is barren. Oh, give me from Thy presence a successor", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "اور میں اپنے بعد اپنے بھائی بندوں سے ڈرتا ہوں اور میری بیوی بانجھ ہے تو مجھے اپنے پاس سے ایک وارث عطا فرما", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-19 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

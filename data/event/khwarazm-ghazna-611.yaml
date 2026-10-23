@@ -1,0 +1,22 @@
+id: event/khwarazm-ghazna-611
+class: event
+kind: conquest
+label: { ar: "ملك خوارزم شاه غزنة وأعمالها", en: "Khwarazmshah takes Ghazna and its dependencies" }
+date:
+  start: { edtf: "1214~", hijri: "0611", calendar: julian, precision: year, status: tradition, derived: true }
+summary:
+  ar: "ملك علاء الدين محمد خوارزم شاه غزنة وأعمالها فضمّها إلى مملكته بعد زوال الغوريين عنها {cite:kamil-ibn-al-athir p. 366}."
+  en: "Khwarazmshah took Ghazna and its dependencies after the Ghurid hold on them ended {cite:kamil-ibn-al-athir p. 366}."
+sides:
+  - label: { ar: "علاء الدين محمد خوارزم شاه" }
+  - label: { ar: "الذين بأيديهم غزنة" }
+relations:
+  - { type: occurred_at, target: place/ghazna, sources: [source/kamil-ibn-al-athir] }
+  - { type: had_participant, target: person/muhammad-khwarazmshah, role: "المالك", sources: [source/kamil-ibn-al-athir] }
+provenance:
+  layer: own-research
+  source: "الكامل في التاريخ لابن الأثير، قراءة آبل فيجن"
+  generated_by: "Devin (SWE-2 Medium) from Apple Vision OCR"
+  run: lib-kamil-v12-batch06
+sources: [source/kamil-ibn-al-athir]
+status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 Medium)" }

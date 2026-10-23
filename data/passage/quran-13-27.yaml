@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 13:27 (سورة الرعد، الآية 27)."
 text: "وَيَقُولُ ٱلَّذِينَ كَفَرُوا۟ لَوْلَآ أُنزِلَ عَلَيْهِ ءَايَةٌ مِّن رَّبِّهِۦ ۗ قُلْ إِنَّ ٱللَّهَ يُضِلُّ مَن يَشَآءُ وَيَهْدِىٓ إِلَيْهِ مَنْ أَنَابَ"
 text_search: "ويقول الذين كفروا لولا أنزل عليه آية من ربه ۗ قل إن الله يضل من يشاء ويهدي إليه من أناب"
+translations:
+  en: { text: "Those who disbelieve say: If only a portent were sent down upon him from his Lord! Say: Lo! Allah sendeth whom He will astray, and guideth unto Himself all who turn (unto Him),", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "اور کافر کہتے ہیں کہ اس (پیغمبر) پر اس کے پروردگار کی طرف سے کوئی نشانی کیوں نازل نہیں ہوئی۔ کہہ دو کہ خدا جسے چاہتا ہے گمراہ کرتا ہے اور جو (اس کی طرف) رجوع ہوتا ہے اس کو اپنی طرف کا رستہ دکھاتا ہے", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-13 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

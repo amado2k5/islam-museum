@@ -1,0 +1,25 @@
+id: person/ali-al-akbar-ibn-al-husayn
+class: person
+gender: male
+label:
+  ar: علي الأكبر بن الحسين
+  en: Ali al-Akbar ibn al-Husayn
+  ur: علی اکبر بن حسین
+summary:
+  ar: "علي الأكبر بن الحسين بن علي بن أبي طالب؛ يعدّه ابن كثير في أولاد الحسين الذين قتلوا معه بكربلاء سنة 61هـ {cite:al-bidaya-wal-nihaya}."
+  en: "Ali al-Akbar ibn al-Husayn ibn Ali ibn Abi Talib; Ibn Kathir counts him among Husayn's sons killed with him at Karbala in 61 AH {cite:al-bidaya-wal-nihaya}."
+wings: [people]
+themes: [sects-and-schools, civil-wars-and-revolts]
+regions: [levant-iraq]
+periods: [period/umayyad]
+relations:
+  - { type: child_of, target: person/husayn-ibn-ali }
+  - { type: died_in, target: place/karbala }
+external_ids: { wikidata: "Q4115052" }
+sources: [source/al-bidaya-wal-nihaya]
+provenance:
+  layer: own-research
+  source: "wikidata-import deferred Q4115052; Bidaya 61 AH 'awlad al-Husayn Ali al-Akbar wa-Abd Allah' verified in OCR (line 20826)"
+  generated_by: "Devin (SWE-2 Medium)"
+  run: wd-deferred-12
+status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 Medium)" }

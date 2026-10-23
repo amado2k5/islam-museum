@@ -1,0 +1,23 @@
+id: event/siege-of-mosul-1517
+class: event
+kind: siege
+label: { ar: "حصار الموصل (١٥١٧)", en: "Siege of Mosul" }
+summary:
+  ar: "بطاقة أولية لحصار الموصل سنة ١٥١٧م، دخولها في دولة سليم بعد مرج دابق؛ لم تُراجع مصادره على الصفحة بعد."
+  en: "Draft card for the Siege of Mosul in 1517, the city's absorption into Selim's empire after Marj Dabiq; its sources are not yet checked on the page."
+wings: [time]
+periods: [period/gunpowder-empires]
+regions: [levant-iraq]
+date:
+  start: { edtf: "1517-04", precision: year, status: tradition, derived: true }
+  end: { edtf: "1517-04", precision: year, status: tradition, derived: true }
+sources: [source/dawlat-uthmaniyya-salabi]
+external_ids:
+  wikidata: Q112075364
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; battle attested in narrative histories — entry not yet checked on the page"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-wave2
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

@@ -1,0 +1,23 @@
+id: event/battle-of-camurlu-1413
+class: event
+kind: battle
+label: { ar: "معركة جامورلو", en: "Battle of Çamurlu" }
+summary:
+  ar: "بطاقة أولية لمعركة جامورلو سنة ١٤١٣م، نصر محمد الأول على أخيه موسى الذي أنهى الفترة بين الملوك؛ لم تُراجع مصادره على الصفحة بعد."
+  en: "Draft card for the Battle of Çamurlu in 1413, Mehmed I's victory over his brother Musa ending the Ottoman interregnum; its sources are not yet checked on the page."
+wings: [time]
+periods: [period/crusades-ayyubid-mamluk]
+regions: [anatolia-balkans]
+date:
+  start: { edtf: "1413", precision: year, status: tradition, derived: true }
+  end: { edtf: "1413", precision: year, status: tradition, derived: true }
+sources: [source/dawlat-uthmaniyya-salabi]
+external_ids:
+  wikidata: Q4817327
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; battle attested in interregnum histories — entry not yet checked on the page"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-wave2
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

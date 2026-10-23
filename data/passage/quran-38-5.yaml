@@ -12,10 +12,13 @@ summary:
   ar: "القرآن 38:5 (سورة ص، الآية 5)."
 text: "أَجَعَلَ ٱلْـَٔالِهَةَ إِلَـٰهًا وَٰحِدًا ۖ إِنَّ هَـٰذَا لَشَىْءٌ عُجَابٌ"
 text_search: "أجعل الآلهة إلها واحدا ۖ إن هذا لشيء عجاب"
+translations:
+  en: { text: "Maketh he the gods One Allah? Lo! that is an astounding thing.", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "کیا اس نے اتنے معبودوں کی جگہ ایک ہی معبود بنا دیا۔ یہ تو بڑی عجیب بات ہے", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: revealed_about, target: event/last-quraysh-delegation-to-abu-talib }
   - { type: part_of, target: passage/quran-38 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

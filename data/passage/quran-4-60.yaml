@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 4:60 (سورة النساء، الآية 60)."
 text: "أَلَمْ تَرَ إِلَى ٱلَّذِينَ يَزْعُمُونَ أَنَّهُمْ ءَامَنُوا۟ بِمَآ أُنزِلَ إِلَيْكَ وَمَآ أُنزِلَ مِن قَبْلِكَ يُرِيدُونَ أَن يَتَحَاكَمُوٓا۟ إِلَى ٱلطَّـٰغُوتِ وَقَدْ أُمِرُوٓا۟ أَن يَكْفُرُوا۟ بِهِۦ وَيُرِيدُ ٱلشَّيْطَـٰنُ أَن يُضِلَّهُمْ ضَلَـٰلًۢا بَعِيدًا"
 text_search: "ألم تر إلى الذين يزعمون أنهم آمنوا بما أنزل إليك وما أنزل من قبلك يريدون أن يتحاكموا إلى الطاغوت وقد أمروا أن يكفروا به ويريد الشيطان أن يضلهم ضلالا بعيدا"
+translations:
+  en: { text: "Hast thou not seen those who pretend that they believe in that which is revealed unto thee and that which was revealed before thee, how they would go for judgment (in their disputes) to false deities when they have been ordered to abjure them? Satan would mislead them far astray.", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "کیا تم نے ان لوگوں کو نہیں دیکھا جو دعویٰ تو یہ کرتے ہیں کہ جو (کتاب) تم پر نازل ہوئی اور جو (کتابیں) تم سے پہلے نازل ہوئیں ان سب پر ایمان رکھتے ہیں اور چاہتے یہ ہیں کہ اپنا مقدمہ ایک سرکش کے پاس لے جا کر فیصلہ کرائیں حالانکہ ان کو حکم دیا گیا تھا کہ اس سے اعتقاد نہ رکھیں اور شیطان (تو یہ) چاہتا ہے کہ ان کو بہکا کر رستے سے دور ڈال دے", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-4 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

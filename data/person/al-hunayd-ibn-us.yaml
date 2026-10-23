@@ -1,0 +1,19 @@
+id: person/al-hunayd-ibn-us
+class: person
+label: { ar: "الهنيد بن عوص الضليعي", en: "Al-Hunayd ibn Us al-Dula'i" }
+names:
+  - { kind: full, lang: ar, value: "الهنيد بن عوص الضليعي" }
+gender: male
+roles: [tribal-leader]
+summary:
+  ar: "من الضليع بطن من جذام؛ أغار هو وابنه عوص على دحية بن خليفة الكلبي بوادي شنار عند رجوعه من قيصر فأخذا ما معه، فاستنقذه منهما الضبيب، ثم قتلهما جيش زيد بن حارثة الذي بعثه النبي بسبب ذلك."
+  en: "Of the Dula' of Judham; he and his son Us robbed Dihya ibn Khalifa al-Kalbi in the valley of Shinar on his return from Caesar, the Dubayb recovered the goods, and both were killed by the army of Zayd ibn Haritha that the Prophet sent on that account."
+wings: [people]
+periods: [period/prophetic-era]
+regions: [arabia]
+relations:
+  - { type: member_of, target: group/banu-dula, sources: [source/ibn-hisham-saqqa] }
+  - { type: participated_in, target: event/raid-of-zayd-on-judham, role: "أغار على دحية وقُتل", sources: [source/ibn-hisham-saqqa] }
+provenance: { layer: own-research, source: "sira-ibn-hisham saqqa 1936, juz' 4 pp. 260-261", generated_by: "Claude Code", model: "claude-fable-5-1", run: "ibn-hisham-batch-13" }
+sources: [source/ibn-hisham-saqqa]
+status: { review: draft, completeness: 1, generated_by: "Claude Fable 5.1; mined from Ibn Hisham juz' 4 pp. 260-261" }

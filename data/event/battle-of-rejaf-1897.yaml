@@ -1,0 +1,23 @@
+id: event/battle-of-rejaf-1897
+class: event
+kind: battle
+label: { ar: "معركة رجاف (١٨٩٧)", en: "Battle of Rejaf (1897)" }
+summary:
+  ar: "بطاقة أولية لمعركة رجاف سنة ١٨٩٧م، من مصادمات البلجيكيين والمهديين على النيل؛ لم تُراجع مصادره على الصفحة بعد."
+  en: "Draft card for the Battle of Rejaf in 1897, a Belgian–Mahdist clash on the Nile; its sources are not yet checked on the page."
+wings: [time]
+periods: [period/modern-era]
+regions: [east-africa]
+date:
+  start: { edtf: "1897-02", precision: year, status: tradition, derived: true }
+  end: { edtf: "1897-02", precision: year, status: tradition, derived: true }
+sources: [source/tarikh-islam-hasan-ibrahim]
+external_ids:
+  wikidata: Q28806159
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; battle attested in narrative histories — entry not yet checked on the page"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-wave2
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

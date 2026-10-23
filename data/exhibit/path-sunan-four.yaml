@@ -1,0 +1,77 @@
+id: exhibit/path-sunan-four
+class: exhibit
+kind: trail
+label:
+  ar: السنن الأربعة
+  en: The Four Sunan
+summary:
+  ar: 'مسار في بقية الكتب الستة: الترمذي يجمع الجامع، وأبو داود السنن، والنسائي في فقه الحديث، وابن ماجه
+    يختم الستة.'
+  en: A trail through the remaining four books.
+audience:
+- newcomer
+- student
+duration_minutes: 30
+wings: []
+regions:
+- persia-central-asia
+rooms:
+- title:
+    ar: الترمذي
+    en: Al-Tirmidhi
+  body:
+    ar: 'الجامع: حديث وأحكام وعلل وشمائل.'
+    en: 'الجامع: حديث وأحكام وعلل وشمائل.'
+  features:
+  - person/al-tirmidhi-muhammad-ibn-isa
+  - work/jami-al-tirmidhi
+- title:
+    ar: أبو داود
+    en: Abu Dawud
+  body:
+    ar: 'سنن الأحكام: السجستاني يجمع في بغداد.'
+    en: 'سنن الأحكام: السجستاني يجمع في بغداد.'
+  features:
+  - person/abu-dawud-al-sijistani
+  - work/sunan-abi-dawud
+- title:
+    ar: النسائي
+    en: Al-Nasa'i
+  body:
+    ar: 'السنن الكبرى والصغرى: دقة الشيخ الثمانيني.'
+    en: 'السنن الكبرى والصغرى: دقة الشيخ الثمانيني.'
+  features:
+  - person/al-nasai
+  - work/sunan-al-nasai
+- title:
+    ar: ابن ماجه
+    en: Ibn Majah
+  body:
+    ar: 'قزوين تختم الستة: سنن ابن ماجه.'
+    en: 'قزوين تختم الستة: سنن ابن ماجه.'
+  features:
+  - person/ibn-majah
+  - work/sunan-ibn-majah
+- title:
+    ar: علم الحديث
+    en: Hadith science
+  body:
+    ar: 'الإسناد والمصطلح: كيف صانت الأمة النص.'
+    en: 'الإسناد والمصطلح: كيف صانت الأمة النص.'
+  features:
+  - concept/isnad
+  - concept/mustalah-al-hadith
+prerequisites:
+- exhibit/path-islam-in-30-minutes
+sources:
+- source/wikidata
+provenance:
+  layer: own-research
+  source: Devin-assembled trail from existing museum entities
+  generated_by: Devin (SWE-2 High)
+  model: SWE-2 High
+  run: pathways-batch-7
+status:
+  review: draft
+  completeness: 1
+  generated_by: Devin (SWE-2 High), pathways lane, 2026-10-16

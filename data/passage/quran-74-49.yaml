@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 74:49 (سورة المدثر، الآية 49)."
 text: "فَمَا لَهُمْ عَنِ ٱلتَّذْكِرَةِ مُعْرِضِينَ"
 text_search: "فما لهم عن التذكرة معرضين"
+translations:
+  en: { text: "Why now turn they away from the Admonishment,", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "ان کو کیا ہوا ہے کہ نصیحت سے روگرداں ہو رہے ہیں", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-74 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

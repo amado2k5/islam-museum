@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 87:5 (سورة الأعلى، الآية 5)."
 text: "فَجَعَلَهُۥ غُثَآءً أَحْوَىٰ"
 text_search: "فجعله غثاء أحوى"
+translations:
+  en: { text: "Then turneth it to russet stubble.", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "پھر اس کو سیاہ رنگ کا کوڑا کر دیا", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-87 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

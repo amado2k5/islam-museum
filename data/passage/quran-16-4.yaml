@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 16:4 (سورة النحل، الآية 4)."
 text: "خَلَقَ ٱلْإِنسَـٰنَ مِن نُّطْفَةٍ فَإِذَا هُوَ خَصِيمٌ مُّبِينٌ"
 text_search: "خلق الإنسان من نطفة فإذا هو خصيم مبين"
+translations:
+  en: { text: "He hath created man from a drop of fluid, yet behold! he is an open opponent.", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "اسی نے انسان کو نطفے سے بنایا مگر وہ اس (خالق) کے بارے میں علانیہ جھگڑنے لگا", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-16 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

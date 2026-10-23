@@ -1,0 +1,23 @@
+id: event/siege-of-diu-1531
+class: event
+kind: siege
+label: { ar: "حصار ديو (١٥٣١)", en: "Siege of Diu" }
+summary:
+  ar: "بطاقة أولية لحصار ديو سنة ١٥٣١م، حملة البرتغاليين الفاشلة على حصن كجرات؛ لم تُراجع مصادره على الصفحة بعد."
+  en: "Draft card for the Siege of Diu in 1531, the Portuguese fleet's failed assault on the Gujarati fort; its sources are not yet checked on the page."
+wings: [time]
+periods: [period/gunpowder-empires]
+regions: [south-asia]
+date:
+  start: { edtf: "1531", precision: year, status: tradition, derived: true }
+  end: { edtf: "1531", precision: year, status: tradition, derived: true }
+sources: [source/tarikh-islam-hasan-ibrahim]
+external_ids:
+  wikidata: Q7509975
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; siege attested in Indian-Ocean histories — entry not yet checked on the page"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-wave2
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

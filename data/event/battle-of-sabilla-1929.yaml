@@ -1,0 +1,23 @@
+id: event/battle-of-sabilla-1929
+class: event
+kind: battle
+label: { ar: "معركة سبلة", en: "Battle of Sabilla" }
+summary:
+  ar: "بطاقة أولية لمعركة سبلة سنة ١٩٢٩م، سحق الإخوان المتمردين على يد ابن سعود؛ لم تُراجع مصادره على الصفحة بعد."
+  en: "Draft card for the Battle of Sabilla in 1929, Ibn Saud's crushing of the rebellious Ikhwan; its sources are not yet checked on the page."
+wings: [time]
+periods: [period/modern-era]
+regions: [arabia]
+date:
+  start: { edtf: "1929", precision: year, status: tradition, derived: true }
+  end: { edtf: "1929", precision: year, status: tradition, derived: true }
+sources: [source/tarikh-islam-hasan-ibrahim]
+external_ids:
+  wikidata: Q3636603
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; battle attested in narrative histories — entry not yet checked on the page"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-wave2
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

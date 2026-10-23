@@ -1,0 +1,26 @@
+id: person/badr-al-habashi
+class: person
+label: { ar: "بدر الحبشي الصوابي الأمير", en: "Badr al-Habashi al-Sawwabi" }
+names:
+  - { value: "الصوابي الخادم الأمير الكبير بدر الدين بدر الحبشي", kind: full }
+died: { edtf: "1299-02~", hijri: "0698-05", calendar: julian, precision: month, status: tradition, derived: true, note: "توفي فجأة بقرية الخيارة في جمادى الأولى وحمل إلى قاسيون فدفن بتربته {cite:shadharat-dhahab p. 770-771}." }
+summary:
+  ar: "الأمير الكبير؛ كان أميراً على مائة فارس بدمشق وأقام في الإمرة نحو أربعين سنة موصوفاً بالشجاعة والعقل والرأي؛ وقال ابن شهبة: هو أول من أبطل ما كان يُجبى من الحجاج في كل سنة لأجل العربان على كل جمل عشرة دراهم — أقام ذلك من ماله وأبطل الجباية سنة إحدى وثمانين فبطل إلى زمان ابن العماد {cite:shadharat-dhahab p. 770-771}."
+  en: "The great amir — forty years in office; the first to abolish the ten-dirham-per-camel levy on pilgrims, paying it from his own purse in 681 {cite:shadharat-dhahab p. 770-771}."
+gender: male
+roles: [emir]
+wings: [people]
+periods: [period/mongol-post-mongol]
+regions: [levant-iraq]
+faith:
+  - value: sunni
+    basis: tradition
+relations:
+  - { type: died_in, target: place/damascus, sources: [source/shadharat-dhahab] }
+sources: [source/shadharat-dhahab]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }
+provenance:
+  layer: own-research
+  source: "شذرات الذهب — ابن العماد (ج7، سنة 698)، قراءة آبل فيجن"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-shadharat-batch-135

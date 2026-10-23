@@ -1,0 +1,21 @@
+id: passage/muwatta-3-655
+class: passage
+unit: hadith
+chain: [person/malik-ibn-anas, person/muhammad-ibn-uqba-mawla-al-zubayr]
+work: work/muwatta-malik
+ref: "655"
+label: { ar: "الموطأ 655 — القاسم بن محمد: لم يكن أبو بكر يأخذ من مال زكاة حتى يحول عليه الحول، ويسأل أهل العطاء عن أموالهم", en: "Muwatta 655" }
+text: "هل عندك من مال وجبت عليك فيه الزكاة؟"
+summary:
+  ar: "أول حديث في باب الزكاة في العين من الذهب والورق. يرويه مالك عن محمد بن عقبة مولى الزبير، أنه سأل القاسم بن محمد عن مكاتب له قاطعه بمال عظيم، هل عليه فيه زكاة؟ فقال القاسم: إن أبا بكر الصديق لم يكن يأخذ من مال زكاة حتى يحول عليه الحول، وكان إذا أعطى الناس أعطياتهم يسأل الرجل هل عنده مال وجبت عليه فيه الزكاة، فإن قال نعم أخذ من عطائه زكاة ذلك المال، وإن قال لا أسلم إليه عطاءه ولم يأخذ منه شيئاً. ويذكر المحقق أنه رواه عن مالك أبو مصعب وعبد الرزاق (7024) والشافعي عند البيهقي ومحمد بن الحسن الشيباني (327). {cite:muwatta-maruf-1997 p.335} {cite:muwatta-maruf-1997 p.336}"
+relations:
+  - { type: part_of, target: passage/muwatta-kitab-03-zakat }
+  - { type: mentions, target: person/abu-bakr, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/al-qasim-ibn-muhammad, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/muhammad-ibn-uqba-mawla-al-zubayr, sources: [source/muwatta-maruf-1997] }
+  - { type: basis_for, target: practice/zakat, sources: [source/muwatta-maruf-1997] }
+  - { type: basis_for, target: concept/hawl, sources: [source/muwatta-maruf-1997] }
+  - { type: basis_for, target: concept/mukataba, sources: [source/muwatta-maruf-1997] }
+provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 1, hadith 655 at PDF p. 335; باب الزكاة في العين من الذهب والورق", generated_by: "Claude Code (claude-haiku-5-5) from Apple Vision OCR of the Noor-Book PDF, checked on the page image where doubtful", run: "muwatta-prose-k3-b01" }
+sources: [source/muwatta-maruf-1997]
+status: { review: draft, completeness: 2, generated_by: "Claude Code (claude-haiku-5-5); own-words account written from PDF p. 335; matn excerpt at most 40 words" }

@@ -1,0 +1,23 @@
+id: event/siege-of-tbilisi-1226
+class: event
+kind: siege
+label: { ar: "حصار تفليس (١٢٢٦)", en: "Siege of Tbilisi (1226)" }
+summary:
+  ar: "بطاقة أولية لحصار تفليس (١٢٢٦)؛ لم تُراجع مصادره على الصفحة بعد."
+  en: "Draft card for Siege of Tbilisi (1226); its sources are not yet checked on the page."
+wings: [time]
+periods: [period/crusades-ayyubid-mamluk]
+regions: [persia-central-asia]
+date:
+  start: { edtf: "1226", precision: year, status: tradition, derived: true }
+  end: { edtf: "1226", precision: year, status: tradition, derived: true }
+sources: [source/tarikh-islam-hasan-ibrahim]
+external_ids:
+  wikidata: Q116769199
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; battle attested in narrative histories — entry not yet checked on the page"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-wave2
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

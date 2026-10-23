@@ -1,0 +1,17 @@
+id: passage/muslim-0045
+class: passage
+unit: hadith
+work: work/sahih-muslim
+ref: "45"
+label: { ar: "مسلم 45 — لا يؤمن أحدكم حتى يحب لأخيه ما يحب لنفسه", en: "Muslim 45 — None of you believes until he loves for his brother what he loves for himself" }
+text: "قال رسول الله: «لا يؤمن أحدكم حتى يحب لأخيه ما يحب لنفسه»"
+summary:
+  ar: "رواية أنس بن مالك في باب الدليل على أن من خصال الإيمان أن يحب لأخيه المسلم ما يحب لنفسه من الخير من كتاب الإيمان في صحيح مسلم."
+relations:
+  - { type: mentions, target: person/muhammad, sources: [source/sahih-muslim] }
+  - { type: mentions, target: person/anas-ibn-malik, sources: [source/sahih-muslim] }
+  - { type: mentions, target: concept/iman, sources: [source/sahih-muslim] }
+  - { type: mentions, target: concept/ukhuwwa, sources: [source/sahih-muslim] }
+provenance: { layer: own-research, source: "صحيح مسلم، كتاب الإيمان، باب أن من خصال الإيمان أن يحب لأخيه ما يحب لنفسه (طبعة دار التأصيل، الحديث 179؛ ترقيم عبد الباقي المعروف 45)، تصوير Apple Vision OCR", generated_by: "Devin (SWE-2 High) from Apple Vision OCR", run: "hadith-muslim-passages-2" }
+sources: [source/sahih-muslim]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High); matn excerpt at most 40 words checked against the scan" }

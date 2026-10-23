@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 28:47 (سورة القصص، الآية 47)."
 text: "وَلَوْلَآ أَن تُصِيبَهُم مُّصِيبَةٌۢ بِمَا قَدَّمَتْ أَيْدِيهِمْ فَيَقُولُوا۟ رَبَّنَا لَوْلَآ أَرْسَلْتَ إِلَيْنَا رَسُولًا فَنَتَّبِعَ ءَايَـٰتِكَ وَنَكُونَ مِنَ ٱلْمُؤْمِنِينَ"
 text_search: "ولولا أن تصيبهم مصيبة بما قدمت أيديهم فيقولوا ربنا لولا أرسلت إلينا رسولا فنتبع آياتك ونكون من المؤمنين"
+translations:
+  en: { text: "Otherwise, if disaster should afflict them because of that which their own hands have sent before (them), they might say: Our Lord! Why sentest Thou no messenger unto us, that we might have followed Thy revelations and been of the believers?", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "اور (اے پیغمبر ہم نے تو کو اس لئے بھیجا ہے کہ) ایسا نہ ہو کہ اگر ان (اعمال) کے سبب جو اُن کے ہاتھ آگے بھیج چکے ہیں ان پر کوئی مصیبت واقع ہو تو یہ کہنے لگیں کہ اے پروردگار تو نے ہماری طرف کوئی پیغمبر کیوں نہ بھیجا کہ ہم تیری آیتوں کی پیروی کرنے اور ایمان لانے والوں میں ہوتے", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-28 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

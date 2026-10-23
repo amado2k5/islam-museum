@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 16:92 (سورة النحل، الآية 92)."
 text: "وَلَا تَكُونُوا۟ كَٱلَّتِى نَقَضَتْ غَزْلَهَا مِنۢ بَعْدِ قُوَّةٍ أَنكَـٰثًا تَتَّخِذُونَ أَيْمَـٰنَكُمْ دَخَلًۢا بَيْنَكُمْ أَن تَكُونَ أُمَّةٌ هِىَ أَرْبَىٰ مِنْ أُمَّةٍ ۚ إِنَّمَا يَبْلُوكُمُ ٱللَّهُ بِهِۦ ۚ وَلَيُبَيِّنَنَّ لَكُمْ يَوْمَ ٱلْقِيَـٰمَةِ مَا كُنتُمْ فِيهِ تَخْتَلِفُونَ"
 text_search: "ولا تكونوا كالتي نقضت غزلها من بعد قوة أنكاثا تتخذون أيمانكم دخلا بينكم أن تكون أمة هي أربى من أمة ۚ إنما يبلوكم الله به ۚ وليبينن لكم يوم القيامة ما كنتم فيه تختلفون"
+translations:
+  en: { text: "And be not like unto her who unravelleth the thread, after she hath made it strong, to thin filaments, making your oaths a deceit between you because of a nation being more numerous than (another) nation. Allah only trieth you thereby, and He verily will explain to you on the Day of Resurrection that wherein ye differed.", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "اور اُس عورت کی طرح نہ ہونا جس نے محنت سے تو سوت کاتا۔ پھر اس کو توڑ کر ٹکڑے ٹکڑے کر ڈالا۔ کہ تم اپنی قسموں کو آپس میں اس بات کا ذریعہ بنانے لگو کہ ایک گروہ دوسرے گروہ سے زیادہ غالب رہے۔ بات یہ ہے کہ خدا تمہیں اس سے آزماتا ہے۔ اور جن باتوں میں تم اختلاف کرتے ہو قیامت کو اس کی حقیقت تم پر ظاہر کر دے گا", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-16 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

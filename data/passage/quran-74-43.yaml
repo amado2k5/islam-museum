@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 74:43 (سورة المدثر، الآية 43)."
 text: "قَالُوا۟ لَمْ نَكُ مِنَ ٱلْمُصَلِّينَ"
 text_search: "قالوا لم نك من المصلين"
+translations:
+  en: { text: "They will answer: We were not of those who prayed", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "وہ جواب دیں گے کہ ہم نماز نہیں پڑھتے تھے", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-74 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

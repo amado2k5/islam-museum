@@ -1,0 +1,78 @@
+id: exhibit/path-bayat
+class: exhibit
+kind: trail
+label:
+  ar: البيعة
+  en: The Bay'a
+summary:
+  ar: 'مسار في عقد الحكم: بيعة العقبة الأولى، وبيعة الرضوان تحت الشجرة، وبيعة علي بعد عثمان — الإجماع
+    باليد.'
+  en: A trail through the compact of rule.
+audience:
+- newcomer
+- student
+duration_minutes: 30
+wings: []
+regions:
+- arabia
+rooms:
+- title:
+    ar: العقبة
+    en: Aqaba
+  body:
+    ar: 'بيعتا العقبة: المدينة تبايع النبي.'
+    en: 'بيعتا العقبة: المدينة تبايع النبي.'
+  features:
+  - event/first-pledge-of-aqaba
+  - event/second-pledge-of-aqaba
+  - event/pledges-of-aqaba
+- title:
+    ar: الرضوان
+    en: Ridwan
+  body:
+    ar: 'الحديبية: بيعة تحت الشجرة أرضت الله.'
+    en: 'الحديبية: بيعة تحت الشجرة أرضت الله.'
+  features:
+  - event/bayat-al-ridwan
+  - event/treaty-of-hudaybiyya
+- title:
+    ar: علي
+    en: Ali
+  body:
+    ar: 'بيعة علي في المدينة: رابع الخلفاء.'
+    en: 'بيعة علي في المدينة: رابع الخلفاء.'
+  features:
+  - event/bayat-ali
+  - person/ali-ibn-abi-talib
+- title:
+    ar: الحسن
+    en: Al-Hasan
+  body:
+    ar: 'بيعة الحسن ثم التسليم: صلح العام.'
+    en: 'بيعة الحسن ثم التسليم: صلح العام.'
+  features:
+  - event/bayat-al-hasan-ibn-ali
+  - person/hasan-ibn-ali
+- title:
+    ar: العباسيون
+    en: The Abbasids
+  body:
+    ar: السفاح يبايع في الكوفة 750.
+    en: السفاح يبايع في الكوفة 750.
+  features:
+  - event/bayat-abu-al-abbas-al-saffah
+  - polity/abbasid-caliphate
+prerequisites:
+- exhibit/path-islam-in-30-minutes
+sources:
+- source/wikidata
+provenance:
+  layer: own-research
+  source: Devin-assembled trail from existing museum entities
+  generated_by: Devin (SWE-2 High)
+  model: SWE-2 High
+  run: pathways-batch-7
+status:
+  review: draft
+  completeness: 1
+  generated_by: Devin (SWE-2 High), pathways lane, 2026-10-16

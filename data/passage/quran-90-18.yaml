@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 90:18 (سورة البلد، الآية 18)."
 text: "أُو۟لَـٰٓئِكَ أَصْحَـٰبُ ٱلْمَيْمَنَةِ"
 text_search: "أولئك أصحاب الميمنة"
+translations:
+  en: { text: "Their place will be on the right hand.", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "یہی لوگ صاحب سعادت ہیں", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-90 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

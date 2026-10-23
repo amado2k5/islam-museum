@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 5:14 (سورة المائدة، الآية 14)."
 text: "وَمِنَ ٱلَّذِينَ قَالُوٓا۟ إِنَّا نَصَـٰرَىٰٓ أَخَذْنَا مِيثَـٰقَهُمْ فَنَسُوا۟ حَظًّا مِّمَّا ذُكِّرُوا۟ بِهِۦ فَأَغْرَيْنَا بَيْنَهُمُ ٱلْعَدَاوَةَ وَٱلْبَغْضَآءَ إِلَىٰ يَوْمِ ٱلْقِيَـٰمَةِ ۚ وَسَوْفَ يُنَبِّئُهُمُ ٱللَّهُ بِمَا كَانُوا۟ يَصْنَعُونَ"
 text_search: "ومن الذين قالوا إنا نصارى أخذنا ميثاقهم فنسوا حظا مما ذكروا به فأغرينا بينهم العداوة والبغضاء إلى يوم القيامة ۚ وسوف ينبئهم الله بما كانوا يصنعون"
+translations:
+  en: { text: "And with those who say: \"Lo! we are Christians,\" We made a covenant, but they forgot a part of that whereof they were admonished. Therefor We have stirred up enmity and hatred among them till the Day of Resurrection, when Allah will inform them of their handiwork.", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "اور جو لوگ (اپنے تئیں) کہتے ہیں کہ ہم نصاریٰ ہیں ہم نے ان سے بھی عہد لیا تھا مگر انہوں نے بھی اس نصیحت کا جو ان کو کی گئی تھی ایک حصہ فراموش کر دیا تو ہم نے ان کے باہم قیامت تک کے لیے دشمنی اور کینہ ڈال دیا اور جو کچھ وہ کرتے رہے خدا عنقریب ان کو اس سے آگاہ کرے گا", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-5 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

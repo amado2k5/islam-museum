@@ -1,0 +1,25 @@
+id: event/algiers-joins-ottoman-1519
+class: event
+kind: other
+label: { ar: "دخول الجزائر تحت السيادة العثمانية (٩٢٥هـ/١٥١٩م)", en: "Algiers enters Ottoman sovereignty (1519)" }
+summary:
+  ar: "بعث أهل مدينة الجزائر بأمر خير الدين بربروسة سفارة برئاسة الفقيه أبي العباس أحمد بن قاضي إلى السلطان سليم الأول، حاملة رسالة مؤرخة بأوائل ذي القعدة ٩٢٥هـ/أكتوبر-نوفمبر ١٥١٩م من القضاة والخطباء والفقهاء والتجار والأعيان وسكان المدينة لطلب ربط الجزائر بالدولة العثمانية — وهي الوثيقة المحفوظة في طوب قابي سيراي برقم ٤٦٥٦. فأجاب السلطان سليم بمنح خير الدين رتبة بكلربك وإرسال قوة من سلاح المدفعية وألفين من الإنكشارية، ودُعي له على المنابر وضُربت العملة باسمه، فدخلت الجزائر رسمياً تحت السيادة العثمانية سنة ١٥١٩م أولَ أقاليم شمال أفريقية، ويؤكد المؤلف أن دخول القوات جاء استجابة لاستغاثة الأهل لا غزواً ضد رغبتهم {cite:dawlat-uthmaniyya-salabi p. 211-213}."
+  en: "In early Dhu'l-Qa'da 925/October–November 1519 the notables of Algiers, at Khayr al-Din's order, sent the jurist Ahmad b. Qadi to Sultan Selim I with a letter (Topkapı archive no. 4656) asking to bind the city to the Ottoman state. Selim answered with the rank of beylerbey, artillery and 2,000 Janissaries; his name entered the pulpits and the coinage, and Algiers became the first North African province under Ottoman sovereignty — an entry al-Salabi stresses was by the inhabitants' appeal, not against their will {cite:dawlat-uthmaniyya-salabi p. 211-213}."
+wings: [time]
+periods: [period/gunpowder-empires]
+regions: [maghreb]
+date:
+  start: { edtf: "1519", hijri: "0925", calendar: julian, precision: year, status: tradition, derived: true, sources: [source/dawlat-uthmaniyya-salabi] }
+relations:
+  - { type: had_participant, target: person/khayr-al-din-barbarossa, sources: [source/dawlat-uthmaniyya-salabi] }
+  - { type: had_participant, target: person/selim-i-ottoman, sources: [source/dawlat-uthmaniyya-salabi] }
+  - { type: had_participant, target: person/abu-al-abbas-ahmad-ibn-qadi, sources: [source/dawlat-uthmaniyya-salabi] }
+  - { type: occurred_at, target: place/algiers, sources: [source/dawlat-uthmaniyya-salabi] }
+sources: [source/dawlat-uthmaniyya-salabi]
+provenance:
+  layer: own-research
+  source: "الدولة العثمانية لعلي محمد الصلابي (ط1 1421) ص 211-213"
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: salabi-uthmani-batch9
+status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 Medium)" }

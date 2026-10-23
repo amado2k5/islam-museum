@@ -1,0 +1,20 @@
+id: event/ibn-layun-aleppo-raids-604
+class: event
+kind: raid
+label: { ar: "غارات ابن ليون على أعمال حلب", en: "Ibn Layun the Armenian raids the Aleppo countryside" }
+date:
+  start: { edtf: "1207~", hijri: "0604", calendar: julian, precision: "year", status: tradition, derived: true }
+summary:
+  ar: "توالت الغارة من ابن ليون الأرمني صاحب الدروب على ولاية حلب وأعمالها فأفسدوا ونهبوا {cite:kamil-ibn-al-athir p. 319}."
+  en: "Ibn Layun the Armenian, lord of the Passes, launched repeated raids on Aleppo's territories {cite:kamil-ibn-al-athir p. 319}."
+relations:
+  - { type: occurred_at, target: place/aleppo, sources: [source/kamil-ibn-al-athir] }
+  - { type: had_participant, target: person/leo-ii-armenia, role: "الغازي", sources: [source/kamil-ibn-al-athir] }
+  - { type: had_participant, target: person/al-malik-al-zahir-ghazi, role: "صاحب حلب", sources: [source/kamil-ibn-al-athir] }
+provenance:
+  layer: own-research
+  source: "الكامل في التاريخ لابن الأثير، قراءة آبل فيجن"
+  generated_by: "Devin (SWE-2 Medium) from Apple Vision OCR"
+  run: lib-kamil-v12-batch05
+sources: [source/kamil-ibn-al-athir]
+status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 Medium)" }

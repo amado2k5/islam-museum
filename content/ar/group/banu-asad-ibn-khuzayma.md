@@ -10,3 +10,6 @@ translators: []
 ## من هذه القبيلة في فصل مهاجرة الحبشة
 - [[person/ubaydullah-ibn-jahsh|عبيد الله بن جحش]] {cite:ibn-hisham-saqqa 4/6}
 - [[person/qays-ibn-abdullah-asadi|قيس بن عبد الله]] {cite:ibn-hisham-saqqa 4/6}
+
+## في مقدمة الرحيق المختوم
+بنو أسد بن خزيمة من بطون [[person/ilyas-ibn-mudar|إلياس بن مضر]] {cite:mubarakpuri-raheeq p.21}. سكنت بنو أسد شرقي [[place/tayma|تيماء]] وغربي [[place/kufa|الكوفة]]، بينهم وبين تيماء ديار بحتر من [[group/tayy|طيء]]، وبينهم وبين الكوفة خمس ليال {cite:mubarakpuri-raheeq p.22} {cite:muhadarat-tarikh-al-umam-al-islamiyya 1/15-16}.

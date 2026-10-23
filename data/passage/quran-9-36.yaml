@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 9:36 (سورة التوبة، الآية 36)."
 text: "إِنَّ عِدَّةَ ٱلشُّهُورِ عِندَ ٱللَّهِ ٱثْنَا عَشَرَ شَهْرًا فِى كِتَـٰبِ ٱللَّهِ يَوْمَ خَلَقَ ٱلسَّمَـٰوَٰتِ وَٱلْأَرْضَ مِنْهَآ أَرْبَعَةٌ حُرُمٌ ۚ ذَٰلِكَ ٱلدِّينُ ٱلْقَيِّمُ ۚ فَلَا تَظْلِمُوا۟ فِيهِنَّ أَنفُسَكُمْ ۚ وَقَـٰتِلُوا۟ ٱلْمُشْرِكِينَ كَآفَّةً كَمَا يُقَـٰتِلُونَكُمْ كَآفَّةً ۚ وَٱعْلَمُوٓا۟ أَنَّ ٱللَّهَ مَعَ ٱلْمُتَّقِينَ"
 text_search: "إن عدة الشهور عند الله اثنا عشر شهرا في كتاب الله يوم خلق السماوات والأرض منها أربعة حرم ۚ ذلك الدين القيم ۚ فلا تظلموا فيهن أنفسكم ۚ وقاتلوا المشركين كافة كما يقاتلونكم كافة ۚ واعلموا أن الله مع المتقين"
+translations:
+  en: { text: "Lo! the number of the months with Allah is twelve months by Allah's ordinance in the day that He created the heavens and the earth. Four of them are sacred: that is the right religion. So wrong not yourselves in them. And wage war on all of the idolaters as they are waging war on all of you. And know that Allah is with those who keep their duty (unto Him).", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "خدا کے نزدیک مہینے گنتی میں (بارہ ہیں یعنی) اس روز (سے) کہ اس نے آسمانوں اور زمین کو پیدا کیا۔ کتاب خدا میں (برس کے) بارہ مہینے (لکھے ہوئے) ہیں۔ ان میں سے چار مہینے ادب کے ہیں۔ یہی دین (کا) سیدھا راستہ ہے۔ تو ان (مہینوں) میں (قتال ناحق سے) اپنے آپ پر ظلم نہ کرنا۔ اور تم سب کے سب مشرکوں سے لڑو جیسے وہ سب کے سب تم سے لڑتے ہیں۔ اور جان رکھو کہ خدا پرہیز گاروں کے ساتھ ہے", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-9 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

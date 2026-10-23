@@ -1,0 +1,23 @@
+id: event/siege-of-tbilisi-1122
+class: event
+kind: siege
+label: { ar: "حصار تفليس (١١٢٢)", en: "Siege of Tbilisi" }
+summary:
+  ar: "بطاقة أولية لحصار تفليس سنة ١١٢٢م، استيلاء داود الباني على المدينة وإنهاء إمارة تفليس الإسلامية؛ لم تُراجع مصادره على الصفحة بعد."
+  en: "Draft card for the Siege of Tbilisi in 1122, David the Builder's capture of the city ending the Muslim emirate; its sources are not yet checked on the page."
+wings: [time]
+periods: [period/crusades-ayyubid-mamluk]
+regions: [persia-central-asia]
+date:
+  start: { edtf: "1121", precision: year, status: tradition, derived: true }
+  end: { edtf: "1122-02-15", precision: year, status: tradition, derived: true }
+sources: [source/tarikh-islam-hasan-ibrahim]
+external_ids:
+  wikidata: Q25540862
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; battle attested in narrative histories — entry not yet checked on the page"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-wave2
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

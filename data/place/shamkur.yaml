@@ -1,0 +1,19 @@
+id: place/shamkur
+class: place
+kind: town
+label: { ar: "شمكور (المتوكلية)", en: "Shamkur (al-Mutawakkiliyya)" }
+summary:
+  ar: "مدينة قديمة بأران فتحها رجل سلمان بن ربيعة وأخربتها الساوردية ثم عمّرها بُغا مولى المعتصم سنة 240 وسكنها قوماً من الخزر مستأمنين راغبين في الإسلام ونقل إليها تجار برذعة وسماها المتوكلية."
+  en: "an ancient city of Arran taken by Salman's man, ruined by the Sawardiyya, then rebuilt by Bugha mawla of al-Mu'tasim in year 240, peopled with safe-conducted Khazars desiring Islam and Bardha'a's transferred merchants, and renamed al-Mutawakkiliyya."
+wings: [place]
+periods: [period/rashidun]
+regions: [levant-iraq]
+relations:
+  - { type: part_of, target: place/armenia, sources: [source/futuh-buldan-maarif-1407] }
+provenance:
+  layer: own-research
+  source: "فتوح البلدان (ط مؤسسة المعارف 1407هـ/1987م) ص 281–287"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-futuh-buldan-batch-17
+sources: [source/futuh-buldan-maarif-1407]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

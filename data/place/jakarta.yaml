@@ -1,0 +1,25 @@
+id: place/jakarta
+class: place
+kind: city
+label:
+  ar: جاكرتا
+  en: "Jakarta"
+summary:
+  ar: "عاصمة إندونيسيا، تقع في جزيرة جاوة {cite:rihla-imam-akbar-indonesia-azhar p. 24}. فيها القصر الرئاسي الذي استقبل فيه الرئيس جوكو ويدودو الإمام الأكبر في 22 فبراير 2016م {cite:rihla-imam-akbar-indonesia-azhar p. 56}، وفيها جامعة شريف هداية الله الإسلامية الحكومية التي ألقى فيها الإمام خطابه الموجه إلى المسلمين {cite:rihla-imam-akbar-indonesia-azhar p. 79}، ومسجد الأزهر الذي سمّاه الشيخ شلتوت في زيارة سابقة {cite:rihla-imam-akbar-indonesia-azhar p. 105}."
+  en: "Capital of Indonesia, on the island of Java. The Grand Imam met President Widodo at the palace here on 22 February 2016, gave his global address at Sharif Hidayatullah State Islamic University, and visited the Azhar Mosque named by Shaltut on an earlier visit."
+wings: [place]
+regions: [southeast-asia]
+relations:
+  - { type: capital_of, target: polity/indonesia, sources: [source/rihla-imam-akbar-indonesia-azhar] }
+  - { type: located_in, target: place/java, sources: [source/rihla-imam-akbar-indonesia-azhar] }
+sources: [source/rihla-imam-akbar-indonesia-azhar]
+provenance:
+  layer: own-research
+  source: "Al-Azhar Islamic Research Academy, 'The Grand Imam's Journey to Indonesia' (2018), pp. 24, 56, 79, 105 (PDF pagination)"
+  generated_by: "Claude Code"
+  model: "claude-haiku-5-5"
+  run: "azhar-rihla-imam-akbar-indonesia-azhar"
+status:
+  review: draft
+  completeness: 1
+# Verification: population figure (about 18 million, printed with garbled digits) needs a census source

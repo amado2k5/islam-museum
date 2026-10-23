@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 24:28 (سورة النور، الآية 28)."
 text: "فَإِن لَّمْ تَجِدُوا۟ فِيهَآ أَحَدًا فَلَا تَدْخُلُوهَا حَتَّىٰ يُؤْذَنَ لَكُمْ ۖ وَإِن قِيلَ لَكُمُ ٱرْجِعُوا۟ فَٱرْجِعُوا۟ ۖ هُوَ أَزْكَىٰ لَكُمْ ۚ وَٱللَّهُ بِمَا تَعْمَلُونَ عَلِيمٌ"
 text_search: "فإن لم تجدوا فيها أحدا فلا تدخلوها حتى يؤذن لكم ۖ وإن قيل لكم ارجعوا فارجعوا ۖ هو أزكى لكم ۚ والله بما تعملون عليم"
+translations:
+  en: { text: "And if ye find no-one therein, still enter not until permission hath been given. And if it be said unto you: Go away again, then go away, for it is purer for you. Allah knoweth what ye do.", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "اگر تم گھر میں کسی کو موجود نہ پاؤ تو جب تک تم کو اجازت نہ دی جائے اس میں مت داخل ہو۔ اور اگر یہ کہا جائے کہ (اس وقت) لوٹ جاؤ تو لوٹ جایا کرو۔ یہ تمہارے لئے بڑی پاکیزگی کی بات ہے۔ اور جو کام تم کرتے ہو خدا سب جانتا ہے", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-24 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

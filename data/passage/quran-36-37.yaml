@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 36:37 (سورة يس، الآية 37)."
 text: "وَءَايَةٌ لَّهُمُ ٱلَّيْلُ نَسْلَخُ مِنْهُ ٱلنَّهَارَ فَإِذَا هُم مُّظْلِمُونَ"
 text_search: "وآية لهم الليل نسلخ منه النهار فإذا هم مظلمون"
+translations:
+  en: { text: "A token unto them is night. We strip it of the day, and lo! they are in darkness.", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "اور ایک نشانی ان کے لئے رات ہے کہ اس میں سے ہم دن کو کھینچ لیتے ہیں تو اس وقت ان پر اندھیرا چھا جاتا ہے", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-36 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

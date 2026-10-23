@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 22:15 (سورة الحج، الآية 15)."
 text: "مَن كَانَ يَظُنُّ أَن لَّن يَنصُرَهُ ٱللَّهُ فِى ٱلدُّنْيَا وَٱلْـَٔاخِرَةِ فَلْيَمْدُدْ بِسَبَبٍ إِلَى ٱلسَّمَآءِ ثُمَّ لْيَقْطَعْ فَلْيَنظُرْ هَلْ يُذْهِبَنَّ كَيْدُهُۥ مَا يَغِيظُ"
 text_search: "من كان يظن أن لن ينصره الله في الدنيا والآخرة فليمدد بسبب إلى السماء ثم ليقطع فلينظر هل يذهبن كيده ما يغيظ"
+translations:
+  en: { text: "Whoso is wont to think (through envy) that Allah will not give him (Muhammad) victory in the world and the Hereafter (and is enraged at the thought of his victory), let him stretch a rope up to the roof (of his dwelling), and let him hang himself. Then let him see whether his strategy dispelleth that whereat he rageth!.", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "جو شخص یہ گمان کرتا ہے کہ خدا اس کو دنیا اور آخرت میں مدد نہیں دے گا تو اس کو چاہیئے کہ اوپر کی طرف (یعنی اپنے گھر کی چھت میں) ایک رسی باندھے پھر (اس سے اپنا) گلا گھونٹ لے۔ پھر دیکھے کہ آیا یہ تدبیر اس کے غصے کو دور کردیتی ہے", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-22 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

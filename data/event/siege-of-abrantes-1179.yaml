@@ -1,0 +1,23 @@
+id: event/siege-of-abrantes-1179
+class: event
+kind: siege
+label: { ar: "حصار أبرانتس (١١٧٩)", en: "Siege of Abrantes (1179)" }
+summary:
+  ar: "بطاقة أولية لحصار أبرانتس سنة ١١٧٩م، من حملات الموحدين على البرتغال؛ لم تُراجع مصادره على الصفحة بعد."
+  en: "Draft card for the Siege of Abrantes in 1179, an Almohad attack on Portugal; its sources are not yet checked on the page."
+wings: [time]
+periods: [period/crusades-ayyubid-mamluk]
+regions: [andalus-europe]
+date:
+  start: { edtf: "1179-10", precision: year, status: tradition, derived: true }
+  end: { edtf: "1179-10", precision: year, status: tradition, derived: true }
+sources: [source/tarikh-islam-hasan-ibrahim]
+external_ids:
+  wikidata: Q130262584
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; battle attested in narrative histories — entry not yet checked on the page"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-wave2
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

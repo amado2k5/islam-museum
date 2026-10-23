@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 29:3 (سورة العنكبوت، الآية 3)."
 text: "وَلَقَدْ فَتَنَّا ٱلَّذِينَ مِن قَبْلِهِمْ ۖ فَلَيَعْلَمَنَّ ٱللَّهُ ٱلَّذِينَ صَدَقُوا۟ وَلَيَعْلَمَنَّ ٱلْكَـٰذِبِينَ"
 text_search: "ولقد فتنا الذين من قبلهم ۖ فليعلمن الله الذين صدقوا وليعلمن الكاذبين"
+translations:
+  en: { text: "Lo! We tested those who were before you. Thus Allah knoweth those who are sincere, and knoweth those who feign.", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "اور جو لوگ اُن سے پہلے ہو چکے ہیں ہم نے اُن کو بھی آزمایا تھا (اور ان کو بھی آزمائیں گے) سو خدا اُن کو ضرور معلوم کریں گے جو (اپنے ایمان میں) سچے ہیں اور اُن کو بھی جو جھوٹے ہیں", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-29 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

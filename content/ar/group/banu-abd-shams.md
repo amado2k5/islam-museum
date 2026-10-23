@@ -18,3 +18,6 @@ translators: []
 - [[person/muhammad-ibn-abi-hudhayfa|محمد بن أبي حذيفة]] {cite:ibn-hisham-saqqa 4/11}
 - [[person/said-ibn-khalid|سعيد بن خالد بن سعيد]] {cite:ibn-hisham-saqqa 4/4}
 - [[person/ama-bint-khalid|أمة بنت خالد بن سعيد]] {cite:ibn-hisham-saqqa 4/4}
+
+## في مقدمة الرحيق المختوم
+عبد شمس إحدى فصائل عبد مناف الأربع مع نوفل والمطلب وهاشم {cite:mubarakpuri-raheeq p.21}. ولما رُدّت أركاح عبد المطلب حالف [[person/nawfal-ibn-abd-manaf|نوفل بن عبد مناف]] بني عبد شمس على بني هاشم، فحالفت خزاعة بني هاشم على بني عبد شمس ونوفل {cite:mubarakpuri-raheeq p.50} {cite:mukhtasar-sirat-al-rasul-al-najdi p.41-42}. وكان العقاب، أي حمل اللواء القومي، من مناصب قريش في بني أمية من عبد شمس {cite:mubarakpuri-raheeq p.32}.

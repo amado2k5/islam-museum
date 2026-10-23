@@ -1,0 +1,23 @@
+id: event/siege-of-corfu-1537
+class: event
+kind: siege
+label: { ar: "حصار كورفو (١٥٣٧)", en: "Siege of Corfu" }
+summary:
+  ar: "بطاقة أولية لحصار كورفو سنة ١٥٣٧م، محاولة سليمان القانوني أخذ الجزيرة البندقية؛ لم تُراجع مصادره على الصفحة بعد."
+  en: "Draft card for the 1537 Siege of Corfu, Suleiman's attempt on the Venetian island; its sources are not yet checked on the page."
+wings: [time]
+periods: [period/gunpowder-empires]
+regions: [andalus-europe]
+date:
+  start: { edtf: "1537", precision: year, status: tradition, derived: true }
+  end: { edtf: "1537", precision: year, status: tradition, derived: true }
+sources: [source/dawlat-uthmaniyya-salabi]
+external_ids:
+  wikidata: Q12810411
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; battle attested in narrative histories — entry not yet checked on the page"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-wave2
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

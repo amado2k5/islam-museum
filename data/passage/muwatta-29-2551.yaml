@@ -1,0 +1,16 @@
+id: passage/muwatta-29-2551
+class: passage
+unit: hadith
+work: work/muwatta-malik
+ref: "2551"
+label: { ar: "الموطأ 2551 — مالك: الجماعة المقتتلة إذا وُجد بينها قتيل لا يُدرى قاتله", en: "Muwatta 2551" }
+summary:
+  ar: "قال مالك في جماعة من الناس اقتتلوا فانكشفوا وبينهم قتيل أو جريح لا يُدرى من فعل ذلك به: إن أحسن ما سُمع في ذلك أن عقله على القوم الذين نازعوه، وإن كان الجريح أو القتيل من غير الفريقين فعقله على الفريقين جميعا. {cite:muwatta-maruf-1997 p.443}"
+relations:
+  - { type: part_of, target: passage/muwatta-kitab-29-uqul }
+  - { type: mentions, target: person/malik-ibn-anas, sources: [source/muwatta-maruf-1997] }
+  - { type: basis_for, target: concept/aqila, sources: [source/muwatta-maruf-1997] }
+  - { type: basis_for, target: concept/diya, sources: [source/muwatta-maruf-1997] }
+provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 2, hadith 2551 at PDF p. 443; جامع العقل", generated_by: "Claude Code (claude-haiku-5-5) from Apple Vision OCR of the Noor-Book PDF, checked on the page image where doubtful", run: "muwatta-prose-b86" }
+sources: [source/muwatta-maruf-1997]
+status: { review: draft, completeness: 2, generated_by: "Claude Code (claude-haiku-5-5); own-words account written from PDF p. 443; matn excerpt at most 40 words" }

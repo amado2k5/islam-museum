@@ -1,0 +1,16 @@
+id: passage/muslim-1390
+class: passage
+unit: hadith
+work: work/sahih-muslim
+ref: "1390"
+label: { ar: "مسلم 1390 — ما بين بيتي ومنبري روضة من رياض الجنة", en: "Muslim 1390 — Between my house and my minbar is a garden of Paradise" }
+text: "قال أبو هريرة: قال رسول الله: ما بين بيتي ومنبري روضة من رياض الجنة، ومنبري على حوضي"
+summary:
+  ar: "رواية أبو هريرة في باب ما بين القبر والمنبر روضة من رياض الجنة من كتاب الحج في صحيح مسلم — أصل تسمية «الروضة الشريفة» في المسجد النبوي؛ ورواية عبد الله بن زيد «ما بين بيتي ومنبري روضة من رياض الجنة» في العدد نفسه."
+relations:
+  - { type: mentions, target: person/muhammad, sources: [source/sahih-muslim] }
+  - { type: mentions, target: person/abu-hurayra, sources: [source/sahih-muslim] }
+  - { type: mentions, target: building/prophets-mosque, sources: [source/sahih-muslim] }
+provenance: { layer: own-research, source: "صحيح مسلم، كتاب الحج، باب ما بين القبر والمنبر روضة (طبعة دار التأصيل، الحديث 1408؛ ترقيم عبد الباقي المعروف 1390)، تصوير Apple Vision OCR", generated_by: "Devin (SWE-2 High) from Apple Vision OCR", run: "hadith-muslim-passages-4" }
+sources: [source/sahih-muslim]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High); matn excerpt at most 40 words checked against the scan" }

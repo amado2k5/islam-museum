@@ -1,0 +1,25 @@
+id: person/abd-allah-ibn-al-husayn
+class: person
+gender: male
+label:
+  ar: عبد الله بن الحسين
+  en: Abd Allah ibn al-Husayn (the infant of Karbala)
+  ur: عبد اللہ بن حسین
+summary:
+  ar: "عبد الله بن الحسين بن علي بن أبي طالب، رضيع كربلاء؛ يعدّه ابن كثير ثاني أولاد الحسين الذين قتلوا معه سنة 61هـ، وتسميه الرواية الإثني عشرية عليا الأصغر {cite:al-bidaya-wal-nihaya}."
+  en: "Abd Allah ibn al-Husayn ibn Ali ibn Abi Talib, the infant of Karbala; Ibn Kathir lists him as the second of Husayn's sons killed with him in 61 AH — the Twelver tradition names him Ali al-Asghar {cite:al-bidaya-wal-nihaya}."
+wings: [people]
+themes: [sects-and-schools, civil-wars-and-revolts]
+regions: [levant-iraq]
+periods: [period/umayyad]
+relations:
+  - { type: child_of, target: person/husayn-ibn-ali }
+  - { type: died_in, target: place/karbala }
+external_ids: { wikidata: "Q1107753" }
+sources: [source/al-bidaya-wal-nihaya]
+provenance:
+  layer: own-research
+  source: "wikidata-import deferred Q1107753 (Ali al-Asghar); Bidaya lists Abd Allah as the second son of Husayn killed at Karbala — Twelver naming Ali al-Asghar noted"
+  generated_by: "Devin (SWE-2 Medium)"
+  run: wd-deferred-12
+status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 Medium)" }

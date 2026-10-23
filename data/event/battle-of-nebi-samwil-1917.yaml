@@ -1,0 +1,23 @@
+id: event/battle-of-nebi-samwil-1917
+class: event
+kind: battle
+label: { ar: "معركة النبي صموئيل (١٩١٧)", en: "Battle of Nebi Samwil" }
+summary:
+  ar: "بطاقة أولية لمعركة النبي صموئيل سنة ١٩١٧م، قتال البريطانيين والعثمانيين على قمة القدس؛ لم تُراجع مصادره على الصفحة بعد."
+  en: "Draft card for the Battle of Nebi Samwil in 1917, the British-Ottoman fight for the ridge above Jerusalem; its sources are not yet checked on the page."
+wings: [time]
+periods: [period/modern-era]
+regions: [levant-iraq]
+date:
+  start: { edtf: "1917-11-18", precision: year, status: tradition, derived: true }
+  end: { edtf: "1917-11-24", precision: year, status: tradition, derived: true }
+sources: [source/tarikh-islam-hasan-ibrahim]
+external_ids:
+  wikidata: Q4871873
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; battle attested in narrative histories — entry not yet checked on the page"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-wave2
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

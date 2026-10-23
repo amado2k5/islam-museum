@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 36:79 (سورة يس، الآية 79)."
 text: "قُلْ يُحْيِيهَا ٱلَّذِىٓ أَنشَأَهَآ أَوَّلَ مَرَّةٍ ۖ وَهُوَ بِكُلِّ خَلْقٍ عَلِيمٌ"
 text_search: "قل يحييها الذي أنشأها أول مرة ۖ وهو بكل خلق عليم"
+translations:
+  en: { text: "Say: He will revive them Who produced them at the first, for He is Knower of every creation,", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "کہہ دو کہ ان کو وہ زندہ کرے گا جس نے ان کو پہلی بار پیدا کیا تھا۔ اور وہ سب قسم کا پیدا کرنا جانتا ہے", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-36 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

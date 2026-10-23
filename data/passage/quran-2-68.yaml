@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 2:68 (سورة البقرة، الآية 68)."
 text: "قَالُوا۟ ٱدْعُ لَنَا رَبَّكَ يُبَيِّن لَّنَا مَا هِىَ ۚ قَالَ إِنَّهُۥ يَقُولُ إِنَّهَا بَقَرَةٌ لَّا فَارِضٌ وَلَا بِكْرٌ عَوَانٌۢ بَيْنَ ذَٰلِكَ ۖ فَٱفْعَلُوا۟ مَا تُؤْمَرُونَ"
 text_search: "قالوا ادع لنا ربك يبين لنا ما هي ۚ قال إنه يقول إنها بقرة لا فارض ولا بكر عوان بين ذلك ۖ فافعلوا ما تؤمرون"
+translations:
+  en: { text: "They said: Pray for us unto thy Lord that He make clear to us what (cow) she is. (Moses) answered: Lo! He saith, Verily she is a cow neither with calf nor immature; (she is) between the two conditions; so do that which ye are commanded.", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "انہوں نے کہا کہ اپنے پروردگار سے التجا کیجئے کہ وہ ہمیں یہ بتائے کہ وہ بیل کس طرح کا ہو۔ (موسیٰ نے) کہا کہ پروردگار فرماتا ہے کہ وہ بیل نہ تو بوڑھا ہو اور نہ بچھڑا، بلکہ ان کے درمیان (یعنی جوان) ہو۔ جیسا تم کو حکم دیا گیا ہے، ویسا کرو", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-2 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

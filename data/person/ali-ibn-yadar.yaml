@@ -1,0 +1,37 @@
+id: person/ali-ibn-yadar
+class: person
+label:
+  ar: علي بن يدر
+  en: Ali ibn Yadar
+summary:
+  ar: "علي بن يدر من بني باداس من أهل قرابة الوزير أبي محمد بن يونس الهنتاتي؛ فر إلى السوس وجاهر بالخلاف سنة إحدى وخمسين وستمائة فنزل حصن تيونودين وشيده وحصنه وتغلب على حصن تيزخت، وأطاع له كثير من القبائل فاستوفى جبايتهم وأجلب على عامل الموحدين بتارودنت وضيق عليه المسالك، وقتل المرتضى الوزير ابن يونس لما اتهم بمداخلته سنة 652هـ، وهزم ابن يدر عسكر أبي محمد بن أصناك، ولما استولى بنو مرين على مراكش سنة 668هـ استبد وتملك سوس واستولى على تارودنت وإيفري وسائر أمصاره وقواعده ومعاقله وأرهف حده للأعراب فزحفوا إليه، وقتل سنة ثمان وستين وستمائة."
+  en: "Ali ibn Yadar of Banu Badas, kin of the Hintati vizier Abu Muhammad ibn Yunus; he fled into the Sus in open defiance in 651, fortifying Tiyunudin, taking Tazakht, winning the tribes' tribute and besieging the Almohad governor of Taroudant — the caliph al-Murtada executing the vizier Ibn Yunus for complicity in 652 — and routed Ibn Asnak's army; when the Marinids took Marrakesh in 668 he seized Taroudant, Ifri and the whole Sus until killed that year."
+gender: male
+roles: [ruler, military-commander]
+died:
+  edtf: "1269"
+  hijri: "0668"
+  calendar: julian
+  precision: year
+  status: tradition
+  derived: true
+  note: قتل سنة 668هـ؛ التحويل مشتق.
+  sources:
+  - source/tarikh-ibn-khaldun-ibar
+wings: [people]
+periods: [period/crusades-ayyubid-mamluk]
+regions: [maghreb]
+relations:
+- { type: "member_of", target: "group/banu-yadar", note: "أول أمراء بني يدر بالسوس", sources: [source/tarikh-ibn-khaldun-ibar] }
+sources:
+- source/tarikh-ibn-khaldun-ibar
+provenance:
+  layer: own-research
+  source: ابن خلدون، العبر — بنو يدر أمراء السوس، ص1695-1696 (طبعة هيليوبوليس)
+  generated_by: Devin (SWE-2 High) from Apple Vision OCR
+  model: swe-2-high
+  run: lib-ibar-maghreb-35
+status:
+  review: draft
+  completeness: 1
+  generated_by: Devin (SWE-2 High); extracted from Ibn Khaldun al-Ibar via Apple Vision OCR

@@ -1,0 +1,76 @@
+id: exhibit/path-yemen-wonders
+class: exhibit
+kind: trail
+label:
+  ar: عجائب اليمن
+  en: Wonders of Yemen
+summary:
+  ar: 'مسار في عمارة السعيدة: سد مأرب القديم، والقليس المدمَّرة، وصنعاء العتيقة — اليمن قبل الإسلام وبعده.'
+  en: A trail through the architecture of Arabia Felix.
+audience:
+- newcomer
+- student
+duration_minutes: 30
+wings: []
+regions:
+- arabia
+rooms:
+- title:
+    ar: السد
+    en: The dam
+  body:
+    ar: 'مأرب: أعظم سدود القدماء.'
+    en: 'مأرب: أعظم سدود القدماء.'
+  features:
+  - building/marib-dam
+  - place/sanaa
+- title:
+    ar: القليس
+    en: Al-Qullays
+  body:
+    ar: 'كاتدرائية أبرهة: تُهدم للكعبة.'
+    en: 'كاتدرائية أبرهة: تُهدم للكعبة.'
+  features:
+  - building/al-qullays
+  - place/sanaa
+- title:
+    ar: صنعاء
+    en: Sanaa
+  body:
+    ar: 'المدينة العتيقة: أبراج الطين.'
+    en: 'المدينة العتيقة: أبراج الطين.'
+  features:
+  - place/sanaa
+  - building/marib-dam
+- title:
+    ar: زبيد
+    en: Zabid
+  body:
+    ar: 'مدينة العلم: جامع الأشاعرة.'
+    en: 'مدينة العلم: جامع الأشاعرة.'
+  features:
+  - place/zabid
+  - place/sanaa
+- title:
+    ar: حضرموت
+    en: Hadramawt
+  body:
+    ar: شبام مانهاتن الطين.
+    en: شبام مانهاتن الطين.
+  features:
+  - place/hadramawt
+  - place/aden
+prerequisites:
+- exhibit/path-islam-in-30-minutes
+sources:
+- source/wikidata
+provenance:
+  layer: own-research
+  source: Devin-assembled trail from existing museum entities
+  generated_by: Devin (SWE-2 High)
+  model: SWE-2 High
+  run: pathways-batch-7
+status:
+  review: draft
+  completeness: 1
+  generated_by: Devin (SWE-2 High), pathways lane, 2026-10-16

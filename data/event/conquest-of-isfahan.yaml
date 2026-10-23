@@ -1,0 +1,21 @@
+id: event/conquest-of-isfahan
+class: event
+kind: conquest
+label: { ar: "فتح أصبهان", en: "Conquest of Isfahan (21 AH)" }
+date:
+  start: { edtf: "0641", hijri: "0021", calendar: julian, precision: year, status: tradition, derived: true, note: "سنة 21؛ التحويل مشتق {cite:kamil-ibn-al-athir p. 401}." }
+summary:
+  ar: "فتح أصبهان: بعث عمر إليها عبد الله بن عبد الله بن عتبان وكان شجاعًا من أشراف الصحابة ووجوه الأنصار حليف بني الحبلي، وأمده بأبي موسى وجعل على مجنبتيه عبد الله بن ورقاء الرياحي وعصمة بن عبد الله. وعلى جندها الأسبيدان وعلى مقدمتها شهريار بن جاذويه شيخ كبير في جمع عظيم، فدعا الشيخ إلى البراز فبرز له عبد الله بن ورقاء فقتله وانهزم أهلها. ثم سار عبد الله إلى مدينة جَيّ فحاصرها وقاتلها ثم صالحه الفاذوسفان على أصبهان على أن على من أقام الجزية وأقام على ماله ومن أبى وذهب كانت أرضه لهم {cite:kamil-ibn-al-athir p. 401-402}."
+  en: "Isfahan fell to 'Abdallah ibn 'Abdallah ibn 'Utban, the Ansari ally of the Hubla clan, reinforced by Abu Musa. Its vanguard commander Shahriyar ibn Jadhawiya, an aged shaykh, called for a duel and was killed by 'Abdallah ibn Warqa' al-Riyahi; the army broke, Jayy was besieged, and the Fadhusfan capitulated on jizya terms — those who stayed kept their property, the lands of those who fled became the Muslims' {cite:kamil-ibn-al-athir p. 401-402}."
+relations:
+  - { type: occurred_at, target: place/isfahan, sources: [source/kamil-ibn-al-athir] }
+  - { type: had_participant, target: person/abdallah-ibn-utban, sources: [source/kamil-ibn-al-athir] }
+  - { type: had_participant, target: person/abdallah-ibn-warqa, sources: [source/kamil-ibn-al-athir] }
+  - { type: had_participant, target: person/abu-musa-al-ashari, sources: [source/kamil-ibn-al-athir] }
+provenance:
+  layer: own-research
+  source: "الكامل في التاريخ لابن الأثير (دار الكتاب العربي 2012، ج2)، قراءة آبل فيجن"
+  generated_by: "Devin (SWE-2 Medium) from Apple Vision OCR"
+  run: lib-kamil-v2-batch03
+sources: [source/kamil-ibn-al-athir]
+status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 Medium)" }

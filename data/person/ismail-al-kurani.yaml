@@ -1,0 +1,26 @@
+id: person/ismail-al-kurani
+class: person
+label: { ar: "إسماعيل الكوراني", en: "Isma'il al-Kurani" }
+names:
+  - { value: "إسماعيل الكوراني نسبة إلى كوران قرية بإسفرايين القدوة الزاهد", kind: full }
+died: { edtf: "1267-03~", hijri: "0665-07", calendar: julian, precision: month, status: tradition, derived: true, note: "أدركه أجله بغزة في رجب قاله الذهبي {cite:shadharat-dhahab p. 552}." }
+summary:
+  ar: "القدوة الزاهد، شيخ كبير القدر مقصود بالزيارة، صاحب ورع وصدق وتفتيش عن دينه؛ أدركه أجله بغزة في رجب قاله الذهبي {cite:shadharat-dhahab p. 552}."
+  en: "The ascetic exemplar of Kuran near Isfarayin — a shaykh of great standing whom people travelled to visit; he died at Gaza in Rajab 665 {cite:shadharat-dhahab p. 552}."
+gender: male
+roles: [mystic]
+wings: [people]
+periods: [period/crusades-ayyubid-mamluk]
+regions: [levant-iraq, persia-central-asia]
+faith:
+  - value: sunni
+    basis: tradition
+relations:
+  - { type: died_in, target: place/gaza, sources: [source/shadharat-dhahab] }
+sources: [source/shadharat-dhahab]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }
+provenance:
+  layer: own-research
+  source: "شذرات الذهب — ابن العماد (ج7، سنة 665)، قراءة آبل فيجن"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-shadharat-batch-131

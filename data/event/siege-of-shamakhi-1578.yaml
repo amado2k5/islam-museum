@@ -1,0 +1,23 @@
+id: event/siege-of-shamakhi-1578
+class: event
+kind: siege
+label: { ar: "حصار شماخي (١٥٧٨)", en: "Siege of Shamakhi (1578)" }
+summary:
+  ar: "بطاقة أولية لحصار شماخي سنة ١٥٧٨م، أخذ العثمانيين لها من الصفويين في حرب القوقاز؛ لم تُراجع مصادره على الصفحة بعد."
+  en: "Draft card for the Siege of Shamakhi in 1578, the Ottoman capture of the city from the Safavids in the Caucasus war; its sources are not yet checked on the page."
+wings: [time]
+periods: [period/gunpowder-empires]
+regions: [anatolia-balkans]
+date:
+  start: { edtf: "1578", precision: year, status: tradition, derived: true }
+  end: { edtf: "1578", precision: year, status: tradition, derived: true }
+sources: [source/dawlat-uthmaniyya-salabi]
+external_ids:
+  wikidata: Q137216924
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; battle attested in narrative histories — entry not yet checked on the page"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-wave2
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 83:33 (سورة المطففين، الآية 33)."
 text: "وَمَآ أُرْسِلُوا۟ عَلَيْهِمْ حَـٰفِظِينَ"
 text_search: "وما أرسلوا عليهم حافظين"
+translations:
+  en: { text: "Yet they were not sent as guardians over them.", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "حالانکہ وہ ان پر نگراں بنا کر نہیں بھیجے گئے تھے", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-83 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

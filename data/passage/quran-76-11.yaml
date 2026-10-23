@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 76:11 (سورة الإنسان، الآية 11)."
 text: "فَوَقَىٰهُمُ ٱللَّهُ شَرَّ ذَٰلِكَ ٱلْيَوْمِ وَلَقَّىٰهُمْ نَضْرَةً وَسُرُورًا"
 text_search: "فوقاهم الله شر ذلك اليوم ولقاهم نضرة وسرورا"
+translations:
+  en: { text: "Therefor Allah hath warded off from them the evil of that day, and hath made them find brightness and joy;", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "تو خدا ان کو اس دن کی سختی سے بچالے گا اور تازگی اور خوش دلی عنایت فرمائے گا", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-76 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

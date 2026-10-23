@@ -1,0 +1,28 @@
+id: person/alaeddin-pasha
+class: person
+label:
+  ar: "علاء الدين باشا"
+  en: "Alaeddin Pasha"
+names:
+  - { kind: full, lang: ar, value: "علاء الدين علي بن عثمان" }
+roles: [vizier, prince]
+gender: male
+summary:
+  ar: "علاء الدين بن عثمان؛ أخو السلطان أورخان وصاحب فكرة تشكيل الجيش الجديد (الينيچري). يذكر الصلابي أنه كان عالماً في الشريعة والآداب الإسلامية، وأنه اقترح على أخيه إنشاء جيش نظامي من الأسرى والمسبيين يتلقون التربية الإسلامية ويُدرَّبون على الحرب، فمال أورخان إلى الفكرة ونفّذها {cite:dawlat-uthmaniyya-salabi p. 54-55}. وينسب الكتاب إلى نظام أورخان وأخيه علاء الدين ومهارتهما في تدبير الدولة الجديدة وإدارة القضاء جانباً من عوامل بعث الدولة العثمانية بعد كارثة أنقرة {cite:dawlat-uthmaniyya-salabi p. 72}."
+  en: "Alaeddin son of Osman, brother and counsellor of Sultan Orhan — in al-Sallabi's account a scholar of the shari'a and Islamic letters who proposed the standing 'new army' (yeni çeri) raised from captives reared on Islamic training, an idea Orhan adopted {cite:dawlat-uthmaniyya-salabi p. 54-55}; the book credits the brothers' joint administration among the factors that let the state rise again after Ankara {cite:dawlat-uthmaniyya-salabi p. 72}."
+wings: [people]
+regions: [anatolia-balkans]
+periods: [period/mongol-post-mongol]
+relations:
+  - { type: child_of, target: person/uthman-i-uthmani, sources: [source/dawlat-uthmaniyya-salabi] }
+  - { type: sibling_of, target: person/urkhan-ibn-uthman, sources: [source/dawlat-uthmaniyya-salabi] }
+sources: [source/dawlat-uthmaniyya-salabi]
+external_ids:
+  wikidata: Q720989
+provenance:
+  layer: own-research
+  source: "الدولة العثمانية لعلي محمد الصلابي، ص 54–55، 72"
+  generated_by: "Devin (SWE-2 Medium) from Apple Vision OCR"
+  model: "SWE-2 Medium"
+  run: lib-salabi-uthmani-batch-3
+status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 Medium)" }

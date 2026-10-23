@@ -1,8 +1,13 @@
 ---
 import "../styles/global.css";
-import { ui, other, LANGS, WINGS, wingHref, type Lang } from "../lib/i18n";
+import { ui, LANGS, WINGS, wingHref, ARABIC_SCRIPT, OG_LOCALE, type Lang } from "../lib/i18n";
 import { SITE } from "../lib/graph";
+import { truncateDesc } from "../lib/meta";
+import { wingCountTemplate, explorePages } from "../lib/nav";
+import { SHOP } from "../lib/links";
+import { BROWSE_CLASSES, browseSegment } from "../lib/browse";
 import Logo from "../components/Logo.astro";
+import SocialLinks from "../components/SocialLinks.astro";
 // Webfonts sit one hop behind the stylesheet, which delays first paint under throttled networks; the two faces above the fold
 // are preloaded so they fetch in parallel with the CSS instead.
 import naskh400 from "@fontsource/noto-naskh-arabic/files/noto-naskh-arabic-arabic-400-normal.woff2?url";
@@ -10,17 +15,21 @@ import amiri400 from "@fontsource/amiri/files/amiri-arabic-400-normal.woff2?url"
 import serif400 from "@fontsource/source-serif-4/files/source-serif-4-latin-400-normal.woff2?url";
 import inter400 from "@fontsource/inter/files/inter-latin-400-normal.woff2?url";
 
-interface Props { lang: Lang; title: string; description?: string; path: string; jsonld?: object | object[]; alternates?: Partial<Record<Lang, string>>; ogType?: string; noindex?: boolean }
-const { lang, title, description, path, jsonld, alternates, ogType = "website", noindex } = Astro.props;
+interface Props { lang: Lang; title: string; description?: string; path: string; jsonld?: object | object[]; alternates?: Partial<Record<Lang, string>>; ogType?: string; noindex?: boolean; kids?: boolean }
+const { lang, title, description, path, jsonld, alternates, ogType = "website", noindex, kids = false } = Astro.props;
 const T = ui(lang);
 const fullTitle = path === `/${lang}/` ? `${T.name} · ${T.tagline}` : `${title} · ${T.name}`;
-const desc = description ?? T.landing.lede;
+const desc = truncateDesc(description ?? T.landing.meta_description ?? T.landing.lede);
 const canonical = `${SITE}${path}`;
 const alt = alternates ?? Object.fromEntries(LANGS.map((l) => [l, path.replace(`/${lang}/`, `/${l}/`)]));
 const multilingual = LANGS.length > 1;
-const switchHref = alt[other(lang)] ?? `/${other(lang)}/`;
 const ld = jsonld ? (Array.isArray(jsonld) ? jsonld : [jsonld]) : [];
-const fonts = lang === "ar" ? [naskh400, amiri400] : [serif400, inter400];
+const fonts = ARABIC_SCRIPT.includes(lang) ? [naskh400, amiri400] : [serif400, inter400];
+// The per-wing counts are not baked into the page: a count in the header would change every one of the 100k+ pages on each
+// content commit (docs/site/README.md, "site-wide numbers"). The HTML carries the template ("{n} events"), the client fills the
+// number from /api/v1/meta/counts.json when the menu is first opened; without JavaScript the menu shows the names and blurbs.
+const wingCount = (w: string) => wingCountTemplate(lang, w);
+const EXPLORE = explorePages(lang);
 ---
 <!doctype html>
 <html lang={lang} dir={T.dir}>
@@ -32,17 +41,25 @@ const fonts = lang === "ar" ? [naskh400, amiri400] : [serif400, inter400];
     <link rel="canonical" href={canonical} />
     {Object.entries(alt).map(([l, h]) => <link rel="alternate" hreflang={l} href={`${SITE}${h}`} />)}
     <link rel="alternate" hreflang="x-default" href={`${SITE}${alt.ar ?? path}`} />
+    <link rel="alternate" type="application/rss+xml" title="islam.museum" href={`${SITE}/feed.xml`} />
     <meta property="og:title" content={fullTitle} />
     <meta property="og:description" content={desc} />
     <meta property="og:type" content={ogType} />
     <meta property="og:url" content={canonical} />
     <meta property="og:site_name" content="islam.museum" />
-    <meta property="og:locale" content={lang === "ar" ? "ar_AR" : "en_US"} />
-    <meta name="twitter:card" content="summary" />
+    <meta property="og:locale" content={OG_LOCALE[lang]} />
+    <meta property="og:image" content={`${SITE}/brand/og-image.jpg`} />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:image" content={`${SITE}/brand/og-image.jpg`} />
     <meta name="color-scheme" content="light dark" />
     <meta name="theme-color" content="#0a2533" />
     {noindex && <meta name="robots" content="noindex" />}
+    <link rel="icon" href="/favicon-32.png" sizes="32x32" type="image/png" />
+    <link rel="icon" href="/favicon-64.png" sizes="64x64" type="image/png" />
     <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
+    <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
     {fonts.map((f) => <link rel="preload" href={f} as="font" type="font/woff2" crossorigin />)}
     <script is:inline>
       document.documentElement.classList.add("js");
@@ -64,44 +81,84 @@ const fonts = lang === "ar" ? [naskh400, amiri400] : [serif400, inter400];
       <rect width="100%" height="100%" fill="url(#girih)" />
     </svg>
     <a class="skip" href="#main">{T.a11y.skip}</a>
-    <header class="site wrap" style="padding-block:18px">
-      <div style="display:flex;flex-wrap:wrap;align-items:center;justify-content:space-between;gap:12px 20px">
-        <a class="ui" href={`/${lang}/`} style="display:flex;align-items:center;gap:10px;font-weight:600;letter-spacing:.02em;text-decoration:none;color:var(--fg)">
-          <Logo size={36} />
+    <header class="site topbar">
+      {kids ? (
+        <div class="wrap kids-topbar">
+          <a class="kids-brand" href={`/${lang}/sighar/`}>
+            <span aria-hidden="true">🪶</span> {T.kids.hub_title}
+          </a>
+          <a class="kids-back" href={`/${lang}/`}>
+            <span aria-hidden="true">🏛</span> {T.kids.back_to_museum}
+          </a>
+        </div>
+        <script src="../scripts/classroom.ts"></script>
+      ) : (
+      <div class="wrap nav-row">
+        <a class="ui brand" href={`/${lang}/`}>
+          <Logo size={34} alt={T.name} />
           <span class="ltr" dir="ltr">islam.museum</span>
         </a>
-        <div style="display:flex;align-items:center;gap:10px" class="ui">
-          <a class="chip" href={`/${lang}/learn/`} style="border:1px solid var(--gold);font-weight:600">{T.nav.learn}</a>
-          <a class="chip" href={`/${lang}/search/`}>{T.nav.search}</a>
-          <button class="menu-btn" id="menu-btn" type="button" aria-expanded="false" aria-controls="site-nav">{T.a11y.menu_open}</button>
-          <button class="chip" id="theme" type="button" aria-label={T.a11y.theme} data-to-dark={T.a11y.theme} data-to-light={T.a11y.theme_light} style="border:0;cursor:pointer">◐</button>
+        <button class="menu-btn ui" id="menu-btn" type="button" aria-expanded="false" aria-controls="site-nav">☰ {T.a11y.menu_open}</button>
+        <nav aria-label={T.a11y.menu} class="ui nav-links" id="site-nav">
+          <details class="dd" data-dd>
+            <summary>{T.nav.wings_menu}</summary>
+            <ul class="dd-menu" role="list">
+              {WINGS.map((w) => <li><a href={wingHref(lang, w)}><span class="t">{T.wings[w].title}</span><span class="d">{wingCount(w) ? <span data-wing-count={w} data-tpl={wingCount(w)}></span> : `${T.wings.counts[w]} — `}{T.wings[w].blurb}</span></a></li>)}
+            </ul>
+          </details>
+          <details class="dd" data-dd>
+            <summary>{T.nav.explore_menu}</summary>
+            <ul class="dd-menu" role="list">
+              {EXPLORE.map((x) => <li><a href={x.href}><span class="t">{T.explore.pages[x.key].title}{!x.ready && <span class="chip soon">{T.landing.in_progress}</span>}</span><span class="d">{T.explore.pages[x.key].menu}</span></a></li>)}
+              <li><a href={`/${lang}/wander/`}><span class="t">{T.explore.pages.wander.title}</span><span class="d">{T.explore.pages.wander.menu}</span></a></li>
+              <li><a href={`/${lang}/learn/`}><span class="t">{T.nav.learn}</span></a></li>
+              <li><a href={`/${lang}/3d/`}><span class="t"><span aria-hidden="true">🧊</span> {T.tour.nav_label}</span></a></li>
+            </ul>
+          </details>
+          <a class="top-link" href={`/${lang}/today/`}>{T.nav.today}</a>
+          <a class="top-link" href={`/${lang}/art/`}>{T.nav.art}</a>
+          <a class="top-link" href={`/${lang}/browse/`}>{T.nav.browse}</a>
+          <details class="dd" data-dd>
+            <summary>{T.nav.more}</summary>
+            <ul class="dd-menu" role="list">
+              {[["screen", "screen"], ["exhibits", "exhibits"], ["questions", "questions"], ["themes", "themes"], ["references", "references"], ["coverage", "coverage"], ["foundation", "foundation"]].map(([seg, key]) => <li><a href={`/${lang}/${seg}/`}><span class="t">{T.nav[key]}</span></a></li>)}
+              <li><a href={`/${lang}/support/`}><span class="t">{T.support.title}</span></a></li>
+              <li><a href={SHOP} rel="noopener"><span class="t">{T.nav.gift_shop}</span></a></li>
+            </ul>
+          </details>
+        </nav>
+        <div class="nav-tools ui">
+          <a class="chip" href={`/${lang}/search/`}>{T.nav.search} ⌕</a>
+          {multilingual && (
+            <span class="chip lang-switch ltr" dir="ltr" style="border:1px solid var(--line)">
+              {LANGS.map((l, i) => (
+                <>
+                  {i > 0 && <span aria-hidden="true"> | </span>}
+                  {l === lang ? <span aria-current="true" style="font-weight:700">{l.toUpperCase()}</span> : <a href={alt[l] ?? `/${l}/`} hreflang={l} lang={l}>{l.toUpperCase()}</a>}
+                </>
+              ))}
+            </span>
+          )}
           <button class="chip" id="font-toggle" type="button" aria-pressed="false" style="border:0;cursor:pointer">{T.explore.font}</button>
-          {multilingual && <a class="chip" href={switchHref} hreflang={other(lang)} lang={other(lang)} style="border:1px solid var(--line)">{T.switch_to}</a>}
+          <button class="chip" id="theme" type="button" aria-label={T.a11y.theme} data-to-dark={T.a11y.theme} data-to-light={T.a11y.theme_light} style="border:0;cursor:pointer">◐</button>
         </div>
       </div>
-      <nav aria-label={T.a11y.menu} class="ui" style="margin-top:14px" id="site-nav">
-        <ul style="display:flex;flex-wrap:wrap;gap:6px 18px;list-style:none;margin:0;padding:0;font-size:.95rem">
-          {WINGS.map((w) => <li><a href={wingHref(lang, w)} style="color:var(--fg);text-decoration:none">{T.nav[w]}</a></li>)}
-          <li style="opacity:.5" aria-hidden="true">·</li>
-          <li><a href={`/${lang}/learn/`} style="color:var(--fg);text-decoration:none">{T.nav.learn}</a></li>
-          <li><a href={`/${lang}/questions/`} style="color:var(--fg);text-decoration:none">{T.nav.questions}</a></li>
-          <li><a href={`/${lang}/exhibits/`} style="color:var(--fg);text-decoration:none">{T.nav.exhibits}</a></li>
-          <li><a href={`/${lang}/screen/`} style="color:var(--fg);text-decoration:none">{T.nav.screen}</a></li>
-          <li><a href={`/${lang}/themes/`} style="color:var(--fg);text-decoration:none">{T.nav.themes}</a></li>
-          <li><a href={`/${lang}/wander/`} style="color:var(--fg);text-decoration:none">{T.nav.wander}</a></li>
-          <li><a href={`/${lang}/foundation/`} style="color:var(--fg);text-decoration:none">{T.nav.foundation}</a></li>
-        </ul>
-      </nav>
+      )}
     </header>
     <main id="main" style="flex:1">
       <slot />
     </main>
-    <footer class="site" style="border-top:1px solid var(--line);margin-top:3rem">
-      <div class="wrap ui" style="padding-block:22px;display:flex;flex-wrap:wrap;gap:10px 28px;justify-content:space-between;font-size:.9rem;color:var(--muted)">
-        <span>islam.museum · {T.footer.open}</span>
-        <span>{T.footer.licenses}</span>
-        <span><a href="/api/v1/meta/index.json" style="color:inherit">{T.footer.api}</a> · <a href={`/${lang}/coverage/`} style="color:inherit">{T.nav.coverage}</a> · <a href={`/${lang}/foundation/`} style="color:inherit">{T.nav.foundation}</a> · <a href="https://github.com/amado2k5/islam-museum" rel="noopener" style="color:inherit">{T.footer.github}</a></span>
-        <span style="flex-basis:100%">{T.footer.privacy}</span>
+    <footer class="site foot">
+      <div class="wrap ui">
+        <div class="fcols">
+          <div><h2>{T.footer.browse_all}</h2>{BROWSE_CLASSES.map((c) => <a href={`/${lang}/browse/${browseSegment(c)}/`}>{T.class[c]}</a>)}</div>
+          <div><h2>{T.footer.about}</h2><a href={`/${lang}/foundation/`}>{T.nav.foundation}</a><a href="https://github.com/amado2k5/islam-museum/blob/main/docs/plan/05-editorial.md" rel="noopener">{T.footer.editorial}</a><a href={`/${lang}/questions/`}>{T.footer.faq}</a><a href={`/${lang}/learn/`}>{T.nav.learn}</a></div>
+          <div><h2>{T.footer.resources}</h2><a href={`/${lang}/words/quran/`}>{T.explore.pages.quran.title}</a><a href={`/${lang}/words/hadith/`}>{T.explore.pages.hadith.title}</a><a href={`/${lang}/tour/`}>{T.mytour.title}</a><a href="/api/v1/meta/index.json">{T.footer.open_data}</a><a href={`/${lang}/coverage/`}>{T.nav.coverage}</a><a href={`/${lang}/references/`}>{T.nav.references}</a><a href={`/${lang}/themes/`}>{T.nav.themes}</a><a href={`/${lang}/screen/`}>{T.nav.screen}</a><a href={`/${lang}/exhibits/`}>{T.nav.exhibits}</a><a href={`/${lang}/art/`}>{T.nav.art}</a><a href={`/${lang}/support/`}>{T.support.title}</a><a href={SHOP} rel="noopener">{T.nav.gift_shop}</a><a href="https://github.com/amado2k5/islam-museum" rel="noopener">{T.footer.contribute}</a></div>
+          <div><h2>{T.footer.follow}</h2><a href="https://github.com/amado2k5/islam-museum/commits/main" rel="noopener">{T.footer.changelog}</a><a href="https://github.com/amado2k5/islam-museum/issues/new/choose" rel="noopener">{T.footer.report}</a><a href="https://github.com/amado2k5/islam-museum/discussions" rel="noopener">{T.footer.discuss}</a><a href={`/${lang}/privacy/`}>{T.footer.privacy_policy}</a></div>
+        </div>
+        <p class="fine">islam.museum · {T.footer.open} · <a href={`/${lang}/licenses/`}>{T.footer.licenses}</a> · {T.footer.privacy}</p>
+        <SocialLinks title={T.footer.social_title} />
+        <p class="fine contact"><a href="mailto:discover@islam.museum">{T.footer.contact}</a></p>
       </div>
     </footer>
     <script is:inline>
@@ -111,11 +168,48 @@ const fonts = lang === "ar" ? [naskh400, amiri400] : [serif400, inter400];
         if (mb && nav) {
           var setOpen = function (open, back) {
             nav.classList.toggle("open", open);
+            // the panel scrolls within the screen below the header, whatever the header's height
+            if (open) {
+              var below = nav.getBoundingClientRect().top, view = window.visualViewport ? window.visualViewport.height : window.innerHeight;
+              nav.style.maxHeight = Math.max(160, Math.floor(view - below - 8)) + "px";
+            } else nav.style.maxHeight = "";
             mb.setAttribute("aria-expanded", String(open));
             if (open) { var first = nav.querySelector("a"); if (first) first.focus(); } else if (back) mb.focus();
           };
           mb.addEventListener("click", function () { setOpen(!nav.classList.contains("open"), false); });
-          document.addEventListener("keydown", function (e) { if (e.key === "Escape" && nav.classList.contains("open")) setOpen(false, true); });
+          document.addEventListener("keydown", function (e) {
+            if (e.key !== "Escape") return;
+            if (nav.classList.contains("open")) setOpen(false, true);
+            nav.querySelectorAll("details[open]").forEach(function (d) { d.removeAttribute("open"); var s = d.querySelector("summary"); if (s && d.contains(document.activeElement)) s.focus(); });
+          });
+          // one dropdown open at a time; a click elsewhere closes it
+          nav.querySelectorAll("details[data-dd]").forEach(function (d) {
+            d.addEventListener("toggle", function () {
+              if (d.open) nav.querySelectorAll("details[data-dd]").forEach(function (o) { if (o !== d) o.removeAttribute("open"); });
+              // a desktop dropdown scrolls within the window below where it starts, so it never runs off the bottom
+              var m = d.querySelector(".dd-menu");
+              if (d.open && m && getComputedStyle(m).position === "absolute") {
+                var top = d.querySelector("summary").getBoundingClientRect().bottom + 8, view = window.visualViewport ? window.visualViewport.height : window.innerHeight;
+                m.style.maxHeight = Math.max(160, Math.floor(view - top - 12)) + "px";
+              }
+            });
+          });
+          document.addEventListener("click", function (e) { if (!nav.contains(e.target)) nav.querySelectorAll("details[data-dd][open]").forEach(function (d) { d.removeAttribute("open"); }); });
+          // Wing counts: one static JSON for the whole site (api/v1/meta/counts.json, cached an hour by its Cache-Control), fetched
+          // the first time the wings menu opens and written into the "{n} events" templates. Decorative: nothing else depends on it.
+          var slots = nav.querySelectorAll("[data-wing-count]"), wingsDd = slots.length ? slots[0].closest("details") : null;
+          if (wingsDd) {
+            var fill = function () {
+              if (!wingsDd.open) return;
+              wingsDd.removeEventListener("toggle", fill);
+              var lang = document.documentElement.lang, nf = new Intl.NumberFormat(lang === "ar" ? "ar-EG-u-nu-latn" : "en-GB");
+              fetch("/api/v1/meta/counts.json").then(function (r) { return r.ok ? r.json() : null; }).then(function (c) {
+                if (!c || !c.wings) return;
+                slots.forEach(function (s) { var n = c.wings[s.dataset.wingCount]; if (typeof n === "number") s.textContent = s.dataset.tpl.replace("{n}", nf.format(n)) + " — "; });
+              }).catch(function () {});
+            };
+            wingsDd.addEventListener("toggle", fill);
+          }
         }
       })();
       (function () {

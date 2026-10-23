@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 70:20 (سورة المعارج، الآية 20)."
 text: "إِذَا مَسَّهُ ٱلشَّرُّ جَزُوعًا"
 text_search: "إذا مسه الشر جزوعا"
+translations:
+  en: { text: "Fretful when evil befalleth him", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "جب اسے تکلیف پہنچتی ہے تو گھبرا اٹھتا ہے", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-70 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

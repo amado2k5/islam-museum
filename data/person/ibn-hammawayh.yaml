@@ -1,0 +1,26 @@
+id: person/ibn-hammawayh
+class: person
+label: { ar: "ابن همويه قاضي دمشق", en: "Ibn Hammawayh, qadi of Damascus" }
+names:
+  - { value: "ابن همويه شمس الدين أبو سعد إبراهيم بن أحمد بن أبي الفضل بن مسلمة السرخسي قاضي الشام", kind: full }
+died: { edtf: "1271-10~", hijri: "0670-04-28", calendar: julian, precision: day, status: tradition, derived: true, note: "توفي ثامن عشرين ربيع الآخر سنة سبعين {cite:shadharat-dhahab p. 578}." }
+summary:
+  ar: "قاضي الشام؛ فقيه حنفي ثم تحنبل وكان مجتهداً في مذهب أهل السنة؛ وعين قاضياً بمذهبه فقيل له ألا تخرج فقيل جعفر شيخاً فقال ما هذا إلا تهكم فقلت إذا فألزموه فحكم في الشهور ثم عزل، وحدث بالكثير وكان شيخاً مهيباً وقوراً؛ توفي ثامن عشرين ربيع الآخر {cite:shadharat-dhahab p. 578}."
+  en: "Qadi al-Sham (Hanafi→Hanbali, 'mujtahid within the Sunni school') — judged a few months then dismissed; a dignified, awe-inspiring transmitter {cite:shadharat-dhahab p. 578}."
+gender: male
+roles: [jurist, scholar]
+wings: [people]
+periods: [period/mongol-post-mongol]
+regions: [levant-iraq]
+faith:
+  - value: sunni-hanbali
+    basis: tradition
+relations:
+  - { type: died_in, target: place/damascus, sources: [source/shadharat-dhahab] }
+sources: [source/shadharat-dhahab]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }
+provenance:
+  layer: own-research
+  source: "شذرات الذهب — ابن العماد (ج7، سنة 670)، قراءة آبل فيجن"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-shadharat-batch-132

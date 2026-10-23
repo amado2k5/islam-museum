@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 69:24 (سورة الحاقة، الآية 24)."
 text: "كُلُوا۟ وَٱشْرَبُوا۟ هَنِيٓـًٔۢا بِمَآ أَسْلَفْتُمْ فِى ٱلْأَيَّامِ ٱلْخَالِيَةِ"
 text_search: "كلوا واشربوا هنيئا بما أسلفتم في الأيام الخالية"
+translations:
+  en: { text: "(And it will be said unto those therein): Eat and drink at ease for that which ye sent on before you in past days.", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "جو (عمل) تم ایام گزشتہ میں آگے بھیج چکے ہو اس کے صلے میں مزے سے کھاؤ اور پیو", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-69 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

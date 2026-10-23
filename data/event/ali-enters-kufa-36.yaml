@@ -1,0 +1,19 @@
+id: event/ali-enters-kufa-36
+class: event
+kind: other
+label: { ar: "دخول علي الكوفة سنة 36هـ", en: "Ali enters Kufa in 36 AH" }
+summary:
+  ar: "دخل علي الكوفة يوم الاثنين لاثنتي عشرة ليلة خلت من رجب سنة 36هـ بعد أن شيّع عائشة في طريقها إلى مكة؛ فقيل له: انزل بالقصر الأبيض، فأبى وقال إن عمر كان يكره النزول به فهو يكرهه لذلك، فنزل الرحبة وصلى في الجامع الأعظم ركعتين (ص155)."
+wings: [place, people]
+periods: [period/rashidun]
+regions: [levant-iraq]
+date:
+  start: { edtf: "0657-01~", hijri: "0036-07", calendar: julian, precision: month, status: historical, derived: true, note: "الكتاب يذكر «رجب سنة ست وثلاثين» (ص155)؛ التحويل الميلادي مشتق." }
+relations:
+  - { type: occurred_at, target: place/kufa }
+  - { type: had_participant, target: person/ali-ibn-abi-talib, role: "دخل الكوفة", sources: [source/sallabi-ali-vol1] }
+  - { type: had_participant, target: person/umar-ibn-al-khattab, role: "ذكر علي كراهته نزول القصر الأبيض", sources: [source/sallabi-ali-vol1] }
+  - { type: had_participant, target: person/aisha, role: "شيّعها علي من البصرة في طريقها إلى مكة", sources: [source/sallabi-ali-vol1] }
+sources: [source/sallabi-ali-vol1]
+status: { review: draft, completeness: 1, generated_by: "Claude Code (claude-haiku-5-5); mined from sallabi-ali-vol1 p. 155" }
+provenance: { layer: own-research, source: "sallabi-ali-vol1 p. 155", generated_by: "Claude Code", model: "claude-haiku-5-5", run: "sallabi-ali-vol1-deep-pp151-200" }

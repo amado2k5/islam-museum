@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 17:45 (سورة الإسراء، الآية 45)."
 text: "وَإِذَا قَرَأْتَ ٱلْقُرْءَانَ جَعَلْنَا بَيْنَكَ وَبَيْنَ ٱلَّذِينَ لَا يُؤْمِنُونَ بِٱلْـَٔاخِرَةِ حِجَابًا مَّسْتُورًا"
 text_search: "وإذا قرأت القرآن جعلنا بينك وبين الذين لا يؤمنون بالآخرة حجابا مستورا"
+translations:
+  en: { text: "And when thou recitest the Qur'an we place between thee and those who believe not in the Hereafter a hidden barrier;", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "اور جب قرآن پڑھا کرتے ہو تو ہم تم میں اور ان لوگوں میں جو آخرت پر ایمان نہیں رکھتے حجاب پر حجاب کر دیتے ہیں", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-17 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

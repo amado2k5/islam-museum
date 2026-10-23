@@ -1,0 +1,16 @@
+id: passage/muslim-0397
+class: passage
+unit: hadith
+work: work/sahih-muslim
+ref: "397"
+label: { ar: "مسلم 397 — ارجع فصل فإنك لم تصل", en: "Muslim 397 — Go back and pray, you have not prayed" }
+text: "قال أبو هريرة: دخل رجل المسجد فصلى ثم جاء فسلم على رسول الله فرد السلام وقال: ارجع فصل فإنك لم تصل، حتى فعل ذلك ثلاث مرات، فقال الرجل: والذي بعثك بالحق ما أحسن غير هذا علمني، قال: إذا قمت إلى الصلاة فكبر ثم اقرأ ما تيسر معك من القرآن ثم اركع حتى تطمئن راكعاً ثم ارفع حتى تعتدل قائماً ثم اسجد حتى تطمئن ساجداً ثم ارفع حتى تطمئن جالساً ثم افعل ذلك في صلاتك كلها"
+summary:
+  ar: "رواية أبي هريرة في باب الطمأنينة في الصلاة من كتاب الصلاة في صحيح مسلم — حديث المسيء صلاته الشهير: تعليم الطمأنينة ركناً ركناً."
+relations:
+  - { type: mentions, target: person/muhammad, sources: [source/sahih-muslim] }
+  - { type: mentions, target: person/abu-hurayra, sources: [source/sahih-muslim] }
+  - { type: basis_for, target: practice/salah, sources: [source/sahih-muslim] }
+provenance: { layer: own-research, source: "صحيح مسلم، كتاب الصلاة، باب الطمأنينة في الركوع والسجود واجبة (طبعة دار التأصيل، الحديث 392؛ ترقيم عبد الباقي المعروف 397)، تصوير Apple Vision OCR", generated_by: "Devin (SWE-2 High) from Apple Vision OCR", run: "hadith-muslim-passages-4" }
+sources: [source/sahih-muslim]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High); matn excerpt at most 40 words checked against the scan" }

@@ -1,0 +1,28 @@
+id: person/hasan-veneziano
+class: person
+label:
+  ar: "حسن فنزيانو"
+  en: "Hasan Veneziano"
+names:
+  - { kind: full, lang: ar, value: "حسن فنزيانو" }
+roles: [governor, military-leader]
+gender: male
+summary:
+  ar: "والي الجزائر العثماني؛ عاد بنفسه إلى الجزائر حين بلغه انتشار الفوضى بين الجنود فانتصب عليها للمرة الثانية في ربيع الثاني ٩٩١هـ/أبريل ١٥٨٣م ولم يعارض الباب العالي. لم يترك قيادة الأسطول لغيره وكثرت في أيامه المغانم من السواحل الأسبانية؛ وفي ٩٩٢هـ/١٥٨٤م أبحر بأسطوله على ثغر بلنسية فحمل أعداداً كبيرة من مسلمي الأندلس منقذاً إياهم من اضطهاد الأسبان، وفي السنة التالية أنقذ جميع سكان كالوسا وحملهم إلى الجزائر. بقي على رأس حكومة الجزائر حتى استدعاه السلطان إلى إستانبول ليتولى منصب إمارة البحر (قبودان دريا) بعد وفاة قلج علي سنة ٩٩٥هـ/١٥٨٧م {cite:dawlat-uthmaniyya-salabi p. 272}."
+  en: "Ottoman governor of Algiers; he returned on his own initiative when word reached him of chaos among the soldiery, seated himself over Algiers a second time in Rabi' II 991/April 1583, and the Porte did not object. He kept the fleet's command to himself and booty multiplied off the Spanish coasts; in 992/1584 he sailed on Valencia and carried off large numbers of al-Andalus's Muslims, saving them from Spanish persecution, and the next year saved all of Calosa's people, ferrying them to Algiers. He stayed at the head of Algiers' government until the sultan called him to Istanbul as kapudan (commander of the sea) after Uluj Ali's death in 995/1587 {cite:dawlat-uthmaniyya-salabi p. 272}."
+wings: [people]
+regions: [maghreb]
+periods: [period/gunpowder-empires]
+relations:
+  - { type: ruled_over, target: place/algiers, sources: [source/dawlat-uthmaniyya-salabi] }
+  - { type: successor_of, target: person/kilic-ali-pasha, sources: [source/dawlat-uthmaniyya-salabi], note: "خلَفه قبوداناً للبحر" }
+sources: [source/dawlat-uthmaniyya-salabi]
+external_ids:
+  wikidata: "Q5678817"
+provenance:
+  layer: own-research
+  source: "الدولة العثمانية لعلي محمد الصلابي (ط1 1421) ص 272"
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: salabi-uthmani-batch15
+status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 Medium)" }

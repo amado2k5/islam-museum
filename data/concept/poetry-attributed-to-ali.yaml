@@ -1,0 +1,36 @@
+id: concept/poetry-attributed-to-ali
+class: concept
+kind: art_form
+label: { ar: "الشعر المنسوب إلى علي بن أبي طالب", en: "Poetry attributed to Ali ibn Abi Talib" }
+summary:
+  ar: "ينقل الصلابي أن لعلي آراء نقدية في الشعر ومقطوعات عديدة نُسبت إليه، منها أبيات في الفرج والشدة، والصبر، والصداقة، والتواضع والقناعة {cite:sallabi-ali-vol1 p. 251}. وشكّك ابن هشام في نسبة رجز بناء مسجد الرسول إليه {cite:sallabi-ali-vol1 p. 251}، وقال الدكتور نايف معروف إن الديوان المنسوب خليط من شعراء متفاوتين جمعه محبوه {cite:sallabi-ali-vol1 p. 251}، ويرد الكتاب بأن الرواة أثبتوا له مقطوعات صحت نسبتها عندهم {cite:sallabi-ali-vol1 p. 252}."
+  en: "Al-Sallabi reports that Ali's critical remarks on poetry and several verses are attributed to him. Ibn Hisham doubted the attribution of the rajaz on building the Prophet's mosque, and Nayif Ma'ruf held that the diwan is a mixed collection by admirers; the book answers that narrators gave him verses whose attribution they held to be sound."
+wings: [ideas]
+themes: [literature]
+periods: [period/rashidun]
+regions: [arabia, levant-iraq]
+relations:
+  - { type: related_to, target: person/ali-ibn-abi-talib, sources: [source/sallabi-ali-vol1] }
+  - { type: related_to, target: concept/hikam-ali-ibn-abi-talib, sources: [source/sallabi-ali-vol1] }
+sources: [source/sallabi-ali-vol1]
+perspectives:
+  - tradition: sunni
+    id: sunni-book
+    summary:
+      ar: "يعرض الصلابي المقطوعات التي أثبتها الرواة لعلي، ويقرر أن الاختلاف في نسبة بعض القصائد لا يقلل من شاعريته المتمثلة فيما رجحت نسبته إليه، ولا يقدح في إمامته اللغوية والأدبية {cite:sallabi-ali-vol1 p. 251}."
+      en: "Al-Sallabi presents the verses that narrators assign to Ali and holds that disputed attributions do not diminish what is firmly attributed to him or his standing in language and letters {cite:sallabi-ali-vol1 p. 251}."
+    sources: [source/sallabi-ali-vol1]
+  - tradition: academic
+    id: academic
+    summary:
+      ar: "ينقل الكتاب عن ابن هشام أنه سأل غير واحد من أهل العلم بالشعر عن الرجز فلم يدر أقاله علي أم غيره، وأنه يرجح أن الرجز الذي ذكره قيل في المعارك الإسلامية ونُسب إليه لمعانيه الدينية {cite:sallabi-ali-vol1 p. 251}. وينقل عن نايف معروف أن الديوان المنسوب خليط {cite:sallabi-ali-vol1 p. 251}. (رأي الكتاب ينقل عن هذين المرجعين كما هو، ولم يُراجع الأصل هنا.)"
+      en: "As the book reports it: Ibn Hisham questioned the rajaz and suspected it came from a fighter in the Islamic battles; Nayif Ma'ruf judged the diwan a mixed collection. Both are cited second-hand in the book; the originals are not checked here (needs_source)."
+    sources: [source/sallabi-ali-vol1]
+  - tradition: other
+    id: other
+    summary:
+      ar: "نقل ياقوت الحموي عن أبي عثمان المازني قولاً بأنه لم يصح عن علي أنه تكلم من الشعر بشيء غير بيتين، وهو قول يرده الصلابي بروايات أخرى {cite:sallabi-ali-vol1 p. 251}."
+      en: "Yaqut al-Hamawi reports from Abu Uthman al-Mazini that nothing firmly attributed to Ali exceeds two verses; the book answers this with other narrations {cite:sallabi-ali-vol1 p. 251}."
+    sources: [source/sallabi-ali-vol1]
+provenance: { layer: own-research, source: "sallabi-ali-vol1 pp. 251-252", generated_by: "Claude Code", model: "claude-haiku-5-5", run: "sallabi-ali-vol1-deep-pp251-300" }
+status: { review: draft, completeness: 1, generated_by: "Claude Code (claude-haiku-5-5); mined from sallabi-ali-vol1 pp. 251-252; contested attribution" }

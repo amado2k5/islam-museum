@@ -1,0 +1,17 @@
+id: person/faraj-ibn-sulaym
+class: person
+label: { ar: "فرج بن سليم الخادم", en: "Faraj ibn Sulaym" }
+summary:
+  ar: "فرج بن سليم الخادم، من كبار خدم الدولة العباسية وعمّالها؛ عند البلاذري: وكّله الرشيد ببناء طرسوس فقدجه أبو سليم إلى مدينة السلام فأشخص الندبتين ومسح ما بين النهر إلى النهر أربعة آلاف خطة عشرين ذراعاً في مثلها وأقطع أهل طرسوس الخطط."
+  en: "Faraj ibn Sulaym the eunuch, among the great court servants and administrators of the Abbasid state; in al-Baladhuri: al-Rashid charged him with building Tarsus — Abu Sulaym conducted him to Madinat al-Salam, whence he mustered the two levies — and he surveyed from river to river four thousand lots of twenty cubits square, granting the people of Tarsus their plots."
+wings: [people]
+periods: [period/abbasid-early]
+relations:
+  - { type: participated_in, target: event/founding-of-tarsus, role: "المتولي لبنائها ومساحتها", sources: [source/futuh-buldan-maarif-1407] }
+provenance:
+  layer: own-research
+  source: "فتوح البلدان (ط مؤسسة المعارف 1407هـ/1987م) ص 232–233"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-futuh-buldan-batch-13
+sources: [source/futuh-buldan-maarif-1407]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

@@ -1,0 +1,23 @@
+id: event/abu-rakwa-revolt
+class: event
+kind: revolt
+label: { ar: "ثورة أبي ركوة", en: "Abu Rakwa's Revolt" }
+summary:
+  ar: "بطاقة أولية لثورة أبي ركوة؛ لم تُراجع مصادره على الصفحة بعد."
+  en: "Draft card for Abu Rakwa's Revolt; its sources are not yet checked on the page."
+wings: [time]
+periods: [period/buyid-seljuk-fatimid-era]
+regions: [egypt-nile]
+date:
+  start: { edtf: "1004", precision: year, status: tradition, derived: true }
+  end: { edtf: "1007", precision: year, status: tradition, derived: true }
+sources: [source/tarikh-islam-hasan-ibrahim]
+external_ids:
+  wikidata: Q122678244
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; battle attested in narrative histories — entry not yet checked on the page"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-wave2
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

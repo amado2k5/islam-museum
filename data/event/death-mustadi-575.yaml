@@ -1,0 +1,21 @@
+id: event/death-mustadi-575
+class: event
+kind: death
+label: { ar: "وفاة المستضيء وخلافة الناصر لدين الله", en: "death of al-Mustaḍīʾ — the forty-seven-year caliphate of al-Nāṣir begins" }
+date:
+  start: { edtf: "1179~", hijri: "0575", calendar: julian, precision: year, status: tradition, derived: true }
+summary:
+  ar: "توفي الإمام المستضيء بأمر الله ثاني ذي القعدة وقد كانت خلافته نحو تسع سنين وسبعة أشهر وكان عادلًا حسن السيرة كثير البذل حليمًا قليل المعاقبة فكان الناس معه في أمن عام وإحسان شامل لم يروا مثله فعاش حميدًا ومات سعيدًا، وقام ظهير الدين بن العطار في أخذ البيعة لولده الناصر لدين الله فلما تمت البيعة صار الحاكم في الدولة أستاذ الدار مجد الدين أبو الفضل بن الصاحب {cite:kamil-ibn-al-athir p. 97-98}."
+  en: "Al-Mustaḍīʾ died on 2 Dhū'l-Qaʿda — nine years and seven months of a caliphate remembered for general security, generosity, and a clemency the people had never seen; «he lived praised and died happy». Ẓahīr al-Dīn Ibn al-ʿAṭṭār secured the bayʿa for his son al-Nāṣir li-Dīn Allāh — opening the longest caliphate in Abbasid history {cite:kamil-ibn-al-athir p. 97-98}."
+relations:
+  - { type: occurred_at, target: place/baghdad, sources: [source/kamil-ibn-al-athir] }
+  - { type: had_participant, target: person/al-mustadi-billah, role: "المتوفى", sources: [source/kamil-ibn-al-athir] }
+  - { type: had_participant, target: person/al-nasir-billah, role: "الخليفة الجديد", sources: [source/kamil-ibn-al-athir] }
+  - { type: had_participant, target: person/zahir-al-din-ibn-al-attar, role: "المسير للدولة", sources: [source/kamil-ibn-al-athir] }
+provenance:
+  layer: own-research
+  source: "الكامل في التاريخ لابن الأثير، قراءة آبل فيجن"
+  generated_by: "Devin (SWE-2 Medium) from Apple Vision OCR"
+  run: lib-kamil-v12-batch02
+sources: [source/kamil-ibn-al-athir]
+status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 Medium)" }

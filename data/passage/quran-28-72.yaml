@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 28:72 (سورة القصص، الآية 72)."
 text: "قُلْ أَرَءَيْتُمْ إِن جَعَلَ ٱللَّهُ عَلَيْكُمُ ٱلنَّهَارَ سَرْمَدًا إِلَىٰ يَوْمِ ٱلْقِيَـٰمَةِ مَنْ إِلَـٰهٌ غَيْرُ ٱللَّهِ يَأْتِيكُم بِلَيْلٍ تَسْكُنُونَ فِيهِ ۖ أَفَلَا تُبْصِرُونَ"
 text_search: "قل أرأيتم إن جعل الله عليكم النهار سرمدا إلى يوم القيامة من إله غير الله يأتيكم بليل تسكنون فيه ۖ أفلا تبصرون"
+translations:
+  en: { text: "Say: Have ye thought, if Allah made day everlasting for you till the Day of Resurrection, who is a god beside Allah who could bring you night wherein ye rest? Will ye not then see?", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "کہو تو بھلا دیکھو تو اگر خدا تم پر ہمیشہ قیامت تک دن کئے رہے تو خدا کے سوا کون معبود ہے کہ تم کو رات لا دے جس میں تم آرام کرو۔ تو کیا تم دیکھتے نہیں؟", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-28 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

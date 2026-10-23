@@ -1,0 +1,26 @@
+id: person/abu-al-ghayth-ibn-jamil
+class: person
+label: { ar: "أبو الغيث بن جميل اليمني", en: "Abu al-Ghayth b. Jamil al-Yamani" }
+names:
+  - { value: "شيخ شيوخ اليمن أبو الغيث بن جميل اليمني", kind: full }
+died: { edtf: "1254~", hijri: "0652~", calendar: julian, precision: year, status: debated, derived: true, note: "فيها أو في التي قبلها كما جزم به ابن الأهدل {cite:shadharat-dhahab p. 264}." }
+summary:
+  ar: "شيخ شيوخ اليمن؛ كان في ابتداء أمره قناً قاطعاً للطريق، فبينما هو كامن لأخذ قافلة إذ سمع هاتفاً يقول «يا صاحب العين عليك عينا» فوقع منه موقعاً أزعجه وأقبل على الله وظهر عليه صدق الإرادة، وصحب أولاً الشيخ علي بن أفلح الزبيدي ثم الشيخ علي الأهدل؛ وكان أمياً وله كلام في الحقائق وأحوال باهرة وكرامات ظاهرة ووضع عليه كتاب في التصوف {cite:shadharat-dhahab p. 264-265}."
+  en: "Shaykh of Yemen's shaykhs (d. ~652) — a highwayman in his beginnings, turned by a voice heard while lying in wait for a caravan; disciple of Ali b. Aflah al-Zabidi then Ali al-Ahdal; unlettered, yet with speech on the realities and a treatise on tasawwuf written for him {cite:shadharat-dhahab p. 264-265}."
+gender: male
+roles: [mystic]
+wings: [people]
+periods: [period/crusades-ayyubid-mamluk]
+regions: [arabia]
+faith:
+  - value: sunni
+    basis: tradition
+relations:
+  - { type: lived_in, target: place/yemen, sources: [source/shadharat-dhahab] }
+sources: [source/shadharat-dhahab]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }
+provenance:
+  layer: own-research
+  source: "شذرات الذهب — ابن العماد (ج5، سنة 652)، قراءة آبل فيجن"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-shadharat-batch-128

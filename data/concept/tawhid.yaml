@@ -7,8 +7,7 @@ label:
 summary:
   ar: إفراد الله بالألوهية ونفي الشريك والمثيل عنه؛ يبدأ به أبو جعفر الطحاوي بيان العقيدة فيقول إن الله واحد لا شريك له ولا شيء مثله ولا إله غيره.
   en: Affirming that God is one and without partner or likeness; al-Tahawi opens his statement of the creed with it, saying God is one with no partner, nothing like Him and no god but Him.
-wings:
-- ideas
+wings: [ideas]
 themes:
 - creed
 periods:
@@ -42,8 +41,10 @@ perspectives:
     ar: إثبات الصفات كما وردت دون تأويل ولا تشبيه ولا كيف
     en: Affirming the attributes as they came, without interpretation, likening or how
   summary:
-    ar: 'يقول ابن قدامة إن الله «موصوف بما وصف به نفسه في كتابه العظيم، وعلى لسان نبيه الكريم»، وإن كل ما ورد من الصفات وجب الإيمان به وتلقيه بالتسليم والقبول وترك التعرض له بالرد والتأويل والتشبيه والتمثيل؛ ويقرّ الاستواء ويقول مع مالك: «الاستواء غير مجهول، والكيف غير معقول».'
-    en: 'Ibn Qudama says God is described as He described Himself in His Book and by His Prophet, that every attribute that came must be believed and received with submission and acceptance, leaving aside rejection, interpretation, likening and representation; he affirms the istiwa and quotes Malik: the istiwa is not unknown and the how is not graspable.'
+    ar: 'يقول ابن قدامة إن الله «موصوف بما وصف به نفسه في كتابه العظيم، وعلى لسان نبيه الكريم»، وإن كل ما ورد من الصفات وجب الإيمان به وتلقيه بالتسليم والقبول وترك التعرض له بالرد والتأويل والتشبيه والتمثيل؛
+      ويقرّ الاستواء ويقول مع مالك: «الاستواء غير مجهول، والكيف غير معقول».'
+    en: 'Ibn Qudama says God is described as He described Himself in His Book and by His Prophet, that every attribute that came must be believed and received with submission and acceptance, leaving aside
+      rejection, interpretation, likening and representation; he affirms the istiwa and quotes Malik: the istiwa is not unknown and the how is not graspable.'
   holders:
   - person/ibn-qudama-al-maqdisi
   - work/lumat-al-itiqad
@@ -52,17 +53,104 @@ perspectives:
     note:
       ar: ص 4 و6 و13 و14 و15
       en: pp. 4, 6, 13, 14 and 15
+  - ref: source/lumat-al-itiqad-ibn-uraiyir-2022
+    note:
+      ar: 'ص 49–50 و67 (ط2): تفويض علم الكيفية، وإثبات المعنى المعلوم من لغة العرب، والنهي عن التأويل المخالف للظاهر'
+      en: 2nd edition (Ibn Uraye'ir), pages as printed
   sources:
   - source/lumat-al-itiqad
+  - source/lumat-al-itiqad-ibn-uraiyir-2022
+- tradition: sunni-hanbali
+  id: aqida-wasitiyya
+  stance:
+    ar: الإيمان بما وصف الله به نفسه من غير تحريف ولا تعطيل ومن غير تكييف ولا تمثيل
+    en: Believing in what God described Himself with, without distortion or denial and without how or likeness
+  summary:
+    ar: يقول ابن تيمية إن من الإيمان بالله الإيمان بما وصف به نفسه وبما وصفه به رسوله «من غير تحريف ولا تعطيل، ومن غير تكييف ولا تمثيل»، ويقول إن ما ذكره الله من أنه فوق العرش ومع خلقه «حق على حقيقته» وإن
+      قربه ومعيته لا ينافيان علوه.
+    en: Ibn Taymiyya says belief in God includes belief in what He described Himself and what His messenger described Him with, without distortion or denial and without how or likeness, and that what God
+      mentioned of His being above the throne and with His creatures is true in reality, His nearness and withness not contradicting His height.
+  holders:
+  - person/ibn-taymiyya
+  - work/aqida-wasitiyya
+  evidence:
+  - ref: source/aqida-wasitiyya
+    note:
+      ar: ص 7 و8 و17
+      en: pp. 7, 8 and 17
+  sources:
+  - source/aqida-wasitiyya
+- tradition: sunni-ashari
+  id: maqalat-ashari
+  stance:
+    ar: إثبات الصفات والاستواء واليدين والعينين والوجه بلا كيف، وأسماء الله لا يقال إنها غير الله
+    en: Affirming the attributes, the istiwa, the hands, the eyes and the face without how, and that God's names are not said to be other than God
+  summary:
+    ar: يذكر الأشعري في عرضه لقول أهل الحديث والسنة أن الله واحد فرد صمد، وأنه على عرشه، وأن له يدين وعينين ووجهاً «بلا كيف»، وأن أسماء الله لا يقال إنها غير الله، ويثبتون له العلم والسمع والبصر والقوة.
+    en: In his account of the position of the hadith scholars and Ahl al-Sunna, al-Ash'ari says God is one, single, the Eternal Refuge, that He is on His throne, that He has hands, eyes and a face without
+      how, that God's names are not said to be other than God, and they affirm His knowledge, hearing, sight and power.
+  holders:
+  - person/al-ashari
+  - work/maqalat-islamiyyin
+  evidence:
+  - ref: source/maqalat-islamiyyin
+    note:
+      ar: ص 345
+      en: p. 345
+  sources:
+  - source/maqalat-islamiyyin
+- tradition: sunni
+  id: sunni-sallabi-graves
+  stance:
+    ar: 'لا تُتخذ القبور مساجد ولا أعياداً؛ والزيارة للاتعاظ والدعاء للميت لا لطلب الحاجة'
+    en: 'Graves must not be made mosques or festive gatherings; visiting is for reflection and prayer for the dead, not for seeking needs'
+  summary:
+    ar: 'يقرر الصلابي هذا الموقف استناداً إلى نهي النبي عن جعل قبره عيداً وإلى فعل الصحابة، ويعدّ الاحتفال السنوي بالمزارات بدعة بدأها العبيديون في القرن الرابع بحسب المقريزي {cite:sallabi-ali-vol1 p. 238-241}.'
+    en: 'Al-Sallabi holds this on the basis of the Prophet''s prohibition of making his grave a feast and the practice of the Companions, and regards annual shrine festivals as an innovation he dates to the Fatimids in the fourth century, citing al-Maqrizi {cite:sallabi-ali-vol1 p. 238-241}.'
+  sources:
+  - source/sallabi-ali-vol1
+- tradition: sunni
+  id: sunni-sharawi-names-by-revelation
+  stance:
+    ar: 'أسماء الله وصفاته توقيفية، ولا يدركها العقل إلا بالوحي'
+    en: 'God''s names and attributes are fixed by revelation; reason can know that a power exists but cannot picture it'
+  holders: [person/muhammad-mutawalli-al-shaarawi]
+  summary:
+    ar: 'يرى الشعراوي أن العقل يعرف وجود القوة المطلقة ولا يتصورها، وأن أسماء الله توقيفية لا مجال للعقل فيها، ويستدل بأن لفظ الجلالة موجود في كل اللغات وأن القرآن تحدى من يسمّي غيره به {cite:al-tarbiya-fi-madrasat-al-nubuwwa-1999 p. 12}{cite:al-tarbiya-fi-madrasat-al-nubuwwa-1999 p. 23}.'
+    en: 'Sha''rawi holds that reason can know that an absolute power exists but cannot picture it, and that God''s names are fixed by revelation with no place for reason. He argues that the name Allah appears in all languages and that the Qur''an challenged anyone to name another with it {cite:al-tarbiya-fi-madrasat-al-nubuwwa-1999 p. 12}{cite:al-tarbiya-fi-madrasat-al-nubuwwa-1999 p. 23}.'
+  sources: [source/al-tarbiya-fi-madrasat-al-nubuwwa-1999]
+- tradition: academic
+  id: academic
+  stance:
+    ar: 'قراءة تاريخية لنشأة الأضرحة والمزارات'
+    en: 'Historical reading of the emergence of shrines and visitation practices'
+  summary:
+    ar: 'لم يُعرض في هذا الجزء رأي أكاديمي؛ يحتاج إلى مرجع محدد (needs_source).'
+    en: 'No academic reading is set out in this section; to be added from a named source (needs_source).'
+  sources: []
+- tradition: other
+  id: popular-shrine-practice
+  stance:
+    ar: 'التبرك بالأضرحة وزيارتها لطلب الحاجة، كما تجري عند عامة الناس في بعض البلدان'
+    en: 'Blessing-seeking visits to shrines to ask for needs, as ordinary people practise them in some lands'
+  summary:
+    ar: 'لم يُعرض هذا الرأي بصوته في هذا الجزء؛ يصفه الكتاب بالغلو والبدعة، ويحتاج عرض وجهة النظر نفسها إلى مصدر من أصحابها (needs_source).'
+    en: 'This view is not set out in its own voice in this section, which describes it as excess and innovation; its own case needs a source from its holders (needs_source).'
+  sources:
+  - source/sallabi-ali-vol1
 provenance:
   layer: own-research
   source: العقيدة الطحاوية، طبعة دار ابن حزم 1995 (نص كامل؛ 134 بنداً، الصفحات 7-32)
   generated_by: Claude (maintainer session)
   model: claude-sonnet-5-5
   run: tahawiyya-1
+external_ids: { wikidata: "Q174495" }
 sources:
 - source/aqida-tahawiyya
 - source/lumat-al-itiqad
+- source/aqida-wasitiyya
+- source/maqalat-islamiyyin
+- source/sallabi-ali-vol1
 status:
   review: draft
   completeness: 2

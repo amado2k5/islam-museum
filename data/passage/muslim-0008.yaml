@@ -1,0 +1,21 @@
+id: passage/muslim-0008
+class: passage
+unit: hadith
+work: work/sahih-muslim
+ref: "8"
+label: { ar: "مسلم 8 — حديث جبريل: الإسلام والإيمان والإحسان", en: "Muslim 8 — The Jibril hadith: Islam, iman, ihsan" }
+text: "كان رسول الله يوما بارزا للناس فأتاه رجل فقال: يا رسول الله، ما الإيمان؟... ثم أدبر الرجل، فقال رسول الله: «ردوا علي الرجل»، فأخذوا ليردوه فلم يروا شيئا، فقال رسول الله: «هذا جبريل جاء ليعلم الناس دينهم»"
+summary:
+  ar: "أول كتاب الإيمان في صحيح مسلم؛ أتى جبريل في صورة رجل شديد بياض الثياب شديد سواد الشعر، فسأل النبي عن الإسلام والإيمان والإحسان والساعة، وعرّف بأن الإحسان «أن تعبد الله كأنك تراه، فإن لم تكن تراه فإنه يراك». جاء برواية عمر داخل حديث القَدَر (مسلم 1) وبرواية أبي هريرة مستقلة."
+relations:
+  - { type: mentions, target: person/jibril, sources: [source/sahih-muslim] }
+  - { type: mentions, target: person/muhammad, sources: [source/sahih-muslim] }
+  - { type: mentions, target: person/umar-ibn-al-khattab, sources: [source/sahih-muslim] }
+  - { type: mentions, target: person/abu-hurayra, sources: [source/sahih-muslim] }
+  - { type: mentions, target: concept/islam-din, sources: [source/sahih-muslim] }
+  - { type: mentions, target: concept/iman, sources: [source/sahih-muslim] }
+  - { type: mentions, target: concept/ihsan, sources: [source/sahih-muslim] }
+  - { type: basis_for, target: concept/ihsan, sources: [source/sahih-muslim] }
+provenance: { layer: own-research, source: "صحيح مسلم، كتاب الإيمان (طبعة دار التأصيل، الحديثان 1–2؛ ترقيم عبد الباقي المعروف 8)، تصوير Apple Vision OCR", generated_by: "Devin (SWE-2 High) from Apple Vision OCR", run: "hadith-muslim-passages-1" }
+sources: [source/sahih-muslim]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High); matn excerpt at most 40 words checked against the scan" }

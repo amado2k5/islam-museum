@@ -1,0 +1,23 @@
+id: event/siege-of-aleppo-1138
+class: event
+kind: siege
+label: { ar: "حصار حلب (١١٣٨)", en: "Siege of Aleppo (1138)" }
+summary:
+  ar: "بطاقة أولية لحصار حلب سنة ١١٣٨م، حملة البيزنطيين والصليبيين المشتركة على زنكي؛ لم تُراجع مصادره على الصفحة بعد."
+  en: "Draft card for the Siege of Aleppo in 1138, the joint Byzantine–Crusader campaign against Zengi; its sources are not yet checked on the page."
+wings: [time]
+periods: [period/crusades-ayyubid-mamluk]
+regions: [levant-iraq]
+date:
+  start: { edtf: "1138-04", precision: year, status: tradition, derived: true }
+  end: { edtf: "1138-04", precision: year, status: tradition, derived: true }
+sources: [source/tarikh-islam-hasan-ibrahim]
+external_ids:
+  wikidata: Q113549086
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; battle attested in narrative histories — entry not yet checked on the page"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-wave2
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

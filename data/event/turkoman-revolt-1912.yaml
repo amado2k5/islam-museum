@@ -1,0 +1,23 @@
+id: event/turkoman-revolt-1912
+class: event
+kind: revolt
+label: { ar: "ثورة التركمان (١٩١٢–١٩١٣)", en: "Turkoman Revolt (1912–13)" }
+summary:
+  ar: "بطاقة أولية لثورة التركمان من ١٩١٢ إلى ١٩١٣م، انتفاضة تركمان إيران على السلطة المركزية؛ لم تُراجع مصادره على الصفحة بعد."
+  en: "Draft card for the Turkoman Revolt of 1912–13, the rising of Iran's Turkmens against central authority; its sources are not yet checked on the page."
+wings: [time]
+periods: [period/modern-era]
+regions: [persia-central-asia]
+date:
+  start: { edtf: "1912", precision: year, status: tradition, derived: true }
+  end: { edtf: "1913", precision: year, status: tradition, derived: true }
+sources: [source/dawlat-uthmaniyya-salabi]
+external_ids:
+  wikidata: Q77458118
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; battle attested in narrative histories — entry not yet checked on the page"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-wave2
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

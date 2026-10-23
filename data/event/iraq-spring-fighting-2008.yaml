@@ -1,0 +1,23 @@
+id: event/iraq-spring-fighting-2008
+class: event
+kind: battle
+label: { ar: "قتال ربيع العراق (٢٠٠٨)", en: "Iraq spring fighting of 2008" }
+summary:
+  ar: "بطاقة أولية لقتال ربيع ٢٠٠٨م في العراق، مصادمات الجيش العراقي وجيش المهدي؛ لم تُراجع مصادره على الصفحة بعد."
+  en: "Draft card for the Iraq spring fighting of 2008, the clashes between the Iraqi army and the Mahdi Army; its sources are not yet checked on the page."
+wings: [time]
+periods: [period/contemporary-era]
+regions: [levant-iraq]
+date:
+  start: { edtf: "2008-03", precision: year, status: tradition, derived: true }
+  end: { edtf: "2008-05", precision: year, status: tradition, derived: true }
+sources: [source/tarikh-islam-hasan-ibrahim]
+external_ids:
+  wikidata: Q6067932
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; battle attested in narrative histories — entry not yet checked on the page"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-wave2
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

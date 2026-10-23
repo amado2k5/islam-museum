@@ -1,0 +1,23 @@
+id: event/jalal-amid-628
+class: event
+kind: battle
+label: { ar: "وصول جلال الدين إلى آمد وانهزامه عندها", en: "Jalal al-Din reaches Amid and is routed there" }
+date:
+  start: { edtf: "1231~", hijri: "0628", calendar: julian, precision: year, status: tradition, derived: true }
+summary:
+  ar: "وصل جلال الدين بن خوارزم شاه إلى آمد فانهزم عندها انهزامًا تامًّا من التتر، وحكى ابن الأثير عن تاجر أنهم حزروا قتلى المسلمين بها بأكثر من خمسة عشر ألفًا {cite:kamil-ibn-al-athir p. 492}."
+  en: "Jalal al-Din reached Amid and was utterly routed by the Mongols; Ibn al-Athir reports a merchant's estimate of more than fifteen thousand Muslim dead {cite:kamil-ibn-al-athir p. 492}."
+sides:
+  - label: { ar: "المسلمون وخصومهم" }
+  - label: { ar: "الطرف الآخر" }
+relations:
+  - { type: occurred_at, target: place/amid, sources: [source/kamil-ibn-al-athir] }
+  - { type: had_participant, target: person/jalal-al-din-khwarazmshah, role: "المنهزم", sources: [source/kamil-ibn-al-athir] }
+  - { type: had_participant, target: group/mongols, role: "الغالبون", sources: [source/kamil-ibn-al-athir] }
+provenance:
+  layer: own-research
+  source: "الكامل في التاريخ لابن الأثير، قراءة آبل فيجن"
+  generated_by: "Devin (SWE-2 Medium) from Apple Vision OCR"
+  run: lib-kamil-v12-batch08
+sources: [source/kamil-ibn-al-athir]
+status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 Medium)" }

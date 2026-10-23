@@ -1,0 +1,67 @@
+id: exhibit/path-surah-fath
+class: exhibit
+kind: trail
+label:
+  ar: سورة الفتح
+  en: Surah al-Fath
+summary:
+  ar: 'مسار في سورة الفتح المبين: الحديبية نصرًا، وبيعة الرضوان تحت الشجرة، ووعد مكة — سورة الانتصار السلمي.'
+  en: A trail through the victory sura.
+audience:
+- newcomer
+- student
+duration_minutes: 30
+wings: []
+regions:
+- arabia
+rooms:
+- title:
+    ar: السورة
+    en: The sura
+  body:
+    ar: إنا فتحنا لك فتحًا مبينًا.
+    en: إنا فتحنا لك فتحًا مبينًا.
+  features:
+  - passage/quran-48
+  - passage/quran-48-1
+- title:
+    ar: البيعة
+    en: The pledge
+  body:
+    ar: 'رضوان تحت الشجرة: آية البيعة.'
+    en: 'رضوان تحت الشجرة: آية البيعة.'
+  features:
+  - passage/quran-48-18
+  - event/treaty-of-hudaybiyya
+- title:
+    ar: الوعد
+    en: The promise
+  body:
+    ar: 'لقد صدق الله رسوله الرؤيا: مكة مأمونة.'
+    en: 'لقد صدق الله رسوله الرؤيا: مكة مأمونة.'
+  features:
+  - passage/quran-48-27
+  - place/mecca
+- title:
+    ar: الختام
+    en: The end
+  body:
+    ar: محمد رسول الله والذين معه.
+    en: محمد رسول الله والذين معه.
+  features:
+  - passage/quran-48-29
+  - passage/quran-48-29
+prerequisites:
+- exhibit/path-islam-in-30-minutes
+sources:
+- source/wikidata
+provenance:
+  layer: own-research
+  source: Devin-assembled trail from existing museum entities
+  generated_by: Devin (SWE-2 High)
+  model: SWE-2 High
+  run: pathways-batch-7
+status:
+  review: draft
+  completeness: 1
+  generated_by: Devin (SWE-2 High), pathways lane, 2026-10-16

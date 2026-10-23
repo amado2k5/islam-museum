@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 14:7 (سورة إبراهيم، الآية 7)."
 text: "وَإِذْ تَأَذَّنَ رَبُّكُمْ لَئِن شَكَرْتُمْ لَأَزِيدَنَّكُمْ ۖ وَلَئِن كَفَرْتُمْ إِنَّ عَذَابِى لَشَدِيدٌ"
 text_search: "وإذ تأذن ربكم لئن شكرتم لأزيدنكم ۖ ولئن كفرتم إن عذابي لشديد"
+translations:
+  en: { text: "And when your Lord proclaimed: If ye give thanks, I will give you more; but if ye are thankless, lo! My punishment is dire.", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "اور جب تمہارے پروردگار نے (تم کو) آگاہ کیا کہ اگر شکر کرو گے تو میں تمہیں زیادہ دوں گا اور اگر ناشکری کرو گے تو (یاد رکھو کہ) میرا عذاب بھی سخت ہے", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-14 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

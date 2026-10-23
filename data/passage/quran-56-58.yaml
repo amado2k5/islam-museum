@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 56:58 (سورة الواقعة، الآية 58)."
 text: "أَفَرَءَيْتُم مَّا تُمْنُونَ"
 text_search: "أفرأيتم ما تمنون"
+translations:
+  en: { text: "Have ye seen that which ye emit?", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "دیکھو تو کہ جس (نطفے) کو تم (عورتوں کے رحم میں) ڈالتے ہو", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-56 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

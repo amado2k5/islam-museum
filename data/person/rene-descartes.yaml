@@ -1,0 +1,26 @@
+id: person/rene-descartes
+class: person
+label: { en: René Descartes, ar: رينيه ديكارت }
+names:
+  - { kind: full, lang: ar, value: رينيه ديكارت }
+  - { kind: latinized, lang: la, value: Renatus Cartesius }
+gender: male
+born: { edtf: "1596", calendar: gregorian, precision: year, status: tradition, sources: [source/min-al-falsafa-al-yunaniyya-azhar], note: "التاريخ كما ورد في عنوان الفصل في الكتاب (1596-1650م)؛ يحتاج إلى مصدر ثانٍ {cite:min-al-falsafa-al-yunaniyya-azhar p. 359}." }
+died: { edtf: "1650", calendar: gregorian, precision: year, status: tradition, sources: [source/min-al-falsafa-al-yunaniyya-azhar], note: "كما ورد في عنوان الفصل في الكتاب {cite:min-al-falsafa-al-yunaniyya-azhar p. 359}؛ يحتاج إلى مصدر ثانٍ." }
+roles: [philosopher]
+disciplines: [concept/falsafa]
+summary:
+  en: "French philosopher and mathematician (1596–1650 as printed in the book), presented in al-Azhar's history of philosophy as a founder of modern thought for his break with Aristotle, his method of doubt and intuition, and his proof of God."
+  ar: "فيلسوف فرنسي (1596–1650م كما يذكره الكتاب)، يقدّمه كتاب «من الفلسفة اليونانية إلى الفلسفة الحديثة» أبًا للفلسفة الحديثة؛ لثورته على أرسطو، ولمنهجه القائم على الشك والحدس والرياضيات، ولبرهانه على وجود الله."
+wings: [ideas]
+themes: [philosophy-and-logic]
+regions: [andalus-europe]
+issue: { ar: "ما الذي أحدثه ديكارت في الفلسفة، وكيف بنى يقينه؟", en: "What did Descartes change in philosophy, and how did he build his certainty?" }
+sources: [source/min-al-falsafa-al-yunaniyya-azhar]
+provenance:
+  layer: own-research
+  source: "من الفلسفة اليونانية إلى الفلسفة الحديثة، سليمان سليمان خميس (مجمع البحوث الإسلامية، 1447ه/2025م)، ص 359-364"
+  generated_by: "Claude Code"
+  model: claude-haiku-5-5
+  run: azhar-min-al-falsafa-1
+status: { review: draft, completeness: 1, generated_by: "Claude Code (claude-haiku-5-5)" }

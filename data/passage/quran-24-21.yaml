@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 24:21 (سورة النور، الآية 21)."
 text: "۞ يَـٰٓأَيُّهَا ٱلَّذِينَ ءَامَنُوا۟ لَا تَتَّبِعُوا۟ خُطُوَٰتِ ٱلشَّيْطَـٰنِ ۚ وَمَن يَتَّبِعْ خُطُوَٰتِ ٱلشَّيْطَـٰنِ فَإِنَّهُۥ يَأْمُرُ بِٱلْفَحْشَآءِ وَٱلْمُنكَرِ ۚ وَلَوْلَا فَضْلُ ٱللَّهِ عَلَيْكُمْ وَرَحْمَتُهُۥ مَا زَكَىٰ مِنكُم مِّنْ أَحَدٍ أَبَدًا وَلَـٰكِنَّ ٱللَّهَ يُزَكِّى مَن يَشَآءُ ۗ وَٱللَّهُ سَمِيعٌ عَلِيمٌ"
 text_search: "۞ يا أيها الذين آمنوا لا تتبعوا خطوات الشيطان ۚ ومن يتبع خطوات الشيطان فإنه يأمر بالفحشاء والمنكر ۚ ولولا فضل الله عليكم ورحمته ما زكى منكم من أحد أبدا ولكن الله يزكي من يشاء ۗ والله سميع عليم"
+translations:
+  en: { text: "O ye who believe! Follow not the footsteps of the devil. Unto whomsoever followeth the footsteps of the devil, lo! he commandeth filthiness and wrong. Had it not been for the grace of Allah and His mercy unto you, not one of you would ever have grown pure. But Allah causeth whom He will to grow. And Allah is Hearer, Knower.", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "اے مومنو! شیطان کے قدموں پر نہ چلنا۔ اور جو شخص شیطان کے قدموں پر چلے گا تو شیطان تو بےحیائی (کی باتیں) اور برے کام ہی بتائے گا۔ اور اگر تم پر خدا کا فضل اور اس کی مہربانی نہ ہوتی تو ایک شخص بھی تم میں پاک نہ ہوسکتا۔ مگر خدا جس کو چاہتا ہے پاک کردیتا ہے۔ اور خدا سننے والا (اور) جاننے والا ہے", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-24 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

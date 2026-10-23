@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 51:13 (سورة الذاريات، الآية 13)."
 text: "يَوْمَ هُمْ عَلَى ٱلنَّارِ يُفْتَنُونَ"
 text_search: "يوم هم على النار يفتنون"
+translations:
+  en: { text: "(It is) the day when they will be tormented at the Fire,", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "اُس دن (ہوگا) جب ان کو آگ میں عذاب دیا جائے گا", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-51 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

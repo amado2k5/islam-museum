@@ -1,0 +1,23 @@
+id: event/siege-of-maymun-diz-1256
+class: event
+kind: siege
+label: { ar: "حصار ميمون دز (١٢٥٦)", en: "Siege of Maymun-Diz (1256)" }
+summary:
+  ar: "بطاقة أولية لحصار ميمون دز سنة ١٢٥٦م، أخذ هولاكو لحصن الإسماعيليين؛ لم تُراجع مصادره على الصفحة بعد."
+  en: "Draft card for the Siege of Maymun-Diz in 1256, Hulagu's capture of the Nizari stronghold; its sources are not yet checked on the page."
+wings: [time]
+periods: [period/mongol-post-mongol]
+regions: [persia-central-asia]
+date:
+  start: { edtf: "1256-11", precision: year, status: tradition, derived: true }
+  end: { edtf: "1256-12", precision: year, status: tradition, derived: true }
+sources: [source/tarikh-islam-hasan-ibrahim]
+external_ids:
+  wikidata: Q98906430
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; battle attested in narrative histories — entry not yet checked on the page"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-wave2
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

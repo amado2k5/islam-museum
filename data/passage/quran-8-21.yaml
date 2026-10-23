@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 8:21 (سورة الأنفال، الآية 21)."
 text: "وَلَا تَكُونُوا۟ كَٱلَّذِينَ قَالُوا۟ سَمِعْنَا وَهُمْ لَا يَسْمَعُونَ"
 text_search: "ولا تكونوا كالذين قالوا سمعنا وهم لا يسمعون"
+translations:
+  en: { text: "Be not as those who say, we hear, and they hear not.", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "اور ان لوگوں جیسے نہ ہونا جو کہتے ہیں کہ ہم نے حکم (خدا) سن لیا مگر (حقیقت میں) نہیں سنتے", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-8 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

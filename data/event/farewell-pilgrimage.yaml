@@ -4,8 +4,8 @@ kind: pilgrimage
 label: { en: "The Farewell Pilgrimage", ar: "حجة الوداع" }
 summary:
   en: "The only pilgrimage the Prophet led, during which he gave the sermon known as the Farewell Sermon."
-  ar: "الحجة الوحيدة التي قادها النبي، وألقى فيها الخطبة المعروفة بخطبة الوداع."
-wings: [time, people]
+  ar: "الحجة الوحيدة التي قادها النبي، وألقى فيها الخطبة المعروفة بخطبة الوداع. وأطول نص نبوي لمناسكها حديث جابر بن عبد الله عند مسلم — من التلبية إلى الرمي والنحر، وفيه خطبة عرفة «إن دماءكم وأموالكم حرام عليكم» {cite:sahih-muslim 1218}."
+wings: [time]
 themes: [pilgrimages-and-mass-gatherings, race-colour-ethnicity]
 periods: [period/prophetic-era]
 regions: [arabia]
@@ -16,6 +16,8 @@ relations:
   - { type: had_participant, target: person/muhammad }
   - { type: had_participant, target: person/abu-bakr }
   - { type: had_participant, target: person/ali-ibn-abi-talib }
+  - { type: had_participant, target: person/aisha }
+  - { type: had_participant, target: person/hafsa }
   - { type: part_of, target: period/prophetic-era }
-sources: [source/ibn-ishaq-guillaume, source/watt-1956-medina, source/lings-1983, source/mubarakpuri-raheeq, source/sahih-muslim, source/sahih-al-bukhari, source/zad-al-maad]
-status: { review: draft, completeness: 1, generated_by: "Claude Sonnet 5.5; dates follow the cited tradition and are approximate where marked" }
+sources: [source/ibn-ishaq-guillaume, source/watt-1956-medina, source/lings-1983, source/mubarakpuri-raheeq, source/sahih-muslim, source/sahih-al-bukhari, source/zad-al-maad, source/ibn-hisham-saqqa, source/sallabi-ali-vol1]
+status: { review: draft, completeness: 2, generated_by: "Claude Sonnet 5.5; dates follow the cited tradition and are approximate where marked" }

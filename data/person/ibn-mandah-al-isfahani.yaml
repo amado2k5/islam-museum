@@ -1,0 +1,21 @@
+id: person/ibn-mandah-al-isfahani
+class: person
+label: { ar: "أبو عبد الله محمد بن إسحاق بن منده الحافظ الأصبهاني" }
+summary:
+  ar: "محمد بن إسحاق بن محمد بن يحيى بن منده أبو عبد الله الحافظ الأصبهاني، من بيت الحديث والحفظ، سمع من أصحاب أبي مسعود ويونس بن حبيب وأبي العباس المحبوبي، وسافر البلاد وكتب الكثير وصنف التاريخ والشيوخ. قال أبو العباس جعفر بن محمد بن المعتز الحافظ ما رأيت أحفظ من أبي عبد الله بن منده وسألته يوماً كم يكون سماع الشيخ فقال يكون خمسة آلاف. توفي بأصبهان في صفر سنة ست وتسعين {cite:muntazam-ibn-al-jawzi j.7 p.233}."
+wings: [people]
+periods: [period/buyid-seljuk-fatimid-era]
+regions: [persia-central-asia]
+roles: [scholar, teacher]
+themes: [scripture-and-its-sciences]
+died:
+  { edtf: "1005-12~", hijri: "0396-02", calendar: julian, precision: month, status: tradition, derived: true, note: "صفر 396 بأصبهان؛ وفي تذكرة الحفاظ والميزان سلخ ذي القعدة 395؛ التحويل مشتق {cite:muntazam-ibn-al-jawzi j.7 p.233}" }
+relations:
+  - { type: died_in, target: place/isfahan, sources: [source/muntazam-ibn-al-jawzi] }
+provenance:
+  layer: own-research
+  source: "المنتظم في تاريخ الملوك والأمم — ابن الجوزي (ج7، وفيات سنة 396)، قراءة آبل فيجن"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-muntazam-batch-21
+sources: [source/muntazam-ibn-al-jawzi]
+status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 High)" }

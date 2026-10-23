@@ -1,0 +1,23 @@
+id: event/siege-of-taormina-962
+class: event
+kind: siege
+label: { ar: "حصار الطورمينة", en: "Siege of Taormina" }
+summary:
+  ar: "بطاقة أولية لحصار الطورمينة سنة ٩٦٢م، أخذ الفاطميين لآخر معاقل البيزنطيين في صقلية؛ لم تُراجع مصادره على الصفحة بعد."
+  en: "Draft card for the Siege of Taormina in 962, the Fatimid capture of Byzantium's last Sicilian stronghold; its sources are not yet checked on the page."
+wings: [time]
+periods: [period/buyid-seljuk-fatimid-era]
+regions: [andalus-europe]
+date:
+  start: { edtf: "962", precision: year, status: tradition, derived: true }
+  end: { edtf: "962", precision: year, status: tradition, derived: true }
+sources: [source/tarikh-islam-hasan-ibrahim]
+external_ids:
+  wikidata: Q28162763
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; battle attested in narrative histories — entry not yet checked on the page"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-wave2
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

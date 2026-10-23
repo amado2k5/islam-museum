@@ -1,0 +1,30 @@
+id: person/ibn-safi-malik-al-nuhat
+class: person
+label: { ar: "ابن صافي ملك النحاة" }
+names:
+  - { value: "أبو نزار الحسن بن صافي البغدادي الملقب ملك النحاة", kind: full }
+summary:
+  ar: "ملك النحاة أبو نزار الحسن بن صافي البغدادي الفقيه الأصولي المصنف في الأصلين والنحو وفنون الأدب؛ لقب نفسه ملك النحاة ويغضب على من لا يدعوه بذلك، وله ديوان شعر، تفقه على أحمد الأشنهي تلميذ المتولي وقرأ أصول الفقه على ابن برهان وأصول الدين على أبي عبد الله القيرواني والخلاف على أسعد الميهني والنحو على التبريزي وبرع فيه، وسافر إلى خراسان والهند ثم سكن واسط مدة وأخذ عنه جماعة من أهلها ثم استوطن دمشق وصنف في النحو كتباً كبيرة وفي الفقه كتاباً واحداً ومختصرين في الأصولين، وكان نحوياً بارعاً أصولياً متكلماً فصيحاً كثير العجب والتيه، وتوفي بدمشق في شوال سنة ثمان وستين وخمسمائة عن ثمانين سنة ودفن بباب الصغير {cite:shadharat-dhahab p. 707-708}."
+  en: "Malik al-Nuhat Abu al-Nizar al-Hasan ibn Safi of Baghdad — 'king of grammarians', a title he gave himself and resented those who withheld; jurist, usuli and man of letters who read usul on Ibn Burhan, kalam on al-Qayrawani, khilaf on As'ad al-Mayhani and nahw on al-Tibrizi, travelled to Khurasan and India, settled at Wasit then Damascus where he wrote large grammar works; vain yet brilliant, d. Shawwal 568 at Damascus aged eighty, buried at Bab al-Saghir {cite:shadharat-dhahab p. 707-708}."
+gender: male
+wings: [people]
+roles: [scholar, jurist, poet]
+periods: [period/crusades-ayyubid-mamluk]
+regions: [levant-iraq]
+died:
+  edtf: "1173-05~"
+  hijri: "0568-10"
+  calendar: julian
+  precision: month
+  status: tradition
+  derived: true
+  note: "توفي بدمشق في شوال سنة ثمان وستين عن ثمانين سنة ودفن بباب الصغير {cite:shadharat-dhahab p. 708}؛ التحويل مشتق."
+relations:
+  - { type: died_in, target: place/damascus, sources: [source/shadharat-dhahab] }
+provenance:
+  layer: own-research
+  source: "شذرات الذهب لابن العماد — الجزء الرابع، ممسوح مكتبة الحصاد (AAlexandrina-223861)، قراءة آبل فيجن"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-shadharat-batch-118
+sources: [source/shadharat-dhahab]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

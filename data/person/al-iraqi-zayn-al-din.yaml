@@ -1,0 +1,23 @@
+id: person/al-iraqi-zayn-al-din
+class: person
+label: { ar: "زين الدين العراقي", en: "Zayn al-Din al-Iraqi" }
+names:
+  - { value: "زين الدين عبد الرحيم بن الحسين العراقي", kind: full }
+gender: male
+summary:
+  ar: "الحافظ زين الدين عبد الرحيم بن الحسين العراقي؛ صنف سنة ٧٥١ كتابين في تخريج أحاديث الإحياء أحدهما كبير، توفي سنة ثمانمائة وست {cite:kashf-zunun-furqan p. 222-223}."
+  en: "The hafiz Zayn al-Din al-Iraqi, who in 751 compiled two siftings of the Ihya's hadiths; he died in 806 {cite:kashf-zunun-furqan p. 222-223}."
+roles: [scholar]
+wings: [people]
+periods: [period/mongol-post-mongol]
+regions: [levant-iraq, egypt-nile]
+died: { edtf: "1404~", hijri: "0806~", calendar: julian, precision: year, status: tradition, derived: true, note: "806هـ {cite:kashf-zunun-furqan p. 222}؛ في أموات سنة ست وثمانمائة عند ابن العماد {cite:shadharat-dhahab p. 63}", sources: [source/kashf-zunun-furqan, source/shadharat-dhahab] }
+relations:
+  - { type: authored, target: work/alfiyya-al-iraqi, sources: [source/kashf-zunun-furqan] }
+provenance:
+  layer: own-research
+  source: "كشف الظنون عن أسامي الكتب والفنون (ط. الفرقان 2004) ج1"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-kashf-zunun-batch-3
+sources: [source/kashf-zunun-furqan]
+status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 High)" }

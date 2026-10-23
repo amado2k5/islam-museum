@@ -1,0 +1,23 @@
+id: event/hatib-letter-to-quraysh
+class: event
+kind: other
+label: { ar: "كتاب حاطب بن أبي بلتعة إلى قريش", en: "Hatib ibn Abi Balta'a's letter to Quraysh" }
+summary:
+  ar: "قبل فتح مكة كتب حاطب بن أبي بلتعة إلى بعض المشركين بمكة يخبرهم ببعض أمر النبي، فأرسل النبي علياً والزبير والمقداد إلى روضة خاخ فأخذوا الكتاب من الظعينة، فلما سُئل حاطب اعتذر بأنه لم يكفر ولم يرتد، فصدّقه النبي وقال عمر: دعني أضرب عنقه، فمنعه النبي لشهوده بدراً."
+wings: [people, time]
+themes: [laws-of-war-and-peace]
+periods: [period/prophetic-era]
+regions: [arabia]
+date:
+  start: { edtf: "0630", hijri: "0008", calendar: julian, precision: year, status: tradition, derived: true, note: "الكتاب لا يذكر سنة الواقعة ولا شهرها؛ يذكرها في سياق الإعداد لفتح مكة (ص107-108) فيكون التاريخ مشتقاً وليس منصوصاً." }
+relations:
+  - { type: had_participant, target: person/hatib-ibn-abi-baltaa, role: "كتب الكتاب إلى المشركين", sources: [source/sallabi-ali-vol1] }
+  - { type: had_participant, target: person/ali-ibn-abi-talib, role: "أحد الثلاثة الذين أدركوا الظعينة وأخذوا الكتاب", sources: [source/sallabi-ali-vol1] }
+  - { type: had_participant, target: person/zubayr-ibn-al-awwam, role: "أحد الثلاثة الذين أدركوا الظعينة", sources: [source/sallabi-ali-vol1] }
+  - { type: had_participant, target: person/al-miqdad-ibn-amr, role: "أحد الثلاثة الذين أدركوا الظعينة", sources: [source/sallabi-ali-vol1] }
+  - { type: had_participant, target: person/muhammad, role: "أرسل من أدرك الظعينة وحكم في أمر حاطب", sources: [source/sallabi-ali-vol1] }
+  - { type: had_participant, target: person/umar-ibn-al-khattab, role: "طلب قتل حاطب فمنعه النبي", sources: [source/sallabi-ali-vol1] }
+  - { type: part_of, target: period/prophetic-era }
+sources: [source/sallabi-ali-vol1]
+status: { review: draft, completeness: 1, generated_by: "Claude Code (claude-haiku-5-5); mined from sallabi-ali-vol1 pp. 107-108" }
+provenance: { layer: own-research, source: "sallabi-ali-vol1 pp. 107-108", generated_by: "Claude Code", model: "claude-haiku-5-5", run: "sallabi-ali-vol1-deep-93-110" }

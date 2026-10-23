@@ -1,0 +1,35 @@
+---
+// My tour (docs/plan/04-experience.md §5): the visitor's own saved entries.
+// The list lives in localStorage — this page renders it client-side through the
+// static JSON API, exports it as a ?ids= URL, and prints it as a sheet.
+import BaseLayout from "../../../layouts/BaseLayout.astro";
+import { ui, LANGS, type Lang } from "../../../lib/i18n";
+
+export function getStaticPaths() { return LANGS.map((lang) => ({ params: { lang }, props: { lang } })); }
+const { lang } = Astro.props as { lang: Lang };
+const T = ui(lang);
+const M = T.mytour;
+const payload = { remove: M.remove, empty: M.empty, items: M.items, copied: M.copied };
+---
+<BaseLayout lang={lang} title={M.title} description={M.lede} path={`/${lang}/tour/`}>
+  <div class="wrap" style="padding-block:10px 20px">
+    <h1>{M.title}</h1>
+    <p style="font-size:1.15rem;max-width:var(--measure)">{M.lede}</p>
+    <section class="tour" data-tour data-lang={lang} style="max-width:var(--measure)">
+      <p class="ui muted" data-note>{M.empty}</p>
+      <ul class="grid-cards" data-list style="margin:0 0 1rem"></ul>
+      <div class="no-print" style="display:flex;flex-wrap:wrap;gap:10px">
+        <button type="button" class="chip" data-copy>{M.share}</button>
+        <button type="button" class="chip" data-print>{M.print}</button>
+        <button type="button" class="chip" data-clear>{M.clear}</button>
+        <button type="button" class="chip" data-addall hidden>{M.add_all}</button>
+      </div>
+      <script type="application/json" set:html={JSON.stringify(payload)} />
+    </section>
+    <script src="../../../scripts/mytour.ts"></script>
+  </div>
+  <style>
+    .tour ul li { display: flex; flex-direction: column; gap: 8px; }
+    .tour ul li .chip { align-self: flex-start; }
+  </style>
+</BaseLayout>

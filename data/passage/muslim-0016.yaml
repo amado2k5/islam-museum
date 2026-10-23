@@ -1,0 +1,17 @@
+id: passage/muslim-0016
+class: passage
+unit: hadith
+work: work/sahih-muslim
+ref: "16"
+label: { ar: "مسلم 16 — بني الإسلام على خمس", en: "Muslim 16 — Islam is built on five" }
+text: "قال رسول الله: «بني الإسلام على خمس: شهادة أن لا إله إلا الله وأن محمدا رسول الله، وإقام الصلاة، وإيتاء الزكاة، والحج، وصوم رمضان»"
+summary:
+  ar: "حديث ابن عمر المشهور في باب «بني الإسلام على خمس» من كتاب الإيمان؛ الوصية التأسيسية التي جعلت الشهادة والصلاة والزكاة والحج والصيام دعائم الدين الخمس. وفي رواية مسلم الأخرى تقديم «على أن يعبد الله ويكفر بما دونه»."
+relations:
+  - { type: mentions, target: person/abdullah-ibn-umar, sources: [source/sahih-muslim] }
+  - { type: mentions, target: person/muhammad, sources: [source/sahih-muslim] }
+  - { type: basis_for, target: concept/islam-din, sources: [source/sahih-muslim] }
+  - { type: mentions, target: concept/shahada, sources: [source/sahih-muslim] }
+provenance: { layer: own-research, source: "صحيح مسلم، كتاب الإيمان (طبعة دار التأصيل، الحديث 8 بثلاثة طرق؛ ترقيم عبد الباقي المعروف 16)، تصوير Apple Vision OCR", generated_by: "Devin (SWE-2 High) from Apple Vision OCR", run: "hadith-muslim-passages-1" }
+sources: [source/sahih-muslim]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High); matn excerpt at most 40 words checked against the scan" }

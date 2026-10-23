@@ -1,0 +1,23 @@
+id: event/battle-of-zahleh-1981
+class: event
+kind: battle
+label: { ar: "معركة زحلة", en: "Battle of Zahleh" }
+summary:
+  ar: "بطاقة أولية لمعركة زحلة في ١٩٨٠–١٩٨١م، حصار السوريين للمدينة في الحرب اللبنانية؛ لم تُراجع مصادره على الصفحة بعد."
+  en: "Draft card for the Battle of Zahleh in 1980–81, the Syrian siege of the town in the Lebanese war; its sources are not yet checked on the page."
+wings: [time]
+periods: [period/contemporary-era]
+regions: [levant-iraq]
+date:
+  start: { edtf: "1980-12-22", precision: year, status: tradition, derived: true }
+  end: { edtf: "1981-06-30", precision: year, status: tradition, derived: true }
+sources: [source/tarikh-islam-hasan-ibrahim]
+external_ids:
+  wikidata: Q4872802
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; battle attested in narrative histories — entry not yet checked on the page"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-wave2
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

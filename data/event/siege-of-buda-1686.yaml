@@ -1,0 +1,23 @@
+id: event/siege-of-buda-1686
+class: event
+kind: siege
+label: { ar: "حصار بودا (١٦٨٦)", en: "Siege of Buda" }
+summary:
+  ar: "بطاقة أولية لحصار بودا سنة ١٦٨٦م، استرداد العاصمة المجرية من العثمانيين بعد قرن ونصف في الحرب التركية الكبرى؛ لم تُراجع مصادره على الصفحة بعد."
+  en: "Draft card for the Siege of Buda in 1686, the recovery of the Hungarian capital from the Ottomans after a century and a half in the Great Turkish War; its sources are not yet checked on the page."
+wings: [time]
+periods: [period/gunpowder-empires]
+regions: [anatolia-balkans]
+date:
+  start: { edtf: "1686", precision: year, status: tradition, derived: true }
+  end: { edtf: "1686", precision: year, status: tradition, derived: true }
+sources: [source/dawlat-uthmaniyya-salabi]
+external_ids:
+  wikidata: Q697654
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; siege attested in Ottoman histories — entry not yet checked on the page"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-wave2
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

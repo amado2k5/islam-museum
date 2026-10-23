@@ -1,0 +1,20 @@
+id: event/al-fityun-killing
+class: event
+kind: death
+label: { ar: "قتل الفطيون اليهودي على يد مالك بن العجلان", en: "the killing of the Jewish tyrant al-Fiṭyūn by Mālik ibn al-ʿAjlān" }
+date:
+  start: { edtf: "0580~", calendar: julian, precision: century, status: tradition, derived: true, note: "جاهلي؛ التاريخ تقريبي عند أهل الأيام {cite:kamil-ibn-al-athir p. 490}." }
+summary:
+  ar: "كان الاستيلاء على المدينة لليهود لما نزلها الأوس والخزرج وكانوا أبناء قيلة بنت كاهل، وملك عليهم الفطيون اليهودي وهو رجل سوء فاجر كان يدينون له ويمدّ يده إلى أعراضهم — لا تتزوج امرأة منهم إلا أُدخلت عليه قبل زوجها — حتى كان من مالك بن العجلان الخزرجي ما كان فقتله، فزالت الغلبة عن اليهود وعادت للأوس والخزرج {cite:kamil-ibn-al-athir p. 490}."
+  en: "When the Aws and Khazraj settled Yathrib among the Jewish tribes — Qurayẓa, al-Naḍīr, Qaynuqāʿ and others who held the fortresses and the mastery — a Jewish tyrant named al-Fiṭyūn came to lord over them, a wicked profligate whose hand reached their honor: no woman among them was wed until she was brought to him first. Mālik ibn al-ʿAjlān of the Khazraj killed him, and mastery passed to the Aws and Khazraj, who stayed united until the war of Sāmir {cite:kamil-ibn-al-athir p. 490}."
+relations:
+  - { type: occurred_at, target: place/medina, sources: [source/kamil-ibn-al-athir] }
+  - { type: had_participant, target: person/malik-ibn-al-ajlan, role: "القاتل", sources: [source/kamil-ibn-al-athir] }
+  - { type: had_participant, target: person/al-fityun, role: "المقتول", sources: [source/kamil-ibn-al-athir] }
+provenance:
+  layer: own-research
+  source: "الكامل في التاريخ لابن الأثير (مكتبة التوفيقية، ج1)، قراءة آبل فيجن"
+  generated_by: "Devin (SWE-2 Medium) from Apple Vision OCR"
+  run: lib-kamil-v1-batch02
+sources: [source/kamil-ibn-al-athir]
+status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 Medium)" }

@@ -1,0 +1,23 @@
+id: event/battle-of-al-buhayra-1130
+class: event
+kind: battle
+label: { ar: "معركة البحيرة (١١٣٠)", en: "Battle of al-Buhayra" }
+summary:
+  ar: "بطاقة أولية لمعركة البحيرة سنة ١١٣٠م، فوز المرابطين على تميم بن الوليد قرب طنجة؛ لم تُراجع مصادره على الصفحة بعد."
+  en: "Draft card for the Battle of al-Buhayra in 1130, the Almoravids' victory over Tamim ibn al-Walid near Tangier; its sources are not yet checked on the page."
+wings: [time]
+periods: [period/crusades-ayyubid-mamluk]
+regions: [maghreb]
+date:
+  start: { edtf: "1130-04-14", precision: year, status: tradition, derived: true }
+  end: { edtf: "1130-05-13", precision: year, status: tradition, derived: true }
+sources: [source/tarikh-islam-hasan-ibrahim]
+external_ids:
+  wikidata: Q54874867
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; battle attested in narrative histories — entry not yet checked on the page"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-wave2
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

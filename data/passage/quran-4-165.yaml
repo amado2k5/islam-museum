@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 4:165 (سورة النساء، الآية 165)."
 text: "رُّسُلًا مُّبَشِّرِينَ وَمُنذِرِينَ لِئَلَّا يَكُونَ لِلنَّاسِ عَلَى ٱللَّهِ حُجَّةٌۢ بَعْدَ ٱلرُّسُلِ ۚ وَكَانَ ٱللَّهُ عَزِيزًا حَكِيمًا"
 text_search: "رسلا مبشرين ومنذرين لئلا يكون للناس على الله حجة بعد الرسل ۚ وكان الله عزيزا حكيما"
+translations:
+  en: { text: "Messengers of good cheer and of warning, in order that mankind might have no argument against Allah after the messengers. Allah was ever Mighty, Wise.", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "(سب) پیغمبروں کو (خدا نے) خوشخبری سنانے والے اور ڈرانے والے (بنا کر بھیجا تھا) تاکہ پیغمبروں کے آنے کے بعد لوگوں کو خدا پر الزام کا موقع نہ رہے اور خدا غالب حکمت والا ہے", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-4 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

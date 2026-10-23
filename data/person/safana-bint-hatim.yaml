@@ -1,0 +1,25 @@
+id: person/safana-bint-hatim
+class: person
+label: { ar: "ابنة حاتم الطائي (سفّانة)", en: "Hatim al-Ta'i's daughter (Saffana)" }
+names:
+  - { kind: full, lang: ar, value: "سفّانة بنت حاتم بن عبد الله الطائي" }
+  - { kind: alternate, lang: ar, value: "ابنة حاتم (كذا تُذكر في السيرة دون اسم)" }
+gender: female
+roles: []
+summary:
+  ar: "ابنة حاتم الطائي وأخت عدي؛ أصابتها خيل النبي في سبايا طيء بعد هرب عدي إلى الشام، فكلّمت النبي ثلاث مرات: هلك الوالد وغاب الوافد فامنن علي، فأطلقها وكساها وحملها وأعطاها نفقة؛ ولحقت بأخيها بالشام فلامته ثم أشارت عليه أن يلحق بالنبي سريعاً. لا تسمّيها السيرة، ويرجّح السهيلي، كما ينقل المحققون، أنها سفّانة إذ لا تُعرف لحاتم ابنة غيرها."
+  en: "Hatim al-Ta'i's daughter and Adi's sister; the Prophet's cavalry took her among the captives of Tayy after Adi fled to Syria, and three times she addressed the Prophet, the father is dead and the envoy absent, be gracious to me, until he released her, clothed her, mounted her and gave her provision. She joined her brother in Syria, rebuked him, then advised him to hasten to the Prophet. The sira leaves her unnamed; al-Suhayli, as the editors report, identifies her as Saffana, Hatim's only known daughter."
+wings: [people]
+themes: [women, converts-and-leavers, slavery-and-freedom]
+periods: [period/prophetic-era]
+regions: [arabia]
+story_roles:
+  - { role: interlocutor, toward: person/muhammad, start: { edtf: "0631~" }, status: tradition, note: "كلّمته ثلاث مرات في الحظيرة حتى أطلقها (ابن هشام ص225-226).", sources: [source/ibn-hisham-saqqa] }
+relations:
+  - { type: member_of, target: group/tayy, sources: [source/ibn-hisham-saqqa] }
+  - { type: sibling_of, target: person/adi-ibn-hatim, sources: [source/ibn-hisham-saqqa] }
+  - { type: participated_in, target: event/capture-and-release-of-hatims-daughter, role: "الأسيرة المُطلَقة", sources: [source/ibn-hisham-saqqa] }
+  - { type: participated_in, target: event/islam-of-adi-ibn-hatim, role: "أشارت على أخيها بالإسلام", sources: [source/ibn-hisham-saqqa] }
+provenance: { layer: own-research, source: "sira-ibn-hisham saqqa 1936, juz' 4 pp. 225-227 and n. 4 p. 225", generated_by: "Claude Code", model: "claude-fable-5-1", run: "ibn-hisham-batch-9a" }
+sources: [source/ibn-hisham-saqqa]
+status: { review: draft, completeness: 2, generated_by: "Claude Fable 5.1; mined from Ibn Hisham juz' 4 pp. 225-227" }

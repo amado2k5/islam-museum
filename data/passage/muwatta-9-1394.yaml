@@ -1,0 +1,18 @@
+id: passage/muwatta-9-1394
+class: passage
+unit: hadith
+chain: [person/malik-ibn-anas, person/rabiah-ibn-abi-abd-al-rahman, person/abu-said-al-khudri, person/muhammad]
+work: work/muwatta-malik
+ref: "1394"
+label: { ar: "الموطأ 1394 — ربيعة بن أبي عبد الرحمن عن أبي سعيد الخدري: قدم من سفر فقدم إليه أهله لحما، فقال أنهيتم عن لحوم الأضحى", en: "Muwatta 1394" }
+summary:
+  ar: "يروي مالك عن ربيعة بن أبي عبد الرحمن عن أبي سعيد الخدري أنه قدم من سفر، فقدم إليه أهله لحما، فقال انظروا أن يكون هذا من لحوم الأضحى، فقالوا هو منها، فقال أبو سعيد ألم يكن رسول الله نهى عنها؟ فقالوا إنه كان فيها من رسول الله بعدك أمر، فخرج أبو سعيد فسأل، فأخبر أن رسول الله قال نهيتكم عن لحوم الأضحى بعد ثلاث، فكلوا وتصدقوا وادخروا، ونهيتكم عن الانتباذ فانتبذوا، وكل مسكر حرام، ونهيتكم عن زيارة القبور فزوروها، ولا تقولوا هجرا. ويذكر المحقق أن ابن عبد البر قال إن ربيعة لم يسمع من أبي سعيد، وأن الشخص الذي سأله أبو سعيد هو قتادة بن النعمان أخوه لأمه. {cite:muwatta-maruf-1997 p.623}"
+relations:
+  - { type: part_of, target: passage/muwatta-kitab-09-dahaya }
+  - { type: mentions, target: person/rabia-ibn-abi-abd-al-rahman, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/abu-said-al-khudri, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/qatada-ibn-al-numan, sources: [source/muwatta-maruf-1997] }
+  - { type: basis_for, target: practice/dhabh, sources: [source/muwatta-maruf-1997] }
+provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 1, hadith 1394 at PDF p. 623; ادخار لحوم الأضاحي", generated_by: "Claude Code (claude-haiku-5-5) from Apple Vision OCR of the Noor-Book PDF, checked on the page image where doubtful", run: "muwatta-prose-k9-b23" }
+sources: [source/muwatta-maruf-1997]
+status: { review: draft, completeness: 2, generated_by: "Claude Code (claude-haiku-5-5); own-words account written from PDF p. 623; matn excerpt at most 40 words" }

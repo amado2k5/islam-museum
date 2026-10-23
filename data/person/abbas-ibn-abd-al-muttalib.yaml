@@ -8,7 +8,7 @@ gender: male
 born: { edtf: "0568~", calendar: julian, precision: year, status: tradition, note: "Approximate; sources differ on the year.", sources: [source/ibn-sad-tabaqat-bewley] }
 died: { edtf: "0653~", hijri: "0033~", calendar: julian, precision: year, status: tradition, note: "Died in Medina in 32 or 33 AH.", sources: [source/ibn-sad-tabaqat-bewley] }
 roles: [companion, merchant]
-traditions: [sunni, shia-twelver]
+traditions: [sunni]
 summary:
   en: "An uncle of the Prophet, captured with the Meccan side at Badr and later a Muslim, whose descendants founded the Abbasid caliphate."
   ar: "عمّ النبي، أُسر مع المكيين في بدر ثم أسلم لاحقًا، ومن نسله قامت الخلافة العباسية."
@@ -34,5 +34,7 @@ relations:
   - { type: participated_in, target: event/battle-of-badr, role: captured-on-the-meccan-side, sources: [source/ibn-ishaq-guillaume] }
   - { type: participated_in, target: event/conquest-of-mecca }
   - { type: participated_in, target: event/battle-of-hunayn, sources: [source/ibn-sad-tabaqat-bewley] }
-sources: [source/ibn-ishaq-guillaume, source/ibn-sad-tabaqat-bewley]
+external_ids:
+  wikidata: Q293599
+sources: [source/ibn-ishaq-guillaume, source/ibn-sad-tabaqat-bewley, source/mubarakpuri-raheeq, source/ibn-hisham-saqqa, source/sahih-al-bukhari, source/sallabi-ali-vol1]
 status: { review: draft, completeness: 2, generated_by: "Devin; 2026-10-11" }

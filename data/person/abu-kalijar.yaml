@@ -1,0 +1,22 @@
+id: person/abu-kalijar
+class: person
+label: { ar: "الملك أبو كاليجار بن سلطان الدولة", en: "al-Malik Abu Kalijar ibn Sultan al-Dawla" }
+summary:
+  ar: "الملك أبو كاليجار بن سلطان الدولة بن بهاء الدولة بن عضد الدولة، كان وليّ عهد أبيه؛ لما مات السلطان شرف الدولة سنة ست عشرة وأربعمائة عدل الجند إليه ونوّهوا باسمه فخُطب له ببغداد {cite:shadharat-dhahab p. 204}. وعند ابن الجوزي خُطب له ببغداد بعد موت مشرف الدولة سنة ٤١٦ ثم عادت الخطبة لجلال الدولة؛ وفي سنة ٤٢٣ دعاه غلمان بغداد بعد طردهم جلال الدولة فأجاب بكتاب حذر يشترط خمسمائة غلام مقدمة {cite:muntazam-ibn-al-jawzi j.8 p.363, 405-406}. وحلف مع جلال الدولة في رجب ٤٢٩ ألا يجري من أحدهما ما يؤذي الآخر، وقطع الغلمان خطبة جلال الدولة فخطبوا له ثم عادوا فخطبوا له {cite:muntazam-ibn-al-jawzi j.8 p.433,438}. دخل همذان سنة ٤٣٣ ودفع الغز عنها، ودخل بغداد سنة ٤٣٦ وأحدث ضرب الطبل في الصلوات الخمس ولم يكن يُضرب للملوك ببغداد إلا ثلاث نوب لعضد الدولة فجعلها خمسًا {cite:muntazam-ibn-al-jawzi j.8 p.450,461}. توفي في رمضان ٤٤٠ عن أربعين سنة وأشهر بعد فصد ثلاث مرات، فانتهب الغلمان خزائنه وأحرقت جواريه الخيام وهو فيها مسجّى، وولي بعده ابنه أبو نصر الملقب الملك الرحيم، وكان قد وُلد بالبصرة في شوال ٣٩٩ وولي العراق أربع سنين وشهرين {cite:muntazam-ibn-al-jawzi j.8 p.478-479,481}."
+  en: "Al-Malik Abu Kalijar b. Sultan al-Dawla — his father's designated heir; when Sultan Sharaf al-Dawla died in 416 the army went over to him and proclaimed his name, and he was given the khutba at Baghdad {cite:shadharat-dhahab p. 204}."
+gender: male
+born: { edtf: "1008~", hijri: "0399", calendar: julian, precision: year, status: tradition, derived: true, note: "ولادته بالبصرة سنة تسع وتسعين وثلاثمائة {cite:shadharat-dhahab p. 263}." }
+died: { edtf: "1048~", hijri: "0440", calendar: julian, precision: year, status: tradition, derived: true, note: "مات بطريق كرمان سنة أربعين وأربعمائة، وهجم عليه في يوم ثلاث مرات وكان معه نحو أربعة آلاف من الترك والديلم فنُهبت خزائنه وحريمه وجواريه، وطلبوا شيراز فسلطنوا ابنه الملك الرحيم؛ وكانت مدته أربع سنين {cite:shadharat-dhahab p. 263}." }
+roles: [ruler]
+wings: [people]
+periods: [period/abbasid-early]
+relations:
+  - { type: child_of, target: person/sultan-al-dawla, sources: [source/shadharat-dhahab] }
+  - { type: parent_of, target: person/al-malik-al-rahim, sources: [source/shadharat-dhahab] }
+provenance:
+  layer: own-research
+  source: "شذرات الذهب لابن العماد — الجزء الثالث، ممسوح مكتبة الحصاد (AAlexandrina-223861)، قراءة آبل فيجن"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-shadharat-batch-89
+sources: [source/shadharat-dhahab, source/muntazam-ibn-al-jawzi]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

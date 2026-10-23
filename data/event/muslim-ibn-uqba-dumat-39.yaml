@@ -1,0 +1,27 @@
+id: event/muslim-ibn-uqba-dumat-39
+class: event
+kind: campaign
+label: { ar: "أمر مسلم بن عقبة بدومة الجندل", en: "Muslim ibn ʿUqba at Dūmat al-Jandal — the town that would give bayʿa to neither (39 AH)" }
+date:
+  start: { edtf: "0659", hijri: "0039", calendar: julian, precision: year, status: tradition, derived: true, note: "سنة 39؛ التحويل مشتق {cite:kamil-ibn-al-athir p. 730}." }
+summary:
+  ar: "بعث معاوية مسلم بن عقبة المري إلى دومة الجندل وكان أهلها امتنعوا من بيعة علي ومعاوية جميعًا، فدعاهم إلى طاعة معاوية فامتنعوا، فسيّر عليّ مالك بن كعب الهمداني في جمع فوافاهم فاقتتلوا يومًا ثم انصرف مسلم منهزمًا، وأقام مالك أيامًا يدعوهم إلى البيعة لعلي فقالوا لا نبايع حتى يجتمع الناس على إمام فانصرف وتركهم {cite:kamil-ibn-al-athir p. 730}."
+  en: "Dūmat al-Jandal refused both bayʿas. Muʿāwiya sent Muslim ibn ʿUqba al-Murrī to call them to his side; they refused, and ʿAli sent Mālik ibn Kaʿb al-Hamdānī, who fought Muslim a day and drove him off — but when Mālik called the town to ʿAli's bayʿa they answered «we will not swear until the people unite upon one imam», and he left them as they were {cite:kamil-ibn-al-athir p. 730}."
+sides:
+- label: { ar: "أهل الشام", en: "Syrians" }
+  commanders: [person/muslim-ibn-uqba-al-murri]
+- label: { ar: "أصحاب علي", en: "ʿAli's men" }
+  commanders: [person/malik-ibn-kab]
+relations:
+  - { type: occurred_at, target: place/dumat-al-jandal, sources: [source/kamil-ibn-al-athir] }
+  - { type: had_participant, target: person/muslim-ibn-uqba-al-murri, sources: [source/kamil-ibn-al-athir] }
+  - { type: had_participant, target: person/malik-ibn-kab, sources: [source/kamil-ibn-al-athir] }
+  - { type: had_participant, target: person/ali-ibn-abi-talib, sources: [source/kamil-ibn-al-athir] }
+  - { type: had_participant, target: person/muawiya-ibn-abi-sufyan, sources: [source/kamil-ibn-al-athir] }
+provenance:
+  layer: own-research
+  source: "الكامل في التاريخ لابن الأثير (دار الكتاب العربي 2012، ج2)، قراءة آبل فيجن"
+  generated_by: "Devin (SWE-2 Medium) from Apple Vision OCR"
+  run: lib-kamil-v2-batch05
+sources: [source/kamil-ibn-al-athir]
+status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 Medium)" }

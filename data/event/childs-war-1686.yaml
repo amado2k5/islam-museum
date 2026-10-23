@@ -1,0 +1,23 @@
+id: event/childs-war-1686
+class: event
+kind: war
+label: { ar: "الحرب الإنجليزية المغولية", en: "Child's War" }
+summary:
+  ar: "بطاقة أولية للحرب الإنجليزية المغولية من ١٦٨٦ إلى ١٦٩٠م، أول صدام بين شركة الهند وسلطنة المغول؛ لم تُراجع مصادره على الصفحة بعد."
+  en: "Draft card for Child's War of 1686–1690, the first war between the East India Company and the Mughal empire; its sources are not yet checked on the page."
+wings: [time]
+periods: [period/gunpowder-empires]
+regions: [south-asia]
+date:
+  start: { edtf: "1686", precision: year, status: tradition, derived: true }
+  end: { edtf: "1690", precision: year, status: tradition, derived: true }
+sources: [source/tarikh-islam-hasan-ibrahim]
+external_ids:
+  wikidata: Q4122573
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; war attested in Mughal histories — entry not yet checked on the page"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-wave2
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

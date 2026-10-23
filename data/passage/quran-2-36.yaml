@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 2:36 (سورة البقرة، الآية 36)."
 text: "فَأَزَلَّهُمَا ٱلشَّيْطَـٰنُ عَنْهَا فَأَخْرَجَهُمَا مِمَّا كَانَا فِيهِ ۖ وَقُلْنَا ٱهْبِطُوا۟ بَعْضُكُمْ لِبَعْضٍ عَدُوٌّ ۖ وَلَكُمْ فِى ٱلْأَرْضِ مُسْتَقَرٌّ وَمَتَـٰعٌ إِلَىٰ حِينٍ"
 text_search: "فأزلهما الشيطان عنها فأخرجهما مما كانا فيه ۖ وقلنا اهبطوا بعضكم لبعض عدو ۖ ولكم في الأرض مستقر ومتاع إلى حين"
+translations:
+  en: { text: "But Satan caused them to deflect therefrom and expelled them from the (happy) state in which they were; and We said: Fall down, one of you a foe unto the other! There shall be for you on earth a habitation and provision for a time.", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "پھر شیطان نے دونوں کو وہاں سے پھسلا دیا اور جس (عیش ونشاط) میں تھے، اس سے ان کو نکلوا دیا۔ تب ہم نے حکم دیا کہ (بہشت بریں سے) چلے جاؤ۔ تم ایک دوسرے کے دشمن ہو، اور تمہارے لیے زمین میں ایک وقت تک ٹھکانا اور معاش (مقرر کر دیا گیا) ہے", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-2 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

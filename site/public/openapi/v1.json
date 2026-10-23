@@ -1,0 +1,106 @@
+{
+  "openapi": "3.1.0",
+  "info": {
+    "title": "islam.museum static JSON API",
+    "version": "v1",
+    "description": "Read-only JSON files generated from the museum's knowledge graph at build time. There is no runtime server: every response is a static file. Prose is CC BY-SA 4.0; structured data is CC0 1.0. See https://github.com/amado2k5/islam-museum/blob/main/docs/data/README.md.",
+    "license": {
+      "name": "CC0 1.0 (data); CC BY-SA 4.0 (prose)",
+      "url": "https://creativecommons.org/publicdomain/zero/1.0/"
+    }
+  },
+  "servers": [
+    { "url": "https://api.islam.museum/api/v1", "description": "Production (Cloudflare R2)" }
+  ],
+  "paths": {
+    "/meta/index.json": {
+      "get": {
+        "operationId": "getMetaIndex",
+        "summary": "API version, generation date, classes and licences",
+        "responses": { "200": { "description": "Index document", "content": { "application/json": {} } } }
+      }
+    },
+    "/meta/coverage.json": {
+      "get": {
+        "operationId": "getCoverage",
+        "summary": "Record counts by class, wing, period, region and review status",
+        "responses": { "200": { "description": "Coverage document", "content": { "application/json": {} } } }
+      }
+    },
+    "/themes/index.json": {
+      "get": {
+        "operationId": "getThemes",
+        "summary": "Controlled themes with the ids of their entries",
+        "responses": { "200": { "description": "Theme index", "content": { "application/json": {} } } }
+      }
+    },
+    "/{class}/index.json": {
+      "get": {
+        "operationId": "getClassIndex",
+        "summary": "Compact rows for every record of a class",
+        "parameters": [{ "$ref": "#/components/parameters/class" }],
+        "responses": { "200": { "description": "Compact rows", "content": { "application/json": {} } } }
+      }
+    },
+    "/{class}/{slug}.json": {
+      "get": {
+        "operationId": "getRecord",
+        "summary": "Full record with resolved labels, connections and related records",
+        "parameters": [
+          { "$ref": "#/components/parameters/class" },
+          { "$ref": "#/components/parameters/slug" }
+        ],
+        "responses": {
+          "200": { "description": "Full record", "content": { "application/json": {} } },
+          "404": { "description": "No record with this class and slug" }
+        }
+      }
+    },
+    "/graph/nodes.ndjson": {
+      "get": {
+        "operationId": "getGraphNodes",
+        "summary": "Every node, one compact JSON object per line",
+        "responses": { "200": { "description": "NDJSON stream of nodes", "content": { "application/x-ndjson": {} } } }
+      }
+    },
+    "/graph/edges.ndjson": {
+      "get": {
+        "operationId": "getGraphEdges",
+        "summary": "Every forward edge, one JSON object per line",
+        "responses": { "200": { "description": "NDJSON stream of edges", "content": { "application/x-ndjson": {} } } }
+      }
+    },
+    "/graph/{class}/{slug}.json": {
+      "get": {
+        "operationId": "getNeighbourhood",
+        "summary": "Two-hop neighbourhood of a record (at most 40 nodes)",
+        "parameters": [
+          { "$ref": "#/components/parameters/class" },
+          { "$ref": "#/components/parameters/slug" }
+        ],
+        "responses": { "200": { "description": "Centre, nodes and edges", "content": { "application/json": {} } } }
+      }
+    }
+  },
+  "components": {
+    "parameters": {
+      "class": {
+        "name": "class",
+        "in": "path",
+        "required": true,
+        "description": "One of the 21 record classes.",
+        "schema": {
+          "type": "string",
+          "enum": ["person", "group", "polity", "event", "period", "journey", "place", "building", "object", "media", "work", "passage", "concept", "language", "practice", "exhibit", "question", "source", "dataset", "listing", "screen"]
+        }
+      },
+      "slug": {
+        "name": "slug",
+        "in": "path",
+        "required": true,
+        "description": "ASCII slug of the record, without the class prefix.",
+        "schema": { "type": "string", "pattern": "^[a-z0-9-]+$" }
+      }
+    }
+  }
+}

@@ -3,15 +3,22 @@ class: event
 kind: other
 label: { en: "The meeting at Saqifa", ar: "اجتماع السقيفة" }
 summary:
-  en: "After the Prophet's death, leaders of the Ansar and Muhajirun met in the hall of the Banu Sa'ida and chose Abu Bakr as leader of the community."
-  ar: "بعد وفاة النبي اجتمع زعماء الأنصار والمهاجرين في سقيفة بني ساعدة واختاروا أبا بكر قائدًا للجماعة."
-wings: [time, people]
+  en: "After the Prophet's death, leaders of the Ansar and Muhajirun met in the hall of the Banu Sa'ida and chose Abu Bakr as leader of the community. ونص الاجتماع كاملاً عند البخاري من رواية عمر: اجتماع الأنصار في السقيفة، ومشي أبي بكر وعمر وأبي عبيدة إليهم، والخطابان، ويدا عمر وبشير بن سعد، فالبيعة {cite:sahih-al-bukhari 2462}."
+  ar: "بعد وفاة النبي اجتمع زعماء الأنصار والمهاجرين في سقيفة بني ساعدة واختاروا أبا بكر قائدًا للجماعة. وعند المسعودي خرج علي بعد التجديد يوم الثلاثاء فقال لأبي بكر أفسدت علينا أمورنا ولم تستشر ولم ترع لنا حقاً فقال بلى ولكنني خشيت الفتنة، وخرج سعد بن عبادة فلم يبايع فصار إلى الشام فقتل هناك سنة خمس عشرة، ولم يبايعه أحد من بني هاشم حتى ماتت فاطمة {cite:muruj-al-dhahab p. 598}"
+wings: [time]
 themes: [factions-splits-schisms, sects-and-schools]
 periods: [period/prophetic-era]
 regions: [arabia]
 date:
-  start: { edtf: "0632-06", hijri: "0011-03", calendar: julian, precision: month, status: tradition }
+  start: { edtf: "0632-06-08", hijri: "0011-03-12", calendar: julian, precision: day, status: tradition, derived: true, note: "اجتمع الأنصار في السقيفة في يوم الوفاة نفسه: عند ابن هشام «ولما قُبض رسول الله انحاز هذا الحي من الأنصار إلى سعد بن عبادة في سقيفة بني ساعدة» ورسول الله «في بيته لم يُفرغ من أمره» (ابن هشام، تحقيق السقا 4/306–307)، وبيعة العامة في المسجد كانت «الغد» (4/311)؛ وفي الرحيق المختوم: «مضى في ذلك بقية يوم الإثنين حتى دخل الليل» (ص 471). يوم الوفاة هو الاثنين 12 ربيع الأول 11 هـ (ابن هشام 4/303؛ الرحيق ص 469)، فيُسجَّل الاجتماع بهذا اليوم. التاريخ اليولياني مشتق من يوم الوفاة الاثنين 8 يونيو 632 (التحويل الجدولي يعطي 7 يونيو).", sources: [source/ibn-hisham-saqqa, source/mubarakpuri-raheeq] }
 relations:
+  - { type: had_participant, target: person/man-ibn-adi, role: "من أهل الحدث في رواية ابن إسحاق", sources: [source/ibn-hisham-saqqa] }
+  - { type: had_participant, target: person/uwaym-ibn-saida, role: "من أهل الحدث في رواية ابن إسحاق", sources: [source/ibn-hisham-saqqa] }
+  - { type: had_participant, target: person/umar-ibn-al-khattab, role: "من أهل الحدث في رواية ابن إسحاق", sources: [source/ibn-hisham-saqqa] }
+  - { type: had_participant, target: person/abu-ubayda-ibn-al-jarrah, role: "من أهل الحدث في رواية ابن إسحاق", sources: [source/ibn-hisham-saqqa] }
+  - { type: had_participant, target: person/usayd-ibn-hudayr, role: "من أهل الحدث في رواية ابن إسحاق", sources: [source/ibn-hisham-saqqa] }
+  - { type: had_participant, target: person/sad-ibn-ubada, role: "من أهل الحدث في رواية ابن إسحاق", sources: [source/ibn-hisham-saqqa] }
+  - { type: had_participant, target: person/abd-al-rahman-ibn-awf, role: "من أهل الحدث في رواية ابن إسحاق", sources: [source/ibn-hisham-saqqa] }
   - { type: occurred_at, target: place/medina }
   - { type: had_participant, target: person/abu-bakr }
   - { type: had_participant, target: person/ali-ibn-abi-talib }
@@ -21,13 +28,26 @@ issue: { ar: "كيف تُوصف بيعة أبي بكر في السقيفة: اخ
 perspectives:
   - tradition: sunni
     id: sunni
-    summary: { en: "Sunni tradition regards the choice of Abu Bakr at Saqifa as a legitimate selection by the community's leaders." }
+    stance: { ar: "اختيار مشروع من قادة الجماعة" }
+    summary:
+      en: "Sunni tradition regards the choice of Abu Bakr at Saqifa as a legitimate selection by the community's leaders."
+      ar: "يرى أهل السنة أن مبايعة أبي بكر في السقيفة كانت اختياراً مشروعاً من قادة الجماعة، تلته بيعة عامة في اليوم التالي، كما تروي خطبة عمر عند ابن إسحاق."
+    evidence:
+      - { ref: source/ibn-hisham-saqqa, note: { ar: "ص 306-311" } }
+    sources: [source/ibn-hisham-saqqa]
   - tradition: academic
     id: academic
-    summary: { en: "Historians treat it as a political process shaped by tribal alliances in Medina, relying on later and partisan reports." }
+    stance: { ar: "عملية سياسية تأثرت بالتحالفات القبلية" }
+    summary:
+      en: "Historians treat it as a political process shaped by tribal alliances in Medina, relying on later and partisan reports."
+      ar: "يقرؤها المؤرخون المحدثون عملية سياسية تأثرت بالتحالفات القبلية في المدينة، مع التنبيه إلى أن أكثر الأخبار متأخر أو منحاز."
     sources: [source/watt-1956-medina]
   - tradition: shia-twelver
     id: shia-twelver
-    summary: { en: "Twelver Shia tradition holds that Ali had been designated and regards the meeting as having set that designation aside." }
-sources: [source/ibn-ishaq-guillaume, source/watt-1956-medina, source/mubarakpuri-raheeq]
-status: { review: draft, completeness: 1, generated_by: "Claude Sonnet 5.5; dates follow the cited tradition and are approximate where marked" }
+    stance: { ar: "إزاحة لتعيين سابق لعلي" }
+    summary:
+      en: "Twelver Shia tradition holds that Ali had been designated and regards the meeting as having set that designation aside."
+      ar: "يرى الشيعة الإمامية الاثنا عشرية أن علياً كان قد عُيّن للإمامة، وأن اجتماع السقيفة أزاح ذلك التعيين."
+    sources: [source/mubarakpuri-raheeq]
+sources: [source/ibn-ishaq-guillaume, source/watt-1956-medina, source/mubarakpuri-raheeq, source/ibn-hisham-saqqa, source/muruj-al-dhahab, source/sahih-al-bukhari]
+status: { review: draft, completeness: 2, generated_by: "Claude Sonnet 5.5; dates follow the cited tradition and are approximate where marked" }

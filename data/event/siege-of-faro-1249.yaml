@@ -1,0 +1,23 @@
+id: event/siege-of-faro-1249
+class: event
+kind: siege
+label: { ar: "حصار فارو (١٢٤٩)", en: "Siege of Faro" }
+summary:
+  ar: "بطاقة أولية لحصار فارو سنة ١٢٤٩م، أخذ ألفونسو الثالث آخر معاقل الغرب من المسلمين؛ لم تُراجع مصادره على الصفحة بعد."
+  en: "Draft card for the Siege of Faro in 1249, Afonso III's capture of the last Muslim stronghold of the Gharb; its sources are not yet checked on the page."
+wings: [time]
+periods: [period/crusades-ayyubid-mamluk]
+regions: [andalus-europe]
+date:
+  start: { edtf: "1249-03-27", precision: year, status: tradition, derived: true }
+  end: { edtf: "1249-03-27", precision: year, status: tradition, derived: true }
+sources: [source/tarikh-islam-hasan-ibrahim]
+external_ids:
+  wikidata: Q25446956
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; battle attested in narrative histories — entry not yet checked on the page"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-wave2
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

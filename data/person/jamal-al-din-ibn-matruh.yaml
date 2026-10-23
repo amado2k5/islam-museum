@@ -1,0 +1,29 @@
+id: person/jamal-al-din-ibn-matruh
+class: person
+label: { ar: "جمال الدين ابن مطروح", en: "Jamal al-Din Ibn Matruh" }
+names:
+  - { value: "الأمير الصاحب جمال الدين أبو الحسين يحيى بن عيسى بن إبراهيم بن مطروح المصري", kind: full }
+born: { edtf: "1196-06~", hijri: "0592-07-08~", calendar: julian, precision: day, status: tradition, derived: true, note: "ولد بأسيوط يوم الاثنين ثامن رجب سنة اثنتين وتسعين وخمسمائة {cite:shadharat-dhahab p. 255}." }
+died: { edtf: "1251-10~", hijri: "0649-08", calendar: julian, precision: month, status: tradition, derived: true, note: "توفي ليلة الأربعاء مستهل شعبان سنة تسع وأربعين وستمائة ودفن بسفح المقطم {cite:shadharat-dhahab p. 257}." }
+summary:
+  ar: "الكاتب الشاعر؛ ولد بأسيوط سنة اثنتين وتسعين وخمسمائة واتصل بخدمة الملك الكامل ثم ولده الصالح فرتبه ناظراً في الخزانة وكان بصورة وزير لدمشق سنة ثلاث وأربعين، ثم تغير عليه الصالح فأقام بداره إلى أن مات؛ قال ابن خلكان كان بيني وبينه مكاتبات ومودة أكيدة وله ديوان شعر، وكان بينه وبين البهاء زهير محبة قديمة من زمن الصبا حتى كانا كالأخوين؛ وأوصى أن يكتب عند رأسه بيتاه: «أصبحت بقعر حفرتي مرتهناً لا أملك من دنياي إلا كفناً» {cite:shadharat-dhahab p. 255-257}."
+  en: "The secretary-poet (b. Asyut 592, d. early Sha'ban 649, Muqattam) — al-Kamil's then al-Salih's man, treasurer and quasi-vizier of Damascus, boyhood friend of Baha' al-Din Zuhayr; by his will the grave-verses were carved at his head: 'in my pit I lie pawned — of this world only a shroud is mine' {cite:shadharat-dhahab p. 255-257}."
+gender: male
+roles: [vizier, poet, writer]
+wings: [people]
+periods: [period/crusades-ayyubid-mamluk]
+regions: [egypt-nile, levant-iraq]
+faith:
+  - value: sunni
+    basis: tradition
+relations:
+  - { type: born_in, target: place/asyut, sources: [source/shadharat-dhahab] }
+  - { type: died_in, target: place/cairo, sources: [source/shadharat-dhahab] }
+  - { type: buried_in, target: place/cairo, sources: [source/shadharat-dhahab] }
+sources: [source/shadharat-dhahab]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }
+provenance:
+  layer: own-research
+  source: "شذرات الذهب — ابن العماد (ج5، سنة 649)، قراءة آبل فيجن"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-shadharat-batch-128

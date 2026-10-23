@@ -1,0 +1,23 @@
+id: event/harith-ibn-murra-sind-raid
+class: event
+kind: raid
+label: { ar: "غزوة الحارث بن مرة العبدي بلاد السند", en: "al-Ḥārith ibn Murra's volunteer raid into Sind (40 AH; killed at al-Qīqān 42)" }
+date:
+  start: { edtf: "0660", hijri: "0040", calendar: julian, precision: year, status: tradition, derived: true, note: "سنة 40؛ التحويل مشتق {cite:kamil-ibn-al-athir p. 730}." }
+summary:
+  ar: "توجّه الحارث بن مرة العبدي إلى بلاد السند غازيًا متطوعًا بأمر علي، فغنم وأصاب غنائم وسبيًا كثيرًا وقسم في يوم واحد ألف رأس، وبقي غازيًا إلى أن قتل بأرض القيقان هو ومن معه إلا قليلًا سنة اثنتين وأربعين أيام معاوية {cite:kamil-ibn-al-athir p. 730}."
+  en: "al-Ḥārith ibn Murra al-ʿAbdī raided Sind as a volunteer under ʿAli's command, taking such spoil and captives that a thousand heads were divided in a single day; he campaigned on until he and nearly all his men were killed in the land of al-Qīqān in 42 {cite:kamil-ibn-al-athir p. 730}."
+sides:
+- label: { ar: "أصحاب علي", en: "ʿAli's volunteers" }
+  commanders: [person/al-harith-ibn-murra]
+- label: { ar: "أهل القيقان", en: "people of al-Qīqān" }
+relations:
+  - { type: had_participant, target: person/al-harith-ibn-murra, role: "قُتل 42 بالقيقان", sources: [source/kamil-ibn-al-athir] }
+  - { type: had_participant, target: person/ali-ibn-abi-talib, sources: [source/kamil-ibn-al-athir] }
+provenance:
+  layer: own-research
+  source: "الكامل في التاريخ لابن الأثير (دار الكتاب العربي 2012، ج2)، قراءة آبل فيجن"
+  generated_by: "Devin (SWE-2 Medium) from Apple Vision OCR"
+  run: lib-kamil-v2-batch05
+sources: [source/kamil-ibn-al-athir]
+status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 Medium)" }

@@ -1,0 +1,15 @@
+id: passage/muslim-1821
+class: passage
+unit: hadith
+work: work/sahih-muslim
+ref: "1821"
+label: { ar: "مسلم 1821 — لا يزال الدين قائماً حتى يكون عليكم اثنا عشر خليفة", en: "Muslim 1821 — The religion stands until twelve caliphs" }
+text: "قال جابر بن سمرة: سمعت رسول الله يقول: لا يزال الدين قائماً حتى تقوم الساعة، أو يكون عليكم اثنا عشر خليفة كلهم من قريش"
+summary:
+  ar: "رواية جابر بن سمرة في باب الخلفاء من قريش من كتاب الإمارة في صحيح مسلم؛ وفي لفظ آخر «لا يزال هذا الأمر عزيزاً إلى اثني عشر خليفة»."
+relations:
+  - { type: mentions, target: person/muhammad, sources: [source/sahih-muslim] }
+  - { type: mentions, target: person/jabir-ibn-samura, sources: [source/sahih-muslim] }
+provenance: { layer: own-research, source: "صحيح مسلم، كتاب الإمارة، باب الخلفاء من قريش (طبعة دار التأصيل، الحديث 1869؛ ترقيم عبد الباقي المعروف 1821)، تصوير Apple Vision OCR", generated_by: "Devin (SWE-2 High) from Apple Vision OCR", run: "hadith-muslim-passages-4" }
+sources: [source/sahih-muslim]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High); matn excerpt at most 40 words checked against the scan" }

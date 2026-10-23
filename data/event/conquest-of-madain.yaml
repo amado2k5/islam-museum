@@ -1,0 +1,21 @@
+id: event/conquest-of-madain
+class: event
+kind: battle
+label: { ar: "فتح المدائن — بهرسير", en: "Conquest of al-Mada'in: Bahurasir (15 AH)" }
+date:
+  start: { edtf: "0636", hijri: "0015", calendar: julian, precision: year, status: tradition, derived: true, note: "نزلوا عليها في ذي الحجة سنة 15؛ التحويل مشتق {cite:kamil-ibn-al-athir p. 336}." }
+summary:
+  ar: "بهرسير، المدينة العتيقة وهي المدائن الدنيا من الغرب: قدّم سعد بن أبي وقاص زُهرة إليها فتلقّاه شيرازاد دهقان ساباط بالصلح فصالحه على تأدية الجزية، ولقي زهرة كتيبة بنت كسرى التي تدعى بوران وكانوا يحلفون كل يوم أن لا يزول ملك فارس ما عشنا فهزمهم وقتل هاشم بن عتبة ابن أخي سعد المقرَّط — أسدًا كان لكسرى قد ألِفَه. وقبّل سعد رأس هاشم وقبّل هاشم قدم سعد، وأرسله في المقدمة فنزل على المظلم ثم على بهرسير، ووصلها سعد والمسلمون فرأوا الإيوان فقال ضرار بن الخطاب: الله أكبر! أبيض كسرى! هذا ما وعد الله ورسوله، وكبّر وكبّر الناس معه فكانوا كلما وصلت طائفة كبّروا، وكان نزولهم على المدينة في ذي الحجة {cite:kamil-ibn-al-athir p. 335-336}."
+  en: "Bahurasir, the lower city of al-Mada'in: Sa'd sent Zuhra ahead — Shirazad, the dihqan of Sabat, came to terms on the jizya, while Hashim ibn 'Utba, Sa'd's nephew, shattered Kisra's own 'Buran' cohort who swore daily Persia's rule would never pass while they lived, and killed the Muqarrat — a lion Kisra had tamed. Sa'd kissed Hashim's head, Hashim kissed Sa'd's foot, and was sent on in the van. When the Muslims reached the city and saw the iwan, Dirar ibn al-Khattab cried: 'Allahu akbar — Kisra's white palace! This is what God and His messenger promised,' and the army kept takbiring as each company arrived; they came down on the city in Dhu'l-Hijja {cite:kamil-ibn-al-athir p. 335-336}."
+relations:
+  - { type: occurred_at, target: place/al-madain, sources: [source/kamil-ibn-al-athir] }
+  - { type: had_participant, target: person/sad-ibn-abi-waqqas, role: "قائد الجيش", sources: [source/kamil-ibn-al-athir] }
+  - { type: had_participant, target: person/zuhra-ibn-hawiyya, sources: [source/kamil-ibn-al-athir] }
+  - { type: had_participant, target: person/hashim-ibn-utba, sources: [source/kamil-ibn-al-athir] }
+provenance:
+  layer: own-research
+  source: "الكامل في التاريخ لابن الأثير (دار الكتاب العربي 2012، ج2)، قراءة آبل فيجن"
+  generated_by: "Devin (SWE-2 Medium) from Apple Vision OCR"
+  run: lib-kamil-v2-batch02
+sources: [source/kamil-ibn-al-athir]
+status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 Medium)" }

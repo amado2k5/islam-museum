@@ -1,0 +1,23 @@
+id: event/battle-of-molodi-1572
+class: event
+kind: battle
+label: { ar: "معركة مولودي", en: "Battle of Molodi" }
+summary:
+  ar: "بطاقة أولية لمعركة مولودي سنة ١٥٧٢م، دحر الروس لجيش خان القرم دولت كريا أمام موسكو؛ لم تُراجع مصادره على الصفحة بعد."
+  en: "Draft card for the Battle of Molodi in 1572, the Russian repulse of Crimean khan Devlet Giray's army before Moscow; its sources are not yet checked on the page."
+wings: [time]
+periods: [period/gunpowder-empires]
+regions: [persia-central-asia]
+date:
+  start: { edtf: "1572", precision: year, status: tradition, derived: true }
+  end: { edtf: "1572", precision: year, status: tradition, derived: true }
+sources: [source/dawlat-uthmaniyya-salabi]
+external_ids:
+  wikidata: Q1760784
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; battle attested in Russian-Tatar histories — entry not yet checked on the page"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-wave2
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

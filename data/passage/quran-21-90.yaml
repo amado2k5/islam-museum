@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 21:90 (سورة الأنبياء، الآية 90)."
 text: "فَٱسْتَجَبْنَا لَهُۥ وَوَهَبْنَا لَهُۥ يَحْيَىٰ وَأَصْلَحْنَا لَهُۥ زَوْجَهُۥٓ ۚ إِنَّهُمْ كَانُوا۟ يُسَـٰرِعُونَ فِى ٱلْخَيْرَٰتِ وَيَدْعُونَنَا رَغَبًا وَرَهَبًا ۖ وَكَانُوا۟ لَنَا خَـٰشِعِينَ"
 text_search: "فاستجبنا له ووهبنا له يحيى وأصلحنا له زوجه ۚ إنهم كانوا يسارعون في الخيرات ويدعوننا رغبا ورهبا ۖ وكانوا لنا خاشعين"
+translations:
+  en: { text: "Then We heard his prayer, and bestowed upon him John, and adjusted his wife (to bear a child) for him. Lo! they used to vie one with the other in good deeds, and they cried unto Us in longing and in fear, and were submissive unto Us.", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "تو ہم نے ان کی پکار سن لی۔ اور ان کو یحییٰ بخشے اور ان کی بیوی کو اُن کے (حسن معاشرت کے) قابل بنادیا۔ یہ لوگ لپک لپک کر نیکیاں کرتے اور ہمیں امید سے پکارتے اور ہمارے آگے عاجزی کیا کرتے تھے", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-21 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

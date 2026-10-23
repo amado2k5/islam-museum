@@ -1,0 +1,31 @@
+id: building/jame-masjid-isfahan
+class: building
+kind: mosque
+label:
+  ar: "جامع أصفهان"
+  en: "Jameh Mosque of Isfahan"
+summary:
+  ar: "بطاقة أولية لجامع أصفهان، الجامع الكبير الذي نما على القرون من العصر البويهي إلى الصفوي، ورد في وصف مرجعي مفتوح (ويكي البيانات). لم يُراجع نص معجم البلدان في أصفهان على الصفحة بعد."
+  en: "Draft card for the Jameh Mosque of Isfahan, the great congregational mosque that grew across centuries from the Buyid to the Safavid eras, named from an open reference description (Wikidata); its Mujam al-Buldan coverage is not yet read on the page."
+wings: [objects]
+regions: [persia-central-asia]
+periods: [period/buyid-seljuk-fatimid-era]
+coordinates:
+  - 32.6697
+  - 51.6853
+relations:
+  - type: located_in
+    target: place/isfahan
+    sources: [source/wikidata]
+sources: [source/mujam-al-buldan, source/wikidata]
+external_ids:
+  wikidata: Q1256501
+provenance:
+  layer: own-research
+  source: "Wikidata Q1256501 (religion claim Islam; coordinates from P625); book source: Yaqut, Mujam al-Buldan — entry not yet read on the page"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-0004
+status:
+  review: draft
+  completeness: 1

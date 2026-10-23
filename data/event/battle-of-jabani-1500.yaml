@@ -1,0 +1,23 @@
+id: event/battle-of-jabani-1500
+class: event
+kind: battle
+label: { ar: "معركة جاباني (١٥٠٠)", en: "Battle of Jabani (1500)" }
+summary:
+  ar: "بطاقة أولية لمعركة جاباني سنة ١٥٠٠م، من مصادمات العثمانيين والجورجيين في جاواخيتي؛ لم تُراجع مصادره على الصفحة بعد."
+  en: "Draft card for the Battle of Jabani in 1500, an Ottoman–Georgian clash in Javakheti; its sources are not yet checked on the page."
+wings: [time]
+periods: [period/crusades-ayyubid-mamluk]
+regions: [anatolia-balkans]
+date:
+  start: { edtf: "1500-12", precision: year, status: tradition, derived: true }
+  end: { edtf: "1500-12", precision: year, status: tradition, derived: true }
+sources: [source/dawlat-uthmaniyya-salabi]
+external_ids:
+  wikidata: Q131148319
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; battle attested in narrative histories — entry not yet checked on the page"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-wave2
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 19:45 (سورة مريم، الآية 45)."
 text: "يَـٰٓأَبَتِ إِنِّىٓ أَخَافُ أَن يَمَسَّكَ عَذَابٌ مِّنَ ٱلرَّحْمَـٰنِ فَتَكُونَ لِلشَّيْطَـٰنِ وَلِيًّا"
 text_search: "يا أبت إني أخاف أن يمسك عذاب من الرحمن فتكون للشيطان وليا"
+translations:
+  en: { text: "O my father! Lo! I fear lest a punishment from the Beneficent overtake thee so that thou become a comrade of the devil.", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "ابّا مجھے ڈر لگتا ہے کہ آپ کو خدا کا عذاب آپکڑے تو آپ شیطان کے ساتھی ہوجائیں", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-19 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

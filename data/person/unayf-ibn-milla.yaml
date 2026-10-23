@@ -1,0 +1,19 @@
+id: person/unayf-ibn-milla
+class: person
+label: { ar: "أنيف بن ملة الضبيبي", en: "Unayf ibn Milla al-Dubaybi" }
+names:
+  - { kind: full, lang: ar, value: "أنيف بن ملة الضبيبي" }
+gender: male
+roles: [companion]
+summary:
+  ar: "من الضبيب من جذام، أخو حسان بن ملة؛ ركب معه وأبي زيد بن عمرو إلى جيش زيد بن حارثة على فرس ملة رغال، وخشوا لسانه فتواصوا ألا يتكلم إلا حسان، فلما ساقهم فارس من الجيش قال كلمة الجاهلية للضرب فكفّه حسان؛ وركب في الليلة نفسها إلى رفاعة بن زيد."
+  en: "Of the Dubayb of Judham, brother of Hassan ibn Milla; he rode with him and Abu Zayd ibn Amr to Zayd ibn Haritha's army on Milla's horse Righal, and because they feared his tongue they agreed that only Hassan should speak; when a horseman drove them he uttered the old signal to strike and Hassan restrained him; he rode the same night to Rifa'a ibn Zayd."
+wings: [people]
+periods: [period/prophetic-era]
+regions: [arabia]
+relations:
+  - { type: member_of, target: group/banu-dubayb, sources: [source/ibn-hisham-saqqa] }
+  - { type: participated_in, target: event/raid-of-zayd-on-judham, role: "من ركب الضبيب", sources: [source/ibn-hisham-saqqa] }
+provenance: { layer: own-research, source: "sira-ibn-hisham saqqa 1936, juz' 4 pp. 261-263", generated_by: "Claude Code", model: "claude-fable-5-1", run: "ibn-hisham-batch-13" }
+sources: [source/ibn-hisham-saqqa]
+status: { review: draft, completeness: 1, generated_by: "Claude Fable 5.1; mined from Ibn Hisham juz' 4 pp. 261-263" }

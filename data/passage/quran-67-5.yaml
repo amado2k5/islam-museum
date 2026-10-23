@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 67:5 (سورة الملك، الآية 5)."
 text: "وَلَقَدْ زَيَّنَّا ٱلسَّمَآءَ ٱلدُّنْيَا بِمَصَـٰبِيحَ وَجَعَلْنَـٰهَا رُجُومًا لِّلشَّيَـٰطِينِ ۖ وَأَعْتَدْنَا لَهُمْ عَذَابَ ٱلسَّعِيرِ"
 text_search: "ولقد زينا السماء الدنيا بمصابيح وجعلناها رجوما للشياطين ۖ وأعتدنا لهم عذاب السعير"
+translations:
+  en: { text: "And verily We have beautified the world's heaven with lamps, and We have made them missiles for the devils, and for them We have prepared the doom of flame.", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "اور ہم نے قریب کے آسمان کو (تاروں کے) چراغوں سے زینت دی۔ اور ان کو شیطان کے مارنے کا آلہ بنایا اور ان کے لئے دہکتی آگ کا عذاب تیار کر رکھا ہے", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-67 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

@@ -1,0 +1,23 @@
+id: event/battle-of-al-baida-874
+class: event
+kind: battle
+label: { ar: "وقعة البيضاء (٨٧٤–٨٧٥)", en: "Battle of al-Baida (874–75)" }
+summary:
+  ar: "بطاقة أولية لوقعة البيضاء من ٨٧٤ إلى ٨٧٥م، نصر يعقوب الصفار على الطاهريين بفارس؛ لم تُراجع مصادره على الصفحة بعد."
+  en: "Draft card for the Battle of al-Baida in 874–75, Ya'qub al-Saffar's victory over the Tahirids in Fars; its sources are not yet checked on the page."
+wings: [time]
+periods: [period/abbasid-early]
+regions: [persia-central-asia]
+date:
+  start: { edtf: "0874", precision: year, status: tradition, derived: true }
+  end: { edtf: "0875", precision: year, status: tradition, derived: true }
+sources: [source/tarikh-islam-hasan-ibrahim]
+external_ids:
+  wikidata: Q108485426
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; battle attested in narrative histories — entry not yet checked on the page"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-wave2
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

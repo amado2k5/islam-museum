@@ -1,0 +1,38 @@
+id: concept/quranism
+class: concept
+kind: doctrine
+label:
+  ar: القرآنية
+  en: Quranism
+  ur: قرآنیت
+summary:
+  ar: "القرآنية اتجاه حديث يقصر الاستدلال على القرآن وحده ويشكك في حجية الحديث؛ ترصد الدراسات الأكاديمية الجدل حول سلطة الحديث منذ القرن التاسع عشر {cite:musa-hadith-scripture-2008}."
+  en: "Quranism is a modern current that restricts religious authority to the Qur'an alone and questions the authority of hadith; academic study traces the debate over hadith authority since the nineteenth century {cite:musa-hadith-scripture-2008}."
+wings: [ideas]
+themes: [creed, scripture-and-its-sciences]
+external_ids: { wikidata: "Q1021580" }
+sources: [source/musa-hadith-scripture-2008, source/risala-shafii]
+perspectives:
+- tradition: sunni
+  id: sunni-sunna-authority
+  stance:
+    ar: السنة مصدر حاكم ثانٍ بعد القرآن لا ينفصل عنه
+    en: The Sunna is an authoritative second source, inseparable from the Qur'an
+  summary:
+    ar: "يقرر الشافعي في رسالته أن بيان السنة من الله يوضح مراد كتابه، فلا تقوم الشريعة على القرآن منقطعا عن بيان رسوله {cite:risala-shafii}؛ وعليه بنى أهل السنة ردّ إنكار حجية الحديث."
+    en: "Al-Shafi'i's Risala argues the Sunna is God's clarification of His Book's intent, so the sharia cannot stand on the Qur'an severed from His messenger's exposition {cite:risala-shafii}; on this Sunni scholarship grounds its rejection of hadith denial."
+  sources: [source/risala-shafii]
+- tradition: academic
+  id: academic-modernity
+  stance:
+    en: A distinctively modern position emerging from nineteenth- and twentieth-century authority debates
+  summary:
+    en: "Scholarship dates the Quranist current to the modern debate over prophetic authority — from nineteenth-century South Asia onward — rather than to a classical school {cite:musa-hadith-scripture-2008}."
+  sources: [source/musa-hadith-scripture-2008]
+sensitivity: contested
+provenance:
+  layer: own-research
+  source: "wikidata-import deferred Q1021580; contested: Risala verified on SD + academic (Musa) fallback"
+  generated_by: "Devin (SWE-2 Medium)"
+  run: wd-deferred-10
+status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 Medium)" }

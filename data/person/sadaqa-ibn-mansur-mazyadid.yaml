@@ -1,0 +1,40 @@
+id: person/sadaqa-ibn-mansur-mazyadid
+class: person
+label:
+  ar: صدقة بن منصور المزيدي ملك العرب
+  en: Sadaqa ibn Mansur al-Mazyadidi, King of the Arabs
+summary:
+  ar: "صدقة بن منصور بن دبيس بن علي بن مزيد الأسدي، أمير بني مزيد وباني الحلة بالعراق؛ كان من أعظم أنصار السلطان محمد بن ملك شاه على أخيه بركيارق فأقطعه واسطاً وأذن له في ملك البصرة، ثم أجرى سرخاب بن كيخسرو فنازعه السلطان في الملك، فلما لقيه آخر رجب سنة 501هـ تخاذلت عنه عبادة وخفاجة وحمل على الترك وهو ينادي «أنا ملك العرب أنا صدقة» فأصابه سهم وقتله غلام تركي يدعى برغش وحمل رأسه إلى السلطان، وذلك لإحدى وعشرين سنة من إمارته؛ كان جواداً حليماً صدوقاً عادلاً، يقرأ ولا يكتب، وله خزانة كتب منسوبة الخط."
+  en: "Sadaqa ibn Mansur ibn Dubays ibn Ali ibn Mazyad al-Asadi, amir of Banu Mazyad and builder of al-Hilla in Iraq; among the strongest backers of Sultan Muhammad ibn Malikshah against Barkyaruq, who enfeoffed him Wasit and licensed him over Basra — but he sheltered Sarkhab ibn Kaykhusraw and the sultan contested the realm with him; meeting him at the end of Rajab 501 AH with Ubada and Khafaja deserting him, he charged the Turks crying 'I am the king of the Arabs, I am Sadaqa', an arrow pinned him and a Turkish ghulam named Barghash killed him and bore his head to the sultan — in the twenty-first year of his emirate; generous, forbearing, truthful and just, he could read but not write and kept a library of finely copied books."
+gender: male
+roles: [ruler]
+traditions: [sunni]
+died: { edtf: "1108-04", hijri: "0501-08", calendar: julian, precision: month, status: tradition, derived: true, note: "قتل آخر رجب سنة 501هـ عند ابن خلدون؛ التحويل مشتق.", sources: [source/tarikh-ibn-khaldun-ibar] }
+relations:
+- type: member_of
+  target: group/banu-mazyad
+  sources:
+  - source/tarikh-ibn-khaldun-ibar
+- type: ruler_of
+  target: polity/mazyadid-dynasty
+  sources:
+  - source/tarikh-ibn-khaldun-ibar
+- type: fought
+  target: person/muhammad-tapar
+  sources:
+  - source/tarikh-ibn-khaldun-ibar
+wings: [people]
+periods: [period/crusades-ayyubid-mamluk]
+regions: [levant-iraq]
+sources:
+- source/tarikh-ibn-khaldun-ibar
+provenance:
+  layer: own-research
+  source: ابن خلدون، العبر — مقتل صدقة وولاية ابنه دبيس، ص1082-1083 (طبعة هيليوبوليس)
+  generated_by: Devin (SWE-2 High) from Apple Vision OCR
+  model: swe-2-high
+  run: lib-ibar-east-1
+status:
+  review: draft
+  completeness: 1
+  generated_by: Devin (SWE-2 High); extracted from Ibn Khaldun al-Ibar via Apple Vision OCR

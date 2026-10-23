@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 28:13 (سورة القصص، الآية 13)."
 text: "فَرَدَدْنَـٰهُ إِلَىٰٓ أُمِّهِۦ كَىْ تَقَرَّ عَيْنُهَا وَلَا تَحْزَنَ وَلِتَعْلَمَ أَنَّ وَعْدَ ٱللَّهِ حَقٌّ وَلَـٰكِنَّ أَكْثَرَهُمْ لَا يَعْلَمُونَ"
 text_search: "فرددناه إلى أمه كي تقر عينها ولا تحزن ولتعلم أن وعد الله حق ولكن أكثرهم لا يعلمون"
+translations:
+  en: { text: "So We restored him to his mother that she might be comforted and not grieve, and that she might know that the promise of Allah is true. But most of them know not.", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "تو ہم نے (اس طریق سے) اُن کو ان کی ماں کے پاس واپس پہنچا دیا تاکہ اُن کی آنکھیں ٹھنڈی ہوں اور وہ غم نہ کھائیں اور معلوم کریں کہ خدا کا وعدہ سچا ہے لیکن یہ اکثر نہیں جانتے", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-28 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

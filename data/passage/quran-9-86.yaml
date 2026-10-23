@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 9:86 (سورة التوبة، الآية 86)."
 text: "وَإِذَآ أُنزِلَتْ سُورَةٌ أَنْ ءَامِنُوا۟ بِٱللَّهِ وَجَـٰهِدُوا۟ مَعَ رَسُولِهِ ٱسْتَـْٔذَنَكَ أُو۟لُوا۟ ٱلطَّوْلِ مِنْهُمْ وَقَالُوا۟ ذَرْنَا نَكُن مَّعَ ٱلْقَـٰعِدِينَ"
 text_search: "وإذا أنزلت سورة أن آمنوا بالله وجاهدوا مع رسوله استأذنك أولو الطول منهم وقالوا ذرنا نكن مع القاعدين"
+translations:
+  en: { text: "And when a surah is revealed (which saith): Believe in Allah and strive along with His messenger, the men of wealth among them still ask leave of thee and say: Suffer us to be with those who sit (at home).", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "اور جب کوئی سورت نازل ہوتی ہے کہ خدا پر ایمان لاؤ اور اس کے رسول کے ساتھ ہو کر لڑائی کرو تو جو ان میں دولت مند ہیں وہ تم سے اجازت طلب کرتے ہیں اور کہتے ہیں کہ ہمیں تو رہنے ہی دیجیئے کہ جو لوگ گھروں میں رہیں گے ہم بھی ان کے ساتھ رہیں", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-9 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

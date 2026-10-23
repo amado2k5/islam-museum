@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 15:18 (سورة الحجر، الآية 18)."
 text: "إِلَّا مَنِ ٱسْتَرَقَ ٱلسَّمْعَ فَأَتْبَعَهُۥ شِهَابٌ مُّبِينٌ"
 text_search: "إلا من استرق السمع فأتبعه شهاب مبين"
+translations:
+  en: { text: "Save him who stealeth the hearing, and them doth a clear flame pursue.", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "ہاں اگر کوئی چوری سے سننا چاہے تو چمکتا ہوا انگارہ اس کے پیچھے لپکتا ہے", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-15 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

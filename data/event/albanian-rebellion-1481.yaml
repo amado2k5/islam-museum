@@ -1,0 +1,23 @@
+id: event/albanian-rebellion-1481
+class: event
+kind: revolt
+label: { ar: "الثورة الألبانية (١٤٨١–١٤٨٤)", en: "Albanian Rebellion (1481–1484)" }
+summary:
+  ar: "بطاقة أولية لالثورة الألبانية (١٤٨١–١٤٨٤)؛ لم تُراجع مصادره على الصفحة بعد."
+  en: "Draft card for Albanian Rebellion (1481–1484); its sources are not yet checked on the page."
+wings: [time]
+periods: [period/crusades-ayyubid-mamluk]
+regions: [anatolia-balkans]
+date:
+  start: { edtf: "1481", precision: year, status: tradition, derived: true }
+  end: { edtf: "1484", precision: year, status: tradition, derived: true }
+sources: [source/tarikh-islam-hasan-ibrahim]
+external_ids:
+  wikidata: Q131286409
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; event attested in narrative histories — entry not yet checked on the page"
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: wikidata-import-wave2
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 Medium)" }

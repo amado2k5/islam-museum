@@ -1,0 +1,23 @@
+id: event/battle-of-sig-1835
+class: event
+kind: battle
+label: { ar: "معركة سيك (١٨٣٥)", en: "Battle of Sig (1835)" }
+summary:
+  ar: "بطاقة أولية لمعركة سيك سنة ١٨٣٥م، من انتصارات الأمير عبد القادر على الفرنسيين؛ لم تُراجع مصادره على الصفحة بعد."
+  en: "Draft card for the Battle of Sig in 1835, one of Emir Abd al-Qadir's victories over the French; its sources are not yet checked on the page."
+wings: [time]
+periods: [period/modern-era]
+regions: [maghreb]
+date:
+  start: { edtf: "1835-06", precision: year, status: tradition, derived: true }
+  end: { edtf: "1835-06", precision: year, status: tradition, derived: true }
+sources: [source/tarikh-islam-hasan-ibrahim]
+external_ids:
+  wikidata: Q2889985
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; battle attested in narrative histories — entry not yet checked on the page"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-wave2
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

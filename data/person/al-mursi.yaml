@@ -1,0 +1,25 @@
+id: person/al-mursi
+class: person
+label: { ar: "شرف الدين المرسي", en: "Sharaf al-Din al-Mursi" }
+names:
+  - { value: "المرسي العلامة شرف الدين أبو عبد الله محمد بن عبد الله بن محمد بن أبي الفضل السلي الأندلسي", kind: full }
+born: { edtf: "1175", hijri: "0570", calendar: julian, precision: year, status: tradition, derived: true, note: "ولد سنة سبعين وخمسمائة في أولها {cite:shadharat-dhahab p. 277}." }
+died: { edtf: "1257-03~", hijri: "0655-03-15~", calendar: julian, precision: month, status: tradition, derived: true, note: "توفي في نصف ربيع الأول في الطريق ودفن بتل الزعقة سنة خمس وخمسين وستمائة {cite:shadharat-dhahab p. 277}." }
+summary:
+  ar: "المحدث المفسر النحوي؛ سمع الموطأ من أبي محمد ابن عبيد الله ورحل إلى أن وصل إلى أقصى خراسان وسمع الكشي من منصور الفراوي وأبي روح والكبار، وكان كثير الأسفار والتطواف جماعاً لفنون العلم ذكياً ثاقب الذهن له تصانيف كثيرة مع زهد وورع وفقر وتعفف؛ سئل عنه الحافظ الضياء فقال فقيه مناظر نحوي من أهل السنة صحبناه وما رأينا منه إلا خيراً {cite:shadharat-dhahab p. 277}."
+  en: "The wandering mufassir-nahwi (b. 570) — heard the Muwatta, travelled to the far edge of Khurasan for the Kashshi; Diya al-Maqdisi called him 'faqih, debater, grammarian, of ahl al-sunna'; died mid-Rabi' I 655 on the road, buried at Tall Za'qa {cite:shadharat-dhahab p. 277}."
+gender: male
+roles: [scholar, muhaddith, traveler]
+wings: [people]
+periods: [period/crusades-ayyubid-mamluk]
+regions: [andalus-europe, levant-iraq, persia-central-asia]
+faith:
+  - value: sunni
+    basis: tradition
+sources: [source/shadharat-dhahab]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }
+provenance:
+  layer: own-research
+  source: "شذرات الذهب — ابن العماد (ج5، سنة 655)، قراءة آبل فيجن"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-shadharat-batch-129

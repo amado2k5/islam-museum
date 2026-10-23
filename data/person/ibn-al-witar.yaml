@@ -1,0 +1,27 @@
+id: person/ibn-al-witar
+class: person
+label: { ar: "ابن الوتار البغدادي", en: "Ibn al-Witar al-Baghdadi" }
+names:
+  - { value: "ضياء الدين أبو الفتوح وأبو الفرج وأبو عمر عثمان بن نصر بن منصور بن هلال البغدادي المسعودي الحنبلي", kind: full }
+born: { edtf: "1155~", hijri: "0550~", calendar: julian, precision: year, status: tradition, derived: true, note: "ولد سنة خمسين وخمسمائة تقريباً {cite:shadharat-dhahab p. 188}." }
+died: { edtf: "1238", hijri: "0636-05-17", calendar: julian, precision: day, status: tradition, derived: true, note: "توفي في سابع عشر جمادى الأولى ببغداد وقد ناهز التسعين {cite:shadharat-dhahab p. 189}.", sources: [source/shadharat-dhahab] }
+summary:
+  ar: "الفقيه الحنبلي الواعظ المعروف بابن الوتار، من محلة المسعودة شرقي بغداد؛ سمع من أبي الفتح ابن المني وغيره وتفقه عليه ووعظ وشهد عند قاضي القضاة عبد الرزاق بن الشيخ عبد القادر، وكان فاضلاً فقيهاً إماماً عالماً حسن الأخلاق، أجاز للمنذري وابن أبي الجيش والقاسم بن عساكر والحجار وغيرهم {cite:shadharat-dhahab p. 188-189}."
+  en: "The Baghdad Hanbali preacher Ibn al-Witar (d. 17 Jumada I 636, ~90) — witnessed before qadi Abd al-Razzaq b. Abd al-Qadir al-Jili, licensed al-Mundhiri and Ibn al-Jawzi's generation {cite:shadharat-dhahab p. 188-189}."
+gender: male
+roles: [scholar]
+wings: [people]
+periods: [period/crusades-ayyubid-mamluk]
+regions: [levant-iraq]
+faith:
+  - value: sunni-hanbali
+    basis: tradition
+relations:
+  - { type: died_in, target: place/baghdad, sources: [source/shadharat-dhahab] }
+sources: [source/shadharat-dhahab]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }
+provenance:
+  layer: own-research
+  source: "شذرات الذهب — ابن العماد (ج5، سنة 636)، قراءة آبل فيجن"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-shadharat-batch-126

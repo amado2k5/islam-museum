@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 62:1 (سورة الجمعة، الآية 1)."
 text: "بِسْمِ ٱللَّهِ ٱلرَّحْمَـٰنِ ٱلرَّحِيمِ يُسَبِّحُ لِلَّهِ مَا فِى ٱلسَّمَـٰوَٰتِ وَمَا فِى ٱلْأَرْضِ ٱلْمَلِكِ ٱلْقُدُّوسِ ٱلْعَزِيزِ ٱلْحَكِيمِ"
 text_search: "بسم الله الرحمن الرحيم يسبح لله ما في السماوات وما في الأرض الملك القدوس العزيز الحكيم"
+translations:
+  en: { text: "All that is in the heavens and all that is in the earth glorifieth Allah, the Sovereign Lord, the Holy One, the Mighty, the Wise.", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "جو چیز آسمانوں میں ہے اور جو چیز زمین میں ہے سب خدا کی تسبیح کرتی ہے جو بادشاہ حقیقی پاک ذات زبردست حکمت والا ہے", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-62 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

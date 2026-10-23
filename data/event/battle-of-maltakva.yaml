@@ -1,0 +1,23 @@
+id: event/battle-of-maltakva
+class: event
+kind: battle
+label: { ar: "وقعة ملتقوا", en: "Battle of Maltakva" }
+summary:
+  ar: "بطاقة أولية لوقعة ملتقوا؛ لم تُراجع مصادره على الصفحة بعد."
+  en: "Draft card for Battle of Maltakva; its sources are not yet checked on the page."
+wings: [time]
+periods: [period/colonial-era]
+regions: [persia-central-asia]
+date:
+  start: { edtf: "1809", precision: year, status: tradition, derived: true }
+  end: { edtf: "1809", precision: year, status: tradition, derived: true }
+sources: [source/tarikh-islam-hasan-ibrahim]
+external_ids:
+  wikidata: Q12866500
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; battle attested in narrative histories — entry not yet checked on the page"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-wave2
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

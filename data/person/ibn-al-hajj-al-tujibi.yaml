@@ -1,0 +1,30 @@
+id: person/ibn-al-hajj-al-tujibi
+class: person
+label: { ar: "ابن الحاج التجيبي" }
+names:
+  - { value: "قاضي الجماعة أبو عبد الله محمد بن أحمد بن خلف التجيبي القرطبي المالكي", kind: full }
+summary:
+  ar: "قاضي الجماعة أبو عبد الله محمد بن أحمد بن خلف التجيبي القرطبي المالكي؛ روى عن أبي علي الغساني وطائفة، وكان من جلّة العلماء وكبارهم متبحراً في العلوم والآداب، ولم يكن أحد في زمانه أطلب للعلم منه مع الدين والخشوع؛ قتل ظلماً بجامع قرطبة في صلاة الجمعة سنة تسع وعشرين وخمسمائة وله إحدى وسبعون سنة {cite:shadharat-dhahab p. 573-574}."
+  en: "Qadi al-jama'a Abu Abdallah Muhammad ibn Ahmad ibn Khalaf al-Tujibi of Cordoba, Maliki; transmitted from Abu Ali al-Ghassani and others — one of the great elders of learning, deep in sciences and letters, none of his age more devoted to seeking knowledge, with piety and humility; killed unjustly in Cordoba's mosque during the Friday prayer in 529 at seventy-one {cite:shadharat-dhahab p. 573-574}."
+gender: male
+wings: [people]
+roles: [jurist, scholar]
+periods: [period/buyid-seljuk-fatimid-era]
+regions: [andalus-europe]
+died:
+  edtf: "1135~"
+  hijri: "0529"
+  calendar: julian
+  precision: year
+  status: tradition
+  derived: true
+  note: "قتل ظلماً بجامع قرطبة في صلاة الجمعة سنة تسع وعشرين وخمسمائة وله إحدى وسبعون سنة {cite:shadharat-dhahab p. 574}؛ التحويل مشتق."
+relations:
+  - { type: died_in, target: place/cordoba, sources: [source/shadharat-dhahab] }
+provenance:
+  layer: own-research
+  source: "شذرات الذهب لابن العماد — الجزء الرابع، ممسوح مكتبة الحصاد (AAlexandrina-223861)، قراءة آبل فيجن"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-shadharat-batch-114
+sources: [source/shadharat-dhahab]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

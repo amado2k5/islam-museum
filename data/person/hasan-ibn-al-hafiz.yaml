@@ -1,0 +1,30 @@
+id: person/hasan-ibn-al-hafiz
+class: person
+label: { ar: "الحسن بن الحافظ لدين الله" }
+names:
+  - { value: "الحسن بن الحافظ لدين الله عبد المجيد العبيدي المصري", kind: full }
+summary:
+  ar: "الحسن بن الحافظ لدين الله عبد المجيد العبيدي؛ ولي عهد أبيه ووزيره، ولي ثلاثة أعوام فظلم وغشم وفتك حتى إنه قتل في ليلة أربعين أميراً فخافه أبوه وجهز لحربه جماعة فالتقاهم واختلطت مصر، ثم دس عليه أبوه من سقاه سماً فهلك سنة تسع وعشرين وخمسمائة {cite:shadharat-dhahab p. 570}."
+  en: "Al-Hasan ibn al-Hafiz li-Din Allah Abd al-Majid, the Ubaydid; his father's heir-apparent and vizier for three years — tyrannical and violent, killing forty amirs in a single night until his father feared him and armed men against him; Egypt was convulsed, then the father sent him a poisoner who made him drink, and he perished in 529 {cite:shadharat-dhahab p. 570}."
+gender: male
+wings: [people]
+roles: [vizier]
+periods: [period/buyid-seljuk-fatimid-era]
+regions: [egypt-nile]
+died:
+  edtf: "1135~"
+  hijri: "0529"
+  calendar: julian
+  precision: year
+  status: tradition
+  derived: true
+  note: "سقاه أبوه الحافظ سماً فهلك سنة تسع وعشرين وخمسمائة {cite:shadharat-dhahab p. 570}؛ التحويل مشتق."
+relations:
+  - { type: child_of, target: person/al-hafiz-fatimid, sources: [source/shadharat-dhahab] }
+provenance:
+  layer: own-research
+  source: "شذرات الذهب لابن العماد — الجزء الرابع، ممسوح مكتبة الحصاد (AAlexandrina-223861)، قراءة آبل فيجن"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-shadharat-batch-114
+sources: [source/shadharat-dhahab]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 21:30 (سورة الأنبياء، الآية 30)."
 text: "أَوَلَمْ يَرَ ٱلَّذِينَ كَفَرُوٓا۟ أَنَّ ٱلسَّمَـٰوَٰتِ وَٱلْأَرْضَ كَانَتَا رَتْقًا فَفَتَقْنَـٰهُمَا ۖ وَجَعَلْنَا مِنَ ٱلْمَآءِ كُلَّ شَىْءٍ حَىٍّ ۖ أَفَلَا يُؤْمِنُونَ"
 text_search: "أولم ير الذين كفروا أن السماوات والأرض كانتا رتقا ففتقناهما ۖ وجعلنا من الماء كل شيء حي ۖ أفلا يؤمنون"
+translations:
+  en: { text: "Have not those who disbelieve known that the heavens and the earth were of one piece, then We parted them, and we made every living thing of water? Will they not then believe?", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "کیا کافروں نے نہیں دیکھا کہ آسمان اور زمین دونوں ملے ہوئے تھے تو ہم نے جدا جدا کردیا۔ اور تمام جاندار چیزیں ہم نے پانی سے بنائیں۔ پھر یہ لوگ ایمان کیوں نہیں لاتے؟", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-21 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

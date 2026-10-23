@@ -1,0 +1,15 @@
+id: passage/muslim-0106
+class: passage
+unit: hadith
+work: work/sahih-muslim
+ref: "106"
+label: { ar: "مسلم 106 — ثلاثة لا يكلمهم الله يوم القيامة: المسبل والمنان والمنفق سلعته بالحلف الكاذب", en: "Muslim 106 — Three God will not address on the Last Day: the drag-trailing, the reminding giver, the false oathmonger" }
+text: "قال رسول الله: «ثلاثة لا يكلمهم الله يوم القيامة ولا ينظر إليهم ولا يزكيهم ولهم عذاب أليم: المسبل، والمنان، والمنفق سلعته بالحلف الكاذب»"
+summary:
+  ar: "رواية أبي ذر في كتاب الإيمان من صحيح مسلم؛ قرأها ثلاث مرات فقال أبو ذر: خابوا وخسروا، من هم يا رسول الله؟ فسماهم: من يسبل إزاره خيلاء، ومن لا يعطي إلا منّاً، ومن يروج سلعته بالحلف الكاذب."
+relations:
+  - { type: mentions, target: person/muhammad, sources: [source/sahih-muslim] }
+  - { type: mentions, target: person/abu-dharr-al-ghifari, sources: [source/sahih-muslim] }
+provenance: { layer: own-research, source: "صحيح مسلم، كتاب الإيمان، باب ثلاثة لا يكلمهم الله ولا ينظر إليهم (طبعة دار التأصيل، الحديث ٩٨؛ ترقيم عبد الباقي المعروف 106)، تصوير Apple Vision OCR", generated_by: "Devin (SWE-2 High) from Apple Vision OCR", run: "hadith-muslim-passages-3" }
+sources: [source/sahih-muslim]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High); matn excerpt at most 40 words checked against the scan" }

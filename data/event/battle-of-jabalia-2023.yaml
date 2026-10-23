@@ -1,0 +1,23 @@
+id: event/battle-of-jabalia-2023
+class: event
+kind: battle
+label: { ar: "معركة جباليا (٢٠٢٣)", en: "Battle of Jabalia" }
+summary:
+  ar: "بطاقة أولية لمعركة جباليا في ٢٠٢٣–٢٠٢٤م، قتال حرب غزة في شمال القطاع؛ لم تُراجع مصادره على الصفحة بعد."
+  en: "Draft card for the Battle of Jabalia in 2023–24, the Gaza war's fighting in the northern strip; its sources are not yet checked on the page."
+wings: [time]
+periods: [period/contemporary-era]
+regions: [levant-iraq]
+date:
+  start: { edtf: "2023-10-26", precision: year, status: tradition, derived: true }
+  end: { edtf: "2024-01-06", precision: year, status: tradition, derived: true }
+sources: [source/tarikh-islam-hasan-ibrahim]
+external_ids:
+  wikidata: Q124119981
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; battle attested in narrative histories — entry not yet checked on the page"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-wave2
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

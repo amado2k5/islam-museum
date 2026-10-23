@@ -1,0 +1,23 @@
+id: event/battle-of-lake-kahul-1574
+class: event
+kind: battle
+label: { ar: "معركة بحيرة كاهول", en: "Battle of Lake Kahul" }
+summary:
+  ar: "بطاقة أولية لمعركة بحيرة كاهول سنة ١٥٧٤م، فوز العثمانيين في حملة القوقاز الصفوية؛ لم تُراجع مصادره على الصفحة بعد."
+  en: "Draft card for the Battle of Lake Kahul in 1574, the Ottoman victory in the Safavid Caucasus campaign; its sources are not yet checked on the page."
+wings: [time]
+periods: [period/gunpowder-empires]
+regions: [persia-central-asia]
+date:
+  start: { edtf: "1574-06-10", precision: year, status: tradition, derived: true }
+  end: { edtf: "1574-06-10", precision: year, status: tradition, derived: true }
+sources: [source/dawlat-uthmaniyya-salabi]
+external_ids:
+  wikidata: Q12082738
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; battle attested in narrative histories — entry not yet checked on the page"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-wave2
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

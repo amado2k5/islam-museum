@@ -1,0 +1,20 @@
+id: event/ali-sent-to-banu-jadhima
+class: event
+kind: other
+label: { ar: "إرسال علي إلى بني جذيمة لإصلاح خطأ خالد", en: "Ali sent to Banu Jadhima to correct Khalid's error" }
+summary:
+  ar: "بعد فتح مكة في السنة الثامنة أرسل النبي خالد بن الوليد إلى بني جذيمة يدعوهم إلى الإسلام، فلم يحسنوا أن يقولوا أسلمنا، فقالوا صبأنا، فأخذ خالد يقتل منهم؛ فبعث النبي علياً لينظر في أمرهم ويتلافى الخطأ، وأنكر النبي ما صنع خالد."
+  en: "After the conquest of Mecca in the eighth year AH the Prophet sent Khalid ibn al-Walid to the Banu Jadhima. They could not say 'we have submitted' and said 'we have turned away', and Khalid began killing some of them; the Prophet sent Ali to look into the matter and repair the error."
+wings: [time, people]
+periods: [period/prophetic-era]
+regions: [arabia]
+date:
+  start: { edtf: "0630-01-11~", hijri: "0008-09-20", calendar: julian, precision: day, status: tradition, derived: true, note: "الكتاب يذكر أن البعثة كانت في السنة الثامنة للهجرة عقب فتح مكة (ص108)؛ التاريخ مشتق من تاريخ فتح مكة (ص107) ولا يُذكر يوم البعثة." }
+relations:
+  - { type: had_participant, target: person/ali-ibn-abi-talib, role: "أُرسل ليصلح خطأ خالد", sources: [source/sallabi-ali-vol1] }
+  - { type: had_participant, target: person/khalid-ibn-al-walid, role: "أرسله النبي فقتل بعضهم", sources: [source/sallabi-ali-vol1] }
+  - { type: had_participant, target: person/muhammad, role: "أرسل علياً وأنكر ما صنع خالد", sources: [source/sallabi-ali-vol1] }
+  - { type: part_of, target: event/conquest-of-mecca }
+sources: [source/sallabi-ali-vol1]
+status: { review: draft, completeness: 1, generated_by: "Claude Code (claude-haiku-5-5); mined from sallabi-ali-vol1 pp. 108-109 (partial read)" }
+provenance: { layer: own-research, source: "sallabi-ali-vol1 pp. 108-109", generated_by: "Claude Code", model: "claude-haiku-5-5", run: "sallabi-ali-vol1-batch1" }

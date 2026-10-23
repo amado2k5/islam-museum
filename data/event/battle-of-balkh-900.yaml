@@ -1,0 +1,23 @@
+id: event/battle-of-balkh-900
+class: event
+kind: battle
+label: { ar: "معركة بلخ", en: "Battle of Balkh" }
+summary:
+  ar: "بطاقة أولية لمعركة بلخ سنة ٩٠٠م، فوز السامانيين على الصفاريين؛ لم تُراجع مصادره على الصفحة بعد."
+  en: "Draft card for the Battle of Balkh in 900, the Samanid victory over the Saffarids; its sources are not yet checked on the page."
+wings: [time]
+periods: [period/abbasid-fragmentation]
+regions: [persia-central-asia]
+date:
+  start: { edtf: "0900", precision: year, status: tradition, derived: true }
+  end: { edtf: "0900", precision: year, status: tradition, derived: true }
+sources: [source/al-aalam]
+external_ids:
+  wikidata: Q4087412
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; battle attested in narrative histories — entry not yet checked on the page"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-wave2
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

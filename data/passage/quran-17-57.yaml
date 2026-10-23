@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 17:57 (سورة الإسراء، الآية 57)."
 text: "أُو۟لَـٰٓئِكَ ٱلَّذِينَ يَدْعُونَ يَبْتَغُونَ إِلَىٰ رَبِّهِمُ ٱلْوَسِيلَةَ أَيُّهُمْ أَقْرَبُ وَيَرْجُونَ رَحْمَتَهُۥ وَيَخَافُونَ عَذَابَهُۥٓ ۚ إِنَّ عَذَابَ رَبِّكَ كَانَ مَحْذُورًا"
 text_search: "أولئك الذين يدعون يبتغون إلى ربهم الوسيلة أيهم أقرب ويرجون رحمته ويخافون عذابه ۚ إن عذاب ربك كان محذورا"
+translations:
+  en: { text: "Those unto whom they cry seek the way of approach to their Lord, which of them shall be the nearest; they hope for His mercy and they fear His doom. Lo! the doom of thy Lord is to be shunned.", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "یہ لوگ جن کو (خدا کے سوا) پکارتے ہیں وہ خود اپنے پروردگار کے ہاں ذریعہ (تقرب) تلاش کرتے رہتے ہیں کہ کون ان میں (خدا کا) زیادہ مقرب ہوتا ہے اور اس کی رحمت کے امیدوار رہتے ہیں اور اس کے عذاب سے خوف رکھتے ہیں۔ بےشک تمہارے پروردگار کا عذاب ڈرنے کی چیز ہے", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-17 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

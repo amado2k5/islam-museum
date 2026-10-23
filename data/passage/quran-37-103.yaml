@@ -12,10 +12,13 @@ summary:
   ar: "القرآن 37:103 (سورة الصافات، الآية 103)."
 text: "فَلَمَّآ أَسْلَمَا وَتَلَّهُۥ لِلْجَبِينِ"
 text_search: "فلما أسلما وتله للجبين"
+translations:
+  en: { text: "Then, when they had both surrendered (to Allah), and he had flung him down upon his face,", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "جب دونوں نے حکم مان لیا اور باپ نے بیٹے کو ماتھے کے بل لٹا دیا", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: revealed_about, target: event/sacrifice-of-ismail }
   - { type: part_of, target: passage/quran-37 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

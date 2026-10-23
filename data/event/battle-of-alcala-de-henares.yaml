@@ -1,0 +1,23 @@
+id: event/battle-of-alcala-de-henares
+class: event
+kind: battle
+label: { ar: "معركة ألكالا دي إيناريس", en: "Battle of Alcala de Henares" }
+summary:
+  ar: "بطاقة أولية لمعركة ألكالا دي إيناريس؛ لم تُراجع مصادره على الصفحة بعد."
+  en: "Draft card for Battle of Alcala de Henares; its sources are not yet checked on the page."
+wings: [time]
+periods: [period/abbasid-fragmentation]
+regions: [andalus-europe]
+date:
+  start: { edtf: "1006", precision: year, status: tradition, derived: true }
+  end: { edtf: "1006", precision: year, status: tradition, derived: true }
+sources: [source/tarikh-islam-hasan-ibrahim]
+external_ids:
+  wikidata: Q135483485
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; battle attested in narrative histories — entry not yet checked on the page"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-wave2
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

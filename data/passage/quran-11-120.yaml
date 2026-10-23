@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 11:120 (سورة هود، الآية 120)."
 text: "وَكُلًّا نَّقُصُّ عَلَيْكَ مِنْ أَنۢبَآءِ ٱلرُّسُلِ مَا نُثَبِّتُ بِهِۦ فُؤَادَكَ ۚ وَجَآءَكَ فِى هَـٰذِهِ ٱلْحَقُّ وَمَوْعِظَةٌ وَذِكْرَىٰ لِلْمُؤْمِنِينَ"
 text_search: "وكلا نقص عليك من أنباء الرسل ما نثبت به فؤادك ۚ وجاءك في هذه الحق وموعظة وذكرى للمؤمنين"
+translations:
+  en: { text: "And all that We relate unto thee of the story of the messengers is in order that thereby We may make firm thy heart. And herein hath come unto thee the Truth and an exhortation and a reminder for believers.", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "(اے محمدﷺ) اور پیغمبروں کے وہ سب حالات جو ہم تم سے بیان کرتے ہیں ان سے ہم تمہارے دل کو قائم رکھتے ہیں۔ اور ان (قصص) میں تمہارے پاس حق پہنچ گیا اور یہ مومنوں کے لیے نصیحت اور عبرت ہے", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-11 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

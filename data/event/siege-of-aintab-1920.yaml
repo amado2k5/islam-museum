@@ -1,0 +1,23 @@
+id: event/siege-of-aintab-1920
+class: event
+kind: siege
+label: { ar: "حصار عنتاب", en: "Siege of Aintab" }
+summary:
+  ar: "بطاقة أولية لحصار عنتاب من ١٩٢٠ إلى ١٩٢١م، صمود المدينة أمام الفرنسيين في الحرب الوطنية؛ لم تُراجع مصادره على الصفحة بعد."
+  en: "Draft card for the Siege of Aintab in 1920–1921, the city's stand against the French in the National Struggle; its sources are not yet checked on the page."
+wings: [time]
+periods: [period/modern-era]
+regions: [anatolia-balkans]
+date:
+  start: { edtf: "1920", precision: year, status: tradition, derived: true }
+  end: { edtf: "1921", precision: year, status: tradition, derived: true }
+sources: [source/dawlat-uthmaniyya-salabi]
+external_ids:
+  wikidata: Q4820796
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; battle attested in narrative histories — entry not yet checked on the page"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-wave2
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

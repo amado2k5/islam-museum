@@ -1,0 +1,20 @@
+id: passage/muwatta-6-1032
+class: passage
+unit: hadith
+chain: [person/malik-ibn-anas, person/yahya-ibn-said-al-ansari, person/muhammad-ibn-ibrahim-al-taymi, person/rabia-ibn-abdallah-ibn-al-hudayr]
+work: work/muwatta-malik
+ref: "1032"
+label: { ar: "الموطأ 1032 — يحيى بن سعيد عن محمد بن إبراهيم عن ربيعة بن عبد الله بن الهدير: رأى عمر بن الخطاب يقرد بعيراً له في طين بالسقيا وهو محرم؛ قال مالك: وأنا أكرهه", en: "Muwatta 1032" }
+summary:
+  ar: "يرويه مالك عن يحيى بن سعيد عن محمد بن إبراهيم بن الحارث التيمي عن ربيعة بن عبد الله بن الهدير، أنه رأى عمر بن الخطاب يقرد بعيراً له في طين بالسقيا وهو محرم. قال مالك: وأنا أكرهه. ويذكر المحقق أنه رواه عن مالك أبو مصعب (1192) وسويد (582) والشافعي في مسنده، ويحيى بن بكير عند البيهقي. {cite:muwatta-maruf-1997 p.481}"
+relations:
+  - { type: part_of, target: passage/muwatta-kitab-06-hajj }
+  - { type: mentions, target: person/umar-ibn-al-khattab, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/rabia-ibn-abdallah-ibn-al-hudayr, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/muhammad-ibn-ibrahim-al-taymi, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/malik-ibn-anas, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: place/al-sharaba, sources: [source/muwatta-maruf-1997] }
+  - { type: basis_for, target: practice/ihram, sources: [source/muwatta-maruf-1997] }
+provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 1, hadith 1032 at PDF p. 481; ما يجوز للمحرم أن يفعله", generated_by: "Claude Code (claude-haiku-5-5) from Apple Vision OCR of the Noor-Book PDF, checked on the page image where doubtful", run: "muwatta-prose-k6-b06" }
+sources: [source/muwatta-maruf-1997]
+status: { review: draft, completeness: 2, generated_by: "Claude Code (claude-haiku-5-5); own-words account written from PDF p. 481; matn excerpt at most 40 words; doubt: السُّقيا في الموضع؛ الحكم فيه كراهة مالك." }
