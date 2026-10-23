@@ -16,3 +16,9 @@ In 940 AH (1533 CE) Sultan Suleyman the Magnificent summoned him with a letter c
 
 ## Kapudan Pasha
 The sultan clothed him in honour, entrusted him with the arsenal, and gave him the title of Kapudan Pasha, minister of the navy. He then sailed out of the Dardanelles with the new Ottoman fleet toward the southern coasts of Italy and Sicily, and recovered Coron and Lepanto. {cite:dawlat-uthmaniyya-salabi p. 207-218}
+
+## His last years in France
+With the Franco-Ottoman alliance he made Marseille his fleet's base, led the allied forces to drive the Duke of Savoy from Nice for the French king, then lay at Toulon — most of whose people had left at the king's order — until 1544. Europe's outcry rose; among the propaganda al-Salabi cites: 'Khayr al-Din tore out the church bells, so that in Toulon only the muezzin's call was heard' {cite:dawlat-uthmaniyya-salabi p. 231-232}.
+
+## Return and death
+After the [[event/treaty-crepy-1544|Treaty of Crépy]] (18 September 1544) he evacuated Toulon, paused off Genoa — whose senate bought safety with costly gifts — took Elba and several coastal towns, and reached Istanbul with ships heavy with booty; he did not live long after. The author preserves his retort when Charles threatened him with his brothers' fate: 'Tomorrow you will see — and tomorrow is not far — your soldiers' limbs scattered, your ships sunk, your captains returning crowned with the shame of defeat' {cite:dawlat-uthmaniyya-salabi p. 232-233}.

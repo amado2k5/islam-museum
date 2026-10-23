@@ -1,0 +1,25 @@
+id: person/muhammad-al-shaykh-al-sadi
+class: person
+label: { ar: "محمد السعدي حاكم فاس", en: "Muhammad al-Shaykh al-Sa'di" }
+names:
+  - { kind: full, lang: ar, value: "محمد الشيخ السعدي" }
+gender: male
+roles: [ruler]
+summary:
+  ar: "الشريف السعدي حاكم فاس الذي دعمته الدولة العثمانية بنحو عشرين ألف مجاهد حتى أنهى الحكم الوطاسي ودانت له بلاد المغرب، وبعدها توجه نحو تلمسان لإنهاء الحكم العثماني فيها، فأرسلت الدولة إليه حملات ردته إلى بلاده في وصف الصلابي. وإليه وجّه السلطان سليمان القانوني مثاله الشريف يدعو فيه إلى الوحدة الإسلامية وحسن الجوار {cite:dawlat-uthmaniyya-salabi p. 231-235}."
+  en: "The Sa'di sharif, ruler of Fas, whom the Ottoman state backed with some twenty thousand mujahidun until he ended Wattasid rule and Morocco was his; when he then turned on Ottoman Tlemcen, Ottoman campaigns — in al-Salabi's phrase — drove him back. To him Süleyman addressed his rescript calling for Islamic unity and good neighbourliness {cite:dawlat-uthmaniyya-salabi p. 231-235}."
+wings: [people]
+periods: [period/gunpowder-empires]
+regions: [maghreb]
+relations:
+  - { type: ruled_over, target: polity/saadi-dynasty, sources: [source/dawlat-uthmaniyya-salabi] }
+  - { type: allied_with, target: person/sulayman-al-qanuni, sources: [source/dawlat-uthmaniyya-salabi] }
+sources: [source/dawlat-uthmaniyya-salabi]
+external_ids: { wikidata: "Q386747" }
+provenance:
+  layer: own-research
+  source: "الدولة العثمانية لعلي محمد الصلابي (ط1 1421) ص 231-235"
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: salabi-uthmani-batch11
+status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 Medium)" }

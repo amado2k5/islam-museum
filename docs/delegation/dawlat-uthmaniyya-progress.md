@@ -43,3 +43,9 @@ Parallel SWE-2 High lane had already written uruj-barbarossa and khayr-al-din-ba
 
 ## Batch 10 — Hasan Agha al-Tushi mabhath (pp. 223-229)
 Enriched hasan-aga-al-tushi (Mostaganem/Biskra, the 949 raid, the two letters with Charles V, death 951) and algiers-expedition-1541 (draft card → verified: 28 Jumada II 948/15 Oct 1541, the storm, the Elephant-company comparison). Created al-hajj-bashir, al-hajj-bakir, hasan-ibn-khayr-al-din, truce-nice-945 (book misprints 1358 for 1538, flagged), capture-santa-cruz-saadi-948. Next: Khayr al-Din mabhath (mabhath 6, p. 230+).
+
+## Batch 11 — Hasan b. Khayr al-Din mabhath (مبحث 6, pp. 230–235)
+
+- Enriched: `hasan-ibn-khayr-al-din` (full governorship: fortifications, Tlemcen, anti-French stance, deposition 960/1552) · `abu-zayyan-ahmad` draft card → Abu Zayyan Ahmad II · appended Khayr al-Din's last days (Marseille/Toulon, Crépy, Genoa gifts, Elba, death) + his retort quote to `khayr-al-din-barbarossa`
+- New: `salih-rais` (beylerbey Safar 960/1552), `muhammad-al-shaykh-al-sadi` (ruler of Fas; ~20,000 mujahidun, Süleyman's rescript), `al-hasan-zayyani-tlemcen`, `al-mansur-ibn-bu-ghannam`, `al-muzawwar-ibn-bu-ghannam`, `event/treaty-crepy-1544` (18 Sep 1544)
+- Trilingual prose for all; attributed framings kept in author's voice. 0 errors.

@@ -1,0 +1,23 @@
+id: event/treaty-crepy-1544
+class: event
+kind: treaty
+label: { ar: "معاهدة كريسبي دي فالوا (١٥٤٤م)", en: "Treaty of Crépy-en-Laonnois (1544)" }
+summary:
+  ar: "المعاهدة التي عقدها شارل الخامس مع ملك فرنسا في ١٨ سبتمبر ١٥٤٤م في مدينة كريسبي دي فالوا، بعد أن هوى نجمه إثر نكبته أمام الجزائر وضغط التمرد البروتستانتي في ألمانيا في وصف الصلابي؛ ونتج عنها جلاء خير الدين بربروسة وقواته عن مدينة طولون وعودته إلى استانبول {cite:dawlat-uthmaniyya-salabi p. 232}."
+  en: "The treaty Charles V concluded with the king of France at Crépy-en-Laonnois on 18 September 1544 — after, in al-Salabi's phrase, his star sank with the Algiers disaster and the Protestant rising pressed him in Germany; by it Khayr al-Din's forces evacuated Toulon for Istanbul {cite:dawlat-uthmaniyya-salabi p. 232}."
+wings: [time]
+periods: [period/gunpowder-empires]
+regions: [anatolia-balkans]
+date:
+  start: { edtf: "1544-09-18", calendar: julian, precision: day, status: tradition, sources: [source/dawlat-uthmaniyya-salabi] }
+relations:
+  - { type: had_participant, target: person/charles-v, sources: [source/dawlat-uthmaniyya-salabi] }
+  - { type: had_participant, target: person/francis-i-france, sources: [source/dawlat-uthmaniyya-salabi] }
+sources: [source/dawlat-uthmaniyya-salabi]
+provenance:
+  layer: own-research
+  source: "الدولة العثمانية لعلي محمد الصلابي (ط1 1421) ص 232"
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: salabi-uthmani-batch11
+status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 Medium)" }
