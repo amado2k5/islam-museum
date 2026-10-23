@@ -217,3 +217,54 @@ Return to the general (non-person) queue after the rijal pivot. Ranked by inboun
 ### Methodological notes
 - Kuwaiti encyclopedia pages ~46–1200 are the book's own index; every headword used here is the later own-article page, never an index hit.
 - `person/` records untouched; rijal lane owns them.
+
+### Batch 8 (23 Oct 2026, 10 records, ar+en+ur) — general lane (Devin)
+
+| record | source & pages |
+|---|---|
+| concept/mushaf | Fiqh Mawsu'a Kuwaitiyya pp.12678–12680 (own article); record gains that source (al-A'lam kept) |
+| concept/mahram | Fiqh Mawsu'a Kuwaitiyya pp.12678–12680 (maharim/mahram article); Sabiq's Fiqh al-Sunna kept |
+| event/mongol-invasions | Ibn Khaldun, al-Ibar pp.34–36 (Mongol rise in the Muqaddima-era material) |
+| polity/zunbil-dynasty | al-Baladhuri, Futuh al-Buldan pp.571–577 (Rutbil/Zunbil section) |
+| polity/brahmin-dynasty-sindh | al-Baladhuri, Futuh al-Buldan pp.624–633 (Dahir/Sindh conquest section) |
+| polity/midrarid-dynasty | Ibn Khaldun, al-Ibar pp.1619–1621 (Sijilmasa, Banu Midrar); Ya'qut kept on record but unused (extracted vols stop before sin) |
+| polity/rustamid-imamate | Ibn Khaldun, al-Ibar pp.1609–1614, 1620 (Berber dynasties chapter, Tahert/Ibadi revolt) |
+| polity/aghlabid-emirate | Ibn Khaldun, al-Ibar pp.1022–1027 (Aghlabid chapter, Qayrawan + Sicily campaigns) |
+| group/hafsids-of-bejaia | Ibn Khaldun, al-Ibar pp.1675–1680 (Banu Hafs chapter; scope limited to Bejaia passages per record's slug) |
+| work/tawrat | Ahmad Amin, Duha al-Islam pp.298–303 (Jewish-culture chapter); tanzil-quran kept on record |
+
+### Deferred this batch
+- `work/sujud-al-tilawa` (45 links) — still no own article located in extracted Mawsu'a text.
+- `work/mirqat-al-mafatih`, `work/umm-al-kitab`, `work/al-adab-al-mufrad` — no readable own entries this pass.
+- `concept/mahram` ihram reading kept narrow to kinship/mahram per record scope.
+
+### Methodological notes
+- All citations are own-article/section pages, not index hits; OCR forms «رتبيل/وتبيل» verified in context before use.
+- `person/` untouched.
+## Batch 7 — rijal cohort (agent pb2-rijal)
+
+Shipped after Batch 6 merge (PR #1182 merged 2026-10-23T21:13:57Z). Ten records, Arabic first with English and Urdu companions in the same commit; `completeness: 3` on all ten.
+
+| record | source read on the page |
+|---|---|
+| person/talha-ibn-nafi | Taqrib al-Tahdhib entry ٣٠٣٥ (Majmuat scan p.291) + kunya section p.32 |
+| person/zayd-ibn-abd-allah-ibn-umar | Taqrib al-Tahdhib entry ٢١٤٣ (Majmuat scan p.212) |
+| person/yahya-ibn-urwa | Taqrib al-Tahdhib entry ٧٦٠٨ (Majmuat scan p.665) |
+| person/ubayd-allah-ibn-abd-allah-ibn-umar | Taqrib al-Tahdhib entry ٤٣١٠ (Majmuat scan p.406) |
+| person/yazid-ibn-haram | al-Isaba entry ٩٣٢٨, p.1586 |
+| person/yazid-ibn-amir | al-Isaba entry ٩٣٧٧, pp.1593–1594 |
+| person/yazid-ibn-qays-ibn-al-khatim | al-Isaba entry ٩٤٠٢, pp.1596–1597 |
+| person/yazid-ibn-al-mundhir | al-Isaba entry ٩٤٣٢, pp.1600–1601 |
+| person/yazid-ibn-al-harith | al-Isaba entry ٩٣٢٣, p.1586 |
+| person/yaqub-al-dawraqi | Taqrib al-Tahdhib entry ٧٨١٢ (Majmuat scan p.680) |
+
+### Flags
+- `person/yazid-ibn-haram`: Isaba text is set in two interleaved columns; Ibn Hibban's «استشهد ببدر…» sentence sits inside entry ٩٣٢٨ (the neighbouring entry ٩٣٢٩ died 103 AH, so the Badr report cannot be his).
+- `person/yazid-ibn-al-harith`: draft card claimed killed at Badr; the Isaba entry (ابن فسحم، بدري، مؤاخاة مع ذي الشمالين) does not state his death — prose follows the page, the claim is flagged in the research notes.
+- `person/yaqub-al-dawraqi`: Taqrib scan reads «مات سنة اثنتين وخمسين»; completed to ٢٥٢هـ by context and his stated age 86 — matches the record's derived dates (d. 866).
+- `person/talha-ibn-nafi`: identity fixed as أبو سفيان الواسطي الإسكاف (entry ٣٠٣٥ + kunya section), not طلحة بن نافع الجعفي.
+
+### Deferred this batch
+- `person/uthman-ibn-urwa`, `person/uthman-ibn-qaid-al-najdi`, `person/ubaydallah-ibn-ahmad-sahib-al-ard`, `person/ubaydallah-ibn-abdallah-ibn-tahir`, `person/sulayman-ibn-abdallah-ibn-tahir` — no readable own entry in the extracted Taqrib/Thiqat/Isaba scans (index or passing mentions only).
+- `person/zurara-ibn-ayun`, `person/yunus-ibn-abd-al-rahman`, `person/yahya-ibn-yaman` — still deferred; no clean own entry in the scans on hand.
+- `person/yaqub-al-jarkhi`, `person/yusuf-ibn-nafis`, `person/waki-al-qadi`, `person/ubayd-ibn-al-abras` — Sufi/poet/judge records outside this lane's extracted rijal books; deferred pending al-A'lam or equivalent scan coverage.
