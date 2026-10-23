@@ -106,3 +106,14 @@ The majority forbid oil even when unscented, because it adds comfort and adornme
 Scent is defined differently by each school: for the Hanafis, what has a pleasant smell from which perfume is made; for the Shafi'is, what is meant mainly for its smell; for the Hanbalis, what is scented and used for smelling; the Malikis divide it into masculine and feminine kinds. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.1809} {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.1810}
 The pilgrim may not use scent on his waist-wrap, cloak, bedding or sandals, nor perfume his body even for treatment, nor drink or eat pure scent. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.1810}
 If scent is mixed into food, the ruling depends on whether it was cooked, how much scent there is, and whether its smell remains. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.1810} {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.1811}
+
+## Smelling scent
+Smelling scent without touching it is disliked by the Hanafis, Malikis and Shafi'is, with no penalty; the Hanbalis forbid it and require a sacrifice, as with musk and camphor. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.1811}
+
+## Game and what concerns it
+Game in the lexicon is hunting and catching; in law, for the Hanafis it is the wild land animal that resists capture by legs or wings and is wild by nature; for the Malikis, wild by nature; for the Shafi'is and Hanbalis, the wild land animal whose meat is lawful. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.1811}
+The prohibition on hunting for the pilgrim rests on the Qur'an (al-Ma'ida, ayas 95-96), the sunna (the hadith of Abu Qatada) and consensus. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.1811} {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.1812}
+Sea game is lawful to the pilgrim and to others, by text and consensus. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.1812}
+The pilgrim may not kill or harm game, such as breaking its legs or wing, frightening or holding it; nor help in hunting it by pointing, signalling or lending a knife; nor order its killing; nor take ownership of it by buying, selling, gift or bequest. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.1812} {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.1813}
+He may not benefit from game, by eating its meat, milk, eggs or its roasted flesh. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.1813}
+On eating game caught by a lawful person there is disagreement: Ali, Ibn Umar and Ibn Abbas forbid it; the majority allow it if it was not caught for the pilgrim; the Hanafis allow it unless the pilgrim ordered or pointed to it. The majority cite the hadith «land game is lawful to you as long as you do not hunt it or have it hunted for you». {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.1813} {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.1814}
