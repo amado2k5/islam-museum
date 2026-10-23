@@ -1,0 +1,38 @@
+id: person/mustafa-ibn-bayezid
+class: person
+label:
+  ar: "الأمير مصطفى بن بايزيد"
+  en: "Prince Mustafa, son of Bayezid I"
+names:
+  - { kind: full, lang: ar, value: "مصطفى بن بايزيد الأول" }
+roles: [prince, emir]
+gender: male
+summary:
+  ar: "الأمير مصطفى بن بايزيد الأول؛ أحد أبناء بايزيد الخمسة، ظُنّ أنه قُتل في معركة أنقرة سنة ٨٠٤هـ {cite:dawlat-uthmaniyya-salabi p. 70}. ثم ظهر في عهد ابن أخيه مراد الثاني قائداً لحركة تمرد تدعمها أعداء الدولة، ويذكر الصلابي أن الإمبراطور البيزنطي مانويل الثاني كان خلف دسائسه وأمدّه بالمساعدات حتى حاصر غاليبولي ابتغاء اتخاذها قاعدة له، فقبض عليه السلطان مراد وقدّمه للمشنقة {cite:dawlat-uthmaniyya-salabi p. 79}."
+  en: "Prince Mustafa, son of Bayezid I — presumed killed at Ankara in 804, he reappeared under his nephew Murad II at the head of a rising the book says emperor Manuel II financed; he besieged Gallipoli for a base, was captured and hanged {cite:dawlat-uthmaniyya-salabi p. 70, 79}."
+issue: { ar: "هل كان مصطفى الظاهر في عهد مراد الثاني هو ابن بايزيد حقاً أم مدّعٍ («مصطفى الكاذب»)؟", en: "Was the Mustafa who rose against Murad II truly Bayezid's son or an impostor ('Düzme Mustafa')?" }
+perspectives:
+  - tradition: sunni
+    id: sunni
+    summary: { en: "Al-Sallabi narrates him straightforwardly as 'his uncle Mustafa', the prince lost at Ankara, restored and then executed after the Byzantine-backed rising." }
+    sources: [source/dawlat-uthmaniyya-salabi]
+  - tradition: academic
+    id: academic
+    summary: { en: "The sources themselves disagree whether this Mustafa was the genuine prince or an impostor; Ottoman chronicles call him 'the false Mustafa'. This file records the book's account without settling the identity." }
+    sources: [source/dawlat-uthmaniyya-salabi]
+sensitivity: contested
+wings: [people]
+regions: [anatolia-balkans]
+periods: [period/mongol-post-mongol]
+relations:
+  - { type: child_of, target: person/bayazid-i-yildirim, sources: [source/dawlat-uthmaniyya-salabi] }
+  - { type: opposed, target: person/murad-ii-uthmani, sources: [source/dawlat-uthmaniyya-salabi] }
+  - { type: related_to, target: person/manuel-ii-palaiologos, role: "داعمه في رواية الكتاب", sources: [source/dawlat-uthmaniyya-salabi] }
+sources: [source/dawlat-uthmaniyya-salabi]
+provenance:
+  layer: own-research
+  source: "الدولة العثمانية لعلي محمد الصلابي، ص 70، 79"
+  generated_by: "Devin (SWE-2 Medium) from Apple Vision OCR"
+  model: "SWE-2 Medium"
+  run: lib-salabi-uthmani-batch-4
+status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 Medium)" }

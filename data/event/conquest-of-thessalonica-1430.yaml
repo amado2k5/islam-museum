@@ -3,21 +3,19 @@ class: event
 kind: siege
 label: { ar: "فتح سالونيك", en: "Conquest of Thessalonica" }
 summary:
-  ar: "بطاقة أولية لحصار وفتح مراد الثاني لسالونيك سنة ١٤٣٠م بعد استلامها من البنادقة؛ لم تُراجع مصادره على الصفحة بعد."
-  en: "Draft card for Murad II's siege and capture of Thessalonica in 1430 after taking it over from Venice; its sources are not yet checked on the page."
+  ar: "يذكر الصلابي أن السلطان مراد الثاني أسرع باحتلال سالونيك بعد قضائه على التمردات التي وقف الإمبراطور البيزنطي مانويل الثاني وراءها، فهاجمها ودخلها عنوة في مارس سنة ٨٣٣هـ/١٤٣١م وأصبحت جزءاً لا يتجزأ من الدولة العثمانية {cite:dawlat-uthmaniyya-salabi p. 79}."
+  en: "Thessalonica — after crushing the pretenders Manuel II had backed, Murad II moved on the city and stormed it in March 833/1431, making it permanently Ottoman in al-Sallabi's account {cite:dawlat-uthmaniyya-salabi p. 79}."
 wings: [time]
-periods: [period/crusades-ayyubid-mamluk]
+periods: [period/mongol-post-mongol]
 regions: [anatolia-balkans]
 date:
-  start: { edtf: "1422", precision: year, status: tradition, derived: true }
-  end: { edtf: "1430", precision: year, status: tradition, derived: true }
+  start: { edtf: "1431-03~", hijri: "0833", calendar: julian, precision: month, status: tradition, derived: true, note: "مارس ٨٣٣هـ/١٤٣١م؛ التحويل مشتق {cite:dawlat-uthmaniyya-salabi p. 79}." }
+relations:
+  - { type: had_participant, target: person/murad-ii-uthmani, role: "القائد الفاتح", sources: [source/dawlat-uthmaniyya-salabi] }
 sources: [source/dawlat-uthmaniyya-salabi]
-external_ids:
-  wikidata: Q2426040
 provenance:
   layer: own-research
-  source: "Wikidata candidate; siege attested in Ottoman histories — entry not yet checked on the page"
-  generated_by: "Devin (SWE-2 High)"
-  model: "SWE-2 High"
-  run: wikidata-import-wave2
-status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }
+  source: "الدولة العثمانية لعلي محمد الصلابي، ص 79"
+  generated_by: "Devin (SWE-2 Medium) from Apple Vision OCR"
+  run: lib-salabi-uthmani-batch-4
+status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 Medium)" }
