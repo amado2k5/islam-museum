@@ -1,0 +1,22 @@
+id: event/uthman-consults-on-ifriqiya
+class: event
+kind: campaign
+label: { ar: "استشارة عثمان الصحابة في غزو إفريقية", en: "Uthman consults the Companions on the campaign to Ifriqiya" }
+summary:
+  ar: "أخبر عبد الله بن سعد والي مصر عثمان بأن المسلمين يغيرون على أطراف إفريقية، فاستشار عثمان الصحابة واحداً واحداً، ومنهم علي وطلحة والزبير والعباس، ثم استشار سعيد بن زيد فكره الغزو مستدلاً بقول عمر، فلم يختلف عليه أحد غيره، ثم ندب الناس فخرج الجيش (ص161). ويذكر الكتاب أن بعض الصحابة، ومنهم عبد الله بن الزبير وأبو ذر، خرجوا في هذا الغزو (ص161-162)."
+wings: [people, place]
+periods: [period/rashidun]
+regions: [maghreb]
+date:
+  start: { edtf: "0644/0656", calendar: julian, precision: year, status: tradition, derived: true, note: "لا تاريخ منصوص لهذه الاستشارة في الصفحات المقروءة؛ المدة خلافة عثمان (23-35هـ)." }
+relations:
+  - { type: had_participant, target: person/uthman-ibn-affan, role: "المستشير والآمر بالغزو", sources: [source/sallabi-ali-vol1] }
+  - { type: had_participant, target: person/ali-ibn-abi-talib, role: "من المستشارين", sources: [source/sallabi-ali-vol1] }
+  - { type: had_participant, target: person/talha-ibn-ubaydullah, role: "من المستشارين", sources: [source/sallabi-ali-vol1] }
+  - { type: had_participant, target: person/zubayr-ibn-al-awwam, role: "من المستشارين", sources: [source/sallabi-ali-vol1] }
+  - { type: had_participant, target: person/said-ibn-zayd, role: "كره الغزو مستدلاً بقول عمر", sources: [source/sallabi-ali-vol1] }
+  - { type: had_participant, target: person/abdullah-ibn-sad-ibn-abi-sarh, role: "والي مصر الذي أخبر عثمان بالإغارة", sources: [source/sallabi-ali-vol1] }
+  - { type: occurred_at, target: place/ifriqiya }
+sources: [source/sallabi-ali-vol1]
+status: { review: draft, completeness: 1, generated_by: "Claude Code (claude-haiku-5-5); mined from sallabi-ali-vol1 pp. 161-162" }
+provenance: { layer: own-research, source: "sallabi-ali-vol1 pp. 161-162", generated_by: "Claude Code", model: "claude-haiku-5-5", run: "sallabi-ali-vol1-deep-pp151-200" }

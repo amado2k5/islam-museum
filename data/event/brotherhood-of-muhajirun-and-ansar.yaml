@@ -21,5 +21,33 @@ relations:
   - { type: had_participant, target: group/ansar, sources: [source/mubarakpuri-raheeq] }
   - { type: part_of, target: period/prophetic-era }
   - { type: caused_by, target: event/hijra }
-sources: [source/mubarakpuri-raheeq, source/sahih-al-bukhari, source/zad-al-maad, source/ibn-ishaq-guillaume, source/watt-1956-medina, source/lings-1983]
+sources: [source/mubarakpuri-raheeq, source/sahih-al-bukhari, source/zad-al-maad, source/ibn-ishaq-guillaume, source/watt-1956-medina, source/lings-1983, source/sallabi-ali-vol1]
 status: { review: draft, completeness: 2, generated_by: "Antigravity; al-Raheeq al-Makhtum pp. 185–186 citing Bukhari 1/312, 1/553 and Zad al-Maad 2/56" }
+issue:
+  ar: "هل آخى النبي بين المهاجرين في مكة قبل الهجرة، ومنهم علي؟"
+  en: "Did the Prophet pair the emigrants with one another in Mecca before the Hijra, Ali among them?"
+perspectives:
+  - tradition: sunni
+    id: sunni-denial
+    stance:
+      ar: "لا مؤاخاة بين المهاجرين بعضهم مع بعض، والأحاديث الواردة فيها مكذوبة"
+      en: "No pairing among the emigrants with one another, and the reports on it are false"
+    summary:
+      ar: "ينقل الكتاب إنكار ابن تيمية للمؤاخاة بين المهاجرين، وتكذيبه الأحاديث الواردة فيها، ويرى أن المهاجرين استغنوا بأخوة الإسلام وأخوة الدار وقرابة النسب (ص 75)."
+    sources: [source/sallabi-ali-vol1]
+  - tradition: sunni
+    id: sunni-author-conditional
+    stance:
+      ar: "رواية البلاذري عن مؤاخاة بمكة تضعف لإرسالها؛ وعلى فرض صحتها فهي مؤازرة لا توارث"
+      en: "Al-Baladhuri's report of a pairing in Mecca is weak as an unsupported report; if it were sound it would be support and counsel, not inheritance"
+    summary:
+      ar: "يذكر الكتاب أن البلاذري (ت 276 هـ) أقدم من أشار إلى المؤاخاة المكية وتابعه ابن عبد البر وابن سيد الناس، وأن البلاذري ساقها بلفظ «قالوا» دون إسناد، وأن كتب السيرة الأولى لم تذكرها. وعلى فرض صحتها فإنها تقتصر على المؤازرة والنصيحة، لأن آية أولي الأرحام نسخت التوارث بموجب المؤاخاة (ص 75-76)."
+    sources: [source/sallabi-ali-vol1]
+  - tradition: sunni
+    id: sunni-ibn-kathir-doubt
+    stance:
+      ar: "إنكار بعض العلماء مؤاخاة النبي لعلي، ونقد أسانيدها"
+      en: "Some scholars deny the Prophet's pairing of Ali, and the chains of the reports are weak"
+    summary:
+      ar: "ينقل الكتاب عن ابن كثير أن بعض العلماء ينكر مؤاخاة النبي لعلي، ويذكر أن المؤاخاة لعلها أريد بها ألا تكون مصلحة علي إلى غيره، لأن النبي كان ينفق عليه من صغره، ثم ينقل عنه أن أسانيد أكثر الأحاديث في مؤاخاة علي ضعيفة (ص 76)؛ ولم يُرجّح الكتاب بين الموقفين."
+    sources: [source/sallabi-ali-vol1]

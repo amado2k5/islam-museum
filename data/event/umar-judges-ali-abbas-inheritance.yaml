@@ -1,0 +1,21 @@
+id: event/umar-judges-ali-abbas-inheritance
+class: event
+kind: other
+label: { ar: "حكم عمر في خلاف العباس وعلي على ميراث النبي", en: "Umar judges the dispute of al-Abbas and Ali over the Prophet's property" }
+summary:
+  ar: "اختصم العباس وعلي إلى عمر فيما أفاء الله على رسوله من أموال بني النضير؛ فاستشهد عمر الرهط الحاضرين على قول النبي «لا نورث ما تركنا صدقة»، ثم ذكر ما كان من النبي وأبي بكر وعلي في إدارة الصدقة، فأقسم أن علياً صادق فيها، وقال: إن عجزتما عنها فادفعاها إليّ فإني أكفيكماها (ص152-153)."
+wings: [people, ideas]
+periods: [period/rashidun]
+regions: [arabia]
+date:
+  start: { edtf: "0634/0644", calendar: julian, precision: year, status: tradition, derived: true, note: "الكتاب لا يذكر سنة هذا الحكم في الصفحات المقروءة؛ الفترة مشتقة من خلافة عمر (13-23هـ) (ص152-153)." }
+relations:
+  - { type: occurred_at, target: place/medina }
+  - { type: had_participant, target: person/umar-ibn-al-khattab, role: "القاضي بين الخصمين", sources: [source/sallabi-ali-vol1] }
+  - { type: had_participant, target: person/ali-ibn-abi-talib, role: "طالب بميراث فاطمة من أبيها بعد رأيه في الصدقة", sources: [source/sallabi-ali-vol1] }
+  - { type: had_participant, target: person/abbas-ibn-abd-al-muttalib, role: "طلب نصيبه من مال النبي", sources: [source/sallabi-ali-vol1] }
+  - { type: had_participant, target: person/uthman-ibn-affan, role: "من الرهط الذين حضروا، وأقرّوا بالحديث", sources: [source/sallabi-ali-vol1] }
+  - { type: had_participant, target: person/abd-al-rahman-ibn-awf, role: "من الرهط الحاضرين", sources: [source/sallabi-ali-vol1] }
+sources: [source/sallabi-ali-vol1]
+status: { review: draft, completeness: 1, generated_by: "Claude Code (claude-haiku-5-5); mined from sallabi-ali-vol1 pp. 152-153" }
+provenance: { layer: own-research, source: "sallabi-ali-vol1 pp. 152-153", generated_by: "Claude Code", model: "claude-haiku-5-5", run: "sallabi-ali-vol1-deep-pp151-200" }

@@ -1,0 +1,22 @@
+id: person/ubaydallah-ibn-abbas
+class: person
+label: { ar: "عبيد الله بن العباس بن عبد المطلب", en: "Ubaydallah ibn al-Abbas" }
+gender: male
+roles: [emir]
+summary:
+  ar: "ابن العباس بن عبد المطلب، وأخو عبد الله وقثم وتمام. يذكره الصلابي في قائمة ولاة علي واليا على اليمن والبحرين {cite:sallabi-ali-vol1 p. 358}، ويعدّه ضمن أبناء العباس الذين ولاهم علي {cite:sallabi-ali-vol1 p. 357}."
+  en: "A son of al-Abbas ibn Abd al-Muttalib, brother of Abdallah, Qutham and Tammam. The book lists him as Ali's governor of Yemen and Bahrain {cite:sallabi-ali-vol1 p. 358} among the sons of al-Abbas he appointed {cite:sallabi-ali-vol1 p. 357}."
+periods: [period/rashidun]
+wings: [people]
+relations:
+  - { type: ruler_of, target: place/yemen, sources: [source/sallabi-ali-vol1] }
+  - { type: ruler_of, target: place/bahrayn, sources: [source/sallabi-ali-vol1] }
+  - { type: participated_in, target: event/ali-appoints-abbas-sons-as-governors, sources: [source/sallabi-ali-vol1] }
+sources: [source/sallabi-ali-vol1]
+provenance:
+  layer: own-research
+  source: "sallabi-ali-vol1 pp. 357-358, governors list (harvest OCR)"
+  generated_by: "Claude Code"
+  model: "claude-haiku-5-5"
+  run: "sallabi-ali-vol1-deep-pp351-388"
+status: { review: draft, completeness: 1, generated_by: "Claude Code (claude-haiku-5-5); from the book's list only; dates of office not printed" }
