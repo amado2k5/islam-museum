@@ -1,0 +1,8 @@
+---
+id: concept/hirabah
+lang: ar
+source_lang: ar
+translators: []
+---
+## موجز
+الحرابة في الاصطلاح، ويسميها أكثر الفقهاء قطع الطريق، وهي البروز لأخذ مال أو قتل أو إرعاب على سبيل المجاهرة والمكابرة، اعتمادا على القوة مع البعد عن الغوث، وزاد المالكية محاولة الاعتداء على العرض. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.6966} والحرابة من الكبائر، وهي من الحدود باتفاق، وسمى القرآن مرتكبيها محاربين لله ورسوله وساعين في الأرض فسادا، وعقوبتهم القتل أو الصلب أو تقطيع الأيدي والأرجل من خلاف أو النفي من الأرض. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.6966} {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.6967} {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.6968} وتفترق عن البغي بأن البغي خروج على تأويل، والمحاربين خرجوا بغير تأويل، وتفترق عن السرقة بالمجاهرة، وعن الغصب بالسلاح. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.6966} {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.6967} ويشترط الجمهور في المحارب الالتزام بأحكام الشريعة والتكليف، وعند الحنفية والحنابلة أن يحمل السلاح، والمالكية والشافعية يكتفون بالقهر والغلبة. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.6968} {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.6969} {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.6970} وذكورة المحارب شرط عند الحنفية، ويرى أبو يوسف أن الرجال الذين يشاركون المرأة في المباشرة يُحدّون. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.6969} {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.6970} والردء، وهو المعين، حكمه حكم المباشر عند الحنفية والمالكية والحنابلة، ويُعزّر عند الشافعية. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.6970} {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.6971} وعقوبة المحارب حد لا يسقط بالعفو، وتسقط بالتوبة قبل القدرة عليهم. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.6970} {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.6971}
