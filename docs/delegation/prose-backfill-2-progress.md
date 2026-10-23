@@ -4,10 +4,64 @@ Lane doc: `docs/agents/lanes/prose-backfill-2.md`. Programme plan: `docs/delegat
 
 **Queue.** Missing-prose tier ranked by inbound links, recomputed 23 Oct 2026 on `origin/main` (12,391 missing). Split boundary: this lane works missing prose top-down and stops before the zero-link tail; `prose-backfill` keeps the thin tier. Head of queue at open: `person/muhammad-mutawalli-al-shaarawi` (104 links), `person/muhammad-ibn-yahya-ibn-habban` (44), `person/malik-ibn-abi-amir-al-asbahi` (28), `person/yahya` (16), `place/najd` (8), `group/mongols` (7).
 
-**Lane total: 0.**
+**Lane total: 29.**
 
 ## Batches
 
-_(none yet — batch 1 in progress)_
+### Batch 1 (23 Oct 2026, 11 records, ar+en+ur)
 
-**Next step (exact):** batch 1 = the first 25 records of the missing-prose queue that have readable book sources in the harvest library (skipping wikidata-only records, logged here).
+Written (queue position noted):
+- `place/najd` — Hamdani, Sifat Jazirat al-Arab pp. 87-88 (the Hijaz/Tihama boundary definition).
+- `group/mongols` — Ibn Khaldun, al-Ibar (Heliopolis 1957) pp. 34-36; Kamil cited as record's source.
+- `event/siege-of-uthman-35` — Suyuti, Tarikh al-Khulafa pp. 270-276 (Zuhri, Ibn Sa'd); **flag:** record's filed source is Tabari but the harvested Tabari vols do not cover 35 AH — Tabari comparison still needed.
+- `person/al-hadi` — Tarikh al-Khulafa pp. 442, 451-452 (bay'a 159/169, death Rabi' II 170, disputed cause — all variants given).
+- `person/al-baqillani` — Wafayat al-A'yan v.4 (Ihsan Abbas); **flag:** vol. 4 extract has no page markers, cited to the work; page to be added on page-image check.
+- `person/abu-mansur-al-maturidi` — al-A'lam (mim vol, scan p. 164) + Wafayat.
+- `person/sufyan-ibn-awf` — Isaba (Dar al-Faysaliyya) pp. 588-589 + al-A'lam p. 378; death 53/54 AH (Khalifa/Abu Ubayd) and killed near Constantinople (Zirikli) — variants given.
+- `person/mikhnaf-ibn-sulaym` — Isaba p. 1381 (Azdi of Kufa/Basra, Arafat sacrifice hadith, ancestor of Abu Mikhnaf).
+- `person/aktham-ibn-sayfi` — Nihayat al-Arab v.3 pp. 11, 15 (marginal notice + his proverbs); **flag:** death year unclear in OCR (~630 CE), needs image check.
+- `person/mudar-ibn-nizar` — Nihayat al-Arab v.3 pp. 8-9 (Nizar's division and the al-Af'a arbitration).
+- `work/kitab-al-shifa` — Hasan Ibrahim Hasan, Tarikh al-Islam (cultural vol.) pp. 392-393 quoting Ibn Khallikan 2/152-153.
+
+Skipped, no readable book source located in the harvest (records cite `source/al-aalam` or similar but the entry was not found in the extracted volumes, or only passing isnad mentions exist):
+- `person/muhammad-mutawalli-al-shaarawi` — record cites al-A'lam + his own works; no biographical entry found in the four extracted A'lam vols; his own books cannot source his bio.
+- `person/muhammad-ibn-yahya-ibn-habban` — no A'lam entry under mim found; only isnad mentions in Ma'rifat al-Sahaba.
+- `person/malik-ibn-abi-amir-al-asbahi` — A'lam entry not found in extracted vols; Wafayat v.2 mention not located in text.
+- `person/muhammad-ibn-abd-al-rahman-ibn-nawfal` — nearest A'lam hit is Jubayr b. Mut'im, a different person.
+- `person/mabad-ibn-kab-ibn-malik` — appears in Isaba only inside isnads (Ka'b b. Malik's repentance chain), no tarjama.
+- `person/al-najashi` — record is Ahmad b. Ali al-Najashi (Imami rijal scholar); A'lam hits found are the Negus of Abyssinia — different person.
+- `person/baha-al-din-naqshband`, `person/shaykh-al-tusi`, `person/yunus-emre`, `person/rashid-al-din-sinan`, `person/zahir-al-din-ibn-al-attar`, `person/qutb-al-din-mawdud`, `person/qurayba-bint-abi-umayya` — entries not located in the four extracted A'lam volumes (other vols absent from the drive) and no alternate book found.
+- `person/kayqubad-i`, `person/sulayman-shah-ii-rum`, `person/qilij-arslan-ii`, `person/il-arslan-khwarazmshah` — Hasan Ibrahim vol. 4 gives only a dynastic table (p. 92); too thin for a sourced page; **flag:** find Seljuk-Rum narrative source.
+- `person/qara-yusuf`, `person/mustafa-aga-mimarbashi` — no hits in the extracted Salabi Ottoman vols or al-Ibar.
+- `concept/muslim-brotherhood-founding-idea`, `event/*ottoman*/modern buildings` — deferred to Phase 4 (`modern-century`) where they belong by period.
+
+### Batch 2 (23 Oct 2026, 18 records, ar+en+ur) — directed fiqh-term batch
+
+Owner directed (23 Oct): `prose-backfill-2` writes the fiqh-term prose now, not deferred to `practice-fiqh`. Batch = the thin/one-line fiqh terms in the practice/concept classes, expanded to full prose from the Kuwaiti Fiqh Encyclopedia (`source/fiqh-mawsua-kuwaitiyya-noor-v3`, Noor-Book OCR; scan-page cites). Note these records sat in the thin tier — normally `prose-backfill`'s queue — but were pulled by owner direction; sibling lane should not rework them (listed done here). Each record's yaml gained the Mawsu'a source and completeness 3.
+
+Written:
+- `practice/wudu` — headword «وضوء», pp.17364-17367 (madhhab definitions, shari'a qadima, ordinance with prayer, tayammum relation).
+- `practice/tayammum` — «تيمم», pp.6082-6085 (definitions, sabab al-nuzul, ummah's privilege, rukhsa/azima, conditions and arkan).
+- `practice/ghusl-al-janaba` — «غسل», pp.12064-12067 (definition, obligation by semen, madhhab conditions, ihtilam ruling).
+- `practice/ghusl-al-janaza` — «جنائز», pp.6464-6469 (pre-wash rites, announcing death, kafn as fard kifaya, Quran beside the body); washing itself cited at p.6469 (fard kifaya, details under «تغسيل الميت»).
+- `practice/salat-al-janaza` — «جنائز», pp.6476-6481 (fard kifaya, arkan across four schools, conditions, salam, sunnas).
+- `practice/salat-al-jumua` — «يوم الجمعة», pp.18016-18019 (name and merit, fard 'ayn, Friday ghusl dispute, travel, fasting).
+- `practice/salat-al-kusuf` — «صلاة الكسوف», pp.10614-10616 (definition, sunna mu'akkada / Hanafi wajib, time, forbidden-times dispute).
+- `practice/itikaf` — «اعتكاف», pp.2996-2997 (definition, khalwa/ribat/jiwar, wisdom, sunna unless vowed).
+- `practice/nadhr` — «نذر», pp.15558-15560 (definition, legitimacy by book/sunna/ijma, recommended vs disliked tendencies).
+- `practice/kaffarat-al-yamin` — «كفارة», pp.13408-13410 + «يمين» p.18005 (definition, Ma'ida 89 expiation text, istighfar/tawba/'uquba).
+- `practice/sadaqa` — «صدقة», pp.10295-10297 (definition, uses incl. waqf and every ma'ruf, hiba/hadiyya/'ariyya, wisdom and merit).
+- `practice/nikah` — «نكاح», pp.16034-16036 (four definitions, haqiqa dispute and its musahara consequence).
+- `practice/udhiyya` — «أضحية», pp.2864-2865 (definition, qurban/hady distinction by intention, 'aqiqa/far'/'atira).
+- `practice/dafn` — «دفن», pp.8216-8218 (fard kifaya, Qabil, sea burial, cemetery, mosque burial, moving the body).
+- `practice/taziya` — «تعزية», pp.5451-5453 (definition, recommendation, recipients, three days, after-burial, gathering dislike).
+- `practice/zakat` — «زكاة», pp.9072-9074 (definition, sadaqa/'atiyya, obligation by book/sunna/ijma, fighting withholders).
+- `practice/aqiqa` — «عقيقة», p.11783 (definition, nasika name preference).
+- `concept/zina` — «زنى», pp.9222-9224 (four definitions, wat'/liwat/sihaq, prohibition and five universals).
+
+Flags:
+- The Mawsu'a copy is OCR-only on this drive; scan-page numbers cited are the Noor-Book scan markers (as used by the w01-w10 mining windows), not printed folio numbers.
+- `concept/ushri` was **not** rewritten — its record is the land-tax status (ushri land, al-Baladhuri), while Mawsu'a's «عُشْر» covers the dhimmi trade tithe; related but not the record's subject. Left as-is; a fuller treatment can come when «زكاة»/«خراج» material is mined.
+- `practice/dhabihah` (the only missing-prose practice) has no headword under «ذبيحة»; likely under «ذكاة» or inside «أضحية» — deferred to next batch sweep.
+
+**Next step (exact):** the hadith-rijal cohort (`person/abu-salih-al-samman`, `person/abd-al-rahman-ibn-abd-al-qari`, …) still needs Isaba entries extracted; the extracted Tahdhib/Taqrib vols on the drive cover different letter-ranges, so per-entry lookup is required. Alternatively continue the fiqh-term tier with the remaining thin practices (`practice/khitan`, `practice/walima`, `practice/miswak`, `practice/istikhara`, `practice/suhur`, `practice/iftar`, `practice/taraweeh`, `practice/sujud-tilawa`, `practice/itikaf`… headwords located: «جنائز», «قيام الليل» p.13134, «عقيقة» p.11783).
