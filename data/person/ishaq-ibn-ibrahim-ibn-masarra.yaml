@@ -1,0 +1,23 @@
+id: person/ishaq-ibn-ibrahim-ibn-masarra
+class: person
+label: { ar: "أبو إبراهيم التجيبي", en: "Abu Ibrahim al-Tujibi" }
+names:
+  - { value: "أبو إبراهيم إسحاق بن إبراهيم بن مسرة التجيبي", kind: full }
+born: { edtf: "0870~", hijri: "0257", calendar: julian, precision: year, status: tradition, derived: true, note: "ولد سنة 257 هـ بحسب النص {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.5141}؛ التحويل الميلادي مشتق وتقريبي." }
+died: { edtf: "0963~", hijri: "0352", calendar: julian, precision: year, status: tradition, derived: true, note: "توفي سنة 352 هـ بحسب النص {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.5141}؛ التحويل الميلادي مشتق وتقريبي." }
+summary:
+  ar: "فقيه أخذ عن وهب بن عيسى وابن أبي تمام وابن لبابة، وحدّث وسمع منه جماعة، وكان حافظا للفقه على مذهب مالك وأصحابه، وله كتاب «النصائح» وكتاب «معالم الطهارة والصلاة». {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.5141}"
+  en: "A jurist who studied with Wahb ibn Isa, Ibn Abi Tamam and Ibn Lubaba, and who narrated and was heard by several people. He knew the law of the Maliki school and its masters by heart, and wrote the Book of Counsels and a work on the rules of purity and prayer. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.5141}"
+gender: male
+roles: [scholar]
+wings: [people]
+periods: [period/abbasid-fragmentation]
+regions: [andalus-europe]
+sources: [source/fiqh-mawsua-kuwaitiyya-noor-v3]
+status: { review: draft, completeness: 1, generated_by: "Claude Haiku 5.5; appendix entry of volume 11 on scan p.5141. The region is inferred from the nisba and the named teachers, not stated in the entry; to be checked against the source it cites. The book's bracketed reference is not transcribed." }
+provenance:
+  layer: own-research
+  source: "الموسوعة الفقهية الكويتية، نسخة نور بوك، ملحق تراجم الفقهاء، ص 5141"
+  generated_by: "Claude Haiku 5.5"
+  model: claude-haiku-5-5
+  run: mawsua-w03-batch39
