@@ -25,3 +25,12 @@ The kurr is sixty qafiz and carries no ruling. The kilaja is an Iraqi measure. T
 
 ## Zakat al-fitr, the mudi, the mikkuk and the wasq
 For zakat al-fitr a sa' of any listed kind is due; the Hanafis require half a sa', two mudds, of wheat. The mudi is a measure of Syria and Egypt. The mikkuk is a sa' and a half for the Hanafis and Malikis, and two and a half for Abu 'Ubayd. The wasq is sixty sa', the load of a camel, and fixes the thresholds for crops and fruit. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.14865} {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.14866}
+
+## The wasq and the wayba
+The jurists' majority set the zakat threshold for crops at five wasqs, while Abu Hanifa makes zakat due on any quantity. The wayba holds twenty-two or twenty-four mudds of the Prophet's measure, or three kilajas; one account makes it an Egyptian measure. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.14867}
+
+## Weights: dirham, dinar and ratl
+The dirham, the dinar and the ratl are the main weights; others are multiples or parts of them. The istar is six and a half dirhams; the uqiyya is forty dirhams, and Umar cited the hadith of the wives' dower of twelve uqiyyas and a nash. A habba is one forty-eighth of a dirham, and when used alone means a middling barley grain. By the majority a mithqal is seventy-two grains and a dirham fifty and a fifth; the Hanafis put the mithqal at a hundred grains and the dirham at seventy. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.14867} {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.14868} {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.14869}
+
+## The ratl
+The Baghdadi ratl is the standard for the jurists. The majority put it at 128 and four-sevenths dirhams; the Hanafis give 130 in one report and 128 and four-sevenths in another; the Hanbalis and Shafi'is follow the latter. The Damascene ratl is six hundred dirhams but is used only through the Baghdadi one. The sa' is five and a third ratls for the majority and eight ratls for the Hanafis. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.14869} {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.14870}
