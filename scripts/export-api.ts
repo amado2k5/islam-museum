@@ -85,8 +85,6 @@ export function exportNeighbourhoods(c: Compiled, real: Node[], related: Record<
   for (const n of real) {
     const first = adj.get(n.id);
     if (!first?.length) continue;
-    // a verse whose only edge is part_of its sura has no constellation of its own (the sura's serves); this keeps the export small
-    if (n.class === "passage" && n.data.unit === "ayah" && first.length <= 1) continue;
     const keep = new Set<string>([n.id]);
     const hop1 = pick(new Set(first.map((x) => x.to)), keep, HOP1);
     hop1.forEach((i) => keep.add(i));
