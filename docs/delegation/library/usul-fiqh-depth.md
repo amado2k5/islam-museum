@@ -192,3 +192,17 @@ Add this lane's entries to `scripts/harvest/library/books.yaml` in the lane's ow
 - **Qur'an and honorifics:** no Qur'an text typed; no honorific formulas copied from the OCR (the Urdu and English drafts omit them). The OCR's statement on the Prophet's grandsons was not copied.
 - **Checks:** `npm run validate` 0 errors (see the run record in the commit message); `npm test` run once: 101 of 101 passed (8 files, exit 0); `npm run graph` and `npm run coverage` run in the same commit.
 - **Next headword and page (exact):** `أبنة` (the word on the Kuwaiti encyclopedia's p.1466, its definition runs into p.1467), then `أبوات` at p.1468, then `اتباع` at p.1468. Read to the next heading before drafting; `أبنة` has no complete record yet.
+
+## Kuwaiti encyclopedia, batch 6 from p.1466 (draft, 23 Oct 2026)
+
+- **Copy and identity:** as above (`books/fiqh/fiqh-mawsua-kuwaitiyya-noor-v3/`, OCR on the harvest drive, not in git). Branch `lib-exp-usul-fiqh-depth-batch6` from `origin/main`, which already holds batch 5.
+- **Pages read (scan markers):** pp.1466-1469 (4 pages). The drive was unmounted for part of this session and read again once it was back.
+- **Headwords drafted as complete (all `status.review: draft`, `completeness: 1`), 3 entities:**
+  - `concept/ubna` (الأُبْنَة, a condition of desire for the forbidden act; pp.1466-1467). The entry is set out as definition, general ruling and places of discussion. Marked `sensitivity: mature`.
+  - `concept/ibham` (الإبهام, ambiguity in speech and transactions, and the finger as a meaning of the word; pp.1467-1468). The usuli appendix on ambiguity is not read here.
+  - `concept/abawan` (الأبوان, the two parents, with figurative use; pp.1468-1469). The Qur'an verse is referenced by surah only, not quoted.
+- **Partial headword, not drafted:** `اتّباع` (following; begins p.1468 and runs past p.1469). Next batch starts there.
+- **Skipped:** none. «أبوات» is a heading in the same layout as «أبوان» and was covered with it.
+- **Language:** Arabic content and English draft translations of every file. **Urdu translation is not included in this batch** (no `content/ur/` files), to be added in a follow-up.
+- **Checks:** `npm run validate` 0 errors. `npm test`: 92 passed, 1 skipped, 2 failed. Both failures are in `scripts/tour.test.ts` and come from this worktree lacking `site/` dependencies (`astro/tsconfigs/strict` cannot be resolved). `verify_cites.py` reports 284 problems, none in these files (they are in other batches' files). `npm run graph` and `npm run coverage` run, `docs/coverage.md` regenerated.
+- **Next headword and page (exact):** `اتّباع`, begins on scan p.1468 (after the heading «أَبَوات» / «أبوان» block). Read to the next heading before drafting.
