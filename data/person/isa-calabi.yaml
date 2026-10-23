@@ -8,20 +8,24 @@ names:
 roles: [prince]
 gender: male
 summary:
-  ar: "بطاقة أولية لعيسى جلبي، ابن بايزيد الأول الذي نازع إخوته في الأناضول أثناء الفترة، ورد في وصف مرجعي مفتوح (ويكي البيانات). لم تُراجع ترجمته في تاريخ الدولة العثمانية للصلابي على الصفحة بعد، لذلك لا تُذكر هنا تواريخ."
-  en: "Draft card for İsa Çelebi, son of Bayezid I who contested his brothers in Anatolia during the interregnum, named from an open reference description (Wikidata); his entry in al-Salabi's history of the Ottoman state is not yet checked on the page, so no dates are given."
+  ar: "الأمير عيسى بن بايزيد الأول؛ أحد أبناء بايزيد الخمسة الذين اشتركوا معه في القتال، نجا من هزيمة أنقرة سنة ٨٠٤هـ/١٤٠٢م فذهب إلى بروسة وأعلن للناس أنه خليفة أبيه، فكان أحد المتنازعين الثلاثة على أشلاء الدولة في الحرب الأهلية العثمانية إلى جانب أخويه سليمان في أدرنة ومحمد في أماسيا {cite:dawlat-uthmaniyya-salabi p. 70}. وانتهت الفترة بغلبة أخيه الأصغر محمد الأول سنة ١٤١٣م {cite:dawlat-uthmaniyya-salabi p. 72-73}."
+  en: "İsa Çelebi, son of Bayezid I — escaped the Ankara defeat of 804/1402, went to Bursa and proclaimed himself his father's successor, one of the three brothers fighting over the fragments of the state in the Ottoman civil war alongside Süleyman in Edirne and Mehmed in Amasya {cite:dawlat-uthmaniyya-salabi p. 70}, until Mehmed I prevailed in 1413 {cite:dawlat-uthmaniyya-salabi p. 72-73}."
 wings: [people]
 regions: [anatolia-balkans]
 periods: [period/mongol-post-mongol]
+relations:
+  - { type: child_of, target: person/bayazid-i-yildirim, sources: [source/dawlat-uthmaniyya-salabi] }
+  - { type: sibling_of, target: person/sulayman-calabi-prince, sources: [source/dawlat-uthmaniyya-salabi] }
+  - { type: sibling_of, target: person/muhammad-i-jalabi, sources: [source/dawlat-uthmaniyya-salabi] }
+  - { type: sibling_of, target: person/musa-ibn-bayezid, sources: [source/dawlat-uthmaniyya-salabi] }
+  - { type: participated_in, target: event/fetret-interregnum, role: "المتنازع في بروسة", sources: [source/dawlat-uthmaniyya-salabi] }
 sources: [source/dawlat-uthmaniyya-salabi]
 external_ids:
   wikidata: Q1085744
 provenance:
   layer: own-research
-  source: "Wikidata Q1085744 (religion claim Islam); book source: al-Salabi, al-Dawla al-Uthmaniyya — entry not yet read on the page"
-  generated_by: "Devin (SWE-2 High)"
-  model: "SWE-2 High"
-  run: wikidata-import-0011
-status:
-  review: draft
-  completeness: 1
+  source: "الدولة العثمانية لعلي محمد الصلابي، ص 70–73"
+  generated_by: "Devin (SWE-2 Medium) from Apple Vision OCR"
+  model: "SWE-2 Medium"
+  run: lib-salabi-uthmani-batch-3
+status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 Medium)" }
