@@ -34,10 +34,10 @@ Average sources per entity: **1.28** · Women share of persons with a recorded g
 
 | Key | Count |
 |---|---|
-| ideas | 1066 |
+| ideas | 1067 |
 | living | 59 |
 | made | 119 |
-| objects | 6132 |
+| objects | 6131 |
 | people | 8178 |
 | place | 1710 |
 | time | 3973 |
@@ -48,7 +48,7 @@ Average sources per entity: **1.28** · Women share of persons with a recorded g
 
 | Key | Count |
 |---|---|
-| period/abbasid-early | 1512 |
+| period/abbasid-early | 1511 |
 | period/abbasid-fragmentation | 490 |
 | period/buyid-seljuk-fatimid-era | 1208 |
 | period/colonial-era | 1347 |
@@ -58,7 +58,7 @@ Average sources per entity: **1.28** · Women share of persons with a recorded g
 | period/modern-era | 1143 |
 | period/mongol-post-mongol | 1300 |
 | period/pre-islamic-arabia | 402 |
-| period/prophetic-era | 1891 |
+| period/prophetic-era | 1892 |
 | period/rashidun | 836 |
 | period/umayyad | 994 |
 
@@ -112,7 +112,7 @@ Average sources per entity: **1.28** · Women share of persons with a recorded g
 | desertions-defections-withdrawals | 4 |
 | development-of-law-theology-institutions | 221 |
 | diplomacy-and-envoys | 2 |
-| disability | 5 |
+| disability | 6 |
 | dissent-heresy-freethought | 28 |
 | dress | 16 |
 | education | 138 |
@@ -146,7 +146,7 @@ Average sources per entity: **1.28** · Women share of persons with a recorded g
 | islam-and-secular-thought | 2 |
 | islam-and-the-modern-state | 6 |
 | islam-and-zoroastrianism | 2 |
-| law-and-courts | 205 |
+| law-and-courts | 203 |
 | laws-of-war-and-peace | 57 |
 | libraries-paper-and-the-book | 11 |
 | linguistics | 77 |
