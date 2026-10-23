@@ -377,3 +377,33 @@ Single source this batch: John Freely, *A History of Ottoman Architecture* (WIT 
 - Each new record carries a curatorial note naming the read source + page range.
 - The "build it on the sea" anecdote (Kılıç Ali Pasha) and Evliya Çelebi's tomb quote are relayed as anecdotes exactly as the source presents them.
 - `person/` untouched.
+
+### Batch 12 (24 Oct 2026, 15 records: 9 written + 6 audit) — general lane (Devin)
+
+Same source as Batch 11: Freely, *A History of Ottoman Architecture* (2011), continuing through the Goodwin-tagged stub list — a re-scan found dedicated sections that the first pass missed (notably Zal Mahmut Pasha).
+
+**New prose (ar+en+ur), completeness 3, `source/freely-ottoman-architecture-2011` added:**
+
+| record | Freely pages |
+|---|---|
+| building/hudavendigar-mosque-bursa | pp.54–56 — Murat I 1365–85, two-storey mosque+medrese, unique plan |
+| building/emir-sultan-mosque-bursa | p.64 — Hundi Hatun foundation, rebuilt Selim III era |
+| building/haci-ozbek-mosque-iznik | p.71 — oldest surviving Ottoman mosque (inscription 1333), never had a minaret |
+| building/yesil-turbe | pp.63–64 — Mehmet I's türbe, Murat II, Hacı Ivaz Pasha |
+| building/mahmud-pasa-mosque-istanbul | pp.138–140 — 1462, earliest veziral mosque, Bursa style, founder's türbe |
+| building/firuz-aga-mosque | pp.214–215 — 1491, treasurer of Beyazit II, simplest preclassical type |
+| building/atik-ali-pasha-mosque | pp.215–218 — 1496, Hadım Ali Pasha, Pierre Gilles description of medrese |
+| building/hadim-ibrahim-pasa-mosque | pp.295–296 — Sinan 1551, Silivri Gate, baroque minaret |
+| building/zal-mahmud-pasha-mosque | pp.305–307 — Sinan ~1575–80, Eyüp, two medreses (un-deferred: dedicated section found) |
+
+**Audit (existing ar+en+ur sibling prose with Freely citations; completeness 2→3, no prose edits):**
+`building/bayezid-ii-mosque`, `building/blue-mosque`, `building/bursa-ulu-cami`, `building/fatih-mosque-istanbul` (also cites salabi), `building/kucuk-ayasofya`, `building/rustem-pasha-mosque`.
+
+### Deferred this batch
+- `building/vasat-atik-ali-pasha-mosque` — only a passing mention in Freely (no own section).
+- `building/kalenderhane-mosque`, `building/eski-imaret-mosque`, `building/fenari-isa-mosque`, `building/gul-mosque-istanbul`, `building/hirami-ahmed-pasha-mosque`, `building/koca-mustafa-pasha-mosque` — still no dedicated Freely section found.
+- `building/muradiye-mosque-baghdad` — no coverage (the Freely Muradiye sections are Edirne p.82 and Bursa p.64, different buildings).
+- Freely covers further buildings (Muradiye Bursa/Edirne, Zincirli Kuyu, Ivaz Efendi, etc.) that have no records yet — creating new records is out of this lane's missing-prose scope.
+
+### Methodological notes
+- `person/` untouched.
