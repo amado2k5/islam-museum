@@ -153,3 +153,67 @@ New source records created for citations: `source/taqrib-al-tahdhib`, `source/th
 - The Taqrib Majmuat and Alexandrina scans carry heavy OCR noise; identity was always confirmed by the full label (nasab chain), never by a short name — e.g. «عامر بن سعد بن مالك الخثعمي» ≠ our «عامر بن سعد بن أبي وقاص», «مالك بن أبي عامر» the grandfather ≠ Imam Malik ibn Anas (entry 6425).
 - Thiqat index vol. (BBib-07679) locates entries by vol/page; vols 5–6 of the Hyderabad printing are not extracted, so narrators filed there were deferred rather than guessed.
 - Abd al-Razzaq's birth year (126 AH in printings) is not legible in the scan and was left out of prose; death year 211 AH is legible.
+
+## Batch 6 — rijal cohort (agent pb2-rijal)
+
+15 records, ar+en+ur; each record's yaml gained the rijal source actually read and `completeness: 3`. All entries are the person's own tarjama, confirmed by full nasab.
+
+| record | source read on the page |
+|---|---|
+| person/unays-ibn-qatada | al-Isaba (al-Maktaba al-Asriyya 2012 scan) entry ٤٤٧, pp.105–106 |
+| person/thabit-ibn-al-dahhak-al-ashhali | al-Isaba entry ٩٠٢, pp.178–179 + Taqrib entry ٨١٩ (Majmuat scan p.108) |
+| person/ubada-ibn-al-khashkhash | al-Isaba entry ٤٥٦٧, pp.769–770 |
+| person/dirar-ibn-al-khattab | al-Isaba entry ٤٢١٥, pp.712–713 |
+| person/al-mustawrad-ibn-shaddad | al-Isaba entry ٨١٥٧, pp.1399–1400 |
+| person/yazid-ibn-ruqaysh | al-Isaba entry ٩٣٤٥, p.1588 |
+| person/abu-al-haytham-ibn-al-tayyihan | al-Isaba entry ١٠٧٣٥ (kunya section), pp.1795–1796 |
+| person/maqil-ibn-sinan-al-ashjai | al-Isaba entry ١٠٧٨٩ (kunya section), pp.1802–1803 + name-form note p.69 |
+| person/mahmud-ibn-maslama | al-Isaba entry ٨٠٠١, p.1374 |
+| person/abd-allah-ibn-umm-maktum | al-Isaba entry ٦٦٩٩ (under عمرو), pp.1132–1134 + cross-ref p.833 |
+| person/abdullah-ibn-suhayl | al-Isaba entries ٥٢٢٢/٥٢٢٣, pp.892–893 |
+| person/amr-ibn-al-ahwas-al-bariqi | al-Isaba entry ٦٣٩٤, pp.1085–1086 |
+| person/zirr-ibn-hubaysh | Thiqat Ibn Hibban vol.4 (BBib-07682), scan p.275 = printed p.269 |
+| person/yahya-ibn-abi-zaida | Taqrib al-Tahdhib entry ٧٥٤٨ (Majmuat scan p.660) |
+| person/hamzah-al-kufi | Taqrib al-Tahdhib entry ١٥١٨ (Majmuat scan p.165) |
+
+### Flags
+- `person/amr-ibn-al-ahwas-al-bariqi`: record's nisba «البارقي» vs Isaba text «الجشمي»; Jusham is a Bariq-affiliated Sarat clan, so the same person — both forms kept, flagged in the prose notes.
+- `person/abd-allah-ibn-umm-maktum`: entry sits under عمرو (the commoner name); cited pp.1132–1134 with the naming cross-reference at p.833.
+- `person/thabit-ibn-al-dahhak-al-ashhali`: Isaba ٩٠٢ vs ٩٠٠/٩٠١ near-namesakes — nasab checked (بن خليفة بن ثعلبة) before writing.
+- The 20200217 Isaba scan is the al-Maktaba al-Asriyya one-volume print already registered as `source/ibn-hajar-isaba` (PDF page = printed page); no new source record needed.
+
+### Deferred this batch
+- `person/amir-ibn-sad-ibn-abi-waqqas`, `person/jamil-ibn-darraj`, `person/al-najashi`, `person/muhammad-mutawalli-al-shaarawi` — prior-batch deferrals still stand (Thiqat vols 5–6 and Mizan unreadable/absent locally).
+- `person/qalun`, `person/ibn-kathir-al-makki` — Qalun's own Taqrib entry not legible in the Majmuat scan (only «محمد بن هارون صاحب قالون» at p.570); Ibn Kathir's own entry not located in the extracted scans.
+- `person/zurara-ibn-ayun`, `person/yunus-ibn-abd-al-rahman`, `person/yahya-ibn-yaman` — no clean own-entry in the extracted Thiqat vols (they sit outside vol.4) or Taqrib scans; deferred.
+- `person/mubashir-ibn-abd-al-mundhir`, `person/mihjan-ibn-al-adra`, `person/mahja-ibn-salih`, `person/al-hasan-al-muthanna`, `person/al-numan-ibn-amr-al-ansari`, `person/mahmud-ibn-maslama`'s near-namesakes — no own entry in the al-Asriyya Isaba scan (index/parenthetical mentions only).
+- Non-rijal queue heads (`person/suleyman-celebi`, `person/yumni`, `person/yamini-poet`, `person/mustafa-aga`, `person/abu-al-hasan-al-shadhili`, `person/abu-abdallah-al-natili`, `person/taqi-al-din-al-subki`, `person/zakariyya-al-ansari`, `person/al-yasa`) — Ottoman/modern/prophetic-figure records; no extracted biography source for them in this lane's books.
+## Batch 7 — general cohort (agent pb2-general, 12 records, ar+en+ur)
+
+Return to the general (non-person) queue after the rijal pivot. Ranked by inbound links; every record moved completeness 1→3 with prose in all three languages.
+
+| record | source read on the page |
+|---|---|
+| concept/saa | Mawsu'at Fiqhiyya Kuwaitiyya, «الصاع» own article pp.14858–14859 |
+| practice/miswak | Mawsu'at Fiqhiyya, «السواك» own article pp.2589–2591 (index false-positives at ~46–1200 rejected) |
+| practice/khatm-al-quran | Mawsu'at Fiqhiyya, «ختم القرآن» pp.12687–12688 |
+| place/hijaz | Hamdani, Sifat Jazirat al-Arab pp.32–33 (Hijaz/Najd boundary) + p.87–88 |
+| polity/takrur | Ibn Khaldun, al-Ibar pp.974, 977 + al-Umari, Masalik al-Absar pp.106–107, 254 |
+| group/umayyads-of-cordoba | Ibn Khaldun, al-Ibar pp.33, 46, 1655, 1935, 2056 |
+| polity/wattasid-dynasty | Ibn Khaldun, al-Ibar (Wattasid/Banu Wattas sections) |
+| work/jami-al-bayan | Hasan Ibrahim Hasan, Tarikh al-Islam pp.351–352 |
+| work/dalail-al-nubuwwa-bayhaqi | al-Subki, Tabaqat al-Shafi'iyya p.13 |
+| work/shuab-al-iman | al-Subki, Tabaqat al-Shafi'iyya p.13 |
+| work/taqrib-al-tahdhib | Shadharat al-Dhahab p.280 |
+| work/al-isra-wal-miraj-shaarawi | Sha'rawi, al-Isra' wal-Mi'raj (Dar al-Jil) pp.5–9, 40, 49, 74, 86 |
+
+### Deferred this batch
+- `work/sujud-al-tilawa` (45 inbound links, queue head among non-person) — no own article located in the extracted Mawsu'at Fiqhiyya text; deferred rather than guessed.
+- `work/mirqat-al-mafatih` — no readable own entry in inspected extracts (Kashf al-Zunun hits are bibliographic index material).
+- `practice/dhikr` — «ذكر» headword spreads across many pages; still needs section-level extraction.
+- `practice/aqiqah` — still deferred pending founder alias decision on `practice/aqiqa`.
+- `work/al-adab-al-mufrad`, `work/tawrat`, `work/umm-al-kitab` — queued, not yet sourced this pass.
+
+### Methodological notes
+- Kuwaiti encyclopedia pages ~46–1200 are the book's own index; every headword used here is the later own-article page, never an index hit.
+- `person/` records untouched; rijal lane owns them.
