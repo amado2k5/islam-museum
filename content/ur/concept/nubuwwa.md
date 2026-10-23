@@ -2,11 +2,7 @@
 id: concept/nubuwwa
 lang: ur
 source_lang: ar
-translators: ["Devin (SWE-2 Medium), draft translation"]
+translators: ["Claude Haiku 5.5 (claude-haiku-5-5), draft translation"]
 ---
-
-## موجز
-اہلِ سنت کے عقیدے میں نبوت ایمان کا ایک رکن ہے: انبیاء پر اور مرسلین پر نازل شدہ کتابوں پر ایمان، اور گواہی کہ وہ ظاہر حق پر تھے {cite:aqida-tahawiyya §72}۔
-
-## نص اور شرح میں
-عقیدہ طحاویہ نے قرار دیا کہ اللہ نے ابراہیم کو خلیل بنایا اور موسیٰ سے بات چیت کی {cite:aqida-tahawiyya §71}؛ شرحِ ابن ابی العز نے عقیدے میں نبوت کے مقام کی تفصیل دی {cite:sharh-tahawiyya-ibn-abi-al-izz}۔ «دلائل النبوة» کی کتابیں — بےہقی کی کتاب ان میں سے — نبوت کی نشانیوں اور معجزات کا ذکر کرتی ہیں {cite:dalail-al-nubuwwa-bayhaqi}۔
+## خلاصہ
+نبوت وہ صفت ہے جو اللہ کی طرف سے وحی پانے والے نبی میں ثابت ہو۔ رسالت نبوت سے خاص ہے۔ معجزات سے نبوت ثابت ہوتی ہے۔ نبوت کا دعویٰ کرنے والا کاذب اور کافر و مرتد ہے، کیونکہ نبی کریم خاتم النبیین ہیں۔ {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.15458} {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.15459} {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.15460} {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.15461} {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.15462}
