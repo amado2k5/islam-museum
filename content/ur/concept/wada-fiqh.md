@@ -5,7 +5,7 @@ source_lang: ar
 translators: ["Claude Haiku 5.5 (claude-haiku-5-5), draft translation"]
 ---
 ## خلاصہ
-وداع لغت میں توڑع کا اسم مصدر ہے، یعنی سفر پر جانے والے کو رخصت کرنا؛ رخصت ہونے والا وہ ہے جو جدا ہو رہا ہے۔ {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.16625} {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.16626}
+وداع لغت میں توديع کا اسم مصدر ہے، یعنی سفر پر جانے والے کو رخصت کرنا؛ رخصت ہونے والا وہ ہے جو جدا ہو رہا ہے۔ {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.16625} {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.16626}
 
 ## مسافر سے کیا کہا جائے
 مسافر کے لیے مستحب ہے کہ وہ اپنے اہل، بھائیوں اور دوستوں کو رخصت کرے اور ان سے دعا کی درخواست کرے، اور رخصت کرنے والا کہے: «میں تجھے اللہ کے سپرد کرتا ہوں جو اپنی امانتیں ضائع نہیں کرتا»۔ {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.16626}
