@@ -9,7 +9,7 @@ Average sources per entity: **1.28** · Women share of persons with a recorded g
 | Key | Count |
 |---|---|
 | building | 5591 |
-| concept | 1156 |
+| concept | 1153 |
 | dataset | 16 |
 | event | 4352 |
 | exhibit | 301 |
@@ -21,7 +21,7 @@ Average sources per entity: **1.28** · Women share of persons with a recorded g
 | object | 516 |
 | passage | 9546 |
 | period | 13 |
-| person | 8479 |
+| person | 8482 |
 | place | 1692 |
 | polity | 175 |
 | practice | 60 |
@@ -34,11 +34,11 @@ Average sources per entity: **1.28** · Women share of persons with a recorded g
 
 | Key | Count |
 |---|---|
-| ideas | 977 |
+| ideas | 975 |
 | living | 50 |
 | made | 117 |
-| objects | 6125 |
-| people | 8147 |
+| objects | 6124 |
+| people | 8150 |
 | place | 1709 |
 | time | 3973 |
 | today | 6 |
@@ -58,7 +58,7 @@ Average sources per entity: **1.28** · Women share of persons with a recorded g
 | period/modern-era | 1143 |
 | period/mongol-post-mongol | 1300 |
 | period/pre-islamic-arabia | 402 |
-| period/prophetic-era | 1811 |
+| period/prophetic-era | 1808 |
 | period/rashidun | 835 |
 | period/umayyad | 992 |
 
@@ -73,7 +73,7 @@ Average sources per entity: **1.28** · Women share of persons with a recorded g
 | china-east-asia | 127 |
 | east-africa | 274 |
 | egypt-nile | 960 |
-| global | 719 |
+| global | 716 |
 | levant-iraq | 3561 |
 | maghreb | 1347 |
 | persia-central-asia | 3041 |
@@ -112,7 +112,7 @@ Average sources per entity: **1.28** · Women share of persons with a recorded g
 | desertions-defections-withdrawals | 4 |
 | development-of-law-theology-institutions | 215 |
 | diplomacy-and-envoys | 2 |
-| disability | 5 |
+| disability | 4 |
 | dissent-heresy-freethought | 28 |
 | dress | 14 |
 | education | 138 |
@@ -146,7 +146,7 @@ Average sources per entity: **1.28** · Women share of persons with a recorded g
 | islam-and-secular-thought | 2 |
 | islam-and-the-modern-state | 6 |
 | islam-and-zoroastrianism | 2 |
-| law-and-courts | 180 |
+| law-and-courts | 179 |
 | laws-of-war-and-peace | 57 |
 | libraries-paper-and-the-book | 11 |
 | linguistics | 77 |
@@ -200,7 +200,7 @@ Average sources per entity: **1.28** · Women share of persons with a recorded g
 | websites-and-apps | 2 |
 | women | 209 |
 | worship-and-the-pillars | 257 |
-| zakat-and-sadaqa | 20 |
+| zakat-and-sadaqa | 19 |
 | zoology | 1 |
 
 ### By review status
@@ -215,7 +215,7 @@ Average sources per entity: **1.28** · Women share of persons with a recorded g
 |---|---|
 | en | 22059 |
 | ar | 22300 |
-| ur | 22058 |
+| ur | 22059 |
 
 ### Themes with no entries yet (15 of 132)
 
