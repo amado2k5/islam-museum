@@ -34,10 +34,10 @@ Average sources per entity: **1.28** · Women share of persons with a recorded g
 
 | Key | Count |
 |---|---|
-| ideas | 1360 |
-| living | 73 |
+| ideas | 1361 |
+| living | 72 |
 | made | 119 |
-| objects | 6144 |
+| objects | 6145 |
 | people | 8288 |
 | place | 1711 |
 | time | 3973 |
@@ -58,7 +58,7 @@ Average sources per entity: **1.28** · Women share of persons with a recorded g
 | period/modern-era | 1144 |
 | period/mongol-post-mongol | 1305 |
 | period/pre-islamic-arabia | 402 |
-| period/prophetic-era | 2171 |
+| period/prophetic-era | 2172 |
 | period/rashidun | 840 |
 | period/umayyad | 1018 |
 
@@ -90,7 +90,7 @@ Average sources per entity: **1.28** · Women share of persons with a recorded g
 | animals-and-mercy | 8 |
 | anti-muslim-hatred | 12 |
 | architecture | 131 |
-| arts-of-the-book | 487 |
+| arts-of-the-book | 488 |
 | astronomy-and-timekeeping | 73 |
 | battles | 204 |
 | care-for-the-vulnerable | 5 |
@@ -114,7 +114,7 @@ Average sources per entity: **1.28** · Women share of persons with a recorded g
 | diplomacy-and-envoys | 2 |
 | disability | 8 |
 | dissent-heresy-freethought | 29 |
-| dress | 22 |
+| dress | 23 |
 | education | 138 |
 | engineering-and-technology | 5 |
 | environment-and-climate | 4 |
@@ -157,7 +157,7 @@ Average sources per entity: **1.28** · Women share of persons with a recorded g
 | minorities-within-islam | 7 |
 | modern-conflicts | 73 |
 | mongol-invasions | 14 |
-| mosques | 8 |
+| mosques | 9 |
 | movements-and-mass-organisations | 6 |
 | music | 37 |
 | muslim-minorities-under-non-muslim-rule | 75 |
@@ -179,7 +179,7 @@ Average sources per entity: **1.28** · Women share of persons with a recorded g
 | sacred-space-and-pilgrimage | 102 |
 | sacred-time | 31 |
 | science-today | 6 |
-| scripture-and-its-sciences | 594 |
+| scripture-and-its-sciences | 593 |
 | seafaring-and-ports | 1 |
 | sects-and-schools | 110 |
 | sexuality-gender-diversity | 6 |
@@ -190,7 +190,7 @@ Average sources per entity: **1.28** · Women share of persons with a recorded g
 | takfir-and-its-critics | 4 |
 | the-elderly | 4 |
 | the-poor-and-the-worker | 86 |
-| trade-and-finance | 174 |
+| trade-and-finance | 175 |
 | tradition-versus-culture | 83 |
 | travel | 8 |
 | violent-extremism-and-the-muslim-response | 27 |
@@ -199,7 +199,7 @@ Average sources per entity: **1.28** · Women share of persons with a recorded g
 | water-and-animals | 8 |
 | websites-and-apps | 2 |
 | women | 217 |
-| worship-and-the-pillars | 392 |
+| worship-and-the-pillars | 391 |
 | zakat-and-sadaqa | 21 |
 | zoology | 1 |
 
