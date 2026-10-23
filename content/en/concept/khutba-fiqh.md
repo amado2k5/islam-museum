@@ -1,0 +1,8 @@
+---
+id: concept/khutba-fiqh
+lang: en
+source_lang: ar
+translators: []
+---
+## Summary
+Khutba is lexically a prose speech by an eloquent speaker to a group to persuade them, and in technical usage a composed speech of admonition and announcement in a set form. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.7700} It differs from admonition (persuasion by the consequences), from charge (commanding conduct with exhortation), and from private counsel (nasiha), which is secret, while the khutba must be heard by a group. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.7700} Lawful khutbas are those of Friday, the two feasts, the eclipses, rain-prayer and the Hajj; all come after prayer except the Friday khutba and the Hajj khutba on the day of Arafat; a khutba is also given at betrothal. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.7700}{cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.7701} The Friday khutba is a condition of the validity of the Friday prayer by the majority; the Hanafis hold that one khutba is the condition, two are sunna. The majority cite the Prophet\'s instruction to pray as he prayed, and that the two khutbas stand in place of two units. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.7701} Pillars: the Hanafis require only a praise, a declaration of unity or a glorification; the two companions require a long speech called a khutba; the Malikis require the least that is called a khutba, even two rhymed phrases with admonition; the Shafiis require five pillars: praise of God, prayer on the Prophet, admonition to piety, prayer for the believers in the second khutba, and a recitation of a verse conveying meaning. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.7701}
