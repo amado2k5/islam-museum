@@ -6,8 +6,9 @@ Owner: branch `harvest/tafsir-sharawi-1039-1500`, started from `origin/harvest/t
 
 ## Status
 
-- Last scan page reached: **1138** (of 1039-1500). Pages 1139-1500 are not yet mined.
-- Covered so far: Al-Baqara 244-260 and the verse of the Throne (2:255) on pp. 1039-1138, with the commentary on 2:256-257 (pp. 1111-1121) and 2:258-260 (pp. 1121-1138).
+- Last scan page reached: **1238** (of 1039-1500). Pages 1239-1500 are not yet mined.
+- Covered so far: Al-Baqara 244-285 on pp. 1039-1238, with the verse of the Throne (2:255) on pp. 1103-1110.
+- Batch 2 (pages 1139-1238, Al-Baqara 260-285) added 13 draft entities, listed below.
 
 ## Batch 1 (pages 1039-1138)
 
@@ -19,6 +20,18 @@ Entities created (21), each with `status.review: draft`, a `provenance` block, a
 Entities reused and linked, not changed: `concept/tafdil-al-rusul` (2:253), `concept/quran-miracle-for-every-age` (2:253 and the miracle argument), `concept/ghayb` and `concept/shafaa` (unseen knowledge and intercession), `concept/tawhid` (la ilaha illa Allah, 2:255; Sha'rawi's material on it is not yet added), `concept/al-infaq-fi-sabil-allah` and `concept/al-infaq-al-amm` (2:254; not yet extended), `concept/ikrah` (legal compulsion; the theological verse entry is `concept/no-compulsion-in-religion`), `concept/qadar`, `concept/asma-allah-al-husna`, `concept/al-ummi`, `concept/ummat-wasat`, `concept/sabr`, `person/muhammad-mutawalli-al-shaarawi`. Persons `person/dawud` and `person/ibrahim` exist and are the obvious targets for the Dawud and Abraham material; they are not yet linked.
 
 Claims table: scratchpad `claims-1039-1500.md` (not in git).
+
+## Batch 2 (pages 1139-1238)
+
+Entities created (13), draft, with ar, en and ur prose in the same commit: `concept/rizq-al-salb`, `concept/mann-and-adha`, `concept/public-and-secret-charity`, `concept/guidance-and-provision`, `concept/ahl-al-suffa`, `concept/debt-writing-and-witnessing` (contested, with a perspectives block), `concept/amanah`, `concept/divine-ownership-of-all-things`, `concept/people-of-the-heights-and-the-scales`, `concept/inner-thoughts-and-accountability` (with a perspectives block), `concept/diversity-of-talents-and-interdependence`, `concept/hikma`, `concept/three-sources-of-economy`.
+
+Reused and not changed: `concept/riba` (2:275-281, Sha'rawi's long commentary is recorded in the claims table only; a later pass should extend the entity), `concept/zakat`, `concept/sadaqa`, `concept/taqwa`, `practice/nadhr`, `concept/ihsan`, `concept/tawba`, `person/al-hasan-al-basri`, `concept/qard-hasan` (extended in the claims table only), `concept/imarat-al-ard`.
+
+Claims table for pages 1139-1238 is in the scratchpad (`claims-1139-1222.md` and `claims-1039-1500.md`), not in git.
+
+Notes:
+- `person/talut` is listed in the shared `data/_stubs.yaml`; the validator asks for that stub line to be removed. Left untouched because the shared file is append-only.
+- Several reported claims are dated or historical and are flagged in the claims table as not checked: the economists cited for riba (p. 1189-1190), the orientalists on the grammar of 2:280 (p. 1204), the jurists on zakat as creditor's right (p. 1209), and the Fatima and Umar anecdotes (pp. 1150, 1229).
 
 ## Contested points
 
