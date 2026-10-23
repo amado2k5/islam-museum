@@ -108,7 +108,7 @@ Measured with the Astro dev server (unminified; the Vite client and HMR script a
 | `/ur/sighar/` | 70 KB | 22 KB | 100 KB | 29 KB | 75 | |
 | `/ur/sighar/quest/` | 163 KB | 102 KB | 100 KB | 31 KB | 54 | |
 
-Reading the table: the kids pages are light where it counts (6 KB of inline script, a few KB of page script, CSS shared across the site), the two things that weigh are **repeated inline SVG** (the mascot drawn once per quest stop) and **the trail chooser's 301 cards on one page**. Both are fixed in E1 (a sprite; the front door becomes a short page and the chooser moves to its own route). The budgets in section 3 are set so that today's pages pass once those two fixes land, and fail if anyone repeats the pattern.
+Reading the table: the kids pages are light where it counts (6 KB of inline script, a few KB of page script); note that `site/astro.config.mjs` sets `inlineStylesheets: "always"`, so in production the CSS column is inlined into every page's HTML rather than shared (a trade made for first paint). The two things that weigh are **repeated inline SVG** (the mascot drawn once per quest stop) and **the trail chooser's 301 cards on one page**. Both are fixed in E1 (a sprite; the front door becomes a short page and the chooser moves to its own route). The budgets in section 3 are set so that today's pages pass once those two fixes land, and fail if anyone repeats the pattern.
 
 ---
 
@@ -167,7 +167,7 @@ Every phase must pass these before it is called done; they are added to the repo
 6. **Child safety.** Child routes link out only through bridge cards marked as grown-up doors; teacher and parent surfaces live under `/learn/`, never under `/sighar/` or `/shabab/` (the existing `/sighar/teachers/` stays reachable and gets a redirect note, see E1); no external link on a child or teen page without the "for grown-ups" gate.
 7. **Never break anything.** `npm run validate` (0 errors), `npm test` (all pass), `npm run build` green, on top of the fresh `origin/main` after a three-way merge; small PRs; explicit paths; attribution trailers.
 
-**Page-weight budgets per route family** (bytes as served from `dist/`, uncompressed, measured by a new `scripts/check-weight.ts` that runs after the build on a fixed list of education routes; compressed sizes at the edge are roughly a quarter). Fonts are excluded from the per-page figure because they are shared and cached; the budgets assume the existing 161 KB Arabic/Urdu font pair and no new font family on any education route.
+**Page-weight budgets per route family** (bytes as served from `dist/`, uncompressed, measured by `scripts/check-weight.ts`, which runs after the build on a fixed list of education routes; compressed sizes at the edge are roughly a quarter). Because Astro inlines every stylesheet into the page, the HTML figure below is the markup **plus** its CSS; the JS figure is the hashed module scripts the page references. Fonts are excluded from the per-page figure because they are shared and cached, and the budgets assume the existing 161 KB Arabic/Urdu font pair and no new font family on any education route. The numbers the check enforces today are in `scripts/check-weight.ts` (E1); this table is the ceiling per family.
 
 | Route family | HTML (markup as served) | CSS (all sheets, minified, shared) | JS (all page scripts, ex the 6 KB layout script) | Images on first screen | Total first visit, cold, ex-fonts |
 |---|---|---|---|---|---|
@@ -402,6 +402,18 @@ Open each in a browser window at 1440 × 900. The map in the Explorers mockup is
 5. **The 300 leveled records: who approves the list?** Recommendation: the agent proposes `edu/leveled-100.yaml` in E2's first PR with the demand evidence per record; the founder approves or edits the list before authoring; the next 200 follow the same step in E5. Alternative: the agent selects by inbound-link rank alone.
 
 ---
+
+### 9.1 Decisions (founder, 23 October 2026)
+
+The founder agreed to all five recommendations in chat on 23 October 2026. They are now binding on Stage 2:
+
+1. The front door is `/{lang}/learn/`; the trail chooser moves to `/{lang}/learn/trails/`.
+2. The teen wing is «جناح الشباب» at `/shabab/`, with «الدارسون» (Scholars, 13–15) at `/shabab/scholars/` and «الباحثون» (Researchers, 16–18) at `/shabab/researchers/`; the Urdu band names stay subject to the founder's Urdu review.
+3. Leveled reading lives inside the existing prose file as fixed-heading sections, enforced by the validator.
+4. Packs ship as single-file HTML in E3; a PDF build job is added only if pilot teachers ask for it.
+5. The agent proposes `edu/leveled-100.yaml` (and later the next 200) with demand evidence, and the founder approves the list before authoring starts.
+
+Phase approvals, as given in chat: **E1 approved 23 October 2026** (built in the `education` lane the same day); **E2 approved 23 October 2026**, to start once E1 is merged, beginning with the proposed list `edu/leveled-100.yaml` for the founder's approval (decision 5).
 
 ## 10. Build this first, and why
 
