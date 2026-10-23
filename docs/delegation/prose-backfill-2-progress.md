@@ -268,3 +268,24 @@ Shipped after Batch 6 merge (PR #1182 merged 2026-10-23T21:13:57Z). Ten records,
 - `person/uthman-ibn-urwa`, `person/uthman-ibn-qaid-al-najdi`, `person/ubaydallah-ibn-ahmad-sahib-al-ard`, `person/ubaydallah-ibn-abdallah-ibn-tahir`, `person/sulayman-ibn-abdallah-ibn-tahir` — no readable own entry in the extracted Taqrib/Thiqat/Isaba scans (index or passing mentions only).
 - `person/zurara-ibn-ayun`, `person/yunus-ibn-abd-al-rahman`, `person/yahya-ibn-yaman` — still deferred; no clean own entry in the scans on hand.
 - `person/yaqub-al-jarkhi`, `person/yusuf-ibn-nafis`, `person/waki-al-qadi`, `person/ubayd-ibn-al-abras` — Sufi/poet/judge records outside this lane's extracted rijal books; deferred pending al-A'lam or equivalent scan coverage.
+
+### Batch 9 (23 Oct 2026, 8 records, ar+en+ur) — general lane (Devin)
+
+| record | source & pages |
+|---|---|
+| event/tabaristan-campaign-30 | Ibn al-Athir, al-Kamil (scan 02-163053) pp.480–481 — Sa'id b. al-As's year-30 campaign, Tamisa, treaty of Jurjan |
+| event/masjid-nabawi-expansion-29 | al-Kamil p.475 — 'Uthman's enlargement, Rabi' I 29 |
+| event/conquest-of-takrit | al-Kamil pp.348–349 — year 16, Ibn al-Mu'tim's forty-day siege, Taghlib/Iyad/Namir crossing |
+| event/church-qatiat-al-daqiq-burned-392 | Ibn al-Jawzi, al-Muntazam (scan AAlexandrina-224011) p.219 — year 392, mob burning of the bi'a |
+| event/tigris-dredging-400 | al-Muntazam p.245 — Rabi' I 400 low water, first recorded dredging |
+| event/tigris-flood-401 | al-Muntazam pp.251–252 — 21-cubit rise Rajab–Ramadan 401 |
+| event/dar-sultana-fire-515 | Ibn al-'Imad, Shadharat al-Dhahab (scan AAlexandrina-223861) p.527 — one-line notice kept brief |
+| group/rifaiyya | Shadharat pp.739–740 — Ahmad al-Rifa'i notice, year 578; marvel reports kept attributed to Ibn Qadi Shuhba |
+
+### Deferred this batch
+- `event/conquest-of-fasa` — no own conquest narrative found in extracted Kamil/Futuh texts (Futuh p.563 has only a passing fort mention at Fasa).
+- Remaining queue head is the thin tail (1–2 links): Ottoman mosque buildings without harvested narrative sources — deferred pending Ottoman source coverage (Salabi dawlat-uthmaniyya check next pass).
+
+### Methodological notes
+- Muntazam/Shadharat cites follow the printed page numbers used by the existing record summaries (verified against the scanned pages listed in each file's research notes).
+- `person/` untouched.
