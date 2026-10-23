@@ -1,0 +1,24 @@
+id: person/nasreddin-hoca
+class: person
+label:
+  ar: "نصر الدين خوجة"
+  en: "Nasreddin Hoca"
+  ur: "نصر الدین خواجہ"
+names:
+  - { kind: full, lang: ar, value: "نصر الدين خوجة" }
+gender: male
+roles: [jester]
+traditions: [sunni]
+summary:
+  ar: "الشيخ نصر الدين جحا الرومي، تركي الأصل من أهل الأناضول، ولد في سيوري حصار، ووفاته في آق شهر. ينسب إليه الأتراك أخبار جحا، ويُذكر أن ضريحه في آق شهر، وتُنقل عن الكتاب تعليقات على الخلط بين الشخصيتين. {cite:juha-nawadir-kubra-djuwaydi p. 6-8}"
+  en: "Sheikh Nasreddin Hoca, a Turk from Anatolia, born in Seyitgazi and died in Akşehir. The Turks attribute many Juha stories to him; the editor notes his tomb in Akşehir and the confusion between the two figures. {cite:juha-nawadir-kubra-djuwaydi p. 6-8}"
+  ur: "شیخ نصر الدین خوجہ، ترک نژاد، اناطولیہ کے رہنے والے؛ سیورے حصار میں پیدا ہوئے اور آق شہر میں وفات پائی۔ ترکوں نے جحا کی بہت سی حکایات انہی سے منسوب کیں، اور مرتب ان دونوں شخصیتوں کے خلط کا ذکر کرتے ہیں۔ {cite:juha-nawadir-kubra-djuwaydi p. 6-8}"
+wings: [people]
+themes: [literature]
+periods: [period/abbasid-early]
+regions: [arabia]
+story_roles:
+  - { role: artist, status: tradition, sources: [source/juha-nawadir-kubra-djuwaydi] }
+sources: [source/juha-nawadir-kubra-djuwaydi]
+status: { review: draft, completeness: 1, generated_by: "Claude Haiku 5.5 (Juha book introduction, scan pp. 4-8, from OCR; not image-checked)" }
+provenance: { layer: copyrighted-reference, source: "archive.org civ-3027 (Nawadir Juha al-Kubra), scan pp. 4-8", generated_by: "Claude Haiku 5.5", model: "claude-haiku-5-5", run: "lib-juha-intro" }
