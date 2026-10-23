@@ -1,25 +1,24 @@
 id: person/abu-zayyan-ahmad
 class: person
-label:
-  ar: "أبو زيان أحمد"
-  en: "Abu-Zayyan Ahmad"
-roles: [ruler]
+label: { ar: "أبو زيان أحمد الثاني", en: "Abu Zayyan Ahmad II" }
+names:
+  - { kind: full, lang: ar, value: "أبو زيان أحمد الثاني الزياني" }
 gender: male
+roles: [ruler]
 summary:
-  ar: "بطاقة أولية لأبو زيان أحمد؛ لم تُراجع ترجمته على الصفحة بعد."
-  en: "Draft card for Abu-Zayyan Ahmad; the entry is not yet checked on the page."
+  ar: "حاكم تلمسان الزياني؛ تولى الحكم بدعم من العثمانيين غير أنه — في وصف الصلابي — خضع لمؤامرات خارجية وتقرب من الأسبان، فكرهه الأهالي وقرروا خلعه ومبايعة أخيه الحسن، فتوجه إلى وهران طالباً دعم الأسبان مقدماً تعهدات بولائه لهم، فجهز حاكم وهران جيشاً انضم إليه الخاضعون للأسبان من بني عامر وفليتة وبني راشد بقيادة المنصور بن بو غنام، لكن حسن بن خير الدين قاد الجيش الإسلامي في تلمسان ومنعهم من إعادته {cite:dawlat-uthmaniyya-salabi p. 230}."
+  en: "The Zayyanid ruler of Tlemcen; raised to power with Ottoman support but — in al-Salabi's telling — drawn by foreign intrigue toward the Spanish, so the people resolved to depose him for his brother al-Hasan. He sought Oran's help, pledging loyalty; the governor sent an army joined by the Spanish-subject tribes under al-Mansur b. Bu Ghannam, but Hasan b. Khayr al-Din barred his restoration {cite:dawlat-uthmaniyya-salabi p. 230}."
 wings: [people]
 regions: [maghreb]
-periods: [period/crusades-ayyubid-mamluk]
-sources: [source/al-aalam]
-external_ids:
-  wikidata: Q11903923
+periods: [period/gunpowder-empires]
+relations:
+  - { type: ruler_of, target: place/tlemcen, sources: [source/dawlat-uthmaniyya-salabi] }
+  - { type: opposed, target: person/hasan-ibn-khayr-al-din, sources: [source/dawlat-uthmaniyya-salabi] }
+sources: [source/dawlat-uthmaniyya-salabi, source/al-aalam]
 provenance:
   layer: own-research
-  source: "Wikidata candidate; entry not yet read on the page in a book source"
-  generated_by: "Devin (SWE-2 High)"
-  model: "SWE-2 High"
-  run: wikidata-import-wave2
-status:
-  review: draft
-  completeness: 1
+  source: "الدولة العثمانية لعلي محمد الصلابي (ط1 1421) ص 230"
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: salabi-uthmani-batch11
+status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 Medium)" }
