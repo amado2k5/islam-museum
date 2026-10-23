@@ -1,0 +1,34 @@
+---
+id: concept/wilaya-fiqh
+lang: en
+source_lang: ar
+status: draft
+---
+
+Wilaya, with a kasra, in the language comes from the root wali, nearness; he is near to him, and one who takes up a matter is said to have governed it. With a fatha it means help and love. The guardian (wali) of an orphan, of a slain person, or of a woman is one who takes charge of their affairs. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.17849}
+
+In the technical sense most jurists use wilaya as carrying out a word over another whether he wills it or not. It covers the supreme imamate, judgeship, the office of hisba (public order), the grievances court and the police, and the adult's management of the affairs of one who is still a minor. The word is also used for a husband's authority to discipline a rebellious wife, a father's to discipline a young son, and a teacher's over his pupils. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.17850}
+
+The Malikis use wilaya for a bond that causes inheritance, in five kinds: wilayat al-Islam, which gives inheritance only when no other kind exists; wilayat al-hilf (alliance); wilayat al-hijra (migration), by which inheritance was given at the start of Islam and then abrogated, as were the alliance; wilayat al-qaraba (kinship); and wilayat al-'itq (manumission), by which inheritance stands. Ibn Rushd explains that the wilaya of Islam is general, by the verse of believers as protectors of one another; the wilaya of alliance was abrogated by the verse of the kin; the wilaya of migration was likewise abrogated; kinship by the verse of shares; and manumission gives inheritance where lineage fails. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.17850}{cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.17851}
+
+God's wilaya over believers means that He takes charge of them with love, guidance and help. Ibn al-Qayyim says it is general for every pious believer and special for one who keeps all God's rights. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.17851}
+
+Related words: deputising (niyaba), which is one person standing in place of another in an act; wilaya is wider than it, so every deputising is a wilaya, but not every wilaya is a deputising. 'Amala, the fee of the collector of charity; the wali is wider than the collector. Qiwama, the custody and care of a matter; the custodian (qayyim) is the manager and administrator of a minor, an insane or a spendthrift, or of an endowment's property. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.17852}
+
+Related words. Qiwama is narrower than wilaya and means keeping and preserving. Wasiya (guardianship after death) is the setting of another in one's place after death to look after the estate and the young children, and is narrower too. Wakala is the delegation of a disposal that admits delegation during one's life, and is narrower than wilaya. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.17852}{cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.17853}
+
+General authority (wilaya 'amma) is power to compel and carry out an act over another without his delegation, in matters of religion and the world, of persons and property, governing the public affairs of life, to secure benefits and avert harms. It is a religious and worldly office, instituted for three things: enjoining good and forbidding wrong, delivering trusts to their owners, and judging among people with justice. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.17853}{cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.17854}
+
+Its ranks run from the supreme imam down to his deputies and governors. By it armies are equipped, frontiers defended, taxes collected and spent where they belong, judges and governors appointed, the hudud and the discretionary penalties enforced, rebels suppressed, disputes settled, and guardians and custodians appointed and held to account. Ibn Taymiyya says the aim of all authority in Islam is that religion be wholly God's. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.17854}
+
+The law makes the authority over people one of the greatest duties of religion, since people's interests are not secured without gathering, and gathering needs a head; hence the saying that when three go on a journey they should appoint one of them as leader. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.17854}{cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.17855}
+
+The common conditions of general authority. Islam is required by agreement, on the verses of Surat al-Nisa (verses 144 and 59, cited by number). Puberty is required by agreement, on the saying that the pen is lifted from three. Sanity is required without dispute. Freedom is required, so a slave does not hold it. Male sex is required by the majority, on the verse that men are guardians over women (Surat al-Nisa, verse 34) and the saying that a people who give their affairs to a woman will not prosper. Justice is required by the majority, and knowledge of the rulings by the majority; al-Samarqandi requires knowledge of the principles of religion and independent judgement in its branches, and reports that a scholar of his time held that this would mean that no imam could hold office, so that a man can rely on others for what he lacks. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.17855}{cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.17856}{cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.17857}
+
+Bodily soundness: the holder must hear, see and speak, since a defect in these senses prevents full action; al-Juwayni says that loss of sight, hearing or speech prevents rising to urgent matters. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.17857}
+
+Opinion and capacity. These differ with each office: what is needed in the supreme imamate (political, military and intellectual ability, firmness, compassion and shrewdness) is not required of lesser offices. The Prophet told Abu Dharr: 'you are weak, and it is a trust', and said: 'when trust is lost, await the hour'. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.17857}{cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.17858}
+
+Choosing the best when the ideal is absent. When all the conditions cannot be met, the appointment of holders is not suspended; the most suitable is chosen, since necessity permits what is forbidden, and keeping some interests is better than losing all. Al-'Izz ibn 'Abd al-Salam says that if justice were absent from all people, the interests of judges, caliphs and governors could not be suspended, and the best of the corrupt would be chosen. Necessity also requires striving to reform matters until the conditions are completed. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.17858}{cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.17859}
+
+The duties of the holder of general authority vary with the office. He must keep to the law of Islam in word, deed and conduct, since he is an example; and he must discharge trusts, as the verse of Surat al-Nisa (verse 58) commands. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.17859}
