@@ -14,3 +14,6 @@ He was then in it with al-Mukhtar ibn Abi Ubayd, with the head of Ibn Ziyad befo
 
 ## What needs a source
 The dates of its construction and demolition: an additional source is needed.
+
+## The excavations
+The Mawsu'at al-Atabat records that Sa'd ibn Abi Waqqas first began the palace alongside the Great Mosque's south side, and that Iraqi Antiquities Directorate excavations showed the mosque joined the palace through a door in its south wall — the palace side measuring some 177 m, walls averaging 3.60 m thick and towers 3.30 m in diameter {cite:musawat-atabat}.
