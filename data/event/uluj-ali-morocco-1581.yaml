@@ -1,0 +1,27 @@
+id: event/uluj-ali-morocco-1581
+class: event
+kind: campaign
+label:
+  ar: "مسعى قلج علي لضم المغرب (٩٨٩هـ/١٥٨١م)"
+  en: "Uluj Ali's bid to annex Morocco (989/1581)"
+summary:
+  ar: "مع استقرار الدولة العثمانية في تونس تطلعت أنظار قبودان البحر قلج علي إلى المغرب لضمه، فصدرت الأوامر إليه بالتوجه إليه ووصل الجزائر في جمادى الآخرة ٩٨٩هـ/يونيو ١٥٨١م بينما كان أحمد المنصور مرابطاً بقواته عند نهر تانسيفت قد سدّ مداخل مملكته وحصّن الثغور ووجه سفارة إلى إستانبول، وبعد شبه اتفاق عسكري مع ملك إسبانيا مقابل العرائش لم يجد السلطان بدًا من قبول الأمر الواقع، فأمر قلج علي ونائبه جعفر باشا بالتخلي عن العمل في المغرب والانتقال إلى الشرق حيث اضطربت أمور الحجاز {cite:dawlat-uthmaniyya-salabi p. 270-271}."
+  en: "With the Ottoman state settled in Tunis, kapudan Uluj Ali set his sights on annexing Morocco; ordered to march on it, he reached Algiers in Jumada II 989/June 1581 while Ahmad al-Mansur stood camped at the Tensift with his kingdom's passes sealed and shores fortified, an embassy bound for Istanbul and a near-agreement with Spain struck in exchange for Larache. Facing the fait accompli the sultan ordered Uluj Ali and his deputy Jafar Pasha to abandon the Morocco operation and head east, where the Hejaz had grown troubled {cite:dawlat-uthmaniyya-salabi p. 270-271}."
+wings: [time]
+periods: [period/gunpowder-empires]
+regions: [maghreb]
+date:
+  start: { edtf: "1581-06", hijri: "0989-06", calendar: gregorian, precision: month, status: tradition, derived: true, sources: [source/dawlat-uthmaniyya-salabi] }
+relations:
+  - { type: had_participant, target: person/kilic-ali-pasha, sources: [source/dawlat-uthmaniyya-salabi] }
+  - { type: had_participant, target: person/ahmad-al-mansur-al-sadi, sources: [source/dawlat-uthmaniyya-salabi] }
+  - { type: had_participant, target: person/murad-iii-uthmani, sources: [source/dawlat-uthmaniyya-salabi] }
+  - { type: occurred_at, target: place/algiers, sources: [source/dawlat-uthmaniyya-salabi] }
+sources: [source/dawlat-uthmaniyya-salabi]
+provenance:
+  layer: own-research
+  source: "الدولة العثمانية لعلي محمد الصلابي (ط1 1421) ص 270-271"
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: salabi-uthmani-batch15
+status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 Medium)" }
