@@ -50,12 +50,12 @@ Average sources per entity: **1.28** · Women share of persons with a recorded g
 |---|---|
 | period/abbasid-early | 1537 |
 | period/abbasid-fragmentation | 492 |
-| period/buyid-seljuk-fatimid-era | 1210 |
+| period/buyid-seljuk-fatimid-era | 1209 |
 | period/colonial-era | 1348 |
 | period/contemporary-era | 576 |
-| period/crusades-ayyubid-mamluk | 2634 |
-| period/gunpowder-empires | 4961 |
-| period/modern-era | 1144 |
+| period/crusades-ayyubid-mamluk | 2635 |
+| period/gunpowder-empires | 4962 |
+| period/modern-era | 1143 |
 | period/mongol-post-mongol | 1302 |
 | period/pre-islamic-arabia | 402 |
 | period/prophetic-era | 2020 |
@@ -67,14 +67,14 @@ Average sources per entity: **1.28** · Women share of persons with a recorded g
 | Key | Count |
 |---|---|
 | americas-oceania | 64 |
-| anatolia-balkans | 4097 |
+| anatolia-balkans | 4098 |
 | andalus-europe | 1174 |
 | arabia | 3056 |
 | china-east-asia | 127 |
 | east-africa | 274 |
-| egypt-nile | 965 |
+| egypt-nile | 966 |
 | global | 986 |
-| levant-iraq | 3585 |
+| levant-iraq | 3583 |
 | maghreb | 1352 |
 | persia-central-asia | 3050 |
 | south-asia | 1069 |
@@ -213,9 +213,9 @@ Average sources per entity: **1.28** · Women share of persons with a recorded g
 
 | Key | Count |
 |---|---|
-| en | 22398 |
-| ar | 22639 |
-| ur | 22397 |
+| en | 22397 |
+| ar | 22638 |
+| ur | 22396 |
 
 ### Themes with no entries yet (15 of 132)
 
