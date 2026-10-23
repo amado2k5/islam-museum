@@ -153,3 +153,33 @@ New source records created for citations: `source/taqrib-al-tahdhib`, `source/th
 - The Taqrib Majmuat and Alexandrina scans carry heavy OCR noise; identity was always confirmed by the full label (nasab chain), never by a short name — e.g. «عامر بن سعد بن مالك الخثعمي» ≠ our «عامر بن سعد بن أبي وقاص», «مالك بن أبي عامر» the grandfather ≠ Imam Malik ibn Anas (entry 6425).
 - Thiqat index vol. (BBib-07679) locates entries by vol/page; vols 5–6 of the Hyderabad printing are not extracted, so narrators filed there were deferred rather than guessed.
 - Abd al-Razzaq's birth year (126 AH in printings) is not legible in the scan and was left out of prose; death year 211 AH is legible.
+
+## Batch 6 — general cohort (agent pb2-general, 12 records, ar+en+ur)
+
+Return to the general (non-person) queue after the rijal pivot. Ranked by inbound links; every record moved completeness 1→3 with prose in all three languages.
+
+| record | source read on the page |
+|---|---|
+| concept/saa | Mawsu'at Fiqhiyya Kuwaitiyya, «الصاع» own article pp.14858–14859 |
+| practice/miswak | Mawsu'at Fiqhiyya, «السواك» own article pp.2589–2591 (index false-positives at ~46–1200 rejected) |
+| practice/khatm-al-quran | Mawsu'at Fiqhiyya, «ختم القرآن» pp.12687–12688 |
+| place/hijaz | Hamdani, Sifat Jazirat al-Arab pp.32–33 (Hijaz/Najd boundary) + p.87–88 |
+| polity/takrur | Ibn Khaldun, al-Ibar pp.974, 977 + al-Umari, Masalik al-Absar pp.106–107, 254 |
+| group/umayyads-of-cordoba | Ibn Khaldun, al-Ibar pp.33, 46, 1655, 1935, 2056 |
+| polity/wattasid-dynasty | Ibn Khaldun, al-Ibar (Wattasid/Banu Wattas sections) |
+| work/jami-al-bayan | Hasan Ibrahim Hasan, Tarikh al-Islam pp.351–352 |
+| work/dalail-al-nubuwwa-bayhaqi | al-Subki, Tabaqat al-Shafi'iyya p.13 |
+| work/shuab-al-iman | al-Subki, Tabaqat al-Shafi'iyya p.13 |
+| work/taqrib-al-tahdhib | Shadharat al-Dhahab p.280 |
+| work/al-isra-wal-miraj-shaarawi | Sha'rawi, al-Isra' wal-Mi'raj (Dar al-Jil) pp.5–9, 40, 49, 74, 86 |
+
+### Deferred this batch
+- `work/sujud-al-tilawa` (45 inbound links, queue head among non-person) — no own article located in the extracted Mawsu'at Fiqhiyya text; deferred rather than guessed.
+- `work/mirqat-al-mafatih` — no readable own entry in inspected extracts (Kashf al-Zunun hits are bibliographic index material).
+- `practice/dhikr` — «ذكر» headword spreads across many pages; still needs section-level extraction.
+- `practice/aqiqah` — still deferred pending founder alias decision on `practice/aqiqa`.
+- `work/al-adab-al-mufrad`, `work/tawrat`, `work/umm-al-kitab` — queued, not yet sourced this pass.
+
+### Methodological notes
+- Kuwaiti encyclopedia pages ~46–1200 are the book's own index; every headword used here is the later own-article page, never an index hit.
+- `person/` records untouched; rijal lane owns them.
