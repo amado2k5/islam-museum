@@ -1,0 +1,25 @@
+id: event/end-beylerbey-algiers-995
+class: event
+kind: law-enacted
+label:
+  ar: "انتهاء نظام البايلربك في الجزائر (٩٩٥هـ/١٥٨٧م)"
+  en: "End of the beylerbey system in Algiers (995/1587)"
+summary:
+  ar: "بوفاة قلج علي سنة ٩٩٥هـ/١٥٨٧م انتهى في الجزائر نظام البايلربك الذي جعل من حكامها ملوكاً واسعي السلطة، واستُعيض عنه بنظام الباشوية مثل تونس وطرابلس: باشا موظف ترسله الأستانة ثلاث سنوات دون سند محلي — ويفسر الصلابي التغيير بخوف السلطان أن يتجه البايلربك بقوتهم وضعف البحرية نحو الاستقلال. وبذلك انقسم الشمال الأفريقي إثر ليبانتو (٩٧٨هـ/١٥٧١م) من بايلربك واحد بالجزائر إلى ثلاث ولايات عادية: طرابلس وتونس والجزائر {cite:dawlat-uthmaniyya-salabi p. 272-273}."
+  en: "With Uluj Ali's death in 995/1587 the beylerbey system ended in Algiers — the arrangement that had made her governors near-sovereigns — replaced by the pasha system as in Tunis and Tripoli: a salaried pasha sent from Istanbul for three years with no local base. Al-Salabi explains the change as the sultan's fear that strong beylerbeys, with the navy weakened, would drift toward independence. So after Lepanto (978/1571) Ottoman North Africa split from a single beylerbey at Algiers into three ordinary wilayas: Tripoli, Tunis and Algiers {cite:dawlat-uthmaniyya-salabi p. 272-273}."
+wings: [time]
+periods: [period/gunpowder-empires]
+regions: [maghreb]
+date:
+  start: { edtf: "1587", hijri: "0995", calendar: gregorian, precision: year, status: tradition, derived: true, sources: [source/dawlat-uthmaniyya-salabi] }
+relations:
+  - { type: occurred_at, target: place/algiers, sources: [source/dawlat-uthmaniyya-salabi] }
+  - { type: had_participant, target: person/kilic-ali-pasha, sources: [source/dawlat-uthmaniyya-salabi] }
+sources: [source/dawlat-uthmaniyya-salabi]
+provenance:
+  layer: own-research
+  source: "الدولة العثمانية لعلي محمد الصلابي (ط1 1421) ص 272-273"
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: salabi-uthmani-batch15
+status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 Medium)" }
