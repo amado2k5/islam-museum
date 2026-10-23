@@ -70,5 +70,18 @@ The Hanafis treat an existing lease on a thing as a defect that gives the buyer 
 ## Disputes between lessor and lessee
 They may dispute the term, the rent, trespass or return of the thing. Where there is no proof, the jurists determine who is claimant and who is defendant, and the outcome depends on that. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.1549}
 
+## Kinds of lease by object
+The general rule is that whatever may be sold may be leased, provided the thing is not consumed in taking its benefit; some things that cannot be sold may still be leased, such as waqf property. The benefit must be one sought in itself by custom. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.1550}
+
+## Leasing farmland
+Most jurists require farmland to have dependable water for cultivation: a river that customarily does not fail when irrigation is needed, a spring, a cistern, a well, or rain sufficient for the crop. The Malikis allow leasing rain-fed land for cultivation even for many years, if no rent is paid in advance. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.1551} A farm may be leased for a known term, even ten years or more. The Shafi'is allow a hundred years; another Shafi'i view sets thirty years, and another a single year. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.1552}
+
+Most jurists require the lease to state the kind of use, cultivation or planting, but not the particular crop. A lease for "cultivating or planting" is invalid for uncertainty; a lease for "cultivating and planting", in the Hanbali view, is valid. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.1553}
+
+## Duties of lessor and lessee on land
+The lessor must deliver the land empty; if it holds another's crop, the lease is invalid. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.1554} The lessee owes the agreed rent once use is enabled. The Hanafis hold that if the water supply is cut, or the land is flooded, the rent falls away; a land from which water may recede is leased if cultivation is possible after it recedes. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.1554} {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.1555}
+
+The lessee must use the land within what is customary and agreed. The Hanafis hold that one who leases land for wheat may not plant cotton; if he does, he owes the loss he caused and is treated as a usurper. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.1555} If a crop cannot be harvested within the term, the Shafi'is hold that a stipulation to leave it standing voids the lease when it contradicts the contract's purpose; for trees, leaving them standing may be stipulated, since the contract allows it. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.1556} {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.1557}
+
 ## Remaining material
-The entry continues with the detailed rules of disputes, the kinds of lease, and the hired worker, up to p.1575. These are not yet drafted. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.1549}
+The entry continues with the rest of the farmland rules, leases of houses and movable goods, and the hired worker, up to p.1575. These are not yet drafted. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.1557}
