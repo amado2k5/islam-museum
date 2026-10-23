@@ -1,0 +1,47 @@
+id: concept/talaq
+class: concept
+kind: legal
+label:
+  ar: الطلاق
+  en: Divorce (talaq)
+  ur: طلاق
+summary:
+  ar: "يعرض الشعراوي في تفسير آيات البقرة 228-232 أن الطلاق المتدرج (مرة ومرتين) يتيح للزوجين فرصة الإصلاح، وأن الرجوع بعد انقضاء العدة يحتاج إلى عقد ومهر جديدين ورضا المرأة، وأن الأهل لا يحق لهم منع الرجوع إذا تراضى الزوجان {cite:tafsir-sharawi-khawatir-scan p.1003} {cite:tafsir-sharawi-khawatir-scan p.1004}."
+  en: "In his commentary on al-Baqara 2:228-232, Sha'rawi reads divorce in stages, once and then twice, as giving the couple room to mend; he holds that returning to a wife after the waiting period needs a new contract and a new dower and the woman's consent, and that relatives may not block the return when the spouses agree {cite:tafsir-sharawi-khawatir-scan p.1003} {cite:tafsir-sharawi-khawatir-scan p.1004}."
+issue: { ar: "كيف يفهم الشعراوي تدرّج الطلاق ورجوع الزوجين بعد العدة، وما الذي تشترطه الآية للرجوع؟", en: "How does Sha'rawi read the gradual divorce and the return after the waiting period, and what does the verse require for that return?" }
+wings: [ideas]
+themes: [family-marriage-kinship, law-and-courts]
+periods: [period/prophetic-era]
+regions: [global]
+relations:
+  - { type: related_to, target: passage/quran-2-228 }
+  - { type: related_to, target: passage/quran-2-229 }
+  - { type: related_to, target: passage/quran-2-230 }
+  - { type: related_to, target: concept/iddah }
+  - { type: related_to, target: concept/raja }
+  - { type: related_to, target: concept/maintenance-after-divorce }
+perspectives:
+  - tradition: sunni
+    id: sunni-sharawi-gradual-divorce
+    stance: { en: "Divorce in two steps leaves room to correct the first", ar: "الطلاق مرةً ومرتين يترك مجالاً لتدارك الخطأ" }
+    holders: [person/muhammad-mutawalli-al-shaarawi]
+    summary:
+      en: "Sha'rawi explains that the law of divorce in two steps lets a couple who failed the first time succeed in the second, and so Allah, who knows human nature, gave a period of time to amend the first mistake {cite:tafsir-sharawi-khawatir-scan p.1003}."
+      ar: "يبيّن الشعراوي أن تشريع الطلاق مرتين يتيح لمن لم يُصلح الأمر في المرة الأولى أن يُصلحه في الثانية، وأن الله أعطى فسحة من الوقت لتدارك الخطأ الأول {cite:tafsir-sharawi-khawatir-scan p.1003}."
+    sources: [source/tafsir-sharawi-khawatir-scan]
+  - tradition: sunni
+    id: sunni-sharawi-relatives-must-not-block
+    stance: { en: "Relatives must not stand in the way of a return both spouses accept", ar: "لا يحق للأهل الوقوف في وجه رجوع يتراضى عليه الزوجان" }
+    holders: [person/muhammad-mutawalli-al-shaarawi]
+    summary:
+      en: "Sha'rawi reads the phrase 'when they agree among themselves in what is fair' as requiring the wife's consent to a return, and warns relatives who obstruct a reconciliation that they block a lawful return {cite:tafsir-sharawi-khawatir-scan p.1003} {cite:tafsir-sharawi-khawatir-scan p.1004}."
+      ar: "يقرأ الشعراوي عبارة «إذا تراضَوا بينهم بالمعروف» على أنها تشترط رضا المرأة بالرجوع، ويحذّر الأهل الذين يعطّلون الصلح من أنهم يمنعون رجوعاً مشروعاً {cite:tafsir-sharawi-khawatir-scan p.1003} {cite:tafsir-sharawi-khawatir-scan p.1004}."
+    sources: [source/tafsir-sharawi-khawatir-scan]
+sources: [source/tafsir-sharawi-khawatir-scan]
+provenance:
+  layer: own-research
+  source: "تفسير الشعراوي (نسخة ممسوحة)، ص 1001-1004، تعليق على البقرة 228-232"
+  generated_by: "Claude (Haiku 5.5)"
+  model: claude-haiku-5-5
+  run: tafsir-sharawi-1001-1500
+status: { review: draft, completeness: 1, generated_by: "Claude (Haiku 5.5); scan OCR pages 1001-1004; edition unverified" }
