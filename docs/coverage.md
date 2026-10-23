@@ -42,7 +42,7 @@ Average sources per entity: **1.28** · Women share of persons with a recorded g
 | place | 1711 |
 | time | 3973 |
 | today | 6 |
-| words | 167 |
+| words | 166 |
 
 ### By period
 
@@ -168,7 +168,7 @@ Average sources per entity: **1.28** · Women share of persons with a recorded g
 | philosophy-and-logic | 34 |
 | pilgrimages-and-mass-gatherings | 17 |
 | polemic-and-apologetic | 10 |
-| politics-governance-and-authority | 42 |
+| politics-governance-and-authority | 43 |
 | prophets | 133 |
 | race-colour-ethnicity | 10 |
 | reconciliation-and-unity | 12 |
@@ -200,7 +200,7 @@ Average sources per entity: **1.28** · Women share of persons with a recorded g
 | water-and-animals | 8 |
 | websites-and-apps | 2 |
 | women | 219 |
-| worship-and-the-pillars | 428 |
+| worship-and-the-pillars | 427 |
 | zakat-and-sadaqa | 21 |
 | zoology | 1 |
 
