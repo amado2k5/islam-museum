@@ -36,3 +36,6 @@ He then sums up: faith is either what the heart, tongue and limbs perform — as
 
 ## What is not covered here
 This entry presents what is documented from Sahih al-Bukhari, the 'Aqida al-Tahawiyya, Lum'at al-I'tiqad, al-Wasitiyya, Maqalat al-Islamiyyin and Ibn Abi al-Izz's Sharh al-Tahawiyya. Al-Maturidi's sayings from his own books and the rest of the Sunni and non-Sunni schools' sayings have not yet been added; no judgement between the two definitions is made here.
+
+## Sha'rawi on belief in the unseen
+Sha'rawi holds that belief in the unseen is a creed that is tied and not loosed, since the senses do not reach it, and that belief in the angels, the books and the messengers rests on the report of the One in whom one believes. {cite:tafsir-sharawi-khawatir-scan-pp-501-1000 p.730} {cite:tafsir-sharawi-khawatir-scan-pp-501-1000 p.731}

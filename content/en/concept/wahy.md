@@ -10,3 +10,6 @@ Wahy in Islamic conception is God's speech sent down to His messengers; the Qur'
 
 ## In the sources
 The Tahawiyya affirms: 'we bear witness that it is the speech of the Lord of the worlds, which the Trustworthy Spirit brought down and taught to mighty hearts' {cite:aqida-tahawiyya §75}; Ibn Abi al-Izz's commentary details what the Qur'an being God's speech means {cite:sharh-tahawiyya-ibn-abi-al-izz}.
+
+## Sha'rawi on the Qur'an's revelation in parts
+Sha'rawi distinguishes 'anzala', 'nazzala' and 'nazala', and holds that the sending down in Ramadan brought the Qur'an from the higher realm into human existence, while revelation in parts steadies the heart of the Prophet and the believers, which he illustrates with medicine whose use is known only when needed. {cite:tafsir-sharawi-khawatir-scan-pp-501-1000 p.773} {cite:tafsir-sharawi-khawatir-scan-pp-501-1000 p.774} {cite:tafsir-sharawi-khawatir-scan-pp-501-1000 p.775} {cite:tafsir-sharawi-khawatir-scan-pp-501-1000 p.776}

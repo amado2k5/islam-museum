@@ -4,7 +4,7 @@ Owner: harvest run `tafsir-sharawi-501-1000`. Branch `harvest/tafsir-sharawi-501
 
 ## State
 
-- Last page reached and written: **696** (of 501 to 1000). Batches 1 to 4 (501 to 596) and batch 5 (597 to 696) are committed; batch 5 is in its own commit.
+- Last page reached and written: **796** (of 501 to 1000). Batches 1 to 4 (501 to 596), batch 5 (597 to 696) and batch 6 (697 to 796) are committed; batch 6 is in its own commit.
 - Source entity: `source/tafsir-sharawi-khawatir-scan-pp-501-1000` (created in batch 1). Edition not identified; flagged unverified in its `reliability_note`. Citations use the scan's page index.
 - Claims table (not in git): scratchpad `tafsir/claims-501-1000.md`.
 
@@ -17,6 +17,9 @@ Owner: harvest run `tafsir-sharawi-501-1000`. Branch `harvest/tafsir-sharawi-501
 | 3 | 555 to 580 | 4 (`concept/al-yaqin`, `concept/al-balagh`, `concept/al-qawaid-min-al-bayt`) | 3 (`person/ibrahim`, `concept/hawa`, `event/isra-and-miraj`) | 56de692e2 |
 | 4 | 581 to 596 | 3 (`concept/al-rizq-al-rububi`, `concept/al-wasiyya-al-diniyya`) | 5 (`concept/hurmat-al-haram-makka`, `concept/niyya`, `concept/tawba`, `concept/islam-din`, `concept/al-sunna-al-nabawiyya`) | eaa8cf539 |
 | 5 | 597 to 696 | 10 (`concept/ism-al-ab-fi-al-quran`, `concept/millat-ibrahim`, `concept/sibghat-allah`, `concept/ikhlas`, `concept/nasab-al-iman`, `concept/shukr`, `concept/istirja`, `concept/salawat-min-allah`, `concept/al-sai-bayn-al-safa-wal-marwa`, `concept/al-laana`) | 10 (`concept/kasb`, `event/change-of-qibla`, `concept/ummat-wasat`, `concept/al-taabbud`, `concept/ahl-al-kitab`, `concept/tawakkul`, `concept/sabr`, `concept/tawba`, `concept/tawhid`, `concept/ibtila`) | (this commit) |
+| 6 | 697 to 796 | 7 (`concept/al-idtirar-fi-al-akl`, `concept/kitman-al-haqq`, `concept/al-qisas`, `concept/tashri-al-samawi`, `concept/al-siyam`, `concept/al-dua`, `concept/al-itikaf`) | 9 (`concept/taqlid`, `concept/halal-haram`, `concept/birr`, `concept/iman`, `concept/taqwa`, `concept/zina`, `concept/inheritance-system`, `concept/ikhtilaf-ahl-al-adyan`, `concept/wahy`) | (this commit) |
+
+Batch 6 notes: verses 2:165 to 2:168 and the shepherd parable (2:171) are not entered. The sa'y and fasting-leave readings are contested and carry scope notes. The Umm Salama story and the Mus'ab story are given without a chain.
 
 Batch 5 notes: pages 655 to 658 are the printed index and are skipped. Verses 2:165 to 2:168 (pages 693 to 697) are read but no entity was written for them yet. Two passages cited as Sha'rawi's view are contested and carry a scope note (the sa'y as a pillar; the lineage of the descendants). The Azar reading (p. 598) is Sha'rawi's alone; other exegetes are not entered.
 

@@ -14,3 +14,6 @@ lang: ar
 ويرى المؤلف أن النظام عائلي لا فردي، فالتركة تتشعب بين أفراد الأسرة، وتزداد انتشاراً بكثرة الزوجات والبنين والبنات والإخوة، وتقل بالحجب والعول والرد {cite:usul-iqtisad-islami-0660 p. 333} {cite:usul-iqtisad-islami-0660 p. 334}. ويعرض أمثلة بزوج وأولاد وأبوين، فيكون للأولاد الحظ الأوفر {cite:usul-iqtisad-islami-0660 p. 338} {cite:usul-iqtisad-islami-0660 p. 339}، ويحكم على التوزيع بأنه يحقق الكفاءة والعدالة {cite:usul-iqtisad-islami-0660 p. 339} {cite:usul-iqtisad-islami-0660 p. 340}.
 
 ويذكر المؤلف الحجب بالنفس، ومنه حديث «ألحقوا الفرائض بأهلها» {cite:usul-iqtisad-islami-0660 p. 336}، وأن علم الفرائض أول ما يرفع {cite:usul-iqtisad-islami-0660 p. 333}. وفي العول مسألة مستقلة: انظر [[concept/awl-in-inheritance|العَوْل في الفرائض]].
+
+## قول الشعراوي في الوصية والورثة
+يرى الشعراوي أن الوصية للوالدين والأقربين كانت قبل تشريع الميراث، وأن الوصية تبقى للأقرباء الضعفاء غير الوارثين، وأن الوصية تُصلح إن جاءت جنفاً أو إثماً، ويذكر حديث «لا وصية لوارث» في الهامش دون مراجعة هنا. {cite:tafsir-sharawi-khawatir-scan-pp-501-1000 p.756} {cite:tafsir-sharawi-khawatir-scan-pp-501-1000 p.757} {cite:tafsir-sharawi-khawatir-scan-pp-501-1000 p.759} {cite:tafsir-sharawi-khawatir-scan-pp-501-1000 p.761}

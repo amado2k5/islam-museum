@@ -17,3 +17,6 @@ Umar ibn Abd al-Aziz said: "The piety of God is not fasting by day or standing i
 Piety is God's charge to the first and the last, and the charge of His Messenger to his community. He used to enjoin it on the commander of a secret expedition. He said to Abu Dhar: "I charge you with the piety of God, for it is the head of the whole matter." Among what most admits people to Paradise is the piety of God and good character. {cite:ibn-rajab-jami-ulum-hikam p.383}
 
 It is connected with [[concept/wara|scrupulousness]].
+
+## Sha'rawi on taqwa
+Sha'rawi holds that taqwa is to place a barrier between oneself and the attributes of majesty, since one cannot bear God's wrath, power and seizing, and that the Fire is among the effects of majesty. {cite:tafsir-sharawi-khawatir-scan-pp-501-1000 p.742} {cite:tafsir-sharawi-khawatir-scan-pp-501-1000 p.743}

@@ -15,3 +15,6 @@ Rida says God did not create people with limited equal powers like animals. He g
 
 ## Disagreement among nations
 Rida notes that the Jews disagreed and fought, and that the Christians split one of their doctrines into branches that fight one another. He holds that Muslims have more reason than anyone to beware of such disagreement, given how many things God has forbidden them. {cite:tafsir-manar-v03 p.7}
+
+## Sha'rawi on dispute over values
+Sha'rawi holds that disagreement over the values of the way is a wide breach that people cannot mend among themselves, and that only God judges it. {cite:tafsir-sharawi-khawatir-scan-pp-501-1000 p.727}

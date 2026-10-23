@@ -16,3 +16,6 @@ The doubtful is what is disputed as to whether it is lawful or unlawful, such as
 
 ## Whoever guards against doubtful matters
 Whoever guards against doubtful matters keeps his religion and his honour clear. Whoever falls into them is like a shepherd grazing around a protected pasture of God's prohibitions. {cite:ibn-rajab-jami-ulum-hikam p.172-173}
+
+## Sha'rawi on prohibition and discipline
+Sha'rawi holds that God forbids what harms, and that some prohibitions are disciplinary, as God forbade some good things to the Children of Israel for their wrongdoing (see [[passage/quran-4-160|4:160]]). He says custom enters into the meaning of words such as flesh and beast, and that fish and locust are permitted because they have no flowing blood, citing a hadith given in the footnote. {cite:tafsir-sharawi-khawatir-scan-pp-501-1000 p.715} {cite:tafsir-sharawi-khawatir-scan-pp-501-1000 p.716} {cite:tafsir-sharawi-khawatir-scan-pp-501-1000 p.717}
