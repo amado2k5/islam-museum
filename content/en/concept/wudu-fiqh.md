@@ -28,3 +28,45 @@ Fourth, where it is permitted: the Malikis hold that the permitted wudu' is for 
 Fifth, forbidden wudu': for the Malikis, renewing wudu' before an act of worship has been performed with it, or wudu' for a purpose for which it was not prescribed or permitted. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.17375}
 
 Merit of wudu': many hadiths on the removal of sins by it: purity is half of faith; the report from 'Uthman that whoever performs wudu' as the Prophet did has his earlier sins forgiven; the hadith of 'Umar on the eight gates of Paradise; and the hadith of Abu Hurayra on the radiant marks of the community. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.17375}{cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.17376} The conditions of wudu' are of three kinds: conditions of obligation, of validity, and of both; the first of the conditions of obligation is intellect, since no address is made to one who lacks it. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.17375}{cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.17376}
+
+Conditions of obligation, which when all are present make purification binding on the person:
+
+First, intellect. The jurists hold it is a condition of obligation, since no address is made to one without it; the Malikis make it a condition of both obligation and validity, and the Hanbalis a condition of validity. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.17376}
+
+Second, puberty is a condition of obligation: a child is not obliged, since he is not addressed; a discerning child's wudu' is valid. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.17376}
+
+Third, Islam: the Hanafis in the sounder view make it a condition of obligation; one Maliki view makes it a condition of obligation and validity; the Shafi'is, Hanbalis and the Maliki majority make it a condition of validity, since unbelievers are addressed by the branches of the law in their view. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.17376}
+
+Fourth, the cessation of menses and post-natal bleeding is a condition of both obligation and validity for the four schools. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.17376}
+
+Fifth, the presence of sufficient pure water: no wudu' is obligatory without water. The Shafi'is require knowing that the water is unmixed, even by assumption where doubt arises; the Hanbalis require its purity. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.17376}{cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.17377} The ability to use water is a condition for the Hanafis and the Malikis, so the incapable are exempt, and so is one whose hands are cut off at the elbows and feet at the ankles. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.17377}
+
+Sixth, the presence of a cause of impurity is a condition of obligation for the four schools; the Shafi'is have three views on what makes it obligatory: the impurity together with cessation, the rising to prayer, or both, the last being the most accurate. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.17377}{cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.17378} The one who doubts whether he is impure but is certain he is pure need not renew wudu' according to the majority; the Maliki preferred view is that he must. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.17377}{cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.17378}
+
+Seventh, the Hanafis make the narrowing of time a condition of the narrow obligation; the Malikis make the entry of the time of the present prayer, and recalling a missed prayer, a condition. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.17378} The Malikis also make the reaching of the Prophet's call to the person a condition of both obligation and validity. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.17378}{cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.17379}
+
+Conditions of validity, which the wudu' cannot be valid without:
+
+First, the whole skin must be wetted with pure water. The Hanafis hold that if a needle's point remains dry of the required washing, the wudu' is not valid. The Shafi'is require the washing of a part adjoining and surrounding the washed part so that the whole member is covered. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.17379}
+
+Second, the removal of what blocks water from reaching the body, such as wax, grease, dough or mud, is a condition in the Hanafi and Maliki schools; the Shafi'is and Hanbalis also count it; the Shafi'is add that nothing on the limb may change the water in a harmful way. The preferred view, as stated in the Imdad, is that perfume used to beautify the hair must be removed, because it may dry and block the water from reaching the skin beneath. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.17379}
+
+Third, the cessation of the impurity during wudu': if urine or a discharge that breaks wudu' appears during it, it is not valid, in the four schools. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.17379}
+
+Fourth, the Shafi'is require knowledge of how to perform wudu': the one who performs it must tell its obligatory acts from its recommended ones, or believe that it has obligatory and recommended parts; this applies to the lay person, while the learned must distinguish. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.17379}{cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.17380}
+
+Fifth, no diverting of the intention: the intention must continue in effect, so the one who performs wudu' must not do something contrary to it, such as apostasy, or saying if God wills in a way other than blessing, or breaking the intention. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.17380}
+
+Sixth, the Shafi'is require that water flow over the limb. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.17380}
+
+Seventh, intention: the Hanbalis count it as a condition, citing the saying that actions are by intentions, and because wudu' is an act of worship. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.17380}
+
+Eighth, the Hanbalis in the sounder school view require that the water be permitted; wudu' with water forbidden to use, like usurped water, is not valid; a report from Ahmad allows purification with usurped water but disapproves. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.17380}
+
+The conditions for one with a continuing impurity, such as incontinence or istihada: the Shafi'is and Hanbalis require the entry of the time, even by assumption, and the prior cleaning of the private parts or the istijmar. The Shafi'is add the precaution where needed, continuity between the acts of wudu', and continuity between wudu' and prayer. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.17380}{cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.17381}
+
+Causes of wudu': the jurists differ. The majority of Hanafis, Malikis, the sounder Shafi'i view and one Hanbali view hold that the cause of its obligation is the intention to pray while impure, citing the verse of sura al-Ma'ida and Ibn 'Abbas's reading of it. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.17381} The Shafi'i view in one form and the sounder Hanbali school view hold the cause to be the impurity itself. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.17381} The Shafi'i view in one form and a Hanbali opinion hold that the cause is the rising to prayer or the like, so wudu' is not fixed before it. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.17381}
+
+The obligatory parts of wudu': the jurists agree that washing the face, washing the hands to the elbows, wiping the head and washing the feet to the ankles are obligatory. They differ on whether the intention, continuity, order and rubbing are obligatory. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.17381}
+
+First obligatory part, washing the face, which is agreed by the verse, and by a report from Humran, freedman of 'Uthman, describing 'Uthman's wudu': he washed his hands three times, rinsed and cleaned the nose, washed his face, arms, and feet three times each, wiped his head, and said he had seen the Prophet perform it so. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.17381}{cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.17382}
