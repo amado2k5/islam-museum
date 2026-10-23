@@ -1,0 +1,83 @@
+---
+// One age band's hub inside the Kids' Wing chrome (docs/delegation/education-master-plan.md §4, E1): the band's
+// hero, the single next step, the activities in ladder order, the passport strip, the band-specific shelf (slot)
+// and the door to the next band. Every element reads without JavaScript; the script only chooses the next step
+// and lights the stamps.
+import Hudhud from "./Hudhud.astro";
+import PassportStrip from "./PassportStrip.astro";
+import { viewStamps, type BandView } from "../lib/edu";
+import { ui, fmt, type Lang } from "../lib/i18n";
+import "../styles/kids.css";
+import "../styles/edu.css";
+
+interface Props { lang: Lang; band: BandView }
+const { lang, band } = Astro.props;
+const T = ui(lang);
+const t = T.kids;
+const E = T.edu;
+const stamps = viewStamps(lang, band.id);
+const withStamps = band.activities.filter((a) => a.stamps.length > 0);
+const pose = band.id === "sprouts" ? "greet" : band.id === "explorers" ? "greet" : "think";
+const size = band.id === "sprouts" ? 160 : band.id === "explorers" ? 130 : 90;
+const crumbLabel = lang === "ar" ? "مسار التنقل" : lang === "ur" ? "راہ نما" : "breadcrumb";
+const nextHref = band.next ? (band.next.wing === "shabab" ? `/${lang}/learn/trails/` : band.next.hub) : `/${lang}/`;
+const nextReady = band.next ? band.next.wing !== "shabab" : false;
+---
+<div class={`kids band-hub band-${band.id}`}>
+  <nav aria-label={crumbLabel} class="crumbs">
+    <a href={`/${lang}/sighar/`}>{t.hub_title}</a>
+    <span aria-current="page">{band.name}</span>
+  </nav>
+
+  <section class="kids-hero">
+    <div class="kids-hudhud"><Hudhud pose={pose} size={size} /></div>
+    <div>
+      <h1>{band.glyph} {band.name}</h1>
+      <span class="band-ages">{band.agesLabel}</span>
+      <p class="kids-speech">{band.voice}</p>
+    </div>
+  </section>
+
+  {!band.stateless && withStamps.length > 0 && (
+    <section class="next-step" data-next-step aria-labelledby="next-h">
+      <h2 id="next-h">{E.next_title}</h2>
+      {withStamps.map((a, i) => (
+        <p data-next-for={a.stamps.join(",")} hidden={i !== 0}>
+          <a href={a.href}><span aria-hidden="true">{a.glyph}</span> {a.label} <span class="flip" aria-hidden="true">→</span></a>
+        </p>
+      ))}
+    </section>
+  )}
+
+  <section aria-labelledby="acts-h">
+    <h2 id="acts-h">{E.activities_title}</h2>
+    <div class="entries">
+      {band.activities.map((a) => (
+        <a class="entry-card" href={a.href} data-stamps={a.stamps.join(",")}>
+          <h2><span aria-hidden="true">{a.glyph}</span> {a.label}</h2>
+          <p>{t[`${a.id === "timemachine" ? "tm" : a.id}_lede`] ?? ""}</p>
+        </a>
+      ))}
+    </div>
+  </section>
+
+  {!band.stateless && stamps.length > 0 && <PassportStrip lang={lang} stamps={stamps} band={band.id} />}
+
+  <slot />
+
+  {band.next && (
+    <section class="ladder" aria-labelledby="ladder-h">
+      <div>
+        <h2 id="ladder-h" style="margin:0 0 .3rem;font-size:1.25rem">{E.ladder_title}</h2>
+        <p>{nextReady ? fmt(E.ladder_text, { band: `${band.next.name} (${band.next.agesLabel})` }) : E.ladder_soon}</p>
+      </div>
+      <a class="kids-btn" href={nextHref}>{nextReady ? fmt(E.ladder_go, { band: band.next.name }) : E.trails_title} <span class="flip" aria-hidden="true">→</span></a>
+    </section>
+  )}
+
+  <details class="grownups">
+    <summary>{t.grownups_title}</summary>
+    <p>{E.grownups_band}</p>
+    <p><a href={`/${lang}/learn/parents/`}>{E.parents_title}</a> · <a href={`/${lang}/learn/teachers/`}>{E.teachers_title}</a></p>
+  </details>
+</div>

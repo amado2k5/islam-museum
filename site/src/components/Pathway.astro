@@ -5,6 +5,7 @@
 // resume) with progress kept in localStorage only — no account, no server.
 import { byId, href, labelOf, nodes } from "../lib/graph";
 import { ui, type Lang } from "../lib/i18n";
+import Qr from "./Qr.astro";
 import type { Node } from "../../../scripts/build-graph";
 const { node: n, lang } = Astro.props as { node: Node; lang: Lang };
 const T = ui(lang);
@@ -67,6 +68,7 @@ const N = steps.length;
   </ol>
 
   {outcomes.length > 0 && (
+    <div class="pw-print-qr print-only"><Qr lang={lang} path={href(lang, n.id)} /></div>
     <div class="pw-recap" data-recap>
       <h3 class="ui" style="font-size:1rem;margin:0 0 6px">{P.recap}</h3>
       <ul>
@@ -110,5 +112,6 @@ const N = steps.length;
 .pw-recap ul { margin: 0; padding-inline-start: 20px; }
 @media (prefers-reduced-motion: reduce) { .pw-fill { transition: none; } }
 /* a handout always prints the whole route, whatever step the walk is on */
-@media print { .pw-step[hidden] { display: block !important; } }
+.pw-print-qr { display: none; }
+@media print { .pw-step[hidden] { display: block !important; } .pw-print-qr { display: block; } }
 </style>

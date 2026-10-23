@@ -1,0 +1,47 @@
+---
+// Band hub: storytellers (docs/delegation/education-master-plan.md §4, E1).
+import BaseLayout from "../../../layouts/BaseLayout.astro";
+import BandHub from "../../../components/BandHub.astro";
+import { ui, LANGS, fmt, type Lang } from "../../../lib/i18n";
+import { viewBands } from "../../../lib/edu";
+import { loadBridge, viewBridge } from "../../../lib/kids";
+import { listDecks } from "../../../lib/cardlists";
+
+export function getStaticPaths() { return LANGS.map((lang) => ({ params: { lang }, props: { lang } })); }
+const { lang } = Astro.props as { lang: Lang };
+const T = ui(lang);
+const E = T.edu;
+const band = viewBands(lang, T.kids).find((b) => b.id === "storytellers")!;
+const bridges = viewBridge(loadBridge(), lang);
+const decks = listDecks().filter((d) => d.kids);
+const L = (x: { ar: string; en: string; ur?: string }) => (x[lang] ?? x.ar);
+---
+<BaseLayout lang={lang} title={band.name} description={`${fmt(E.band_hub_for, { ages: band.agesLabel })}: ${band.voice}`} path={band.hub} kids={true}>
+  <BandHub lang={lang} band={band}>
+    <section class="shelf" aria-labelledby="shelf-h">
+      <h2 id="shelf-h">🃏 {E.study_title}</h2>
+      <p>{T.cards.lists_lede}</p>
+      <div class="entries">
+        {decks.map((d) => (
+          <a class="entry-card bridge-card" href={`/${lang}/cards/list/${d.slug}/`}>
+            <h2><span aria-hidden="true">🚪</span> {L(d.title)}</h2>
+            <p>{d.count} {T.cards.items} · {E.mode_flip} · {E.mode_match} · {E.mode_type} · {E.mode_test}</p>
+          </a>
+        ))}
+      </div>
+    </section>
+    <section class="bridge shelf" aria-label={T.kids.bridge_title}>
+      <h2>🚪 {T.kids.bridge_title}</h2>
+      <p>{T.kids.bridge_lede}</p>
+      <p class="bridge-note">{T.kids.bridge_door_note}</p>
+      <div class="entries">
+        {bridges.map((b) => (
+          <a class="entry-card bridge-card" href={b.href}>
+            <h3><span aria-hidden="true">🚪</span> {b.title}</h3>
+            <p>{b.desc}</p>
+          </a>
+        ))}
+      </div>
+    </section>
+  </BandHub>
+</BaseLayout>

@@ -1,113 +1,58 @@
 ---
-import { readFileSync } from "node:fs";
-import { parse } from "yaml";
+// The Education front door (docs/delegation/education-master-plan.md §4, E1): routes a visitor by age (five
+// bands), then by role (teacher, family), with the trail chooser one door away at /learn/trails/. The passport
+// strip at the foot lights up from localStorage; without JavaScript the page is five links and two more.
 import BaseLayout from "../../../layouts/BaseLayout.astro";
+import PassportStrip from "../../../components/PassportStrip.astro";
 import { ui, LANGS, type Lang } from "../../../lib/i18n";
-import { href, realNodes, labelOf, summaryOf } from "../../../lib/graph";
-import { repoPath } from "../../../lib/paths";
+import { viewBands, viewStamps } from "../../../lib/edu";
+import "../../../styles/edu.css";
 
 export function getStaticPaths() { return LANGS.map((lang) => ({ params: { lang }, props: { lang } })); }
 const { lang } = Astro.props as { lang: Lang };
 const T = ui(lang);
-const L = T.learn;
-const P = T.pathway;
-const ORDER = ["path-islam-in-30-minutes", "path-meccan-period", "path-abyssinia-migrations", "path-women-around-the-prophet", "path-from-opposition-to-islam"];
-const rank = (id: string) => { const k = ORDER.indexOf(id.replace("exhibit/", "")); return k === -1 ? 99 : k; };
-const paths = realNodes.filter((n: any) => n.class === "exhibit" && String(n.id).startsWith("exhibit/path-")).sort((a: any, b: any) => rank(a.id) - rank(b.id) || String(a.id).localeCompare(String(b.id)));
-
-// a pathway's goal kind: authored `path_kind` wins, else the dominant class of its steps' features (19-tour-learn §4.1)
-const KIND_OF: Record<string, string> = {
-  person: "personalities", group: "personalities",
-  event: "events",
-  period: "era", polity: "era",
-  place: "places", building: "places",
-  concept: "ideas", practice: "ideas",
-  work: "texts", source: "texts", passage: "texts",
-  object: "art", media: "art",
-  question: "hard-question",
-  screen: "culture", listing: "culture",
-};
-const pathKind = (n: any): string => {
-  if (n.data.path_kind) return n.data.path_kind;
-  if (ORDER.includes(n.id.replace("exhibit/", ""))) return "starter";
-  const hist: Record<string, number> = {};
-  for (const r of n.data.rooms ?? []) for (const fid of r.features ?? []) {
-    const k = KIND_OF[String(fid).split("/")[0]];
-    if (k) hist[k] = (hist[k] ?? 0) + 1;
-  }
-  return Object.entries(hist).sort((a, b) => b[1] - a[1])[0]?.[0] ?? "era";
-};
-const cards = paths.map((n: any) => ({
-  n,
-  kind: pathKind(n),
-  regions: (n.data.regions ?? []) as string[],
-  audience: (n.data.audience ?? []) as string[],
-}));
-const regionsYaml = parse(readFileSync(repoPath("schema", "enums", "regions.yaml"), "utf8")) as { id: string; label: Record<string, string> }[];
-const regionLabel = (id: string) => regionsYaml.find((r) => r.id === id)?.label?.[lang] ?? regionsYaml.find((r) => r.id === id)?.label?.en ?? id;
-const kindsPresent = [...new Set(cards.map((c) => c.kind))];
-const regionsPresent = [...new Set(cards.flatMap((c) => c.regions))].sort((a, b) => regionLabel(a).localeCompare(regionLabel(b)));
-const audiencePresent = [...new Set(cards.flatMap((c) => c.audience))];
-const chipClass = (f: string, v: string) => ({ "data-f": f, "data-v": v });
+const E = T.edu;
+const bands = viewBands(lang, T.kids);
+const stamps = viewStamps(lang);
+// The teen wing (E4) is not built yet: its doors lead to the trail chooser and say so.
+const doorHref = (b: (typeof bands)[number]) => (b.wing === "shabab" ? `/${lang}/learn/trails/` : b.hub);
 ---
-<BaseLayout lang={lang} title={L.title} description={L.lede} path={`/${lang}/learn/`}>
-  <div class="wrap" style="padding-block:10px 20px" data-pagefind-ignore>
-    <p class="ui" style="display:inline-flex;align-items:center;gap:10px;background:var(--panel);border-radius:999px;padding:8px 16px;margin:0 0 1rem"><span aria-hidden="true" style="width:8px;height:8px;border-radius:50%;background:var(--gold)"></span>{L.badge}</p>
-    <h1>{L.title}</h1>
-    <p style="font-size:1.2rem;max-width:var(--measure)">{L.lede}</p>
-    <p class="panel ui" style="max-width:var(--measure);border:1px solid var(--gold)">{L.status}</p>
+<BaseLayout lang={lang} title={E.title} description={E.lede} path={`/${lang}/learn/`}>
+  <div class="wrap edu" style="padding-block:10px 24px" data-pagefind-ignore>
+    <section class="edu-hero">
+      <p class="ui" style="color:var(--gold);margin:0 0 .2rem">{T.nav.learn}</p>
+      <h1>{E.title}</h1>
+      <p>{E.lede}</p>
+      <p class="ask" id="ask-age">{E.ask_age}</p>
+    </section>
 
-    {cards.length > 0 && (
-      <section data-chooser-wrap>
-        <h2>{L.chooser_title ?? L.available_title}</h2>
-        <p class="muted" style="max-width:var(--measure)">{L.available_note}</p>
-        <div class="chooser" data-chooser>
-          <div class="ch-group">
-            <span class="ch-label ui muted">{L.filter_kind}</span>
-            {kindsPresent.map((k) => <button type="button" class="chip" aria-pressed="false" {...chipClass("kind", k)}>{P[`pk_${k.replace(/-/g, "_")}`] ?? k}</button>)}
-          </div>
-          <div class="ch-group">
-            <span class="ch-label ui muted">{L.filter_region}</span>
-            {regionsPresent.map((r) => <button type="button" class="chip" aria-pressed="false" {...chipClass("regions", r)}>{regionLabel(r)}</button>)}
-          </div>
-          <div class="ch-group">
-            <span class="ch-label ui muted">{L.filter_audience}</span>
-            {audiencePresent.map((a) => <button type="button" class="chip" aria-pressed="false" {...chipClass("audience", a)}>{P[`aud_${a}`] ?? a}</button>)}
-            <button type="button" class="chip" data-reset>{L.filter_reset}</button>
-          </div>
-        </div>
-        <ul class="grid-cards" style="margin:1rem 0 2rem">{cards.map(({ n, kind, regions, audience }: any) => (
-          <li data-card data-kind={kind} data-regions={regions.join(" ")} data-audience={audience.join(" ")}><a class="card" href={href(lang, n.id)}><h3 class="card-title">{labelOf(n, lang)}</h3><span>{summaryOf(n, lang)}</span><span class="ui muted" style="display:block;margin-top:8px">{P[`pk_${kind.replace(/-/g, "_")}`] ?? L[`kind_${n.kind}`] ?? L.kind_trail} · {n.data.duration_minutes} {L.minutes} · {(n.data.rooms ?? []).length} {L.steps}</span></a></li>
-        ))}</ul>
-      </section>
-    )}
+    <ul class="edu-doors" aria-labelledby="ask-age">
+      {bands.map((b) => (
+        <li>
+          <a class={`edu-door pal-${b.palette}`} href={doorHref(b)}>
+            {b.wing === "shabab" && <span class="chip soon">{E.soon}</span>}
+            <span class="g" aria-hidden="true">{b.glyph}</span>
+            <h2>{b.name}</h2>
+            <span class="ages">{b.agesLabel}</span>
+            <p>{b.voice}</p>
+            <span class="go">{E.enter}</span>
+          </a>
+        </li>
+      ))}
+    </ul>
 
-    <h2>{L.offer_title}</h2>
-    <ul style="max-width:var(--measure);line-height:1.8">{L.offer.map((o: string) => <li>{o}</li>)}</ul>
+    <ul class="edu-adult">
+      <li><a href={`/${lang}/learn/teachers/`}><span class="ic" aria-hidden="true">🍎</span><span><h2>{E.teachers_title}</h2><p>{E.teachers_desc}</p></span></a></li>
+      <li><a href={`/${lang}/learn/parents/`}><span class="ic" aria-hidden="true">🏠</span><span><h2>{E.parents_title}</h2><p>{E.parents_desc}</p></span></a></li>
+      <li><a href={`/${lang}/learn/trails/`}><span class="ic" aria-hidden="true">🗺</span><span><h2>{E.trails_title}</h2><p>{E.trails_desc}</p></span></a></li>
+    </ul>
 
-    <h2>{L.kinds_title}</h2>
-    <p class="muted" style="max-width:var(--measure)">{L.kinds_note}</p>
-    <table class="ui" style="border-collapse:collapse;min-width:min(100%,420px)">
-      <tbody>
-        {L.kinds.map((r: { k: string; n: number }) => <tr><td style="padding:4px 0">{r.k}</td><td style="text-align:end;padding:4px 0 4px 16px">{r.n}</td></tr>)}
-        <tr style="border-top:1px solid var(--gold)"><td style="padding:6px 0"><b>{lang === "ar" ? "المجموع" : "Total"}</b></td><td style="text-align:end;padding:6px 0 6px 16px"><b>{L.kinds.reduce((a: number, r: { n: number }) => a + r.n, 0)}</b></td></tr>
-      </tbody>
-    </table>
+    <PassportStrip lang={lang} stamps={stamps} />
 
-    <h2>{L.meanwhile}</h2>
-    <ul class="ui" style="display:flex;flex-wrap:wrap;gap:10px 26px;padding:0;list-style:none">
-      <li><a class="chip" style="border:1px solid var(--gold)" href={href(lang, "event/hijra")}>{L.start} <span class="flip" aria-hidden="true">→</span></a></li>
-      <li><a href={`/${lang}/questions/`}>{L.questions}</a></li>
-      <li><a href={`/${lang}/themes/`}>{L.themes}</a></li>
-      <li><a href="https://github.com/amado2k5/islam-museum/issues" rel="noopener">{L.suggest}</a></li>
-      <li><a href="https://github.com/amado2k5/islam-museum/blob/main/docs/plan/19-tour-learn.md" rel="noopener">{L.plan}</a></li>
+    <ul class="edu-privacy">
+      <li>{E.privacy_accounts}</li>
+      <li>{E.privacy_tracking}</li>
+      <li>{E.privacy_open}</li>
     </ul>
   </div>
-  <style>
-    .chooser { display: flex; flex-direction: column; gap: 8px; max-width: var(--measure); }
-    .ch-group { display: flex; flex-wrap: wrap; align-items: center; gap: 6px 8px; }
-    .ch-label { font-size: .85rem; min-width: 6.5em; }
-    .chip[aria-pressed="true"] { background: var(--gold); color: #1d3a6e; border-color: var(--gold); }
-  </style>
-  <script src="../../../scripts/learn-chooser.ts"></script>
 </BaseLayout>

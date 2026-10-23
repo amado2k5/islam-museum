@@ -4,6 +4,7 @@ import BaseLayout from "../../../layouts/BaseLayout.astro";
 import Hudhud from "../../../components/Hudhud.astro";
 import { ui, LANGS, type Lang } from "../../../lib/i18n";
 import { loadBridge, viewBridge } from "../../../lib/kids";
+import "../../../styles/edu.css";
 import "../../../styles/kids.css";
 
 export function getStaticPaths() { return LANGS.map((lang) => ({ params: { lang }, props: { lang } })); }
@@ -11,6 +12,7 @@ const { lang } = Astro.props as { lang: Lang };
 const T = ui(lang);
 const t = T.kids;
 const bridges = viewBridge(loadBridge(), lang);
+const E = T.edu;
 ---
 <BaseLayout lang={lang} title={t.hub_title} description={t.hub_lede} path={`/${lang}/sighar/`} kids={true}>
   <div class="kids">
@@ -26,6 +28,7 @@ const bridges = viewBridge(loadBridge(), lang);
       <div class="age-band on">
         <h2>🌱 {t.band_sprouts}</h2>
         <p>{t.band_sprouts_desc}</p>
+        <p><a class="band-link" href={`/${lang}/sighar/sprouts/`}>{E.enter} <span class="flip" aria-hidden="true">→</span></a></p>
         <p>
           <a class="kids-btn" href={`/${lang}/sighar/sprouts-garden/`}>{t.sprouts_garden_title}</a>{" "}
           <a class="kids-btn" href={`/${lang}/sighar/sprouts-quest/`}>{t.sprouts_quest_title}</a>
@@ -34,6 +37,7 @@ const bridges = viewBridge(loadBridge(), lang);
       <div class="age-band on">
         <h2>🔍 {t.band_explorers}</h2>
         <p>{t.band_explorers_desc}</p>
+        <p><a class="band-link" href={`/${lang}/sighar/explorers/`}>{E.enter} <span class="flip" aria-hidden="true">→</span></a></p>
         <p>
           <a class="kids-btn" href={`/${lang}/sighar/garden/`}>{t.garden_title}</a>{" "}
           <a class="kids-btn" href={`/${lang}/sighar/quest/`}>{t.quest_title}</a>{" "}
@@ -44,6 +48,7 @@ const bridges = viewBridge(loadBridge(), lang);
       <div class="age-band on">
         <h2>📖 {t.band_storytellers}</h2>
         <p>{t.band_storytellers_desc}</p>
+        <p><a class="band-link" href={`/${lang}/sighar/storytellers/`}>{E.enter} <span class="flip" aria-hidden="true">→</span></a></p>
         <p>
           <a class="kids-btn" href={`/${lang}/sighar/retell/`}>{t.storytellers_retell_btn}</a>{" "}
           <a class="kids-btn" href={`/${lang}/sighar/journal/`}>{t.storytellers_journal_btn}</a>
@@ -99,6 +104,7 @@ const bridges = viewBridge(loadBridge(), lang);
     <details class="grownups">
       <summary>{t.grownups_title}</summary>
       <p>{t.grownups_hub}</p>
+      <p><a href={`/${lang}/learn/`}>{E.title}</a> · <a href={`/${lang}/learn/parents/`}>{E.parents_title}</a> · <a href={`/${lang}/learn/teachers/`}>{E.teachers_title}</a></p>
     </details>
   </div>
 </BaseLayout>

@@ -6,9 +6,10 @@
 // so the page reads fully with no JS (client script: site/src/scripts/retell.ts).
 import type { QuestStopView, RetellEntryView } from "../lib/kids";
 import type { Lang } from "../lib/i18n";
+import Qr from "./Qr.astro";
 
 interface Props { lang: Lang; t: Record<string, string>; stops: QuestStopView[]; retell: RetellEntryView[] }
-const { t, stops, retell } = Astro.props;
+const { lang, t, stops, retell } = Astro.props;
 const promptsOf = new Map(retell.map((r) => [r.stop_slug, r.prompts]));
 ---
 <div class="kids retell" id="retell-print" data-retell data-i18n-erase-done={t.erase_done}>
@@ -40,6 +41,7 @@ const promptsOf = new Map(retell.map((r) => [r.stop_slug, r.prompts]));
           <p class="autosave-note">{t.retell_autosave_note}</p>
           <p class="draft-actions">
             <button type="button" class="kids-btn" data-print>{t.retell_print}</button>
+            <Qr lang={lang} path={`/${lang}/sighar/retell/`} />
           </p>
           <p class="erase-wrap">
             <button type="button" class="kids-btn ghost" data-erase={s.slug} data-confirm={t.erase_confirm}>{t.erase}</button>
