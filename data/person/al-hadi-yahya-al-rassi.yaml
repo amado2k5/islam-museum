@@ -14,14 +14,21 @@ regions: [arabia]
 relations:
 - { type: "founder_of", target: "polity/rassid-dynasty", note: "أول الداعين بصعدة للإمامة الزيدية", sources: [source/tarikh-ibn-khaldun-ibar] }
 - { type: "member_of", target: "group/zaydiyya", note: "إمام الزيدية بصعدة", sources: [source/tarikh-ibn-khaldun-ibar] }
+died: { edtf: "0911~", hijri: "0298", calendar: julian, precision: year, status: tradition, derived: true, note: "وفاة الهادي في ذي الحجة؛ نص «تاريخ الخلفاء» المقروء آلياً «سنة ثمان ومئتين» والمقصود ٢٩٨هـ/٩١١م كما في خلاصة المادة الإنجليزية — يحتاج تحققاً من نسخة مطبوعة {cite:tarikh-khulafa-minhaj-1434 p. 794}." }
 sources:
 - source/tarikh-ibn-khaldun-ibar
+- source/tarikh-khulafa-minhaj-1434
+- source/muruj-al-dhahab
+- source/sira-hadi-ila-al-haqq
+external_ids:
+  wikidata: Q2745413
+aliases: [person/al-hadi-yahya-ibn-al-husayn]
 provenance:
   layer: own-research
-  source: ابن خلدون، العبر — دولة بني الرسي بصعدة، ص970 (طبعة هيليوبوليس)
-  generated_by: Devin (SWE-2 High) from Apple Vision OCR
+  source: ابن خلدون، العبر — دولة بني الرسي بصعدة، ص970 (طبعة هيليوبوليس)؛ دُمج فيه سجل person/al-hadi-yahya-ibn-al-husayn المكرر (تاريخ الخلفاء + مروج الذهب) وأضيفت سيرة الهادي للعباسي بعد قراءتها آلياً
+  generated_by: Devin (SWE-2 High) from Apple Vision OCR; merge + sira source by Devin (SWE-2 Medium)
   model: swe-2-high
-  run: lib-ibar-east-30
+  run: lib-ibar-east-30 + wd-deferred-15
 status:
   review: draft
   completeness: 1

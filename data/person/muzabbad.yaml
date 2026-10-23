@@ -1,0 +1,22 @@
+id: person/muzabbad
+class: person
+label:
+  ar: "مُزَبَّد"
+  en: "Muzabbad"
+  ur: "مزبد"
+names:
+  - { kind: full, lang: ar, value: "مُزَبَّد" }
+gender: male
+roles: [jester]
+traditions: [sunni]
+summary:
+  ar: "من الماجنين المشهورين، تذكر أخباره حكايات سكره ونوادره مع الولاة. {cite:nihayat-al-arab-nuwayri-vol4-scan p. 26-27}"
+  en: "A well-known dissolute wit; the book records his drinking anecdotes and his jokes with governors. {cite:nihayat-al-arab-nuwayri-vol4-scan p. 26-27}"
+  ur: "مشہور بدمزاج اور لطیفہ گو؛ کتاب میں اس کے شراب نوشی کے قصے اور حاکموں کے ساتھ اس کی لطیفہ بازی درج ہے. {cite:nihayat-al-arab-nuwayri-vol4-scan p. 26-27}"
+wings: [people]
+themes: [literature]
+story_roles:
+  - { role: artist, status: tradition, sources: [source/nihayat-al-arab-nuwayri-vol4-scan] }
+sources: [source/nihayat-al-arab-nuwayri-vol4-scan]
+status: { review: draft, completeness: 1, generated_by: "Claude Haiku 5.5 (Nihayat vol. 4 humour chapter, pages 26-27, from helper claims file; not yet image-checked)" }
+provenance: { layer: pd, source: "archive.org nefa04 (Nihayat al-Arab vol. 4), pages 26-27", generated_by: "Claude Haiku 5.5", model: "claude-haiku-5-5", run: "lib-nihayat-batch-06" }
