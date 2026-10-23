@@ -90,3 +90,15 @@ A term is either known or unknown. Its known or unknown character affects validi
 
 ## Lunar months and other calendars
 A term of months or years stated without qualification is taken as lunar, which is the usage of the law, on the verses about the crescents and the number of months. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.1683} A term in months that Muslims know by name, such as the Syriac or Roman months, is valid for most jurists, since it is a known term. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.1683} {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.1684}
+
+## Oath after dispute over price
+When the buyer and seller dispute the price and have no proof, they take mutual oaths. The Malikis and some Shafi'is hold the contract is dissolved, while the Shafi'is hold it is not dissolved by the oaths themselves but by agreement or by a ruling. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.1691}
+
+## Waiver of the term
+The term is the right of the debtor, granted for his ease, so he may waive it and make the debt due at once. This is the view of most jurists, with some limits where it would harm the creditor. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.1692} When creditor and debtor agree to waive a stipulated deferral, the waiver is valid by agreement. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.1692} {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.1693}
+
+## Term ends on death
+The Hanafis and Shafi'is hold that the term ends when the debtor dies, since his estate is ruined; it does not end when the creditor dies. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.1693} The Hanbalis hold that a deferred debt is not due on the creditor's death; on the debtor's death there are two views, one that it falls due, and one that it does not if the heirs or a guarantor are reliable. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.1694}
+
+## Term ends on bankruptcy
+The Hanafis, Hanbalis and the stronger Shafi'i view hold that a bankrupt's deferred debts are not due, since the term is his right and bankruptcy does not end it. The Malikis and one Shafi'i view hold that deferred debts fall due on a judgement of bankruptcy, since his estate is ruined. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.1695}
