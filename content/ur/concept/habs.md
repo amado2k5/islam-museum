@@ -32,3 +32,11 @@ translators: ["Claude Haiku 5.5, draft translation"]
 ## تہمت اور احتیاط
 
 جمہور کے نزدیک قوی قرینہ ہو تو تہمت پر حبس جائز ہے۔ {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.6752}
+
+## احتیاطی حبس
+
+احتیاطی حبس عوام کے تحفظ کے لیے ہوتا ہے، جیسے نظر لگانے والے شخص کو روکنا۔ {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.6754}
+
+## قصاص کے ساتھ حبس
+
+قاتل کو اس وقت تک روکا جاتا ہے جب تک اولیاء میں سے کوئی غائب یا نابالغ ہو۔ {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.6755}
