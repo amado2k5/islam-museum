@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=1440">
+<title>نموذج: وضع الصف /ar/learn/teachers/quiz/</title>
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Amiri:ital,wght@0,400;0,700&family=Noto+Naskh+Arabic:wght@400;500;600;700&display=swap" rel="stylesheet">
+<style>
+/* Tokens follow site/src/styles/global.css and kids.css (23 Oct 2026). Mockup only: 1440x900 frame. */
+:root{--ivory:#f9f8f6;--ink:#1a1a1a;--lapis:#0a2533;--teal:#113f4e;--gold:#c5a059;--gold-text:#654a15;--sand:#e6d5b8;--muted:#4a4a4a;--card:#fff;--line:rgba(10,37,51,.16);
+--kids-paper:#faf6ea;--kids-teal:#2a7b88;--kids-leaf:#4d8a4f;--kids-leaf-deep:#2f6b31;--kids-coral:#e0704f;--kids-coral-deep:#b0411f;--kids-gold:#c9a227;--kids-gold-deep:#876a18;--kids-lapis:#1b2a4a;--kids-ink:#2b2b2b;
+--shadow:0 1px 2px rgba(26,26,26,.05),0 8px 24px rgba(26,26,26,.08)}
+*{box-sizing:border-box}
+html,body{margin:0}
+body{width:1440px;height:900px;overflow:hidden;background:var(--ivory);color:var(--ink);font-family:"Noto Naskh Arabic","Amiri","Geeza Pro",serif;font-size:18px;line-height:1.8;-webkit-font-smoothing:antialiased;position:relative}
+h1,h2,h3{font-family:"Amiri","Noto Naskh Arabic",serif;font-weight:700;line-height:1.45;margin:0}
+a{color:var(--teal);text-decoration:none}
+.wrap{max-width:1360px;margin-inline:auto;padding-inline:40px}
+header.site{height:64px;border-bottom:1px solid var(--line);background:color-mix(in srgb,var(--ivory) 92%,transparent);display:flex;align-items:center}
+header.site .wrap{display:flex;align-items:center;gap:1.2rem;width:100%}
+.brand{display:flex;align-items:center;gap:.5rem;font-weight:700;color:var(--ink);font-size:1.15rem}
+.brand .em{width:28px;height:28px;border-radius:50%;background:radial-gradient(circle at 50% 45%,#c87533 0 34%,var(--lapis) 36% 78%,var(--gold) 80% 100%)}
+.nav{display:flex;gap:.2rem;margin-inline-start:.6rem}
+.nav a{color:var(--ink);padding:.35rem .7rem;border-radius:10px;font-size:1rem}
+.nav a.on{background:var(--sand);font-weight:700}
+.tools{margin-inline-start:auto;display:flex;gap:.5rem;align-items:center;font-size:.95rem}
+.pill{border:1px solid var(--line);background:var(--card);border-radius:999px;padding:.25rem .8rem}
+.pill b{color:var(--lapis)}
+.privacy{position:absolute;bottom:0;inset-inline:0;height:44px;display:flex;align-items:center;justify-content:center;gap:1.6rem;font-size:.95rem;color:var(--muted);border-top:1px solid var(--line);background:var(--ivory)}
+.privacy span::before{content:"•";margin-inline-end:.5rem;color:var(--gold)}
+.privacy span:first-child::before{content:""}
+.caption{position:absolute;top:8px;inset-inline-start:12px;font-size:12px;color:#777;font-family:Inter,system-ui,sans-serif;direction:ltr;background:#fff;border:1px solid #ddd;border-radius:6px;padding:2px 8px;opacity:.9}
+</style>
+
+<style>
+body{background:#0a2533;color:#fff}
+.bar{height:72px;display:flex;align-items:center;justify-content:space-between;padding:0 48px;font-size:1.3rem;border-bottom:1px solid rgba(255,255,255,.14)}
+.bar .t{color:var(--gold);font-weight:700}
+.bar .p{color:#dfe6e8}
+.ring{width:96px;height:96px;border-radius:50%;background:conic-gradient(var(--gold) 0 60%,rgba(255,255,255,.14) 60% 100%);display:grid;place-items:center;position:absolute;top:92px;inset-inline-start:48px}
+.ring b{width:72px;height:72px;border-radius:50%;background:#0a2533;display:grid;place-items:center;font-size:2rem;font-family:"Amiri",serif}
+.q{text-align:center;padding:70px 160px 24px}
+.q h1{font-size:3.4rem;line-height:1.5;color:#fff;font-weight:700}
+.q .src{color:#bfcfd4;font-size:1.1rem;margin-top:.3rem}
+.tiles{display:grid;grid-template-columns:1fr 1fr;gap:22px;padding:0 120px}
+.tile{min-height:150px;border-radius:22px;display:flex;align-items:center;gap:28px;padding:0 36px;font-size:2.4rem;font-family:"Amiri",serif;color:#fff;position:relative;border:3px solid transparent}
+.tile i{font-style:normal;font-size:2.6rem;width:72px;height:72px;display:grid;place-items:center;background:rgba(255,255,255,.18);border-radius:16px}
+.tile kbd{position:absolute;top:10px;inset-inline-end:14px;font-family:"Noto Naskh Arabic",serif;font-size:1rem;background:rgba(0,0,0,.25);border-radius:8px;padding:0 .6rem;color:#fff}
+.t1{background:#b0411f}.t2{background:#1f6f7a}.t3{background:#876a18}.t4{background:#355f7a}
+.tile:focus-visible,.tile.sel{border-color:#fff;outline:4px solid var(--gold);outline-offset:4px}
+.foot{position:absolute;bottom:0;inset-inline:0;height:120px;display:flex;align-items:center;justify-content:space-between;padding:0 48px;border-top:1px solid rgba(255,255,255,.14);background:#081d28}
+.cue{font-size:1.9rem;font-family:"Amiri",serif;color:var(--gold)}
+.reveal{background:var(--gold);color:#0a2533;border-radius:999px;padding:0 2rem;min-height:64px;line-height:64px;font-size:1.4rem;font-weight:700}
+.qr{display:flex;align-items:center;gap:14px;direction:rtl}
+.qr .code{width:84px;height:84px;background:#fff;border-radius:8px;padding:6px}
+.qr .code div{width:100%;height:100%;background-image:linear-gradient(90deg,#0a2533 50%,transparent 50%),linear-gradient(#0a2533 50%,transparent 50%);background-size:12px 12px;background-blend-mode:difference;opacity:.9}
+.qr p{margin:0;font-size:1rem;color:#dfe6e8;line-height:1.6}
+.qr p b{color:#fff;direction:ltr;unicode-bidi:embed;font-family:Inter,system-ui,sans-serif}
+.note{position:absolute;bottom:128px;inset-inline:0;text-align:center;color:#9fb3b8;font-size:1rem}
+</style>
+</head>
+<body>
+<div class="caption">Mockup 04 · Classroom quiz screen · /ar/learn/teachers/quiz/path-hijra/?classroom=1 · 1440x900 · RTL · QR is a placeholder</div>
+
+<div class="bar"><div class="t">درب الهجرة · حقيبة المعلم</div><div class="p">سؤال ٣ من ٥</div><div class="p">وضع الصف · العرض على الشاشة</div></div>
+<div class="ring"><b>١٢</b></div>
+<section class="q">
+  <h1>في أي سنةٍ ميلادية هاجر النبي من مكة إلى المدينة؟</h1>
+  <div class="src">من المحطة الرابعة في المسار: «الوصول إلى قُباء»</div>
+</section>
+<div class="tiles">
+  <a class="tile t1" href="#"><i>▲</i>٦١٠ م<kbd>١</kbd></a>
+  <a class="tile t2 sel" href="#"><i>◆</i>٦٢٢ م<kbd>٢</kbd></a>
+  <a class="tile t3" href="#"><i>●</i>٦٣٢ م<kbd>٣</kbd></a>
+  <a class="tile t4" href="#"><i>■</i>٦٦١ م<kbd>٤</kbd></a>
+</div>
+<p class="note">لا تُرسَل أي إجابة من أي جهاز: الصف يصوّت برفع الأيدي، وكل جهازٍ يحسب نتيجته وحده. ورقة النتائج للطباعة في نهاية المسار.</p>
+<div class="foot">
+  <div class="cue">ارفعوا أيديكم! ✋</div>
+  <a class="reveal" href="#">اكشف الجواب والمحطة التي تعلّمه</a>
+  <div class="qr"><div class="code"><div></div></div><p>افتح السؤال على جهازك<br><b>islam.museum/ar/q/hijra</b></p></div>
+</div>
+
+</body>
+</html>
