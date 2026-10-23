@@ -34,11 +34,11 @@ Average sources per entity: **1.28** · Women share of persons with a recorded g
 
 | Key | Count |
 |---|---|
-| ideas | 854 |
+| ideas | 853 |
 | living | 41 |
 | made | 117 |
 | objects | 6121 |
-| people | 8105 |
+| people | 8106 |
 | place | 1706 |
 | time | 3973 |
 | today | 6 |
@@ -48,7 +48,7 @@ Average sources per entity: **1.28** · Women share of persons with a recorded g
 
 | Key | Count |
 |---|---|
-| period/abbasid-early | 1466 |
+| period/abbasid-early | 1468 |
 | period/abbasid-fragmentation | 488 |
 | period/buyid-seljuk-fatimid-era | 1205 |
 | period/colonial-era | 1346 |
@@ -58,7 +58,7 @@ Average sources per entity: **1.28** · Women share of persons with a recorded g
 | period/modern-era | 1143 |
 | period/mongol-post-mongol | 1299 |
 | period/pre-islamic-arabia | 402 |
-| period/prophetic-era | 1705 |
+| period/prophetic-era | 1703 |
 | period/rashidun | 835 |
 | period/umayyad | 985 |
 
@@ -69,11 +69,11 @@ Average sources per entity: **1.28** · Women share of persons with a recorded g
 | americas-oceania | 64 |
 | anatolia-balkans | 4097 |
 | andalus-europe | 1171 |
-| arabia | 3021 |
+| arabia | 3023 |
 | china-east-asia | 127 |
 | east-africa | 274 |
 | egypt-nile | 956 |
-| global | 584 |
+| global | 582 |
 | levant-iraq | 3555 |
 | maghreb | 1343 |
 | persia-central-asia | 3034 |
@@ -105,12 +105,12 @@ Average sources per entity: **1.28** · Women share of persons with a recorded g
 | converts-and-leavers | 228 |
 | cosmology-and-creation | 5 |
 | creed | 122 |
-| crime-and-punishment | 17 |
+| crime-and-punishment | 18 |
 | crusades | 17 |
 | cuisines | 10 |
 | dawa-and-christian-mission | 7 |
 | desertions-defections-withdrawals | 4 |
-| development-of-law-theology-institutions | 200 |
+| development-of-law-theology-institutions | 199 |
 | diplomacy-and-envoys | 2 |
 | disability | 4 |
 | dissent-heresy-freethought | 26 |
@@ -126,9 +126,9 @@ Average sources per entity: **1.28** · Women share of persons with a recorded g
 | games-and-leisure | 1 |
 | geography-and-cartography | 19 |
 | golden-age-and-decline | 4 |
-| halal-and-haram | 19 |
+| halal-and-haram | 20 |
 | halal-certification-and-standards | 2 |
-| health-body-death | 43 |
+| health-body-death | 45 |
 | history-of-islam-online | 2 |
 | history-writing-and-social-thought | 170 |
 | hospitality | 14 |
@@ -146,7 +146,7 @@ Average sources per entity: **1.28** · Women share of persons with a recorded g
 | islam-and-secular-thought | 2 |
 | islam-and-the-modern-state | 6 |
 | islam-and-zoroastrianism | 2 |
-| law-and-courts | 141 |
+| law-and-courts | 142 |
 | laws-of-war-and-peace | 55 |
 | libraries-paper-and-the-book | 11 |
 | linguistics | 77 |
