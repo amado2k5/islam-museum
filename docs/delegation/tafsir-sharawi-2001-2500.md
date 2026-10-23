@@ -7,7 +7,7 @@ Ground rules applied: draft only (`status.review: draft`, `provenance`), Qur'an 
 ## Status
 
 - Last page read and recorded: **2024**. Pages 2025-2500 not yet read.
-- Source entity: `source/tafsir-sharawi-khawatir-scan`, reused from `origin/main` (created by the parallel run `tafsir-sharawi-1-500`). Its label and `reliability_note` describe **volume one** (al-Fatiha to 2:154). The pages in this batch are in al-Nisa'. Before publication, confirm whether the scan index runs across volumes; if these pages come from volume two, the owner of the source file should add that volume, not this lane. Edition unverified; cite pages are scan pages.
+- Source entity: `source/tafsir-sharawi-khawatir-scan-vol-2`, reused from `origin/main` (created by the parallel run `tafsir-sharawi-1-500`). Its label and `reliability_note` describe **volume one** (al-Fatiha to 2:154). The pages in this batch are in al-Nisa'. Before publication, confirm whether the scan index runs across volumes; if these pages come from volume two, the owner of the source file should add that volume, not this lane. Edition unverified; cite pages are scan pages.
 - Claims table (outside git): `scratchpad/tafsir/claims-2001-2500.md`.
 
 ## Batch 1 (pages 2001-2024, surah al-Nisa' 3-11 and the Khidr passage in commentary)
@@ -17,7 +17,7 @@ Entities created:
 - `concept/milk-al-yamin` (what the right hand owns), with `perspectives` (Sha'rawi on ending slavery; academic view needs source). One OCR word on p. 2008 to be checked on the page image.
 - `practice/mahr` (bridal gift), with `perspectives`. The Ali anecdote on p. 2010 has no chain of transmission in this text (needs_source).
 - `concept/wilayat-al-mal-al-yatim` (guardianship over an orphan's property), with `perspectives`.
-- `source/tafsir-sharawi-khawatir-scan`.
+- `source/tafsir-sharawi-khawatir-scan-vol-2`.
 
 Entities edited:
 - `concept/taadud-al-zawajat`: added `perspectives` (Sha'rawi's permission-with-justice and surplus argument, a Sunni entry; other states' view and academic view both marked needs_source) and the new source.

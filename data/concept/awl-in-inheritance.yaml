@@ -1,0 +1,48 @@
+id: concept/awl-in-inheritance
+class: concept
+kind: legal
+label:
+  ar: "العَوْل في الفرائض"
+  en: "Awl (proportional reduction of shares in inheritance)"
+issue:
+  ar: "هل تُدخل الزيادة على الواحد الصحيح نقصاً على جميع الورثة أم على بعضهم، أم لا تُدخل نقصاً أصلاً؟"
+summary:
+  ar: "العول عند المؤلف أن تزيد أنصبة أصحاب الفروض على الواحد الصحيح، فيُدخل النقص عليهم بالمحاصة عند القائلين به، ومثاله زوج وأختان شقيقتان فيكون المجموع 7/6 {cite:usul-iqtisad-islami-0660 p. 335}. وروي عن ابن عباس ومن وافقه أنهم لا يقولون به {cite:usul-iqtisad-islami-0660 p. 336}، ويرى المؤلف أن المذهبين قائمان على العول، لكن أحدهما يُدخل النقص على الجميع والآخر على بعضهم {cite:usul-iqtisad-islami-0660 p. 336}."
+wings: [ideas]
+themes:
+- law-and-courts
+- family-marriage-kinship
+periods:
+- period/prophetic-era
+regions:
+- global
+perspectives:
+  - tradition: sunni
+    id: awl-applied
+    summary:
+      ar: "القائلون بالعول يقسمون التركة على السبعة بدل الستة، فيدخلون النقص على الورثة بالمحاصة، كل على قدر حصته {cite:usul-iqtisad-islami-0660 p. 335}."
+    sources: [source/usul-iqtisad-islami-0660]
+  - tradition: sunni
+    id: ibn-abbas-no-awl
+    summary:
+      ar: "ابن عباس ومن وافقه من بعض السلف لا يقولون بالعول {cite:usul-iqtisad-islami-0660 p. 336}. ويذكر المؤلف أن القائلين بمنع الرد لا يُعطون أهل الفروض الزيادة، فيزيد انتشار التركة عندهم {cite:usul-iqtisad-islami-0660 p. 335}."
+    sources: [source/usul-iqtisad-islami-0660]
+  - tradition: other
+    id: author-both-stand
+    summary:
+      ar: "يرى المؤلف أن المذهبين قائمان على العول، ويرجح أن الفرق بينهما في أن يُدخل النقص على جميع الورثة أو على بعضهم، وهذا رأيه لا حكم قطعي {cite:usul-iqtisad-islami-0660 p. 336}."
+    sources: [source/usul-iqtisad-islami-0660]
+relations:
+  - { type: part_of, target: concept/inheritance-system, sources: [source/usul-iqtisad-islami-0660] }
+sources:
+- source/usul-iqtisad-islami-0660
+provenance:
+  layer: own-research
+  source: "Rafiq Yunus al-Misri, Usul al-iqtisad al-islami, PDF pp. 301-359 (harvest OCR, outside git)"
+  generated_by: "Claude Code (claude-haiku-5-5)"
+  model: "claude-haiku-5-5"
+  run: "econ-0660-usul-pp301-359"
+status:
+  review: draft
+  completeness: 1
+  generated_by: "Claude Code (claude-haiku-5-5); draft from usul-iqtisad-islami-0660 pp. 301-359; English and Urdu translations not yet written"

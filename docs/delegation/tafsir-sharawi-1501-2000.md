@@ -2,7 +2,7 @@
 
 Owner: harvest run `sharawi-harvest-1501-2000-batch-1` (Claude Haiku 5.5).
 Source: scan titled "تفسير الشعراوي", OCR text for pages 1501-2000 (kept outside git).
-Source entity: `source/tafsir-sharawi-khawatir-scan` (edition unverified; page numbers are scan markers).
+Source entity: `source/tafsir-sharawi-khawatir-scan-vol-2` (edition unverified; page numbers are scan markers).
 
 ## Status
 
