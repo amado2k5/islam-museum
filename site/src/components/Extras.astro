@@ -34,6 +34,9 @@ const iiifService = zoomMedia?.data.iiif_image;
 const iiifManifest = d.iiif_manifest ?? zoomMedia?.data.iiif_manifest;
 const zoomCredit = zoomMedia ?? depictions[0];
 const faithText = (d.faith ?? []) as any[];
+// local media (illustrations, maps): the record's own file, shown only when present at build time
+const ownFileRel = n.class === "media" && !d.url ? (d.files?.[`webp_${lang}`] ?? d.files?.webp_en ?? d.files?.webp) : undefined;
+const ownFile = ownFileRel && existsSync(repoPath("site", "public", ownFileRel)) ? ownFileRel : undefined;
 ---
 {mapMedia && mapFile && (
   <figure class="panel" style="margin:0 0 1.2rem">
@@ -97,6 +100,15 @@ const faithText = (d.faith ?? []) as any[];
     </a>
     <figcaption class="ui muted" style="font-size:.85rem;margin-top:8px">
       {d.attribution} · {T.figure.licence}: {d.license} · <a href={d.url} rel="noopener">{T.figure.open}</a>
+    </figcaption>
+  </figure>
+)}
+
+{ownFile && (
+  <figure class="panel" style="margin:0 0 1.2rem">
+    <img src={`/${ownFile}`} alt={d.alt?.[lang] ?? d.alt?.en} loading="lazy" style="width:100%;height:auto;border-radius:10px;background:var(--bg)" />
+    <figcaption class="ui muted" style="font-size:.85rem;margin-top:8px">
+      {d.attribution} · {T.figure.licence}: {d.license}
     </figcaption>
   </figure>
 )}
