@@ -32,3 +32,18 @@ His wife's maintenance is owed from his property, by agreement of the jurists, a
 
 ## Bequest and inheritance
 The Hanafis hold a bequest to the missing man in suspense until his state is known: if he proves alive before the death of his peers he receives it; if he is judged dead the bequest returns to the testator's heirs. He is treated as alive as regards his property, so no one inherits from him, and his share of an estate is held in suspense until the matter is clear. If he is proven to have died after the testator, he inherits; if before, or the period passes without news, the suspended share returns to the testator's heirs. The stronger Hanbali view counts it as his property divided among his heirs. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.14835} {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.14836}
+
+## How the disappearance ends
+It ends in one of three ways: the missing man returns home; his death is proven before a judge; or he is judged dead after a period of absence or on reaching an age beyond which he would not live. The jurists agree on return and on proven death, but differ on the judgement. The Hanafis hold, in the apparent view, that he is judged dead when none of his contemporaries remains in his town, and they set that age at 120, 100, 90 or 70 years, with some leaving the matter to the ruler. The sounder Shafi'i view leaves the age to the ruler's judgment. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.14837} {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.14838} {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.14839}
+
+## Dividing his estate after the judgement
+When the period is over his inheritance is divided among the heirs alive on the day he is judged dead, as Umar and Uthman ruled, the sounder Hanbali view. Some Hanbalis divide only after the widow's waiting period, if death is more likely. His wife observes the widowhood period from the day of the division. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.14839} {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.14840}
+
+## Whether the judgement creates or declares
+The jurists disagree on whether the judgement creates a new status or merely declares one. If it creates it, the widow cannot begin widowhood or remarry before it; and the estate is divided only among heirs alive at its date. If it declares, her waiting period runs from the end of the period and inheritance is divided among heirs alive then. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.14840}
+
+## His return after the judgement: the wife
+If he returns before she has remarried, the Hanafis and, in the well-known view, the Malikis hold she is still his wife. If she has remarried, the Malikis have two views; Ibn al-Qasim and Ashhab hold the stronger is that he has no claim on her. The Shafi'is have two views in the old opinion, and in the new one her second marriage is void and she returns to him after her waiting period. The Hanbalis hold that if the second husband has not consummated the marriage, she is the first husband's wife; if he has, the first husband may choose between taking her and taking her dower. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.14841} {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.14842}
+
+## His return: his property
+The Hanafis hold that he may not claim from his wife and children what they spent with the judge's leave, but he may take what remains in the heirs' hands, and they must pay for anything they sold. The Malikis and Shafi'is hold he may recover his whole estate even after division. The Hanbalis hold he takes the property that still exists; for what has been lost, the heirs are liable in the sounder view. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.14842}
