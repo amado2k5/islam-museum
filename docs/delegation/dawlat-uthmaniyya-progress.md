@@ -55,3 +55,10 @@ Enriched hasan-aga-al-tushi (Mostaganem/Biskra, the 949 raid, the two letters wi
 - Enriched: `salih-rais` (full governorship: Fez campaign, four months, Oran preparation, plague death Rajab 963) · `muhammad-al-shaykh-al-sadi` (the 10,000-musketeer request, Portuguese truce, Tlemcen surprise) · `al-muzawwar-ibn-bu-ghannam` (Spanish mediation letters) · `siege-of-oran-1556` draft card verified on the page
 - New: `abu-hasun-al-wattasi`, `hasan-corso`, `yahya-rais`, `mahmud-safa-bak`, `conde-de-alcaudete`, `philip-ii-spain`, `mawlay-abu-bakr-al-idrisi`, `event/capture-fez-964` (book's printed ٩٦٤ flagged as misprint for ٩٦١), `event/recapture-badis-1554`, `event/saadi-attack-tlemcen-963`
 - Trilingual prose for all. 0 errors.
+
+## Batch 13 — Hasan b. Khayr al-Din mabahith cont. (pp. 245–252)
+
+- Enriched: `hasan-ibn-khayr-al-din` (2nd & 3rd terms, Janissary arrest 969, Oran 971, Malta, Kapudan Pasha 975) · `muhammad-al-shaykh-al-sadi` (murdered 964/1557) · `hasan-corso` (died 964) · `conde-de-alcaudete` (killed at Mostaganem 965)
+- Draft cards verified: `piyale-pasha`, `siege-of-malta-1565`, `sieges-of-oran-mers-el-kebir-1563`
+- New: `abdallah-al-ghalib-al-sadi`, `turgut-reis`, `ahmad-muqran-al-zawawi`, `abd-al-aziz-ibn-abbas`, `bu-yahya-al-rais`, `muhammad-ibn-salih-rais`, `event/battle-mostaganem-965`, `event/ottoman-raid-djerba-967`
+- Trilingual prose. 0 errors.
