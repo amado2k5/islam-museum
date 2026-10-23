@@ -218,6 +218,29 @@ Return to the general (non-person) queue after the rijal pivot. Ranked by inboun
 - Kuwaiti encyclopedia pages ~46–1200 are the book's own index; every headword used here is the later own-article page, never an index hit.
 - `person/` records untouched; rijal lane owns them.
 
+### Batch 8 (23 Oct 2026, 10 records, ar+en+ur) — general lane (Devin)
+
+| record | source & pages |
+|---|---|
+| concept/mushaf | Fiqh Mawsu'a Kuwaitiyya pp.12678–12680 (own article); record gains that source (al-A'lam kept) |
+| concept/mahram | Fiqh Mawsu'a Kuwaitiyya pp.12678–12680 (maharim/mahram article); Sabiq's Fiqh al-Sunna kept |
+| event/mongol-invasions | Ibn Khaldun, al-Ibar pp.34–36 (Mongol rise in the Muqaddima-era material) |
+| polity/zunbil-dynasty | al-Baladhuri, Futuh al-Buldan pp.571–577 (Rutbil/Zunbil section) |
+| polity/brahmin-dynasty-sindh | al-Baladhuri, Futuh al-Buldan pp.624–633 (Dahir/Sindh conquest section) |
+| polity/midrarid-dynasty | Ibn Khaldun, al-Ibar pp.1619–1621 (Sijilmasa, Banu Midrar); Ya'qut kept on record but unused (extracted vols stop before sin) |
+| polity/rustamid-imamate | Ibn Khaldun, al-Ibar pp.1609–1614, 1620 (Berber dynasties chapter, Tahert/Ibadi revolt) |
+| polity/aghlabid-emirate | Ibn Khaldun, al-Ibar pp.1022–1027 (Aghlabid chapter, Qayrawan + Sicily campaigns) |
+| group/hafsids-of-bejaia | Ibn Khaldun, al-Ibar pp.1675–1680 (Banu Hafs chapter; scope limited to Bejaia passages per record's slug) |
+| work/tawrat | Ahmad Amin, Duha al-Islam pp.298–303 (Jewish-culture chapter); tanzil-quran kept on record |
+
+### Deferred this batch
+- `work/sujud-al-tilawa` (45 links) — still no own article located in extracted Mawsu'a text.
+- `work/mirqat-al-mafatih`, `work/umm-al-kitab`, `work/al-adab-al-mufrad` — no readable own entries this pass.
+- `concept/mahram` ihram reading kept narrow to kinship/mahram per record scope.
+
+### Methodological notes
+- All citations are own-article/section pages, not index hits; OCR forms «رتبيل/وتبيل» verified in context before use.
+- `person/` untouched.
 ## Batch 7 — rijal cohort (agent pb2-rijal)
 
 Shipped after Batch 6 merge (PR #1182 merged 2026-10-23T21:13:57Z). Ten records, Arabic first with English and Urdu companions in the same commit; `completeness: 3` on all ten.
@@ -253,3 +276,24 @@ The fifteen records shortlisted for Batch 8 (`saad-ibn-abi-waqqas`, `sad-ibn-mua
 What this batch did do: every candidate's own entry was located and verified on the page (Isaba ٢٧٧, ٤٧ kunya, ٩١٤, ٣١١٢, ٣٢٣٦, ٣٢٥٩, ٣٢٧٢, ٣٥٢٣, ٤١٢٩, ٤٥٧٢, ٥٩٣٢, ٦١٤٨, ٦٩٣٩, ١٠٧٦٦ kunya, ١١٤١١; Taqrib ٢٣٩٦), the used source (`source/ibn-hajar-isaba`, or `source/taqrib-al-tahdhib` for Sa'id ibn al-Musayyab) was added to each YAML where missing, and `completeness` was raised to 3 to match the already-present prose.
 
 Batch 8 as a missing-prose batch is void; the next batch needs a fresh missing-prose selection from the ranked queue.
+
+### Batch 9 (23 Oct 2026, 8 records, ar+en+ur) — general lane (Devin)
+
+| record | source & pages |
+|---|---|
+| event/tabaristan-campaign-30 | Ibn al-Athir, al-Kamil (scan 02-163053) pp.480–481 — Sa'id b. al-As's year-30 campaign, Tamisa, treaty of Jurjan |
+| event/masjid-nabawi-expansion-29 | al-Kamil p.475 — 'Uthman's enlargement, Rabi' I 29 |
+| event/conquest-of-takrit | al-Kamil pp.348–349 — year 16, Ibn al-Mu'tim's forty-day siege, Taghlib/Iyad/Namir crossing |
+| event/church-qatiat-al-daqiq-burned-392 | Ibn al-Jawzi, al-Muntazam (scan AAlexandrina-224011) p.219 — year 392, mob burning of the bi'a |
+| event/tigris-dredging-400 | al-Muntazam p.245 — Rabi' I 400 low water, first recorded dredging |
+| event/tigris-flood-401 | al-Muntazam pp.251–252 — 21-cubit rise Rajab–Ramadan 401 |
+| event/dar-sultana-fire-515 | Ibn al-'Imad, Shadharat al-Dhahab (scan AAlexandrina-223861) p.527 — one-line notice kept brief |
+| group/rifaiyya | Shadharat pp.739–740 — Ahmad al-Rifa'i notice, year 578; marvel reports kept attributed to Ibn Qadi Shuhba |
+
+### Deferred this batch
+- `event/conquest-of-fasa` — no own conquest narrative found in extracted Kamil/Futuh texts (Futuh p.563 has only a passing fort mention at Fasa).
+- Remaining queue head is the thin tail (1–2 links): Ottoman mosque buildings without harvested narrative sources — deferred pending Ottoman source coverage (Salabi dawlat-uthmaniyya check next pass).
+
+### Methodological notes
+- Muntazam/Shadharat cites follow the printed page numbers used by the existing record summaries (verified against the scanned pages listed in each file's research notes).
+- `person/` untouched.
