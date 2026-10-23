@@ -1,23 +1,27 @@
 id: event/siege-of-oran-1556
 class: event
 kind: siege
-label: { ar: "حصار وهران (١٥٥٦)", en: "Siege of Oran" }
+label: { ar: "حصار وهران (٩٦٣هـ/١٥٥٦م)", en: "Siege of Oran (963/1556)" }
 summary:
-  ar: "بطاقة أولية لحصار وهران سنة ١٥٥٦م، محاولة الجزائر العثمانية أخذها من الإسبان؛ لم تُراجع مصادره على الصفحة بعد."
-  en: "Draft card for the Siege of Oran in 1556, Ottoman Algiers' attempt on the Spanish garrison; its sources are not yet checked on the page."
+  ar: "الحملة التي كان صالح رايس يعد لها لفتح وهران والمرسى الكبير بعد أن كشفت المخابرات العثمانية المحادثات السعدية الأسبانية؛ أرسل السلطان سليمان أربعين سفينة فصار لصالح نحو سبعين سفينة وأربعين ألف جند، لكنه توفي بالطاعون في رجب ٩٦٣هـ/١٥٥٦م. فأكمل القائد يحيى خطته وأبحر نحو وهران، وفي الطريق وصلت الأوامر السلطانية بتعيين حسن قورصو بيلربكاً؛ وحوصرت وهران حصاراً شديداً لكنها لم تفتح بسبب النجدات المتواصلة التي كانت تبعثها أسبانيا {cite:dawlat-uthmaniyya-salabi p. 243-244}."
+  en: "The campaign Salih Reis was preparing against Oran and Mers el-Kebir after Ottoman intelligence uncovered the Sa'di-Spanish talks; Süleyman sent forty ships, giving him about seventy ships and forty thousand men, but he died of plague in Rajab 963/1556. The commander Yahya carried on and sailed; en route the sultanic order arrived naming Hasan Corso beylerbey. Oran was closely besieged yet not taken, for Spain's continuous relief convoys {cite:dawlat-uthmaniyya-salabi p. 243-244}."
 wings: [time]
 periods: [period/gunpowder-empires]
 regions: [maghreb]
 date:
-  start: { edtf: "1556", precision: year, status: tradition, derived: true }
+  start: { edtf: "1556", hijri: "0963", calendar: gregorian, precision: year, status: tradition, sources: [source/dawlat-uthmaniyya-salabi] }
   end: { edtf: "1556", precision: year, status: tradition, derived: true }
-sources: [source/tarikh-islam-hasan-ibrahim]
+relations:
+  - { type: had_participant, target: person/salih-rais, sources: [source/dawlat-uthmaniyya-salabi] }
+  - { type: had_participant, target: person/hasan-corso, sources: [source/dawlat-uthmaniyya-salabi] }
+  - { type: occurred_at, target: place/wahran, sources: [source/dawlat-uthmaniyya-salabi] }
+sources: [source/dawlat-uthmaniyya-salabi]
 external_ids:
   wikidata: Q7510284
 provenance:
   layer: own-research
-  source: "Wikidata candidate; battle attested in narrative histories — entry not yet checked on the page"
-  generated_by: "Devin (SWE-2 High)"
-  model: "SWE-2 High"
-  run: wikidata-import-wave2
-status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }
+  source: "الدولة العثمانية لعلي محمد الصلابي (ط1 1421) ص 243-244 — draft card verified on the page"
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: salabi-uthmani-batch12
+status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 Medium)" }

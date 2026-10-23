@@ -5,7 +5,7 @@ Owner: harvest run `tafsir-sharawi-501-1000`. Branch `harvest/tafsir-sharawi-501
 ## State
 
 - Last page reached and written: **596** (of 501 to 1000). Batches 1 to 3 are committed; batch 4 (581 to 596) is in its own commit.
-- Source entity: `source/tafsir-sharawi-khawatir-scan` (created in batch 1). Edition not identified; flagged unverified in its `reliability_note`. Citations use the scan's page index.
+- Source entity: `source/tafsir-sharawi-khawatir-scan-pp-501-1000` (created in batch 1). Edition not identified; flagged unverified in its `reliability_note`. Citations use the scan's page index.
 - Claims table (not in git): scratchpad `tafsir/claims-501-1000.md`.
 
 ## Batches

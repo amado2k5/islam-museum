@@ -20,4 +20,4 @@ In a footnote Rida reports that Abduh believed that whoever performed the pilgri
 The classical and historical reports on the conquest of Mecca and on the conduct of al-Hajjaj have not yet been added, nor has the history of these events from a second source. The date 1924 given in the footnote needs a second source before any use.
 
 ## Sha'rawi on the security of the House
-Sha'rawi reads «make this land safe» as a request that the security God gave the House last. He holds that the safety of the House is a ruling to be obeyed, not merely a report: whoever obeys God carries it out, and whoever does not is not secured by the House. {cite:tafsir-sharawi-khawatir-scan p.576} {cite:tafsir-sharawi-khawatir-scan p.581}
+Sha'rawi reads «make this land safe» as a request that the security God gave the House last. He holds that the safety of the House is a ruling to be obeyed, not merely a report: whoever obeys God carries it out, and whoever does not is not secured by the House. {cite:tafsir-sharawi-khawatir-scan-pp-501-1000 p.576} {cite:tafsir-sharawi-khawatir-scan-pp-501-1000 p.581}
