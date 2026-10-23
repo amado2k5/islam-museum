@@ -14,3 +14,5 @@ status: draft
 سورہ مومنون کی آیت اور ممنوعہ وطء کی اقسام (دبر، میتہ، بہائم) کے احکام، ان کی سزاؤں پر فقہاء کے مختلف اقوال کا خلاصہ۔ {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.17497}{cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.17503}
 
 تسلسل: چوپایہ سے وطء کی سزا، اس کے جانور کے قتل اور کھانے کا حکم، وطء بشبہہ اور بیوی کے وطء کے حق کے فقہاء کے اقوال کا خلاصہ۔ {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.17504}{cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.17507}
+
+بیوی کا وطء کا حق (ایک رات کی مدت، عرف، چار ماہ کی مہلت)، شوہر کا حق، وطء سے عاجز شوہر کی صورت میں فرقت، عیوب، ایلاء اور ظہار کے احکام کا خلاصہ۔ {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.17508}{cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.17511}
