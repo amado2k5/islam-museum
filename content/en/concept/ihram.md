@@ -62,3 +62,16 @@ For someone passing two miqats, the Shafi'is and Hanbalis require ihram at the f
 Entering ihram before the place miqat is lawful by agreement; the Malikis, Shafi'is and Hanbalis dislike it, and the Hanafis consider it better when the pilgrim is safe from breaking the rules. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.1797} {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.1798}
 Whoever passes the miqat without ihram intending a rite is sinful and must return and enter ihram there; if he does not return he owes a sacrifice, but one who does not return for an excuse such as fear of missing Arafa or severe sickness is not sinful. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.1798}
 The resident of the miqat zone takes his place as the miqat according to the Malikis, his village or encampment according to the Shafi'is and Hanbalis, and the whole zone according to the Hanafis. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.1798}
+
+## Miqat of the people of Mecca and the sanctuary
+All schools agree that whoever lives in Mecca or the sanctuary enters ihram for the hajj from where he is, following the rule «whoever is nearer, from where he began». {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.1799} {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.1800}
+In detail, the Hanafis require the resident of the sanctuary to enter ihram from the sanctuary, the mosque being better; the Malikis distinguish those who begin with hajj from those who begin with qiran. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.1799} {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.1800}
+
+## Umra miqat for those in Mecca
+The umra miqat for those in Mecca is the lawful zone outside the sanctuary from any point. The majority prefer al-Ji'ranah; the Hanafis prefer al-Tan'im. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.1800}
+
+## Prohibitions of ihram
+Some things lawful at other times are forbidden in ihram, to remind the pilgrim of his rite and to train him in simplicity and equality. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.1800}
+The core rule for a man's dress is that he may not cover all or part of the body with stitched or fitted cloth: no shirt, turban, trousers, hooded cloak or socks, and no garment touched by saffron or wars. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.1800} {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.1801}
+A qaba (a long coat) or similar: the Malikis, Shafi'is and Hanbalis forbid placing it on the shoulders; the Hanafis allow it without sewing the sleeves on. A man with no waist-wrap may wear trousers, with a sacrifice owed according to the Shafi'is and Hanbalis. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.1801} {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.1802}
+A man with no sandals cuts the socks below the ankles and wears them, according to the majority; Ahmad in the accepted view differs. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.1802}
