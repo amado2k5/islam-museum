@@ -101,5 +101,29 @@ A worker may be a private worker hired for one employer only, or a shared worker
 ## Hiring for acts of worship
 The general rule is that no hire may be taken for acts reserved to Muslims, such as leading prayer, the call to prayer, the pilgrimage, teaching the Qur'an and jihad. This is the view of Ata', al-Dahhak ibn Qays, Abu Hanifa and Ahmad, who rely on reports about the call to prayer given without pay and about teaching the Qur'an. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.1564}
 
-## Remaining material
-The entry continues with the rest of the rules on hired workers and wages, up to p.1575. These are not yet drafted. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.1564}
+## Pay for religious and public duties
+The Malikis allow a wage for leading prayer, for giving fatwas to one without means, and for recommended acts and communal obligations. The Shafi'is allow hire for reciting the Qur'an at a grave, and for pilgrimage or lesser pilgrimage performed for another with a named person. A ruler may hire a non-Muslim for jihad, but a Muslim, even a boy, cannot be hired for it because it is an individual duty on him. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.1565}
+
+## The employer's obligation
+The employer must pay the worker's wage once the worker has made himself available, even if he does no work, provided he does not refuse the work asked of him without right. A gift given to the worker from outside is not counted as wage. If someone says "do this and I will honour you" without naming the honour, the worker receives the fair wage. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.1565}
+
+## The wet nurse
+A wet nurse may not be hired without her husband's consent, and he may cancel the lease if he was not informed. If she becomes pregnant, the hirer may cancel if he fears the nursing child is harmed by her milk. If the nursed child dies, the lease ends. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.1567} {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.1568}
+
+## The shared worker
+A shared worker works for the employer and for others, like a builder or a boatman. The contract must state the kind of work, though it may also state a term. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.1568} Where work is joined to a term, the Hanafis and Shafi'is hold the contract void, since it combines a private and a shared worker; the Malikis and the two companions of Abu Hanifa hold that the work is the object and the term serves only for timing. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.1569} The worker must deliver the work. If the work is in the employer's hand, he may claim the proportion of the wage for the part completed; if it is in his own hands, as with a fuller or dyer in his shop, he is paid only after finishing and delivering it. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.1570} {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.1571}
+
+## Liability of the shared worker
+The Hanafis and Shafi'is fix the value for liability on the day the cause of liability occurs, whether loss or transgression; the Malikis fix it on the day the thing is delivered to the worker. An employer may not stipulate that the worker is liable for what he is not liable for, nor waive liability for what he must bear, because such a term contradicts the contract. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.1571}
+
+## Cupping and medicine
+Cupping is lawful by agreement, but the reports on taking a fee for it conflict. Some allow it, since the Prophet was cupped and paid the cupper, as reported in al-Bukhari; some dislike it, on a report from Rafi' ibn Khadij, which others say was abrogated. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.1572} A cupper or physician who is skilled and does not exceed the usual practice is not liable; otherwise he is. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.1573} Hiring a cupper for bloodletting, shaving, or circumcision is allowed without dispute. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.1573} Hiring a physician for treatment is allowed, the Shafi'is requiring that his error be rare; they differ on hire for a fixed period. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.1573}
+
+## The shepherd
+The shepherd is bound to tend the flock, and the Hanafis hold him bound to graze it by custom. If he fears that a sheep will die and slaughters it, the rules are set out in the entry. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.1575}
+
+## End of the lease for a shared worker
+The lease of a shared worker ends on completion and delivery of the work, or the destruction of the object of the work, and by the general causes listed above. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.1572}
+
+## Closing of the headword
+The headword closes at p.1576, where the next headword, إجازة, begins. The subject of the shared worker's lease is finished here at summary level only. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.1576}
