@@ -10,5 +10,9 @@ regions: [egypt-nile]
 coordinates: [31.2018, 29.9158]
 coordinate_precision: site
 external_ids: { wikidata: "Q87", geonames: "361058", pleiades: "727070" }
-sources: [source/geonames-gazetteer]
+sources: [source/geonames-gazetteer, source/farghani-elements-astronomy]
 status: { review: draft, completeness: 1, generated_by: "Claude Sonnet 5.5; coordinates from GeoNames; descriptive facts to be checked against reference works" }
+
+provenance:
+  model: "claude-haiku-5-5"
+  run: "farghani-389-577"

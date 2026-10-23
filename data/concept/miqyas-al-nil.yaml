@@ -14,5 +14,6 @@ provenance:
   source: "مروج الذهب للمسعودي (ط الدار الإفريقية/الشركة العالمية) ج1 ص 301–302"
   generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
   run: lib-muruj-dhahab-batch-8
-sources: [source/muruj-al-dhahab]
+  extra_runs: ["farghani-389-577 (claude-haiku-5-5, Claude Code)"]
+sources: [source/muruj-al-dhahab, source/farghani-elements-astronomy]
 status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

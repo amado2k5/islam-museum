@@ -1,26 +1,30 @@
 id: person/muhammad-ii-mutawakkil-saadi
 class: person
 label:
-  ar: "محمد المتوكل السعدي"
-  en: "Muhammad II al-Mutawakkil"
+  ar: "محمد المتوكل على الله السعدي"
+  en: "Muhammad al-Mutawakkil 'ala-llah al-Sa'di"
+names:
+  - { kind: full, lang: ar, value: "محمد المتوكل على الله بن عبد الله الغالب" }
 roles: [sultan]
 gender: male
 summary:
-  ar: "بطاقة أولية لمحمد الثاني المتوكل السعدي، سلطان مراكش الأخير قبل وادي المخازن؛ لم تُراجع ترجمته على الصفحة بعد."
-  en: "Draft card for Muhammad II al-Mutawakkil, the last Saadian sultan of Marrakesh before Wadi al-Makhazin; his entry is not yet checked on the page."
+  ar: "ابن عبد الله الغالب السعدي؛ تولى الأمر بعد أبيه وهو يضمر الشر لعميه عبد الملك وأحمد المنصور فهربا إلى السلطان العثماني يستنجدان به. تابع خطة أبيه في مسالمة الدول المسيحية وعقد اتفاقاً تجارياً مع إنجلترا، ثم بعد أن أدخل عمه فاس بالجيش العثماني اتصل بملك البرتغال سبستيان متعاهداً على التنازل له عن جميع شواطئ المغرب مقابل طرد عمه، فأقام في سبته أربعة أشهر ثم رافق الحملة البرتغالية مع بضع مئات من الأتباع؛ ولما كتب لأهل المغرب يستنصرهم بالنصارى رد عليه علماء المغرب رسالة تفضح استعانته بالكفار على المسلمين. وغرق في نهر وادي المخازن يوم الموقعة {cite:dawlat-uthmaniyya-salabi p. 258-265}."
+  en: "Son of Abdallah al-Ghalib; he succeeded his father harbouring ill for his uncles Abd al-Malik and Ahmad al-Mansur, who fled to the Ottoman sultan for aid. Continuing his father's pro-Christian policy he signed a trade treaty with England — the single act of his short reign — then, after his uncle entered Fez with the Ottoman army, promised King Sebastian all Morocco's coasts for his expulsion; he stayed four months in Ceuta and joined the invasion with a few hundred followers. When he wrote rallying Morocco's people to the Christians, Morocco's ulema answered with a letter exposing his enlisting infidels against Muslims. He drowned in the Wadi al-Makhazin river on the day of battle {cite:dawlat-uthmaniyya-salabi p. 258-265}."
 wings: [people]
 regions: [maghreb]
 periods: [period/gunpowder-empires]
-died: { edtf: "1578", precision: year, status: tradition, derived: true }
-sources: [source/tarikh-ibn-khaldun-ibar]
+died: { edtf: "1578-08-04", hijri: "0986-06-30", calendar: gregorian, precision: day, status: tradition, derived: true, note: "غرق يوم وادي المخازن", sources: [source/dawlat-uthmaniyya-salabi] }
+relations:
+  - { type: child_of, target: person/abdallah-al-ghalib-al-sadi, sources: [source/dawlat-uthmaniyya-salabi] }
+  - { type: opposed, target: person/abd-al-malik-al-sadi, sources: [source/dawlat-uthmaniyya-salabi] }
+  - { type: allied_with, target: person/sebastian-i-portugal, sources: [source/dawlat-uthmaniyya-salabi] }
+sources: [source/dawlat-uthmaniyya-salabi]
 external_ids:
-  wikidata: Q334768
+  wikidata: "Q1386075"
 provenance:
   layer: own-research
-  source: "Wikidata candidate; entry not yet read on the page in a book source"
-  generated_by: "Devin (SWE-2 High)"
-  model: "SWE-2 High"
-  run: wikidata-import-wave2
-status:
-  review: draft
-  completeness: 1
+  source: "الدولة العثمانية لعلي محمد الصلابي (ط1 1421) ص 258-265 — draft card verified on the page"
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: salabi-uthmani-batch14
+status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 Medium)" }

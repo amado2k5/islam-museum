@@ -10,5 +10,9 @@ regions: [levant-iraq]
 coordinates: [34.1959, 43.8857]
 coordinate_precision: site
 external_ids: { geonames: "91597", pleiades: "894082" }
-sources: [source/geonames-gazetteer]
+sources: [source/geonames-gazetteer, source/farghani-elements-astronomy]
 status: { review: draft, completeness: 1, generated_by: "Claude Sonnet 5.5; coordinates from GeoNames; descriptive facts to be checked against reference works" }
+
+provenance:
+  model: "claude-haiku-5-5"
+  run: "farghani-389-577"
