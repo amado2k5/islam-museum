@@ -64,11 +64,20 @@ def main() -> None:
             counts["no record, no OCR"] += 1
             left.append(rel)
             continue
-        pages, done = meta.get("pages") or 0, meta.get("ocr_pages") or 0
-        if pages and done >= pages:
+        # Done = the run wrote one entry per PDF page. ocr_pages alone is wrong: pages with a text layer are
+        # taken from the layer, not OCR'd, and a scan can contain genuinely blank pages.
+        pages = meta.get("pages") or 0
+        pages_json = BOOKS / stem_rel / "pages.json"
+        covered = 0
+        if pages_json.exists():
+            entries = json.load(open(pages_json, encoding="utf-8"))
+            covered = len(entries)
+            if any(not e.get("text", "").strip() for e in entries):
+                counts["done, some blank pages"] += 1
+        if pages and covered >= pages:
             counts["OCR complete"] += 1
-        elif done == 0:
-            counts["meta says 0 OCR pages"] += 1
+        elif covered == 0:
+            counts["not run"] += 1
             left.append(rel)
         else:
             counts["partly OCR'd"] += 1
@@ -77,7 +86,7 @@ def main() -> None:
     print(f"PDFs in raw/library: {len(pdfs)}")
     for key, n in sorted(counts.items()):
         print(f"  {key}: {n}")
-    print(f"Not OCR'd at all: {counts['no record, no OCR'] + counts['meta says 0 OCR pages']}")
+    print(f"Not OCR'd at all: {counts['no record, no OCR'] + counts['not run']}")
     print("Partly OCR'd:", counts["partly OCR'd"])
 
     if args.list:
