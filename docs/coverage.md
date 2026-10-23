@@ -42,7 +42,7 @@ Average sources per entity: **1.28** · Women share of persons with a recorded g
 | place | 1711 |
 | time | 3973 |
 | today | 6 |
-| words | 163 |
+| words | 164 |
 
 ### By period
 
@@ -58,7 +58,7 @@ Average sources per entity: **1.28** · Women share of persons with a recorded g
 | period/modern-era | 1144 |
 | period/mongol-post-mongol | 1306 |
 | period/pre-islamic-arabia | 402 |
-| period/prophetic-era | 2241 |
+| period/prophetic-era | 2242 |
 | period/rashidun | 840 |
 | period/umayyad | 1025 |
 
@@ -200,7 +200,7 @@ Average sources per entity: **1.28** · Women share of persons with a recorded g
 | water-and-animals | 8 |
 | websites-and-apps | 2 |
 | women | 219 |
-| worship-and-the-pillars | 423 |
+| worship-and-the-pillars | 424 |
 | zakat-and-sadaqa | 21 |
 | zoology | 1 |
 

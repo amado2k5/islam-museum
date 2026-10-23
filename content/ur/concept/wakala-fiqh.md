@@ -18,3 +18,5 @@ status: draft
 وکیل بالبیع کی جنس، قدر، مکان، وقت اور مشتری کی مخالفت کے احکام، تفریقِ صفقہ، وکالتِ شراء (مطلق و مقید)، اور وکیل کا اپنے مال یا محجور سے خریدنا۔ {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.17760}{cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.17767}
 
 وکالتِ شراء میں ثمن کی وصف، جنس، قدر، شراء کی چیز اور تفریقِ صفقہ کی مخالفت کے احکام۔ {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.17768}{cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.17775}
+
+وکیلِ شراء کا معیب مال خریدنا، بیعِ فاسد کی جگہ صحیح بیع کرنا، شرطِ خیار میں مخالفت، وکیلِ خصومت کا اقرار اور مصالحہ، اور وکیلِ قبض کا جحدِ حق کی صورت میں خصومت کرنا۔ {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.17776}{cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.17783}
