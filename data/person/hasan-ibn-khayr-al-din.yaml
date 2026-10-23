@@ -4,22 +4,24 @@ label: { ar: "حسن بن خير الدين بربروسة", en: "Hasan b. Khayr
 names:
   - { kind: full, lang: ar, value: "حسن بن خير الدين بربروسة" }
 gender: male
-roles: [ruler]
+roles: [military, ruler]
 summary:
-  ar: "ابن خير الدين بربروسة؛ عيّنه الباب العالي حاكماً على الجزائر بعد وفاة حسن آغا الطوشي، فقدمها سنة ٩٥١هـ/١٥٤٤م {cite:dawlat-uthmaniyya-salabi p. 229}. وله في الكتاب مبحث لاحق عن سياسته في التضييق على الإسبان."
-  en: "Son of Khayr al-Din Barbarossa; appointed by the Sublime Porte as governor of Algiers on Hasan Agha al-Tushi's death, arriving in 951/1544 {cite:dawlat-uthmaniyya-salabi p. 229}. A later mabhath treats his squeeze on the Spanish."
+  ar: "ابن خير الدين بربروسة؛ عيّنه الباب العالي حاكماً على الجزائر بعد وفاة حسن آغا الطوشي فقدمها سنة ٩٥١هـ/١٥٤٤م، ووالدته من الأسر الجزائرية المعروفة. حال وصوله حصّن مدينة الجزائر في المواضع التي كشف هجوم شارل الخامس ضعفها، ثم انصرف إلى حل مشكلة تلمسان: قاد الجيش الإسلامي فمنع قوة وهران الإسبانية من إعادة أبو زيان أحمد الثاني، ودعم حليفه الملك حسن وترك حامية بقيادة القائد محمد في قلعة المشوار. وطرد السعديين من تلمسان ووطد الحكم العثماني فيها سنة ٩٥٩هـ/١٥٥١م (النص المطبوع «١١٥١م»). غير أنه انتهج سياسة مضادة لكل القوى الأجنبية ومنها فرنسا، ورفض عرض سفيرها بالمساعدة العسكرية قائلاً إن قضية الجهاد خاصة بالمسلمين وإنه لا ينتصر بكافر على كافر، فأوغر السفير صدر الباب العالي بأن سلطته المطلقة ستحطم وحدة الدولة، فعزله السلطان سليمان في صفر ٩٦٠هـ/يناير ١٥٥٢م بدعوى الإساءة إلى حسن الجوار مع المغرب وأسند البكلربكية إلى صالح رايس {cite:dawlat-uthmaniyya-salabi p. 229-235}."
+  en: "Khayr al-Din Barbarossa's son, of a noted Algerian family on his mother's side; the Porte's governor of Algiers from 951/1544. He refortified the city's weak points shown by Charles V's attack, kept the Oran force from restoring Abu Zayyan Ahmad II at Tlemcen, secured the Ottoman garrison at al-Mashwar castle, and drove the Sa'dis out by 959/1551 (printed '1151'). But his hostility to all foreign powers — France included — and his refusal of the French envoy's military aid ('jihad is the Muslims' affair; I will not win by an infidel against an infidel') let the envoy poison the Porte's ear: Süleyman deposed him in Safar 960/January 1552, giving the beylerbeylik to Salih Reis {cite:dawlat-uthmaniyya-salabi p. 229-235}."
 wings: [people]
 periods: [period/gunpowder-empires]
 regions: [maghreb]
 relations:
   - { type: child_of, target: person/khayr-al-din-barbarossa, sources: [source/dawlat-uthmaniyya-salabi] }
   - { type: ruled_over, target: place/algiers, sources: [source/dawlat-uthmaniyya-salabi] }
+  - { type: successor_of, target: person/hasan-aga-al-tushi, sources: [source/dawlat-uthmaniyya-salabi] }
+  - { type: opposed, target: person/ahmad-al-araj-al-sadi, sources: [source/dawlat-uthmaniyya-salabi] }
 sources: [source/dawlat-uthmaniyya-salabi]
 external_ids: { wikidata: "Q1438784" }
 provenance:
   layer: own-research
-  source: "الدولة العثمانية لعلي محمد الصلابي (ط1 1421) ص 229"
+  source: "الدولة العثمانية لعلي محمد الصلابي (ط1 1421) ص 229-235"
   generated_by: "Devin (SWE-2 Medium)"
   model: "SWE-2 Medium"
-  run: salabi-uthmani-batch10
+  run: salabi-uthmani-batch11
 status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 Medium)" }
