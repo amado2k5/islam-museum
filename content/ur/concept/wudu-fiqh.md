@@ -8,3 +8,7 @@ status: draft
 وضوء کا مطلب صفائی اور پاکیزگی ہے، اور فقہاء نے اس کی تعریف، اس کے فرض، سنت، مندوب، مباح اور ممنوع احوال، اور اس کی فضیلت و شرائط بیان کی ہیں۔ {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.17364}{cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.17376}
 
 وضوء میں چہرے کے دھونے کی حدود، داڑھی، آنکھ، پیشانی، کنپٹی، کان، ہونٹ، ناک اور منہ کے احکام، اور ہاتھوں کو کہنیوں تک دھونے کے اختلافات بیان ہوئے ہیں۔ {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.17382}{cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.17391}
+
+بازوؤں، ہاتھ کے زائد حصوں، ناخنوں اور کھال کے لٹکے ہوئے حصوں کو دھونے کے احکام، اور سر کے مسح کی ابتدا۔ {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.17392}{cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.17396}
+
+سر کا مسح، اس کی مقدار، مسح کی کیفیت، بال مونڈنے کا اثر، مسح کی تکرار، گندھے ہوئے بال اور پاؤں دھونے کے چار اقوال کا آغاز۔ {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.17396}{cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.17402}
