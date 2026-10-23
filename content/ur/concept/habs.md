@@ -20,3 +20,15 @@ translators: ["Claude Haiku 5.5, draft translation"]
 ## مدت
 
 جمہور نے زیادہ سے زیادہ مدت مقرر نہیں کی، اور یہ قاضی پر چھوڑی ہے۔ {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.6747}
+
+## مبہم مدت اور عمر قید
+
+حبس کی مدت مبہم رکھی جا سکتی ہے اور اس کا خاتمہ توبہ پر موقوف ہو سکتا ہے۔ کئی مثالیں کتب میں ہیں، جیسے عثمان کا ضابئ بن حارث کو موت تک قید رکھنا۔ {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.6748} {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.6749}
+
+## خاتمہ
+
+موت سے حبس ختم ہو جاتا ہے، اور حق آدمی میں صاحب حق کی معافی سے ساقط ہوتا ہے۔ {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.6749} {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.6750}
+
+## تہمت اور احتیاط
+
+جمہور کے نزدیک قوی قرینہ ہو تو تہمت پر حبس جائز ہے۔ {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.6752}
