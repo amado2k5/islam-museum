@@ -1,6 +1,6 @@
 # Harvest progress: Sha'rawi tafsir (Khawatir scan), pages 1001-1500
 
-Owner: branch `harvest/tafsir-sharawi-1001-1500`. Source edition: `source/tafsir-sharawi-khawatir-scan` (edition and publisher unverified against the title page; see the source entity).
+Owner: branch `harvest/tafsir-sharawi-1001-1500`. Source edition: `source/tafsir-sharawi-khawatir-scan-vol-2` (edition and publisher unverified against the title page; see the source entity).
 
 ## Status
 
