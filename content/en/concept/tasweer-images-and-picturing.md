@@ -90,5 +90,36 @@ An image that shows neither honour nor demeaning, such as one in a printed book 
 Using them is lawful a fortiori, since making them is allowed. Al-Qadi Iyad reported permission from the scholars, and that it is allowed for young girls; al-Khattabi said it was for Aisha while she was not of age, but Ibn Hajar doubted that and said the permission continues while the need lasts. The reason is training girls for raising children, and also giving joy and growth to children, so it covers boys too; Abu Yusuf stated that a toy may be sold and played with by children. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.5285}
 They cite the hadith of Rubayyi bint Mu'awwidh, who said the children were given woollen toys on the day of Ashura to keep them from food. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.5285} The Hanbalis alone require the toy to be headless; they also allow a guardian to buy non-figured toys for the girl in his care. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.5285}
 
+## Wearing clothes with images
+The Hanafis and Malikis dislike wearing clothes with images; for the Hanafis the dislike goes if another garment covers the image. The Shafiis allow it, since wearing an image demeans it, and the better view is that an image on a garment laid on the ground is not a wrong. The Hanbalis have two views: forbidden, or only disliked, the latter preferred by Ibn Tamim; the proof of lawfulness is the hadith «except a patterned cloth». {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.5286}
+
+## Small images in rings and coins
+The Hanafis state that small images are not covered by the prohibition on keeping and using, since idol-worshippers do not use them that way; they set the smallness by various measures, such as not showing its features to a standing viewer. Abu Hurayra's ring had two flies, and a silver ring with small figures is not disliked. Outside the Hanafi school there is no difference between small and large; the Shafiis allow images on coins because they are demeaned by use, and the Hanbalis say it is not fit to wear a ring with an image. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.5286} {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.5287}
+
+## Looking at images
+The Malikis and Shafiis forbid looking at forbidden images, but not demeaned or cut ones, since looking at what is forbidden is forbidden. The Hanbalis do not forbid looking at a forbidden image as such. Ali entered a church with the people when Umar was fed there and looked at the images. The Shafiis do not forbid looking at an image even with desire. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.5287}
+
+## Entering a place with images
+Entering a place in which the entrant knows there are upright images in a forbidden setting is lawful; the Hanbalis say one need not leave, since the Prophet entered the Ka'ba where there were images of Abraham and Ishmael. The Shafiis take it as forbidden in the better view, and dislike it in the other, with a distinction between sitting places and passages. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.5288} {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.5289}
+
+## Accepting an invitation to a place with images
+Accepting a wedding feast is obligatory for most jurists. If the host has forbidden images displayed in the place, and the guest knew before he came, the jurists agree that acceptance is not obligatory, and the Shafiis say it is forbidden; if the images can be removed, attendance is obligatory. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.5289}
+
+## What is to be done with a forbidden image in a useful thing
+The image should be moved from its forbidden setting, and not necessarily destroyed; if it is upright it should be taken down; if it must stay, the head may be cut from the body, the chest or belly split, the face scraped or obliterated with paint, or washed off. Ali was sent to erase every image, and the curtain was made into cushions. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.5290}
+
+## Images and the worshipper
+All agree that a forbidden image in the direction of prayer makes it disliked, as it resembles the prostration of unbelievers before their idols. Elsewhere the Hanafis dislike an image above the head, in front or beside, or on the place of prostration, but not one below the feet or on the seat, or in the hand, or hidden, or small. The Shafiis dislike wearing a cloth with images and praying toward or on it. The Hanbalis dislike praying toward an upright image, but not behind or above. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.5290} {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.5291}
+
+## Images in the Ka'ba and mosques
+Places of worship should be kept free of images, lest they lead to worshipping them, as Ibn Abbas explained the origin of the idolatry of Noah's people. The Prophet entered the Ka'ba and found images of Abraham and Mary, and ordered them removed. The hadith of the church in Abyssinia, «those are the worst of creation», shows that images in mosques are forbidden. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.5291} {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.5292}
+
+## Images in churches and non-Muslim places
+Churches made lawful in Muslim lands by treaty are not interfered with for the images inside, and the Muslim may enter them by the majority. The Hanbalis allow entering and praying in them without dislike in the sounder view; a Hanbali and Hanafi view dislikes entering, as the haunt of devils; most Shafiis forbid entering a church with images hung in it. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.5292}
+
+## Images in dealings
+Images whose making is lawful, such as flat images for the Malikis, cut images, toys, and sweets, may be sold, bought, ordered, and hired for, and the price and hire are lawful; a guardian may buy toys for the child in his care from her money. Forbidden images may not be hired for, paid for, ordered or helped with. Al-Mawardi alone allowed the maker a fair wage. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.5292}
+A forbidden image may not be sold, given, deposited, pledged, endowed or bequeathed; money taken for it is unclean and must be given in charity and not returned to its owner. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.5293} If the image can be made useful after change, the Shafiis disagree on the sale; ar-Ramli held the sale valid, and the Durr held that a clay horse bought for a child is not a valid purchase. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.5293}
+
 ## Status
-The entry continues from p.5286
+The entry continues from p.5294: liability for destroying images and the tools of picturing, and what follows.
