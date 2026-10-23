@@ -1,5 +1,5 @@
 ---
-id: concept/wahb-ibn-masarra
+id: person/wahb-ibn-masarra
 lang: en
 source_lang: ar
 translators: ["Claude Haiku 5.5 (claude-haiku-5-5), draft translation"]

@@ -1,5 +1,5 @@
 ---
-id: concept/maan-ibn-yazid-ibn-al-akhnas
+id: person/maan-ibn-yazid-ibn-al-akhnas
 lang: ar
 source_lang: ar
 translators: []

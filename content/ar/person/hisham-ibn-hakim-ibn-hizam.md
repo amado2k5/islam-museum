@@ -1,5 +1,5 @@
 ---
-id: concept/hisham-ibn-hakim-ibn-hizam
+id: person/hisham-ibn-hakim-ibn-hizam
 lang: ar
 source_lang: ar
 translators: []

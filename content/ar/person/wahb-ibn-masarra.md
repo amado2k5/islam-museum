@@ -1,5 +1,5 @@
 ---
-id: concept/wahb-ibn-masarra
+id: person/wahb-ibn-masarra
 lang: ar
 source_lang: ar
 translators: []
