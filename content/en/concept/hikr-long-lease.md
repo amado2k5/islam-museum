@@ -1,0 +1,8 @@
+---
+id: concept/hikr-long-lease
+lang: en
+source_lang: ar
+translators: []
+---
+## Summary
+Hikr lexically means injustice, narrowness and hardship; its technical uses are three: the rent fixed on a property held under a long lease, the leased property itself, and the long lease. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.7220} Ibn Abidin defines it as a lease whose purpose is to keep others out and to keep the land for building or planting, distinct from khulu and from the wider long lease. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.7221} Hikr occurs mostly on waqf property, sometimes on private property; most jurists' discussion concerns waqf. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.7221} {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.7222} A long lease of private property is lawful; for waqf the Hanafis and Malikis forbid exceeding a set term (generally three years for land among the Hanafis; four years for land and one year for a house for mosques and the poor among the Malikis). {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.7222} {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.7223} The Shafiis and Hanbalis allow long leases of waqf as need and benefit require; Ibn Qudama argues from the lease in the story of Moses and Shu'ayb. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.7224} {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.7225} Where the founder forbids a long lease his condition binds; some Hanafi and Shafii jurists allow a device of consecutive yearly contracts unless the founder forbids it. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.7225} Most jurists limit the long lease of waqf to conditions such as ruin of the waqf, lack of income to repair it, and no lender who can advance the sum. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.7225} (The headword continues beyond p.7225 and is not complete.)
