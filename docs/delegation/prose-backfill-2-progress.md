@@ -4,7 +4,7 @@ Lane doc: `docs/agents/lanes/prose-backfill-2.md`. Programme plan: `docs/delegat
 
 **Queue.** Missing-prose tier ranked by inbound links, recomputed 23 Oct 2026 on `origin/main` (12,391 missing). Split boundary: this lane works missing prose top-down and stops before the zero-link tail; `prose-backfill` keeps the thin tier. Head of queue at open: `person/muhammad-mutawalli-al-shaarawi` (104 links), `person/muhammad-ibn-yahya-ibn-habban` (44), `person/malik-ibn-abi-amir-al-asbahi` (28), `person/yahya` (16), `place/najd` (8), `group/mongols` (7).
 
-**Lane total: 11.**
+**Lane total: 29.**
 
 ## Batches
 
@@ -35,4 +35,33 @@ Skipped, no readable book source located in the harvest (records cite `source/al
 - `person/qara-yusuf`, `person/mustafa-aga-mimarbashi` — no hits in the extracted Salabi Ottoman vols or al-Ibar.
 - `concept/muslim-brotherhood-founding-idea`, `event/*ottoman*/modern buildings` — deferred to Phase 4 (`modern-century`) where they belong by period.
 
-**Next step (exact):** continue the queue below the logged skips — next head is the hadith-rijal cohort (`person/abu-salih-al-samman`, `person/abd-al-rahman-ibn-abd-al-qari`, `person/abu-salama-ibn-abd-al-rahman-ibn-awf`, …) sourced from Isaba/Tajrid on the drive, and the fiqh-term cohort (`concept/ushr`, `concept/qisas`, `concept/ila`, …) which needs fiqh sources, likely Phase 2 material — flag for the owner whether `prose-backfill-2` should write concept/practice prose now or defer to `practice-fiqh`.
+### Batch 2 (23 Oct 2026, 18 records, ar+en+ur) — directed fiqh-term batch
+
+Owner directed (23 Oct): `prose-backfill-2` writes the fiqh-term prose now, not deferred to `practice-fiqh`. Batch = the thin/one-line fiqh terms in the practice/concept classes, expanded to full prose from the Kuwaiti Fiqh Encyclopedia (`source/fiqh-mawsua-kuwaitiyya-noor-v3`, Noor-Book OCR; scan-page cites). Note these records sat in the thin tier — normally `prose-backfill`'s queue — but were pulled by owner direction; sibling lane should not rework them (listed done here). Each record's yaml gained the Mawsu'a source and completeness 3.
+
+Written:
+- `practice/wudu` — headword «وضوء», pp.17364-17367 (madhhab definitions, shari'a qadima, ordinance with prayer, tayammum relation).
+- `practice/tayammum` — «تيمم», pp.6082-6085 (definitions, sabab al-nuzul, ummah's privilege, rukhsa/azima, conditions and arkan).
+- `practice/ghusl-al-janaba` — «غسل», pp.12064-12067 (definition, obligation by semen, madhhab conditions, ihtilam ruling).
+- `practice/ghusl-al-janaza` — «جنائز», pp.6464-6469 (pre-wash rites, announcing death, kafn as fard kifaya, Quran beside the body); washing itself cited at p.6469 (fard kifaya, details under «تغسيل الميت»).
+- `practice/salat-al-janaza` — «جنائز», pp.6476-6481 (fard kifaya, arkan across four schools, conditions, salam, sunnas).
+- `practice/salat-al-jumua` — «يوم الجمعة», pp.18016-18019 (name and merit, fard 'ayn, Friday ghusl dispute, travel, fasting).
+- `practice/salat-al-kusuf` — «صلاة الكسوف», pp.10614-10616 (definition, sunna mu'akkada / Hanafi wajib, time, forbidden-times dispute).
+- `practice/itikaf` — «اعتكاف», pp.2996-2997 (definition, khalwa/ribat/jiwar, wisdom, sunna unless vowed).
+- `practice/nadhr` — «نذر», pp.15558-15560 (definition, legitimacy by book/sunna/ijma, recommended vs disliked tendencies).
+- `practice/kaffarat-al-yamin` — «كفارة», pp.13408-13410 + «يمين» p.18005 (definition, Ma'ida 89 expiation text, istighfar/tawba/'uquba).
+- `practice/sadaqa` — «صدقة», pp.10295-10297 (definition, uses incl. waqf and every ma'ruf, hiba/hadiyya/'ariyya, wisdom and merit).
+- `practice/nikah` — «نكاح», pp.16034-16036 (four definitions, haqiqa dispute and its musahara consequence).
+- `practice/udhiyya` — «أضحية», pp.2864-2865 (definition, qurban/hady distinction by intention, 'aqiqa/far'/'atira).
+- `practice/dafn` — «دفن», pp.8216-8218 (fard kifaya, Qabil, sea burial, cemetery, mosque burial, moving the body).
+- `practice/taziya` — «تعزية», pp.5451-5453 (definition, recommendation, recipients, three days, after-burial, gathering dislike).
+- `practice/zakat` — «زكاة», pp.9072-9074 (definition, sadaqa/'atiyya, obligation by book/sunna/ijma, fighting withholders).
+- `practice/aqiqa` — «عقيقة», p.11783 (definition, nasika name preference).
+- `concept/zina` — «زنى», pp.9222-9224 (four definitions, wat'/liwat/sihaq, prohibition and five universals).
+
+Flags:
+- The Mawsu'a copy is OCR-only on this drive; scan-page numbers cited are the Noor-Book scan markers (as used by the w01-w10 mining windows), not printed folio numbers.
+- `concept/ushri` was **not** rewritten — its record is the land-tax status (ushri land, al-Baladhuri), while Mawsu'a's «عُشْر» covers the dhimmi trade tithe; related but not the record's subject. Left as-is; a fuller treatment can come when «زكاة»/«خراج» material is mined.
+- `practice/dhabihah` (the only missing-prose practice) has no headword under «ذبيحة»; likely under «ذكاة» or inside «أضحية» — deferred to next batch sweep.
+
+**Next step (exact):** the hadith-rijal cohort (`person/abu-salih-al-samman`, `person/abd-al-rahman-ibn-abd-al-qari`, …) still needs Isaba entries extracted; the extracted Tahdhib/Taqrib vols on the drive cover different letter-ranges, so per-entry lookup is required. Alternatively continue the fiqh-term tier with the remaining thin practices (`practice/khitan`, `practice/walima`, `practice/miswak`, `practice/istikhara`, `practice/suhur`, `practice/iftar`, `practice/taraweeh`, `practice/sujud-tilawa`, `practice/itikaf`… headwords located: «جنائز», «قيام الليل» p.13134, «عقيقة» p.11783).
