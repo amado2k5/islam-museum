@@ -9,7 +9,7 @@ Average sources per entity: **1.28** · Women share of persons with a recorded g
 | Key | Count |
 |---|---|
 | building | 5591 |
-| concept | 1527 |
+| concept | 1528 |
 | dataset | 16 |
 | event | 4352 |
 | exhibit | 301 |
@@ -21,7 +21,7 @@ Average sources per entity: **1.28** · Women share of persons with a recorded g
 | object | 516 |
 | passage | 9546 |
 | period | 13 |
-| person | 8594 |
+| person | 8593 |
 | place | 1692 |
 | polity | 175 |
 | practice | 60 |
@@ -34,11 +34,11 @@ Average sources per entity: **1.28** · Women share of persons with a recorded g
 
 | Key | Count |
 |---|---|
-| ideas | 1312 |
+| ideas | 1313 |
 | living | 66 |
 | made | 119 |
 | objects | 6139 |
-| people | 8278 |
+| people | 8277 |
 | place | 1711 |
 | time | 3973 |
 | today | 6 |
@@ -56,9 +56,9 @@ Average sources per entity: **1.28** · Women share of persons with a recorded g
 | period/crusades-ayyubid-mamluk | 2645 |
 | period/gunpowder-empires | 4962 |
 | period/modern-era | 1143 |
-| period/mongol-post-mongol | 1306 |
+| period/mongol-post-mongol | 1305 |
 | period/pre-islamic-arabia | 402 |
-| period/prophetic-era | 2118 |
+| period/prophetic-era | 2119 |
 | period/rashidun | 840 |
 | period/umayyad | 1015 |
 
@@ -199,7 +199,7 @@ Average sources per entity: **1.28** · Women share of persons with a recorded g
 | water-and-animals | 8 |
 | websites-and-apps | 2 |
 | women | 216 |
-| worship-and-the-pillars | 370 |
+| worship-and-the-pillars | 371 |
 | zakat-and-sadaqa | 21 |
 | zoology | 1 |
 
