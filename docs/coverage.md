@@ -85,7 +85,7 @@ Average sources per entity: **1.28** · Women share of persons with a recorded g
 
 | Key | Count |
 |---|---|
-| afterlife-and-eschatology | 26 |
+| afterlife-and-eschatology | 25 |
 | agriculture-and-botany | 5 |
 | animals-and-mercy | 5 |
 | anti-muslim-hatred | 12 |
@@ -118,7 +118,7 @@ Average sources per entity: **1.28** · Women share of persons with a recorded g
 | education | 138 |
 | engineering-and-technology | 5 |
 | environment-and-climate | 4 |
-| ethics-and-character | 108 |
+| ethics-and-character | 107 |
 | factions-splits-schisms | 26 |
 | family-marriage-kinship | 246 |
 | fasting | 4 |
@@ -146,7 +146,7 @@ Average sources per entity: **1.28** · Women share of persons with a recorded g
 | islam-and-secular-thought | 2 |
 | islam-and-the-modern-state | 6 |
 | islam-and-zoroastrianism | 2 |
-| law-and-courts | 144 |
+| law-and-courts | 145 |
 | laws-of-war-and-peace | 57 |
 | libraries-paper-and-the-book | 11 |
 | linguistics | 77 |
