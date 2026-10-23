@@ -2,20 +2,16 @@
 id: concept/amanah
 lang: en
 source_lang: ar
-translators: []
+translators: ["Claude (Haiku 5.5), draft translation"]
 ---
-
 ## Summary
-Sha'rawi comments on the verse that says that among the People of the Book there is one who, if entrusted with a great treasure, will return it, and one who, if entrusted with a single coin, will not return it unless pressed ([[passage/quran-3-75|Al Imran 75]]). He sets out trust in two moments, taking it on and rendering it back, and reads the prepositions used with the verb {cite:tafsir-sharawi-khawatir-scan-vol-2 p.1542}{cite:tafsir-sharawi-khawatir-scan-vol-2 p.1545}.
+On the debt verse, Sha'rawi sets trust between taking on an obligation and discharging it. He holds that faith preserves trust, but cannot guarantee the circumstances of repayment, so documentation helps {cite:tafsir-sharawi-khawatir-scan-vol-2 p.1225} {cite:tafsir-sharawi-khawatir-scan-vol-2 p.1226}.
 
-## Taking on and rendering back
-Sha'rawi says trust has two moments: taking it, when a person intends to return it and so is sure of himself, and rendering it back, when conditions may change or the self may be moved, so the believer cannot be sure of himself without caution. He offers the trust of obligation, offered to the heavens, the earth and the mountains, as an example {cite:tafsir-sharawi-khawatir-scan-vol-2 p.1545}{cite:tafsir-sharawi-khawatir-scan-vol-2 p.1546}.
+## Pledge and trust
+He says a pledge taken during travel is a safeguard like writing and witnessing at home, and that trust does not abolish generosity and giving {cite:tafsir-sharawi-khawatir-scan-vol-2 p.1225}.
 
-## The prepositions
-Sha'rawi distinguishes the verb with the particle ba', which binds the trust to the thing entrusted so that the two are not separated, from the verb with the particle 'ala', which places the trust above the thing whatever its value {cite:tafsir-sharawi-khawatir-scan-vol-2 p.1546}{cite:tafsir-sharawi-khawatir-scan-vol-2 p.1548}.
+## The trust offered
+He reads the trust offered to the heavens, the earth and the mountains as the power of choice. They refused to carry it because they are subjected, and the human bore it with his capacity to choose, and is wrongdoing and ignorant if he fails in it {cite:tafsir-sharawi-khawatir-scan-vol-2 p.1226} {cite:tafsir-sharawi-khawatir-scan-vol-2 p.1227}.
 
-## Two standards
-Sha'rawi reports that some of the People of the Book said there was no way against the unlettered, meaning that they owed nothing in trust to people outside their own community. He holds that this was a law of their own making and not of the scripture, and that God affirmed that trust does not separate people. He reads the answer that follows as affirming that whoever keeps his covenant and is conscious of God, God loves ([[passage/quran-3-76|Al Imran 76]]) {cite:tafsir-sharawi-khawatir-scan-vol-2 p.1548}{cite:tafsir-sharawi-khawatir-scan-vol-2 p.1549}.
-
-## Note on this entry
-This is Sha'rawi's reading alone, taken from a scanned copy whose edition is not yet verified, and it is presented under his name. The concept of trust in jurisprudence and history has not yet been set out from named sources (needs_source). See also [[concept/fadl-allah|God's bounty]], [[concept/ahl-al-kitab|People of the Book]] and [[concept/love-of-deeds|God's love for deeds]].
+## Not yet checked
+This reading of the Al-Ahzab verse is Sha'rawi's and has not been checked against the tafsir books. The academic view and any non-Sunni view have not been checked.
