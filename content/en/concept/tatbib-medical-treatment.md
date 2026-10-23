@@ -8,7 +8,7 @@ translators: ["Claude Haiku 5.5 (claude-haiku-5-5), draft translation"]
 Tatbib is medical treatment. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.5299}
 
 ## Related terms and ruling
-Tada wi is taking medicine; tatbib is the diagnosis of the illness and treatment of the patient. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.5299} Practice is recommended when meant to follow the Prophet in having the people treated, or to benefit Muslims, and obligatory when only one physician is available. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.5299}
+Tadawi is taking medicine; tatbib is the diagnosis of the illness and treatment of the patient. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.5299} Practice is recommended when meant to follow the Prophet in having the people treated, or to benefit Muslims, and obligatory when only one physician is available. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.5299}
 
 ## Evidence that treatment is lawful
 The Prophet visited a sick man and said «call the physician of such a clan»; «God has sent no disease without sending its cure»; «there is no harm in charms if they hold no shirk». Aisha reports that the Prophet's illnesses multiplied and physicians of the Arabs and foreigners came to him. Al-Shafii said there are two kinds of knowledge, of religion and of bodies. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.5300}
