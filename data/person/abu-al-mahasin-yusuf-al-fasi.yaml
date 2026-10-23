@@ -1,0 +1,24 @@
+id: person/abu-al-mahasin-yusuf-al-fasi
+class: person
+label: { ar: "أبو المحاسن يوسف الفاسي", en: "Abu al-Mahasin Yusuf al-Fasi" }
+names:
+  - { kind: full, lang: ar, value: "أبو المحاسن يوسف الفاسي" }
+gender: male
+roles: [scholar, sufi]
+summary:
+  ar: "زعيم الطريقة الشاذلية الجزولية؛ لما عاين أهل القصر الكبير النصارى واستبطأوا وصول السلطان عبد الملك أرادوا الفرار والتحصن في الجبال فقام بتثبيتهم، ولم يكل ولم يمل في شحذ الهمم ورفع المعنويات؛ وقاد أحد جناحي الجيش المغربي في وادي المخازن وأبلى بلاءً حسناً وثبت حتى منح الله النصر، ثم تورع عن الغنيمة وعف عنها {cite:dawlat-uthmaniyya-salabi p. 262-263}."
+  en: "Chief of the Shadhili-Jazuli order; when the people of al-Qasr al-Kabir saw the Christians and, despairing of the sultan's arrival, meant to flee to the mountains, he steadied them — tireless in sharpening resolve and raising morale — led one wing of the Moroccan army at Wadi al-Makhazin, fought well and held fast until victory, then abstained from all share of the booty {cite:dawlat-uthmaniyya-salabi p. 262-263}."
+wings: [people]
+regions: [maghreb]
+periods: [period/gunpowder-empires]
+relations:
+  - { type: allied_with, target: person/abd-al-malik-al-sadi, sources: [source/dawlat-uthmaniyya-salabi] }
+sources: [source/dawlat-uthmaniyya-salabi]
+external_ids: { wikidata: "Q2897229" }
+provenance:
+  layer: own-research
+  source: "الدولة العثمانية لعلي محمد الصلابي (ط1 1421) ص 262-263"
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: salabi-uthmani-batch14
+status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 Medium)" }
