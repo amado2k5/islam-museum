@@ -52,5 +52,36 @@ Delivery in a lease means enabling the benefit. If something arises during the t
 ## Usurpation of the leased thing
 Where a named thing is usurped, the majority give the lessee a choice between cancelling the lease and waiting a short time until the thing is recovered; in a lease on an obligation in the dhimma the lessee may not cancel, and the lessor must substitute. The Shafi'is and Hanbalis allow cancellation if substitution is impossible. A fixed-term lease ends when its term passes. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.1542}
 
+## The lessee's duties
+The lessee must pay the rent. The Hanafis and Malikis allow the lessor to hold the leased thing until an advance payment is made; the Hanbalis do not. A worker whose work affects the thing, such as a fuller or dyer, may hold it for his fee where holding is allowed; a porter, whose work does not affect the thing, may not. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.1543} The lessee must use the thing for its intended purpose, as the contract or custom specifies, and must not exceed what was agreed; a house let for residence may not become a school. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.1543}
+
+## Termination
+The lease ends by agreement on the expiry of its term, the destruction of the named object, or rescission. The Hanafis add the death of either party and the arising of an excuse that prevents use, because they hold that the rent renews with the benefit; the others disagree, because the rent is fixed by the contract. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.1544} If the term ends while a crop is still standing or a ship is at sea, the term is extended for the excuse. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.1544}
+
+## Cancellation for excuses
+Most jurists do not allow cancellation for excuses, because the lease is binding and is dissolved only by both parties' consent; the Shafi'is say a lessee's journey or illness does not entitle him to cancel. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.1545} The Malikis allow cancellation for excuses in principle, such as seizure of the object, closure of shops by an unjust ruler, or a wet nurse's pregnancy or illness that prevents suckling; the Hanafis go further. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.1545} Excuses that allow the lessee to cancel include a boy's coming of age during the term of a lease his guardian made, and a rise in the fair rent in a waqf lease, when the trustee may cancel and renew at the new price. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.1546} If cancellation is impossible, as when a crop is still standing, the lease continues until the harvest at the fair rent. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.1546}
+
+## Death of a party
+The Hanafis and some early jurists hold that a lease ends on the death of the lessor or the lessee, because the lessor's ownership ends with his death and the lessee's heirs have no contract with the lessor. The majority hold that a lease does not end on death, because it is binding, and that dissolution must be claimed. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.1547}
+
+## Defects in the benefit
+The Hanafis treat an existing lease on a thing as a defect that gives the buyer an option to cancel the sale of that thing. If a defect arises during use, the lessee has the right to cancel, since benefits are received gradually; if the defect is removed before he cancels, the right lapses. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.1548} {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.1549}
+
+## Disputes between lessor and lessee
+They may dispute the term, the rent, trespass or return of the thing. Where there is no proof, the jurists determine who is claimant and who is defendant, and the outcome depends on that. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.1549}
+
+## Kinds of lease by object
+The general rule is that whatever may be sold may be leased, provided the thing is not consumed in taking its benefit; some things that cannot be sold may still be leased, such as waqf property. The benefit must be one sought in itself by custom. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.1550}
+
+## Leasing farmland
+Most jurists require farmland to have dependable water for cultivation: a river that customarily does not fail when irrigation is needed, a spring, a cistern, a well, or rain sufficient for the crop. The Malikis allow leasing rain-fed land for cultivation even for many years, if no rent is paid in advance. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.1551} A farm may be leased for a known term, even ten years or more. The Shafi'is allow a hundred years; another Shafi'i view sets thirty years, and another a single year. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.1552}
+
+Most jurists require the lease to state the kind of use, cultivation or planting, but not the particular crop. A lease for "cultivating or planting" is invalid for uncertainty; a lease for "cultivating and planting", in the Hanbali view, is valid. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.1553}
+
+## Duties of lessor and lessee on land
+The lessor must deliver the land empty; if it holds another's crop, the lease is invalid. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.1554} The lessee owes the agreed rent once use is enabled. The Hanafis hold that if the water supply is cut, or the land is flooded, the rent falls away; a land from which water may recede is leased if cultivation is possible after it recedes. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.1554} {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.1555}
+
+The lessee must use the land within what is customary and agreed. The Hanafis hold that one who leases land for wheat may not plant cotton; if he does, he owes the loss he caused and is treated as a usurper. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.1555} If a crop cannot be harvested within the term, the Shafi'is hold that a stipulation to leave it standing voids the lease when it contradicts the contract's purpose; for trees, leaving them standing may be stipulated, since the contract allows it. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.1556} {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.1557}
+
 ## Remaining material
-The entry continues with the detailed duties of each party, termination and dissolution, the kinds of lease, and the hired worker, up to p.1575. These are not yet drafted. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.1542}
+The entry continues with the rest of the farmland rules, leases of houses and movable goods, and the hired worker, up to p.1575. These are not yet drafted. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.1557}
