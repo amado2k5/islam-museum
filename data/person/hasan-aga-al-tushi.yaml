@@ -1,0 +1,23 @@
+id: person/hasan-aga-al-tushi
+class: person
+label: { ar: "حسن آغا الطوشي", en: "Hasan Agha al-Tushi" }
+names:
+  - { kind: full, lang: ar, value: "حسن آغا الطوشي" }
+gender: male
+roles: [military, ruler]
+summary:
+  ar: "الرجل الذي عيّنه خير الدين بربروسة مكانه في الجزائر حين سافر إلى استانبول سنة ٩٤٠هـ/١٥٣٣م؛ يصفه الصلابي بأنه كان عاقلاً صالحاً صاحب علم واسع، وبقي في منصبه نائباً عن خير الدين بعد تعيين الأخير قبودان باشا {cite:dawlat-uthmaniyya-salabi p. 216-217}."
+  en: "The man Khayr al-Din left in charge of Algiers when he sailed to Istanbul in 940/1533 — 'wise, pious, of wide learning' in al-Salabi's words — who remained his deputy after Barbarossa was made Kapudan Pasha {cite:dawlat-uthmaniyya-salabi p. 216-217}."
+wings: [people]
+periods: [period/gunpowder-empires]
+regions: [maghreb]
+relations:
+  - { type: related_to, target: person/khayr-al-din-barbarossa, sources: [source/dawlat-uthmaniyya-salabi] }
+sources: [source/dawlat-uthmaniyya-salabi]
+provenance:
+  layer: own-research
+  source: "الدولة العثمانية لعلي محمد الصلابي (ط1 1421) ص 216"
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: salabi-uthmani-batch9
+status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 Medium)" }
