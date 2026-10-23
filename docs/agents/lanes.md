@@ -29,6 +29,7 @@ Rules for every lane: [`../../AGENTS.md`](../../AGENTS.md), [`workflow.md`](work
 | `prose-backfill` | Arabic prose for entities with a `data/` record and none (~13.5k) or a thin one (<800 bytes, ~6.5k), ranked by inbound links | [`lanes/prose-backfill.md`](lanes/prose-backfill.md) | `docs/delegation/prose-backfill-progress.md` + `docs/delegation/empty-records-priority.md` | `content/prose-backfill` | `data/_stubs.d/prose-backfill.yaml` |
 | `lib-azhar-academy` | Mine the Scientific Series of the Al-Azhar Islamic Research Academy (about 100 titles, free on azhar.eg) | [`lanes/azhar-academy.md`](lanes/azhar-academy.md) | `docs/delegation/azhar-academy-progress.md` | `content/lib-azhar-academy` | `data/_stubs.d/lib-azhar-academy.yaml` |
 | `prose-backfill-2` | Missing-prose tier of the shared ranked queue, top-down by inbound links, raised to completeness ≥3 with ar+en+ur prose in the same batch (knowledge-completeness programme, Phase 1) | [`lanes/prose-backfill-2.md`](lanes/prose-backfill-2.md) | `docs/delegation/prose-backfill-2-progress.md` | `content/prose-backfill-2` | `data/_stubs.d/prose-backfill-2.yaml` |
+| `education` | The education programme (plan `docs/delegation/education-master-plan.md`): front door, five age-band hubs, passport, study modes, teacher and parent surfaces, later the teen wing; one approved phase at a time | [`lanes/education.md`](lanes/education.md) | `docs/delegation/education-progress.md` | `education/E<n>-<agent>` | `data/_stubs.d/education.yaml` |
 
 ## Library expansion lanes
 

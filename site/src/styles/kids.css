@@ -1062,3 +1062,32 @@ html.classroom .erase-wrap { display: none !important; }
 @media (prefers-reduced-motion: reduce) {
   .kids .entry-card.bridge-card { transition: none; }
 }
+
+/* ======================================================= band hubs (E1) === */
+/* One hub per age band (docs/delegation/education-master-plan.md §4): the hero carries the band colour, the
+   next-step card is the single loudest thing on the page, and the ladder hands the child to the next band. */
+.kids.band-hub { --band: var(--kids-teal); }
+.kids.band-sprouts { --band: var(--kids-leaf-deep); }
+.kids.band-explorers { --band: var(--kids-teal); }
+.kids.band-storytellers { --band: var(--kids-lapis); }
+.kids.band-hub .kids-hero { border: 3px solid var(--band); }
+.kids.band-hub .band-ages { display: inline-block; background: #fff; color: var(--band); border-radius: 999px; padding: .1rem .9rem; font-weight: 800; margin-block: .2rem .6rem; }
+.kids .next-step { background: #fff; border: 3px solid var(--kids-coral); border-radius: var(--kids-radius); padding: 1.25rem 1.5rem; margin-block: 1.5rem; box-shadow: 0 6px 20px rgba(27, 42, 74, 0.1); }
+.kids .next-step h2 { margin-block: 0 .5rem; font-size: 1.25rem; color: var(--kids-coral-deep); }
+.kids .next-step a { display: inline-flex; align-items: center; gap: .6rem; min-height: 64px; padding: .5rem 1.6rem; border-radius: 999px; background: var(--kids-coral-deep); color: #fff; font-weight: 800; font-size: 1.15rem; text-decoration: none; }
+.kids .next-step a:visited { color: #fff; }
+.kids .next-step [hidden] { display: none; }
+.kids .entry-card.done::after { content: "⭐"; float: inline-end; font-size: 1.2rem; }
+.kids .ladder { display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 1rem; background: #fff; border-radius: var(--kids-radius); padding: 1rem 1.5rem; margin-block: 1.5rem; box-shadow: 0 6px 20px rgba(27, 42, 74, 0.1); }
+.kids .ladder p { margin: 0; }
+.kids .ladder .kids-btn { background: var(--kids-lapis); color: #fff; }
+.kids .ladder a.kids-btn:visited { color: #fff; }
+.kids .shelf { margin-block: 1.5rem; }
+.kids .shelf h2 { font-size: 1.35rem; }
+.kids .passport-strip { background: #fff; border: 2px solid var(--kids-gold); }
+.kids .passport-strip h2 { color: var(--kids-lapis); }
+.kids .stamp.on { border-color: var(--kids-gold-deep); background: var(--kids-tint-gold); }
+.kids .band-link { display: inline-flex; align-items: center; min-height: 44px; font-weight: 800; color: var(--band, var(--kids-teal)); }
+@media print {
+  .kids .next-step, .kids .ladder, .kids .shelf a.kids-btn { display: none !important; }
+}
