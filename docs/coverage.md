@@ -34,8 +34,8 @@ Average sources per entity: **1.28** · Women share of persons with a recorded g
 
 | Key | Count |
 |---|---|
-| ideas | 774 |
-| living | 36 |
+| ideas | 773 |
+| living | 37 |
 | made | 117 |
 | objects | 6114 |
 | people | 8054 |
@@ -48,7 +48,7 @@ Average sources per entity: **1.28** · Women share of persons with a recorded g
 
 | Key | Count |
 |---|---|
-| period/abbasid-early | 1446 |
+| period/abbasid-early | 1448 |
 | period/abbasid-fragmentation | 486 |
 | period/buyid-seljuk-fatimid-era | 1199 |
 | period/colonial-era | 1346 |
@@ -58,7 +58,7 @@ Average sources per entity: **1.28** · Women share of persons with a recorded g
 | period/modern-era | 1143 |
 | period/mongol-post-mongol | 1297 |
 | period/pre-islamic-arabia | 402 |
-| period/prophetic-era | 1634 |
+| period/prophetic-era | 1635 |
 | period/rashidun | 832 |
 | period/umayyad | 980 |
 
@@ -69,11 +69,11 @@ Average sources per entity: **1.28** · Women share of persons with a recorded g
 | americas-oceania | 64 |
 | anatolia-balkans | 4096 |
 | andalus-europe | 1169 |
-| arabia | 2995 |
+| arabia | 2997 |
 | china-east-asia | 127 |
 | east-africa | 274 |
 | egypt-nile | 955 |
-| global | 514 |
+| global | 515 |
 | levant-iraq | 3548 |
 | maghreb | 1338 |
 | persia-central-asia | 3027 |
@@ -87,7 +87,7 @@ Average sources per entity: **1.28** · Women share of persons with a recorded g
 |---|---|
 | afterlife-and-eschatology | 23 |
 | agriculture-and-botany | 3 |
-| animals-and-mercy | 2 |
+| animals-and-mercy | 3 |
 | anti-muslim-hatred | 12 |
 | architecture | 131 |
 | arts-of-the-book | 487 |
@@ -105,7 +105,7 @@ Average sources per entity: **1.28** · Women share of persons with a recorded g
 | converts-and-leavers | 228 |
 | cosmology-and-creation | 5 |
 | creed | 122 |
-| crime-and-punishment | 15 |
+| crime-and-punishment | 14 |
 | crusades | 17 |
 | cuisines | 10 |
 | dawa-and-christian-mission | 7 |
@@ -113,12 +113,12 @@ Average sources per entity: **1.28** · Women share of persons with a recorded g
 | development-of-law-theology-institutions | 179 |
 | diplomacy-and-envoys | 2 |
 | disability | 4 |
-| dissent-heresy-freethought | 25 |
+| dissent-heresy-freethought | 26 |
 | dress | 10 |
 | education | 138 |
 | engineering-and-technology | 5 |
 | environment-and-climate | 4 |
-| ethics-and-character | 71 |
+| ethics-and-character | 73 |
 | factions-splits-schisms | 26 |
 | family-marriage-kinship | 225 |
 | fasting | 4 |
@@ -126,9 +126,9 @@ Average sources per entity: **1.28** · Women share of persons with a recorded g
 | games-and-leisure | 1 |
 | geography-and-cartography | 19 |
 | golden-age-and-decline | 4 |
-| halal-and-haram | 11 |
+| halal-and-haram | 12 |
 | halal-certification-and-standards | 2 |
-| health-body-death | 31 |
+| health-body-death | 32 |
 | history-of-islam-online | 2 |
 | history-writing-and-social-thought | 170 |
 | hospitality | 14 |
@@ -146,7 +146,7 @@ Average sources per entity: **1.28** · Women share of persons with a recorded g
 | islam-and-secular-thought | 2 |
 | islam-and-the-modern-state | 6 |
 | islam-and-zoroastrianism | 2 |
-| law-and-courts | 126 |
+| law-and-courts | 125 |
 | laws-of-war-and-peace | 53 |
 | libraries-paper-and-the-book | 11 |
 | linguistics | 77 |
@@ -181,7 +181,7 @@ Average sources per entity: **1.28** · Women share of persons with a recorded g
 | science-today | 6 |
 | scripture-and-its-sciences | 521 |
 | seafaring-and-ports | 1 |
-| sects-and-schools | 104 |
+| sects-and-schools | 105 |
 | sexuality-gender-diversity | 5 |
 | skirmishes-raids-expeditions | 37 |
 | slavery-and-freedom | 25 |
@@ -196,10 +196,10 @@ Average sources per entity: **1.28** · Women share of persons with a recorded g
 | violent-extremism-and-the-muslim-response | 27 |
 | waqf | 2 |
 | wars-and-campaigns | 132 |
-| water-and-animals | 7 |
+| water-and-animals | 8 |
 | websites-and-apps | 2 |
 | women | 206 |
-| worship-and-the-pillars | 196 |
+| worship-and-the-pillars | 195 |
 | zakat-and-sadaqa | 19 |
 | zoology | 1 |
 
