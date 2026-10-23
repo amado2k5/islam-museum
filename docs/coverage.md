@@ -38,7 +38,7 @@ Average sources per entity: **1.28** · Women share of persons with a recorded g
 | living | 77 |
 | made | 119 |
 | objects | 6152 |
-| people | 8332 |
+| people | 8333 |
 | place | 1711 |
 | time | 3973 |
 | today | 6 |
@@ -118,7 +118,7 @@ Average sources per entity: **1.28** · Women share of persons with a recorded g
 | education | 138 |
 | engineering-and-technology | 5 |
 | environment-and-climate | 4 |
-| ethics-and-character | 203 |
+| ethics-and-character | 204 |
 | factions-splits-schisms | 26 |
 | family-marriage-kinship | 368 |
 | fasting | 4 |
@@ -190,7 +190,7 @@ Average sources per entity: **1.28** · Women share of persons with a recorded g
 | takfir-and-its-critics | 4 |
 | the-elderly | 4 |
 | the-poor-and-the-worker | 86 |
-| trade-and-finance | 179 |
+| trade-and-finance | 180 |
 | tradition-versus-culture | 83 |
 | travel | 8 |
 | violent-extremism-and-the-muslim-response | 27 |
