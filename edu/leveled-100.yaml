@@ -1,0 +1,817 @@
+# The 100 records proposed for leveled reading in phase E2 (docs/delegation/education-master-plan.md §5 E2,
+# founder's decision 5 in §9.1): the agent proposes, the founder approves or edits this list, and only then is
+# any leveled text written. Nothing on the site reads this file until it is approved; the status below says so.
+#
+# Selection, in the order the plan gives (a record is listed once, under the first rule that picks it):
+#   topic    the 50 taught topics of appendix B, anchored on the real record that carries the topic (the `topic`
+#            number is the topic's position in appendix B, 1-50). Four topics have no anchor record and are
+#            listed under `unanchored` below instead of being forced onto a weak record.
+#   prophet  the five prophets of the Prophet Quest (kids/quest-stops.yaml).
+#   era      the 20 Time Machine events (kids/eras.yaml `source` ids), those not already picked.
+#   city     the cities of the trail catalogue (docs/plan/19-tour-learn.md, "Places and cities"), those not already
+#            picked; Kuala Lumpur has no place record yet and is left out.
+#   rank     inbound-link rank for the rest: edges in data/ plus [[links]] in prose, counted on 23 October 2026
+#            over 35,810 records, restricted to the classes a child or teen can read as a page (person, event,
+#            place, building, group, polity, period, concept, practice), excluding passages, sources and works
+#            (the hadith books and suras hold the top of the raw rank), the hadith transmitters whose links are
+#            isnad edges (al-Zuhri, Nafi', Urwa, Hisham ibn Urwa, Sa'id ibn al-Musayyab and their peers), the
+#            fiqh-technical concepts the kids rulebook keeps out of the wing (talaq, kaffara, riba, tahara), and
+#            figures whose record is mainly the first fitna (Mu'awiya), which docs/agents/kids-content.md §4 age-gates.
+#
+# Per record: `inbound` is the raw count above (demand evidence); `prose` lists the languages that already have a
+# prose file; `brief` says whether content/ar/<class>/<slug>.md already has the museum's Brief section, whose
+# heading is `## نبذة` (site/src/lib/entity.ts; the exhibit records use `## موجز`, which is also accepted). A record
+# with brief: true already has a short adult text the Scholar level can be cut from; brief: false means the Scholar
+# level is new text as well (the plan assumed about 60 of 100).
+#
+# Totals: 100 records (49 topic, 5 prophet, 16 era, 8 city, 22 rank); 94 already have a Brief; all 100 have prose in ar, en
+# and ur. By class: 25 person, 19 event, 14 place, 11 concept, 8 building, 8 practice, 6 polity, 4 period, 2 language,
+# 1 group, 1 object, 1 work.
+status: { review: draft, approval: pending }
+provenance:
+  generated_by: "Claude Code"
+  model: "Claude Fable 5.1 (claude-fable-5-1)"
+  run: "education-E2-list"
+  note: "Proposed list for the founder's approval (plan §9.1 decision 5); no leveled text written yet."
+records:
+  - id: period/pre-islamic-arabia
+    label: { ar: "شبه الجزيرة العربية قبل الإسلام", en: "Pre-Islamic Arabia" }
+    tier: topic
+    topic: 1
+    reason: "Appendix B topic 1, the Arabia Islam was born into: the period record is the only one that frames the whole setting."
+    inbound: 25
+    prose: [ar, en, ur]
+    brief: true
+  - id: person/muhammad
+    label: { ar: "محمد", en: "Muhammad" }
+    tier: topic
+    topic: 2
+    reason: "Appendix B topic 2, the Prophet's life before prophethood: the person record carries the biography; the most linked person outside the hadith corpus."
+    inbound: 3291
+    prose: [ar, en, ur]
+    brief: true
+  - id: event/first-revelation
+    label: { ar: "بدء الوحي في غار حراء", en: "The first revelation" }
+    tier: topic
+    topic: 3
+    reason: "Appendix B topic 3, the first revelation."
+    also: ["Time Machine era makkah"]
+    inbound: 63
+    prose: [ar, en, ur]
+    brief: true
+  - id: event/boycott-of-banu-hashim
+    label: { ar: "مقاطعة بني هاشم في شعب أبي طالب", en: "The boycott of the Banu Hashim" }
+    tier: topic
+    topic: 4
+    reason: "Appendix B topic 4, the Meccan years and the boycott."
+    inbound: 31
+    prose: [ar, en, ur]
+    brief: true
+  - id: event/first-migration-to-abyssinia
+    label: { ar: "الهجرة الأولى إلى الحبشة", en: "The first migration to Abyssinia" }
+    tier: topic
+    topic: 5
+    reason: "Appendix B topic 5, the migrations to Abyssinia."
+    also: ["Time Machine era makkah"]
+    inbound: 53
+    prose: [ar, en, ur]
+    brief: false
+  - id: event/hijra
+    label: { ar: "الهجرة النبوية", en: "The Hijra" }
+    tier: topic
+    topic: 6
+    reason: "Appendix B topic 6, the Hijra; fixture record for the E2 validator and switcher."
+    also: ["Time Machine era makkah"]
+    inbound: 95
+    prose: [ar, en, ur]
+    brief: true
+  - id: event/constitution-of-medina
+    label: { ar: "صحيفة المدينة", en: "The Constitution of Medina" }
+    tier: topic
+    topic: 7
+    reason: "Appendix B topic 7, the Constitution of Medina."
+    inbound: 3
+    prose: [ar, en, ur]
+    brief: true
+  - id: event/battle-of-badr
+    label: { ar: "غزوة بدر الكبرى", en: "The Battle of Badr" }
+    tier: topic
+    topic: 8
+    reason: "Appendix B topic 8, Badr, Uhud and the Trench as one unit told at the story's edge; Badr is the anchor."
+    inbound: 274
+    prose: [ar, en, ur]
+    brief: true
+  - id: event/battle-of-uhud
+    label: { ar: "غزوة أحد", en: "The Battle of Uhud" }
+    tier: topic
+    topic: 8
+    reason: "Appendix B topic 8, second record of the Badr–Uhud–Trench unit (also rank 219 inbound)."
+    inbound: 219
+    prose: [ar, en, ur]
+    brief: true
+  - id: event/battle-of-the-trench
+    label: { ar: "غزوة الأحزاب (الخندق)", en: "The Battle of the Trench (al-Ahzab)" }
+    tier: topic
+    topic: 8
+    reason: "Appendix B topic 8, third record of the Badr–Uhud–Trench unit."
+    inbound: 58
+    prose: [ar, en, ur]
+    brief: false
+  - id: event/treaty-of-hudaybiyya
+    label: { ar: "صلح الحديبية", en: "The Treaty of Hudaybiyya" }
+    tier: topic
+    topic: 9
+    reason: "Appendix B topic 9, the Treaty of Hudaybiyya and the conquest of Mecca; the treaty is the anchor."
+    inbound: 65
+    prose: [ar, en, ur]
+    brief: false
+  - id: event/conquest-of-mecca
+    label: { ar: "فتح مكة (الفتح الأعظم)", en: "The Conquest of Mecca (Fath Makka)" }
+    tier: topic
+    topic: 9
+    reason: "Appendix B topic 9, second record of the Hudaybiyya–conquest unit."
+    inbound: 114
+    prose: [ar, en, ur]
+    brief: false
+  - id: event/farewell-pilgrimage
+    label: { ar: "حجة الوداع", en: "The Farewell Pilgrimage" }
+    tier: topic
+    topic: 10
+    reason: "Appendix B topic 10, the Farewell Pilgrimage."
+    inbound: 35
+    prose: [ar, en, ur]
+    brief: true
+  - id: work/quran
+    label: { ar: "القرآن", en: "The Qur'an" }
+    tier: topic
+    topic: 11
+    reason: "Appendix B topic 11, how the Qur'an was written down and transmitted: the work record; the mushaf record stays a rank candidate for E5."
+    inbound: 170
+    prose: [ar, en, ur]
+    brief: true
+  - id: concept/al-hadith-al-nabawi
+    label: { ar: "الحديث النبوي", en: "Hadith" }
+    tier: topic
+    topic: 12
+    reason: "Appendix B topic 12, what a hadith is and how an isnad works: the hadith concept is the anchor; concept/isnad is linked from it."
+    inbound: 25
+    prose: [ar, en, ur]
+    brief: true
+  - id: concept/five-pillars
+    label: { ar: "أركان الإسلام الخمسة", en: "The five pillars of Islam" }
+    tier: topic
+    topic: 13
+    reason: "Appendix B topic 13, the five pillars."
+    inbound: 56
+    prose: [ar, en, ur]
+    brief: true
+  - id: concept/tawhid
+    label: { ar: "التوحيد", en: "Tawhid (the oneness of God)" }
+    tier: topic
+    topic: 14
+    reason: "Appendix B topic 14, the shahada and tawhid: tawhid is the anchor; concept/shahada follows by rank below."
+    inbound: 41
+    prose: [ar, en, ur]
+    brief: true
+  - id: practice/salah
+    label: { ar: "الصلاة", en: "Salah (the prescribed prayer)" }
+    tier: topic
+    topic: 15
+    reason: "Appendix B topic 15, prayer: the most linked practice record (1,656 inbound)."
+    inbound: 1656
+    prose: [ar, en, ur]
+    brief: true
+  - id: practice/zakat
+    label: { ar: "الزكاة", en: "Zakat (obligatory alms)" }
+    tier: topic
+    topic: 16
+    reason: "Appendix B topic 16, zakat and waqf: the practice record (447 inbound) over concept/zakat (5); waqf is linked from it."
+    inbound: 447
+    prose: [ar, en, ur]
+    brief: true
+  - id: practice/sawm-ramadan
+    label: { ar: "صيام رمضان", en: "Fasting in Ramadan" }
+    tier: topic
+    topic: 17
+    reason: "Appendix B topic 17, Ramadan and the two Eids: fasting in Ramadan is the anchor; the Eids follow under topic 46."
+    inbound: 220
+    prose: [ar, en, ur]
+    brief: true
+  - id: practice/hajj
+    label: { ar: "الحج", en: "Hajj (the pilgrimage to Mecca)" }
+    tier: topic
+    topic: 18
+    reason: "Appendix B topic 18, the Hajj as a global network (483 inbound)."
+    inbound: 483
+    prose: [ar, en, ur]
+    brief: true
+  - id: concept/hijri-calendar
+    label: { ar: "التقويم الهجري", en: "The Hijri calendar" }
+    tier: topic
+    topic: 19
+    reason: "Appendix B topic 19, the Hijri calendar; the record the Time Machine and the Hijra bridge to."
+    inbound: 4
+    prose: [ar, en, ur]
+    brief: true
+  - id: concept/madhhab
+    label: { ar: "المذهب", en: "The madhhab" }
+    tier: topic
+    topic: 20
+    reason: "Appendix B topic 20, the schools of law and why they differ (labelled)."
+    inbound: 0
+    prose: [ar, en, ur]
+    brief: true
+  - id: polity/rashidun-caliphate
+    label: { ar: "الخلافة الراشدة", en: "Rashidun Caliphate" }
+    tier: topic
+    topic: 21
+    reason: "Appendix B topic 21, the Rashidun."
+    inbound: 16
+    prose: [ar, en, ur]
+    brief: true
+  - id: polity/umayyad-caliphate
+    label: { ar: "الدولة الأموية", en: "Umayyad Caliphate" }
+    tier: topic
+    topic: 22
+    reason: "Appendix B topic 22, the Umayyads and Damascus."
+    inbound: 11
+    prose: [ar, en, ur]
+    brief: true
+  - id: polity/abbasid-caliphate
+    label: { ar: "الدولة العباسية", en: "Abbasid Caliphate" }
+    tier: topic
+    topic: 23
+    reason: "Appendix B topic 23, the Abbasids and Baghdad's House of Wisdom; the polity is the anchor, bayt-al-hikma is a Time Machine record below."
+    inbound: 17
+    prose: [ar, en, ur]
+    brief: true
+  - id: place/al-andalus
+    label: { ar: "الأندلس", en: "al-Andalus" }
+    tier: topic
+    topic: 24
+    reason: "Appendix B topic 24, al-Andalus and Cordoba: the place record (85 inbound) over polity/umayyads-of-cordoba (0)."
+    inbound: 85
+    prose: [ar, en, ur]
+    brief: true
+  - id: polity/fatimid-caliphate
+    label: { ar: "الدولة الفاطمية", en: "Fatimid Caliphate" }
+    tier: topic
+    topic: 25
+    reason: "Appendix B topic 25, Fatimid Cairo and al-Azhar; the polity is the anchor, al-Azhar is linked from it."
+    inbound: 23
+    prose: [ar, en, ur]
+    brief: true
+  - id: period/crusades-ayyubid-mamluk
+    label: { ar: "الحروب الصليبية والأيوبيون والمماليك", en: "The Crusades, Ayyubids and Mamluks" }
+    tier: topic
+    topic: 26
+    reason: "Appendix B topic 26, the Seljuks and the Crusades from the Muslim side: the period record frames both; Hattin and the 583 entry into Jerusalem are linked from it."
+    inbound: 24
+    prose: [ar, en, ur]
+    brief: true
+  - id: event/sack-of-baghdad-656
+    label: { ar: "اجتياح التتار بغداد وقتل المستعصم", en: "The Tatar sack of Baghdad and the killing of al-Musta'sim" }
+    tier: topic
+    topic: 27
+    reason: "Appendix B topic 27, the Mongols and the fall of Baghdad."
+    inbound: 0
+    prose: [ar, en, ur]
+    brief: true
+  - id: polity/mamluk-sultanate
+    label: { ar: "الدولة المملوكية", en: "Mamluk Sultanate" }
+    tier: topic
+    topic: 28
+    reason: "Appendix B topic 28, the Mamluks."
+    inbound: 0
+    prose: [ar, en, ur]
+    brief: false
+  - id: polity/ottoman-empire
+    label: { ar: "الدولة العثمانية", en: "Ottoman Empire" }
+    tier: topic
+    topic: 29
+    reason: "Appendix B topic 29, the Ottomans."
+    inbound: 21
+    prose: [ar, en, ur]
+    brief: true
+  - id: period/gunpowder-empires
+    label: { ar: "إمبراطوريات البارود", en: "The Gunpowder Empires" }
+    tier: topic
+    topic: 30
+    reason: "Appendix B topic 30, the Mughals and Safavids as the gunpowder empires: the period record covers both polities."
+    inbound: 0
+    prose: [ar, en, ur]
+    brief: true
+  - id: person/al-khwarizmi
+    label: { ar: "الخوارزمي", en: "al-Khwarizmi" }
+    tier: topic
+    topic: 31
+    reason: "Appendix B topic 31, algebra and al-Khwarizmi."
+    also: ["Time Machine era baghdad"]
+    inbound: 9
+    prose: [ar, en, ur]
+    brief: true
+  - id: person/ibn-al-haytham
+    label: { ar: "ابن الهيثم", en: "Ibn al-Haytham (Alhazen)" }
+    tier: topic
+    topic: 32
+    reason: "Appendix B topic 32, optics and Ibn al-Haytham."
+    inbound: 3
+    prose: [ar, en, ur]
+    brief: true
+  - id: person/ibn-sina
+    label: { ar: "ابن سينا", en: "Ibn Sina (Avicenna)" }
+    tier: topic
+    topic: 33
+    reason: "Appendix B topic 33, medicine: Ibn Sina is the anchor (21 inbound); al-Razi is linked from the trail."
+    inbound: 21
+    prose: [ar, en, ur]
+    brief: true
+  - id: object/astrolabe-umar-ibn-yusuf
+    label: { ar: "أسطرلاب عمر بن يوسف", en: "Astrolabe of Umar ibn Yusuf" }
+    tier: topic
+    topic: 34
+    reason: "Appendix B topic 34, astronomy and the astrolabe: the one astrolabe object record (Yemen, 690s AH) stands for the instrument; no concept record exists."
+    inbound: 0
+    prose: [ar, en, ur]
+    brief: true
+  - id: person/ibn-battuta-muhammad
+    label: { ar: "ابن بطوطة محمد بن عبد الله", en: "Ibn Battuta, Muhammad ibn Abd Allah" }
+    tier: topic
+    topic: 35
+    reason: "Appendix B topic 35, geography and Ibn Battuta."
+    inbound: 13
+    prose: [ar, en, ur]
+    brief: true
+  - id: concept/harakat-al-tarjama
+    label: { ar: "حركة الترجمة", en: "The Abbasid Translation Movement" }
+    tier: topic
+    topic: 36
+    reason: "Appendix B topic 36, paper, libraries and translation: the translation-movement concept is the anchor."
+    inbound: 0
+    prose: [ar, en, ur]
+    brief: true
+  - id: concept/islamic-calligraphy
+    label: { ar: "الخط الإسلامي", en: "Islamic calligraphy" }
+    tier: topic
+    topic: 37
+    reason: "Appendix B topic 37, calligraphy: the art-form record (concept/khatt-al-arabi is the history of the script itself)."
+    inbound: 0
+    prose: [ar, en, ur]
+    brief: true
+  - id: concept/girih
+    label: { ar: "الجيره (العقد الهندسي)", en: "Girih" }
+    tier: topic
+    topic: 38
+    reason: "Appendix B topic 38, geometric pattern and the arabesque: girih is the anchor; concept/arabesque is its pair."
+    inbound: 0
+    prose: [ar, en, ur]
+    brief: true
+  - id: concept/masjid-umum
+    label: { ar: "المسجد", en: "Mosque" }
+    tier: topic
+    topic: 39
+    reason: "Appendix B topic 39, the mosque in every region: the general mosque concept."
+    inbound: 0
+    prose: [ar, en, ur]
+    brief: true
+  - id: place/timbuktu
+    label: { ar: "تمبكتو", en: "Timbuktu" }
+    tier: topic
+    topic: 40
+    reason: "Appendix B topic 40, Timbuktu and the trans-Saharan trade."
+    also: ["trail catalogue city"]
+    inbound: 4
+    prose: [ar, en, ur]
+    brief: true
+  - id: concept/trade-in-islam
+    label: { ar: "التجارة في الإسلام", en: "Trade in Islam" }
+    tier: topic
+    topic: 41
+    reason: "Appendix B topic 41, the Silk Roads: no Silk Roads record exists; trade in Islam is the nearest anchor (flag: the founder may prefer a new place or concept record)."
+    inbound: 1
+    prose: [ar, en, ur]
+    brief: false
+  - id: place/jerusalem
+    label: { ar: "القدس", en: "Jerusalem" }
+    tier: topic
+    topic: 42
+    reason: "Appendix B topic 42, Jerusalem in Islamic history."
+    also: ["trail catalogue city"]
+    inbound: 109
+    prose: [ar, en, ur]
+    brief: true
+  - id: concept/halal-haram
+    label: { ar: "الحلال والحرام والمشتبهات", en: "The lawful, the unlawful and the doubtful" }
+    tier: topic
+    topic: 45
+    reason: "Appendix B topic 45, food, halal and hospitality (43 inbound)."
+    inbound: 43
+    prose: [ar, en, ur]
+    brief: true
+  - id: practice/eid-al-fitr
+    label: { ar: "عيد الفطر", en: "Eid al-Fitr" }
+    tier: topic
+    topic: 46
+    reason: "Appendix B topic 46, the Islamic year in a family: Eid al-Fitr is the anchor; Eid al-Adha follows by rank in E5."
+    inbound: 0
+    prose: [ar, en, ur]
+    brief: true
+  - id: language/arabic
+    label: { ar: "العربية", en: "Arabic" }
+    tier: topic
+    topic: 47
+    reason: "Appendix B topic 47, Arabic as a world language."
+    inbound: 1
+    prose: [ar, en, ur]
+    brief: true
+  - id: language/urdu
+    label: { ar: "الأردية", en: "Urdu" }
+    tier: topic
+    topic: 48
+    reason: "Appendix B topic 48, Urdu and the languages of Muslim peoples."
+    inbound: 0
+    prose: [ar, en, ur]
+    brief: true
+  - id: person/adam
+    label: { ar: "آدم", en: "Adam" }
+    tier: prophet
+    reason: "Prophet Quest stop 1 (adam); 37 inbound."
+    inbound: 37
+    prose: [ar, en, ur]
+    brief: true
+  - id: person/nuh
+    label: { ar: "نوح", en: "Nuh (Noah)" }
+    tier: prophet
+    reason: "Prophet Quest stop 2 (nuh); 49 inbound."
+    inbound: 49
+    prose: [ar, en, ur]
+    brief: true
+  - id: person/ibrahim
+    label: { ar: "إبراهيم", en: "Ibrahim (Abraham)" }
+    tier: prophet
+    reason: "Prophet Quest stop 3 (ibrahim); 155 inbound."
+    inbound: 155
+    prose: [ar, en, ur]
+    brief: true
+  - id: person/musa
+    label: { ar: "موسى", en: "Musa" }
+    tier: prophet
+    reason: "Prophet Quest stop 4 (musa); 161 inbound."
+    inbound: 161
+    prose: [ar, en, ur]
+    brief: true
+  - id: person/isa-ibn-maryam
+    label: { ar: "عيسى بن مريم", en: "Isa ibn Maryam (Jesus)" }
+    tier: prophet
+    reason: "Prophet Quest stop 5 (isa); 71 inbound."
+    inbound: 71
+    prose: [ar, en, ur]
+    brief: true
+  - id: event/building-of-the-kaaba
+    label: { ar: "رفع قواعد الكعبة", en: "The Raising of the Kaaba’s Foundations" }
+    tier: era
+    reason: "Time Machine era makkah, event 4."
+    inbound: 13
+    prose: [ar, en, ur]
+    brief: true
+  - id: event/prophets-mosque-built
+    label: { ar: "بناء المسجد النبوي", en: "The building of the Prophet's Mosque" }
+    tier: era
+    reason: "Time Machine era madinah, event 1."
+    inbound: 0
+    prose: [ar, en, ur]
+    brief: true
+  - id: event/quba-sojourn
+    label: { ar: "الإقامة بقباء", en: "The sojourn at Quba" }
+    tier: era
+    reason: "Time Machine era madinah, event 2."
+    inbound: 2
+    prose: [ar, en, ur]
+    brief: true
+  - id: event/first-jumma
+    label: { ar: "أول جمعة في بني سالم بن عوف", en: "The first Friday prayer" }
+    tier: era
+    reason: "Time Machine era madinah, event 3."
+    inbound: 0
+    prose: [ar, en, ur]
+    brief: true
+  - id: building/masjid-al-qiblatayn
+    label: { ar: "مسجد القبلتين", en: "Mosque of the Two Qiblas" }
+    tier: era
+    reason: "Time Machine era madinah, event 4."
+    inbound: 0
+    prose: [ar, en, ur]
+    brief: true
+  - id: event/founding-of-baghdad
+    label: { ar: "تأسيس مدينة السلام بغداد", en: "The Founding of Madinat al-Salam (Baghdad)" }
+    tier: era
+    reason: "Time Machine era baghdad, event 1."
+    inbound: 0
+    prose: [ar, en, ur]
+    brief: true
+  - id: building/bayt-al-hikma
+    label: { ar: "بيت الحكمة (خزانة الحكمة)", en: "Bayt al-Hikma — the House of Wisdom" }
+    tier: era
+    reason: "Time Machine era baghdad, event 2; appendix B topics 23 and 36 point here."
+    inbound: 4
+    prose: [ar, en, ur]
+    brief: true
+  - id: event/nizamiyya-founding-459
+    label: { ar: "تشييد المدرسة النظامية ببغداد", en: "The Founding of the Nizamiyya in Baghdad" }
+    tier: era
+    reason: "Time Machine era baghdad, event 3."
+    inbound: 0
+    prose: [ar, en, ur]
+    brief: true
+  - id: building/great-mosque-cordoba
+    label: { ar: "جامع قرطبة", en: "Great Mosque of Córdoba" }
+    tier: era
+    reason: "Time Machine era cordoba, event 1."
+    inbound: 0
+    prose: [ar, en, ur]
+    brief: true
+  - id: building/khizanat-kutub-qurtuba
+    label: { ar: "خزانة كتب قصر قرطبة", en: "Library of the Córdoba Palace" }
+    tier: era
+    reason: "Time Machine era cordoba, event 2."
+    inbound: 0
+    prose: [ar, en, ur]
+    brief: true
+  - id: person/ziryab
+    label: { ar: "زرياب", en: "" }
+    tier: era
+    reason: "Time Machine era cordoba, event 3."
+    inbound: 6
+    prose: [ar, en, ur]
+    brief: true
+  - id: building/alhambra
+    label: { ar: "قصر الحمراء", en: "The Alhambra" }
+    tier: era
+    reason: "Time Machine era cordoba, event 4."
+    inbound: 0
+    prose: [ar, en, ur]
+    brief: true
+  - id: event/conquest-constantinople-857
+    label: { ar: "فتح القسطنطينية سنة 857هـ", en: "Conquest of Constantinople in 857 AH" }
+    tier: era
+    reason: "Time Machine era istanbul, event 1."
+    inbound: 13
+    prose: [ar, en, ur]
+    brief: true
+  - id: building/hagia-sophia
+    label: { ar: "آيا صوفيا", en: "Hagia Sophia" }
+    tier: era
+    reason: "Time Machine era istanbul, event 2."
+    inbound: 6
+    prose: [ar, en, ur]
+    brief: true
+  - id: building/eyup-sultan-mosque
+    label: { ar: "جامع أيوب سلطان", en: "Eyüp Sultan Mosque" }
+    tier: era
+    reason: "Time Machine era istanbul, event 3."
+    inbound: 6
+    prose: [ar, en, ur]
+    brief: true
+  - id: building/new-mosque-istanbul
+    label: { ar: "يني جامع", en: "New Mosque" }
+    tier: era
+    reason: "Time Machine era istanbul, event 4."
+    inbound: 6
+    prose: [ar, en, ur]
+    brief: true
+  - id: place/mecca
+    label: { ar: "مكة المكرمة", en: "Mecca" }
+    tier: city
+    reason: "Trail catalogue city; 805 inbound, the most linked place."
+    inbound: 805
+    prose: [ar, en, ur]
+    brief: true
+  - id: place/medina
+    label: { ar: "المدينة المنورة", en: "Medina" }
+    tier: city
+    reason: "Trail catalogue city; 804 inbound."
+    inbound: 804
+    prose: [ar, en, ur]
+    brief: true
+  - id: place/cordoba
+    label: { ar: "قرطبة", en: "Cordoba" }
+    tier: city
+    reason: "Trail catalogue city; 116 inbound."
+    inbound: 116
+    prose: [ar, en, ur]
+    brief: true
+  - id: place/baghdad
+    label: { ar: "بغداد", en: "Baghdad" }
+    tier: city
+    reason: "Trail catalogue city; 299 inbound."
+    inbound: 299
+    prose: [ar, en, ur]
+    brief: true
+  - id: place/isfahan
+    label: { ar: "أصفهان", en: "Isfahan" }
+    tier: city
+    reason: "Trail catalogue city; 43 inbound."
+    inbound: 43
+    prose: [ar, en, ur]
+    brief: true
+  - id: place/cairo
+    label: { ar: "القاهرة", en: "Cairo" }
+    tier: city
+    reason: "Trail catalogue city; 123 inbound."
+    inbound: 123
+    prose: [ar, en, ur]
+    brief: true
+  - id: place/istanbul
+    label: { ar: "إسطنبول", en: "Istanbul" }
+    tier: city
+    reason: "Trail catalogue city; 72 inbound."
+    inbound: 72
+    prose: [ar, en, ur]
+    brief: true
+  - id: place/samarqand
+    label: { ar: "سمرقند", en: "Samarqand" }
+    tier: city
+    reason: "Trail catalogue city (Samarkand); the record is place/samarqand."
+    inbound: 37
+    prose: [ar, en, ur]
+    brief: true
+  - id: person/malik-ibn-anas
+    label: { ar: "مالك بن أنس", en: "Malik ibn Anas" }
+    tier: rank
+    reason: "Rank 1 of the eligible records: 6,577 inbound (the Muwatta corpus); one of the four imams of topic 20."
+    inbound: 6577
+    prose: [ar, en, ur]
+    brief: true
+  - id: person/abdullah-ibn-umar
+    label: { ar: "عبد الله بن عمر بن الخطاب", en: "Abdullah ibn Umar ibn al-Khattab" }
+    tier: rank
+    reason: "Rank: 1,599 inbound; a Companion children meet in the hadith decks."
+    inbound: 1599
+    prose: [ar, en, ur]
+    brief: true
+  - id: person/umar-ibn-al-khattab
+    label: { ar: "عمر بن الخطاب", en: "Umar ibn al-Khattab" }
+    tier: rank
+    reason: "Rank: 1,532 inbound; the second caliph, topic 21."
+    inbound: 1532
+    prose: [ar, en, ur]
+    brief: true
+  - id: person/abu-hurayra
+    label: { ar: "أبو هريرة", en: "Abu Hurayra" }
+    tier: rank
+    reason: "Rank: 1,151 inbound; the Companion of the hadith decks."
+    inbound: 1151
+    prose: [ar, en, ur]
+    brief: true
+  - id: person/aisha
+    label: { ar: "عائشة بنت أبي بكر", en: "Aisha bint Abi Bakr" }
+    tier: rank
+    reason: "Rank: 830 inbound; the most linked woman in the graph."
+    inbound: 830
+    prose: [ar, en, ur]
+    brief: true
+  - id: person/ali-ibn-abi-talib
+    label: { ar: "علي بن أبي طالب", en: "Ali ibn Abi Talib" }
+    tier: rank
+    reason: "Rank: 694 inbound; the fourth caliph, topic 21."
+    inbound: 694
+    prose: [ar, en, ur]
+    brief: true
+  - id: person/abu-bakr
+    label: { ar: "أبو بكر الصديق", en: "Abu Bakr al-Siddiq" }
+    tier: rank
+    reason: "Rank: 581 inbound; the first caliph and the Hijra companion."
+    inbound: 581
+    prose: [ar, en, ur]
+    brief: true
+  - id: person/uthman-ibn-affan
+    label: { ar: "عثمان بن عفان", en: "Uthman ibn Affan" }
+    tier: rank
+    reason: "Rank: 444 inbound; the third caliph and the mushaf, topics 11 and 21."
+    inbound: 444
+    prose: [ar, en, ur]
+    brief: true
+  - id: person/abdullah-ibn-abbas
+    label: { ar: "عبد الله بن عباس", en: "Abdullah ibn Abbas" }
+    tier: rank
+    reason: "Rank: 332 inbound; the Companion of Qur'an commentary."
+    inbound: 332
+    prose: [ar, en, ur]
+    brief: true
+  - id: practice/wudu
+    label: { ar: "الوضوء", en: "Wudu (ablution)" }
+    tier: rank
+    reason: "Rank: 330 inbound; the step before prayer, topic 15."
+    inbound: 330
+    prose: [ar, en, ur]
+    brief: true
+  - id: person/al-bukhari
+    label: { ar: "محمد بن إسماعيل البخاري", en: "Al Bukhari" }
+    tier: rank
+    reason: "Rank: 329 inbound; the compiler of the Sahih, topic 12."
+    inbound: 329
+    prose: [ar, en, ur]
+    brief: true
+  - id: practice/tawaf
+    label: { ar: "الطواف", en: "Tawaf (circling the Kaaba)" }
+    tier: rank
+    reason: "Rank: 309 inbound; the Hajj rite children see first, topic 18."
+    inbound: 309
+    prose: [ar, en, ur]
+    brief: true
+  - id: person/anas-ibn-malik
+    label: { ar: "أنس بن مالك", en: "Anas ibn Malik" }
+    tier: rank
+    reason: "Rank: 299 inbound; the Prophet's young servant, a child-facing Companion."
+    inbound: 299
+    prose: [ar, en, ur]
+    brief: true
+  - id: place/damascus
+    label: { ar: "دمشق", en: "Damascus" }
+    tier: rank
+    reason: "Rank: 292 inbound; the Umayyad capital, topic 22."
+    inbound: 292
+    prose: [ar, en, ur]
+    brief: true
+  - id: group/quraysh
+    label: { ar: "قريش", en: "Quraysh" }
+    tier: rank
+    reason: "Rank: 286 inbound; the Prophet's tribe, needed by every Meccan story."
+    inbound: 286
+    prose: [ar, en, ur]
+    brief: true
+  - id: person/khalid-ibn-al-walid
+    label: { ar: "خالد بن الوليد", en: "Khalid ibn al-Walid" }
+    tier: rank
+    reason: "Rank: 281 inbound; told at the story's edge in the child levels."
+    inbound: 281
+    prose: [ar, en, ur]
+    brief: true
+  - id: person/umar-ibn-abd-al-aziz
+    label: { ar: "عمر بن عبد العزيز", en: "" }
+    tier: rank
+    reason: "Rank: 262 inbound (Mu'awiya at 265 is skipped: the first fitna is age-gated by docs/agents/kids-content.md §4)."
+    inbound: 262
+    prose: [ar, en, ur]
+    brief: true
+  - id: practice/umrah
+    label: { ar: "العمرة", en: "Umrah" }
+    tier: rank
+    reason: "Rank: 248 inbound; pairs with Hajj, topic 18."
+    inbound: 248
+    prose: [ar, en, ur]
+    brief: true
+  - id: period/prophetic-era
+    label: { ar: "العصر النبوي", en: "The Prophetic Era" }
+    tier: rank
+    reason: "Rank: 232 inbound; the period record every Meccan and Medinan event belongs to."
+    inbound: 232
+    prose: [ar, en, ur]
+    brief: true
+  - id: place/basra
+    label: { ar: "البصرة", en: "Basra" }
+    tier: rank
+    reason: "Rank: 231 inbound; the garrison city of the Rashidun, topic 21."
+    inbound: 231
+    prose: [ar, en, ur]
+    brief: true
+  - id: place/mina
+    label: { ar: "منى", en: "Mina" }
+    tier: rank
+    reason: "Rank: 217 inbound; the Hajj encampment, topic 18."
+    inbound: 217
+    prose: [ar, en, ur]
+    brief: true
+  - id: person/abu-musa-al-ashari
+    label: { ar: "أبو موسى الأشعري", en: "Abu Musa al-Ashari" }
+    tier: rank
+    reason: "Rank: 205 inbound; the Companion of the Abyssinia migration and Basra."
+    inbound: 205
+    prose: [ar, en, ur]
+    brief: true
+# Appendix B topics that have no anchor record in data/ (not counted in the 100; the founder decides where they go):
+unanchored:
+  - { topic: 43, name: "Muslims in Canada (a story told from sourced records)", note: "No record mentions Canada today. Needs new sourced records (a group or place record and its events) in a content lane before a leveled text can exist." }
+  - { topic: 44, name: "Islamic Heritage Month", note: "No record exists (Ontario, October). A practice or event record would be the anchor; proposed as a stub for the education lane once the founder agrees." }
+  - { topic: 49, name: "Muslim-made today (the Made wing)", note: "The Made wing is 116 listing records and a hub page, not one record; leveled reading does not fit a listing. The 60-second explainer of E4 covers it instead." }
+  - { topic: 50, name: "How to cite the museum (for students)", note: "A UI page (the citation panel on every entity page), not a record; a teacher-hub section in E2 covers it." }
+# Topic-unit records that are linked from an anchor but not among the 100 (candidates for the next 200 in E5):
+deferred:
+  - { id: concept/isnad, for_topic: 12 }
+  - { id: concept/mushaf, for_topic: 11 }
+  - { id: concept/shahada, for_topic: 14, inbound: 193 }
+  - { id: concept/waqf, for_topic: 16 }
+  - { id: practice/eid-al-adha, for_topic: 46 }
+  - { id: building/al-azhar, for_topic: 25 }
+  - { id: person/salah-al-din-yusuf-ibn-ayyub, for_topic: 26, inbound: 145 }
+  - { id: event/battle-of-hattin-583, for_topic: 26 }
+  - { id: event/mongol-invasions, for_topic: 27 }
+  - { id: polity/mughal-empire, for_topic: 30 }
+  - { id: polity/safavid-iran, for_topic: 30 }
+  - { id: person/al-razi-abu-bakr, for_topic: 33 }
+  - { id: concept/arabesque, for_topic: 38 }
+  - { id: concept/khatt-al-arabi, for_topic: 37 }
+  - { id: polity/umayyads-of-cordoba, for_topic: 24 }
+  - { id: group/ansar, inbound: 188 }
+  - { id: person/abdullah-ibn-masud, inbound: 190 }
+  - { id: place/kufa, inbound: 162 }

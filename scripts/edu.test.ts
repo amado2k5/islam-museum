@@ -157,3 +157,43 @@ describe("education: weight budgets and QR", () => {
     for (const [x, y, dark] of [[2, 2, true], [3, 3, false], [4, 4, true]] as const) expect(svg.includes(`M${x} ${y}h1v1h-1z`)).toBe(dark);
   });
 });
+
+describe("education: leveled reading list (E2, plan §9.1 decision 5)", () => {
+  const list = () => parse(readFileSync("edu/leveled-100.yaml", "utf8"));
+  it("proposes exactly 100 distinct records that exist, each with a tier, a reason and prose in ar, en and ur", () => {
+    const d = list();
+    const r: any[] = d.records;
+    expect(r.length).toBe(100);
+    expect(new Set(r.map((x) => x.id)).size).toBe(100);
+    for (const x of r) {
+      const [cls, slug] = x.id.split("/");
+      expect(existsSync(`data/${cls}/${slug}.yaml`), x.id).toBe(true);
+      expect(["topic", "prophet", "era", "city", "rank"]).toContain(x.tier);
+      if (x.tier === "topic") expect(x.topic >= 1 && x.topic <= 50, `${x.id} topic`).toBe(true);
+      expect(typeof x.reason === "string" && x.reason.length > 10, `${x.id} reason`).toBe(true);
+      expect(x.prose, `${x.id} prose`).toEqual(["ar", "en", "ur"]);
+      for (const l of LANGS) expect(existsSync(`content/${l}/${cls}/${slug}.md`), `${x.id} ${l} prose`).toBe(true);
+      const ar = readFileSync(`content/ar/${cls}/${slug}.md`, "utf8");
+      expect(/^## (نبذة|موجز)\s*$/m.test(ar), `${x.id} brief flag`).toBe(x.brief);
+      expect(typeof x.inbound).toBe("number");
+    }
+  });
+  it("covers the five quest prophets, the twenty Time Machine records and every anchored appendix B topic once", () => {
+    const ids = new Set((list().records as any[]).map((x) => x.id));
+    const stops = parse(readFileSync("kids/quest-stops.yaml", "utf8")).stops as any[];
+    const PROPHET: Record<string, string> = { adam: "person/adam", nuh: "person/nuh", ibrahim: "person/ibrahim", musa: "person/musa", isa: "person/isa-ibn-maryam" };
+    for (const s of stops) expect(ids.has(PROPHET[s.slug]), s.slug).toBe(true);
+    const eras = parse(readFileSync("kids/eras.yaml", "utf8")).eras as any[];
+    for (const e of eras) for (const ev of e.events) expect(ids.has(ev.source), ev.source).toBe(true);
+    const topics = (list().records as any[]).filter((x) => x.tier === "topic").map((x) => x.topic);
+    const anchored = new Set(topics);
+    const unanchored = new Set((list().unanchored as any[]).map((u) => u.topic));
+    for (let t = 1; t <= 50; t++) expect(anchored.has(t) || unanchored.has(t), `topic ${t} neither anchored nor listed as unanchored`).toBe(true);
+    for (const t of unanchored) expect(anchored.has(t), `topic ${t} both anchored and unanchored`).toBe(false);
+  });
+  it("stays a proposal until the founder approves it", () => {
+    const d = list();
+    expect(["pending", "approved"]).toContain(d.status.approval);
+    expect(HONORIFIC.test(readFileSync("edu/leveled-100.yaml", "utf8"))).toBe(false);
+  });
+});
