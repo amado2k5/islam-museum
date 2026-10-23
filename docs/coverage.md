@@ -179,7 +179,7 @@ Average sources per entity: **1.28** · Women share of persons with a recorded g
 | sacred-space-and-pilgrimage | 83 |
 | sacred-time | 26 |
 | science-today | 6 |
-| scripture-and-its-sciences | 544 |
+| scripture-and-its-sciences | 546 |
 | seafaring-and-ports | 1 |
 | sects-and-schools | 110 |
 | sexuality-gender-diversity | 5 |
