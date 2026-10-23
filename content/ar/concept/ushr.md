@@ -1,0 +1,26 @@
+---
+id: concept/ushr
+lang: ar
+source_lang: ar
+translators: []
+---
+## موجز
+العشر في اللغة الجزء من عشرة أجزاء. ويقتصر هذا المدخل على عشر التجارة، وهو ما يفرض على أموال أهل الذمة المعدة للتجارة إذا نقلوها من بلد إلى بلد داخل بلاد الإسلام {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.11608}.
+
+## أدلة المشروعية
+يؤخذ العشر من تجارة غير المسلمين عند دخولهم بها دار الإسلام، واستدل الفقهاء له بالسنة والإجماع والمعقول، ولا يؤخذ من تجارة المسلمين غير الزكاة {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.11609} {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.11610} {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.11612}.
+
+## من يؤخذ منه
+يُؤخذ من المستأمنين والذميين، واختلفت المذاهب في شروط الوجوب: فاشترط الحنفية البلوغ والعقل، ولم يشترطه الحنابلة، واشترط أبو يعلى الذكورة، ولم يشترطها غيره {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.11613} {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.11614}. ولا يجب العشر إلا في الأموال المعدة للتجارة، واشترط الحنفية والحنابلة النصاب، واشترط بعضهم الفراغ من الدين {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.11614} {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.11615} {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.11616}.
+
+## المقدار
+يؤخذ من الذمي عند الحنفية والحنابلة نصف العشر، وعند المالكية العشر كاملاً إلا في الطعام المجلوب إلى مكة والمدينة ففيه نصف العشر، وعند الشافعية يرجع إلى شرط الإمام {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.11616} {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.11617}.
+
+## الاستيفاء
+يتولى استيفاءه الإمام أو الوالي، ويتولاه العاشر، ويشترط فيه الإسلام والحرية والعلم والقدرة على الحماية، وذكر الفقهاء ما يراعيه في الجباية، ومنها ألا يكرر الأخذ في السنة {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.11619} {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.11620}. وذكروا القبالة، وهي دفع الجباية لمقاطعة، وكره بعضهم ذلك لما فيه من ظلم {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.11621} {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.11622}.
+
+## السقوط ومصارفه
+يسقط العشر بإسلام الذمي، ويجوز للإمام إسقاطه عن بعض التجار للمصلحة، ويصرف في مصارف الفيء {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.11622} {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.11623}.
+
+## مواطن البحث
+تفصيل الفيء في مصطلح «فيء»، والزكاة في «زكاة» {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.11609}.
