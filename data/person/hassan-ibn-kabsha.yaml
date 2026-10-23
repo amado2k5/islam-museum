@@ -1,0 +1,22 @@
+id: person/hassan-ibn-kabsha
+class: person
+label: { ar: "حسان بن كبشة الكندي" }
+names:
+  - { value: "حسان بن معاوية بن حجر بن كبشة الكندي", kind: full }
+gender: male
+summary:
+  ar: "حسان بن كبشة، واسمه حسان بن معاوية بن حجر، ملك من ملوك كندة؛ كاتبته بنو عامر بعد يوم جبلة يستميلونه على بني حنظلة من تميم فأقبل بصنائعه، فقتله جشيش بن نمران الرياحي يوم ذي نجب وانهزمت عامر وصنائعه {cite:kamil-ibn-al-athir p. 455}."
+  en: "Hassan ibn Kabsha (Hassan ibn Mu'awiya ibn Hujr), a king of Kinda: drawn by Banu Amir into their revenge on Tamim after Jabala, he led his retainers to Dhi Najb where Jushaysh ibn Numran struck him dead {cite:kamil-ibn-al-athir p. 455}."
+wings: [people]
+periods: [period/pre-islamic-arabia]
+regions: [arabia]
+relations:
+  - { type: member_of, target: group/kinda, sources: [source/kamil-ibn-al-athir] }
+sources: [source/kamil-ibn-al-athir]
+provenance:
+  layer: own-research
+  source: "الكامل في التاريخ لابن الأثير — يوم ذي نجب، ص455"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  model: swe-2-high
+  run: lib-kamil-24
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

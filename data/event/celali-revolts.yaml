@@ -1,0 +1,23 @@
+id: event/celali-revolts
+class: event
+kind: revolt
+label: { ar: "الثورات الجلالية", en: "Celali Revolts" }
+summary:
+  ar: "بطاقة أولية للثورات الجلالية من أواخر القرن السادس عشر، انتفاضات الأناضول الكبرى على الدولة العثمانية؛ لم تُراجع مصادره على الصفحة بعد."
+  en: "Draft card for the Celali Revolts of the late sixteenth century, Anatolia's great risings against the Ottoman state; its sources are not yet checked on the page."
+wings: [time]
+periods: [period/gunpowder-empires]
+regions: [anatolia-balkans]
+date:
+  start: { edtf: "1590", precision: year, status: tradition, derived: true }
+  end: { edtf: "1620", precision: year, status: tradition, derived: true }
+sources: [source/dawlat-uthmaniyya-salabi]
+external_ids:
+  wikidata: Q1052771
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; revolts attested in Ottoman histories — entry not yet checked on the page"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-wave2
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

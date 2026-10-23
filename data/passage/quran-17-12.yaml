@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 17:12 (سورة الإسراء، الآية 12)."
 text: "وَجَعَلْنَا ٱلَّيْلَ وَٱلنَّهَارَ ءَايَتَيْنِ ۖ فَمَحَوْنَآ ءَايَةَ ٱلَّيْلِ وَجَعَلْنَآ ءَايَةَ ٱلنَّهَارِ مُبْصِرَةً لِّتَبْتَغُوا۟ فَضْلًا مِّن رَّبِّكُمْ وَلِتَعْلَمُوا۟ عَدَدَ ٱلسِّنِينَ وَٱلْحِسَابَ ۚ وَكُلَّ شَىْءٍ فَصَّلْنَـٰهُ تَفْصِيلًا"
 text_search: "وجعلنا الليل والنهار آيتين ۖ فمحونا آية الليل وجعلنا آية النهار مبصرة لتبتغوا فضلا من ربكم ولتعلموا عدد السنين والحساب ۚ وكل شيء فصلناه تفصيلا"
+translations:
+  en: { text: "And We appoint the night and the day two portents. Then We make dark the portent of the night, and We make the portent of the day sight-giving, that ye may seek bounty from your Lord, and that ye may know the computation of the years, and the reckoning; and everything have We expounded with a clear expounding.", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "اور ہم نے دن اور رات کو دو نشانیاں بنایا ہے رات کی نشانی کو تاریک بنایا اور دن کی نشانی کو روشن۔ تاکہ تم اپنے پروردگار کا فضل (یعنی) روزی تلاش کرو اور برسوں کا شمار اور حساب جانو۔ اور ہم نے ہر چیز کو (بخوبی) تفصیل کردی ہے", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-17 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

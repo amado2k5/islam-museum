@@ -1,0 +1,23 @@
+id: event/siege-of-akhoulgo-1839
+class: event
+kind: siege
+label: { ar: "حصار أخولغو", en: "Siege of Akhoulgo" }
+summary:
+  ar: "بطاقة أولية لحصار أخولغو سنة ١٨٣٩م، سقوط معقل الإمام شامل بيد الروس؛ لم تُراجع مصادره على الصفحة بعد."
+  en: "Draft card for the Siege of Akhoulgo in 1839, the Russian capture of Imam Shamil's stronghold; its sources are not yet checked on the page."
+wings: [time]
+periods: [period/colonial-era]
+regions: [persia-central-asia]
+date:
+  start: { edtf: "1839", precision: year, status: tradition, derived: true }
+  end: { edtf: "1839", precision: year, status: tradition, derived: true }
+sources: [source/tarikh-islam-hasan-ibrahim]
+external_ids:
+  wikidata: Q4116960
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; battle attested in narrative histories — entry not yet checked on the page"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-wave2
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

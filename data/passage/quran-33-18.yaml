@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 33:18 (سورة الأحزاب، الآية 18)."
 text: "۞ قَدْ يَعْلَمُ ٱللَّهُ ٱلْمُعَوِّقِينَ مِنكُمْ وَٱلْقَآئِلِينَ لِإِخْوَٰنِهِمْ هَلُمَّ إِلَيْنَا ۖ وَلَا يَأْتُونَ ٱلْبَأْسَ إِلَّا قَلِيلًا"
 text_search: "۞ قد يعلم الله المعوقين منكم والقائلين لإخوانهم هلم إلينا ۖ ولا يأتون البأس إلا قليلا"
+translations:
+  en: { text: "Allah already knoweth those of you who hinder, and those who say unto their brethren: \"Come ye hither unto us!\" and they come not to the stress of battle save a little,", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "خدا تم میں سے ان لوگوں کو بھی جانتا ہے جو (لوگوں کو) منع کرتے ہیں اور اپنے بھائیوں سے کہتے ہیں کہ ہمارے پاس چلے آؤ۔ اور لڑائی میں نہیں آتے مگر کم", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-33 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 19:59 (سورة مريم، الآية 59)."
 text: "۞ فَخَلَفَ مِنۢ بَعْدِهِمْ خَلْفٌ أَضَاعُوا۟ ٱلصَّلَوٰةَ وَٱتَّبَعُوا۟ ٱلشَّهَوَٰتِ ۖ فَسَوْفَ يَلْقَوْنَ غَيًّا"
 text_search: "۞ فخلف من بعدهم خلف أضاعوا الصلاة واتبعوا الشهوات ۖ فسوف يلقون غيا"
+translations:
+  en: { text: "Now there hath succeeded them a later generation whom have ruined worship and have followed lusts. But they will meet deception.", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "پھر ان کے بعد چند ناخلف ان کے جانشیں ہوئے جنہوں نے نماز کو (چھوڑ دیا گویا اسے) کھو دیا۔ اور خواہشات نفسانی کے پیچھے لگ گئے۔ سو عنقریب ان کو گمراہی (کی سزا) ملے گی", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-19 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

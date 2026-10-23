@@ -15,6 +15,82 @@ legs:
   - { from: place/dhi-kashr, to: place/al-arj, mode: "ركوب", note: "على الجداجد ثم الأجرد ثم ذا سلم من بطن أعضاء مدلجة تجين ثم العبابيد ثم أجاز الفاجة ثم هبط العرج (ابن هشام؛ الرحيق ص167). في الطريق: حديث الصخرة واللبن (بخاري 1/510)، ولقاء أبي بريدة الذي أسلم مع سبعين رجلاً، ولقاء الزبير القافل من الشام (الرحيق ص167-170)." }
   - { from: place/al-arj, to: place/quba, mode: "ركوب", note: "ثنية العائر عن يمين ركوبة ثم هبط بطن رئم ثم قباء (ابن هشام؛ الرحيق ص167)؛ النزول يوم الإثنين 8 ربيع الأول (الرحيق ص170)." }
   - { from: place/quba, to: place/medina, start: { edtf: "0622-09-24", status: tradition, note: "يوم الجمعة بعد أربعة أيام على رواية ابن إسحاق المختارة" }, mode: "ركوب", note: "ركب يوم الجمعة وأبو بكر ردفه؛ أدركته الجمعة في بني سالم بن عوف فجمع بهم في مسجد بطن الوادي وكانوا مائة رجل؛ ثم دخل المدينة وبركت الناقة في موضع المسجد النبوي (الرحيق ص172-173)." }
+waypoints:
+  - place: place/mecca
+    day: 1
+    day_status: tradition
+    date: { hijri: "0001-02-27", edtf: "0622-09-12~", calendar: julian, precision: day, status: tradition, note: "ليلة 27 صفر سنة 14 من النبوة (الرحيق ص163)؛ السنة الهجرية الأولى بحساب التقويم الذي ثُبّت لاحقاً." }
+    title: { ar: "الخروج من مكة ليلاً", en: "Leaving Mecca by night" }
+    narrative:
+      ar: "خرج النبي من خوخة في دار أبي بكر في جوف الليل، وسلك عكس طريق المدينة: جنوباً نحو جبل ثور على نحو خمسة أميال من مكة؛ وقد حُفيت قدماه في الطريق فحمله أبو بكر حتى بلغا الغار في قمة الجبل (الرحيق ص163-164)."
+      en: "The Prophet slipped out through a back door of Abu Bakr's house in the dead of night and took the opposite direction to Medina: south, towards Jabal Thawr about five miles from Mecca. His feet were bruised on the way and Abu Bakr carried him up to the cave at the summit (al-Raheeq pp. 163-164)."
+    events: [event/hijra]
+    sources: [source/mubarakpuri-raheeq]
+  - place: place/ghar-thawr
+    day: 1
+    day_status: tradition
+    day_note: "ثلاث ليالٍ في الغار: من ليلة الخروج حتى غرة ربيع الأول (الرحيق ص164-166)."
+    title: { ar: "ثلاث ليالٍ في غار ثور", en: "Three nights in the cave of Thawr" }
+    narrative:
+      ar: "مكثا في الغار ثلاث ليالٍ؛ يبيت عندهما عبد الله بن أبي بكر ثم يصبح بمكة ليأتيهما بالأخبار، وترعى غنم عامر بن فهيرة حولهما ويريحها عليهما ليلاً، وجاءت قريش تطلبهما حتى وقفت على باب الغار فلم تره (الرحيق ص164-166)."
+      en: "They stayed three nights in the cave. Abdullah ibn Abi Bakr spent the nights with them and returned to Mecca each morning for news, Amir ibn Fuhayra grazed his sheep nearby and brought them milk at night, and the Quraysh search party reached the mouth of the cave without seeing them (al-Raheeq pp. 164-166)."
+    events: [event/ghar-thawr]
+    sources: [source/mubarakpuri-raheeq, source/sahih-al-bukhari]
+  - place: place/qudaid
+    day: 4
+    day_status: tradition
+    date: { hijri: "0001-03-01", edtf: "0622-09-16", calendar: julian, precision: day, status: tradition, note: "ليلة الإثنين غرة ربيع الأول (الرحيق ص166)." }
+    title: { ar: "على طريق الساحل، ولحاق سراقة", en: "The coastal track, and Suraqa's pursuit" }
+    narrative:
+      ar: "جاءهما الدليل عبد الله بن أريقط بالراحلتين ليلة الإثنين غرة ربيع الأول، فأمعن بهما جنوباً نحو اليمن ثم غرباً نحو الساحل فشمالاً قرب شاطئ البحر الأحمر على طريق غير مألوفة: أسفل مكة ثم على الساحل حتى عارض الطريق أسفل عسفان ثم أسفل أمج حتى أجاز قديد. وفي هذا الشق لحق بهما سراقة بن مالك فساخت قوائم فرسه، فسأل الأمان ورجع (الرحيق ص166-169؛ ابن هشام 1/491-492)."
+      en: "The hired guide Abdullah ibn Urayqit brought the two mounts on the night of Monday 1 Rabi' I. He led them south towards Yemen, then west to the coast and north along the Red Sea on a little-used track: below Mecca, along the shore, crossing the road below Usfan and below Amaj, past Qudayd. On this stretch Suraqa ibn Malik caught up with them; his horse's legs sank into the ground, he asked for safe conduct and turned back (al-Raheeq pp. 166-169; Ibn Hisham 1/491-492)."
+    sources: [source/mubarakpuri-raheeq, source/ibn-hisham-sira]
+  - place: place/laqf
+    day: 5
+    day_status: debated
+    day_note: "ترتيب المحطات عن ابن إسحاق؛ اليوم تقديري بين غرة ربيع الأول والثامن منه."
+    title: { ar: "خيمة أم معبد", en: "The tent of Umm Ma'bad" }
+    narrative:
+      ar: "أجاز الركب الخرار ثم ثنية المرة ثم لقف، وفي هذا الشق، على رواية زاد المعاد، مرّوا بخيمة أم معبد الخزاعية فلم يجدوا عندها طعاماً، فدعا النبي على شاة لم يمسها الفحل فحلبت وشرب القوم وملأ الإناء وتركه لها (الرحيق ص167، 169؛ زاد المعاد 2/53-54)."
+      en: "The party passed al-Kharrar, Thaniyyat al-Marra and Laqf. On this stretch, by the account in Zad al-Ma'ad, they stopped at the tent of Umm Ma'bad of Khuza'a, who had no food to offer; the Prophet prayed over a ewe that had never been mated, milked it, the company drank, and he left her the full vessel (al-Raheeq pp. 167, 169; Zad al-Ma'ad 2/53-54)."
+    sources: [source/mubarakpuri-raheeq, source/zad-al-maad]
+  - place: place/dhi-kashr
+    day: 6
+    day_status: debated
+    day_note: "ترتيب المحطات عن ابن إسحاق؛ اليوم تقديري."
+    title: { ar: "مراحل الأودية", en: "Stages through the wadis" }
+    narrative:
+      ar: "مدلجة لقف ثم مدلجة مجاح ثم مرجح محاج ثم مرجح ذي الغضوين ثم بطن ذي كشر؛ مواضع يسردها ابن إسحاق على ترتيب الطريق ولا يُعرف أكثرها اليوم على وجه الدقة (ابن هشام؛ الرحيق ص167)."
+      en: "Mudlajat Laqf, Mudlajat Majah, Marjih Mahaj, Marjih Dhi al-Ghudwayn, then the valley of Dhi Kashr: places Ibn Ishaq lists in the order of the road, most of which cannot be located precisely today (Ibn Hisham; al-Raheeq p. 167)."
+    sources: [source/mubarakpuri-raheeq, source/ibn-hisham-sira]
+  - place: place/al-arj
+    day: 7
+    day_status: debated
+    day_note: "ترتيب المحطات عن ابن إسحاق؛ اليوم تقديري."
+    title: { ar: "العرج: الصخرة واللبن ولقاء الزبير", en: "Al-Arj: the rock, the milk and meeting al-Zubayr" }
+    narrative:
+      ar: "على الجداجد ثم الأجرد ثم ذا سلم ثم العبابيد ثم أجاز الفاجة وهبط العرج. وفي الطريق حديث الصخرة واللبن (البخاري 1/510)، ولقاء بريدة الأسلمي الذي أسلم ومن معه، ولقاء الزبير بن العوام قافلاً من الشام في ركب من المسلمين فكساهما ثياباً بيضاً (الرحيق ص167-170)."
+      en: "Over al-Jadajid, al-Ajrad, Dhu Salam and al-Ababid, past al-Faja and down to al-Arj. On the road came the story of the rock and the milk (al-Bukhari 1/510), the meeting with Burayda al-Aslami who embraced Islam with his companions, and the meeting with al-Zubayr ibn al-Awwam returning from Syria with a party of Muslims, who dressed the two travellers in white (al-Raheeq pp. 167-170)."
+    sources: [source/mubarakpuri-raheeq, source/sahih-al-bukhari]
+  - place: place/quba
+    day: 11
+    day_status: tradition
+    date: { hijri: "0001-03-08", edtf: "0622-09-23", calendar: julian, precision: day, status: tradition, note: "يوم الإثنين 8 ربيع الأول (الرحيق ص170)." }
+    title: { ar: "النزول بقباء", en: "Arrival at Quba" }
+    narrative:
+      ar: "ثنية العائر عن يمين ركوبة ثم بطن رئم ثم قباء، يوم الإثنين 8 ربيع الأول. كان أهل المدينة يخرجون كل غداة إلى الحرة ينتظرونه، فلما رآه يهودي صاح يا بني قيلة هذا صاحبكم، فخرجوا إليه. أقام بقباء أربعة أيام على رواية ابن إسحاق المختارة وأسس مسجد قباء (الرحيق ص170-172)."
+      en: "Thaniyyat al-A'ir to the right of Rakuba, then the valley of Ri'm, then Quba, on Monday 8 Rabi' I. The people of Medina had been going out each morning to the lava field to wait for him; a Jew who saw him called out that the awaited one had come, and they went out to meet him. He stayed at Quba four days on Ibn Ishaq's preferred account and founded its mosque (al-Raheeq pp. 170-172)."
+    events: [event/quba-sojourn]
+    sources: [source/mubarakpuri-raheeq]
+  - place: place/medina
+    day: 15
+    day_status: tradition
+    date: { hijri: "0001-03-12", edtf: "0622-09-24", calendar: julian, precision: day, status: tradition, note: "يوم الجمعة 12 ربيع الأول على رواية ابن إسحاق؛ وفي الموافقة الميلادية خلاف (الرحيق ص172)." }
+    title: { ar: "الجمعة في بني سالم ودخول المدينة", en: "Friday prayer at Banu Salim and the entry into Medina" }
+    narrative:
+      ar: "ركب يوم الجمعة وأبو بكر ردفه، فأدركته الجمعة في بني سالم بن عوف فجمع بهم في مسجد بطن الوادي وكانوا مئة رجل، ثم دخل المدينة والناس يتنازعون زمام ناقته كلٌّ يريد أن ينزل عنده، حتى بركت الناقة في موضع المسجد النبوي عند دار أبي أيوب (الرحيق ص172-173)."
+      en: "He rode on Friday with Abu Bakr behind him; the Friday prayer found him among Banu Salim ibn Awf, where he led a hundred men in the mosque of the valley floor. Then he entered Medina while the people competed for the reins of his camel, each wanting to host him, until the camel knelt at the site of the Prophet's Mosque by the house of Abu Ayyub (al-Raheeq pp. 172-173)."
+    sources: [source/mubarakpuri-raheeq]
 relations:
   - { type: part_of, target: event/hijra }
   - { type: had_participant, target: person/muhammad, role: "المهاجر", sources: [source/mubarakpuri-raheeq] }

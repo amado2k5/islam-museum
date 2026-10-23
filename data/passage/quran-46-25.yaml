@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 46:25 (سورة الأحقاف، الآية 25)."
 text: "تُدَمِّرُ كُلَّ شَىْءٍۭ بِأَمْرِ رَبِّهَا فَأَصْبَحُوا۟ لَا يُرَىٰٓ إِلَّا مَسَـٰكِنُهُمْ ۚ كَذَٰلِكَ نَجْزِى ٱلْقَوْمَ ٱلْمُجْرِمِينَ"
 text_search: "تدمر كل شيء بأمر ربها فأصبحوا لا يرى إلا مساكنهم ۚ كذلك نجزي القوم المجرمين"
+translations:
+  en: { text: "Destroying all things by commandment of its Lord. And morning found them so that naught could be seen save their dwellings. Thus do We reward the guilty folk.", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "ہر چیز کو اپنے پروردگار کے حکم سے تباہ کئے دیتی ہے تو وہ ایسے ہوگئے کہ ان کے گھروں کے سوا کچھ نظر ہی نہیں آتا تھا۔ گنہگار لوگوں کو ہم اسی طرح سزا دیا کرتے ہیں", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-46 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

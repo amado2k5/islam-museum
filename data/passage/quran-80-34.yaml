@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 80:34 (سورة عبس، الآية 34)."
 text: "يَوْمَ يَفِرُّ ٱلْمَرْءُ مِنْ أَخِيهِ"
 text_search: "يوم يفر المرء من أخيه"
+translations:
+  en: { text: "On the day when a man fleeth from his brother", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "اس دن آدمی اپنے بھائی سے دور بھاگے گا", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-80 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

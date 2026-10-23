@@ -1,0 +1,31 @@
+id: event/jalal-expulsion-423
+class: event
+kind: mutiny
+label: { ar: "طرد الغلمان جلال الدولة من بغداد ٤٢٣", en: "The ghilman's expulsion of Jalal al-Dawla from Baghdad, 423" }
+summary:
+  ar: "حلف الغلمان على خلع جلال الدولة فقطعوا خطبته يوم الجمعة ثالث ربيع الأول سنة ٤٢٣، وسرّح جواريه وطلبوا نزوله إلى واسط، ونزلوا معه على مائة غلام ثم عشرين؛ فهرب ليلة الاثنين سادس ربيع الأول إلى عكبرا ونهبت دار المملكة، وكاتب الأصبهسلرية أبا كليجار يدعونه فردّ بجواب حذر يطلب خمسمائة غلام؛ وسار جلال إلى الحلة وسجد لكمال الدولة أبي سنان وزوّجه ابنته ووعده الخزائن، فشفع له فأعيدت خطبته يوم سبعة عشر ربيع الأول في جامع المدينة والرصافة ثم جامع الخليفة في الجمعة الثالثة؛ ثم كان شربه النبيذ في بستان دار الخليفة في شوال وعتاب القائم له واعتذاره {cite:muntazam-ibn-al-jawzi j.8 p.404-410}."
+  en: "The ghilman swore to depose Jalal al-Dawla and cancelled the khutba in his name on Friday, 3 Rabi' I 423. They dismissed his concubines and demanded that he go down to Wasit; 100 ghilman went down with him, then only 20. He fled on the night of Monday, 6 Rabi' I, to Akbara, and the royal residence was plundered. He wrote to the isfahsalar Abu Kalijar, inviting him, but Abu Kalijar replied cautiously, asking for 500 ghilman. Jalal went to al-Hilla, prostrated himself before Kamal al-Dawla Abu Sinan, gave him his daughter in marriage and promised him treasures. Abu Sinan interceded for him, and his khutba was restored on 17 Rabi' I in the congregational mosques of the city and al-Rusafa, and then in the caliph's mosque on the third Friday. In Shawwal he drank wine in a garden of the caliph's residence; al-Qa'im reproached him, and he apologised {cite:muntazam-ibn-al-jawzi j.8 p.404-410}."
+wings: [time]
+themes: [civil-wars-and-revolts, wars-and-campaigns]
+periods: [period/buyid-seljuk-fatimid-era]
+regions: [levant-iraq]
+sides:
+  - label: { ar: "غلمان بغداد" }
+  - label: { ar: "جلال الدولة وأنصاره" }
+    commanders: [person/jalal-al-dawla]
+date:
+  start: { edtf: "1032-02~", hijri: "0423-02", calendar: julian, precision: month, status: tradition, derived: true, note: "قطع الخطبة في ٣ ربيع الأول والهرب ليلة ٦ ربيع الأول ٤٢٣ {cite:muntazam-ibn-al-jawzi j.8 p.404}." }
+relations:
+  - { type: occurred_at, target: place/baghdad, sources: [source/muntazam-ibn-al-jawzi] }
+  - { type: had_participant, target: person/jalal-al-dawla, role: "الملك المطرود", sources: [source/muntazam-ibn-al-jawzi] }
+  - { type: had_participant, target: person/abu-kalijar, role: "مدعوّ للملك", sources: [source/muntazam-ibn-al-jawzi] }
+provenance:
+  layer: own-research
+  source: "المنتظم في تاريخ الملوك والأمم — ابن الجوزي (ج8، أحداث سنة ٤٢٣)، قراءة آبل فيجن، مسح AAlexandrina-224011"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-muntazam-350-474-batch23
+sources: [source/muntazam-ibn-al-jawzi]
+status:
+  review: draft
+  completeness: 1
+  generated_by: "Devin (SWE-2 High)"

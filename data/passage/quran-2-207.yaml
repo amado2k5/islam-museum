@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 2:207 (سورة البقرة، الآية 207)."
 text: "وَمِنَ ٱلنَّاسِ مَن يَشْرِى نَفْسَهُ ٱبْتِغَآءَ مَرْضَاتِ ٱللَّهِ ۗ وَٱللَّهُ رَءُوفٌۢ بِٱلْعِبَادِ"
 text_search: "ومن الناس من يشري نفسه ابتغاء مرضات الله ۗ والله رءوف بالعباد"
+translations:
+  en: { text: "And of mankind is he who would sell himself, seeking the pleasure of Allah; and Allah hath compassion on (His) bondmen.", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "اور کوئی شخص ایسا ہے کہ خدا کی خوشنودی حاصل کرنے کے لئے اپنی جان بیچ ڈالتا ہے اور خدا بندوں پر بہت مہربان ہے", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-2 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

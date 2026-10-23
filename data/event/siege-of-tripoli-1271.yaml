@@ -1,0 +1,23 @@
+id: event/siege-of-tripoli-1271
+class: event
+kind: siege
+label: { ar: "حصار طرابلس (١٢٧١)", en: "Siege of Tripoli" }
+summary:
+  ar: "بطاقة أولية لحصار طرابلس سنة ١٢٧١م، محاولة بيبرس أخذ المقاطعة الصليبية؛ لم تُراجع مصادره على الصفحة بعد."
+  en: "Draft card for the Siege of Tripoli in 1271, Baibars's move on the Crusader county; its sources are not yet checked on the page."
+wings: [time]
+periods: [period/crusades-ayyubid-mamluk]
+regions: [levant-iraq]
+date:
+  start: { edtf: "1271", precision: year, status: tradition, derived: true }
+  end: { edtf: "1271", precision: year, status: tradition, derived: true }
+sources: [source/kamil-ibn-al-athir]
+external_ids:
+  wikidata: Q7510468
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; battle attested in narrative histories — entry not yet checked on the page"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-wave2
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

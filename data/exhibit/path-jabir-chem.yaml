@@ -1,0 +1,76 @@
+id: exhibit/path-jabir-chem
+class: exhibit
+kind: trail
+label:
+  ar: جابر والكيمياء
+  en: Jabir and Alchemy
+summary:
+  ar: 'مسار في أب الكيمياء: جابر بن حيان يكتب المؤلفات في الكوفة، والميزان وعلم البناء — الكيمياء تبدأ.'
+  en: A trail through the father of chemistry.
+audience:
+- newcomer
+- student
+duration_minutes: 30
+wings: []
+regions:
+- levant-iraq
+rooms:
+- title:
+    ar: جابر
+    en: Jabir
+  body:
+    ar: 'ابن حيان: صدر الكيمياء الإسلامية.'
+    en: 'ابن حيان: صدر الكيمياء الإسلامية.'
+  features:
+  - person/jabir-ibn-hayyan
+  - place/kufa
+- title:
+    ar: الكوفة
+    en: Kufa
+  body:
+    ar: 'مدينة الحنفية والعلم: جابر يعمل.'
+    en: 'مدينة الحنفية والعلم: جابر يعمل.'
+  features:
+  - place/kufa
+  - person/jabir-ibn-hayyan
+- title:
+    ar: الكتب
+    en: The corpus
+  body:
+    ar: 'مؤلفات جابر: من الاكسير إلى الميزان.'
+    en: 'مؤلفات جابر: من الاكسير إلى الميزان.'
+  features:
+  - person/jabir-ibn-hayyan
+  - person/jabir-ibn-hayyan
+- title:
+    ar: العلم
+    en: The science
+  body:
+    ar: 'التجربة والميزان: منهج المختبر.'
+    en: 'التجربة والميزان: منهج المختبر.'
+  features:
+  - place/kufa
+  - place/kufa
+- title:
+    ar: الأثر
+    en: The legacy
+  body:
+    ar: 'من جابر إلى لافوازييه: ألف سنة.'
+    en: 'من جابر إلى لافوازييه: ألف سنة.'
+  features:
+  - person/jabir-ibn-hayyan
+  - place/baghdad
+prerequisites:
+- exhibit/path-islam-in-30-minutes
+sources:
+- source/wikidata
+provenance:
+  layer: own-research
+  source: Devin-assembled trail from existing museum entities
+  generated_by: Devin (SWE-2 High)
+  model: SWE-2 High
+  run: pathways-batch-7
+status:
+  review: draft
+  completeness: 1
+  generated_by: Devin (SWE-2 High), pathways lane, 2026-10-16

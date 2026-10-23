@@ -1,0 +1,23 @@
+id: event/mongol-invasions
+class: event
+kind: campaign
+label: { ar: "الغزوات المغولية", en: "Mongol invasions and conquests" }
+summary:
+  ar: "بطاقة أولية للغزوات المغولية، سلسلة الفتوحات التي اجتاحت العالم الإسلامي من جنكيز خان حتى تيمور وأسقطت الخلافة العباسية في بغداد سنة ١٢٥٨م؛ لم تُراجع مصادره على الصفحة بعد."
+  en: "Draft card for the Mongol invasions and conquests, the succession of campaigns from Genghis Khan to Timur that swept the Islamic world and ended the Abbasid caliphate at Baghdad in 1258; its sources are not yet checked on the page."
+wings: [time]
+periods: [period/mongol-post-mongol]
+regions: [global]
+date:
+  start: { edtf: "1206", precision: year, status: tradition, derived: true }
+  end: { edtf: "1405", precision: year, status: tradition, derived: true }
+sources: [source/tarikh-ibn-khaldun-ibar]
+external_ids:
+  wikidata: Q2092093
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; invasions attested in general histories — entry not yet checked on the page"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-wave2
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

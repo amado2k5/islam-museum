@@ -1,0 +1,38 @@
+id: person/sabbatai-zevi
+class: person
+label:
+  ar: شبتاي تسفي
+  en: Sabbatai Zevi
+  ur: شبتی صوی
+summary:
+  ar: "شبتاي تسفي (1626-1676م) مدعي مشيحية يهودي ازدهرت حركته في العالم العثماني، انتهى باعتناقه الإسلام ظاهريا أمام السلطان؛ تروي الدراسة الأكاديمية سيرته وسياقها العثماني {cite:scholem-sabbatai-1973}."
+  en: "Sabbatai Zevi (1626-1676 CE) was a Jewish messianic claimant whose movement flourished across the Ottoman world and ended in his nominal conversion to Islam before the sultan; academic study records his course and Ottoman context {cite:scholem-sabbatai-1973}."
+wings: [people]
+themes: [islam-and-judaism, sects-and-schools]
+regions: [anatolia-balkans]
+periods: [period/gunpowder-empires]
+external_ids: { wikidata: "Q299215" }
+sources: [source/scholem-sabbatai-1973]
+perspectives:
+- tradition: sunni
+  id: ottoman-response
+  stance:
+    ar: حركة قابلها الخلاف العثماني بالاحتواء وانتهت بإسلام مدّعيها أمام السلطان
+    en: A movement the Ottoman establishment contained, ending in the claimant's conversion before the sultan
+  summary:
+    en: "The Ottoman religious establishment met the movement with containment; the claimant's nominal conversion before Mehmed IV closed the episode in the imperial account {cite:scholem-sabbatai-1973}."
+  sources: [source/scholem-sabbatai-1973]
+- tradition: academic
+  id: academic-scholarship
+  stance:
+    en: The largest Jewish messianic movement of the early modern period, studied through Scholem's standard biography
+  summary:
+    en: "Scholem's biography traces the claimant's course from Smyrna through the empire to arrest and conversion, and the movement's continuation in the Dönmeh {cite:scholem-sabbatai-1973}."
+  sources: [source/scholem-sabbatai-1973]
+sensitivity: contested
+provenance:
+  layer: own-research
+  source: "wikidata-import deferred Q299215; contested: academic (Scholem) fallback, no SD source"
+  generated_by: "Devin (SWE-2 Medium)"
+  run: wd-deferred-10
+status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 Medium)" }

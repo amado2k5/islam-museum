@@ -1,0 +1,21 @@
+id: event/egypt-earthquakes-272
+class: event
+kind: other
+label: { ar: "زلازل مصر", en: "Earthquakes in Egypt" }
+summary:
+  ar: "ورد الخبر في جمادى الأولى سنة اثنتين وسبعين ومائتين أن مصر زُلزلت زلازل أخربت الدور ومسجد الجامع، وأنه أُحصي بها في يوم واحد ألف جنازة {cite:muntazam-ibn-al-jawzi p. 85}."
+  en: "News reached Baghdad in Jumada I 272 that Egypt had been shaken by earthquakes that ruined houses and the congregational mosque, with a thousand funerals counted in a single day {cite:muntazam-ibn-al-jawzi p. 85}."
+wings: [time]
+periods: [period/abbasid-early]
+regions: [egypt-nile]
+date:
+  start: { edtf: "0885-11~", hijri: "0272-05", calendar: julian, precision: month, status: tradition, derived: true, note: "جمادى الأولى ٢٧٢؛ التحويل مشتق {cite:muntazam-ibn-al-jawzi p. 85}." }
+relations:
+  - { type: occurred_at, target: place/misr, sources: [source/muntazam-ibn-al-jawzi] }
+provenance:
+  layer: own-research
+  source: "المنتظم لابن الجوزي (ط حيدرآباد 1357، ج5 ق2، سنة 272)، قراءة آبل فيجن"
+  generated_by: "Devin (SWE-2 Medium) from Apple Vision OCR"
+  run: lib-muntazam-258-349-batch26
+sources: [source/muntazam-ibn-al-jawzi]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 Medium)" }

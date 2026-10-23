@@ -1,0 +1,24 @@
+id: person/al-bukhari-makki-ahmad
+class: person
+label: { ar: "أحمد البخاري المكي", en: "Ahmad al-Bukhari al-Makki" }
+names:
+  - { kind: full, lang: ar, value: "شهاب الدين أحمد بن الشمس محمد بن القطب محمد بن السراج البخاري الأصل المكي الحنفي" }
+gender: male
+roles: [scholar, jurist]
+traditions: [sunni]
+wings: [people]
+themes: [scripture-and-its-sciences, education]
+periods: [period/gunpowder-empires]
+regions: [arabia, egypt-nile]
+summary:
+  ar: "شهاب الدين أحمد البخاري الأصل المكي الحنفي؛ ولد بمكة في صفر سنة ثلاث وثمانين وثمانمائة واشتغل بالعلم فقرأ على السخاوي في سنن أبي داود والشفا، ودخل القاهرة مراراً وسمع الحديث فيها على جماعة منهم الحافظ الديمي والجلال السيوطي، ولبس خرقة التصوف من بعض المشايخ وولي المناصب الجلية كالقضاء والإمامة والمشيخة، وأجازه بعضهم وقرأ الكتب الستة وغيرها وسمع كثيراً من الفقه والحديث مع قوة حافظة وحسن خطابة وناطقة؛ توفي بجدة ظهر يوم السبت عاشر ربيع الثاني وحُمل إلى مكة فدُفن بالمعلاة {cite:shadharat-dhahab p. 689}."
+  en: "The Bukharan-born Meccan — b. Safar 803; he read Abu Dawud and the Shifa' on al-Sakhawi, heard al-Dimyati and al-Suyuti in Cairo, wore the khirqa, held qadi, imama and mashyakha posts; died at Jeddah Saturday 10 Rabi' II [948], carried to Mecca and buried at Ma'la {cite:shadharat-dhahab p. 689}."
+born: { edtf: "1480-10~", hijri: "0883-02", calendar: julian, precision: month, status: tradition, derived: true, note: "ولد بمكة صفر 883 {cite:shadharat-dhahab p. 689}", sources: [source/shadharat-dhahab] }
+died: { edtf: "1541-07-21~", hijri: "0948-04-10", calendar: julian, precision: day, status: tradition, derived: true, note: "توفي بجدة ظهر السبت 10 ربيع الثاني وحُمل إلى مكة {cite:shadharat-dhahab p. 689}", sources: [source/shadharat-dhahab] }
+provenance:
+  layer: own-research
+  source: "شذرات الذهب — ابن العماد (ط مكتبة المثنى 1351، ج8، سنة 948)، قراءة آبل فيجن"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-shadharat-batch-146
+sources: [source/shadharat-dhahab]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

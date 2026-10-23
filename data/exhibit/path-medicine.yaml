@@ -1,0 +1,67 @@
+id: exhibit/path-medicine
+class: exhibit
+kind: trail
+label:
+  ar: الطب عند المسلمين
+  en: Medicine in Islam
+summary:
+  ar: 'مسار في طب الأمة: البيمارستان، والرازي، وابن سينا، والجراحة الأندلسية.'
+  en: A trail through the community's medicine.
+audience:
+- newcomer
+- student
+duration_minutes: 30
+wings: []
+regions:
+- global
+rooms:
+- title:
+    ar: البيمارستان
+    en: The bimaristan
+  body:
+    ar: 'مستشفى عام لكل مريض: فكرة إسلامية أولى.'
+    en: 'مستشفى عام لكل مريض: فكرة إسلامية أولى.'
+  features:
+  - building/qalawun-complex
+  - place/cairo
+- title:
+    ar: الرازي
+    en: Al-Razi
+  body:
+    ar: 'رئيس بيمارستان بغداد: الحاوي في مئتي جزء.'
+    en: 'رئيس بيمارستان بغداد: الحاوي في مئتي جزء.'
+  features:
+  - person/al-razi-abu-bakr
+  - place/baghdad
+- title:
+    ar: ابن سينا
+    en: Ibn Sina
+  body:
+    ar: 'القانون في الطب: مرجع الغرب حتى النهضة.'
+    en: 'القانون في الطب: مرجع الغرب حتى النهضة.'
+  features:
+  - person/ibn-sina
+  - place/bukhara
+- title:
+    ar: الجراحة
+    en: Surgery
+  body:
+    ar: 'الزهراوي في قرطبة: أطلس العمليات.'
+    en: 'الزهراوي في قرطبة: أطلس العمليات.'
+  features:
+  - place/cordoba
+  - question/what-was-the-golden-age
+prerequisites:
+- exhibit/path-islam-in-30-minutes
+sources:
+- source/wikidata
+provenance:
+  layer: own-research
+  source: Devin-assembled trail from existing museum entities
+  generated_by: Devin (SWE-2 High)
+  model: SWE-2 High
+  run: pathways-batch-6
+status:
+  review: draft
+  completeness: 1
+  generated_by: Devin (SWE-2 High), pathways lane, 2026-10-16

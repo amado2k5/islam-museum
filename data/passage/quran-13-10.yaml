@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 13:10 (سورة الرعد، الآية 10)."
 text: "سَوَآءٌ مِّنكُم مَّنْ أَسَرَّ ٱلْقَوْلَ وَمَن جَهَرَ بِهِۦ وَمَنْ هُوَ مُسْتَخْفٍۭ بِٱلَّيْلِ وَسَارِبٌۢ بِٱلنَّهَارِ"
 text_search: "سواء منكم من أسر القول ومن جهر به ومن هو مستخف بالليل وسارب بالنهار"
+translations:
+  en: { text: "Alike of you is he who hideth the saying and he who noiseth it abroad, he who lurketh in the night and he who goeth freely in the daytime.", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "کوئی تم میں سے چپکے سے بات کہے یا پکار کر یا رات کو کہیں چھپ جائے یا دن کی روشنی میں کھلم کھلا چلے پھرے (اس کے نزدیک) برابر ہے", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-13 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

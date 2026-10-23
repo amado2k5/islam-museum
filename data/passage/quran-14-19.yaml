@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 14:19 (سورة إبراهيم، الآية 19)."
 text: "أَلَمْ تَرَ أَنَّ ٱللَّهَ خَلَقَ ٱلسَّمَـٰوَٰتِ وَٱلْأَرْضَ بِٱلْحَقِّ ۚ إِن يَشَأْ يُذْهِبْكُمْ وَيَأْتِ بِخَلْقٍ جَدِيدٍ"
 text_search: "ألم تر أن الله خلق السماوات والأرض بالحق ۚ إن يشأ يذهبكم ويأت بخلق جديد"
+translations:
+  en: { text: "Hast thou not seen that Allah hath created the heavens and the earth with truth? If He will, He can remove you and bring (in) some new creation;", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "کیا تم نے نہیں دیکھا کہ خدا نے آسمانوں اور زمین کو تدبیر سے پیدا کیا ہے۔ اگر وہ چاہے تو تم کو نابود کر دے اور (تمہاری جگہ) نئی مخلوق پیدا کر دے", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-14 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

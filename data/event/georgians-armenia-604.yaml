@@ -1,0 +1,22 @@
+id: event/georgians-armenia-604
+class: event
+kind: raid
+label: { ar: "نهب الكرج أرمينية", en: "Georgians plunder Armenia from the Khilat side" }
+date:
+  start: { edtf: "1207~", hijri: "0604", calendar: julian, precision: "year", status: tradition, derived: true }
+summary:
+  ar: "قصدت الكرج في جموعها ولاية خلاط من أرمينية فنهبوا وقتلوا وأسروا {cite:kamil-ibn-al-athir p. 320}."
+  en: "The Georgians came in force into the Khilat region of Armenia, plundering, killing and taking captives {cite:kamil-ibn-al-athir p. 320}."
+sides:
+  - label: { ar: "جموع الكرج" }
+  - label: { ar: "أهل نواحي خلاط" }
+relations:
+  - { type: occurred_at, target: place/khilat, sources: [source/kamil-ibn-al-athir] }
+  - { type: had_participant, target: group/georgians, role: "الغازون", sources: [source/kamil-ibn-al-athir] }
+provenance:
+  layer: own-research
+  source: "الكامل في التاريخ لابن الأثير، قراءة آبل فيجن"
+  generated_by: "Devin (SWE-2 Medium) from Apple Vision OCR"
+  run: lib-kamil-v12-batch05
+sources: [source/kamil-ibn-al-athir]
+status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 Medium)" }

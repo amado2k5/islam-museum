@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 64:14 (سورة التغابن، الآية 14)."
 text: "يَـٰٓأَيُّهَا ٱلَّذِينَ ءَامَنُوٓا۟ إِنَّ مِنْ أَزْوَٰجِكُمْ وَأَوْلَـٰدِكُمْ عَدُوًّا لَّكُمْ فَٱحْذَرُوهُمْ ۚ وَإِن تَعْفُوا۟ وَتَصْفَحُوا۟ وَتَغْفِرُوا۟ فَإِنَّ ٱللَّهَ غَفُورٌ رَّحِيمٌ"
 text_search: "يا أيها الذين آمنوا إن من أزواجكم وأولادكم عدوا لكم فاحذروهم ۚ وإن تعفوا وتصفحوا وتغفروا فإن الله غفور رحيم"
+translations:
+  en: { text: "O ye who believe! Lo! among your wives and your children there are enemies for you, therefor beware of them. And if ye efface and overlook and forgive, then lo! Allah is Forgiving, Merciful.", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "مومنو! تمہاری عورتیں اور اولاد میں سے بعض تمہارے دشمن (بھی) ہیں سو ان سے بچتے رہو۔ اور اگر معاف کردو اور درگزر کرو اور بخش دو تو خدا بھی بخشنے والا مہربان ہے", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-64 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 24:33 (سورة النور، الآية 33)."
 text: "وَلْيَسْتَعْفِفِ ٱلَّذِينَ لَا يَجِدُونَ نِكَاحًا حَتَّىٰ يُغْنِيَهُمُ ٱللَّهُ مِن فَضْلِهِۦ ۗ وَٱلَّذِينَ يَبْتَغُونَ ٱلْكِتَـٰبَ مِمَّا مَلَكَتْ أَيْمَـٰنُكُمْ فَكَاتِبُوهُمْ إِنْ عَلِمْتُمْ فِيهِمْ خَيْرًا ۖ وَءَاتُوهُم مِّن مَّالِ ٱللَّهِ ٱلَّذِىٓ ءَاتَىٰكُمْ ۚ وَلَا تُكْرِهُوا۟ فَتَيَـٰتِكُمْ عَلَى ٱلْبِغَآءِ إِنْ أَرَدْنَ تَحَصُّنًا لِّتَبْتَغُوا۟ عَرَضَ ٱلْحَيَوٰةِ ٱلدُّنْيَا ۚ وَمَن يُكْرِههُّنَّ فَإِنَّ ٱللَّهَ مِنۢ بَعْدِ إِكْرَٰهِهِنَّ غَفُورٌ رَّحِيمٌ"
 text_search: "وليستعفف الذين لا يجدون نكاحا حتى يغنيهم الله من فضله ۗ والذين يبتغون الكتاب مما ملكت أيمانكم فكاتبوهم إن علمتم فيهم خيرا ۖ وآتوهم من مال الله الذي آتاكم ۚ ولا تكرهوا فتياتكم على البغاء إن أردن تحصنا لتبتغوا عرض الحياة الدنيا ۚ ومن يكرههن فإن الله من بعد إكراههن غفور رحيم"
+translations:
+  en: { text: "And let those who cannot find a match keep chaste till Allah give them independence by His grace. And such of your slaves as seek a writing (of emancipation), write it for them if ye are aware of aught of good in them, and bestow upon them of the wealth of Allah which He hath bestowed upon you. Force not your slave-girls to whoredom that ye may seek enjoyment of the life of the world, if they would preserve their chastity. And if one force them, then (unto them), after their compulsion, lo! Allah will be Forgiving, Merciful.", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "اور جن کو بیاہ کا مقدور نہ ہو وہ پاک دامنی کو اختیار کئے رہیں یہاں تک کہ خدا ان کو اپنے فضل سے غنی کردے۔ اور جو غلام تم سے مکاتبت چاہیں اگر تم ان میں (صلاحیت اور) نیکی پاؤ تو ان سے مکاتبت کرلو۔ اور خدا نے جو مال تم کو بخشا ہے اس میں سے ان کو بھی دو۔ اور اپنی لونڈیوں کو اگر وہ پاک دامن رہنا چاہیں تو (بےشرمی سے) دنیاوی زندگی کے فوائد حاصل کرنے کے لئے بدکاری پر مجبور نہ کرنا۔ اور جو ان کو مجبور کرے گا تو ان (بیچاریوں) کے مجبور کئے جانے کے بعد خدا بخشنے والا مہربان ہے", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-24 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

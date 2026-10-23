@@ -1,0 +1,141 @@
+---
+// Hijri calendar app (docs/plan/06 Phase 2): a browsable Hijri month with the
+// Gregorian twin of every day, the year's observances linked to their museum
+// pages, a two-way converter and an .ics download. Conversion runs in the
+// browser through the same tested functions as scripts/hijri/convert.ts
+// (Umm al-Qura 1318–1500 AH, tabular otherwise). Without JavaScript the current
+// month, today's date and the observance list stay readable.
+import BaseLayout from "../../../layouts/BaseLayout.astro";
+import { ui, LANGS, type Lang } from "../../../lib/i18n";
+import { href } from "../../../lib/graph";
+import { civilToHijri, hijriToCivil, toJDN, tabularToJDN, fmt, type YMD } from "../../../../../scripts/hijri/convert";
+
+export function getStaticPaths() { return LANGS.map((lang) => ({ params: { lang }, props: { lang } })); }
+const { lang } = Astro.props as { lang: Lang };
+const T = ui(lang);
+const C = T.calendar;
+
+const range = (a: number, b: number) => Array.from({ length: b - a + 1 }, (_, k) => a + k);
+// the year's observances; each links to its museum page where one exists
+const OBS: { m: number; days: number[]; key: string; link?: string }[] = [
+  { m: 1, days: [1], key: "new_year", link: "concept/hijri-calendar" },
+  { m: 1, days: [9, 10], key: "ashura", link: "practice/sawm-ashura" },
+  { m: 3, days: [12], key: "mawlid", link: "practice/mawlid-al-nabi" },
+  { m: 7, days: [27], key: "isra", link: "event/isra-and-miraj" },
+  { m: 8, days: [15], key: "mid_shaban" },
+  { m: 9, days: range(1, 30), key: "ramadan", link: "practice/sawm-ramadan" },
+  { m: 9, days: [21, 23, 25, 27, 29], key: "qadr", link: "practice/laylat-al-qadr" },
+  { m: 10, days: [1, 2, 3], key: "eid_fitr", link: "practice/eid-al-fitr" },
+  { m: 12, days: range(8, 13), key: "hajj", link: "practice/hajj" },
+  { m: 12, days: [9], key: "arafah", link: "practice/hajj" },
+  { m: 12, days: [10, 11, 12, 13], key: "eid_adha", link: "practice/eid-al-adha" },
+];
+const obsFor = (m: number, d: number) => OBS.filter((o) => o.m === m && o.days.includes(d));
+
+// Julian Day Number of a Hijri date: Umm al-Qura where in range, tabular otherwise
+const hijriJDN = (y: number, m: number, d: number): number => {
+  if (y >= 1318 && y <= 1500) {
+    const c = hijriToCivil({ y, m, d });
+    return toJDN(c.calendar, c.date);
+  }
+  return tabularToJDN({ y, m, d });
+};
+const monthLen = (y: number, m: number) => {
+  const [ny, nm] = m === 12 ? [y + 1, 1] : [y, m + 1];
+  return hijriJDN(ny, nm, 1) - hijriJDN(y, m, 1);
+};
+
+const now = new Date();
+const today: YMD = { y: now.getFullYear(), m: now.getMonth() + 1, d: now.getDate() };
+const todayH = civilToHijri("gregorian", today);
+const fmtD = (g: YMD) => `${g.y}-${String(g.m).padStart(2, "0")}-${String(g.d).padStart(2, "0")}`;
+const gregDay = (y: number, m: number, d: number) => { const c = hijriToCivil({ y, m, d }); return c.calendar === "julian" ? `${fmtD(c.date)} Julian` : fmtD(c.date); };
+const wdOf = (jdn: number) => { const a = (jdn + 1) % 7; return a < 0 ? a + 7 : a; }; // JDN+1 mod 7: 0=Sunday
+
+// static grid for the current Hijri month (the no-JS view)
+const cur = { y: todayH.date.y, m: todayH.date.m };
+const curLen = monthLen(cur.y, cur.m);
+const curStart = wdOf(hijriJDN(cur.y, cur.m, 1));
+const curObs = OBS.filter((o) => o.m === cur.m);
+
+const payload = {
+  months: C.months, weekdays: C.weekday_names,
+  obs: OBS.map((o) => ({ ...o, label: C.obs[o.key], href: o.link ? href(lang, o.link) : undefined })),
+  today: { h: todayH.date, g: today },
+  t: { prev: C.prev_month, next: C.next_month, today: C.today, approx: C.approx, umalqura: C.umalqura, observances: C.observances, obs_none: C.obs_none, jump: C.jump },
+};
+---
+<BaseLayout lang={lang} title={C.title} description={C.lede} path={`/${lang}/calendar/`}>
+  <div class="wrap" style="padding-block:10px 20px">
+    <h1>{C.title}</h1>
+    <p style="font-size:1.15rem;max-width:var(--measure)">{C.lede}</p>
+
+    <section class="cal panel" data-cal aria-label={C.title} style="max-width:var(--measure)">
+      <div class="cal-head no-print">
+        <button type="button" class="cal-nav" data-prev aria-label={C.prev_month}>‹</button>
+        <h2 class="cal-title" data-title>{C.months[cur.m - 1]} {cur.y}</h2>
+        <button type="button" class="cal-nav" data-next aria-label={C.next_month}>›</button>
+      </div>
+      <p class="ui muted cal-range" data-range>{gregDay(cur.y, cur.m, 1)} — {gregDay(cur.y, cur.m, curLen)}{todayH.method === "umalqura" ? ` · ${C.umalqura}` : ` · ${C.approx}`}</p>
+      <div class="cal-grid" data-grid>
+        {C.weekday_names.map((w: string) => <span class="cal-wd ui">{w}</span>)}
+        {Array.from({ length: curStart }, () => <span class="cal-blank" aria-hidden="true" />)}
+        {Array.from({ length: curLen }, (_, k) => {
+          const d = k + 1;
+          const obs = obsFor(cur.m, d);
+          const isToday = d === todayH.date.d && cur.y === todayH.date.y && cur.m === todayH.date.m;
+          return (
+            <button type="button" class:list={["cal-day", { "cal-today": isToday, "cal-marked": obs.length > 0 }]} data-day={d} title={obs.map((o) => C.obs[o.key]).join(" · ")}>
+              <span class="cal-h">{d}</span>
+              <span class="cal-g">{(() => { const c = hijriToCivil({ y: cur.y, m: cur.m, d }); return c.calendar === "gregorian" ? `${c.date.d}/${c.date.m}` : ""; })()}</span>
+            </button>
+          );
+        })}
+      </div>
+      <p class="ui cal-detail" data-detail>{C.is_today} {todayH.date.d} {C.months[todayH.date.m - 1]} {todayH.date.y} = {fmt(today)}</p>
+      <div class="cal-obs" data-obslist>
+        {curObs.length > 0 ? curObs.map((o) => (
+          o.link ? <a class="chip" href={href(lang, o.link)}>{C.obs[o.key]} · {o.days.length > 1 ? `${o.days[0]}–${o.days[o.days.length - 1]}` : o.days[0]}</a>
+                 : <span class="chip">{C.obs[o.key]} · {o.days.length > 1 ? `${o.days[0]}–${o.days[o.days.length - 1]}` : o.days[0]}</span>
+        )) : <p class="ui muted">{C.obs_none}</p>}
+      </div>
+      <div class="cal-tools no-print">
+        <button type="button" class="chip" data-today>{C.today}</button>
+        <button type="button" class="chip" data-ics>{C.download_ics}</button>
+        <span class="cal-jump ui">
+          <input type="number" data-jy min="1" max="2000" value={cur.y} style="width:5.5em" aria-label="Hijri year" />
+          <select data-jm aria-label="Hijri month">{C.months.map((mn: string, i: number) => <option value={i + 1} selected={i + 1 === cur.m}>{mn}</option>)}</select>
+          <button type="button" class="chip" data-jump>{C.jump}</button>
+        </span>
+        <span class="cal-conv ui">
+          <label>{C.convert_to_hijri} <input type="date" data-conv /></label>
+          <span data-convout class="cal-convout"></span>
+        </span>
+      </div>
+      <script type="application/json" set:html={JSON.stringify(payload)} />
+    </section>
+    <script src="../../../scripts/hijri-calendar.ts"></script>
+  </div>
+  <style>
+    .cal { padding: 18px; }
+    .cal-head { display: flex; align-items: center; justify-content: space-between; gap: 10px; }
+    .cal-title { margin: 0; font-size: 1.2rem; }
+    .cal-nav { font-size: 1.4rem; background: var(--bg); color: var(--fg); border: 1px solid var(--gold); border-radius: 50%; width: 40px; height: 40px; cursor: pointer; line-height: 1; }
+    .cal-range { font-size: .85rem; margin: 4px 0 10px; }
+    .cal-grid { display: grid; grid-template-columns: repeat(7, 1fr); gap: 4px; }
+    .cal-wd { text-align: center; font-size: .75rem; color: var(--muted); padding: 4px 0; }
+    .cal-blank { min-height: 2.8em; }
+    .cal-day { display: flex; flex-direction: column; align-items: center; justify-content: center; min-height: 2.8em; border: 1px solid color-mix(in srgb, var(--gold) 20%, transparent); border-radius: 8px; background: var(--bg); color: var(--fg); cursor: pointer; padding: 2px; }
+    .cal-day:hover { border-color: var(--gold); }
+    .cal-h { font-weight: 700; font-size: 1rem; }
+    .cal-g { font-size: .65rem; color: var(--muted); font-family: var(--sans); }
+    .cal-today { border-color: var(--gold); border-width: 2px; background: color-mix(in srgb, var(--gold) 12%, var(--bg)); }
+    .cal-marked { border-bottom: 3px solid var(--gold); }
+    .cal-detail { margin: 12px 0 6px; font-size: .95rem; }
+    .cal-obs { display: flex; flex-wrap: wrap; gap: 6px; margin: 6px 0 12px; }
+    .cal-tools { display: flex; flex-wrap: wrap; align-items: center; gap: 10px 16px; border-top: 1px solid color-mix(in srgb, var(--gold) 30%, transparent); padding-top: 12px; font-size: .9rem; }
+    .cal-jump, .cal-conv { display: inline-flex; align-items: center; gap: 6px; }
+    .cal-convout { font-weight: 700; }
+    .cal-grid button.cal-day[hidden] { display: none; }
+  </style>
+</BaseLayout>

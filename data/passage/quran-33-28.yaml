@@ -12,10 +12,13 @@ summary:
   ar: "القرآن 33:28 (سورة الأحزاب، الآية 28)."
 text: "يَـٰٓأَيُّهَا ٱلنَّبِىُّ قُل لِّأَزْوَٰجِكَ إِن كُنتُنَّ تُرِدْنَ ٱلْحَيَوٰةَ ٱلدُّنْيَا وَزِينَتَهَا فَتَعَالَيْنَ أُمَتِّعْكُنَّ وَأُسَرِّحْكُنَّ سَرَاحًا جَمِيلًا"
 text_search: "يا أيها النبي قل لأزواجك إن كنتن تردن الحياة الدنيا وزينتها فتعالين أمتعكن وأسرحكن سراحا جميلا"
+translations:
+  en: { text: "O Prophet! Say unto thy wives: If ye desire the world's life and its adornment, come! I will content you and will release you with a fair release.", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "اے پیغمبر اپنی بیویوں سے کہہ دو کہ اگر تم دنیا کی زندگی اور اس کی زینت وآرائش کی خواستگار ہو تو آؤ میں تمہیں کچھ مال دوں اور اچھی طرح سے رخصت کردوں", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: revealed_about, target: event/the-choice-of-the-prophets-wives }
   - { type: part_of, target: passage/quran-33 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

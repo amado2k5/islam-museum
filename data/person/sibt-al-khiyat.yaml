@@ -1,0 +1,39 @@
+id: person/sibt-al-khiyat
+class: person
+label: { ar: "سبط الخياط" }
+names:
+  - { value: "أبو محمد عبد الله بن علي سبط الخياط البغدادي المقرئ الفقيه الحنبلي النحوي", kind: full }
+summary:
+  ar: "سبط الخياط أبو محمد عبد الله بن علي البغدادي المقرئ الفقيه الحنبلي النحوي شيخ المقرئين بالعراق وصاحب التصانيف؛ ولد سنة أربع وستين وأربعمائة وقرأ القرآن على جده الزاهد أبي منصور وبرع في العربية على ابن فاخر وأمّ بمسجد حردة بضعاً وخمسين سنة وكان من أندى الناس صوتاً بالقرآن؛ قال ابن الجوزي لم أسمع قارئاً قط أطيب صوتاً منه ولا أحسن أداءً على كبر سنه، وقال ابن شافع كان شيخ العراق رجع إلى دين وثقة وأمانة وكان جمال العراق بأسره؛ توفي بكرة الاثنين ثاني عشر ربيع الآخر فحُط تابوته بالحبال من سطح مسجده وما رأى ابن الجوزي جمعاً أكثر من جمعه ودفن في دكة الإمام أحمد عند جده {cite:shadharat-dhahab p. 609-610}."
+  en: "Sibt al-Khiyat, Abu Muhammad Abdallah ibn Ali of Baghdad — shaykh of Iraq's Qur'an readers, Hanbali jurist and grammarian; b. 464, he led prayer at the Harida mosque for fifty-odd years and was among the sweetest-voiced reciters; Ibn al-Jawzi heard none finer, Ibn Shafi' calls him 'the shaykh of Iraq' and 'the beauty of all Iraq'; d. Monday morning 12 Rabi' II, his coffin lowered by ropes from the mosque roof before an uncountable funeral crowd, buried in Imam Ahmad's dakka beside his grandfather {cite:shadharat-dhahab p. 609-610}."
+gender: male
+wings: [people]
+roles: [scholar, teacher]
+periods: [period/buyid-seljuk-fatimid-era]
+regions: [levant-iraq]
+born:
+  edtf: "1071~"
+  hijri: "0464"
+  calendar: julian
+  precision: year
+  status: tradition
+  derived: true
+  note: "ولد سنة أربع وستين وأربعمائة {cite:shadharat-dhahab p. 609}؛ التحويل مشتق."
+died:
+  edtf: "1147-08~"
+  hijri: "0542-04"
+  calendar: julian
+  precision: day
+  status: tradition
+  derived: true
+  note: "توفي بكرة الاثنين ثاني عشر ربيع الآخر سنة اثنتين وأربعين وخمسمائة {cite:shadharat-dhahab p. 610}؛ التحويل مشتق."
+relations:
+  - { type: teacher_of, target: person/ibn-al-jawzi, sources: [source/shadharat-dhahab] }
+  - { type: died_in, target: place/baghdad, sources: [source/shadharat-dhahab] }
+provenance:
+  layer: own-research
+  source: "شذرات الذهب لابن العماد — الجزء الرابع، ممسوح مكتبة الحصاد (AAlexandrina-223861)، قراءة آبل فيجن"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-shadharat-batch-116
+sources: [source/shadharat-dhahab]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

@@ -1,0 +1,23 @@
+id: event/siege-of-rometta-963
+class: event
+kind: siege
+label: { ar: "حصار روميتا (٩٦٣)", en: "Siege of Rometta" }
+summary:
+  ar: "بطاقة أولية لحصار روميتا سنة ٩٦٣م، إتمام الفاطميين لفتح صقلية بسقوط آخر حصون البيزنطيين؛ لم تُراجع مصادره على الصفحة بعد."
+  en: "Draft card for the Siege of Rometta in 963, the Fatimid completion of Sicily's conquest with the last Byzantine fort's fall; its sources are not yet checked on the page."
+wings: [time]
+periods: [period/buyid-seljuk-fatimid-era]
+regions: [maghreb]
+date:
+  start: { edtf: "963", precision: year, status: tradition, derived: true }
+  end: { edtf: "963", precision: year, status: tradition, derived: true }
+sources: [source/kamil-ibn-al-athir]
+external_ids:
+  wikidata: Q41374161
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; siege attested in Fatimid histories — entry not yet checked on the page"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-wave2
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

@@ -1,26 +1,23 @@
 ---
 id: person/uthman-ibn-affan
 lang: en
-source_lang: en
-translators: []
+source_lang: ar
+translators: ["Claude Haiku 5.5 (claude-haiku-5-5), draft translation"]
 ---
 
-## Brief
-Uthman ibn Affan was the third caliph (644–656 CE). Twice the Prophet's son-in-law, he ordered the single standard recension of the Qur'an — and died besieged by rebels in his own house in Medina.
+## Overview
+Uthman ibn Affan was the third of the Rightly Guided Caliphs (644–656 CE). He married two daughters of the Prophet one after the other, ordered an authoritative codex of the Qur'an, and died under siege in his house in Medina at the hands of rebels.
 
 ## Life
-Of the wealthy [[group/banu-umayya|Banu Umayya]] clan, Uthman was among the earliest converts, brought in by [[person/abu-bakr|Abu Bakr]] {cite:ibn-sad-tabaqat-bewley}. He married two daughters of the Prophet in succession — Ruqayya, then Umm Kulthum — whence the tradition's title, "Possessor of the Two Lights." He migrated with [[event/hijra]] and served as envoy at [[event/treaty-of-hudaybiyya]] {cite:ibn-ishaq-guillaume}.
+Uthman was one of the wealthy men of the [[group/banu-umayya|Banu Umayya]], and he was among the first to become Muslim through [[person/abu-bakr|Abu Bakr]]. {cite:ibn-sad-tabaqat-bewley} He married two daughters of the Prophet one after the other, Ruqayya and then Umm Kulthum, and so he was called “Dhu al-Nurayn” (the Possessor of Two Lights). He emigrated during the [[event/hijra|Hijra]], and he was the envoy of the Muslims to Mecca at [[event/treaty-of-hudaybiyya|Hudaybiyya]]. {cite:ibn-ishaq-guillaume}.
 
-Elected by the committee Umar appointed, he ruled twelve years. Under him the conquest continued into Armenia and North Africa, and — his lasting act — a committee under [[person/zayd-ibn-thabit|Zayd ibn Thabit]] produced one written recension of the Qur'an, sent to the garrison cities {cite:ibn-sad-tabaqat-bewley}. In his later years grievances grew over appointments of his kinsmen and fiscal policy; in June 656 rebel contingents from Egypt and Iraq besieged and killed him in Medina — the event that opened the first civil war {cite:watt-1956-medina}.
-
-:::perspectives
-- **Sunni**: Sunni tradition venerates Uthman as the third rightly-guided caliph: modest and generous, the preserver of the Qur'an's text, and a martyr killed unjustly {cite:ibn-sad-tabaqat-bewley}.
-- **Academic**: Historians record both the standardization of the Qur'an and the grievances — appointments of kinsmen, fiscal policy — that fed the revolt; the early sources are partisan {cite:watt-1956-medina}.
-- **Twelver Shia**: Twelver Shia tradition is critical of his caliphate, seeing in it the entrenchment of the Umayyads and a further sidelining of the Prophet's household {cite:momen-1985}.
-:::
+The shura council that Umar appointed chose him, and he ruled for twelve years. During his rule the conquests extended to Armenia and North Africa. In the most lasting part of his work, a committee headed by [[person/zayd-ibn-thabit|Zayd ibn Thabit]] produced the authoritative codex, and copies were sent to the regional capitals. {cite:ibn-sad-tabaqat-bewley}. In his last years, complaints grew about the appointment of his relatives and about his financial policy. In June 656 CE, groups of rebels from Egypt and Iraq besieged him and killed him in Medina, and with this the First Civil War began. {cite:watt-1956-medina}.
 
 ## Legacy
-Every copy of the Qur'an opened today descends from the recension his committee set. Every debate about where a caliph's duty ends and his family's claim begins runs through his murder.
+Every Qur'an codex opened today goes back to the script established by his committee. Every argument about the limits of the caliph's duty and the rights of his subjects passes through his killing.
 
 ## For young visitors
-Uthman gathered all the scattered pages of the Qur'an and had them made into one official book — the book Muslims still read. His death started the community's first civil war.
+Uthman gathered the scattered pages of the Qur'an into a single authoritative book, which Muslims read today. His killing began the first civil war in the community.
+
+## In the secret call (The Sealed Nectar p.76)
+The book counts him among those who became Muslim through [[person/abu-bakr|Abu Bakr]] during the years of the [[event/al-dawa-al-sirriyya|secret call]], one of the eight who went before the people and formed the first vanguard and the front line of Islam. {cite:mubarakpuri-raheeq p.76} {cite:ibn-hisham-sira 1/245-262}. The book refers to him by his Umayyad lineage. {cite:mubarakpuri-raheeq p.76}.

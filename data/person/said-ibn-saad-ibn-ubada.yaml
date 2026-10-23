@@ -1,0 +1,20 @@
+id: person/said-ibn-saad-ibn-ubada
+class: person
+label: { ar: "سعيد بن سعد بن عبادة الأنصاري", en: "Said ibn Sa'd ibn Ubada al-Ansari" }
+gender: male
+roles: [emir]
+summary:
+  ar: "أنصاري ذكره الصلابي في قائمة ولاة علي واليا على «الجند» {cite:sallabi-ali-vol1 p. 358}. ولم يحدد الكتاب في هذا الموضع أي جند يعني، ولا تاريخ ولايته."
+  en: "An Ansari whom the book lists as Ali's governor of al-Jund {cite:sallabi-ali-vol1 p. 358}. The passage does not say which jund is meant, nor give the dates of his office."
+periods: [period/rashidun]
+wings: [people]
+relations:
+  - { type: ruler_of, target: place/al-jund, sources: [source/sallabi-ali-vol1] }
+sources: [source/sallabi-ali-vol1]
+provenance:
+  layer: own-research
+  source: "sallabi-ali-vol1 p. 358, governors list (harvest OCR)"
+  generated_by: "Claude Code"
+  model: "claude-haiku-5-5"
+  run: "sallabi-ali-vol1-deep-pp351-388"
+status: { review: draft, completeness: 1, generated_by: "Claude Code (claude-haiku-5-5); from the book's list only" }

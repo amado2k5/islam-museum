@@ -1,0 +1,18 @@
+id: person/ali-ibn-sulayman-ibn-ali
+class: person
+label: { ar: "علي بن سليمان بن علي", en: "Ali ibn Sulayman ibn Ali" }
+summary:
+  ar: "علي بن سليمان بن علي بن عبد الله بن العباس؛ عند البلاذري: كان على الجزيرة وقنسرين فأنشأ مدينة الحدث بلبن فسُمّيت المحمدية وتوفي المهدي مع فراغهم من بنائها سنة 169 فهي المهدية والحمدية — وقال أبو الخطاب فرض بها لأربعة آلاف فأسكنهم إياها ونقل إليها من ملطية وشمشاط وسميساط وكيسوم ودلوك ورعبان ألفي رجل — وكان قد قدم على الجزيرة والياً قبل ذلك فنقل أسواق الرقة إلى الفضاء الذي بينها وبين الرافقة، وعزله موسى الهادي وولّى مكانه محمد بن إبراهيم."
+  en: "Ali ibn Sulayman ibn Ali ibn Abdallah ibn al-Abbas; in al-Baladhuri: while over the Jazira and Qinnasrin he founded Madinat al-Hadath in mud brick — named al-Muhammadiyya — and al-Mahdi died just at its completion in year 169, whence it is also al-Mahdiyya and al-Hamadiyya; Abu al-Khattab says he levied four thousand for it, settled them in it and transferred two thousand men from Malatya, Shimshat, Sumaysat, Kaysum, Duluk and Ra'ban; earlier, as governor of the Jazira, he had moved al-Raqqa's markets into the open space between it and al-Rafiqa; Musa al-Hadi removed him, appointing Muhammad ibn Ibrahim in his place."
+wings: [people]
+periods: [period/abbasid-early]
+relations:
+  - { type: participated_in, target: event/founding-of-al-hadath, role: "منشئها", sources: [source/futuh-buldan-maarif-1407] }
+  - { type: participated_in, target: event/founding-of-rafiqa, role: "ناقل أسواق الرقة إلى الفضاء بين المدينتين", sources: [source/futuh-buldan-maarif-1407] }
+provenance:
+  layer: own-research
+  source: "فتوح البلدان (ط مؤسسة المعارف 1407هـ/1987م) ص 247، 268"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-futuh-buldan-batch-15
+sources: [source/futuh-buldan-maarif-1407]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

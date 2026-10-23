@@ -1,0 +1,37 @@
+id: person/al-samiri-ibn-sinina
+class: person
+label: { ar: "ابن سنينة السامري", en: "Ibn Sinina al-Samiri" }
+summary:
+  ar: "أبو عبد الله نصير الدين محمد بن عبد الله بن الحسين السامري الفقيه الفرضي الحنبلي المعروف بابن سنينة؛ قال ابن النجار ولد سنة خمس وثلاثين وخمسمائة بسامرا وسمع من ابن البطي وأبي حكيم النهرواني وغيرهما ببغداد وتفقه على أبي حكيم ولازمه وبرع في الفقه والفرائض وصنف فيهما تصانيف مشهورة منها «كتاب المستوعب في الفقه» و«كتاب الفروق» و«كتاب البيان في الفرائض»؛ وولي القضاء بسامرا وأعمالها مدة ثم ولي القضاء والحسبة ببغداد ثم عُزل عن القضاء وبقي على الحسبة ثم عُزل عنها وولي إشراف ديوان الزمام وعُزل أيضاً ولُقب في أيام ولاياته معظم الدين، ولما عُزل لزم بيته مدة ثم أُذن له بالعود إلى بلده فعاد إليها ثم رجع إلى بغداد في آخر عمره وبها توفي؛ توفي ليلة الثلاثاء سابع عشر رجب سنة ست عشرة وستمائة ودفن بمقبرة باب حرب {cite:shadharat-dhahab p. 70-71}."
+  en: "Abu Abdallah Nasir al-Din Muhammad ibn Abdallah ibn al-Husayn al-Samiri, the Hanbali jurist and expert in inheritance law, known as Ibn Sinina. Ibn al-Najjar said he was born at Samarra in 535 and heard from Ibn al-Batti, Abu Hakim al-Nahrawani and others at Baghdad. He studied fiqh under Abu Hakim, kept close to him, and excelled in fiqh and the furud, writing well-known works on both, among them al-Mustawab fi al-fiqh, Kitab al-Furuq and al-Bayan fi al-faraid. He served for a time as qadi of Samarra and its districts, then as qadi and muhtasib of Baghdad. He was dismissed from the qadiship and kept the hisba, was then dismissed from that too and put in charge of the Diwan al-Zimam, and was dismissed from that as well. During his terms of office he was given the title Mu'azzam al-Din. After his dismissal he kept to his house for a time, was then permitted to return to his town and went back, and at the end of his life returned to Baghdad, where he died. He died on the night of Tuesday 17 Rajab 616 and was buried in the cemetery of Bab Harb {cite:shadharat-dhahab p. 70-71}."
+gender: male
+wings: [people]
+periods: [period/crusades-ayyubid-mamluk]
+born:
+  edtf: "1140~"
+  hijri: "0535"
+  calendar: julian
+  precision: year
+  status: tradition
+  derived: true
+  note: "سنة 535هـ بسامرا؛ التحويل مشتق {cite:shadharat-dhahab p. 70}."
+died:
+  edtf: "1219~"
+  hijri: "0616-05-17"
+  calendar: julian
+  precision: day
+  status: tradition
+  derived: true
+  note: "ليلة الثلاثاء سابع عشر رجب 616هـ ودفن بمقبرة باب حرب؛ التحويل مشتق {cite:shadharat-dhahab p. 71}."
+relations:
+  - { type: born_in, target: place/samarra, sources: [source/shadharat-dhahab] }
+  - { type: lived_in, target: place/baghdad, sources: [source/shadharat-dhahab] }
+  - { type: died_in, target: place/baghdad, sources: [source/shadharat-dhahab] }
+  - { type: buried_in, target: place/baghdad, sources: [source/shadharat-dhahab] }
+provenance:
+  layer: own-research
+  source: "شذرات الذهب لابن العماد — الجزء الخامس، ممسوح مكتبة الحصاد (AAlexandrina-001518)، قراءة آبل فيجن"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-shadharat-batch-123
+sources: [source/shadharat-dhahab]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

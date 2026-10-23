@@ -1,0 +1,25 @@
+id: person/abu-numayy-ii-sharif-mecca
+class: person
+label: { ar: "أبو نمي الثاني شريف مكة", en: "Abu Numayy II, sharif of Mecca" }
+names:
+  - { kind: full, lang: ar, value: "أبو نمي محمد بن بركات الثاني بن محمد بن بركات بن حسن بن عجلان الحسني أمير مكة" }
+  - { kind: alternate, lang: ar, value: "أبو نمي الصغير" }
+gender: male
+roles: [emir]
+traditions: [sunni]
+wings: [people]
+themes: [politics-governance-and-authority]
+periods: [period/gunpowder-empires]
+regions: [arabia]
+summary:
+  ar: "الأمير أبو نمي محمد بن بركات الحسني أمير مكة؛ قال في النور السافر: استمر أميراً بمكة سنين كثيرة؛ ولد سنة عشر وتسعمائة، وشركة لأبيه قبل موته ثم استقل بعده، وعُزل بعد عام من سلطنة سليم وشاركه ابن عمه إدريس ثم عاد إلى أمرته على مكة إلى أن توفي يوم عاشوراء [م سنة 990 على ظاهر الكتاب، وتاريخياً 992]؛ قال النور: ما رأيت بمكة أميراً أفصح منه ولا أمهر ولا أفضل فصاحة ولا أحسن نظماً ولا أبقى نثراً ولا أعطف ألباً ولا أدنى صيتاً، فامتاز بمحاسن كثيرة؛ وأنشد ناظر الحرمين ابن المولوي وصفاً منه {cite:shadharat-dhahab p. 424-425}."
+  en: "Abu Numayy II Muhammad b. Barakat — sharif of Mecca, partner to his father then sole amir; briefly deposed after Selim's accession and shared with his cousin Idris before returning; al-Nur al-Safir praises him as Mecca's most eloquent and ablest amir; died 'Ashura (the book places it under 990; historically 992) {cite:shadharat-dhahab p. 424-425}."
+born: { edtf: "1504~", hijri: "0910", calendar: julian, precision: year, status: tradition, derived: true, note: "ولد سنة 910 {cite:shadharat-dhahab p. 424}", sources: [source/shadharat-dhahab] }
+died: { edtf: "1582-02-02~", hijri: "0990-01-10", calendar: julian, precision: day, status: tradition, derived: true, note: "توفي يوم عاشوراء؛ إيراده في أحداث سنة 990 والتاريخ المعروف 992 {cite:shadharat-dhahab p. 425}", sources: [source/shadharat-dhahab] }
+provenance:
+  layer: own-research
+  source: "شذرات الذهب — ابن العماد (ط مكتبة المثنى 1351، ج8، سنة 990، عن النور السافر)، قراءة آبل فيجن"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-shadharat-batch-148
+sources: [source/shadharat-dhahab]
+status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 High)" }

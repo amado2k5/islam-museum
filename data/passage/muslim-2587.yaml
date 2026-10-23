@@ -1,0 +1,15 @@
+id: passage/muslim-2587
+class: passage
+unit: hadith
+work: work/sahih-muslim
+ref: "2587"
+label: { ar: "مسلم 2587 — المستبان ما قالا فعلى البادي", en: "Muslim 2587 — Insults exchanged: the initiator bears them unless wronged" }
+text: "قال رسول الله: «المستبان ما قالا فعلى البادي ما لم يعتد»"
+summary:
+  ar: "رواية أبي هريرة في باب تحريم الكلام في كتاب البر من صحيح مسلم؛ قاعدة عدل صغيرة توزع إثم الشتيمة على بادئها ما لم يعتد الآخر."
+relations:
+  - { type: mentions, target: person/muhammad, sources: [source/sahih-muslim] }
+  - { type: mentions, target: person/abu-hurayra, sources: [source/sahih-muslim] }
+provenance: { layer: own-research, source: "صحيح مسلم، كتاب البر والصلة والآداب (طبعة دار التأصيل، الحديث ٢٦٧٠؛ ترقيم عبد الباقي المعروف 2587)، تصوير Apple Vision OCR", generated_by: "Devin (SWE-2 High) from Apple Vision OCR", run: "hadith-muslim-passages-3" }
+sources: [source/sahih-muslim]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High); matn excerpt at most 40 words checked against the scan" }

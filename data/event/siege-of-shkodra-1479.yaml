@@ -1,0 +1,23 @@
+id: event/siege-of-shkodra-1479
+class: event
+kind: siege
+label: { ar: "حصار إشقودرة", en: "Siege of Shkodra" }
+summary:
+  ar: "بطاقة أولية لحصار إشقودرة من ١٤٧٨ إلى ١٤٧٩م، أخذ محمد الفاتح للمدينة من البنادقة؛ لم تُراجع مصادره على الصفحة بعد."
+  en: "Draft card for the Siege of Shkodra in 1478–1479, Mehmed II's capture of the Venetian fortress; its sources are not yet checked on the page."
+wings: [time]
+periods: [period/crusades-ayyubid-mamluk]
+regions: [anatolia-balkans]
+date:
+  start: { edtf: "1478", precision: year, status: tradition, derived: true }
+  end: { edtf: "1479", precision: year, status: tradition, derived: true }
+sources: [source/dawlat-uthmaniyya-salabi]
+external_ids:
+  wikidata: Q7510403
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; battle attested in narrative histories — entry not yet checked on the page"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-wave2
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

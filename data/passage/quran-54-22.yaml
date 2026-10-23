@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 54:22 (سورة القمر، الآية 22)."
 text: "وَلَقَدْ يَسَّرْنَا ٱلْقُرْءَانَ لِلذِّكْرِ فَهَلْ مِن مُّدَّكِرٍ"
 text_search: "ولقد يسرنا القرآن للذكر فهل من مدكر"
+translations:
+  en: { text: "And in truth We have made the Qur'an easy to remember; but is there any that remembereth?", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "اور ہم نے قرآن کو سمجھنے کے لئے آسان کردیا ہے تو کوئی ہے کہ سوچے سمجھے؟", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-54 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

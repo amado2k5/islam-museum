@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 8:16 (سورة الأنفال، الآية 16)."
 text: "وَمَن يُوَلِّهِمْ يَوْمَئِذٍ دُبُرَهُۥٓ إِلَّا مُتَحَرِّفًا لِّقِتَالٍ أَوْ مُتَحَيِّزًا إِلَىٰ فِئَةٍ فَقَدْ بَآءَ بِغَضَبٍ مِّنَ ٱللَّهِ وَمَأْوَىٰهُ جَهَنَّمُ ۖ وَبِئْسَ ٱلْمَصِيرُ"
 text_search: "ومن يولهم يومئذ دبره إلا متحرفا لقتال أو متحيزا إلى فئة فقد باء بغضب من الله ومأواه جهنم ۖ وبئس المصير"
+translations:
+  en: { text: "Whoso on that day turneth his back to them, unless manoeuvring for battle or intent to join a company, he truly hath incurred wrath from Allah, and his habitation will be hell, a hapless journey's end.", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "اور جو شخص جنگ کے روز اس صورت کے سوا کہ لڑائی کے لیے کنارے کنارے چلے (یعنی حکمت عملی سے دشمن کو مارے) یا اپنی فوج میں جا ملنا چاہے۔ ان سے پیٹھ پھیرے گا تو (سمجھو کہ) وہ خدا کے غضب میں گرفتار ہوگیا اور اس کا ٹھکانا دوزخ ہے۔ اور وہ بہت ہی بری جگہ ہے", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-8 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

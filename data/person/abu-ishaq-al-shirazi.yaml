@@ -1,0 +1,71 @@
+id: person/abu-ishaq-al-shirazi
+class: person
+label:
+  ar: أبو إسحاق الشيرازي
+  en: Abu Ishaq al-Shirazi
+names:
+- kind: full
+  lang: ar
+  value: إبراهيم بن علي بن يوسف الفيروزآبادي الشيرازي، أبو إسحاق، جمال الدين
+gender: male
+roles:
+- scholar
+- jurist
+traditions:
+- sunni
+summary:
+  ar: فقيه شافعي وأصولي، صاحب «طبقات الفقهاء» و«المهذب»؛ وُلد بفيروزآباد سنة 393هـ، ودرس بفارس والبصرة ثم بغداد، وأصبح من كبار فقهاء الشافعية في عصره، وامتنع عن قضاء القضاة حين عرضه عليه الخليفة. وقرر لتدريس المدرسة النظامية ببغداد لما فرغت سنة 459هـ فاجتمع الناس فلم يحضر واختفى فدرس ابن الصباغ، ثم تلطفوا به حتى أجاب ودرس {cite:tarikh-khulafa-minhaj-1434 p. 645-646}. وفي فتنة الحنابلة والأشعرية مال إلى نصرة ابن القشيري وكتب إلى نظام الملك يشكو الحنابلة، ولما اشتدت الفتنة مضى إلى باب الطاق وأخذ في إعداد أهبة السفر فأنفذ إليه الخليفة من رده عن رأيه، وفي مجلس الصلح الذي عقده الوزير حضر فقال للشريف أبي جعفر «إنا ذاك الذي تعرف وهذه كتبي في أصول الفقه أقول فيها خلافاً للأشعرية» فقبل رأسه فأجابه الشريف «قد كان ما تقول، إلا أنك لما كنت فقيراً لم يظهر لنا ما في نفسك، فلما جاءك الأعوان والسلطان وخواجا بزوك أبديت ما كان مخفياً» {cite:muntazam-ibn-al-jawzi j.8 p.647-648}.
+  en: A Shafi'i jurist and usulist, author of Tabaqat al-fuqaha and al-Muhadhdhab; born at Firuzabad in 393 AH, studied in Fars, Basra and Baghdad, and became one of the leading Shafi'i jurists of his time;
+    he declined the chief qadiship when the caliph offered it.
+wings: [people]
+themes:
+- scripture-and-its-sciences
+- development-of-law-theology-institutions
+periods:
+- period/abbasid-fragmentation
+regions:
+- levant-iraq
+- persia-central-asia
+relations:
+- type: authored
+  target: work/tabaqat-fuqaha
+  sources:
+  - source/tabaqat-fuqaha-abbas-1981
+- type: lived_in
+  target: place/baghdad
+  sources:
+  - source/tabaqat-fuqaha-abbas-1981
+provenance:
+  layer: own-research
+  source: طبقات الفقهاء، تحقيق إحسان عباس، مقدمة المحقق ص 5–6 (نسخة محلية)
+  generated_by: Claude (Haiku 5.5)
+  run: lib-tabaqat-fuqaha-batch-1
+sources:
+- source/tabaqat-fuqaha-abbas-1981
+- source/tarikh-khulafa-minhaj-1434
+- source/shadharat-dhahab
+born:
+  hijri: "0393"
+  edtf: 1003~
+  calendar: julian
+  precision: year
+  status: tradition
+  derived: true
+  note: ولد بفيروزآباد سنة 393هـ، وفي اللباب سنة 373 وقيل 395؛ ترجح المقدمة 393. التحويل الميلادي مشتق.
+  sources:
+  - source/tabaqat-fuqaha-abbas-1981
+died:
+  hijri: '0476-06'
+  edtf: 1083~
+  calendar: julian
+  precision: month
+  status: tradition
+  derived: true
+  note: "توفي في العشرين من جمادى الآخرة سنة ست وسبعين وأربعمائة وله ثلاث وثمانون سنة {cite:shadharat-dhahab p. 350}."
+  sources:
+  - source/tabaqat-fuqaha-abbas-1981
+  - source/shadharat-dhahab
+status:
+  review: draft
+  completeness: 1
+  generated_by: Claude (Haiku 5.5); batch 1 from the editor's introduction

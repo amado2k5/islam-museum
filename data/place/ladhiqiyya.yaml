@@ -1,0 +1,19 @@
+id: place/ladhiqiyya
+class: place
+kind: city
+label: { ar: "اللاذقية", en: "al-Ladhiqiyya (Latakia)" }
+summary:
+  ar: "مدينة ساحلية من سواحل الشام؛ فتحها عبادة بن الصامت عنوة بمكيدة الحفائر إذ كان بها باب عظيم لا يفتحه الجماعة، فبنى بها المسلمون مسجداً جامعاً بأمره؛ وهدمها الروم في غارة بحرية سنة 100 وسبوا أهلها فأمر عمر بن عبد العزيز ببنائها وتحصينها فأتمها يزيد بن عبد الملك."
+  en: "A coastal city of Syria's seaboard; Ubada ibn al-Samit took it by force through the trench ruse — it had a great gate a host could not open — and the Muslims built a congregational mosque at his command; the Byzantines demolished it in a sea-raid in year 100 carrying off its people, and Umar ibn Abd al-Aziz ordered it rebuilt and fortified, Yazid ibn Abd al-Malik completing it."
+wings: [place]
+periods: [period/rashidun]
+regions: [levant-iraq]
+relations:
+  - { type: part_of, target: place/homs, note: "كانت من أعمال جند حمص", sources: [source/futuh-buldan-maarif-1407] }
+provenance:
+  layer: own-research
+  source: "فتوح البلدان (ط مؤسسة المعارف 1407هـ/1987م) ص 180–181"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-futuh-buldan-batch-9
+sources: [source/futuh-buldan-maarif-1407]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

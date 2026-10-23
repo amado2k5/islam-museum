@@ -1,0 +1,28 @@
+id: person/al-malik-al-said-baraka
+class: person
+label: { ar: "الملك السعيد بركة خان", en: "al-Malik al-Sa'id Baraka Khan" }
+names:
+  - { value: "السلطان الملك السعيد ناصر الدين أبو المعالي محمد بن الملك الظاهر بيبرس", kind: full }
+born: { edtf: "1260~", hijri: "0658~", calendar: julian, precision: year, status: tradition, derived: true, note: "ولد في حدود سنة ثمان وخمسين وستمائة بظاهر القاهرة {cite:shadharat-dhahab p. 632}." }
+died: { edtf: "1280-03~", hijri: "0678-11~", calendar: julian, precision: month, status: tradition, derived: true, note: "مات شبه الفجأة في نصف ذي القعدة سنة ثمان وسبعين بقلعة الكرك، ثم نقل بعد سنة ونصف إلى تربة والده {cite:shadharat-dhahab p. 632}." }
+summary:
+  ar: "ابن الملك الظاهر بيبرس؛ تملك بعد أبيه سنة ست وسبعين في صفر، وكان شاباً مليحاً كريماً حسن الطباع فيه عدل ولين وإحسان ومحبة للخير، وله ثمانية عشر عاماً. فخلعوه من الأمر فأقام بالكرك أشهراً، ومات شبه الفجأة في نصف ذي القعدة بقلعة الكرك، ثم نقل بعد سنة ونصف إلى تربة والده، وتملك بعده أخوه خضر {cite:shadharat-dhahab p. 632}."
+  en: "Baybars's son and heir at eighteen — 'fair, generous, sweet-natured, just and gentle'; deposed to Karak within months and dead suddenly there mid-Dhu al-Qa'da 678, carried a year and a half later into his father's turba; his brother Khidr followed {cite:shadharat-dhahab p. 632}."
+gender: male
+roles: [sultan]
+wings: [people]
+periods: [period/mongol-post-mongol]
+regions: [egypt-nile, levant-iraq]
+faith:
+  - value: sunni
+    basis: tradition
+relations:
+  - { type: child_of, target: person/baybars, sources: [source/shadharat-dhahab] }
+  - { type: successor_of, target: person/baybars, sources: [source/shadharat-dhahab] }
+sources: [source/shadharat-dhahab]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }
+provenance:
+  layer: own-research
+  source: "شذرات الذهب — ابن العماد (ج7، سنة 678)، قراءة آبل فيجن"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-shadharat-batch-133

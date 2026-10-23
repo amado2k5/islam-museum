@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 34:30 (سورة سبأ، الآية 30)."
 text: "قُل لَّكُم مِّيعَادُ يَوْمٍ لَّا تَسْتَـْٔخِرُونَ عَنْهُ سَاعَةً وَلَا تَسْتَقْدِمُونَ"
 text_search: "قل لكم ميعاد يوم لا تستأخرون عنه ساعة ولا تستقدمون"
+translations:
+  en: { text: "Say (O Muhammad): Yours is the promise of a Day which ye cannot postpone nor hasten by an hour.", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "کہہ دو کہ تم سے ایک دن کا وعدہ ہے جس سے نہ ایک گھڑی پیچھے رہوگے اور نہ آگے بڑھو گے", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-34 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

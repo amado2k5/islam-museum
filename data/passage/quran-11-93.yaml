@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 11:93 (سورة هود، الآية 93)."
 text: "وَيَـٰقَوْمِ ٱعْمَلُوا۟ عَلَىٰ مَكَانَتِكُمْ إِنِّى عَـٰمِلٌ ۖ سَوْفَ تَعْلَمُونَ مَن يَأْتِيهِ عَذَابٌ يُخْزِيهِ وَمَنْ هُوَ كَـٰذِبٌ ۖ وَٱرْتَقِبُوٓا۟ إِنِّى مَعَكُمْ رَقِيبٌ"
 text_search: "ويا قوم اعملوا على مكانتكم إني عامل ۖ سوف تعلمون من يأتيه عذاب يخزيه ومن هو كاذب ۖ وارتقبوا إني معكم رقيب"
+translations:
+  en: { text: "And, O my people! Act according to your power, lo! I (too) am acting. Ye will soon know on whom there cometh a doom that will abase him, and who it is that lieth. And watch! Lo! I am a watcher with you.", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "اور برادران ملت! تم اپنی جگہ کام کیے جاؤ میں (اپنی جگہ) کام کیے جاتا ہوں۔ تم کو عنقریب معلوم ہوجائے گا کہ رسوا کرنے والا عذاب کس پر آتا ہے اور جھوٹا کون ہے اور تم بھی انتظار کرو، میں بھی تمہارے ساتھ انتظار کرتا ہوں", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-11 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 7:107 (سورة الأعراف، الآية 107)."
 text: "فَأَلْقَىٰ عَصَاهُ فَإِذَا هِىَ ثُعْبَانٌ مُّبِينٌ"
 text_search: "فألقى عصاه فإذا هي ثعبان مبين"
+translations:
+  en: { text: "Then he flung down his staff and lo! it was a serpent manifest;", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "موسیٰ نے اپنی لاٹھی (زمین پر) ڈال دی تو وہ اسی وقت صریح اژدھا (ہوگیا)", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-7 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

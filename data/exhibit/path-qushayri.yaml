@@ -1,0 +1,76 @@
+id: exhibit/path-qushayri
+class: exhibit
+kind: trail
+label:
+  ar: القشيري والرسالة
+  en: Al-Qushayri and the Risala
+summary:
+  ar: 'مسار في من جمع التصوف كتابًا: عبد الكريم القشيري يكتب رسالته في نيسابور — دستور الطريقة لألف عام.'
+  en: A trail through the man who codified Sufism.
+audience:
+- newcomer
+- student
+duration_minutes: 30
+wings: []
+regions:
+- persia-central-asia
+rooms:
+- title:
+    ar: الشيخ
+    en: The shaykh
+  body:
+    ar: 'أبو القاسم القشيري: نيسابور القرن الخامس.'
+    en: 'أبو القاسم القشيري: نيسابور القرن الخامس.'
+  features:
+  - person/al-qushayri-abu-l-qasim
+  - place/nishapur
+- title:
+    ar: الرسالة
+    en: The Risala
+  body:
+    ar: 'التراجم والمقامات: منهج الطريقة.'
+    en: 'التراجم والمقامات: منهج الطريقة.'
+  features:
+  - person/al-qushayri-abu-l-qasim
+  - concept/tasawwuf
+- title:
+    ar: السياق
+    en: The context
+  body:
+    ar: 'نيسابور الحديثية: صوفي السنة.'
+    en: 'نيسابور الحديثية: صوفي السنة.'
+  features:
+  - place/nishapur
+  - concept/tasawwuf
+- title:
+    ar: الأثر
+    en: The legacy
+  body:
+    ar: 'من الرسالة إلى الإحياء: خط الغزالي.'
+    en: 'من الرسالة إلى الإحياء: خط الغزالي.'
+  features:
+  - work/ihya-ulum-al-din
+  - person/al-ghazali-abu-hamid
+- title:
+    ar: العلماء
+    en: The scholars
+  body:
+    ar: أبو نصر بن القشيري يكمل النسب.
+    en: أبو نصر بن القشيري يكمل النسب.
+  features:
+  - person/abu-nasr-ibn-al-qushayri
+  - place/nishapur
+prerequisites:
+- exhibit/path-islam-in-30-minutes
+sources:
+- source/wikidata
+provenance:
+  layer: own-research
+  source: Devin-assembled trail from existing museum entities
+  generated_by: Devin (SWE-2 High)
+  model: SWE-2 High
+  run: pathways-batch-7
+status:
+  review: draft
+  completeness: 1
+  generated_by: Devin (SWE-2 High), pathways lane, 2026-10-16

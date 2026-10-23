@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 79:35 (سورة النازعات، الآية 35)."
 text: "يَوْمَ يَتَذَكَّرُ ٱلْإِنسَـٰنُ مَا سَعَىٰ"
 text_search: "يوم يتذكر الإنسان ما سعى"
+translations:
+  en: { text: "The day when man will call to mind his (whole) endeavour,", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "اس دن انسان اپنے کاموں کو یاد کرے گا", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-79 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

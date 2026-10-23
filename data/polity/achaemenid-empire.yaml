@@ -1,0 +1,32 @@
+id: polity/achaemenid-empire
+class: polity
+kind: empire
+label:
+  ar: "الدولة الأخمينية"
+  en: "Achaemenid Empire"
+summary:
+  ar: "بطاقة أولية للدولة الأخمينية، إمبراطورية فارس القديمة التي حكمت من كورش حتى إسكندر وورثتها بعدها دول متعاقبة حتى الإسلام؛ لم تُراجع مصادرها على الصفحة بعد."
+  en: "Draft card for the Achaemenid Empire, the ancient Persian empire from Cyrus to Alexander's conquest, part of the world into which Islam was later born; its sources are not yet checked on the page."
+wings: [time]
+periods: [period/pre-islamic-arabia]
+regions: [persia-central-asia]
+start:
+  edtf: "-550"
+  precision: year
+  status: tradition
+  derived: true
+end:
+  edtf: "-330"
+  precision: year
+  status: tradition
+  derived: true
+sources: [source/tarikh-islam-hasan-ibrahim]
+external_ids:
+  wikidata: Q13527812
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; empire attested in general histories — entry not yet checked on the page"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-wave2
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

@@ -1,0 +1,23 @@
+id: event/battle-of-abu-hamed-1897
+class: event
+kind: battle
+label: { ar: "معركة أبو حمد (١٨٩٧)", en: "Battle of Abu Hamed (1897)" }
+summary:
+  ar: "بطاقة أولية لمعركة أبو حمد سنة ١٨٩٧م، من حوادث الحرب المهدية في السودان؛ لم تُراجع مصادره على الصفحة بعد."
+  en: "Draft card for the Battle of Abu Hamed in 1897, an action of the Mahdist War in Sudan; its sources are not yet checked on the page."
+wings: [time]
+periods: [period/modern-era]
+regions: [east-africa]
+date:
+  start: { edtf: "1897-07", precision: year, status: tradition, derived: true }
+  end: { edtf: "1897-08", precision: year, status: tradition, derived: true }
+sources: [source/tarikh-islam-hasan-ibrahim]
+external_ids:
+  wikidata: Q27627673
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; battle attested in narrative histories — entry not yet checked on the page"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-wave2
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

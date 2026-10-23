@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 16:103 (سورة النحل، الآية 103)."
 text: "وَلَقَدْ نَعْلَمُ أَنَّهُمْ يَقُولُونَ إِنَّمَا يُعَلِّمُهُۥ بَشَرٌ ۗ لِّسَانُ ٱلَّذِى يُلْحِدُونَ إِلَيْهِ أَعْجَمِىٌّ وَهَـٰذَا لِسَانٌ عَرَبِىٌّ مُّبِينٌ"
 text_search: "ولقد نعلم أنهم يقولون إنما يعلمه بشر ۗ لسان الذي يلحدون إليه أعجمي وهذا لسان عربي مبين"
+translations:
+  en: { text: "And We know well that they say: Only a man teacheth him. The speech of him at whom they falsely hint is outlandish, and this is clear Arabic speech.", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "اور ہمیں معلوم ہے کہ یہ کہتے ہیں کہ اس (پیغمبر) کو ایک شخص سکھا جاتا ہے۔ مگر جس کی طرف (تعلیم کی) نسبت کرتے ہیں اس کی زبان تو عجمی ہے اور یہ صاف عربی زبان ہے", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-16 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

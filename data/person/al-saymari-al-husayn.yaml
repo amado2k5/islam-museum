@@ -1,0 +1,26 @@
+id: person/al-saymari-al-husayn
+class: person
+label:
+  ar: "القاضي أبو عبد الله الصيمري الحنفي"
+  en: "al-Saymari, Abu Abdallah al-Husayn ibn Ali"
+names:
+  - { value: "الحسين بن علي الصيمري أبو عبد الله", kind: full }
+summary:
+  ar: "قاضي بغداد الحنفي، نسبة إلى نهر من أنهار البصرة يقال له الصيمر عليه قرى؛ ولد سنة إحدى وخمسين وثلاثمائة، وكان أحد الفقهاء المذكورين من العراقيين حسن العبارة جيد النظر، ولى قضاء المدائن ثم القضاء بربع الكرخ، وحدّث عن أبي بكر المفيد وابن شاذان وابن شاهين، وكان صدوقًا وافر العقل جميل المعاشرة عارفًا بحقوق العلماء. كتب في فتنة لقب «ملك الملوك» سنة ٤٢٩ يجيز إطلاقها لجواز تفاضل ملوك الأرض. توفي في شوال سنة ست وثلاثين وأربعمائة ودُفن في داره بدرب الزرادين {cite:muntazam-ibn-al-jawzi j.8 p.439,461}."
+  en: "The Hanafi qadi of Baghdad — born 351, a jurist of fine expression and sound reasoning who judged al-Mada'in then the Karkh quarter; among the jurists who permitted the 'malik al-muluk' laqab in 429. Died Shawwal 436, buried in his house at Darb al-Zaradin {cite:muntazam-ibn-al-jawzi j.8 p.439,461}."
+gender: male
+born: { edtf: "0962~", hijri: "0351", calendar: julian, precision: year, status: tradition, derived: true, note: "ولد سنة ٣٥١ {cite:muntazam-ibn-al-jawzi j.8 p.461}" }
+died: { edtf: "1045~", hijri: "0436-10", calendar: julian, precision: month, status: tradition, derived: true, note: "توفي في شوال ٤٣٦ {cite:muntazam-ibn-al-jawzi j.8 p.461}" }
+roles: [jurist, scholar]
+wings: [people]
+periods: [period/buyid-seljuk-fatimid-era]
+regions: [levant-iraq]
+relations:
+  - { type: participated_in, target: event/shahanshah-laqab-429, role: "الفقيه المجيز", sources: [source/muntazam-ibn-al-jawzi] }
+provenance:
+  layer: own-research
+  source: "المنتظم في تاريخ الملوك والأمم — ابن الجوزي (ج8، ترجمة سنة ٤٣٦)، قراءة آبل فيجن، مسح AAlexandrina-224011"
+  generated_by: "Devin (SWE-2 Medium) from Apple Vision OCR"
+  run: lib-muntazam-350-474-batch24
+sources: [source/muntazam-ibn-al-jawzi]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 Medium)" }

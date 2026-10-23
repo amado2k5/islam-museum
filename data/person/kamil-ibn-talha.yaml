@@ -1,0 +1,27 @@
+id: person/kamil-ibn-talha
+class: person
+label:
+  ar: "كامل بن طلحة"
+  en: "Kamil ibn Talha"
+roles: [muhaddith]
+gender: male
+summary:
+  ar: "بطاقة أولية لكامل بن طلحة، المحدث في القرن الثالث الهجري؛ لم تُراجع ترجمته على الصفحة بعد."
+  en: "Draft card for Kamil ibn Talha, the third-century hadith scholar; his entry is not yet checked on the page."
+wings: [people]
+regions: [levant-iraq]
+periods: [period/abbasid-early]
+born: { edtf: "762", precision: year, status: tradition, derived: true }
+died: { edtf: "845", precision: year, status: tradition, derived: true }
+sources: [source/al-aalam]
+external_ids:
+  wikidata: Q106844773
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; entry not yet read on the page in a book source"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-wave2
+status:
+  review: draft
+  completeness: 1

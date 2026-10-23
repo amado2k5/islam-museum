@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 50:19 (سورة ق، الآية 19)."
 text: "وَجَآءَتْ سَكْرَةُ ٱلْمَوْتِ بِٱلْحَقِّ ۖ ذَٰلِكَ مَا كُنتَ مِنْهُ تَحِيدُ"
 text_search: "وجاءت سكرة الموت بالحق ۖ ذلك ما كنت منه تحيد"
+translations:
+  en: { text: "And the agony of death cometh in truth. (And it is said unto him): This is that which thou wast wont to shun.", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "اور موت کی بےہوشی حقیقت کھولنے کو طاری ہوگئی۔ (اے انسان) یہی (وہ حالت) ہے جس سے تو بھاگتا تھا", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-50 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

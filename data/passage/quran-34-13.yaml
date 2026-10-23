@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 34:13 (سورة سبأ، الآية 13)."
 text: "يَعْمَلُونَ لَهُۥ مَا يَشَآءُ مِن مَّحَـٰرِيبَ وَتَمَـٰثِيلَ وَجِفَانٍ كَٱلْجَوَابِ وَقُدُورٍ رَّاسِيَـٰتٍ ۚ ٱعْمَلُوٓا۟ ءَالَ دَاوُۥدَ شُكْرًا ۚ وَقَلِيلٌ مِّنْ عِبَادِىَ ٱلشَّكُورُ"
 text_search: "يعملون له ما يشاء من محاريب وتماثيل وجفان كالجواب وقدور راسيات ۚ اعملوا آل داوود شكرا ۚ وقليل من عبادي الشكور"
+translations:
+  en: { text: "They made for him what he willed: synagogues and statues, basins like wells and boilers built into the ground. Give thanks, O House of David! Few of My bondmen are thankful.", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "وہ جو چاہتے یہ ان کے لئے بناتے یعنی قلعے اور مجسمے اور (بڑے بڑے) لگن جیسے تالاب اور دیگیں جو ایک ہی جگہ رکھی رہیں۔ اے داؤد کی اولاد (میرا) شکر کرو اور میرے بندوں میں شکرگزار تھوڑے ہیں", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-34 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

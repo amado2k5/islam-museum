@@ -1,0 +1,27 @@
+id: building/fenari-isa-mosque
+class: building
+kind: mosque
+label:
+  ar: "جامع فناري عيسى"
+  en: "Fenari Isa Mosque"
+summary:
+  ar: "بطاقة أولية لجامع فناري عيسى بإسطنبول، دير ليبس البيزنطي الذي حُوّل إلى مسجد في العهد العثماني؛ تذكره مصادر تاريخ العمارة العثمانية ولم تُراجع الصفحة بعد."
+  en: "Draft card for Fenari Isa Mosque in Istanbul, the former Byzantine Lips monastery complex converted to a mosque in Ottoman times; per the cited architecture survey, the page not yet checked."
+wings: [objects]
+themes: [architecture]
+regions: [anatolia-balkans]
+periods: [period/gunpowder-empires]
+relations:
+- { type: located_in, target: place/istanbul }
+sources: [source/goodwin-ottoman-architecture-1971]
+external_ids:
+  wikidata: Q2424612
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; book source: Goodwin, A History of Ottoman Architecture (1971) — entry not yet read on the page"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-0012
+status:
+  review: draft
+  completeness: 1

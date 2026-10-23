@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 5:71 (سورة المائدة، الآية 71)."
 text: "وَحَسِبُوٓا۟ أَلَّا تَكُونَ فِتْنَةٌ فَعَمُوا۟ وَصَمُّوا۟ ثُمَّ تَابَ ٱللَّهُ عَلَيْهِمْ ثُمَّ عَمُوا۟ وَصَمُّوا۟ كَثِيرٌ مِّنْهُمْ ۚ وَٱللَّهُ بَصِيرٌۢ بِمَا يَعْمَلُونَ"
 text_search: "وحسبوا ألا تكون فتنة فعموا وصموا ثم تاب الله عليهم ثم عموا وصموا كثير منهم ۚ والله بصير بما يعملون"
+translations:
+  en: { text: "They thought no harm would come of it, so they were wilfully blind and deaf. And afterward Allah turned (in mercy) toward them. Now (even after that) are many of them wilfully blind and deaf. Allah is Seer of what they do.", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "اور خیال کرتے تھے کہ (اس سے ان پر) کوئی آفت نہیں آنے کی تو وہ اندھے اور بہرے ہو گئے پھر خدا نے ان پر مہربانی فرمائی (لیکن) پھر ان میں سے بہت سے اندھے اور بہرے ہو گئے اور خدا ان کے سب کاموں کو دیکھ رہا ہے", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-5 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

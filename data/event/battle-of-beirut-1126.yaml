@@ -1,0 +1,23 @@
+id: event/battle-of-beirut-1126
+class: event
+kind: battle
+label: { ar: "معركة بيروت (١١٢٦)", en: "Battle of Beirut" }
+summary:
+  ar: "بطاقة أولية لمعركة بيروت سنة ١١٢٦م، اشتباك الصليبيين وقوات دمشق؛ لم تُراجع مصادره على الصفحة بعد."
+  en: "Draft card for the Battle of Beirut in 1126, the Crusader clash with Damascene forces; its sources are not yet checked on the page."
+wings: [time]
+periods: [period/crusades-ayyubid-mamluk]
+regions: [levant-iraq]
+date:
+  start: { edtf: "1126", precision: year, status: tradition, derived: true }
+  end: { edtf: "1126", precision: year, status: tradition, derived: true }
+sources: [source/kamil-ibn-al-athir]
+external_ids:
+  wikidata: Q132528607
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; battle attested in narrative histories — entry not yet checked on the page"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-wave2
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

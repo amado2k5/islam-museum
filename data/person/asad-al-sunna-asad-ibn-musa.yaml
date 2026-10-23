@@ -1,0 +1,20 @@
+id: person/asad-al-sunna-asad-ibn-musa
+class: person
+label: { ar: "أسد السنة", en: "Asad al-Sunna" }
+names:
+  - { kind: full, lang: ar, value: "أسد بن موسى بن إبراهيم الأموي، المعروف بأسد السنة" }
+gender: male
+roles: [scholar]
+traditions: [sunni]
+summary:
+  ar: "محدّث من أهل مصر في القرن الثاني الهجري، من رواة السنة."
+  en: "Egyptian hadith transmitter of the second century AH."
+wings: [people]
+themes: [scripture-and-its-sciences]
+periods: [period/abbasid-early]
+regions: [egypt-nile]
+story_roles:
+  - { role: transmitter, status: tradition, sources: [source/mawsuat-a3lam-ulama-adaba] }
+sources: [source/mawsuat-a3lam-ulama-adaba]
+status: { review: draft, completeness: 1, generated_by: "Devin; Mawsuat A'lam vol 1 pp. 572-573, lib-mawsuat-a3lam" }
+provenance: { layer: own-research, source: "موسوعة أعلام العلماء والأدباء (أليكسو/دار الجيل 2004) ج1 ص572-573", generated_by: "Devin", model: "SWE-2 High", run: "lib-mawsuat-a3lam" }

@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 10:7 (سورة يونس، الآية 7)."
 text: "إِنَّ ٱلَّذِينَ لَا يَرْجُونَ لِقَآءَنَا وَرَضُوا۟ بِٱلْحَيَوٰةِ ٱلدُّنْيَا وَٱطْمَأَنُّوا۟ بِهَا وَٱلَّذِينَ هُمْ عَنْ ءَايَـٰتِنَا غَـٰفِلُونَ"
 text_search: "إن الذين لا يرجون لقاءنا ورضوا بالحياة الدنيا واطمأنوا بها والذين هم عن آياتنا غافلون"
+translations:
+  en: { text: "Lo! those who expect not the meeting with Us but desire the life of the world and feel secure therein, and those who are neglectful of Our revelations,", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "جن لوگوں کو ہم سے ملنے کی توقع نہیں اور دنیا کی زندگی سے خوش اور اسی پر مطئمن ہو بیٹھے اور ہماری نشانیوں سے غافل ہو رہے ہیں", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-10 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

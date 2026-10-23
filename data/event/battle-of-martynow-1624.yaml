@@ -1,0 +1,23 @@
+id: event/battle-of-martynow-1624
+class: event
+kind: battle
+label: { ar: "معركة مارتينوف", en: "Battle of Martynów" }
+summary:
+  ar: "بطاقة أولية لمعركة مارتينوف سنة ١٦٢٤م، فوز كونيتسبولسكي على تتار القرم في بولندا؛ لم تُراجع مصادره على الصفحة بعد."
+  en: "Draft card for the Battle of Martynów in 1624, Koniecpolski's victory over the Crimean Tatars in Poland; its sources are not yet checked on the page."
+wings: [time]
+periods: [period/gunpowder-empires]
+regions: [anatolia-balkans]
+date:
+  start: { edtf: "1624-06-20", precision: year, status: tradition, derived: true }
+  end: { edtf: "1624-06-20", precision: year, status: tradition, derived: true }
+sources: [source/dawlat-uthmaniyya-salabi]
+external_ids:
+  wikidata: Q2340087
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; battle attested in narrative histories — entry not yet checked on the page"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-wave2
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

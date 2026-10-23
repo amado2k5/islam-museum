@@ -1,0 +1,23 @@
+id: event/battle-of-basian-1202
+class: event
+kind: battle
+label: { ar: "معركة باسيان", en: "Battle of Basian" }
+summary:
+  ar: "بطاقة أولية لمعركة باسيان نحو سنة ١٢٠٢م، نصر جورجيا الكبير على جيش السلاجقة والأتابكة في القوقاز؛ لم تُراجع مصادره على الصفحة بعد."
+  en: "Draft card for the Battle of Basian around 1202, Georgia's great victory over the Seljuk-Atabeg host in the Caucasus; its sources are not yet checked on the page."
+wings: [time]
+periods: [period/crusades-ayyubid-mamluk]
+regions: [persia-central-asia]
+date:
+  start: { edtf: "1202", precision: year, status: tradition, derived: true }
+  end: { edtf: "1202", precision: year, status: tradition, derived: true }
+sources: [source/kamil-ibn-al-athir]
+external_ids:
+  wikidata: Q2920414
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; battle attested in Caucasian histories — entry not yet checked on the page"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-wave2
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

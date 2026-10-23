@@ -1,0 +1,19 @@
+id: passage/arbaun-18
+class: passage
+unit: hadith
+work: work/arbaun-nawawi
+ref: "18"
+label: { ar: "الأربعون 18 — اتق الله حيثما كنت", en: "Arba'un 18 — fear God wherever you are" }
+text: "اتق الله حيثما كنت، وأتبع السيئة الحسنة تمحها، وخالق الناس بخلق حسن"
+summary:
+  ar: "حديث أبي ذر ومعاذ بن جبل، وهو الحديث الثامن عشر في الأربعين النووية وفي شرح ابن رجب؛ رواه الترمذي (1987) وقال حديث حسن وفي بعض النسخ حسن صحيح، من رواية سفيان الثوري عن حبيب بن أبي ثابت عن ميمون بن أبي شبيب عن أبي ذر وبهذا الإسناد عن معاذ، وذكر الترمذي عن شيخه محمود بن غيلان أن حديث أبي ذر أصح، ورجح الدارقطني إسناده المرسل؛ وصححه الحاكم على شرط الشيخين فبين ابن رجب أنه وهم من وجهين: أن ميمون بن أبي شبيب لم يخرج له البخاري في الصحيح ولا مسلم إلا في مقدمة كتابه، وأن سماع ميمون من أحد من الصحابة لم يثبت — قال الفلاس ليس في شيء من رواياته عن الصحابة «سمعت»، وقال أبو حاتم روايته عن أبي ذر وعائشة غير متصلة، وقال أبو داود لم يدرك عائشة ولم ير علياً — وساق رأي البخاري وعلي بن المديني وأبي زرعة وأبي حاتم أن الحديث لا يتصل إلا بصحة اللقي، ودلالة كلام أحمد على ذلك ونص الشافعي عليه في الرسالة، وكل ذلك خلاف رأي مسلم؛ ورويت الوصية بمعناها لمعاذ عند بعثه إلى اليمن ولأبي ذر في وصايا أخرى منها «أوصيك بتقوى الله في سر أمرك وعلانيته»، وعن أبي هريرة أن أكثر ما يدخل الناس الجنة «تقوى الله وحسن الخلق»، وهذه وصية جامعة لحقوق الله وحقوق عباده (جامع العلوم والحكم ص 375–431)."
+  en: "The hadith of Abu Dharr and Mu'adh ibn Jabal, the eighteenth of al-Nawawi's Forty and of Ibn Rajab's commentary; transmitted by al-Tirmidhi (1987) as hasan — hasan sahih in some copies — through Sufyan al-Thawri from Habib ibn Abi Thabit from Maymun ibn Abi Shabib from Abu Dharr, and by the same chain from Mu'adh, al-Tirmidhi citing his teacher Mahmud ibn Ghaylan that Abu Dharr's version is sounder and al-Daraqutni preferring the mursal route; al-Hakim graded it sound on the two Shaykhs' condition, which Ibn Rajab shows to be mistaken on two counts — Maymun ibn Abi Shabib has nothing in Bukhari's Sahih and nothing in Muslim's except in his introduction, and his hearing from any Companion is unproven: al-Fallas found no 'I heard' in his Companion reports, Abu Hatim declared his reports from Abu Dharr and A'isha unconnected, and Abu Dawud held he reached neither A'isha nor Ali — and Ibn Rajab sets out the view of al-Bukhari, Ali ibn al-Madini, Abu Zur'a and Abu Hatim that a chain connects only with proven meeting, Ahmad's words pointing the same way and al-Shafi'i stating it in the Risala, all contrary to Muslim's view; the same counsel is transmitted for Mu'adh on his despatch to Yemen and for Abu Dharr in other counsels including 'I counsel you with fear of God in your secret and open affairs', and from Abu Hurayra that what most admits people to Paradise is 'fear of God and good character', a counsel combining God's rights and His servants' rights (Jami' al-Ulum wal-Hikam pp. 375–431)."
+relations:
+  - { type: basis_for, target: concept/taqwa, sources: [source/ibn-rajab-jami-ulum-hikam] }
+  - { type: basis_for, target: concept/khuluq, sources: [source/ibn-rajab-jami-ulum-hikam] }
+  - { type: basis_for, target: concept/ittisal-al-isnad, sources: [source/ibn-rajab-jami-ulum-hikam] }
+  - { type: mentions, target: person/abu-dharr-al-ghifari, sources: [source/ibn-rajab-jami-ulum-hikam] }
+  - { type: mentions, target: person/muadh-ibn-jabal, sources: [source/ibn-rajab-jami-ulum-hikam] }
+provenance: { layer: own-research, source: "Jami' al-Ulum wal-Hikam (Dar Ibn Kathir 1429/2008), hadith 18 pp. 375–431", generated_by: "Devin (SWE-2 High) from Apple Vision OCR", run: "lib-jami-ulum-hikam-batch-7" }
+sources: [source/ibn-rajab-jami-ulum-hikam]
+status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 High); matn verified against OCR of printed p. 375, the grading critique and ittisal discussion from pp. 375–376" }

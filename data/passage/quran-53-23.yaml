@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 53:23 (سورة النجم، الآية 23)."
 text: "إِنْ هِىَ إِلَّآ أَسْمَآءٌ سَمَّيْتُمُوهَآ أَنتُمْ وَءَابَآؤُكُم مَّآ أَنزَلَ ٱللَّهُ بِهَا مِن سُلْطَـٰنٍ ۚ إِن يَتَّبِعُونَ إِلَّا ٱلظَّنَّ وَمَا تَهْوَى ٱلْأَنفُسُ ۖ وَلَقَدْ جَآءَهُم مِّن رَّبِّهِمُ ٱلْهُدَىٰٓ"
 text_search: "إن هي إلا أسماء سميتموها أنتم وآباؤكم ما أنزل الله بها من سلطان ۚ إن يتبعون إلا الظن وما تهوى الأنفس ۖ ولقد جاءهم من ربهم الهدى"
+translations:
+  en: { text: "They are but names which ye have named, ye and your fathers, for which Allah hath revealed no warrant. They follow but a guess and that which (they) themselves desire. And now the guidance from their Lord hath come unto them.", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "وہ تو صرف نام ہی نام ہیں جو تم نے اور تمہارے باپ دادا نے گھڑ لئے ہیں۔ خدا نے تو ان کی کوئی سند نازل نہیں کی۔ یہ لوگ محض ظن (فاسد) اور خواہشات نفس کے پیچھے چل رہے ہیں۔ حالانکہ ان کے پروردگار کی طرف سے ان کے پاس ہدایت آچکی ہے", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-53 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

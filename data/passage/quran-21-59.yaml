@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 21:59 (سورة الأنبياء، الآية 59)."
 text: "قَالُوا۟ مَن فَعَلَ هَـٰذَا بِـَٔالِهَتِنَآ إِنَّهُۥ لَمِنَ ٱلظَّـٰلِمِينَ"
 text_search: "قالوا من فعل هذا بآلهتنا إنه لمن الظالمين"
+translations:
+  en: { text: "They said: Who hath done this to our gods? Surely it must be some evil-doer.", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "کہنے لگے کہ ہمارے معبودوں کے ساتھ یہ معاملہ کس نے کیا؟ وہ تو کوئی ظالم ہے", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-21 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

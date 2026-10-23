@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 68:31 (سورة القلم، الآية 31)."
 text: "قَالُوا۟ يَـٰوَيْلَنَآ إِنَّا كُنَّا طَـٰغِينَ"
 text_search: "قالوا يا ويلنا إنا كنا طاغين"
+translations:
+  en: { text: "They said: Alas for us! In truth we were outrageous.", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "کہنے لگے ہائے شامت ہم ہی حد سے بڑھ گئے تھے", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-68 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

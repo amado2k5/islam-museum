@@ -1,0 +1,23 @@
+id: event/siege-of-pest-1542
+class: event
+kind: siege
+label: { ar: "حصار بست", en: "Siege of Pest" }
+summary:
+  ar: "بطاقة أولية لحصار بست سنة ١٥٤٢م، محاولة الهابسبورغ استردادها من العثمانيين؛ لم تُراجع مصادره على الصفحة بعد."
+  en: "Draft card for the Siege of Pest in 1542, the Habsburg attempt to retake the city from the Ottomans; its sources are not yet checked on the page."
+wings: [time]
+periods: [period/gunpowder-empires]
+regions: [anatolia-balkans]
+date:
+  start: { edtf: "1542", precision: year, status: tradition, derived: true }
+  end: { edtf: "1542", precision: year, status: tradition, derived: true }
+sources: [source/dawlat-uthmaniyya-salabi]
+external_ids:
+  wikidata: Q850771
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; battle attested in narrative histories — entry not yet checked on the page"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-wave2
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

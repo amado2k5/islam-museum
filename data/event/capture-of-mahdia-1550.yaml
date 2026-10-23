@@ -1,0 +1,23 @@
+id: event/capture-of-mahdia-1550
+class: event
+kind: siege
+label: { ar: "أخذ المهدية (١٥٥٠)", en: "Capture of Mahdia" }
+summary:
+  ar: "بطاقة أولية لأخذ المهدية سنة ١٥٥٠م، سقوط القاعدة العثمانية بيد أسطول أندريا دوريا؛ لم تُراجع مصادره على الصفحة بعد."
+  en: "Draft card for the Capture of Mahdia in 1550, the Ottoman base's fall to Andrea Doria's fleet; its sources are not yet checked on the page."
+wings: [time]
+periods: [period/gunpowder-empires]
+regions: [maghreb]
+date:
+  start: { edtf: "1550", precision: year, status: tradition, derived: true }
+  end: { edtf: "1550", precision: year, status: tradition, derived: true }
+sources: [source/dawlat-uthmaniyya-salabi]
+external_ids:
+  wikidata: Q5037032
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; battle attested in narrative histories — entry not yet checked on the page"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-wave2
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

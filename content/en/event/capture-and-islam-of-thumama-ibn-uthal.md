@@ -1,0 +1,26 @@
+---
+id: event/capture-and-islam-of-thumama-ibn-uthal
+lang: en
+source_lang: ar
+translators: ["Claude Haiku 5.5 (claude-haiku-5-5), draft translation"]
+---
+## Overview
+Ibn Ishaq counts among the raids "the raid that captured [[person/thumama-ibn-uthal|Thumama ibn Uthal al-Hanafi]]", and relates it on the report "it reached me" from Abu Sa'id al-Maqbari, from [[person/abu-hurayra|Abu Hurayra]]. {cite:ibn-hisham-saqqa 4/287}
+
+## The capture and kind treatment of the captive
+Horsemen of the Prophet went out and took a man of [[group/banu-hanifa|Banu Hanifa]] without knowing who he was. When they brought him, the Prophet said: "Do you know whom you have taken? This is Thumama ibn Uthal al-Hanafi; treat his captivity well." {cite:ibn-hisham-saqqa 4/287} Then he went back to his household and said: "Gather whatever food you have and send it to him," and he ordered that his milch-camel be brought to him morning and evening, but this had no effect on Thumama. {cite:ibn-hisham-saqqa 4/287}
+
+## The invitation and the release
+The Prophet used to come to him and say: "Embrace Islam, O Thumama." He would say: "Speak, O Muhammad; if you kill, you kill a man with blood, and if you want ransom, ask what you will." He stayed as long as God willed. Then the Prophet said one day: "Release Thumama." {cite:ibn-hisham-saqqa 4/287} When he was released he went out to al-Baqi', washed and washed well, then came and pledged to the Prophet on Islam. {cite:ibn-hisham-saqqa 4/287} {cite:ibn-hisham-saqqa 4/288} When evening came they brought him the food they used to bring, and he took only a little of it, and of the milk of the camel he drew only a little, and the Muslims wondered. The Prophet said: "Why do you wonder? A man who ate at the beginning of the day in the gut of an unbeliever and ate at the end of the day in the gut of a Muslim! The unbeliever eats in seven guts, and the Muslim eats in one gut." {cite:ibn-hisham-saqqa 4/288}
+
+## Additions by Ibn Hisham
+Ibn Hisham says: "It reached me that he went out to perform the lesser pilgrimage, and when he was in the valley of Mecca he said the talbiya, and he was the first to enter Mecca saying it. Quraysh seized him and said: 'You have dared against us.' When they brought him forward to strike his neck, someone said: 'Leave him, for you will need al-Yamama for your food,' so they let him go." Ibn Hisham also says that the Hanafi composed a verse in that matter, boasting of the one who said the talbiya in Mecca, proclaiming it in defiance of Abu Sufyan in the sacred months. {cite:ibn-hisham-saqqa 4/288} It was related to Ibn Hisham that he said to the Prophet when he became Muslim: "Your face was the most hateful of faces to me, and it has become the dearest of faces to me," and he said the same of religion and of lands. {cite:ibn-hisham-saqqa 4/288} When he came to Mecca they said: "Have you turned away, Thumam?" He said: "No, but I have followed the best of religions, the religion of Muhammad; and by God, not a grain will reach you from al-Yamama until the Messenger of God permits it." He went out to [[place/al-yamama|al-Yamama]] and prevented them from carrying anything to Mecca. Quraysh wrote to the Prophet: "You command the joining of kinship ties, and you have severed our ties, and you have killed the fathers with the sword and the sons with hunger." The Prophet wrote to him to let them carry their goods. {cite:ibn-hisham-saqqa 4/288}
+
+## In the museum
+The account is a model of the sirah writers on "the noble captive": good treatment of captivity, then release without ransom, then Islam by choice, then an economic effect on the siege of Quraysh, and the Prophet's intervention to lift it at the request of his opponents themselves. al-Bukhari relates it from al-Maqbari in a close form, with Thumama tied to a pillar of the mosque, which is not in Ibn Ishaq's text here. {cite:ibn-hisham-saqqa 4/287}
+
+## Markers of the report
+- The chain: "It reached me from Abu Sa'id al-Maqbari from Abu Hurayra." {cite:ibn-hisham-saqqa 4/287}
+- The phrase "and you have killed the fathers with the sword and the sons with hunger" is missing from one copy. {cite:ibn-hisham-saqqa 4/288}
+- The reports about the lesser pilgrimage, the talbiya and the prohibition of supplies come from Ibn Hisham with "it reached me" and "I was told". {cite:ibn-hisham-saqqa 4/288}
+- The event has no date.

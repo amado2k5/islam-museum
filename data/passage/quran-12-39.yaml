@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 12:39 (سورة يوسف، الآية 39)."
 text: "يَـٰصَـٰحِبَىِ ٱلسِّجْنِ ءَأَرْبَابٌ مُّتَفَرِّقُونَ خَيْرٌ أَمِ ٱللَّهُ ٱلْوَٰحِدُ ٱلْقَهَّارُ"
 text_search: "يا صاحبي السجن أأرباب متفرقون خير أم الله الواحد القهار"
+translations:
+  en: { text: "O my fellow-prisoners! Are divers lords better, or Allah the One, Almighty?", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "میرے جیل خانے کے رفیقو! بھلا کئی جدا جدا آقا اچھے یا (ایک) خدائے یکتا وغالب؟", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-12 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

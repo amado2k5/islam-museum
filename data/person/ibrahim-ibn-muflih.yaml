@@ -1,0 +1,28 @@
+id: person/ibrahim-ibn-muflih
+class: person
+label: { ar: "إبراهيم بن مفلح شيخ الحنابلة", en: "Ibrahim ibn Muflih, shaykh of the Hanbalis" }
+names:
+  - { value: "برهان الدين وتقي الدين أبو إسحاق إبراهيم بن محمد بن مفلح بن مفرج الراميني الأصل ثم الدمشقي الحنبلي الحافظ", kind: full }
+born: { edtf: "1347~", hijri: "0749", calendar: julian, precision: year, status: tradition, derived: true, note: "ولد سنة تسع وأربعين وسبعمائة {cite:shadharat-dhahab p. 30}." }
+died: { edtf: "1401-03~", hijri: "0803-08-17", calendar: julian, precision: day, status: tradition, derived: true, note: "توفي يوم الثلاثاء سابع عشري شعبان ودفن عند رجل والده بالروضة {cite:shadharat-dhahab p. 31}." }
+summary:
+  ar: "شيخ الحنابلة ورئيسهم وقاضي قضاتهم بدمشق؛ من تصانيفه كتاب فضل الصلاة على النبي وكتاب الملائكة وشرح المقنع وطبقات أصحاب الإمام أحمد، وتلف غالبها في فتنة تيمور؛ ولما وقعت فتنة التتار كان آخر من تأخر بدمشق ثم خرج إلى تيمور ومعه جماعة ووقع بينه وبين عبد الجبار المعتزلي إمام تيمور مناظرات وإلزامات بحضرة تمرلنك فأعجبه ومال إليه فتكلم معه في الصلح فأجاب إلى ذلك ثم غيّر، فتألم صاحب الترجمة إلى أن توفي {cite:shadharat-dhahab p. 30-31}."
+  en: "Shaykh of the Hanbalis — last to leave Damascus in Timur's fitna, he debated Abd al-Jabbar the Mu'tazili before Timur himself and won the sulh that Timur then reneged on; the grief killed him within the year {cite:shadharat-dhahab p. 30-31}."
+gender: male
+roles: [scholar, jurist]
+wings: [people]
+periods: [period/mongol-post-mongol]
+regions: [levant-iraq]
+faith:
+  - value: sunni-hanbali
+    basis: tradition
+relations:
+  - { type: died_in, target: place/damascus, sources: [source/shadharat-dhahab] }
+  - { type: participated_in, target: event/timur-sack-damascus-803, role: "خرج إلى تيمور لطلب الصلح وناظر أمامه", sources: [source/shadharat-dhahab] }
+sources: [source/shadharat-dhahab]
+status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 High)" }
+provenance:
+  layer: own-research
+  source: "شذرات الذهب — ابن العماد (ط مثنى، ج7، سنة 803)، قراءة آبل فيجن"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-shadharat-batch-136

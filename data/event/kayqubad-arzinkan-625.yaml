@@ -1,0 +1,22 @@
+id: event/kayqubad-arzinkan-625
+class: event
+kind: conquest
+label: { ar: "ملك كيقباذ أرزنكان", en: "Kayqubad takes Erzincan" }
+date:
+  start: { edtf: "1228~", hijri: "0625", calendar: julian, precision: year, status: tradition, derived: true }
+summary:
+  ar: "ملك علاء الدين كيقباذ صاحب الروم مدينة أرزنكان وأعمالها {cite:kamil-ibn-al-athir p. 478}."
+  en: "Kayqubad I of Rum took Erzincan and its dependencies {cite:kamil-ibn-al-athir p. 478}."
+sides:
+  - label: { ar: "المسلمون وخصومهم" }
+  - label: { ar: "الطرف الآخر" }
+relations:
+  - { type: occurred_at, target: place/arzanjan, sources: [source/kamil-ibn-al-athir] }
+  - { type: had_participant, target: person/kayqubad-i, role: "المالك", sources: [source/kamil-ibn-al-athir] }
+provenance:
+  layer: own-research
+  source: "الكامل في التاريخ لابن الأثير، قراءة آبل فيجن"
+  generated_by: "Devin (SWE-2 Medium) from Apple Vision OCR"
+  run: lib-kamil-v12-batch08
+sources: [source/kamil-ibn-al-athir]
+status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 Medium)" }

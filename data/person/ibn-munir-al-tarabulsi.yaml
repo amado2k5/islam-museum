@@ -1,0 +1,38 @@
+id: person/ibn-munir-al-tarabulsi
+class: person
+label: { ar: "ابن منير الطرابلسي" }
+names:
+  - { value: "أبو الحسن ابن منير الطرابلسي الشاعر", kind: full }
+summary:
+  ar: "ابن منير الطرابلسي الشاعر؛ نشأ بأسواق طرابلس ونبغ في الآداب وقدم دمشق فسكنها وكان شيعياً كثير الهجاء خبيث اللسان فسجنه بوري بن أتابك طغتكين صاحب دمشق مدة وعزم على قطع لسانه ثم شُفع فيه فنفاه، وكان بينه وبين ابن القيسراني مكاتبات وأجوبة ومهاجاة وكانا مقيمين بحلب متنافسين في صناعتهما؛ ولد سنة ثلاث وسبعين وأربعمائة بطرابلس وتوفي في جمادى الآخرة سنة ثمان وأربعين وخمسمائة بحلب ودفن بجبل جوشن {cite:shadharat-dhahab p. 626-628}."
+  en: "Ibn Munir of Tripoli, the poet; raised in Tripoli's markets, he came to Damascus and settled — a Shi'i of sharp invective and malicious tongue whom Buri ibn Tughtigin jailed and meant to silence for good until intercession exiled him instead; he and Ibn al-Qaysarani, both settled at Aleppo, traded lampoons; b. Tripoli 473, d. Jumada II 548 at Aleppo, buried at Jabal Jawshan {cite:shadharat-dhahab p. 626-628}."
+gender: male
+wings: [people]
+roles: [poet]
+periods: [period/buyid-seljuk-fatimid-era]
+regions: [levant-iraq]
+born:
+  edtf: "1080~"
+  hijri: "0473"
+  calendar: julian
+  precision: year
+  status: tradition
+  derived: true
+  note: "ولد سنة ثلاث وسبعين وأربعمائة بطرابلس {cite:shadharat-dhahab p. 627}؛ التحويل مشتق."
+died:
+  edtf: "1153-09~"
+  hijri: "0548-06"
+  calendar: julian
+  precision: month
+  status: tradition
+  derived: true
+  note: "توفي في جمادى الآخرة سنة ثمان وأربعين وخمسمائة بحلب ودفن بجبل جوشن {cite:shadharat-dhahab p. 627}؛ التحويل مشتق."
+relations:
+  - { type: died_in, target: place/aleppo, sources: [source/shadharat-dhahab] }
+provenance:
+  layer: own-research
+  source: "شذرات الذهب لابن العماد — الجزء الرابع، ممسوح مكتبة الحصاد (AAlexandrina-223861)، قراءة آبل فيجن"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-shadharat-batch-116
+sources: [source/shadharat-dhahab]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

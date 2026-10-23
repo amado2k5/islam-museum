@@ -1,0 +1,23 @@
+id: person/jafar-ibn-al-furat-hinzaba
+class: person
+label: { ar: "أبو الفضل جعفر بن الفرات ابن حزابة الوزير" }
+summary:
+  ar: "جعفر بن الفضل بن جعفر بن محمد بن الفرات أبو الفضل المعروف بابن حزابة الوزير، ولد في ذي الحجة سنة ثمان وثلاثمائة، ونزل مصر وتقلد الوزارة لأميرها كافور، وكان أبوه وزير المقتدر، وحدث عن محمد بن هارون الحضرمي وطبقته من البغداديين، وكان يقول من جاءني بمجلس من مجالس البغوي أغنيته، وكان يملي الحديث بمصر فخرج إليه الدارقطني وأقام عنده مدة فصنف له المسند وحصل له من جهته مال كثير وروى عنه الدارقطني في كتاب المديح أحاديث. توفي في ربيع الأول سنة إحدى وتسعين {cite:muntazam-ibn-al-jawzi j.7 p.216}."
+wings: [people]
+periods: [period/buyid-seljuk-fatimid-era]
+regions: [egypt-nile, levant-iraq]
+roles: [vizier, scholar]
+born:
+  { edtf: "0921-04~", hijri: "0308-12", calendar: julian, precision: month, status: tradition, derived: true, note: "ولد في ذي الحجة 308؛ التحويل مشتق {cite:muntazam-ibn-al-jawzi j.7 p.216}" }
+died:
+  { edtf: "1001-01~", hijri: "0391-03", calendar: julian, precision: month, status: tradition, derived: true, note: "ربيع الأول 391؛ التحويل مشتق {cite:muntazam-ibn-al-jawzi j.7 p.216}" }
+relations:
+  - { type: patron_of, target: person/al-daraqutni, role: "أقام عنده بمصر وصنف له المسند", sources: [source/muntazam-ibn-al-jawzi] }
+  - { type: child_of, target: person/al-fadl-ibn-jafar-ibn-al-furat, role: "أبوه كان وزير المقتدر", sources: [source/muntazam-ibn-al-jawzi] }
+provenance:
+  layer: own-research
+  source: "المنتظم في تاريخ الملوك والأمم — ابن الجوزي (ج7، وفيات سنة 391)، قراءة آبل فيجن"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-muntazam-batch-21
+sources: [source/muntazam-ibn-al-jawzi]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 18:98 (سورة الكهف، الآية 98)."
 text: "قَالَ هَـٰذَا رَحْمَةٌ مِّن رَّبِّى ۖ فَإِذَا جَآءَ وَعْدُ رَبِّى جَعَلَهُۥ دَكَّآءَ ۖ وَكَانَ وَعْدُ رَبِّى حَقًّا"
 text_search: "قال هذا رحمة من ربي ۖ فإذا جاء وعد ربي جعله دكاء ۖ وكان وعد ربي حقا"
+translations:
+  en: { text: "He said: This is a mercy from my Lord; but when the promise of my Lord cometh to pass, He will lay it low, for the promise of my Lord is true.", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "بولا کہ یہ میرے پروردگار کی مہربانی ہے۔ جب میرے پروردگار کا وعدہ آپہنچے گا تو اس کو (ڈھا کر) ہموار کردے گا اور میرے پروردگار کا وعدہ سچا ہے", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-18 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

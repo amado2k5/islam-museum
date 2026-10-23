@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 9:87 (سورة التوبة، الآية 87)."
 text: "رَضُوا۟ بِأَن يَكُونُوا۟ مَعَ ٱلْخَوَالِفِ وَطُبِعَ عَلَىٰ قُلُوبِهِمْ فَهُمْ لَا يَفْقَهُونَ"
 text_search: "رضوا بأن يكونوا مع الخوالف وطبع على قلوبهم فهم لا يفقهون"
+translations:
+  en: { text: "They are content that they should be with the useless and their hearts are sealed, so that they apprehend not.", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "یہ اس بات سے خوش ہیں کہ عورتوں کے ساتھ جو پیچھے رہ جاتی ہیں۔ (گھروں میں بیٹھ) رہیں ان کے دلوں پر مہر لگا دی گئی ہے تو یہ سمجھتے ہی نہیں", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-9 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

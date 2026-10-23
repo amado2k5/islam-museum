@@ -1,0 +1,23 @@
+id: event/battle-of-simancas-939
+class: event
+kind: battle
+label: { ar: "معركة الخندق (سيمانقة)", en: "Battle of Simancas" }
+summary:
+  ar: "بطاقة أولية لمعركة سيمانقة (الخندق) سنة ٩٣٩م، هزيمة عبد الرحمن الناصر أمام ائتلاف ليون والنبارة؛ لم تُراجع مصادره على الصفحة بعد."
+  en: "Draft card for the Battle of Simancas (al-Khandaq) in 939, Abd al-Rahman III's defeat by the Leonese-Navarrese coalition; its sources are not yet checked on the page."
+wings: [time]
+periods: [period/abbasid-fragmentation]
+regions: [andalus-europe]
+date:
+  start: { edtf: "939", precision: year, status: tradition, derived: true }
+  end: { edtf: "939", precision: year, status: tradition, derived: true }
+sources: [source/tarikh-ibn-khaldun-ibar]
+external_ids:
+  wikidata: Q1518266
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; battle attested in Andalusian histories — entry not yet checked on the page"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-wave2
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

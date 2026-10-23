@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 55:12 (سورة الرحمن، الآية 12)."
 text: "وَٱلْحَبُّ ذُو ٱلْعَصْفِ وَٱلرَّيْحَانُ"
 text_search: "والحب ذو العصف والريحان"
+translations:
+  en: { text: "Husked grain and scented herb.", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "اور اناج جس کے ساتھ بھس ہوتا ہے اور خوشبودار پھول", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-55 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

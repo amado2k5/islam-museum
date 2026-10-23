@@ -1,0 +1,24 @@
+id: person/ahmad-muqran-al-zawawi
+class: person
+label: { ar: "أحمد مقران الزواوي", en: "Ahmad Muqran al-Zawawi" }
+names:
+  - { kind: full, lang: ar, value: "أحمد مقران الزواوي" }
+gender: male
+roles: [military, ruler]
+summary:
+  ar: "خلف عبد العزيز بن عباس في قلعة بني عباس فامتلك نواحي بلاد كوكو واعترف به حسن بن خير الدين؛ قاد ألف فارس صباحي في جيش حسن لحصار وهران سنة ٩٧١هـ/١٥٦٣م {cite:dawlat-uthmaniyya-salabi p. 249-250}."
+  en: "Abd al-Aziz b. Abbas's successor at Qal'at Bani Abbas; he held the Kuku country with Hasan b. Khayr al-Din's recognition, and led the thousand Sipahi horse in Hasan's army at the siege of Oran in 971/1563 {cite:dawlat-uthmaniyya-salabi p. 249-250}."
+wings: [people]
+regions: [maghreb]
+periods: [period/gunpowder-empires]
+relations:
+  - { type: allied_with, target: person/hasan-ibn-khayr-al-din, sources: [source/dawlat-uthmaniyya-salabi] }
+  - { type: successor_of, target: person/abd-al-aziz-ibn-abbas, sources: [source/dawlat-uthmaniyya-salabi] }
+sources: [source/dawlat-uthmaniyya-salabi]
+provenance:
+  layer: own-research
+  source: "الدولة العثمانية لعلي محمد الصلابي (ط1 1421) ص 249-250"
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: salabi-uthmani-batch13
+status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 Medium)" }

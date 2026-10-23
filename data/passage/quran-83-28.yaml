@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 83:28 (سورة المطففين، الآية 28)."
 text: "عَيْنًا يَشْرَبُ بِهَا ٱلْمُقَرَّبُونَ"
 text_search: "عينا يشرب بها المقربون"
+translations:
+  en: { text: "A spring whence those brought near (to Allah) drink.", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "وہ ایک چشمہ ہے جس میں سے (خدا کے) مقرب پیئیں گے", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-83 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

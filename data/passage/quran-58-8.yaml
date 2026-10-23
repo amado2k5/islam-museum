@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 58:8 (سورة المجادلة، الآية 8)."
 text: "أَلَمْ تَرَ إِلَى ٱلَّذِينَ نُهُوا۟ عَنِ ٱلنَّجْوَىٰ ثُمَّ يَعُودُونَ لِمَا نُهُوا۟ عَنْهُ وَيَتَنَـٰجَوْنَ بِٱلْإِثْمِ وَٱلْعُدْوَٰنِ وَمَعْصِيَتِ ٱلرَّسُولِ وَإِذَا جَآءُوكَ حَيَّوْكَ بِمَا لَمْ يُحَيِّكَ بِهِ ٱللَّهُ وَيَقُولُونَ فِىٓ أَنفُسِهِمْ لَوْلَا يُعَذِّبُنَا ٱللَّهُ بِمَا نَقُولُ ۚ حَسْبُهُمْ جَهَنَّمُ يَصْلَوْنَهَا ۖ فَبِئْسَ ٱلْمَصِيرُ"
 text_search: "ألم تر إلى الذين نهوا عن النجوى ثم يعودون لما نهوا عنه ويتناجون بالإثم والعدوان ومعصيت الرسول وإذا جاءوك حيوك بما لم يحيك به الله ويقولون في أنفسهم لولا يعذبنا الله بما نقول ۚ حسبهم جهنم يصلونها ۖ فبئس المصير"
+translations:
+  en: { text: "Hast thou not observed those who were forbidden conspiracy and afterward returned to that which they had been forbidden, and (now) conspire together for crime and wrongdoing and disobedience toward the messenger? And when they come unto thee they greet thee with a greeting wherewith Allah greeteth thee not, and say within themselves: Why should Allah punish us for what we say? Hell will suffice them; they will feel the heat thereof - a hapless journey's end!", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "کیا تم نے ان لوگوں کو نہیں دیکھا جن کو سرگوشیاں کرنے سے منع کیا گیا تھا۔ پھر جس (کام) سے منع کیا گیا تھا وہی پھر کرنے لگے اور یہ تو گناہ اور ظلم اور رسول (خدا) کی نافرمانی کی سرگوشیاں کرتے ہیں۔ اور جب تمہارے پاس آتے ہیں تو جس (کلمے) سے خدا نے تم کو دعا نہیں دی اس سے تمہیں دعا دیتے ہیں۔ اور اپنے دل میں کہتے ہیں کہ (اگر یہ واقعی پیغمبر ہیں تو) جو کچھ ہم کہتے ہیں خدا ہمیں اس کی سزا کیوں نہیں دیتا؟ (اے پیغمبر) ان کو دوزخ (ہی کی سزا) کافی ہے۔ یہ اسی میں داخل ہوں گے۔ اور وہ بری جگہ ہے", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-58 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

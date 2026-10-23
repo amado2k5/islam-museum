@@ -1,0 +1,19 @@
+id: place/dome-of-the-rock
+class: place
+kind: site
+label: { ar: "قبة الصخرة", en: "Dome of the Rock" }
+summary:
+  ar: "مسجد قبة الصخرة في وسط الحرم الشريف ببيت المقدس، فوق الصخرة المقدسة. بناه عبد الملك بن مروان على مثمن من الحجر، وشُرع فيه سنة 66هـ (685م) وفُرغ منه سنة 72هـ (691م) {cite:bayt-al-maqdis-fi-al-islam-azhar p. 43}. يذكر الكتاب أنه أُعيد إعماره وقبته سنة 1964م في رعاية الملك حسين {cite:bayt-al-maqdis-fi-al-islam-azhar p. 93}."
+  en: "The Dome of the Rock, in the middle of the Haram al-Sharif in Jerusalem, over the sacred rock. The book dates its octagonal building to 66 AH (685 CE) to 72 AH (691 CE) under Abd al-Malik ibn Marwan {cite:bayt-al-maqdis-fi-al-islam-azhar p. 43}, and records a restoration of the building and dome in 1964 {cite:bayt-al-maqdis-fi-al-islam-azhar p. 93}."
+wings: [place]
+regions: [levant-iraq]
+relations:
+  - { type: located_in, target: place/jerusalem }
+sources: [source/bayt-al-maqdis-fi-al-islam-azhar]
+provenance:
+  layer: own-research
+  source: "Bayt al-Maqdis fi al-Islam (Academy, Scientific Series), PDF pp. 17, 43, 52, 93"
+  generated_by: "Claude Code (Haiku 5.5)"
+  model: claude-haiku-5-5
+  run: azhar-bayt-al-maqdis-fi-al-islam-azhar
+status: { review: draft, completeness: 1, generated_by: "Claude Code (Haiku 5.5); the 685-691 dates need a second source before review" }

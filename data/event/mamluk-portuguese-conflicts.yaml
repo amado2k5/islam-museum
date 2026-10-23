@@ -1,0 +1,23 @@
+id: event/mamluk-portuguese-conflicts
+class: event
+kind: war
+label: { ar: "الحرب البحرية البرتغالية المملوكية", en: "Mamluk–Portuguese Conflicts" }
+summary:
+  ar: "بطاقة أولية للحروب البحرية البرتغالية المملوكية من ١٥٠٥ إلى ١٥١٧م، صراع المحيط الهندي الذي انتهى بمعارك ديو وجدة؛ لم تُراجع مصادره على الصفحة بعد."
+  en: "Draft card for the Mamluk–Portuguese naval wars of 1505–1517, the Indian Ocean contest that ran from Diu to Jeddah; its sources are not yet checked on the page."
+wings: [time]
+periods: [period/gunpowder-empires]
+regions: [arabia]
+date:
+  start: { edtf: "1505", precision: year, status: tradition, derived: true }
+  end: { edtf: "1517", precision: year, status: tradition, derived: true }
+sources: [source/tarikh-islam-hasan-ibrahim]
+external_ids:
+  wikidata: Q4373383
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; conflicts attested in Indian-Ocean histories — entry not yet checked on the page"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-wave2
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

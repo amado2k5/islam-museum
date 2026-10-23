@@ -1,0 +1,75 @@
+id: exhibit/path-falsafa
+class: exhibit
+kind: trail
+label:
+  ar: الفلسفة الإسلامية
+  en: Islamic Philosophy
+summary:
+  ar: 'مسار في الفلاسفة: الكندي شيخ الفلاسفة، والفارابي المعلم الثاني، وابن سينا الشيخ الرئيس، وابن رشد
+    الشارح، وردّ الغزالي.'
+  en: A trail through the philosophers.
+audience:
+- newcomer
+- student
+duration_minutes: 30
+wings: []
+regions:
+- persia-central-asia
+rooms:
+- title:
+    ar: الكندي
+    en: Al-Kindi
+  body:
+    ar: 'فيلسوف العرب: أول من أدخل اليونان إلى العربية.'
+    en: 'فيلسوف العرب: أول من أدخل اليونان إلى العربية.'
+  features:
+  - person/al-kindi
+  - place/baghdad
+- title:
+    ar: الفارابي
+    en: Al-Farabi
+  body:
+    ar: 'المعلم الثاني: المدينة الفاضلة والموسيقى.'
+    en: 'المعلم الثاني: المدينة الفاضلة والموسيقى.'
+  features:
+  - person/al-farabi
+- title:
+    ar: ابن سينا
+    en: Ibn Sina
+  body:
+    ar: 'الشيخ الرئيس: الشفاء والقانون.'
+    en: 'الشيخ الرئيس: الشفاء والقانون.'
+  features:
+  - person/ibn-sina
+- title:
+    ar: ابن رشد
+    en: Ibn Rushd
+  body:
+    ar: 'الشارح: تهافت التهافت وردّ الغزالي.'
+    en: 'الشارح: تهافت التهافت وردّ الغزالي.'
+  features:
+  - person/ibn-rushd
+  - place/cordoba
+- title:
+    ar: النقاش
+    en: The debate
+  body:
+    ar: 'الغزالي يتهم والرازي يجادل: قرن المناظرة.'
+    en: 'الغزالي يتهم والرازي يجادل: قرن المناظرة.'
+  features:
+  - person/al-ghazali-abu-hamid
+  - person/fakhr-al-din-al-razi
+prerequisites:
+- exhibit/path-islam-in-30-minutes
+sources:
+- source/wikidata
+provenance:
+  layer: own-research
+  source: Devin-assembled trail from existing museum entities
+  generated_by: Devin (SWE-2 High)
+  model: SWE-2 High
+  run: pathways-batch-7
+status:
+  review: draft
+  completeness: 1
+  generated_by: Devin (SWE-2 High), pathways lane, 2026-10-16

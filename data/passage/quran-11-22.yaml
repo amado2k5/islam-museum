@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 11:22 (سورة هود، الآية 22)."
 text: "لَا جَرَمَ أَنَّهُمْ فِى ٱلْـَٔاخِرَةِ هُمُ ٱلْأَخْسَرُونَ"
 text_search: "لا جرم أنهم في الآخرة هم الأخسرون"
+translations:
+  en: { text: "Assuredly in the Hereafter they will be the greatest losers.", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "بلاشبہ یہ لوگ آخرت میں سب سے زیادہ نقصان پانے والے ہیں", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-11 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

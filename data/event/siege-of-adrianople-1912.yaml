@@ -1,0 +1,23 @@
+id: event/siege-of-adrianople-1912
+class: event
+kind: siege
+label: { ar: "حصار أدرنة", en: "Siege of Adrianople" }
+summary:
+  ar: "بطاقة أولية لحصار أدرنة من ١٩١٢ إلى ١٩١٣م، سقوط المدينة العثمانية بيد البلغاريين في حرب البلقان الأولى؛ لم تُراجع مصادره على الصفحة بعد."
+  en: "Draft card for the Siege of Adrianople of 1912–1913, the Ottoman city's fall to the Bulgarians in the First Balkan War; its sources are not yet checked on the page."
+wings: [time]
+periods: [period/modern-era]
+regions: [anatolia-balkans]
+date:
+  start: { edtf: "1912", precision: year, status: tradition, derived: true }
+  end: { edtf: "1913", precision: year, status: tradition, derived: true }
+sources: [source/dawlat-uthmaniyya-salabi]
+external_ids:
+  wikidata: Q2887868
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; siege attested in Balkan histories — entry not yet checked on the page"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-wave2
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

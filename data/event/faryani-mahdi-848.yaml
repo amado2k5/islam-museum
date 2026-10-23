@@ -1,0 +1,22 @@
+id: event/faryani-mahdi-848
+class: event
+kind: other
+label: { ar: "دعوى الفرياني المهدية", en: "The Faryani's Mahdist claim" }
+summary:
+  ar: "في سنة ثمان وأربعين وثمانمائة توجه الشيخ شمس الدين محمد بن أحمد الفرياني المغربي إلى جبال حميدة بالأرض المقدسة وهي جبال شاهقة صعبة المرتقى ليس لها مسلك يسع أكثر من واحد وبأعلى جبل منها سهلة بها مزدرع وعيون ماء وكروم وأقوام في غاية المنعة والقوة من التجأ إليهم أمن ولو حارب بهم السلطان فمن دونه، فنزل الفرياني عندهم وادعى أنه المهدي وقيل ادعى أنه القحطاني وراج أمره هناك؛ وكان قدم القاهرة وأكثر التردد إلى المقريزي وواظب الجولان في قرى الريف الأدنى يعمل المواعيد ويذكر الناس وكان يستحضر كثيراً من التواريخ والأخبار الماضية ويدعي معرفة الحديث النبوي ورجاله وتحول عن مذهب مالك وأدغى أنه يقلد الشافعي وولي قضاء نابلس إلى أن ظهر منه ما ظهر {cite:shadharat-dhahab p. 261-262}."
+  en: "In 848 the Moroccan shaykh Muhammad ibn Ahmad al-Faryani withdrew to the sheer Humayda mountains of the Holy Land — a single-file ascent crowned by a fortified plateau of springs and vines — and there declared himself the Mahdi (some said the Qahtani) and his cause thrived; he had once haunted Cairo, frequented al-Maqrizi, preached through the lower villages claiming hadith learning, quit Malikism for the Shafi'i rite and even held the judgeship of Nablus before the claim emerged {cite:shadharat-dhahab p. 261-262}."
+wings: [time]
+periods: [period/mongol-post-mongol]
+regions: [levant-iraq]
+date:
+  start: { edtf: "1444~", hijri: "0848", calendar: julian, precision: year, status: tradition, derived: true, note: "848هـ {cite:shadharat-dhahab p. 261-262}", sources: [source/shadharat-dhahab] }
+relations:
+  - { type: occurred_at, target: place/nablus, note: "جبال حميدة بأعمال نابلس تقريباً", sources: [source/shadharat-dhahab] }
+  - { type: had_participant, target: person/al-faryani, role: "مدعي المهدية", sources: [source/shadharat-dhahab] }
+provenance:
+  layer: own-research
+  source: "شذرات الذهب — ابن العماد (ط مكتبة المثنى 1351، ج7، سنة 848)، قراءة آبل فيجن"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-shadharat-batch-139
+sources: [source/shadharat-dhahab]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

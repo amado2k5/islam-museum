@@ -1,0 +1,49 @@
+id: event/ali-appoints-abbas-sons-as-governors
+class: event
+kind: other
+label: { ar: "تولية علي أبناء العباس وابن أبي بكر الولايات", en: "Ali appoints the sons of al-Abbas and Muhammad ibn Abi Bakr as governors" }
+summary:
+  ar: "ولّى علي بن أبي طالب على الأمصار عدداً من أبناء عمّه العباس بن عبد المطلب: عبد الله على البصرة، وعبيد الله على اليمن والبحرين، وقثم على مكة والطائف، وتمام على المدينة، ومعهم محمد بن أبي بكر ربيبه على مصر. ويعرض الصلابي هذه التولية ضمن قائمة من واحد وأربعين والياً، ويرى أن عليّاً وعثمان قدّما الأقارب إذا ثبتت كفاءتهم، لا لمجرد القرابة {cite:sallabi-ali-vol1 p. 357}{cite:sallabi-ali-vol1 p. 358}."
+  en: "Ali gave the provinces to several sons of his cousin al-Abbas: Abdallah in Basra, Ubaydallah in Yemen and Bahrain, Qutham in Mecca and al-Ta'if, Tammam in Medina, and with them Muhammad ibn Abi Bakr, his step-son, in Egypt. The book sets this among a list of forty-one governors and holds that Ali and Uthman both appointed kin when their competence was clear, not for kinship alone {cite:sallabi-ali-vol1 p. 357}{cite:sallabi-ali-vol1 p. 358}."
+date:
+  start: { edtf: "0656/0661", calendar: julian, precision: year, status: tradition, derived: true, note: "الكتاب لا يثبت تاريخ كل تولية؛ الإطار خلافة علي (35-40 هـ) مشتق من الكتاب؛ ثقة منخفضة." }
+wings: [people, ideas]
+themes: [law-and-courts, politics-governance-and-authority]
+periods: [period/rashidun]
+regions: [levant-iraq, arabia]
+relations:
+  - { type: had_participant, target: person/ali-ibn-abi-talib, role: "صاحب التولية", sources: [source/sallabi-ali-vol1] }
+  - { type: had_participant, target: person/abdullah-ibn-abbas, role: "على البصرة", sources: [source/sallabi-ali-vol1] }
+  - { type: had_participant, target: person/ubaydallah-ibn-abbas, role: "على اليمن والبحرين", sources: [source/sallabi-ali-vol1] }
+  - { type: had_participant, target: person/qutham-ibn-al-abbas, role: "على مكة والطائف", sources: [source/sallabi-ali-vol1] }
+  - { type: had_participant, target: person/tammam-ibn-al-abbas, role: "على المدينة", sources: [source/sallabi-ali-vol1] }
+  - { type: had_participant, target: person/muhammad-ibn-abi-bakr, role: "على مصر", sources: [source/sallabi-ali-vol1] }
+  - { type: part_of, target: period/rashidun }
+issue: { ar: "هل ولّى علي أقاربه لقرابتهم أم لكفاءتهم؟", en: "Did Ali appoint kin for kinship or for competence?" }
+perspectives:
+  - tradition: sunni
+    id: sunni-author
+    summary:
+      ar: "يرى الكتاب أن علياً ولّى أبناء عمه لكفاءتهم، كما ولّى عثمان أقاربه، وأن عمر سنّ التحرج من تقريب الأقربين وأن عثمان وعلياً سنّا لمن بعدهما تقريب الأقارب إذا كانوا أهل كفاءة {cite:sallabi-ali-vol1 p. 359}."
+      en: "The book holds that Ali appointed his cousins for their competence, as Uthman had appointed his kin; that Umar set a caution about favouring relatives, and that Uthman and Ali set the precedent of favouring kin who are competent {cite:sallabi-ali-vol1 p. 359}."
+    sources: [source/sallabi-ali-vol1]
+  - tradition: academic
+    id: academic-view
+    summary:
+      ar: "يستند الكتاب في تقدير الولاة إلى كتاب الولاية على البلدان للدكتور عبد العزيز لعمري (هامش ص 351)، ولم يُنقل في هذا الموضع حكم أكاديمي مخالف (needs_source) {cite:sallabi-ali-vol1 p. 351}."
+      en: "The book takes its account of the provinces from Abd al-Aziz al-Umari's study of the governorships; no contrary academic verdict is quoted at this point (needs_source) {cite:sallabi-ali-vol1 p. 351}."
+    sources: [source/sallabi-ali-vol1]
+  - tradition: other
+    id: critics-of-favouritism
+    summary:
+      ar: "يذكر الكتاب أن بعض الكتّاب المعاصرين اتهموا عليّاً وعثمان بتقديم الأقارب، وأن هذا الاتهام يتوسع فيه في دراسة الولايات {cite:sallabi-ali-vol1 p. 357}. ولا يسمّي الكتاب هؤلاء الكتّاب في الصفحة، فيُعرض قولهم كما ورد وينسب إلى مصدره في الكتاب."
+      en: "The book notes that some modern writers accused Ali and Uthman of favouring relatives. It does not name them on the page, so their view is recorded as the book reports it {cite:sallabi-ali-vol1 p. 357}."
+    sources: [source/sallabi-ali-vol1]
+provenance:
+  layer: own-research
+  source: "sallabi-ali-vol1 pp. 351-359 (harvest OCR)"
+  generated_by: "Claude Code"
+  model: "claude-haiku-5-5"
+  run: "sallabi-ali-vol1-deep-pp351-388"
+sources: [source/sallabi-ali-vol1]
+status: { review: draft, completeness: 2, generated_by: "Claude Code (claude-haiku-5-5); mined from sallabi-ali-vol1 pp. 351-359; contested" }

@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 22:65 (سورة الحج، الآية 65)."
 text: "أَلَمْ تَرَ أَنَّ ٱللَّهَ سَخَّرَ لَكُم مَّا فِى ٱلْأَرْضِ وَٱلْفُلْكَ تَجْرِى فِى ٱلْبَحْرِ بِأَمْرِهِۦ وَيُمْسِكُ ٱلسَّمَآءَ أَن تَقَعَ عَلَى ٱلْأَرْضِ إِلَّا بِإِذْنِهِۦٓ ۗ إِنَّ ٱللَّهَ بِٱلنَّاسِ لَرَءُوفٌ رَّحِيمٌ"
 text_search: "ألم تر أن الله سخر لكم ما في الأرض والفلك تجري في البحر بأمره ويمسك السماء أن تقع على الأرض إلا بإذنه ۗ إن الله بالناس لرءوف رحيم"
+translations:
+  en: { text: "Hast thou not seen how Allah hath made all that is in the earth subservient unto you? And the ship runneth upon the sea by His command, and He holdeth back the heaven from falling on the earth unless by His leave. Lo! Allah is, for mankind, Full of Pity, Merciful.", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "کیا تم نہیں دیکھتے کہ جتنی چیزیں زمین میں ہیں (سب) خدا نے تمہارے زیرفرمان کر رکھی ہیں اور کشتیاں (بھی) جو اسی کے حکم سے دریا میں چلتی ہیں۔ اور وہ آسمان کو تھامے رہتا ہے کہ زمین پر (نہ) گڑ پڑے مگر اس کے حکم سے۔ بےشک خدا لوگوں پر نہایت شفقت کرنے والا مہربان ہے", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-22 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

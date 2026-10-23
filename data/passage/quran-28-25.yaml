@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 28:25 (سورة القصص، الآية 25)."
 text: "فَجَآءَتْهُ إِحْدَىٰهُمَا تَمْشِى عَلَى ٱسْتِحْيَآءٍ قَالَتْ إِنَّ أَبِى يَدْعُوكَ لِيَجْزِيَكَ أَجْرَ مَا سَقَيْتَ لَنَا ۚ فَلَمَّا جَآءَهُۥ وَقَصَّ عَلَيْهِ ٱلْقَصَصَ قَالَ لَا تَخَفْ ۖ نَجَوْتَ مِنَ ٱلْقَوْمِ ٱلظَّـٰلِمِينَ"
 text_search: "فجاءته إحداهما تمشي على استحياء قالت إن أبي يدعوك ليجزيك أجر ما سقيت لنا ۚ فلما جاءه وقص عليه القصص قال لا تخف ۖ نجوت من القوم الظالمين"
+translations:
+  en: { text: "Then there came unto him one of the two women, walking shyly. She said: Lo! my father biddeth thee, that he may reward thee with a payment for that thou didst water (the flock) for us. Then, when he came unto him and told him the (whole) story, he said: Fear not! Thou hast escaped from the wrongdoing folk.", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "(تھوڑی دیر کے بعد) ان میں سے ایک عورت جو شرماتی اور لجاتی چلی آتی تھی۔ موسٰی کے پاس آئی اور کہنے لگی کہ تم کو میرے والد بلاتے ہیں کہ تم نے جو ہمارے لئے پانی پلایا تھا اس کی تم کو اُجرت دیں۔ جب وہ اُن کے پاس آئے اور اُن سے اپنا ماجرا بیان کیا تو اُنہوں نے کہا کہ کچھ خوف نہ کرو۔ تم ظالم لوگوں سے بچ آئے ہو", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-28 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

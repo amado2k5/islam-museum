@@ -1,0 +1,23 @@
+id: event/capture-santa-cruz-saadi-948
+class: event
+kind: conquest
+label: { ar: "فتح السعديين حصن سانتا كروز (٩٤٨هـ/١٥٤١م)", en: "Sa'di capture of Santa Cruz (1541)" }
+summary:
+  ar: "حقق السعديون نصراً كبيراً على البرتغاليين وفتحوا حصن سانتا كروز — وكان الحاكم السعدي قد صار يملك المدفعية العثمانية والآلات الحربية وجنوداً مدربين، وظهرت تلك الإمدادات عند الحصار. ولما بلغ الملك البرتغالي جان الثالث الخبر أمر حاميتي آسفي وأزمور بالجلاء فوراً، وكتب إلى سفيره بمدريد رسالة في ٢٢ رمضان ٩٤٨هـ/ديسمبر ١٥٤١م يطلع بها شارل الخامس على أسباب القرار وأنه أمر بتحصين مازكان {cite:dawlat-uthmaniyya-salabi p. 227}."
+  en: "The Sa'dis took the fortress of Santa Cruz — their ruler now fielding Ottoman-supplied artillery, war engines and drilled troops that showed at the siege. On the news João III ordered Safi and Azemmour evacuated at once, telling his Madrid ambassador in a letter of 22 Ramadan 948/December 1541 — for Charles V's eyes — that Mazagan would be fortified instead {cite:dawlat-uthmaniyya-salabi p. 227}."
+wings: [time]
+periods: [period/gunpowder-empires]
+regions: [maghreb]
+date:
+  start: { edtf: "1541", hijri: "0948", calendar: julian, precision: year, status: tradition, derived: true, sources: [source/dawlat-uthmaniyya-salabi] }
+relations:
+  - { type: had_participant, target: person/ahmad-al-araj-al-sadi, sources: [source/dawlat-uthmaniyya-salabi] }
+  - { type: had_participant, target: person/joao-iii-portugal, sources: [source/dawlat-uthmaniyya-salabi] }
+sources: [source/dawlat-uthmaniyya-salabi]
+provenance:
+  layer: own-research
+  source: "الدولة العثمانية لعلي محمد الصلابي (ط1 1421) ص 227"
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: salabi-uthmani-batch10
+status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 Medium)" }

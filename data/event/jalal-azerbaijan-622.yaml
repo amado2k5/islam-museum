@@ -1,0 +1,23 @@
+id: event/jalal-azerbaijan-622
+class: event
+kind: conquest
+label: { ar: "ملك جلال الدين أذربيجان", en: "Jalal al-Din takes Azerbaijan" }
+date:
+  start: { edtf: "1225~", hijri: "0622", calendar: julian, precision: year, status: tradition, derived: true }
+summary:
+  ar: "ملك جلال الدين بن خوارزم شاه بلاد أذربيجان بعد هزمه صاحبها أزبك ودخل تبريز {cite:kamil-ibn-al-athir p. 447}."
+  en: "Jalal al-Din took Azerbaijan after defeating its ruler Uzbak and entered Tabriz {cite:kamil-ibn-al-athir p. 447}."
+sides:
+  - label: { ar: "المسلمون" }
+  - label: { ar: "خصومهم" }
+relations:
+  - { type: occurred_at, target: place/tabriz, sources: [source/kamil-ibn-al-athir] }
+  - { type: had_participant, target: person/jalal-al-din-khwarazmshah, role: "المالك", sources: [source/kamil-ibn-al-athir] }
+  - { type: had_participant, target: person/uzbak-atabeg, role: "المهزوم", sources: [source/kamil-ibn-al-athir] }
+provenance:
+  layer: own-research
+  source: "الكامل في التاريخ لابن الأثير، قراءة آبل فيجن"
+  generated_by: "Devin (SWE-2 Medium) from Apple Vision OCR"
+  run: lib-kamil-v12-batch07
+sources: [source/kamil-ibn-al-athir]
+status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 Medium)" }

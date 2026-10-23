@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 68:20 (سورة القلم، الآية 20)."
 text: "فَأَصْبَحَتْ كَٱلصَّرِيمِ"
 text_search: "فأصبحت كالصريم"
+translations:
+  en: { text: "And in the morning it was as if plucked.", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "تو وہ ایسا ہوگیا جیسے کٹی ہوئی کھیتی", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-68 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

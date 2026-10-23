@@ -1,0 +1,23 @@
+id: event/first-egyptian-ottoman-war
+class: event
+kind: war
+label: { ar: "الحرب المصرية العثمانية الأولى", en: "First Egyptian–Ottoman War" }
+summary:
+  ar: "بطاقة أولية للحرب المصرية العثمانية الأولى من ١٨٣١ إلى ١٨٣٣م، حملة إبراهيم باشا على الشام التي انتهت بمعاهدة كوتاهية؛ لم تُراجع مصادره على الصفحة بعد."
+  en: "Draft card for the First Egyptian–Ottoman War of 1831–1833, Ibrahim Pasha's Syrian campaign ended by the Convention of Kütahya; its sources are not yet checked on the page."
+wings: [time]
+periods: [period/colonial-era]
+regions: [levant-iraq]
+date:
+  start: { edtf: "1831", precision: year, status: tradition, derived: true }
+  end: { edtf: "1833", precision: year, status: tradition, derived: true }
+sources: [source/tarikh-islam-hasan-ibrahim]
+external_ids:
+  wikidata: Q2584439
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; war attested in Egyptian and Ottoman histories — entry not yet checked on the page"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-wave2
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

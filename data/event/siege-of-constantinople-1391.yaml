@@ -1,0 +1,23 @@
+id: event/siege-of-constantinople-1391
+class: event
+kind: siege
+label: { ar: "حصار القسطنطينية (١٣٩١)", en: "Siege of Constantinople (1391)" }
+summary:
+  ar: "بطاقة أولية لحصار القسطنطينية في ١٣٩١–١٣٩٢م، أول حصارات بايزيد الأول للعاصمة البيزنطية؛ لم تُراجع مصادره على الصفحة بعد."
+  en: "Draft card for Bayezid I's first Siege of Constantinople in 1391–92; its sources are not yet checked on the page."
+wings: [time]
+periods: [period/crusades-ayyubid-mamluk]
+regions: [anatolia-balkans]
+date:
+  start: { edtf: "1391", precision: year, status: tradition, derived: true }
+  end: { edtf: "1392", precision: year, status: tradition, derived: true }
+sources: [source/dawlat-uthmaniyya-salabi]
+external_ids:
+  wikidata: Q3485862
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; battle attested in narrative histories — entry not yet checked on the page"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-wave2
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

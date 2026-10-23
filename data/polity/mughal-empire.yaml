@@ -1,0 +1,38 @@
+id: polity/mughal-empire
+class: polity
+kind: empire
+label:
+  ar: الدولة المغولية
+  en: Mughal Empire
+summary:
+  ar: دولة إسلامية حكمت معظم شبه القارة الهندية بدءاً بظهير الدين بابر سنة 1526م، وبلغت ذروتها في عهد أكبر وشاه جهان، وتفككت تدريجياً بعد أورنغزيب. يعرض ريتشاردز تاريخها الإمبراطوري حتى 1720م.
+  en: An Islamic dynasty that ruled most of the Indian subcontinent from Babur's conquest in 1526; it reached its height under Akbar and Shah Jahan and broke up gradually after Aurangzeb. Richards covers its imperial history to 1720.
+wings: []
+periods:
+- period/gunpowder-empires
+regions:
+- south-asia
+start:
+  edtf: "1526"
+  calendar: gregorian
+  precision: year
+  status: historical
+  derived: false
+  sources: [source/richards-mughal-empire-1993]
+end:
+  edtf: "1857"
+  hijri: "1273~"
+  calendar: gregorian
+  precision: year
+  status: historical
+  derived: true
+  note: "عزل آخر الأباطرة بهادر شاه ظفر وأُعلن نهاية حكمه في سبتمبر 1857 (بريطانيكا)؛ تحويل الهجري مشتق. مصدر ثانٍ واحد فقط؛ ريتشاردز يغطي حتى 1720م ولا يذكر هذا التاريخ."
+  sources: [source/britannica-bahadur-shah-ii]
+external_ids:
+  wikidata: Q33296
+sources:
+- source/richards-mughal-empire-1993
+status:
+  review: draft
+  completeness: 1
+  generated_by: Claude Code (maintainer session); label and summary from Richards (1993) and Wikidata, 19 Oct 2026

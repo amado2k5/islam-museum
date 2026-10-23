@@ -1,0 +1,27 @@
+id: event/karkh-qalain-gates-441
+class: event
+kind: civil-war
+label:
+  ar: "حرب الأبواب بين الكرخ والقلائين"
+  en: "The gate-building war between Karkh and al-Qala'in"
+summary:
+  ar: "في شعبان سنة إحدى وأربعين وأربعمائة شرع أهل الكرخ في بناء سور على سوق الأنماط من آجرها يحصّنون به الكرخ، فرأى أهل السنة من القلائين ذلك فشرعوا في بناء سور على سوق القلائين وبدأوا بعمل بابه محاذيًا لباب السماكين، وصار البناء ميدان فخر: أعان الأتراك أهل القلائين بأموالهم وبغالهم، وجُرّت سفينة بالآجر قبّاؤها ديباج وعمامتها قصب، وحمل أهل الكرخ آجرهم على رؤوس الرجال في البفدانات وقدامها الطبول والزمور والمخانيث بآلات الحكاية، ورُمي ماء الورد في الأساسات، حتى إن امرأة نزعت جوكانيتها من الديباج فأعطتها للبناء. وفي يوم عيد الفطر ثارت الفتنة بين الفريقين فوقع جرح وقتل، ونقل أهل القلائين آخر سور الأنماط إلى بنائهم وجعلوا بين البابين سقفًا ودكاكين وحصرًا وقناديل وعملوا منه مسجدًا سمّي الباب المسعود {cite:muntazam-ibn-al-jawzi j.8 p.483-484}."
+  en: "In Sha'ban 441 the people of Karkh began a wall over the Anmat market with a gate facing Sammakin; the Sunnis of Qala'in answered with a rival wall and gate of their own — and the building turned into a civic spectacle: Turks funded the Qala'in side with money and mules, a barge of bricks came with a brocade canopy, Karkh carried bricks on men's heads preceded by drums and mimes, rosewater was sprinkled into the foundations, and a woman stripped off her brocade jukaniyya and gave it to the building. On 'Id al-Fitr the feud broke into wounds and killings, the Sunnis raised a roofed market and a mosque between the two gates called Bab al-Mas'ud {cite:muntazam-ibn-al-jawzi j.8 p.483-484}."
+wings: [time]
+periods: [period/buyid-seljuk-fatimid-era]
+regions: [levant-iraq]
+themes: [sects-and-schools, cities]
+sides:
+  - label: { ar: "أهل الكرخ" }
+  - label: { ar: "أهل القلائين وأهل السنة" }
+date:
+  start: { edtf: "1050-02~", hijri: "0441-08", calendar: julian, precision: month, status: tradition, derived: true, note: "شعبان ٤٤١ {cite:muntazam-ibn-al-jawzi j.8 p.482-483}" }
+relations:
+  - { type: occurred_at, target: place/baghdad, sources: [source/muntazam-ibn-al-jawzi] }
+provenance:
+  layer: own-research
+  source: "المنتظم في تاريخ الملوك والأمم — ابن الجوزي (ج8، أحداث سنة ٤٤١)، قراءة آبل فيجن، مسح AAlexandrina-224011"
+  generated_by: "Devin (SWE-2 Medium) from Apple Vision OCR"
+  run: lib-muntazam-350-474-batch24
+sources: [source/muntazam-ibn-al-jawzi]
+status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 Medium)" }

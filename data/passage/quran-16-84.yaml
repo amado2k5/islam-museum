@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 16:84 (سورة النحل، الآية 84)."
 text: "وَيَوْمَ نَبْعَثُ مِن كُلِّ أُمَّةٍ شَهِيدًا ثُمَّ لَا يُؤْذَنُ لِلَّذِينَ كَفَرُوا۟ وَلَا هُمْ يُسْتَعْتَبُونَ"
 text_search: "ويوم نبعث من كل أمة شهيدا ثم لا يؤذن للذين كفروا ولا هم يستعتبون"
+translations:
+  en: { text: "And (bethink you of) the day when we raise up of every nation a witness, then there is no leave for disbelievers, nor are they allowed to make amends.", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "اور جس دن ہم ہر اُمت میں سے گواہ (یعنی پیغمبر) کھڑا کریں گے تو نہ تو کفار کو (بولنے کی) اجازت ملے گی اور نہ اُن کے عذر قبول کئے جائیں گے", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-16 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

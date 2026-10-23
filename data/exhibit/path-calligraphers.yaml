@@ -1,0 +1,67 @@
+id: exhibit/path-calligraphers
+class: exhibit
+kind: trail
+label:
+  ar: أساتذة الخط
+  en: Masters of Calligraphy
+summary:
+  ar: 'مسار في ملوك القلم: ابن مقلة يضع المقاييس، والمصاحف تزدان — فن الحرف.'
+  en: A trail through the masters of the pen.
+audience:
+- newcomer
+- student
+duration_minutes: 30
+wings: []
+regions:
+- levant-iraq
+rooms:
+- title:
+    ar: ابن مقلة
+    en: Ibn Muqla
+  body:
+    ar: 'الوزير الخطاط: يضع النقطة والنسب.'
+    en: 'الوزير الخطاط: يضع النقطة والنسب.'
+  features:
+  - person/ibn-muqla
+  - concept/khatt-al-arabi
+- title:
+    ar: المدارس
+    en: The schools
+  body:
+    ar: 'كوفي ونسخ وثلث وديواني: قرون من الحروف.'
+    en: 'كوفي ونسخ وثلث وديواني: قرون من الحروف.'
+  features:
+  - concept/islamic-calligraphy
+  - concept/khatt-al-arabi
+- title:
+    ar: المصاحف
+    en: The codices
+  body:
+    ar: 'أعظم أعمال الخطاطين: كتاب الله في أبهى صورة.'
+    en: 'أعظم أعمال الخطاطين: كتاب الله في أبهى صورة.'
+  features:
+  - object/al-mushaf-al-azraq
+  - object/awraq-quran-abbasi
+- title:
+    ar: على العمارة
+    en: On buildings
+  body:
+    ar: 'الخط يزين المساجد: من قبة الصخرة إلى اليوم.'
+    en: 'الخط يزين المساجد: من قبة الصخرة إلى اليوم.'
+  features:
+  - building/dome-of-the-rock
+  - concept/arabesque
+prerequisites:
+- exhibit/path-islam-in-30-minutes
+sources:
+- source/wikidata
+provenance:
+  layer: own-research
+  source: Devin-assembled trail from existing museum entities
+  generated_by: Devin (SWE-2 High)
+  model: SWE-2 High
+  run: pathways-batch-6
+status:
+  review: draft
+  completeness: 1
+  generated_by: Devin (SWE-2 High), pathways lane, 2026-10-16

@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 71:13 (سورة نوح، الآية 13)."
 text: "مَّا لَكُمْ لَا تَرْجُونَ لِلَّهِ وَقَارًا"
 text_search: "ما لكم لا ترجون لله وقارا"
+translations:
+  en: { text: "What aileth you that ye hope not toward Allah for dignity", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "تم کو کیا ہوا ہے کہ تم خدا کی عظمت کا اعتقاد نہیں رکھتے", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-71 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

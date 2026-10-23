@@ -1,0 +1,23 @@
+id: event/death-of-fatima-bint-muhammad
+class: event
+kind: other
+label: { en: "The death and burial of Fatima bint Muhammad", ar: "وفاة فاطمة بنت النبي ودفنها" }
+summary:
+  en: "Fatima died in Medina six months after the Prophet, on the night of Tuesday, 3 Ramadan 11 AH, in a narration Sallabi cites through Malik and Ali ibn al-Husayn. Abu Bakr and Umar came to condole with Ali; in one report Abu Bakr led the funeral prayer, while Muslim's report, which the book prefers, says Ali led it."
+  ar: "توفيت فاطمة بالمدينة بعد النبي بنحو ستة أشهر، ليلة الثلاثاء لثلاث خلون من رمضان سنة 11هـ، في رواية ينقلها الكتاب عن مالك عن جعفر عن أبيه عن علي بن الحسين. وجاء أبو بكر وعمر يعزيان علياً، وفي رواية صلى عليها أبو بكر، ورواية مسلم التي يرجحها الكتاب أن علياً صلى عليها."
+wings: [people, time]
+themes: [family-marriage-kinship, health-body-death]
+periods: [period/rashidun]
+regions: [arabia]
+date:
+  start: { edtf: "0632-11", hijri: "0011-09-03", calendar: julian, precision: month, status: tradition, derived: true, note: "التاريخ الهجري (ليلة الثلاثاء لثلاث خلون من رمضان سنة إحدى عشرة) من رواية ينقلها الكتاب (ص 138) ولم يُتحقق من سندها هنا. الشهر الميلادي مشتق منه تقريباً." }
+relations:
+  - { type: had_participant, target: person/fatima, role: "المتوفاة", sources: [source/sallabi-ali-vol1] }
+  - { type: had_participant, target: person/ali-ibn-abi-talib, role: "جهّزها وصلى عليها في رواية مسلم التي يرجحها الكتاب", sources: [source/sallabi-ali-vol1] }
+  - { type: had_participant, target: person/abu-bakr, role: "حضر ليعزي، وصلى عليها في رواية", sources: [source/sallabi-ali-vol1] }
+  - { type: had_participant, target: person/umar-ibn-al-khattab, role: "حضر مع أبي بكر ليعزي علياً", sources: [source/sallabi-ali-vol1] }
+  - { type: had_participant, target: person/asma-bint-umays, role: "مرّضتها وشاركت في غسلها", sources: [source/sallabi-ali-vol1] }
+  - { type: occurred_at, target: place/medina }
+sources: [source/sallabi-ali-vol1]
+status: { review: draft, completeness: 1, generated_by: "Claude Code (claude-haiku-5-5); mined from sallabi-ali-vol1 pp. 137-138" }
+provenance: { layer: own-research, source: "sallabi-ali-vol1 pp. 136-138", generated_by: "Claude Code", model: "claude-haiku-5-5", run: "sallabi-ali-vol1-deep-pp111-150" }

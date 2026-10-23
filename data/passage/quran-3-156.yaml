@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 3:156 (سورة آل عمران، الآية 156)."
 text: "يَـٰٓأَيُّهَا ٱلَّذِينَ ءَامَنُوا۟ لَا تَكُونُوا۟ كَٱلَّذِينَ كَفَرُوا۟ وَقَالُوا۟ لِإِخْوَٰنِهِمْ إِذَا ضَرَبُوا۟ فِى ٱلْأَرْضِ أَوْ كَانُوا۟ غُزًّى لَّوْ كَانُوا۟ عِندَنَا مَا مَاتُوا۟ وَمَا قُتِلُوا۟ لِيَجْعَلَ ٱللَّهُ ذَٰلِكَ حَسْرَةً فِى قُلُوبِهِمْ ۗ وَٱللَّهُ يُحْىِۦ وَيُمِيتُ ۗ وَٱللَّهُ بِمَا تَعْمَلُونَ بَصِيرٌ"
 text_search: "يا أيها الذين آمنوا لا تكونوا كالذين كفروا وقالوا لإخوانهم إذا ضربوا في الأرض أو كانوا غزى لو كانوا عندنا ما ماتوا وما قتلوا ليجعل الله ذلك حسرة في قلوبهم ۗ والله يحيي ويميت ۗ والله بما تعملون بصير"
+translations:
+  en: { text: "O ye who believe! Be not as those who disbelieved and said of their brethren who went abroad in the land or were fighting in the field: If they had been (here) with us they would not have died or been killed: that Allah may make it anguish in their hearts. Allah giveth life and causeth death; and Allah is Seer of what ye do.", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "مومنو! ان لوگوں جیسے نہ ہونا جو کفر کرتے ہیں اور ان کے (مسلمان) بھائی جب (خدا کی راہ میں) سفر کریں (اور مر جائیں) یا جہاد کو نکلیں (اور مارے جائیں) تو ان کی نسبت کہتے ہیں کہ اگر وہ ہمارے پاس رہتے تو نہ مرتے اور نہ مارے جاتے۔ ان باتوں سے مقصود یہ ہے کہ خدا ان لوگوں کے دلوں میں افسوس پیدا کر دے اور زندگی اور موت تو خدا ہی دیتا ہے اور خدا تمہارے سب کاموں کو دیکھ رہا ہے", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-3 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

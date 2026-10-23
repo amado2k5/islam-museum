@@ -1,0 +1,23 @@
+id: person/al-hajj-bashir
+class: person
+label: { ar: "الحاج بشير", en: "al-Hajj Bashir" }
+names:
+  - { kind: full, lang: ar, value: "الحاج بشير" }
+gender: male
+roles: [military]
+summary:
+  ar: "القائد الذي برزت بطولاته في الدفاع عن الجزائر ضد حملة شارل الخامس سنة ٩٤٨هـ/١٥٤١م؛ يصفه الصلابي بأنه استطاع بجنوده أن يحصد رؤوس المهاجمين بشجاعة فائقة وبسالة نادرة {cite:dawlat-uthmaniyya-salabi p. 225}."
+  en: "The commander whose exploits stood out in Algiers' 948/1541 defence against Charles V's expedition — al-Salabi credits him with cutting down the attackers 'with supreme courage and rare gallantry' {cite:dawlat-uthmaniyya-salabi p. 225}."
+wings: [people]
+periods: [period/gunpowder-empires]
+regions: [maghreb]
+relations:
+  - { type: participated_in, target: event/algiers-expedition-1541, sources: [source/dawlat-uthmaniyya-salabi] }
+sources: [source/dawlat-uthmaniyya-salabi]
+provenance:
+  layer: own-research
+  source: "الدولة العثمانية لعلي محمد الصلابي (ط1 1421) ص 225"
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: salabi-uthmani-batch10
+status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 Medium)" }

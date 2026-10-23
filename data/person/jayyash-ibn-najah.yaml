@@ -1,0 +1,37 @@
+id: person/jayyash-ibn-najah
+class: person
+label:
+  ar: جياش بن نجاح
+  en: Jayyash ibn Najah
+summary:
+  ar: "جياش بن نجاح، كنيته ابن القطاي؛ لحق بجزيرة دهلك هو وأخوه سعيد يتعلمان القرآن والآداب، ثم خالفا العسكر وسارا في اتباع علي الصليحي فبيتاه في اللجم وهو متوجه إلى مكة فانتقض عسكره وتولى قتله جياش بيده سنة 473هـ، وهرب إلى عدن متنكراً ثم إلى الهند حتى رجع واستولى على زبيد وبقي ملكاً عليها يخطب للعباسيين والصليحيون يخطبون للعبيديين، وكان موصوفاً بالعدل وهلك على رأس المائة الخامسة فولي ابنه الفاتك."
+  en: "Jayyash ibn Najah, kunya Ibn al-Qattay; he fled with his brother Sa'id to Dahlak island to study Qur'an and letters, then shadowed Ali al-Sulayhi's army, ambushed him in the saddle-lines on the Mecca road and killed him with his own hand in 473 — fleeing disguised through Aden to India, returning to take Zabid where he ruled under the Abbasid khutba against the Sulayhids' Fatimid one, famed for justice, dying at the turn of the fifth century and succeeded by his son al-Fatik."
+gender: male
+roles: [ruler]
+died:
+  edtf: "1106~"
+  hijri: "0500~"
+  calendar: julian
+  precision: year
+  status: tradition
+  derived: true
+  note: هلك على رأس المائة الخامسة؛ التحويل مشتق.
+  sources:
+  - source/tarikh-ibn-khaldun-ibar
+wings: [people]
+periods: [period/buyid-seljuk-fatimid-era]
+regions: [arabia]
+relations:
+- { type: "ruler_of", target: "polity/najahid-dynasty", note: "ثالث ملوك بني نجاح بزبيد وقاتل علي الصليحي", sources: [source/tarikh-ibn-khaldun-ibar] }
+sources:
+- source/tarikh-ibn-khaldun-ibar
+provenance:
+  layer: own-research
+  source: ابن خلدون، العبر — دولة بني نجاح بزبيد، ص1038-1039 (طبعة هيليوبوليس)
+  generated_by: Devin (SWE-2 High) from Apple Vision OCR
+  model: swe-2-high
+  run: lib-ibar-east-30
+status:
+  review: draft
+  completeness: 1
+  generated_by: Devin (SWE-2 High); extracted from Ibn Khaldun al-Ibar via Apple Vision OCR

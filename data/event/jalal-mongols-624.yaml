@@ -1,0 +1,23 @@
+id: event/jalal-mongols-624
+class: event
+kind: battle
+label: { ar: "الحرب بين جلال الدين والتتر", en: "Jalal al-Din's first clash with the Mongols in Azerbaijan" }
+date:
+  start: { edtf: "1227~", hijri: "0624", calendar: julian, precision: year, status: tradition, derived: true }
+summary:
+  ar: "جرت الحرب بين جلال الدين بن خوارزم شاه وبين التتر الذين وصلوا إلى بلاد الإسلام، فوقع بينهم قتال عظيم {cite:kamil-ibn-al-athir p. 473}."
+  en: "War broke out between Jalal al-Din and the Mongol forces now inside the Islamic lands — a great battle {cite:kamil-ibn-al-athir p. 473}."
+sides:
+  - label: { ar: "المسلمون" }
+  - label: { ar: "خصومهم" }
+relations:
+  - { type: occurred_at, target: place/azerbaijan, sources: [source/kamil-ibn-al-athir] }
+  - { type: had_participant, target: person/jalal-al-din-khwarazmshah, role: "الطرف", sources: [source/kamil-ibn-al-athir] }
+  - { type: had_participant, target: group/mongols, role: "الطرف الآخر", sources: [source/kamil-ibn-al-athir] }
+provenance:
+  layer: own-research
+  source: "الكامل في التاريخ لابن الأثير، قراءة آبل فيجن"
+  generated_by: "Devin (SWE-2 Medium) from Apple Vision OCR"
+  run: lib-kamil-v12-batch07
+sources: [source/kamil-ibn-al-athir]
+status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 Medium)" }

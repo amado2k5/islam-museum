@@ -1,0 +1,24 @@
+id: person/sulayman-sulayman-khamis
+class: person
+label: { en: Sulayman Sulayman Khamis, ar: سليمان سليمان خميس }
+names:
+  - { kind: full, lang: ar, value: سليمان سليمان إسماعيل خميس }
+gender: male
+born: { edtf: "1913", calendar: gregorian, precision: year, status: tradition, sources: [source/min-al-falsafa-al-yunaniyya-azhar], note: "ولد بإدكو بمحافظة البحيرة {cite:min-al-falsafa-al-yunaniyya-azhar p. 11}؛ يحتاج إلى مصدر ثانٍ." }
+died: { edtf: "1971-07-07", hijri: "1391-05-13", calendar: gregorian, precision: day, status: historical, sources: [source/min-al-falsafa-al-yunaniyya-azhar], note: "توفي 13 جمادى الأولى 1391ه، الموافق 7 يوليو 1971م، ودفن بإدكو، كما يذكر الكتاب {cite:min-al-falsafa-al-yunaniyya-azhar p. 12}؛ التحويل من الكتاب ويُحتمل فرق يوم إلى ثلاثة أيام." }
+roles: [scholar, philosopher]
+disciplines: [concept/falsafa, concept/ilm-al-kalam]
+summary:
+  en: "Egyptian Azhari scholar (1913–1971) and professor in the faculty of Usul al-Din; author of the book From Greek Philosophy to Modern Philosophy, and of works on creed and on the history of Islamic thought."
+  ar: "عالم أزهري مصري (1913–1971م)، وأستاذ بكلية أصول الدين؛ ألّف كتاب «من الفلسفة اليونانية إلى الفلسفة الحديثة»، وكتبًا في العقيدة وتاريخ الفكر الإسلامي."
+wings: [people]
+themes: [philosophy-and-logic]
+regions: [egypt-nile]
+sources: [source/min-al-falsafa-al-yunaniyya-azhar]
+provenance:
+  layer: own-research
+  source: "من الفلسفة اليونانية إلى الفلسفة الحديثة، سليمان سليمان خميس (مجمع البحوث الإسلامية، 1447ه/2025م)، ترجمة المؤلف ص 11-12"
+  generated_by: "Claude Code"
+  model: claude-haiku-5-5
+  run: azhar-min-al-falsafa-1
+status: { review: draft, completeness: 1, generated_by: "Claude Code (claude-haiku-5-5)" }

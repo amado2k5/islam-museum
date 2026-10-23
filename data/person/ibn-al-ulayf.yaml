@@ -1,0 +1,25 @@
+id: person/ibn-al-ulayf
+class: person
+label: { ar: "جلال الدين ابن العليف", en: "Jalal al-Din Ibn al-'Ulayf" }
+names:
+  - { value: "جلال الدين محمد بن الحسن بن عيسى بن محمد بن أحمد بن مسلم المكي الحلوي المعروف بابن العليف", kind: full }
+gender: male
+summary:
+  ar: "جلال الدين ابن العليف المكي؛ ولد بحلى سنة اثنتين وأربعين وسبعمائة ونزل مكة وسمع من المزي وابن جماعة وكان غالياً في التشيع وتعانى النظم فبرع فيه وافق لقرنائه الغالية، مدح ملوك اليمن وأمراء مكة وينبع وانقطع إلى حسن بن عجلان بمكة وله في الناصر لدين الله صاحب صنعاء قصائد، توفي في سابع رجب {cite:shadharat-dhahab p. 120-121}."
+  en: "Jalal al-Din Ibn al-'Ulayf (b. 742 at Hali in Yemen) — Meccan poet described by the source as an extreme Shi'i; praised the rulers of Yemen, Mecca and Yanbu and attached himself to Hasan b. 'Ajlan; died 7 Rajab 815 {cite:shadharat-dhahab p. 120-121}."
+roles: [poet]
+wings: [people]
+periods: [period/mongol-post-mongol]
+regions: [arabia]
+faith:
+  - value: shia-twelver
+    basis: documented
+born: { edtf: "1341~", hijri: "0742", calendar: julian, precision: year, status: tradition, derived: true, note: "ولد بحلى سنة اثنتين وأربعين وسبعمائة {cite:shadharat-dhahab p. 120}", sources: [source/shadharat-dhahab] }
+died: { edtf: "1412-10-12~", hijri: "0815-07-07", calendar: julian, precision: day, status: tradition, derived: true, note: "توفي في سابع رجب 815 {cite:shadharat-dhahab p. 121}", sources: [source/shadharat-dhahab] }
+provenance:
+  layer: own-research
+  source: "شذرات الذهب — ابن العماد (ط مكتبة المثنى 1351، ج7، سنة 815)، قراءة آبل فيجن"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-shadharat-batch-137
+sources: [source/shadharat-dhahab]
+status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 High)" }

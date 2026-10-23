@@ -1,0 +1,26 @@
+id: person/ali-ibn-aybak-dimashqi
+class: person
+label: { ar: "علي بن أيبك الدمشقي الشاعر", en: "Ali ibn Aybak, the Damascene poet" }
+names:
+  - { value: "علي بن أيبك بن عبد الله الدمشقي الشاعر", kind: full }
+born: { edtf: "1329~", hijri: "0729~", calendar: julian, precision: year, status: tradition, derived: true, note: "توفي عن اثنتين وسبعين سنة {cite:shadharat-dhahab p. 17}." }
+died: { edtf: "1398-11~", hijri: "0801-03-12", calendar: julian, precision: day, status: tradition, derived: true, note: "توفي في ثاني عشر ربيع الأول عن اثنتين وسبعين سنة {cite:shadharat-dhahab p. 17}." }
+summary:
+  ar: "الشاعر الدمشقي؛ اشتهر بالنظم وكان له إلمام بالتاريخ وعلّق تاريخاً لحوادث زمانه، وأجاز له ابن حجر العسقلاني {cite:shadharat-dhahab p. 17}."
+gender: male
+roles: [poet, historian]
+wings: [people]
+periods: [period/mongol-post-mongol]
+regions: [levant-iraq]
+faith:
+  - value: sunni
+    basis: tradition
+relations:
+  - { type: died_in, target: place/damascus, sources: [source/shadharat-dhahab] }
+sources: [source/shadharat-dhahab]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }
+provenance:
+  layer: own-research
+  source: "شذرات الذهب — ابن العماد (ط مثنى، ج7، سنة 801)، قراءة آبل فيجن"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-shadharat-batch-136

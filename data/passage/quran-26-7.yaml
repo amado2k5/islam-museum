@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 26:7 (سورة الشعراء، الآية 7)."
 text: "أَوَلَمْ يَرَوْا۟ إِلَى ٱلْأَرْضِ كَمْ أَنۢبَتْنَا فِيهَا مِن كُلِّ زَوْجٍ كَرِيمٍ"
 text_search: "أولم يروا إلى الأرض كم أنبتنا فيها من كل زوج كريم"
+translations:
+  en: { text: "Have they not seen the earth, how much of every fruitful kind We make to grow therein?", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "کیا انہوں نے زمین کی طرف نہیں دیکھا کہ ہم نے اس میں ہر قسم کی کتنی نفیس چیزیں اُگائی ہیں", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-26 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

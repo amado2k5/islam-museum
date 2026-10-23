@@ -1,0 +1,7 @@
+# Library lane: Sharh al-Tahawiyya (Ibn Abi al-Izz al-Hanafi)
+
+**Edition and item used:** `books/aqeedah/sharh-tahawiyya/AAlexandrina-104659` (Dar al-Hadith, Cairo, 1421 AH / 2000; 478 PDF pages, OCR; **printed page = PDF page − 4**; the editor's name is partly illegible on the title page). The other extracted item, `20200222_20200222_0803`, is a modern commentary by Abd al-Rahman al-Barrak (1429 AH) and is not used yet: it criticises the Tahawi definition of iman in strong terms and is a modern copyrighted commentary; if used it should be recorded as that author's view, attributed, and not as a description of the Hanafi position (which is to be described in Hanafi sources).
+
+**Done (13 Oct 2026):** only the iman passage (printed pp. 267 and 268): `concept/iman` gains two opinions: the Hanafi commentator's survey (the difference between Abu Hanifa and the other imams is formal, a verbal dispute) and the Maturidi view as Ibn Abi al-Izz reports it (marked as a report about al-Maturidi, not from his own books). New: `source/sharh-tahawiyya-ibn-abi-al-izz`, `work/sharh-aqida-tahawiyya`, `person/ibn-abi-al-izz-al-hanafi` (dates from the title page, flagged), stub `person/abu-mansur-al-maturidi`.
+
+**Next:** this commentary discusses each Tahawi article and reports other positions (Ash'ari, Maturidi, Mu'tazila, Jahmiyya and others) in its own words; read the sections on the attributes, the Qur'an, the vision of God, qadar, and the caliphs and add them to the same concepts. A Maturidi opinion in the Maturidi's own words needs a Maturidi text.

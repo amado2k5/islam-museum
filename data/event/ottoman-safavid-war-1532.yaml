@@ -1,0 +1,23 @@
+id: event/ottoman-safavid-war-1532
+class: event
+kind: war
+label: { ar: "الحرب العثمانية الصفوية (١٥٣٢–١٥٥٥)", en: "Ottoman–Safavid War of 1532–1555" }
+summary:
+  ar: "بطاقة أولية للحرب العثمانية الصفوية من ١٥٣٢ إلى ١٥٥٥م، حروب سليمان القانوني على العراق وأذربيجان حتى صلح أماسية؛ لم تُراجع مصادره على الصفحة بعد."
+  en: "Draft card for the Ottoman–Safavid War of 1532–1555, Suleiman's campaigns over Iraq and Azerbaijan ended by the Peace of Amasya; its sources are not yet checked on the page."
+wings: [time]
+periods: [period/gunpowder-empires]
+regions: [persia-central-asia]
+date:
+  start: { edtf: "1532", precision: year, status: tradition, derived: true }
+  end: { edtf: "1555", precision: year, status: tradition, derived: true }
+sources: [source/dawlat-uthmaniyya-salabi]
+external_ids:
+  wikidata: Q700841
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; war attested in Ottoman-Safavid histories — entry not yet checked on the page"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-wave2
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

@@ -1,0 +1,26 @@
+id: event/anti-fatimid-mahadir-444
+class: event
+kind: declaration
+label:
+  ar: "محاضر الديوان في القدح في أنساب العبيديين"
+  en: "The diwan manifesto impugning the Ubaydid genealogy"
+summary:
+  ar: "في سنة أربع وأربعين وأربعمائة كُتبت في الديوان محاضر تذكر صاحب مصر ومن تقدم من أسالفه بما يقدح في أنسابهم التي يدّعونها، وجحدوا اتصالهم برسول الله وبعلي وفاطمة، وعزوهم إلى الديصانية من المجوس والقداحية من اليهود، وأنهم خارجون عن الإسلام — على ما جرى مثله في أيام القادر — وأُخذت خطوط الأشراف والقضاة والشهود والعلماء بذلك {cite:muntazam-ibn-al-jawzi j.8 p.496-497}."
+  en: "In 444 manifestos were drawn up at the diwan recounting Egypt's ruler and his forebears in terms impugning the genealogy they claim — denying their descent from the Prophet through Ali and Fatima, attributing them instead to the Daysaniyya of the Magians and the Qaddahiyya of the Jews, and declaring them outside Islam, as had been done in al-Qadir's days — and the signatures of the ashraf, qadis, witnesses and scholars were taken upon it {cite:muntazam-ibn-al-jawzi j.8 p.496-497}."
+wings: [time]
+periods: [period/buyid-seljuk-fatimid-era]
+regions: [levant-iraq]
+themes: [sects-and-schools, politics-governance-and-authority]
+date:
+  start: { edtf: "1052~", hijri: "0444", calendar: julian, precision: year, status: tradition, derived: true, note: "سنة ٤٤٤ {cite:muntazam-ibn-al-jawzi j.8 p.496}" }
+relations:
+  - { type: occurred_at, target: place/baghdad, sources: [source/muntazam-ibn-al-jawzi] }
+  - { type: had_participant, target: person/al-qaim-billah, role: "الخليفة صاحب الديوان", sources: [source/muntazam-ibn-al-jawzi] }
+  - { type: related_to, target: polity/fatimid-caliphate, role: "موضوع القدح", sources: [source/muntazam-ibn-al-jawzi] }
+provenance:
+  layer: own-research
+  source: "المنتظم في تاريخ الملوك والأمم — ابن الجوزي (ج8، أحداث سنة ٤٤٤)، قراءة آبل فيجن، مسح AAlexandrina-224011"
+  generated_by: "Devin (SWE-2 Medium) from Apple Vision OCR"
+  run: lib-muntazam-350-474-batch24
+sources: [source/muntazam-ibn-al-jawzi]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 Medium)" }

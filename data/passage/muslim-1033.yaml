@@ -1,0 +1,16 @@
+id: passage/muslim-1033
+class: passage
+unit: hadith
+work: work/sahih-muslim
+ref: "1033"
+label: { ar: "مسلم 1033 — اليد العليا خير من اليد السفلى", en: "Muslim 1033 — The upper hand is better than the lower" }
+text: "قال رسول الله وهو على المنبر وهو يذكر الصدقة والتعفف عن المسألة: «اليد العليا خير من اليد السفلى، واليد العليا المنفقة والسفلى السائلة»"
+summary:
+  ar: "رواية عبد الله بن عمر في كتاب الزكاة من صحيح مسلم؛ اليد العليا المنفقة خير من السفلى السائلة، وفي رواية حكيم بن حزام «ابدأ بمن تعول» — نص الإنفاق والعفة."
+relations:
+  - { type: mentions, target: person/muhammad, sources: [source/sahih-muslim] }
+  - { type: mentions, target: person/abdullah-ibn-umar, sources: [source/sahih-muslim] }
+  - { type: mentions, target: concept/sadaqa, sources: [source/sahih-muslim] }
+provenance: { layer: own-research, source: "صحيح مسلم، كتاب الزكاة، باب بيان أن اليد العليا خير من اليد السفلى (طبعة دار التأصيل، الحديث 2432؛ ترقيم عبد الباقي المعروف 1033)، تصوير Apple Vision OCR", generated_by: "Devin (SWE-2 High) from Apple Vision OCR", run: "hadith-muslim-passages-2" }
+sources: [source/sahih-muslim]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High); matn excerpt at most 40 words checked against the scan" }

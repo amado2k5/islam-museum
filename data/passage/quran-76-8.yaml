@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 76:8 (سورة الإنسان، الآية 8)."
 text: "وَيُطْعِمُونَ ٱلطَّعَامَ عَلَىٰ حُبِّهِۦ مِسْكِينًا وَيَتِيمًا وَأَسِيرًا"
 text_search: "ويطعمون الطعام على حبه مسكينا ويتيما وأسيرا"
+translations:
+  en: { text: "And feed with food the needy wretch, the orphan and the prisoner, for love of Him,", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "اور باوجود یہ کہ ان کو خود طعام کی خواہش (اور حاجت) ہے فقیروں اور یتیموں اور قیدیوں کو کھلاتے ہیں", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-76 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 6:73 (سورة الأنعام، الآية 73)."
 text: "وَهُوَ ٱلَّذِى خَلَقَ ٱلسَّمَـٰوَٰتِ وَٱلْأَرْضَ بِٱلْحَقِّ ۖ وَيَوْمَ يَقُولُ كُن فَيَكُونُ ۚ قَوْلُهُ ٱلْحَقُّ ۚ وَلَهُ ٱلْمُلْكُ يَوْمَ يُنفَخُ فِى ٱلصُّورِ ۚ عَـٰلِمُ ٱلْغَيْبِ وَٱلشَّهَـٰدَةِ ۚ وَهُوَ ٱلْحَكِيمُ ٱلْخَبِيرُ"
 text_search: "وهو الذي خلق السماوات والأرض بالحق ۖ ويوم يقول كن فيكون ۚ قوله الحق ۚ وله الملك يوم ينفخ في الصور ۚ عالم الغيب والشهادة ۚ وهو الحكيم الخبير"
+translations:
+  en: { text: "He it is Who created the heavens and the earth in truth. In the day when He saith: Be! it is. His Word is the Truth, and His will be the Sovereignty on the day when the trumpet is blown. Knower of the Invisible and the Visible, He is the Wise, the Aware.", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "اور وہی تو ہے جس نے آسمانوں اور زمین کو تدبیر سے پیدا کیا ہے۔ اور جس دن وہ فرمائے گا کہ ہو جا تو (حشر برپا) ہوجائے گا ۔ اس کا ارشاد برحق ہے۔ اور جس دن صور پھونکا جائے گا (اس دن) اسی کی بادشاہت ہوگی۔ وہی پوشیدہ اور ظاہر (سب) کا جاننے والا ہے اور وہی دانا اور خبردار ہے", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-6 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

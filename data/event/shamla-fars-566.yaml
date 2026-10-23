@@ -1,0 +1,25 @@
+id: event/shamla-fars-566
+class: event
+kind: conquest
+label: { ar: "ملك شملة فارس وإخراجه عنها", en: "Shamla takes Fārs — and is driven out of it" }
+date:
+  start: { edtf: "1170~", hijri: "0566", calendar: julian, precision: year, status: tradition, derived: true }
+summary:
+  ar: "ملك شملة — وهو من أمراء الخزرج الأتراك — بلاد فارس على أهلها، ثم اجتمعوا عليه فأخرجوه عنها واستردّوها، وكانت فارس يومئذ دولة للسلغريين من أتراك الخزرج يتداولونها بعد انقراض البويهيين {cite:kamil-ibn-al-athir p. 19}."
+  en: "Shamla, an emir of the Khazarj Turks, took Fārs, then its people rose together and expelled him — Fārs then being the disputed prize of the Salghurid atabegs after the Buyids' extinction {cite:kamil-ibn-al-athir p. 19}."
+sides:
+- label: { ar: "شملة", en: "Shamla" }
+  commanders: [person/shamla-turki]
+- label: { ar: "أهل فارس والسلغريون", en: "the people of Fārs & the Salghurids" }
+
+relations:
+  - { type: occurred_at, target: place/fars, sources: [source/kamil-ibn-al-athir] }
+  - { type: had_participant, target: person/shamla-turki, sources: [source/kamil-ibn-al-athir] }
+  - { type: had_participant, target: group/salghurids, sources: [source/kamil-ibn-al-athir] }
+provenance:
+  layer: own-research
+  source: "الكامل في التاريخ لابن الأثير، قراءة آبل فيجن"
+  generated_by: "Devin (SWE-2 Medium) from Apple Vision OCR"
+  run: lib-kamil-v12-batch01
+sources: [source/kamil-ibn-al-athir]
+status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 Medium)" }

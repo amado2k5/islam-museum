@@ -1,0 +1,29 @@
+id: person/giustiniani
+class: person
+label:
+  ar: "جستنيان"
+  en: "Giovanni Giustiniani"
+names:
+  - { kind: full, lang: ar, value: "جستنيان" }
+gender: male
+roles: [military-leader]
+summary:
+  ar: "جستنيان، قائد المدافعين عن القسطنطينية في حصار 857هـ/1453م على رواية الصلابي؛ استمات في الدفاع عن الثغرة التي فتحتها المدافع العثمانية بوادي ليكوس يوم 18 أبريل وعن الأسوار {cite:dawlat-uthmaniyya-salabi p. 96}، فلما أُصيب بجراح بليغة في الهجوم الأخير انسحب من ساحة المعركة وركب إحدى السفن فاراً، فتولى الإمبراطور قسطنطين قيادة المدافعين بنفسه محله {cite:dawlat-uthmaniyya-salabi p. 110}."
+  en: "Giustiniani, commander of Constantinople's defenders in the 857/1453 siege in al-Salabi's account; he fought to the last over the breach the Ottoman guns opened at the Lycus valley on 18 April {cite:dawlat-uthmaniyya-salabi p. 96}, and when gravely wounded in the final assault he left the field and fled aboard a ship — the emperor Constantine taking over command of the defence in his place {cite:dawlat-uthmaniyya-salabi p. 110}."
+wings: [people]
+regions: [anatolia-balkans]
+periods: [period/mongol-post-mongol]
+relations:
+  - { type: participated_in, target: event/conquest-constantinople-857, role: "قائد المدافعين", sources: [source/dawlat-uthmaniyya-salabi] }
+sources: [source/dawlat-uthmaniyya-salabi]
+external_ids:
+  wikidata: Q1112682
+provenance:
+  layer: own-research
+  source: "الدولة العثمانية لعلي محمد الصلابي (ط1 1421) ص 96، 110"
+  generated_by: "Devin (SWE-2 Medium) from Apple Vision OCR"
+  model: "SWE-2 Medium"
+  run: lib-salabi-uthmani-batch-5
+status:
+  review: draft
+  completeness: 2

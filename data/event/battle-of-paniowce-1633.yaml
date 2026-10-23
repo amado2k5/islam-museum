@@ -1,0 +1,23 @@
+id: event/battle-of-paniowce-1633
+class: event
+kind: battle
+label: { ar: "معركة بانيوفتسه (١٦٣٣)", en: "Battle of Paniowce (1633)" }
+summary:
+  ar: "بطاقة أولية لمعركة بانيوفتسه سنة ١٦٣٣م، من حرب البولنديين والعثمانيين؛ لم تُراجع مصادره على الصفحة بعد."
+  en: "Draft card for the Battle of Paniowce in 1633, an action of the Polish–Ottoman War; its sources are not yet checked on the page."
+wings: [time]
+periods: [period/gunpowder-empires]
+regions: [anatolia-balkans]
+date:
+  start: { edtf: "1633", precision: year, status: tradition, derived: true }
+  end: { edtf: "1633", precision: year, status: tradition, derived: true }
+sources: [source/dawlat-uthmaniyya-salabi]
+external_ids:
+  wikidata: Q19692984
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; battle attested in narrative histories — entry not yet checked on the page"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-wave2
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

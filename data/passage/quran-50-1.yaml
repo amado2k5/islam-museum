@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 50:1 (سورة ق، الآية 1)."
 text: "بِسْمِ ٱللَّهِ ٱلرَّحْمَـٰنِ ٱلرَّحِيمِ قٓ ۚ وَٱلْقُرْءَانِ ٱلْمَجِيدِ"
 text_search: "بسم الله الرحمن الرحيم ق ۚ والقرآن المجيد"
+translations:
+  en: { text: "Qaf. By the Glorious Qur'an,", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "قٓ۔ قرآن مجید کی قسم (کہ محمد پیغمبر خدا ہیں)", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-50 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

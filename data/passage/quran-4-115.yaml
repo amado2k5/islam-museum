@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 4:115 (سورة النساء، الآية 115)."
 text: "وَمَن يُشَاقِقِ ٱلرَّسُولَ مِنۢ بَعْدِ مَا تَبَيَّنَ لَهُ ٱلْهُدَىٰ وَيَتَّبِعْ غَيْرَ سَبِيلِ ٱلْمُؤْمِنِينَ نُوَلِّهِۦ مَا تَوَلَّىٰ وَنُصْلِهِۦ جَهَنَّمَ ۖ وَسَآءَتْ مَصِيرًا"
 text_search: "ومن يشاقق الرسول من بعد ما تبين له الهدى ويتبع غير سبيل المؤمنين نوله ما تولى ونصله جهنم ۖ وساءت مصيرا"
+translations:
+  en: { text: "And whoso opposeth the messenger after the guidance (of Allah) hath been manifested unto him, and followeth other than the believer's way, We appoint for him that unto which he himself hath turned, and expose him unto hell - a hapless journey's end!", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "اور جو شخص سیدھا رستہ معلوم ہونے کے بعد پیغمبر کی مخالف کرے اور مومنوں کے رستے کے سوا اور رستے پر چلے تو جدھر وہ چلتا ہے ہم اسے ادھر ہی چلنے دیں گے اور (قیامت کے دن) جہنم میں داخل کریں گے اور وہ بری جگہ ہے", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-4 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

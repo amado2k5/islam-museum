@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 50:22 (سورة ق، الآية 22)."
 text: "لَّقَدْ كُنتَ فِى غَفْلَةٍ مِّنْ هَـٰذَا فَكَشَفْنَا عَنكَ غِطَآءَكَ فَبَصَرُكَ ٱلْيَوْمَ حَدِيدٌ"
 text_search: "لقد كنت في غفلة من هذا فكشفنا عنك غطاءك فبصرك اليوم حديد"
+translations:
+  en: { text: "(And unto the evil-doer it is said): Thou wast in heedlessness of this. Now We have removed from thee thy covering, and piercing is thy sight this day.", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "(یہ وہ دن ہے کہ) اس سے تو غافل ہو رہا تھا۔ اب ہم نے تجھ پر سے پردہ اُٹھا دیا۔ تو آج تیری نگاہ تیز ہے", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-50 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

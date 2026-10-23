@@ -1,0 +1,32 @@
+id: polity/hamengkubuwono-dynasty
+class: polity
+kind: dynasty
+label:
+  ar: "أسرة هامنجكوبونو"
+  en: "Hamengkubuwono dynasty"
+summary:
+  ar: "بطاقة أولية لأسرة هامنجكوبونو، أسرة سلاطين يوغياكارتا من سنة ١٧٥٥م؛ لم تُراجع مصادرها على الصفحة بعد."
+  en: "Draft card for the Hamengkubuwono house, the sultans of Yogyakarta from 1755; its sources are not yet checked on the page."
+wings: [time]
+periods: [period/gunpowder-empires]
+regions: [southeast-asia]
+start:
+  edtf: "1755"
+  precision: year
+  status: tradition
+  derived: true
+end:
+  edtf: "1949"
+  precision: year
+  status: tradition
+  derived: true
+sources: [source/tarikh-islam-hasan-ibrahim]
+external_ids:
+  wikidata: Q1050326
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; dynasty attested in Javanese histories — entry not yet checked on the page"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-wave2
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

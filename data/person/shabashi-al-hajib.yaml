@@ -1,0 +1,21 @@
+id: person/shabashi-al-hajib
+class: person
+label: { ar: "شباشي الحاجب أبو طاهر المشطب" }
+summary:
+  ar: "أبو طاهر المشطب مولى شرف الدولة أبي الفوارس بن عضد الدولة، لقبه بهاء الدولة بالسعيد ذي العضدين، كان كثير الصدقة مفيض المعروف حتى كان أهل بغداد إذا رأوا من لبس قميصاً جديداً قالوا رحم الله السعيد لأنه كان يكسو اليتامى والضعفاء. وهو الذي بنى قنطرة الخندق والياسرية والزياتين ووقف جبايتها على البيمارستان العضدي، ووقف على الجسر دار الترس بالكرخ، وحفر ذنابة دجيل وساق الماء إلى مقابر قريش وعمل المشهد بكوثا وحفر المصانع والآبار بطريق مكة. توفي في شوال سنة ثمان وأربعمائة ودفن في مقبرة الإمام أحمد بن حنبل {cite:muntazam-ibn-al-jawzi j.7 p.288-289}."
+wings: [people]
+periods: [period/buyid-seljuk-fatimid-era]
+regions: [levant-iraq]
+roles: [general, patron]
+died:
+  { edtf: "1017-10~", hijri: "0408-10", calendar: julian, precision: month, status: tradition, derived: true, note: "شوال 408هـ؛ التحويل مشتق {cite:muntazam-ibn-al-jawzi j.7 p.289}" }
+relations:
+  - { type: patron_of, target: building/bimaristan-adudi, role: "وقف جباية قناطر الخندق والياسرية والزياتين عليه", sources: [source/muntazam-ibn-al-jawzi] }
+  - { type: buried_in, target: place/baghdad, role: "مقبرة الإمام أحمد", sources: [source/muntazam-ibn-al-jawzi] }
+provenance:
+  layer: own-research
+  source: "المنتظم في تاريخ الملوك والأمم — ابن الجوزي (ج7، وفيات سنة 408)، قراءة آبل فيجن"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-muntazam-batch-22
+sources: [source/muntazam-ibn-al-jawzi]
+status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 High)" }

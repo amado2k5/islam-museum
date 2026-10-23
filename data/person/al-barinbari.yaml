@@ -1,0 +1,22 @@
+id: person/al-barinbari
+class: person
+label: { ar: "ناصر الدين البارنباري", en: "Nasir al-Din al-Barinbari" }
+names:
+  - { value: "ناصر الدين محمد بن عبد الوهاب بن محمد البارنباري الشافعي النحوي", kind: full }
+gender: male
+summary:
+  ar: "ناصر الدين البارنباري الشافعي النحوي نسبة إلى بارنبار قرية قرب دمياط؛ قال السيوطي ولد قبيل سبعين وسبعمائة وقدم القاهرة فاشتهر ومهر في الفقه والعربية والحساب والعروض وغير ذلك وتصدر بالجامع الأزهر تبرعاً ودرس وأفتى مدة وأقرأ وخطب وناب في الجمالية عن حفيد الشيخ ولي الدين العراقي ثم انتزعها منه الشيخ شمس الدين البرماوي وأصابه فالج أبطل نصفه واستمر موعكاً إلى أن مات ليلة الأحد حادي عشر ربيع الأول سنة اثنتين وثلاثين وثمانمائة {cite:shadharat-dhahab p. 200}."
+  en: "Nasir al-Din al-Barinbari (b. ~770) — al-Suyuti's own teacher; taught gratis at the Azhar, lectured, gave fatwas and preached until a stroke paralysed half his body; died Sunday night 11 Rabi' I 832 {cite:shadharat-dhahab p. 200}."
+roles: [scholar, jurist]
+wings: [people]
+periods: [period/mongol-post-mongol]
+regions: [egypt-nile]
+born: { edtf: "1368~", hijri: "0769~", calendar: julian, precision: year, status: tradition, derived: true, note: "ولد قبيل سبعين وسبعمائة {cite:shadharat-dhahab p. 200}", sources: [source/shadharat-dhahab] }
+died: { edtf: "1428-12-18~", hijri: "0832-03-11", calendar: julian, precision: day, status: tradition, derived: true, note: "مات ليلة الأحد حادي عشر ربيع الأول 832 {cite:shadharat-dhahab p. 200}", sources: [source/shadharat-dhahab] }
+provenance:
+  layer: own-research
+  source: "شذرات الذهب — ابن العماد (ط مكتبة المثنى 1351، ج7، سنة 832)، قراءة آبل فيجن"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-shadharat-batch-138
+sources: [source/shadharat-dhahab]
+status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 High)" }

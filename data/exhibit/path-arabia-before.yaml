@@ -1,0 +1,76 @@
+id: exhibit/path-arabia-before
+class: exhibit
+kind: trail
+label:
+  ar: الجزيرة قبل الإسلام
+  en: Arabia before Islam
+summary:
+  ar: 'مسار في ممالك الجاهلية: حمير في اليمن، والمناذرة في الحيرة، والغساسنة في الشام — العرب قبل البعثة.'
+  en: A trail through the kingdoms of jahiliyya.
+audience:
+- newcomer
+- student
+duration_minutes: 30
+wings: []
+regions:
+- arabia
+rooms:
+- title:
+    ar: حمير
+    en: Himyar
+  body:
+    ar: 'ملوك اليمن: سبأ ومأرب وتبّع.'
+    en: 'ملوك اليمن: سبأ ومأرب وتبّع.'
+  features:
+  - polity/himyarite-kingdom
+  - place/sanaa
+- title:
+    ar: المناذرة
+    en: The Lakhmids
+  body:
+    ar: 'الحيرة عاصمة: عرب العراق وخدمة كسرى.'
+    en: 'الحيرة عاصمة: عرب العراق وخدمة كسرى.'
+  features:
+  - polity/lakhmid-kingdom
+  - place/al-hira
+- title:
+    ar: الغساسنة
+    en: The Ghassanids
+  body:
+    ar: 'عرب الشام: حلفاء قيصر وخصوم فارس.'
+    en: 'عرب الشام: حلفاء قيصر وخصوم فارس.'
+  features:
+  - polity/ghassanid-kingdom
+  - place/damascus
+- title:
+    ar: الحيرة
+    en: Al-Hira
+  body:
+    ar: 'مدينة المناذرة: أدب ونصرانية.'
+    en: 'مدينة المناذرة: أدب ونصرانية.'
+  features:
+  - place/al-hira
+  - place/kufa
+- title:
+    ar: عكاظ
+    en: Ukaz
+  body:
+    ar: 'سوق الشعراء: المعلقات تُقرأ.'
+    en: 'سوق الشعراء: المعلقات تُقرأ.'
+  features:
+  - place/ukaz
+  - place/taif
+prerequisites:
+- exhibit/path-islam-in-30-minutes
+sources:
+- source/wikidata
+provenance:
+  layer: own-research
+  source: Devin-assembled trail from existing museum entities
+  generated_by: Devin (SWE-2 High)
+  model: SWE-2 High
+  run: pathways-batch-7
+status:
+  review: draft
+  completeness: 1
+  generated_by: Devin (SWE-2 High), pathways lane, 2026-10-16

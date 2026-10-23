@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 7:111 (سورة الأعراف، الآية 111)."
 text: "قَالُوٓا۟ أَرْجِهْ وَأَخَاهُ وَأَرْسِلْ فِى ٱلْمَدَآئِنِ حَـٰشِرِينَ"
 text_search: "قالوا أرجه وأخاه وأرسل في المدائن حاشرين"
+translations:
+  en: { text: "They said (unto Pharaoh): Put him off (a while) - him and his brother - and send into the cities summoners,", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "انہوں نے (فرعون سے) کہا کہ فی الحال موسیٰ اور اس کے بھائی کے معاملے کو معاف رکھیے اور شہروں میں نقیب روانہ کر دیجیے", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-7 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

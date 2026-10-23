@@ -1,0 +1,19 @@
+id: event/azerbaijan-mongols-submit-628
+class: event
+kind: other
+label: { ar: "طاعة أهل أذربيجان للتتر", en: "Azerbaijan submits to the Mongols" }
+date:
+  start: { edtf: "1231~", hijri: "0628", calendar: julian, precision: year, status: tradition, derived: true }
+summary:
+  ar: "أطاع أهل أذربيجان للتتر بعد هزيمة جلال الدين وتفرق عساكره، فصاروا يجبون الأموال لهم ويحملون إليهم الخيول والثياب {cite:kamil-ibn-al-athir p. 494}."
+  en: "Azerbaijan's people submitted to the Mongols after Jalal al-Din's rout — paying tribute, delivering horses and fine cloth {cite:kamil-ibn-al-athir p. 494}."
+relations:
+  - { type: occurred_at, target: place/azerbaijan, sources: [source/kamil-ibn-al-athir] }
+  - { type: had_participant, target: group/mongols, role: "المطاعون", sources: [source/kamil-ibn-al-athir] }
+provenance:
+  layer: own-research
+  source: "الكامل في التاريخ لابن الأثير، قراءة آبل فيجن"
+  generated_by: "Devin (SWE-2 Medium) from Apple Vision OCR"
+  run: lib-kamil-v12-batch08
+sources: [source/kamil-ibn-al-athir]
+status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 Medium)" }

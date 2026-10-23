@@ -1,0 +1,23 @@
+id: event/battle-of-astarabad-1759
+class: event
+kind: battle
+label: { ar: "معركة أسترآباد (١٧٥٩)", en: "Battle of Astarabad (1759)" }
+summary:
+  ar: "بطاقة أولية لمعركة أسترآباد سنة ١٧٥٩م، نصر محمد حسن خان القاجري الذي مهد لقيام الدولة القاجارية؛ لم تُراجع مصادره على الصفحة بعد."
+  en: "Draft card for the Battle of Astarabad in 1759, Muhammad Hasan Khan Qajar's victory that prepared the Qajar rise; its sources are not yet checked on the page."
+wings: [time]
+periods: [period/gunpowder-empires]
+regions: [persia-central-asia]
+date:
+  start: { edtf: "1759-02", precision: year, status: tradition, derived: true }
+  end: { edtf: "1759-02", precision: year, status: tradition, derived: true }
+sources: [source/tarikh-islam-hasan-ibrahim]
+external_ids:
+  wikidata: "Q123291628"
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; battle attested in narrative histories — entry not yet checked on the page"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-wave2
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

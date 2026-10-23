@@ -1,0 +1,23 @@
+id: event/battle-of-el-tor-1541
+class: event
+kind: battle
+label: { ar: "معركة الطور (١٥٤١)", en: "Battle of El Tor (1541)" }
+summary:
+  ar: "بطاقة أولية لمعركة الطور (١٥٤١)؛ لم تُراجع مصادره على الصفحة بعد."
+  en: "Draft card for Battle of El Tor (1541); its sources are not yet checked on the page."
+wings: [time]
+periods: [period/gunpowder-empires]
+regions: [egypt-nile]
+date:
+  start: { edtf: "1541", precision: year, status: tradition, derived: true }
+  end: { edtf: "1541", precision: year, status: tradition, derived: true }
+sources: [source/tarikh-islam-hasan-ibrahim]
+external_ids:
+  wikidata: Q115518405
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; battle attested in narrative histories — entry not yet checked on the page"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-wave2
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

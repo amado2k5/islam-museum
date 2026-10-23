@@ -1,0 +1,76 @@
+id: exhibit/path-hayy-philosophy
+class: exhibit
+kind: trail
+label:
+  ar: حي بن يقظان
+  en: Hayy ibn Yaqzan
+summary:
+  ar: 'مسار في أول رواية فلسفية: طفل على جزيرة يكتشف الحقائق بعقله — ابن طفيل يجيب الفلاسفة قبل ديكارت.'
+  en: A trail through the first philosophical novel.
+audience:
+- newcomer
+- student
+duration_minutes: 30
+wings: []
+regions:
+- andalus-europe
+rooms:
+- title:
+    ar: القصة
+    en: The story
+  body:
+    ar: 'حي على جزيرة: طفل يربيه الظبي.'
+    en: 'حي على جزيرة: طفل يربيه الظبي.'
+  features:
+  - work/hayy-ibn-yaqzan
+  - person/ibn-tufayl
+- title:
+    ar: ابن طفيل
+    en: Ibn Tufayl
+  body:
+    ar: فيلسوف قرطبة وطبيب الموحدين.
+    en: فيلسوف قرطبة وطبيب الموحدين.
+  features:
+  - person/ibn-tufayl
+  - place/cordoba
+- title:
+    ar: ابن باجة
+    en: Ibn Bajja
+  body:
+    ar: المعلم الأول للفلسفة الأندلسية.
+    en: المعلم الأول للفلسفة الأندلسية.
+  features:
+  - person/ibn-bajja
+  - place/cordoba
+- title:
+    ar: الفكرة
+    en: The idea
+  body:
+    ar: 'العقل يصل للحق: فلسفة التجربة.'
+    en: 'العقل يصل للحق: فلسفة التجربة.'
+  features:
+  - work/hayy-ibn-yaqzan
+  - person/ibn-rushd
+- title:
+    ar: الأثر
+    en: The legacy
+  body:
+    ar: 'من قرطبة إلى لوك وديفو: تأثير عالمي.'
+    en: 'من قرطبة إلى لوك وديفو: تأثير عالمي.'
+  features:
+  - work/hayy-ibn-yaqzan
+  - person/ibn-rushd
+prerequisites:
+- exhibit/path-islam-in-30-minutes
+sources:
+- source/wikidata
+provenance:
+  layer: own-research
+  source: Devin-assembled trail from existing museum entities
+  generated_by: Devin (SWE-2 High)
+  model: SWE-2 High
+  run: pathways-batch-7
+status:
+  review: draft
+  completeness: 1
+  generated_by: Devin (SWE-2 High), pathways lane, 2026-10-16

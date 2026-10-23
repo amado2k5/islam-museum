@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 37:138 (سورة الصافات، الآية 138)."
 text: "وَبِٱلَّيْلِ ۗ أَفَلَا تَعْقِلُونَ"
 text_search: "وبالليل ۗ أفلا تعقلون"
+translations:
+  en: { text: "And at night-time; have ye then no sense?", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "اور رات کو بھی۔ تو کیا تم عقل نہیں رکھتے", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-37 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

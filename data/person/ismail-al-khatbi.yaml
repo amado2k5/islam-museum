@@ -1,0 +1,24 @@
+id: person/ismail-al-khatbi
+class: person
+label: { ar: "إسماعيل الخطبي المؤرخ", en: "Isma'il al-Khatbi the chronicler" }
+names:
+  - { value: "إسماعيل بن إسماعيل بن بنان أبو عمر الخطبي", kind: full }
+gender: male
+roles: [scholar, historian]
+summary:
+  ar: "إسماعيل بن إسماعيل بن بنان أبو عمر الخطبي (269–350هـ)، محدث بغداد ومؤرخها؛ كان ثقة فاضلاً نبيلاً فَهِماً عارفاً بأيام الناس وأخبار الخلفاء، وصنّف تاريخاً كبيراً على ترتيب السنين، توفي في جمادى الآخرة سنة خمسين وثلثمائة {cite:muntazam-ibn-al-jawzi j.7 p.8}."
+  en: "Isma'il b. Isma'il b. Banan Abu 'Umar al-Khatbi (269–350), Baghdad's muhaddith-chronicler: trustworthy, accomplished, knowing the days of men and the reports of the caliphs, he composed a large chronicle ordered by the years; he died Jumada II 350 {cite:muntazam-ibn-al-jawzi j.7 p.8}."
+wings: [people]
+periods: [period/abbasid-fragmentation]
+regions: [levant-iraq]
+born:
+  { edtf: "0882-07~", hijri: "0269-01", calendar: julian, precision: month, status: tradition, derived: true, note: "ولد في محرم 269؛ التحويل مشتق {cite:muntazam-ibn-al-jawzi j.7 p.8}", sources: [source/muntazam-ibn-al-jawzi] }
+died:
+  { edtf: "0961-08~", hijri: "0350-06", calendar: julian, precision: month, status: tradition, derived: true, note: "توفي في جمادى الآخرة 350؛ التحويل مشتق {cite:muntazam-ibn-al-jawzi j.7 p.8}", sources: [source/muntazam-ibn-al-jawzi] }
+provenance:
+  layer: own-research
+  source: "المنتظم لابن الجوزي (ط حيدرآباد 1357، ج7، وفيات سنة 350)، قراءة آبل فيجن"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-muntazam-350-474-2
+sources: [source/muntazam-ibn-al-jawzi]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

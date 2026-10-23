@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 6:46 (سورة الأنعام، الآية 46)."
 text: "قُلْ أَرَءَيْتُمْ إِنْ أَخَذَ ٱللَّهُ سَمْعَكُمْ وَأَبْصَـٰرَكُمْ وَخَتَمَ عَلَىٰ قُلُوبِكُم مَّنْ إِلَـٰهٌ غَيْرُ ٱللَّهِ يَأْتِيكُم بِهِ ۗ ٱنظُرْ كَيْفَ نُصَرِّفُ ٱلْـَٔايَـٰتِ ثُمَّ هُمْ يَصْدِفُونَ"
 text_search: "قل أرأيتم إن أخذ الله سمعكم وأبصاركم وختم على قلوبكم من إله غير الله يأتيكم به ۗ انظر كيف نصرف الآيات ثم هم يصدفون"
+translations:
+  en: { text: "Say: Have ye imagined, if Allah should take away your hearing and your sight and seal your hearts, Who is the Allah Who could restore it to you save Allah? See how We display the revelations unto them! Yet still they turn away.", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "(ان کافروں سے) کہو کہ بھلا دیکھو تو اگر خدا تمہارے کان اور آنکھیں چھین لے اور تمہارے دلوں پر مہر لگادے تو خداکے سوا کون سا معبود ہے جو تمہیں یہ نعمتیں پھر بخشے؟ دیکھو ہم کس کس طرح اپنی آیتیں بیان کرتے ہیں۔ پھر بھی یہ لوگ ردگردانی کرتے ہیں", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-6 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

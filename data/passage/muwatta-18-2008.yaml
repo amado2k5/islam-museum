@@ -1,0 +1,17 @@
+id: passage/muwatta-18-2008
+class: passage
+unit: hadith
+work: work/muwatta-malik
+ref: "2008"
+label: { ar: "الموطأ 2008 — مالك عن العلاء بن عبد الرحمن عن أبيه عن جده: أعطاه عثمان بن عفان مالا قراضا يعمل فيه، على أن الربح بينهما", en: "Muwatta 2008" }
+summary:
+  ar: "يروي مالك عن العلاء بن عبد الرحمن عن أبيه عن جده أن عثمان بن عفان أعطاه مالا قراضا يعمل فيه، على أن الربح بينهما. {cite:muwatta-maruf-1997 p.222}"
+relations:
+  - { type: part_of, target: passage/muwatta-kitab-18-qiraad }
+  - { type: mentions, target: person/malik-ibn-anas, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/al-ala-ibn-abd-al-rahman, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/uthman-ibn-affan, sources: [source/muwatta-maruf-1997] }
+  - { type: basis_for, target: concept/qiradh, sources: [source/muwatta-maruf-1997] }
+provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 2, hadith 2008 at PDF p. 222; ما جاء في القراض", generated_by: "Claude Code (claude-haiku-5-5) from Apple Vision OCR of the Noor-Book PDF, checked on the page image where doubtful", run: "muwatta-prose-k18-b55" }
+sources: [source/muwatta-maruf-1997]
+status: { review: draft, completeness: 2, generated_by: "Claude Code (claude-haiku-5-5); own-words account written from PDF p. 222; matn excerpt at most 40 words" }

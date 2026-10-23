@@ -1,0 +1,58 @@
+id: concept/al-sabi-fi-al-harb-al-diniyya
+class: concept
+kind: legal
+label: { ar: "السبي في الحرب الدينية والمحصنات", en: "Captives in a religious war and married women (Q. 4:24)" }
+issue:
+  ar: "ما حكم السبايا المتزوجات في قوله تعالى «والمحصنات من النساء إلا ما ملكت أيمانكم»، ومتى يحل السبي أصلاً؟"
+summary:
+  ar: "تفسير قوله تعالى في سورة النساء عن المحصنات وما ملكت الأيمان، وهو موضع اختلاف في أثر السبي على عقد الزوجية وفي شروط حل السبي. ينقل محمد رشيد رضا قول الجمهور بأنه استثناء، وقول الحنفية وبعض الحنابلة في الأسرى المسبيين مع أزواجهم، ويقرر مع محمد عبده أن السبي يكون في حرب دينية لا في حرب لمطامع الدنيا."
+  en: "The commentary on the Qur'anic verse about married women and those whom the right hand possesses, a point of disagreement on whether capture ends a marriage and on the conditions for lawful captivity. Rashid Rida reports the majority reading as an exception, and the Hanafi and some Hanbali view on women captured with their husbands. With Muhammad Abduh he holds that captivity is lawful only in a religious war and not in a war for worldly gain."
+wings: [ideas]
+themes: [laws-of-war-and-peace, slavery-and-freedom]
+periods: [period/prophetic-era]
+regions: [arabia]
+perspectives:
+  - tradition: sunni
+    id: majority-exception
+    stance:
+      ar: "الجمهور: المحصنات المتزوجات، وما ملكت الأيمان استثناء منهن إذا سُبين في حرب دينية"
+    summary:
+      ar: "ينقل رضا أن الجمهور جعلوا قوله «إلا ما ملكت أيمانكم» استثناءً من المحصنات، أي إلا ما سُبي منهن في حرب دينية، ورأى المسلمون أن لا تُعاد السبايا إلى أزواجهن الكفار في دار الحرب، فينحل عقد زواجهن ويحل الاستمتاع بعد الاستبراء. وتوقف الحل على شروط منها استبراء الرحم بوضع الحمل أو بالحيض ثم الطهر، وقد وردت هذه الشروط في روايات من أبي سعيد الخدري ذكرها رضا."
+    holders: [person/sad-ibn-malik-al-khudri]
+    evidence:
+      - ref: source/tafsir-manar-v05
+        note:
+          ar: "ص 4 (قول الجمهور وشروط الاستبراء؛ الرواية عن أبي سعيد الخدري مذكورة في النص)"
+    sources: [source/tafsir-manar-v05]
+  - tradition: sunni
+    id: captured-with-husband
+    stance:
+      ar: "الحنفية وبعض الحنابلة: من سُبيت مع زوجها لا تحل لغيره"
+    summary:
+      ar: "ينقل رضا أن بعض العلماء، كالحنفية وبعض الحنابلة، قالوا إن من سُبي معها زوجها لا تحل لغيره، فاعتبروا في الحل اختلاف الدار: دار الإسلام ودار الحرب. ويذكر رضا قولاً آخر يرى أن اختلاف الدار لا أثر له، وأن من سُبيت دون زوجها تحل للسابي بعد الاستبراء لاحتمال انقطاع أمل لحاقه بها."
+    holders: []
+    evidence:
+      - ref: source/tafsir-manar-v05
+        note:
+          ar: "ص 4 (ينقل رضا القولين؛ لم تُذكر أسماء أصحاب القول الثاني)"
+    sources: [source/tafsir-manar-v05]
+  - tradition: other
+    id: rida-abduh-conditions
+    stance:
+      ar: "رأي رضا وعبده: السبي في حرب دينية للدفاع أو لنشر الدعوة، لا في حرب لمطامع الدنيا"
+    summary:
+      ar: "يقرر رضا، نقلاً عن محمد عبده، أن السبي مشروط بحرب دينية يدافع فيها المسلمون عن حقيقتهم أو يؤمّنون بها دعوتهم، وأن الإسلام لم يفرض السبي ولم يوجبه ولم يحرمه، لأن فيه مصلحة في بعض الأحوال حتى للسبايا. وإن كانت الحرب لمطامع الدنيا وحظوظ الملوك فلا يباح فيها السبي. وهذا رأي رضا وعبده، ويُقدَّم هنا بوصفه كذلك."
+    holders: [person/rashid-rida, person/muhammad-abduh]
+    evidence:
+      - ref: source/tafsir-manar-v05
+        note:
+          ar: "ص 4-5 (شروط الحرب الدينية، وقوله إن الإسلام لم يفرض السبي ولا حرمه، وقول عبده في تعليقه على الآية)"
+    sources: [source/tafsir-manar-v05]
+sources: [source/tafsir-manar-v05]
+provenance:
+  layer: own-research
+  source: "تفسير المنار، المجلد الخامس، ص 3-6 (نسخة OCR محلية)"
+  generated_by: "Claude Haiku 5.5"
+  model: claude-haiku-5-5
+  run: "lib-exp-tafsir-manar-v04-05 batch 1"
+status: { review: draft, completeness: 1, generated_by: "library-expansion (Claude Haiku 5.5); from Rida's commentary on Q. 4:24-25 in volume 5; the academic account of captivity in early Islam is still to be added; the holders of the second majority-view report are not named; no ruling is given" }

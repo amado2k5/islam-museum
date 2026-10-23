@@ -1,0 +1,18 @@
+id: place/al-nujayr
+class: place
+kind: site
+label: { ar: "النجير", en: "al-Nujayr" }
+summary:
+  ar: "حصن لبني كندة بحضرموت تحصّن به الأشعث بن قيس وعظماء كندة في ردتهم فحاصره زياد بن لبيد والمهاجر بن أبي أمية حتى جُهدوا فنزلوا على الأمان؛ وُجدت به نسوة شمتن بوفاة النبي فأمر أبو بكر بقطع أيديهن وأرجلهن، وردّت سباياه بالفداء أربعمائة درهم للرأس."
+  en: "A fortress of Banu Kinda in Hadramawt in which al-Ash'ath ibn Qays and the chiefs of Kinda fortified themselves in their apostasy; Ziyad ibn Labid and al-Muhajir ibn Abi Umayya besieged it until they were exhausted and came down on terms; women were found there who had gloated at the Prophet's death and Abu Bakr ordered their hands and feet cut, and its captives were ransomed back at four hundred dirhams a head."
+wings: [place]
+regions: [arabia]
+relations:
+  - { type: part_of, target: place/hadramawt, sources: [source/futuh-buldan-maarif-1407] }
+provenance:
+  layer: own-research
+  source: "فتوح البلدان (ط مؤسسة المعارف 1407هـ/1987م) ص 141–145"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-futuh-buldan-batch-6
+sources: [source/futuh-buldan-maarif-1407]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

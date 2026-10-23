@@ -1,0 +1,16 @@
+id: passage/muslim-2695
+class: passage
+unit: hadith
+work: work/sahih-muslim
+ref: "2695"
+label: { ar: "مسلم 2695 — لأن أقول سبحان الله والحمد لله ولا إله إلا الله والله أكبر أحب إلي مما طلعت عليه الشمس", en: "Muslim 2695 — Saying the four praises is dearer to me than all the sun rose upon" }
+text: "قال رسول الله: «لأن أقول سبحان الله والحمد لله ولا إله إلا الله والله أكبر أحب إلي مما طلعت عليه الشمس»"
+summary:
+  ar: "رواية أبي هريرة في كتاب الذكر والدعاء من صحيح مسلم؛ يجعل قول الكلمات الأربع أحب إلى النبي من الدنيا كلها."
+relations:
+  - { type: mentions, target: person/muhammad, sources: [source/sahih-muslim] }
+  - { type: mentions, target: person/abu-hurayra, sources: [source/sahih-muslim] }
+  - { type: mentions, target: concept/dhikr, sources: [source/sahih-muslim] }
+provenance: { layer: own-research, source: "صحيح مسلم، كتاب الذكر والدعاء والتوبة والاستغفار (طبعة دار التأصيل، الحديث ٢٧٩٣؛ ترقيم عبد الباقي المعروف 2695)، تصوير Apple Vision OCR", generated_by: "Devin (SWE-2 High) from Apple Vision OCR", run: "hadith-muslim-passages-3" }
+sources: [source/sahih-muslim]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High); matn excerpt at most 40 words checked against the scan" }

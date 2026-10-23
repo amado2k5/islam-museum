@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 47:27 (سورة محمد، الآية 27)."
 text: "فَكَيْفَ إِذَا تَوَفَّتْهُمُ ٱلْمَلَـٰٓئِكَةُ يَضْرِبُونَ وُجُوهَهُمْ وَأَدْبَـٰرَهُمْ"
 text_search: "فكيف إذا توفتهم الملائكة يضربون وجوههم وأدبارهم"
+translations:
+  en: { text: "Then how (will it be with them) when the angels gather them, smiting their faces and their backs!", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "تو اُس وقت (ان کا) کیسا (حال) ہوگا جب فرشتے ان کی جان نکالیں گے اور ان کے مونہوں اور پیٹھوں پر مارتے جائیں گے", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-47 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

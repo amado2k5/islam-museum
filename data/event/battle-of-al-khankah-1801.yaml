@@ -1,0 +1,23 @@
+id: event/battle-of-al-khankah-1801
+class: event
+kind: battle
+label: { ar: "معركة الخانكة", en: "Battle of Al Khankah" }
+summary:
+  ar: "بطاقة أولية لمعركة الخانكة سنة ١٨٠١م، فوز البريطانيين والعثمانيين على الفرنسيين قرب القاهرة؛ لم تُراجع مصادره على الصفحة بعد."
+  en: "Draft card for the Battle of Al Khankah in 1801, the Anglo-Ottoman victory over the French near Cairo; its sources are not yet checked on the page."
+wings: [time]
+periods: [period/colonial-era]
+regions: [egypt-nile]
+date:
+  start: { edtf: "1801", precision: year, status: tradition, derived: true }
+  end: { edtf: "1801", precision: year, status: tradition, derived: true }
+sources: [source/tarikh-islam-hasan-ibrahim]
+external_ids:
+  wikidata: Q118946811
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; battle attested in narrative histories — entry not yet checked on the page"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-wave2
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

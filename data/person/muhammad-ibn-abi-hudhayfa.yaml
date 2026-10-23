@@ -1,6 +1,6 @@
 id: person/muhammad-ibn-abi-hudhayfa
 class: person
-label: { ar: "محمد بن أبي حذيفة" }
+label: { en: Muhammad ibn Abi Hudhayfa, ar: "محمد بن أبي حذيفة" }
 names:
   - { kind: full, lang: ar, value: "محمد بن أبي حذيفة" }
 gender: male
@@ -8,6 +8,7 @@ roles: [companion]
 traditions: [sunni]
 summary:
   ar: "ولد بأرض الحبشة لأبيه أبي حذيفة، ذكره ابن إسحاق في «أبنائهم بالحبشة» من بني عبد شمس."
+  en: Born in the land of Abyssinia to his father Abu Hudhayfa; Ibn Ishaq names him among 'their children in Abyssinia' of Banu Abd Shams.
 wings: [people]
 themes: [refugees-migrants-diaspora]
 periods: [period/prophetic-era]
@@ -20,5 +21,5 @@ relations:
   - { type: member_of, target: group/banu-abd-shams, sources: [source/ibn-hisham-saqqa] }
   - { type: participated_in, target: event/return-of-abyssinian-emigrants, role: born-in-abyssinia, sources: [source/ibn-hisham-saqqa] }
 provenance: { layer: own-research, source: "sira-ibn-hisham saqqa 1936, juz' 4 p. 11", generated_by: "Claude Sonnet 5.5", run: "ibn-hisham-batch-5c-iii" }
-sources: [source/ibn-hisham-saqqa]
+sources: [source/ibn-hisham-saqqa, source/sallabi-ali-vol1]
 status: { review: draft, completeness: 1, generated_by: "Claude Sonnet 5.5; mined from Ibn Hisham juz' 4 pp. 3-11" }

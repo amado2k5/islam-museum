@@ -1,0 +1,21 @@
+id: person/ibn-hamid-al-warraq
+class: person
+label: { ar: "أبو عبد الله الحسن بن حامد الوراق الحنبلي" }
+summary:
+  ar: "الحسن بن حامد بن علي بن مروان أبو عبد الله الوراق البغدادي الحنبلي، مدرس أصحاب الإمام أحمد وفقيههم وإمامهم في زمانه، وشيخ القاضي أبي يعلى ابن الفراء الذي تخرج عليه ونقل مذهبه. له المصنفات الكبار في المذهب والخلاف والأصول، منها كتاب الجامع نحو أربعمائة جزء وكتاب تهذيب الأجوبة وشرح أصول الدين، وكان حسن الفتوى والتدريس. توفي في طريق مكة منصرفاً من الحج في واقصة ليلة الجمعة ثامن عشر جمادى الأولى سنة ثلاث وأربعمائة ودُفن هناك {cite:muntazam-ibn-al-jawzi j.7 p.263-264}."
+wings: [people]
+periods: [period/buyid-seljuk-fatimid-era]
+regions: [levant-iraq]
+roles: [scholar, jurist, teacher]
+themes: [law-and-courts]
+died:
+  { edtf: "1012-12-05~", hijri: "0403-05-18", calendar: julian, precision: day, status: tradition, derived: true, note: "ليلة الجمعة 18 جمادى الأولى 403هـ بواقصة؛ التحويل مشتق {cite:muntazam-ibn-al-jawzi j.7 p.264}" }
+relations:
+  - { type: teacher_of, target: person/abu-yala-ibn-al-farra, role: "تخرج عليه في الفقه ولزم مجلسه", sources: [source/muntazam-ibn-al-jawzi] }
+provenance:
+  layer: own-research
+  source: "المنتظم في تاريخ الملوك والأمم — ابن الجوزي (ج7، وفيات سنة 403)، قراءة آبل فيجن"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-muntazam-batch-22
+sources: [source/muntazam-ibn-al-jawzi]
+status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 High)" }

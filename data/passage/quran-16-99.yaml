@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 16:99 (سورة النحل، الآية 99)."
 text: "إِنَّهُۥ لَيْسَ لَهُۥ سُلْطَـٰنٌ عَلَى ٱلَّذِينَ ءَامَنُوا۟ وَعَلَىٰ رَبِّهِمْ يَتَوَكَّلُونَ"
 text_search: "إنه ليس له سلطان على الذين آمنوا وعلى ربهم يتوكلون"
+translations:
+  en: { text: "Lo! he hath no power over those who believe and put trust in their Lord.", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "کہ جو مومن ہیں اپنے پروردگار پر بھروسہ رکھتے ہیں اُن پر اس کا کچھ زور نہیں چلتا", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-16 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

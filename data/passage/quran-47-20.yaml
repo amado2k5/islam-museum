@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 47:20 (سورة محمد، الآية 20)."
 text: "وَيَقُولُ ٱلَّذِينَ ءَامَنُوا۟ لَوْلَا نُزِّلَتْ سُورَةٌ ۖ فَإِذَآ أُنزِلَتْ سُورَةٌ مُّحْكَمَةٌ وَذُكِرَ فِيهَا ٱلْقِتَالُ ۙ رَأَيْتَ ٱلَّذِينَ فِى قُلُوبِهِم مَّرَضٌ يَنظُرُونَ إِلَيْكَ نَظَرَ ٱلْمَغْشِىِّ عَلَيْهِ مِنَ ٱلْمَوْتِ ۖ فَأَوْلَىٰ لَهُمْ"
 text_search: "ويقول الذين آمنوا لولا نزلت سورة ۖ فإذا أنزلت سورة محكمة وذكر فيها القتال ۙ رأيت الذين في قلوبهم مرض ينظرون إليك نظر المغشي عليه من الموت ۖ فأولى لهم"
+translations:
+  en: { text: "And those who believe say: If only a surah were revealed! But when a decisive surah is revealed and war is mentioned therein, thou seest those in whose hearts is a disease looking at thee with the look of men fainting unto death. Therefor woe unto them!", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "اور مومن لوگ کہتے ہیں کہ (جہاد کی) کوئی سورت کیوں نازل نہیں ہوتی؟ لیکن جب کوئی صاف معنوں کی سورت نازل ہو اور اس میں جہاد کا بیان ہو تو جن لوگوں کے دلوں میں (نفاق کا) مرض ہے تم ان کو دیکھو کہ تمہاری طرف اس طرح دیکھنے لگیں جس طرح کسی پر موت کی بےہوشی (طاری) ہو رہی ہو۔ سو ان کے لئے خرابی ہے", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-47 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

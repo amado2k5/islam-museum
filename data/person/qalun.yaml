@@ -1,0 +1,26 @@
+id: person/qalun
+class: person
+label:
+  ar: "قالون"
+  en: "Qalun"
+roles: [scholar]
+gender: male
+summary:
+  ar: "بطاقة أولية لقالون، راوي نافع وأحد القراء السبعة بقراءته المروية عن المدني؛ لم تُراجع ترجمته على الصفحة بعد."
+  en: "Draft card for Qalun, the transmitter of Nafi' counted among the seven readers through his riwaya; his entry is not yet checked on the page."
+wings: [people]
+regions: [maghreb]
+periods: [period/abbasid-early]
+died: { edtf: "0835", precision: year, status: tradition, derived: true }
+sources: [source/siyar-alam-nubala-abyari]
+external_ids:
+  wikidata: Q12232042
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; entry not yet read on the page in a book source"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-wave2
+status:
+  review: draft
+  completeness: 1

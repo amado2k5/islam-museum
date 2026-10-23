@@ -1,0 +1,23 @@
+id: event/siege-of-damietta-1169
+class: event
+kind: siege
+label: { ar: "حصار دمياط (١١٦٩)", en: "Siege of Damietta (1169)" }
+summary:
+  ar: "بطاقة أولية لحصار دمياط سنة ١١٦٩م، حملة ألمرى الصليبي المشتركة مع البيزنطيين على مصر الفاطمية؛ لم تُراجع مصادره على الصفحة بعد."
+  en: "Draft card for the Siege of Damietta in 1169, King Amalric's joint Crusader–Byzantine attack on Fatimid Egypt; its sources are not yet checked on the page."
+wings: [time]
+periods: [period/crusades-ayyubid-mamluk]
+regions: [egypt-nile]
+date:
+  start: { edtf: "1169-10", precision: year, status: tradition, derived: true }
+  end: { edtf: "1169-12", precision: year, status: tradition, derived: true }
+sources: [source/tarikh-islam-hasan-ibrahim]
+external_ids:
+  wikidata: Q131290982
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; battle attested in narrative histories — entry not yet checked on the page"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-wave2
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

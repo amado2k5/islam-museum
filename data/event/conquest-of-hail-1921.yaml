@@ -1,0 +1,23 @@
+id: event/conquest-of-hail-1921
+class: event
+kind: conquest
+label: { ar: "فتح حائل (١٩٢١)", en: "Conquest of Ha'il" }
+summary:
+  ar: "بطاقة أولية لفتح حائل سنة ١٩٢١م، سقوط إمارة آل رشيد بيد عبد العزيز بن سعود؛ لم تُراجع مصادره على الصفحة بعد."
+  en: "Draft card for the conquest of Ha'il in 1921, the Rashidi emirate's fall to Abd al-Aziz ibn Saud; its sources are not yet checked on the page."
+wings: [time]
+periods: [period/modern-era]
+regions: [arabia]
+date:
+  start: { edtf: "1921", precision: year, status: tradition, derived: true }
+  end: { edtf: "1921", precision: year, status: tradition, derived: true }
+sources: [source/tarikh-islam-hasan-ibrahim]
+external_ids:
+  wikidata: Q5162436
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; battle attested in narrative histories — entry not yet checked on the page"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-wave2
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

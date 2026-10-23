@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 17:14 (سورة الإسراء، الآية 14)."
 text: "ٱقْرَأْ كِتَـٰبَكَ كَفَىٰ بِنَفْسِكَ ٱلْيَوْمَ عَلَيْكَ حَسِيبًا"
 text_search: "اقرأ كتابك كفى بنفسك اليوم عليك حسيبا"
+translations:
+  en: { text: "(And it will be said unto him): Read thy Book. Thy soul sufficeth as reckoner against thee this day.", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "(کہا جائے گا کہ) اپنی کتاب پڑھ لے۔ تو آج اپنا آپ ہی محاسب کافی ہے", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-17 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

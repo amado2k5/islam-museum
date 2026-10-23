@@ -1,0 +1,27 @@
+id: person/abu-al-khayr-al-alai
+class: person
+label: { ar: "أبو الخير العلائي المقدسي", en: "Abu al-Khayr al-'Ala'i al-Muqaddisi" }
+names:
+  - { value: "أبو الخير أحمد بن خليل بن كيكلدي العلائي المقدسي", kind: full }
+born: { edtf: "1326~", hijri: "0726~", calendar: julian, precision: year, status: tradition, derived: true, note: "له ست وسبعون سنة {cite:shadharat-dhahab p. 23}." }
+died: { edtf: "1399-10~", hijri: "0802-03", calendar: julian, precision: month, status: tradition, derived: true, note: "كان موته في ربيع الأول وله ست وسبعون سنة {cite:shadharat-dhahab p. 23}." }
+summary:
+  ar: "المسند المقدسي؛ انتفع بإفادة أبيه من الكبار كالحجار والمِزّي ورحل به إلى القاهرة فأسمعه من أبي حيان وعدة من أصحاب النجيب، وسكن بيت المقدس إلى أن صار من أعيانه، وكانت الرحلة في سماع الحديث بالقدس إليه؛ قال ابن حجر: ظهر له في أواخر عمره سماع ابن ماجه على الحجار فرحلت إليه من القاهرة بسببه في هذه السنة فبلغني وفاته وأنا بالرملة فعدلت عن القدس إلى الشام، وقد أجاز لي غير مرة {cite:shadharat-dhahab p. 23}."
+  en: "Jerusalem's musnid — the man scholars journeyed to for the capital's audition-list; Ibn Hajar set out from Cairo for his Ibn Majah samā' and learned on the road at Ramla that he had died {cite:shadharat-dhahab p. 23}."
+gender: male
+roles: [scholar]
+wings: [people]
+periods: [period/mongol-post-mongol]
+regions: [levant-iraq]
+faith:
+  - value: sunni
+    basis: tradition
+relations:
+  - { type: died_in, target: place/jerusalem, sources: [source/shadharat-dhahab] }
+sources: [source/shadharat-dhahab]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }
+provenance:
+  layer: own-research
+  source: "شذرات الذهب — ابن العماد (ط مثنى، ج7، سنة 802)، قراءة آبل فيجن"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-shadharat-batch-136

@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 79:19 (سورة النازعات، الآية 19)."
 text: "وَأَهْدِيَكَ إِلَىٰ رَبِّكَ فَتَخْشَىٰ"
 text_search: "وأهديك إلى ربك فتخشى"
+translations:
+  en: { text: "Then I will guide thee to thy Lord and thou shalt fear (Him).", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "اور میں تجھے تیرے پروردگار کا رستہ بتاؤں تاکہ تجھ کو خوف (پیدا) ہو", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-79 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

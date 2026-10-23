@@ -4,8 +4,8 @@ kind: battle
 label: { en: "The Battle of Dhu Qar", ar: "يوم ذي قار" }
 summary:
   en: "Khosrow’s marzabans and the governor Iyas ibn Qabisa marched to wrest al-Nuʾman’s deposited family and wealth from Hani ibn Masʾud; Banu Shayban met them at Dhu Qar and routed the Persians utterly — the first day the Arabs defeated the Persians, shortly after the Prophet’s birth."
-  ar: "خرجت مرازبة كسرى وكتائبه في موكب إياس بن قبيصة ليأخذوا ما أودعه النعمان عند هانئ بن مسعود، فأبى هانئ تسليمه حمية؛ فكانت بين الفريقين موقعة هائلة عند ذي قار انتصر فيها بنو شيبان وانهزمت الفرس هزيمة منكرة — أول يوم انتصرت فيه العرب على العجم، بعد مولد النبي بقليل."
-wings: [time, people]
+  ar: "بعدما قُيد النعمان بن المنذر ومات بخانقين، أمر كسرى إياس بن قبيصة — وقد استعمله على الحيرة — أن يستخلص وديعة النعمان من أربعمائة درع (وقيل ثمانمائة) عند هانئ بن مسعود، فأبى هانئ تسليمها حمية، فأنذر كسرى بكرًا بخيرهم واحدة من ثلاث — التسليم أو الجلاء أو الحرب — فأشار عليهم حنظلة بن ثعلبة العجلي بالحرب، وقطع وضن الهوادج وضرب على نفسه قبة أقسم أن لا يفر حتى تفر، فسمي مقطع الوضن؛ فكانت بين الفريقين موقعة هائلة عند ذي قار انتصر فيها بنو شيبان وانهزمت الفرس هزيمة منكرة — أول يوم انتصرت فيه العرب على العجم، بعد مولد النبي بقليل. وقد فُوّض أمر بكر لحنظلة حين أرسل كسرى النعمان بن زرعة التغلبي بالتخيير {cite:kamil-ibn-al-athir p. 367-368}."
+wings: [time]
 themes: [wars-and-campaigns]
 periods: [period/pre-islamic-arabia]
 regions: [arabia]
@@ -14,8 +14,8 @@ date:
 relations:
   - { type: occurred_at, target: place/dhu-qar }
   - { type: had_participant, target: person/hani-ibn-masud, role: "سيد آل شيبان حامي الوديعة", sources: [source/mubarakpuri-raheeq] }
-  - { type: had_participant, target: person/iyas-ibn-qabisa, role: "والي الحيرة في موكب كسرى", sources: [source/mubarakpuri-raheeq] }
-  - { type: had_participant, target: group/banu-shayban, role: "الحي المنتصر", sources: [source/mubarakpuri-raheeq, source/muhadarat-tarikh-al-umam-al-islamiyya] }
+  - { type: had_participant, target: person/iyas-ibn-qabisa, role: "والي الحيرة في موكب كسرى", sources: [source/mubarakpuri-raheeq, source/kamil-ibn-al-athir] }
+  - { type: had_participant, target: group/banu-shayban, role: "الحي المنتصر", sources: [source/mubarakpuri-raheeq, source/muhadarat-tarikh-al-umam-al-islamiyya, source/kamil-ibn-al-athir] }
   - { type: had_participant, target: polity/sasanian-empire, role: "القوة المهزومة", sources: [source/mubarakpuri-raheeq] }
   - { type: part_of, target: period/pre-islamic-arabia }
 sides:
@@ -25,5 +25,5 @@ sides:
   - label: { en: "Sasanian host and al-Hira", ar: "جند كسرى وعمال الحيرة" }
     participants: [person/iyas-ibn-qabisa, polity/sasanian-empire]
     commanders: [person/iyas-ibn-qabisa]
-sources: [source/mubarakpuri-raheeq, source/muhadarat-tarikh-al-umam-al-islamiyya]
+sources: [source/mubarakpuri-raheeq, source/muhadarat-tarikh-al-umam-al-islamiyya, source/kamil-ibn-al-athir]
 status: { review: draft, completeness: 2, generated_by: "Devin; al-Raheeq al-Makhtum pp. 23–34 (batch 25b)" }

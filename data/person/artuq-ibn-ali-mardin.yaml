@@ -1,0 +1,27 @@
+id: person/artuq-ibn-ali-mardin
+class: person
+label: { ar: "أرتق بن علي صاحب ماردين", en: "Artuq b. Ali, lord of Mardin" }
+names:
+  - { value: "أرتق بن علي بن الأرتقي التركماني", kind: full }
+died: { edtf: "1239", hijri: "0636", calendar: julian, precision: year, status: tradition, derived: true, note: "قتله غلمانه بمواطأة ابن ابنه سنة ست وثلاثين وستمائة {cite:shadharat-dhahab p. 188}.", sources: [source/shadharat-dhahab] }
+summary:
+  ar: "صاحب ماردين الأرتقي؛ تملك ماردين بضعاً وثلاثين سنة وكان فيه عدل ودين في الجملة، قتله غلمانه بمواطأة ابن ابنه، وتملك بعده ابنه نجم الدين غازي {cite:shadharat-dhahab p. 188}."
+  en: "The Artuqid lord of Mardin (killed 636) — ~35 just years, murdered by his own ghilman in league with his grandson; succeeded by his son Najm al-Din Ghazi {cite:shadharat-dhahab p. 188}."
+gender: male
+roles: [emir]
+wings: [people]
+periods: [period/crusades-ayyubid-mamluk]
+regions: [anatolia-balkans, levant-iraq]
+faith:
+  - value: sunni
+    basis: tradition
+relations:
+  - { type: ruler_of, target: place/mardin, sources: [source/shadharat-dhahab] }
+  - { type: died_in, target: place/mardin, sources: [source/shadharat-dhahab] }
+sources: [source/shadharat-dhahab]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }
+provenance:
+  layer: own-research
+  source: "شذرات الذهب — ابن العماد (ج5، سنة 636)، قراءة آبل فيجن"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-shadharat-batch-126

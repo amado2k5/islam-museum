@@ -1,0 +1,46 @@
+id: concept/wujub-al-hajj-fawran-aw-tarakhi
+class: concept
+kind: term
+label: { ar: "وجوب الحج: على الفور أم على التراخي", en: "Duty of the Hajj: immediate or deferrable" }
+issue:
+  ar: "هل يجب الحج على المستطيع فوراً، أم يجوز تأخيره ما لم يمنعه عذر؟"
+summary:
+  ar: "خلاف الفقهاء في وقت وجوب الحج على المستطيع. ينقل محمد رشيد رضا قول كثير من أهل الفقه والأثر بأنه على الفور، وقول آخرين بأنه على التراخي، ويذكر الروايات التي استدل بها أهل الفور وما قيل في ضعفها، ويوصي بالاحتياط بعدم التأخير بغير عذر. وفي الشروط يذكر رضا قول الأستاذ محمد عبده في الاستطاعة وخلاف الناس في تفسيرها."
+  en: "The jurists' dispute over when the pilgrimage becomes due for one who is able. Rashid Rida reports that many scholars of law and transmission hold it immediate, and others hold it deferrable. He lists the reports used by the first view and records the weakness attributed to them, and advises caution against delay without a valid excuse. On the sense of ability he reports Muhammad Abduh's reading."
+wings: [ideas, living]
+themes: [worship-and-the-pillars, sacred-space-and-pilgrimage]
+periods: [period/prophetic-era]
+regions: [arabia]
+perspectives:
+  - tradition: sunni
+    id: immediate-view
+    stance:
+      ar: "الحج على الفور: لا يؤخره المستطيع بغير عذر"
+    summary:
+      ar: "ينقل رضا أن كثيراً من أهل الفقه والأثر استدلوا بالروايات في أن الحج واجب على الفور. ويذكر أن أهل الفور يستدلون بروايات في من مات ولم يحج، وبأثر عن عمر في من له سعة ولم يحج، وأن هذه الروايات يضعفها الحفاظ. ويقول رضا إن الاحتياط ألا يؤخر المستطيع الحج بغير عذر صحيح، لئلا يفاجئه الموت."
+    holders: []
+    evidence:
+      - ref: source/tafsir-manar-v04
+        note:
+          ar: "ص 11 (الروايات وقول كثير من أهل الفقه والأثر؛ لم يُذكر أصحاب القول بأسمائهم في النص)"
+    sources: [source/tafsir-manar-v04]
+  - tradition: sunni
+    id: deferrable-view
+    stance:
+      ar: "الحج على التراخي: يجوز تأخيره ما لم يمنعه عذر أو يفوت الوقت"
+    summary:
+      ar: "ينقل رضا أن الآخرين يقولون إن الحج على التراخي، دون أن يذكر أصحاب هذا القول بأسمائهم. وهو يذكر هذا القول قبل أن يقدم الاحتياط الذي يراه."
+    holders: []
+    evidence:
+      - ref: source/tafsir-manar-v04
+        note:
+          ar: "ص 11 (ينقل الخلاف في سطر واحد)"
+    sources: [source/tafsir-manar-v04]
+sources: [source/tafsir-manar-v04]
+provenance:
+  layer: own-research
+  source: "تفسير المنار، المجلد الرابع، ص 10-11 (نسخة OCR محلية)"
+  generated_by: "Claude Haiku 5.5"
+  model: claude-haiku-5-5
+  run: "lib-exp-tafsir-manar-v04-05 batch 1"
+status: { review: draft, completeness: 1, generated_by: "library-expansion (Claude Haiku 5.5); from Rida's commentary on Q. 3:97; the holders of each view are not named in the text and must be found in a fiqh source before review; the grading of the reports is Rida's report of others' verdicts" }

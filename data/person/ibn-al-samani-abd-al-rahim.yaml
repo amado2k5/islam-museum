@@ -1,0 +1,35 @@
+id: person/ibn-al-samani-abd-al-rahim
+class: person
+label: { ar: "ابن السمعاني" }
+summary:
+  ar: "أبو المظفر فخر الدين عبد الرحيم بن الحافظ أبي سعيد عبد الكريم بن الحافظ أبي بكر محمد بن الإمام أبي المظفر منصور بن محمد الميمي المروزي الشافعي؛ الفقيه المحدث مسند خراسان؛ ولد سنة سبع وثلاثين وخمسمائة وروى كتباً كباراً منها البخاري ومسند أبي عوانة وسنن أبي داود وجامع الترمذي وتاريخ الفسوي ومسند الهيثم بن كليب؛ سمع من وجيه الشحامي وأبي الأسعد القشيري وخلق، ورحَّله أبوه إلى مرو ونيسابور وهراة وبخارا وسمرقند ثم خرج له أبوه معجماً في ثمانية عشر جزءاً؛ وكان مفتياً عارفاً بالمذهب وروى الكثير ورحل الناس إليه وسمع منه الحافظ أبو بكر الحازمي وحدث عنه ابن الصلاح والضياء المقدسي والزكي البرزالي والمحب بن النجار وخرج لنفسه أربعين حديثاً وانتهت إليه رياسة الشافعية ببلده وخُتم به البيت السمعاني؛ عُدم في دخول التتار في آخر العام فيما ذكر ابن العماد {cite:shadharat-dhahab p. 75-76}."
+gender: male
+wings: [people]
+periods: [period/mongol-post-mongol]
+born:
+  edtf: "1142~"
+  hijri: "0537"
+  calendar: julian
+  precision: year
+  status: tradition
+  derived: true
+  note: "سنة 537هـ؛ التحويل مشتق {cite:shadharat-dhahab p. 75}."
+died:
+  edtf: "1221~"
+  hijri: "0618~"
+  calendar: julian
+  precision: year
+  status: tradition
+  derived: true
+  note: "عدم في دخول التتار آخر العام — أوردته الشذرات في وفيات سنة 617 والظاهر أنه استشهد في خراب مرو سنة 618؛ التحويل مشتق {cite:shadharat-dhahab p. 76}."
+relations:
+  - { type: child_of, target: person/al-samani, sources: [source/shadharat-dhahab] }
+  - { type: lived_in, target: place/marw, sources: [source/shadharat-dhahab] }
+  - { type: died_in, target: place/marw, sources: [source/shadharat-dhahab] }
+provenance:
+  layer: own-research
+  source: "شذرات الذهب لابن العماد — الجزء الخامس، ممسوح مكتبة الحصاد (AAlexandrina-001518)، قراءة آبل فيجن"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-shadharat-batch-123
+sources: [source/shadharat-dhahab]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

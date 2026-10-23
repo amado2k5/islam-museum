@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 14:4 (سورة إبراهيم، الآية 4)."
 text: "وَمَآ أَرْسَلْنَا مِن رَّسُولٍ إِلَّا بِلِسَانِ قَوْمِهِۦ لِيُبَيِّنَ لَهُمْ ۖ فَيُضِلُّ ٱللَّهُ مَن يَشَآءُ وَيَهْدِى مَن يَشَآءُ ۚ وَهُوَ ٱلْعَزِيزُ ٱلْحَكِيمُ"
 text_search: "وما أرسلنا من رسول إلا بلسان قومه ليبين لهم ۖ فيضل الله من يشاء ويهدي من يشاء ۚ وهو العزيز الحكيم"
+translations:
+  en: { text: "And We never sent a messenger save with the language of his folk, that he might make (the message) clear for them. Then Allah sendeth whom He will astray, and guideth whom He will. He is the Mighty, the Wise.", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "اور ہم نے کوئی پیغمبر نہیں بھیجا مگر اپنی قوم کی زبان بولتا تھا تاکہ انہیں (احکام خدا) کھول کھول کر بتا دے۔ پھر خدا جسے چاہتا ہے گمراہ کرتا ہے اور جسے چاہتا ہے ہدایت دیتا ہے اور وہ غالب (اور) حکمت والا ہے", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-14 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

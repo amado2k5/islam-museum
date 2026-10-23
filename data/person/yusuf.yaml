@@ -1,0 +1,17 @@
+id: person/yusuf
+class: person
+label: { ar: "يوسف", en: "Yusuf (Joseph)" }
+gender: male
+summary:
+  ar: "نبي وابن نبي. عند البخاري قال النبي «الكريم ابن الكريم ابن الكريم ابن الكريم: يوسف بن يعقوب بن إسحاق بن إبراهيم» {cite:sahih-al-bukhari 3382}، و«لو لبثت في السجن ما لبث يوسف ثم أتاني الداعي لأجبته» {cite:sahih-al-bukhari 3387}، وفي دعائه على مضر «اجعلها سنين كسني يوسف» {cite:sahih-al-bukhari 3386}."
+  en: "Prophet son of a prophet: 'the noble son of the noble son of the noble son of the noble' {cite:sahih-al-bukhari 3382}, and the Prophet would have answered the call even after Yusuf's years in prison {cite:sahih-al-bukhari 3387}."
+wings: [people]
+themes: [prophets]
+periods: [period/pre-islamic-arabia]
+story_roles:
+  - { role: prophet-figure, status: scriptural, sources: [source/tanzil-quran, source/sahih-al-bukhari] }
+relations:
+  - { type: child_of, target: person/yaqub, sources: [source/sahih-al-bukhari] }
+provenance: { layer: own-research, source: "صحيح البخاري (طبعة دار ابن كثير، ترقيم فخر الدين)، تصوير Apple Vision OCR", generated_by: "Devin (SWE-2 High) from Apple Vision OCR", run: "hadith-bukhari-anbiya" }
+sources: [source/sahih-al-bukhari]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High) from Apple Vision OCR" }

@@ -1,0 +1,23 @@
+id: event/safavid-capture-of-tabriz-1603
+class: event
+kind: battle
+label: { ar: "استرداد تبريز (١٦٠٣)", en: "Safavid capture of Tabriz" }
+summary:
+  ar: "بطاقة أولية لاسترداد تبريز سنة ١٦٠٣م، أخذ الشاه عباس للمدينة من العثمانيين؛ لم تُراجع مصادره على الصفحة بعد."
+  en: "Draft card for the Safavid capture of Tabriz in 1603, Shah Abbas's retaking of the city from the Ottomans; its sources are not yet checked on the page."
+wings: [time]
+periods: [period/gunpowder-empires]
+regions: [persia-central-asia]
+date:
+  start: { edtf: "1603", precision: year, status: tradition, derived: true }
+  end: { edtf: "1603", precision: year, status: tradition, derived: true }
+sources: [source/dawlat-uthmaniyya-salabi]
+external_ids:
+  wikidata: Q5935848
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; battle attested in narrative histories — entry not yet checked on the page"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-wave2
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

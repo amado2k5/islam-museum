@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 23:109 (سورة المؤمنون، الآية 109)."
 text: "إِنَّهُۥ كَانَ فَرِيقٌ مِّنْ عِبَادِى يَقُولُونَ رَبَّنَآ ءَامَنَّا فَٱغْفِرْ لَنَا وَٱرْحَمْنَا وَأَنتَ خَيْرُ ٱلرَّٰحِمِينَ"
 text_search: "إنه كان فريق من عبادي يقولون ربنا آمنا فاغفر لنا وارحمنا وأنت خير الراحمين"
+translations:
+  en: { text: "Lo! there was a party of My slaves who said: Our Lord! We believe, therefor forgive us and have mercy on us for Thou art Best of all who show mercy;", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "میرے بندوں میں ایک گروہ تھا جو دعا کیا کرتا تھا کہ اے ہمارے پروردگار ہم ایمان لائے تو تُو ہم کو بخش دے اور ہم پر رحم کر اور تو سب سے بہتر رحم کرنے والا ہے", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-23 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

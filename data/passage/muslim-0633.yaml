@@ -1,0 +1,15 @@
+id: passage/muslim-0633
+class: passage
+unit: hadith
+work: work/sahih-muslim
+ref: "633"
+label: { ar: "مسلم 633 — إنكم سترون ربكم كما ترون هذا القمر لا تضامون في رؤيته", en: "Muslim 633 — You will see your Lord as you see this moon, unharmed in seeing Him" }
+text: "قال رسول الله، وقد نظر إلى القمر ليلة البدر: «أما إنكم سترون ربكم كما ترون هذا القمر، لا تضامون في رؤيته؛ فإن استطعتم أن لا تغلبوا على صلاة قبل طلوع الشمس وقبل غروبها فافعلوا»"
+summary:
+  ar: "رواية جرير بن عبد الله في باب رؤية المؤمنين ربهم من كتاب صلاة المسافرين في صحيح مسلم؛ يربط حفظ صلاتي الفجر والعصر برؤية الله، ويقرأ جرير بعدها آية طه."
+relations:
+  - { type: mentions, target: person/muhammad, sources: [source/sahih-muslim] }
+  - { type: mentions, target: person/jarir-ibn-abd-allah-al-bajali, sources: [source/sahih-muslim] }
+provenance: { layer: own-research, source: "صحيح مسلم، كتاب صلاة المسافرين، باب فضل صلاتي الصبح والعصر (طبعة دار التأصيل، الحديث ٦٢٥؛ ترقيم عبد الباقي المعروف 633)، تصوير Apple Vision OCR", generated_by: "Devin (SWE-2 High) from Apple Vision OCR", run: "hadith-muslim-passages-3" }
+sources: [source/sahih-muslim]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High); matn excerpt at most 40 words checked against the scan" }

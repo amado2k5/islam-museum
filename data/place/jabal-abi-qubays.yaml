@@ -1,0 +1,21 @@
+id: place/jabal-abi-qubays
+class: place
+kind: mountain
+label: { ar: "جبل أبي قبيس", en: "Mount Abu Qubays" }
+summary:
+  ar: "جبل بمكة مشرف على الحرم؛ يذكره الرحيق المختوم في سبب حلف الفضول: علاه الزبيدي المظلوم ونادى بأشعار يصف فيها ظلامته رافعاً صوته."
+  en: "A mountain at Mecca overlooking the sanctuary; al-Raheeq al-Makhtum names it in the origin of the Fudul pact, where the wronged Zabidi merchant climbed it and cried out his grievance in verse."
+wings: [place]
+periods: [period/pre-islamic-arabia, period/prophetic-era]
+regions: [arabia]
+coordinate_note: "لم تُحدَّد الإحداثيات بعد؛ الجبل في شرقي المسجد الحرام."
+relations:
+  - { type: located_in, target: place/mecca, sources: [source/mubarakpuri-raheeq] }
+provenance:
+  layer: own-research
+  source: "الرحيق المختوم ص58–61 نقلاً عن ابن هشام 1/180–191 ومختصر سيرة الرسول للنجدي ص16، 30–31 وزاد المعاد 1/17 وقلب جزيرة العرب ص260 ومحاضرات الخضري 1/63 وفقه السيرة ص52، 59"
+  generated_by: "Claude Code"
+  model: "claude-fable-5-1"
+  run: "raheeq-prose-batch-6b"
+sources: [source/mubarakpuri-raheeq, source/mukhtasar-sirat-al-rasul-al-najdi]
+status: { review: draft, completeness: 1, generated_by: "Claude Code (claude-fable-5-1); al-Raheeq al-Makhtum p. 60" }

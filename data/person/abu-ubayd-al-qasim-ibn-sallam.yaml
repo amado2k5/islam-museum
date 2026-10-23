@@ -1,0 +1,19 @@
+id: person/abu-ubayd-al-qasim-ibn-sallam
+class: person
+label: { ar: "أبو عبيد القاسم بن سلام", en: "Abu Ubayd al-Qasim ibn Sallam" }
+summary:
+  ar: "أبو عبيد القاسم بن سلام؛ ولد بهراة وكان أبوه سلام عبداً رومياً لرجل من أهلها يتولى الأزد. طلب العلم وسمع إسماعيل بن جعفر وشريكاً وإسماعيل بن عياش وهشيم بن بشير وسفيان بن عيينة وإسماعيل بن علية ويزيد بن هارون ويحيى بن سعيد القطان وحجاج بن محمد وأبا معاوية الضرير وصفوان بن عيسى وعبد الرحمن بن مهدي وحماد بن مسعدة ومروان بن معاوية وأبا بكر بن عياش وعمرو بن يونس وإسحاق الأزرق وغيرهم، وروى عنه محمد بن إسحاق الصاغاني والحسن بن مكرم وأبو بكر بن أبي الدنيا والحارث بن أبي أسامة ومحمد بن يحيى المروزي وعلي بن عبد العزيز البغوي وآخرون. أقام ببغداد مدة فكان مؤدباً لآل هرون ثم صار في ناحية عبد الله بن طاهر، وولي قضاء طرطوس، وخرج إلى مكة سنة أربع وعشرين ومائتين فسكنها حتى مات بها؛ قال ابن درستويه: من جمع صنوفاً من العلم وصنف الكتب في كل فن فأكثر وأشهر: أبو عبيد القاسم بن سلام، وروي الناس من كتبه المصنفة بضعة وعشرون كتاباً في القرآن والفقه وغريب الحديث والأمثال ومعاني الشعر وغير ذلك {cite:tarikh-baghdad-khatib j.10 p.403-404}."
+  en: "Abu Ubayd al-Qasim ibn Sallam — b. Herat, son of a Roman mawla of the Azd; tutor to Harun al-Rashid's sons, then in Abd Allah ibn Tahir's circle, qadi of Tarsus, and finally settled in Mecca in 224 where he died; Ibn Durustawayh counted him the most prolific author of Baghdad in every field — some twenty books transmitted on Qur'an, fiqh, gharib al-hadith, proverbs and poetry {cite:tarikh-baghdad-khatib j.10 p.403-404}."
+gender: male
+provenance:
+  layer: own-research
+  source: "فتوح البلدان ص332؛ تاريخ بغداد ج10 ص403–404، قراءة آبل فيجن"
+  generated_by: "Devin (SWE-2 High, SWE-2 Medium) from Apple Vision OCR"
+  run: lib-futuh-buldan-batch-25, lib-tarikh-baghdad-tb2
+relations:
+  - { type: authored, target: work/al-amthal-al-saira, sources: [source/kashf-zunun-furqan] }
+born: { hijri: "0157", edtf: "0774~", calendar: julian, precision: year, status: tradition, derived: true, note: "محسوب: 224 ناقص 67 عمراً (PDF ص49).", sources: [source/tabaqat-fuqaha-abbas-1981] }
+died: { hijri: "0224", edtf: "0839~", calendar: julian, precision: year, status: tradition, derived: true, note: "الشيرازي: مات سنة أربع وعشرين ومائتين بمكة وهو ابن سبع وستين سنة (PDF ص49).", sources: [source/tabaqat-fuqaha-abbas-1981] }
+external_ids: { wikidata: "Q12178105" }
+sources: [source/futuh-buldan-maarif-1407, source/kashf-zunun-furqan, source/tabaqat-fuqaha-abbas-1981, source/tarikh-baghdad-khatib]
+status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 Medium)" }

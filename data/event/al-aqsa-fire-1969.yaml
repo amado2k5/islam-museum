@@ -1,0 +1,22 @@
+id: event/al-aqsa-fire-1969
+class: event
+kind: other
+label: { ar: "إحراق المسجد الأقصى (1969)", en: "Arson at al-Aqsa Mosque (1969)" }
+summary:
+  ar: "حريق شب في المسجد الأقصى صباح الخميس 21 أغسطس 1969م فأتى على المكتبة والجانب الشرقي منه، ويعدّه الكتاب جريمة نسبها إلى إسرائيل. عقد مجمع البحوث الإسلامية جلسة طارئة في 23 أغسطس 1969م وأصدر بياناً وقرارات تدعو إلى تحرك إسلامي وإلى مطالبة الأمم المتحدة بتنفيذ قراراتها في القدس {cite:bayt-al-maqdis-fi-al-islam-azhar p. 79, 102-104}."
+  en: "A fire at the al-Aqsa Mosque on the morning of Thursday 21 August 1969 destroyed its library and the eastern side, which the book attributes to Israeli forces. The Academy of Islamic Research met in emergency session on 23 August 1969 and issued a statement and resolutions calling for Islamic action and for the United Nations to enforce its resolutions on Jerusalem {cite:bayt-al-maqdis-fi-al-islam-azhar p. 79, 102-104}."
+wings: [time]
+regions: [levant-iraq]
+date:
+  start: { edtf: "1969-08-21", hijri: "", calendar: gregorian, precision: day, status: historical, note: "needs_source: 21 أغسطس 1969 كما يطبعه الكتاب في ص 79؛ الجلسة الطارئة 23 أغسطس في ص 102. يحتاج مصدراً ثانياً." }
+relations:
+  - { type: occurred_at, target: place/al-aqsa-mosque }
+  - { type: occurred_at, target: place/jerusalem }
+sources: [source/bayt-al-maqdis-fi-al-islam-azhar]
+provenance:
+  layer: own-research
+  source: "Bayt al-Maqdis fi al-Islam (Academy, Scientific Series), PDF pp. 76, 79, 102-104"
+  generated_by: "Claude Code (Haiku 5.5)"
+  model: claude-haiku-5-5
+  run: azhar-bayt-al-maqdis-fi-al-islam-azhar
+status: { review: draft, completeness: 1, generated_by: "Claude Code (Haiku 5.5); the cause is the book's attribution, to be stated as such; the date needs a second source" }

@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 17:62 (سورة الإسراء، الآية 62)."
 text: "قَالَ أَرَءَيْتَكَ هَـٰذَا ٱلَّذِى كَرَّمْتَ عَلَىَّ لَئِنْ أَخَّرْتَنِ إِلَىٰ يَوْمِ ٱلْقِيَـٰمَةِ لَأَحْتَنِكَنَّ ذُرِّيَّتَهُۥٓ إِلَّا قَلِيلًا"
 text_search: "قال أرأيتك هذا الذي كرمت علي لئن أخرتن إلى يوم القيامة لأحتنكن ذريته إلا قليلا"
+translations:
+  en: { text: "He said: Seest Thou this (creature) whom Thou hast honoured above me, if Thou give me grace until the Day of Resurrection I verily will seize his seed, save but a few.", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "(اور از راہ طنز) کہنے لگا کہ دیکھ تو یہی وہ ہے جسے تو نے مجھ پر فضیلت دی ہے۔ اگر تو مجھ کو قیامت کے دن تک مہلت دے تو میں تھوڑے سے شخصوں کے سوا اس کی (تمام) اولاد کی جڑ کاٹتا رہوں گا", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-17 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

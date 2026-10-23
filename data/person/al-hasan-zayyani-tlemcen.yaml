@@ -1,0 +1,24 @@
+id: person/al-hasan-zayyani-tlemcen
+class: person
+label: { ar: "الملك حسن الزياني", en: "al-Hasan al-Zayyani" }
+names:
+  - { kind: full, lang: ar, value: "الحسن الزياني" }
+gender: male
+roles: [ruler]
+summary:
+  ar: "أخو أبي زيان أحمد الثاني الذي بايعه أهل تلمسان مكانه بعد أن كرهوا أخاه لتقربه من الأسبان؛ دعمه حسن بن خير الدين فاعترف بسلطة الدولة العثمانية وبقيت حامية عثمانية في قلعة المشوار بتلمسان {cite:dawlat-uthmaniyya-salabi p. 230}."
+  en: "Brother of Abu Zayyan Ahmad II, whom the people of Tlemcen acclaimed in his stead for the other's leanings to Spain; backed by Hasan b. Khayr al-Din he acknowledged Ottoman authority, an Ottoman garrison remaining at al-Mashwar castle {cite:dawlat-uthmaniyya-salabi p. 230}."
+wings: [people]
+regions: [maghreb]
+periods: [period/gunpowder-empires]
+relations:
+  - { type: ruler_of, target: place/tlemcen, sources: [source/dawlat-uthmaniyya-salabi] }
+  - { type: sibling_of, target: person/abu-zayyan-ahmad, sources: [source/dawlat-uthmaniyya-salabi] }
+sources: [source/dawlat-uthmaniyya-salabi]
+provenance:
+  layer: own-research
+  source: "الدولة العثمانية لعلي محمد الصلابي (ط1 1421) ص 230"
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: salabi-uthmani-batch11
+status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 Medium)" }

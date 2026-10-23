@@ -1,0 +1,23 @@
+id: event/siege-of-nauplia-1715
+class: event
+kind: siege
+label: { ar: "حصار نافبليون (١٧١٥)", en: "Siege of Nauplia (1715)" }
+summary:
+  ar: "بطاقة أولية لحصار نافبليون سنة ١٧١٥م، استعادة العثمانيين للمدينة من البندقية؛ لم تُراجع مصادره على الصفحة بعد."
+  en: "Draft card for the Siege of Nauplia in 1715, the Ottoman recapture of the city from Venice; its sources are not yet checked on the page."
+wings: [time]
+periods: [period/gunpowder-empires]
+regions: [anatolia-balkans]
+date:
+  start: { edtf: "1715-07", precision: year, status: tradition, derived: true }
+  end: { edtf: "1715-07", precision: year, status: tradition, derived: true }
+sources: [source/dawlat-uthmaniyya-salabi]
+external_ids:
+  wikidata: Q85801095
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; battle attested in narrative histories — entry not yet checked on the page"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-wave2
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

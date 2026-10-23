@@ -1,0 +1,23 @@
+id: event/siege-of-bejaia-1331
+class: event
+kind: siege
+label: { ar: "حصار بجاية (١٣٣١–١٣٣٢)", en: "Siege of Bejaia (1331–1332)" }
+summary:
+  ar: "بطاقة أولية لحصار بجاية (١٣٣١–١٣٣٢)؛ لم تُراجع مصادره على الصفحة بعد."
+  en: "Draft card for Siege of Bejaia (1331–1332); its sources are not yet checked on the page."
+wings: [time]
+periods: [period/crusades-ayyubid-mamluk]
+regions: [maghreb]
+date:
+  start: { edtf: "1331", precision: year, status: tradition, derived: true }
+  end: { edtf: "1332", precision: year, status: tradition, derived: true }
+sources: [source/tarikh-islam-hasan-ibrahim]
+external_ids:
+  wikidata: Q111211630
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; battle attested in narrative histories — entry not yet checked on the page"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-wave2
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

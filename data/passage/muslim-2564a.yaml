@@ -1,0 +1,16 @@
+id: passage/muslim-2564a
+class: passage
+unit: hadith
+work: work/sahih-muslim
+ref: "2564a"
+label: { ar: "مسلم 2564a — المسلم أخو المسلم لا يظلمه ولا يخذله ولا يحقره", en: "Muslim 2564a — A Muslim is a Muslim's brother" }
+text: "قال رسول الله: «لا تحاسدوا ولا تناجشوا ولا تباغضوا ولا تدابروا ولا يبع بعضكم على بيع بعض، وكونوا عباد الله إخواناً. المسلم أخو المسلم لا يظلمه ولا يخذله ولا يحقره. التقوى هاهنا — ويشير إلى صدره ثلاث مرات — بحسب امرئ من الشر أن يحقر أخاه المسلم. كل المسلم على المسلم حرام دمه وماله وعرضه»"
+summary:
+  ar: "رواية أبي هريرة في باب تحريم ظلم المسلم وخذله واحتقاره ودمه وعرضه وماله من كتاب البر في صحيح مسلم؛ نص جامع لحرمة المسلم دماً ومالاً وعرضاً وأن التقوى في القلب."
+relations:
+  - { type: mentions, target: person/muhammad, sources: [source/sahih-muslim] }
+  - { type: mentions, target: person/abu-hurayra, sources: [source/sahih-muslim] }
+  - { type: mentions, target: concept/ukhuwwa, sources: [source/sahih-muslim] }
+provenance: { layer: own-research, source: "صحيح مسلم، كتاب البر والصلة، باب تحريم ظلم المسلم وخذله واحتقاره (طبعة دار التأصيل، الحديث 6707؛ ترقيم عبد الباقي المعروف 2564a)، تصوير Apple Vision OCR", generated_by: "Devin (SWE-2 High) from Apple Vision OCR", run: "hadith-muslim-passages-2" }
+sources: [source/sahih-muslim]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High); matn excerpt at most 40 words checked against the scan" }

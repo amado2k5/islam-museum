@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 12:111 (سورة يوسف، الآية 111)."
 text: "لَقَدْ كَانَ فِى قَصَصِهِمْ عِبْرَةٌ لِّأُو۟لِى ٱلْأَلْبَـٰبِ ۗ مَا كَانَ حَدِيثًا يُفْتَرَىٰ وَلَـٰكِن تَصْدِيقَ ٱلَّذِى بَيْنَ يَدَيْهِ وَتَفْصِيلَ كُلِّ شَىْءٍ وَهُدًى وَرَحْمَةً لِّقَوْمٍ يُؤْمِنُونَ"
 text_search: "لقد كان في قصصهم عبرة لأولي الألباب ۗ ما كان حديثا يفترى ولكن تصديق الذي بين يديه وتفصيل كل شيء وهدى ورحمة لقوم يؤمنون"
+translations:
+  en: { text: "In their history verily there is a lesson for men of understanding. It is no invented story but a confirmation of the existing (Scripture) and a detailed explanation of everything, and a guidance and a mercy for folk who believe.", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "ان کے قصے میں عقلمندوں کے لیے عبرت ہے۔ یہ (قرآن) ایسی بات نہیں ہے جو (اپنے دل سے) بنائی گئی ہو بلکہ جو (کتابیں) اس سے پہلے نازل ہوئی ہیں ان کی تصدیق (کرنے والا) ہے اور مومنوں کے لیے ہدایت اور رحمت ہے", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-12 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

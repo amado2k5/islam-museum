@@ -1,0 +1,27 @@
+id: person/abd-al-wahid-ibn-idris-almohad
+class: person
+label: { ar: "عبد الواحد بن إدريس الموحدي", en: "Abd al-Wahid b. Idris al-Muwahhidi" }
+names:
+  - { value: "أبو محمد عبد الواحد بن إدريس المأموني صاحب مراكش", kind: full }
+died: { edtf: "1242~", hijri: "0640", calendar: julian, precision: year, status: tradition, derived: true, note: "توفي غريقاً في صهريج بستانه سنة أربعين وستمائة {cite:shadharat-dhahab p. 208}.", sources: [source/shadharat-dhahab] }
+summary:
+  ar: "صاحب المغرب أبو محمد بن المأمون واسمه عبد الواحد بن إدريس المؤمني صاحب مراكش؛ ولي الأمر سنة ثلاثين وستمائة وأعاد ذكر ابن أومرت في الخطبة ليستميل قلوب الموحدين، توفي غريقاً في صهريج بستانه وولي بعده أخوه المعتضد على {cite:shadharat-dhahab p. 208}."
+  en: "Abd al-Wahid b. Idris al-Ma'muni (r. 630–640, Marrakesh) — the Almohad who reinstated Ibn Tumart's name in the khutba to win hearts; drowned in his garden tank, succeeded by his brother al-Mu'tadid {cite:shadharat-dhahab p. 208}."
+gender: male
+roles: [caliph]
+wings: [people]
+periods: [period/crusades-ayyubid-mamluk]
+regions: [maghreb]
+faith:
+  - value: sunni
+    basis: tradition
+relations:
+  - { type: ruler_of, target: place/marrakesh, sources: [source/shadharat-dhahab] }
+  - { type: died_in, target: place/marrakesh, sources: [source/shadharat-dhahab] }
+sources: [source/shadharat-dhahab]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }
+provenance:
+  layer: own-research
+  source: "شذرات الذهب — ابن العماد (ج5، سنة 640)، قراءة آبل فيجن"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-shadharat-batch-126

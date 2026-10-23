@@ -1,0 +1,22 @@
+id: event/franks-sidon-625
+class: event
+kind: raid
+label: { ar: "خروج الفرنج إلى الشام وعمارة صيدا", en: "Frankish expedition to Syria; Sidon refortified" }
+date:
+  start: { edtf: "1228~", hijri: "0625", calendar: julian, precision: year, status: tradition, derived: true }
+summary:
+  ar: "خرج الفرنج إلى الشام فعمّروا صيدا وقوّوا ثغورهم والمسلمون مختلفون {cite:kamil-ibn-al-athir p. 477}."
+  en: "A Frankish expedition reached Syria and rebuilt Sidon's defenses while the Muslims were divided {cite:kamil-ibn-al-athir p. 477}."
+sides:
+  - label: { ar: "المسلمون" }
+  - label: { ar: "خصومهم" }
+relations:
+  - { type: occurred_at, target: place/sayda, sources: [source/kamil-ibn-al-athir] }
+  - { type: had_participant, target: group/ifranja, role: "الغازون", sources: [source/kamil-ibn-al-athir] }
+provenance:
+  layer: own-research
+  source: "الكامل في التاريخ لابن الأثير، قراءة آبل فيجن"
+  generated_by: "Devin (SWE-2 Medium) from Apple Vision OCR"
+  run: lib-kamil-v12-batch07
+sources: [source/kamil-ibn-al-athir]
+status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 Medium)" }

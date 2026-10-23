@@ -15,3 +15,6 @@ translators: []
 
 ## الأثر
 «الخلافة في قريش» — مقولة نقلها التراث عن سياق [[event/saqifa|السقيفة]] — كرّست مركزية القبيلة في الخيال السياسي الإسلامي، ويرى المؤرخون من خارج التراث فيها شرعنة لاحقة لتفوق اجتماعي قائم أصلًا {cite:watt-1956-medina}.
+
+## في مقدمة الرحيق المختوم
+قريش عند الرحيق المختوم أولاد [[person/fihr-ibn-malik|فهر بن مالك]] بن النضر بن [[group/kinana|كنانة]]، من بطون [[person/ilyas-ibn-mudar|إلياس بن مضر]] {cite:mubarakpuri-raheeq p.21} {cite:muhadarat-tarikh-al-umam-al-islamiyya 1/14-15}. انقسمت إلى قبائل شتى من أشهرها جمح وسهم وعدي ومخزوم وتيم وزهرة وبطون قصي بن كلاب: عبد الدار وأسد بن عبد العزى وعبد مناف، ومن عبد مناف عبد شمس ونوفل والمطلب وهاشم {cite:mubarakpuri-raheeq p.21}. ويورد المؤلف حديث مسلم أن الله اصطفى من بني كنانة قريشاً ومن قريش بني هاشم {cite:mubarakpuri-raheeq p.21} {cite:sahih-muslim 2/245}. وأقامت بمكة وضواحيها بطون قريش، حلول وحرم وبيوتات متفرقة في بني كنانة، لا تجمعهم جامعة وليس لهم من أمر مكة ولا البيت شيء، حتى نبغ فيهم [[person/qusayy-ibn-kilab|قصي بن كلاب]] فجمعهم وكوّن لهم وحدة شرفتهم {cite:mubarakpuri-raheeq p.22} {cite:mubarakpuri-raheeq p.29} {cite:muhadarat-tarikh-al-umam-al-islamiyya 1/35}. ما كان لقريش بعد قصي من مناصب ومن شبه دويلة في [[concept/manasib-quraysh|مناصب قريش]] و[[polity/emirate-of-hijaz|الإمارة بالحجاز]].

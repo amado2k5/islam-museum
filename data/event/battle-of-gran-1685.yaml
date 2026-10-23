@@ -1,0 +1,23 @@
+id: event/battle-of-gran-1685
+class: event
+kind: battle
+label: { ar: "معركة غران", en: "Battle of Gran" }
+summary:
+  ar: "بطاقة أولية لمعركة غران سنة ١٦٨٥م، فوز الرابطة المقدسة على العثمانيين في المجر؛ لم تُراجع مصادره على الصفحة بعد."
+  en: "Draft card for the Battle of Gran in 1685, the Holy League victory over the Ottomans in Hungary; its sources are not yet checked on the page."
+wings: [time]
+periods: [period/gunpowder-empires]
+regions: [anatolia-balkans]
+date:
+  start: { edtf: "1685", precision: year, status: tradition, derived: true }
+  end: { edtf: "1685", precision: year, status: tradition, derived: true }
+sources: [source/dawlat-uthmaniyya-salabi]
+external_ids:
+  wikidata: Q2236909
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; battle attested in narrative histories — entry not yet checked on the page"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-wave2
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

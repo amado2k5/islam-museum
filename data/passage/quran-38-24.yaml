@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 38:24 (سورة ص، الآية 24)."
 text: "قَالَ لَقَدْ ظَلَمَكَ بِسُؤَالِ نَعْجَتِكَ إِلَىٰ نِعَاجِهِۦ ۖ وَإِنَّ كَثِيرًا مِّنَ ٱلْخُلَطَآءِ لَيَبْغِى بَعْضُهُمْ عَلَىٰ بَعْضٍ إِلَّا ٱلَّذِينَ ءَامَنُوا۟ وَعَمِلُوا۟ ٱلصَّـٰلِحَـٰتِ وَقَلِيلٌ مَّا هُمْ ۗ وَظَنَّ دَاوُۥدُ أَنَّمَا فَتَنَّـٰهُ فَٱسْتَغْفَرَ رَبَّهُۥ وَخَرَّ رَاكِعًا وَأَنَابَ ۩"
 text_search: "قال لقد ظلمك بسؤال نعجتك إلى نعاجه ۖ وإن كثيرا من الخلطاء ليبغي بعضهم على بعض إلا الذين آمنوا وعملوا الصالحات وقليل ما هم ۗ وظن داوود أنما فتناه فاستغفر ربه وخر راكعا وأناب ۩"
+translations:
+  en: { text: "(David) said: He hath wronged thee in demanding thine ewe in addition to his ewes, and lo! many partners oppress one another, save such as believe and do good works, and they are few. And David guessed that We had tried him, and he sought forgiveness of his Lord, and he bowed himself and fell down prostrate and repented.", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "انہوں نے کہا کہ یہ جو تیری دنبی مانگتا ہے کہ اپنی دنبیوں میں ملالے بےشک تجھ پر ظلم کرتا ہے۔ اور اکثر شریک ایک دوسرے پر زیادتی ہی کیا کرتے ہیں۔ ہاں جو ایمان لائے اور عمل نیک کرتے رہے اور ایسے لوگ بہت کم ہیں۔ اور داؤد نے خیال کیا کہ (اس واقعے سے) ہم نے ان کو آزمایا ہے تو انہوں نے اپنے پروردگار سے مغفرت مانگی اور جھک کر گڑ پڑے اور (خدا کی طرف) رجوع کیا", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-38 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

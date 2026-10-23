@@ -1,0 +1,17 @@
+id: passage/muslim-2409
+class: passage
+unit: hadith
+work: work/sahih-muslim
+ref: "2409"
+label: { ar: "مسلم 2409 — تسمية علي «أبا تراب»", en: "Muslim 2409 — The Prophet naming Ali 'Abu Turab'" }
+text: "ما كان لعلي اسم أحب إليه من أبي التراب، وإن كان ليفرح إذا دعي به... وجاءه رسول الله وهو مضطجع قد سقط رداؤه عن شقه فأصابه تراب، فجعل يمسحه عنه ويقول: «قم أبا تراب، قم أبا تراب»"
+summary:
+  ar: "رواية سهل بن سعد في فضائل علي؛ استُعمل على المدينة رجل من آل مروان فأمر سهلا أن يشتم عليا فأبى، ثم روى أن «أبا تراب» كان أحب أسماء علي إليه — دعاه بها النبي وهو يمسح التراب عن ظهره في المسجد بعد خصومة بينه وبين فاطمة."
+relations:
+  - { type: mentions, target: person/ali-ibn-abi-talib, sources: [source/sahih-muslim] }
+  - { type: mentions, target: person/sahl-ibn-sad-al-saidi, sources: [source/sahih-muslim] }
+  - { type: mentions, target: person/fatima, sources: [source/sahih-muslim] }
+  - { type: mentions, target: person/muhammad, sources: [source/sahih-muslim] }
+provenance: { layer: own-research, source: "صحيح مسلم، كتاب فضائل الصحابة (نسخة عبد الباقي ص2159؛ ترقيم عبد الباقي المعروف 2409)، تصوير Apple Vision OCR", generated_by: "Devin (SWE-2 High) from Apple Vision OCR", run: "hadith-muslim-passages-1" }
+sources: [source/sahih-muslim]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High); matn excerpt at most 40 words checked against the scan" }

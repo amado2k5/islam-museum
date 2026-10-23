@@ -1,0 +1,27 @@
+id: person/abu-ali-al-shalubin
+class: person
+label: { ar: "أبو علي الشلوبين", en: "Abu Ali al-Shalubin" }
+names:
+  - { value: "أبو علي الشلوبين عمر بن محمد بن عمر الأزدي الأندلسي الإشبيلي النحوي", kind: full }
+born: { edtf: "1166", hijri: "0562", calendar: julian, precision: year, status: tradition, derived: true, note: "ولد سنة اثنتين وستين وخمسمائة {cite:shadharat-dhahab p. 241}." }
+died: { edtf: "1247", hijri: "0645", calendar: julian, precision: year, status: tradition, derived: true, note: "وردت ترجمته في أموات سنة خمس وأربعين وستمائة {cite:shadharat-dhahab p. 241}." }
+summary:
+  ar: "النحوي الأندلسي الإشبيلي أحد من انتهت إليه معرفة العربية في زمانه؛ ولد سنة اثنتين وستين وخمسمائة {cite:shadharat-dhahab p. 241}."
+  en: "The Sevillian grammarian (b. 562, d. 645) — in his generation the science of Arabic terminated with him {cite:shadharat-dhahab p. 241}."
+gender: male
+roles: [scholar]
+wings: [people]
+periods: [period/crusades-ayyubid-mamluk]
+regions: [andalus-europe]
+faith:
+  - value: sunni
+    basis: tradition
+relations:
+  - { type: died_in, target: place/seville, sources: [source/shadharat-dhahab] }
+sources: [source/shadharat-dhahab]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }
+provenance:
+  layer: own-research
+  source: "شذرات الذهب — ابن العماد (ج5، سنة 645)، قراءة آبل فيجن"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-shadharat-batch-127

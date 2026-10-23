@@ -1,0 +1,23 @@
+id: event/siege-of-north-gaza-2024
+class: event
+kind: siege
+label: { ar: "حصار شمال غزة (٢٠٢٤)", en: "Siege of North Gaza" }
+summary:
+  ar: "بطاقة أولية لحصار شمال غزة في ٢٠٢٤–٢٠٢٥م، حصار الاحتلال لجباليا وبيت لاهيا؛ لم تُراجع مصادره على الصفحة بعد."
+  en: "Draft card for the Siege of North Gaza in 2024–25, the Israeli siege of Jabalia and Beit Lahia; its sources are not yet checked on the page."
+wings: [time]
+periods: [period/contemporary-era]
+regions: [levant-iraq]
+date:
+  start: { edtf: "2024-10-05", precision: year, status: tradition, derived: true }
+  end: { edtf: "2025-01-19", precision: year, status: tradition, derived: true }
+sources: [source/tarikh-islam-hasan-ibrahim]
+external_ids:
+  wikidata: Q130493373
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; battle attested in narrative histories — entry not yet checked on the page"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-wave2
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

@@ -1,20 +1,36 @@
 ---
 id: person/abd-al-muttalib
 lang: en
-source_lang: en
-translators: []
+source_lang: ar
+translators: ["Claude Haiku 5.5 (claude-haiku-5-5), draft translation"]
 ---
 
-## Brief
-Abd al-Muttalib was the Prophet Muhammad's grandfather and his guardian after his mother's death — the leading elder of Mecca in the generation before Islam, remembered for restoring the well of Zamzam.
+## Summary
+Abd al-Muttalib was the grandfather of the Prophet Muhammad and his guardian after his mother's death. He was the leading elder of Mecca in the generation before Islam, and he is remembered for uncovering the well of Zamzam.
 
 ## Life
-Born in Yathrib (later Medina) to the line of [[person/hashim-ibn-abd-manaf]] {cite:ibn-ishaq-guillaume}, he rose to lead Quraysh. Tradition credits him with rediscovering the buried well of Zamzam beside the Kaaba, and with the offices of watering and feeding the pilgrims {cite:ibn-ishaq-guillaume}.
+He was born in Yathrib (later Medina) into the lineage of [[person/hashim-ibn-abd-manaf|Hashim ibn Abd Manaf]] {cite:ibn-ishaq-guillaume}, and he rose until he became the chief of Quraysh. Tradition credits him with uncovering the buried well of Zamzam beside the Ka'ba, and with the honour of watering and feeding the pilgrims {cite:ibn-ishaq-guillaume}.
 
-The sira places him at Mecca's head during the campaign of [[person/abraha]], the event remembered as the 'Year of the Elephant' — the same year the tradition gives for the Prophet's birth [[event/year-of-the-elephant-and-birth]] {cite:ibn-ishaq-guillaume}. He became guardian of the orphaned Muhammad about 578 CE and died not long after, passing the boy to his son [[person/abu-talib]].
+The biography places him at the head of Mecca during the expedition of [[person/abraha|Abraha]], the event known as the Year of the Elephant. It is the same year that the tradition gives for the birth of the Prophet, [[event/year-of-the-elephant-and-birth|the Year of the Elephant and the Prophet's birth]] {cite:ibn-ishaq-guillaume}. He took charge of the orphan Muhammad around 578 CE and died shortly after. He then passed the boy to his son [[person/abu-talib|Abu Talib]].
 
 ## Legacy
-His household — Banu Hashim — is the thread through the whole story: the clan that produced the Prophet, protected him when others would not, and gave the later age its claimants to rule.
+His house, Banu Hashim, is the thread that runs through the whole story. It was the clan that produced the Prophet and protected him when others turned away, and from it came later claimants to rule.
 
 ## For young visitors
-Abd al-Muttalib was the grandfather who looked after Muhammad when his parents had died, and who rediscovered the famous well of Zamzam in Mecca.
+Abd al-Muttalib was the grandfather who looked after Muhammad after his parents had died, and who rediscovered the famous well of Zamzam in Mecca.
+
+## In the introduction to al-Raheeq al-Makhtum
+In the division of the offices of Quraysh, the watering and the feeding went to the sons of Abd Manaf. The lot fell to Hashim, who held both for his whole life. When he died, his brother [[person/al-muttalib-ibn-abd-manaf|al-Muttalib]] succeeded him. After al-Muttalib, Abd al-Muttalib ibn Hashim ibn Abd Manaf, grandfather of the Messenger of God, took over, and after him his sons, until Islam came and the office passed to [[person/abbas-ibn-abd-al-muttalib|al-Abbas]] {cite:mubarakpuri-raheeq p.31} {cite:mubarakpuri-raheeq p.32} {cite:ibn-hisham-sira 1/137-142}. See [[event/partition-of-meccan-offices|the division of the offices]].
+
+## In the Prophet's family (al-Raheeq al-Makhtum p.49–53)
+His mother, [[person/salma-bint-amr|Salma bint Amr]] of Banu Adi ibn al-Najjar, bore him in Yathrib in 497 CE by the author's dating, after the death of his father [[person/hashim-ibn-abd-manaf|Hashim]] in Gaza. She named him Shayba because of a white streak in his hair, and raised him in her father's house. No one of his family in Mecca was aware of him {cite:mubarakpuri-raheeq p.49} {cite:ibn-hisham-sira 1/137} {cite:rahma-lil-alamin 2/24}. When he was a youth or older, his uncle [[person/al-muttalib-ibn-abd-manaf|al-Muttalib]] came to fetch him, with his mother's permission. He brought him to Mecca riding behind him on his camel. People said, "This is Abd al-Muttalib!" He said: "Woe to you! He is only the son of my brother Hashim." He stayed with him until he grew up {cite:mubarakpuri-raheeq p.50} {cite:ibn-hisham-sira 1/137-138}. Then al-Muttalib died at Radman, and Abd al-Muttalib succeeded him. He upheld what his forefathers had upheld, rose among his people to a standing that none of his forebears had reached, and his people loved him and his standing among them grew {cite:mubarakpuri-raheeq p.50}. When his uncle [[person/nawfal-ibn-abd-manaf|Nawfal]] usurped his *arkah* (his inherited property), his maternal kin [[group/banu-al-najjar|Banu al-Najjar]] supported him ([[event/recovery-of-abd-al-muttalib-rights|the recovery of his arkah]]) {cite:mubarakpuri-raheeq p.50}.
+
+Two of the most important matters concerning the House that befell him were [[event/redigging-of-zamzam|the digging of the well of Zamzam]] and [[event/year-of-the-elephant-and-birth|the event of the Elephant]] {cite:mubarakpuri-raheeq p.50} {cite:ibn-hisham-sira 1/142-147}. While digging Zamzam, he vowed that if God gave him ten sons who protected him, he would sacrifice one of them at the Ka'ba. The lots fell on [[person/abdullah-ibn-abd-al-muttalib|Abdullah]], and he was ransomed with a hundred camels ([[event/vow-and-lot-of-abd-al-muttalib|the vow and the lot]]) {cite:mubarakpuri-raheeq p.51} {cite:mubarakpuri-raheeq p.52} {cite:mubarakpuri-raheeq p.53}.
+
+Abd al-Muttalib had ten sons: [[person/al-harith-ibn-abd-al-muttalib|al-Harith]], [[person/al-zubayr-ibn-abd-al-muttalib|al-Zubayr]], [[person/abu-talib|Abu Talib]], Abdullah, [[person/hamza|Hamza]], [[person/abu-lahab|Abu Lahab]], [[person/al-ghaydaq-ibn-abd-al-muttalib|al-Ghaydaq]], [[person/al-muqawwim-ibn-abd-al-muttalib|al-Muqawwim]], [[person/dirar-ibn-abd-al-muttalib|Dirar]] and [[person/abbas-ibn-abd-al-muttalib|al-Abbas]]. Some say they were eleven, with an extra son named Qutham; others say thirteen, with Abd al-Ka'ba and Hajl added. Others say that Abd al-Ka'ba is al-Muqawwim and Hajl is al-Ghaydaq, and that none of his sons was named Qutham {cite:mubarakpuri-raheeq p.52} {cite:talqih-fuhum-ahl-al-athr p.8-9} {cite:rahma-lil-alamin 2/56-66}. He had six daughters: [[person/umm-hakim-bint-abd-al-muttalib|Umm al-Hakim, who was called al-Bayda']], [[person/barra-bint-abd-al-muttalib|Barra]], [[person/atika-bint-abd-al-muttalib|Atika]], [[person/safiyya-bint-abd-al-muttalib|Safiyya]], [[person/arwa-bint-abd-al-muttalib|Arwa]] and [[person/umayma-bint-abd-al-muttalib|Umayma]] {cite:mubarakpuri-raheeq p.52}. He chose [[person/amina-bint-wahb|Amina bint Wahb]] for his son Abdullah. Shortly after, he sent him to Medina to buy dates, and he died there {cite:mubarakpuri-raheeq p.53}.
+
+## Notes for researchers
+- The year 497 CE for his birth is the author's dating, taken from *Rahma lil-Alamin*, with no second source. The disagreement over the number of his sons (ten, eleven or thirteen) is recorded as the author gives it.
+
+## With his grandson Muhammad (al-Raheeq al-Makhtum p.54–58)
+When his grandson was born, Amina gave him the good news. He came joyfully, entered the Ka'ba with the child, prayed to God and gave thanks. He chose the name Muhammad for him and circumcised him on the seventh day ([[event/year-of-the-elephant-and-birth|the birth]]) {cite:mubarakpuri-raheeq p.54} {cite:ibn-hisham-sira 1/159-160}. He sought wet nurses for the boy, and he was nursed by [[person/halima-al-sadiyya|Halima]] of Banu Sa'd ibn Bakr {cite:mubarakpuri-raheeq p.55}. After [[event/death-of-amina|the death of Amina]], he took the boy back to Mecca. He was tender toward him as he had been toward none of his sons, seating him beside himself on his bed in the shade of the Ka'ba, a bed that none of his sons sat on. He said that this son of his had a destiny {cite:mubarakpuri-raheeq p.57} {cite:ibn-hisham-sira 1/168}. He died in Mecca when his grandson was eight years, two months and ten days old, after entrusting the boy's guardianship to [[person/abu-talib|Abu Talib]] ([[event/death-of-abd-al-muttalib|the death of Abd al-Muttalib]]) {cite:mubarakpuri-raheeq p.58} {cite:talqih-fuhum-ahl-al-athr p.7} {cite:ibn-hisham-sira 1/169}.

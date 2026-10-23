@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 11:56 (سورة هود، الآية 56)."
 text: "إِنِّى تَوَكَّلْتُ عَلَى ٱللَّهِ رَبِّى وَرَبِّكُم ۚ مَّا مِن دَآبَّةٍ إِلَّا هُوَ ءَاخِذٌۢ بِنَاصِيَتِهَآ ۚ إِنَّ رَبِّى عَلَىٰ صِرَٰطٍ مُّسْتَقِيمٍ"
 text_search: "إني توكلت على الله ربي وربكم ۚ ما من دابة إلا هو آخذ بناصيتها ۚ إن ربي على صراط مستقيم"
+translations:
+  en: { text: "Lo! I have put my trust in Allah, my Lord and your Lord. Not an animal but He doth grasp it by the forelock! Lo! my Lord is on a straight path.", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "میں خدا پر جو میرا اور تمہارا (سب کا) پروردگار ہے، بھروسہ رکھتا ہوں (زمین پر) جو چلنے پھرنے والا ہے وہ اس کو چوٹی سے پکڑے ہوئے ہے۔ بےشک میرا پروردگار سیدھے رستے پر ہے", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-11 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

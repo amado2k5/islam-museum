@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 21:29 (سورة الأنبياء، الآية 29)."
 text: "۞ وَمَن يَقُلْ مِنْهُمْ إِنِّىٓ إِلَـٰهٌ مِّن دُونِهِۦ فَذَٰلِكَ نَجْزِيهِ جَهَنَّمَ ۚ كَذَٰلِكَ نَجْزِى ٱلظَّـٰلِمِينَ"
 text_search: "۞ ومن يقل منهم إني إله من دونه فذلك نجزيه جهنم ۚ كذلك نجزي الظالمين"
+translations:
+  en: { text: "And one of them who should say: Lo! I am a god beside Him, that one We should repay with hell. Thus We Repay wrong-doers.", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "اور جو شخص ان میں سے یہ کہے کہ خدا کے سوا میں معبود ہوں تو اسے ہم دوزخ کی سزا دیں گے اور ظالموں کو ہم ایسی ہی سزا دیا کرتے ہیں", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-21 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

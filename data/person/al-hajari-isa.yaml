@@ -1,0 +1,24 @@
+id: person/al-hajari-isa
+class: person
+label: { ar: "الحاجري الأربلي", en: "al-Hajari al-Irbili" }
+names:
+  - { value: "أبو يحيى وأبو الفضل عيسى بن سنجر بن بهرام الإربلي حسام الدين", kind: full }
+born: { edtf: "1186~", hijri: "0582~", calendar: julian, precision: year, status: tradition, derived: true, note: "مات في 632 وتقدير عمره خمسون سنة {cite:shadharat-dhahab p. 157}." }
+died: { edtf: "1235", hijri: "0632", calendar: julian, precision: day, status: tradition, derived: true, note: "وثب عليه شخص فضربه بسكين فأخرج حشوته فتوفي من يومه يوم الخميس ثاني شوال سنة اثنتين وثلاثين وستمائة {cite:shadharat-dhahab p. 157}." }
+summary:
+  ar: "الجندي من أولاد الأجناد بأربل، المعروف بالحاجري نسبة إلى حاجر بايدة كثّر ذكرها في شعره ولم يكن منها؛ له ديوان شعر تغلب عليه الرقة وفيه معان جيدة مشتمل على الشعر والدوبيت والمواليا وقد أحسن في الكل مع أنه قل من يجيد في مجموع الثلاثة؛ حبس بقلعة خفتيد ثم قلعة أربل، فلما أفرج اتصل بخدمة مظفر الدين صاحب أربل وتقدم عنده وتزيا بزي الصوفية، فلما توفي مظفر الدين وصارت أربل في مملكة المستنصر وثب عليه شخص قبل الظهر فطعنه بسكين فكتب وهو يكابد الموت إلى نائبها باتكين يشكو، وتوفي من يومه {cite:shadharat-dhahab p. 156-158}."
+  en: "al-Hajari (d. 632) — the soldier-poet of Arbil, master of shi'r, dubayt and muwaliya together; imprisoned in the citadel, released into Kokburi's service, then stabbed in the street under the new Abbasid order — composing his last complaint verses as he died of the wound {cite:shadharat-dhahab p. 156-158}."
+gender: male
+roles: [poet]
+wings: [people]
+periods: [period/crusades-ayyubid-mamluk]
+regions: [levant-iraq]
+relations:
+  - { type: died_in, target: place/irbil, sources: [source/shadharat-dhahab] }
+sources: [source/shadharat-dhahab]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }
+provenance:
+  layer: own-research
+  source: "شذرات الذهب — ابن العماد (ج5، سنة 632)، قراءة آبل فيجن"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-shadharat-batch-125

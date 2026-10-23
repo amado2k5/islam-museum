@@ -1,0 +1,76 @@
+id: exhibit/path-surah-insan
+class: exhibit
+kind: trail
+label:
+  ar: سورة الإنسان
+  en: Surah al-Insan
+summary:
+  ar: 'مسار في سورة الدهر: النطفة والاختبار، والجزاء على الصبر، والبررة يشربون الكأس — سورة الجزاء.'
+  en: A trail through the sura of time.
+audience:
+- newcomer
+- student
+duration_minutes: 30
+wings: []
+regions:
+- arabia
+rooms:
+- title:
+    ar: السورة
+    en: The sura
+  body:
+    ar: هل أتى على الإنسان حين من الدهر.
+    en: هل أتى على الإنسان حين من الدهر.
+  features:
+  - passage/quran-76
+  - passage/quran-76-1
+- title:
+    ar: الخلق
+    en: The creation
+  body:
+    ar: 'نطفة أمشاج: الاختبار يبدأ.'
+    en: 'نطفة أمشاج: الاختبار يبدأ.'
+  features:
+  - passage/quran-76-2
+  - passage/quran-76-2
+- title:
+    ar: الأبرار
+    en: The righteous
+  body:
+    ar: الإطعام على حبه مسكينًا.
+    en: الإطعام على حبه مسكينًا.
+  features:
+  - passage/quran-76-8
+  - concept/adab
+- title:
+    ar: الجزاء
+    en: The reward
+  body:
+    ar: 'أكواب الفضة والزنجبيل: الجنة.'
+    en: 'أكواب الفضة والزنجبيل: الجنة.'
+  features:
+  - passage/quran-76-15
+  - concept/akhira
+- title:
+    ar: الختام
+    en: The end
+  body:
+    ar: إن هذه تذكرة فمن شاء اتخذ سبيلا.
+    en: إن هذه تذكرة فمن شاء اتخذ سبيلا.
+  features:
+  - passage/quran-76-29
+  - passage/quran-76-29
+prerequisites:
+- exhibit/path-islam-in-30-minutes
+sources:
+- source/wikidata
+provenance:
+  layer: own-research
+  source: Devin-assembled trail from existing museum entities
+  generated_by: Devin (SWE-2 High)
+  model: SWE-2 High
+  run: pathways-batch-7
+status:
+  review: draft
+  completeness: 1
+  generated_by: Devin (SWE-2 High), pathways lane, 2026-10-16

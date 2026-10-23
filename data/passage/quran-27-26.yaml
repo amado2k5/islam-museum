@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 27:26 (سورة النمل، الآية 26)."
 text: "ٱللَّهُ لَآ إِلَـٰهَ إِلَّا هُوَ رَبُّ ٱلْعَرْشِ ٱلْعَظِيمِ ۩"
 text_search: "الله لا إله إلا هو رب العرش العظيم ۩"
+translations:
+  en: { text: "Allah; there is no Allah save Him, the Lord of the Tremendous Throne.", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "خدا کے سوا کوئی عبادت کے لائق نہیں وہی عرش عظیم کا مالک ہے", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-27 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

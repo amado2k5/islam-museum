@@ -1,0 +1,24 @@
+id: event/granada-battle-663
+class: event
+kind: battle
+label: { ar: "ملحمة غرناطة وكسر الفنش سنة 663هـ", en: "The great battle of Granada, 663" }
+summary:
+  ar: "كانت سنة ثلاث وستين ملحمة عظمى بالأندلس: التقى الفنش ملك قشتالة وأبو عبد الله ابن الأحمر غير مرة ثم انهزمت الملاعين وأسر الفنش ثم أفلت وحشد وجيش ونازل غرناطة فخرج ابن الأحمر فكسرهم وأسر منهم عشرة آلاف وقتل المسلمون فوق الأربعين ألفاً وجمعوا كوماً هائلاً من رؤوس الفرنج وأذنوا عليه واستعادوا عدة مدائن من الفرنج {cite:shadharat-dhahab p. 541}."
+  en: "The great Andalus struggle of 663: the Castilian king 'al-Funsh' (Alfonso) met Abu Abdallah Ibn al-Ahmar repeatedly — the Nasrid army routed them, the king was taken then slipped free; when he besieged Granada itself Ibn al-Ahmar came out and broke him, taking ten thousand prisoners while over forty thousand of the Franks fell; a great heap of heads was piled and the adhan sounded over it, and several towns were retaken {cite:shadharat-dhahab p. 541}."
+wings: [time]
+periods: [period/mongol-post-mongol]
+regions: [andalus-europe]
+sides:
+  - label: { ar: "غرناطة — جيش ابن الأحمر" }
+  - label: { ar: "قشتالة — جيش الفنش" }
+map: { kind: battle, precision: locality, center: [37.1773, -3.5986] }
+date: { start: { edtf: "1264~", hijri: "0663", calendar: julian, precision: year, status: tradition, derived: true, note: "حوادث سنة ثلاث وستين وستمائة {cite:shadharat-dhahab p. 541}", sources: [source/shadharat-dhahab] } }
+relations:
+  - { type: occurred_at, target: place/granada, sources: [source/shadharat-dhahab] }
+provenance:
+  layer: own-research
+  source: "شذرات الذهب — ابن العماد (ج7، سنة 663)، قراءة آبل فيجن"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-shadharat-batch-131
+sources: [source/shadharat-dhahab]
+status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 High)" }

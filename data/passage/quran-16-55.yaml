@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 16:55 (سورة النحل، الآية 55)."
 text: "لِيَكْفُرُوا۟ بِمَآ ءَاتَيْنَـٰهُمْ ۚ فَتَمَتَّعُوا۟ ۖ فَسَوْفَ تَعْلَمُونَ"
 text_search: "ليكفروا بما آتيناهم ۚ فتمتعوا ۖ فسوف تعلمون"
+translations:
+  en: { text: "So as to deny that which We have given them. Then enjoy life (while ye may), for ye will come to know.", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "تاکہ جو (نعمتیں) ہم نے ان کو عطا فرمائی ہیں ان کی ناشکری کریں تو (مشرکو) دنیا میں فائدے اٹھالو۔ عنقریب تم کو (اس کا انجام) معلوم ہوجائے گا", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-16 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 30:40 (سورة الروم، الآية 40)."
 text: "ٱللَّهُ ٱلَّذِى خَلَقَكُمْ ثُمَّ رَزَقَكُمْ ثُمَّ يُمِيتُكُمْ ثُمَّ يُحْيِيكُمْ ۖ هَلْ مِن شُرَكَآئِكُم مَّن يَفْعَلُ مِن ذَٰلِكُم مِّن شَىْءٍ ۚ سُبْحَـٰنَهُۥ وَتَعَـٰلَىٰ عَمَّا يُشْرِكُونَ"
 text_search: "الله الذي خلقكم ثم رزقكم ثم يميتكم ثم يحييكم ۖ هل من شركائكم من يفعل من ذلكم من شيء ۚ سبحانه وتعالى عما يشركون"
+translations:
+  en: { text: "Allah is He Who created you and then sustained you, then causeth you to die, then giveth life to you again. Is there any of your (so-called) partners (of Allah) that doeth aught of that? Praised and Exalted be He above what they associate (with Him)!", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "خدا ہی تو ہے جس نے تم کو پیدا کیا پھر تم کو رزق دیا پھر تمہیں مارے گا۔ پھر زندہ کرے گا۔ بھلا تمہارے (بنائے ہوئے) شریکوں میں بھی کوئی ایسا ہے جو ان کاموں میں سے کچھ کر سکے۔ وہ پاک ہے اور (اس کی شان) ان کے شریکوں سے بلند ہے", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-30 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 59:13 (سورة الحشر، الآية 13)."
 text: "لَأَنتُمْ أَشَدُّ رَهْبَةً فِى صُدُورِهِم مِّنَ ٱللَّهِ ۚ ذَٰلِكَ بِأَنَّهُمْ قَوْمٌ لَّا يَفْقَهُونَ"
 text_search: "لأنتم أشد رهبة في صدورهم من الله ۚ ذلك بأنهم قوم لا يفقهون"
+translations:
+  en: { text: "Ye are more awful as a fear in their bosoms than Allah. That is because they are a folk who understand not.", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "(مسلمانو!) تمہاری ہیبت ان لوگوں کے دلوں میں خدا سے بھی بڑھ کر ہے۔ یہ اس لئے کہ یہ سمجھ نہیں رکھتے", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-59 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

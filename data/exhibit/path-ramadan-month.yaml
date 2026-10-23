@@ -1,0 +1,77 @@
+id: exhibit/path-ramadan-month
+class: exhibit
+kind: trail
+label:
+  ar: شهر رمضان
+  en: The Month of Ramadan
+summary:
+  ar: 'مسار في الشهر الكريم: الصوم والسحور، والتراويح، وليلة القدر، وزكاة الفطر والعيد.'
+  en: A trail through the holy month.
+audience:
+- newcomer
+- student
+duration_minutes: 30
+wings: []
+regions:
+- global
+rooms:
+- title:
+    ar: الصوم
+    en: The fast
+  body:
+    ar: 'من الفجر إلى المغرب: امساك وعبادة.'
+    en: 'من الفجر إلى المغرب: امساك وعبادة.'
+  features:
+  - practice/sawm-ramadan
+  - practice/suhur
+  - question/why-fast-in-ramadan
+- title:
+    ar: القيام
+    en: Night prayer
+  body:
+    ar: 'التراويح والتهجد: ليالي الشهر كلها أحياء.'
+    en: 'التراويح والتهجد: ليالي الشهر كلها أحياء.'
+  features:
+  - practice/taraweeh
+  - practice/qiyam-al-layl
+- title:
+    ar: ليلة القدر
+    en: Laylat al-Qadr
+  body:
+    ar: 'في العشر الأواخر: خير من ألف شهر.'
+    en: 'في العشر الأواخر: خير من ألف شهر.'
+  features:
+  - practice/laylat-al-qadr
+  - practice/itikaf
+- title:
+    ar: الزكاة
+    en: Zakat al-fitr
+  body:
+    ar: طهرة للصائم وطعمة للمسكين قبل العيد.
+    en: طهرة للصائم وطعمة للمسكين قبل العيد.
+  features:
+  - practice/zakat-al-fitr
+  - practice/zakat
+- title:
+    ar: العيد
+    en: Eid
+  body:
+    ar: 'أول شوال: صلاة العيد والفرح.'
+    en: 'أول شوال: صلاة العيد والفرح.'
+  features:
+  - practice/eid-al-fitr
+  - question/what-are-the-eids
+prerequisites:
+- exhibit/path-islam-in-30-minutes
+sources:
+- source/wikidata
+provenance:
+  layer: own-research
+  source: Devin-assembled trail from existing museum entities
+  generated_by: Devin (SWE-2 High)
+  model: SWE-2 High
+  run: pathways-batch-7
+status:
+  review: draft
+  completeness: 1
+  generated_by: Devin (SWE-2 High), pathways lane, 2026-10-16

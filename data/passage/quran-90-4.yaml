@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 90:4 (سورة البلد، الآية 4)."
 text: "لَقَدْ خَلَقْنَا ٱلْإِنسَـٰنَ فِى كَبَدٍ"
 text_search: "لقد خلقنا الإنسان في كبد"
+translations:
+  en: { text: "We verily have created man in an atmosphere:", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "کہ ہم نے انسان کو تکلیف (کی حالت) میں (رہنے والا) بنایا ہے", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-90 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

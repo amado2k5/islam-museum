@@ -1,0 +1,24 @@
+id: person/abbad-al-taliqani
+class: person
+label: { ar: "أبو الحسن عباد الطالقاني", en: "Abu'l-Hasan 'Abbad al-Taliqani" }
+names:
+  - { value: "عباد بن العباس بن عباد أبو الحسن الطالقاني", kind: full }
+gender: male
+roles: [scholar]
+summary:
+  ar: "عباد بن العباس أبو الحسن الطالقاني (ت 385هـ)، والد الصاحب إسماعيل بن عباد وزير البويهيين؛ سمع أبا خليفة الفضل بن الحباب وغيره {cite:muntazam-ibn-al-jawzi j.7 p.184}."
+  en: "'Abbad b. al-'Abbas Abu'l-Hasan al-Taliqani (d. 385), father of the Sahib Isma'il b. 'Abbad the Buyid wazir; he transmitted from Abu Khalifa al-Fadl b. al-Hubab and others {cite:muntazam-ibn-al-jawzi j.7 p.184}."
+wings: [people]
+periods: [period/buyid-seljuk-fatimid-era]
+regions: [persia-central-asia]
+died:
+  { edtf: "0995~", hijri: "0385", calendar: julian, precision: year, status: tradition, derived: true, note: "أدرجت ترجمته في وفيات سنة 385؛ التحويل مشتق {cite:muntazam-ibn-al-jawzi j.7 p.184}", sources: [source/muntazam-ibn-al-jawzi] }
+relations:
+  - { type: parent_of, target: person/sahib-ibn-abbad, sources: [source/muntazam-ibn-al-jawzi] }
+provenance:
+  layer: own-research
+  source: "المنتظم لابن الجوزي (ط حيدرآباد 1357، ج7، وفيات سنة 385)، قراءة آبل فيجن"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-muntazam-350-474-2
+sources: [source/muntazam-ibn-al-jawzi]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

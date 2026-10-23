@@ -1,0 +1,95 @@
+id: exhibit/path-prophets-story
+class: exhibit
+kind: trail
+label:
+  ar: قصة الأنبياء
+  en: The Prophets' Story
+summary:
+  ar: 'مسار في سلسلة النبوة من آدم إلى خاتمهم محمد: قصة التوحيد في البشرية.'
+  en: A trail through the prophetic chain from Adam to the seal Muhammad.
+audience:
+- newcomer
+- student
+duration_minutes: 30
+wings: []
+regions:
+- arabia
+rooms:
+- title:
+    ar: البداية
+    en: The beginning
+  body:
+    ar: آدم أول البشر وأول الأنبياء.
+    en: Adam, first human and first prophet.
+  features:
+  - person/adam
+- title:
+    ar: الطوفان
+    en: The flood
+  body:
+    ar: 'نوح أول الرسل: دعوة ألف سنة.'
+    en: 'Noah, first messenger: a millennium of calling.'
+  features:
+  - person/nuh
+- title:
+    ar: الخليل
+    en: The Friend
+  body:
+    ar: إبراهيم أبو الأنبياء وباني الكعبة.
+    en: Abraham, father of prophets and builder of the Kaaba.
+  features:
+  - person/ibrahim
+  - person/ismail
+  - building/kaaba
+- title:
+    ar: بنو إسرائيل
+    en: Israel's line
+  body:
+    ar: 'يعقوب ويوسف وموسى وهارون: التوراة والملك.'
+    en: Jacob, Joseph, Moses and Aaron.
+  features:
+  - person/yaqub
+  - person/yusuf
+  - person/musa
+  - person/harun
+- title:
+    ar: الملك والزبور
+    en: Kingdom and Psalms
+  body:
+    ar: 'داود وسليمان: نبوة وملك وبيت المقدس.'
+    en: 'David and Solomon: prophecy, kingship, the Temple.'
+  features:
+  - person/dawud
+  - person/sulayman
+- title:
+    ar: المسيح
+    en: The Messiah
+  body:
+    ar: 'عيسى بن مريم: معجزة الميلاد والإنجيل والرفع.'
+    en: 'Jesus son of Mary: miracle birth, Gospel, ascension.'
+  features:
+  - person/isa-ibn-maryam
+  - person/maryam
+- title:
+    ar: الخاتم
+    en: The Seal
+  body:
+    ar: محمد خاتم الأنبياء للناس كافة.
+    en: Muhammad, seal of prophets to all people.
+  features:
+  - person/muhammad
+  - exhibit/path-life-of-the-prophet
+prerequisites:
+- exhibit/path-islam-in-30-minutes
+sources:
+- source/wikidata
+provenance:
+  layer: own-research
+  source: Devin-assembled trail from existing museum entities
+  generated_by: Devin (SWE-2 High)
+  model: SWE-2 High
+  run: pathways-batch-1
+status:
+  review: draft
+  completeness: 1
+  generated_by: Devin (SWE-2 High), pathways lane, 2026-10-16
