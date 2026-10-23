@@ -20,3 +20,5 @@ status: draft
 سر اور کانوں کا مسح، تخلیلِ داڑھی، انگلیوں کا خلال، تثلیث، مسواک اور عمامے پر مسح کی سنتیں اور ان کے احکام۔ {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.17412}{cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.17416}
 
 وضوء کے مستحب امور، جیسے داہنی طرف سے آغاز، غرّہ و تحجیل کو بڑھانا، قبلہ رخ ہونا، بلند جگہ پر بیٹھنا، پاک جگہ، مدد نہ لینا، گردن کا مسح اور انگوٹھی کو حرکت دینا۔ {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.17417}{cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.17421}
+
+انگوٹھی کی حرکت، عضو سے آغاز، کلام سے پرہیز، سلام اور جواب، ہر عضو پر دعا، وضوء کے بعد دعا اور کلمات، اور بدن خشک کرنے کے احکام۔ {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.17421}{cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.17426}
