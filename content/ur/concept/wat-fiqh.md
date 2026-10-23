@@ -16,3 +16,5 @@ status: draft
 تسلسل: چوپایہ سے وطء کی سزا، اس کے جانور کے قتل اور کھانے کا حکم، وطء بشبہہ اور بیوی کے وطء کے حق کے فقہاء کے اقوال کا خلاصہ۔ {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.17504}{cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.17507}
 
 بیوی کا وطء کا حق (ایک رات کی مدت، عرف، چار ماہ کی مہلت)، شوہر کا حق، وطء سے عاجز شوہر کی صورت میں فرقت، عیوب، ایلاء اور ظہار کے احکام کا خلاصہ۔ {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.17508}{cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.17511}
+
+ظہار کے مزید احکام، بیوی کا مہر کے عوض خود کو روکنا، مہر معجل و مؤجل کے احکام، اور دونوں فریق کی طرف سے پہلے ادائیگی کی ترتیب کا خلاصہ۔ {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.17512}{cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.17515}
