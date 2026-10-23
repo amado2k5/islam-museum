@@ -63,3 +63,24 @@ Rescission restores the original position according to the majority, so a deferr
 
 ## Term for blood-money
 Blood-money for intentional killing is due at once from the killer's property, according to the majority. The Hanafis distinguish blood-money agreed by settlement, which is immediate, from blood-money owed when retaliation falls by a doubt, which is paid over three years. For quasi-intentional killing it is paid over three years by the kin, according to the Hanafis, Shafi'is and Hanbalis. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.1673}
+
+## Counting the term
+The month is taken as thirty days by agreement when the crescents cannot be used. For a term of three months, the schools differ: some count two months by the moon and one by thirty days. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.1684} A term begins from the time the parties set, and from the contract if they set none. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.1684}
+
+## Terms by feasts and doubtful terms
+A term may be set to a known feast such as the Feast of Fitr or Adha. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.1684} Where a term may mean one of two things, it is taken in its customary sense. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.1684}
+
+## A term that is unknown but close
+The Hanafis do not allow a sale to an unknown term even when the uncertainty is small, as at harvest or threshing; if the buyer cancels the term before it falls due, the sale becomes lawful according to Abu Hanifa, Abu Yusuf and Muhammad, but not according to Zufar. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.1685} The Shafi'is hold the contract void, since the term must be known and fixed. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.1685} The Hanbalis hold that the term is void and the sale stands. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.1685} {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.1686}
+
+## A term that cannot be fixed
+The jurists agree that a term may not be set to an event whose time cannot be known or fixed, such as a traveller's return, rain or a wind, since the uncertainty varies widely and leads to dispute over delivery. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.1686} They rely on the report of Barira, which voids a condition but not the contract. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.1687}
+
+## Sale above the day price for deferred payment
+Most jurists allow selling a thing for more than its price that day for deferred payment, relying on the general permission of sale, 'God has made sale lawful'. Those who forbid it take the Jahiliyya usury as a loan with an extra sum in return for delay. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.1688} {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.1689}
+
+## Reduction in return for early payment
+Jurists forbid taking a return for the term, so a debtor may not be given a discount for paying early, Abu Thawr and al-Nakha'i allow a reduction for early payment in general, while the Hanafis and Hanbalis allow a master to reduce a mukatabah price for early payment. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.1689} {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.1690}
+
+## Disputes about the term
+A dispute between the parties may concern the term itself, its length, when it falls due or when it has passed. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.1690}
