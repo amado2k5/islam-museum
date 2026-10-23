@@ -38,7 +38,7 @@ Average sources per entity: **1.28** · Women share of persons with a recorded g
 | living | 76 |
 | made | 119 |
 | objects | 6152 |
-| people | 8330 |
+| people | 8331 |
 | place | 1711 |
 | time | 3973 |
 | today | 6 |
@@ -126,9 +126,9 @@ Average sources per entity: **1.28** · Women share of persons with a recorded g
 | games-and-leisure | 2 |
 | geography-and-cartography | 19 |
 | golden-age-and-decline | 4 |
-| halal-and-haram | 42 |
+| halal-and-haram | 43 |
 | halal-certification-and-standards | 2 |
-| health-body-death | 82 |
+| health-body-death | 83 |
 | history-of-islam-online | 2 |
 | history-writing-and-social-thought | 170 |
 | hospitality | 14 |
