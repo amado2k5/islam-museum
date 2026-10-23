@@ -1,0 +1,23 @@
+---
+id: concept/consultation-shura
+lang: en
+source_lang: ar
+translators: []
+---
+## Definition
+Shura, in language, is the review of an opinion in order to see another's view of it; to ask someone's counsel is to seek his advice. It is connected with judgement, reason and sincere counsel. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.10251}
+
+## Ruling
+Scholars hold two views. Obligation is held by al-Nawawi, Ibn 'Atiyya, Ibn Khuwayz Mandad and al-Razi, citing the verse of the Family of 'Imran (159), "consult them in the matter", and the verse of Consultation (38), "their affair is by consultation among them"; Ibn 'Atiyya says that removing a ruler who refuses to consult the learned and the pious is obligatory. Recommendation is held by Qatada, Ibn Ishaq, al-Shafi'i and al-Rabi', on the ground that consultation comforts the Companions, raises their station and binds them together. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.10251} {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.10252}
+
+## The Prophet's consultation
+Consultation is only in matters with no text, since consultation is a kind of reasoning and there is no reasoning against a text. In matters of law he did not consult, since he was the source of knowledge of it; but in other matters others may know what did not reach him. He consulted his companions on the call to prayer; when he wished to make peace with 'Uyayna and al-Harith on a third of the produce of Medina, he took the advice of Sa'd ibn Mu'adh and Sa'd ibn 'Ubada, who advised against it, and he did not give it; over the captives of Badr, Abu Bakr advised ransom and 'Umar advised death, and he acted on Abu Bakr's view, before the verse of the Spoils was revealed; al-Hubab ibn al-Mundhir advised him on the camp at Badr and he adopted it; and he consulted 'Ali and Usama about the affair of the slander. The purpose of his consultation was to set an example for the rulers after him, to comfort hearts and raise rank. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.10253} {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.10254}
+
+## Consultation of a judge
+Most jurists hold that a judge is recommended to consult in cases where the law is unclear to him and where the jurists differ, not in a matter settled by text, consensus or clear analogy. A view of the Malikis orders a judge who is not a jurist not to decide what is open to reasoning without consulting one who may reason. The judge is not bound by the advice he receives; once he has ruled by his reasoning no one may object, unless he has contradicted a text or consensus, when his judgement is reversed. If the matter is still unclear he writes to jurists outside his town, a practice of old. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.10254} {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.10255}
+
+## The duty of the adviser
+A man consulted must be sincere, citing "the adviser is trusted" and "religion is sincere counsel". He names the good and the faults, legal and customary, and naming the faults is not backbiting when the intention is counsel, whether the matter is marriage, travel, partnership, neighbourhood, a deposit or transmitting knowledge. The Malikis allow a man asked about a marriage to name faults if others who know the matter are present, and otherwise require it; one view requires it always. The Shafi'is require naming faults with safety of the outcome; one view requires naming a fault that gives the right of annulment, such as impotence, and recommends naming a fault that is not sinful, while one who has a sinful fault must repent and conceal himself. The Hanbalis require the adviser about a bride or a groom to name the faults; if one is asked about his own affair he must state them. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.10255} {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.10256}
+
+## Consultation in the great imamate
+The imam may make succession after him a matter for a fixed number of named persons, as 'Umar made the affair a council of six Companions, who agreed on 'Uthman. Consultation is not a condition of the imamate. The imam may himself choose a successor whom his reasoning finds fit, unless the candidate is his father or his son. The jurists differ on whether the consent of the people of choice is a condition of binding the oath of allegiance: some require it, since the matter touches the community; others do not, since 'Umar's allegiance did not wait for the consent of the Companions. For a son or a father, there are three views: the imam may not act alone until he has consulted the people of choice; he may act alone; or he may act alone for a father but not for a son. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.10256}
