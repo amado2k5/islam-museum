@@ -22,3 +22,5 @@ status: draft
 وطء کی شرط کے اثر، عزل، رضاعی وطء، حاملہ سے وطء، اور وطء کے آثار (مہر کی تکمیل، عدت، ایلاء کی فیئ، احصان، رجعت) کا مختصر بیان۔ {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.17516}{cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.17519}
 
 طلاق بدعت، وطء کا حد زنا، غسل، تحلیل، مصاہرت اور کفارات (حیض اور رمضان کے وطء) کے احکام کا مختصر بیان۔ {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.17520}{cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.17523}
+
+حج و روزے میں وطء کے اثرات، مصحف اور قبر پر چلنے کا حکم، اور جانور کے پاؤں سے نقصان پر ضمان کا خلاصہ۔ {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.17524}{cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.17527}
