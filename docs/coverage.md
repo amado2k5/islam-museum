@@ -118,7 +118,7 @@ Average sources per entity: **1.28** · Women share of persons with a recorded g
 | education | 138 |
 | engineering-and-technology | 5 |
 | environment-and-climate | 4 |
-| ethics-and-character | 148 |
+| ethics-and-character | 149 |
 | factions-splits-schisms | 26 |
 | family-marriage-kinship | 289 |
 | fasting | 4 |
@@ -189,7 +189,7 @@ Average sources per entity: **1.28** · Women share of persons with a recorded g
 | sport | 3 |
 | takfir-and-its-critics | 4 |
 | the-elderly | 4 |
-| the-poor-and-the-worker | 76 |
+| the-poor-and-the-worker | 77 |
 | trade-and-finance | 150 |
 | tradition-versus-culture | 81 |
 | travel | 8 |
@@ -199,7 +199,7 @@ Average sources per entity: **1.28** · Women share of persons with a recorded g
 | water-and-animals | 8 |
 | websites-and-apps | 2 |
 | women | 212 |
-| worship-and-the-pillars | 317 |
+| worship-and-the-pillars | 316 |
 | zakat-and-sadaqa | 21 |
 | zoology | 1 |
 
