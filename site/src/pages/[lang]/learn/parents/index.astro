@@ -1,0 +1,45 @@
+---
+// The family page (E1, first version): what each band does, how the passport works on paper, what is stored.
+import BaseLayout from "../../../../layouts/BaseLayout.astro";
+import { ui, LANGS, type Lang } from "../../../../lib/i18n";
+import { viewBands } from "../../../../lib/edu";
+import "../../../../styles/edu.css";
+
+export function getStaticPaths() { return LANGS.map((lang) => ({ params: { lang }, props: { lang } })); }
+const { lang } = Astro.props as { lang: Lang };
+const T = ui(lang);
+const E = T.edu;
+const bands = viewBands(lang, T.kids);
+---
+<BaseLayout lang={lang} title={E.ph_title} description={E.ph_lede} path={`/${lang}/learn/parents/`}>
+  <div class="wrap edu" style="padding-block:10px 24px">
+    <nav class="ui muted no-print" aria-label="breadcrumb"><a href={`/${lang}/learn/`}>{E.title}</a> › {E.parents_title}</nav>
+    <h1>{E.ph_title}</h1>
+    <p style="font-size:1.1rem;max-width:var(--measure)">{E.ph_lede}</p>
+
+    <h2>{E.ph_bands_title}</h2>
+    <ul class="edu-doors">
+      {bands.map((b) => (
+        <li>
+          <a class={`edu-door pal-${b.palette}`} href={b.wing === "shabab" ? `/${lang}/learn/trails/` : b.hub}>
+            {b.wing === "shabab" && <span class="chip soon">{E.soon}</span>}
+            <span class="g" aria-hidden="true">{b.glyph}</span>
+            <h2>{b.name}</h2>
+            <span class="ages">{b.agesLabel}</span>
+            <p>{b.voice}</p>
+          </a>
+        </li>
+      ))}
+    </ul>
+
+    <h2>{E.ph_passport_title}</h2>
+    <p style="max-width:var(--measure)">{E.ph_passport_text}</p>
+    <p><a class="btn btn-lapis" href={`/${lang}/learn/passport/`}>{E.passport_open}</a></p>
+
+    <h2>{E.ph_privacy_title}</h2>
+    <p style="max-width:var(--measure)">{E.ph_privacy_text}</p>
+
+    <h2>{E.ph_tips_title}</h2>
+    <ol style="max-width:var(--measure)">{E.ph_tips.map((tip: string) => <li>{tip}</li>)}</ol>
+  </div>
+</BaseLayout>
