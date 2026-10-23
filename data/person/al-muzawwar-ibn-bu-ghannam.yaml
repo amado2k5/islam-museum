@@ -1,0 +1,23 @@
+id: person/al-muzawwar-ibn-bu-ghannam
+class: person
+label: { ar: "المزوار بن بو غنام", en: "al-Muzawwar b. Bu Ghannam" }
+names:
+  - { kind: full, lang: ar, value: "المزوار بن بو غنام" }
+gender: male
+roles: [military]
+summary:
+  ar: "قائد القبائل المجاورة لتلمسان التي ظلت تضايق النفوذ العثماني خارج المدينة؛ يذكر الصلابي أنه كان يرغب في مساندة زوج ابنته الأمير مولاي أحمد حليف الأسبان {cite:dawlat-uthmaniyya-salabi p. 230}."
+  en: "Leader of the tribes around Tlemcen whose harrying kept Ottoman authority outside the city unsteady; al-Salabi notes he wished to back his son-in-law, the prince Mulay Ahmad, an ally of Spain {cite:dawlat-uthmaniyya-salabi p. 230}."
+wings: [people]
+regions: [maghreb]
+periods: [period/gunpowder-empires]
+relations:
+  - { type: opposed, target: person/hasan-ibn-khayr-al-din, sources: [source/dawlat-uthmaniyya-salabi] }
+sources: [source/dawlat-uthmaniyya-salabi]
+provenance:
+  layer: own-research
+  source: "الدولة العثمانية لعلي محمد الصلابي (ط1 1421) ص 230"
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: salabi-uthmani-batch11
+status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 Medium)" }
