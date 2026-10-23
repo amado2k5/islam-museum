@@ -1,0 +1,22 @@
+id: person/ibn-abidin
+class: person
+label:
+  ar: "ابن عابدين"
+  en: "Ibn Abidin"
+names:
+  - { value: "ابن عابدين", kind: full }
+died: { hijri: "1252", calendar: julian, precision: year, status: tradition, sources: [source/fiqh-mawsua-kuwaitiyya-noor-v3], note: "Dates as given in the appendix: 1198-1252 AH; the son Muhammad Ala' al-Din (1244-1306 AH) is named in the same entry and not separately created here." }
+summary:
+  ar: "محمد أمين بن عمر بن عبد العزيز عابدين، الدمشقي، فقيه الديار الشامية وإمام الحنفية في عصره، صاحب «رد المحتار على الدر المختار» المشهور بحاشية ابن عابدين. وذكر المدخل ابنه محمد علاء الدين (1244-1306 هـ)، المعروف أيضاً بابن عابدين، صاحب «قرة عيون الأخيار» تكملة حاشية أبيه. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.1603}"
+  en: "Muhammad Amin ibn Umar ibn Abd al-Aziz Ibn Abidin of Damascus, the leading Hanafi of the Levant in his time, author of Radd al-muhtar 'ala al-Durr al-mukhtar, known as Hashiyat Ibn Abidin. The entry also names his son Muhammad 'Ala' al-Din (1244-1306 AH), author of Qurrat 'uyun al-akhyar, a supplement to the father's gloss. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.1603}"
+gender: male
+roles: [jurist]
+wings: [people]
+sources: [source/fiqh-mawsua-kuwaitiyya-noor-v3]
+status: { review: draft, completeness: 1, generated_by: "Claude Haiku 5.5; appendix card of the Mawsu'a, scan p.1603; text only, footnotes and sources cited to the Mawsu'a page" }
+provenance:
+  layer: own-research
+  source: "الموسوعة الفقهية الكويتية، نسخة نور بوك، ملحق تراجم الفقهاء، ص 1603 من المسح"
+  generated_by: "Claude Haiku 5.5"
+  model: claude-haiku-5-5
+  run: mawsua-w01-appendix
