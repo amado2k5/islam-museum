@@ -9,7 +9,7 @@ Average sources per entity: **1.28** · Women share of persons with a recorded g
 | Key | Count |
 |---|---|
 | building | 5591 |
-| concept | 1500 |
+| concept | 1498 |
 | dataset | 16 |
 | event | 4352 |
 | exhibit | 301 |
@@ -21,7 +21,7 @@ Average sources per entity: **1.28** · Women share of persons with a recorded g
 | object | 516 |
 | passage | 9546 |
 | period | 13 |
-| person | 8584 |
+| person | 8586 |
 | place | 1692 |
 | polity | 175 |
 | practice | 60 |
@@ -34,11 +34,11 @@ Average sources per entity: **1.28** · Women share of persons with a recorded g
 
 | Key | Count |
 |---|---|
-| ideas | 1285 |
+| ideas | 1283 |
 | living | 66 |
 | made | 119 |
 | objects | 6139 |
-| people | 8268 |
+| people | 8270 |
 | place | 1711 |
 | time | 3973 |
 | today | 6 |
@@ -48,7 +48,7 @@ Average sources per entity: **1.28** · Women share of persons with a recorded g
 
 | Key | Count |
 |---|---|
-| period/abbasid-early | 1549 |
+| period/abbasid-early | 1551 |
 | period/abbasid-fragmentation | 493 |
 | period/buyid-seljuk-fatimid-era | 1217 |
 | period/colonial-era | 1348 |
@@ -58,7 +58,7 @@ Average sources per entity: **1.28** · Women share of persons with a recorded g
 | period/modern-era | 1143 |
 | period/mongol-post-mongol | 1305 |
 | period/pre-islamic-arabia | 402 |
-| period/prophetic-era | 2090 |
+| period/prophetic-era | 2088 |
 | period/rashidun | 839 |
 | period/umayyad | 1012 |
 
@@ -73,8 +73,8 @@ Average sources per entity: **1.28** · Women share of persons with a recorded g
 | china-east-asia | 127 |
 | east-africa | 274 |
 | egypt-nile | 969 |
-| global | 1059 |
-| levant-iraq | 3598 |
+| global | 1057 |
+| levant-iraq | 3600 |
 | maghreb | 1357 |
 | persia-central-asia | 3052 |
 | south-asia | 1069 |
@@ -118,7 +118,7 @@ Average sources per entity: **1.28** · Women share of persons with a recorded g
 | education | 138 |
 | engineering-and-technology | 5 |
 | environment-and-climate | 4 |
-| ethics-and-character | 186 |
+| ethics-and-character | 184 |
 | factions-splits-schisms | 26 |
 | family-marriage-kinship | 332 |
 | fasting | 4 |
