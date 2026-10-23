@@ -34,7 +34,7 @@ Average sources per entity: **1.28** · Women share of persons with a recorded g
 
 | Key | Count |
 |---|---|
-| ideas | 1431 |
+| ideas | 1432 |
 | living | 79 |
 | made | 119 |
 | objects | 6154 |
@@ -146,7 +146,7 @@ Average sources per entity: **1.28** · Women share of persons with a recorded g
 | islam-and-secular-thought | 2 |
 | islam-and-the-modern-state | 6 |
 | islam-and-zoroastrianism | 2 |
-| law-and-courts | 317 |
+| law-and-courts | 318 |
 | laws-of-war-and-peace | 61 |
 | libraries-paper-and-the-book | 11 |
 | linguistics | 77 |
