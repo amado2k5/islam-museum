@@ -1,0 +1,29 @@
+id: person/gennadios-scolarios
+class: person
+label:
+  ar: "أجناديوس"
+  en: "Gennadios II (Scholarios)"
+names:
+  - { kind: full, lang: ar, value: "أجناديوس" }
+gender: male
+roles: [religious-leader]
+summary:
+  ar: "أجناديوس، البطريرك الذي نصبه نصارى القسطنطينية بعد الفتح على رواية الصلابي؛ يذكر الكتاب أن محمد الفاتح اجتمع بالأساقفة وطمأنهم إلى المحافظة على عقائدهم وبيوت عبادتهم وأمرهم بتنصيب بطريرك جديد فانتخبوا أجناديوس، فتوجه في موكب من الأساقفة إلى مقر السلطان فاستقبله بحفاوة وتناول معه الطعام وتحدثا في موضوعات دينية وسياسية، وخرج البطريرك وقد تغيرت فكرته عن السلاطين العثمانيين والمسلمين — على ما يصوره الكتاب {cite:dawlat-uthmaniyya-salabi p. 111-112}."
+  en: "Gennadios, the patriarch the Christians of Constantinople elected after the conquest in al-Salabi's telling: Mehmed II met the bishops, assured them their creeds and houses of worship would be preserved, and ordered a new patriarch installed. They chose Gennadios, who came in a procession of bishops to the sultan's seat, was received with great honour, dined with him and talked of religious and political matters — and left, in the book's portrait, with his view of the Ottoman sultans and of Muslims altogether changed {cite:dawlat-uthmaniyya-salabi p. 111-112}."
+wings: [people]
+regions: [anatolia-balkans]
+periods: [period/mongol-post-mongol]
+relations:
+  - { type: participated_in, target: event/conquest-constantinople-857, role: "بطريرك بعد الفتح", sources: [source/dawlat-uthmaniyya-salabi] }
+sources: [source/dawlat-uthmaniyya-salabi]
+external_ids:
+  wikidata: Q351640
+provenance:
+  layer: own-research
+  source: "الدولة العثمانية لعلي محمد الصلابي (ط1 1421) ص 111-112"
+  generated_by: "Devin (SWE-2 Medium) from Apple Vision OCR"
+  model: "SWE-2 Medium"
+  run: lib-salabi-uthmani-batch-5
+status:
+  review: draft
+  completeness: 2

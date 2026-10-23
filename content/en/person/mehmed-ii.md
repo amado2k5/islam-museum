@@ -19,3 +19,6 @@ He founded madrasas with eight doors in [[place/istanbul|Istanbul]], gave the st
 He was among the pupils of [[person/aq-shams-al-din|Aq Shams al-Din]], and his son Abu Yazid succeeded him. {cite:dawlat-uthmaniyya-salabi}
 
 He died in 886 AH (1481 CE). The Gregorian date is from al-Salabi. {cite:dawlat-uthmaniyya-salabi}
+
+## Accession and preparation
+In al-Salabi: he took the throne on 16 Muharram 855 / 18 February 1451 at twenty-two, reorganised the administration, finances, army corps and soldiers' rolls, and prepared near a quarter-million fighters and over four hundred ships for the conquest. Among his teachers was [[person/ahmad-ibn-ismail-al-kurani|Mawla al-Kurani]], who in his boyhood beat him until he finished the Qur'an {cite:dawlat-uthmaniyya-salabi p. 87-92}.
