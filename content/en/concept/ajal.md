@@ -63,3 +63,42 @@ Rescission restores the original position according to the majority, so a deferr
 
 ## Term for blood-money
 Blood-money for intentional killing is due at once from the killer's property, according to the majority. The Hanafis distinguish blood-money agreed by settlement, which is immediate, from blood-money owed when retaliation falls by a doubt, which is paid over three years. For quasi-intentional killing it is paid over three years by the kin, according to the Hanafis, Shafi'is and Hanbalis. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.1673}
+
+## Term for salam
+The Malikis, Hanbalis and al-Awza'i require the salam object to be deferred to a known term, on the report 'whoever makes a salam, let him make it for a known measure, weight and term'. Al-Shafi'i, Abu Thawr and Ibn al-Mundhir allow an immediate salam. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.1674}
+
+## Term of the mukatabah price
+Jurists differ on whether the price of a mukatabah must be deferred to a fixed term. The majority hold that it must be, and the contract is limited by it: on payment the slave is freed, and if he cannot pay he returns to slavery. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.1674} {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.1676}
+
+## Loans and a promise of deferral
+The majority hold that a loan is due at once; if a deferral is stipulated it is a promise of kindness that need not be kept. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.1675}
+
+## Term of muzara'a
+The Malikis, Muhammad ibn al-Hasan and the Hanbalis allow muzara'a without a stated term, and it falls on the first crop. Most Hanafis require a known term, and the contract is void if the term is too short for planting or the parties may not live to it. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.1676}
+
+## Term of loans of use and of mudaraba
+A loan of the use of a thing may be limited to a term. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.1676} {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.1677} The Hanafis and Hanbalis allow a time limit on mudaraba; when the term passes the mudaraba ends, because the term restricts the agent. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.1677}
+
+## Term of a waqf and of a sale
+The Malikis and one Hanbali view do not require a waqf to be perpetual; it may run for a fixed term and then return to its owner. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.1678} A sale cannot be limited in time, because it transfers ownership for good; a time limit voids it, as al-Suyuti and al-Kasani hold. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.1678} {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.1679}
+
+## Term of marriage
+The text reports Shafi'i cases of marriage limited to a lifetime or to the wife's lifetime, and one view that the plain marriage contract does not go beyond that, so such marriages should be valid. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.1679} {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.1681}
+
+## Known and unknown terms
+A term is either known or unknown. Its known or unknown character affects validity, because uncertainty brings hazard. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.1682} Jurists agree that a term is valid when fixed by a known time that does not vary from person to person, such as a day, month and year, on the verse about writing down a debt for a named term. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.1682}
+
+## Lunar months and other calendars
+A term of months or years stated without qualification is taken as lunar, which is the usage of the law, on the verses about the crescents and the number of months. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.1683} A term in months that Muslims know by name, such as the Syriac or Roman months, is valid for most jurists, since it is a known term. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.1683} {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.1684}
+
+## Oath after dispute over price
+When the buyer and seller dispute the price and have no proof, they take mutual oaths. The Malikis and some Shafi'is hold the contract is dissolved, while the Shafi'is hold it is not dissolved by the oaths themselves but by agreement or by a ruling. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.1691}
+
+## Waiver of the term
+The term is the right of the debtor, granted for his ease, so he may waive it and make the debt due at once. This is the view of most jurists, with some limits where it would harm the creditor. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.1692} When creditor and debtor agree to waive a stipulated deferral, the waiver is valid by agreement. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.1692} {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.1693}
+
+## Term ends on death
+The Hanafis and Shafi'is hold that the term ends when the debtor dies, since his estate is ruined; it does not end when the creditor dies. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.1693} The Hanbalis hold that a deferred debt is not due on the creditor's death; on the debtor's death there are two views, one that it falls due, and one that it does not if the heirs or a guarantor are reliable. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.1694}
+
+## Term ends on bankruptcy
+The Hanafis, Hanbalis and the stronger Shafi'i view hold that a bankrupt's deferred debts are not due, since the term is his right and bankruptcy does not end it. The Malikis and one Shafi'i view hold that deferred debts fall due on a judgement of bankruptcy, since his estate is ruined. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.1695}

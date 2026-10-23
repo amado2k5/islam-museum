@@ -22,3 +22,9 @@ status: draft
 
 ## وسق اور رطل
 جمہور کے نزدیک زراعت میں زکوٰۃ کا نصاب پانچ وسق ہے، اور امام ابو حنیفہ کے نزدیک قلیل و کثیر دونوں میں زکوٰۃ ہے۔ بغدادی رطل کو جمہور کے نزدیک ایک سو اٹھائیس درہم اور چار ساتویں درہم کے برابر مانا گیا ہے۔ {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.14867} {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.14869}
+
+## جِریب، قصبہ، میل، فرسخ اور مرحلہ
+جریب کا رقبہ عام فقہاء کے نزدیک تین ہزار چھ سو ذراع ہے۔ اس سے خراج کی مقدار متعین کی جاتی ہے۔ فرسخ تین میل ہے، اور جمہور کے نزدیک سفر کی مسافت سولہ فرسخ یا اڑتالیس میل ہے۔ مرحلہ ایک دن کی مسافت ہے، اور حنفیہ کے نزدیک معیار زمانہ ہے۔ میل کی تعریف میں حنفیہ کے نزدیک چار ہزار ذراع ہے۔ {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.14876} {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.14883} {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.14885} {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.14886} {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.14887}
+
+## ذراع، شبر، قبضہ اور قدم
+ذراع کی کئی قسمیں ہیں جن میں سے ماوردی نے سات گنوائی ہیں، اور حنفیہ کے نزدیک مختار ذراعِ کرباس ہے۔ شبر ذراع کا نصف، یعنی بارہ انگل ہے۔ قبضہ چار انگلیوں کے برابر ہے۔ قدم کو فقہاء مسافت کی اکائی کے طور پر بھی استعمال کرتے ہیں۔ {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.14878} {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.14879} {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.14880} {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.14883} {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.14884}
