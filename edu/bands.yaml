@@ -1,0 +1,83 @@
+# The five age bands of the education programme (docs/delegation/education-master-plan.md §4).
+# Language-neutral structure with ar/en/ur strings. Order is the ladder: each band's `next` is the one below it.
+# Routes are site paths without the language prefix. `activities` are rendered in this order on the band hub.
+bands:
+  - id: sprouts
+    ages: { min: 4, max: 6 }
+    name: { ar: "البراعم", en: "Sprouts", ur: "کونپلیں" }
+    ages_label: { ar: "من ٤ إلى ٦ سنوات", en: "ages 4 to 6", ur: "4 سے 6 سال" }
+    voice: { ar: "هدهد يقرأ لك كل شيء. المس، واستمع، وافرح.", en: "Hudhud reads everything to you. Tap, listen and enjoy.", ur: "ہدہد آپ کو سب کچھ پڑھ کر سناتا ہے۔ چھوئیں، سنیں اور خوش ہوں۔" }
+    glyph: "🌱"
+    palette: leaf
+    wing: sighar
+    hub: /sighar/sprouts/
+    stateless: true
+    activities:
+      - { id: sprouts-garden, href: /sighar/sprouts-garden/, glyph: "🌸", label_key: sprouts_garden_title }
+      - { id: sprouts-quest, href: /sighar/sprouts-quest/, glyph: "⭐", label_key: sprouts_quest_title }
+      - { id: stories, href: /sighar/stories/, glyph: "🌙", label_key: stories_title }
+    next: explorers
+  - id: explorers
+    ages: { min: 7, max: 9 }
+    name: { ar: "المستكشفون", en: "Explorers", ur: "مہم جو" }
+    ages_label: { ar: "من ٧ إلى ٩ سنوات", en: "ages 7 to 9", ur: "7 سے 9 سال" }
+    voice: { ar: "رحلة الأنبياء، وحديقة الكلمات، وتحدّي الأخلاق: اجمع الأختام في جوازك.", en: "The Prophet Quest, the Word Garden and the Kindness Quest: collect the stamps in your passport.", ur: "انبیاء کا سفر، الفاظ کا باغ اور اخلاق کا چیلنج: اپنے پاسپورٹ میں مہریں جمع کریں۔" }
+    glyph: "🧭"
+    palette: teal
+    wing: sighar
+    hub: /sighar/explorers/
+    stateless: false
+    activities:
+      - { id: garden, href: /sighar/garden/, glyph: "🌸", label_key: garden_title }
+      - { id: quest, href: /sighar/quest/, glyph: "⭐", label_key: quest_title }
+      - { id: kindness, href: /sighar/kindness/, glyph: "🤲", label_key: kindness_title }
+      - { id: stories, href: /sighar/stories/, glyph: "🌙", label_key: stories_title }
+      - { id: mosque, href: /sighar/mosque/, glyph: "🕌", label_key: mosque_title }
+      - { id: timemachine, href: /sighar/timemachine/, glyph: "⏳", label_key: tm_title }
+    next: storytellers
+  - id: storytellers
+    ages: { min: 10, max: 12 }
+    name: { ar: "الرواة", en: "Storytellers", ur: "کہانی گو" }
+    ages_label: { ar: "من ١٠ إلى ١٢ سنة", en: "ages 10 to 12", ur: "10 سے 12 سال" }
+    voice: { ar: "اقرأ أكثر، ثم احكِ القصة بكلماتك، وذاكر البطاقات، واصنع دفترك ومسجدك.", en: "Read more, then tell the story in your own words, study the cards, and make your journal and your mosque.", ur: "مزید پڑھیں، پھر کہانی اپنے الفاظ میں سنائیں، کارڈز کی مشق کریں، اور اپنی ڈائری اور مسجد بنائیں۔" }
+    glyph: "📖"
+    palette: lapis
+    wing: sighar
+    hub: /sighar/storytellers/
+    stateless: false
+    activities:
+      - { id: retell, href: /sighar/retell/, glyph: "✍️", label_key: retell_title }
+      - { id: journal, href: /sighar/journal/, glyph: "📓", label_key: journal_title }
+      - { id: mosque, href: /sighar/mosque/, glyph: "🕌", label_key: mosque_title }
+      - { id: timemachine, href: /sighar/timemachine/, glyph: "⏳", label_key: tm_title }
+    next: scholars
+  - id: scholars
+    ages: { min: 13, max: 15 }
+    name: { ar: "الدارسون", en: "Scholars", ur: "طالبِ علم" }
+    ages_label: { ar: "من ١٣ إلى ١٥ سنة", en: "ages 13 to 15", ur: "13 سے 15 سال" }
+    voice: { ar: "اشرحها في ستين ثانية، وتدريبات تصحّح نفسها، وتحدّي القرن اليومي.", en: "Explain it in sixty seconds, practice sets that mark themselves, and the daily Century Challenge.", ur: "ساٹھ سیکنڈ میں سمجھائیں، خود جانچنے والی مشقیں، اور روزانہ کا صدی چیلنج۔" }
+    glyph: "◆"
+    palette: teal-ink
+    wing: shabab
+    hub: /shabab/scholars/
+    stateless: false
+    activities: []
+    next: researchers
+  - id: researchers
+    ages: { min: 16, max: 18 }
+    name: { ar: "الباحثون", en: "Researchers", ur: "محقّقین" }
+    ages_label: { ar: "من ١٦ إلى ١٨ سنة", en: "ages 16 to 18", ur: "16 سے 18 سال" }
+    voice: { ar: "محقّق المصادر، وبطاقات القرار، والأدلّة من قلب المتحف: الإسناد والأثر والمخطوط.", en: "Source Detective, decision cards, and evidence from the museum itself: the isnad, the object and the manuscript.", ur: "ماخذ کا کھوجی، فیصلے کے کارڈ، اور میوزیم کے اپنے شواہد: اسناد، نوادرات اور مخطوطات۔" }
+    glyph: "✦"
+    palette: lapis-ink
+    wing: shabab
+    hub: /shabab/researchers/
+    stateless: false
+    activities: []
+    next: null
+status: { review: draft }
+provenance:
+  generated_by: "Claude Code"
+  model: "Claude Fable 5.1 (claude-fable-5-1)"
+  run: "education-E1"
+  note: "Band structure from the education master plan; Urdu drafted from the Arabic, pending the founder's review."

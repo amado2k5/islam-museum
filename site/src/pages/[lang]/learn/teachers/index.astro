@@ -1,0 +1,55 @@
+---
+// The teacher hub (E1, first version): one page that gathers what the museum already offers a teacher, outside
+// the children's chrome. Pathways by grade (E2), seasonal packs and the classroom quiz (E3) land here later.
+import BaseLayout from "../../../../layouts/BaseLayout.astro";
+import Qr from "../../../../components/Qr.astro";
+import { ui, LANGS, type Lang } from "../../../../lib/i18n";
+import { loadLessons, viewLessons } from "../../../../lib/kids";
+import "../../../../styles/edu.css";
+
+export function getStaticPaths() { return LANGS.map((lang) => ({ params: { lang }, props: { lang } })); }
+const { lang } = Astro.props as { lang: Lang };
+const T = ui(lang);
+const E = T.edu;
+const t = T.kids;
+const path = `/${lang}/learn/teachers/`;
+const lessons = viewLessons(loadLessons(), lang);
+const lessonTitle = (unit: string): string => t[`${unit}_title`] as string;
+---
+<BaseLayout lang={lang} title={E.th_title} description={E.th_lede} path={path}>
+  <div class="wrap edu" style="padding-block:10px 24px">
+    <nav class="ui muted no-print" aria-label="breadcrumb"><a href={`/${lang}/learn/`}>{E.title}</a> › {E.teachers_title}</nav>
+    <h1>{E.th_title}</h1>
+    <p style="font-size:1.1rem;max-width:var(--measure)">{E.th_lede}</p>
+
+    <ul class="edu-adult">
+      <li><a href={`/${lang}/sighar/teachers/`}><span class="ic" aria-hidden="true">🍎</span><span><h2>{E.th_kids_kit}</h2><p>{E.th_kids_kit_desc}</p></span></a></li>
+      <li><a href={`/${lang}/learn/trails/`}><span class="ic" aria-hidden="true">🗺</span><span><h2>{E.th_trails}</h2><p>{E.th_trails_desc}</p></span></a></li>
+      <li><a href={`/${lang}/learn/passport/`}><span class="ic" aria-hidden="true">🛂</span><span><h2>{E.th_passport}</h2><p>{E.th_passport_desc}</p></span></a></li>
+    </ul>
+
+    <h2>{E.th_lessons}</h2>
+    <ul>
+      {lessons.map((l) => <li><a href={`/${lang}/sighar/teachers/lessons/${l.unit_slug}/`}>{lessonTitle(l.unit_slug)}</a></li>)}
+    </ul>
+
+    <h2>{E.th_printables}</h2>
+    <ul>
+      {lessons.map((l) => <li><a href={`/${lang}/sighar/teachers/lessons/${l.unit_slug}/#worksheet`}>{lessonTitle(l.unit_slug)}: {t.lesson_worksheet}</a></li>)}
+      <li><a href={`/${lang}/sighar/kindness/#kindness-chart`}>{t.kindness_title}: {t.kindness_print}</a></li>
+      <li><a href={`/${lang}/sighar/retell/#retell-print`}>{t.retell_title}: {t.retell_print}</a></li>
+      <li><a href={`/${lang}/learn/passport/`}>{E.passport_title}: {E.passport_print}</a></li>
+    </ul>
+    <p class="muted" style="max-width:var(--measure)">{E.th_qr_text}</p>
+
+    <h2>{E.th_classroom}</h2>
+    <p style="max-width:var(--measure)">{E.th_classroom_text}</p>
+    <p><a class="chip" style="border:1px solid var(--gold)" href={`/${lang}/sighar/quest/?classroom=1`}>{t.quest_title} · ?classroom=1</a></p>
+
+    <h2>{t.teachers_pilot_title}</h2>
+    <p><a href={`/${lang}/sighar/teachers/pilot/`}>{t.pilot_lede}</a></p>
+
+    <p class="panel" style="max-width:var(--measure)">{E.th_coming}</p>
+    <Qr lang={lang} path={path} />
+  </div>
+</BaseLayout>
