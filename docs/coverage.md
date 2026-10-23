@@ -99,7 +99,6 @@ Average sources per entity: **1.28** · Women share of persons with a recorded g
 | cities | 22 |
 | civil-wars-and-revolts | 63 |
 | colonial-wars-and-resistance | 15 |
-| commerce-and-contracts | 1 |
 | community-conventions | 4 |
 | conferences-and-declarations | 5 |
 | conquest-and-its-debates | 20 |
@@ -191,7 +190,7 @@ Average sources per entity: **1.28** · Women share of persons with a recorded g
 | takfir-and-its-critics | 4 |
 | the-elderly | 4 |
 | the-poor-and-the-worker | 65 |
-| trade-and-finance | 118 |
+| trade-and-finance | 119 |
 | tradition-versus-culture | 79 |
 | travel | 8 |
 | violent-extremism-and-the-muslim-response | 27 |
