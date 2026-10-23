@@ -34,11 +34,11 @@ Average sources per entity: **1.28** · Women share of persons with a recorded g
 
 | Key | Count |
 |---|---|
-| ideas | 1418 |
+| ideas | 1417 |
 | living | 79 |
 | made | 119 |
 | objects | 6153 |
-| people | 8344 |
+| people | 8345 |
 | place | 1711 |
 | time | 3973 |
 | today | 6 |
@@ -48,7 +48,7 @@ Average sources per entity: **1.28** · Women share of persons with a recorded g
 
 | Key | Count |
 |---|---|
-| period/abbasid-early | 1565 |
+| period/abbasid-early | 1564 |
 | period/abbasid-fragmentation | 494 |
 | period/buyid-seljuk-fatimid-era | 1226 |
 | period/colonial-era | 1349 |
@@ -184,7 +184,7 @@ Average sources per entity: **1.28** · Women share of persons with a recorded g
 | sects-and-schools | 110 |
 | sexuality-gender-diversity | 6 |
 | skirmishes-raids-expeditions | 37 |
-| slavery-and-freedom | 30 |
+| slavery-and-freedom | 31 |
 | spirituality-and-sufism | 242 |
 | sport | 3 |
 | takfir-and-its-critics | 4 |
