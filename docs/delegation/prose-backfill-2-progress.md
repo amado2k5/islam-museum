@@ -322,3 +322,26 @@ Each record's own entry was located on the page by full nasab, the verified rija
 ### Notes
 - `amr-ibn-shuayb`'s Taqrib own-entry head is lost to the scan's column interleaving in this copy; verified instead in Tahdhib al-Tahdhib (٥٢٠٧) with the full five-generation nasab.
 - `muhammad-ibn-yahya-ibn-habban` and `malik-ibn-abi-amir-al-asbahi` were skipped per the batch plan (already done in batch 5).
+
+## Batch 10 — audit + one prose record (agent pb2-rijal)
+
+Eleven of the next queue segment already had committed prose (audit fixes only); `amir-ibn-sad-ibn-abi-waqqas` had none and got new ar+en+ur prose from Taqrib ٣٠٨٩ (p.297).
+
+| record | disposition | own entry verified |
+|---|---|---|
+| person/amir-ibn-sad-ibn-abi-waqqas | NEW prose ar+en+ur; +taqrib, completeness 3 | Taqrib ٣٠٨٩ (عامر بن سعد بن أبي وقاص الزهري), p.297 |
+| person/amir-ibn-rabia | audit: +taqrib, completeness 3 | Taqrib ٣٠٨٨ (عامر بن ربيعة بن كعب بن مالك العنزي), p.297 |
+| person/abdallah-ibn-abdallah-ibn-umar | audit: +taqrib, completeness 3 | Taqrib ٣٤١٧ (عبد الله بن عبد الله بن عمر بن الخطاب), p.325 |
+| person/abd-al-rahman-ibn-kab-ibn-malik | audit: +taqrib, completeness 3 | Taqrib ٣٩٩١ (عبد الرحمن بن كعب بن مالك الأنصاري), p.375 |
+| person/suhayl-ibn-bayda | audit: +ibn-hajar-isaba, completeness 3 | Isaba ٣٧٤٤ (سهيل بن بيضاء), p.629 |
+| person/makhul-al-dimashqi | audit: +taqrib, completeness 3 | Taqrib ٦٨٧٥ (مكحول الشامي أبو عبد الله), p.608 |
+| person/umm-kulthum-bint-abi-bakr | audit: +ibn-hajar-isaba, completeness 3 | Isaba ١٢٢٦٥ (أم كلثوم بنت أبي بكر التيمية), p.2030 |
+| person/abu-burda-ibn-niyar | audit: +taqrib, completeness 3 | Taqrib ٧٩٥٣ (أبو بردة بن نيار البلوي حليف الأنصار), p.691 |
+| person/musab-ibn-sad-ibn-abi-waqqas | audit: +taqrib, completeness 3 | Taqrib ٦٦٨٨ (مصعب بن سعد بن أبي وقاص الزهري), p.594 |
+| person/asim-ibn-umar | audit: +taqrib, completeness 3 | Taqrib ٣٠٦٩ (عاصم بن عمر بن الخطاب), p.295 |
+| person/silkan-ibn-salama | audit: +ibn-hajar-isaba, completeness 3 | Isaba ٣٤٧٢ (سلكان بن سلامة) p.593 + kunya ١٠٦٧٥ (أبو نائلة) p.1778 |
+| person/kabsha-bint-kab-ibn-malik | audit: +ibn-hajar-isaba, completeness 3 | Isaba ١١٧١٤ (كبشة بنت كعب بن مالك الأنصارية), p.1950 |
+
+### Deferred this batch
+- `person/jalal-al-dawla`, `person/abu-kalijar` — Buyid dynasts with committed prose and real sources already (shadharat/muntazam); own-entry verification belongs to the dynastic-history lane rather than the rijal books; completeness left to that lane.
+- `person/mabad-ibn-kab-ibn-malik`, `person/muhammad-ibn-abd-al-rahman-ibn-nawfal` — already completeness 3 with verified sources; skipped.
