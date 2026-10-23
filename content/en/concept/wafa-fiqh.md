@@ -1,0 +1,14 @@
+---
+id: concept/wafa-fiqh
+lang: en
+source_lang: ar
+status: draft
+---
+
+Wafa', lexically, is the opposite of betrayal: completion, discharge, and bringing a thing to full measure; 'awfa al-kayl' is to complete the measure. Technically it is keeping to the way of mutual help, keeping covenants and maintaining the forms of affection in private and in public. The scholars explain the verse of sura al-Ma'ida on fulfilling contracts as keeping what the contract requires and acting on its consequences. The jurists use the word for handing over the thing contracted, for judgement and for payment. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.17564}
+
+Related words: istifa' (taking one's right in full), isqat (releasing a right without a holder or a claimant), and ibra' (releasing a debt owed to oneself). All lead to the discharge of the obligation; the difference is that wafa' is done by the one who owes and istifa' by the one who is owed. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.17564}{cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.17565}
+
+The ruling varies by the act. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.17565} First, what must be fulfilled: contracts, once complete with their conditions, such as delivering the goods and paying the price or wage; lawful conditions, on the saying that Muslims are bound by their conditions, while a condition contrary to the book of God is void; and vows of obedience. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.17565} Second, what is recommended: good deeds such as bequests and gifts, which are donations that cannot be compelled; a bare promise, not tied to a need or a cause, is recommended to keep, but becomes obligatory when a need requires it, as Ibn 'Abidin reports from Jami' al-Fusulayn; the well-known Maliki view is that a promise is binding and may be enforced once the promisee has entered upon something because of it. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.17566}{cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.17567} Third, what is permitted: a vow to do a permitted act, such as eating, drinking or sleeping, whose validity the jurists debate. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.17567} Fourth, what is forbidden: a vow of disobedience, forbidden by agreement, on the saying of 'A'isha that whoever vows to disobey God must not disobey Him; an oath to do a forbidden act or omit a duty is to be broken with expiation, not kept; and unlawful conditions. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.17567}
+
+Who may fulfil: the one who is accountable, that is adult and sane, since the duty arises from acts he undertakes by his choice, whether they need two wills, as sale does, or one, as an oath or vow. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.17568} How fulfilment is achieved: in contracts by handing over the thing; by returning the thing when the term ends, the contract is dissolved or the thing is shown to be another's; and by doing the work required, as a hired worker does. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.17568}
