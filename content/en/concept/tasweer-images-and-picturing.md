@@ -66,5 +66,29 @@ On the other side, the use of images by the Prophet and his Companions and Succe
 ## The house with images, which angels do not enter
 The phrase is in the two Sahihs from Aisha, Ibn Abbas and Ibn Umar, and in other books from Ali, Maymuna, Abu Said, Abu Talha and Zayd ibn Khalid. An-Nawawi explained that angels avoid it because making images is a gross sin and rival to God's creation, and al-Qurtubi because it resembles the unbelievers who keep images. Ibn Hajar held that only an image displayed upright, not demeaned or cut, keeps the angels away. The Hanafi view is that what may be kept does not keep the angels away. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.5279}
 
+## The house which a bell or a traveller's company enters
+The hadith «angels do not accompany a company with a bell» was read by some as limited to the Prophet's time and to the angel of revelation, since pilgrims do not travel without bells; Ibn Hajar reports this from al-Dawudi and Ibn Wadhdhah. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.5280}
+
+## Keeping and using images of manufactured things, inanimate nature and plants
+It is lawful to keep and use images of man-made things, of inanimate nature and of plants, whether upright, hung or demeaned, carved on walls, ceilings or floors, flat or three-dimensional (artificial flowers, models of ships, cars and houses, the models of the planetarium), for use or for decoration, unless it becomes wasteful. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.5280} {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.5281}
+
+## Keeping and using images of humans and animals
+All agree that the image of an idol worshipped besides God is forbidden. Otherwise there is disagreement, but the jurists nearly agree on forbidding an image that is: of a living being and three-dimensional; complete in its limbs; hung or upright in a place of honour and not demeaned; not small; not a child's toy; and not perishable. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.5280}
+
+## Flat images
+The Malikis and those with them hold that using flat images is not forbidden but disliked if they are upright, and against the better course if demeaned; for others flat and solid images are alike in prohibition when the conditions are met. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.5281}
+
+## Cut images
+An image missing a limb whose loss would kill, solid or flat, may be used, by most Hanafis, Malikis, Shafiis and Hanbalis, and may be kept. A slit in the chest or belly is enough; a removed eye, brow or hand is not. The basis is Gabriel's word to cut the head of the figure so that it is like a tree, and the curtain made into two cushions. The Shafii view is that a headless body is forbidden while the head alone is in doubt. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.5281} {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.5282}
+
+## Upright and demeaned images
+The majority hold that a solid living image hung or upright is forbidden while a demeaned one is not; the Hanbalis and Malikis do not dislike demeaned ones, though the Malikis call them against the better course. The reason is that upright images resemble idols, while demeaned ones do not. Ikrima disliked upright figures but not those trodden by feet, and al-Qasim ibn Muhammad leaned on a cushion with pictures. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.5282} {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.5283}
+Some Shafiis took any upright display as forbidden, others only what shows honour; al-Rafii allowed images in a bath or a passage but not in a majlis or a place of honour. A dish, tray or cover is a demeaned use. Ar-Ramli held the Byzantine dinars with images lawful, since they are used in trade. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.5283} {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.5284}
+An image that shows neither honour nor demeaning, such as one in a printed book or a drawer, may be worn, trodden on, or put in a box or a covered place. Ibrahim said there is no harm in images on a ceiling, and Salim ibn Abdallah leaned on a cushion with birds and beasts. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.5284} {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.5285}
+
+## Children's toys, solid and flat
+Using them is lawful a fortiori, since making them is allowed. Al-Qadi Iyad reported permission from the scholars, and that it is allowed for young girls; al-Khattabi said it was for Aisha while she was not of age, but Ibn Hajar doubted that and said the permission continues while the need lasts. The reason is training girls for raising children, and also giving joy and growth to children, so it covers boys too; Abu Yusuf stated that a toy may be sold and played with by children. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.5285}
+They cite the hadith of Rubayyi bint Mu'awwidh, who said the children were given woollen toys on the day of Ashura to keep them from food. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.5285} The Hanbalis alone require the toy to be headless; they also allow a guardian to buy non-figured toys for the girl in his care. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.5285}
+
 ## Status
-The entry continues from p.5280: the rest of the house with images and the rest of the use of images, and dealings with images.
+The entry continues from p.5286
