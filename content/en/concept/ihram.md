@@ -89,3 +89,20 @@ A man may not cover his face; this is the majority view, and the Shafi'is in the
 Gloves are forbidden to men by agreement. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.1805} {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.1806}
 A woman in ihram may not cover her face with a niqab, by agreement; the exception is need or fear of temptation, when she may let a cloth fall from above without it touching the face. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.1806}
 A woman in ihram may not wear gloves according to the Malikis and Hanbalis and the accepted Shafi'i view; the Hanafis allow covering the hands. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.1806}
+
+## Prohibitions on the pilgrim's body
+The rule covers anything that perfumes the body, removes its untidiness, or ends the state of ihram's disorder. The root is the Qur'anic command in the chapter of the Cow (al-Baqara, aya 196); the verse is not quoted here. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.1807}
+These include shaving the head, removing hair from the body, cutting nails, oiling and scent. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.1807}
+
+## Shaving and removing hair
+The pilgrim may not shave his head or another's; trimming is the same, and so is removing a little hair, by plucking, burning or depilatory. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.1807} {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.1808}
+Shaving a lawful person is disputed: the Hanafis and one Maliki view forbid it, while another Maliki view and the Shafi'is and Hanbalis allow it. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.1808}
+Cutting nails is forbidden by agreement, and removing hair from the rest of the body is forbidden by analogy with the head. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.1808}
+
+## Oiling
+The majority forbid oil even when unscented, because it adds comfort and adornment; the Shafi'is limit the ban to the head and beard, and the accepted Hanbali view allows it on the whole body, since a sacrifice needs a proof. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.1808} {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.1809}
+
+## Scent
+Scent is defined differently by each school: for the Hanafis, what has a pleasant smell from which perfume is made; for the Shafi'is, what is meant mainly for its smell; for the Hanbalis, what is scented and used for smelling; the Malikis divide it into masculine and feminine kinds. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.1809} {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.1810}
+The pilgrim may not use scent on his waist-wrap, cloak, bedding or sandals, nor perfume his body even for treatment, nor drink or eat pure scent. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.1810}
+If scent is mixed into food, the ruling depends on whether it was cooked, how much scent there is, and whether its smell remains. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.1810} {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.1811}
