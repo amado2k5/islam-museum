@@ -1,0 +1,25 @@
+id: person/hasan-ibn-khayr-al-din
+class: person
+label: { ar: "حسن بن خير الدين بربروسة", en: "Hasan b. Khayr al-Din Barbarossa" }
+names:
+  - { kind: full, lang: ar, value: "حسن بن خير الدين بربروسة" }
+gender: male
+roles: [ruler]
+summary:
+  ar: "ابن خير الدين بربروسة؛ عيّنه الباب العالي حاكماً على الجزائر بعد وفاة حسن آغا الطوشي، فقدمها سنة ٩٥١هـ/١٥٤٤م {cite:dawlat-uthmaniyya-salabi p. 229}. وله في الكتاب مبحث لاحق عن سياسته في التضييق على الإسبان."
+  en: "Son of Khayr al-Din Barbarossa; appointed by the Sublime Porte as governor of Algiers on Hasan Agha al-Tushi's death, arriving in 951/1544 {cite:dawlat-uthmaniyya-salabi p. 229}. A later mabhath treats his squeeze on the Spanish."
+wings: [people]
+periods: [period/gunpowder-empires]
+regions: [maghreb]
+relations:
+  - { type: child_of, target: person/khayr-al-din-barbarossa, sources: [source/dawlat-uthmaniyya-salabi] }
+  - { type: ruled_over, target: place/algiers, sources: [source/dawlat-uthmaniyya-salabi] }
+sources: [source/dawlat-uthmaniyya-salabi]
+external_ids: { wikidata: "Q1438784" }
+provenance:
+  layer: own-research
+  source: "الدولة العثمانية لعلي محمد الصلابي (ط1 1421) ص 229"
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: salabi-uthmani-batch10
+status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 Medium)" }

@@ -5,19 +5,22 @@ names:
   - { kind: full, lang: ar, value: "حسن آغا الطوشي" }
 gender: male
 roles: [military, ruler]
+died: { edtf: "1544", hijri: "0951", calendar: julian, precision: year, status: tradition, derived: true, sources: [source/dawlat-uthmaniyya-salabi] }
 summary:
-  ar: "الرجل الذي عيّنه خير الدين بربروسة مكانه في الجزائر حين سافر إلى استانبول سنة ٩٤٠هـ/١٥٣٣م؛ يصفه الصلابي بأنه كان عاقلاً صالحاً صاحب علم واسع، وبقي في منصبه نائباً عن خير الدين بعد تعيين الأخير قبودان باشا {cite:dawlat-uthmaniyya-salabi p. 216-217}."
-  en: "The man Khayr al-Din left in charge of Algiers when he sailed to Istanbul in 940/1533 — 'wise, pious, of wide learning' in al-Salabi's words — who remained his deputy after Barbarossa was made Kapudan Pasha {cite:dawlat-uthmaniyya-salabi p. 216-217}."
+  ar: "نائب خير الدين بربروسة على الجزائر؛ يصفه الصلابي بأنه كان عاقلاً صالحاً صاحب علم واسع. انهمك في توطيد الأمن وجمع أطراف البلاد حول السلطة المركزية فأخضع مستغانم واستولى على عاصمة الزاب بكرة وشيد فيها حصناً وأقام حامية. وفي جمادى الأولى ٩٤٩هـ/سبتمبر ١٥٣٩م قاد ألفاً وثلاثمائة على ثلاث عشرة سفينة إلى الساحل الأسباني الجنوبي. وفي ٢٨ جمادى الآخرة ٩٤٨هـ/١٥ أكتوبر ١٥٤١م دافع عن الجزائر ضد حملة شارل الخامس ورد على خطاب التهديد: «أنا خادم السلطان سليمان.. إذا جاء هذه البلاد العدو لا يعطى إلا الموت»، وانتصر بعون العاصفة فأنعم عليه السلطان برتبة الباشوية. توفي سنة ٩٥١هـ/١٥٤٤م {cite:dawlat-uthmaniyya-salabi p. 216-229}."
+  en: "Khayr al-Din Barbarossa's deputy over Algiers — 'wise, pious, of wide learning' in al-Salabi's phrase. He secured Mostaganem and took Biskra, raided the southern Spanish coast in 949/1539 with 1,300 men on thirteen ships, and in October 1541 defended Algiers against Charles V's armada, answering the emperor's threat-letter: 'I am the servant of Sultan Süleyman… this land gives an invader only death.' The storm broke the fleet; the sultan made him pasha. He died in 951/1544 {cite:dawlat-uthmaniyya-salabi p. 216-229}."
 wings: [people]
 periods: [period/gunpowder-empires]
 regions: [maghreb]
 relations:
-  - { type: related_to, target: person/khayr-al-din-barbarossa, sources: [source/dawlat-uthmaniyya-salabi] }
+  - { type: ruled_over, target: place/algiers, sources: [source/dawlat-uthmaniyya-salabi] }
+  - { type: related_to, target: person/khayr-al-din-barbarossa, role: "نائبه في الجزائر", sources: [source/dawlat-uthmaniyya-salabi] }
+  - { type: fought, target: person/charles-v, sources: [source/dawlat-uthmaniyya-salabi] }
 sources: [source/dawlat-uthmaniyya-salabi]
 provenance:
   layer: own-research
-  source: "الدولة العثمانية لعلي محمد الصلابي (ط1 1421) ص 216"
+  source: "الدولة العثمانية لعلي محمد الصلابي (ط1 1421) ص 216-229"
   generated_by: "Devin (SWE-2 Medium)"
   model: "SWE-2 Medium"
-  run: salabi-uthmani-batch9
+  run: salabi-uthmani-batch10
 status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 Medium)" }
