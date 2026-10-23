@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 16:106 (سورة النحل، الآية 106)."
 text: "مَن كَفَرَ بِٱللَّهِ مِنۢ بَعْدِ إِيمَـٰنِهِۦٓ إِلَّا مَنْ أُكْرِهَ وَقَلْبُهُۥ مُطْمَئِنٌّۢ بِٱلْإِيمَـٰنِ وَلَـٰكِن مَّن شَرَحَ بِٱلْكُفْرِ صَدْرًا فَعَلَيْهِمْ غَضَبٌ مِّنَ ٱللَّهِ وَلَهُمْ عَذَابٌ عَظِيمٌ"
 text_search: "من كفر بالله من بعد إيمانه إلا من أكره وقلبه مطمئن بالإيمان ولكن من شرح بالكفر صدرا فعليهم غضب من الله ولهم عذاب عظيم"
+translations:
+  en: { text: "Whoso disbelieveth in Allah after his belief - save him who is forced thereto and whose heart is still content with the Faith - but whoso findeth ease in disbelief: On them is wrath from Allah. Theirs will be an awful doom.", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "جو شخص ایمان لانے کے بعد خدا کے ساتھ کفر کرے وہ نہیں جو (کفر پر زبردستی) مجبور کیا جائے اور اس کا دل ایمان کے ساتھ مطمئن ہو۔ بلکہ وہ جو (دل سے اور) دل کھول کر کفر کرے۔ تو ایسوں پر الله کا غضب ہے۔ اور ان کو بڑا سخت عذاب ہوگا", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-16 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

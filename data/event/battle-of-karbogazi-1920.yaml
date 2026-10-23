@@ -1,0 +1,23 @@
+id: event/battle-of-karbogazi-1920
+class: event
+kind: battle
+label: { ar: "معركة قربوغازي (١٩٢٠)", en: "Battle of Karboğazı (1920)" }
+summary:
+  ar: "بطاقة أولية لمعركة قربوغازي سنة ١٩٢٠م، كمين القوميين الأتراك للفرنسيين في طوروس؛ لم تُراجع مصادره على الصفحة بعد."
+  en: "Draft card for the Battle of Karboğazı in 1920, the Turkish nationalists' ambush of the French in the Taurus; its sources are not yet checked on the page."
+wings: [time]
+periods: [period/modern-era]
+regions: [anatolia-balkans]
+date:
+  start: { edtf: "1920-05", precision: year, status: tradition, derived: true }
+  end: { edtf: "1920-05", precision: year, status: tradition, derived: true }
+sources: [source/dawlat-uthmaniyya-salabi]
+external_ids:
+  wikidata: Q4871389
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; battle attested in narrative histories — entry not yet checked on the page"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-wave2
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

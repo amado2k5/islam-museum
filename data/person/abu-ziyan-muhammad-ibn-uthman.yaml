@@ -1,0 +1,28 @@
+id: person/abu-ziyan-muhammad-ibn-uthman
+class: person
+label:
+  ar: أبو زيان محمد بن عثمان
+  en: Abu Ziyan Muhammad ibn Uthman
+summary:
+  ar: "أبو زيان محمد بن عثمان بن يغمراسن الثالث من ملوك بني عبد الواد؛ قام بالأمر من بعد أبيه إذ هلك بالديماس خامس سنين حصار يوسف بن يعقوب المريني لتلمسان سنة ثلاث وسبعمائة، وأخوه أبو حمو موسى أمّل على الناس أن سلطانهم الأخ الأكبر أبو زيان، فصبرت المدينة حتى تمام ثمانية سنين وثلاثة أشهر نالهم فيها من الجهد والجوع ما لم ينل أمة من الأمم حتى أكلوا الجيف والقطط والفيران وأشلاء الموتى وخربوا السقوف للوقود وبلغ مكيال القمح مثقالين ونصفاً من الذهب والهر بمثقال ونصف، ثم قتل يوسف بن يعقوب على يد خصي من العبدي طعنه بخنجر ففسقوا به ومزقوا أشلاءه، وأذهب الله العناءة عن آل زيان كأنما نشروا من الأجداث وكتبوا في سكتهم ما أقرب فرج الله استغراباً لحادثتها."
+  en: "Abu Ziyan Muhammad ibn Uthman ibn Yaghmurasan, third of the Abd al-Wadid kings; he took the rule when his father died of dysentery in the fifth year of Yusuf ibn Ya'qub's siege of Tlemcen in 703 — his brother Abu Hammu Musa answering the troops that their sultan was the elder brother Abu Ziyan — and the city endured to a full eight years and three months, eating carrion, cats, mice and the dead, tearing roofs for fuel, a measure of wheat at two and a half mithqals of gold and a cat at one and a half, until Yusuf ibn Ya'qub was stabbed by a eunuch slave and torn limb from limb — 'and God lifted the affliction from the house of Ziyan as if they had been raised from the graves', their mint striking 'how near is God's relief' in wonder at it."
+gender: male
+roles: [ruler]
+wings: [people]
+periods: [period/crusades-ayyubid-mamluk]
+regions: [maghreb]
+relations:
+- { type: "ruler_of", target: "polity/zayyanid-tlemcen", note: "ثالث ملوك بني عبد الواد — سلطان الحصار الثماني", sources: [source/tarikh-ibn-khaldun-ibar] }
+- { type: "successor_of", target: "person/uthman-ibn-yaghmurasan", note: "خلف أباه سنة 703هـ وسط الحصار", sources: [source/tarikh-ibn-khaldun-ibar] }
+sources:
+- source/tarikh-ibn-khaldun-ibar
+provenance:
+  layer: own-research
+  source: ابن خلدون، العبر — مهلك عثمان بن يغمراسن وولاية ابنه أبي زيان، ص1857-1858 (طبعة هيليوبوليس)
+  generated_by: Devin (SWE-2 High) from Apple Vision OCR
+  model: swe-2-high
+  run: lib-ibar-maghreb-36
+status:
+  review: draft
+  completeness: 1
+  generated_by: Devin (SWE-2 High); extracted from Ibn Khaldun al-Ibar via Apple Vision OCR

@@ -1,0 +1,19 @@
+id: passage/muwatta-15-1727
+class: passage
+unit: hadith
+work: work/muwatta-malik
+ref: "1727"
+label: { ar: "الموطأ 1727 — هشام بن عروة عن أبيه عن المسور بن مخرمة: نفست سبيعة الأسلمية بعد وفاة زوجها بليال، فقال لها النبي قد حللت فانكحي من شئت", en: "Muwatta 1727" }
+text: "قَدْ حَللْتِ فَانْكِحي مَن شِئْتِ"
+summary:
+  ar: "يروي مالك عن هشام بن عروة عن أبيه عن المسور بن مخرمة أنه أخبره أن سبيعة الأسلمية نفست بعد وفاة زوجها بليال، فقال لها رسول الله قد حللت فانكحي من شئت. {cite:muwatta-maruf-1997 p.105}"
+relations:
+  - { type: part_of, target: passage/muwatta-kitab-15-talaq }
+  - { type: mentions, target: person/hisham-ibn-urwa, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/urwa-ibn-al-zubayr, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/miswar-ibn-makhrama, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/subayah-al-aslamiyya, sources: [source/muwatta-maruf-1997] }
+  - { type: basis_for, target: concept/talaq, sources: [source/muwatta-maruf-1997] }
+provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 2, hadith 1727 at PDF p. 105; عدة المتوفى عنها زوجها إذا كانت حاملا", generated_by: "Claude Code (claude-haiku-5-5) from Apple Vision OCR of the Noor-Book PDF, checked on the page image where doubtful", run: "muwatta-prose-k15-b39" }
+sources: [source/muwatta-maruf-1997]
+status: { review: draft, completeness: 2, generated_by: "Claude Code (claude-haiku-5-5); own-words account written from PDF p. 105; matn excerpt at most 40 words" }

@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 19:38 (سورة مريم، الآية 38)."
 text: "أَسْمِعْ بِهِمْ وَأَبْصِرْ يَوْمَ يَأْتُونَنَا ۖ لَـٰكِنِ ٱلظَّـٰلِمُونَ ٱلْيَوْمَ فِى ضَلَـٰلٍ مُّبِينٍ"
 text_search: "أسمع بهم وأبصر يوم يأتوننا ۖ لكن الظالمون اليوم في ضلال مبين"
+translations:
+  en: { text: "See and hear them on the Day they come unto Us! yet the evil-doers are to-day in error manifest.", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "وہ جس دن ہمارے سامنے آئیں گے۔ کیسے سننے والے اور کیسے دیکھنے والے ہوں گے مگر ظالم آج صریح گمراہی میں ہیں", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-19 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

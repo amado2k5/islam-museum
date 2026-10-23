@@ -1,0 +1,41 @@
+id: person/dhu-l-kifl
+class: person
+label:
+  ar: ذو الكفل
+  en: Dhu'l-Kifl
+  ur: ذوالکفل
+gender: male
+summary:
+  ar: "ذو الكفل، مذكور في القرآن ضمن الصابرين وضمن «الأخيار»؛ عده ابن كثير في المفسرين ضمن الأنبياء {cite:tafsir-ibn-kathir}، وذكر الثعلبي أنه بشر بن أيوب، نبي بعث بعد أبيه إلى أرض الروم، وأنه أقام بالشام حتى مات عن خمس وتسعين سنة {cite:qisas-anbiya-thaalabi-edition}."
+  en: "Dhu'l-Kifl, named in the Qur'an among the patient and among 'the righteous'; Ibn Kathir counts him among the prophets in the commentators' view {cite:tafsir-ibn-kathir}, and al-Tha'labi names him Bishr ibn Ayyub, a prophet sent after his father to the land of the Romans, who dwelt in Syria until he died aged ninety-five {cite:qisas-anbiya-thaalabi-edition}."
+wings: [people]
+themes: [prophets]
+periods: [period/pre-islamic-arabia]
+story_roles:
+- { role: prophet-figure, status: scriptural, sources: [source/tanzil-quran, source/tafsir-ibn-kathir] }
+external_ids: { wikidata: "Q332574" }
+perspectives:
+- tradition: sunni
+  id: classical-tafsir
+  stance:
+    ar: نبي عند الجمهور من المفسرين، وقيل رجل صالح كفل بالقضاء
+    en: A prophet to the majority of commentators; some say a righteous man who undertook judgment
+  summary:
+    ar: "يذكر ابن كثير ذا الكفل في أصحاب الأخيار مع إسماعيل واليسع ويونس ولوط، ويعده المفسرون عنده في الأنبياء {cite:tafsir-ibn-kathir}؛ ويروي الثعلبي عن بعضهم أنه بشر بن أيوب بُعث رسولًا إلى أرض الروم بعد أبيه، وأنه أقام بالشام حتى مات عن خمس وتسعين سنة {cite:qisas-anbiya-thaalabi-edition}."
+    en: "Ibn Kathir lists Dhu'l-Kifl among 'the righteous' with Ismail, al-Yasa', Yunus and Lut, counting him among the prophets in the commentators' reading {cite:tafsir-ibn-kathir}; al-Tha'labi reports some hold him to be Bishr son of Ayyub, sent as messenger to the Romans' land after his father, dwelling in Syria until he died aged ninety-five {cite:qisas-anbiya-thaalabi-edition}."
+  sources: [source/tafsir-ibn-kathir, source/qisas-anbiya-thaalabi-edition]
+- tradition: academic
+  id: contested-identity
+  stance:
+    en: Identity unestablished; variously identified with Ezekiel or other biblical figures
+  summary:
+    en: "The Encyclopaedia of Islam notes Dhu'l-Kifl's identity is not established {cite:vajda-ei2-dhulkifl}; John Walker argued for an identification with Ezekiel in The Muslim World {cite:walker-dhulkifl-mw-1926}, and other theories linking him to different biblical figures circulate."
+  sources: [source/vajda-ei2-dhulkifl, source/walker-dhulkifl-mw-1926]
+sensitivity: contested
+sources: [source/tafsir-ibn-kathir, source/qisas-anbiya-thaalabi-edition, source/vajda-ei2-dhulkifl, source/walker-dhulkifl-mw-1926]
+provenance:
+  layer: own-research
+  source: "wikidata-import deferred Q332574; Ibn Kathir tafsir of 38:48 and Tha'labi qisas passages verified in Apple Vision OCR"
+  generated_by: "Devin (SWE-2 Medium) from Apple Vision OCR + Wikipedia bibliography harvest"
+  run: wd-deferred-1
+status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 Medium)" }

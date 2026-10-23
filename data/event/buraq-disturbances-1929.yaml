@@ -1,0 +1,25 @@
+id: event/buraq-disturbances-1929
+class: event
+kind: other
+label:
+  ar: اضطرابات حائط البراق (1929)
+  en: Buraq Wall disturbances (1929)
+summary:
+  ar: "اضطرابات في فلسطين في آب 1929م حول حائط البراق، عُرفت عند العرب بثورة البراق، فعيّنت حكومة الانتداب لجنة تحقيق، ثم طلبت الحكومة البريطانية من عصبة الأمم تشكيل لجنة دولية {cite:al-quds-bayn-al-yahudiyya-wal-islam-azhar p. 65}{cite:al-quds-bayn-al-yahudiyya-wal-islam-azhar p. 67}."
+  en: "Disturbances in Palestine in August 1929 over the Buraq Wall, known in Arab usage as the Buraq revolt; the Mandate government set up an inquiry, and the British government then asked the League of Nations for an international commission. Source: Imara's book, one source only."
+wings: [time]
+periods: [period/prophetic-era]
+regions: [levant-iraq]
+date:
+  start: { edtf: "1929-08", calendar: gregorian, precision: month, status: historical, note: "needs_source: شهر آب 1929م كما يذكره تقرير اللجنة (PDF 67)؛ يحتاج مصدراً ثانياً." }
+relations:
+  - { type: occurred_at, target: place/jerusalem }
+  - { type: caused, target: event/western-wall-commission-1930 }
+sources: [source/al-quds-bayn-al-yahudiyya-wal-islam-azhar]
+provenance:
+  layer: own-research
+  source: "Imara, al-Quds bayn al-Yahudiyya wal-Islam (Academy, 2018), PDF pp. 65, 67; the 1930 report's own opening"
+  generated_by: "Claude (Haiku 5.5), Claude desktop app"
+  model: claude-haiku-5-5
+  run: azhar-al-quds-bayn-al-yahudiyya
+status: { review: draft, completeness: 1, generated_by: "Claude (Haiku 5.5); needs a second source for the date and for the revolt's name" }

@@ -1,0 +1,23 @@
+id: event/attack-on-bintan
+class: event
+kind: raid
+label: { ar: "غارة بنتان", en: "Attack on Bintan" }
+summary:
+  ar: "بطاقة أولية لغارة بنتان؛ لم تُراجع مصادره على الصفحة بعد."
+  en: "Draft card for Attack on Bintan; its sources are not yet checked on the page."
+wings: [time]
+periods: [period/gunpowder-empires]
+regions: [southeast-asia]
+date:
+  start: { edtf: "1521", precision: year, status: tradition, derived: true }
+  end: { edtf: "1521", precision: year, status: tradition, derived: true }
+sources: [source/tarikh-islam-hasan-ibrahim]
+external_ids:
+  wikidata: Q118900813
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; battle attested in narrative histories — entry not yet checked on the page"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-wave2
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

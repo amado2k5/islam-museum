@@ -1,0 +1,22 @@
+id: person/abu-al-shabl
+class: person
+label:
+  ar: "أبو الشبل"
+  en: "Abu al-Shabl"
+  ur: "ابو الشبل"
+names:
+  - { kind: full, lang: ar, value: "أبو الشبل" }
+gender: male
+roles: [poet]
+traditions: [sunni]
+summary:
+  ar: "شاعر ظريف، له نادرة مع خالد بن يزيد بن حبيرة وجاريته لهب، وأخرى مع أم خالد. {cite:nihayat-al-arab-nuwayri-vol4-scan p. 62}"
+  en: "A witty poet with anecdotes about Khalid ibn Yazid ibn Hubayra and his singing slave-girl, and another about Khalid's mother. {cite:nihayat-al-arab-nuwayri-vol4-scan p. 62}"
+  ur: "ایک ظریف شاعر؛ خالد بن یزید بن حبیرہ اور ان کی گانے والی لونڈی کے ساتھ ان کا ایک واقعہ مشہور ہے۔ {cite:nihayat-al-arab-nuwayri-vol4-scan p. 62}"
+wings: [people]
+themes: [literature]
+story_roles:
+  - { role: poet, status: tradition, sources: [source/nihayat-al-arab-nuwayri-vol4-scan] }
+sources: [source/nihayat-al-arab-nuwayri-vol4-scan]
+status: { review: draft, completeness: 1, generated_by: "Claude Haiku 5.5 (Nihayat vol. 4 humour chapter, pages 62, from helper claims file; not yet image-checked)" }
+provenance: { layer: pd, source: "archive.org nefa04 (Nihayat al-Arab vol. 4), pages 62", generated_by: "Claude Haiku 5.5", model: "claude-haiku-5-5", run: "lib-nihayat-batch-06" }

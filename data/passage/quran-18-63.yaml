@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 18:63 (سورة الكهف، الآية 63)."
 text: "قَالَ أَرَءَيْتَ إِذْ أَوَيْنَآ إِلَى ٱلصَّخْرَةِ فَإِنِّى نَسِيتُ ٱلْحُوتَ وَمَآ أَنسَىٰنِيهُ إِلَّا ٱلشَّيْطَـٰنُ أَنْ أَذْكُرَهُۥ ۚ وَٱتَّخَذَ سَبِيلَهُۥ فِى ٱلْبَحْرِ عَجَبًا"
 text_search: "قال أرأيت إذ أوينا إلى الصخرة فإني نسيت الحوت وما أنسانيه إلا الشيطان أن أذكره ۚ واتخذ سبيله في البحر عجبا"
+translations:
+  en: { text: "He said: Didst thou see, when we took refuge on the rock, and I forgot the fish - and none but Satan caused me to forget to mention it - it took its way into the waters by a marvel.", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "(اس نے) کہا کہ بھلا آپ نے دیکھا کہ جب ہم نے پتھر کے ساتھ آرام کیا تھا تو میں مچھلی (وہیں) بھول گیا۔ اور مجھے (آپ سے) اس کا ذکر کرنا شیطان نے بھلا دیا۔ اور اس نے عجب طرح سے دریا میں اپنا رستہ لیا", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-18 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

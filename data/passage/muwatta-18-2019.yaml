@@ -1,0 +1,15 @@
+id: passage/muwatta-18-2019
+class: passage
+unit: hadith
+work: work/muwatta-malik
+ref: "2019"
+label: { ar: "الموطأ 2019 — مالك: لا يجوز للذي يأخذ المال قراضا أن يشترط أن يعمل فيه سنين لا ينزع منه، ولا يصلح لصاحب المال أن يشترط أنك لا ترده إلي سنين لأجل يسمياه، لأن القراض لا يكون إلى أجل", en: "Muwatta 2019" }
+summary:
+  ar: "قال مالك: لا يجوز للذي يأخذ المال قراضا أن يشترط أن يعمل فيه سنين لا ينزع منه. قال: ولا يصلح لصاحب المال أن يشترط أنك لا ترده إلي سنين، لأجل يسمياه؛ لأن القراض لا يكون إلى أجل. ولكن يدفع رب المال ماله إلى الذي يعمل له فيه، فإن بدا لأحدهما أن يترك ذلك، والمال ناض لم يشتر به شيئا، تركه، وأخذ صاحب المال ماله. وإن بدا لرب المال أن يقبضه بعد أن يشتري به سلعة، فليس ذلك له، حتى يباع المتاع ويصير عينا. فإن بدا للعامل أن يرده، وهو عرض، لم يكن ذلك له، حتى يبيعه، فيرده عينا كما أخذه. {cite:muwatta-maruf-1997 p.225} {cite:muwatta-maruf-1997 p.226}"
+relations:
+  - { type: part_of, target: passage/muwatta-kitab-18-qiraad }
+  - { type: mentions, target: person/malik-ibn-anas, sources: [source/muwatta-maruf-1997] }
+  - { type: basis_for, target: concept/qiradh, sources: [source/muwatta-maruf-1997] }
+provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 2, hadith 2019 at PDF p. 225; ما لا يجوز من الشرط في القراض", generated_by: "Claude Code (claude-haiku-5-5) from Apple Vision OCR of the Noor-Book PDF, checked on the page image where doubtful", run: "muwatta-prose-k18-b55" }
+sources: [source/muwatta-maruf-1997]
+status: { review: draft, completeness: 2, generated_by: "Claude Code (claude-haiku-5-5); own-words account written from PDF p. 225; matn excerpt at most 40 words" }

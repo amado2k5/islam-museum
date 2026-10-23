@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 17:18 (سورة الإسراء، الآية 18)."
 text: "مَّن كَانَ يُرِيدُ ٱلْعَاجِلَةَ عَجَّلْنَا لَهُۥ فِيهَا مَا نَشَآءُ لِمَن نُّرِيدُ ثُمَّ جَعَلْنَا لَهُۥ جَهَنَّمَ يَصْلَىٰهَا مَذْمُومًا مَّدْحُورًا"
 text_search: "من كان يريد العاجلة عجلنا له فيها ما نشاء لمن نريد ثم جعلنا له جهنم يصلاها مذموما مدحورا"
+translations:
+  en: { text: "Whoso desireth that (life) which hasteneth away, We hasten for him therein what We will for whom We please. And afterward We have appointed for him hell; he will endure the heat thereof, condemned, rejected.", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "جو شخص دنیا (کی آسودگی) کا خواہشمند ہو تو ہم اس میں سے جسے چاہتے ہیں اور جتنا چاہتے ہیں جلد دے دیتے ہیں۔ پھر اس کے لئے جہنم کو (ٹھکانا) مقرر کر رکھا ہے۔ جس میں وہ نفرین سن کر اور (درگاہ خدا سے) راندہ ہو کر داخل ہوگا", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-17 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

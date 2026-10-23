@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 56:61 (سورة الواقعة، الآية 61)."
 text: "عَلَىٰٓ أَن نُّبَدِّلَ أَمْثَـٰلَكُمْ وَنُنشِئَكُمْ فِى مَا لَا تَعْلَمُونَ"
 text_search: "على أن نبدل أمثالكم وننشئكم في ما لا تعلمون"
+translations:
+  en: { text: "That We may transfigure you and make you what ye know not.", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "کہ تمہاری طرح کے اور لوگ تمہاری جگہ لے آئیں اور تم کو ایسے جہان میں جس کو تم نہیں جانتے پیدا کر دیں", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-56 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

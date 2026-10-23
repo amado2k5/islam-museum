@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 47:15 (سورة محمد، الآية 15)."
 text: "مَّثَلُ ٱلْجَنَّةِ ٱلَّتِى وُعِدَ ٱلْمُتَّقُونَ ۖ فِيهَآ أَنْهَـٰرٌ مِّن مَّآءٍ غَيْرِ ءَاسِنٍ وَأَنْهَـٰرٌ مِّن لَّبَنٍ لَّمْ يَتَغَيَّرْ طَعْمُهُۥ وَأَنْهَـٰرٌ مِّنْ خَمْرٍ لَّذَّةٍ لِّلشَّـٰرِبِينَ وَأَنْهَـٰرٌ مِّنْ عَسَلٍ مُّصَفًّى ۖ وَلَهُمْ فِيهَا مِن كُلِّ ٱلثَّمَرَٰتِ وَمَغْفِرَةٌ مِّن رَّبِّهِمْ ۖ كَمَنْ هُوَ خَـٰلِدٌ فِى ٱلنَّارِ وَسُقُوا۟ مَآءً حَمِيمًا فَقَطَّعَ أَمْعَآءَهُمْ"
 text_search: "مثل الجنة التي وعد المتقون ۖ فيها أنهار من ماء غير آسن وأنهار من لبن لم يتغير طعمه وأنهار من خمر لذة للشاربين وأنهار من عسل مصفى ۖ ولهم فيها من كل الثمرات ومغفرة من ربهم ۖ كمن هو خالد في النار وسقوا ماء حميما فقطع أمعاءهم"
+translations:
+  en: { text: "A similitude of the Garden which those who keep their duty (to Allah) are promised: Therein are rivers of water unpolluted, and rivers of milk whereof the flavour changeth not, and rivers of wine delicious to the drinkers, and rivers of clear-run honey; therein for them is every kind of fruit, with pardon from their Lord. (Are those who enjoy all this) like those who are immortal in the Fire and are given boiling water to drink so that it teareth their bowels?", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "جنت جس کا پرہیزگاروں سے وعدہ کیا جاتا ہے۔ اس کی صفت یہ ہے کہ اس میں پانی کی نہریں ہیں جو بو نہیں کرے گا۔ اور دودھ کی نہریں ہیں جس کا مزہ نہیں بدلے گا۔ اور شراب کی نہریں ہیں جو پینے والوں کے لئے (سراسر) لذت ہے۔ اور شہد مصفا کی نہریں ہیں (جو حلاوت ہی حلاوت ہے) اور (وہاں) ان کے لئے ہر قسم کے میوے ہیں اور ان کے پروردگار کی طرف سے مغفرت ہے۔ (کیا یہ پرہیزگار) ان کی طرح (ہوسکتے) ہیں جو ہمیشہ دوزخ میں رہیں گے اور جن کو کھولتا ہوا پانی پلایا جائے گا تو ان کی انتڑیوں کو کاٹ ڈالے گا", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-47 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

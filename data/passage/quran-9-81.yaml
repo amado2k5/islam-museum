@@ -12,10 +12,13 @@ summary:
   ar: "القرآن 9:81 (سورة التوبة، الآية 81)."
 text: "فَرِحَ ٱلْمُخَلَّفُونَ بِمَقْعَدِهِمْ خِلَـٰفَ رَسُولِ ٱللَّهِ وَكَرِهُوٓا۟ أَن يُجَـٰهِدُوا۟ بِأَمْوَٰلِهِمْ وَأَنفُسِهِمْ فِى سَبِيلِ ٱللَّهِ وَقَالُوا۟ لَا تَنفِرُوا۟ فِى ٱلْحَرِّ ۗ قُلْ نَارُ جَهَنَّمَ أَشَدُّ حَرًّا ۚ لَّوْ كَانُوا۟ يَفْقَهُونَ"
 text_search: "فرح المخلفون بمقعدهم خلاف رسول الله وكرهوا أن يجاهدوا بأموالهم وأنفسهم في سبيل الله وقالوا لا تنفروا في الحر ۗ قل نار جهنم أشد حرا ۚ لو كانوا يفقهون"
+translations:
+  en: { text: "Those who were left behind rejoiced at sitting still behind the messenger of Allah, and were averse to striving with their wealth and their lives in Allah's way. And they said: Go not forth in the heat! Say: The fire of hell is more intense of heat, if they but understood.", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "جو لوگ (غزوہٴ تبوک میں) پیچھے رہ گئے وہ پیغمبر خدا (کی مرضی) کے خلاف بیٹھے رہنے سے خوش ہوئے اور اس بات کو ناپسند کیا کہ خدا کی راہ میں اپنے مال اور جان سے جہاد کریں۔ اور (اوروں سے بھی) کہنے لگے کہ گرمی میں مت نکلنا۔ (ان سے) کہہ دو کہ دوزخ کی آگ اس سے کہیں زیادہ گرم ہے۔ کاش یہ (اس بات) کو سمجھتے", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: revealed_about, target: event/hypocrites-discourage-marching-in-the-heat, note: "نزلت فيمن قالوا لا تنفروا في الحر بحسب ابن إسحاق (ص160)", sources: [source/ibn-hisham-saqqa] }
   - { type: part_of, target: passage/quran-9 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

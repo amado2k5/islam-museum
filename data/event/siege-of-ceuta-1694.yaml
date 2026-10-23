@@ -1,0 +1,23 @@
+id: event/siege-of-ceuta-1694
+class: event
+kind: siege
+label: { ar: "حصار سبتة", en: "Siege of Ceuta" }
+summary:
+  ar: "بطاقة أولية لحصار سبتة؛ لم تُراجع مصادره على الصفحة بعد."
+  en: "Draft card for Siege of Ceuta; its sources are not yet checked on the page."
+wings: [time]
+periods: [period/gunpowder-empires]
+regions: [maghreb]
+date:
+  start: { edtf: "1694", precision: year, status: tradition, derived: true }
+  end: { edtf: "1720", precision: year, status: tradition, derived: true }
+sources: [source/tarikh-islam-hasan-ibrahim]
+external_ids:
+  wikidata: Q78358507
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; event attested in narrative histories — entry not yet checked on the page"
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: wikidata-import-wave2
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 Medium)" }

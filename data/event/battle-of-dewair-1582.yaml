@@ -1,0 +1,23 @@
+id: event/battle-of-dewair-1582
+class: event
+kind: battle
+label: { ar: "معركة ديوير (١٥٨٢)", en: "Battle of Dewair (1582)" }
+summary:
+  ar: "بطاقة أولية لمعركة ديوير سنة ١٥٨٢م، من حرب أكبر وميوار؛ لم تُراجع مصادره على الصفحة بعد."
+  en: "Draft card for the Battle of Dewair in 1582, of Akbar's war with Mewar; its sources are not yet checked on the page."
+wings: [time]
+periods: [period/gunpowder-empires]
+regions: [south-asia]
+date:
+  start: { edtf: "1582", precision: year, status: tradition, derived: true }
+  end: { edtf: "1582", precision: year, status: tradition, derived: true }
+sources: [source/tarikh-islam-hasan-ibrahim]
+external_ids:
+  wikidata: Q97602657
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; battle attested in narrative histories — entry not yet checked on the page"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-wave2
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

@@ -1,0 +1,25 @@
+id: event/baybars-cilicia-673
+class: event
+kind: battle
+label: { ar: "غزو بيبرس بلاد سيس سنة 673هـ", en: "Baybars raids Cilicia, 673" }
+summary:
+  ar: "في رمضان سنة ثلاث وسبعين غزا السلطان الظاهر بلاد سيس: المصيصة وأذنة وإياس، ورجع الجيش بسبي عظيم وغنائم لا تحصى {cite:shadharat-dhahab p. 594}."
+  en: "Ramadan 673 — al-Zahir raided the Cilician lands: Masisa, Adana and Ayas; the army came home with great captives and booty beyond count {cite:shadharat-dhahab p. 594}."
+wings: [time]
+periods: [period/mongol-post-mongol]
+regions: [anatolia-balkans]
+sides:
+  - label: { ar: "المسلمون — جيش الملك الظاهر بيبرس" }
+  - label: { ar: "بلاد سيس — مملكة أرمينية" }
+map: { kind: locator, precision: locality, center: [36.9177, 35.6543] }
+date: { start: { edtf: "1275-03~", hijri: "0673-09", calendar: julian, precision: month, status: tradition, derived: true, note: "رمضان سنة ثلاث وسبعين وستمائة {cite:shadharat-dhahab p. 594}", sources: [source/shadharat-dhahab] } }
+relations:
+  - { type: had_participant, target: person/baybars, role: "الغازي", sources: [source/shadharat-dhahab] }
+  - { type: occurred_at, target: place/masisa, sources: [source/shadharat-dhahab] }
+provenance:
+  layer: own-research
+  source: "شذرات الذهب — ابن العماد (ج7، سنة 673)، قراءة آبل فيجن"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-shadharat-batch-132
+sources: [source/shadharat-dhahab]
+status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 High)" }

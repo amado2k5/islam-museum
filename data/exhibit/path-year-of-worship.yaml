@@ -1,0 +1,100 @@
+id: exhibit/path-year-of-worship
+class: exhibit
+kind: trail
+label:
+  ar: سنة العبادة
+  en: A Year of Worship
+summary:
+  ar: 'مسار في عبادات المسلم عبر سنته: الصلوات الخمس، والجمعة، ورمضان وقيامه وليلته، والعيدان، والحج والعمرة.'
+  en: 'A trail through the Muslim''s year of worship: the five prayers, Friday, Ramadan, the two eids,
+    hajj and umrah.'
+audience:
+- newcomer
+- student
+duration_minutes: 30
+wings: []
+regions:
+- arabia
+rooms:
+- title:
+    ar: الصلوات الخمس
+    en: The five prayers
+  body:
+    ar: 'عماد الدين: خمس صلوات في اليوم والليلة.'
+    en: 'The pillar: five prayers across day and night.'
+  features:
+  - practice/salah
+  - practice/wudu
+  - practice/adhan
+- title:
+    ar: الجمعة
+    en: Friday
+  body:
+    ar: خطبة وصلاة جامعة كل أسبوع.
+    en: Sermon and congregational prayer each week.
+  features:
+  - practice/salat-al-jumua
+  - practice/khutba
+- title:
+    ar: رمضان
+    en: Ramadan
+  body:
+    ar: شهر الصوم والقرآن والقيام.
+    en: The month of fasting, Qur'an and night prayer.
+  features:
+  - practice/sawm-ramadan
+  - practice/suhur
+  - practice/taraweeh
+  - practice/qiyam-al-layl
+- title:
+    ar: ليلة القدر
+    en: Laylat al-Qadr
+  body:
+    ar: ليلة خير من ألف شهر في العشر الأواخر.
+    en: A night better than a thousand months.
+  features:
+  - practice/laylat-al-qadr
+  - practice/itikaf
+- title:
+    ar: العيدان
+    en: The two eids
+  body:
+    ar: 'عيد الفطر وعيد الأضحى: صلاة وصدقة وفرح.'
+    en: 'Fitr and Adha: prayer, alms and joy.'
+  features:
+  - practice/eid-al-fitr
+  - practice/eid-al-adha
+  - practice/zakat-al-fitr
+- title:
+    ar: الحج
+    en: Hajj
+  body:
+    ar: ركن الإسلام الخامس لمن استطاع إليه سبيلاً.
+    en: The fifth pillar for whoever can make the way.
+  features:
+  - practice/hajj
+  - practice/tawaf
+  - practice/sai
+  - practice/udhiyya
+- title:
+    ar: العمرة
+    en: Umrah
+  body:
+    ar: الحج الأصغر في كل وقت.
+    en: The lesser pilgrimage at any time.
+  features:
+  - practice/umrah
+prerequisites:
+- exhibit/path-islam-in-30-minutes
+sources:
+- source/wikidata
+provenance:
+  layer: own-research
+  source: Devin-assembled trail from existing museum entities
+  generated_by: Devin (SWE-2 High)
+  model: SWE-2 High
+  run: pathways-batch-1
+status:
+  review: draft
+  completeness: 1
+  generated_by: Devin (SWE-2 High), pathways lane, 2026-10-16

@@ -1,0 +1,23 @@
+id: event/first-battle-of-mount-pamaton
+class: event
+kind: battle
+label: { ar: "معركة جبل باماتون الأولى", en: "First Battle of Mount Pamaton" }
+summary:
+  ar: "بطاقة أولية لمعركة جبل باماتون الأولى؛ لم تُراجع مصادره على الصفحة بعد."
+  en: "Draft card for First Battle of Mount Pamaton; its sources are not yet checked on the page."
+wings: [time]
+periods: [period/colonial-era]
+regions: [southeast-asia]
+date:
+  start: { edtf: "1861", precision: year, status: tradition, derived: true }
+  end: { edtf: "1861", precision: year, status: tradition, derived: true }
+sources: [source/tarikh-islam-hasan-ibrahim]
+external_ids:
+  wikidata: Q131696429
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; battle attested in narrative histories — entry not yet checked on the page"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-wave2
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 69:47 (سورة الحاقة، الآية 47)."
 text: "فَمَا مِنكُم مِّنْ أَحَدٍ عَنْهُ حَـٰجِزِينَ"
 text_search: "فما منكم من أحد عنه حاجزين"
+translations:
+  en: { text: "And not one of you could have held Us off from him.", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "پھر تم میں سے کوئی (ہمیں) اس سے روکنے والا نہ ہوتا", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-69 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

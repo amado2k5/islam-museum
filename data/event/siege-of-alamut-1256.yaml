@@ -1,0 +1,23 @@
+id: event/siege-of-alamut-1256
+class: event
+kind: siege
+label: { ar: "حصار ألموت (١٢٥٦)", en: "Siege of Alamut" }
+summary:
+  ar: "بطاقة أولية لحصار ألموت سنة ١٢٥٦م، استسلام ركن الدين خورشاه لهولاكو وسقوط قلعة الإسماعيليين؛ لم تُراجع مصادره على الصفحة بعد."
+  en: "Draft card for the Siege of Alamut in 1256, Rukn al-Din Khurshah's surrender to Hulagu and the Ismaili citadel's fall; its sources are not yet checked on the page."
+wings: [time]
+periods: [period/crusades-ayyubid-mamluk]
+regions: [persia-central-asia]
+date:
+  start: { edtf: "1256-12", precision: year, status: tradition, derived: true }
+  end: { edtf: "1256-12", precision: year, status: tradition, derived: true }
+sources: [source/kamil-ibn-al-athir]
+external_ids:
+  wikidata: Q17586779
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; battle attested in narrative histories — entry not yet checked on the page"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-wave2
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

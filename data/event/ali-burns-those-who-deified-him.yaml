@@ -1,0 +1,39 @@
+id: event/ali-burns-those-who-deified-him
+class: event
+kind: other
+label: { ar: "إحراق علي من غلوا فيه وادعوا إلهيته بالكوفة", en: "Ali burns people in Kufa who claimed he was God" }
+summary:
+  ar: "قيل لعلي إن قوماً على باب المسجد يدعون أنه ربهم، فدعاهم وقال: «إنما أنا عبد مثلكم»، فأبَوا، ثم أمهلهم ثلاثة أيام، فلما أصروا أوقد ناراً وأحرقهم. ينقل الصلابي هذا الخبر عن ابن شريك العامري وعن البخاري من حديث عكرمة، وفيه اعتراض ابن عباس بالنهي عن التعذيب بعذاب الله، ويذكر قول ابن تيمية بأن علياً حرق غالبية الرافضة الذين اعتقدوا فيه الإلهية {cite:sallabi-ali-vol1 p. 243-244}."
+  en: "Ali was told that people at the mosque door called him their lord; he said he was only a servant like them, gave them three days, and when they persisted he lit a fire and burned them. Al-Sallabi cites the report via al-Bukhari, Ibn Abbas's objection that the Prophet forbade punishment by fire, and Ibn Taymiyya's statement that Ali burned most of those who believed in his divinity."
+wings: [people, ideas]
+periods: [period/rashidun]
+regions: [levant-iraq]
+date:
+  start: { edtf: "0656/0661", calendar: julian, precision: year, status: tradition, derived: true, note: "الكتاب لا يؤرخ هذه الواقعة ولا يذكر مكانها بدقة سوى المسجد في الكوفة؛ الإطار مشتق؛ ثقة منخفضة." }
+relations:
+  - { type: had_participant, target: person/ali-ibn-abi-talib, role: "الحاكم الذي أمر بالإحراق", sources: [source/sallabi-ali-vol1] }
+  - { type: had_participant, target: person/abdullah-ibn-abbas, role: "اعترض على الإحراق بالنهي عن التعذيب بعذاب الله", sources: [source/sallabi-ali-vol1] }
+  - { type: occurred_at, target: place/kufa }
+sources: [source/sallabi-ali-vol1]
+issue: { ar: "إحراق الغلاة: هل تُحرق الجماعة التي تدعي إلهية علي، وما حكم التحريق في الخلاف بين الصحابة؟", en: "Whether the group that claimed Ali's divinity may be burned, and the Companions' disagreement on burning" }
+perspectives:
+  - tradition: sunni
+    id: sunni-book
+    summary:
+      ar: "يورد الصلابي رواية إحراق الغلاة عن علي كما نقلها البخاري عن عكرمة، ويعرض فيها اعتراض ابن عباس بحديث النهي عن تعذيب بعذاب الله وحديث قتل من بدّل دينه، ويعرض قول ابن حجر الذي يرى أن «ويح» قد تكون كلمة رحمة أو تعجب، وقول ابن تيمية بأن علياً حرق غالبية الرافضة الذين اعتقدوا فيه الإلهية، ثم يعرض أقوال السلف في التحريق عامة: كرهه عمر وابن عباس، وأجازه علي وخالد بن الوليد، وفعل أبي بكر في اللوطية وفي أهل الردة بحسب ما نقله ابن القيم {cite:sallabi-ali-vol1 p. 244-245}. والكتاب ينقل هذه الأقوال ولا يحكم بينها صراحة في هذا الموضع."
+      en: "Al-Sallabi gives the report of Ali burning the extremists via al-Bukhari, Ibn Abbas's objection, Ibn Hajar's reading of the phrase 'woe to him', Ibn Taymiyya's statement that Ali burned most of those who believed in his divinity, and the earlier scholars' disagreement on burning: Umar and Ibn Abbas disliked it, while Ali and Khalid ibn al-Walid allowed it. The book reports these views without delivering a verdict in this passage {cite:sallabi-ali-vol1 p. 244-245}."
+    sources: [source/sallabi-ali-vol1]
+  - tradition: academic
+    id: academic
+    summary:
+      ar: "لم يُعرض في هذا الجزء من الكتاب رأي تاريخي أكاديمي في صحة هذه الرواية ولا في حقيقة الجماعة التي وصفها الخبر؛ يحتاج إلى مرجع محدد (needs_source)."
+      en: "No academic reading is set out in this section on the reliability of this report or the identity of the group it describes; to be added from a named source (needs_source)."
+    sources: []
+  - tradition: other
+    id: other-view
+    summary:
+      ar: "الكتاب ينقل عن جماعة من السلف أنهم كرهوا التحريق مطلقاً، وهذا رأي معتبر عندهم، ولم يقدم الكتاب في هذا الموضع مرجعاً غيره يصوغ رأياً مستقلاً عن الاعتراض ويقابل ما قرره الصلابي (needs_source)."
+      en: "The book reports the earlier scholars who disliked burning in any case; no separate non-Sunni or alternative historical view is set out here, and one needs to be sourced (needs_source)."
+    sources: [source/sallabi-ali-vol1]
+provenance: { layer: own-research, source: "sallabi-ali-vol1 pp. 243-245", generated_by: "Claude Code", model: "claude-haiku-5-5", run: "sallabi-ali-vol1-deep-pp201-250" }
+status: { review: draft, completeness: 1, generated_by: "Claude Code (claude-haiku-5-5); mined from sallabi-ali-vol1 pp. 243-245" }

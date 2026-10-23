@@ -1,0 +1,16 @@
+id: person/farrukhbandadh
+class: person
+label: { ar: "فرخبنذاذ" }
+summary:
+  ar: "عند البلاذري: أمير خيل الأعاجم التي لقيت بشير بن سعد الأنصاري على بانقيا فرشق أصحابه بالسهام فحمل عليهم بشير فهزمهم وقتله — ويقال لقيه خالد بنفسه."
+  en: "In al-Baladhuri: commander of the Persian cavalry that met Bashir ibn Sa'd al-Ansari at Baniqya; he shot Bashir's men with arrows, Bashir charged and routed them and killed him — though it is said Khalid himself met him."
+gender: male
+relations:
+  - { type: participated_in, target: event/baniqya-sulh, role: "أمير الخيل المقتول", sources: [source/futuh-buldan-maarif-1407] }
+provenance:
+  layer: own-research
+  source: "فتوح البلدان (ط مؤسسة المعارف 1407هـ/1987م) ص 342"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-futuh-buldan-batch-27
+sources: [source/futuh-buldan-maarif-1407]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

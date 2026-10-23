@@ -1,0 +1,23 @@
+id: event/jaffar-al-sadiq-house-400
+class: event
+kind: other
+label: { ar: "فتح دار جعفر الصادق بالمدينة ونقل آثاره إلى مصر", en: "The opening of Ja'far al-Sadiq's house in Medina and the removal of its relics to Egypt" }
+summary:
+  ar: "في سنة أربعمائة أنفذ الحاكم صاحب مصر رجلاً ومعه رسوم الحسنيين والحسينيين وزادهم فيها، وأمره بفتح دار جعفر بن محمد الصادق بالمدينة بعد استئذانهم، ولم يتعرض لتلك الدار أحد منذ وفاة جعفر، فحُمل منها مصحفه وقعب من خشب مطوّق بحديد ودرقة خيزران وحربة وسرير إلى مصر، فرد الحاكم عليهم السرير وأخذ الباقي مدعياً أنه أحق به {cite:muntazam-ibn-al-jawzi j.7 p.246-247}."
+  en: "In the year 400, al-Hakim, ruler of Egypt, sent a man with the stipends (rusum) of the Hasanids and Husaynids and added to them, ordering him to open the house of Ja'far ibn Muhammad al-Sadiq in Medina after seeking their permission. No one had touched that house since Ja'far's death. From it were carried to Egypt his copy of the Qur'an, a wooden bowl bound with iron, a bamboo shield, a spear and a bed. Al-Hakim returned the bed to them and took the rest, claiming a better right to it {cite:muntazam-ibn-al-jawzi j.7 p.246-247}."
+wings: [time]
+periods: [period/buyid-seljuk-fatimid-era]
+regions: [arabia, egypt-nile]
+date:
+  start: { edtf: "1009~", hijri: "0400", calendar: julian, precision: year, status: tradition, derived: true, note: "أحداث سنة 400هـ؛ التحويل مشتق {cite:muntazam-ibn-al-jawzi j.7 p.246}" }
+relations:
+  - { type: located_in, target: place/medina, sources: [source/muntazam-ibn-al-jawzi] }
+  - { type: had_participant, target: person/al-hakim-bi-amr-allah, role: "الآمر بفتح الدار واستجلاب الآثار", sources: [source/muntazam-ibn-al-jawzi] }
+  - { type: had_participant, target: person/jafar-al-sadiq, role: "صاحب الدار والمقتنيات المفتوحة", sources: [source/muntazam-ibn-al-jawzi] }
+provenance:
+  layer: own-research
+  source: "المنتظم في تاريخ الملوك والأمم — ابن الجوزي (ج7، أحداث سنة 400)، قراءة آبل فيجن"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-muntazam-batch-22
+sources: [source/muntazam-ibn-al-jawzi]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

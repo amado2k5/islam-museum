@@ -1,0 +1,23 @@
+id: event/siege-of-johor-1587
+class: event
+kind: siege
+label: { ar: "حصار جوهر (١٥٨٧)", en: "Siege of Johor" }
+summary:
+  ar: "بطاقة أولية لحصار جوهر سنة ١٥٨٧م، رد البرتغاليين هجوم السلطنة على ملقا؛ لم تُراجع مصادره على الصفحة بعد."
+  en: "Draft card for the Siege of Johor in 1587, the Portuguese counter-attack on the sultanate after Malacca; its sources are not yet checked on the page."
+wings: [time]
+periods: [period/gunpowder-empires]
+regions: [southeast-asia]
+date:
+  start: { edtf: "1587-07-01", precision: year, status: tradition, derived: true }
+  end: { edtf: "1587-08-01", precision: year, status: tradition, derived: true }
+sources: [source/tarikh-islam-hasan-ibrahim]
+external_ids:
+  wikidata: Q55633157
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; battle attested in narrative histories — entry not yet checked on the page"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-wave2
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

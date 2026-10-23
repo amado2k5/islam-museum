@@ -1,0 +1,23 @@
+id: event/battle-of-dervenakia-1822
+class: event
+kind: battle
+label: { ar: "معركة درفيناكيا", en: "Battle of Dervenakia" }
+summary:
+  ar: "بطاقة أولية لمعركة درفيناكيا سنة ١٨٢٢م، إبادة الإغريق لجيش درام علي باشا في الثورة؛ لم تُراجع مصادره على الصفحة بعد."
+  en: "Draft card for the Battle of Dervenakia in 1822, the Greek destruction of Dramali Pasha's army in the revolution; its sources are not yet checked on the page."
+wings: [time]
+periods: [period/colonial-era]
+regions: [anatolia-balkans]
+date:
+  start: { edtf: "1822", precision: year, status: tradition, derived: true }
+  end: { edtf: "1822", precision: year, status: tradition, derived: true }
+sources: [source/dawlat-uthmaniyya-salabi]
+external_ids:
+  wikidata: Q82698
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; battle attested in narrative histories — entry not yet checked on the page"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-wave2
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

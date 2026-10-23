@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 6:12 (سورة الأنعام، الآية 12)."
 text: "قُل لِّمَن مَّا فِى ٱلسَّمَـٰوَٰتِ وَٱلْأَرْضِ ۖ قُل لِّلَّهِ ۚ كَتَبَ عَلَىٰ نَفْسِهِ ٱلرَّحْمَةَ ۚ لَيَجْمَعَنَّكُمْ إِلَىٰ يَوْمِ ٱلْقِيَـٰمَةِ لَا رَيْبَ فِيهِ ۚ ٱلَّذِينَ خَسِرُوٓا۟ أَنفُسَهُمْ فَهُمْ لَا يُؤْمِنُونَ"
 text_search: "قل لمن ما في السماوات والأرض ۖ قل لله ۚ كتب على نفسه الرحمة ۚ ليجمعنكم إلى يوم القيامة لا ريب فيه ۚ الذين خسروا أنفسهم فهم لا يؤمنون"
+translations:
+  en: { text: "Say: Unto whom belongeth whatsoever is in the heavens and the earth? Say: Unto Allah. He hath prescribed for Himself mercy, that He may bring you all together to the Day of Resurrection whereof there is no doubt. Those who ruin their souls will not believe.", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "(ان سے) پوچھو کہ آسمان اور زمین میں جو کچھ ہے کس کا ہے کہہ دو خدا کا اس نے اپنی ذات (پاک) پر رحمت کو لازم کر لیا ہے وہ تم سب کو قیامت کے دن جس میں کچھ بھی شک نہیں ضرور جمع کرے گا جن لوگوں نے اپنے تیئیں نقصان میں ڈال رکھا ہے وہ ایمان نہیں لاتے", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-6 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

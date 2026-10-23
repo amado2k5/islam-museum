@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 31:25 (سورة لقمان، الآية 25)."
 text: "وَلَئِن سَأَلْتَهُم مَّنْ خَلَقَ ٱلسَّمَـٰوَٰتِ وَٱلْأَرْضَ لَيَقُولُنَّ ٱللَّهُ ۚ قُلِ ٱلْحَمْدُ لِلَّهِ ۚ بَلْ أَكْثَرُهُمْ لَا يَعْلَمُونَ"
 text_search: "ولئن سألتهم من خلق السماوات والأرض ليقولن الله ۚ قل الحمد لله ۚ بل أكثرهم لا يعلمون"
+translations:
+  en: { text: "If thou shouldst ask them: Who created the heavens and the earth? they would answer: Allah. Say: Praise be to Allah! But most of them know not.", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "اور اگر تم اُن سے پوچھو کہ آسمانوں اور زمین کو کس نے پیدا کیا تو بول اُٹھیں گے کہ خدا نے۔ کہہ دو کہ خدا کا شکر ہے لیکن ان میں اکثر سمجھ نہیں رکھتے", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-31 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

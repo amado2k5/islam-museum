@@ -1,0 +1,17 @@
+id: passage/muslim-1365
+class: passage
+unit: hadith
+work: work/sahih-muslim
+ref: "1365"
+label: { ar: "مسلم 1365 — إن أحداً جبل يحبنا ونحبه", en: "Muslim 1365 — Uhud, a mountain that loves us and we love" }
+text: "قال أنس بن مالك: نظر رسول الله إلى أحد فقال: إن أحداً جبل يحبنا ونحبه"
+summary:
+  ar: "رواية أنس بن مالك في باب فضل المدينة من كتاب الحج في صحيح مسلم؛ قوله عن جبل أحد «جبل يحبنا ونحبه»، وفي السياق نفسه «هذه طيبة»."
+relations:
+  - { type: mentions, target: person/muhammad, sources: [source/sahih-muslim] }
+  - { type: mentions, target: person/anas-ibn-malik, sources: [source/sahih-muslim] }
+  - { type: mentions, target: place/uhud, sources: [source/sahih-muslim] }
+  - { type: mentions, target: place/medina, sources: [source/sahih-muslim] }
+provenance: { layer: own-research, source: "صحيح مسلم، كتاب الحج، باب من فضائل المدينة (طبعة دار التأصيل، الحديث 1410؛ ترقيم عبد الباقي المعروف 1365)، تصوير Apple Vision OCR", generated_by: "Devin (SWE-2 High) from Apple Vision OCR", run: "hadith-muslim-passages-4" }
+sources: [source/sahih-muslim]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High); matn excerpt at most 40 words checked against the scan" }

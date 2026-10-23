@@ -1,0 +1,43 @@
+id: concept/compulsory-public-loan
+class: concept
+kind: legal
+label:
+  ar: "القرض العام الإلزامي"
+  en: "Compulsory public loan"
+issue:
+  ar: "هل يجوز للدولة أن تقترض من الأغنياء على سبيل الإلزام، وبأي شرط؟"
+summary:
+  ar: "القرض العام الإلزامي هو ما تقترضه الدولة من الأثرياء على سبيل الإلزام، وأدرجه المؤلف في إعادة التوزيع لأن القرض في الإسلام من عقود الإرفاق لا فائدة فيه {cite:usul-iqtisad-islami-0660 p. 324}. ويستدل بأن النبي استلف من العباس صدقة عامين {cite:usul-iqtisad-islami-0660 p. 324}، ويجيز الجويني الاستقراض على بيت المال {cite:usul-iqtisad-islami-0660 p. 324}، ويقيده الغزالي والشاطبي بألا يُرجى دخل لبيت المال، فإن ضعفت الموارد لزم التوظيف {cite:usul-iqtisad-islami-0660 p. 325}."
+wings: [ideas]
+themes:
+- trade-and-finance
+- zakat-and-sadaqa
+periods:
+- period/prophetic-era
+regions:
+- global
+perspectives:
+  - tradition: sunni
+    id: juwayni-borrowing-permitted
+    summary:
+      ar: "الجويني لا يمنع الإمام من الاقتراض على بيت المال إن رأى ذلك، ويجيزه عند انقطاع الأموال وانتهاء الأمر إلى ما يغلب على الظن استيعاب الحوادث {cite:usul-iqtisad-islami-0660 p. 324}."
+    sources: [source/usul-iqtisad-islami-0660]
+  - tradition: sunni
+    id: ghazali-shatibi-levy-first
+    summary:
+      ar: "الغزالي يجيز الاستقراض عند الحاجة ولكن يوجب الاقتصار عليه إذا لم يُرج مال يدخل بيت المال، والشاطبي يقول إن الاستقراض في الأزمات إنما يكون حيث يُرجى دخل، وإذا انعدم الدخل لزم حكم التوظيف، وشرط الجواز عند هؤلاء عدالة الإمام {cite:usul-iqtisad-islami-0660 p. 325}."
+    sources: [source/usul-iqtisad-islami-0660]
+relations:
+  - { type: part_of, target: concept/distribution-in-islam, sources: [source/usul-iqtisad-islami-0660] }
+sources:
+- source/usul-iqtisad-islami-0660
+provenance:
+  layer: own-research
+  source: "Rafiq Yunus al-Misri, Usul al-iqtisad al-islami, PDF pp. 301-359 (harvest OCR, outside git)"
+  generated_by: "Claude Code (claude-haiku-5-5)"
+  model: "claude-haiku-5-5"
+  run: "econ-0660-usul-pp301-359"
+status:
+  review: draft
+  completeness: 1
+  generated_by: "Claude Code (claude-haiku-5-5); draft from usul-iqtisad-islami-0660 pp. 301-359; English and Urdu translations not yet written"

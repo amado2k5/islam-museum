@@ -1,0 +1,23 @@
+id: event/siege-of-delhi-1857
+class: event
+kind: siege
+label: { ar: "حصار دلهي (١٨٥٧)", en: "Siege of Delhi" }
+summary:
+  ar: "بطاقة أولية لحصار دلهي سنة ١٨٥٧م، استرداد البريطانيين للمدينة من الثائرين ونهاية آخر سلاطين المغول؛ لم تُراجع مصادره على الصفحة بعد."
+  en: "Draft card for the Siege of Delhi in 1857, the British recapture of the city from the rebels and the last Mughal's fall; its sources are not yet checked on the page."
+wings: [time]
+periods: [period/colonial-era]
+regions: [south-asia]
+date:
+  start: { edtf: "1857", precision: year, status: tradition, derived: true }
+  end: { edtf: "1857", precision: year, status: tradition, derived: true }
+sources: [source/tarikh-islam-hasan-ibrahim]
+external_ids:
+  wikidata: Q2343263
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; siege attested in Indian histories — entry not yet checked on the page"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-wave2
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

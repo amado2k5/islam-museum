@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 28:78 (سورة القصص، الآية 78)."
 text: "قَالَ إِنَّمَآ أُوتِيتُهُۥ عَلَىٰ عِلْمٍ عِندِىٓ ۚ أَوَلَمْ يَعْلَمْ أَنَّ ٱللَّهَ قَدْ أَهْلَكَ مِن قَبْلِهِۦ مِنَ ٱلْقُرُونِ مَنْ هُوَ أَشَدُّ مِنْهُ قُوَّةً وَأَكْثَرُ جَمْعًا ۚ وَلَا يُسْـَٔلُ عَن ذُنُوبِهِمُ ٱلْمُجْرِمُونَ"
 text_search: "قال إنما أوتيته على علم عندي ۚ أولم يعلم أن الله قد أهلك من قبله من القرون من هو أشد منه قوة وأكثر جمعا ۚ ولا يسأل عن ذنوبهم المجرمون"
+translations:
+  en: { text: "He said: I have been given it only on account of knowledge I possess. Knew he not that Allah had destroyed already of the generations before him men who were mightier than him in strength and greater in respect of following? The guilty are not questioned of their sins.", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "بولا کہ یہ (مال) مجھے میری دانش (کے زور) سے ملا ہے کیا اس کو معلوم نہیں کہ خدا نے اس سے پہلے بہت سی اُمتیں جو اس سے قوت میں بڑھ کر اور جمعیت میں بیشتر تھیں ہلاک کر ڈالی ہیں۔ اور گنہگاروں سے اُن کے گناہوں کے بارے میں پوچھا نہیں جائے گا", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-28 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

@@ -12,10 +12,13 @@ summary:
   ar: "القرآن 96:1 (سورة العلق، الآية 1)."
 text: "بِسْمِ ٱللَّهِ ٱلرَّحْمَـٰنِ ٱلرَّحِيمِ ٱقْرَأْ بِٱسْمِ رَبِّكَ ٱلَّذِى خَلَقَ"
 text_search: "بسم الله الرحمن الرحيم اقرأ باسم ربك الذي خلق"
+translations:
+  en: { text: "Read: In the name of thy Lord Who createth,", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "(اے محمدﷺ) اپنے پروردگار کا نام لے کر پڑھو جس نے (عالم کو) پیدا کیا", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: revealed_about, target: event/first-revelation, sources: [source/mubarakpuri-raheeq, source/sahih-al-bukhari] }
   - { type: part_of, target: passage/quran-96 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

@@ -1,0 +1,28 @@
+id: person/abu-tashfin-i-zayyanid
+class: person
+label:
+  ar: أبو تاشفين عبد الرحمن بن موسى
+  en: Abu Tashfin I Abd al-Rahman ibn Musa
+summary:
+  ar: "أبو تاشفين عبد الرحمن بن موسى أبي حمو سلطان تلمسان؛ دفع إليه أبوه أتراباً من المعلوجي يقومون بخدمته في مرباه، وكان أبوه يقرعه ويعيره بمكان ابن عمه مسعود بن أبي عامر، فأغروه بالتوثب على الأمر والفتك بمشتويه مسعود واعتقال السلطان، فهجموا قايلة الهاجرة على خاصة القصر فقتلوا أباه ومسعوداً وأبا سرحان وهلك الوزراء بنو الملاح، وطاف الهاتف بتلمسان أن أبا تاشفين ثار لأبيه، ثم استبد بالأمر ونهض إلى محمد بن يوسف الخارج على أبيه عندما رجع من حصار بجاية، ودامت حروبه مع الموحدين في الفتنة الطويلة على بجاية وتلمسان."
+  en: "Abu Tashfin Abd al-Rahman ibn Musa ibn Abi Hammu, sultan of Tlemcen; raised among M'aluji companions who, inflamed by his father's slights beside the favoured cousin Mas'ud ibn Abi Amir, pushed him to seize the rule — they rushed the palace at siesta, killed the sultan, Mas'ud and Abu Sarhan and massacred the Banu al-Mallah viziers while the town-crier proclaimed Abu Tashfin avenging his father; then he took the kingdom and marched on the rebel Muhammad ibn Yusuf, waging the long Béjaïa-Tlemcen wars against the Almohad remnant."
+gender: male
+roles: [ruler]
+wings: [people]
+periods: [period/crusades-ayyubid-mamluk]
+regions: [maghreb]
+relations:
+- { type: "ruler_of", target: "polity/zayyanid-tlemcen", note: "خامس ملوك بني عبد الواد", sources: [source/tarikh-ibn-khaldun-ibar] }
+- { type: "successor_of", target: "person/abu-hammu-i-musa-zayyanid", note: "قام بالأمر بعد مقتل أبيه", sources: [source/tarikh-ibn-khaldun-ibar] }
+sources:
+- source/tarikh-ibn-khaldun-ibar
+provenance:
+  layer: own-research
+  source: ابن خلدون، العبر — مقتل السلطان أبي حمو وولاية ابنه أبي تاشفين، ص1863-1865 (طبعة هيليوبوليس)
+  generated_by: Devin (SWE-2 High) from Apple Vision OCR
+  model: swe-2-high
+  run: lib-ibar-maghreb-37
+status:
+  review: draft
+  completeness: 1
+  generated_by: Devin (SWE-2 High); extracted from Ibn Khaldun al-Ibar via Apple Vision OCR

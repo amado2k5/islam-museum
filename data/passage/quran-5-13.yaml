@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 5:13 (سورة المائدة، الآية 13)."
 text: "فَبِمَا نَقْضِهِم مِّيثَـٰقَهُمْ لَعَنَّـٰهُمْ وَجَعَلْنَا قُلُوبَهُمْ قَـٰسِيَةً ۖ يُحَرِّفُونَ ٱلْكَلِمَ عَن مَّوَاضِعِهِۦ ۙ وَنَسُوا۟ حَظًّا مِّمَّا ذُكِّرُوا۟ بِهِۦ ۚ وَلَا تَزَالُ تَطَّلِعُ عَلَىٰ خَآئِنَةٍ مِّنْهُمْ إِلَّا قَلِيلًا مِّنْهُمْ ۖ فَٱعْفُ عَنْهُمْ وَٱصْفَحْ ۚ إِنَّ ٱللَّهَ يُحِبُّ ٱلْمُحْسِنِينَ"
 text_search: "فبما نقضهم ميثاقهم لعناهم وجعلنا قلوبهم قاسية ۖ يحرفون الكلم عن مواضعه ۙ ونسوا حظا مما ذكروا به ۚ ولا تزال تطلع على خائنة منهم إلا قليلا منهم ۖ فاعف عنهم واصفح ۚ إن الله يحب المحسنين"
+translations:
+  en: { text: "And because of their breaking their covenant, We have cursed them and made hard their hearts. They change words from their context and forget a part of that whereof they were admonished. Thou wilt not cease to discover treachery from all save a few of them. But bear with them and pardon them. Lo! Allah loveth the kindly.", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "تو ان لوگوں کے عہد توڑ دینے کے سبب ہم نے ان پر لعنت کی اور ان کے دلوں کو سخت کر دیا یہ لوگ کلمات (کتاب) کو اپنے مقامات سے بدل دیتے ہیں اور جن باتوں کی ان کو نصیحت کی گئی تھی ان کا بھی ایک حصہ فراموش کر بیٹھے اور تھوڑے آدمیوں کے سوا ہمیشہ تم ان کی (ایک نہ ایک) خیانت کی خبر پاتے رہتے ہو تو ان کی خطائیں معاف کردو اور (ان سے) درگزر کرو کہ خدا احسان کرنے والوں کو دوست رکھتا ہے", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-5 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 77:50 (سورة المرسلات، الآية 50)."
 text: "فَبِأَىِّ حَدِيثٍۭ بَعْدَهُۥ يُؤْمِنُونَ"
 text_search: "فبأي حديث بعده يؤمنون"
+translations:
+  en: { text: "In what statement, after this, will they believe?", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "اب اس کے بعد یہ کون سی بات پر ایمان لائیں گے؟", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-77 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

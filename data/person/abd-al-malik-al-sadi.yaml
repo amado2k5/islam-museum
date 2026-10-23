@@ -1,0 +1,28 @@
+id: person/abd-al-malik-al-sadi
+class: person
+label: { ar: "عبد الملك المعتصم بالله السعدي", en: "Abd al-Malik al-Mu'tasim bi'llah al-Sa'di" }
+names:
+  - { kind: full, lang: ar, value: "عبد الملك المعتصم بالله" }
+gender: male
+roles: [sultan, military]
+summary:
+  ar: "السلطان السعدي الهارب إلى الباب العالي؛ أمدّه العثمانيون بخمسة آلاف مقاتل بأحسن الأسلحة فدخل فاس منتصراً على ابن أخيه المتوكل، ثم أمدّوه بالمدربين والأسلحة وفيلق عسكري لصد الغزو البرتغالي. أقام إصلاحاته: تجديد السفن وصنع المراكب، وإنعاش التجارة البحرية، وبناء جيش نظامي على القدوة العثمانية في التسليح والرتب، وتقوية الدواوين وتشكيل جهاز شوري عالم بأمور الدولة وسياستها الدولية، وكان أخوه أحمد المنصور ساعده الأيمن. واستحق إجلال عصره حتى من الأوروبيين — وصفه الشاعر الفرنسي المعاصر أغريبا دوبيني بأنه أجمل قومه نير الفكر يحسن الأسبانية والإيطالية والأرمنية والروسية وشاعر مجيد بالعربية. وفي وادي المخازن عزل عدوه عن أسطوله ونسف القنطرة ورد الهجوم الأول شاهراً سيفه وهو مريض قائلاً «ومتى كان المرض يثني المسلمين عن الجهاد»، ثم فاضت روحه في خيمته وسبابته على فمه إشارة لكتمان الأمر حتى يتم النصر {cite:dawlat-uthmaniyya-salabi p. 258-265}."
+  en: "The Sa'di sultan who had fled to the Porte; the Ottomans armed him with five thousand well-equipped fighters to take Fez from his nephew al-Mutawakkil, then sent trainers, weapons and a corps against the Portuguese invasion. His reforms: renewed shipbuilding, maritime trade, a modern army on the Ottoman model of arms and ranks, strengthened diwans and a consultative body versed in home and foreign affairs — his brother Ahmad al-Mansur his right hand. He won the awe of his age even among Europeans; the contemporary French poet Agrippa d'Aubigné called him his people's fairest, sharp of mind, versed in Spanish, Italian, Armenian and Russian, an excellent Arabic poet. At Wadi al-Makhazin he cut the enemy from his fleet, blew the bridge, and repelled the first charge sword drawn though ill — 'since when does sickness bar Muslims from jihad?' — then died in his tent, finger to his lips: conceal it until victory {cite:dawlat-uthmaniyya-salabi p. 258-265}."
+wings: [people]
+regions: [maghreb]
+periods: [period/gunpowder-empires]
+died: { edtf: "1578-08-04", hijri: "0986-06-30", calendar: gregorian, precision: day, status: tradition, derived: true, note: "توفي يوم وادي المخازن", sources: [source/dawlat-uthmaniyya-salabi] }
+relations:
+  - { type: child_of, target: person/muhammad-al-shaykh-al-sadi, sources: [source/dawlat-uthmaniyya-salabi] }
+  - { type: sibling_of, target: person/ahmad-al-mansur-al-sadi, sources: [source/dawlat-uthmaniyya-salabi] }
+  - { type: allied_with, target: polity/ottoman-empire, sources: [source/dawlat-uthmaniyya-salabi] }
+  - { type: opposed, target: person/sebastian-i-portugal, sources: [source/dawlat-uthmaniyya-salabi] }
+sources: [source/dawlat-uthmaniyya-salabi]
+external_ids: { wikidata: "Q288713" }
+provenance:
+  layer: own-research
+  source: "الدولة العثمانية لعلي محمد الصلابي (ط1 1421) ص 258-265"
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: salabi-uthmani-batch14
+status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 Medium)" }

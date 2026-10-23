@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 8:23 (سورة الأنفال، الآية 23)."
 text: "وَلَوْ عَلِمَ ٱللَّهُ فِيهِمْ خَيْرًا لَّأَسْمَعَهُمْ ۖ وَلَوْ أَسْمَعَهُمْ لَتَوَلَّوا۟ وَّهُم مُّعْرِضُونَ"
 text_search: "ولو علم الله فيهم خيرا لأسمعهم ۖ ولو أسمعهم لتولوا وهم معرضون"
+translations:
+  en: { text: "Had Allah known of any good in them He would have made them hear, but had He made them hear they would have turned away, averse.", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "اور اگر خدا ان میں نیکی (کا مادہ) دیکھتا تو ان کو سننے کی توفیق بخشتا۔ اور اگر (بغیر صلاحیت ہدایت کے) سماعت دیتا تو وہ منہ پھیر کر بھاگ جاتے", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-8 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

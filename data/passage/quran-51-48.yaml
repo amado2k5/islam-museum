@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 51:48 (سورة الذاريات، الآية 48)."
 text: "وَٱلْأَرْضَ فَرَشْنَـٰهَا فَنِعْمَ ٱلْمَـٰهِدُونَ"
 text_search: "والأرض فرشناها فنعم الماهدون"
+translations:
+  en: { text: "And the earth have We laid out, how gracious is the Spreader (thereof)!", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "اور زمین کو ہم ہی نے بچھایا تو (دیکھو) ہم کیا خوب بچھانے والے ہیں", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-51 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 3:99 (سورة آل عمران، الآية 99)."
 text: "قُلْ يَـٰٓأَهْلَ ٱلْكِتَـٰبِ لِمَ تَصُدُّونَ عَن سَبِيلِ ٱللَّهِ مَنْ ءَامَنَ تَبْغُونَهَا عِوَجًا وَأَنتُمْ شُهَدَآءُ ۗ وَمَا ٱللَّهُ بِغَـٰفِلٍ عَمَّا تَعْمَلُونَ"
 text_search: "قل يا أهل الكتاب لم تصدون عن سبيل الله من آمن تبغونها عوجا وأنتم شهداء ۗ وما الله بغافل عما تعملون"
+translations:
+  en: { text: "Say: O People of the Scripture! Why drive ye back believers from the way of Allah, seeking to make it crooked, when ye are witnesses (to Allah's guidance)? Allah is not unaware of what ye do.", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "کہو کہ اہلِ کتاب تم مومنوں کو خدا کے رستے سے کیوں روکتے ہو اور باوجود یہ کہ تم اس سے واقف ہو اس میں کجی نکالتے ہو اور خدا تمھارے کاموں سے بےخبر نہیں", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-3 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

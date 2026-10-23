@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 6:68 (سورة الأنعام، الآية 68)."
 text: "وَإِذَا رَأَيْتَ ٱلَّذِينَ يَخُوضُونَ فِىٓ ءَايَـٰتِنَا فَأَعْرِضْ عَنْهُمْ حَتَّىٰ يَخُوضُوا۟ فِى حَدِيثٍ غَيْرِهِۦ ۚ وَإِمَّا يُنسِيَنَّكَ ٱلشَّيْطَـٰنُ فَلَا تَقْعُدْ بَعْدَ ٱلذِّكْرَىٰ مَعَ ٱلْقَوْمِ ٱلظَّـٰلِمِينَ"
 text_search: "وإذا رأيت الذين يخوضون في آياتنا فأعرض عنهم حتى يخوضوا في حديث غيره ۚ وإما ينسينك الشيطان فلا تقعد بعد الذكرى مع القوم الظالمين"
+translations:
+  en: { text: "And when thou seest those who meddle with Our revelations, withdraw from them until they meddle with another topic. And if the devil cause thee to forget, sit not, after the remembrance, with the congregation of wrong-doers.", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "اور جب تم ایسے لوگوں کو دیکھو جو ہماری آیتوں کے بارے میں بیہودہ بکواس کر رہے ہوں تو ان سے الگ ہوجاؤ یہاں تک کہ اور باتوں میں مصروف ہوجائیں۔ اور اگر (یہ بات) شیطان تمہیں بھلا دے تو یاد آنے پر ظالم لوگوں کے ساتھ نہ بیٹھو", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-6 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

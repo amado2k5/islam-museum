@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 47:18 (سورة محمد، الآية 18)."
 text: "فَهَلْ يَنظُرُونَ إِلَّا ٱلسَّاعَةَ أَن تَأْتِيَهُم بَغْتَةً ۖ فَقَدْ جَآءَ أَشْرَاطُهَا ۚ فَأَنَّىٰ لَهُمْ إِذَا جَآءَتْهُمْ ذِكْرَىٰهُمْ"
 text_search: "فهل ينظرون إلا الساعة أن تأتيهم بغتة ۖ فقد جاء أشراطها ۚ فأنى لهم إذا جاءتهم ذكراهم"
+translations:
+  en: { text: "Await they aught save the Hour, that it should come upon them unawares? And the beginnings thereof have already come. But how, when it hath come upon them, can they take their warning?", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "اب تو یہ لوگ قیامت ہی کو دیکھ رہے ہیں کہ ناگہاں ان پر آ واقع ہو۔ سو اس کی نشانیاں (وقوع میں) آچکی ہیں۔ پھر جب وہ ان پر آ نازل ہوگی اس وقت انہیں نصیحت کہاں (مفید ہوسکے گی؟)", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-47 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

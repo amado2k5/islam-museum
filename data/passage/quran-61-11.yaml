@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 61:11 (سورة الصف، الآية 11)."
 text: "تُؤْمِنُونَ بِٱللَّهِ وَرَسُولِهِۦ وَتُجَـٰهِدُونَ فِى سَبِيلِ ٱللَّهِ بِأَمْوَٰلِكُمْ وَأَنفُسِكُمْ ۚ ذَٰلِكُمْ خَيْرٌ لَّكُمْ إِن كُنتُمْ تَعْلَمُونَ"
 text_search: "تؤمنون بالله ورسوله وتجاهدون في سبيل الله بأموالكم وأنفسكم ۚ ذلكم خير لكم إن كنتم تعلمون"
+translations:
+  en: { text: "Ye should believe in Allah and His messenger, and should strive for the cause of Allah with your wealth and your lives. That is better for you, if ye did but know.", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "(وہ یہ کہ) خدا پر اور اس کے رسولﷺ پر ایمان لاؤ اور خدا کی راہ میں اپنے مال اور جان سے جہاد کرو۔ اگر سمجھو تو یہ تمہارے حق میں بہتر ہے", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-61 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

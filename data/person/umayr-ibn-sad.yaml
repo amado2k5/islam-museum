@@ -1,0 +1,31 @@
+id: person/umayr-ibn-sad
+class: person
+label:
+  ar: عمير بن سعد الأنصاري
+  en: Umayr ibn Sa'd al-Ansari
+names:
+  - { kind: full, lang: ar, value: عمير بن سعد الأنصاري }
+gender: male
+roles: [companion, commander]
+traditions: [sunni]
+summary:
+  ar: "أنصاري؛ وجهه عمر بن الخطاب سنة 21 إلى بلاد الروم في جيش عظيم وولاه الصائفة وهي أول صائفة كانت، وأمره أن يتلطف لجبلة بن الأيهم ويستعطفه بالقرابة ويدعوه إلى الرجوع إلى بلاد الإسلام على أن يؤدي ما كان بذل من الصدقة ويقيم على دينه فأبى جبلة إلا المقام، فانتهى عمير إلى موضع يعرف بالحمار وهو وادٍ فأوقع بأهله وأخربه."
+  en: "An Ansari; Umar ibn al-Khattab sent him in year 21 to Byzantine lands at the head of a great army, giving him the summer expedition — the first sa'ifa — and ordering him to conciliate Jabala ibn al-Ayham, appeal to their kinship and invite him back to the land of Islam on paying what alms he had offered while keeping his religion; Jabala refusing all but remaining, Umayr reached the place called al-Himar, a valley, and fell upon its people laying it waste."
+periods:
+- period/rashidun
+regions:
+- arabia
+- levant-iraq
+relations:
+  - { type: participated_in, target: event/battle-of-yarmuk, note: "الصائفة الأولى في سياق أخبار جبلة بعد اليرموك", sources: [source/futuh-buldan-maarif-1407] }
+provenance:
+  layer: own-research
+  source: "فتوح البلدان (ط مؤسسة المعارف 1407هـ/1987م) ص 186"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-futuh-buldan-batch-9
+sources:
+- source/futuh-buldan-maarif-1407
+status:
+  review: draft
+  completeness: 1
+  generated_by: "Devin (SWE-2 High)"

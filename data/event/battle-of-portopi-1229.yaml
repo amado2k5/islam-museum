@@ -1,0 +1,23 @@
+id: event/battle-of-portopi-1229
+class: event
+kind: battle
+label: { ar: "معركة بورتوبي", en: "Battle of Portopí" }
+summary:
+  ar: "بطاقة أولية لمعركة بورتوبي سنة ١٢٢٩م، إنزال جيمس الأول في مايورقة وأخذها من المسلمين؛ لم تُراجع مصادره على الصفحة بعد."
+  en: "Draft card for the Battle of Portopí in 1229, James I's landing taking Mallorca from the Muslims; its sources are not yet checked on the page."
+wings: [time]
+periods: [period/crusades-ayyubid-mamluk]
+regions: [andalus-europe]
+date:
+  start: { edtf: "1229", precision: year, status: tradition, derived: true }
+  end: { edtf: "1229", precision: year, status: tradition, derived: true }
+sources: [source/tarikh-islam-hasan-ibrahim]
+external_ids:
+  wikidata: Q2792009
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; battle attested in narrative histories — entry not yet checked on the page"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-wave2
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

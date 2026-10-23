@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 22:9 (سورة الحج، الآية 9)."
 text: "ثَانِىَ عِطْفِهِۦ لِيُضِلَّ عَن سَبِيلِ ٱللَّهِ ۖ لَهُۥ فِى ٱلدُّنْيَا خِزْىٌ ۖ وَنُذِيقُهُۥ يَوْمَ ٱلْقِيَـٰمَةِ عَذَابَ ٱلْحَرِيقِ"
 text_search: "ثاني عطفه ليضل عن سبيل الله ۖ له في الدنيا خزي ۖ ونذيقه يوم القيامة عذاب الحريق"
+translations:
+  en: { text: "Turning away in pride to beguile (men) from the way of Allah. For him in this world is ignominy, and on the Day of Resurrection We make him taste the doom of burning.", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "(اور تکبر سے) گردن موڑ لیتا (ہے) تاکہ (لوگوں کو) خدا کے رستے سے گمراہ کردے۔ اس کے لئے دنیا میں ذلت ہے۔ اور قیامت کے دن ہم اسے عذاب (آتش) سوزاں کا مزہ چکھائیں گے", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-22 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

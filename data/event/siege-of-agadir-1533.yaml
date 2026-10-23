@@ -1,0 +1,23 @@
+id: event/siege-of-agadir-1533
+class: event
+kind: siege
+label: { ar: "حصار أكادير (١٥٣٣)", en: "Siege of Agadir (1533)" }
+summary:
+  ar: "بطاقة أولية لحصار أكادير سنة ١٥٣٣م، من حرب السعديين والبرتغاليين على سواحل المغرب؛ لم تُراجع مصادره على الصفحة بعد."
+  en: "Draft card for the Siege of Agadir in 1533, a Saadian–Portuguese clash on the Moroccan coast; its sources are not yet checked on the page."
+wings: [time]
+periods: [period/gunpowder-empires]
+regions: [maghreb]
+date:
+  start: { edtf: "1533", precision: year, status: tradition, derived: true }
+  end: { edtf: "1533", precision: year, status: tradition, derived: true }
+sources: [source/tarikh-islam-hasan-ibrahim]
+external_ids:
+  wikidata: Q126727785
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; battle attested in narrative histories — entry not yet checked on the page"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-wave2
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

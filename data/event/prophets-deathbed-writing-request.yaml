@@ -1,0 +1,33 @@
+id: event/prophets-deathbed-writing-request
+class: event
+kind: other
+label: { en: "The Prophet's request for a writing in his last illness", ar: "طلب النبي الكتاب في مرض موته" }
+summary:
+  en: "In his last illness the Prophet asked for a writing that would keep the community from error; those present disagreed, one said the book of God was enough, and the writing was not made. Sallabi reads the episode within the Sunni frame as a matter of ijtihad that no one was blamed for; Imami readings that take it as a designation of Ali he treats as false."
+  ar: "في مرض موته طلب النبي كتاباً لا تضلون بعده، فاختلف الحاضرون، فقال بعضهم: حسبنا كتاب الله، فلم يُكتب الكتاب. يقرأ الصلابي الواقعة في إطار السنة اجتهاداً مسوغاً لم يُعنّف عليه أحد، ويرد القراءات الإمامية التي تجعلها نصاً على علي."
+wings: [people, words, ideas]
+themes: [scripture-and-its-sciences, factions-splits-schisms]
+periods: [period/prophetic-era]
+regions: [arabia]
+date:
+  start: { edtf: "0632-06-04", hijri: "0011-03-08", calendar: julian, precision: day, status: tradition, derived: true, note: "الكتاب ينقل أن الواقعة كانت يوم الخميس في مرض الوفاة (ص 117). التاريخ مشتق بحساب الأيام الأربعة قبل يوم الوفاة (الاثنين 8 يونيو 632)؛ يحتاج إلى تحقق." }
+relations:
+  - { type: had_participant, target: person/muhammad, role: "طلب الكتاب وأوصى بثلاث", sources: [source/sallabi-ali-vol1] }
+  - { type: had_participant, target: person/umar-ibn-al-khattab, role: "تنسب إليه بعض الروايات قول: حسبنا كتاب الله، والكتاب يشك في نسبة لفظ أهجر", sources: [source/sallabi-ali-vol1] }
+  - { type: had_participant, target: person/abdullah-ibn-abbas, role: "نقل قوله: إن الرزية كل الرزية", sources: [source/sallabi-ali-vol1] }
+  - { type: had_participant, target: person/aisha, role: "روت رواية أن النبي أراد أن يكتب لأبي بكر", sources: [source/sallabi-ali-vol1] }
+  - { type: occurred_at, target: place/medina }
+  - { type: part_of, target: event/death-of-the-prophet }
+issue: { ar: "ماذا أراد النبي بالكتاب، ولماذا لم يُكتب؟", en: "What did the Prophet intend by the writing, and why was it not made?" }
+perspectives:
+  - tradition: sunni
+    id: sunni
+    summary: { en: "Sallabi, through Qadi Iyad, al-Qurtubi and Ibn Taymiyya: the Prophet left the writing because of the dispute, and he had already delivered the religion (the verse of completion); the disagreement among the Companions was ijtihad, no one was rebuked, and Umar's counsel was a legitimate reading.", ar: "يعرض الكتاب عن القاضي عياض والقرطبي وابن تيمية: ترك النبي الكتابة لما وقع من النزاع، وقد بلّغ الدين؛ واختلاف الصحابة اجتهاد مسوغ لم يُعنّف عليه أحد، ورأي عمر قراءة مشروعة." }
+    sources: [source/sallabi-ali-vol1]
+  - tradition: shia-twelver
+    id: shia-twelver
+    summary: { en: "Imami readings, as reported by the book, hold that the Prophet meant the writing as a designation of Ali and that his wish was blocked; Sallabi refutes this at length, saying it would make the Prophet neglect what God commanded.", ar: "تذهب القراءة الإمامية، كما ينقلها الكتاب، إلى أن النبي أراد بالكتاب النص على علي فمُنع منه؛ ويرد الكتاب ذلك بتفصيل، ويرى أنه يجعل النبي مقصراً في التبليغ." }
+    sources: [source/sallabi-ali-vol1]
+sources: [source/sallabi-ali-vol1]
+status: { review: draft, completeness: 1, generated_by: "Claude Code (claude-haiku-5-5); mined from sallabi-ali-vol1 pp. 117-121" }
+provenance: { layer: own-research, source: "sallabi-ali-vol1 pp. 117-121", generated_by: "Claude Code", model: "claude-haiku-5-5", run: "sallabi-ali-vol1-deep-pp111-150" }

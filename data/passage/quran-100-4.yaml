@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 100:4 (سورة العاديات، الآية 4)."
 text: "فَأَثَرْنَ بِهِۦ نَقْعًا"
 text_search: "فأثرن به نقعا"
+translations:
+  en: { text: "Then, therewith, with their trail of dust,", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "پھر اس میں گرد اٹھاتے ہیں", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-100 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 21:56 (سورة الأنبياء، الآية 56)."
 text: "قَالَ بَل رَّبُّكُمْ رَبُّ ٱلسَّمَـٰوَٰتِ وَٱلْأَرْضِ ٱلَّذِى فَطَرَهُنَّ وَأَنَا۠ عَلَىٰ ذَٰلِكُم مِّنَ ٱلشَّـٰهِدِينَ"
 text_search: "قال بل ربكم رب السماوات والأرض الذي فطرهن وأنا على ذلكم من الشاهدين"
+translations:
+  en: { text: "He said: Nay, but your Lord is the Lord of the heavens and the earth, Who created them; and I am of those who testify unto that.", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "(ابراہیم نے) کہا (نہیں) بلکہ تمہارا پروردگار آسمانوں اور زمین کا پروردگار ہے جس نے ان کو پیدا کیا ہے۔ اور میں اس (بات) کا گواہ (اور اسی کا قائل) ہوں", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-21 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

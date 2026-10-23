@@ -1,0 +1,23 @@
+id: event/inheritance-fadl-decree-283
+class: event
+kind: court-ruling
+label: { ar: "أمر المعتضد برد فضل المواريث على ذوي الأرحام", en: "Al-Mu'tadid's decree on returning the residue of inheritances to blood kin" }
+summary:
+  ar: "لعشر بقين من جمادى الأولى سنة ثلاث وثمانين ومائتين أمر المعتضد بالكتاب إلى جميع النواحي بردّ الفاضل من سهام المواريث على ذوي الأرحام فنُفّذت الكتب وقُرئت على المنابر، وكان سببها أنه استفتى القضاة فكتب أبو خازم القاضي وعلي بن محمد بن أبي الشوارب بردها على ذوي الأرحام وذكرا اتفاق عمر وعلي وابن مسعود، وأفتى يوسف بن يعقوب بقول زيد بن ثابت بردها إلى بيت المال، فأُمر بالعمل بقول أبي خازم والإعراض عن فتيا يوسف {cite:muntazam-ibn-al-jawzi p. 162-163}."
+  en: "In Jumada I 283 al-Mu'tadid decreed that the residue of inheritance shares revert to blood kin rather than the treasury, and had the decree read from the pulpits — following Abu Khazim and Ibn Abi'l-Shawarib's opinion citing the agreement of Umar, Ali and Ibn Mas'ud, and setting aside Yusuf ibn Ya'qub's fatwa in favor of Zayd ibn Thabit's view {cite:muntazam-ibn-al-jawzi p. 162-163}."
+wings: [time]
+periods: [period/abbasid-early]
+regions: [levant-iraq]
+date:
+  start: { edtf: "0896-04~", hijri: "0283-05", calendar: julian, precision: month, status: tradition, derived: true, note: "جمادى الأولى ٢٨٣؛ التحويل مشتق {cite:muntazam-ibn-al-jawzi p. 162}." }
+relations:
+  - { type: had_participant, target: person/al-mutadid, role: "الخليفة الآمر", sources: [source/muntazam-ibn-al-jawzi] }
+  - { type: had_participant, target: person/abu-khazim, role: "القاضي المستفتى", sources: [source/muntazam-ibn-al-jawzi] }
+  - { type: had_participant, target: person/yusuf-ibn-yaqub-al-qadi, role: "المخالف في الفتيا", sources: [source/muntazam-ibn-al-jawzi] }
+provenance:
+  layer: own-research
+  source: "المنتظم لابن الجوزي (ط حيدرآباد 1357، ج5 ق2، سنة 283)، قراءة آبل فيجن"
+  generated_by: "Devin (SWE-2 Medium) from Apple Vision OCR"
+  run: lib-muntazam-258-349-batch27
+sources: [source/muntazam-ibn-al-jawzi]
+status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 Medium)" }

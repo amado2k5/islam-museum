@@ -1,0 +1,23 @@
+id: event/battle-of-hillah-2003
+class: event
+kind: battle
+label: { ar: "معركة الحلة (٢٠٠٣)", en: "Battle of Hillah" }
+summary:
+  ar: "بطاقة أولية لمعركة الحلة سنة ٢٠٠٣م، قتال الحرس الجمهوري العراقي والقوات الأمريكية؛ لم تُراجع مصادره على الصفحة بعد."
+  en: "Draft card for the Battle of Hillah in 2003 during the invasion of Iraq; its sources are not yet checked on the page."
+wings: [time]
+periods: [period/contemporary-era]
+regions: [levant-iraq]
+date:
+  start: { edtf: "2003-03-31", precision: year, status: tradition, derived: true }
+  end: { edtf: "2003-04-02", precision: year, status: tradition, derived: true }
+sources: [source/tarikh-islam-hasan-ibrahim]
+external_ids:
+  wikidata: Q18712789
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; battle attested in narrative histories — entry not yet checked on the page"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-wave2
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

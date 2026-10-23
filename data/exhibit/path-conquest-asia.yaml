@@ -1,0 +1,77 @@
+id: exhibit/path-conquest-asia
+class: exhibit
+kind: trail
+label:
+  ar: فتح ما وراء النهر
+  en: Beyond the Oxus
+summary:
+  ar: 'مسار في فتوح خراسان: قتيبة بن مسلم يعبر جيحون، وبخارى وسمرقند وكشغر تُفتح — الإسلام يبلغ الصين.'
+  en: A trail through the Transoxiana conquests.
+audience:
+- newcomer
+- student
+duration_minutes: 30
+wings: []
+regions:
+- persia-central-asia
+rooms:
+- title:
+    ar: قتيبة
+    en: Qutayba
+  body:
+    ar: 'ابن مسلم الباهلي: فاتح ما وراء النهر.'
+    en: 'ابن مسلم الباهلي: فاتح ما وراء النهر.'
+  features:
+  - person/qutayba-ibn-muslim
+  - place/marw
+- title:
+    ar: بخارى
+    en: Bukhara
+  body:
+    ar: 'مدينة العلم تُفتح: 709.'
+    en: 'مدينة العلم تُفتح: 709.'
+  features:
+  - event/conquest-of-bukhara
+  - place/bukhara
+- title:
+    ar: سمرقند
+    en: Samarkand
+  body:
+    ar: أجمل مدن الشرق تُفتح 712.
+    en: أجمل مدن الشرق تُفتح 712.
+  features:
+  - event/conquest-of-samarkand
+  - place/merv
+- title:
+    ar: الشرق
+    en: The east
+  body:
+    ar: 'كشغر وفغانه: حدود الصين.'
+    en: 'كشغر وفغانه: حدود الصين.'
+  features:
+  - place/kashgar
+  - place/marw-al-rudh
+- title:
+    ar: الأثر
+    en: The legacy
+  body:
+    ar: 'بخارى وسمرقند: عاصمتا العلم بعد قرنين.'
+    en: 'بخارى وسمرقند: عاصمتا العلم بعد قرنين.'
+  features:
+  - place/bukhara
+  - place/merv
+  - person/al-bukhari
+prerequisites:
+- exhibit/path-islam-in-30-minutes
+sources:
+- source/wikidata
+provenance:
+  layer: own-research
+  source: Devin-assembled trail from existing museum entities
+  generated_by: Devin (SWE-2 High)
+  model: SWE-2 High
+  run: pathways-batch-7
+status:
+  review: draft
+  completeness: 1
+  generated_by: Devin (SWE-2 High), pathways lane, 2026-10-16

@@ -1,0 +1,46 @@
+id: building/babri-masjid
+class: building
+kind: mosque
+label:
+  ar: مسجد بابري
+  en: Babri Masjid
+  ur: بابری مسجد
+summary:
+  ar: "مسجد بابري في أيودهيا بالهند، بني في العصر المغولي وهُدم سنة 1992م؛ موضوع نزاع تاريخي وقانوني كبير توثقه الدراسة الوثائقية {cite:noorani-babri-2003}."
+  en: "The Babri Masjid of Ayodhya, India, built in the Mughal era and demolished in 1992; subject of a major historical and legal dispute documented in scholarly compilations {cite:noorani-babri-2003}."
+wings: [objects]
+themes: [architecture, muslim-minorities-under-non-muslim-rule]
+regions: [south-asia]
+periods: [period/gunpowder-empires, period/modern-era]
+external_ids: { wikidata: "Q656765" }
+sources: [source/noorani-babri-2003]
+perspectives:
+- tradition: sunni
+  id: muslim-waqf
+  stance:
+    ar: مسجد وقفي بني في عهد بابر وبقي محل نزاع حتى هدمه سنة 1992م
+    en: A Mughal-era waqf mosque built under Babur that stood until its 1992 demolition
+  summary:
+    en: "Muslim accounts, as documented in the dispute's records, describe a functioning waqf mosque built in the Mughal era (traditionally dated 1528) that stood until demolished in December 1992 {cite:noorani-babri-2003}."
+  sources: [source/noorani-babri-2003]
+- tradition: academic
+  id: academic-record
+  stance:
+    en: A disputed site whose claims are weighed through documents, archaeology and litigation
+  summary:
+    en: "Scholarship treats the Ayodhya dispute through the documentary record — inscriptions, court proceedings and excavation reports — rather than accepting either claim at face value {cite:noorani-babri-2003}."
+  sources: [source/noorani-babri-2003]
+- tradition: other
+  id: hindu-claim
+  stance:
+    en: The site revered as Rama's birthplace (Ramjanmabhoomi), for which the mosque was replaced
+  summary:
+    en: "The Hindu claim holds the site to be the birthplace of Rama and the mosque to have replaced a demolished temple — the claim at the centre of the 1992 demolition and subsequent litigation {cite:noorani-babri-2003}."
+  sources: [source/noorani-babri-2003]
+sensitivity: contested
+provenance:
+  layer: own-research
+  source: "wikidata-import deferred Q656765; contested: documentary academic source (Noorani), no SD source"
+  generated_by: "Devin (SWE-2 Medium)"
+  run: wd-deferred-10
+status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 Medium)" }

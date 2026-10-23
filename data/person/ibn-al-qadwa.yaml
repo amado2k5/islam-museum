@@ -1,0 +1,28 @@
+id: person/ibn-al-qadwa
+class: person
+label: { ar: "ابن القدوة", en: "Ibn al-Qadwa" }
+summary:
+  ar: "القاضي مجد الدين عبد المجيد بن عمر المعروف بابن القدوة، من الكرامية الهيصمية وله عندهم بفيروزكوه محل كبير لزهده وعلمه وبيته؛ ناظر فخر الدين الرازي في مجلس السلطان غياث الدين الغوري سنة خمس وتسعين وخمسمائة فطال الكلام بينهما واستطال عليه الفخر وسبّه، فوعظ ابن القدوة في الجامع في الغد وأعلن أنه لا يقول إلا ما صح عن رسول الله وأنه لا يعلم علم أرسطاطاليس وكفريات ابن سينا وفلسفة الفارابي، فبكى وضجّ الناس وامتلأ البلد فتنة حتى تدخل السلطان وأخرج الرازي من فيروزكوه {cite:kamil-ibn-al-athir p. 262}."
+  en: "Majd al-Din Abd al-Majid ibn Umar, known as Ibn al-Qadwa — Karrami shaykh of the Haythamiyya branch, honoured at Firuzkuh for his asceticism and learning; debated Fakhr al-Din al-Razi before Sultan Ghiyath al-Din in 595 and, insulted at the session, preached the next day disavowing Aristotle, Ibn Sina and al-Farabi, moving the crowd to a riot the sultan had to put down {cite:kamil-ibn-al-athir p. 262}."
+gender: male
+relations:
+- type: member_of
+  target: group/karramiyya
+  sources: [source/kamil-ibn-al-athir]
+- type: debated_with
+  target: person/fakhr-al-din-al-razi
+  sources: [source/kamil-ibn-al-athir]
+- type: participated_in
+  target: event/firuzkuh-fitna-595
+  sources: [source/kamil-ibn-al-athir]
+wings: [people]
+periods: [period/crusades-ayyubid-mamluk]
+regions: [persia-central-asia]
+roles: [scholar]
+sources: [source/kamil-ibn-al-athir]
+provenance:
+  layer: own-research
+  source: "الكامل في التاريخ — ابن الأثير، مسح kamilt00_201908، ص 262"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-kamil-562-629-06
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

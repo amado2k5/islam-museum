@@ -1,0 +1,25 @@
+id: person/al-yildani
+class: person
+label: { ar: "تقي الدين اليلداني", en: "Taqi al-Din al-Yildani" }
+names:
+  - { value: "اليلداني المحدث المسند تقي الدين عبد الرحمن بن أبي الفهم عبد المنعم بن عبد الرحمن القرشي الدمشقي أبو محمد الشافعي", kind: full }
+born: { edtf: "1172", hijri: "0568", calendar: julian, precision: year, status: tradition, derived: true, note: "ولد بيلدا قرية من قرى دمشق في أول سنة ثمان وستين وخمسمائة {cite:shadharat-dhahab p. 277}." }
+died: { edtf: "1257-03~", hijri: "0655-03-08", calendar: julian, precision: day, status: tradition, derived: true, note: "توفي بقريته وكان خطيبها في ثامن ربيع الأول سنة خمس وخمسين وستمائة {cite:shadharat-dhahab p. 277}." }
+summary:
+  ar: "المحدث المسند؛ ولد بيلدا من قرى دمشق وطلب الحديث وقد كبر ورحل وسمع من ابن كليب وابن بوش وطبقتهما وكتب الكثير، وذكر أن النبي قال له في النوم: أنت رجل جيد؛ توفي بقريته وكان خطيبها في ثامن ربيع الأول {cite:shadharat-dhahab p. 277}."
+  en: "The hafiz of Yalda near Damascus (b. 568, d. 8 Rabi' I 655) — took up hadith late, heard Ibn Kulayb's generation, and reported the Prophet telling him in a dream 'you are a good man' {cite:shadharat-dhahab p. 277}."
+gender: male
+roles: [scholar, muhaddith]
+wings: [people]
+periods: [period/crusades-ayyubid-mamluk]
+regions: [levant-iraq]
+faith:
+  - value: sunni-shafii
+    basis: tradition
+sources: [source/shadharat-dhahab]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }
+provenance:
+  layer: own-research
+  source: "شذرات الذهب — ابن العماد (ج5، سنة 655)، قراءة آبل فيجن"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-shadharat-batch-129

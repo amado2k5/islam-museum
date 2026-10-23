@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 7:126 (سورة الأعراف، الآية 126)."
 text: "وَمَا تَنقِمُ مِنَّآ إِلَّآ أَنْ ءَامَنَّا بِـَٔايَـٰتِ رَبِّنَا لَمَّا جَآءَتْنَا ۚ رَبَّنَآ أَفْرِغْ عَلَيْنَا صَبْرًا وَتَوَفَّنَا مُسْلِمِينَ"
 text_search: "وما تنقم منا إلا أن آمنا بآيات ربنا لما جاءتنا ۚ ربنا أفرغ علينا صبرا وتوفنا مسلمين"
+translations:
+  en: { text: "Thou takest vengeance on us only forasmuch as we believed the tokens of our Lord when they came unto us. Our Lord! Vouchsafe unto us steadfastness and make us die as men who have surrendered (unto Thee).", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "اور اس کے سوا تجھ کو ہماری کون سی بات بری لگی ہے کہ جب ہمارے پروردگار کی نشانیاں ہمارے پاس آگئیں تو ہم ان پر ایمان لے آئے۔ اے پروردگار ہم پر صبرواستقامت کے دہانے کھول دے اور ہمیں (ماریو تو) مسلمان ہی ماریو", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-7 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

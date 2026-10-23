@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 15:20 (سورة الحجر، الآية 20)."
 text: "وَجَعَلْنَا لَكُمْ فِيهَا مَعَـٰيِشَ وَمَن لَّسْتُمْ لَهُۥ بِرَٰزِقِينَ"
 text_search: "وجعلنا لكم فيها معايش ومن لستم له برازقين"
+translations:
+  en: { text: "And we have given unto you livelihoods therein, and unto those for whom ye provide not.", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "اور ہم ہی نے تمہارے لیے اور ان لوگوں کے لیے جن کو تم روزی نہیں دیتے اس میں معاش کے سامان پیدا کئے", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-15 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

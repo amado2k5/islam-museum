@@ -1,0 +1,27 @@
+id: person/al-mutadid-almohad
+class: person
+label: { ar: "المعتضد صاحب المغرب", en: "al-Mu'tadid, the Almohad" }
+names:
+  - { value: "المعتضد ويقال له أيضاً السعيد أبو الحسن المؤمني علي بن المأمون إدريس بن المنصور يعقوب بن يوسف الموحدي", kind: full }
+died: { edtf: "1248-05~", hijri: "0646-02", calendar: julian, precision: month, status: tradition, derived: true, note: "قتل وهو على ظهر جواده وهو يحاصر حصناً بتلمسان في صفر سنة ست وأربعين وستمائة {cite:shadharat-dhahab p. 244}." }
+summary:
+  ar: "صاحب المغرب الموحدي؛ ولى الأمر بعد أخيه عبد الواحد بن إدريس سنة أربعين وستمائة، وقتل وهو على ظهر جواده وهو يحاصر حصناً بتلمسان في صفر سنة ست وأربعين، وولي بعده المرتضى أبو حفص فامتدت دولته عشرين عاماً {cite:shadharat-dhahab p. 244}."
+  en: "The Almohad caliph al-Mu'tadid (killed Safar 646) — succeeded his drowned brother Abd al-Wahid b. Idris in 640; killed on horseback while besieging a fortress at Tlemcen; al-Murtada Abu Hafs followed him for a twenty-year reign {cite:shadharat-dhahab p. 244}."
+gender: male
+roles: [caliph]
+wings: [people]
+periods: [period/crusades-ayyubid-mamluk]
+regions: [maghreb]
+faith:
+  - value: sunni
+    basis: tradition
+relations:
+  - { type: successor_of, target: person/abd-al-wahid-ibn-idris-almohad, sources: [source/shadharat-dhahab] }
+  - { type: died_in, target: place/tlemcen, sources: [source/shadharat-dhahab] }
+sources: [source/shadharat-dhahab]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }
+provenance:
+  layer: own-research
+  source: "شذرات الذهب — ابن العماد (ج5، سنة 646)، قراءة آبل فيجن"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-shadharat-batch-127

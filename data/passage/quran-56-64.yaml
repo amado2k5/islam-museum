@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 56:64 (سورة الواقعة، الآية 64)."
 text: "ءَأَنتُمْ تَزْرَعُونَهُۥٓ أَمْ نَحْنُ ٱلزَّٰرِعُونَ"
 text_search: "أأنتم تزرعونه أم نحن الزارعون"
+translations:
+  en: { text: "Is it ye who foster it, or are We the Fosterer?", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "تو کیا تم اسے اُگاتے ہو یا ہم اُگاتے ہیں؟", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-56 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

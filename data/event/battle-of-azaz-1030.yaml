@@ -1,0 +1,25 @@
+id: event/battle-of-azaz-1030
+class: event
+kind: battle
+label: { ar: "معركة أعزاز (١٠٣٠)", en: "Battle of Azaz" }
+summary:
+  ar: "في سنة ٤٢١ سار ملك الروم إلى حلب في جمع يزعمون أنه ثلاثمائة ألف، فانهزم قرب أعزاز على يد أهل حلب ومسلمي الثغور، وفرّ الإمبراطور متنكرًا ليلًا حتى نجا بنفسه، وغُنمت معسكره وأمواله — وهي رواية ابن الجوزي بأعداد الفاتحين {cite:muntazam-ibn-al-jawzi j.8 p.392-393}."
+  en: "In 421 the emperor of Rum marched on Aleppo with a host the account puts at three hundred thousand, and was routed near Azaz by the Aleppines and frontier Muslims; the emperor escaped by night in disguise while his camp was plundered — Ibn al-Jawzi's account with its victors' figures {cite:muntazam-ibn-al-jawzi j.8 p.392-393}."
+wings: [time]
+periods: [period/buyid-seljuk-fatimid-era]
+regions: [levant-iraq]
+date:
+  start: { edtf: "1030", hijri: "0421", calendar: julian, precision: year, status: tradition, derived: true }
+  end: { edtf: "1030", hijri: "0421", calendar: julian, precision: year, status: tradition, derived: true }
+relations:
+  - { type: occurred_at, target: place/aleppo, sources: [source/muntazam-ibn-al-jawzi] }
+sources: [source/kamil-ibn-al-athir, source/muntazam-ibn-al-jawzi]
+external_ids:
+  wikidata: Q2887924
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; battle attested in Arab-Byzantine histories — entry not yet checked on the page"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-wave2
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

@@ -1,0 +1,23 @@
+id: event/battle-of-zadvarje-1646
+class: event
+kind: battle
+label: { ar: "معركة زدفاريه", en: "Battle of Zadvarje (1646)" }
+summary:
+  ar: "بطاقة أولية لمعركة زدفاريه؛ لم تُراجع مصادره على الصفحة بعد."
+  en: "Draft card for Battle of Zadvarje (1646); its sources are not yet checked on the page."
+wings: [time]
+periods: [period/gunpowder-empires]
+regions: [andalus-europe]
+date:
+  start: { edtf: "1646", precision: year, status: tradition, derived: true }
+  end: { edtf: "1646", precision: year, status: tradition, derived: true }
+sources: [source/tarikh-islam-hasan-ibrahim]
+external_ids:
+  wikidata: Q97945413
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; event attested in narrative histories — entry not yet checked on the page"
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: wikidata-import-wave2
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 Medium)" }

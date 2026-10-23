@@ -1,0 +1,32 @@
+id: polity/lodi-dynasty
+class: polity
+kind: dynasty
+label:
+  ar: "الدولة اللودية"
+  en: "Lodi dynasty"
+summary:
+  ar: "بطاقة أولية للدولة اللودية، السلالة الأفغانية التي حكمت سلطنة دلهي من بهلول لودي سنة ١٤٥١ حتى معركة باني بت سنة ١٥٢٦م؛ لم تُراجع مصادرها على الصفحة بعد."
+  en: "Draft card for the Lodi dynasty, the Afghan house ruling the Delhi Sultanate from Bahlul Lodi in 1451 until Panipat in 1526; its sources are not yet checked on the page."
+wings: [time]
+periods: [period/mongol-post-mongol]
+regions: [south-asia]
+start:
+  edtf: "1451"
+  precision: year
+  status: tradition
+  derived: true
+end:
+  edtf: "1526"
+  precision: year
+  status: tradition
+  derived: true
+sources: [source/tarikh-islam-hasan-ibrahim]
+external_ids:
+  wikidata: Q11709
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; dynasty attested in Indian Islamic histories — entry not yet checked on the page"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-wave2
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

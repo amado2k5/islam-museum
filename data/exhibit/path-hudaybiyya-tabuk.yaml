@@ -1,0 +1,76 @@
+id: exhibit/path-hudaybiyya-tabuk
+class: exhibit
+kind: trail
+label:
+  ar: الحديبية إلى تبوك
+  en: Hudaybiyya to Tabuk
+summary:
+  ar: 'مسار في آخر سنوات السيرة: صلح الحديبية الفتح، وغزوة تبوك الأخيرة إلى أطراف الروم.'
+  en: A trail through the sira's last years.
+audience:
+- newcomer
+- student
+duration_minutes: 30
+wings: []
+regions:
+- arabia
+rooms:
+- title:
+    ar: الحديبية
+    en: Hudaybiyya
+  body:
+    ar: 'الصلح الذي سماه القرآن فتحًا: 6 هـ.'
+    en: 'الصلح الذي سماه القرآن فتحًا: 6 هـ.'
+  features:
+  - event/treaty-of-hudaybiyya
+  - place/mecca
+- title:
+    ar: عمرة القضاء
+    en: The missed umrah
+  body:
+    ar: 'النبي يعتمر بعد سنة: ثلاثة أيام في مكة.'
+    en: 'النبي يعتمر بعد سنة: ثلاثة أيام في مكة.'
+  features:
+  - place/mecca
+  - event/treaty-of-hudaybiyya
+- title:
+    ar: تبوك
+    en: Tabuk
+  body:
+    ar: 'جيش العسرة: آخر غزوات النبي 9 هـ.'
+    en: 'جيش العسرة: آخر غزوات النبي 9 هـ.'
+  features:
+  - event/expedition-to-tabuk
+  - event/tabuk-mobilisation-order
+- title:
+    ar: المسير
+    en: The march
+  body:
+    ar: 'من المدينة إلى تبوك: المساجد على الطريق.'
+    en: 'من المدينة إلى تبوك: المساجد على الطريق.'
+  features:
+  - event/prophets-mosques-between-medina-and-tabuk
+  - event/tabuk-departure-and-deputies
+- title:
+    ar: العودة
+    en: The return
+  body:
+    ar: 'أربعون يومًا بلا قتال: ثم رمضان وفطر.'
+    en: 'أربعون يومًا بلا قتال: ثم رمضان وفطر.'
+  features:
+  - event/tabuk-stay-and-return
+  - place/medina
+prerequisites:
+- exhibit/path-islam-in-30-minutes
+sources:
+- source/wikidata
+provenance:
+  layer: own-research
+  source: Devin-assembled trail from existing museum entities
+  generated_by: Devin (SWE-2 High)
+  model: SWE-2 High
+  run: pathways-batch-7
+status:
+  review: draft
+  completeness: 1
+  generated_by: Devin (SWE-2 High), pathways lane, 2026-10-16

@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 9:61 (سورة التوبة، الآية 61)."
 text: "وَمِنْهُمُ ٱلَّذِينَ يُؤْذُونَ ٱلنَّبِىَّ وَيَقُولُونَ هُوَ أُذُنٌ ۚ قُلْ أُذُنُ خَيْرٍ لَّكُمْ يُؤْمِنُ بِٱللَّهِ وَيُؤْمِنُ لِلْمُؤْمِنِينَ وَرَحْمَةٌ لِّلَّذِينَ ءَامَنُوا۟ مِنكُمْ ۚ وَٱلَّذِينَ يُؤْذُونَ رَسُولَ ٱللَّهِ لَهُمْ عَذَابٌ أَلِيمٌ"
 text_search: "ومنهم الذين يؤذون النبي ويقولون هو أذن ۚ قل أذن خير لكم يؤمن بالله ويؤمن للمؤمنين ورحمة للذين آمنوا منكم ۚ والذين يؤذون رسول الله لهم عذاب أليم"
+translations:
+  en: { text: "And of them are those who vex the Prophet and say: He is only a hearer. Say: A hearer of good for you, who believeth in Allah and is true to the believers, and a mercy for such of you as believe. Those who vex the messenger of Allah, for them there is a painful doom.", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "اور ان میں بعض ایسے ہیں جو پیغمبر کو ایذا دیتے ہیں اور کہتے ہیں کہ یہ شخص نرا کان ہے۔ (ان سے) کہہ دو کہ (وہ) کان (ہے تو) تمہاری بھلائی کے لیے۔ وہ خدا کا اور مومنوں (کی بات) کا یقین رکھتا ہے اور جو لوگ تم میں سے ایمان لائے ہیں ان کے لیے رحمت ہے۔ اور جو لوگ رسول خدا کو رنج پہنچاتے ہیں ان کے لیے عذاب الیم (تیار) ہے", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-9 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

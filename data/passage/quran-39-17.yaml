@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 39:17 (سورة الزمر، الآية 17)."
 text: "وَٱلَّذِينَ ٱجْتَنَبُوا۟ ٱلطَّـٰغُوتَ أَن يَعْبُدُوهَا وَأَنَابُوٓا۟ إِلَى ٱللَّهِ لَهُمُ ٱلْبُشْرَىٰ ۚ فَبَشِّرْ عِبَادِ"
 text_search: "والذين اجتنبوا الطاغوت أن يعبدوها وأنابوا إلى الله لهم البشرى ۚ فبشر عباد"
+translations:
+  en: { text: "And those who put away false gods lest they should worship them and turn to Allah in repentance, for them there are glad tidings. Therefor give good tidings (O Muhammad) to My bondmen", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "اور جنہوں نے اس سے اجتناب کیا کہ بتوں کو پوجیں اور خدا کی طرف رجوع کیا ان کے لئے بشارت ہے۔ تو میرے بندوں کو بشارت سنا دو", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-39 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

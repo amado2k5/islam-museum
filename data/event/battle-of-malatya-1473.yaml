@@ -1,0 +1,23 @@
+id: event/battle-of-malatya-1473
+class: event
+kind: battle
+label: { ar: "معركة ملطية (١٤٧٣)", en: "Battle of Malatya (1473)" }
+summary:
+  ar: "بطاقة أولية لمعركة ملطية سنة ١٤٧٣م، من مصادمات محمد الفاتح وأوزون حسن؛ لم تُراجع مصادره على الصفحة بعد."
+  en: "Draft card for the Battle of Malatya in 1473, an Ottoman–Aq Qoyunlu clash in the contest with Uzun Hasan; its sources are not yet checked on the page."
+wings: [time]
+periods: [period/crusades-ayyubid-mamluk]
+regions: [anatolia-balkans]
+date:
+  start: { edtf: "1473", precision: year, status: tradition, derived: true }
+  end: { edtf: "1473", precision: year, status: tradition, derived: true }
+sources: [source/tarikh-islam-hasan-ibrahim]
+external_ids:
+  wikidata: Q55703076
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; battle attested in narrative histories — entry not yet checked on the page"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-wave2
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

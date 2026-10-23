@@ -1,0 +1,23 @@
+id: person/al-mansur-ibn-bu-ghannam
+class: person
+label: { ar: "المنصور بن بو غنام", en: "al-Mansur b. Bu Ghannam" }
+names:
+  - { kind: full, lang: ar, value: "المنصور بن بو غنام" }
+gender: male
+roles: [military]
+summary:
+  ar: "القائد الذي تزعم جموع بني عامر وفليتة وبني راشد — الخاضعين للأسبان — في الجيش الذي جهزه حاكم وهران لإعادة أبي زيان أحمد الثاني إلى عرش تلمسان، فمنعهم حسن بن خير الدين {cite:dawlat-uthmaniyya-salabi p. 230}."
+  en: "The captain who led the Bani 'Amir, Fulitta and Bani Rashid levies — Spanish subjects — in the army Oran's governor sent to restore Abu Zayyan Ahmad II at Tlemcen; Hasan b. Khayr al-Din stopped them {cite:dawlat-uthmaniyya-salabi p. 230}."
+wings: [people]
+regions: [maghreb]
+periods: [period/gunpowder-empires]
+relations:
+  - { type: opposed, target: person/hasan-ibn-khayr-al-din, sources: [source/dawlat-uthmaniyya-salabi] }
+sources: [source/dawlat-uthmaniyya-salabi]
+provenance:
+  layer: own-research
+  source: "الدولة العثمانية لعلي محمد الصلابي (ط1 1421) ص 230"
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: salabi-uthmani-batch11
+status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 Medium)" }

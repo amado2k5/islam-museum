@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 3:125 (سورة آل عمران، الآية 125)."
 text: "بَلَىٰٓ ۚ إِن تَصْبِرُوا۟ وَتَتَّقُوا۟ وَيَأْتُوكُم مِّن فَوْرِهِمْ هَـٰذَا يُمْدِدْكُمْ رَبُّكُم بِخَمْسَةِ ءَالَـٰفٍ مِّنَ ٱلْمَلَـٰٓئِكَةِ مُسَوِّمِينَ"
 text_search: "بلى ۚ إن تصبروا وتتقوا ويأتوكم من فورهم هذا يمددكم ربكم بخمسة آلاف من الملائكة مسومين"
+translations:
+  en: { text: "Nay, but if ye persevere, and keep from evil, and (the enemy) attack you suddenly, your Lord will help you with five thousand angels sweeping on.", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "ہاں اگر تم دل کو مضبوط رکھو اور (خدا سے) ڈرتے رہو اور کافر تم پر جوش کے ساتھ دفعتہً حملہ کردیں تو پروردگار پانچ ہزار فرشتے جن پر نشان ہوں گے تمہاری مدد کو بھیجے گا", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-3 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

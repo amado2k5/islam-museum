@@ -1,0 +1,43 @@
+id: person/al-muqallad-ibn-al-musayyib
+class: person
+label:
+  ar: المقلد بن المسيب العقيلي حسام الدولة
+  en: Al-Muqallad ibn al-Musayyib (Husam al-Dawla)
+summary:
+  ar: "المقلد بن المسيب العقيلي الملقب حسام الدولة؛ استمال الديلم بالموصل وكتب إلى بهاء الدولة يضمنها بألفي ألف درهم كل سنة فتملكها، وجلس له القادر باللّه ولقبه حسام الدولة وقطع له الموصل والكوفة والقصر والجامعين، وملك دقوقا بعدما كانت لنصرانيين، وقبض على أخيه علي وحبسه ثم وقع الصلح بينهما."
+  en: "Al-Muqallad ibn al-Musayyib al-Uqayli, titled Husam al-Dawla; he won over the Daylamites at Mosul and wrote to Baha' al-Dawla contracting the city for two million dirhams yearly, took it, and was seated by the caliph al-Qadir who enfeoffed him Mosul, Kufa, al-Qasr and the two congregational towns; he took Daquqa from its two Christian lords, imprisoned his brother Ali then reconciled, and was father of Qirwash and Badran."
+gender: male
+roles: [ruler]
+traditions: [sunni]
+relations:
+- type: member_of
+  target: group/banu-uqayl
+  sources:
+  - source/tarikh-ibn-khaldun-ibar
+- type: ruler_of
+  target: polity/uqaylid-dynasty
+  sources:
+  - source/tarikh-ibn-khaldun-ibar
+- type: successor_of
+  target: person/muhammad-ibn-al-musayyib
+  sources:
+  - source/tarikh-ibn-khaldun-ibar
+- type: parent_of
+  target: person/qirwash-ibn-al-muqallad
+  sources:
+  - source/tarikh-ibn-khaldun-ibar
+wings: [people]
+periods: [period/buyid-seljuk-fatimid-era]
+regions: [levant-iraq]
+sources:
+- source/tarikh-ibn-khaldun-ibar
+provenance:
+  layer: own-research
+  source: ابن خلدون، العبر — مهلك أبي الدرداء وولاية المقلد، ص1064-1065 (طبعة هيليوبوليس)
+  generated_by: Devin (SWE-2 High) from Apple Vision OCR
+  model: swe-2-high
+  run: lib-ibar-east-1
+status:
+  review: draft
+  completeness: 1
+  generated_by: Devin (SWE-2 High); extracted from Ibn Khaldun al-Ibar via Apple Vision OCR

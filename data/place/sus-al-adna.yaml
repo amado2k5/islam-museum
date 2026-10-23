@@ -1,0 +1,19 @@
+id: place/sus-al-adna
+class: place
+kind: region
+label: { ar: "السوس الأدنى", en: "Sus al-Adna" }
+summary:
+  ar: "السوس الأدنى إقليم خلف طنجة وبينه وبين السوس الأقصى نيف وعشرون يوماً؛ جوّل فيه عقبة بن نافع في ولايته الثانية للمغرب لا يعرض له أحد ولا يقاتله، وانتهت خيل موسى بن نصير إليه فوطن أهله وسبى منهم."
+  en: "Sus al-Adna, the province beyond Tangier — some twenty-odd days short of Sus al-Aqsa; Uqba ibn Nafi' roamed it in his second Maghreb charge with none confronting or fighting him, and Musa ibn Nusayr's cavalry reached it, settling its people and taking captives."
+wings: [place]
+periods: [period/umayyad]
+regions: [maghreb]
+relations:
+  - { type: site_of, target: event/conquest-of-tanja, sources: [source/futuh-buldan-maarif-1407] }
+provenance:
+  layer: own-research
+  source: "فتوح البلدان (ط مؤسسة المعارف 1407هـ/1987م) ص 320، 322"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-futuh-buldan-batch-21
+sources: [source/futuh-buldan-maarif-1407]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

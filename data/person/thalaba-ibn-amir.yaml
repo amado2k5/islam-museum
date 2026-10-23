@@ -1,0 +1,19 @@
+id: person/thalaba-ibn-amir
+class: person
+label: { ar: "ثعلبة بن عمرو مزيقياء", en: "Tha'laba ibn Amr Muzayqiya" }
+summary:
+  ar: "أكبر أبناء عمرو بن عامر مزيقياء، وجدّ الأوس والخزرج؛ على نقل رزين الذي أورده السمهودي هو الذي أخرج جُرهمًا من مكة هو وإخوته ومن خرج معهم من الأزد، وأن أباه عمرو بن عامر توفي قبل غلبته على جرهم {cite:samhudi-wafa-al-wafa p. 179}."
+  en: "Eldest son of 'Amr ibn 'Amir Muzayqiya and ancestor of the Aws and Khazraj; on Razin's account quoted by al-Samhudi, it was he — with his brothers and the Azd who went with them — who drove Jurhum out of Mecca, his father having died before that victory {cite:samhudi-wafa-al-wafa p. 179}."
+gender: male
+wings: [people]
+periods: [period/pre-islamic-arabia]
+regions: [arabia]
+relations:
+  - { type: child_of, target: person/amr-ibn-amir-muzayqiya, sources: [source/samhudi-wafa-al-wafa] }
+sources: [source/samhudi-wafa-al-wafa]
+provenance:
+  layer: own-research
+  source: "وفاء الوفاء للسمهودي (ط محيي الدين عبد الحميد) ص 179"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: geo-wafa-al-wafa-2
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

@@ -1,0 +1,25 @@
+id: person/ibn-al-khayr-al-azji
+class: person
+label: { ar: "ابن الخير العزجي", en: "Ibn al-Khayr al-Azji" }
+names:
+  - { value: "الحافظ أبو عبد الله محمد بن أحمد بن محمد بن علي ابن الخير العزجي الإشبيلي ثم الديمرسي الشافعي المقرئ", kind: full }
+born: { edtf: "1158", hijri: "0553", calendar: julian, precision: year, status: tradition, derived: true, note: "ولد سنة ثلاث وخمسين وخمسمائة {cite:shadharat-dhahab p. 248}." }
+died: { edtf: "1250-08~", hijri: "0648-04-17~", calendar: julian, precision: day, status: tradition, derived: true, note: "توفي في سابع عشر ربيع الآخر من سنة ثمان وأربعين وستمائة {cite:shadharat-dhahab p. 249}." }
+summary:
+  ar: "الحافظ المقرئ؛ ولد سنة ثلاث وخمسين وخمسمائة وسمع من أبي الحسن القابسي وابن الباجي وابن عطية وجماعة، وناب في القضاء في بلداء وكان نظار الأوقاف، وكان معروفاً بالديانة والصدق والعلم {cite:shadharat-dhahab p. 248-249}."
+  en: "Hafiz and muqri' of Seville then Dumayra (b. 553, d. 17 Rabi' II 648) — deputy-qadi and overseer of the awqaf, known for piety and precision {cite:shadharat-dhahab p. 248-249}."
+gender: male
+roles: [scholar, jurist, muhaddith]
+wings: [people]
+periods: [period/crusades-ayyubid-mamluk]
+regions: [andalus-europe]
+faith:
+  - value: sunni-shafii
+    basis: tradition
+sources: [source/shadharat-dhahab]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }
+provenance:
+  layer: own-research
+  source: "شذرات الذهب — ابن العماد (ج5، سنة 648)، قراءة آبل فيجن"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-shadharat-batch-128

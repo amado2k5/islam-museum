@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 10:49 (سورة يونس، الآية 49)."
 text: "قُل لَّآ أَمْلِكُ لِنَفْسِى ضَرًّا وَلَا نَفْعًا إِلَّا مَا شَآءَ ٱللَّهُ ۗ لِكُلِّ أُمَّةٍ أَجَلٌ ۚ إِذَا جَآءَ أَجَلُهُمْ فَلَا يَسْتَـْٔخِرُونَ سَاعَةً ۖ وَلَا يَسْتَقْدِمُونَ"
 text_search: "قل لا أملك لنفسي ضرا ولا نفعا إلا ما شاء الله ۗ لكل أمة أجل ۚ إذا جاء أجلهم فلا يستأخرون ساعة ۖ ولا يستقدمون"
+translations:
+  en: { text: "Say: I have no power to hurt or benefit myself, save that which Allah willeth. For every nation there is an appointed time. When their time cometh, then they cannot put it off an hour, nor hasten (it).", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "کہہ دو کہ میں اپنے نقصان اور فائدے کا بھی کچھ اختیار نہیں رکھتا۔ مگر جو خدا چاہے۔ ہر ایک امت کے لیے (موت کا) ایک وقت مقرر ہے۔ جب وہ وقت آجاتا ہے تو ایک گھڑی بھی دیر نہیں کرسکتے اور نہ جلدی کرسکتے ہیں", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-10 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

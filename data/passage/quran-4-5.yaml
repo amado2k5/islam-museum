@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 4:5 (سورة النساء، الآية 5)."
 text: "وَلَا تُؤْتُوا۟ ٱلسُّفَهَآءَ أَمْوَٰلَكُمُ ٱلَّتِى جَعَلَ ٱللَّهُ لَكُمْ قِيَـٰمًا وَٱرْزُقُوهُمْ فِيهَا وَٱكْسُوهُمْ وَقُولُوا۟ لَهُمْ قَوْلًا مَّعْرُوفًا"
 text_search: "ولا تؤتوا السفهاء أموالكم التي جعل الله لكم قياما وارزقوهم فيها واكسوهم وقولوا لهم قولا معروفا"
+translations:
+  en: { text: "Give not unto the foolish (what is in) your (keeping of their) wealth, which Allah hath given you to maintain; but feed and clothe them from it, and speak kindly unto them.", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "اور بےعقلوں کو ان کا مال جسے خدا نے تم لوگوں کے لئے سبب معیشت بنایا ہے مت دو (ہاں) اس میں سے ان کو کھلاتے اور پہناتے رہے اور ان سے معقول باتیں کہتے رہو", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-4 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

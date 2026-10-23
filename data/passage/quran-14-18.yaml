@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 14:18 (سورة إبراهيم، الآية 18)."
 text: "مَّثَلُ ٱلَّذِينَ كَفَرُوا۟ بِرَبِّهِمْ ۖ أَعْمَـٰلُهُمْ كَرَمَادٍ ٱشْتَدَّتْ بِهِ ٱلرِّيحُ فِى يَوْمٍ عَاصِفٍ ۖ لَّا يَقْدِرُونَ مِمَّا كَسَبُوا۟ عَلَىٰ شَىْءٍ ۚ ذَٰلِكَ هُوَ ٱلضَّلَـٰلُ ٱلْبَعِيدُ"
 text_search: "مثل الذين كفروا بربهم ۖ أعمالهم كرماد اشتدت به الريح في يوم عاصف ۖ لا يقدرون مما كسبوا على شيء ۚ ذلك هو الضلال البعيد"
+translations:
+  en: { text: "A similitude of those who disbelieve in their Lord: Their works are as ashes which the wind bloweth hard upon a stormy day. They have no control of aught that they have earned. That is the extreme failure.", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "جن لوگوں نے اپنے پروردگار سے کفر کیا ان کے اعمال کی مثال راکھ کی سی ہے کہ آندھی کے دن اس پر زور کی ہوا چلے (اور) اسے اڑا لے جائے (اس طرح) جو کام وہ کرتے رہے ان پر ان کو کچھ دسترس نہ ہوگی۔ یہی تو پرلے سرے کی گمراہی ہے", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-14 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

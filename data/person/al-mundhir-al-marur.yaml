@@ -1,0 +1,26 @@
+id: person/al-mundhir-al-marur
+class: person
+label: { ar: "المنذر المعرور", en: "al-Mundhir al-Ma'rur" }
+names:
+  - { kind: laqab, lang: ar, value: "المعرور" }
+  - { kind: full, lang: ar, value: "المنذر بن النعمان اللخمي الملقب بالمعرور" }
+gender: male
+roles: [ruler]
+summary:
+  ar: "آخر ملوك آل لخم على الحيرة: في سنة 632م عاد الملك إلى آل لخم فولي منهم المنذر الملقب بالمعرور، ولم تزد ولايته على ثمانية أشهر حتى قدم عليه خالد بن الوليد بعساكر المسلمين، في رواية الرحيق المختوم عن الخضري."
+  en: "The last Lakhmid king of al-Hira: in 632 the kingship returned to the house of Lakhm in al-Mundhir called al-Ma'rur, whose rule lasted no more than eight months before Khalid ibn al-Walid arrived with the Muslim armies, in al-Raheeq al-Makhtum's account after al-Khudari."
+wings: [people]
+themes: [wars-and-campaigns]
+periods: [period/pre-islamic-arabia, period/rashidun]
+regions: [levant-iraq]
+relations:
+  - { type: member_of, target: group/banu-lakhm, sources: [source/mubarakpuri-raheeq] }
+  - { type: ruler_of, target: place/al-hira, start: { edtf: "0632", calendar: julian, precision: year, status: tradition }, note: "ثمانية أشهر فقط.", sources: [source/mubarakpuri-raheeq, source/muhadarat-tarikh-al-umam-al-islamiyya] }
+provenance:
+  layer: own-research
+  source: "الرحيق المختوم ص25–28 و40 نقلاً عن محاضرات تاريخ الأمم الإسلامية للخضري 1/29–34 وتاريخ أرض القرآن 2/80–82 وتفهيم القرآن 6/297–298"
+  generated_by: "Claude Code"
+  model: "claude-fable-5-1"
+  run: "raheeq-prose-batch-2b"
+sources: [source/mubarakpuri-raheeq, source/muhadarat-tarikh-al-umam-al-islamiyya]
+status: { review: draft, completeness: 1, generated_by: "Claude Code (claude-fable-5-1); al-Raheeq al-Makhtum p. 27" }

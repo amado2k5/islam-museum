@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 26:85 (سورة الشعراء، الآية 85)."
 text: "وَٱجْعَلْنِى مِن وَرَثَةِ جَنَّةِ ٱلنَّعِيمِ"
 text_search: "واجعلني من ورثة جنة النعيم"
+translations:
+  en: { text: "And place me among the inheritors of the Garden of Delight,", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "اور مجھے نعمت کی بہشت کے وارثوں میں کر", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-26 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

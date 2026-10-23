@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 26:162 (سورة الشعراء، الآية 162)."
 text: "إِنِّى لَكُمْ رَسُولٌ أَمِينٌ"
 text_search: "إني لكم رسول أمين"
+translations:
+  en: { text: "Lo! I am a faithful messenger unto you,", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "میں تو تمہارا امانت دار پیغمبر ہوں", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-26 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

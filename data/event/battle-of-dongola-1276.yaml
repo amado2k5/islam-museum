@@ -1,0 +1,23 @@
+id: event/battle-of-dongola-1276
+class: event
+kind: battle
+label: { ar: "معركة دنقلة (١٢٧٦)", en: "Battle of Dongola" }
+summary:
+  ar: "بطاقة أولية لمعركة دنقلة سنة ١٢٧٦م، حملة المماليك على مملكة مكرّة النوبية؛ لم تُراجع مصادره على الصفحة بعد."
+  en: "Draft card for the Battle of Dongola in 1276, the Mamluk expedition against Nubian Makuria; its sources are not yet checked on the page."
+wings: [time]
+periods: [period/crusades-ayyubid-mamluk]
+regions: [east-africa]
+date:
+  start: { edtf: "1276", precision: year, status: tradition, derived: true }
+  end: { edtf: "1276", precision: year, status: tradition, derived: true }
+sources: [source/tarikh-islam-hasan-ibrahim]
+external_ids:
+  wikidata: Q110192510
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; battle attested in narrative histories — entry not yet checked on the page"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-wave2
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

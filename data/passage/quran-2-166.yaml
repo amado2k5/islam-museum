@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 2:166 (سورة البقرة، الآية 166)."
 text: "إِذْ تَبَرَّأَ ٱلَّذِينَ ٱتُّبِعُوا۟ مِنَ ٱلَّذِينَ ٱتَّبَعُوا۟ وَرَأَوُا۟ ٱلْعَذَابَ وَتَقَطَّعَتْ بِهِمُ ٱلْأَسْبَابُ"
 text_search: "إذ تبرأ الذين اتبعوا من الذين اتبعوا ورأوا العذاب وتقطعت بهم الأسباب"
+translations:
+  en: { text: "(On the day) when those who were followed disown those who followed (them), and they behold the doom, and all their aims collapse with them.", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "اس دن (کفر کے) پیشوا اپنے پیرووں سے بیزاری ظاہر کریں گے اور (دونوں) عذاب (الہیٰ) دیکھ لیں گے اور ان کے آپس کے تعلقات منقطع ہوجائیں گے", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-2 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 28:83 (سورة القصص، الآية 83)."
 text: "تِلْكَ ٱلدَّارُ ٱلْـَٔاخِرَةُ نَجْعَلُهَا لِلَّذِينَ لَا يُرِيدُونَ عُلُوًّا فِى ٱلْأَرْضِ وَلَا فَسَادًا ۚ وَٱلْعَـٰقِبَةُ لِلْمُتَّقِينَ"
 text_search: "تلك الدار الآخرة نجعلها للذين لا يريدون علوا في الأرض ولا فسادا ۚ والعاقبة للمتقين"
+translations:
+  en: { text: "As for that Abode of the Hereafter We assign it unto those who seek not oppression in the earth, nor yet corruption. The sequel is for those who ward off (evil).", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "وہ (جو) آخرت کا گھر (ہے) ہم نے اُسے اُن لوگوں کے لئے (تیار) کر رکھا ہے جو ملک میں ظلم اور فساد کا ارادہ نہیں رکھتے اور انجام (نیک) تو پرہیزگاروں ہی کا ہے", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-28 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

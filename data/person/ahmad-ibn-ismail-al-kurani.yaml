@@ -1,0 +1,30 @@
+id: person/ahmad-ibn-ismail-al-kurani
+class: person
+label:
+  ar: "أحمد بن إسماعيل الكوراني"
+  en: "Ahmad ibn Ismail al-Kurani"
+names:
+  - { kind: full, lang: ar, value: "أحمد بن إسماعيل الكوراني" }
+  - { kind: kunya, lang: ar, value: "المولى الكوراني" }
+gender: male
+roles: [scholar]
+summary:
+  ar: "أحمد بن إسماعيل الكوراني، «العالم الرباني» الذي ولّاه السلطان مراد الثاني تعليم ولده محمد وهو أمير على مغنيسيا؛ كان الأمير قد أبى الامتثال لمعلمين قبله حتى لم يختم القرآن، فأعطاه السلطان قضيباً يضربه به إن خالف أمره، فدخل عليه والقضيب بيده وقال: «أرسلني والدك للتعليم والضرب إذا خالفت أمري»، فضحك الأمير فضربه في ذلك المجلس ضرباً شديداً حتى خاف منه، وختم القرآن في مدة يسيرة {cite:dawlat-uthmaniyya-salabi p. 90-91}. ويصفه الصلابي بأنه مشهود له بالفضيلة التامة، ممن يمزق الأمر السلطاني إن وجد فيه مخالفة للشرع، ويخاطب السلطان باسمه ولا يقبل يده بل السلطان يقبل يده {cite:dawlat-uthmaniyya-salabi p. 90-91}، وأنه أيد في مجلس الشورى قبل الاقتحام رأي زوغنوش باشا بالاستمرار {cite:dawlat-uthmaniyya-salabi p. 106}."
+  en: "Ahmad ibn Ismail al-Kurani, 'the godly scholar' whom Murad II appointed to teach his son Mehmed when the prince was governor of Manisa; earlier tutors had failed — the boy had not even finished a Qur'an recitation — so the sultan gave al-Kurani a rod to beat him if he disobeyed. The scholar entered, rod in hand: 'Your father sent me to teach you and to beat you if you disobey'; the prince laughed, and was beaten so soundly he feared him and completed the Qur'an soon after {cite:dawlat-uthmaniyya-salabi p. 90-91}. Al-Salabi describes him as one who would tear up a sultanic order that contravened the shari'a, address the sultan by name and never kiss his hand {cite:dawlat-uthmaniyya-salabi p. 90-91}, and he backed Zaganos at the final war council {cite:dawlat-uthmaniyya-salabi p. 106}."
+wings: [people]
+regions: [anatolia-balkans]
+periods: [period/mongol-post-mongol]
+relations:
+  - { type: participated_in, target: event/conquest-constantinople-857, role: "شيخ في مجلس الشورى", sources: [source/dawlat-uthmaniyya-salabi] }
+sources: [source/dawlat-uthmaniyya-salabi]
+external_ids:
+  wikidata: Q206059
+provenance:
+  layer: own-research
+  source: "الدولة العثمانية لعلي محمد الصلابي (ط1 1421) ص 90-91، 106"
+  generated_by: "Devin (SWE-2 Medium) from Apple Vision OCR"
+  model: "SWE-2 Medium"
+  run: lib-salabi-uthmani-batch-5
+status:
+  review: draft
+  completeness: 2

@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 46:7 (سورة الأحقاف، الآية 7)."
 text: "وَإِذَا تُتْلَىٰ عَلَيْهِمْ ءَايَـٰتُنَا بَيِّنَـٰتٍ قَالَ ٱلَّذِينَ كَفَرُوا۟ لِلْحَقِّ لَمَّا جَآءَهُمْ هَـٰذَا سِحْرٌ مُّبِينٌ"
 text_search: "وإذا تتلى عليهم آياتنا بينات قال الذين كفروا للحق لما جاءهم هذا سحر مبين"
+translations:
+  en: { text: "And when Our clear revelations are recited unto them, those who disbelieve say of the Truth when it reacheth them: This is mere magic.", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "اور جب ان کے سامنے ہماری کھلی آیتیں پڑھی جاتی ہیں تو کافر حق کے بارے میں جب ان کے پاس آچکا کہتے ہیں کہ یہ تو صریح جادو ہے", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-46 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

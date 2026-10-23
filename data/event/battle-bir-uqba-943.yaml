@@ -1,0 +1,23 @@
+id: event/battle-bir-uqba-943
+class: event
+kind: battle
+label: { ar: "موقعة بئر عقبة (٩٤٣هـ/١٥٣٦م)", en: "Battle of Bi'r 'Uqba (1536)" }
+summary:
+  ar: "الموقعة التي هُزم فيها الملك الوطاسي أحمد أمام السعديين قرب وادي العبيد سنة ٩٤٣هـ/١٥٣٦م، بسبب تخلي قبائل الخلوط التي كانت القوة الأمامية للجيش الوطاسي ونشرها الفوضى في سائر الجيش. قرّبت الهزيمة أحمد الوطاسي من البرتغال فوقّع معها معاهدة أحد عشر عاماً {cite:dawlat-uthmaniyya-salabi p. 221}."
+  en: "The 943/1536 battle near Wadi al-'Abid where the Sa'dis defeated Wattasid king Ahmad — the Khalut tribes who formed his vanguard deserted and spread chaos through his army; the defeat drove him into his eleven-year treaty with Portugal {cite:dawlat-uthmaniyya-salabi p. 221}."
+wings: [time]
+periods: [period/gunpowder-empires]
+regions: [maghreb]
+date:
+  start: { edtf: "1536", hijri: "0943", calendar: julian, precision: year, status: tradition, derived: true, sources: [source/dawlat-uthmaniyya-salabi] }
+relations:
+  - { type: had_participant, target: person/ahmad-al-wattasi, sources: [source/dawlat-uthmaniyya-salabi] }
+  - { type: had_participant, target: person/ahmad-al-araj-al-sadi, sources: [source/dawlat-uthmaniyya-salabi] }
+sources: [source/dawlat-uthmaniyya-salabi]
+provenance:
+  layer: own-research
+  source: "الدولة العثمانية لعلي محمد الصلابي (ط1 1421) ص 221"
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: salabi-uthmani-batch9
+status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 Medium)" }

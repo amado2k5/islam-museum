@@ -1,0 +1,23 @@
+id: person/mankubars-al-falaqi
+class: person
+label: { ar: "منكوبرس الفلكي", en: "Mankubars al-Falaqi" }
+names:
+  - { value: "الأمير ركن الدين منكوبرس مملوك فلك الدين أخي العادل", kind: full }
+died: { edtf: "1234~", hijri: "0631", calendar: julian, precision: year, status: tradition, derived: true, note: "توفي بجرود سنة إحدى وثلاثين وحمل فدفن في تربته بقاسيون {cite:shadharat-dhahab p. 147}." }
+summary:
+  ar: "الأمير ركن الدين منكوبرس مملوك فلك الدين أخي العادل؛ كان ديناً صالحاً عفيفاً ملازماً لجامع بني أمية، وله بقاسيون مدرسة وتربة أوقف عليها شيئاً كثيراً وداخل دمشق مدرسة كبيرة للشافعية وقرية جرود وقف عليهما؛ توفي بجرود وحمل فدفن في تربته بقاسيون {cite:shadharat-dhahab p. 147}."
+  en: "Amir Rukn al-Din Mankubars al-Falaqi (d. 631) — mamluk of al-Adil's brother Fakhr al-Din; a devout man devoted to the Umayyad mosque, whose endowments raised a madrasa and tomb at Qasyun and a great Shafi'i madrasa inside Damascus {cite:shadharat-dhahab p. 147}."
+gender: male
+roles: [commander]
+wings: [people]
+periods: [period/crusades-ayyubid-mamluk]
+regions: [levant-iraq]
+relations:
+  - { type: died_in, target: place/damascus, sources: [source/shadharat-dhahab] }
+sources: [source/shadharat-dhahab]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }
+provenance:
+  layer: own-research
+  source: "شذرات الذهب — ابن العماد (ج5، سنة 631)، قراءة آبل فيجن"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-shadharat-batch-125

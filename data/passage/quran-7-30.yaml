@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 7:30 (سورة الأعراف، الآية 30)."
 text: "فَرِيقًا هَدَىٰ وَفَرِيقًا حَقَّ عَلَيْهِمُ ٱلضَّلَـٰلَةُ ۗ إِنَّهُمُ ٱتَّخَذُوا۟ ٱلشَّيَـٰطِينَ أَوْلِيَآءَ مِن دُونِ ٱللَّهِ وَيَحْسَبُونَ أَنَّهُم مُّهْتَدُونَ"
 text_search: "فريقا هدى وفريقا حق عليهم الضلالة ۗ إنهم اتخذوا الشياطين أولياء من دون الله ويحسبون أنهم مهتدون"
+translations:
+  en: { text: "A party hath He led aright, while error hath just hold over (another) party, for lo! they choose the devils for protecting supporters instead of Allah and deem that they are rightly guided.", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "ایک فریق کو تو اس نے ہدایت دی اور ایک فریق پر گمراہی ثابت ہوچکی۔ ان لوگوں نے خدا کو چھوڑ کر شیطانوں کو رفیق بنا لیا اور سمجھتے (یہ) ہیں کہ ہدایت یاب ہیں", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-7 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

@@ -1,0 +1,23 @@
+id: event/battle-of-setif-1153
+class: event
+kind: battle
+label: { ar: "معركة سطيف (١١٥٣)", en: "Battle of Sétif (1153)" }
+summary:
+  ar: "بطاقة أولية لمعركة سطيف سنة ١١٥٣م، انتصار الموحدين على ملكية صقلية النورمانية؛ لم تُراجع مصادره على الصفحة بعد."
+  en: "Draft card for the Battle of Sétif in 1153, the Almohad victory over Norman Sicily's forces; its sources are not yet checked on the page."
+wings: [time]
+periods: [period/crusades-ayyubid-mamluk]
+regions: [maghreb]
+date:
+  start: { edtf: "1153", precision: year, status: tradition, derived: true }
+  end: { edtf: "1153", precision: year, status: tradition, derived: true }
+sources: [source/tarikh-islam-hasan-ibrahim]
+external_ids:
+  wikidata: Q30753691
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; battle attested in narrative histories — entry not yet checked on the page"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-wave2
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

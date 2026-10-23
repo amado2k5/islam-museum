@@ -1,0 +1,25 @@
+id: event/khita-jayhun-568
+class: event
+kind: battle
+label: { ar: "عبور الخطا جيحون والحرب بينهم وبين خوارزمشاه", en: "the Khitā cross the Jayḥūn — war with the Khwārazmshāh" }
+date:
+  start: { edtf: "1172~", hijri: "0568", calendar: julian, precision: year, status: tradition, derived: true }
+summary:
+  ar: "عبرت الخطا جيحون وجرت الحرب بينهم وبين إيل أرسلان خوارزمشاه، وهو أول ظهور دولة الخطا — قرا ختائي — بما وراء النهر بعد زوال دولة السلاجقة {cite:kamil-ibn-al-athir p. 37}."
+  en: "The Khitā — the Qarā Khiṭāy — crossed the Jayḥūn and war ran between them and Khwārazmshāh Īl-Arslān: the first reach of their dominion beyond the river after the Seljuk state had fallen {cite:kamil-ibn-al-athir p. 37}."
+sides:
+- label: { ar: "الخطا (قرا ختائي)", en: "the Qarā Khiṭāy" }
+- label: { ar: "خوارزمشاه", en: "the Khwārazmshāh's army" }
+  commanders: [person/il-arslan-khwarazmshah]
+
+relations:
+  - { type: occurred_at, target: place/jayhun, sources: [source/kamil-ibn-al-athir] }
+  - { type: had_participant, target: person/il-arslan-khwarazmshah, sources: [source/kamil-ibn-al-athir] }
+  - { type: had_participant, target: group/qara-khitay, sources: [source/kamil-ibn-al-athir] }
+provenance:
+  layer: own-research
+  source: "الكامل في التاريخ لابن الأثير، قراءة آبل فيجن"
+  generated_by: "Devin (SWE-2 Medium) from Apple Vision OCR"
+  run: lib-kamil-v12-batch01
+sources: [source/kamil-ibn-al-athir]
+status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 Medium)" }

@@ -5,7 +5,7 @@ label: { en: "The dispatch of the sadaqa collectors", ar: "بعث المُصَد
 summary:
   en: "With the new moon of Muharram 9 AH the Prophet sent the musaddiqun — alms-tax collectors — to the tribes: Uyayna ibn Hisn to Banu Tamim, Yazid ibn al-Husayn to Aslam and Ghifar, Abbad ibn Bishr to Sulaym and Muzayna, Rafi' ibn Makith to Juhayna, Amr ibn al-As to Banu Fazara, al-Dahhak ibn Sufyan to Banu Kilab, Bashir ibn Sufyan to Banu Ka'b, Ibn al-Lutbiyya to Banu Dhubyan, al-Muhajir ibn Abi Umayya to San'a', Ziyad ibn Labid to Hadramawt, Adi ibn Hatim to Tayy' and Banu Asad, Malik ibn Nuwayra to Banu Hanzala, al-Zibriqan ibn Badr and Qays ibn Asim to parts of Banu Sa'd, al-Ala ibn al-Hadrami to Bahrayn, and Ali ibn Abi Talib to Najran for sadaqa and jizya alike."
   ar: "مع استهلال هلال المحرم سنة 9هـ بعث النبي المصدقين جامعي الصدقات إلى القبائل: عيينة بن حصن إلى بني تميم، ويزيد بن الحصين إلى أسلم وغفار، وعباد بن بشر إلى سليم ومزينة، ورافع بن مكيث إلى جهينة، وعمرو بن العاص إلى بني فزارة، والضحاك بن سفيان إلى بني كلاب، وبشير بن سفيان إلى بني كعب، وابن اللتبية الأزدي إلى بني ذبيان، والمهاجر بن أبي أمية إلى صنعاء، وزياد بن لبيد إلى حضرموت، وعدي بن حاتم إلى طيء وبني أسد، ومالك بن نويرة إلى بني حنظلة، والزبرقان بن بدر وقيس بن عاصم إلى بني سعد، والعلاء بن الحضرمي إلى البحرين، وعلي بن أبي طالب إلى نجران لجمع الصدقة والجزية كليهما؛ ولم يبعثوا كلهم في المحرم بل تأخر بعث بعضهم إلى إسلام قبائلهم."
-wings: [time, people]
+wings: [time]
 themes: [converts-and-leavers]
 periods: [period/prophetic-era]
 regions: [arabia]
@@ -19,6 +19,11 @@ relations:
   - { type: had_participant, target: person/al-zibriqan-ibn-badr, role: collector-to-a-part-of-banu-sad, sources: [source/mubarakpuri-raheeq] }
   - { type: had_participant, target: person/qays-ibn-asim, role: collector-to-a-part-of-banu-sad, sources: [source/mubarakpuri-raheeq] }
   - { type: had_participant, target: person/al-dahhak-ibn-sufyan, role: collector-to-banu-kilab, sources: [source/mubarakpuri-raheeq] }
+  - { type: had_participant, target: person/al-muhajir-ibn-abi-umayya, role: "إلى صنعاء؛ خرج عليه العنسي وهو بها", sources: [source/ibn-hisham-saqqa] }
+  - { type: had_participant, target: person/ziyad-ibn-labid-al-bayadi, role: "إلى حضرموت وصدقاتها", sources: [source/ibn-hisham-saqqa] }
+  - { type: had_participant, target: person/malik-ibn-nuwayra, role: "على صدقات بني حنظلة؛ قال ابن هشام: اليربوعي", sources: [source/ibn-hisham-saqqa] }
+  - { type: had_participant, target: person/ali-ibn-abi-talib, role: "إلى أهل نجران ليجمع صدقتهم ويقدم بجزيتهم", sources: [source/ibn-hisham-saqqa] }
   - { type: part_of, target: period/prophetic-era }
-sources: [source/mubarakpuri-raheeq]
-status: { review: draft, completeness: 1, generated_by: "Devin; al-Raheeq al-Makhtum pp. 424-425" }
+provenance: { layer: own-research, source: "sira-ibn-hisham saqqa 1936, juz' 4 pp. 246-247; al-Raheeq al-Makhtum pp. 424-425", generated_by: "Devin; extended by Claude Code", model: "claude-fable-5-1", run: "ibn-hisham-batch-9c" }
+sources: [source/mubarakpuri-raheeq, source/ibn-hisham-saqqa]
+status: { review: draft, completeness: 2, generated_by: "Devin; al-Raheeq al-Makhtum pp. 424-425; extended by Claude Fable 5.1 from Ibn Hisham juz' 4 pp. 246-247" }

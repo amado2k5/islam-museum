@@ -1,0 +1,23 @@
+id: event/ashraf-jalal-war-623
+class: event
+kind: war
+label: { ar: "الحرب بين عسكر الأشرف وعسكر جلال الدين", en: "War between al-Ashraf's and Jalal al-Din's armies" }
+date:
+  start: { edtf: "1226~", hijri: "0623", calendar: julian, precision: year, status: tradition, derived: true }
+summary:
+  ar: "جرت الحرب بين عسكر الملك الأشرف وعسكر جلال الدين بن خوارزم شاه في بلاد الجزيرة {cite:kamil-ibn-al-athir p. 463}."
+  en: "al-Ashraf's and Jalal al-Din's armies clashed in the Jazira {cite:kamil-ibn-al-athir p. 463}."
+sides:
+  - label: { ar: "المسلمون وخصومهم" }
+  - label: { ar: "الطرف الآخر" }
+relations:
+  - { type: occurred_at, target: place/jazira, sources: [source/kamil-ibn-al-athir] }
+  - { type: had_participant, target: person/al-malik-al-ashraf, role: "طرف", sources: [source/kamil-ibn-al-athir] }
+  - { type: had_participant, target: person/jalal-al-din-khwarazmshah, role: "طرف", sources: [source/kamil-ibn-al-athir] }
+provenance:
+  layer: own-research
+  source: "الكامل في التاريخ لابن الأثير، قراءة آبل فيجن"
+  generated_by: "Devin (SWE-2 Medium) from Apple Vision OCR"
+  run: lib-kamil-v12-batch08
+sources: [source/kamil-ibn-al-athir]
+status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 Medium)" }

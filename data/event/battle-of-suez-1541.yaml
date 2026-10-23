@@ -1,0 +1,23 @@
+id: event/battle-of-suez-1541
+class: event
+kind: battle
+label: { ar: "وقعة السويس (١٥٤١)", en: "Battle of Suez (1541)" }
+summary:
+  ar: "بطاقة أولية لوقعة السويس سنة ١٥٤١م، هجوم البرتغاليين على المدينة العثمانية ورده؛ لم تُراجع مصادره على الصفحة بعد."
+  en: "Draft card for the Battle of Suez in 1541, the Portuguese raid on the Ottoman port and its repulse; its sources are not yet checked on the page."
+wings: [time]
+periods: [period/gunpowder-empires]
+regions: [egypt-nile]
+date:
+  start: { edtf: "1541-04", precision: year, status: tradition, derived: true }
+  end: { edtf: "1541-04", precision: year, status: tradition, derived: true }
+sources: [source/dawlat-uthmaniyya-salabi]
+external_ids:
+  wikidata: Q113648919
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; battle attested in narrative histories — entry not yet checked on the page"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-wave2
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

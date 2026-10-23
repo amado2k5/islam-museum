@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 28:52 (سورة القصص، الآية 52)."
 text: "ٱلَّذِينَ ءَاتَيْنَـٰهُمُ ٱلْكِتَـٰبَ مِن قَبْلِهِۦ هُم بِهِۦ يُؤْمِنُونَ"
 text_search: "الذين آتيناهم الكتاب من قبله هم به يؤمنون"
+translations:
+  en: { text: "Those unto whom We gave the Scripture before it, they believe in it,", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "جن لوگوں کو ہم نے اس سے پہلے کتاب دی تھی وہ اس پر ایمان لے آتے ہیں", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-28 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

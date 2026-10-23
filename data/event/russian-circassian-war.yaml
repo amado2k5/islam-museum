@@ -1,0 +1,23 @@
+id: event/russian-circassian-war
+class: event
+kind: war
+label: { ar: "الحرب الروسية الشركسية", en: "Russian–Circassian War" }
+summary:
+  ar: "بطاقة أولية للحرب الروسية الشركسية من ١٧٦٣ إلى ١٨٦٤م، الغزو الروسي لشركيسيا وتهجير أهلها المسلمين؛ لم تُراجع مصادره على الصفحة بعد."
+  en: "Draft card for the Russian–Circassian War of 1763–1864, Russia's conquest of Circassia and the mass expulsion of its Muslims; its sources are not yet checked on the page."
+wings: [time]
+periods: [period/colonial-era]
+regions: [persia-central-asia]
+date:
+  start: { edtf: "1763", precision: year, status: tradition, derived: true }
+  end: { edtf: "1864", precision: year, status: tradition, derived: true }
+sources: [source/tarikh-islam-hasan-ibrahim]
+external_ids:
+  wikidata: Q2737628
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; war attested in Caucasian histories — entry not yet checked on the page"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-wave2
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

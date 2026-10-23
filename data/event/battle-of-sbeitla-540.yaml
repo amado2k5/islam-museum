@@ -1,0 +1,23 @@
+id: event/battle-of-sbeitla-540
+class: event
+kind: battle
+label: { ar: "معركة سبيطلة (٥٤٠)", en: "Battle of Sbeitla (540)" }
+summary:
+  ar: "بطاقة أولية لمعركة سبيطلة سنة ٥٤٠م، من صراع البيزنطيين والبربر في إفريقية قبل الفتح الإسلامي؛ لم تُراجع مصادره على الصفحة بعد."
+  en: "Draft card for the Battle of Sbeitla in 540, a Byzantine–Berber clash in pre-conquest Africa; its sources are not yet checked on the page."
+wings: [time]
+periods: [period/pre-islamic-arabia]
+regions: [maghreb]
+date:
+  start: { edtf: "540", precision: year, status: tradition, derived: true }
+  end: { edtf: "540", precision: year, status: tradition, derived: true }
+sources: [source/tarikh-islam-hasan-ibrahim]
+external_ids:
+  wikidata: Q110639867
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; battle attested in narrative histories — entry not yet checked on the page"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-wave2
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

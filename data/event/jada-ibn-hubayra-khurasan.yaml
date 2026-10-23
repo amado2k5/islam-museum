@@ -1,0 +1,26 @@
+id: event/jada-ibn-hubayra-khurasan
+class: event
+kind: campaign
+label: { ar: "بعث جعدة بن هبيرة إلى خراسان وامتناع نيسابور", en: "Jaʿda ibn Hubayra's Khurāsān mission and Naysābūr's defiance (37 AH)" }
+date:
+  start: { edtf: "0657", hijri: "0037", calendar: julian, precision: year, status: tradition, derived: true, note: "سنة 37؛ التحويل مشتق {cite:kamil-ibn-al-athir p. 678}." }
+summary:
+  ar: "بعث عليّ جعدة بن هبيرة المخزومي إلى خراسان بعد عوده من صفين، فانتهى إلى نيسابور وقد كفر أهلها وامتنعوا، فرجع إلى علي، فبعث خُليد بن قرة اليربوعي فحاصر أهلها حتى صالحوه، وصالحه أهل مرو أيضًا {cite:kamil-ibn-al-athir p. 678}."
+  en: "After Ṣiffīn ʿAli sent Jaʿda ibn Hubayra al-Makhzūmī to Khurāsān; Naysābūr had apostatized and shut its gates, and Jaʿda returned. ʿAli then sent Khulayd ibn Qurra al-Yarbūʿī, who besieged the town until it surrendered on terms — and Merv made peace with him likewise {cite:kamil-ibn-al-athir p. 678}."
+sides:
+- label: { ar: "جيش علي", en: "ʿAli's force" }
+  commanders: [person/khulayd-ibn-qurra]
+- label: { ar: "أهل نيسابور", en: "Naysābūr" }
+relations:
+  - { type: occurred_at, target: place/nishapur, sources: [source/kamil-ibn-al-athir] }
+  - { type: occurred_at, target: place/marw, sources: [source/kamil-ibn-al-athir] }
+  - { type: had_participant, target: person/jada-ibn-hubayra, sources: [source/kamil-ibn-al-athir] }
+  - { type: had_participant, target: person/khulayd-ibn-qurra, sources: [source/kamil-ibn-al-athir] }
+  - { type: had_participant, target: person/ali-ibn-abi-talib, sources: [source/kamil-ibn-al-athir] }
+provenance:
+  layer: own-research
+  source: "الكامل في التاريخ لابن الأثير (دار الكتاب العربي 2012، ج2)، قراءة آبل فيجن"
+  generated_by: "Devin (SWE-2 Medium) from Apple Vision OCR"
+  run: lib-kamil-v2-batch05
+sources: [source/kamil-ibn-al-athir]
+status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 Medium)" }

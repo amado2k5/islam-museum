@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 7:192 (سورة الأعراف، الآية 192)."
 text: "وَلَا يَسْتَطِيعُونَ لَهُمْ نَصْرًا وَلَآ أَنفُسَهُمْ يَنصُرُونَ"
 text_search: "ولا يستطيعون لهم نصرا ولا أنفسهم ينصرون"
+translations:
+  en: { text: "And cannot give them help, nor can they help themselves?", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "اور نہ ان کی مدد کی طاقت رکھتے ہیں اور نہ اپنی ہی مدد کرسکتے ہیں", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-7 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

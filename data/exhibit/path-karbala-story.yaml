@@ -1,0 +1,67 @@
+id: exhibit/path-karbala-story
+class: exhibit
+kind: trail
+label:
+  ar: 'كربلاء: الحكاية والذاكرة'
+  en: 'Karbala: Story and Memory'
+summary:
+  ar: 'مسار في موقعة غيّرت الأمة: خروج الحسين، والعاشر من محرم، وذاكرة عاشوراء.'
+  en: A trail through the event that marked the umma.
+audience:
+- newcomer
+- student
+duration_minutes: 30
+wings: []
+regions:
+- levant-iraq
+rooms:
+- title:
+    ar: الخروج
+    en: The departure
+  body:
+    ar: الحسين يترك المدينة إلى الكوفة بدعوة أهلها.
+    en: الحسين يترك المدينة إلى الكوفة بدعوة أهلها.
+  features:
+  - person/husayn-ibn-ali
+  - person/muawiya-ibn-abi-sufyan
+- title:
+    ar: العاشر
+    en: The tenth
+  body:
+    ar: '61هـ/680م: يوم كربلاء على ضفة الفرات.'
+    en: '61هـ/680م: يوم كربلاء على ضفة الفرات.'
+  features:
+  - place/karbala
+  - question/what-is-ashura
+- title:
+    ar: الذاكرة
+    en: The memory
+  body:
+    ar: 'عاشوراء: صيام عند السنة وعزاء عند الشيعة.'
+    en: 'عاشوراء: صيام عند السنة وعزاء عند الشيعة.'
+  features:
+  - practice/taziya
+  - question/what-is-ashura
+- title:
+    ar: المزار
+    en: The shrine
+  body:
+    ar: 'قبة الحسين: من أعظم مزارات العالم الإسلامي.'
+    en: 'قبة الحسين: من أعظم مزارات العالم الإسلامي.'
+  features:
+  - place/karbala
+  - practice/ziyarat-al-qubur
+prerequisites:
+- exhibit/path-islam-in-30-minutes
+sources:
+- source/wikidata
+provenance:
+  layer: own-research
+  source: Devin-assembled trail from existing museum entities
+  generated_by: Devin (SWE-2 High)
+  model: SWE-2 High
+  run: pathways-batch-5
+status:
+  review: draft
+  completeness: 1
+  generated_by: Devin (SWE-2 High), pathways lane, 2026-10-16

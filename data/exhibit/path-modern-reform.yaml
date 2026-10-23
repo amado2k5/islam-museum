@@ -1,0 +1,69 @@
+id: exhibit/path-modern-reform
+class: exhibit
+kind: trail
+label:
+  ar: الإصلاح الحديث
+  en: Modern Reform
+summary:
+  ar: 'مسار في نهضة القرن التاسع عشر: الأفغاني يوقظ الأمة، وعبده يصلح الأزهر، ورشيد رضا ينشر المنار —
+    الإصلاح قبل الاستقلال.'
+  en: A trail through 19th-century revival.
+audience:
+- newcomer
+- student
+duration_minutes: 30
+wings: []
+regions:
+- egypt-nile
+rooms:
+- title:
+    ar: الأفغاني
+    en: Al-Afghani
+  body:
+    ar: 'جمال الدين يجوب العواصم: الوحدة ضد الاستعمار.'
+    en: 'جمال الدين يجوب العواصم: الوحدة ضد الاستعمار.'
+  features:
+  - person/jamal-al-din-al-afghani
+  - place/istanbul
+- title:
+    ar: محمد عبده
+    en: Muhammad Abduh
+  body:
+    ar: 'مفتي مصر: إصلاح الأزهر وفتح باب الاجتهاد.'
+    en: 'مفتي مصر: إصلاح الأزهر وفتح باب الاجتهاد.'
+  features:
+  - person/muhammad-abduh
+  - building/al-azhar
+  - place/cairo
+- title:
+    ar: رشيد رضا
+    en: Rashid Rida
+  body:
+    ar: 'المنار: الصحافة الإصلاحية من القاهرة.'
+    en: 'المنار: الصحافة الإصلاحية من القاهرة.'
+  features:
+  - person/rashid-rida
+  - place/cairo
+- title:
+    ar: الأزهر
+    en: Al-Azhar
+  body:
+    ar: ألف سنة ويقود الإصلاح اليوم.
+    en: ألف سنة ويقود الإصلاح اليوم.
+  features:
+  - building/al-azhar
+  - practice/rihla-ilm
+prerequisites:
+- exhibit/path-islam-in-30-minutes
+sources:
+- source/wikidata
+provenance:
+  layer: own-research
+  source: Devin-assembled trail from existing museum entities
+  generated_by: Devin (SWE-2 High)
+  model: SWE-2 High
+  run: pathways-batch-7
+status:
+  review: draft
+  completeness: 1
+  generated_by: Devin (SWE-2 High), pathways lane, 2026-10-16

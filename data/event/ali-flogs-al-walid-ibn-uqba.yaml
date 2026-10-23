@@ -1,0 +1,19 @@
+id: event/ali-flogs-al-walid-ibn-uqba
+class: event
+kind: other
+label: { ar: "علي يقيم حد الشرب على الوليد بن عقبة", en: "Ali carries out the drinking penalty on al-Walid ibn Uqba" }
+summary:
+  ar: "شهد عند عثمان رجلان على الوليد بن عقبة: أحدهما بأنه شرب الخمر، والآخر بأنه لم يتقيأ؛ فقال عثمان إنه لم يتقيأ حتى شربها، وأمر علياً بإقامة الحد، فأمر الحسن بالجلد فلم يفعل، ثم أمر عبد الله بن جعفر فجلد وعلي يعد حتى بلغ أربعين، فقال: أمسك، جلد النبي أربعين وأبو بكر أربعين وعمر ثمانين، وكل سنة، وهذا أحب إليّ (ص161)."
+wings: [people, ideas]
+periods: [period/rashidun]
+regions: [levant-iraq]
+date:
+  start: { edtf: "0644/0656", calendar: julian, precision: year, status: tradition, derived: true, note: "لا تاريخ منصوص للواقعة في الصفحات المقروءة؛ المدة خلافة عثمان (23-35هـ)." }
+relations:
+  - { type: had_participant, target: person/ali-ibn-abi-talib, role: "أقام الحد بعد أمر عثمان", sources: [source/sallabi-ali-vol1] }
+  - { type: had_participant, target: person/uthman-ibn-affan, role: "أمر بإقامة الحد على الوليد", sources: [source/sallabi-ali-vol1] }
+  - { type: had_participant, target: person/al-walid-ibn-uqba, role: "المحدود بشرب الخمر", sources: [source/sallabi-ali-vol1] }
+  - { type: had_participant, target: person/hasan-ibn-ali, role: "أمره علي بالجلد فلم يفعل", sources: [source/sallabi-ali-vol1] }
+sources: [source/sallabi-ali-vol1]
+status: { review: draft, completeness: 1, generated_by: "Claude Code (claude-haiku-5-5); mined from sallabi-ali-vol1 p. 161" }
+provenance: { layer: own-research, source: "sallabi-ali-vol1 p. 161", generated_by: "Claude Code", model: "claude-haiku-5-5", run: "sallabi-ali-vol1-deep-pp151-200" }

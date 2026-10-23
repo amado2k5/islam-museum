@@ -1,0 +1,76 @@
+id: exhibit/path-umayyad-builders
+class: exhibit
+kind: trail
+label:
+  ar: بناة الدولة الأموية
+  en: Builders of the Umayyads
+summary:
+  ar: 'مسار في الأمويين البنائين: عبد الملك يؤسس الدولة والقبة، والوليد يبني الجامع، وطارق يعبر إلى الأندلس.'
+  en: A trail through the Umayyad builders.
+audience:
+- newcomer
+- student
+duration_minutes: 30
+wings: []
+regions:
+- levant-iraq
+rooms:
+- title:
+    ar: عبد الملك
+    en: Abd al-Malik
+  body:
+    ar: 'الخليفة المؤسس: عربية الإدارة وقبة الصخرة.'
+    en: 'الخليفة المؤسس: عربية الإدارة وقبة الصخرة.'
+  features:
+  - person/abd-al-malik-ibn-marwan
+  - building/dome-of-the-rock
+- title:
+    ar: الجامع الأموي
+    en: The Umayyad Mosque
+  body:
+    ar: 'الوليد يبني 715: أعظم مسجد في عصره.'
+    en: 'الوليد يبني 715: أعظم مسجد في عصره.'
+  features:
+  - building/umayyad-mosque
+  - place/damascus
+- title:
+    ar: فتوح الغرب
+    en: The western push
+  body:
+    ar: طارق في الأندلس وموسى في المغرب.
+    en: طارق في الأندلس وموسى في المغرب.
+  features:
+  - person/tariq-ibn-ziyad
+  - place/al-andalus
+- title:
+    ar: قرطبة الأموية
+    en: Umayyad Cordoba
+  body:
+    ar: الداخل يعيد بناء الدولة في الغرب.
+    en: الداخل يعيد بناء الدولة في الغرب.
+  features:
+  - polity/umayyad-caliphate
+  - place/cordoba
+- title:
+    ar: السقوط
+    en: The fall
+  body:
+    ar: '750: الزاب ينهي تسعين سنة.'
+    en: '750: الزاب ينهي تسعين سنة.'
+  features:
+  - polity/abbasid-caliphate
+  - question/what-was-the-umayyad-caliphate
+prerequisites:
+- exhibit/path-islam-in-30-minutes
+sources:
+- source/wikidata
+provenance:
+  layer: own-research
+  source: Devin-assembled trail from existing museum entities
+  generated_by: Devin (SWE-2 High)
+  model: SWE-2 High
+  run: pathways-batch-7
+status:
+  review: draft
+  completeness: 1
+  generated_by: Devin (SWE-2 High), pathways lane, 2026-10-16

@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 81:14 (سورة التكوير، الآية 14)."
 text: "عَلِمَتْ نَفْسٌ مَّآ أَحْضَرَتْ"
 text_search: "علمت نفس ما أحضرت"
+translations:
+  en: { text: "(Then) every soul will know what it hath made ready.", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "تب ہر شخص معلوم کر لے گا کہ وہ کیا لے کر آیا ہے", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-81 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

@@ -1,0 +1,23 @@
+id: building/bimaristan-adudi
+class: building
+kind: bimaristan
+label:
+  ar: البيمارستان العضدي
+  en: The 'Adudi Bimaristan
+summary:
+  ar: "البيمارستان العضدي ببغداد، المستشفى الذي بناه عضد الدولة الديلمي؛ افتُتح في بداية ربيع الآخر سنة ثنتين وسبعين وثلثمائة وأُنفق عليه كل ما يصلحه، وجُمع فيه الأطباء والأدوية والقوّام والخدم والأواني والثياب وكل ما يحتاج إليه المرضى {cite:muntazam-ibn-al-jawzi j.7 p.118-119}. وقفت على من أسود من أهل البيمارستان وحسن الرعاية لهم؛ وأعطى الفقراء ما يخرج منه من الثياب والأواني {cite:muntazam-ibn-al-jawzi j.7 p.119}."
+  en: "The 'Adudi Bimaristan of Baghdad, the hospital 'Adud al-Dawla built: opened at the start of Rabi' II 372 with everything spent that could perfect it — physicians gathered in it, medicines, wardens, servants, vessels and clothes, all that the sick need — and the poor were given the clothes and vessels that came out of it {cite:muntazam-ibn-al-jawzi j.7 p.118-119}."
+wings: [objects]
+periods: [period/buyid-seljuk-fatimid-era]
+regions: [levant-iraq]
+themes: [medicine]
+relations:
+- { type: located_in, target: place/baghdad, sources: [source/muntazam-ibn-al-jawzi] }
+- { type: founded_by, target: person/adud-al-dawla, role: "بناؤه وافتتاحه بداية ربيع الآخر 372هـ", sources: [source/muntazam-ibn-al-jawzi] }
+provenance:
+  layer: own-research
+  source: "المنتظم لابن الجوزي (ط حيدرآباد 1357، ج7، سنة 372)، قراءة آبل فيجن"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-muntazam-350-474-2
+sources: [source/muntazam-ibn-al-jawzi]
+status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 High)" }

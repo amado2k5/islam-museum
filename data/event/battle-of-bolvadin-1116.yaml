@@ -1,0 +1,23 @@
+id: event/battle-of-bolvadin-1116
+class: event
+kind: battle
+label: { ar: "معركة بولفادين (١١١٦)", en: "Battle of Bolvadin (1116)" }
+summary:
+  ar: "بطاقة أولية لمعركة بولفادين سنة ١١١٦م، من مصادمات البيزنطيين والسلاجقة؛ لم تُراجع مصادره على الصفحة بعد."
+  en: "Draft card for the Battle of Bolvadin in 1116, a Byzantine–Seljuk clash; its sources are not yet checked on the page."
+wings: [time]
+periods: [period/buyid-seljuk-fatimid-era]
+regions: [anatolia-balkans]
+date:
+  start: { edtf: "1116", precision: year, status: tradition, derived: true }
+  end: { edtf: "1116", precision: year, status: tradition, derived: true }
+sources: [source/tarikh-islam-hasan-ibrahim]
+external_ids:
+  wikidata: Q2209409
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; battle attested in narrative histories — entry not yet checked on the page"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-wave2
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

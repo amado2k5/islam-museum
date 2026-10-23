@@ -1,0 +1,23 @@
+id: event/siege-of-valencia-1102
+class: event
+kind: siege
+label: { ar: "حصار بلنسية (١١٠١)", en: "Siege of Valencia" }
+summary:
+  ar: "بطاقة أولية لحصار بلنسية في ١١٠١–١١٠٢م، نهاية حكم أهل القسطلنة ودخول المرابطين المدينة؛ لم تُراجع مصادره على الصفحة بعد."
+  en: "Draft card for the Siege of Valencia in 1101–02, the end of Castilian rule and the Almoravids' entry; its sources are not yet checked on the page."
+wings: [time]
+periods: [period/buyid-seljuk-fatimid-era]
+regions: [andalus-europe]
+date:
+  start: { edtf: "1101-08", precision: year, status: tradition, derived: true }
+  end: { edtf: "1102-05-05", precision: year, status: tradition, derived: true }
+sources: [source/tarikh-islam-hasan-ibrahim]
+external_ids:
+  wikidata: Q131626390
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; battle attested in narrative histories — entry not yet checked on the page"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-wave2
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

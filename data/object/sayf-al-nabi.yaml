@@ -1,0 +1,15 @@
+id: object/sayf-al-nabi
+class: object
+kind: relic
+label: { ar: "سيف النبي", en: "the Prophet's sword" }
+summary:
+  ar: "سيف كان معروفاً بأنه سيف رسول الله؛ فلما قدم علي بن الحسين المدينة من عند يزيد بن معاوية بعد مقتل الحسين، عرض عليه المسور بن مخرمة أن يعطيه إياه قائلاً «أخاف أن يغلبك القوم عليه» وحلف لئن أُعطيه لا يُخلَص إليهم أبداً حتى تُبلَغ نفسه {cite:sahih-al-bukhari 3110}. ويذكر البخاري سيفه في باب «ما ذُكر من درع النبي وعصاه وسيفه وقدحه وخاتمه» في أمتعته التي تبرّك بها أصحابه بعد وفاته."
+  en: "A sword known as the Messenger of God's sword; when 'Ali ibn al-Husayn reached Medina from Yazid ibn Mu'awiya's court after Husayn's killing, al-Miswar ibn Makhrama offered to take custody of it — 'I fear the people will overpower you for it', swearing it would never leave him until his last breath {cite:sahih-al-bukhari 3110}. Bukhari lists the sword among 'what was narrated of the Prophet's coat of mail, staff, sword, cup and ring', the belongings his Companions kept for blessing after his death."
+wings: [objects]
+periods: [period/prophetic-era, period/rashidun, period/umayyad]
+regions: [arabia]
+relations:
+  - { type: related_to, target: person/muhammad, note: "سيفه المتوارث في بيته", sources: [source/sahih-al-bukhari] }
+  - { type: related_to, target: person/ali-zayn-al-abidin, note: "أعاده إلى المدينة بعد مقتل الحسين", sources: [source/sahih-al-bukhari] }
+sources: [source/sahih-al-bukhari]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High); Sahih al-Bukhari 3110" }

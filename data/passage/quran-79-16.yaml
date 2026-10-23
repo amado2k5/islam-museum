@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 79:16 (سورة النازعات، الآية 16)."
 text: "إِذْ نَادَىٰهُ رَبُّهُۥ بِٱلْوَادِ ٱلْمُقَدَّسِ طُوًى"
 text_search: "إذ ناداه ربه بالواد المقدس طوى"
+translations:
+  en: { text: "How his Lord called him in the holy vale of Tuwa,", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "جب اُن کے پروردگار نے ان کو پاک میدان (یعنی) طویٰ میں پکارا", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-79 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

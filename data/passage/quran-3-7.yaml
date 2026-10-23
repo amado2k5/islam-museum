@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 3:7 (سورة آل عمران، الآية 7)."
 text: "هُوَ ٱلَّذِىٓ أَنزَلَ عَلَيْكَ ٱلْكِتَـٰبَ مِنْهُ ءَايَـٰتٌ مُّحْكَمَـٰتٌ هُنَّ أُمُّ ٱلْكِتَـٰبِ وَأُخَرُ مُتَشَـٰبِهَـٰتٌ ۖ فَأَمَّا ٱلَّذِينَ فِى قُلُوبِهِمْ زَيْغٌ فَيَتَّبِعُونَ مَا تَشَـٰبَهَ مِنْهُ ٱبْتِغَآءَ ٱلْفِتْنَةِ وَٱبْتِغَآءَ تَأْوِيلِهِۦ ۗ وَمَا يَعْلَمُ تَأْوِيلَهُۥٓ إِلَّا ٱللَّهُ ۗ وَٱلرَّٰسِخُونَ فِى ٱلْعِلْمِ يَقُولُونَ ءَامَنَّا بِهِۦ كُلٌّ مِّنْ عِندِ رَبِّنَا ۗ وَمَا يَذَّكَّرُ إِلَّآ أُو۟لُوا۟ ٱلْأَلْبَـٰبِ"
 text_search: "هو الذي أنزل عليك الكتاب منه آيات محكمات هن أم الكتاب وأخر متشابهات ۖ فأما الذين في قلوبهم زيغ فيتبعون ما تشابه منه ابتغاء الفتنة وابتغاء تأويله ۗ وما يعلم تأويله إلا الله ۗ والراسخون في العلم يقولون آمنا به كل من عند ربنا ۗ وما يذكر إلا أولو الألباب"
+translations:
+  en: { text: "He it is Who hath revealed unto thee (Muhammad) the Scripture wherein are clear revelations - they are the substance of the Book - and others (which are) allegorical. But those in whose hearts is doubt pursue, forsooth, that which is allegorical seeking (to cause) dissension by seeking to explain it. None knoweth its explanation save Allah. And those who are of sound instruction say: We believe therein; the whole is from our Lord; but only men of understanding really heed.", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "وہی تو ہے جس نے تم پر کتاب نازل کی جس کی بعض آیتیں محکم ہیں (اور) وہی اصل کتاب ہیں اور بعض متشابہ ہیں تو جن لوگوں کے دلوں میں کجی ہے وہ متشابہات کا اتباع کرتے ہیں تاکہ فتنہ برپا کریں اور مراد اصلی کا پتہ لگائیں حالانکہ مراد اصلی خدا کے سوا کوئی نہیں جانتا اور جو لوگ علم میں دست گاہ کامل رکھتے ہیں وہ یہ کہتے ہیں کہ ہم ان پر ایمان لائے یہ سب ہمارے پروردگار کی طرف سے ہیں اور نصیحت تو عقل مند ہی قبول کرتے ہیں", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-3 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

@@ -1,0 +1,23 @@
+id: event/siege-of-herat-1381
+class: event
+kind: siege
+label: { ar: "حصار هراة (١٣٨١)", en: "Siege of Herat (1381)" }
+summary:
+  ar: "بطاقة أولية لحصار هراة (١٣٨١)؛ لم تُراجع مصادره على الصفحة بعد."
+  en: "Draft card for Siege of Herat (1381); its sources are not yet checked on the page."
+wings: [time]
+periods: [period/mongol-post-mongol]
+regions: [persia-central-asia]
+date:
+  start: { edtf: "1381", precision: year, status: tradition, derived: true }
+  end: { edtf: "1381", precision: year, status: tradition, derived: true }
+sources: [source/tarikh-islam-hasan-ibrahim]
+external_ids:
+  wikidata: Q138870767
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; battle attested in narrative histories — entry not yet checked on the page"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-wave2
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

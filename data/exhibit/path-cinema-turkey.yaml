@@ -1,0 +1,77 @@
+id: exhibit/path-cinema-turkey
+class: exhibit
+kind: trail
+label:
+  ar: السينما التركية
+  en: Turkish Cinema
+summary:
+  ar: 'مسار في سينما الأتراك: فتح 1453 التاريخية، ومسلسلات السلاجقة والعثمانيين، والواق واق الأناضولية
+    — هوليوود البوسفور.'
+  en: A trail through Turkey's screen world.
+audience:
+- newcomer
+- student
+duration_minutes: 30
+wings: []
+regions:
+- anatolia-balkans
+rooms:
+- title:
+    ar: الفتح
+    en: The conquest
+  body:
+    ar: 'فتح 1453: ملحمة محمد الفاتح.'
+    en: 'فتح 1453: ملحمة محمد الفاتح.'
+  features:
+  - screen/fatih-1453-2012
+  - person/mehmed-ii
+- title:
+    ar: السلاجقة
+    en: The Seljuks
+  body:
+    ar: 'البراسلان: سلسلة الأصل.'
+    en: 'البراسلان: سلسلة الأصل.'
+  features:
+  - screen/al-baraslan-al-saljuqiyun-2021
+  - polity/rum-seljuk-sultanate
+- title:
+    ar: صلاح الدين
+    en: Saladin
+  body:
+    ar: 'فاتح القدس 2023: التاريخ التلفزيوني.'
+    en: 'فاتح القدس 2023: التاريخ التلفزيوني.'
+  features:
+  - screen/kudus-fatihi-selahaddin-eyyubi-2023
+  - person/salah-al-din-yusuf-ibn-ayyub
+- title:
+    ar: الدراما
+    en: The drama
+  body:
+    ar: 'غزة حبي وآخر الرجال: الواقعية.'
+    en: 'غزة حبي وآخر الرجال: الواقعية.'
+  features:
+  - screen/ghazza-hubbi-2020
+  - screen/akhir-al-rijal-fi-halab-2017
+- title:
+    ar: التاريخ
+    en: History
+  body:
+    ar: 'جانق قلعة ومحمد فاتحلار: الأعمال الكبرى.'
+    en: 'جانق قلعة ومحمد فاتحلار: الأعمال الكبرى.'
+  features:
+  - screen/janakkala-1915-2012
+  - screen/muhammad-fatihlar-sultani-2024
+prerequisites:
+- exhibit/path-islam-in-30-minutes
+sources:
+- source/wikidata
+provenance:
+  layer: own-research
+  source: Devin-assembled trail from existing museum entities
+  generated_by: Devin (SWE-2 High)
+  model: SWE-2 High
+  run: pathways-batch-7
+status:
+  review: draft
+  completeness: 1
+  generated_by: Devin (SWE-2 High), pathways lane, 2026-10-16

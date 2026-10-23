@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 33:56 (سورة الأحزاب، الآية 56)."
 text: "إِنَّ ٱللَّهَ وَمَلَـٰٓئِكَتَهُۥ يُصَلُّونَ عَلَى ٱلنَّبِىِّ ۚ يَـٰٓأَيُّهَا ٱلَّذِينَ ءَامَنُوا۟ صَلُّوا۟ عَلَيْهِ وَسَلِّمُوا۟ تَسْلِيمًا"
 text_search: "إن الله وملائكته يصلون على النبي ۚ يا أيها الذين آمنوا صلوا عليه وسلموا تسليما"
+translations:
+  en: { text: "Lo! Allah and His angels shower blessings on the Prophet. O ye who believe! Ask blessings on him and salute him with a worthy salutation.", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "خدا اور اس کے فرشتے پیغمبر پر درود بھیجتے ہیں۔ مومنو تم بھی ان پر دُرود اور سلام بھیجا کرو", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-33 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

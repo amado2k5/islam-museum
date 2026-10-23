@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 11:85 (سورة هود، الآية 85)."
 text: "وَيَـٰقَوْمِ أَوْفُوا۟ ٱلْمِكْيَالَ وَٱلْمِيزَانَ بِٱلْقِسْطِ ۖ وَلَا تَبْخَسُوا۟ ٱلنَّاسَ أَشْيَآءَهُمْ وَلَا تَعْثَوْا۟ فِى ٱلْأَرْضِ مُفْسِدِينَ"
 text_search: "ويا قوم أوفوا المكيال والميزان بالقسط ۖ ولا تبخسوا الناس أشياءهم ولا تعثوا في الأرض مفسدين"
+translations:
+  en: { text: "O my people! Give full measure and full weight in justice, and wrong not people in respect of their goods. And do not evil in the earth, causing corruption.", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "اور قوم! ماپ اور تول انصاف کے ساتھ پوری پوری کیا کرو اور لوگوں کو ان کی چیزیں کم نہ دیا کرو اور زمین میں خرابی کرتے نہ پھرو", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-11 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

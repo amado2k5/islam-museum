@@ -1,0 +1,23 @@
+id: event/battle-of-dunis-1876
+class: event
+kind: battle
+label: { ar: "معركة دنيس", en: "Battle of Dunis" }
+summary:
+  ar: "بطاقة أولية لمعركة دنيس سنة ١٨٧٦م، فوز العثمانيين على الصرب في الحرب الصربية التركية؛ لم تُراجع مصادره على الصفحة بعد."
+  en: "Draft card for the Battle of Dunis in 1876, the Ottoman victory over the Serbs; its sources are not yet checked on the page."
+wings: [time]
+periods: [period/colonial-era]
+regions: [anatolia-balkans]
+date:
+  start: { edtf: "1876-10-17", precision: year, status: tradition, derived: true }
+  end: { edtf: "1876-10-17", precision: year, status: tradition, derived: true }
+sources: [source/dawlat-uthmaniyya-salabi]
+external_ids:
+  wikidata: Q12273283
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; battle attested in narrative histories — entry not yet checked on the page"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-wave2
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

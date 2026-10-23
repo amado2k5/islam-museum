@@ -1,0 +1,23 @@
+id: event/siege-of-samarkand-1497
+class: event
+kind: siege
+label: { ar: "حصار سمرقند", en: "Siege of Samarkand" }
+summary:
+  ar: "بطاقة أولية لحصار سمرقند سنة ١٤٩٧م، محاولة الشيباني أخذ المدينة التيمورية؛ لم تُراجع مصادره على الصفحة بعد."
+  en: "Draft card for the Siege of Samarkand in 1497, the Shaybanid attempt on the Timurid city; its sources are not yet checked on the page."
+wings: [time]
+periods: [period/crusades-ayyubid-mamluk]
+regions: [persia-central-asia]
+date:
+  start: { edtf: "1497", precision: year, status: tradition, derived: true }
+  end: { edtf: "1497", precision: year, status: tradition, derived: true }
+sources: [source/kamil-ibn-al-athir]
+external_ids:
+  wikidata: Q7510367
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; battle attested in narrative histories — entry not yet checked on the page"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-wave2
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

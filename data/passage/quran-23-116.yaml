@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 23:116 (سورة المؤمنون، الآية 116)."
 text: "فَتَعَـٰلَى ٱللَّهُ ٱلْمَلِكُ ٱلْحَقُّ ۖ لَآ إِلَـٰهَ إِلَّا هُوَ رَبُّ ٱلْعَرْشِ ٱلْكَرِيمِ"
 text_search: "فتعالى الله الملك الحق ۖ لا إله إلا هو رب العرش الكريم"
+translations:
+  en: { text: "Now Allah be Exalted, the True King! There is no Allah save Him, the Lord of the Throne of Grace.", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "تو خدا جو سچا بادشاہ ہے (اس کی شان) اس سے اونچی ہے، اس کے سوا کوئی معبود نہیں، وہی عرش بزرگ کا مالک ہے", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-23 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

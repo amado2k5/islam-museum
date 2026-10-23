@@ -1,0 +1,12 @@
+---
+id: person/mujashi-ibn-masud-al-sulami
+lang: en
+source_lang: ar
+translators: ["Claude Haiku 5.5 (claude-haiku-5-5), draft translation"]
+---
+
+## Overview
+Mujashi' ibn Mas'ud al-Sulami, whom Abdallah ibn Amir sent on the track of Yazdegerd. He followed him to Kirman and alighted at Sirjan, and Yazdegerd fled to Khurasan. {cite:tabari-tarikh-abu-al-fadl j.4 p.286}
+
+## In al-Baladhuri
+Al-Baladhuri says that he alighted at Bayman in Kirman, and the people were stricken by plague (al-damaq), his army perished, and only a few survived. The palace was called the Palace of Mujashi'. {cite:futuh-buldan-maarif-1407}

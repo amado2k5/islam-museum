@@ -1,0 +1,26 @@
+id: person/abd-al-aziz-ibn-abi-salama-al-umari
+class: person
+label: { ar: "عبد العزيز بن أبي سلمة العمري", en: "Abd al-Aziz ibn Abi Salama al-Umari" }
+names:
+  - { kind: full, lang: ar, value: "عبد العزيز بن أبي سلمة بن عبيد الله بن عبد الله بن عمر بن الخطاب، أبو عبد الرحمن القرشي العمري المدني" }
+  - { kind: kunya, lang: ar, value: "أبو عبد الرحمن" }
+gender: male
+roles: [hadith-scholar]
+traditions: [sunni]
+summary:
+  ar: "قرشي عمري مدني من ذرية عمر بن الخطاب؛ سكن بغداد وحدث بها عن إبراهيم بن سعد الزهري وأبي أويس عبد الله بن عبد الله ومحمد بن عون مولى أم حكيم، وروى عنه محمد بن إسحاق الصاغاني وأبو زرعة الرازي وموسى بن إسحاق الأنصاري وإسماعيل بن الفضل الملخي وموسى بن هارون الحافظ، وذكره البخاري، وقال الدارقطني: ليس به بأس {cite:tarikh-baghdad-khatib j.9 p.447-448}."
+  en: "A Qurashi 'Umari of Medina, descended from 'Umar b. al-Khattab; he settled in Baghdad and transmitted there from Ibrahim b. Sa'd al-Zuhri, Abu Uways 'Abdallah b. 'Abdallah and Muhammad b. 'Awn; his students included Muhammad b. Ishaq al-Saghani, Abu Zur'a al-Razi and Musa b. Harun the hafiz; al-Bukhari noted him and al-Daraqutni found no fault in him {cite:tarikh-baghdad-khatib j.9 p.447-448}."
+wings: [people]
+themes: [scripture-and-its-sciences]
+regions: [arabia, levant-iraq]
+periods: [period/abbasid-early]
+relations:
+  - { type: member_of, target: group/banu-hashim, sources: [source/tarikh-baghdad-khatib] }
+provenance:
+  layer: own-research
+  source: "تاريخ بغداد للخطيب البغدادي (ج9، ترجمة 5605، ص447-448)، قراءة آبل فيجن"
+  generated_by: "Devin (SWE-2 Medium) from Apple Vision OCR"
+  model: "SWE-2 Medium"
+  run: lib-tarikh-baghdad-tb7
+sources: [source/tarikh-baghdad-khatib]
+status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 Medium)" }

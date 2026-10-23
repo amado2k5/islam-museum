@@ -1,0 +1,22 @@
+id: event/khwarazm-herat-siege-600
+class: event
+kind: siege
+label: { ar: "حصر خوارزم شاه هراة", en: "Khwarazmshah's siege of Herat" }
+date:
+  start: { edtf: "1203~", hijri: "0600", calendar: julian, precision: "year", status: tradition, derived: true }
+summary:
+  ar: "حصر علاء الدين محمد خوارزم شاه مدينة هراة أول رجب سنة ستمائة، وكان أول ظهوره بخراسان بعد موت تكش، ثم رجع عنها {cite:kamil-ibn-al-athir p. 285}."
+  en: "Muhammad Khwarazmshah besieged Herat in Rajab 600 — his first move into Ghurid Khurasan after Tekish's death — then withdrew {cite:kamil-ibn-al-athir p. 285}."
+sides:
+  - label: { ar: "علاء الدين محمد خوارزم شاه" }
+  - label: { ar: "أهل هراة وحاميتها" }
+relations:
+  - { type: occurred_at, target: place/harat, sources: [source/kamil-ibn-al-athir] }
+  - { type: had_participant, target: person/muhammad-khwarazmshah, role: "الحاصر", sources: [source/kamil-ibn-al-athir] }
+provenance:
+  layer: own-research
+  source: "الكامل في التاريخ لابن الأثير، قراءة آبل فيجن"
+  generated_by: "Devin (SWE-2 Medium) from Apple Vision OCR"
+  run: lib-kamil-v12-batch05
+sources: [source/kamil-ibn-al-athir]
+status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 Medium)" }

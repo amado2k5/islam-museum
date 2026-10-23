@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 29:47 (سورة العنكبوت، الآية 47)."
 text: "وَكَذَٰلِكَ أَنزَلْنَآ إِلَيْكَ ٱلْكِتَـٰبَ ۚ فَٱلَّذِينَ ءَاتَيْنَـٰهُمُ ٱلْكِتَـٰبَ يُؤْمِنُونَ بِهِۦ ۖ وَمِنْ هَـٰٓؤُلَآءِ مَن يُؤْمِنُ بِهِۦ ۚ وَمَا يَجْحَدُ بِـَٔايَـٰتِنَآ إِلَّا ٱلْكَـٰفِرُونَ"
 text_search: "وكذلك أنزلنا إليك الكتاب ۚ فالذين آتيناهم الكتاب يؤمنون به ۖ ومن هؤلاء من يؤمن به ۚ وما يجحد بآياتنا إلا الكافرون"
+translations:
+  en: { text: "In like manner We have revealed unto thee the Scripture, and those unto whom We gave the Scripture aforetime will believe therein; and of these (also) there are some who believe therein. And none deny Our revelations save the disbelievers.", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "اور اسی طرح ہم نے تمہاری طرف کتاب اُتاری ہے۔ تو جن لوگوں کو ہم نے کتابیں دی تھیں وہ اس پر ایمان لے آتے ہیں۔ اور بعض ان (مشرک) لوگوں میں سے بھی اس پر ایمان لے آتے ہیں۔ اور ہماری آیتوں سے وہی انکار کرتے ہیں جو کافر (ازلی) ہیں", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-29 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

@@ -1,0 +1,34 @@
+id: event/ali-moves-capital-to-kufa
+class: event
+kind: other
+label: { ar: "انتقال علي بعاصمة الخلافة إلى الكوفة", en: "Ali moves the capital to Kufa" }
+summary:
+  ar: "نقل علي عاصمة الخلافة من المدينة إلى الكوفة، لأن قريشاً لم تكن تنصره، وقد تفرقت أحزابها بين طلحة وعائشة ومعاوية، ولأن الكوفة كانت ملتقى الشعوب ومركزاً تجارياً وثقافياً {cite:abqariyyat-ali-aqqad p.75}. ويعدّ العقاد الكوفة أليق العواصم بإمامة عالمية في ذلك العصر، لأنها كانت ملتقى الأجناس، وكانت مدارس اللغة والقراءات والأنساب تزدهر فيها {cite:abqariyyat-ali-aqqad p.127}."
+  en: "Ali moved the seat of government from Medina to Kufa, because Quraysh would not back him and its factions had scattered among Talha, Aisha and Muawiya; Kufa was a meeting point of peoples, a trade hub and a centre of learning {cite:abqariyyat-ali-aqqad p.75}. Al-Aqqad calls Kufa the fittest capital for a universal imamate of that age {cite:abqariyyat-ali-aqqad p.127}."
+wings: [place, people]
+themes: [civil-wars-and-revolts, ethics-and-character]
+periods: [period/rashidun]
+regions: [levant-iraq]
+date:
+  start: { hijri: "0036", precision: year, status: tradition, derived: true, note: "الكتاب لا يؤرخ الانتقال بسنة؛ الكتاب يضعه بعد البيعة وقبل الجمل. التاريخ مشتق، ثقة منخفضة (abqariyyat-ali-aqqad pp. 75, 127)." }
+relations:
+  - { type: occurred_at, target: place/kufa, sources: [source/abqariyyat-ali-aqqad] }
+  - { type: had_participant, target: person/ali-ibn-abi-talib, role: "نقل مقر الخلافة إلى الكوفة", sources: [source/abqariyyat-ali-aqqad] }
+perspectives:
+  - tradition: sunni
+    id: sunni-pending
+    stance: { ar: "لم يُعرض بعد من مصدر سني محدد", en: "Not yet set out from a named Sunni source" }
+    summary:
+      ar: "لم يُنقل هنا موقف سني كلاسيكي من نقل الخلافة إلى الكوفة؛ يُضاف من مصدر محدد (needs_source)."
+      en: "No classical Sunni account of the move to Kufa is recorded here; to be added from a named source (needs_source)."
+    sources: [source/abqariyyat-ali-aqqad]
+  - tradition: other
+    id: aqqad-reading
+    stance: { ar: "قراءة العقاد: الكوفة أوفق عاصمة لإمامة عالمية", en: "Al-Aqqad: Kufa as the fittest seat for a universal imamate" }
+    summary:
+      ar: "يربط العقاد اختيار الكوفة بفكرة الإمامة العالمية التي تجمع الشعوب، لا بالعصبية القبلية {cite:abqariyyat-ali-aqqad p.127}. وهذا تأويل المؤلف."
+      en: "Al-Aqqad ties the choice of Kufa to a universal idea of the imamate that gathers peoples, not to tribal loyalty {cite:abqariyyat-ali-aqqad p.127}. This is the author's reading."
+    sources: [source/abqariyyat-ali-aqqad]
+sources: [source/abqariyyat-ali-aqqad]
+status: { review: draft, completeness: 1, generated_by: "Claude Code (claude-haiku-5-5); from abqariyyat-ali-aqqad pp. 75, 127" }
+provenance: { layer: own-research, source: "abqariyyat-ali-aqqad pp. 75, 127", generated_by: "Claude Code", model: "claude-haiku-5-5", run: "abqariyyat-ali-aqqad-batch1" }

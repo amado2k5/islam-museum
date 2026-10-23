@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 2:201 (سورة البقرة، الآية 201)."
 text: "وَمِنْهُم مَّن يَقُولُ رَبَّنَآ ءَاتِنَا فِى ٱلدُّنْيَا حَسَنَةً وَفِى ٱلْـَٔاخِرَةِ حَسَنَةً وَقِنَا عَذَابَ ٱلنَّارِ"
 text_search: "ومنهم من يقول ربنا آتنا في الدنيا حسنة وفي الآخرة حسنة وقنا عذاب النار"
+translations:
+  en: { text: "And of them (also) is he who saith: \"Our Lord! Give unto us in the world that which is good and in the Hereafter that which is good, and guard us from the doom of Fire.\"", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "اور بعضے ایسے ہیں کہ دعا کرتے ہیں کہ پروردگار ہم کو دنیا میں بھی نعمت عطا فرما اور آخرت میں بھی نعمت بخشیو اور دوزخ کے عذاب سے محفوظ رکھیو", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-2 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

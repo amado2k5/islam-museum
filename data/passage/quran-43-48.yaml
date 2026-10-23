@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 43:48 (سورة الزخرف، الآية 48)."
 text: "وَمَا نُرِيهِم مِّنْ ءَايَةٍ إِلَّا هِىَ أَكْبَرُ مِنْ أُخْتِهَا ۖ وَأَخَذْنَـٰهُم بِٱلْعَذَابِ لَعَلَّهُمْ يَرْجِعُونَ"
 text_search: "وما نريهم من آية إلا هي أكبر من أختها ۖ وأخذناهم بالعذاب لعلهم يرجعون"
+translations:
+  en: { text: "And every token that We showed them was greater than its sister (token), and We grasped them with the torment, that haply they might turn again.", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "اور جو نشانی ہم ان کو دکھاتے تھے وہ دوسری سے بڑی ہوتی تھی اور ہم نے ان کو عذاب میں پکڑ لیا تاکہ باز آئیں", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-43 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

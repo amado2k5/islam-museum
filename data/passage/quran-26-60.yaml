@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 26:60 (سورة الشعراء، الآية 60)."
 text: "فَأَتْبَعُوهُم مُّشْرِقِينَ"
 text_search: "فأتبعوهم مشرقين"
+translations:
+  en: { text: "And they overtook them at sunrise.", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "تو انہوں نے سورج نکلتے (یعنی صبح کو) ان کا تعاقب کیا", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-26 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

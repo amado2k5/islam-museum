@@ -1,0 +1,24 @@
+id: person/al-qatii-al-azji
+class: person
+label: { ar: "القطيعي الأزجي", en: "al-Qati'i al-Azji" }
+names:
+  - { value: "أبو الحسن أحمد بن محمد بن عمر بن الحسين بن خلف البغدادي الحنبلي", kind: full }
+died: { edtf: "1237", hijri: "0634", calendar: julian, precision: day, status: tradition, derived: true, note: "توفي ليلة السبت لأربع خلون من ربيع الآخر سنة أربع وثلاثين وستمائة ببغداد ودفن بباب حرب {cite:shadharat-dhahab p. 163}." }
+summary:
+  ar: "المؤرخ الحنبلي؛ سمع من أبيه ومن أبي الوقت صحيح البخاري وهو آخر من حدث عنه به، ولازم ابن الجوزي مدة وأخذ عنه وقرأ عليه كثيراً من تصانيفه ومروياته؛ جمع تاريخاً في نحو خمسة أسفار ذيل به على تاريخ ابن السمعاني سماه «درة الإكليل في تتمة التذييل» وفيه فوائد جمة مع أوهام، بالغ ابن النجار في الحط عليه مع أنه أخذ عنه ونقل منه؛ وصفه غير واحد من الحفاظ بالحفظ {cite:shadharat-dhahab p. 162-163}."
+  en: "al-Qati'i al-Azji (d. 634) — Hanbali historian of Baghdad, last to transmit Sahih al-Bukhari from Abu al-Waqt, and Ibn al-Jawzi's long companion; his five-volume Durrat al-Iklil continued Ibn al-Sam'ani's history — rich in benefits, said its critics, even while plagiarized by them {cite:shadharat-dhahab p. 162-163}."
+gender: male
+roles: [scholar]
+wings: [people]
+periods: [period/crusades-ayyubid-mamluk]
+regions: [levant-iraq]
+relations:
+  - { type: died_in, target: place/baghdad, sources: [source/shadharat-dhahab] }
+  - { type: student_of, target: person/ibn-al-jawzi, sources: [source/shadharat-dhahab] }
+sources: [source/shadharat-dhahab]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }
+provenance:
+  layer: own-research
+  source: "شذرات الذهب — ابن العماد (ج5، سنة 634)، قراءة آبل فيجن"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-shadharat-batch-125

@@ -1,0 +1,23 @@
+id: event/souliote-war-1789
+class: event
+kind: war
+label: { ar: "حرب السوليوت (١٧٨٩–١٧٩٣)", en: "Souliote War (1789–1793)" }
+summary:
+  ar: "بطاقة أولية لحرب السوليوت (١٧٨٩–١٧٩٣)؛ لم تُراجع مصادره على الصفحة بعد."
+  en: "Draft card for Souliote War (1789–1793); its sources are not yet checked on the page."
+wings: [time]
+periods: [period/gunpowder-empires]
+regions: [anatolia-balkans]
+date:
+  start: { edtf: "1789", precision: year, status: tradition, derived: true }
+  end: { edtf: "1793", precision: year, status: tradition, derived: true }
+sources: [source/tarikh-islam-hasan-ibrahim]
+external_ids:
+  wikidata: Q55633531
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; battle attested in narrative histories — entry not yet checked on the page"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-wave2
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

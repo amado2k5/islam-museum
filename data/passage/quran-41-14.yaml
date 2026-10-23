@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 41:14 (سورة فصلت، الآية 14)."
 text: "إِذْ جَآءَتْهُمُ ٱلرُّسُلُ مِنۢ بَيْنِ أَيْدِيهِمْ وَمِنْ خَلْفِهِمْ أَلَّا تَعْبُدُوٓا۟ إِلَّا ٱللَّهَ ۖ قَالُوا۟ لَوْ شَآءَ رَبُّنَا لَأَنزَلَ مَلَـٰٓئِكَةً فَإِنَّا بِمَآ أُرْسِلْتُم بِهِۦ كَـٰفِرُونَ"
 text_search: "إذ جاءتهم الرسل من بين أيديهم ومن خلفهم ألا تعبدوا إلا الله ۖ قالوا لو شاء ربنا لأنزل ملائكة فإنا بما أرسلتم به كافرون"
+translations:
+  en: { text: "When their messengers came unto them from before them and behind them, saying: Worship none but Allah! they said: If our Lord had willed, He surely would have sent down angels (unto us), so lo! we are disbelievers in that wherewith ye have been sent.", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "جب ان کے پاس پیغمبر ان کے آگے اور پیچھے سے آئے کہ خدا کے سوا (کسی کی) عبادت نہ کرو۔ کہنے لگے کہ اگر ہمارا پروردگار چاہتا تو فرشتے اُتار دیتا سو جو تم دے کر بھیجے گئے ہو ہم اس کو نہیں مانتے", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-41 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

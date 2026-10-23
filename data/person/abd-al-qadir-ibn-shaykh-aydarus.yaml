@@ -1,0 +1,25 @@
+id: person/abd-al-qadir-ibn-shaykh-aydarus
+class: person
+label: { ar: "عبد القادر بن شيخ العيدروس صاحب النور السافر", en: "'Abd al-Qadir b. Shaykh al-'Aydarus, author of al-Nur al-Safir" }
+names:
+  - { kind: full, lang: ar, value: "عبد القادر بن شيخ بن عبد الله العيدروس" }
+gender: male
+roles: [scholar, writer]
+traditions: [sunni]
+wings: [people]
+themes: [libraries-paper-and-the-book, spirituality-and-sufism]
+periods: [period/gunpowder-empires]
+regions: [arabia, south-asia]
+summary:
+  ar: "عبد القادر بن الشيخ العيدروس صاحب «النور السافر عن أخبار القرن العاشر»، المصدر الأكبر لتراجم هذا القرن عند ابن العماد؛ ولد ليلة الخميس عشرين ربيع الأول سنة ثمان وسبعين وتسعمائة {cite:shadharat-dhahab p. 387}."
+  en: "'Abd al-Qadir b. Shaykh al-'Aydarus — author of *al-Nur al-Safir 'an Akhbar al-Qarn al-'Ashir*, Ibn al-'Imad's principal source for tenth-century notices; born Thursday eve 20 Rabi' I 978 {cite:shadharat-dhahab p. 387}."
+born: { edtf: "1570-08-22~", hijri: "0978-03-20", calendar: julian, precision: day, status: tradition, derived: true, note: "ولد ليلة الخميس 20 ربيع الأول 978؛ التحويل مشتق {cite:shadharat-dhahab p. 387}", sources: [source/shadharat-dhahab] }
+relations:
+  - { type: child_of, target: person/shaykh-ibn-abdallah-aydarus, sources: [source/shadharat-dhahab] }
+provenance:
+  layer: own-research
+  source: "شذرات الذهب — ابن العماد (ط مكتبة المثنى 1351، ج8، سنة 978)، قراءة آبل فيجن"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-shadharat-batch-148
+sources: [source/shadharat-dhahab]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

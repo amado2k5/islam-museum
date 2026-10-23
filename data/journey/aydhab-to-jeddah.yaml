@@ -1,0 +1,21 @@
+id: journey/aydhab-to-jeddah
+class: journey
+kind: pilgrimage_route
+label: { ar: "من عيذاب إلى جدة في طريق الحج", en: "From Aydhab to Jeddah on the pilgrimage road" }
+summary:
+  ar: "مرحلة من رحلة ابن جبير إلى الحج: مكث في عيذاب نحو ثلاثة وعشرين يوماً ثم ركب الجلبة للعبور إلى جدة، بعد أن وصل عيذاب من قوص بطريق الصحراء الذي يسلكه الحجاج على الإبل مع الأدلاء. تصف الرحلة صعوبة هذا الطريق وهلاك كثير من الحجاج فيه."
+  en: "A stage of Ibn Jubayr's pilgrimage journey. He stayed in Aydhab for about twenty-three days, then boarded a jalba vessel to cross to Jeddah, having reached Aydhab from Qus by the desert road that pilgrims take on camels with guides. The journey describes the hardship of this road and the death of many pilgrims on it."
+wings: []
+periods: [period/crusades-ayyubid-mamluk]
+regions: [egypt-nile, arabia]
+travelers: [person/ibn-jubayr-muhammad]
+legs:
+  - { from: place/aydhab, to: place/jeddah, mode: "جلبة (سفينة)", note: "ركبوا الجلبة للعبور إلى جدة يوم الاثنين الخامس والعشرين من ربيع الأول، فأقاموا بالمرسى لركود الريح ثم أقلعوا صباح الثلاثاء؛ وكانت مدة المقام بعيذاب نحو ثلاثة وعشرين يوماً (الصفحة 362 من الماسح الضوئي للنسخة).", sources: [source/rihla-ibn-jubayr-1907] }
+relations: []
+sources: [source/rihla-ibn-jubayr-1907]
+provenance: { layer: own-research, source: "Rihla of Ibn Jubayr, Gibb Memorial 1907, scan pp. 362–368", generated_by: "Claude Code", model: "claude-haiku-5-5", run: "journeys-phase1-jubayr" }
+status: { review: draft, completeness: 1, generated_by: "Claude Code; drafted from Rihla of Ibn Jubayr scan pp. 362–368; checked against image (p. 362, scan image opened); also checked against image pp. 363-368 (pages-png p0363-p0368 opened; Aydhab and the Jeddah sea stretch text read on p0367-p0368)" }
+
+waypoints:
+  - {"place": "place/aydhab", "day": 1, "day_note": "رقم المحطة في ترتيب النص، لا يدل على عدد الأيام ما لم يذكره النص.", "title": {"ar": "عيذاب"}, "narrative": {"ar": "نقطة الانطلاق: عيذاب. ركبوا الجلبة للعبور إلى جدة يوم الاثنين الخامس والعشرين من ربيع الأول، فأقاموا بالمرسى لركود الريح ثم أقلعوا صباح الثلاثاء؛ وكانت مدة المقام بعيذاب نحو ثلاثة وعشرين يوماً (الصفحة 362 من الماسح الضوئي للنسخة)."}, "sources": ["source/rihla-ibn-jubayr-1907"]}
+  - {"place": "place/jeddah", "day": 2, "day_note": "رقم المحطة في ترتيب النص، لا يدل على عدد الأيام ما لم يذكره النص.", "title": {"ar": "جدة"}, "narrative": {"ar": "ركبوا الجلبة للعبور إلى جدة يوم الاثنين الخامس والعشرين من ربيع الأول، فأقاموا بالمرسى لركود الريح ثم أقلعوا صباح الثلاثاء؛ وكانت مدة المقام بعيذاب نحو ثلاثة وعشرين يوماً (الصفحة 362 من الماسح الضوئي للنسخة)."}, "sources": ["source/rihla-ibn-jubayr-1907"]}

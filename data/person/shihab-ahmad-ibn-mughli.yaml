@@ -1,0 +1,24 @@
+id: person/shihab-ahmad-ibn-mughli
+class: person
+label: { ar: "شهاب الدين أحمد ابن مفلح", en: "Shihab al-Din Ahmad Ibn Muflih" }
+names:
+  - { value: "شهاب الدين أحمد بن محمد بن مغلح بن مفرج الراميني الصالحي الحنبلي", kind: full }
+gender: male
+summary:
+  ar: "شهاب الدين أحمد بن مفلح الراميني ثم الدمشقي الصالحي الحنبلي أخو الشيخ تقي الدين ابن مفلح؛ ولد سنة أربع وخمسين وسبعمائة، توفي سنة أربع عشرة وثمانمائة {cite:shadharat-dhahab p. 114}."
+  en: "Shihab al-Din Ahmad Ibn Muflih (b. 754) of Ramin then Damascus's Salihiyya — Hanbali brother of shaykh Taqi al-Din Ibn Muflih; died 814 {cite:shadharat-dhahab p. 114}."
+roles: [scholar]
+wings: [people]
+periods: [period/mongol-post-mongol]
+regions: [levant-iraq]
+born: { edtf: "1353~", hijri: "0754", calendar: julian, precision: year, status: tradition, derived: true, note: "ولد سنة أربع وخمسين وسبعمائة {cite:shadharat-dhahab p. 114}", sources: [source/shadharat-dhahab] }
+died: { edtf: "1411~", hijri: "0814", calendar: julian, precision: year, status: tradition, derived: true, note: "توفي سنة 814 {cite:shadharat-dhahab p. 114}", sources: [source/shadharat-dhahab] }
+relations:
+  - { type: sibling_of, target: person/ibrahim-ibn-muflih, sources: [source/shadharat-dhahab] }
+provenance:
+  layer: own-research
+  source: "شذرات الذهب — ابن العماد (ط مكتبة المثنى 1351، ج7، سنة 814)، قراءة آبل فيجن"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-shadharat-batch-137
+sources: [source/shadharat-dhahab]
+status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 High)" }

@@ -1,0 +1,23 @@
+id: event/battle-of-manupur-1748
+class: event
+kind: battle
+label: { ar: "معركة مانوبور (١٧٤٨)", en: "Battle of Manupur" }
+summary:
+  ar: "بطاقة أولية لمعركة مانوبور سنة ١٧٤٨م، صد المغول والسيخ حملة أحمد شاه الدراني الأولى؛ لم تُراجع مصادره على الصفحة بعد."
+  en: "Draft card for the Battle of Manupur in 1748, the Mughal-Sikh repulse of Ahmad Shah Durrani's first invasion; its sources are not yet checked on the page."
+wings: [time]
+periods: [period/gunpowder-empires]
+regions: [south-asia]
+date:
+  start: { edtf: "1748", precision: year, status: tradition, derived: true }
+  end: { edtf: "1748", precision: year, status: tradition, derived: true }
+sources: [source/tarikh-islam-hasan-ibrahim]
+external_ids:
+  wikidata: Q21244904
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; battle attested in narrative histories — entry not yet checked on the page"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-wave2
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

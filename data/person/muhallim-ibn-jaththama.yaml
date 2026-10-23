@@ -1,0 +1,20 @@
+id: person/muhallim-ibn-jaththama
+class: person
+label: { ar: "محلّم بن جثامة الليثي", en: "Muhallim ibn Jaththama al-Laythi" }
+names:
+  - { kind: full, lang: ar, value: "محلّم بن جثامة بن قيس الليثي" }
+  - { kind: alternate, lang: ar, value: "ملجم بن جثامة" }
+gender: male
+summary:
+  ar: "من بني ليث، كان في سرية ابن أبي حدرد إلى إضم فقتل عامر بن الأضبط الأشجعي بعد أن سلّم بتحية الإسلام، لشيء كان بينهما؛ قُبلت فيه الدية بحنين ودعا عليه النبي: اللهم لا تغفر لمحلّم، ويروي الحسن البصري أنه مات بعد سبع فلفظته الأرض؛ يسميه ابن إسحاق ملجماً وابن هشام محلّماً."
+  en: "Of Banu Layth; in Ibn Abi Hadrad's detachment to Idam he killed Amir ibn al-Adbat al-Ashja'i after the man had given the greeting of Islam, over an old grudge; blood-money was accepted at Hunayn and the Prophet prayed 'O God, do not forgive Muhallim'; al-Hasan al-Basri reports he died within seven days and the earth cast him out. Ibn Ishaq calls him Muljim, Ibn Hisham Muhallim."
+wings: [people]
+periods: [period/prophetic-era]
+regions: [arabia]
+died: { edtf: "0630~", hijri: "0008~", calendar: julian, precision: year, status: debated, note: "«ما مكث إلا سبعاً حتى مات» بعد حنين في مرسل الحسن البصري (needs_source).", sources: [source/ibn-hisham-saqqa] }
+relations:
+  - { type: member_of, target: group/kinana, note: "من بني ليث", sources: [source/ibn-hisham-saqqa] }
+  - { type: participated_in, target: event/raid-of-ibn-abi-hadrad-on-batn-idam, role: "قاتل عامر بن الأضبط", sources: [source/ibn-hisham-saqqa] }
+provenance: { layer: own-research, source: "sira-ibn-hisham saqqa 1936, juz' 4 pp. 275-277", generated_by: "Claude Code", model: "claude-fable-5-1", run: "ibn-hisham-batch-14" }
+sources: [source/ibn-hisham-saqqa]
+status: { review: draft, completeness: 1, generated_by: "Claude Fable 5.1; mined from Ibn Hisham juz' 4 pp. 275-277" }

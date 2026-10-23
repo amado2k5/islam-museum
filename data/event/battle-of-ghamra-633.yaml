@@ -1,0 +1,23 @@
+id: event/battle-of-ghamra-633
+class: event
+kind: battle
+label: { ar: "معركة غمرة", en: "Battle of Ghamra" }
+summary:
+  ar: "بطاقة أولية لمعركة غمرة سنة ٦٣٣م، وقعة خالد بن الوليد في حملته على العراق بتوالي الأنبار؛ لم تُراجع مصادره على الصفحة بعد."
+  en: "Draft card for the Battle of Ghamra in 633, Khalid ibn al-Walid's engagement on the Iraq campaign after al-Anbar; its sources are not yet checked on the page."
+wings: [time]
+periods: [period/rashidun]
+regions: [levant-iraq]
+date:
+  start: { edtf: "633", precision: year, status: tradition, derived: true }
+  end: { edtf: "633", precision: year, status: tradition, derived: true }
+sources: [source/futuh-buldan-maarif-1407]
+external_ids:
+  wikidata: Q4871095
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; battle attested in conquest histories — entry not yet checked on the page"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-wave2
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

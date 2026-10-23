@@ -1,0 +1,27 @@
+id: person/ibn-shufayn
+class: person
+label: { ar: "ابن شفين العباسي", en: "Ibn Shufayn al-Abbasi" }
+names:
+  - { value: "الشريف أبو الكرم محمد بن عبد الواحد بن أحمد الهاشمي العباسي المتوكلي", kind: full }
+born: { edtf: "1154~", hijri: "0549~", calendar: julian, precision: year, status: tradition, derived: true, note: "مات في 640 وله إحدى وتسعون سنة {cite:shadharat-dhahab p. 209}." }
+died: { edtf: "1242", hijri: "0640-07", calendar: julian, precision: month, status: tradition, derived: true, note: "توفي في رجب سنة أربعين وستمائة وله إحدى وتسعون سنة {cite:shadharat-dhahab p. 209}.", sources: [source/shadharat-dhahab] }
+summary:
+  ar: "الشريف الهاشمي العباسي مسند العراق؛ أجاز له أبو بكر بن الزاغوني ونصر بن نصر العكبري وأبو الوقت ومحمد بن عبيد الله الرطبي، وسمع من يحيى بن السدنك، وكان سرياً نبيلاً؛ توفي في رجب وله إحدى وتسعون سنة {cite:shadharat-dhahab p. 208-209}."
+  en: "Ibn Shufayn (d. Rajab 640 at 91) — the Abbasid sharif who ended as musnid of Iraq, licensed by Ibn al-Zaghuni and Abu al-Waqt's generation {cite:shadharat-dhahab p. 208-209}."
+gender: male
+roles: [scholar]
+wings: [people]
+periods: [period/crusades-ayyubid-mamluk]
+regions: [levant-iraq]
+faith:
+  - value: sunni
+    basis: tradition
+relations:
+  - { type: died_in, target: place/baghdad, sources: [source/shadharat-dhahab] }
+sources: [source/shadharat-dhahab]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }
+provenance:
+  layer: own-research
+  source: "شذرات الذهب — ابن العماد (ج5، سنة 640)، قراءة آبل فيجن"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-shadharat-batch-126

@@ -1,0 +1,18 @@
+id: event/ajam-earthquake-574
+class: event
+kind: other
+label: { ar: "زلزلة بلاد العجم من العراق إلى ما وراء الري", en: "the great ʿAjam earthquake — Iraq to beyond Rayy" }
+date:
+  start: { edtf: "1178~", hijri: "0574", calendar: julian, precision: year, status: tradition, derived: true }
+summary:
+  ar: "زُلزلت بلاد العجم من جهة العراق إلى ما وراء الري وهلك فيها خلق كثير، ولم يزل أثرها في الخراب دهرًا {cite:kamil-ibn-al-athir p. 78}."
+  en: "An earthquake shook the lands of ʿAjam from the Iraq side to beyond Rayy, killing multitudes — its ruin visible for an age {cite:kamil-ibn-al-athir p. 78}."
+relations:
+  - { type: occurred_at, target: place/rayy, sources: [source/kamil-ibn-al-athir] }
+provenance:
+  layer: own-research
+  source: "الكامل في التاريخ لابن الأثير، قراءة آبل فيجن"
+  generated_by: "Devin (SWE-2 Medium) from Apple Vision OCR"
+  run: lib-kamil-v12-batch02
+sources: [source/kamil-ibn-al-athir]
+status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 Medium)" }

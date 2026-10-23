@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 20:42 (سورة طه، الآية 42)."
 text: "ٱذْهَبْ أَنتَ وَأَخُوكَ بِـَٔايَـٰتِى وَلَا تَنِيَا فِى ذِكْرِى"
 text_search: "اذهب أنت وأخوك بآياتي ولا تنيا في ذكري"
+translations:
+  en: { text: "Go, thou and thy brother, with My tokens, and be not faint in remembrance of Me.", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "تو تم اور تمہارا بھائی دونوں ہماری نشانیاں لے کر جاؤ اور میری یاد میں سستی نہ کرنا", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-20 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

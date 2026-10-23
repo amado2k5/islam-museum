@@ -1,0 +1,29 @@
+id: person/sayf-al-din-ibn-qudama
+class: person
+label: { ar: "سيف الدين ابن قدامة", en: "Sayf al-Din Ibn Qudama" }
+names:
+  - { value: "سيف الدين أبو العباس أحمد بن عيسى بن عبد الله بن محمد بن قدامة المقدسي الصالحي الحنبلي", kind: full }
+born: { edtf: "1208", hijri: "0605", calendar: julian, precision: year, status: tradition, derived: true, note: "ولد سنة خمس وستمائة بالجبل {cite:shadharat-dhahab p. 225}." }
+died: { edtf: "1245-12~", hijri: "0643-08", calendar: julian, precision: month, status: tradition, derived: true, note: "توفي في مستهل شعبان سنة ثلاث وأربعين وستمائة بسفح قاسيون ودفن به {cite:shadharat-dhahab p. 225}." }
+summary:
+  ar: "الحافظ الحنبلي ابن شيخ الإسلام موفق الدين ابن قدامة؛ ولد بالجبل وسمع من جده الكثير ومن أبي اليمن الكندي ورحل فسمع ببغداد، وكتب بخطه الكثير وصنف؛ قال الذهبي كان ثقة حافظاً ذكياً متيقظاً مليح الخط عاملاً بالأثر آمـراً بالمعروف قوالاً بالحق ولو طال عمره لساد أهل زمانه علماً وعملاً؛ وألف مجلداً كبيراً في الرد على الحافظ محمد بن طاهر المقدسي بإباحته للسماع {cite:shadharat-dhahab p. 225}."
+  en: "Muwaffaq al-Din Ibn Qudama's grandson (b. 605, d. Sha'ban 643, Qasyun) — Dhahabi: 'had he lived he would have led his age in knowledge and practice'; author of a large volume refuting Ibn Tahir al-Maqdisi's permissibility of sama' {cite:shadharat-dhahab p. 225}."
+gender: male
+roles: [scholar, muhaddith]
+wings: [people]
+periods: [period/crusades-ayyubid-mamluk]
+regions: [levant-iraq]
+faith:
+  - value: sunni-hanbali
+    basis: tradition
+relations:
+  - { type: student_of, target: person/ibn-qudama-al-maqdisi, sources: [source/shadharat-dhahab] }
+  - { type: died_in, target: place/damascus, sources: [source/shadharat-dhahab] }
+  - { type: buried_in, target: place/damascus, sources: [source/shadharat-dhahab] }
+sources: [source/shadharat-dhahab]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }
+provenance:
+  layer: own-research
+  source: "شذرات الذهب — ابن العماد (ج5، سنة 643)، قراءة آبل فيجن"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-shadharat-batch-127

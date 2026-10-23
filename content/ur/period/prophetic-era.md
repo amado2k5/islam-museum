@@ -1,0 +1,85 @@
+---
+id: period/prophetic-era
+lang: ur
+source_lang: ar
+translators: ["Claude Haiku 5.5 (claude-haiku-5-5), draft translation"]
+---
+
+## تعارف
+نبی محمد کی مکہ اور مدینہ میں دعوت کے سال، وحی کے آغاز سے لے کر 632ء میں آپ کی وفات تک۔ میوزیم اسے تقریباً 610ء سے 632ء تک رکھتا ہے۔ یہ حدود میوزیم نے ترتیب کے لیے مقرر کی ہیں اور قطعی نہیں ہیں۔
+
+## جائزہ
+میوزیم میں اس دور کا مواد آج یہ ہے: نمایاں واقعات: 214، گروہ: 48، سب سے زیادہ ذکر ہونے والی شخصیات: 456، تصانیف: 20، تصورات: 40، عمارات: 6، سفر: 5، راستے اور نمائشیں: 5۔
+
+### نمایاں واقعات
+- [[event/pledges-of-aqaba|بیعتِ عقبہ]] (تقریباً 621ء تا تقریباً 622ء)
+- [[event/hijra|ہجرتِ نبوی]] (تقریباً 622ء)
+- [[event/battle-of-badr|غزوۂ بدر الکبریٰ]] (624ء)
+- [[event/battle-of-uhud|غزوۂ احد]] (625ء)
+- [[event/return-of-abyssinian-emigrants|جعفر بن ابی طالب کے ساتھ حبشہ کے مہاجرین کی واپسی]] (تقریباً 628ء)
+- [[event/battle-of-mutah|غزوۂ موتہ]] (629ء)
+- [[event/battle-of-hunayn|غزوۂ حنین]] (تقریباً 630ء)
+- [[event/conquest-of-mecca|فتحِ مکہ (فتحِ اعظم)]] (تقریباً 630ء)
+
+### گروہ
+- [[group/quraysh|قریش]]
+- [[group/ansar|انصار]] (622ء)
+- [[group/early-muslims|ابتدائی مسلم جماعت]] (تقریباً 610ء)
+- [[group/muhajirun|مہاجرین]] (622ء)
+- [[group/banu-hashim|بنو ہاشم]]
+- [[group/banu-sahm|بنو سہم]]
+
+### سب سے زیادہ ذکر ہونے والی شخصیات
+- [[person/muhammad|محمد]]
+- [[person/ali-ibn-abi-talib|علی بن ابی طالب]]
+- [[person/abu-bakr|ابو بکر صدیق]]
+- [[person/umar-ibn-al-khattab|عمر بن الخطاب]]
+- [[person/abu-sufyan-ibn-harb|ابو سفیان بن حرب]]
+- [[person/hamza|حمزہ بن عبد المطلب]]
+- [[person/khalid-ibn-al-walid|خالد بن الولید]]
+- [[person/abu-talib|ابو طالب بن عبد المطلب]]
+- [[person/khadija|خدیجہ بنت خویلد]]
+- [[person/abu-jahl|ابو جہل]]
+
+### تصانیف
+- [[work/hatib-letter-to-quraysh|حاطب کا قریش کے نام خط]]
+- [[work/qasidat-banat-suad|قصیدہ بانت سعاد (کعب بن زہیر کی بردہ)]]
+- [[work/farewell-sermon|خطبۂ حجۃ الوداع]]
+- [[work/covenant-of-ayla|رسول اللہ کا لیحنہ بن رؤبہ اور اہلِ ایلہ کے نام خط]]
+- [[work/kaab-ibn-malik-account-of-tabuk|کعب بن مالک کی تبوک سے پیچھے رہ جانے کی روایت]]
+- [[work/abbas-ibn-mirdas-hunayn|حنین کے دن عباس بن مرداس کا قصیدہ]]
+
+### تصورات
+- [[concept/islam-din|اسلام (دین)]]
+- [[concept/al-muallafa-qulubuhum|مؤلفۃ القلوب]]
+- [[concept/five-pillars|ارکانِ اسلام کے پانچ ستون]]
+- [[concept/iman|ایمان]]
+- [[concept/ihsan|احسان]]
+- [[concept/shahada|شہادتین]]
+
+### عمارات
+- [[building/kaaba|کعبہ]]
+- [[building/dar-al-nadwa|دار الندوہ]]
+- [[building/masjid-dirar|مسجدِ ضرار]]
+- [[building/masjid-al-haram|مسجد الحرام]]
+- [[building/masjid-quba|مسجدِ قباء]]
+
+### سفر
+- [[journey/hijra-route|ہجرت کا راستہ]]
+- [[journey/return-from-abyssinia-by-sea|حبشہ کے مہاجرین کی خیبر کی طرف واپسی]]
+- [[journey/tabuk-march-out-and-back|نبی کا تبوک کی طرف سفر اور واپسی]]
+- [[journey/badr-march|مدینہ کے لشکر کا بدر کی طرف سفر]]
+- [[journey/fath-mecca-march|فتحِ مکہ کا سفر]]
+
+### راستے اور نمائشیں
+- [[exhibit/path-meccan-period|مکی دور: غار سے ہجرت تک]]
+- [[exhibit/path-from-opposition-to-islam|مخالفت سے اسلام تک: جنہوں نے اپنا موقف بدلا]]
+- [[exhibit/path-islam-in-30-minutes|تیس منٹ میں اسلام]]
+- [[exhibit/path-women-around-the-prophet|نبی کے گرد خواتین: بارہ سیرتیں]]
+- [[exhibit/path-abyssinia-migrations|حبشہ کی دو ہجرتیں]]
+
+## یہ صفحہ کیا احاطہ کرتا ہے
+ذکر کردہ فہرستیں میوزیم کے سب سے مشہور اور زیادہ ذکر ہونے والے مواد کی ہیں، نہ کہ اس میں موجود تمام مواد کی؛ اس دور کا مواد اصل مصادر سے ہر نئے مرحلے کے ساتھ شامل ہوتا رہے گا۔
+
+## محققین کے لیے نوٹس
+دور کی حدود میوزیم کی متعین کردہ اور تقریبی ہیں؛ اس دور کی وسیع تاریخ کے لیے دیکھیے {cite:ibn-ishaq-guillaume} {cite:watt-1956-medina}۔

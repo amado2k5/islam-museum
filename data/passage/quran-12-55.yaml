@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 12:55 (سورة يوسف، الآية 55)."
 text: "قَالَ ٱجْعَلْنِى عَلَىٰ خَزَآئِنِ ٱلْأَرْضِ ۖ إِنِّى حَفِيظٌ عَلِيمٌ"
 text_search: "قال اجعلني على خزائن الأرض ۖ إني حفيظ عليم"
+translations:
+  en: { text: "He said: Set me over the storehouses of the land. Lo! I am a skilled custodian.", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "(یوسف نے) کہا مجھے اس ملک کے خزانوں پر مقرر کر دیجیئے کیونکہ میں حفاظت بھی کرسکتا ہوں اور اس کام سے واقف ہوں", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-12 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

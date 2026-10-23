@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 34:23 (سورة سبأ، الآية 23)."
 text: "وَلَا تَنفَعُ ٱلشَّفَـٰعَةُ عِندَهُۥٓ إِلَّا لِمَنْ أَذِنَ لَهُۥ ۚ حَتَّىٰٓ إِذَا فُزِّعَ عَن قُلُوبِهِمْ قَالُوا۟ مَاذَا قَالَ رَبُّكُمْ ۖ قَالُوا۟ ٱلْحَقَّ ۖ وَهُوَ ٱلْعَلِىُّ ٱلْكَبِيرُ"
 text_search: "ولا تنفع الشفاعة عنده إلا لمن أذن له ۚ حتى إذا فزع عن قلوبهم قالوا ماذا قال ربكم ۖ قالوا الحق ۖ وهو العلي الكبير"
+translations:
+  en: { text: "No intercession availeth with Him save for him whom He permitteth. Yet, when fear is banished from their hearts, they say: What was it that your Lord said? They say: The Truth. And He is the Sublime, the Great.", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "اور خدا کے ہاں (کسی کے لئے) سفارش فائدہ نہ دے گی مگر اس کے لئے جس کے بارے میں وہ اجازت بخشے۔ یہاں تک کہ جب ان کے دلوں سے اضطراب دور کردیا جائے گا تو کہیں گے تمہارے پروردگار نے کیا فرمایا ہے۔ (فرشتے) کہیں گے کہ حق (فرمایا ہے) اور وہ عالی رتبہ اور گرامی قدر ہے", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-34 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

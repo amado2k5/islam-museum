@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 15:49 (سورة الحجر، الآية 49)."
 text: "۞ نَبِّئْ عِبَادِىٓ أَنِّىٓ أَنَا ٱلْغَفُورُ ٱلرَّحِيمُ"
 text_search: "۞ نبئ عبادي أني أنا الغفور الرحيم"
+translations:
+  en: { text: "Announce, (O Muhammad) unto My slaves that verily I am the Forgiving, the Merciful,", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "(اے پیغمبر) میرے بندوں کو بتادو کہ میں بڑا بخشنے والا (اور) مہربان ہوں", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-15 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

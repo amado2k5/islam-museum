@@ -1,0 +1,25 @@
+id: person/muhammad-ibn-salih-rais
+class: person
+label: { ar: "محمد بن صالح رايس", en: "Muhammad b. Salih Reis" }
+names:
+  - { kind: full, lang: ar, value: "محمد بن صالح رايس" }
+gender: male
+roles: [ruler]
+summary:
+  ar: "تولى بيلربكية الجزائر بعد حسن بن خير الدين في ذي الحجة ٩٧٤هـ/يونيو ١٥٦٧م؛ وصادفت ولايته انتشار الأوبئة والمجاعة وتمرد الجند العثماني وإضراب الشعب فقضى وقته في مواساة المصابين وتسكين الفتن، ثم فاجأته ثورة عامل قسنطينة المتأثرة بولاة تونس الحفصيين فعزله وقضى على ثورته وولى عليها القائد رمضان {cite:dawlat-uthmaniyya-salabi p. 252}."
+  en: "Beylerbey of Algiers after Hasan b. Khayr al-Din, from Dhu'l-Hijja 974/June 1567; his term met plague, famine, a Janissary mutiny and popular strikes, which consumed his attention, then the revolt of Constantine's governor — influenced by the Hafsid rulers of Tunis — whom he deposed, crushing the rising and appointing the commander Ramadan {cite:dawlat-uthmaniyya-salabi p. 252}."
+wings: [people]
+regions: [maghreb]
+periods: [period/gunpowder-empires]
+relations:
+  - { type: child_of, target: person/salih-rais, sources: [source/dawlat-uthmaniyya-salabi] }
+  - { type: ruled_over, target: place/algiers, sources: [source/dawlat-uthmaniyya-salabi] }
+  - { type: successor_of, target: person/hasan-ibn-khayr-al-din, sources: [source/dawlat-uthmaniyya-salabi] }
+sources: [source/dawlat-uthmaniyya-salabi]
+provenance:
+  layer: own-research
+  source: "الدولة العثمانية لعلي محمد الصلابي (ط1 1421) ص 252"
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: salabi-uthmani-batch13
+status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 Medium)" }

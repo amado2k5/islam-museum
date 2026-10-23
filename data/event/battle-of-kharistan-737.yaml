@@ -1,0 +1,23 @@
+id: event/battle-of-kharistan-737
+class: event
+kind: battle
+label: { ar: "وقعة خاريستان", en: "Battle of Kharistan" }
+summary:
+  ar: "بطاقة أولية لوقعة خاريستان سنة ٧٣٧م، نصر أسد بن عبد الله القسري على خاقان التركش في آخر كبريات حروب ما وراء النهر؛ لم تُراجع مصادره على الصفحة بعد."
+  en: "Draft card for the Battle of Kharistan in 737, Asad al-Qasri's victory over the Türgesh khagan in the last great Transoxanian war; its sources are not yet checked on the page."
+wings: [time]
+periods: [period/umayyad]
+regions: [persia-central-asia]
+date:
+  start: { edtf: "737", precision: year, status: tradition, derived: true }
+  end: { edtf: "737", precision: year, status: tradition, derived: true }
+sources: [source/kamil-ibn-al-athir]
+external_ids:
+  wikidata: Q18613312
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; battle attested in Umayyad histories — entry not yet checked on the page"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-wave2
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

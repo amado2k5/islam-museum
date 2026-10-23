@@ -1,0 +1,23 @@
+id: event/conquest-of-emesa-636
+class: event
+kind: conquest
+label: { ar: "فتح حمص", en: "Conquest of Homs" }
+summary:
+  ar: "بطاقة أولية لفتح حمص سنة ٦٣٦م، استسلام المدينة البيزنطية للراشدين بعد اليرموك؛ لم تُراجع مصادره على الصفحة بعد."
+  en: "Draft card for the conquest of Homs in 636, the Byzantine city's capitulation to the Rashidun after Yarmuk; its sources are not yet checked on the page."
+wings: [time]
+periods: [period/rashidun]
+regions: [levant-iraq]
+date:
+  start: { edtf: "635", precision: year, status: tradition, derived: true }
+  end: { edtf: "636", precision: year, status: tradition, derived: true }
+sources: [source/futuh-buldan-maarif-1407]
+external_ids:
+  wikidata: Q3625476
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; conquest attested in Futuh al-Buldan — entry not yet checked on the page"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-wave2
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

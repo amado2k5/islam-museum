@@ -1,0 +1,22 @@
+id: person/ibn-al-jubrani
+class: person
+label: { ar: "ابن الجبراني" }
+gender: male
+roles: [adib, philologist]
+born: { edtf: "1166~", hijri: "0561", calendar: julian, precision: day, status: tradition, derived: true, note: "ولد يوم الأربعاء الثاني والعشرين من شوال سنة ٥٦١هـ {cite:wafayat-ayan p. 237}." }
+died: { edtf: "1231~", hijri: "0628", calendar: julian, precision: day, status: tradition, derived: true, note: "توفي يوم الاثنين سابع رجب سنة ٦٢٨هـ بحلب ودفن في سفح جبل جوشن {cite:wafayat-ayan p. 237}." }
+summary:
+  ar: "ابن الجبراني، شيخ الشهاب الشواء وأديب حلب اللغوي؛ كان من قرية جبرين قورسطايا من أعمال عزاز نسب إليها، متضلعاً من علم الأدب خصوصاً اللغة فإنها كانت غالبة عليه وكان متبحراً فيها، وله تصدر في جامع حلب في المقصورة الشرقية على صحن الجامع؛ وسمعه ابن خلكان — وهو يومئذ مشتغل بالأدب — يتكلم في قاعدة الأفعال الثلاثية التي أولها واو على فعل بكسر العين وأن مضارعها أربع لغات إلا الثمانية الشاذة ورم وورث وورع ووري وومق ووثق ووفق وولي؛ وذكر ابن الشعار أنه كان عارفاً بعلوم القرآن واللغة والنحو معرفة جيدة وكان شديد الكلب للدنيا يحتمل ضيق العيش حتى جمع مالاً لم يستفد منه أحد؛ مولده سنة إحدى وستين وخمسمائة وتوفي سابع رجب سنة ثمان وعشرين وستمائة بحلب ودفن في سفح جبل جوشن {cite:wafayat-ayan p. 237}."
+  en: "Ibn al-Jubrani — the Aleppine philologist of Jubran Qurastaya who held the east maqsura of Aleppo's Jami', where Ibn Khallikan heard him discourse on the quadrisemy of waw-initial verbs; a master of Qur'anic sciences, language and grammar who, per Ibn al-Sha'ar, hoarded his hard-won fortune and left no famous pupil; died 7 Rajab 628, buried at Jabal Jawshan {cite:wafayat-ayan p. 237}."
+wings: [people]
+periods: [period/crusades-ayyubid-mamluk]
+regions: [levant-iraq]
+relations:
+  - { type: lived_in, target: place/aleppo, sources: [source/wafayat-ayan] }
+sources: [source/wafayat-ayan]
+provenance:
+  layer: own-research
+  source: "وفيات الأعيان — ابن خلكان (حرف الياء) ص 237"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-wafayat-batch-3
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

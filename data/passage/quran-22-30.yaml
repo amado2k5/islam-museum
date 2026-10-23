@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 22:30 (سورة الحج، الآية 30)."
 text: "ذَٰلِكَ وَمَن يُعَظِّمْ حُرُمَـٰتِ ٱللَّهِ فَهُوَ خَيْرٌ لَّهُۥ عِندَ رَبِّهِۦ ۗ وَأُحِلَّتْ لَكُمُ ٱلْأَنْعَـٰمُ إِلَّا مَا يُتْلَىٰ عَلَيْكُمْ ۖ فَٱجْتَنِبُوا۟ ٱلرِّجْسَ مِنَ ٱلْأَوْثَـٰنِ وَٱجْتَنِبُوا۟ قَوْلَ ٱلزُّورِ"
 text_search: "ذلك ومن يعظم حرمات الله فهو خير له عند ربه ۗ وأحلت لكم الأنعام إلا ما يتلى عليكم ۖ فاجتنبوا الرجس من الأوثان واجتنبوا قول الزور"
+translations:
+  en: { text: "That (is the command). And whoso magnifieth the sacred things of Allah, it will be well for him in the sight of his Lord. The cattle are lawful unto you save that which hath been told you. So shun the filth of idols, and shun lying speech,", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "یہ (ہمارا حکم ہے) جو شخص ادب کی چیزوں کی جو خدا نے مقرر کی ہیں عظمت رکھے تو یہ پروردگار کے نزدیک اس کے حق میں بہتر ہے۔ اور تمہارے لئے مویشی حلال کردیئے گئے ہیں۔ سوا ان کے جو تمہیں پڑھ کر سنائے جاتے ہیں تو بتوں کی پلیدی سے بچو اور جھوٹی بات سے اجتناب کرو", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-22 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

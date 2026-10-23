@@ -16,8 +16,7 @@ summary:
   ar: عمة النبي، كانت تحت عمير بن وهب فولدت له طليباً، ثم تزوجها كلدة بن عبد مناف فولدت له أروى؛ يذكر ابن إسحاق أنه لم يسلم من عمات النبي إلا صفية، ويتعقبه ابن حجر بقصة أروى وإسلامها بعد إسلام ابنها طليب.
   en: An aunt of the Prophet; she was married to Umayr ibn Wahb and bore Tulayb, then to Kalda ibn Abd Manaf and bore Arwa; Ibn Ishaq says none of the Prophet's aunts embraced Islam except Safiyya, and Ibn Hajar answers with Arwa's story, her
     embracing Islam after her son Tulayb did.
-wings:
-- people
+wings: [people]
 themes:
 - women
 periods:
@@ -50,6 +49,58 @@ relations:
   - source/ibn-hajar-isaba
 - type: sibling_of
   target: person/abu-lahab
+  sources:
+  - source/ibn-hajar-isaba
+issue:
+  ar: هل أسلمت أروى بنت عبد المطلب؟
+  en: Did Arwa bint Abd al-Muttalib embrace Islam?
+perspectives:
+- tradition: sunni
+  id: report-1
+  stance:
+    ar: ابن إسحاق (عن أبي عمر)
+  summary:
+    ar: لم يسلم من عمات النبي إلا صفية.
+  evidence:
+  - ref: source/ibn-hajar-isaba
+    note:
+      ar: ص 1807
+  sources:
+  - source/ibn-hajar-isaba
+- tradition: sunni
+  id: report-2
+  stance:
+    ar: ابن حجر في تعقبه
+  summary:
+    ar: يتعقبه بقصة أروى، وذكرها العقيلي في الصحابة.
+  evidence:
+  - ref: source/ibn-hajar-isaba
+    note:
+      ar: ص 1807
+  sources:
+  - source/ibn-hajar-isaba
+- tradition: sunni
+  id: report-3
+  stance:
+    ar: الواقدي
+  summary:
+    ar: 'لما أسلم طليب بن عمير دخل على أمه أروى فقال: «قد أسلمت وتبعت محمداً»، فقالت: «أنظر ما يصنع أخواي»، فسألها بالله أن تأتيه فتسلم وتصدقه، فقالت: «فإني أشهد أن لا إله إلا الله وأشهد أن محمداً رسول الله»، ثم كانت بعد تعضد النبي بلسانها وتحض ابنها على نصرته.'
+  evidence:
+  - ref: source/ibn-hajar-isaba
+    note:
+      ar: ص 1807
+  sources:
+  - source/ibn-hajar-isaba
+- tradition: sunni
+  id: report-4
+  stance:
+    ar: ابن سعد
+  summary:
+    ar: أسلمت وهاجرت إلى المدينة.
+  evidence:
+  - ref: source/ibn-hajar-isaba
+    note:
+      ar: ص 1807
   sources:
   - source/ibn-hajar-isaba
 provenance:

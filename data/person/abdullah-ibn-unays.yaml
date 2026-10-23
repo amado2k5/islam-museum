@@ -19,8 +19,7 @@ summary:
   ar: جهني حليف بني سلمة من الأنصار، شهد العقبة وما بعدها وكان ممن كسر أصنام بني سلمة؛ بعثه النبي إلى خالد بن نبيح العنزي وحده فقتله؛ رحل إليه جابر مسيرة شهر في حديث، ودخل مصر وخرج إلى أفريقية، ومات بالشام سنة 54هـ على المعروف.
   en: A Juhani and ally of Banu Salima among the Ansar; he was at al-Aqaba and later campaigns and was one of those who broke the idols of Banu Salima; the Prophet sent him alone to Khalid ibn Nubayh al-Anzi, whom he killed; Jabir travelled a
     month to him for a hadith; he entered Egypt and went out to Ifriqiya, and died in Syria in 54 AH as is known.
-wings:
-- people
+wings: [people]
 themes:
 - battles
 - converts-and-leavers
@@ -41,6 +40,9 @@ faith:
   basis: tradition
   note: ذُكر في كتب الصحابة؛ يُسجَّل ضمن الإطار السني للمتحف (docs/scope.md).
 relations:
+- { type: authored, target: work/abdullah-ibn-unays-verses-on-ibn-nubayh, sources: [source/ibn-hisham-saqqa] }
+- { type: participated_in, target: event/killing-of-khalid-ibn-sufyan-al-hudhali, role: "القاتل والراوي", sources: [source/ibn-hisham-saqqa] }
+- { type: participated_in, target: event/killing-of-al-yasir-ibn-rizam, role: "قتل اليسير وشُجّ", sources: [source/ibn-hisham-saqqa] }
 - type: participated_in
   target: event/pledges-of-aqaba
   sources:
@@ -51,8 +53,10 @@ provenance:
   generated_by: Claude (maintainer session)
   model: claude-sonnet-5-5
   run: isaba-batch-7
+external_ids: { wikidata: "Q18349849" }
 sources:
 - source/ibn-hajar-isaba
+- source/ibn-hisham-saqqa
 status:
   review: draft
   completeness: 2

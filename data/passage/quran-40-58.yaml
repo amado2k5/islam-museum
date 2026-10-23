@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 40:58 (سورة غافر، الآية 58)."
 text: "وَمَا يَسْتَوِى ٱلْأَعْمَىٰ وَٱلْبَصِيرُ وَٱلَّذِينَ ءَامَنُوا۟ وَعَمِلُوا۟ ٱلصَّـٰلِحَـٰتِ وَلَا ٱلْمُسِىٓءُ ۚ قَلِيلًا مَّا تَتَذَكَّرُونَ"
 text_search: "وما يستوي الأعمى والبصير والذين آمنوا وعملوا الصالحات ولا المسيء ۚ قليلا ما تتذكرون"
+translations:
+  en: { text: "And the blind man and the seer are not equal, neither are those who believe and do good works (equal with) the evil-doer. Little do ye reflect!", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "اور اندھا اور آنکھ والا برابر نہیں۔ اور نہ ایمان لانے والے نیکوکار اور نہ بدکار (برابر ہیں) (حقیقت یہ ہے کہ) تم بہت کم غور کرتے ہو", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-40 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

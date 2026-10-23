@@ -1,0 +1,31 @@
+id: person/muhammad-i-jalabi
+class: person
+label: { ar: "محمد الأول جلبي" }
+names:
+  - { kind: full, lang: ar, value: "محمد بن بايزيد الأول" }
+gender: male
+roles: [ruler, military]
+born: { edtf: "1379", hijri: "0781", calendar: julian, precision: year, status: tradition, sources: [source/dawlat-uthmaniyya-salabi] }
+died: { edtf: "1421", hijri: "0824", calendar: julian, precision: year, status: tradition, sources: [source/dawlat-uthmaniyya-salabi] }
+summary:
+  ar: "السلطان محمد الأول (٧٨١–٨٢٤هـ/١٣٧٩–١٤٢١م)، المعروف بمحمد جلبي؛ تولى أمر الأمة بعد وفاة والده بايزيد وتغلب على إخوته واحداً واحداً حتى خلص له الأمر وقضى سنّي حكمه الثماني في إعادة بناء الدولة وتوطيد أركانها، ويعتبره بعض المؤرخين المؤسس الثاني للدولة العثمانية. اشترك أثناء حكمه في أربع وعشرين حرباً وأُصيب بأربعين جرحاً، واستعمل الحزم مع الحلم فيمن قهرهم، وسالم إمبراطور القسطنطينية وحالفه. وهو أول سلطان عثماني أرسل الهدية السنوية إلى أمير مكة المعروفة بالصرّة توزع على فقراء مكة والمدينة. أحبه شعبه وأطلقوا عليه لقب «بهلوان» أي البطل لنشاطه الجمّ وشجاعته، وقال له على فراش الموت: عينت ابني مراد خليفة لي فأطعه {cite:dawlat-uthmaniyya-salabi p. 76-77}. وكان أصغر أبناء بايزيد الخمسة، انسحب بعد أنقرة إلى أماسيا ثم غلب إخوته حتى انفرد بالحكم سنة ١٤١٣م بعد عشر سنوات من الحرب الأهلية {cite:dawlat-uthmaniyya-salabi p. 70-73}. وتصدى بنفسه لحركة الشيخ بدر الدين السماوني فهُزمت قواتها وأُسر زعيمها وأُعدم {cite:dawlat-uthmaniyya-salabi p. 75-76}. ونقل عاصمة الدولة من أدرنة «مدينة الغزاة» إلى بروسة «مدينة الفقهاء»، وتوفي بأدرنة سنة ٨٢٤هـ/١٤٢١م عن ثلاثة وأربعين عاماً فأخفى وزيراه إبراهيم وبايزيد موته واحداً وأربعين يوماً حتى وصل ابنه مراد الثاني {cite:dawlat-uthmaniyya-salabi p. 77-78}."
+  en: "Mehmed I (1379–1421 CE) — the youngest of Bayezid's sons, who fell back on Amasya after Ankara and beat his brothers one by one to reign sole from 1413; 'the second founder' who spent his eight years reunifying the state, personally broke Sheikh Badr al-Din's rising, moved the capital from 'warriors' Edirne' to 'jurists' Bursa', and first sent the annual surra gift to the Amir of Mecca {cite:dawlat-uthmaniyya-salabi p. 70-78}. He died at Edirne in 824/1421 aged forty-three, his viziers concealing the death forty-one days until Murad II arrived {cite:dawlat-uthmaniyya-salabi p. 77-78}."
+wings: [people]
+periods: [period/mongol-post-mongol]
+regions: [anatolia-balkans]
+relations:
+  - { type: child_of, target: person/bayazid-i-yildirim, sources: [source/dawlat-uthmaniyya-salabi] }
+  - { type: sibling_of, target: person/sulayman-calabi-prince, sources: [source/dawlat-uthmaniyya-salabi] }
+  - { type: sibling_of, target: person/isa-calabi, sources: [source/dawlat-uthmaniyya-salabi] }
+  - { type: sibling_of, target: person/musa-ibn-bayezid, sources: [source/dawlat-uthmaniyya-salabi] }
+  - { type: participated_in, target: event/fetret-interregnum, role: "الغالب فيها ومعيد وحدة الدولة", sources: [source/dawlat-uthmaniyya-salabi] }
+sources: [source/dawlat-uthmaniyya-salabi]
+aliases: [person/mehmed-i-uthmani]
+external_ids:
+  wikidata: Q168769
+provenance:
+  layer: own-research
+  source: "الدولة العثمانية لعلي محمد الصلابي (ط1 1421) ص 76-77"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-salabi-uthmani-batch-1
+status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 High)" }

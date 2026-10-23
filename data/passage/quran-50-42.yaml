@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 50:42 (سورة ق، الآية 42)."
 text: "يَوْمَ يَسْمَعُونَ ٱلصَّيْحَةَ بِٱلْحَقِّ ۚ ذَٰلِكَ يَوْمُ ٱلْخُرُوجِ"
 text_search: "يوم يسمعون الصيحة بالحق ۚ ذلك يوم الخروج"
+translations:
+  en: { text: "The day when they will hear the (Awful) Cry in truth. That is the day of coming forth (from the graves).", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "جس دن لوگ چیخ یقیناً سن لیں گے۔ وہی نکل پڑنے کا دن ہے", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-50 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

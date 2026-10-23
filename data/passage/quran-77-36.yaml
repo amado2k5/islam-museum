@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 77:36 (سورة المرسلات، الآية 36)."
 text: "وَلَا يُؤْذَنُ لَهُمْ فَيَعْتَذِرُونَ"
 text_search: "ولا يؤذن لهم فيعتذرون"
+translations:
+  en: { text: "Nor are they suffered to put forth excuses.", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "اور نہ ان کو اجازت دی جائے گی کہ عذر کرسکیں", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-77 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

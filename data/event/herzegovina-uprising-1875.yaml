@@ -1,0 +1,23 @@
+id: event/herzegovina-uprising-1875
+class: event
+kind: revolt
+label: { ar: "انتفاضة الهرسك", en: "Herzegovina Uprising" }
+summary:
+  ar: "بطاقة أولية لانتفاضة الهرسك ضد الحكم العثماني من ١٨٧٥ إلى ١٨٧٧م، الشرارة التي أشعلت أزمة الشرق الكبرى؛ لم تُراجع مصادرها على الصفحة بعد."
+  en: "Draft card for the Herzegovina Uprising against Ottoman rule from 1875 to 1877, the spark of the great Eastern Crisis; its sources are not yet checked on the page."
+wings: [time]
+periods: [period/colonial-era]
+regions: [anatolia-balkans]
+date:
+  start: { edtf: "1875", precision: year, status: tradition, derived: true }
+  end: { edtf: "1877", precision: year, status: tradition, derived: true }
+sources: [source/dawlat-uthmaniyya-salabi]
+external_ids:
+  wikidata: Q2258726
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; revolt attested in Balkan histories — entry not yet checked on the page"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-wave2
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

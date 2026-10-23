@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 56:27 (سورة الواقعة، الآية 27)."
 text: "وَأَصْحَـٰبُ ٱلْيَمِينِ مَآ أَصْحَـٰبُ ٱلْيَمِينِ"
 text_search: "وأصحاب اليمين ما أصحاب اليمين"
+translations:
+  en: { text: "And those on the right hand; what of those on the right hand?", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "اور داہنے ہاتھ والے (سبحان الله) داہنے ہاتھ والے کیا (ہی عیش میں) ہیں", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-56 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

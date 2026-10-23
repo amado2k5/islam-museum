@@ -1,0 +1,57 @@
+id: concept/israiliyyat
+class: concept
+kind: term
+label: { ar: "الإسرائيليات", en: "Isra'iliyyat" }
+issue:
+  ar: "كيف يُتعامل مع ما يُروى في التفسير والقصص عن أهل الكتاب؟"
+summary:
+  ar: "ما يُنقل في التفسير والقصص عن أهل الكتاب من اليهود والنصارى. يذكر محمد رشيد رضا في مقدمة تفسيره أن أكثر المأثور في التفسير سرى إليه من هذا الباب، وينقل عن ابن تيمية وأحمد بن حنبل قواعد في قبولها وردها والوقوف عنها."
+  en: "Reports drawn from the People of the Book, Jews and Christians, that entered tafsir and the stories of the prophets. Rashid Rida, in his introduction to the tafsir, says much of the transmitted tafsir came by this route, and reports rules on accepting, rejecting or suspending judgement on them from Ibn Taymiyya and Ahmad ibn Hanbal."
+wings: [ideas]
+themes: []
+periods: [period/prophetic-era]
+perspectives:
+  - tradition: sunni
+    id: ibn-taymiyya-three-cases
+    stance:
+      ar: "قبول ما صح، ورد ما خالف، والوقف عما لا يُعرف صحيحه من ضعيفه"
+    summary:
+      ar: "ينقل رضا عن ابن تيمية أن الخلاف في التفسير ينقسم إلى ما مستنده النقل وما يُعلم بغيره، وأن ما لا يمكن تمييز صحيحه من ضعيفه أكثره لا فائدة فيه. ويقول إن ما نُقل عن كتب الأنبياء، ولا يُعرف أصله، يُوقف عن تصديقه وتكذيبه، لاحتمال أن يكون محرَّفاً أو محفوظاً."
+    holders: []
+    evidence:
+      - ref: source/tafsir-manar-v01
+        note:
+          ar: "ص 13-15 (ينقل ابن تيمية)"
+    sources: [source/tafsir-manar-v01]
+  - tradition: sunni
+    id: ahmad-three-without-basis
+    stance:
+      ar: "ثلاثة لا أصل لها: التفسير والملاحم والمغازي، بحسب ما ينقله رضا"
+    summary:
+      ar: "ينقل رضا قول الإمام أحمد: إن التفسير والملاحم والمغازي ليس لها أصل، ويفسّر ذلك بأن الغالب عليها المراسيل، ولا يعني أنه لا يصح فيها شيء. ويرى رضا أن كلام ابن تيمية لا ينقض قول أحمد، لأن أكثرها لا يصح له سند متصل."
+    holders: []
+    evidence:
+      - ref: source/tafsir-manar-v01
+        note:
+          ar: "ص 13-15"
+    sources: [source/tafsir-manar-v01]
+  - tradition: other
+    id: rida-veil-on-tafsir
+    stance:
+      ar: "رأي رشيد رضا: أكثر المأثور في التفسير حجاب على القرآن"
+    summary:
+      ar: "يعدّ رضا هذا الكم من الروايات، الذي لا قيمة له سنداً ولا موضوعاً، شاغلاً عن مقاصد القرآن، ويدعو إلى أن تُجمع الروايات المفيدة في كتب مستقلة وتُعزى إلى مخرجيها، وأن يُذكر في التفسير ما يصح منها. هذا رأيه هو، ويقدَّم هنا بوصفه كذلك."
+    holders: [person/rashid-rida]
+    evidence:
+      - ref: source/tafsir-manar-v01
+        note:
+          ar: "ص 13-15"
+    sources: [source/tafsir-manar-v01]
+sources: [source/tafsir-manar-v01]
+provenance:
+  layer: own-research
+  source: "تفسير المنار، المجلد الأول، ص 13-15 (نسخة OCR محلية)"
+  generated_by: "Claude Haiku 5.5"
+  model: claude-haiku-5-5
+  run: "lib-exp-modern-muslim-writers manar-1-6 batch 1"
+status: { review: draft, completeness: 1, generated_by: "library-expansion (Claude Haiku 5.5); Rida's introduction only; the academic account of the isra'iliyyat is still to be added" }

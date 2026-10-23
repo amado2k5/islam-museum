@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 4:13 (سورة النساء، الآية 13)."
 text: "تِلْكَ حُدُودُ ٱللَّهِ ۚ وَمَن يُطِعِ ٱللَّهَ وَرَسُولَهُۥ يُدْخِلْهُ جَنَّـٰتٍ تَجْرِى مِن تَحْتِهَا ٱلْأَنْهَـٰرُ خَـٰلِدِينَ فِيهَا ۚ وَذَٰلِكَ ٱلْفَوْزُ ٱلْعَظِيمُ"
 text_search: "تلك حدود الله ۚ ومن يطع الله ورسوله يدخله جنات تجري من تحتها الأنهار خالدين فيها ۚ وذلك الفوز العظيم"
+translations:
+  en: { text: "These are the limits (imposed by) Allah. Whoso obeyeth Allah and His messenger, He will make him enter Gardens underneath which rivers flow, where such will dwell for ever. That will be the great success.", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "(یہ تمام احکام) خدا کی حدیں ہیں۔ اور جو شخص خدا اور اس کے پیغمبر کی فرمانبرداری کرے گا خدا اس کو بہشتوں میں داخل کرے گا جن میں نہریں بہہ رہی ہیں وہ ان میں ہمیشہ رہیں گے۔اور یہ بڑی کامیابی ہے", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-4 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

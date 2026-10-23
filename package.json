@@ -11,10 +11,12 @@
   "scripts": {
     "schema": "tsx scripts/gen-schema.ts",
     "validate": "tsx scripts/validate.ts",
+    "wordmap": "tsx scripts/wordmap.ts",
     "graph": "tsx scripts/build-graph.ts",
     "derive": "tsx scripts/derive.ts",
     "api": "tsx scripts/export-api.ts",
     "coverage": "tsx scripts/report/coverage.ts",
+    "dashboard": "node tools/dashboard/generate.mjs && open http://localhost:8899",
     "test": "vitest run",
     "prebuild": "npm run validate && npm run graph && npm run derive && npm run api",
     "dev": "npm run graph && npm run derive && npm run api && npm --prefix site run dev",

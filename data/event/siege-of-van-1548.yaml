@@ -1,0 +1,23 @@
+id: event/siege-of-van-1548
+class: event
+kind: siege
+label: { ar: "حصار وان (١٥٤٨)", en: "Siege of Van" }
+summary:
+  ar: "بطاقة أولية لحصار وان سنة ١٥٤٨م، أخذ سليمان القانوني لقلعة وان في حربه الصفوية الثانية؛ لم تُراجع مصادره على الصفحة بعد."
+  en: "Draft card for the Siege of Van in 1548, Suleiman's capture of the fortress in his second Safavid war; its sources are not yet checked on the page."
+wings: [time]
+periods: [period/gunpowder-empires]
+regions: [anatolia-balkans]
+date:
+  start: { edtf: "1548", precision: year, status: tradition, derived: true }
+  end: { edtf: "1548", precision: year, status: tradition, derived: true }
+sources: [source/dawlat-uthmaniyya-salabi]
+external_ids:
+  wikidata: Q7510502
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; siege attested in Ottoman-Safavid histories — entry not yet checked on the page"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-wave2
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

@@ -1,0 +1,16 @@
+id: passage/muslim-2588
+class: passage
+unit: hadith
+work: work/sahih-muslim
+ref: "2588"
+label: { ar: "مسلم 2588 — ما نقصت صدقة من مال", en: "Muslim 2588 — Charity never diminishes wealth" }
+text: "قال رسول الله: «ما نقصت صدقة من مال، وما زاد الله عبداً بعفو إلا عزاً، وما تواضع أحد لله إلا رفعه الله»"
+summary:
+  ar: "رواية أبي هريرة في كتاب البر من صحيح مسلم؛ ثلاثية الأجر المشهورة: الصدقة لا تنقص المال، والعفو يزيد العبد عزاً، والتواضع لله رفعة."
+relations:
+  - { type: mentions, target: person/muhammad, sources: [source/sahih-muslim] }
+  - { type: mentions, target: person/abu-hurayra, sources: [source/sahih-muslim] }
+  - { type: mentions, target: concept/sadaqa, sources: [source/sahih-muslim] }
+provenance: { layer: own-research, source: "صحيح مسلم، كتاب البر والصلة والآداب (طبعة دار التأصيل، الحديث ٢٦٧١؛ ترقيم عبد الباقي المعروف 2588)، تصوير Apple Vision OCR", generated_by: "Devin (SWE-2 High) from Apple Vision OCR", run: "hadith-muslim-passages-3" }
+sources: [source/sahih-muslim]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High); matn excerpt at most 40 words checked against the scan" }

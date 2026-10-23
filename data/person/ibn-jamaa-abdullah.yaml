@@ -1,0 +1,23 @@
+id: person/ibn-jamaa-abdullah
+class: person
+label: { ar: "مجد الدين ابن جماعة", en: "Majd al-Din ibn Jama'a" }
+names:
+  - { value: "مجد الدين أبو المحاسن عبد الله بن أبي محمد يحيى بن إسماعيل ابن جماعة الكناني المقدسي الشافعي", kind: full }
+gender: male
+summary:
+  ar: "مجد الدين ابن جماعة الكناني المقدسي الشافعي مؤذن مدرسة طماج وخطيبها؛ كان أديباً مدرساً شاعراً بارزاً ولد ببيت المقدس سنة تسع وسبعين وسبعمائة فأحفظ القرآن والمنهاج والألفية وقرأ الفقه على ولده الشيخ أبي العباس أحمد المقدسي والنحو على ولده الشيخ يحيى وأخذ المذهب عن ولده الشيخ يحيى والتفسير عن الشيخ العفيف سليمان بن رميثة ودرس معهم ونوب الخطابة فحصل له بذلك محل حسن وقرأ عليه الشيخ شيخ الإسلام زكريا واشتغل وتصدى للإفتاء والتدريس بقية عمره وعزل من قضاء القدس إلى التدريس بالمدرسة الحنبلية والمقاصد والممدود، توفي في اليوم الثالث من شهر رمضان سنة خمس وستين وثمانمائة {cite:shadharat-dhahab p. 305-306}."
+  en: "Majd al-Din ibn Jama'a (b. Jerusalem 779) — muezzin-khatib of Madrasa Tumaj, Shafi'i jurist-poet trained by his own father and brothers; taught at the Hanbali madrasa and al-Maqasid; died the third day of Ramadan 865 {cite:shadharat-dhahab p. 305-306}."
+roles: [jurist, poet]
+wings: [people]
+themes: [education]
+periods: [period/mongol-post-mongol]
+regions: [levant-iraq]
+born: { edtf: "1377~", hijri: "0779", calendar: julian, precision: year, status: tradition, derived: true, note: "ولد ببيت المقدس 779 {cite:shadharat-dhahab p. 305}", sources: [source/shadharat-dhahab] }
+died: { edtf: "1461-06-15~", hijri: "0865-09-03", calendar: julian, precision: day, status: tradition, derived: true, note: "توفي اليوم الثالث من رمضان 865 {cite:shadharat-dhahab p. 306}", sources: [source/shadharat-dhahab] }
+provenance:
+  layer: own-research
+  source: "شذرات الذهب — ابن العماد (ط مكتبة المثنى 1351، ج7، سنة 865)، قراءة آبل فيجن"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-shadharat-batch-140
+sources: [source/shadharat-dhahab]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

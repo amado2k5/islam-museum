@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 19:18 (سورة مريم، الآية 18)."
 text: "قَالَتْ إِنِّىٓ أَعُوذُ بِٱلرَّحْمَـٰنِ مِنكَ إِن كُنتَ تَقِيًّا"
 text_search: "قالت إني أعوذ بالرحمن منك إن كنت تقيا"
+translations:
+  en: { text: "She said: Lo! I seek refuge in the Beneficent One from thee, if thou art Allah-fearing.", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "مریم بولیں کہ اگر تم پرہیزگار ہو تو میں تم سے خدا کی پناہ مانگتی ہوں", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-19 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

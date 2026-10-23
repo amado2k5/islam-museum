@@ -12,10 +12,13 @@ summary:
   ar: "القرآن 9:95 (سورة التوبة، الآية 95)."
 text: "سَيَحْلِفُونَ بِٱللَّهِ لَكُمْ إِذَا ٱنقَلَبْتُمْ إِلَيْهِمْ لِتُعْرِضُوا۟ عَنْهُمْ ۖ فَأَعْرِضُوا۟ عَنْهُمْ ۖ إِنَّهُمْ رِجْسٌ ۖ وَمَأْوَىٰهُمْ جَهَنَّمُ جَزَآءًۢ بِمَا كَانُوا۟ يَكْسِبُونَ"
 text_search: "سيحلفون بالله لكم إذا انقلبتم إليهم لتعرضوا عنهم ۖ فأعرضوا عنهم ۖ إنهم رجس ۖ ومأواهم جهنم جزاء بما كانوا يكسبون"
+translations:
+  en: { text: "They will swear by Allah unto you, when ye return unto them, that ye may let them be. Let them be, for lo! they are unclean, and their abode is hell as the reward for what they used to earn.", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "جب تم ان کے پاس لوٹ کر جاؤ گے تو تمہارے روبرو خدا کی قسمیں کھائیں گے تاکہ تم ان سے درگزر کرو سو اُن کی طرف التفات نہ کرنا۔ یہ ناپاک ہیں اور جو یہ کام کرتے رہے ہیں اس کے بدلہ ان کا ٹھکانہ دوزخ ہے", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: revealed_about, target: event/prophets-return-and-excuses-of-the-stragglers, note: "ذكرها كعب في حديثه فيمن كذبوا واعتذروا بعد الرجوع، بحسب ابن إسحاق (ص181)؛ تعيين الآيتين 95-96 من سياق الاقتباس ويحتاج مراجعة (needs_source)", sources: [source/ibn-hisham-saqqa] }
   - { type: part_of, target: passage/quran-9 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

@@ -1,0 +1,26 @@
+id: person/al-sharishi
+class: person
+label: { ar: "الشريشي صاحب شرح المقامات", en: "al-Sharishi" }
+names:
+  - { value: "الشريشي العلامة جمال الدين أبو بكر محمد بن أحمد بن محمد بن عبد الله بن سحمان البكري الوائلي الأندلسي", kind: full }
+born: { edtf: "1204~", hijri: "0601", calendar: julian, precision: year, status: tradition, derived: true, note: "ولد سنة إحدى وستمائة {cite:shadharat-dhahab p. 663}." }
+died: { edtf: "1286-08~", hijri: "0685-07-24", calendar: julian, precision: day, status: tradition, derived: true, note: "توفي في الرابع والعشرين من رجب سنة خمس وثمانين وستمائة {cite:shadharat-dhahab p. 663}." }
+summary:
+  ar: "الفقيه المالكي الأصولي المفسر، نسبة إلى شريش مدينة بشذونة؛ سمع بالثغر وببغداد ودمشق، وكان بارعاً في مذهب مالك محققاً للعربية عارفاً بالكلام والنظر قيماً بكتاب الله وتفسيره، ذا زهد وتعبد وجلالة، وشرح «مقامات الحريري» شرحاً ممتعاً {cite:shadharat-dhahab p. 663}."
+  en: "The Andalusi Maliki of Sharish (Jerez, b. 601) — jurist, usuli and mufassir whose sharh of al-Hariri's Maqamat is 'a delightful commentary'; heard the thaghr, Baghdad and Damascus; d. 24 Rajab 685 {cite:shadharat-dhahab p. 663}."
+gender: male
+roles: [jurist, mufassir, scholar]
+wings: [people]
+periods: [period/mongol-post-mongol]
+regions: [andalus-europe, levant-iraq]
+faith:
+  - value: sunni-maliki
+    basis: tradition
+relations: []
+sources: [source/shadharat-dhahab]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }
+provenance:
+  layer: own-research
+  source: "شذرات الذهب — ابن العماد (ج7، سنة 685)، قراءة آبل فيجن"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-shadharat-batch-133

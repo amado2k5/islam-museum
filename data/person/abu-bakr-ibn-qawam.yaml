@@ -1,0 +1,28 @@
+id: person/abu-bakr-ibn-qawam
+class: person
+label: { ar: "أبو بكر بن قوام البالسي", en: "Abu Bakr ibn Qawam al-Balisi" }
+names:
+  - { value: "الشيخ الزاهد الكبير أبو بكر بن قوام بن علي بن قوام البالسي", kind: full }
+born: { edtf: "1188", hijri: "0584", calendar: julian, precision: year, status: tradition, derived: true, note: "ولد سنة أربع وثمانين وخمسمائة بمشهد صفين ثم انتقل إلى مدينة بالس {cite:shadharat-dhahab p. 303-304}." }
+died: { edtf: "1260-07~", hijri: "0658-07~", calendar: julian, precision: month, status: tradition, derived: true, note: "توفي في سلخ رجب سنة ثمان وخمسين وستمائة ببلاد حلب ثم نقل تابوته ودفن بجبل قاسيون في أول سنة سبعين {cite:shadharat-dhahab p. 303-304}." }
+summary:
+  ar: "الشيخ الزاهد الكبير؛ كان زاهداً عابداً قدوة صاحب حال وكشف وكرامات وله زاوية وأتباع؛ ولد بمشهد صفين ثم انتقل إلى بالس ونشأ بها وروى عن يحيى الثقفي؛ توفي في سلخ رجب ببلاد حلب ثم نقل تابوته ودفن بجبل قاسيون في أول سنة سبعين وقبره ظاهر يزار قاله الذهبي؛ وقال غيره كان شافعي المذهب أشعري العقيدة؛ وقد ألف حفيده الشيخ محمد بن عمر بن الشيخ أبي بكر في مناقبه مؤلفاً حسناً {cite:shadharat-dhahab p. 303-304}."
+  en: "The great ascetic of Balis (b. 584) — a guide with kashf and a zawiya and following; he died end of Rajab 658 in Aleppo's lands and his coffin was carried to Mount Qasyun in 670 where his tomb is still visited; his grandson wrote his manaqib {cite:shadharat-dhahab p. 303-304}."
+gender: male
+roles: [mystic, scholar]
+wings: [people]
+periods: [period/crusades-ayyubid-mamluk]
+regions: [levant-iraq]
+faith:
+  - value: sunni-shafii
+    basis: tradition
+    note: "نسبه بعضهم إلى الشافعية والأشعرية {cite:shadharat-dhahab p. 304}."
+relations:
+  - { type: buried_in, target: place/damascus, sources: [source/shadharat-dhahab] }
+sources: [source/shadharat-dhahab]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }
+provenance:
+  layer: own-research
+  source: "شذرات الذهب — ابن العماد (ج5، سنة 658)، قراءة آبل فيجن"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-shadharat-batch-130

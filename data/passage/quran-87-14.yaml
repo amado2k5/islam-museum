@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 87:14 (سورة الأعلى، الآية 14)."
 text: "قَدْ أَفْلَحَ مَن تَزَكَّىٰ"
 text_search: "قد أفلح من تزكى"
+translations:
+  en: { text: "He is successful who groweth,", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "بے شک وہ مراد کو پہنچ گیا جو پاک ہوا", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-87 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

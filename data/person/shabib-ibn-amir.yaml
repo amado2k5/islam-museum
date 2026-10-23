@@ -1,0 +1,20 @@
+id: person/shabib-ibn-amir
+class: person
+label: { ar: "شبيب بن عامر", en: "Shabib ibn Amir" }
+gender: male
+roles: [emir]
+summary:
+  ar: "ذكره الصلابي في قائمة ولاة علي واليا على الجزيرة {cite:sallabi-ali-vol1 p. 358}، ولم يذكر الكتاب في هذا الموضع تاريخ ولايته ولا أخباره."
+  en: "The book lists him as Ali's governor of al-Jazira {cite:sallabi-ali-vol1 p. 358}; the passage gives neither the dates of his office nor further reports."
+periods: [period/rashidun]
+wings: [people]
+relations:
+  - { type: ruler_of, target: place/jazira, sources: [source/sallabi-ali-vol1] }
+sources: [source/sallabi-ali-vol1]
+provenance:
+  layer: own-research
+  source: "sallabi-ali-vol1 p. 358, governors list (harvest OCR)"
+  generated_by: "Claude Code"
+  model: "claude-haiku-5-5"
+  run: "sallabi-ali-vol1-deep-pp351-388"
+status: { review: draft, completeness: 1, generated_by: "Claude Code (claude-haiku-5-5); from the book's list only" }

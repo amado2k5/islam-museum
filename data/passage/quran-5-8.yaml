@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 5:8 (سورة المائدة، الآية 8)."
 text: "يَـٰٓأَيُّهَا ٱلَّذِينَ ءَامَنُوا۟ كُونُوا۟ قَوَّٰمِينَ لِلَّهِ شُهَدَآءَ بِٱلْقِسْطِ ۖ وَلَا يَجْرِمَنَّكُمْ شَنَـَٔانُ قَوْمٍ عَلَىٰٓ أَلَّا تَعْدِلُوا۟ ۚ ٱعْدِلُوا۟ هُوَ أَقْرَبُ لِلتَّقْوَىٰ ۖ وَٱتَّقُوا۟ ٱللَّهَ ۚ إِنَّ ٱللَّهَ خَبِيرٌۢ بِمَا تَعْمَلُونَ"
 text_search: "يا أيها الذين آمنوا كونوا قوامين لله شهداء بالقسط ۖ ولا يجرمنكم شنآن قوم على ألا تعدلوا ۚ اعدلوا هو أقرب للتقوى ۖ واتقوا الله ۚ إن الله خبير بما تعملون"
+translations:
+  en: { text: "O ye who believe! Be steadfast witnesses for Allah in equity, and let not hatred of any people seduce you that ye deal not justly. Deal justly, that is nearer to your duty. Observe your duty to Allah. Lo! Allah is Informed of what ye do.", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "اے ایمان والوں! خدا کے لیے انصاف کی گواہی دینے کے لیے کھڑے ہو جایا کرو۔ اور لوگوں کی دشمنی تم کو اس بات پر آمادہ نہ کرے کہ انصاف چھوڑ دو۔ انصاف کیا کرو کہ یہی پرہیزگاری کی بات ہے اور خدا سے ڈرتے رہو۔ کچھ شک نہیں کہ خدا تمہارے سب اعمال سے خبردار ہے", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-5 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

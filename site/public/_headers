@@ -1,0 +1,27 @@
+# Link headers on the homepage for agent discovery (RFC 8288, RFC 9727 §3).
+
+/
+  Link: </.well-known/api-catalog>; rel="api-catalog", <https://islam.museum/openapi/v1.json>; rel="service-desc", <https://github.com/amado2k5/islam-museum/blob/main/docs/data/README.md>; rel="service-doc", </sitemap.xml>; rel="describedby"
+
+# API catalog for automated discovery (RFC 9727). Cloudflare Pages does not infer a
+# media type for an extensionless file, so the linkset type is set here.
+/.well-known/api-catalog
+  Content-Type: application/linkset+json
+
+# Cloudflare Pages added these three to every response on its own. The site Worker
+# (workers/site) applies this file to every response it serves, so they are set here
+# explicitly and the two origins answer alike.
+/*
+  X-Content-Type-Options: nosniff
+  Referrer-Policy: strict-origin-when-cross-origin
+  Access-Control-Allow-Origin: *
+
+# Hashed build assets never change under the same name: cache them for a year.
+# (Workers static assets served them with max-age=0; Pages with four hours.)
+/_astro/*
+  Cache-Control: public, max-age=31536000, immutable
+
+# The root page is served by the asset layer, which omits the charset.
+/
+  Content-Type: text/html; charset=utf-8
+

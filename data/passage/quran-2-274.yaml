@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 2:274 (سورة البقرة، الآية 274)."
 text: "ٱلَّذِينَ يُنفِقُونَ أَمْوَٰلَهُم بِٱلَّيْلِ وَٱلنَّهَارِ سِرًّا وَعَلَانِيَةً فَلَهُمْ أَجْرُهُمْ عِندَ رَبِّهِمْ وَلَا خَوْفٌ عَلَيْهِمْ وَلَا هُمْ يَحْزَنُونَ"
 text_search: "الذين ينفقون أموالهم بالليل والنهار سرا وعلانية فلهم أجرهم عند ربهم ولا خوف عليهم ولا هم يحزنون"
+translations:
+  en: { text: "Those who spend their wealth by night and day, by stealth and openly, verily their reward is with their Lord, and their shall no fear come upon them neither shall they grieve.", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "جو لوگ اپنا مال رات اور دن اور پوشیدہ اور ظاہر (راہ خدا میں) خرچ کرتے رہتے ہیں ان کا صلہ پروردگار کے پاس ہے اور ان کو (قیامت کے دن) نہ کسی طرح کا خوف ہوگا اور نہ غم", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-2 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

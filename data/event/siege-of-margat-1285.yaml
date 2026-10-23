@@ -1,0 +1,23 @@
+id: event/siege-of-margat-1285
+class: event
+kind: siege
+label: { ar: "حصار المرقب (١٢٨٥)", en: "Siege of Margat (1285)" }
+summary:
+  ar: "بطاقة أولية لحصار المرقب سنة ١٢٨٥م، أخذ قلاوون لحصن العماد الصليبي؛ لم تُراجع مصادره على الصفحة بعد."
+  en: "Draft card for the Siege of Margat in 1285, Qalawun's capture of the Hospitaller stronghold; its sources are not yet checked on the page."
+wings: [time]
+periods: [period/crusades-ayyubid-mamluk]
+regions: [levant-iraq]
+date:
+  start: { edtf: "1285-04", precision: year, status: tradition, derived: true }
+  end: { edtf: "1285-05", precision: year, status: tradition, derived: true }
+sources: [source/tarikh-islam-hasan-ibrahim]
+external_ids:
+  wikidata: "Q124056308"
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; battle attested in narrative histories — entry not yet checked on the page"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-wave2
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

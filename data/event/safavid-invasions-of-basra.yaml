@@ -1,0 +1,23 @@
+id: event/safavid-invasions-of-basra
+class: event
+kind: war
+label: { ar: "الغزوات الصفوية للبصرة (١٦٢٤–١٦٢٩)", en: "Safavid invasions of Basra (1624–29)" }
+summary:
+  ar: "بطاقة أولية للغزوات الصفوية للبصرة من ١٦٢٤ إلى ١٦٢٩م، محاولات شاه عباس أخذ المدينة من العثمانيين؛ لم تُراجع مصادره على الصفحة بعد."
+  en: "Draft card for the Safavid invasions of Basra in 1624–29, Shah Abbas's attempts on the Ottoman port; its sources are not yet checked on the page."
+wings: [time]
+periods: [period/gunpowder-empires]
+regions: [levant-iraq]
+date:
+  start: { edtf: "1624", precision: year, status: tradition, derived: true }
+  end: { edtf: "1629", precision: year, status: tradition, derived: true }
+sources: [source/dawlat-uthmaniyya-salabi]
+external_ids:
+  wikidata: Q125496718
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; battle attested in narrative histories — entry not yet checked on the page"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-wave2
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

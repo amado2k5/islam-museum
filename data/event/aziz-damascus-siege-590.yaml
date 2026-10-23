@@ -1,0 +1,26 @@
+id: event/aziz-damascus-siege-590
+class: event
+kind: siege
+label: { ar: "حصر الملك العزيز دمشق", en: "al-Aziz Uthman besieges Damascus" }
+date:
+  start: { edtf: "1194~", hijri: "0590", calendar: julian, precision: year, status: tradition, derived: true }
+summary:
+  ar: "خرج الملك العزيز عثمان بن صلاح الدين من مصر فحصر دمشق وهي بيد أخيه الأفضل، ثم رحل عنها بغير ظفر بعد مشاورات الأعمام {cite:kamil-ibn-al-athir p. 234}."
+  en: "Al-Aziz Uthman ibn Saladin came out of Egypt and besieged Damascus, then held by his brother al-Afdal; he withdrew without it {cite:kamil-ibn-al-athir p. 234}."
+sides:
+- label: { ar: "الملك العزيز", en: "al-Aziz" }
+  commanders: [person/al-malik-al-aziz-uthman]
+- label: { ar: "الملك الأفضل", en: "al-Afdal" }
+  commanders: [person/al-malik-al-afdal-ali]
+
+relations:
+  - { type: occurred_at, target: place/damascus, sources: [source/kamil-ibn-al-athir] }
+  - { type: had_participant, target: person/al-malik-al-aziz-uthman, sources: [source/kamil-ibn-al-athir] }
+  - { type: had_participant, target: person/al-malik-al-afdal-ali, role: "المحصور بها", sources: [source/kamil-ibn-al-athir] }
+provenance:
+  layer: own-research
+  source: "الكامل في التاريخ لابن الأثير، قراءة آبل فيجن"
+  generated_by: "Devin (SWE-2 Medium) from Apple Vision OCR"
+  run: lib-kamil-v12-batch04
+sources: [source/kamil-ibn-al-athir]
+status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 Medium)" }

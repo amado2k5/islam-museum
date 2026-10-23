@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 3:17 (سورة آل عمران، الآية 17)."
 text: "ٱلصَّـٰبِرِينَ وَٱلصَّـٰدِقِينَ وَٱلْقَـٰنِتِينَ وَٱلْمُنفِقِينَ وَٱلْمُسْتَغْفِرِينَ بِٱلْأَسْحَارِ"
 text_search: "الصابرين والصادقين والقانتين والمنفقين والمستغفرين بالأسحار"
+translations:
+  en: { text: "The steadfast, and the truthful, and the obedient, those who spend (and hoard not), those who pray for pardon in the watches of the night.", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "یہ وہ لوگ ہیں جو (مشکلات میں) صبر کرتے اور سچ بولتے اور عبادت میں لگے رہتے اور (راہ خدا میں) خرچ کرتے اور اوقات سحر میں گناہوں کی معافی مانگا کرتے ہیں", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-3 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

@@ -1,0 +1,23 @@
+id: event/battle-of-andrassos-960
+class: event
+kind: battle
+label: { ar: "معركة أندراسوس", en: "Battle of Andrassos" }
+summary:
+  ar: "بطاقة أولية لمعركة أندراسوس سنة ٩٦٠م، كمين البيزنطيين لجيش سيف الدولة العائد من الغزو في جبال طوروس؛ لم تُراجع مصادره على الصفحة بعد."
+  en: "Draft card for the Battle of Andrassos in 960, the Byzantine ambush of Sayf al-Dawla's returning army in the Taurus passes; its sources are not yet checked on the page."
+wings: [time]
+periods: [period/abbasid-fragmentation]
+regions: [anatolia-balkans]
+date:
+  start: { edtf: "960", precision: year, status: tradition, derived: true }
+  end: { edtf: "960", precision: year, status: tradition, derived: true }
+sources: [source/tarikh-al-tabari]
+external_ids:
+  wikidata: Q2237307
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; battle attested in Hamdanid histories — entry not yet checked on the page"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-wave2
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

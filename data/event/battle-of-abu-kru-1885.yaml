@@ -1,0 +1,23 @@
+id: event/battle-of-abu-kru-1885
+class: event
+kind: battle
+label: { ar: "معركة أبو طليح الثانية", en: "Battle of Abu Kru" }
+summary:
+  ar: "بطاقة أولية لمعركة أبو كرو (أبو طليح الثانية) سنة ١٨٨٥م، اشتباك قوات المهدية مع حملة الإنقاذ البريطانية؛ لم تُراجع مصادره على الصفحة بعد."
+  en: "Draft card for the Battle of Abu Kru in 1885 during the Mahdist War in Sudan; its sources are not yet checked on the page."
+wings: [time]
+periods: [period/colonial-era]
+regions: [east-africa]
+date:
+  start: { edtf: "1885-01-19", precision: year, status: tradition, derived: true }
+  end: { edtf: "1885-01-19", precision: year, status: tradition, derived: true }
+sources: [source/tarikh-islam-hasan-ibrahim]
+external_ids:
+  wikidata: Q27627676
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; battle attested in narrative histories — entry not yet checked on the page"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-wave2
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 6:142 (سورة الأنعام، الآية 142)."
 text: "وَمِنَ ٱلْأَنْعَـٰمِ حَمُولَةً وَفَرْشًا ۚ كُلُوا۟ مِمَّا رَزَقَكُمُ ٱللَّهُ وَلَا تَتَّبِعُوا۟ خُطُوَٰتِ ٱلشَّيْطَـٰنِ ۚ إِنَّهُۥ لَكُمْ عَدُوٌّ مُّبِينٌ"
 text_search: "ومن الأنعام حمولة وفرشا ۚ كلوا مما رزقكم الله ولا تتبعوا خطوات الشيطان ۚ إنه لكم عدو مبين"
+translations:
+  en: { text: "And of the cattle (He produceth) some for burdens, some for food. Eat of that which Allah hath bestowed upon you, and follow not the footsteps of the devil, for lo! he is an open foe to you.", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "اور چارپایوں میں بوجھ اٹھانے والے (یعنی بڑے بڑے) بھی پیدا کئے اور زمین سے لگے ہوئے (یعنی چھوٹے چھوٹے) بھی (پس) خدا کا دیا ہوا رزق کھاؤ اور شیطان کے قدموں پر نہ چلو وہ تمہارا صریح دشمن ہے", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-6 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

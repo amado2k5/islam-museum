@@ -1,0 +1,75 @@
+id: exhibit/path-modern-mosques
+class: exhibit
+kind: trail
+label:
+  ar: مساجد العصر
+  en: Mosques of the Modern Age
+summary:
+  ar: 'مسار في العمارة الحديثة: الحسن الثاني على الأطلسي، وفيصل في إسلام آباد، والسليمانية أصلاً.'
+  en: A trail through modern mosque architecture.
+audience:
+- newcomer
+- student
+duration_minutes: 30
+wings: []
+regions:
+- global
+rooms:
+- title:
+    ar: الحسن الثاني
+    en: Hassan II
+  body:
+    ar: 'الدار البيضاء 1993: أعلى منارة في العالم فوق المحيط.'
+    en: 'Casablanca 1993: the world''s tallest minaret over the ocean.'
+  features:
+  - building/hassan-ii-mosque
+- title:
+    ar: فيصل
+    en: Faisal
+  body:
+    ar: 'إسلام آباد 1986: الخيمة البدوية في قدم المرغلا.'
+    en: 'Islamabad 1986: a Bedouin tent at the Margalla foot.'
+  features:
+  - building/faisal-mosque
+- title:
+    ar: السليمانية
+    en: Sulaymaniyya
+  body:
+    ar: 'إسطنبول 1557: معمار سنان يعلّم الأجيال.'
+    en: 'Istanbul 1557: Sinan teaching generations.'
+  features:
+  - building/sulaymaniyya-mosque
+  - place/istanbul
+- title:
+    ar: الأزهر اليوم
+    en: Al-Azhar today
+  body:
+    ar: ألف سنة ولم تزل تدرّس.
+    en: A thousand years and still teaching.
+  features:
+  - building/al-azhar
+  - place/cairo
+- title:
+    ar: ما المسجد
+    en: What is a mosque
+  body:
+    ar: قبلة ومحراب ومنبر ومنارة.
+    en: Qibla, mihrab, minbar, minaret.
+  features:
+  - question/what-is-mosque
+  - concept/minbar
+  - concept/mihrab
+prerequisites:
+- exhibit/path-islam-in-30-minutes
+sources:
+- source/wikidata
+provenance:
+  layer: own-research
+  source: Devin-assembled trail from existing museum entities
+  generated_by: Devin (SWE-2 High)
+  model: SWE-2 High
+  run: pathways-batch-3
+status:
+  review: draft
+  completeness: 1
+  generated_by: Devin (SWE-2 High), pathways lane, 2026-10-16

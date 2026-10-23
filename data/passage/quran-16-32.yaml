@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 16:32 (سورة النحل، الآية 32)."
 text: "ٱلَّذِينَ تَتَوَفَّىٰهُمُ ٱلْمَلَـٰٓئِكَةُ طَيِّبِينَ ۙ يَقُولُونَ سَلَـٰمٌ عَلَيْكُمُ ٱدْخُلُوا۟ ٱلْجَنَّةَ بِمَا كُنتُمْ تَعْمَلُونَ"
 text_search: "الذين تتوفاهم الملائكة طيبين ۙ يقولون سلام عليكم ادخلوا الجنة بما كنتم تعملون"
+translations:
+  en: { text: "Those whom the angels cause to die (when they are) good. They say: Peace be unto you! Enter the Garden because of what ye used to do.", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "(ان کی کیفیت یہ ہے کہ) جب فرشتے ان کی جانیں نکالنے لگتے ہیں اور یہ (کفر وشرک سے) پاک ہوتے ہیں تو سلام علیکم کہتے ہیں (اور کہتے ہیں کہ) جو عمل تم کیا کرتے تھے ان کے بدلے میں بہشت میں داخل ہوجاؤ", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-16 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

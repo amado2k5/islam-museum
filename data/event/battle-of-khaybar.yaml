@@ -4,8 +4,8 @@ kind: siege
 label: { en: "The Conquest of Khaybar", ar: "غزوة خيبر" }
 summary:
   en: "In Muharram 7 AH (May-June 628 CE), the Prophet marched with 1,400 companions of Hudaybiyya against the formidable Jewish oasis of Khaybar; following fierce assaults and the capture of eight major fortresses (including Na'im, al-Sa'b ibn Mu'adh, al-Zubayr, Ubayy, and al-Qamus), the Jewish leaders surrendered and agreed to cultivate the land for half of its produce."
-  ar: "في المحرم سنة 7هـ (مايو 628م)، سار النبي في ألف وأربعمائة من أصحاب بيعة الرضوان لفتح واحة خيبر المنيعة؛ فحوصرت حصونها الثمانية حصناً حصناً حتى فتحها الله على يدي علي بن أبي طالب بقتله مرحباً، ونزل أهل خيبر على الصلح بحقن دمائهم ومزارعة أرضهم على نصف ما يخرج من ثمر وزرع."
-wings: [time, people, place]
+  ar: "في المحرم سنة 7هـ (مايو 628م)، سار النبي في ألف وأربعمائة من أصحاب بيعة الرضوان لفتح واحة خيبر المنيعة؛ فحوصرت حصونها الثمانية حصناً حصناً حتى فتحها الله على يدي علي بن أبي طالب بقتله مرحباً، ونزل أهل خيبر على الصلح بحقن دمائهم ومزارعة أرضهم على نصف ما يخرج من ثمر وزرع. وفي صحيح مسلم رواية سهل بن سعد وسلمة بن الأكوع لحديث الراية: «لأعطين هذه الراية رجلاً يفتح الله على يديه، يحب الله ورسوله ويحبه الله ورسوله» {cite:sahih-muslim 2405}."
+wings: [time]
 themes: [battles, wars-and-campaigns]
 periods: [period/prophetic-era]
 regions: [arabia]
@@ -27,5 +27,15 @@ sides:
   - label: { en: "Warriors of Khaybar", ar: "مقاتلة يهود خيبر" }
     participants: [group/jews-of-khaybar]
     commanders: [person/marhab-al-yahudi]
-sources: [source/mubarakpuri-raheeq, source/sahih-al-bukhari, source/sahih-muslim, source/ibn-hisham-sira, source/zad-al-maad]
+map:
+  kind: locator
+  precision: approximate
+  center: [25.70, 39.29]
+  extent_km: 30
+  basemap: terrain
+  date_for_borders: "0628"
+  features:
+    - { type: point, role: landmark, label: { ar: "واحة خيبر — ثمانية حصون في منطقتين: النطاة والشق، والكتيبة (القموص والوطيح والسلالم)", en: "The Khaybar oasis: eight forts in two districts, al-Natah and al-Shiq, and al-Katiba (al-Qamus, al-Watih, al-Salalim)" }, at: [25.70, 39.29], precision: approximate, source: source/mubarakpuri-raheeq }
+external_ids: { wikidata: "Q565661" }
+sources: [source/mubarakpuri-raheeq, source/sahih-al-bukhari, source/sahih-muslim, source/ibn-hisham-sira, source/zad-al-maad, source/sallabi-ali-vol1]
 status: { review: draft, completeness: 2, generated_by: "Devin; al-Raheeq al-Makhtum pp. 364–379" }

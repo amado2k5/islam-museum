@@ -1,0 +1,22 @@
+id: event/tur-castle-615
+class: event
+kind: siege
+label: { ar: "حصر الفرنج قلعة الطور وتخريبها", en: "The Franks besiege and demolish Qal'at al-Tur" }
+date:
+  start: { edtf: "1218~", hijri: "0615", calendar: julian, precision: year, status: tradition, derived: true }
+summary:
+  ar: "حصر الفرنج قلعة الطور على ساحل مصر فأخذوها وخربوها وهموا بدمياط {cite:kamil-ibn-al-athir p. 375}."
+  en: "The Franks besieged and razed Qal'at al-Tur on the Egyptian coast, then turned on Damietta {cite:kamil-ibn-al-athir p. 375}."
+sides:
+  - label: { ar: "المسلمون" }
+  - label: { ar: "خصومهم" }
+relations:
+  - { type: occurred_at, target: place/sayda, sources: [source/kamil-ibn-al-athir] }
+  - { type: had_participant, target: group/ifranja, role: "الحاصرون", sources: [source/kamil-ibn-al-athir] }
+provenance:
+  layer: own-research
+  source: "الكامل في التاريخ لابن الأثير، قراءة آبل فيجن"
+  generated_by: "Devin (SWE-2 Medium) from Apple Vision OCR"
+  run: lib-kamil-v12-batch07
+sources: [source/kamil-ibn-al-athir]
+status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 Medium)" }

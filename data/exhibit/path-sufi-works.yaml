@@ -1,0 +1,76 @@
+id: exhibit/path-sufi-works
+class: exhibit
+kind: trail
+label:
+  ar: كتب التصوف
+  en: Books of Sufism
+summary:
+  ar: 'مسار في مكتبة الطريقة: قوت القلوب، والرسالة القشيرية، والإحياء، والفتوحات — أربعة أمهات.'
+  en: A trail through the library of the path.
+audience:
+- newcomer
+- student
+duration_minutes: 30
+wings: []
+regions:
+- global
+rooms:
+- title:
+    ar: قوت القلوب
+    en: Qut
+  body:
+    ar: 'أبو طالب المكي: غذاء الأرواح.'
+    en: 'أبو طالب المكي: غذاء الأرواح.'
+  features:
+  - concept/tasawwuf
+  - concept/zuhd
+- title:
+    ar: الرسالة
+    en: The Risala
+  body:
+    ar: 'القشيري يجمع: دستور الطريقة.'
+    en: 'القشيري يجمع: دستور الطريقة.'
+  features:
+  - person/al-qushayri-abu-l-qasim
+  - place/nishapur
+- title:
+    ar: الإحياء
+    en: The Ihya
+  body:
+    ar: 'الغزالي يُدخل: التصوف في الكتب الستة.'
+    en: 'الغزالي يُدخل: التصوف في الكتب الستة.'
+  features:
+  - work/ihya-ulum-al-din
+  - person/al-ghazali-abu-hamid
+- title:
+    ar: الفتوحات
+    en: The Futuhat
+  body:
+    ar: 'ابن عربي الأكبرية: موسوعة الشيخ.'
+    en: 'ابن عربي الأكبرية: موسوعة الشيخ.'
+  features:
+  - person/ibn-arabi-muhyi-al-din
+  - place/mecca
+- title:
+    ar: المناقب
+    en: The hagiographies
+  body:
+    ar: 'سير الأولياء: من الطبقات إلى العطار.'
+    en: 'سير الأولياء: من الطبقات إلى العطار.'
+  features:
+  - concept/tasawwuf
+  - place/nishapur
+prerequisites:
+- exhibit/path-islam-in-30-minutes
+sources:
+- source/wikidata
+provenance:
+  layer: own-research
+  source: Devin-assembled trail from existing museum entities
+  generated_by: Devin (SWE-2 High)
+  model: SWE-2 High
+  run: pathways-batch-7
+status:
+  review: draft
+  completeness: 1
+  generated_by: Devin (SWE-2 High), pathways lane, 2026-10-16

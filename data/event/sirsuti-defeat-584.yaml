@@ -1,0 +1,24 @@
+id: event/sirsuti-defeat-584
+class: event
+kind: battle
+label: { ar: "ملك شرستي من الهند وانهزام المسلمين بعدها", en: "Sirsuti won — then the Muslims driven back" }
+date:
+  start: { edtf: "1188~", hijri: "0584", calendar: julian, precision: year, status: tradition, derived: true }
+summary:
+  ar: "ملك شهاب الدين محمد الغوري بلدة شرستي من أرض الهند ثم انهزم المسلمون بعدها، وكانت تلك البلاد يتداولها ملوك الهند والمسلمون {cite:kamil-ibn-al-athir p. 163}."
+  en: "Shihab al-Din Muhammad al-Ghuri took the town of Sirsuti in India — then the Muslims were repulsed in that contested marchland {cite:kamil-ibn-al-athir p. 163}."
+sides:
+- label: { ar: "عسكر الغوريين", en: "the Ghurid army" }
+  commanders: [person/shihab-al-din-ghuri]
+- label: { ar: "ملوك الهند", en: "the Indian kings" }
+
+relations:
+  - { type: occurred_at, target: place/sirsuti, sources: [source/kamil-ibn-al-athir] }
+  - { type: had_participant, target: person/shihab-al-din-ghuri, sources: [source/kamil-ibn-al-athir] }
+provenance:
+  layer: own-research
+  source: "الكامل في التاريخ لابن الأثير، قراءة آبل فيجن"
+  generated_by: "Devin (SWE-2 Medium) from Apple Vision OCR"
+  run: lib-kamil-v12-batch03
+sources: [source/kamil-ibn-al-athir]
+status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 Medium)" }

@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 3:66 (سورة آل عمران، الآية 66)."
 text: "هَـٰٓأَنتُمْ هَـٰٓؤُلَآءِ حَـٰجَجْتُمْ فِيمَا لَكُم بِهِۦ عِلْمٌ فَلِمَ تُحَآجُّونَ فِيمَا لَيْسَ لَكُم بِهِۦ عِلْمٌ ۚ وَٱللَّهُ يَعْلَمُ وَأَنتُمْ لَا تَعْلَمُونَ"
 text_search: "ها أنتم هؤلاء حاججتم فيما لكم به علم فلم تحاجون فيما ليس لكم به علم ۚ والله يعلم وأنتم لا تعلمون"
+translations:
+  en: { text: "Lo! ye are those who argue about that whereof ye have some knowledge: Why then argue ye concerning that whereof ye have no knowledge? Allah knoweth. Ye know not.", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "دیکھو ایسی بات میں تو تم نے جھگڑا کیا ہی تھا جس کا تمہیں کچھ علم تھا بھی مگر ایسی بات میں کیوں جھگڑتے ہو جس کا تمہیں کچھ بھی علم نہیں اور خدا جانتا ہے اور تم نہیں جانتے", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-3 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

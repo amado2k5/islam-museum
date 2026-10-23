@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 21:100 (سورة الأنبياء، الآية 100)."
 text: "لَهُمْ فِيهَا زَفِيرٌ وَهُمْ فِيهَا لَا يَسْمَعُونَ"
 text_search: "لهم فيها زفير وهم فيها لا يسمعون"
+translations:
+  en: { text: "Therein wailing is their portion, and therein they hear not.", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "وہاں ان کو چلاّنا ہوگا اور اس میں (کچھ) نہ سن سکیں گے", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-21 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

@@ -1,0 +1,22 @@
+id: event/barbarossa-crusade-586
+class: event
+kind: campaign
+label: { ar: "غزوة ملك الألمان وغرقه", en: "The German King's Campaign and His Drowning" }
+summary:
+  ar: "في سنة ست وثمانين وخمسمائة خرج ملك الألمان — وهم نوع من الفرنج من أكثرهم عدداً وأشدهم بأساً — لما أزعجه ملك المسلمين بيت المقدس، فسار طريقه على القسطنطينية، وأرسل ملك الروم إلى صلاح الدين يعرفه الخبر ويعده أن لا يمكنه من العبور، فلما وصل عجز عن منعه لكثرة جموعه لكنه منع عنهم الميرة، فضاقت بهم الأزواد حتى عبروا خليج القسطنطينية إلى مملكة قلج أرسلان بن مسعود السلجوقي، فثارت بهم التركمان يسايرونهم ويقتلون من انفرد، والزمان شتاء والثلج متراكم فأهلكهم البرد والجوع والتركمان، فلما قاربوا قونية خرج إليهم قطب الدين ملك شاه بن قلج أرسلان ليمنعهم فلم تكن له بهم قوة، فأرسلوا إلى قلج أرسلان يقولون ما قصدنا بلادك وإنما قصدنا بيت المقدس، فأذن لرعيته في إخراج القوت وسلم إليهم نيفاً وعشرين أميراً رهائن، فسار ملك الألمان حتى أتى بلاد الأرمن فأمدهم صاحبها لافون بالأقوات، ثم ساروا نحو أنطاكية فنزلوا على نهر في طريقهم فدخل ملكهم يغتسل فيه فغرق في مكان لا يبلغ الماء وسط الرجل، فصار ولده ملكاً بعده وسار إلى أنطاكية فاختلف أصحابه فتخلف بعضهم وملّك بعضهم أخاً له فأسر فيمن صحت نيته وكانوا نيفاً وأربعين ألفاً، فوقع فيهم الوباء والموت حتى وصلوا أنطاكية كأنهم نبشوا من القبور، ولم يبق منهم إلا نحو ألف رجل ركبوا البحر إلى الفرنج على عكا {cite:kamil-ibn-al-athir p. 193-194}."
+  en: "In 586, after the Muslim king's taking of Jerusalem alarmed him, the king of the Germans set out — a kind of Franks, the most numerous and fiercest of them — and took the road through Constantinople. The Byzantine ruler sent to Saladin to warn him and promise that he would not let him cross. When the Germans arrived, Saladin could not stop them because of their numbers, but he cut off their supplies, and provisions ran short until they crossed the strait into the realm of Qilij Arslan ibn Mas'ud the Seljuk. The Turkmen rose against them, harrying them and killing any who fell behind; it was winter, the snow lay deep, and cold, hunger and the Turkmen destroyed them. When they neared Konya, Qutb al-Din Malikshah ibn Qilij Arslan came out to block them but had no strength against them. They sent to Qilij Arslan saying they had not come against his lands but against Jerusalem; he allowed his subjects to sell them food and handed over more than twenty emirs as hostages. The German king marched to the land of the Armenians, whose ruler Lafun supplied them with food, then moved toward Antioch and camped by a river on the way, where the king went in to bathe and drowned in a spot where the water reached only to a man's waist. His son succeeded him and marched on Antioch, but the followers quarrelled: some stayed behind and some made a brother of the king their ruler. The force that went on, numbering over forty thousand, was struck by plague and death until it reached Antioch looking as though it had been dug out of graves; only about a thousand men were left, who took ship to the Franks at Acre {cite:kamil-ibn-al-athir p. 193-194}."
+wings: [time]
+themes: [crusades]
+periods: [period/crusades-ayyubid-mamluk]
+regions: [anatolia-balkans, levant-iraq]
+date:
+  start: { edtf: "1190~", hijri: "0586", calendar: julian, precision: year, status: tradition, derived: true, note: "586؛ التحويل مشتق {cite:kamil-ibn-al-athir p. 193}." }
+relations:
+  - { type: had_participant, target: person/frederick-barbarossa, role: "ملك الألمان الغارق", sources: [source/kamil-ibn-al-athir] }
+provenance:
+  layer: own-research
+  source: "الكامل في التاريخ — ابن الأثير، مسح kamilt00_201908، سنة 586، ص 193–194"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-kamil-562-629-04
+sources: [source/kamil-ibn-al-athir]
+status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 High)" }

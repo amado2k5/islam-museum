@@ -1,0 +1,34 @@
+id: person/akil-al-murar
+class: person
+label: { ar: "آكل المرار الكندي", en: "Akil al-Murar of Kinda" }
+names:
+  - { kind: full, lang: ar, value: "الحارث بن عمرو بن حجر بن عمرو بن معاوية بن الحارث بن معاوية بن ثور بن مرتع بن معاوية بن كندي (كذا عند ابن هشام)" }
+  - { kind: alternate, lang: ar, value: "حجر بن عمرو بن معاوية (ويقال إنه آكل المرار)" }
+  - { kind: laqab, lang: ar, value: "آكل المرار" }
+gender: male
+roles: [politician]
+summary:
+  ar: "ملك من ملوك كندة انتسب إليه الأشعث بن قيس من قبل النساء وادعى الوفد أن النبي ابنه؛ يذكر ابن هشام أنه الحارث بن عمرو بن حجر، وأنه سُمّي آكل المرار لأن عمرو بن الهبولة الغساني أغار على قومه وسبى امرأته أم أناس بنت عوف الشيبانية فوصفته لآسرها برجل أدلم كأن مشافره مشافر بعير آكل مرار، ثم تبعه الحارث فقتله واستنقذها؛ ويقال بل هو حجر بن عمرو، سُمّي بذلك لأنه أكل مع أصحابه شجر المرار في تلك الغزوة."
+  en: "A king of Kinda to whom al-Ash'ath ibn Qays traced his line through women and whose descendant the delegation claimed the Prophet was; Ibn Hisham names him al-Harith ibn Amr ibn Hujr and explains the name: Amr ibn al-Habula the Ghassanid raided his people and captured his wife Umm Unas bint Awf of Shayban, who described to her captor a dark man with lips like a camel's that has eaten the bitter murar shrub, and al-Harith pursued and killed him and recovered her; others say he was Hujr ibn Amr, so named because he and his men ate the murar on that raid."
+wings: [people]
+periods: [period/pre-islamic-arabia]
+regions: [arabia]
+story_roles:
+  - { role: ruler, toward: group/kinda, status: tradition, note: "من ملوك كندة (ابن هشام ص232-233).", sources: [source/ibn-hisham-saqqa] }
+relations:
+  - { type: member_of, target: group/kinda, sources: [source/ibn-hisham-saqqa] }
+issue: { ar: "من هو آكل المرار: الحارث بن عمرو أم حجر بن عمرو؟" }
+perspectives:
+  - tradition: sunni
+    id: ibn-hisham-harith
+    stance: { ar: "الحارث بن عمرو بن حجر" }
+    summary: { ar: "قال ابن هشام إنه الحارث بن عمرو بن حجر، وسُمّي آكل المرار لوصف امرأته أم أناس إياه لعمرو بن الهبولة." }
+    sources: [source/ibn-hisham-saqqa]
+  - tradition: sunni
+    id: ibn-hisham-hujr
+    stance: { ar: "حجر بن عمرو بن معاوية" }
+    summary: { ar: "«ويقال: بل آكل المرار حجر بن عمرو بن معاوية، وهو صاحب هذا الحديث»، سُمّي بذلك لأنه أكل هو وأصحابه في تلك الغزوة شجراً يقال له المرار." }
+    sources: [source/ibn-hisham-saqqa]
+provenance: { layer: own-research, source: "sira-ibn-hisham saqqa 1936, juz' 4 pp. 232-233", generated_by: "Claude Code", model: "claude-fable-5-1", run: "ibn-hisham-batch-9b" }
+sources: [source/ibn-hisham-saqqa]
+status: { review: draft, completeness: 2, generated_by: "Claude Fable 5.1; mined from Ibn Hisham juz' 4 pp. 232-233" }

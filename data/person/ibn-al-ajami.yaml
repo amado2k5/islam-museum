@@ -1,0 +1,25 @@
+id: person/ibn-al-ajami
+class: person
+label: { ar: "ابن العجمي الحلي", en: "Ibn al-Ajami al-Hilli" }
+names:
+  - { value: "ابن العجمي أبو طالب عبد الرحمن بن عبد الرحيم بن عبد الرحمن بن الحسن الحلي الشافعي", kind: full }
+died: { edtf: "1260-02~", hijri: "0658-02-24", calendar: julian, precision: day, status: tradition, derived: true, note: "عذبه التتار على المال حتى هلك في الرابع والعشرين من صفر سنة ثمان وخمسين وستمائة {cite:shadharat-dhahab p. 301}." }
+summary:
+  ar: "أبو طالب عبد الرحمن الحلي الشافعي؛ روى عن يحيى الثقفي وابن طبرزد ودرس؛ اقتله التتار تعذيباً على المال حتى هلك في الرابع والعشرين من صفر {cite:shadharat-dhahab p. 301}."
+  en: "The Hilli Shafi'i scholar — the Tatars tortured him for the money-hoard till he died, 24 Safar 658 {cite:shadharat-dhahab p. 301}."
+gender: male
+roles: [scholar, muhaddith]
+wings: [people]
+periods: [period/crusades-ayyubid-mamluk, period/mongol-post-mongol]
+regions: [levant-iraq]
+faith:
+  - value: sunni-shafii
+    basis: tradition
+relations: []
+sources: [source/shadharat-dhahab]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }
+provenance:
+  layer: own-research
+  source: "شذرات الذهب — ابن العماد (ج5، سنة 658)، قراءة آبل فيجن"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-shadharat-batch-130

@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 36:66 (سورة يس، الآية 66)."
 text: "وَلَوْ نَشَآءُ لَطَمَسْنَا عَلَىٰٓ أَعْيُنِهِمْ فَٱسْتَبَقُوا۟ ٱلصِّرَٰطَ فَأَنَّىٰ يُبْصِرُونَ"
 text_search: "ولو نشاء لطمسنا على أعينهم فاستبقوا الصراط فأنى يبصرون"
+translations:
+  en: { text: "And had We willed, We verily could have quenched their eyesight so that they should struggle for the way. Then how could they have seen?", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "اور اگر ہم چاہیں تو ان کی آنکھوں کو مٹا کر (اندھا کر) دیں۔ پھر یہ رستے کو دوڑیں تو کہاں دیکھ سکیں گے", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-36 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

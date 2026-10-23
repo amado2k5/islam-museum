@@ -1,0 +1,66 @@
+id: exhibit/path-alexandria-city
+class: exhibit
+kind: trail
+label:
+  ar: الإسكندرية
+  en: Alexandria
+summary:
+  ar: 'مسار في عروس المتوسط: منارة العالم القديم، ومكتبتها الأسطورية، ومدخل الإسلام لمصر.'
+  en: A trail through the Mediterranean's bride.
+audience:
+- newcomer
+- student
+duration_minutes: 30
+wings: []
+regions:
+- egypt-nile
+rooms:
+- title:
+    ar: المدينة القديمة
+    en: The ancient city
+  body:
+    ar: 'من الإسكندر إلى البطالمة: منارة ومكتبة.'
+    en: 'من الإسكندر إلى البطالمة: منارة ومكتبة.'
+  features:
+  - place/alexandria
+  - building/al-manara-iskandariyya
+- title:
+    ar: الفتح
+    en: The conquest
+  body:
+    ar: '641: عمرو بن العاص يدخل ثانية مدن الدنيا.'
+    en: '641: عمرو بن العاص يدخل ثانية مدن الدنيا.'
+  features:
+  - place/iskandariyya
+  - place/cairo
+- title:
+    ar: المسلمون فيها
+    en: Under Islam
+  body:
+    ar: قرون من العلم والتجارة على البحر.
+    en: قرون من العلم والتجارة على البحر.
+  features:
+  - place/alexandria
+  - person/al-biruni-muhammad-ibn-ahmad
+- title:
+    ar: اليوم
+    en: Today
+  body:
+    ar: مكتبتها الجديدة ومدينتها الحية.
+    en: مكتبتها الجديدة ومدينتها الحية.
+  features:
+  - place/alexandria
+prerequisites:
+- exhibit/path-islam-in-30-minutes
+sources:
+- source/wikidata
+provenance:
+  layer: own-research
+  source: Devin-assembled trail from existing museum entities
+  generated_by: Devin (SWE-2 High)
+  model: SWE-2 High
+  run: pathways-batch-7
+status:
+  review: draft
+  completeness: 1
+  generated_by: Devin (SWE-2 High), pathways lane, 2026-10-16

@@ -1,0 +1,27 @@
+id: person/al-kamal-salar-al-irbili
+class: person
+label: { ar: "الكمال سلار الإربلي", en: "al-Kamal Salar al-Irbili" }
+names:
+  - { value: "الكمال سلار بن الحسن بن عمر بن سعيد الإربلي الشافعي الإمام العلامة مفتي الشام ومفيده أبو الفضائل", kind: full }
+died: { edtf: "1272~", hijri: "0670", calendar: julian, precision: year, status: tradition, derived: true, note: "وفاته في أموات سنة سبعين وستمائة {cite:shadharat-dhahab p. 577-578}." }
+summary:
+  ar: "مفتي الشام ومفيده، صاحب ابن الصلاح شيخ الأصحاب ومفيد الطلاب؛ تفقه على ابن الصلاح حتى برع في المذهب وتقدم وساد واحتاج الناس إليه، وكان معيداً بالبادرائية عينه لها واقفها فباشرها إلى أن توفي يفيد ويعيد ويصنف ويعلق ويؤلف ويجمع وينشر المذهب ولم يزدد منصباً آخر، وقد اختصر «البحر» للروياني في مجلدات عدة؛ وانتفع به جماعة من الأصحاب منهم الشيخ محيي الدين النووي وأثنى عليه ثناءً حسناً؛ وقال الشريف عز الدين: وكان عليه مدار الفتوى بالشام في وقته {cite:shadharat-dhahab p. 577-578}."
+  en: "Mufti of Syria — Ibn al-Salah's senior pupil ('shaykh of the ashab'), al-Nawawi among those who profited from him; perpetual mu'id of the Badra'iyya, abridger of al-Ruyani's al-Bahr; 'the fatwa of Syria turned on him' {cite:shadharat-dhahab p. 577-578}."
+gender: male
+roles: [jurist, scholar, teacher]
+wings: [people]
+periods: [period/mongol-post-mongol]
+regions: [levant-iraq]
+faith:
+  - value: sunni-shafii
+    basis: tradition
+relations:
+  - { type: student_of, target: person/ibn-al-salah, sources: [source/shadharat-dhahab] }
+  - { type: died_in, target: place/damascus, sources: [source/shadharat-dhahab] }
+sources: [source/shadharat-dhahab]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }
+provenance:
+  layer: own-research
+  source: "شذرات الذهب — ابن العماد (ج7، سنة 670)، قراءة آبل فيجن"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-shadharat-batch-132

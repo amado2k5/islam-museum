@@ -1,0 +1,23 @@
+id: event/siege-of-shaizar-1157
+class: event
+kind: siege
+label: { ar: "حصار شيزر (١١٥٧)", en: "Siege of Shaizar (1157)" }
+summary:
+  ar: "بطاقة أولية لحصار شيزر سنة ١١٥٧م، أخذ نور الدين لها بعد زلزلة حماة؛ لم تُراجع مصادره على الصفحة بعد."
+  en: "Draft card for the Siege of Shaizar in 1157, Nur al-Din's seizure of the fortress after the earthquake; its sources are not yet checked on the page."
+wings: [time]
+periods: [period/crusades-ayyubid-mamluk]
+regions: [levant-iraq]
+date:
+  start: { edtf: "1157-11", precision: year, status: tradition, derived: true }
+  end: { edtf: "1157-12", precision: year, status: tradition, derived: true }
+sources: [source/tarikh-islam-hasan-ibrahim]
+external_ids:
+  wikidata: Q135584150
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; battle attested in narrative histories — entry not yet checked on the page"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-wave2
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

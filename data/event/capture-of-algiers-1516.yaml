@@ -1,0 +1,24 @@
+id: event/capture-of-algiers-1516
+class: event
+kind: conquest
+label: { ar: "دخول عروج بربروسة الجزائر (٩٢٢هـ/١٥١٦م)", en: "Aruj Barbarossa enters Algiers (1516)" }
+summary:
+  ar: "بعد فشل الأخوين عروج وخير الدين في فتح بجاية وحصارهما في جيجل بين الحفصيين وبين سالم التؤمي حاكم الجزائر المدعوم من الأسبان، وصل الدعم العثماني فاتفق الطرفان على الإسراع بدخول الجزائر قبل القوات الأسبانية لموقعها الممتاز. فدخلها عروج وقتل حاكمها بعد أن تأكد من مساعيه للاستعانة بالقوات الأسبانية، ودخل ميناء شرشال، واجتمع له الأمر في الجزائر في السنة نفسها التي هُزمت فيها القوات المملوكية أمام العثمانيين في موقعة مرج دابق سنة ١٥١٦م {cite:dawlat-uthmaniyya-salabi p. 210}."
+  en: "After failing at Bougie and being trapped at Jijel between the Hafsids and Salim al-Tumi, Aruj entered Algiers with Ottoman support, killed its ruler on proof of his dealings with Spain, and took Cherchell — in the same 1516 that saw Marj Dabiq {cite:dawlat-uthmaniyya-salabi p. 210}."
+wings: [time]
+periods: [period/gunpowder-empires]
+regions: [maghreb]
+date:
+  start: { edtf: "1516", hijri: "0922", calendar: julian, precision: year, status: tradition, derived: true, sources: [source/dawlat-uthmaniyya-salabi] }
+relations:
+  - { type: had_participant, target: person/uruj-barbarossa, sources: [source/dawlat-uthmaniyya-salabi] }
+  - { type: occurred_at, target: place/algiers, sources: [source/dawlat-uthmaniyya-salabi] }
+external_ids: { wikidata: "Q649647" }
+sources: [source/dawlat-uthmaniyya-salabi]
+provenance:
+  layer: own-research
+  source: "الدولة العثمانية لعلي محمد الصلابي (ط1 1421) ص 210"
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: salabi-uthmani-batch9
+status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 Medium)" }

@@ -14,9 +14,10 @@ died:
   calendar: julian
   precision: year
   status: tradition
-  note: توفيت في أول سنة ثمان من الهجرة (عن عبد الله بن أبي بكر بن حزم، كما في الإصابة).
+  note: توفيت في أول سنة ثمان من الهجرة (عن عبد الله بن أبي بكر بن حزم، كما في الإصابة)؛ ويذكر الكتاب وفاتها سنة ثمان متأثرة بمرض النزف الذي لازمها منذ هجرتها (نساء حول الرسول ص399).
   sources:
   - source/ibn-hajar-isaba
+  - source/nisa-hawl-alrasul
 roles:
 - companion
 traditions:
@@ -24,8 +25,7 @@ traditions:
 summary:
   ar: أكبر بنات النبي وأول من تزوج منهن؛ زوجها أبو العاص بن الربيع، وأجارته في المدينة، وأعادها النبي إليه بعد إسلامه، وتوفيت في أول سنة 8هـ.
   en: The Prophet's eldest daughter, married to Abu al-As ibn al-Rabi; she gave him protection in Medina, the Prophet returned her to him after he embraced Islam, and she died at the start of 8 AH.
-wings:
-- people
+wings: [people]
 themes:
 - women
 periods:
@@ -53,8 +53,10 @@ relations:
   - source/ibn-hajar-isaba
 - type: spouse_of
   target: person/abu-al-as-ibn-al-rabi
+  note: تزوجها أبو العاص بن الربيع قبل الوحي؛ فدتْه يوم بدر بقلادة أدخلتها بها أمها خديجة عليه، وقدّم لها أخوه كنانة بن الربيع بعيراً يوم خروجها مهاجرة (نساء حول الرسول ص444-446).
   sources:
   - source/ibn-hajar-isaba
+  - source/nisa-hawl-alrasul
 - type: sibling_of
   target: person/fatima
   sources:
@@ -69,8 +71,14 @@ provenance:
   generated_by: Claude (maintainer session)
   model: claude-sonnet-5-5
   run: isaba-women-1
+external_ids: { wikidata: "Q1164707" }
 sources:
 - source/ibn-hajar-isaba
+- source/nisa-hawl-alrasul
+- source/mubarakpuri-raheeq
+- source/ibn-hisham-sira
+- source/fath-al-bari
+- source/fiqh-al-sira-al-ghazali
 status:
   review: draft
   completeness: 2

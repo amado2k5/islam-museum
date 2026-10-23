@@ -1,0 +1,26 @@
+id: person/abdallah-al-ghalib-al-sadi
+class: person
+label: { ar: "عبد الله الغالب بالله السعدي", en: "Abdallah al-Ghalib bi'llah al-Sa'di" }
+names:
+  - { kind: full, lang: ar, value: "عبد الله الغالب بالله" }
+gender: male
+roles: [ruler]
+summary:
+  ar: "ابن محمد الشيخ السعدي وخليفته؛ أرسل إلى أمير القوارب العثماني رسالة تحدي مضمونها «إن سلطان الغرب لابد أن ينازعك على محمل مصر ويأتيك إلى مصر والسلام» مما أظهر استياءه من الخلافة العثمانية وطموحه لإمامة المسلمين في وصف الصلابي. وبعد مقتل أبيه سنة ٩٦٤هـ/١٥٥٧م قمع الثورات: ثورة المولى عثمان في السوس والمولى عمر في دبدو والمولى عبد المؤمن في مراكش، وأنزل مذبحة بثلاثة من إخوته لرفضهم البيعة لابنه محمد المتوكل فهرب المولى عمر وعبد المؤمن وعبد الملك وأحمد المنصور إلى تلمسان والجزائر. وتصدى لحملة حسن بن خير الدين عند وادي اللين قرب فاس بلا نتيجة حاسمة، واتفق مع الأسبان على تسليم باديس مقابل الدفاع عن شواطئ المغرب {cite:dawlat-uthmaniyya-salabi p. 245-251}."
+  en: "Muhammad al-Shaykh's son and successor. His challenge to the Ottoman admiral — 'the sultan of the West will dispute Egypt's mahmal with you and come to you in Egypt' — showed, in al-Salabi's reading, his rejection of the Ottoman caliphate and his own ambition for the imamate. After his father's murder in 964/1557 he crushed the revolts of Mawlay Uthman in the Sous, Mawlay Umar in Debdou and Mawlay Abd al-Mu'min in Marrakesh, massacred three brothers who refused the bay'a to his son Muhammad al-Mutawakkil — sending Mawlay Umar, Abd al-Mu'min, Abd al-Malik and Ahmad al-Mansur fleeing to Tlemcen and Algiers — met Hasan b. Khayr al-Din inconclusively at Wadi al-Lin near Fez, and agreed to hand Badis to Spain in exchange for defence of Morocco's shores {cite:dawlat-uthmaniyya-salabi p. 245-251}."
+wings: [people]
+regions: [maghreb]
+periods: [period/gunpowder-empires]
+relations:
+  - { type: child_of, target: person/muhammad-al-shaykh-al-sadi, sources: [source/dawlat-uthmaniyya-salabi] }
+  - { type: opposed, target: person/hasan-ibn-khayr-al-din, sources: [source/dawlat-uthmaniyya-salabi] }
+  - { type: allied_with, target: person/philip-ii-spain, sources: [source/dawlat-uthmaniyya-salabi] }
+sources: [source/dawlat-uthmaniyya-salabi]
+external_ids: { wikidata: "Q2821059" }
+provenance:
+  layer: own-research
+  source: "الدولة العثمانية لعلي محمد الصلابي (ط1 1421) ص 245-251"
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: salabi-uthmani-batch13
+status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 Medium)" }

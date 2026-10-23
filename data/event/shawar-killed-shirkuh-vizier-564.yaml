@@ -1,0 +1,24 @@
+id: event/shawar-killed-shirkuh-vizier-564
+class: event
+kind: other
+label: { ar: "دخول شيركوه مصر وقتل شاور وولايته الوزارة", en: "Shirkuh enters Egypt, Shawar is killed, and Shirkuh takes the vizierate" }
+date:
+  start: { edtf: "1168~", hijri: "0564", calendar: julian, precision: year, status: tradition, derived: true }
+summary:
+  ar: "في ربيع الأول سار أسد الدين شيركوه إلى ديار مصر فملكها بالعساكر النورية، وكان الفرنج قد ملكوا بلبيس قهرًا فقتلوا وأسروا ثم حاصروا القاهرة فأحرق شاور مدينة مصر فبقيت النار فيها أربعة وخمسين يومًا وأرسل العاضد إلى نور الدين يستغيث به بشعور نسائه، وصالح شاور الفرنج على ألف ألف دينار فرحلوا، فلما قدم شيركوه وقتل شاور — على المشهور أنه خرج يستقبله فطعنه صلاح الدين أو قتل بأمره — ولّي الوزارة مكانه وأُخرج له الخلع فلقي الناس بالعدل ولكنه مات بعدها بأيام وقيل بواحدة عظام أكلها فاختنقت به نفسه {cite:kamil-ibn-al-athir p. 11-15}."
+  en: "In Rabīʿ I Shirkuh entered Egypt with the Nūrid armies and took it. The Franks had stormed Bilbays — killing and enslaving — then besieged Cairo while Shawar burned Fusṭāṭ (the fire ran fifty-four days) and bought their withdrawal for a promised million dinars; al-ʿĀḍid had sent his womenfolk's hair to Nūr al-Dīn begging rescue. When Shirkuh arrived Shawar was killed — as commonly told, Saladin's hand at his uncle's order — and Shirkuh took the vizierate, dealt justly with the people, then died days later, choked, it was said, on a feast of rich food {cite:kamil-ibn-al-athir p. 11-15}."
+relations:
+  - { type: occurred_at, target: place/misr, sources: [source/kamil-ibn-al-athir] }
+  - { type: occurred_at, target: place/cairo, sources: [source/kamil-ibn-al-athir] }
+  - { type: had_participant, target: person/asad-al-din-shirkuh, sources: [source/kamil-ibn-al-athir] }
+  - { type: had_participant, target: person/shawar, role: "الوزير المقتول", sources: [source/kamil-ibn-al-athir] }
+  - { type: had_participant, target: person/salah-al-din-yusuf-ibn-ayyub, sources: [source/kamil-ibn-al-athir] }
+  - { type: had_participant, target: person/al-adid-fatimid, sources: [source/kamil-ibn-al-athir] }
+  - { type: had_participant, target: person/nur-al-din-mahmud-ibn-zangi, sources: [source/kamil-ibn-al-athir] }
+provenance:
+  layer: own-research
+  source: "الكامل في التاريخ لابن الأثير، قراءة آبل فيجن"
+  generated_by: "Devin (SWE-2 Medium) from Apple Vision OCR"
+  run: lib-kamil-v12-batch01
+sources: [source/kamil-ibn-al-athir]
+status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 Medium)" }

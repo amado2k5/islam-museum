@@ -1,0 +1,30 @@
+---
+// Little Time Machine page: 5 eras × 4 kid-safe events with a travel transition,
+// visited stars and a time-traveler finale; grown-ups note points at the main Time wing.
+import BaseLayout from "../../../layouts/BaseLayout.astro";
+import TimeMachine from "../../../components/TimeMachine.astro";
+import { ui, LANGS, type Lang } from "../../../lib/i18n";
+import { loadEras, viewEras } from "../../../lib/kids";
+import "../../../styles/kids.css";
+
+export function getStaticPaths() { return LANGS.map((lang) => ({ params: { lang }, props: { lang } })); }
+const { lang } = Astro.props as { lang: Lang };
+const T = ui(lang);
+const t = T.kids;
+const eras = viewEras(loadEras(), lang);
+if (eras.length !== 5) throw new Error(`timemachine: expected 5 eras, got ${eras.length}`);
+const crumbLabel = lang === "ar" ? "مسار التنقل" : "breadcrumb";
+---
+<BaseLayout lang={lang} title={t.tm_title} description={t.tm_lede} path={`/${lang}/sighar/timemachine/`} kids={true}>
+  <nav aria-label={crumbLabel} class="crumbs">
+    <a href={`/${lang}/sighar/`}>{t.hub_title}</a>
+    <span aria-hidden="true"> / </span>
+    <span aria-current="page">{t.tm_title}</span>
+  </nav>
+  <TimeMachine lang={lang} t={t} eras={eras} />
+  <details class="grownups">
+    <summary>{t.tm_grownups_title}</summary>
+    <p>{t.tm_grownups}</p>
+    <p><a href={`/${lang}/time/`}>{T.wings.time.title}</a></p>
+  </details>
+</BaseLayout>

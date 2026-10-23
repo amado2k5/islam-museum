@@ -1,0 +1,23 @@
+id: person/zayn-al-din-yusuf-irbil
+class: person
+label: { ar: "زين الدين يوسف صاحب إربل", en: "Zayn al-Din Yusuf, lord of Irbil" }
+summary:
+  ar: "زين الدين يوسف بن زين الدين علي صاحب إربل؛ حضر عند صلاح الدين بعساكره فمرض ومات ثامن عشر شهر رمضان سنة ست وثمانين وخمسمائة، ولم يكن له أخ غير مظفر الدين ولا ولد؛ كاتب أهل إربل مجاهد الدين قايماز — لهواهم فيه وحسن سيرته — يطلبونه ليملكوه فلم يجسر خوفاً من صلاح الدين، فأقطع صلاح الدين إربل لمظفر الدين وأضاف إليها شهرزور وأعمالها ودربند قربابلي وبني قفجاق نزولاً عن حران والرها {cite:kamil-ibn-al-athir p. 199}."
+  en: "Lord of Irbil — died 18 Ramadan 586 in Saladin's camp leaving no son; its people wrote to Mujahid al-Din Qaymaz begging him to rule them for their love of him, but none dared move against Saladin's will, and Irbil went to the dead man's brother Muzaffar al-Din in exchange for Harran and Edessa {cite:kamil-ibn-al-athir p. 199}."
+gender: male
+died: { edtf: "1190-10-25~", hijri: "0586-09-18", calendar: julian, precision: day, status: tradition, derived: true, note: "18 رمضان 586هـ؛ التحويل مشتق {cite:kamil-ibn-al-athir p. 199}.", sources: [source/kamil-ibn-al-athir] }
+relations:
+- type: sibling_of
+  target: person/muzaffar-al-din-kokburi
+  sources: [source/kamil-ibn-al-athir]
+wings: [people]
+periods: [period/crusades-ayyubid-mamluk]
+regions: [levant-iraq]
+roles: [ruler]
+sources: [source/kamil-ibn-al-athir]
+provenance:
+  layer: own-research
+  source: "الكامل في التاريخ — ابن الأثير، مسح kamilt00_201908، ص 199"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-kamil-562-629-11
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

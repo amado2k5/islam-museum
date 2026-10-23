@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 61:3 (سورة الصف، الآية 3)."
 text: "كَبُرَ مَقْتًا عِندَ ٱللَّهِ أَن تَقُولُوا۟ مَا لَا تَفْعَلُونَ"
 text_search: "كبر مقتا عند الله أن تقولوا ما لا تفعلون"
+translations:
+  en: { text: "It is most hateful in the sight of Allah that ye say that which ye do not.", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "خدا اس بات سے سخت بیزار ہے کہ ایسی بات کہو جو کرو نہیں", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-61 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

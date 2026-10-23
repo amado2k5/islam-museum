@@ -1,0 +1,23 @@
+id: event/zeitun-rebellion-1895
+class: event
+kind: revolt
+label: { ar: "تمرد الزيتون (١٨٩٥)", en: "Zeitun Rebellion" }
+summary:
+  ar: "بطاقة أولية لتمرد الزيتون من ١٨٩٥ إلى ١٨٩٦م، ثورة أرمن الزيتون على العثمانيين في كيليكيا؛ لم تُراجع مصادره على الصفحة بعد."
+  en: "Draft card for the Zeitun rebellion of 1895–1896, the Armenian rising in Cilicia against the Ottomans; its sources are not yet checked on the page."
+wings: [time]
+periods: [period/colonial-era]
+regions: [anatolia-balkans]
+date:
+  start: { edtf: "1895", precision: year, status: tradition, derived: true }
+  end: { edtf: "1896", precision: year, status: tradition, derived: true }
+sources: [source/dawlat-uthmaniyya-salabi]
+external_ids:
+  wikidata: Q8068635
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; rebellion attested in late-Ottoman histories — entry not yet checked on the page"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-wave2
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

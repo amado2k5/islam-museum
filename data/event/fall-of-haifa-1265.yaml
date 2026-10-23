@@ -1,0 +1,23 @@
+id: event/fall-of-haifa-1265
+class: event
+kind: siege
+label: { ar: "سقوط حيفا (١٢٦٥)", en: "Fall of Haifa (1265)" }
+summary:
+  ar: "بطاقة أولية لسقوط حيفا الصليبية وتدمير قلعتها على يد السلطان الظاهر بيبرس سنة ١٢٦٥م؛ لم تُراجع مصادره على الصفحة بعد."
+  en: "Draft card for the Fall of Haifa in 1265, Baybars' capture and demolition of the Crusader castle; its sources are not yet checked on the page."
+wings: [time]
+periods: [period/crusades-ayyubid-mamluk]
+regions: [levant-iraq]
+date:
+  start: { edtf: "1265", precision: year, status: tradition, derived: true }
+  end: { edtf: "1265", precision: year, status: tradition, derived: true }
+sources: [source/shadharat-dhahab]
+external_ids:
+  wikidata: Q5432154
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; battle attested in narrative histories — entry not yet checked on the page"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-wave2
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 28:82 (سورة القصص، الآية 82)."
 text: "وَأَصْبَحَ ٱلَّذِينَ تَمَنَّوْا۟ مَكَانَهُۥ بِٱلْأَمْسِ يَقُولُونَ وَيْكَأَنَّ ٱللَّهَ يَبْسُطُ ٱلرِّزْقَ لِمَن يَشَآءُ مِنْ عِبَادِهِۦ وَيَقْدِرُ ۖ لَوْلَآ أَن مَّنَّ ٱللَّهُ عَلَيْنَا لَخَسَفَ بِنَا ۖ وَيْكَأَنَّهُۥ لَا يُفْلِحُ ٱلْكَـٰفِرُونَ"
 text_search: "وأصبح الذين تمنوا مكانه بالأمس يقولون ويكأن الله يبسط الرزق لمن يشاء من عباده ويقدر ۖ لولا أن من الله علينا لخسف بنا ۖ ويكأنه لا يفلح الكافرون"
+translations:
+  en: { text: "And morning found those who had coveted his place but yesterday crying: Ah, welladay! Allah enlargeth the provision for whom He will of His slaves and straiteneth it (for whom He will). If Allah had not been gracious unto us He would have caused it to swallow us (also). Ah, welladay! the disbelievers never prosper.", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "اور وہ لوگ جو کل اُس کے رتبے کی تمنا کرتے تھے صبح کو کہنے لگے ہائے شامت! خدا ہی تو اپنے بندوں میں سے جس کے لئے چاہتا ہے رزق فراخ کر دیتا ہے اور (جس کے لئے چاہتا ہے) تنگ کر دیتا ہے۔ اگر خدا ہم پر احسان نہ کرتا تو ہمیں بھی دھنسا دیتا۔ ہائے خرابی! کافر نجات نہیں پا سکتے", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-28 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

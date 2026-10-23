@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 25:20 (سورة الفرقان، الآية 20)."
 text: "وَمَآ أَرْسَلْنَا قَبْلَكَ مِنَ ٱلْمُرْسَلِينَ إِلَّآ إِنَّهُمْ لَيَأْكُلُونَ ٱلطَّعَامَ وَيَمْشُونَ فِى ٱلْأَسْوَاقِ ۗ وَجَعَلْنَا بَعْضَكُمْ لِبَعْضٍ فِتْنَةً أَتَصْبِرُونَ ۗ وَكَانَ رَبُّكَ بَصِيرًا"
 text_search: "وما أرسلنا قبلك من المرسلين إلا إنهم ليأكلون الطعام ويمشون في الأسواق ۗ وجعلنا بعضكم لبعض فتنة أتصبرون ۗ وكان ربك بصيرا"
+translations:
+  en: { text: "We never sent before thee any messengers but lo! they verily ate food and walked in the markets. And We have appointed some of you a test for others: Will ye be steadfast? And thy Lord is ever Seer.", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "اور ہم نے تم سے پہلے جتنے پیغمبر بھیجے ہیں سب کھانا کھاتے تھے اور بازاروں میں چلتے پھرتے تھے۔ اور ہم نے تمہیں ایک دوسرے کے لئے آزمائش بنایا ہے۔ کیا تم صبر کرو گے۔ اور تمہارا پروردگار تو دیکھنے والا ہے", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-25 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

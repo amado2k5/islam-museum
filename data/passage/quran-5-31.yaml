@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 5:31 (سورة المائدة، الآية 31)."
 text: "فَبَعَثَ ٱللَّهُ غُرَابًا يَبْحَثُ فِى ٱلْأَرْضِ لِيُرِيَهُۥ كَيْفَ يُوَٰرِى سَوْءَةَ أَخِيهِ ۚ قَالَ يَـٰوَيْلَتَىٰٓ أَعَجَزْتُ أَنْ أَكُونَ مِثْلَ هَـٰذَا ٱلْغُرَابِ فَأُوَٰرِىَ سَوْءَةَ أَخِى ۖ فَأَصْبَحَ مِنَ ٱلنَّـٰدِمِينَ"
 text_search: "فبعث الله غرابا يبحث في الأرض ليريه كيف يواري سوءة أخيه ۚ قال يا ويلتى أعجزت أن أكون مثل هذا الغراب فأواري سوءة أخي ۖ فأصبح من النادمين"
+translations:
+  en: { text: "Then Allah sent a raven scratching up the ground, to show him how to hide his brother's naked corpse. He said: Woe unto me! Am I not able to be as this raven and so hide my brother's naked corpse? And he became repentant.", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "اب خدا نے ایک کوّا بھیجا جو زمین کریدنے لگا تاکہ اسے دکھائے کہ اپنے بھائی کی لاش کو کیونکر چھپائے کہنے لگا اے ہے مجھ سے اتنا بھی نہ ہو سکا کہ اس کوے کے برابر ہوتا کہ اپنے بھائی کی لاش چھپا دیتا پھر وہ پشیمان ہوا", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-5 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 6:37 (سورة الأنعام، الآية 37)."
 text: "وَقَالُوا۟ لَوْلَا نُزِّلَ عَلَيْهِ ءَايَةٌ مِّن رَّبِّهِۦ ۚ قُلْ إِنَّ ٱللَّهَ قَادِرٌ عَلَىٰٓ أَن يُنَزِّلَ ءَايَةً وَلَـٰكِنَّ أَكْثَرَهُمْ لَا يَعْلَمُونَ"
 text_search: "وقالوا لولا نزل عليه آية من ربه ۚ قل إن الله قادر على أن ينزل آية ولكن أكثرهم لا يعلمون"
+translations:
+  en: { text: "They say: Why hath no portent been sent down upon him from his Lord? Say: Lo! Allah is Able to send down a portent. But most of them know not.", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "اور کہتے ہیں کہ ان پر ان کے پروردگارکے پاس کوئی نشانی کیوں نازل نہیں ہوئی۔ کہہ دو کہ خدا نشانی اتارنے پر قادر ہے لیکن اکثر لوگ نہیں جانتے", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-6 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

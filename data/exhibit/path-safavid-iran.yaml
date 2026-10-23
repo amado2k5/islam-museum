@@ -1,0 +1,77 @@
+id: exhibit/path-safavid-iran
+class: exhibit
+kind: trail
+label:
+  ar: إيران الصفوية
+  en: Safavid Iran
+summary:
+  ar: 'مسار في الدولة التي غيرت إيران: الصفوية تعلن التشيع مذهبًا، وأصفهان تبنى نصف جهان، والعلم والفن
+    يزدهران.'
+  en: A trail through the state that reshaped Iran.
+audience:
+- newcomer
+- student
+duration_minutes: 30
+wings: []
+regions:
+- persia-central-asia
+rooms:
+- title:
+    ar: الدولة
+    en: The state
+  body:
+    ar: '1501: إسماعيل الصفوي يتوج في تبريز.'
+    en: '1501: إسماعيل الصفوي يتوج في تبريز.'
+  features:
+  - polity/safavid-iran
+  - place/tabriz
+- title:
+    ar: أصفهان
+    en: Isfahan
+  body:
+    ar: 'عباس يبني عاصمته: نصف جهان.'
+    en: 'عباس يبني عاصمته: نصف جهان.'
+  features:
+  - place/isfahan
+  - polity/safavid-iran
+- title:
+    ar: قم
+    en: Qom
+  body:
+    ar: 'مدينة العلماء: قم تصير حوزة.'
+    en: 'مدينة العلماء: قم تصير حوزة.'
+  features:
+  - place/qumm
+  - polity/safavid-iran
+- title:
+    ar: شيراز
+    en: Shiraz
+  body:
+    ar: 'مدينة الشعراء: عصر الصفوية.'
+    en: 'مدينة الشعراء: عصر الصفوية.'
+  features:
+  - place/shiraz
+  - polity/safavid-iran
+- title:
+    ar: النهاية
+    en: The end
+  body:
+    ar: '1722: الأفغان يحاصرون أصفهان.'
+    en: '1722: الأفغان يحاصرون أصفهان.'
+  features:
+  - polity/safavid-iran
+  - polity/qajar-iran
+prerequisites:
+- exhibit/path-islam-in-30-minutes
+sources:
+- source/wikidata
+provenance:
+  layer: own-research
+  source: Devin-assembled trail from existing museum entities
+  generated_by: Devin (SWE-2 High)
+  model: SWE-2 High
+  run: pathways-batch-7
+status:
+  review: draft
+  completeness: 1
+  generated_by: Devin (SWE-2 High), pathways lane, 2026-10-16

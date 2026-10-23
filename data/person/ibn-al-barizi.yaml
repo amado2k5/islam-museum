@@ -1,0 +1,27 @@
+id: person/ibn-al-barizi
+class: person
+label: { ar: "ابن البارزي قاضي حماة", en: "Ibn al-Barizi, qadi of Hama" }
+names:
+  - { value: "ابن البارزي قاضي حماة شمس الدين إبراهيم بن المسلم بن هبة الله الحموي الشافعي", kind: full }
+born: { edtf: "1184~", hijri: "0580~", calendar: julian, precision: year, status: tradition, derived: true, note: "عن تسع وثمانين سنة عند وفاته {cite:shadharat-dhahab p. 572}." }
+died: { edtf: "1271-04~", hijri: "0669-08", calendar: julian, precision: month, status: tradition, derived: true, note: "توفي في شعبان عن تسع وثمانين سنة {cite:shadharat-dhahab p. 572}." }
+summary:
+  ar: "قاضي حماة؛ تفقه بدمشق بالفخر بن عساكر وأعاد له ودرس بالرواحية وولي تدريس معرة النعمان ثم تحول إلى حماة ودرس بها وأفتى وولي قضاءها فحمدت سيرته وكان ذا علم ودين؛ توفي في شعبان عن تسع وثمانين سنة {cite:shadharat-dhahab p. 572}."
+  en: "Hama's qadi (aged 89) — Ibn Asakir's pupil and mu'id at Damascus, Rawahiyya and Ma'arra teaching posts, then Hama's chair, fatwa and 'a praised conduct' in office {cite:shadharat-dhahab p. 572}."
+gender: male
+roles: [jurist, scholar]
+wings: [people]
+periods: [period/mongol-post-mongol]
+regions: [levant-iraq]
+faith:
+  - value: sunni-shafii
+    basis: tradition
+relations:
+  - { type: died_in, target: place/hama, sources: [source/shadharat-dhahab] }
+sources: [source/shadharat-dhahab]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }
+provenance:
+  layer: own-research
+  source: "شذرات الذهب — ابن العماد (ج7، سنة 669)، قراءة آبل فيجن"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-shadharat-batch-132

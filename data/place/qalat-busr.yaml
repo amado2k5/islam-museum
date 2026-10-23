@@ -1,0 +1,19 @@
+id: place/qalat-busr
+class: place
+kind: site
+label: { ar: "قلعة بسر", en: "Qal'at Busr" }
+summary:
+  ar: "قلعة بسر قلعة بالقرب من مدينة تدعى مجّانة عند معدن الفضة من أعمال القيروان؛ فتحها بسر بن أبي أرطاة في ولاية عقبة بن نافع — وقيل وجّهه إليها موسى بن نصير وعمره اثنتان وثمانون سنة — وقتل وسبى فسُمّيت به إلى اليوم."
+  en: "Qal'at Busr, a castle near a town called Majjana by the silver mine, among Qayrawan's works; Busr ibn Abi Artat opened it in Uqba ibn Nafi's governorship — or, some say, Musa ibn Nusayr sent him to it aged eighty-two — killing and capturing, whence it bears his name to this day."
+wings: [place]
+periods: [period/umayyad]
+regions: [maghreb]
+relations:
+  - { type: site_of, target: event/qalat-busr, sources: [source/futuh-buldan-maarif-1407] }
+provenance:
+  layer: own-research
+  source: "فتوح البلدان (ط مؤسسة المعارف 1407هـ/1987م) ص 319"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-futuh-buldan-batch-21
+sources: [source/futuh-buldan-maarif-1407]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

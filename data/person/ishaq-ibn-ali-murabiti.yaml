@@ -1,0 +1,40 @@
+id: person/ishaq-ibn-ali-murabiti
+class: person
+label:
+  ar: إسحاق بن علي المرابطي
+  en: Ishaq ibn Ali al-Murabiti
+summary:
+  ar: إسحاق بن علي بن يوسف بن تاشفين، آخر ملوك المرابطين؛ بويع بعد هلاك أخيه تاشفين فلما وصل الموحدون إلى مراكش خرج إليهم في خاصته فقتلوه، وملك عبد المؤمن المغرب سنة 542هـ.
+  en: Ishaq ibn Ali ibn Yusuf ibn Tashfin, the last Almoravid king; acclaimed after his brother Tashfin's death, he came out with his retinue when the Almohads reached Marrakesh and they killed him, Abd al-Mu'min taking the Maghreb in 542 AH.
+gender: male
+roles: [ruler]
+traditions: [sunni]
+died: { edtf: "1147", hijri: "0542", calendar: julian, precision: year, status: tradition, derived: true, note: "قتله الموحدون عند دخولهم مراكش؛ التحويل مشتق.", sources: [source/tarikh-ibn-khaldun-ibar] }
+relations:
+- type: child_of
+  target: person/ali-ibn-yusuf-al-murabiti
+  sources:
+  - source/tarikh-ibn-khaldun-ibar
+- type: successor_of
+  target: person/tashfin-ibn-ali
+  sources:
+  - source/tarikh-ibn-khaldun-ibar
+- type: ruler_of
+  target: polity/almoravid-dynasty
+  sources:
+  - source/tarikh-ibn-khaldun-ibar
+wings: [people]
+periods: [period/crusades-ayyubid-mamluk]
+regions: [maghreb]
+sources:
+- source/tarikh-ibn-khaldun-ibar
+provenance:
+  layer: own-research
+  source: ابن خلدون، العبر — أخبار نهاية دولة المرابطين، ص1649 (المجلد السادس، طبعة هيليوبوليس)
+  generated_by: Devin (SWE-2 High) from Apple Vision OCR
+  model: swe-2-high
+  run: lib-ibar-maghreb-1
+status:
+  review: draft
+  completeness: 1
+  generated_by: Devin (SWE-2 High); extracted from Ibn Khaldun al-Ibar via Apple Vision OCR

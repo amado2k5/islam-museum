@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 57:21 (سورة الحديد، الآية 21)."
 text: "سَابِقُوٓا۟ إِلَىٰ مَغْفِرَةٍ مِّن رَّبِّكُمْ وَجَنَّةٍ عَرْضُهَا كَعَرْضِ ٱلسَّمَآءِ وَٱلْأَرْضِ أُعِدَّتْ لِلَّذِينَ ءَامَنُوا۟ بِٱللَّهِ وَرُسُلِهِۦ ۚ ذَٰلِكَ فَضْلُ ٱللَّهِ يُؤْتِيهِ مَن يَشَآءُ ۚ وَٱللَّهُ ذُو ٱلْفَضْلِ ٱلْعَظِيمِ"
 text_search: "سابقوا إلى مغفرة من ربكم وجنة عرضها كعرض السماء والأرض أعدت للذين آمنوا بالله ورسله ۚ ذلك فضل الله يؤتيه من يشاء ۚ والله ذو الفضل العظيم"
+translations:
+  en: { text: "Race one with another for forgiveness from your Lord and a Garden whereof the breadth is as the breadth of the heavens and the earth, which is in store for those who believe in Allah and His messengers. Such is the bounty of Allah, which He bestoweth upon whom He will, and Allah is of Infinite Bounty.", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "(بندو) اپنے پروردگار کی بخشش کی طرف اور جنت کی (طرف) جس کا عرض آسمان اور زمین کے عرض کا سا ہے۔ اور جو ان لوگوں کے لئے تیار کی گئی ہے جو خدا پر اور اس کے پیغمبروں پر ایمان لائے ہیں لپکو۔ یہ خدا کا فضل ہے جسے چاہے عطا فرمائے۔ اور خدا بڑے فضل کا مالک ہے", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-57 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

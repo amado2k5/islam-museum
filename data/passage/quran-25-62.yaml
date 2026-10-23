@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 25:62 (سورة الفرقان، الآية 62)."
 text: "وَهُوَ ٱلَّذِى جَعَلَ ٱلَّيْلَ وَٱلنَّهَارَ خِلْفَةً لِّمَنْ أَرَادَ أَن يَذَّكَّرَ أَوْ أَرَادَ شُكُورًا"
 text_search: "وهو الذي جعل الليل والنهار خلفة لمن أراد أن يذكر أو أراد شكورا"
+translations:
+  en: { text: "And He it is Who hath appointed night and day in succession, for him who desireth to remember, or desireth thankfulness.", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "اور وہی تو ہے جس نے رات اور دن کو ایک دوسرے کے پیچھے آنے جانے والا بنایا۔ (یہ باتیں) اس شخص کے لئے جو غور کرنا چاہے یا شکرگزاری کا ارادہ کرے (سوچنے اور سمجھنے کی ہیں)", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-25 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

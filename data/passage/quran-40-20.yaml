@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 40:20 (سورة غافر، الآية 20)."
 text: "وَٱللَّهُ يَقْضِى بِٱلْحَقِّ ۖ وَٱلَّذِينَ يَدْعُونَ مِن دُونِهِۦ لَا يَقْضُونَ بِشَىْءٍ ۗ إِنَّ ٱللَّهَ هُوَ ٱلسَّمِيعُ ٱلْبَصِيرُ"
 text_search: "والله يقضي بالحق ۖ والذين يدعون من دونه لا يقضون بشيء ۗ إن الله هو السميع البصير"
+translations:
+  en: { text: "Allah judgeth with truth, while those to whom they cry instead of Him judge not at all. Lo! Allah, He is the Hearer, the Seer.", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "اور خدا سچائی کے ساتھ حکم فرماتا ہے اور جن کو یہ لوگ پکارتے ہیں وہ کچھ بھی حکم نہیں دے سکتے۔ بےشک خدا سننے والا (اور) دیکھنے والا ہے", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-40 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

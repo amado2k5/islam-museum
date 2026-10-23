@@ -1,0 +1,15 @@
+id: passage/muslim-0037
+class: passage
+unit: hadith
+work: work/sahih-muslim
+ref: "37"
+label: { ar: "مسلم 37 — الحياء خير كله", en: "Muslim 37 — Modesty is entirely good" }
+text: "قال رسول الله: «الحياء خير كله» — وقال أو قال: «الحياء كله خير»"
+summary:
+  ar: "رواية في باب الحياء من كتاب الإيمان في صحيح مسلم؛ إطلاق خيرية الحياء — من أوجز نصوص الأخلاق."
+relations:
+  - { type: mentions, target: person/muhammad, sources: [source/sahih-muslim] }
+  - { type: mentions, target: concept/iman, sources: [source/sahih-muslim] }
+provenance: { layer: own-research, source: "صحيح مسلم، كتاب الإيمان، باب الحياء شعبة من الإيمان (طبعة دار التأصيل، ترقيم عبد الباقي المعروف 37)، تصوير Apple Vision OCR", generated_by: "Devin (SWE-2 High) from Apple Vision OCR", run: "hadith-muslim-passages-2" }
+sources: [source/sahih-muslim]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High); matn excerpt at most 40 words checked against the scan" }

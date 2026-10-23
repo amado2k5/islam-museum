@@ -1,0 +1,23 @@
+id: event/battle-of-the-alcaides-1514
+class: event
+kind: battle
+label: { ar: "معركة القايدس (١٥١٤)", en: "Battle of the Alcaides (1514)" }
+summary:
+  ar: "بطاقة أولية لمعركة القايدس سنة ١٥١٤م، من مصادمات البرتغاليين والمغاربة على الساحل الأطلسي؛ لم تُراجع مصادره على الصفحة بعد."
+  en: "Draft card for the Battle of the Alcaides in 1514, a Portuguese–Moroccan clash on the Atlantic coast; its sources are not yet checked on the page."
+wings: [time]
+periods: [period/gunpowder-empires]
+regions: [maghreb]
+date:
+  start: { edtf: "1514", precision: year, status: tradition, derived: true }
+  end: { edtf: "1514", precision: year, status: tradition, derived: true }
+sources: [source/tarikh-islam-hasan-ibrahim]
+external_ids:
+  wikidata: Q125398640
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; battle attested in narrative histories — entry not yet checked on the page"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-wave2
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

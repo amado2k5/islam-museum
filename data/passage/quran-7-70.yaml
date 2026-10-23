@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 7:70 (سورة الأعراف، الآية 70)."
 text: "قَالُوٓا۟ أَجِئْتَنَا لِنَعْبُدَ ٱللَّهَ وَحْدَهُۥ وَنَذَرَ مَا كَانَ يَعْبُدُ ءَابَآؤُنَا ۖ فَأْتِنَا بِمَا تَعِدُنَآ إِن كُنتَ مِنَ ٱلصَّـٰدِقِينَ"
 text_search: "قالوا أجئتنا لنعبد الله وحده ونذر ما كان يعبد آباؤنا ۖ فأتنا بما تعدنا إن كنت من الصادقين"
+translations:
+  en: { text: "They said: Hast come unto us that we should serve Allah alone, and forsake what our fathers worshipped? Then bring upon us that wherewith thou threatenest us if thou art of the truthful!", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "وہ کہنے لگے کہ تم ہمارے پاس اس لیے آئے ہو کہ ہم اکیلے خدا ہی کی عبادت کریں۔ اور جن کو ہمارے باپ دادا پوجتے چلے آئے ہیں ان کو چھوڑ دیں؟ تو اگر سچے ہو تو جس چیز سے ہمیں ڈراتے ہو اسے لے آؤ", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-7 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

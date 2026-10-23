@@ -1,0 +1,33 @@
+id: event/ali-burns-zarara-wine-village
+class: event
+kind: other
+label: { ar: "إحراق علي قرية زرارة التي تباع فيها الخمر", en: "Ali burns the village of Zarara where wine was sold" }
+summary:
+  ar: "مرّ علي بقرية في الكوفة تُدعى زرارة يُلحم فيها ويُباع فيها الخمر، فقال: «علي بالنيران، أضرموها فيها، فإن الخبيث يأكل بعضه بعضًا» {cite:sallabi-ali-vol1 p. 269}، فاحترقت من غربيها حتى بلغت بستانًا. ينقل الصلابي الخبر عن أبي عبيد القاسم بن سلام في كتاب الأموال، ويشير إلى أن زرارة محلة في الكوفة سُميت باسم بانيها زرارة بن زيد {cite:sallabi-ali-vol1 p. 269}."
+  en: "Ali passed a quarter of Kufa called Zarara where meat was sold and wine too, and ordered it set on fire, saying the wicked eat each other; the fire spread from its western side until it reached an orchard. Al-Sallabi takes the report from Abu Ubayd al-Qasim ibn Sallam's Kitab al-Amwal {cite:sallabi-ali-vol1 p. 269}."
+wings: [people]
+themes: [crime-and-punishment, ethics-and-character]
+periods: [period/rashidun]
+regions: [levant-iraq]
+date:
+  start: { edtf: "0656/0661", calendar: julian, precision: year, status: tradition, derived: true, note: "الكتاب لا يؤرخ الواقعة؛ الإطار (خلافة علي بالكوفة) مشتق؛ ثقة منخفضة." }
+relations:
+  - { type: had_participant, target: person/ali-ibn-abi-talib, role: "الآمر بالإحراق", sources: [source/sallabi-ali-vol1] }
+  - { type: occurred_at, target: place/kufa, sources: [source/sallabi-ali-vol1] }
+  - { type: related_to, target: concept/khamr, sources: [source/sallabi-ali-vol1] }
+sources: [source/sallabi-ali-vol1]
+perspectives:
+  - tradition: sunni
+    id: sunni-book
+    summary:
+      ar: "يعرض الصلابي الخبر بوصفه إنكارًا من علي على بيع الخمر، ويستشهد بأن علياً كان شديد الإنكار على من باع خمرًا {cite:sallabi-ali-vol1 p. 269}. ولم يرد في الكتاب تعليل لحكم إحراق القرية بغير هذا الإنكار {cite:sallabi-ali-vol1 p. 269}."
+      en: "Al-Sallabi presents the act as Ali's strong rejection of selling wine, and gives no other justification for burning the village {cite:sallabi-ali-vol1 p. 269}."
+    sources: [source/sallabi-ali-vol1]
+  - tradition: academic
+    id: academic
+    summary:
+      ar: "لم يعرض الكتاب تحليلاً أكاديمياً لمشروعية الإحراق أو حدود التعزير بالإحراق على بيع الخمر؛ الخبر في الكتاب مسند إلى كتاب الأموال ومراجع ابن تيمية في الحسبة، والحكم الفقهي يحتاج إلى مرجع محدد (needs_source)."
+      en: "The book does not analyse whether burning property for selling wine is lawful; the report rests on Kitab al-Amwal and Ibn Taymiyya's Hisba, and the legal point needs a named source (needs_source)."
+    sources: []
+provenance: { layer: own-research, source: "sallabi-ali-vol1 p. 269", generated_by: "Claude Code", model: "claude-haiku-5-5", run: "sallabi-ali-vol1-deep-pp251-300" }
+status: { review: draft, completeness: 1, generated_by: "Claude Code (claude-haiku-5-5); mined from sallabi-ali-vol1 p. 269; contested" }

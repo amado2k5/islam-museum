@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 29:65 (سورة العنكبوت، الآية 65)."
 text: "فَإِذَا رَكِبُوا۟ فِى ٱلْفُلْكِ دَعَوُا۟ ٱللَّهَ مُخْلِصِينَ لَهُ ٱلدِّينَ فَلَمَّا نَجَّىٰهُمْ إِلَى ٱلْبَرِّ إِذَا هُمْ يُشْرِكُونَ"
 text_search: "فإذا ركبوا في الفلك دعوا الله مخلصين له الدين فلما نجاهم إلى البر إذا هم يشركون"
+translations:
+  en: { text: "And when they mount upon the ships they pray to Allah, making their faith pure for Him only, but when He bringeth them safe to land, behold! they ascribe partners (unto Him),", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "پھر جب یہ کشتی میں سوار ہوتے ہیں تو خدا کو پکارتے (اور) خالص اُسی کی عبادت کرتے ہیں۔ لیکن جب وہ اُن کو نجات دے کر خشکی پر پہنچا دیتا ہے تو جھٹ شرک کرنے لگے جاتے ہیں", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-29 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

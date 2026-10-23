@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 8:39 (سورة الأنفال، الآية 39)."
 text: "وَقَـٰتِلُوهُمْ حَتَّىٰ لَا تَكُونَ فِتْنَةٌ وَيَكُونَ ٱلدِّينُ كُلُّهُۥ لِلَّهِ ۚ فَإِنِ ٱنتَهَوْا۟ فَإِنَّ ٱللَّهَ بِمَا يَعْمَلُونَ بَصِيرٌ"
 text_search: "وقاتلوهم حتى لا تكون فتنة ويكون الدين كله لله ۚ فإن انتهوا فإن الله بما يعملون بصير"
+translations:
+  en: { text: "And fight them until persecution is no more, and religion is all for Allah. But if they cease, then lo! Allah is Seer of what they do.", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "اور ان لوگوں سے لڑتے رہو یہاں تک کہ فتنہ (یعنی کفر کا فساد) باقی نہ رہے اور دین سب خدا ہی کا ہوجائے اور اگر باز آجائیں تو خدا ان کے کاموں کو دیکھ رہا ہے", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-8 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

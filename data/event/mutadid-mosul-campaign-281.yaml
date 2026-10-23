@@ -1,0 +1,28 @@
+id: event/mutadid-mosul-campaign-281
+class: event
+kind: campaign
+label: { ar: "حملة المعتضد على الموصل وقلعة ماردين", en: "Al-Mu'tadid's campaign against Mosul and the castle of Mardin" }
+summary:
+  ar: "في سنة إحدى وثمانين ومائتين خرج المعتضد إلى الموصل عامدًا لحمدان بن حمدون لما بلغه أنه مال إلى هارون الشاري، فتحصّن حمدان في قلاعه، ثم عمد المعتضد إلى قلعة ماردين فحارب من فيها يومه، وصعد القلعة حتى قرُب من الباب فصاح يا حمدان فأجابه فقال افتح الباب ففُتح، فقعد المعتضد في الباب ونُقل ما في القلعة ثم أمر بهدمها فهُدمت {cite:muntazam-ibn-al-jawzi p. 147}."
+  en: "In 281 al-Mu'tadid marched on Mosul against Hamdan ibn Hamdun, who had leaned toward the Kharijite Harun al-Shari; Hamdan took refuge in his fortresses, and the caliph himself climbed Mardin's castle to the gate, ordered it opened, seated himself in it, emptied the castle and had it demolished {cite:muntazam-ibn-al-jawzi p. 147}."
+wings: [time]
+periods: [period/abbasid-early]
+regions: [levant-iraq]
+sides:
+  - label: { ar: "الدولة العباسية" }
+    commanders: [person/al-mutadid]
+  - label: { ar: "حمدان بن حمدون ومن معه" }
+    commanders: [person/hamdan-ibn-hamdun]
+map: { kind: locator, precision: approximate, center: [40.73, 37.32] }
+date:
+  start: { edtf: "0894~", hijri: "0281", calendar: julian, precision: year, status: tradition, derived: true, note: "٢٨١؛ التحويل مشتق {cite:muntazam-ibn-al-jawzi p. 147}." }
+relations:
+  - { type: occurred_at, target: place/mardin, sources: [source/muntazam-ibn-al-jawzi] }
+  - { type: occurred_at, target: place/mosul, sources: [source/muntazam-ibn-al-jawzi] }
+provenance:
+  layer: own-research
+  source: "المنتظم لابن الجوزي (ط حيدرآباد 1357، ج5 ق2، سنة 281)، قراءة آبل فيجن"
+  generated_by: "Devin (SWE-2 Medium) from Apple Vision OCR"
+  run: lib-muntazam-258-349-batch27
+sources: [source/muntazam-ibn-al-jawzi]
+status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 Medium)" }

@@ -1,0 +1,22 @@
+id: event/khwarazm-kerman-makran-sind-609
+class: event
+kind: conquest
+label: { ar: "ملك خوارزم شاه كرمان ومكران والسند", en: "Khwarazmshah takes Kirman, Makran and Sind" }
+date:
+  start: { edtf: "1212~", hijri: "0609", calendar: julian, precision: year, status: tradition, derived: true }
+summary:
+  ar: "ملك علاء الدين محمد خوارزم شاه علاء الدين كرمان ومكران والسند، فاتسعت مملكته من العراق إلى حدود الهند {cite:kamil-ibn-al-athir p. 362}."
+  en: "Khwarazmshah took Kirman, Makran and Sind — his realm now stretched from Iraq to India {cite:kamil-ibn-al-athir p. 362}."
+sides:
+  - label: { ar: "علاء الدين محمد خوارزم شاه" }
+  - label: { ar: "حكام كرمان ومكران والسند" }
+relations:
+  - { type: occurred_at, target: place/kirman, sources: [source/kamil-ibn-al-athir] }
+  - { type: had_participant, target: person/muhammad-khwarazmshah, role: "المالك", sources: [source/kamil-ibn-al-athir] }
+provenance:
+  layer: own-research
+  source: "الكامل في التاريخ لابن الأثير، قراءة آبل فيجن"
+  generated_by: "Devin (SWE-2 Medium) from Apple Vision OCR"
+  run: lib-kamil-v12-batch06
+sources: [source/kamil-ibn-al-athir]
+status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 Medium)" }

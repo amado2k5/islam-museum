@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 43:11 (سورة الزخرف، الآية 11)."
 text: "وَٱلَّذِى نَزَّلَ مِنَ ٱلسَّمَآءِ مَآءًۢ بِقَدَرٍ فَأَنشَرْنَا بِهِۦ بَلْدَةً مَّيْتًا ۚ كَذَٰلِكَ تُخْرَجُونَ"
 text_search: "والذي نزل من السماء ماء بقدر فأنشرنا به بلدة ميتا ۚ كذلك تخرجون"
+translations:
+  en: { text: "And Who sendeth down water from the sky in (due) measure, and We revive a dead land therewith. Even so will ye be brought forth;", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "اور جس نے ایک اندازے کے ساتھ آسمان سے پانی نازل کیا۔ پھر ہم نے اس سے شہر مردہ کو زندہ کیا۔ اسی طرح تم زمین سے نکالے جاؤ گے", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-43 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

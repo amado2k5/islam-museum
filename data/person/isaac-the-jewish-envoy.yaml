@@ -1,0 +1,20 @@
+id: person/isaac-the-jewish-envoy
+class: person
+label: { ar: "إسحاق مبعوث شارلمان" }
+gender: male
+roles: [agent]
+summary:
+  ar: "إسحاق، اليهودي الذي رافق بعثة شارلمان إلى هارون الرشيد سنة ١٨١هـ/٧٩٧م مترجماً مع فرنجيين اثنين؛ استغرقت الرحلة ثلاثة أعوام توفي أثناءها الفرنجيان فعاد إسحاق وحده ومعه فيل هدية من الرشيد إلى شارلمان، ووصل آخن سنة ١٨٣هـ/٧٩٩م في الوقت نفسه الذي وصلت فيه سفارة الرشيد — وهي تفاصيل تنفرد بها المصادر اللاتينية كإينهارد وسانت جول والأخبار الملكية {cite:tarikh-dawla-abbasiyya-taqqush p. 106-107}."
+  en: "Isaac — the Jewish interpreter of Charlemagne's 797 embassy to al-Rashid who alone survived the three-year journey, returning to Aachen with the caliph's elephant {cite:tarikh-dawla-abbasiyya-taqqush p. 106-107}."
+wings: [people]
+periods: [period/abbasid-early]
+regions: [andalus-europe, levant-iraq]
+relations:
+  - { type: participated_in, target: event/rashid-charlemagne-embassies, role: "مترجم البعثة الأولى", sources: [source/tarikh-dawla-abbasiyya-taqqush] }
+sources: [source/tarikh-dawla-abbasiyya-taqqush]
+provenance:
+  layer: own-research
+  source: "تاريخ الدولة العباسية لمحمد سهيل طقّوش (ط7) ص 106-107"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-taqqush-abbasi-batch-3
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

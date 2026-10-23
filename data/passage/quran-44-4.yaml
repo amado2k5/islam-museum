@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 44:4 (سورة الدخان، الآية 4)."
 text: "فِيهَا يُفْرَقُ كُلُّ أَمْرٍ حَكِيمٍ"
 text_search: "فيها يفرق كل أمر حكيم"
+translations:
+  en: { text: "Whereon every wise command is made clear", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "اسی رات میں تمام حکمت کے کام فیصل کئے جاتے ہیں", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-44 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

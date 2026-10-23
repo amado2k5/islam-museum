@@ -1,0 +1,20 @@
+id: passage/muwatta-1-214
+class: passage
+unit: hadith
+chain: [person/malik-ibn-anas, person/humayd-al-tawil, person/anas-ibn-malik]
+work: work/muwatta-malik
+ref: "1.214"
+label: { ar: "الموطأ 214 — أنس: أبو بكر وعمر وعثمان لا يقرؤون البسملة عند الافتتاح", en: "Muwatta 214" }
+summary:
+  ar: "أثر يرويه مالك عن حميد الطويل عن أنس بن مالك، في باب العمل في القراءة: قام أنس وراء أبي بكر وعمر وعثمان فكلهم كان لا يقرأ البسملة جهراً إذا افتتح الصلاة. ويذكر المحقق أنه رواه عن مالك أبو مصعب وسويد وابن وهب عند الطحاوي، وينقل عن ابن عبد البر أنه موقوف في الموطأ عند جماعة رواته، وأن طائفة رفعته عن مالك بذكر النبي وليس ذلك بمحفوظ عنه (التمهيد 2/228)، ويذكر أن في الصحيحين من حديث قتادة عن أنس أن النبي وأبا بكر وعمر كانوا يفتتحون الصلاة بالحمد لله رب العالمين، ويرى أن ما ذكره ابن عبد البر من اضطراب أصحاب أنس في هذا الحديث فيه مبالغة. {cite:muwatta-maruf-1997 p.131} {cite:muwatta-maruf-1997 p.132}"
+relations:
+  - { type: part_of, target: passage/muwatta-kitab-01-salat }
+  - { type: mentions, target: person/anas-ibn-malik, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/abu-bakr, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/umar-ibn-al-khattab, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/uthman-ibn-affan, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/humayd-al-tawil, sources: [source/muwatta-maruf-1997] }
+  - { type: basis_for, target: practice/salah, sources: [source/muwatta-maruf-1997] }
+provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 1, hadith 214 at PDF p. 131; باب العمل في القراءة", generated_by: "Claude Code (claude-haiku-5-5) from Apple Vision OCR of the Noor-Book PDF, checked on the page image where doubtful", run: "muwatta-prose-k1-b09" }
+sources: [source/muwatta-maruf-1997]
+status: { review: draft, completeness: 2, generated_by: "Claude Code (claude-haiku-5-5); own-words account written from PDF p. 131; matn excerpt at most 40 words" }

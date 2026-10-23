@@ -1,0 +1,23 @@
+id: event/first-tarnovo-uprising-1598
+class: event
+kind: revolt
+label: { ar: "انتفاضة تارنوفو الأولى", en: "First Tarnovo Uprising" }
+summary:
+  ar: "بطاقة أولية لانتفاضة تارنوفو الأولى سنة ١٥٩٨م، الانتفاضة البلغارية المبكرة على الحكم العثماني؛ لم تُراجع مصادره على الصفحة بعد."
+  en: "Draft card for the First Tarnovo Uprising of 1598, the early Bulgarian rising against Ottoman rule; its sources are not yet checked on the page."
+wings: [time]
+periods: [period/gunpowder-empires]
+regions: [anatolia-balkans]
+date:
+  start: { edtf: "1598", precision: year, status: tradition, derived: true }
+  end: { edtf: "1598", precision: year, status: tradition, derived: true }
+sources: [source/dawlat-uthmaniyya-salabi]
+external_ids:
+  wikidata: Q2980852
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; uprising attested in Bulgarian histories — entry not yet checked on the page"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-wave2
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

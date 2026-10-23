@@ -1,0 +1,31 @@
+id: person/iyyad-ibn-ghanm
+class: person
+label:
+  ar: إياد بن غنم الفهري
+  en: Iyad ibn Ghanm al-Fihri
+names:
+  - { kind: full, lang: ar, value: إياد بن غنم الفهري }
+gender: male
+roles: [companion, commander]
+traditions: [sunni]
+summary:
+  ar: "فهري من قريش؛ ذكره بعض الرواة عند البلاذري فيمن استخلفه أبو عبيدة بن الجراح حين احتضر في طاعون عمواس سنة 18."
+  en: "A Fihri of Quraysh; some transmitters in al-Baladhuri name him as the man Abu Ubayda ibn al-Jarrah appointed in his place when dying in the plague of Amwas in year 18."
+periods:
+- period/rashidun
+regions:
+- arabia
+- levant-iraq
+relations:
+  - { type: participated_in, target: event/plague-of-amwas, sources: [source/futuh-buldan-maarif-1407] }
+provenance:
+  layer: own-research
+  source: "فتوح البلدان (ط مؤسسة المعارف 1407هـ/1987م) ص 190"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-futuh-buldan-batch-9
+sources:
+- source/futuh-buldan-maarif-1407
+status:
+  review: draft
+  completeness: 1
+  generated_by: "Devin (SWE-2 High)"

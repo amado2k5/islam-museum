@@ -1,0 +1,25 @@
+id: person/nuaym-ibn-yazid-al-tamimi
+class: person
+label: { ar: "نعيم بن يزيد التميمي", en: "Nu'aym ibn Yazid al-Tamimi" }
+names:
+  - { kind: full, lang: ar, value: "نعيم بن يزيد التميمي" }
+gender: male
+roles: [companion]
+traditions: [sunni]
+summary:
+  ar: "من رجال وفد بني تميم على النبي سنة 9هـ كما سمّاه ابن إسحاق، ولا يذكر عنه أكثر من اسمه؛ أسلم الوفد بعد المفاخرة."
+  en: "One of the men of the Banu Tamim delegation to the Prophet in 9 AH, named by Ibn Ishaq without further detail; the delegation embraced Islam after the contest."
+wings: [people]
+themes: [converts-and-leavers]
+periods: [period/prophetic-era]
+regions: [arabia]
+story_roles:
+  - { role: convert, start: { edtf: "0631~" }, status: tradition, note: "أسلم الوفد كله بعد المفاخرة (ص212).", sources: [source/ibn-hisham-saqqa] }
+faith:
+  - { value: sunni, basis: tradition, start: { edtf: "0631~" }, note: "ضمن وفد بني تميم الذين أسلموا (ابن هشام ص212).", sources: [source/ibn-hisham-saqqa] }
+relations:
+  - { type: member_of, target: group/banu-tamim, sources: [source/ibn-hisham-saqqa] }
+  - { type: participated_in, target: event/delegation-of-banu-tamim, role: "من الوفد", sources: [source/ibn-hisham-saqqa] }
+provenance: { layer: own-research, source: "sira-ibn-hisham saqqa 1936, juz' 4 p. 206", generated_by: "Claude Code", model: "claude-fable-5-1", run: "ibn-hisham-batch-8a" }
+sources: [source/ibn-hisham-saqqa]
+status: { review: draft, completeness: 1, generated_by: "Claude Fable 5.1; mined from Ibn Hisham juz' 4 p. 206" }

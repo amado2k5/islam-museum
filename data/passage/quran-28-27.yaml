@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 28:27 (سورة القصص، الآية 27)."
 text: "قَالَ إِنِّىٓ أُرِيدُ أَنْ أُنكِحَكَ إِحْدَى ٱبْنَتَىَّ هَـٰتَيْنِ عَلَىٰٓ أَن تَأْجُرَنِى ثَمَـٰنِىَ حِجَجٍ ۖ فَإِنْ أَتْمَمْتَ عَشْرًا فَمِنْ عِندِكَ ۖ وَمَآ أُرِيدُ أَنْ أَشُقَّ عَلَيْكَ ۚ سَتَجِدُنِىٓ إِن شَآءَ ٱللَّهُ مِنَ ٱلصَّـٰلِحِينَ"
 text_search: "قال إني أريد أن أنكحك إحدى ابنتي هاتين على أن تأجرني ثماني حجج ۖ فإن أتممت عشرا فمن عندك ۖ وما أريد أن أشق عليك ۚ ستجدني إن شاء الله من الصالحين"
+translations:
+  en: { text: "He said: Lo! I fain would marry thee to one of these two daughters of mine on condition that thou hirest thyself to me for (the term of) eight pilgrimages. Then if thou completest ten it will be of thine own accord, for I would not make it hard for thee. Allah willing, thou wilt find me of the righteous.", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "اُنہوں نے (موسٰی سے) کہا کہ میں چاہتا ہوں اپنی دو بیٹیوں میں سے ایک کو تم سے بیاہ دوں اس عہد پر کہ تم آٹھ برس میری خدمت کرو اور اگر دس سال پورے کر دو تو تمہاری طرف سے (احسان) ہے اور میں تم پر تکلیف ڈالنی نہیں چاہتا۔ مجھے انشاء الله نیک لوگوں میں پاؤ گے", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-28 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

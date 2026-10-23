@@ -1,0 +1,26 @@
+id: person/arghun-khan
+class: person
+label: { ar: "أرغون خان", en: "Arghun Khan" }
+names:
+  - { value: "أرغون بن أبغا بن هولاكو", kind: full }
+died: { edtf: "1291~", hijri: "0690", calendar: julian, precision: year, status: tradition, derived: true, note: "هلك في سنة تسعين وستمائة فيقال إنه سمّ {cite:shadharat-dhahab p. 720}." }
+summary:
+  ar: "صاحب العراق وخراسان وأذربيجان؛ تملك بعد عمه الملك أحمد (تكودر)، وكان شهماً مقداماً شديد البأس سفاكاً للدماء عظيم الجبروت؛ هلك سنة تسعين وستمائة فيقال إنه سمّ فاتهم المغل وزيرَه سعد الدولة اليهودي بقتله فمالوا على اليهود قتلاً ونهباً وسبياً {cite:shadharat-dhahab p. 720}."
+  en: "Ilkhan — lord of Iraq, Khurasan and Azerbaijan after his uncle Ahmad Tekuder; died this year, said to be poisoned, whereupon the Mongols accused his Jewish vizier Sa'd al-Dawla and fell upon the Jews killing, plundering and enslaving {cite:shadharat-dhahab p. 720}."
+gender: male
+roles: [sultan]
+wings: [people]
+periods: [period/mongol-post-mongol]
+regions: [persia-central-asia]
+faith:
+  - value: other
+    basis: tradition
+relations:
+  - { type: child_of, target: person/abagha-khan, sources: [source/shadharat-dhahab] }
+sources: [source/shadharat-dhahab]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }
+provenance:
+  layer: own-research
+  source: "شذرات الذهب — ابن العماد (ج7، سنة 690)، قراءة آبل فيجن"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-shadharat-batch-134

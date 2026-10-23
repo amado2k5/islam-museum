@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 84:8 (سورة الانشقاق، الآية 8)."
 text: "فَسَوْفَ يُحَاسَبُ حِسَابًا يَسِيرًا"
 text_search: "فسوف يحاسب حسابا يسيرا"
+translations:
+  en: { text: "He truly will receive an easy reckoning", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "اس سے حساب آسان لیا جائے گا", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-84 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

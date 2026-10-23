@@ -1,0 +1,21 @@
+id: event/jalali-calendar-467
+class: event
+kind: other
+label: { ar: "وضع التقويم الجلالي في عهد ملكشاه" }
+summary:
+  ar: "في عهد السلطان ملكشاه جمع نظام الملك المنجمين وجعلوا النيروز أول نقطة من السنة، فكان ذلك أصل التأريخ الجلالي المنسوب إلى جلال الدولة ملكشاه {cite:shadharat-dhahab p. 328}."
+  en: "Under Sultan Malikshah, Nizam al-Mulk gathered the astronomers who made Nowruz the year's first point — the root of the Jalali calendar named for Jalal al-Dawla Malikshah {cite:shadharat-dhahab p. 328}."
+wings: [time]
+periods: [period/buyid-seljuk-fatimid-era]
+regions: [persia-central-asia]
+date:
+  start: { edtf: "1075~", hijri: "0467~", calendar: julian, precision: year, status: tradition, derived: true, note: "أورده ابن العماد في حوادث سنة 467؛ التحويل مشتق {cite:shadharat-dhahab p. 328}." }
+relations:
+  - { type: had_participant, target: person/nizam-al-mulk, role: "من جمع المنجمين", sources: [source/shadharat-dhahab] }
+provenance:
+  layer: own-research
+  source: "شذرات الذهب لابن العماد — الجزء الثالث، ممسوح مكتبة الحصاد (AAlexandrina-223861)، قراءة آبل فيجن"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-shadharat-batch-102
+sources: [source/shadharat-dhahab]
+status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 High)" }

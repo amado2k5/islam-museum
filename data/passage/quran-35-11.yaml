@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 35:11 (سورة فاطر، الآية 11)."
 text: "وَٱللَّهُ خَلَقَكُم مِّن تُرَابٍ ثُمَّ مِن نُّطْفَةٍ ثُمَّ جَعَلَكُمْ أَزْوَٰجًا ۚ وَمَا تَحْمِلُ مِنْ أُنثَىٰ وَلَا تَضَعُ إِلَّا بِعِلْمِهِۦ ۚ وَمَا يُعَمَّرُ مِن مُّعَمَّرٍ وَلَا يُنقَصُ مِنْ عُمُرِهِۦٓ إِلَّا فِى كِتَـٰبٍ ۚ إِنَّ ذَٰلِكَ عَلَى ٱللَّهِ يَسِيرٌ"
 text_search: "والله خلقكم من تراب ثم من نطفة ثم جعلكم أزواجا ۚ وما تحمل من أنثى ولا تضع إلا بعلمه ۚ وما يعمر من معمر ولا ينقص من عمره إلا في كتاب ۚ إن ذلك على الله يسير"
+translations:
+  en: { text: "Allah created you from dust, then from a little fluid, then He made you pairs (the male and female). No female beareth or bringeth forth save with His knowledge. And no-one groweth old who groweth old, nor is aught lessened of his life, but it is recorded in a Book, Lo! that is easy for Allah.", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "اور خدا ہی نے تم کو مٹی سے پیدا کیا پھر نطفے سے پھر تم کو جوڑا جوڑا بنا دیا۔ اور کوئی عورت نہ حاملہ ہوتی ہے اور نہ جنتی ہے مگر اس کے علم سے۔ اور نہ کسی بڑی عمر والے کو عمر زیادہ دی جاتی ہے اور نہ اس کی عمر کم کی جاتی ہے مگر (سب کچھ) کتاب میں (لکھا ہوا) ہے۔ بےشک یہ خدا کو آسان ہے", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-35 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

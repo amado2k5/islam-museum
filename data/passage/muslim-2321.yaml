@@ -1,0 +1,15 @@
+id: passage/muslim-2321
+class: passage
+unit: hadith
+work: work/sahih-muslim
+ref: "2321"
+label: { ar: "مسلم 2321 — لم يكن فاحشاً ولا متفحشاً", en: "Muslim 2321 — He was neither foul nor given to obscenity" }
+text: "دخلنا على عبد الله بن عمرو حين قدم معاوية إلى الكوفة، فذكر رسول الله فقال: لم يكن فاحشاً ولا متفحشاً، وقال: «إن من خياركم أحاسنكم أخلاقاً»"
+summary:
+  ar: "رواية عبد الله بن عمرو في باب تبشمه وحسن عشرته من كتاب الفضائل في صحيح مسلم؛ شهادة قريبة على خلق النبي — لا فحش ولا تفحش وأن خيار الناس أحاسنهم أخلاقاً."
+relations:
+  - { type: mentions, target: person/muhammad, sources: [source/sahih-muslim] }
+  - { type: mentions, target: person/abdullah-ibn-amr-ibn-al-as, sources: [source/sahih-muslim] }
+provenance: { layer: own-research, source: "صحيح مسلم، كتاب الفضائل، باب تبشمه وحسن عشرته (طبعة دار التأصيل، الحديث 6178؛ ترقيم عبد الباقي المعروف 2321)، تصوير Apple Vision OCR", generated_by: "Devin (SWE-2 High) from Apple Vision OCR", run: "hadith-muslim-passages-2" }
+sources: [source/sahih-muslim]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High); matn excerpt at most 40 words checked against the scan" }

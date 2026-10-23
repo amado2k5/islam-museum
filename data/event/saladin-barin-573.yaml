@@ -1,0 +1,19 @@
+id: event/saladin-barin-573
+class: event
+kind: conquest
+label: { ar: "ملك صلاح الدين قلعة بعرين", en: "Saladin takes the castle of Baʿrīn" }
+date:
+  start: { edtf: "1177~", hijri: "0573", calendar: julian, precision: year, status: tradition, derived: true }
+summary:
+  ar: "ملك صلاح الدين قلعة بعرين من أعمال حماة وهي من الحصون الممتنعة على حدود بلاد الفرنج {cite:kamil-ibn-al-athir p. 70}."
+  en: "Saladin took Baʿrīn in Hama's district — a hard castle on the Frankish marches {cite:kamil-ibn-al-athir p. 70}."
+relations:
+  - { type: occurred_at, target: place/barin, sources: [source/kamil-ibn-al-athir] }
+  - { type: had_participant, target: person/salah-al-din-yusuf-ibn-ayyub, sources: [source/kamil-ibn-al-athir] }
+provenance:
+  layer: own-research
+  source: "الكامل في التاريخ لابن الأثير، قراءة آبل فيجن"
+  generated_by: "Devin (SWE-2 Medium) from Apple Vision OCR"
+  run: lib-kamil-v12-batch02
+sources: [source/kamil-ibn-al-athir]
+status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 Medium)" }

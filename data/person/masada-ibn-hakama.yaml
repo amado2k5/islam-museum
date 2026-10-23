@@ -1,0 +1,19 @@
+id: person/masada-ibn-hakama
+class: person
+label: { ar: "مسعدة بن حكمة بن مالك بن حذيفة بن بدر الفزاري", en: "Mas'ada ibn Hakama ibn Malik ibn Hudhayfa ibn Badr al-Fazari" }
+names:
+  - { kind: full, lang: ar, value: "مسعدة بن حكمة بن مالك بن حذيفة بن بدر الفزاري" }
+gender: male
+roles: [tribal-leader]
+summary:
+  ar: "من بني بدر من فزارة؛ قتله قيس بن المسحّر اليعمري في غزوة زيد بن حارثة الثانية لبني فزارة بوادي القرى، وأُسر ابنه عبد الله بن مسعدة فقُدم به على النبي؛ وقال قيس في قتله شعراً."
+  en: "Of the Banu Badr of Fazara; Qays ibn al-Musahhar al-Ya'muri killed him in Zayd ibn Haritha's second raid on Fazara at Wadi al-Qura, and his son Abdullah ibn Mas'ada was captured and brought to the Prophet; Qays composed verses on killing him."
+wings: [people]
+periods: [period/prophetic-era]
+regions: [arabia]
+relations:
+  - { type: member_of, target: group/banu-fazara, sources: [source/ibn-hisham-saqqa] }
+  - { type: participated_in, target: event/raid-of-zayd-on-banu-fazara-and-umm-qirfa, role: "قُتل", sources: [source/ibn-hisham-saqqa] }
+provenance: { layer: own-research, source: "sira-ibn-hisham saqqa 1936, juz' 4 pp. 265-266", generated_by: "Claude Code", model: "claude-fable-5-1", run: "ibn-hisham-batch-13" }
+sources: [source/ibn-hisham-saqqa]
+status: { review: draft, completeness: 1, generated_by: "Claude Fable 5.1; mined from Ibn Hisham juz' 4 pp. 265-266" }

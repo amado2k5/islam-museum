@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 7:6 (سورة الأعراف، الآية 6)."
 text: "فَلَنَسْـَٔلَنَّ ٱلَّذِينَ أُرْسِلَ إِلَيْهِمْ وَلَنَسْـَٔلَنَّ ٱلْمُرْسَلِينَ"
 text_search: "فلنسألن الذين أرسل إليهم ولنسألن المرسلين"
+translations:
+  en: { text: "Then verily We shall question those unto whom (Our message) hath been sent, and verily We shall question the messengers.", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "تو جن لوگوں کی طرف پیغمبر بھیجے گئے ہم ان سے بھی پرسش کریں گے اور پیغمبروں سے بھی پوچھیں گے", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-7 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

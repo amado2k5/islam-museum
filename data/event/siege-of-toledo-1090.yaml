@@ -1,0 +1,23 @@
+id: event/siege-of-toledo-1090
+class: event
+kind: siege
+label: { ar: "حصار طليطلة (١٠٩٠)", en: "Siege of Toledo (1090)" }
+summary:
+  ar: "بطاقة أولية لحصار طليطلة سنة ١٠٩٠م، من حوادث الصراع عليها بين ألفونس السادس والمرابطين؛ لم تُراجع مصادره على الصفحة بعد."
+  en: "Draft card for the Siege of Toledo in 1090, a clash in the contest for the city between Alfonso VI and the Almoravids; its sources are not yet checked on the page."
+wings: [time]
+periods: [period/crusades-ayyubid-mamluk]
+regions: [andalus-europe]
+date:
+  start: { edtf: "1090", precision: year, status: tradition, derived: true }
+  end: { edtf: "1090", precision: year, status: tradition, derived: true }
+sources: [source/tarikh-islam-hasan-ibrahim]
+external_ids:
+  wikidata: "Q11949566"
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; battle attested in narrative histories — entry not yet checked on the page"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-wave2
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

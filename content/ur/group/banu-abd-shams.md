@@ -1,0 +1,23 @@
+---
+id: group/banu-abd-shams
+lang: ur
+source_lang: ar
+translators: ["Claude Haiku 5.5 (claude-haiku-5-5), draft translation"]
+---
+## خلاصہ
+ابن اسحاق حبشہ کی ہجرت کی فہرستوں میں اس بطن کو ان کے نسب «عبد شمس بن عبد مناف» سے پیش کرتے ہیں۔ {cite:ibn-hisham-saqqa 4/3} {cite:ibn-hisham-saqqa 4/10}
+
+## حبشہ کی ہجرت کے باب سے اس بطن کے افراد
+**جو دونوں کشتیوں میں لے جائے گئے:**
+- [[person/khalid-ibn-said-ibn-al-as|خالد بن سعید بن العاص]] {cite:ibn-hisham-saqqa 4/3}
+- [[person/amr-ibn-said-ibn-al-as|عمرو بن سعید بن العاص]] {cite:ibn-hisham-saqqa 4/4}
+- [[person/muayqib-ibn-abi-fatima|معیقیب بن ابی فاطمہ]] {cite:ibn-hisham-saqqa 4/4}
+- [[person/abu-musa-al-ashari|ابو موسیٰ اشعری]] {cite:ibn-hisham-saqqa 4/4}
+
+**حبشہ کی سرزمین میں پیدا ہونے والے:**
+- [[person/muhammad-ibn-abi-hudhayfa|محمد بن ابی حذیفہ]] {cite:ibn-hisham-saqqa 4/11}
+- [[person/said-ibn-khalid|سعید بن خالد بن سعید]] {cite:ibn-hisham-saqqa 4/4}
+- [[person/ama-bint-khalid|امہ بنت خالد بن سعید]] {cite:ibn-hisham-saqqa 4/4}
+
+## الرحیق المختوم کے مقدمے میں
+عبد شمس عبد مناف کی چار شاخوں میں سے ایک ہے، ساتھ نوفل، مطلب اور ہاشم کے {cite:mubarakpuri-raheeq p.21}۔ جب عبد المطلب کے کنویں واپس کیے گئے تو [[person/nawfal-ibn-abd-manaf|نوفل بن عبد مناف]] نے بنو عبد شمس کو بنو ہاشم کے مقابل حلیف بنایا، تو خزاعہ نے بنو ہاشم کے ساتھ حلف کیا، بنو عبد شمس اور نوفل کے خلاف {cite:mubarakpuri-raheeq p.50} {cite:mukhtasar-sirat-al-rasul-al-najdi p.41-42}۔ عقاب، یعنی قومی جھنڈا اٹھانا، قریش کے ان مناصب میں سے تھا جو عبد شمس کے بنو امیہ کے پاس تھے {cite:mubarakpuri-raheeq p.32}۔

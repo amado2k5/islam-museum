@@ -1,0 +1,43 @@
+id: concept/aqila-diya
+class: concept
+kind: legal
+label:
+  ar: "العاقلة والديات"
+  en: "Kin liability for blood money (aqila)"
+issue:
+  ar: "من يتحمل دية القاتل خطأً إذا لم توجد عاقلة؟"
+summary:
+  ar: "العاقلة عند المؤلف هم عصبة القاتل من جهة الأب من الرجال الأحرار البالغين، يتحملون دية القتيل خطأً ولو كان القاتل غنياً {cite:usul-iqtisad-islami-0660 p. 331}. فإن لم توجد عاقلة فالمولى عند الحنفية، ثم أهل الديوان، ثم بيت المال {cite:usul-iqtisad-islami-0660 p. 331}. والدية مئة من الإبل أو ألف دينار أو اثنا عشر ألف درهم وتُقسط على ثلاث سنوات {cite:usul-iqtisad-islami-0660 p. 331}. وإن لم يُعرف القاتل أقسم خمسون من أهل المكان {cite:usul-iqtisad-islami-0660 p. 332}."
+wings: [ideas]
+themes:
+- law-and-courts
+- the-poor-and-the-worker
+periods:
+- period/prophetic-era
+regions:
+- global
+perspectives:
+  - tradition: sunni
+    id: hanafi-mawla-al-muwala
+    summary:
+      ar: "الحنفية يجعلون الدية على مولى الموالاة إن لم توجد عاقلة، وهو عقد يتعاقد فيه الرجل ليعقل عنه وليرثه إن مات دون وارث {cite:usul-iqtisad-islami-0660 p. 331}."
+    sources: [source/usul-iqtisad-islami-0660]
+  - tradition: sunni
+    id: jumhur-wala-al-muwala-abrogated
+    summary:
+      ar: "الجمهور، غير الحنفية، يرون ولاء الموالاة جاهلياً نسخه الإسلام، فلا يُعتمد عليه في الدية أو الميراث {cite:usul-iqtisad-islami-0660 p. 333}."
+    sources: [source/usul-iqtisad-islami-0660]
+relations:
+  - { type: part_of, target: concept/distribution-in-islam, sources: [source/usul-iqtisad-islami-0660] }
+sources:
+- source/usul-iqtisad-islami-0660
+provenance:
+  layer: own-research
+  source: "Rafiq Yunus al-Misri, Usul al-iqtisad al-islami, PDF pp. 301-359 (harvest OCR, outside git)"
+  generated_by: "Claude Code (claude-haiku-5-5)"
+  model: "claude-haiku-5-5"
+  run: "econ-0660-usul-pp301-359"
+status:
+  review: draft
+  completeness: 1
+  generated_by: "Claude Code (claude-haiku-5-5); draft from usul-iqtisad-islami-0660 pp. 301-359; English and Urdu translations not yet written"

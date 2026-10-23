@@ -1,0 +1,20 @@
+id: passage/muwatta-1-209
+class: passage
+unit: hadith
+work: work/muwatta-malik
+ref: "1.209"
+label: { ar: "الموطأ 209 — الصنابحي: قراءة أبي بكر في الثالثة من المغرب", en: "Muwatta 209" }
+summary:
+  ar: "يرويه مالك عن أبي عبيد مولى سليمان بن عبد الملك عن عبادة بن نسي عن قيس بن الحارث عن أبي عبد الله الصنابحي، في باب القراءة في المغرب والعشاء: قدم الصنابحي المدينة في خلافة أبي بكر الصديق فصلى وراءه المغرب، فقرأ في الركعتين الأوليين بفاتحة الكتاب وسورة من قصار المفصل، ثم قام في الثالثة فدنا منه الصنابحي حتى كادت ثيابه تمس ثيابه، فسمعه يقرأ بالفاتحة وبالآية الثامنة من سورة آل عمران التي فيها الدعاء بألا تزيغ القلوب بعد الهدى. ويذكر المحقق أنه رواه عن مالك أبو مصعب وابن أبي أويس عند البخاري في التاريخ وعبد الرزاق ويحيى بن بكير عند البيهقي. {cite:muwatta-maruf-1997 p.129}"
+relations:
+  - { type: part_of, target: passage/muwatta-kitab-01-salat }
+  - { type: mentions, target: person/abu-bakr, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/abd-al-rahman-ibn-usayla-al-sunabihi, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/ubada-ibn-nusayy, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/qays-ibn-al-harith-al-kindi, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/abu-ubayd-mawla-sulayman, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: place/medina, sources: [source/muwatta-maruf-1997] }
+  - { type: basis_for, target: practice/salah, sources: [source/muwatta-maruf-1997] }
+provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 1, hadith 209 at PDF p. 129; باب القراءة في المغرب والعشاء", generated_by: "Claude Code (claude-haiku-5-5) from Apple Vision OCR of the Noor-Book PDF, checked on the page image where doubtful", run: "muwatta-prose-k1-b09" }
+sources: [source/muwatta-maruf-1997]
+status: { review: draft, completeness: 2, generated_by: "Claude Code (claude-haiku-5-5); own-words account written from PDF p. 129; matn excerpt at most 40 words" }

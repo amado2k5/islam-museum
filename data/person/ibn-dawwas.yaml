@@ -1,0 +1,21 @@
+id: person/ibn-dawwas
+class: person
+label: { ar: "ابن دوّاس القاعد", en: "Ibn Dawwas" }
+summary:
+  ar: "قاعد في دولة الحاكم بأمر الله كان الحاكم يخافه ويقول لأخته ست الملك: ما لي ولهذا الرجل. فاصطنعت ست الملك بينهما، وفي رواية أهل مصر أن ابن دوّاس أعطاها عبدين مغربيين موثوقين فقتلا الحاكم ليلًا على المقطم وحملاه إلى ابن دوّاس فحمله إليها؛ ووعدته ست الملك بالملك ومائة ألف ثم دبرت قتله على يد نسيم صاحب الستر والسيف فقيل لأهل مصر «هذا قاتل مولانا الحاكم» {cite:muntazam-ibn-al-jawzi j.7 p.302-305}."
+gender: male
+wings: [people]
+roles: [general]
+periods: [period/buyid-seljuk-fatimid-era]
+regions: [egypt-nile]
+died: { edtf: "1021~", hijri: "0411", calendar: julian, precision: year, status: tradition, derived: true, note: "قُتل بعد دفن الحاكم بأيام في سنة ٤١١ {cite:muntazam-ibn-al-jawzi j.7 p.304}." }
+relations:
+  - { type: allied_with, target: person/al-hakim-bi-amr-allah, role: "قاعد في دولته", sources: [source/muntazam-ibn-al-jawzi] }
+  - { type: participated_in, target: event/hakim-disappearance-411, sources: [source/muntazam-ibn-al-jawzi] }
+provenance:
+  layer: own-research
+  source: "المنتظم في تاريخ الملوك والأمم — ابن الجوزي (ج7، أحداث سنة ٤١١)، قراءة آبل فيجن، مسح AAlexandrina-224011"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-muntazam-350-474-batch23
+sources: [source/muntazam-ibn-al-jawzi]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

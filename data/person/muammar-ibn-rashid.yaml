@@ -1,0 +1,21 @@
+id: person/muammar-ibn-rashid
+class: person
+label: { ar: "معمر بن راشد" }
+names:
+  - { kind: full, lang: ar, value: "معمر بن راشد" }
+gender: male
+roles: [scholar]
+summary:
+  ar: "معمر بن راشد، بصري من الطبقة الثانية من كتّاب السيرة والمغازي، مات سنة ١٥٠هـ {cite:duha-islam p. 639}."
+  en: "Mu'ammar ibn Rashid — Basran second-tier sira/maghazi author, d. 150 {cite:duha-islam p. 639}."
+died: { edtf: "0767", hijri: "0150", calendar: julian, precision: year, status: tradition, derived: true, note: "مات سنة ١٥٠هـ في جدول أحمد أمين {cite:duha-islam p. 639}." }
+wings: [people]
+periods: [period/umayyad, period/abbasid-early]
+regions: [levant-iraq]
+sources: [source/duha-islam]
+provenance:
+  layer: own-research
+  source: "ضحى الإسلام لأحمد أمين ص 639"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-duha-islam-batch-3
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

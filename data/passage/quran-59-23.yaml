@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 59:23 (سورة الحشر، الآية 23)."
 text: "هُوَ ٱللَّهُ ٱلَّذِى لَآ إِلَـٰهَ إِلَّا هُوَ ٱلْمَلِكُ ٱلْقُدُّوسُ ٱلسَّلَـٰمُ ٱلْمُؤْمِنُ ٱلْمُهَيْمِنُ ٱلْعَزِيزُ ٱلْجَبَّارُ ٱلْمُتَكَبِّرُ ۚ سُبْحَـٰنَ ٱللَّهِ عَمَّا يُشْرِكُونَ"
 text_search: "هو الله الذي لا إله إلا هو الملك القدوس السلام المؤمن المهيمن العزيز الجبار المتكبر ۚ سبحان الله عما يشركون"
+translations:
+  en: { text: "He is Allah, than Whom there is no other Allah, the Sovereign Lord, the Holy One, Peace, the Keeper of Faith, the Guardian, the Majestic, the Compeller, the Superb. Glorified be Allah from all that they ascribe as partner (unto Him).", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "وہی خدا ہے جس کے سوا کوئی عبادت کے لائق نہیں۔ بادشاہ (حقیقی) پاک ذات (ہر عیب سے) سلامتی امن دینے والا نگہبان غالب زبردست بڑائی والا۔ خدا ان لوگوں کے شریک مقرر کرنے سے پاک ہے", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-59 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

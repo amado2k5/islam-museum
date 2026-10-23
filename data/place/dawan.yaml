@@ -1,0 +1,20 @@
+id: place/dawan
+class: place
+kind: city
+label: { ar: "دوعن", en: "Daw'an" }
+summary:
+  ar: "مدينة بحضرموت؛ عند الهمداني كانت في القرن الرابع «موضع الإمام الذي يأمر بأمر الإباضية وينهى» — أي دار إمامة إباضية اليمن في الوادي {cite:sifat-jazirat-al-arab p. 70}."
+  en: "A Hadramawt town which in al-Hamdani's day was 'the seat of the imam who commands and forbids in the Ibadi way' — the Yemeni Ibadi imamate's residence in the valley {cite:sifat-jazirat-al-arab p. 70}."
+wings: [place]
+periods: [period/abbasid-fragmentation]
+regions: [arabia]
+relations:
+  - { type: located_in, target: place/hadramawt, sources: [source/sifat-jazirat-al-arab] }
+  - { type: related_to, target: group/ibadiyya, note: "دار إمامة الإباضية بحضرموت في زمن الهمداني.", sources: [source/sifat-jazirat-al-arab] }
+provenance:
+  layer: own-research
+  source: "الهمداني، صفة جزيرة العرب (ط مولر) ص 70"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-geo-sifat-2
+sources: [source/sifat-jazirat-al-arab]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

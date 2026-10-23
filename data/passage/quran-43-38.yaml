@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 43:38 (سورة الزخرف، الآية 38)."
 text: "حَتَّىٰٓ إِذَا جَآءَنَا قَالَ يَـٰلَيْتَ بَيْنِى وَبَيْنَكَ بُعْدَ ٱلْمَشْرِقَيْنِ فَبِئْسَ ٱلْقَرِينُ"
 text_search: "حتى إذا جاءنا قال يا ليت بيني وبينك بعد المشرقين فبئس القرين"
+translations:
+  en: { text: "Till, when he cometh unto Us, he saith (unto his comrade): Ah, would that between me and thee there were the distance of the two horizons - an evil comrade!", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "یہاں تک کہ جب ہمارے پاس آئے گا تو کہے گا کہ اے کاش مجھ میں اور تجھ میں مشرق ومغرب کا فاصلہ ہوتا تو برا ساتھی ہے", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-43 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

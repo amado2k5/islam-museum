@@ -1,0 +1,26 @@
+id: event/afdal-damascus-596
+class: event
+kind: siege
+label: { ar: "حصر الأفضل دمشق وعوده عنها", en: "al-Afdal besieges Damascus and turns back" }
+date:
+  start: { edtf: "1199~", hijri: "0596", calendar: julian, precision: year, status: tradition, derived: true }
+summary:
+  ar: "سار الملك الأفضل من مصر فحصر دمشق وهي بيد عمه العادل ثم عاد عنها، وكانت تلك الحروب الأيوبية في البيت الواحد قد جعلت الشام ومصر ترجوان بالمواثيق والنكث {cite:kamil-ibn-al-athir p. 257}."
+  en: "Al-Afdal marched from Egypt, besieged his uncle al-Adil in Damascus, and turned back — the house-war that kept Syria and Egypt trading oaths and betrayals {cite:kamil-ibn-al-athir p. 257}."
+sides:
+- label: { ar: "الأفضل", en: "al-Afdal" }
+  commanders: [person/al-malik-al-afdal-ali]
+- label: { ar: "العادل", en: "al-Adil" }
+  commanders: [person/al-malik-al-adil-ayyub]
+
+relations:
+  - { type: occurred_at, target: place/damascus, sources: [source/kamil-ibn-al-athir] }
+  - { type: had_participant, target: person/al-malik-al-afdal-ali, sources: [source/kamil-ibn-al-athir] }
+  - { type: had_participant, target: person/al-malik-al-adil-ayyub, role: "المحصور", sources: [source/kamil-ibn-al-athir] }
+provenance:
+  layer: own-research
+  source: "الكامل في التاريخ لابن الأثير، قراءة آبل فيجن"
+  generated_by: "Devin (SWE-2 Medium) from Apple Vision OCR"
+  run: lib-kamil-v12-batch04
+sources: [source/kamil-ibn-al-athir]
+status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 Medium)" }

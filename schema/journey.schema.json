@@ -73,6 +73,65 @@
           }
         }
       }
+    },
+    "waypoints": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "place",
+          "day",
+          "title",
+          "narrative"
+        ],
+        "properties": {
+          "place": {
+            "type": "string",
+            "pattern": "^[a-z]+/[a-z0-9][a-z0-9-]*$"
+          },
+          "day": {
+            "type": "integer"
+          },
+          "day_status": {
+            "enum": [
+              "scriptural",
+              "tradition",
+              "historical",
+              "debated",
+              "legend"
+            ]
+          },
+          "day_note": {
+            "type": "string"
+          },
+          "date": {
+            "$ref": "_base.schema.json#/$defs/date"
+          },
+          "title": {
+            "$ref": "_base.schema.json#/$defs/localized"
+          },
+          "narrative": {
+            "$ref": "_base.schema.json#/$defs/localized"
+          },
+          "events": {
+            "type": "array",
+            "items": {
+              "type": "string",
+              "pattern": "^[a-z]+/[a-z0-9][a-z0-9-]*$"
+            }
+          },
+          "sources": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          },
+          "coordinates_note": {
+            "type": "string"
+          }
+        }
+      }
     }
   },
   "required": [

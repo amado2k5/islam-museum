@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 12:26 (سورة يوسف، الآية 26)."
 text: "قَالَ هِىَ رَٰوَدَتْنِى عَن نَّفْسِى ۚ وَشَهِدَ شَاهِدٌ مِّنْ أَهْلِهَآ إِن كَانَ قَمِيصُهُۥ قُدَّ مِن قُبُلٍ فَصَدَقَتْ وَهُوَ مِنَ ٱلْكَـٰذِبِينَ"
 text_search: "قال هي راودتني عن نفسي ۚ وشهد شاهد من أهلها إن كان قميصه قد من قبل فصدقت وهو من الكاذبين"
+translations:
+  en: { text: "(Joseph) said: She it was who asked of me an evil act. And a witness of her own folk testified: If his shirt is torn from before, then she speaketh truth and he is of the liars.", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "یوسف نے کہا اسی نے مجھ کو اپنی طرف مائل کرنا چاہا تھا۔ اس کے قبیلے میں سے ایک فیصلہ کرنے والے نے فیصلہ کیا کہ اگر اس کا کرتا آگے سے پھٹا تو یہ سچی اور یوسف جھوٹا", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-12 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

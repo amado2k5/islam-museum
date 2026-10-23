@@ -1,0 +1,23 @@
+id: event/siege-of-baghdad-1630
+class: event
+kind: siege
+label: { ar: "حصار بغداد (١٦٣٠)", en: "Siege of Baghdad (1630)" }
+summary:
+  ar: "بطاقة أولية لحصار بغداد سنة ١٦٣٠م، المحاولة العثمانية الأولى لاستردادها من الصفويين قبل استعادتها سنة ١٦٣٨م؛ لم تُراجع مصادره على الصفحة بعد."
+  en: "Draft card for the Siege of Baghdad in 1630, the first Ottoman attempt to retake the city from the Safavids before its recapture in 1638; its sources are not yet checked on the page."
+wings: [time]
+periods: [period/gunpowder-empires]
+regions: [levant-iraq]
+date:
+  start: { edtf: "1630-11", precision: year, status: tradition, derived: true }
+  end: { edtf: "1630-12", precision: year, status: tradition, derived: true }
+sources: [source/dawlat-uthmaniyya-salabi]
+external_ids:
+  wikidata: Q97648660
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; battle attested in narrative histories — entry not yet checked on the page"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-wave2
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

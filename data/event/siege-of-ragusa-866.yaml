@@ -1,0 +1,23 @@
+id: event/siege-of-ragusa-866
+class: event
+kind: siege
+label: { ar: "حصار راغوزة (٨٦٦)", en: "Siege of Ragusa" }
+summary:
+  ar: "بطاقة أولية لحصار راغوزة من ٨٦٦ إلى ٨٦٨م، حصار الأغالبة للمدينة حتى فكّه البيزنطيون؛ لم تُراجع مصادره على الصفحة بعد."
+  en: "Draft card for the Siege of Ragusa of 866–868, the Aghlabid blockade lifted by the Byzantine fleet; its sources are not yet checked on the page."
+wings: [time]
+periods: [period/abbasid-early]
+regions: [anatolia-balkans]
+date:
+  start: { edtf: "866", precision: year, status: tradition, derived: true }
+  end: { edtf: "868", precision: year, status: tradition, derived: true }
+sources: [source/tarikh-al-tabari]
+external_ids:
+  wikidata: Q22158904
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; siege attested in Adriatic histories — entry not yet checked on the page"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-wave2
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

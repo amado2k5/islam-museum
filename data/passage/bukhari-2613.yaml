@@ -1,0 +1,16 @@
+id: passage/bukhari-2613
+class: passage
+unit: hadith
+work: work/sahih-al-bukhari
+ref: "2613"
+label: { ar: "البخاري 2613 — ستر باب فاطمة", en: "Bukhari 2613 — Fatima's door-curtain" }
+text: "أتى النبي يتبع فاطمة بنته فلم يدخل عليها، وجاء علي فذكرت له ذلك، فذكره للنبي فقال: إني رأيت على بابها ستراً موشياً، فقال: ما لي وللدنيا؟ فأتاها علي فذكر ذلك لها، فقالت: ليأمرني فيه بما شاء، قال: ترسل به إلى فلان أهل بيت بهم حاجة"
+summary:
+  ar: "في كتاب البيوع بعد الحلة؛ مشهد بيتي صغير يرسم حدود الدنيا في بيت النبوة — الستر الموشى وحده زينة زائدة — ووجهته الصدقة لا الرفض."
+relations:
+  - { type: mentions, target: person/muhammad, sources: [source/sahih-al-bukhari] }
+  - { type: mentions, target: person/fatima, sources: [source/sahih-al-bukhari] }
+  - { type: mentions, target: person/ali-ibn-abi-talib, sources: [source/sahih-al-bukhari] }
+provenance: { layer: own-research, source: "صحيح البخاري (طبعة دار ابن كثير، ترقيم فخر الدين)، تصوير Apple Vision OCR، حديث 2613", generated_by: "Devin (SWE-2 High) from Apple Vision OCR", run: "hadith-bukhari-passages-1" }
+sources: [source/sahih-al-bukhari]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High); matn checked against the scan" }

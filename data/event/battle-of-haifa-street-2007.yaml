@@ -1,0 +1,23 @@
+id: event/battle-of-haifa-street-2007
+class: event
+kind: battle
+label: { ar: "معركة شارع حيفا (٢٠٠٧)", en: "Battle of Haifa Street" }
+summary:
+  ar: "بطاقة أولية لمعركة شارع حيفا في بغداد سنة ٢٠٠٧م بين القوات الأمريكية والعراقية ومسلحي المقاومة؛ لم تُراجع مصادره على الصفحة بعد."
+  en: "Draft card for the Battle of Haifa Street in Baghdad in 2007; its sources are not yet checked on the page."
+wings: [time]
+periods: [period/contemporary-era]
+regions: [levant-iraq]
+date:
+  start: { edtf: "2007-01-06", precision: year, status: tradition, derived: true }
+  end: { edtf: "2007-01-09", precision: year, status: tradition, derived: true }
+sources: [source/tarikh-islam-hasan-ibrahim]
+external_ids:
+  wikidata: Q4871175
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; battle attested in narrative histories — entry not yet checked on the page"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-wave2
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

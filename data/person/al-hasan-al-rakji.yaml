@@ -1,0 +1,24 @@
+id: person/al-hasan-al-rakji
+class: person
+label:
+  ar: "مؤيد الملك أبو علي الحسن الركجي"
+  en: "Mu'ayyad al-Mulk al-Hasan al-Rakji"
+summary:
+  ar: "وزير لمشرف الدولة أبي علي بن بهاء الدولة سنتين ثم عُزل، وكان في زمان عطلته عظيم الجاه. لما قيل إن واسطًا خالية عن مارستان وهي مصر من الأمصار الكبار اختار موضعًا فجعله مارستانًا واتفق عليه جملة وافرة، وفُتح سنة ثلاث عشرة وحُملت إليه الأدوية ورُتّب له الخزّان والأطباء ووقف عليه الأوقاف. تولى إثارة أموال فخر الملك من غير ضرب بعصا فاستخرجها باللطف — منها ما فكّ رموز سجل خزنة الدولة: «الكوسج اللحياني» الذي عنده عشرون ألف دينار و«بسرة بقمعها» التي عندها ثلاثون ألفًا. ونصح ابن الصائبي أن يشتغل «بتاريخ أخيار الناس» فكان ذلك سبب ذيل ابن الصائب على تاريخ سنان. توفي سنة تسع وعشرين وأربعمائة وقد قارب الثمانين {cite:muntazam-ibn-al-jawzi j.8 p.442-444}."
+  en: "Vizier of Musharrif al-Dawla for two years, then dismissed yet kept great prestige. Seeing Wasit lacked a bimaristan he chose a site and had the Mu'ayyadi bimaristan built and opened in 413, with medicines, storers, physicians and endowments. He recovered Fakhr al-Mulk's buried monies gently rather than by torture, cracking the cryptic ledger entries, and it was on his advice — 'occupy yourself with the history of virtuous men' — that Ibn al-Sabi' began his famous Dhayl on Sinan's history. Died 429 near eighty {cite:muntazam-ibn-al-jawzi j.8 p.442-444}."
+gender: male
+roles: [vizier]
+wings: [people]
+periods: [period/buyid-seljuk-fatimid-era]
+regions: [levant-iraq]
+died: { edtf: "1037~", hijri: "0429", calendar: julian, precision: year, status: tradition, derived: true, note: "توفي سنة ٤٢٩ وقد قارب الثمانين {cite:muntazam-ibn-al-jawzi j.8 p.443}" }
+relations:
+  - { type: allied_with, target: person/musharrif-al-dawla, role: "وزيره سنتين", sources: [source/muntazam-ibn-al-jawzi] }
+  - { type: built, target: building/bimaristan-muayyadi-wasit, sources: [source/muntazam-ibn-al-jawzi] }
+provenance:
+  layer: own-research
+  source: "المنتظم في تاريخ الملوك والأمم — ابن الجوزي (ج8، ترجمة سنة ٤٢٩)، قراءة آبل فيجن، مسح AAlexandrina-224011"
+  generated_by: "Devin (SWE-2 Medium) from Apple Vision OCR"
+  run: lib-muntazam-350-474-batch24
+sources: [source/muntazam-ibn-al-jawzi]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 Medium)" }

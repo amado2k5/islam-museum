@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 4:159 (سورة النساء، الآية 159)."
 text: "وَإِن مِّنْ أَهْلِ ٱلْكِتَـٰبِ إِلَّا لَيُؤْمِنَنَّ بِهِۦ قَبْلَ مَوْتِهِۦ ۖ وَيَوْمَ ٱلْقِيَـٰمَةِ يَكُونُ عَلَيْهِمْ شَهِيدًا"
 text_search: "وإن من أهل الكتاب إلا ليؤمنن به قبل موته ۖ ويوم القيامة يكون عليهم شهيدا"
+translations:
+  en: { text: "There is not one of the People of the Scripture but will believe in him before his death, and on the Day of Resurrection he will be a witness against them -", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "اور کوئی اہل کتاب نہیں ہوگا مگر ان کی موت سے پہلے ان پر ایمان لے آئے گا۔ اور وہ قیامت کے دن ان پر گواہ ہوں گے", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-4 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

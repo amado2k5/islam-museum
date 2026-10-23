@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 37:40 (سورة الصافات، الآية 40)."
 text: "إِلَّا عِبَادَ ٱللَّهِ ٱلْمُخْلَصِينَ"
 text_search: "إلا عباد الله المخلصين"
+translations:
+  en: { text: "Save single-minded slaves of Allah;", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "مگر جو خدا کے بندگان خاص ہیں", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-37 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

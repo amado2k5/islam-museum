@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 48:2 (سورة الفتح، الآية 2)."
 text: "لِّيَغْفِرَ لَكَ ٱللَّهُ مَا تَقَدَّمَ مِن ذَنۢبِكَ وَمَا تَأَخَّرَ وَيُتِمَّ نِعْمَتَهُۥ عَلَيْكَ وَيَهْدِيَكَ صِرَٰطًا مُّسْتَقِيمًا"
 text_search: "ليغفر لك الله ما تقدم من ذنبك وما تأخر ويتم نعمته عليك ويهديك صراطا مستقيما"
+translations:
+  en: { text: "That Allah may forgive thee of thy sin that which is past and that which is to come, and may perfect His favour unto thee, and may guide thee on a right path,", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "تاکہ خدا تمہارے اگلے اور پچھلے گناہ بخش دے اور تم پر اپنی نعمت پوری کردے اور تمہیں سیدھے رستے چلائے", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-48 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

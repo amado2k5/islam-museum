@@ -1,0 +1,29 @@
+id: event/malik-al-rahim-accession-440
+class: event
+kind: other
+label:
+  ar: "موت أبي كاليجار واستخلاف الملك الرحيم"
+  en: "Death of Abu Kalijar and investiture of al-Malik al-Rahim"
+summary:
+  ar: "مرض الملك أبو كاليجار في جمادى الأولى سنة أربعين وأربعمائة ففُصد ثلاث مرات وهو في برية وحمّ، ثم ركب المهدّ فشق عليه فعملت له محفة على أعذاق الرجال، وقضى في ليلة الخميس برمضان؛ فانتهب الغلمان الخزائن والسلاح والكراع، وأحرقت الجواري الخيام وتركنها وهو فيها مسجّى. وولي مكانه ابنه أبو نصر وسُمّي الملك الرحيم، فركب من معسكره إلى دار الخلافة حتى فرغ من صحن السلام في الموضع الذي نزل فيه عضد الدولة ومن بعده، فوصل إلى حضرة الخليفة فقبّل الأرض وأُجلس على كرسي، وأُلبس السبع الكاملة والعمامة السوداء الرصافية والطوق والسيفين بجزابل ووُضع على رأسه التاج المرصع وبُرزت له رايتان معقودتان، وقُرئ عليه كتاب التقليد والتلقيب ووُصّي بتقوى الله والعدل في الرعية، وأُهدي إليه فرس أدهم بمركب ذهب، فنزل الطيار الخلاقي وصعد منه إلى مضربه وجلس على سدته يخدمه الناس ويهنّونه {cite:muntazam-ibn-al-jawzi j.8 p.478-479}. كان أبو كاليجار قد ولد بالبصرة في شوال سنة تسع وتسعين وثلاثمائة، وتوفي وله أربعون سنة وأشهر، وولي العراق أربع سنين وشهرين، ونُهبت قلعة له كان فيها ما يزيد على ألف ألف دينار {cite:muntazam-ibn-al-jawzi j.8 p.481}."
+  en: "Abu Kalijar fell ill in Jumada I 440, was bled three times in the open country, and died on the Thursday night of Ramadan; the ghilman plundered treasuries, arms and mounts while his slave-girls burned the tents over his bier. His son Abu Nasr was acclaimed al-Malik al-Rahim and rode to the caliphal palace, kissed the earth, was robed in the seven-piece black investiture with the Rusafi turban, collar, two jewelled swords and gem-set crown, two bound standards presented, the patent of investiture read over his chest, and was counselled to piety and justice — then rode the caliph's own tayyar back to his camp to receive congratulations {cite:muntazam-ibn-al-jawzi j.8 p.478-479}."
+wings: [time]
+periods: [period/buyid-seljuk-fatimid-era]
+regions: [levant-iraq, persia-central-asia]
+themes: [politics-governance-and-authority, cities]
+sides:
+  - label: { ar: "بنو بويه" }
+date:
+  start: { edtf: "1048-10~", hijri: "0440-09", calendar: julian, precision: month, status: tradition, derived: true, note: "قضى ليلة الجميس في رمضان ٤٤٠ {cite:muntazam-ibn-al-jawzi j.8 p.478}" }
+relations:
+  - { type: occurred_at, target: place/baghdad, sources: [source/muntazam-ibn-al-jawzi] }
+  - { type: had_participant, target: person/abu-kalijar, role: "الملك المتوفى", sources: [source/muntazam-ibn-al-jawzi] }
+  - { type: had_participant, target: person/al-malik-al-rahim, role: "الملك المستخلف", sources: [source/muntazam-ibn-al-jawzi] }
+  - { type: had_participant, target: person/al-qaim-billah, role: "الخليفة المقلّد", sources: [source/muntazam-ibn-al-jawzi] }
+provenance:
+  layer: own-research
+  source: "المنتظم في تاريخ الملوك والأمم — ابن الجوزي (ج8، أحداث سنة ٤٤٠)، قراءة آبل فيجن، مسح AAlexandrina-224011"
+  generated_by: "Devin (SWE-2 Medium) from Apple Vision OCR"
+  run: lib-muntazam-350-474-batch24
+sources: [source/muntazam-ibn-al-jawzi]
+status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 Medium)" }
