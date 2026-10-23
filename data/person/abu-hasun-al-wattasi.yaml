@@ -1,0 +1,26 @@
+id: person/abu-hasun-al-wattasi
+class: person
+label: { ar: "أبو حسون الوطاسي", en: "Bu Hasun al-Wattasi" }
+names:
+  - { kind: full, lang: ar, value: "أبو حسون الوطاسي" }
+gender: male
+roles: [ruler]
+summary:
+  ar: "آخر ملوك بني وطاس؛ لقبه الصلابي «الباشا العثماني بوحسون». وقف معه صالح رايس والقوات العثمانية ضد محمد الشيخ السعدي فدخل فاس في ٣ صفر ٩٦٤هـ/٨ يناير ١٥٥٤م، وحاول صالح استبداله بالشريف الإدريسي مولاي بوبكر باقتراح المرابطين الصوفيين لكن ثورة الأهالي أعادته بشرط الخطبة باسم السلطان العثماني وإقامة حامية في مقر بلاطة. ويذكر الصلابي أن السلطان سليمان كان قد زوده بأربعة آلاف جندي {cite:dawlat-uthmaniyya-salabi p. 238-244}."
+  en: "Last of the Wattasid kings, whom al-Salabi styles 'the Ottoman pasha Bu Hasun'. Salih Reis and Ottoman forces stood with him against Muhammad al-Shaykh; he entered Fez 3 Safar 964/8 January 1554. Salih tried replacing him with the Idrisi sharif Mawlay Bu Bakr at the Sufi murabitun's suggestion, but the people's rising restored him on terms: the khutba in the Ottoman sultan's name and a garrison at Balata. Al-Salabi notes Süleyman had supplied him four thousand soldiers {cite:dawlat-uthmaniyya-salabi p. 238-244}."
+wings: [people]
+regions: [maghreb]
+periods: [period/gunpowder-empires]
+relations:
+  - { type: ruled_over, target: place/fez, sources: [source/dawlat-uthmaniyya-salabi] }
+  - { type: allied_with, target: person/salih-rais, sources: [source/dawlat-uthmaniyya-salabi] }
+  - { type: opposed, target: person/muhammad-al-shaykh-al-sadi, sources: [source/dawlat-uthmaniyya-salabi] }
+sources: [source/dawlat-uthmaniyya-salabi]
+external_ids: { wikidata: "Q281527" }
+provenance:
+  layer: own-research
+  source: "الدولة العثمانية لعلي محمد الصلابي (ط1 1421) ص 238-244"
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: salabi-uthmani-batch12
+status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 Medium)" }
