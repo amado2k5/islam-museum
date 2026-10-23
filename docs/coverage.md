@@ -37,7 +37,7 @@ Average sources per entity: **1.28** · Women share of persons with a recorded g
 | ideas | 1361 |
 | living | 72 |
 | made | 119 |
-| objects | 6144 |
+| objects | 6145 |
 | people | 8288 |
 | place | 1711 |
 | time | 3973 |
@@ -90,7 +90,7 @@ Average sources per entity: **1.28** · Women share of persons with a recorded g
 | animals-and-mercy | 8 |
 | anti-muslim-hatred | 12 |
 | architecture | 131 |
-| arts-of-the-book | 487 |
+| arts-of-the-book | 488 |
 | astronomy-and-timekeeping | 73 |
 | battles | 204 |
 | care-for-the-vulnerable | 5 |
@@ -114,7 +114,7 @@ Average sources per entity: **1.28** · Women share of persons with a recorded g
 | diplomacy-and-envoys | 2 |
 | disability | 8 |
 | dissent-heresy-freethought | 29 |
-| dress | 22 |
+| dress | 23 |
 | education | 138 |
 | engineering-and-technology | 5 |
 | environment-and-climate | 4 |
@@ -157,7 +157,7 @@ Average sources per entity: **1.28** · Women share of persons with a recorded g
 | minorities-within-islam | 7 |
 | modern-conflicts | 73 |
 | mongol-invasions | 14 |
-| mosques | 8 |
+| mosques | 9 |
 | movements-and-mass-organisations | 6 |
 | music | 37 |
 | muslim-minorities-under-non-muslim-rule | 75 |
