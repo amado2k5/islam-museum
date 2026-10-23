@@ -1,0 +1,21 @@
+id: event/ali-judgment-three-men-one-tuhr
+class: event
+kind: other
+label: { en: "Ali's judgment on three men who lay with one woman in one purity", ar: "قضاء علي في ثلاثة وقعوا على امرأة في طهر واحد" }
+summary:
+  en: "Three men lay with one woman in the same purity period in Yemen. Ali asked two at a time whether they claimed the child, and when neither would, he drew lots and gave the child to the one the lot named, with two-thirds of the diyya. The Prophet laughed and approved; the book notes that the men's act may have been before their Islam."
+  ar: "وقع ثلاثة من الرجال على امرأة في طهر واحد في اليمن، فسألهم علي اثنين اثنين هل يقران بالولد، فأبيا، ثم أقرع بينهم، فألحق الولد بمن صارت عليه القرعة، وجعل عليه ثلثي الدية؛ فضحك النبي فرحاً بتوفيق علي للصواب ولم ينكره، ويحتمل الكتاب أن يكون ذلك قبل إسلامهم."
+wings: [people, words]
+themes: [law-and-courts, family-marriage-kinship]
+periods: [period/prophetic-era]
+regions: [arabia]
+date:
+  start: { edtf: "0631", hijri: "0010", calendar: julian, precision: year, status: tradition, note: "الكتاب يضع باب ولاية علي في اليمن تحت 10هـ (ص 113)، ولا يذكر شهر الواقعة." }
+relations:
+  - { type: had_participant, target: person/ali-ibn-abi-talib, role: "القاضي الذي أقرع بينهم", sources: [source/sallabi-ali-vol1] }
+  - { type: had_participant, target: person/muhammad, role: "ضحك وأقر الحكم في الرواية", sources: [source/sallabi-ali-vol1] }
+  - { type: occurred_at, target: place/yemen }
+  - { type: part_of, target: event/ali-expeditions-to-yemen }
+sources: [source/sallabi-ali-vol1]
+status: { review: draft, completeness: 1, generated_by: "Claude Code (claude-haiku-5-5); mined from sallabi-ali-vol1 pp. 115" }
+provenance: { layer: own-research, source: "sallabi-ali-vol1 p. 115", generated_by: "Claude Code", model: "claude-haiku-5-5", run: "sallabi-ali-vol1-deep-pp111-150" }

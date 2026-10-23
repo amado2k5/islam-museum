@@ -1,0 +1,20 @@
+id: event/uthman-settlement-with-delegations
+class: event
+kind: treaty
+label: { ar: "صلح عثمان مع وفود الأمصار في ذي المروة", en: "Uthman's settlement with the provincial delegations at Dhu al-Marwa" }
+summary:
+  ar: "نزل المتمردون من أهل الأمصار في ذي المروة قبل مقتل عثمان بنحو شهر ونصف، فأرسل إليهم عثمان علياً ورجلاً آخر، فعرض عليهم كتاب الله فقبلوا؛ ثم اصطلحوا معه على خمسة أمور، منها أن يُردّ المنفي، ويُعطى المحروم، ويوفر الفيء، ويعدل في الرعية، وأن يبقى أبو موسى على الكوفة؛ ثم صالح عثمان كل وفد على حدة وانصرفت الوفود إلى ديارها (ص163-164)."
+wings: [people, place, ideas]
+periods: [period/rashidun]
+regions: [arabia]
+date:
+  start: { edtf: "0655/0656", calendar: julian, precision: year, status: tradition, derived: true, note: "الكتاب يذكر أن الواقعة قبل المقتل بنحو شهر ونصف، ولا يذكر السنة في الصفحات المقروءة (ص163)." }
+relations:
+  - { type: occurred_at, target: place/dhu-al-marwa }
+  - { type: had_participant, target: person/uthman-ibn-affan, role: "صالح الوفود على انفراد", sources: [source/sallabi-ali-vol1] }
+  - { type: had_participant, target: person/ali-ibn-abi-talib, role: "أرسله عثمان إلى المتمردين ليعرض عليهم كتاب الله", sources: [source/sallabi-ali-vol1] }
+  - { type: had_participant, target: person/abu-musa-al-ashari, role: "أُقرّ على الكوفة في الصلح", sources: [source/sallabi-ali-vol1] }
+  - { type: caused, target: event/forged-letter-affair, sources: [source/sallabi-ali-vol1] }
+sources: [source/sallabi-ali-vol1]
+status: { review: draft, completeness: 1, generated_by: "Claude Code (claude-haiku-5-5); mined from sallabi-ali-vol1 pp. 163-164" }
+provenance: { layer: own-research, source: "sallabi-ali-vol1 pp. 163-164", generated_by: "Claude Code", model: "claude-haiku-5-5", run: "sallabi-ali-vol1-deep-pp151-200" }

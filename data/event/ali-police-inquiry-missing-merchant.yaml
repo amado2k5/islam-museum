@@ -1,0 +1,33 @@
+id: event/ali-police-inquiry-missing-merchant
+class: event
+kind: court-ruling
+label: { ar: "تحقيق علي في مال الرجل المفقود", en: "Ali's inquiry into a missing traveller and his wealth" }
+summary:
+  ar: "شكا شاب إلى علي أن رفقة سافروا مع أبيه فعادوا ولم يعد أبوه، وأن ماله غاب معهم. أمر علي بالشرطة فوكّل بكل رجل رجلين، ومنعهم من الاجتماع أو الكلام، ثم استجوب كل واحد على حدة عن يوم الخروج والمنزل وكيفية السير وسبب الموت، وكتب الكاتب، فتناقضت أقوالهم، فاعترف أحدهم وأُغرموا المال {cite:sallabi-ali-vol1 p. 271}. يعرض الصلابي القصة في باب الشرطة وتحقيقها {cite:sallabi-ali-vol1 p. 271}."
+  en: "A young man complained that a company of travellers came back without his father and with his father's money. Ali had the police guard each suspect separately, questioned each on the journey, the lodgings, the cause of death and the burial, and found their accounts contradictory; one confessed, and they were made to pay {cite:sallabi-ali-vol1 p. 271}."
+wings: [people]
+themes: [crime-and-punishment, politics-governance-and-authority]
+periods: [period/rashidun]
+regions: [levant-iraq]
+date:
+  start: { edtf: "0656/0661", calendar: julian, precision: year, status: tradition, derived: true, note: "الكتاب لا يؤرخ القصة؛ الإطار (خلافة علي بالكوفة) مشتق؛ ثقة منخفضة." }
+relations:
+  - { type: had_participant, target: person/ali-ibn-abi-talib, role: "القاضي في التحقيق", sources: [source/sallabi-ali-vol1] }
+  - { type: occurred_at, target: place/kufa, sources: [source/sallabi-ali-vol1] }
+  - { type: related_to, target: concept/shurta, sources: [source/sallabi-ali-vol1] }
+sources: [source/sallabi-ali-vol1]
+perspectives:
+  - tradition: sunni
+    id: sunni-book
+    summary:
+      ar: "يعرض الصلابي القصة على أنها دليل على فطنة علي في كشف الحقيقة بالفصل بين الشهود والمتهمين، وأن الشرطة كانت تعمل في عهده بهذه الطريقة {cite:sallabi-ali-vol1 p. 271}. (القصة مروية عن أصبغ بن نباتة في كتاب الطرق الحكمية.)"
+      en: "Al-Sallabi presents the story as proof of Ali's skill at uncovering truth by separating the accused, and as a model of how police worked under him {cite:sallabi-ali-vol1 p. 271}."
+    sources: [source/sallabi-ali-vol1]
+  - tradition: academic
+    id: academic
+    summary:
+      ar: "لم يعرض الكتاب تحليلاً أكاديمياً لمدى تاريخية هذه القصة أو لاعتراف المتهم بالإكراه الذي يذكره الخبر؛ ينبغي مراجعة الطرق الحكمية لابن القيم ومقارنة الرواية (needs_source)."
+      en: "The book offers no academic test of the story's historicity or of the confession obtained under pressure in the report; to be checked against Ibn al-Qayyim's al-Turuq al-Hukmiyya (needs_source)."
+    sources: []
+provenance: { layer: own-research, source: "sallabi-ali-vol1 pp. 271-272", generated_by: "Claude Code", model: "claude-haiku-5-5", run: "sallabi-ali-vol1-deep-pp251-300" }
+status: { review: draft, completeness: 1, generated_by: "Claude Code (claude-haiku-5-5); mined from sallabi-ali-vol1 pp. 271-272; contested" }

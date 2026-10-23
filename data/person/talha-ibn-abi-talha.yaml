@@ -1,0 +1,27 @@
+id: person/talha-ibn-abi-talha
+class: person
+label: { ar: "طلحة بن أبي طلحة", en: "Talha ibn Abi Talha" }
+names:
+  - { kind: full, lang: ar, value: "طلحة بن أبي طلحة" }
+gender: male
+died: { edtf: "0624~", calendar: julian, precision: year, status: tradition, derived: true, note: "قُتل ببدر (ص 79). السنة مشتقة من تاريخ غزوة بدر وليست منصوصة في هذا الموضع.", sources: [source/sallabi-ali-vol1] }
+roles: []
+traditions: []
+summary:
+  ar: "صاحب لواء المشركين يوم بدر، قتله علي بن أبي طالب كما يذكر الصلابي، فقال الحجاج بن علاط السلمي في ذلك أبياتاً (ص 79-80)."
+  en: "Standard-bearer of the Meccan side at Badr; al-Sallabi reports that Ali killed him, and that al-Hajjaj ibn Ilat al-Sulami composed verses about it (pp. 79-80)."
+wings: [people]
+themes: [battles]
+periods: [period/prophetic-era]
+regions: [arabia]
+story_roles:
+  - { role: military-opponent, toward: person/ali-ibn-abi-talib, start: { edtf: "0624~" }, status: tradition, note: "Standard-bearer of the Meccan army at Badr, killed by Ali, per al-Sallabi (p. 79).", sources: [source/sallabi-ali-vol1] }
+faith:
+  - { value: arabian-polytheism, basis: documented, note: "الكتاب يسمي فريقه لواء المشركين يوم بدر؛ لا يذكر معتقده الشخصي على حدة.", sources: [source/sallabi-ali-vol1] }
+relations:
+  - { type: died_in, target: place/badr, sources: [source/sallabi-ali-vol1] }
+  - { type: participated_in, target: event/battle-of-badr, role: meccan-side, sources: [source/sallabi-ali-vol1] }
+  - { type: participated_in, target: event/badr-duel, role: "standard-bearer killed by Ali", sources: [source/sallabi-ali-vol1] }
+sources: [source/sallabi-ali-vol1]
+status: { review: draft, completeness: 1, generated_by: "Claude Code (claude-haiku-5-5); mined from sallabi-ali-vol1 pp. 79-80" }
+provenance: { layer: own-research, source: "sallabi-ali-vol1 pp. 79-80", generated_by: "Claude Code", model: "claude-haiku-5-5", run: "sallabi-ali-vol1-deep-p75-92" }

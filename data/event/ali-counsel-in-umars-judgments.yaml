@@ -1,0 +1,19 @@
+id: event/ali-counsel-in-umars-judgments
+class: event
+kind: other
+label: { en: "Ali's counsel in Umar's judgments", ar: "مشورة علي لعمر في القضاء" }
+summary:
+  en: "During Umar's caliphate Ali repeatedly corrected or advised the judgments: he stopped the stoning of a woman with a mental affliction, asked Umar what authority he had over the unborn child of a confessing pregnant woman, showed by a test that a woman's claim of assault was false, and said that the innovated marriage should be returned to the Sunna. Umar is reported to have said that he sought refuge from a problem Abu al-Hasan could not solve."
+  ar: "في خلافة عمر أشار علي مراراً بتصويب الأحكام: منع رجم امرأة مبتلاة بالجنون، وسأل عمر عن سلطانه على ما في بطن حامل اعترفت بالفجور، وكشف بالتجربة كذب امرأة ادعت أن شاباً راودها، وردّ نكاحاً في العدة إلى السنة. وتذكر الرواية أن عمر قال: أعوذ بالله من معضلة ليس لها أبو الحسن."
+wings: [people, words]
+themes: [law-and-courts, crime-and-punishment, family-marriage-kinship]
+periods: [period/rashidun]
+regions: [arabia]
+date:
+  start: { edtf: "0634/0644", hijri: "0013", calendar: julian, precision: year, status: tradition, derived: true, note: "الكتاب لا يؤرخ هذه القضايا، ويذكرها في خلافة عمر (13-23هـ)." }
+relations:
+  - { type: had_participant, target: person/ali-ibn-abi-talib, role: "أشار على عمر وصحح حكمه", sources: [source/sallabi-ali-vol1] }
+  - { type: had_participant, target: person/umar-ibn-al-khattab, role: "القاضي الذي أخذ بمشورة علي", sources: [source/sallabi-ali-vol1] }
+sources: [source/sallabi-ali-vol1]
+status: { review: draft, completeness: 1, generated_by: "Claude Code (claude-haiku-5-5); mined from sallabi-ali-vol1 pp. 142-144" }
+provenance: { layer: own-research, source: "sallabi-ali-vol1 pp. 142-144", generated_by: "Claude Code", model: "claude-haiku-5-5", run: "sallabi-ali-vol1-deep-pp111-150" }
