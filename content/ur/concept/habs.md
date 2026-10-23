@@ -40,3 +40,21 @@ translators: ["Claude Haiku 5.5, draft translation"]
 ## قصاص کے ساتھ حبس
 
 قاتل کو اس وقت تک روکا جاتا ہے جب تک اولیاء میں سے کوئی غائب یا نابالغ ہو۔ {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.6755}
+
+## قیدیوں کے احکام اور جیل
+
+فقہاء عورتوں کے لیے مردوں سے الگ قید خانہ مقرر کرتے ہیں، جس کی نگرانی عورتیں یا معتبر مرد کرے۔ {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.6776} {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.6777}
+
+مشکل الخنثی کو مردوں یا عورتوں کے ساتھ نہیں، بلکہ اکیلے یا محرم کے پاس رکھا جائے۔ {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.6776}
+
+مالکیہ، شافعیہ اور حنفیہ کے ایک قول کے مطابق نابالغ کو قرض میں قید نہیں کیا جاتا بلکہ تادیب کی جاتی ہے۔ {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.6777}
+
+جیل میں زیر علاج قیدی کو باہر نہیں نکالا جاتا، اور جمعہ و عیدین کی اجازت پر اختلاف ہے۔ {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.6780} {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.6781}
+
+قیدی کا تصرف باقی رہتا ہے، اور جبر سے ہونے والی بیع فسخ ہو سکتی ہے۔ {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.6781}
+
+قیدی کو جسمانی اذیت، آگ، بھوک، سخت سردی یا گرمی، برہنہ کرنے، وضو یا نماز سے روکنے اور گالی دینے کی سزا جائز نہیں۔ {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.6786} {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.6787}
+
+جنون کی حالت میں قیدی کو رہا کیا جاتا ہے، اور حارس پر حملہ کرنے والے کو پہلے سمجھایا جاتا ہے، پھر کم سے کم قوت سے روکا جاتا ہے۔ {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.6787} {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.6788}
+
+جیلر میں امانت، ہوشیاری، صلاح اور نرمی ہونی چاہیے، اور ریاست پر جیلوں کی نگرانی لازم ہے۔ {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.6788} {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.6789}
