@@ -1,0 +1,8 @@
+---
+id: concept/hiyaza-possession
+lang: ur
+source_lang: ar
+translators: []
+---
+## خلاصہ
+حیازت لغت میں جمع کرنے اور کسی شے کو اپنے قبضے میں لینے کو کہتے ہیں؛ اصطلاحاً کسی چیز پر ہاتھ رکھ کر اس پر قبضہ کرنا، اور یہ قبض کے ہم معنی ہے۔ {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.7441} {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.7442} حطاب کے نزدیک حیازت تین درجات کی ہے: کمزور ترین رہائش یا کاشت، اس کے بعد ڈھانا، تعمیر، درخت لگانا اور استغلال، اور سب سے مضبوط بیع، ہبہ، صدقہ، آزادی یا مالک کا اپنے مال میں کیا ہوا کوئی تصرف۔ {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.7442} جمہور کے نزدیک حیازت اور قبض ایک ہی چیز ہے؛ ہاتھ رکھنا ملکیت یا تصرف کی علامت بھی ہو سکتا ہے، اور بینات کے وزن میں اس کا اعتبار ہوتا ہے۔ {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.7442} {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.7443} حیازت شرعی طریقوں سے ہوتی ہے جیسے احیائے موات، شکار، گھاس کاٹنا، معدن، رکاز، لقطہ اور عقد سے، اور غیر شرعی طریقوں سے جیسے غصب، چوری اور ڈاکہ۔ {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.7443} ابن رشد کے نزدیک حیازت ملکیت پر دلالت کرتی ہے مگر منتقل نہیں کرتی؛ اس کا وزن مدت، مدعیٔ ملکیت سے تعلق اور شے کی نوعیت پر منحصر ہے۔ {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.7443} {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.7444} {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.7446} بینات میں اختلاف کی صورت میں حنفیہ اور امام احمد کی ایک روایت مدعی کی بینہ کو مقدم کرتے ہیں، جبکہ شافعیہ اور مالکیہ صاحبِ ید کی بینہ کو؛ مالکیہ کے ہاں حیازت کے درجات، مدعی کی حاضری اور علم، طویل خاموشی اور خوف، سفہ اور صغر جیسے موانع کے تفصیلی احکام ہیں۔ {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.7444} {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.7445} {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.7446} {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.7447} {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.7448} {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.7449} 
