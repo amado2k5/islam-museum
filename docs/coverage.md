@@ -34,11 +34,11 @@ Average sources per entity: **1.28** · Women share of persons with a recorded g
 
 | Key | Count |
 |---|---|
-| ideas | 1342 |
-| living | 71 |
+| ideas | 1344 |
+| living | 70 |
 | made | 119 |
 | objects | 6140 |
-| people | 8287 |
+| people | 8286 |
 | place | 1711 |
 | time | 3973 |
 | today | 6 |
@@ -58,7 +58,7 @@ Average sources per entity: **1.28** · Women share of persons with a recorded g
 | period/modern-era | 1144 |
 | period/mongol-post-mongol | 1305 |
 | period/pre-islamic-arabia | 402 |
-| period/prophetic-era | 2151 |
+| period/prophetic-era | 2153 |
 | period/rashidun | 840 |
 | period/umayyad | 1018 |
 
@@ -87,7 +87,7 @@ Average sources per entity: **1.28** · Women share of persons with a recorded g
 |---|---|
 | afterlife-and-eschatology | 25 |
 | agriculture-and-botany | 5 |
-| animals-and-mercy | 7 |
+| animals-and-mercy | 8 |
 | anti-muslim-hatred | 12 |
 | architecture | 131 |
 | arts-of-the-book | 487 |
@@ -118,9 +118,9 @@ Average sources per entity: **1.28** · Women share of persons with a recorded g
 | education | 138 |
 | engineering-and-technology | 5 |
 | environment-and-climate | 4 |
-| ethics-and-character | 194 |
+| ethics-and-character | 193 |
 | factions-splits-schisms | 26 |
-| family-marriage-kinship | 353 |
+| family-marriage-kinship | 351 |
 | fasting | 4 |
 | food-of-ramadan-and-feasts | 4 |
 | games-and-leisure | 1 |
@@ -199,7 +199,7 @@ Average sources per entity: **1.28** · Women share of persons with a recorded g
 | water-and-animals | 8 |
 | websites-and-apps | 2 |
 | women | 217 |
-| worship-and-the-pillars | 384 |
+| worship-and-the-pillars | 385 |
 | zakat-and-sadaqa | 21 |
 | zoology | 1 |
 
