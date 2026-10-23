@@ -110,7 +110,7 @@ Average sources per entity: **1.28** · Women share of persons with a recorded g
 | cuisines | 10 |
 | dawa-and-christian-mission | 7 |
 | desertions-defections-withdrawals | 4 |
-| development-of-law-theology-institutions | 231 |
+| development-of-law-theology-institutions | 232 |
 | diplomacy-and-envoys | 2 |
 | disability | 6 |
 | dissent-heresy-freethought | 29 |
@@ -120,7 +120,7 @@ Average sources per entity: **1.28** · Women share of persons with a recorded g
 | environment-and-climate | 4 |
 | ethics-and-character | 164 |
 | factions-splits-schisms | 26 |
-| family-marriage-kinship | 308 |
+| family-marriage-kinship | 310 |
 | fasting | 4 |
 | food-of-ramadan-and-feasts | 4 |
 | games-and-leisure | 1 |
@@ -169,7 +169,7 @@ Average sources per entity: **1.28** · Women share of persons with a recorded g
 | pilgrimages-and-mass-gatherings | 17 |
 | polemic-and-apologetic | 10 |
 | politics-governance-and-authority | 40 |
-| prophets | 133 |
+| prophets | 132 |
 | race-colour-ethnicity | 10 |
 | reconciliation-and-unity | 12 |
 | refugees-migrants-diaspora | 144 |
@@ -198,8 +198,8 @@ Average sources per entity: **1.28** · Women share of persons with a recorded g
 | wars-and-campaigns | 136 |
 | water-and-animals | 8 |
 | websites-and-apps | 2 |
-| women | 215 |
-| worship-and-the-pillars | 328 |
+| women | 216 |
+| worship-and-the-pillars | 327 |
 | zakat-and-sadaqa | 21 |
 | zoology | 1 |
 
