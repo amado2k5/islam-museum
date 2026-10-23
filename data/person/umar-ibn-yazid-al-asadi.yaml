@@ -1,0 +1,18 @@
+id: person/umar-ibn-yazid-al-asadi
+class: person
+label: { ar: "عمر بن يزيد الأسدي", en: "Umar ibn Yazid al-Asadi" }
+names:
+  - { kind: full, lang: ar, value: "عمر بن يزيد الأسدي" }
+gender: male
+roles: [poet]
+traditions: [sunni]
+summary:
+  ar: "شاعر أسدي اشتهر في أخبار البخل. يذكر الأبشيهي في باب البخل أنه أصابه القولنج، فعولج بالدهن، وأنه كان من شدة بخله على هذه الحال {cite:al-mustatraf-abshihi-scan-vol1 p. 205}."
+  en: "An Asadi poet remembered in anecdotes of miserliness. Al-Abshihi records that he suffered from colic and was treated with oil, in a passage about his extreme stinginess {cite:al-mustatraf-abshihi-scan-vol1 p. 205}."
+wings: [people]
+themes: [literature]
+story_roles:
+  - { role: poet, status: tradition, sources: [source/al-mustatraf-abshihi-scan-vol1] }
+sources: [source/al-mustatraf-abshihi-scan-vol1]
+status: { review: draft, completeness: 1, generated_by: "Claude Haiku 5.5 (Mustatraf misers chapter, scan p. 205, read on the image)" }
+provenance: { layer: pd, source: "archive.org mustatraf_01, scan p. 205 (checked against the page image)", generated_by: "Claude Haiku 5.5", model: "claude-haiku-5-5", run: "lib-mustatraf-batch-03" }
