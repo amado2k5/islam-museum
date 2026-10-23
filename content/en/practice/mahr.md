@@ -2,19 +2,13 @@
 id: practice/mahr
 lang: en
 source_lang: ar
-translators: ["Claude Haiku 5.5 (claude-haiku-5-5), draft translation"]
+translators: []
 ---
 ## Overview
-For al-Sha'rawi, the mahr is a right of the wife and the wage for intimacy in marriage. He reads the word nihla in the verse as a matter of religious conscience rather than a judicial ruling {cite:tafsir-sharawi-khawatir-scan-vol-2 p. 2009}.
+The mahr is the woman's sadaq — what the husband gives his wife by the marriage contract; the Shafi'is define it as what becomes due by marriage, intercourse, or the deliberate loss of the marital right. It has nine names: mahr, sadaq, sadaqa, nihla, farida, ajr, 'ala'iq, 'uqr and haba'. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.15120}
 
-## The wife's right
-He holds that the wife is owed the mahr. Although the marriage gives both spouses enjoyment and a shared purpose, God made the mahr a gift of honour to women {cite:tafsir-sharawi-khawatir-scan-vol-2 p. 2009}.
+## Mahr and nafaqa
+They share being due to the wife, but maintenance is due as compensation for her being kept, while the mahr is due in honour of the union. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.15120}
 
-## Waiver given willingly
-He holds that a wife may give up part of her mahr if she does so willingly. That strengthens the marriage, and a guardian must not take any of it out of shame {cite:tafsir-sharawi-khawatir-scan-vol-2 p. 2010}.
-
-## An account attributed to Ali
-He relates that a man complained of an ailment to Ali ibn Abi Talib, who told him to take two dirhams from his wife's mahr, buy honey and dissolve it in rainwater, citing Qur'anic words on blessed water, healing honey and the mahr {cite:tafsir-sharawi-khawatir-scan-vol-2 p. 2010}{cite:tafsir-sharawi-khawatir-scan-vol-2 p. 2011}. The book gives no chain of transmission for this account here, so it is not yet verified (needs_source).
-
-## Not yet covered here
-No comparative fiqh reading of the mahr is set out in this part of the book. A named source is needed (needs_source).
+## Its obligation
+The mahr is obligatory in every marriage — "lawful to you beyond that is that you seek with your wealth" ties the licit union to giving wealth; and no marriage in the abode of Islam is free of mahr. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.15120} {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.14849}
