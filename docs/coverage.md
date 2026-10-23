@@ -146,7 +146,7 @@ Average sources per entity: **1.28** · Women share of persons with a recorded g
 | islam-and-secular-thought | 2 |
 | islam-and-the-modern-state | 6 |
 | islam-and-zoroastrianism | 2 |
-| law-and-courts | 252 |
+| law-and-courts | 251 |
 | laws-of-war-and-peace | 57 |
 | libraries-paper-and-the-book | 11 |
 | linguistics | 77 |
@@ -162,7 +162,7 @@ Average sources per entity: **1.28** · Women share of persons with a recorded g
 | music | 37 |
 | muslim-minorities-under-non-muslim-rule | 75 |
 | names-and-honorifics | 3 |
-| non-muslim-minorities-under-muslim-rule | 26 |
+| non-muslim-minorities-under-muslim-rule | 25 |
 | optics-and-physics | 1 |
 | peace-making-and-coexistence | 52 |
 | philosophy-and-logic | 34 |
