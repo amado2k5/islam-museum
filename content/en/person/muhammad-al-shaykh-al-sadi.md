@@ -5,10 +5,10 @@ source_lang: ar
 translators: ["Devin (SWE-2 Medium), draft translation"]
 ---
 ## Summary
-The Sa'di sharif, ruler of Fas, who ended Wattasid rule {cite:dawlat-uthmaniyya-salabi p. 231}.
+The Sa'di sharif, ruler of Fas, who ended Wattasid rule with Ottoman backing and then became the Ottomans' most resolute adversary in the Maghrib {cite:dawlat-uthmaniyya-salabi p. 231-243}.
 
-## Ottoman aid — and the turn
-The Ottoman state backed him with some twenty thousand mujahidun who rallied to him and pressed him to build warships for the conquest of Spain; he ended the Wattasids and Morocco was his. Then — in al-Salabi's telling — he turned from the Islamic aim toward Tlemcen, sending great armies to end Ottoman rule there; Ottoman campaigns drove him home {cite:dawlat-uthmaniyya-salabi p. 231}.
+## From ally to adversary
+The Ottoman state had backed him with some twenty thousand mujahidun until the Wattasids fell; after retaking Fez he declared he would march on Algiers, asked Madrid and Lisbon for ten thousand musket-armed troops at the Emperor's expense, and proposed — per the Spanish embassy's report — razing Algiers itself, while stipulating that no Arab ever be enslaved, as contrary to the shari'a. He struck a six-month Portuguese truce in early 962/1555 {cite:dawlat-uthmaniyya-salabi p. 241-242}.
 
-## Süleyman's rescript
-To him Sultan [[person/sulayman-al-qanuni|Süleyman]] addressed his exalted rescript: 'This is our exalted sultanic rescript and high imperial letter… issued to the high presence… the ruler of the province of Fas at that time, the sharif Muhammad' — a letter calling to Islamic unity and good neighbourliness {cite:dawlat-uthmaniyya-salabi p. 235}.
+## Tlemcen and the refusal
+Seizing the fleet's absence he entered Tlemcen unawares; its garrison under [[person/mahmud-safa-bak|Mahmud Safa Bak]] held. To Süleyman's envoy he returned refusal — the same sultan who had addressed to him his exalted rescript calling for Islamic unity and good neighbourliness {cite:dawlat-uthmaniyya-salabi p. 235-244}.

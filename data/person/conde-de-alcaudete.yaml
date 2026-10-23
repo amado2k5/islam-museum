@@ -1,0 +1,25 @@
+id: person/conde-de-alcaudete
+class: person
+label: { ar: "الكونت دي الكوديت", en: "the Count of Alcaudete" }
+names:
+  - { kind: full, lang: ar, value: "الكونت دي الكوديت" }
+gender: male
+roles: [military, ruler]
+summary:
+  ar: "حاكم وهران الأسباني؛ إليه بعث المزوار بوغانم رسالة وساطة السعديين مطلع ربيع الأول ٩٦٣هـ/يناير ١٥٥٥م، فأرسل إلى فاس وفداً من ثلاثة للاتفاق على حملة مشتركة ضد العثمانيين، ثم رفع تقرير الوفد إلى الأمير فليب بن الإمبراطور شارل مشفوعاً بخطاب يعلن فيه استعداده هو ومن حوله ليكونوا رهائن لدى الشريف إن اقتضت الصفقة {cite:dawlat-uthmaniyya-salabi p. 241-243}."
+  en: "The Spanish governor of Oran. Al-Muzawwar Bu Ghannam's mediation letter reached him early Rabi' I 963/January 1555; he sent a three-man embassy to Fez to arrange a joint anti-Ottoman campaign, then forwarded its report to Prince Philip, Charles's son, with a letter declaring himself and all his household ready to be the sharif's hostages if the bargain required it {cite:dawlat-uthmaniyya-salabi p. 241-243}."
+wings: [people]
+regions: [maghreb]
+periods: [period/gunpowder-empires]
+relations:
+  - { type: ruled_over, target: place/wahran, sources: [source/dawlat-uthmaniyya-salabi] }
+  - { type: opposed, target: person/salih-rais, sources: [source/dawlat-uthmaniyya-salabi] }
+sources: [source/dawlat-uthmaniyya-salabi]
+external_ids: { wikidata: "Q8343952" }
+provenance:
+  layer: own-research
+  source: "الدولة العثمانية لعلي محمد الصلابي (ط1 1421) ص 241-243"
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: salabi-uthmani-batch12
+status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 Medium)" }
