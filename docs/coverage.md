@@ -58,7 +58,7 @@ Average sources per entity: **1.28** · Women share of persons with a recorded g
 | period/modern-era | 1144 |
 | period/mongol-post-mongol | 1306 |
 | period/pre-islamic-arabia | 402 |
-| period/prophetic-era | 2224 |
+| period/prophetic-era | 2225 |
 | period/rashidun | 840 |
 | period/umayyad | 1025 |
 
@@ -120,7 +120,7 @@ Average sources per entity: **1.28** · Women share of persons with a recorded g
 | environment-and-climate | 4 |
 | ethics-and-character | 207 |
 | factions-splits-schisms | 26 |
-| family-marriage-kinship | 371 |
+| family-marriage-kinship | 372 |
 | fasting | 4 |
 | food-of-ramadan-and-feasts | 4 |
 | games-and-leisure | 2 |
