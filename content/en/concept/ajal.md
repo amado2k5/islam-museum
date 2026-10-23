@@ -39,3 +39,27 @@ Most jurists allow an option by stipulation; Abu Hanifa, Zufar and al-Shafi'i li
 
 ## Shar'i term: the courses
 Among the Shafi'is and Hanbalis the least menstrual period is a day and night and the most fifteen days. The Hanafis take three days as the least and ten as the most; a view of Abu Yusuf takes two days and the greater part of a third. The Malikis set no least period in time. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.1663}
+
+## Age of menopause and the period of menstruation
+Jurists differ on fixing the age at which menstruation ends. Some do not fix an age; others fix fifty years, and a report from 'A'isha says a woman who reaches fifty has left the limit of menstruation. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.1664}
+
+## Postnatal bleeding
+A woman after childbirth leaves prayer for forty days unless she sees purity earlier. This is the view of the majority, including the Hanafis, Hanbalis, al-Thawri and Ishaq, relying on a report from Umm Salama. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.1665}
+
+## Duration of wiping over socks and the distance of travel
+The duration of wiping over socks is fixed at three days and nights for a traveller and one day and night for a resident, while the Malikis do not fix a time for it. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.1666} {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.1667} The Hanafis define the journey that changes the rules as three days and nights by camel or on foot; Abu Yusuf puts it at two days and most of a third. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.1668}
+
+## Judicial term
+The judicial term is the term that a judge sets for the parties to attend or for a proof to be produced. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.1668}
+
+## Stipulating delay of delivery of a thing
+Jurists differ on whether a sale may stipulate that delivery of the thing sold is deferred for a known period. The Malikis and Hanbalis, and a weaker Shafi'i view, allow it, on the general command to fulfil contracts. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.1669}
+
+## Term for the capital of salam
+Most jurists require the capital of a salam to be paid before the parties separate; deferring it turns the matter into a debt sold for a debt. The Malikis allow the payment to be deferred for up to three days. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.1671}
+
+## Price after rescission, and loans
+Rescission restores the original position according to the majority, so a deferred price stipulated in it is void while the rescission stands; the Malikis treat rescission as a sale. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.1672} The return of a loan is due at once in the majority view; a stipulated deferral is void. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.1672} {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.1673}
+
+## Term for blood-money
+Blood-money for intentional killing is due at once from the killer's property, according to the majority. The Hanafis distinguish blood-money agreed by settlement, which is immediate, from blood-money owed when retaliation falls by a doubt, which is paid over three years. For quasi-intentional killing it is paid over three years by the kin, according to the Hanafis, Shafi'is and Hanbalis. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.1673}
