@@ -12,3 +12,5 @@ status: draft
 زنا اور لواطت کے احکام: زنا کی حرمت پر اجماع، لواطت کی حرمت اور اس کی سزا پر فقہاء کے مختلف اقوال کا خلاصہ، جو اس مدخل میں تاحال زیرِ تکمیل ہے۔ {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.17492}{cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.17496}
 
 سورہ مومنون کی آیت اور ممنوعہ وطء کی اقسام (دبر، میتہ، بہائم) کے احکام، ان کی سزاؤں پر فقہاء کے مختلف اقوال کا خلاصہ۔ {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.17497}{cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.17503}
+
+تسلسل: چوپایہ سے وطء کی سزا، اس کے جانور کے قتل اور کھانے کا حکم، وطء بشبہہ اور بیوی کے وطء کے حق کے فقہاء کے اقوال کا خلاصہ۔ {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.17504}{cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.17507}
