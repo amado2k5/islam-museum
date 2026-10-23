@@ -50,3 +50,19 @@ Detention is a pure deterrent under ta'zir and does not expiate the offence, unl
 Detention for security covers suspicion, precaution and enforcing another penalty. Most jurists allow detention of a suspect where strong evidence exists, and an unknown person may be held until his case is clear. Jurists differ over whether the ruler alone or also the judge may order it. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.6751} {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.6752} {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.6753}
 
 Note: the entry continues after p.6753 with the detention of suspects and the prison and its administration.
+
+## Detention for security
+
+Detention for precaution protects the public from a harm expected if the person is left free and does not require a suspicion. Examples include holding a person whose evil eye harms people, and holding the women and children of rebels. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.6754}
+
+Execution may be postponed while a person is ill, pregnant, in childbed or nursing, and a suspect of a fugitive may be held. A killer may be held while the victim's heirs include a minor or absent person, until the absent heir comes or the minor reaches maturity. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.6754} {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.6755}
+
+## Al-Qarafi's list
+
+Al-Qarafi lists eight grounds for detention, among them holding the perpetrator while the victim's guardian is absent, holding a runaway slave, holding a person who refuses a due right, and holding a person whose case is unclear. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.6755} {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.6756}
+
+## Killers and accessories
+
+Jurists differ about holding a killer whose victim's heirs pardon him. The majority do not detain him, while the Malikis flog him and imprison him for a year. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.6757}
+
+Note: the entry continues after p.6758 with the rest of the rules on oath-taking in homicide claims and the prison and its administration.
