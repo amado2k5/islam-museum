@@ -9,7 +9,7 @@ Average sources per entity: **1.29** · Women share of persons with a recorded g
 | Key | Count |
 |---|---|
 | building | 5591 |
-| concept | 806 |
+| concept | 804 |
 | dataset | 16 |
 | event | 4352 |
 | exhibit | 301 |
@@ -21,7 +21,7 @@ Average sources per entity: **1.29** · Women share of persons with a recorded g
 | object | 516 |
 | passage | 9546 |
 | period | 13 |
-| person | 8391 |
+| person | 8393 |
 | place | 1692 |
 | polity | 175 |
 | practice | 60 |
@@ -34,11 +34,11 @@ Average sources per entity: **1.29** · Women share of persons with a recorded g
 
 | Key | Count |
 |---|---|
-| ideas | 702 |
+| ideas | 700 |
 | living | 36 |
 | made | 117 |
 | objects | 6112 |
-| people | 8050 |
+| people | 8052 |
 | place | 1702 |
 | time | 3972 |
 | today | 6 |
@@ -58,9 +58,9 @@ Average sources per entity: **1.29** · Women share of persons with a recorded g
 | period/modern-era | 1143 |
 | period/mongol-post-mongol | 1297 |
 | period/pre-islamic-arabia | 402 |
-| period/prophetic-era | 1586 |
+| period/prophetic-era | 1585 |
 | period/rashidun | 832 |
-| period/umayyad | 979 |
+| period/umayyad | 980 |
 
 ### By region
 
@@ -69,12 +69,12 @@ Average sources per entity: **1.29** · Women share of persons with a recorded g
 | americas-oceania | 64 |
 | anatolia-balkans | 4096 |
 | andalus-europe | 1169 |
-| arabia | 2980 |
+| arabia | 2981 |
 | china-east-asia | 127 |
 | east-africa | 274 |
 | egypt-nile | 955 |
-| global | 472 |
-| levant-iraq | 3545 |
+| global | 470 |
+| levant-iraq | 3546 |
 | maghreb | 1338 |
 | persia-central-asia | 3027 |
 | south-asia | 1068 |
@@ -110,7 +110,7 @@ Average sources per entity: **1.29** · Women share of persons with a recorded g
 | cuisines | 10 |
 | dawa-and-christian-mission | 7 |
 | desertions-defections-withdrawals | 4 |
-| development-of-law-theology-institutions | 158 |
+| development-of-law-theology-institutions | 157 |
 | diplomacy-and-envoys | 1 |
 | disability | 4 |
 | dissent-heresy-freethought | 22 |
@@ -146,7 +146,7 @@ Average sources per entity: **1.29** · Women share of persons with a recorded g
 | islam-and-secular-thought | 2 |
 | islam-and-the-modern-state | 6 |
 | islam-and-zoroastrianism | 2 |
-| law-and-courts | 117 |
+| law-and-courts | 116 |
 | laws-of-war-and-peace | 51 |
 | libraries-paper-and-the-book | 11 |
 | linguistics | 77 |
