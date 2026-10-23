@@ -1,0 +1,23 @@
+id: event/hungarian-ottoman-war-1366
+class: event
+kind: war
+label: { ar: "الحرب المجرية العثمانية (١٣٦٦–١٣٦٧)", en: "Hungarian–Ottoman War (1366–67)" }
+summary:
+  ar: "بطاقة أولية للحرب المجرية العثمانية من ١٣٦٦ إلى ١٣٦٧م؛ لم تُراجع مصادره على الصفحة بعد."
+  en: "Draft card for the Hungarian–Ottoman War of 1366–67; its sources are not yet checked on the page."
+wings: [time]
+periods: [period/crusades-ayyubid-mamluk]
+regions: [anatolia-balkans]
+date:
+  start: { edtf: "1366", precision: year, status: tradition, derived: true }
+  end: { edtf: "1367", precision: year, status: tradition, derived: true }
+sources: [source/tarikh-islam-hasan-ibrahim]
+external_ids:
+  wikidata: Q1163209
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; battle attested in narrative histories — entry not yet checked on the page"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-wave2
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

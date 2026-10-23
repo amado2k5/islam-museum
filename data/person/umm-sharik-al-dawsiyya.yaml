@@ -1,0 +1,43 @@
+id: person/umm-sharik-al-dawsiyya
+class: person
+label: { en: "Umm Sharik al-Dawsiyya", ar: "أم شريك الدوسية" }
+names:
+  - { kind: full, lang: ar, value: "غزية بنت جابر بن حكيم" }
+  - { kind: kunya, lang: ar, value: "أم شريك" }
+gender: female
+roles: [companion]
+traditions: [sunni]
+summary:
+  ar: "صحابية من بني دوس من الأزد؛ أسلمت وبقيت بدار قومها بذي الخلصة فصبرت على الأذى وكاد كفار قومها أن يفتنوها فثبتت حتى أسلم على يديها بعضهم، ولما توفي زوجها أبو الفكر وهبت نفسها للنبي، ويروى أنها صاحبة قوله تعالى في سورة الأحزاب «وامرأة مؤمنة إن وهبت نفسها للنبي». وهي غير أم شريك القرشية العامرية."
+  en: "A Companion of Banu Daws of al-Azd; she embraced Islam and stayed among her people at Dhu al-Khalasa, enduring their pressure until some of her persecutors themselves converted; after her husband Abu al-Fakr died she offered herself to the Prophet, and she is reported to be the 'believing woman who gives herself to the Prophet' of Surat al-Ahzab. Distinct from Umm Sharik al-Qurashiyya al-Amiriyya."
+wings: [people]
+themes: [women]
+periods: [period/prophetic-era]
+regions: [arabia]
+story_roles:
+  - { role: companion, status: tradition, sources: [source/nisa-hawl-alrasul] }
+faith:
+  - { value: sunni, basis: tradition, note: "صحابية مسلمة؛ تُسجَّل ضمن الإطار السني للمتحف (docs/scope.md)." }
+relations:
+  - { type: member_of, target: group/al-azd, note: "من بني دوس من الأزد (نساء حول الرسول ص313)." }
+  - { type: spouse_of, target: person/abu-al-fakr, note: "زوجها أبو الفكر من بني دوس، هاجر إلى المدينة ثم توفي عنها (نساء حول الرسول ص314-319).", sources: [source/nisa-hawl-alrasul] }
+  - { type: participated_in, target: event/hijra, role: "هاجرت إلى المدينة بعد ثباتها على الأذى بذي الخلصة (نساء حول الرسول ص314-319)", sources: [source/nisa-hawl-alrasul] }
+issue:
+  ar: هل أم شريك الدوسية هي المقصودة بآية «وامرأة مؤمنة إن وهبت نفسها للنبي»؟
+  en: Is Umm Sharik al-Dawsiyya the woman meant by the verse of al-Ahzab?
+perspectives:
+  - tradition: sunni
+    id: report-1
+    summary:
+      ar: يُروى أنها صاحبة الآية.
+      en: Reported to be the woman of the verse.
+    stance:
+      ar: يروى أنها صاحبة الآية، وهو ما يثبته الكتاب نقلاً عن مراجعه.
+      en: She is reported to be the woman of the verse, as the book records from its references.
+    evidence:
+      - ref: source/nisa-hawl-alrasul
+        note: { ar: "ص319" }
+    sources: [source/nisa-hawl-alrasul]
+sources: [source/nisa-hawl-alrasul]
+status: { review: draft, completeness: 1, generated_by: "Devin; Nisa' Hawl al-Rasul pp. 313-320, lib-nisa-hawl-rasul" }
+provenance: { layer: own-research, source: "نساء حول الرسول (المكتبة العصرية 2015) ص313-320؛ ينقل عن الإصابة 8/247 وأسد الغابة 5/460 والاستيعاب 4/496", generated_by: "Devin", model: "SWE-2 High", run: "lib-nisa-hawl-rasul" }

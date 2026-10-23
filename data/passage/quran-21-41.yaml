@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 21:41 (سورة الأنبياء، الآية 41)."
 text: "وَلَقَدِ ٱسْتُهْزِئَ بِرُسُلٍ مِّن قَبْلِكَ فَحَاقَ بِٱلَّذِينَ سَخِرُوا۟ مِنْهُم مَّا كَانُوا۟ بِهِۦ يَسْتَهْزِءُونَ"
 text_search: "ولقد استهزئ برسل من قبلك فحاق بالذين سخروا منهم ما كانوا به يستهزئون"
+translations:
+  en: { text: "Messengers before thee, indeed, were mocked, but that whereat they mocked surrounded those who scoffed at them.", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "اور تم سے پہلے بھی پیغمبروں کے ساتھ استہزاء ہوتا رہا ہے تو جو لوگ ان میں سے تمسخر کیا کرتے تھے ان کو اسی (عذاب) نے جس کی ہنسی اُڑاتے تھے آگھیرا", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-21 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

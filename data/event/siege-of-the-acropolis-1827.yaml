@@ -1,0 +1,23 @@
+id: event/siege-of-the-acropolis-1827
+class: event
+kind: siege
+label: { ar: "حصار الأكروبوليس (١٨٢٦)", en: "Siege of the Acropolis" }
+summary:
+  ar: "بطاقة أولية لحصار الأكروبوليس في ١٨٢٦–١٨٢٧م، أخذ رشيد باشا أثينا في حرب الاستقلال اليونانية؛ لم تُراجع مصادره على الصفحة بعد."
+  en: "Draft card for the Siege of the Acropolis in 1826–27, Reshid Pasha's capture of Athens in the Greek war of independence; its sources are not yet checked on the page."
+wings: [time]
+periods: [period/colonial-era]
+regions: [anatolia-balkans]
+date:
+  start: { edtf: "1826-08-03", precision: year, status: tradition, derived: true }
+  end: { edtf: "1827-05-25", precision: year, status: tradition, derived: true }
+sources: [source/dawlat-uthmaniyya-salabi]
+external_ids:
+  wikidata: Q12883576
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; battle attested in narrative histories — entry not yet checked on the page"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-wave2
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

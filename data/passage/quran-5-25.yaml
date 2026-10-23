@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 5:25 (سورة المائدة، الآية 25)."
 text: "قَالَ رَبِّ إِنِّى لَآ أَمْلِكُ إِلَّا نَفْسِى وَأَخِى ۖ فَٱفْرُقْ بَيْنَنَا وَبَيْنَ ٱلْقَوْمِ ٱلْفَـٰسِقِينَ"
 text_search: "قال رب إني لا أملك إلا نفسي وأخي ۖ فافرق بيننا وبين القوم الفاسقين"
+translations:
+  en: { text: "He said: My Lord! I have control of none but myself and my brother, so distinguish between us and the wrong-doing folk.", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "موسیٰ نے (خدا سے) التجا کی کہ پروردگار میں اپنے اور اپنے بھائی کے سوا اور کسی پر اختیار نہیں رکھتا تو ہم میں اور ان نافرمان لوگوں میں جدائی کردے", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-5 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

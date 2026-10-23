@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 6:16 (سورة الأنعام، الآية 16)."
 text: "مَّن يُصْرَفْ عَنْهُ يَوْمَئِذٍ فَقَدْ رَحِمَهُۥ ۚ وَذَٰلِكَ ٱلْفَوْزُ ٱلْمُبِينُ"
 text_search: "من يصرف عنه يومئذ فقد رحمه ۚ وذلك الفوز المبين"
+translations:
+  en: { text: "He from whom (such retribution) is averted on that day, (Allah) hath in truth had mercy on him. That will be the signal triumph.", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "جس شخص سے اس روز عذاب ٹال دیا گیا اس پر خدا نے (بڑی) مہربانی فرمائی اور یہ کھلی کامیابی ہے", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-6 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

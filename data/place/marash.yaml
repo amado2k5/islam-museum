@@ -1,0 +1,20 @@
+id: place/marash
+class: place
+kind: city
+label: { ar: "مرعش", en: "Mar'ash (Germanikeia)" }
+summary:
+  ar: "مرعش من ثغور الشام الجزرية عند الأعماق؛ فتح خالد بن الوليد حصنها بإرسال أبي عبيدة من منبج على شرط جلاء أهله فأخربه، ثم بناها معاوية مدينةً وأسكنها جنداً، وعمّرها العباس بن الوليد وحصّنها وبنى جامعها وقطع على قنسرين بعثاً سنوياً إليها، وتناوب عليها البناء والخراب بين مروان بن محمد والروم حتى بناها صالح بن علي في خلافة المنصور وزاد المهدي شحنتها؛ وبها وقعت غارة ميخائيل سنة 161 على عمقها وواقعته مبادرة من موالي عيسى بن علي."
+  en: "Mar'ash (Germanikeia) of the Syrian-Jaziran marchland at the A'maq; Khalid ibn al-Walid took its fortress at Abu Ubayda's dispatch from Manbij on its people's evacuation, demolishing it; Mu'awiya built it as a garrisoned city, al-Abbas ibn al-Walid rebuilt and fortified it, raised its congregational mosque and levied a yearly contingent on Qinnasrin for it, and it passed through building and ruin between Marwan ibn Muhammad and the Romans until Salih ibn Ali rebuilt it in al-Mansur's caliphate and al-Mahdi enlarged its garrison; on its depths fell Michael's incursion of year 161, met by the sortie of Isa ibn Ali's mawalis."
+wings: [place]
+periods: [period/rashidun]
+regions: [levant-iraq]
+relations:
+  - { type: site_of, target: event/conquest-of-marash, sources: [source/futuh-buldan-maarif-1407] }
+  - { type: site_of, target: event/michael-incursion-161, sources: [source/futuh-buldan-maarif-1407] }
+provenance:
+  layer: own-research
+  source: "فتوح البلدان (ط مؤسسة المعارف 1407هـ/1987م) ص 265–267"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-futuh-buldan-batch-15
+sources: [source/futuh-buldan-maarif-1407]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

@@ -1,0 +1,23 @@
+id: event/mount-lebanon-revolts-752
+class: event
+kind: revolt
+label: { ar: "ثورات جبل لبنان (٧٥٢–٧٥٩)", en: "Mount Lebanon revolts (752–59)" }
+summary:
+  ar: "بطاقة أولية لثورات جبل لبنان سنتي ٧٥٢ و٧٥٩م، الانتفاضتان على الدولة العباسية؛ لم تُراجع مصادره على الصفحة بعد."
+  en: "Draft card for the Mount Lebanon revolts of 752 and 759, the risings against Abbasid rule; its sources are not yet checked on the page."
+wings: [time]
+periods: [period/abbasid-early]
+regions: [levant-iraq]
+date:
+  start: { edtf: "0752", precision: year, status: tradition, derived: true }
+  end: { edtf: "0759", precision: year, status: tradition, derived: true }
+sources: [source/tarikh-islam-hasan-ibrahim]
+external_ids:
+  wikidata: Q116245470
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; battle attested in narrative histories — entry not yet checked on the page"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-wave2
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

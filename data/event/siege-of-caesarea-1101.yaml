@@ -1,0 +1,23 @@
+id: event/siege-of-caesarea-1101
+class: event
+kind: siege
+label: { ar: "حصار قيسارية (١١٠١)", en: "Siege of Caesarea (1101)" }
+summary:
+  ar: "بطاقة أولية لحصار قيسارية سنة ١١٠١م، أخذ بلدوين الأول والجنوبيون للمدينة؛ لم تُراجع مصادره على الصفحة بعد."
+  en: "Draft card for the Siege of Caesarea in 1101, Baldwin I's capture of the city with Genoese help; its sources are not yet checked on the page."
+wings: [time]
+periods: [period/crusades-ayyubid-mamluk]
+regions: [levant-iraq]
+date:
+  start: { edtf: "1101-04", precision: year, status: tradition, derived: true }
+  end: { edtf: "1101-05", precision: year, status: tradition, derived: true }
+sources: [source/tarikh-islam-hasan-ibrahim]
+external_ids:
+  wikidata: Q137785228
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; battle attested in narrative histories — entry not yet checked on the page"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-wave2
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 14:16 (سورة إبراهيم، الآية 16)."
 text: "مِّن وَرَآئِهِۦ جَهَنَّمُ وَيُسْقَىٰ مِن مَّآءٍ صَدِيدٍ"
 text_search: "من ورائه جهنم ويسقى من ماء صديد"
+translations:
+  en: { text: "Hell is before him, and he is made to drink a festering water,", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "اس کے پیچھے دوزخ ہے اور اسے پیپ کا پانی پلایا جائے گا", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-14 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

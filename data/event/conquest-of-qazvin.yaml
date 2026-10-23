@@ -1,0 +1,20 @@
+id: event/conquest-of-qazvin
+class: event
+kind: conquest
+label: { ar: "فتح قزوين وزنجان", en: "Conquest of Qazvin and Zanjan (22 AH)" }
+date:
+  start: { edtf: "0642", hijri: "0022", calendar: julian, precision: year, status: tradition, derived: true, note: "سنة 22؛ التحويل مشتق {cite:kamil-ibn-al-athir p. 406}." }
+summary:
+  ar: "فتح قزوين: سيّر المغيرة البراء بن عازب في جيش فأتى أبهر فقاتلوه ثم طلبوا الأمان فصالحهم، ثم غزا قزوين فأرسل أهلها إلى الديلم يطلبون النصرة فوعدوهم، وخرج أهل قزوين لقتال المسلمين والديلم وقوف على الجبل لا يمدون يدًا، فلما رأى أهل قزوين ذلك طلبوا الصلح على صلح أبهر. وغزا البراء الديلم حتى أدوا الإتاوة وغزا جيلان والطيلسان وفتح زنجان عنوة. وقال رجل من المسلمين: قد علم الديلم إذ تحارب حين أتى في جيشه ابن عازب أن ظن المشركين كاذب {cite:kamil-ibn-al-athir p. 406}."
+  en: "Al-Bara' ibn 'Azib took Abhar after its garrison sued for peace, then marched on Qazvin, whose people had sent to the Daylam for aid; the Daylam came and stood idle on the mountain — seeing them refuse to strike, Qazvin surrendered on Abhar's terms. Al-Bara' raided Daylam until it paid tribute, entered Gilan and the Tailsan, and took Zanjan by storm {cite:kamil-ibn-al-athir p. 406}."
+relations:
+  - { type: occurred_at, target: place/qazvin, sources: [source/kamil-ibn-al-athir] }
+  - { type: had_participant, target: person/al-bara-ibn-azib, sources: [source/kamil-ibn-al-athir] }
+  - { type: had_participant, target: person/al-mughira-ibn-shuba, sources: [source/kamil-ibn-al-athir] }
+provenance:
+  layer: own-research
+  source: "الكامل في التاريخ لابن الأثير (دار الكتاب العربي 2012، ج2)، قراءة آبل فيجن"
+  generated_by: "Devin (SWE-2 Medium) from Apple Vision OCR"
+  run: lib-kamil-v2-batch03
+sources: [source/kamil-ibn-al-athir]
+status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 Medium)" }

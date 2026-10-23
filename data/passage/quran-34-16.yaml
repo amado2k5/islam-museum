@@ -12,10 +12,13 @@ summary:
   ar: "القرآن 34:16 (سورة سبأ، الآية 16)."
 text: "فَأَعْرَضُوا۟ فَأَرْسَلْنَا عَلَيْهِمْ سَيْلَ ٱلْعَرِمِ وَبَدَّلْنَـٰهُم بِجَنَّتَيْهِمْ جَنَّتَيْنِ ذَوَاتَىْ أُكُلٍ خَمْطٍ وَأَثْلٍ وَشَىْءٍ مِّن سِدْرٍ قَلِيلٍ"
 text_search: "فأعرضوا فأرسلنا عليهم سيل العرم وبدلناهم بجنتيهم جنتين ذواتي أكل خمط وأثل وشيء من سدر قليل"
+translations:
+  en: { text: "But they were froward, so We sent on them the flood of 'Iram, and in exchange for their two gardens gave them two gardens bearing bitter fruit, the tamarisk and here and there a lote-tree.", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "تو انہوں نے (شکرگزاری سے) منہ پھیر لیا پس ہم نے ان پر زور کا سیلاب چھوڑ دیا اور انہیں ان کے باغوں کے بدلے دو ایسے باغ دیئے جن کے میوے بدمزہ تھے اور جن میں کچھ تو جھاؤ تھا اور تھوڑی سی بیریاں", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: revealed_about, target: event/flood-of-al-aram }
   - { type: part_of, target: passage/quran-34 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

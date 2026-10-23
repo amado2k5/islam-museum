@@ -1,0 +1,23 @@
+id: person/abd-al-wahid-al-tamimi
+class: person
+label: { ar: "أبو الفضل عبد الواحد بن عبد العزيز التميمي الحنبلي", en: "Abu al-Fadl Abd al-Wahid ibn Abd al-Aziz al-Tamimi al-Hanbali" }
+summary:
+  ar: "عبد الواحد بن عبد العزيز بن الحارث بن أسد بن الليث بن سليمان بن الأسود بن سفيان أبو الفضل التميمي، رئيس الحنابلة ببغداد ووجههم في زمانه، حدث عن أبي بكر النجاد والبغوي وابن الجعابي، وصنف في أصول الدين وفروعه ومن أشهر مصنفاته اعتقاد الإمام أحمد. كان مقدماً عند الخليفة القادر بالله، وتوفي ببغداد في ذي القعدة سنة عشر وأربعمائة ودُفن إلى جانب قبر الإمام أحمد بن حنبل، وصلى عليه نحو خمسين ألف إنسان {cite:muntazam-ibn-al-jawzi j.7 p.295}."
+  en: "Abd al-Wahid ibn Abd al-Aziz ibn al-Harith ibn Asad ibn al-Layth ibn Sulayman ibn al-Aswad ibn Sufyan, Abu al-Fadl al-Tamimi, head of the Hanbalis of Baghdad and their leading figure in his time. He related hadith from Abu Bakr al-Najjad, al-Baghawi and Ibn al-Ja'abi, and wrote on the principles of religion and its branches; among his best-known works is the Creed of Imam Ahmad. He was held in high regard by the caliph al-Qadir bi-Llah. He died in Baghdad in Dhu al-Qa'da of the year 410 and was buried beside the grave of Imam Ahmad ibn Hanbal; about fifty thousand people prayed over him {cite:muntazam-ibn-al-jawzi j.7 p.295}."
+wings: [people]
+periods: [period/buyid-seljuk-fatimid-era]
+regions: [levant-iraq]
+roles: [scholar, jurist, theologian]
+themes: [creed]
+died:
+  { edtf: "1020-03~", hijri: "0410-11", calendar: julian, precision: month, status: tradition, derived: true, note: "ذو القعدة 410هـ؛ التحويل مشتق {cite:muntazam-ibn-al-jawzi j.7 p.295}" }
+relations:
+  - { type: died_in, target: place/baghdad, sources: [source/muntazam-ibn-al-jawzi] }
+  - { type: buried_in, target: place/baghdad, role: "إلى جانب قبر الإمام أحمد بمقبرة باب حرب", sources: [source/muntazam-ibn-al-jawzi] }
+provenance:
+  layer: own-research
+  source: "المنتظم في تاريخ الملوك والأمم — ابن الجوزي (ج7، وفيات سنة 410)، قراءة آبل فيجن"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-muntazam-batch-22
+sources: [source/muntazam-ibn-al-jawzi]
+status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 High)" }

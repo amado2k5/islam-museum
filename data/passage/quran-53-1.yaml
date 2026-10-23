@@ -12,10 +12,13 @@ summary:
   ar: "القرآن 53:1 (سورة النجم، الآية 1)."
 text: "بِسْمِ ٱللَّهِ ٱلرَّحْمَـٰنِ ٱلرَّحِيمِ وَٱلنَّجْمِ إِذَا هَوَىٰ"
 text_search: "بسم الله الرحمن الرحيم والنجم إذا هوى"
+translations:
+  en: { text: "By the Star when it setteth,", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "تارے کی قسم جب غائب ہونے لگے", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: revealed_about, target: event/isra-and-miraj }
   - { type: part_of, target: passage/quran-53 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

@@ -1,0 +1,29 @@
+id: person/al-khasruwshahi
+class: person
+label: { ar: "شمس الدين الخسروشاهي", en: "Shams al-Din al-Khasruwshahi" }
+names:
+  - { value: "شمس الدين الخسروشاهي أبو محمد عبد الحميد بن عيسى بن عمرية بن يوسف بن خليل بن عبد الله بن يوسف التبريزي الشافعي", kind: full }
+born: { edtf: "1184", hijri: "0580", calendar: julian, precision: year, status: tradition, derived: true, note: "ولد سنة ثمانين وخمسمائة {cite:shadharat-dhahab p. 263}." }
+died: { edtf: "1254-12~", hijri: "0652-10-12~", calendar: julian, precision: day, status: tradition, derived: true, note: "مات في ثاني عشرى شوال سنة اثنتين وخمسين وستمائة بدمشق ودفن بقاسيون {cite:shadharat-dhahab p. 264}." }
+summary:
+  ar: "العلامة المتكلم، نسبة إلى خسروشاه قرية بمرو؛ رحل فأخذ الكلام عن الإمام فخر الدين الرازي وبرع فيه وسمع من المؤيد الطوسي، وتقدم في علم الأصول والعقليات وأقام بالشام بالكرك مدة عند الناصر وتفنن في علوم متعددة منها الفلسفة ودرّس وناظر، واختصر المهذب في الفقه والشفاء لابن سينا وله إشكالات وإيرادات جيدة؛ روى عنه الدمياطي وأخذ عنه الخطيب زين الدين بن المرحل {cite:shadharat-dhahab p. 263-264}."
+  en: "The Shafi'i mutakallim of Khasruwshah near Marw (b. 580, d. 12 Shawwal 652, Qasyun) — took kalam from Fakhr al-Din al-Razi himself, sojourned at Karak under al-Nasir, abridged al-Muhadhdhab in fiqh and Ibn Sina's Shifa' {cite:shadharat-dhahab p. 263-264}."
+gender: male
+roles: [scholar, theologian]
+wings: [people]
+periods: [period/crusades-ayyubid-mamluk]
+regions: [persia-central-asia, levant-iraq]
+faith:
+  - value: sunni-shafii
+    basis: tradition
+relations:
+  - { type: student_of, target: person/fakhr-al-din-al-razi, sources: [source/shadharat-dhahab] }
+  - { type: died_in, target: place/damascus, sources: [source/shadharat-dhahab] }
+  - { type: buried_in, target: place/damascus, sources: [source/shadharat-dhahab] }
+sources: [source/shadharat-dhahab]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }
+provenance:
+  layer: own-research
+  source: "شذرات الذهب — ابن العماد (ج5، سنة 652)، قراءة آبل فيجن"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-shadharat-batch-128

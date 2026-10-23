@@ -1,0 +1,23 @@
+id: person/abdullah-ibn-muflih
+class: person
+label: { ar: "شرف الدين عبد الله ابن مفلح", en: "Sharaf al-Din Abdullah Ibn Muflih" }
+names:
+  - { value: "شرف الدين أبو محمد عبد الله بن القاضي شمس الدين محمد بن مفلح بن محمد بن مفرج الراميني الدمشقي الحنبلي", kind: full }
+gender: male
+summary:
+  ar: "شرف الدين عبد الله بن القاضي شمس الدين محمد بن مفلح الراميني ثم الدمشقي الحنبلي الإمام علامة الزمان شيخ الحنابلة؛ توفي سنة أربع وثلاثين وثمانمائة {cite:shadharat-dhahab p. 208}."
+  en: "Sharaf al-Din Abdullah Ibn Muflih — son of the Hanbali chief qadi Shams al-Din Ibn Muflih; 'the scholar of the age, shaykh of the Hanbalis'; died 834 {cite:shadharat-dhahab p. 208}."
+roles: [jurist, scholar]
+wings: [people]
+periods: [period/mongol-post-mongol]
+regions: [levant-iraq]
+died: { edtf: "1431~", hijri: "0834", calendar: julian, precision: year, status: tradition, derived: true, note: "توفي سنة 834 {cite:shadharat-dhahab p. 208}", sources: [source/shadharat-dhahab] }
+relations:
+  - { type: child_of, target: person/muflih, sources: [source/shadharat-dhahab] }
+provenance:
+  layer: own-research
+  source: "شذرات الذهب — ابن العماد (ط مكتبة المثنى 1351، ج7، سنة 834)، قراءة آبل فيجن"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-shadharat-batch-138
+sources: [source/shadharat-dhahab]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

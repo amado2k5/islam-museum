@@ -1,0 +1,23 @@
+id: event/siege-of-ani-1064
+class: event
+kind: siege
+label: { ar: "حصار آني (١٠٦٤)", en: "Siege of Ani" }
+summary:
+  ar: "بطاقة أولية لحصار آني سنة ١٠٦٤م، فتح ألب أرسلان العاصمة الأرمنية؛ لم تُراجع مصادره على الصفحة بعد."
+  en: "Draft card for the Siege of Ani in 1064, Alp Arslan's capture of the Armenian capital; its sources are not yet checked on the page."
+wings: [time]
+periods: [period/buyid-seljuk-fatimid-era]
+regions: [anatolia-balkans]
+date:
+  start: { edtf: "1064", precision: year, status: tradition, derived: true }
+  end: { edtf: "1064-08-16", precision: year, status: tradition, derived: true }
+sources: [source/tarikh-islam-hasan-ibrahim]
+external_ids:
+  wikidata: Q113380052
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; battle attested in narrative histories — entry not yet checked on the page"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-wave2
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

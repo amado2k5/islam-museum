@@ -4,8 +4,8 @@ kind: death
 label: { en: "The death of Abdullah ibn Ubayy and the Prophet's prayer over him", ar: "وفاة عبد الله بن أبيّ والصلاة عليه" }
 summary:
   en: "Soon after the return from Tabuk in 9 AH, Abdullah ibn Ubayy — chief of the hypocrites — died; the Prophet sought forgiveness for him and prayed over him despite Umar's attempt to dissuade him, and the revelation afterwards sided with Umar's objection, forbidding prayer over such people or standing at their graves."
-  ar: "مات رأس المنافقين عبد الله بن أبيّ بعد مرجع النبي من تبوك سنة 9هـ؛ فاستغفر له النبي وصلى عليه وقد حاول عمر منعه عن الصلاة عليه، ثم نزل القرآن بعد ذلك بموافقة عمر ناهياً عن الصلاة على من كان كذلك وعن القيام على قبره."
-wings: [time, people]
+  ar: "مات رأس المنافقين عبد الله بن أبيّ بعد مرجع النبي من تبوك سنة 9هـ؛ فاستغفر له النبي وصلى عليه وقد حاول عمر منعه عن الصلاة عليه، ثم نزل القرآن بعد ذلك بموافقة عمر ناهياً عن الصلاة على من كان كذلك وعن القيام على قبره. وفي الصحيح أن النبي أمر به بعدما أدخل حفرته فأخرج فوضعه على ركبتيه ونفث عليه من ريقه وألبسه قميصه {cite:sahih-al-bukhari 1350}."
+wings: [time]
 themes: [wars-and-campaigns, factions-splits-schisms]
 periods: [period/prophetic-era]
 regions: [arabia]
@@ -17,5 +17,21 @@ relations:
   - { type: had_participant, target: person/muhammad, role: prayed-over-him, sources: [source/mubarakpuri-raheeq] }
   - { type: had_participant, target: person/umar-ibn-al-khattab, role: objected-then-vindicated-by-revelation, sources: [source/mubarakpuri-raheeq] }
   - { type: part_of, target: period/prophetic-era }
-sources: [source/mubarakpuri-raheeq]
+issue: { ar: "كيف تُقرأ صلاة النبي على عبد الله بن أبي وقول عمر فيها؟", en: "How is the Prophet's prayer over Ibn Ubayy, and Umar's objection, to be read?" }
+perspectives:
+  - tradition: sunni
+    id: sunni-ibn-ishaq
+    stance: { ar: "خبر يرويه عمر نفسه ويُنهي بنزول الآية" }
+    summary: { ar: "يروي ابن إسحاق عن الزهري عن عبيد الله بن عبد الله عن ابن عباس قول عمر: أتصلي على عدو الله القائل كذا يوم كذا؟ والنبي يتبسم، فلما أكثر قال: أخّر عني، إني خيرت فاخترت، ولو أعلم أن الزيادة على السبعين تغفر له لزدت؛ ثم صلى ومشى معه حتى وقف على قبره، ثم نزلت الآيتان فما صلى بعدها على منافق." }
+    sources: [source/ibn-hisham-saqqa, source/sahih-al-bukhari]
+  - tradition: sunni
+    id: sunni-later
+    stance: { ar: "تأويل الاستغفار وتقدير الآية" }
+    summary: { ar: "يذهب شرّاح الحديث المتأخرون إلى أن الاستغفار كان تأليفاً لقومه أو تعلقاً بالوعد الذي خيّره فيه الله، وأن الآية نهت عن الصلاة على المنافقين بعد ذلك؛ المراجع المحددة لم تُضف بعد (needs_source)." }
+    sources: [source/sahih-al-bukhari]
+  - tradition: academic
+    id: academic
+    summary: { ar: "تقرأ الدراسات الحديثة الخبر في سياق توحيد المدينة بعد تبوك، وتلاحظ أن موقف عمر فيه يُستعمل بعد ذلك لتعيين الحد الفاصل بين الجماعة والمنافقين؛ مرجع أكاديمي محدد لم يُضف بعد (needs_source)." }
+    sources: [source/ibn-hisham-saqqa]
+sources: [source/mubarakpuri-raheeq, source/sahih-al-bukhari, source/ibn-hisham-saqqa]
 status: { review: draft, completeness: 1, generated_by: "Devin; al-Raheeq al-Makhtum p. 439" }

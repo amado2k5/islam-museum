@@ -1,0 +1,77 @@
+id: exhibit/path-mehmed-conqueror
+class: exhibit
+kind: trail
+label:
+  ar: محمد الفاتح
+  en: Mehmed the Conqueror
+summary:
+  ar: 'مسار في السلطان الذي أنهى روما: محمد الثاني يفتح القسطنطينية 1453، وإسطنبول تبنى من جديد — فتوح
+    ثلاثين سنة.'
+  en: A trail through the sultan who ended Rome.
+audience:
+- newcomer
+- student
+duration_minutes: 30
+wings: []
+regions:
+- anatolia-balkans
+rooms:
+- title:
+    ar: السلطان
+    en: The sultan
+  body:
+    ar: 'محمد الثاني يتولى 1451: في التاسعة عشرة.'
+    en: 'محمد الثاني يتولى 1451: في التاسعة عشرة.'
+  features:
+  - person/mehmed-ii
+  - place/edirne
+- title:
+    ar: الفتح
+    en: The conquest
+  body:
+    ar: '29 مايو 1453: الأسوار تسقط.'
+    en: '29 مايو 1453: الأسوار تسقط.'
+  features:
+  - place/istanbul
+  - person/mehmed-ii
+- title:
+    ar: إسطنبول
+    en: Istanbul
+  body:
+    ar: 'المدينة تبنى: آيا صوفيا مسجدًا.'
+    en: 'المدينة تبنى: آيا صوفيا مسجدًا.'
+  features:
+  - place/istanbul
+  - place/istanbul
+- title:
+    ar: الفتوح
+    en: The campaigns
+  body:
+    ar: 'صربيا والبوسنة والقرم: ثلاثون سنة.'
+    en: 'صربيا والبوسنة والقرم: ثلاثون سنة.'
+  features:
+  - person/mehmed-ii
+  - polity/ottoman-empire
+- title:
+    ar: القانون
+    en: The kanun
+  body:
+    ar: 'قانون نامه: دستور الدولة العثمانية.'
+    en: 'قانون نامه: دستور الدولة العثمانية.'
+  features:
+  - person/mehmed-ii
+  - person/mehmed-ii
+prerequisites:
+- exhibit/path-islam-in-30-minutes
+sources:
+- source/wikidata
+provenance:
+  layer: own-research
+  source: Devin-assembled trail from existing museum entities
+  generated_by: Devin (SWE-2 High)
+  model: SWE-2 High
+  run: pathways-batch-7
+status:
+  review: draft
+  completeness: 1
+  generated_by: Devin (SWE-2 High), pathways lane, 2026-10-16

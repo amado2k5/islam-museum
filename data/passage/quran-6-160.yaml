@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 6:160 (سورة الأنعام، الآية 160)."
 text: "مَن جَآءَ بِٱلْحَسَنَةِ فَلَهُۥ عَشْرُ أَمْثَالِهَا ۖ وَمَن جَآءَ بِٱلسَّيِّئَةِ فَلَا يُجْزَىٰٓ إِلَّا مِثْلَهَا وَهُمْ لَا يُظْلَمُونَ"
 text_search: "من جاء بالحسنة فله عشر أمثالها ۖ ومن جاء بالسيئة فلا يجزى إلا مثلها وهم لا يظلمون"
+translations:
+  en: { text: "Whoso bringeth a good deed will receive tenfold the like thereof, while whoso bringeth an ill-deed will be awarded but the like thereof; and they will not be wronged.", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "اور جو کوئی (خدا کے حضور) نیکی لے کر آئے گا اس کو ویسی دس نیکیاں ملیں گی اور جو برائی لائے گا اسے سزا ویسے ہی ملے گی اور ان پر ظلم نہیں کیا جائے گا", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-6 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

@@ -1,0 +1,23 @@
+id: event/balkan-campaign-1529
+class: event
+kind: war
+label: { ar: "حملة البلقان (١٥٢٩)", en: "Balkan Campaign of 1529" }
+summary:
+  ar: "بطاقة أولية لحملة سليمان القانوني سنة ١٥٢٩م، الجيش الكبير الذي وصل إلى فيينا أول مرة؛ لم تُراجع مصادره على الصفحة بعد."
+  en: "Draft card for Suleiman's Balkan campaign of 1529, the great advance that first reached Vienna; its sources are not yet checked on the page."
+wings: [time]
+periods: [period/gunpowder-empires]
+regions: [anatolia-balkans]
+date:
+  start: { edtf: "1529", precision: year, status: tradition, derived: true }
+  end: { edtf: "1529", precision: year, status: tradition, derived: true }
+sources: [source/dawlat-uthmaniyya-salabi]
+external_ids:
+  wikidata: Q4207617
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; campaign attested in Ottoman histories — entry not yet checked on the page"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-wave2
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

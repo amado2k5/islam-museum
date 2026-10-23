@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 63:10 (سورة المنافقون، الآية 10)."
 text: "وَأَنفِقُوا۟ مِن مَّا رَزَقْنَـٰكُم مِّن قَبْلِ أَن يَأْتِىَ أَحَدَكُمُ ٱلْمَوْتُ فَيَقُولَ رَبِّ لَوْلَآ أَخَّرْتَنِىٓ إِلَىٰٓ أَجَلٍ قَرِيبٍ فَأَصَّدَّقَ وَأَكُن مِّنَ ٱلصَّـٰلِحِينَ"
 text_search: "وأنفقوا من ما رزقناكم من قبل أن يأتي أحدكم الموت فيقول رب لولا أخرتني إلى أجل قريب فأصدق وأكن من الصالحين"
+translations:
+  en: { text: "And spend of that wherewith We have provided you before death cometh unto one of you and he saith: My Lord! If only thou wouldst reprieve me for a little while, then I would give alms and be among the righteous.", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "اور جو (مال) ہم نے تم کو دیا ہے اس میں سے اس (وقت) سے پیشتر خرچ کرلو کہ تم میں سے کسی کی موت آجائے تو (اس وقت) کہنے لگے کہ اے میرے پروردگار تو نے مجھے تھوڑی سی اور مہلت کیوں نہ دی تاکہ میں خیرات کرلیتا اور نیک لوگوں میں داخل ہوجاتا", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-63 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

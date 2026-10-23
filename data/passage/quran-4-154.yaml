@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 4:154 (سورة النساء، الآية 154)."
 text: "وَرَفَعْنَا فَوْقَهُمُ ٱلطُّورَ بِمِيثَـٰقِهِمْ وَقُلْنَا لَهُمُ ٱدْخُلُوا۟ ٱلْبَابَ سُجَّدًا وَقُلْنَا لَهُمْ لَا تَعْدُوا۟ فِى ٱلسَّبْتِ وَأَخَذْنَا مِنْهُم مِّيثَـٰقًا غَلِيظًا"
 text_search: "ورفعنا فوقهم الطور بميثاقهم وقلنا لهم ادخلوا الباب سجدا وقلنا لهم لا تعدوا في السبت وأخذنا منهم ميثاقا غليظا"
+translations:
+  en: { text: "And We caused the Mount to tower above them at (the taking of) their covenant: and We bade them: Enter the gate, prostrate! and We bode them: Transgress not the Sabbath! and We took from them a firm covenant.", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "اور ان سے عہد لینے کو ہم نے ان پر کوہ طور اٹھا کھڑا کیا اور انہیں حکم دیا کہ (شہر کے) دروازے میں (داخل ہونا تو) سجدہ کرتے ہوئے داخل ہونا اور یہ بھی حکم دیا کہ ہفتے کے دن (مچھلیاں پکڑنے) میں تجاویز (یعنی حکم کے خلاف) نہ کرنا۔ غرض ہم نے ان سے مضبوط عہد لیا", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-4 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

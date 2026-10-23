@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 29:5 (سورة العنكبوت، الآية 5)."
 text: "مَن كَانَ يَرْجُوا۟ لِقَآءَ ٱللَّهِ فَإِنَّ أَجَلَ ٱللَّهِ لَـَٔاتٍ ۚ وَهُوَ ٱلسَّمِيعُ ٱلْعَلِيمُ"
 text_search: "من كان يرجو لقاء الله فإن أجل الله لآت ۚ وهو السميع العليم"
+translations:
+  en: { text: "Whoso looketh forward to the meeting with Allah (let him know that) Allah's reckoning is surely nigh, and He is the Hearer, the Knower.", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "جو شخص خدا کی ملاقات کی اُمید رکھتا ہو خدا کا (مقرر کیا ہوا) وقت ضرور آنے والا ہے۔ اور وہ سننے والا اور جاننے والا ہے", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-29 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

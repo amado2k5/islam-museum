@@ -1,0 +1,26 @@
+id: event/khirrit-ibn-rashid-revolt
+class: event
+kind: revolt
+label: { ar: "خروج الخرّيت بن راشد وبني ناجية على علي", en: "al-Khirrīt ibn Rāshid and Banū Nājiya's break with ʿAli (38 AH)" }
+date:
+  start: { edtf: "0658", hijri: "0038", calendar: julian, precision: year, status: tradition, derived: true, note: "سنة 38؛ التحويل مشتق {cite:kamil-ibn-al-athir p. 714-715}." }
+summary:
+  ar: "أظهر الخرّيت بن راشد الناجي الخلاف على علي بعد تحكيم الحكمين، وكان معه ثلاثمائة من بني ناجية شهدوا الجمل وصفين، فحضر عليه في ثلاثين راكبًا فقال: يا علي والله لا أطيع أمرك ولا أصلي خلفك وإني غدًا مفارق لك، فعرض عليه علي مناظرة الكتاب والسنن فأبى وقال لأنك حكّمت وضعفت عن الحق وركنت إلى الظالمين، فخرج من ليلته بأصحابه، فقال علي بعدًا لهم كما بعدت ثمود، فقتلوا رجلًا من الدهاقين أسلم، وأمر علي زيادًا باتباعهم {cite:kamil-ibn-al-athir p. 714-715}."
+  en: "al-Khirrīt ibn Rāshid al-Nājī — with three hundred of Banū Nājiya who had fought beside ʿAli at the Camel and Ṣiffīn — declared: «by God I will not obey your command nor pray behind you, and tomorrow I leave you«. ʿAli offered to debate him through Book and Sunna; the Khirrit answered «you set men to arbitrate and grew weak from the truth, siding with the wrongdoers», and rode out that night. ʿAli said «away with them as Thamūd was cast away«, and they killed a Muslim dihqān before Ziyād was ordered in pursuit {cite:kamil-ibn-al-athir p. 714-715}."
+sides:
+- label: { ar: "علي وأصحابه", en: "ʿAli's party" }
+  commanders: [person/ali-ibn-abi-talib, person/ziyad-ibn-abi-sufyan]
+- label: { ar: "بنو ناجية", en: "Banū Nājiya" }
+  commanders: [person/al-khirrit-ibn-rashid]
+relations:
+  - { type: occurred_at, target: place/kufa, sources: [source/kamil-ibn-al-athir] }
+  - { type: had_participant, target: person/al-khirrit-ibn-rashid, role: "قاد الخروج", sources: [source/kamil-ibn-al-athir] }
+  - { type: had_participant, target: person/ali-ibn-abi-talib, sources: [source/kamil-ibn-al-athir] }
+  - { type: had_participant, target: person/ziyad-ibn-abi-sufyan, role: "أُمر باتباعهم", sources: [source/kamil-ibn-al-athir] }
+provenance:
+  layer: own-research
+  source: "الكامل في التاريخ لابن الأثير (دار الكتاب العربي 2012، ج2)، قراءة آبل فيجن"
+  generated_by: "Devin (SWE-2 Medium) from Apple Vision OCR"
+  run: lib-kamil-v2-batch05
+sources: [source/kamil-ibn-al-athir]
+status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 Medium)" }

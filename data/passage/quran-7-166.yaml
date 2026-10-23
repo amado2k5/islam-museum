@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 7:166 (سورة الأعراف، الآية 166)."
 text: "فَلَمَّا عَتَوْا۟ عَن مَّا نُهُوا۟ عَنْهُ قُلْنَا لَهُمْ كُونُوا۟ قِرَدَةً خَـٰسِـِٔينَ"
 text_search: "فلما عتوا عن ما نهوا عنه قلنا لهم كونوا قردة خاسئين"
+translations:
+  en: { text: "So when they took pride in that which they had been forbidden, We said unto them: Be ye apes despised and loathed!", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "غرض جن اعمال (بد) سے ان کو منع کیا گیا تھا جب وہ ان (پراصرار اور ہمارے حکم سے) گردن کشی کرنے لگے تو ہم نے ان کو حکم دیا کہ ذلیل بندر ہوجاؤ", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-7 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

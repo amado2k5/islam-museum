@@ -1,0 +1,15 @@
+id: passage/muslim-2677
+class: passage
+unit: hadith
+work: work/sahih-muslim
+ref: "2677"
+label: { ar: "مسلم 2677 — إن لله تسعة وتسعين اسماً", en: "Muslim 2677 — God has ninety-nine names" }
+text: "قال رسول الله: «إن لله تسعة وتسعين اسماً، مائة إلا واحداً، من أحصاها دخل الجنة، وإنه وتر يحب الوتر»"
+summary:
+  ar: "رواية أبي هريرة في باب أسماء الله تعالى وفضل من أحصاها من كتاب الذكر في صحيح مسلم؛ تسعة وتسعون اسماً من أحصاها دخل الجنة، وإنه وتر يحب الوتر."
+relations:
+  - { type: mentions, target: person/muhammad, sources: [source/sahih-muslim] }
+  - { type: mentions, target: person/abu-hurayra, sources: [source/sahih-muslim] }
+provenance: { layer: own-research, source: "صحيح مسلم، كتاب الذكر والدعاء، باب في أسماء الله تعالى وفضل من أحصاها (طبعة دار التأصيل، الحديث 6986؛ ترقيم عبد الباقي المعروف 2677)، تصوير Apple Vision OCR", generated_by: "Devin (SWE-2 High) from Apple Vision OCR", run: "hadith-muslim-passages-2" }
+sources: [source/sahih-muslim]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High); matn excerpt at most 40 words checked against the scan" }

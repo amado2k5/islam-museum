@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 15:74 (سورة الحجر، الآية 74)."
 text: "فَجَعَلْنَا عَـٰلِيَهَا سَافِلَهَا وَأَمْطَرْنَا عَلَيْهِمْ حِجَارَةً مِّن سِجِّيلٍ"
 text_search: "فجعلنا عاليها سافلها وأمطرنا عليهم حجارة من سجيل"
+translations:
+  en: { text: "And We utterly confounded them, and We rained upon them stones of heated clay.", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "اور ہم نے اس شہر کو (الٹ کر) نیچے اوپر کردیا۔ اور ان پر کھنگر کی پتھریاں برسائیں", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-15 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

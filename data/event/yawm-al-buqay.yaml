@@ -1,0 +1,21 @@
+id: event/yawm-al-buqay
+class: event
+kind: battle
+label: { ar: "يوم البقيع — ظفر الواغل على الشاربين", en: "the day of al-Buqayʿ — the surprise strike while they drank" }
+date:
+  start: { edtf: "0610~", calendar: julian, precision: century, status: tradition, derived: true, note: "جاهلي؛ التاريخ تقريبي عند أهل الأيام {cite:kamil-ibn-al-athir p. 505}." }
+summary:
+  ar: "التقت الأوس والخزرج ببقيع الغرقد فاقتتلوا قتالًا شديدًا فكان الظفر يومئذ للواغل الذي يدخل على القوم وهم يشربون {cite:kamil-ibn-al-athir p. 505}."
+  en: "At Baqīʿ al-Gharqad the Aws and Khazraj fought hard, and the day went to «the intruder» — the side that fell on the other while they were drinking {cite:kamil-ibn-al-athir p. 505}."
+sides:
+- label: { ar: "الأوس", en: "Aws" }
+- label: { ar: "الخزرج", en: "Khazraj" }
+relations:
+  - { type: occurred_at, target: place/medina, sources: [source/kamil-ibn-al-athir] }
+provenance:
+  layer: own-research
+  source: "الكامل في التاريخ لابن الأثير (مكتبة التوفيقية، ج1)، قراءة آبل فيجن"
+  generated_by: "Devin (SWE-2 Medium) from Apple Vision OCR"
+  run: lib-kamil-v1-batch03
+sources: [source/kamil-ibn-al-athir]
+status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 Medium)" }

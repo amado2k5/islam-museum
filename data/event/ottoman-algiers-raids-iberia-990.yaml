@@ -1,0 +1,25 @@
+id: event/ottoman-algiers-raids-iberia-990
+class: event
+kind: battle
+label:
+  ar: "غارات أسطول الجزائر على إسبانيا والكناري (٩٩٠هـ/١٥٨٢م)"
+  en: "Algiers fleet raids on Spain and the Canaries (990/1582)"
+summary:
+  ar: "جهّز الوالي العثماني في الجزائر أسطوله سنة ٩٩٠هـ/١٥٨٢م لمحاربة إسبانيا فوق أرضها، فنزل المجاهدون في برشلونة فأعملوا فيها تدميراً، ثم عبروا مضيق جبل طارق وهاجموا جزر الكناري فدمروا المراكز العسكرية وغنموا ما فيها — ولم يكن الأسطول يقصد مجرد التنكيل بالأسبانيين في تغطية الصلابي {cite:dawlat-uthmaniyya-salabi p. 271-272}."
+  en: "In 990/1582 the Ottoman wali of Algiers readied his fleet to fight Spain on its own soil: the mujahidun landed at Barcelona and dealt destruction, crossed the Strait of Gibraltar and struck the Canary Islands, destroying the military posts and taking their plunder — the fleet's aim, in al-Salabi's telling, went beyond merely punishing the Spaniards {cite:dawlat-uthmaniyya-salabi p. 271-272}."
+wings: [time]
+periods: [period/gunpowder-empires]
+regions: [maghreb, andalus-europe]
+date:
+  start: { edtf: "1582", hijri: "0990", calendar: gregorian, precision: year, status: tradition, derived: true, sources: [source/dawlat-uthmaniyya-salabi] }
+relations:
+  - { type: occurred_at, target: place/barcelona, sources: [source/dawlat-uthmaniyya-salabi] }
+  - { type: had_participant, target: polity/ottoman-empire, sources: [source/dawlat-uthmaniyya-salabi] }
+sources: [source/dawlat-uthmaniyya-salabi]
+provenance:
+  layer: own-research
+  source: "الدولة العثمانية لعلي محمد الصلابي (ط1 1421) ص 271-272"
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: salabi-uthmani-batch15
+status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 Medium)" }

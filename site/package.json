@@ -5,7 +5,7 @@
   "version": "0.1.0",
   "scripts": {
     "dev": "astro dev",
-    "build": "astro build && rm -rf ../dist/chunks ../dist/*.mjs && cp ../dist/sitemap-index.xml ../dist/sitemap.xml && pagefind --site ../dist --glob \"**/*.html\"",
+    "build": "astro build && rm -rf ../dist/chunks ../dist/*.mjs && cp ../dist/sitemap-index.xml ../dist/sitemap.xml && pagefind --site ../dist --glob \"ar/**/*.html\" --output-subdir pagefind-ar && pagefind --site ../dist --glob \"en/**/*.html\" --output-subdir pagefind-en && pagefind --site ../dist --glob \"ur/**/*.html\" --output-subdir pagefind-ur",
     "preview": "astro preview",
     "check": "astro check"
   },
@@ -23,8 +23,13 @@
     "astro": "^5.18.2",
     "marked": "^15.0.12",
     "pagefind": "^1.5.2",
+    "simple-icons": "14.15.0",
     "svelte": "^5.57.2",
     "tailwindcss": "^4.3.3",
+    "three": "0.160.0",
     "yaml": "^2.9.1"
+  },
+  "devDependencies": {
+    "@types/three": "0.160.0"
   }
 }

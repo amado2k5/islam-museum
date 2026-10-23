@@ -1,0 +1,23 @@
+id: event/battle-of-dilman-1915
+class: event
+kind: battle
+label: { ar: "معركة دلمان", en: "Battle of Dilman" }
+summary:
+  ar: "بطاقة أولية لمعركة دلمان سنة ١٩١٥م، صدام الروس والأرمن مع العثمانيين والأكراد في أذربيجان الغربية؛ لم تُراجع مصادره على الصفحة بعد."
+  en: "Draft card for the Battle of Dilman in 1915, the clash of Russians and Armenians with Ottoman and Kurdish forces in West Azerbaijan; its sources are not yet checked on the page."
+wings: [time]
+periods: [period/modern-era]
+regions: [persia-central-asia]
+date:
+  start: { edtf: "1915", precision: year, status: tradition, derived: true }
+  end: { edtf: "1915", precision: year, status: tradition, derived: true }
+sources: [source/dawlat-uthmaniyya-salabi]
+external_ids:
+  wikidata: Q1995601
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; battle attested in Caucasus-front histories — entry not yet checked on the page"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-wave2
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

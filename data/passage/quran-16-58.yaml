@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 16:58 (سورة النحل، الآية 58)."
 text: "وَإِذَا بُشِّرَ أَحَدُهُم بِٱلْأُنثَىٰ ظَلَّ وَجْهُهُۥ مُسْوَدًّا وَهُوَ كَظِيمٌ"
 text_search: "وإذا بشر أحدهم بالأنثى ظل وجهه مسودا وهو كظيم"
+translations:
+  en: { text: "When if one of them receiveth tidings of the birth of a female, his face remaineth darkened, and he is wroth inwardly.", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "حالانکہ جب ان میں سے کسی کو بیٹی (کے پیدا ہونے) کی خبر ملتی ہے تو اس کا منہ (غم کے سبب) کالا پڑ جاتا ہے اور (اس کے دل کو دیکھو تو) وہ اندوہناک ہوجاتا ہے", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-16 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

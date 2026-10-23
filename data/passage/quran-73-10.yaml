@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 73:10 (سورة المزمل، الآية 10)."
 text: "وَٱصْبِرْ عَلَىٰ مَا يَقُولُونَ وَٱهْجُرْهُمْ هَجْرًا جَمِيلًا"
 text_search: "واصبر على ما يقولون واهجرهم هجرا جميلا"
+translations:
+  en: { text: "And bear with patience what they utter, and part from them with a fair leave-taking.", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "اور جو جو (دل آزار) باتیں یہ لوگ کہتے ہیں ان کو سہتے رہو اور اچھے طریق سے ان سے کنارہ کش رہو", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-73 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

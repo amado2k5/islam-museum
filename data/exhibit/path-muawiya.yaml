@@ -1,0 +1,77 @@
+id: exhibit/path-muawiya
+class: exhibit
+kind: trail
+label:
+  ar: معاوية ودولته
+  en: Mu'awiya and His State
+summary:
+  ar: 'مسار في كاتب الوحي الذي صار ملكًا: معاوية يؤسس الأموية في دمشق، وعام الجماعة ينهي الفتنة — سياسة
+    ودولة.'
+  en: A trail through the first king.
+audience:
+- newcomer
+- student
+duration_minutes: 30
+wings: []
+regions:
+- levant-iraq
+rooms:
+- title:
+    ar: الصحابي
+    en: The companion
+  body:
+    ar: كاتب الوحي ووالي الشام عشرين سنة.
+    en: كاتب الوحي ووالي الشام عشرين سنة.
+  features:
+  - person/muawiya-ibn-abi-sufyan
+  - place/damascus
+- title:
+    ar: الفتنة
+    en: The fitna
+  body:
+    ar: 'صفين والتحكيم: معاوية وعلي.'
+    en: 'صفين والتحكيم: معاوية وعلي.'
+  features:
+  - event/battle-of-siffin
+  - event/battle-of-siffin
+- title:
+    ar: عام الجماعة
+    en: The year of unity
+  body:
+    ar: '661: الحسن يسلم ومعاوية يبايع.'
+    en: '661: الحسن يسلم ومعاوية يبايع.'
+  features:
+  - event/bayat-al-hasan-ibn-ali
+  - person/hasan-ibn-ali
+- title:
+    ar: الدولة
+    en: The state
+  body:
+    ar: 'الملك يتأسس: دمشق عاصمة الأمويين.'
+    en: 'الملك يتأسس: دمشق عاصمة الأمويين.'
+  features:
+  - person/muawiya-ibn-abi-sufyan
+  - place/damascus
+- title:
+    ar: الأثر
+    en: The legacy
+  body:
+    ar: 'من الملك إلى الخلافة: دولة أمية.'
+    en: 'من الملك إلى الخلافة: دولة أمية.'
+  features:
+  - person/muawiya-ibn-abi-sufyan
+  - place/damascus
+prerequisites:
+- exhibit/path-islam-in-30-minutes
+sources:
+- source/wikidata
+provenance:
+  layer: own-research
+  source: Devin-assembled trail from existing museum entities
+  generated_by: Devin (SWE-2 High)
+  model: SWE-2 High
+  run: pathways-batch-7
+status:
+  review: draft
+  completeness: 1
+  generated_by: Devin (SWE-2 High), pathways lane, 2026-10-16

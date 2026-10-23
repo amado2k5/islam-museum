@@ -1,0 +1,23 @@
+id: event/battle-of-sirhind-1710
+class: event
+kind: battle
+label: { ar: "معركة سرهند (١٧١٠)", en: "Battle of Sirhind (1710)" }
+summary:
+  ar: "بطاقة أولية لمعركة سرهند سنة ١٧١٠م، فتح باندا باهادور للمدينة على المغول؛ لم تُراجع مصادره على الصفحة بعد."
+  en: "Draft card for the Battle of Sirhind in 1710, Banda Bahadur's capture of the city from the Mughals; its sources are not yet checked on the page."
+wings: [time]
+periods: [period/gunpowder-empires]
+regions: [south-asia]
+date:
+  start: { edtf: "1710-05", precision: year, status: tradition, derived: true }
+  end: { edtf: "1710-05", precision: year, status: tradition, derived: true }
+sources: [source/tarikh-islam-hasan-ibrahim]
+external_ids:
+  wikidata: Q19661740
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; battle attested in narrative histories — entry not yet checked on the page"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-wave2
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

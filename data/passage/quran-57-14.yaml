@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 57:14 (سورة الحديد، الآية 14)."
 text: "يُنَادُونَهُمْ أَلَمْ نَكُن مَّعَكُمْ ۖ قَالُوا۟ بَلَىٰ وَلَـٰكِنَّكُمْ فَتَنتُمْ أَنفُسَكُمْ وَتَرَبَّصْتُمْ وَٱرْتَبْتُمْ وَغَرَّتْكُمُ ٱلْأَمَانِىُّ حَتَّىٰ جَآءَ أَمْرُ ٱللَّهِ وَغَرَّكُم بِٱللَّهِ ٱلْغَرُورُ"
 text_search: "ينادونهم ألم نكن معكم ۖ قالوا بلى ولكنكم فتنتم أنفسكم وتربصتم وارتبتم وغرتكم الأماني حتى جاء أمر الله وغركم بالله الغرور"
+translations:
+  en: { text: "They will cry unto them (saying): Were we not with you? They will say: Yea, verily; but ye tempted one another, and hesitated, and doubted, and vain desires beguiled you till the ordinance of Allah came to pass; and the deceiver deceived you concerning Allah;", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "تو منافق لوگ مومنوں سے کہیں گے کہ کیا ہم (دنیا میں) تمہارے ساتھ نہ تھے وہ کہیں گے کیوں نہیں تھے۔ لیکن تم نے خود اپنے تئیں بلا میں ڈالا اور (ہمارے حق میں حوادث کے) منتظر رہے اور (اسلام میں) شک کیا اور (لاطائل) آرزوؤں نے تم کو دھوکہ دیا یہاں تک کہ خدا کا حکم آ پہنچا اور خدا کے بارے میں تم کو (شیطان) دغاباز دغا دیتا رہا", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-57 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

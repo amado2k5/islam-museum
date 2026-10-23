@@ -1,0 +1,22 @@
+id: event/alduz-takes-ghazna-603
+class: event
+kind: conquest
+label: { ar: "ملك الدز غزنة", en: "al-Duz takes Ghazna" }
+date:
+  start: { edtf: "1206~", hijri: "0603", calendar: julian, precision: "year", status: tradition, derived: true }
+summary:
+  ar: "ملك تاج الدين الدز غزنة بعد قتل شهاب الدين الغوري، وانتقلت إليه عاصمة الغوريين فيها حتى ردّها عنه الغوريون {cite:kamil-ibn-al-athir p. 308}."
+  en: "Taj al-Din al-Duz took Ghazna after Shihab al-Din's murder — the Ghurid capital passed to him until the Ghurids recovered it {cite:kamil-ibn-al-athir p. 308}."
+sides:
+  - label: { ar: "تاج الدين الدز وأصحابه" }
+  - label: { ar: "حامية غزنة الغورية" }
+relations:
+  - { type: occurred_at, target: place/ghazna, sources: [source/kamil-ibn-al-athir] }
+  - { type: had_participant, target: person/taj-al-din-yildiz, role: "المالك", sources: [source/kamil-ibn-al-athir] }
+provenance:
+  layer: own-research
+  source: "الكامل في التاريخ لابن الأثير، قراءة آبل فيجن"
+  generated_by: "Devin (SWE-2 Medium) from Apple Vision OCR"
+  run: lib-kamil-v12-batch05
+sources: [source/kamil-ibn-al-athir]
+status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 Medium)" }

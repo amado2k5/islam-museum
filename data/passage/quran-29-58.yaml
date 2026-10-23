@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 29:58 (سورة العنكبوت، الآية 58)."
 text: "وَٱلَّذِينَ ءَامَنُوا۟ وَعَمِلُوا۟ ٱلصَّـٰلِحَـٰتِ لَنُبَوِّئَنَّهُم مِّنَ ٱلْجَنَّةِ غُرَفًا تَجْرِى مِن تَحْتِهَا ٱلْأَنْهَـٰرُ خَـٰلِدِينَ فِيهَا ۚ نِعْمَ أَجْرُ ٱلْعَـٰمِلِينَ"
 text_search: "والذين آمنوا وعملوا الصالحات لنبوئنهم من الجنة غرفا تجري من تحتها الأنهار خالدين فيها ۚ نعم أجر العاملين"
+translations:
+  en: { text: "Those who believe and do good works, them verily We shall house in lofty dwellings of the Garden underneath which rivers flow. There they will dwell secure. How sweet the guerdon of the toilers,", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "اور جو لوگ ایمان لائے اور نیک عمل کرتے رہے اُن کو ہم بہشت کے اُونچے اُونچے محلوں میں جگہ دیں گے۔ جن کے نیچے نہریں بہ رہی ہیں۔ ہمیشہ ان میں رہیں گے۔ (نیک) عمل کرنے والوں کا (یہ) خوب بدلہ ہے", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-29 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

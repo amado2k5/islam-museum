@@ -1,0 +1,23 @@
+id: person/ibn-bukayr
+class: person
+label: { ar: "أبو عبد الله الحسين بن أحمد بن بكير الصيرفي" }
+summary:
+  ar: "الحسين بن أحمد بن عبد الله بن عبد الرحمن بن بكير أبو عبد الله الصيرفي، ولد سنة سبع وعشرين وثلاثمائة، وسمع إسماعيل الصفار وأبا عمر وابن السماك والنجاد والخلدي وأبا بكر الشافعي، وروى عنه ابن شاهين والأزهري والتنوخي وكتب عنه الدارقطني. قال الأزهري كنت أحضر عنده وبين يديه أجزاء كبار فيقول أيكما أحب إليك تذكر لي متن ما تريد من هذه الأحاديث حتى أخبرك بإسناده أو تذكر لي إسناده حتى أخبرك بمتنه فكنت أذكر له المتون فيخبرني بالأسانيد من حفظه. وتكلم فيه ابن أبي الفوارس بأنه كان يتساهل في الحديث. توفي في ربيع الآخر سنة ثمان وثمانين {cite:muntazam-ibn-al-jawzi j.7 p.206-207}."
+wings: [people]
+periods: [period/buyid-seljuk-fatimid-era]
+regions: [levant-iraq]
+roles: [scholar]
+themes: [scripture-and-its-sciences]
+born:
+  { edtf: "0939~", hijri: "0327", calendar: julian, precision: year, status: tradition, derived: true, note: "ولد سنة 327؛ التحويل مشتق {cite:muntazam-ibn-al-jawzi j.7 p.206}" }
+died:
+  { edtf: "0998-03~", hijri: "0388-04", calendar: julian, precision: month, status: tradition, derived: true, note: "ربيع الآخر 388؛ التحويل مشتق {cite:muntazam-ibn-al-jawzi j.7 p.207}" }
+relations:
+  - { type: teacher_of, target: person/al-daraqutni, role: "روى عنه الدارقطني وكتب حديثه", sources: [source/muntazam-ibn-al-jawzi] }
+provenance:
+  layer: own-research
+  source: "المنتظم في تاريخ الملوك والأمم — ابن الجوزي (ج7، وفيات سنة 388)، قراءة آبل فيجن"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-muntazam-batch-21
+sources: [source/muntazam-ibn-al-jawzi]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

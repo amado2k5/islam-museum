@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 6:147 (سورة الأنعام، الآية 147)."
 text: "فَإِن كَذَّبُوكَ فَقُل رَّبُّكُمْ ذُو رَحْمَةٍ وَٰسِعَةٍ وَلَا يُرَدُّ بَأْسُهُۥ عَنِ ٱلْقَوْمِ ٱلْمُجْرِمِينَ"
 text_search: "فإن كذبوك فقل ربكم ذو رحمة واسعة ولا يرد بأسه عن القوم المجرمين"
+translations:
+  en: { text: "So if they give the lie to thee (Muhammad), say: Your Lord is a Lord of All-Embracing Mercy, and His wrath will never be withdrawn from guilty folk.", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "اور اگر یوں لوگ تمہاری تکذیب کریں تو کہہ دو تمہارا پروردگار صاحب رحمت وسیع ہے مگر اس کا عذاب گنہ گاروں لوگوں سے نہیں ٹلے گا", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-6 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

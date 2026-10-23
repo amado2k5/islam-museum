@@ -6,11 +6,11 @@
 
 ## 1. Rights and how the book may be used
 
-The book is a copyrighted modern work. The museum uses it the way a scholar does:
+The book is a copyrighted modern work. Since 15 October 2026 (`docs/sources-policy.md`) the museum reads all of it and rewrites what it says in its own words, organised by entity, with the page cited; the points below say how:
 
 - **Facts, chronology, names, places, numbers, structure**: freely, with a citation to the book page **and** to the classical source the book's footnote names (e.g. `{cite:mubarakpuri-raheeq p.60}` plus `{cite:ibn-hisham 1/135}`).
 - **Quotations**: at most 40 words, verbatim, in quotation marks, with page; prefer quoting the classical source the book quotes rather than the author's own prose.
-- **Never**: republishing its text, paraphrasing it chapter by chapter into museum prose, or storing the OCR text in the repository. The OCR stays in the harvest workspace under the `copyrighted-reference` layer (15 §3).
+- **Prose**: everything the book narrates may be rewritten in the museum's own words on the relevant entity pages, with the page cited; what stays out is its text itself (no page-by-page retelling, no sentence-by-sentence rewording) and the OCR, which stays in the harvest workspace under the `copyrighted-reference` layer (15 §3).
 - **Status of claims**: the book narrates the tradition; facts drawn from it are `status: tradition` unless an academic source upgrades them to `historical` or marks them `debated`. Where the author argues a position (dates, routes, numbers), the museum records it as his view with the page.
 - **Scope fit**: the book is squarely within the Sunni frame (`docs/scope.md`). Where it touches contested matters (Banu Qurayza, the succession passages at the death of the Prophet, the role of particular Companions), the perspectives block is still required.
 
@@ -110,7 +110,7 @@ INPUTS
 
 RULES
 1. Arabic first: every label.ar, summary.ar, names[], alt and all prose in content/ar/. Do not write English prose; label.en is optional and may be left out.
-2. The book is a copyrighted modern work: extract facts, chronology, names, numbers, places and the classical citations in its footnotes; quote at most 40 words verbatim per quotation; never paraphrase chapters into museum prose; never store its text in the repo. Every fact cites the book page {cite:mubarakpuri-raheeq p.N} AND the classical source the footnote names, e.g. {cite:ibn-hisham 1/135}. Create data/source/*.yaml for the book (source/mubarakpuri-raheeq) and for each classical work in bib.txt as you first need it.
+2. The book is a copyrighted modern work: read it all and rewrite what it says in the museum's own words on the entity pages (docs/sources-policy.md), with the facts, chronology, names, numbers, places and the classical citations in its footnotes; quote at most 40 words verbatim per quotation; never a page-by-page retelling; never store its text in the repo. Every fact cites the book page {cite:mubarakpuri-raheeq p.N} AND the classical source the footnote names, e.g. {cite:ibn-hisham 1/135}. Create data/source/*.yaml for the book (source/mubarakpuri-raheeq) and for each classical work in bib.txt as you first need it.
 3. Scope: Sunni Islam is the default frame; the book is Sunni. Where a section touches a contested matter (بنو قريظة، وفاة النبي وموقف الصحابة، حديث الإفك، أدوار أشخاص بعينهم) add a perspectives[] block: the Sunni account first, then the academic/historical view, then any other labelled view the topic needs, each cited.
 4. Status of claims from the book: tradition. Mark the author's own reconstructions (dates, routes, numbers) as his view with the page; mark disagreements he reports as debated.
 5. Dates: record the Hijri date exactly as the book gives it (hijri: "0002-09-17"), the Gregorian only if the book gives it or a cited source does, calendar: julian, precision as given, and a note with the source. Never invent a day.

@@ -1,0 +1,26 @@
+id: person/al-kurdari
+class: person
+label: { ar: "شمس الأئمة الكردري", en: "Shams al-A'imma al-Kurdari" }
+names:
+  - { value: "شمس الأئمة محمد بن عبد الغفار بن محمد العلماوي الكردري", kind: full }
+died: { edtf: "1245-06~", hijri: "0643-01-09~", calendar: julian, precision: day, status: debated, derived: true, note: "مات ببخارى يوم الجمعة تاسع المحرم؛ أوردها ابن العماد في سنة 643 وجزم ابن كمال باشا أنه توفي في التي قبلها {cite:shadharat-dhahab p. 224-225}." }
+summary:
+  ar: "شمس الأئمة الحنفي، نسبة إلى كردر ناحية بخوارزم من عمل جرجانية؛ قال ابن كمال باشا كان أستاذ الأئمة على الإطلاق والموفود إليه من الآفاق؛ أخذ عن برهان الدين علي المرغيناني صاحب الهداية ومجد الدين السمرقندي وفخر الدين قاضي خان ونور الدين الصابوني وجماعة؛ برع في معرفة المذهب ورفع علم أصول الفقه بعد اندراسه من زمن القاضي أبي زيد الدبوسي وشمس الأئمة السرخسي، وتفقه عليه كثير من الفقهاء {cite:shadharat-dhahab p. 224-225}."
+  en: "Shams al-A'imma of Kurdar in Khwarazm (d. Friday 9 Muharram, Bukhara) — Ibn Kamal Pasha's 'teacher of the imams absolutely': pupil of al-Marghinani the Hidaya's author and of Qadi Khan; he raised usul al-fiqh back up after its decay since al-Dabusi and al-Sarakhsi {cite:shadharat-dhahab p. 224-225}."
+gender: male
+roles: [scholar, jurist]
+wings: [people]
+periods: [period/crusades-ayyubid-mamluk]
+regions: [persia-central-asia]
+faith:
+  - value: sunni-hanafi
+    basis: tradition
+relations:
+  - { type: died_in, target: place/bukhara, sources: [source/shadharat-dhahab] }
+sources: [source/shadharat-dhahab]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }
+provenance:
+  layer: own-research
+  source: "شذرات الذهب — ابن العماد (ج5، سنة 643)، قراءة آبل فيجن"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-shadharat-batch-127

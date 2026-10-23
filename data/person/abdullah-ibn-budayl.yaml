@@ -1,0 +1,14 @@
+id: person/abdullah-ibn-budayl
+class: person
+label: { ar: "عبد الله بن بديل الخزاعي", en: "Abd Allah ibn Budayl al-Khuza'i" }
+summary:
+  ar: "من قادة ميمنة علي في صفين، ويذكر الصلابي أنه تولى الميمنة في اليوم الثاني من القتال بعد أن أبدله علي من الأشعث بن قيس، وأنه استشهد في الوقعة {cite:sallabi-ali-vol2 p. 106}."
+  en: "A commander of Ali's right wing at Siffin; on the second day Ali put him in place of al-Ash'ath ibn Qays, and he was killed in the fighting, according to al-Sallabi."
+gender: male
+wings: [people]
+periods: [period/rashidun]
+regions: [levant-iraq]
+relations:
+  - { type: participated_in, target: event/battle-of-siffin, role: "قائد الميمنة في اليوم الثاني، استُشهد", sources: [source/sallabi-ali-vol2] }
+sources: [source/sallabi-ali-vol2]
+status: { review: draft, completeness: 1, generated_by: "Claude Haiku 5.5 (Claude Code); from Sallabi vol. 2 pp. 105-106" }

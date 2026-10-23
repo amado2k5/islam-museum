@@ -1,0 +1,23 @@
+id: event/dagestan-campaign-1918
+class: event
+kind: campaign
+label: { ar: "حملة داغستان (١٩١٨)", en: "Dagestan Campaign" }
+summary:
+  ar: "بطاقة أولية لحملة داغستان سنة ١٩١٨م، زحف جيش الإسلام العثماني في القوقاز؛ لم تُراجع مصادره على الصفحة بعد."
+  en: "Draft card for the Dagestan Campaign of 1918, the Ottoman Army of Islam's march in the Caucasus; its sources are not yet checked on the page."
+wings: [time]
+periods: [period/modern-era]
+regions: [persia-central-asia]
+date:
+  start: { edtf: "1918-05", precision: year, status: tradition, derived: true }
+  end: { edtf: "1918-11", precision: year, status: tradition, derived: true }
+sources: [source/dawlat-uthmaniyya-salabi]
+external_ids:
+  wikidata: Q124811443
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; battle attested in narrative histories — entry not yet checked on the page"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-wave2
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

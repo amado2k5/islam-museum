@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 35:27 (سورة فاطر، الآية 27)."
 text: "أَلَمْ تَرَ أَنَّ ٱللَّهَ أَنزَلَ مِنَ ٱلسَّمَآءِ مَآءً فَأَخْرَجْنَا بِهِۦ ثَمَرَٰتٍ مُّخْتَلِفًا أَلْوَٰنُهَا ۚ وَمِنَ ٱلْجِبَالِ جُدَدٌۢ بِيضٌ وَحُمْرٌ مُّخْتَلِفٌ أَلْوَٰنُهَا وَغَرَابِيبُ سُودٌ"
 text_search: "ألم تر أن الله أنزل من السماء ماء فأخرجنا به ثمرات مختلفا ألوانها ۚ ومن الجبال جدد بيض وحمر مختلف ألوانها وغرابيب سود"
+translations:
+  en: { text: "Hast thou not seen that Allah causeth water to fall from the sky, and We produce therewith fruit of divers hues; and among the hills are streaks white and red, of divers hues, and (others) raven-black;", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "کیا تم نے نہیں دیکھا کہ خدا نے آسمان سے مینہ برسایا۔ تو ہم نے اس سے طرح طرح کے رنگوں کے میوے پیدا کئے۔ اور پہاڑوں میں سفید اور سرخ رنگوں کے قطعات ہیں اور (بعض) کالے سیاہ ہیں", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-35 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

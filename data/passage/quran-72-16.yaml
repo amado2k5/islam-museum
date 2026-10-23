@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 72:16 (سورة الجن، الآية 16)."
 text: "وَأَلَّوِ ٱسْتَقَـٰمُوا۟ عَلَى ٱلطَّرِيقَةِ لَأَسْقَيْنَـٰهُم مَّآءً غَدَقًا"
 text_search: "وأن لو استقاموا على الطريقة لأسقيناهم ماء غدقا"
+translations:
+  en: { text: "If they (the idolaters) tread the right path, We shall give them to drink of water in abundance", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "اور (اے پیغمبر) یہ (بھی ان سے کہہ دو) کہ اگر یہ لوگ سیدھے رستے پر رہتے تو ہم ان کے پینے کو بہت سا پانی دیتے", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-72 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

@@ -1,0 +1,76 @@
+id: exhibit/path-creed-heart
+class: exhibit
+kind: trail
+label:
+  ar: العقيدة والقلب
+  en: Creed and the Heart
+summary:
+  ar: 'مسار في الإيمان الباطن: التوحيد قاعدة، والتقوى والصبر درجات، والقدر والآخرة أفق — عقيدة المؤمن.'
+  en: A trail through inner belief.
+audience:
+- newcomer
+- student
+duration_minutes: 30
+wings: []
+regions:
+- global
+rooms:
+- title:
+    ar: التوحيد
+    en: Tawhid
+  body:
+    ar: 'لا إله إلا الله: قاعدة الدين كلها.'
+    en: 'لا إله إلا الله: قاعدة الدين كلها.'
+  features:
+  - concept/tawhid
+  - concept/shahada
+- title:
+    ar: التقوى
+    en: Taqwa
+  body:
+    ar: مراقبة الله في السر والعلن.
+    en: مراقبة الله في السر والعلن.
+  features:
+  - concept/taqwa
+  - concept/ihsan
+- title:
+    ar: الصبر
+    en: Sabr
+  body:
+    ar: 'نصف الإيمان: الصبر عند البلوى.'
+    en: 'نصف الإيمان: الصبر عند البلوى.'
+  features:
+  - concept/sabr
+  - practice/dua
+- title:
+    ar: القدر
+    en: Qadar
+  body:
+    ar: التصديق بالقدر خيره وشره.
+    en: التصديق بالقدر خيره وشره.
+  features:
+  - concept/qadar
+  - passage/arbaun-02
+- title:
+    ar: الآخرة
+    en: The hereafter
+  body:
+    ar: 'اليوم الآخر: موت وبرزخ وقيامة.'
+    en: 'اليوم الآخر: موت وبرزخ وقيامة.'
+  features:
+  - concept/akhira
+  - concept/akhira
+prerequisites:
+- exhibit/path-islam-in-30-minutes
+sources:
+- source/wikidata
+provenance:
+  layer: own-research
+  source: Devin-assembled trail from existing museum entities
+  generated_by: Devin (SWE-2 High)
+  model: SWE-2 High
+  run: pathways-batch-7
+status:
+  review: draft
+  completeness: 1
+  generated_by: Devin (SWE-2 High), pathways lane, 2026-10-16

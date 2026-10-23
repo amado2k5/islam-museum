@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 31:23 (سورة لقمان، الآية 23)."
 text: "وَمَن كَفَرَ فَلَا يَحْزُنكَ كُفْرُهُۥٓ ۚ إِلَيْنَا مَرْجِعُهُمْ فَنُنَبِّئُهُم بِمَا عَمِلُوٓا۟ ۚ إِنَّ ٱللَّهَ عَلِيمٌۢ بِذَاتِ ٱلصُّدُورِ"
 text_search: "ومن كفر فلا يحزنك كفره ۚ إلينا مرجعهم فننبئهم بما عملوا ۚ إن الله عليم بذات الصدور"
+translations:
+  en: { text: "And whosoever disbelieveth, let not his disbelief afflict thee (O Muhammad). Unto Us is their return, and We shall tell them what they did. Lo! Allah is Aware of what is in the breasts (of men).", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "اور جو کفر کرے تو اُس کا کفر تمہیں غمناک نہ کردے ان کو ہماری طرف لوٹ کر آنا ہے پھر جو کام وہ کیا کرتے تھے ہم اُن کو جتا ئیں گے۔ بیشک خدا دلوں کی باتوں سے واقف ہے", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-31 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

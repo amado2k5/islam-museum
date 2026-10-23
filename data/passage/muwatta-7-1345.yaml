@@ -1,0 +1,19 @@
+id: passage/muwatta-7-1345
+class: passage
+unit: hadith
+chain: [person/malik-ibn-anas, person/humayd-al-tawil, person/anas-ibn-malik, person/muhammad]
+work: work/muwatta-malik
+ref: "1345"
+label: { ar: "الموطأ 1345 — أنس بن مالك: لما خرج النبي إلى خيبر أتاها ليلا، فلما أصبح خرجت يهود بمساحيهم، فقال الله أكبر خربت خيبر", en: "Muwatta 1345" }
+text: "صَبَاحُ الْمُنْذَرينَ"
+summary:
+  ar: "يروي مالك عن حميد الطويل عن أنس بن مالك أن رسول الله حين خرج إلى خيبر أتاها ليلا، وكان إذا أتى قوما بليل لم يغر حتى يصبح، فلما أصبح خرجت يهود بمساحيهم ومكاتلهم، فلما رأوه قالوا محمد والله، محمد والخميس. فقال رسول الله الله أكبر، خربت خيبر، إنا إذا نزلنا بساحة قوم فساء صباح المنذرين. {cite:muwatta-maruf-1997 p.601}"
+relations:
+  - { type: part_of, target: passage/muwatta-kitab-07-jihad }
+  - { type: mentions, target: person/anas-ibn-malik, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/humayd-al-tawil, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: place/khaybar, sources: [source/muwatta-maruf-1997] }
+  - { type: basis_for, target: practice/jihad, sources: [source/muwatta-maruf-1997] }
+provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 1, hadith 1345 at PDF p. 601; ما جاء في الخيل والمسابقة بينها، والنفقة في الغزو", generated_by: "Claude Code (claude-haiku-5-5) from Apple Vision OCR of the Noor-Book PDF, checked on the page image where doubtful", run: "muwatta-prose-k7-b21" }
+sources: [source/muwatta-maruf-1997]
+status: { review: draft, completeness: 2, generated_by: "Claude Code (claude-haiku-5-5); own-words account written from PDF p. 601; matn excerpt at most 40 words" }

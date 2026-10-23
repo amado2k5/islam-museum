@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 3:167 (سورة آل عمران، الآية 167)."
 text: "وَلِيَعْلَمَ ٱلَّذِينَ نَافَقُوا۟ ۚ وَقِيلَ لَهُمْ تَعَالَوْا۟ قَـٰتِلُوا۟ فِى سَبِيلِ ٱللَّهِ أَوِ ٱدْفَعُوا۟ ۖ قَالُوا۟ لَوْ نَعْلَمُ قِتَالًا لَّٱتَّبَعْنَـٰكُمْ ۗ هُمْ لِلْكُفْرِ يَوْمَئِذٍ أَقْرَبُ مِنْهُمْ لِلْإِيمَـٰنِ ۚ يَقُولُونَ بِأَفْوَٰهِهِم مَّا لَيْسَ فِى قُلُوبِهِمْ ۗ وَٱللَّهُ أَعْلَمُ بِمَا يَكْتُمُونَ"
 text_search: "وليعلم الذين نافقوا ۚ وقيل لهم تعالوا قاتلوا في سبيل الله أو ادفعوا ۖ قالوا لو نعلم قتالا لاتبعناكم ۗ هم للكفر يومئذ أقرب منهم للإيمان ۚ يقولون بأفواههم ما ليس في قلوبهم ۗ والله أعلم بما يكتمون"
+translations:
+  en: { text: "And that He might know the hypocrites, unto whom it was said: Come, fight in the way of Allah, or defend yourselves. They answered: If we knew aught of fighting we would follow you. On that day they were nearer disbelief than faith. They utter with their mouths a thing which is not in their hearts. Allah is Best Aware of what they hide.", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "اور منافقوں کو بھی معلوم کرلے اور (جب) ان سے کہا گیا کہ آؤ خدا کے رستے میں جنگ کرو یا (کافروں کے) حملوں کو روکو۔ تو کہنے لگے کہ اگر ہم کو لڑائی کی خبر ہوتی تو ہم ضرور تمہارے ساتھ رہتے یہ اس دن ایمان کی نسبت کفر سے زیادہ قریب تھے منہ سے وہ باتیں کہتے ہیں جو ان کے دل میں نہیں ہیں۔ اور جو کچھ یہ چھپاتے ہیں خدا ان سے خوب واقف ہے", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-3 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 21:3 (سورة الأنبياء، الآية 3)."
 text: "لَاهِيَةً قُلُوبُهُمْ ۗ وَأَسَرُّوا۟ ٱلنَّجْوَى ٱلَّذِينَ ظَلَمُوا۟ هَلْ هَـٰذَآ إِلَّا بَشَرٌ مِّثْلُكُمْ ۖ أَفَتَأْتُونَ ٱلسِّحْرَ وَأَنتُمْ تُبْصِرُونَ"
 text_search: "لاهية قلوبهم ۗ وأسروا النجوى الذين ظلموا هل هذا إلا بشر مثلكم ۖ أفتأتون السحر وأنتم تبصرون"
+translations:
+  en: { text: "With hearts preoccupied. And they confer in secret. The wrong-doers say: Is this other than a mortal like you? Will ye then succumb to magic when ye see (it)?", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "ان کے دل غفلت میں پڑے ہوئے ہیں اور ظالم لوگ (آپس میں) چپکے چپکے باتیں کرتے ہیں کہ یہ (شخص کچھ بھی) نہیں مگر تمہارے جیسا آدمی ہے۔ تو تم آنکھوں دیکھتے جادو (کی لپیٹ) میں کیوں آتے ہو", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-21 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

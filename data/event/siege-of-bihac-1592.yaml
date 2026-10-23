@@ -1,0 +1,23 @@
+id: event/siege-of-bihac-1592
+class: event
+kind: siege
+label: { ar: "حصار بيهاتش", en: "Siege of Bihać" }
+summary:
+  ar: "بطاقة أولية لحصار بيهاتش سنة ١٥٩٢م، أخذ العثمانيين لحسن باشا للقلعة الكرواتية؛ لم تُراجع مصادره على الصفحة بعد."
+  en: "Draft card for the Siege of Bihać in 1592, Hasan Pasha's Ottoman capture of the Croatian fortress; its sources are not yet checked on the page."
+wings: [time]
+periods: [period/gunpowder-empires]
+regions: [anatolia-balkans]
+date:
+  start: { edtf: "1592", precision: year, status: tradition, derived: true }
+  end: { edtf: "1592", precision: year, status: tradition, derived: true }
+sources: [source/dawlat-uthmaniyya-salabi]
+external_ids:
+  wikidata: Q20526199
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; battle attested in narrative histories — entry not yet checked on the page"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-wave2
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

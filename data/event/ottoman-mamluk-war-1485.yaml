@@ -1,0 +1,23 @@
+id: event/ottoman-mamluk-war-1485
+class: event
+kind: war
+label: { ar: "الحرب العثمانية المملوكية (١٤٨٥–١٤٩١)", en: "Ottoman–Mamluk War" }
+summary:
+  ar: "بطاقة أولية للحرب العثمانية المملوكية من ١٤٨٥ إلى ١٤٩١م، الصراع الأول بين الدولتين على قيليقية؛ لم تُراجع مصادره على الصفحة بعد."
+  en: "Draft card for the Ottoman–Mamluk War of 1485–1491, the first contest between the two powers over Cilicia; its sources are not yet checked on the page."
+wings: [time]
+periods: [period/crusades-ayyubid-mamluk]
+regions: [anatolia-balkans]
+date:
+  start: { edtf: "1485", precision: year, status: tradition, derived: true }
+  end: { edtf: "1491", precision: year, status: tradition, derived: true }
+sources: [source/dawlat-uthmaniyya-salabi]
+external_ids:
+  wikidata: Q4338036
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; war attested in Ottoman-Mamluk histories — entry not yet checked on the page"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-wave2
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

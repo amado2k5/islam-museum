@@ -1,0 +1,23 @@
+id: event/first-siege-of-arsuf-1099
+class: event
+kind: siege
+label: { ar: "حصار أرسوف الأول (١٠٩٩)", en: "First Siege of Arsuf" }
+summary:
+  ar: "بطاقة أولية لحصار أرسوف الأول سنة ١٠٩٩م، محاولة الحملة الصليبية الأولى الفاشلة لأخذ المدينة؛ لم تُراجع مصادره على الصفحة بعد."
+  en: "Draft card for the First Siege of Arsuf in 1099, the First Crusade's failed attempt on the town; its sources are not yet checked on the page."
+wings: [time]
+periods: [period/crusades-ayyubid-mamluk]
+regions: [levant-iraq]
+date:
+  start: { edtf: "1099", precision: year, status: tradition, derived: true }
+  end: { edtf: "1099", precision: year, status: tradition, derived: true }
+sources: [source/kamil-ibn-al-athir]
+external_ids:
+  wikidata: Q29075428
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; siege attested in Crusade histories — entry not yet checked on the page"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-wave2
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

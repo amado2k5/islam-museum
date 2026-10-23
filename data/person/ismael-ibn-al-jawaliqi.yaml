@@ -1,0 +1,38 @@
+id: person/ismael-ibn-al-jawaliqi
+class: person
+label: { ar: "إسماعيل بن الجواليقي" }
+names:
+  - { value: "إسماعيل بن موهوب بن أحمد بن محمد بن الخضر بن الحسن بن محمد بن الجواليقي الأديب ابن الأديب أبو القاسم بن أبي منصور الحنبلي", kind: full }
+summary:
+  ar: "إسماعيل بن الجواليقي الأديب ابن الأديب أبو القاسم بن أبي منصور الحنبلي؛ ولد في شعبان سنة اثنتي عشرة وخمسمائة وسمع من أبي الحسين وقرأ القرآن والأدب على أبيه وكان عالماً باللغة والعربية والأدب وله سمت حسن وقام مقام أبيه في دار الخلافة؛ قال ابن الجوزي ما رأينا ولداً أشبه أباه مثله حتى في مشيه وأفعاله، وقال ابن النجار كان من أعيان العلماء بالأدب صحيح النقل كثير المحفوظ حجة ثقة نبيلاً مليح الخط؛ توفي يوم الجمعة منتصف شوال سنة خمس وسبعين وخمسمائة ودفن بمقبرة الإمام أحمد {cite:shadharat-dhahab p. 729-730}."
+  en: "Isma'il ibn al-Jawaliqi, the adab-man son of the adab-man Abu al-Mansur, Hanbali; b. Sha'ban 512, read Qur'an and adab on his father and took his place at the court — Ibn al-Jawzi: 'we never saw a son so like his father, even in walk and gestures', Ibn al-Najjar: 'sound in transmission, much memorised, a fine hand'; d. mid-Shawwal 575, buried at Imam Ahmad's cemetery {cite:shadharat-dhahab p. 729-730}."
+gender: male
+wings: [people]
+roles: [scholar, writer]
+periods: [period/crusades-ayyubid-mamluk]
+regions: [levant-iraq]
+born:
+  edtf: "1118-11~"
+  hijri: "0512-08"
+  calendar: julian
+  precision: month
+  status: tradition
+  derived: true
+  note: "ولد في شعبان سنة اثنتي عشرة وخمسمائة {cite:shadharat-dhahab p. 729}؛ التحويل مشتق."
+died:
+  edtf: "1180-04~"
+  hijri: "0575-10"
+  calendar: julian
+  precision: day
+  status: tradition
+  derived: true
+  note: "توفي يوم الجمعة منتصف شوال سنة خمس وسبعين ودفن بمقبرة الإمام أحمد {cite:shadharat-dhahab p. 730}؛ التحويل مشتق."
+relations:
+  - { type: child_of, target: person/al-jawaliqi-abu-mansur-mawhub-ibn-ahmad, sources: [source/shadharat-dhahab] }
+provenance:
+  layer: own-research
+  source: "شذرات الذهب لابن العماد — الجزء الرابع، ممسوح مكتبة الحصاد (AAlexandrina-223861)، قراءة آبل فيجن"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-shadharat-batch-119
+sources: [source/shadharat-dhahab]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

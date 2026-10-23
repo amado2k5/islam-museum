@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 26:96 (سورة الشعراء، الآية 96)."
 text: "قَالُوا۟ وَهُمْ فِيهَا يَخْتَصِمُونَ"
 text_search: "قالوا وهم فيها يختصمون"
+translations:
+  en: { text: "And they will say, when they are quarrelling therein:", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "وہ آپس میں جھگڑیں گے اور کہیں گے", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-26 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

@@ -15,6 +15,8 @@ export interface Issue { level: "error" | "warn"; file: string; msg: string }
 
 const CONFLICT_KINDS = new Set(["war", "campaign", "battle", "skirmish", "raid", "siege", "naval-battle", "revolt", "civil-war", "mutiny", "massacre", "conquest"]);
 const SPATIAL_KINDS = new Set(["battle", "siege", "naval-battle", "campaign", "war", "conquest", "treaty", "migration", "revolt", "massacre", "council", "founding", "raid", "skirmish"]);
+// provenance layers of docs/plan/15 §3; they record origin and no longer gate entry (docs/sources-policy.md)
+const KNOWN_LAYERS = new Set(["cc0", "by", "by-sa", "odbl", "nc", "pd", "copyrighted-reference", "link-only", "own-research", "unverified"]);
 const SLUG = /^[a-z0-9]+(-[a-z0-9]+)*$/;
 const REF = /^[a-z]+\/[a-z0-9]+(-[a-z0-9]+)*$/;
 
@@ -58,6 +60,12 @@ function* textFields(o: any, path = ""): Generator<[string, string]> {
   if (typeof o === "string") yield [path, o];
   else if (Array.isArray(o)) for (let i = 0; i < o.length; i++) yield* textFields(o[i], `${path}[${i}]`);
   else if (o && typeof o === "object") for (const [k, v] of Object.entries(o)) if (!["provenance", "id", "text", "text_search"].includes(k)) yield* textFields(v, path ? `${path}.${k}` : k);
+}
+
+/** The Qur'an text is frozen (docs/plan/15 §6.3): a passage must equal the committed Tanzil text, character for character. */
+export function frozenQuranTextProblem(ref: string, text: string, tanzil: Map<string, string> | undefined): string | null {
+  if (tanzil && tanzil.get(ref) !== text) return `Qur'an text of ${ref} differs from the frozen Tanzil file (the text is never edited; regenerate with scripts/harvest/quran/generate.py)`;
+  return null;
 }
 
 export function validateAll(extra: { entity: any; file: string }[] = []): { issues: Issue[]; entityCount: number; proseCount: number } {
@@ -142,11 +150,17 @@ export function validateAll(extra: { entity: any; file: string }[] = []): { issu
 
     // simple ref fields
     for (const per of entity.periods ?? []) if (!resolves(per)) err(file, `periods: ${per} does not exist`);
+    for (const c of entity.chain ?? []) if (!resolves(c)) err(file, `chain: ${c} does not exist`);
     for (const f of ["hero"]) {
       const v = entity.media?.[f];
       if (v && !known.has(v)) err(file, `media.${f}: ${v} does not exist`);
     }
     for (const t of entity.perspectives ?? []) for (const s of t.sources ?? []) if (!known.has(s)) err(file, `perspective source ${s} does not exist`);
+    // traditions[] counts a person as a member of a tradition (docs/agents/content-standards.md 13b): a recorded faith with no Muslim value contradicts a Sunni tag
+    if (entity.class === "person" && (entity.traditions ?? []).some((t: string) => String(t).startsWith("sunni")) && (entity.faith ?? []).length > 0) {
+      const muslim = (v: string) => /^(sunni|shia|ibadi|sufi|ahmadiyya|quranist)/.test(String(v));
+      if (!(entity.faith as any[]).some((f) => muslim(f.value))) warn(file, "traditions lists a Sunni tradition but the recorded faith has no Muslim value: a person who was not Muslim is not counted among a tradition");
+    }
     // opinions (docs/plan/20-opinions.md): ids unique, holders and evidence resolve, a disagreement states its issue, every opinion cites a source
     if (entity.perspectives?.length) {
       const seenIds = new Set<string>();
@@ -155,6 +169,10 @@ export function validateAll(extra: { entity: any; file: string }[] = []): { issu
         for (const h of t.holders ?? []) if (!resolves(h)) err(file, `perspectives[${i}].holders: ${h} does not exist`);
         for (const e of t.evidence ?? []) if (!resolves(e.ref)) err(file, `perspectives[${i}].evidence: ${e.ref} does not exist`);
         if (!(t.sources ?? []).length) warn(file, `perspectives[${i}] (${t.tradition}) cites no source: every opinion is cited`);
+      });
+      entity.perspectives.forEach((t: any, i: number) => {
+        if (t.standing === "main" && !String(t.tradition).startsWith("sunni")) err(file, `perspectives[${i}]: standing "main" is for Sunni opinions; "${t.tradition}" is a secondary or other opinion (docs/scope.md)`);
+        if (i === 0 && (t.standing === "secondary" || t.standing === "other")) err(file, `perspectives[0] is the lead opinion and cannot be tagged ${t.standing}`);
       });
       if (entity.perspectives.length >= 2 && !entity.issue) warn(file, "two or more opinions but no `issue`: state the question the opinions answer");
     }
@@ -192,10 +210,12 @@ export function validateAll(extra: { entity: any; file: string }[] = []): { issu
     };
     walkRefs(entity, "");
 
-    // ---- licence wall (docs/plan/15 §3): only cc0, by or our own cited research may enter data/
+    // ---- provenance layer (docs/sources-policy.md, founder's rule of 15 Oct 2026): the layer records where a thing came
+    // from and no longer decides whether it may enter data/. Any source may be read and rewritten with a citation; a layer
+    // other than the open ones must therefore cite the source it was rewritten from.
     const layer = entity.provenance?.layer;
-    if (layer && !["cc0", "by", "own-research"].includes(layer)) err(file, `provenance.layer "${layer}" may not enter data/ (only cc0, by or own-research; see docs/plan/15 §3)`);
-    if (layer === "own-research" && own.size === 0) err(file, "provenance.layer own-research requires cited sources");
+    if (layer && !KNOWN_LAYERS.has(layer)) warn(file, `provenance.layer "${layer}" is not a known layer (${[...KNOWN_LAYERS].join(", ")}; see docs/plan/15 §3)`);
+    if (layer && !["cc0", "by"].includes(layer) && own.size === 0) err(file, `provenance.layer ${layer} requires cited sources (docs/sources-policy.md §3)`);
 
     // ---- conflicts must show both sides (docs/plan/13 and 14): warn when a conflict has fewer than two sides
     if (entity.class === "event" && CONFLICT_KINDS.has(entity.kind) && (entity.sides?.length ?? 0) < 2) {
@@ -296,7 +316,8 @@ export function validateAll(extra: { entity: any; file: string }[] = []): { issu
       if (e?.class !== "passage" || e.work !== "work/quran") continue;
       if (e.unit === "sura") { suras++; continue; }
       ayat++;
-      if (mt && mt.get(e.ref) !== e.text) err(file, `Qur'an text of ${e.ref} differs from the frozen Tanzil file (the text is never edited; regenerate with scripts/harvest/quran/generate.py)`);
+      const frozenProblem = frozenQuranTextProblem(e.ref, e.text, mt);
+      if (frozenProblem) err(file, frozenProblem);
       if (ms && ms.get(e.ref) !== e.text_search) err(file, `text_search of ${e.ref} differs from the frozen Tanzil Simple Clean file`);
       if (e.provenance?.layer !== "by") err(file, "Qur'an passages must carry provenance.layer: by (Tanzil attribution)");
     }
@@ -362,6 +383,8 @@ export function validateAll(extra: { entity: any; file: string }[] = []): { issu
   // Near-duplicate titles across entity types: the same label under two ids is usually one thing entered twice (docs: merge, keep the other id as an alias).
   const titleKey = (s: string) => s.normalize("NFKD").replace(/[\u064B-\u065F\u0670\u0640]/g, "").replace(/[أإآٱ]/g, "ا").replace(/ة/g, "ه").replace(/ى/g, "ي")
     .toLowerCase().replace(/['’‘`ʿʾ]/g, "").replace(/[^\p{L}\p{N}]+/gu, " ").trim();
+  const homonymsFile = p("data", "_homonyms.yaml");
+  const homonyms = new Set<string>(existsSync(homonymsFile) ? ((readYaml(homonymsFile) ?? {}).namesakes ?? []).flat() : []);
   const byTitle = new Map<string, { id: string; cls: string; file: string }[]>();
   for (const { entity, file } of loaded) {
     const t = entity.label?.ar ? titleKey(entity.label.ar) : "";
@@ -372,6 +395,9 @@ export function validateAll(extra: { entity: any; file: string }[] = []): { issu
     const classes = new Set(group.map((g) => g.cls));
     // A place and an event can share a name (the pool and the proclamation at it), so this is a review warning, not a failure.
     if (group.length > 1 && classes.size > 1) warn(group[0].file, `title "${t}" is used by ${group.map((g) => g.id).join(", ")}: if it is one thing, merge it (keep one id, list the other under aliases)`);
+    // Two people under one Arabic name are one person entered twice unless data/_homonyms.yaml says they are namesakes.
+    const people = group.filter((g) => g.cls === "person");
+    if (people.length > 1 && !people.every((g) => homonyms.has(g.id))) err(people[1].file, `person "${t}" exists twice: ${people.map((g) => g.id).join(", ")}. Merge them (keep one id, list the other under aliases) or list both ids in data/_homonyms.yaml if they are different people`);
   }
 
   return { issues, entityCount: loaded.length, proseCount: prose.length };

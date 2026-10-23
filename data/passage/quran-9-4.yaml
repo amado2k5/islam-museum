@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 9:4 (سورة التوبة، الآية 4)."
 text: "إِلَّا ٱلَّذِينَ عَـٰهَدتُّم مِّنَ ٱلْمُشْرِكِينَ ثُمَّ لَمْ يَنقُصُوكُمْ شَيْـًٔا وَلَمْ يُظَـٰهِرُوا۟ عَلَيْكُمْ أَحَدًا فَأَتِمُّوٓا۟ إِلَيْهِمْ عَهْدَهُمْ إِلَىٰ مُدَّتِهِمْ ۚ إِنَّ ٱللَّهَ يُحِبُّ ٱلْمُتَّقِينَ"
 text_search: "إلا الذين عاهدتم من المشركين ثم لم ينقصوكم شيئا ولم يظاهروا عليكم أحدا فأتموا إليهم عهدهم إلى مدتهم ۚ إن الله يحب المتقين"
+translations:
+  en: { text: "Excepting those of the idolaters with whom ye (Muslims) have a treaty, and who have since abated nothing of your right nor have supported anyone against you. (As for these), fulfil their treaty to them till their term. Lo! Allah loveth those who keep their duty (unto Him).", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "البتہ جن مشرکوں کے ساتھ تم نے عہد کیا ہو اور انہوں نے تمہارا کسی طرح کا قصور نہ کیا ہو اور نہ تمہارے مقابلے میں کسی کی مدد کی ہو تو جس مدت تک ان کے ساتھ عہد کیا ہو اسے پورا کرو۔ (کہ) خدا پرہیزگاروں کو دوست رکھتا ہے", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-9 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

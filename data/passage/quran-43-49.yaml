@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 43:49 (سورة الزخرف، الآية 49)."
 text: "وَقَالُوا۟ يَـٰٓأَيُّهَ ٱلسَّاحِرُ ٱدْعُ لَنَا رَبَّكَ بِمَا عَهِدَ عِندَكَ إِنَّنَا لَمُهْتَدُونَ"
 text_search: "وقالوا يا أيه الساحر ادع لنا ربك بما عهد عندك إننا لمهتدون"
+translations:
+  en: { text: "And they said: O wizard! Entreat thy Lord for us by the pact that He hath made with thee. Lo! we verily will walk aright.", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "اور کہنے لگے کہ اے جادوگر اس عہد کے مطابق جو تیرے پروردگار نے تجھ سے کر رکھا ہے اس سے دعا کر بےشک ہم ہدایت یاب ہو جائیں گے", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-43 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

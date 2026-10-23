@@ -1,0 +1,22 @@
+id: event/jalal-ani-qars-623
+class: event
+kind: siege
+label: { ar: "حصر جلال الدين مدينتي آني وقرس", en: "Jalal al-Din besieges Ani and Kars" }
+date:
+  start: { edtf: "1226~", hijri: "0623", calendar: julian, precision: year, status: tradition, derived: true }
+summary:
+  ar: "حصر جلال الدين بن خوارزم شاه مدينتي آني وقرس من بلاد الكرج {cite:kamil-ibn-al-athir p. 466}."
+  en: "Jalal al-Din besieged Ani and Kars in the Georgian lands {cite:kamil-ibn-al-athir p. 466}."
+sides:
+  - label: { ar: "المسلمون وخصومهم" }
+  - label: { ar: "الطرف الآخر" }
+relations:
+  - { type: occurred_at, target: place/ani, sources: [source/kamil-ibn-al-athir] }
+  - { type: had_participant, target: person/jalal-al-din-khwarazmshah, role: "الحاصر", sources: [source/kamil-ibn-al-athir] }
+provenance:
+  layer: own-research
+  source: "الكامل في التاريخ لابن الأثير، قراءة آبل فيجن"
+  generated_by: "Devin (SWE-2 Medium) from Apple Vision OCR"
+  run: lib-kamil-v12-batch08
+sources: [source/kamil-ibn-al-athir]
+status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 Medium)" }

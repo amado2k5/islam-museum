@@ -1,0 +1,23 @@
+id: event/conquest-of-persia
+class: event
+kind: campaign
+label: { ar: "الفتح الإسلامي لفارس", en: "Muslim conquest of Persia" }
+summary:
+  ar: "بطاقة أولية للفتح الإسلامي لفارس، سلسلة الوقائع من القادسية إلى نهاوند التي أسقطت الدولة الساسانية بين ٦٣٣ و٦٥١م؛ لم تُراجع مصادره على الصفحة بعد."
+  en: "Draft card for the Muslim conquest of Persia, the sequence of campaigns from al-Qadisiyya to Nahavand that brought down the Sasanian Empire between 633 and 651; its sources are not yet checked on the page."
+wings: [time]
+periods: [period/rashidun]
+regions: [persia-central-asia]
+date:
+  start: { edtf: "633", precision: year, status: tradition, derived: true }
+  end: { edtf: "651", precision: year, status: tradition, derived: true }
+sources: [source/futuh-buldan-maarif-1407]
+external_ids:
+  wikidata: Q887684
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; conquest attested in al-Baladhuri's Futuh al-Buldan — entry not yet checked on the page"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-wave2
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

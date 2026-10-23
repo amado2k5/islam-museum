@@ -1,0 +1,27 @@
+id: building/eski-mosque-edirne
+class: building
+kind: mosque
+label:
+  ar: "الجامع القديم بأدرنة"
+  en: "Eski Mosque, Edirne"
+summary:
+  ar: "بطاقة أولية للجامع القديم بأدرنة، الجامع الذي بُني في عهد محمد الأول وأدرنة دار السلطنة العثمانية؛ تذكره مصادر تاريخ العمارة العثمانية ولم تُراجع الصفحة بعد."
+  en: "Draft card for the Eski (Old) Mosque of Edirne, built under Mehmed I when Edirne was the Ottoman capital; per the cited architecture survey, the page not yet checked."
+wings: [objects]
+themes: [architecture]
+regions: [anatolia-balkans]
+periods: [period/gunpowder-empires]
+relations:
+- { type: located_in, target: place/edirne }
+sources: [source/goodwin-ottoman-architecture-1971]
+external_ids:
+  wikidata: Q3307794
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; book source: Goodwin, A History of Ottoman Architecture (1971) — entry not yet read on the page"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-0012
+status:
+  review: draft
+  completeness: 1

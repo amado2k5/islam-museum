@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 13:39 (سورة الرعد، الآية 39)."
 text: "يَمْحُوا۟ ٱللَّهُ مَا يَشَآءُ وَيُثْبِتُ ۖ وَعِندَهُۥٓ أُمُّ ٱلْكِتَـٰبِ"
 text_search: "يمحو الله ما يشاء ويثبت ۖ وعنده أم الكتاب"
+translations:
+  en: { text: "Allah effaceth what He will, and establisheth (what He will), and with Him is the source of ordinance.", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "خدا جس کو چاہتا ہے مٹا دیتا ہے اور (جس کو چاہتا ہے) قائم رکھتا ہے اور اسی کے پاس اصل کتاب ہے", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-13 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

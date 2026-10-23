@@ -1,0 +1,22 @@
+id: event/baitul-muqeet-mosque
+class: event
+kind: battle
+label: { ar: "مسجد بيت المقيت", en: "Baitul Muqeet Mosque" }
+summary:
+  ar: "بطاقة أولية لمسجد بيت المقيت؛ لم تُراجع مصادره على الصفحة بعد."
+  en: "Draft card for Baitul Muqeet Mosque; its sources are not yet checked on the page."
+wings: [time]
+periods: [period/modern-era]
+regions: [global]
+date:
+  start: { edtf: "", precision: year, status: tradition, derived: true }
+sources: [source/tarikh-islam-hasan-ibrahim]
+external_ids:
+  wikidata: Q138341289
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; battle attested in narrative histories — entry not yet checked on the page"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-wave2
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

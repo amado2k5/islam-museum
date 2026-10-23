@@ -1,0 +1,24 @@
+id: person/ibn-al-latti
+class: person
+label: { ar: "ابن اللتي", en: "Ibn al-Latti" }
+names:
+  - { value: "أبو المنجا عبد الله بن عمر بن علي بن زيد الحريمي القزاز", kind: full }
+born: { edtf: "1149~", hijri: "0545", calendar: julian, precision: year, status: tradition, derived: true, note: "ولد سنة خمس وأربعين وخمسمائة {cite:shadharat-dhahab p. 171}." }
+died: { edtf: "1237", hijri: "0635", calendar: julian, precision: day, status: tradition, derived: true, note: "توفي ببغداد في رابع عشر جمادى الأولى سنة خمس وثلاثين وستمائة {cite:shadharat-dhahab p. 171}." }
+summary:
+  ar: "مسند الوقت، رجل مبارك؛ سمع من أبي الوقت وسعيد بن البنا وطائفة وأجاز له مسعود الثقفي والأصبهانيون، وكان آخر من روى حديث البغوي بعلو؛ نشر حديثه بالشام ورجع منها في آخر سنة أربع وثلاثين فتوفي ببغداد {cite:shadharat-dhahab p. 171}."
+  en: "Ibn al-Latti (545–635) — musnid of his age and the last living man to transmit al-Baghawi's hadith by a high chain; he spread his hearing through Syria and returned to die at Baghdad {cite:shadharat-dhahab p. 171}."
+gender: male
+roles: [scholar]
+wings: [people]
+periods: [period/crusades-ayyubid-mamluk]
+regions: [levant-iraq]
+relations:
+  - { type: died_in, target: place/baghdad, sources: [source/shadharat-dhahab] }
+sources: [source/shadharat-dhahab]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }
+provenance:
+  layer: own-research
+  source: "شذرات الذهب — ابن العماد (ج5، سنة 635)، قراءة آبل فيجن"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-shadharat-batch-125

@@ -4,7 +4,7 @@ An open, free, all-digital museum of Islam: the faith, the civilization, the peo
 
 - **Live:** https://islam.museum (bilingual, English and Arabic)
 - **Plan:** [`docs/plan/`](docs/plan/00-README.md): vision, content model, architecture, experience, editorial policy, roadmap, prompts, prior art, AI content pipeline, image generation, Made directory, Screen index (films and television about Islam in every language), figures on every side of the story, the Themes atlas, and the local harvest that runs on a Mac
-- **Deploy:** GitHub Actions builds `site/` into `dist/` and publishes it to GitHub Pages behind Cloudflare (`.github/workflows/deploy.yml`)
+- **Deploy:** GitHub Actions builds `site/` into `dist/`, uploads the search indexes and API JSON to Cloudflare R2 and publishes the pages to Cloudflare Pages (`.github/workflows/deploy.yml`; `docs/plan/03-architecture.md` §1)
 
 ## How it works
 

@@ -1,0 +1,25 @@
+id: person/nasr-ibn-abd-al-razzaq
+class: person
+label: { ar: "نصر بن عبد الرزاق الجيلي", en: "Nasr ibn Abd al-Razzaq al-Jili" }
+names:
+  - { value: "عماد الدين أبو صالح نصر بن عبد الرزاق بن الشيخ عبد القادر الجيلي الحنبلي", kind: full }
+born: { edtf: "1167~", hijri: "0563~", calendar: julian, precision: year, status: tradition, derived: true, note: "مات عن سبعين سنة في 633 {cite:shadharat-dhahab p. 162}." }
+died: { edtf: "1236", hijri: "0633", calendar: julian, precision: day, status: tradition, derived: true, note: "توفي سحر يوم الأحد سادس عشر شوال سنة ثلاث وثلاثين وستمائة ودفن بتربة الإمام أحمد {cite:shadharat-dhahab p. 162}." }
+summary:
+  ar: "قاضي القضاة عماد الدين أبو صالح الجيلي الحنبلي، ابن عبد الرزاق بن الشيخ عبد القادر الجيلي؛ درس وأفتى وناظر وبرع في المذهب، وولي القضاء سنة ثلاث وعشرين وعزل بعد أشهر؛ ولاه الظاهر بن الناصر قضاء القضاة بجميع مملكته وقبله بشرط أن يورث ذوي الأرحام، فأرسل إليه عشرة آلاف دينار يوفي بها ديون من في سجنه من المدينين ورد إليه النظر في جميع الوقوف؛ وكان متحرياً في القضاء قوي النفس في الحق عديم المحاباة، يصلي جماعة ويخرج إلى الجامع زاجلاً ويلبس القطن؛ ولما عزله المستنصر أنشد «حمدت الله لما قضى لي بالخلاص من القضاء»؛ صنف إرشاد المبتدين في الفقه وأخرج لنفسه أربعين حديثاً؛ توفي ودفن بتربة الإمام أحمد {cite:shadharat-dhahab p. 161-162}."
+  en: "Nasr b. Abd al-Razzaq al-Jili (~563–633) — Abd al-Qadir al-Jilani's grandson and qadi al-qudat of Egypt under al-Zahir and al-Mustansir, accepting office on condition that kin inherit its posts; he used a ten-thousand-dinar caliphal grant to free imprisoned debtors, rode modestly to the mosque, and greeted his dismissal with a verse of thanks; buried at Imam Ahmad's cemetery {cite:shadharat-dhahab p. 161-162}."
+gender: male
+roles: [qadi, scholar]
+wings: [people]
+periods: [period/crusades-ayyubid-mamluk]
+regions: [levant-iraq, egypt-nile]
+relations:
+  - { type: died_in, target: place/baghdad, sources: [source/shadharat-dhahab] }
+  - { type: child_of, target: person/abd-al-razzaq-ibn-abd-al-qadir, sources: [source/shadharat-dhahab] }
+sources: [source/shadharat-dhahab]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }
+provenance:
+  layer: own-research
+  source: "شذرات الذهب — ابن العماد (ج5، سنة 633)، قراءة آبل فيجن"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-shadharat-batch-125

@@ -1,0 +1,15 @@
+id: passage/muslim-1381
+class: passage
+unit: hadith
+work: work/sahih-muslim
+ref: "1381"
+label: { ar: "مسلم 1381 — المدينة خير لهم لو كانوا يعلمون", en: "Muslim 1381 — Medina is better for them if they only knew" }
+text: "سمع سفيان بن أبي الزبير رسول الله يقول: «يفتح اليمن فيأتي قوم يبسون فيتحملون بأهليهم ومن أطاعهم، والمدينة خير لهم لو كانوا يعلمون؛ ثم يفتح الشام... ثم يفتح العراق... والمدينة خير لهم لو كانوا يعلمون»"
+summary:
+  ar: "رواية سفيان بن أبي الزبير الشنائي في كتاب الحج من صحيح مسلم؛ التحذير من ترك المدينة عند فتوح اليمن والشام والعراق — من نصوص فضل المدينة ومنزلة العمران النبوي."
+relations:
+  - { type: mentions, target: person/muhammad, sources: [source/sahih-muslim] }
+  - { type: mentions, target: place/medina, sources: [source/sahih-muslim] }
+provenance: { layer: own-research, source: "صحيح مسلم، كتاب الحج، باب استحباب لزوم المدينة (طبعة دار التأصيل، الحديث 3431؛ ترقيم عبد الباقي المعروف 1381)، تصوير Apple Vision OCR", generated_by: "Devin (SWE-2 High) from Apple Vision OCR", run: "hadith-muslim-passages-2" }
+sources: [source/sahih-muslim]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High); matn excerpt at most 40 words checked against the scan" }

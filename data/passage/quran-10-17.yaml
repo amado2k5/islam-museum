@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 10:17 (سورة يونس، الآية 17)."
 text: "فَمَنْ أَظْلَمُ مِمَّنِ ٱفْتَرَىٰ عَلَى ٱللَّهِ كَذِبًا أَوْ كَذَّبَ بِـَٔايَـٰتِهِۦٓ ۚ إِنَّهُۥ لَا يُفْلِحُ ٱلْمُجْرِمُونَ"
 text_search: "فمن أظلم ممن افترى على الله كذبا أو كذب بآياته ۚ إنه لا يفلح المجرمون"
+translations:
+  en: { text: "Who doeth greater wrong than he who inventeth a lie concerning Allah and denieth His revelations? Lo! the guilty never are successful.", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "تو اس سے بڑھ کر ظالم کون جو خدا پر جھوٹ افترا کرے اور اس کی آیتوں کو جھٹلائے۔ بےشک گنہگار فلاح نہیں پائیں گے", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-10 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

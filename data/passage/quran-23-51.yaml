@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 23:51 (سورة المؤمنون، الآية 51)."
 text: "يَـٰٓأَيُّهَا ٱلرُّسُلُ كُلُوا۟ مِنَ ٱلطَّيِّبَـٰتِ وَٱعْمَلُوا۟ صَـٰلِحًا ۖ إِنِّى بِمَا تَعْمَلُونَ عَلِيمٌ"
 text_search: "يا أيها الرسل كلوا من الطيبات واعملوا صالحا ۖ إني بما تعملون عليم"
+translations:
+  en: { text: "O ye messengers! Eat of the good things, and do right. Lo! I am Aware of what ye do.", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "اے پیغمبرو! پاکیزہ چیزیں کھاؤ اور عمل نیک کرو۔ جو عمل تم کرتے ہو میں ان سے واقف ہوں", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-23 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

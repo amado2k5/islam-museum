@@ -1,0 +1,23 @@
+id: event/battle-of-rovine-1394
+class: event
+kind: battle
+label: { ar: "معركة روفيني (١٣٩٤)", en: "Battle of Rovine (1394)" }
+summary:
+  ar: "بطاقة أولية لمعركة روفيني سنة ١٣٩٤م، انتصار ملجا العجوز على بايزيد الأول؛ لم تُراجع مصادره على الصفحة بعد."
+  en: "Draft card for the Battle of Rovine in 1394, Mircea the Elder's stand against Bayezid I; its sources are not yet checked on the page."
+wings: [time]
+periods: [period/crusades-ayyubid-mamluk]
+regions: [anatolia-balkans]
+date:
+  start: { edtf: "1394-10", precision: year, status: tradition, derived: true }
+  end: { edtf: "1394-10", precision: year, status: tradition, derived: true }
+sources: [source/dawlat-uthmaniyya-salabi]
+external_ids:
+  wikidata: Q4871384
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; battle attested in narrative histories — entry not yet checked on the page"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-wave2
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

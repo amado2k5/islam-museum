@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 7:56 (سورة الأعراف، الآية 56)."
 text: "وَلَا تُفْسِدُوا۟ فِى ٱلْأَرْضِ بَعْدَ إِصْلَـٰحِهَا وَٱدْعُوهُ خَوْفًا وَطَمَعًا ۚ إِنَّ رَحْمَتَ ٱللَّهِ قَرِيبٌ مِّنَ ٱلْمُحْسِنِينَ"
 text_search: "ولا تفسدوا في الأرض بعد إصلاحها وادعوه خوفا وطمعا ۚ إن رحمت الله قريب من المحسنين"
+translations:
+  en: { text: "Work not confusion in the earth after the fair ordering (thereof). and call on Him in fear and hope. Lo! the mercy of Allah is nigh unto the good.", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "اور ملک میں اصلاح کے بعد خرابی نہ کرنا اور خدا سے خوف کرتے ہوئے اور امید رکھ کر دعائیں مانگتے رہنا۔ کچھ شک نہیں کہ خدا کی رحمت نیکی کرنے والوں سے قریب ہے", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-7 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

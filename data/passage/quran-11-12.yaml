@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 11:12 (سورة هود، الآية 12)."
 text: "فَلَعَلَّكَ تَارِكٌۢ بَعْضَ مَا يُوحَىٰٓ إِلَيْكَ وَضَآئِقٌۢ بِهِۦ صَدْرُكَ أَن يَقُولُوا۟ لَوْلَآ أُنزِلَ عَلَيْهِ كَنزٌ أَوْ جَآءَ مَعَهُۥ مَلَكٌ ۚ إِنَّمَآ أَنتَ نَذِيرٌ ۚ وَٱللَّهُ عَلَىٰ كُلِّ شَىْءٍ وَكِيلٌ"
 text_search: "فلعلك تارك بعض ما يوحى إليك وضائق به صدرك أن يقولوا لولا أنزل عليه كنز أو جاء معه ملك ۚ إنما أنت نذير ۚ والله على كل شيء وكيل"
+translations:
+  en: { text: "A likely thing, that thou wouldst forsake aught of that which hath been revealed unto thee, and that thy breast should be straitened for it, because they say: Why hath not a treasure been sent down for him, or an angel come with him? Thou art but a warner, and Allah is in charge of all things.", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "شاید تم کچھ چیز وحی میں سے جو تمہارے پاس آتی ہے چھوڑ دو اور اس (خیال) سے کہ تمہارا دل تنگ ہو کہ (کافر) یہ کہنے لگیں کہ اس پر کوئی خزانہ کیوں نہ نازل ہوا یا اس کے ساتھ کوئی فرشتہ کیوں نہیں آیا۔ اے محمدﷺ! تم تو صرف نصیحت کرنے والے ہو۔ اور خدا ہر چیز کا نگہبان ہے", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-11 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

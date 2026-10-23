@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 58:21 (سورة المجادلة، الآية 21)."
 text: "كَتَبَ ٱللَّهُ لَأَغْلِبَنَّ أَنَا۠ وَرُسُلِىٓ ۚ إِنَّ ٱللَّهَ قَوِىٌّ عَزِيزٌ"
 text_search: "كتب الله لأغلبن أنا ورسلي ۚ إن الله قوي عزيز"
+translations:
+  en: { text: "Allah hath decreed: Lo! I verily shall conquer, I and My messengers. Lo! Allah is Strong, Almighty.", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "خدا کا حکم ناطق ہے کہ میں اور میرے پیغمبر ضرور غالب رہیں گے۔ بےشک خدا زورآور (اور) زبردست ہے", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-58 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

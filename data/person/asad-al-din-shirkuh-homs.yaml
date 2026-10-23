@@ -1,0 +1,28 @@
+id: person/asad-al-din-shirkuh-homs
+class: person
+label: { ar: "أسد الدين شيركوه صاحب حمص", en: "Asad al-Din Shirkuh II of Homs" }
+names:
+  - { value: "الملك المجاهد أسد الدين شيركوه بن محمد بن شيركوه بن شادي", kind: full }
+born: { edtf: "1173", hijri: "0569", calendar: julian, precision: year, status: tradition, derived: true, note: "مولده سنة تسع وستين وخمسمائة قاله ابن خلكان {cite:shadharat-dhahab p. 184}." }
+died: { edtf: "1240", hijri: "0637-07-09", calendar: julian, precision: day, status: tradition, derived: true, note: "توفي يوم الثلاثاء تاسع رجب بحمص سنة سبع وثلاثين وستمائة ودفن بتربة داخل البلد {cite:shadharat-dhahab p. 184}.", sources: [source/shadharat-dhahab] }
+summary:
+  ar: "الملك المجاهد أسد الدين شيركوه بن محمد صاحب حمص، ابن أخي أسد الدين شيركوه صاحب صلاح الدين؛ وكانت له أيضاً الرحبة وتدمر وما كسا من بلاد الخابور، وخلف جماعة من الأولاد فقام مقامه في الملك ولده الملك المنصور ناصر الدين إبراهيم {cite:shadharat-dhahab p. 184}."
+  en: "Asad al-Din Shirkuh II of Homs (b. 569, d. Tuesday 9 Rajab 637) — nephew of Saladin's uncle, holding al-Rahba, Tadmur and the Khabur towns; succeeded by his son al-Malik al-Mansur Ibrahim {cite:shadharat-dhahab p. 184}."
+gender: male
+roles: [emir]
+wings: [people]
+periods: [period/crusades-ayyubid-mamluk]
+regions: [levant-iraq]
+faith:
+  - value: sunni
+    basis: tradition
+relations:
+  - { type: ruler_of, target: place/homs, sources: [source/shadharat-dhahab] }
+  - { type: died_in, target: place/homs, sources: [source/shadharat-dhahab] }
+sources: [source/shadharat-dhahab]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }
+provenance:
+  layer: own-research
+  source: "شذرات الذهب — ابن العماد (ج5، سنة 637)، قراءة آبل فيجن"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-shadharat-batch-126

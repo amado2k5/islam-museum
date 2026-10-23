@@ -1,0 +1,23 @@
+id: event/pontic-uprising-skip
+class: event
+kind: battle
+label: { ar: "الانتفاضة البنطية", en: "Pontic Uprising" }
+summary:
+  ar: "بطاقة أولية لالانتفاضة البنطية؛ لم تُراجع مصادره على الصفحة بعد."
+  en: "Draft card for Pontic Uprising; its sources are not yet checked on the page."
+wings: [time]
+periods: [period/modern-era]
+regions: [anatolia-balkans]
+date:
+  start: { edtf: "1918", precision: year, status: tradition, derived: true }
+  end: { edtf: "1923", precision: year, status: tradition, derived: true }
+sources: [source/tarikh-islam-hasan-ibrahim]
+external_ids:
+  wikidata: Q15501395
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; battle attested in narrative histories — entry not yet checked on the page"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-wave2
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

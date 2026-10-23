@@ -1,0 +1,114 @@
+---
+// Pathway player (docs/plan/19-tour-learn.md): an exhibit's rooms as a guided
+// route. Without JavaScript the full ordered list below is the "see it all"
+// view; the script adds a step-by-step walk (one card at a time, progress bar,
+// resume) with progress kept in localStorage only — no account, no server.
+import { byId, href, labelOf, nodes } from "../lib/graph";
+import { ui, type Lang } from "../lib/i18n";
+import type { Node } from "../../../scripts/build-graph";
+const { node: n, lang } = Astro.props as { node: Node; lang: Lang };
+const T = ui(lang);
+const P = T.pathway;
+const d = n.data;
+const loc = (o: any) => o?.[lang] ?? o?.en ?? o?.ar ?? "";
+const rooms: any[] = d.rooms ?? [];
+const steps = rooms.map((r: any, i: number) => ({
+  i,
+  title: loc(r.title),
+  body: loc(r.body),
+  why: loc(r.why_next),
+  optional: !!r.optional,
+  depth: r.depth,
+  features: (r.features ?? []).map((id: string) => byId.get(id)).filter(Boolean).map((f: Node) => ({ href: href(lang, f.id), label: labelOf(f, lang) })),
+}));
+// onward paths: declared `next` plus every exhibit that lists this one as a prerequisite
+const onward = [...new Set([
+  ...(d.next ?? []),
+  ...nodes.filter((m: Node) => m.class === "exhibit" && (m.data.prerequisites ?? []).includes(n.id)).map((m: Node) => m.id),
+])].map((id: string) => byId.get(id)).filter(Boolean) as Node[];
+const prereqs = (d.prerequisites ?? []).map((id: string) => byId.get(id)).filter(Boolean) as Node[];
+const outcomes: any[] = d.outcomes ?? [];
+const N = steps.length;
+---
+{N > 0 && (
+<section class="pw" data-pathway={n.id} aria-labelledby="pw-h">
+  <h2 id="pw-h" class="ui" style="font-size:1.1rem;margin:0 0 6px">{P.title}</h2>
+  <p class="ui muted" style="margin:0 0 10px;font-size:.9rem">
+    {N} {P.steps} · {d.duration_minutes} {P.minutes}
+    {(d.audience ?? []).length > 0 && <> · {(d.audience as string[]).map((a: string) => P[`aud_${a}`] ?? a).join(" · ")}</>}
+    {d.level && <> · {P[`level_${d.level}`] ?? d.level}</>}
+  </p>
+
+  <div class="pw-bar no-print">
+    <button type="button" class="pw-btn" data-walk>{P.walk}</button>
+    <button type="button" class="pw-btn" data-all hidden>{P.see_all}</button>
+    <button type="button" class="pw-btn" data-resume hidden>{P.resume}</button>
+    <button type="button" class="pw-btn" data-print>{P.print}</button>
+    <div class="pw-progress" aria-hidden="true"><div class="pw-fill" data-fill style="width:0%"></div></div>
+    <span class="ui muted pw-count" data-count aria-live="polite"></span>
+    <button type="button" class="pw-btn" data-prev hidden>{P.prev}</button>
+    <button type="button" class="pw-btn" data-next hidden>{P.next}</button>
+  </div>
+
+  <ol class="pw-steps">
+    {steps.map((s) => (
+      <li class:list={["pw-step", { "pw-optional": s.optional }]} data-step={s.i} id={`pw-${s.i}`}>
+        <h3 class="pw-step-h"><span class="pw-num" aria-hidden="true">{s.i + 1}</span> {s.title}</h3>
+        {s.optional && <span class="pw-tag ui">{P.optional}</span>}
+        {s.depth && s.depth !== "standard" && <span class="pw-tag ui">{P[`depth_${s.depth}`] ?? s.depth}</span>}
+        {s.body && <p class="pw-body">{s.body}</p>}
+        {s.why && <p class="ui muted pw-why">{s.why}</p>}
+        {s.features.length > 0 && (
+          <p class="pw-features ui">{s.features.map((f: any, k: number) => <>{k > 0 && " · "}<a href={f.href}>{f.label}</a></>)}</p>
+        )}
+        {s.optional && <button type="button" class="pw-btn pw-skip no-print" data-skip hidden>{P.skip}</button>}
+      </li>
+    ))}
+  </ol>
+
+  {outcomes.length > 0 && (
+    <div class="pw-recap" data-recap>
+      <h3 class="ui" style="font-size:1rem;margin:0 0 6px">{P.recap}</h3>
+      <ul>
+        {outcomes.map((o: any) => (
+          <li>{loc(o.text)}{(o.steps ?? []).length > 0 && <span class="ui muted"> — {(o.steps as number[]).map((k: number, j: number) => <>{j > 0 && ", "}<a href={`#pw-${k}`}>{k + 1}</a></>)}</span>}</li>
+        ))}
+      </ul>
+    </div>
+  )}
+
+  {(prereqs.length > 0 || onward.length > 0) && (
+    <p class="ui muted pw-links" style="margin:12px 0 0;font-size:.9rem">
+      {prereqs.length > 0 && <>{P.before}: {prereqs.map((p, k) => <>{k > 0 && " · "}<a href={href(lang, p.id)}>{labelOf(p, lang)}</a></>)}<br /></>}
+      {onward.length > 0 && <>{P.after}: {onward.map((p, k) => <>{k > 0 && " · "}<a href={href(lang, p.id)}>{labelOf(p, lang)}</a></>)}</>}
+    </p>
+  )}
+</section>
+)}
+<script src="../scripts/pathway.ts"></script>
+<style>
+.pw { border: 1px solid var(--gold); border-radius: 14px; padding: 18px; margin: 0 0 1.2rem; background: var(--panel); }
+.pw-bar { display: flex; align-items: center; flex-wrap: wrap; gap: 8px 12px; margin-bottom: 12px; }
+.pw-btn { font-family: var(--sans); font-size: .9rem; background: var(--bg); color: var(--fg); border: 1px solid var(--gold); border-radius: 999px; padding: 5px 14px; cursor: pointer; }
+.pw-btn:hover { background: var(--gold); color: #1d3a6e; }
+.pw-progress { flex: 1 1 80px; height: 6px; background: color-mix(in srgb, var(--gold) 18%, transparent); border-radius: 3px; overflow: hidden; }
+.pw-fill { height: 100%; background: var(--gold); border-radius: 3px; transition: width .3s; }
+.pw-count { font-size: .85rem; white-space: nowrap; }
+.pw-steps { list-style: none; margin: 0; padding: 0; counter-reset: pw; display: flex; flex-direction: column; gap: 10px; }
+.pw-step { border: 1px solid color-mix(in srgb, var(--gold) 35%, transparent); border-radius: 12px; padding: 14px 16px; background: var(--bg); }
+.pw-step[hidden] { display: none; }
+.pw-step.pw-current { border-color: var(--gold); border-width: 2px; }
+.pw-step.pw-optional { border-style: dashed; }
+.pw-step-h { font-size: 1.05rem; margin: 0 0 6px; }
+.pw-num { display: inline-flex; align-items: center; justify-content: center; min-width: 1.6em; height: 1.6em; border-radius: 50%; background: var(--gold); color: #1d3a6e; font-family: var(--sans); font-size: .85em; font-weight: 700; margin-inline-end: 8px; }
+.pw-body { margin: 0 0 6px; }
+.pw-why { font-size: .88rem; margin: 0 0 6px; }
+.pw-features { margin: 0; font-size: .9rem; }
+.pw-tag { display: inline-block; font-size: .75rem; border: 1px solid var(--gold); border-radius: 999px; padding: 1px 8px; margin-inline-start: 8px; color: var(--muted); }
+.pw-skip { display: block; margin-top: 8px; }
+.pw-recap { margin-top: 14px; border-top: 1px solid color-mix(in srgb, var(--gold) 35%, transparent); padding-top: 10px; }
+.pw-recap ul { margin: 0; padding-inline-start: 20px; }
+@media (prefers-reduced-motion: reduce) { .pw-fill { transition: none; } }
+/* a handout always prints the whole route, whatever step the walk is on */
+@media print { .pw-step[hidden] { display: block !important; } }
+</style>

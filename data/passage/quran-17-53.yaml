@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 17:53 (سورة الإسراء، الآية 53)."
 text: "وَقُل لِّعِبَادِى يَقُولُوا۟ ٱلَّتِى هِىَ أَحْسَنُ ۚ إِنَّ ٱلشَّيْطَـٰنَ يَنزَغُ بَيْنَهُمْ ۚ إِنَّ ٱلشَّيْطَـٰنَ كَانَ لِلْإِنسَـٰنِ عَدُوًّا مُّبِينًا"
 text_search: "وقل لعبادي يقولوا التي هي أحسن ۚ إن الشيطان ينزغ بينهم ۚ إن الشيطان كان للإنسان عدوا مبينا"
+translations:
+  en: { text: "Tell My bondmen to speak that which is kindlier. Lo! the devil soweth discord among them. Lo! the devil is for man an open foe.", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "اور میرے بندوں سے کہہ دو کہ (لوگوں سے) ایسی باتیں کہا کریں جو بہت پسندیدہ ہوں۔ کیونکہ شیطان (بری باتوں سے) ان میں فساد ڈلوا دیتا ہے۔ کچھ شک نہیں کہ شیطان انسان کا کھلا دشمن ہے", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-17 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 12:62 (سورة يوسف، الآية 62)."
 text: "وَقَالَ لِفِتْيَـٰنِهِ ٱجْعَلُوا۟ بِضَـٰعَتَهُمْ فِى رِحَالِهِمْ لَعَلَّهُمْ يَعْرِفُونَهَآ إِذَا ٱنقَلَبُوٓا۟ إِلَىٰٓ أَهْلِهِمْ لَعَلَّهُمْ يَرْجِعُونَ"
 text_search: "وقال لفتيانه اجعلوا بضاعتهم في رحالهم لعلهم يعرفونها إذا انقلبوا إلى أهلهم لعلهم يرجعون"
+translations:
+  en: { text: "He said unto his young men: Place their merchandise in their saddlebags, so that they may know it when they go back to their folk, and so will come again.", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "(اور یوسف نے) اپنے خدام سے کہا کہ ان کا سرمایہ (یعنی غلّے کی قیمت) ان کے شلیتوں میں رکھ دو عجب نہیں کہ جب یہ اپنے اہل وعیال میں جائیں تو اسے پہچان لیں (اور) عجب نہیں کہ پھر یہاں آئیں", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-12 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

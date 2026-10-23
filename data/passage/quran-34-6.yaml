@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 34:6 (سورة سبأ، الآية 6)."
 text: "وَيَرَى ٱلَّذِينَ أُوتُوا۟ ٱلْعِلْمَ ٱلَّذِىٓ أُنزِلَ إِلَيْكَ مِن رَّبِّكَ هُوَ ٱلْحَقَّ وَيَهْدِىٓ إِلَىٰ صِرَٰطِ ٱلْعَزِيزِ ٱلْحَمِيدِ"
 text_search: "ويرى الذين أوتوا العلم الذي أنزل إليك من ربك هو الحق ويهدي إلى صراط العزيز الحميد"
+translations:
+  en: { text: "Those who have been given knowledge see that what is revealed unto thee from thy Lord is the truth and leadeth unto the path of the Mighty, the Owner of Praise.", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "اور جن لوگوں کو علم دیا گیا ہے وہ جانتے ہیں کہ جو (قرآن) تمہارے پروردگار کی طرف سے تم پر نازل ہوا ہے وہ حق ہے۔ اور (خدائے) غالب اور سزاوار تعریف کا رستہ بتاتا ہے", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-34 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

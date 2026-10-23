@@ -44,6 +44,57 @@
         "pattern": "^[a-z]+/[a-z0-9][a-z0-9-]*$"
       }
     },
+    "goal": {
+      "$ref": "_base.schema.json#/$defs/localized"
+    },
+    "path_kind": {
+      "enum": [
+        "era",
+        "personalities",
+        "events",
+        "ideas",
+        "places",
+        "texts",
+        "art",
+        "culture",
+        "hard-question",
+        "starter"
+      ]
+    },
+    "level": {
+      "enum": [
+        "intro",
+        "standard",
+        "deep"
+      ]
+    },
+    "outcomes": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "text"
+        ],
+        "properties": {
+          "text": {
+            "$ref": "_base.schema.json#/$defs/localized"
+          },
+          "steps": {
+            "type": "array",
+            "items": {
+              "type": "integer"
+            }
+          }
+        }
+      }
+    },
+    "next": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "pattern": "^[a-z]+/[a-z0-9][a-z0-9-]*$"
+      }
+    },
     "rooms": {
       "type": "array",
       "items": {
@@ -71,6 +122,22 @@
               "type": "string",
               "pattern": "^[a-z]+/[a-z0-9][a-z0-9-]*$"
             }
+          },
+          "depth": {
+            "enum": [
+              "brief",
+              "standard",
+              "deep"
+            ]
+          },
+          "optional": {
+            "type": "boolean"
+          },
+          "why_next": {
+            "$ref": "_base.schema.json#/$defs/localized"
+          },
+          "branch_of": {
+            "type": "integer"
           }
         }
       }

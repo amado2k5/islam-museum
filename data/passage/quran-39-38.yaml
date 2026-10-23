@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 39:38 (سورة الزمر، الآية 38)."
 text: "وَلَئِن سَأَلْتَهُم مَّنْ خَلَقَ ٱلسَّمَـٰوَٰتِ وَٱلْأَرْضَ لَيَقُولُنَّ ٱللَّهُ ۚ قُلْ أَفَرَءَيْتُم مَّا تَدْعُونَ مِن دُونِ ٱللَّهِ إِنْ أَرَادَنِىَ ٱللَّهُ بِضُرٍّ هَلْ هُنَّ كَـٰشِفَـٰتُ ضُرِّهِۦٓ أَوْ أَرَادَنِى بِرَحْمَةٍ هَلْ هُنَّ مُمْسِكَـٰتُ رَحْمَتِهِۦ ۚ قُلْ حَسْبِىَ ٱللَّهُ ۖ عَلَيْهِ يَتَوَكَّلُ ٱلْمُتَوَكِّلُونَ"
 text_search: "ولئن سألتهم من خلق السماوات والأرض ليقولن الله ۚ قل أفرأيتم ما تدعون من دون الله إن أرادني الله بضر هل هن كاشفات ضره أو أرادني برحمة هل هن ممسكات رحمته ۚ قل حسبي الله ۖ عليه يتوكل المتوكلون"
+translations:
+  en: { text: "And verily, if thou shouldst ask them: Who created the heavens and the earth? they will say: Allah. Say: Bethink you then of those ye worship beside Allah, if Allah willed some hurt for me, could they remove from me His hurt; or if He willed some mercy for me, could they restrain His mercy? Say: Allah is my all. In Him do (all) the trusting put their trust.", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "اور اگر تم ان سے پوچھو کہ آسمانوں اور زمین کو کس نے پیدا کیا تو کہہ دیں کہ خدا نے۔ کہو کہ بھلا دیکھو تو جن کو تم خدا کے سوا پکارتے ہو۔ اگر خدا مجھ کو کوئی تکلیف پہنچانی چاہے تو کیا وہ اس تکلیف کو دور کرسکتے ہیں یا اگر مجھ پر مہربانی کرنا چاہے تو وہ اس کی مہربانی کو روک سکتے ہیں؟ کہہ دو کہ مجھے خدا ہی کافی ہے۔ بھروسہ رکھنے والے اسی پر بھروسہ رکھتے ہیں", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-39 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

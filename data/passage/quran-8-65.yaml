@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 8:65 (سورة الأنفال، الآية 65)."
 text: "يَـٰٓأَيُّهَا ٱلنَّبِىُّ حَرِّضِ ٱلْمُؤْمِنِينَ عَلَى ٱلْقِتَالِ ۚ إِن يَكُن مِّنكُمْ عِشْرُونَ صَـٰبِرُونَ يَغْلِبُوا۟ مِا۟ئَتَيْنِ ۚ وَإِن يَكُن مِّنكُم مِّا۟ئَةٌ يَغْلِبُوٓا۟ أَلْفًا مِّنَ ٱلَّذِينَ كَفَرُوا۟ بِأَنَّهُمْ قَوْمٌ لَّا يَفْقَهُونَ"
 text_search: "يا أيها النبي حرض المؤمنين على القتال ۚ إن يكن منكم عشرون صابرون يغلبوا مائتين ۚ وإن يكن منكم مائة يغلبوا ألفا من الذين كفروا بأنهم قوم لا يفقهون"
+translations:
+  en: { text: "O Prophet! Exhort the believers to fight. If there be of you twenty steadfast they shall overcome two hundred, and if there be of you a hundred (steadfast) they shall overcome a thousand of those who disbelieve, because they (the disbelievers) are a folk without intelligence.", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "اے نبی! مسلمانوں کو جہاد کی ترغیب دو۔ اور اگر تم بیس آدمی ثابت قدم رہنے والے ہوں گے تو دو سو کافروں پر غالب رہیں گے۔ اور اگر سو (ایسے) ہوں گے تو ہزار پر غالب رہیں گے۔ اس لیے کہ کافر ایسے لوگ ہیں کہ کچھ بھی سمجھ نہیں رکھتے", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-8 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

@@ -1,0 +1,25 @@
+id: person/ibn-khatib-sarmin
+class: person
+label: { ar: "ابن خطيب سرمين العجلوني", en: "Ibn Khatib Sarmin, of Aleppo" }
+names:
+  - { value: "شرف الدين أبو بكر محمد بن عمر العجلوني نزيل حلب المعروف بابن خطيب سرمين", kind: full }
+died: { edtf: "1398-09~", hijri: "0801-02-16", calendar: julian, precision: day, status: tradition, derived: true, note: "توفي بمكة في سادس عشر صفر سنة إحدى وثمانمائة {cite:shadharat-dhahab p. 18}." }
+summary:
+  ar: "العجلوني نزيل حلب المعروف بابن خطيب سرمين؛ ولي خطابة سرمين وقرأ المترجم بحلب على الباريني وتصدّر على الكرسي بحلب وحج وجاور بمكة مراراً، وكتب عن أبي عبد الله بن جابر الأعمى المغربي قصيدته البديعة وحدّث بها عنه وسمعها منه ابن حجر في مجاورته سنة إحدى وثمانمائة، وتوفي بمكة في سادس عشر صفر {cite:shadharat-dhahab p. 18}."
+gender: male
+roles: [scholar]
+wings: [people]
+periods: [period/mongol-post-mongol]
+regions: [levant-iraq, arabia]
+faith:
+  - value: sunni
+    basis: tradition
+relations:
+  - { type: died_in, target: place/mecca, sources: [source/shadharat-dhahab] }
+sources: [source/shadharat-dhahab]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }
+provenance:
+  layer: own-research
+  source: "شذرات الذهب — ابن العماد (ط مثنى، ج7، سنة 801)، قراءة آبل فيجن"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-shadharat-batch-136

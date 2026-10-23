@@ -1,0 +1,19 @@
+id: place/qarqisiya
+class: place
+kind: city
+label: { ar: "قرقيسيا", en: "Qarqisiya (Circesium)" }
+summary:
+  ar: "قرقيسيا عند ملتقى الخابور بالفرات من أعمال الجزيرة؛ وجّه إليها إياد حبيب بن مسلمة الفهري ففتحها صلحاً على مثل صلح الرقة، ثم نقض أهلها فصالحهم عمير بن سعد على مثل صلحهم الأول حين سلك الخابور إلى حصون الفرات؛ ولم تكن للرحبة التي في أسفلها أثر قديم إنما بنيت في خلافة المأمون."
+  en: "Qarqisiya (Circesium) where the Khabur meets the Euphrates in the Jazira; Iyad sent Habib ibn Maslama al-Fihri who took it by treaty on the like of al-Raqqa's terms, and when its people broke faith Umayr ibn Sa'd re-compounded with them on their first treaty as he worked the Khabur down to the Euphrates forts; the al-Rahba below it had no ancient trace — built in al-Ma'mun's caliphate."
+wings: [place]
+periods: [period/rashidun]
+regions: [levant-iraq]
+relations:
+  - { type: part_of, target: place/jazira, sources: [source/futuh-buldan-maarif-1407] }
+provenance:
+  layer: own-research
+  source: "فتوح البلدان (ط مؤسسة المعارف 1407هـ/1987م) ص 242، 246–248"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-futuh-buldan-batch-14
+sources: [source/futuh-buldan-maarif-1407]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

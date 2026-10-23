@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 8:75 (سورة الأنفال، الآية 75)."
 text: "وَٱلَّذِينَ ءَامَنُوا۟ مِنۢ بَعْدُ وَهَاجَرُوا۟ وَجَـٰهَدُوا۟ مَعَكُمْ فَأُو۟لَـٰٓئِكَ مِنكُمْ ۚ وَأُو۟لُوا۟ ٱلْأَرْحَامِ بَعْضُهُمْ أَوْلَىٰ بِبَعْضٍ فِى كِتَـٰبِ ٱللَّهِ ۗ إِنَّ ٱللَّهَ بِكُلِّ شَىْءٍ عَلِيمٌۢ"
 text_search: "والذين آمنوا من بعد وهاجروا وجاهدوا معكم فأولئك منكم ۚ وأولو الأرحام بعضهم أولى ببعض في كتاب الله ۗ إن الله بكل شيء عليم"
+translations:
+  en: { text: "And those who afterwards believed and left their homes and strove along with you, they are of you; and those who are akin are nearer one to another in the ordinance of Allah. Lo! Allah is Knower of all things.", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "اور جو لوگ بعد میں ایمان لائے اور وطن سے ہجرت کرگئے اور تمہارے ساتھ ہو کر جہاد کرتے رہے وہ بھی تم ہی میں سے ہیں۔ اور رشتہ دار خدا کے حکم کی رو سے ایک دوسرے کے زیادہ حقدار ہیں۔ کچھ شک نہیں کہ خدا ہر چیز سے واقف ہے", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-8 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

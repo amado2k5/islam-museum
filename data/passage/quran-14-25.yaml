@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 14:25 (سورة إبراهيم، الآية 25)."
 text: "تُؤْتِىٓ أُكُلَهَا كُلَّ حِينٍۭ بِإِذْنِ رَبِّهَا ۗ وَيَضْرِبُ ٱللَّهُ ٱلْأَمْثَالَ لِلنَّاسِ لَعَلَّهُمْ يَتَذَكَّرُونَ"
 text_search: "تؤتي أكلها كل حين بإذن ربها ۗ ويضرب الله الأمثال للناس لعلهم يتذكرون"
+translations:
+  en: { text: "Giving its fruit at every season by permission of its Lord? Allah coineth the similitudes for mankind in order that they may reflect.", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "اپنے پروردگار کے حکم سے ہر وقت پھل لاتا (اور میوے دیتا) ہو۔ اور خدا لوگوں کے لیے مثالیں بیان فرماتا ہے تاکہ وہ نصیحت پکڑیں", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-14 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

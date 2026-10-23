@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 47:35 (سورة محمد، الآية 35)."
 text: "فَلَا تَهِنُوا۟ وَتَدْعُوٓا۟ إِلَى ٱلسَّلْمِ وَأَنتُمُ ٱلْأَعْلَوْنَ وَٱللَّهُ مَعَكُمْ وَلَن يَتِرَكُمْ أَعْمَـٰلَكُمْ"
 text_search: "فلا تهنوا وتدعوا إلى السلم وأنتم الأعلون والله معكم ولن يتركم أعمالكم"
+translations:
+  en: { text: "So do not falter and cry out for peace when ye (will be) the uppermost, and Allah is with you, and He will not grudge (the reward of) your actions.", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "تو تم ہمت نہ ہارو اور (دشمنوں کو) صلح کی طرف نہ بلاؤ۔ اور تم تو غالب ہو۔ اور خدا تمہارے ساتھ ہے وہ ہرگز تمہارے اعمال کو کم (اور گم) نہیں کرے گا", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-47 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

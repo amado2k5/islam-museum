@@ -1,0 +1,21 @@
+id: person/umama-al-muzayriyya
+class: person
+label: { ar: "أمامة المزيرية", en: "Umama al-Muzayriyya" }
+names:
+  - { kind: given, lang: ar, value: "أمامة" }
+  - { kind: nisba, lang: ar, value: "المزيرية" }
+gender: female
+roles: [poet]
+summary:
+  ar: "امرأة قالت بيتين في قتل أبي عفك تخاطبه فيهما: إنه يكذّب دين الله والمرء أحمد، وإن مسلماً حباه آخر الليل طعنة فليأخذها على كبر السن؛ لا يُعرف عنها عند ابن إسحاق غير ذلك."
+  en: "A woman who spoke two verses on the killing of Abu Afak, addressing him: that he gave the lie to God's religion and to the man Ahmad, and that a Muslim had granted him a thrust at the end of the night which he should take in his old age; nothing more is known of her from Ibn Ishaq."
+wings: [people]
+themes: [literature, women]
+periods: [period/prophetic-era]
+regions: [arabia]
+relations:
+  - { type: authored, target: work/umama-al-muzayriyya-verses-on-abu-afak, sources: [source/ibn-hisham-saqqa] }
+  - { type: participated_in, target: event/killing-of-abu-afak, role: "قالت في ذلك شعراً", sources: [source/ibn-hisham-saqqa] }
+provenance: { layer: own-research, source: "sira-ibn-hisham saqqa 1936, juz' 4 p. 285", generated_by: "Claude Code", model: "claude-fable-5-1", run: "ibn-hisham-batch-14" }
+sources: [source/ibn-hisham-saqqa]
+status: { review: draft, completeness: 1, generated_by: "Claude Fable 5.1; mined from Ibn Hisham juz' 4 p. 285" }

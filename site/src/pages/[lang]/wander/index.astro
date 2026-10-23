@@ -15,7 +15,28 @@ const pool = realNodes.filter((n) => !["source", "media", "dataset"].includes(n.
     <p><a id="go" class="chip" style="border:1px solid var(--gold);font-size:1rem;padding:8px 18px" href={pool[0]?.h}>{T.wander.button}</a></p>
     <script is:inline define:vars={{ pool }}>
       var a = document.getElementById("go");
-      a.addEventListener("click", function (e) { e.preventDefault(); location.href = pool[Math.floor(Math.random() * pool.length)].h; });
+      // Shuffled deck: every item is shown once before any repeats. The deck and position live in
+      // sessionStorage so the position survives navigation (each click leaves this page).
+      var KEY = "wander-deck-v1-" + pool.length;
+      function shuffle(n) {
+        var d = []; for (var i = 0; i < n; i++) d.push(i);
+        for (var k = n - 1; k > 0; k--) { var j = Math.floor(Math.random() * (k + 1)); var t = d[k]; d[k] = d[j]; d[j] = t; }
+        return d;
+      }
+      function load() {
+        try { var s = JSON.parse(sessionStorage.getItem(KEY)); if (s && s.deck && s.deck.length === pool.length && s.pos < pool.length) return s; } catch (e) {}
+        return null;
+      }
+      function save(s) { try { sessionStorage.setItem(KEY, JSON.stringify(s)); } catch (e) {} }
+      function nextItem() {
+        var s = load();
+        if (!s) s = { deck: shuffle(pool.length), pos: 0 };
+        var item = pool[s.deck[s.pos]];
+        s.pos++;
+        save(s);
+        return item;
+      }
+      a.addEventListener("click", function (e) { if (!pool.length) return; e.preventDefault(); location.href = nextItem().h; });
     </script>
     <noscript><ul>{pool.map((p) => <li><a href={p.h}>{p.l}</a></li>)}</ul></noscript>
   </div>

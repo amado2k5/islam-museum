@@ -1,0 +1,23 @@
+id: event/capture-of-baghdad-1508
+class: event
+kind: conquest
+label: { ar: "أخذ بغداد (١٥٠٨)", en: "Capture of Baghdad (1508)" }
+summary:
+  ar: "بطاقة أولية لأخذ بغداد سنة ١٥٠٨م، دخول الشاه إسماعيل الصفوي للمدينة؛ لم تُراجع مصادره على الصفحة بعد."
+  en: "Draft card for the Capture of Baghdad in 1508, Shah Isma'il's entry into the city; its sources are not yet checked on the page."
+wings: [time]
+periods: [period/gunpowder-empires]
+regions: [levant-iraq]
+date:
+  start: { edtf: "1508", precision: year, status: tradition, derived: true }
+  end: { edtf: "1508", precision: year, status: tradition, derived: true }
+sources: [source/tarikh-islam-hasan-ibrahim]
+external_ids:
+  wikidata: Q12216247
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; battle attested in narrative histories — entry not yet checked on the page"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-wave2
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

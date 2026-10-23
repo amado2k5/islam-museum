@@ -12,10 +12,13 @@ summary:
   ar: "القرآن 9:96 (سورة التوبة، الآية 96)."
 text: "يَحْلِفُونَ لَكُمْ لِتَرْضَوْا۟ عَنْهُمْ ۖ فَإِن تَرْضَوْا۟ عَنْهُمْ فَإِنَّ ٱللَّهَ لَا يَرْضَىٰ عَنِ ٱلْقَوْمِ ٱلْفَـٰسِقِينَ"
 text_search: "يحلفون لكم لترضوا عنهم ۖ فإن ترضوا عنهم فإن الله لا يرضى عن القوم الفاسقين"
+translations:
+  en: { text: "They swear unto you, that ye may accept them. Though ye accept them. Allah verily accepteth not wrongdoing folk.", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "یہ تمہارے آگے قسمیں کھائیں گے تاکہ تم ان سے خوش ہو جاؤ لیکن اگر تم اُن سے خوش ہو جاؤ گے تو خدا تو نافرمان لوگوں سے خوش نہیں ہوتا", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: revealed_about, target: event/prophets-return-and-excuses-of-the-stragglers, note: "ذكرها كعب في حديثه فيمن كذبوا واعتذروا بعد الرجوع، بحسب ابن إسحاق (ص181)؛ تعيين الآيتين 95-96 من سياق الاقتباس ويحتاج مراجعة (needs_source)", sources: [source/ibn-hisham-saqqa] }
   - { type: part_of, target: passage/quran-9 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

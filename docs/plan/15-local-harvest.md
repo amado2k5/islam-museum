@@ -52,15 +52,17 @@ Disk is the constraint. Keep the harvest **outside the git repository and outsid
     by/                   Tanzil (verbatim), Pleiades, GeoNames, Curlie, ACNC
     by-sa/                Wikipedia text, TVmaze            → pointers and context only; never merged into cc0
     odbl/                 OpenStreetMap extracts            → separate layer, share-alike
-    nc/                   OpenITI, Smarthistory             → mined for facts with quotes; text never republished
+    nc/                   OpenITI, Smarthistory             → read and rewritten with citations; text never republished
+    pd/                   public-domain classical texts (Ibn Hisham, al-Tabari…) as scanned or extracted
+    copyrighted-reference/ modern books and editions (الرحيق المختوم, tahqiq apparatus) → read and rewritten with citations
     link-only/            IDs and URLs for IMDb, TMDB, national film databases, closed directories
-    unverified/           anything whose licence is not yet confirmed; nothing leaves this folder
+    unverified/           anything whose licence is not yet confirmed; record it and cite it when used
   db/                     harvest.duckdb, text.sqlite (FTS5), vectors
   candidates/             proposed entities as YAML, waiting for validation
   logs/  reports/
 ```
 
-**The wall:** a fact may enter `data/` in the repository (which is CC0) only if it comes from the `cc0` or `by` layers, or was established by our own reading of a source and is cited to it. The `by-sa`, `odbl`, `nc` and `link-only` layers help find and check things; their content is not copied. The validator enforces this from the `provenance.layer` field of every candidate.
+**The layers are a record, not a wall** (founder's rule of 15 October 2026, `docs/sources-policy.md`): any layer may be read and rewritten in the museum's own words with a citation, and its facts enter `data/` (CC0) with the source cited. `provenance.layer` says where a thing came from; the validator records it and no longer rejects a layer. What never enters git is the same for every layer: verbatim text beyond a 40-word quotation, the raw files, and bulk copies of a database (`odbl`, `link-only`: identifiers as pointers only).
 
 ## 4. Setup
 
@@ -358,16 +360,18 @@ tail -f $HARVEST/logs/harvest.log
 
 ## 11. The legal walls in one table
 
-| Source | May we store it locally? | May it enter the CC0 data? | May we republish its text? |
+Superseded on 15 October 2026 by `docs/sources-policy.md`: every row may be read and rewritten in the museum's own words with a citation, and its facts enter the CC0 data. The table now records only what may be republished verbatim.
+
+| Source | May we store it locally? | May its facts enter the CC0 data? | May we republish its text? |
 |---|---|---|---|
 | Wikidata, Met, Smithsonian, Europeana and DPLA metadata | Yes | Yes | Yes |
 | Tanzil Qur'an text | Yes | As a verbatim text with attribution, in its own files | Verbatim only, with notice and link |
-| Pleiades, GeoNames, Curlie, ACNC | Yes | Facts with attribution | With attribution |
-| Wikipedia | Yes | No (use Wikidata for facts; cite the underlying sources) | Only as CC BY-SA, which we do not mix in |
-| OpenStreetMap | Yes | No | Only as ODbL, kept separate |
-| OpenITI | Yes | Facts we extract and cite, yes; text, no | Short quotations only |
-| IMDb files, TMDB, national film databases | IMDb locally yes; others as look-ups | Identifiers only | No |
-| Quran Foundation API, Zabihah, Mawaqit, YouTube API data | No | No | No |
+| Pleiades, GeoNames, Curlie, ACNC | Yes | Yes, with attribution | With attribution |
+| Wikipedia | Yes | Yes, rewritten and cited to the underlying sources (Wikipedia itself stays a pointer, for reliability) | Only as CC BY-SA, which we do not mix in |
+| OpenStreetMap | Yes | Facts from our own reading, yes; a bulk copy of the database, no | Only as ODbL, kept separate |
+| OpenITI | Yes | Yes, rewritten and cited | Short quotations only |
+| IMDb files, TMDB, national film databases | IMDb locally yes; others as look-ups | Facts from our own reading, yes; a bulk copy, no; identifiers as pointers | No |
+| Quran Foundation API, Zabihah, Mawaqit, YouTube API data | No | Facts from our own reading, yes; their data, no | No |
 
 ## 12. Risks
 
@@ -375,7 +379,7 @@ tail -f $HARVEST/logs/harvest.log
 |---|---|
 | A local model invents facts | Quote-span rule; second-family judge; rules; gold sets; human review; draft label |
 | An error in the Qur'an text | Verbatim Tanzil file; checksum; structural check; second witness; byte-for-byte build check; models never write scripture |
-| Share-alike or non-commercial content leaks into CC0 data | Licence layers on disk; `provenance.layer`; validator wall |
+| Verbatim third-party text leaks into the museum's text | Everything is rewritten in the museum's own words; quotations at most 40 words; `provenance.layer` records the origin (`docs/sources-policy.md`) |
 | Getting blocked by a source | Dumps first; identified User-Agent; low rates; back-off |
 | Disk fills mid-run | Budget of §2; free-space guard; delete the Wikidata dump after filtering |
 | The Mac sleeps or reboots | `tmux`, `caffeinate`, checkpoints |

@@ -1,0 +1,19 @@
+id: place/qabr-hud-ahqaf
+class: place
+kind: site
+label: { ar: "قبر هود بالأحقاف", en: "The tomb of Hud at the Ahqaf" }
+summary:
+  ar: "قبر يزوره أهل حضرموت ومهرة في كل وقت؛ يصفه الهمداني بأنه في الكثيب الأحمر منه في كهف مشرف، في أسفل وادي الأحقاف الواصل من بلد حضرموت إلى بلد مهرة مسيرة أيام {cite:sifat-jazirat-al-arab p. 70}."
+  en: "A tomb visited continually by the people of Hadramawt and Mahra — al-Hamdani places it in the red sand-hill within an overlooking cave, at the lower end of the Ahqaf valley that runs from Hadramawt toward Mahra country over days' march {cite:sifat-jazirat-al-arab p. 70}."
+wings: [place]
+periods: [period/abbasid-fragmentation]
+regions: [arabia]
+relations:
+  - { type: located_in, target: place/hadramawt, sources: [source/sifat-jazirat-al-arab] }
+provenance:
+  layer: own-research
+  source: "الهمداني، صفة جزيرة العرب (ط مولر) ص 70"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-geo-sifat-2
+sources: [source/sifat-jazirat-al-arab]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

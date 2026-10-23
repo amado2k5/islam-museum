@@ -1,0 +1,22 @@
+id: event/badr-shush-619
+class: event
+kind: conquest
+label: { ar: "ملك بدر الدين قلعة شوش", en: "Badr al-Din Lu'lu' takes Shush castle" }
+date:
+  start: { edtf: "1222~", hijri: "0619", calendar: julian, precision: year, status: tradition, derived: true }
+summary:
+  ar: "ملك بدر الدين لؤلؤ قلعة شوش من بلاد الجزيرة فضمّها إلى ما كان يتحكم فيه {cite:kamil-ibn-al-athir p. 433}."
+  en: "Badr al-Din Lu'lu' took the Shush fortress in the Jazira and added it to his domains {cite:kamil-ibn-al-athir p. 433}."
+sides:
+  - label: { ar: "المسلمون وخصومهم" }
+  - label: { ar: "الطرف الآخر" }
+relations:
+  - { type: occurred_at, target: place/shush, sources: [source/kamil-ibn-al-athir] }
+  - { type: had_participant, target: person/badr-al-din-lulu, role: "المالك", sources: [source/kamil-ibn-al-athir] }
+provenance:
+  layer: own-research
+  source: "الكامل في التاريخ لابن الأثير، قراءة آبل فيجن"
+  generated_by: "Devin (SWE-2 Medium) from Apple Vision OCR"
+  run: lib-kamil-v12-batch08
+sources: [source/kamil-ibn-al-athir]
+status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 Medium)" }

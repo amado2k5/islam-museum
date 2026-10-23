@@ -1,0 +1,23 @@
+id: event/battle-of-dorote-1910
+class: event
+kind: battle
+label: { ar: "معركة دوروتي", en: "Battle of Dorote (1910)" }
+summary:
+  ar: "بطاقة أولية لمعركة دوروتي؛ لم تُراجع مصادره على الصفحة بعد."
+  en: "Draft card for Battle of Dorote (1910); its sources are not yet checked on the page."
+wings: [time]
+periods: [period/colonial-era]
+regions: [west-africa-sahel]
+date:
+  start: { edtf: "1910", precision: year, status: tradition, derived: true }
+  end: { edtf: "1910", precision: year, status: tradition, derived: true }
+sources: [source/tarikh-islam-hasan-ibrahim]
+external_ids:
+  wikidata: Q2984762
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; event attested in narrative histories — entry not yet checked on the page"
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: wikidata-import-wave2
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 Medium)" }

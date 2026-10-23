@@ -1,0 +1,19 @@
+id: person/qabil
+class: person
+label: { ar: "قابيل", en: "Qabil (Cain)" }
+gender: male
+summary:
+  ar: "أحد ابني آدم في رواية الثعلبي، قتل أخاه هابيل بعد أن قُبل قربان أخيه ولم يُقبل قربانه، وكان الخلاف حول الزواج بالمولودة المقترنة به."
+  en: "One of Adam's two sons in al-Tha'labi's account. He killed his brother Habil after Habil's offering was accepted and his own was not, in a dispute that began over marriage partners."
+wings: [people]
+themes: [prophets]
+relations:
+  - { type: sibling_of, target: person/habil, sources: [source/qisas-anbiya-thaalabi-edition] }
+sources: [source/qisas-anbiya-thaalabi-edition]
+provenance:
+  layer: own-research
+  source: "al-Tha'labi, Qisas al-Anbiya' (OCR scan, edition not verified), pp. 43-47 of the OCR markers"
+  generated_by: "Claude Code sub-agent (library-expansion)"
+  model: "claude-haiku-5-5"
+  run: "lib-exp-qisas-prophets-batch-01"
+status: { review: draft, completeness: 1, generated_by: "Claude Code sub-agent (claude-haiku-5-5); edition not verified" }

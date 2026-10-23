@@ -1,0 +1,23 @@
+id: event/battle-of-kozludzha-1774
+class: event
+kind: battle
+label: { ar: "معركة كوزلودزها", en: "Battle of Kozludzha" }
+summary:
+  ar: "بطاقة أولية لمعركة كوزلودزها سنة ١٧٧٤م، هزيمة العثمانيين التي أفضت مباشرة إلى صلح كوتشوك قاينارجة؛ لم تُراجع مصادره على الصفحة بعد."
+  en: "Draft card for the Battle of Kozludzha in 1774, the Ottoman defeat that led directly to the treaty of Küçük Kaynarca; its sources are not yet checked on the page."
+wings: [time]
+periods: [period/gunpowder-empires]
+regions: [anatolia-balkans]
+date:
+  start: { edtf: "1774", precision: year, status: tradition, derived: true }
+  end: { edtf: "1774", precision: year, status: tradition, derived: true }
+sources: [source/dawlat-uthmaniyya-salabi]
+external_ids:
+  wikidata: Q1985387
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; battle attested in Russo-Turkish War histories — entry not yet checked on the page"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-wave2
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

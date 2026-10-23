@@ -1,0 +1,40 @@
+id: person/tughtakin-zahir-al-din
+class: person
+label:
+  ar: ظهير الدين طغركين الأتابك
+  en: Zahir al-Din Tughtakin the Atabeg
+summary:
+  ar: "طغركين الأتابك، لقبه ظهير الدين، من موالي تاج الدولة تتش؛ لما توفي دقاق بدمشق سنة 497هـ استقل بالملك وخطب لأخيه تلتاش صبياً مراهقاً ففر تلتاش إلى بعلبك واستبد طغركين، وحارب الفرنج فهزم القمص الغائر على دمشق وملك حصن رمسة من طرابلس، وناجز ملوك الإفرنج وقمامصتهم بمرج الصفر آخر سنة 520هـ فصرع عن فرسه ثم استمات رجالة التركمان حتى قتلوا رجالة الإفرنج ونهبوا عسكرهم، وتوفي في صفر سنة 522هـ وكان حسن السيرة مؤثراً للعدل محباً في الجهاد، فولي ابنه تاج الدولة بوري."
+  en: "Tughtakin the Atabeg, laqab Zahir al-Din, a mamluk of Taj al-Dawla Tutush; on Duqaq's death in 497 AH he took sole power, proclaimed the infant Tultash then ruled outright when the boy fled to Baalbek — he broke the qummus raiding Damascus, took the Ramsa fort of Tripoli, and met the Frankish kings and counts at Marj al-Saffar late in 520, where he was unhorsed but the Turkman foot fought to the death, massacred the Frankish infantry and looted their camp; he died in Safar 522, remembered as just, upright and devoted to jihad, and his son Taj al-Dawla Buri succeeded."
+gender: male
+roles: [ruler, military-commander]
+died:
+  edtf: "1128-01"
+  hijri: "0522-02"
+  calendar: julian
+  precision: month
+  status: tradition
+  derived: true
+  note: توفي في صفر سنة 522هـ؛ التحويل مشتق.
+  sources:
+  - source/tarikh-ibn-khaldun-ibar
+relations:
+- type: ruler_of
+  target: polity/burid-dynasty
+  sources:
+  - source/tarikh-ibn-khaldun-ibar
+wings: [people]
+periods: [period/crusades-ayyubid-mamluk]
+regions: [levant-iraq]
+sources:
+- source/tarikh-ibn-khaldun-ibar
+provenance:
+  layer: own-research
+  source: ابن خلدون، العبر — دولة بني تتش، الحرب بين طغركين والفرنج ووفاته، ص1327-1328 (طبعة هيليوبوليس)
+  generated_by: Devin (SWE-2 High) from Apple Vision OCR
+  model: swe-2-high
+  run: lib-ibar-east-5
+status:
+  review: draft
+  completeness: 1
+  generated_by: Devin (SWE-2 High); extracted from Ibn Khaldun al-Ibar via Apple Vision OCR

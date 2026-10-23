@@ -1,0 +1,23 @@
+id: event/battle-of-garisi-1556
+class: event
+kind: battle
+label: { ar: "معركة غاريسي", en: "Battle of Garisi" }
+summary:
+  ar: "بطاقة أولية لمعركة غاريسي سنة ١٥٥٦م، فوز جورجيا على العثمانيين؛ لم تُراجع مصادره على الصفحة بعد."
+  en: "Draft card for the Battle of Garisi in 1556, the Georgian victory over the Ottoman force; its sources are not yet checked on the page."
+wings: [time]
+periods: [period/gunpowder-empires]
+regions: [persia-central-asia]
+date:
+  start: { edtf: "1556", precision: year, status: tradition, derived: true }
+  end: { edtf: "1556", precision: year, status: tradition, derived: true }
+sources: [source/dawlat-uthmaniyya-salabi]
+external_ids:
+  wikidata: Q4871082
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; battle attested in narrative histories — entry not yet checked on the page"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-wave2
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

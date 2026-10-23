@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 28:50 (سورة القصص، الآية 50)."
 text: "فَإِن لَّمْ يَسْتَجِيبُوا۟ لَكَ فَٱعْلَمْ أَنَّمَا يَتَّبِعُونَ أَهْوَآءَهُمْ ۚ وَمَنْ أَضَلُّ مِمَّنِ ٱتَّبَعَ هَوَىٰهُ بِغَيْرِ هُدًى مِّنَ ٱللَّهِ ۚ إِنَّ ٱللَّهَ لَا يَهْدِى ٱلْقَوْمَ ٱلظَّـٰلِمِينَ"
 text_search: "فإن لم يستجيبوا لك فاعلم أنما يتبعون أهواءهم ۚ ومن أضل ممن اتبع هواه بغير هدى من الله ۚ إن الله لا يهدي القوم الظالمين"
+translations:
+  en: { text: "And if they answer thee not, then know that what they follow is their lusts. And who goeth farther astray than he who followeth his lust without guidance from Allah. Lo! Allah guideth not wrongdoing folk.", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "پھر اگر یہ تمہاری بات قبول نہ کریں تو جان لو کہ یہ صرف اپنی خواہشوں کی پیروی کرتے ہیں۔ اور اس سے زیادہ کون گمراہ ہوگا جو خدا کی ہدایت کو چھوڑ کر اپنی خواہش کے پیچھے چلے۔ بیشک خدا ظالم لوگوں کو ہدایت نہیں دیتا", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-28 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 19:81 (سورة مريم، الآية 81)."
 text: "وَٱتَّخَذُوا۟ مِن دُونِ ٱللَّهِ ءَالِهَةً لِّيَكُونُوا۟ لَهُمْ عِزًّا"
 text_search: "واتخذوا من دون الله آلهة ليكونوا لهم عزا"
+translations:
+  en: { text: "And they have chosen (other) gods beside Allah that they may be a power for them.", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "اور ان لوگوں نے خدا کے سوا اور معبود بنالئے ہیں تاکہ وہ ان کے لئے (موجب عزت و) مدد ہوں", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-19 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

@@ -1,0 +1,23 @@
+id: event/french-expedition-to-syria-1860
+class: event
+kind: campaign
+label: { ar: "الحملة الفرنسية على الشام (١٨٦٠)", en: "French expedition to Syria (1860)" }
+summary:
+  ar: "بطاقة أولية للحملة الفرنسية على الشام في ١٨٦٠–١٨٦١م عقب فتنة جبل لبنان؛ لم تُراجع مصادره على الصفحة بعد."
+  en: "Draft card for the French expedition to Syria in 1860–61 following the Mount Lebanon civil conflict; its sources are not yet checked on the page."
+wings: [time]
+periods: [period/colonial-era]
+regions: [levant-iraq]
+date:
+  start: { edtf: "1860", precision: year, status: tradition, derived: true }
+  end: { edtf: "1861", precision: year, status: tradition, derived: true }
+sources: [source/dawlat-uthmaniyya-salabi]
+external_ids:
+  wikidata: Q3062446
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; battle attested in narrative histories — entry not yet checked on the page"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-wave2
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

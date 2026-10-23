@@ -1,0 +1,15 @@
+id: passage/muwatta-18-2042
+class: passage
+unit: hadith
+work: work/muwatta-malik
+ref: "2042"
+label: { ar: "الموطأ 2042 — مالك: فيمن دفع إلى رجل مالا قراضا فتجر فيه فربح، ثم عزل رأس المال وقسم الربح، فأخذ حصته وطرح حصة صاحب المال في المال بحضرة شهداء: لا تجوز قسمة الربح إلا بحضرة صاحب المال، وإن كان أخذ شيئا رده حتى يستوفي صاحب المال رأس ماله", en: "Muwatta 2042" }
+summary:
+  ar: "قال مالك في رجل دفع إلى رجل مالا قراضا، فتجر فيه، فربح، ثم عزل رأس المال، وقسم الربح، فأخذ حصته، وطرح حصة صاحب المال في المال، بحضرة شهداء أشهدهم على ذلك. قال: لا تجوز قسمة الربح إلا بحضرة صاحب المال، وإن كان أخذ شيئا رده، حتى يستوفي صاحب المال رأس ماله، ثم يقتسمان ما بقي بينهما على شرطهما. {cite:muwatta-maruf-1997 p.234}"
+relations:
+  - { type: part_of, target: passage/muwatta-kitab-18-qiraad }
+  - { type: mentions, target: person/malik-ibn-anas, sources: [source/muwatta-maruf-1997] }
+  - { type: basis_for, target: concept/qiradh, sources: [source/muwatta-maruf-1997] }
+provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 2, hadith 2042 at PDF p. 234; المحاسبة في القراض", generated_by: "Claude Code (claude-haiku-5-5) from Apple Vision OCR of the Noor-Book PDF, checked on the page image where doubtful", run: "muwatta-prose-k18-b56" }
+sources: [source/muwatta-maruf-1997]
+status: { review: draft, completeness: 2, generated_by: "Claude Code (claude-haiku-5-5); own-words account written from PDF p. 234; matn excerpt at most 40 words" }

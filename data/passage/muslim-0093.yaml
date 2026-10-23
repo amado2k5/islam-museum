@@ -1,0 +1,16 @@
+id: passage/muslim-0093
+class: passage
+unit: hadith
+work: work/sahih-muslim
+ref: "93"
+label: { ar: "مسلم 93 — الموجبتان", en: "Muslim 93 — The two guarantees" }
+text: "قال جابر: أتى النبي رجل فقال: يا رسول الله ما الموجبتان؟ قال: من مات لا يشرك بالله شيئاً دخل الجنة، ومن مات يشرك بالله شيئاً دخل النار"
+summary:
+  ar: "رواية جابر بن عبد الله في باب حرمة دم المؤمن من كتاب الإيمان في صحيح مسلم؛ جواب النبي عن سؤال «ما الموجبتان» بالتوحيد موجباً للجنة والشرك موجباً للنار."
+relations:
+  - { type: mentions, target: person/muhammad, sources: [source/sahih-muslim] }
+  - { type: mentions, target: person/jabir-ibn-abdullah, sources: [source/sahih-muslim] }
+  - { type: mentions, target: concept/tawhid, sources: [source/sahih-muslim] }
+provenance: { layer: own-research, source: "صحيح مسلم، كتاب الإيمان، باب حرمة دم المؤمن (طبعة دار التأصيل، الحديث 85؛ ترقيم عبد الباقي المعروف 93)، تصوير Apple Vision OCR", generated_by: "Devin (SWE-2 High) from Apple Vision OCR", run: "hadith-muslim-passages-4" }
+sources: [source/sahih-muslim]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High); matn excerpt at most 40 words checked against the scan" }

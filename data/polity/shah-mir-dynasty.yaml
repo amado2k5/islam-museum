@@ -1,0 +1,32 @@
+id: polity/shah-mir-dynasty
+class: polity
+kind: dynasty
+label:
+  ar: "سلالة شاه مير"
+  en: "Shah Mir dynasty"
+summary:
+  ar: "بطاقة أولية لسلالة شاه مير، الأسرة التي أسست سلطنة كشمير الإسلامية من ١٣٣٩ إلى ١٥٦١م؛ لم تُراجع مصادرها على الصفحة بعد."
+  en: "Draft card for the Shah Mir dynasty, the house that founded the Muslim sultanate of Kashmir from 1339 to 1561; its sources are not yet checked on the page."
+wings: [time]
+periods: [period/crusades-ayyubid-mamluk]
+regions: [south-asia]
+start:
+  edtf: "1339"
+  precision: year
+  status: tradition
+  derived: true
+end:
+  edtf: "1561"
+  precision: year
+  status: tradition
+  derived: true
+sources: [source/tarikh-islam-hasan-ibrahim]
+external_ids:
+  wikidata: Q11057724
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; dynasty attested in Kashmiri histories — entry not yet checked on the page"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-wave2
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

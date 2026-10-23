@@ -1,0 +1,40 @@
+id: person/kilic-ali-pasha
+class: person
+label:
+  ar: "قلج علي باشا"
+  en: "Kılıç Ali Pasha"
+names:
+  - { kind: full, lang: ar, value: "قلج علي باشا" }
+  - { kind: full, lang: en, value: "Uluj Ali Pasha" }
+roles: [grand-vizier, military-leader]
+gender: male
+summary:
+  ar: "قبودان (أمير) البحر العثماني؛ بعد استقرار الدولة في تونس تطلعت أنظاره إلى المغرب لضمه للدولة العثمانية، فصدرت إليه الأوامر بالتوجه إليه فوصل الجزائر في جمادى الآخرة ٩٨٩هـ/يونيو ١٥٨١م، لكن أحمد المنصور سدّ مداخل مملكته وحصّن الثغور ووجه سفارة إلى إستانبول وقارب اتفاقاً عسكرياً مع إسبانيا، فقبل السلطان الأمر الواقع وأمره ونائبه جعفر باشا بالتخلي عن العمل في المغرب والانتقال إلى الشرق حيث اضطربت أمور الحجاز — فتخلى عن هدفه الطموح في استرداد الأندلس. توفي سنة ٩٩٥هـ/١٥٨٧م، وبموته انتهى في الجزائر نظام البايلربك وخلفه قبوداناً للبحر حسن فنزيانو {cite:dawlat-uthmaniyya-salabi p. 270-273}."
+  en: "Ottoman kapudan pasha; once the state was settled in Tunis he set his sights on annexing Morocco and was ordered to march, reaching Algiers in Jumada II 989/June 1581. But Ahmad al-Mansur sealed his kingdom's passes, fortified the shores, sent an embassy to Istanbul and neared a military agreement with Spain, so the sultan accepted the fait accompli and ordered Uluj Ali and his deputy Jafar Pasha to abandon the Morocco operation for the east, where the Hejaz had grown troubled — ending his ambition of recovering al-Andalus. He died in 995/1587; with him ended Algiers' beylerbey system, and Hasan Veneziano succeeded him as kapudan {cite:dawlat-uthmaniyya-salabi p. 270-273}."
+wings: [people]
+regions: [anatolia-balkans, maghreb]
+periods: [period/gunpowder-empires]
+died:
+  edtf: "1587"
+  hijri: "0995"
+  calendar: gregorian
+  precision: year
+  status: tradition
+  derived: true
+  sources: [source/dawlat-uthmaniyya-salabi]
+relations:
+  - { type: participated_in, target: event/uluj-ali-morocco-1581, sources: [source/dawlat-uthmaniyya-salabi] }
+  - { type: opposed, target: person/ahmad-al-mansur-al-sadi, sources: [source/dawlat-uthmaniyya-salabi] }
+sources: [source/dawlat-uthmaniyya-salabi]
+external_ids:
+  wikidata: Q465269
+provenance:
+  layer: own-research
+  source: "الدولة العثمانية لعلي محمد الصلابي (ط1 1421) ص 270-273 — draft card verified on the page"
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: salabi-uthmani-batch15
+status:
+  review: draft
+  completeness: 2
+  generated_by: "Devin (SWE-2 Medium)"

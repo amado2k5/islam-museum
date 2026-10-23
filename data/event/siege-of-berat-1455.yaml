@@ -1,0 +1,23 @@
+id: event/siege-of-berat-1455
+class: event
+kind: siege
+label: { ar: "حصار بيرات (١٤٥٥)", en: "Siege of Berat" }
+summary:
+  ar: "بطاقة أولية لحصار بيرات سنة ١٤٥٥م، صد الحامية العثمانية لحصار إسكندر بك؛ لم تُراجع مصادره على الصفحة بعد."
+  en: "Draft card for the Siege of Berat in 1455, the Ottoman garrison's stand against Skanderbeg's siege; its sources are not yet checked on the page."
+wings: [time]
+periods: [period/crusades-ayyubid-mamluk]
+regions: [anatolia-balkans]
+date:
+  start: { edtf: "1455", precision: year, status: tradition, derived: true }
+  end: { edtf: "1455", precision: year, status: tradition, derived: true }
+sources: [source/dawlat-uthmaniyya-salabi]
+external_ids:
+  wikidata: Q3300177
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; siege attested in Albanian histories — entry not yet checked on the page"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-wave2
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

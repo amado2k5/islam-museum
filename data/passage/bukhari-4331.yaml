@@ -1,0 +1,16 @@
+id: passage/bukhari-4331
+class: passage
+unit: hadith
+work: work/sahih-al-bukhari
+ref: "4331"
+label: { ar: "البخاري 4331 — النبي يجمع الأنصار في قبة من أدم", en: "Bukhari 4331 — The Prophet gathers the Ansar in a leather tent" }
+text: "فحُدّث رسول الله بمقالتهم فأرسل إلى الأنصار فجمعهم في قبة من أدم ولم يدع معهم غيرهم، فلما اجتمعوا قام النبي فقال: «ما حديث بلغني عنكم؟»… «فإني أعطي رجالاً حديثي عهد بكفر أتألفهم، أما ترضون أن يذهب الناس بالأموال وتذهبون بالنبي إلى رحالكم؟»"
+summary:
+  ar: "في كتاب المغازي؛ رواية أنس بن مالك في وجد الأنصار حين أعطى النبي قريشاً المئات من الإبل وتركهم وسيوفهم تقطر من دماء هوازن، وجمعه إياهم في قبة أدم دون غيرهم حتى قالوا رضينا، وإخبارهم بالأثرة بعده وتركه علامة عدم الصبر عند أنس «فلم يصبروا»."
+relations:
+  - { type: mentions, target: group/ansar, sources: [source/sahih-al-bukhari] }
+  - { type: mentions, target: event/distribution-of-hunayn-spoils, sources: [source/sahih-al-bukhari] }
+  - { type: mentions, target: person/anas-ibn-malik, sources: [source/sahih-al-bukhari] }
+provenance: { layer: own-research, source: "صحيح البخاري (طبعة دار ابن كثير، ترقيم فخر الدين)، تصوير Apple Vision OCR، حديث 4331 (كتاب المغازي)", generated_by: "Devin (SWE-2 High) from Apple Vision OCR", run: "hadith-bukhari-passages-1" }
+sources: [source/sahih-al-bukhari]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High); matn excerpt at most 40 words checked against the scan" }

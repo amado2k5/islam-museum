@@ -1,0 +1,28 @@
+id: person/sayf-al-din-ibn-taymiyya
+class: person
+label: { ar: "سيف الدين ابن تيمية", en: "Sayf al-Din Ibn Taymiyya" }
+names:
+  - { value: "أبو محمد سيف الدين عبد الغني بن فخر الدين أبي عبد الله محمد بن تيمية الحراني الحنبلي", kind: full }
+born: { edtf: "1185", hijri: "0581-02-02", calendar: julian, precision: day, status: tradition, derived: true, note: "ولد في ثاني صفر سنة إحدى وثمانين وخمسمائة بحران {cite:shadharat-dhahab p. 205}." }
+died: { edtf: "1241", hijri: "0639-01-07", calendar: julian, precision: day, status: tradition, derived: true, note: "توفي في سابع المحرم بحران سنة تسع وثلاثين وستمائة {cite:shadharat-dhahab p. 205}.", sources: [source/shadharat-dhahab] }
+summary:
+  ar: "خطيب حران وابن خطيبها الفخر؛ سمع بها من والده فخر الدين وعبد القادر الرهاوي وغيرهما ورحل إلى بغداد فسمع من ابن سكينة وابن طبرزد وغيرهما، وأخذ الفقه عن غلام ابن المني، ورجع إلى حران وقام مقام أبيه بعد وفاته فكان يخطب ويعظ ويدرس ويلقي التفسير في الجامع على الكرسي؛ قال ابن حمدان كان خطيباً نصيحاً رئيساً ثابتاً رزين العقل، وله تصنيف الزوائد على تفسير الوالد وإهداء القرب إلى ساكني الترب {cite:shadharat-dhahab p. 205}."
+  en: "Sayf al-Din Abd al-Ghani b. Fakhr al-Din Ibn Taymiyya (b. Safar 581, d. 7 Muharram 639, Harran) — succeeded his father as Harran's khatib, preaching and giving tafsir from the chair; uncle-line of Taqi al-Din Ibn Taymiyya {cite:shadharat-dhahab p. 205}."
+gender: male
+roles: [scholar]
+wings: [people]
+periods: [period/crusades-ayyubid-mamluk]
+regions: [levant-iraq]
+faith:
+  - value: sunni-hanbali
+    basis: tradition
+relations:
+  - { type: child_of, target: person/fakhr-al-din-ibn-taymiyya, sources: [source/shadharat-dhahab] }
+  - { type: died_in, target: place/harran, sources: [source/shadharat-dhahab] }
+sources: [source/shadharat-dhahab]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }
+provenance:
+  layer: own-research
+  source: "شذرات الذهب — ابن العماد (ج5، سنة 639)، قراءة آبل فيجن"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-shadharat-batch-126

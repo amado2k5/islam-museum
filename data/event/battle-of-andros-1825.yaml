@@ -1,0 +1,23 @@
+id: event/battle-of-andros-1825
+class: event
+kind: naval-battle
+label: { ar: "معركة أندروس (١٨٢٥)", en: "Battle of Andros" }
+summary:
+  ar: "بطاقة أولية لمعركة أندروس سنة ١٨٢٥م، اشتباك الأسطول اليوناني والعثماني في الثورة؛ لم تُراجع مصادره على الصفحة بعد."
+  en: "Draft card for the Battle of Andros in 1825, the Greek-Ottoman fleet clash in the revolution; its sources are not yet checked on the page."
+wings: [time]
+periods: [period/colonial-era]
+regions: [anatolia-balkans]
+date:
+  start: { edtf: "1825-06-01", precision: year, status: tradition, derived: true }
+  end: { edtf: "1825-06-01", precision: year, status: tradition, derived: true }
+sources: [source/dawlat-uthmaniyya-salabi]
+external_ids:
+  wikidata: Q4438380
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; battle attested in narrative histories — entry not yet checked on the page"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-wave2
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

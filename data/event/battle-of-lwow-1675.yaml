@@ -1,0 +1,23 @@
+id: event/battle-of-lwow-1675
+class: event
+kind: battle
+label: { ar: "معركة لفوف (١٦٧٥)", en: "Battle of Lwów" }
+summary:
+  ar: "بطاقة أولية لمعركة لفوف سنة ١٦٧٥م، صد البولنديين لجيش العثمانيين والتتار؛ لم تُراجع مصادره على الصفحة بعد."
+  en: "Draft card for the Battle of Lwów in 1675, the Polish repulse of the Ottoman-Tatar army; its sources are not yet checked on the page."
+wings: [time]
+periods: [period/gunpowder-empires]
+regions: [anatolia-balkans]
+date:
+  start: { edtf: "1675", precision: year, status: tradition, derived: true }
+  end: { edtf: "1675", precision: year, status: tradition, derived: true }
+sources: [source/dawlat-uthmaniyya-salabi]
+external_ids:
+  wikidata: Q716425
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; battle attested in narrative histories — entry not yet checked on the page"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-wave2
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

@@ -1,0 +1,28 @@
+id: person/al-khunaji
+class: person
+label: { ar: "أفضل الدين الخونجي", en: "Afdal al-Din al-Khunaji" }
+names:
+  - { value: "أفضل الدين الخونجي محمد بن ناماور بن عبد الملك قاضي القضاة أبو عبد الله الشافعي", kind: full }
+born: { edtf: "1194", hijri: "0590-05", calendar: julian, precision: month, status: tradition, derived: true, note: "ولد في جمادى الأولى سنة تسعين وخمسمائة {cite:shadharat-dhahab p. 244}." }
+died: { edtf: "1249-01~", hijri: "0646-09", calendar: julian, precision: month, status: tradition, derived: true, note: "مات في رمضان سنة ست وأربعين وستمائة ودفن بسفح المقطم؛ قال أبو شامة كان حكيماً منطقياً {cite:shadharat-dhahab p. 245}." }
+summary:
+  ar: "قاضي القضاة الشافعي؛ ولد في جمادى الأولى سنة تسعين وخمسمائة واشتغل في العجم ثم قدم مصر وولي قضاءها وطلب وحصل وبالغ في علوم الأوائل حتى تفرد برياسة ذلك في زمانه وأفتى وناظر، وصنف الموجز والجمل وكشف الأسرار وكتاب أدوار الحياة؛ ورثاه تلميذه العز الأربلي الضرير؛ وكان تلحقه غفلة فيما يفكر فيه من المسائل العقلية حتى أدخل يده في رزة إبريق عند السلطان ونسى نفسه في الفكرة فقام الجماعة وبقي جالساً تمنعه أصبعه من القيام فأحضر حداداً فخلص أصبعه {cite:shadharat-dhahab p. 244-245}."
+  en: "The Shafi'i qadi al-qudat and logician (b. 590, d. Ramadan 646, Muqattam) — alone in his age's headship of the ancients' sciences; author of al-Mujaz, al-Jumal and Kashf al-Asrar; so abstracted that his finger once had to be freed by a blacksmith from the sultan's ewer-spout while he lost himself in a problem {cite:shadharat-dhahab p. 244-245}."
+gender: male
+roles: [scholar, jurist, philosopher]
+wings: [people]
+periods: [period/crusades-ayyubid-mamluk]
+regions: [persia-central-asia, egypt-nile]
+faith:
+  - value: sunni-shafii
+    basis: tradition
+relations:
+  - { type: died_in, target: place/cairo, sources: [source/shadharat-dhahab] }
+  - { type: buried_in, target: place/cairo, sources: [source/shadharat-dhahab] }
+sources: [source/shadharat-dhahab]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }
+provenance:
+  layer: own-research
+  source: "شذرات الذهب — ابن العماد (ج5، سنة 646)، قراءة آبل فيجن"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-shadharat-batch-127

@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 6:69 (سورة الأنعام، الآية 69)."
 text: "وَمَا عَلَى ٱلَّذِينَ يَتَّقُونَ مِنْ حِسَابِهِم مِّن شَىْءٍ وَلَـٰكِن ذِكْرَىٰ لَعَلَّهُمْ يَتَّقُونَ"
 text_search: "وما على الذين يتقون من حسابهم من شيء ولكن ذكرى لعلهم يتقون"
+translations:
+  en: { text: "Those who ward off (evil) are not accountable for them in aught, but the Reminder (must be given them) that haply they (too) may ward off (evil).", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "اور پرہیزگاروں پر ان لوگوں کے حساب کی کچھ بھی جواب دہی نہیں ہاں نصیحت تاکہ وہ بھی پرہیزگار ہوں", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-6 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

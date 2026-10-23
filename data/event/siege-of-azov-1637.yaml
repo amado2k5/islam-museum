@@ -1,0 +1,23 @@
+id: event/siege-of-azov-1637
+class: event
+kind: siege
+label: { ar: "حصار آزوف (١٦٣٧–١٦٤٢)", en: "Siege of Azov (1637–1642)" }
+summary:
+  ar: "بطاقة أولية لحصار آزوف في ١٦٣٧–١٦٤٢م، أخذ القوزاق القلعة من العثمانيين ثم استردادها؛ لم تُراجع مصادره على الصفحة بعد."
+  en: "Draft card for the Siege of Azov in 1637–42, the Cossack capture of the Ottoman fortress and its recovery; its sources are not yet checked on the page."
+wings: [time]
+periods: [period/gunpowder-empires]
+regions: [anatolia-balkans]
+date:
+  start: { edtf: "1637", precision: year, status: tradition, derived: true }
+  end: { edtf: "1642", precision: year, status: tradition, derived: true }
+sources: [source/dawlat-uthmaniyya-salabi]
+external_ids:
+  wikidata: Q4058439
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; battle attested in narrative histories — entry not yet checked on the page"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-wave2
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

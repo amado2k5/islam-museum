@@ -1,0 +1,40 @@
+id: person/yusuf-i-nasrid
+class: person
+label:
+  ar: السلطان يوسف الأول أبو الحجاج النصري
+  en: Sultan Yusuf I Abu al-Hajjaj al-Nasri
+summary:
+  ar: "أبو الحجاج يوسف بن إسماعيل بن نصر، سلطان غرناطة؛ هلك طعناً بمصلى العيد يوم الفطر سنة 755هـ بيد أسود مدسوس نُسبت مداخلته إلى بعض إماء قصرهم على حكاية ابن خلدون، فنصب أهل الأندلس ابنه محمداً الخامس وحجبه مولاه رضوان واستبد عليه."
+  en: "Abu al-Hajjaj Yusuf ibn Ismail ibn Nasr, sultan of Granada; killed by stabbing at the Eid musalla on the day of Fitr 755 AH by an infiltrated black man whose intrusion was attributed to some of the palace slave-women, per Ibn Khaldun's account — whereupon the Andalusians installed his son Muhammad V while his mawla Ridwan held him under ward and ruled over him."
+gender: male
+roles: [sultan]
+traditions: [sunni]
+died: { edtf: "1354-10-07", hijri: "0755-10-01", calendar: julian, precision: day, status: tradition, derived: true, note: "هلك يوم الفطر سنة 755هـ بمصلى العيد؛ التحويل مشتق.", sources: [source/tarikh-ibn-khaldun-ibar] }
+relations:
+- type: ruler_of
+  target: polity/emirate-of-granada
+  sources:
+  - source/tarikh-ibn-khaldun-ibar
+- type: successor_of
+  target: person/abu-al-hasan-nasrid
+  sources:
+  - source/tarikh-ibn-khaldun-ibar
+- type: parent_of
+  target: person/muhammad-v-nasrid
+  sources:
+  - source/tarikh-ibn-khaldun-ibar
+wings: [people]
+periods: [period/mongol-post-mongol]
+regions: [andalus-europe]
+sources:
+- source/tarikh-ibn-khaldun-ibar
+provenance:
+  layer: own-research
+  source: ابن خلدون، العبر — مهلك أبي الحجاج سلطان الأندلس، ص1992 (المجلد السادس، طبعة هيليوبوليس)
+  generated_by: Devin (SWE-2 High) from Apple Vision OCR
+  model: swe-2-high
+  run: lib-ibar-maghreb-4
+status:
+  review: draft
+  completeness: 1
+  generated_by: Devin (SWE-2 High); extracted from Ibn Khaldun al-Ibar via Apple Vision OCR

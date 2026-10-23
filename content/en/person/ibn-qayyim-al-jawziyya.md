@@ -2,19 +2,13 @@
 id: person/ibn-qayyim-al-jawziyya
 lang: en
 source_lang: ar
-translators: []
+translators: ["Claude Haiku 5.5 (claude-haiku-5-5), draft translation"]
 ---
 
-## Brief
-A Muslim scholar and author. His best-known work here is *Ighathat al-Lahfan fi Masa'id al-Shaytan* (Relief for the Distressed from the Snares of Satan), which argues against the veneration, prayer, supplication and appeals to the dead practised at graves, and against the innovations and polytheism linked to them {cite:ighathat-lahfan-muntakhab p.1}. He also wrote *Zad al-Ma'ad fi Hadyi Khayr al-Ibad* {cite:zad-al-maad}.
+## Overview
+The shaykh Shams al-Din Muhammad ibn Abi Bakr, Ibn Qayyim al-Jawziyya, a Hanbali of Damascus, author of *I'lam al-Muwaqqi'in* (Informing the Signatories) on behalf of the Lord of the Worlds. {cite:kashf-zunun-furqan p.518}
 
-## The extract
-The text read for this entry is an extract from *Ighathat al-Lahfan* gathered by Rumi Efendi for a friend. It collects what the compiler found in reliable books about graves {cite:ighathat-lahfan-muntakhab p.2}. The author combines texts with argument: he cites hadith against taking graves as mosques, the Qur'an on intercession, and the silence of the sources on any Companion or Successor seeking help at a grave {cite:ighathat-lahfan-muntakhab p.12} {cite:ighathat-lahfan-muntakhab p.15}.
+## Death and works
+Haji Khalifa gives his death as 751 AH. The conversion to the Gregorian calendar is derived. {cite:kashf-zunun-furqan p.518} Among his works is [[work/ilam-al-muwaqqiin|I'lam al-Muwaqqi'in]]. {cite:kashf-zunun-furqan p.518}
 
-## His positions in the extract
-- He describes the trial of graves as the origin of idol worship, and treats prayer at graves and appeals to their occupants as causes of shirk {cite:ighathat-lahfan-muntakhab p.3} {cite:ighathat-lahfan-muntakhab p.4}.
-- He separates the lawful visit, for reflection, greeting and prayer for the dead, from the innovated visit that seeks prayer, circling or help {cite:ighathat-lahfan-muntakhab p.10} {cite:ighathat-lahfan-muntakhab p.11}.
-- He holds that Satan leads people step by step: from visiting, to praying at the grave, to appealing to its occupant, to worshipping it {cite:ighathat-lahfan-muntakhab p.18}.
-
-## For the reader
-These are the author's views and are presented as his. Some passages are hard to read in this digital copy and should be checked against a printed edition before they are relied on.
+He is counted among the teachers of [[person/ibn-rajab|Ibn Rajab]]. {cite:ibn-rajab-jami-ulum-hikam p.11}

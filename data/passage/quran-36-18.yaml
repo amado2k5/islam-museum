@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 36:18 (سورة يس، الآية 18)."
 text: "قَالُوٓا۟ إِنَّا تَطَيَّرْنَا بِكُمْ ۖ لَئِن لَّمْ تَنتَهُوا۟ لَنَرْجُمَنَّكُمْ وَلَيَمَسَّنَّكُم مِّنَّا عَذَابٌ أَلِيمٌ"
 text_search: "قالوا إنا تطيرنا بكم ۖ لئن لم تنتهوا لنرجمنكم وليمسنكم منا عذاب أليم"
+translations:
+  en: { text: "(The people of the city) said: We augur ill of you. If ye desist not, we shall surely stone you, and grievous torture will befall you at our hands.", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "وہ بولے کہ ہم تم کو نامبارک سمجھتے ہیں۔ اگر تم باز نہ آؤ گے تو ہم تمہیں سنگسار کردیں گے اور تم کو ہم سے دکھ دینے والا عذاب پہنچے گا", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-36 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

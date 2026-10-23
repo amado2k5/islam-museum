@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 34:1 (سورة سبأ، الآية 1)."
 text: "بِسْمِ ٱللَّهِ ٱلرَّحْمَـٰنِ ٱلرَّحِيمِ ٱلْحَمْدُ لِلَّهِ ٱلَّذِى لَهُۥ مَا فِى ٱلسَّمَـٰوَٰتِ وَمَا فِى ٱلْأَرْضِ وَلَهُ ٱلْحَمْدُ فِى ٱلْـَٔاخِرَةِ ۚ وَهُوَ ٱلْحَكِيمُ ٱلْخَبِيرُ"
 text_search: "بسم الله الرحمن الرحيم الحمد لله الذي له ما في السماوات وما في الأرض وله الحمد في الآخرة ۚ وهو الحكيم الخبير"
+translations:
+  en: { text: "Praise be to Allah, unto Whom belongeth whatsoever is in the heavens and whatsoever is in the earth. His is the praise in the Hereafter, and He is the Wise, the Aware.", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "سب تعریف خدا ہی کو (سزاوار) ہے (جو سب چیزوں کا مالک ہے یعنی) وہ کہ جو کچھ آسمانوں میں ہے اور جو کچھ زمین میں ہے سب اسی کا ہے اور آخرت میں بھی اسی کی تعریف ہے۔ اور وہ حکمت والا خبردار ہے", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-34 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

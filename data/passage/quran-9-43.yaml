@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 9:43 (سورة التوبة، الآية 43)."
 text: "عَفَا ٱللَّهُ عَنكَ لِمَ أَذِنتَ لَهُمْ حَتَّىٰ يَتَبَيَّنَ لَكَ ٱلَّذِينَ صَدَقُوا۟ وَتَعْلَمَ ٱلْكَـٰذِبِينَ"
 text_search: "عفا الله عنك لم أذنت لهم حتى يتبين لك الذين صدقوا وتعلم الكاذبين"
+translations:
+  en: { text: "Allah forgive thee (O Muhammad)! Wherefor didst thou grant them leave ere those who told the truth were manifest to thee and thou didst know the liars?", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "خدا تمہیں معاف کرے۔ تم نے پیشتر اس کے کہ تم پر وہ لوگ بھی ظاہر ہو جاتے ہیں جو سچے ہیں اور وہ بھی تمہیں معلوم ہو جاتے جو جھوٹے ہیں اُن کو اجازت کیوں دی", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-9 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

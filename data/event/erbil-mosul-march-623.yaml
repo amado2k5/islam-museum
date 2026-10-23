@@ -1,0 +1,22 @@
+id: event/erbil-mosul-march-623
+class: event
+kind: campaign
+label: { ar: "مسير مظفر الدين صاحب إربل إلى الموصل وعوده عنها", en: "Muzaffar al-Din of Irbil marches on Mosul and returns" }
+date:
+  start: { edtf: "1226~", hijri: "0623", calendar: julian, precision: year, status: tradition, derived: true }
+summary:
+  ar: "سار مظفر الدين كوكبري صاحب إربل إلى الموصل ثم عاد عنها دون ظفر {cite:kamil-ibn-al-athir p. 462}."
+  en: "Muzaffar al-Din Kokburi of Irbil marched on Mosul and returned without success {cite:kamil-ibn-al-athir p. 462}."
+sides:
+  - label: { ar: "المسلمون وخصومهم" }
+  - label: { ar: "الطرف الآخر" }
+relations:
+  - { type: occurred_at, target: place/mosul, sources: [source/kamil-ibn-al-athir] }
+  - { type: had_participant, target: person/muzaffar-al-din-kokburi, role: "السائر", sources: [source/kamil-ibn-al-athir] }
+provenance:
+  layer: own-research
+  source: "الكامل في التاريخ لابن الأثير، قراءة آبل فيجن"
+  generated_by: "Devin (SWE-2 Medium) from Apple Vision OCR"
+  run: lib-kamil-v12-batch08
+sources: [source/kamil-ibn-al-athir]
+status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 Medium)" }

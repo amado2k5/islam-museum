@@ -1,0 +1,24 @@
+id: person/ahmad-al-wattasi
+class: person
+label: { ar: "أحمد الوطاسي", en: "Ahmad al-Wattasi" }
+names:
+  - { kind: full, lang: ar, value: "أحمد الوطاسي" }
+gender: male
+roles: [ruler]
+summary:
+  ar: "الملك الوطاسي الذي تلقى هزيمة سنة ٩٤٣هـ/١٥٣٦م من السعديين في موقعة بئر عقبة قرب وادي العبيد بسبب تخلي قبائل الخلوط التي كانت القوة الأمامية لجيشه. قرّبته الهزيمة من البرتغال فوقّع معها معاهدة أحد عشر عاماً تضع المغاربة المقيمين في ضواحي أصيلا وطنجة والقصر الصغير تحت قضاء ملك فاس وتحظر شراء الغنائم المأخوذة من المغاربة من المراكب العثمانية والفرنسية {cite:dawlat-uthmaniyya-salabi p. 221-222}."
+  en: "The Wattasid king defeated by the Sa'dis at Bi'r 'Uqba near Wadi al-'Abid in 943/1536 when the Khalut tribes deserted his vanguard; the defeat pushed him toward Portugal, with whom he signed an eleven-year treaty placing Moroccans around Asilah, Tangier and Qasr al-Saghir under Fas's jurisdiction and barring purchase of booty from Ottoman or French ships {cite:dawlat-uthmaniyya-salabi p. 221-222}."
+wings: [people]
+periods: [period/gunpowder-empires]
+regions: [maghreb]
+relations:
+  - { type: ruled_over, target: polity/wattasid-dynasty, sources: [source/dawlat-uthmaniyya-salabi] }
+sources: [source/dawlat-uthmaniyya-salabi]
+external_ids: { wikidata: "Q3188827" }
+provenance:
+  layer: own-research
+  source: "الدولة العثمانية لعلي محمد الصلابي (ط1 1421) ص 221-222"
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: salabi-uthmani-batch9
+status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 Medium)" }

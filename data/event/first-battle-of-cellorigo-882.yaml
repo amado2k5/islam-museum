@@ -1,0 +1,23 @@
+id: event/first-battle-of-cellorigo-882
+class: event
+kind: battle
+label: { ar: "معركة سييوريغو الأولى (٨٨٢)", en: "First Battle of Cellorigo (882)" }
+summary:
+  ar: "بطاقة أولية لمعركة سييوريغو الأولى سنة ٨٨٢م، صدّ الأستوريين لحملة أمير قرطبة؛ لم تُراجع مصادره على الصفحة بعد."
+  en: "Draft card for the First Battle of Cellorigo in 882, the Asturian repulse of the Cordoban emir's campaign; its sources are not yet checked on the page."
+wings: [time]
+periods: [period/abbasid-early]
+regions: [andalus-europe]
+date:
+  start: { edtf: "0882", precision: year, status: tradition, derived: true }
+  end: { edtf: "0882", precision: year, status: tradition, derived: true }
+sources: [source/tarikh-islam-hasan-ibrahim]
+external_ids:
+  wikidata: Q55647802
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; battle attested in narrative histories — entry not yet checked on the page"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-wave2
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

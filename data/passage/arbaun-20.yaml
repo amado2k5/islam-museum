@@ -1,0 +1,16 @@
+id: passage/arbaun-20
+class: passage
+unit: hadith
+work: work/arbaun-nawawi
+ref: "20"
+label: { ar: "الأربعون 20 — إذا لم تستح فاصنع ما شئت", en: "Arba'un 20 — if you feel no shame, do as you wish" }
+text: "إن مما أدرك الناس من كلام النبوة الأولى: إذا لم تستح فاصنع ما شئت"
+summary:
+  ar: "حديث أبي مسعود البدري، وهو الحديث العشرون في الأربعين النووية وفي شرح ابن رجب؛ رواه البخاري (3483 و6120) من رواية منصور بن المعتمر عن ربعي بن حراش عن أبي مسعود، ولم يخرجه مسلم، واختلف في إسناده فقيل عن ربعي عن حذيفة، لكن أكثر الحفاظ — منهم البخاري وأبو زرعة والدارقطني — حكموا بأن القول قول من قال عن أبي مسعود، وعضد ذلك رواية مسروق عنه من وجه آخر، وخرجه الطبراني عن أبي الطفيل مرسلاً؛ ومعنى «كلام النبوة الأولى» عند ابن رجب أنه مأثور عن الأنبياء المتقدمين تداوله الناس وتوارثوه قرناً بعد قرن حتى وصل إلى أول هذه الأمة؛ ولقوله «إذا لم تستح فاصنع ما شئت» معنيان: الأول أنه ليس بمعنى الأمر بل الذم والنهي — إما بمعنى التهديد والوعيد كقوله «اعملوا ما شئتم إنه بما تعملون بصير» وهو اختيار جماعة منهم أبو العباس ثعلب، وإما أمرٌ معناه الخبر أي أن من لا حياء له يصنع ما شاء لأن الحياء هو المانع من فعل القبائح وهو اختيار أبي عبيد القاسم بن سلام وابن قتيبة ومحمد بن نصر المروزي وروى أبو داود عن الإمام أحمد ما يدل على مثله (جامع العلوم والحكم ص 464–470)."
+  en: "Abu Masud al-Badri's hadith, the twentieth of al-Nawawi's Forty and of Ibn Rajab's commentary; transmitted by al-Bukhari (3483, 6120) through Mansur ibn al-Mu'tamir from Rib'i ibn Hirash from Abu Masud, Muslim omitting it, and its chain was disputed — some said Rib'i from Hudhayfa — but most of the memorising critics, among them al-Bukhari, Abu Zur'a and al-Daraqutni, ruled for those who said from Abu Masud, corroborated by Masruq's route from him, al-Tabarani also carrying it mursal from Abu al-Tufayl; for Ibn Rajab 'the speech of the first prophethood' means it was handed down from the earlier prophets, transmitted among people generation after generation until it reached the first of this community; 'if you feel no shame, do as you wish' has two readings — not a command but censure: either as threat and warning, like 'do as you wish, for He sees what you do', the choice of a group including Abu al-Abbas Tha'lab, or a command in form whose meaning is a statement — whoever has no shame will do whatever he wishes, shame being the restraint from ugly deeds — the choice of Abu Ubayd al-Qasim ibn Sallam, Ibn Qutayba and Muhammad ibn Nasr al-Marwazi, Abu Dawud reporting from Ahmad what points the same way (Jami' al-Ulum wal-Hikam pp. 464–470)."
+relations:
+  - { type: basis_for, target: concept/haya, sources: [source/ibn-rajab-jami-ulum-hikam] }
+  - { type: mentions, target: person/abu-masud-al-badri, sources: [source/ibn-rajab-jami-ulum-hikam] }
+provenance: { layer: own-research, source: "Jami' al-Ulum wal-Hikam (Dar Ibn Kathir 1429/2008), hadith 20 pp. 464–470", generated_by: "Devin (SWE-2 High) from Apple Vision OCR", run: "lib-jami-ulum-hikam-batch-8" }
+sources: [source/ibn-rajab-jami-ulum-hikam]
+status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 High); matn verified against OCR of printed p. 464, isnad dispute and the two readings from pp. 464–465" }

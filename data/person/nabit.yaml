@@ -1,0 +1,28 @@
+id: person/nabit
+class: person
+label: { ar: "نابت بن إسماعيل", en: "Nabit (Nebaioth) ibn Ismail" }
+names:
+  - { kind: full, lang: ar, value: "نابت بن إسماعيل بن إبراهيم" }
+  - { kind: alternate, lang: ar, value: "نبايوط" }
+gender: male
+roles: [tribal-ancestor]
+summary:
+  ar: "أكبر ولد إسماعيل من ابنة مضاض الجرهمي في سياق الرحيق المختوم؛ من ولده الأنباط الذين ازدهرت حضارتهم في شمال الحجاز واتخذوا البتراء عاصمة، ويُقال إنه ولي أمر مكة بعد أبيه هو وأخوه قيدار على خلاف في الترتيب؛ ورجّح سليمان الندوي أن آل غسان والأنصار من ولده لا من قحطان."
+  en: "In al-Raheeq al-Makhtum's account the eldest of Ismail's sons by the daughter of Mudad al-Jurhumi; ancestor of the Nabataeans of northern Hijaz with Petra as their capital; said to have held Mecca after his father with his brother Qaydar, in disputed order; Sulayman al-Nadwi argued that the Ghassanids and the Ansar descend from him rather than from Qahtan."
+wings: [people]
+themes: [family-marriage-kinship]
+periods: [period/pre-islamic-arabia]
+regions: [arabia, levant-iraq]
+relations:
+  - { type: child_of, target: person/ismail, note: "أول الاثني عشر ولداً المذكورين في الرحيق عن ابنة مضاض.", sources: [source/mubarakpuri-raheeq, source/qalb-jazirat-al-arab] }
+  - { type: child_of, target: person/bint-mudad-al-jurhumi, sources: [source/mubarakpuri-raheeq] }
+  - { type: sibling_of, target: person/qaydar, sources: [source/mubarakpuri-raheeq] }
+  - { type: ruler_of, target: place/mecca, confidence: low, note: "ولي نابت ثم قيدار، ويقال العكس؛ ولم يذكر ابن هشام إلا ولاية نابت.", sources: [source/mubarakpuri-raheeq, source/ibn-hisham-sira] }
+provenance:
+  layer: own-research
+  source: "الرحيق المختوم ص17–20 و27 نقلاً عن قلب جزيرة العرب ص230–235 وتاريخ أرض القرآن 2/78–86 وصحيح البخاري 1/474–476"
+  generated_by: "Claude Code"
+  model: "claude-fable-5-1"
+  run: "raheeq-prose-batch-1a"
+sources: [source/mubarakpuri-raheeq, source/qalb-jazirat-al-arab, source/tarikh-ard-al-quran, source/ibn-hisham-sira]
+status: { review: draft, completeness: 2, generated_by: "Claude Code (claude-fable-5-1); al-Raheeq al-Makhtum pp. 20, 27" }

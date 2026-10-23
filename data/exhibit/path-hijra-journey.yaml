@@ -1,0 +1,76 @@
+id: exhibit/path-hijra-journey
+class: exhibit
+kind: trail
+label:
+  ar: رحلة الهجرة
+  en: The Hijra Journey
+summary:
+  ar: 'مسار في أشهر رحلة في التاريخ: من مكة إلى الغار إلى قُباء إلى المدينة — تسعة أيام غيرت العالم.'
+  en: A trail through the most famous journey.
+audience:
+- newcomer
+- student
+duration_minutes: 30
+wings: []
+regions:
+- arabia
+rooms:
+- title:
+    ar: الخروج
+    en: The departure
+  body:
+    ar: 'ليلة المبيت: علي في الفراش.'
+    en: 'ليلة المبيت: علي في الفراش.'
+  features:
+  - journey/hijra-route
+  - person/ali-ibn-abi-talib
+- title:
+    ar: الغار
+    en: The cave
+  body:
+    ar: 'ثور ثلاثة أيام: العنكبوت والحمامة.'
+    en: 'ثور ثلاثة أيام: العنكبوت والحمامة.'
+  features:
+  - journey/hijra-route
+  - person/abu-bakr
+- title:
+    ar: الساحل
+    en: The coast
+  body:
+    ar: 'طريق النجاة: سراقة يتبع.'
+    en: 'طريق النجاة: سراقة يتبع.'
+  features:
+  - journey/hijra-route
+  - place/medina
+- title:
+    ar: قُباء
+    en: Quba
+  body:
+    ar: 'أربعة أيام في قباء: مسجد يُبنى.'
+    en: 'أربعة أيام في قباء: مسجد يُبنى.'
+  features:
+  - journey/hijra-route
+  - building/masjid-quba
+- title:
+    ar: المدينة
+    en: Medina
+  body:
+    ar: 'الدخول يوم الجمعة: البداية.'
+    en: 'الدخول يوم الجمعة: البداية.'
+  features:
+  - place/medina
+  - building/prophets-mosque
+prerequisites:
+- exhibit/path-islam-in-30-minutes
+sources:
+- source/wikidata
+provenance:
+  layer: own-research
+  source: Devin-assembled trail from existing museum entities
+  generated_by: Devin (SWE-2 High)
+  model: SWE-2 High
+  run: pathways-batch-7
+status:
+  review: draft
+  completeness: 1
+  generated_by: Devin (SWE-2 High), pathways lane, 2026-10-16

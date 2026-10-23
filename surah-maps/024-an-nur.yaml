@@ -1,0 +1,48 @@
+surah: 24
+slug: an-nur
+sources_consulted:
+  - "kuttab.com — Surah An-Nur mind map (5 blocks: 1-10, 11-26, 27-34, 35-46, 47-64)"
+  - "Wikipedia — مقاصد سورة النور (cross-checked themes)"
+map:
+  - title: { ar: "الحدود", en: "The Prescribed Punishments" }
+    range: [1, 10]
+    family: law
+    summary:
+      ar: "حد الزنا، وعقوبة قذف المحصنات، وحكم اللعان بين الزوجين عند الاتهام."
+      en: "The punishment for adultery, for slandering chaste women, and li'an oaths between spouses."
+    children:
+      - { title: { ar: "حد الزنا", en: "The Adultery Punishment" }, range: [2, 2] }
+      - { title: { ar: "اللعان", en: "Li'an" }, range: [6, 9] }
+  - title: { ar: "حديث الإفك", en: "The Slander" }
+    range: [11, 26]
+    family: law
+    summary:
+      ar: "قصة الإفك: الذين جاؤوا به عصبة، وتأديب من خاض فيه، والتحذير من إشاعة الفاحشة."
+      en: "The slander affair: its spreaders a band; disciplining those who repeated it; warning against spreading indecency."
+    children:
+      - { title: { ar: "براءة عائشة", en: "Aisha's Vindication" }, range: [11, 13] }
+  - title: { ar: "الاستئذان والحجاب", en: "Seeking Permission and the Covering" }
+    range: [27, 34]
+    family: law
+    summary:
+      ar: "آداب الاستئذان ودخول البيوت، وغض البصر للرجال والنساء، والحجاب، وتزويج الأيامى."
+      en: "Manners of permission and entering homes; lowering the gaze for men and women; the covering; marrying the unmarried."
+    children:
+      - { title: { ar: "غض البصر", en: "Lowering the Gaze" }, range: [30, 31] }
+  - title: { ar: "آية النور", en: "The Verse of Light" }
+    range: [35, 46]
+    family: faith
+    summary:
+      ar: "الله نور السماوات والأرض: المشكاة والمصباح، وبيوت أذن الله أن ترفع، وظلمات الكفر."
+      en: "Allah the Light of the heavens and earth: niche, lamp, houses raised for remembrance, and the darknesses of disbelief."
+    children:
+      - { title: { ar: "مثل النور", en: "The Parable of Light" }, range: [35, 35] }
+      - { title: { ar: "مثل الظلمات", en: "The Parable of Darkness" }, range: [40, 40] }
+  - title: { ar: "الطاعة والاستخلاف", en: "Obedience and Succession" }
+    range: [47, 64]
+    family: faith
+    summary:
+      ar: "المنافقون يقولون آمنا ثم يتولون، ووعد الله بالاستخلاف للمؤمنين، وآداب البيوت والدعاء."
+      en: "Hypocrites claim faith then turn away; Allah's promise of succession; household manners; the closing supplication."
+    children:
+      - { title: { ar: "وعد الاستخلاف", en: "The Promise of Succession" }, range: [55, 55] }

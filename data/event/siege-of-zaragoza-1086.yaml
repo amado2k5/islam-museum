@@ -1,0 +1,23 @@
+id: event/siege-of-zaragoza-1086
+class: event
+kind: siege
+label: { ar: "حصار سرقسطة (١٠٨٦)", en: "Siege of Zaragoza (1086)" }
+summary:
+  ar: "بطاقة أولية لحصار سرقسطة سنة ١٠٨٦م، حصار ألفونسو السادس الذي رفعه بعد الزلاقة؛ لم تُراجع مصادره على الصفحة بعد."
+  en: "Draft card for the Siege of Zaragoza in 1086, Alfonso VI's investment lifted after the Almoravid victory at Sagrajas; its sources are not yet checked on the page."
+wings: [time]
+periods: [period/buyid-seljuk-fatimid-era]
+regions: [andalus-europe]
+date:
+  start: { edtf: "1086", precision: year, status: tradition, derived: true }
+  end: { edtf: "1086", precision: year, status: tradition, derived: true }
+sources: [source/tarikh-islam-hasan-ibrahim]
+external_ids:
+  wikidata: Q18007704
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; battle attested in narrative histories — entry not yet checked on the page"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-wave2
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

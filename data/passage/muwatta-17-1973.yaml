@@ -1,0 +1,16 @@
+id: passage/muwatta-17-1973
+class: passage
+unit: hadith
+work: work/muwatta-malik
+ref: "1973"
+label: { ar: "الموطأ 1973 — مالك: إنما فرق بين أن لا يبيع الرجل إلا ما عنده، وأن يسلف الرجل في شيء ليس عنده أصله، لأن صاحب العينة إنما يحمل ذهبه التي يريد أن يبتاع بها، فيقول: هذه عشرة دنانير فما تريد أن أشتري لك بها؟ فكأنه يبيع عشرة دنانير نقدا بخمسة عشر دينارا إلى أجل", en: "Muwatta 1973" }
+summary:
+  ar: "قال مالك: وإنما فرق بين أن لا يبيع الرجل إلا ما عنده، وأن يسلف الرجل في شيء ليس عنده أصله. أن صاحب العينة إنما يحمل ذهبه التي يريد أن يبتاع بها، فيقول: هذه عشرة دنانير فما تريد أن أشتري لك بها؟ فكأنه يبيع عشرة دنانير نقدا بخمسة عشر دينارا إلى أجل. فلهذا كره هذا، وإنما تلك الدخلة والدلسة. {cite:muwatta-maruf-1997 p.207} {cite:muwatta-maruf-1997 p.208}"
+relations:
+  - { type: part_of, target: passage/muwatta-kitab-17-buyu }
+  - { type: mentions, target: person/malik-ibn-anas, sources: [source/muwatta-maruf-1997] }
+  - { type: basis_for, target: concept/inah, sources: [source/muwatta-maruf-1997] }
+  - { type: basis_for, target: concept/riba, sources: [source/muwatta-maruf-1997] }
+provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 2, hadith 1973 at PDF p. 207; جامع الدين والحول", generated_by: "Claude Code (claude-haiku-5-5) from Apple Vision OCR of the Noor-Book PDF, checked on the page image where doubtful", run: "muwatta-prose-k17-b52" }
+sources: [source/muwatta-maruf-1997]
+status: { review: draft, completeness: 2, generated_by: "Claude Code (claude-haiku-5-5); own-words account written from PDF p. 207; matn excerpt at most 40 words" }

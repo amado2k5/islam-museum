@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 32:14 (سورة السجدة، الآية 14)."
 text: "فَذُوقُوا۟ بِمَا نَسِيتُمْ لِقَآءَ يَوْمِكُمْ هَـٰذَآ إِنَّا نَسِينَـٰكُمْ ۖ وَذُوقُوا۟ عَذَابَ ٱلْخُلْدِ بِمَا كُنتُمْ تَعْمَلُونَ"
 text_search: "فذوقوا بما نسيتم لقاء يومكم هذا إنا نسيناكم ۖ وذوقوا عذاب الخلد بما كنتم تعملون"
+translations:
+  en: { text: "So taste (the evil of your deeds). Forasmuch as ye forgot the meeting of this your day, lo! We forget you. Taste the doom of immortality because of what ye used to do.", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "سو (اب آگ کے) مزے چکھو اس لئے کہ تم نے اُس دن کے آنے کو بھلا رکھا تھا (آج) ہم بھی تمہیں بھلا دیں گے اور جو کام تم کرتے تھے اُن کی سزا میں ہمیشہ کے عذاب کے مزے چکھتے رہو", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-32 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

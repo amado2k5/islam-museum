@@ -1,0 +1,24 @@
+id: event/ottoman-raid-djerba-967
+class: event
+kind: battle
+label: { ar: "هجوم بيالي باشا على جربة (٩٦٧هـ/١٥٦٠م)", en: "Piyale Pasha's attack on Djerba (967/1560)" }
+summary:
+  ar: "قام الأسطول العثماني بقيادة بيالي باشا بالهجوم على جزيرة جربة في رمضان ٩٦٧هـ/مايو ١٥٦٠م ونجح في تحقيق أهدافه ضد الأسبان الذين استنجدوا بفرنسا؛ ثم أقنعه درغوث باشا بالتوجه إلى طرابلس للقضاء على التمرد قرب تاجوراء فدخلها دخول الفاتحين بسفن مزينة بأعلام الأعداء منكسة {cite:dawlat-uthmaniyya-salabi p. 249}."
+  en: "The Ottoman fleet under Piyale Pasha attacked the island of Djerba in Ramadan 967/May 1560 and achieved its aims against the Spanish, who did not scruple to call in France; then, at Dragut's persuasion, he turned to Tripoli to crush the rising near Tajura, entering it like a conqueror with enemy flags drooping from his masts {cite:dawlat-uthmaniyya-salabi p. 249}."
+wings: [time]
+periods: [period/gunpowder-empires]
+regions: [maghreb]
+date:
+  start: { edtf: "1560-05", hijri: "0967-09", calendar: gregorian, precision: month, status: tradition, derived: true, sources: [source/dawlat-uthmaniyya-salabi] }
+relations:
+  - { type: had_participant, target: person/piyale-pasha, sources: [source/dawlat-uthmaniyya-salabi] }
+  - { type: had_participant, target: person/turgut-reis, sources: [source/dawlat-uthmaniyya-salabi] }
+sources: [source/dawlat-uthmaniyya-salabi]
+external_ids: { wikidata: "Q1745598" }
+provenance:
+  layer: own-research
+  source: "الدولة العثمانية لعلي محمد الصلابي (ط1 1421) ص 249"
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: salabi-uthmani-batch13
+status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 Medium)" }

@@ -1,0 +1,26 @@
+id: person/shaykh-ibn-abdallah-aydarus
+class: person
+label: { ar: "الشيخ العيدروس شيخ تريم", en: "Shaykh al-'Aydarus, 'the second 'Aydarus' of Tarim" }
+names:
+  - { kind: full, lang: ar, value: "الشيخ بن عبد الله بن شيخ بن عبد الله العيدروس اليمني الشافعي" }
+gender: male
+roles: [mystic, writer]
+traditions: [sunni]
+wings: [people]
+themes: [spirituality-and-sufism]
+periods: [period/gunpowder-empires]
+regions: [arabia, south-asia]
+summary:
+  ar: "الشيخ العارف بالله شيخ بن عبد الله بن شيخ بن عبد الله العيدروس اليمني الشافعي؛ قال ولده في النور السافر في أعيان القرن العاشر: ولد سنة تسع عشرة وتسعمائة بتريم من اليمن وصار شيخ زمانه باتفاق عارفي وقته، ولقد ألهم الله أهله حيث سموه شيخاً، وكان علامة وقته وشيخ الطريقة حقيقة واسماً؛ وقال الشيخ أبو بكر باعلوى: ما أحد من آل باعلوي أولهم وآخرهم أُعطي مثله؛ وكان يعتمر غالباً في رمضان أربع عمرات بالليل وأربعاً بالنهار، ومن أخذ عنه العلم ابن حجر الهيتمي وعبد الله باقشير الحضرمي؛ ومن مصنفاته العقد النبوي والسر المصطفوي والفوز والبشرى وشرحان على قصيدته المسماة تحفة المريد ومولدان ومعراج والحزب النفيس ونفحات الحكم على لامية العجم وديوان شعر؛ دخل الهند سنة ثمان وخمسين وتسعمائة فأقام بها إلى أن توفي بأحمد أباد ليلة السبت لست وعشرين خلت من شهر رمضان {cite:shadharat-dhahab p. 423-424}."
+  en: "Shaykh b. 'Abd Allah al-'Aydarus — Tarim's 'shaykh of his age by the gnosis of his time,' the Ba 'Alawi of whom Abu Bakr b. Salim said none of their house was given his like; four 'umras a night and four by day in Ramadan, teacher of Ibn Hajar al-Haytami; author of the 'Aqd Nabawi, al-Fawz wa'l-Bushra, Tuhfat al-Murid; moved to India 958 and died at Ahmadabad Saturday eve 26 Ramadan [990] {cite:shadharat-dhahab p. 423-424}."
+born: { edtf: "1513~", hijri: "0919", calendar: julian, precision: year, status: tradition, derived: true, note: "ولد سنة 919 بتريم {cite:shadharat-dhahab p. 423}", sources: [source/shadharat-dhahab] }
+died: { edtf: "1582-10-23~", hijri: "0990-09-26~", calendar: julian, precision: day, status: tradition, derived: true, note: "توفي بأحمد أباد ليلة السبت لست وعشرين خلت من رمضان؛ التحويل مشتق {cite:shadharat-dhahab p. 424}", sources: [source/shadharat-dhahab] }
+relations:
+  - { type: teacher_of, target: person/ibn-hajar-al-haytami, sources: [source/shadharat-dhahab] }
+provenance:
+  layer: own-research
+  source: "شذرات الذهب — ابن العماد (ط مكتبة المثنى 1351، ج8، سنة 990، عن النور السافر)، قراءة آبل فيجن"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-shadharat-batch-148
+sources: [source/shadharat-dhahab]
+status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 High)" }

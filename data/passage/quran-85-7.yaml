@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 85:7 (سورة البروج، الآية 7)."
 text: "وَهُمْ عَلَىٰ مَا يَفْعَلُونَ بِٱلْمُؤْمِنِينَ شُهُودٌ"
 text_search: "وهم على ما يفعلون بالمؤمنين شهود"
+translations:
+  en: { text: "And were themselves the witnesses of what they did to the believers.", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "اور جو (سختیاں) اہل ایمان پر کر رہے تھے ان کو سامنے دیکھ رہے تھے", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-85 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

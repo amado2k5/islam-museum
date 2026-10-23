@@ -23,40 +23,40 @@ translators: []
 ## الخطوات
 
 ### 1. نزول الوحي
-[[event/first-revelation|بدء الوحي في غار حراء]]: نقطة البداية: غار حراء.
+[[event/first-revelation|بدء الوحي في غار حراء]]: نقطة البداية: غار حراء. {cite:mubarakpuri-raheeq}
 
 ### 2. دعوة العشيرة
-[[event/dawat-al-ashira|الدعوة في الأقربين]]: الانتقال إلى الدعوة وفق ما تبيّنه الصفحة، ومن حماها.
+[[event/dawat-al-ashira|الدعوة في الأقربين]]: الانتقال إلى الدعوة وفق ما تبيّنه الصفحة، ومن حماها. {cite:mubarakpuri-raheeq}
 
 ### 3. الأذى والتعذيب
-[[event/persecution-of-mustadafin|اضطهاد المستضعفين]]: ما أصاب الضعفاء من المؤمنين، وأسماء من ثبتوا.
+[[event/persecution-of-mustadafin|اضطهاد المستضعفين]]: ما أصاب الضعفاء من المؤمنين، وأسماء من ثبتوا. {cite:mubarakpuri-raheeq}
 
 ### 4. الهجرة الأولى إلى الحبشة
-[[event/first-migration-to-abyssinia|الهجرة الأولى إلى الحبشة]]: أول خروج من مكة طلبًا للأمان.
+[[event/first-migration-to-abyssinia|الهجرة الأولى إلى الحبشة]]: أول خروج من مكة طلبًا للأمان. {cite:mubarakpuri-raheeq}
 
 ### 5. إسلام حمزة
-[[event/islam-of-hamza|إسلام حمزة بن عبد المطلب]]: كيف دخل حمزة في الإسلام، وما أثر ذلك.
+[[event/islam-of-hamza|إسلام حمزة بن عبد المطلب]]: كيف دخل حمزة في الإسلام، وما أثر ذلك. {cite:mubarakpuri-raheeq}
 
 ### 6. إسلام عمر
-[[event/islam-of-umar|إسلام عمر بن الخطاب]]: بعد أيام من إسلام حمزة، وماذا تغيّر في ظهور المسلمين.
+[[event/islam-of-umar|إسلام عمر بن الخطاب]]: بعد أيام من إسلام حمزة، وماذا تغيّر في ظهور المسلمين. {cite:jami-al-tirmidhi}
 
 ### 7. مقاطعة بني هاشم
-[[event/boycott-of-banu-hashim|مقاطعة بني هاشم في شعب أبي طالب]]: الصحيفة والحصار في الشعب.
+[[event/boycott-of-banu-hashim|مقاطعة بني هاشم في شعب أبي طالب]]: الصحيفة والحصار في الشعب. {cite:mubarakpuri-raheeq}
 
 ### 8. عام الحزن
-[[event/year-of-sorrow|عام الحزن]]: فقد النبي حاميه وزوجه في سنة واحدة.
+[[event/year-of-sorrow|عام الحزن]]: فقد النبي حاميه وزوجه في سنة واحدة. {cite:mubarakpuri-raheeq}
 
 ### 9. الرحلة إلى الطائف
-[[event/journey-to-taif|خروج النبي إلى الطائف]]: طلب النصرة خارج مكة.
+[[event/journey-to-taif|خروج النبي إلى الطائف]]: طلب النصرة خارج مكة. {cite:mubarakpuri-raheeq}
 
 ### 10. بيعتا العقبة
-[[event/pledges-of-aqaba|بيعتا العقبة]]: اللتان مهّدتا لدار الهجرة في المدينة.
+[[event/pledges-of-aqaba|بيعتا العقبة]]: اللتان مهّدتا لدار الهجرة في المدينة. {cite:sahih-al-bukhari}
 
 ### 11. دار الندوة
-[[event/plot-of-dar-al-nadwa|اجتماع دار الندوة وقرار اغتيال النبي]]: ما دبّرته قريش في آخر أيامه بمكة.
+[[event/plot-of-dar-al-nadwa|اجتماع دار الندوة وقرار اغتيال النبي]]: ما دبّرته قريش في آخر أيامه بمكة. {cite:mubarakpuri-raheeq}
 
 ### 12. الهجرة
-[[event/hijra|الهجرة النبوية]]: نهاية العهد المكي وبداية المرحلة المدنية.
+[[event/hijra|الهجرة النبوية]]: نهاية العهد المكي وبداية المرحلة المدنية. {cite:ibn-ishaq-guillaume}
 
 ## بعد أن تنتهي
 جرّب بعد ذلك: [[exhibit/path-abyssinia-migrations|الهجرتان إلى الحبشة]]، [[exhibit/path-from-opposition-to-islam|من الخصومة إلى الإسلام: من غيّروا موقفهم]].

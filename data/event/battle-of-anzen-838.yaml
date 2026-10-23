@@ -1,0 +1,23 @@
+id: event/battle-of-anzen-838
+class: event
+kind: battle
+label: { ar: "معركة أنزن", en: "Battle of Anzen" }
+summary:
+  ar: "بطاقة أولية لمعركة أنزن سنة ٨٣٨م، نصر المعتصم على ثيوفيلوس في طريقه إلى عمورية؛ لم تُراجع مصادره على الصفحة بعد."
+  en: "Draft card for the Battle of Anzen in 838, al-Mu'tasim's victory over Theophilos on the road to Amorium; its sources are not yet checked on the page."
+wings: [time]
+periods: [period/abbasid-early]
+regions: [anatolia-balkans]
+date:
+  start: { edtf: "838", precision: year, status: tradition, derived: true }
+  end: { edtf: "838", precision: year, status: tradition, derived: true }
+sources: [source/tarikh-al-tabari]
+external_ids:
+  wikidata: Q1639273
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; battle attested in Abbasid histories — entry not yet checked on the page"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-wave2
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

@@ -1,0 +1,23 @@
+id: event/siege-of-kamenets-1672
+class: event
+kind: siege
+label: { ar: "حصار كامينيتس (١٦٧٢)", en: "Siege of Kamenets" }
+summary:
+  ar: "بطاقة أولية لحصار كامينيتس سنة ١٦٧٢م، أخذ العثمانيين لحصن بودوليا من بولندا؛ لم تُراجع مصادره على الصفحة بعد."
+  en: "Draft card for the Siege of Kamenets in 1672, the Ottoman capture of the Podolian fortress from Poland; its sources are not yet checked on the page."
+wings: [time]
+periods: [period/gunpowder-empires]
+regions: [anatolia-balkans]
+date:
+  start: { edtf: "1672", precision: year, status: tradition, derived: true }
+  end: { edtf: "1672", precision: year, status: tradition, derived: true }
+sources: [source/dawlat-uthmaniyya-salabi]
+external_ids:
+  wikidata: Q949294
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; siege attested in Polish-Ottoman histories — entry not yet checked on the page"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-wave2
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

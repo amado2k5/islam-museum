@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 113:2 (سورة الفلق، الآية 2)."
 text: "مِن شَرِّ مَا خَلَقَ"
 text_search: "من شر ما خلق"
+translations:
+  en: { text: "From the evil of that which He created;", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "ہر چیز کی بدی سے جو اس نے پیدا کی", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-113 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

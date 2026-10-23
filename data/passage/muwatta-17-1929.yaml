@@ -1,0 +1,16 @@
+id: passage/muwatta-17-1929
+class: passage
+unit: hadith
+work: work/muwatta-malik
+ref: "1929"
+label: { ar: "الموطأ 1929 — مالك: فيمن سلف دنانير أو دراهم في أربعة أثواب موصوفة إلى أجل، فلما حل الأجل لم يجدها عنده، ووجد عنده ثيابا دونها من صنفها، فيعطيه ثمانية أثواب من ثيابه بها، فلا بأس إن أخذ الأثواب قبل أن يفترقا، ولا يصلح بعد الأجل أو قبله إلا أن تكون من صنف غير صنف ما سلف", en: "Muwatta 1929" }
+summary:
+  ar: "قال مالك فيمن سلف دنانير أو دراهم في أربعة أثواب موصوفة إلى أجل، فلما حل الأجل تقاضى صاحبها، فلم يجدها عنده، ووجد عنده ثيابا دونها من صنفها، فقال له الذي عليه الأثواب: أعطيك بها ثمانية أثواب من ثيابي هذه. فإنه لا بأس بذلك، إذا أخذ تلك الأثواب التي يعطيه قبل أن يفترقا. قال مالك: فإن دخل ذلك الأجل فإنه لا يصلح، وإن كان ذلك قبل محل الأجل فإنه لا يصلح أيضا، إلا أن يبيعه ثيابا ليست من صنف الثياب التي سلفه فيها. {cite:muwatta-maruf-1997 p.190}"
+relations:
+  - { type: part_of, target: passage/muwatta-kitab-17-buyu }
+  - { type: mentions, target: person/malik-ibn-anas, sources: [source/muwatta-maruf-1997] }
+  - { type: basis_for, target: concept/salaf, sources: [source/muwatta-maruf-1997] }
+  - { type: basis_for, target: concept/riba, sources: [source/muwatta-maruf-1997] }
+provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 2, hadith 1929 at PDF p. 190; السلفة في العروض", generated_by: "Claude Code (claude-haiku-5-5) from Apple Vision OCR of the Noor-Book PDF, checked on the page image where doubtful", run: "muwatta-prose-k17-b50" }
+sources: [source/muwatta-maruf-1997]
+status: { review: draft, completeness: 2, generated_by: "Claude Code (claude-haiku-5-5); own-words account written from PDF p. 190; matn excerpt at most 40 words" }

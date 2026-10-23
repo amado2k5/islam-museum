@@ -1,0 +1,23 @@
+id: event/conquest-of-tripoli-1510
+class: event
+kind: battle
+label: { ar: "أخذ طرابلس (١٥١٠)", en: "Spanish conquest of Tripoli" }
+summary:
+  ar: "بطاقة أولية لأخذ طرابلس سنة ١٥١٠م، أخذ الإسبان للمدينة ثم انتقالها لفرسان مالطة؛ لم تُراجع مصادره على الصفحة بعد."
+  en: "Draft card for the 1510 conquest of Tripoli, the Spanish capture of the Libyan city later passed to the Knights; its sources are not yet checked on the page."
+wings: [time]
+periods: [period/crusades-ayyubid-mamluk]
+regions: [maghreb]
+date:
+  start: { edtf: "1510", precision: year, status: tradition, derived: true }
+  end: { edtf: "1510", precision: year, status: tradition, derived: true }
+sources: [source/kamil-ibn-al-athir]
+external_ids:
+  wikidata: Q16543736
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; battle attested in narrative histories — entry not yet checked on the page"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-wave2
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

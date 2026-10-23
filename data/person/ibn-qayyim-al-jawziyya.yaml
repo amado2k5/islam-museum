@@ -1,22 +1,22 @@
 id: person/ibn-qayyim-al-jawziyya
 class: person
-label: { ar: "ابن قيم الجوزية", en: "Ibn Qayyim al-Jawziyya" }
-names:
-  - { kind: full, lang: ar, value: "محمد بن أبي بكر ابن قيم الجوزية" }
-gender: male
-born: { hijri: "0691", status: tradition, note: "Date from the author entry of Zad al-Ma'ad in the Raheeq bibliography; one source only, a second is needed before promotion.", sources: [source/zad-al-maad] }
-died: { hijri: "0751", status: tradition, note: "Same entry; one source only, a second is needed before promotion.", sources: [source/zad-al-maad] }
-roles: [scholar, jurist, theologian]
-traditions: [sunni]
+label: { ar: "ابن قيم الجوزية" }
 summary:
-  ar: "عالم مسلم ومؤلف، صاحب «إغاثة اللهفان في مصائد الشيطان» في الرد على ما يقع عند القبور من تعظيم وبدع وشرك، وصاحب «زاد المعاد في هدي خير العباد»."
-  en: "A Muslim scholar and author, known for Ighathat al-Lahfan, a refutation of the veneration, innovations and polytheism practised at graves, and for Zad al-Ma'ad on the guidance of the best of servants."
+  ar: "الشيخ شمس الدين محمد بن أبي بكر بن قيم الجوزية الحنبلي الدمشقي المتوفى سنة ٧٥١هـ؛ صاحب إعلام الموقعين عن رب العالمين {cite:kashf-zunun-furqan p. 518}."
+  en: "Shams al-Din Muhammad ibn Abi Bakr, Ibn Qayyim al-Jawziyya al-Hanbali al-Dimashqi, d. AH 751 — author of I'lam al-Muwaqqi'in {cite:kashf-zunun-furqan p. 518}."
+gender: male
 wings: [people]
-themes: [creed]
-periods: [period/crusades-ayyubid-mamluk]
+periods: [period/mongol-post-mongol]
 regions: [levant-iraq]
+died: { edtf: "1350~", hijri: "0751", calendar: julian, precision: year, status: tradition, derived: true, note: "سنة 751هـ؛ التحويل مشتق {cite:kashf-zunun-furqan p. 518}." }
 relations:
-  - { type: authored, target: work/ighathat-al-lahfan, sources: [source/ighathat-lahfan-muntakhab] }
-provenance: { layer: own-research, source: "منتخب من إغاثة اللهفان، ص 1-2 و12 و21 (المؤلف ابن قيم الجوزية، نقلاً عنه)؛ تواريخ الحياة من مدخل زاد المعاد", generated_by: "Claude Haiku 5.5 (book-3 harvest)", model: claude-haiku-5-5, run: book-3-ighathat }
-sources: [source/ighathat-lahfan-muntakhab, source/zad-al-maad]
-status: { review: draft, completeness: 1, generated_by: "Claude Haiku 5.5; authorship from the extract's title page and quotations; dates from one source; no faith recorded because this extract does not state it; period and region are assigned from the dates and need checking" }
+  - { type: authored, target: work/ilam-al-muwaqqiin, sources: [source/kashf-zunun-furqan] }
+provenance:
+  layer: own-research
+  source: "كشف الظنون لحاجي خليفة (ط الفرقان) ج١ ص 518 مدخل 1334"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-kashf-batch-6
+external_ids:
+  wikidata: Q119679
+sources: [source/kashf-zunun-furqan]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

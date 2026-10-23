@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 2:8 (سورة البقرة، الآية 8)."
 text: "وَمِنَ ٱلنَّاسِ مَن يَقُولُ ءَامَنَّا بِٱللَّهِ وَبِٱلْيَوْمِ ٱلْـَٔاخِرِ وَمَا هُم بِمُؤْمِنِينَ"
 text_search: "ومن الناس من يقول آمنا بالله وباليوم الآخر وما هم بمؤمنين"
+translations:
+  en: { text: "And of mankind are some who say: We believe in Allah and the Last Day, when they believe not.", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "اور بعض لوگ ایسے ہیں جو کہتے ہیں کہ ہم خدا پر اور روزِ آخرت پر ایمان رکھتے ہیں حالانکہ وہ ایمان نہیں رکھتے", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-2 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

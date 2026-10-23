@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 28:80 (سورة القصص، الآية 80)."
 text: "وَقَالَ ٱلَّذِينَ أُوتُوا۟ ٱلْعِلْمَ وَيْلَكُمْ ثَوَابُ ٱللَّهِ خَيْرٌ لِّمَنْ ءَامَنَ وَعَمِلَ صَـٰلِحًا وَلَا يُلَقَّىٰهَآ إِلَّا ٱلصَّـٰبِرُونَ"
 text_search: "وقال الذين أوتوا العلم ويلكم ثواب الله خير لمن آمن وعمل صالحا ولا يلقاها إلا الصابرون"
+translations:
+  en: { text: "But those who had been given knowledge said: Woe unto you! The reward of Allah for him who believeth and doeth right is better, and only the steadfast will obtain it.", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "اور جن لوگوں کو علم دیا گیا تھا وہ کہنے لگے کہ تم پر افسوس۔ مومنوں اور نیکوکاروں کے لئے (جو) ثواب خدا (کے ہاں تیار ہے وہ) کہیں بہتر ہے اور وہ صرف صبر کرنے والوں ہی کو ملے گا", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-28 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

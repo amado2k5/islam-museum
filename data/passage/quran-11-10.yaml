@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 11:10 (سورة هود، الآية 10)."
 text: "وَلَئِنْ أَذَقْنَـٰهُ نَعْمَآءَ بَعْدَ ضَرَّآءَ مَسَّتْهُ لَيَقُولَنَّ ذَهَبَ ٱلسَّيِّـَٔاتُ عَنِّىٓ ۚ إِنَّهُۥ لَفَرِحٌ فَخُورٌ"
 text_search: "ولئن أذقناه نعماء بعد ضراء مسته ليقولن ذهب السيئات عني ۚ إنه لفرح فخور"
+translations:
+  en: { text: "And if We cause him to taste grace after some misfortune that had befallen him, he saith: The ills have gone from me. Lo! he is exultant, boastful;", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "اور اگر تکلیف پہنچنے کے بعد آسائش کا مزہ چکھائیں تو (خوش ہو کر) کہتا ہے کہ (آہا) سب سختیاں مجھ سے دور ہوگئیں۔ بےشک وہ خوشیاں منانے والا (اور) فخر کرنے والا ہے", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-11 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

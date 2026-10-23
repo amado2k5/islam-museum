@@ -1,0 +1,15 @@
+id: passage/muwatta-13-1487
+class: passage
+unit: hadith
+work: work/muwatta-malik
+ref: "1487"
+label: { ar: "الموطأ 1487 — عروة بن الزبير: في ولد الملاعنة وولد الزنا، إذا مات ورثته أمه حقها في كتاب الله، وإخوته لأمه حقوقهم، وما بقي فللمسلمين", en: "Muwatta 1487" }
+summary:
+  ar: "يروي مالك أنه بلغه أن عروة بن الزبير كان يقول في ولد الملاعنة وولد الزنا، إنه إذا مات ورثته أمه حقها في كتاب الله، وإخوته لأمه حقوقهم، ويرث البقية موالي أمه إن كانت مولاة، وإن كانت عربية ورثت حقها، وورث إخوته لأمه حقوقهم، وكان ما بقي للمسلمين. {cite:muwatta-maruf-1997 p.26}"
+relations:
+  - { type: part_of, target: passage/muwatta-kitab-13-faraid }
+  - { type: mentions, target: person/urwa-ibn-al-zubayr, sources: [source/muwatta-maruf-1997] }
+  - { type: basis_for, target: concept/faraid, sources: [source/muwatta-maruf-1997] }
+provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 2, hadith 1487 at PDF p. 26; ميراث ولد الملاعنة وولد الزنا", generated_by: "Claude Code (claude-haiku-5-5) from Apple Vision OCR of the Noor-Book PDF, checked on the page image where doubtful", run: "muwatta-prose-k13-b29" }
+sources: [source/muwatta-maruf-1997]
+status: { review: draft, completeness: 2, generated_by: "Claude Code (claude-haiku-5-5); own-words account written from PDF p. 26; matn excerpt at most 40 words" }

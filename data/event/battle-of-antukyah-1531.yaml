@@ -1,0 +1,23 @@
+id: event/battle-of-antukyah-1531
+class: event
+kind: battle
+label: { ar: "معركة أنطوكيا (١٥٣١)", en: "Battle of Antukyah" }
+summary:
+  ar: "بطاقة أولية لمعركة أنطوكيا سنة ١٥٣١م، فوز أحمد بن إبراهيم الغازي على الجيش الإمبراطوري الحبشي؛ لم تُراجع مصادره على الصفحة بعد."
+  en: "Draft card for the Battle of Antukyah in 1531, Ahmad al-Ghazi's victory in the Adal-Ethiopian war; its sources are not yet checked on the page."
+wings: [time]
+periods: [period/gunpowder-empires]
+regions: [east-africa]
+date:
+  start: { edtf: "1531", precision: year, status: tradition, derived: true }
+  end: { edtf: "1531", precision: year, status: tradition, derived: true }
+sources: [source/tarikh-islam-hasan-ibrahim]
+external_ids:
+  wikidata: Q2887867
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; battle attested in narrative histories — entry not yet checked on the page"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-wave2
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

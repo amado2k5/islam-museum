@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 68:39 (سورة القلم، الآية 39)."
 text: "أَمْ لَكُمْ أَيْمَـٰنٌ عَلَيْنَا بَـٰلِغَةٌ إِلَىٰ يَوْمِ ٱلْقِيَـٰمَةِ ۙ إِنَّ لَكُمْ لَمَا تَحْكُمُونَ"
 text_search: "أم لكم أيمان علينا بالغة إلى يوم القيامة ۙ إن لكم لما تحكمون"
+translations:
+  en: { text: "Or have ye a covenant on oath from Us that reacheth to the Day of Judgment, that yours shall be all that ye ordain?", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "یا تم نے ہم سے قسمیں لے رکھی ہیں جو قیامت کے دن تک چلی جائیں گی کہ جس شے کا تم حکم کرو گے وہ تمہارے لئے حاضر ہوگی", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-68 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

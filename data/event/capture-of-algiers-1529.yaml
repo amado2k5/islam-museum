@@ -1,0 +1,24 @@
+id: event/capture-of-algiers-1529
+class: event
+kind: conquest
+label: { ar: "أخذ حصن بينون (١٥٢٩م)", en: "Capture of the Peñón of Algiers (1529)" }
+summary:
+  ar: "استولى خير الدين بربروسة سنة ١٥٢٩م على حصن بينون الأسباني على الجزيرة المواجهة لبلدة الجزائر، بعد أن ظل يقصفه بقذائف مدافعه طوال عشرين يوماً حتى تداعت جوانبه، ثم اقتحمه مع قوات كثيفة حملتها خمس وأربعون سفينة من الساحل، وأسر قائد الحصن مع كبار ضباطه. ويعدّ المؤلف هذا الاستيلاء بداية تأسيس نيابة الجزائر، فصار ميناء الجزائر عاصمة كبرى للمغرب الأوسط ولكل شمال أفريقية العثمانية فيما بعد {cite:dawlat-uthmaniyya-salabi p. 214}."
+  en: "In 1529 Khayr al-Din took the Spanish Peñón off Algiers after a twenty-day bombardment, storming it with troops landed by 45 ships and capturing its commander and senior officers — the founding act, in al-Salabi's account, of the Ottoman eyalet of Algiers {cite:dawlat-uthmaniyya-salabi p. 214}."
+wings: [time]
+periods: [period/gunpowder-empires]
+regions: [maghreb]
+date:
+  start: { edtf: "1529", hijri: "0936", calendar: julian, precision: year, status: tradition, derived: true, sources: [source/dawlat-uthmaniyya-salabi] }
+relations:
+  - { type: had_participant, target: person/khayr-al-din-barbarossa, sources: [source/dawlat-uthmaniyya-salabi] }
+  - { type: occurred_at, target: place/algiers, sources: [source/dawlat-uthmaniyya-salabi] }
+external_ids: { wikidata: "Q3403025" }
+sources: [source/dawlat-uthmaniyya-salabi]
+provenance:
+  layer: own-research
+  source: "الدولة العثمانية لعلي محمد الصلابي (ط1 1421) ص 214"
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: salabi-uthmani-batch9
+status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 Medium)" }

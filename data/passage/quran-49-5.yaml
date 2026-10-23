@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 49:5 (سورة الحجرات، الآية 5)."
 text: "وَلَوْ أَنَّهُمْ صَبَرُوا۟ حَتَّىٰ تَخْرُجَ إِلَيْهِمْ لَكَانَ خَيْرًا لَّهُمْ ۚ وَٱللَّهُ غَفُورٌ رَّحِيمٌ"
 text_search: "ولو أنهم صبروا حتى تخرج إليهم لكان خيرا لهم ۚ والله غفور رحيم"
+translations:
+  en: { text: "And if they had had patience till thou camest forth unto them, it had been better for them. And Allah is Forgiving, Merciful.", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "اور اگر وہ صبر کئے رہتے یہاں تک کہ تم خود نکل کر ان کے پاس آتے تو یہ ان کے لئے بہتر تھا۔ اور خدا تو بخشنے والا مہربان ہے", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-49 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

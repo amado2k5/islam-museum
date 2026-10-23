@@ -1,0 +1,76 @@
+id: exhibit/path-cinema-egypt
+class: exhibit
+kind: trail
+label:
+  ar: السينما المصرية
+  en: Egyptian Cinema
+summary:
+  ar: 'مسار في هوليوود العرب: شادية المهاجر والناصر صلاح الدين وباب الحديد — مئة عام من النيل على الشاشة.'
+  en: A trail through the Arab Hollywood.
+audience:
+- newcomer
+- student
+duration_minutes: 30
+wings: []
+regions:
+- egypt-nile
+rooms:
+- title:
+    ar: المهاجر
+    en: The Emigrant
+  body:
+    ar: 'يوسف شاهين 1994: يوسف ممنوع.'
+    en: 'يوسف شاهين 1994: يوسف ممنوع.'
+  features:
+  - screen/al-muhajir-1994
+  - screen/al-muhajir-1994
+- title:
+    ar: الناصر
+    en: The Victor
+  body:
+    ar: 'صلاح الدين 1963: عز الدين يجسد.'
+    en: 'صلاح الدين 1963: عز الدين يجسد.'
+  features:
+  - screen/al-nasir-salah-al-din-1963
+  - person/salah-al-din-yusuf-ibn-ayyub
+- title:
+    ar: المصير
+    en: Destiny
+  body:
+    ar: 'شاهين 1997: ابن رشد والأصولية.'
+    en: 'شاهين 1997: ابن رشد والأصولية.'
+  features:
+  - screen/al-massir-1997
+  - person/ibn-rushd
+- title:
+    ar: الكلاسيكية
+    en: The classics
+  body:
+    ar: 'باب الحديد ودعاء الكروان: العصر الذهبي.'
+    en: 'باب الحديد ودعاء الكروان: العصر الذهبي.'
+  features:
+  - screen/bab-al-hadid-1958
+  - screen/dua-al-karawan-1959
+- title:
+    ar: الاجتماعي
+    en: The social
+  body:
+    ar: '678 وحسن ومرقس: قضايا اليوم.'
+    en: '678 وحسن ومرقس: قضايا اليوم.'
+  features:
+  - screen/678-2010
+  - screen/hasan-wa-murqus-2008
+prerequisites:
+- exhibit/path-islam-in-30-minutes
+sources:
+- source/wikidata
+provenance:
+  layer: own-research
+  source: Devin-assembled trail from existing museum entities
+  generated_by: Devin (SWE-2 High)
+  model: SWE-2 High
+  run: pathways-batch-7
+status:
+  review: draft
+  completeness: 1
+  generated_by: Devin (SWE-2 High), pathways lane, 2026-10-16

@@ -1,29 +1,17 @@
 id: work/ighathat-al-lahfan
 class: work
-kind: treatise
-genre: [creed, polemic]
-label: { ar: "إغاثة اللهفان في مصائد الشيطان", en: "Ighathat al-Lahfan fi Masa'id al-Shaytan (Relief for the Distressed from the Snares of Satan)" }
+kind: book
+label: { ar: "إغاثة اللهفان في مصايد الشيطان", en: "Ighathat al-Lahfan" }
 summary:
-  ar: "كتاب لابن قيم الجوزية في الرد على ما يقع عند القبور من تعظيم وصلاة ودعاء واستغاثة، وعلى ما يتصل بها من بدع وتطير وكهانة؛ ويعرض المؤلف في آخره أمثلة من مصائد الشيطان للناس. وما بين أيدينا منتخب منه جمعه رومي أفندي."
-  en: "A treatise by Ibn Qayyim al-Jawziyya against the veneration, prayer, supplication and appeal to the dead that take place at graves, and against the omens, divination and innovations linked to them; the extract here was gathered by Rumi Efendi."
-wings: [ideas, words]
-themes: [creed, worship-and-the-pillars]
-periods: [period/crusades-ayyubid-mamluk]
-regions: [levant-iraq]
-made: { by_muslims: true, basis: documented, sources: [source/ighathat-lahfan-muntakhab] }
-authors: [person/ibn-qayyim-al-jawziyya]
-structure: "Known from the extract only: an opening on the trials of graves and images, then chapters of prohibitions drawn from hadith, the argument on intercession and shirk, the legal visit versus the innovated visit, supplication and funeral prayer, the examples of the Companions, and a closing section on omens, divination and the istikhara. The compiler's selection covers pp. 1-21 of the scan; the full work's structure is not in this source."
-relations:
-  - { type: about, target: concept/grave-veneration, sources: [source/ighathat-lahfan-muntakhab] }
-  - { type: mentions, target: concept/ziyarat-al-qubur, sources: [source/ighathat-lahfan-muntakhab] }
-  - { type: mentions, target: concept/shirk, sources: [source/ighathat-lahfan-muntakhab] }
-  - { type: mentions, target: concept/bidah, sources: [source/ighathat-lahfan-muntakhab] }
-  - { type: mentions, target: concept/shafaa, sources: [source/ighathat-lahfan-muntakhab] }
-  - { type: mentions, target: concept/tawhid, sources: [source/ighathat-lahfan-muntakhab] }
-  - { type: mentions, target: concept/anwa, sources: [source/ighathat-lahfan-muntakhab] }
-  - { type: mentions, target: concept/azlam, sources: [source/ighathat-lahfan-muntakhab] }
-  - { type: mentions, target: concept/kahana, sources: [source/ighathat-lahfan-muntakhab] }
-  - { type: mentions, target: concept/tiyara, sources: [source/ighathat-lahfan-muntakhab] }
-provenance: { layer: own-research, source: "منتخب من إغاثة اللهفان، ص 1-21", generated_by: "Claude Haiku 5.5 (book-3 harvest)", model: claude-haiku-5-5, run: book-3-ighathat }
-sources: [source/ighathat-lahfan-muntakhab]
-status: { review: draft, completeness: 1, generated_by: "Claude Haiku 5.5; from the extract only; the full work is not read" }
+  ar: "بطاقة أولية لإغاثة اللهفان في مصايد الشيطان لابن قيم الجوزية؛ لم تُراجع مصادرها على الصفحة بعد."
+  en: "Draft card for Ighathat al-Lahfan fi Masayid al-Shaytan, Ibn Qayyim al-Jawziyya's work; its sources are not yet checked on the page."
+wings: []
+sources: [source/al-aalam]
+external_ids: { wikidata: "Q12182358" }
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; work attested in bibliographies — entry not yet checked on the page"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-wave2
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

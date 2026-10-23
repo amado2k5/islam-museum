@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 13:35 (سورة الرعد، الآية 35)."
 text: "۞ مَّثَلُ ٱلْجَنَّةِ ٱلَّتِى وُعِدَ ٱلْمُتَّقُونَ ۖ تَجْرِى مِن تَحْتِهَا ٱلْأَنْهَـٰرُ ۖ أُكُلُهَا دَآئِمٌ وَظِلُّهَا ۚ تِلْكَ عُقْبَى ٱلَّذِينَ ٱتَّقَوا۟ ۖ وَّعُقْبَى ٱلْكَـٰفِرِينَ ٱلنَّارُ"
 text_search: "۞ مثل الجنة التي وعد المتقون ۖ تجري من تحتها الأنهار ۖ أكلها دائم وظلها ۚ تلك عقبى الذين اتقوا ۖ وعقبى الكافرين النار"
+translations:
+  en: { text: "A similitude of the Garden which is promised unto those who keep their duty (to Allah): Underneath it rivers flow; its food is everlasting, and its shade; this is the reward of those who keep their duty, while the reward of disbelievers is the Fire.", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "جس باغ کا متقیوں سے وعدہ کیا گیا ہے اس کے اوصاف یہ ہیں کہ اس کے نیچے نہریں بہہ رہی ہیں۔ اس کے پھل ہمیشہ (قائم رہنے والے) ہیں اور اس کے سائے بھی۔ یہ ان لوگوں کا انجام ہے جو متقی ہیں۔ اور کافروں کا انجام دوزخ ہے", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-13 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

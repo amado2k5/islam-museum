@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 2:48 (سورة البقرة، الآية 48)."
 text: "وَٱتَّقُوا۟ يَوْمًا لَّا تَجْزِى نَفْسٌ عَن نَّفْسٍ شَيْـًٔا وَلَا يُقْبَلُ مِنْهَا شَفَـٰعَةٌ وَلَا يُؤْخَذُ مِنْهَا عَدْلٌ وَلَا هُمْ يُنصَرُونَ"
 text_search: "واتقوا يوما لا تجزي نفس عن نفس شيئا ولا يقبل منها شفاعة ولا يؤخذ منها عدل ولا هم ينصرون"
+translations:
+  en: { text: "And guard yourselves against a day when no soul will in aught avail another, nor will intercession be accepted from it, nor will compensation be received from it, nor will they be helped.", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "اور اس دن سے ڈرو جب کوئی کسی کے کچھ کام نہ آئے اور نہ کسی کی سفارش منظور کی جائے اور نہ کسی سے کسی طرح کا بدلہ قبول کیا جائے اور نہ لوگ (کسی اور طرح) مدد حاصل کر سکیں", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-2 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

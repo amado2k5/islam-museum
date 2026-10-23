@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 40:77 (سورة غافر، الآية 77)."
 text: "فَٱصْبِرْ إِنَّ وَعْدَ ٱللَّهِ حَقٌّ ۚ فَإِمَّا نُرِيَنَّكَ بَعْضَ ٱلَّذِى نَعِدُهُمْ أَوْ نَتَوَفَّيَنَّكَ فَإِلَيْنَا يُرْجَعُونَ"
 text_search: "فاصبر إن وعد الله حق ۚ فإما نرينك بعض الذي نعدهم أو نتوفينك فإلينا يرجعون"
+translations:
+  en: { text: "Then have patience (O Muhammad). Lo! the promise of Allah is true. And whether we let thee see a part of that which We promise them, or (whether) We cause thee to die, still unto Us they will be brought back.", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "تو (اے پیغمبر) صبر کرو خدا کا وعدہ سچا ہے۔ اگر ہم تم کو کچھ اس میں سے دکھادیں جس کا ہم تم سے وعدہ کرتے ہیں۔ (یعنی کافروں پر عذاب نازل کریں) یا تمہاری مدت حیات پوری کردیں تو ان کو ہماری ہی طرف لوٹ کر آنا ہے", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-40 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

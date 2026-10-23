@@ -1,0 +1,16 @@
+id: passage/muslim-2466
+class: passage
+unit: hadith
+work: work/sahih-muslim
+ref: "2466"
+label: { ar: "مسلم 2466 — اهتز عرش الرحمن لموت سعد بن معاذ", en: "Muslim 2466 — The Throne shook at Sa'd ibn Mu'adh's death" }
+text: "قال رسول الله وجنازة سعد بن معاذ بين أيديهم: «اهتز لها عرش الرحمن»؛ وفي رواية جابر: «اهتز عرش الرحمن لموت سعد بن معاذ»"
+summary:
+  ar: "رواية جابر بن عبد الله في باب فضائل سعد بن معاذ من صحيح مسلم؛ اهتزاز العرش لجنازة سيد الأوس — من أعظم نصوص مناقبه، متفق عليه مع البخاري."
+relations:
+  - { type: mentions, target: person/muhammad, sources: [source/sahih-muslim] }
+  - { type: mentions, target: person/sad-ibn-muadh, sources: [source/sahih-muslim] }
+  - { type: mentions, target: person/jabir-ibn-abdullah, sources: [source/sahih-muslim] }
+provenance: { layer: own-research, source: "صحيح مسلم، كتاب فضائل الصحابة، باب من فضائل سعد بن معاذ (طبعة دار التأصيل، الحديث 6499-6500؛ ترقيم عبد الباقي المعروف 2466)، تصوير Apple Vision OCR", generated_by: "Devin (SWE-2 High) from Apple Vision OCR", run: "hadith-muslim-passages-2" }
+sources: [source/sahih-muslim]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High); matn excerpt at most 40 words checked against the scan" }

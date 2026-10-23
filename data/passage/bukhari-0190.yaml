@@ -1,0 +1,16 @@
+id: passage/bukhari-0190
+class: passage
+unit: hadith
+work: work/sahih-al-bukhari
+ref: "190"
+label: { ar: "البخاري 190 — خاتم النبوة بين الكتفين", en: "Bukhari 190 — the seal of prophethood" }
+text: "ذهبت بي خالتي إلى النبي فقالت: يا رسول الله إن ابن أختي وجع، فمسح رأسي ودعا لي بالبركة، ثم توضأ فشربت من وضوئه، ثم قمت خلف ظهره فنظرت إلى خاتم النبوة بين كتفيه مثل زر الحجلة"
+summary:
+  ar: "في كتاب الوضوء باب فضل الوضوء؛ خبر السائب بن يزيد يجمع مشهدين: تعوّض الصحابة على وضوء النبي، ورؤيته الغلامية لخاتم النبوة — شامة بين كتفيه كزر الحجلة. أصرح نص في الصحيح لوصف العلامة الجسدية للنبوة."
+relations:
+  - { type: mentions, target: person/muhammad, sources: [source/sahih-al-bukhari] }
+  - { type: mentions, target: person/al-saib-ibn-yazid, sources: [source/sahih-al-bukhari] }
+  - { type: basis_for, target: concept/alamat-al-nubuwwa, sources: [source/sahih-al-bukhari] }
+provenance: { layer: own-research, source: "صحيح البخاري (طبعة دار ابن كثير، ترقيم فخر الدين)، تصوير Apple Vision OCR، حديث 190", generated_by: "Devin (SWE-2 High) from Apple Vision OCR", run: "hadith-bukhari-passages-1" }
+sources: [source/sahih-al-bukhari]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High); matn checked against the scan" }

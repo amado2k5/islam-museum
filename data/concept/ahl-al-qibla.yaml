@@ -7,8 +7,7 @@ label:
 summary:
   ar: مبدأ الطحاوي في تسمية أهل القبلة مسلمين مؤمنين ما داموا مصدقين بما جاء به النبي، وألا يُكفَّر أحد منهم بذنب ما لم يستحله.
   en: al-Tahawi's principle of calling the people of the qibla Muslims and believers so long as they accept what the Prophet brought, and of not declaring any of them an unbeliever for a sin unless he declares it lawful.
-wings:
-- ideas
+wings: [ideas]
 themes:
 - creed
 - sects-and-schools
@@ -55,6 +54,42 @@ perspectives:
       en: p. 39
   sources:
   - source/lumat-al-itiqad
+- tradition: sunni-hanbali
+  id: aqida-wasitiyya
+  stance:
+    ar: الفاسق من أهل الملة لا يُسلب الإيمان بالكلية ولا يخلَّد في النار، بل هو مؤمن ناقص الإيمان
+    en: The sinner of the community is not stripped of iman entirely nor kept in the Fire forever, but is a believer deficient in iman
+  summary:
+    ar: يقول ابن تيمية إن أهل السنة لا يسلبون الفاسق الملّي الإيمان بالكلية ولا يخلدونه في النار، بل يقولون هو «مؤمن ناقص الإيمان، أو مؤمن بإيمانه فاسق بكبيرته».
+    en: Ibn Taymiyya says Ahl al-Sunna do not strip the sinner of the community of iman entirely nor keep him in the Fire forever, but say he is a believer deficient in iman, or a believer by his iman and a sinner by his grave sin.
+  holders:
+  - person/ibn-taymiyya
+  - work/aqida-wasitiyya
+  evidence:
+  - ref: source/aqida-wasitiyya
+    note:
+      ar: ص 22 و23
+      en: pp. 22 and 23
+  sources:
+  - source/aqida-wasitiyya
+- tradition: sunni-ashari
+  id: maqalat-ashari
+  stance:
+    ar: لا تكفير لأحد من أهل القبلة بذنب، ولا شهادة لأحد من أهل الكبائر بالنار
+    en: No takfir of anyone of the people of the qibla for a sin, and no testimony of Hell for any committer of grave sins
+  summary:
+    ar: يذكر الأشعري أنهم لا يكفرون أحداً من أهل القبلة بذنب يرتكبه كالزنا والسرقة، وأن أهل الكبائر مؤمنون بما معهم من الإيمان، ولا يشهدون على أحد منهم بالنار، ولا يحكمون بالجنة لأحد من الموحدين، وأمرهم إلى الله.
+    en: Al-Ash'ari reports they do not declare any of the people of the qibla an unbeliever for a sin such as adultery or theft, that those of grave sins are believers by the iman they have, that they do not testify to Hell against any of them nor judge Paradise for any monotheist, and their matter is with God.
+  holders:
+  - person/al-ashari
+  - work/maqalat-islamiyyin
+  evidence:
+  - ref: source/maqalat-islamiyyin
+    note:
+      ar: ص 347
+      en: p. 347
+  sources:
+  - source/maqalat-islamiyyin
 provenance:
   layer: own-research
   source: العقيدة الطحاوية، طبعة دار ابن حزم 1995 (نص كامل؛ 134 بنداً، الصفحات 7-32)
@@ -64,6 +99,9 @@ provenance:
 sources:
 - source/aqida-tahawiyya
 - source/lumat-al-itiqad
+- source/aqida-wasitiyya
+- source/maqalat-islamiyyin
+- source/ibn-rajab-jami-ulum-hikam
 status:
   review: draft
   completeness: 2

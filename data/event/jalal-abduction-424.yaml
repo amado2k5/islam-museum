@@ -1,0 +1,32 @@
+id: event/jalal-abduction-424
+class: event
+kind: mutiny
+label: { ar: "أسر الغلمان لجلال الدولة وإهانتهم ٤٢٤", en: "The ghilman's seizure and humiliation of Jalal al-Dawla, 424" }
+summary:
+  ar: "في رمضان سنة ٤٢٤ اجتمع الغلمان عند مسجد القهرمانة يشكون، فوجد بعضهم باب بستان دار المملكة مفتوحًا فدخلوا، وخرج الملك يقول تعالوا أسمع كلامكم فأمسكوه وسحبوه إلى دجلة وأركبوه سميرية كادت تغرق وهم يهزؤون به، ثم أوقفوه في الشمس وحبسوه في مسجد ثم نقلوه إلى دار المحلبية؛ ونجّده القاعد أبو الوفاء بنحو عشرين غلامًا فعبر إلى الكرخ إلى دار جميل للشريف المرتضى؛ وكتب الغلمان إليه «نحن عبيدك ومماليكك ملّكناك أمورنا ابتداء» فتلطّف بهم، واستمال صغار الأمراء ليلًا فجاؤوا إلى دار المرتضى يقبّلون الأرض ويعتذرون وأركبوه وقالوا جلال الدولة ملكنا ونحن جنده، وقبل وزيرًا أبا القاسم {cite:muntazam-ibn-al-jawzi j.8 p.414-417}."
+  en: "In Ramadan 424 the ghilman gathered at the mosque of al-Qahramana to lodge a complaint. Some of them found the gate of the garden of the royal residence open and went in. The king came out saying, 'Come, let me hear what you have to say'; they seized him, dragged him to the Tigris and put him in a samiriyya boat that nearly capsized, mocking him as they did. Then they left him standing in the sun, confined him in a mosque, and moved him to the house of al-Mahalibiyya. Abu'l-Wafa' al-Qa'id came to his aid with about twenty ghilman and crossed to al-Karkh, to the house of Jamil belonging to al-Sharif al-Murtada. The ghilman wrote to him: 'We are your slaves and your mamluks; we made you king over our affairs from the start.' He dealt with them tactfully, and by night he won over the junior amirs, who came to al-Murtada's house kissing the ground and apologising; they mounted him and said, 'Jalal al-Dawla is our king and we are his troops.' He accepted Abu'l-Qasim as vizier {cite:muntazam-ibn-al-jawzi j.8 p.414-417}."
+wings: [time]
+themes: [civil-wars-and-revolts]
+periods: [period/buyid-seljuk-fatimid-era]
+regions: [levant-iraq]
+sides:
+  - label: { ar: "غلمان بغداد" }
+  - label: { ar: "جلال الدولة" }
+    commanders: [person/jalal-al-dawla]
+date:
+  start: { edtf: "1033-08~", hijri: "0424-09", calendar: julian, precision: month, status: tradition, derived: true, note: "رمضان سنة ٤٢٤ {cite:muntazam-ibn-al-jawzi j.8 p.414}." }
+relations:
+  - { type: occurred_at, target: place/baghdad, sources: [source/muntazam-ibn-al-jawzi] }
+  - { type: occurred_at, target: place/al-karkh, sources: [source/muntazam-ibn-al-jawzi] }
+  - { type: had_participant, target: person/jalal-al-dawla, role: "الملك المأسور", sources: [source/muntazam-ibn-al-jawzi] }
+  - { type: had_participant, target: person/al-sharif-al-murtada, role: "مُؤوي الملك بدار جميل", sources: [source/muntazam-ibn-al-jawzi] }
+provenance:
+  layer: own-research
+  source: "المنتظم في تاريخ الملوك والأمم — ابن الجوزي (ج8، أحداث سنة ٤٢٤)، قراءة آبل فيجن، مسح AAlexandrina-224011"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-muntazam-350-474-batch23
+sources: [source/muntazam-ibn-al-jawzi]
+status:
+  review: draft
+  completeness: 1
+  generated_by: "Devin (SWE-2 High)"

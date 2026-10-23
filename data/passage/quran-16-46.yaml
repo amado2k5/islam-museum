@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 16:46 (سورة النحل، الآية 46)."
 text: "أَوْ يَأْخُذَهُمْ فِى تَقَلُّبِهِمْ فَمَا هُم بِمُعْجِزِينَ"
 text_search: "أو يأخذهم في تقلبهم فما هم بمعجزين"
+translations:
+  en: { text: "Or that He will not seize them in their going to and fro so that there be no escape for them?", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "یا ان کو چلتے پھرتے پکڑ لے وہ (خدا کو) عاجز نہیں کرسکتے", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-16 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

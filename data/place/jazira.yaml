@@ -1,0 +1,19 @@
+id: place/jazira
+class: place
+kind: region
+label: { ar: "الجزيرة", en: "The Jazira" }
+summary:
+  ar: "الجزيرة الفراتية إقليم ما بين الفرات ودجلة؛ فتحها إياد بن غنم بعد وفاة أبي عبيدة — «الجزيرة كلها فتوح إياد بن غنم» عند ميمون بن مهران — خرج إليها للنصف من شعبان سنة 18 في خمسة آلاف؛ ومن مدنها الرها وحرّان والرقة ونصيبين وسنجار والموصل وكورة دجلة، وصارت مع الشام ميدان غزو الصوائف والشواتي على الروم."
+  en: "The Euphratean Jazira, the land between the Euphrates and the Tigris; conquered by Iyad ibn Ghanm after Abu Ubayda's death — 'the whole Jazira is Iyad ibn Ghanm's conquest' in Maymun ibn Mihran's words — marching for it mid-Sha'ban year 18 in five thousand; its cities include al-Ruha, Harran, al-Raqqa, Nasibin, Sinjar, Mosul and the Tigris kuwar, and with Syria it became the field of the summer and winter raids on the Byzantines."
+wings: [place]
+periods: [period/rashidun]
+regions: [levant-iraq]
+relations:
+  - { type: site_of, target: event/conquest-of-jazira, sources: [source/futuh-buldan-maarif-1407] }
+provenance:
+  layer: own-research
+  source: "فتوح البلدان (ط مؤسسة المعارف 1407هـ/1987م) ص 236–237"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-futuh-buldan-batch-13
+sources: [source/futuh-buldan-maarif-1407]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

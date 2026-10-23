@@ -1,0 +1,77 @@
+id: exhibit/path-monasteries
+class: exhibit
+kind: trail
+label:
+  ar: أديرة الجزيرة
+  en: Monasteries of the Peninsula
+summary:
+  ar: 'مسار في جيران المسلمين القدماء: دير هند ودير الجلوق ودير مار سرجيس — الأديرة التي آوت الرهبان.'
+  en: A trail through the early monasteries.
+audience:
+- newcomer
+- student
+duration_minutes: 30
+wings: []
+regions:
+- levant-iraq
+rooms:
+- title:
+    ar: دير هند
+    en: Dayr Hind
+  body:
+    ar: 'دير هند بنت النعمان: الحيرة.'
+    en: 'دير هند بنت النعمان: الحيرة.'
+  features:
+  - building/dayr-hind
+  - building/dayr-hind-al-aqdam
+- title:
+    ar: مار سرجيس
+    en: Mar Sergius
+  body:
+    ar: 'دير سرجيس: أديرة الشام.'
+    en: 'دير سرجيس: أديرة الشام.'
+  features:
+  - building/dayr-marsarjis
+  - building/dayr-al-kalb
+- title:
+    ar: الأبيض
+    en: The White Monastery
+  body:
+    ar: دير الأبيض وأديرة أخرى.
+    en: دير الأبيض وأديرة أخرى.
+  features:
+  - building/dayr-al-abyad
+  - building/dayr-al-naqi
+  - building/dayr-al-tur
+- title:
+    ar: الجوار
+    en: The neighbourhood
+  body:
+    ar: 'الأديرة والمساجد: تعايش الأمصار.'
+    en: 'الأديرة والمساجد: تعايش الأمصار.'
+  features:
+  - building/dayr-hind
+  - building/dayr-fayq
+- title:
+    ar: الذاكرة
+    en: The memory
+  body:
+    ar: 'الأديرة في كتب التاريخ: شواهد العصر.'
+    en: 'الأديرة في كتب التاريخ: شواهد العصر.'
+  features:
+  - building/dayr-hizqil
+  - building/dayr-rumanin
+prerequisites:
+- exhibit/path-islam-in-30-minutes
+sources:
+- source/wikidata
+provenance:
+  layer: own-research
+  source: Devin-assembled trail from existing museum entities
+  generated_by: Devin (SWE-2 High)
+  model: SWE-2 High
+  run: pathways-batch-7
+status:
+  review: draft
+  completeness: 1
+  generated_by: Devin (SWE-2 High), pathways lane, 2026-10-16

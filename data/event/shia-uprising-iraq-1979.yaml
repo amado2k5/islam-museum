@@ -1,0 +1,23 @@
+id: event/shia-uprising-iraq-1979
+class: event
+kind: revolt
+label: { ar: "انتفاضة الشيعة في العراق (١٩٧٩)", en: "1979–1980 Shia Uprising in Iraq" }
+summary:
+  ar: "بطاقة أولية لانتفاضة الشيعة في العراق في ١٩٧٩–١٩٨٠م، قمع البعث للانتفاضة بعد الثورة الإيرانية؛ لم تُراجع مصادره على الصفحة بعد."
+  en: "Draft card for the 1979–80 Shia uprising in Iraq, the Ba'ath suppression after the Iranian revolution; its sources are not yet checked on the page."
+wings: [time]
+periods: [period/contemporary-era]
+regions: [levant-iraq]
+date:
+  start: { edtf: "1979", precision: year, status: tradition, derived: true }
+  end: { edtf: "1980", precision: year, status: tradition, derived: true }
+sources: [source/tarikh-islam-hasan-ibrahim]
+external_ids:
+  wikidata: Q90723868
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; battle attested in narrative histories — entry not yet checked on the page"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-wave2
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

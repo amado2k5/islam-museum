@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 79:40 (سورة النازعات، الآية 40)."
 text: "وَأَمَّا مَنْ خَافَ مَقَامَ رَبِّهِۦ وَنَهَى ٱلنَّفْسَ عَنِ ٱلْهَوَىٰ"
 text_search: "وأما من خاف مقام ربه ونهى النفس عن الهوى"
+translations:
+  en: { text: "But as for him who feared to stand before his Lord and restrained his soul from lust,", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "اور جو اپنے پروردگار کے سامنے کھڑے ہونے سے ڈرتا اور جی کو خواہشوں سے روکتا رہا", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-79 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

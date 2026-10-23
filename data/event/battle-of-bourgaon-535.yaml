@@ -1,0 +1,23 @@
+id: event/battle-of-bourgaon-535
+class: event
+kind: battle
+label: { ar: "معركة برغون (٥٣٥)", en: "Battle of Bourgaon (535)" }
+summary:
+  ar: "بطاقة أولية لمعركة جبل برغون سنة ٥٣٥م، من حملات سليمان البيزنطي على قبائل البربر في إفريقية؛ لم تُراجع مصادره على الصفحة بعد."
+  en: "Draft card for the Battle of Mount Bourgaon in 535, part of the Byzantine Solomon's campaigns against the Berber tribes in Africa; its sources are not yet checked on the page."
+wings: [time]
+periods: [period/pre-islamic-arabia]
+regions: [maghreb]
+date:
+  start: { edtf: "535", precision: year, status: tradition, derived: true }
+  end: { edtf: "535", precision: year, status: tradition, derived: true }
+sources: [source/tarikh-islam-hasan-ibrahim]
+external_ids:
+  wikidata: Q110517017
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; battle attested in narrative histories — entry not yet checked on the page"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-wave2
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

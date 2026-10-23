@@ -1,0 +1,23 @@
+id: event/siege-of-sofia-1382
+class: event
+kind: siege
+label: { ar: "حصار صوفيا (١٣٨٢)", en: "Siege of Sofia" }
+summary:
+  ar: "بطاقة أولية لحصار صوفيا سنة ١٣٨٢م، أخذ العثمانيين للمدينة البلغارية؛ لم تُراجع مصادره على الصفحة بعد."
+  en: "Draft card for the Siege of Sofia in 1382, the Ottoman capture of the Bulgarian city; its sources are not yet checked on the page."
+wings: [time]
+periods: [period/crusades-ayyubid-mamluk]
+regions: [anatolia-balkans]
+date:
+  start: { edtf: "1382", precision: year, status: tradition, derived: true }
+  end: { edtf: "1382", precision: year, status: tradition, derived: true }
+sources: [source/dawlat-uthmaniyya-salabi]
+external_ids:
+  wikidata: Q3623233
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; battle attested in narrative histories — entry not yet checked on the page"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-wave2
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

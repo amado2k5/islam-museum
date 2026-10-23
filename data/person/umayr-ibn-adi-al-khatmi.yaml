@@ -1,0 +1,24 @@
+id: person/umayr-ibn-adi-al-khatmi
+class: person
+label: { ar: "عمير بن عدي الخطمي", en: "Umayr ibn Adi al-Khatmi" }
+names:
+  - { kind: full, lang: ar, value: "عمير بن عدي الخطمي" }
+  - { kind: laqab, lang: ar, value: "القارئ" }
+gender: male
+roles: [companion]
+summary:
+  ar: "أول من أسلم من بني خطمة ويُدعى القارئ؛ سمع النبي يقول: ألا آخذ لي من ابنة مروان؟ فسرى على عصماء بنت مروان في بيتها ليلاً فقتلها، فقال له النبي: نصرت الله ورسوله يا عمير؛ ثم تحدّى قومه بني خطمة أن يكيدوه، فكان ذلك اليوم أول ما عزّ الإسلام فيهم."
+  en: "The first of Banu Khatma to accept Islam, called 'the Reciter'; he heard the Prophet say 'is there no one to deal with the daughter of Marwan for me?', went to Asma' bint Marwan's house that night and killed her, and the Prophet told him 'you have helped God and His Messenger, Umayr'; he then defied his people, Banu Khatma, to take revenge, and that day Islam first became strong among them."
+wings: [people]
+themes: [converts-and-leavers]
+periods: [period/prophetic-era]
+regions: [arabia]
+story_roles:
+  - { role: companion, status: tradition, sources: [source/ibn-hisham-saqqa] }
+  - { role: convert, status: tradition, note: "أول من أسلم من بني خطمة عند ابن إسحاق", sources: [source/ibn-hisham-saqqa] }
+relations:
+  - { type: member_of, target: group/banu-khatma, sources: [source/ibn-hisham-saqqa] }
+  - { type: participated_in, target: event/killing-of-asma-bint-marwan, role: "القاتل", sources: [source/ibn-hisham-saqqa] }
+provenance: { layer: own-research, source: "sira-ibn-hisham saqqa 1936, juz' 4 pp. 286-287", generated_by: "Claude Code", model: "claude-fable-5-1", run: "ibn-hisham-batch-14" }
+sources: [source/ibn-hisham-saqqa]
+status: { review: draft, completeness: 1, generated_by: "Claude Fable 5.1; mined from Ibn Hisham juz' 4 pp. 286-287" }

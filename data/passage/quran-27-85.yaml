@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 27:85 (سورة النمل، الآية 85)."
 text: "وَوَقَعَ ٱلْقَوْلُ عَلَيْهِم بِمَا ظَلَمُوا۟ فَهُمْ لَا يَنطِقُونَ"
 text_search: "ووقع القول عليهم بما ظلموا فهم لا ينطقون"
+translations:
+  en: { text: "And the Word will be fulfilled concerning them because they have done wrong, and they will not speak.", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "اور اُن کے ظلم کے سبب اُن کے حق میں وعدہ (عذاب) پورا ہوکر رہے گا تو وہ بول بھی نہ سکیں گے", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-27 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

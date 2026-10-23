@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 20:97 (سورة طه، الآية 97)."
 text: "قَالَ فَٱذْهَبْ فَإِنَّ لَكَ فِى ٱلْحَيَوٰةِ أَن تَقُولَ لَا مِسَاسَ ۖ وَإِنَّ لَكَ مَوْعِدًا لَّن تُخْلَفَهُۥ ۖ وَٱنظُرْ إِلَىٰٓ إِلَـٰهِكَ ٱلَّذِى ظَلْتَ عَلَيْهِ عَاكِفًا ۖ لَّنُحَرِّقَنَّهُۥ ثُمَّ لَنَنسِفَنَّهُۥ فِى ٱلْيَمِّ نَسْفًا"
 text_search: "قال فاذهب فإن لك في الحياة أن تقول لا مساس ۖ وإن لك موعدا لن تخلفه ۖ وانظر إلى إلهك الذي ظلت عليه عاكفا ۖ لنحرقنه ثم لننسفنه في اليم نسفا"
+translations:
+  en: { text: "(Moses) said: Then go! and lo! in this life it is for thee to say: Touch me not! and lo! there is for thee a tryst thou canst not break. Now look upon thy god of which thou hast remained a votary. Verily we will burn it and will scatter its dust over the sea.", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "(موسیٰ نے) کہا جا تجھ کو دنیا کی زندگی میں یہ (سزا) ہے کہ کہتا رہے کہ مجھ کو ہاتھ نہ لگانا اور تیرے لئے ایک اور وعدہ ہے (یعنی عذاب کا) جو تجھ سے ٹل نہ سکے گا اور جس معبود (کی پوجا) پر تو (قائم و) معتکف تھا اس کو دیکھ۔ ہم اسے جلادیں گے پھر اس (کی راکھ) کو اُڑا کر دریا میں بکھیر دیں گے", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-20 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

@@ -1,0 +1,23 @@
+id: event/battle-of-cillium-544
+class: event
+kind: battle
+label: { ar: "معركة كيليوم (٥٤٤)", en: "Battle of Cillium (544)" }
+summary:
+  ar: "بطاقة أولية لمعركة كيليوم سنة ٥٤٤م، مقتل سليمان البيزنطي في مصادمة مع البربر بإفريقية؛ لم تُراجع مصادره على الصفحة بعد."
+  en: "Draft card for the Battle of Cillium in 544, in which the Byzantine Solomon fell fighting the Berbers in Africa; its sources are not yet checked on the page."
+wings: [time]
+periods: [period/pre-islamic-arabia]
+regions: [maghreb]
+date:
+  start: { edtf: "0544-06", precision: year, status: tradition, derived: true }
+  end: { edtf: "0544-06", precision: year, status: tradition, derived: true }
+sources: [source/tarikh-islam-hasan-ibrahim]
+external_ids:
+  wikidata: Q11688174
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; battle attested in narrative histories — entry not yet checked on the page"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-wave2
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

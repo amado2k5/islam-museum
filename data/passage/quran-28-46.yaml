@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 28:46 (سورة القصص، الآية 46)."
 text: "وَمَا كُنتَ بِجَانِبِ ٱلطُّورِ إِذْ نَادَيْنَا وَلَـٰكِن رَّحْمَةً مِّن رَّبِّكَ لِتُنذِرَ قَوْمًا مَّآ أَتَىٰهُم مِّن نَّذِيرٍ مِّن قَبْلِكَ لَعَلَّهُمْ يَتَذَكَّرُونَ"
 text_search: "وما كنت بجانب الطور إذ نادينا ولكن رحمة من ربك لتنذر قوما ما أتاهم من نذير من قبلك لعلهم يتذكرون"
+translations:
+  en: { text: "And thou was not beside the Mount when We did call; but (the knowledge of it is) a mercy from thy Lord that thou mayst warn a folk unto whom no warner came before thee, that haply they may give heed.", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "اور نہ تم اس وقت جب کہ ہم نے (موسٰی کو) آواز دی طور کے کنارے تھے بلکہ (تمہارا بھیجا جانا) تمہارے پروردگار کی رحمت ہے تاکہ تم اُن لوگوں کو جن کے پاس تم سے پہلے کوئی ہدایت کرنے والا نہیں آیا ہدایت کرو تاکہ وہ نصیحت پکڑیں", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-28 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

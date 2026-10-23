@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 7:81 (سورة الأعراف، الآية 81)."
 text: "إِنَّكُمْ لَتَأْتُونَ ٱلرِّجَالَ شَهْوَةً مِّن دُونِ ٱلنِّسَآءِ ۚ بَلْ أَنتُمْ قَوْمٌ مُّسْرِفُونَ"
 text_search: "إنكم لتأتون الرجال شهوة من دون النساء ۚ بل أنتم قوم مسرفون"
+translations:
+  en: { text: "Lo! ye come with lust unto men instead of women. Nay, but ye are wanton folk.", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "یعنی خواہش نفسانی پورا کرنے کے لیے عورتوں کو چھوڑ کر لونڈوں پر گرتے ہو۔ حقیقت یہ ہے کہ تم لوگ حد سے نکل جانے والے ہو", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-7 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

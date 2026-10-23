@@ -1,0 +1,20 @@
+id: passage/muwatta-1-308
+class: passage
+unit: hadith
+chain: [person/malik-ibn-anas, person/abu-al-nadr, person/abu-salama-ibn-abd-al-rahman, person/aisha, person/muhammad]
+work: work/muwatta-malik
+ref: "1.308"
+label: { ar: "الموطأ 308 — عائشة: كنت أنام بين يديه ورجلاي في قبلته", en: "Muwatta 308" }
+text: "كنت أنام بين يدي رسول الله ورجلاي في قبلته، فإذا سجد غمزني فقبضت رجلي، فإذا قام بسطتهما"
+summary:
+  ar: "يرويه مالك عن أبي النضر مولى عمر بن عبيد الله عن أبي سلمة بن عبد الرحمن عن عائشة، في باب ما جاء في صلاة الليل: كانت تنام بين يدي النبي ورجلاها في قبلته، فإذا سجد غمزها فقبضت رجليها، فإذا قام بسطتهما، وقالت إن البيوت يومئذ ليس فيها مصابيح. ويخرّجه المحقق عند البخاري (382، 513، 1209) ومسلم (2/60) والنسائي (1/102) وابن حبان وأحمد والشافعي من طرق أصحاب مالك، ويحيل على التمهيد (22/117). {cite:muwatta-maruf-1997 p.173} {cite:muwatta-maruf-1997 p.174}"
+relations:
+  - { type: part_of, target: passage/muwatta-kitab-01-salat }
+  - { type: mentions, target: person/muhammad, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/aisha, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/abu-salama-ibn-abd-al-rahman, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/abu-al-nadr-salim-ibn-abi-umayya, sources: [source/muwatta-maruf-1997] }
+  - { type: basis_for, target: practice/salah, sources: [source/muwatta-maruf-1997] }
+provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 1, hadith 308 at PDF p. 173; باب ما جاء في صلاة الليل", generated_by: "Claude Code (claude-haiku-5-5) from Apple Vision OCR of the Noor-Book PDF, checked on the page image where doubtful", run: "muwatta-prose-k1-b13" }
+sources: [source/muwatta-maruf-1997]
+status: { review: draft, completeness: 2, generated_by: "Claude Code (claude-haiku-5-5); own-words account written from PDF p. 173; matn excerpt at most 40 words" }

@@ -1,0 +1,30 @@
+id: person/abd-al-qadir-al-jazairi
+class: person
+label: { ar: "عبد القادر الجزائري", en: "Abd al-Qadir al-Jaza'iri" }
+names:
+  - { value: "عبد القادر بن محيي الدين بن مصطفى الحسني الجزائري", kind: full }
+gender: male
+summary:
+  ar: "الأمير عبد القادر بن محيي الدين الحسني الجزائري، ناهض من العلماء والشعراء البُسلاء؛ ولد بالقيطنة من قرى إيالة وهران وتعلّم في وهران وحج مع أبيه سنة 1241هـ فزار المدينة ودمشق وبغداد، ولما دخل الفرنسيون بلاد الجزائر سنة 1246هـ بايعه الجزائريون وولّوه القيام بأمر الجهاد فقاتل الفرنسيين خمسة عشر عاماً وضرب في أثنائها نقوداً سماها «الحمدية» وأنشأ معامل للأسلحة والأدوات الحربية وملابس الجند، ثم استسلم بشروط سنة 1263هـ فنفوه إلى طولون ثم أنبواز حيث زاره نابليون الثالث وسرّحه مشترطاً ألا يعود إلى الجزائر، فزار باريس والآستانة واستقر بدمشق سنة 1271هـ وتوفي فيها سنة 1883م، ومن آثاره «ذكرى العاقل» وديوان شعر و«المواقف» في التصوف {cite:al-aalam p. 140-141}."
+  en: "Amir Abd al-Qadir al-Jaza'iri, the scholar-poet who led the Algerian jihad: elected by the Algerians when the French entered the country, he fought them fifteen years, minted the 'Hamdiyya' coinage and built arms works; exiled after his 1847 surrender to Toulon then Amboise, freed by Napoleon III, he settled in Damascus in 1855 and died there in 1883 {cite:al-aalam p. 140-141}."
+roles: [ruler, scholar]
+wings: [people]
+periods: [period/colonial-era]
+regions: [maghreb]
+born: { edtf: "1807", hijri: "1222~", calendar: gregorian, precision: year, status: tradition, derived: true, note: "ولد بالقيطنة من قرى وهران {cite:al-aalam p. 140}", sources: [source/al-aalam] }
+died: { edtf: "1883", hijri: "1300~", calendar: gregorian, precision: year, status: tradition, derived: true, note: "توفي بدمشق {cite:al-aalam p. 141}", sources: [source/al-aalam] }
+themes: [colonial-wars-and-resistance]
+relations:
+  - { type: related_to, target: event/french-occupation-algiers-1246, note: "بويع لقيادة الجهاد إثر دخول الفرنسيين", sources: [source/al-aalam] }
+  - { type: died_in, target: place/damascus, sources: [source/al-aalam] }
+  - { type: lived_in, target: place/wahran, note: "نشأ فيها وتعلم", sources: [source/al-aalam] }
+external_ids:
+  wikidata: Q179825
+sources: [source/al-aalam]
+provenance:
+  layer: own-research
+  source: "الأعلام لخير الدين الزركلي (ط2) — باب عبد، ص140-141"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  model: swe-2-high
+  run: lib-alam-zirikli-2
+status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 High); extracted from al-Zirikli al-A'lam via Apple Vision OCR" }

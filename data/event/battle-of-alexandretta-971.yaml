@@ -1,0 +1,23 @@
+id: event/battle-of-alexandretta-971
+class: event
+kind: battle
+label: { ar: "معركة الإسكندرونة (٩٧١)", en: "Battle of Alexandretta" }
+summary:
+  ar: "بطاقة أولية لمعركة الإسكندرونة سنة ٩٧١م، صدام الحمدانيين والبيزنطيين عند خليج إسكندرون؛ لم تُراجع مصادره على الصفحة بعد."
+  en: "Draft card for the Battle of Alexandretta in 971, the Hamdanid-Byzantine clash by the gulf of Alexandretta; its sources are not yet checked on the page."
+wings: [time]
+periods: [period/buyid-seljuk-fatimid-era]
+regions: [levant-iraq]
+date:
+  start: { edtf: "971", precision: year, status: tradition, derived: true }
+  end: { edtf: "971", precision: year, status: tradition, derived: true }
+sources: [source/kamil-ibn-al-athir]
+external_ids:
+  wikidata: Q20638753
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; battle attested in Arab-Byzantine histories — entry not yet checked on the page"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-wave2
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

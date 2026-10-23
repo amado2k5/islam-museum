@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 17:5 (سورة الإسراء، الآية 5)."
 text: "فَإِذَا جَآءَ وَعْدُ أُولَىٰهُمَا بَعَثْنَا عَلَيْكُمْ عِبَادًا لَّنَآ أُو۟لِى بَأْسٍ شَدِيدٍ فَجَاسُوا۟ خِلَـٰلَ ٱلدِّيَارِ ۚ وَكَانَ وَعْدًا مَّفْعُولًا"
 text_search: "فإذا جاء وعد أولاهما بعثنا عليكم عبادا لنا أولي بأس شديد فجاسوا خلال الديار ۚ وكان وعدا مفعولا"
+translations:
+  en: { text: "So when the time for the first of the two came, We roused against you slaves of Ours of great might who ravaged (your) country, and it was a threat performed.", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "پس جب پہلے (وعدے) کا وقت آیا تو ہم نے سخت لڑائی لڑنے والے بندے تم پر مسلط کردیئے اور وہ شہروں کے اندر پھیل گئے۔ اور وہ وعدہ پورا ہو کر رہا", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-17 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

@@ -1,0 +1,23 @@
+id: event/battle-of-lalas-1821
+class: event
+kind: battle
+label: { ar: "معركة لالاس", en: "Battle of Lalas" }
+summary:
+  ar: "بطاقة أولية لمعركة لالاس سنة ١٨٢١م، معركة الاستقلال اليوناني ضد العثمانيين في الموريه؛ لم تُراجع مصادره على الصفحة بعد."
+  en: "Draft card for the Battle of Lalas in 1821, the Greek revolutionaries' fight against the Ottomans in the Morea; its sources are not yet checked on the page."
+wings: [time]
+periods: [period/colonial-era]
+regions: [anatolia-balkans]
+date:
+  start: { edtf: "1821", precision: year, status: tradition, derived: true }
+  end: { edtf: "1821", precision: year, status: tradition, derived: true }
+sources: [source/dawlat-uthmaniyya-salabi]
+external_ids:
+  wikidata: Q12763254
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; battle attested in narrative histories — entry not yet checked on the page"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-wave2
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

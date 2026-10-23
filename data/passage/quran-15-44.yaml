@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 15:44 (سورة الحجر، الآية 44)."
 text: "لَهَا سَبْعَةُ أَبْوَٰبٍ لِّكُلِّ بَابٍ مِّنْهُمْ جُزْءٌ مَّقْسُومٌ"
 text_search: "لها سبعة أبواب لكل باب منهم جزء مقسوم"
+translations:
+  en: { text: "It hath seven gates, and each gate hath an appointed portion.", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "اس کے سات دروازے ہیں۔ ہر ایک دروازے کے لیے ان میں سے جماعتیں تقسیم کردی گئی ہیں", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-15 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

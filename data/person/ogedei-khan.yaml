@@ -1,0 +1,34 @@
+id: person/ogedei-khan
+class: person
+label:
+  ar: أوكداي بن جنكزخان
+  en: Ogedei ibn Genghis Khan
+summary:
+  ar: "أوكداي بن جنكزخان؛ جعله أبوه ولي عهده وجلس على التخت بعده فولى الخانات العظماء، وانتقل إلى وطن جنكزخان القديم بين الخطا والأيقور وهو تركستان وكاشغر وفيه مدينة قراقوم وبها كان كرسيه ومكانه بين أعمال ولده مكان المركز من الدائرة، وبعث العساكر إلى بلاد الروم مع أمير من أمراء المغل فملكها من يد بني قليج أرسلان، وولى بعده منكوفان بن طولي."
+  en: "Ogedei ibn Genghis Khan; his father made him heir and he sat on the throne as Great Khan, removing to Genghis's old homeland between Khita and the Uyghur lands where Qaraqorum held his seat at the centre of the circle of his sons' dominions — he dispatched armies to the land of Rum with a Mongol amir who took it from the Qilij Arslanids, and Monke ibn Tolui succeeded him."
+gender: male
+roles: [ruler]
+relations:
+- type: child_of
+  target: person/genghis-khan
+  sources:
+  - source/tarikh-ibn-khaldun-ibar
+- type: sibling_of
+  target: person/jochi-ibn-genghis
+  sources:
+  - source/tarikh-ibn-khaldun-ibar
+wings: [people]
+periods: [period/mongol-post-mongol]
+regions: [persia-central-asia, china-east-asia]
+sources:
+- source/tarikh-ibn-khaldun-ibar
+provenance:
+  layer: own-research
+  source: ابن خلدون، العبر — دولة التتر، ولاية أوكداي، ص1535-1536 (طبعة هيليوبوليس)
+  generated_by: Devin (SWE-2 High) from Apple Vision OCR
+  model: swe-2-high
+  run: lib-ibar-east-12
+status:
+  review: draft
+  completeness: 1
+  generated_by: Devin (SWE-2 High); extracted from Ibn Khaldun al-Ibar via Apple Vision OCR

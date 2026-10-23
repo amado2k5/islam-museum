@@ -1,0 +1,19 @@
+id: event/death-ibn-al-jawzi-597
+class: event
+kind: death
+label: { ar: "وفاة ابن الجوزي", en: "death of Ibn al-Jawzi — Ramadan 597" }
+date:
+  start: { edtf: "1200~", hijri: "0597", calendar: julian, precision: year, status: tradition, derived: true }
+summary:
+  ar: "توفي في رمضان أبو الفرج عبد الرحمن بن علي بن الجوزي الحنبلي الواعظ المؤرخ صاحب المنتظم وغيره من التصانيف التي بلغت المئات، وكان من أعيان علماء بغداد وأشهر الوعاظ في الإسلام {cite:kamil-ibn-al-athir p. 276}."
+  en: "In Ramadan died Abu al-Faraj Abd al-Rahman ibn al-Jawzi — the Hanbali preacher and historian of al-Muntazam whose works ran to the hundreds, the most famous waiz of the age {cite:kamil-ibn-al-athir p. 276}."
+relations:
+  - { type: occurred_at, target: place/baghdad, sources: [source/kamil-ibn-al-athir] }
+  - { type: had_participant, target: person/ibn-al-jawzi, role: "المتوفى", sources: [source/kamil-ibn-al-athir] }
+provenance:
+  layer: own-research
+  source: "الكامل في التاريخ لابن الأثير، قراءة آبل فيجن"
+  generated_by: "Devin (SWE-2 Medium) from Apple Vision OCR"
+  run: lib-kamil-v12-batch04
+sources: [source/kamil-ibn-al-athir]
+status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 Medium)" }

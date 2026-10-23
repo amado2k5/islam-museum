@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 16:49 (سورة النحل، الآية 49)."
 text: "وَلِلَّهِ يَسْجُدُ مَا فِى ٱلسَّمَـٰوَٰتِ وَمَا فِى ٱلْأَرْضِ مِن دَآبَّةٍ وَٱلْمَلَـٰٓئِكَةُ وَهُمْ لَا يَسْتَكْبِرُونَ"
 text_search: "ولله يسجد ما في السماوات وما في الأرض من دابة والملائكة وهم لا يستكبرون"
+translations:
+  en: { text: "And unto Allah maketh prostration whatsoever is in the heavens and whatsoever is in the earth of living creatures, and the angels (also) and they are not proud.", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "اور تمام جاندار جو آسمانوں میں ہیں اور جو زمین میں ہیں سب خدا کے آگے سجدہ کرتے ہیں اور فرشتے بھی اور وہ ذرا غرور نہیں کرتے", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-16 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

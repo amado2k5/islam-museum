@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 33:39 (سورة الأحزاب، الآية 39)."
 text: "ٱلَّذِينَ يُبَلِّغُونَ رِسَـٰلَـٰتِ ٱللَّهِ وَيَخْشَوْنَهُۥ وَلَا يَخْشَوْنَ أَحَدًا إِلَّا ٱللَّهَ ۗ وَكَفَىٰ بِٱللَّهِ حَسِيبًا"
 text_search: "الذين يبلغون رسالات الله ويخشونه ولا يخشون أحدا إلا الله ۗ وكفى بالله حسيبا"
+translations:
+  en: { text: "Who delivered the messages of Allah and feared Him, and feared none save Allah. Allah keepeth good account.", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "اور جو خدا کے پیغام (جوں کے توں) پہنچاتے اور اس سے ڈرتے ہیں اور خدا کے سوا کسی سے نہیں ڈرتے تھے۔ اور خدا ہی حساب کرنے کو کافی ہے", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-33 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

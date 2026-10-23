@@ -1,0 +1,22 @@
+id: person/abu-said-al-kharraz
+class: person
+label: { ar: "أبو سعيد الخراز", en: "Abu Sa'id al-Kharraz" }
+names:
+  - { kind: full, lang: ar, value: "أبو سعيد الخراز أحمد بن عيسى" }
+gender: male
+roles: [mystic]
+traditions: [sunni]
+died: { edtf: "0912", hijri: "0299", calendar: julian, precision: year, status: tradition, sources: [source/mawsuat-a3lam-ulama-adaba, source/muntazam-ibn-al-jawzi] }
+summary:
+  ar: "من كبار الصوفية، وكان له التصوف بمقام التوكل. "
+  en: "A major Sufi, known for the station of trust in God. Ibn al-Jawzi places his death under 277 (with a variant 286), describing him as 'one of the foremost in effort, devoutness and self-watchfulness' {cite:muntazam-ibn-al-jawzi p. 105}."
+wings: [people]
+themes: [spirituality-and-sufism]
+periods: [period/abbasid-fragmentation]
+regions: [levant-iraq]
+story_roles:
+  - { role: saint, status: tradition, sources: [source/mawsuat-a3lam-ulama-adaba, source/muntazam-ibn-al-jawzi] }
+external_ids: { wikidata: "Q2822175" }
+sources: [source/mawsuat-a3lam-ulama-adaba, source/muntazam-ibn-al-jawzi]
+status: { review: draft, completeness: 1, generated_by: "Devin; Mawsuat A'lam vol 8 pp. 532, lib-mawsuat-a3lam" }
+provenance: { layer: own-research, source: "موسوعة أعلام العلماء والأدباء (أليكسو/دار الجيل 2004) ج8 ص532", generated_by: "Devin", model: "SWE-2 High", run: "lib-mawsuat-a3lam" }

@@ -1,0 +1,18 @@
+id: person/abd-al-aziz-ibn-yahya-al-kinani
+class: person
+label: { ar: "عبد العزيز بن يحيى الكناني", en: "Abd al-Aziz ibn Yahya al-Kinani" }
+names:
+  - { kind: full, lang: ar, value: "عبد العزيز بن يحيى الكناني المكي المتكلم" }
+gender: male
+roles: [jurist]
+traditions: [sunni]
+summary:
+  ar: "عبد العزيز بن يحيى الكناني المكي المتكلم، وهو الذي ناظر بشر المريسي عند المأمون في نفي خلق القرآن {cite:tabaqat-fuqaha-abbas-1981 p. 54}. قال داود بن علي: هو أحد أصحاب الشافعي، أخذ عنه وطالت صحبته وخرج معه إلى اليمن {cite:tabaqat-fuqaha-abbas-1981 p. 54}. ويذكر الخطيب أنه قدم بغداد أيام المأمون وجرت بينه وبين بشر المريسي مناظرة في القرآن، وأنه صاحب كتاب الحيدة وله مصنفات؛ وعزا إليه داود بن علي فهمًا بمعاني القرآن. ولما دخل على المأمون وكانت خلقته شنيعة فضحك، قال: يا أمير المؤمنين لم ضحك هذا؟ ما اصطفى الله يوسف لجماله وإنما اصطفاه لدينه وبيانه {cite:tarikh-baghdad-khatib j.9 p.449-450}."
+  en: "Abd al-Aziz ibn Yahya al-Kinani al-Makki al-Mutakallim, the one who debated Bishr al-Marisi before al-Ma'mun on the denial that the Qur'an is created {cite:tabaqat-fuqaha-abbas-1981 p. 54}. Dawud ibn Ali said he was one of al-Shafi'i's companions: he took from him, kept his company for a long time, and went out with him to Yemen {cite:tabaqat-fuqaha-abbas-1981 p. 54}. Al-Khatib mentions that he came to Baghdad in the days of al-Ma'mun, when a debate on the Qur'an took place between him and Bishr al-Marisi; that he was the author of the book al-Hayda and had other works; and Dawud ibn Ali ascribed to him an understanding of the meanings of the Qur'an. When he entered upon al-Ma'mun, his appearance was unsightly and laughter broke out, and he said: 'O Commander of the Faithful, why is this man laughing? God did not choose Joseph for his beauty, but chose him for his religion and his eloquence' {cite:tarikh-baghdad-khatib j.9 p.449-450}."
+wings: [people]
+relations:
+  - { type: student_of, target: person/al-shafii, role: "أخذ عنه وطالت صحبته (داود بن علي، PDF ص54)", sources: [source/tabaqat-fuqaha-abbas-1981, source/tarikh-baghdad-khatib] }
+external_ids: { wikidata: "Q105476493" }
+sources: [source/tabaqat-fuqaha-abbas-1981, source/tarikh-baghdad-khatib]
+provenance: { layer: own-research, source: "طبقات الفقهاء (تحقيق إحسان عباس) PDF ص54–58", generated_by: "Claude (Haiku 5.5)", model: "claude-haiku-5-5", run: "lib-tabaqat-fuqaha-batch-6 + lib-tarikh-baghdad-tb7" }
+status: { review: draft, completeness: 1, generated_by: "en label draft (Claude Haiku 5.5, batch 1); Claude (Haiku 5.5); batch 6 (PDF ص54–58); Devin (SWE-2 Medium), lib-tarikh-baghdad-tb7" }

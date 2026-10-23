@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 69:16 (سورة الحاقة، الآية 16)."
 text: "وَٱنشَقَّتِ ٱلسَّمَآءُ فَهِىَ يَوْمَئِذٍ وَاهِيَةٌ"
 text_search: "وانشقت السماء فهي يومئذ واهية"
+translations:
+  en: { text: "And the heaven will split asunder, for that day it will be frail.", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "اور آسمان پھٹ جائے گا تو وہ اس دن کمزور ہوگا", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-69 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

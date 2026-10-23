@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 11:16 (سورة هود، الآية 16)."
 text: "أُو۟لَـٰٓئِكَ ٱلَّذِينَ لَيْسَ لَهُمْ فِى ٱلْـَٔاخِرَةِ إِلَّا ٱلنَّارُ ۖ وَحَبِطَ مَا صَنَعُوا۟ فِيهَا وَبَـٰطِلٌ مَّا كَانُوا۟ يَعْمَلُونَ"
 text_search: "أولئك الذين ليس لهم في الآخرة إلا النار ۖ وحبط ما صنعوا فيها وباطل ما كانوا يعملون"
+translations:
+  en: { text: "Those are they for whom is naught in the Hereafter save the Fire. (All) that they contrive here is vain and (all) that they are wont to do is fruitless.", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "یہ وہ لوگ ہیں جن کے لیے آخرت میں آتش (جہنم) کے سوا کوئی چیز نہیں اور جو عمل انہوں نے دنیا میں کئے سب برباد اور جو کچھ وہ کرتے رہے، سب ضائع", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-11 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

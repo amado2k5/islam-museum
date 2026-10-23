@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 3:103 (سورة آل عمران، الآية 103)."
 text: "وَٱعْتَصِمُوا۟ بِحَبْلِ ٱللَّهِ جَمِيعًا وَلَا تَفَرَّقُوا۟ ۚ وَٱذْكُرُوا۟ نِعْمَتَ ٱللَّهِ عَلَيْكُمْ إِذْ كُنتُمْ أَعْدَآءً فَأَلَّفَ بَيْنَ قُلُوبِكُمْ فَأَصْبَحْتُم بِنِعْمَتِهِۦٓ إِخْوَٰنًا وَكُنتُمْ عَلَىٰ شَفَا حُفْرَةٍ مِّنَ ٱلنَّارِ فَأَنقَذَكُم مِّنْهَا ۗ كَذَٰلِكَ يُبَيِّنُ ٱللَّهُ لَكُمْ ءَايَـٰتِهِۦ لَعَلَّكُمْ تَهْتَدُونَ"
 text_search: "واعتصموا بحبل الله جميعا ولا تفرقوا ۚ واذكروا نعمت الله عليكم إذ كنتم أعداء فألف بين قلوبكم فأصبحتم بنعمته إخوانا وكنتم على شفا حفرة من النار فأنقذكم منها ۗ كذلك يبين الله لكم آياته لعلكم تهتدون"
+translations:
+  en: { text: "And hold fast, all of you together, to the cable of Allah, and do not separate. And remember Allah's favour unto you: How ye were enemies and He made friendship between your hearts so that ye became as brothers by His grace; and (how) ye were upon the brink of an abyss of fire, and He did save you from it. Thus Allah maketh clear His revelations unto you, that haply ye may be guided,", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "اور سب مل کر خدا کی (ہدایت کی رسی) کو مضبوط پکڑے رہنا اور متفرق نہ ہونا اور خدا کی اس مہربانی کو یاد کرو جب تم ایک دوسرے کے دشمن تھے تو اس نے تمہارے دلوں میں الفت ڈال دی اور تم اس کی مہربانی سے بھائی بھائی ہوگئے اور تم آگ کے گڑھے کے کنارے تک پہنچ چکے تھے تو خدا نے تم کو اس سے بچا لیا اس طرح خدا تم کو اپنی آیتیں کھول کھول کر سناتا ہے تاکہ تم ہدایت پاؤ", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-3 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 70:37 (سورة المعارج، الآية 37)."
 text: "عَنِ ٱلْيَمِينِ وَعَنِ ٱلشِّمَالِ عِزِينَ"
 text_search: "عن اليمين وعن الشمال عزين"
+translations:
+  en: { text: "On the right and on the left, in groups?", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "اور) دائیں بائیں سے گروہ گروہ ہو کر (جمع ہوتے جاتے ہیں)", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-70 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

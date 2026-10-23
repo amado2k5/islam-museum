@@ -1,0 +1,23 @@
+id: event/battle-of-sokhoista-1545
+class: event
+kind: battle
+label: { ar: "معركة سوخويستا", en: "Battle of Sokhoista" }
+summary:
+  ar: "بطاقة أولية لمعركة سوخويستا سنة ١٥٤٥م، فوز العثمانيين على الصفويين؛ لم تُراجع مصادره على الصفحة بعد."
+  en: "Draft card for the Battle of Sokhoista in 1545, the Ottoman victory over the Safavids; its sources are not yet checked on the page."
+wings: [time]
+periods: [period/gunpowder-empires]
+regions: [anatolia-balkans]
+date:
+  start: { edtf: "1545", precision: year, status: tradition, derived: true }
+  end: { edtf: "1545", precision: year, status: tradition, derived: true }
+sources: [source/dawlat-uthmaniyya-salabi]
+external_ids:
+  wikidata: Q4872408
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; battle attested in narrative histories — entry not yet checked on the page"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-wave2
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

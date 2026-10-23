@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 39:54 (سورة الزمر، الآية 54)."
 text: "وَأَنِيبُوٓا۟ إِلَىٰ رَبِّكُمْ وَأَسْلِمُوا۟ لَهُۥ مِن قَبْلِ أَن يَأْتِيَكُمُ ٱلْعَذَابُ ثُمَّ لَا تُنصَرُونَ"
 text_search: "وأنيبوا إلى ربكم وأسلموا له من قبل أن يأتيكم العذاب ثم لا تنصرون"
+translations:
+  en: { text: "Turn unto your Lord repentant, and surrender unto Him, before there come unto you the doom, when ye cannot be helped.", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "اور اس سے پہلے کہ تم پر عذاب آ واقع ہو، اپنے پروردگار کی طرف رجوع کرو اور اس کے فرمانبردار ہوجاؤ پھر تم کو مدد نہیں ملے گی", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-39 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

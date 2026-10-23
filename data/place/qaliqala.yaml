@@ -1,0 +1,21 @@
+id: place/qaliqala
+class: place
+kind: city
+label: { ar: "قاليقلا", en: "Qaliqala (Theodosiopolis/Erzurum)" }
+summary:
+  ar: "قاليقلا من مدن أرمينية الثالثة في التقسيم المروي — أو الثانية — وكانت مركز فتوح أرمينية؛ يروي البلاذري أن امرأة ملّكت أرمينيافس بعد زوجها تسمّى قالي بنتها وسماها قاليقالة أي إحسان قالي وصُوّرت على باب من أبوابها فأعربتها العرب قاليقلا؛ فتحها حبيب بن مسلمة في خلافة عثمان على جلاء من شاء وجزية من بقي وأسكنها معاوية ألفي رجل مرابطة بقطائع، وظلت ممتنعة حتى أسقطها كوسان الأرمني سنة 133 بنقب أخوين من أهلها فهدمها، فردّها المنصور سنة 139 فادياً أسراها ومعمّراً وشارفاً جنداً، وأنفق المعتصم خمسمائة ألف درهم على تحصينها."
+  en: "Qaliqala (Theodosiopolis, Erzurum), of Armenia III in the reported division — or II — and the seat of Armenia's conquests; al-Baladhuri relates that a woman who ruled Armeniakos after her husband, named Qali, built it calling it 'Qali's beneficence', her image on one of its gates, and the Arabs arabised it Qaliqala; Habib ibn Maslama took it in Uthman's caliphate on departure-who-willed and jizya for who stayed, Mu'awiya garrisoning it with two thousand men on land-grants; it stayed defiant until Kusan the Armenian brought it down in year 133 through two brothers' tunnel under its wall and demolished it; al-Mansur restored it in year 139 ransoming its captives, settling and garrisoning it, and al-Mu'tasim spent five hundred thousand dirhams on its fortification."
+wings: [place]
+periods: [period/rashidun]
+regions: [levant-iraq]
+relations:
+  - { type: site_of, target: event/conquest-of-qaliqala, sources: [source/futuh-buldan-maarif-1407] }
+  - { type: site_of, target: event/fall-and-rebuilding-of-qaliqala, sources: [source/futuh-buldan-maarif-1407] }
+  - { type: part_of, target: place/armenia, sources: [source/futuh-buldan-maarif-1407] }
+provenance:
+  layer: own-research
+  source: "فتوح البلدان (ط مؤسسة المعارف 1407هـ/1987م) ص 277–280"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-futuh-buldan-batch-16
+sources: [source/futuh-buldan-maarif-1407]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

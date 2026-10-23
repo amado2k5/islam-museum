@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 12:70 (سورة يوسف، الآية 70)."
 text: "فَلَمَّا جَهَّزَهُم بِجَهَازِهِمْ جَعَلَ ٱلسِّقَايَةَ فِى رَحْلِ أَخِيهِ ثُمَّ أَذَّنَ مُؤَذِّنٌ أَيَّتُهَا ٱلْعِيرُ إِنَّكُمْ لَسَـٰرِقُونَ"
 text_search: "فلما جهزهم بجهازهم جعل السقاية في رحل أخيه ثم أذن مؤذن أيتها العير إنكم لسارقون"
+translations:
+  en: { text: "And when he provided them with their provision, he put the drinking-cup in his brother's saddlebag, and then a crier cried: O camel-riders! Lo! ye are surely thieves!", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "جب ان کا اسباب تیار کر دیا تو اپنے بھائی کے شلیتے میں گلاس رکھ دیا اور پھر (جب وہ آبادی سے باہر نکل گئے تو) ایک پکارنے والے نے آواز دی کہ قافلے والو تم تو چور ہو", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-12 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

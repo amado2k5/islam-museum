@@ -1,0 +1,19 @@
+id: passage/muslim-1218
+class: passage
+unit: hadith
+work: work/sahih-muslim
+ref: "1218"
+label: { ar: "مسلم 1218 — صفة حجة النبي (حديث جابر)", en: "Muslim 1218 — Jabir's description of the Prophet's hajj" }
+text: "ثم خطب الناس خطبة فقال: «إن دماءكم وأموالكم حرام عليكم كحرمة يومكم هذا في شهركم هذا في بلدكم هذا، ألا وكل شيء من أمر الجاهلية تحت قدمي موضوع»"
+summary:
+  ar: "حديث جابر بن عبد الله المطوَّل في وصف حجة الوداع من التلبية إلى الرمي والنحر؛ أثبت وثيقة نبوية لمناسك الحج. وفيه خطبة عرفة: تحريم الدماء والأموال، ووضع ربا الجاهلية وأوله ربا العباس، ودماء الجاهلية وأولها دم ابن ربيعة بن الحارث."
+relations:
+  - { type: mentions, target: person/jabir-ibn-abdullah, sources: [source/sahih-muslim] }
+  - { type: mentions, target: person/muhammad, sources: [source/sahih-muslim] }
+  - { type: mentions, target: person/abbas-ibn-abd-al-muttalib, sources: [source/sahih-muslim] }
+  - { type: mentions, target: event/farewell-pilgrimage, sources: [source/sahih-muslim] }
+  - { type: mentions, target: place/arafat, sources: [source/sahih-muslim] }
+  - { type: basis_for, target: event/farewell-pilgrimage, sources: [source/sahih-muslim] }
+provenance: { layer: own-research, source: "صحيح مسلم، كتاب الحج، باب صفة حجة النبي (طبعة دار التأصيل، الحديث 1231 باثني عشر طريقا؛ ترقيم عبد الباقي 1218)، تصوير Apple Vision OCR", generated_by: "Devin (SWE-2 High) from Apple Vision OCR", run: "hadith-muslim-passages-1" }
+sources: [source/sahih-muslim]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High); matn excerpt at most 40 words checked against the scan" }

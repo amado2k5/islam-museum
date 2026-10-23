@@ -1,0 +1,23 @@
+id: event/siege-of-izmail-1790
+class: event
+kind: siege
+label: { ar: "هجوم إسماعيل", en: "Siege of Izmail" }
+summary:
+  ar: "بطاقة أولية لاقتحام إسماعيل سنة ١٧٩٠م، عاصفة سوفوروف الروسية للحصن العثماني على الدانوب؛ لم تُراجع مصادره على الصفحة بعد."
+  en: "Draft card for the storming of Izmail in 1790, Suvorov's Russian assault on the Ottoman Danube fortress; its sources are not yet checked on the page."
+wings: [time]
+periods: [period/colonial-era]
+regions: [anatolia-balkans]
+date:
+  start: { edtf: "1790", precision: year, status: tradition, derived: true }
+  end: { edtf: "1790", precision: year, status: tradition, derived: true }
+sources: [source/dawlat-uthmaniyya-salabi]
+external_ids:
+  wikidata: Q2372093
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; siege attested in Russo-Turkish histories — entry not yet checked on the page"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-wave2
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

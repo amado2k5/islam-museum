@@ -1,0 +1,26 @@
+id: person/qays-ibn-al-musakhkhar
+class: person
+label: { ar: "قيس بن المسحّر اليعمري", en: "Qays ibn al-Musahhar al-Ya'muri" }
+names:
+  - { kind: full, lang: ar, value: "قيس بن المسحّر اليعمري" }
+  - { kind: alternate, lang: ar, value: "قيس بن المسخَّر (كذا في بعض المواضع)" }
+gender: male
+roles: [companion, poet]
+traditions: [sunni]
+summary:
+  ar: "صحابي شاعر من بني يعمر؛ قتل مسعدة بن حكمة الفزاري في غزوة زيد بن حارثة الثانية لبني فزارة وقال في ذلك شعراً، وأمره زيد بقتل أم قرفة فقتلها؛ وله في مؤتة شعر يعتذر فيه مما جرى ويمدح خالد بن الوليد."
+  en: "A Companion and poet of Banu Ya'mar; he killed Mas'ada ibn Hakama al-Fazari in Zayd ibn Haritha's second raid on Fazara and composed verses on it, and on Zayd's order killed Umm Qirfa; he also has verses on Mu'ta excusing what happened and praising Khalid ibn al-Walid."
+wings: [people]
+themes: [skirmishes-raids-expeditions, literature]
+periods: [period/prophetic-era]
+regions: [arabia]
+story_roles:
+  - { role: poet, status: tradition, note: "شعره في قتل مسعدة (ص266) وفي مؤتة (ص25).", sources: [source/ibn-hisham-saqqa] }
+faith:
+  - { value: sunni, basis: tradition, note: "من أصحاب النبي في سراياه (ابن هشام ص265).", sources: [source/ibn-hisham-saqqa] }
+relations:
+  - { type: participated_in, target: event/raid-of-zayd-on-banu-fazara-and-umm-qirfa, role: "قتل مسعدة ثم أم قرفة بأمر زيد", sources: [source/ibn-hisham-saqqa] }
+  - { type: participated_in, target: event/battle-of-mutah, role: "قال شعراً في الاعتذار مما جرى", sources: [source/ibn-hisham-saqqa] }
+provenance: { layer: own-research, source: "sira-ibn-hisham saqqa 1936, juz' 4 pp. 25, 265-266", generated_by: "Claude Code", model: "claude-fable-5-1", run: "ibn-hisham-batch-13" }
+sources: [source/ibn-hisham-saqqa]
+status: { review: draft, completeness: 1, generated_by: "Claude Fable 5.1; mined from Ibn Hisham juz' 4 pp. 265-266; the Mu'ta verses from batch 4 stub note" }

@@ -1,0 +1,28 @@
+id: person/al-rabi-ibn-sulayman-al-muradi
+class: person
+label: { ar: "الربيع بن سليمان المرادي", en: "Al-Rabi ibn Sulayman al-Muradi" }
+names:
+  - { kind: full, lang: ar, value: "الربيع بن سليمان بن عبد الجيار بن كامل المرادي، أبو محمد، مولاهم" }
+  - { kind: kunya, lang: ar, value: "أبو محمد" }
+gender: male
+roles: [hadith-scholar]
+traditions: [sunni]
+summary:
+  ar: "مؤذن جامع فسطاط مصر، صاحب الشافعي وراوية كتبه والثقة الثبت فيما يرويه؛ قال السبكي: لو تعارض هو وأبو إبراهيم المزني في رواية لقُدمت روايته لعلو قدره في النقل. ولد سنة أربع وسبعين ومائة واتصل بخدمة الشافعي وحمل عنه الكثير، وحدث عنه وعن عبد الله بن وهب وعبد الله بن يوسف التطيبي وأيوب بن سويد الرملي ويحيى بن حسان وأسد بن موسى؛ روى عنه أبو داود والنسائي وابن ماجة وأبو زرعة وأبو حاتم وابنه عبد الرحمن وزكريا الساجي والطحاوي وآخرهم أبو الفوارس السندي، وأخرج حديثه ابن خزيمة وابن حبان والحاكم. قال الشافعي له: ما أحبك إلىّ، وقال: ما خدمني أحد قط ما خدم مني الربيع بن سليمان، وقال: لو أمكنني أن أطعمك العلم لأطعمتك؛ ونقل القفال أنه كان بطيء الفهم فكرر الشافعي عليه مسألة أربعين مرة حتى فهم، وكانت الرحلة في كتب الشافعي إليه من الآفاق نحو مائتي رجل. مات يوم الاثنين ودُفن يوم الثلاثاء لإحدى وعشرين ليلة خلت من شوال سنة سبعين ومائتين، وصلى عليه الأمير خمارويه بن أحمد بن طولون {cite:tabaqat-shafiiyya-subki j.1 p.259-261}."
+  en: "The muezzin of the congregational mosque of Fustat — al-Shafi'i's own companion and the transmitter of his books, a rock-solid thiqa in his transmission; al-Subki judges his riwaya preferred even over al-Muzani's. Born 174, he attached himself to al-Shafi'i's service and carried much from him; Abu Dawud, al-Nasa'i, Ibn Maja, Abu Zur'a, Abu Hatim, al-Tahawi and others transmitted from him, and Ibn Khuzayma, Ibn Hibban and al-Hakim printed his hadith. Al-Shafi'i said 'no one ever served me as al-Rabi' served me' and 'if I could feed you knowledge I would feed you'; some two hundred men journeyed to him for al-Shafi'i's books. He died on 21 Shawwal 270 and the Amir Khumarawayh ibn Tulun himself prayed over him {cite:tabaqat-shafiiyya-subki j.1 p.259-261}."
+born: { hijri: "0174", edtf: "0790", calendar: julian, precision: year, status: tradition, derived: true, note: "ولد سنة 174هـ (السبكي). التحويل مشتق.", sources: [source/tabaqat-shafiiyya-subki] }
+died: { hijri: "0270-10-21", edtf: "0884", calendar: julian, precision: day, status: tradition, derived: true, note: "توفي الاثنين لإحدى وعشرين ليلة خلت من شوال 270هـ؛ صلى عليه خمارويه بن طولون (السبكي). التحويل مشتق.", sources: [source/tabaqat-shafiiyya-subki] }
+wings: [people]
+themes: [scripture-and-its-sciences]
+regions: [egypt-nile]
+periods: [period/abbasid-early]
+relations:
+  - { type: student_of, target: person/al-shafii, role: "صاحبه وراوية كتبه", sources: [source/tabaqat-shafiiyya-subki] }
+provenance:
+  layer: own-research
+  source: "طبقات الشافعية الكبرى للسبكي (ج1، ترجمة الربيع المرادي، ص259-261)، قراءة آبل فيجن"
+  generated_by: "Devin (SWE-2 Medium) from Apple Vision OCR"
+  model: "SWE-2 Medium"
+  run: lib-subki-tabaqat-ts1
+sources: [source/tabaqat-shafiiyya-subki]
+status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 Medium)" }

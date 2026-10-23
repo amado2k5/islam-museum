@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 35:41 (سورة فاطر، الآية 41)."
 text: "۞ إِنَّ ٱللَّهَ يُمْسِكُ ٱلسَّمَـٰوَٰتِ وَٱلْأَرْضَ أَن تَزُولَا ۚ وَلَئِن زَالَتَآ إِنْ أَمْسَكَهُمَا مِنْ أَحَدٍ مِّنۢ بَعْدِهِۦٓ ۚ إِنَّهُۥ كَانَ حَلِيمًا غَفُورًا"
 text_search: "۞ إن الله يمسك السماوات والأرض أن تزولا ۚ ولئن زالتا إن أمسكهما من أحد من بعده ۚ إنه كان حليما غفورا"
+translations:
+  en: { text: "Lo! Allah graspeth the heavens and the earth that they deviate not, and if they were to deviate there is not one that could grasp them after Him. Lo! He is ever Clement, Forgiving.", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "خدا ہی آسمانوں اور زمین کو تھامے رکھتا ہے کہ ٹل نہ جائیں۔ اگر وہ ٹل جائیں تو خدا کے سوا کوئی ایسا نہیں جو ان کو تھام سکے۔ بےشک وہ بردبار (اور) بخشنے والا ہے", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-35 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

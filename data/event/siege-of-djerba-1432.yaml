@@ -1,0 +1,23 @@
+id: event/siege-of-djerba-1432
+class: event
+kind: siege
+label: { ar: "حصار جربة (١٤٣٢)", en: "Siege of Djerba (1432)" }
+summary:
+  ar: "بطاقة أولية لحصار جربة سنة ١٤٣٢م، هجوم ألفونسو الخامس الأراغوني على الجزيرة؛ لم تُراجع مصادره على الصفحة بعد."
+  en: "Draft card for the Siege of Djerba in 1432, Alfonso V of Aragon's attack on the island; its sources are not yet checked on the page."
+wings: [time]
+periods: [period/crusades-ayyubid-mamluk]
+regions: [maghreb]
+date:
+  start: { edtf: "1432", precision: year, status: tradition, derived: true }
+  end: { edtf: "1432", precision: year, status: tradition, derived: true }
+sources: [source/tarikh-islam-hasan-ibrahim]
+external_ids:
+  wikidata: Q17605482
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; battle attested in narrative histories — entry not yet checked on the page"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-wave2
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

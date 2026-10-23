@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 3:159 (سورة آل عمران، الآية 159)."
 text: "فَبِمَا رَحْمَةٍ مِّنَ ٱللَّهِ لِنتَ لَهُمْ ۖ وَلَوْ كُنتَ فَظًّا غَلِيظَ ٱلْقَلْبِ لَٱنفَضُّوا۟ مِنْ حَوْلِكَ ۖ فَٱعْفُ عَنْهُمْ وَٱسْتَغْفِرْ لَهُمْ وَشَاوِرْهُمْ فِى ٱلْأَمْرِ ۖ فَإِذَا عَزَمْتَ فَتَوَكَّلْ عَلَى ٱللَّهِ ۚ إِنَّ ٱللَّهَ يُحِبُّ ٱلْمُتَوَكِّلِينَ"
 text_search: "فبما رحمة من الله لنت لهم ۖ ولو كنت فظا غليظ القلب لانفضوا من حولك ۖ فاعف عنهم واستغفر لهم وشاورهم في الأمر ۖ فإذا عزمت فتوكل على الله ۚ إن الله يحب المتوكلين"
+translations:
+  en: { text: "It was by the mercy of Allah that thou wast lenient with them (O Muhammad), for if thou hadst been stern and fierce of heart they would have dispersed from round about thee. So pardon them and ask forgiveness for them and consult with them upon the conduct of affairs. And when thou art resolved, then put thy trust in Allah. Lo! Allah loveth those who put their trust (in Him).", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "(اے محمدﷺ) خدا کی مہربانی سے تمہاری افتاد مزاج ان لوگوں کے لئے نرم واقع ہوئی ہے۔ اور اگر تم بدخو اور سخت دل ہوتے تو یہ تمہارے پاس سے بھاگ کھڑے ہوتے۔ تو ان کو معاف کردو اور ان کے لئے (خدا سے) مغفرت مانگو۔ اور اپنے کاموں میں ان سے مشورت لیا کرو۔ اور جب (کسی کام کا) عزم مصمم کرلو تو خدا پر بھروسا رکھو۔ بےشک خدا بھروسا رکھنے والوں کو دوست رکھتا ہے", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-3 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }
