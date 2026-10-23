@@ -1,0 +1,48 @@
+id: building/imam-husayn-shrine
+class: building
+kind: shrine
+label:
+  ar: مرقد الحسين بكربلاء
+  en: Imam Husayn Shrine, Karbala
+  ur: روضہ امام حسین کربلا
+summary:
+  ar: "مرقد الحسين بن علي بكربلاء فوق موضع قتله سنة 61هـ؛ سجّل ابن كثير مقتله بها يوم عاشوراء، وصار المرقد مركز زيارة عظيما عند الشيعة الإثني عشرية {cite:al-bidaya-wal-nihaya} {cite:momen-1985}."
+  en: "The shrine of Husayn ibn Ali at Karbala, over the place of his killing in 61 AH; Ibn Kathir records his death there on Ashura, and the shrine became a major pilgrimage centre for the Twelver Shi'a {cite:al-bidaya-wal-nihaya} {cite:momen-1985}."
+wings: [objects]
+themes: [sacred-space-and-pilgrimage, sects-and-schools]
+regions: [levant-iraq]
+periods: [period/rashidun]
+external_ids: { wikidata: "Q773704" }
+sources: [source/al-bidaya-wal-nihaya, source/momen-1985]
+perspectives:
+- tradition: sunni
+  id: sunni-veneration
+  stance:
+    ar: موضع استشهاد الحسين يجلّه أهل السنة حزنا وتقديرا دون العقيدة الزيارية
+    en: The site of Husayn's martyrdom, held in grief and esteem by Sunnis without shrine-pilgrimage doctrine
+  summary:
+    ar: "يحفظ أهل السنة لكربلاء موضعها من مصاب الحسين الذي سجله ابن كثير، مع اختلافهم في أحكام زيارة القبور وشعائرها {cite:al-bidaya-wal-nihaya}."
+    en: "Sunnis hold Karbala as the site of Husayn's martyrdom recorded by Ibn Kathir, differing on the rulings of grave visitation and its rites {cite:al-bidaya-wal-nihaya}."
+  sources: [source/al-bidaya-wal-nihaya]
+- tradition: academic
+  id: academic-development
+  stance:
+    en: The cult centre whose growth shaped Karbala's rise as a shrine city
+  summary:
+    en: "Academic works describe the shrine's development and Karbala's growth around it as a Twelver pilgrimage and learning centre {cite:momen-1985}."
+  sources: [source/momen-1985]
+- tradition: shia-twelver
+  id: twelver-ziyara
+  stance:
+    ar: أشرف المشاهد ومقصد الزيارة الأعظم في عاشوراء والأربعين
+    en: The noblest of shrines and the great destination of Ashura and Arba'in pilgrimage
+  summary:
+    en: "For the Twelver Shi'a the shrine is the foremost pilgrimage destination, the focus of Ashura and Arba'in observance {cite:momen-1985}."
+  sources: [source/momen-1985]
+sensitivity: contested
+provenance:
+  layer: own-research
+  source: "wikidata-import deferred Q773704; contested: Bidaya verified (61 AH Karbala) + Momen academic fallback"
+  generated_by: "Devin (SWE-2 Medium)"
+  run: wd-deferred-10
+status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 Medium)" }
