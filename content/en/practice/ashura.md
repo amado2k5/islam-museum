@@ -2,14 +2,13 @@
 id: practice/ashura
 lang: en
 source_lang: ar
-translators: ["Devin (SWE-2 Medium), draft translation"]
+translators: []
 ---
-
 ## Overview
-Ashura is the tenth day of Muharram in the Hijri calendar. Quraysh fasted it in the Jahiliyya; when the Prophet came to Medina he found its Jews fasting it for the rescue of Moses from Pharaoh, declared himself worthier of Moses, fasted it and ordered its fast; after Ramadan was prescribed the Ashura fast became voluntary and recommended {cite:sahih-al-bukhari} {cite:sahih-muslim}.
+'Ashura' is the tenth of Muharram; tasu'a' the ninth; fasting both is recommended. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.11347}
 
-## The fast in Sunni practice
-Bukhari and Muslim report that Quraysh fasted the day of Ashura in the Jahiliyya, and that the Prophet fasted it and ordered its fast in gratitude for God's rescue of the Israelites. Jurists recommend joining it with the day before or after to differ from the Jewish fast {cite:sahih-al-bukhari} {cite:sahih-muslim}.
+## Ruling
+Its fast is sunna like tasu'a'. The Prophet fasted it and said "fasting the day of 'ashura' — I hope from God that it expiates the year before it," meaning its minor sins; if none, some of its major sins are lightened; if none, degrees are raised. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.11347} {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.11348}
 
-## Mourning in Shi'a practice
-On Ashura in the year 61 AH Husayn ibn Ali ibn Abi Talib was killed at Karbala, as Ibn Kathir records under that year's events {cite:al-bidaya-wal-nihaya}. The Shi'a adopted it as their greatest day of mourning, marked by remembrance gatherings, visitations and rituals at Karbala and beyond {cite:salabi-umayyad-state-2020}.
+## Why the ninth
+Arriving in Medina he found the Jews fasting 'ashura' — "a righteous day on which God saved the Children of Israel from their enemy, so Musa fasted it." He said "I am worthier of Musa than you," fasted it and ordered it fasted; told that Jews and Christians venerate it, he said "next year, God willing, we shall fast the ninth" — but the next year did not come before he died. Scholars give reasons for recommending the ninth: differing from the Jews, joining a fast to the tenth, and precaution for the tenth itself. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.11347} {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.11348}
