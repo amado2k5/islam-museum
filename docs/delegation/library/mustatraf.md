@@ -17,4 +17,4 @@
 ## Batch 3 (scan pp. 205-207)
 - Checked against page images: p. 205 (Umar ibn Yazid al-Asadi, colic anecdote, confirmed) and p. 207 (the guest-satirist described as Haydar al-Araqt, confirmed).
 - New entry: person/umar-ibn-yazid-al-asadi (Arabic and English summaries).
-- Still open: Urdu translations for batches 2 and 3; the rest of pp. 207-208 (the Haytham ibn Adi and Abu al-Aswad anecdotes on p. 207 are visible but not yet written up).
+- Urdu added for the two new entries (label and summary). Still open: the rest of pp. 207-208 (the Haytham ibn Adi and Abu al-Aswad anecdotes on p. 207 are visible but not yet written up).
