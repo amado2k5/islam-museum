@@ -2,10 +2,13 @@
 id: practice/iftar
 lang: en
 source_lang: ar
-translators: ["Claude Haiku 5.5 (claude-haiku-5-5), draft translation"]
+translators: []
 ---
-## Summary
-Iftar is the meal that breaks the fast at sunset during Ramadan. Families and neighbours gather for it, and it rests on charity and mutual support. Many people open their fast with dates and tea, and the dishes differ from one country to another {cite:gulfnews-unesco-iftar}.
+## Overview
+Iftar is entering the time of breaking the fast when it becomes lawful to break it: "when the night advances from here, the day retreats from here, and the sun sets, the faster has broken his fast." {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.3088}
 
-## Its inscription in UNESCO heritage
-UNESCO added iftar to its List of Intangible Cultural Heritage in 2023, on a nomination from Azerbaijan, Iran, Turkey and Uzbekistan. {cite:hurriyet-unesco-iftar} The date comes from press reports and is awaiting checking against the official UNESCO record before it is accepted (needs_source).
+## Rulings
+Its default for one obliged to fast is prohibition; it can be obligatory where an impediment exists — mortal illness, menstruation, lochia, or the forbidden days such as the two Eids; disliked for the traveller per the Malikis and for one who began a voluntary fast without excuse; recommended for an excuse such as honouring a guest; and permissible for the sick who fear worsening. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.3088} {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.3089}
+
+## Effects
+Whoever breaks without excuse an obligatory fast requiring consecutiveness — like expiation fasts — interrupts the sequence and must restart; with excuse he builds on what passed. Make-up is agreed for obligatory fasts and disputed for voluntary ones. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.3089}

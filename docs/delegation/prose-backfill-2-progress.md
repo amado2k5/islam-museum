@@ -65,3 +65,35 @@ Flags:
 - `practice/dhabihah` (the only missing-prose practice) has no headword under «ذبيحة»; likely under «ذكاة» or inside «أضحية» — deferred to next batch sweep.
 
 **Next step (exact):** the hadith-rijal cohort (`person/abu-salih-al-samman`, `person/abd-al-rahman-ibn-abd-al-qari`, …) still needs Isaba entries extracted; the extracted Tahdhib/Taqrib vols on the drive cover different letter-ranges, so per-entry lookup is required. Alternatively continue the fiqh-term tier with the remaining thin practices (`practice/khitan`, `practice/walima`, `practice/miswak`, `practice/istikhara`, `practice/suhur`, `practice/iftar`, `practice/taraweeh`, `practice/sujud-tilawa`, `practice/itikaf`… headwords located: «جنائز», «قيام الليل» p.13134, «عقيقة» p.11783).
+
+## Batch 3 — remaining thin practice terms (16 records)
+
+All from `source/fiqh-mawsua-kuwaitiyya-noor-v3` headwords; each record ar+en+ur prose, source added, completeness 3.
+
+| record | headword scan page(s) |
+|---|---|
+| practice/adhan | p.2006–2007 |
+| practice/istikhara | p.2322–2323 |
+| practice/salat-al-istisqa | p.2385–2386 |
+| practice/iftar | p.3088–3089 |
+| practice/khitan | p.7550–7551 |
+| practice/khutba | p.7700–7701 |
+| practice/walima | p.17946 |
+| practice/suhur | p.9473–9474 |
+| practice/salat-al-witr | p.10651–10652 |
+| practice/ashura | p.11347–11348 |
+| practice/eid-al-fitr | p.11984–11985 («عيد») |
+| practice/eid-al-adha | p.11984–11985 («عيد») |
+| practice/qiyam-al-layl | p.13134 (+ p.10651 witr relation) |
+| practice/tawaf | p.11248–11249 |
+| practice/sai | p.9584–9585 |
+| practice/umrah | p.11821–11822 |
+
+### Skipped / deferred (no headword found in this scan)
+- `practice/taraweeh` — no «تراويح» headword; covered partially inside qiyam/رمضان sections.
+- `practice/miswak` — no «سواك» headword located.
+- `practice/khatm-al-quran` — no «ختمة» headword.
+- `practice/sujud-tilawa` — no «سجدة»/«سجدة التلاوة» headword located.
+- `practice/dhabihah` — still deferred (see batch 2 note).
+- `practice/sawm-ramadan`, `practice/tahajjud`, `practice/laylat-al-qadr`, `practice/salat-al-duha`, `practice/zakat-al-fitr`, `practice/ziyarat-al-qubur`, `practice/greeting-salam`, `practice/dhikr`, `practice/dua` — candidates for batch 4; headword variants still to check.
+- `practice/aqiqah` — probable duplicate of `practice/aqiqa` (already done); needs alias decision, not prose.

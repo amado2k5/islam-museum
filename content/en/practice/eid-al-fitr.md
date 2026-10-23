@@ -2,10 +2,16 @@
 id: practice/eid-al-fitr
 lang: en
 source_lang: ar
-translators: ["Claude Haiku 5.5 (claude-haiku-5-5), draft translation"]
+translators: []
 ---
 ## Overview
-The feast marking the end of Ramadan fasting on the first of Shawwal; it begins with the festival prayer and the zakat al-fitr before it, then feasts, visits and new clothes. {cite:wikidata}
+'Eid is from 'awd, returning, for it recurs; the Muslims have two: the day of fitr, first of Shawwal, and the day of adha, the tenth of Dhu'l-Hijja — no other. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.11984}
 
-## Description
-The widest festive season in the Islamic world; its customs differ between countries, from Egyptian cakes to Iraqi kubba to Indonesian cakes. {cite:wikidata}
+## The Eid prayer
+Jurists differ on its ruling: an emphatic sunna for the Malikis and Shafi'is; obligatory on the operative Hanafi view because of the Prophet's unbroken performance and its congregational form; a communal obligation for the Hanbalis on "so pray to your Lord and sacrifice." {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.11984}
+
+## Takbir
+Takbir on the two Eids is prescribed on the way to the prayer in homes, markets and roads until the prayer begins; the extra takbirs within it are sunna per the majority and obligatory per the Hanafis; takbir after prayers on the tashriq days is prescribed by agreement, recommended per the majority and obligatory per the Hanafis. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.11984} {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.11985}
+
+## The day's practices
+Keeping the two Eid nights alive in worship is recommended — "whoever keeps alive the night of fitr and of adha in hope, his heart shall not die on the day hearts die" — and the Eid bath, as the Prophet bathed on the two days. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.11985}
