@@ -15,6 +15,8 @@ const valuesJoined = stops.map((s) => s.value).join(sep);
 <div class="kids quest" data-quest
   data-i18n-stars={t.quest_stars}
   data-i18n-erase-done={t.erase_done}>
+  {/* The celebrating Hudhud is drawn once and reused by every stop and the finale (a sprite: 5 copies cost 80 KB). */}
+  <svg width="0" height="0" style="position:absolute" aria-hidden="true" focusable="false"><symbol id="hudhud-celebrate" viewBox="0 0 200 222"><Hudhud pose="celebrate" size={200} /></symbol></svg>
   <h1>{t.quest_title}</h1>
   <p class="lede">{t.quest_lede}</p>
 
@@ -44,7 +46,7 @@ const valuesJoined = stops.map((s) => s.value).join(sep);
         </div>
       </div>
       <div class="quest-feedback" data-feedback hidden>
-        <Hudhud pose="celebrate" size={72} />
+        <svg width="72" height="80" viewBox="0 0 200 222" aria-hidden="true" focusable="false"><use href="#hudhud-celebrate" /></svg>
         <p>{s.feedback}</p>
         <p class="done-msg">⭐ {t.quest_done}</p>
       </div>
@@ -56,7 +58,7 @@ const valuesJoined = stops.map((s) => s.value).join(sep);
   ))}
 
   <section class="finale" data-finale hidden aria-label={t.finale_title}>
-    <Hudhud pose="celebrate" size={120} />
+    <svg width="120" height="133" viewBox="0 0 200 222" aria-hidden="true" focusable="false"><use href="#hudhud-celebrate" /></svg>
     <h2>{t.finale_title}</h2>
     <p>{fmt(t.finale_lede, { values: valuesJoined })}</p>
     <p>

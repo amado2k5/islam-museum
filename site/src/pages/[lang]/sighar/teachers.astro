@@ -13,6 +13,7 @@ const T = ui(lang);
 const t = T.kids;
 const paths = viewPaths(loadPaths(), lang);
 const lessons = viewLessons(loadLessons(), lang);
+const E = T.edu;
 const lessonTitle = (unit_slug: string): string => t[`${unit_slug}_title`] as string;
 const crumbLabel = lang === "ar" ? "مسار التنقل" : "breadcrumb";
 ---
@@ -25,6 +26,7 @@ const crumbLabel = lang === "ar" ? "مسار التنقل" : "breadcrumb";
   <div class="kids teachers">
     <h1>{t.teachers_title}</h1>
     <p class="lede">{t.teachers_lede}</p>
+    <p><a class="kids-btn ghost" href={`/${lang}/learn/teachers/`}>{E.th_title} <span class="flip" aria-hidden="true">→</span></a></p>
 
     <section class="teachers-bands" aria-label={t.teachers_bands_title}>
       <h2>{t.teachers_bands_title}</h2>
