@@ -1,0 +1,81 @@
+---
+// Study modes on a card deck (E1): the mode tabs (flip is the existing FlipDeck), the stage the client fills,
+// the printable cut-out deck, and the deck payload. Without JavaScript the tabs stay hidden and the deck's
+// full list (already on the page) reads and prints.
+import type { DeckFile } from "../lib/cardlists";
+import { SITE } from "../lib/graph";
+import { ui, type Lang } from "../lib/i18n";
+import Qr from "./Qr.astro";
+import "../styles/edu.css";
+
+interface Props { deck: DeckFile; lang: Lang; path: string }
+const { deck, lang, path } = Astro.props;
+const E = ui(lang).edu;
+const L = (x: { ar: string; en: string; ur?: string }) => (x[lang] ?? x.ar);
+const payload = {
+  slug: deck.slug, lang, title: L(deck.title), url: `${SITE}${path}`,
+  items: deck.items.map((it) => ({ title: L(it.title), body: L(it.body), accept: (it as any).accept?.[lang] ?? [] })),
+};
+const strings = Object.fromEntries(Object.entries(E).filter(([k]) => /^(match_|type_|test_|share_|mode_)/.test(k)));
+---
+<section class="study no-print" data-study hidden aria-labelledby="study-h">
+  <h2 id="study-h" class="ui" style="font-size:1.05rem">{E.study_title}</h2>
+  <div class="study-tabs" role="group" aria-label={E.study_title}>
+    <button type="button" class="chip" data-mode="flip" aria-pressed="true">🔄 {E.mode_flip}</button>
+    <button type="button" class="chip" data-mode="match" aria-pressed="false">🧩 {E.mode_match}</button>
+    <button type="button" class="chip" data-mode="type" aria-pressed="false">⌨️ {E.mode_type}</button>
+    <button type="button" class="chip" data-mode="test" aria-pressed="false">🎯 {E.mode_test}</button>
+  </div>
+  <div class="study-stage" data-study-stage hidden></div>
+  <script type="application/json" data-study-payload set:html={JSON.stringify(payload)} />
+  <script type="application/json" data-study-i18n set:html={JSON.stringify(strings)} />
+</section>
+<p class="muted no-print" data-study-nojs><noscript>{E.study_nojs}</noscript></p>
+
+<section class="deck-print" aria-label={E.deck_print}>
+  <p class="no-print"><button type="button" class="btn btn-outline" data-print>{E.deck_print}</button> <span class="muted">{E.deck_print_note}</span></p>
+  <div class="print-only deck-cut">
+    {deck.items.map((it, i) => (
+      <>
+        <div class="cut-card"><span class="cut-num">{i + 1}</span><b>{L(it.title)}</b></div>
+        <div class="cut-card cut-back"><span class="cut-num">{i + 1}</span><span>{L(it.body)}</span></div>
+      </>
+    ))}
+    <div class="cut-card cut-qr"><Qr lang={lang} path={path} /></div>
+  </div>
+</section>
+<script src="../scripts/study.ts"></script>
+<script src="../scripts/print-btn.ts"></script>
+<style>
+  .study { margin: 18px auto 0; max-width: 640px; }
+  .study-tabs { display: flex; flex-wrap: wrap; gap: 8px; margin: 6px 0 12px; }
+  .study-tabs .chip { border: 1px solid var(--line); cursor: pointer; min-height: 44px; padding: 0 14px; font-size: .95rem; }
+  .study-tabs .chip[aria-pressed="true"] { background: var(--gold); color: #0a2533; border-color: var(--gold); }
+  .study-stage { border: 1px solid var(--line); border-radius: 14px; padding: 14px 16px; }
+  .study-stage :global(.match-grid) { display: grid; grid-template-columns: 1fr 1fr; gap: 10px; }
+  .study-stage :global(.match-col) { display: flex; flex-direction: column; gap: 8px; }
+  .study-stage :global(.match-tile) { min-height: 56px; border: 2px solid var(--line); border-radius: 12px; background: var(--card); color: inherit; font: inherit; padding: 8px 10px; cursor: pointer; text-align: start; }
+  .study-stage :global(.match-tile[aria-pressed="true"]) { border-color: var(--gold); background: rgba(197, 160, 89, .18); }
+  .study-stage :global(.match-tile.ok) { border-color: #1e7e34; opacity: .55; }
+  .study-stage :global(.match-tile.no) { border-color: #c0392b; }
+  .study-stage :global(.study-q) { font-size: 1.15rem; margin: 8px 0 12px; }
+  .study-stage :global(.study-form) { display: flex; flex-wrap: wrap; gap: 8px; }
+  .study-stage :global(.study-form input) { flex: 1 1 220px; min-height: 44px; font: inherit; padding: 6px 12px; border: 1.5px solid var(--line); border-radius: 10px; background: var(--card); color: inherit; }
+  .study-stage :global(.study-fb) { min-height: 1.5em; font-weight: 600; }
+  .study-stage :global(.study-fb.ok) { color: #1e7e34; } .study-stage :global(.study-fb.no) { color: #c0392b; } .study-stage :global(.study-fb.close) { color: var(--gold-text); }
+  .study-stage :global(.study-opts) { display: grid; gap: 8px; margin: 8px 0; }
+  .study-stage :global(.study-opt) { min-height: 48px; text-align: start; border: 2px solid var(--line); border-radius: 12px; background: var(--card); color: inherit; font: inherit; padding: 8px 12px; cursor: pointer; }
+  .study-stage :global(.study-opt.ok) { border-color: #1e7e34; } .study-stage :global(.study-opt.no) { border-color: #c0392b; }
+  .study-stage :global(.study-result) { font-weight: 700; margin: 10px 0; }
+  .study-stage :global(.btn) { cursor: pointer; }
+  .deck-print { margin: 14px auto 0; max-width: 640px; }
+  .print-only { display: none; }
+  @media print {
+    .print-only { display: block; }
+    .deck-cut { display: grid; grid-template-columns: 1fr 1fr; gap: 0; }
+    .cut-card { border: 1px dashed #666; min-height: 42mm; padding: 6mm; break-inside: avoid; display: flex; flex-direction: column; justify-content: center; font-size: 12pt; }
+    .cut-back { font-size: 10.5pt; }
+    .cut-num { font-size: 9pt; color: #666; }
+    .cut-qr { grid-column: 1 / -1; align-items: center; }
+  }
+</style>
