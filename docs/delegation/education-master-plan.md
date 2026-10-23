@@ -403,6 +403,18 @@ Open each in a browser window at 1440 × 900. The map in the Explorers mockup is
 
 ---
 
+### 9.1 Decisions (founder, 23 October 2026)
+
+The founder agreed to all five recommendations in chat on 23 October 2026. They are now binding on Stage 2:
+
+1. The front door is `/{lang}/learn/`; the trail chooser moves to `/{lang}/learn/trails/`.
+2. The teen wing is «جناح الشباب» at `/shabab/`, with «الدارسون» (Scholars, 13–15) at `/shabab/scholars/` and «الباحثون» (Researchers, 16–18) at `/shabab/researchers/`; the Urdu band names stay subject to the founder's Urdu review.
+3. Leveled reading lives inside the existing prose file as fixed-heading sections, enforced by the validator.
+4. Packs ship as single-file HTML in E3; a PDF build job is added only if pilot teachers ask for it.
+5. The agent proposes `edu/leveled-100.yaml` (and later the next 200) with demand evidence, and the founder approves the list before authoring starts.
+
+Phase approvals are recorded here as they are given; none has been given yet.
+
 ## 10. Build this first, and why
 
 **E1.** It connects what exists, needs almost no new content (14 author-hours), and is the phase every other phase stands on: the front door and five hubs give E2's pathways and E4's teen wing a place to live, the passport gives every later activity a stamp to earn, the share card gives every later completion a way to travel, and the QR and print work give every later pack its paper form. It fixes the two worst completion points today (18 doors on the hub, nothing after a quest) within ten agent-days, and it makes the owner's single most important pitch line true on the site itself: the same URL serves a 5-year-old, a 15-year-old and their teacher, with no account, no tracking and no student data.
