@@ -34,10 +34,10 @@ Average sources per entity: **1.28** · Women share of persons with a recorded g
 
 | Key | Count |
 |---|---|
-| ideas | 1366 |
+| ideas | 1365 |
 | living | 73 |
 | made | 119 |
-| objects | 6145 |
+| objects | 6146 |
 | people | 8297 |
 | place | 1711 |
 | time | 3973 |
@@ -105,7 +105,7 @@ Average sources per entity: **1.28** · Women share of persons with a recorded g
 | converts-and-leavers | 229 |
 | cosmology-and-creation | 5 |
 | creed | 128 |
-| crime-and-punishment | 35 |
+| crime-and-punishment | 34 |
 | crusades | 17 |
 | cuisines | 10 |
 | dawa-and-christian-mission | 7 |
@@ -120,7 +120,7 @@ Average sources per entity: **1.28** · Women share of persons with a recorded g
 | environment-and-climate | 4 |
 | ethics-and-character | 199 |
 | factions-splits-schisms | 26 |
-| family-marriage-kinship | 357 |
+| family-marriage-kinship | 356 |
 | fasting | 4 |
 | food-of-ramadan-and-feasts | 4 |
 | games-and-leisure | 1 |
@@ -128,7 +128,7 @@ Average sources per entity: **1.28** · Women share of persons with a recorded g
 | golden-age-and-decline | 4 |
 | halal-and-haram | 40 |
 | halal-certification-and-standards | 2 |
-| health-body-death | 81 |
+| health-body-death | 82 |
 | history-of-islam-online | 2 |
 | history-writing-and-social-thought | 170 |
 | hospitality | 14 |
@@ -146,7 +146,7 @@ Average sources per entity: **1.28** · Women share of persons with a recorded g
 | islam-and-secular-thought | 2 |
 | islam-and-the-modern-state | 6 |
 | islam-and-zoroastrianism | 2 |
-| law-and-courts | 291 |
+| law-and-courts | 289 |
 | laws-of-war-and-peace | 58 |
 | libraries-paper-and-the-book | 11 |
 | linguistics | 77 |
@@ -179,7 +179,7 @@ Average sources per entity: **1.28** · Women share of persons with a recorded g
 | sacred-space-and-pilgrimage | 102 |
 | sacred-time | 31 |
 | science-today | 6 |
-| scripture-and-its-sciences | 595 |
+| scripture-and-its-sciences | 594 |
 | seafaring-and-ports | 1 |
 | sects-and-schools | 110 |
 | sexuality-gender-diversity | 6 |
@@ -195,11 +195,12 @@ Average sources per entity: **1.28** · Women share of persons with a recorded g
 | travel | 8 |
 | violent-extremism-and-the-muslim-response | 27 |
 | waqf | 2 |
+| waqf-in-service | 1 |
 | wars-and-campaigns | 137 |
 | water-and-animals | 8 |
 | websites-and-apps | 2 |
 | women | 218 |
-| worship-and-the-pillars | 393 |
+| worship-and-the-pillars | 392 |
 | zakat-and-sadaqa | 21 |
 | zoology | 1 |
 
@@ -217,9 +218,9 @@ Average sources per entity: **1.28** · Women share of persons with a recorded g
 | ar | 22880 |
 | ur | 22635 |
 
-### Themes with no entries yet (15 of 132)
+### Themes with no entries yet (14 of 132)
 
-`armies-and-navies`, `scholarly-councils`, `ai-and-islam`, `waqf-in-service`, `modern-relief-and-development`, `halal-economy`, `foods-that-travelled`, `translation-and-transmission`, `evolution`, `scientific-miracles-claims`, `islam-and-modern-medicine`, `law-today`, `islam-and-buddhism`, `hostility-to-jews-and-christians`, `cinema-and-screen`
+`armies-and-navies`, `scholarly-councils`, `ai-and-islam`, `modern-relief-and-development`, `halal-economy`, `foods-that-travelled`, `translation-and-transmission`, `evolution`, `scientific-miracles-claims`, `islam-and-modern-medicine`, `law-today`, `islam-and-buddhism`, `hostility-to-jews-and-christians`, `cinema-and-screen`
 
 ### Wanted (referenced, not yet written)
 
