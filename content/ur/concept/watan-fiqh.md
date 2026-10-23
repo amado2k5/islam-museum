@@ -6,3 +6,5 @@ status: draft
 ---
 
 وطن کی لغوی و اصطلاحی تعریف، اس کی اقسام (وطن اصلی، وطن اقامت، وطن سکنی)، شرائط، انتقاض، اور اس سے متعلق احکام (قصر، جمع، روزہ، قربانی) کا خلاصہ۔ {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.17527}{cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.17532}
+
+جمعہ و عیدین کی نماز، زکوٰۃ کی منتقلی، حربیہ کا ذمیہ بننا، زانی غریب کی جلاوطنی، دار الحرب میں سکونت اور تجارت کے احکام کا خلاصہ۔ {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.17532}{cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.17533}
