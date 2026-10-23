@@ -1,6 +1,6 @@
 # Tafsir al-Sha’rawi (Khawatir, scan title تفسير الشعراوي), pages 1-500: harvest progress
 
-Source: `source/tafsir-sharawi-khawatir-scan` (edition unverified). Citations use the scan page index of the local OCR copy, not printed page numbers.
+Source: `source/tafsir-sharawi-khawatir-scan-pp-501-1000` (edition unverified). Citations use the scan page index of the local OCR copy, not printed page numbers.
 
 ## Status
 

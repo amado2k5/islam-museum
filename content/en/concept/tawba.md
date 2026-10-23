@@ -15,3 +15,6 @@ Ka'b said part of his repentance was to strip off his wealth as alms — the Pro
 
 ## Notes
 - This page describes the concept only as it appears in Ka'b's account; the general legal definition of repentance and its rulings need the fiqh and creed sources (needs_source).
+
+## Sha'rawi on repentance and society
+Sha'rawi holds that Abraham and Isma'il asked repentance for their descendants because they knew those who came after would sin, and that the law of repentance protects the whole society: if a single sin left the sinner in the Fire forever with no repentance, sinners would grow bolder and people would despair of their salvation. He cites the hadith that every child of Adam errs and the best of those who err are those who repent. {cite:tafsir-sharawi-khawatir-scan-pp-501-1000 p.588}
