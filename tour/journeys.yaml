@@ -7,13 +7,13 @@ provenance:
   generated_by: Muse
   model: "Muse Spark"
   source: "3D tour prototype"
-  note: "AI-generated; scholar review pending"
+  note: "AI-generated; scholar review pending. Urdu journey titles and subtitles added 2026-10-23 by Claude (Opus 5.5), draft; narration lines still fall back to English in Urdu."
 journeys:
   - id: hira
     kind: "حدث"
     build: hira
-    title: { ar: "غار حراء", en: "Cave of Hira" }
-    sub: { ar: "مكة · 610م", en: "Mecca · 610 CE" }
+    title: { ar: "غار حراء", en: "Cave of Hira", ur: "غارِ حرا" }
+    sub: { ar: "مكة · 610م", en: "Mecca · 610 CE", ur: "مکہ · 610 عیسوی" }
     lines:
       ar:
         - "ليلٌ ساكن يلفّ جبال مكة. أمامك جبل النور، وفي أعلاه غارٌ صغير مظلم."
@@ -26,8 +26,8 @@ journeys:
   - id: madinah
     kind: "مكان"
     build: madinah
-    title: { ar: "المسجد الأول", en: "The First Mosque" }
-    sub: { ar: "المدينة · 622م", en: "Medina · 622 CE" }
+    title: { ar: "المسجد الأول", en: "The First Mosque", ur: "پہلی مسجد" }
+    sub: { ar: "المدينة · 622م", en: "Medina · 622 CE", ur: "مدینہ · 622 عیسوی" }
     lines:
       ar:
         - "ساحة من التراب، أعمدة من جذوع النخل، وسقف من سعف النخيل المضفور."
@@ -40,8 +40,8 @@ journeys:
   - id: baghdad
     kind: "مكان"
     build: baghdad
-    title: { ar: "بيت الحكمة", en: "The House of Wisdom" }
-    sub: { ar: "بغداد · 830م", en: "Baghdad · 830 CE" }
+    title: { ar: "بيت الحكمة", en: "The House of Wisdom", ur: "بیت الحکمت" }
+    sub: { ar: "بغداد · 830م", en: "Baghdad · 830 CE", ur: "بغداد · 830 عیسوی" }
     lines:
       ar:
         - "المدينة المدوّرة: أسوار دائرية ضخمة تحيط بقصر الخلافة وقلب الدولة."
@@ -54,8 +54,8 @@ journeys:
   - id: cordoba
     kind: "مكان"
     build: cordoba
-    title: { ar: "جامع قرطبة الكبير", en: "The Great Mosque of Cordoba" }
-    sub: { ar: "قرطبة · 970م", en: "Cordoba · 970 CE" }
+    title: { ar: "جامع قرطبة الكبير", en: "The Great Mosque of Cordoba", ur: "جامع مسجد قرطبہ" }
+    sub: { ar: "قرطبة · 970م", en: "Cordoba · 970 CE", ur: "قرطبہ · 970 عیسوی" }
     lines:
       ar:
         - "غابة من الأعمدة: مئات الأعمدة الرخامية تعلوها أقواس مخططة بالأحمر والأبيض."
@@ -68,8 +68,8 @@ journeys:
   - id: cairo
     kind: "زمن"
     build: cairo
-    title: { ar: "القاهرة الفاطمية", en: "Fatimid Cairo" }
-    sub: { ar: "القاهرة · 969م", en: "Cairo · 969 CE" }
+    title: { ar: "القاهرة الفاطمية", en: "Fatimid Cairo", ur: "فاطمی قاہرہ" }
+    sub: { ar: "القاهرة · 969م", en: "Cairo · 969 CE", ur: "قاہرہ · 969 عیسوی" }
     lines:
       ar:
         - "مدينة جديدة تولد من الرمال: القاهرة. مآذن وقباب ترتفع مع غروب الشمس."
@@ -82,8 +82,8 @@ journeys:
   - id: istanbul
     kind: "زمن"
     build: istanbul
-    title: { ar: "إسطنبول العثمانية", en: "Ottoman Istanbul" }
-    sub: { ar: "إسطنبول · 1600م", en: "Istanbul · 1600 CE" }
+    title: { ar: "إسطنبول العثمانية", en: "Ottoman Istanbul", ur: "عثمانی استنبول" }
+    sub: { ar: "إسطنبول · 1600م", en: "Istanbul · 1600 CE", ur: "استنبول · 1600 عیسوی" }
     lines:
       ar:
         - "قبة عظيمة تتوسط السماء، تحفّ بها أنصاف القباب وأربع مآذن رشيقة كالأقلام."
@@ -96,8 +96,8 @@ journeys:
   - id: kaaba
     kind: "حدث"
     build: kaaba
-    title: { ar: "الكعبة المشرفة", en: "The Kaaba" }
-    sub: { ar: "مكة · كل زمان", en: "Mecca · all eras" }
+    title: { ar: "الكعبة المشرفة", en: "The Kaaba", ur: "خانۂ کعبہ" }
+    sub: { ar: "مكة · كل زمان", en: "Mecca · all eras", ur: "مکہ · ہر دور" }
     lines:
       ar:
         - "المكعّب المهيب مكسوًّا بالسواد المطرّز بالذهب — قبلة المسلمين في كل صلاة."
