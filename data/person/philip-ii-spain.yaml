@@ -1,0 +1,24 @@
+id: person/philip-ii-spain
+class: person
+label: { ar: "الأمير فليب بن الإمبراطور شارل", en: "Prince Philip (Philip II of Spain)" }
+names:
+  - { kind: full, lang: ar, value: "فليب بن الإمبراطور شارل" }
+gender: male
+roles: [ruler]
+summary:
+  ar: "أمير أسبانيا ابن الإمبراطور شارل الخامس؛ إليه رفع الكونت دي الكوديت حاكم وهران تقرير وفده إلى فاس بشأن الحملة الأسبانية المغربية المقترحة ضد العثمانيين سنة ٩٦٣هـ/١٥٥٥م {cite:dawlat-uthmaniyya-salabi p. 242}."
+  en: "Prince of Spain, son of Emperor Charles V; to him the Count of Alcaudete, governor of Oran, forwarded his embassy's report from Fez on the proposed Spanish-Moroccan campaign against the Ottomans, in 963/1555 {cite:dawlat-uthmaniyya-salabi p. 242}."
+wings: [people]
+regions: [andalus-europe]
+periods: [period/gunpowder-empires]
+relations:
+  - { type: child_of, target: person/charles-v, sources: [source/dawlat-uthmaniyya-salabi] }
+sources: [source/dawlat-uthmaniyya-salabi]
+external_ids: { wikidata: "Q32917" }
+provenance:
+  layer: own-research
+  source: "الدولة العثمانية لعلي محمد الصلابي (ط1 1421) ص 242"
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: salabi-uthmani-batch12
+status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 Medium)" }

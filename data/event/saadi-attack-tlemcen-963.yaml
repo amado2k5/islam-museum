@@ -1,0 +1,24 @@
+id: event/saadi-attack-tlemcen-963
+class: event
+kind: battle
+label: { ar: "هجوم محمد الشيخ على تلمسان (٩٦٣هـ/١٥٥٦م)", en: "the Sa'di attack on Tlemcen (963/1556)" }
+summary:
+  ar: "انتهز الشريف السعدي محمد الشيخ إبحار الأسطول العثماني إلى استانبول فأرسل جيوشه نحو تلمسان وقد كان رجالها انضموا إلى المجاهدين في محاولة استرجاع وهران، فدخلها على غفلة ووضع على رأسها القائد ابن غنام زعيم قبائل بني راشد، لكن الحامية العثمانية بقيادة محمود صفا بك صمدت حتى احتوى الهجوم {cite:dawlat-uthmaniyya-salabi p. 244}."
+  en: "With the Ottoman fleet sailed for Istanbul, Muhammad al-Shaykh sent his armies on Tlemcen — whose men had joined the mujahidun in the attempt on Oran — and entered it unawares, setting over it the commander Ibn Ghannam, chief of Bani Rashid; but the Ottoman garrison under Mahmud Safa Bak held until the attack was contained {cite:dawlat-uthmaniyya-salabi p. 244}."
+wings: [time]
+periods: [period/gunpowder-empires]
+regions: [maghreb]
+date:
+  start: { edtf: "1556", hijri: "0963", calendar: gregorian, precision: year, status: tradition, derived: true, sources: [source/dawlat-uthmaniyya-salabi] }
+relations:
+  - { type: had_participant, target: person/muhammad-al-shaykh-al-sadi, sources: [source/dawlat-uthmaniyya-salabi] }
+  - { type: had_participant, target: person/mahmud-safa-bak, sources: [source/dawlat-uthmaniyya-salabi] }
+  - { type: occurred_at, target: place/tlemcen, sources: [source/dawlat-uthmaniyya-salabi] }
+sources: [source/dawlat-uthmaniyya-salabi]
+provenance:
+  layer: own-research
+  source: "الدولة العثمانية لعلي محمد الصلابي (ط1 1421) ص 244"
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: salabi-uthmani-batch12
+status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 Medium)" }
