@@ -12,3 +12,6 @@ translators: ["Claude Haiku 5.5 (claude-haiku-5-5), draft translation"]
 
 ## ان کی وفات
 وہ شوال سنہ 926ھ کی نو تاریخ کو چون سال کی عمر میں فوت ہوئے، اور ان کا دورِ حکومت نو سال اور آٹھ مہینے تھا۔ {cite:dawlat-uthmaniyya-salabi p. 198-199}
+
+## تخت سنبھالنا
+صلابی نقل کرتا ہے کہ اس کے باپ [[person/bayazid-ii|بایزید ثانی]] نے 18 صفر 918ھ بمطابق 25 اپریل 1512ء کو سلطنت اس کے حوالے کی {cite:dawlat-uthmaniyya-salabi p. 174-175}۔

@@ -12,3 +12,6 @@ Jarmardi al-Nasiri, a student of al-Suyuti, described him as "the trial of the n
 
 ## His death
 He died on the ninth of Shawwal 926 AH, aged fifty-four. His reign lasted nine years and eight months {cite:dawlat-uthmaniyya-salabi p. 198-199}.
+
+## His accession
+Al-Salabi records that his father [[person/bayazid-ii|Bayezid II]] left him rule of the state on 18 Safar 918 / 25 April 1512 {cite:dawlat-uthmaniyya-salabi p. 174-175}.

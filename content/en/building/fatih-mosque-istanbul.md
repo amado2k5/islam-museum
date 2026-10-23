@@ -10,3 +10,6 @@ The Fatih Mosque was the first great sultanic complex of Ottoman Istanbul; Mehme
 
 ## In the sources
 Freely notes the Conqueror led the way himself with an enormous complex known as Fatih Camii, and his vezirs followed, erecting mosque complexes across the city {cite:freely-ottoman-architecture-2011}.
+
+## The eight madrasas
+Al-Salabi records that [[person/mehmed-ii|the Conqueror]] built beside his mosque eight madrasas on every side, where the student completed his final stage, with lodgings and a monthly stipend attached and the school year running all year round; beside them a library whose keeper had to be versed in titles and authors, lending to students and teachers whatever they sought, audited every three months {cite:dawlat-uthmaniyya-salabi p. 138-139}.

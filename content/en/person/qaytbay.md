@@ -15,3 +15,6 @@ In 884 AH he travelled to the Hijaz for the pilgrimage, something no king had do
 
 ## In Shadharat al-Dhahab
 Shadharat al-Dhahab names him Abu al-Nasr Qaytbay, the Circassian Zahiri king, affiliated to al-Zahir Jaqmaq. It says he was born in 826 AH and was given the sultanate on Monday, 6 Rajab 872 AH. It records his building works for the holy sites, madrasas and fortresses in Mecca, Medina, Jerusalem, Egypt and Syria {cite:shadharat-dhahab p.423-424}.
+
+## Cem and Bayezid
+Al-Salabi records that when Prince [[person/jem-sultan|Cem]] fled his brother [[person/bayazid-ii|Bayezid II]] to Egypt, Qaytbay honoured him and equipped him for the hajj {cite:dawlat-uthmaniyya-salabi p. 163}; Bayezid then sealed peace with the Mamluks in 1491 by sending Qaytbay the keys of the frontier fortresses {cite:dawlat-uthmaniyya-salabi p. 164}.

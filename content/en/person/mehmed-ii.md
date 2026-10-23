@@ -22,3 +22,6 @@ He died in 886 AH (1481 CE). The Gregorian date is from al-Salabi. {cite:dawlat-
 
 ## Accession and preparation
 In al-Salabi: he took the throne on 16 Muharram 855 / 18 February 1451 at twenty-two, reorganised the administration, finances, army corps and soldiers' rolls, and prepared near a quarter-million fighters and over four hundred ships for the conquest. Among his teachers was [[person/ahmad-ibn-ismail-al-kurani|Mawla al-Kurani]], who in his boyhood beat him until he finished the Qur'an {cite:dawlat-uthmaniyya-salabi p. 87-92}.
+
+## The end
+Al-Salabi records that he died on Thursday 4 Rabi' I 886 / 3 May 1481 amid his army at Üsküdar, after more than thirty years of rule, aged fifty-two {cite:dawlat-uthmaniyya-salabi p. 157}.
