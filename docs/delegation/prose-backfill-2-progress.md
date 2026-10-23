@@ -289,3 +289,33 @@ Shipped after Batch 6 merge (PR #1182 merged 2026-10-23T21:13:57Z). Ten records,
 ### Methodological notes
 - Muntazam/Shadharat cites follow the printed page numbers used by the existing record summaries (verified against the scanned pages listed in each file's research notes).
 - `person/` untouched.
+
+### Batch 10 (24 Oct 2026, 13 records: 8 written + 5 audit) — general lane (Devin)
+
+Single source this batch: John Freely, *A History of Ottoman Architecture* (WIT Press, 2011), harvest scan `extra-architecture/A_History_of_Ottoman_Architecture_J._Freely_WIT_2011_BBS` (page markers read in OCR). Salabi's *dawlat-uthmaniyya* was checked first: only passing references to these buildings, no own sections — used for context only.
+
+**New prose (ar+en+ur), completeness 3; `source/freely-ottoman-architecture-2011` added to YAML (Goodwin kept as record source):**
+
+| record | Freely pages |
+|---|---|
+| building/yesil-mosque-bursa | pp.60–63 — commissioned 1412, Mehmet I, architect Hacı Ivaz Pasha, cuerda seca tiles |
+| building/uc-serefeli-mosque | pp.83–85 — Murat II 1437–47, 24.1 m dome, 67.6 m minaret |
+| building/eski-mosque-edirne | pp.80–82 — begun 1403 Çelebi Süleyman, completed Mehmet I, nine-dome Ulu Cami type |
+| building/yavuz-selim-mosque | pp.205–207 — completed 1522; Freely rejects Sinan attribution, architect unknown |
+| building/mihrimah-sultan-mosque-uskudar | pp.246–248 — Iskele Camii, completed early 1548, three semidomes |
+| building/sinan-pasha-mosque-besiktas | pp.296–297 — finished A.H. 963 (1555–6), copy of Üç Şerefeli plan |
+| building/kilic-ali-pasha-mosque | pp.308–311 — 1580–1, Tophane on filled land, miniature Haghia Sophia replica |
+| building/selimiye-mosque | pp.88–91 — audit-fix: record sourced only Wikidata; prose rewritten on Freely, source added, completeness 1→3 |
+
+**Audit (existing ar+en+ur sibling prose with Freely citations; completeness 2→3, no prose edits):**
+`building/sehzade-mosque`, `building/sokollu-mehmed-pasha-mosque`, `building/nuruosmaniye-mosque`, `building/laleli-mosque-istanbul`, `building/mihrimah-edirnekapi-mosque`. Note: sibling citations lack page numbers; left as-is.
+
+### Deferred this batch
+- `building/kalenderhane-mosque`, `building/eski-imaret-mosque`, `building/fenari-isa-mosque`, `building/gul-mosque-istanbul`, `building/zal-mahmud-pasha-mosque`, `building/hirami-ahmed-pasha-mosque`, `building/koca-mustafa-pasha-mosque` — no dedicated section found in the Freely OCR; Goodwin 1971 pages unread, so not citable yet.
+- `building/muradiye-mosque-baghdad` — no coverage found in Hasan Ibrahim's Tarikh al-Islam extracts.
+- `data/source/freely-ottoman-architecture-2011` itself remains completeness 1 (source record metadata not yet enriched).
+
+### Methodological notes
+- Each new record carries a curatorial note naming the read source + page range.
+- The "build it on the sea" anecdote (Kılıç Ali Pasha) and Evliya Çelebi's tomb quote are relayed as anecdotes exactly as the source presents them.
+- `person/` untouched.
