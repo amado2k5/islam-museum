@@ -1,0 +1,24 @@
+id: person/juha-abu-al-ghusn
+class: person
+label:
+  ar: "جحا أبو الغصن"
+  en: "Juha (Abu al-Ghusn)"
+  ur: "جحا ابو الغصن"
+names:
+  - { kind: full, lang: ar, value: "جحا أبو الغصن" }
+gender: male
+roles: [jester]
+traditions: [sunni]
+summary:
+  ar: "جحا العربي، أبو الغصن، صاحب النوادر يُضرب به المثل في الحمق والغفلة. يذكر المحقق أن أمه كانت خادمة لوالدة أنس بن مالك، وأنه شهد ثورة أبي مسلم الخراساني، وأن الجاحظ أول من ذكره من المؤلفين العرب، وأنه ورد في فهرست ابن النديم بين كتب أخبار المغفلين. {cite:juha-nawadir-kubra-djuwaydi p. 4-5}"
+  en: "The Arab Juha, Abu al-Ghusn, a jester proverbial for foolishness and heedlessness. The editor records that his mother served Anas ibn Malik's mother, that he witnessed Abu Muslim's revolt, that al-Jahiz was the first Arab author to mention him, and that Ibn al-Nadim lists a Nawadir Juha among books on fools. {cite:juha-nawadir-kubra-djuwaydi p. 4-5}"
+  ur: "عربی جحا، ابو الغصن، ایک لطیفہ گو جو حماقت اور غفلت کی مثال ہیں۔ مرتب کے مطابق ان کی والدہ انس بن مالک کی والدہ کی خادمہ تھیں، انہوں نے ابو مسلم خراسانی کی تحریک دیکھی، جاحظ عرب مؤلفین میں سب سے پہلے ان کا ذکر کرنے والے تھے، اور ابن الندیم کی فہرست میں احمقوں کی کتابوں میں 'نوادر جحا' درج ہے۔ {cite:juha-nawadir-kubra-djuwaydi p. 4-5}"
+wings: [people]
+themes: [literature]
+periods: [period/umayyad]
+regions: [arabia]
+story_roles:
+  - { role: artist, status: tradition, sources: [source/juha-nawadir-kubra-djuwaydi] }
+sources: [source/juha-nawadir-kubra-djuwaydi]
+status: { review: draft, completeness: 1, generated_by: "Claude Haiku 5.5 (Juha book introduction, scan pp. 4-8, from OCR; not image-checked)" }
+provenance: { layer: copyrighted-reference, source: "archive.org civ-3027 (Nawadir Juha al-Kubra), scan pp. 4-8", generated_by: "Claude Haiku 5.5", model: "claude-haiku-5-5", run: "lib-juha-intro" }
