@@ -190,7 +190,7 @@ Average sources per entity: **1.28** · Women share of persons with a recorded g
 | takfir-and-its-critics | 4 |
 | the-elderly | 4 |
 | the-poor-and-the-worker | 76 |
-| trade-and-finance | 148 |
+| trade-and-finance | 147 |
 | tradition-versus-culture | 81 |
 | travel | 8 |
 | violent-extremism-and-the-muslim-response | 27 |
@@ -198,7 +198,7 @@ Average sources per entity: **1.28** · Women share of persons with a recorded g
 | wars-and-campaigns | 136 |
 | water-and-animals | 8 |
 | websites-and-apps | 2 |
-| women | 211 |
+| women | 212 |
 | worship-and-the-pillars | 310 |
 | zakat-and-sadaqa | 21 |
 | zoology | 1 |
