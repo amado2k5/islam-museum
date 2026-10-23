@@ -9,7 +9,7 @@ Average sources per entity: **1.29** · Women share of persons with a recorded g
 | Key | Count |
 |---|---|
 | building | 5591 |
-| concept | 798 |
+| concept | 796 |
 | dataset | 16 |
 | event | 4352 |
 | exhibit | 301 |
@@ -21,7 +21,7 @@ Average sources per entity: **1.29** · Women share of persons with a recorded g
 | object | 516 |
 | passage | 9546 |
 | period | 13 |
-| person | 8388 |
+| person | 8390 |
 | place | 1692 |
 | polity | 175 |
 | practice | 60 |
@@ -34,11 +34,11 @@ Average sources per entity: **1.29** · Women share of persons with a recorded g
 
 | Key | Count |
 |---|---|
-| ideas | 697 |
+| ideas | 695 |
 | living | 36 |
 | made | 117 |
 | objects | 6112 |
-| people | 8044 |
+| people | 8046 |
 | place | 1702 |
 | time | 3972 |
 | today | 6 |
@@ -50,7 +50,7 @@ Average sources per entity: **1.29** · Women share of persons with a recorded g
 |---|---|
 | period/abbasid-early | 1436 |
 | period/abbasid-fragmentation | 485 |
-| period/buyid-seljuk-fatimid-era | 1197 |
+| period/buyid-seljuk-fatimid-era | 1199 |
 | period/colonial-era | 1346 |
 | period/contemporary-era | 576 |
 | period/crusades-ayyubid-mamluk | 2622 |
@@ -58,7 +58,7 @@ Average sources per entity: **1.29** · Women share of persons with a recorded g
 | period/modern-era | 1143 |
 | period/mongol-post-mongol | 1297 |
 | period/pre-islamic-arabia | 402 |
-| period/prophetic-era | 1581 |
+| period/prophetic-era | 1579 |
 | period/rashidun | 832 |
 | period/umayyad | 978 |
 
@@ -73,8 +73,8 @@ Average sources per entity: **1.29** · Women share of persons with a recorded g
 | china-east-asia | 127 |
 | east-africa | 274 |
 | egypt-nile | 955 |
-| global | 470 |
-| levant-iraq | 3542 |
+| global | 468 |
+| levant-iraq | 3544 |
 | maghreb | 1338 |
 | persia-central-asia | 3027 |
 | south-asia | 1068 |
@@ -110,7 +110,7 @@ Average sources per entity: **1.29** · Women share of persons with a recorded g
 | cuisines | 10 |
 | dawa-and-christian-mission | 7 |
 | desertions-defections-withdrawals | 4 |
-| development-of-law-theology-institutions | 157 |
+| development-of-law-theology-institutions | 156 |
 | diplomacy-and-envoys | 1 |
 | disability | 4 |
 | dissent-heresy-freethought | 22 |
@@ -146,7 +146,7 @@ Average sources per entity: **1.29** · Women share of persons with a recorded g
 | islam-and-secular-thought | 2 |
 | islam-and-the-modern-state | 6 |
 | islam-and-zoroastrianism | 2 |
-| law-and-courts | 115 |
+| law-and-courts | 114 |
 | laws-of-war-and-peace | 51 |
 | libraries-paper-and-the-book | 11 |
 | linguistics | 77 |
