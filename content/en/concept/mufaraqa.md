@@ -37,3 +37,18 @@ If one party is forced to separate, the Shafi'is and a Hanbali jurist hold that 
 
 ## A father and his child
 When one person conducts a contract on both sides, such as a father selling to his child, the Shafi'is and Hanbalis differ on whether an option arises and separation counts as binding the contract. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.14817}
+
+## Other contracts with an option of the session
+The Shafi'is and Hanbalis hold that separation makes binding certain other contracts that carry the option of the session: exchange of currency, sale of ribawi goods of the same kind by measure or weight, advance sale, and compromise by exchange. The Shafi'is add transfer of a purchase at cost and partnership, and the Hanbalis add a gift with a known return and hire. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.14818}
+
+## Separation in marriage: more than four wives
+A free Muslim may not have more than four wives at once. When an unbeliever who has more than four wives embraces Islam with them, he must separate from those beyond four, as agreed by the jurists, citing the hadith of Ghaylan ibn Salama. The Malikis, Shafi'is and Hanbalis hold that the order of the marriages does not matter in choosing which to keep. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.14818} {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.14819}
+
+## How the choice is made
+An unbeliever who embraces Islam keeps four and separates from the rest; the wording counts. Saying he annuls the marriages keeps those four; divorcing one keeps her; saying he has parted from certain women, with intent to divorce, keeps the others. Ibn Qudama holds that he may not have intercourse with those kept until the waiting periods of those separated are complete. A Muslim who marries more than four in a single contract loses all of them. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.14819} {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.14820} {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.14821}
+
+## Two sisters or forbidden pairs
+If a Muslim marries two sisters in one contract both marriages are void; in two contracts the second is void. An unbeliever who embraces Islam with two sisters must keep one and separate from the other, by the hadith of Fayruz al-Daylami, and the jurists differ from Abu Hanifa and Abu Yusuf on the two-contract case. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.14821} {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.14822}
+
+## Greeting after parting
+Al-Nawawi holds greeting a strongly recommended sunna, and it is recommended to greet someone again after parting from him, even briefly or when something stood between you, citing the hadith of the one who prayed badly and a hadith about a tree or wall between companions. One who rises to leave a gathering should greet those present. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.14822}
