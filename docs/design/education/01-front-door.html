@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=1440">
+<title>نموذج: بوابة التعليم /ar/learn/</title>
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Amiri:ital,wght@0,400;0,700&family=Noto+Naskh+Arabic:wght@400;500;600;700&display=swap" rel="stylesheet">
+<style>
+/* Tokens follow site/src/styles/global.css and kids.css (23 Oct 2026). Mockup only: 1440x900 frame. */
+:root{--ivory:#f9f8f6;--ink:#1a1a1a;--lapis:#0a2533;--teal:#113f4e;--gold:#c5a059;--gold-text:#654a15;--sand:#e6d5b8;--muted:#4a4a4a;--card:#fff;--line:rgba(10,37,51,.16);
+--kids-paper:#faf6ea;--kids-teal:#2a7b88;--kids-leaf:#4d8a4f;--kids-leaf-deep:#2f6b31;--kids-coral:#e0704f;--kids-coral-deep:#b0411f;--kids-gold:#c9a227;--kids-gold-deep:#876a18;--kids-lapis:#1b2a4a;--kids-ink:#2b2b2b;
+--shadow:0 1px 2px rgba(26,26,26,.05),0 8px 24px rgba(26,26,26,.08)}
+*{box-sizing:border-box}
+html,body{margin:0}
+body{width:1440px;height:900px;overflow:hidden;background:var(--ivory);color:var(--ink);font-family:"Noto Naskh Arabic","Amiri","Geeza Pro",serif;font-size:18px;line-height:1.8;-webkit-font-smoothing:antialiased;position:relative}
+h1,h2,h3{font-family:"Amiri","Noto Naskh Arabic",serif;font-weight:700;line-height:1.45;margin:0}
+a{color:var(--teal);text-decoration:none}
+.wrap{max-width:1360px;margin-inline:auto;padding-inline:40px}
+header.site{height:64px;border-bottom:1px solid var(--line);background:color-mix(in srgb,var(--ivory) 92%,transparent);display:flex;align-items:center}
+header.site .wrap{display:flex;align-items:center;gap:1.2rem;width:100%}
+.brand{display:flex;align-items:center;gap:.5rem;font-weight:700;color:var(--ink);font-size:1.15rem}
+.brand .em{width:28px;height:28px;border-radius:50%;background:radial-gradient(circle at 50% 45%,#c87533 0 34%,var(--lapis) 36% 78%,var(--gold) 80% 100%)}
+.nav{display:flex;gap:.2rem;margin-inline-start:.6rem}
+.nav a{color:var(--ink);padding:.35rem .7rem;border-radius:10px;font-size:1rem}
+.nav a.on{background:var(--sand);font-weight:700}
+.tools{margin-inline-start:auto;display:flex;gap:.5rem;align-items:center;font-size:.95rem}
+.pill{border:1px solid var(--line);background:var(--card);border-radius:999px;padding:.25rem .8rem}
+.pill b{color:var(--lapis)}
+.privacy{position:absolute;bottom:0;inset-inline:0;height:44px;display:flex;align-items:center;justify-content:center;gap:1.6rem;font-size:.95rem;color:var(--muted);border-top:1px solid var(--line);background:var(--ivory)}
+.privacy span::before{content:"•";margin-inline-end:.5rem;color:var(--gold)}
+.privacy span:first-child::before{content:""}
+.caption{position:absolute;top:8px;inset-inline-start:12px;font-size:12px;color:#777;font-family:Inter,system-ui,sans-serif;direction:ltr;background:#fff;border:1px solid #ddd;border-radius:6px;padding:2px 8px;opacity:.9}
+</style>
+
+<style>
+.hero{background:linear-gradient(160deg,#0a2533 0%,#113f4e 100%);color:var(--ivory);padding:28px 0 26px}
+.hero .wrap{display:flex;align-items:flex-end;justify-content:space-between;gap:2rem}
+.hero .k{color:var(--gold);font-size:1rem;letter-spacing:.02em}
+.hero h1{font-size:2.6rem;color:#fff}
+.hero p{margin:.3rem 0 0;font-size:1.2rem;max-width:62ch;color:#e8e4da}
+.hero .q{font-family:"Amiri",serif;font-size:2rem;color:var(--gold);white-space:nowrap}
+.doors{display:grid;grid-template-columns:repeat(5,1fr);gap:18px;margin-top:26px}
+.door{background:var(--card);border:1px solid var(--line);border-radius:18px;padding:18px 18px 16px;box-shadow:var(--shadow);position:relative;min-height:214px;display:flex;flex-direction:column}
+.door::before{content:"";position:absolute;inset-inline:0;top:0;height:8px;border-radius:18px 18px 0 0;background:var(--c)}
+.door .g{font-size:2rem;line-height:1;margin:.4rem 0 .6rem;color:var(--c)}
+.door h2{font-size:1.35rem}
+.door .ages{font-size:1.05rem;color:var(--gold-text);font-weight:700}
+.door p{margin:.3rem 0 0;font-size:.98rem;color:var(--muted);line-height:1.65;flex:1}
+.door .go{margin-top:.6rem;display:inline-block;background:var(--c);color:#fff;border-radius:999px;padding:.35rem 1rem;font-size:1rem;align-self:flex-start;min-height:44px;line-height:44px;padding-block:0}
+.row2{display:grid;grid-template-columns:1.1fr 1.1fr .9fr;gap:18px;margin-top:18px}
+.adult{background:var(--sand);border-radius:18px;padding:16px 20px;display:flex;gap:14px;align-items:center;min-height:92px}
+.adult .ic{width:52px;height:52px;border-radius:14px;background:var(--lapis);color:var(--gold);display:grid;place-items:center;font-size:1.5rem;flex:none}
+.adult h3{font-size:1.2rem}
+.adult p{margin:0;font-size:.95rem;color:var(--muted);line-height:1.6}
+.adult.all{background:var(--card);border:1px solid var(--line)}
+.row3{display:grid;grid-template-columns:1fr 1fr 1fr;gap:18px;margin-top:18px}
+.panel{background:var(--card);border:1px solid var(--line);border-radius:18px;padding:14px 18px;min-height:150px}
+.panel .k{font-size:.9rem;color:var(--gold-text);font-weight:700}
+.panel h3{font-size:1.15rem;margin:.1rem 0 .2rem}
+.panel p{margin:0;font-size:.98rem;line-height:1.7}
+.grid5{display:flex;gap:6px;margin:.5rem 0 .3rem}
+.grid5 i{width:28px;height:28px;border-radius:6px;background:#dcd6c8;display:inline-block}
+.grid5 i.ok{background:#1e7e34}
+.stamps{display:flex;gap:10px;margin:.5rem 0}
+.stamps b{width:44px;height:44px;border-radius:50%;border:2px dashed var(--line);display:grid;place-items:center;font-size:1.2rem}
+.stamps b.on{border:2px solid var(--gold);background:#f8eed3}
+.mini{font-size:.9rem;color:var(--muted)}
+</style>
+</head>
+<body>
+<div class="caption">Mockup 01 · Education front door · /ar/learn/ · 1440x900 · RTL</div>
+
+<header class="site"><div class="wrap">
+  <a class="brand" href="#"><span class="em"></span> متحف الإسلام</a>
+  <nav class="nav"><a href="#">الأجنحة ▾</a><a class="on" href="#">جولة وتعلّم</a><a href="#">استكشف ▾</a><a href="#">اليوم</a></nav>
+  <div class="tools"><span class="pill">🔍 بحث</span><span class="pill"><b>AR</b> | EN | UR</span><span class="pill">الخط</span><span class="pill">◐</span></div>
+</div></header>
+
+<section class="hero"><div class="wrap">
+  <div><div class="k">جولة وتعلّم</div><h1>تعلّم في المتحف</h1>
+  <p>مسارٌ لكل عمر، من الرابعة إلى الثامنة عشرة، ومعه حقيبة للمعلم وصفحة لأهل البيت. كل شيء مجاني ومفتوح، بلا حساب ولا تسجيل ولا تتبّع.</p></div>
+  <div class="q">كم عمرك؟</div>
+</div></section>
+<main class="wrap">
+  <div class="doors">
+    <a class="door" style="--c:var(--kids-leaf-deep)" href="#"><div class="g">🌱</div><h2>البراعم</h2><div class="ages">٤–٦ سنوات</div><p>هدهد يقرأ لك كل شيء. المس، واستمع، وافرح.</p><span class="go">ادخل</span></a>
+    <a class="door" style="--c:var(--kids-teal)" href="#"><div class="g">🧭</div><h2>المستكشفون</h2><div class="ages">٧–٩ سنوات</div><p>خريطة العالم وبيوت القصص: رحلة الأنبياء، حديقة الكلمات، تحدّي الأخلاق.</p><span class="go">ادخل</span></a>
+    <a class="door" style="--c:var(--kids-lapis)" href="#"><div class="g">📖</div><h2>الرواة</h2><div class="ages">١٠–١٢ سنة</div><p>اقرأ أكثر، ثم احكِ القصة بكلماتك، واصنع دفترك ومسجدك.</p><span class="go">ادخل</span></a>
+    <a class="door" style="--c:var(--teal)" href="#"><div class="g">◆</div><h2>الدارسون</h2><div class="ages">١٣–١٥ سنة</div><p>اشرحها في ستين ثانية، تدريبات تصحّح نفسها، تحدّي القرن اليومي.</p><span class="go">ادخل</span></a>
+    <a class="door" style="--c:var(--lapis)" href="#"><div class="g">✦</div><h2>الباحثون</h2><div class="ages">١٦–١٨ سنة</div><p>محقّق المصادر، بطاقات القرار، الأدلّة من قلب المتحف: الإسناد والأثر والمخطوط.</p><span class="go">ادخل</span></a>
+  </div>
+  <div class="row2">
+    <a class="adult" href="#"><span class="ic">🍎</span><div><h3>للمعلمين</h3><p>مسارات بحسب الصف والمادة، حِزَم للطباعة، وضع الصف، ورمز QR على كل ورقة.</p></div></a>
+    <a class="adult" href="#"><span class="ic">🏠</span><div><h3>لأهل البيت</h3><p>ما يفعله كل مسار، ورقة الأسبوع، تقويم الثلاجة، وتحدّي العائلة.</p></div></a>
+    <a class="adult all" href="#"><span class="ic" style="background:var(--sand);color:var(--lapis)">🗺</span><div><h3>كل المسارات</h3><p>٣٠١ مسارًا موجَّهًا في المتحف الكبير، بالهدف والوقت.</p></div></a>
+  </div>
+  <div class="row3">
+    <div class="panel"><div class="k">هل تعلم؟ · حقيقة اليوم</div><h3>بيت الحكمة في بغداد</h3><p>جمع في القرن الثالث الهجري مترجمين من ديانات شتّى، فنُقلت إلى العربية كتب الطب والفلك والهندسة من اليونانية والفارسية والسنسكريتية.</p><div class="mini">مصدران · اقرأ السجل الكامل ←</div></div>
+    <div class="panel"><div class="k">تحدّي اليوم · تحدّي القرن</div><h3>في أي قرنٍ هجري فُتحت القسطنطينية؟</h3><div class="grid5"><i class="ok"></i><i class="ok"></i><i></i><i class="ok"></i><i class="ok"></i></div><p class="mini">نتيجة أمس: ٤ من ٥ · شارك النتيجة نصًّا لتُلصق في واتساب</p></div>
+    <div class="panel"><div class="k">جوازك · على هذا الجهاز فقط</div><h3>٣ أختام من ٦</h3><div class="stamps"><b class="on">⭐</b><b class="on">🌸</b><b class="on">🤲</b><b>🕌</b><b>⏳</b><b>📖</b></div><p class="mini">اطبع صفحة الجواز · امسح تقدّمي</p></div>
+  </div>
+</main>
+<div class="privacy"><span>بلا حسابات</span><span>بلا تتبّع ولا ملفات تعريف</span><span>مجاني ومفتوح: المعلم يطبع ويعدّل</span><span>العربية · English · اردو</span></div>
+
+</body>
+</html>
