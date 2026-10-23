@@ -9,3 +9,6 @@ Ajnabi in the lexicon is a stranger, someone foreign in fact or in meaning. Juri
 
 ## The relation ends
 A person with a relation to a matter becomes a stranger when the cause ends, such as divorce or the rescission of a sale, when an obstacle arises, such as apostasy of one spouse, or by judgement, such as restraint of a spendthrift. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.1702}
+
+## Rules on a stranger woman: gaze, touch, seclusion and voice
+The stranger may not look at a woman's adornment and body, according to some jurists, or at more than her face, hands and feet, according to others. He may not touch her or be alone with her, on the hadith forbidding entry to women and forbidding a man to be alone with a woman without a mahram. In one weaker Hanafi view it is forbidden to hear her voice. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.1704} {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.1705}
