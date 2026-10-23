@@ -34,7 +34,7 @@ Average sources per entity: **1.28** · Women share of persons with a recorded g
 
 | Key | Count |
 |---|---|
-| ideas | 1432 |
+| ideas | 1433 |
 | living | 79 |
 | made | 119 |
 | objects | 6154 |
@@ -42,7 +42,7 @@ Average sources per entity: **1.28** · Women share of persons with a recorded g
 | place | 1711 |
 | time | 3973 |
 | today | 6 |
-| words | 165 |
+| words | 164 |
 
 ### By period
 
@@ -196,11 +196,11 @@ Average sources per entity: **1.28** · Women share of persons with a recorded g
 | violent-extremism-and-the-muslim-response | 27 |
 | waqf | 2 |
 | waqf-in-service | 1 |
-| wars-and-campaigns | 138 |
+| wars-and-campaigns | 139 |
 | water-and-animals | 8 |
 | websites-and-apps | 2 |
 | women | 219 |
-| worship-and-the-pillars | 425 |
+| worship-and-the-pillars | 424 |
 | zakat-and-sadaqa | 21 |
 | zoology | 1 |
 
@@ -214,9 +214,9 @@ Average sources per entity: **1.28** · Women share of persons with a recorded g
 
 | Key | Count |
 |---|---|
-| en | 22832 |
-| ar | 23073 |
-| ur | 22823 |
+| en | 22824 |
+| ar | 23065 |
+| ur | 22815 |
 
 ### Themes with no entries yet (14 of 132)
 
