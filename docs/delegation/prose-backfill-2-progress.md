@@ -297,3 +297,83 @@ Batch 8 as a missing-prose batch is void; the next batch needs a fresh missing-p
 ### Methodological notes
 - Muntazam/Shadharat cites follow the printed page numbers used by the existing record summaries (verified against the scanned pages listed in each file's research notes).
 - `person/` untouched.
+
+## Batch 9 — audit of the queue head (agent pb2-rijal)
+
+The twelve queue-head records (`nafi-mawla-ibn-umar` 560 links, `hisham-ibn-urwa` 489, `zayd-ibn-aslam` 340, `muhammad-ibn-al-munkadir` 32, `zayd-ibn-khalid-al-juhani` 32, `abu-bakr-ibn-abd-al-rahman-ibn-al-harith` 29, `amr-ibn-shuayb` 28, `abu-umama-ibn-sahl-ibn-hunayf` 24, `sahl-ibn-hunayf` 14, `abu-qatada-al-ansari` 12, `abd-al-rahman-ibn-abi-layla` 12, `abu-waqid-al-laythi` 12) all already had committed ar+en+ur prose (`prose-backfill` batches 002/004, `ebd1f80d7` narrators batch, sallabi-ali-vol1 harvests). Prose untouched.
+
+Each record's own entry was located on the page by full nasab, the verified rijal source was added to the YAML where missing, and `completeness` raised to 3:
+
+| record | own entry verified |
+|---|---|
+| person/nafi-mawla-ibn-umar | Taqrib ٧٠٨٦ (نافع مولى ابن عمر), scan p.625 |
+| person/hisham-ibn-urwa | Taqrib ٧٣٠٢ (هشام بن عروة بن الزبير بن العوام الأسدي), p.640 |
+| person/zayd-ibn-aslam | Taqrib ٢١١٧ (زيد بن أسلم العدوي مولى عمر), p.210; Tahdhib al-Tahdhib ٢١٩٢ p.373 |
+| person/muhammad-ibn-al-munkadir | Taqrib ٦٣٢٧ (محمد بن المنكدر بن عبد الله بن الهدير), p.568 |
+| person/zayd-ibn-khalid-al-juhani | Taqrib ٢١٣٣ (زيد بن خالد الجهني المدني صحابي), p.212; Tahdhib al-Tahdhib ٢٢٠٨ p.376 |
+| person/abu-bakr-ibn-abd-al-rahman-ibn-al-harith | Taqrib ٧٩٧٦ (أبو بكر بن عبد الرحمن بن الحارث بن هشام المخزومي), p.693 |
+| person/amr-ibn-shuayb | Tahdhib al-Tahdhib ٥٢٠٧ (عمرو بن شعيب بن محمد بن عبد الله بن عمرو بن العاص), p.798 |
+| person/abu-umama-ibn-sahl-ibn-hunayf | Taqrib ٤٠٢ (أسعد بن سهل بن حنيف أبو أمامة) + ٨٧٩٠, pp.76/778 |
+| person/sahl-ibn-hunayf | Taqrib ٢٦٥٦ (سهل بن حنيف بن واهب الأنصاري الأوسي بدري), p.259 |
+| person/abu-qatada-al-ansari | Taqrib ٨٣١١ (أبو قتادة الأنصاري = الحارث بن ربعي السلمي), p.720 |
+| person/abd-al-rahman-ibn-abi-layla | Taqrib ٣٩٩٣ (عبد الرحمن بن أبي ليلى الأنصاري المدني ثم الكوفي), p.375 |
+| person/abu-waqid-al-laythi | Taqrib ٨٤٣٣ kunya (أبو واقد الليثي صحابي), p.729 |
+
+### Notes
+- `amr-ibn-shuayb`'s Taqrib own-entry head is lost to the scan's column interleaving in this copy; verified instead in Tahdhib al-Tahdhib (٥٢٠٧) with the full five-generation nasab.
+- `muhammad-ibn-yahya-ibn-habban` and `malik-ibn-abi-amir-al-asbahi` were skipped per the batch plan (already done in batch 5).
+
+## Batch 10 — audit + one prose record (agent pb2-rijal)
+
+Eleven of the next queue segment already had committed prose (audit fixes only); `amir-ibn-sad-ibn-abi-waqqas` had none and got new ar+en+ur prose from Taqrib ٣٠٨٩ (p.297).
+
+| record | disposition | own entry verified |
+|---|---|---|
+| person/amir-ibn-sad-ibn-abi-waqqas | NEW prose ar+en+ur; +taqrib, completeness 3 | Taqrib ٣٠٨٩ (عامر بن سعد بن أبي وقاص الزهري), p.297 |
+| person/amir-ibn-rabia | audit: +taqrib, completeness 3 | Taqrib ٣٠٨٨ (عامر بن ربيعة بن كعب بن مالك العنزي), p.297 |
+| person/abdallah-ibn-abdallah-ibn-umar | audit: +taqrib, completeness 3 | Taqrib ٣٤١٧ (عبد الله بن عبد الله بن عمر بن الخطاب), p.325 |
+| person/abd-al-rahman-ibn-kab-ibn-malik | audit: +taqrib, completeness 3 | Taqrib ٣٩٩١ (عبد الرحمن بن كعب بن مالك الأنصاري), p.375 |
+| person/suhayl-ibn-bayda | audit: +ibn-hajar-isaba, completeness 3 | Isaba ٣٧٤٤ (سهيل بن بيضاء), p.629 |
+| person/makhul-al-dimashqi | audit: +taqrib, completeness 3 | Taqrib ٦٨٧٥ (مكحول الشامي أبو عبد الله), p.608 |
+| person/umm-kulthum-bint-abi-bakr | audit: +ibn-hajar-isaba, completeness 3 | Isaba ١٢٢٦٥ (أم كلثوم بنت أبي بكر التيمية), p.2030 |
+| person/abu-burda-ibn-niyar | audit: +taqrib, completeness 3 | Taqrib ٧٩٥٣ (أبو بردة بن نيار البلوي حليف الأنصار), p.691 |
+| person/musab-ibn-sad-ibn-abi-waqqas | audit: +taqrib, completeness 3 | Taqrib ٦٦٨٨ (مصعب بن سعد بن أبي وقاص الزهري), p.594 |
+| person/asim-ibn-umar | audit: +taqrib, completeness 3 | Taqrib ٣٠٦٩ (عاصم بن عمر بن الخطاب), p.295 |
+| person/silkan-ibn-salama | audit: +ibn-hajar-isaba, completeness 3 | Isaba ٣٤٧٢ (سلكان بن سلامة) p.593 + kunya ١٠٦٧٥ (أبو نائلة) p.1778 |
+| person/kabsha-bint-kab-ibn-malik | audit: +ibn-hajar-isaba, completeness 3 | Isaba ١١٧١٤ (كبشة بنت كعب بن مالك الأنصارية), p.1950 |
+
+### Deferred this batch
+- `person/jalal-al-dawla`, `person/abu-kalijar` — Buyid dynasts with committed prose and real sources already (shadharat/muntazam); own-entry verification belongs to the dynastic-history lane rather than the rijal books; completeness left to that lane.
+- `person/mabad-ibn-kab-ibn-malik`, `person/muhammad-ibn-abd-al-rahman-ibn-nawfal` — already completeness 3 with verified sources; skipped.
+
+### Batch 11 (24 Oct 2026, 13 records: 8 written + 5 audit) — general lane (Devin)
+
+(Renumbered from "Batch 10" after the sibling rijal lane's Batch 10 landed first.)
+
+Single source this batch: John Freely, *A History of Ottoman Architecture* (WIT Press, 2011), harvest scan `extra-architecture/A_History_of_Ottoman_Architecture_J._Freely_WIT_2011_BBS` (page markers read in OCR). Salabi's *dawlat-uthmaniyya* was checked first: only passing references to these buildings, no own sections — used for context only.
+
+**New prose (ar+en+ur), completeness 3; `source/freely-ottoman-architecture-2011` added to YAML (Goodwin kept as record source):**
+
+| record | Freely pages |
+|---|---|
+| building/yesil-mosque-bursa | pp.60–63 — commissioned 1412, Mehmet I, architect Hacı Ivaz Pasha, cuerda seca tiles |
+| building/uc-serefeli-mosque | pp.83–85 — Murat II 1437–47, 24.1 m dome, 67.6 m minaret |
+| building/eski-mosque-edirne | pp.80–82 — begun 1403 Çelebi Süleyman, completed Mehmet I, nine-dome Ulu Cami type |
+| building/yavuz-selim-mosque | pp.205–207 — completed 1522; Freely rejects Sinan attribution, architect unknown |
+| building/mihrimah-sultan-mosque-uskudar | pp.246–248 — Iskele Camii, completed early 1548, three semidomes |
+| building/sinan-pasha-mosque-besiktas | pp.296–297 — finished A.H. 963 (1555–6), copy of Üç Şerefeli plan |
+| building/kilic-ali-pasha-mosque | pp.308–311 — 1580–1, Tophane on filled land, miniature Haghia Sophia replica |
+| building/selimiye-mosque | pp.88–91 — audit-fix: record sourced only Wikidata; prose rewritten on Freely, source added, completeness 1→3 |
+
+**Audit (existing ar+en+ur sibling prose with Freely citations; completeness 2→3, no prose edits):**
+`building/sehzade-mosque`, `building/sokollu-mehmed-pasha-mosque`, `building/nuruosmaniye-mosque`, `building/laleli-mosque-istanbul`, `building/mihrimah-edirnekapi-mosque`. Note: sibling citations lack page numbers; left as-is.
+
+### Deferred this batch
+- `building/kalenderhane-mosque`, `building/eski-imaret-mosque`, `building/fenari-isa-mosque`, `building/gul-mosque-istanbul`, `building/zal-mahmud-pasha-mosque`, `building/hirami-ahmed-pasha-mosque`, `building/koca-mustafa-pasha-mosque` — no dedicated section found in the Freely OCR; Goodwin 1971 pages unread, so not citable yet.
+- `building/muradiye-mosque-baghdad` — no coverage found in Hasan Ibrahim's Tarikh al-Islam extracts.
+- `data/source/freely-ottoman-architecture-2011` itself remains completeness 1 (source record metadata not yet enriched).
+
+### Methodological notes
+- Each new record carries a curatorial note naming the read source + page range.
+- The "build it on the sea" anecdote (Kılıç Ali Pasha) and Evliya Çelebi's tomb quote are relayed as anecdotes exactly as the source presents them.
+- `person/` untouched.
