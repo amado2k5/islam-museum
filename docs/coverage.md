@@ -118,9 +118,9 @@ Average sources per entity: **1.28** · Women share of persons with a recorded g
 | education | 138 |
 | engineering-and-technology | 5 |
 | environment-and-climate | 4 |
-| ethics-and-character | 165 |
+| ethics-and-character | 166 |
 | factions-splits-schisms | 26 |
-| family-marriage-kinship | 309 |
+| family-marriage-kinship | 310 |
 | fasting | 4 |
 | food-of-ramadan-and-feasts | 4 |
 | games-and-leisure | 1 |
@@ -146,7 +146,7 @@ Average sources per entity: **1.28** · Women share of persons with a recorded g
 | islam-and-secular-thought | 2 |
 | islam-and-the-modern-state | 6 |
 | islam-and-zoroastrianism | 2 |
-| law-and-courts | 227 |
+| law-and-courts | 226 |
 | laws-of-war-and-peace | 57 |
 | libraries-paper-and-the-book | 11 |
 | linguistics | 77 |
@@ -169,7 +169,7 @@ Average sources per entity: **1.28** · Women share of persons with a recorded g
 | pilgrimages-and-mass-gatherings | 17 |
 | polemic-and-apologetic | 10 |
 | politics-governance-and-authority | 40 |
-| prophets | 133 |
+| prophets | 132 |
 | race-colour-ethnicity | 10 |
 | reconciliation-and-unity | 12 |
 | refugees-migrants-diaspora | 144 |
