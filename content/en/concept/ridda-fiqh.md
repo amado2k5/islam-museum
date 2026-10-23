@@ -1,0 +1,13 @@
+---
+id: concept/ridda-fiqh
+lang: en
+source_lang: ar
+translators: []
+status: draft
+---
+
+## Summary
+Ridda in the lexicon is turning back from a thing; in law it is a Muslim's unbelief by an explicit word, a word implying it, or an act containing it, and it can only be committed by a sane, adult and free person. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.8704} {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.8705} Abu Hanifa and al-Shafi'i do not count a child's apostasy in one view, the Malikis and a famous Hanbali view count it; a child is not killed before puberty; a madman's apostasy is not valid; a drunk man's apostasy is not counted by the Hanafis, while the Shafi'is and Ahmad count it. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.8705} {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.8706} One who is compelled to speak unbelief does not become an unbeliever, by the verse excepting the compelled whose heart is at peace in faith. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.8706} Apostasy happens by belief, speech, act or omission: associating others with God, throwing the Qur'an in filth, prostrating to an idol, and abandoning prayer in denial. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.8707} {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.8710} {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.8711} Insulting God is unbelief by agreement; insulting the Prophet is apostasy for the Hanafis and Hanbalis, and for the Shafi'is apostasy with an added hadd, while the acceptance of the repentance of the insulter is disputed. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.8708} {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.8709} {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.8717} {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.8718} The apostate is asked to repent, and if he does not he is killed by the imam; the female apostate is killed by the majority and not by the Hanafis. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.8715} {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.8716} {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.8718} {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.8719} A marriage of an apostate is void; a spouse's apostasy annuls the marriage for the Hanafis; the apostate's property is disputed as to whether it passes away. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.8722} {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.8723} {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.8721} The deeds of the apostate are annulled, and the jurists differ on the condition of this, and on repeating the pilgrimage and the missed prayers. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.8724} {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.8725}
+
+## Where to look further
+The hudud penalties, retaliation and marriage rules are treated in their own entries. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.8719} {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.8722}
