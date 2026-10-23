@@ -1,0 +1,36 @@
+id: event/battle-of-the-camel
+class: event
+kind: battle
+label: { en: "The Battle of the Camel (al-Jamal)", ar: "موقعة الجمل" }
+summary:
+  en: "After the killing of Uthman, Ali's accession brought a dispute over the pursuit of his killers; Talha, al-Zubayr and Aisha went to Basra, and a clash broke out between their men and Ali's army. Aisha's camel fell, and she was later escorted back to Medina with honour."
+  ar: "بعد مقتل عثمان وبيعة علي بالخلافة، اختلف الناس في سبيل القصاص من قتلته؛ فسار طلحة والزبير وعائشة إلى البصرة، ووقع القتال بين الفريقين رغم محاولات الصلح، فسقط جمل عائشة وحُمل هودجها بعيداً عن القتال، ثم جهّزها علي للعودة إلى المدينة."
+wings: [time, people]
+themes: [battles, wars-and-campaigns, factions-splits-schisms]
+periods: [period/rashidun]
+regions: [levant-iraq]
+relations:
+  - { type: occurred_at, target: place/basra, sources: [source/nisaa-annabi-aisha-qadi] }
+  - { type: had_participant, target: person/aisha, role: "قائدة الفريق الذي سار إلى البصرة، ندمت لاحقاً على مسيرها", sources: [source/nisaa-annabi-aisha-qadi] }
+  - { type: had_participant, target: person/talha-ibn-ubaydullah, role: "من قادة فريق البصرة", sources: [source/nisaa-annabi-aisha-qadi] }
+  - { type: had_participant, target: person/zubayr-ibn-al-awwam, role: "من قادة فريق البصرة", sources: [source/nisaa-annabi-aisha-qadi] }
+  - { type: had_participant, target: person/ali-ibn-abi-talib, role: "الخليفة الذي سار جيشه إلى البصرة", sources: [source/nisaa-annabi-aisha-qadi] }
+  - { type: part_of, target: period/rashidun }
+sides:
+  - label: { en: "Aisha, Talha and al-Zubayr's party", ar: "فريق عائشة وطلحة والزبير" }
+    participants: [group/mothers-of-the-believers]
+    commanders: [person/aisha, person/talha-ibn-ubaydullah, person/zubayr-ibn-al-awwam]
+  - label: { en: "Ali's army", ar: "جيش علي" }
+    commanders: [person/ali-ibn-abi-talib]
+issue: { ar: "كيف تُقرأ موقعة الجمل: قصاص عثمان وصراع الخلافة، وموقف عائشة منها؟", en: "How is the Battle of the Camel read: the pursuit of Uthman's killers and the dispute over the caliphate, and Aisha's part in it?" }
+sources: [source/nisaa-annabi-aisha-qadi, source/momen-1985]
+status: { review: draft, completeness: 1, generated_by: "Claude Haiku 5.5 (book-2 harvest, 2026-10-23); from OCR pp. 14-15 of the children's biography; no date given in that source, so no date is recorded" }
+perspectives:
+  - tradition: sunni
+    id: sunni
+    summary: { en: "The book follows the Sunni frame: Aisha is honoured as a Mother of the Believers, she regretted her journey to Basra and wept over it, and Ali sent her back with honour and praise.", ar: "يعرض الكتاب الرواية السنية: عائشة أم المؤمنين، ندمت على مسيرها إلى البصرة وبكت عليه، وأعادها علي إليها مكرّمة." }
+    sources: [source/nisaa-annabi-aisha-qadi]
+  - tradition: shia-twelver
+    id: shia-twelver
+    summary: { en: "Twelver Shia tradition is critical of Aisha chiefly for leading the forces that fought Ali at the Battle of the Camel.", ar: "يُنتقد في التقليد الشيعي الاثني عشري دور عائشة أساساً لقيادتها الجيش الذي قاتل عليّاً في موقعة الجمل." }
+    sources: [source/momen-1985]
