@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 6:116 (سورة الأنعام، الآية 116)."
 text: "وَإِن تُطِعْ أَكْثَرَ مَن فِى ٱلْأَرْضِ يُضِلُّوكَ عَن سَبِيلِ ٱللَّهِ ۚ إِن يَتَّبِعُونَ إِلَّا ٱلظَّنَّ وَإِنْ هُمْ إِلَّا يَخْرُصُونَ"
 text_search: "وإن تطع أكثر من في الأرض يضلوك عن سبيل الله ۚ إن يتبعون إلا الظن وإن هم إلا يخرصون"
+translations:
+  en: { text: "If thou obeyedst most of those on earth they would mislead thee far from Allah's way. They follow naught but an opinion, and they do but guess.", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "اور اکثر لوگ جو زمین پر آباد ہیں (گمراہ ہیں) اگر تم ان کا کہا مان لو گے تو وہ تمہیں خدا کا رستہ بھلا دیں گے یہ محض خیال کے پیچھے چلتے اور نرے اٹکل کے تیر چلاتے ہیں", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-6 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

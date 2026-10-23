@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 33:30 (سورة الأحزاب، الآية 30)."
 text: "يَـٰنِسَآءَ ٱلنَّبِىِّ مَن يَأْتِ مِنكُنَّ بِفَـٰحِشَةٍ مُّبَيِّنَةٍ يُضَـٰعَفْ لَهَا ٱلْعَذَابُ ضِعْفَيْنِ ۚ وَكَانَ ذَٰلِكَ عَلَى ٱللَّهِ يَسِيرًا"
 text_search: "يا نساء النبي من يأت منكن بفاحشة مبينة يضاعف لها العذاب ضعفين ۚ وكان ذلك على الله يسيرا"
+translations:
+  en: { text: "O ye wives of the Prophet! Whosoever of you committeth manifest lewdness, the punishment for her will be doubled, and that is easy for Allah.", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "اے پیغمبر کی بیویو تم میں سے جو کوئی صریح ناشائستہ (الفاظ کہہ کر رسول الله کو ایذا دینے کی) حرکت کرے گی۔ اس کو دونی سزا دی جائے گی۔ اور یہ (بات) خدا کو آسان ہے", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-33 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

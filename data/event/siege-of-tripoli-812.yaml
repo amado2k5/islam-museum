@@ -1,0 +1,23 @@
+id: event/siege-of-tripoli-812
+class: event
+kind: siege
+label: { ar: "حصار طرابلس (٨١٢)", en: "Siege of Tripoli (812)" }
+summary:
+  ar: "بطاقة أولية لحصار طرابلس (٨١٢)؛ لم تُراجع مصادره على الصفحة بعد."
+  en: "Draft card for Siege of Tripoli (812); its sources are not yet checked on the page."
+wings: [time]
+periods: [period/abbasid-early]
+regions: [maghreb]
+date:
+  start: { edtf: "0812", precision: year, status: tradition, derived: true }
+  end: { edtf: "0812", precision: year, status: tradition, derived: true }
+sources: [source/tarikh-islam-hasan-ibrahim]
+external_ids:
+  wikidata: Q124661429
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; battle attested in narrative histories — entry not yet checked on the page"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-wave2
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

@@ -1,0 +1,65 @@
+id: exhibit/path-china-islam
+class: exhibit
+kind: trail
+label:
+  ar: الإسلام في الصين
+  en: Islam in China
+summary:
+  ar: 'مسار في أقصى الشرق: شيآن وجامعها العتيق، وكاشغر، وجنغ خه الأميرال المسلم، وهويّ الصين اليوم.'
+  en: A trail through Islam's far east.
+audience:
+- newcomer
+- student
+duration_minutes: 30
+wings: []
+regions:
+- china-east-asia
+rooms:
+- title:
+    ar: شيآن
+    en: Xi'an
+  body:
+    ar: 'جامعها من القرن الأول: بداية طريق الحرير.'
+    en: 'جامعها من القرن الأول: بداية طريق الحرير.'
+  features:
+  - place/xian
+- title:
+    ar: كاشغر
+    en: Kashgar
+  body:
+    ar: 'بوابة التركستان: التقاء الإسلام والصين.'
+    en: 'بوابة التركستان: التقاء الإسلام والصين.'
+  features:
+  - place/kashgar
+  - polity/timurid-empire
+- title:
+    ar: جنغ خه
+    en: Zheng He
+  body:
+    ar: 'الأميرال المسلم: سبع رحلات إلى مكة والبحر.'
+    en: 'الأميرال المسلم: سبع رحلات إلى مكة والبحر.'
+  features:
+  - person/zheng-he
+- title:
+    ar: المسلمون اليوم
+    en: Today
+  body:
+    ar: 'هويّ وأويغور: عشرات الملايين في الصين.'
+    en: 'هويّ وأويغور: عشرات الملايين في الصين.'
+  features:
+  - place/xian
+  - place/kashgar
+prerequisites:
+- exhibit/path-islam-in-30-minutes
+sources:
+- source/wikidata
+provenance:
+  layer: own-research
+  source: Devin-assembled trail from existing museum entities
+  generated_by: Devin (SWE-2 High)
+  model: SWE-2 High
+  run: pathways-batch-7
+status:
+  review: draft
+  completeness: 1
+  generated_by: Devin (SWE-2 High), pathways lane, 2026-10-16

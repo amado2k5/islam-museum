@@ -1,0 +1,23 @@
+id: event/siege-of-jaen-1230
+class: event
+kind: siege
+label: { ar: "حصار جيان (١٢٣٠)", en: "Siege of Jaen (1230)" }
+summary:
+  ar: "بطاقة أولية لحصار جيان سنة ١٢٣٠م وفشل القوات القشتالية في اقتحام المدينة الأندلسية؛ لم تُراجع مصادره على الصفحة بعد."
+  en: "Draft card for the Siege of Jaen in 1230, Ferdinand III's second failed attempt on the city; its sources are not yet checked on the page."
+wings: [time]
+periods: [period/crusades-ayyubid-mamluk]
+regions: [andalus-europe]
+date:
+  start: { edtf: "1230-06-24", precision: year, status: tradition, derived: true }
+  end: { edtf: "1230-09", precision: year, status: tradition, derived: true }
+sources: [source/tarikh-islam-hasan-ibrahim]
+external_ids:
+  wikidata: Q5708037
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; battle attested in narrative histories — entry not yet checked on the page"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-wave2
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

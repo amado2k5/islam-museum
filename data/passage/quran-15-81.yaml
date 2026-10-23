@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 15:81 (سورة الحجر، الآية 81)."
 text: "وَءَاتَيْنَـٰهُمْ ءَايَـٰتِنَا فَكَانُوا۟ عَنْهَا مُعْرِضِينَ"
 text_search: "وآتيناهم آياتنا فكانوا عنها معرضين"
+translations:
+  en: { text: "And we gave them Our revelations, but they were averse to them.", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "ہم نے ان کو اپنی نشانیاں دیں اور وہ ان سے منہ پھرتے رہے", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-15 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

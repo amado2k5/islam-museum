@@ -1,0 +1,20 @@
+id: person/husayn-ibn-yahya-al-ansari
+class: person
+label: { ar: "حسين بن يحيى الأنصاري" }
+gender: male
+roles: [governor]
+summary:
+  ar: "حسين بن يحيى الأنصاري، والي سرقسطة؛ تآمر سنة ١٥٧هـ مع سليمان بن يقظان الأعرابي والي برشلونة وجيرندة وعبد الرحمن بن حبيب الصقلبي على خلع عبد الرحمن الداخل بتشجيع من الخليفة المهدي، ووافق على مخطط الاتصال بشارلمان؛ لكنه لما اجتمعت الجيوش الكارولنجية أمام سرقسطة استعاد المتآمرون صوابهم وأدركوا فداحة الخطأ، فرفض المضي في تنفيذ المؤامرة وأغلق أبواب المدينة في وجه القوات الكارولنجية {cite:tarikh-dawla-abbasiyya-taqqush p. 80-81}."
+  en: "Husayn ibn Yahya al-Ansari — governor of Saragossa who joined the Paderborn conspiracy then repented and shut his city's gates in Charlemagne's face {cite:tarikh-dawla-abbasiyya-taqqush p. 80-81}."
+wings: [people]
+periods: [period/umayyad]
+regions: [andalus-europe]
+relations:
+  - { type: participated_in, target: event/paderborn-pact-160, role: "والي سرقسطة", sources: [source/tarikh-dawla-abbasiyya-taqqush] }
+sources: [source/tarikh-dawla-abbasiyya-taqqush]
+provenance:
+  layer: own-research
+  source: "تاريخ الدولة العباسية لمحمد سهيل طقّوش (ط7) ص 80-81"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-taqqush-abbasi-batch-3
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 7:129 (سورة الأعراف، الآية 129)."
 text: "قَالُوٓا۟ أُوذِينَا مِن قَبْلِ أَن تَأْتِيَنَا وَمِنۢ بَعْدِ مَا جِئْتَنَا ۚ قَالَ عَسَىٰ رَبُّكُمْ أَن يُهْلِكَ عَدُوَّكُمْ وَيَسْتَخْلِفَكُمْ فِى ٱلْأَرْضِ فَيَنظُرَ كَيْفَ تَعْمَلُونَ"
 text_search: "قالوا أوذينا من قبل أن تأتينا ومن بعد ما جئتنا ۚ قال عسى ربكم أن يهلك عدوكم ويستخلفكم في الأرض فينظر كيف تعملون"
+translations:
+  en: { text: "They said: We suffered hurt before thou camest unto us, and since thou hast come unto us. He said: It may be that your Lord is going to destroy your adversary and make you viceroys in the earth, that He may see how ye behave.", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "وہ بولے کہ تمہارے آنے سے پہلے بھی ہم کو اذیتیں پہنچتی رہیں اور آنے کے بعد بھی۔ موسیٰ نے کہا کہ قریب ہے کہ تمہارا پروردگار تمہارے دشمن کو ہلاک کردے اور اس کی جگہ تمہیں زمین میں خلیفہ بنائے پھر دیکھے کہ تم کیسے عمل کرتے ہو", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-7 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

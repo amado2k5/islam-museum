@@ -1,0 +1,23 @@
+id: event/battle-of-kunfuda-bay-1912
+class: event
+kind: naval-battle
+label: { ar: "معركة خليج القنفذة", en: "Battle of Kunfuda Bay" }
+summary:
+  ar: "بطاقة أولية لوقعة خليج القنفذة سنة ١٩١٢م، إغراق الإيطاليين للزوارق العثمانية في البحر الأحمر؛ لم تُراجع مصادره على الصفحة بعد."
+  en: "Draft card for the Battle of Kunfuda Bay in 1912, Italy's sinking of the Ottoman gunboats in the Red Sea; its sources are not yet checked on the page."
+wings: [time]
+periods: [period/modern-era]
+regions: [arabia]
+date:
+  start: { edtf: "1912", precision: year, status: tradition, derived: true }
+  end: { edtf: "1912", precision: year, status: tradition, derived: true }
+sources: [source/dawlat-uthmaniyya-salabi]
+external_ids:
+  wikidata: Q2888986
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; battle attested in Italo-Turkish War histories — entry not yet checked on the page"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-wave2
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

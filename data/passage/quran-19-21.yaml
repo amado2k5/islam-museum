@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 19:21 (سورة مريم، الآية 21)."
 text: "قَالَ كَذَٰلِكِ قَالَ رَبُّكِ هُوَ عَلَىَّ هَيِّنٌ ۖ وَلِنَجْعَلَهُۥٓ ءَايَةً لِّلنَّاسِ وَرَحْمَةً مِّنَّا ۚ وَكَانَ أَمْرًا مَّقْضِيًّا"
 text_search: "قال كذلك قال ربك هو علي هين ۖ ولنجعله آية للناس ورحمة منا ۚ وكان أمرا مقضيا"
+translations:
+  en: { text: "He said: So (it will be). Thy Lord saith: It is easy for Me. And (it will be) that We may make of him a revelation for mankind and a mercy from Us, and it is a thing ordained.", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "(فرشتے نے) کہا کہ یونہی (ہوگا) تمہارے پروردگار نے فرمایا کہ یہ مجھے آسان ہے۔ اور (میں اسے اسی طریق پر پیدا کروں گا) تاکہ اس کو لوگوں کے لئے اپنی طرف سے نشانی اور (ذریعہٴ) رحمت اور (مہربانی) بناؤں اور یہ کام مقرر ہوچکا ہے", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-19 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

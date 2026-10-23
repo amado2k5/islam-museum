@@ -1,0 +1,16 @@
+---
+id: person/al-muthanna-ibn-haritha
+lang: ar
+source_lang: ar
+translators: []
+---
+## موجز
+المثنى بن حارثة بن سلامة بن ضمضم الشيباني، من قادة الفتح في العراق، وعدّه البلاذري أول فاتحي السواد. {cite:futuh-buldan-maarif-1407}
+
+## في فتوح العراق
+يذكر البلاذري أنه كان يغير على السواد في رجال من قومه [[group/banu-shayban|بني شيبان]]. فكتب له [[person/abu-bakr|أبو بكر]] عهداً على من أسلم منهم لقتال الفرس. فنزل خفان ودعا قومه فأسلموا. ثم كتب إليه أبو بكر أن يسمع ويطيع لـ[[person/khalid-ibn-al-walid|خالد بن الوليد]]، فلقيه بالنباج، ولقي جابان بنهر الدم. {cite:futuh-buldan-maarif-1407}
+
+ويرتبط اسمه بـ[[event/muthanna-commission|عهد المثنى]] و[[event/conquest-of-al-hira|فتح الحيرة]]. {cite:futuh-buldan-maarif-1407}
+
+## عند الطبري
+ورد ذكره في فهرس الجزء الثالث مع أبي عبيد بن مسعود في أخبار سنة 13هـ، تحت عنوان «ذكر خبر المثنى بن حارثة وأبي عبيد بن مسعود». {cite:tabari-tarikh-abu-al-fadl j.3 p.630}

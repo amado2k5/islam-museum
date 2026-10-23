@@ -1,0 +1,23 @@
+id: event/siege-of-damietta-1249
+class: event
+kind: siege
+label: { ar: "حصار دمياط (١٢٤٩)", en: "Siege of Damietta" }
+summary:
+  ar: "بطاقة أولية لحصار دمياط سنة ١٢٤٩م، أخذ الصليبيين للمدينة في الحملة السابعة قبل انهيارها عند المنصورة؛ لم تُراجع مصادره على الصفحة بعد."
+  en: "Draft card for the Siege of Damietta in 1249, the Seventh Crusade's capture of the city before its collapse at Mansura; its sources are not yet checked on the page."
+wings: [time]
+periods: [period/crusades-ayyubid-mamluk]
+regions: [egypt-nile]
+date:
+  start: { edtf: "1249", precision: year, status: tradition, derived: true }
+  end: { edtf: "1250", precision: year, status: tradition, derived: true }
+sources: [source/kamil-ibn-al-athir]
+external_ids:
+  wikidata: Q1876031
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; siege attested in Crusades histories — entry not yet checked on the page"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-wave2
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

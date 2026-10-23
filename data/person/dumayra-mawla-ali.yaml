@@ -1,0 +1,17 @@
+id: person/dumayra-mawla-ali
+class: person
+label: { ar: "ضميرة مولى علي بن أبي طالب", en: "Dumayra, client of Ali ibn Abi Talib" }
+names:
+  - { kind: given, lang: ar, value: "ضميرة" }
+gender: male
+summary:
+  ar: "مولى علي بن أبي طالب؛ يذكره ابن هشام في سرية زيد بن حارثة إلى مدين: خرج فيها هو وأخ له."
+  en: "A client of Ali ibn Abi Talib; Ibn Hisham names him, with a brother of his, among those who went with Zayd ibn Haritha's detachment to Madyan."
+wings: [people]
+periods: [period/prophetic-era]
+regions: [arabia]
+relations:
+  - { type: participated_in, target: event/sariyya-of-zayd-to-madyan, sources: [source/ibn-hisham-saqqa] }
+provenance: { layer: own-research, source: "sira-ibn-hisham saqqa 1936, juz' 4 p. 284", generated_by: "Claude Code", model: "claude-fable-5-1", run: "ibn-hisham-batch-14" }
+sources: [source/ibn-hisham-saqqa]
+status: { review: draft, completeness: 1, generated_by: "Claude Fable 5.1; mined from Ibn Hisham juz' 4 p. 284; his relation to Ali as client is the text's; further biography not read (needs_source)" }

@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 2:277 (سورة البقرة، الآية 277)."
 text: "إِنَّ ٱلَّذِينَ ءَامَنُوا۟ وَعَمِلُوا۟ ٱلصَّـٰلِحَـٰتِ وَأَقَامُوا۟ ٱلصَّلَوٰةَ وَءَاتَوُا۟ ٱلزَّكَوٰةَ لَهُمْ أَجْرُهُمْ عِندَ رَبِّهِمْ وَلَا خَوْفٌ عَلَيْهِمْ وَلَا هُمْ يَحْزَنُونَ"
 text_search: "إن الذين آمنوا وعملوا الصالحات وأقاموا الصلاة وآتوا الزكاة لهم أجرهم عند ربهم ولا خوف عليهم ولا هم يحزنون"
+translations:
+  en: { text: "Lo! those who believe and do good works and establish worship and pay the poor-due, their reward is with their Lord and there shall no fear come upon them neither shall they grieve.", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "جو لوگ ایمان لائے اور نیک عمل کرتے اور نماز پڑھتے اور زکوٰة دیتے رہے ان کو ان کے کاموں کا صلہ خدا کے ہاں ملے گا اور (قیامت کے دن) ان کو نہ کچھ خوف ہوا اور نہ وہ غمناک ہوں گے", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-2 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

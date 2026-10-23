@@ -1,0 +1,42 @@
+id: concept/bay-al-dayn
+class: concept
+kind: legal
+label:
+  ar: "بيع الديون والأجل"
+  en: "Sale of debts and deferred pricing"
+issue:
+  ar: "هل تجوز الزيادة في الثمن للتأجيل أو الحطيطة للتعجيل في البيع المؤجل؟"
+summary:
+  ar: "ترى قراءة المؤلف أن عمليات البنوك التقليدية تقوم على المتاجرة بالديون، أما في الإسلام فالدين غير ممنوع، والبيع الآجل مسموح، وتجوز الزيادة للتأجيل مرة واحدة عند البيع، ولا تجوز عند العجز عن السداد {cite:usul-iqtisad-islami-0660 p. 354} {cite:usul-iqtisad-islami-0660 p. 355}. وإذا دخل وسيط يمول فدوره دور المقرض، فلا يقرض بفائدة {cite:usul-iqtisad-islami-0660 p. 355}."
+wings: [ideas]
+themes:
+- trade-and-finance
+periods:
+- period/modern-era
+regions:
+- global
+perspectives:
+  - tradition: sunni
+    id: jumhur-increase-for-delay
+    summary:
+      ar: "جمهور العلماء أجازوا الزيادة في الثمن للتأجيل {cite:usul-iqtisad-islami-0660 p. 351}."
+    sources: [source/usul-iqtisad-islami-0660]
+  - tradition: sunni
+    id: some-discount-for-prompt
+    summary:
+      ar: "بعض العلماء أجازوا الحطيطة (الوضيعة) للتعجيل {cite:usul-iqtisad-islami-0660 p. 351}، والكتاب لا يسمّيهم."
+    sources: [source/usul-iqtisad-islami-0660]
+relations:
+  - { type: part_of, target: concept/riba, sources: [source/usul-iqtisad-islami-0660] }
+sources:
+- source/usul-iqtisad-islami-0660
+provenance:
+  layer: own-research
+  source: "Rafiq Yunus al-Misri, Usul al-iqtisad al-islami, PDF pp. 301-359 (harvest OCR, outside git)"
+  generated_by: "Claude Code (claude-haiku-5-5)"
+  model: "claude-haiku-5-5"
+  run: "econ-0660-usul-pp301-359"
+status:
+  review: draft
+  completeness: 1
+  generated_by: "Claude Code (claude-haiku-5-5); draft from usul-iqtisad-islami-0660 pp. 301-359; English and Urdu translations not yet written"

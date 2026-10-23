@@ -1,0 +1,25 @@
+id: person/abu-al-mawahib-al-tunisi
+class: person
+label: { ar: "أبو المواهب التونسي الشاذلي", en: "Abu al-Mawahib al-Tunisi al-Shadhili" }
+names:
+  - { kind: full, lang: ar, value: "أبو المواهب محمد بن أحمد التونسي الشاذلي" }
+gender: male
+roles: [mystic, scholar]
+traditions: [sunni]
+wings: [people]
+themes: [spirituality-and-sufism]
+periods: [period/mongol-post-mongol]
+regions: [maghreb, egypt-nile]
+summary:
+  ar: "أبو المواهب محمد بن أحمد الشيخ الإمام المدقق التونسي الشاذلي نزيل مصر، وهو الذي كان متصدراً في قبالة رواق المغاربة بالجامع الأزهر، وكان صاحب أوراد وأحوال؛ أخذ عنه التصوفَ برهانُ الدين الأقصرائي فنُسب إليه «المواهبي»، توفي سنة إحدى وتسعمائة {cite:shadharat-dhahab p. 426, 454}."
+  en: "The Shadhili of Tunis resident in Cairo, seated facing the Maghreb riwaq at the Azhar, a man of litanies and states; Burhan al-Din al-Iqsara'i took the path from him and was named 'al-Muwahhibi' after him; d. 901 {cite:shadharat-dhahab p. 426, 454}."
+died: { edtf: "1495/1496", hijri: "0901", calendar: julian, precision: year, status: tradition, derived: true, note: "901 بمصر؛ التحويل مشتق {cite:shadharat-dhahab p. 426}", sources: [source/shadharat-dhahab] }
+relations:
+  - { type: teacher_of, target: person/al-iqsarai-al-muwahhibi, sources: [source/shadharat-dhahab] }
+provenance:
+  layer: own-research
+  source: "شذرات الذهب — ابن العماد (ط مكتبة المثنى 1351، ج8، سنتا 901 و908)، قراءة آبل فيجن"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-shadharat-batch-143
+sources: [source/shadharat-dhahab]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

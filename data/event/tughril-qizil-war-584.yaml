@@ -1,0 +1,26 @@
+id: event/tughril-qizil-war-584
+class: event
+kind: war
+label: { ar: "قوة السلطان طغرل على قزل أرسلان", en: "Sultan Tughril III masters Qizil Arslan" }
+date:
+  start: { edtf: "1188~", hijri: "0584", calendar: julian, precision: year, status: tradition, derived: true }
+summary:
+  ar: "قوي السلطان طغرل بن أرسلان على قزل أرسلان الإلدكزي وملك عليه عدة بلاد من الجبل وأذربيجان، وكانت الحروب بينهما سجالًا حتى استظهر طغرل {cite:kamil-ibn-al-athir p. 163}."
+  en: "Sultan Tughril ibn Arslan grew strong against Qizil Arslan and took town after town in Jibal and Azerbaijan — the wars went back and forth until Tughril prevailed {cite:kamil-ibn-al-athir p. 163}."
+sides:
+- label: { ar: "السلطان طغرل", en: "Sultan Tughril III" }
+  commanders: [person/tughril-iii]
+- label: { ar: "قزل أرسلان الإلدكزي", en: "Qizil Arslan Ildigizid" }
+  commanders: [person/qizil-arslan]
+
+relations:
+  - { type: had_participant, target: person/tughril-iii, sources: [source/kamil-ibn-al-athir] }
+  - { type: had_participant, target: person/qizil-arslan, sources: [source/kamil-ibn-al-athir] }
+  - { type: occurred_at, target: place/jibal, sources: [source/kamil-ibn-al-athir] }
+provenance:
+  layer: own-research
+  source: "الكامل في التاريخ لابن الأثير، قراءة آبل فيجن"
+  generated_by: "Devin (SWE-2 Medium) from Apple Vision OCR"
+  run: lib-kamil-v12-batch03
+sources: [source/kamil-ibn-al-athir]
+status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 Medium)" }

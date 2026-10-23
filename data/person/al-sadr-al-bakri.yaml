@@ -1,0 +1,27 @@
+id: person/al-sadr-al-bakri
+class: person
+label: { ar: "الصدر البكري", en: "al-Sadr al-Bakri" }
+names:
+  - { value: "الصدر البكري أبو علي الحسن بن محمد بن محمد بن محمد بن عمروك التيمي النيسابوري ثم الدمشقي الصوفي الحافظ", kind: full }
+born: { edtf: "1178", hijri: "0574", calendar: julian, precision: year, status: tradition, derived: true, note: "ولد سنة أربع وسبعين وخمسمائة {cite:shadharat-dhahab p. 282}." }
+died: { edtf: "1258~", hijri: "0656", calendar: julian, precision: year, status: tradition, derived: true, note: "توفي سنة ست وخمسين وستمائة {cite:shadharat-dhahab p. 282}." }
+summary:
+  ar: "الصوفي الحافظ؛ سمع بمكة من عمز الميانشي وبدمشق من ابن طبرزد وبخراسان من أبي روح وبإصبهان {cite:shadharat-dhahab p. 282}."
+  en: "The Sufi hafiz (b. 574, d. 656) — of Nishapur then Damascus; heard at Mecca, Damascus, Khurasan and Isfahan {cite:shadharat-dhahab p. 282}."
+gender: male
+roles: [scholar, mystic, muhaddith]
+wings: [people]
+periods: [period/crusades-ayyubid-mamluk]
+regions: [persia-central-asia, levant-iraq]
+faith:
+  - value: sunni
+    basis: tradition
+relations:
+  - { type: died_in, target: place/damascus, sources: [source/shadharat-dhahab] }
+sources: [source/shadharat-dhahab]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }
+provenance:
+  layer: own-research
+  source: "شذرات الذهب — ابن العماد (ج5، سنة 656)، قراءة آبل فيجن"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-shadharat-batch-129

@@ -1,0 +1,24 @@
+id: person/tamam-ibn-muhammad-al-abbasi
+class: person
+label: { ar: "تمام بن محمد العباسي", en: "Tamam ibn Muhammad al-'Abbasi" }
+names:
+  - { value: "تمام بن محمد بن سليمان بن علي بن عبد الله بن عبيد الله بن العباس أبو بكر الهاشمي", kind: full }
+gender: male
+roles: [scholar]
+summary:
+  ar: "تمام بن محمد بن سليمان أبو بكر الهاشمي (269–350هـ)، من بيت العباس؛ حدّث عن عبد الله بن أحمد وغيره وروى عنه ابن رزقويه، وتوفي في ذي القعدة سنة خمسين وثلثمائة {cite:muntazam-ibn-al-jawzi j.7 p.8}."
+  en: "Tamam b. Muhammad b. Sulayman Abu Bakr al-Hashimi (269–350) of the 'Abbasid house; he transmitted from 'Abd Allah b. Ahmad and others, was transmitted from by Ibn Razquyah, and died Dhu'l-Qa'da 350 {cite:muntazam-ibn-al-jawzi j.7 p.8}."
+wings: [people]
+periods: [period/abbasid-fragmentation]
+regions: [levant-iraq]
+born:
+  { edtf: "0882~", hijri: "0269", calendar: julian, precision: year, status: tradition, derived: true, note: "ولد سنة 269؛ التحويل مشتق {cite:muntazam-ibn-al-jawzi j.7 p.8}", sources: [source/muntazam-ibn-al-jawzi] }
+died:
+  { edtf: "0961-12~", hijri: "0350-11", calendar: julian, precision: month, status: tradition, derived: true, note: "توفي في ذي القعدة 350؛ التحويل مشتق {cite:muntazam-ibn-al-jawzi j.7 p.8}", sources: [source/muntazam-ibn-al-jawzi] }
+provenance:
+  layer: own-research
+  source: "المنتظم لابن الجوزي (ط حيدرآباد 1357، ج7، وفيات سنة 350)، قراءة آبل فيجن"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-muntazam-350-474-2
+sources: [source/muntazam-ibn-al-jawzi]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

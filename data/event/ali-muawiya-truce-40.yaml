@@ -1,0 +1,19 @@
+id: event/ali-muawiya-truce-40
+class: event
+kind: treaty
+label: { ar: "المهادنة بين علي ومعاوية", en: "the truce between ʿAli and Muʿāwiya (40 AH)" }
+date:
+  start: { edtf: "0660", hijri: "0040", calendar: julian, precision: year, status: tradition, derived: true, note: "سنة 40؛ التحويل مشتق {cite:kamil-ibn-al-athir p. 735}." }
+summary:
+  ar: "فيها جرت مهادنة بين علي ومعاوية بعد مكاتبات طويلة على وضع الحرب، ويكون لعلي العراق ولمعاوية الشام لا يدخل أحدهما بلد الآخر بغارة {cite:kamil-ibn-al-athir p. 735}."
+  en: "After a long exchange of letters a truce laid down the war: Iraq to ʿAli, Syria to Muʿāwiya, neither raiding the other's country {cite:kamil-ibn-al-athir p. 735}."
+relations:
+  - { type: had_participant, target: person/ali-ibn-abi-talib, sources: [source/kamil-ibn-al-athir] }
+  - { type: had_participant, target: person/muawiya-ibn-abi-sufyan, sources: [source/kamil-ibn-al-athir] }
+provenance:
+  layer: own-research
+  source: "الكامل في التاريخ لابن الأثير (دار الكتاب العربي 2012، ج2)، قراءة آبل فيجن"
+  generated_by: "Devin (SWE-2 Medium) from Apple Vision OCR"
+  run: lib-kamil-v2-batch05
+sources: [source/kamil-ibn-al-athir]
+status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 Medium)" }

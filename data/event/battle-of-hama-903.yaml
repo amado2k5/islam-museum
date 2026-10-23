@@ -1,0 +1,23 @@
+id: event/battle-of-hama-903
+class: event
+kind: battle
+label: { ar: "معركة حماة (٩٠٣)", en: "Battle of Hama" }
+summary:
+  ar: "بطاقة أولية لمعركة حماة سنة ٩٠٣م، مذبحة القرامطة لأهل المدينة في حملتهم على الشام؛ لم تُراجع مصادره على الصفحة بعد."
+  en: "Draft card for the Battle of Hama in 903, the Qarmatians' massacre of the townspeople in their Syrian campaign; its sources are not yet checked on the page."
+wings: [time]
+periods: [period/abbasid-fragmentation]
+regions: [levant-iraq]
+date:
+  start: { edtf: "0903-11-29", precision: year, status: tradition, derived: true }
+  end: { edtf: "0903-11-29", precision: year, status: tradition, derived: true }
+sources: [source/tarikh-al-tabari]
+external_ids:
+  wikidata: Q22949292
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; battle attested in narrative histories — entry not yet checked on the page"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-wave2
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

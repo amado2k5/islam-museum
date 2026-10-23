@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 19:88 (سورة مريم، الآية 88)."
 text: "وَقَالُوا۟ ٱتَّخَذَ ٱلرَّحْمَـٰنُ وَلَدًا"
 text_search: "وقالوا اتخذ الرحمن ولدا"
+translations:
+  en: { text: "And they say: The Beneficent hath taken unto Himself a son.", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "اور کہتے ہیں کہ خدا بیٹا رکھتا ہے", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-19 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 21:91 (سورة الأنبياء، الآية 91)."
 text: "وَٱلَّتِىٓ أَحْصَنَتْ فَرْجَهَا فَنَفَخْنَا فِيهَا مِن رُّوحِنَا وَجَعَلْنَـٰهَا وَٱبْنَهَآ ءَايَةً لِّلْعَـٰلَمِينَ"
 text_search: "والتي أحصنت فرجها فنفخنا فيها من روحنا وجعلناها وابنها آية للعالمين"
+translations:
+  en: { text: "And she who was chaste, therefor We breathed into her (something) of Our Spirit and made her and her son a token for (all) peoples.", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "اور ان (مریم) کو (بھی یاد کرو) جنہوں نے اپنی عفّت کو محفوظ رکھا۔ تو ہم نے ان میں اپنی روح پھونک دی اور ان کے بیٹے کو اہل عالم کے لئے نشانی بنا دیا", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-21 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

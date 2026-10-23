@@ -1,0 +1,24 @@
+id: event/sieges-of-oran-mers-el-kebir-1563
+class: event
+kind: siege
+label: { ar: "حصار وهران والمرسى الكبير (٩٧١هـ/١٥٦٣م)", en: "Siege of Oran and Mers El Kébir (971/1563)" }
+summary:
+  ar: "خرج حسن بن خير الدين من الجزائر سنة ٩٧١هـ/١٥٦٣م بجيش من خمسة عشر ألف رماة بندقية وألف فارس صباحي تحت أمرة أحمد مقرن الزواوي واثني عشر ألفاً من زواوة وبني عباس، ونقل الأسطول المؤن إلى مستغانم قاعدة العمليات، فضرب الحصار على وهران والمرسى الكبير — آخر ما بقي للأسبان ببلاد الجزائر — في ١٣ أبريل. لكن النجدات الأسبانية والبرتغالية توالت استجابة لنداء الحاكم متخذة من مالطة مركز تجمع، وكان البيلربك على بعد ست مراحل، فرفع حسن الحصار قبل وصول المزيد {cite:dawlat-uthmaniyya-salabi p. 250-251}."
+  en: "In 971/1563 Hasan b. Khayr al-Din marched from Algiers with fifteen thousand musketeers, a thousand Sipahi horse under Ahmad Muqran, and twelve thousand Zawawa and Bani Abbas, the fleet carrying supplies to the Mostaganem base; on 13 April he invested Oran and Mers el-Kebir — Spain's last holdings in Algeria. But Spanish and Portuguese relief kept converging in answer to the governor's call, mustering at Malta, with the beylerbey six stages away; Hasan raised the siege before the rest arrived {cite:dawlat-uthmaniyya-salabi p. 250-251}."
+wings: [time]
+periods: [period/gunpowder-empires]
+regions: [maghreb]
+date:
+  start: { edtf: "1563-04-13", hijri: "0971", calendar: gregorian, precision: day, status: tradition, derived: true, sources: [source/dawlat-uthmaniyya-salabi] }
+relations:
+  - { type: had_participant, target: person/hasan-ibn-khayr-al-din, sources: [source/dawlat-uthmaniyya-salabi] }
+  - { type: had_participant, target: person/ahmad-muqran-al-zawawi, sources: [source/dawlat-uthmaniyya-salabi] }
+  - { type: occurred_at, target: place/wahran, sources: [source/dawlat-uthmaniyya-salabi] }
+sources: [source/dawlat-uthmaniyya-salabi]
+provenance:
+  layer: own-research
+  source: "الدولة العثمانية لعلي محمد الصلابي (ط1 1421) ص 250-251 — draft card verified on the page"
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: salabi-uthmani-batch13
+status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 Medium)" }

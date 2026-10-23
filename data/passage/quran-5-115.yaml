@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 5:115 (سورة المائدة، الآية 115)."
 text: "قَالَ ٱللَّهُ إِنِّى مُنَزِّلُهَا عَلَيْكُمْ ۖ فَمَن يَكْفُرْ بَعْدُ مِنكُمْ فَإِنِّىٓ أُعَذِّبُهُۥ عَذَابًا لَّآ أُعَذِّبُهُۥٓ أَحَدًا مِّنَ ٱلْعَـٰلَمِينَ"
 text_search: "قال الله إني منزلها عليكم ۖ فمن يكفر بعد منكم فإني أعذبه عذابا لا أعذبه أحدا من العالمين"
+translations:
+  en: { text: "Allah said: Lo! I send it down for you. And whoso disbelieveth of you afterward, him surely will I punish with a punishment wherewith I have not punished any of (My) creatures.", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "خدا نے فرمایا میں تم پر ضرور خوان نازل فرماؤں گا لیکن جو اس کے بعد تم میں سے کفر کرے گا اسے ایسا عذاب دوں گا کہ اہل عالم میں کسی کو ایسا عذاب نہ دوں گا", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-5 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

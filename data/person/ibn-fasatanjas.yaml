@@ -1,0 +1,25 @@
+id: person/ibn-fasatanjas
+class: person
+label:
+  ar: "ذو السعادات أبو الفرج ابن فساتنجس"
+  en: "Dhu'l-Sa'adatayn Ibn Fasatanjas"
+names:
+  - { value: "محمد بن جعفر بن العباس بن فساتنجس أبو الفرج", kind: full }
+summary:
+  ar: "الوزير ذو السعادات أبو الفرج بن فساتنجس؛ وزر لأبي كاليجار بفارس ووزر له ببغداد حين دخلها سنة ٤٣٦، وكانت له مرونة فائضة وكان مليح الشعر والترسل. اشتهر عنه أن بعض شهود الأهواز كتب إليه أن فلانًا مات وخلف خمسين ألف دينار مغربية وعقارًا بخمسين ألف دينار وخلف ولدًا له ثمانية أشهر، فإن رأى الوزير أن يُقرض من العين إلى حين بلوغ الطفل؛ فكتب على ظهر الرقعة جوابًا فيه أن المال والطفل والمتوفى أمورٌ لله والساعي ملعون، وأنه لا حاجة لهم إلى مال الأيتام. اعتُقل بقلعة بني ودام بجنديسابور أحد عشر شهرًا ثم أمر أبو كاليجار بقتله في رمضان سنة أربعين وأربعمائة وقد بلغ إحدى وخمسين سنة {cite:muntazam-ibn-al-jawzi j.8 p.478,480-481}."
+  en: "Abu Kalijar's vizier in Fars and then Baghdad (appointed at the 436 entry); a man of easy grace and fine verse. Famous for the reply he wrote on the back of a report proposing to borrow against an eight-month-old orphan's hundred-thousand-dinar estate: 'The dead man — God's mercy; the child — God's neighbor; the money — God's fruit; the petitioner — God's curse; we have no need of orphans' wealth'. Held eleven months at Qal'at Bani Wudam in Jundishapur, then killed on Abu Kalijar's order in Ramadan 440, aged fifty-one {cite:muntazam-ibn-al-jawzi j.8 p.480-481}."
+gender: male
+died: { edtf: "1048-10~", hijri: "0440-09", calendar: julian, precision: month, status: tradition, derived: true, note: "قُتل في رمضان ٤٤٠ عن ٥١ سنة {cite:muntazam-ibn-al-jawzi j.8 p.481}" }
+roles: [vizier, poet]
+wings: [people]
+periods: [period/buyid-seljuk-fatimid-era]
+regions: [persia-central-asia, levant-iraq]
+relations:
+  - { type: allied_with, target: person/abu-kalijar, role: "وزيره", sources: [source/muntazam-ibn-al-jawzi] }
+provenance:
+  layer: own-research
+  source: "المنتظم في تاريخ الملوك والأمم — ابن الجوزي (ج8، ترجمة سنة ٤٤٠)، قراءة آبل فيجن، مسح AAlexandrina-224011"
+  generated_by: "Devin (SWE-2 Medium) from Apple Vision OCR"
+  run: lib-muntazam-350-474-batch24
+sources: [source/muntazam-ibn-al-jawzi]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 Medium)" }

@@ -1,0 +1,23 @@
+id: event/hammadid-zirid-war
+class: event
+kind: war
+label: { ar: "الحرب الحمادية الزيرية (١٠١٤–١٠١٨)", en: "Hammadid–Zirid War (1014–18)" }
+summary:
+  ar: "بطاقة أولية للحرب الحمادية الزيرية من ١٠١٤ إلى ١٠١٨م، انفصال حماد بن بلكين عن الزيريين وقيام الدولة الحمادية؛ لم تُراجع مصادره على الصفحة بعد."
+  en: "Draft card for the Hammadid–Zirid War of 1014–18, Hammad ibn Buluggin's secession from the Zirids and the founding of the Hammadid state; its sources are not yet checked on the page."
+wings: [time]
+periods: [period/buyid-seljuk-fatimid-era]
+regions: [maghreb]
+date:
+  start: { edtf: "1014", precision: year, status: tradition, derived: true }
+  end: { edtf: "1018", precision: year, status: tradition, derived: true }
+sources: [source/tarikh-islam-hasan-ibrahim]
+external_ids:
+  wikidata: Q127867977
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; battle attested in narrative histories — entry not yet checked on the page"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-wave2
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

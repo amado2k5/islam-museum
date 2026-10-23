@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 10:41 (سورة يونس، الآية 41)."
 text: "وَإِن كَذَّبُوكَ فَقُل لِّى عَمَلِى وَلَكُمْ عَمَلُكُمْ ۖ أَنتُم بَرِيٓـُٔونَ مِمَّآ أَعْمَلُ وَأَنَا۠ بَرِىٓءٌ مِّمَّا تَعْمَلُونَ"
 text_search: "وإن كذبوك فقل لي عملي ولكم عملكم ۖ أنتم بريئون مما أعمل وأنا بريء مما تعملون"
+translations:
+  en: { text: "And if they deny thee, say: Unto me my work, and unto you your work. Ye are innocent of what I do, and I am innocent of what ye do.", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "اور اگر یہ تمہاری تکذیب کریں تو کہہ دو کہ مجھ کو میرے اعمال (کا بدلہ ملے گا) اور تم کو تمہارے اعمال (کا) تم میرے عملوں کا جواب دہ نہیں ہو اور میں تمہارے عملوں کا جوابدہ نہیں ہوں", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-10 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

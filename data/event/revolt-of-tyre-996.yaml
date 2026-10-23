@@ -1,0 +1,23 @@
+id: event/revolt-of-tyre-996
+class: event
+kind: revolt
+label: { ar: "ثورة صور", en: "Revolt of Tyre" }
+summary:
+  ar: "بطاقة أولية لثورة صور في ٩٩٦–٩٩٨م، تمرد أهلها بقيادة علّاقة على الفاطميين؛ لم تُراجع مصادره على الصفحة بعد."
+  en: "Draft card for the Revolt of Tyre in 996–998, the townspeople's rising under 'Allaqa against the Fatimids; its sources are not yet checked on the page."
+wings: [time]
+periods: [period/buyid-seljuk-fatimid-era]
+regions: [levant-iraq]
+date:
+  start: { edtf: "0996", precision: year, status: tradition, derived: true }
+  end: { edtf: "0998", precision: year, status: tradition, derived: true }
+sources: [source/kamil-ibn-al-athir]
+external_ids:
+  wikidata: Q17028780
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; battle attested in narrative histories — entry not yet checked on the page"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-wave2
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

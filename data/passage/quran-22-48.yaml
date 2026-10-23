@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 22:48 (سورة الحج، الآية 48)."
 text: "وَكَأَيِّن مِّن قَرْيَةٍ أَمْلَيْتُ لَهَا وَهِىَ ظَالِمَةٌ ثُمَّ أَخَذْتُهَا وَإِلَىَّ ٱلْمَصِيرُ"
 text_search: "وكأين من قرية أمليت لها وهي ظالمة ثم أخذتها وإلي المصير"
+translations:
+  en: { text: "And how many a township did I suffer long though it was sinful! Then I grasped it. Unto Me is the return.", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "اور بہت سی بستیاں ہیں کہ میں ان کو مہلت دیتا رہا اور وہ نافرمان تھیں۔ پھر میں نے ان کو پکڑ لیا۔ اور میری طرف ہی لوٹ کر آنا ہے", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-22 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

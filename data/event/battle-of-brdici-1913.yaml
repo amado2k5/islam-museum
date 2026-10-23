@@ -1,0 +1,23 @@
+id: event/battle-of-brdici-1913
+class: event
+kind: battle
+label: { ar: "معركة برديتسي (١٩١٣)", en: "Battle of Brdici (1913)" }
+summary:
+  ar: "بطاقة أولية لمعركة برديتسي سنة ١٩١٣م، من حوادث حرب البلقان الثانية؛ لم تُراجع مصادره على الصفحة بعد."
+  en: "Draft card for the Battle of Brdici in 1913, an action of the Second Balkan War; its sources are not yet checked on the page."
+wings: [time]
+periods: [period/modern-era]
+regions: [anatolia-balkans]
+date:
+  start: { edtf: "1913", precision: year, status: tradition, derived: true }
+  end: { edtf: "1913", precision: year, status: tradition, derived: true }
+sources: [source/dawlat-uthmaniyya-salabi]
+external_ids:
+  wikidata: Q12956414
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; battle attested in narrative histories — entry not yet checked on the page"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-wave2
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

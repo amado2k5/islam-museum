@@ -1,0 +1,23 @@
+id: event/siege-of-tunis-1270
+class: event
+kind: siege
+label: { ar: "حصار تونس (١٢٧٠)", en: "Siege of Tunis (1270)" }
+summary:
+  ar: "بطاقة أولية لحصار تونس (١٢٧٠)؛ لم تُراجع مصادره على الصفحة بعد."
+  en: "Draft card for Siege of Tunis (1270); its sources are not yet checked on the page."
+wings: [time]
+periods: [period/crusades-ayyubid-mamluk]
+regions: [maghreb]
+date:
+  start: { edtf: "1270-07", precision: year, status: tradition, derived: true }
+  end: { edtf: "1270-10", precision: year, status: tradition, derived: true }
+sources: [source/tarikh-islam-hasan-ibrahim]
+external_ids:
+  wikidata: Q11794915
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; battle attested in narrative histories — entry not yet checked on the page"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-wave2
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

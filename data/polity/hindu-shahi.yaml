@@ -1,0 +1,32 @@
+id: polity/hindu-shahi
+class: polity
+kind: dynasty
+label:
+  ar: "الشاهية الهندوكية"
+  en: "Hindu Shahis"
+summary:
+  ar: "بطاقة أولية للشاهية الهندوكية، الأسرة التي حكمت كابل وقندهار وخاضت حروب محمود الغزنوي؛ لم تُراجع مصادرها على الصفحة بعد."
+  en: "Draft card for the Hindu Shahis, the dynasty of Kabul and Gandhara that fought the Ghaznavid campaigns; its sources are not yet checked on the page."
+wings: [time]
+periods: [period/buyid-seljuk-fatimid-era]
+regions: [south-asia]
+start:
+  edtf: "850"
+  precision: year
+  status: tradition
+  derived: true
+end:
+  edtf: "1026"
+  precision: year
+  status: tradition
+  derived: true
+sources: [source/tarikh-ibn-khaldun-ibar]
+external_ids:
+  wikidata: Q4955540
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; dynasty attested in histories of the Ghaznavid wars — entry not yet checked on the page"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-wave2
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

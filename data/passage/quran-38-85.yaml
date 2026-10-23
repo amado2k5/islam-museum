@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 38:85 (سورة ص، الآية 85)."
 text: "لَأَمْلَأَنَّ جَهَنَّمَ مِنكَ وَمِمَّن تَبِعَكَ مِنْهُمْ أَجْمَعِينَ"
 text_search: "لأملأن جهنم منك وممن تبعك منهم أجمعين"
+translations:
+  en: { text: "That I shall fill hell with thee and with such of them as follow thee, together.", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "کہ میں تجھ سے اور جو ان میں سے تیری پیروی کریں گے سب سے جہنم کو بھر دوں گا", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-38 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

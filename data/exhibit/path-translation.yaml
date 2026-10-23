@@ -1,0 +1,77 @@
+id: exhibit/path-translation
+class: exhibit
+kind: trail
+label:
+  ar: حركة الترجمة
+  en: The Translation Movement
+summary:
+  ar: 'مسار في حركة الترجمة الكبرى: حنين بن إسحاق يقود النقل، وابنه إسحاق يكمل، وبيت الحكمة يدفع وزن الكتب
+    ذهبًا.'
+  en: A trail through the great translation movement.
+audience:
+- newcomer
+- student
+duration_minutes: 30
+wings: []
+regions:
+- levant-iraq
+rooms:
+- title:
+    ar: حنين
+    en: Hunayn
+  body:
+    ar: 'ابن إسحاق: شيخ المترجمين وطبيب الخلفاء.'
+    en: 'ابن إسحاق: شيخ المترجمين وطبيب الخلفاء.'
+  features:
+  - person/hunayn-ibn-ishaq
+  - place/baghdad
+- title:
+    ar: إسحاق بن حنين
+    en: Ishaq ibn Hunayn
+  body:
+    ar: 'الابن يكمل: أرسطو وأفلاطون بعربية دقيقة.'
+    en: 'الابن يكمل: أرسطو وأفلاطون بعربية دقيقة.'
+  features:
+  - person/ishaq-ibn-hunayn
+  - building/bayt-al-hikma
+- title:
+    ar: بيت الحكمة
+    en: Bayt al-Hikma
+  body:
+    ar: 'المأمون يفتح بيت الحكمة: أكاديمية بغداد.'
+    en: 'المأمون يفتح بيت الحكمة: أكاديمية بغداد.'
+  features:
+  - building/bayt-al-hikma
+  - place/baghdad
+- title:
+    ar: الكندي
+    en: Al-Kindi
+  body:
+    ar: أول من فلسف اليونانية عربيًا.
+    en: أول من فلسف اليونانية عربيًا.
+  features:
+  - person/al-kindi
+  - person/al-farabi
+- title:
+    ar: الثمار
+    en: The harvest
+  body:
+    ar: 'من الترجمة إلى الإبداع: قرن العلم.'
+    en: 'من الترجمة إلى الإبداع: قرن العلم.'
+  features:
+  - building/bayt-al-hikma
+  - person/al-khwarizmi
+prerequisites:
+- exhibit/path-islam-in-30-minutes
+sources:
+- source/wikidata
+provenance:
+  layer: own-research
+  source: Devin-assembled trail from existing museum entities
+  generated_by: Devin (SWE-2 High)
+  model: SWE-2 High
+  run: pathways-batch-7
+status:
+  review: draft
+  completeness: 1
+  generated_by: Devin (SWE-2 High), pathways lane, 2026-10-16

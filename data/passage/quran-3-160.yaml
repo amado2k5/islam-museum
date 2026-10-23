@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 3:160 (سورة آل عمران، الآية 160)."
 text: "إِن يَنصُرْكُمُ ٱللَّهُ فَلَا غَالِبَ لَكُمْ ۖ وَإِن يَخْذُلْكُمْ فَمَن ذَا ٱلَّذِى يَنصُرُكُم مِّنۢ بَعْدِهِۦ ۗ وَعَلَى ٱللَّهِ فَلْيَتَوَكَّلِ ٱلْمُؤْمِنُونَ"
 text_search: "إن ينصركم الله فلا غالب لكم ۖ وإن يخذلكم فمن ذا الذي ينصركم من بعده ۗ وعلى الله فليتوكل المؤمنون"
+translations:
+  en: { text: "If Allah is your helper none can overcome you, and if He withdraw His help from you, who is there who can help you after Him? In Allah let believers put their trust.", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "اور خدا تمہارا مددگار ہے تو تم پر کوئی غالب نہیں آسکتا۔ اور اگر وہ تمہیں چھوڑ دے تو پھر کون ہے کہ تمہاری مدد کرے اور مومنوں کو چاہیئے کہ خدا ہی پر بھروسا رکھیں", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-3 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

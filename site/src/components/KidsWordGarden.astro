@@ -1,0 +1,96 @@
+---
+// Kids' Word Garden: flowers per surah from the wa-bashshir word map (frozen Tanzil corpus).
+// Static full verse list renders with no JS; client script (site/src/scripts/kidsgarden.ts)
+// adds bloom panels + the bee quiz. Verse text comes ONLY from the JSON refs[].t fields.
+import { loadWordMap } from "../lib/wordmap";
+import { byId, labelOf } from "../lib/graph";
+import { surahSlug } from "../lib/surah-maps";
+import type { Lang } from "../lib/i18n";
+
+interface Props { lang: Lang; t: Record<string, string> }
+const { lang, t } = Astro.props;
+
+const map = loadWordMap("wa-bashshir");
+if (map.kids !== true) throw new Error("kids garden: cards/wordmap/wa-bashshir.json is not kids-approved");
+
+const surahName = (s: number) => {
+  const node = byId.get(`passage/quran-${s}`);
+  return node ? labelOf(node, lang) : `Q${s}`;
+};
+
+interface GRef { s: number; a: number; t: string; form: string }
+const bySurah = new Map<number, GRef[]>();
+for (const f of map.forms) for (const r of f.refs) {
+  const arr = bySurah.get(r.s) ?? [];
+  arr.push({ s: r.s, a: r.a, t: r.t, form: f.form });
+  bySurah.set(r.s, arr);
+}
+const surahs = [...bySurah.entries()]
+  .map(([s, refs]) => ({ s, name: surahName(s), slug: surahSlug(s), count: refs.length }))
+  .sort((a, b) => a.s - b.s);
+
+const FLOWERS = ["🌸", "🌻", "🌷", "🌼", "🌺"];
+
+const payload = {
+  lang,
+  refs: [...bySurah.entries()].flatMap(([s, refs]) =>
+    refs.map((r) => ({ s, a: r.a, t: r.t, form: r.form, name: surahName(s), slug: surahSlug(s) }))),
+  surahs: surahs.map((x) => ({ s: x.s, name: x.name })),
+  i18n: { correct: t.bee_correct, wrong: t.bee_wrong, score: t.bee_score },
+};
+---
+<div class="kids garden" data-garden>
+  <h1>{t.garden_title}</h1>
+  <p class="lede">{t.garden_lede}</p>
+  <p class="word-day"><b>{t.garden_word_label}:</b> <span lang="ar" dir="rtl" class="word">{map.word}</span> — {t.garden_meaning}</p>
+
+  <section aria-label={t.garden_tap_flower}>
+    <p class="hint">{t.garden_tap_flower}</p>
+    <div class="flowerbed">
+      {surahs.map((sh, i) => (
+        <button type="button" class="flower" data-flower data-surah={sh.s}
+          aria-label={`${sh.name} — ${sh.count} ${t.garden_ayah}`}>
+          <span class="flower-emoji" aria-hidden="true">{FLOWERS[i % FLOWERS.length]}</span>
+          <span class="flower-name">{sh.name}</span>
+          <span class="flower-count">{sh.count} {t.garden_ayah}</span>
+        </button>
+      ))}
+    </div>
+    <div id="bloomPanel" class="bloom-panel" data-bloom hidden aria-live="polite">
+      <button type="button" class="kids-x" data-bloom-close aria-label={t.close}>✕</button>
+      <h2 data-bloom-title></h2>
+      <ul data-bloom-list></ul>
+    </div>
+  </section>
+
+  <section class="bee-quiz" data-beequiz aria-label={t.bee_title}>
+    <h2>🐝 {t.bee_title}</h2>
+    <p>{t.bee_lede}</p>
+    <button type="button" class="kids-btn" data-bee-start>{t.bee_start}</button>
+    <div data-bee-panel hidden>
+      <p class="verse-card" data-bee-verse lang="ar" dir="rtl"></p>
+      <div class="bee-opts" data-bee-opts></div>
+      <p data-bee-msg role="status"></p>
+      <p data-bee-score></p>
+      <button type="button" class="kids-btn" data-bee-next hidden>{t.bee_next}</button>
+    </div>
+    <p><button type="button" class="kids-btn ghost" data-erase data-confirm={t.erase_confirm}>{t.erase}</button></p>
+  </section>
+
+  <section class="garden-all" aria-label={t.garden_verses}>
+    <h2>{t.garden_verses}</h2>
+    {surahs.map((sh) => (
+      <details>
+        <summary>{sh.name} — {sh.count} {t.garden_ayah}</summary>
+        <ul>
+          {(bySurah.get(sh.s) ?? []).map((r) => (
+            <li><b>{sh.name} {r.a}</b> — <span lang="ar" dir="rtl">{r.t}</span></li>
+          ))}
+        </ul>
+      </details>
+    ))}
+  </section>
+
+  <script type="application/json" data-payload set:html={JSON.stringify(payload)} />
+</div>
+<script src="../scripts/kidsgarden.ts"></script>

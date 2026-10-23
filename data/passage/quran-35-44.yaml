@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 35:44 (سورة فاطر، الآية 44)."
 text: "أَوَلَمْ يَسِيرُوا۟ فِى ٱلْأَرْضِ فَيَنظُرُوا۟ كَيْفَ كَانَ عَـٰقِبَةُ ٱلَّذِينَ مِن قَبْلِهِمْ وَكَانُوٓا۟ أَشَدَّ مِنْهُمْ قُوَّةً ۚ وَمَا كَانَ ٱللَّهُ لِيُعْجِزَهُۥ مِن شَىْءٍ فِى ٱلسَّمَـٰوَٰتِ وَلَا فِى ٱلْأَرْضِ ۚ إِنَّهُۥ كَانَ عَلِيمًا قَدِيرًا"
 text_search: "أولم يسيروا في الأرض فينظروا كيف كان عاقبة الذين من قبلهم وكانوا أشد منهم قوة ۚ وما كان الله ليعجزه من شيء في السماوات ولا في الأرض ۚ إنه كان عليما قديرا"
+translations:
+  en: { text: "Have they not travelled in the land and seen the nature of the consequence for those who were before them, and they were mightier than these in power? Allah is not such that aught in the heavens or in the earth escapeth Him. Lo! He is the Wise, the Mighty.", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "کیا انہوں نے زمین میں کبھی سیر نہیں کی تاکہ دیکھتے کہ جو لوگ ان سے پہلے تھے ان کا انجام کیا ہوا حالانکہ وہ ان سے قوت میں بہت زیادہ تھے۔ اور خدا ایسا نہیں کہ آسمانوں اور زمین میں کوئی چیز اس کو عاجز کرسکے۔ وہ علم والا (اور) قدرت والا ہے", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-35 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

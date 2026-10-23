@@ -1,0 +1,73 @@
+---
+id: place/mecca
+lang: ur
+source_lang: ar
+translators: ["Claude Haiku 5.5 (claude-haiku-5-5), draft translation"]
+---
+## تعارف
+حجاز کا ایک شہر، جہاں نبی محمد کی ولادت ہوئی، جہاں کعبہ ہے، اور جو ہر سال حج کی منزل ہے۔
+
+## محلِ وقوع
+اس کے تقریبی محدد 21.4225 شمال اور 39.8262 مشرق ہیں {cite:geonames-gazetteer}۔
+
+## عجائب گھر میں
+عجائب گھر کے مواد میں اس مقام کے بارے میں یہ چیزیں شامل ہیں: یہاں پیش آنے والے واقعات: 55، یہاں پیدا ہونے والے: 43، یہاں وفات پانے والے: 14، یہاں رہنے والے: 6، یہاں آنے والے: 2، یہاں کی عمارتیں: 3، یہاں آباد گروہ: 5۔
+
+### یہاں پیش آنے والے واقعات
+- [[event/al-dawa-al-sirriyya|تین سال کی خفیہ دعوت]] (610ء)
+- [[event/first-migration-to-abyssinia|حبشہ کی طرف پہلی ہجرت]] (615ء)
+- [[event/boycott-of-banu-hashim|شعبِ ابی طالب میں بنی ہاشم کا بائیکاٹ]] (616ء)
+- [[event/second-migration-to-abyssinia|حبشہ کی طرف دوسری ہجرت]] (616ء)
+- [[event/pledges-of-aqaba|بیعتِ عقبہ کی دو بیعتیں]] (621ء)
+- [[event/hijra|نبوی ہجرت]] (622ء)
+- [[event/treaty-of-hudaybiyya|صلحِ حدیبیہ]] (628ء)
+- [[event/khuzaa-bakr-clash-al-watir|وتیر پر بنو بکر اور خزاعہ کی لڑائی]] (629ء)
+- [[event/battle-of-hunayn|غزوۂ حنین]] (630ء)
+- [[event/conquest-of-mecca|فتحِ مکہ (فتحِ اعظم)]] (630ء)
+
+### یہاں پیدا ہونے والے
+- [[person/muhammad|محمد]]
+- [[person/ali-ibn-abi-talib|علی بن ابی طالب]]
+- [[person/abu-bakr|ابو بکر صدیق]]
+- [[person/umar-ibn-al-khattab|عمر بن خطاب]]
+- [[person/abu-sufyan-ibn-harb|ابو سفیان بن حرب]]
+- [[person/hamza|حمزہ بن عبدالمطلب]]
+- [[person/khalid-ibn-al-walid|خالد بن ولید]]
+- [[person/abu-talib|ابو طالب بن عبدالمطلب]]
+
+### یہاں وفات پانے والے
+- [[person/abu-talib|ابو طالب بن عبدالمطلب]]
+- [[person/khadija|خدیجہ بنت خویلد]]
+- [[person/abd-al-muttalib|عبدالمطلب بن ہاشم]]
+- [[person/abu-lahab|ابو لہب]]
+- [[person/sumayya-bint-khayyat|سمیہ بنت خیاط]]
+- [[person/al-walid-ibn-al-mughira|الولید بن المغیرہ]]
+- [[person/waraqa-ibn-nawfal|ورقہ بن نوفل]]
+- [[person/abdullah-ibn-khatal|عبداللہ بن خطل]]
+
+### یہاں رہنے والے
+- [[person/umm-ayman|ام ایمن برکہ بنت ثعلبہ]]
+- [[person/halima-al-sadiyya|حلیمہ سعدیہ]]
+- [[person/hajar|ہاجرہ]]
+- [[person/ismail|اسماعیل]]
+- [[person/dubaa-bint-amir|ضباعہ بنت عامر قشیریہ]]
+- [[person/umm-zufar|ام زفر]]
+
+### یہاں آنے والے
+- [[person/ibrahim|ابراہیم]]
+- [[person/ibn-rajab|ابن رجب حنبلی]]
+
+### یہاں کی عمارتیں
+- [[building/kaaba|کعبہ]]
+- [[building/dar-al-nadwa|دارالندوہ]]
+- [[building/masjid-al-haram|المسجد الحرام]]
+
+### یہاں آباد گروہ
+- [[group/quraysh|قریش]]
+- [[group/early-muslims|ابتدائی مسلم جماعت]]
+- [[group/muhajirun|مہاجرین]]
+- [[group/banu-hashim|بنو ہاشم]]
+- [[group/jurhum|جرہم]]
+
+## اس صفحے کا دائرہ
+یہ صفحہ اس مقام سے متعلق ان واقعات، شخصیات اور عمارتوں کو یکجا کرتا ہے جنہیں عجائب گھر جوڑتا ہے۔ یہ اس جگہ کا مکمل تاریخی بیان نہیں ہے؛ مقام کی تفصیل اور تاریخ اصل ماخذوں سے آئندہ کھیپوں میں شامل کی جائے گی۔

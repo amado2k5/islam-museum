@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 16:68 (سورة النحل، الآية 68)."
 text: "وَأَوْحَىٰ رَبُّكَ إِلَى ٱلنَّحْلِ أَنِ ٱتَّخِذِى مِنَ ٱلْجِبَالِ بُيُوتًا وَمِنَ ٱلشَّجَرِ وَمِمَّا يَعْرِشُونَ"
 text_search: "وأوحى ربك إلى النحل أن اتخذي من الجبال بيوتا ومن الشجر ومما يعرشون"
+translations:
+  en: { text: "And thy Lord inspired the bee, saying: Choose thou habitations in the hills and in the trees and in that which they thatch;", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "اور تمہارے پروردگار نے شہد کی مکھیوں کو ارشاد فرمایا کہ پہاڑوں میں اور درختوں میں اور اونچی اونچی چھتریوں میں جو لوگ بناتے ہیں گھر بنا", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-16 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

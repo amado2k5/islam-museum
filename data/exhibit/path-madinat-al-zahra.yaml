@@ -1,0 +1,67 @@
+id: exhibit/path-madinat-al-zahra
+class: exhibit
+kind: trail
+label:
+  ar: مدينة الزهراء
+  en: Madinat al-Zahra
+summary:
+  ar: 'مسار في أعظم مدينة بُنيت في الأندلس: الناصر يشيد عاصمته، والبرامكة يحرقونها بعد ثمانين سنة.'
+  en: A trail through the greatest Andalusi city.
+audience:
+- newcomer
+- student
+duration_minutes: 30
+wings: []
+regions:
+- andalus-europe
+rooms:
+- title:
+    ar: الناصر يبني
+    en: Al-Nasir builds
+  body:
+    ar: '936: الخليفة يؤسس عاصمة فخره شرقي قرطبة.'
+    en: '936: الخليفة يؤسس عاصمة فخره شرقي قرطبة.'
+  features:
+  - place/madinat-al-zahra
+  - place/cordoba
+- title:
+    ar: القصر
+    en: The palace
+  body:
+    ar: صالات العرض وحدائق الزهر.
+    en: صالات العرض وحدائق الزهر.
+  features:
+  - place/madinat-al-zahra
+  - place/al-andalus
+- title:
+    ar: الحرق
+    en: The burning
+  body:
+    ar: '1010: ثورة البرامكة تدمر المدينة الفتية.'
+    en: '1010: ثورة البرامكة تدمر المدينة الفتية.'
+  features:
+  - polity/umayyad-caliphate
+  - question/what-was-al-andalus
+- title:
+    ar: الاكتشاف
+    en: Rediscovery
+  body:
+    ar: 'مدفونة تسعة قرون: الأندلس تستخرج عاصمتها.'
+    en: 'مدفونة تسعة قرون: الأندلس تستخرج عاصمتها.'
+  features:
+  - place/cordoba
+  - building/jami-qurtuba
+prerequisites:
+- exhibit/path-islam-in-30-minutes
+sources:
+- source/wikidata
+provenance:
+  layer: own-research
+  source: Devin-assembled trail from existing museum entities
+  generated_by: Devin (SWE-2 High)
+  model: SWE-2 High
+  run: pathways-batch-6
+status:
+  review: draft
+  completeness: 1
+  generated_by: Devin (SWE-2 High), pathways lane, 2026-10-16

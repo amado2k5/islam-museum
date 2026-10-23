@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 35:9 (سورة فاطر، الآية 9)."
 text: "وَٱللَّهُ ٱلَّذِىٓ أَرْسَلَ ٱلرِّيَـٰحَ فَتُثِيرُ سَحَابًا فَسُقْنَـٰهُ إِلَىٰ بَلَدٍ مَّيِّتٍ فَأَحْيَيْنَا بِهِ ٱلْأَرْضَ بَعْدَ مَوْتِهَا ۚ كَذَٰلِكَ ٱلنُّشُورُ"
 text_search: "والله الذي أرسل الرياح فتثير سحابا فسقناه إلى بلد ميت فأحيينا به الأرض بعد موتها ۚ كذلك النشور"
+translations:
+  en: { text: "And Allah it is Who sendeth the winds and they raise a cloud; then We lead it unto a dead land and revive therewith the earth after its death. Such is the Resurrection.", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "اور خدا ہی تو ہے جو ہوائیں چلاتا ہے اور وہ بادل کو اُبھارتی ہیں پھر ہم ان کو ایک بےجان شہر کی طرف چلاتے ہیں۔ پھر اس سے زمین کو اس کے مرنے کے بعد زندہ کردیتے ہیں۔ اسی طرح مردوں کو جی اُٹھنا ہوگا", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-35 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

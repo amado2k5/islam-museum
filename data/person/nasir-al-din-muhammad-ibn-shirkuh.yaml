@@ -1,0 +1,30 @@
+id: person/nasir-al-din-muhammad-ibn-shirkuh
+class: person
+label: { ar: "ناصر الدين محمد بن شيركوه" }
+names:
+  - { value: "الملك ناصر الدين محمد بن الملك أسد الدين شيركوه", kind: full }
+summary:
+  ar: "صاحب حمص الملك ناصر الدين محمد بن الملك أسد الدين شيركوه ابن عم السلطان صلاح الدين؛ كان فارساً شجاعاً جسوراً متطلعاً إلى السلطنة، قيل إن قتله الخمر وقيل بل سقى السم، مات يوم عرفة سنة إحدى وثمانين وخمسمائة {cite:shadharat-dhahab p. 753}."
+  en: "Al-Malik Nasir al-Din Muhammad b. Asad al-Din Shirkuh, lord of Homs and Salah al-Din's cousin; a brave, daring knight with his eye on sultanate. Some say drink killed him, others that poison was fed him; he died on the day of Arafa, 581 {cite:shadharat-dhahab p. 753}."
+gender: male
+wings: [people]
+roles: [noble]
+periods: [period/crusades-ayyubid-mamluk]
+regions: [levant-iraq]
+died:
+  edtf: "1185-08~"
+  hijri: "0581-12-09"
+  calendar: julian
+  precision: day
+  status: tradition
+  derived: true
+  note: "مات يوم عرفة سنة إحدى وثمانين {cite:shadharat-dhahab p. 753}؛ التحويل مشتق."
+relations:
+  - { type: child_of, target: person/asad-al-din-shirkuh, sources: [source/shadharat-dhahab] }
+provenance:
+  layer: own-research
+  source: "شذرات الذهب لابن العماد — الجزء الرابع، ممسوح مكتبة الحصاد (AAlexandrina-223861)، قراءة آبل فيجن"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-shadharat-batch-120
+sources: [source/shadharat-dhahab]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

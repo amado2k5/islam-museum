@@ -1,0 +1,18 @@
+id: person/abd-al-hamid-kabd
+class: person
+label: { ar: "أبو زيد عبد الحميد بن الوليد الكبد", en: "Abu Zayd Abd al-Hamid ibn al-Walid al-Kabd" }
+names:
+  - { kind: full, lang: ar, value: "أبو زيد عبد الحميد بن الوليد بن المغيرة المصري" }
+gender: male
+roles: [jurist]
+traditions: [sunni]
+died: { hijri: "0211", edtf: "0827~", calendar: julian, precision: year, status: debated, derived: true, note: "حاشية المحقق عن ابن حجر (تبصير المنتبه) وابن يونس: توفي سنة 211 (PDF ص54). الشيرازي لم يذكر السنة. يحتاج مصدراً ثانياً.", sources: [source/tabaqat-fuqaha-abbas-1981] }
+summary:
+  ar: "أبو زيد عبد الحميد بن الوليد بن المغيرة المصري، المعروف بكبد، من أصحاب الشافعي المصريين، قديم الوفاة، ذكره الدارقطني فيمن روى عن الشافعي {cite:tabaqat-fuqaha-abbas-1981 p. 54}. قال ابن يونس: سُمي كبداً لأنه كان ثقيلاً (حاشية المحقق، PDF ص54)."
+  en: "Abu Zayd Abd al-Hamid ibn al-Walid ibn al-Mughira al-Misri, known as Kabd, one of al-Shafi'i's Egyptian companions, who died in an earlier period; al-Daraqutni mentioned him among those who transmitted from al-Shafi'i {cite:tabaqat-fuqaha-abbas-1981 p. 54}. Ibn Yunus said he was called Kabd because he was heavy (editor's note, PDF p. 54)."
+wings: [people]
+relations:
+  - { type: student_of, target: person/al-shafii, role: "من أصحابه المصريين، روى عن الشافعي (PDF ص54)", sources: [source/tabaqat-fuqaha-abbas-1981] }
+sources: [source/tabaqat-fuqaha-abbas-1981]
+provenance: { layer: own-research, source: "طبقات الفقهاء (تحقيق إحسان عباس) PDF ص54–58", generated_by: "Claude (Haiku 5.5)", model: "claude-haiku-5-5", run: "lib-tabaqat-fuqaha-batch-6" }
+status: { review: draft, completeness: 1, generated_by: "en label draft (Claude Haiku 5.5, batch 1); Claude (Haiku 5.5); batch 6 (PDF ص54–58)" }

@@ -1,0 +1,25 @@
+id: person/amr-ibn-hind-al-lakhmi
+class: person
+label: { ar: "عمرو بن هند" }
+names:
+  - { value: "عمرو بن المنذر بن ماء السماء اللخمي، مضرط الحجارة", kind: full }
+  - { value: "مضرط الحجارة", kind: kunya }
+gender: male
+summary:
+  ar: "عمرو بن هند بن المنذر بن ماء السماء اللخمي، صاحب الحيرة، لُقب مضرط الحجارة لشدة ملكه وقوة سياسته، وأمه هند بنت الحارث بن عمرو المقصور عمة امرئ القيس الشاعر؛ ولّاه المنذر على بكر وتغلب في غزوة بني آكل المرار وقال اغز أخوالك، وكان حريصاً على مذلة أشراف العرب حتى مكر بأم عمرو بن كلثوم ليلى بنت مهلهل فثار ابن كلثوم إلى سيفه المعلق في السرادق فضرب رأسه فقتله {cite:kamil-ibn-al-athir p. 403, 409}."
+  en: "Amr ibn Hind al-Lakhmi, king of al-Hira, surnamed Mudarrat al-Hijara for the fierceness of his rule — his mother Hind a daughter of the Kinda house; he sent his Taghlibi uncles' own war-band against them, and died by his own sword when Amr ibn Kulthum heard his mother Layla's cry of insult in the royal tent {cite:kamil-ibn-al-athir p. 403, 409}."
+roles: [emir]
+wings: [people]
+periods: [period/pre-islamic-arabia]
+regions: [levant-iraq]
+relations:
+  - { type: lived_in, target: place/al-hira, sources: [source/kamil-ibn-al-athir] }
+  - { type: member_of, target: group/banu-lakhm, sources: [source/kamil-ibn-al-athir] }
+sources: [source/kamil-ibn-al-athir]
+provenance:
+  layer: own-research
+  source: "الكامل في التاريخ لابن الأثير — ص403، 409"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  model: swe-2-high
+  run: lib-kamil-22
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

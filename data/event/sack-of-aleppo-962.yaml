@@ -1,0 +1,23 @@
+id: event/sack-of-aleppo-962
+class: event
+kind: raid
+label: { ar: "نهب حلب (٩٦٢)", en: "Sack of Aleppo" }
+summary:
+  ar: "بطاقة أولية لنهب حلب سنة ٩٦٢م، اقتحام نقفور فوقاس المدينة الحمدانية وسبي أهلها؛ لم تُراجع مصادره على الصفحة بعد."
+  en: "Draft card for the Sack of Aleppo in 962, Nikephoros Phokas's storming of the Hamdanid city and its people's captivity; its sources are not yet checked on the page."
+wings: [time]
+periods: [period/buyid-seljuk-fatimid-era]
+regions: [levant-iraq]
+date:
+  start: { edtf: "0962-12-22", precision: year, status: tradition, derived: true }
+  end: { edtf: "0962-12-22", precision: year, status: tradition, derived: true }
+sources: [source/kamil-ibn-al-athir]
+external_ids:
+  wikidata: Q28717575
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; battle attested in narrative histories — entry not yet checked on the page"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-wave2
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

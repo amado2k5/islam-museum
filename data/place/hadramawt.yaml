@@ -1,0 +1,18 @@
+id: place/hadramawt
+class: place
+kind: region
+label: { ar: "حضرموت", en: "Hadramawt" }
+summary:
+  ar: "إقليم جنوب جزيرة العرب؛ ولّى النبي عليه زياد بن لبيد البياضي الأنصاري عند البلاذري بإجماع رواته، وكان مما اقتطع النبي فيه أرضاً لعلقمة بن وائل الحضرمي."
+  en: "A region of southern Arabia; the Prophet appointed over it Ziyad ibn Labid al-Bayadi al-Ansari — on which al-Baladhuri's transmitters agree — and it held lands the Prophet granted in iqta' to Alqama ibn Wa'il al-Hadrami."
+wings: [place]
+regions: [arabia]
+relations:
+  - { type: part_of, target: place/yemen, sources: [source/futuh-buldan-maarif-1407] }
+provenance:
+  layer: own-research
+  source: "فتوح البلدان (ط مؤسسة المعارف 1407هـ/1987م) ص 93 و99"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-futuh-buldan-batch-4
+sources: [source/futuh-buldan-maarif-1407]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

@@ -1,0 +1,28 @@
+id: person/muhammad-mutawalli-al-shaarawi
+class: person
+label:
+  ar: "محمد متولي الشعراوي"
+  en: "Muhammad Mutawalli al-Sha'rawi"
+roles: [scholar]
+gender: male
+summary:
+  ar: "بطاقة أولية لمحمد متولي الشعراوي، العالم المصري المشهور بتفسيره المتلفز للقرآن؛ لم تُراجع ترجمته على الصفحة بعد. ألّف رسالة «قضية السنة» ضمن السلسلة العلمية لمجمع البحوث الإسلامية، وتذكر صفحة الغلاف الداخلية وفاته سنة ١٤١٩ه / ١٩٩٨م {cite:qadiyat-al-sunna-azhar p. 2}، وفيها يقرر لزوم اتباع السنة {cite:qadiyat-al-sunna-azhar p. 12}."
+  en: "Draft card for Muhammad Mutawalli al-Sha'rawi, the Egyptian scholar famed for his televised Qur'an commentary; his entry is not yet checked on the page."
+wings: [people]
+regions: [egypt-nile]
+periods: [period/modern-era]
+died: { edtf: "1998", precision: year, status: tradition, derived: true }
+sources: [source/al-aalam, source/al-isra-wal-miraj-azhar, source/qadiyat-al-sunna-azhar, source/tafsir-sharawi-khawatir-scan-vol-2]
+relations:
+  - { type: authored, target: work/al-isra-wal-miraj-shaarawi, sources: [source/al-isra-wal-miraj-dar-al-jeel-2003] }
+external_ids:
+  wikidata: Q4164538
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; entry not yet read on the page in a book source"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-wave2
+status:
+  review: draft
+  completeness: 1

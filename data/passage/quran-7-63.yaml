@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 7:63 (سورة الأعراف، الآية 63)."
 text: "أَوَعَجِبْتُمْ أَن جَآءَكُمْ ذِكْرٌ مِّن رَّبِّكُمْ عَلَىٰ رَجُلٍ مِّنكُمْ لِيُنذِرَكُمْ وَلِتَتَّقُوا۟ وَلَعَلَّكُمْ تُرْحَمُونَ"
 text_search: "أوعجبتم أن جاءكم ذكر من ربكم على رجل منكم لينذركم ولتتقوا ولعلكم ترحمون"
+translations:
+  en: { text: "Marvel ye that there should come unto you a Reminder from your Lord by means of a man among you, that he may warn you, and that ye may keep from evil, and that haply ye may find mercy.", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "کیا تم کو اس بات سے تعجب ہوا ہے کہ تم میں سے ایک شخص کے ہاتھ تمہارے پروردگار کی طرف سے تمہارے پاس نصیحت آئی تاکہ وہ تم کو ڈرائے اور تاکہ تم پرہیزگار بنو اور تاکہ تم پر رحم کیا جائے", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-7 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

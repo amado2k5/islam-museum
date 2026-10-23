@@ -1,0 +1,15 @@
+id: passage/muslim-2785
+class: passage
+unit: hadith
+work: work/sahih-muslim
+ref: "2785"
+label: { ar: "مسلم 2785 — لا يزن عند الله جناح بعوضة", en: "Muslim 2785 — Weighing less than a gnat's wing" }
+text: "قال أبو هريرة عن رسول الله: إنه ليأتي الرجل العظيم السمين يوم القيامة لا يزن عند الله جناح بعوضة، اقرءوا: «فلا نقيم لهم يوم القيامة وزناً»"
+summary:
+  ar: "رواية أبي هريرة في كتاب صفة القيامة والجنة والنار في صحيح مسلم؛ ثقل الإنسان الحقيقي عند الله لا في جسمه، مقروناً بقوله تعالى «فلا نقيم لهم يوم القيامة وزناً» (الكهف 105)."
+relations:
+  - { type: mentions, target: person/muhammad, sources: [source/sahih-muslim] }
+  - { type: mentions, target: person/abu-hurayra, sources: [source/sahih-muslim] }
+provenance: { layer: own-research, source: "صحيح مسلم، كتاب صفة القيامة والجنة والنار (طبعة دار التأصيل، الحديث 2888؛ ترقيم عبد الباقي المعروف 2785)، تصوير Apple Vision OCR", generated_by: "Devin (SWE-2 High) from Apple Vision OCR", run: "hadith-muslim-passages-4" }
+sources: [source/sahih-muslim]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High); matn excerpt at most 40 words checked against the scan" }

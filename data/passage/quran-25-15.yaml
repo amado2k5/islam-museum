@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 25:15 (سورة الفرقان، الآية 15)."
 text: "قُلْ أَذَٰلِكَ خَيْرٌ أَمْ جَنَّةُ ٱلْخُلْدِ ٱلَّتِى وُعِدَ ٱلْمُتَّقُونَ ۚ كَانَتْ لَهُمْ جَزَآءً وَمَصِيرًا"
 text_search: "قل أذلك خير أم جنة الخلد التي وعد المتقون ۚ كانت لهم جزاء ومصيرا"
+translations:
+  en: { text: "Say: Is that (doom) better or the Garden of Immortality which is promised unto those who ward off (evil)? It will be their reward and journey's end.", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "پوچھو کہ یہ بہتر ہے یا بہشت جاودانی جس کا پرہیزگاروں سے وعدہ ہے۔ یہ ان (کے عملوں) کا بدلہ اور رہنے کا ٹھکانہ ہوگا", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-25 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

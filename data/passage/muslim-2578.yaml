@@ -1,0 +1,16 @@
+id: passage/muslim-2578
+class: passage
+unit: hadith
+work: work/sahih-muslim
+ref: "2578"
+label: { ar: "مسلم 2578 — اتقوا الظلم فإن الظلم ظلمات يوم القيامة", en: "Muslim 2578 — Beware injustice, for injustice is darkness on the Last Day" }
+text: "قال رسول الله: «اتقوا الظلم؛ فإن الظلم ظلمات يوم القيامة، واتقوا الشح؛ فإن الشح أهلك من كان قبلكم، حملهم على أن سفكوا دماءهم واستحلوا محارمهم»"
+summary:
+  ar: "رواية جابر بن عبد الله في كتاب البر من صحيح مسلم؛ يقترن فيها النهي عن الظلم بالنهي عن الشح الذي أهلك الأمم قبلها."
+relations:
+  - { type: mentions, target: person/muhammad, sources: [source/sahih-muslim] }
+  - { type: mentions, target: person/jabir-ibn-abdullah, sources: [source/sahih-muslim] }
+  - { type: mentions, target: concept/zulm, sources: [source/sahih-muslim] }
+provenance: { layer: own-research, source: "صحيح مسلم، كتاب البر والصلة والآداب (طبعة دار التأصيل، الحديث ٢٦٦١؛ ترقيم عبد الباقي المعروف 2578)، تصوير Apple Vision OCR", generated_by: "Devin (SWE-2 High) from Apple Vision OCR", run: "hadith-muslim-passages-3" }
+sources: [source/sahih-muslim]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High); matn excerpt at most 40 words checked against the scan" }

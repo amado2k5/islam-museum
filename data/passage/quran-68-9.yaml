@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 68:9 (سورة القلم، الآية 9)."
 text: "وَدُّوا۟ لَوْ تُدْهِنُ فَيُدْهِنُونَ"
 text_search: "ودوا لو تدهن فيدهنون"
+translations:
+  en: { text: "Who would have had thee compromise, that they may compromise.", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "یہ لوگ چاہتے ہیں کہ تم نرمی اختیار کرو تو یہ بھی نرم ہوجائیں", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-68 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

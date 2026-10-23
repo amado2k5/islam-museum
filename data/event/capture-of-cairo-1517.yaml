@@ -1,0 +1,25 @@
+id: event/capture-of-cairo-1517
+class: event
+kind: conquest
+label: { ar: "أخذ القاهرة (١٥١٧)", en: "Capture of Cairo" }
+summary:
+  ar: "بعد [[event/battle-ridaniyya-923|الريدانية]] دخل [[person/selim-i-ottoman|سليم الأول]] مصر؛ وينقل الصلابي عن المؤرخ سلاحثور صاحب مخطوطة «فتح نامه ديار العرب» — وكان مصاحباً لسليم — أن سليم كان يبكي في مسجد الصخرة بالقدس بكاءً حاراً وصلى صلاة الحاجة داعياً أن يفتح عليه مصر {cite:dawlat-uthmaniyya-salabi p. 188}. ويذكر أن سليم ولّى [[person/khayr-bak|خاير بك]] على مصر و[[person/janbardi-al-ghazali|جانبردي الغزالي]] على دمشق {cite:dawlat-uthmaniyya-salabi p. 188}، وعند ابن العماد صُلب طومان باي بباب زويلة فانقضت دولة الجراكسة {cite:shadharat-dhahab p. 531}."
+  en: "After [[event/battle-ridaniyya-923|Ridaniyya]] Selim I entered Egypt; al-Salabi quotes the chronicler Salahsur — companion of Selim and author of the manuscript *Fath-nameh Diyar al-Arab* — that Selim wept long in the Dome of the Rock and prayed for Egypt's opening {cite:dawlat-uthmaniyya-salabi p. 188}. He appointed [[person/khayr-bak|Khayr Bak]] over Egypt and [[person/janbardi-al-ghazali|Janbirdi al-Ghazali]] over Damascus {cite:dawlat-uthmaniyya-salabi p. 188}; at Shadharat, Tuman Bay was hanged at Bab Zuwayla and the Circassian state ended {cite:shadharat-dhahab p. 531}."
+wings: [time]
+regions: [egypt-nile]
+periods: [period/gunpowder-empires]
+date:
+  start: { edtf: "1517", precision: year, status: tradition, derived: true, note: "دخول سليم مصر 923هـ/1517م {cite:shadharat-dhahab p. 531}", sources: [source/shadharat-dhahab] }
+relations:
+  - { type: had_participant, target: person/selim-i-ottoman, role: "الفاتح", sources: [source/dawlat-uthmaniyya-salabi] }
+  - { type: occurred_at, target: place/cairo, sources: [source/dawlat-uthmaniyya-salabi] }
+sources: [source/dawlat-uthmaniyya-salabi, source/shadharat-dhahab]
+provenance:
+  layer: own-research
+  source: "الدولة العثمانية لعلي محمد الصلابي (ط1 1421)"
+  generated_by: "Devin (SWE-2 Medium) from Apple Vision OCR"
+  model: "SWE-2 Medium"
+  run: lib-salabi-uthmani-batch-7
+status:
+  review: draft
+  completeness: 2

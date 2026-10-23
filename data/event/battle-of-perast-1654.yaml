@@ -1,0 +1,23 @@
+id: event/battle-of-perast-1654
+class: event
+kind: battle
+label: { ar: "معركة بيراست (١٦٥٤)", en: "Battle of Perast (1654)" }
+summary:
+  ar: "بطاقة أولية لمعركة بيراست سنة ١٦٥٤م، صمود المدينة أمام العثمانيين في حرب كاندية؛ لم تُراجع مصادره على الصفحة بعد."
+  en: "Draft card for the Battle of Perast in 1654, the town's stand against the Ottomans in the Cretan War; its sources are not yet checked on the page."
+wings: [time]
+periods: [period/gunpowder-empires]
+regions: [anatolia-balkans]
+date:
+  start: { edtf: "1654", precision: year, status: tradition, derived: true }
+  end: { edtf: "1654", precision: year, status: tradition, derived: true }
+sources: [source/dawlat-uthmaniyya-salabi]
+external_ids:
+  wikidata: Q20526599
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; battle attested in narrative histories — entry not yet checked on the page"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-wave2
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

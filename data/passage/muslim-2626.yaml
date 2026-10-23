@@ -1,0 +1,16 @@
+id: passage/muslim-2626
+class: passage
+unit: hadith
+work: work/sahih-muslim
+ref: "2626"
+label: { ar: "مسلم 2626 — لا تحقرن من المعروف شيئاً", en: "Muslim 2626 — Do not belittle any kindness" }
+text: "قال أبو ذر: قال لي النبي: «لا تحقرن من المعروف شيئاً، ولو أن تلقى أخاك بوجه طليق»"
+summary:
+  ar: "رواية أبي ذر في باب استحباب طلاقة الوجه عند اللقاء من كتاب البر في صحيح مسلم؛ أصغر المعروف — البشر في الوجه — لا يُحقر."
+relations:
+  - { type: mentions, target: person/muhammad, sources: [source/sahih-muslim] }
+  - { type: mentions, target: person/abu-dharr-al-ghifari, sources: [source/sahih-muslim] }
+  - { type: mentions, target: concept/birr, sources: [source/sahih-muslim] }
+provenance: { layer: own-research, source: "صحيح مسلم، كتاب البر والصلة، باب استحباب طلاقة الوجه عند اللقاء (طبعة دار التأصيل، الحديث 6857؛ ترقيم عبد الباقي المعروف 2626)، تصوير Apple Vision OCR", generated_by: "Devin (SWE-2 High) from Apple Vision OCR", run: "hadith-muslim-passages-2" }
+sources: [source/sahih-muslim]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High); matn excerpt at most 40 words checked against the scan" }

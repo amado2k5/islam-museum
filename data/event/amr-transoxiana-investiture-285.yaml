@@ -1,0 +1,24 @@
+id: event/amr-transoxiana-investiture-285
+class: event
+kind: other
+label: { ar: "تولية عمرو بن الليث ما وراء نهر بلخ", en: "The appointment of Amr ibn al-Layth over the lands beyond the Balkh river" }
+summary:
+  ar: "لسبع بقين من المحرم سنة خمس وثمانين ومائتين قُرئ على جماعة من حاج خراسان في دار المعتضد كتاب بتولية عمرو بن الليث الصفار ما وراء نهر بلخ من بلاد ما وراء النهر وعزل أحمد بن إسماعيل {cite:muntazam-ibn-al-jawzi p. 294}."
+  en: "On 23 Muharram 285 a patent was read before Khurasani pilgrims in al-Mu'tadid's palace appointing the Saffarid Amr ibn al-Layth over Transoxiana beyond the Balkh river, deposing Ahmad ibn Isma'il the Samanid {cite:muntazam-ibn-al-jawzi p. 294}."
+wings: [time]
+periods: [period/abbasid-early]
+regions: [persia-central-asia]
+date:
+  start: { edtf: "0898-01~", hijri: "0285-01", calendar: julian, precision: month, status: tradition, derived: true, note: "محرم ٢٨٥؛ التحويل مشتق {cite:muntazam-ibn-al-jawzi p. 294}." }
+relations:
+  - { type: had_participant, target: person/al-mutadid, role: "الخليفة", sources: [source/muntazam-ibn-al-jawzi] }
+  - { type: had_participant, target: person/amr-ibn-al-layth, role: "المولَّى", sources: [source/muntazam-ibn-al-jawzi] }
+  - { type: had_participant, target: person/ismail-i-samani, role: "المعزول ولده", sources: [source/muntazam-ibn-al-jawzi] }
+  - { type: occurred_at, target: place/baghdad, sources: [source/muntazam-ibn-al-jawzi] }
+provenance:
+  layer: own-research
+  source: "المنتظم لابن الجوزي (ط حيدرآباد 1357، ج5 ق2، سنة 285)، قراءة آبل فيجن"
+  generated_by: "Devin (SWE-2 Medium) from Apple Vision OCR"
+  run: lib-muntazam-258-349-batch27
+sources: [source/muntazam-ibn-al-jawzi]
+status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 Medium)" }

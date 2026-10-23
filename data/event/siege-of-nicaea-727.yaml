@@ -1,0 +1,23 @@
+id: event/siege-of-nicaea-727
+class: event
+kind: siege
+label: { ar: "حصار نيقية (٧٢٧)", en: "Siege of Nicaea" }
+summary:
+  ar: "بطاقة أولية لحصار نيقية سنة ٧٢٧م، غزوة الأمويين الفاشلة على المدينة البيزنطية العتيدة؛ لم تُراجع مصادره على الصفحة بعد."
+  en: "Draft card for the Siege of Nicaea in 727, the failed Umayyad assault on the strong Byzantine city; its sources are not yet checked on the page."
+wings: [time]
+periods: [period/umayyad]
+regions: [anatolia-balkans]
+date:
+  start: { edtf: "727", precision: year, status: tradition, derived: true }
+  end: { edtf: "727", precision: year, status: tradition, derived: true }
+sources: [source/futuh-buldan-maarif-1407]
+external_ids:
+  wikidata: Q398174
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; siege attested in conquest histories — entry not yet checked on the page"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-wave2
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

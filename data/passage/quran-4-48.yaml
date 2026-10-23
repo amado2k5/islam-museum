@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 4:48 (سورة النساء، الآية 48)."
 text: "إِنَّ ٱللَّهَ لَا يَغْفِرُ أَن يُشْرَكَ بِهِۦ وَيَغْفِرُ مَا دُونَ ذَٰلِكَ لِمَن يَشَآءُ ۚ وَمَن يُشْرِكْ بِٱللَّهِ فَقَدِ ٱفْتَرَىٰٓ إِثْمًا عَظِيمًا"
 text_search: "إن الله لا يغفر أن يشرك به ويغفر ما دون ذلك لمن يشاء ۚ ومن يشرك بالله فقد افترى إثما عظيما"
+translations:
+  en: { text: "Lo! Allah forgiveth not that a partner should be ascribed unto Him. He forgiveth (all) save that to whom He will. Whoso ascribeth partners to Allah, he hath indeed invented a tremendous sin.", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "خدا اس گناہ کو نہیں بخشے گا کہ کسی کو اس کا شریک بنایا جائے اور اس کے سوا اور گناہ جس کو چاہے معاف کردے اور جس نے خدا کا شریک مقرر کیا اس نے بڑا بہتان باندھا", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-4 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

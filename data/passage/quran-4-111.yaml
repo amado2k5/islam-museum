@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 4:111 (سورة النساء، الآية 111)."
 text: "وَمَن يَكْسِبْ إِثْمًا فَإِنَّمَا يَكْسِبُهُۥ عَلَىٰ نَفْسِهِۦ ۚ وَكَانَ ٱللَّهُ عَلِيمًا حَكِيمًا"
 text_search: "ومن يكسب إثما فإنما يكسبه على نفسه ۚ وكان الله عليما حكيما"
+translations:
+  en: { text: "Whoso committeth sin committeth it only against himself. Allah is ever Knower, Wise.", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "اور جو کوئی گناہ کرتا ہے تو اس کا وبال اسی پر ہے اور خدا جاننے والا (اور) حکمت والا ہے", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-4 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

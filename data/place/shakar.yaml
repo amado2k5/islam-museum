@@ -1,0 +1,15 @@
+id: place/shakar
+class: place
+kind: mountain
+label: { ar: "شَكَر", en: "Shakar" }
+summary:
+  ar: "جبل لأهل جرش باليمن عطف عنده صرد بن عبد الله الأزدي على أهل جرش حين طلبوه فقتلهم؛ كان أهل جرش يسمونه كَشْر فقال النبي لوافديهم: ليس بكشر ولكنه شكر، وأخبرهم في ساعة الوقعة أن «بُدن الله لتُنحر عنده الآن»."
+  en: "A mountain of the people of Jurash in Yemen where Surad ibn Abdullah al-Azdi turned on his pursuers and slaughtered them; the people of Jurash called it Kashr, and the Prophet told their two envoys it was Shakar, not Kashr, announcing at the hour of the battle that God's sacrificial camels were being slaughtered there."
+wings: [place]
+periods: [period/prophetic-era]
+regions: [arabia]
+relations:
+  - { type: located_in, target: place/yemen, sources: [source/ibn-hisham-saqqa] }
+provenance: { layer: own-research, source: "sira-ibn-hisham saqqa 1936, juz' 4 p. 234", generated_by: "Claude Code", model: "claude-fable-5-1", run: "ibn-hisham-batch-9b" }
+sources: [source/ibn-hisham-saqqa]
+status: { review: draft, completeness: 1, generated_by: "Claude Fable 5.1; mined from Ibn Hisham juz' 4 p. 234; no coordinates" }

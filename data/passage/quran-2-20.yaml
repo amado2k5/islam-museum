@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 2:20 (سورة البقرة، الآية 20)."
 text: "يَكَادُ ٱلْبَرْقُ يَخْطَفُ أَبْصَـٰرَهُمْ ۖ كُلَّمَآ أَضَآءَ لَهُم مَّشَوْا۟ فِيهِ وَإِذَآ أَظْلَمَ عَلَيْهِمْ قَامُوا۟ ۚ وَلَوْ شَآءَ ٱللَّهُ لَذَهَبَ بِسَمْعِهِمْ وَأَبْصَـٰرِهِمْ ۚ إِنَّ ٱللَّهَ عَلَىٰ كُلِّ شَىْءٍ قَدِيرٌ"
 text_search: "يكاد البرق يخطف أبصارهم ۖ كلما أضاء لهم مشوا فيه وإذا أظلم عليهم قاموا ۚ ولو شاء الله لذهب بسمعهم وأبصارهم ۚ إن الله على كل شيء قدير"
+translations:
+  en: { text: "The lightning almost snatcheth away their sight from them. As often as it flasheth forth for them they walk therein, and when it darkeneth against them they stand still. If Allah willed, He could destroy their hearing and their sight. Lo! Allah is able to do all things.", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "قریب ہے کہ بجلی (کی چمک) ان کی آنکھوں (کی بصارت) کو اچک لے جائے۔ جب بجلی (چمکتی اور) ان پر روشنی ڈالی ہے تو اس میں چل پڑتے ہیں اور جب اندھیرا ہو جاتا ہے تو کھڑے کے کھڑے رہ جاتے ہیں اور اگر الله چاہتا تو ان کے کانوں (کی شنوائی) اور آنکھوں (کی بینائی دونوں) کو زائل کر دیتا ہے۔ بے شک الله ہر چیز پر قادر ہے", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-2 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

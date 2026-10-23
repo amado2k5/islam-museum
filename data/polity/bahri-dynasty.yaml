@@ -1,0 +1,32 @@
+id: polity/bahri-dynasty
+class: polity
+kind: dynasty
+label:
+  ar: "المماليك البحرية"
+  en: "Bahri dynasty"
+summary:
+  ar: "بطاقة أولية للمماليك البحرية، أولى سلالات دولة المماليك بمصر وملوكها من الأتراك من ١٢٥٠ إلى ١٣٨٢م؛ لم تُراجع مصادرها على الصفحة بعد."
+  en: "Draft card for the Bahri Mamluks, the first dynasty of the Mamluk sultanate in Egypt, its Turkic kings ruling from 1250 to 1382; its sources are not yet checked on the page."
+wings: [time]
+periods: [period/crusades-ayyubid-mamluk]
+regions: [egypt-nile]
+start:
+  edtf: "1250"
+  precision: year
+  status: tradition
+  derived: true
+end:
+  edtf: "1382"
+  precision: year
+  status: tradition
+  derived: true
+sources: [source/tarikh-ibn-khaldun-ibar]
+external_ids:
+  wikidata: Q248786
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; dynasty attested in Mamluk histories — entry not yet checked on the page"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-wave2
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

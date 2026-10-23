@@ -1,0 +1,19 @@
+id: event/sariyya-of-ali-to-al-fals
+class: event
+kind: raid
+label: { ar: "سرية علي إلى الفُلس لهدم صنم طيء", en: "Ali's expedition to Fals to destroy the idol of Tayy" }
+summary:
+  ar: "بعد أن طهّر النبي البيت الحرام من الأوثان أرسل سرايا لتطهير الجزيرة من بقايا البيوت الجاهلية، فكانت سرية علي إلى الفُلس صنم طيء في ربيع الآخر؛ فشنّ الغارة على محلة آل حاتم فهدموه وغنموا السبي والنعم والشاء، وفر عدي بن حاتم إلى الشام."
+wings: [time, people]
+themes: [worship-and-the-pillars, wars-and-campaigns]
+periods: [period/prophetic-era]
+regions: [arabia]
+date:
+  start: { edtf: "0630/0631", hijri: "0008", calendar: julian, precision: year, status: debated, derived: true, note: "الكتاب لا يذكر السنة الهجرية؛ يذكر أن الواقعة بعد تطهير البيت من الأوثان (فتح مكة) وفي ربيع الآخر (ص110). التاريخ مشتق وغير منصوص، ولم يُضبط بمصدر ثانٍ بعد." }
+relations:
+  - { type: had_participant, target: person/ali-ibn-abi-talib, role: "قائد السرية", sources: [source/sallabi-ali-vol1] }
+  - { type: had_participant, target: person/muhammad, role: "بعث السرايا لتطهير الجزيرة من الأوثان", sources: [source/sallabi-ali-vol1] }
+  - { type: part_of, target: period/prophetic-era }
+sources: [source/sallabi-ali-vol1]
+status: { review: draft, completeness: 1, generated_by: "Claude Code (claude-haiku-5-5); mined from sallabi-ali-vol1 p.110" }
+provenance: { layer: own-research, source: "sallabi-ali-vol1 p.110", generated_by: "Claude Code", model: "claude-haiku-5-5", run: "sallabi-ali-vol1-deep-93-110" }

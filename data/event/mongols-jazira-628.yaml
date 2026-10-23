@@ -1,0 +1,22 @@
+id: event/mongols-jazira-628
+class: event
+kind: raid
+label: { ar: "دخول التتر ديار بكر والجزيرة وفسادهم في البلاد", en: "The Mongols enter Diyar Bakr and the Jazira" }
+date:
+  start: { edtf: "1231~", hijri: "0628", calendar: julian, precision: year, status: tradition, derived: true }
+summary:
+  ar: "دخلت التتر ديار بكر والجزيرة ففعلوا في البلاد من الفساد ما فعلوا، يقتلون وينهبون ويخربون السواد ويجبون الأموال {cite:kamil-ibn-al-athir p. 492}."
+  en: "The Mongols entered Diyar Bakr and the Jazira — killing, plundering, ruining the countryside, levying money {cite:kamil-ibn-al-athir p. 492}."
+sides:
+  - label: { ar: "المسلمون وخصومهم" }
+  - label: { ar: "الطرف الآخر" }
+relations:
+  - { type: occurred_at, target: place/jazira, sources: [source/kamil-ibn-al-athir] }
+  - { type: had_participant, target: group/mongols, role: "الغازون", sources: [source/kamil-ibn-al-athir] }
+provenance:
+  layer: own-research
+  source: "الكامل في التاريخ لابن الأثير، قراءة آبل فيجن"
+  generated_by: "Devin (SWE-2 Medium) from Apple Vision OCR"
+  run: lib-kamil-v12-batch08
+sources: [source/kamil-ibn-al-athir]
+status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 Medium)" }

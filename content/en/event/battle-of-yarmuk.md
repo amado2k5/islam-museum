@@ -1,0 +1,19 @@
+---
+id: event/battle-of-yarmuk
+lang: en
+source_lang: ar
+translators: ["Claude Haiku 5.5 (claude-haiku-5-5), draft translation"]
+---
+## Overview
+A major battle between the Muslims and the Byzantines on the river [[place/yarmuk|Yarmuk]], part of the [[event/conquest-of-syria|conquest of Syria]]. The commander of the Muslims was [[person/abu-ubayda-ibn-al-jarrah|Abu Ubayda ibn al-Jarrah]]. {cite:futuh-buldan-maarif-1407}
+
+## Disagreement over its date
+al-Waqidi says it was in 15 AH, and al-Tabari gives the report of Sayf that it was in 13 AH. {cite:tabari-tarikh-abu-al-fadl j.3 p.441} al-Baladhuri says that it was in Rajab 15 AH. {cite:futuh-buldan-maarif-1407}
+
+## al-Baladhuri's account
+[[person/heraclius|Heraclius]] gathered hosts of Byzantines, the people of Syria, al-Jazira and Armenia, numbering about two hundred thousand, and he put at their head [[person/jabala-ibn-al-ayham|Jabala ibn al-Ayham]] al-Ghassani. The Muslims numbered twenty-four thousand. They fought very fiercely, and about seventy thousand Byzantines were killed. Women of the Muslims also fought that day, among them [[person/hind-bint-utba|Hind bint Utba]]. The eye of [[person/al-ash-ath-ibn-qays|al-Ash'ath ibn Qays]] and the eye of [[person/hashim-ibn-utba|Hashim ibn Utba]] were lost. {cite:futuh-buldan-maarif-1407}
+
+## After the defeat
+In al-Tabari's account, Abu Ubayda called for the march after the defeat, and the Muslims halted at Marj al-Saffar, and then at Damascus. {cite:tabari-tarikh-abu-al-fadl j.3 p.404}
+
+The page number in al-Baladhuri's account is not given in the data file, and it needs review.

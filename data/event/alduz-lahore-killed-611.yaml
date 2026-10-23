@@ -1,0 +1,19 @@
+id: event/alduz-lahore-killed-611
+class: event
+kind: death
+label: { ar: "استيلاء الدز على لهاوور وقتله", en: "al-Duz takes Lahore and is killed" }
+date:
+  start: { edtf: "1214~", hijri: "0611", calendar: julian, precision: year, status: tradition, derived: true }
+summary:
+  ar: "استولى تاج الدين الدز على لهاوور بعد خروجه من غزنة، ثم قُتل بها فتفرق ملكه {cite:kamil-ibn-al-athir p. 367}."
+  en: "Taj al-Din al-Duz seized Lahore after losing Ghazna, then was killed there and his realm dissolved {cite:kamil-ibn-al-athir p. 367}."
+relations:
+  - { type: occurred_at, target: place/lahore, sources: [source/kamil-ibn-al-athir] }
+  - { type: had_participant, target: person/taj-al-din-yildiz, role: "المقتول", sources: [source/kamil-ibn-al-athir] }
+provenance:
+  layer: own-research
+  source: "الكامل في التاريخ لابن الأثير، قراءة آبل فيجن"
+  generated_by: "Devin (SWE-2 Medium) from Apple Vision OCR"
+  run: lib-kamil-v12-batch06
+sources: [source/kamil-ibn-al-athir]
+status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 Medium)" }

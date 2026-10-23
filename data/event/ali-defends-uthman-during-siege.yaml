@@ -1,0 +1,22 @@
+id: event/ali-defends-uthman-during-siege
+class: event
+kind: siege
+label: { ar: "موقف علي من حصار عثمان", en: "Ali's stance during the siege of Uthman" }
+summary:
+  ar: "اشتد الحصار على عثمان حتى منع من الصلاة في المسجد؛ وعرض علي أن يدفع عنه بخمسمائة دارع، فقال عثمان: ما أحب أن يُهراق دم في سببي (ص166). ولما منع الثوار الماء عن عثمان بعث إليه علي ثلاث قرب ماء فجُرح بسببها رجال من بني هاشم وبني أمية (ص166). وأرسل كبار الصحابة أبناءهم لحمايته، ومنهم الحسن وعبد الله بن الزبير، فجُرح الحسن (ص166)."
+wings: [people, place]
+periods: [period/rashidun]
+regions: [arabia]
+date:
+  start: { edtf: "0656", calendar: julian, precision: year, status: tradition, derived: true, note: "الكتاب لا يذكر تاريخ الحصار بسنة في الصفحات المقروءة؛ الفترة مشتقة من مقتل عثمان سنة 35هـ (ص176)." }
+relations:
+  - { type: occurred_at, target: place/medina }
+  - { type: had_participant, target: person/ali-ibn-abi-talib, role: "عرض الدفاع عن عثمان وأرسل الماء", sources: [source/sallabi-ali-vol1] }
+  - { type: had_participant, target: person/uthman-ibn-affan, role: "المحاصر", sources: [source/sallabi-ali-vol1] }
+  - { type: had_participant, target: person/hasan-ibn-ali, role: "أرسله علي للدفاع فجُرح", sources: [source/sallabi-ali-vol1] }
+  - { type: had_participant, target: person/zubayr-ibn-al-awwam, role: "من أبناء الصحابة المرسلين؛ الكتاب يذكر ابن الزبير", sources: [source/sallabi-ali-vol1] }
+  - { type: caused_by, target: event/forged-letter-affair, sources: [source/sallabi-ali-vol1] }
+  - { type: caused, target: event/murder-of-uthman, sources: [source/sallabi-ali-vol1] }
+sources: [source/sallabi-ali-vol1]
+status: { review: draft, completeness: 1, generated_by: "Claude Code (claude-haiku-5-5); mined from sallabi-ali-vol1 pp. 165-167" }
+provenance: { layer: own-research, source: "sallabi-ali-vol1 pp. 165-167", generated_by: "Claude Code", model: "claude-haiku-5-5", run: "sallabi-ali-vol1-deep-pp151-200" }

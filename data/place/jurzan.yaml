@@ -1,0 +1,19 @@
+id: place/jurzan
+class: place
+kind: region
+label: { ar: "جرزان", en: "Jurzan (Kartli/Iberia)" }
+summary:
+  ar: "جرزان من بلاد أرمينية الثانية وكانت في أيدي الخزر؛ بنى فيها أنوشروان مدينة سغدبيل فأنزلها قوماً من الصغد وأبناء فارس وجعلها مسلحة وبنى مما يلي الروم بأرضها باب فيروزقباذ وباب لاذقة وباب بارقة على بحر طرابزندة."
+  en: "Jurzan (Kartli, Iberia), of the second Armenia's lands and then in Khazar hands; in it Anushirwan built the city of Sughdabil settling Sughdians and sons of Persians as a muslaha, and toward the Romans in its land Bab Fayruzqubadh, Bab Ladhiqa and Bab Bariqa on the sea of Trebizond."
+wings: [place]
+periods: [period/pre-islamic-arabia]
+regions: [levant-iraq]
+relations:
+  - { type: part_of, target: place/armenia, sources: [source/futuh-buldan-maarif-1407] }
+provenance:
+  layer: own-research
+  source: "فتوح البلدان (ط مؤسسة المعارف 1407هـ/1987م) ص 273–274"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-futuh-buldan-batch-16
+sources: [source/futuh-buldan-maarif-1407]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

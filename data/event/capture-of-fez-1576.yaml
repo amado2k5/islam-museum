@@ -1,0 +1,23 @@
+id: event/capture-of-fez-1576
+class: event
+kind: conquest
+label: { ar: "سقوط فاس (١٥٧٦)", en: "Capture of Fez" }
+summary:
+  ar: "بطاقة أولية لسقوط فاس سنة ١٥٧٦م، دخول عبد الملك السعدي المدعوم عثمانياً عاصمة المغرب؛ لم تُراجع مصادره على الصفحة بعد."
+  en: "Draft card for the capture of Fez in 1576, Abd al-Malik's Ottoman-backed entry into the Moroccan capital; its sources are not yet checked on the page."
+wings: [time]
+periods: [period/gunpowder-empires]
+regions: [maghreb]
+date:
+  start: { edtf: "1576", precision: year, status: tradition, derived: true }
+  end: { edtf: "1576", precision: year, status: tradition, derived: true }
+sources: [source/dawlat-uthmaniyya-salabi]
+external_ids:
+  wikidata: Q30745598
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; capture attested in Saadian histories — entry not yet checked on the page"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-wave2
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

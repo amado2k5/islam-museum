@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 11:41 (سورة هود، الآية 41)."
 text: "۞ وَقَالَ ٱرْكَبُوا۟ فِيهَا بِسْمِ ٱللَّهِ مَجْر۪ىٰهَا وَمُرْسَىٰهَآ ۚ إِنَّ رَبِّى لَغَفُورٌ رَّحِيمٌ"
 text_search: "۞ وقال اركبوا فيها بسم الله مجراها ومرساها ۚ إن ربي لغفور رحيم"
+translations:
+  en: { text: "And he said: Embark therein! In the name of Allah be its course and its mooring. Lo! my Lord is Forgiving, Merciful.", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "(نوح نے) کہا کہ خدا کا نام لے کر (کہ اسی کے ہاتھ میں اس کا) چلنا اور ٹھہرنا (ہے) اس میں سوار ہوجاؤ۔ بےشک میرا پروردگار بخشنے والا مہربان ہے", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-11 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

@@ -1,0 +1,23 @@
+id: event/capture-of-damascus-1920
+class: event
+kind: conquest
+label: { ar: "دخول دمشق (١٩٢٠)", en: "Capture of Damascus" }
+summary:
+  ar: "بطاقة أولية لدخول الجيش الفرنسي دمشق سنة ١٩٢٠م بعد ميسلون، إسقاط مملكة فيصل؛ لم تُراجع مصادره على الصفحة بعد."
+  en: "Draft card for the French entry into Damascus in 1920 after Maysalun, ending Faisal's kingdom; its sources are not yet checked on the page."
+wings: [time]
+periods: [period/modern-era]
+regions: [levant-iraq]
+date:
+  start: { edtf: "1920", precision: year, status: tradition, derived: true }
+  end: { edtf: "1920", precision: year, status: tradition, derived: true }
+sources: [source/tarikh-islam-hasan-ibrahim]
+external_ids:
+  wikidata: Q7509962
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; capture attested in Syrian histories — entry not yet checked on the page"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-wave2
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

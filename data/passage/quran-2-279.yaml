@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 2:279 (سورة البقرة، الآية 279)."
 text: "فَإِن لَّمْ تَفْعَلُوا۟ فَأْذَنُوا۟ بِحَرْبٍ مِّنَ ٱللَّهِ وَرَسُولِهِۦ ۖ وَإِن تُبْتُمْ فَلَكُمْ رُءُوسُ أَمْوَٰلِكُمْ لَا تَظْلِمُونَ وَلَا تُظْلَمُونَ"
 text_search: "فإن لم تفعلوا فأذنوا بحرب من الله ورسوله ۖ وإن تبتم فلكم رءوس أموالكم لا تظلمون ولا تظلمون"
+translations:
+  en: { text: "And if ye do not, then be warned of war (against you) from Allah and His messenger. And if ye repent, then ye have your principal (without interest). Wrong not, and ye shall not be wronged.", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "اگر ایسا نہ کرو گے تو خبردار ہوجاؤ (کہ تم) خدا اور رسول سے جنگ کرنے کے لئے (تیار ہوتے ہو) اور اگر توبہ کرلو گے (اور سود چھوڑ دو گے) تو تم کو اپنی اصل رقم لینے کا حق ہے جس میں نہ اوروں کا نقصان اور تمہارا نقصان", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-2 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

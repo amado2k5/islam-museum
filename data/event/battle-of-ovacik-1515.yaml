@@ -1,0 +1,23 @@
+id: event/battle-of-ovacik-1515
+class: event
+kind: battle
+label: { ar: "معركة أوفاجيك", en: "Battle of Ovacık" }
+summary:
+  ar: "بطاقة أولية لمعركة أوفاجيك سنة ١٥١٥م، سحق بابا زونون لتمرد القزلباش؛ لم تُراجع مصادره على الصفحة بعد."
+  en: "Draft card for the Battle of Ovacık in 1515, Baba Zun'un's defeat of the Qizilbash rebels; its sources are not yet checked on the page."
+wings: [time]
+periods: [period/gunpowder-empires]
+regions: [anatolia-balkans]
+date:
+  start: { edtf: "1515", precision: year, status: tradition, derived: true }
+  end: { edtf: "1515", precision: year, status: tradition, derived: true }
+sources: [source/dawlat-uthmaniyya-salabi]
+external_ids:
+  wikidata: Q85973820
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; battle attested in narrative histories — entry not yet checked on the page"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-wave2
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

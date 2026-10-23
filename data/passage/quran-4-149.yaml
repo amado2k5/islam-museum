@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 4:149 (سورة النساء، الآية 149)."
 text: "إِن تُبْدُوا۟ خَيْرًا أَوْ تُخْفُوهُ أَوْ تَعْفُوا۟ عَن سُوٓءٍ فَإِنَّ ٱللَّهَ كَانَ عَفُوًّا قَدِيرًا"
 text_search: "إن تبدوا خيرا أو تخفوه أو تعفوا عن سوء فإن الله كان عفوا قديرا"
+translations:
+  en: { text: "If ye do good openly or keep it secret, or forgive evil, lo! Allah is ever Forgiving, Powerful.", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "اگر تم لوگ بھلائی کھلم کھلا کرو گے یا چھپا کر یا برائی سے درگزر کرو گے تو خدا بھی معاف کرنے والا (اور) صاحب قدرت ہے", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-4 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

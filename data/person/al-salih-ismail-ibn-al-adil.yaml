@@ -1,0 +1,29 @@
+id: person/al-salih-ismail-ibn-al-adil
+class: person
+label: { ar: "الملك الصالح إسماعيل بن العادل", en: "al-Malik al-Salih Isma'il b. al-Adil" }
+names:
+  - { value: "الملك الصالح عماد الدين إسماعيل بن العادل أبي بكر بن أيوب", kind: full }
+died: { edtf: "1250-03~", hijri: "0648-01~", calendar: julian, precision: month, status: tradition, derived: true, note: "أخذه المماليك الصالحية وقتلوه بعد فوزهم سنة ثمان وأربعين وستمائة {cite:shadharat-dhahab p. 249}." }
+summary:
+  ar: "صاحب دمشق من آل أيوب؛ أخذه أبوه العادل بالجاموس سنة إحدى وعشرين وخمسمائة {cite:shadharat-dhahab p. 96}، وهجم على دمشق في صفر سنة سبع وثلاثين وستمائة فملكها وتسلم قلعتها، وسلّم قلعة الشقيف للفرنج سنة ثمان وثلاثين فمقته المسلمون وسجن العز ابن عبد السلام وأبا عمرو بن الحاجب لإنكارهما عليه {cite:shadharat-dhahab p. 183,189}؛ وأخذه الصالحية بعد مقتل توران شاه فقتلوه {cite:shadharat-dhahab p. 249}."
+  en: "Al-Adil's son, lord of Damascus; stormed the city in Safar 637 taking its citadel, and in 638 surrendered Beaufort to the Franks — jailing Ibn Abd al-Salam and Ibn al-Hajib for denouncing it {cite:shadharat-dhahab p. 183,189}."
+gender: male
+roles: [sultan]
+wings: [people]
+periods: [period/crusades-ayyubid-mamluk]
+regions: [levant-iraq]
+faith:
+  - value: sunni
+    basis: tradition
+relations:
+  - { type: child_of, target: person/al-malik-al-adil-ayyub, sources: [source/shadharat-dhahab] }
+  - { type: ruler_of, target: place/damascus, sources: [source/shadharat-dhahab] }
+  - { type: participated_in, target: event/salih-ismail-takes-damascus-637, role: "الآخذ", sources: [source/shadharat-dhahab] }
+  - { type: participated_in, target: event/shaqif-handed-to-franks-638, role: "المسلِّم", sources: [source/shadharat-dhahab] }
+sources: [source/shadharat-dhahab]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }
+provenance:
+  layer: own-research
+  source: "شذرات الذهب — ابن العماد (ج5، سنة 637–638)، قراءة آبل فيجن"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-shadharat-batch-126

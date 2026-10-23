@@ -1,0 +1,12 @@
+---
+id: concept/maghfira
+lang: ur
+source_lang: ar
+translators: ["Claude Haiku 5.5 (claude-haiku-5-5), draft translation"]
+---
+## خلاصہ
+مغفرت چالیس نووی کی آخری یعنی بیالیسویں حدیث میں اللہ کے اپنے بندوں سے وعدوں میں سب سے وسیع ہے۔ اس میں ہے کہ اللہ اس شخص کو معاف کرتا ہے جو اسے پکارے اور اس سے امید رکھے، چاہے اس سے کچھ بھی سرزد ہوا ہو۔ {cite:ibn-rajab-jami-ulum-hikam p.830-831}
+
+ابن رجب نے حدیث سے تین اسباب نکالے جن سے مغفرت حاصل ہوتی ہے: امید کے ساتھ دعا، استغفار، اور بغیر شرک کے اللہ سے ملاقات۔ {cite:ibn-rajab-jami-ulum-hikam p.830-831}
+
+مغفرت [[concept/tawba|توبہ]] کے باب کا حصہ ہے۔ {cite:ibn-rajab-jami-ulum-hikam}

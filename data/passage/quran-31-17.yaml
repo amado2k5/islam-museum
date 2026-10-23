@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 31:17 (سورة لقمان، الآية 17)."
 text: "يَـٰبُنَىَّ أَقِمِ ٱلصَّلَوٰةَ وَأْمُرْ بِٱلْمَعْرُوفِ وَٱنْهَ عَنِ ٱلْمُنكَرِ وَٱصْبِرْ عَلَىٰ مَآ أَصَابَكَ ۖ إِنَّ ذَٰلِكَ مِنْ عَزْمِ ٱلْأُمُورِ"
 text_search: "يا بني أقم الصلاة وأمر بالمعروف وانه عن المنكر واصبر على ما أصابك ۖ إن ذلك من عزم الأمور"
+translations:
+  en: { text: "O my dear son! Establish worship and enjoin kindness and forbid iniquity, and persevere whatever may befall thee. Lo! that is of the steadfast heart of things.", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "بیٹا نماز کی پابندی رکھنا اور (لوگوں کو) اچھے کاموں کے کرنے کا امر اور بری باتوں سے منع کرتے رہنا اور جو مصیبت تجھ پر واقع ہو اس پر صبر کرنا۔ بیشک یہ بڑی ہمت کے کام ہیں", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-31 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

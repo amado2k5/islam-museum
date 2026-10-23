@@ -1,0 +1,22 @@
+id: event/euphrates-flood-329
+class: event
+kind: other
+label: { ar: "فيضان الفرات وخراب باب الأنبار", en: "The Euphrates flood and the ruin of Bab al-Anbar" }
+summary:
+  ar: "في سنة تسع وعشرين وثلاثمائة زاد الفرات أحد عشر ذراعًا وانبثق من نواحي الأنبار فاجتاح القرى وغرقها وغرق الناس والبهائم والوحش، وصب الماء في الصراة إلى بغداد ودخل شوارع الجانب الغربي فغرق شارع باب الأنبار حتى لم يبق منه منزل إلا سقط، وتساقطت الأبنية على الصراة وسقطت قنطرة الصراة الحديدة وانقطع بعض الدليق، وزادت دجلة ثمانية عشر ذراعًا في أيار وحزيران {cite:muntazam-ibn-al-jawzi p. 608}."
+  en: "In 329 the Euphrates rose eleven cubits and burst from the Anbar side, sweeping villages, people, cattle and beasts; water poured down the Sarat into Baghdad's western quarters drowning Bab al-Anbar street to the last house, toppling the Sarat's iron bridge — while the Tigris rose eighteen cubits in May–June {cite:muntazam-ibn-al-jawzi p. 608}."
+wings: [time]
+periods: [period/abbasid-early]
+regions: [levant-iraq]
+map: { kind: locator, precision: approximate, center: [43.80, 33.38] }
+date:
+  start: { edtf: "0940~", hijri: "0329", calendar: julian, precision: year, status: tradition, derived: true, note: "٣٢٩؛ التحويل مشتق {cite:muntazam-ibn-al-jawzi p. 608}." }
+relations:
+  - { type: occurred_at, target: place/baghdad, sources: [source/muntazam-ibn-al-jawzi] }
+provenance:
+  layer: own-research
+  source: "المنتظم لابن الجوزي (ط حيدرآباد 1357، ج7، سنة 329)، قراءة آبل فيجن"
+  generated_by: "Devin (SWE-2 Medium) from Apple Vision OCR"
+  run: lib-muntazam-258-349-batch30
+sources: [source/muntazam-ibn-al-jawzi]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 Medium)" }

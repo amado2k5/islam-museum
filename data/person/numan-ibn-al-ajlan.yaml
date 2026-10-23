@@ -1,0 +1,20 @@
+id: person/numan-ibn-al-ajlan
+class: person
+label: { ar: "النعمان بن العجلان الأنصاري", en: "al-Nu'man ibn al-Ajlan al-Ansari" }
+gender: male
+roles: [emir]
+summary:
+  ar: "أنصاري ذكره الصلابي في قائمة ولاة علي واليا على البحرين {cite:sallabi-ali-vol1 p. 358}، ولم يذكر الكتاب في هذا الموضع تاريخ ولايته ولا أخباره."
+  en: "An Ansari the book lists as Ali's governor of Bahrain {cite:sallabi-ali-vol1 p. 358}; the passage gives neither the dates of his office nor further reports."
+periods: [period/rashidun]
+wings: [people]
+relations:
+  - { type: ruler_of, target: place/bahrayn, sources: [source/sallabi-ali-vol1] }
+sources: [source/sallabi-ali-vol1]
+provenance:
+  layer: own-research
+  source: "sallabi-ali-vol1 p. 358, governors list (harvest OCR)"
+  generated_by: "Claude Code"
+  model: "claude-haiku-5-5"
+  run: "sallabi-ali-vol1-deep-pp351-388"
+status: { review: draft, completeness: 1, generated_by: "Claude Code (claude-haiku-5-5); from the book's list only" }

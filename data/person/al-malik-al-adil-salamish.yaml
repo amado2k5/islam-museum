@@ -1,0 +1,28 @@
+id: person/al-malik-al-adil-salamish
+class: person
+label: { ar: "الملك العادل سلامش بن بيبرس", en: "al-Malik al-Adil Salamish" }
+names:
+  - { value: "سلامش الملك العادل بدر الدين ولد الملك الظاهر بيبرس الصالحي", kind: full }
+born: { edtf: "1270~", hijri: "0670~", calendar: julian, precision: year, status: tradition, derived: true, note: "مات باسطنبول وله نحو من عشرين سنة {cite:shadharat-dhahab p. 720}." }
+died: { edtf: "1291~", hijri: "0690", calendar: julian, precision: year, status: tradition, derived: true, note: "وفاته في أموات سنة تسعين وستمائة باسطنبول {cite:shadharat-dhahab p. 720}." }
+summary:
+  ar: "ولد الظاهر بيبرس؛ سلطنوه عند خلع أخيه الملك السعيد ثم نزعوه بعد ثلاثة أشهر وبقي خاملًا بمصر، فلما تسلطن الأشرف خليل أخذه وأخاه الملك خضراً وأهلهم وجهزهم إلى مدينة اسطنبول بلاد الأشكري فمات بها وله نحو من عشرين سنة؛ وكان مليح الصورة رشيق القد ذا عقل وحياء {cite:shadharat-dhahab p. 720}."
+  en: "Baybars's son — sultan for three months after al-Sa'id's deposition, then set aside; al-Ashraf Khalil shipped him and his brother al-Khidr to Constantinople, where he died at about twenty {cite:shadharat-dhahab p. 720}."
+gender: male
+roles: [sultan]
+wings: [people]
+periods: [period/mongol-post-mongol]
+regions: [egypt-nile, levant-iraq]
+faith:
+  - value: sunni
+    basis: tradition
+relations:
+  - { type: child_of, target: person/baybars, sources: [source/shadharat-dhahab] }
+  - { type: sibling_of, target: person/al-malik-al-said-baraka, sources: [source/shadharat-dhahab] }
+sources: [source/shadharat-dhahab]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }
+provenance:
+  layer: own-research
+  source: "شذرات الذهب — ابن العماد (ج7، سنة 690)، قراءة آبل فيجن"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-shadharat-batch-134

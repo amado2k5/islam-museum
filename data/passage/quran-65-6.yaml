@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 65:6 (سورة الطلاق، الآية 6)."
 text: "أَسْكِنُوهُنَّ مِنْ حَيْثُ سَكَنتُم مِّن وُجْدِكُمْ وَلَا تُضَآرُّوهُنَّ لِتُضَيِّقُوا۟ عَلَيْهِنَّ ۚ وَإِن كُنَّ أُو۟لَـٰتِ حَمْلٍ فَأَنفِقُوا۟ عَلَيْهِنَّ حَتَّىٰ يَضَعْنَ حَمْلَهُنَّ ۚ فَإِنْ أَرْضَعْنَ لَكُمْ فَـَٔاتُوهُنَّ أُجُورَهُنَّ ۖ وَأْتَمِرُوا۟ بَيْنَكُم بِمَعْرُوفٍ ۖ وَإِن تَعَاسَرْتُمْ فَسَتُرْضِعُ لَهُۥٓ أُخْرَىٰ"
 text_search: "أسكنوهن من حيث سكنتم من وجدكم ولا تضاروهن لتضيقوا عليهن ۚ وإن كن أولات حمل فأنفقوا عليهن حتى يضعن حملهن ۚ فإن أرضعن لكم فآتوهن أجورهن ۖ وأتمروا بينكم بمعروف ۖ وإن تعاسرتم فسترضع له أخرى"
+translations:
+  en: { text: "Lodge them where ye dwell, according to your wealth, and harass them not so as to straiten life for them. And if they are with child, then spend for them till they bring forth their burden. Then, if they give suck for you, give them their due payment and consult together in kindness; but if ye make difficulties for one another, then let some other woman give suck for him (the father of the child).", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "عورتوں کو (ایام عدت میں) اپنے مقدور کے مطابق وہیں رکھو جہاں خود رہتے ہو اور ان کو تنگ کرنے کے لئے تکلیف نہ دو اور اگر حمل سے ہوں تو بچّہ جننے تک ان کا خرچ دیتے رہو۔ پھر اگر وہ بچّے کو تمہارے کہنے سے دودھ پلائیں تو ان کو ان کی اجرت دو۔ اور (بچّے کے بارے میں) پسندیدہ طریق سے مواقفت رکھو۔ اور اگر باہم ضد (اور نااتفاقی) کرو گے تو (بچّے کو) اس کے (باپ کے) کہنے سے کوئی اور عورت دودھ پلائے گی", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-65 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

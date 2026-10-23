@@ -12,10 +12,13 @@ summary:
   ar: "القرآن 9:117 (سورة التوبة، الآية 117)."
 text: "لَّقَد تَّابَ ٱللَّهُ عَلَى ٱلنَّبِىِّ وَٱلْمُهَـٰجِرِينَ وَٱلْأَنصَارِ ٱلَّذِينَ ٱتَّبَعُوهُ فِى سَاعَةِ ٱلْعُسْرَةِ مِنۢ بَعْدِ مَا كَادَ يَزِيغُ قُلُوبُ فَرِيقٍ مِّنْهُمْ ثُمَّ تَابَ عَلَيْهِمْ ۚ إِنَّهُۥ بِهِمْ رَءُوفٌ رَّحِيمٌ"
 text_search: "لقد تاب الله على النبي والمهاجرين والأنصار الذين اتبعوه في ساعة العسرة من بعد ما كاد يزيغ قلوب فريق منهم ثم تاب عليهم ۚ إنه بهم رءوف رحيم"
+translations:
+  en: { text: "Allah hath turned in mercy to the Prophet, and to the Muhajirin and the Ansar who followed him in the hour of hardship. After the hearts of a party of them had almost swerved aside, then turned He unto them in mercy. Lo! He is Full of Pity, Merciful for them.", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "بےشک خدا نے پیغمبر پر مہربانی کی اور مہاجرین اور انصار پر جو باوجود اس کے کہ ان میں سے بعضوں کے دل جلد پھر جانے کو تھے۔ مشکل کی گھڑی میں پیغمبر کے ساتھ رہے۔ پھر خدا نے ان پر مہربانی فرمائی۔ بےشک وہ ان پر نہایت شفقت کرنے والا (اور) مہربان ہے", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: revealed_about, target: event/repentance-of-the-three-accepted, note: "أنزلها الله بعد توبة الثلاثة بحسب ابن إسحاق، وافتتاحها مذكور (ص181)", sources: [source/ibn-hisham-saqqa] }
   - { type: part_of, target: passage/quran-9 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

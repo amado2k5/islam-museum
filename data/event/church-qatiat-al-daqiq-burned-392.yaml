@@ -1,0 +1,21 @@
+id: event/church-qatiat-al-daqiq-burned-392
+class: event
+kind: other
+label: { ar: "إحراق العامة بيعة قطيعة الدقيق", en: "The Crowd's Burning of the Church of Qati'at al-Daqiq" }
+summary:
+  ar: "ثار العوام ببغداد يوم الاثنين سابع ربيع الآخر سنة اثنتين وتسعين بالنصارى فنهبوا البيعة بقطيعة الدقيق وأحرقوها فسقطت على جماعة من المسلمين رجال وصبيان ونساء فهلكوا {cite:muntazam-ibn-al-jawzi j.7 p.219}."
+  en: "On Monday, 7 Rabi' II in the year two and ninety, the common people of Baghdad rose against the Christians, looted the church at Qati'at al-Daqiq and burned it; it fell on a group of Muslims, men, boys and women, who perished {cite:muntazam-ibn-al-jawzi j.7 p.219}."
+wings: [time]
+periods: [period/buyid-seljuk-fatimid-era]
+regions: [levant-iraq]
+date:
+  start: { edtf: "1002-02-17~", hijri: "0392-04-07", calendar: julian, precision: day, status: tradition, derived: true, note: "يوم الاثنين 7 ربيع الآخر 392؛ التحويل مشتق {cite:muntazam-ibn-al-jawzi j.7 p.219}" }
+relations:
+  - { type: located_in, target: place/baghdad, sources: [source/muntazam-ibn-al-jawzi] }
+provenance:
+  layer: own-research
+  source: "المنتظم في تاريخ الملوك والأمم — ابن الجوزي (ج7، أحداث سنة 392)، قراءة آبل فيجن"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-muntazam-batch-21
+sources: [source/muntazam-ibn-al-jawzi]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

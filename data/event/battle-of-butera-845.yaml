@@ -1,0 +1,23 @@
+id: event/battle-of-butera-845
+class: event
+kind: battle
+label: { ar: "معركة بوتيرا (٨٤٥)", en: "Battle of Butera (845)" }
+summary:
+  ar: "بطاقة أولية لمعركة بوتيرا سنة ٨٤٥م، من حوادث فتح صقلية الأغالبي؛ لم تُراجع مصادره على الصفحة بعد."
+  en: "Draft card for the Battle of Butera in 845, an action of the Aghlabid conquest of Sicily; its sources are not yet checked on the page."
+wings: [time]
+periods: [period/abbasid-early]
+regions: [maghreb]
+date:
+  start: { edtf: "0845", precision: year, status: tradition, derived: true }
+  end: { edtf: "0845", precision: year, status: tradition, derived: true }
+sources: [source/tarikh-islam-hasan-ibrahim]
+external_ids:
+  wikidata: Q22341845
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; battle attested in narrative histories — entry not yet checked on the page"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-wave2
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

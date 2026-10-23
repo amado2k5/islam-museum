@@ -1,0 +1,16 @@
+id: passage/bukhari-3547
+class: passage
+unit: hadith
+work: work/sahih-al-bukhari
+ref: "3547"
+label: { ar: "البخاري 3547 — صفة النبي عند أنس", en: "Bukhari 3547 — Anas's description of the Prophet" }
+text: "كان ربعة من القوم ليس بالطويل ولا بالقصير، أزهر اللون ليس بأبيض أمهق ولا آدم، ليس بجعد قطط ولا سبط رجل، أنزل عليه وهو ابن أربعين، فلبث بمكة عشر سنين ينزل عليه وبالمدينة عشر سنين، وقُبض وليس في رأسه ولحيته عشرون شعرة بيضاء"
+summary:
+  ar: "في كتاب فضائل أصحاب النبي باب صفة النبي؛ وصف أنس بن مالك الشهير لخلقة النبي: القامة الربعة واللون الأزهر والشعر بين الجعد والسبط، مع ضبط سن البعثة والإقامة بمكة والمدينة وعدد شعيرات الشيب، وذيله خبر ربيعة عن احمرار شعره من الطيب. من أنفس نصوص الشمائل في الصحيح."
+relations:
+  - { type: mentions, target: person/muhammad, sources: [source/sahih-al-bukhari] }
+  - { type: mentions, target: person/anas-ibn-malik, sources: [source/sahih-al-bukhari] }
+  - { type: basis_for, target: concept/al-shamail-al-muhammadiyya, sources: [source/sahih-al-bukhari] }
+provenance: { layer: own-research, source: "صحيح البخاري (طبعة دار ابن كثير، ترقيم فخر الدين)، تصوير Apple Vision OCR، حديث 3547", generated_by: "Devin (SWE-2 High) from Apple Vision OCR", run: "hadith-bukhari-passages-1" }
+sources: [source/sahih-al-bukhari]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High); matn checked against the scan" }

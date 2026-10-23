@@ -1,0 +1,16 @@
+id: passage/bukhari-4265
+class: passage
+unit: hadith
+work: work/sahih-al-bukhari
+ref: "4265"
+label: { ar: "البخاري 4265 — تسعة أسياف انقطعت بمؤتة", en: "Bukhari 4265 — Nine swords broke at Mu'ta" }
+text: "سمعت خالد بن الوليد يقول: لقد انقطعت في يدي يوم مؤتة تسعة أسياف، فما بقي في يدي إلا صفيحة يمانية"
+summary:
+  ar: "في كتاب المغازي باب غزوة مؤتة من أرض الشام؛ شهادة خالد بن الوليد على نفسه بعد أن أخذ الراية إثر استشهاد القادة الثلاثة، تدل على شدة المعركة حين قاد الانسحاب المنظم بالجيش."
+relations:
+  - { type: mentions, target: person/khalid-ibn-al-walid, sources: [source/sahih-al-bukhari] }
+  - { type: mentions, target: event/mutah-khalid-command-withdrawal, sources: [source/sahih-al-bukhari] }
+  - { type: mentions, target: event/battle-of-mutah, sources: [source/sahih-al-bukhari] }
+provenance: { layer: own-research, source: "صحيح البخاري (طبعة دار ابن كثير، ترقيم فخر الدين)، تصوير Apple Vision OCR، حديث 4265", generated_by: "Devin (SWE-2 High) from Apple Vision OCR", run: "hadith-bukhari-passages-1" }
+sources: [source/sahih-al-bukhari]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High); matn excerpt at most 40 words checked against the scan" }

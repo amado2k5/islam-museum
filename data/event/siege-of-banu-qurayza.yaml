@@ -4,8 +4,8 @@ kind: siege
 label: { en: "The Siege and Judgment of Banu Qurayza", ar: "غزوة بني قريظة" }
 summary:
   en: "In Dhu al-Qa'da 5 AH (March 627 CE), immediately after the confederates withdrew, the Prophet marched on Banu Qurayza for breaking their treaty during the siege of Medina; after twenty-five nights of siege they surrendered unconditionally and accepted the arbitration of Sa'd ibn Mu'adh, who decreed the execution of the combatants and captivity of women and children."
-  ar: "في ذي القعدة سنة 5هـ (مارس 627م)، إثر انصراف الأحزاب نزل جبريل يأمر النبي بالسير إلى بني قريظة لغدرهم ونقضهم ميثاق المدينة في أحلك ساعات الحصار؛ فحاصرهم المسلمون خمساً وعشرين ليلة حتى نزلوا على حكم سعد بن معاذ، فقضى بقتل مقاتلتهم وسبي ذراريهم وقسمة أموالهم."
-wings: [time, people]
+  ar: "في ذي القعدة سنة 5هـ (مارس 627م)، إثر انصراف الأحزاب نزل جبريل يأمر النبي بالسير إلى بني قريظة لغدرهم ونقضهم ميثاق المدينة في أحلك ساعات الحصار؛ فحاصرهم المسلمون خمساً وعشرين ليلة حتى نزلوا على حكم سعد بن معاذ، فقضى بقتل مقاتلتهم وسبي ذراريهم وقسمة أموالهم. وفي الصحيح أنهم نزلوا على حكم سعد بن معاذ فقال النبي «قوموا إلى سيدكم» فحكم بقتل مقاتليهم وسبي ذراريهم فقال له «حكمت بحكم الله» {cite:sahih-al-bukhari 3804}."
+wings: [time]
 themes: [battles, wars-and-campaigns]
 periods: [period/prophetic-era]
 regions: [arabia]
@@ -27,9 +27,17 @@ perspectives:
     id: sunni
     summary: { en: "Sunni sources record the siege and Sa'd's arbitration as a divine judgment against active treason during wartime that threatened the survival of the entire community, noting it matched Biblical law in Deuteronomy.", ar: "يؤكد التراث السني أن حكم سعد بن معاذ كان حكماً عادلاً موافقاً لحكم الله من فوق سبع سموات ومطابقاً لشريعة التوراة بحق من خان العهد وظاهر العدو في حالة الحرب الشاملة." }
     sources: [source/mubarakpuri-raheeq, source/sahih-al-bukhari, source/sahih-muslim, source/ibn-hisham-sira]
+  - tradition: sunni
+    id: sunni-sallabi
+    summary: { ar: "يروي الصلابي حكم سعد بن معاذ على أنه أن تُقتل مقاتلتهم وتُسبى النساء والذرية وتُقسم الأموال، ويذكر أن علياً والزبير كانا ممن باشروا القتل، ويعرض ذلك نقلاً عن ابن هشام ضمن حكم الذين نزلوا على حكم سعد، دون حكم منه في هذا الموضع.", en: "Al-Sallabi reports Sa'd ibn Mu'adh's ruling (killing of the fighters, captivity of women and children, division of property), and that Ali and al-Zubayr were among those who carried out the killing, citing Ibn Hisham; he records it without his own verdict at that point." }
+    sources: [source/sallabi-ali-vol1]
   - tradition: academic
     id: academic
     summary: { en: "Modern historians discuss the political, legal, and military context of the execution, assessing the degree of Banu Qurayza's collusion with Quraysh and the customary tribal laws of surrender and arbitration.", ar: "يناقش المؤرخون المعاصرون السياقات العسكرية والقانونية للتحكيم، ومدى ثبوت التواطؤ العسكري لبني قريظة وتأثير الأعراف القبلية السائدة في الجزيرة حينئذ على مصير المحاربين." }
     sources: [source/watt-1956-medina]
-sources: [source/mubarakpuri-raheeq, source/sahih-al-bukhari, source/sahih-muslim, source/ibn-hisham-sira, source/zad-al-maad]
+  - tradition: academic
+    id: academic-pending
+    summary: { ar: "لم يعرض هذا القسم من الكتاب رأياً أكاديمياً حديثاً في الحكم؛ يُضاف بمرجع محدد لاحقاً، ولا يُنسب إليه شيء هنا.", en: "This section of the book gives no modern academic assessment of the ruling; one is to be added later with a named source, and nothing is attributed here." }
+    sources: [source/sallabi-ali-vol1]
+sources: [source/mubarakpuri-raheeq, source/sahih-al-bukhari, source/sahih-muslim, source/ibn-hisham-sira, source/zad-al-maad, source/sallabi-ali-vol1]
 status: { review: draft, completeness: 2, generated_by: "Devin; al-Raheeq al-Makhtum pp. 314–318" }

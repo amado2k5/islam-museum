@@ -1,0 +1,15 @@
+id: passage/muwatta-9-1397
+class: passage
+unit: hadith
+work: work/muwatta-malik
+ref: "1397"
+label: { ar: "الموطأ 1397 — مالك: أحسن ما سمع في البدنة والبقرة والشاة الواحدة أن الرجل ينحر عنه وعن أهل بيته، ويكره أن يشترك النفر في شرائها للضحايا", en: "Muwatta 1397" }
+summary:
+  ar: "يقول مالك أحسن ما سمعه في البدنة والبقرة والشاة الواحدة، أن الرجل ينحر عنه وعن أهل بيته البدنة، ويذبح البقرة والشاة الواحدة وهو يملكها، ويذبحها عنهم ويشركهم فيها. فأما أن يشتري النفر البدنة أو البقرة أو الشاة يشتركون فيها في النسك والضحايا، فيخرج كل إنسان حصته من ثمنها، وتكون له حصته من لحمها، فإن ذلك يكره. {cite:muwatta-maruf-1997 p.625}"
+relations:
+  - { type: part_of, target: passage/muwatta-kitab-09-dahaya }
+  - { type: basis_for, target: practice/dhabh, sources: [source/muwatta-maruf-1997] }
+  - { type: basis_for, target: practice/hajj, sources: [source/muwatta-maruf-1997] }
+provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 1, hadith 1397 at PDF p. 625; الشركة في الضحايا", generated_by: "Claude Code (claude-haiku-5-5) from Apple Vision OCR of the Noor-Book PDF, checked on the page image where doubtful", run: "muwatta-prose-k9-b24" }
+sources: [source/muwatta-maruf-1997]
+status: { review: draft, completeness: 2, generated_by: "Claude Code (claude-haiku-5-5); own-words account written from PDF p. 625; matn excerpt at most 40 words" }

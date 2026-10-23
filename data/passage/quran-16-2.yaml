@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 16:2 (سورة النحل، الآية 2)."
 text: "يُنَزِّلُ ٱلْمَلَـٰٓئِكَةَ بِٱلرُّوحِ مِنْ أَمْرِهِۦ عَلَىٰ مَن يَشَآءُ مِنْ عِبَادِهِۦٓ أَنْ أَنذِرُوٓا۟ أَنَّهُۥ لَآ إِلَـٰهَ إِلَّآ أَنَا۠ فَٱتَّقُونِ"
 text_search: "ينزل الملائكة بالروح من أمره على من يشاء من عباده أن أنذروا أنه لا إله إلا أنا فاتقون"
+translations:
+  en: { text: "He sendeth down the angels with the Spirit of His command unto whom He will of His bondmen, (saying): Warn mankind that there is no Allah save Me, so keep your duty unto Me.", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "وہی فرشتوں کو پیغام دے کر اپنے حکم سے اپنے بندوں میں سے جس کے پاس چاہتا ہے بھیجتا ہے کہ (لوگوں کو) بتادو کہ میرے سوا کوئی معبود نہیں تو مجھی سے ڈرو", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-16 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

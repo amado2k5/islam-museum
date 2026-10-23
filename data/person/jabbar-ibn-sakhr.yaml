@@ -1,0 +1,21 @@
+id: person/jabbar-ibn-sakhr
+class: person
+label: { ar: "جبار بن صخر الأنصاري", en: "Jabbar ibn Sakhr al-Ansari" }
+names:
+  - { kind: full, lang: ar, value: "جبار بن صخر الأنصاري" }
+gender: male
+roles: [companion]
+summary:
+  ar: "أنصاري بعثه النبي مع عمرو بن أمية الضمري إلى مكة لقتل أبي سفيان بن حرب؛ هو الذي اقترح الطواف بالبيت والصلاة ليلاً، وكان لا رجلة له فأمره عمرو أن ينجو إلى بعيره حين طاردتهم قريش."
+  en: "An Ansari whom the Prophet sent with Amr ibn Umayya al-Damri to Mecca to kill Abu Sufyan ibn Harb; it was he who proposed circling the Ka'ba and praying at night, and being no walker, Amr told him to flee to his camel when Quraysh pursued them."
+wings: [people]
+periods: [period/prophetic-era]
+regions: [arabia]
+story_roles:
+  - { role: companion, status: tradition, sources: [source/ibn-hisham-saqqa] }
+relations:
+  - { type: member_of, target: group/ansar, sources: [source/ibn-hisham-saqqa] }
+  - { type: participated_in, target: event/mission-of-amr-ibn-umayya-against-abu-sufyan, role: "صاحب عمرو", sources: [source/ibn-hisham-saqqa] }
+provenance: { layer: own-research, source: "sira-ibn-hisham saqqa 1936, juz' 4 pp. 282-283", generated_by: "Claude Code", model: "claude-fable-5-1", run: "ibn-hisham-batch-14" }
+sources: [source/ibn-hisham-saqqa]
+status: { review: draft, completeness: 1, generated_by: "Claude Fable 5.1; mined from Ibn Hisham juz' 4 pp. 282-283" }

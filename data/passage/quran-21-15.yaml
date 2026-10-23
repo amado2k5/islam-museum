@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 21:15 (سورة الأنبياء، الآية 15)."
 text: "فَمَا زَالَت تِّلْكَ دَعْوَىٰهُمْ حَتَّىٰ جَعَلْنَـٰهُمْ حَصِيدًا خَـٰمِدِينَ"
 text_search: "فما زالت تلك دعواهم حتى جعلناهم حصيدا خامدين"
+translations:
+  en: { text: "And this their crying ceased not till We made them as reaped corn, extinct.", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "تو وہ ہمیشہ اسی طرح پکارتے رہے یہاں تک کہ ہم نے ان کو (کھیتی کی طرح) کاٹ کر (اور آگ کی طرح) بجھا کر ڈھیر کردیا", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-21 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

@@ -1,0 +1,77 @@
+id: exhibit/path-novel-mahfouz
+class: exhibit
+kind: trail
+label:
+  ar: نجيب محفوظ
+  en: Naguib Mahfouz
+summary:
+  ar: 'مسار في نوبل العربية الوحيد: الثلاثية تحكي القاهرة، وأولاد حارتنا يثير الدهشة — رواية مصر في القرن
+    العشرين.'
+  en: A trail through the Arab world's only Nobel laureate.
+audience:
+- newcomer
+- student
+duration_minutes: 30
+wings: []
+regions:
+- egypt-nile
+rooms:
+- title:
+    ar: الثلاثية
+    en: The Trilogy
+  body:
+    ar: بين القصرين وقصر الشوق والسكرية.
+    en: بين القصرين وقصر الشوق والسكرية.
+  features:
+  - work/al-thulathiyya
+  - place/cairo
+- title:
+    ar: الحارة
+    en: The alley
+  body:
+    ar: 'أولاد حارتنا: الرمز الكبير.'
+    en: 'أولاد حارتنا: الرمز الكبير.'
+  features:
+  - work/awlad-haratina
+  - place/cairo
+- title:
+    ar: القاهرة
+    en: Cairo
+  body:
+    ar: 'المدينة بطل الروايات: الجمالية والحسين.'
+    en: 'المدينة بطل الروايات: الجمالية والحسين.'
+  features:
+  - place/cairo
+  - work/al-thulathiyya
+- title:
+    ar: نوبل
+    en: The Nobel
+  body:
+    ar: '1988: الأدب العربي يبلغ العالم.'
+    en: '1988: الأدب العربي يبلغ العالم.'
+  features:
+  - work/al-thulathiyya
+  - work/awlad-haratina
+- title:
+    ar: المدرسة
+    en: The school
+  body:
+    ar: 'محفوظ والرواية العربية: جيل كامل.'
+    en: 'محفوظ والرواية العربية: جيل كامل.'
+  features:
+  - work/awlad-haratina
+  - work/musim-al-hijra-ila-al-shamal
+prerequisites:
+- exhibit/path-islam-in-30-minutes
+sources:
+- source/wikidata
+provenance:
+  layer: own-research
+  source: Devin-assembled trail from existing museum entities
+  generated_by: Devin (SWE-2 High)
+  model: SWE-2 High
+  run: pathways-batch-7
+status:
+  review: draft
+  completeness: 1
+  generated_by: Devin (SWE-2 High), pathways lane, 2026-10-16

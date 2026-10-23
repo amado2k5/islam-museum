@@ -1,0 +1,15 @@
+id: passage/muslim-1650
+class: passage
+unit: hadith
+work: work/sahih-muslim
+ref: "1650"
+label: { ar: "مسلم 1650 — لا تسأل الإمارة وكفّر عن يمينك", en: "Muslim 1650 — Do not ask for authority; expiate your oath" }
+text: "قال عبد الرحمن بن سمرة: قال لي رسول الله: يا عبد الرحمن بن سمرة لا تسأل الإمارة، فإنك إن أعطيتها عن مسألة وكلت إليها وإن أعطيتها عن غير مسألة أعنت عليها، وإذا حلفت على يمين فرأيت غيرها خيراً منها فكفر عن يمينك وأت الذي هو خير"
+summary:
+  ar: "رواية عبد الرحمن بن سمرة في باب استحباب التكفير عن اليمين وفعل الخير منها من كتاب الأيمان في صحيح مسلم؛ وصيتان مشهورتان: ترك طلب الإمارة والإتيان بالخير من اليمين مع الكفارة."
+relations:
+  - { type: mentions, target: person/muhammad, sources: [source/sahih-muslim] }
+  - { type: mentions, target: person/abd-al-rahman-ibn-samura, sources: [source/sahih-muslim] }
+provenance: { layer: own-research, source: "صحيح مسلم، كتاب الأيمان (طبعة دار التأصيل، الحديث 1692؛ ترقيم عبد الباقي المعروف 1650)، تصوير Apple Vision OCR", generated_by: "Devin (SWE-2 High) from Apple Vision OCR", run: "hadith-muslim-passages-4" }
+sources: [source/sahih-muslim]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High); matn excerpt at most 40 words checked against the scan" }

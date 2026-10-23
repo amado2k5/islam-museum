@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 5:90 (سورة المائدة، الآية 90)."
 text: "يَـٰٓأَيُّهَا ٱلَّذِينَ ءَامَنُوٓا۟ إِنَّمَا ٱلْخَمْرُ وَٱلْمَيْسِرُ وَٱلْأَنصَابُ وَٱلْأَزْلَـٰمُ رِجْسٌ مِّنْ عَمَلِ ٱلشَّيْطَـٰنِ فَٱجْتَنِبُوهُ لَعَلَّكُمْ تُفْلِحُونَ"
 text_search: "يا أيها الذين آمنوا إنما الخمر والميسر والأنصاب والأزلام رجس من عمل الشيطان فاجتنبوه لعلكم تفلحون"
+translations:
+  en: { text: "O ye who believe! Strong drink and games of chance and idols and divining arrows are only an infamy of Satan's handiwork. Leave it aside in order that ye may succeed.", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "اے ایمان والو! شراب اور جوا اور بت اور پاسے (یہ سب) ناپاک کام اعمال شیطان سے ہیں سو ان سے بچتے رہنا تاکہ نجات پاؤ", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-5 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 80:21 (سورة عبس، الآية 21)."
 text: "ثُمَّ أَمَاتَهُۥ فَأَقْبَرَهُۥ"
 text_search: "ثم أماته فأقبره"
+translations:
+  en: { text: "Then causeth him to die, and burieth him;", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "پھر اس کو موت دی پھر قبر میں دفن کرایا", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-80 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

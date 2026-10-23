@@ -1,0 +1,23 @@
+id: event/battle-of-gaza-1917
+class: event
+kind: battle
+label: { ar: "معركة غزة الأولى", en: "First Battle of Gaza" }
+summary:
+  ar: "بطاقة أولية لمعركة غزة الأولى سنة ١٩١٧م، صد العثمانيين الهجوم البريطاني على غزة في الحرب العالمية الأولى؛ لم تُراجع مصادره على الصفحة بعد."
+  en: "Draft card for the First Battle of Gaza in 1917, the Ottoman repulse of the British assault on Gaza in the First World War; its sources are not yet checked on the page."
+wings: [time]
+periods: [period/modern-era]
+regions: [levant-iraq]
+date:
+  start: { edtf: "1917", precision: year, status: tradition, derived: true }
+  end: { edtf: "1917", precision: year, status: tradition, derived: true }
+sources: [source/dawlat-uthmaniyya-salabi]
+external_ids:
+  wikidata: Q2791318
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; battle attested in WWI histories — entry not yet checked on the page"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-wave2
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

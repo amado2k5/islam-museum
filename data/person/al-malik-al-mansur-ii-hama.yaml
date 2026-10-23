@@ -1,0 +1,27 @@
+id: person/al-malik-al-mansur-ii-hama
+class: person
+label: { ar: "الملك المنصور الثاني صاحب حماة", en: "al-Malik al-Mansur II of Hama" }
+names:
+  - { value: "الملك المنصور صاحب حماة ناصر الدين محمد بن الملك المظفر تقي الدين محمود بن المنصور محمد بن تقي الدين عمر بن شاهنشاه بن أيوب", kind: full }
+born: { edtf: "1234~", hijri: "0632~", calendar: julian, precision: year, status: tradition, derived: true, note: "تملك بعد أبيه سنة اثنتين وأربعين وستمائة وله عشر سنين رعايةً لأمه الصاحبة ابنة الكامل {cite:shadharat-dhahab p. 655}." }
+died: { edtf: "1284~", hijri: "0683", calendar: julian, precision: year, status: tradition, derived: true, note: "وفاته في أموات سنة ثلاث وثمانين وستمائة {cite:shadharat-dhahab p. 655}." }
+summary:
+  ar: "صاحب حماة من بيت أيوب؛ تملك بعد أبيه الملك المظفر سنة اثنتين وأربعين وستمائة وله عشر سنين رعايةً لأمه الصاحبة ابنة الكامل، فدام ملكه نحو أربعين سنة؛ وقال في «العبر»: وكان لعاباً مصراً على أمور، الله يسامحه {cite:shadharat-dhahab p. 655}."
+  en: "Hama's last long Ayyubid — enthroned at ten in 642 under his mother's regency and ruling some forty years; al-'Ibar's terse verdict: 'an insistent gamester — may God pardon him' {cite:shadharat-dhahab p. 655}."
+gender: male
+roles: [sultan]
+wings: [people]
+periods: [period/mongol-post-mongol]
+regions: [levant-iraq]
+faith:
+  - value: sunni
+    basis: tradition
+relations:
+  - { type: ruler_of, target: place/hama, sources: [source/shadharat-dhahab] }
+sources: [source/shadharat-dhahab]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }
+provenance:
+  layer: own-research
+  source: "شذرات الذهب — ابن العماد (ج7، سنة 683)، قراءة آبل فيجن"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-shadharat-batch-133

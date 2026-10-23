@@ -1,0 +1,38 @@
+id: event/ali-declines-to-retain-muawiya
+class: event
+kind: other
+label: { ar: "رفض علي إبقاء معاوية في ولايته", en: "Ali declines to keep Muawiya in office" }
+summary:
+  ar: "بعد مبايعته بالخلافة، أشار عليه المغيرة بن شعبة بإبقاء معاوية على الشام مؤقتاً، وأشار ابن عباس بأن العزل يُثير أهل الشام، فرفض علي وقال إنه لا يستعمل معاوية يومين {cite:abqariyyat-ali-aqqad p.94}. ويرى العقاد أن علياً كان محقاً في امتناعه، لأن معاوية لم يكن واليا يقنع بولايته، بل كان يبني دولة لنفسه وذريته ويتخذ مقتل عثمان فرصة لها {cite:abqariyyat-ali-aqqad p.96}."
+  en: "After the pledge of allegiance, al-Mughira ibn Shu'ba advised keeping Muawiya in Syria for a while and Ibn Abbas warned that dismissal would stir Syria; Ali refused, saying he would not employ Muawiya for two days {cite:abqariyyat-ali-aqqad p.94}. Al-Aqqad judges that Ali was right, since Muawiya was building a state for himself and his heirs {cite:abqariyyat-ali-aqqad p.96}."
+wings: [people, ideas]
+themes: [civil-wars-and-revolts, factions-splits-schisms]
+periods: [period/rashidun]
+regions: [levant-iraq]
+date:
+  start: { hijri: "0035", precision: year, status: tradition, derived: true, note: "الكتاب لا يؤرخ هذا المشهد بسنة؛ الواقعة بعد البيعة (35هـ) وقبل صفين (37هـ). التاريخ مشتق من ترتيب الأحداث في الكتاب، ثقة منخفضة (abqariyyat-ali-aqqad pp. 93-96)." }
+relations:
+  - { type: had_participant, target: person/ali-ibn-abi-talib, role: "رفض إبقاء معاوية في عمله", sources: [source/abqariyyat-ali-aqqad] }
+  - { type: had_participant, target: person/muawiya-ibn-abi-sufyan, role: "والي الشام الذي كان العزل موضوع الخلاف", sources: [source/abqariyyat-ali-aqqad] }
+  - { type: had_participant, target: person/al-mughira-ibn-shuba, role: "أشار بإبقاء معاوية مؤقتاً", sources: [source/abqariyyat-ali-aqqad] }
+  - { type: had_participant, target: person/abdullah-ibn-abbas, role: "نبّه إلى أن العزل يُثير أهل الشام", sources: [source/abqariyyat-ali-aqqad] }
+  - { type: caused, target: event/battle-of-siffin, sources: [source/abqariyyat-ali-aqqad] }
+issue: { ar: "هل كان الإبقاء على معاوية أسلم للأمة، أم كان العزل هو الصواب؟", en: "Would keeping Muawiya in office have been safer, or was dismissal right?" }
+perspectives:
+  - tradition: sunni
+    id: sunni-pending
+    stance: { ar: "لم يُعرض بعد من مصدر سني محدد", en: "Not yet set out from a named Sunni source" }
+    summary:
+      ar: "لم يُنقل هنا موقف سني كلاسيكي من هذا المشهد؛ يُضاف عند توفر مصدر سني محدد يُرجع إليه (needs_source)."
+      en: "No classical Sunni position on this episode is recorded here; to be added from a named source (needs_source)."
+    sources: [source/abqariyyat-ali-aqqad]
+  - tradition: other
+    id: aqqad-judgement
+    stance: { ar: "حكم العقاد: الامتناع كان أرجح من الإبقاء", en: "Al-Aqqad's judgement: refusal was the sounder course" }
+    summary:
+      ar: "يرى العقاد أن رأي علي كان أرجح، لأن إقرار معاوية لم يكن ليُهدئ الأمر، وأن معاوية كان يعمل لدولة ذات أسس لا لولاية مؤقتة {cite:abqariyyat-ali-aqqad p.96}. وهذا حكم المؤلف وليس حكم المتحف."
+      en: "Al-Aqqad judges that Ali's view was the sounder: keeping Muawiya would not have calmed matters, and Muawiya was building a state rather than holding a governorship {cite:abqariyyat-ali-aqqad p.96}. This is the author's judgement, not the museum's."
+    sources: [source/abqariyyat-ali-aqqad]
+sources: [source/abqariyyat-ali-aqqad]
+status: { review: draft, completeness: 1, generated_by: "Claude Code (claude-haiku-5-5); from abqariyyat-ali-aqqad pp. 93-96" }
+provenance: { layer: own-research, source: "abqariyyat-ali-aqqad pp. 93-96", generated_by: "Claude Code", model: "claude-haiku-5-5", run: "abqariyyat-ali-aqqad-batch1" }

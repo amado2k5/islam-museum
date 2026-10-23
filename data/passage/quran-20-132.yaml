@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 20:132 (سورة طه، الآية 132)."
 text: "وَأْمُرْ أَهْلَكَ بِٱلصَّلَوٰةِ وَٱصْطَبِرْ عَلَيْهَا ۖ لَا نَسْـَٔلُكَ رِزْقًا ۖ نَّحْنُ نَرْزُقُكَ ۗ وَٱلْعَـٰقِبَةُ لِلتَّقْوَىٰ"
 text_search: "وأمر أهلك بالصلاة واصطبر عليها ۖ لا نسألك رزقا ۖ نحن نرزقك ۗ والعاقبة للتقوى"
+translations:
+  en: { text: "And enjoin upon thy people worship, and be constant therein. We ask not of thee a provision: We provided for thee. And the sequel is for righteousness.", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "اور اپنے گھر والوں کو نماز کا حکم کرو اور اس پر قائم رہو۔ ہم تم سے روزی کے خواستگار نہیں۔ بلکہ تمہیں ہم روزی دیتے ہیں اور (نیک) انجام (اہل) تقویٰ کا ہے", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-20 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

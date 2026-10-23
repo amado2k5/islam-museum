@@ -1,0 +1,23 @@
+id: event/jalal-tabriz-ganja-622
+class: event
+kind: conquest
+label: { ar: "عود جلال الدين إلى تبريز وملكه كنجة", en: "Jalal al-Din returns to Tabriz, takes Ganja, marries Uzbak's wife" }
+date:
+  start: { edtf: "1225~", hijri: "0622", calendar: julian, precision: year, status: tradition, derived: true }
+summary:
+  ar: "عاد جلال الدين إلى تبريز فملك مدينة كنجة ونكح امرأة أتابك أوزبك الذي كان قد فرّ منه {cite:kamil-ibn-al-athir p. 450}."
+  en: "Jalal al-Din returned to Tabriz, took Ganja, and married the wife of the fleeing atabeg Uzbak {cite:kamil-ibn-al-athir p. 450}."
+sides:
+  - label: { ar: "المسلمون وخصومهم" }
+  - label: { ar: "الطرف الآخر" }
+relations:
+  - { type: occurred_at, target: place/tabriz, sources: [source/kamil-ibn-al-athir] }
+  - { type: had_participant, target: person/jalal-al-din-khwarazmshah, role: "المالك", sources: [source/kamil-ibn-al-athir] }
+  - { type: had_participant, target: person/uzbak-atabeg, role: "المهزوم", sources: [source/kamil-ibn-al-athir] }
+provenance:
+  layer: own-research
+  source: "الكامل في التاريخ لابن الأثير، قراءة آبل فيجن"
+  generated_by: "Devin (SWE-2 Medium) from Apple Vision OCR"
+  run: lib-kamil-v12-batch08
+sources: [source/kamil-ibn-al-athir]
+status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 Medium)" }

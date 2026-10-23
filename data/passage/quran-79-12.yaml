@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 79:12 (سورة النازعات، الآية 12)."
 text: "قَالُوا۟ تِلْكَ إِذًا كَرَّةٌ خَاسِرَةٌ"
 text_search: "قالوا تلك إذا كرة خاسرة"
+translations:
+  en: { text: "They say: Then that would be a vain proceeding.", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "کہتے ہیں کہ یہ لوٹنا تو (موجب) زیاں ہے", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-79 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

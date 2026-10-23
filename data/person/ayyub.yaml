@@ -1,0 +1,15 @@
+id: person/ayyub
+class: person
+label: { ar: "أيوب", en: "Ayyub (Job)" }
+gender: male
+summary:
+  ar: "النبي المبتلى بالصبر. عند البخاري أنه اغتسل عرياناً فخرّ عليه جراد من ذهب فجعل يحثي في ثوبه فناداه ربه ألم أكن أغنيتك عما ترى، قال بلى وعزتك ولكن لا غنى بي عن بركتك {cite:sahih-al-bukhari 279}."
+  en: "The prophet of patience: bathing unclothed when golden locusts rained on him, he answered his Lord 'yes, by Your might, but I cannot do without Your blessing' {cite:sahih-al-bukhari 279}."
+wings: [people]
+themes: [prophets]
+periods: [period/pre-islamic-arabia]
+story_roles:
+  - { role: prophet-figure, status: scriptural, sources: [source/tanzil-quran, source/sahih-al-bukhari] }
+provenance: { layer: own-research, source: "صحيح البخاري (طبعة دار ابن كثير، ترقيم فخر الدين)، تصوير Apple Vision OCR", generated_by: "Devin (SWE-2 High) from Apple Vision OCR", run: "hadith-bukhari-anbiya" }
+sources: [source/sahih-al-bukhari]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High) from Apple Vision OCR" }

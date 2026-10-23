@@ -1,0 +1,26 @@
+id: event/mutadid-banu-shayban-raid-280
+class: event
+kind: campaign
+label: { ar: "غارة المعتضد على بني شيبان", en: "Al-Mu'tadid's raid on Banu Shayban" }
+summary:
+  ar: "لليلة خلت من صفر سنة ثمانين ومائتين شخص المعتضد من بغداد يريد بني شيبان فقصد الموضع الذي كانوا يتخذونه معقلًا فأوقع بهم وقتل وسبى، ومعه دليل طيب الصوت أنشد أعرابيًا قصيدة النوباذ حتى تغرغرت عين المعتضد وقال ما سلم أحد من الحدثان، ودخل بيوت الأعراب في عدة قليلة فلحقه بدر فقال لو عرفوك وأقدموا عليك كيف كانت تكون حالك، فقال لو عرفوني لتغرّقوا أما علمت أن الرصافة وحدها عشرون ألفًا {cite:muntazam-ibn-al-jawzi p. 142}."
+  en: "In early Safar 280 al-Mu'tadid rode out of Baghdad against Banu Shayban's fastness, killed and took captives; at the verses of Nubadh his eyes welled and he said 'none survives time's changes' — and when Badr asked what if the Arabs recognized him with so small an escort, he answered 'they would be the ones to drown; the Rassafa alone is twenty thousand' {cite:muntazam-ibn-al-jawzi p. 142}."
+wings: [time]
+periods: [period/abbasid-early]
+regions: [levant-iraq]
+sides:
+  - label: { ar: "الدولة العباسية" }
+    commanders: [person/al-mutadid]
+  - label: { ar: "بنو شيبان" }
+map: { kind: locator, precision: approximate, center: [44.4, 33.3] }
+date:
+  start: { edtf: "0893-02~", hijri: "0280-02", calendar: julian, precision: month, status: tradition, derived: true, note: "صفر ٢٨٠؛ التحويل مشتق {cite:muntazam-ibn-al-jawzi p. 142}." }
+relations:
+  - { type: had_participant, target: person/al-mutadid, role: "الخليفة", sources: [source/muntazam-ibn-al-jawzi] }
+provenance:
+  layer: own-research
+  source: "المنتظم لابن الجوزي (ط حيدرآباد 1357، ج5 ق2، سنة 280)، قراءة آبل فيجن"
+  generated_by: "Devin (SWE-2 Medium) from Apple Vision OCR"
+  run: lib-muntazam-258-349-batch27
+sources: [source/muntazam-ibn-al-jawzi]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 Medium)" }

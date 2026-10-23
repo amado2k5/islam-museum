@@ -1,0 +1,26 @@
+id: person/al-malik-al-mughith-umar
+class: person
+label: { ar: "الملك المغيث عمر بن الصالح أيوب", en: "al-Malik al-Mughith Umar b. al-Salih Ayyub" }
+names:
+  - { value: "الملك المغيث عمر بن الملك الصالح نجم الدين أيوب", kind: full }
+died: { edtf: "1244", hijri: "0642", calendar: julian, precision: year, status: tradition, derived: true, note: "حبسه الملك الصالح إسماعيل وضيق عليه السامري فمات غماً وغبناً ودفن بتربة جده الملك الكامل {cite:shadharat-dhahab p. 223}." }
+summary:
+  ar: "ابن الملك الصالح أيوب؛ لم يحفظ عنه كلمة فحش؛ حبسه الملك الصالح إسماعيل وضيّق عليه السامري فمات غماً وغبناً ودفن بتربة جده الملك الكامل {cite:shadharat-dhahab p. 223}."
+  en: "Al-Salih Ayyub's son (d. 642) — of whom no foul word was ever recorded; imprisoned by al-Salih Isma'il and squeezed by the minister 'the Samaritan', he died of grief and was buried in his grandfather al-Kamil's tomb {cite:shadharat-dhahab p. 223}."
+gender: male
+roles: [emir]
+wings: [people]
+periods: [period/crusades-ayyubid-mamluk]
+regions: [levant-iraq, egypt-nile]
+faith:
+  - value: sunni
+    basis: tradition
+relations:
+  - { type: child_of, target: person/al-malik-al-salih-ayyub, sources: [source/shadharat-dhahab] }
+sources: [source/shadharat-dhahab]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }
+provenance:
+  layer: own-research
+  source: "شذرات الذهب — ابن العماد (ج5، سنة 642)، قراءة آبل فيجن"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-shadharat-batch-127

@@ -1,0 +1,76 @@
+id: exhibit/path-muallaqat
+class: exhibit
+kind: trail
+label:
+  ar: المعلقات
+  en: The Mu'allaqat
+summary:
+  ar: 'مسار في سبائك الذهب: امرؤ القيس يبدأ، وعنترة ولبيد وعمرو يتبعون — قصائد الجاهلية المعلقة على الكعبة.'
+  en: A trail through the golden odes.
+audience:
+- newcomer
+- student
+duration_minutes: 30
+wings: []
+regions:
+- arabia
+rooms:
+- title:
+    ar: امرؤ القيس
+    en: Imru' al-Qays
+  body:
+    ar: 'الملك الضليل: أول المعلقات وأحسنها.'
+    en: 'الملك الضليل: أول المعلقات وأحسنها.'
+  features:
+  - person/imru-al-qays-ibn-hujr
+  - place/ukaz
+- title:
+    ar: عنترة
+    en: Antara
+  body:
+    ar: 'ابن شداد العبسي: الفارس الشاعر.'
+    en: 'ابن شداد العبسي: الفارس الشاعر.'
+  features:
+  - person/antara-ibn-shaddad
+  - place/ukaz
+- title:
+    ar: عمرو بن كلثوم
+    en: Amr
+  body:
+    ar: 'ابن كلثوم التغلبي: الفخر والعزة.'
+    en: 'ابن كلثوم التغلبي: الفخر والعزة.'
+  features:
+  - person/amr-ibn-kulthum
+  - place/ukaz
+- title:
+    ar: لبيد
+    en: Labid
+  body:
+    ar: 'آخر المعلقات: شاعر أسلم في المدينة.'
+    en: 'آخر المعلقات: شاعر أسلم في المدينة.'
+  features:
+  - person/labid-ibn-rabia
+  - place/medina
+- title:
+    ar: عكاظ
+    en: Ukaz
+  body:
+    ar: 'سوق الشعراء: المنبر الجاهلي.'
+    en: 'سوق الشعراء: المنبر الجاهلي.'
+  features:
+  - place/ukaz
+  - place/taif
+prerequisites:
+- exhibit/path-islam-in-30-minutes
+sources:
+- source/wikidata
+provenance:
+  layer: own-research
+  source: Devin-assembled trail from existing museum entities
+  generated_by: Devin (SWE-2 High)
+  model: SWE-2 High
+  run: pathways-batch-7
+status:
+  review: draft
+  completeness: 1
+  generated_by: Devin (SWE-2 High), pathways lane, 2026-10-16

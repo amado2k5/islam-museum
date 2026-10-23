@@ -1,0 +1,21 @@
+id: place/radman
+class: place
+kind: site
+label: { ar: "ردمان", en: "Radman" }
+summary:
+  ar: "موضع من أرض اليمن هلك فيه المطلب بن عبد مناف عم عبد المطلب، في رواية الرحيق المختوم عن ابن هشام."
+  en: "A place in Yemen where al-Muttalib ibn Abd Manaf, the uncle of Abd al-Muttalib, died, in al-Raheeq al-Makhtum's account after Ibn Hisham."
+wings: [place]
+periods: [period/pre-islamic-arabia]
+regions: [arabia]
+coordinate_note: "لم تُحدَّد الإحداثيات بعد؛ الموضع باليمن."
+relations:
+  - { type: located_in, target: place/yemen, sources: [source/mubarakpuri-raheeq] }
+provenance:
+  layer: own-research
+  source: "الرحيق المختوم ص49–53 نقلاً عن ابن هشام 1/137–158 ومختصر سيرة الرسول للنجدي ص41–42 وتفهيم القرآن 6/462–469"
+  generated_by: "Claude Code"
+  model: "claude-fable-5-1"
+  run: "raheeq-prose-batch-5a"
+sources: [source/mubarakpuri-raheeq, source/ibn-hisham-sira]
+status: { review: draft, completeness: 1, generated_by: "Claude Code (claude-fable-5-1); al-Raheeq al-Makhtum p. 50" }

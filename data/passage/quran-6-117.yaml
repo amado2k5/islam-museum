@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 6:117 (سورة الأنعام، الآية 117)."
 text: "إِنَّ رَبَّكَ هُوَ أَعْلَمُ مَن يَضِلُّ عَن سَبِيلِهِۦ ۖ وَهُوَ أَعْلَمُ بِٱلْمُهْتَدِينَ"
 text_search: "إن ربك هو أعلم من يضل عن سبيله ۖ وهو أعلم بالمهتدين"
+translations:
+  en: { text: "Lo! thy Lord, He knoweth best who erreth from His way; and He knoweth best (who are) the rightly guided.", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "تمہارا پروردگار ان لوگوں کو خوب جانتا ہے جو اس کے رستے سے بھٹکے ہوئے ہیں اور ان سے بھی خوب واقف ہے جو رستے پر چل رہے ہیں", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-6 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

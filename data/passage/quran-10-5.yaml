@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 10:5 (سورة يونس، الآية 5)."
 text: "هُوَ ٱلَّذِى جَعَلَ ٱلشَّمْسَ ضِيَآءً وَٱلْقَمَرَ نُورًا وَقَدَّرَهُۥ مَنَازِلَ لِتَعْلَمُوا۟ عَدَدَ ٱلسِّنِينَ وَٱلْحِسَابَ ۚ مَا خَلَقَ ٱللَّهُ ذَٰلِكَ إِلَّا بِٱلْحَقِّ ۚ يُفَصِّلُ ٱلْـَٔايَـٰتِ لِقَوْمٍ يَعْلَمُونَ"
 text_search: "هو الذي جعل الشمس ضياء والقمر نورا وقدره منازل لتعلموا عدد السنين والحساب ۚ ما خلق الله ذلك إلا بالحق ۚ يفصل الآيات لقوم يعلمون"
+translations:
+  en: { text: "He it is Who appointed the sun a splendour and the moon a light, and measured for her stages, that ye might know the number of the years, and the reckoning. Allah created not (all) that save in truth. He detaileth the revelations for people who have knowledge.", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "وہی تو ہے جس نے سورج کو روشن اور چاند کو منور بنایا اور چاند کی منزلیں مقرر کیں تاکہ تم برسوں کا شمار اور (کاموں کا) حساب معلوم کرو۔ یہ (سب کچھ) خدا نے تدبیر سے پیدا کیا ہے۔ سمجھنے والوں کے لیے وہ اپنی آیاتیں کھول کھول کر بیان فرماتا ہے", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-10 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

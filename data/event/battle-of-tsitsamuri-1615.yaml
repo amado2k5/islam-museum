@@ -1,0 +1,23 @@
+id: event/battle-of-tsitsamuri-1615
+class: event
+kind: battle
+label: { ar: "معركة تسيتساموري", en: "Battle of Tsitsamuri" }
+summary:
+  ar: "بطاقة أولية لمعركة تسيتساموري سنة ١٦١٥م، انتفاضة الجورجيين على الحكم الصفوي في عهد الشاه عباس؛ لم تُراجع مصادره على الصفحة بعد."
+  en: "Draft card for the Battle of Tsitsamuri in 1615, the Georgian rising against Safavid rule; its sources are not yet checked on the page."
+wings: [time]
+periods: [period/gunpowder-empires]
+regions: [persia-central-asia]
+date:
+  start: { edtf: "1615", precision: year, status: tradition, derived: true }
+  end: { edtf: "1615", precision: year, status: tradition, derived: true }
+sources: [source/tarikh-islam-hasan-ibrahim]
+external_ids:
+  wikidata: Q19360940
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; battle attested in narrative histories — entry not yet checked on the page"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-wave2
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

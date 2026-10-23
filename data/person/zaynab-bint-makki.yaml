@@ -1,0 +1,25 @@
+id: person/zaynab-bint-makki
+class: person
+label: { ar: "زينب بنت مكي الحرانية", en: "Zaynab bint Makki of Harran" }
+names:
+  - { value: "زينب بنت مكي بن علي بن كامل الحراني الشيخة المعمرة العابدة أم أحمد", kind: full }
+born: { edtf: "1197~", hijri: "0594~", calendar: julian, precision: year, status: tradition, derived: true, note: "عاشت أربعاً وتسعين سنة {cite:shadharat-dhahab p. 707}." }
+died: { edtf: "1289-10~", hijri: "0688-10", calendar: julian, precision: month, status: tradition, derived: true, note: "توفيت في شوال سنة ثمان وثمانين وستمائة {cite:shadharat-dhahab p. 707}." }
+summary:
+  ar: "الشيخة المعمرة العابدة أم أحمد؛ سمعت من حنبل وابن طبرزد وست الكتبة وطائفة، وازدحم عليها الطلبة، وعاشت أربعاً وتسعين سنة {cite:shadharat-dhahab p. 707}."
+gender: female
+roles: [scholar, teacher]
+wings: [people]
+periods: [period/mongol-post-mongol]
+regions: [levant-iraq]
+faith:
+  - value: sunni
+    basis: tradition
+relations: []
+sources: [source/shadharat-dhahab]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }
+provenance:
+  layer: own-research
+  source: "شذرات الذهب — ابن العماد (ج7، سنة 688)، قراءة آبل فيجن"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-shadharat-batch-134

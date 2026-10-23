@@ -1,0 +1,33 @@
+# Production deployment of the R2-backed HTML Worker. Deployed by deploy.yml on every
+# push to main, on its workers.dev URL only: no route is set here. Attaching the
+# islam.museum/* route is a separate, approved step (dashboard), and removing the
+# route is the rollback.
+name = "islam-museum-site"
+main = "src/index.js"
+compatibility_date = "2025-10-11"
+
+[observability]
+enabled = true
+
+# Workers Caching: Cloudflare serves a cached response without running the Worker,
+# honouring the Cache-Control the Worker sets (an hour for HTML and redirects, none
+# for 404s). cross_version_cache keeps the warm cache across the frequent redeploys
+# (every push to main): page content comes from R2, not from the Worker version, so
+# a new version has nothing to invalidate. Needs wrangler 4.107 or later.
+[cache]
+enabled = true
+cross_version_cache = true
+
+[assets]
+# CI copies dist without the R2-served directories (ar, en, ur, api, pagefind-*)
+# into dist-assets; see deploy.yml. About 1,600 files.
+directory = "../../dist-assets"
+binding = "ASSETS"
+# A path that matches no asset answers with the site's own 404 page (404.html), as Pages did.
+not_found_handling = "404-page"
+# Only these paths run the Worker; all other requests are served straight from assets.
+run_worker_first = ["/ar/*", "/en/*", "/ur/*"]
+
+[[r2_buckets]]
+binding = "SITE_BUCKET"
+bucket_name = "islam-museum-search"

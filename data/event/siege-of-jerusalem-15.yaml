@@ -1,0 +1,23 @@
+id: event/siege-of-jerusalem-15
+class: event
+kind: siege
+label: { ar: "فتح القدس (٦٣٧)", en: "Siege of Jerusalem (637)" }
+summary:
+  ar: "بطاقة أولية لحصار وفتح القدس سنة ١٥هـ/٦٣٧م، حين سلّم البطريرك صفرونيوس المدينة للخليفة عمر بن الخطاب؛ لم تُراجع مصادره على الصفحة بعد."
+  en: "Draft card for the siege and surrender of Jerusalem in 15/637, when Patriarch Sophronius delivered the city to the caliph Umar ibn al-Khattab; its sources are not yet checked on the page."
+wings: [time]
+periods: [period/rashidun]
+regions: [levant-iraq]
+date:
+  start: { edtf: "637", precision: year, status: tradition, derived: true }
+  end: { edtf: "637", precision: year, status: tradition, derived: true }
+sources: [source/tarikh-al-tabari]
+external_ids:
+  wikidata: Q815154
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; siege attested in conquest histories — entry not yet checked on the page"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-wave2
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

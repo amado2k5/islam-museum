@@ -1,0 +1,31 @@
+id: event/negotiations-with-banu-shayban
+class: event
+kind: other
+label: { ar: "عرض النبي نفسه على بني شيبان ومفاوضاتهم", en: "The Prophet presents himself to the tribe of Shayban" }
+summary:
+  ar: "في مكة قبل الهجرة أُمر النبي أن يعرض نفسه على قبائل العرب، فخرج بصحبة علي وأبي بكر إلى منى، ودخل مجلساً لبني شيبان بن ثعلبة فتكلم مفروق وهانئ والمثنى بن حارثة؛ انتهت المباحثات دون اتفاق، وتعلّم فيها علي من النبي أن النصرة لا تُشترط بمنصب أو عوض، وأن دين الله لا ينصره إلا من حاطه من جميع جوانبه."
+  en: "Before the Hijra, the Prophet was commanded to present himself to the Arab tribes. With Ali and Abu Bakr he went to Mina and met the Banu Shayban ibn Tha'laba; the talks ended without an alliance, and Ali learned that support for the call must not be bought with power or reward."
+wings: [people, ideas]
+periods: [period/prophetic-era]
+regions: [arabia]
+date:
+  start: { edtf: "0610/0622", calendar: julian, precision: year, status: tradition, derived: true, note: "الكتاب لا يذكر تاريخاً لهذه المفاوضات؛ هي في الفترة المكية قبل الهجرة (ص35-36). التاريخ مشتق لا منصوص عليه." }
+relations:
+  - { type: occurred_at, target: place/mecca }
+  - { type: had_participant, target: person/muhammad, role: "عرض نفسه على القبائل", sources: [source/sallabi-ali-vol1] }
+  - { type: had_participant, target: person/ali-ibn-abi-talib, role: "صاحب النبي في المجلس وتعلّم منه", sources: [source/sallabi-ali-vol1] }
+  - { type: had_participant, target: person/abu-bakr, role: "تقدم فسلم وسأل عن القوم", sources: [source/sallabi-ali-vol1] }
+  - { type: part_of, target: period/prophetic-era }
+issue: { ar: "هل يُقبل من القبيلة الراغبة في النصرة عهد أو حماية في مقابل الحكم أو المنفعة؟", en: "Can a tribe offering support be given rule or a reward in return?" }
+perspectives:
+  - tradition: sunni
+    id: sunni-author
+    summary: { ar: "يذكر الصلابي أن النبي رفض أن يُعطي من يقدم النصرة ضماناً بأن يكون لأشخاصهم شيء في الحكم، لأن الدعوة إلى الله وشرطها الإخلاص، ويرى أن النبي اشترط ألا تُربط النصرة بمعاهدة تتناقض مع الدعوة (ص36-37).", en: "Al-Sallabi writes that the Prophet refused any guarantee of a share in rule to those offering support, because the call is for God and requires sincerity, and that he would not bind support to a treaty contrary to the call (pp. 36-37)." }
+    sources: [source/sallabi-ali-vol1]
+  - tradition: other
+    id: other-reading
+    summary: { ar: "لم يُعرض هنا قراءة تاريخية أخرى لسبب فشل المفاوضات؛ فالتلخيص يُحتاج إلى مرجع محدد (needs_source).", en: "No alternative historical reading of why the talks failed is presented here; a named reference is needed (needs_source)." }
+    sources: [source/sallabi-ali-vol1]
+sources: [source/sallabi-ali-vol1]
+status: { review: draft, completeness: 1, generated_by: "Claude Code (claude-haiku-5-5); mined from sallabi-ali-vol1 pp. 35-37" }
+provenance: { layer: own-research, source: "sallabi-ali-vol1 pp. 35-37", generated_by: "Claude Code", model: "claude-haiku-5-5", run: "sallabi-ali-vol1-batch1" }

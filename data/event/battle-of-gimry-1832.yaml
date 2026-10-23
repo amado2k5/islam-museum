@@ -1,0 +1,23 @@
+id: event/battle-of-gimry-1832
+class: event
+kind: battle
+label: { ar: "معركة غيمري", en: "Battle of Gimry" }
+summary:
+  ar: "بطاقة أولية لمعركة غيمري سنة ١٨٣٢م، استشهاد غازي محمد وإصابة شامل في حرب القوقاز؛ لم تُراجع مصادره على الصفحة بعد."
+  en: "Draft card for the Battle of Gimry in 1832, Ghazi Muhammad's martyrdom and Shamil's escape; its sources are not yet checked on the page."
+wings: [time]
+periods: [period/colonial-era]
+regions: [persia-central-asia]
+date:
+  start: { edtf: "1832-10", precision: year, status: tradition, derived: true }
+  end: { edtf: "1832-10", precision: year, status: tradition, derived: true }
+sources: [source/tarikh-islam-hasan-ibrahim]
+external_ids:
+  wikidata: Q15925422
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; battle attested in narrative histories — entry not yet checked on the page"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-wave2
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

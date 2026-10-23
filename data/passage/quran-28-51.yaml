@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 28:51 (سورة القصص، الآية 51)."
 text: "۞ وَلَقَدْ وَصَّلْنَا لَهُمُ ٱلْقَوْلَ لَعَلَّهُمْ يَتَذَكَّرُونَ"
 text_search: "۞ ولقد وصلنا لهم القول لعلهم يتذكرون"
+translations:
+  en: { text: "And now verily We have caused the Word to reach them, that haply they may give heed.", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "اور ہم پے درپے اُن لوگوں کے پاس (ہدایت کی) باتیں بھیجتے رہے ہیں تاکہ نصیحت پکڑیں", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-28 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

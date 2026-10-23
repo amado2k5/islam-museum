@@ -12,10 +12,13 @@ summary:
   ar: "القرآن 6:151 (سورة الأنعام، الآية 151)."
 text: "۞ قُلْ تَعَالَوْا۟ أَتْلُ مَا حَرَّمَ رَبُّكُمْ عَلَيْكُمْ ۖ أَلَّا تُشْرِكُوا۟ بِهِۦ شَيْـًٔا ۖ وَبِٱلْوَٰلِدَيْنِ إِحْسَـٰنًا ۖ وَلَا تَقْتُلُوٓا۟ أَوْلَـٰدَكُم مِّنْ إِمْلَـٰقٍ ۖ نَّحْنُ نَرْزُقُكُمْ وَإِيَّاهُمْ ۖ وَلَا تَقْرَبُوا۟ ٱلْفَوَٰحِشَ مَا ظَهَرَ مِنْهَا وَمَا بَطَنَ ۖ وَلَا تَقْتُلُوا۟ ٱلنَّفْسَ ٱلَّتِى حَرَّمَ ٱللَّهُ إِلَّا بِٱلْحَقِّ ۚ ذَٰلِكُمْ وَصَّىٰكُم بِهِۦ لَعَلَّكُمْ تَعْقِلُونَ"
 text_search: "۞ قل تعالوا أتل ما حرم ربكم عليكم ۖ ألا تشركوا به شيئا ۖ وبالوالدين إحسانا ۖ ولا تقتلوا أولادكم من إملاق ۖ نحن نرزقكم وإياهم ۖ ولا تقربوا الفواحش ما ظهر منها وما بطن ۖ ولا تقتلوا النفس التي حرم الله إلا بالحق ۚ ذلكم وصاكم به لعلكم تعقلون"
+translations:
+  en: { text: "Say: Come, I will recite unto you that which your Lord hath made a sacred duty for you: That ye ascribe no thing as partner unto Him and that ye do good to parents, and that ye slay not your children because of penury - We provide for you and for them - and that ye draw not nigh to lewd things whether open or concealed. And that ye slay not the life which Allah hath made sacred, save in the course of justice. This He hath command you, in order that ye may discern.", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "کہہ کہ (لوگو) آؤ میں تمہیں وہ چیزیں پڑھ کر سناؤں جو تمہارے پروردگار نے تم پر حرام کر دی ہیں (ان کی نسبت اس نے اس طرح ارشاد فرمایا ہے) کہ کسی چیز کو خدا کا شریک نہ بنانا اور ماں باپ (سے بدسلوکی نہ کرنا بلکہ) سلوک کرتے رہنا اور ناداری (کے اندیشے) سے اپنی اولاد کو قتل نہ کرنا کیونکہ تم کو اور ان کو ہم ہی رزق دیتے ہیں اور بےحیائی کے کام ظاہر ہوں یا پوشیدہ ان کے پاس نہ پھٹکنا اور کسی جان (والے) کو جس کے قتل کو خدا نے حرام کر دیا ہے قتل نہ کرنا مگر جائز طور پر (یعنی جس کا شریعت حکم دے) ان باتوں کا وہ تمہیں ارشاد فرماتا ہے تاکہ تم سمجھو", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: revealed_about, target: concept/wad }
   - { type: part_of, target: passage/quran-6 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

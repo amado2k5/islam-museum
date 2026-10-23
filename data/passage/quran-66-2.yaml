@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 66:2 (سورة التحريم، الآية 2)."
 text: "قَدْ فَرَضَ ٱللَّهُ لَكُمْ تَحِلَّةَ أَيْمَـٰنِكُمْ ۚ وَٱللَّهُ مَوْلَىٰكُمْ ۖ وَهُوَ ٱلْعَلِيمُ ٱلْحَكِيمُ"
 text_search: "قد فرض الله لكم تحلة أيمانكم ۚ والله مولاكم ۖ وهو العليم الحكيم"
+translations:
+  en: { text: "Allah hath made lawful for you (Muslims) absolution from your oaths (of such a kind), and Allah is your Protector. He is the Knower, the Wise.", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "خدا نے تم لوگوں کے لئے تمہاری قسموں کا کفارہ مقرر کردیا ہے۔ اور خدا ہی تمہارا کارساز ہے۔ اور وہ دانا (اور) حکمت والا ہے", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-66 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

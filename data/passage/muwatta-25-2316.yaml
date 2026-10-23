@@ -1,0 +1,15 @@
+id: passage/muwatta-25-2316
+class: passage
+unit: hadith
+work: work/muwatta-malik
+ref: "2316"
+label: { ar: "الموطأ 2316 — مالك: لا بأس أن يشتري المكاتب كتابته بعين أو عرض", en: "Muwatta 2316" }
+summary:
+  ar: "قال مالك: لا بأس بأن يشتري المكاتب كتابته بعين أو عرض مخالف لما كوتب به أو غير مخالف، معجلا أو مؤجلا. {cite:muwatta-maruf-1997 p.356}"
+relations:
+  - { type: part_of, target: passage/muwatta-kitab-25-mukatab }
+  - { type: mentions, target: person/malik-ibn-anas, sources: [source/muwatta-maruf-1997] }
+  - { type: basis_for, target: concept/mukatab, sources: [source/muwatta-maruf-1997] }
+provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 2, hadith 2316 at PDF p. 356; بيع المكاتب", generated_by: "Claude Code (claude-haiku-5-5) from Apple Vision OCR of the Noor-Book PDF, checked on the page image where doubtful", run: "muwatta-prose-k25-b72" }
+sources: [source/muwatta-maruf-1997]
+status: { review: draft, completeness: 2, generated_by: "Claude Code (claude-haiku-5-5); own-words account written from PDF p. 356; matn excerpt at most 40 words" }

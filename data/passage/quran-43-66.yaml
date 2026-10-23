@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 43:66 (سورة الزخرف، الآية 66)."
 text: "هَلْ يَنظُرُونَ إِلَّا ٱلسَّاعَةَ أَن تَأْتِيَهُم بَغْتَةً وَهُمْ لَا يَشْعُرُونَ"
 text_search: "هل ينظرون إلا الساعة أن تأتيهم بغتة وهم لا يشعرون"
+translations:
+  en: { text: "Await they aught save the Hour, that it shall come upon them suddenly, when they know not?", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "یہ صرف اس بات کے منتظر ہیں کہ قیامت ان پر ناگہاں آموجود ہو اور ان کو خبر تک نہ ہو", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-43 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

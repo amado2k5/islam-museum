@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 56:50 (سورة الواقعة، الآية 50)."
 text: "لَمَجْمُوعُونَ إِلَىٰ مِيقَـٰتِ يَوْمٍ مَّعْلُومٍ"
 text_search: "لمجموعون إلى ميقات يوم معلوم"
+translations:
+  en: { text: "Will all be brought together to the tryst of an appointed day.", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "(سب) ایک روز مقرر کے وقت پر جمع کئے جائیں گے", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-56 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

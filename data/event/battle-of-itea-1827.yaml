@@ -1,0 +1,23 @@
+id: event/battle-of-itea-1827
+class: event
+kind: naval-battle
+label: { ar: "معركة إيتيا (١٨٢٧)", en: "Battle of Itea" }
+summary:
+  ar: "بطاقة أولية لمعركة إيتيا البحرية سنة ١٨٢٧م، اشتباك الأسطول العثماني والقوات اليونانية في خليج كورنث؛ لم تُراجع مصادره على الصفحة بعد."
+  en: "Draft card for the naval Battle of Itea in 1827 during the Greek War of Independence; its sources are not yet checked on the page."
+wings: [time]
+periods: [period/colonial-era]
+regions: [anatolia-balkans]
+date:
+  start: { edtf: "1827-09-17", precision: year, status: tradition, derived: true }
+  end: { edtf: "1827-09-17", precision: year, status: tradition, derived: true }
+sources: [source/dawlat-uthmaniyya-salabi]
+external_ids:
+  wikidata: Q18175416
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; battle attested in narrative histories — entry not yet checked on the page"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-wave2
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

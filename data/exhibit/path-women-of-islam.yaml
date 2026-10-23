@@ -1,0 +1,88 @@
+id: exhibit/path-women-of-islam
+class: exhibit
+kind: trail
+label:
+  ar: نساء في الإسلام
+  en: Women in Islam
+summary:
+  ar: 'مسار في نساء غيّرن التاريخ: أمهات المؤمنين والمقاتلة والشاعرة والسلطانة والمؤسسة.'
+  en: A trail through women who changed history.
+audience:
+- newcomer
+- student
+duration_minutes: 30
+wings: []
+regions:
+- global
+rooms:
+- title:
+    ar: أول المؤمنات
+    en: The first believer
+  body:
+    ar: 'خديجة: أول من آمنت ووقفت معه حتى الموت.'
+    en: 'Khadija: first to believe, stood by him till death.'
+  features:
+  - person/khadija
+- title:
+    ar: أم العلماء
+    en: The scholar
+  body:
+    ar: 'عائشة: رواية وفقه من أعمق مدارس الصحابة.'
+    en: 'Aisha: narration and law from the deepest school.'
+  features:
+  - person/aisha
+- title:
+    ar: سيدة النساء
+    en: The daughter
+  body:
+    ar: 'فاطمة الزهراء: أم أهل البيت.'
+    en: 'Fatima al-Zahra: mother of the Prophet''s house.'
+  features:
+  - person/fatima
+- title:
+    ar: المقاتلة
+    en: The fighter
+  body:
+    ar: 'نسيبة بنت كعب: اثنا عشر جرحًا يوم أُحد.'
+    en: 'Nusayba: twelve wounds shielding him at Uhud.'
+  features:
+  - person/nusayba-bint-kab
+- title:
+    ar: الشاعرة
+    en: The poet
+  body:
+    ar: 'الخنساء: سيدة الرثاء وأم شهداء القادسية.'
+    en: 'Al-Khansa: mistress of elegy, mother of Qadisiyya''s martyrs.'
+  features:
+  - person/al-khansa
+- title:
+    ar: السلطانة
+    en: The sultana
+  body:
+    ar: 'شجر الدر: ثمانون يومًا على عرش مصر.'
+    en: 'Shajar al-Durr: eighty days on Egypt''s throne.'
+  features:
+  - person/shajar-al-durr
+- title:
+    ar: المؤسسة
+    en: The founder
+  body:
+    ar: 'فاطمة الفهري: وقفت على القرويين فعمّر ألف سنة.'
+    en: Fatima al-Fihri endowed al-Qarawiyyin for a millennium.
+  features:
+  - person/fatima-al-fihri
+  - place/fez
+prerequisites:
+- exhibit/path-islam-in-30-minutes
+sources:
+- source/wikidata
+provenance:
+  layer: own-research
+  source: Devin-assembled trail from existing museum entities
+  generated_by: Devin (SWE-2 High)
+  model: SWE-2 High
+  run: pathways-batch-1
+status:
+  review: draft
+  completeness: 1
+  generated_by: Devin (SWE-2 High), pathways lane, 2026-10-16

@@ -1,0 +1,23 @@
+id: event/battle-of-ayun-kara-1917
+class: event
+kind: battle
+label: { ar: "معركة عيون قارة (١٩١٧)", en: "Battle of Ayun Kara" }
+summary:
+  ar: "بطاقة أولية لمعركة عيون قارة سنة ١٩١٧م في فلسطين بين الجيش العثماني والقوات النيوزيلندية؛ لم تُراجع مصادره على الصفحة بعد."
+  en: "Draft card for the Battle of Ayun Kara in 1917 during the Sinai and Palestine campaign; its sources are not yet checked on the page."
+wings: [time]
+periods: [period/modern-era]
+regions: [levant-iraq]
+date:
+  start: { edtf: "1917-11-14", precision: year, status: tradition, derived: true }
+  end: { edtf: "1917-11-14", precision: year, status: tradition, derived: true }
+sources: [source/tarikh-islam-hasan-ibrahim]
+external_ids:
+  wikidata: Q4870372
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; battle attested in narrative histories — entry not yet checked on the page"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-wave2
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

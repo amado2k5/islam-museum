@@ -1,0 +1,79 @@
+id: exhibit/path-mosque-anatomy
+class: exhibit
+kind: trail
+label:
+  ar: تشريح المسجد
+  en: Anatomy of a Mosque
+summary:
+  ar: 'مسار في أعضاء بيت الله: القبلة والمحراب، والمنبر والمنارة، والقبة والصحن — كيف يعمل المسجد.'
+  en: A trail through the parts of God's house.
+audience:
+- newcomer
+- student
+duration_minutes: 30
+wings: []
+regions:
+- global
+rooms:
+- title:
+    ar: القبلة
+    en: The qibla
+  body:
+    ar: 'اتجاه الكعبة: بوصلة المسلم.'
+    en: 'اتجاه الكعبة: بوصلة المسلم.'
+  features:
+  - question/what-is-qibla
+  - question/why-face-mecca-in-prayer
+- title:
+    ar: المحراب
+    en: The mihrab
+  body:
+    ar: 'حجر الإمام: محاريب المتحف من كاشان إلى القاهرة.'
+    en: 'حجر الإمام: محاريب المتحف من كاشان إلى القاهرة.'
+  features:
+  - concept/mihrab
+  - object/mihrab-salting
+  - object/mihrab-isfahan
+- title:
+    ar: المنبر
+    en: The minbar
+  body:
+    ar: 'منبر الخطيب: من منبر النبي إلى الكتبية.'
+    en: 'منبر الخطيب: من منبر النبي إلى الكتبية.'
+  features:
+  - concept/minbar
+  - object/minbar-kutubiyya
+  - practice/khutba
+- title:
+    ar: المنارة
+    en: The minaret
+  body:
+    ar: 'برج الأذان: من عمود مكة إلى مئذنة الحسن.'
+    en: 'برج الأذان: من عمود مكة إلى مئذنة الحسن.'
+  features:
+  - question/what-is-minaret
+  - practice/adhan
+  - building/hassan-ii-mosque
+- title:
+    ar: الجامع
+    en: The masjid
+  body:
+    ar: 'بيت الله كله: من الحجرة الأولى إلى القبة.'
+    en: 'بيت الله كله: من الحجرة الأولى إلى القبة.'
+  features:
+  - question/what-is-mosque
+  - building/masjid-al-haram
+prerequisites:
+- exhibit/path-islam-in-30-minutes
+sources:
+- source/wikidata
+provenance:
+  layer: own-research
+  source: Devin-assembled trail from existing museum entities
+  generated_by: Devin (SWE-2 High)
+  model: SWE-2 High
+  run: pathways-batch-7
+status:
+  review: draft
+  completeness: 1
+  generated_by: Devin (SWE-2 High), pathways lane, 2026-10-16

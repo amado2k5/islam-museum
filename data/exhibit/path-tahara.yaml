@@ -1,0 +1,76 @@
+id: exhibit/path-tahara
+class: exhibit
+kind: trail
+label:
+  ar: الطهارة
+  en: Purity
+summary:
+  ar: 'مسار في طهور المسلم: الوضوء والغسل والتيمم، والسواك والختان — الطهور شطر الإيمان.'
+  en: A trail through ritual purity.
+audience:
+- newcomer
+- student
+duration_minutes: 30
+wings: []
+regions:
+- global
+rooms:
+- title:
+    ar: الوضوء
+    en: Wudu
+  body:
+    ar: 'طهارة الصلوات الخمس: ماء ونية.'
+    en: 'طهارة الصلوات الخمس: ماء ونية.'
+  features:
+  - practice/wudu
+  - question/what-is-wudu
+- title:
+    ar: الغسل
+    en: Ghusl
+  body:
+    ar: 'الجنابة والحيض والجمعة: اغتسال الأحوال.'
+    en: 'الجنابة والحيض والجمعة: اغتسال الأحوال.'
+  features:
+  - practice/ghusl-al-janaba
+  - practice/ghusl-al-janaza
+  - question/what-is-ghusl
+- title:
+    ar: التيمم
+    en: Tayammum
+  body:
+    ar: 'عند فقد الماء: الصعيد الطيب طهورًا.'
+    en: 'عند فقد الماء: الصعيد الطيب طهورًا.'
+  features:
+  - practice/tayammum
+- title:
+    ar: السواك
+    en: Miswak
+  body:
+    ar: 'سنّة الفم: عود أراك قبل كل وضوء.'
+    en: 'سنّة الفم: عود أراك قبل كل وضوء.'
+  features:
+  - practice/miswak
+  - question/what-is-miswak
+- title:
+    ar: الفطرة
+    en: Fitra
+  body:
+    ar: 'الختان والنظافة: سنن الفطرة الخمس.'
+    en: 'الختان والنظافة: سنن الفطرة الخمس.'
+  features:
+  - practice/khitan
+  - question/what-is-khitan
+prerequisites:
+- exhibit/path-islam-in-30-minutes
+sources:
+- source/wikidata
+provenance:
+  layer: own-research
+  source: Devin-assembled trail from existing museum entities
+  generated_by: Devin (SWE-2 High)
+  model: SWE-2 High
+  run: pathways-batch-7
+status:
+  review: draft
+  completeness: 1
+  generated_by: Devin (SWE-2 High), pathways lane, 2026-10-16

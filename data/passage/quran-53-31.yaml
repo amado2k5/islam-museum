@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 53:31 (سورة النجم، الآية 31)."
 text: "وَلِلَّهِ مَا فِى ٱلسَّمَـٰوَٰتِ وَمَا فِى ٱلْأَرْضِ لِيَجْزِىَ ٱلَّذِينَ أَسَـٰٓـُٔوا۟ بِمَا عَمِلُوا۟ وَيَجْزِىَ ٱلَّذِينَ أَحْسَنُوا۟ بِٱلْحُسْنَى"
 text_search: "ولله ما في السماوات وما في الأرض ليجزي الذين أساءوا بما عملوا ويجزي الذين أحسنوا بالحسنى"
+translations:
+  en: { text: "And unto Allah belongeth whatsoever is in the heavens and whatsoever is in the earth, that He may reward those who do evil with that which they have done, and reward those who do good with goodness.", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "اور جو کچھ آسمانوں میں ہے اور جو کچھ زمین میں ہے سب خدا ہی کا ہے (اور اس نے خلقت کو) اس لئے (پیدا کیا ہے) کہ جن لوگوں نے برے کام کئے ان کو ان کے اعمال کا (برا) بدلا دے اور جنہوں نے نیکیاں کیں ان کو نیک بدلہ دے", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-53 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

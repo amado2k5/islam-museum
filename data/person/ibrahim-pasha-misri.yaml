@@ -1,0 +1,22 @@
+id: person/ibrahim-pasha-misri
+class: person
+label: { ar: "إبراهيم باشا المصري" }
+names:
+  - { kind: full, lang: ar, value: "إبراهيم باشا بن محمد علي باشا" }
+gender: male
+roles: [military, ruler]
+summary:
+  ar: "إبراهيم باشا بن محمد علي باشا والي مصر؛ قاد حملة قمع التمرد في المورة فتحركت جيوش مصر بقيادته ومستشاره سليمان باشا الفرنساوي بحراً من الإسكندرية عام ١٢٣٩هـ/١٨٢٤م باتجاه كريت وشبه جزيرة المورة، ففتح نافرين عام ١٢٤٠هـ ودخل أثينا عام ١٢٤١هـ رغم معاونة اللورد كوشران لليونانيين. ثم قاد جيوش أبيه لاحتلال الشام فهزم الجيش العثماني واستكمل السيطرة عليه، وألغى القيود المفروضة على النصارى واليهود في البلاد التي سيطر عليها تحت دعوى المساواة والحرية، وفتح الباب للبعثات التبشيرية الفرنسية والأمريكية، حتى انتهى الأمر باتفاقية لندن سنة ١٨٤٠م التي حددت الوجود المصري في الشام بحياة محمد علي {cite:dawlat-uthmaniyya-salabi p. 365-368}."
+  en: "Ibrahim Pasha, Muhammad Ali's son — crushed the Morea revolt taking Navarino and Athens, then conquered Syria where he lifted restrictions on Christians and Jews and opened the country to Western missions; the 1840 London convention forced Egypt's withdrawal {cite:dawlat-uthmaniyya-salabi p. 365-368}."
+wings: [people]
+periods: [period/modern-era]
+regions: [egypt-nile, levant-iraq, anatolia-balkans]
+relations:
+  - { type: child_of, target: person/muhammad-ali-pasha, sources: [source/dawlat-uthmaniyya-salabi] }
+sources: [source/dawlat-uthmaniyya-salabi]
+provenance:
+  layer: own-research
+  source: "الدولة العثمانية لعلي محمد الصلابي (ط1 1421) ص 365-368"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-salabi-uthmani-batch-9
+status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 High)" }

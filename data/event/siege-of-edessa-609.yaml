@@ -1,0 +1,23 @@
+id: event/siege-of-edessa-609
+class: event
+kind: siege
+label: { ar: "حصار الرها (٦٠٩)", en: "Siege of Edessa (609)" }
+summary:
+  ar: "بطاقة أولية لحصار الرها (٦٠٩)؛ لم تُراجع مصادره على الصفحة بعد."
+  en: "Draft card for Siege of Edessa (609); its sources are not yet checked on the page."
+wings: [time]
+periods: [period/pre-islamic-arabia]
+regions: [levant-iraq]
+date:
+  start: { edtf: "609", precision: year, status: tradition, derived: true }
+  end: { edtf: "610", precision: year, status: tradition, derived: true }
+sources: [source/tarikh-islam-hasan-ibrahim]
+external_ids:
+  wikidata: Q134291524
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; battle attested in narrative histories — entry not yet checked on the page"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-wave2
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

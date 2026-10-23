@@ -1,0 +1,23 @@
+id: event/siege-of-herat-1221
+class: event
+kind: siege
+label: { ar: "حصار هرات (١٢٢١–١٢٢٢)", en: "Siege of Herat (1221–22)" }
+summary:
+  ar: "بطاقة أولية لحصار هرات من ١٢٢١ إلى ١٢٢٢م، من الغزو المغولي لخراسان؛ لم تُراجع مصادره على الصفحة بعد."
+  en: "Draft card for the Siege of Herat in 1221–22, of the Mongol invasion of Khurasan; its sources are not yet checked on the page."
+wings: [time]
+periods: [period/mongol-post-mongol]
+regions: [persia-central-asia]
+date:
+  start: { edtf: "1221", precision: year, status: tradition, derived: true }
+  end: { edtf: "1222", precision: year, status: tradition, derived: true }
+sources: [source/tarikh-islam-hasan-ibrahim]
+external_ids:
+  wikidata: Q9389457
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; battle attested in narrative histories — entry not yet checked on the page"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-wave2
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

@@ -1,0 +1,26 @@
+id: person/abu-jalnak
+class: person
+label: { ar: "أبو جلنك الحلبي الشاعر", en: "Abu Jalnak, the Aleppan poet" }
+names:
+  - { value: "أبو جلنك أحمد الحلبي", kind: full }
+died: { edtf: "1300~", hijri: "0700", calendar: julian, precision: year, status: tradition, derived: true, note: "أسره التتر بحلب وسألوه عن عسكر المسلمين فعظمهم وكثرهم فقتلوه، في أموات سنة سبعمائة {cite:shadharat-dhahab p. 795}." }
+summary:
+  ar: "الشاعر الحلبي المشهور؛ أسره التتر بحلب فسألوه عن عسكر المسلمين فعظّمهم وكثّرهم فقتلوه {cite:shadharat-dhahab p. 795}."
+  en: "The famous Aleppan poet — taken by the Tatars, he magnified and multiplied the Muslim army for them, and they killed him {cite:shadharat-dhahab p. 795}."
+gender: male
+roles: [poet]
+wings: [people]
+periods: [period/mongol-post-mongol]
+regions: [levant-iraq]
+faith:
+  - value: sunni
+    basis: tradition
+relations:
+  - { type: died_in, target: place/aleppo, sources: [source/shadharat-dhahab] }
+sources: [source/shadharat-dhahab]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }
+provenance:
+  layer: own-research
+  source: "شذرات الذهب — ابن العماد (ج7، سنة 700)، قراءة آبل فيجن"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-shadharat-batch-135

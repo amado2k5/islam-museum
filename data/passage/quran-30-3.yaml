@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 30:3 (سورة الروم، الآية 3)."
 text: "فِىٓ أَدْنَى ٱلْأَرْضِ وَهُم مِّنۢ بَعْدِ غَلَبِهِمْ سَيَغْلِبُونَ"
 text_search: "في أدنى الأرض وهم من بعد غلبهم سيغلبون"
+translations:
+  en: { text: "In the nearer land, and they, after their defeat will be victorious", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "نزدیک کے ملک میں اور وہ مغلوب ہونے کے بعد عنقریب غالب آجائیں گے", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-30 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

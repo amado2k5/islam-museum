@@ -1,0 +1,23 @@
+id: event/siege-of-constantinople-1411
+class: event
+kind: siege
+label: { ar: "حصار القسطنطينية (١٤١١)", en: "Siege of Constantinople" }
+summary:
+  ar: "بطاقة أولية لحصار القسطنطينية سنة ١٤١١م، حملة موسى جلبي في حرب الخلافة العثمانية؛ لم تُراجع مصادره على الصفحة بعد."
+  en: "Draft card for the Siege of Constantinople in 1411, Musa Çelebi's assault during the Ottoman interregnum; its sources are not yet checked on the page."
+wings: [time]
+periods: [period/crusades-ayyubid-mamluk]
+regions: [anatolia-balkans]
+date:
+  start: { edtf: "1411", precision: year, status: tradition, derived: true }
+  end: { edtf: "1411", precision: year, status: tradition, derived: true }
+sources: [source/dawlat-uthmaniyya-salabi]
+external_ids:
+  wikidata: Q16827799
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; siege attested in interregnum histories — entry not yet checked on the page"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-wave2
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

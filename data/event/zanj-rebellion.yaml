@@ -1,0 +1,23 @@
+id: event/zanj-rebellion
+class: event
+kind: revolt
+label: { ar: "ثورة الزنج", en: "The Zanj Rebellion" }
+summary:
+  ar: "بطاقة أولية لثورة الزنج، انتفاضة العبيد بقيادة صاحب الزنج علي بن محمد على دولة العباسيين في البصرة وسواد العراق من ٨٦٩ إلى ٨٨٣م؛ لم تُراجع مصادره على الصفحة بعد."
+  en: "Draft card for the Zanj Rebellion, the slave rising under Ali ibn Muhammad 'Sahib al-Zanj' against the Abbasid state around Basra and the Sawad of Iraq from 869 to 883; its sources are not yet checked on the page."
+wings: [time]
+periods: [period/abbasid-fragmentation]
+regions: [levant-iraq]
+date:
+  start: { edtf: "869", precision: year, status: tradition, derived: true }
+  end: { edtf: "883", precision: year, status: tradition, derived: true }
+sources: [source/tarikh-al-tabari]
+external_ids:
+  wikidata: Q759988
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; rebellion attested in Tabari — entry not yet checked on the page"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-wave2
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

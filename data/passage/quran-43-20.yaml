@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 43:20 (سورة الزخرف، الآية 20)."
 text: "وَقَالُوا۟ لَوْ شَآءَ ٱلرَّحْمَـٰنُ مَا عَبَدْنَـٰهُم ۗ مَّا لَهُم بِذَٰلِكَ مِنْ عِلْمٍ ۖ إِنْ هُمْ إِلَّا يَخْرُصُونَ"
 text_search: "وقالوا لو شاء الرحمن ما عبدناهم ۗ ما لهم بذلك من علم ۖ إن هم إلا يخرصون"
+translations:
+  en: { text: "And they say: If the Beneficent One had (so) willed, we should not have worshipped them. They have no knowledge whatsoever of that. They do but guess.", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "اور کہتے ہیں اگر خدا چاہتا تو ہم ان کو نہ پوجتے۔ ان کو اس کا کچھ علم نہیں۔ یہ تو صرف اٹکلیں دوڑا رہے ہیں", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-43 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

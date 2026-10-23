@@ -1,0 +1,25 @@
+id: person/ibn-ata-allah-al-iskandari
+class: person
+gender: male
+roles: [scholar]
+label:
+  ar: ابن عطاء الله الإسكندري
+  en: Ibn Ata Allah al-Iskandari
+  ur: ابن عطاء اللہ اسکندری
+summary:
+  ar: "تاج الدين أحمد بن محمد بن عطاء الله الإسكندري (ت 709هـ)، الشيخ الزاهد الواعظ تلميذ أبي العباس المرسي وصاحب الشاذلية؛ يصفه الذهبي في سير الأعلام بأنه «من كبار القائمين على الشيخ تقي الدين ابن تيمية»، وأن جنازته كانت مشهودة {cite:siyar-alam-nubala-ideas-house}."
+  en: "Taj al-Din Ahmad ibn Muhammad ibn Ata Allah al-Iskandari (d. 709 AH), the ascetic preacher, pupil of Abu'l-Abbas al-Mursi of the Shadhili order; al-Dhahabi describes him in the Siyar as 'one of the great opponents of Shaykh Taqi al-Din Ibn Taymiyya', whose funeral was widely attended {cite:siyar-alam-nubala-ideas-house}."
+wings: [people]
+themes: [spirituality-and-sufism]
+regions: [egypt-nile]
+periods: [period/crusades-ayyubid-mamluk]
+relations:
+  - { type: student_of, target: person/abu-al-abbas-al-mursi, sources: [source/siyar-alam-nubala-ideas-house] }
+external_ids: { wikidata: "Q2827445" }
+sources: [source/siyar-alam-nubala-ideas-house]
+provenance:
+  layer: own-research
+  source: "wikidata-import deferred Q2827445; Siyar entry 6534 verified in OCR (talab1 scan, p.408)"
+  generated_by: "Devin (SWE-2 Medium)"
+  run: wd-deferred-13
+status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 Medium)" }

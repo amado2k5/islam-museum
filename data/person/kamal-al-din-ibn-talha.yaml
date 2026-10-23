@@ -1,0 +1,27 @@
+id: person/kamal-al-din-ibn-talha
+class: person
+label: { ar: "كمال الدين ابن طلحة", en: "Kamal al-Din Ibn Talha" }
+names:
+  - { value: "الكمال محمد بن طلحة بن محمد بن الحسن كمال الدين أبو سالم القرشي العدوي النصيبي الشافعي", kind: full }
+born: { edtf: "1186", hijri: "0582", calendar: julian, precision: year, status: tradition, derived: true, note: "ولد سنة اثنتين وثمانين وخمسمائة {cite:shadharat-dhahab p. 267}." }
+died: { edtf: "1254-08~", hijri: "0652-07", calendar: julian, precision: month, status: tradition, derived: true, note: "توفي بحلب في رجب سنة اثنتين وخمسين وستمائة {cite:shadharat-dhahab p. 268}." }
+summary:
+  ar: "المفتي الرحال، مصنف كتاب العقد الفريد، وأحد الصدور والرؤساء المعظمين؛ سمع بنيسابور من المؤيد وزينب الشعرية وتفقه فبرع في الفقه والأصول والخلاف وترسل عن الملوك؛ وفي سنة ثمان وأربعين وستمائة كتب تقليده بالوزارة فاعتذر فلم يقبل منه فتولاها يومين ثم انسل خفية وترك الأموال والموجود ولبس ثوباً قطنياً وذهب فلم يدر أين ذهب؛ وولي قضاء نصيبين ثم خطابة دمشق ثم زهد في الدنيا فحج وأقام بدمشق قليلاً ثم سار إلى حلب فتوفي بها في رجب؛ وله الدر المنظم في اسم الله الأعظم وأبيات في رد قضاء المنجمين {cite:shadharat-dhahab p. 267-268}."
+  en: "The wandering mufti and author of al-Iqd al-Farid (b. 582, d. Rajab 652 Aleppo) — in 648 his patent as vizier was drawn up; he bore the office two days, slipped away in a cotton gown leaving every dinar behind, and was never traced; earlier qadi of Nisibis and khatib of Damascus, and a versifier against astrologers' decrees {cite:shadharat-dhahab p. 267-268}."
+gender: male
+roles: [scholar, jurist, vizier]
+wings: [people]
+periods: [period/crusades-ayyubid-mamluk]
+regions: [levant-iraq, persia-central-asia]
+faith:
+  - value: sunni-shafii
+    basis: tradition
+relations:
+  - { type: died_in, target: place/aleppo, sources: [source/shadharat-dhahab] }
+sources: [source/shadharat-dhahab]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }
+provenance:
+  layer: own-research
+  source: "شذرات الذهب — ابن العماد (ج5، سنة 652)، قراءة آبل فيجن"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-shadharat-batch-128

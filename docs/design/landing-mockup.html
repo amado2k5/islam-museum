@@ -1,0 +1,414 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl" data-theme="light" data-font="naskh">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>متحف الإسلام — نموذج الواجهة v2</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Amiri:ital,wght@0,400;0,700;1,400&family=Noto+Naskh+Arabic:wght@400;500;600;700&display=swap" rel="stylesheet">
+<style>
+:root{
+  --ivory:#f7f3ea; --ink:#1b1b1f; --gold:#b8932f; --gold-text:#7a5f1e;
+  --lapis:#1f4e8c; --teal:#0f5f5c; --sand:#e6dcc6; --muted:#5f5a53;
+  --card:#fffdf8; --line:rgba(27,27,31,.14);
+  --blue:#8fb3e8; --link:var(--lapis);
+  --shadow:0 1px 2px rgba(27,27,31,.05),0 8px 24px rgba(27,27,31,.06);
+}
+[data-theme="dark"]{
+  --ivory:#17171a; --ink:#ede8dd; --gold:#c9a63f; --gold-text:#d9b95c;
+  --lapis:#8fb3e8; --teal:#5fb3ae; --sand:#26262c; --muted:#c9c2b6;
+  --card:#22232a; --line:rgba(237,232,221,.16); --link:#8fb3e8;
+  --shadow:0 1px 2px rgba(0,0,0,.3),0 8px 24px rgba(0,0,0,.35);
+}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{margin:0;background:var(--ivory);color:var(--ink);
+  font-family:"Noto Naskh Arabic","Amiri","Geeza Pro",serif;
+  font-size:1.12rem;line-height:1.9;-webkit-font-smoothing:antialiased}
+[data-font="sans"] body{font-family:system-ui,"Segoe UI",Tahoma,Arial,sans-serif;line-height:1.8}
+h1,h2,h3,.display{font-family:"Amiri","Noto Naskh Arabic",serif;font-weight:700;line-height:1.5;margin:0}
+[data-font="sans"] h1,[data-font="sans"] h2,[data-font="sans"] h3,[data-font="sans"] .display{font-family:system-ui,"Segoe UI",Tahoma,Arial,sans-serif}
+a{color:var(--link);text-decoration:none}
+a:hover{text-decoration:underline}
+.wrap{max-width:1160px;margin-inline:auto;padding-inline:24px}
+.skip{position:absolute;inset-inline-start:12px;top:-60px;background:var(--ink);color:var(--ivory);
+  padding:.6rem 1rem;border-radius:10px;z-index:99;transition:top .2s}
+.skip:focus{top:12px;color:var(--ivory)}
+:focus-visible{outline:3px solid var(--lapis);outline-offset:2px;border-radius:6px}
+/* ---------- header ---------- */
+header.site{position:sticky;top:0;z-index:50;background:color-mix(in srgb,var(--ivory) 88%,transparent);
+  backdrop-filter:blur(10px);border-bottom:1px solid var(--line)}
+.nav{display:flex;align-items:center;gap:1.1rem;padding:.7rem 0}
+.brand{font-weight:700;font-size:1.15rem;color:var(--ink);display:flex;align-items:center;gap:.45rem}
+.brand:hover{text-decoration:none}
+.brand .spark{width:22px;height:22px;border-radius:6px;background:var(--lapis);color:#fff;
+  display:inline-flex;align-items:center;justify-content:center;font-size:.85rem}
+.nav-links{display:flex;align-items:center;gap:.15rem;margin-inline-start:.5rem}
+.nav-links>a,.dd>button{background:none;border:0;color:var(--ink);font:inherit;font-size:1rem;
+  padding:.5rem .7rem;border-radius:10px;cursor:pointer}
+.nav-links>a:hover,.dd>button:hover{background:color-mix(in srgb,var(--ink) 7%,transparent);text-decoration:none}
+.dd{position:relative}
+.dd-menu{position:absolute;top:calc(100% + 8px);inset-inline-start:0;min-width:300px;background:var(--card);
+  border:1px solid var(--line);border-radius:16px;box-shadow:var(--shadow);padding:.5rem;display:none}
+.dd:hover .dd-menu,.dd:focus-within .dd-menu{display:block}
+.dd-menu a{display:flex;gap:.7rem;align-items:flex-start;padding:.65rem .8rem;border-radius:12px;color:var(--ink)}
+.dd-menu a:hover{background:color-mix(in srgb,var(--ink) 6%,transparent);text-decoration:none}
+.dd-menu .t{font-weight:700;font-size:1rem;line-height:1.6}
+.dd-menu .d{font-size:.88rem;color:var(--muted);line-height:1.7}
+.nav-tools{margin-inline-start:auto;display:flex;align-items:center;gap:.5rem}
+.pill{border:1px solid var(--line);background:var(--card);color:var(--ink);border-radius:999px;
+  padding:.42rem 1rem;font:inherit;font-size:.95rem;cursor:pointer;display:inline-flex;align-items:center;gap:.4rem}
+.pill:hover{border-color:var(--gold)}
+.iconbtn{width:40px;height:40px;border-radius:50%;border:1px solid var(--line);background:var(--card);
+  color:var(--ink);cursor:pointer;font-size:1.05rem;display:inline-flex;align-items:center;justify-content:center}
+.iconbtn:hover{border-color:var(--gold)}
+.burger{display:none}
+/* ---------- hero ---------- */
+.hero{position:relative;text-align:center;padding:4.2rem 0 3rem;overflow:hidden}
+.hero .star{position:absolute;inset-inline:0;top:-30px;margin-inline:auto;opacity:.10;pointer-events:none}
+.eyebrow{color:var(--gold-text);font-size:.98rem;letter-spacing:0;margin:0 0 1rem}
+.hero h1{font-size:clamp(2.4rem,6vw,4.2rem);font-weight:400;max-width:20ch;margin:0 auto}
+.hero h1 .hl{color:var(--lapis)}
+.datepill{display:inline-block;margin-top:1.4rem;border:1px solid var(--line);background:var(--card);
+  border-radius:999px;padding:.5rem 1.3rem;font-size:1rem;color:var(--muted)}
+.today{margin-top:3rem}
+.today h2{font-size:1.9rem;margin-bottom:1.4rem}
+.duo{display:grid;grid-template-columns:1fr 1fr;gap:1.1rem;max-width:880px;margin:0 auto;text-align:right}
+.card{background:var(--card);border:1px solid var(--line);border-radius:18px;padding:1.4rem 1.5rem;
+  border-inline-start:5px solid var(--acc,var(--gold));box-shadow:var(--shadow);text-align:right}
+.card h3{font-size:1.25rem;margin:0 0 .4rem}
+.card p{margin:.3rem 0;color:var(--muted);font-size:1rem;line-height:1.8}
+.card .go{display:inline-block;margin-top:.6rem;font-weight:700}
+.today .ghost{margin-top:1.2rem}
+/* ---------- sections ---------- */
+section.block{padding:3.2rem 0}
+.sec-head{text-align:center;margin-bottom:1.8rem}
+.sec-head h2{font-size:2rem}
+.sec-head p{color:var(--muted);margin:.4rem 0 0}
+/* tour paths */
+.paths{display:grid;grid-template-columns:repeat(5,1fr);gap:1rem}
+.path{background:var(--card);border:1px solid var(--line);border-radius:18px;padding:1.2rem 1.1rem;
+  border-top:5px solid var(--acc,var(--gold));box-shadow:var(--shadow)}
+.path h3{font-size:1.08rem;line-height:1.7;margin:0 0 .3rem}
+.path p{font-size:.9rem;color:var(--muted);margin:0 0 .5rem;line-height:1.75}
+.path .meta{font-size:.85rem;color:var(--gold-text);font-weight:700}
+.plan-note{text-align:center;color:var(--muted);margin-top:1.2rem;font-size:.98rem}
+/* wings */
+.wings{display:grid;grid-template-columns:repeat(3,1fr);gap:1rem}
+.wing{background:var(--tint,#f3ecdc);border:1px solid var(--line);border-radius:18px;padding:1.3rem 1.3rem;
+  border-inline-start:5px solid var(--acc,var(--gold));box-shadow:var(--shadow);color:var(--ink)}
+[data-theme="dark"] .wing{background:var(--card)}
+.wing:hover{text-decoration:none;transform:translateY(-2px);transition:transform .15s}
+.wing h3{font-size:1.2rem;margin:0}
+.wing .count{font-weight:700;color:var(--gold-text);font-size:.95rem}
+.wing p{font-size:.92rem;color:var(--muted);margin:.3rem 0 0;line-height:1.75}
+/* explore */
+.xgrid{display:grid;grid-template-columns:1fr 1fr;gap:1.1rem}
+.xcard{display:grid;grid-template-columns:150px 1fr;background:var(--card);border:1px solid var(--line);
+  border-radius:18px;overflow:hidden;box-shadow:var(--shadow)}
+.xcard .thumb{min-height:150px;position:relative;overflow:hidden}
+.xcard .body{padding:1.2rem 1.3rem;border-inline-start:5px solid var(--acc,var(--gold))}
+.xcard h3{font-size:1.2rem;margin:0 0 .3rem}
+.xcard p{font-size:.93rem;color:var(--muted);margin:0 0 .5rem;line-height:1.75}
+/* mini previews */
+.axis{position:absolute;inset:0;padding:18px 14px}
+.axis .line{position:absolute;left:14px;right:14px;top:50%;height:2px;background:var(--muted);opacity:.5}
+.axis .tick{position:absolute;top:calc(50% - 14px);font-size:10px;color:var(--muted)}
+.axis .play{position:absolute;top:18%;bottom:18%;width:3px;background:var(--gold);right:22%}
+.dunes{position:absolute;inset:0}
+.route{stroke:var(--gold);stroke-width:3;stroke-dasharray:7 6;fill:none}
+.stars{position:absolute;inset:0;background:#14151c}
+.stars i{position:absolute;width:5px;height:5px;border-radius:50%;background:#e8c85a;box-shadow:0 0 8px #e8c85a}
+.stars i:nth-child(2n){background:#8fb3e8;box-shadow:0 0 8px #8fb3e8}
+.split{position:absolute;inset:0;display:grid;grid-template-columns:1fr 1fr;gap:8px;padding:16px}
+.split div{border-radius:10px;background:color-mix(in srgb,var(--ink) 6%,#fff)}
+[data-theme="dark"] .split div{background:color-mix(in srgb,var(--ink) 12%,#000)}
+/* widget band */
+.band{background:var(--sand);border-block:1px solid var(--line);padding:2.6rem 0;margin-top:1rem}
+.band-grid{display:grid;grid-template-columns:1fr 1fr;gap:2rem;align-items:center}
+.band h2{font-size:1.7rem;margin:0 0 .6rem}
+.band .row{display:flex;gap:.6rem;margin-top:1rem;flex-wrap:wrap}
+input[type="date"]{font:inherit;padding:.55rem .9rem;border-radius:12px;border:1px solid var(--line);
+  background:var(--card);color:var(--ink)}
+.btn{background:var(--lapis);color:#fff;border:0;border-radius:999px;padding:.6rem 1.6rem;
+  font:inherit;font-weight:700;cursor:pointer}
+[data-theme="dark"] .btn{background:var(--lapis);color:#101828}
+.btn:hover{filter:brightness(1.08)}
+.btn.ghost{background:transparent;color:var(--ink);border:1.5px solid var(--gold)}
+.hresult{margin-top:1rem;background:var(--card);border:1px solid var(--line);border-radius:14px;
+  padding:1rem 1.2rem;display:none}
+.hresult.show{display:block}
+/* stats */
+.stats{text-align:center;padding:2.6rem 0 1rem}
+.stats .nums{font-size:1.25rem;font-weight:700}
+.stats .honest{color:var(--muted);margin-top:.5rem}
+/* footer */
+footer.site{background:#141412;color:#e9e4d8;margin-top:3rem;padding:3rem 0 1.5rem}
+footer.site a{color:#cfc9ba}
+.fcols{display:grid;grid-template-columns:repeat(3,1fr);gap:2rem;margin-bottom:2rem}
+.fcols h4{margin:0 0 .7rem;font-size:1.05rem;color:#fff}
+.fcols a{display:block;padding:.25rem 0;font-size:.95rem}
+.fine{text-align:center;border-top:1px solid rgba(255,255,255,.14);padding-top:1.2rem;font-size:.9rem;color:#a09a8c}
+/* responsive */
+@media (max-width:900px){
+  .paths{grid-template-columns:repeat(2,1fr)}
+  .wings{grid-template-columns:repeat(2,1fr)}
+  .xgrid{grid-template-columns:1fr}
+  .band-grid{grid-template-columns:1fr}
+  .duo{grid-template-columns:1fr}
+}
+@media (max-width:720px){
+  .nav-links{display:none}
+  .burger{display:inline-flex}
+  .nav-links.open{display:flex;position:absolute;top:100%;inset-inline:0;background:var(--card);
+    flex-direction:column;align-items:stretch;padding:1rem;border-bottom:1px solid var(--line);z-index:60}
+  .nav-links.open .dd-menu{position:static;display:block;box-shadow:none;border:0;padding:0}
+  .paths{grid-template-columns:1fr}
+  .fcols{grid-template-columns:1fr}
+}
+@media (prefers-reduced-motion:reduce){html{scroll-behavior:auto}*{transition:none!important}}
+</style>
+</head>
+<body>
+<a class="skip" href="#main">تخطَّ إلى المحتوى</a>
+<header class="site">
+  <div class="wrap nav">
+    <a class="brand" href="#"><span class="spark">✦</span> islam.museum</a>
+    <button class="iconbtn burger" id="burger" aria-label="القائمة" aria-expanded="false">☰</button>
+    <nav class="nav-links" id="navlinks" aria-label="التنقل الرئيسي">
+      <div class="dd">
+        <button aria-haspopup="true">الأجنحة ▾</button>
+        <div class="dd-menu" role="menu">
+          <a href="#wings"><span><span class="t">الزمان</span><br><span class="d">764 حدثًا — العصور والخطوط الزمنية</span></span></a>
+          <a href="#wings"><span><span class="t">المكان</span><br><span class="d">360 مكانًا — المدن والطرق على خريطة تتحرك</span></span></a>
+          <a href="#wings"><span><span class="t">الناس</span><br><span class="d">1,744 شخصية — من صنعوا القصة</span></span></a>
+          <a href="#wings"><span><span class="t">الكلمة</span><br><span class="d">18,482 مقطعًا — القرآن والحديث والشعر</span></span></a>
+        </div>
+      </div>
+      <a href="#tour">جولة وتعلّم</a>
+      <div class="dd">
+        <button aria-haspopup="true">استكشف ▾</button>
+        <div class="dd-menu" role="menu">
+          <a href="#explore"><span><span class="t">الخريطة الزمنية الهجرية</span><br><span class="d">أربعة عشر قرنًا على محور هجري</span></span></a>
+          <a href="#explore"><span><span class="t">رحلات تفاعلية</span><br><span class="d">سِر درب الهجرة يومًا بيوم</span></span></a>
+          <a href="#explore"><span><span class="t">مستكشف الصلات</span><br><span class="d">علاقات الأشخاص والأحداث والأماكن</span></span></a>
+          <a href="#explore"><span><span class="t">الوحي والتاريخ</span><br><span class="d">القرآن كما نزل، مع الأحداث</span></span></a>
+        </div>
+      </div>
+      <a href="#today">اليوم</a>
+    </nav>
+    <div class="nav-tools">
+      <button class="pill" type="button">بحث ⌕</button>
+      <button class="pill" id="langbtn" type="button" aria-label="اللغة">AR | EN</button>
+      <button class="iconbtn" id="fontbtn" type="button" aria-label="تبديل الخط" title="تبديل الخط">خ</button>
+      <button class="iconbtn" id="themebtn" type="button" aria-label="تبديل المظهر">◐</button>
+    </div>
+  </div>
+</header>
+
+<main id="main">
+<!-- ============ HERO ============ -->
+<section class="hero">
+  <svg class="star" width="420" height="420" viewBox="0 0 100 100" fill="none" stroke="currentColor" stroke-width="1">
+    <path d="M50 2 L61 39 L98 50 L61 61 L50 98 L39 61 L2 50 L39 39 Z"/>
+    <path d="M50 18 L57 43 L82 50 L57 57 L50 82 L43 57 L18 50 L43 43 Z"/>
+  </svg>
+  <div class="wrap">
+    <p class="eyebrow">متحفٌ رقمي · مفتوحٌ للجميع</p>
+    <h1>متحفٌ <span class="hl">لقصة الإسلام</span> كاملة.</h1>
+    <div><span class="datepill">اليوم 1 جمادى الأولى 1448 هـ · 12 أكتوبر 2026</span></div>
+    <div class="today" id="today">
+      <h2>في مثل هذا اليوم</h2>
+      <div class="duo">
+        <div class="card" style="--acc:var(--gold)">
+          <h3>في التقويم الهجري</h3>
+          <p><strong id="h-title">غزوة بدر الكبرى</strong> — <span id="h-date">17 رمضان 2هـ</span></p>
+          <a class="go" href="#">اقرأ القصة ←</a>
+        </div>
+        <div class="card" style="--acc:var(--lapis)">
+          <h3>في التقويم الميلادي</h3>
+          <p><strong id="g-title">فتح القسطنطينية</strong> — <span id="g-date">29 مايو 1453م</span></p>
+          <a class="go" href="#">اقرأ القصة ←</a>
+        </div>
+      </div>
+      <button class="pill ghost" id="shuffle" type="button" style="margin-top:1.2rem">🎲 حدث آخر عشوائي</button>
+    </div>
+  </div>
+</section>
+
+<!-- ============ TOUR / LEARN ============ -->
+<section class="block" id="tour">
+  <div class="wrap">
+    <div class="sec-head">
+      <h2>جولة وتعلّم</h2>
+      <p>المتحف كبير — ابدأ بمسار. كل مسارٍ هدفٌ واضح وخطواتٌ مرتبة.</p>
+    </div>
+    <div class="paths">
+      <a class="path" href="#" style="--acc:#b8932f"><h3>الإسلام في ثلاثين دقيقة</h3><p>لمن لم يعرف الإسلام من قبل: المعنى والأركان والنبي وبداية التقويم.</p><span class="meta">12 خطوة · 30 دقيقة</span></a>
+      <a class="path" href="#" style="--acc:#0f5f5c"><h3>العهد المكي: من الغار إلى الهجرة</h3><p>مسارٌ زمني عبر سنوات الدعوة بمكة، من نزول الوحي إلى الهجرة.</p><span class="meta">12 حدثًا</span></a>
+      <a class="path" href="#" style="--acc:#1f4e8c"><h3>الهجرتان إلى الحبشة</h3><p>الخروج الأول من مكة: لماذا الحبشة، ومن آواهم، وكيف عادوا.</p><span class="meta">درس قصير</span></a>
+      <a class="path" href="#" style="--acc:#8e5aa8"><h3>النساء حول النبي</h3><p>اثنتا عشرة سيرة من محيط النبي، بما نُقل عنهن.</p><span class="meta">12 سيرة</span></a>
+      <a class="path" href="#" style="--acc:#b65c5c"><h3>من الخصومة إلى الإسلام</h3><p>قصص من عارضوا الدعوة ثم دخلوا فيها، من عمر إلى مسلمة الفتح.</p><span class="meta">12 موضعًا</span></a>
+    </div>
+    <p class="plan-note">300 مسار قيد الإعداد — يُحفظ تقدمك في متصفحك وحده، بلا حساب.</p>
+  </div>
+</section>
+
+<!-- ============ WINGS ============ -->
+<section class="block" id="wings" style="padding-top:1rem">
+  <div class="wrap">
+    <div class="sec-head">
+      <h2>تجوّل في الأجنحة</h2>
+      <p>تسعة أجنحة، كل جناحٍ بابٌ إلى عالم.</p>
+    </div>
+    <div class="wings">
+      <a class="wing" href="#" style="--acc:#b8932f;--tint:#f3e9d2"><h3>الزمان</h3><span class="count">764 حدثًا</span><p>العصور والخطوط الزمنية، وهذا اليوم في التاريخ.</p></a>
+      <a class="wing" href="#" style="--acc:#0f5f5c;--tint:#dde7da"><h3>المكان</h3><span class="count">360 مكانًا</span><p>المدن والمواقع والطرق على خريطة تتحرك عبر الزمن.</p></a>
+      <a class="wing" href="#" style="--acc:#1f4e8c;--tint:#dde4ee"><h3>الناس</h3><span class="count">1,744 شخصية</span><p>الأنبياء والصحابة والعلماء والحكام والشعراء والرحالة.</p></a>
+      <a class="wing" href="#" style="--acc:#8e5aa8;--tint:#e4dded"><h3>الأفكار</h3><span class="count">146 مفهومًا</span><p>العقائد والمفاهيم والعلوم والمذاهب، بلغةٍ واضحة.</p></a>
+      <a class="wing" href="#" style="--acc:#b65c5c;--tint:#f2dfe0"><h3>الآثار</h3><span class="count">68 قطعة ومبنى</span><p>المخطوطات والفنون والعمارة والآثار من مجموعات العالم.</p></a>
+      <a class="wing" href="#" style="--acc:#3f6fb5;--tint:#dfe8f4"><h3>الكلمة</h3><span class="count">18,482 مقطعًا</span><p>القرآن والحديث والشعر، ولغات الشعوب وخطوطها.</p></a>
+      <a class="wing" href="#" style="--acc:#4d8a4f;--tint:#e0ead9"><h3>الحياة</h3><span class="count">العبادات والممارسات</span><p>العبادات والأعياد والمطبخ واللباس والموسيقى عبر المناطق.</p></a>
+      <a class="wing" href="#" style="--acc:#c07f2e;--tint:#f4e6cf"><h3>اليوم</h3><span class="count">حيث يلتقي التقويمان</span><p>الأمم والمؤسسات والبيانات وأهل اليوم.</p></a>
+      <a class="wing" href="#" style="--acc:#7a5c3e;--tint:#ece2cc"><h3>صُنع</h3><span class="count">يصنعه المسلمون اليوم</span><p>المكتبات والناشرون والتطبيقات والاستوديوهات والعلامات.</p></a>
+    </div>
+  </div>
+</section>
+
+<!-- ============ EXPLORE ============ -->
+<section class="block" id="explore" style="padding-top:1rem">
+  <div class="wrap">
+    <div class="sec-head">
+      <h2>استكشف</h2>
+      <p>طرق تفاعلية للتجول في المحتوى — غير المسارات المرتبة أعلاه.</p>
+    </div>
+    <div class="xgrid">
+      <div class="xcard">
+        <div class="thumb" aria-hidden="true"><div class="axis">
+          <div class="line"></div>
+          <span class="tick" style="right:8%">1هـ</span><span class="tick" style="right:38%">500هـ</span>
+          <span class="tick" style="right:66%">1000هـ</span><span class="tick" style="left:6%">1448هـ</span>
+          <div class="play"></div>
+        </div></div>
+        <div class="body" style="--acc:var(--gold)"><h3>الخريطة الزمنية الهجرية</h3><p>أربعة عشر قرنًا على محور هجري تفاعلي، والميلادي قراءة ثانية.</p><a class="go" href="#">جرّبها ←</a></div>
+      </div>
+      <div class="xcard">
+        <div class="thumb" aria-hidden="true"><svg class="dunes" viewBox="0 0 150 150" preserveAspectRatio="xMidYMid slice">
+          <rect width="150" height="150" fill="#e8d9b8"/>
+          <path d="M0 110 Q40 80 75 105 T150 95 V150 H0 Z" fill="#dfc99c"/>
+          <path class="route" d="M118 118 Q95 100 78 108 T40 92 T18 98"/>
+          <circle cx="118" cy="118" r="5" fill="#b8932f"/><circle cx="40" cy="92" r="4" fill="#b8932f"/><circle cx="18" cy="98" r="4" fill="#1f4e8c"/>
+        </svg></div>
+        <div class="body" style="--acc:var(--teal)"><h3>رحلات تفاعلية</h3><p>سِر درب الهجرة يومًا بيوم: المحطات والمسافات والليالي.</p><a class="go" href="#">جرّبها ←</a></div>
+      </div>
+      <div class="xcard">
+        <div class="thumb" aria-hidden="true"><div class="stars">
+          <i style="top:30%;right:25%"></i><i style="top:55%;right:45%"></i><i style="top:25%;right:60%"></i>
+          <i style="top:65%;right:70%"></i><i style="top:40%;right:80%"></i>
+          <svg style="position:absolute;inset:0" viewBox="0 0 150 150"><path d="M112 45 L82 82 L60 37 M82 82 L45 97 M82 82 L30 60" stroke="#e8c85a" stroke-width="1" opacity=".6" fill="none"/></svg>
+        </div></div>
+        <div class="body" style="--acc:#8e5aa8"><h3>مستكشف الصلات</h3><p>علاقات الأشخاص والأحداث والأماكن مرسومةً ككوكبة.</p><a class="go" href="#">جرّبه ←</a></div>
+      </div>
+      <div class="xcard">
+        <div class="thumb" aria-hidden="true"><div class="split"><div></div><div></div></div></div>
+        <div class="body" style="--acc:var(--lapis)"><h3>الوحي والتاريخ</h3><p>اقرأ القرآن كما نزل، جنبًا إلى جنب مع الأحداث.</p><a class="go" href="#">جرّبها ←</a></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ WIDGET BAND ============ -->
+<section class="band">
+  <div class="wrap band-grid">
+    <div>
+      <h2>اكتشف تاريخك الهجري</h2>
+      <p style="color:var(--muted);margin:0">أدخل تاريخ ميلادك الميلادي، نُخبرك بما يوافقه هجريًّا — وماذا وقع في مثل ذلك اليوم.</p>
+      <div class="row">
+        <input type="date" id="bdate" value="2026-10-12" aria-label="تاريخ الميلاد">
+        <button class="btn" id="hcalc" type="button">احسب</button>
+      </div>
+      <div class="hresult" id="hresult" role="status"></div>
+    </div>
+    <div style="text-align:center">
+      <p style="font-size:1.2rem">أو ابدأ من أشهر رحلة في القصة:</p>
+      <a class="btn ghost" href="#" style="font-size:1.1rem;padding:.8rem 2.2rem">ابدأ بهجرة النبي ←</a>
+    </div>
+  </div>
+</section>
+
+<!-- ============ STATS ============ -->
+<section class="stats">
+  <div class="wrap">
+    <p class="nums">10,772 مادة · 22,000 صفحة · 300 مسار مخطط</p>
+    <p class="honest">نعرض الفجوات ولا نخفيها — <a href="#">شاهد التغطية</a></p>
+  </div>
+</section>
+</main>
+
+<footer class="site">
+  <div class="wrap">
+    <div class="fcols">
+      <div><h4>عن المتحف</h4><a href="#">عن المشروع</a><a href="#">منهجنا التحريري</a><a href="#">الأسئلة الشائعة</a><a href="#">المؤسسة</a></div>
+      <div><h4>الموارد</h4><a href="#">البيانات المفتوحة (JSON)</a><a href="#">الشراكات</a><a href="#">صحافة وإعلام</a><a href="#">ساهم على GitHub</a></div>
+      <div><h4>تابعنا</h4><a href="#">أخبار المتحف</a><a href="#">اتصل بنا</a><a href="#">سياسة الخصوصية</a><a href="#">بلا تتبع، بلا إعلانات</a></div>
+    </div>
+    <p class="fine">CC BY-SA 4.0 · نموذج أولي للتصميم — المحتوى المعروض لأغراض العرض فقط</p>
+  </div>
+</footer>
+
+<script>
+(function(){
+  var root=document.documentElement;
+  try{
+    var t=localStorage.getItem("theme"); if(t) root.setAttribute("data-theme",t);
+    var f=localStorage.getItem("font"); if(f) root.setAttribute("data-font",f);
+  }catch(e){}
+  document.getElementById("themebtn").addEventListener("click",function(){
+    var next=root.getAttribute("data-theme")==="dark"?"light":"dark";
+    root.setAttribute("data-theme",next);
+    try{localStorage.setItem("theme",next);}catch(e){}
+    this.setAttribute("aria-label",next==="dark"?"تبديل الوضع الفاتح":"تبديل الوضع الداكن");
+  });
+  document.getElementById("fontbtn").addEventListener("click",function(){
+    var next=root.getAttribute("data-font")==="sans"?"naskh":"sans";
+    root.setAttribute("data-font",next);
+    try{localStorage.setItem("font",next);}catch(e){}
+  });
+  document.getElementById("langbtn").addEventListener("click",function(){
+    alert("النسخة الإنجليزية: islam.museum/en/ — تُفتح في التصميم النهائي");
+  });
+  var burger=document.getElementById("burger"), nav=document.getElementById("navlinks");
+  burger.addEventListener("click",function(){
+    var open=nav.classList.toggle("open");
+    burger.setAttribute("aria-expanded",open);
+  });
+  /* Hijri birthday calculator */
+  var pairs=[
+    {h:["غزوة بدر الكبرى","17 رمضان 2هـ"],g:["فتح القسطنطينية","29 مايو 1453م"]},
+    {h:["الهجرة النبوية","12 ربيع الأول 1هـ"],g:["معركة حطين","4 يوليو 1187م"]},
+    {h:["فتح مكة","20 رمضان 8هـ"],g:["سقوط غرناطة","2 يناير 1492م"]},
+    {h:["معركة اليرموك","رجب 15هـ"],g:["معركة عين جالوت","3 سبتمبر 1260م"]}
+  ];
+  document.getElementById("shuffle").addEventListener("click",function(){
+    var p=pairs[Math.floor(Math.random()*pairs.length)];
+    document.getElementById("h-title").textContent=p.h[0];
+    document.getElementById("h-date").textContent=p.h[1];
+    document.getElementById("g-title").textContent=p.g[0];
+    document.getElementById("g-date").textContent=p.g[1];
+  });
+  document.getElementById("hcalc").addEventListener("click",function(){
+    var v=document.getElementById("bdate").value, out=document.getElementById("hresult");
+    if(!v){out.classList.remove("show");return;}
+    try{
+      var d=new Date(v+"T12:00:00");
+      var h=new Intl.DateTimeFormat("ar-SA-u-ca-islamic",{day:"numeric",month:"long",year:"numeric"}).format(d);
+      var g=new Intl.DateTimeFormat("ar-EG",{day:"numeric",month:"long",year:"numeric"}).format(d);
+      out.innerHTML="<strong>"+g+"</strong> يوافق <strong>"+h+"</strong> — في مثل هذا اليوم من التاريخ الهجري وقعت أحداثٌ يرويها جناح الزمان.";
+      out.classList.add("show");
+    }catch(e){out.textContent="تعذّر الحساب في هذا المتصفح.";out.classList.add("show");}
+  });
+})();
+</script>
+</body>
+</html>

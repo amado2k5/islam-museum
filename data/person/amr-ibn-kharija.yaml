@@ -1,0 +1,23 @@
+id: person/amr-ibn-kharija
+class: person
+label: { ar: "عمرو بن خارجة", en: "Amr ibn Kharija" }
+names:
+  - { kind: full, lang: ar, value: "عمرو بن خارجة" }
+gender: male
+roles: [companion]
+traditions: [sunni]
+summary:
+  ar: "صحابي بعثه عتاب بن أسيد إلى النبي في حاجة وهو واقف بعرفة في حجة الوداع، فوقف تحت ناقته ولغامها يقع على رأسه فسمعه يقول: لا تجوز وصية لوارث، والولد للفراش وللعاهر الحجر؛ يرويه ابن إسحاق عن ليث بن أبي سليم عن شهر بن حوشب عنه."
+  en: "A Companion whom Attab ibn Asid sent to the Prophet on an errand while he stood at Arafat in the Farewell Pilgrimage; he stood under the Prophet's camel with its foam falling on his head and heard him say that no bequest is valid for an heir, the child belongs to the bed and the adulterer gets the stone; Ibn Ishaq has it from Layth ibn Abi Sulaym from Shahr ibn Hawshab from him."
+wings: [people]
+periods: [period/prophetic-era]
+regions: [arabia]
+story_roles:
+  - { role: witness, toward: person/muhammad, start: { edtf: "0632-03" }, status: tradition, note: "سمع النبي بعرفة في حجة الوداع (ابن هشام ص252-253).", sources: [source/ibn-hisham-saqqa] }
+faith:
+  - { value: sunni, basis: tradition, note: "صحابي راوٍ عن النبي (ابن هشام ص252).", sources: [source/ibn-hisham-saqqa] }
+relations:
+  - { type: participated_in, target: event/farewell-sermon-at-arafat, role: "سمع النبي من تحت ناقته", sources: [source/ibn-hisham-saqqa] }
+provenance: { layer: own-research, source: "sira-ibn-hisham saqqa 1936, juz' 4 pp. 252-253", generated_by: "Claude Code", model: "claude-fable-5-1", run: "ibn-hisham-batch-11" }
+sources: [source/ibn-hisham-saqqa]
+status: { review: draft, completeness: 1, generated_by: "Claude Fable 5.1; mined from Ibn Hisham juz' 4 pp. 252-253" }

@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 8:70 (سورة الأنفال، الآية 70)."
 text: "يَـٰٓأَيُّهَا ٱلنَّبِىُّ قُل لِّمَن فِىٓ أَيْدِيكُم مِّنَ ٱلْأَسْرَىٰٓ إِن يَعْلَمِ ٱللَّهُ فِى قُلُوبِكُمْ خَيْرًا يُؤْتِكُمْ خَيْرًا مِّمَّآ أُخِذَ مِنكُمْ وَيَغْفِرْ لَكُمْ ۗ وَٱللَّهُ غَفُورٌ رَّحِيمٌ"
 text_search: "يا أيها النبي قل لمن في أيديكم من الأسرى إن يعلم الله في قلوبكم خيرا يؤتكم خيرا مما أخذ منكم ويغفر لكم ۗ والله غفور رحيم"
+translations:
+  en: { text: "O Prophet! Say unto those captives who are in your hands: If Allah knoweth any good in your hearts He will give you better than that which hath been taken from you, and will forgive you. Lo! Allah is Forgiving, Merciful.", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "اے پیغمبر جو قیدی تمہارے ہاتھ میں (گرفتار) ہیں ان سے کہہ دو کہ اگر خدا تمہارے دلوں میں نیکی معلوم کرے گا تو جو (مال) تم سے چھن گیا ہے اس سے بہتر تمہیں عنایت فرمائے گا اور تمہارے گناہ بھی معاف کر دے گا اور خدا بخشنے والا مہربان ہے", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-8 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

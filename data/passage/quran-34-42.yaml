@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 34:42 (سورة سبأ، الآية 42)."
 text: "فَٱلْيَوْمَ لَا يَمْلِكُ بَعْضُكُمْ لِبَعْضٍ نَّفْعًا وَلَا ضَرًّا وَنَقُولُ لِلَّذِينَ ظَلَمُوا۟ ذُوقُوا۟ عَذَابَ ٱلنَّارِ ٱلَّتِى كُنتُم بِهَا تُكَذِّبُونَ"
 text_search: "فاليوم لا يملك بعضكم لبعض نفعا ولا ضرا ونقول للذين ظلموا ذوقوا عذاب النار التي كنتم بها تكذبون"
+translations:
+  en: { text: "That day ye will possess no use nor hurt one for another. And We shall say unto those who did wrong: Taste the doom of the Fire which ye used to deny.", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "تو آج تم میں سے کوئی کسی کو نفع اور نقصان پہنچانے کا اختیار نہیں رکھتا۔ اور ہم ظالموں سے کہیں گے کہ دوزخ کے عذاب کا جس کو تم جھوٹ سمجھتے تھے مزہ چکھو", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-34 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

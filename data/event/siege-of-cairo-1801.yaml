@@ -1,0 +1,23 @@
+id: event/siege-of-cairo-1801
+class: event
+kind: siege
+label: { ar: "حصار القاهرة (١٨٠١)", en: "Siege of Cairo" }
+summary:
+  ar: "بطاقة أولية لحصار القاهرة سنة ١٨٠١م، استسلام الحامية الفرنسية للحلفاء العثمانيين البريطانيين؛ لم تُراجع مصادره على الصفحة بعد."
+  en: "Draft card for the Siege of Cairo in 1801, the French garrison's surrender to the Ottoman-British allies; its sources are not yet checked on the page."
+wings: [time]
+periods: [period/colonial-era]
+regions: [egypt-nile]
+date:
+  start: { edtf: "1801", precision: year, status: tradition, derived: true }
+  end: { edtf: "1801", precision: year, status: tradition, derived: true }
+sources: [source/tarikh-islam-hasan-ibrahim]
+external_ids:
+  wikidata: Q24962366
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; battle attested in narrative histories — entry not yet checked on the page"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-wave2
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

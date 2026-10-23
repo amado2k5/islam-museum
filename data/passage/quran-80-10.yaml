@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 80:10 (سورة عبس، الآية 10)."
 text: "فَأَنتَ عَنْهُ تَلَهَّىٰ"
 text_search: "فأنت عنه تلهى"
+translations:
+  en: { text: "From him thou art distracted.", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "اس سے تم بےرخی کرتے ہو", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-80 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

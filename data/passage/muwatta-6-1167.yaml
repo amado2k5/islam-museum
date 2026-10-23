@@ -1,0 +1,21 @@
+id: passage/muwatta-6-1167
+class: passage
+unit: hadith
+work: work/muwatta-malik
+ref: "1167"
+label: { ar: "الموطأ 1167 — عائشة: خرجنا مع رسول الله لخمس ليال بقين من ذي القعدة، فأمر من لم يكن معه هدي أن يحل بعد الطواف والسعي", en: "Muwatta 1167" }
+summary:
+  ar: "تروي عمرة بنت عبد الرحمن أنها سمعت عائشة تقول إنهم خرجوا مع رسول الله لخمس ليال بقين من ذي القعدة، ولا يرون إلا أنه الحج. فلما دنوا من مكة أمر من لم يكن معه هدي أن يحل إذا طاف وسعى، فدخل عليهم يوم النحر بلحم بقر. ويقول يحيى بن سعيد إنه ذكر ذلك للقاسم بن محمد فقال إنها أتته بالحديث على وجهه. {cite:muwatta-maruf-1997 p.527}"
+relations:
+  - { type: part_of, target: passage/muwatta-kitab-06-hajj }
+  - { type: mentions, target: person/aisha, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/amra-bint-abd-al-rahman, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/al-qasim-ibn-muhammad, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/yahya-ibn-said-al-ansari, sources: [source/muwatta-maruf-1997] }
+  - { type: basis_for, target: practice/ihram, sources: [source/muwatta-maruf-1997] }
+  - { type: basis_for, target: practice/tawaf, sources: [source/muwatta-maruf-1997] }
+  - { type: basis_for, target: practice/sai, sources: [source/muwatta-maruf-1997] }
+  - { type: basis_for, target: practice/hady, sources: [source/muwatta-maruf-1997] }
+provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 1, hadith 1167 at PDF p. 527; ما جاء في النحر في الحج", generated_by: "Claude Code (claude-haiku-5-5) from Apple Vision OCR of the Noor-Book PDF, checked on the page image where doubtful", run: "muwatta-prose-k6-b12" }
+sources: [source/muwatta-maruf-1997]
+status: { review: draft, completeness: 2, generated_by: "Claude Code (claude-haiku-5-5); own-words account written from PDF p. 527; matn excerpt at most 40 words" }

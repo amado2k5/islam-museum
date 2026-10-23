@@ -1,0 +1,17 @@
+id: person/hilal-ibn-uqqa-al-namiri
+class: person
+label: { ar: "هلال بن عقة النمري" }
+summary:
+  ar: "عند البلاذري: هلال بن عقة بن قيس بن البشر النمري كان على النمر بن ساقط بعين التمر فجمع لخالد وقاتله فظفر به فقتله وصلبه وقال ابن الكلبي كان عليهم يومئذ عقة بن قيس بن البشر بنفسه."
+  en: "In al-Baladhuri: Hilal ibn Uqqa ibn Qays ibn al-Bushr al-Namiri, over al-Namar ibn Saqit at Ayn al-Tamr; he gathered against Khalid and fought him, was overcome, killed and crucified — al-Kalbi: it was Uqqa ibn Qays himself over them that day."
+gender: male
+died: { edtf: "0633~", calendar: julian, precision: year, status: tradition, derived: true, note: "قتل وصلب بعين التمر سنة 12 (البلاذري ص 347). التحويل مشتق." }
+relations:
+  - { type: participated_in, target: event/siege-of-ayn-al-tamr, role: "المقاتل المصلوب", sources: [source/futuh-buldan-maarif-1407] }
+provenance:
+  layer: own-research
+  source: "فتوح البلدان (ط مؤسسة المعارف 1407هـ/1987م) ص 347"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-futuh-buldan-batch-28
+sources: [source/futuh-buldan-maarif-1407]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

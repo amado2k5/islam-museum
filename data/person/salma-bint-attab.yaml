@@ -1,0 +1,20 @@
+id: person/salma-bint-attab
+class: person
+label: { ar: "سلمى بنت عتاب", en: "Salma bint Attab" }
+names:
+  - { kind: full, lang: ar, value: "سلمى بنت عتاب" }
+gender: female
+roles: [poet]
+summary:
+  ar: "شاعرة من بني تميم قالت بيتين يوم غزوة عيينة بن حصن بني العنبر ترثي فيهما ما لقيت عدي بن جندب من الشر وتكنّف الأعداء لهم وغياب عزهم وجدودهم؛ لا يُعرف من خبرها عند ابن إسحاق غير ذلك."
+  en: "A woman poet of Tamim who spoke two verses on the day of Uyayna ibn Hisn's raid on Banu al-Anbar, lamenting the evil that befell Adi ibn Jundab, the enemies closing in from every side and the absence of their might and fortune; nothing else of her is known from Ibn Ishaq."
+wings: [people]
+themes: [literature, women]
+periods: [period/prophetic-era]
+regions: [arabia]
+relations:
+  - { type: member_of, target: group/banu-tamim, note: "نسبتها إلى تميم مستفادة من سياق الخبر لا من نص صريح", sources: [source/ibn-hisham-saqqa] }
+  - { type: authored, target: work/salma-bint-attab-verses-on-banu-al-anbar, sources: [source/ibn-hisham-saqqa] }
+provenance: { layer: own-research, source: "sira-ibn-hisham saqqa 1936, juz' 4 p. 270", generated_by: "Claude Code", model: "claude-fable-5-1", run: "ibn-hisham-batch-13" }
+sources: [source/ibn-hisham-saqqa]
+status: { review: draft, completeness: 1, generated_by: "Claude Fable 5.1; mined from Ibn Hisham juz' 4 p. 270" }

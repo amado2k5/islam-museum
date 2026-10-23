@@ -1,0 +1,23 @@
+id: event/second-battle-of-cobadin-1916
+class: event
+kind: battle
+label: { ar: "معركة كوبادين الثانية", en: "Second Battle of Cobadin" }
+summary:
+  ar: "بطاقة أولية لمعركة كوبادين الثانية سنة ١٩١٦م، فوز القوى الوسطى على الجيش الروسي الروماني في دوبروجا؛ لم تُراجع مصادره على الصفحة بعد."
+  en: "Draft card for the Second Battle of Cobadin in 1916, the Central Powers' victory in Dobruja; its sources are not yet checked on the page."
+wings: [time]
+periods: [period/modern-era]
+regions: [anatolia-balkans]
+date:
+  start: { edtf: "1916", precision: year, status: tradition, derived: true }
+  end: { edtf: "1916", precision: year, status: tradition, derived: true }
+sources: [source/tarikh-islam-hasan-ibrahim]
+external_ids:
+  wikidata: Q3657549
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; battle attested in narrative histories — entry not yet checked on the page"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-wave2
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

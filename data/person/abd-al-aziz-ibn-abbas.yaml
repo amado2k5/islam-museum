@@ -1,0 +1,24 @@
+id: person/abd-al-aziz-ibn-abbas
+class: person
+label: { ar: "عبد العزيز بن عباس", en: "Abd al-Aziz b. Abbas" }
+names:
+  - { kind: full, lang: ar, value: "عبد العزيز بن عباس" }
+gender: male
+roles: [ruler]
+summary:
+  ar: "أمير قلعة بني عباس ببلاد بجاية الذي أعلن انفصاله واستقلاله؛ هاجم الحصن العثماني الذي أقامه حسن بن خير الدين في المسيلة فنشبت المعارك ولقي فيها حتفه سنة ٩٦٦هـ/١٥٥٩م، وخلفه أحمد مقران {cite:dawlat-uthmaniyya-salabi p. 248-249}."
+  en: "Lord of Qal'at Bani Abbas in the Béjaïa country, who declared his independence; he swooped on the Ottoman fort Hasan b. Khayr al-Din had built at M'sila, and in the fighting that followed met his death in 966/1559, succeeded by Ahmad Muqran {cite:dawlat-uthmaniyya-salabi p. 248-249}."
+wings: [people]
+regions: [maghreb]
+periods: [period/gunpowder-empires]
+died: { edtf: "1559", hijri: "0966", calendar: gregorian, precision: year, status: tradition, sources: [source/dawlat-uthmaniyya-salabi] }
+relations:
+  - { type: opposed, target: person/hasan-ibn-khayr-al-din, sources: [source/dawlat-uthmaniyya-salabi] }
+sources: [source/dawlat-uthmaniyya-salabi]
+provenance:
+  layer: own-research
+  source: "الدولة العثمانية لعلي محمد الصلابي (ط1 1421) ص 248-249"
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: salabi-uthmani-batch13
+status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 Medium)" }

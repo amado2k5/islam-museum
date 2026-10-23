@@ -1,0 +1,23 @@
+id: event/battle-of-hodow-1694
+class: event
+kind: battle
+label: { ar: "معركة هودوف", en: "Battle of Hodów" }
+summary:
+  ar: "بطاقة أولية لمعركة هودوف سنة ١٦٩٤م، صد البولنديين لحملة التتار؛ لم تُراجع مصادره على الصفحة بعد."
+  en: "Draft card for the Battle of Hodów in 1694, the Polish stand against the Tatar-Ottoman raid; its sources are not yet checked on the page."
+wings: [time]
+periods: [period/gunpowder-empires]
+regions: [anatolia-balkans]
+date:
+  start: { edtf: "1694", precision: year, status: tradition, derived: true }
+  end: { edtf: "1694", precision: year, status: tradition, derived: true }
+sources: [source/dawlat-uthmaniyya-salabi]
+external_ids:
+  wikidata: Q3276834
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; battle attested in narrative histories — entry not yet checked on the page"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-wave2
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

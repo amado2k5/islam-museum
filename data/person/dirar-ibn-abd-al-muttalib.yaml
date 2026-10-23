@@ -1,0 +1,27 @@
+id: person/dirar-ibn-abd-al-muttalib
+class: person
+label: { ar: "ضرار بن عبد المطلب", en: "Dirar ibn Abd al-Muttalib" }
+names:
+  - { kind: full, lang: ar, value: "ضرار بن عبد المطلب بن هاشم" }
+gender: male
+summary:
+  ar: "أحد بني عبد المطلب العشرة في عدّ الرحيق المختوم، وعم النبي؛ يذكره الفصل الخامس باسمه فقط."
+  en: "One of the ten sons of Abd al-Muttalib in al-Raheeq al-Makhtum's count, and an uncle of the Prophet; chapter 5 gives only his name."
+wings: [people]
+themes: [family-marriage-kinship]
+periods: [period/pre-islamic-arabia, period/prophetic-era]
+regions: [arabia]
+story_roles:
+  - { role: family-of-the-prophet, status: tradition, sources: [source/mubarakpuri-raheeq] }
+relations:
+  - { type: child_of, target: person/abd-al-muttalib, sources: [source/mubarakpuri-raheeq, source/talqih-fuhum-ahl-al-athr] }
+  - { type: sibling_of, target: person/abdullah-ibn-abd-al-muttalib, sources: [source/mubarakpuri-raheeq] }
+  - { type: member_of, target: group/banu-hashim, sources: [source/mubarakpuri-raheeq] }
+provenance:
+  layer: own-research
+  source: "الرحيق المختوم ص52–53 نقلاً عن تلقيح فهوم أهل الأثر ص8–9 ورحمة للعالمين 2/56–66 وابن هشام 1/151–158"
+  generated_by: "Claude Code"
+  model: "claude-fable-5-1"
+  run: "raheeq-prose-batch-5b"
+sources: [source/mubarakpuri-raheeq, source/talqih-fuhum-ahl-al-athr, source/rahma-lil-alamin]
+status: { review: draft, completeness: 1, generated_by: "Claude Code (claude-fable-5-1); al-Raheeq al-Makhtum p. 52" }

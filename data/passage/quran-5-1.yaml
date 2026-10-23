@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 5:1 (سورة المائدة، الآية 1)."
 text: "بِسْمِ ٱللَّهِ ٱلرَّحْمَـٰنِ ٱلرَّحِيمِ يَـٰٓأَيُّهَا ٱلَّذِينَ ءَامَنُوٓا۟ أَوْفُوا۟ بِٱلْعُقُودِ ۚ أُحِلَّتْ لَكُم بَهِيمَةُ ٱلْأَنْعَـٰمِ إِلَّا مَا يُتْلَىٰ عَلَيْكُمْ غَيْرَ مُحِلِّى ٱلصَّيْدِ وَأَنتُمْ حُرُمٌ ۗ إِنَّ ٱللَّهَ يَحْكُمُ مَا يُرِيدُ"
 text_search: "بسم الله الرحمن الرحيم يا أيها الذين آمنوا أوفوا بالعقود ۚ أحلت لكم بهيمة الأنعام إلا ما يتلى عليكم غير محلي الصيد وأنتم حرم ۗ إن الله يحكم ما يريد"
+translations:
+  en: { text: "O ye who believe! Fulfil your indentures. The beast of cattle is made lawful unto you (for food) except that which is announced unto you (herein), game being unlawful when ye are on the pilgrimage. Lo! Allah ordaineth that which pleaseth Him.", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "اے ایمان والو! اپنے اقراروں کو پورا کرو۔ تمہارے لیے چارپائے جانور (جو چرنے والے ہیں) حلال کر دیئے گئے ہیں۔ بجز ان کے جو تمہیں پڑھ کر سنائے جاتے ہیں مگر احرام (حج) میں شکار کو حلال نہ جاننا۔ خدا جیسا چاہتا ہے حکم دیتا ہے", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-5 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

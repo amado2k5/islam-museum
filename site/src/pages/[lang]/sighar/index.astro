@@ -1,0 +1,104 @@
+---
+// Kids' Wing hub: age bands + entry cards. Uses BaseLayout's kids topbar (kids={true}).
+import BaseLayout from "../../../layouts/BaseLayout.astro";
+import Hudhud from "../../../components/Hudhud.astro";
+import { ui, LANGS, type Lang } from "../../../lib/i18n";
+import { loadBridge, viewBridge } from "../../../lib/kids";
+import "../../../styles/kids.css";
+
+export function getStaticPaths() { return LANGS.map((lang) => ({ params: { lang }, props: { lang } })); }
+const { lang } = Astro.props as { lang: Lang };
+const T = ui(lang);
+const t = T.kids;
+const bridges = viewBridge(loadBridge(), lang);
+---
+<BaseLayout lang={lang} title={t.hub_title} description={t.hub_lede} path={`/${lang}/sighar/`} kids={true}>
+  <div class="kids">
+    <section class="kids-hero">
+      <div class="kids-hudhud"><Hudhud pose="greet" size={140} /></div>
+      <div>
+        <h1>{t.hub_title}</h1>
+        <p class="kids-speech">{t.hub_lede}</p>
+      </div>
+    </section>
+
+    <section class="age-bands">
+      <div class="age-band on">
+        <h2>🌱 {t.band_sprouts}</h2>
+        <p>{t.band_sprouts_desc}</p>
+        <p>
+          <a class="kids-btn" href={`/${lang}/sighar/sprouts-garden/`}>{t.sprouts_garden_title}</a>{" "}
+          <a class="kids-btn" href={`/${lang}/sighar/sprouts-quest/`}>{t.sprouts_quest_title}</a>
+        </p>
+      </div>
+      <div class="age-band on">
+        <h2>🔍 {t.band_explorers}</h2>
+        <p>{t.band_explorers_desc}</p>
+        <p>
+          <a class="kids-btn" href={`/${lang}/sighar/garden/`}>{t.garden_title}</a>{" "}
+          <a class="kids-btn" href={`/${lang}/sighar/quest/`}>{t.quest_title}</a>{" "}
+          <a class="kids-btn" href={`/${lang}/sighar/kindness/`}>{t.kindness_title}</a>{" "}
+          <a class="kids-btn" href={`/${lang}/sighar/stories/`}>{t.stories_title}</a>
+        </p>
+      </div>
+      <div class="age-band on">
+        <h2>📖 {t.band_storytellers}</h2>
+        <p>{t.band_storytellers_desc}</p>
+        <p>
+          <a class="kids-btn" href={`/${lang}/sighar/retell/`}>{t.storytellers_retell_btn}</a>{" "}
+          <a class="kids-btn" href={`/${lang}/sighar/journal/`}>{t.storytellers_journal_btn}</a>
+        </p>
+      </div>
+    </section>
+
+    <section class="bridge" aria-label={t.bridge_title}>
+      <h2>🚪 {t.bridge_title}</h2>
+      <p>{t.bridge_lede}</p>
+      <p class="bridge-note">{t.bridge_door_note}</p>
+      <div class="entries">
+        {bridges.map((b) => (
+          <a class="entry-card bridge-card" href={b.href}>
+            <h3><span aria-hidden="true">🚪</span> {b.title}</h3>
+            <p>{b.desc}</p>
+          </a>
+        ))}
+      </div>
+    </section>
+
+    <section class="entries">
+      <a class="entry-card" href={`/${lang}/sighar/garden/`}>
+        <h2>🌸 {t.garden_title}</h2>
+        <p>{t.garden_lede}</p>
+      </a>
+      <a class="entry-card" href={`/${lang}/sighar/quest/`}>
+        <h2>⭐ {t.quest_title}</h2>
+        <p>{t.quest_lede}</p>
+      </a>
+      <a class="entry-card" href={`/${lang}/sighar/kindness/`}>
+        <h2>🤲 {t.kindness_title}</h2>
+        <p>{t.kindness_lede}</p>
+      </a>
+      <a class="entry-card" href={`/${lang}/sighar/stories/`}>
+        <h2>🌙 {t.stories_title}</h2>
+        <p>{t.stories_lede}</p>
+      </a>
+      <a class="entry-card" href={`/${lang}/sighar/teachers/`}>
+        <h2>🍎 {t.teachers_title}</h2>
+        <p>{t.teachers_lede}</p>
+      </a>
+      <a class="entry-card" href={`/${lang}/sighar/mosque/`}>
+        <h2>🕌 {t.mosque_title}</h2>
+        <p>{t.mosque_lede}</p>
+      </a>
+      <a class="entry-card" href={`/${lang}/sighar/timemachine/`}>
+        <h2>⏳ {t.tm_title}</h2>
+        <p>{t.tm_lede}</p>
+      </a>
+    </section>
+
+    <details class="grownups">
+      <summary>{t.grownups_title}</summary>
+      <p>{t.grownups_hub}</p>
+    </details>
+  </div>
+</BaseLayout>

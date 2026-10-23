@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 10:23 (سورة يونس، الآية 23)."
 text: "فَلَمَّآ أَنجَىٰهُمْ إِذَا هُمْ يَبْغُونَ فِى ٱلْأَرْضِ بِغَيْرِ ٱلْحَقِّ ۗ يَـٰٓأَيُّهَا ٱلنَّاسُ إِنَّمَا بَغْيُكُمْ عَلَىٰٓ أَنفُسِكُم ۖ مَّتَـٰعَ ٱلْحَيَوٰةِ ٱلدُّنْيَا ۖ ثُمَّ إِلَيْنَا مَرْجِعُكُمْ فَنُنَبِّئُكُم بِمَا كُنتُمْ تَعْمَلُونَ"
 text_search: "فلما أنجاهم إذا هم يبغون في الأرض بغير الحق ۗ يا أيها الناس إنما بغيكم على أنفسكم ۖ متاع الحياة الدنيا ۖ ثم إلينا مرجعكم فننبئكم بما كنتم تعملون"
+translations:
+  en: { text: "Yet when He hath delivered them, behold! they rebel in the earth wrongfully. O mankind! Your rebellion is only against yourselves. (Ye have) enjoyment of the life of the world; then unto Us is your return and We shall proclaim unto you what ye used to do.", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "لیکن جب وہ ان کو نجات دے دیتا ہے تو ملک میں ناحق شرارت کرنے لگتے ہیں۔ لوگو! تمہاری شرارت کا وبال تمہاری ہی جانوں پر ہوگا تم دنیا کی زندگی کے فائدے اُٹھا لو۔ پھر تم کو ہمارے پاس لوٹ کر آنا ہے۔ اس وقت ہم تم کو بتائیں گے جو کچھ تم کیا کرتے تھے", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-10 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

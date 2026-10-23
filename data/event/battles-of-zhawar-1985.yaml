@@ -1,0 +1,23 @@
+id: event/battles-of-zhawar-1985
+class: event
+kind: battle
+label: { ar: "معارك جاوار (١٩٨٥–١٩٨٦)", en: "Battles of Zhawar (1985–86)" }
+summary:
+  ar: "بطاقة أولية لمعارك جاوار من ١٩٨٥ إلى ١٩٨٦م، هجمات السوفييت على حصن المجاهدين في خوست؛ لم تُراجع مصادره على الصفحة بعد."
+  en: "Draft card for the Battles of Zhawar in 1985–86, the Soviet assaults on the mujahideen fortress in Khost; its sources are not yet checked on the page."
+wings: [time]
+periods: [period/modern-era]
+regions: [persia-central-asia]
+date:
+  start: { edtf: "1985-09", precision: year, status: tradition, derived: true }
+  end: { edtf: "1986-04", precision: year, status: tradition, derived: true }
+sources: [source/tarikh-islam-hasan-ibrahim]
+external_ids:
+  wikidata: Q4087327
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; battle attested in narrative histories — entry not yet checked on the page"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-wave2
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

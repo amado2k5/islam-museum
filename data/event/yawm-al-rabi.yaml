@@ -1,0 +1,22 @@
+id: event/yawm-al-rabi
+class: event
+kind: battle
+label: { ar: "يوم الربيع — انهزام الأوس إلى دورهم", en: "the day of al-Rabīʿ — the Aws driven to their doors, al-Najjār refusing peace" }
+date:
+  start: { edtf: "0610~", calendar: julian, precision: century, status: tradition, derived: true, note: "جاهلي؛ التاريخ تقريبي عند أهل الأيام {cite:kamil-ibn-al-athir p. 504}." }
+summary:
+  ar: "التقت الأنصار بعد يوم الجسر بالربيع وهو حائط في ناحية السفح فاقتتلوا قتالًا شديدًا حتى كاد يفني بعضهم بعضًا فانهزمت الأوس وتبعها الخزرج حتى بلغوا دورهم، وكانت سنتهم أن المنهزم إذا دخل دوره كُفّ عنه، فطلبت الأوس الصلح فامتنعت بنو النجار من الخزرج عن إجابتهم، فحصّنت الأوس النساء والذراري في الآطام ثم كفت عنهم الخزرج، وفيه يقول صخر بن سليمان البياضي ألا أبلغا عني سويد بن صامت بأنا قتلنا بالربيع سراتكم، وأجابه سويد بن الصامت فقد ذقت حرب الأوس فيها ابن الأسلت {cite:kamil-ibn-al-athir p. 504}."
+  en: "After the day of the Bridge the Anṣār met at al-Rabīʿ, a garden on the hillside, and fought until they nearly annihilated each other; the Aws broke to their houses and the Khazraj followed to the doors — breaking the custom that pursuit stops at the walls. When the Aws sued for peace Banū'l-Najjār refused it, so the Aws put women and children in the strongholds before the Khazraj desisted. Ṣakhr ibn Sulaymān and Suwayd ibn al-Ṣāmit traded boasts over the day {cite:kamil-ibn-al-athir p. 504}."
+sides:
+- label: { ar: "الأوس", en: "Aws" }
+- label: { ar: "الخزرج", en: "Khazraj" }
+relations:
+  - { type: occurred_at, target: place/medina, sources: [source/kamil-ibn-al-athir] }
+  - { type: had_participant, target: person/suwayd-ibn-al-samit, sources: [source/kamil-ibn-al-athir] }
+provenance:
+  layer: own-research
+  source: "الكامل في التاريخ لابن الأثير (مكتبة التوفيقية، ج1)، قراءة آبل فيجن"
+  generated_by: "Devin (SWE-2 Medium) from Apple Vision OCR"
+  run: lib-kamil-v1-batch03
+sources: [source/kamil-ibn-al-athir]
+status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 Medium)" }

@@ -1,0 +1,22 @@
+id: event/georgians-azjish-606
+class: event
+kind: raid
+label: { ar: "ملك الكرج أزجيش وعودهم عنها", en: "Georgians take Azjish then withdraw" }
+date:
+  start: { edtf: "1209~", hijri: "0606", calendar: julian, precision: year, status: tradition, derived: true }
+summary:
+  ar: "ملكت الكرج بلدة أزجيش من بلاد الإسلام ثم عادوا عنها {cite:kamil-ibn-al-athir p. 345}."
+  en: "The Georgians seized Azjish and then abandoned it {cite:kamil-ibn-al-athir p. 345}."
+sides:
+  - label: { ar: "الكرج" }
+  - label: { ar: "أهل أزجيش" }
+relations:
+  - { type: occurred_at, target: place/azjish, sources: [source/kamil-ibn-al-athir] }
+  - { type: had_participant, target: group/georgians, role: "المالكون", sources: [source/kamil-ibn-al-athir] }
+provenance:
+  layer: own-research
+  source: "الكامل في التاريخ لابن الأثير، قراءة آبل فيجن"
+  generated_by: "Devin (SWE-2 Medium) from Apple Vision OCR"
+  run: lib-kamil-v12-batch06
+sources: [source/kamil-ibn-al-athir]
+status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 Medium)" }

@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 66:5 (سورة التحريم، الآية 5)."
 text: "عَسَىٰ رَبُّهُۥٓ إِن طَلَّقَكُنَّ أَن يُبْدِلَهُۥٓ أَزْوَٰجًا خَيْرًا مِّنكُنَّ مُسْلِمَـٰتٍ مُّؤْمِنَـٰتٍ قَـٰنِتَـٰتٍ تَـٰٓئِبَـٰتٍ عَـٰبِدَٰتٍ سَـٰٓئِحَـٰتٍ ثَيِّبَـٰتٍ وَأَبْكَارًا"
 text_search: "عسى ربه إن طلقكن أن يبدله أزواجا خيرا منكن مسلمات مؤمنات قانتات تائبات عابدات سائحات ثيبات وأبكارا"
+translations:
+  en: { text: "It may happen that his Lord, if he divorce you, will give him in your stead wives better than you, submissive (to Allah), believing, pious, penitent, devout, inclined to fasting, widows and maids.", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "اگر پیغمبر تم کو طلاق دے دیں تو عجب نہیں کہ ان کا پروردگار تمہارے بدلے ان کو تم سے بہتر بیبیاں دے دے۔ مسلمان، صاحب ایمان فرمانبردار توبہ کرنے والیاں عبادت گذار روزہ رکھنے والیاں بن شوہر اور کنواریاں", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-66 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

@@ -1,0 +1,23 @@
+id: event/third-battle-of-gaza-1917
+class: event
+kind: battle
+label: { ar: "معركة غزة الثالثة", en: "Third Battle of Gaza" }
+summary:
+  ar: "بطاقة أولية لمعركة غزة الثالثة سنة ١٩١٧م، خرق ألنبي للخط العثماني وفتح الطريق إلى القدس؛ لم تُراجع مصادره على الصفحة بعد."
+  en: "Draft card for the Third Battle of Gaza in 1917, Allenby's breach of the Ottoman line opening the road to Jerusalem; its sources are not yet checked on the page."
+wings: [time]
+periods: [period/modern-era]
+regions: [levant-iraq]
+date:
+  start: { edtf: "1917", precision: year, status: tradition, derived: true }
+  end: { edtf: "1917", precision: year, status: tradition, derived: true }
+sources: [source/dawlat-uthmaniyya-salabi]
+external_ids:
+  wikidata: Q941322
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; battle attested in Palestine-campaign histories — entry not yet checked on the page"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-wave2
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

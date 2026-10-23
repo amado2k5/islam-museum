@@ -1,0 +1,23 @@
+id: event/battle-of-tamai-1884
+class: event
+kind: battle
+label: { ar: "معركة تمائي", en: "Battle of Tamai" }
+summary:
+  ar: "بطاقة أولية لمعركة تمائي سنة ١٨٨٤م، كسر المهديون المربع البريطاني في السودان؛ لم تُراجع مصادره على الصفحة بعد."
+  en: "Draft card for the Battle of Tamai in 1884, the Mahdists' break of the British square in Sudan; its sources are not yet checked on the page."
+wings: [time]
+periods: [period/colonial-era]
+regions: [east-africa]
+date:
+  start: { edtf: "1884", precision: year, status: tradition, derived: true }
+  end: { edtf: "1884", precision: year, status: tradition, derived: true }
+sources: [source/tarikh-islam-hasan-ibrahim]
+external_ids:
+  wikidata: Q604356
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; battle attested in narrative histories — entry not yet checked on the page"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-wave2
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

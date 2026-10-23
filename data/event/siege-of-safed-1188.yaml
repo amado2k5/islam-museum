@@ -1,0 +1,23 @@
+id: event/siege-of-safed-1188
+class: event
+kind: siege
+label: { ar: "حصار صفد (١١٨٨)", en: "Siege of Safed (1188)" }
+summary:
+  ar: "بطاقة أولية لحصار صفد سنة ١١٨٨م، من فتوح صلاح الدين بعد حطين؛ لم تُراجع مصادره على الصفحة بعد."
+  en: "Draft card for the Siege of Safed in 1188, of Saladin's conquests after Hattin; its sources are not yet checked on the page."
+wings: [time]
+periods: [period/crusades-ayyubid-mamluk]
+regions: [levant-iraq]
+date:
+  start: { edtf: "1188", precision: year, status: tradition, derived: true }
+  end: { edtf: "1188", precision: year, status: tradition, derived: true }
+sources: [source/tarikh-islam-hasan-ibrahim]
+external_ids:
+  wikidata: Q98113747
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; battle attested in narrative histories — entry not yet checked on the page"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-wave2
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

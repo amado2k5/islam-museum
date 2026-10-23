@@ -1,0 +1,36 @@
+id: event/ali-letter-exchange-with-muawiya
+class: event
+kind: other
+label: { ar: "رسائل علي ومعاوية بعد الجمل", en: "Letters between Ali and Muawiya after the Camel" }
+summary:
+  ar: "بعد وقعة الجمل كتب علي إلى معاوية يدعوه إلى الدخول فيما دخل فيه المسلمين، ويعرض أن الشورى للمهاجرين والأنصار، ويقول إن طلحة والزبير نكثا بيعته {cite:abqariyyat-ali-aqqad p.77}. فرد معاوية بأنه لا يبايع حتى يُدفع إليه قتلة عثمان، وأنكر على علي أن يعدّ بيعة المدينة ملزمة لأهل الشام {cite:abqariyyat-ali-aqqad p.78}. ويرى العقاد أن الرسائل تفتح باباً بعد باب، فلا يُغلق باب إلا بقي ما وراءه، وأن الحجج بطلت حين قال كل طرف غير ما في صدره {cite:abqariyyat-ali-aqqad p.78}."
+  en: "After the Camel, Ali wrote to Muawiya urging him to enter the community's allegiance, noting that the consultation belonged to the Emigrants and Helpers and that Talha and Zubayr had broken their pledge {cite:abqariyyat-ali-aqqad p.77}. Muawiya replied that he would not pledge until Uthman's killers were handed over, and disputed that the Medinan pledge bound the people of Syria {cite:abqariyyat-ali-aqqad p.78}. Al-Aqqad sees each closed door opening onto another, so that the letters ended without an agreement {cite:abqariyyat-ali-aqqad p.78}."
+wings: [words, people]
+themes: [civil-wars-and-revolts, reconciliation-and-unity]
+periods: [period/rashidun]
+regions: [levant-iraq]
+date:
+  start: { hijri: "0036", precision: year, status: tradition, derived: true, note: "الكتاب لا يؤرخ الرسائل بسنة؛ تأتي بعد وقعة الجمل (36هـ) وقبل صفين (37هـ). التاريخ مشتق من ترتيب الكتاب، ثقة منخفضة (abqariyyat-ali-aqqad pp. 76-78)." }
+relations:
+  - { type: had_participant, target: person/ali-ibn-abi-talib, role: "كتب يدعو معاوية إلى البيعة", sources: [source/abqariyyat-ali-aqqad] }
+  - { type: had_participant, target: person/muawiya-ibn-abi-sufyan, role: "رد بشرط تسليم قتلة عثمان", sources: [source/abqariyyat-ali-aqqad] }
+  - { type: caused, target: event/battle-of-siffin, sources: [source/abqariyyat-ali-aqqad] }
+issue: { ar: "هل كانت بيعة المدينة ملزمة لأهل الشام؟", en: "Did the Medinan pledge bind the people of Syria?" }
+perspectives:
+  - tradition: sunni
+    id: sunni-pending
+    stance: { ar: "لم يُعرض بعد من مصدر سني محدد", en: "Not yet set out from a named Sunni source" }
+    summary:
+      ar: "لم تُنقل هنا نصوص الرسائل من مصدر سني محدد؛ نص الكتاب هنا من قراءة العقاد وحدها (needs_source)."
+      en: "The letters are given here only as the author quotes them; the texts are to be checked against a named Sunni source (needs_source)."
+    sources: [source/abqariyyat-ali-aqqad]
+  - tradition: other
+    id: aqqad-reading
+    stance: { ar: "قراءة العقاد: الرسائل بين خصمين لا يتفقان على المرجع", en: "Al-Aqqad: two parties who did not share a point of reference" }
+    summary:
+      ar: "يرى العقاد أن علياً استند إلى الشورى والبيعة، ومعاوية إلى القصاص من القتلة، فلم يكن بينهما مرجع مشترك يُحتكم إليه {cite:abqariyyat-ali-aqqad p.78}. وهذا تأويل المؤلف."
+      en: "Al-Aqqad holds that Ali relied on consultation and the pledge, Muawiya on retribution for the killers, so the two had no shared authority to appeal to {cite:abqariyyat-ali-aqqad p.78}. This is the author's reading."
+    sources: [source/abqariyyat-ali-aqqad]
+sources: [source/abqariyyat-ali-aqqad]
+status: { review: draft, completeness: 1, generated_by: "Claude Code (claude-haiku-5-5); from abqariyyat-ali-aqqad pp. 76-78" }
+provenance: { layer: own-research, source: "abqariyyat-ali-aqqad pp. 76-78", generated_by: "Claude Code", model: "claude-haiku-5-5", run: "abqariyyat-ali-aqqad-batch1" }

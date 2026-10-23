@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 7:39 (سورة الأعراف، الآية 39)."
 text: "وَقَالَتْ أُولَىٰهُمْ لِأُخْرَىٰهُمْ فَمَا كَانَ لَكُمْ عَلَيْنَا مِن فَضْلٍ فَذُوقُوا۟ ٱلْعَذَابَ بِمَا كُنتُمْ تَكْسِبُونَ"
 text_search: "وقالت أولاهم لأخراهم فما كان لكم علينا من فضل فذوقوا العذاب بما كنتم تكسبون"
+translations:
+  en: { text: "And the first of them saith unto the last of them: Ye were no whit better than us, so taste the doom for what ye used to earn.", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "اور پہلی جماعت پچھلی جماعت سے کہے گی کہ تم کو ہم پر کچھ بھی فضیلت نہ ہوئی تو جو (عمل) تم کیا کرتے تھے اس کے بدلے میں عذاب کے مزے چکھو", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-7 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

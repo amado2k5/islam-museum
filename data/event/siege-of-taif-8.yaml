@@ -1,0 +1,23 @@
+id: event/siege-of-taif-8
+class: event
+kind: siege
+label: { ar: "غزوة الطائف", en: "Siege of Ta'if" }
+summary:
+  ar: "بطاقة أولية لغزوة الطائف سنة ٨هـ/٦٣٠م، حصار المسلمين لثقيف في الطائف بعد حنين حتى نزولهم؛ لم تُراجع مصادره على الصفحة بعد."
+  en: "Draft card for the siege of Ta'if in 8/630, the Muslim blockade of Thaqif's city after Hunayn until their submission; its sources are not yet checked on the page."
+wings: [time]
+periods: [period/prophetic-era]
+regions: [arabia]
+date:
+  start: { edtf: "630", precision: year, status: tradition, derived: true }
+  end: { edtf: "630", precision: year, status: tradition, derived: true }
+sources: [source/ibn-hisham-sira]
+external_ids:
+  wikidata: Q3087968
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; siege attested in the Sira — entry not yet checked on the page"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-wave2
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

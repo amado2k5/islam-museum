@@ -1,0 +1,25 @@
+id: event/realm-division-261
+class: event
+kind: other
+label: { ar: "قسمة المملكة بين المفوض والموفق", en: "The division of the realm between al-Mufawwid and al-Muwaffaq" }
+summary:
+  ar: "في سنة إحدى وستين ومائتين جلس المعتمد في دار العامة لثنتي عشرة مضت من شوال فولّى جعفرًا ابنه العهد وسماه المفوض إلى الله ثانيًا، وولّاه المغرب وضم إليه موسى بن بغا وولاه إفريقية ومصر والشام والجزيرة والموصل وأرمينية وطريق خراسان؛ وولّى أبا أحمد أخاه العهد بالتالي وجعله ثالثًا وولّاه المشرق وضم إليه سرور البلخي وولّاه بغداد والسواد والكوفة وطريق مكة والمدينة واليمن ومكة والبصرة وكرخ دجلة والأهواز وأصبهان وفارس والكرج والري وزنجان وقزوين وخراسان وطبرستان وجرجان وسجستان والسند، وعقد لكل واحد منهما لواءين أسود وأبيض، وشرط أن حدث به حدث أو بجعفر لم يكن الأمر إلا لأبي أحمد ثم لجعفر، وأُخذت البيعة على الناس بذلك وأُمرت سُدق الكتاب بذلك وبعثت نسخة مع الحسن بن الحسن بن أبي الشوارب ليعلقها في الكعبة {cite:muntazam-ibn-al-jawzi p. 116-117}."
+  en: "In Shawwal 261 al-Mu'tamid held public court and divided the realm between two heirs: his son Ja'far — named al-Mufawwid ila'llah — receiving the west (Ifriqiya, Egypt, Syria, the Jazira, Mosul, Armenia, the Khurasan road) with Musa ibn Bugha attached, and his brother Abu Ahmad — the future al-Muwaffaq — receiving the east (Baghdad, the Sawad, Kufa, the Hijaz roads, Yemen, Basra, Khuzistan, Fars, Rayy, Khurasan, Sijistan, Sind) with Sajur al-Bulkhi attached; each got a black and a white banner, Abu Ahmad was made next in line after Ja'far, the bay'a was taken and a copy of the deed hung in the Ka'ba {cite:muntazam-ibn-al-jawzi p. 116-117}."
+wings: [time]
+periods: [period/abbasid-early]
+regions: [levant-iraq]
+date:
+  start: { edtf: "0875-08~", hijri: "0261-10", calendar: julian, precision: month, status: tradition, derived: true, note: "شوال ٢٦١؛ التحويل مشتق {cite:muntazam-ibn-al-jawzi p. 116}." }
+relations:
+  - { type: occurred_at, target: place/baghdad, sources: [source/muntazam-ibn-al-jawzi] }
+  - { type: had_participant, target: person/al-mutamid, role: "الخليفة", sources: [source/muntazam-ibn-al-jawzi] }
+  - { type: had_participant, target: person/al-mufawwid, role: "ولي العهد الأول", sources: [source/muntazam-ibn-al-jawzi] }
+  - { type: had_participant, target: person/abu-ahmad-al-muwaffaq, role: "ولي العهد الثاني", sources: [source/muntazam-ibn-al-jawzi] }
+  - { type: had_participant, target: person/musa-ibn-bugha, role: "مضموم إلى المفوض", sources: [source/muntazam-ibn-al-jawzi] }
+provenance:
+  layer: own-research
+  source: "المنتظم لابن الجوزي (ط حيدرآباد 1357، ج5، سنة 261)، قراءة آبل فيجن"
+  generated_by: "Devin (SWE-2 Medium) from Apple Vision OCR"
+  run: lib-muntazam-258-349-batch31
+sources: [source/muntazam-ibn-al-jawzi]
+status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 Medium)" }

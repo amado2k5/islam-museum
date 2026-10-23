@@ -1,0 +1,15 @@
+id: passage/muwatta-21-2101
+class: passage
+unit: hadith
+work: work/muwatta-malik
+ref: "2101"
+label: { ar: "الموطأ 2101 — مالك: لا شفعة عندنا في عبد ولا وليدة، ولا بعير ولا بقرة ولا شاة، ولا في شيء من الحيوان، ولا في ثوب، ولا في بئر ليس لها بياض، إنما الشفعة فيما يصلح أن ينقسم وتقع فيه الحدود من الأرض", en: "Muwatta 2101" }
+summary:
+  ar: "قال مالك: ولا شفعة عندنا في عبد ولا وليدة، ولا بعير، ولا بقرة، ولا شاة، ولا في شيء من الحيوان، ولا في ثوب، ولا في بئر ليس لها بياض. إنما الشفعة فيما يصلح أن ينقسم، وتقع فيه الحدود من الأرض. فأما ما لا يصلح فيه القسم فلا شفعة فيه. {cite:muwatta-maruf-1997 p.258}"
+relations:
+  - { type: part_of, target: passage/muwatta-kitab-21-shufa }
+  - { type: mentions, target: person/malik-ibn-anas, sources: [source/muwatta-maruf-1997] }
+  - { type: basis_for, target: concept/shufa, sources: [source/muwatta-maruf-1997] }
+provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 2, hadith 2101 at PDF p. 258; ما لا تقع فيه الشفعة", generated_by: "Claude Code (claude-haiku-5-5) from Apple Vision OCR of the Noor-Book PDF, checked on the page image where doubtful", run: "muwatta-prose-k21-b59" }
+sources: [source/muwatta-maruf-1997]
+status: { review: draft, completeness: 2, generated_by: "Claude Code (claude-haiku-5-5); own-words account written from PDF p. 258; matn excerpt at most 40 words" }

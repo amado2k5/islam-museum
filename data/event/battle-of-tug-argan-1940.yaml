@@ -1,0 +1,23 @@
+id: event/battle-of-tug-argan-1940
+class: event
+kind: battle
+label: { ar: "معركة توغ أرغن (١٩٤٠)", en: "Battle of Tug Argan (1940)" }
+summary:
+  ar: "بطاقة أولية لمعركة توغ أرغن سنة ١٩٤٠م، من غزو إيطاليا لأرض الصومال البريطاني؛ لم تُراجع مصادره على الصفحة بعد."
+  en: "Draft card for the Battle of Tug Argan in 1940, part of the Italian invasion of British Somaliland; its sources are not yet checked on the page."
+wings: [time]
+periods: [period/modern-era]
+regions: [east-africa]
+date:
+  start: { edtf: "1940-08", precision: year, status: tradition, derived: true }
+  end: { edtf: "1940-08", precision: year, status: tradition, derived: true }
+sources: [source/tarikh-islam-hasan-ibrahim]
+external_ids:
+  wikidata: Q28925540
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; battle attested in narrative histories — entry not yet checked on the page"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-wave2
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

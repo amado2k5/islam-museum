@@ -1,0 +1,19 @@
+id: place/atrabulus
+class: place
+kind: town
+label: { ar: "أطرابلس", en: "Tripoli (Libya)" }
+summary:
+  ar: "أطرابلس مدينة المغرب على البحر بينها وبين إفريقية تسعة أيام؛ نزلها عمرو بن العاص سنة اثنتين وعشرين فقُوتل ثم افتتحها عنوة وأصاب بها أحمال بزّيون كثيرة باعها وقسم ثمنها بين المسلمين، ونهاه عمر بن الخطاب عن الزحف إلى إفريقية قائلاً ما هي بإفريقية ولكنها مفرقة غادرة مغدور بها."
+  en: "Tripoli, the Maghreb's sea-city nine days from Ifriqiya; Amr ibn al-As camped before it in year 22, it was fought for and opened by force — where he seized many loads of baziyun cloth, selling them and dividing the price among the Muslims — and Umar ibn al-Khattab forbade him the march on Ifriqiya, calling it 'not Ifriqiya but a schismatic, treacherous land oft betrayed'."
+wings: [place]
+periods: [period/rashidun]
+regions: [maghreb]
+relations:
+  - { type: site_of, target: event/conquest-of-tripoli-libya, sources: [source/futuh-buldan-maarif-1407] }
+provenance:
+  layer: own-research
+  source: "فتوح البلدان (ط مؤسسة المعارف 1407هـ/1987م) ص 316"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-futuh-buldan-batch-20
+sources: [source/futuh-buldan-maarif-1407]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

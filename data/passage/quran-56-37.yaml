@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 56:37 (سورة الواقعة، الآية 37)."
 text: "عُرُبًا أَتْرَابًا"
 text_search: "عربا أترابا"
+translations:
+  en: { text: "Lovers, friends,", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "(اور شوہروں کی) پیاریاں اور ہم عمر", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-56 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

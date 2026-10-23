@@ -1,0 +1,32 @@
+id: polity/justanid-dynasty
+class: polity
+kind: dynasty
+label:
+  ar: "آل جستان"
+  en: "Justanids"
+summary:
+  ar: "بطاقة أولية لآل جستان، الأسرة الزيدية التي حكمت ديلمان وجيلان من أواخر القرن الثامن؛ لم تُراجع مصادرها على الصفحة بعد."
+  en: "Draft card for the Justanids, the Zaydi house that ruled Daylam and Gilan from the late eighth century; its sources are not yet checked on the page."
+wings: [time]
+periods: [period/abbasid-early]
+regions: [persia-central-asia]
+start:
+  edtf: "791"
+  precision: year
+  status: tradition
+  derived: true
+end:
+  edtf: "1004"
+  precision: year
+  status: tradition
+  derived: true
+sources: [source/tarikh-al-tabari]
+external_ids:
+  wikidata: Q3813830
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; dynasty attested in Caspian histories — entry not yet checked on the page"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-wave2
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

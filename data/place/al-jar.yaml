@@ -1,0 +1,19 @@
+id: place/al-jar
+class: place
+kind: town
+label: { ar: "الجار", en: "Al-Jar" }
+summary:
+  ar: "الجار ميناء الحجاز الذي كانت ترد إليه أحمال طعام خراج مصر البحرية منذ سنة إحدى وعشرين فيتولى قبضها سعد الجار وتحمل إلى المدينة فتقسم بين الناس بمكيال في دار، ودام الحمل إلى خلافة أبي جعفر وقبيلها مع انقطاعات في الفتنة الأولى وزمن بني أمية."
+  en: "Al-Jar, the Hijaz's port where Egypt's kharaj grain-ships landed from year 21 onward — Sa'd al-Jar taking charge there, the grain carried to Medina and dealt out by measure from a house; the service ran on to Abu Ja'far's caliphate and just before, with interruptions at the first fitna and in Umayyad times."
+wings: [place]
+periods: [period/rashidun]
+regions: [arabia]
+relations:
+  - { type: site_of, target: event/umar-food-transport-egypt, sources: [source/futuh-buldan-maarif-1407] }
+provenance:
+  layer: own-research
+  source: "فتوح البلدان (ط مؤسسة المعارف 1407هـ/1987م) ص 303–304"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-futuh-buldan-batch-19
+sources: [source/futuh-buldan-maarif-1407]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

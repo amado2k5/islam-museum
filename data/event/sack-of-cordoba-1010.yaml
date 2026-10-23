@@ -1,0 +1,23 @@
+id: event/sack-of-cordoba-1010
+class: event
+kind: battle
+label: { ar: "نهب قرطبة (١٠١٠)", en: "Sack of Cordoba (1010)" }
+summary:
+  ar: "بطاقة أولية لنهب قرطبة (١٠١٠)؛ لم تُراجع مصادره على الصفحة بعد."
+  en: "Draft card for Sack of Cordoba (1010); its sources are not yet checked on the page."
+wings: [time]
+periods: [period/abbasid-fragmentation]
+regions: [andalus-europe]
+date:
+  start: { edtf: "1010", precision: year, status: tradition, derived: true }
+  end: { edtf: "1010", precision: year, status: tradition, derived: true }
+sources: [source/tarikh-islam-hasan-ibrahim]
+external_ids:
+  wikidata: Q135219387
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; battle attested in narrative histories — entry not yet checked on the page"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-wave2
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

@@ -1,0 +1,23 @@
+id: event/battle-of-iznik-1423
+class: event
+kind: battle
+label: { ar: "معركة إزنيق (١٤٢٣)", en: "Battle of İznik (1423)" }
+summary:
+  ar: "بطاقة أولية لمعركة إزنيق (١٤٢٣)؛ لم تُراجع مصادره على الصفحة بعد."
+  en: "Draft card for Battle of İznik (1423); its sources are not yet checked on the page."
+wings: [time]
+periods: [period/crusades-ayyubid-mamluk]
+regions: [anatolia-balkans]
+date:
+  start: { edtf: "1423", precision: year, status: tradition, derived: true }
+  end: { edtf: "1423", precision: year, status: tradition, derived: true }
+sources: [source/tarikh-islam-hasan-ibrahim]
+external_ids:
+  wikidata: Q137460687
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; event attested in narrative histories — entry not yet checked on the page"
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: wikidata-import-wave2
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 Medium)" }

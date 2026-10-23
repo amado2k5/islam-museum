@@ -1,0 +1,16 @@
+id: passage/muslim-0854
+class: passage
+unit: hadith
+work: work/sahih-muslim
+ref: "854"
+label: { ar: "مسلم 854 — خير يوم طلعت عليه الشمس يوم الجمعة", en: "Muslim 854 — The best day the sun rose on is Friday" }
+text: "قال رسول الله: خير يوم طلعت عليه الشمس يوم الجمعة، فيه خلق آدم، وفيه أدخل الجنة، وفيه أخرج منها، ولا تقوم الساعة إلا في يوم الجمعة"
+summary:
+  ar: "رواية أبي هريرة في كتاب الجمعة من صحيح مسلم؛ يوم الجمعة محطة الخلق والجنة والساعة."
+relations:
+  - { type: mentions, target: person/muhammad, sources: [source/sahih-muslim] }
+  - { type: mentions, target: person/abu-hurayra, sources: [source/sahih-muslim] }
+  - { type: mentions, target: person/adam, sources: [source/sahih-muslim] }
+provenance: { layer: own-research, source: "صحيح مسلم، كتاب الجمعة، باب فضل يوم الجمعة (طبعة دار التأصيل، الحديث 855؛ ترقيم عبد الباقي المعروف 854)، تصوير Apple Vision OCR", generated_by: "Devin (SWE-2 High) from Apple Vision OCR", run: "hadith-muslim-passages-4" }
+sources: [source/sahih-muslim]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High); matn excerpt at most 40 words checked against the scan" }

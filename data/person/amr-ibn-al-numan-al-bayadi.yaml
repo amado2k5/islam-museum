@@ -1,0 +1,20 @@
+id: person/amr-ibn-al-numan-al-bayadi
+class: person
+label: { ar: "عمرو بن النعمان البياضي", en: "Amr ibn al-Nu'man al-Bayadi" }
+summary:
+  ar: "رئيس الخزرج يوم بعاث — وعند ابن حزم أن رئيسهم يومئذ هو والد النعمان رُحَيْلَة بن ثعلبة البياضي؛ حلف أن لا يمس رأسه غسلاً حتى ينزل يهود يثرب منازل قريظة والنضير ويقتل رهنهم، فلما التقى الجمعان قال له عبد الله بن أُبيّ إنه يُقتل فيحمله أربعة في كفة، فعصى وقُتل وجيء به محمولاً على أربعة كما قال ابن أبيّ {cite:samhudi-wafa-al-wafa p. 229}."
+  en: "Khazraj commander on the day of Bu'ath — though Ibn Hazm makes their chief that day al-Nu'man's father Ruhayla ibn Tha'laba al-Bayadi; he swore never to wash his head until he brought the Jews of Yathrib down to the dwellings of Qurayza and al-Nadir and killed their hostages, and when the hosts met 'Abdallah ibn Ubayy told him he would be carried off slain on four men's hands — he disobeyed, fell, and was borne in by four as foretold {cite:samhudi-wafa-al-wafa p. 229}."
+gender: male
+wings: [people]
+periods: [period/pre-islamic-arabia]
+regions: [arabia]
+relations:
+  - { type: member_of, target: group/al-khazraj, sources: [source/samhudi-wafa-al-wafa] }
+  - { type: participated_in, target: event/yawm-buath, role: "رئيس الخزرج، قُتل فيها", sources: [source/samhudi-wafa-al-wafa] }
+sources: [source/samhudi-wafa-al-wafa]
+provenance:
+  layer: own-research
+  source: "وفاء الوفاء للسمهودي (ط محيي الدين عبد الحميد) ص 229"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: geo-wafa-al-wafa-2
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

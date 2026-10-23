@@ -1,0 +1,28 @@
+id: event/battle-of-wadi-al-makhazin-1578
+class: event
+kind: battle
+label: { ar: "معركة وادي المخازن (٩٨٦هـ/١٥٧٨م)", en: "Battle of Wadi al-Makhazin (986/1578)" }
+summary:
+  ar: "وقعة الملوك الثلاثة عند القصر الكبير يوم الاثنين ٣٠ جمادى الآخرة ٩٨٦هـ/٤ أغسطس ١٥٧٨م. التقى سلطان المغرب عبد الملك المعتصم بالله — المدعوم عثمانياً — جيشَ ملك البرتغال سبستيان الذي حشد عشرات الألوف من الأسبان والبرتغاليين والطليان والألمان لإعادة حليفه المخلوع محمد المتوكل. عزل عبد الملك العدو عن أسطوله ونسف قنطرة النهر الوحيدة، وتوفي في أول المعركة مريضاً كما كان وأخفى موته حاجبه رضوان وأخوه أحمد المنصور حتى تم النصر في أربع ساعات وثلث؛ فهلك الملوك الثلاثة: سبستيان قتيلاً والمتوكل غريقاً وعبد الملك في ساحة الفدا. وبويع أحمد المنصور في الميدان نفسه، وارتفع نجم الدولة السعدية حتى باتت وفود أوروبا تصبح وتمسي على أعتاب قصورها {cite:dawlat-uthmaniyya-salabi p. 258-268}."
+  en: "The Battle of the Three Kings at al-Qasr al-Kabir, Monday 30 Jumada II 986/4 August 1578. Morocco's sultan Abd al-Malik al-Mu'tasim — Ottoman-backed — met King Sebastian of Portugal, who had massed tens of thousands of Spanish, Portuguese, Italian and German troops to restore his deposed ally Muhammad al-Mutawakkil. Abd al-Malik cut the enemy from his fleet and blew the river's only bridge; he died of illness minutes into the battle, his chamberlain Ridwan and brother Ahmad al-Mansur concealing it until victory was complete in four hours and a third. All three kings perished — Sebastian slain, al-Mutawakkil drowned, Abd al-Malik on the field — and Ahmad al-Mansur was acclaimed on the spot; the Sa'di star rose until Europe's embassies 'kept morning and evening at her palace gates' {cite:dawlat-uthmaniyya-salabi p. 258-268}."
+wings: [time]
+periods: [period/gunpowder-empires]
+regions: [maghreb]
+date:
+  start: { edtf: "1578-08-04", hijri: "0986-06-30", calendar: gregorian, precision: day, status: tradition, derived: true, sources: [source/dawlat-uthmaniyya-salabi] }
+relations:
+  - { type: had_participant, target: person/abd-al-malik-al-sadi, sources: [source/dawlat-uthmaniyya-salabi] }
+  - { type: had_participant, target: person/ahmad-al-mansur-al-sadi, sources: [source/dawlat-uthmaniyya-salabi] }
+  - { type: had_participant, target: person/sebastian-i-portugal, sources: [source/dawlat-uthmaniyya-salabi] }
+  - { type: had_participant, target: person/muhammad-ii-mutawakkil-saadi, sources: [source/dawlat-uthmaniyya-salabi] }
+  - { type: had_participant, target: person/abu-al-mahasin-yusuf-al-fasi, sources: [source/dawlat-uthmaniyya-salabi] }
+sources: [source/dawlat-uthmaniyya-salabi]
+external_ids:
+  wikidata: Q1121532
+provenance:
+  layer: own-research
+  source: "الدولة العثمانية لعلي محمد الصلابي (ط1 1421) ص 258-268 — draft card verified on the page"
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: salabi-uthmani-batch14
+status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 Medium)" }

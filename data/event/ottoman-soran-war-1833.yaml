@@ -1,0 +1,23 @@
+id: event/ottoman-soran-war-1833
+class: event
+kind: war
+label: { ar: "الحرب العثمانية السورانية (١٨٣٣)", en: "Ottoman-Soran War" }
+summary:
+  ar: "بطاقة أولية للحرب العثمانية السورانية في ١٨٣٣–١٨٣٥م، حملة رشيد محمد باشا للقضاء على إمارة سوران؛ لم تُراجع مصادره على الصفحة بعد."
+  en: "Draft card for the Ottoman-Soran War of 1833–35, Reshid Pasha's campaign ending the Soran Emirate; its sources are not yet checked on the page."
+wings: [time]
+periods: [period/colonial-era]
+regions: [levant-iraq]
+date:
+  start: { edtf: "1833", precision: year, status: tradition, derived: true }
+  end: { edtf: "1835", precision: year, status: tradition, derived: true }
+sources: [source/dawlat-uthmaniyya-salabi]
+external_ids:
+  wikidata: Q131412563
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; battle attested in narrative histories — entry not yet checked on the page"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-wave2
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

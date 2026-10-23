@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 45:20 (سورة الجاثية، الآية 20)."
 text: "هَـٰذَا بَصَـٰٓئِرُ لِلنَّاسِ وَهُدًى وَرَحْمَةٌ لِّقَوْمٍ يُوقِنُونَ"
 text_search: "هذا بصائر للناس وهدى ورحمة لقوم يوقنون"
+translations:
+  en: { text: "This is clear indication for mankind, and a guidance and a mercy for a folk whose faith is sure.", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "یہ قرآن لوگوں کے لئے دانائی کی باتیں ہیں اور جو یقین رکھتے ہیں ان کے لئے ہدایت اور رحمت ہے", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-45 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

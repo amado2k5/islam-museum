@@ -1,0 +1,27 @@
+id: person/urban-cannon-founder
+class: person
+label:
+  ar: "أوربان المجري"
+  en: "Orban the Hungarian cannon-founder"
+gender: male
+roles: [craftsman]
+summary:
+  ar: "أوربان، مهندس مجري كان بارعاً في صناعة المدافع؛ أحضره السلطان محمد الفاتح فأحسن استقباله ووفر له الإمكانيات المالية والبشرية، فصمم ونفذ عدداً من المدافع الضخمة كان على رأسها المدفع السلطاني المشهور الذي قيل إن وزنه بلغ مئات الأطنان ويحتاج إلى مئات الثيران لتحريكه، وأشرف السلطان بنفسه على صناعتها وتجريبها {cite:dawlat-uthmaniyya-salabi p. 92}. وينقل الصلابي أن المدفع السلطاني الضخم انفجر من كثرة الاستخدام في أيام الحصار الأخيرة فقتل المشتغلين به وعلى رأسهم أوربان نفسه {cite:dawlat-uthmaniyya-salabi p. 104}."
+  en: "Orban, the Hungarian engineer skilled in cannon-founding whom Mehmed II welcomed and funded; he designed the giant guns topped by the famous Sultan's cannon — said in the book to weigh hundreds of tons and need hundreds of oxen to move — with the sultan supervising their making and testing himself {cite:dawlat-uthmaniyya-salabi p. 92}. Al-Salabi reports that the great cannon burst from overuse in the siege's last days, killing its crew and Orban at their head {cite:dawlat-uthmaniyya-salabi p. 104}."
+wings: [people]
+regions: [anatolia-balkans]
+periods: [period/mongol-post-mongol]
+relations:
+  - { type: participated_in, target: event/conquest-constantinople-857, role: "مهندس المدافع", sources: [source/dawlat-uthmaniyya-salabi] }
+sources: [source/dawlat-uthmaniyya-salabi]
+external_ids:
+  wikidata: Q315845
+provenance:
+  layer: own-research
+  source: "الدولة العثمانية لعلي محمد الصلابي (ط1 1421) ص 92، 104"
+  generated_by: "Devin (SWE-2 Medium) from Apple Vision OCR"
+  model: "SWE-2 Medium"
+  run: lib-salabi-uthmani-batch-5
+status:
+  review: draft
+  completeness: 2

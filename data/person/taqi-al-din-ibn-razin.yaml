@@ -1,0 +1,28 @@
+id: person/taqi-al-din-ibn-razin
+class: person
+label: { ar: "تقي الدين ابن رزين", en: "Taqi al-Din ibn Razin" }
+names:
+  - { value: "ابن رزين قاضي القضاة شيخ الإسلام تقي الدين أبو عبد الله محمد بن الحسين بن رزين بن موسى العامري الحموي الشافعي", kind: full }
+born: { edtf: "1206-08~", hijri: "0603-08", calendar: julian, precision: month, status: tradition, derived: true, note: "ولد سنة ثلاث وستمائة في شعبان بحماة {cite:shadharat-dhahab p. 644}." }
+died: { edtf: "1284-07~", hijri: "0683-07-03", calendar: julian, precision: day, status: tradition, derived: true, note: "توفي بالقاهرة في ثالث رجب {cite:shadharat-dhahab p. 645}." }
+summary:
+  ar: "شيخ الإسلام قاضي القضاة؛ حفظ «التنبيه» في صغره ثم «الوسيط» و«المفضل» و«المستصفى» للغزالي، وأفتى وله ثماني عشرة سنة، ولازم ابن الصلاح بدمشق وقرأ القراءات على السخاوي وأخذ العربية عن ابن يعيش، وولي وكالة بيت المال في أيام الناصر، ثم تحول من هولاكو إلى مصر ودرس بالظاهرية، وولي قضاء القضاة فلم يأخذ عليه رزقاً تديناً وورعاً؛ وممن تخرج به بدر الدين بن جماعة، ونقل عنه الإمام النووي {cite:shadharat-dhahab p. 644-645}."
+  en: "Hama's shaykh al-islam — fatwa at eighteen, Ibn al-Salah's companion, driven to Egypt by Hulagu; as qadi al-qudat he refused the stipend 'out of scruple'; Badr al-Din b. Jama'a among his graduates and al-Nawawi among his transmitters; d. Cairo 3 Rajab {cite:shadharat-dhahab p. 644-645}."
+gender: male
+roles: [jurist, scholar]
+wings: [people]
+periods: [period/mongol-post-mongol]
+regions: [levant-iraq, egypt-nile]
+faith:
+  - value: sunni-shafii
+    basis: tradition
+relations:
+  - { type: student_of, target: person/ibn-al-salah, sources: [source/shadharat-dhahab] }
+  - { type: died_in, target: place/cairo, sources: [source/shadharat-dhahab] }
+sources: [source/shadharat-dhahab]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }
+provenance:
+  layer: own-research
+  source: "شذرات الذهب — ابن العماد (ج7، سنة 683)، قراءة آبل فيجن"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-shadharat-batch-133

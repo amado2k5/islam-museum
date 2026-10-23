@@ -1,0 +1,23 @@
+id: event/saudi-mamluk-war-1790
+class: event
+kind: war
+label: { ar: "الحرب السعودية العراقية (١٧٩٠–١٨١١)", en: "Saudi–Mamluk of Iraq War (1790–1811)" }
+summary:
+  ar: "بطاقة أولية لالحرب السعودية العراقية (١٧٩٠–١٨١١)؛ لم تُراجع مصادره على الصفحة بعد."
+  en: "Draft card for Saudi–Mamluk of Iraq War (1790–1811); its sources are not yet checked on the page."
+wings: [time]
+periods: [period/colonial-era]
+regions: [levant-iraq]
+date:
+  start: { edtf: "1790", precision: year, status: tradition, derived: true }
+  end: { edtf: "1811", precision: year, status: tradition, derived: true }
+sources: [source/tarikh-islam-hasan-ibrahim]
+external_ids:
+  wikidata: Q49635016
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; battle attested in narrative histories — entry not yet checked on the page"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-wave2
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

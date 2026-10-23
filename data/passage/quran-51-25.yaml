@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 51:25 (سورة الذاريات، الآية 25)."
 text: "إِذْ دَخَلُوا۟ عَلَيْهِ فَقَالُوا۟ سَلَـٰمًا ۖ قَالَ سَلَـٰمٌ قَوْمٌ مُّنكَرُونَ"
 text_search: "إذ دخلوا عليه فقالوا سلاما ۖ قال سلام قوم منكرون"
+translations:
+  en: { text: "When they came in unto him and said: Peace! he answered, Peace! (and thought): Folk unknown (to me).", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "جب وہ ان کے پاس آئے تو سلام کہا۔ انہوں نے بھی (جواب میں) سلام کہا (دیکھا تو) ایسے لوگ کہ نہ جان نہ پہچان", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-51 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

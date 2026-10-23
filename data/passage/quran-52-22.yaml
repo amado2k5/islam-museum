@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 52:22 (سورة الطور، الآية 22)."
 text: "وَأَمْدَدْنَـٰهُم بِفَـٰكِهَةٍ وَلَحْمٍ مِّمَّا يَشْتَهُونَ"
 text_search: "وأمددناهم بفاكهة ولحم مما يشتهون"
+translations:
+  en: { text: "And We provide them with fruit and meat such as they desire.", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "اور جس طرح کے میوے اور گوشت کو ان کا جی چاہے گا ہم ان کو عطا کریں گے", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-52 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

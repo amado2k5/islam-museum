@@ -1,0 +1,30 @@
+id: building/qarawiyyin
+class: building
+kind: mosque
+label:
+  ar: "جامع القرويين"
+  en: "al-Qarawiyyin mosque"
+summary:
+  ar: "بطاقة أولية لجامع القرويين بفاس، الجامع الأعظم ومقر العلم الذي بناه أهل قرطاجة المهاجرون إلى فاس، ورد في وصف مرجعي مفتوح (ويكي البيانات). لم يُراجع نص معجم البلدان فيه على الصفحة بعد."
+  en: "Draft card for the Qarawiyyin mosque of Fez, the great congregational mosque and seat of learning built by the Kairouan emigres in Fez, named from an open reference description (Wikidata); its Mujam al-Buldan entry is not yet read on the page."
+wings: [objects]
+regions: [maghreb]
+coordinates:
+  - 34.0644
+  - -4.9733
+relations:
+  - type: located_in
+    target: place/fez
+    sources: [source/wikidata]
+sources: [source/mujam-al-buldan, source/wikidata]
+external_ids:
+  wikidata: Q378014
+provenance:
+  layer: own-research
+  source: "Wikidata Q378014 (religion claim Islam; coordinates from P625); book source: Yaqut, Mujam al-Buldan — entry not yet read on the page"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-0003
+status:
+  review: draft
+  completeness: 1

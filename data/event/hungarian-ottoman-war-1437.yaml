@@ -1,0 +1,23 @@
+id: event/hungarian-ottoman-war-1437
+class: event
+kind: war
+label: { ar: "الحرب المجرية العثمانية (١٤٣٧–١٤٤٢)", en: "Hungarian–Ottoman War (1437–42)" }
+summary:
+  ar: "بطاقة أولية لالحرب المجرية العثمانية (١٤٣٧–١٤٤٢)؛ لم تُراجع مصادره على الصفحة بعد."
+  en: "Draft card for Hungarian–Ottoman War (1437–42); its sources are not yet checked on the page."
+wings: [time]
+periods: [period/crusades-ayyubid-mamluk]
+regions: [anatolia-balkans]
+date:
+  start: { edtf: "1437", precision: year, status: tradition, derived: true }
+  end: { edtf: "1442", precision: year, status: tradition, derived: true }
+sources: [source/tarikh-islam-hasan-ibrahim]
+external_ids:
+  wikidata: Q124707304
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; battle attested in narrative histories — entry not yet checked on the page"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-wave2
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

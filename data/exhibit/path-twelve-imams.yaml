@@ -1,0 +1,69 @@
+id: exhibit/path-twelve-imams
+class: exhibit
+kind: trail
+label:
+  ar: الأئمة الاثنا عشر
+  en: The Twelve Imams
+summary:
+  ar: 'مسار في سلسلة الإمامة عند الشيعة: علي والحسن والحسين، وزين العابدين والصادق، حتى الغيبة.'
+  en: A trail through the imamate line.
+audience:
+- newcomer
+- student
+duration_minutes: 30
+wings: []
+regions:
+- persia-central-asia
+rooms:
+- title:
+    ar: الثلاثة الأولون
+    en: The first three
+  body:
+    ar: علي الوصي ثم الحسن ثم الحسين الشهيد.
+    en: علي الوصي ثم الحسن ثم الحسين الشهيد.
+  features:
+  - person/ali-ibn-abi-talib
+  - person/hasan-ibn-ali
+  - person/husayn-ibn-ali
+- title:
+    ar: العلماء
+    en: The scholars
+  body:
+    ar: 'زين العابدين ثم الباقر ثم الصادق: قرن المدينة.'
+    en: 'زين العابدين ثم الباقر ثم الصادق: قرن المدينة.'
+  features:
+  - person/ali-zayn-al-abidin
+  - person/jafar-al-sadiq
+  - place/medina
+- title:
+    ar: الغيبة
+    en: The occultation
+  body:
+    ar: العسكري ثم الغيبة الكبرى.
+    en: العسكري ثم الغيبة الكبرى.
+  features:
+  - person/al-hasan-al-askari
+  - place/samarra
+- title:
+    ar: الإمامة
+    en: Imamate
+  body:
+    ar: مفهوم الإمامة في كلام الشيعة وموقف السنة.
+    en: مفهوم الإمامة في كلام الشيعة وموقف السنة.
+  features:
+  - concept/imama
+  - question/what-is-difference-sunni-shia
+prerequisites:
+- exhibit/path-islam-in-30-minutes
+sources:
+- source/wikidata
+provenance:
+  layer: own-research
+  source: Devin-assembled trail from existing museum entities
+  generated_by: Devin (SWE-2 High)
+  model: SWE-2 High
+  run: pathways-batch-5
+status:
+  review: draft
+  completeness: 1
+  generated_by: Devin (SWE-2 High), pathways lane, 2026-10-16

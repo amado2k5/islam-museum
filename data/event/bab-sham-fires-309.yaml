@@ -1,0 +1,21 @@
+id: event/bab-sham-fires-309
+class: event
+kind: other
+label: { ar: "حرائق باب الشام والكرخ", en: "Fires at Bab al-Sham and Karkh" }
+summary:
+  ar: "في شهر ربيع الأول سنة تسع وثلاثمائة وقع حريق بباب الشام وفي سويقة نصر وفي الحذائين بالكرخ وبين القنطرة الجديدة وطاق الحراني، ومات خلق كثير، وقتل رجل من الزنادقة فطُرح في سيبه حريق في باب المخرم هلك فيه خلق كثير {cite:muntazam-ibn-al-jawzi p. 449}."
+  en: "In Rabi' I 309 fires swept Bab al-Sham, Nasr's small market and the shoemakers' quarter of Karkh between the New Bridge and Taq al-Harrani, killing many; a zindiq's corpse was thrown into a blaze at Bab al-Mukharrim that also killed many {cite:muntazam-ibn-al-jawzi p. 449}."
+wings: [time]
+periods: [period/abbasid-early]
+regions: [levant-iraq]
+date:
+  start: { edtf: "0921-08~", hijri: "0309-03", calendar: julian, precision: month, status: tradition, derived: true, note: "ربيع الأول ٣٠٩؛ التحويل مشتق {cite:muntazam-ibn-al-jawzi p. 449}." }
+relations:
+  - { type: occurred_at, target: place/baghdad, sources: [source/muntazam-ibn-al-jawzi] }
+provenance:
+  layer: own-research
+  source: "المنتظم لابن الجوزي (ط حيدرآباد 1357، ج6، سنة 309)، قراءة آبل فيجن"
+  generated_by: "Devin (SWE-2 Medium) from Apple Vision OCR"
+  run: lib-muntazam-258-349-batch29
+sources: [source/muntazam-ibn-al-jawzi]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 Medium)" }

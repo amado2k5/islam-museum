@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 26:130 (سورة الشعراء، الآية 130)."
 text: "وَإِذَا بَطَشْتُم بَطَشْتُمْ جَبَّارِينَ"
 text_search: "وإذا بطشتم بطشتم جبارين"
+translations:
+  en: { text: "And if ye seize by force, seize ye as tyrants?", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "اور جب (کسی کو) پکڑتے ہو تو ظالمانہ پکڑتے ہو", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-26 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

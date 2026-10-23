@@ -1,0 +1,23 @@
+id: event/ottoman-raids-morea-1395
+class: event
+kind: campaign
+label: { ar: "الغزوات العثمانية في المورة", en: "Ottoman raids in the Despotate of the Morea" }
+summary:
+  ar: "بطاقة أولية لالغزوات العثمانية في المورة؛ لم تُراجع مصادره على الصفحة بعد."
+  en: "Draft card for Ottoman raids in the Despotate of the Morea; its sources are not yet checked on the page."
+wings: [time]
+periods: [period/gunpowder-empires]
+regions: [anatolia-balkans]
+date:
+  start: { edtf: "1395", precision: year, status: tradition, derived: true }
+  end: { edtf: "1397", precision: year, status: tradition, derived: true }
+sources: [source/tarikh-islam-hasan-ibrahim]
+external_ids:
+  wikidata: Q98383169
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; event attested in narrative histories — entry not yet checked on the page"
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: wikidata-import-wave2
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 Medium)" }

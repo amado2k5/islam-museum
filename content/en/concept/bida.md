@@ -1,0 +1,10 @@
+---
+id: concept/bida
+lang: en
+source_lang: ar
+translators: ["Claude Haiku 5.5 (claude-haiku-5-5), draft translation"]
+---
+## Overview
+Bid'a is the introduction into religion of something the Lawgiver did not order. Ibn Rajab takes the hadith of Aisha, "whoever introduces into this affair of ours something that is not part of it, it is rejected," as the measure of outward deeds, and the hadith "deeds are only by intentions" as the measure of their inward side. Every deed that does not have the command of God and His Messenger is rejected from the one who does it, and whoever introduces into religion what God and His Messenger have not permitted has no share in religion at all. He pairs this with the hadith of al-Irbad ibn Sariya, "beware of novelties, for every novelty is an innovation and every innovation is misguidance." He defers a full discussion of novelties to his commentary on it (the twenty-eighth hadith). In that commentary he takes "beware of novelties, for every innovation is misguidance" as a warning to the community against following novel innovations, and reinforces it with the general wording "every innovation is misguidance." He defines the innovation meant as what is introduced that has no basis in the Law indicating it; what has a basis in the Law indicating it is not an innovation in the legal sense, even if it is one linguistically. He links it to the sermon of Jabir in Sahih Muslim, "the worst of affairs are their novelties, and every innovation is misguidance." He also holds, in his reflections on jurisprudence, that "the rightly guided" are those who know the truth and follow it, unlike the one who knows it and does not follow it, and the one who does not know it at all; and that "he will see much disagreement" is a report of the disagreements that befell the community in its foundations and its branches. {cite:ibn-rajab-jami-ulum-hikam} (*Jami al-ulum wal-hikam*, p. 581–601)
+
+What is not recorded here needs a further source.

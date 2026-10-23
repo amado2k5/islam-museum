@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 17:99 (سورة الإسراء، الآية 99)."
 text: "۞ أَوَلَمْ يَرَوْا۟ أَنَّ ٱللَّهَ ٱلَّذِى خَلَقَ ٱلسَّمَـٰوَٰتِ وَٱلْأَرْضَ قَادِرٌ عَلَىٰٓ أَن يَخْلُقَ مِثْلَهُمْ وَجَعَلَ لَهُمْ أَجَلًا لَّا رَيْبَ فِيهِ فَأَبَى ٱلظَّـٰلِمُونَ إِلَّا كُفُورًا"
 text_search: "۞ أولم يروا أن الله الذي خلق السماوات والأرض قادر على أن يخلق مثلهم وجعل لهم أجلا لا ريب فيه فأبى الظالمون إلا كفورا"
+translations:
+  en: { text: "Have they not seen that Allah Who created the heavens and the earth is Able to create the like of them, and hath appointed for them an end whereof there is no doubt? But the wrong-doers refuse aught save disbelief.", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "کیا انہوں نے نہیں دیکھا کہ خدا جس نے آسمانوں اور زمین کو پیدا کیا ہے اس بات پر قادر ہے کہ ان جیسے (لوگ) پیدا کردے۔ اور اس نے ان کے لئے ایک وقت مقرر کر دیا ہے جس میں کچھ بھی شک نہیں۔ تو ظالموں نے انکار کرنے کے سوا (اسے) قبول نہ کیا", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-17 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

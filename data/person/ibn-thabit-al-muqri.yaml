@@ -1,0 +1,22 @@
+id: person/ibn-thabit-al-muqri
+class: person
+label: { ar: "ابن ثابت المقرئ الأعمى", en: "Ibn Thabit the blind qari'" }
+names:
+  - { value: "الحسين بن علي بن ثابت أبو عبد الله المقرئ", kind: full }
+gender: male
+roles: [scholar]
+summary:
+  ar: "الحسين بن علي بن ثابت أبو عبد الله المقرئ (ت 378هـ)؛ ولد أعمى وكان حافظاً يحضر مجلس ابن الأنباري فيحفظ ما يمليه، وهو صاحب القصيدة في قراءة السبعة عملها في حياة النقاش فأعجب بها النقاش وشيوخ زمانه، وكان ظريفاً حسن الزي؛ توفي في رمضان سنة ثمان وسبعين وثلثمائة {cite:muntazam-ibn-al-jawzi j.7 p.146}."
+  en: "Al-Husayn b. 'Ali b. Thabit Abu 'Abd Allah the qari' (d. 378), blind from birth: he attended Ibn al-Anbari's circle and memorised whatever was dictated, and composed his qasida on the Seven Readings in al-Naqqash's lifetime — admired by al-Naqqash and the shaykhs of the age; a man of wit and fine dress, he died in Ramadan 378 {cite:muntazam-ibn-al-jawzi j.7 p.146}."
+wings: [people]
+periods: [period/buyid-seljuk-fatimid-era]
+regions: [levant-iraq]
+died:
+  { edtf: "0989-01~", hijri: "0378-09", calendar: julian, precision: month, status: tradition, derived: true, note: "توفي في رمضان 378؛ التحويل مشتق {cite:muntazam-ibn-al-jawzi j.7 p.146}", sources: [source/muntazam-ibn-al-jawzi] }
+provenance:
+  layer: own-research
+  source: "المنتظم لابن الجوزي (ط حيدرآباد 1357، ج7، وفيات سنة 378)، قراءة آبل فيجن"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-muntazam-350-474-2
+sources: [source/muntazam-ibn-al-jawzi]
+status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 High)" }

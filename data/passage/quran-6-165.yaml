@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 6:165 (سورة الأنعام، الآية 165)."
 text: "وَهُوَ ٱلَّذِى جَعَلَكُمْ خَلَـٰٓئِفَ ٱلْأَرْضِ وَرَفَعَ بَعْضَكُمْ فَوْقَ بَعْضٍ دَرَجَـٰتٍ لِّيَبْلُوَكُمْ فِى مَآ ءَاتَىٰكُمْ ۗ إِنَّ رَبَّكَ سَرِيعُ ٱلْعِقَابِ وَإِنَّهُۥ لَغَفُورٌ رَّحِيمٌۢ"
 text_search: "وهو الذي جعلكم خلائف الأرض ورفع بعضكم فوق بعض درجات ليبلوكم في ما آتاكم ۗ إن ربك سريع العقاب وإنه لغفور رحيم"
+translations:
+  en: { text: "He it is Who hath placed you as viceroys of the earth and hath exalted some of you in rank above others, that He may try you by (the test of) that which He hath given you. Lo! Thy Lord is swift in prosecution, and Lo! He verily is Forgiving, Merciful.", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "اور وہی تو ہے جس نے زمین میں تم کو اپنا نائب بنایا اور ایک کے دوسرے پر درجے بلند کئے تاکہ جو کچھ اس نے تمہیں بخشا ہے اس میں تمہاری آزمائش ہے بےشک تمہارا پروردگار جلد عذاب دینے والا ہے اور بےشک وہ بخشنے والا مہربان بھی ہے", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-6 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

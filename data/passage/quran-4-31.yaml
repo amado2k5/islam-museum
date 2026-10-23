@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 4:31 (سورة النساء، الآية 31)."
 text: "إِن تَجْتَنِبُوا۟ كَبَآئِرَ مَا تُنْهَوْنَ عَنْهُ نُكَفِّرْ عَنكُمْ سَيِّـَٔاتِكُمْ وَنُدْخِلْكُم مُّدْخَلًا كَرِيمًا"
 text_search: "إن تجتنبوا كبائر ما تنهون عنه نكفر عنكم سيئاتكم وندخلكم مدخلا كريما"
+translations:
+  en: { text: "If ye avoid the great (things) which ye are forbidden, We will remit from you your evil deeds and make you enter at a noble gate.", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "اگر تم بڑے بڑے گناہوں سے جن سے تم کو منع کیا جاتا ہے اجتناب رکھو گے تو ہم تمہارے (چھوٹے چھوٹے) گناہ معاف کردیں گے اور تمہیں عزت کے مکانوں میں داخل کریں گے", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-4 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

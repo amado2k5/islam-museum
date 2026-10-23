@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 2:151 (سورة البقرة، الآية 151)."
 text: "كَمَآ أَرْسَلْنَا فِيكُمْ رَسُولًا مِّنكُمْ يَتْلُوا۟ عَلَيْكُمْ ءَايَـٰتِنَا وَيُزَكِّيكُمْ وَيُعَلِّمُكُمُ ٱلْكِتَـٰبَ وَٱلْحِكْمَةَ وَيُعَلِّمُكُم مَّا لَمْ تَكُونُوا۟ تَعْلَمُونَ"
 text_search: "كما أرسلنا فيكم رسولا منكم يتلو عليكم آياتنا ويزكيكم ويعلمكم الكتاب والحكمة ويعلمكم ما لم تكونوا تعلمون"
+translations:
+  en: { text: "Even as We have sent unto you a messenger from among you, who reciteth unto you Our revelations and causeth you to grow, and teacheth you the Scripture and wisdom, and teacheth you that which ye knew not.", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "جس طرح (منجملہ اور نعمتوں کے) ہم نے تم میں تمھیں میں سے ایک رسول بھیجے ہیں جو تم کو ہماری آیتیں پڑھ پڑھ کر سناتے اور تمہیں پاک بناتے اور کتاب (یعنی قرآن) اور دانائی سکھاتے ہیں، اور ایسی باتیں بتاتے ہیں، جو تم پہلے نہیں جانتے تھے", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-2 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

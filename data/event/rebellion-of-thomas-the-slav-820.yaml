@@ -1,0 +1,23 @@
+id: event/rebellion-of-thomas-the-slav-820
+class: event
+kind: revolt
+label: { ar: "ثورة توماس الصقلبي", en: "Rebellion of Thomas the Slav" }
+summary:
+  ar: "بطاقة أولية لثورة توماس الصقلبي في ٨٢٠–٨٢٣م، تحالفه مع الخليفة المأمون ضد الإمبراطور البيزنطي؛ لم تُراجع مصادره على الصفحة بعد."
+  en: "Draft card for the Rebellion of Thomas the Slav in 820–23, his alliance with Caliph al-Ma'mun against Michael II; its sources are not yet checked on the page."
+wings: [time]
+periods: [period/abbasid-early]
+regions: [anatolia-balkans]
+date:
+  start: { edtf: "0820-12", precision: year, status: tradition, derived: true }
+  end: { edtf: "0823-10", precision: year, status: tradition, derived: true }
+sources: [source/tarikh-al-tabari]
+external_ids:
+  wikidata: Q16087472
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; battle attested in narrative histories — entry not yet checked on the page"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-wave2
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

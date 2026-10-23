@@ -1,0 +1,19 @@
+id: passage/muwatta-1-337
+class: passage
+unit: hadith
+chain: [person/malik-ibn-anas, person/yahya-ibn-said-al-ansari, person/aisha, person/muhammad]
+work: work/muwatta-malik
+ref: "1.337"
+label: { ar: "الموطأ 337 — عائشة: كان يخفف ركعتي الفجر حتى أقول أقرأ بأم القرآن أم لا", en: "Muwatta 337" }
+text: "إن كان رسول الله ليخفف ركعتي الفجر حتى إني لأقول: أقرأ بأم القرآن أم لا؟"
+summary:
+  ar: "يرويه مالك عن يحيى بن سعيد عن عائشة مرسلاً، في باب ما جاء في ركعتي الفجر: كان النبي يخفف ركعتي الفجر حتى كانت عائشة تتساءل أقرأ فيهما بفاتحة الكتاب أم لا. ويذكر المحقق أنه رواه عن مالك أبو مصعب وسويد، وأنه جاء متصلاً من رواية يحيى بن سعيد عن محمد بن عبد الرحمن بن أسعد بن زرارة عن عمرة عن عائشة في الصحيحين (البخاري 1170، مسلم 2/160). {cite:muwatta-maruf-1997 p.186}"
+relations:
+  - { type: part_of, target: passage/muwatta-kitab-01-salat }
+  - { type: mentions, target: person/muhammad, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/aisha, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/yahya-ibn-said-al-ansari, sources: [source/muwatta-maruf-1997] }
+  - { type: basis_for, target: practice/salah, sources: [source/muwatta-maruf-1997] }
+provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 1, hadith 337 at PDF p. 186; باب ما جاء في ركعتي الفجر", generated_by: "Claude Code (claude-haiku-5-5) from Apple Vision OCR of the Noor-Book PDF, checked on the page image where doubtful", run: "muwatta-prose-k1-b14" }
+sources: [source/muwatta-maruf-1997]
+status: { review: draft, completeness: 2, generated_by: "Claude Code (claude-haiku-5-5); own-words account written from PDF p. 186; matn excerpt at most 40 words" }

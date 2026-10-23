@@ -1,0 +1,23 @@
+id: event/battle-of-rawdat-muhanna-1906
+class: event
+kind: battle
+label: { ar: "معركة روضة مهنا", en: "Battle of Rawdat Muhanna" }
+summary:
+  ar: "بطاقة أولية لمعركة روضة مهنا سنة ١٩٠٦م، فوز ابن سعود على آل رشيد؛ لم تُراجع مصادره على الصفحة بعد."
+  en: "Draft card for the Battle of Rawdat Muhanna in 1906, Ibn Saud's victory over the Rashidis; its sources are not yet checked on the page."
+wings: [time]
+periods: [period/modern-era]
+regions: [arabia]
+date:
+  start: { edtf: "1906", precision: year, status: tradition, derived: true }
+  end: { edtf: "1906", precision: year, status: tradition, derived: true }
+sources: [source/tarikh-islam-hasan-ibrahim]
+external_ids:
+  wikidata: Q3636596
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; battle attested in narrative histories — entry not yet checked on the page"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-wave2
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

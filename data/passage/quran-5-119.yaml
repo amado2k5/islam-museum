@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 5:119 (سورة المائدة، الآية 119)."
 text: "قَالَ ٱللَّهُ هَـٰذَا يَوْمُ يَنفَعُ ٱلصَّـٰدِقِينَ صِدْقُهُمْ ۚ لَهُمْ جَنَّـٰتٌ تَجْرِى مِن تَحْتِهَا ٱلْأَنْهَـٰرُ خَـٰلِدِينَ فِيهَآ أَبَدًا ۚ رَّضِىَ ٱللَّهُ عَنْهُمْ وَرَضُوا۟ عَنْهُ ۚ ذَٰلِكَ ٱلْفَوْزُ ٱلْعَظِيمُ"
 text_search: "قال الله هذا يوم ينفع الصادقين صدقهم ۚ لهم جنات تجري من تحتها الأنهار خالدين فيها أبدا ۚ رضي الله عنهم ورضوا عنه ۚ ذلك الفوز العظيم"
+translations:
+  en: { text: "Allah saith: This is a day in which their truthfulness profiteth the truthful, for theirs are Gardens underneath which rivers flow, wherein they are secure for ever, Allah taking pleasure in them and they in Him. That is the great triumph.", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "خدا فرمائے گا کہ آج وہ دن ہے کہ راست بازوں کو ان کی سچائی ہی فائدہ دے گی ان کے لئے باغ ہیں جن کے نیچے نہریں بہہ رہی ہیں ابدالآباد ان میں بستے رہیں گے خدا ان سے خوش ہے اور وہ خدا سے خوش ہیں یہ بڑی کامیابی ہے", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-5 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

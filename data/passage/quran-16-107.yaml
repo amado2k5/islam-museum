@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 16:107 (سورة النحل، الآية 107)."
 text: "ذَٰلِكَ بِأَنَّهُمُ ٱسْتَحَبُّوا۟ ٱلْحَيَوٰةَ ٱلدُّنْيَا عَلَى ٱلْـَٔاخِرَةِ وَأَنَّ ٱللَّهَ لَا يَهْدِى ٱلْقَوْمَ ٱلْكَـٰفِرِينَ"
 text_search: "ذلك بأنهم استحبوا الحياة الدنيا على الآخرة وأن الله لا يهدي القوم الكافرين"
+translations:
+  en: { text: "That is because they have chosen the life of the world rather than the Hereafter, and because Allah guideth not the disbelieving folk.", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "یہ اس لئے کہ انہوں نے دنیا کی زندگی کو آخرت کے مقابلے میں عزیز رکھا۔ اور اس لئے خدا کافر لوگوں کو ہدایت نہیں دیتا", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-16 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

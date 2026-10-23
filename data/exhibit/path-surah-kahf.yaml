@@ -1,0 +1,76 @@
+id: exhibit/path-surah-kahf
+class: exhibit
+kind: trail
+label:
+  ar: سورة الكهف
+  en: Surah al-Kahf
+summary:
+  ar: 'مسار في سورة الجمعة: فتية الكهف، وموسى والخضر، وذو القرنين وسدّه — قصص الفتن الأربع.'
+  en: A trail through the Friday sura.
+audience:
+- newcomer
+- student
+duration_minutes: 30
+wings: []
+regions:
+- arabia
+rooms:
+- title:
+    ar: السورة
+    en: The sura
+  body:
+    ar: 'الكهف: أربع قصص وأربع فتن.'
+    en: 'الكهف: أربع قصص وأربع فتن.'
+  features:
+  - passage/quran-18
+  - passage/quran-18-1
+- title:
+    ar: الفتية
+    en: The sleepers
+  body:
+    ar: 'أصحاب الكهف والرقيم: ثلاثة قرون.'
+    en: 'أصحاب الكهف والرقيم: ثلاثة قرون.'
+  features:
+  - passage/quran-18-9
+  - passage/quran-18-10
+- title:
+    ar: موسى والخضر
+    en: Musa and al-Khidr
+  body:
+    ar: 'مجمع البحرين: العلم الذي لا يُحتمل.'
+    en: 'مجمع البحرين: العلم الذي لا يُحتمل.'
+  features:
+  - passage/quran-18-60
+  - passage/quran-18-60
+- title:
+    ar: ذو القرنين
+    en: Dhu'l-Qarnayn
+  body:
+    ar: 'السدّ العظيم: ملك شرقًا وغربًا.'
+    en: 'السدّ العظيم: ملك شرقًا وغربًا.'
+  features:
+  - passage/quran-18-83
+  - passage/quran-18-83
+- title:
+    ar: الختام
+    en: The end
+  body:
+    ar: 'لقاء ربك: عمل صالح بلا شرك.'
+    en: 'لقاء ربك: عمل صالح بلا شرك.'
+  features:
+  - passage/quran-18-110
+  - passage/quran-18-110
+prerequisites:
+- exhibit/path-islam-in-30-minutes
+sources:
+- source/wikidata
+provenance:
+  layer: own-research
+  source: Devin-assembled trail from existing museum entities
+  generated_by: Devin (SWE-2 High)
+  model: SWE-2 High
+  run: pathways-batch-7
+status:
+  review: draft
+  completeness: 1
+  generated_by: Devin (SWE-2 High), pathways lane, 2026-10-16

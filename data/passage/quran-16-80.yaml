@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 16:80 (سورة النحل، الآية 80)."
 text: "وَٱللَّهُ جَعَلَ لَكُم مِّنۢ بُيُوتِكُمْ سَكَنًا وَجَعَلَ لَكُم مِّن جُلُودِ ٱلْأَنْعَـٰمِ بُيُوتًا تَسْتَخِفُّونَهَا يَوْمَ ظَعْنِكُمْ وَيَوْمَ إِقَامَتِكُمْ ۙ وَمِنْ أَصْوَافِهَا وَأَوْبَارِهَا وَأَشْعَارِهَآ أَثَـٰثًا وَمَتَـٰعًا إِلَىٰ حِينٍ"
 text_search: "والله جعل لكم من بيوتكم سكنا وجعل لكم من جلود الأنعام بيوتا تستخفونها يوم ظعنكم ويوم إقامتكم ۙ ومن أصوافها وأوبارها وأشعارها أثاثا ومتاعا إلى حين"
+translations:
+  en: { text: "And Allah hath given you in your houses an abode, and hath given you (also), of the hides of cattle, houses which ye find light (to carry) on the day of migration and on the day of pitching camp; and of their wool and their fur and their hair, caparison and comfort for a while.", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "اور خدا ہی نے تمہارے لیے گھروں کو رہنے کی جگہ بنایا اور اُسی نے چوپایوں کی کھالوں سے تمہارے لیے ڈیرے بنائے۔ جن کو تم سبک دیکھ کر سفر اور حضر میں کام میں لاتے ہو اور اُن کی اون، پشم اور بالوں سے تم اسباب اور برتنے کی چیزیں (بناتے ہو جو) مدت تک (کام دیتی ہیں)", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-16 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

@@ -1,0 +1,23 @@
+id: event/battle-of-malka-nidzhe-1916
+class: event
+kind: battle
+label: { ar: "معركة مالكا نيدزه", en: "Battle of Malka Nidzhe" }
+summary:
+  ar: "بطاقة أولية لمعركة مالكا نيدزه سنة ١٩١٦م، فتح هجوم مونستير للحلفاء على البلغار في مقدونيا؛ لم تُراجع مصادره على الصفحة بعد."
+  en: "Draft card for the Battle of Malka Nidzhe in 1916, the opening of the Allied Monastir offensive in Macedonia; its sources are not yet checked on the page."
+wings: [time]
+periods: [period/modern-era]
+regions: [anatolia-balkans]
+date:
+  start: { edtf: "1916", precision: year, status: tradition, derived: true }
+  end: { edtf: "1916", precision: year, status: tradition, derived: true }
+sources: [source/dawlat-uthmaniyya-salabi]
+external_ids:
+  wikidata: Q4871652
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; battle attested in Salonika-front histories — entry not yet checked on the page"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-wave2
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 83:4 (سورة المطففين، الآية 4)."
 text: "أَلَا يَظُنُّ أُو۟لَـٰٓئِكَ أَنَّهُم مَّبْعُوثُونَ"
 text_search: "ألا يظن أولئك أنهم مبعوثون"
+translations:
+  en: { text: "Do such (men) not consider that they will be raised again", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "کیا یہ لوگ نہیں جانتے کہ اٹھائے بھی جائیں گے", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-83 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }
