@@ -38,7 +38,7 @@ Average sources per entity: **1.28** · Women share of persons with a recorded g
 | living | 79 |
 | made | 119 |
 | objects | 6154 |
-| people | 8350 |
+| people | 8351 |
 | place | 1711 |
 | time | 3973 |
 | today | 6 |
