@@ -34,8 +34,8 @@ Average sources per entity: **1.28** · Women share of persons with a recorded g
 
 | Key | Count |
 |---|---|
-| ideas | 916 |
-| living | 45 |
+| ideas | 918 |
+| living | 43 |
 | made | 117 |
 | objects | 6122 |
 | people | 8142 |
@@ -58,7 +58,7 @@ Average sources per entity: **1.28** · Women share of persons with a recorded g
 | period/modern-era | 1143 |
 | period/mongol-post-mongol | 1300 |
 | period/pre-islamic-arabia | 402 |
-| period/prophetic-era | 1765 |
+| period/prophetic-era | 1769 |
 | period/rashidun | 835 |
 | period/umayyad | 990 |
 
@@ -102,7 +102,7 @@ Average sources per entity: **1.28** · Women share of persons with a recorded g
 | community-conventions | 4 |
 | conferences-and-declarations | 5 |
 | conquest-and-its-debates | 20 |
-| converts-and-leavers | 228 |
+| converts-and-leavers | 229 |
 | cosmology-and-creation | 5 |
 | creed | 122 |
 | crime-and-punishment | 26 |
@@ -110,7 +110,7 @@ Average sources per entity: **1.28** · Women share of persons with a recorded g
 | cuisines | 10 |
 | dawa-and-christian-mission | 7 |
 | desertions-defections-withdrawals | 4 |
-| development-of-law-theology-institutions | 207 |
+| development-of-law-theology-institutions | 208 |
 | diplomacy-and-envoys | 2 |
 | disability | 4 |
 | dissent-heresy-freethought | 28 |
@@ -118,9 +118,9 @@ Average sources per entity: **1.28** · Women share of persons with a recorded g
 | education | 138 |
 | engineering-and-technology | 5 |
 | environment-and-climate | 4 |
-| ethics-and-character | 115 |
+| ethics-and-character | 114 |
 | factions-splits-schisms | 26 |
-| family-marriage-kinship | 248 |
+| family-marriage-kinship | 251 |
 | fasting | 4 |
 | food-of-ramadan-and-feasts | 4 |
 | games-and-leisure | 1 |
@@ -179,7 +179,7 @@ Average sources per entity: **1.28** · Women share of persons with a recorded g
 | sacred-space-and-pilgrimage | 83 |
 | sacred-time | 26 |
 | science-today | 6 |
-| scripture-and-its-sciences | 546 |
+| scripture-and-its-sciences | 544 |
 | seafaring-and-ports | 1 |
 | sects-and-schools | 110 |
 | sexuality-gender-diversity | 5 |
@@ -199,7 +199,7 @@ Average sources per entity: **1.28** · Women share of persons with a recorded g
 | water-and-animals | 8 |
 | websites-and-apps | 2 |
 | women | 208 |
-| worship-and-the-pillars | 239 |
+| worship-and-the-pillars | 237 |
 | zakat-and-sadaqa | 19 |
 | zoology | 1 |
 
