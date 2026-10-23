@@ -34,8 +34,8 @@ Average sources per entity: **1.28** · Women share of persons with a recorded g
 
 | Key | Count |
 |---|---|
-| ideas | 1402 |
-| living | 79 |
+| ideas | 1403 |
+| living | 78 |
 | made | 119 |
 | objects | 6152 |
 | people | 8333 |
@@ -58,7 +58,7 @@ Average sources per entity: **1.28** · Women share of persons with a recorded g
 | period/modern-era | 1144 |
 | period/mongol-post-mongol | 1306 |
 | period/pre-islamic-arabia | 402 |
-| period/prophetic-era | 2214 |
+| period/prophetic-era | 2215 |
 | period/rashidun | 840 |
 | period/umayyad | 1025 |
 
@@ -69,11 +69,11 @@ Average sources per entity: **1.28** · Women share of persons with a recorded g
 | americas-oceania | 64 |
 | anatolia-balkans | 4098 |
 | andalus-europe | 1180 |
-| arabia | 3083 |
+| arabia | 3082 |
 | china-east-asia | 127 |
 | east-africa | 274 |
 | egypt-nile | 976 |
-| global | 1208 |
+| global | 1209 |
 | levant-iraq | 3613 |
 | maghreb | 1360 |
 | persia-central-asia | 3064 |
@@ -104,7 +104,7 @@ Average sources per entity: **1.28** · Women share of persons with a recorded g
 | conquest-and-its-debates | 21 |
 | converts-and-leavers | 229 |
 | cosmology-and-creation | 5 |
-| creed | 130 |
+| creed | 129 |
 | crime-and-punishment | 35 |
 | crusades | 17 |
 | cuisines | 10 |
@@ -191,7 +191,7 @@ Average sources per entity: **1.28** · Women share of persons with a recorded g
 | the-elderly | 4 |
 | the-poor-and-the-worker | 86 |
 | trade-and-finance | 181 |
-| tradition-versus-culture | 84 |
+| tradition-versus-culture | 83 |
 | travel | 8 |
 | violent-extremism-and-the-muslim-response | 27 |
 | waqf | 2 |
@@ -200,7 +200,7 @@ Average sources per entity: **1.28** · Women share of persons with a recorded g
 | water-and-animals | 8 |
 | websites-and-apps | 2 |
 | women | 218 |
-| worship-and-the-pillars | 408 |
+| worship-and-the-pillars | 409 |
 | zakat-and-sadaqa | 21 |
 | zoology | 1 |
 
