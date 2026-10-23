@@ -48,7 +48,7 @@ Average sources per entity: **1.28** · Women share of persons with a recorded g
 
 | Key | Count |
 |---|---|
-| period/abbasid-early | 1448 |
+| period/abbasid-early | 1449 |
 | period/abbasid-fragmentation | 486 |
 | period/buyid-seljuk-fatimid-era | 1199 |
 | period/colonial-era | 1346 |
@@ -58,7 +58,7 @@ Average sources per entity: **1.28** · Women share of persons with a recorded g
 | period/modern-era | 1143 |
 | period/mongol-post-mongol | 1297 |
 | period/pre-islamic-arabia | 402 |
-| period/prophetic-era | 1635 |
+| period/prophetic-era | 1634 |
 | period/rashidun | 832 |
 | period/umayyad | 980 |
 
@@ -69,11 +69,11 @@ Average sources per entity: **1.28** · Women share of persons with a recorded g
 | americas-oceania | 64 |
 | anatolia-balkans | 4096 |
 | andalus-europe | 1169 |
-| arabia | 2997 |
+| arabia | 2998 |
 | china-east-asia | 127 |
 | east-africa | 274 |
 | egypt-nile | 955 |
-| global | 515 |
+| global | 514 |
 | levant-iraq | 3548 |
 | maghreb | 1338 |
 | persia-central-asia | 3027 |
@@ -128,7 +128,7 @@ Average sources per entity: **1.28** · Women share of persons with a recorded g
 | golden-age-and-decline | 4 |
 | halal-and-haram | 12 |
 | halal-certification-and-standards | 2 |
-| health-body-death | 32 |
+| health-body-death | 31 |
 | history-of-islam-online | 2 |
 | history-writing-and-social-thought | 170 |
 | hospitality | 14 |
@@ -146,7 +146,7 @@ Average sources per entity: **1.28** · Women share of persons with a recorded g
 | islam-and-secular-thought | 2 |
 | islam-and-the-modern-state | 6 |
 | islam-and-zoroastrianism | 2 |
-| law-and-courts | 125 |
+| law-and-courts | 126 |
 | laws-of-war-and-peace | 53 |
 | libraries-paper-and-the-book | 11 |
 | linguistics | 77 |
@@ -199,7 +199,7 @@ Average sources per entity: **1.28** · Women share of persons with a recorded g
 | water-and-animals | 8 |
 | websites-and-apps | 2 |
 | women | 206 |
-| worship-and-the-pillars | 195 |
+| worship-and-the-pillars | 196 |
 | zakat-and-sadaqa | 19 |
 | zoology | 1 |
 
