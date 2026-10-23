@@ -53,7 +53,7 @@ def choose(b, docs):
         if not tokens_ok(text, b["k"]): continue
         if any(w in title and w not in own_bad for w in BAD): continue
         lang = d.get("language"); lang = " ".join(lang) if isinstance(lang, list) else (lang or "")
-        if lang and not re.search(r"ara|arabic|ar$", lang, re.I): continue
+        if lang and not b.get("lang_any") and not re.search(r"ara|arabic|ar$", lang, re.I): continue
         author_bonus = 1 if norm(b["a"]).split() and any(w in text for w in norm(b["a"]).split() if w not in STOP and len(w) > 3) else 0
         scored.append((author_bonus, -len(title), int(d.get("downloads") or 0), d))
     scored.sort(key=lambda x: (x[0], x[1], x[2]), reverse=True)

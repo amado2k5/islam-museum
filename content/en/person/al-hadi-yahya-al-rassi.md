@@ -9,4 +9,4 @@ Yahya ibn al-Husayn ibn al-Qasim al-Rassi al-Alawi, titled al-Hadi. Ibn Khaldun 
 
 Ibn Khaldun describes him as a jurist who exercised independent judgement in the legal rulings and held views on jurisprudence. He relates from Ibn Hazm that he had a view on jurisprudence that he had seen and did not stray from the community altogether. His son Muhammad al-Murtada succeeded him, then his brother al-Nasir Ahmad. {cite:tarikh-ibn-khaldun-ibar}
 
-His birth and death dates need an additional source.
+Al-Suyuti's Tarikh al-Khulafa records that he was hailed 'amir al-mu'minin' and died in Dhu'l-Hijja 298 — the scan reads "thaman wa-mi'atayn" and the year is flagged for checking against a printed copy. {cite:tarikh-khulafa-minhaj-1434 p.794} Al-Mas'udi relates his advice to As'ad ibn Ya'fur, lord of the Yemeni highlands, against rebuilding Ghumdan. {cite:muruj-al-dhahab p.540} His secretary al-Abbasi's sira is a standalone source narrating his coming to Sa'da and his call there. {cite:sira-hadi-ila-al-haqq}
