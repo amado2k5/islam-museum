@@ -120,7 +120,7 @@ Average sources per entity: **1.28** · Women share of persons with a recorded g
 | environment-and-climate | 4 |
 | ethics-and-character | 171 |
 | factions-splits-schisms | 26 |
-| family-marriage-kinship | 317 |
+| family-marriage-kinship | 318 |
 | fasting | 4 |
 | food-of-ramadan-and-feasts | 4 |
 | games-and-leisure | 1 |
