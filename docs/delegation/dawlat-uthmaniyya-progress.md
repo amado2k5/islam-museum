@@ -49,3 +49,9 @@ Enriched hasan-aga-al-tushi (Mostaganem/Biskra, the 949 raid, the two letters wi
 - Enriched: `hasan-ibn-khayr-al-din` (full governorship: fortifications, Tlemcen, anti-French stance, deposition 960/1552) · `abu-zayyan-ahmad` draft card → Abu Zayyan Ahmad II · appended Khayr al-Din's last days (Marseille/Toulon, Crépy, Genoa gifts, Elba, death) + his retort quote to `khayr-al-din-barbarossa`
 - New: `salih-rais` (beylerbey Safar 960/1552), `muhammad-al-shaykh-al-sadi` (ruler of Fas; ~20,000 mujahidun, Süleyman's rescript), `al-hasan-zayyani-tlemcen`, `al-mansur-ibn-bu-ghannam`, `al-muzawwar-ibn-bu-ghannam`, `event/treaty-crepy-1544` (18 Sep 1544)
 - Trilingual prose for all; attributed framings kept in author's voice. 0 errors.
+
+## Batch 12 — Salih Reis mabhath (مبحث 7, pp. 238–244)
+
+- Enriched: `salih-rais` (full governorship: Fez campaign, four months, Oran preparation, plague death Rajab 963) · `muhammad-al-shaykh-al-sadi` (the 10,000-musketeer request, Portuguese truce, Tlemcen surprise) · `al-muzawwar-ibn-bu-ghannam` (Spanish mediation letters) · `siege-of-oran-1556` draft card verified on the page
+- New: `abu-hasun-al-wattasi`, `hasan-corso`, `yahya-rais`, `mahmud-safa-bak`, `conde-de-alcaudete`, `philip-ii-spain`, `mawlay-abu-bakr-al-idrisi`, `event/capture-fez-964` (book's printed ٩٦٤ flagged as misprint for ٩٦١), `event/recapture-badis-1554`, `event/saadi-attack-tlemcen-963`
+- Trilingual prose for all. 0 errors.
