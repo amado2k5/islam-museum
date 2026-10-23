@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 3:151 (سورة آل عمران، الآية 151)."
 text: "سَنُلْقِى فِى قُلُوبِ ٱلَّذِينَ كَفَرُوا۟ ٱلرُّعْبَ بِمَآ أَشْرَكُوا۟ بِٱللَّهِ مَا لَمْ يُنَزِّلْ بِهِۦ سُلْطَـٰنًا ۖ وَمَأْوَىٰهُمُ ٱلنَّارُ ۚ وَبِئْسَ مَثْوَى ٱلظَّـٰلِمِينَ"
 text_search: "سنلقي في قلوب الذين كفروا الرعب بما أشركوا بالله ما لم ينزل به سلطانا ۖ ومأواهم النار ۚ وبئس مثوى الظالمين"
+translations:
+  en: { text: "We shall cast terror into the hearts of those who disbelieve because they ascribe unto Allah partners, for which no warrant hath been revealed. Their habitation is the Fire, and hapless the abode of the wrong-doers.", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "ہم عنقریب کافروں کے دلوں میں تمہارا رعب بٹھا دیں گے کیونکہ یہ خدا کے ساتھ شرک کرتے ہیں جس کی اس نے کوئی بھی دلیل نازل نہیں کی اور ان کا ٹھکانہ دوزخ ہے وہ ظالموں کا بہت بُرا ٹھکانا ہے", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-3 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

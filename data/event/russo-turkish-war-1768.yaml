@@ -1,0 +1,23 @@
+id: event/russo-turkish-war-1768
+class: event
+kind: war
+label: { ar: "الحرب العثمانية الروسية (١٧٦٨–١٧٧٤)", en: "Russo-Turkish War of 1768–1774" }
+summary:
+  ar: "بطاقة أولية للحرب العثمانية الروسية ١٧٦٨م؛ لم تُراجع مصادرها على الصفحة بعد."
+  en: "Draft card for the Russo-Turkish War of 1768–1774; its sources are not yet checked on the page."
+wings: [time]
+periods: [period/gunpowder-empires]
+regions: [anatolia-balkans]
+date:
+  start: { edtf: "1768", hijri: "", precision: year, status: tradition, derived: true }
+  end: { edtf: "1774", hijri: "", precision: year, status: tradition, derived: true }
+sources: [source/dawlat-uthmaniyya-salabi]
+external_ids:
+  wikidata: Q123070
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; war attested in Ottoman-history surveys — entry not yet checked on the page"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-wave2
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

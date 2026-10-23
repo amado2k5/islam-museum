@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 33:36 (سورة الأحزاب، الآية 36)."
 text: "وَمَا كَانَ لِمُؤْمِنٍ وَلَا مُؤْمِنَةٍ إِذَا قَضَى ٱللَّهُ وَرَسُولُهُۥٓ أَمْرًا أَن يَكُونَ لَهُمُ ٱلْخِيَرَةُ مِنْ أَمْرِهِمْ ۗ وَمَن يَعْصِ ٱللَّهَ وَرَسُولَهُۥ فَقَدْ ضَلَّ ضَلَـٰلًا مُّبِينًا"
 text_search: "وما كان لمؤمن ولا مؤمنة إذا قضى الله ورسوله أمرا أن يكون لهم الخيرة من أمرهم ۗ ومن يعص الله ورسوله فقد ضل ضلالا مبينا"
+translations:
+  en: { text: "And it becometh not a believing man or a believing woman, when Allah and His messenger have decided an affair (for them), that they should (after that) claim any say in their affair; and whoso is rebellious to Allah and His messenger, he verily goeth astray in error manifest.", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "اور کسی مومن مرد اور مومن عورت کو حق نہیں ہے کہ جب خدا اور اس کا رسول کوئی امر مقرر کردیں تو وہ اس کام میں اپنا بھی کچھ اختیار سمجھیں۔ اور جو کوئی خدا اور اس کے رسول کی نافرمانی کرے وہ صریح گمراہ ہوگیا", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-33 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

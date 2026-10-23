@@ -1,0 +1,22 @@
+id: event/baghdad-famine-330
+class: event
+kind: famine
+label: { ar: "غلاء بغداد الكبير سنة ٣٣٠", en: "The Great Famine in Baghdad, 330" }
+summary:
+  ar: "في سنة ثلاثين وثلاثمائة بلغ كُرّ الحنطة مائتين وعشرة دنانير وكُرّ الشعير مائة وعشرين ثم باع كرّ الحنطة بثلاثمائة وستة عشر دينارًا، وأكل الضعفاء الميتة ودام الغلاء وكثر الموت وشُغل الناس بالمرض والفقر وتقطعت السبل وتُرك التدافن للوتي واشتغل الناس عن الملاهي واللعب {cite:muntazam-ibn-al-jawzi p. 618}."
+  en: "In 330 a kurr of wheat reached 210 then 316 dinars, barley 120; the weak ate carrion, death multiplied, roads emptied, burials were left to charity and the people turned from all amusement {cite:muntazam-ibn-al-jawzi p. 618}."
+wings: [time]
+periods: [period/abbasid-early]
+regions: [levant-iraq]
+map: { kind: locator, precision: approximate, center: [44.36, 33.31] }
+date:
+  start: { edtf: "0941~", hijri: "0330", calendar: julian, precision: year, status: tradition, derived: true, note: "٣٣٠؛ التحويل مشتق {cite:muntazam-ibn-al-jawzi p. 618}." }
+relations:
+  - { type: occurred_at, target: place/baghdad, sources: [source/muntazam-ibn-al-jawzi] }
+provenance:
+  layer: own-research
+  source: "المنتظم لابن الجوزي (ط حيدرآباد 1357، ج7، سنة 330)، قراءة آبل فيجن"
+  generated_by: "Devin (SWE-2 Medium) from Apple Vision OCR"
+  run: lib-muntazam-258-349-batch30
+sources: [source/muntazam-ibn-al-jawzi]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 Medium)" }

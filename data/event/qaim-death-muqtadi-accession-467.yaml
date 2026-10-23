@@ -1,0 +1,24 @@
+id: event/qaim-death-muqtadi-accession-467
+class: event
+kind: death
+label: { ar: "وفاة القائم بأمر الله وخلافة المقتدي", en: "The death of al-Qa'im bi-Amr Allah and the accession of al-Muqtadi" }
+summary:
+  ar: "في صفر سنة سبع وستين وأربعمائة مرض القائم بأمر الله مرضًا شديدًا وانتفخ حلقه، فلما احتضر كتب ولاية العهد لابن ابنه عبد الله بن ذخيرة الدين أبي العباس، فلما توفي استُخلف المقتدي يوم الجمعة ثالث عشر شعبان ولُقّب المقتدي بأمر الله، وجلس في دار الشجرة بقميص أبيض وعمامة لطيفة بيضاء وطرحة قصب درية، ودخل الوزير نحر الدولة وعميد الدولة ومؤيد الملك بن النظام والنقيبان وقاضي القضاة الدامغاني ودبيس ووجوه الأشراف والشهود فبايعوه، وكان أول من بايعه الشريف أبو جعفر بايعه عند غسل القائم قبل الناس وأنشده «إذا سيد منا مضى قام سيد»، ثم حُمل التابوت على الطيار يبكون من غير صراخ وصُلي عليه فكُبّر أربعًا ودُفن في حجرته التي كانت برسم خلوته. وكانت خلافة القائم خمسًا وأربعين سنة وأشهرًا {cite:muntazam-ibn-al-jawzi j.8 p.632-634}. وذُكر أن ملكشاه لما تغيّرت نيته على المقتدي وأراد منه أن يخرج من بغداد قال له أمهلني عشرة أيام فهلك السلطان في اليوم العاشر {cite:muntazam-ibn-al-jawzi j.8 p.634}."
+  en: "In Safar 467 the caliph al-Qa'im fell gravely ill, his throat swelling; dying, he wrote the heirship for his grandson Abdallah ibn Dhakhirat al-Din. Al-Muqtadi was acclaimed Friday 13 Sha'ban 467 in the Dar al-Shajara in a white shirt and fine white turban — the first to swear was Sharif Abu Ja'far, who had given him bay'a at the caliph's washing before the people, quoting 'when a lord among us passes, a lord arises'; the bier was borne on the tayyar with weeping but no wailing, prayed over with four takbirs and buried in the caliph's own chamber of retreat. Al-Qa'im's caliphate had run forty-five years and some months; and when Malikshah later turned on al-Muqtadi demanding he quit Baghdad, the caliph asked ten days' respite — and the sultan died on the tenth day {cite:muntazam-ibn-al-jawzi j.8 p.632-634}."
+wings: [time]
+periods: [period/buyid-seljuk-fatimid-era]
+regions: [levant-iraq]
+themes: [politics-governance-and-authority]
+date:
+  start: { edtf: "1075-04", hijri: "0467-08-13", calendar: julian, precision: day, status: tradition, derived: true, note: "الجمعة ١٣ شعبان ٤٦٧؛ التحويل مشتق." }
+relations:
+  - { type: occurred_at, target: place/baghdad, sources: [source/muntazam-ibn-al-jawzi] }
+  - { type: had_participant, target: person/al-qaim-billah, role: "المتوفى", sources: [source/muntazam-ibn-al-jawzi] }
+  - { type: had_participant, target: person/al-muqtadi-billah, role: "الخليفة المبايَع", sources: [source/muntazam-ibn-al-jawzi] }
+provenance:
+  layer: own-research
+  source: "المنتظم لابن الجوزي (ط حيدرآباد 1357، ج8، سنة 467)، قراءة آبل فيجن"
+  generated_by: "Devin (SWE-2 Medium) from Apple Vision OCR"
+  run: lib-muntazam-350-474-batch25
+sources: [source/muntazam-ibn-al-jawzi]
+status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 Medium)" }

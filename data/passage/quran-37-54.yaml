@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 37:54 (سورة الصافات، الآية 54)."
 text: "قَالَ هَلْ أَنتُم مُّطَّلِعُونَ"
 text_search: "قال هل أنتم مطلعون"
+translations:
+  en: { text: "He saith: Will ye look?", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "(پھر) کہے گا کہ بھلا تم (اسے) جھانک کر دیکھنا چاہتے ہو؟", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-37 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

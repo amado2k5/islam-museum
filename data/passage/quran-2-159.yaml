@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 2:159 (سورة البقرة، الآية 159)."
 text: "إِنَّ ٱلَّذِينَ يَكْتُمُونَ مَآ أَنزَلْنَا مِنَ ٱلْبَيِّنَـٰتِ وَٱلْهُدَىٰ مِنۢ بَعْدِ مَا بَيَّنَّـٰهُ لِلنَّاسِ فِى ٱلْكِتَـٰبِ ۙ أُو۟لَـٰٓئِكَ يَلْعَنُهُمُ ٱللَّهُ وَيَلْعَنُهُمُ ٱللَّـٰعِنُونَ"
 text_search: "إن الذين يكتمون ما أنزلنا من البينات والهدى من بعد ما بيناه للناس في الكتاب ۙ أولئك يلعنهم الله ويلعنهم اللاعنون"
+translations:
+  en: { text: "Lo! Those who hide the proofs and the guidance which We revealed, after We had made it clear to mankind in the Scripture: such are accursed of Allah and accursed of those who have the power to curse.", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "جو لوگ ہمارے حکموں اور ہدایتوں کو جو ہم نے نازل کی ہیں (کسی غرض فاسد سے) چھپاتے ہیں باوجود یہ کہ ہم نے ان لوگوں کے (سمجھانے کے) لئے اپنی کتاب میں کھول کھول کر بیان کردیا ہے۔ ایسوں پر خدا اور تمام لعنت کرنے والے لعنت کرتے ہیں", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-2 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

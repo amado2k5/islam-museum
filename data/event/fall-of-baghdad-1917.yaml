@@ -1,0 +1,23 @@
+id: event/fall-of-baghdad-1917
+class: event
+kind: battle
+label: { ar: "سقوط بغداد (١٩١٧)", en: "Fall of Baghdad" }
+summary:
+  ar: "بطاقة أولية لسقوط بغداد سنة ١٩١٧م، دخول البريطانيين العاصمة العثمانية في حملة بلاد النهرين؛ لم تُراجع مصادره على الصفحة بعد."
+  en: "Draft card for the Fall of Baghdad in 1917, the British entry into the Ottoman capital of the Mesopotamian campaign; its sources are not yet checked on the page."
+wings: [time]
+periods: [period/modern-era]
+regions: [levant-iraq]
+date:
+  start: { edtf: "1917", precision: year, status: tradition, derived: true }
+  end: { edtf: "1917", precision: year, status: tradition, derived: true }
+sources: [source/dawlat-uthmaniyya-salabi]
+external_ids:
+  wikidata: Q2665637
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; capture attested in WWI histories — entry not yet checked on the page"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-wave2
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

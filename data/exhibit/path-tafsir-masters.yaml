@@ -1,0 +1,73 @@
+id: exhibit/path-tafsir-masters
+class: exhibit
+kind: trail
+label:
+  ar: أئمة التفسير
+  en: Masters of Tafsir
+summary:
+  ar: 'مسار في من فسّروا الكتاب: الطبري يجمع الأثر، والزمخشري والرازي والقرطبي والسيوطي — موسوعات المعنى.'
+  en: A trail through the great exegetes.
+audience:
+- newcomer
+- student
+duration_minutes: 30
+wings: []
+regions:
+- global
+rooms:
+- title:
+    ar: الطبري
+    en: Al-Tabari
+  body:
+    ar: 'جامع البيان: أصل التفسير بالمأثور.'
+    en: 'جامع البيان: أصل التفسير بالمأثور.'
+  features:
+  - person/al-tabari
+  - concept/isnad
+- title:
+    ar: الكشاف
+    en: Al-Kashshaf
+  body:
+    ar: 'الزمخشري: لغة وبلاغة ومعتزلة.'
+    en: 'الزمخشري: لغة وبلاغة ومعتزلة.'
+  features:
+  - work/al-kashshaf
+- title:
+    ar: الرازي
+    en: Al-Razi
+  body:
+    ar: 'مفاتيح الغيب: التفسير الكبير الجدلي.'
+    en: 'مفاتيح الغيب: التفسير الكبير الجدلي.'
+  features:
+  - person/fakhr-al-din-al-razi
+- title:
+    ar: الإتقان
+    en: Al-Itqan
+  body:
+    ar: السيوطي يجمع علوم القرآن الثمانين.
+    en: السيوطي يجمع علوم القرآن الثمانين.
+  features:
+  - work/al-itqan-fi-ulum-al-quran
+- title:
+    ar: اليوم
+    en: Today
+  body:
+    ar: 'التفسير يستمر: من ابن كثير إلى المدارس.'
+    en: 'التفسير يستمر: من ابن كثير إلى المدارس.'
+  features:
+  - question/what-is-tafsir
+  - concept/isnad
+prerequisites:
+- exhibit/path-islam-in-30-minutes
+sources:
+- source/wikidata
+provenance:
+  layer: own-research
+  source: Devin-assembled trail from existing museum entities
+  generated_by: Devin (SWE-2 High)
+  model: SWE-2 High
+  run: pathways-batch-7
+status:
+  review: draft
+  completeness: 1
+  generated_by: Devin (SWE-2 High), pathways lane, 2026-10-16

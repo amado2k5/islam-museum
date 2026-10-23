@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 96:11 (سورة العلق، الآية 11)."
 text: "أَرَءَيْتَ إِن كَانَ عَلَى ٱلْهُدَىٰٓ"
 text_search: "أرأيت إن كان على الهدى"
+translations:
+  en: { text: "Hast thou seen if he relieth on the guidance (of Allah)", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "بھلا دیکھو تو اگر یہ راہِ راست پر ہو", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-96 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

@@ -1,0 +1,27 @@
+id: person/izz-al-din-ibn-al-saigh
+class: person
+label: { ar: "عز الدين ابن الصائغ", en: "Izz al-Din ibn al-Sa'igh" }
+names:
+  - { value: "ابن الصائغ قاضي القضاة عز الدين أبو المفاخر محمد بن عبد القادر بن عبد الخالق الأنصاري الشافعي الدمشقي", kind: full }
+born: { edtf: "1230~", hijri: "0628", calendar: julian, precision: year, status: tradition, derived: true, note: "ولد سنة ثمان وعشرين وستمائة {cite:shadharat-dhahab p. 654}." }
+died: { edtf: "1284-11~", hijri: "0683-04-09", calendar: julian, precision: day, status: tradition, derived: true, note: "توفي في تاسع ربيع الآخر وكان يهلل مع أهله إلى أن توفي مع قول لا إله إلا الله {cite:shadharat-dhahab p. 654}." }
+summary:
+  ar: "قاضي القضاة بدمشق؛ لازم القاضي كمال الدين التفليسي حتى صار من أعيان أصحابه، ودرس بالشامية وولي وكالة بيت المال ثم قضاء الشام، وعزل بابن خلكان أول سنة سبع وسبعين فظهرت منه نهضة وشهامة وقيام في الحق، ثم أعيد إلى منصبه أول سنة ثمانين، ثم امتحن في رجب سنة اثنتين وثمانين وأخرجوا عليه محضراً بنحو مائة ألف دينار إلى أن خلصه الله، فانقطع ببستانه حتى توفي؛ ولما حضرته الوفاة جمع أهله وتوضأ وصلى بهم وقال هللوا معي فبقي يهلل معهم حتى توفي مع قول لا إله إلا الله {cite:shadharat-dhahab p. 654}."
+  en: "Damascus's chief qadi — dismissed for Ibn Khallikan in 677, reinstated 680, then dragged through a 100,000-dinar mahdar in 682 'until God delivered him'; he died having gathered his household to pray, still saying la ilaha illa Allah {cite:shadharat-dhahab p. 654}."
+gender: male
+roles: [jurist, scholar]
+wings: [people]
+periods: [period/mongol-post-mongol]
+regions: [levant-iraq]
+faith:
+  - value: sunni-shafii
+    basis: tradition
+relations:
+  - { type: died_in, target: place/damascus, sources: [source/shadharat-dhahab] }
+sources: [source/shadharat-dhahab]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }
+provenance:
+  layer: own-research
+  source: "شذرات الذهب — ابن العماد (ج7، سنة 683)، قراءة آبل فيجن"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-shadharat-batch-133

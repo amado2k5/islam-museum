@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 3:171 (سورة آل عمران، الآية 171)."
 text: "۞ يَسْتَبْشِرُونَ بِنِعْمَةٍ مِّنَ ٱللَّهِ وَفَضْلٍ وَأَنَّ ٱللَّهَ لَا يُضِيعُ أَجْرَ ٱلْمُؤْمِنِينَ"
 text_search: "۞ يستبشرون بنعمة من الله وفضل وأن الله لا يضيع أجر المؤمنين"
+translations:
+  en: { text: "They rejoice because of favour from Allah and kindness, and that Allah wasteth not the wage of the believers.", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "اور خدا کے انعامات اور فضل سے خوش ہورہے ہیں۔ اور اس سے کہ خدا مومنوں کا اجر ضائع نہیں کرتا", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-3 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

@@ -1,0 +1,23 @@
+id: event/siege-of-alinja-1388
+class: event
+kind: siege
+label: { ar: "حصار ألنجة (١٣٨٨–١٤٠١)", en: "Siege of Alinja (1388–1401)" }
+summary:
+  ar: "بطاقة أولية لحصار قلعة ألنجة، مصادمات تيمور مع الجلائريين في أذربيجان؛ لم تُراجع مصادره على الصفحة بعد."
+  en: "Draft card for the Siege of Alinja, Timur's long contest with the Jalayirids for the Azerbaijani fortress; its sources are not yet checked on the page."
+wings: [time]
+periods: [period/mongol-post-mongol]
+regions: [anatolia-balkans]
+date:
+  start: { edtf: "1388", precision: year, status: tradition, derived: true }
+  end: { edtf: "1401", precision: year, status: tradition, derived: true }
+sources: [source/tarikh-islam-hasan-ibrahim]
+external_ids:
+  wikidata: "Q122968530"
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; battle attested in narrative histories — entry not yet checked on the page"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-wave2
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 38:35 (سورة ص، الآية 35)."
 text: "قَالَ رَبِّ ٱغْفِرْ لِى وَهَبْ لِى مُلْكًا لَّا يَنۢبَغِى لِأَحَدٍ مِّنۢ بَعْدِىٓ ۖ إِنَّكَ أَنتَ ٱلْوَهَّابُ"
 text_search: "قال رب اغفر لي وهب لي ملكا لا ينبغي لأحد من بعدي ۖ إنك أنت الوهاب"
+translations:
+  en: { text: "He said: My Lord! Forgive me and bestow on me sovereignty such as shall not belong to any after me. Lo! Thou art the Bestower.", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "(اور) دعا کی کہ اے پروردگار مجھے مغفرت کر اور مجھ کو ایسی بادشاہی عطا کر کہ میرے بعد کسی کو شایاں نہ ہو۔ بےشک تو بڑا عطا فرمانے والا ہے", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-38 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

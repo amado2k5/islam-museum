@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 27:58 (سورة النمل، الآية 58)."
 text: "وَأَمْطَرْنَا عَلَيْهِم مَّطَرًا ۖ فَسَآءَ مَطَرُ ٱلْمُنذَرِينَ"
 text_search: "وأمطرنا عليهم مطرا ۖ فساء مطر المنذرين"
+translations:
+  en: { text: "And We rained a rain upon them. Dreadful is the rain of those who have been warned.", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "اور ہم نے ان پر مینھہ برسایا سو (جو) مینھہ ان لوگوں پر برسا جن کو متنبہ کردیا گیا تھا، برا تھا", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-27 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

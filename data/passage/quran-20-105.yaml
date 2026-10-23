@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 20:105 (سورة طه، الآية 105)."
 text: "وَيَسْـَٔلُونَكَ عَنِ ٱلْجِبَالِ فَقُلْ يَنسِفُهَا رَبِّى نَسْفًا"
 text_search: "ويسألونك عن الجبال فقل ينسفها ربي نسفا"
+translations:
+  en: { text: "They will ask thee of the mountains (on that day). Say: My Lord will break them into scattered dust.", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "اور تم سے پہاڑوں کے بارے میں دریافت کرتے ہیں۔ کہہ دو کہ خدا ان کو اُڑا کر بکھیر دے گا", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-20 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

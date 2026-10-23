@@ -1,7 +1,7 @@
 # Lane `hisham`: Sirat Ibn Hisham, juz' 4
 
 **Book:** «السيرة النبوية» of Ibn Hisham (the recension of Ibn Ishaq), juz' 4, ed. السقا والأبياري وشلبي, مطبعة البابي الحلبي 1355هـ/1936م; 376 PDF pages; **printed page = PDF page − 4** (cite the printed page).
-**Plan (read fully before starting):** `docs/plan/18-sira-ibn-hisham.md`: §1 (two layers: the classical text is public domain but quotes stay at most 40 words; the editors' footnotes, rubrics and indexes are copyrighted reference: facts and citations only), the procedure, the extraction rules, the batch order.
+**Plan (read fully before starting):** `docs/plan/18-sira-ibn-hisham.md`: §1 (the classical text and the editors' footnotes, rubrics and indexes may all be read and rewritten in the museum's own words with the page cited; quotes stay at most 40 words; `docs/sources-policy.md`), the procedure, the extraction rules, the batch order.
 **Text (outside git):** `~/islam-museum-harvest/raw/books/sira-ibn-hisham/`: `book.txt`, `pages.json`, `pages-png/`, `toc.json`/`toc.txt` (فهرس الموضوعات, printed 358–367), `bib.txt`, `index-people/tribes/places.txt`, `ghazwat-index.txt`, `README.md` (OCR error list), `PROGRESS.md` and `batches/` (claims tables from earlier batches: read them for the format and level of detail).
 **Progress and next step:** `docs/delegation/hisham-progress.md` (read it first, resume at its "next step"; also `git log origin/main --oneline | grep ibn-hisham`).
 **Branch / stubs:** `content/ibn-hisham-<agent>`; `data/_stubs.d/ibn-hisham.yaml`. Commit prefix `content(ibn-hisham)`.

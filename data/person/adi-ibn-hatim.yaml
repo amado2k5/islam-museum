@@ -16,11 +16,10 @@ roles:
 traditions:
 - sunni
 summary:
-  ar: ابن حاتم الطائي الجواد المشهور؛ أسلم سنة 9هـ أو 10هـ وكان نصرانياً، وثبت على إسلامه في الردة وأحضر صدقة قومه إلى أبي بكر، وشهد فتح العراق وصفين مع علي، وسكن الكوفة ومات بعد الستين.
+  ar: ابن حاتم الطائي الجواد المشهور؛ أسلم سنة 9هـ أو 10هـ وكان نصرانياً، وثبت على إسلامه في الردة وأحضر صدقة قومه إلى أبي بكر، وشهد فتح العراق وصفين مع علي، وسكن الكوفة ومات بعد الستين. وعند المسعودي في حديث أبي البختري أن عدي بن حاتم جاءه في النوم فأمره أن يحمل أبا البختري على بعير مكان راحلته التي عقرها حاتم من قبره حين ناداه أقرنا، ففعل عدي ذلك وأنشده شعره {cite:muruj-al-dhahab p. 475-476}
   en: The son of the famously generous Hatim al-Ta'i; he embraced Islam in 9 AH or 10 AH, having been a Christian, stood firm during the apostasy and brought his tribe's alms to Abu Bakr; he took part in the conquest of Iraq and was with Ali
     at Siffin, settled in Kufa and died after 60 AH.
-wings:
-- people
+wings: [people]
 themes:
 - converts-and-leavers
 periods:
@@ -34,23 +33,82 @@ story_roles:
   note: مذكور في الإصابة ترجمة رقم 5961 (ص 1014).
   sources:
   - source/ibn-hajar-isaba
+- role: opponent
+  toward: person/muhammad
+  end:
+    edtf: "0631~"
+  status: tradition
+  note: كان يقول إنه ما من رجل من العرب كان أشد كراهية للنبي حين سمع به منه، وهرب إلى الشام (ابن هشام ص225).
+  sources:
+  - source/ibn-hisham-saqqa
+- role: convert
+  toward: person/muhammad
+  start:
+    edtf: "0631~"
+  status: tradition
+  note: قدم المدينة فأسلم بعد حوار في بيت النبي (ابن هشام ص227).
+  sources:
+  - source/ibn-hisham-saqqa
+- role: official
+  start:
+    edtf: "0631~"
+  status: tradition
+  note: بعثه النبي على طيء وصدقاتها وعلى بني أسد (ابن هشام ص247).
+  sources:
+  - source/ibn-hisham-saqqa
 faith:
+- value: christian
+  basis: tradition
+  end:
+    edtf: "0631~"
+  note: «وكنت نصرانياً» على لسانه؛ وسأله النبي «ألم تك ركوسياً» وهي دين بين النصارى والصابئين بحسب المحققين (ابن هشام ص225، 227).
+  sources:
+  - source/ibn-hisham-saqqa
 - value: sunni
   basis: tradition
+  start:
+    edtf: "0631~"
   note: ذُكر في كتب الصحابة؛ يُسجَّل ضمن الإطار السني للمتحف (docs/scope.md).
 relations:
 - type: lived_in
   target: place/kufa
   sources:
   - source/ibn-hajar-isaba
+- type: member_of
+  target: group/tayy
+  sources:
+  - source/ibn-hisham-saqqa
+- type: sibling_of
+  target: person/safana-bint-hatim
+  sources:
+  - source/ibn-hisham-saqqa
+- type: participated_in
+  target: event/islam-of-adi-ibn-hatim
+  role: الهارب ثم المسلم
+  sources:
+  - source/ibn-hisham-saqqa
+- type: participated_in
+  target: event/dispatch-of-sadaqa-collectors
+  role: على طيء وبني أسد
+  sources:
+  - source/ibn-hisham-saqqa
+- type: converted_under
+  target: person/muhammad
+  start:
+    edtf: "0631~"
+  sources:
+  - source/ibn-hisham-saqqa
 provenance:
   layer: own-research
   source: الإصابة في تمييز الصحابة، ترجمة 5961، ص 1014
   generated_by: Claude (maintainer session)
   model: claude-sonnet-5-5
   run: isaba-batch-4
+external_ids: { wikidata: "Q2630337" }
 sources:
 - source/ibn-hajar-isaba
+- source/ibn-hisham-saqqa
+- source/sahih-al-bukhari
 status:
   review: draft
   completeness: 2

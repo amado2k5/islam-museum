@@ -1,0 +1,16 @@
+id: passage/muwatta-1-499
+class: passage
+unit: hadith
+chain: [person/malik-ibn-anas, person/abd-al-rahman-ibn-al-qasim]
+work: work/muwatta-malik
+ref: "1.499"
+label: { ar: "الموطأ 499 — القاسم بن محمد يصلي أربع ركعات قبل أن يغدو إلى المصلى", en: "Muwatta 499" }
+summary:
+  ar: "أول أثر في باب الرخصة في الصلاة قبل العيدين وبعدهما. يرويه يحيى عن مالك عن عبد الرحمن بن القاسم أن أباه القاسم بن محمد كان يصلي قبل أن يغدو إلى المصلى أربع ركعات. ويذكر المحقق أنه رواه عن مالك أبو مصعب وسويد ومحمد بن الحسن. {cite:muwatta-maruf-1997 p.255}"
+relations:
+  - { type: part_of, target: passage/muwatta-kitab-01-salat }
+  - { type: mentions, target: person/al-qasim-ibn-muhammad, sources: [source/muwatta-maruf-1997] }
+  - { type: basis_for, target: practice/salat-al-id, sources: [source/muwatta-maruf-1997] }
+provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 1, hadith 499 at PDF p. 255; باب الرخصة في الصلاة قبل العيدين وبعدهما", generated_by: "Claude Code (claude-haiku-5-5) from Apple Vision OCR of the Noor-Book PDF, checked on the page image where doubtful", run: "muwatta-prose-k1-b20" }
+sources: [source/muwatta-maruf-1997]
+status: { review: draft, completeness: 2, generated_by: "Claude Code (claude-haiku-5-5); own-words account written from PDF p. 255; matn excerpt at most 40 words" }

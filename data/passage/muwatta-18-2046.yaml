@@ -1,0 +1,15 @@
+id: passage/muwatta-18-2046
+class: passage
+unit: hadith
+work: work/muwatta-malik
+ref: "2046"
+label: { ar: "الموطأ 2046 — مالك: فيمن دفع إلى رجل مالا قراضا فربح، فقال العامل: قارضتك على أن لي الثلثين، وقال رب المال: على أن لك الثلث: القول قول العامل مع اليمين إذا كان يشبه قراض مثله، فإن جاء بأمر يستنكر لم يصدق ورد إلى قراض مثله", en: "Muwatta 2046" }
+summary:
+  ar: "قال مالك في رجل دفع إلى رجل مالا قراضا فربح فيه ربحا، فقال العامل: قارضتك على أن لي الثلثين. وقال صاحب المال: قارضتك على أن لك الثلث. قال مالك: القول قول العامل، وعليه في ذلك اليمين، إذا كان ما قال يشبه قراض مثله، وكان ذلك نحوا مما يتقارض عليه الناس. وإن جاء بأمر يستنكر، ليس على مثله يتقارض الناس، لم يصدق، ورد إلى قراض مثله. {cite:muwatta-maruf-1997 p.235} {cite:muwatta-maruf-1997 p.236}"
+relations:
+  - { type: part_of, target: passage/muwatta-kitab-18-qiraad }
+  - { type: mentions, target: person/malik-ibn-anas, sources: [source/muwatta-maruf-1997] }
+  - { type: basis_for, target: concept/qiradh, sources: [source/muwatta-maruf-1997] }
+provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 2, hadith 2046 at PDF p. 235; جامع ما جاء في القراض", generated_by: "Claude Code (claude-haiku-5-5) from Apple Vision OCR of the Noor-Book PDF, checked on the page image where doubtful", run: "muwatta-prose-k19-b57" }
+sources: [source/muwatta-maruf-1997]
+status: { review: draft, completeness: 2, generated_by: "Claude Code (claude-haiku-5-5); own-words account written from PDF p. 235; matn excerpt at most 40 words" }

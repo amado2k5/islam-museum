@@ -1,0 +1,23 @@
+id: event/siege-of-jerez-1261
+class: event
+kind: siege
+label: { ar: "حصار شريش (١٢٦١)", en: "Siege of Jerez" }
+summary:
+  ar: "بطاقة أولية لحصار شريش سنة ١٢٦١م، استيلاء ألفونسو العاشر على المدينة الأندلسية بعد ثورة المدجنين؛ لم تُراجع مصادره على الصفحة بعد."
+  en: "Draft card for the Siege of Jerez in 1261, Alfonso X's capture of the Andalusian town; its sources are not yet checked on the page."
+wings: [time]
+periods: [period/crusades-ayyubid-mamluk]
+regions: [andalus-europe]
+date:
+  start: { edtf: "1260-12-06", precision: year, status: tradition, derived: true }
+  end: { edtf: "1261-11-25", precision: year, status: tradition, derived: true }
+sources: [source/tarikh-islam-hasan-ibrahim]
+external_ids:
+  wikidata: Q23039099
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; battle attested in narrative histories — entry not yet checked on the page"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-wave2
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

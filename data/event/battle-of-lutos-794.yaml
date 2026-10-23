@@ -1,0 +1,23 @@
+id: event/battle-of-lutos-794
+class: event
+kind: battle
+label: { ar: "معركة لودوس", en: "Battle of Lutos" }
+summary:
+  ar: "بطاقة أولية لمعركة لودوس سنة ٧٩٤م، واقعة الفتوحات العربية البيزنطية في الأناضول في عهد هارون الرشيد؛ لم تُراجع مصادره على الصفحة بعد."
+  en: "Draft card for the Battle of Lutos in 794, an Arab-Byzantine clash of the Anatolian frontier under Harun al-Rashid; its sources are not yet checked on the page."
+wings: [time]
+periods: [period/abbasid-early]
+regions: [anatolia-balkans]
+date:
+  start: { edtf: "794", precision: year, status: tradition, derived: true }
+  end: { edtf: "794", precision: year, status: tradition, derived: true }
+sources: [source/tarikh-al-tabari]
+external_ids:
+  wikidata: Q2237594
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; battle attested in Arab-Byzantine histories — entry not yet checked on the page"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-wave2
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

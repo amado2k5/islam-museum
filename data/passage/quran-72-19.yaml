@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 72:19 (سورة الجن، الآية 19)."
 text: "وَأَنَّهُۥ لَمَّا قَامَ عَبْدُ ٱللَّهِ يَدْعُوهُ كَادُوا۟ يَكُونُونَ عَلَيْهِ لِبَدًا"
 text_search: "وأنه لما قام عبد الله يدعوه كادوا يكونون عليه لبدا"
+translations:
+  en: { text: "And when the slave of Allah stood up in prayer to Him, they crowded on him, almost stifling.", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "اور جب خدا کے بندے (محمدﷺ) اس کی عبادت کو کھڑے ہوئے تو کافر ان کے گرد ہجوم کرلینے کو تھے", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-72 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

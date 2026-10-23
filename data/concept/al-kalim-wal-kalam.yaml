@@ -1,0 +1,20 @@
+id: concept/al-kalim-wal-kalam
+class: concept
+kind: term
+label: { ar: "الكلم والكلام", en: "Kalim and kalam (word classes and utterance)" }
+summary:
+  ar: "يفتتح سيبويه كتابه ببابٍ يحصر «الكلم» في ثلاثة أنواع: الاسم، والفعل، و«حرفٌ جاء لمعنى ليس باسم ولا فعل»، ويمثّل لكل نوع بأمثلة من العربية. وتُعنى أبواب «الكلام» بعده بالإسناد: المسند والمسند إليه. وقد اختار سيبويه لفظ «الكلم» دون «الكلمات» لخفّته، كما ينقل المحقق عن السيرافي. {cite:bakka-kitab-sibawayh-2015 p.25}"
+  en: "Sibawayh opens the Kitab by dividing the word (kalim) into three kinds, noun, verb and particle, each illustrated with Arabic examples; the later section on utterance (kalam) treats the predicate and the predicated-upon. {cite:bakka-kitab-sibawayh-2015 p.53-54}"
+wings: [words]
+periods: [period/abbasid-early]
+regions: [levant-iraq]
+relations:
+  - { type: part_of, target: work/kitab-sibawayh, note: "أول أبواب الكتاب", sources: [source/bakka-kitab-sibawayh-2015] }
+sources: [source/bakka-kitab-sibawayh-2015]
+provenance:
+  layer: own-research
+  source: "Sibawayh, Kitab, ed. al-Bakka (Zein 2015), vol. 1 part 1: opening bab pp. 53-54; editor's outline pp. 21-25"
+  generated_by: "library-expansion (Claude Code sub-agent)"
+  model: claude-haiku-5-5
+  run: lib-exp-qiraat-grammar-batch-1
+status: { review: draft, completeness: 1, generated_by: "library-expansion (Claude Code sub-agent)" }

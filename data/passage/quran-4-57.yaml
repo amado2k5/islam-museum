@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 4:57 (سورة النساء، الآية 57)."
 text: "وَٱلَّذِينَ ءَامَنُوا۟ وَعَمِلُوا۟ ٱلصَّـٰلِحَـٰتِ سَنُدْخِلُهُمْ جَنَّـٰتٍ تَجْرِى مِن تَحْتِهَا ٱلْأَنْهَـٰرُ خَـٰلِدِينَ فِيهَآ أَبَدًا ۖ لَّهُمْ فِيهَآ أَزْوَٰجٌ مُّطَهَّرَةٌ ۖ وَنُدْخِلُهُمْ ظِلًّا ظَلِيلًا"
 text_search: "والذين آمنوا وعملوا الصالحات سندخلهم جنات تجري من تحتها الأنهار خالدين فيها أبدا ۖ لهم فيها أزواج مطهرة ۖ وندخلهم ظلا ظليلا"
+translations:
+  en: { text: "And as for those who believe and do good works, We shall make them enter Gardens underneath which rivers flow - to dwell therein for ever; there for them are pure companions - and We shall make them enter plenteous shade.", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "اور جو ایمان لائے اور نیک عمل کرتے رہے ان کو ہم بہشتوں میں داخل کریں گے جن کے نیچے نہریں بہہ رہی ہیں وہ ان میں ہمیشہ ہمیشہ رہیں گے وہاں ان کے لئے پاک بیبیاں ہیں اور ان کو ہم گھنے سائے میں داخل کریں گے", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-4 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

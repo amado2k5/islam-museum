@@ -1,0 +1,7 @@
+# People who share an Arabic name but are different people (namesakes). The validator otherwise fails the build when two
+# person entities carry the same label, because that has meant one person entered twice. List each group as its own line.
+namesakes:
+  - [person/al-harith-ibn-abi-shamir, person/al-harith-ibn-abi-shumr]
+  - [person/suleyman-celebi, person/sulayman-calabi-prince]
+  - [person/mustafa-aga, person/mustafa-aga-mimarbashi]
+  - [person/yumni, person/yamini-poet]

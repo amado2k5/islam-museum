@@ -1,26 +1,20 @@
 ---
 id: person/khalid-ibn-al-walid
 lang: en
-source_lang: en
-translators: []
+source_lang: ar
+translators: ["Claude Haiku 5.5 (claude-haiku-5-5), draft translation"]
 ---
 
 ## Brief
-Khalid ibn al-Walid was the most feared cavalry commander in Arabia — first for Mecca against the Muslims, then for Islam against two empires. Few figures in the museum fought on more sides of the story.
+Khalid ibn al-Walid was the most dreaded cavalry commander in the Arabian Peninsula: first for Mecca against the Muslims, then for Islam against two empires. Few figures in this museum fought on as many sides of the story as he did.
 
 ## Life
-A son of [[person/al-walid-ibn-al-mughira|al-Walid ibn al-Mughira]] of [[group/banu-makhzum|Banu Makhzum]], Khalid commanded the Meccan cavalry at [[event/battle-of-uhud|Uhud]] — his flank attack turned the battle against the Muslims in 625 {cite:ibn-ishaq-guillaume}. In 629 he rode to Medina and embraced Islam; within months the Prophet gave him command, and at [[event/battle-of-mutah|Mu'ta]] he extricated the army after its three named commanders fell {cite:ibn-sad-tabaqat-bewley}.
+A son of [[person/al-walid-ibn-al-mughira|al-Walid ibn al-Mughira]] of [[group/banu-makhzum|Banu Makhzum]], Khalid led the cavalry of Mecca at [[event/battle-of-uhud|Uhud]]. His cavalry's counter-attack tipped the battle against the Muslims that day in 625 CE {cite:ibn-ishaq-guillaume}. In 629 CE he rode to Medina and embraced Islam. Within months the Prophet gave him command, and at [[event/battle-of-mutah|Mu'ta]] he rescued the army after its three commanders had fallen {cite:ibn-sad-tabaqat-bewley}.
 
-Under the caliphs he led the army at [[event/battle-of-yamama|Yamama]] in the Ridda wars and at [[event/battle-of-yarmuk|the Yarmuk]] against Byzantium {cite:tabari-donner-1993}. In the Ridda wars the sources record the disputed affair of Malik ibn Nuwayra, a tribal leader killed by his troops — an episode for which the Prophet himself is said to have disavowed Khalid's haste {cite:tabari-donner-1993}. Umar dismissed him about 638; he died in 642 CE, in Homs or Medina {cite:ibn-sad-tabaqat-bewley}.
-
-:::perspectives
-- **Sunni**: Sunni tradition remembers Khalid as Sayf Allah, the undefeated commander whose genius served the community — while also recording the Prophet's and Umar's rebukes over Malik ibn Nuwayra {cite:ibn-sad-tabaqat-bewley}.
-- **Academic**: Historians regard him as among the most capable commanders of the early conquests, and treat the Malik ibn Nuwayra episode as a documented controversy {cite:tabari-donner-1993}.
-- **Twelver Shia**: Twelver Shia tradition is broadly critical of Khalid, emphasizing Malik ibn Nuwayra and his earlier role against the Muslims {cite:momen-1985}.
-:::
+Under the caliphs he led the army at [[event/battle-of-yamama|al-Yamama]] in the wars of apostasy (Ridda), and at [[event/battle-of-yarmuk|al-Yarmuk]] against the Byzantines {cite:tabari-donner-1993}. The sources record, in the wars of apostasy, the case of Malik ibn Nuwayra, whom his men killed. It is reported that the Prophet himself cleared Khalid of hasty action in that affair {cite:tabari-donner-1993}. Umar removed him from command around 638 CE. He died in 642 CE in Homs or Medina {cite:ibn-sad-tabaqat-bewley}.
 
 ## Legacy
-Military histories still teach his campaigns; Muslim memory still argues about whether genius excuses anything. He wanted to die in battle and died in bed — and reportedly found that unjust.
+Military histories still study his campaigns, and Muslim memory still debates whether genius excuses anything. He wished to die in battle and died in his bed, and the reports say he regarded that as an injustice.
 
 ## For young visitors
-Khalid was the best general of his age — and he fought on both sides. People still debate whether he was a hero or whether he went too far.
+Khalid was the most skilled commander of his age, and he fought on both sides. People still argue about whether he was a hero or went too far.

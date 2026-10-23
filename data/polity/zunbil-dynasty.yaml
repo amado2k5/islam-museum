@@ -1,0 +1,32 @@
+id: polity/zunbil-dynasty
+class: polity
+kind: dynasty
+label:
+  ar: "الزنابيل"
+  en: "Zunbil dynasty"
+summary:
+  ar: "بطاقة أولية للزنابيل، ملوك زابلستان الذين قاوموا الفتوحات العربية شرق خراسان حتى القرن التاسع؛ لم تُراجع مصادرها على الصفحة بعد."
+  en: "Draft card for the Zunbils, the kings of Zabulistan who resisted the Arab conquests east of Khorasan into the ninth century; its sources are not yet checked on the page."
+wings: [time]
+periods: [period/umayyad]
+regions: [persia-central-asia]
+start:
+  edtf: "640"
+  precision: year
+  status: tradition
+  derived: true
+end:
+  edtf: "870"
+  precision: year
+  status: tradition
+  derived: true
+sources: [source/futuh-buldan-maarif-1407]
+external_ids:
+  wikidata: Q229780
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; dynasty attested in conquest-era histories — entry not yet checked on the page"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-wave2
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

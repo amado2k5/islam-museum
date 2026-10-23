@@ -1,0 +1,23 @@
+id: event/battle-of-lwow-1695
+class: event
+kind: battle
+label: { ar: "معركة لفوف (١٦٩٥)", en: "Battle of Lwow (1695)" }
+summary:
+  ar: "بطاقة أولية لمعركة لفوف سنة ١٦٩٥م، النصر البولندي على القوات التترية في الحرب البولندية العثمانية؛ لم تُراجع مصادره على الصفحة بعد."
+  en: "Draft card for the Battle of Lwow in 1695, the Polish victory over the Tatar force in the Polish–Ottoman War; its sources are not yet checked on the page."
+wings: [time]
+periods: [period/gunpowder-empires]
+regions: [anatolia-balkans]
+date:
+  start: { edtf: "1695-02", precision: year, status: tradition, derived: true }
+  end: { edtf: "1695-02", precision: year, status: tradition, derived: true }
+sources: [source/dawlat-uthmaniyya-salabi]
+external_ids:
+  wikidata: Q9173218
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; battle attested in narrative histories — entry not yet checked on the page"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-wave2
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

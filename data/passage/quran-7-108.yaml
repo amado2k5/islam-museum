@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 7:108 (سورة الأعراف، الآية 108)."
 text: "وَنَزَعَ يَدَهُۥ فَإِذَا هِىَ بَيْضَآءُ لِلنَّـٰظِرِينَ"
 text_search: "ونزع يده فإذا هي بيضاء للناظرين"
+translations:
+  en: { text: "And he drew forth his hand (from his bosom), and lo! it was white for the beholders.", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "اور اپنا ہاتھ باہر نکالا تو اسی دم دیکھنے والوں کی نگاہوں میں سفید براق (تھا)", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-7 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

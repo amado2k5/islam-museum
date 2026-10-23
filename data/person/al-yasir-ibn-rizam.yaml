@@ -1,0 +1,24 @@
+id: person/al-yasir-ibn-rizam
+class: person
+label: { ar: "اليسير بن رزام اليهودي", en: "Al-Yasir ibn Rizam" }
+names:
+  - { kind: full, lang: ar, value: "اليسير بن رزام" }
+  - { kind: alternate, lang: ar, value: "اليسير بن رازم (ويقال، قال ابن هشام)" }
+gender: male
+roles: [politician]
+summary:
+  ar: "رجل من يهود خيبر كان يجمع غطفان لغزو النبي؛ أرسل إليه النبي عبد الله بن رواحة في نفر فاستدرجوه إلى المدينة، فلما ندم في الطريق وأراد السيف قتله عبد الله بن أنيس بالقرقرة على ستة أميال من خيبر."
+  en: "A Jew of Khaybar who was gathering Ghatafan to attack the Prophet; the Prophet sent Abdullah ibn Rawaha with a party who drew him toward Medina, and when he repented on the road and reached for the sword Abdullah ibn Unays killed him at al-Qarqara, six miles from Khaybar."
+wings: [people]
+periods: [period/prophetic-era]
+regions: [arabia]
+faith:
+  - { value: jewish, basis: tradition, note: "«خرج معهم في نفر من يهود» (ابن هشام ص266).", sources: [source/ibn-hisham-saqqa] }
+story_roles:
+  - { role: military-opponent, toward: person/muhammad, status: tradition, note: "كان بخيبر يجمع غطفان لغزو النبي (ابن هشام ص266).", sources: [source/ibn-hisham-saqqa] }
+relations:
+  - { type: member_of, target: group/jews-of-khaybar, sources: [source/ibn-hisham-saqqa] }
+  - { type: participated_in, target: event/killing-of-al-yasir-ibn-rizam, role: "المقتول", sources: [source/ibn-hisham-saqqa] }
+provenance: { layer: own-research, source: "sira-ibn-hisham saqqa 1936, juz' 4 pp. 266-267", generated_by: "Claude Code", model: "claude-fable-5-1", run: "ibn-hisham-batch-13" }
+sources: [source/ibn-hisham-saqqa]
+status: { review: draft, completeness: 1, generated_by: "Claude Fable 5.1; mined from Ibn Hisham juz' 4 pp. 266-267" }

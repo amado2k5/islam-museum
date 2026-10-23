@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 72:15 (سورة الجن، الآية 15)."
 text: "وَأَمَّا ٱلْقَـٰسِطُونَ فَكَانُوا۟ لِجَهَنَّمَ حَطَبًا"
 text_search: "وأما القاسطون فكانوا لجهنم حطبا"
+translations:
+  en: { text: "And as for those who are unjust, they are firewood for hell.", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "اور جو گنہگار ہوئے وہ دوزخ کا ایندھن بنے", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-72 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

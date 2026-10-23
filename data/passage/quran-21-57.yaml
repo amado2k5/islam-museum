@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 21:57 (سورة الأنبياء، الآية 57)."
 text: "وَتَٱللَّهِ لَأَكِيدَنَّ أَصْنَـٰمَكُم بَعْدَ أَن تُوَلُّوا۟ مُدْبِرِينَ"
 text_search: "وتالله لأكيدن أصنامكم بعد أن تولوا مدبرين"
+translations:
+  en: { text: "And, by Allah, I shall circumvent your idols after ye have gone away and turned your backs.", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "اور خدا کی قسم جب تم پیٹھ پھیر کر چلے جاؤ گے تو میں تمہارے بتوں سے ایک چال چلوں گا", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-21 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

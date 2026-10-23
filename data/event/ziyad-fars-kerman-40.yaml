@@ -1,0 +1,19 @@
+id: event/ziyad-fars-kerman-40
+class: event
+kind: other
+label: { ar: "تولية زياد بن أبيه كرمان وفارس", en: "ʿAli appoints Ziyād over Kirmān and Fārs (40 AH)" }
+date:
+  start: { edtf: "0660", hijri: "0040", calendar: julian, precision: year, status: tradition, derived: true, note: "سنة 40؛ التحويل مشتق {cite:kamil-ibn-al-athir p. 730}." }
+summary:
+  ar: "في هذه السنة ولّى عليّ زياد بن أبيه كرمان وفارس {cite:kamil-ibn-al-athir p. 730}."
+  en: "In this year ʿAli gave Ziyād ibn Abīhi the governorship of Kirmān and Fārs {cite:kamil-ibn-al-athir p. 730}."
+relations:
+  - { type: had_participant, target: person/ziyad-ibn-abi-sufyan, role: "ولي كرمان وفارس", sources: [source/kamil-ibn-al-athir] }
+  - { type: had_participant, target: person/ali-ibn-abi-talib, sources: [source/kamil-ibn-al-athir] }
+provenance:
+  layer: own-research
+  source: "الكامل في التاريخ لابن الأثير (دار الكتاب العربي 2012، ج2)، قراءة آبل فيجن"
+  generated_by: "Devin (SWE-2 Medium) from Apple Vision OCR"
+  run: lib-kamil-v2-batch05
+sources: [source/kamil-ibn-al-athir]
+status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 Medium)" }

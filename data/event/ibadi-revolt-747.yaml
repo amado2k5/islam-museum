@@ -1,0 +1,23 @@
+id: event/ibadi-revolt-747
+class: event
+kind: revolt
+label: { ar: "ثورة الإباضية (١٢٩هـ)", en: "Ibadi Revolt of 747" }
+summary:
+  ar: "بطاقة أولية لثورة الإباضية في اليمن والحجاز بقيادة طالب الحق عبد الله بن يحيى وأبي حمزة المختار بن عوف ضد الدولة الأموية؛ لم تُراجع مصادره على الصفحة بعد."
+  en: "Draft card for the Ibadi Revolt of 747–748 CE under Talib al-Haqq and Abu Hamza against the Umayyads; its sources are not yet checked on the page."
+wings: [time]
+periods: [period/umayyad]
+regions: [arabia]
+date:
+  start: { edtf: "0747", precision: year, status: tradition, derived: true }
+  end: { edtf: "0748", precision: year, status: tradition, derived: true }
+sources: [source/tarikh-al-tabari]
+external_ids:
+  wikidata: Q24913467
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; battle attested in narrative histories — entry not yet checked on the page"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-wave2
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

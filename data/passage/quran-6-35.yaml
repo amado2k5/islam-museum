@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 6:35 (سورة الأنعام، الآية 35)."
 text: "وَإِن كَانَ كَبُرَ عَلَيْكَ إِعْرَاضُهُمْ فَإِنِ ٱسْتَطَعْتَ أَن تَبْتَغِىَ نَفَقًا فِى ٱلْأَرْضِ أَوْ سُلَّمًا فِى ٱلسَّمَآءِ فَتَأْتِيَهُم بِـَٔايَةٍ ۚ وَلَوْ شَآءَ ٱللَّهُ لَجَمَعَهُمْ عَلَى ٱلْهُدَىٰ ۚ فَلَا تَكُونَنَّ مِنَ ٱلْجَـٰهِلِينَ"
 text_search: "وإن كان كبر عليك إعراضهم فإن استطعت أن تبتغي نفقا في الأرض أو سلما في السماء فتأتيهم بآية ۚ ولو شاء الله لجمعهم على الهدى ۚ فلا تكونن من الجاهلين"
+translations:
+  en: { text: "And if their aversion is grievous unto thee, then, if thou canst, seek a way down into the earth or a ladder unto the sky that thou mayst bring unto them a portent (to convince them all)! - If Allah willed, He could have brought them all together to the guidance - So be not thou among the foolish ones.", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "اور اگر ان کی روگردانی تم پر شاق گزرتی ہے تو اگر طاقت ہو تو زمین میں کوئی سرنگ ڈھونڈ نکالو یا آسمان میں سیڑھی (تلاش کرو) پھر ان کے پاس کوئی معجزہ لاؤ۔ اور اگر خدا چاہتا تو سب کو ہدایت پر جمع کردیتا پس تم ہرگز نادانوں میں نہ ہونا", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-6 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

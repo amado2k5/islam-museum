@@ -1,0 +1,76 @@
+id: exhibit/path-jerusalem-holy
+class: exhibit
+kind: trail
+label:
+  ar: القدس الشريف
+  en: Holy Jerusalem
+summary:
+  ar: 'مسار في بيت المقدس: المسجد الأقصى وقبة الصخرة، والإسراء والمعراج، والفتح العمري، وصلاح الدين.'
+  en: 'A trail through the Holy City: al-Aqsa, the Dome of the Rock, the Night Journey, Umar''s conquest
+    and Saladin.'
+audience:
+- newcomer
+- student
+duration_minutes: 30
+wings: []
+regions:
+- levant-iraq
+rooms:
+- title:
+    ar: المسجد الأقصى
+    en: Al-Aqsa Mosque
+  body:
+    ar: ثالث الحرمين وأولى القبلتين وبركة ما حوله.
+    en: The third sanctuary, the first qibla, the blessed precinct.
+  features:
+  - building/al-aqsa-mosque
+  - question/why-jerusalem-matters
+- title:
+    ar: قبة الصخرة
+    en: Dome of the Rock
+  body:
+    ar: 'عبد الملك يبني 691: أقدم أثر معماري إسلامي باقٍ.'
+    en: 'Abd al-Malik builds, 691: the oldest surviving Islamic monument.'
+  features:
+  - building/dome-of-the-rock
+- title:
+    ar: الإسراء والمعراج
+    en: The Night Journey
+  body:
+    ar: أسرى بعبده ليلاً من الحرام إلى الأقصى ثم إلى السماء.
+    en: The night journey from the Haram to al-Aqsa, then heavenward.
+  features:
+  - question/what-is-isra-miraj
+  - person/muhammad
+- title:
+    ar: الفتح العمري
+    en: Umar's entry
+  body:
+    ar: '638: الخليفة يمشي إلى القدس ويعقد العهدة العمرية.'
+    en: '638: the caliph walks into Jerusalem and grants the covenant.'
+  features:
+  - person/umar-ibn-al-khattab
+  - place/jerusalem
+- title:
+    ar: صلاح الدين
+    en: Saladin
+  body:
+    ar: '1187: حطين ثم استرداد المدينة بعد 88 سنة.'
+    en: '1187: Hattin, then the city''s return after 88 years.'
+  features:
+  - person/salah-al-din-yusuf-ibn-ayyub
+  - event/battle-of-hattin-583
+prerequisites:
+- exhibit/path-islam-in-30-minutes
+sources:
+- source/wikidata
+provenance:
+  layer: own-research
+  source: Devin-assembled trail from existing museum entities
+  generated_by: Devin (SWE-2 High)
+  model: SWE-2 High
+  run: pathways-batch-3
+status:
+  review: draft
+  completeness: 1
+  generated_by: Devin (SWE-2 High), pathways lane, 2026-10-16

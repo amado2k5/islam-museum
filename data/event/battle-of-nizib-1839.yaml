@@ -1,0 +1,23 @@
+id: event/battle-of-nizib-1839
+class: event
+kind: battle
+label: { ar: "معركة نصيبين (نزب)", en: "Battle of Nezib" }
+summary:
+  ar: "بطاقة أولية لمعركة نزب سنة ١٨٣٩م، نصر إبراهيم باشا المصري على الجيش العثماني الذي هدّد عرش السلطان؛ لم تُراجع مصادره على الصفحة بعد."
+  en: "Draft card for the Battle of Nezib in 1839, Ibrahim Pasha's victory over the Ottoman army that shook the sultanate; its sources are not yet checked on the page."
+wings: [time]
+periods: [period/colonial-era]
+regions: [anatolia-balkans]
+date:
+  start: { edtf: "1839", precision: year, status: tradition, derived: true }
+  end: { edtf: "1839", precision: year, status: tradition, derived: true }
+sources: [source/dawlat-uthmaniyya-salabi]
+external_ids:
+  wikidata: Q2640981
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; battle attested in Egyptian-Ottoman histories — entry not yet checked on the page"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-wave2
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

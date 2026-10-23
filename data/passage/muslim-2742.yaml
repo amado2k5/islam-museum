@@ -1,0 +1,16 @@
+id: passage/muslim-2742
+class: passage
+unit: hadith
+work: work/sahih-muslim
+ref: "2742"
+label: { ar: "مسلم 2742 — إن الدنيا حلوة خضرة", en: "Muslim 2742 — The world is sweet and green" }
+text: "قال أبو سعيد الخدري عن النبي: إن الدنيا حلوة خضرة، وإن الله مستخلفكم فيها فينظر كيف تعملون، فاتقوا الدنيا واتقوا النساء، فإن أول فتنة بني إسرائيل كانت في النساء"
+summary:
+  ar: "رواية أبي سعيد الخدري في باب قوله إن الدنيا حلوة خضرة من كتاب الرقائق في صحيح مسلم؛ الاستخلاف في الدنيا مع الامتحان، وفتنة النساء أول فتن بني إسرائيل."
+relations:
+  - { type: mentions, target: person/muhammad, sources: [source/sahih-muslim] }
+  - { type: mentions, target: person/abu-said-al-khudri, sources: [source/sahih-muslim] }
+  - { type: mentions, target: concept/zuhd, sources: [source/sahih-muslim] }
+provenance: { layer: own-research, source: "صحيح مسلم، كتاب الرقائق، باب قوله إن الدنيا حلوة خضرة (طبعة دار التأصيل، الحديث 2842؛ ترقيم عبد الباقي المعروف 2742)، تصوير Apple Vision OCR", generated_by: "Devin (SWE-2 High) from Apple Vision OCR", run: "hadith-muslim-passages-4" }
+sources: [source/sahih-muslim]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High); matn excerpt at most 40 words checked against the scan" }

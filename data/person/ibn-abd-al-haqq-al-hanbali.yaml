@@ -1,0 +1,27 @@
+id: person/ibn-abd-al-haqq-al-hanbali
+class: person
+label: { ar: "ابن عبد الحق الحنبلي", en: "Ibn Abd al-Haqq, the Hanbali" }
+names:
+  - { value: "جمال الدين أحمد بن علي بن محمد بن علي بن يوسف الدمشقي الجنفي المعروف بابن عبد الحق ويعرف قديماً بابن قاضي الحصن وعبد الحق جده لأمه وهو ابن خليل الحنبلي", kind: full }
+born: { edtf: "1330~", hijri: "0730~", calendar: julian, precision: year, status: tradition, derived: true, note: "جاوز السبعين {cite:shadharat-dhahab p. 23}." }
+died: { edtf: "1400-07~", hijri: "0802-12-02", calendar: julian, precision: day, status: tradition, derived: true, note: "مات في ثاني ذي الحجة وقد جاوز السبعين {cite:shadharat-dhahab p. 23}." }
+summary:
+  ar: "المحدث الحنبلي الدمشقي؛ سمع الكثير بإفادة جده لأمه من مجد بن أبي النايب وعائشة بنت المسلم الحرانية والمِزّي وخلق من أصحاب ابن عبد الدايم؛ قال ابن حجر: سمعت عليه كثيراً وكان قد تفرد بكثير من الروايات وكان عسراً في التحديث {cite:shadharat-dhahab p. 23}."
+  en: "The Hanbali transmitter who held unique riwayat — Ibn Hajar heard much on him and notes he was slow at dictation {cite:shadharat-dhahab p. 23}."
+gender: male
+roles: [scholar]
+wings: [people]
+periods: [period/mongol-post-mongol]
+regions: [levant-iraq]
+faith:
+  - value: sunni-hanbali
+    basis: tradition
+relations:
+  - { type: died_in, target: place/damascus, sources: [source/shadharat-dhahab] }
+sources: [source/shadharat-dhahab]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }
+provenance:
+  layer: own-research
+  source: "شذرات الذهب — ابن العماد (ط مثنى، ج7، سنة 802)، قراءة آبل فيجن"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-shadharat-batch-136

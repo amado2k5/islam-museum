@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 29:44 (سورة العنكبوت، الآية 44)."
 text: "خَلَقَ ٱللَّهُ ٱلسَّمَـٰوَٰتِ وَٱلْأَرْضَ بِٱلْحَقِّ ۚ إِنَّ فِى ذَٰلِكَ لَـَٔايَةً لِّلْمُؤْمِنِينَ"
 text_search: "خلق الله السماوات والأرض بالحق ۚ إن في ذلك لآية للمؤمنين"
+translations:
+  en: { text: "Allah created the heavens and the earth with truth. Lo! therein is indeed a portent for believers.", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "خدا نے آسمانوں اور زمین کو حکمت کے ساتھ پیدا کیا ہے۔ کچھ شک نہیں کہ ایمان والوں کے لئے اس میں نشانی ہے", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-29 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

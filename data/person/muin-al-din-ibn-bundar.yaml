@@ -1,0 +1,26 @@
+id: person/muin-al-din-ibn-bundar
+class: person
+label: { ar: "معين الدين بن بندار", en: "Mu'in al-Din ibn Bundar" }
+names:
+  - { value: "معين الدين أحمد بن علي بن بندار شيخ الإسلام مفيد المذهب", kind: full }
+died: { edtf: "1272~", hijri: "0670", calendar: julian, precision: year, status: tradition, derived: true, note: "وفاته في أموات سنة سبعين وستمائة {cite:shadharat-dhahab p. 577}." }
+summary:
+  ar: "شيخ الإسلام مفيد المذهب؛ أخذ عن ابن الصلاح وسهر الليالي في التصنيف والإفادة، فألف المذهب ببركته وأودعه من التصانيف والفتاوى ما يناسبه وفوقه، والباقي منها قليل الشتات، وكان محتملاً لأذى الطلاب فانتهى إليه التدريس في هذا الوقت بالشام {cite:shadharat-dhahab p. 577}."
+  en: "Shaykh al-Islam — Ibn al-Salah's pupil who kept the nights awake in writing and teaching; 'the teaching of Syria in this age ended with him', bearing the students' burden with forbearance {cite:shadharat-dhahab p. 577}."
+gender: male
+roles: [jurist, scholar, teacher]
+wings: [people]
+periods: [period/mongol-post-mongol]
+regions: [levant-iraq]
+faith:
+  - value: sunni-shafii
+    basis: tradition
+relations:
+  - { type: student_of, target: person/ibn-al-salah, sources: [source/shadharat-dhahab] }
+sources: [source/shadharat-dhahab]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }
+provenance:
+  layer: own-research
+  source: "شذرات الذهب — ابن العماد (ج7، سنة 670)، قراءة آبل فيجن"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-shadharat-batch-132

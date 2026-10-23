@@ -24,8 +24,7 @@ traditions:
 summary:
   ar: ابنة النبي وزوج عثمان بن عفان، هاجرت معه إلى الحبشة ثم إلى المدينة؛ مرضت عند خروج النبي إلى بدر فتخلف عثمان عليها، وتوفيت يوم وصل زيد بن حارثة بخبر النصر.
   en: A daughter of the Prophet and wife of Uthman ibn Affan; she emigrated with him to Abyssinia and then to Medina, fell ill as the Prophet set out for Badr, and died the day Zayd ibn Haritha arrived with the news of the victory.
-wings:
-- people
+wings: [people]
 themes:
 - women
 periods:
@@ -53,8 +52,10 @@ relations:
   - source/ibn-hajar-isaba
 - type: spouse_of
   target: person/uthman-ibn-affan
+  note: تزوجها عثمان بن عفان بعد ردّ أبي لهب خِطبة ابنه لها؛ هاجرت معه إلى الحبشة فكانت ذات الهجرتين (نساء حول الرسول ص404-408).
   sources:
   - source/ibn-hajar-isaba
+  - source/nisa-hawl-alrasul
 - type: sibling_of
   target: person/fatima
   sources:
@@ -83,9 +84,14 @@ provenance:
   generated_by: Claude (maintainer session)
   model: claude-sonnet-5-5
   run: isaba-women-1
+external_ids: { wikidata: "Q2300129" }
 sources:
 - source/ibn-hajar-isaba
 - source/ibn-hisham-saqqa
+- source/nisa-hawl-alrasul
+- source/mubarakpuri-raheeq
+- source/ibn-hisham-sira
+- source/fath-al-bari
 status:
   review: draft
   completeness: 2

@@ -1,0 +1,21 @@
+id: person/usama-ibn-munqidh
+class: person
+label: { ar: "أسامة بن منقذ" }
+summary:
+  ar: "مؤيد الدولة أسامة بن مرشد الكناني المتوفى سنة ٥٨٤هـ؛ صاحب أزهار الأنهار {cite:kashf-zunun-furqan p. 372}."
+  en: "Mu'ayyid al-Dawla Usama ibn Murshid al-Kinani, d. AH 584 — the Shayzari emir and man of letters, author of Azhar al-Anhar {cite:kashf-zunun-furqan p. 372}."
+gender: male
+wings: [people]
+periods: [period/buyid-seljuk-fatimid-era]
+regions: [levant-iraq]
+died: { edtf: "1188-11-13~", hijri: "0584-09-23", calendar: julian, precision: day, status: tradition, derived: true, note: "توفي يوم الثلاثاء الثالث والعشرين من شهر رمضان سنة أربع وثمانين ودفن من الغد شرقي جبل قاسيون {cite:shadharat-dhahab p. 760}؛ سنة 584هـ {cite:kashf-zunun-furqan p. 372}؛ التحويل مشتق.", sources: [source/shadharat-dhahab, source/kashf-zunun-furqan] }
+relations:
+  - { type: authored, target: work/azhar-al-anhar, sources: [source/kashf-zunun-furqan] }
+provenance:
+  layer: own-research
+  source: "كشف الظنون لحاجي خليفة (ط الفرقان) ج١ ص 372 مدخل 768"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-kashf-batch-4
+external_ids: { wikidata: "Q451427" }
+sources: [source/kashf-zunun-furqan, source/shadharat-dhahab]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

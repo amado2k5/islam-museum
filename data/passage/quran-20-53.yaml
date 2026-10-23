@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 20:53 (سورة طه، الآية 53)."
 text: "ٱلَّذِى جَعَلَ لَكُمُ ٱلْأَرْضَ مَهْدًا وَسَلَكَ لَكُمْ فِيهَا سُبُلًا وَأَنزَلَ مِنَ ٱلسَّمَآءِ مَآءً فَأَخْرَجْنَا بِهِۦٓ أَزْوَٰجًا مِّن نَّبَاتٍ شَتَّىٰ"
 text_search: "الذي جعل لكم الأرض مهدا وسلك لكم فيها سبلا وأنزل من السماء ماء فأخرجنا به أزواجا من نبات شتى"
+translations:
+  en: { text: "Who hath appointed the earth as a bed and hath threaded roads for you therein and hath sent down water from the sky and thereby We have brought forth divers kinds of vegetation,", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "وہ (وہی تو ہے) جس نے تم لوگوں کے لئے زمین کو فرش بنایا اور اس میں تمہارے لئے رستے جاری کئے اور آسمان سے پانی برسایا۔ پھر اس سے انواع واقسام کی مختلف روئیدگیاں پیدا کیں", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-20 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

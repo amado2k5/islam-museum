@@ -1,0 +1,26 @@
+id: event/algiers-expedition-1541
+class: event
+kind: campaign
+label: { ar: "حملة شارل الخامس على الجزائر (٩٤٨هـ/١٥٤١م)", en: "Charles V's Algiers expedition (1541)" }
+summary:
+  ar: "بعد هدنة نيس مع فرنسا سنة ٩٤٥هـ/١٥٣٨م أنزل شارل الخامس قواته أمام الجزائر في ٢٨ جمادى الآخرة ٩٤٨هـ/١٥ أكتوبر ١٥٤١م. تبادل هو وواليها حسن آغا الطوشي خطابين — التهديد وردّ «إذا جاء هذه البلاد العدو لا يعطى إلا الموت» — ثم هبت ريح عاصفة اقتلعت الخيام وارتطمت السفن بعضها ببعض فغرق كثير منها وقذفت الأمواج بعضها إلى الشاطئ فاستولى المدافعون على ذخائرها، وأفسد المطر البارود، وفشلت كل محاولات الهجوم فانسحب الإمبراطور بأسطوله إلى إيطاليا. شبه أهل الجزائر الهزيمة بهزيمة أصحاب الفيل في رسالة إلى السلطان سليمان، وفي رسالة ثانية طلبوا نجدات وإعادة خير الدين بكلربكاً عليهم، وكتب جان الثالث ملك البرتغال إلى شارل في ٢٢ رمضان ٩٤٨هـ يعلله الجلاء عن آسفي وأزمور بتزايد قوة السعديين بالعون العثماني {cite:dawlat-uthmaniyya-salabi p. 224-228}."
+  en: "After the Truce of Nice (945/1538) Charles V landed before Algiers on 28 Jumada II 948/15 October 1541. Governor Hasan Agha al-Tushi answered his threat-letter — 'this land gives an invader only death' — then a storm tore up the siege camp, dashed the ships together and wrecked the powder; every assault failed and the emperor withdrew to Italy. Algiers' letter to Süleyman compared it to the rout of the People of the Elephant; a second letter asked for reinforcements and Khayr al-Din's restoration. João III's Ramadan 948 letter to Charles cited Ottoman-supplied Sa'di strength in evacuating Safi and Azemmour {cite:dawlat-uthmaniyya-salabi p. 224-228}."
+wings: [time]
+periods: [period/gunpowder-empires]
+regions: [maghreb]
+date:
+  start: { edtf: "1541-10-15", hijri: "0948-06-28", calendar: julian, precision: day, status: tradition, derived: true, sources: [source/dawlat-uthmaniyya-salabi] }
+  end: { edtf: "1541", precision: year, status: tradition, derived: true }
+relations:
+  - { type: had_participant, target: person/charles-v, sources: [source/dawlat-uthmaniyya-salabi] }
+  - { type: had_participant, target: person/hasan-aga-al-tushi, sources: [source/dawlat-uthmaniyya-salabi] }
+  - { type: occurred_at, target: place/algiers, sources: [source/dawlat-uthmaniyya-salabi] }
+external_ids: { wikidata: "Q2502863" }
+sources: [source/dawlat-uthmaniyya-salabi]
+provenance:
+  layer: own-research
+  source: "الدولة العثمانية لعلي محمد الصلابي (ط1 1421) ص 224-228"
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: salabi-uthmani-batch10
+status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 Medium)" }

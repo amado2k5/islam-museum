@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 4:147 (سورة النساء، الآية 147)."
 text: "مَّا يَفْعَلُ ٱللَّهُ بِعَذَابِكُمْ إِن شَكَرْتُمْ وَءَامَنتُمْ ۚ وَكَانَ ٱللَّهُ شَاكِرًا عَلِيمًا"
 text_search: "ما يفعل الله بعذابكم إن شكرتم وآمنتم ۚ وكان الله شاكرا عليما"
+translations:
+  en: { text: "What concern hath Allah for your punishment if ye are thankful (for His mercies) and believe (in Him)? Allah was ever Responsive, Aware.", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "اگر تم (خدا کے شکرگزار رہو اور (اس پر) ایمان لے آؤ تو خدا تم کو عذاب دے کر کیا کرے گا۔ اور خدا تو قدرشناس اور دانا ہے", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-4 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 3:74 (سورة آل عمران، الآية 74)."
 text: "يَخْتَصُّ بِرَحْمَتِهِۦ مَن يَشَآءُ ۗ وَٱللَّهُ ذُو ٱلْفَضْلِ ٱلْعَظِيمِ"
 text_search: "يختص برحمته من يشاء ۗ والله ذو الفضل العظيم"
+translations:
+  en: { text: "He selecteth for His mercy whom He will. Allah is of Infinite Bounty.", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "وہ اپنی رحمت سے جس کو چاہتا ہے خاص کر لیتا ہے اور خدا بڑے فضل کا مالک ہے", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-3 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

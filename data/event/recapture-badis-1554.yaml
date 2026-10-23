@@ -1,0 +1,23 @@
+id: event/recapture-badis-1554
+class: event
+kind: battle
+label: { ar: "استرجاع باديس من الأسبان (٩٦٤هـ/١٥٥٤م)", en: "Recovery of Badis from Spain (964/1554)" }
+summary:
+  ar: "في خلال وجود صالح رايس بفاس أرسل فرقة من جيشه إلى الريف المغربي فاسترجعت من الأسبان معقلهم الكبير باديس — صخرة فالين كما يدعونها {cite:dawlat-uthmaniyya-salabi p. 239}."
+  en: "During Salih Reis's stay in Fez he sent a detachment to the Moroccan Rif which recovered from Spain their great stronghold Badis — the rock they call Vélez {cite:dawlat-uthmaniyya-salabi p. 239}."
+wings: [time]
+periods: [period/gunpowder-empires]
+regions: [maghreb]
+date:
+  start: { edtf: "1554", hijri: "0961", calendar: gregorian, precision: year, status: tradition, derived: true, sources: [source/dawlat-uthmaniyya-salabi] }
+relations:
+  - { type: had_participant, target: person/salih-rais, sources: [source/dawlat-uthmaniyya-salabi] }
+  - { type: occurred_at, target: place/badis, sources: [source/dawlat-uthmaniyya-salabi] }
+sources: [source/dawlat-uthmaniyya-salabi]
+provenance:
+  layer: own-research
+  source: "الدولة العثمانية لعلي محمد الصلابي (ط1 1421) ص 239"
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: salabi-uthmani-batch12
+status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 Medium)" }

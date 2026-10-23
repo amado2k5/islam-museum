@@ -1,0 +1,23 @@
+id: event/battle-of-rovirans-985
+class: event
+kind: raid
+label: { ar: "غزو روفيرانس", en: "Battle of Rovirans" }
+summary:
+  ar: "بطاقة أولية لغزو روفيرانس سنة ٩٨٥م، حملة المنصور على برشلونة وضواحيها؛ لم تُراجع مصادره على الصفحة بعد."
+  en: "Draft card for the raid on Rovirans in 985, al-Mansur's campaign against Barcelona's countryside; its sources are not yet checked on the page."
+wings: [time]
+periods: [period/buyid-seljuk-fatimid-era]
+regions: [andalus-europe]
+date:
+  start: { edtf: "0985", precision: year, status: tradition, derived: true }
+  end: { edtf: "0985", precision: year, status: tradition, derived: true }
+sources: [source/tarikh-islam-hasan-ibrahim]
+external_ids:
+  wikidata: Q8244418
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; battle attested in narrative histories — entry not yet checked on the page"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-wave2
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

@@ -1,0 +1,27 @@
+id: person/tekuder-ahmad
+class: person
+label: { ar: "السلطان أحمد تكودار الإيلخاني", en: "Sultan Ahmad Tekuder" }
+names:
+  - { value: "الملك أحمد بن هولاكو المغلي المعروف بتكودار", kind: full }
+born: { edtf: "1246~", hijri: "0644~", calendar: julian, precision: year, status: tradition, derived: true, note: "مات وله بضع وعشرون سنة سنة ثلاث وثمانين {cite:shadharat-dhahab p. 653}." }
+died: { edtf: "1284~", hijri: "0683", calendar: julian, precision: year, status: tradition, derived: true, note: "وفاته في أموات سنة ثلاث وثمانين وستمائة {cite:shadharat-dhahab p. 653}." }
+summary:
+  ar: "ابن هولاكو ملك التتار؛ ولي السلطنة بعد أخيه أبغا، وكان قد أسلم وهو صبي ويسّر له قرين صالح — الشيخ عبد الرحمن الذي قدم الشام رسولاً وسعى في الصلح — فوصلت رسله سنة إحدى وثمانين إلى الشام ومصر بأنه استقر في المملكة إلى بغداد وأمر ببناء المساجد والجوامع وإقامة الشرع الشريف على ما كان في زمن الخلفاء. وكان قليل الشر مائلاً إلى الخير، ومات وله بضع وعشرون سنة {cite:shadharat-dhahab p. 640, 653}."
+  en: "Hulagu's son — the first Muslim Ilkhan (the name Ahmad, Islam since boyhood through his companion Shaykh Abd al-Rahman); his 681 embassies to Syria and Egypt announced mosques and the caliph-age shari'a restored; 'little harm, inclined to good', dead at twenty-odd {cite:shadharat-dhahab p. 640, 653}."
+gender: male
+roles: [sultan]
+wings: [people]
+periods: [period/mongol-post-mongol]
+regions: [persia-central-asia]
+faith:
+  - value: sunni
+    basis: tradition
+relations:
+  - { type: child_of, target: person/hulagu, sources: [source/shadharat-dhahab] }
+sources: [source/shadharat-dhahab]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }
+provenance:
+  layer: own-research
+  source: "شذرات الذهب — ابن العماد (ج7، سنة 681-683)، قراءة آبل فيجن"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-shadharat-batch-133

@@ -1,0 +1,76 @@
+id: exhibit/path-indian-ocean
+class: exhibit
+kind: trail
+label:
+  ar: المحيط الهندي
+  en: The Indian Ocean
+summary:
+  ar: 'مسار في بحر الإسلام الجنوبي: عدن ومسقط وزنجبار وملقا وجاوة — قوافل البحر لا البوادي.'
+  en: A trail through Islam's southern sea.
+audience:
+- newcomer
+- student
+duration_minutes: 30
+wings: []
+regions:
+- southeast-asia
+rooms:
+- title:
+    ar: عدن
+    en: Aden
+  body:
+    ar: 'بوابة باب المندب: اليمن على الطريق.'
+    en: 'بوابة باب المندب: اليمن على الطريق.'
+  features:
+  - place/aden
+  - place/sanaa
+- title:
+    ar: مسقط وعمان
+    en: Muscat
+  body:
+    ar: 'الإباضية والبحر: إمبراطورية عمان الشرقية.'
+    en: 'الإباضية والبحر: إمبراطورية عمان الشرقية.'
+  features:
+  - place/muscat
+  - place/oman
+- title:
+    ar: زنجبار
+    en: Zanzibar
+  body:
+    ar: 'عاصمة الساحل: من عمان إلى التوابل.'
+    en: 'عاصمة الساحل: من عمان إلى التوابل.'
+  features:
+  - place/zanzibar
+  - language/swahili
+- title:
+    ar: ملقا
+    en: Malacca
+  body:
+    ar: 'مضيق التوابل: الإسلام يصل الملايو.'
+    en: 'مضيق التوابل: الإسلام يصل الملايو.'
+  features:
+  - place/malacca
+  - language/malay
+- title:
+    ar: جاوة
+    en: Java
+  body:
+    ar: 'أكبر بلد مسلم اليوم: جزر الإيمان.'
+    en: 'أكبر بلد مسلم اليوم: جزر الإيمان.'
+  features:
+  - place/java
+  - language/indonesian
+prerequisites:
+- exhibit/path-islam-in-30-minutes
+sources:
+- source/wikidata
+provenance:
+  layer: own-research
+  source: Devin-assembled trail from existing museum entities
+  generated_by: Devin (SWE-2 High)
+  model: SWE-2 High
+  run: pathways-batch-7
+status:
+  review: draft
+  completeness: 1
+  generated_by: Devin (SWE-2 High), pathways lane, 2026-10-16

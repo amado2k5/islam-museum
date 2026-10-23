@@ -1,0 +1,35 @@
+id: event/death-of-malik-al-ashtar-en-route-to-egypt
+class: event
+kind: death
+label: { ar: "وفاة مالك الأشتر في الطريق إلى مصر", en: "Death of Malik al-Ashtar on the way to Egypt" }
+summary:
+  ar: "اختار علي مالكاً الأشتر النخعي والياً على مصر بعد عزل قيس بن سعد، فتوجه إليها، فمات قبل أن يدخلها عند أطراف البحر الأحمر، وقيل إنه سُقي شربة مسمومة من عسل، واتهم أناس من أهل الخراج بتسميمه، ويميل الصلابي إلى أن التحريض جاء من معاوية {cite:sallabi-ali-vol1 p. 334}{cite:sallabi-ali-vol1 p. 335}."
+  en: "Ali chose Malik al-Ashtar to govern Egypt after Qays ibn Sa'd was replaced. He died at the edge of the Red Sea before entering Egypt. A rumour says he was poisoned in honey, and some people of the kharaj were accused; the book leans toward Mu'awiya having incited it."
+wings: [people, place]
+themes: [civil-wars-and-revolts, politics-governance-and-authority]
+periods: [period/rashidun]
+regions: [egypt-nile]
+date:
+  start: { edtf: "0657/0659", calendar: julian, precision: year, status: tradition, derived: true, note: "الكتاب لا يؤرخ الوفاة؛ الإطار قبل تولية محمد بن أبي بكر مصر سنة 38هـ (ص 336) مشتق؛ ثقة منخفضة." }
+relations:
+  - { type: had_participant, target: person/malik-al-ashtar, role: "المتوفى في الطريق إلى مصر", sources: [source/sallabi-ali-vol1] }
+  - { type: had_participant, target: person/ali-ibn-abi-talib, role: "الذي ولّى الأشتر مصر", sources: [source/sallabi-ali-vol1] }
+  - { type: occurred_at, target: place/misr }
+  - { type: part_of, target: period/rashidun }
+issue: { ar: "هل مات الأشتر بالسم أم بسبب آخر؟", en: "Did al-Ashtar die of poison or of another cause?" }
+perspectives:
+  - tradition: sunni
+    id: sunni-author
+    summary:
+      ar: "يرجح الكتاب ما نقله عن الدكتور يحيى اليحيى، أن معاوية حرّض على قتل الأشتر، ويذكر أن الرواية في السم «قيل» أي أنها تُنقل بصيغة التمريض {cite:sallabi-ali-vol1 p. 335}."
+      en: "The book follows Yahya al-Yahya in suggesting Mu'awiya incited the killing; the poisoning is reported with the marker قيل (it was said) {cite:sallabi-ali-vol1 p. 335}."
+    sources: [source/sallabi-ali-vol1]
+  - tradition: other
+    id: rumour
+    summary:
+      ar: "يذكر الكتاب أن أناساً من أهل الخراج اتُّهموا بتسميمه، ولا يثبت الكتاب ذلك ولا يقدم له مرجعاً محدداً في هذا الموضع (needs_source) {cite:sallabi-ali-vol1 p. 335}."
+      en: "The book reports that people of the kharaj were accused of poisoning him, without confirming it or naming a source here (needs_source) {cite:sallabi-ali-vol1 p. 335}."
+    sources: [source/sallabi-ali-vol1]
+provenance: { layer: own-research, source: "sallabi-ali-vol1 pp. 334-335", generated_by: "Claude Code", model: "claude-haiku-5-5", run: "sallabi-ali-vol1-deep-pp301-350" }
+sources: [source/sallabi-ali-vol1]
+status: { review: draft, completeness: 1, generated_by: "Claude Code (claude-haiku-5-5); mined from sallabi-ali-vol1 pp. 334-335; contested, doubt marker قيل" }

@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 7:162 (سورة الأعراف، الآية 162)."
 text: "فَبَدَّلَ ٱلَّذِينَ ظَلَمُوا۟ مِنْهُمْ قَوْلًا غَيْرَ ٱلَّذِى قِيلَ لَهُمْ فَأَرْسَلْنَا عَلَيْهِمْ رِجْزًا مِّنَ ٱلسَّمَآءِ بِمَا كَانُوا۟ يَظْلِمُونَ"
 text_search: "فبدل الذين ظلموا منهم قولا غير الذي قيل لهم فأرسلنا عليهم رجزا من السماء بما كانوا يظلمون"
+translations:
+  en: { text: "But those of them who did wrong changed the word which had been told them for another saying, and We sent down upon them wrath from heaven for their wrongdoing.", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "مگر جو ان میں ظالم تھے انہوں نے اس لفظ کو جس کا ان کو حکم دیا گیا تھا بدل کر اس کی جگہ اور لفظ کہنا شروع کیا تو ہم نے ان پر آسمان سے عذاب بھیجا اس لیے کہ ظلم کرتے تھے", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-7 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

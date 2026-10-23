@@ -1,0 +1,24 @@
+id: person/al-mawardi
+class: person
+label: { ar: "الماوردي", en: "al-Mawardi" }
+summary:
+  ar: "الشيخ الإمام أبو الحسن علي بن محمد الماوردي البصري الشافعي المتوفى سنة ٤٥٠هـ؛ كان من وجوه فقهاء الشافعية وولي القضاء ببلدان كثيرة، وله تصانيف كثيرة في أصول الفقه وفروعه منها المقترن والنكت في التفسير والأحكام السلطانية وقوانين الوزراء والحكم والأمثال، وكان يقول «بسطت الفقه في أربعة آلاف ورقة وقد اختصرته في أربعين» يريد بالمبسوط الحاوي وبالختصر الإقناع {cite:muntazam-ibn-al-jawzi j.8 p.114}؛ وصاحب أعلام النبوة المختصر المشتمل على أحد وعشرين باباً {cite:kashf-zunun-furqan p. 518}. ويحكي ابن الجوزي عنه أن الخليفة وجّهه إلى عماد الدين أبي كليجار بالأهواز سنة ٤٢٣ في أمر لقبه، فردّ «السلطان المعظم» إذ هو من ألقاب الخليفة نفسه، وسائر ما يرويه بضمير المتكلم من مفاوضته {cite:muntazam-ibn-al-jawzi j.8 p.408-410}. وفي رمضان ٤٢٩ امتنع من الجواز في لقب «ملك الملوك» لجلال الدولة فانقطع عن خدمته ثم استدعاه الملك بكرة العيد فأعظمه وقال له إنه لو حاباه لما زاد ما بينهما وإن مخالفته إنما كانت للدين {cite:muntazam-ibn-al-jawzi j.8 p.439-440}. وفي سنة ٤٣٤ كان رسول الخليفة بتوقيعه إلى جلال الدولة في شأن الجوالي — يقول «خرج التوقيع من الخليفة وكنت أنا الرسول» {cite:muntazam-ibn-al-jawzi j.8 p.455-456}، وفي ٤٣٥ رُسّل إلى طغربك بتقبيح ما فعل في البلاد والأمر بالإحسان في الرعية فتلقّاه طغربك أربعة فراسخ إجلالًا لرسالة الخليفة {cite:muntazam-ibn-al-jawzi j.8 p.458-459}."
+  en: "Abu al-Hasan Ali ibn Muhammad al-Mawardi al-Shafi'i, d. AH 450 — author of A'lam al-Tubwa, a twenty-one-chapter epitome on the proofs of prophethood {cite:kashf-zunun-furqan p. 518}."
+gender: male
+wings: [people]
+periods: [period/buyid-seljuk-fatimid-era]
+regions: [levant-iraq]
+died: { edtf: "1058~", hijri: "0450-03", calendar: julian, precision: month, status: tradition, derived: true, note: "توفي في ربيع الأول سنة خمسين وأربعمائة بعد موت أبي الطيب بأحد عشر يوماً عن ست وثمانين سنة، ولم يكن أبرز شيئاً من مصنفاته في حياته حتى أوصى بها عند موته {cite:shadharat-dhahab p. 294; kashf-zunun-furqan p. 518}." }
+relations:
+  - { type: authored, target: work/alam-al-tubwa, sources: [source/kashf-zunun-furqan] }
+  - { type: authored, target: work/al-ahkam-al-sultaniyya-mawardi, sources: [source/kashf-zunun-furqan] }
+  - { type: authored, target: work/adab-al-dunya-wal-din, sources: [source/kashf-zunun-furqan] }
+  - { type: authored, target: work/amthal-al-quran-mawardi, sources: [source/kashf-zunun-furqan] }
+provenance:
+  layer: own-research
+  source: "كشف الظنون لحاجي خليفة (ط الفرقان) ج١ ص 518 مدخل 1335"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-kashf-batch-6
+external_ids: { wikidata: "Q335635" }
+sources: [source/kashf-zunun-furqan, source/shadharat-dhahab, source/muntazam-ibn-al-jawzi]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

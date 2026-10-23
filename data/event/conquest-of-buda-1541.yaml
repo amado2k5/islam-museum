@@ -1,0 +1,23 @@
+id: event/conquest-of-buda-1541
+class: event
+kind: conquest
+label: { ar: "فتح بودا (١٥٤١)", en: "Conquest of Buda" }
+summary:
+  ar: "بطاقة أولية لفتح بودا سنة ١٥٤١م، دخول سليمان القانوني المدينة وضمها للدولة مئة وخمسين عاماً؛ لم تُراجع مصادره على الصفحة بعد."
+  en: "Draft card for the Conquest of Buda in 1541, Suleiman's entry that annexed the city to the Ottoman state for a century and a half; its sources are not yet checked on the page."
+wings: [time]
+periods: [period/gunpowder-empires]
+regions: [anatolia-balkans]
+date:
+  start: { edtf: "1541", precision: year, status: tradition, derived: true }
+  end: { edtf: "1541", precision: year, status: tradition, derived: true }
+sources: [source/dawlat-uthmaniyya-salabi]
+external_ids:
+  wikidata: Q604587
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; conquest attested in Ottoman histories — entry not yet checked on the page"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-wave2
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

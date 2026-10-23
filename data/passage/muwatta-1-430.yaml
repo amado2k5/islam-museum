@@ -1,0 +1,15 @@
+id: passage/muwatta-1-430
+class: passage
+unit: hadith
+work: work/muwatta-malik
+ref: "1.430"
+label: { ar: "الموطأ 430 — بلاغ: ابن عمر يستتر براحلته إذا صلى", en: "Muwatta 430" }
+summary:
+  ar: "أول أثر في باب سترة المصلي في السفر، وهو بلاغ: يروي يحيى عن مالك أنه بلغه أن عبد الله بن عمر كان يستتر براحلته إذا صلى. ويذكر المحقق أنه رواه عن مالك أبو مصعب وسويد، وأن عبد الرزاق رواه عن ابن جريج عن نافع عن ابن عمر بمعناه. {cite:muwatta-maruf-1997 p.223}"
+relations:
+  - { type: part_of, target: passage/muwatta-kitab-01-salat }
+  - { type: mentions, target: person/abdullah-ibn-umar, sources: [source/muwatta-maruf-1997] }
+  - { type: basis_for, target: practice/salah, sources: [source/muwatta-maruf-1997] }
+provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 1, hadith 430 at PDF p. 223; باب سترة المصلي في السفر", generated_by: "Claude Code (claude-haiku-5-5) from Apple Vision OCR of the Noor-Book PDF, checked on the page image where doubtful", run: "muwatta-prose-k1-b18" }
+sources: [source/muwatta-maruf-1997]
+status: { review: draft, completeness: 2, generated_by: "Claude Code (claude-haiku-5-5); own-words account written from PDF p. 223; matn excerpt at most 40 words" }

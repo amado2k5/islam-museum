@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 6:100 (سورة الأنعام، الآية 100)."
 text: "وَجَعَلُوا۟ لِلَّهِ شُرَكَآءَ ٱلْجِنَّ وَخَلَقَهُمْ ۖ وَخَرَقُوا۟ لَهُۥ بَنِينَ وَبَنَـٰتٍۭ بِغَيْرِ عِلْمٍ ۚ سُبْحَـٰنَهُۥ وَتَعَـٰلَىٰ عَمَّا يَصِفُونَ"
 text_search: "وجعلوا لله شركاء الجن وخلقهم ۖ وخرقوا له بنين وبنات بغير علم ۚ سبحانه وتعالى عما يصفون"
+translations:
+  en: { text: "Yet they ascribe as partners unto Him the jinn, although He did create them, and impute falsely, without knowledge, sons and daughters unto Him. Glorified be He and High Exalted above (all) that they ascribe (unto Him).", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "اور ان لوگوں نے جنوں کو خدا کا شریک ٹھہرایا۔ حالانکہ ان کو اسی نے پیدا کیا اور بےسمجھے (جھوٹ بہتان) اس کے لئے بیٹے اور بیٹیاں بنا کھڑی کیں وہ ان باتوں سے جو اس کی نسبت بیان کرتے ہیں پاک ہے اور (اس کی شان ان سے) بلند ہے", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-6 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

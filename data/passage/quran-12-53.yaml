@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 12:53 (سورة يوسف، الآية 53)."
 text: "۞ وَمَآ أُبَرِّئُ نَفْسِىٓ ۚ إِنَّ ٱلنَّفْسَ لَأَمَّارَةٌۢ بِٱلسُّوٓءِ إِلَّا مَا رَحِمَ رَبِّىٓ ۚ إِنَّ رَبِّى غَفُورٌ رَّحِيمٌ"
 text_search: "۞ وما أبرئ نفسي ۚ إن النفس لأمارة بالسوء إلا ما رحم ربي ۚ إن ربي غفور رحيم"
+translations:
+  en: { text: "I do not exculpate myself. Lo! the (human) soul enjoineth unto evil, save that whereon my Lord hath mercy. Lo! my Lord is Forgiving, Merciful.", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "اور میں اپنے تئیں پاک صاف نہیں کہتا کیونکہ نفس امارہ (انسان کو) برائی سکھاتا رہتا ہے۔ مگر یہ کہ میرا پروردگار رحم کرے گا۔ بےشک میرا پروردگار بخشنے والا مہربان ہے", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-12 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

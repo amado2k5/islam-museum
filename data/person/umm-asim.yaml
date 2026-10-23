@@ -1,0 +1,20 @@
+id: person/umm-asim
+class: person
+label: { ar: "أم عاصم زوجة لذريق" }
+gender: female
+summary:
+  ar: "زوجة لذريق ملك القوط؛ صالحت على نفسها وأموالها وقت الفتح وباءت بالجزية وأقامت على دينها في ظل نعمتها إلى أن نكحها الأمير عبد العزيز بن موسى فحظيت عنده، وكان تزوجها فيما نقمه الجند عليه {cite:nafh-tib-maqqari p. 317}."
+  en: "Roderic's widow, who had surrendered on terms and stayed on her faith under the jizya until the amir Abd al-Aziz b. Musa married her — a charge among those for which the army killed him {cite:nafh-tib-maqqari p. 317}."
+roles: [queen]
+wings: [people]
+periods: [period/umayyad]
+regions: [andalus-europe]
+relations:
+  - { type: spouse_of, target: person/abd-al-aziz-ibn-musa, sources: [source/nafh-tib-maqqari] }
+provenance:
+  layer: own-research
+  source: "نفح الطيب من غصن الأندلس الرطيب للمقري"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-nafh-tib-batch-23
+sources: [source/nafh-tib-maqqari]
+status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 High)" }

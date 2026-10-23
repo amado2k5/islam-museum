@@ -1,0 +1,30 @@
+id: event/ghaznavid-rayy-420
+class: event
+kind: conquest
+label: { ar: "دخول محمود الغزنوي الريّ سنة ٤٢٠", en: "Mahmud of Ghazna Enters Rayy, 420" }
+summary:
+  ar: "ورد على بغداد كتاب محمود بن سبكتكين إلى الخليفة مؤرخ في غرة جمادى الآخرة سنة ٤٢٠ من معسكره بسواد الري، يصف فيه خروجه من أصبهان في محرم ودخوله الري غدوة الاثنين السادس عشر من جمادى الأولى مع الجيش الكثيف؛ وذكر أن أهل الري عذبوا بظلم الديلم واستجاشوا به فاستجار بهم، وأن أبا طالب رستم بن علي ابن فخر الدولة استسلم بالمصالحة، فقُبض على رؤساء الباطنية، وشهد الديلم على ما عندهم، فأفتى الفقهاء بإهدار الدماء فصُلبوا على رأس الطريق، وقُسمت أموالهم، وأُخرجت الكتب فكان ما أخرج من مدينة واحدة خمسين بعيرًا من كتب المعتزلة والفلاسفة والرافضة فأُحرقت تحت المصابين، وبلغ ما أُخذ من النفائس ما يقارب خمسمائة ألف دينار ومن الدراهم مائتين وستين ألفًا، ورحل أبو طالب وابنه وكبار الأمراء إلى خراسان. وفي الكتاب دعاؤه «أزال الله عن هذه البقعة أيدي الظلمة وطهّرها من دعوة الباطنية» — وهو رواية الفاتح عن نفسه وأسبابه {cite:muntazam-ibn-al-jawzi j.8 p.380-383}."
+  en: "A letter from Mahmud ibn Sabuktakin reached the caliph in Baghdad, dated the first of Jumada II 420 from his camp in the Rayy countryside. In it he describes leaving Isfahan in Muharram and entering Rayy on the morning of Monday, the sixteenth of Jumada I, with a dense army. He mentions that the people of Rayy had been tormented by the injustice of the Daylam and had called on him for aid, and that he gave them his protection. Abu Talib Rustam ibn Ali ibn Fakhr al-Dawla surrendered on terms of reconciliation. The leaders of the Batiniyya were seized; the Daylam testified to what they held; the jurists ruled their blood forfeit, and they were crucified on the roadside. Their property was divided, and their books were brought out: from one city alone fifty camel-loads of books of the Mu'tazila, the philosophers and the Rafida were burned beneath the afflicted. The valuables taken came to nearly five hundred thousand dinars and two hundred and sixty thousand dirhams. Abu Talib, his son and the senior amirs set out for Khurasan. The letter contains his prayer: 'May God remove from this land the hands of the wrongdoers and purify it of the call of the Batiniyya.' This is the conqueror's own account of himself and his reasons {cite:muntazam-ibn-al-jawzi j.8 p.380-383}."
+wings: [time]
+themes: [wars-and-campaigns, conquest-and-its-debates, takfir-and-its-critics]
+periods: [period/buyid-seljuk-fatimid-era]
+regions: [persia-central-asia]
+sides:
+  - label: { ar: "جيش محمود الغزنوي" }
+    commanders: [person/mahmud-ghaznawi]
+  - label: { ar: "ديلم الري (آل بويه)" }
+date:
+  start: { edtf: "1029-04~", hijri: "0420-05", calendar: julian, precision: month, status: tradition, derived: true, note: "دخول الرايات سواد الري يوم الاثنين ١٦ جمادى الأولى ٤٢٠ بحسب كتاب محمود {cite:muntazam-ibn-al-jawzi j.8 p.381}." }
+relations:
+  - { type: occurred_at, target: place/rayy, sources: [source/muntazam-ibn-al-jawzi] }
+  - { type: had_participant, target: person/mahmud-ghaznawi, role: "قائد الحملة وكاتب الخطاب", sources: [source/muntazam-ibn-al-jawzi] }
+provenance:
+  layer: own-research
+  source: "المنتظم في تاريخ الملوك والأمم — ابن الجوزي (ج8، أحداث سنة ٤٢٠)، قراءة آبل فيجن، مسح AAlexandrina-224011"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-muntazam-350-474-batch23
+sources: [source/muntazam-ibn-al-jawzi]
+status:
+  review: draft
+  completeness: 2
+  generated_by: "Devin (SWE-2 High)"

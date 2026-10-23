@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 16:29 (سورة النحل، الآية 29)."
 text: "فَٱدْخُلُوٓا۟ أَبْوَٰبَ جَهَنَّمَ خَـٰلِدِينَ فِيهَا ۖ فَلَبِئْسَ مَثْوَى ٱلْمُتَكَبِّرِينَ"
 text_search: "فادخلوا أبواب جهنم خالدين فيها ۖ فلبئس مثوى المتكبرين"
+translations:
+  en: { text: "So enter the gates of hell, to dwell therein for ever. Woeful indeed will be the lodging of the arrogant.", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "سو دوزخ کے دروازوں میں داخل ہوجاؤ۔ ہمیشہ اس میں رہو گے۔ اب تکبر کرنے والوں کا برا ٹھکانا ہے", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-16 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

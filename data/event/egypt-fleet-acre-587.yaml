@@ -1,0 +1,20 @@
+id: event/egypt-fleet-acre-587
+class: event
+kind: other
+label: { ar: "وصول عسكر مصر والأسطول المصري إلى عكا", en: "Egypt army and fleet reach the Acre theater" }
+date:
+  start: { edtf: "1191~", hijri: "0587", calendar: julian, precision: year, status: tradition, derived: true }
+summary:
+  ar: "وصل عسكر مصر والأسطول المصري في البحر إلى عكا لنصرة صلاح الدين على الفرنج المحاصرين لها {cite:kamil-ibn-al-athir p. 190}."
+  en: "Egypt field army and its fleet arrived at Acre to reinforce Saladin against the crusader besiegers {cite:kamil-ibn-al-athir p. 190}."
+relations:
+  - { type: occurred_at, target: place/akka, sources: [source/kamil-ibn-al-athir] }
+  - { type: had_participant, target: person/al-malik-al-aziz-uthman, role: "أرسل العسكر", sources: [source/kamil-ibn-al-athir] }
+  - { type: had_participant, target: person/salah-al-din-yusuf-ibn-ayyub, sources: [source/kamil-ibn-al-athir] }
+provenance:
+  layer: own-research
+  source: "الكامل في التاريخ لابن الأثير، قراءة آبل فيجن"
+  generated_by: "Devin (SWE-2 Medium) from Apple Vision OCR"
+  run: lib-kamil-v12-batch03
+sources: [source/kamil-ibn-al-athir]
+status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 Medium)" }

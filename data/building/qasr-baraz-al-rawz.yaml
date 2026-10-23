@@ -1,0 +1,20 @@
+id: building/qasr-baraz-al-rawz
+class: building
+kind: palace
+label: { ar: "قصر براز الروز", en: "Baraz al-Rawz palace" }
+summary:
+  ar: "في سنة سبع وثمانين ومائتين دخل المعتضد من متنزهه ببراز الروز وأمر بإنشاء قصر في موضع اختاره من براز الروز فحُملت إليه الآلات وابتُدئ بعمله، ثم أخرج من كان له دار وحانوت بباب الشماسية عن داره وحانوته وقيل لهم خذوا أنقاضكم واخرجوا، وخطّ موضع السور وابتدأ في بناء دكة على دجلة لينتقل فيقيم بها إلى أن يفرغ من بناء الدار والقصر، فمرض المعتضد باتفاق فمات قبل إتمامه {cite:muntazam-ibn-al-jawzi p. 316, 322-323}."
+  en: "In 287 al-Mu'tadid ordered a palace at his chosen spot in Baraz al-Rawz; the householders of Bab al-Shammasiyya were bought out to clear the site, the wall traced, and a river-dais begun for him to occupy until the palace finished — but his illness struck and he died before its completion {cite:muntazam-ibn-al-jawzi p. 316, 322-323}."
+wings: [place]
+periods: [period/abbasid-early]
+regions: [levant-iraq]
+relations:
+  - { type: built_by, target: person/al-mutadid, sources: [source/muntazam-ibn-al-jawzi] }
+  - { type: located_in, target: place/baghdad, sources: [source/muntazam-ibn-al-jawzi] }
+provenance:
+  layer: own-research
+  source: "المنتظم لابن الجوزي (ط حيدرآباد 1357، ج6، سنة 287–289)، قراءة آبل فيجن"
+  generated_by: "Devin (SWE-2 Medium) from Apple Vision OCR"
+  run: lib-muntazam-258-349-batch28
+sources: [source/muntazam-ibn-al-jawzi]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 Medium)" }

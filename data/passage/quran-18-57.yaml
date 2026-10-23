@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 18:57 (سورة الكهف، الآية 57)."
 text: "وَمَنْ أَظْلَمُ مِمَّن ذُكِّرَ بِـَٔايَـٰتِ رَبِّهِۦ فَأَعْرَضَ عَنْهَا وَنَسِىَ مَا قَدَّمَتْ يَدَاهُ ۚ إِنَّا جَعَلْنَا عَلَىٰ قُلُوبِهِمْ أَكِنَّةً أَن يَفْقَهُوهُ وَفِىٓ ءَاذَانِهِمْ وَقْرًا ۖ وَإِن تَدْعُهُمْ إِلَى ٱلْهُدَىٰ فَلَن يَهْتَدُوٓا۟ إِذًا أَبَدًا"
 text_search: "ومن أظلم ممن ذكر بآيات ربه فأعرض عنها ونسي ما قدمت يداه ۚ إنا جعلنا على قلوبهم أكنة أن يفقهوه وفي آذانهم وقرا ۖ وإن تدعهم إلى الهدى فلن يهتدوا إذا أبدا"
+translations:
+  en: { text: "And who doth greater wrong than he who hath been reminded of the revelations of his Lord, yet turneth away from them and forgetteth what his hands send forward (to the Judgment)? Lo! on their hearts We have placed coverings so that they understand not, and in their ears a deafness. And though thou call them to the guidance, in that case they can never be led aright.", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "اور اس سے ظالم کون جس کو اس کے پروردگار کے کلام سے سمجھایا گیا تو اُس نے اس سے منہ پھیر لیا۔ اور جو اعمال وہ آگے کرچکا اس کو بھول گیا۔ ہم نے ان کے دلوں پر پردے ڈال دیئے کہ اسے سمجھ نہ سکیں۔ اور کانوں میں ثقل (پیدا کردیا ہے کہ سن نہ سکیں) اور اگر تم ان کو رستے کی طرف بلاؤ تو کبھی رستے پر نہ آئیں گے", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-18 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

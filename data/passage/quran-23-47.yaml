@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 23:47 (سورة المؤمنون، الآية 47)."
 text: "فَقَالُوٓا۟ أَنُؤْمِنُ لِبَشَرَيْنِ مِثْلِنَا وَقَوْمُهُمَا لَنَا عَـٰبِدُونَ"
 text_search: "فقالوا أنؤمن لبشرين مثلنا وقومهما لنا عابدون"
+translations:
+  en: { text: "And they said: Shall we put faith in two mortals like ourselves, and whose folk are servile unto us?", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "کہنے لگے کہ کیا ہم ان اپنے جیسے دو آدمیوں پر ایمان لے آئیں اور اُن کو قوم کے لوگ ہمارے خدمت گار ہیں", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-23 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

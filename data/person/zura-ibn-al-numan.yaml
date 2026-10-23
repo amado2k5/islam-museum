@@ -1,0 +1,18 @@
+id: person/zura-ibn-al-numan
+class: person
+label: { ar: "زرعة بن النعمان", en: "Zur'a ibn al-Nu'man" }
+summary:
+  ar: "زرعة بن النعمان — وقيل النعمان بن زرعة — من بني تغلب؛ عند البلاذري: هو الذي أنشد عمر بن الخطاب الله في بني تغلب «فإنهم قوم من العرب نائفون من الجزية، وهم قوم شديدة فكايتهم فلا يغن عدوك عليك بهم» فردهم عمر بعد فرارهم وصالحهم على ضعف الصدقة."
+  en: "Zur'a ibn al-Nu'man — by another naming al-Nu'man ibn Zur'a — of Banu Taghlib; in al-Baladhuri: he it was who adjured Umar ibn al-Khattab by God on Taghlib's behalf — 'they are a people of Arabs who would scorn the jizya, and a people of stout valour; let not your enemy gain strength against you by them' — whereupon Umar brought them back from flight and compounded with them for the double sadaqa."
+wings: [people]
+periods: [period/rashidun]
+relations:
+  - { type: participated_in, target: event/treaty-with-taghlib, role: "الشافع عند عمر", sources: [source/futuh-buldan-maarif-1407] }
+  - { type: member_of, target: group/banu-taghlib, sources: [source/futuh-buldan-maarif-1407] }
+provenance:
+  layer: own-research
+  source: "فتوح البلدان (ط مؤسسة المعارف 1407هـ/1987م) ص 250–251"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-futuh-buldan-batch-14
+sources: [source/futuh-buldan-maarif-1407]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

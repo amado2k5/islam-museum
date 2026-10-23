@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 42:9 (سورة الشورى، الآية 9)."
 text: "أَمِ ٱتَّخَذُوا۟ مِن دُونِهِۦٓ أَوْلِيَآءَ ۖ فَٱللَّهُ هُوَ ٱلْوَلِىُّ وَهُوَ يُحْىِ ٱلْمَوْتَىٰ وَهُوَ عَلَىٰ كُلِّ شَىْءٍ قَدِيرٌ"
 text_search: "أم اتخذوا من دونه أولياء ۖ فالله هو الولي وهو يحيي الموتى وهو على كل شيء قدير"
+translations:
+  en: { text: "Or have they chosen protecting friends besides Him? But Allah, He (alone) is the Protecting Friend. He quickeneth the dead, and He is Able to do all things.", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "کیا انہوں نے اس کے سوا کارساز بنائے ہیں؟ کارساز تو خدا ہی ہے اور وہی مردوں کو زندہ کرے گا اور وہ ہر چیز پر قدرت رکھتا ہے", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-42 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

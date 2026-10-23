@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 4:104 (سورة النساء، الآية 104)."
 text: "وَلَا تَهِنُوا۟ فِى ٱبْتِغَآءِ ٱلْقَوْمِ ۖ إِن تَكُونُوا۟ تَأْلَمُونَ فَإِنَّهُمْ يَأْلَمُونَ كَمَا تَأْلَمُونَ ۖ وَتَرْجُونَ مِنَ ٱللَّهِ مَا لَا يَرْجُونَ ۗ وَكَانَ ٱللَّهُ عَلِيمًا حَكِيمًا"
 text_search: "ولا تهنوا في ابتغاء القوم ۖ إن تكونوا تألمون فإنهم يألمون كما تألمون ۖ وترجون من الله ما لا يرجون ۗ وكان الله عليما حكيما"
+translations:
+  en: { text: "Relent not in pursuit of the enemy. If ye are suffering, lo! they suffer even as ye suffer and ye hope from Allah that for which they cannot hope. Allah is ever Knower, Wise.", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "اور کفار کا پیچھا کرنے میں سستی نہ کرنا اگر تم بےآرام ہوتے ہو تو جس طرح تم بےآرام ہوتے ہو اسی طرح وہ بھی بےآرام ہوتے ہیں اور تم خدا سے ایسی ایسی امیدیں رکھتے ہو جو وہ نہیں رکھ سکتے اور خدا سب کچھ جانتا اور (بڑی) حکمت والا ہے", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-4 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

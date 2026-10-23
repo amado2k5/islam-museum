@@ -26,8 +26,8 @@ Non-negotiables
 - Significance, not sympathy: opponents, critics and allies are included with time-scoped story_roles; describe the act, attribute the judgement; never write "enemy of Islam" or an equivalent in the museum's voice; a person's faith is recorded only with its basis and never inferred.
 - Hard questions are written as tension cards with at least two cited voices and no verdict.
 - Never write, complete or correct Qur'an text: it comes only from the frozen Tanzil files and is referenced by sura:ayah.
-- Harvesting runs on the founder's Mac with local models (docs/plan/15); respect the licence layers: only cc0/by facts or our own cited research enter data/.
-- Commit only when asked; conventional commit messages; small PRs per cell batch (≤ 25 entities).
+- Harvesting runs on the founder's Mac with local models (docs/plan/15). Sources (docs/sources-policy.md): any source may be read and rewritten in the museum's own words with a citation; facts enter data/ from any source; only verbatim text beyond a 40-word quotation and the raw files stay out.
+- Commit and push validated work without waiting for sign-off; conventional commit messages; small PRs per cell batch (≤ 25 entities).
 ```
 
 ---

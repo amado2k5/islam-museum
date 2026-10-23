@@ -1,0 +1,39 @@
+id: person/muhammad-ibn-nusayr
+class: person
+gender: male
+label:
+  ar: محمد بن نصير
+  en: Muhammad ibn Nusayr
+  ur: محمد بن نصیر
+summary:
+  ar: "محمد بن نصير النميري، مَن نُسبت إليه النصيرية؛ ينقل الشهرستاني عن النوبختي أنه ادعى النبوة بإرسال الحسن العسكري، وأنه قال بالتناسخ والتأليه في أبي الحسن {cite:milal-nihal-shahrastani}."
+  en: "Muhammad ibn Nusayr al-Namiri, eponym of the Nusayriyya; al-Shahrastani transmits from al-Nawbakhti that he claimed prophethood as sent by al-Hasan al-Askari, professing metempsychosis and deification of Abu'l-Hasan {cite:milal-nihal-shahrastani}."
+wings: [people]
+themes: [sects-and-schools]
+regions: [levant-iraq]
+periods: [period/abbasid-fragmentation]
+relations:
+  - { type: founder_of, target: group/nusayriyya, sources: [source/milal-nihal-shahrastani] }
+external_ids: { wikidata: "Q5984245" }
+sources: [source/milal-nihal-shahrastani]
+perspectives:
+  - tradition: sunni
+    id: sunni-view
+    stance:
+      ar: "يصنفه كتاب الملل والنحل في الغلاة الذين غالوا في الدعوى عن أنفسهم"
+    summary:
+      ar: "يعدّه الشهرستاني في فرقة النصيرية من الغالية ناقلًا عن النوبختي دعواه النبوة {cite:milal-nihal-shahrastani}"
+    sources: [source/milal-nihal-shahrastani]
+  - tradition: academic
+    id: academic-view
+    stance:
+      en: "Heresiography describes the eponym through its polemical frame"
+    summary:
+      en: "The milal genre reports the founder through the heresiographer's classification; the community's self-view is under group/nusayriyya {cite:milal-nihal-shahrastani}"
+    sources: [source/milal-nihal-shahrastani]
+provenance:
+  layer: own-research
+  source: "wikidata-import deferred Q5984245; Milal wa'l-Nihal Nusayriyya section verified in OCR (line 5044)"
+  generated_by: "Devin (SWE-2 Medium)"
+  run: wd-deferred-14
+status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 Medium)" }

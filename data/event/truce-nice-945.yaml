@@ -1,0 +1,23 @@
+id: event/truce-nice-945
+class: event
+kind: truce
+label: { ar: "هدنة نيس (٩٤٥هـ/١٥٣٨م)", en: "Truce of Nice (1538)" }
+summary:
+  ar: "الهدنة التي عُقدت في محرم ٩٤٥هـ/يونيو ١٥٣٨م بين شارل الخامس وفرنسا لمدة عشر سنوات، فساد هدوء نسبي القارة الأوروبية مكّن شارل من التفرغ لحملته على الجزائر سنة ١٥٤١م. النص المطبوع في الكتاب يقرأ «١٣٥٨م» وهو ظاهر التصحيف عن ١٥٣٨ {cite:dawlat-uthmaniyya-salabi p. 224}."
+  en: "The ten-year truce between Charles V and France, Muharram 945/June 1538, whose calm let Charles turn to the 1541 Algiers campaign. The printed text reads '1358', plainly a misprint for 1538 {cite:dawlat-uthmaniyya-salabi p. 224}."
+wings: [time]
+periods: [period/gunpowder-empires]
+regions: [anatolia-balkans]
+date:
+  start: { edtf: "1538-06", hijri: "0945-01", calendar: julian, precision: month, status: tradition, derived: true, note: "النص المطبوع يقرأ 1358؛ القراءة المصححة 1538." }
+relations:
+  - { type: had_participant, target: person/charles-v, sources: [source/dawlat-uthmaniyya-salabi] }
+  - { type: had_participant, target: person/francis-i-france, sources: [source/dawlat-uthmaniyya-salabi] }
+sources: [source/dawlat-uthmaniyya-salabi]
+provenance:
+  layer: own-research
+  source: "الدولة العثمانية لعلي محمد الصلابي (ط1 1421) ص 224"
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: salabi-uthmani-batch10
+status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 Medium)" }

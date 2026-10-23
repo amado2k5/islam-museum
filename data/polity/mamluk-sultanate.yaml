@@ -1,0 +1,41 @@
+id: polity/mamluk-sultanate
+class: polity
+kind: sultanate
+label:
+  ar: الدولة المملوكية
+  en: Mamluk Sultanate
+summary:
+  ar: دولة حكمت مصر والشام والحجاز من نحو 1250م إلى الفتح العثماني سنة 1517م، وكان مركزها القاهرة. تعاقب عليها المماليك البحرية ثم البرجية.
+  en: The state that ruled Egypt, Syria and the Hejaz from about 1250 until the Ottoman conquest in 1517, centred on Cairo; its rulers came first from the Bahri and then from the Burji Mamluks.
+wings: []
+periods:
+- period/crusades-ayyubid-mamluk
+regions:
+- egypt-nile
+- levant-iraq
+start:
+  edtf: "1250"
+  hijri: "0648~"
+  calendar: gregorian
+  precision: year
+  status: historical
+  derived: true
+  note: "تاريخ البداية من ملخص Petry (2022) ومن ويكي بيانات؛ تحويل الهجري مشتق. المصدر الثاني هودجسون (1974) لحدود الفترة، والتحقق من الصفحة لم يُنجز بعد."
+  sources: [source/petry-mamluk-sultanate-2022, source/hodgson-1974]
+end:
+  edtf: "1517"
+  hijri: "0923~"
+  calendar: gregorian
+  precision: year
+  status: historical
+  derived: true
+  note: "الفتح العثماني لمصر سنة 1517م ينهي الدولة؛ تحويل الهجري مشتق. المصدر الثاني هودجسون (1974) لحدود الفترة، والتحقق من الصفحة لم يُنجز بعد."
+  sources: [source/petry-mamluk-sultanate-2022, source/hodgson-1974]
+external_ids:
+  wikidata: Q282428
+sources:
+- source/petry-mamluk-sultanate-2022
+status:
+  review: draft
+  completeness: 1
+  generated_by: Claude Code (maintainer session); summary from the publisher's description of Petry (2022) and Wikidata, 19 Oct 2026

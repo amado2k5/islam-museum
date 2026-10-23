@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 36:71 (سورة يس، الآية 71)."
 text: "أَوَلَمْ يَرَوْا۟ أَنَّا خَلَقْنَا لَهُم مِّمَّا عَمِلَتْ أَيْدِينَآ أَنْعَـٰمًا فَهُمْ لَهَا مَـٰلِكُونَ"
 text_search: "أولم يروا أنا خلقنا لهم مما عملت أيدينا أنعاما فهم لها مالكون"
+translations:
+  en: { text: "Have they not seen how We have created for them of Our handiwork the cattle, so that they are their owners,", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "کیا انہوں نے نہیں دیکھا کہ جو چیزیں ہم نے اپنے ہاتھوں سے بنائیں ان میں سے ہم نے ان کے لئے چارپائے پیدا کر دیئے اور یہ ان کے مالک ہیں", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-36 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

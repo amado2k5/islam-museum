@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 11:14 (سورة هود، الآية 14)."
 text: "فَإِلَّمْ يَسْتَجِيبُوا۟ لَكُمْ فَٱعْلَمُوٓا۟ أَنَّمَآ أُنزِلَ بِعِلْمِ ٱللَّهِ وَأَن لَّآ إِلَـٰهَ إِلَّا هُوَ ۖ فَهَلْ أَنتُم مُّسْلِمُونَ"
 text_search: "فإلم يستجيبوا لكم فاعلموا أنما أنزل بعلم الله وأن لا إله إلا هو ۖ فهل أنتم مسلمون"
+translations:
+  en: { text: "And if they answer not your prayer, then know that it is revealed only in the knowledge of Allah; and that there is no Allah save Him. Will ye then be (of) those who surrender?", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "اگر وہ تمہاری بات قبول نہ کریں تو جان لو کہ وہ خدا کے علم سے اُترا ہے اور یہ کہ اس کے سوا کوئی معبود نہیں تو تمہیں بھی اسلام لے آنا چاہئیے", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-11 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

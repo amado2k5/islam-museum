@@ -1,0 +1,22 @@
+id: person/isa-ibn-dinar
+class: person
+label: { ar: "عيسى بن دينار القرطبي", en: "Isa ibn Dinar al-Qurtubi" }
+names:
+  - { kind: full, lang: ar, value: "عيسى بن دينار بن واقد، أبو محمد، القرطبي" }
+gender: male
+roles: [jurist, scholar]
+died: { hijri: "0212", precision: year, status: tradition, sources: [source/fiqh-mawsua-kuwaitiyya-noor-v3] }
+summary:
+  ar: "عيسى بن دينار بن واقد، وقيل ابن وهب، أبو محمد القرطبي المالكي، فقيه الأندلس في عصره. ولي قضاء طليطلة للحكم، والشورى بقرطبة، وطاف في طلب الحديث، وله «كتاب الهدية» في عشرة أجزاء. توفي سنة 212هـ. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.3135}"
+  en: "Isa ibn Dinar ibn Waqid, also given as Ibn Wahb, Abu Muhammad al-Qurtubi, a Maliki jurist, the leading jurist of al-Andalus in his time. He was appointed qadi of Toledo under al-Hakam and head of the consultative council in Cordoba, travelled in search of hadith, and wrote the ten-part Kitab al-Hidaya. He died in 212 AH. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.3135}"
+wings: [people]
+regions: [andalus-europe]
+periods: [period/abbasid-early]
+sources: [source/fiqh-mawsua-kuwaitiyya-noor-v3]
+status: { review: draft, completeness: 1 }
+provenance:
+  layer: own-research
+  source: "al-Mawsu'a al-Fiqhiyya al-Kuwaitiyya (Noor copy), appendix of jurists, p.3135; the book's own bracketed sources (Shajarat al-Nur al-Zakiyya, al-Dibaj al-Mudhhab, al-A'lam) are not yet checked"
+  generated_by: "Claude Haiku 5.5"
+  model: "claude-haiku-5-5"
+  run: "mawsua-w02-1"

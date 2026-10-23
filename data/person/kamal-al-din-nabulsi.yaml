@@ -1,0 +1,26 @@
+id: person/kamal-al-din-nabulsi
+class: person
+label: { ar: "كمال الدين النابلسي خطيب القدس", en: "Kamal al-Din al-Nabulsi, khatib of Jerusalem" }
+names:
+  - { value: "كمال الدين أحمد النابلسي خطيب القدس", kind: full }
+died: { edtf: "1260~", hijri: "0658~", calendar: julian, precision: year, status: debated, derived: true, note: "ترجمته في أموات الخمسينات من شذرات الذهب؛ السنة بحاجة إلى ضبط {cite:shadharat-dhahab}." }
+summary:
+  ar: "خطيب القدس؛ من الفقهاء المحدثين على الرواية {cite:shadharat-dhahab}."
+  en: "Jerusalem's khatib — 'of the jurist-transmitters' {cite:shadharat-dhahab}."
+gender: male
+roles: [khatib, jurist, scholar]
+wings: [people]
+periods: [period/crusades-ayyubid-mamluk]
+regions: [levant-iraq]
+faith:
+  - value: sunni
+    basis: tradition
+relations:
+  - { type: died_in, target: place/jerusalem, sources: [source/shadharat-dhahab] }
+sources: [source/shadharat-dhahab]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }
+provenance:
+  layer: own-research
+  source: "شذرات الذهب — ابن العماد، قراءة آبل فيجن"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-shadharat-batch-132

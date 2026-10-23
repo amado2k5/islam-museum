@@ -1,0 +1,16 @@
+id: passage/muslim-2585
+class: passage
+unit: hadith
+work: work/sahih-muslim
+ref: "2585"
+label: { ar: "مسلم 2585 — المؤمن للمؤمن كالبنيان", en: "Muslim 2585 — The believer to the believer is like a building" }
+text: "قال رسول الله: «المؤمن للمؤمن كالبنيان يشد بعضه بعضاً» — وشبك بين أصابعه"
+summary:
+  ar: "رواية أبي موسى الأشعري في باب تراحم المؤمنين وتعاطفهم من صحيح مسلم؛ شبك أصابعه مثلاً لتماسك المؤمنين — من أشهر أمثال الأخوة في الدواوين."
+relations:
+  - { type: mentions, target: person/muhammad, sources: [source/sahih-muslim] }
+  - { type: mentions, target: person/abu-musa-al-ashari, sources: [source/sahih-muslim] }
+  - { type: mentions, target: concept/ukhuwwa, sources: [source/sahih-muslim] }
+provenance: { layer: own-research, source: "صحيح مسلم، كتاب البر والصلة، باب تراحم المؤمنين وتعاطفهم وتعاضدهم (طبعة دار التأصيل، الحديث 6750؛ ترقيم عبد الباقي المعروف 2585)، تصوير Apple Vision OCR", generated_by: "Devin (SWE-2 High) from Apple Vision OCR", run: "hadith-muslim-passages-2" }
+sources: [source/sahih-muslim]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High); matn excerpt at most 40 words checked against the scan" }

@@ -1,0 +1,27 @@
+id: person/afif-al-din-ibn-mazru
+class: person
+label: { ar: "عفيف الدين ابن مزروع مجاور المدينة", en: "Afif al-Din ibn Mazru'" }
+names:
+  - { value: "عفيف الدين أبو محمد عبد السلام بن محمد بن مزروع بن أحمد بن عزاز المصري البصري الفقيه الحنبلي المحدث الحافظ", kind: full }
+born: { edtf: "1228-09~", hijri: "0625-10", calendar: julian, precision: month, status: tradition, derived: true, note: "ولد بالبصرة في شوال سنة خمس وعشرين وستمائة {cite:shadharat-dhahab p. 761}." }
+died: { edtf: "1296-11~", hijri: "0696-02-17", calendar: julian, precision: day, status: tradition, derived: true, note: "توفي يوم الثلاثاء بعد الصبح سابع عشري صفر ودفن بالبقيع {cite:shadharat-dhahab p. 762}." }
+summary:
+  ar: "الفقيه الحنبلي المحدث الحافظ؛ ولد بالبصرة ورحل إلى بغداد فتفقه على كمال الدين بن وضاح، ثم انتقل إلى المدينة واستوطنها نحو خمسين سنة إلى أن مات بها، وحج منها أربعين حجة على الولاء، وحدّث بالكثير بالحجاز وبغداد ومصر ودمشق، وسمع منه البرزالي وابن الخباز والحارثي {cite:shadharat-dhahab p. 761-762}."
+  en: "The Basran Hanbali hafiz who settled in Medina some fifty years and made forty pilgrimages 'on devotion'; al-Birzali and Ibn al-Khabbaz among his hearers {cite:shadharat-dhahab p. 761-762}."
+gender: male
+roles: [scholar, jurist]
+wings: [people]
+periods: [period/mongol-post-mongol]
+regions: [arabia, levant-iraq]
+faith:
+  - value: sunni-hanbali
+    basis: tradition
+relations:
+  - { type: died_in, target: place/medina, sources: [source/shadharat-dhahab] }
+sources: [source/shadharat-dhahab]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }
+provenance:
+  layer: own-research
+  source: "شذرات الذهب — ابن العماد (ج7، سنة 696)، قراءة آبل فيجن"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-shadharat-batch-135

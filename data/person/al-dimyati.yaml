@@ -1,0 +1,27 @@
+id: person/al-dimyati
+class: person
+label:
+  ar: "الدمياطي"
+  en: "al-Dimyati"
+roles: [muhaddith]
+gender: male
+summary:
+  ar: "بطاقة أولية للدمياطي، المحدث الدمياطي في القرن السابع الهجري؛ لم تُراجع ترجمته على الصفحة بعد."
+  en: "Draft card for al-Dimyati, the Damietta hadith scholar of the seventh Hijri century; his entry is not yet checked on the page."
+wings: [people]
+regions: [egypt-nile]
+periods: [period/crusades-ayyubid-mamluk]
+born: { edtf: "1217", precision: year, status: tradition, derived: true }
+died: { edtf: "1306", precision: year, status: tradition, derived: true }
+sources: [source/al-aalam]
+external_ids:
+  wikidata: Q68169441
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; entry not yet read on the page in a book source"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-wave2
+status:
+  review: draft
+  completeness: 1

@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 87:18 (سورة الأعلى، الآية 18)."
 text: "إِنَّ هَـٰذَا لَفِى ٱلصُّحُفِ ٱلْأُولَىٰ"
 text_search: "إن هذا لفي الصحف الأولى"
+translations:
+  en: { text: "Lo! This is in the former scrolls.", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "یہ بات پہلے صحیفوں میں (مرقوم) ہے", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-87 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

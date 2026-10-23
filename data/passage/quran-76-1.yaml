@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 76:1 (سورة الإنسان، الآية 1)."
 text: "بِسْمِ ٱللَّهِ ٱلرَّحْمَـٰنِ ٱلرَّحِيمِ هَلْ أَتَىٰ عَلَى ٱلْإِنسَـٰنِ حِينٌ مِّنَ ٱلدَّهْرِ لَمْ يَكُن شَيْـًٔا مَّذْكُورًا"
 text_search: "بسم الله الرحمن الرحيم هل أتى على الإنسان حين من الدهر لم يكن شيئا مذكورا"
+translations:
+  en: { text: "Hath there come upon man (ever) any period of time in which he was a thing unremembered?", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "بےشک انسان پر زمانے میں ایک ایسا وقت بھی آچکا ہے کہ وہ کوئی چیز قابل ذکر نہ تھی", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-76 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

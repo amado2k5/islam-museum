@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 27:13 (سورة النمل، الآية 13)."
 text: "فَلَمَّا جَآءَتْهُمْ ءَايَـٰتُنَا مُبْصِرَةً قَالُوا۟ هَـٰذَا سِحْرٌ مُّبِينٌ"
 text_search: "فلما جاءتهم آياتنا مبصرة قالوا هذا سحر مبين"
+translations:
+  en: { text: "But when Our tokens came unto them, plain to see, they said: This is mere magic,", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "جب ان کے پاس ہماری روشن نشانیاں پہنچیں، کہنے لگے یہ صریح جادو ہے", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-27 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

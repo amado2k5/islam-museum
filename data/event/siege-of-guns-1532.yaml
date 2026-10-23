@@ -1,0 +1,23 @@
+id: event/siege-of-guns-1532
+class: event
+kind: siege
+label: { ar: "حصار غونس", en: "Siege of Güns" }
+summary:
+  ar: "بطاقة أولية لحصار غونس (كوسغ) سنة ١٥٣٢م، صمود المدينة الصغيرة أمام جيش سليمان القانوني في طريقه إلى فيينا؛ لم تُراجع مصادره على الصفحة بعد."
+  en: "Draft card for the Siege of Güns (Kőszeg) in 1532, the little town's stand against Suleiman's army on the road to Vienna; its sources are not yet checked on the page."
+wings: [time]
+periods: [period/gunpowder-empires]
+regions: [anatolia-balkans]
+date:
+  start: { edtf: "1532", precision: year, status: tradition, derived: true }
+  end: { edtf: "1532", precision: year, status: tradition, derived: true }
+sources: [source/dawlat-uthmaniyya-salabi]
+external_ids:
+  wikidata: Q673641
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; siege attested in Ottoman histories — entry not yet checked on the page"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-wave2
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

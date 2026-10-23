@@ -1,0 +1,27 @@
+id: event/fetret-interregnum
+class: event
+kind: civil-war
+label:
+  ar: "فترة الفترة العثمانية (الحرب الأهلية بين أبناء بايزيد)"
+  en: "The Ottoman Interregnum (Fetret Devri)"
+summary:
+  ar: "الحرب الأهلية العثمانية التي نشبت بين أبناء بايزيد الأول على العرش بعد هزيمة أنقرة واستمرت عشر سنوات (٨٠٦–٨١٦هـ/١٤٠٣–١٤١٣م حسب تسلسل الكتاب). يذكر الصلابي أن لبايزيد خمسة أبناء اشتركوا معه في القتال: مصطفى الذي ظُنّ مقتولاً في المعركة، وموسى الذي أُسر مع أبيه ثم أطلقه تيمورلنك ليؤجج الفتنة، وأكبرهم سليمان الذي ذهب إلى أدرنة وأعلن نفسه سلطاناً، وعيسى الذي أعلن نفسه خليفة أبيه في بروسة، وأصغرهم محمد الذي انسحب إلى أماسيا في شمال شرقي آسيا الصغرى. واسترجع تيمورلنك لأمراء آسيا الصغرى إماراتهم التي ضمها بايزيد وبذر بذور الشقاق بين الأبناء المتنازعين {cite:dawlat-uthmaniyya-salabi p. 70-71}. وانتهت الفترة بانفراد محمد الأول بالحكم سنة ١٤١٣م ولمّه شتات الأراضي التي فقدتها الدولة {cite:dawlat-uthmaniyya-salabi p. 72-73}."
+  en: "The Ottoman civil war among Bayezid I's sons after Ankara — ten years (806–816/1403–1413 in the book's reckoning). Mustafa was presumed dead in the battle; Musa, captured with his father, was released by Timur to stoke the strife; the eldest Süleyman proclaimed himself sultan at Edirne, İsa at Bursa, and the youngest Mehmed held Amasya, while Timur restored the Anatolian beyliks Bayezid had annexed {cite:dawlat-uthmaniyya-salabi p. 70-71}. It ended when Mehmed stood alone in 1413 and gathered the lost lands {cite:dawlat-uthmaniyya-salabi p. 72-73}."
+wings: [time]
+periods: [period/mongol-post-mongol]
+regions: [anatolia-balkans]
+date:
+  start: { edtf: "1403", hijri: "0806", calendar: julian, precision: year, status: tradition, derived: true, note: "الكتاب يذكر (٨١٦-٨٠٦هـ) والمقابل الميلادي في النص مشوّه؛ ١٤٠٣–١٤١٣م مشتق ومتسق مع انفراد محمد ١٤١٣م {cite:dawlat-uthmaniyya-salabi p. 70, 72}." }
+  end: { edtf: "1413", hijri: "0816", calendar: julian, precision: year, status: tradition, derived: true }
+relations:
+  - { type: had_participant, target: person/sulayman-calabi-prince, role: "سلطان أدرنة", sources: [source/dawlat-uthmaniyya-salabi] }
+  - { type: had_participant, target: person/isa-calabi, role: "المتنازع في بروسة", sources: [source/dawlat-uthmaniyya-salabi] }
+  - { type: had_participant, target: person/musa-ibn-bayezid, role: "المتنازع المُطلق من الأسر", sources: [source/dawlat-uthmaniyya-salabi] }
+  - { type: had_participant, target: person/muhammad-i-jalabi, role: "الغالب فيها", sources: [source/dawlat-uthmaniyya-salabi] }
+sources: [source/dawlat-uthmaniyya-salabi]
+provenance:
+  layer: own-research
+  source: "الدولة العثمانية لعلي محمد الصلابي، ص 70–73"
+  generated_by: "Devin (SWE-2 Medium) from Apple Vision OCR"
+  run: lib-salabi-uthmani-batch-3
+status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 Medium)" }

@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 57:20 (سورة الحديد، الآية 20)."
 text: "ٱعْلَمُوٓا۟ أَنَّمَا ٱلْحَيَوٰةُ ٱلدُّنْيَا لَعِبٌ وَلَهْوٌ وَزِينَةٌ وَتَفَاخُرٌۢ بَيْنَكُمْ وَتَكَاثُرٌ فِى ٱلْأَمْوَٰلِ وَٱلْأَوْلَـٰدِ ۖ كَمَثَلِ غَيْثٍ أَعْجَبَ ٱلْكُفَّارَ نَبَاتُهُۥ ثُمَّ يَهِيجُ فَتَرَىٰهُ مُصْفَرًّا ثُمَّ يَكُونُ حُطَـٰمًا ۖ وَفِى ٱلْـَٔاخِرَةِ عَذَابٌ شَدِيدٌ وَمَغْفِرَةٌ مِّنَ ٱللَّهِ وَرِضْوَٰنٌ ۚ وَمَا ٱلْحَيَوٰةُ ٱلدُّنْيَآ إِلَّا مَتَـٰعُ ٱلْغُرُورِ"
 text_search: "اعلموا أنما الحياة الدنيا لعب ولهو وزينة وتفاخر بينكم وتكاثر في الأموال والأولاد ۖ كمثل غيث أعجب الكفار نباته ثم يهيج فتراه مصفرا ثم يكون حطاما ۖ وفي الآخرة عذاب شديد ومغفرة من الله ورضوان ۚ وما الحياة الدنيا إلا متاع الغرور"
+translations:
+  en: { text: "Know that the life of the world is only play, and idle talk, and pageantry, and boasting among you, and rivalry in respect of wealth and children; as the likeness of vegetation after rain, whereof the growth is pleasing to the husbandman, but afterward it drieth up and thou seest it turning yellow, then it becometh straw. And in the Hereafter there is grievous punishment, and (also) forgiveness from Allah and His good pleasure, whereas the life of the world is but matter of illusion.", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "جان رکھو کہ دنیا کی زندگی محض کھیل اور تماشا اور زینت (وآرائش) اور تمہارے آپس میں فخر (وستائش) اور مال واولاد کی ایک دوسرے سے زیادہ طلب (وخواہش) ہے (اس کی مثال ایسی ہے) جیسے بارش کہ (اس سے کھیتی اُگتی اور) کسانوں کو کھیتی بھلی لگتی ہے پھر وہ خوب زور پر آتی ہے پھر (اے دیکھنے والے) تو اس کو دیکھتا ہے کہ (پک کر) زرد پڑ جاتی ہے پھر چورا چورا ہوجاتی ہے اور آخرت میں (کافروں کے لئے) عذاب شدید اور (مومنوں کے لئے) خدا کی طرف سے بخشش اور خوشنودی ہے۔ اور دنیا کی زندگی تو متاع فریب ہے", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-57 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

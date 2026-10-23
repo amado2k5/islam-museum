@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 13:14 (سورة الرعد، الآية 14)."
 text: "لَهُۥ دَعْوَةُ ٱلْحَقِّ ۖ وَٱلَّذِينَ يَدْعُونَ مِن دُونِهِۦ لَا يَسْتَجِيبُونَ لَهُم بِشَىْءٍ إِلَّا كَبَـٰسِطِ كَفَّيْهِ إِلَى ٱلْمَآءِ لِيَبْلُغَ فَاهُ وَمَا هُوَ بِبَـٰلِغِهِۦ ۚ وَمَا دُعَآءُ ٱلْكَـٰفِرِينَ إِلَّا فِى ضَلَـٰلٍ"
 text_search: "له دعوة الحق ۖ والذين يدعون من دونه لا يستجيبون لهم بشيء إلا كباسط كفيه إلى الماء ليبلغ فاه وما هو ببالغه ۚ وما دعاء الكافرين إلا في ضلال"
+translations:
+  en: { text: "Unto Him is the real prayer. Those unto whom they pray beside Allah respond to them not at all, save as (is the response to) one who stretcheth forth his hands toward water (asking) that it may come unto his mouth, and it will never reach it. The prayer of disbelievers goeth (far) astray.", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "سودمند پکارنا تو اسی کا ہے اور جن کو یہ لوگ اس کے سوا پکارتے ہیں وہ ان کی پکار کو کسی طرح قبول نہیں کرتے مگر اس شخص کی طرح جو اپنے دونوں ہاتھ پانی کی طرف پھیلا دے تاکہ (دور ہی سے) اس کے منہ تک آ پہنچے حالانکہ وہ (اس تک کبھی بھی) نہیں آسکتا اور (اسی طرح) کافروں کی پکار بیکار ہے", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-13 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

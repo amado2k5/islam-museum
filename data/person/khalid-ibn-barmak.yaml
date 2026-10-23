@@ -1,0 +1,20 @@
+id: person/khalid-ibn-barmak
+class: person
+label: { ar: "خالد بن برمك" }
+gender: male
+roles: [vizier]
+summary:
+  ar: "خالد بن برمك، جد أسرة البرامكة الوزراء؛ تنتسب الأسرة إلى برمك جدها وهو لقب سادن معبد النوبهار في مدينة بلخ. برز خالد في أوائل العهد العباسي بمقدرته الإدارية والمالية ورجاحة عقله وبعد نظره، فقلده السفاح ديوان الخراج وديوان الجند، وتولى وزارة التنفيذ بعد مصرع أبي سلمة الخلال، وعمل مستشاراً للمنصور ومشرفاً على الشؤون المالية ولمع اسمه في بناء مدينة بغداد، وظلت له مكانته في عهد المهدي الذي ولاه مقاطعة فارس سنة ١٦٣هـ {cite:tarikh-dawla-abbasiyya-taqqush p. 97}."
+  en: "Khalid ibn Barmak — founder of the Barmakid viziers' fortunes, holder of the kharaj and army diwans under al-Saffah, al-Mansur's finance minister and Baghdad's builder, governor of Fars in 163 AH {cite:tarikh-dawla-abbasiyya-taqqush p. 97}."
+wings: [people]
+periods: [period/abbasid-early]
+regions: [levant-iraq]
+relations:
+  - { type: member_of, target: group/barmakids, sources: [source/tarikh-dawla-abbasiyya-taqqush] }
+sources: [source/tarikh-dawla-abbasiyya-taqqush]
+provenance:
+  layer: own-research
+  source: "تاريخ الدولة العباسية لمحمد سهيل طقّوش (ط7) ص 97"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-taqqush-abbasi-batch-4
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

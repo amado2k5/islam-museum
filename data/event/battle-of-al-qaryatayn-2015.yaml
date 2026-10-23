@@ -1,0 +1,23 @@
+id: event/battle-of-al-qaryatayn-2015
+class: event
+kind: battle
+label: { ar: "معركة القريتين (٢٠١٥)", en: "Battle of al-Qaryatayn" }
+summary:
+  ar: "بطاقة أولية لمعركة القريتين سنة ٢٠١٥م، أخذ داعش المدينة من الجيش السوري؛ لم تُراجع مصادره على الصفحة بعد."
+  en: "Draft card for the Battle of al-Qaryatayn in 2015, ISIL's capture of the town from the Syrian army; its sources are not yet checked on the page."
+wings: [time]
+periods: [period/contemporary-era]
+regions: [levant-iraq]
+date:
+  start: { edtf: "2015-08-05", precision: year, status: tradition, derived: true }
+  end: { edtf: "2015-08-05", precision: year, status: tradition, derived: true }
+sources: [source/tarikh-islam-hasan-ibrahim]
+external_ids:
+  wikidata: Q20859566
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; battle attested in narrative histories — entry not yet checked on the page"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-wave2
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

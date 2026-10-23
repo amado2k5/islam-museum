@@ -1,0 +1,23 @@
+id: event/battle-of-kazan-1708
+class: event
+kind: battle
+label: { ar: "معركة قازان (١٧٠٨)", en: "Battle of Kazan (1708)" }
+summary:
+  ar: "بطاقة أولية لمعركة قازان سنة ١٧٠٨م، من مصادمات انتفاضة البشكير على الروس؛ لم تُراجع مصادره على الصفحة بعد."
+  en: "Draft card for the Battle of Kazan in 1708, a clash of the Bashkir rebellion against the Russians; its sources are not yet checked on the page."
+wings: [time]
+periods: [period/gunpowder-empires]
+regions: [anatolia-balkans]
+date:
+  start: { edtf: "1708-02", precision: year, status: tradition, derived: true }
+  end: { edtf: "1708-02", precision: year, status: tradition, derived: true }
+sources: [source/tarikh-islam-hasan-ibrahim]
+external_ids:
+  wikidata: "Q122782538"
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; battle attested in narrative histories — entry not yet checked on the page"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-wave2
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

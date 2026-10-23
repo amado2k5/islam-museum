@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 11:116 (سورة هود، الآية 116)."
 text: "فَلَوْلَا كَانَ مِنَ ٱلْقُرُونِ مِن قَبْلِكُمْ أُو۟لُوا۟ بَقِيَّةٍ يَنْهَوْنَ عَنِ ٱلْفَسَادِ فِى ٱلْأَرْضِ إِلَّا قَلِيلًا مِّمَّنْ أَنجَيْنَا مِنْهُمْ ۗ وَٱتَّبَعَ ٱلَّذِينَ ظَلَمُوا۟ مَآ أُتْرِفُوا۟ فِيهِ وَكَانُوا۟ مُجْرِمِينَ"
 text_search: "فلولا كان من القرون من قبلكم أولو بقية ينهون عن الفساد في الأرض إلا قليلا ممن أنجينا منهم ۗ واتبع الذين ظلموا ما أترفوا فيه وكانوا مجرمين"
+translations:
+  en: { text: "If only there had been among the generations before you men possessing a remnant (of good sense) to warn (their people) from corruption in the earth, as did a few of those whom We saved from them! The wrong-doers followed that by which they were made sapless, and were guilty.", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "تو جو اُمتیں تم سے پہلے گزر چکی ہیں، ان میں ایسے ہوش مند کیوں نہ ہوئے جو ملک میں خرابی کرنے سے روکتے ہاں (ایسے) تھوڑے سے (تھے) جن کو ہم نے ان میں سے مخلصی بخشی۔ اور جو ظالم تھے وہ ان ہی باتوں کے پیچھے لگے رہے جس میں عیش وآرام تھا اور وہ گناہوں میں ڈوبے ہوئے تھے", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-11 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

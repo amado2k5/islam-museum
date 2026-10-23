@@ -1,0 +1,23 @@
+id: event/russo-persian-war-1722
+class: event
+kind: war
+label: { ar: "الحرب الروسية الفارسية (١٧٢٢–١٧٢٣)", en: "Russo-Persian War of 1722–1723" }
+summary:
+  ar: "بطاقة أولية للحرب الروسية الفارسية من ١٧٢٢ إلى ١٧٢٣م، حملة بطرس الأكبر على القوقاز بعد سقوط الدولة الصفوية؛ لم تُراجع مصادره على الصفحة بعد."
+  en: "Draft card for the Russo-Persian War of 1722–1723, Peter the Great's Caspian campaign after the Safavid collapse; its sources are not yet checked on the page."
+wings: [time]
+periods: [period/gunpowder-empires]
+regions: [persia-central-asia]
+date:
+  start: { edtf: "1722", precision: year, status: tradition, derived: true }
+  end: { edtf: "1723", precision: year, status: tradition, derived: true }
+sources: [source/tarikh-islam-hasan-ibrahim]
+external_ids:
+  wikidata: Q1418582
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; war attested in Iranian histories — entry not yet checked on the page"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-wave2
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

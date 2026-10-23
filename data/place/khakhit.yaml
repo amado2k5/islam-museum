@@ -1,0 +1,19 @@
+id: place/khakhit
+class: place
+kind: town
+label: { ar: "خاخيط", en: "Khakhit" }
+summary:
+  ar: "خاخيط بلدة بأعمال أرمينية؛ أسكنها مروان بن محمد عشرة آلاف أهل بيت من الصقالبة سباهم من أرض الخزر فقتلوا أميرهم وهربوا فلحقهم وقتلهم."
+  en: "Khakhit, a town of Armenia's district; Marwan ibn Muhammad settled there ten thousand households of Slavs he had carried off from the Khazar land — who then killed their amir and fled, and he overtook and slew them."
+wings: [place]
+periods: [period/umayyad]
+regions: [levant-iraq]
+relations:
+  - { type: site_of, target: event/marwan-caucasus-expedition, sources: [source/futuh-buldan-maarif-1407] }
+provenance:
+  layer: own-research
+  source: "فتوح البلدان (ط مؤسسة المعارف 1407هـ/1987م) ص 292"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-futuh-buldan-batch-18
+sources: [source/futuh-buldan-maarif-1407]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

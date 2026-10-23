@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 39:62 (سورة الزمر، الآية 62)."
 text: "ٱللَّهُ خَـٰلِقُ كُلِّ شَىْءٍ ۖ وَهُوَ عَلَىٰ كُلِّ شَىْءٍ وَكِيلٌ"
 text_search: "الله خالق كل شيء ۖ وهو على كل شيء وكيل"
+translations:
+  en: { text: "Allah is Creator of all things, and He is Guardian over all things.", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "خدا ہی ہر چیز کا پیدا کرنے والا ہے۔ اور وہی ہر چیز کا نگراں ہے", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-39 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

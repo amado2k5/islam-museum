@@ -1,0 +1,85 @@
+id: exhibit/path-ethics
+class: exhibit
+kind: trail
+label:
+  ar: أخلاق المسلم
+  en: Muslim Ethics
+summary:
+  ar: 'مسار في مكارم الأخلاق: الأدب والبر والحياء والإخلاص والصبر والزهد.'
+  en: A trail through noble character.
+audience:
+- newcomer
+- student
+duration_minutes: 30
+wings: []
+regions:
+- global
+rooms:
+- title:
+    ar: الأدب
+    en: Adab
+  body:
+    ar: 'حسن المعاملة: أدب العالم والمعلم والطريق.'
+    en: 'Good conduct: the etiquette of learner and teacher.'
+  features:
+  - concept/adab
+  - question/what-is-adab
+- title:
+    ar: بر الوالدين
+    en: Filial piety
+  body:
+    ar: مقترن بعبادة الله في النص.
+    en: Paired with worshipping God in the text.
+  features:
+  - concept/birr
+  - question/what-is-birr
+- title:
+    ar: الحياء
+    en: Modesty
+  body:
+    ar: شعبة من الإيمان لا يأتي إلا بخير.
+    en: A branch of faith that brings only good.
+  features:
+  - concept/haya
+  - question/what-is-haya
+- title:
+    ar: الإخلاص والرياء
+    en: Sincerity
+  body:
+    ar: أنقياء النية مقابل مرائي العمل.
+    en: Pure intention versus performed piety.
+  features:
+  - question/what-is-ikhlas
+  - question/what-is-riya
+- title:
+    ar: الصبر والتوكل
+    en: Patience
+  body:
+    ar: 'نصف الإيمان: الصبر والتوكل على الله.'
+    en: 'Half of faith: patience and reliance.'
+  features:
+  - question/what-is-sabr
+  - question/what-is-tawakkul
+- title:
+    ar: الزهد
+    en: Zuhd
+  body:
+    ar: ترك ما لا ينفع في الآخرة.
+    en: Leaving what profits not in the hereafter.
+  features:
+  - concept/zuhd
+  - question/what-is-zuhd
+prerequisites:
+- exhibit/path-islam-in-30-minutes
+sources:
+- source/wikidata
+provenance:
+  layer: own-research
+  source: Devin-assembled trail from existing museum entities
+  generated_by: Devin (SWE-2 High)
+  model: SWE-2 High
+  run: pathways-batch-3
+status:
+  review: draft
+  completeness: 1
+  generated_by: Devin (SWE-2 High), pathways lane, 2026-10-16

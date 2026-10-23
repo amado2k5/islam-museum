@@ -1,0 +1,32 @@
+id: polity/hussain-shahi-dynasty
+class: polity
+kind: dynasty
+label:
+  ar: "السلالة الحسينية (البنغال)"
+  en: "Hussain Shahi dynasty"
+summary:
+  ar: "بطاقة أولية للسلالة الحسينية، أسرة سلاطين البنغال من ١٤٩٤ إلى ١٥٣٨م بعاصمتها غور؛ لم تُراجع مصادرها على الصفحة بعد."
+  en: "Draft card for the Hussain Shahi house, the Bengali sultans of 1494–1538 ruling from Gaur; its sources are not yet checked on the page."
+wings: [time]
+periods: [period/crusades-ayyubid-mamluk]
+regions: [south-asia]
+start:
+  edtf: "1494"
+  precision: year
+  status: tradition
+  derived: true
+end:
+  edtf: "1538"
+  precision: year
+  status: tradition
+  derived: true
+sources: [source/tarikh-islam-hasan-ibrahim]
+external_ids:
+  wikidata: Q5949588
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; dynasty attested in Bengali histories — entry not yet checked on the page"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-wave2
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

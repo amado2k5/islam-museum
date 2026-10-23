@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 10:47 (سورة يونس، الآية 47)."
 text: "وَلِكُلِّ أُمَّةٍ رَّسُولٌ ۖ فَإِذَا جَآءَ رَسُولُهُمْ قُضِىَ بَيْنَهُم بِٱلْقِسْطِ وَهُمْ لَا يُظْلَمُونَ"
 text_search: "ولكل أمة رسول ۖ فإذا جاء رسولهم قضي بينهم بالقسط وهم لا يظلمون"
+translations:
+  en: { text: "And for every nation there is a messenger. And when their messenger cometh (on the Day of Judgment) it will be judged between them fairly, and they will not be wronged.", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "اور ہر ایک اُمت کی طرف سے پیغمبر بھیجا گیا۔ جب ان کا پیغمبر آتا ہے تو اُن میں انصاف کے ساتھ فیصلہ کر دیا جاتا ہے اور ان پر کچھ ظلم نہیں کیا جاتا", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-10 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

@@ -1,0 +1,26 @@
+id: person/sadr-al-din-ibn-al-kassar
+class: person
+label: { ar: "صدر الدين ابن الكسار الحافظ", en: "Sadr al-Din ibn al-Kassar" }
+names:
+  - { value: "صدر الدين أبو عبد الله محمد بن إبراهيم بن عبد الله بن محمد بن الكسار الجزري الحافظ", kind: full }
+born: { edtf: "1229~", hijri: "0626", calendar: julian, precision: year, status: tradition, derived: true, note: "ولد سنة ست وعشرين وستمائة {cite:shadharat-dhahab p. 771}." }
+died: { edtf: "1299-04~", hijri: "0698-07", calendar: julian, precision: month, status: tradition, derived: true, note: "توفي في رجب ودفن بمقبرة باب حرب {cite:shadharat-dhahab p. 772}." }
+summary:
+  ar: "الحافظ الجزري؛ سمع من ابن البخاري وجماعة، وكتب حديثاً كثيراً بخطّ حسن، وكان يلبس الخرق ولا يحسن الزيارة، وآخر عمره فتحت له مدرسة دريجة {cite:shadharat-dhahab p. 771-772}."
+gender: male
+roles: [scholar, teacher]
+wings: [people]
+periods: [period/mongol-post-mongol]
+regions: [levant-iraq]
+faith:
+  - value: sunni
+    basis: tradition
+relations:
+  - { type: died_in, target: place/damascus, sources: [source/shadharat-dhahab] }
+sources: [source/shadharat-dhahab]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }
+provenance:
+  layer: own-research
+  source: "شذرات الذهب — ابن العماد (ج7، سنة 698)، قراءة آبل فيجن"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-shadharat-batch-135

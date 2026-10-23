@@ -1,0 +1,28 @@
+id: person/urkhan-ibn-uthman
+class: person
+label: { ar: "أورخان بن عثمان" }
+names:
+  - { kind: full, lang: ar, value: "أورخان بن عثمان بن أرطغرل" }
+gender: male
+roles: [ruler, military]
+died: { edtf: "1360", hijri: "0761", calendar: julian, precision: year, status: tradition, sources: [source/dawlat-uthmaniyya-salabi] }
+summary:
+  ar: "السلطان أورخان بن عثمان (حكم ٧٢٦–٧٦١هـ/١٣٢٧–١٣٦٠م)؛ ثاني سلاطين آل عثمان، سار على سياسة والده في الحكم والفتوحات. سقطت في يده نيقوميديا سنة ٧٢٧هـ فأنشأ بها أول جامعة عثمانية وعهد بإدارتها إلى داود القيصري أحد العلماء العثمانيين الذين درسوا في مصر، واهتم ببناء الجيش على أسس عصرية فجعله جيشاً نظامياً {cite:dawlat-uthmaniyya-salabi p. 52}. يذكر الصلابي أن أورخان نظّم الجيش في عشرات ومئات وألوف وخصّص خمس الغنائم للجيش وأنشأ مراكز للتدريب، وأنه أنشأ فيلقاً جديداً من الأسرى والمسبيين هو فيلق الجنود الجديدة (الينيچري) وأن الفكرة كانت لأخيه علاء الدين، وهو يرد على الروايات التي تصوّر أخذ أبناء النصارى بالإكراه {cite:dawlat-uthmaniyya-salabi p. 53-55}. وضع أورخان خطة استراتيجية لمحاصرة القسطنطينية من الغرب والشرق فأرسل ابنه وولي عهده سليمان لعبور مضيق الدردنيل والاستيلاء على مواقع في الجانب الغربي، فعبر ليلاً في أربعين فارساً وأنشأ القاعدة الأولى في أوروبا {cite:dawlat-uthmaniyya-salabi p. 52}. واستفاد من خلاف ورثة أمير قره سي فضمّ إمارته سنة ٧٣٦هـ/١٣٣٦م، وتدخّل في الخلاف البيزنطي الداخلي، واستثمر زلزلة ١٣٥٨م التي خرّبت حصون تراقيا فأصبحت جليبولو أول قاعدة عثمانية في أوروبا {cite:dawlat-uthmaniyya-salabi p. 56-57}."
+  en: "Sultan Orhan (r. 726–761 AH/1327–1360 CE) — took Nicomedia 727, founded the first Ottoman madrasa there under Dawud al-Qaysari, and made the army a regular force {cite:dawlat-uthmaniyya-salabi p. 52}. Al-Sallabi describes him organizing units in tens, hundreds and thousands, reserving a fifth of spoils, and raising the new 'yeni çeri' corps at his brother Alaeddin's suggestion — an account he marshals against the forced-levy reading {cite:dawlat-uthmaniyya-salabi p. 53-55}. Orhan sent his heir Sulayman across the Dardanelles by night with forty horsemen to open the European front {cite:dawlat-uthmaniyya-salabi p. 52}, annexed the Karasi emirate amid a succession dispute in 736/1336, and exploited the 1358 earthquake and Byzantine civil strife to make Gallipoli the first Ottoman base in Europe {cite:dawlat-uthmaniyya-salabi p. 56-57}."
+wings: [people]
+periods: [period/mongol-post-mongol]
+regions: [anatolia-balkans]
+relations:
+  - { type: child_of, target: person/uthman-i-uthmani, sources: [source/dawlat-uthmaniyya-salabi] }
+  - { type: sibling_of, target: person/alaeddin-pasha, sources: [source/dawlat-uthmaniyya-salabi] }
+  - { type: related_to, target: person/dawud-al-qaysari, role: "عهد إليه إدارة أول مدرسة عثمانية", sources: [source/dawlat-uthmaniyya-salabi] }
+sources: [source/dawlat-uthmaniyya-salabi]
+aliases: [person/orhan-uthmani]
+external_ids:
+  wikidata: Q133168
+provenance:
+  layer: own-research
+  source: "الدولة العثمانية لعلي محمد الصلابي (ط1 1421) ص 52"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-salabi-uthmani-batch-1
+status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 High)" }

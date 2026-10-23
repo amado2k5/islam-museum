@@ -1,0 +1,23 @@
+id: event/battle-of-marj-ayyun-1179
+class: event
+kind: battle
+label: { ar: "معركة مرج عيون", en: "Battle of Marj Ayyun" }
+summary:
+  ar: "بطاقة أولية لمعركة مرج عيون سنة ١١٧٩م، نصر صلاح الدين على جيش مملكة القدس؛ لم تُراجع مصادره على الصفحة بعد."
+  en: "Draft card for the Battle of Marj Ayyun in 1179, Saladin's victory over the army of the Kingdom of Jerusalem; its sources are not yet checked on the page."
+wings: [time]
+periods: [period/crusades-ayyubid-mamluk]
+regions: [levant-iraq]
+date:
+  start: { edtf: "1179", precision: year, status: tradition, derived: true }
+  end: { edtf: "1179", precision: year, status: tradition, derived: true }
+sources: [source/kamil-ibn-al-athir]
+external_ids:
+  wikidata: Q636520
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; battle attested in Crusades histories — entry not yet checked on the page"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-wave2
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

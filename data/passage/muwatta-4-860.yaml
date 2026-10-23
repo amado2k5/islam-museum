@@ -1,0 +1,21 @@
+id: passage/muwatta-4-860
+class: passage
+unit: hadith
+chain: [person/malik-ibn-anas, person/abu-al-zinad, person/abd-al-rahman-ibn-hurmuz-al-araj, person/abu-hurayra, person/muhammad]
+work: work/muwatta-malik
+ref: "860"
+label: { ar: "الموطأ 860 — أبو هريرة: الصيام جُنّة؛ فإذا كان أحدكم صائماً فلا يرفث ولا يجهل، فإن امرؤ قاتله أو شاتمه فليقل: إني صائم، إني صائم", en: "Muwatta 860" }
+text: "الصيام جُنّة؛ فإذا كان أحدكم صائماً فلا يرفث ولا يجهل. فإن امرؤ قاتله أو شاتمه فليقل: إني صائم، إني صائم"
+summary:
+  ar: "يرويه مالك عن أبي الزناد عن الأعرج عن أبي هريرة، أن رسول الله قال: الصيام جنة، فإذا كان أحدكم صائماً فلا يرفث ولا يجهل، فإن امرؤ قاتله أو شاتمه فليقل: إني صائم، إني صائم. ويذكر المحقق أنه رواه عن مالك أبو مصعب ومن طريقه البغوي، وإسحاق الطباع عند أحمد، وروح بن عبادة، وسويد، والقعنبي عند البخاري (1894)، وعبد الرحمن بن القاسم، وغيرهم. {cite:muwatta-maruf-1997 p.415} {cite:muwatta-maruf-1997 p.416}"
+relations:
+  - { type: part_of, target: passage/muwatta-kitab-04-siyam }
+  - { type: mentions, target: person/muhammad, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/abu-hurayra, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/abd-al-rahman-ibn-hormoz-al-araj, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/abu-al-zinad, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/al-bukhari, sources: [source/muwatta-maruf-1997] }
+  - { type: basis_for, target: practice/sawm-ramadan, sources: [source/muwatta-maruf-1997] }
+provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 1, hadith 860 at PDF p. 415; باب جامع الصيام", generated_by: "Claude Code (claude-haiku-5-5) from Apple Vision OCR of the Noor-Book PDF, checked on the page image where doubtful", run: "muwatta-prose-k4-b04" }
+sources: [source/muwatta-maruf-1997]
+status: { review: draft, completeness: 2, generated_by: "Claude Code (claude-haiku-5-5); own-words account written from PDF p. 415; matn excerpt at most 40 words" }

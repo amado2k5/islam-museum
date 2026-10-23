@@ -1,0 +1,21 @@
+id: place/sirwah
+class: place
+kind: site
+label: { ar: "صرواح", en: "Sirwah" }
+summary:
+  ar: "عاصمة مكاربة سبأ في القرون التي خلت قبل سنة 650 ق.م في تقدير الرحيق المختوم؛ توجد أنقاضها على مسافة يوم إلى الجانب الغربي من مأرب وتُعرف باسم خريبة، وفي زمنها بدأ بناء سد مأرب."
+  en: "Capital of the Sabaean mukarribs in the centuries before 650 BCE in al-Raheeq al-Makhtum's reckoning; its ruins lie a day's journey west of Marib and are known as Kharibah; the Marib dam was begun in that age."
+wings: [place]
+periods: [period/pre-islamic-arabia]
+regions: [arabia]
+coordinate_note: "لم تُحدَّد الإحداثيات بعد؛ الموقع الأثري غربي مأرب باليمن."
+relations:
+  - { type: located_in, target: place/yemen, sources: [source/mubarakpuri-raheeq] }
+provenance:
+  layer: own-research
+  source: "الرحيق المختوم ص23 نقلاً عن تفهيم القرآن 4/195–198"
+  generated_by: "Claude Code"
+  model: "claude-fable-5-1"
+  run: "raheeq-prose-batch-2a"
+sources: [source/mubarakpuri-raheeq, source/tafhim-al-quran]
+status: { review: draft, completeness: 1, generated_by: "Claude Code (claude-fable-5-1); al-Raheeq al-Makhtum p. 23" }

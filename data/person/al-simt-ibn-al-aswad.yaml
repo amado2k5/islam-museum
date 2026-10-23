@@ -1,0 +1,18 @@
+id: person/al-simt-ibn-al-aswad
+class: person
+label: { ar: "السمط بن الأسود الكندي", en: "al-Simt ibn al-Aswad al-Kindi" }
+summary:
+  ar: "قائد كندي من فرسان أبي عبيدة بن الجراح في فتوح الشام؛ ولّاه أبو عبيدة على حمص بعد فتحها — وقيل شُرحبيل بن السمط — ثم وجّهه إلى قنسرين حين نقض أهلها وغدروا فحصرهم وفتحها؛ وروى عبادة بن نسي عن عبد الرحمن بن غنم أنه رابط مع السمط مدينة قنسرين فلما فتحها أصاب فيها بقراً وغنماً فقسم فيهم طائفة منها وجعل بقيتها في المغنم."
+  en: "A Kindi commander of Abu Ubayda ibn al-Jarrah in the Syrian conquests; Abu Ubayda set him over Hims after its fall — or by another report Shurahbil ibn al-Simt — then sent him against Qinnasrin when its people broke faith, and he besieged and took it; Ubada ibn Nusayy reported from Abd al-Rahman ibn Ghanm that he kept ribat with al-Simt at Qinnasrin and when it fell cattle and sheep were taken, a portion divided among them and the rest placed in the spoil."
+wings: [people]
+periods: [period/rashidun]
+relations:
+  - { type: participated_in, target: event/conquest-of-qinnasrin, role: "أمير الحصار الثاني وفاتحها بعد النقض", sources: [source/futuh-buldan-maarif-1407] }
+  - { type: participated_in, target: event/conquest-of-hims, role: "وليّ حمص بعد فتحها", sources: [source/futuh-buldan-maarif-1407] }
+provenance:
+  layer: own-research
+  source: "فتوح البلدان (ط مؤسسة المعارف 1407هـ/1987م) ص 197–198"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-futuh-buldan-batch-10
+sources: [source/futuh-buldan-maarif-1407]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

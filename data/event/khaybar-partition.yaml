@@ -1,0 +1,19 @@
+id: event/khaybar-partition
+class: event
+kind: expulsion
+label: { ar: "قسمة خيبر وجلاء يهود نجران", en: "the Khaybar partition and the expulsion of Najran's Jews (20 AH)" }
+date:
+  start: { edtf: "0641", hijri: "0020", calendar: julian, precision: year, status: tradition, derived: true, note: "سنة 20؛ التحويل مشتق {cite:kamil-ibn-al-athir p. 387}." }
+summary:
+  ar: "فيها قسّم عمر خيبر بين المسلمين وأجلى اليهود عنها وقسّم وادي القرى، وأجلى يهود نجران إلى الكوفة {cite:kamil-ibn-al-athir p. 387}."
+  en: "'Umar divided Khaybar among the Muslims, removed its Jews, divided Wadi'l-Qura, and moved the Jews of Najran to Kufa {cite:kamil-ibn-al-athir p. 387}."
+relations:
+  - { type: occurred_at, target: place/khaybar, sources: [source/kamil-ibn-al-athir] }
+  - { type: had_participant, target: person/umar-ibn-al-khattab, sources: [source/kamil-ibn-al-athir] }
+provenance:
+  layer: own-research
+  source: "الكامل في التاريخ لابن الأثير (دار الكتاب العربي 2012، ج2)، قراءة آبل فيجن"
+  generated_by: "Devin (SWE-2 Medium) from Apple Vision OCR"
+  run: lib-kamil-v2-batch03
+sources: [source/kamil-ibn-al-athir]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 Medium)" }

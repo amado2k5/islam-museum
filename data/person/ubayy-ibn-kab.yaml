@@ -1,7 +1,7 @@
 id: person/ubayy-ibn-kab
 class: person
 label:
-  ar: أبي بن كعب
+  ar: أبي بن كعب، وعند ابن النديم أن تأليف السور في قراءته كان بالبصرة في قرية الأنصار عند محمد بن عبد الملك الأنصاري وأن مصحفه مائة وست عشرة سورة فيها سورتا الخلع والحفد وأن جميع آي القرآن في قوله ستة آلاف ومائتان وعشر آيات {cite:fihrist-ibn-al-nadim p. 67-68}
   en: Ubayy ibn Ka'b
 names:
 - kind: full
@@ -19,8 +19,7 @@ summary:
   ar: «سيد القراء» من الأنصار، من أصحاب العقبة الثانية وشهد بدراً والمشاهد كلها؛ قال له النبي إن الله أمره أن يقرأ عليه، وكان عمر يسميه سيد المسلمين؛ وفي تاريخ وفاته أقوال بين سنة 19هـ و32هـ يرجح ابن حجر وأبو نعيم أنها في خلافة عثمان.
   en: The 'master of the reciters' among the Ansar, present at the second pledge of al-Aqaba, at Badr and in all the campaigns; the Prophet told him that God had commanded him to recite to him, and Umar called him the master of the Muslims; the
     date of his death is given from 19 AH to 32 AH, and Abu Nu'aym favours the caliphate of Uthman.
-wings:
-- people
+wings: [people]
 themes:
 - scripture-and-its-sciences
 periods:
@@ -65,6 +64,7 @@ provenance:
   generated_by: Claude (maintainer session)
   model: claude-sonnet-5-5
   run: isaba-batch-6
+external_ids: { wikidata: "Q2743400" }
 sources:
 - source/ibn-hajar-isaba
 status:

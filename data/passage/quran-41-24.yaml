@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 41:24 (سورة فصلت، الآية 24)."
 text: "فَإِن يَصْبِرُوا۟ فَٱلنَّارُ مَثْوًى لَّهُمْ ۖ وَإِن يَسْتَعْتِبُوا۟ فَمَا هُم مِّنَ ٱلْمُعْتَبِينَ"
 text_search: "فإن يصبروا فالنار مثوى لهم ۖ وإن يستعتبوا فما هم من المعتبين"
+translations:
+  en: { text: "And though they are resigned, yet the Fire is still their home; and if they ask for favour, yet they are not of those unto whom favour can be shown.", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "اب اگر یہ صبر کریں گے تو ان کا ٹھکانا دوزخ ہے۔ اور اگر توبہ کریں گے تو ان کی توبہ قبول نہیں کی جائے گی", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-41 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

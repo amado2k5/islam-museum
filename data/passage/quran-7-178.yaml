@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 7:178 (سورة الأعراف، الآية 178)."
 text: "مَن يَهْدِ ٱللَّهُ فَهُوَ ٱلْمُهْتَدِى ۖ وَمَن يُضْلِلْ فَأُو۟لَـٰٓئِكَ هُمُ ٱلْخَـٰسِرُونَ"
 text_search: "من يهد الله فهو المهتدي ۖ ومن يضلل فأولئك هم الخاسرون"
+translations:
+  en: { text: "He whom Allah leadeth, he indeed is led aright, while he whom Allah sendeth astray - they indeed are losers.", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "جس کو خدا ہدایت دے وہی راہ یاب ہے اور جس کو گمراہ کرے تو ایسے ہی لوگ نقصان اٹھانے والے ہیں", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-7 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

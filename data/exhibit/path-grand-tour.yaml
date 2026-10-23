@@ -1,0 +1,110 @@
+id: exhibit/path-grand-tour
+class: exhibit
+kind: trail
+label:
+  ar: الجولة الكبرى
+  en: The Grand Tour
+summary:
+  ar: 'مسار التعريف الكامل بالمتحف: من السيرة إلى الخلفاء إلى العلم إلى الفن إلى الحاضر — عشر غرف للقارئ
+    الجديد.'
+  en: The museum's grand tour for the new visitor.
+audience:
+- newcomer
+- student
+duration_minutes: 30
+wings: []
+regions:
+- global
+rooms:
+- title:
+    ar: البداية
+    en: The beginning
+  body:
+    ar: 'النبي والسيرة: القصة تبدأ.'
+    en: 'النبي والسيرة: القصة تبدأ.'
+  features:
+  - person/muhammad
+  - building/kaaba
+  - practice/salat
+- title:
+    ar: الكتاب
+    en: The Book
+  body:
+    ar: 'القرآن والسنة: المصدران.'
+    en: 'القرآن والسنة: المصدران.'
+  features:
+  - passage/quran-1
+  - work/sahih-al-bukhari
+  - concept/isnad
+- title:
+    ar: الخلافة
+    en: The caliphate
+  body:
+    ar: من أبي بكر إلى آخر العثمانيين.
+    en: من أبي بكر إلى آخر العثمانيين.
+  features:
+  - person/abu-bakr
+  - polity/ottoman-empire
+- title:
+    ar: العلم
+    en: Science
+  body:
+    ar: 'بيت الحكمة إلى مراغة: قرن الذهب.'
+    en: 'بيت الحكمة إلى مراغة: قرن الذهب.'
+  features:
+  - building/bayt-al-hikma
+  - person/al-khwarizmi
+  - person/nasir-al-din-al-tusi
+- title:
+    ar: الفن
+    en: The arts
+  body:
+    ar: 'العمارة والخط والمخطوط: الفنون.'
+    en: 'العمارة والخط والمخطوط: الفنون.'
+  features:
+  - building/dome-of-the-rock
+  - object/al-mushaf-al-azraq
+  - building/masjid-sultan-hasan
+- title:
+    ar: العالم
+    en: The world
+  body:
+    ar: 'من الأندلس إلى جاوة: الأمة كلها.'
+    en: 'من الأندلس إلى جاوة: الأمة كلها.'
+  features:
+  - place/al-andalus
+  - place/java
+  - place/timbuktu
+- title:
+    ar: الشاشة
+    en: The screen
+  body:
+    ar: 'الإسلام في السينما: 300 عمل.'
+    en: 'الإسلام في السينما: 300 عمل.'
+  features:
+  - screen/al-risala-1976
+  - screen/umar-al-mukhtar-1981
+- title:
+    ar: اليوم
+    en: Today
+  body:
+    ar: 'الأحياء: الأعمال والتعليم والخير.'
+    en: 'الأحياء: الأعمال والتعليم والخير.'
+  features:
+  - listing/islamic-relief
+  - listing/zaytuna-college
+  - person/muhammad-iqbal
+prerequisites:
+- exhibit/path-islam-in-30-minutes
+sources:
+- source/wikidata
+provenance:
+  layer: own-research
+  source: Devin-assembled trail from existing museum entities
+  generated_by: Devin (SWE-2 High)
+  model: SWE-2 High
+  run: pathways-batch-7
+status:
+  review: draft
+  completeness: 1
+  generated_by: Devin (SWE-2 High), pathways lane, 2026-10-16

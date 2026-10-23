@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 6:4 (سورة الأنعام، الآية 4)."
 text: "وَمَا تَأْتِيهِم مِّنْ ءَايَةٍ مِّنْ ءَايَـٰتِ رَبِّهِمْ إِلَّا كَانُوا۟ عَنْهَا مُعْرِضِينَ"
 text_search: "وما تأتيهم من آية من آيات ربهم إلا كانوا عنها معرضين"
+translations:
+  en: { text: "Never came there unto them a revelation of the revelations of Allah but they did turn away from it.", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "اور خدا کی نشانیوں میں سے کوئی نشانی ان لوگوں کے پاس نہیں آتی مگر یہ اس سے منہ پھیر لیتے ہیں", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-6 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

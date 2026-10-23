@@ -1,0 +1,19 @@
+id: person/al-harith-ibn-malik-ibn-al-barsa
+class: person
+label: { ar: "الحارث بن مالك ابن البرصاء الليثي", en: "Al-Harith ibn Malik ibn al-Barsa' al-Laythi" }
+names:
+  - { kind: full, lang: ar, value: "الحارث بن مالك ابن البرصاء الليثي" }
+gender: male
+roles: [companion]
+summary:
+  ar: "رجل من ليث لقيته سرية غالب بن عبد الله بقديد فأخذوه، فقال إنه جاء يريد الإسلام وما خرج إلا إلى رسول الله، فأوثقوه رباط ليلة وخلّفوا عليه رجلاً ثم احتملوه معهم في الرجوع."
+  en: "A man of Layth whom Ghalib ibn Abdullah's detachment met at Qudayd and seized; he said he was on his way to the Prophet to embrace Islam, so they bound him for the night under a guard and carried him along on the way back."
+wings: [people]
+periods: [period/prophetic-era]
+regions: [arabia]
+relations:
+  - { type: participated_in, target: event/raid-of-ghalib-on-banu-al-mulawwah, role: "أُخذ بقديد", sources: [source/ibn-hisham-saqqa] }
+  - { type: member_of, target: group/kinana, note: "الليثي", sources: [source/ibn-hisham-saqqa] }
+provenance: { layer: own-research, source: "sira-ibn-hisham saqqa 1936, juz' 4 pp. 258-259", generated_by: "Claude Code", model: "claude-fable-5-1", run: "ibn-hisham-batch-13" }
+sources: [source/ibn-hisham-saqqa]
+status: { review: draft, completeness: 1, generated_by: "Claude Fable 5.1; mined from Ibn Hisham juz' 4 pp. 258-259" }

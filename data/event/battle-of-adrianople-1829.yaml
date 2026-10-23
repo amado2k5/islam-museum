@@ -1,0 +1,23 @@
+id: event/battle-of-adrianople-1829
+class: event
+kind: battle
+label: { ar: "معركة أدرنة (١٨٢٩)", en: "Battle of Adrianople (1829)" }
+summary:
+  ar: "بطاقة أولية لدخول الجيش الروسي مدينة أدرنة العثمانية سنة ١٨٢٩م في حرب البلقان؛ لم تُراجع مصادره على الصفحة بعد."
+  en: "Draft card for the Russian capture of Adrianople in 1829 during the Russo-Turkish War; its sources are not yet checked on the page."
+wings: [time]
+periods: [period/colonial-era]
+regions: [anatolia-balkans]
+date:
+  start: { edtf: "1829-08-08", precision: year, status: tradition, derived: true }
+  end: { edtf: "1829-08-08", precision: year, status: tradition, derived: true }
+sources: [source/dawlat-uthmaniyya-salabi]
+external_ids:
+  wikidata: Q28155605
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; battle attested in narrative histories — entry not yet checked on the page"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-wave2
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

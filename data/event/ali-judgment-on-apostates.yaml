@@ -1,0 +1,34 @@
+id: event/ali-judgment-on-apostates
+class: event
+kind: court-ruling
+label: { ar: "أحكام علي في عقوبة المرتد والزنديق وطرق قتلهم", en: "Ali's rulings on the apostate and the zindiq, and the ways he killed them" }
+summary:
+  ar: "قال علي: يُستتاب المرتد ثلاثاً فإن عاد وإلا قُتل، وروي عنه في الزنديق قولان، وفي المرأة المرتدة قولان. وينقل الصلابي أن علياً قتل المرتدين بالسيف، وبالضرب حتى الموت، وبالإحراق بعد القتل، كما في قصة المستورد العجلي، وأنه أحرق السبئية {cite:sallabi-ali-vol1 p. 302}{cite:sallabi-ali-vol1 p. 303}."
+  en: "Ali is reported to have said the apostate is asked to repent three times and then killed; the book gives two reports on the zindiq and two on women apostates. It lists the methods Ali used: the sword, beating to death, burning after killing (Mustawrid al-Ijli), and burning the Saba'iyya."
+wings: [people, ideas]
+themes: [crime-and-punishment, law-and-courts, converts-and-leavers]
+periods: [period/rashidun]
+regions: [levant-iraq]
+date:
+  start: { edtf: "0656/0661", calendar: julian, precision: year, status: tradition, derived: true, note: "الكتاب يعرض أحكاماً منسوبة لعلي دون تاريخ محدد؛ الإطار خلافة علي مشتق؛ ثقة منخفضة." }
+relations:
+  - { type: had_participant, target: person/ali-ibn-abi-talib, role: "صاحب الأحكام المنسوبة إليه", sources: [source/sallabi-ali-vol1] }
+  - { type: had_participant, target: person/mustawrid-al-ijli, role: "المرتد الذي أُحرق بعد قتله", sources: [source/sallabi-ali-vol1] }
+  - { type: part_of, target: period/rashidun }
+issue: { ar: "ما عقوبة المرتد والزنديق والمرأة المرتدة؟", en: "What is the penalty for an apostate, a zindiq, and a female apostate?" }
+perspectives:
+  - tradition: sunni
+    id: sunni-author
+    summary:
+      ar: "يرجح الكتاب قتل المرتد بعد الاستتابة ويستند إلى حديث «من بدل دينه فاقتلوه»، وإلى ما رواه ابن أبي شيبة عن علي {cite:sallabi-ali-vol1 p. 302}. وينقل عن ابن تيمية أن قتل المرتد «حفظ لأهل الدين والدين» {cite:sallabi-ali-vol1 p. 303}."
+      en: "The book prefers execution after a call to repentance, citing the hadith on the one who changes his religion and Ali's ruling in Ibn Abi Shayba; it quotes Ibn Taymiyya that killing the apostate protects the people of the religion {cite:sallabi-ali-vol1 p. 302}{cite:sallabi-ali-vol1 p. 303}."
+    sources: [source/sallabi-ali-vol1]
+  - tradition: academic
+    id: academic-view
+    summary:
+      ar: "يعرض الكتاب خلاف الصحابة والفقهاء في المرأة المرتدة (قتلها أو استرقاقها) وفي الزنديق، دون ترجيح واضح في هذا الموضع، ولم يُنقل هنا نص من مرجع أكاديمي حديث (needs_source) {cite:sallabi-ali-vol1 p. 302}."
+      en: "The book sets out differences over the female apostate and the zindiq without a clear preference here; no modern academic source is quoted in this passage (needs_source) {cite:sallabi-ali-vol1 p. 302}."
+    sources: [source/sallabi-ali-vol1]
+provenance: { layer: own-research, source: "sallabi-ali-vol1 pp. 302-303", generated_by: "Claude Code", model: "claude-haiku-5-5", run: "sallabi-ali-vol1-deep-pp301-350" }
+sources: [source/sallabi-ali-vol1]
+status: { review: draft, completeness: 1, generated_by: "Claude Code (claude-haiku-5-5); mined from sallabi-ali-vol1 pp. 302-303; contested" }

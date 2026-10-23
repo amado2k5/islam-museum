@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 4:88 (سورة النساء، الآية 88)."
 text: "۞ فَمَا لَكُمْ فِى ٱلْمُنَـٰفِقِينَ فِئَتَيْنِ وَٱللَّهُ أَرْكَسَهُم بِمَا كَسَبُوٓا۟ ۚ أَتُرِيدُونَ أَن تَهْدُوا۟ مَنْ أَضَلَّ ٱللَّهُ ۖ وَمَن يُضْلِلِ ٱللَّهُ فَلَن تَجِدَ لَهُۥ سَبِيلًا"
 text_search: "۞ فما لكم في المنافقين فئتين والله أركسهم بما كسبوا ۚ أتريدون أن تهدوا من أضل الله ۖ ومن يضلل الله فلن تجد له سبيلا"
+translations:
+  en: { text: "What aileth you that ye are become two parties regarding the hypocrites, when Allah cast them back (to disbelief) because of what they earned? Seek ye to guide him whom Allah hath sent astray? He whom Allah sendeth astray, for him thou (O MUhammad) canst not find a road.", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "تو کیا سبب ہے کہ تم منافقوں کے بارے میں دو گروہ ہو رہے ہو حالانکہ خدا نے ان کو ان کے کرتوتوں کے سبب اوندھا کردیا ہے کیا تم چاہتے ہو کہ جس شخص کو خدا نے گمراہ کردیا ہے اس کو رستے پر لے آؤ اور جس شخص کو خدا گمراہ کردے تو اس کے لئے کبھی بھی رستہ نہیں پاؤ گے", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-4 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

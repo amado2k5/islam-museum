@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 39:9 (سورة الزمر، الآية 9)."
 text: "أَمَّنْ هُوَ قَـٰنِتٌ ءَانَآءَ ٱلَّيْلِ سَاجِدًا وَقَآئِمًا يَحْذَرُ ٱلْـَٔاخِرَةَ وَيَرْجُوا۟ رَحْمَةَ رَبِّهِۦ ۗ قُلْ هَلْ يَسْتَوِى ٱلَّذِينَ يَعْلَمُونَ وَٱلَّذِينَ لَا يَعْلَمُونَ ۗ إِنَّمَا يَتَذَكَّرُ أُو۟لُوا۟ ٱلْأَلْبَـٰبِ"
 text_search: "أمن هو قانت آناء الليل ساجدا وقائما يحذر الآخرة ويرجو رحمة ربه ۗ قل هل يستوي الذين يعلمون والذين لا يعلمون ۗ إنما يتذكر أولو الألباب"
+translations:
+  en: { text: "Is he who payeth adoration in the watches of the night, prostrate and standing, bewaring of the Hereafter and hoping for the mercy of his Lord, (to be accounted equal with a disbeliever)? Say (unto them, O Muhammad): Are those who know equal with those who know not? But only men of understanding will pay heed.", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "(بھلا مشرک اچھا ہے) یا وہ جو رات کے وقتوں میں زمین پر پیشانی رکھ کر اور کھڑے ہو کر عبادت کرتا اور آخرت سے ڈرتا اور اپنے پروردگار کی رحمت کی امید رکھتا ہے۔ کہو بھلا جو لوگ علم رکھتے ہیں اور جو نہیں رکھتے دونوں برابر ہوسکتے ہیں؟ (اور) نصیحت تو وہی پکڑتے ہیں جو عقلمند ہیں", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-39 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 77:38 (سورة المرسلات، الآية 38)."
 text: "هَـٰذَا يَوْمُ ٱلْفَصْلِ ۖ جَمَعْنَـٰكُمْ وَٱلْأَوَّلِينَ"
 text_search: "هذا يوم الفصل ۖ جمعناكم والأولين"
+translations:
+  en: { text: "This is the Day of Decision, We have brought you and the men of old together.", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "یہی فیصلے کا دن ہے (جس میں) ہم نے تم کو اور پہلے لوگوں کو جمع کیا ہے", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-77 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

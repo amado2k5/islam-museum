@@ -1,0 +1,23 @@
+id: event/siege-of-mecca-683
+class: event
+kind: siege
+label: { ar: "حصار مكة (٦٨٣)", en: "Siege of Mecca" }
+summary:
+  ar: "بطاقة أولية لحصار مكة سنة ٦٨٣م، حصار جيش يزيد للكعبة الذي اشتعلت فيه النار في الحرم؛ لم تُراجع مصادره على الصفحة بعد."
+  en: "Draft card for the Siege of Mecca in 683, Yazid's army's blockade that set the sanctuary aflame; its sources are not yet checked on the page."
+wings: [time]
+periods: [period/umayyad]
+regions: [arabia]
+date:
+  start: { edtf: "683", precision: year, status: tradition, derived: true }
+  end: { edtf: "683", precision: year, status: tradition, derived: true }
+sources: [source/tarikh-al-tabari]
+external_ids:
+  wikidata: Q3023525
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; siege attested in the early-fitna histories — entry not yet checked on the page"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-wave2
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

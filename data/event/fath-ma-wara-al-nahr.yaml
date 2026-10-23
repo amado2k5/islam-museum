@@ -1,0 +1,23 @@
+id: event/fath-ma-wara-al-nahr
+class: event
+kind: conquest
+label: { ar: "الفتح الإسلامي لما وراء النهر", en: "Muslim conquest of Transoxiana" }
+summary:
+  ar: "بطاقة أولية للفتح الإسلامي لما وراء النهر، حملات قتيبة بن مسلم التي ضمت بخارى وسمرقند وخوارزم بين ٧٠٥ و٧١٥م؛ لم تُراجع مصادره على الصفحة بعد."
+  en: "Draft card for the Muslim conquest of Transoxiana, Qutayba ibn Muslim's campaigns that annexed Bukhara, Samarkand and Khwarezm between 705 and 715; its sources are not yet checked on the page."
+wings: [time]
+periods: [period/umayyad]
+regions: [persia-central-asia]
+date:
+  start: { edtf: "705", precision: year, status: tradition, derived: true }
+  end: { edtf: "751", precision: year, status: tradition, derived: true }
+sources: [source/futuh-buldan-maarif-1407]
+external_ids:
+  wikidata: Q4817850
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; conquest attested in Futuh al-Buldan — entry not yet checked on the page"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-wave2
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

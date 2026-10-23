@@ -1,0 +1,23 @@
+id: event/battle-of-sardrud-1408
+class: event
+kind: battle
+label: { ar: "معركة سردرود (١٤٠٨)", en: "Battle of Sardrud" }
+summary:
+  ar: "بطاقة أولية لمعركة سردرود سنة ١٤٠٨م، فوز قره يوسف على ميران شاه التيموري ومقتله في أذربيجان؛ لم تُراجع مصادره على الصفحة بعد."
+  en: "Draft card for the Battle of Sardrud in 1408, Qara Yusuf's victory over the Timurids in Azerbaijan; its sources are not yet checked on the page."
+wings: [time]
+periods: [period/crusades-ayyubid-mamluk]
+regions: [persia-central-asia]
+date:
+  start: { edtf: "1408-04-21", precision: year, status: tradition, derived: true }
+  end: { edtf: "1408-04-21", precision: year, status: tradition, derived: true }
+sources: [source/tarikh-islam-hasan-ibrahim]
+external_ids:
+  wikidata: Q25476739
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; battle attested in narrative histories — entry not yet checked on the page"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-wave2
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

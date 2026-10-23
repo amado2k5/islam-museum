@@ -1,20 +1,32 @@
 ---
 id: person/abu-jahl
 lang: en
-source_lang: en
-translators: []
+source_lang: ar
+translators: ["Claude Haiku 5.5 (claude-haiku-5-5), draft translation"]
 ---
 
-## Brief
-Abu Jahl — "Father of Ignorance," the Muslims' name for Amr ibn Hisham, whom his own people called "Father of Wisdom" — was the driving force of Meccan opposition to Muhammad. The sira's account of the opposition is, in large part, his biography.
+## Summary
+Abu Jahl, "Father of Ignorance," is the Muslims' name for Amr ibn Hisham, whom his own people called "Abu al-Hakam" ("Father of Wisdom"). He was the driving force of Mecca's opposition to Muhammad, and the story of that opposition is, to a large degree, his story.
 
 ## Life
-A headman of [[group/banu-makhzum|Banu Makhzum]], Abu Jahl emerges in the sources wherever the pressure on the early Muslims was organized: the boycott document against [[group/banu-hashim|Banu Hashim]] hung in the Kaaba, the council that plotted the Prophet's assassination at [[event/plot-of-dar-al-nadwa|Dar al-Nadwa]], and the documented persecution of vulnerable converts — the tradition attributes to him the killing of Sumayya bint Khayyat {cite:ibn-ishaq-guillaume} {cite:ibn-sad-tabaqat-bewley}.
+A chief of [[group/banu-makhzum|Banu Makhzum]], Abu Jahl appears in the sources wherever pressure on the Muslims was organized: the boycott document against [[group/banu-hashim|Banu Hashim]] hung in the Kaaba, the council at [[event/plot-of-dar-al-nadwa|Dar al-Nadwa]] that planned the Prophet's assassination, and the documented torment of the weak. The tradition attributes to him the killing of Sumayya bint Khayyat {cite:ibn-ishaq-guillaume} {cite:ibn-sad-tabaqat-bewley}.
 
-He led the Meccan relief army out to save the caravan at Badr, overruled voices urging return, and was killed in the rout — March 624 CE {cite:watt-1953-mecca}.
+He led Mecca's army to relieve the caravan at Badr, and his voice prevailed over those calling for a return. He was killed in the defeat, in March 624 CE {cite:watt-1953-mecca}.
 
 ## Legacy
-His death at Badr is the hinge of the sira: the opposition lost its engine in a single afternoon. The museum records him as the sources do — the most consequential of the Prophet's opponents, and the first great "what if" of the story.
+His death at Badr is a hinge of the sira: the opposition lost its driving force in a single day. The museum presents him as the sources do, as the most consequential of the Prophet's opponents and the first great "what if" of the story.
 
 ## For young visitors
-Abu Jahl fought hardest of anyone to stop the new religion — and died in its first great battle. His sons later became Muslims.
+Abu Jahl fought harder than anyone to stop the new religion, and he died in its first great battle. His sons later embraced Islam.
+
+## Slapping Asma bint Abi Bakr (The Sealed Nectar, p.165)
+When the Quraysh went to the house of Abu Bakr and asked Asma about her father, and she said she did not know, Abu Jahl struck her a slap that knocked off her earring. This was at the time of the [[event/hijra-night-escape|Prophet's departure from his house and his hiding in the cave]] {cite:mubarakpuri-raheeq p.165} {cite:ibn-hisham-sira 1/487}.
+
+## Taunting Sa'd ibn Mu'adh (The Sealed Nectar, p.195)
+He met Sa'd ibn Mu'adh circling the Kaaba in Mecca and said to him that he was circling in safety while they had sheltered those who had turned away from the old religion. Sa'd replied that his road passes by the people of Medina ([[event/quraysh-letter-to-ibn-ubayy|Quraysh's threat]]) {cite:mubarakpuri-raheeq p.195}.
+
+## Leading Mecca's army to Badr (The Sealed Nectar, pp.206–208)
+He was the commander of Mecca's army. He disobeyed al-Akhnas ibn Shariq when al-Akhnas advised turning back, and said that he would not return until he reached Badr, slaughtered camels, served wine, and let the Arabs hear of their gathering. He also did not let the Banu Hashim turn back ([[event/badr-expedition-setup|Preparations before Badr]]) {cite:mubarakpuri-raheeq p.206} {cite:mubarakpuri-raheeq p.207} {cite:mubarakpuri-raheeq p.208}.
+
+## His death at Badr (The Sealed Nectar, pp.220–221)
+Two young men of the Ansar killed him, and then Ibn Mas'ud finished him off. The Prophet called him the Pharaoh of this community ([[event/death-of-abu-jahl|The death of Abu Jahl]]) {cite:mubarakpuri-raheeq p.221}.

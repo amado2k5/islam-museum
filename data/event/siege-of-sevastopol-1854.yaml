@@ -1,0 +1,23 @@
+id: event/siege-of-sevastopol-1854
+class: event
+kind: siege
+label: { ar: "حصار سيفاستوبول (١٨٥٤–١٨٥٥)", en: "Siege of Sevastopol" }
+summary:
+  ar: "بطاقة أولية لحصار سيفاستوبول من ١٨٥٤ إلى ١٨٥٥م، حصار حرب القرم التي قاتلت فيها الدولة العثمانية إلى جانب الحلفاء؛ لم تُراجع مصادره على الصفحة بعد."
+  en: "Draft card for the Siege of Sevastopol from 1854 to 1855, the Crimean War's great siege in which the Ottoman state fought alongside the allies; its sources are not yet checked on the page."
+wings: [time]
+periods: [period/colonial-era]
+regions: [anatolia-balkans]
+date:
+  start: { edtf: "1854", precision: year, status: tradition, derived: true }
+  end: { edtf: "1855", precision: year, status: tradition, derived: true }
+sources: [source/dawlat-uthmaniyya-salabi]
+external_ids:
+  wikidata: Q815216
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; siege attested in Crimean-War histories — entry not yet checked on the page"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-wave2
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

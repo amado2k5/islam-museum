@@ -1,0 +1,25 @@
+---
+id: building/kaaba
+lang: en
+source_lang: ar
+translators: ["Claude Haiku 5.5 (claude-haiku-5-5), draft translation"]
+---
+
+## Summary
+The Kaaba is the House whose foundations Abraham and Ismail raised. Its custodianship passed to the descendants of Ismail, then to Jurhum, then to Khuza'a, and then to Quraysh.
+
+## The story
+Abraham settled Hajar and her son in a barren valley beside the Sacred House of God, which at that time was only a raised mound of earth, like a hillock, to which the floods came and divided around its right and left sides {cite:sahih-al-bukhari}. On his third journey, he and Ismail built the Kaaba and raised its foundations {cite:mubarakpuri-raheeq}.
+
+Ismail held the leadership of Mecca and the custody of the House all his life. It then passed to Jurhum for about twenty centuries, then to Khuza'a for three hundred years, and then to Qusayy and Quraysh from about 440 CE {cite:qalb-jazirat-al-arab}. The idolaters filled the Sacred Mosque with idols. When the Prophet conquered Mecca, he found three hundred and sixty idols around the House, and he ordered them removed and burned {cite:mubarakpuri-raheeq}.
+
+## For young visitors
+The Kaaba is God's House in Mecca. Abraham and his son Ismail built it, and people have continued to make pilgrimage to it through the ages.
+
+## From the introduction to The Sealed Nectar
+When Abraham settled Hajar and Ismail, the site of the House was a raised mound of earth, like a hillock, to which floods came and divided around its right and left sides. Then Abraham and Ismail built the Kaaba and raised its foundations, during Abraham's third journey, which is preserved in the record {cite:mubarakpuri-raheeq p.18} {cite:mubarakpuri-raheeq p.20} {cite:sahih-al-bukhari 1/474-476}. Ismail held charge of the House all his life; then Jurhum, for about twenty centuries; then Khuza'a, for three hundred years; then Qusayy and Quraysh from about 440 CE {cite:mubarakpuri-raheeq p.27} {cite:mubarakpuri-raheeq p.29} {cite:mubarakpuri-raheeq p.30} {cite:qalb-jazirat-al-arab p.230-237}. When Jurhum was expelled, [[person/amr-ibn-al-harith-al-jurhumi|'Amr ibn al-Harith al-Jurhumi]] buried the two gazelles of the Kaaba and the Black Stone in the well of Zamzam {cite:mubarakpuri-raheeq p.28} {cite:ibn-hisham-sira 1/114-115}. The custodianship of the Kaaba was among Qusayy's five offices, and it later passed to the Banu Abd al-Dar {cite:mubarakpuri-raheeq p.31} (see [[concept/manasib-quraysh|the offices of Quraysh]]). Abraha wanted to divert the Arabs' pilgrimage to his church and to demolish the House {cite:mubarakpuri-raheeq p.41}. 'Amr ibn Luhayy placed Hubal inside the Kaaba, and the idolaters filled the Sacred Mosque with idols, until on the day of the Conquest the Prophet found three hundred and sixty idols around the House {cite:mubarakpuri-raheeq p.35} {cite:mukhtasar-sirat-al-rasul p.50-54}.
+
+## Quraysh's rebuilding in The Sealed Nectar (pp. 61–62)
+The Kaaba had been a heap of rubble rising above a man's height, nine cubits high since the time of Ismail, and it had no roof. Its treasure inside was stolen, and the assaults of time had weakened its structure. Then a flood swept through Mecca five years before the mission, and the building was close to collapse, so Quraysh rebuilt it in the thirty-fifth year after the Prophet's birth ([[event/rebuilding-of-the-kaaba|the rebuilding of the Kaaba]]) {cite:mubarakpuri-raheeq p.61} {cite:ibn-hisham-sira 1/192-197}. Pure funds fell short for them, so from the northern side they left out about six cubits, which are the Hijr and the Hatim. They raised its door above the ground, and they roofed it on six pillars when the structure had reached fifteen cubits {cite:mubarakpuri-raheeq p.62} {cite:sahih-al-bukhari 1/215} {cite:muhadarat-tarikh-al-umam-al-islamiyya 1/64-65}.
+
+After the rebuilding, the author describes it as roughly square and fifteen metres high. The side containing the Black Stone and the side opposite it are ten metres and ten centimetres long; the Stone is one and a half metres above the floor of the tawaf. The side containing the door and the side opposite it are twelve metres long, and the door is two metres high. A ledge of masonry called the shadhirwan runs around it from the outside, averaging a quarter of a metre in height and about a third of a metre in width. It is part of the original House, but Quraysh left it out {cite:mubarakpuri-raheeq p.62}.

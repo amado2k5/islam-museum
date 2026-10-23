@@ -1,0 +1,32 @@
+id: polity/numayrid-dynasty
+class: polity
+kind: dynasty
+label:
+  ar: "النميريون"
+  en: "Numayrid dynasty"
+summary:
+  ar: "بطاقة أولية للنميريين، الأسرة العربية البدوية التي حكمت الرها والرقة وحران في القرن الحادي عشر؛ لم تُراجع مصادرها على الصفحة بعد."
+  en: "Draft card for the Numayrids, the Arab Bedouin house that held Edessa, Raqqa and Harran in the eleventh century; its sources are not yet checked on the page."
+wings: [time]
+periods: [period/buyid-seljuk-fatimid-era]
+regions: [levant-iraq]
+start:
+  edtf: "990"
+  precision: year
+  status: tradition
+  derived: true
+end:
+  edtf: "1081"
+  precision: year
+  status: tradition
+  derived: true
+sources: [source/kamil-ibn-al-athir]
+external_ids:
+  wikidata: Q27628132
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; dynasty attested in Jaziran histories — entry not yet checked on the page"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-wave2
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

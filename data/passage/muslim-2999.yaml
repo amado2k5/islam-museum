@@ -1,0 +1,16 @@
+id: passage/muslim-2999
+class: passage
+unit: hadith
+work: work/sahih-muslim
+ref: "2999"
+label: { ar: "مسلم 2999 — عجباً لأمر المؤمن إن أمره كله له خير", en: "Muslim 2999 — Wondrous is the believer's affair" }
+text: "قال صهيب: قال رسول الله: عجباً لأمر المؤمن، إن أمره كله له خير، وليس ذاك لأحد إلا للمؤمن: إن أصابته سراء شكر فكان خيراً له، وإن أصابته ضراء صبر فكان خيراً له"
+summary:
+  ar: "رواية صهيب في كتاب الزهد والرقائق في صحيح مسلم؛ شكر عند السراء وصبر عند الضراء يجعلان أمر المؤمن كله خيراً."
+relations:
+  - { type: mentions, target: person/muhammad, sources: [source/sahih-muslim] }
+  - { type: mentions, target: person/suhayb-ibn-sinan, sources: [source/sahih-muslim] }
+  - { type: mentions, target: concept/sabr, sources: [source/sahih-muslim] }
+provenance: { layer: own-research, source: "صحيح مسلم، كتاب الزهد والرقائق (طبعة دار التأصيل، الحديث 3116؛ ترقيم عبد الباقي المعروف 2999)، تصوير Apple Vision OCR", generated_by: "Devin (SWE-2 High) from Apple Vision OCR", run: "hadith-muslim-passages-4" }
+sources: [source/sahih-muslim]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High); matn excerpt at most 40 words checked against the scan" }

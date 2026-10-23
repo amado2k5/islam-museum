@@ -1,0 +1,76 @@
+id: exhibit/path-muslim-charity
+class: exhibit
+kind: trail
+label:
+  ar: العمل الخيري
+  en: Muslim Charity
+summary:
+  ar: 'مسار في منظمات العطاء: الإغاثة الإسلامية ومسلم إيد وهيومن أبيل وبيني أبيل والخير — الزكاة مؤسسة.'
+  en: A trail through the giving organizations.
+audience:
+- newcomer
+- student
+duration_minutes: 30
+wings: []
+regions:
+- global
+rooms:
+- title:
+    ar: الإغاثة
+    en: Islamic Relief
+  body:
+    ar: 'أكبر منظمة: برمنغهام 1984.'
+    en: 'أكبر منظمة: برمنغهام 1984.'
+  features:
+  - listing/islamic-relief
+  - listing/islamic-relief-usa
+- title:
+    ar: مسلم إيد
+    en: Muslim Aid
+  body:
+    ar: 'لندن 1985: العون الدولي.'
+    en: 'لندن 1985: العون الدولي.'
+  features:
+  - listing/muslim-aid
+  - listing/al-khair-foundation
+- title:
+    ar: النداء
+    en: The appeals
+  body:
+    ar: 'هيومن أبيل وبيني أبيل: بريطانيا تعطي.'
+    en: 'هيومن أبيل وبيني أبيل: بريطانيا تعطي.'
+  features:
+  - listing/human-appeal
+  - listing/penny-appeal
+- title:
+    ar: الإمداد
+    en: Al-Imdaad
+  body:
+    ar: 'جنوب أفريقيا: الخير يعبر القارات.'
+    en: 'جنوب أفريقيا: الخير يعبر القارات.'
+  features:
+  - listing/al-imdaad
+  - listing/al-imdaad
+- title:
+    ar: الفقه
+    en: The fiqh
+  body:
+    ar: 'الزكاة مؤسسة: شرع العطاء.'
+    en: 'الزكاة مؤسسة: شرع العطاء.'
+  features:
+  - practice/zakat
+  - practice/zakat
+prerequisites:
+- exhibit/path-islam-in-30-minutes
+sources:
+- source/wikidata
+provenance:
+  layer: own-research
+  source: Devin-assembled trail from existing museum entities
+  generated_by: Devin (SWE-2 High)
+  model: SWE-2 High
+  run: pathways-batch-7
+status:
+  review: draft
+  completeness: 1
+  generated_by: Devin (SWE-2 High), pathways lane, 2026-10-16

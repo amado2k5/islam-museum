@@ -1,0 +1,23 @@
+id: event/jungle-movement-gilan-1915
+class: event
+kind: revolt
+label: { ar: "حركة الغابة في جيلان", en: "Jungle Movement of Gilan" }
+summary:
+  ar: "بطاقة أولية لحركة الغابة في جيلان من ١٩١٥ إلى ١٩٢١م، انتفاضة ميرزا كوتشك خان ضد الحكم المركزي والاحتلال؛ لم تُراجع مصادره على الصفحة بعد."
+  en: "Draft card for the Jungle Movement of Gilan of 1915–21, Mirza Kuchak Khan's rising against the central state and occupation; its sources are not yet checked on the page."
+wings: [time]
+periods: [period/modern-era]
+regions: [persia-central-asia]
+date:
+  start: { edtf: "1915", precision: year, status: tradition, derived: true }
+  end: { edtf: "1921", precision: year, status: tradition, derived: true }
+sources: [source/tarikh-islam-hasan-ibrahim]
+external_ids:
+  wikidata: Q764038
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; movement attested in Iranian histories — entry not yet checked on the page"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-wave2
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

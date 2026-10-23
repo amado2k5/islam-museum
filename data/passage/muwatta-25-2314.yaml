@@ -1,0 +1,16 @@
+id: passage/muwatta-25-2314
+class: passage
+unit: hadith
+work: work/muwatta-malik
+ref: "2314"
+label: { ar: "الموطأ 2314 — مالك: المكاتب أحق بشراء كتابته إذا بيعت", en: "Muwatta 2314" }
+summary:
+  ar: "قال مالك: أحسن ما سُمع في المكاتب أنه إذا بِيع كان أحق بشراء كتابته ممن اشتراها، إذا قوي على أداء الثمن نقدا؛ لأن شراءه نفسه عتاقة، والعتاقة تُقدَّم على ما معها من الوصايا. أما بيع بعض من كاتبه نصيبه منه، فلا شفعة فيه للمكاتب، لأنه يصير بمنزلة القطاعة، وليس له أن يقاطع بعض من كاتبه إلا بإذن شركائه. فإن أذنوا له كان أحق بما بيع منه. {cite:muwatta-maruf-1997 p.354} {cite:muwatta-maruf-1997 p.355}"
+relations:
+  - { type: part_of, target: passage/muwatta-kitab-25-mukatab }
+  - { type: mentions, target: person/malik-ibn-anas, sources: [source/muwatta-maruf-1997] }
+  - { type: basis_for, target: concept/mukatab, sources: [source/muwatta-maruf-1997] }
+  - { type: basis_for, target: concept/itq, sources: [source/muwatta-maruf-1997] }
+provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 2, hadith 2314 at PDF p. 354; بيع المكاتب", generated_by: "Claude Code (claude-haiku-5-5) from Apple Vision OCR of the Noor-Book PDF, checked on the page image where doubtful", run: "muwatta-prose-k25-b72" }
+sources: [source/muwatta-maruf-1997]
+status: { review: draft, completeness: 2, generated_by: "Claude Code (claude-haiku-5-5); own-words account written from PDF p. 354; matn excerpt at most 40 words" }

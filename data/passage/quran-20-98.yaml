@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 20:98 (سورة طه، الآية 98)."
 text: "إِنَّمَآ إِلَـٰهُكُمُ ٱللَّهُ ٱلَّذِى لَآ إِلَـٰهَ إِلَّا هُوَ ۚ وَسِعَ كُلَّ شَىْءٍ عِلْمًا"
 text_search: "إنما إلهكم الله الذي لا إله إلا هو ۚ وسع كل شيء علما"
+translations:
+  en: { text: "Your Allah is only Allah, than Whom there is no other Allah. He embraceth all things in His knowledge.", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "تمہارا معبود خدا ہی ہے جس کے سوا کوئی معبود نہیں۔ اس کا علم ہر چیز پر محیط ہے", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-20 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

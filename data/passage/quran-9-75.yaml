@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 9:75 (سورة التوبة، الآية 75)."
 text: "۞ وَمِنْهُم مَّنْ عَـٰهَدَ ٱللَّهَ لَئِنْ ءَاتَىٰنَا مِن فَضْلِهِۦ لَنَصَّدَّقَنَّ وَلَنَكُونَنَّ مِنَ ٱلصَّـٰلِحِينَ"
 text_search: "۞ ومنهم من عاهد الله لئن آتانا من فضله لنصدقن ولنكونن من الصالحين"
+translations:
+  en: { text: "And of them is he who made a covenant with Allah (saying): If He give us of His bounty we will give alms and become of the righteous.", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "اور ان میں سے بعض ایسے ہیں جنہوں نے خدا سے عہد کیا تھا کہ اگر وہ ہم کو اپنی مہربانی سے (مال) عطا فرمائے گا تو ہم ضرور خیرات کیا کریں گے اور نیک کاروں میں ہو جائیں گے", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-9 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

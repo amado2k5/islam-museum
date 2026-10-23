@@ -1,0 +1,77 @@
+id: exhibit/path-mystics
+class: exhibit
+kind: trail
+label:
+  ar: الصوفية والعرفان
+  en: Mystics and Gnosis
+summary:
+  ar: 'مسار في طريق القلب: الحسن البصري يزرع، والغزالي يجمع، وابن عربي ينظر، والرومي يدور — عرفان الأمة.'
+  en: A trail through the path of the heart.
+audience:
+- newcomer
+- student
+duration_minutes: 30
+wings: []
+regions:
+- global
+rooms:
+- title:
+    ar: الزهاد الأوائل
+    en: Early ascetics
+  body:
+    ar: الحسن البصري في مدرسة البصرة.
+    en: الحسن البصري في مدرسة البصرة.
+  features:
+  - person/al-hasan-al-basri
+  - concept/zuhd
+- title:
+    ar: الغزالي
+    en: Al-Ghazali
+  body:
+    ar: حجة الإسلام يجمع الشريعة والحقيقة.
+    en: حجة الإسلام يجمع الشريعة والحقيقة.
+  features:
+  - person/al-ghazali-abu-hamid
+  - work/ihya-ulum-al-din
+- title:
+    ar: ابن عربي
+    en: Ibn Arabi
+  body:
+    ar: 'الشيخ الأكبر: الفتوحات والفصوص.'
+    en: 'الشيخ الأكبر: الفتوحات والفصوص.'
+  features:
+  - person/ibn-arabi-muhyi-al-din
+- title:
+    ar: الرومي
+    en: Rumi
+  body:
+    ar: 'مولانا: المثنوي ودروان قونية.'
+    en: 'مولانا: المثنوي ودروان قونية.'
+  features:
+  - person/jalal-al-din-rumi
+  - place/konya
+  - practice/sama-mawlawiyya
+- title:
+    ar: التصوف اليوم
+    en: Today
+  body:
+    ar: 'الطرق والذكر: استمرار الطريق.'
+    en: 'الطرق والذكر: استمرار الطريق.'
+  features:
+  - concept/tasawwuf
+  - practice/dhikr
+  - practice/urs
+prerequisites:
+- exhibit/path-islam-in-30-minutes
+sources:
+- source/wikidata
+provenance:
+  layer: own-research
+  source: Devin-assembled trail from existing museum entities
+  generated_by: Devin (SWE-2 High)
+  model: SWE-2 High
+  run: pathways-batch-7
+status:
+  review: draft
+  completeness: 1
+  generated_by: Devin (SWE-2 High), pathways lane, 2026-10-16

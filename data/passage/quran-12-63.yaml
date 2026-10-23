@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 12:63 (سورة يوسف، الآية 63)."
 text: "فَلَمَّا رَجَعُوٓا۟ إِلَىٰٓ أَبِيهِمْ قَالُوا۟ يَـٰٓأَبَانَا مُنِعَ مِنَّا ٱلْكَيْلُ فَأَرْسِلْ مَعَنَآ أَخَانَا نَكْتَلْ وَإِنَّا لَهُۥ لَحَـٰفِظُونَ"
 text_search: "فلما رجعوا إلى أبيهم قالوا يا أبانا منع منا الكيل فأرسل معنا أخانا نكتل وإنا له لحافظون"
+translations:
+  en: { text: "So when they went back to their father they said: O our father! The measure is denied us, so send with us our brother that we may obtain the measure, surely we will guard him well.", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "جب وہ اپنے باپ کے پاس واپس گئے تو کہنے لگے کہ ابّا (جب تک ہم بنیامین کو ساتھ نہ لے جائیں) ہمارے لیے غلّے کی بندش کر دی گئی ہے تو ہمارے ساتھ ہمارے بھائی کو بھیج دے تاکہ ہم پھر غلّہ لائیں اور ہم اس کے نگہبان ہیں", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-12 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

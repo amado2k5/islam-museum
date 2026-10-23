@@ -1,0 +1,30 @@
+id: person/muhayyisa-ibn-masud
+class: person
+label:
+  ar: محيصة بن مسعود الأنصاري
+  en: Muhayyisa ibn Masud al-Ansari
+names:
+  - { kind: full, lang: ar, value: محيصة بن مسعود الأنصاري }
+gender: male
+roles: [companion]
+traditions: [sunni]
+summary:
+  ar: "صحابي أنصاري؛ عند البلاذري بعثه رسول الله منصرفه من خيبر إلى أهل فدك يدعوهم إلى الإسلام فصالحوه على نصف الأرض بتربتها، وذُكر في رواية أخرى أنه ممن مشى بينهم وبين النبي في أمر النزول."
+  en: "An Ansari Companion; in al-Baladhuri the Prophet sent him on his return from Khaybar to the people of Fadak to call them to Islam, and they made peace with him for half the land with its soil; in another report he is named among those who went back and forth between them and the Prophet over the capitulation."
+periods:
+- period/prophetic-era
+regions:
+- arabia
+relations:
+  - { type: participated_in, target: event/sulh-of-fadak, sources: [source/futuh-buldan-maarif-1407] }
+provenance:
+  layer: own-research
+  source: "فتوح البلدان (ط مؤسسة المعارف 1407هـ/1987م) ص 41–42"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-futuh-buldan-batch-2
+sources:
+- source/futuh-buldan-maarif-1407
+status:
+  review: draft
+  completeness: 1
+  generated_by: "Devin (SWE-2 High)"

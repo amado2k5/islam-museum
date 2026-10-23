@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 24:47 (سورة النور، الآية 47)."
 text: "وَيَقُولُونَ ءَامَنَّا بِٱللَّهِ وَبِٱلرَّسُولِ وَأَطَعْنَا ثُمَّ يَتَوَلَّىٰ فَرِيقٌ مِّنْهُم مِّنۢ بَعْدِ ذَٰلِكَ ۚ وَمَآ أُو۟لَـٰٓئِكَ بِٱلْمُؤْمِنِينَ"
 text_search: "ويقولون آمنا بالله وبالرسول وأطعنا ثم يتولى فريق منهم من بعد ذلك ۚ وما أولئك بالمؤمنين"
+translations:
+  en: { text: "And they say: We believe in Allah and the messenger, and we obey; then after that a faction of them turn away. Such are not believers.", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "اور بعض لوگ کہتے ہیں کہ ہم خدا پر اور رسول پر ایمان لائے اور (ان کا) حکم مان لیا پھر اس کے بعد ان میں سے ایک فرقہ پھر جاتا ہے اور یہ لوگ صاحب ایمان ہی نہیں ہیں", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-24 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

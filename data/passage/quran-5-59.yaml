@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 5:59 (سورة المائدة، الآية 59)."
 text: "قُلْ يَـٰٓأَهْلَ ٱلْكِتَـٰبِ هَلْ تَنقِمُونَ مِنَّآ إِلَّآ أَنْ ءَامَنَّا بِٱللَّهِ وَمَآ أُنزِلَ إِلَيْنَا وَمَآ أُنزِلَ مِن قَبْلُ وَأَنَّ أَكْثَرَكُمْ فَـٰسِقُونَ"
 text_search: "قل يا أهل الكتاب هل تنقمون منا إلا أن آمنا بالله وما أنزل إلينا وما أنزل من قبل وأن أكثركم فاسقون"
+translations:
+  en: { text: "Say: O People of the Scripture! Do ye blame us for aught else than that we believe in Allah and that which is revealed unto us and that which was revealed aforetime, and because most of you are evil-livers?", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "کہو کہ اے اہل کتاب! تم ہم میں برائی ہی کیا دیکھتے ہو سوا اس کے کہ ہم خدا پر اور جو (کتاب) ہم پر نازل ہوئی اس پر اور جو (کتابیں) پہلے نازل ہوئیں ان پر ایمان لائے ہیں اور تم میں اکثر بدکردار ہیں", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-5 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

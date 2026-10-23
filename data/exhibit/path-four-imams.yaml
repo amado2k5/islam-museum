@@ -1,0 +1,76 @@
+id: exhibit/path-four-imams
+class: exhibit
+kind: trail
+label:
+  ar: الأئمة الأربعة
+  en: The Four Imams
+summary:
+  ar: 'مسار في مدارس الفقه الكبرى: أبو حنيفة في الكوفة، ومالك في المدينة، والشافعي في رحلاته، وأحمد في
+    بغداد.'
+  en: A trail through the great schools of law.
+audience:
+- newcomer
+- student
+duration_minutes: 30
+wings: []
+regions:
+- levant-iraq
+rooms:
+- title:
+    ar: أبو حنيفة
+    en: Abu Hanifa
+  body:
+    ar: 'إمام الرأي في الكوفة: مذهب العراق والترك والهند.'
+    en: Imam of legal reasoning in Kufa.
+  features:
+  - person/abu-hanifa
+  - concept/fiqh
+- title:
+    ar: مالك
+    en: Malik
+  body:
+    ar: 'إمام دار الهجرة: الموطأ وعمل أهل المدينة.'
+    en: 'Imam of Medina: the Muwatta and Medina''s practice.'
+  features:
+  - person/malik-ibn-anas
+  - work/muwatta-malik
+  - place/medina
+- title:
+    ar: الشافعي
+    en: Al-Shafi'i
+  body:
+    ar: 'واضع الأصول: الرسالة بين الحديث والرأي.'
+    en: 'Founder of usul: the Risala between report and reason.'
+  features:
+  - person/al-shafii
+- title:
+    ar: أحمد
+    en: Ahmad
+  body:
+    ar: 'إمام السنة: المسند وثبات المحنة.'
+    en: 'Imam of the Sunna: the Musnad and the inquisition.'
+  features:
+  - person/ahmad-ibn-hanbal
+- title:
+    ar: بعد الأئمة
+    en: After the imams
+  body:
+    ar: 'المذاهب تعبر القرون: تلاميذ ومدونات ومجالس.'
+    en: The schools across centuries.
+  features:
+  - concept/fiqh
+  - question/what-is-ijtihad
+prerequisites:
+- exhibit/path-islam-in-30-minutes
+sources:
+- source/wikidata
+provenance:
+  layer: own-research
+  source: Devin-assembled trail from existing museum entities
+  generated_by: Devin (SWE-2 High)
+  model: SWE-2 High
+  run: pathways-batch-2
+status:
+  review: draft
+  completeness: 1
+  generated_by: Devin (SWE-2 High), pathways lane, 2026-10-16

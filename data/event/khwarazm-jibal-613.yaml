@@ -1,0 +1,22 @@
+id: event/khwarazm-jibal-613
+class: event
+kind: conquest
+label: { ar: "ملك خوارزم شاه بلد الجبل", en: "Khwarazmshah takes the Jibal" }
+date:
+  start: { edtf: "1216~", hijri: "0613", calendar: julian, precision: year, status: tradition, derived: true }
+summary:
+  ar: "ملك علاء الدين محمد خوارزم شاه بلد الجبل فاجتمعت له العراقية والفارسية مع خراسان وما وراء النهر {cite:kamil-ibn-al-athir p. 371}."
+  en: "Khwarazmshah took the Jibal, uniting both Iraqs, Persia, Khurasan and Transoxiana under one hand {cite:kamil-ibn-al-athir p. 371}."
+sides:
+  - label: { ar: "علاء الدين محمد خوارزم شاه" }
+  - label: { ar: "حكام بلاد الجبل" }
+relations:
+  - { type: occurred_at, target: place/jibal, sources: [source/kamil-ibn-al-athir] }
+  - { type: had_participant, target: person/muhammad-khwarazmshah, role: "المالك", sources: [source/kamil-ibn-al-athir] }
+provenance:
+  layer: own-research
+  source: "الكامل في التاريخ لابن الأثير، قراءة آبل فيجن"
+  generated_by: "Devin (SWE-2 Medium) from Apple Vision OCR"
+  run: lib-kamil-v12-batch06
+sources: [source/kamil-ibn-al-athir]
+status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 Medium)" }

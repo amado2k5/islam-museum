@@ -1,0 +1,23 @@
+id: event/battle-of-fahl-13
+class: event
+kind: battle
+label: { ar: "معركة فحل", en: "Battle of Fahl" }
+summary:
+  ar: "بطاقة أولية لمعركة فحل (بيسان) سنة ١٣هـ/٦٣٥م، انتصار المسلمين على البيزنطيين في غور الأردن في فتوح الشام؛ لم تُراجع مصادره على الصفحة بعد."
+  en: "Draft card for the Battle of Fahl (Baysan) in 13/635, the Muslim victory over the Byzantines in the Jordan valley during the conquest of al-Sham; its sources are not yet checked on the page."
+wings: [time]
+periods: [period/rashidun]
+regions: [levant-iraq]
+date:
+  start: { edtf: "635", precision: year, status: tradition, derived: true }
+  end: { edtf: "635", precision: year, status: tradition, derived: true }
+sources: [source/futuh-buldan-maarif-1407]
+external_ids:
+  wikidata: Q1030249
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; battle attested in Futuh al-Buldan — entry not yet checked on the page"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-wave2
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 29:24 (سورة العنكبوت، الآية 24)."
 text: "فَمَا كَانَ جَوَابَ قَوْمِهِۦٓ إِلَّآ أَن قَالُوا۟ ٱقْتُلُوهُ أَوْ حَرِّقُوهُ فَأَنجَىٰهُ ٱللَّهُ مِنَ ٱلنَّارِ ۚ إِنَّ فِى ذَٰلِكَ لَـَٔايَـٰتٍ لِّقَوْمٍ يُؤْمِنُونَ"
 text_search: "فما كان جواب قومه إلا أن قالوا اقتلوه أو حرقوه فأنجاه الله من النار ۚ إن في ذلك لآيات لقوم يؤمنون"
+translations:
+  en: { text: "But the answer of his folk was only that they said: \"Kill him\" or \"Burn him.\" Then Allah saved him from the Fire. Lo! herein verily are portents for folk who believe.", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "تو اُن کی قوم کے لوگ جواب میں بولے تو یہ بولے کہ اُسے مار ڈالو یا جلا دو۔ مگر خدا نے اُن کو آگ (کی سوزش) سے بچالیا۔ جو لوگ ایمان رکھتے ہیں اُن کے لئے اس میں نشانیاں ہیں", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-29 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

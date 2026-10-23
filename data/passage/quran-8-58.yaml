@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 8:58 (سورة الأنفال، الآية 58)."
 text: "وَإِمَّا تَخَافَنَّ مِن قَوْمٍ خِيَانَةً فَٱنۢبِذْ إِلَيْهِمْ عَلَىٰ سَوَآءٍ ۚ إِنَّ ٱللَّهَ لَا يُحِبُّ ٱلْخَآئِنِينَ"
 text_search: "وإما تخافن من قوم خيانة فانبذ إليهم على سواء ۚ إن الله لا يحب الخائنين"
+translations:
+  en: { text: "And if thou fearest treachery from any folk, then throw back to them (their treaty) fairly. Lo! Allah loveth not the treacherous.", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "اور اگر تم کو کسی قوم سے دغا بازی کا خوف ہو تو (ان کا عہد) انہیں کی طرف پھینک دو (اور) برابر (کا جواب دو) کچھ شک نہیں کہ خدا دغابازوں کو دوست نہیں رکھتا", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-8 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

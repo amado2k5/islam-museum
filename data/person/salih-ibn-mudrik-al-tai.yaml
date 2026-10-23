@@ -1,0 +1,20 @@
+id: person/salih-ibn-mudrik-al-tai
+class: person
+label: { ar: "صالح بن مدرك الطائي", en: "Salih ibn Mudrik al-Ta'i" }
+roles: [politician]
+gender: male
+summary:
+  ar: "شيخ من طيء خرج على حاج سنة خمس وثمانين ومائتين بالأجفر يوم الأربعاء لاثنتي عشرة ليلة بقين من المحرم، فأخذ الأدوال والتجارات والنساء الحرائر والمماليك، وذُكر أنه أخذ من الناس ألفي ألف دينار {cite:muntazam-ibn-al-jawzi p. 294}."
+  en: "A Tayyi' chief who fell on the pilgrim caravan of 285 at al-Ajfar, seizing mounts, goods and captives — said to have taken two million dinars from the pilgrims {cite:muntazam-ibn-al-jawzi p. 294}."
+wings: [people]
+periods: [period/abbasid-early]
+regions: [arabia]
+relations:
+  - { type: participated_in, target: event/yawm-al-ajfar, role: "المعتدي على الحاج", sources: [source/muntazam-ibn-al-jawzi] }
+provenance:
+  layer: own-research
+  source: "المنتظم لابن الجوزي (ط حيدرآباد 1357، ج5 ق2، سنة 285)، قراءة آبل فيجن"
+  generated_by: "Devin (SWE-2 Medium) from Apple Vision OCR"
+  run: lib-muntazam-258-349-batch27
+sources: [source/muntazam-ibn-al-jawzi]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 Medium)" }

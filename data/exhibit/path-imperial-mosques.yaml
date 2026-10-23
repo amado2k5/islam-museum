@@ -1,0 +1,77 @@
+id: exhibit/path-imperial-mosques
+class: exhibit
+kind: trail
+label:
+  ar: المساجد الإمبراطورية
+  en: Imperial Mosques
+summary:
+  ar: 'مسار في عمالقة المساجد: بادشاهي في لاهور، وفيصل في إسلام آباد، والحسن الثاني على الأطلسي، والشيخ
+    زايد — القرن الجديد.'
+  en: A trail through the giant mosques.
+audience:
+- newcomer
+- student
+duration_minutes: 30
+wings: []
+regions:
+- global
+rooms:
+- title:
+    ar: بادشاهي
+    en: Badshahi
+  body:
+    ar: 'لاهور 1673: آخر المغول الكبرى.'
+    en: 'لاهور 1673: آخر المغول الكبرى.'
+  features:
+  - building/badshahi-mosque
+  - place/lahore
+- title:
+    ar: فيصل
+    en: Faisal
+  body:
+    ar: 'إسلام آباد: الخيمة البيضاء الحديثة.'
+    en: 'إسلام آباد: الخيمة البيضاء الحديثة.'
+  features:
+  - building/faisal-mosque
+  - building/faisal-mosque
+- title:
+    ar: الحسن الثاني
+    en: Hassan II
+  body:
+    ar: 'الدار البيضاء: أطول مئذنة في العالم.'
+    en: 'الدار البيضاء: أطول مئذنة في العالم.'
+  features:
+  - building/hassan-ii-mosque
+  - building/hassan-ii-mosque
+- title:
+    ar: الشيخ زايد
+    en: Sheikh Zayed
+  body:
+    ar: 'أبوظبي: الرخام والصدف الحديث.'
+    en: 'أبوظبي: الرخام والصدف الحديث.'
+  features:
+  - building/shaykh-zayid-mosque
+  - building/shaykh-zayid-mosque
+- title:
+    ar: بي بي خانم
+    en: Bibi-Khanym
+  body:
+    ar: 'سمرقند تيمور: أكبر قبة عصرها.'
+    en: 'سمرقند تيمور: أكبر قبة عصرها.'
+  features:
+  - building/bibi-khanum-mosque
+  - person/timur-lang
+prerequisites:
+- exhibit/path-islam-in-30-minutes
+sources:
+- source/wikidata
+provenance:
+  layer: own-research
+  source: Devin-assembled trail from existing museum entities
+  generated_by: Devin (SWE-2 High)
+  model: SWE-2 High
+  run: pathways-batch-7
+status:
+  review: draft
+  completeness: 1
+  generated_by: Devin (SWE-2 High), pathways lane, 2026-10-16

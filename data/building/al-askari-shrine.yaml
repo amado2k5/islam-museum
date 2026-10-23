@@ -1,0 +1,27 @@
+id: building/al-askari-shrine
+class: building
+kind: shrine
+label:
+  ar: "العتبة العسكرية"
+  en: "al-Askari shrine (Samarra)"
+summary:
+  ar: "العتبة العسكرية بسامراء، الضريح الذي يضم قبر علي الهادي والحسن العسكري؛ تروي «موسوعة العتبات» (قسم سامراء) عُمارة المقام: كسّا ناصر الدولة الحمداني الضريح سنة ٣٣٣هـ، وعمّر معز الدولة البويهي القبة والسرداب، وسيّج عضد الدولة الروضة سنة ٣٦٨هـ، ورمم الأمير أرسلان القبة سنة ٤٤٥هـ، وجدد بركياروق السلجوقي الأبواب سنة ٤٩٥هـ، وعمّر الناصر العباسي القبة والمآذن وكتب أسماء الأئمة الاثني عشر على نطاق العقد سنة ٦٠٦هـ، واستُكملت زخرفته في العهدين الجلائري والصفوي {cite:musawat-atabat}."
+  en: "The al-Askari shrine at Samarra, holding the graves of Ali al-Hadi and Hasan al-Askari; the Mawsu'at al-Atabat (Samarra section) records its building history: Nasir al-Dawla the Hamdanid covered the grave in 333, Mu'izz al-Dawla the Buyid raised the dome and sirdab, Adud al-Dawla fenced the rawda in 368, Amir Arslan restored the dome in 445, Barkyaruq the Seljuk renewed the doors in 495, and the Abbasid al-Nasir rebuilt dome and minarets, inscribing the Twelve Imams' names on the arch ring in 606 — ornamentation continued under the Jalayirids and Safavids {cite:musawat-atabat}."
+wings: [objects]
+regions: [levant-iraq]
+relations:
+  - type: located_in
+    target: place/samarra
+    sources: [source/wikidata]
+sources: [source/mujam-al-buldan, source/wikidata, source/musawat-atabat]
+external_ids:
+  wikidata: Q309484
+provenance:
+  layer: own-research
+  source: "Wikidata Q309484 (religion claim Islam); book source: Yaqut, Mujam al-Buldan — entry not yet read on the page"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-0007
+status:
+  review: draft
+  completeness: 1

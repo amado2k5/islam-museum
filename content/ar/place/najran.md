@@ -13,3 +13,6 @@ translators: []
 
 ## للزوار الصغار
 مدينة قديمة في جنوب جزيرة العرب كان أهلها نصارى، وجاء وفد منهم إلى النبي فاصطلحوا معه.
+
+## في مقدمة الرحيق المختوم
+تنصّر أهل نجران على يد الزاهد [[person/faymiyun|فيميون]] قرب زمان الاحتلال الحبشي الأول لليمن {cite:mubarakpuri-raheeq p.40} {cite:mubarakpuri-raheeq p.41} {cite:ibn-hisham-sira 1/31-34}، ثم هجم عليهم [[person/dhu-nuwas|ذو نواس]] فخدّ لهم الأخدود وأحرقهم في أكتوبر سنة 523م، وهم أصحاب الأخدود في سورة البروج {cite:mubarakpuri-raheeq p.24} {cite:mubarakpuri-raheeq p.40}. انظر [[group/christians-of-najran|نصارى نجران]] و[[event/massacre-of-najran|الأخدود]].

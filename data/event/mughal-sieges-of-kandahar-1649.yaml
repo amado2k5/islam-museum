@@ -1,0 +1,23 @@
+id: event/mughal-sieges-of-kandahar-1649
+class: event
+kind: war
+label: { ar: "حصارات قندهار المغولية (١٦٤٩–١٦٥٣)", en: "Mughal Sieges of Kandahar (1649–53)" }
+summary:
+  ar: "بطاقة أولية لحصارات قندهار المغولية من ١٦٤٩ إلى ١٦٥٣م، محاولات شاه جهان استردادها من الصفويين؛ لم تُراجع مصادره على الصفحة بعد."
+  en: "Draft card for the Mughal sieges of Kandahar in 1649–53, Shah Jahan's attempts to retake the city from the Safavids; its sources are not yet checked on the page."
+wings: [time]
+periods: [period/gunpowder-empires]
+regions: [south-asia]
+date:
+  start: { edtf: "1649", precision: year, status: tradition, derived: true }
+  end: { edtf: "1653", precision: year, status: tradition, derived: true }
+sources: [source/tarikh-islam-hasan-ibrahim]
+external_ids:
+  wikidata: Q60791585
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; battle attested in narrative histories — entry not yet checked on the page"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-wave2
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

@@ -1,0 +1,23 @@
+id: event/battle-of-kwatarkwashi-1903
+class: event
+kind: battle
+label: { ar: "معركة كواتاركواشي (١٩٠٣)", en: "Battle of Kwatarkwashi (1903)" }
+summary:
+  ar: "بطاقة أولية لمعركة كواتاركواشي سنة ١٩٠٣م، من مقاومة سلطنة سكوتو للغزو البريطاني؛ لم تُراجع مصادره على الصفحة بعد."
+  en: "Draft card for the Battle of Kwatarkwashi in 1903, part of the Sokoto resistance to the British invasion; its sources are not yet checked on the page."
+wings: [time]
+periods: [period/modern-era]
+regions: [west-africa-sahel]
+date:
+  start: { edtf: "1903-02", precision: year, status: tradition, derived: true }
+  end: { edtf: "1903-02", precision: year, status: tradition, derived: true }
+sources: [source/tarikh-islam-hasan-ibrahim]
+external_ids:
+  wikidata: Q18162693
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; battle attested in narrative histories — entry not yet checked on the page"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-wave2
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

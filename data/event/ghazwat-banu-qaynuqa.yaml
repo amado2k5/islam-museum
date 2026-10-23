@@ -1,0 +1,23 @@
+id: event/ghazwat-banu-qaynuqa
+class: event
+kind: siege
+label: { ar: "غزوة بني قينقاع", en: "Invasion of Banu Qaynuqa" }
+summary:
+  ar: "بطاقة أولية لغزوة بني قينقاع سنة ٢هـ/٦٢٤م، حصار المدينة ليهود بني قينقاع وجلاؤهم؛ لم تُراجع مصادره على الصفحة بعد."
+  en: "Draft card for the expedition against Banu Qaynuqa in 2/624, the Medina siege that ended in the tribe's expulsion; its sources are not yet checked on the page."
+wings: [time]
+periods: [period/prophetic-era]
+regions: [arabia]
+date:
+  start: { edtf: "624", precision: year, status: tradition, derived: true }
+  end: { edtf: "624", precision: year, status: tradition, derived: true }
+sources: [source/ibn-hisham-sira]
+external_ids:
+  wikidata: Q3079892
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; expedition attested in the Sira — entry not yet checked on the page"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-wave2
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

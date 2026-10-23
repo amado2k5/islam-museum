@@ -1,0 +1,28 @@
+id: person/ibn-kathir
+class: person
+label:
+  ar: "ابن كثير"
+  en: "Ibn Kathir"
+names:
+  - { kind: full, lang: ar, value: "إسماعيل بن عمر بن كثير الدمشقي" }
+roles: [scholar, mufassir, historian, muhaddith]
+gender: male
+traditions: [sunni-shafii]
+summary:
+  ar: "بطاقة أولية لابن كثير الدمشقي، المفسر والمؤرخ صاحب التفسير والبداية والنهاية، ورد في وصف مرجعي مفتوح (ويكي البيانات). لم تُراجع ترجمته في وفيات الأعيان وشذرات الذهب على الصفحة بعد، لذلك لا تُذكر هنا تواريخ."
+  en: "Draft card for Ibn Kathir al-Dimashqi, the exegete and historian of the Tafsir and al-Bidaya wa'l-Nihaya, named from an open reference description (Wikidata); his entries in Wafayat al-A'yan and Shadharat al-Dhahab are not yet checked on the page, so no dates are given."
+wings: [people]
+regions: [levant-iraq]
+periods: [period/crusades-ayyubid-mamluk]
+sources: [source/wafayat-ayan, source/shadharat-dhahab]
+external_ids:
+  wikidata: Q369690
+provenance:
+  layer: own-research
+  source: "Wikidata Q369690 (religion claim Islam); book sources: Ibn Khallikan, Wafayat al-A'yan and Ibn al-Imad, Shadharat al-Dhahab — entries not yet read on the page"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-0005
+status:
+  review: draft
+  completeness: 1

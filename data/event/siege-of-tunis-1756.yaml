@@ -1,0 +1,23 @@
+id: event/siege-of-tunis-1756
+class: event
+kind: siege
+label: { ar: "حصار تونس (١٧٥٦)", en: "Siege of Tunis (1756)" }
+summary:
+  ar: "بطاقة أولية لحصار تونس سنة ١٧٥٦م، أخذ الجزائريين للمدينة؛ لم تُراجع مصادره على الصفحة بعد."
+  en: "Draft card for the Siege of Tunis in 1756, the Algerian capture of the city; its sources are not yet checked on the page."
+wings: [time]
+periods: [period/gunpowder-empires]
+regions: [maghreb]
+date:
+  start: { edtf: "1756", precision: year, status: tradition, derived: true }
+  end: { edtf: "1756", precision: year, status: tradition, derived: true }
+sources: [source/tarikh-islam-hasan-ibrahim]
+external_ids:
+  wikidata: Q109312755
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; battle attested in narrative histories — entry not yet checked on the page"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-wave2
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

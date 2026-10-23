@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 83:26 (سورة المطففين، الآية 26)."
 text: "خِتَـٰمُهُۥ مِسْكٌ ۚ وَفِى ذَٰلِكَ فَلْيَتَنَافَسِ ٱلْمُتَنَـٰفِسُونَ"
 text_search: "ختامه مسك ۚ وفي ذلك فليتنافس المتنافسون"
+translations:
+  en: { text: "Whose seal is musk - for this let (all) those strive who strive for bliss -", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "جس کی مہر مشک کی ہو گی تو (نعمتوں کے) شائقین کو چاہیے کہ اسی سے رغبت کریں", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-83 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

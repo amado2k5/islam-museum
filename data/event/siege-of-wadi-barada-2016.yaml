@@ -1,0 +1,23 @@
+id: event/siege-of-wadi-barada-2016
+class: event
+kind: battle
+label: { ar: "معركة وادي بردى (٢٠١٦)", en: "Siege of Wadi Barada" }
+summary:
+  ar: "بطاقة أولية لمعركة وادي بردى في ٢٠١٦–٢٠١٧م للسيطرة على نبع الفيجة المغذي لدمشق؛ لم تُراجع مصادره على الصفحة بعد."
+  en: "Draft card for the Siege of Wadi Barada (2016–17) in western Rif Dimashq; its sources are not yet checked on the page."
+wings: [time]
+periods: [period/contemporary-era]
+regions: [levant-iraq]
+date:
+  start: { edtf: "2016-12-23", precision: year, status: tradition, derived: true }
+  end: { edtf: "2017-01-29", precision: year, status: tradition, derived: true }
+sources: [source/tarikh-islam-hasan-ibrahim]
+external_ids:
+  wikidata: Q28073274
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; battle attested in narrative histories — entry not yet checked on the page"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-wave2
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

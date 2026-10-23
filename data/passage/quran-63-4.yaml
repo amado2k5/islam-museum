@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 63:4 (سورة المنافقون، الآية 4)."
 text: "۞ وَإِذَا رَأَيْتَهُمْ تُعْجِبُكَ أَجْسَامُهُمْ ۖ وَإِن يَقُولُوا۟ تَسْمَعْ لِقَوْلِهِمْ ۖ كَأَنَّهُمْ خُشُبٌ مُّسَنَّدَةٌ ۖ يَحْسَبُونَ كُلَّ صَيْحَةٍ عَلَيْهِمْ ۚ هُمُ ٱلْعَدُوُّ فَٱحْذَرْهُمْ ۚ قَـٰتَلَهُمُ ٱللَّهُ ۖ أَنَّىٰ يُؤْفَكُونَ"
 text_search: "۞ وإذا رأيتهم تعجبك أجسامهم ۖ وإن يقولوا تسمع لقولهم ۖ كأنهم خشب مسندة ۖ يحسبون كل صيحة عليهم ۚ هم العدو فاحذرهم ۚ قاتلهم الله ۖ أنى يؤفكون"
+translations:
+  en: { text: "And when thou seest them their figures please thee; and if they speak thou givest ear unto their speech. (They are) as though they were blocks of wood in striped cloaks. They deem every shout to be against them. They are the enemy, so beware of them. Allah confound them! How they are perverted!", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "اور جب تم ان (کے تناسب اعضا) کو دیکھتے ہو تو ان کے جسم تمہیں (کیا ہی) اچھے معلوم ہوتے ہیں۔ اور جب وہ گفتگو کرتے ہیں تو تم ان کی تقریر کو توجہ سے سنتے ہو (مگر فہم وادراک سے خالی) گویا لکڑیاں ہیں جو دیواروں سے لگائی گئی ہیں۔ (بزدل ایسے کہ) ہر زور کی آواز کو سمجھیں (کہ) ان پر بلا آئی۔ یہ (تمہارے) دشمن ہیں ان سے بےخوف نہ رہنا۔ خدا ان کو ہلاک کرے۔ یہ کہاں بہکے پھرتے ہیں", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-63 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

@@ -1,0 +1,26 @@
+id: person/al-kamal-ishaq
+class: person
+label: { ar: "الكمال إسحاق بن أحمد", en: "al-Kamal Ishaq b. Ahmad" }
+names:
+  - { value: "الكمال إسحاق بن أحمد بن سليمان بن مقدسي الدمشقي المقدسي الشافعي", kind: full }
+died: { edtf: "1252~", hijri: "0650", calendar: julian, precision: year, status: tradition, derived: true, note: "عاش ثلاثاً وتسعين سنة وتوفي في المحرم أو في ذي القعدة سنة خمسين وستمائة {cite:shadharat-dhahab p. 261}." }
+summary:
+  ar: "الشيخ الكبير، مسند الشام وأعجوبة زمانه؛ سمع من السلفي وجلس للحديث فأجازت له أمم كثيرة من الحفاظ، وسمع عليه النووي وقرأ عليه صحيح مسلم ومسند أحمد بن حنبل؛ عاش ثلاثاً وتسعين سنة وتوفي في المحرم أو في ذي القعدة {cite:shadharat-dhahab p. 260-261}."
+  en: "Musnid of Syria (d. 650, aged 93) — al-Nawawi read Sahih Muslim and the Musnad of Ahmad on him; ijaza-issuer to generations of hufaz {cite:shadharat-dhahab p. 260-261}."
+gender: male
+roles: [scholar, muhaddith]
+wings: [people]
+periods: [period/crusades-ayyubid-mamluk]
+regions: [levant-iraq]
+faith:
+  - value: sunni-shafii
+    basis: tradition
+relations:
+  - { type: died_in, target: place/damascus, sources: [source/shadharat-dhahab] }
+sources: [source/shadharat-dhahab]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }
+provenance:
+  layer: own-research
+  source: "شذرات الذهب — ابن العماد (ج5، سنة 650)، قراءة آبل فيجن"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-shadharat-batch-128

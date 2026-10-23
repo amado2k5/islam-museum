@@ -1,0 +1,19 @@
+id: passage/muslim-2408
+class: passage
+unit: hadith
+work: work/sahih-muslim
+ref: "2408"
+label: { ar: "مسلم 2408 — حديث الثقلين عند غدير خم", en: "Muslim 2408 — The Thaqalayn report at Ghadir Khumm" }
+text: "قام رسول الله يوما فينا خطيبا بماء يدعى خما بين مكة والمدينة... قال: «ألا وإني تارك فيكم ثقلين: أحدهما كتاب الله هو حبل الله، من اتبعه كان على الهدى ومن تركه كان على ضلالة»"
+summary:
+  ar: "رواية زيد بن أرقم في كتاب فضائل الصحابة؛ خطب النبي عند ماء خم راجعة من حجة الوداع، فأوصى بكتاب الله ثم قال «وأهل بيتي، أذكركم الله في أهل بيتي». ولما سأله حصين بن سبرة عن حد أهل البيت، قال زيد: هم من حرم الصدقة بعده — آل علي وآل عقيل وآل جعفر وآل عباس."
+relations:
+  - { type: mentions, target: person/zayd-ibn-arqam, sources: [source/sahih-muslim] }
+  - { type: mentions, target: person/muhammad, sources: [source/sahih-muslim] }
+  - { type: mentions, target: group/ahl-al-bayt, sources: [source/sahih-muslim] }
+  - { type: mentions, target: place/ghadir-khumm, sources: [source/sahih-muslim] }
+  - { type: mentions, target: event/ghadir-khumm, sources: [source/sahih-muslim] }
+  - { type: basis_for, target: event/ghadir-khumm, sources: [source/sahih-muslim] }
+provenance: { layer: own-research, source: "صحيح مسلم، كتاب فضائل الصحابة (نسخة عبد الباقي ص2159؛ طبعة دار التأصيل 2487؛ ترقيم عبد الباقي المعروف 2408)، تصوير Apple Vision OCR", generated_by: "Devin (SWE-2 High) from Apple Vision OCR", run: "hadith-muslim-passages-1" }
+sources: [source/sahih-muslim]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High); matn excerpt at most 40 words checked against the scan" }

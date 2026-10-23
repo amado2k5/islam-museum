@@ -1,0 +1,77 @@
+id: exhibit/path-early-mosques
+class: exhibit
+kind: trail
+label:
+  ar: أقدم المساجد
+  en: The Oldest Mosques
+summary:
+  ar: 'مسار في أقدم الجوامع القائمة: الأقصى وقبة الصخرة، وجامع عمرو وابن طولون، والأموي والقيروان — ألف
+    وأربعمائة سنة.'
+  en: A trail through the oldest standing mosques.
+audience:
+- newcomer
+- student
+duration_minutes: 30
+wings: []
+regions:
+- global
+rooms:
+- title:
+    ar: الأقصى
+    en: Al-Aqsa
+  body:
+    ar: 'ثالث الحرمين: قدسية وتاريخ.'
+    en: 'ثالث الحرمين: قدسية وتاريخ.'
+  features:
+  - building/al-aqsa-mosque
+  - place/jerusalem
+- title:
+    ar: القبة
+    en: The Dome
+  body:
+    ar: 'عبد الملك يبني 691: أقدم أثر إسلامي.'
+    en: 'عبد الملك يبني 691: أقدم أثر إسلامي.'
+  features:
+  - building/dome-of-the-rock
+  - place/jerusalem
+- title:
+    ar: عمرو
+    en: Amr
+  body:
+    ar: 'أول جامع أفريقي: الفسطاط 641.'
+    en: 'أول جامع أفريقي: الفسطاط 641.'
+  features:
+  - building/masjid-amr-fustat
+  - place/al-fustat
+- title:
+    ar: ابن طولون
+    en: Ibn Tulun
+  body:
+    ar: 'جامع القاهرة الملتوي: 876.'
+    en: 'جامع القاهرة الملتوي: 876.'
+  features:
+  - building/masjid-ibn-tulun
+  - place/cairo
+- title:
+    ar: القيروان
+    en: Kairouan
+  body:
+    ar: 'جامع عقبة: أقدم جامع مغربي.'
+    en: 'جامع عقبة: أقدم جامع مغربي.'
+  features:
+  - place/qayrawan
+  - person/uqba-ibn-nafi
+prerequisites:
+- exhibit/path-islam-in-30-minutes
+sources:
+- source/wikidata
+provenance:
+  layer: own-research
+  source: Devin-assembled trail from existing museum entities
+  generated_by: Devin (SWE-2 High)
+  model: SWE-2 High
+  run: pathways-batch-7
+status:
+  review: draft
+  completeness: 1
+  generated_by: Devin (SWE-2 High), pathways lane, 2026-10-16

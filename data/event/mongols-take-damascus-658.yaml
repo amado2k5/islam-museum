@@ -1,0 +1,25 @@
+id: event/mongols-take-damascus-658
+class: event
+kind: conquest
+label: { ar: "دخول التتار دمشق واستسلامها سنة 658هـ", en: "Damascus submits to the Tatars, 658" }
+summary:
+  ar: "وصل خبر أخذ حلب إلى دمشق يوم السبت فهرب الملك الناصر ودخل رسل هلاكو يومئذ وقرئ الفرمان بأمان دمشق، وحُملت مفاتيح حماة إلى هلاكو وسار صاحبها والناصر إلى نحو غزة؛ وعصت قلعة دمشق فحاصرتها التتار وألحوا بعشرين منجنيقاً على برج الطارمة فتشقق فطلب أهلها الأمان فأمّنهم وسكنها النائب كتبغا، وتسلموا بعلبك وقلعتها وأخذوا نابلس ونواحيها بالسيف، ثم ظفروا بالملك الناصر وأخذوه بالأمان فبقي في خدمة هلاكو أشهراً ثم قطع هلاكو الفرات راجعاً وترك بالشام فرقة من التتار؛ وثارت النصارى بدمشق ورفعوا الصليب ومروا به وألزموا الناس بالقيام له من حوانيتهم في الثاني والعشرين من رمضان {cite:shadharat-dhahab p. 298-299}."
+  en: "When Aleppo's fall reached Damascus on a Saturday, al-Nasir fled; Hulagu's aman was proclaimed and Hama's keys sent after him — while the citadel resisted until twenty mangonels cracked the Tarama tower, then yielded for aman and Kitbugha was installed. Baalbek and Nablus fell, al-Nasir was taken under aman into Hulagu's service, and the khan recrossed the Euphrates leaving a detachment — while Damascus's Christians raised the cross through the markets {cite:shadharat-dhahab p. 298-299}."
+wings: [time]
+periods: [period/mongol-post-mongol]
+regions: [levant-iraq]
+sides:
+  - label: { ar: "التتار — حامية هلاكو بقيادة كتبغا" }
+  - label: { ar: "الأيوبيون — دمشق وحماة" }
+map: { kind: siege, precision: locality, center: [33.5138, 36.2765] }
+date: { start: { edtf: "1260-02~", hijri: "0658-02~", calendar: julian, precision: month, status: tradition, derived: true, note: "بعد أخذ حلب في صفر سنة ثمان وخمسين وستمائة {cite:shadharat-dhahab p. 298-299}", sources: [source/shadharat-dhahab] } }
+relations:
+  - { type: occurred_at, target: place/damascus, sources: [source/shadharat-dhahab] }
+  - { type: occurred_at, target: place/nablus, sources: [source/shadharat-dhahab] }
+provenance:
+  layer: own-research
+  source: "شذرات الذهب — ابن العماد (ج5، سنة 658)، قراءة آبل فيجن"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-shadharat-batch-130
+sources: [source/shadharat-dhahab]
+status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 High)" }

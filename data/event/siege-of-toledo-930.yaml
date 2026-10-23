@@ -1,0 +1,23 @@
+id: event/siege-of-toledo-930
+class: event
+kind: siege
+label: { ar: "حصار طليطلة (٩٣٠–٩٣٢)", en: "Siege of Toledo (930–32)" }
+summary:
+  ar: "بطاقة أولية لحصار طليطلة (٩٣٠–٩٣٢)؛ لم تُراجع مصادره على الصفحة بعد."
+  en: "Draft card for Siege of Toledo (930–32); its sources are not yet checked on the page."
+wings: [time]
+periods: [period/abbasid-early]
+regions: [andalus-europe]
+date:
+  start: { edtf: "0930", precision: year, status: tradition, derived: true }
+  end: { edtf: "0932", precision: year, status: tradition, derived: true }
+sources: [source/tarikh-islam-hasan-ibrahim]
+external_ids:
+  wikidata: Q124022690
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; battle attested in narrative histories — entry not yet checked on the page"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-wave2
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

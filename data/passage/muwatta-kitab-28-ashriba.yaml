@@ -1,0 +1,14 @@
+id: passage/muwatta-kitab-28-ashriba
+class: passage
+unit: chapter
+work: work/muwatta-malik
+ref: "kitab-28"
+label: { ar: "الموطأ، كتاب الأشربة", en: "Muwatta, Book of drinks (ashriba)" }
+summary:
+  ar: "كتاب الأشربة في الموطأ، المجلد الثاني، من صفحة 409 إلى 416 بترقيم ملف PDF، ويضم 17 نصا مرقوما (2441–2457) في خمسة أبواب."
+  en: "The Book of drinks (ashriba) in the Muwatta, volume 2, PDF pages 409 to 416 (PDF numbering), with 17 numbered reports (2441–2457) in five babs."
+relations:
+  - { type: part_of, target: work/muwatta-malik }
+provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 2, kitab heading at PDF p. 409; hadith 2441–2457 at PDF pp. 409–416", generated_by: "Claude Code (claude-haiku-5-5) from Apple Vision OCR of the Noor-Book PDF, checked on the page image where doubtful", run: "muwatta-prose-k28-chapter" }
+sources: [source/muwatta-maruf-1997]
+status: { review: draft, completeness: 2, generated_by: "Claude Code (claude-haiku-5-5); chapter record written after 2457; own-words accounts; no hadith text stored" }

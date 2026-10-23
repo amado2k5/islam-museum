@@ -1,0 +1,16 @@
+id: passage/muslim-2330
+class: passage
+unit: hadith
+work: work/sahih-muslim
+ref: "2330"
+label: { ar: "مسلم 2330 — أزهر اللون كأن عرقه اللؤلؤ", en: "Muslim 2330 — Radiant of colour, his sweat like pearls" }
+text: "قال أنس: كان رسول الله أزهر اللون، كأن عرقه اللؤلؤ، إذا مشى تكفأ، ولا مسست ديباجة ولا حريرة ألين من كف رسول الله، ولا شممت مسكة ولا عنبرة أطيب من رائحة رسول الله"
+summary:
+  ar: "رواية أنس بن مالك في باب صفة خلقه من كتاب الفضائل في صحيح مسلم؛ وصف اللون والعرق والكف والرائحة — من أنصع نصوص الشمائل."
+relations:
+  - { type: mentions, target: person/muhammad, sources: [source/sahih-muslim] }
+  - { type: mentions, target: person/anas-ibn-malik, sources: [source/sahih-muslim] }
+  - { type: mentions, target: concept/al-shamail-al-muhammadiyya, sources: [source/sahih-muslim] }
+provenance: { layer: own-research, source: "صحيح مسلم، كتاب الفضائل، باب صفة خلق النبي (طبعة دار التأصيل، الحديث 6200؛ ترقيم عبد الباقي المعروف 2330)، تصوير Apple Vision OCR", generated_by: "Devin (SWE-2 High) from Apple Vision OCR", run: "hadith-muslim-passages-2" }
+sources: [source/sahih-muslim]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High); matn excerpt at most 40 words checked against the scan" }

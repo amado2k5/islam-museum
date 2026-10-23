@@ -1,0 +1,23 @@
+id: event/battle-of-poti-1626
+class: event
+kind: battle
+label: { ar: "معركة بوتي (١٦٢٦)", en: "Battle of Poti (1626)" }
+summary:
+  ar: "بطاقة أولية لمعركة بوتي سنة ١٦٢٦م، من مصادمات العثمانيين والجورجيين؛ لم تُراجع مصادره على الصفحة بعد."
+  en: "Draft card for the Battle of Poti in 1626, an Ottoman–Georgian clash; its sources are not yet checked on the page."
+wings: [time]
+periods: [period/gunpowder-empires]
+regions: [anatolia-balkans]
+date:
+  start: { edtf: "1626", precision: year, status: tradition, derived: true }
+  end: { edtf: "1626", precision: year, status: tradition, derived: true }
+sources: [source/dawlat-uthmaniyya-salabi]
+external_ids:
+  wikidata: Q135855862
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; battle attested in narrative histories — entry not yet checked on the page"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-wave2
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

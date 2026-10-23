@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 60:2 (سورة الممتحنة، الآية 2)."
 text: "إِن يَثْقَفُوكُمْ يَكُونُوا۟ لَكُمْ أَعْدَآءً وَيَبْسُطُوٓا۟ إِلَيْكُمْ أَيْدِيَهُمْ وَأَلْسِنَتَهُم بِٱلسُّوٓءِ وَوَدُّوا۟ لَوْ تَكْفُرُونَ"
 text_search: "إن يثقفوكم يكونوا لكم أعداء ويبسطوا إليكم أيديهم وألسنتهم بالسوء وودوا لو تكفرون"
+translations:
+  en: { text: "If they have the upper hand of you, they will be your foes, and will stretch out their hands and their tongues toward you with evil (intent), and they long for you to disbelieve.", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "اگر یہ کافر تم پر قدرت پالیں تو تمہارے دشمن ہوجائیں اور ایذا کے لئے تم پر ہاتھ (بھی) چلائیں اور زبانیں (بھی) اور چاہتے ہیں کہ تم کسی طرح کافر ہوجاؤ", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-60 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

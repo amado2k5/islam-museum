@@ -1,0 +1,23 @@
+id: event/conquest-of-santarem-1147
+class: event
+kind: conquest
+label: { ar: "غزوة شنترين", en: "Conquest of Santarém" }
+summary:
+  ar: "بطاقة أولية لغزوة شنترين سنة ١١٤٧م، أخذ أفونسو الأول للمدينة من المسلمين في غارة ليلية؛ لم تُراجع مصادره على الصفحة بعد."
+  en: "Draft card for the Conquest of Santarém in 1147, Afonso I's night seizure of the Muslim city; its sources are not yet checked on the page."
+wings: [time]
+periods: [period/crusades-ayyubid-mamluk]
+regions: [andalus-europe]
+date:
+  start: { edtf: "1147", precision: year, status: tradition, derived: true }
+  end: { edtf: "1147", precision: year, status: tradition, derived: true }
+sources: [source/tarikh-islam-hasan-ibrahim]
+external_ids:
+  wikidata: Q5162445
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; conquest attested in Portuguese histories — entry not yet checked on the page"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-wave2
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

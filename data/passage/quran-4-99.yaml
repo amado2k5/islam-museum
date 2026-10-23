@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 4:99 (سورة النساء، الآية 99)."
 text: "فَأُو۟لَـٰٓئِكَ عَسَى ٱللَّهُ أَن يَعْفُوَ عَنْهُمْ ۚ وَكَانَ ٱللَّهُ عَفُوًّا غَفُورًا"
 text_search: "فأولئك عسى الله أن يعفو عنهم ۚ وكان الله عفوا غفورا"
+translations:
+  en: { text: "As for such, it may be that Allah will pardon them. Allah is ever Clement, Forgiving.", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "قریب ہے کہ خدا ایسوں کو معاف کردے اور خدا معاف کرنے والا (اور) بخشنے والا ہے", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-4 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

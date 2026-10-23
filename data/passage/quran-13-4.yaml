@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 13:4 (سورة الرعد، الآية 4)."
 text: "وَفِى ٱلْأَرْضِ قِطَعٌ مُّتَجَـٰوِرَٰتٌ وَجَنَّـٰتٌ مِّنْ أَعْنَـٰبٍ وَزَرْعٌ وَنَخِيلٌ صِنْوَانٌ وَغَيْرُ صِنْوَانٍ يُسْقَىٰ بِمَآءٍ وَٰحِدٍ وَنُفَضِّلُ بَعْضَهَا عَلَىٰ بَعْضٍ فِى ٱلْأُكُلِ ۚ إِنَّ فِى ذَٰلِكَ لَـَٔايَـٰتٍ لِّقَوْمٍ يَعْقِلُونَ"
 text_search: "وفي الأرض قطع متجاورات وجنات من أعناب وزرع ونخيل صنوان وغير صنوان يسقى بماء واحد ونفضل بعضها على بعض في الأكل ۚ إن في ذلك لآيات لقوم يعقلون"
+translations:
+  en: { text: "And in the Earth are neighbouring tracts, vineyards and ploughed lands, and date-palms, like and unlike, which are watered with one water. And we have made some of them to excel others in fruit. Lo! herein verily are portents for people who have sense.", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "اور زمین میں کئی طرح کے قطعات ہیں۔ ایک دوسرے سے ملے ہوئے اور انگور کے باغ اور کھیتی اور کھجور کے درخت۔ بعض کی بہت سی شاخیں ہوتی ہیں اور بعض کی اتنی نہیں ہوتیں (باوجود یہ کہ) پانی سب کو ایک ہی ملتا ہے۔ اور ہم بعض میوؤں کو بعض پر لذت میں فضیلت دیتے ہیں۔ اس میں سمجھنے والوں کے لیے بہت سی نشانیاں ہیں", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-13 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

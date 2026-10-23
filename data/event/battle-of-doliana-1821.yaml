@@ -1,0 +1,23 @@
+id: event/battle-of-doliana-1821
+class: event
+kind: battle
+label: { ar: "معركة دوليانا", en: "Battle of Doliana" }
+summary:
+  ar: "بطاقة أولية لمعركة دوليانا سنة ١٨٢١م، صد الثورة اليونانية في المورة عن الجيش العثماني؛ لم تُراجع مصادره على الصفحة بعد."
+  en: "Draft card for the Battle of Doliana in 1821, the Greek revolution's check on the Ottoman army in the Morea; its sources are not yet checked on the page."
+wings: [time]
+periods: [period/colonial-era]
+regions: [anatolia-balkans]
+date:
+  start: { edtf: "1821-05-18", precision: year, status: tradition, derived: true }
+  end: { edtf: "1821-05-18", precision: year, status: tradition, derived: true }
+sources: [source/dawlat-uthmaniyya-salabi]
+external_ids:
+  wikidata: Q2579514
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; battle attested in narrative histories — entry not yet checked on the page"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-wave2
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

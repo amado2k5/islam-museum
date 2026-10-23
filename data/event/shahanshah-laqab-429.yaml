@@ -1,0 +1,26 @@
+id: event/shahanshah-laqab-429
+class: event
+kind: other
+label:
+  ar: "فتنة لقب شاهنشاه الأعظم ملك الملوك"
+  en: "The Shahanshah laqab controversy"
+summary:
+  ar: "في رمضان سنة تسع وعشرين وأربعمائة استُقرئ في إضافة «شاهنشاه الأعظم ملك الملوك» إلى ألقاب جلال الدولة، فأمر الخليفة بأن يُخطب له بها، فأنكر العامة ورموا الخطيب بالآجر ووقعت فتنة. وكتب الخليفة إلى الفقهاء، فأجاز أبو عبد الله الصيمري الحنفي إطلاقها لجواز تفاضل الملوك، وأجاز أبو الطيب الطبري على قياس «قاضي القضاة»، وكتب التميمي نحو ذلك، وامتنع قاضي القضاة الماوردي من الجواز فانقطع عن خدمة جلال الدولة، ثم استدعاه الملك بكرة يوم العيد على وجل فقال له: إني لأتحقق أنك لو حابيت أحدًا لحابيتني، وما حملك على مخالفتي إلا الدين وقد قرّبك ذلك مني وزاد محلك في قلبي {cite:muntazam-ibn-al-jawzi j.8 p.439-440}."
+  en: "In Ramadan 429 the laqabs 'Greatest Shahanshah, King of Kings' were proposed for Jalal al-Dawla and the caliph ordered the khutba with them; the crowd pelted the khatib with bricks and a fitna broke out. The jurists wrote opinions — al-Saymari and Abu'l-Tayyib al-Tabari permitting, al-Mawardi refusing — whereupon Jalal cut him off, then received him warmly on the feast day, telling him that only religion had moved him and that it had raised his standing in the king's heart {cite:muntazam-ibn-al-jawzi j.8 p.439-440}."
+wings: [time]
+periods: [period/buyid-seljuk-fatimid-era]
+regions: [levant-iraq]
+themes: [law-and-courts, creed]
+date:
+  start: { edtf: "1038-08~", hijri: "0429-09", calendar: julian, precision: month, status: tradition, derived: true, note: "رمضان ٤٢٩ {cite:muntazam-ibn-al-jawzi j.8 p.439}" }
+relations:
+  - { type: occurred_at, target: place/baghdad, sources: [source/muntazam-ibn-al-jawzi] }
+  - { type: had_participant, target: person/jalal-al-dawla, role: "صاحب اللقب المقترح", sources: [source/muntazam-ibn-al-jawzi] }
+  - { type: had_participant, target: person/al-mawardi, role: "قاضي القضاة الممتنع عن الجواز", sources: [source/muntazam-ibn-al-jawzi] }
+provenance:
+  layer: own-research
+  source: "المنتظم في تاريخ الملوك والأمم — ابن الجوزي (ج8، أحداث سنة ٤٢٩)، قراءة آبل فيجن، مسح AAlexandrina-224011"
+  generated_by: "Devin (SWE-2 Medium) from Apple Vision OCR"
+  run: lib-muntazam-350-474-batch24
+sources: [source/muntazam-ibn-al-jawzi]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 Medium)" }

@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 40:8 (سورة غافر، الآية 8)."
 text: "رَبَّنَا وَأَدْخِلْهُمْ جَنَّـٰتِ عَدْنٍ ٱلَّتِى وَعَدتَّهُمْ وَمَن صَلَحَ مِنْ ءَابَآئِهِمْ وَأَزْوَٰجِهِمْ وَذُرِّيَّـٰتِهِمْ ۚ إِنَّكَ أَنتَ ٱلْعَزِيزُ ٱلْحَكِيمُ"
 text_search: "ربنا وأدخلهم جنات عدن التي وعدتهم ومن صلح من آبائهم وأزواجهم وذرياتهم ۚ إنك أنت العزيز الحكيم"
+translations:
+  en: { text: "Our Lord! And make them enter the Gardens of Eden which thou hast promised them, with such of their fathers and their wives and their descendants as do right. Lo! Thou, only Thou, art the Mighty, the Wise.", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "اے ہمارے پروردگار ان کو ہمیشہ رہنے کے بہشتوں میں داخل کر جن کا تونے ان سے وعدہ کیا ہے اور جو ان کے باپ دادا اور ان کی بیویوں اور ان کی اولاد میں سے نیک ہوں ان کو بھی۔ بےشک تو غالب حکمت والا ہے", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-40 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

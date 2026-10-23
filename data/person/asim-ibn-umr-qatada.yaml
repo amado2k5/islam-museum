@@ -1,0 +1,23 @@
+id: person/asim-ibn-umr-qatada
+class: person
+label: { ar: "عاصم بن عمر بن قتادة" }
+names:
+  - { kind: full, lang: ar, value: "عاصم بن عمرو بن قتادة الظفري" }
+gender: male
+roles: [scholar]
+summary:
+  ar: "عاصم بن عمر بن قتادة الظفري الأنصاري، مدني كان جده قتادة من أهل بدر وروى أبوه عمر بن قتادة الأخبار عن أبيه وبلّغها ابنه عاصماً؛ قال فيه ابن سعد: «كان راوية للعلم، وله علم بالمغازي والسير، أمره عمر بن عبد العزيز أن يجلس في مسجد دمشق فيحدث الناس بالمغازي ومناقب الصحابة ففعل»؛ وأرّخ بعضهم موته بسنة ١٢٠ وبعضهم بسنة ١٢٩، وكان من المصادر التي اعتمد عليها ابن إسحاق والواقدي {cite:duha-islam p. 642-643}."
+  en: "Asim ibn Umar ibn Qatada al-Zafari — Medinan Ansari whose grandfather fought at Badr; Umar II ordered him to teach maghazi in the Damascus mosque; a source for Ibn Ishaq and al-Waqidi {cite:duha-islam p. 642-643}."
+died: { edtf: "0738", hijri: "0120", calendar: julian, precision: year, status: debated, note: "أرّخ بعضهم موته بسنة ١٢٠ وبعضهم بسنة ١٢٩ {cite:duha-islam p. 643}." }
+wings: [people]
+periods: [period/umayyad]
+regions: [arabia]
+relations:
+  - { type: influenced, target: person/ibn-ishaq, role: "مصدر له في السيرة", sources: [source/duha-islam] }
+sources: [source/duha-islam]
+provenance:
+  layer: own-research
+  source: "ضحى الإسلام لأحمد أمين ص 642-643"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-duha-islam-batch-3
+status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 High)" }

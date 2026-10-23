@@ -1,0 +1,23 @@
+id: event/battle-of-al-qarn-742
+class: event
+kind: battle
+label: { ar: "معركة القرن (٧٤٢)", en: "Battle of al-Qarn" }
+summary:
+  ar: "بطاقة أولية لمعركة القرن سنة ٧٤٢م، دحر الأمويين ثورة البربر في إفريقية؛ لم تُراجع مصادره على الصفحة بعد."
+  en: "Draft card for the Battle of al-Qarn in 742, the Umayyads' suppression of the Berber revolt in Ifriqiya; its sources are not yet checked on the page."
+wings: [time]
+periods: [period/umayyad]
+regions: [maghreb]
+date:
+  start: { edtf: "0742-05", precision: year, status: tradition, derived: true }
+  end: { edtf: "0742-05", precision: year, status: tradition, derived: true }
+sources: [source/tarikh-al-tabari]
+external_ids:
+  wikidata: Q22690035
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; battle attested in narrative histories — entry not yet checked on the page"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-wave2
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

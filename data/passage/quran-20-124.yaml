@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 20:124 (سورة طه، الآية 124)."
 text: "وَمَنْ أَعْرَضَ عَن ذِكْرِى فَإِنَّ لَهُۥ مَعِيشَةً ضَنكًا وَنَحْشُرُهُۥ يَوْمَ ٱلْقِيَـٰمَةِ أَعْمَىٰ"
 text_search: "ومن أعرض عن ذكري فإن له معيشة ضنكا ونحشره يوم القيامة أعمى"
+translations:
+  en: { text: "But he who turneth away from remembrance of Me, his will be a narrow life, and I shall bring him blind to the assembly on the Day of Resurrection.", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "اور جو میری نصیحت سے منہ پھیرے گا اس کی زندگی تنگ ہوجائے گی اور قیامت کو ہم اسے اندھا کرکے اٹھائیں گے", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-20 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

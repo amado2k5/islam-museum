@@ -1,0 +1,23 @@
+id: event/battle-mostaganem-965
+class: event
+kind: battle
+label: { ar: "معركة مستغانم (٩٦٥هـ/١٥٥٨م)", en: "Battle of Mostaganem (965/1558)" }
+summary:
+  ar: "أدرك الكونت دي الكوديت حاكم وهران أن استرجاع العثمانيين لتلمسان يهدد الوجود الأسباني تهديداً خطيراً، فأعد اثني عشر ألف مقاتل وخرج على رأسها لمهاجمة مستغانم — قاعدة العثمانيين للهجوم على وهران — راجياً أن يجعلها قاعدة للهجوم على الجزائر؛ فباءت محاولته بالفشل وتكبدت القوات الأسبانية في ذي القعدة ٩٦٥هـ/أغسطس ١٥٥٨م خسائر فادحة وكان الكوديت من بين القتلى {cite:dawlat-uthmaniyya-salabi p. 246}."
+  en: "Seeing the Ottoman recovery of Tlemcen as a mortal threat, the Count of Alcaudete led twelve thousand men against Mostaganem — the Ottoman base against Oran — hoping to make it his own base against Algiers; the attempt failed, the Spanish force suffered heavy losses in Dhu'l-Qa'da 965/August 1558, and the count himself was among the dead {cite:dawlat-uthmaniyya-salabi p. 246}."
+wings: [time]
+periods: [period/gunpowder-empires]
+regions: [maghreb]
+date:
+  start: { edtf: "1558-08", hijri: "0965-11", calendar: gregorian, precision: month, status: tradition, derived: true, sources: [source/dawlat-uthmaniyya-salabi] }
+relations:
+  - { type: had_participant, target: person/conde-de-alcaudete, sources: [source/dawlat-uthmaniyya-salabi] }
+  - { type: had_participant, target: person/hasan-ibn-khayr-al-din, sources: [source/dawlat-uthmaniyya-salabi] }
+sources: [source/dawlat-uthmaniyya-salabi]
+provenance:
+  layer: own-research
+  source: "الدولة العثمانية لعلي محمد الصلابي (ط1 1421) ص 246"
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: salabi-uthmani-batch13
+status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 Medium)" }

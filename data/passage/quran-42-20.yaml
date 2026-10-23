@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 42:20 (سورة الشورى، الآية 20)."
 text: "مَن كَانَ يُرِيدُ حَرْثَ ٱلْـَٔاخِرَةِ نَزِدْ لَهُۥ فِى حَرْثِهِۦ ۖ وَمَن كَانَ يُرِيدُ حَرْثَ ٱلدُّنْيَا نُؤْتِهِۦ مِنْهَا وَمَا لَهُۥ فِى ٱلْـَٔاخِرَةِ مِن نَّصِيبٍ"
 text_search: "من كان يريد حرث الآخرة نزد له في حرثه ۖ ومن كان يريد حرث الدنيا نؤته منها وما له في الآخرة من نصيب"
+translations:
+  en: { text: "Whoso desireth the harvest of the Hereafter, We give him increase in its harvest. And whoso desireth the harvest of the world, We give him thereof, and he hath no portion in the Hereafter.", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "جو شخص آخرت کی کھیتی کا خواستگار ہو اس کو ہم اس میں سے دیں گے۔ اور جو دنیا کی کھیتی کا خواستگار ہو اس کو ہم اس میں سے دے دیں گے۔ اور اس کا آخرت میں کچھ حصہ نہ ہوگا", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-42 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 92:19 (سورة الليل، الآية 19)."
 text: "وَمَا لِأَحَدٍ عِندَهُۥ مِن نِّعْمَةٍ تُجْزَىٰٓ"
 text_search: "وما لأحد عنده من نعمة تجزى"
+translations:
+  en: { text: "And none hath with him any favour for reward,", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "اور (اس لیے) نہیں (دیتا کہ) اس پر کسی کا احسان (ہے) جس کا وہ بدلہ اتارتا ہے", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-92 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

@@ -1,0 +1,33 @@
+id: group/janissaries
+class: group
+kind: army
+label:
+  ar: "فيلق الينيچري (الجيش الجديد)"
+  en: "The Janissary corps (Yeniçeri)"
+summary:
+  ar: "الجيش النظامي الجديد الذي يذكر الصلابي أن السلطان أورخان أنشأه باقتراح أخيه علاء الدين بن عثمان، وأن فكرته قامت على تربية الأسرى والمسبيين تربية إسلامية وتدريبهم على الحرب، فسُمّي الجيش الجديد «الينيچري». ويذكر الكتاب أن أورخان نظّم الجيش في عشرات ومئات وألوف وخصّص خمس الغنائم له وأنشأ مراكز للتدريب، وأن علاء الدين وأورخان اتفقا على أن الهدف من التشكيل الجديد بناء قوة نظامية دائمة {cite:dawlat-uthmaniyya-salabi p. 53-55}. ويصرّ المؤلف على أن التصور الشائع لنظام «الدثرمة» — أي جمع أبناء النصارى بالإكراه وإسلامهم قسراً — «كذبة دُسّت على تاريخ أورخان ومراد»، وأن أورخان لم ينتزع غلاماً نصرانياً واحداً من بيت أبيه — وهذا دفاع المؤلف وموقفه لا إجماع المؤرخين {cite:dawlat-uthmaniyya-salabi p. 53-55}."
+  en: "The 'new army' (Yeniçeri) that al-Sallabi says Orhan founded on his brother Alaeddin's proposal — a standing corps raised from captives given Islamic training, organized in tens, hundreds and thousands with a fifth of spoils assigned to it and dedicated training centres {cite:dawlat-uthmaniyya-salabi p. 53-55}. The author insists the familiar devşirme picture — Christian boys forcibly levied and converted — is 'a lie planted in Orhan's and Murad's history'; that is the author's apologetic position, not a consensus of historians {cite:dawlat-uthmaniyya-salabi p. 53-55}."
+issue: { ar: "كيف نشأت فرقة الينيچري، وما حقيقة نظام الدوشرمة (جمع الأطفال)؟", en: "How was the Janissary corps founded, and what is the truth of the devşirme (child-levy) system?" }
+perspectives:
+  - tradition: sunni
+    id: author-defense
+    summary: { en: "Al-Sallabi argues at length that the devşirme-as-forced-child-levy picture is a fabrication against Orhan and Murad, and that the corps began as captives and converts reared on Islamic training." }
+    sources: [source/dawlat-uthmaniyya-salabi]
+  - tradition: academic
+    id: academic
+    summary: { en: "Standard scholarship describes the devşirme child levy as a documented Ottoman institution of the following centuries; this file records al-Sallabi's dissent as his attributed position." }
+    sources: [source/dawlat-uthmaniyya-salabi]
+sensitivity: contested
+wings: [people]
+regions: [anatolia-balkans]
+periods: [period/mongol-post-mongol]
+relations:
+  - { type: founded_by, target: person/urkhan-ibn-uthman, sources: [source/dawlat-uthmaniyya-salabi] }
+  - { type: related_to, target: person/alaeddin-pasha, role: "صاحب الفكرة", sources: [source/dawlat-uthmaniyya-salabi] }
+sources: [source/dawlat-uthmaniyya-salabi]
+provenance:
+  layer: own-research
+  source: "الدولة العثمانية لعلي محمد الصلابي، ص 53–55"
+  generated_by: "Devin (SWE-2 Medium) from Apple Vision OCR"
+  run: lib-salabi-uthmani-batch-3
+status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 Medium)" }

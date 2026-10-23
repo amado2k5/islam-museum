@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 104:6 (سورة الهمزة، الآية 6)."
 text: "نَارُ ٱللَّهِ ٱلْمُوقَدَةُ"
 text_search: "نار الله الموقدة"
+translations:
+  en: { text: "(It is) the fire of Allah, kindled,", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "وہ خدا کی بھڑکائی ہوئی آگ ہے", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-104 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

@@ -1,0 +1,76 @@
+id: exhibit/path-eids
+class: exhibit
+kind: trail
+label:
+  ar: العيدان
+  en: The Two Eids
+summary:
+  ar: 'مسار في عيدي الأمة: فطر بعد رمضان، وأضحى بعد الحج — التكبير والصلاة والوليمة والفرح المشروع.'
+  en: A trail through the community's two feasts.
+audience:
+- newcomer
+- student
+duration_minutes: 30
+wings: []
+regions:
+- global
+rooms:
+- title:
+    ar: الفطر
+    en: Eid al-Fitr
+  body:
+    ar: 'أول شوال: زكاة الفطر ثم الصلاة.'
+    en: 'أول شوال: زكاة الفطر ثم الصلاة.'
+  features:
+  - practice/eid-al-fitr
+  - practice/zakat
+- title:
+    ar: الأضحى
+    en: Eid al-Adha
+  body:
+    ar: 'عاشر ذي الحجة: النحر والتشريق.'
+    en: 'عاشر ذي الحجة: النحر والتشريق.'
+  features:
+  - practice/eid-al-adha
+  - practice/eid-al-adha
+- title:
+    ar: الصلاة
+    en: The prayer
+  body:
+    ar: 'صلاة العيد جماعة: تكبيرات زوائد.'
+    en: 'صلاة العيد جماعة: تكبيرات زوائد.'
+  features:
+  - practice/salat
+  - practice/adhan
+- title:
+    ar: الأُضحية
+    en: The sacrifice
+  body:
+    ar: 'لحوم للفقراء: عبادة واقتصاد.'
+    en: 'لحوم للفقراء: عبادة واقتصاد.'
+  features:
+  - practice/eid-al-adha
+  - practice/zakat
+- title:
+    ar: الفرح
+    en: Joy
+  body:
+    ar: 'اللعب والزينة: شرعية الفرح.'
+    en: 'اللعب والزينة: شرعية الفرح.'
+  features:
+  - concept/adab
+  - practice/eid-al-fitr
+prerequisites:
+- exhibit/path-islam-in-30-minutes
+sources:
+- source/wikidata
+provenance:
+  layer: own-research
+  source: Devin-assembled trail from existing museum entities
+  generated_by: Devin (SWE-2 High)
+  model: SWE-2 High
+  run: pathways-batch-7
+status:
+  review: draft
+  completeness: 1
+  generated_by: Devin (SWE-2 High), pathways lane, 2026-10-16

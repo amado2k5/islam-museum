@@ -1,0 +1,23 @@
+id: event/fall-of-caesarea-1265
+class: event
+kind: siege
+label: { ar: "سقوط قيسارية (١٢٦٥)", en: "Fall of Caesarea (1265)" }
+summary:
+  ar: "بطاقة أولية لسقوط قيسارية سنة ١٢٦٥م، أخذ بيبرس لها من الصليبيين؛ لم تُراجع مصادره على الصفحة بعد."
+  en: "Draft card for the fall of Caesarea in 1265, Baybars's capture of the Crusader port; its sources are not yet checked on the page."
+wings: [time]
+periods: [period/crusades-ayyubid-mamluk]
+regions: [levant-iraq]
+date:
+  start: { edtf: "1265-02", precision: year, status: tradition, derived: true }
+  end: { edtf: "1265-03", precision: year, status: tradition, derived: true }
+sources: [source/tarikh-islam-hasan-ibrahim]
+external_ids:
+  wikidata: Q5432147
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; battle attested in narrative histories — entry not yet checked on the page"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-wave2
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

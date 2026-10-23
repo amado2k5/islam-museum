@@ -1,0 +1,19 @@
+id: place/shirwan
+class: place
+kind: region
+label: { ar: "شروان", en: "Shirwan" }
+summary:
+  ar: "شروان من بلاد القوقاز ما وراء أران؛ وطىء قائد قباذ ما بين نهر الرس إلى شروان وبنى قباذ سد اللبن بين أرض شروان وباب اللان، ومن ملوك الجبل الذين أقرّهم أنوشروان على ممالكهم ملك شروان ويدعى شروانشاه."
+  en: "Shirwan of the Caucasian lands beyond Arran; Qubadh's general trod what lay between the river al-Rass and Shirwan, and Qubadh built the wall of al-Lubn between Shirwan's land and Bab al-Lan; among the mountain kings Anushirwan confirmed on their kingdoms is the king of Shirwan, called the Shirwanshah."
+wings: [place]
+periods: [period/pre-islamic-arabia]
+regions: [levant-iraq]
+relations:
+  - { type: part_of, target: place/armenia, sources: [source/futuh-buldan-maarif-1407] }
+provenance:
+  layer: own-research
+  source: "فتوح البلدان (ط مؤسسة المعارف 1407هـ/1987م) ص 273، 276"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-futuh-buldan-batch-16
+sources: [source/futuh-buldan-maarif-1407]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

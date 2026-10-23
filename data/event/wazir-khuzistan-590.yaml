@@ -1,0 +1,19 @@
+id: event/wazir-khuzistan-590
+class: event
+kind: campaign
+label: { ar: "مسير وزير الخليفة إلى خوزستان وملكها", en: "the caliph's vizier marches on and takes Khuzistan" }
+date:
+  start: { edtf: "1194~", hijri: "0590", calendar: julian, precision: year, status: tradition, derived: true }
+summary:
+  ar: "سار وزير الخليفة الناصر إلى خوزستان فملكها، وكان سببها أن صاحب قلعتها سوسيان بن شملة توفي واختلف أولاده بعده فراسل أحدهم الخليفة يسلمه إليه {cite:kamil-ibn-al-athir p. 234-235}."
+  en: "Al-Nasir sent his vizier against Khuzistan and took it — the castle of Susiyan ibn Shamla falling to Baghdad when its dead lord sons quarreled and one wrote the caliph offering the keys {cite:kamil-ibn-al-athir p. 234-235}."
+relations:
+  - { type: occurred_at, target: place/khuzistan, sources: [source/kamil-ibn-al-athir] }
+  - { type: had_participant, target: person/al-nasir-billah, role: "أرسل وزيره", sources: [source/kamil-ibn-al-athir] }
+provenance:
+  layer: own-research
+  source: "الكامل في التاريخ لابن الأثير، قراءة آبل فيجن"
+  generated_by: "Devin (SWE-2 Medium) from Apple Vision OCR"
+  run: lib-kamil-v12-batch04
+sources: [source/kamil-ibn-al-athir]
+status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 Medium)" }

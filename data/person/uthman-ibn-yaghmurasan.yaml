@@ -1,0 +1,28 @@
+id: person/uthman-ibn-yaghmurasan
+class: person
+label:
+  ar: عثمان بن يغمراسن بن زيان
+  en: Uthman ibn Yaghmurasan ibn Zayyan
+summary:
+  ar: "عثمان بن يغمراسن بن زيان الثاني من ملوك بني عبد الواد؛ لما هلك أبوه آخر ذي القعدة سنة اثنتين وثمانين وستمائة وهو عائد من تنّس تلقاه ولقيه عند سيك فحمله موارياً موته إلى تلمسان فبايعه العامة والخاصة وخاطب الخليفة أبا إسحاق بتونس فعقد له على عمله، وكان أبوه أوصاه - على حديث شيخ ابن خلدون الآيلي عن السلطان أبي حمو موسى - ألا يعتمد لقاء بني مرين وعليه باللياذ بالجدران، فنازل يوسف بن يعقوب تلمسان سنة ثمان وتسعين وستمائة فأمدّه الأمير أبو زكرياء بجيوشه فكانت الدبرة على عسكر الموحدين بجبل الزاب في معركة مرسى الرؤوس، ومحا اسم الخليفة الحفصي من منابر تلمسان، وكان في دولته اتساع بين تلمسان وبجاية حتى مالكاها وقعتا له حرباً طويلة مع الموحدين."
+  en: "Uthman ibn Yaghmurasan ibn Zayyan, second of the Banu Abd al-Wad kings; when his father died at the end of Dhu'l-Qa'da 682 returning from Ténès, he met the bier at Sik, concealed the death to Tlemcen and took the bay'a of elite and commons, writing to the Hafsid al-Mustansir's line for investiture — his father's counsel, per Ibn Khaldun's shaykh al-Ayili quoting Abu Hammu Musa, being never to trust meeting the Marinids in open field but to lean on the walls; he held Tlemcen against Yusuf ibn Ya'qub's 698 siege with Abu Zakariya's aid, the Almohad column broken at Jabal al-Zab in the battle of Marsa al-Ru'us, and erased the Hafsid name from Tlemcen's minbars."
+gender: male
+roles: [ruler]
+wings: [people]
+periods: [period/crusades-ayyubid-mamluk]
+regions: [maghreb]
+relations:
+- { type: "ruler_of", target: "polity/zayyanid-tlemcen", note: "ثاني ملوك بني عبد الواد", sources: [source/tarikh-ibn-khaldun-ibar] }
+- { type: "successor_of", target: "person/yaghmurasan-ibn-zayyan", note: "خلف أباه آخر ذي القعدة 682هـ", sources: [source/tarikh-ibn-khaldun-ibar] }
+sources:
+- source/tarikh-ibn-khaldun-ibar
+provenance:
+  layer: own-research
+  source: ابن خلدون، العبر — مهلك يغمراسن وولاية ابنه عثمان، ص1854-1856 (طبعة هيليوبوليس)
+  generated_by: Devin (SWE-2 High) from Apple Vision OCR
+  model: swe-2-high
+  run: lib-ibar-maghreb-36
+status:
+  review: draft
+  completeness: 1
+  generated_by: Devin (SWE-2 High); extracted from Ibn Khaldun al-Ibar via Apple Vision OCR

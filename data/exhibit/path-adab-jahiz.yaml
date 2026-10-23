@@ -1,0 +1,76 @@
+id: exhibit/path-adab-jahiz
+class: exhibit
+kind: trail
+label:
+  ar: الجاحظ وعصره
+  en: Al-Jahiz and His Age
+summary:
+  ar: 'مسار في أديب البصرة الأشهر: الجاحظ يكتب البيان والحيوان، ومعاصروه التنوخيون — بغداد الأدبية.'
+  en: A trail through Basra's greatest man of letters.
+audience:
+- newcomer
+- student
+duration_minutes: 30
+wings: []
+regions:
+- levant-iraq
+rooms:
+- title:
+    ar: الجاحظ
+    en: Al-Jahiz
+  body:
+    ar: 'عمرو بن بحر: البيان والحيوان والبخلاء.'
+    en: 'عمرو بن بحر: البيان والحيوان والبخلاء.'
+  features:
+  - person/al-jahiz
+  - place/basra
+- title:
+    ar: الكتابة
+    en: The writing
+  body:
+    ar: 'أسلوب الجاحظ: علم بلباقة الدعابة.'
+    en: 'أسلوب الجاحظ: علم بلباقة الدعابة.'
+  features:
+  - person/al-jahiz
+  - concept/adab
+- title:
+    ar: التنوخيون
+    en: The Tanukhis
+  body:
+    ar: 'قاضي القضاة وأسرته: أدب الدواوين.'
+    en: 'قاضي القضاة وأسرته: أدب الدواوين.'
+  features:
+  - person/abu-ali-al-muhassin-al-tanukhi
+  - place/baghdad
+- title:
+    ar: ابن قتيبة
+    en: Ibn Qutayba
+  body:
+    ar: عيون الأخبار وأدب الكاتب.
+    en: عيون الأخبار وأدب الكاتب.
+  features:
+  - person/ibn-qutayba
+  - place/baghdad
+- title:
+    ar: بغداد
+    en: Baghdad
+  body:
+    ar: 'سوق الوراقين: أدب يُباع بالقيراط.'
+    en: 'سوق الوراقين: أدب يُباع بالقيراط.'
+  features:
+  - place/baghdad
+  - building/bayt-al-hikma
+prerequisites:
+- exhibit/path-islam-in-30-minutes
+sources:
+- source/wikidata
+provenance:
+  layer: own-research
+  source: Devin-assembled trail from existing museum entities
+  generated_by: Devin (SWE-2 High)
+  model: SWE-2 High
+  run: pathways-batch-7
+status:
+  review: draft
+  completeness: 1
+  generated_by: Devin (SWE-2 High), pathways lane, 2026-10-16

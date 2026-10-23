@@ -1,0 +1,23 @@
+id: event/kurdish-rebellions-ww1
+class: event
+kind: revolt
+label: { ar: "ثورات الأكراد في الحرب العالمية", en: "Kurdish Rebellions during World War I" }
+summary:
+  ar: "بطاقة أولية لثورات الأكراد في ١٩١٤–١٩١٨م، انتفاضاتهم على الدولة العثمانية في الحرب؛ لم تُراجع مصادره على الصفحة بعد."
+  en: "Draft card for the Kurdish rebellions of 1914–18, their risings against the Ottoman state in the war; its sources are not yet checked on the page."
+wings: [time]
+periods: [period/modern-era]
+regions: [anatolia-balkans]
+date:
+  start: { edtf: "1914", precision: year, status: tradition, derived: true }
+  end: { edtf: "1918", precision: year, status: tradition, derived: true }
+sources: [source/dawlat-uthmaniyya-salabi]
+external_ids:
+  wikidata: Q85775124
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; battle attested in narrative histories — entry not yet checked on the page"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-wave2
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

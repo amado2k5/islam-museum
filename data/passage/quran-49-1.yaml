@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 49:1 (سورة الحجرات، الآية 1)."
 text: "بِسْمِ ٱللَّهِ ٱلرَّحْمَـٰنِ ٱلرَّحِيمِ يَـٰٓأَيُّهَا ٱلَّذِينَ ءَامَنُوا۟ لَا تُقَدِّمُوا۟ بَيْنَ يَدَىِ ٱللَّهِ وَرَسُولِهِۦ ۖ وَٱتَّقُوا۟ ٱللَّهَ ۚ إِنَّ ٱللَّهَ سَمِيعٌ عَلِيمٌ"
 text_search: "بسم الله الرحمن الرحيم يا أيها الذين آمنوا لا تقدموا بين يدي الله ورسوله ۖ واتقوا الله ۚ إن الله سميع عليم"
+translations:
+  en: { text: "O ye who believe! Be not forward in the presence of Allah and His messenger, and keep your duty to Allah. Lo! Allah is Hearer, Knower.", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "مومنو! (کسی بات کے جواب میں) خدا اور اس کے رسول سے پہلے نہ بول اٹھا کرو اور خدا سے ڈرتے رہو۔ بےشک خدا سنتا جانتا ہے", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-49 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

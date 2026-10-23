@@ -1,0 +1,23 @@
+id: event/battle-of-phaleron-1827
+class: event
+kind: battle
+label: { ar: "معركة فاليرون", en: "Battle of Phaleron" }
+summary:
+  ar: "بطاقة أولية لمعركة فاليرون سنة ١٨٢٧م، هزيمة الإغريق أمام العثمانيين في حصار الأكروبول؛ لم تُراجع مصادره على الصفحة بعد."
+  en: "Draft card for the Battle of Phaleron in 1827, the Greek defeat by the Ottomans at the Acropolis siege; its sources are not yet checked on the page."
+wings: [time]
+periods: [period/colonial-era]
+regions: [anatolia-balkans]
+date:
+  start: { edtf: "1827", precision: year, status: tradition, derived: true }
+  end: { edtf: "1827", precision: year, status: tradition, derived: true }
+sources: [source/dawlat-uthmaniyya-salabi]
+external_ids:
+  wikidata: Q82702
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; battle attested in Greek-independence histories — entry not yet checked on the page"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-wave2
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

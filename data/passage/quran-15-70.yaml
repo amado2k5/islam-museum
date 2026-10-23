@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 15:70 (سورة الحجر، الآية 70)."
 text: "قَالُوٓا۟ أَوَلَمْ نَنْهَكَ عَنِ ٱلْعَـٰلَمِينَ"
 text_search: "قالوا أولم ننهك عن العالمين"
+translations:
+  en: { text: "They said; Have we not forbidden you from (entertaining) anyone?", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "وہ بولے کیا ہم نے تم کو سارے جہان (کی حمایت وطرفداری) سے منع نہیں کیا", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-15 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

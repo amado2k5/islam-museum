@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 21:52 (سورة الأنبياء، الآية 52)."
 text: "إِذْ قَالَ لِأَبِيهِ وَقَوْمِهِۦ مَا هَـٰذِهِ ٱلتَّمَاثِيلُ ٱلَّتِىٓ أَنتُمْ لَهَا عَـٰكِفُونَ"
 text_search: "إذ قال لأبيه وقومه ما هذه التماثيل التي أنتم لها عاكفون"
+translations:
+  en: { text: "When he said unto his father and his folk: What are these images unto which ye pay devotion?", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "جب انہوں نے اپنے باپ اور اپنی قوم کے لوگوں سے کہا یہ کیا مورتیں ہیں جن (کی پرستش) پر تم معتکف (وقائم) ہو؟", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-21 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

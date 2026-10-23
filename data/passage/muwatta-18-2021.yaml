@@ -1,0 +1,15 @@
+id: passage/muwatta-18-2021
+class: passage
+unit: hadith
+work: work/muwatta-malik
+ref: "2021"
+label: { ar: "الموطأ 2021 — مالك: فيمن دفع إلى رجل مالا قراضا واشترط عليه الضمان: لا يجوز لصاحب المال أن يشترط في ماله غير ما وضع القراض عليه، فإن نما المال على شرط الضمان كان قد ازداد في حقه من الربح من أجل موضع الضمان، وإن تلف المال لم ير على الذي أخذه ضمانا، لأن شرط الضمان في القراض باطل", en: "Muwatta 2021" }
+summary:
+  ar: "قال مالك في الرجل يدفع إلى الرجل مالا قراضا ويشترط على الذي دفع إليه المال الضمان. قال: لا يجوز لصاحب المال أن يشترط في ماله غير ما وضع القراض عليه، وما مضى من سنة المسلمين فيه، فإن نما المال على شرط الضمان، كان قد ازداد في حقه من الربح من أجل موضع الضمان. وإنما يقتسمان الربح على ما لو أعطاه إياه على غير ضمان. وإن تلف المال لم أر على الذي أخذه ضمانا، لأن شرط الضمان في القراض باطل. {cite:muwatta-maruf-1997 p.226} {cite:muwatta-maruf-1997 p.227}"
+relations:
+  - { type: part_of, target: passage/muwatta-kitab-18-qiraad }
+  - { type: mentions, target: person/malik-ibn-anas, sources: [source/muwatta-maruf-1997] }
+  - { type: basis_for, target: concept/qiradh, sources: [source/muwatta-maruf-1997] }
+provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 2, hadith 2021 at PDF p. 226; ما لا يجوز من الشرط في القراض", generated_by: "Claude Code (claude-haiku-5-5) from Apple Vision OCR of the Noor-Book PDF, checked on the page image where doubtful", run: "muwatta-prose-k18-b55" }
+sources: [source/muwatta-maruf-1997]
+status: { review: draft, completeness: 2, generated_by: "Claude Code (claude-haiku-5-5); own-words account written from PDF p. 226; matn excerpt at most 40 words" }

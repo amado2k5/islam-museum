@@ -1,0 +1,29 @@
+id: person/dubaa-bint-amir
+class: person
+label: { en: "Dubaa bint Amir", ar: "ضباعة بنت عامر القشيرية" }
+names:
+  - { kind: full, lang: ar, value: "ضباعة بنت عامر بن قرط بن سلمة بن قشير بن كعب بن ربيعة بن عامر بن صعصعة" }
+gender: female
+roles: [companion]
+traditions: [sunni]
+summary:
+  ar: "صحابية من بني عامر بن صعصعة أسلمت مبكراً بمكة؛ عُرفت بشجاعتها حين صاحت بقومها دفاعاً عن النبي بعكاظ حين غمز بجر بن فراس شاكلة ناقته فقفصت به، وصبرت على أذى قومها في سبيل دينها."
+  en: "A Companion of Banu Amir ibn Sa'sa'a who embraced Islam early at Mecca; remembered for crying out to her clan in defence of the Prophet at Ukaz when Bajr ibn Firas spooked his camel so it threw him, and for enduring her people's persecution."
+wings: [people]
+themes: [women]
+periods: [period/prophetic-era]
+regions: [arabia]
+story_roles:
+  - { role: companion, status: tradition, sources: [source/nisa-hawl-alrasul] }
+  - { role: convert, start: { edtf: "0610~" }, status: tradition, note: "أسلمت مبكراً بمكة قبل الهجرة (نساء حول الرسول ص300).", sources: [source/nisa-hawl-alrasul] }
+faith:
+  - { value: sunni, basis: tradition, note: "صحابية مسلمة؛ تُسجَّل ضمن الإطار السني للمتحف (docs/scope.md)." }
+relations:
+  - { type: lived_in, target: place/mecca }
+  - { type: member_of, target: group/banu-amir }
+  - { type: spouse_of, target: person/hawdha, note: "زوجها الأول هوذة، توفي عنها مبكراً (نساء حول الرسول ص296).", sources: [source/nisa-hawl-alrasul] }
+  - { type: spouse_of, target: person/abdullah-ibn-judan, note: "زوجها الثاني عبد الله بن جدعان (نساء حول الرسول ص297).", sources: [source/nisa-hawl-alrasul] }
+  - { type: spouse_of, target: person/hisham-ibn-al-mughira, note: "زوجها الثالث هشام بن المغيرة؛ ولدت منه ابنها سلمة وتوفي عنها قبل البعثة (نساء حول الرسول ص300).", sources: [source/nisa-hawl-alrasul] }
+sources: [source/nisa-hawl-alrasul]
+status: { review: draft, completeness: 1, generated_by: "Devin; Nisa' Hawl al-Rasul pp. 295-303, lib-nisa-hawl-rasul" }
+provenance: { layer: own-research, source: "نساء حول الرسول (المكتبة العصرية 2015) ص295-303؛ ينقل عن الإصابة 8/133 وأسد الغابة 5/333 والاستيعاب 4/429", generated_by: "Devin", model: "SWE-2 High", run: "lib-nisa-hawl-rasul" }

@@ -1,0 +1,28 @@
+id: person/innocent-viii
+class: person
+label:
+  ar: "البابا إينوسنت الثامن"
+  en: "Pope Innocent VIII"
+gender: male
+roles: [religious-leader]
+died: { edtf: "1492", calendar: julian, precision: year, status: tradition, derived: true, note: "موته متبوعاً بانتقال جم إلى إسكندر السادس على رواية الصلابي؛ السنة مشتقة", sources: [source/dawlat-uthmaniyya-salabi] }
+summary:
+  ar: "إينوسنت الثامن، بابا روما في عهد بايزيد الثاني؛ ينقل الصلابي أن فرسان القديس يوحنا في رودس، بعد أن كسبوا بالأمير جم امتيازات من بايزيد ومن أنصار جم بالقاهرة وحصلوا أموالاً ضخمة، باعوا رهينتهم إلى البابا إينوسنت الثامن {cite:dawlat-uthmaniyya-salabi p. 164}."
+  en: "Innocent VIII, pope in Bayezid II's reign; al-Salabi records that the Knights of St John at Rhodes — having turned Prince Cem into privileges extracted from both Bayezid and Cem's Cairo backers — sold their hostage to Pope Innocent VIII {cite:dawlat-uthmaniyya-salabi p. 164}."
+wings: [people]
+regions: [anatolia-balkans]
+periods: [period/gunpowder-empires]
+relations:
+  - { type: opposed, target: person/bayazid-ii, sources: [source/dawlat-uthmaniyya-salabi] }
+sources: [source/dawlat-uthmaniyya-salabi]
+external_ids:
+  wikidata: Q43646
+provenance:
+  layer: own-research
+  source: "الدولة العثمانية لعلي محمد الصلابي (ط1 1421)"
+  generated_by: "Devin (SWE-2 Medium) from Apple Vision OCR"
+  model: "SWE-2 Medium"
+  run: lib-salabi-uthmani-batch-6
+status:
+  review: draft
+  completeness: 2

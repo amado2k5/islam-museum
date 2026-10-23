@@ -1,0 +1,23 @@
+id: event/battle-of-medan-1946
+class: event
+kind: battle
+label: { ar: "معركة ميدان (١٩٤٦)", en: "Battle of Medan" }
+summary:
+  ar: "بطاقة أولية لمعركة ميدان سنة ١٩٤٦م، قتال الثورة الإندونيسية ضد الحلفاء في سومطرة؛ لم تُراجع مصادره على الصفحة بعد."
+  en: "Draft card for the Battle of Medan in 1946, the Indonesian revolution's fighting against the Allies in Sumatra; its sources are not yet checked on the page."
+wings: [time]
+periods: [period/modern-era]
+regions: [southeast-asia]
+date:
+  start: { edtf: "1946-04", precision: year, status: tradition, derived: true }
+  end: { edtf: "1946-04", precision: year, status: tradition, derived: true }
+sources: [source/tarikh-islam-hasan-ibrahim]
+external_ids:
+  wikidata: Q16208784
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; battle attested in narrative histories — entry not yet checked on the page"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-wave2
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

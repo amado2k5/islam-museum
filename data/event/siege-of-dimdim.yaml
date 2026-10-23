@@ -1,0 +1,23 @@
+id: event/siege-of-dimdim
+class: event
+kind: siege
+label: { ar: "حصار دمدم", en: "Siege of Dimdim" }
+summary:
+  ar: "بطاقة أولية لحصار قلعة دمدم من ١٦٠٩ إلى ١٦١٠م، إسقاط الصفويين لإمارة برادوست الكردية؛ لم تُراجع مصادره على الصفحة بعد."
+  en: "Draft card for the Siege of Dimdim in 1609–1610, the Safavid reduction of the Kurdish Bradost emirate; its sources are not yet checked on the page."
+wings: [time]
+periods: [period/gunpowder-empires]
+regions: [persia-central-asia]
+date:
+  start: { edtf: "1609", precision: year, status: tradition, derived: true }
+  end: { edtf: "1610", precision: year, status: tradition, derived: true }
+sources: [source/tarikh-islam-hasan-ibrahim]
+external_ids:
+  wikidata: Q2236880
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; battle attested in narrative histories — entry not yet checked on the page"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-wave2
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

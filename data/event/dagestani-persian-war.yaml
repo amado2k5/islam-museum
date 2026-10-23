@@ -1,0 +1,23 @@
+id: event/dagestani-persian-war
+class: event
+kind: war
+label: { ar: "الحرب الداغستانية الفارسية (١٦٥٩–١٦٦٠)", en: "Dagestani–Persian War (1659–60)" }
+summary:
+  ar: "بطاقة أولية للحرب الداغستانية الفارسية من ١٦٥٩ إلى ١٦٦٠م، تمرد داغستان على الحكم الصفوي؛ لم تُراجع مصادره على الصفحة بعد."
+  en: "Draft card for the Dagestani–Persian War of 1659–60, the Dagestani rising against Safavid rule; its sources are not yet checked on the page."
+wings: [time]
+periods: [period/gunpowder-empires]
+regions: [anatolia-balkans]
+date:
+  start: { edtf: "1659", precision: year, status: tradition, derived: true }
+  end: { edtf: "1660", precision: year, status: tradition, derived: true }
+sources: [source/dawlat-uthmaniyya-salabi]
+external_ids:
+  wikidata: Q141596819
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; battle attested in narrative histories — entry not yet checked on the page"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-wave2
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

@@ -1,0 +1,21 @@
+id: passage/muwatta-1-232
+class: passage
+unit: hadith
+chain: [person/malik-ibn-anas, person/sumayy-mawla-abi-bakr, person/abu-salih-al-sammam, person/abu-hurayra, person/muhammad]
+work: work/muwatta-malik
+ref: "1.232"
+label: { ar: "الموطأ 232 — إذا قال الإمام آخر الفاتحة فقولوا آمين", en: "Muwatta 232" }
+text: "فقولوا: آمين، فإنه من وافق قوله قول الملائكة غفر له ما تقدم من ذنبه"
+summary:
+  ar: "يرويه مالك عن سمي مولى أبي بكر بن عبد الرحمن عن أبي صالح السمان عن أبي هريرة، في باب ما جاء في التأمين خلف الإمام: أمر النبي المأمومين أن يقولوا آمين إذا ختم الإمام قراءة الفاتحة بالآية الأخيرة منها، فمن وافق قوله قول الملائكة غُفر له ما تقدم من ذنبه. ويخرّجه المحقق عند البخاري (782، 4475) وأبي داود (935) والنسائي (2/144) وأحمد والشافعي من طرق أصحاب مالك، وينقل عن ابن عبد البر أن الحديث في الموطأ بهذا الإسناد عند جماعة رواته (التمهيد 22/15–16). {cite:muwatta-maruf-1997 p.140} {cite:muwatta-maruf-1997 p.141}"
+relations:
+  - { type: part_of, target: passage/muwatta-kitab-01-salat }
+  - { type: mentions, target: person/muhammad, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/abu-hurayra, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/sumayy-mawla-abi-bakr, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/abu-salih-al-samman, sources: [source/muwatta-maruf-1997] }
+  - { type: basis_for, target: practice/salah, sources: [source/muwatta-maruf-1997] }
+  - { type: basis_for, target: concept/maghfira, sources: [source/muwatta-maruf-1997] }
+provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 1, hadith 232 at PDF p. 140; باب ما جاء في التأمين خلف الإمام", generated_by: "Claude Code (claude-haiku-5-5) from Apple Vision OCR of the Noor-Book PDF, checked on the page image where doubtful", run: "muwatta-prose-k1-b10" }
+sources: [source/muwatta-maruf-1997]
+status: { review: draft, completeness: 2, generated_by: "Claude Code (claude-haiku-5-5); own-words account written from PDF p. 140; matn excerpt at most 40 words" }

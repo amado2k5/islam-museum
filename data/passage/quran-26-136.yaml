@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 26:136 (سورة الشعراء، الآية 136)."
 text: "قَالُوا۟ سَوَآءٌ عَلَيْنَآ أَوَعَظْتَ أَمْ لَمْ تَكُن مِّنَ ٱلْوَٰعِظِينَ"
 text_search: "قالوا سواء علينا أوعظت أم لم تكن من الواعظين"
+translations:
+  en: { text: "They said: It is all one to us whether thou preachest or art not of those who preach;", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "وہ کہنے لگے کہ ہمیں خواہ نصیحت کرو یا نہ کرو ہمارے لئے یکساں ہے", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-26 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

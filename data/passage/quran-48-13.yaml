@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 48:13 (سورة الفتح، الآية 13)."
 text: "وَمَن لَّمْ يُؤْمِنۢ بِٱللَّهِ وَرَسُولِهِۦ فَإِنَّآ أَعْتَدْنَا لِلْكَـٰفِرِينَ سَعِيرًا"
 text_search: "ومن لم يؤمن بالله ورسوله فإنا أعتدنا للكافرين سعيرا"
+translations:
+  en: { text: "And so for him who believeth not in Allah and His messenger - Lo! We have prepared a flame for disbelievers.", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "اور جو شخص خدا پر اور اس کے پیغمبر پر ایمان نہ لائے تو ہم نے (ایسے) کافروں کے لئے آگ تیار کر رکھی ہے", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-48 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

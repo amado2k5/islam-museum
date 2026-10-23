@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 54:6 (سورة القمر، الآية 6)."
 text: "فَتَوَلَّ عَنْهُمْ ۘ يَوْمَ يَدْعُ ٱلدَّاعِ إِلَىٰ شَىْءٍ نُّكُرٍ"
 text_search: "فتول عنهم ۘ يوم يدع الداع إلى شيء نكر"
+translations:
+  en: { text: "So withdraw from them (O Muhammad) on the day when the Summoner summoneth unto a painful thing.", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "تو تم بھی ان کی کچھ پروا نہ کرو۔ جس دن بلانے والا ان کو ایک ناخوش چیز کی طرف بلائے گا", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-54 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

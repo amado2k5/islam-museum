@@ -1,0 +1,23 @@
+id: event/anglo-egyptian-war-1882
+class: event
+kind: war
+label: { ar: "الحرب الإنجليزية المصرية", en: "Anglo-Egyptian War" }
+summary:
+  ar: "بطاقة أولية للحرب الإنجليزية المصرية سنة ١٨٨٢م، الحملة التي أسقطت الثورة العرابية في التل الكبير واحتلت مصر؛ لم تُراجع مصادره على الصفحة بعد."
+  en: "Draft card for the Anglo-Egyptian War of 1882, the campaign that broke Urabi's revolution at Tel el-Kebir and occupied Egypt; its sources are not yet checked on the page."
+wings: [time]
+periods: [period/colonial-era]
+regions: [egypt-nile]
+date:
+  start: { edtf: "1882", precision: year, status: tradition, derived: true }
+  end: { edtf: "1882", precision: year, status: tradition, derived: true }
+sources: [source/tarikh-islam-hasan-ibrahim]
+external_ids:
+  wikidata: Q616939
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; war attested in Egyptian histories — entry not yet checked on the page"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-wave2
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

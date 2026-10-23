@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 50:8 (سورة ق، الآية 8)."
 text: "تَبْصِرَةً وَذِكْرَىٰ لِكُلِّ عَبْدٍ مُّنِيبٍ"
 text_search: "تبصرة وذكرى لكل عبد منيب"
+translations:
+  en: { text: "A vision and a reminder for every penitent slave.", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "تاکہ رجوع لانے والے بندے ہدایت اور نصیحت حاصل کریں", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-50 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

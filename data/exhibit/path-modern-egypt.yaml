@@ -1,0 +1,76 @@
+id: exhibit/path-modern-egypt
+class: exhibit
+kind: trail
+label:
+  ar: مصر الحديثة
+  en: Modern Egypt
+summary:
+  ar: 'مسار في مصر القرن التاسع عشر: محمد علي يبني الدولة، والأزهر يتجدد، والقاهرة بين الشرق والغرب.'
+  en: A trail through 19th-century Egypt.
+audience:
+- newcomer
+- student
+duration_minutes: 30
+wings: []
+regions:
+- egypt-nile
+rooms:
+- title:
+    ar: محمد علي
+    en: Muhammad Ali
+  body:
+    ar: 'الباشا الألباني: جيش ومصانع وأسطول.'
+    en: 'الباشا الألباني: جيش ومصانع وأسطول.'
+  features:
+  - person/muhammad-ali-pasha
+  - place/cairo
+- title:
+    ar: الأزهر
+    en: Al-Azhar
+  body:
+    ar: 'الجامع يواصل: عبده والإصلاح.'
+    en: 'الجامع يواصل: عبده والإصلاح.'
+  features:
+  - building/al-azhar
+  - person/muhammad-abduh
+- title:
+    ar: الصحافة
+    en: The press
+  body:
+    ar: 'المنار والعروة الوثقى: كلمة تنهض.'
+    en: 'المنار والعروة الوثقى: كلمة تنهض.'
+  features:
+  - person/rashid-rida
+  - person/jamal-al-din-al-afghani
+- title:
+    ar: القاهرة
+    en: Cairo
+  body:
+    ar: 'مدينة الخديوي: ألف عام من العمران.'
+    en: 'مدينة الخديوي: ألف عام من العمران.'
+  features:
+  - place/cairo
+  - building/masjid-sultan-hasan
+- title:
+    ar: محمد عاكف
+    en: Mehmet Akif
+  body:
+    ar: شاعر الاستقلال التركي في القاهرة.
+    en: شاعر الاستقلال التركي في القاهرة.
+  features:
+  - person/mehmet-akif-ersoy
+  - place/istanbul
+prerequisites:
+- exhibit/path-islam-in-30-minutes
+sources:
+- source/wikidata
+provenance:
+  layer: own-research
+  source: Devin-assembled trail from existing museum entities
+  generated_by: Devin (SWE-2 High)
+  model: SWE-2 High
+  run: pathways-batch-7
+status:
+  review: draft
+  completeness: 1
+  generated_by: Devin (SWE-2 High), pathways lane, 2026-10-16

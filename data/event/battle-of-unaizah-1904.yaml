@@ -1,0 +1,23 @@
+id: event/battle-of-unaizah-1904
+class: event
+kind: battle
+label: { ar: "معركة عنيزة", en: "Battle of Unaizah" }
+summary:
+  ar: "بطاقة أولية لمعركة عنيزة سنة ١٩٠٤م، فوز ابن رشيد على ابن سعود في حرب نجد؛ لم تُراجع مصادره على الصفحة بعد."
+  en: "Draft card for the Battle of Unaizah in 1904, Ibn Rashid's victory over Ibn Saud in the Najd war; its sources are not yet checked on the page."
+wings: [time]
+periods: [period/colonial-era]
+regions: [arabia]
+date:
+  start: { edtf: "1904", precision: year, status: tradition, derived: true }
+  end: { edtf: "1904", precision: year, status: tradition, derived: true }
+sources: [source/tarikh-islam-hasan-ibrahim]
+external_ids:
+  wikidata: Q4872631
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; battle attested in narrative histories — entry not yet checked on the page"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-wave2
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

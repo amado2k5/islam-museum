@@ -1,0 +1,20 @@
+id: person/yazid-ibn-hujayya-al-tamimi
+class: person
+label: { ar: "يزيد بن حجية التميمي", en: "Yazid ibn Hujayya al-Tamimi" }
+gender: male
+roles: [emir]
+summary:
+  ar: "تميمي ذكره الصلابي في قائمة ولاة علي واليا على الرّيّ {cite:sallabi-ali-vol1 p. 359}. الاسم في المسح معرّض للتصحيف، ويُقرأ هنا كما ورد في القائمة."
+  en: "A man of Tamim whom the book lists as Ali's governor of Rayy {cite:sallabi-ali-vol1 p. 359}. The name is open to misreading in the scan and is given as the list prints it."
+periods: [period/rashidun]
+wings: [people]
+relations:
+  - { type: ruler_of, target: place/rayy, sources: [source/sallabi-ali-vol1] }
+sources: [source/sallabi-ali-vol1]
+provenance:
+  layer: own-research
+  source: "sallabi-ali-vol1 p. 359, governors list (harvest OCR)"
+  generated_by: "Claude Code"
+  model: "claude-haiku-5-5"
+  run: "sallabi-ali-vol1-deep-pp351-388"
+status: { review: draft, completeness: 1, generated_by: "Claude Code (claude-haiku-5-5); from the book's list only; OCR name doubtful" }

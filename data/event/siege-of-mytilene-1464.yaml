@@ -1,0 +1,23 @@
+id: event/siege-of-mytilene-1464
+class: event
+kind: siege
+label: { ar: "حصار ميتيليني (١٤٦٤)", en: "Siege of Mytilene (1464)" }
+summary:
+  ar: "بطاقة أولية لحصار ميتيليني سنة ١٤٦٤م، من حرب البندقية والعثمانيين على لسبوس؛ لم تُراجع مصادره على الصفحة بعد."
+  en: "Draft card for the Siege of Mytilene in 1464, an action of the Venetian–Ottoman contest for Lesbos; its sources are not yet checked on the page."
+wings: [time]
+periods: [period/crusades-ayyubid-mamluk]
+regions: [anatolia-balkans]
+date:
+  start: { edtf: "1464", precision: year, status: tradition, derived: true }
+  end: { edtf: "1464", precision: year, status: tradition, derived: true }
+sources: [source/dawlat-uthmaniyya-salabi]
+external_ids:
+  wikidata: Q137400000
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; battle attested in narrative histories — entry not yet checked on the page"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-wave2
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 9:73 (سورة التوبة، الآية 73)."
 text: "يَـٰٓأَيُّهَا ٱلنَّبِىُّ جَـٰهِدِ ٱلْكُفَّارَ وَٱلْمُنَـٰفِقِينَ وَٱغْلُظْ عَلَيْهِمْ ۚ وَمَأْوَىٰهُمْ جَهَنَّمُ ۖ وَبِئْسَ ٱلْمَصِيرُ"
 text_search: "يا أيها النبي جاهد الكفار والمنافقين واغلظ عليهم ۚ ومأواهم جهنم ۖ وبئس المصير"
+translations:
+  en: { text: "O Prophet! Strive against the disbelievers and the hypocrites! Be harsh with them. Their ultimate abode is hell, a hapless journey's end.", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "اے پیغمبر! کافروں اور منافقوں سے لڑو۔ اور ان پر سختی کرو۔ اور ان کا ٹھکانہ دورخ ہے اور وہ بری جگہ ہے", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-9 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

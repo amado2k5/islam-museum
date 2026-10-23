@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 77:11 (سورة المرسلات، الآية 11)."
 text: "وَإِذَا ٱلرُّسُلُ أُقِّتَتْ"
 text_search: "وإذا الرسل أقتت"
+translations:
+  en: { text: "And when the messengers are brought unto their time appointed -", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "اور جب پیغمبر فراہم کئے جائیں", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-77 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

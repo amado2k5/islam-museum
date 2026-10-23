@@ -1,0 +1,16 @@
+id: passage/muwatta-17-1967
+class: passage
+unit: hadith
+work: work/muwatta-malik
+ref: "1967"
+label: { ar: "الموطأ 1967 — مالك: في الرجل يكون له على الرجل مائة دينار إلى أجل، فإذا حلت قال المدين: بعني سلعة ثمنها مائة دينار نقدا بمائة وخمسين إلى أجل، فهذا بيع لا يصلح، لأنه يعطيه ثمن ما باعه ويؤخر المائة الأولى، ويزداد خمسين دينارا في تأخيره", en: "Muwatta 1967" }
+summary:
+  ar: "قال مالك في الرجل يكون له على الرجل مائة دينار إلى أجل، فإذا حلت، قال له الذي عليه الدين: بعني سلعة يكون ثمنها مائة دينار نقدا، بمائة وخمسين إلى أجل. قال مالك: هذا بيع لا يصلح، ولم يزل أهل العلم ينهون عنه. وإنما كره ذلك لأنه إنما يعطيه ثمن ما باعه بعينه، ويؤخر عنه المائة الأولى إلى الأجل الذي ذكر له آخر مرة، ويزداد عليه خمسين دينارا في تأخيره عنه، فهذا مكروه لا يصلح. وهو يشبه حديث زيد بن أسلم في بيع أهل الجاهلية. {cite:muwatta-maruf-1997 p.205}"
+relations:
+  - { type: part_of, target: passage/muwatta-kitab-17-buyu }
+  - { type: mentions, target: person/malik-ibn-anas, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/zayd-ibn-aslam, sources: [source/muwatta-maruf-1997] }
+  - { type: basis_for, target: concept/riba, sources: [source/muwatta-maruf-1997] }
+provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 2, hadith 1967 at PDF p. 205; ما جاء في الربا في الدين", generated_by: "Claude Code (claude-haiku-5-5) from Apple Vision OCR of the Noor-Book PDF, checked on the page image where doubtful", run: "muwatta-prose-k17-b52" }
+sources: [source/muwatta-maruf-1997]
+status: { review: draft, completeness: 2, generated_by: "Claude Code (claude-haiku-5-5); own-words account written from PDF p. 205; matn excerpt at most 40 words" }

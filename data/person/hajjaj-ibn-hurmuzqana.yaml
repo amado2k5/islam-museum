@@ -1,0 +1,20 @@
+id: person/hajjaj-ibn-hurmuzqana
+class: person
+label: { ar: "الحجاج بن هرمزقنة أبو جعفر القائد" }
+summary:
+  ar: "الحجاج بن هرمزقنة أبو جعفر القائد، كان قد استنابه بهاء الدولة بالعراق وندبه لحرب الأعراب والأكراد، وكان مقدماً في أيام عضد الدولة وأولاده عارفاً بالحرب شجاعاً صاحب هيبة عظيمة وآراء صائبة، فلما خرج عن بغداد في رمضان سنة اثنتين وتسعين وقعت بها الفتن وتشتت الأمن. توفي بالأهواز في ربيع الأول سنة أربعمائة عن مائة وخمس سنين {cite:muntazam-ibn-al-jawzi j.7 p.248}."
+wings: [people]
+periods: [period/buyid-seljuk-fatimid-era]
+regions: [levant-iraq, persia-central-asia]
+roles: [general]
+died:
+  { edtf: "1009-10~", hijri: "0400-03", calendar: julian, precision: month, status: tradition, derived: true, note: "ربيع الأول 400هـ عن مائة وخمس سنين؛ التحويل مشتق {cite:muntazam-ibn-al-jawzi j.7 p.248}" }
+relations:
+  - { type: died_in, target: place/al-ahwaz, sources: [source/muntazam-ibn-al-jawzi] }
+provenance:
+  layer: own-research
+  source: "المنتظم في تاريخ الملوك والأمم — ابن الجوزي (ج7، وفيات سنة 400)، قراءة آبل فيجن"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-muntazam-batch-22
+sources: [source/muntazam-ibn-al-jawzi]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

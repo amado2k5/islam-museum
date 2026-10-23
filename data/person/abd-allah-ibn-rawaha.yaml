@@ -1,6 +1,7 @@
 id: person/abd-allah-ibn-rawaha
 class: person
 label: { ar: "عبد الله بن رواحة", en: "Abd Allah ibn Rawaha" }
+aliases: [person/abdullah-ibn-rawaha]
 names:
   - { kind: full, lang: ar, value: "عبد الله بن رواحة بن ثعلبة بن امرئ القيس الخزرجي الأنصاري" }
 gender: male
@@ -22,9 +23,11 @@ story_roles:
 faith:
   - { value: sunni, basis: tradition, note: "صحابي أنصاري مذكور في المصادر الإسلامية الكلاسيكية." }
 relations:
+  - { type: participated_in, target: event/killing-of-al-yasir-ibn-rizam, role: "أمير النفر المبعوثين إلى اليسير بخيبر", sources: [source/ibn-hisham-saqqa] }
   - { type: member_of, target: group/ansar }
   - { type: member_of, target: group/early-muslims }
   - { type: participated_in, target: event/battle-of-mutah, role: third-commander, sources: [source/ibn-hisham-saqqa] }
   - { type: died_in, target: place/mutah }
+external_ids: { wikidata: "Q1111126" }
 sources: [source/ibn-hisham-saqqa]
 status: { review: draft, completeness: 2, generated_by: "kiro; mined from Ibn Hisham juz' 4 pp. 15-22" }

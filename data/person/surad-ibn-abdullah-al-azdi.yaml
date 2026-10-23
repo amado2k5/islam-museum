@@ -1,0 +1,28 @@
+id: person/surad-ibn-abdullah-al-azdi
+class: person
+label: { ar: "صُرَد بن عبد الله الأزدي", en: "Surad ibn Abdullah al-Azdi" }
+names:
+  - { kind: full, lang: ar, value: "صرد بن عبد الله الأزدي" }
+gender: male
+roles: [companion, commander]
+traditions: [sunni]
+summary:
+  ar: "قدم في وفد من الأزد على النبي فأسلم وحسن إسلامه، فأمّره النبي على من أسلم من قومه وأمره أن يجاهد بهم من يليه من أهل الشرك من قبائل اليمن؛ فحاصر جرش نحو شهر ثم انصرف، فلما ظنوا أنه منهزم وطلبوه عطف عليهم عند جبل شكر فقتلهم قتلاً شديداً."
+  en: "He came in an Azd delegation to the Prophet and became a good Muslim; the Prophet set him over the Muslims of his people and ordered him to fight the neighbouring polytheist tribes of Yemen. He besieged Jurash for about a month, withdrew, and when its people pursued him thinking him routed he turned on them at the mountain of Shakar and slaughtered them."
+wings: [people]
+themes: [converts-and-leavers, skirmishes-raids-expeditions]
+periods: [period/prophetic-era]
+regions: [arabia]
+story_roles:
+  - { role: convert, toward: person/muhammad, start: { edtf: "0631~" }, status: tradition, note: "أسلم فحسن إسلامه في وفد من الأزد (ابن هشام ص233).", sources: [source/ibn-hisham-saqqa] }
+  - { role: commander, start: { edtf: "0631~" }, status: tradition, note: "أمّره النبي على من أسلم من قومه ليجاهد أهل الشرك من قبائل اليمن (ابن هشام ص233-234).", sources: [source/ibn-hisham-saqqa] }
+faith:
+  - { value: sunni, basis: tradition, start: { edtf: "0631~" }, sources: [source/ibn-hisham-saqqa] }
+relations:
+  - { type: member_of, target: group/al-azd, sources: [source/ibn-hisham-saqqa] }
+  - { type: participated_in, target: event/delegation-of-surad-ibn-abdullah, role: "الوافد والأمير", sources: [source/ibn-hisham-saqqa] }
+  - { type: participated_in, target: event/surad-campaign-against-jurash, role: "القائد", sources: [source/ibn-hisham-saqqa] }
+  - { type: converted_under, target: person/muhammad, start: { edtf: "0631~" }, sources: [source/ibn-hisham-saqqa] }
+provenance: { layer: own-research, source: "sira-ibn-hisham saqqa 1936, juz' 4 pp. 233-234", generated_by: "Claude Code", model: "claude-fable-5-1", run: "ibn-hisham-batch-9b" }
+sources: [source/ibn-hisham-saqqa]
+status: { review: draft, completeness: 2, generated_by: "Claude Fable 5.1; mined from Ibn Hisham juz' 4 pp. 233-234" }

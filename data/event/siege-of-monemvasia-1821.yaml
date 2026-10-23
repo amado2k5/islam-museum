@@ -1,0 +1,23 @@
+id: event/siege-of-monemvasia-1821
+class: event
+kind: siege
+label: { ar: "حصار مونمفاسيا (١٨٢١)", en: "Siege of Monemvasia (1821)" }
+summary:
+  ar: "بطاقة أولية لحصار مونمفاسيا سنة ١٨٢١م، أخذ الثوار اليونانيين للقلعة العثمانية؛ لم تُراجع مصادره على الصفحة بعد."
+  en: "Draft card for the Siege of Monemvasia in 1821, the Greek rebels' capture of the Ottoman fortress; its sources are not yet checked on the page."
+wings: [time]
+periods: [period/modern-era]
+regions: [anatolia-balkans]
+date:
+  start: { edtf: "1821-07", precision: year, status: tradition, derived: true }
+  end: { edtf: "1821-08", precision: year, status: tradition, derived: true }
+sources: [source/dawlat-uthmaniyya-salabi]
+external_ids:
+  wikidata: Q16329374
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; battle attested in narrative histories — entry not yet checked on the page"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-wave2
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

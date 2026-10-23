@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 25:5 (سورة الفرقان، الآية 5)."
 text: "وَقَالُوٓا۟ أَسَـٰطِيرُ ٱلْأَوَّلِينَ ٱكْتَتَبَهَا فَهِىَ تُمْلَىٰ عَلَيْهِ بُكْرَةً وَأَصِيلًا"
 text_search: "وقالوا أساطير الأولين اكتتبها فهي تملى عليه بكرة وأصيلا"
+translations:
+  en: { text: "And they say: Fables of the men of old which he hath had written down so that they are dictated to him morn and evening.", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "اور کہتے ہیں کہ یہ پہلے لوگوں کی کہانیاں ہیں جس کو اس نے لکھ رکھا ہے اور وہ صبح وشام اس کو پڑھ پڑھ کر سنائی جاتی ہیں", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-25 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

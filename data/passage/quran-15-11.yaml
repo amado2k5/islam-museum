@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 15:11 (سورة الحجر، الآية 11)."
 text: "وَمَا يَأْتِيهِم مِّن رَّسُولٍ إِلَّا كَانُوا۟ بِهِۦ يَسْتَهْزِءُونَ"
 text_search: "وما يأتيهم من رسول إلا كانوا به يستهزئون"
+translations:
+  en: { text: "And never came there unto them a messenger but they did mock him.", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "اور اُن کے پاس کوئی پیغمبر نہیں آتا تھا مگر وہ اُس کے ساتھ استہزاء کرتے تھے", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-15 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

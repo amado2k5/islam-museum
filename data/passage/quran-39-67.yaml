@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 39:67 (سورة الزمر، الآية 67)."
 text: "وَمَا قَدَرُوا۟ ٱللَّهَ حَقَّ قَدْرِهِۦ وَٱلْأَرْضُ جَمِيعًا قَبْضَتُهُۥ يَوْمَ ٱلْقِيَـٰمَةِ وَٱلسَّمَـٰوَٰتُ مَطْوِيَّـٰتٌۢ بِيَمِينِهِۦ ۚ سُبْحَـٰنَهُۥ وَتَعَـٰلَىٰ عَمَّا يُشْرِكُونَ"
 text_search: "وما قدروا الله حق قدره والأرض جميعا قبضته يوم القيامة والسماوات مطويات بيمينه ۚ سبحانه وتعالى عما يشركون"
+translations:
+  en: { text: "And they esteem not Allah as He hath the right to be esteemed, when the whole earth is His handful on the Day of Resurrection, and the heavens are rolled in His right hand. Glorified is He and High Exalted from all that they ascribe as partner (unto Him).", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "اور انہوں نے خدا کی قدر شناسی جیسی کرنی چاہیئے تھی نہیں کی۔ اور قیامت کے دن تمام زمین اس کی مٹھی میں ہوگی اور آسمان اس کے داہنے ہاتھ میں لپٹے ہوں گے۔ (اور) وہ ان لوگوں کے شرک سے پاک اور عالی شان ہے", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-39 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

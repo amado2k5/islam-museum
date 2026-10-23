@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 25:25 (سورة الفرقان، الآية 25)."
 text: "وَيَوْمَ تَشَقَّقُ ٱلسَّمَآءُ بِٱلْغَمَـٰمِ وَنُزِّلَ ٱلْمَلَـٰٓئِكَةُ تَنزِيلًا"
 text_search: "ويوم تشقق السماء بالغمام ونزل الملائكة تنزيلا"
+translations:
+  en: { text: "A day when the heaven with the clouds will be rent asunder and the angels will be sent down, a grand descent.", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "اور جس دن آسمان ابر کے ساتھ پھٹ جائے گا اور فرشتے نازل کئے جائیں گے", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-25 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

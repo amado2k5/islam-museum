@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 27:40 (سورة النمل، الآية 40)."
 text: "قَالَ ٱلَّذِى عِندَهُۥ عِلْمٌ مِّنَ ٱلْكِتَـٰبِ أَنَا۠ ءَاتِيكَ بِهِۦ قَبْلَ أَن يَرْتَدَّ إِلَيْكَ طَرْفُكَ ۚ فَلَمَّا رَءَاهُ مُسْتَقِرًّا عِندَهُۥ قَالَ هَـٰذَا مِن فَضْلِ رَبِّى لِيَبْلُوَنِىٓ ءَأَشْكُرُ أَمْ أَكْفُرُ ۖ وَمَن شَكَرَ فَإِنَّمَا يَشْكُرُ لِنَفْسِهِۦ ۖ وَمَن كَفَرَ فَإِنَّ رَبِّى غَنِىٌّ كَرِيمٌ"
 text_search: "قال الذي عنده علم من الكتاب أنا آتيك به قبل أن يرتد إليك طرفك ۚ فلما رآه مستقرا عنده قال هذا من فضل ربي ليبلوني أأشكر أم أكفر ۖ ومن شكر فإنما يشكر لنفسه ۖ ومن كفر فإن ربي غني كريم"
+translations:
+  en: { text: "One with whom was knowledge of the Scripture said: I will bring it thee before thy gaze returneth unto thee. And when he saw it set in his presence, (Solomon) said: This is of the bounty of my Lord, that He may try me whether I give thanks or am ungrateful. Whosoever giveth thanks he only giveth thanks for (the good of) his own soul; and whosoever is ungrateful (is ungrateful only to his own soul's hurt). For lo! my Lord is Absolute in independence, Bountiful.", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "ایک شخص جس کو کتاب الہیٰ کا علم تھا کہنے لگا کہ میں آپ کی آنکھ کے جھپکنے سے پہلے پہلے اسے آپ کے پاس حاضر کئے دیتا ہوں۔ جب سلیمان نے تخت کو اپنے پاس رکھا ہوا دیکھا تو کہا کہ یہ میرے پروردگار کا فضل ہے تاکہ مجھے آزمائے کہ میں شکر کرتا ہوں یا کفران نعمت کرتا ہوں اور جو شکر کرتا ہے تو اپنے ہی فائدے کے لئے شکر کرتا ہے اور جو ناشکری کرتا ہے تو میرا پروردگار بےپروا (اور) کرم کرنے والا ہے", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-27 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

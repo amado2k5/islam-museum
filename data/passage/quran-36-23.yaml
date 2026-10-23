@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 36:23 (سورة يس، الآية 23)."
 text: "ءَأَتَّخِذُ مِن دُونِهِۦٓ ءَالِهَةً إِن يُرِدْنِ ٱلرَّحْمَـٰنُ بِضُرٍّ لَّا تُغْنِ عَنِّى شَفَـٰعَتُهُمْ شَيْـًٔا وَلَا يُنقِذُونِ"
 text_search: "أأتخذ من دونه آلهة إن يردن الرحمن بضر لا تغن عني شفاعتهم شيئا ولا ينقذون"
+translations:
+  en: { text: "Shall I take (other) gods in place of Him when, if the Beneficent should wish me any harm, their intercession will avail me naught, nor can they save?", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "کیا میں ان کو چھوڑ کر اوروں کو معبود بناؤں؟ اگر خدا میرے حق میں نقصان کرنا چاہے تو ان کی سفارش مجھے کچھ بھی فائدہ نہ دے سکے اور نہ وہ مجھ کو چھڑا ہی سکیں", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-36 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

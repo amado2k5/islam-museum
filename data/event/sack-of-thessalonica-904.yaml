@@ -1,0 +1,23 @@
+id: event/sack-of-thessalonica-904
+class: event
+kind: raid
+label: { ar: "نهب ثيسالونيكا (٩٠٤)", en: "Sack of Thessalonica" }
+summary:
+  ar: "بطاقة أولية لنهب ثيسالونيكا سنة ٩٠٤م، غارة ليون الطرابلسي البحرية التي أخذت ثاني مدن بيزنطة؛ لم تُراجع مصادره على الصفحة بعد."
+  en: "Draft card for the Sack of Thessalonica in 904, Leo of Tripoli's naval raid that took Byzantium's second city; its sources are not yet checked on the page."
+wings: [time]
+periods: [period/abbasid-fragmentation]
+regions: [anatolia-balkans]
+date:
+  start: { edtf: "904", precision: year, status: tradition, derived: true }
+  end: { edtf: "904", precision: year, status: tradition, derived: true }
+sources: [source/tarikh-al-tabari]
+external_ids:
+  wikidata: Q1109261
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; sack attested in Byzantine-Arab histories — entry not yet checked on the page"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-wave2
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

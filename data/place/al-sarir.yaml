@@ -1,0 +1,19 @@
+id: place/al-sarir
+class: place
+kind: region
+label: { ar: "السرير", en: "Al-Sarir" }
+summary:
+  ar: "السرير أرض بأعالي القوقاز ملكها يُلقّب صاحب السرير؛ دخلها مروان بن محمد فأوقع بأهلها وفتح قلاعاً فيها ودان له ملكها وأطاعه فصالحه على ألف رأس — خمسمائة غلام وخمسمائة جارية سود الشعور والحواجب وهدب الأشفار في كل سنة — وعلى مائة ألف مدي يُصبّ في إهراء الباب وأُخذ منه الرهن."
+  en: "Al-Sarir, a land of the upper Caucasus whose king bears the title Sahib al-Sarir; Marwan ibn Muhammad entered it, fell upon its people and took castles, till its king submitted and obeyed — compounding for a thousand heads yearly, five hundred lads and five hundred girls black of hair, brow and lash, plus a hundred thousand mudd poured into Bab's granaries, with hostages taken of him."
+wings: [place]
+periods: [period/umayyad]
+regions: [levant-iraq]
+relations:
+  - { type: site_of, target: event/marwan-caucasus-expedition, sources: [source/futuh-buldan-maarif-1407] }
+provenance:
+  layer: own-research
+  source: "فتوح البلدان (ط مؤسسة المعارف 1407هـ/1987م) ص 292–293"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-futuh-buldan-batch-18
+sources: [source/futuh-buldan-maarif-1407]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

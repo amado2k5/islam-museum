@@ -1,0 +1,23 @@
+id: event/siege-of-bijapur-1685
+class: event
+kind: siege
+label: { ar: "حصار بيجابور (١٦٨٥)", en: "Siege of Bijapur (1685–86)" }
+summary:
+  ar: "بطاقة أولية لحصار بيجابور من ١٦٨٥ إلى ١٦٨٦م، استيلاء أورنكزيب على عاصمة الدولة العادلشاهية؛ لم تُراجع مصادره على الصفحة بعد."
+  en: "Draft card for the Siege of Bijapur in 1685–86, Aurangzeb's capture of the Adil Shahi capital; its sources are not yet checked on the page."
+wings: [time]
+periods: [period/gunpowder-empires]
+regions: [south-asia]
+date:
+  start: { edtf: "1685-04", precision: year, status: tradition, derived: true }
+  end: { edtf: "1686-09", precision: year, status: tradition, derived: true }
+sources: [source/tarikh-islam-hasan-ibrahim]
+external_ids:
+  wikidata: Q7509876
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; battle attested in narrative histories — entry not yet checked on the page"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-wave2
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

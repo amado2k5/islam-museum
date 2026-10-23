@@ -1,0 +1,23 @@
+id: person/qays-ibn-al-khatim
+class: person
+label: { ar: "قيس بن الخطيم" }
+names:
+  - { value: "قيس بن الخطيم الأنصاري", kind: full }
+gender: male
+summary:
+  ar: "قيس بن الخطيم الأنصاري، شاعر الأوس والخزرج قبل الإسلام وفي صدره؛ من أشعاره المحاورة مع حسان بن ثابت في حرب بني عمرو بن عوف وبني أخرث يوم السرارة {cite:kamil-ibn-al-athir p. 492}."
+  en: "Qays ibn al-Khatim of the Ansar, the jahili-early Islamic poet of Aws and Khazraj; he traded verse with Hassan ibn Thabit in the Banu Amr ibn Awf war at the day of al-Sarara {cite:kamil-ibn-al-athir p. 492}."
+roles: [poet]
+wings: [people]
+periods: [period/pre-islamic-arabia, period/prophetic-era]
+regions: [arabia]
+relations:
+  - { type: lived_in, target: place/medina, sources: [source/kamil-ibn-al-athir] }
+sources: [source/kamil-ibn-al-athir]
+provenance:
+  layer: own-research
+  source: "الكامل في التاريخ لابن الأثير — الحرب بين بني عمرو بن عوف، ص492"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  model: swe-2-high
+  run: lib-kamil-23
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

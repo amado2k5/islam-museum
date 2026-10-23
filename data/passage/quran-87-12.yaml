@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 87:12 (سورة الأعلى، الآية 12)."
 text: "ٱلَّذِى يَصْلَى ٱلنَّارَ ٱلْكُبْرَىٰ"
 text_search: "الذي يصلى النار الكبرى"
+translations:
+  en: { text: "He who will be flung to the great Fire", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "جو (قیامت کو) بڑی (تیز) آگ میں داخل ہو گا", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-87 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 3:23 (سورة آل عمران، الآية 23)."
 text: "أَلَمْ تَرَ إِلَى ٱلَّذِينَ أُوتُوا۟ نَصِيبًا مِّنَ ٱلْكِتَـٰبِ يُدْعَوْنَ إِلَىٰ كِتَـٰبِ ٱللَّهِ لِيَحْكُمَ بَيْنَهُمْ ثُمَّ يَتَوَلَّىٰ فَرِيقٌ مِّنْهُمْ وَهُم مُّعْرِضُونَ"
 text_search: "ألم تر إلى الذين أوتوا نصيبا من الكتاب يدعون إلى كتاب الله ليحكم بينهم ثم يتولى فريق منهم وهم معرضون"
+translations:
+  en: { text: "Hast thou not seen how those who have received a portion of the Scripture invoke the Scripture of Allah (in their disputes) that it may judge between them; then a faction of them turn away, being opposed (to it)?", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "بھلا تم نے ان لوگوں کو نہیں دیکھا جن کو کتاب (خدا یعنی تورات سے) بہرہ دیا گیا اور وہ (اس) کتاب الله کی طرف بلائے جاتے ہیں تاکہ وہ (ان کے تنازعات کا) ان میں فیصلہ کر دے تو ایک فریق ان میں سے کج ادائی کے ساتھ منہ پھیر لیتا ہے", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-3 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

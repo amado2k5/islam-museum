@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 30:41 (سورة الروم، الآية 41)."
 text: "ظَهَرَ ٱلْفَسَادُ فِى ٱلْبَرِّ وَٱلْبَحْرِ بِمَا كَسَبَتْ أَيْدِى ٱلنَّاسِ لِيُذِيقَهُم بَعْضَ ٱلَّذِى عَمِلُوا۟ لَعَلَّهُمْ يَرْجِعُونَ"
 text_search: "ظهر الفساد في البر والبحر بما كسبت أيدي الناس ليذيقهم بعض الذي عملوا لعلهم يرجعون"
+translations:
+  en: { text: "Corruption doth appear on land and sea because of (the evil) which men's hands have done, that He may make them taste a part of that which they have done, in order that they may return.", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "خشکی اور تری میں لوگوں کے اعمال کے سبب فساد پھیل گیا ہے تاکہ خدا اُن کو اُن کے بعض اعمال کا مزہ چکھائے عجب نہیں کہ وہ باز آجائیں", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-30 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

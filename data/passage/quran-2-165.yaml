@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 2:165 (سورة البقرة، الآية 165)."
 text: "وَمِنَ ٱلنَّاسِ مَن يَتَّخِذُ مِن دُونِ ٱللَّهِ أَندَادًا يُحِبُّونَهُمْ كَحُبِّ ٱللَّهِ ۖ وَٱلَّذِينَ ءَامَنُوٓا۟ أَشَدُّ حُبًّا لِّلَّهِ ۗ وَلَوْ يَرَى ٱلَّذِينَ ظَلَمُوٓا۟ إِذْ يَرَوْنَ ٱلْعَذَابَ أَنَّ ٱلْقُوَّةَ لِلَّهِ جَمِيعًا وَأَنَّ ٱللَّهَ شَدِيدُ ٱلْعَذَابِ"
 text_search: "ومن الناس من يتخذ من دون الله أندادا يحبونهم كحب الله ۖ والذين آمنوا أشد حبا لله ۗ ولو يرى الذين ظلموا إذ يرون العذاب أن القوة لله جميعا وأن الله شديد العذاب"
+translations:
+  en: { text: "Yet of mankind are some who take unto themselves (objects of worship which they set as) rivals to Allah, loving them with a love like (that which is the due) of Allah (only) - those who believe are stauncher in their love for Allah - Oh, that those who do evil had but known, (on the day) when they behold the doom, that power belongeth wholly to Allah, and that Allah is severe in punishment!", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "اور بعض لوگ ایسے ہیں جو غیر خدا کو شریک (خدا) بناتے اور ان سے خدا کی سی محبت کرتے ہیں۔ لیکن جو ایمان والے ہیں وہ تو خدا ہی کے سب سے زیادہ دوستدار ہیں۔ اور اے کاش ظالم لوگ جو بات عذاب کے وقت دیکھیں گے اب دیکھ لیتے کہ سب طرح کی طاقت خدا ہی کو ہے۔ اور یہ کہ خدا سخت عذاب کرنے والا ہے", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-2 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

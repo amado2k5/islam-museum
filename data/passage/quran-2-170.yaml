@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 2:170 (سورة البقرة، الآية 170)."
 text: "وَإِذَا قِيلَ لَهُمُ ٱتَّبِعُوا۟ مَآ أَنزَلَ ٱللَّهُ قَالُوا۟ بَلْ نَتَّبِعُ مَآ أَلْفَيْنَا عَلَيْهِ ءَابَآءَنَآ ۗ أَوَلَوْ كَانَ ءَابَآؤُهُمْ لَا يَعْقِلُونَ شَيْـًٔا وَلَا يَهْتَدُونَ"
 text_search: "وإذا قيل لهم اتبعوا ما أنزل الله قالوا بل نتبع ما ألفينا عليه آباءنا ۗ أولو كان آباؤهم لا يعقلون شيئا ولا يهتدون"
+translations:
+  en: { text: "And when it is said unto them: Follow that which Allah hath revealed, they say: We follow that wherein we found our fathers. What! Even though their fathers were wholly unintelligent and had no guidance?", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "اور جب ان لوگوں سے کہا جاتا ہے کہ جو (کتاب) خدا نے نازل فرمائی ہے اس کی پیروی کرو تو کہتے ہیں (نہیں) بلکہ ہم تو اسی چیز کی پیروی کریں گے جس پر ہم نے اپنے باپ دادا کو پایا۔ بھلا اگرچہ ان کے باپ دادا نہ کچھ سمجھتے ہوں اورنہ سیدھے رستے پر ہوں (تب بھی وہ انہیں کی تقلید کئے جائیں گے)", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-2 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

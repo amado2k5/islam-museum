@@ -1,0 +1,8 @@
+---
+id: concept/hasad-envy
+lang: en
+source_lang: ar
+translators: []
+---
+## Summary
+Envy (hasad) is wishing that a blessing be taken from another; the community agrees it is forbidden. Admiring (ghibta) is wishing for a like blessing without wishing it removed from its owner; it is praised in obedience and lawful in what is lawful. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.7084} {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.7086} Its causes are enmity, wanting to be above others, pride, astonishment, fear of losing aims, love of rank, and a grudging soul. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.7084} {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.7085} It has four grades: wishing the blessing removed without wanting it for oneself; wishing it removed in order to take it; wishing for its like and, failing that, wishing it removed; and admiring. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.7085} {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.7086} Envy is forbidden by the Qur'an, the Sunna and reason, and God commanded seeking refuge from the envier's evil when he envies. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.7086} {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.7087} It is excepted when the blessing is in the hands of an unbeliever or a sinner who would use it for disobedience. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.7087} Its cure is knowledge that envy harms the envier in this world and the next and does no harm to the envied, and the Prophetic remedies of refuge, charms and blessing. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.7087} {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.7088} {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.7089}

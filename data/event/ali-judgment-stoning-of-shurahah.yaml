@@ -1,0 +1,34 @@
+id: event/ali-judgment-stoning-of-shurahah
+class: event
+kind: court-ruling
+label: { ar: "حكم علي بجلد شراحة ورجمها بعد اعترافها بالزنا", en: "Ali's judgment: Shurahah flogged and stoned after confessing zina" }
+summary:
+  ar: "أقرّت شراحة بالزنا وكان بها حمل، فجلدها علي يوم الخميس مائة جلدة ورجمها يوم الجمعة، وقال إن الرجم سنة سنها رسول الله، وإن أول من يرجم عند الاعتراف الإمام. ويعرض الصلابي الحكم بوصفه قضاء لعلي، ويذكر أن الجمع بين الجلد والرجم مختلف فيه بين الفقهاء {cite:sallabi-ali-vol1 p. 303}{cite:sallabi-ali-vol1 p. 304}."
+  en: "Shurahah confessed to zina while pregnant; Ali flogged her a hundred lashes on Thursday and stoned her on Friday, saying stoning is the Prophet's sunna. The book notes that combining flogging with stoning is disputed among jurists."
+wings: [people, ideas]
+themes: [crime-and-punishment, law-and-courts]
+periods: [period/rashidun]
+regions: [levant-iraq]
+date:
+  start: { edtf: "0656/0661", calendar: julian, precision: year, status: tradition, derived: true, note: "الكتاب لا يؤرخ الحكم؛ الإطار خلافة علي (35-40هـ) مشتق من سياق الكتاب، ثقة منخفضة." }
+relations:
+  - { type: had_participant, target: person/ali-ibn-abi-talib, role: "القاضي الآمر بالجلد والرجم", sources: [source/sallabi-ali-vol1] }
+  - { type: had_participant, target: person/shurahah, role: "المرأة المقرّة بالزنا", sources: [source/sallabi-ali-vol1] }
+  - { type: part_of, target: period/rashidun }
+issue: { ar: "هل يُجمع بين الجلد والرجم في حد الزنا؟", en: "Should flogging and stoning be combined for zina?" }
+perspectives:
+  - tradition: sunni
+    id: sunni-author
+    summary:
+      ar: "يعرض الصلابي الحكم بوصفه قضاء علي بالجلد ثم الرجم، ويستشهد بالبخاري وأحمد في لفظ أن علياً قال: «جلدتها بكتاب الله، ورجمتها بسنة رسول الله» {cite:sallabi-ali-vol1 p. 304}، ويصف الحكم بأنه حكم قضائي لعلي وأنه مختلف فيه بين الفقهاء {cite:sallabi-ali-vol1 p. 304}."
+      en: "Al-Sallabi presents the ruling as Ali's judgment, citing Bukhari and Ahmad for the wording that the flogging was by the Book of God and the stoning by the sunna of the Prophet {cite:sallabi-ali-vol1 p. 304}."
+    sources: [source/sallabi-ali-vol1]
+  - tradition: academic
+    id: jurists-majority
+    summary:
+      ar: "يذكر الكتاب أن الحكم في الجمع «مختلف فيه بين الفقهاء»، وأن الجمهور على عدم الجمع بين الجلد والرجم، دون أن يسمّي الكتاب المرجع الذي ينقل ذلك عنهم (needs_source) {cite:sallabi-ali-vol1 p. 304}."
+      en: "The book says the combination is disputed among jurists and that the majority reject combining flogging and stoning; it does not name the sources for the majority view (needs_source) {cite:sallabi-ali-vol1 p. 304}."
+    sources: [source/sallabi-ali-vol1]
+provenance: { layer: own-research, source: "sallabi-ali-vol1 pp. 303-304", generated_by: "Claude Code", model: "claude-haiku-5-5", run: "sallabi-ali-vol1-deep-pp301-350" }
+sources: [source/sallabi-ali-vol1]
+status: { review: draft, completeness: 1, generated_by: "Claude Code (claude-haiku-5-5); mined from sallabi-ali-vol1 pp. 303-304; contested" }

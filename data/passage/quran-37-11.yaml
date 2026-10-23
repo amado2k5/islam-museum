@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 37:11 (سورة الصافات، الآية 11)."
 text: "فَٱسْتَفْتِهِمْ أَهُمْ أَشَدُّ خَلْقًا أَم مَّنْ خَلَقْنَآ ۚ إِنَّا خَلَقْنَـٰهُم مِّن طِينٍ لَّازِبٍۭ"
 text_search: "فاستفتهم أهم أشد خلقا أم من خلقنا ۚ إنا خلقناهم من طين لازب"
+translations:
+  en: { text: "Then ask them (O Muhammad): Are they stronger as a creation, or those (others) whom we have created? Lo! We created them of plastic clay.", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "تو ان سے پوچھو کہ ان کا بنانا مشکل ہے یا جتنی خلقت ہم نے بنائی ہے؟ انہیں ہم نے چپکتے گارے سے بنایا ہے", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-37 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

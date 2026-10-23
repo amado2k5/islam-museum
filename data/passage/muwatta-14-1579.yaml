@@ -1,0 +1,17 @@
+id: passage/muwatta-14-1579
+class: passage
+unit: hadith
+chain: [person/malik-ibn-anas, person/yahya-ibn-said-al-ansari, person/said-ibn-al-musayyab]
+work: work/muwatta-malik
+ref: "1579"
+label: { ar: "الموطأ 1579 — يحيى بن سعيد عن سعيد بن المسيب: ثلاث ليس فيهن لعب: النكاح والطلاق والعتق", en: "Muwatta 1579" }
+summary:
+  ar: "يروي مالك عن يحيى بن سعيد عن سعيد بن المسيب أنه قال ثلاث ليس فيهن لعب: النكاح، والطلاق، والعتق. {cite:muwatta-maruf-1997 p.57}"
+relations:
+  - { type: part_of, target: passage/muwatta-kitab-14-nikah }
+  - { type: mentions, target: person/yahya-ibn-said-al-ansari, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/said-ibn-al-musayyab, sources: [source/muwatta-maruf-1997] }
+  - { type: basis_for, target: concept/nikah, sources: [source/muwatta-maruf-1997] }
+provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 2, hadith 1579 at PDF p. 57; جامع النكاح", generated_by: "Claude Code (claude-haiku-5-5) from Apple Vision OCR of the Noor-Book PDF, checked on the page image where doubtful", run: "muwatta-prose-k14-b33" }
+sources: [source/muwatta-maruf-1997]
+status: { review: draft, completeness: 2, generated_by: "Claude Code (claude-haiku-5-5); own-words account written from PDF p. 57; matn excerpt at most 40 words" }

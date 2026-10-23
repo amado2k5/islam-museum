@@ -1,0 +1,20 @@
+id: person/wasif-ibn-sawartekin
+class: person
+label: { ar: "وصيف بن صوارتكين", en: "Wasif ibn Sawartekin" }
+roles: [general]
+gender: male
+summary:
+  ar: "قائد المكتفي بالله، أرسله مع جماعة من القواد إلى زكرويه القرمطي فنفذ من القادسية على طريق خفان فلقيه يوم السبت لثمان بقين من ربيع الأول سنة أربع وتسعين ومائتين فاقتتلوا يومهم فقتل من القرامطة مقتلة عظيمة ووُضع زكرويه ضربة خالطت دماغه فعاش خمسة أيام ثم مات {cite:muntazam-ibn-al-jawzi p. 352}."
+  en: "Al-Muktafi's commander sent against Zikrawayh the Qarmatian; he met him via al-Qadisiyya on the Khaffan road on Saturday 8 Rabi' I 294, slaughtered his host and struck Zikrawayh a blow that entered his brain — he died five days later {cite:muntazam-ibn-al-jawzi p. 352}."
+wings: [people]
+periods: [period/abbasid-early]
+regions: [arabia, levant-iraq]
+relations:
+  - { type: allied_with, target: person/al-muktafi-billah, role: "قائد", sources: [source/muntazam-ibn-al-jawzi] }
+provenance:
+  layer: own-research
+  source: "المنتظم لابن الجوزي (ط حيدرآباد 1357، ج6، سنة 294)، قراءة آبل فيجن"
+  generated_by: "Devin (SWE-2 Medium) from Apple Vision OCR"
+  run: lib-muntazam-258-349-batch28
+sources: [source/muntazam-ibn-al-jawzi]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 Medium)" }

@@ -1,0 +1,23 @@
+id: event/sahkulu-revolt-1511
+class: event
+kind: revolt
+label: { ar: "عصيان شاه قلي", en: "Şahkulu Revolt" }
+summary:
+  ar: "بطاقة أولية لعصيان شاه قلي سنة ١٥١١م، الانتفاضة القزلباشية الكبرى في الأناضول التي سحقها الأجناد مرتين؛ لم تُراجع مصادره على الصفحة بعد."
+  en: "Draft card for the Şahkulu revolt of 1511, the great Qizilbash rising in Anatolia that cost two grand viziers; its sources are not yet checked on the page."
+wings: [time]
+periods: [period/gunpowder-empires]
+regions: [anatolia-balkans]
+date:
+  start: { edtf: "1511", precision: year, status: tradition, derived: true }
+  end: { edtf: "1511", precision: year, status: tradition, derived: true }
+sources: [source/dawlat-uthmaniyya-salabi]
+external_ids:
+  wikidata: Q6569289
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; revolt attested in Ottoman histories — entry not yet checked on the page"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-wave2
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

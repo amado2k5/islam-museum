@@ -1,0 +1,23 @@
+id: event/siege-of-damascus-1400
+class: event
+kind: siege
+label: { ar: "حصار دمشق (١٤٠٠)", en: "Siege of Damascus" }
+summary:
+  ar: "بطاقة أولية لحصار دمشق سنة ١٤٠٠م، إخضاع تيمور للمدينة المملوكية ونقل صناعها إلى سمرقند؛ لم تُراجع مصادره على الصفحة بعد."
+  en: "Draft card for the Siege of Damascus in 1400, Timur's subjugation of the Mamluk city and deportation of its craftsmen to Samarkand; its sources are not yet checked on the page."
+wings: [time]
+periods: [period/crusades-ayyubid-mamluk]
+regions: [levant-iraq]
+date:
+  start: { edtf: "1400", precision: year, status: tradition, derived: true }
+  end: { edtf: "1401", precision: year, status: tradition, derived: true }
+sources: [source/tarikh-ibn-khaldun-ibar]
+external_ids:
+  wikidata: Q9389452
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; siege attested in Timurid histories — entry not yet checked on the page"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-wave2
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

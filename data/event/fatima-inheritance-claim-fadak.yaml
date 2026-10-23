@@ -1,0 +1,32 @@
+id: event/fatima-inheritance-claim-fadak
+class: event
+kind: other
+label: { en: "Fatima's claim to the Prophet's inheritance and Fadak", ar: "مطالبة فاطمة بميراث النبي وفدك" }
+summary:
+  en: "After the Prophet's death Fatima and al-Abbas asked Abu Bakr for their share of the Prophet's estate, the land of Fadak and his share of Khaybar. Abu Bakr answered with the report that prophets leave no inheritance, and said he would keep the Prophet's practice. Sallabi records the Sunni reply to the Imami claims and reports that Fatima was pleased with Abu Bakr before her death."
+  ar: "بعد وفاة النبي طلبت فاطمة والعباس ميراثهما: أرضه في فدك وسهمه من خيبر، فاحتج أبو بكر بحديث لا نورث ما تركنا صدقة، وقال إنه سيعمل بكل ما كان النبي يعمل به. ويعرض الصلابي الرد السني على الروايات الإمامية، وينقل أن فاطمة رضيت عن أبي بكر قبل وفاتها على رواية الشعبي."
+wings: [people, objects, ideas, place]
+themes: [family-marriage-kinship, reconciliation-and-unity, factions-splits-schisms]
+periods: [period/rashidun]
+regions: [arabia]
+date:
+  start: { edtf: "0632/0634", hijri: "0011", calendar: julian, precision: year, status: tradition, derived: true, note: "الكتاب لا يحدد سنة المطالبة، ويضعها بعد وفاة النبي في خلافة أبي بكر (ص 129-136). الفترة مشتقة من مدة خلافة أبي بكر." }
+relations:
+  - { type: had_participant, target: person/fatima, role: "طالبت بالميراث", sources: [source/sallabi-ali-vol1] }
+  - { type: had_participant, target: person/abbas-ibn-abd-al-muttalib, role: "طلب ميراثه مع فاطمة", sources: [source/sallabi-ali-vol1] }
+  - { type: had_participant, target: person/abu-bakr, role: "احتج بالحديث ومنع الميراث", sources: [source/sallabi-ali-vol1] }
+  - { type: had_participant, target: person/ali-ibn-abi-talib, role: "تنسب الروايات الإمامية إليه الشهادة، وينكر الكتاب ذلك", sources: [source/sallabi-ali-vol1] }
+  - { type: occurred_at, target: place/fadak }
+issue: { ar: "هل يُورَث النبي، وهل كان أبو بكر ظالماً في منع فدك؟", en: "Did the Prophet leave an inheritance, and was Abu Bakr wrong to withhold Fadak?" }
+perspectives:
+  - tradition: sunni
+    id: sunni
+    summary: { en: "Sallabi, citing Ibn Taymiyya and Ibn Kathir: the hadith that prophets are not inherited is reported by a wide group of Companions, Umar, Uthman, Ali, Talha, al-Zubayr, Sa'd, Abd al-Rahman ibn Awf, al-Abbas, the wives of the Prophet and Abu Hurayra; Ali did not divide the estate when he held power; and Fatima was reconciled with Abu Bakr.", ar: "يعرض الكتاب عن ابن تيمية وابن كثير: حديث أن الأنبياء لا يورثون رواه جماعة من الصحابة منهم عمر وعثمان وعلي وطلحة والزبير وسعد وعبد الرحمن بن عوف والعباس وأزواج النبي وأبو هريرة، ولم يقسم علي التركة في خلافته، ورضيت فاطمة عن أبي بكر." }
+    sources: [source/sallabi-ali-vol1]
+  - tradition: shia-twelver
+    id: shia-twelver
+    summary: { en: "Imami reports, as cited by the book, say Abu Bakr and Umar seized Fatima's inheritance and Fadak, that the Prophet's heritage was Fatima's alone, and that the Prophet's words on not being inherited were invented; Sallabi refutes these reports on their chains, their logic and their consistency.", ar: "تروي الإمامية، كما ينقل الكتاب، أن أبا بكر وعمر غصبا فاطمة فدكاً، وأن ميراث النبي كان لفاطمة وحدها، وأن حديث عدم الإرث موضوع؛ ويرد الكتاب هذه الروايات سنداً ومنطقاً وتناقضاً." }
+    sources: [source/sallabi-ali-vol1]
+sources: [source/sallabi-ali-vol1]
+status: { review: draft, completeness: 1, generated_by: "Claude Code (claude-haiku-5-5); mined from sallabi-ali-vol1 pp. 129-136" }
+provenance: { layer: own-research, source: "sallabi-ali-vol1 pp. 129-136", generated_by: "Claude Code", model: "claude-haiku-5-5", run: "sallabi-ali-vol1-deep-pp111-150" }

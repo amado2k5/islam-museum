@@ -1,0 +1,23 @@
+id: person/abu-masud-al-dimashqi
+class: person
+label: { ar: "أبو مسعود الدمشقي إبراهيم بن محمد الحافظ", en: "Abu Mas'ud al-Dimashqi Ibrahim ibn Muhammad al-Hafiz" }
+summary:
+  ar: "إبراهيم بن محمد بن عبيد أبو مسعود الدمشقي الحافظ، طاف البلاد وسمع الحديث وكتب ببغداد والكوفة والبصرة وواسط والأهواز وأصبهان وبلاد خراسان، وكان ذا عناية فائقة بالصحيحين فصنّف كتاب أطراف الصحيحين وهو من أوائل من عمل الأطراف. كان ثقة ديناً ورعاً فهماً، توفي ببغداد سنة إحدى وأربعمائة وأوصى إلى الشيخ أبي حامد الاسفراييني فصلى عليه ودُفن في مقبرة جامع المنصور {cite:muntazam-ibn-al-jawzi j.7 p.252}."
+  en: "Ibrahim ibn Muhammad ibn Ubayd, Abu Mas'ud al-Dimashqi the hafiz, travelled widely and heard and wrote down hadith at Baghdad, Kufa, Basra, Wasit, al-Ahwaz, Isfahan and the lands of Khurasan; he took special care with the two Sahihs and composed Atraf al-Sahihayn, being among the first to compile atraf works. He was trustworthy (thiqa), devout, scrupulous and perceptive. He died in Baghdad in 401, having entrusted his affairs to Shaykh Abu Hamid al-Isfara'ini, who led the funeral prayer over him, and he was buried in the cemetery of the Mansur Mosque {cite:muntazam-ibn-al-jawzi j.7 p.252}."
+wings: [people]
+periods: [period/buyid-seljuk-fatimid-era]
+regions: [levant-iraq]
+roles: [scholar, teacher]
+themes: [scripture-and-its-sciences]
+died:
+  { edtf: "1010~", hijri: "0401", calendar: julian, precision: year, status: tradition, derived: true, note: "سنة 401هـ؛ التحويل مشتق {cite:muntazam-ibn-al-jawzi j.7 p.252}" }
+relations:
+  - { type: died_in, target: place/baghdad, sources: [source/muntazam-ibn-al-jawzi] }
+  - { type: buried_in, target: place/baghdad, role: "مقبرة جامع المنصور", sources: [source/muntazam-ibn-al-jawzi] }
+provenance:
+  layer: own-research
+  source: "المنتظم في تاريخ الملوك والأمم — ابن الجوزي (ج7، وفيات سنة 401)، قراءة آبل فيجن"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-muntazam-batch-22
+sources: [source/muntazam-ibn-al-jawzi]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

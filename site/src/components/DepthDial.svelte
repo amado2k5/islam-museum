@@ -29,7 +29,7 @@
 
 <style>
   .depth-dial { display: inline-flex; align-items: center; gap: 4px; font-family: var(--sans); font-size: 0.85rem; background: var(--panel); border-radius: 999px; padding: 3px; }
-  :global(html[lang="ar"]) .depth-dial { font-family: var(--ar-body); font-size: 0.95rem; }
+  :global(html:is([lang="ar"], [lang="ur"])) .depth-dial { font-family: var(--ar-body); font-size: 0.95rem; }
   .lbl { padding-inline: 10px 6px; color: var(--muted); }
   button { border: 0; background: transparent; color: var(--fg); padding: 4px 12px; border-radius: 999px; cursor: pointer; font: inherit; }
   button[aria-pressed="true"] { background: var(--bg); box-shadow: 0 0 0 1px var(--gold); }

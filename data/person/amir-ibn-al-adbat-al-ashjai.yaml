@@ -1,0 +1,19 @@
+id: person/amir-ibn-al-adbat-al-ashjai
+class: person
+label: { ar: "عامر بن الأضبط الأشجعي", en: "Amir ibn al-Adbat al-Ashja'i" }
+names:
+  - { kind: full, lang: ar, value: "عامر بن الأضبط الأشجعي" }
+gender: male
+summary:
+  ar: "رجل من أشجع مرّ بسرية ابن أبي حدرد ببطن إضم على قعود له ومعه متاع ووطب لبن، فسلّم بتحية الإسلام فقتله محلّم بن جثامة؛ طلب عيينة بن حصن بدمه عند النبي بحنين فقُبلت فيه الدية، وفيه نزلت آية النساء 94 بحسب ابن أبي حدرد."
+  en: "A man of Ashja' who passed Ibn Abi Hadrad's detachment at Batn Idam on his camel with his goods and a skin of milk, gave the greeting of Islam and was killed by Muhallim ibn Jaththama; Uyayna ibn Hisn claimed his blood before the Prophet at Hunayn and blood-money was accepted; Qur'an 4:94 was revealed about the case according to Ibn Abi Hadrad."
+wings: [people]
+periods: [period/prophetic-era]
+regions: [arabia]
+died: { edtf: "0629~", hijri: "0008~", calendar: julian, precision: year, status: debated, note: "قُتل ببطن إضم قبل الفتح؛ السنة غير منصوصة (needs_source).", sources: [source/ibn-hisham-saqqa] }
+relations:
+  - { type: member_of, target: group/ghatafan, note: "من أشجع، وأشجع من غطفان؛ طلب عيينة بدمه بصفته رئيس غطفان", sources: [source/ibn-hisham-saqqa] }
+  - { type: participated_in, target: event/raid-of-ibn-abi-hadrad-on-batn-idam, role: "المقتول بعد تحية الإسلام", sources: [source/ibn-hisham-saqqa] }
+provenance: { layer: own-research, source: "sira-ibn-hisham saqqa 1936, juz' 4 pp. 275-277", generated_by: "Claude Code", model: "claude-fable-5-1", run: "ibn-hisham-batch-14" }
+sources: [source/ibn-hisham-saqqa]
+status: { review: draft, completeness: 1, generated_by: "Claude Fable 5.1; mined from Ibn Hisham juz' 4 pp. 275-277" }
