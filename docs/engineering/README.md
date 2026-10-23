@@ -19,6 +19,8 @@ vision, content model, editorial policy and roadmap.
 | [09 · Cost analysis](09-cost-analysis.md) | Free-tier inventory, harvest-side costs, scale scenarios, $0/month runtime | Founder, funders |
 | [10 · Extensibility](10-extensibility.md) | Adding classes, languages, islands, predicates, harvest lanes; the delegation model | Contributors |
 | [11 · Assessment](11-assessment.md) | Scorecard vs world-class knowledge projects: ratings, justifications, gaps, priorities | Founder, reviewers, funders |
+| [12 · AI ecosystem](12-ai-ecosystem.md) | The agent workforce: who the agents are, governance framework, executable guardrails, the image pipeline, remaining gaps | Everyone — the project's signature document |
+| [13 · Clone as template](13-clone-as-template.md) | Reusing the repo for any knowledge-graph museum: what transfers, what to replace, clone procedure, ready-to-paste master prompt | Founders of new projects |
 | [Diagrams](diagrams.md) | All Mermaid diagrams in one place | Everyone |
 | [Executive deck](../presentation/executive-deck.md) | Marp slide deck for developers | New joiners |
 
