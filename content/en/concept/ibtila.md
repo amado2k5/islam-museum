@@ -15,3 +15,6 @@ The other reading is that God knows things before they occur, that they will occ
 
 ## Trial and testing in the Qur'an
 Rida holds that God purifies what is in hearts through the trials with which people are tested, and cites verses of al-'Ankabut. In his account, the trial does not lie in the matter itself, but in what follows from it: the denial of the ignorant and the steadfastness of believers. {cite:tafsir-manar-v02 p.8} [[passage/quran-2-143|Al-Baqara 143]]
+
+## Sha'rawi on trial by fear and hunger
+Sha'rawi says that trial is an examination that gives the believer immunity short of life itself: fear, hunger, loss of wealth, of lives and of fruits. He holds that fear is met by taking the means rather than by agitation, that hunger teaches the value of food and the endurance of hardship, and that fasting is preparation for it. {cite:tafsir-sharawi-khawatir-scan-pp-501-1000 p.659} {cite:tafsir-sharawi-khawatir-scan-pp-501-1000 p.660} {cite:tafsir-sharawi-khawatir-scan-pp-501-1000 p.661} {cite:tafsir-sharawi-khawatir-scan-pp-501-1000 p.662}

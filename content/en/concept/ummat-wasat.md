@@ -15,3 +15,6 @@ Rida says that before Islam people were of two kinds: one dominated by materiali
 
 ## Bearing witness over people
 Rida holds that the community bears witness over people through its conduct, and that the Messenger bears witness for it to the extent that it conformed to his sunna. If it deviates from this path and falls to one of the extremes, the Messenger becomes a proof against it. {cite:tafsir-manar-v02 p.5} [[passage/quran-2-143|Al-Baqara 2:143]]
+
+## Sha'rawi on the middle nation
+Sha'rawi holds that the middle course in creed lies between those who deny God and those who associate partners with Him, and in life between overwhelming materialism and a spirituality cut off from the world; Islam joins material life to heavenly values. He cites communism and capitalism as examples; this is his political view in these pages, and no historical sources on those systems are entered here. {cite:tafsir-sharawi-khawatir-scan-pp-501-1000 p.626} {cite:tafsir-sharawi-khawatir-scan-pp-501-1000 p.627} {cite:tafsir-sharawi-khawatir-scan-pp-501-1000 p.628}

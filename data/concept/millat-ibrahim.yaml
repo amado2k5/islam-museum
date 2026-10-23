@@ -1,0 +1,48 @@
+id: concept/millat-ibrahim
+class: concept
+kind: doctrine
+label:
+  ar: "ملة إبراهيم الحنيفية"
+  en: "The creed of Abraham (hanifiyya)"
+summary:
+  ar: "يقرأ الشعراوي آية [[passage/quran-2-135|135 من البقرة]] على أن الحنيفية هي الاعتدال بعد الاعوجاج، وأن الإيمان بالله وحده وبما أنزل على الأنبياء كلهم هو أصل الملة، وأن إبراهيم كان مسلماً. {cite:tafsir-sharawi-khawatir-scan-pp-501-1000 p.605}{cite:tafsir-sharawi-khawatir-scan-pp-501-1000 p.606}{cite:tafsir-sharawi-khawatir-scan-pp-501-1000 p.608}"
+  en: "Sha'rawi reads the verse [[passage/quran-2-135|2:135]] as saying that hanifiyya is straightness after crookedness, that the root of the creed is belief in God alone and in what was revealed to all the prophets, and that Abraham was a Muslim {cite:tafsir-sharawi-khawatir-scan-pp-501-1000 p.605}{cite:tafsir-sharawi-khawatir-scan-pp-501-1000 p.606}{cite:tafsir-sharawi-khawatir-scan-pp-501-1000 p.608}."
+wings: [ideas]
+themes: [creed, prophets]
+periods: [period/prophetic-era]
+regions: [arabia]
+issue:
+  ar: "ما معنى الحنيفية، وهل تتجاوز ملة إبراهيم الشرائع المتعاقبة، وكيف يُفهم قول أهل الكتاب إن إبراهيم كان على دينهم؟"
+  en: "What does hanifiyya mean, does the creed of Abraham stand above successive laws, and how should the claim of the People of the Book that Abraham was on their religion be read?"
+perspectives:
+  - tradition: sunni
+    id: sharawi-millat-ibrahim
+    stance:
+      ar: "الحنيفية اعتدال بعد الاعوجاج، وأصل الملة الإيمان بالله وحده وبما أنزل على الأنبياء، وإبراهيم كان مسلماً"
+      en: "Hanifiyya is straightness after crookedness; the root of the creed is belief in God alone and in what was revealed to the prophets; Abraham was a Muslim"
+    holders: [person/muhammad-mutawalli-al-shaarawi]
+    summary:
+      ar: "يذكر الشعراوي أن اليهود والنصارى ادعى كل فريق منهم أن إبراهيم على ملته، فرد الله بأن الأصل ملة إبراهيم حنيفاً، ويرى أن الإسلام أخذ من موسى وعيسى ما صح من البلاغ عن الله ولم يفرّق بين الرسل. {cite:tafsir-sharawi-khawatir-scan-pp-501-1000 p.605}{cite:tafsir-sharawi-khawatir-scan-pp-501-1000 p.608}"
+      en: "Sha'rawi says that Jews and Christians each claimed Abraham for their own creed, and that God's reply set the creed of Abraham as the origin. He holds that Islam took from Moses and Jesus what was sound in God's message and makes no distinction between the messengers {cite:tafsir-sharawi-khawatir-scan-pp-501-1000 p.605}{cite:tafsir-sharawi-khawatir-scan-pp-501-1000 p.608}."
+    sources: [source/tafsir-sharawi-khawatir-scan-pp-501-1000]
+  - tradition: sunni
+    id: scope-note-other-readings
+    stance:
+      ar: "أقوال المفسرين في معنى الحنيفية والرأي الأكاديمي لم تُدخل من مصدر مراجَع في هذه الدفعة"
+      en: "Other exegetes' readings of hanifiyya and the academic view are not entered from a checked source in this batch"
+    holders: []
+    summary:
+      ar: "لم تُدخل هنا أقوال المفسرين الآخرين في معنى «حنيفاً»، ولا الرأي الأكاديمي، ولا الآراء الأخرى في نسبة إبراهيم إلى اليهودية أو النصرانية. {cite:tafsir-sharawi-khawatir-scan-pp-501-1000 p.606}"
+      en: "Other exegetes' readings of 'hanif', the academic view and other views on whether Abraham belonged to Judaism or Christianity are not entered here {cite:tafsir-sharawi-khawatir-scan-pp-501-1000 p.606}."
+    sources: [source/tafsir-sharawi-khawatir-scan-pp-501-1000]
+relations:
+  - { type: based_on, target: passage/quran-2-135, sources: [source/tafsir-sharawi-khawatir-scan-pp-501-1000] }
+  - { type: based_on, target: passage/quran-2-136, sources: [source/tafsir-sharawi-khawatir-scan-pp-501-1000] }
+sources: [source/tafsir-sharawi-khawatir-scan-pp-501-1000]
+provenance:
+  layer: own-research
+  source: "تفسير الشعراوي (الخواطر)، نسخة ممسوحة ضوئياً، الصفحات 605 إلى 608 (OCR)، طبعة غير موثقة"
+  generated_by: "Claude Haiku 5.5 (Claude Code subagent)"
+  model: "claude-haiku-5-5"
+  run: tafsir-sharawi-597-1000-batch-1
+status: { review: draft, completeness: 1, generated_by: "Claude Haiku 5.5 (Claude Code subagent); OCR pages 605-609 read" }

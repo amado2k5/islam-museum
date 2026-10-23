@@ -16,3 +16,6 @@ The book mentions causes of the Muslims' steadfastness under persecution: faith 
 
 ## For young visitors
 The first Muslims bore harm patiently because they believed in God, loved the Prophet, and knew that the Hereafter is better.
+
+## Sha'rawi on patience
+Sha'rawi defines patience as restraining the self from complaint, which helps one do what is commanded and leave what is forbidden, and holds that obedience becomes beloved through love of God. He relates a report of Imam Ali on the rights of the neighbour as it appears in the page, whose chain is not checked here. He holds that God's companionship with the patient keeps the believer from despair. {cite:tafsir-sharawi-khawatir-scan-pp-501-1000 p.648} {cite:tafsir-sharawi-khawatir-scan-pp-501-1000 p.649} {cite:tafsir-sharawi-khawatir-scan-pp-501-1000 p.650}

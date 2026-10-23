@@ -27,3 +27,6 @@ In "the account of the sum of the saying of the people of hadith and sunna" in M
 This entry presents the positions of the 'Aqida al-Tahawiyya, Ibn Qudama's Lum'at al-I'tiqad, Ibn Taymiyya's al-Wasitiyya, and what al-Ash'ari related in Maqalat al-Islamiyyin of the people of hadith and sunna and declared his own — each attributed to its book. The sayings of the Maturidis and the remaining Sunni and non-Sunni schools from their own books have not yet been added; the entry needs specialist review before promotion.
 
 See also [[concept/qadar|the decree]].
+
+## Sha'rawi on kasb and iktisab
+Sha'rawi distinguishes the two verbs: kasb is used for good and iktisab for evil, since the latter carries effort. He reads the verse [[passage/quran-2-134|2:134]] as meaning that each soul answers for its own deeds. {cite:tafsir-sharawi-khawatir-scan-pp-501-1000 p.601} {cite:tafsir-sharawi-khawatir-scan-pp-501-1000 p.602}

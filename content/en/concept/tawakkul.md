@@ -11,3 +11,6 @@ translators: ["Claude Haiku 5.5 (claude-haiku-5-5), draft translation"]
 True trust is the heart's reliance on God for obtaining what is sought, while taking the means, as the bird goes out in the morning, and not the abandonment of striving. The birds themselves go out and return, combining work with commitment. {cite:ibn-rajab-jami-ulum-hikam p.914}
 
 It is connected with [[concept/iman|faith]] in the museum's classification.
+
+## Sha'rawi on trust and idleness
+Sha'rawi distinguishes tawakkul, an act of the heart, from tawakkul-idleness, which stops the limbs from working. He says Islam has no idleness: the limbs work and the hearts trust. {cite:tafsir-sharawi-khawatir-scan-pp-501-1000 p.669}

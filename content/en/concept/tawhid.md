@@ -33,3 +33,6 @@ In "the account of the sum of the saying of the people of hadith and sunna" in M
 
 ## What is not covered here
 This entry presents the positions of the 'Aqida al-Tahawiyya, Ibn Qudama's Lum'at al-I'tiqad, Ibn Taymiyya's al-Wasitiyya, and what al-Ash'ari related in Maqalat al-Islamiyyin of the people of hadith and sunna and declared his own — each attributed to its book. The sayings of the Maturidis and the remaining Sunni and non-Sunni schools from their own books have not yet been added; the entry needs specialist review before promotion.
+
+## Sha'rawi on the one and the unique
+Sha'rawi distinguishes wahid, the one with no second, from ahad, that which has no composition or parts; God is therefore described neither as a whole nor as a universal. He holds that the one God existed before disbelief, that heedlessness turns some people to other gods, that a blessing cannot be a god since it is given, and that the signs in creation point to a maker greater than they. {cite:tafsir-sharawi-khawatir-scan-pp-501-1000 p.682} {cite:tafsir-sharawi-khawatir-scan-pp-501-1000 p.683} {cite:tafsir-sharawi-khawatir-scan-pp-501-1000 p.684}
