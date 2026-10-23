@@ -36,9 +36,28 @@
 
 Pages 14944-14969 headers with "تقدمت ترجمته" or no biography (examples: ابن حجر, ابن كثير, الشافعي, أبو حنيفة, مالك, عطاء بن أبي رباح, زفر, سعيد بن جبير, and the other bare headers). Also skipped: the index header on p.14943 and p.14945, the page-end line on p.14969.
 
-## Remaining candidates in this window (next batches)
+## Batch 2 (pp.14957-14968), 8 persons created
 
-- Batch 2: زريق بن حيان (p.14957), عيسى بن عمر الهمداني القارئ (pp.14962-14963), عبيد بن جبر (p.14961), عمرو بن شرحبيل (p.14962), فيروز الديلمي (p.14963), أحمد بن محمد القَمُولي (pp.14964-14965), محمد بن حامد البخاري (p.14966), عبد الله بن شرف المرزوقي (p.14966).
-- Batch 3: يحيى بن كثير أبو غسان العنبري (p.14968).
+| id | page | note |
+|---|---|---|
+| person/zurayq-ibn-hayyan | 14957 | death 100 AH |
+| person/isa-ibn-umar-al-hamdani | 14962-14963 | Kufan reader; death 156 AH |
+| person/ubayd-ibn-jabr | 14961 | death 74 AH |
+| person/amr-ibn-shurahbil | 14962 | death 63 AH |
+| person/ahmad-ibn-muhammad-al-qamuli | 14964 | Shafi'i; died 727, born 653 per header |
+| person/muhammad-ibn-hamid-al-bukhari | 14966 | Hanafi; header dates garbled, left out |
+| person/abdallah-ibn-sharaf-al-marzuqi | 14966 | Shafi'i; died before 700 AH or shortly after |
+| person/yahya-ibn-kathir-al-anbari | 14968 | muhaddith; header dates garbled, left out |
 
-Next page to read: 14957 (batch 2 starts there). Scan dates for several entries are garbled; those are left out rather than guessed.
+Existing, not extended (batch 2):
+
+| id | page | scan name |
+|---|---|---|
+| person/fayruz-al-daylami | 14963 | فيروز الديلمي (found by the validator as a homonym; the new file was removed) |
+
+## Remaining
+
+- The window is complete (all bio paragraphs from pp.14946-14968 handled). Page 14969 is the end-of-volume line.
+- Scan-name headers that are only names, or carry "تقدمت ترجمته" / "تقدمت في ...", produce no entity.
+
+Scan dates for several entries are garbled; those are left out rather than guessed.
