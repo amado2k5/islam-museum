@@ -34,11 +34,11 @@ Average sources per entity: **1.28** · Women share of persons with a recorded g
 
 | Key | Count |
 |---|---|
-| ideas | 1354 |
-| living | 72 |
+| ideas | 1356 |
+| living | 71 |
 | made | 119 |
 | objects | 6142 |
-| people | 8288 |
+| people | 8287 |
 | place | 1711 |
 | time | 3973 |
 | today | 6 |
@@ -58,7 +58,7 @@ Average sources per entity: **1.28** · Women share of persons with a recorded g
 | period/modern-era | 1144 |
 | period/mongol-post-mongol | 1305 |
 | period/pre-islamic-arabia | 402 |
-| period/prophetic-era | 2163 |
+| period/prophetic-era | 2165 |
 | period/rashidun | 840 |
 | period/umayyad | 1018 |
 
@@ -114,11 +114,11 @@ Average sources per entity: **1.28** · Women share of persons with a recorded g
 | diplomacy-and-envoys | 2 |
 | disability | 8 |
 | dissent-heresy-freethought | 29 |
-| dress | 22 |
+| dress | 21 |
 | education | 138 |
 | engineering-and-technology | 5 |
 | environment-and-climate | 4 |
-| ethics-and-character | 197 |
+| ethics-and-character | 196 |
 | factions-splits-schisms | 26 |
 | family-marriage-kinship | 354 |
 | fasting | 4 |
@@ -146,7 +146,7 @@ Average sources per entity: **1.28** · Women share of persons with a recorded g
 | islam-and-secular-thought | 2 |
 | islam-and-the-modern-state | 6 |
 | islam-and-zoroastrianism | 2 |
-| law-and-courts | 283 |
+| law-and-courts | 285 |
 | laws-of-war-and-peace | 57 |
 | libraries-paper-and-the-book | 11 |
 | linguistics | 77 |
@@ -199,7 +199,7 @@ Average sources per entity: **1.28** · Women share of persons with a recorded g
 | water-and-animals | 8 |
 | websites-and-apps | 2 |
 | women | 217 |
-| worship-and-the-pillars | 391 |
+| worship-and-the-pillars | 389 |
 | zakat-and-sadaqa | 21 |
 | zoology | 1 |
 
