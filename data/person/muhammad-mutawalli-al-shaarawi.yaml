@@ -13,6 +13,8 @@ regions: [egypt-nile]
 periods: [period/modern-era]
 died: { edtf: "1998", precision: year, status: tradition, derived: true }
 sources: [source/al-aalam, source/al-isra-wal-miraj-azhar, source/qadiyat-al-sunna-azhar]
+relations:
+  - { type: authored, target: work/al-isra-wal-miraj-shaarawi, sources: [source/al-isra-wal-miraj-dar-al-jeel-2003] }
 external_ids:
   wikidata: Q4164538
 provenance:
