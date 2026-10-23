@@ -1,0 +1,17 @@
+id: source/juha-nawadir-kubra-djuwaydi
+class: source
+kind: primary
+type: book
+label: { en: "Nawadir Juha al-Kubra, ed. Darwish al-Juwaydi (al-Dar al-Namudhajiya)", ar: "نوادر جحا الكبرى، اعتنى به د. درويش الجويدي، الدار النموذجية" }
+summary:
+  en: "A modern Arabic edition of the anecdotes of Juha, edited by Darwish al-Juwaydi and published by al-Dar al-Namudhajiya in Sidon and Beirut. Its introduction collects the early references to Juha and the Turkish Nasreddin Hoca; the anecdotes themselves are not yet read."
+  ar: "طبعة عربية حديثة لنوادر جحا، اعتنى بها درويش الجويدي، ونشرتها الدار النموذجية في صيدا وبيروت. تجمع مقدمتها الإشارات المبكرة إلى جحا وإلى نصر الدين الرومي، ولم تُقرأ الحكايات بعد."
+title: "نوادر جحا الكبرى"
+author:
+  - { family: al-Juwaydi, given: "Darwish" }
+language: ar
+reliability_note: "Modern edition; the editor's introduction is read from Apple Vision OCR of the archive.org scan (item civ-3027), not checked on the page image. Page citations use the scan page markers (scan p. 4 is the printed folio 5). The edition's copyright status is not known; only facts and short rewritten accounts enter the museum, not the editor's text."
+open_access: false
+sources: [source/fihrist-ibn-al-nadim]
+status: { review: draft, completeness: 1, generated_by: "Claude Haiku 5.5 (introduction, scan pp. 4-8, from OCR)" }
+provenance: { layer: copyrighted-reference, source: "archive.org item civ-3027 (Nawadir Juha al-Kubra), scan pp. 4-8, OCR by Apple Vision", generated_by: "Claude Haiku 5.5", model: "claude-haiku-5-5", run: "lib-juha-intro" }
