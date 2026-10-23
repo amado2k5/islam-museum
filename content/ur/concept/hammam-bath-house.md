@@ -1,0 +1,8 @@
+---
+id: concept/hammam-bath-house
+lang: ur
+source_lang: ar
+translators: []
+---
+## خلاصہ
+حمام اصل میں غسل کی گرم پانی والی جگہ ہے، پھر ہر پانی سے نہانے کے لیے بھی بولا جاتا ہے۔ {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.7321} حنفیہ کے صحیح قول، مالکیہ اور شافعیہ کے نزدیک حمام بنانا، بیچنا اور کرائے پر دینا جائز ہے جب کھلی ہوئی شرمگاہ نہ ہو؛ حنابلہ اس کا کرایہ اور خرید مکروہ کہتے ہیں، حمامی کی کمائی مکروہ ہے، اور عورتوں کے حمام پر کراہت زیادہ ہے۔ {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.7321} {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.7322} جمہور کے نزدیک جو حمام تقسیم قبول نہ کرے اس میں شفعہ ثابت نہیں، جبکہ حنفیہ کے نزدیک ثابت ہے۔ {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.7322} {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.7323} مرد اور عورتیں حمام میں جا سکتے ہیں جب ستر کا خیال ہو؛ بعض فقہاء مکمل ڈھانپنا ضروری کہتے ہیں، عورت عذر سے داخل ہو سکتی ہے، اور ذمی عورت کو مسلمان عورتوں کے ساتھ داخل ہونے سے روکا گیا ہے۔ {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.7323} {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.7324} {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.7325} داخل اور خارج ہونے کے آداب ہیں، حنفیہ اور حنابلہ کے نزدیک اس کا پانی طاہر ہے، وہاں بلند آواز سے قرآن پڑھنا مکروہ ہے، اور وہاں سلام مستحب نہیں۔ {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.7326} {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.7327} جمہور کے نزدیک حمام میں نماز صحیح ہے، جبکہ حنابلہ کے معتمد قول میں صحیح نہیں۔ {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.7327} {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.7328} حمام سے چوری پر ہاتھ کاٹنے میں اختلاف ہے، حنفیہ رات اور دن میں فرق کرتے ہیں۔ {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.7328} {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.7329} یہ مدخل p.7329 پر «حمو» کے عنوان پر ختم ہوتا ہے۔ 
