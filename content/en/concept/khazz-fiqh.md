@@ -1,0 +1,8 @@
+---
+id: concept/khazz-fiqh
+lang: en
+source_lang: ar
+translators: []
+---
+## Summary
+Khazz is cloth woven from wool and silk, or from silk alone; the word is from the fur of the hare, for its softness, and the jurists use it for cloth whose warp is silk and weft is other, or the reverse. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.7638} Qazz is raw silk, the source of silk; khazz is silk mixed with other fibre such as wool or cotton; dibaj is cloth with silk warp and weft, which men may not wear without necessity by agreement. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.7638} Pure silk khazz is forbidden to men outside war without necessity by agreement, and allowed to women, by the report of Hudhayfa "do not wear silk or dibaj" and the report that gold and silk are lawful to the women of my community and forbidden to its men. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.7638} For cloth woven of silk and another fibre, most Hanafis, Shafiis and Hanbalis allow men to wear it, as does one Maliki view; Ahmad reports the Companions wore khazz; the Malikis dislike it, as a precaution. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.7639} The Shafiis, in the sounder view, distinguish by quantity: if silk outweighs, it is forbidden; if the other fibre is more or they are equal, it is allowed; the Hanafis, in the sound view, allow it when the weft is not silk, since cloth is made by weaving; Ibn Aqil of the Hanbalis forbids it when equal. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.7639} The rules on khazz are in the books on prohibitions and dress, and in the sections on the waiting period, mourning and the shroud; see the entry on silk for more. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.7639}
