@@ -1,0 +1,8 @@
+---
+id: concept/wadiah-fiqh
+lang: ur
+source_lang: ar
+status: draft
+---
+
+امانت (ودیعہ) وہ مال ہے جو کسی کے پاس حفاظت کے لیے رکھا جائے؛ حنابلہ کے نزدیک بلا عوض۔ {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.17054} اس کا تعلق عاریت، لقطہ اور غصب سے ہے، اور غصب ظلماً اور زبردستی لینا ہے۔ {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.17055} اس کی مشروعیت سنت اور اجماع سے ثابت ہے، اور امانت کو اس کے مالک تک لوٹانے کا حکم ہے۔ {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.17056} اس کے حکم میں بعض صورتوں کے بارے میں دو رائیں ہیں؛ مفتیٰ بہ رائے کراہت ہے۔ {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.17058} اس کی حقیقت میں جمہور کے نزدیک یہ حفاظت کی حد تک محدود وکالت ہے، حنفیہ کے نزدیک حفاظت کا تسلط دینا ہے، اور بعض شافعیہ کے نزدیک محض اجازت۔ {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.17058}{cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.17059} اس عقد کی تین خصوصیات ہیں: دونوں جانب سے جائز، امانت، اور اصلاً تبرع۔ {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.17059}{cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.17060}{cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.17061} ارکان میں جمہور کے نزدیک صیغہ، دو عاقدین اور محل ہیں؛ حنفیہ کے نزدیک ایجاب و قبول، جو صریح، کنایہ یا فعل سے ہو سکتے ہیں۔ {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.17062}{cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.17063} امین کو حفاظت کی اجرت صرف شرط، عرف یا پیشہ ور ہونے کی صورت میں ملتی ہے۔ {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.17062} مودِع کی اہلیت حنفیہ کے نزدیک تمیز ہے، جمہور کے نزدیک بلوغ، عقل اور رشد؛ مجنون اور غیر عاقل بچے کی امانت درست نہیں۔ {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.17064}{cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.17066} ممیز بچے کی امانت کے بارے میں چار اقوال ہیں؛ پہلا قول (اکثر مالکیہ، شافعیہ اور حنابلہ) کہ بچے کو امین بنانا درست نہیں، اس لیے اس کے پاس تلف ہونے پر ضمان نہیں۔ {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.17066}
