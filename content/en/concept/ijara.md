@@ -28,5 +28,47 @@ For non-Hanafis the parties are pillars of the contract; the Hanafis count them 
 ## The object of the lease
 For the Hanafis the contract is on the benefit, whatever its object. The Malikis and Shafi'is distinguish a lease of the benefit of a specific thing from a lease of a benefit owed in the dhimma, requiring prompt payment in the second case to avoid debt for debt. The Hanbalis count three kinds of object, the first being work owed in the dhimma on a named item. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.1532}
 
+## Rent
+Rent is what the lessee undertakes to pay for the benefit he takes, and whatever may serve as a price in a sale may serve as rent. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.1536} The Hanafis do not allow the rent to be a marriage or a benefit of the same kind as the lease, unless it is a benefit of a different kind, such as lodging in return for service. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.1537} Some jurists, including the Hanafis, Malikis and Shafi'is, forbid the rent to be part of the work or of its product, because of the uncertainty involved; the Hanbalis allow it when the rent is an undivided share of what the worker produces, on the model of partnership and irrigation contracts. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.1537} {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.1538}
+
+## Defective leases
+The Hanafis distinguish void from defective contracts: a defective one is lawful in its basis but unlawful in an attribute. If the object, the rent or the term is unknown, the lessee owes the fair rent after taking the benefit, not exceeding the rent named, according to Abu Hanifa and his companions; nothing is due if he takes no benefit. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.1538} The majority do not distinguish void from defective contracts. They hold that a contract missing what the law requires is not valid, so the named rent is not owed; the lessee owes the fair rent once he has taken possession, taken the benefit, or let a period pass in which the benefit could be taken. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.1538} {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.1539}
+
+## When the rent is owed
+Al-Kasani holds that rent becomes owned only in one of three ways: prompt payment stipulated in the contract, prompt payment without stipulation on the analogy of sale, or the taking of the benefit. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.1539} The Malikis take deferral as the default, with exceptions where prompt payment is due by stipulation or custom. The Shafi'is and Hanbalis hold that rent is due by the contract when no term is set, and is fixed by taking the benefit; in a lease of work it becomes a debt on the lessee at once, and is claimable only on delivery of the work or after the term for a private worker. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.1539} {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.1540}
+
+## Sublease
+The Hanafis allow a second lease when its rent is not of the same kind as the first. If the kind is the same, the surplus is not lawful for the first lessee, who must give it as alms, though the second lease is valid. If the first lessee added an improvement to the thing, the surplus is lawful as payment for it. The Hanbalis allow a surplus in a second lease in one view, and in another allow it only with the lessor's permission. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.1541}
+
+## Lease before taking possession
+The Malikis allow leasing a thing before possession, whether land or movable. The better-known Shafi'i view forbids it, as a sale before possession is forbidden. Abu Hanifa and Abu Yusuf allow it for land but not for movables, and Muhammad forbids it entirely. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.1541}
+
+## Leasing back to the lessor
+The Malikis and Shafi'is allow leasing the thing back to its lessor; the Hanafis forbid it in every case. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.1541} {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.1542}
+
+## Delivery, repairs and the worker's delivery
+Delivery in a lease means enabling the benefit. If something arises during the term that prevents use without the lessee's act, the lessor must repair it, such as the building of a house. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.1542} In a lease of work, the worker is the one who lets his services; his doing the work is delivery. A shared worker who works on a thing delivered to him must return it after the work; where no thing is delivered, as for a physician or broker, merely doing the task is delivery; a private worker's presence at the employer's place is effective delivery. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.1542}
+
+## Usurpation of the leased thing
+Where a named thing is usurped, the majority give the lessee a choice between cancelling the lease and waiting a short time until the thing is recovered; in a lease on an obligation in the dhimma the lessee may not cancel, and the lessor must substitute. The Shafi'is and Hanbalis allow cancellation if substitution is impossible. A fixed-term lease ends when its term passes. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.1542}
+
+## The lessee's duties
+The lessee must pay the rent. The Hanafis and Malikis allow the lessor to hold the leased thing until an advance payment is made; the Hanbalis do not. A worker whose work affects the thing, such as a fuller or dyer, may hold it for his fee where holding is allowed; a porter, whose work does not affect the thing, may not. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.1543} The lessee must use the thing for its intended purpose, as the contract or custom specifies, and must not exceed what was agreed; a house let for residence may not become a school. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.1543}
+
+## Termination
+The lease ends by agreement on the expiry of its term, the destruction of the named object, or rescission. The Hanafis add the death of either party and the arising of an excuse that prevents use, because they hold that the rent renews with the benefit; the others disagree, because the rent is fixed by the contract. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.1544} If the term ends while a crop is still standing or a ship is at sea, the term is extended for the excuse. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.1544}
+
+## Cancellation for excuses
+Most jurists do not allow cancellation for excuses, because the lease is binding and is dissolved only by both parties' consent; the Shafi'is say a lessee's journey or illness does not entitle him to cancel. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.1545} The Malikis allow cancellation for excuses in principle, such as seizure of the object, closure of shops by an unjust ruler, or a wet nurse's pregnancy or illness that prevents suckling; the Hanafis go further. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.1545} Excuses that allow the lessee to cancel include a boy's coming of age during the term of a lease his guardian made, and a rise in the fair rent in a waqf lease, when the trustee may cancel and renew at the new price. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.1546} If cancellation is impossible, as when a crop is still standing, the lease continues until the harvest at the fair rent. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.1546}
+
+## Death of a party
+The Hanafis and some early jurists hold that a lease ends on the death of the lessor or the lessee, because the lessor's ownership ends with his death and the lessee's heirs have no contract with the lessor. The majority hold that a lease does not end on death, because it is binding, and that dissolution must be claimed. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.1547}
+
+## Defects in the benefit
+The Hanafis treat an existing lease on a thing as a defect that gives the buyer an option to cancel the sale of that thing. If a defect arises during use, the lessee has the right to cancel, since benefits are received gradually; if the defect is removed before he cancels, the right lapses. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.1548} {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.1549}
+
+## Disputes between lessor and lessee
+They may dispute the term, the rent, trespass or return of the thing. Where there is no proof, the jurists determine who is claimant and who is defendant, and the outcome depends on that. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.1549}
+
 ## Remaining material
-The entry continues with the rent, the conditions of the benefit, the duties of each party, termination, the kinds of lease and the hired worker. These are not yet drafted. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.1532}
+The entry continues with the detailed rules of disputes, the kinds of lease, and the hired worker, up to p.1575. These are not yet drafted. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.1549}
