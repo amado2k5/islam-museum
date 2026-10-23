@@ -118,7 +118,7 @@ Average sources per entity: **1.28** · Women share of persons with a recorded g
 | education | 138 |
 | engineering-and-technology | 5 |
 | environment-and-climate | 4 |
-| ethics-and-character | 206 |
+| ethics-and-character | 207 |
 | factions-splits-schisms | 26 |
 | family-marriage-kinship | 370 |
 | fasting | 4 |
