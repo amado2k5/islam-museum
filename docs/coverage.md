@@ -48,7 +48,7 @@ Average sources per entity: **1.28** · Women share of persons with a recorded g
 
 | Key | Count |
 |---|---|
-| period/abbasid-early | 1463 |
+| period/abbasid-early | 1462 |
 | period/abbasid-fragmentation | 487 |
 | period/buyid-seljuk-fatimid-era | 1204 |
 | period/colonial-era | 1346 |
@@ -58,7 +58,7 @@ Average sources per entity: **1.28** · Women share of persons with a recorded g
 | period/modern-era | 1143 |
 | period/mongol-post-mongol | 1299 |
 | period/pre-islamic-arabia | 402 |
-| period/prophetic-era | 1663 |
+| period/prophetic-era | 1664 |
 | period/rashidun | 832 |
 | period/umayyad | 982 |
 
@@ -69,11 +69,11 @@ Average sources per entity: **1.28** · Women share of persons with a recorded g
 | americas-oceania | 64 |
 | anatolia-balkans | 4096 |
 | andalus-europe | 1171 |
-| arabia | 3014 |
+| arabia | 3013 |
 | china-east-asia | 127 |
 | east-africa | 274 |
 | egypt-nile | 955 |
-| global | 541 |
+| global | 542 |
 | levant-iraq | 3552 |
 | maghreb | 1343 |
 | persia-central-asia | 3033 |
@@ -114,13 +114,13 @@ Average sources per entity: **1.28** · Women share of persons with a recorded g
 | diplomacy-and-envoys | 2 |
 | disability | 4 |
 | dissent-heresy-freethought | 26 |
-| dress | 10 |
+| dress | 11 |
 | education | 138 |
 | engineering-and-technology | 5 |
 | environment-and-climate | 4 |
 | ethics-and-character | 87 |
 | factions-splits-schisms | 26 |
-| family-marriage-kinship | 231 |
+| family-marriage-kinship | 230 |
 | fasting | 4 |
 | food-of-ramadan-and-feasts | 4 |
 | games-and-leisure | 1 |
@@ -128,7 +128,7 @@ Average sources per entity: **1.28** · Women share of persons with a recorded g
 | golden-age-and-decline | 4 |
 | halal-and-haram | 19 |
 | halal-certification-and-standards | 2 |
-| health-body-death | 38 |
+| health-body-death | 39 |
 | history-of-islam-online | 2 |
 | history-writing-and-social-thought | 170 |
 | hospitality | 14 |
@@ -146,7 +146,7 @@ Average sources per entity: **1.28** · Women share of persons with a recorded g
 | islam-and-secular-thought | 2 |
 | islam-and-the-modern-state | 6 |
 | islam-and-zoroastrianism | 2 |
-| law-and-courts | 136 |
+| law-and-courts | 135 |
 | laws-of-war-and-peace | 55 |
 | libraries-paper-and-the-book | 11 |
 | linguistics | 77 |
@@ -176,7 +176,7 @@ Average sources per entity: **1.28** · Women share of persons with a recorded g
 | religious-authorities | 9 |
 | renewal-and-reform | 2 |
 | rights-and-freedoms | 22 |
-| sacred-space-and-pilgrimage | 72 |
+| sacred-space-and-pilgrimage | 71 |
 | sacred-time | 24 |
 | science-today | 6 |
 | scripture-and-its-sciences | 526 |
@@ -199,7 +199,7 @@ Average sources per entity: **1.28** · Women share of persons with a recorded g
 | water-and-animals | 8 |
 | websites-and-apps | 2 |
 | women | 208 |
-| worship-and-the-pillars | 205 |
+| worship-and-the-pillars | 206 |
 | zakat-and-sadaqa | 19 |
 | zoology | 1 |
 
