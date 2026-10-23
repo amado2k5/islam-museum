@@ -9,7 +9,7 @@ Average sources per entity: **1.28** · Women share of persons with a recorded g
 | Key | Count |
 |---|---|
 | building | 5591 |
-| concept | 1086 |
+| concept | 1083 |
 | dataset | 16 |
 | event | 4352 |
 | exhibit | 301 |
@@ -21,7 +21,7 @@ Average sources per entity: **1.28** · Women share of persons with a recorded g
 | object | 516 |
 | passage | 9546 |
 | period | 13 |
-| person | 8476 |
+| person | 8479 |
 | place | 1692 |
 | polity | 175 |
 | practice | 60 |
@@ -34,11 +34,11 @@ Average sources per entity: **1.28** · Women share of persons with a recorded g
 
 | Key | Count |
 |---|---|
-| ideas | 916 |
-| living | 45 |
+| ideas | 915 |
+| living | 43 |
 | made | 117 |
 | objects | 6122 |
-| people | 8142 |
+| people | 8145 |
 | place | 1709 |
 | time | 3973 |
 | today | 6 |
@@ -50,7 +50,7 @@ Average sources per entity: **1.28** · Women share of persons with a recorded g
 |---|---|
 | period/abbasid-early | 1482 |
 | period/abbasid-fragmentation | 488 |
-| period/buyid-seljuk-fatimid-era | 1206 |
+| period/buyid-seljuk-fatimid-era | 1207 |
 | period/colonial-era | 1346 |
 | period/contemporary-era | 576 |
 | period/crusades-ayyubid-mamluk | 2628 |
@@ -58,9 +58,9 @@ Average sources per entity: **1.28** · Women share of persons with a recorded g
 | period/modern-era | 1143 |
 | period/mongol-post-mongol | 1300 |
 | period/pre-islamic-arabia | 402 |
-| period/prophetic-era | 1765 |
+| period/prophetic-era | 1767 |
 | period/rashidun | 835 |
-| period/umayyad | 990 |
+| period/umayyad | 991 |
 
 ### By region
 
@@ -69,14 +69,14 @@ Average sources per entity: **1.28** · Women share of persons with a recorded g
 | americas-oceania | 64 |
 | anatolia-balkans | 4097 |
 | andalus-europe | 1171 |
-| arabia | 3034 |
+| arabia | 3036 |
 | china-east-asia | 127 |
 | east-africa | 274 |
 | egypt-nile | 960 |
-| global | 650 |
+| global | 647 |
 | levant-iraq | 3560 |
 | maghreb | 1347 |
-| persia-central-asia | 3040 |
+| persia-central-asia | 3041 |
 | south-asia | 1068 |
 | southeast-asia | 376 |
 | west-africa-sahel | 150 |
@@ -118,7 +118,7 @@ Average sources per entity: **1.28** · Women share of persons with a recorded g
 | education | 138 |
 | engineering-and-technology | 5 |
 | environment-and-climate | 4 |
-| ethics-and-character | 115 |
+| ethics-and-character | 113 |
 | factions-splits-schisms | 26 |
 | family-marriage-kinship | 248 |
 | fasting | 4 |
@@ -146,7 +146,7 @@ Average sources per entity: **1.28** · Women share of persons with a recorded g
 | islam-and-secular-thought | 2 |
 | islam-and-the-modern-state | 6 |
 | islam-and-zoroastrianism | 2 |
-| law-and-courts | 159 |
+| law-and-courts | 160 |
 | laws-of-war-and-peace | 57 |
 | libraries-paper-and-the-book | 11 |
 | linguistics | 77 |
@@ -179,7 +179,7 @@ Average sources per entity: **1.28** · Women share of persons with a recorded g
 | sacred-space-and-pilgrimage | 83 |
 | sacred-time | 26 |
 | science-today | 6 |
-| scripture-and-its-sciences | 546 |
+| scripture-and-its-sciences | 544 |
 | seafaring-and-ports | 1 |
 | sects-and-schools | 110 |
 | sexuality-gender-diversity | 5 |
@@ -198,8 +198,8 @@ Average sources per entity: **1.28** · Women share of persons with a recorded g
 | wars-and-campaigns | 134 |
 | water-and-animals | 8 |
 | websites-and-apps | 2 |
-| women | 208 |
-| worship-and-the-pillars | 239 |
+| women | 209 |
+| worship-and-the-pillars | 237 |
 | zakat-and-sadaqa | 19 |
 | zoology | 1 |
 
