@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=1440">
+<title>نموذج: المستكشفون /ar/sighar/explorers/</title>
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Amiri:ital,wght@0,400;0,700&family=Noto+Naskh+Arabic:wght@400;500;600;700&display=swap" rel="stylesheet">
+<style>
+/* Tokens follow site/src/styles/global.css and kids.css (23 Oct 2026). Mockup only: 1440x900 frame. */
+:root{--ivory:#f9f8f6;--ink:#1a1a1a;--lapis:#0a2533;--teal:#113f4e;--gold:#c5a059;--gold-text:#654a15;--sand:#e6d5b8;--muted:#4a4a4a;--card:#fff;--line:rgba(10,37,51,.16);
+--kids-paper:#faf6ea;--kids-teal:#2a7b88;--kids-leaf:#4d8a4f;--kids-leaf-deep:#2f6b31;--kids-coral:#e0704f;--kids-coral-deep:#b0411f;--kids-gold:#c9a227;--kids-gold-deep:#876a18;--kids-lapis:#1b2a4a;--kids-ink:#2b2b2b;
+--shadow:0 1px 2px rgba(26,26,26,.05),0 8px 24px rgba(26,26,26,.08)}
+*{box-sizing:border-box}
+html,body{margin:0}
+body{width:1440px;height:900px;overflow:hidden;background:var(--ivory);color:var(--ink);font-family:"Noto Naskh Arabic","Amiri","Geeza Pro",serif;font-size:18px;line-height:1.8;-webkit-font-smoothing:antialiased;position:relative}
+h1,h2,h3{font-family:"Amiri","Noto Naskh Arabic",serif;font-weight:700;line-height:1.45;margin:0}
+a{color:var(--teal);text-decoration:none}
+.wrap{max-width:1360px;margin-inline:auto;padding-inline:40px}
+header.site{height:64px;border-bottom:1px solid var(--line);background:color-mix(in srgb,var(--ivory) 92%,transparent);display:flex;align-items:center}
+header.site .wrap{display:flex;align-items:center;gap:1.2rem;width:100%}
+.brand{display:flex;align-items:center;gap:.5rem;font-weight:700;color:var(--ink);font-size:1.15rem}
+.brand .em{width:28px;height:28px;border-radius:50%;background:radial-gradient(circle at 50% 45%,#c87533 0 34%,var(--lapis) 36% 78%,var(--gold) 80% 100%)}
+.nav{display:flex;gap:.2rem;margin-inline-start:.6rem}
+.nav a{color:var(--ink);padding:.35rem .7rem;border-radius:10px;font-size:1rem}
+.nav a.on{background:var(--sand);font-weight:700}
+.tools{margin-inline-start:auto;display:flex;gap:.5rem;align-items:center;font-size:.95rem}
+.pill{border:1px solid var(--line);background:var(--card);border-radius:999px;padding:.25rem .8rem}
+.pill b{color:var(--lapis)}
+.privacy{position:absolute;bottom:0;inset-inline:0;height:44px;display:flex;align-items:center;justify-content:center;gap:1.6rem;font-size:.95rem;color:var(--muted);border-top:1px solid var(--line);background:var(--ivory)}
+.privacy span::before{content:"•";margin-inline-end:.5rem;color:var(--gold)}
+.privacy span:first-child::before{content:""}
+.caption{position:absolute;top:8px;inset-inline-start:12px;font-size:12px;color:#777;font-family:Inter,system-ui,sans-serif;direction:ltr;background:#fff;border:1px solid #ddd;border-radius:6px;padding:2px 8px;opacity:.9}
+</style>
+
+<style>
+body{background:var(--kids-paper);color:var(--kids-ink)}
+.kids-top{height:60px;background:var(--kids-lapis);color:#fff;display:flex;align-items:center}
+.kids-top .wrap{display:flex;justify-content:space-between;align-items:center;width:100%;font-size:1.1rem}
+.kids-top a{color:#fff}
+.kids-top .back{background:rgba(255,255,255,.14);border-radius:999px;padding:.3rem 1rem}
+.band{display:grid;grid-template-columns:300px 1fr 330px;gap:22px;margin-top:18px;align-items:start}
+.hud{text-align:center}
+.hud .bird{width:170px;height:170px;margin:0 auto;border-radius:50%;background:radial-gradient(circle at 50% 60%,#f3d58a 0 40%,#2a7b88 42% 100%);position:relative;box-shadow:var(--shadow)}
+.hud .bird::after{content:"🪶";position:absolute;inset:0;display:grid;place-items:center;font-size:84px}
+.speech{background:#fff;border:2px solid var(--kids-teal);border-radius:22px;padding:14px 16px;margin-top:14px;font-size:1.15rem;line-height:1.7;position:relative;text-align:start}
+.speech::after{content:"";position:absolute;top:-16px;inset-inline-start:50%;border:10px solid transparent;border-bottom-color:var(--kids-teal)}
+.hud h1{font-size:1.9rem;margin-top:10px;color:var(--kids-lapis)}
+.hud .ages{color:var(--kids-gold-deep);font-weight:700}
+.map{background:#f1e6c8;border:3px solid #d9c79a;border-radius:26px;height:560px;position:relative;overflow:hidden;box-shadow:var(--shadow)}
+.map svg{position:absolute;inset:0;width:100%;height:100%}
+.map .title{position:absolute;top:12px;inset-inline-start:18px;font-family:"Amiri",serif;font-size:1.35rem;color:#5a4620}
+.pin{position:absolute;transform:translate(-50%,-50%);display:flex;flex-direction:column;align-items:center;gap:2px;text-decoration:none}
+.pin b{width:56px;height:56px;border-radius:50%;background:#fff;border:3px solid var(--kids-teal);display:grid;place-items:center;font-size:1.5rem;box-shadow:var(--shadow)}
+.pin.done b{border-color:var(--kids-gold);background:#f8eed3}
+.pin.next b{border-color:var(--kids-coral-deep);box-shadow:0 0 0 8px rgba(224,112,79,.25)}
+.pin span{background:#fff;border-radius:999px;padding:.05rem .6rem;font-size:1rem;color:var(--kids-lapis);font-weight:700;border:1px solid #d9c79a}
+.legend{position:absolute;bottom:12px;inset-inline-end:16px;background:#fff;border-radius:14px;padding:6px 12px;font-size:.95rem;display:flex;gap:1rem}
+.side .card{background:#fff;border-radius:22px;padding:16px 18px;box-shadow:var(--shadow);margin-bottom:14px}
+.side h2{font-size:1.25rem;color:var(--kids-lapis)}
+.next{border:3px solid var(--kids-coral)}
+.next .big{display:block;margin-top:10px;background:var(--kids-coral-deep);color:#fff;border-radius:999px;text-align:center;min-height:64px;line-height:64px;font-size:1.25rem;font-weight:700}
+.stamps{display:grid;grid-template-columns:repeat(6,1fr);gap:8px;margin-top:8px}
+.stamps b{aspect-ratio:1;border-radius:50%;border:2px dashed #c8b98f;display:grid;place-items:center;font-size:1.3rem}
+.stamps b.on{border:2px solid var(--kids-gold);background:#f8eed3}
+.acts{display:grid;grid-template-columns:1fr 1fr;gap:8px;margin-top:8px}
+.acts a{display:flex;align-items:center;gap:.5rem;min-height:48px;background:#eef6f7;border-radius:14px;padding:0 12px;color:var(--kids-lapis);font-weight:700;font-size:1rem}
+.ladder{background:#fff;border-radius:22px;padding:12px 18px;margin-top:4px;display:flex;justify-content:space-between;align-items:center;box-shadow:var(--shadow)}
+.ladder a{background:var(--kids-lapis);color:#fff;border-radius:999px;padding:0 1.2rem;min-height:48px;line-height:48px;font-weight:700}
+.privacy{background:var(--kids-paper)}
+</style>
+</head>
+<body>
+<div class="caption">Mockup 02 · Explorers hub (ages 7–9), map-first · /ar/sighar/explorers/ · 1440x900 · RTL</div>
+
+<div class="kids-top"><div class="wrap"><a href="#">🪶 جناح الصغار · المستكشفون</a><a class="back" href="#">🏛 عودة إلى المتحف الكبير</a></div></div>
+<main class="wrap">
+ <div class="band">
+  <div class="hud">
+    <div class="bird"></div>
+    <div class="speech">أهلًا يا مستكشف! أين نذهب اليوم؟ المس مدينةً على الخريطة. بغداد تنتظرك!</div>
+    <h1>المستكشفون</h1><div class="ages">من ٧ إلى ٩ سنوات</div>
+  </div>
+  <div class="map">
+    <svg viewBox="0 0 1000 560" aria-hidden="true">
+      <defs><pattern id="g" width="40" height="40" patternUnits="userSpaceOnUse"><path d="M40 0H0V40" fill="none" stroke="#e3d3aa" stroke-width="1"/></pattern></defs>
+      <rect width="1000" height="560" fill="url(#g)"/>
+      <!-- schematic land masses (mockup only; E3 uses Natural Earth 110m) -->
+      <path d="M60 110 C140 60 300 50 420 95 C470 115 520 130 560 170 C600 215 560 260 520 300 C480 340 430 350 400 400 C370 450 300 470 240 440 C180 410 120 380 90 320 C50 260 20 170 60 110Z" fill="#e6d2a0" stroke="#c9b27f" stroke-width="2"/>
+      <path d="M560 120 C640 80 760 70 880 100 C950 120 980 170 960 230 C940 290 880 300 850 340 C820 380 760 400 700 380 C640 360 600 320 590 270 C580 220 540 170 560 120Z" fill="#e6d2a0" stroke="#c9b27f" stroke-width="2"/>
+      <path d="M600 300 C660 290 740 310 780 360 C820 410 800 470 740 500 C680 530 620 520 590 470 C560 420 560 340 600 300Z" fill="#e6d2a0" stroke="#c9b27f" stroke-width="2"/>
+      <path d="M160 470 C230 460 320 480 340 520 C300 545 200 545 160 520 C140 505 140 480 160 470Z" fill="#e6d2a0" stroke="#c9b27f" stroke-width="2"/>
+      <path d="M300 180 Q450 140 600 200" fill="none" stroke="#9aa89b" stroke-width="3" stroke-dasharray="10 10"/>
+    </svg>
+    <div class="title">خريطة المستكشفين: المس مدينة</div>
+    <a class="pin done" href="#" style="inset-inline-start:82%;top:62%"><b>⭐</b><span>مكة</span></a><a class="pin done" href="#" style="inset-inline-start:80%;top:50%"><b>🌙</b><span>المدينة</span></a><a class="pin done" href="#" style="inset-inline-start:73%;top:44%"><b>🕌</b><span>القدس</span></a><a class="pin next" href="#" style="inset-inline-start:64%;top:42%"><b>📜</b><span>بغداد</span></a><a class="pin " href="#" style="inset-inline-start:72%;top:56%"><b>📚</b><span>القاهرة</span></a><a class="pin " href="#" style="inset-inline-start:88%;top:30%"><b>🏛</b><span>قرطبة</span></a><a class="pin " href="#" style="inset-inline-start:84%;top:74%"><b>🐪</b><span>تمبكتو</span></a><a class="pin " href="#" style="inset-inline-start:48%;top:36%"><b>🔭</b><span>سمرقند</span></a><a class="pin " href="#" style="inset-inline-start:70%;top:30%"><b>⛵</b><span>إسطنبول</span></a><a class="pin " href="#" style="inset-inline-start:40%;top:52%"><b>🕌</b><span>دلهي</span></a>
+    <div class="legend"><span>⭐ زرتها</span><span style="color:var(--kids-coral-deep)">● خطوتك التالية</span></div>
+  </div>
+  <div class="side">
+    <div class="card next"><h2>خطوتك التالية</h2><p style="margin:.2rem 0">بغداد: بيت الحكمة. قصةٌ في ثلاث دقائق ثم سؤالان مع هدهد.</p><a class="big" href="#">نذهب إلى بغداد ←</a></div>
+    <div class="card"><h2>جوازك: ٣ أختام من ٦</h2><div class="stamps"><b class="on">⭐</b><b class="on">🌸</b><b class="on">🤲</b><b>🕌</b><b>⏳</b><b>📜</b></div><p style="margin:.4rem 0 0;font-size:.95rem;color:#5a5a5a">على هذا الجهاز فقط · اطبع الجواز</p></div>
+    <div class="card"><h2>أنشطتي</h2><div class="acts"><a href="#">🌸 حديقة الكلمات</a><a href="#">⭐ رحلة الأنبياء</a><a href="#">🤲 تحدي الأخلاق</a><a href="#">🌙 قصص قبل النوم</a><a href="#">🕌 ابنِ مسجدك</a><a href="#">⏳ آلة الزمن</a></div></div>
+  </div>
+ </div>
+ <div class="ladder"><div><b>كبرتَ على المستكشفين؟</b> جناح الرواة (١٠–١٢) ينتظرك، وجوازك يذهب معك.</div><a href="#">إلى الرواة ←</a></div>
+</main>
+<div class="privacy"><span>للكبار: هذه الصفحة لا تخرج من جناح الصغار إلا من أبواب «المتحف الكبير» المعلَّمة</span><span>لا يُحفظ شيء خارج هذا الجهاز</span></div>
+
+</body>
+</html>

@@ -2,7 +2,7 @@
 id: practice/zakat-al-fitr
 lang: en
 source_lang: ar
-translators: ["Claude Haiku 5.5 (claude-haiku-5-5), draft translation"]
+translators: []
 ---
 ## Overview
-The obligatory charity of the feast-breaking, before the festival prayer: a sa' of food for each Muslim, commanded by the Prophet in the hadith of Ibn Umar.
+The zakat is ascribed to the fitr because the fitr is the cause of its obligation; it is also called fitra with a kasra — a coined juristic term, not Arabic in origin — and al-Nawawi says what is given out is called fitra. In usage: the alms owed upon the breaking of Ramadan. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.9181}

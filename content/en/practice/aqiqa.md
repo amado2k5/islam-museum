@@ -2,7 +2,7 @@
 id: practice/aqiqa
 lang: en
 source_lang: ar
-translators: ["Claude Haiku 5.5 (claude-haiku-5-5), draft translation"]
+translators: [Devin]
 ---
-## Overview
-The slaughter of two sheep for a boy and one for a girl on the seventh day, with the shaving of the head and naming; a sunna according to the majority and a season of family joy. {{cite:sahih-al-bukhari}}
+## Summary
+'Aqiqa in the language applies to a precious stone, to the hair a child is born with in the womb, and to the animal slaughtered for the newborn when its hair is shaved; juristically, it is what is slaughtered for the newborn in thanks to God, with a specified intention and conditions. Some Shafi'is disliked the name 'aqiqa and preferred calling it nasika. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.11783}
