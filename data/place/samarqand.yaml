@@ -11,9 +11,11 @@ coordinates: [39.6546, 66.9644]
 coordinate_precision: site
 wings: [place]
 external_ids: { wikidata: "Q5753", geonames: "1216265", pleiades: "59915" }
-sources: [source/futuh-buldan-maarif-1407, source/geonames-gazetteer, source/ahsan-al-taqasim]
+sources: [source/futuh-buldan-maarif-1407, source/geonames-gazetteer, source/ahsan-al-taqasim, source/farghani-elements-astronomy]
 status: { review: draft, completeness: 1 }
 provenance:
   layer: own-research
   generated_by: "Devin (SWE-2 High)"
   extraction_flow: "Apple Vision OCR -> manual extraction"
+  model: "claude-haiku-5-5"
+  run: "farghani-389-577"

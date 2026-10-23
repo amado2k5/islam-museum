@@ -1,0 +1,26 @@
+id: person/ahmad-al-mansur-al-sadi
+class: person
+label: { ar: "أحمد المنصور الذهبي السعدي", en: "Ahmad al-Mansur al-Dhahabi al-Sa'di" }
+names:
+  - { kind: full, lang: ar, value: "أحمد المنصور بالله الذهبي" }
+gender: male
+roles: [sultan, military]
+summary:
+  ar: "أخو عبد الملك وساعده الأيمن في كل شئون الدولة؛ هرب معه إلى السلطان العثماني، وبويع سلطاناً في ميدان وادي المخازن يوم ٣٠ جمادى الآخرة ٩٨٦هـ/٤ أغسطس ١٥٧٨م بعد أن كتم مع الحاجب رضوان موت أخيه حتى تم النصر وقاد مقدمة الجيش صادماً مؤخرة البرتغاليين. استمر على منهج أخيه: بناء المؤسسات، محاسبة الوزراء على أوقات العمل، اختراع حروف رمزية للمراسلات السرية، فصل القضاء عن التنفيذية وترؤسه مجلس المظالم بجامع القصبة، إقامة محطات حراسة للقوافل كل عشرين كيلومتراً، إنشاء مجلس الديوان المرن، تطوير الجيش على النظام العثماني وإسناد القيادات للكفاءة، المستشفيات الميدانية ودار العدة لصناعة المدافع وتطوير الأسطول في العرائش وسلا، ثم مدّ نفوذه نحو بلاد السودان الغربي ولعب موازنات الأسبان والإنجليز والعثمانيين {cite:dawlat-uthmaniyya-salabi p. 265-270}."
+  en: "Abd al-Malik's brother and right hand in all state affairs; he fled with him to the Ottoman sultan and was acclaimed on the field of Wadi al-Makhazin, 30 Jumada II 986/4 August 1578, having concealed his brother's death with the chamberlain Ridwan and led the vanguard into the Portuguese rear. He continued his brother's programme: building institutions, holding ministers to office hours, a cipher alphabet for secret correspondence, separation of the judiciary with his own mazalim council at the Qasba mosque of Marrakesh, guarded stations every twenty kilometres for caravans, the flexible Diwan council, an army on the Ottoman model with merit-based commands, field hospitals, a gun foundry, the Larache and Salé fleets — then extended Sa'di sway over the western Sudan and played Spain, England and the Ottomans off one another {cite:dawlat-uthmaniyya-salabi p. 265-270}."
+wings: [people]
+regions: [maghreb]
+periods: [period/gunpowder-empires]
+relations:
+  - { type: child_of, target: person/muhammad-al-shaykh-al-sadi, sources: [source/dawlat-uthmaniyya-salabi] }
+  - { type: sibling_of, target: person/abd-al-malik-al-sadi, sources: [source/dawlat-uthmaniyya-salabi] }
+  - { type: successor_of, target: person/abd-al-malik-al-sadi, sources: [source/dawlat-uthmaniyya-salabi] }
+sources: [source/dawlat-uthmaniyya-salabi]
+external_ids: { wikidata: "Q310575" }
+provenance:
+  layer: own-research
+  source: "الدولة العثمانية لعلي محمد الصلابي (ط1 1421) ص 265-270"
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: salabi-uthmani-batch14
+status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 Medium)" }

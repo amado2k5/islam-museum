@@ -6,9 +6,21 @@ Source entity: `source/tafsir-sharawi-khawatir-scan-vol-2` (edition unverified; 
 
 ## Status
 
-- **Last page reached:** 1520 (end of the commentary on Al Imran 55-61 and the Najran mubahala).
-- **Next start:** page 1521 (Al Imran 61 onward, the rest of the Najran episode and the following verses).
-- **Pages not yet read:** 1521-2000.
+- **Last page reached:** 1620 (batch 2 ends at Al Imran 92 and the rules on giving, 1609-1616, and the prohibitions on the Jews, 1617-1620).
+- **Next start:** page 1621 (the continuation of Al Imran 92 onward).
+- **Pages not yet read:** 1621-2000.
+
+## Batch 2 (pages 1521-1620)
+
+Entities created (all `status.review: draft`, provenance run `sharawi-harvest-1521-2000-batch-1`):
+- `concept/kalima-sawa`, `concept/hanif`, `concept/nafs-lawwama`, `concept/inheritance-of-prophethood`, `concept/idlal-al-ghayr`, `concept/talbis-al-haqq`, `concept/fadl-allah`, `concept/amanah`, `concept/love-of-deeds`, `concept/ahd-allah`, `concept/nabi-and-rasul`, `concept/rabbaniyyun`, `concept/mithaq-al-nabiyyin`, `concept/fisq`, `concept/submission-of-creation`, `concept/completion-of-earlier-messages`, `concept/hidaya`, `concept/tahrim-as-chastisement` (18 entities, Arabic first, English and Urdu translations in the same commit).
+
+Reused, not edited (candidates for a later extension pass): `concept/tahrif`, `concept/tawba`, `concept/birr`, `concept/riya`, `concept/ikrah`, `concept/khuluq`, `concept/al-sidq-truthfulness`, `concept/mithaq-bani-israil`, `concept/khatm-al-nubuwwa`, `concept/ahl-al-kitab`, `concept/islam-common-religion-of-prophets`, `concept/riba`, `person/abdullah-ibn-salam`, `person/kab-ibn-al-ashraf`, `person/ibrahim`, `person/nuh`, `source/sahih-al-bukhari`, `source/sahih-muslim`.
+
+Notes:
+- Academic and other views are not invented: each contested entity has its academic block marked needs_source, and no other view is set out where none was checked.
+- Hadith locations cited by Sha'rawi (the brick hadith, the Salman hadith, the hadith on the seeking of forgiveness) are not verified against the collections.
+- The edition is unverified; every citation names the scan page.
 
 ## Batch 1 (pages 1501-1520)
 
