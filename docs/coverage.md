@@ -34,11 +34,11 @@ Average sources per entity: **1.28** · Women share of persons with a recorded g
 
 | Key | Count |
 |---|---|
-| ideas | 1438 |
+| ideas | 1439 |
 | living | 79 |
 | made | 119 |
 | objects | 6154 |
-| people | 8350 |
+| people | 8351 |
 | place | 1711 |
 | time | 3973 |
 | today | 6 |
@@ -168,7 +168,7 @@ Average sources per entity: **1.28** · Women share of persons with a recorded g
 | philosophy-and-logic | 34 |
 | pilgrimages-and-mass-gatherings | 17 |
 | polemic-and-apologetic | 10 |
-| politics-governance-and-authority | 41 |
+| politics-governance-and-authority | 42 |
 | prophets | 133 |
 | race-colour-ethnicity | 10 |
 | reconciliation-and-unity | 12 |
