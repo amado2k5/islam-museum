@@ -1,0 +1,8 @@
+---
+id: concept/nadhr
+lang: en
+source_lang: ar
+translators: ["Claude Haiku 5.5 (claude-haiku-5-5), draft translation"]
+---
+## Summary
+A vow (nadhr), in the lexicon, is a vow to God; in law, it is a binding commitment that a free, responsible person takes upon himself, by speech, to do something not required of him by the law. The jurists agree that it is valid in general and that a vow of obedience must be fulfilled, citing the Qur'an, the Sunna and consensus, but they differ on whether vowing is recommended or disliked. Most jurists hold that a vow can be made without using the word 'vow' when the words show a commitment. Its kinds include the vow of anger (where some allow a choice between fulfilling it and paying an oath-expiation, and others require fulfilment), the vow of obedience (which covers worship proper and other good acts), the vow of disobedience (which cannot be fulfilled), the vow of permissible acts (whose validity is disputed), the vow of obligations of individual obligation (not valid for most), the vow of impossibility (not valid), and the unspecified vow (oath-expiation for most). The entry also covers the vow of giving all property, the vows of prayer and fasting without number, i'tikaf and its times and places, walking to the Haram, sacrifices outside Mecca, inability to perform the vow, and the death of a person before performing a vowed hajj, fast, i'tikaf, prayer or charity. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.15558} {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.15559} {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.15560} {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.15645}
