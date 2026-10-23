@@ -34,7 +34,7 @@ Average sources per entity: **1.28** · Women share of persons with a recorded g
 
 | Key | Count |
 |---|---|
-| ideas | 1424 |
+| ideas | 1425 |
 | living | 79 |
 | made | 119 |
 | objects | 6153 |
@@ -58,7 +58,7 @@ Average sources per entity: **1.28** · Women share of persons with a recorded g
 | period/modern-era | 1144 |
 | period/mongol-post-mongol | 1306 |
 | period/pre-islamic-arabia | 402 |
-| period/prophetic-era | 2228 |
+| period/prophetic-era | 2229 |
 | period/rashidun | 840 |
 | period/umayyad | 1025 |
 
