@@ -1,23 +1,27 @@
 id: event/siege-of-lepanto-1499
 class: event
 kind: siege
-label: { ar: "حصار ليبانتو", en: "Siege of Lepanto (1499)" }
+label: { ar: "نصر ليبانتو على البنادقة", en: "The Lepanto victory over Venice (1499-1500)" }
 summary:
-  ar: "بطاقة أولية لحصار ليبانتو؛ لم تُراجع مصادره على الصفحة بعد."
-  en: "Draft card for Siege of Lepanto (1499); its sources are not yet checked on the page."
+  ar: "ينقل الصلابي أن بايزيد الثاني أحرز نصراً بحرياً على البنادقة في خليج لبانتو ببلاد اليونان عام 905هـ/1499م، وفي العام التالي استولى على مدينة لبانتو، وباستيلاء العثمانيين على مواقع البنادقة في اليونان أقام البابا إسكندر السادس بناءً على طلب البنادقة حلفاً ضد العثمانيين ضم فرنسا وإسبانيا، وتعرض العثمانيون لهجوم الأساطيل الثلاثة الفرنسي والإسباني والبابوي حتى عقدوا صلحاً مع البنادقة {cite:dawlat-uthmaniyya-salabi p. 173}."
+  en: "Al-Salabi records Bayezid II's naval victory over the Venetians in the Gulf of Lepanto in 905/1499, and the city's capture the following year; at Venice's plea Pope Alexander VI then raised a league of France and Spain against the Ottomans, who weathered the three fleets until a peace was made with Venice {cite:dawlat-uthmaniyya-salabi p. 173}."
 wings: [time]
 periods: [period/gunpowder-empires]
-regions: [andalus-europe]
+regions: [anatolia-balkans]
 date:
-  start: { edtf: "1499", precision: year, status: tradition, derived: true }
-  end: { edtf: "1499", precision: year, status: tradition, derived: true }
-sources: [source/tarikh-islam-hasan-ibrahim]
+  start: { edtf: "1499", precision: year, status: tradition, derived: true, note: "عام 905هـ/1499م على رواية الصلابي {cite:dawlat-uthmaniyya-salabi p. 173}", sources: [source/dawlat-uthmaniyya-salabi] }
+relations:
+  - { type: had_participant, target: person/bayazid-ii, role: "السلطان", sources: [source/dawlat-uthmaniyya-salabi] }
+  - { type: occurred_at, target: place/istanbul, sources: [] }
+sources: [source/dawlat-uthmaniyya-salabi]
 external_ids:
   wikidata: Q97648778
 provenance:
   layer: own-research
-  source: "Wikidata candidate; event attested in narrative histories — entry not yet checked on the page"
-  generated_by: "Devin (SWE-2 Medium)"
+  source: "الدولة العثمانية لعلي محمد الصلابي (ط1 1421)"
+  generated_by: "Devin (SWE-2 Medium) from Apple Vision OCR"
   model: "SWE-2 Medium"
-  run: wikidata-import-wave2
-status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 Medium)" }
+  run: lib-salabi-uthmani-batch-6
+status:
+  review: draft
+  completeness: 2

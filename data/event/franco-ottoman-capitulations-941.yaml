@@ -1,0 +1,29 @@
+id: event/franco-ottoman-capitulations-941
+class: event
+kind: treaty
+label:
+  ar: "معاهدة الامتيازات العثمانية الفرنسية (941هـ/1535م)"
+  en: "The Franco-Ottoman Capitulations (1535)"
+summary:
+  ar: "ينقل الصلابي أن الملك [[person/francis-i-france|فرانسوا الأول]] أرسل سكرتيره [[person/jean-de-la-foret|جان دو لافوريه]] سنة 941هـ/1535م إلى السلطان [[person/sulayman-al-qanuni|سليمان القانوني]] فعُقدت معاهدة عرفت بمعاهدة الامتيازات، ويورد الكتاب أهم نصوصها: حرية التنقل والملاحة بسفن مسلحة وغير مسلحة، وحق التجارة في كل أجزاء الدولة للرعايا الفرنسيين، ودفع الرسوم مرة واحدة، وحق التمثيل القنصلي مع الحصانة، ونظر القنصل الفرنسي في القضايا المدنية والجنائية لرعايا الملك، وقبول إفاداتهم، وحرية العبادة، ومنع استعباد رعية الملك {cite:dawlat-uthmaniyya-salabi p. 203-204}. وكان من نتائجها زيادة التعاون بين الأسطولين فهاجما معاً شواطئ نابولي ونسيّر عام 1543م {cite:dawlat-uthmaniyya-salabi p. 204}. ويقيّمها الصلابي تقييماً ناقداً بأنها «أول إسفين يُدق في نعش الدولة العثمانية» وأن رعايا الدولة لم يستفيدوا منها — وهو حكم المؤلف على المعاهدة {cite:dawlat-uthmaniyya-salabi p. 204-205}."
+  en: "Al-Salabi records that [[person/francis-i-france|Francis I]] sent his secretary [[person/jean-de-la-foret|Jean de la Forêt]] to [[person/sulayman-al-qanuni|Süleyman]] in 941/1535, concluding the treaty later known as the Capitulations; the book quotes its chief articles — free navigation by armed and unarmed ships, trade rights for French subjects throughout the state, single payment of customs, consular representation with immunity, the French consul judging his king's subjects' civil and criminal cases, their testimony admitted, freedom of worship, and a ban on enslaving the king's subjects {cite:dawlat-uthmaniyya-salabi p. 203-204}. The fleets then operated together against Naples' coasts and Nice in 1543 {cite:dawlat-uthmaniyya-salabi p. 204}. Al-Salabi's own verdict is critical: 'the first wedge driven into the Ottoman state's coffin,' of no benefit to its subjects — his judgement, presented as such {cite:dawlat-uthmaniyya-salabi p. 204-205}."
+wings: [time]
+regions: [anatolia-balkans, andalus-europe]
+periods: [period/gunpowder-empires]
+date:
+  start: { edtf: "1535", hijri: "0941", calendar: julian, precision: year, status: tradition, derived: true, note: "سنة 941هـ/1535م على الصلابي", sources: [source/dawlat-uthmaniyya-salabi] }
+relations:
+  - { type: had_participant, target: person/sulayman-al-qanuni, role: "السلطان", sources: [source/dawlat-uthmaniyya-salabi] }
+  - { type: had_participant, target: person/francis-i-france, role: "ملك فرنسا", sources: [source/dawlat-uthmaniyya-salabi] }
+sources: [source/dawlat-uthmaniyya-salabi]
+external_ids:
+  wikidata: Q2116836
+provenance:
+  layer: own-research
+  source: "الدولة العثمانية لعلي محمد الصلابي (ط1 1421)"
+  generated_by: "Devin (SWE-2 Medium) from Apple Vision OCR"
+  model: "SWE-2 Medium"
+  run: lib-salabi-uthmani-batch-8
+status:
+  review: draft
+  completeness: 2

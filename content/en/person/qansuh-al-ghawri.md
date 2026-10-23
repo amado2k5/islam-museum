@@ -14,3 +14,6 @@ The book also says that he conquered Yemen and took mamluks who spread corruptio
 A confrontation took place between him and Sultan Selim, king of the Rum, over Isma'il Shah. They met at Marj Dabiq north of Aleppo on 15 Rajab 922 AH. His army was routed by the trick of Khayr Bey, and al-Ghawri was lost under the hooves of the horses. {cite:shadharat-dhahab p.530-531}
 
 He was sultan of Egypt and Syria, and the seat of his realm was [[place/cairo|Cairo]].
+
+## In al-Salabi
+Al-Salabi adds that al-Ghawri sided with the Ottoman princes fleeing Selim — foremost Prince [[person/ahmad-ibn-bayazid|Ahmad]], the sultan's brother — that Ottoman intelligence found his secret alliance letter with the Safavids in the Topkapı archive, and that the victors prayed over him and buried him at Aleppo's edge {cite:dawlat-uthmaniyya-salabi p. 184-187}.

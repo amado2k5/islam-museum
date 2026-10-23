@@ -25,3 +25,15 @@
 
 - Mehmed II remaining mabahith (p. 113+): mabhath on Fatih's later conquests, his traits and will — watch for mahmud-pasha-angelovic and remaining Fatih-era cards.
 - Then sultan-by-sultan: Bayezid II, Selim I (Yavuz), Süleyman — resolving draft cards oruc-reis, jem-sultan, khurram/hurrem, rustam, ibrahim-pasha-franji as they appear.
+
+## Batch 6 — Fatih's later mabahith + Bayezid II (pp. 135–174)
+Merged `dawud-pasha-ghulam`→`koca-davud-pasha` (the page anecdote). Enriched: mehmed-ii (death at Üsküdar p.157), bayazid-ii (Jem, Mamluk peace 1491, Russian envoy 1492, Kemal Reis fleet, Lepanto 905/1499, 45-day earthquakes, stipends, dust brick), qaytbay, uzun-hasan, selim-i (accession 18 Safar 918), siege-of-lepanto-1499, fatih-mosque (eight madrasas). Verified draft cards: jem-sultan, kemal-reis, ali-qushji, rum-mehmed-pasha. Created: george-amiroutzes (Ptolemy translation), stephen-iii-moldavia, molla-muhyiddin, innocent-viii, alexander-vi, ivan-iii-moscow, group/knights-of-st-john, event/earthquake-istanbul-bayezid, event/selim-accession-918. Attributed accusations (Cem's death → Bayezid; Ivan III claim) kept in the author's voice.
+Next: Selim I mabhath (p. 175+).
+
+## Batch 7 — Selim I mabhath (pp. 175–199)
+A parallel SWE-2 High lane (runs -7/-8) had already verified sharif-barakat, husayn-al-kurdi, sulayman-pasha-khadim and the three battles. This batch: verified draft card ismail-i-safavi (Chaldiran arc, Hormuz concession to the Portuguese — attributed) and capture-of-cairo-1517; enriched selim-i (character, historians/poets at war, "khalifa of God" title from 920 — book's argument against the caliphate-transfer tale), qansuh-al-ghawri (sheltered Prince Ahmad, secret Safavid letter in Topkapı archive, burial at Aleppo's edge), tuman-bay-ii (killed envoy, Selim's speech), khayr-bak (Egypt governorship), polity/safavid-iran. Created: safi-al-din-ardabili, afonso-de-albuquerque (the letter offering to attack Mecca), francisco-de-almeida, ahmad-ibn-bayazid, event/sulayman-khadim-india-945. Taqiyya polemic and Safavid-Portuguese alliance claims kept attributed.
+Next: Sulayman the Magnificent mabhath (p. 200+).
+
+## Batch 8 — Süleyman mabhath (pp. 200–205)
+Parallel lane had already mined sulayman-al-qanuni, mohacs, conquest-of-rhodes-928, siege-vienna-935. This batch: verified ibrahim-pasha-franji; enriched janbardi-al-ghazali (revolt + execution p.200), knights-of-st-john (Rhodes→Malta 1522). Created: ahmad-pasha-khain (Egypt 930/1524), baba-dhun-nun (Yozgat 1526 — author's "rafidi" framing noted), qalender-celebi (30k rebels; the slogan quote kept as attributed to "some historians"), charles-v, francis-i-france, vladislaus-ii-hungary, jean-de-la-foret, event/franco-ottoman-capitulations-941 (ten articles quoted; al-Salabi's "first wedge in the coffin" verdict attributed). Note: earlier a bad bulk find-replace corrupted 75 unrelated yamls — reverted, all parse clean.
+Next: North Africa mabhath (p. 206+).

@@ -11,3 +11,6 @@ al-Malik al-Ashraf Tuman Bay al-Circassi, nephew of Qansuh al-Ghuri. Ibn al-Imad
 Ibn al-Imad reports that wars took place between him and Sultan Selim. He then gave himself up willingly and was executed at Bab Zuwayla. Selim ordered his burial, and with him the rule of the Circassians came to an end {cite:shadharat-dhahab p.531}.
 
 The date of his execution in the data is 923 AH, and the Common Era conversion is derived {cite:shadharat-dhahab p.531}.
+
+## In al-Salabi
+Al-Salabi records that Selim sent him from Syria demanding obedience to the Ottoman state; the Mamluks mocked then killed his envoy, and Selim resolved on war {cite:dawlat-uthmaniyya-salabi p. 187}. To the defeated Tuman Bay Selim said: «I only came upon you with the ulema's fatwa — I was bound for jihad against the Rafida and the fujjar until your amir al-Ghawri marched into my inherited kingdom, so once assured I left the Rafida and marched on him» {cite:dawlat-uthmaniyya-salabi p. 186-187}.

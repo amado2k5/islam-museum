@@ -5,23 +5,23 @@ label:
   en: "Ali Qushji"
 names:
   - { kind: full, lang: ar, value: "علاء الدين علي بن محمد القوشجي" }
-roles: [astronomer, mathematician, theologian]
 gender: male
+roles: [scholar]
 summary:
-  ar: "بطاقة أولية لعلي القوشجي، منجم مرصد سمرقند ثم استانة في عهد محمد الفاتح، ورد في وصف مرجعي مفتوح (ويكي البيانات). لم تُراجع ترجمته في معجم الأعلام على الصفحة بعد، لذلك لا تُذكر هنا تواريخ."
-  en: "Draft card for Ali Qushji, the astronomer of the Samarkand observatory and then of Fatih's Istanbul, named from an open reference description (Wikidata); his al-A'lam entry is not yet checked on the page, so no dates are given."
+  ar: "العلامة علي القوشجي، من أكبر علماء عصره في الرياضيات والفلك؛ ينقل الصلابي أنه كان كلما ألف كتاباً بالفارسية نقله إلى العربية وأهداه إلى السلطان محمد الفاتح {cite:dawlat-uthmaniyya-salabi p. 142}، ويعده ابن العماد فيمن استجلبه الفاتح من أقصى الديار فصارت أصطنبول بهم أم الدنيا {cite:shadharat-dhahab p. 344-345}."
+  en: "The scholar Ali Qushji, among the greatest mathematicians and astronomers of his age; al-Salabi records that whenever he composed a book in Persian he would render it into Arabic and present it to Sultan Mehmed the Conqueror {cite:dawlat-uthmaniyya-salabi p. 142}, and Ibn al-Imad counts him among the great scholars Mehmed drew from the farthest lands until Istanbul became mother of the world {cite:shadharat-dhahab p. 344-345}."
 wings: [people]
-regions: [persia-central-asia, anatolia-balkans]
+regions: [anatolia-balkans, persia-central-asia]
 periods: [period/mongol-post-mongol]
-sources: [source/al-aalam]
+sources: [source/dawlat-uthmaniyya-salabi, source/shadharat-dhahab]
 external_ids:
   wikidata: Q423644
 provenance:
   layer: own-research
-  source: "Wikidata Q423644 (religion claim Islam); book source: al-Zirikli, al-A'lam — entry not yet read on the page"
-  generated_by: "Devin (SWE-2 High)"
-  model: "SWE-2 High"
-  run: wikidata-import-0010
+  source: "الدولة العثمانية لعلي محمد الصلابي (ط1 1421)"
+  generated_by: "Devin (SWE-2 Medium) from Apple Vision OCR"
+  model: "SWE-2 Medium"
+  run: lib-salabi-uthmani-batch-6
 status:
   review: draft
-  completeness: 1
+  completeness: 2

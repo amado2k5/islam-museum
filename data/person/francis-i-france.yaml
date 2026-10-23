@@ -1,0 +1,30 @@
+id: person/francis-i-france
+class: person
+label:
+  ar: "فرانسوا الأول"
+  en: "Francis I of France"
+names:
+  - { kind: full, lang: ar, value: "فرانسوا الأول" }
+gender: male
+roles: [ruler]
+summary:
+  ar: "فرانسوا الأول، ملك فرنسا في عهد [[person/sulayman-al-qanuni|سليمان القانوني]]؛ أُسر في معركة بافيا عام 1525م فأرسلت والدته الوصية على العرش مبعوثها جون فرانجيباني بخطابين يطلبان مهاجمة قوات الهابسبورج وإطلاقه {cite:dawlat-uthmaniyya-salabi p. 203}. وبعد إطلاقه بمعاهدة مدريد 1526م أرسل سنة 941هـ/1535م سكرتيره جان دو لافوريه إلى سليمان لعقد تحالف في شكل معاهدة سُميت بمعاهدة الامتيازات العثمانية الفرنسية {cite:dawlat-uthmaniyya-salabi p. 203-204}، وينقل الصلابي قوله للسفير الفينيسي: «لا يمكنني أن أنكر أنني أرغب بشدة في أن أرى الأتراك أقوياء جداً ومستعدين للحرب... لإضعاف قوة الإمبراطور تشارلز الخامس» {cite:dawlat-uthmaniyya-salabi p. 203}."
+  en: "Francis I, king of France in [[person/sulayman-al-qanuni|Süleyman]]'s reign; taken prisoner at Pavia in 1525, his mother the regent and he himself sent Jean Frangipani asking for an attack on Habsburg forces and his release {cite:dawlat-uthmaniyya-salabi p. 203}. Freed by the Treaty of Madrid (1526), he sent his secretary Jean de la Forêt in 941/1535 to conclude with Süleyman the treaty later called the Franco-Ottoman Capitulations {cite:dawlat-uthmaniyya-salabi p. 203-204}; al-Salabi quotes his words to the Venetian ambassador: 'I cannot deny that I dearly wish to see the Turks very strong and ready for war… to weaken the power of Emperor Charles V' {cite:dawlat-uthmaniyya-salabi p. 203}."
+wings: [people]
+regions: [andalus-europe]
+periods: [period/gunpowder-empires]
+relations:
+  - { type: allied_with, target: person/sulayman-al-qanuni, sources: [source/dawlat-uthmaniyya-salabi] }
+  - { type: opposed, target: person/charles-v, sources: [source/dawlat-uthmaniyya-salabi] }
+sources: [source/dawlat-uthmaniyya-salabi]
+external_ids:
+  wikidata: Q169856
+provenance:
+  layer: own-research
+  source: "الدولة العثمانية لعلي محمد الصلابي (ط1 1421)"
+  generated_by: "Devin (SWE-2 Medium) from Apple Vision OCR"
+  model: "SWE-2 Medium"
+  run: lib-salabi-uthmani-batch-8
+status:
+  review: draft
+  completeness: 2

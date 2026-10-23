@@ -1,27 +1,31 @@
 id: person/jem-sultan
 class: person
 label:
-  ar: "جم سلطان"
-  en: "Cem Sultan"
+  ar: "الأمير جم سلطان"
+  en: "Prince Cem (Jem Sultan)"
 names:
   - { kind: full, lang: ar, value: "جم بن محمد الفاتح" }
-roles: [prince, poet]
 gender: male
+roles: [prince]
 summary:
-  ar: "بطاقة أولية لجم سلطان، ابن محمد الفاتح الذي نازع أخاه بايزيد الثاني العرش ثم عاش مأسوراً بين الرودس وأوروبا، ورد في وصف مرجعي مفتوح (ويكي البيانات). لم تُراجع ترجمته في تاريخ الدولة العثمانية للصلابي على الصفحة بعد، لذلك لا تُذكر هنا تواريخ."
-  en: "Draft card for Cem Sultan, son of Mehmed the Conqueror who disputed Bayezid II's throne and lived captive between Rhodes and Europe, named from an open reference description (Wikidata); his entry in al-Salabi's history of the Ottoman state is not yet checked on the page, so no dates are given."
+  ar: "الأمير جم بن محمد الفاتح؛ كان ببروسة حين بلغه موت أبيه فنال اعتراف أهلها به سلطاناً، واقترح على أخيه بايزيد الثاني الصلح ثم تقسيم الدولة قسمين أوروبياً وآسيوياً، فرفض بايزيد التقسيم لأنه يفتت ما سهر أسلافه على توحيده، وسار بجيش إلى بروسة ففرّ جم إلى سلطان المماليك قايتباي في مصر فأكرمه وأمده بما يحتاجه لسفر الحج {cite:dawlat-uthmaniyya-salabi p. 163}. ولما عاد من الحج كتب إليه بايزيد: «بما أنك قمت بواجباتك الدينية في الحج فلماذا تسعى إلى الأمور الدنيوية وقد كان الملك نصيبي بأمر الله؟» فأجاب: «هل من العدل أن تضطجع على مهد الراحة والنعيم... وأنا أضع رأسي على الشوك؟» فأثار أتباعه في الأناضول وهُزم مرتين {cite:dawlat-uthmaniyya-salabi p. 163-164}، ثم لجأ إلى رودس عند فرسان القديس يوحنا فعقد معهم اتفاقاً نقضوه تحت ضغط بايزيد فصار سجيناً، وباع الفرسان رهينته إلى البابا إينوسنت الثامن، ولما مات بقي عند خلفه إسكندر السادس حتى قُتل، واتهمت كتب التاريخ — على نقل الصلابي — بايزيد الثاني في ذلك {cite:dawlat-uthmaniyya-salabi p. 164}."
+  en: "Prince Cem, son of Mehmed II: proclaimed sultan at Bursa on his father's death, he offered his brother Bayezid II first peace, then a partition — Europe to Bayezid, Asia to himself — which Bayezid refused as dissolving what their forefathers had united; defeated at Bursa, Cem fled to the Mamluk Qaytbay, who honoured him and equipped his hajj {cite:dawlat-uthmaniyya-salabi p. 163}. Returning, he answered Bayezid's letter ('why chase worldly things, when kingship was my lot by God's command?') with 'Is it just that you lie on a bed of ease while I lay my head on thorns?' — raised his Anatolian followers, was defeated twice, and took refuge with the Knights of St John at Rhodes, who broke their compact under Bayezid's pressure and made him their prisoner, then sold the hostage to Pope Innocent VIII; on Innocent's death he passed to Alexander VI until he was killed — the chronicles, as al-Salabi relays, accusing Bayezid II {cite:dawlat-uthmaniyya-salabi p. 164}."
 wings: [people]
 regions: [anatolia-balkans]
-periods: [period/mongol-post-mongol]
+periods: [period/gunpowder-empires]
+relations:
+  - { type: child_of, target: person/mehmed-ii, sources: [source/dawlat-uthmaniyya-salabi] }
+  - { type: sibling_of, target: person/bayazid-ii, sources: [source/dawlat-uthmaniyya-salabi] }
+  - { type: opposed, target: person/bayazid-ii, sources: [source/dawlat-uthmaniyya-salabi] }
 sources: [source/dawlat-uthmaniyya-salabi]
 external_ids:
   wikidata: Q441311
 provenance:
   layer: own-research
-  source: "Wikidata Q441311 (religion claim Islam); book source: al-Salabi, al-Dawla al-Uthmaniyya — entry not yet read on the page"
-  generated_by: "Devin (SWE-2 High)"
-  model: "SWE-2 High"
-  run: wikidata-import-0007
+  source: "الدولة العثمانية لعلي محمد الصلابي (ط1 1421)"
+  generated_by: "Devin (SWE-2 Medium) from Apple Vision OCR"
+  model: "SWE-2 Medium"
+  run: lib-salabi-uthmani-batch-6
 status:
   review: draft
-  completeness: 1
+  completeness: 2
