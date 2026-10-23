@@ -16,3 +16,6 @@ The question is whether "deeds" in the hadith means all voluntary deeds, or the 
 **The first position (Sunni, from the later scholars).** Ibn Rajab relates that many later scholars read the hadith as: deeds are valid, or considered, or accepted by intentions. Deeds that do not require intention are excepted from the generality of deeds, such as eating, drinking, dressing, and returning trusts and deposits. {cite:ibn-rajab-jami-ulum-hikam p.34-35}
 
 **The second position (Sunni, from the earlier scholars).** Ibn Rajab notes that others kept deeds in their generality, and some related this from the majority. It occurs in the words of Ibn Jarir al-Tabari, Abu Talib al-Makki, and others, and it is the apparent sense of the words of [[person/ahmad-ibn-hanbal|Imam Ahmad]]. The hadith is then read as: deeds occur or are accomplished by intentions. The words "and every person has only what he intended" are a statement that the reward or punishment of the doer follows his intention. {cite:ibn-rajab-jami-ulum-hikam p.34-36}
+
+## Sha'rawi on sincerity
+Sha'rawi says two people may do the same deed, one rewarded because he sought God's pleasure and the other not because he sought the world; if the act is not sincere for God, it is not accepted. He relies on the hadith that deeds are by intentions. {cite:tafsir-sharawi-khawatir-scan-pp-501-1000 p.586}

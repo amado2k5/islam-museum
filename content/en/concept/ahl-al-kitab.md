@@ -24,3 +24,6 @@ Rida holds that the Christian view of their prophet as God took the form given t
 
 ## Author's note
 Everything above is Rida's reading and his debate with the People of the Book, presented as his own view. The opinions of the major classical exegetes on which communities the verses address have not yet been added, nor has the academic study of the history of these communities.
+
+## Sha'rawi on the disputes among the communities
+Sha'rawi notes that Jews and Christians each say the other has no ground, though both are People of the Book, and so they fall into the same accusation as those who have no knowledge. {cite:tafsir-sharawi-khawatir-scan-pp-501-1000 p.535} He says the judgment on this dispute belongs to the Day of Judgment, since this world is a place of testing and not of settling matters of faith. {cite:tafsir-sharawi-khawatir-scan-pp-501-1000 p.536} He answers the claim that paradise belongs only to the People of the Book by saying that entry depends on submitting one's face to God while doing good, and not on belonging to a religion. {cite:tafsir-sharawi-khawatir-scan-pp-501-1000 p.532} {cite:tafsir-sharawi-khawatir-scan-pp-501-1000 p.533}

@@ -42,3 +42,6 @@ He reads what the Prophet saw of scenes as teaching by image about rulings. Choo
 
 ## For young visitors
 One night the Prophet rode al-Buraq with Gabriel to Bayt al-Maqdis, then rose into the heavens, where he saw the prophets. On this journey the five daily prayers were enjoined on him, and they became part of the practice of the Muslims.
+
+## Sha'rawi on Abu Bakr's acceptance
+Sha'rawi reports that when Abu Bakr was told that his companion claimed to have been taken by night, he said that if the Prophet had said it, then it was true. He takes it as an example of knowledge of certainty, since the report came from one he trusted. {cite:tafsir-sharawi-khawatir-scan-pp-501-1000 p.556}
