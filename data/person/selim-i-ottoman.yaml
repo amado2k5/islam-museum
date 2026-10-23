@@ -13,6 +13,7 @@ periods: [period/mongol-post-mongol, period/gunpowder-empires]
 regions: [anatolia-balkans, levant-iraq]
 relations:
   - { type: child_of, target: person/bayazid-ii, sources: [source/dawlat-uthmaniyya-salabi] }
+  - { type: participated_in, target: event/selim-accession-918, role: "السلطان الجديد", sources: [source/dawlat-uthmaniyya-salabi] }
 provenance:
   layer: own-research
   source: "تاريخ الخلفاء للسيوطي (ط المنهاج 1434هـ/2013م) ص 789–799"

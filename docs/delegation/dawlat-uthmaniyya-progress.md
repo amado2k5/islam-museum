@@ -25,3 +25,7 @@
 
 - Mehmed II remaining mabahith (p. 113+): mabhath on Fatih's later conquests, his traits and will — watch for mahmud-pasha-angelovic and remaining Fatih-era cards.
 - Then sultan-by-sultan: Bayezid II, Selim I (Yavuz), Süleyman — resolving draft cards oruc-reis, jem-sultan, khurram/hurrem, rustam, ibrahim-pasha-franji as they appear.
+
+## Batch 6 — Fatih's later mabahith + Bayezid II (pp. 135–174)
+Merged `dawud-pasha-ghulam`→`koca-davud-pasha` (the page anecdote). Enriched: mehmed-ii (death at Üsküdar p.157), bayazid-ii (Jem, Mamluk peace 1491, Russian envoy 1492, Kemal Reis fleet, Lepanto 905/1499, 45-day earthquakes, stipends, dust brick), qaytbay, uzun-hasan, selim-i (accession 18 Safar 918), siege-of-lepanto-1499, fatih-mosque (eight madrasas). Verified draft cards: jem-sultan, kemal-reis, ali-qushji, rum-mehmed-pasha. Created: george-amiroutzes (Ptolemy translation), stephen-iii-moldavia, molla-muhyiddin, innocent-viii, alexander-vi, ivan-iii-moscow, group/knights-of-st-john, event/earthquake-istanbul-bayezid, event/selim-accession-918. Attributed accusations (Cem's death → Bayezid; Ivan III claim) kept in the author's voice.
+Next: Selim I mabhath (p. 175+).

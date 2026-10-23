@@ -3,23 +3,23 @@ class: person
 label:
   ar: "كمال ريس"
   en: "Kemal Reis"
-roles: [military]
 gender: male
+roles: [military-leader]
 summary:
-  ar: "بطاقة أولية لكمال ريس، الأميرال العثماني الشهير الذي أبحر للمماليك والأندلس وكتب عن البحر في أوائل القرن السادس عشر، توفي سنة ١٥١١م؛ تذكره كتب التاريخ العثماني ولم تُراجع ترجمته على الصفحة بعد."
-  en: "Draft card for Kemal Reis, the celebrated Ottoman admiral who sailed to aid the Mamluks and Andalusi Muslims and wrote on the sea in the early sixteenth century, d. 1511; the source entry is not yet checked on the page."
+  ar: "كمال ريس، الأميرال العثماني؛ ينقل الصلابي أن بايزيد الثاني، جواباً على استغاثة مسلمي الأندلس واتفاقه مع السلطان المملوكي الأشرف، أرسل أسطولاً إلى الشواطئ الإسبانية وأعطى قيادته إلى كمال ريس الذي «أدخل الفزع والخوف والرعب في الأساطيل النصرانية في أواخر القرن الخامس عشر» {cite:dawlat-uthmaniyya-salabi p. 173}. ويذكر الكتاب أن المجاهدين العثمانيين كانوا يغنمون من سواحل النصارى، ودخل كثير منهم في خدمة الأسطول العثماني الناشئ، فاستعملت الدولة قوتها البحرية الجديدة في غرب المتوسط {cite:dawlat-uthmaniyya-salabi p. 173}."
+  en: "Kemal Reis, the Ottoman admiral; al-Salabi records that Bayezid II — answering the Andalusian Muslims' appeal under his compact with the Mamluk sultan — sent a fleet to the Spanish coasts under Kemal Reis, who 'struck fear and terror into the Christian fleets in the late fifteenth century' {cite:dawlat-uthmaniyya-salabi p. 173}. The book adds that corsair volunteers joined the young Ottoman navy, which then turned its new strength to the western Mediterranean {cite:dawlat-uthmaniyya-salabi p. 173}."
 wings: [people]
-regions: [anatolia-balkans]
+regions: [anatolia-balkans, andalus-europe]
 periods: [period/gunpowder-empires]
 sources: [source/dawlat-uthmaniyya-salabi]
 external_ids:
   wikidata: Q732272
 provenance:
   layer: own-research
-  source: "Wikidata candidate; book source: al-Sallabi, al-Dawla al-Uthmaniyya — entry not yet read on the page"
-  generated_by: "Devin (SWE-2 High)"
-  model: "SWE-2 High"
-  run: wikidata-import-0015
+  source: "الدولة العثمانية لعلي محمد الصلابي (ط1 1421)"
+  generated_by: "Devin (SWE-2 Medium) from Apple Vision OCR"
+  model: "SWE-2 Medium"
+  run: lib-salabi-uthmani-batch-6
 status:
   review: draft
-  completeness: 1
+  completeness: 2
