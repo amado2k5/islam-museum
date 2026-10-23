@@ -269,6 +269,14 @@ Shipped after Batch 6 merge (PR #1182 merged 2026-10-23T21:13:57Z). Ten records,
 - `person/zurara-ibn-ayun`, `person/yunus-ibn-abd-al-rahman`, `person/yahya-ibn-yaman` — still deferred; no clean own entry in the scans on hand.
 - `person/yaqub-al-jarkhi`, `person/yusuf-ibn-nafis`, `person/waki-al-qadi`, `person/ubayd-ibn-al-abras` — Sufi/poet/judge records outside this lane's extracted rijal books; deferred pending al-A'lam or equivalent scan coverage.
 
+## Batch 8 — audit of the Isaba-candidate list (agent pb2-rijal)
+
+The fifteen records shortlisted for Batch 8 (`saad-ibn-abi-waqqas`, `sad-ibn-muadh`, `sad-ibn-ubada`, `said-ibn-al-musayyab`, `salama-ibn-al-akwa`, `safwan-ibn-umayya`, `salim-mawla-abi-hudhayfa`, `sawda-bint-zama`, `thabit-ibn-qays`, `ubada-ibn-al-samit`, `ubayy-ibn-kab`, `uthman-ibn-mazun`, `uqba-ibn-amir-al-juhani`, `uyayna-ibn-hisn`, `usayd-ibn-hudayr`) turned out on inspection to already have committed ar+en+ur prose from earlier `isaba-batch-*` sessions (e.g. commit 136c4a496) — they were never missing-prose records. Their draft prose was left untouched.
+
+What this batch did do: every candidate's own entry was located and verified on the page (Isaba ٢٧٧, ٤٧ kunya, ٩١٤, ٣١١٢, ٣٢٣٦, ٣٢٥٩, ٣٢٧٢, ٣٥٢٣, ٤١٢٩, ٤٥٧٢, ٥٩٣٢, ٦١٤٨, ٦٩٣٩, ١٠٧٦٦ kunya, ١١٤١١; Taqrib ٢٣٩٦), the used source (`source/ibn-hajar-isaba`, or `source/taqrib-al-tahdhib` for Sa'id ibn al-Musayyab) was added to each YAML where missing, and `completeness` was raised to 3 to match the already-present prose.
+
+Batch 8 as a missing-prose batch is void; the next batch needs a fresh missing-prose selection from the ranked queue.
+
 ### Batch 9 (23 Oct 2026, 8 records, ar+en+ur) — general lane (Devin)
 
 | record | source & pages |
