@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 44:50 (سورة الدخان، الآية 50)."
 text: "إِنَّ هَـٰذَا مَا كُنتُم بِهِۦ تَمْتَرُونَ"
 text_search: "إن هذا ما كنتم به تمترون"
+translations:
+  en: { text: "Lo! this is that whereof ye used to doubt.", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "یہ وہی (دوزخ) ہے جس میں تم لوگ شک کیا کرتے تھے", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-44 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

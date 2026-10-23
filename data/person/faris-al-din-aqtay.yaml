@@ -1,0 +1,26 @@
+id: person/faris-al-din-aqtay
+class: person
+label: { ar: "فارس الدين أقطاي المستعرب", en: "Faris al-Din Aqtay al-Musta'rib" }
+names:
+  - { value: "فارس الدين أقطاي الصالحي النجمي المستعرب", kind: full }
+died: { edtf: "1253~", hijri: "0651~", calendar: julian, precision: year, status: tradition, derived: true, note: "قُتل بالقلعة بعد أن استدعته شجرة الدر والمعز {cite:shadharat-dhahab p. 258}." }
+summary:
+  ar: "أمير معروف، كان يملك سبعمائة مملوك وتخاف دولته، وكان سيفاً منقطع النظير وشجاعاً فاتكاً؛ اتفقت شجرة الدر والملك المعز ومن معهما على سوء نياته فقالوا لا يقوى على إخراجه من مصر إلا بالحيلة، فدعاه المعز إلى قلعة الجبل فخلا به ومهله فرده متعفناً قد ظهرت على ملامحه آثار الشر ودس السم فما دقّ حتى مات؛ وقيل ملزوزاً برمح فأشهد على إيصال فريضته لعبدة بن عبد الرحمن السلمي قاضي مدينته، وعُدّ موته طليعة سقوط دولتهم وانتقاص ملكهم؛ له قصيدة في مدح النبي {cite:shadharat-dhahab p. 257-258}."
+  en: "The Salihi amir who held seven hundred mamluks — 'a sword without peer'; Shajar al-Durr and al-Mu'izz Izz al-Din plotted him out of Egypt, lured him to the Citadel and poisoned him; in some tellings, speared — with him goes the couplet that their sultanate's fall began {cite:shadharat-dhahab p. 257-258}."
+gender: male
+roles: [emir, general]
+wings: [people]
+periods: [period/crusades-ayyubid-mamluk]
+regions: [egypt-nile]
+faith:
+  - value: sunni
+    basis: tradition
+relations:
+  - { type: died_in, target: place/cairo, sources: [source/shadharat-dhahab] }
+sources: [source/shadharat-dhahab]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }
+provenance:
+  layer: own-research
+  source: "شذرات الذهب — ابن العماد (ج5، سنة 651)، قراءة آبل فيجن"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-shadharat-batch-128

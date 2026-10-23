@@ -1,0 +1,23 @@
+id: event/storming-of-giurgiu-1771
+class: event
+kind: siege
+label: { ar: "اقتحام جورجيو (١٧٧١)", en: "Storming of Giurgiu" }
+summary:
+  ar: "بطاقة أولية لاقتحام جورجيو سنة ١٧٧١م، استرداد العثمانيين القلعة في الحرب الروسية العثمانية؛ لم تُراجع مصادره على الصفحة بعد."
+  en: "Draft card for the Storming of Giurgiu in 1771, the Ottoman recovery of the fortress; its sources are not yet checked on the page."
+wings: [time]
+periods: [period/colonial-era]
+regions: [anatolia-balkans]
+date:
+  start: { edtf: "1771-08-01", precision: year, status: tradition, derived: true }
+  end: { edtf: "1771-08-07", precision: year, status: tradition, derived: true }
+sources: [source/dawlat-uthmaniyya-salabi]
+external_ids:
+  wikidata: Q131468287
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; battle attested in narrative histories — entry not yet checked on the page"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-wave2
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

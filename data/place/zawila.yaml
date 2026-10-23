@@ -1,0 +1,19 @@
+id: place/zawila
+class: place
+kind: town
+label: { ar: "زويلة", en: "Zawila" }
+summary:
+  ar: "زويلة من مدن المغرب ما بين برقة وفزان؛ بلغها عقبة بن نافع الفهري في ولايته الأولى للمغرب من قبل عمرو بن العاص ووضع على أهلها ومن بينها وبين برقة ما رأى أنهم يطيقونه."
+  en: "Zawila, a town of the Maghreb between Barqa and Fazzan; Uqba ibn Nafi' al-Fihri reached it in his first charge over the Maghreb from Amr ibn al-As, laying on its people and those between it and Barqa what he judged they could bear."
+wings: [place]
+periods: [period/rashidun]
+regions: [maghreb]
+relations:
+  - { type: site_of, target: event/uqba-zawila-appointment, sources: [source/futuh-buldan-maarif-1407] }
+provenance:
+  layer: own-research
+  source: "فتوح البلدان (ط مؤسسة المعارف 1407هـ/1987م) ص 314–315"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-futuh-buldan-batch-20
+sources: [source/futuh-buldan-maarif-1407]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

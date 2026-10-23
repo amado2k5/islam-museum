@@ -1,0 +1,15 @@
+id: passage/muwatta-1-204
+class: passage
+unit: hadith
+work: work/muwatta-malik
+ref: "1.204"
+label: { ar: "الموطأ 204 — مالك فيمن نسي تكبيرة الافتتاح والركوع مع الإمام", en: "Muwatta 204" }
+summary:
+  ar: "فتوى لمالك في باب افتتاح الصلاة: سُئل عن رجل دخل مع الإمام فنسي تكبيرة الافتتاح وتكبيرة الركوع حتى صلى ركعة ثم ذكر وكبّر في الثانية، فقال: أن يبتدئ صلاته أحب إليه؛ ولو سها عن تكبيرة الافتتاح وكبّر في الركوع الأول رأى ذلك مجزئاً عنه إذا نوى بها تكبيرة الافتتاح. ويذكر المحقق أنه رواه عن مالك أبو مصعب وسويد. {cite:muwatta-maruf-1997 p.127}"
+relations:
+  - { type: part_of, target: passage/muwatta-kitab-01-salat }
+  - { type: mentions, target: person/malik-ibn-anas, sources: [source/muwatta-maruf-1997] }
+  - { type: basis_for, target: practice/salah, sources: [source/muwatta-maruf-1997] }
+provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 1, hadith 204 at PDF p. 127; باب افتتاح الصلاة", generated_by: "Claude Code (claude-haiku-5-5) from Apple Vision OCR of the Noor-Book PDF, checked on the page image where doubtful", run: "muwatta-prose-k1-b09" }
+sources: [source/muwatta-maruf-1997]
+status: { review: draft, completeness: 2, generated_by: "Claude Code (claude-haiku-5-5); own-words account written from PDF p. 127; matn excerpt at most 40 words" }

@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 19:14 (سورة مريم، الآية 14)."
 text: "وَبَرًّۢا بِوَٰلِدَيْهِ وَلَمْ يَكُن جَبَّارًا عَصِيًّا"
 text_search: "وبرا بوالديه ولم يكن جبارا عصيا"
+translations:
+  en: { text: "And dutiful toward his parents. And he was not arrogant, rebellious.", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "اور ماں باپ کے ساتھ نیکی کرنے والے تھے اور سرکش اور نافرمان نہیں تھے", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-19 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

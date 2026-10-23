@@ -1,0 +1,34 @@
+id: person/janibeg-khan
+class: person
+label:
+  ar: جاني بك بن أزبك ملك الدست
+  en: Janibeg ibn Uzbek Khan
+summary:
+  ar: "جاني بك بن أزبك، ملك الدست بالشمال بعد أبيه؛ ردد العساكر إلى خراسان إلى أن ملكها سنة 738هـ ثم زحف إلى أذربيجان وتوريز وكان الشيخ الصغير ابن دمرداش بن جوبان غلب عليها، فزحف جاني بك في العساكر لاستردادها."
+  en: "Janibeg ibn Uzbek Khan, king of the northern Dasht after his father; he pushed the armies back to Khurasan until he held it in 738 AH, then marched on Azerbaijan and Tabriz which al-Shaykh al-Saghir ibn Dimurdash ibn Chuban had seized, advancing with the hosts to recover them."
+gender: male
+roles: [ruler]
+relations:
+- type: child_of
+  target: person/uzbek-khan
+  sources:
+  - source/tarikh-ibn-khaldun-ibar
+- type: ruler_of
+  target: polity/golden-horde
+  sources:
+  - source/tarikh-ibn-khaldun-ibar
+wings: [people]
+periods: [period/mongol-post-mongol]
+regions: [persia-central-asia]
+sources:
+- source/tarikh-ibn-khaldun-ibar
+provenance:
+  layer: own-research
+  source: ابن خلدون، العبر — دولة التتر، ملك جاني بك، ص1540 (طبعة هيليوبوليس)
+  generated_by: Devin (SWE-2 High) from Apple Vision OCR
+  model: swe-2-high
+  run: lib-ibar-east-13
+status:
+  review: draft
+  completeness: 1
+  generated_by: Devin (SWE-2 High); extracted from Ibn Khaldun al-Ibar via Apple Vision OCR

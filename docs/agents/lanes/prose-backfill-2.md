@@ -1,0 +1,13 @@
+# Lane `prose-backfill-2`: missing-prose tier of the ranked queue, ar+en+ur
+
+**Scope.** Sibling of `prose-backfill`, opened under the knowledge-completeness programme (`docs/delegation/knowledge-completeness-plan.md`, Phase 1). The shared ranked queue is `docs/delegation/empty-records-priority.md` (missing `content/ar/` prose vs thin <800 bytes, ranked by inbound links).
+
+**Queue split (the boundary both lanes honour).** The original `prose-backfill` lane continues on **thin files**, top-down. This lane takes the **missing-prose tier, ranked by inbound links, top-down**, and stops before the zero-link tail (the ~12.8k zero-link records stay with the original lane's class-by-class sweep). The queue is regenerated from `data/` + `content/` at lane start and after large merges; each regeneration restates the boundary in both progress files. A record listed in `docs/delegation/prose-backfill-2-progress.md` as done or skipped is never reworked by either lane.
+
+**What each record gets.** Raised to `status.completeness: 3`: full sourced Arabic prose in the class's house structure (`## موجز` first, then the class's sections — gold example `content/ar/event/expedition-of-al-sawiq.md`), **with `content/en/` and `content/ur/` prose in the same batch** (the ar+en+ur same-commit rule of `AGENTS.md`, in force since 18 Oct 2026 — stricter than the original lane's ar-only convention, which predates the rule). Sources: those already cited in the record, or real book sources found in the harvest library (`scripts/harvest/library/books.yaml`); a record citing only `source/wikidata` gets a real source or is logged and skipped — never written from Wikipedia alone. Dated facts get a second source or an explicit flag, per `content-standards.md`.
+
+**Batches.** At most 25 records per commit, grouped by class and by source so one book is mined once. After each batch: `npm run validate`, `npm test`, `npm run coverage` in the same commit, explicit paths, attribution trailers, fetch–rebase–push, PR to `main`. Progress reported to the owner every 10 batches from regenerated coverage.
+
+**Branch / stubs / progress.** `content/prose-backfill-2`; `data/_stubs.d/prose-backfill-2.yaml` (append-only); `docs/delegation/prose-backfill-2-progress.md` — one line per batch: files written, records skipped-no-source, next position in the queue. Commit prefix `content(prose-backfill-2)`.
+
+**Rules.** `AGENTS.md`, `docs/agents/workflow.md`, `docs/agents/content-standards.md`, `docs/agents/mining-sources.md`. All records stay `status.review: draft`.

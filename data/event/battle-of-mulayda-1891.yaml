@@ -1,0 +1,23 @@
+id: event/battle-of-mulayda-1891
+class: event
+kind: battle
+label: { ar: "معركة المليداء", en: "Battle of Mulayda" }
+summary:
+  ar: "بطاقة أولية لمعركة المليداء سنة ١٨٩١م، ظفر آل رشيد على آل سعود ونهاية الدولة السعودية الثانية؛ لم تُراجع مصادره على الصفحة بعد."
+  en: "Draft card for the Battle of Mulayda in 1891, the Rashidi victory that ended the Second Saudi State; its sources are not yet checked on the page."
+wings: [time]
+periods: [period/colonial-era]
+regions: [arabia]
+date:
+  start: { edtf: "1891", precision: year, status: tradition, derived: true }
+  end: { edtf: "1891", precision: year, status: tradition, derived: true }
+sources: [source/tarikh-islam-hasan-ibrahim]
+external_ids:
+  wikidata: Q654722
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; battle attested in narrative histories — entry not yet checked on the page"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-wave2
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

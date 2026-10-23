@@ -1,0 +1,16 @@
+id: passage/arbaun-17
+class: passage
+unit: hadith
+work: work/arbaun-nawawi
+ref: "17"
+label: { ar: "الأربعون 17 — إن الله كتب الإحسان على كل شيء", en: "Arba'un 17 — God has prescribed ihsan upon everything" }
+text: "إن الله كتب الإحسان على كل شيء، فإذا قتلتم فأحسنوا القتلة، وإذا ذبحتم فأحسنوا الذبحة، وليحد أحدكم شفرته، وليرح ذبيحته"
+summary:
+  ar: "حديث شداد بن أوس، وهو الحديث السابع عشر في الأربعين النووية وفي شرح ابن رجب؛ رواه مسلم (1955) وحده من رواية أبي قلابة عن أبي الأشعث الصنعاني عن شداد بن أوس، وتركه البخاري لأنه لم يخرج في صحيحه لأبي الأشعث شيئاً وهو شامي ثقة، وروي نحوه بإسنادين ضعيفين عن سمرة بن جندب وعن أنس؛ وفي رواية مرسلة «إن الله كتب الإحسان على كل خلق»؛ ويبين ابن رجب قولين في المعنى: أنه كتب على كل مخلوق الإحسان فيكون المكتوب عليه كل شيء والمكتوب الإحسان، أو أنه كتب الإحسان إلى كل شيء أو في كل شيء فيكون المذكور المحسن إليه؛ وأن لفظ «الكتابة» يقتضي الوجوب عند أكثر الفقهاء والأصوليين، ويستعمل في القرآن فيما هو واجب شرعاً أو واقع قدراً (جامع العلوم والحكم ص 360–374)."
+  en: "Shaddad ibn Aws's hadith, the seventeenth of al-Nawawi's Forty and of Ibn Rajab's commentary; transmitted by Muslim alone (1955) through Abu Qilaba from Abu al-Ash'ath al-San'ani from Shaddad ibn Aws, al-Bukhari omitting it as he narrates nothing from Abu al-Ash'ath in his Sahih though he is a reliable Syrian, with weak parallels from Samura ibn Jundab and Anas, and a mursal route 'upon every creature'; Ibn Rajab sets out two readings — that ihsan is written upon every created thing, so that 'everything' bears the prescription and ihsan is what is prescribed, or that ihsan is written toward or in everything, the one benefited being named rather than the one bound — and that the wording of 'writing' entails obligation for most jurists and usul scholars, the Quran using it both for what is legally obligatory and for what is decreed without fail (Jami' al-Ulum wal-Hikam pp. 360–374)."
+relations:
+  - { type: basis_for, target: concept/ihsan, sources: [source/ibn-rajab-jami-ulum-hikam] }
+  - { type: mentions, target: person/shaddad-ibn-aws, sources: [source/ibn-rajab-jami-ulum-hikam] }
+provenance: { layer: own-research, source: "Jami' al-Ulum wal-Hikam (Dar Ibn Kathir 1429/2008), hadith 17 pp. 360–374", generated_by: "Devin (SWE-2 High) from Apple Vision OCR", run: "lib-jami-ulum-hikam-batch-7" }
+sources: [source/ibn-rajab-jami-ulum-hikam]
+status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 High); matn verified against OCR of printed p. 360, the two readings and the obligation discussion from p. 361" }

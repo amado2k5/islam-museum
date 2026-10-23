@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 36:43 (سورة يس، الآية 43)."
 text: "وَإِن نَّشَأْ نُغْرِقْهُمْ فَلَا صَرِيخَ لَهُمْ وَلَا هُمْ يُنقَذُونَ"
 text_search: "وإن نشأ نغرقهم فلا صريخ لهم ولا هم ينقذون"
+translations:
+  en: { text: "And if We will, We drown them, and there is no help for them, neither can they be saved;", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "اور اگر ہم چاہیں تو ان کو غرق کردیں۔ پھر نہ تو ان کا کوئی فریاد رس ہوا اور نہ ان کو رہائی ملے", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-36 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

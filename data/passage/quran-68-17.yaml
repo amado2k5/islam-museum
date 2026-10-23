@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 68:17 (سورة القلم، الآية 17)."
 text: "إِنَّا بَلَوْنَـٰهُمْ كَمَا بَلَوْنَآ أَصْحَـٰبَ ٱلْجَنَّةِ إِذْ أَقْسَمُوا۟ لَيَصْرِمُنَّهَا مُصْبِحِينَ"
 text_search: "إنا بلوناهم كما بلونا أصحاب الجنة إذ أقسموا ليصرمنها مصبحين"
+translations:
+  en: { text: "Lo! We have tried them as We tried the owners of the garden when they vowed that they would pluck its fruit next morning,", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "ہم نے ان لوگوں کی اسی طرح آزمائش کی ہے جس طرح باغ والوں کی آزمائش کی تھی۔ جب انہوں نے قسمیں کھا کھا کر کہا کہ صبح ہوتے ہوتے ہم اس کا میوہ توڑ لیں گے", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-68 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

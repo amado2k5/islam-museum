@@ -1,0 +1,23 @@
+id: event/capture-of-damascus-1516
+class: event
+kind: siege
+label: { ar: "أخذ دمشق (١٥١٦)", en: "Capture of Damascus" }
+summary:
+  ar: "بطاقة أولية لأخذ دمشق في ١٥١٦م، دخول سليم المدينة وفرار جنبردي غزالي؛ لم تُراجع مصادره على الصفحة بعد."
+  en: "Draft card for the Capture of Damascus in 1516, Selim's entry and Janbirdi al-Ghazali's flight; its sources are not yet checked on the page."
+wings: [time]
+periods: [period/gunpowder-empires]
+regions: [levant-iraq]
+date:
+  start: { edtf: "1516-09-27", precision: year, status: tradition, derived: true }
+  end: { edtf: "1516-10-03", precision: year, status: tradition, derived: true }
+sources: [source/dawlat-uthmaniyya-salabi]
+external_ids:
+  wikidata: Q118946843
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; battle attested in narrative histories — entry not yet checked on the page"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-wave2
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

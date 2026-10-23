@@ -1,0 +1,28 @@
+id: person/sulayman-pasha-ibn-orhan
+class: person
+label:
+  ar: "سليمان باشا بن أورخان"
+  en: "Suleiman Pasha, son of Orhan"
+names:
+  - { kind: full, lang: ar, value: "سليمان بن أورخان بن عثمان" }
+roles: [prince, military]
+gender: male
+summary:
+  ar: "الأمير سليمان بن أورخان؛ ولي عهد أبيه وقائد العبور العثماني الأول إلى أوروبا. يذكر الصلابي أن أورخان وضع خطة لمحاصرة القسطنطينية من الغرب والشرق فأرسل ابنه سليمان لعبور مضيق الدردنيل ليلاً في أربعين فارساً فاستولى على زوارق الروم وفتحت لهم عدة مواقع في الجانب الغربي منها جليبولو، فصارت لهم قاعدة في البر الأوروبي يغيرون منها {cite:dawlat-uthmaniyya-salabi p. 52}. وتوفي قبل أبيه فخلفه في الإمارة أخوه مراد الأول {cite:dawlat-uthmaniyya-salabi p. 57-58}."
+  en: "Prince Suleiman, son and heir of Orhan — in al-Sallabi's telling he led the first Ottoman crossing of the Dardanelles by night with forty horsemen, seized Roman boats and secured footholds on the western shore including Gallipoli, the opening base of Ottoman Europe {cite:dawlat-uthmaniyya-salabi p. 52}. He died before his father, and the succession passed to his brother Murad I {cite:dawlat-uthmaniyya-salabi p. 57-58}."
+wings: [people]
+regions: [anatolia-balkans]
+periods: [period/mongol-post-mongol]
+relations:
+  - { type: child_of, target: person/urkhan-ibn-uthman, sources: [source/dawlat-uthmaniyya-salabi] }
+  - { type: sibling_of, target: person/murad-i-uthmani, sources: [source/dawlat-uthmaniyya-salabi] }
+sources: [source/dawlat-uthmaniyya-salabi]
+external_ids:
+  wikidata: Q3087653
+provenance:
+  layer: own-research
+  source: "الدولة العثمانية لعلي محمد الصلابي، ص 52–58"
+  generated_by: "Devin (SWE-2 Medium) from Apple Vision OCR"
+  model: "SWE-2 Medium"
+  run: lib-salabi-uthmani-batch-3
+status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 Medium)" }

@@ -1,0 +1,77 @@
+id: exhibit/path-ottoman-cities
+class: exhibit
+kind: trail
+label:
+  ar: مدن العثمانيين
+  en: Ottoman Cities
+summary:
+  ar: 'مسار في مدن الإمبراطورية: بورصة الأولى، وأدرنة العاصمة، وإسطنبول الفتح، وقونية الصوفية — من بحر
+    الروم إلى البلقان.'
+  en: A trail through the imperial cities.
+audience:
+- newcomer
+- student
+duration_minutes: 30
+wings: []
+regions:
+- anatolia-balkans
+rooms:
+- title:
+    ar: بورصة
+    en: Bursa
+  body:
+    ar: 'أول عاصمة: الحرير والخضراء الكبرى.'
+    en: 'أول عاصمة: الحرير والخضراء الكبرى.'
+  features:
+  - place/bursa
+  - polity/ottoman-empire
+- title:
+    ar: أدرنة
+    en: Edirne
+  body:
+    ar: 'عاصمة الروملي: سليمية سنان التاج.'
+    en: 'عاصمة الروملي: سليمية سنان التاج.'
+  features:
+  - place/edirne
+  - polity/ottoman-empire
+- title:
+    ar: إسطنبول
+    en: Istanbul
+  body:
+    ar: 'الفتح 1453: القسطنطينية عاصمة الخلافة.'
+    en: 'الفتح 1453: القسطنطينية عاصمة الخلافة.'
+  features:
+  - place/istanbul
+  - polity/ottoman-empire
+- title:
+    ar: قونية
+    en: Konya
+  body:
+    ar: عاصمة السلاجقة ومدينة الرومي.
+    en: عاصمة السلاجقة ومدينة الرومي.
+  features:
+  - place/konya
+  - place/konya
+- title:
+    ar: نيقية
+    en: Nicaea
+  body:
+    ar: 'إزنيق: أولى مدن الروم فتحًا.'
+    en: 'إزنيق: أولى مدن الروم فتحًا.'
+  features:
+  - place/nicea
+  - polity/ottoman-empire
+prerequisites:
+- exhibit/path-islam-in-30-minutes
+sources:
+- source/wikidata
+provenance:
+  layer: own-research
+  source: Devin-assembled trail from existing museum entities
+  generated_by: Devin (SWE-2 High)
+  model: SWE-2 High
+  run: pathways-batch-7
+status:
+  review: draft
+  completeness: 1
+  generated_by: Devin (SWE-2 High), pathways lane, 2026-10-16

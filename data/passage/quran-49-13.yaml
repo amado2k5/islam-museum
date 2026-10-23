@@ -12,10 +12,13 @@ summary:
   ar: "القرآن 49:13 (سورة الحجرات، الآية 13)."
 text: "يَـٰٓأَيُّهَا ٱلنَّاسُ إِنَّا خَلَقْنَـٰكُم مِّن ذَكَرٍ وَأُنثَىٰ وَجَعَلْنَـٰكُمْ شُعُوبًا وَقَبَآئِلَ لِتَعَارَفُوٓا۟ ۚ إِنَّ أَكْرَمَكُمْ عِندَ ٱللَّهِ أَتْقَىٰكُمْ ۚ إِنَّ ٱللَّهَ عَلِيمٌ خَبِيرٌ"
 text_search: "يا أيها الناس إنا خلقناكم من ذكر وأنثى وجعلناكم شعوبا وقبائل لتعارفوا ۚ إن أكرمكم عند الله أتقاكم ۚ إن الله عليم خبير"
+translations:
+  en: { text: "O mankind! Lo! We have created you male and female, and have made you nations and tribes that ye may know one another. Lo! the noblest of you, in the sight of Allah, is the best in conduct. Lo! Allah is Knower, Aware.", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "لوگو! ہم نے تم کو ایک مرد اور ایک عورت سے پیدا کیا اور تمہاری قومیں اور قبیلے بنائے۔ تاکہ ایک دوسرے کو شناخت کرو۔ اور خدا کے نزدیک تم میں زیادہ عزت والا وہ ہے جو زیادہ پرہیزگار ہے۔ بےشک خدا سب کچھ جاننے والا (اور) سب سے خبردار ہے", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-49 }
   - { type: revealed_about, target: event/fath-mecca-sermon, note: "تلاها النبي في خطبته عند باب الكعبة يوم الفتح بعد إسقاط مفاخر الجاهلية.", sources: [source/ibn-hisham-saqqa] }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

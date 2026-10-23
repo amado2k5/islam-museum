@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 91:15 (سورة الشمس، الآية 15)."
 text: "وَلَا يَخَافُ عُقْبَـٰهَا"
 text_search: "ولا يخاف عقباها"
+translations:
+  en: { text: "He dreadeth not the sequel (of events).", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "اور اس کو ان کے بدلہ لینے کا کچھ بھی ڈر نہیں", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-91 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

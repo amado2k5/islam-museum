@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 42:40 (سورة الشورى، الآية 40)."
 text: "وَجَزَٰٓؤُا۟ سَيِّئَةٍ سَيِّئَةٌ مِّثْلُهَا ۖ فَمَنْ عَفَا وَأَصْلَحَ فَأَجْرُهُۥ عَلَى ٱللَّهِ ۚ إِنَّهُۥ لَا يُحِبُّ ٱلظَّـٰلِمِينَ"
 text_search: "وجزاء سيئة سيئة مثلها ۖ فمن عفا وأصلح فأجره على الله ۚ إنه لا يحب الظالمين"
+translations:
+  en: { text: "The guerdon of an ill-deed is an ill the like thereof. But whosoever pardoneth and amendeth, his wage is the affair of Allah. Lo! He loveth not wrong-doers.", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "اور برائی کا بدلہ تو اسی طرح کی برائی ہے۔ مگر جو درگزر کرے اور (معاملے کو) درست کردے تو اس کا بدلہ خدا کے ذمے ہے۔ اس میں شک نہیں کہ وہ ظلم کرنے والوں کو پسند نہیں کرتا", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-42 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

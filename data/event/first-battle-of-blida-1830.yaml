@@ -1,0 +1,23 @@
+id: event/first-battle-of-blida-1830
+class: event
+kind: battle
+label: { ar: "معركة البليدة الأولى (١٨٣٠)", en: "First Battle of Blida" }
+summary:
+  ar: "بطاقة أولية لمعركة البليدة الأولى سنة ١٨٣٠م، صد بني خليل وقوات متيجة للجيش الفرنسي الغازي؛ لم تُراجع مصادره على الصفحة بعد."
+  en: "Draft card for the First Battle of Blida in 1830, local Algerian resistance halting French advance; its sources are not yet checked on the page."
+wings: [time]
+periods: [period/colonial-era]
+regions: [maghreb]
+date:
+  start: { edtf: "1830-07-22", precision: year, status: tradition, derived: true }
+  end: { edtf: "1830-07-24", precision: year, status: tradition, derived: true }
+sources: [source/tarikh-islam-hasan-ibrahim]
+external_ids:
+  wikidata: Q3062378
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; battle attested in narrative histories — entry not yet checked on the page"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-wave2
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

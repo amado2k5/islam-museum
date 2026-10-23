@@ -1,0 +1,22 @@
+id: event/georgians-baylaqan-619
+class: event
+kind: raid
+label: { ar: "نهب الكرج بيلقان", en: "The Georgians sack Baylaqan" }
+date:
+  start: { edtf: "1222~", hijri: "0619", calendar: julian, precision: year, status: tradition, derived: true }
+summary:
+  ar: "نهبت الكرج مدينة بيلقان من بلاد أران وخرّبوها وقتلوا أهلها {cite:kamil-ibn-al-athir p. 432}."
+  en: "The Georgians sacked Baylaqan in Arran, razing it and slaughtering its people {cite:kamil-ibn-al-athir p. 432}."
+sides:
+  - label: { ar: "المسلمون" }
+  - label: { ar: "خصومهم" }
+relations:
+  - { type: occurred_at, target: place/baylaqan, sources: [source/kamil-ibn-al-athir] }
+  - { type: had_participant, target: group/georgians, role: "الغازون", sources: [source/kamil-ibn-al-athir] }
+provenance:
+  layer: own-research
+  source: "الكامل في التاريخ لابن الأثير، قراءة آبل فيجن"
+  generated_by: "Devin (SWE-2 Medium) from Apple Vision OCR"
+  run: lib-kamil-v12-batch07
+sources: [source/kamil-ibn-al-athir]
+status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 Medium)" }

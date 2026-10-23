@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 18:14 (سورة الكهف، الآية 14)."
 text: "وَرَبَطْنَا عَلَىٰ قُلُوبِهِمْ إِذْ قَامُوا۟ فَقَالُوا۟ رَبُّنَا رَبُّ ٱلسَّمَـٰوَٰتِ وَٱلْأَرْضِ لَن نَّدْعُوَا۟ مِن دُونِهِۦٓ إِلَـٰهًا ۖ لَّقَدْ قُلْنَآ إِذًا شَطَطًا"
 text_search: "وربطنا على قلوبهم إذ قاموا فقالوا ربنا رب السماوات والأرض لن ندعو من دونه إلها ۖ لقد قلنا إذا شططا"
+translations:
+  en: { text: "And We made firm their hearts when they stood forth and said: Our Lord is the Lord of the heavens and the earth. We cry unto no Allah beside Him, for then should we utter an enormity.", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "اور ان کے دلوں کو مربوط (یعنی مضبوط) کردیا۔ جب وہ (اُٹھ) کھڑے ہوئے تو کہنے لگے کہ ہمارا پروردگار آسمانوں اور زمین کا مالک ہے۔ ہم اس کے سوا کسی کو معبود (سمجھ کر) نہ پکاریں گے (اگر ایسا کیا) تو اس وقت ہم نے بعید از عقل بات کہی", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-18 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

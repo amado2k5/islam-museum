@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 35:33 (سورة فاطر، الآية 33)."
 text: "جَنَّـٰتُ عَدْنٍ يَدْخُلُونَهَا يُحَلَّوْنَ فِيهَا مِنْ أَسَاوِرَ مِن ذَهَبٍ وَلُؤْلُؤًا ۖ وَلِبَاسُهُمْ فِيهَا حَرِيرٌ"
 text_search: "جنات عدن يدخلونها يحلون فيها من أساور من ذهب ولؤلؤا ۖ ولباسهم فيها حرير"
+translations:
+  en: { text: "Gardens of Eden! They enter them wearing armlets of gold and pearl and their raiment therein is silk.", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "(ان لوگوں کے لئے) بہشتِ جاودانی (ہیں) جن میں وہ داخل ہوں گے۔ وہاں ان کو سونے کے کنگن اور موتی پہنائے جائیں گے۔ اور ان کی پوشاک ریشمی ہوگی", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-35 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

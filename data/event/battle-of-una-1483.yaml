@@ -1,0 +1,23 @@
+id: event/battle-of-una-1483
+class: event
+kind: battle
+label: { ar: "معركة أونا (١٤٨٣)", en: "Battle of Una" }
+summary:
+  ar: "بطاقة أولية لمعركة نهر أونا سنة ١٤٨٣م، اشتباك الجيش العثماني والقوات الكرواتية؛ لم تُراجع مصادره على الصفحة بعد."
+  en: "Draft card for the Battle of Una in 1483, the Ottoman-Croatian clash on the Una river; its sources are not yet checked on the page."
+wings: [time]
+periods: [period/crusades-ayyubid-mamluk]
+regions: [anatolia-balkans]
+date:
+  start: { edtf: "1483-10-29", precision: year, status: tradition, derived: true }
+  end: { edtf: "1483-10-30", precision: year, status: tradition, derived: true }
+sources: [source/dawlat-uthmaniyya-salabi]
+external_ids:
+  wikidata: Q18162714
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; battle attested in narrative histories — entry not yet checked on the page"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-wave2
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

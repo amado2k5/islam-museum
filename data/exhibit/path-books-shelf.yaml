@@ -1,0 +1,85 @@
+id: exhibit/path-books-shelf
+class: exhibit
+kind: trail
+label:
+  ar: رف الكتب الكبرى
+  en: The Great Shelf
+summary:
+  ar: 'مسار في عشرة كتب غيّرت الأمة: الصحيحان والموطأ والإحياء والمقدمة والكشاف والشفاء وألف ليلة.'
+  en: A trail through ten books that changed the community.
+audience:
+- newcomer
+- student
+duration_minutes: 30
+wings: []
+regions:
+- global
+rooms:
+- title:
+    ar: الصحيحان
+    en: The two Sahihs
+  body:
+    ar: 'البخاري ومسلم: أصح ما صنف بعد القرآن.'
+    en: 'البخاري ومسلم: أصح ما صنف بعد القرآن.'
+  features:
+  - work/sahih-al-bukhari
+  - work/sahih-muslim
+- title:
+    ar: الموطأ
+    en: The Muwatta
+  body:
+    ar: مالك يجمع عمل المدينة أول المدونات.
+    en: مالك يجمع عمل المدينة أول المدونات.
+  features:
+  - work/muwatta-malik
+  - person/malik-ibn-anas
+- title:
+    ar: الإحياء
+    en: The Ihya
+  body:
+    ar: 'الغزالي يحيي علوم الدين: كتاب القراءة كلها.'
+    en: 'الغزالي يحيي علوم الدين: كتاب القراءة كلها.'
+  features:
+  - work/ihya-ulum-al-din
+  - person/al-ghazali-abu-hamid
+- title:
+    ar: المقدمة
+    en: The Muqaddima
+  body:
+    ar: ابن خلدون يؤسس علم العمران.
+    en: ابن خلدون يؤسس علم العمران.
+  features:
+  - work/al-muqaddima
+  - person/ibn-khaldun
+- title:
+    ar: الكشاف والشفاء
+    en: Kashshaf and Shifa
+  body:
+    ar: الزمخشري في التفسير وعياض في حقوق المصطفى.
+    en: الزمخشري في التفسير وعياض في حقوق المصطفى.
+  features:
+  - work/al-kashshaf
+  - work/al-shifa-bi-tarif-huquq-al-mustafa
+- title:
+    ar: ألف ليلة
+    en: The Nights
+  body:
+    ar: حكايات الشعوب تدخل التراث العالمي.
+    en: حكايات الشعوب تدخل التراث العالمي.
+  features:
+  - work/alf-layla-wa-layla
+  - work/al-itqan-fi-ulum-al-quran
+prerequisites:
+- exhibit/path-islam-in-30-minutes
+sources:
+- source/wikidata
+provenance:
+  layer: own-research
+  source: Devin-assembled trail from existing museum entities
+  generated_by: Devin (SWE-2 High)
+  model: SWE-2 High
+  run: pathways-batch-4
+status:
+  review: draft
+  completeness: 1
+  generated_by: Devin (SWE-2 High), pathways lane, 2026-10-16

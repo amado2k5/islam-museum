@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 31:22 (سورة لقمان، الآية 22)."
 text: "۞ وَمَن يُسْلِمْ وَجْهَهُۥٓ إِلَى ٱللَّهِ وَهُوَ مُحْسِنٌ فَقَدِ ٱسْتَمْسَكَ بِٱلْعُرْوَةِ ٱلْوُثْقَىٰ ۗ وَإِلَى ٱللَّهِ عَـٰقِبَةُ ٱلْأُمُورِ"
 text_search: "۞ ومن يسلم وجهه إلى الله وهو محسن فقد استمسك بالعروة الوثقى ۗ وإلى الله عاقبة الأمور"
+translations:
+  en: { text: "Whosoever surrendereth his purpose to Allah while doing good, he verily hath grasped the firm hand-hold. Unto Allah belongeth the sequel of all things.", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "اور جو شخص اپنے تئیں خدا کا فرمانبردار کردے اور نیکوکار بھی ہو تو اُس نے مضبوط دستاویز ہاتھ میں لے لی۔ اور (سب) کاموں کا انجام خدا ہی کی طرف ہے", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-31 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

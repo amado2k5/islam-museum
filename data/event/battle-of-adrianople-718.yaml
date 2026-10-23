@@ -1,0 +1,23 @@
+id: event/battle-of-adrianople-718
+class: event
+kind: battle
+label: { ar: "معركة أدرنة (٧١٨)", en: "Battle of Adrianople (718)" }
+summary:
+  ar: "بطاقة أولية لمعركة أدرنة سنة ٧١٨م، مصادمة الجيش الأموي المحاصر للقسطنطينية مع البلغار؛ لم تُراجع مصادره على الصفحة بعد."
+  en: "Draft card for the Battle of Adrianople in 718, the clash between the Umayyad army besieging Constantinople and the Bulgars; its sources are not yet checked on the page."
+wings: [time]
+periods: [period/umayyad]
+regions: [anatolia-balkans]
+date:
+  start: { edtf: "0718", precision: year, status: tradition, derived: true }
+  end: { edtf: "0718", precision: year, status: tradition, derived: true }
+sources: [source/tarikh-islam-hasan-ibrahim]
+external_ids:
+  wikidata: Q3636313
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; battle attested in narrative histories — entry not yet checked on the page"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-wave2
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 41:40 (سورة فصلت، الآية 40)."
 text: "إِنَّ ٱلَّذِينَ يُلْحِدُونَ فِىٓ ءَايَـٰتِنَا لَا يَخْفَوْنَ عَلَيْنَآ ۗ أَفَمَن يُلْقَىٰ فِى ٱلنَّارِ خَيْرٌ أَم مَّن يَأْتِىٓ ءَامِنًا يَوْمَ ٱلْقِيَـٰمَةِ ۚ ٱعْمَلُوا۟ مَا شِئْتُمْ ۖ إِنَّهُۥ بِمَا تَعْمَلُونَ بَصِيرٌ"
 text_search: "إن الذين يلحدون في آياتنا لا يخفون علينا ۗ أفمن يلقى في النار خير أم من يأتي آمنا يوم القيامة ۚ اعملوا ما شئتم ۖ إنه بما تعملون بصير"
+translations:
+  en: { text: "Lo! those who distort Our revelations are not hid from Us. Is he who is hurled into the Fire better, or he who cometh secure on the Day of Resurrection? Do what ye will. Lo! He is Seer of what ye do.", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "جو لوگ ہماری آیتوں میں کج راہی کرتے ہیں وہ ہم سے پوشیدہ نہیں ہیں۔ بھلا جو شخص دوزخ میں ڈالا جائے وہ بہتر ہے یا وہ جو قیامت کے دن امن وامان سے آئے۔ (تو خیر) جو چاہو سو کرلو۔ جو کچھ تم کرتے ہو وہ اس کو دیکھ رہا ہے", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-41 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

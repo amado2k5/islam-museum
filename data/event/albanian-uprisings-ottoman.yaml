@@ -1,0 +1,23 @@
+id: event/albanian-uprisings-ottoman
+class: event
+kind: revolt
+label: { ar: "الانتفاضات الألبانية في الدولة العثمانية", en: "Albanian Uprisings in the Ottoman Empire" }
+summary:
+  ar: "بطاقة أولية لالانتفاضات الألبانية في الدولة العثمانية؛ لم تُراجع مصادره على الصفحة بعد."
+  en: "Draft card for Albanian Uprisings in the Ottoman Empire; its sources are not yet checked on the page."
+wings: [time]
+periods: [period/modern-era]
+regions: [anatolia-balkans]
+date:
+  start: { edtf: "1910", precision: year, status: tradition, derived: true }
+  end: { edtf: "1912", precision: year, status: tradition, derived: true }
+sources: [source/tarikh-islam-hasan-ibrahim]
+external_ids:
+  wikidata: Q13041162
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; battle attested in narrative histories — entry not yet checked on the page"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-wave2
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

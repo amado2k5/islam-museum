@@ -17,9 +17,10 @@ died:
   calendar: julian
   precision: month
   status: tradition
-  note: توفيت عند عثمان في شعبان سنة تسع (ابن سعد، كما في الإصابة).
+  note: توفيت عند عثمان في شعبان سنة تسع (ابن سعد، كما في الإصابة)؛ ويذكر الكتاب وفاتها في شهر شعبان سنة تسع للهجرة فجمعها واختها رقية قبر واحد (نساء حول الرسول ص417).
   sources:
   - source/ibn-hajar-isaba
+  - source/nisa-hawl-alrasul
 roles:
 - companion
 traditions:
@@ -27,8 +28,7 @@ traditions:
 summary:
   ar: ابنة النبي، تزوجها عثمان بن عفان بعد وفاة أختها رقية في ربيع الأول سنة 3هـ، وتوفيت عنده في شعبان سنة 9هـ ولم تلد له.
   en: A daughter of the Prophet, married to Uthman ibn Affan after her sister Ruqayya's death in Rabi' al-Awwal 3 AH; she died in his house in Sha'ban 9 AH without bearing him children.
-wings:
-- people
+wings: [people]
 themes:
 - women
 periods:
@@ -76,8 +76,13 @@ provenance:
   generated_by: Claude (maintainer session)
   model: claude-sonnet-5-5
   run: isaba-women-1
+external_ids: { wikidata: "Q2426845" }
 sources:
 - source/ibn-hajar-isaba
+- source/nisa-hawl-alrasul
+- source/mubarakpuri-raheeq
+- source/ibn-hisham-sira
+- source/fath-al-bari
 status:
   review: draft
   completeness: 2

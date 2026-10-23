@@ -1,0 +1,23 @@
+id: event/battle-of-atbara-1898
+class: event
+kind: battle
+label: { ar: "معركة عطبرة", en: "Battle of Atbara" }
+summary:
+  ar: "بطاقة أولية لمعركة عطبرة سنة ١٨٩٨م، فوز كتشنر على جيش المهدية عند نهر عطبرة؛ لم تُراجع مصادره على الصفحة بعد."
+  en: "Draft card for the Battle of Atbara in 1898, Kitchener's victory over the Mahdist army on the Atbara river; its sources are not yet checked on the page."
+wings: [time]
+periods: [period/colonial-era]
+regions: [egypt-nile]
+date:
+  start: { edtf: "1898", precision: year, status: tradition, derived: true }
+  end: { edtf: "1898", precision: year, status: tradition, derived: true }
+sources: [source/tarikh-islam-hasan-ibrahim]
+external_ids:
+  wikidata: Q1276340
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; battle attested in narrative histories — entry not yet checked on the page"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-wave2
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

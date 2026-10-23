@@ -1,0 +1,23 @@
+id: event/battle-of-philomelion-1116
+class: event
+kind: battle
+label: { ar: "معركة فيلوميليون", en: "Battle of Philomelion" }
+summary:
+  ar: "بطاقة أولية لمعركة فيلوميليون سنة ١١١٦م، اشتباك ألكسيوس الأول مع سلاجقة الروم في الأناضول؛ لم تُراجع مصادره على الصفحة بعد."
+  en: "Draft card for the Battle of Philomelion in 1116, Alexios I's clash with the Seljuks of Rum in Anatolia; its sources are not yet checked on the page."
+wings: [time]
+periods: [period/crusades-ayyubid-mamluk]
+regions: [anatolia-balkans]
+date:
+  start: { edtf: "1116", precision: year, status: tradition, derived: true }
+  end: { edtf: "1116", precision: year, status: tradition, derived: true }
+sources: [source/kamil-ibn-al-athir]
+external_ids:
+  wikidata: Q2549350
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; battle attested in Byzantine-Seljuk histories — entry not yet checked on the page"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-wave2
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

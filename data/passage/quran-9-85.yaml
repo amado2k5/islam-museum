@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 9:85 (سورة التوبة، الآية 85)."
 text: "وَلَا تُعْجِبْكَ أَمْوَٰلُهُمْ وَأَوْلَـٰدُهُمْ ۚ إِنَّمَا يُرِيدُ ٱللَّهُ أَن يُعَذِّبَهُم بِهَا فِى ٱلدُّنْيَا وَتَزْهَقَ أَنفُسُهُمْ وَهُمْ كَـٰفِرُونَ"
 text_search: "ولا تعجبك أموالهم وأولادهم ۚ إنما يريد الله أن يعذبهم بها في الدنيا وتزهق أنفسهم وهم كافرون"
+translations:
+  en: { text: "Let not their wealth nor their children please thee! Allah purposeth only to punish them thereby in the world, and that their souls shall pass away while they are disbelievers.", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "ان کے اولاد اور مال سے تعجب نہ کرنا۔ ان چیزوں سے خدا یہ چاہتا ہے کہ ان کو دنیا میں عذاب کرے اور (جب) ان کی جان نکلے تو (اس وقت بھی) یہ کافر ہی ہوں", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-9 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

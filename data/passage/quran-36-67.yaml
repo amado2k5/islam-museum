@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 36:67 (سورة يس، الآية 67)."
 text: "وَلَوْ نَشَآءُ لَمَسَخْنَـٰهُمْ عَلَىٰ مَكَانَتِهِمْ فَمَا ٱسْتَطَـٰعُوا۟ مُضِيًّا وَلَا يَرْجِعُونَ"
 text_search: "ولو نشاء لمسخناهم على مكانتهم فما استطاعوا مضيا ولا يرجعون"
+translations:
+  en: { text: "And had We willed, We verily could have fixed them in their place, making them powerless to go forward or turn back.", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "اور اگر ہم چاہیں تو ان کی جگہ پر ان کی صورتیں بدل دیں پھر وہاں سے نہ آگے جاسکیں اور نہ (پیچھے) لوٹ سکیں", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-36 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

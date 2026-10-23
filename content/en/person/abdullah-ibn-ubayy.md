@@ -1,23 +1,23 @@
 ---
 id: person/abdullah-ibn-ubayy
 lang: en
-source_lang: en
-translators: []
+source_lang: ar
+translators: ["Claude Haiku 5.5 (claude-haiku-5-5), draft translation"]
 ---
 
 ## Brief
-Abdullah ibn Ubayy was the chief of Khazraj — the man Medina had nearly crowned its king when the Hijra made the Prophet master of his city instead. Sunni tradition remembers him as the chief of the *munafiqin*: the enemy inside.
+Abdullah ibn Ubayy, lord of the Khazraj — the man whom Yathrib was almost ready to crown as king, until the Hijra made the Prophet the master of his city instead of him. Sunni tradition remembers him as the chief of the hypocrites: the enemy from within.
 
 ## Life
-The sources say the feuding tribes of Medina had agreed to crown him before the Prophet arrived and the crown evaporated. He professed Islam, kept his seat in the council — and, in the tradition's telling, worked against the Prophet from within {cite:ibn-ishaq-guillaume} {cite:watt-1956-medina}.
+The sources say the feuding tribes of Yathrib agreed to crown him before the Prophet arrived, and the crown evaporated. He then showed Islam, and his seat in the assembly remained — in the tradition's account he worked against the Prophet from within {cite:ibn-ishaq-guillaume} {cite:watt-1956-medina}.
 
-He withdrew his third of the army on the eve of [[event/battle-of-uhud|Uhud]]; the slander against Aisha and sura al-Munafiqun are read against him {cite:ibn-sad-tabaqat-bewley}. He died in early 631 CE, and the tradition records that the Prophet prayed over him and gave his own shirt for the shroud — an ending the sources tell without softening the man {cite:ibn-sad-tabaqat-bewley}.
-
-:::perspectives
-Sunni tradition names him chief of the hypocrites: outwardly Muslim, inwardly working to split the community — the figure sura al-Munafiqun is read around.
-
-Historians describe a Medinese aristocrat losing a straightforward contest for power to the Prophet's ascendancy — "hypocrite" being the tradition's own category for the internal opposition.
-:::
+He withdrew a third of the army on the eve of [[event/battle-of-uhud|Uhud]]; the incident of the slander (hadith al-ifk) and the sura al-Munafiqun are read in connection with him {cite:ibn-sad-tabaqat-bewley}. He died in early 631 CE. Tradition records that the Prophet prayed over him and clothed him in his shirt — an ending the sources report without softening the man {cite:ibn-sad-tabaqat-bewley}.
 
 ## For young visitors
-The man who nearly became king of Medina lost his crown to the Prophet's arrival — and fought him from inside the city for years after.
+The man who nearly became ruler of the city lost his crown when the Prophet arrived — and fought him from inside the city for years afterwards.
+
+## In Medina at the Hijra (The Sealed Nectar p.179)
+The Aws and the Khazraj had united under his leadership after the war of Bu'ath, and they had strung beads to make him a crown. When the Prophet came, his people turned to the Prophet, and he felt that kingship had been taken from him. He showed Islam after Badr, but kept disbelief hidden within ([[concept/medina-society-at-hijra|Medina's society at the Hijra]]) {cite:mubarakpuri-raheeq p.179}.
+
+## Quraysh's letter to him (The Sealed Nectar p.194–195)
+Quraysh wrote to him threatening war or expulsion, and he and the pagans with him gathered to fight the Prophet. When the Prophet came to them, they dispersed. He refrained from fighting, because he judged that his companions would not hold firm ([[event/quraysh-letter-to-ibn-ubayy|Quraysh's letter to Ibn Ubayy]]) {cite:mubarakpuri-raheeq p.194}.

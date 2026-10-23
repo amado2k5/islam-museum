@@ -1,0 +1,26 @@
+id: person/bir-kilija-mustafa
+class: person
+label:
+  ar: "بير كلجة مصطفى"
+  en: "Börklüce Mustafa"
+names:
+  - { kind: full, lang: ar, value: "بير كلجة مصطفى" }
+roles: [activist, scholar]
+gender: male
+summary:
+  ar: "بير كلجة مصطفى؛ أشهر دعاة الشيخ بدر الدين السماوني وأمراء جنوده في رواية الصلابي. يذكر الكتاب أنه قتل القائد سيسمان الذي أرسله السلطان محمد جلبي لمحاربة بدر الدين وهزم جيشه، فأعدّ السلطان جيشاً آخر بقيادة وزيره الأول بايزيد باشا فحاربه وانتصر عليه في موقعة قره بورنو، وأُقيم عليه بعدها حد الحرابة فأُعدم {cite:dawlat-uthmaniyya-salabi p. 75}."
+  en: "Börklüce Mustafa — in al-Sallabi's account the best-known preacher and field commander of Sheikh Badr al-Din's movement. He killed Mehmed's commander Shishman and routed his army, then fell to a second host under the vizier Bayezid Pasha at Qara Burnu and was executed under the hiraba ruling {cite:dawlat-uthmaniyya-salabi p. 75}."
+wings: [people]
+regions: [anatolia-balkans]
+periods: [period/mongol-post-mongol]
+relations:
+  - { type: related_to, target: person/badr-al-din-simawi, role: "من أشهر دعاته وقواده", sources: [source/dawlat-uthmaniyya-salabi] }
+  - { type: opposed, target: person/muhammad-i-jalabi, sources: [source/dawlat-uthmaniyya-salabi] }
+sources: [source/dawlat-uthmaniyya-salabi]
+provenance:
+  layer: own-research
+  source: "الدولة العثمانية لعلي محمد الصلابي، ص 75"
+  generated_by: "Devin (SWE-2 Medium) from Apple Vision OCR"
+  model: "SWE-2 Medium"
+  run: lib-salabi-uthmani-batch-3
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 Medium)" }

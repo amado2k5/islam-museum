@@ -1,0 +1,23 @@
+id: event/battle-of-kosmidion-1410
+class: event
+kind: battle
+label: { ar: "معركة كوسميديون", en: "Battle of Kosmidion" }
+summary:
+  ar: "بطاقة أولية لمعركة كوسميديون سنة ١٤١٠م، نصر سليمان جلبي على أخيه موسى في حرب الخلافة العثمانية؛ لم تُراجع مصادره على الصفحة بعد."
+  en: "Draft card for the Battle of Kosmidion in 1410, Suleiman Çelebi's victory over his brother Musa in the Ottoman interregnum; its sources are not yet checked on the page."
+wings: [time]
+periods: [period/crusades-ayyubid-mamluk]
+regions: [anatolia-balkans]
+date:
+  start: { edtf: "1410", precision: year, status: tradition, derived: true }
+  end: { edtf: "1410", precision: year, status: tradition, derived: true }
+sources: [source/dawlat-uthmaniyya-salabi]
+external_ids:
+  wikidata: Q4871484
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; battle attested in interregnum histories — entry not yet checked on the page"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-wave2
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

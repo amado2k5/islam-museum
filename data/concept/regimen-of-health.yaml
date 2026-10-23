@@ -1,0 +1,17 @@
+id: concept/regimen-of-health
+class: concept
+kind: scientific
+label: { ar: "التدبير وحفظ الصحة", en: "Regimen of health (al-tadbir)" }
+summary:
+  ar: "يذكر ابن سينا أن حفظ الصحة وإزالة المرض يحتاجان إلى موضوعات أخرى، منها التدبير بالمأكول والمشروب واختيار الهواء وتقدير الحركة والسكون {cite:canon-ibn-sina-print-v1 p.15}. وفي الفن الثالث من الكتاب الأول يعرض التدبير المشترك للبالغين، وهو سبعة عشر فصلاً، ويبدأ بالرياضة لأن معظم تدبير حفظ الصحة هو أن يُرتاض، ثم تدبير الغذاء، ثم تدبير النوم {cite:canon-ibn-sina-print-v1 p.221}."
+  en: "Ibn Sina says that keeping health and removing disease need further subjects, among them the regimen of food and drink, the choice of air, and the measure of movement and rest {cite:canon-ibn-sina-print-v1 p.15}. In Fann 3 of Book I he treats the common regimen for adults, in seventeen chapters, beginning with exercise, since most of keeping health lies in exercise, then diet, then sleep {cite:canon-ibn-sina-print-v1 p.221}."
+sources: [source/canon-ibn-sina-print-v1]
+relations:
+  - { type: part_of, target: concept/medicine, sources: [source/canon-ibn-sina-print-v1] }
+provenance:
+  layer: own-research
+  source: "Canon of Medicine, vol. 1, Book I, Fann 1 (scan page 15) and Fann 3, Ta'lim 2 (scan page 221), Arabic printed edition (Dar al-Kutub al-Ilmiyya, 1999)"
+  generated_by: "Claude Haiku 5.5"
+  model: claude-haiku-5-5
+  run: lib-exp-medicine-science-canon-batch-2
+status: { review: draft, completeness: 1, generated_by: "Claude Haiku 5.5 (library-expansion)" }

@@ -1,0 +1,17 @@
+id: passage/muslim-1864
+class: passage
+unit: hadith
+work: work/sahih-muslim
+ref: "1864"
+label: { ar: "مسلم 1864 — لا هجرة بعد الفتح ولكن جهاد ونية", en: "Muslim 1864 — No emigration after the conquest, but jihad and intention" }
+text: "سئل رسول الله عن الهجرة فقال: «لا هجرة بعد الفتح، ولكن جهاد ونية، وإذا استنفرتم فانفروا»"
+summary:
+  ar: "رواية عائشة في صحيح مسلم؛ سؤال الهجرة بعد فتح مكة والجواب بانقطاعها وبقاء الجهاد والنية — نص التحول الذي أحدثه الفتح في علاقة مكة بالمدينة."
+relations:
+  - { type: mentions, target: person/muhammad, sources: [source/sahih-muslim] }
+  - { type: mentions, target: person/aisha, sources: [source/sahih-muslim] }
+  - { type: mentions, target: event/conquest-of-mecca, sources: [source/sahih-muslim] }
+  - { type: mentions, target: event/hijra, sources: [source/sahih-muslim] }
+provenance: { layer: own-research, source: "صحيح مسلم، كتاب الحج (طبعة دار التأصيل، الحديث 4938؛ ترقيم عبد الباقي المعروف 1864)، تصوير Apple Vision OCR", generated_by: "Devin (SWE-2 High) from Apple Vision OCR", run: "hadith-muslim-passages-2" }
+sources: [source/sahih-muslim]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High); matn excerpt at most 40 words checked against the scan" }

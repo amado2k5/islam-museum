@@ -1,0 +1,76 @@
+id: exhibit/path-zaydi
+class: exhibit
+kind: trail
+label:
+  ar: الزيدية
+  en: The Zaydiyya
+summary:
+  ar: 'مسار في مذهب الشيعة الأقرب للسنة: زيد بن علي يخرج على الأمويين، وإمامة صعدة ألف سنة — اليمن الزيدية.'
+  en: A trail through the activist Shi'a.
+audience:
+- newcomer
+- student
+duration_minutes: 30
+wings: []
+regions:
+- arabia
+rooms:
+- title:
+    ar: زيد
+    en: Zayd
+  body:
+    ar: 'ابن علي بن الحسين: ثائر الكوفة 740.'
+    en: 'ابن علي بن الحسين: ثائر الكوفة 740.'
+  features:
+  - group/zaydiyya
+  - place/kufa
+- title:
+    ar: المذهب
+    en: The tradition
+  body:
+    ar: 'إمامة عالم يخرج بالسيف: فقه مقرب.'
+    en: 'إمامة عالم يخرج بالسيف: فقه مقرب.'
+  features:
+  - group/zaydiyya
+  - group/zaydiyya
+- title:
+    ar: اليمن
+    en: Yemen
+  body:
+    ar: 'الزيدية في صعدة: من القاسم إلى حميد الدين.'
+    en: 'الزيدية في صعدة: من القاسم إلى حميد الدين.'
+  features:
+  - group/zaydiyya
+  - place/sanaa
+- title:
+    ar: الإمامة
+    en: The imamate
+  body:
+    ar: 'ألف سنة: من 897 إلى 1962.'
+    en: 'ألف سنة: من 897 إلى 1962.'
+  features:
+  - group/zaydiyya
+  - place/sanaa
+- title:
+    ar: اليوم
+    en: Today
+  body:
+    ar: 'الحوثيون والتراث: الزيدية الآن.'
+    en: 'الحوثيون والتراث: الزيدية الآن.'
+  features:
+  - group/zaydiyya
+  - place/sanaa
+prerequisites:
+- exhibit/path-islam-in-30-minutes
+sources:
+- source/wikidata
+provenance:
+  layer: own-research
+  source: Devin-assembled trail from existing museum entities
+  generated_by: Devin (SWE-2 High)
+  model: SWE-2 High
+  run: pathways-batch-7
+status:
+  review: draft
+  completeness: 1
+  generated_by: Devin (SWE-2 High), pathways lane, 2026-10-16

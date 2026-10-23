@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 38:6 (سورة ص، الآية 6)."
 text: "وَٱنطَلَقَ ٱلْمَلَأُ مِنْهُمْ أَنِ ٱمْشُوا۟ وَٱصْبِرُوا۟ عَلَىٰٓ ءَالِهَتِكُمْ ۖ إِنَّ هَـٰذَا لَشَىْءٌ يُرَادُ"
 text_search: "وانطلق الملأ منهم أن امشوا واصبروا على آلهتكم ۖ إن هذا لشيء يراد"
+translations:
+  en: { text: "The chiefs among them go about, exhorting: Go and be staunch to your gods! Lo! this is a thing designed.", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "تو ان میں جو معزز تھے وہ چل کھڑے ہوئے (اور بولے) کہ چلو اور اپنے معبودوں (کی پوجا) پر قائم رہو۔ بےشک یہ ایسی بات ہے جس سے (تم پر شرف وفضلیت) مقصود ہے", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-38 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

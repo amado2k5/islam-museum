@@ -1,0 +1,27 @@
+---
+// Kids' Word Garden page: breadcrumb + garden + grown-ups note with museum cross-link.
+import BaseLayout from "../../../layouts/BaseLayout.astro";
+import KidsWordGarden from "../../../components/KidsWordGarden.astro";
+import { ui, LANGS, type Lang } from "../../../lib/i18n";
+import "../../../styles/kids.css";
+
+export function getStaticPaths() { return LANGS.map((lang) => ({ params: { lang }, props: { lang } })); }
+const { lang } = Astro.props as { lang: Lang };
+const T = ui(lang);
+const t = T.kids;
+const crumbLabel = lang === "ar" ? "مسار التنقل" : "breadcrumb";
+const wordmapLabel = lang === "ar" ? "«وبشّر» في بطاقات المتحف" : "“wa-bashshir” in the Museum Cards";
+---
+<BaseLayout lang={lang} title={t.garden_title} description={t.garden_lede} path={`/${lang}/sighar/garden/`} kids={true}>
+  <nav aria-label={crumbLabel} class="crumbs">
+    <a href={`/${lang}/sighar/`}>{t.hub_title}</a>
+    <span aria-hidden="true"> / </span>
+    <span aria-current="page">{t.garden_title}</span>
+  </nav>
+  <KidsWordGarden lang={lang} t={t} />
+  <details class="grownups">
+    <summary>{t.grownups_title}</summary>
+    <p>{t.grownups_garden}</p>
+    <p><a href={`/${lang}/cards/word/wa-bashshir/`}>{wordmapLabel}</a></p>
+  </details>
+</BaseLayout>

@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 18:27 (سورة الكهف، الآية 27)."
 text: "وَٱتْلُ مَآ أُوحِىَ إِلَيْكَ مِن كِتَابِ رَبِّكَ ۖ لَا مُبَدِّلَ لِكَلِمَـٰتِهِۦ وَلَن تَجِدَ مِن دُونِهِۦ مُلْتَحَدًا"
 text_search: "واتل ما أوحي إليك من كتاب ربك ۖ لا مبدل لكلماته ولن تجد من دونه ملتحدا"
+translations:
+  en: { text: "And recite that which hath been revealed unto thee of the Scripture of thy Lord. There is none who can change His words, and thou wilt find no refuge beside Him.", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "اور اپنے پروردگار کی کتاب جو تمہارے پاس بھیجی جاتی ہے پڑھتے رہا کرو۔ اس کی باتوں کو کوئی بدلنے والا نہیں۔ اور اس کے سوا تم کہیں پناہ کی جگہ بھی نہیں پاؤ گے", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-18 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

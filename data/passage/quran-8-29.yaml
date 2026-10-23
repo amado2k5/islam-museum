@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 8:29 (سورة الأنفال، الآية 29)."
 text: "يَـٰٓأَيُّهَا ٱلَّذِينَ ءَامَنُوٓا۟ إِن تَتَّقُوا۟ ٱللَّهَ يَجْعَل لَّكُمْ فُرْقَانًا وَيُكَفِّرْ عَنكُمْ سَيِّـَٔاتِكُمْ وَيَغْفِرْ لَكُمْ ۗ وَٱللَّهُ ذُو ٱلْفَضْلِ ٱلْعَظِيمِ"
 text_search: "يا أيها الذين آمنوا إن تتقوا الله يجعل لكم فرقانا ويكفر عنكم سيئاتكم ويغفر لكم ۗ والله ذو الفضل العظيم"
+translations:
+  en: { text: "O ye who believe! If ye keep your duty to Allah, He will give you discrimination (between right and wrong) and will rid you of your evil thoughts and deeds, and will forgive you. Allah is of Infinite Bounty.", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "مومنو! اگر تم خدا سے ڈرو گے تو وہ تمہارے لیے امر فارق پیدا کردے گا (یعنی تم کو ممتاز کردے گا) تو وہ تمہارے گناہ مٹادے گا اور تمہیں بخش دے گا۔ اور خدا بڑا فضل والا ہے", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-8 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

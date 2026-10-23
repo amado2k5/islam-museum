@@ -1,0 +1,23 @@
+id: event/capture-of-jeddah-1925
+class: event
+kind: battle
+label: { ar: "سقوط جدة (١٩٢٥)", en: "Battle of Jeddah" }
+summary:
+  ar: "بطاقة أولية لسقوط جدة سنة ١٩٢٥م، أخذ عبد العزيز بن سعود للمدينة من الشريف علي؛ لم تُراجع مصادره على الصفحة بعد."
+  en: "Draft card for the fall of Jeddah in 1925, Abd al-Aziz ibn Saud's capture of the city from Sharif Ali; its sources are not yet checked on the page."
+wings: [time]
+periods: [period/modern-era]
+regions: [arabia]
+date:
+  start: { edtf: "1925", precision: year, status: tradition, derived: true }
+  end: { edtf: "1925", precision: year, status: tradition, derived: true }
+sources: [source/tarikh-islam-hasan-ibrahim]
+external_ids:
+  wikidata: Q4871317
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; battle attested in narrative histories — entry not yet checked on the page"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-wave2
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

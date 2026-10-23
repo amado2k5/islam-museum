@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 29:17 (سورة العنكبوت، الآية 17)."
 text: "إِنَّمَا تَعْبُدُونَ مِن دُونِ ٱللَّهِ أَوْثَـٰنًا وَتَخْلُقُونَ إِفْكًا ۚ إِنَّ ٱلَّذِينَ تَعْبُدُونَ مِن دُونِ ٱللَّهِ لَا يَمْلِكُونَ لَكُمْ رِزْقًا فَٱبْتَغُوا۟ عِندَ ٱللَّهِ ٱلرِّزْقَ وَٱعْبُدُوهُ وَٱشْكُرُوا۟ لَهُۥٓ ۖ إِلَيْهِ تُرْجَعُونَ"
 text_search: "إنما تعبدون من دون الله أوثانا وتخلقون إفكا ۚ إن الذين تعبدون من دون الله لا يملكون لكم رزقا فابتغوا عند الله الرزق واعبدوه واشكروا له ۖ إليه ترجعون"
+translations:
+  en: { text: "Ye serve instead of Allah only idols, and ye only invent a lie. Lo! those whom ye serve instead of Allah own no provision for you. So seek your provision from Allah, and serve Him, and give thanks unto Him, (for) unto Him ye will be brought back.", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "تو تم خدا کو چھوڑ کر بتوں کو پوجتے اور طوفان باندھتے ہو تو جن لوگوں کو تم خدا کے سوا پوجتے ہو وہ تم کو رزق دینے کا اختیار نہیں رکھتے پس خدا ہی کے ہاں سے رزق طلب کرو اور اسی کی عبادت کرو اور اسی کا شکر کرو اسی کی طرف تم لوٹ کر جاؤ گے", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-29 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

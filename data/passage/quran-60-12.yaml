@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 60:12 (سورة الممتحنة، الآية 12)."
 text: "يَـٰٓأَيُّهَا ٱلنَّبِىُّ إِذَا جَآءَكَ ٱلْمُؤْمِنَـٰتُ يُبَايِعْنَكَ عَلَىٰٓ أَن لَّا يُشْرِكْنَ بِٱللَّهِ شَيْـًٔا وَلَا يَسْرِقْنَ وَلَا يَزْنِينَ وَلَا يَقْتُلْنَ أَوْلَـٰدَهُنَّ وَلَا يَأْتِينَ بِبُهْتَـٰنٍ يَفْتَرِينَهُۥ بَيْنَ أَيْدِيهِنَّ وَأَرْجُلِهِنَّ وَلَا يَعْصِينَكَ فِى مَعْرُوفٍ ۙ فَبَايِعْهُنَّ وَٱسْتَغْفِرْ لَهُنَّ ٱللَّهَ ۖ إِنَّ ٱللَّهَ غَفُورٌ رَّحِيمٌ"
 text_search: "يا أيها النبي إذا جاءك المؤمنات يبايعنك على أن لا يشركن بالله شيئا ولا يسرقن ولا يزنين ولا يقتلن أولادهن ولا يأتين ببهتان يفترينه بين أيديهن وأرجلهن ولا يعصينك في معروف ۙ فبايعهن واستغفر لهن الله ۖ إن الله غفور رحيم"
+translations:
+  en: { text: "O Prophet! If believing women come unto thee, taking oath of allegiance unto thee that they will ascribe no thing as partner unto Allah, and will neither steal nor commit adultery nor kill their children, nor produce any lie that they have devised between their hands and feet, nor disobey thee in what is right, then accept their allegiance and ask Allah to forgive them. Lo! Allah is Forgiving, Merciful.", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "اے پیغمبر! جب تمہارے پاس مومن عورتیں اس بات پر بیعت کرنے کو آئیں کہ خدا کے ساتھ نہ شرک کریں گی نہ چوری کریں گی نہ بدکاری کریں گی نہ اپنی اولاد کو قتل کریں گی نہ اپنے ہاتھ پاؤں میں کوئی بہتان باندھ لائیں گی اور نہ نیک کاموں میں تمہاری نافرمانی کریں گی تو ان سے بیعت لے لو اور ان کے لئے خدا سے بخشش مانگو۔ بےشک خدا بخشنے والا مہربان ہے", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-60 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

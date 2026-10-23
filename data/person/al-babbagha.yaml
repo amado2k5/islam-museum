@@ -1,0 +1,22 @@
+id: person/al-babbagha
+class: person
+label: { ar: "أبو الفرج عبد الواحد بن نصر المخزومي الببغاء", en: "Abu al-Faraj al-Makhzumi al-Babbagha" }
+summary:
+  ar: "عبد الواحد بن نصر بن علي أبو الفرج المخزومي الشاعر الملقب بالببغاء، كان أديباً فاضلاً وكاتباً مترسلاً وشاعراً مجيداً لطيفاً، ومن مشهور شعره قوله إلى عميد الجيوش لما حبس يستغيث به وقد ثبت به داره وفر العبيد وأودت ثيابه وباع فروشه، وكان قد لقب بالببغاء قديماً فيقول قد مزق الدهر وشيي وكان غذائي نقي الأرز فها أنا مقتفع بسال الشيش، وكتب إليه أبو إسحاق إبراهيم بن هلال الصابي من السجن وقد زاره في محبسه. توفي الببغاء في شعبان سنة ثمان وتسعين {cite:muntazam-ibn-al-jawzi j.7 p.241-243}."
+  en: "Abd al-Wahid ibn Nasr ibn Ali, Abu al-Faraj al-Makhzumi, the poet called al-Babbagha; a cultivated man of letters, an elegant epistolary writer and a fine poet. Among his best-known verses is one addressed to Amid al-Juyush, appealing for help while he was imprisoned, when his house had been seized, his slaves had fled, his clothes were ruined and he had sold his furnishings. He had been nicknamed al-Babbagha long before, and in that verse he says that time has torn his garment, and that where his food was once fine rice he now makes do with plainer fare. Abu Ishaq Ibrahim ibn Hilal al-Sabi wrote to him from the prison, after visiting him in his confinement. He died in Sha'ban 398 {cite:muntazam-ibn-al-jawzi j.7 p.241-243}."
+wings: [people]
+periods: [period/buyid-seljuk-fatimid-era]
+regions: [levant-iraq]
+roles: [poet, writer]
+themes: [literature]
+died:
+  { edtf: "1008-03~", hijri: "0398-08", calendar: julian, precision: month, status: tradition, derived: true, note: "شعبان 398؛ التحويل مشتق {cite:muntazam-ibn-al-jawzi j.7 p.243}" }
+relations:
+  - { type: corresponded_with, target: person/ibrahim-ibn-hilal-al-sabi, role: "كاتبه من محبسه", sources: [source/muntazam-ibn-al-jawzi] }
+provenance:
+  layer: own-research
+  source: "المنتظم في تاريخ الملوك والأمم — ابن الجوزي (ج7، وفيات سنة 398)، قراءة آبل فيجن"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-muntazam-batch-21
+sources: [source/muntazam-ibn-al-jawzi]
+status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 High)" }

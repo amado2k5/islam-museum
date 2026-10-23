@@ -1,0 +1,23 @@
+id: event/battle-of-qarabagh-1469
+class: event
+kind: battle
+label: { ar: "معركة قره باغ (١٤٦٩)", en: "Battle of Qarabagh" }
+summary:
+  ar: "بطاقة أولية لمعركة قره باغ سنة ١٤٦٩م، فوز أوزون حسن على الجيش التيموري؛ لم تُراجع مصادره على الصفحة بعد."
+  en: "Draft card for the Battle of Qarabagh in 1469, Uzun Hasan's victory over the Timurid army; its sources are not yet checked on the page."
+wings: [time]
+periods: [period/crusades-ayyubid-mamluk]
+regions: [persia-central-asia]
+date:
+  start: { edtf: "1469", precision: year, status: tradition, derived: true }
+  end: { edtf: "1469", precision: year, status: tradition, derived: true }
+sources: [source/tarikh-islam-hasan-ibrahim]
+external_ids:
+  wikidata: Q55707116
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; battle attested in narrative histories — entry not yet checked on the page"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-wave2
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

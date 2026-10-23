@@ -1,0 +1,22 @@
+id: person/rifaa-ibn-qays-al-jushami
+class: person
+label: { ar: "رفاعة بن قيس الجشمي", en: "Rifa'a ibn Qays al-Jushami" }
+names:
+  - { kind: full, lang: ar, value: "رفاعة بن قيس الجشمي" }
+  - { kind: alternate, lang: ar, value: "قيس بن رفاعة" }
+gender: male
+summary:
+  ar: "رجل ذو اسم وشرف في بني جشم بن معاوية نزل بالغابة في بطن عظيم من قومه يريد أن يجمع قيساً على حرب النبي، فبعث إليه النبي عبد الله بن أبي حدرد في رجلين فرماه بسهم في فؤاده واحتزّ رأسه؛ يشك ابن إسحاق في اسمه: رفاعة بن قيس أو قيس بن رفاعة."
+  en: "A man of name and rank in Banu Jusham ibn Mu'awiya who camped at al-Ghaba with a large clan of his people, meaning to gather Qays for war against the Prophet; the Prophet sent Abdullah ibn Abi Hadrad with two men, who shot him through the heart and cut off his head. Ibn Ishaq is unsure whether his name was Rifa'a ibn Qays or Qays ibn Rifa'a."
+wings: [people]
+periods: [period/prophetic-era]
+regions: [arabia]
+story_roles:
+  - { role: military-opponent, toward: group/early-muslims, status: tradition, note: "«يريد أن يجمع قيساً على حرب رسول الله» عند ابن إسحاق", sources: [source/ibn-hisham-saqqa] }
+died: { edtf: "0629~", hijri: "0008~", calendar: julian, precision: year, status: debated, note: "قُتل بالغابة؛ السنة غير منصوصة (needs_source).", sources: [source/ibn-hisham-saqqa] }
+relations:
+  - { type: member_of, target: group/banu-jusham, sources: [source/ibn-hisham-saqqa] }
+  - { type: participated_in, target: event/raid-of-ibn-abi-hadrad-on-al-ghaba, role: "المقتول", sources: [source/ibn-hisham-saqqa] }
+provenance: { layer: own-research, source: "sira-ibn-hisham saqqa 1936, juz' 4 pp. 278-279", generated_by: "Claude Code", model: "claude-fable-5-1", run: "ibn-hisham-batch-14" }
+sources: [source/ibn-hisham-saqqa]
+status: { review: draft, completeness: 1, generated_by: "Claude Fable 5.1; mined from Ibn Hisham juz' 4 pp. 278-279" }

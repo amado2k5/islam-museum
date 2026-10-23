@@ -1,0 +1,78 @@
+id: exhibit/path-qibla-direction
+class: exhibit
+kind: trail
+label:
+  ar: القبلة
+  en: The Qibla
+summary:
+  ar: 'مسار في الاتجاه الأقدس: من بيت المقدس إلى الكعبة، وأدلة القبلة وعلم الاتجاهات، ومحاريب العالم كله
+    تشير جنوبًا شرقًا.'
+  en: A trail through the holiest direction.
+audience:
+- newcomer
+- student
+duration_minutes: 30
+wings: []
+regions:
+- arabia
+rooms:
+- title:
+    ar: التحول
+    en: The turn
+  body:
+    ar: 'من القدس إلى الكعبة: آية التحول.'
+    en: 'من القدس إلى الكعبة: آية التحول.'
+  features:
+  - place/mecca
+  - place/mecca
+  - concept/adillat-al-qibla
+- title:
+    ar: أدلة القبلة
+    en: Qibla indicators
+  body:
+    ar: 'النجوم والشمس والظل: علم الاتجاه.'
+    en: 'النجوم والشمس والظل: علم الاتجاه.'
+  features:
+  - concept/adillat-al-qibla
+  - practice/salat
+- title:
+    ar: أهل القبلة
+    en: Ahl al-Qibla
+  body:
+    ar: 'المصطلح الوحدوي: كل من يصلي.'
+    en: 'المصطلح الوحدوي: كل من يصلي.'
+  features:
+  - concept/ahl-al-qibla
+  - concept/tawhid
+- title:
+    ar: المحاريب
+    en: Mihrabs
+  body:
+    ar: 'محاريب العالم: عمارة الاتجاه.'
+    en: 'محاريب العالم: عمارة الاتجاه.'
+  features:
+  - concept/adillat-al-qibla
+  - building/masjid-sultan-hasan
+- title:
+    ar: الكعبة
+    en: The Ka'ba
+  body:
+    ar: 'قبلة العالم: بيت الله الحرام.'
+    en: 'قبلة العالم: بيت الله الحرام.'
+  features:
+  - place/mecca
+  - practice/salat
+prerequisites:
+- exhibit/path-islam-in-30-minutes
+sources:
+- source/wikidata
+provenance:
+  layer: own-research
+  source: Devin-assembled trail from existing museum entities
+  generated_by: Devin (SWE-2 High)
+  model: SWE-2 High
+  run: pathways-batch-7
+status:
+  review: draft
+  completeness: 1
+  generated_by: Devin (SWE-2 High), pathways lane, 2026-10-16

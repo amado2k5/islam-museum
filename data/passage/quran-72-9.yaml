@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 72:9 (سورة الجن، الآية 9)."
 text: "وَأَنَّا كُنَّا نَقْعُدُ مِنْهَا مَقَـٰعِدَ لِلسَّمْعِ ۖ فَمَن يَسْتَمِعِ ٱلْـَٔانَ يَجِدْ لَهُۥ شِهَابًا رَّصَدًا"
 text_search: "وأنا كنا نقعد منها مقاعد للسمع ۖ فمن يستمع الآن يجد له شهابا رصدا"
+translations:
+  en: { text: "And we used to sit on places (high) therein to listen. But he who listeneth now findeth a flame in wait for him;", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "اور یہ کہ پہلے ہم وہاں بہت سے مقامات میں (خبریں) سننے کے لئے بیٹھا کرتے تھے۔ اب کوئی سننا چاہے تو اپنے لئے انگارا تیار پائے", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-72 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 12:24 (سورة يوسف، الآية 24)."
 text: "وَلَقَدْ هَمَّتْ بِهِۦ ۖ وَهَمَّ بِهَا لَوْلَآ أَن رَّءَا بُرْهَـٰنَ رَبِّهِۦ ۚ كَذَٰلِكَ لِنَصْرِفَ عَنْهُ ٱلسُّوٓءَ وَٱلْفَحْشَآءَ ۚ إِنَّهُۥ مِنْ عِبَادِنَا ٱلْمُخْلَصِينَ"
 text_search: "ولقد همت به ۖ وهم بها لولا أن رأى برهان ربه ۚ كذلك لنصرف عنه السوء والفحشاء ۚ إنه من عبادنا المخلصين"
+translations:
+  en: { text: "She verily desired him, and he would have desired her if it had not been that he saw the argument of his Lord. Thus it was, that We might ward off from him evil and lewdness. Lo! he was of Our chosen slaves.", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "اور اس عورت نے ان کا قصد کیا اور انہوں نے اس کا قصد کیا۔ اگر وہ اپنے پروردگار کی نشانی نہ دیکھتے (تو جو ہوتا ہوتا) یوں اس لیے (کیا گیا) کہ ہم ان سے برائی اور بےحیائی کو روک دیں۔ بےشک وہ ہمارے خالص بندوں میں سے تھے", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-12 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

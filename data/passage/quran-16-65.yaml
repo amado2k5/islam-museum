@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 16:65 (سورة النحل، الآية 65)."
 text: "وَٱللَّهُ أَنزَلَ مِنَ ٱلسَّمَآءِ مَآءً فَأَحْيَا بِهِ ٱلْأَرْضَ بَعْدَ مَوْتِهَآ ۚ إِنَّ فِى ذَٰلِكَ لَـَٔايَةً لِّقَوْمٍ يَسْمَعُونَ"
 text_search: "والله أنزل من السماء ماء فأحيا به الأرض بعد موتها ۚ إن في ذلك لآية لقوم يسمعون"
+translations:
+  en: { text: "Allah sendeth down water from the sky and therewith reviveth the earth after her death. Lo! herein is indeed a portent for a folk who hear.", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "اور خدا ہی نے آسمان سے پانی برسایا پھر اس سے زمین کو اس کے مرنے کے بعد زندہ کیا۔ بےشک اس میں سننے والوں کے لیے نشانی ہے", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-16 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

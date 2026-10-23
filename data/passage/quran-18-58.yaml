@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 18:58 (سورة الكهف، الآية 58)."
 text: "وَرَبُّكَ ٱلْغَفُورُ ذُو ٱلرَّحْمَةِ ۖ لَوْ يُؤَاخِذُهُم بِمَا كَسَبُوا۟ لَعَجَّلَ لَهُمُ ٱلْعَذَابَ ۚ بَل لَّهُم مَّوْعِدٌ لَّن يَجِدُوا۟ مِن دُونِهِۦ مَوْئِلًا"
 text_search: "وربك الغفور ذو الرحمة ۖ لو يؤاخذهم بما كسبوا لعجل لهم العذاب ۚ بل لهم موعد لن يجدوا من دونه موئلا"
+translations:
+  en: { text: "Thy Lord is the Forgiver, Full of Mercy. If He took them to task (now) for what they earn, He would hasten on the doom for them; but theirs is an appointed term from which they will find no escape.", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "اور تمہارا پروردگار بخشنے والا صاحب رحمت ہے۔ اگر وہ ان کے کرتوتوں پر ان کو پکڑنے لگے تو ان پر جھٹ عذاب بھیج دے۔ مگر ان کے لئے ایک وقت (مقرر کر رکھا) ہے کہ اس کے عذاب سے کوئی پناہ کی جگہ نہ پائیں گے", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-18 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

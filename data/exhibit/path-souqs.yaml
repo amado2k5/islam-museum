@@ -1,0 +1,77 @@
+id: exhibit/path-souqs
+class: exhibit
+kind: trail
+label:
+  ar: الأسواق
+  en: The Souqs
+summary:
+  ar: 'مسار في أسواق الإسلام الكبرى: خان الخليلي والحامدية وواقف والبازار الكبير — التجارة في قلب المدينة.'
+  en: A trail through the great markets.
+audience:
+- newcomer
+- student
+duration_minutes: 30
+wings: []
+regions:
+- global
+rooms:
+- title:
+    ar: الخان
+    en: Khan al-Khalili
+  body:
+    ar: 'القاهرة 1382: أشهر سوق عربية.'
+    en: 'القاهرة 1382: أشهر سوق عربية.'
+  features:
+  - building/khan-al-khalili
+  - place/cairo
+- title:
+    ar: الحامدية
+    en: Al-Hamidiyya
+  body:
+    ar: 'دمشق العثمانية: أكبر أسواق الشام.'
+    en: 'دمشق العثمانية: أكبر أسواق الشام.'
+  features:
+  - building/souq-al-hamidiyya
+  - place/damascus
+- title:
+    ar: واقف
+    en: Waqif
+  body:
+    ar: 'الدوحة القديمة: سوق قطر.'
+    en: 'الدوحة القديمة: سوق قطر.'
+  features:
+  - building/souq-waqif
+  - building/souq-waqif
+- title:
+    ar: البازار الكبير
+    en: Grand Bazaar
+  body:
+    ar: 'إسطنبول: 4000 دكان تحت سقف.'
+    en: 'إسطنبول: 4000 دكان تحت سقف.'
+  features:
+  - building/grand-bazaar-istanbul
+  - place/istanbul
+- title:
+    ar: بازارات فارس
+    en: Persian bazaars
+  body:
+    ar: 'أصفهان وتبريز: طريق الحرير.'
+    en: 'أصفهان وتبريز: طريق الحرير.'
+  features:
+  - building/bazaar-isfahan
+  - building/bazaar-tabriz
+  - building/muttrah-souq
+prerequisites:
+- exhibit/path-islam-in-30-minutes
+sources:
+- source/wikidata
+provenance:
+  layer: own-research
+  source: Devin-assembled trail from existing museum entities
+  generated_by: Devin (SWE-2 High)
+  model: SWE-2 High
+  run: pathways-batch-7
+status:
+  review: draft
+  completeness: 1
+  generated_by: Devin (SWE-2 High), pathways lane, 2026-10-16

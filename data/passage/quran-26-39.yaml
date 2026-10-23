@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 26:39 (سورة الشعراء، الآية 39)."
 text: "وَقِيلَ لِلنَّاسِ هَلْ أَنتُم مُّجْتَمِعُونَ"
 text_search: "وقيل للناس هل أنتم مجتمعون"
+translations:
+  en: { text: "And it was said unto the people: Are ye (also) gathering?", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "اور لوگوں سے کہہ دیا گیا کہ تم (سب) کو اکھٹے ہو کر جانا چاہیئے", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-26 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

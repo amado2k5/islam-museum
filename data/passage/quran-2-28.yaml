@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 2:28 (سورة البقرة، الآية 28)."
 text: "كَيْفَ تَكْفُرُونَ بِٱللَّهِ وَكُنتُمْ أَمْوَٰتًا فَأَحْيَـٰكُمْ ۖ ثُمَّ يُمِيتُكُمْ ثُمَّ يُحْيِيكُمْ ثُمَّ إِلَيْهِ تُرْجَعُونَ"
 text_search: "كيف تكفرون بالله وكنتم أمواتا فأحياكم ۖ ثم يميتكم ثم يحييكم ثم إليه ترجعون"
+translations:
+  en: { text: "How disbelieve ye in Allah when ye were dead and He gave life to you! Then He will give you death, then life again, and then unto Him ye will return.", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "(کافرو!) تم خدا سے کیوں کر منکر ہو سکتے ہو جس حال میں کہ تم بےجان تھے تو اس نے تم کو جان بخشی پھر وہی تم کو مارتا ہے پھر وہی تم کو زندہ کرے گا پھر تم اسی کی طرف لوٹ کر جاؤ گے", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-2 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 9:54 (سورة التوبة، الآية 54)."
 text: "وَمَا مَنَعَهُمْ أَن تُقْبَلَ مِنْهُمْ نَفَقَـٰتُهُمْ إِلَّآ أَنَّهُمْ كَفَرُوا۟ بِٱللَّهِ وَبِرَسُولِهِۦ وَلَا يَأْتُونَ ٱلصَّلَوٰةَ إِلَّا وَهُمْ كُسَالَىٰ وَلَا يُنفِقُونَ إِلَّا وَهُمْ كَـٰرِهُونَ"
 text_search: "وما منعهم أن تقبل منهم نفقاتهم إلا أنهم كفروا بالله وبرسوله ولا يأتون الصلاة إلا وهم كسالى ولا ينفقون إلا وهم كارهون"
+translations:
+  en: { text: "And naught preventeth that their contributions should be accepted from them save that they have disbelieved in Allah and in His messenger, and they come not to worship save as idlers, and pay not (their contribution) save reluctantly.", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "اور ان کے خرچ (موال) کے قبول ہونے سے کوئی چیز مانع نہیں ہوئی سوا اس کے انہوں نے خدا سے اور اس کے رسول سے کفر کیا اور نماز کو آتے ہیں تو سست کاہل ہوکر اور خرچ کرتے ہیں تو ناخوشی سے", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-9 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

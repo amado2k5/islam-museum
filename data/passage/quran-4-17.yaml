@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 4:17 (سورة النساء، الآية 17)."
 text: "إِنَّمَا ٱلتَّوْبَةُ عَلَى ٱللَّهِ لِلَّذِينَ يَعْمَلُونَ ٱلسُّوٓءَ بِجَهَـٰلَةٍ ثُمَّ يَتُوبُونَ مِن قَرِيبٍ فَأُو۟لَـٰٓئِكَ يَتُوبُ ٱللَّهُ عَلَيْهِمْ ۗ وَكَانَ ٱللَّهُ عَلِيمًا حَكِيمًا"
 text_search: "إنما التوبة على الله للذين يعملون السوء بجهالة ثم يتوبون من قريب فأولئك يتوب الله عليهم ۗ وكان الله عليما حكيما"
+translations:
+  en: { text: "Forgiveness is only incumbent on Allah toward those who do evil in ignorance (and) then turn quickly (in repentance) to Allah. These are they toward whom Allah relenteth. Allah is ever Knower, Wise.", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "خدا انہیں لوگوں کی توبہ قبول فرماتا ہے جو نادانی سے بری حرکت کر بیٹھے ہیں۔ پھر جلد توبہ قبول کرلیتے ہیں پس ایسے لوگوں پر خدا مہربانی کرتا ہے۔ اور وہ سب کچھ جانتا (اور) حکمت والا ہے", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-4 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

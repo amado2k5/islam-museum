@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 40:66 (سورة غافر، الآية 66)."
 text: "۞ قُلْ إِنِّى نُهِيتُ أَنْ أَعْبُدَ ٱلَّذِينَ تَدْعُونَ مِن دُونِ ٱللَّهِ لَمَّا جَآءَنِىَ ٱلْبَيِّنَـٰتُ مِن رَّبِّى وَأُمِرْتُ أَنْ أُسْلِمَ لِرَبِّ ٱلْعَـٰلَمِينَ"
 text_search: "۞ قل إني نهيت أن أعبد الذين تدعون من دون الله لما جاءني البينات من ربي وأمرت أن أسلم لرب العالمين"
+translations:
+  en: { text: "Say (O Muhammad): I am forbidden to worship those unto whom ye cry beside Allah since there have come unto me clear proofs from my Lord, and I am commanded to surrender to the Lord of the Worlds.", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "(اے محمدﷺ ان سے) کہہ دو کہ مجھے اس بات کی ممانعت کی گئی ہے کہ جن کو تم خدا کے سوا پکارتے ہو ان کی پرستش کروں (اور میں ان کی کیونکر پرستش کروں) جب کہ میرے پاس میرے پروردگار (کی طرف) سے کھلی دلیلیں آچکی ہیں اور مجھ کو یہ حکم ہوا ہے کہ پروردگار عالم ہی کا تابع فرمان ہوں", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-40 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

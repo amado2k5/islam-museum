@@ -1,0 +1,67 @@
+id: exhibit/path-ghurids-afghan
+class: exhibit
+kind: trail
+label:
+  ar: الغوريون والهند
+  en: The Ghurids and India
+summary:
+  ar: 'مسار في سلالة الغور: شهاب الدين يهزم في تاراين، وقطب الدين يؤسس سلطنة دلهي — أفغانستان تفتح الهند.'
+  en: A trail through the house of Ghur.
+audience:
+- newcomer
+- student
+duration_minutes: 30
+wings: []
+regions:
+- south-asia
+rooms:
+- title:
+    ar: الدولة
+    en: The dynasty
+  body:
+    ar: 'غور الأفغانية: إمبراطورية تولد من الجبل.'
+    en: 'غور الأفغانية: إمبراطورية تولد من الجبل.'
+  features:
+  - polity/ghurid-dynasty
+  - polity/ghurid-dynasty
+- title:
+    ar: تاراين
+    en: Tarain
+  body:
+    ar: '1192: المعركة التي فتحت شمال الهند.'
+    en: '1192: المعركة التي فتحت شمال الهند.'
+  features:
+  - polity/ghurid-dynasty
+  - polity/delhi-sultanate
+- title:
+    ar: دلهي
+    en: Delhi
+  body:
+    ar: قطب الدين أيبك يؤسس السلطنة 1206.
+    en: قطب الدين أيبك يؤسس السلطنة 1206.
+  features:
+  - place/delhi
+  - polity/delhi-sultanate
+- title:
+    ar: الأثر
+    en: The legacy
+  body:
+    ar: 'من الغور إلى المغول: ستة قرون.'
+    en: 'من الغور إلى المغول: ستة قرون.'
+  features:
+  - polity/ghurid-dynasty
+  - place/delhi
+prerequisites:
+- exhibit/path-islam-in-30-minutes
+sources:
+- source/wikidata
+provenance:
+  layer: own-research
+  source: Devin-assembled trail from existing museum entities
+  generated_by: Devin (SWE-2 High)
+  model: SWE-2 High
+  run: pathways-batch-7
+status:
+  review: draft
+  completeness: 1
+  generated_by: Devin (SWE-2 High), pathways lane, 2026-10-16

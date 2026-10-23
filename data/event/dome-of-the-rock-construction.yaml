@@ -1,0 +1,23 @@
+id: event/dome-of-the-rock-construction
+class: event
+kind: other
+label: { ar: "بناء قبة الصخرة في عهد عبد الملك بن مروان", en: "Construction of the Dome of the Rock under Abd al-Malik" }
+summary:
+  ar: "بناء قبة الصخرة فوق الصخرة المقدسة في الحرم ببيت المقدس، أمر به عبد الملك بن مروان؛ شُرع فيه سنة 66هـ (685م) وفُرغ منه سنة 72هـ (691م)، وينقل الكتاب أن نفقته أُخذت من خراج مصر سبع سنوات {cite:bayt-al-maqdis-fi-al-islam-azhar p. 17, 43}."
+  en: "Building of the Dome of the Rock over the sacred rock in the Haram at Jerusalem, ordered by Abd al-Malik ibn Marwan; begun in 66 AH (685 CE) and finished in 72 AH (691 CE), the book says, with its cost drawn from seven years of Egypt's land revenue {cite:bayt-al-maqdis-fi-al-islam-azhar p. 17, 43}."
+wings: [time]
+periods: [period/prophetic-era]
+regions: [levant-iraq]
+date:
+  start: { edtf: "0685", hijri: "0066", calendar: julian, precision: year, status: historical, note: "شُرع فيه سنة 66هـ؛ ويقابله في الكتاب 685م {cite:bayt-al-maqdis-fi-al-islam-azhar p. 43}. الانتهاء سنة 72هـ (691م) يحتاج مصدراً ثانياً." }
+relations:
+  - { type: occurred_at, target: place/dome-of-the-rock }
+  - { type: had_participant, target: person/abd-al-malik-ibn-marwan, role: "الآمر بالبناء" }
+sources: [source/bayt-al-maqdis-fi-al-islam-azhar]
+provenance:
+  layer: own-research
+  source: "Bayt al-Maqdis fi al-Islam (Academy, Scientific Series), PDF pp. 17, 43"
+  generated_by: "Claude Code (Haiku 5.5)"
+  model: claude-haiku-5-5
+  run: azhar-bayt-al-maqdis-fi-al-islam-azhar
+status: { review: draft, completeness: 1, generated_by: "Claude Code (Haiku 5.5); needs a second source for the dates" }

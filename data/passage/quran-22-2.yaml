@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 22:2 (سورة الحج، الآية 2)."
 text: "يَوْمَ تَرَوْنَهَا تَذْهَلُ كُلُّ مُرْضِعَةٍ عَمَّآ أَرْضَعَتْ وَتَضَعُ كُلُّ ذَاتِ حَمْلٍ حَمْلَهَا وَتَرَى ٱلنَّاسَ سُكَـٰرَىٰ وَمَا هُم بِسُكَـٰرَىٰ وَلَـٰكِنَّ عَذَابَ ٱللَّهِ شَدِيدٌ"
 text_search: "يوم ترونها تذهل كل مرضعة عما أرضعت وتضع كل ذات حمل حملها وترى الناس سكارى وما هم بسكارى ولكن عذاب الله شديد"
+translations:
+  en: { text: "On the day when ye behold it, every nursing mother will forget her nursling and every pregnant one will be delivered of her burden, and thou (Muhammad) wilt see mankind as drunken, yet they will not be drunken, but the Doom of Allah will be strong (upon them).", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "(اے مخاطب) جس دن تو اس کو دیکھے گا (اُس دن یہ حال ہوگا کہ) تمام دودھ پلانے والی عورتیں اپنے بچوں کو بھول جائیں گی۔ اور تمام حمل والیوں کے حمل گر پڑیں گے۔ اور لوگ تجھ کو متوالے نظر آئیں گے مگر وہ متوالے نہیں ہوں گے بلکہ (عذاب دیکھ کر) مدہوش ہو رہے ہوں گے۔ بےشک خدا کا عذاب بڑا سخت ہے", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-22 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

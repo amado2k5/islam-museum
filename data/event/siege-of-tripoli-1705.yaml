@@ -1,0 +1,23 @@
+id: event/siege-of-tripoli-1705
+class: event
+kind: siege
+label: { ar: "حصار طرابلس (١٧٠٥)", en: "Siege of Tripoli (1705)" }
+summary:
+  ar: "بطاقة أولية لحصار طرابلس (١٧٠٥)؛ لم تُراجع مصادره على الصفحة بعد."
+  en: "Draft card for Siege of Tripoli (1705); its sources are not yet checked on the page."
+wings: [time]
+periods: [period/gunpowder-empires]
+regions: [maghreb]
+date:
+  start: { edtf: "1705", precision: year, status: tradition, derived: true }
+  end: { edtf: "1705", precision: year, status: tradition, derived: true }
+sources: [source/tarikh-islam-hasan-ibrahim]
+external_ids:
+  wikidata: Q123243699
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; battle attested in narrative histories — entry not yet checked on the page"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-wave2
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

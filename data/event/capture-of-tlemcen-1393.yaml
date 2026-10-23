@@ -1,0 +1,23 @@
+id: event/capture-of-tlemcen-1393
+class: event
+kind: conquest
+label: { ar: "أخذ تلمسان (1393)", en: "Capture of Tlemcen (1393)" }
+summary:
+  ar: "بطاقة أولية لأخذ تلمسان سنة 1393م؛ لم تُراجع مصادره على الصفحة بعد."
+  en: "Draft card for the capture of Tlemcen in 1393; its sources are not yet checked on the page."
+wings: [time]
+periods: [period/crusades-ayyubid-mamluk]
+regions: [maghreb]
+date:
+  start: { edtf: "1393", precision: year, status: tradition, derived: true }
+  end: { edtf: "1393", precision: year, status: tradition, derived: true }
+sources: [source/tarikh-islam-hasan-ibrahim]
+external_ids:
+  wikidata: Q111211182
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; battle attested in narrative histories — entry not yet checked on the page"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-wave2
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

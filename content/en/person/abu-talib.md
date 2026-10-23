@@ -1,26 +1,32 @@
 ---
 id: person/abu-talib
 lang: en
-source_lang: en
-translators: []
+source_lang: ar
+translators: ["Claude Haiku 5.5 (claude-haiku-5-5), draft translation"]
 ---
 
-## Brief
-Abu Talib was the uncle who raised the orphaned [[person/muhammad]], the father of [[person/ali-ibn-abi-talib]], and the clan chief who shielded the Prophet from Mecca's opposition until his own death. Whether he himself embraced Islam is one of the oldest disputes between Sunni and Shia memory.
+## Summary
+Abu Talib was the uncle who raised the orphan [[person/muhammad|Muhammad]], the father of [[person/ali-ibn-abi-talib|Ali]], and the clan chief who shielded the Prophet from Mecca's opposition until his death. As for his own Islam, it is among the oldest disputes between Sunni and Shi'a memory.
 
 ## Life
-A son of [[person/abd-al-muttalib]] {cite:ibn-ishaq-guillaume}, Abu Talib took the boy Muhammad into his household after his grandfather's death, took him on trading journeys to Syria, and saw him married into his household's circle. When Muhammad began to preach and [[group/quraysh]] turned hostile, Abu Talib — though the sources place him in Mecca's old religion — put the protection of his clan behind his nephew, and stood with him through [[event/boycott-of-banu-hashim]] {cite:ibn-ishaq-guillaume}.
+A son of [[person/abd-al-muttalib|Abd al-Muttalib]] {cite:ibn-ishaq-guillaume}, he took the boy Muhammad into his household after his grandfather's death, took him on trading journeys to Syria, and witnessed his marriage within his household's circle. When Muhammad proclaimed his call and [[group/quraysh|Quraysh]] turned against him, Abu Talib placed his clan's protection behind his nephew. The sources place him in Mecca's old religion, and he stood with Muhammad through the [[event/boycott-of-banu-hashim|boycott of Banu Hashim]] {cite:ibn-ishaq-guillaume}.
 
-He died about 619 CE, in the same season as [[person/khadija]] — the 'Year of Sorrow' [[event/year-of-sorrow]], after which the Prophet's position in Mecca grew untenable and the search for refuge began {cite:watt-1953-mecca}.
-
-:::perspectives
-- **Sunni**: Sunni tradition holds that Abu Talib died without embracing Islam, citing the report that at his death he would not pronounce the shahada, while honoring his lifelong protection of the Prophet {cite:ibn-sad-tabaqat-bewley}.
-- **Academic**: Historians note that the deathbed reports were written after the Sunni-Shia split and serve each side; his protection is documented, his inner conviction is not {cite:madelung-1997}.
-- **Twelver Shia**: Twelver Shia tradition holds that Abu Talib was a believer who concealed his faith to keep his standing among Quraysh and so protect his nephew, and venerates him accordingly {cite:momen-1985}.
-:::
+He died about 619 CE in the same season that [[person/khadija|Khadija]] died. That was the [[event/year-of-sorrow|Year of Sorrow]], after which the Prophet's position in Mecca became narrow and he began to look for shelter {cite:watt-1953-mecca}.
 
 ## Legacy
-His shield made the Prophet's survival possible. What lay inside his own heart became the test case for how two communities read the same evidence differently.
+His shield made the Prophet's survival possible. What was in his heart became the test on which the two communities read the same evidence differently.
 
 ## For young visitors
-When the Prophet's grandfather died, his uncle Abu Talib took him in and protected him for forty years — even when it cost him everything.
+When the Prophet's grandfather died, his uncle Abu Talib took him in and protected him for forty years, even at great cost.
+
+## In the Prophet's family chapter (The Sealed Nectar, p.52)
+The Sealed Nectar counts him the third of Abd al-Muttalib's ten sons, after al-Harith and al-Zubayr {cite:mubarakpuri-raheeq p.52} {cite:talqih-fuhum-ahl-al-athr p.8-9}. When the arrows of the vow fell on his brother [[person/abdullah-ibn-abd-al-muttalib|Abd Allah]], and their father brought him to the Kaaba to sacrifice him, Abu Talib was among Abd Allah's maternal uncles from [[group/banu-makhzum|Banu Makhzum]] who stood against it, until Abd Allah was ransomed with a hundred camels ([[event/vow-and-lot-of-abd-al-muttalib|Abd al-Muttalib's vow and the lots]]) {cite:mubarakpuri-raheeq p.52} {cite:ibn-hisham-sira 1/151-155}.
+
+## Guardian of his nephew (The Sealed Nectar, p.58)
+Before he died, [[person/abd-al-muttalib|Abd al-Muttalib]] entrusted his grandson Muhammad to the care of Abu Talib, who was the full brother of the boy's father Abd Allah {cite:mubarakpuri-raheeq p.58} {cite:talqih-fuhum-ahl-al-athr p.7} {cite:ibn-hisham-sira 1/169}. Abu Talib carried out his nephew's rights in the fullest way. He took him into the circle of his own children, placed him before them, and gave him special honour and esteem. For over forty years he upheld him, extended his protection over him, and befriended and quarrelled on his behalf ([[event/death-of-abd-al-muttalib|Abd al-Muttalib's death and Abu Talib's guardianship]]) {cite:mubarakpuri-raheeq p.58}. Among the stories of that guardianship is what Ibn Asakir relates of Abu Talib seeking rain through the boy when the valley had dried up ([[event/istisqa-abi-talib-bi-al-nabi|the rain prayer]]). He alluded to this in his poetry, about the fair one through whose face the clouds are sought {cite:mubarakpuri-raheeq p.58} {cite:mukhtasar-sirat-al-rasul-al-najdi p.15-16}.
+
+## When he saw the Prophet and Ali praying (The Sealed Nectar, p.77)
+Ibn Hisham mentions that Abu Talib once saw the Prophet and [[person/ali-ibn-abi-talib|Ali]] praying during the days of the [[event/al-dawa-al-sirriyya|secret call]]. He spoke to them about it, and when he understood the matter, he told them to remain steadfast {cite:mubarakpuri-raheeq p.77} {cite:ibn-hisham-sira 1/247}.
+
+## His death (The Sealed Nectar, pp.115–116)
+He died in Rajab of the tenth year of the mission, according to the book's preferred dating. At his death the Prophet invited him to say "There is no god but God," but he refused. A verse was revealed about asking forgiveness for him ([[event/death-of-abu-talib|The death of Abu Talib]]) {cite:mubarakpuri-raheeq p.115} {cite:sahih-al-bukhari 1/548}.

@@ -1,0 +1,24 @@
+id: person/joao-iii-portugal
+class: person
+label: { ar: "جان الثالث ملك البرتغال", en: "João III of Portugal" }
+names:
+  - { kind: full, lang: ar, value: "جان الثالث" }
+gender: male
+roles: [ruler]
+summary:
+  ar: "ملك البرتغال في عهد خير الدين بربروسة. حين بلغه وصول الأسطول العثماني بقيادة خير الدين إلى الشمال الأفريقي في ٣ ربيع الأول ٩٤١هـ/١٣ سبتمبر ١٥٣٤م، بعث استفتاءً إلى وجهاء بلاده وأعيانها وأساقفتها يستشيرهم في الجلاء عن بعض مراكز الوجود البرتغالي في جنوب المغرب كآسفي وأزمور وسانتاكروز، فأجمع رأي رجال الدين تقريباً على النصح بالتخلي عنها وتحويل وسائل الدفاع إلى المراكز الشمالية خشية هجوم خير الدين على سبتة {cite:dawlat-uthmaniyya-salabi p. 219}."
+  en: "King of Portugal in Khayr al-Din's day. On news of the Ottoman fleet's arrival off North Africa in 941/1534 he polled his nobles and bishops on abandoning Portugal's southern Moroccan footholds — Safi, Azemmour, Santa Cruz — and the clergy near-unanimously advised withdrawal, concentrating defence northward against a feared attack on Ceuta {cite:dawlat-uthmaniyya-salabi p. 219}."
+wings: [people]
+periods: [period/gunpowder-empires]
+regions: [maghreb]
+relations:
+  - { type: opposed, target: person/khayr-al-din-barbarossa, sources: [source/dawlat-uthmaniyya-salabi] }
+sources: [source/dawlat-uthmaniyya-salabi]
+external_ids: { wikidata: "Q130517" }
+provenance:
+  layer: own-research
+  source: "الدولة العثمانية لعلي محمد الصلابي (ط1 1421) ص 219"
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: salabi-uthmani-batch9
+status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 Medium)" }

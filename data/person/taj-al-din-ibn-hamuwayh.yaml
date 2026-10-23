@@ -1,0 +1,29 @@
+id: person/taj-al-din-ibn-hamuwayh
+class: person
+label: { ar: "تاج الدين بن همويه الجويني", en: "Taj al-Din Ibn Hamuwayh al-Juwayni" }
+names:
+  - { value: "تاج الدين أبو محمد عبد الله ويسمى أيضاً عبد السلام بن عمر بن علي بن محمد الجويني الصوفي", kind: full }
+born: { edtf: "1170", hijri: "0566", calendar: julian, precision: year, status: tradition, derived: true, note: "ولد بدمشق سنة ست وستين وخمسمائة {cite:shadharat-dhahab p. 222}." }
+died: { edtf: "1244-07~", hijri: "0642-02", calendar: julian, precision: month, status: tradition, derived: true, note: "توفي في صفر سنة اثنتين وأربعين وستمائة بدمشق ودفن بمقابر الصوفية {cite:shadharat-dhahab p. 222}." }
+summary:
+  ar: "شيخ الشيوخ الصوفي، شيخ السميساطية؛ ولد بدمشق سنة ست وستين وخمسمائة وسمع من شهدة والحافظ أبي القاسم بن عساكر، ودخل المغرب قبل الستمائة فأقام هناك ست سنين، وله مجاميع وفوائد وصنف التاريخ؛ كان نزهاً عفيفاً قليل الطمع لا يلتفت إلى أحد من خلق الله لأجل الدنيا؛ وهو عم أولاد شيخ الشيوخ صدر الدين الجويني {cite:shadharat-dhahab p. 222}."
+  en: "Shaykh al-shuyukh of the Sumaysatiyya (b. Damascus 566, d. Safar 642) — heard Shuhdah and Ibn Asakir, spent six years in the Maghrib before 600, wrote a Tarikh; uncle in the Juwayni house of shaykh al-shuyukh Sadr al-Din {cite:shadharat-dhahab p. 222}."
+gender: male
+roles: [mystic, scholar]
+wings: [people]
+periods: [period/crusades-ayyubid-mamluk]
+regions: [levant-iraq, maghreb]
+faith:
+  - value: sunni
+    basis: tradition
+relations:
+  - { type: born_in, target: place/damascus, sources: [source/shadharat-dhahab] }
+  - { type: died_in, target: place/damascus, sources: [source/shadharat-dhahab] }
+  - { type: buried_in, target: place/damascus, sources: [source/shadharat-dhahab] }
+sources: [source/shadharat-dhahab]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }
+provenance:
+  layer: own-research
+  source: "شذرات الذهب — ابن العماد (ج5، سنة 642)، قراءة آبل فيجن"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-shadharat-batch-127

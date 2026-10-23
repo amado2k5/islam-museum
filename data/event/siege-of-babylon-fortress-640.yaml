@@ -1,0 +1,23 @@
+id: event/siege-of-babylon-fortress-640
+class: event
+kind: siege
+label: { ar: "حصار حصن بابليون (٦٤٠)", en: "Siege of Babylon Fortress" }
+summary:
+  ar: "بطاقة أولية لحصار حصن بابليون سنة ٦٤٠م على يد عمرو بن العاص والزبير بن العوام حتى فتحه وسقوط مصر البيزنطية؛ لم تُراجع مصادره على الصفحة بعد."
+  en: "Draft card for the Siege of Babylon Fortress in 640 by Amr ibn al-As and al-Zubayr ibn al-Awwam; its sources are not yet checked on the page."
+wings: [time]
+periods: [period/rashidun]
+regions: [egypt-nile]
+date:
+  start: { edtf: "0640-05", precision: year, status: tradition, derived: true }
+  end: { edtf: "0640-12-01", precision: year, status: tradition, derived: true }
+sources: [source/futuh-buldan-maarif-1407]
+external_ids:
+  wikidata: Q48795853
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; battle attested in narrative histories — entry not yet checked on the page"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-wave2
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

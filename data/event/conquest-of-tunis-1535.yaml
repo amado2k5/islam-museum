@@ -1,0 +1,24 @@
+id: event/conquest-of-tunis-1535
+class: event
+kind: conquest
+label: { ar: "استيلاء شارل الخامس على تونس (٩٤٢هـ/١٥٣٥م)", en: "Charles V's conquest of Tunis (1535)" }
+summary:
+  ar: "اختار شارل الخامس تونس هدفاً لرده في شمال أفريقية، مستجيباً لاستنجاد السلطان الحفصي الحسن بن محمد ورغبةً في عزل استانبول. قاد حملة بحرية من ثلاثين ألف مقاتل إسباني وألماني ونابولي وصقلي على خمسمائة سفينة أبحر بها من برشلونة، وبعد معارك عنيفة أعاد السيطرة الإسبانية على تونس سنة ٩٤٢هـ/١٥٣٥م، إذ لم تكفِ قوة خير الدين للرد — سبعة آلاف جندي عثماني ونحو خمسة آلاف تونسي مع تخلف الأعراب عن الجهاد — فاستولى شارل على معقل حلق الواد مرسى تونس، ونصب الأسبان الحسن بن محمد حاكماً عليها، وكان مقتضى المعاهدة تسليمه بونة والمهدية لشارل، فسلّم بونة وعجز عن المهدية لبقائها في يد العثمانيين، فاشترط عليه الأسبان معاونة فرسان القديس يوحنا بطرابلس ومعاداة العثمانيين وتحمل نفقات ألفي جندي إسباني حاميةً في قلعة حلق الواد {cite:dawlat-uthmaniyya-salabi p. 220}."
+  en: "Charles V chose Tunis for his riposte in North Africa, sailing from Barcelona with 30,000 men on 500 ships; in 942/1535 he retook the city and La Goulette — Khayr al-Din's 7,000 Ottomans and ~5,000 Tunisians could not hold it — and reinstalled al-Hasan b. Muhammad, bound to hand over Bône and Mahdia and to keep a 2,000-man Spanish garrison at La Goulette {cite:dawlat-uthmaniyya-salabi p. 220}."
+wings: [time]
+periods: [period/gunpowder-empires]
+regions: [maghreb]
+date:
+  start: { edtf: "1535", hijri: "0942", calendar: julian, precision: year, status: tradition, derived: true, sources: [source/dawlat-uthmaniyya-salabi] }
+relations:
+  - { type: had_participant, target: person/charles-v, sources: [source/dawlat-uthmaniyya-salabi] }
+  - { type: had_participant, target: person/khayr-al-din-barbarossa, sources: [source/dawlat-uthmaniyya-salabi] }
+  - { type: occurred_at, target: place/tunis, sources: [source/dawlat-uthmaniyya-salabi] }
+sources: [source/dawlat-uthmaniyya-salabi]
+provenance:
+  layer: own-research
+  source: "الدولة العثمانية لعلي محمد الصلابي (ط1 1421) ص 220"
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: salabi-uthmani-batch9
+status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 Medium)" }

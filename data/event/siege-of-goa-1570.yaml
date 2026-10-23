@@ -1,0 +1,23 @@
+id: event/siege-of-goa-1570
+class: event
+kind: siege
+label: { ar: "حصار غوا (١٥٧٠–١٥٧١)", en: "Siege of Goa (1570–71)" }
+summary:
+  ar: "بطاقة أولية لحصار غوا من ١٥٧٠ إلى ١٥٧١م، حملة علي عادل شاه البيجابوري على عاصمة البرتغاليين الهندية؛ لم تُراجع مصادره على الصفحة بعد."
+  en: "Draft card for the Siege of Goa in 1570–71, Ali Adil Shah of Bijapur's campaign against the Portuguese capital in India; its sources are not yet checked on the page."
+wings: [time]
+periods: [period/gunpowder-empires]
+regions: [south-asia]
+date:
+  start: { edtf: "1570-12", precision: year, status: tradition, derived: true }
+  end: { edtf: "1571-07", precision: year, status: tradition, derived: true }
+sources: [source/tarikh-islam-hasan-ibrahim]
+external_ids:
+  wikidata: Q126888582
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; battle attested in narrative histories — entry not yet checked on the page"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-wave2
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 83:29 (سورة المطففين، الآية 29)."
 text: "إِنَّ ٱلَّذِينَ أَجْرَمُوا۟ كَانُوا۟ مِنَ ٱلَّذِينَ ءَامَنُوا۟ يَضْحَكُونَ"
 text_search: "إن الذين أجرموا كانوا من الذين آمنوا يضحكون"
+translations:
+  en: { text: "Lo! the guilty used to laugh at those who believed,", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "جو گنہگار (یعنی کفار) ہیں وہ (دنیا میں) مومنوں سے ہنسی کیا کرتے تھے", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-83 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

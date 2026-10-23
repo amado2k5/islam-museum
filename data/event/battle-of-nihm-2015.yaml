@@ -1,0 +1,23 @@
+id: event/battle-of-nihm-2015
+class: event
+kind: battle
+label: { ar: "معركة نهم (٢٠١٥)", en: "Battle of Nihm (2015)" }
+summary:
+  ar: "بطاقة أولية لمعركة نهم من ٢٠١٥م، من حوادث الحرب الأهلية اليمنية؛ لم تُراجع مصادره على الصفحة بعد."
+  en: "Draft card for the Battle of Nihm from 2015, an action of the Yemeni Civil War; its sources are not yet checked on the page."
+wings: [time]
+periods: [period/contemporary-era]
+regions: [arabia]
+date:
+  start: { edtf: "2015", precision: year, status: tradition, derived: true }
+  end: { edtf: "2018", precision: year, status: tradition, derived: true }
+sources: [source/tarikh-islam-hasan-ibrahim]
+external_ids:
+  wikidata: Q26257601
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; battle attested in narrative histories — entry not yet checked on the page"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-wave2
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

@@ -1,0 +1,16 @@
+id: passage/muwatta-28-2445
+class: passage
+unit: hadith
+work: work/muwatta-malik
+ref: "2445"
+label: { ar: "الموطأ 2445 — مالك: كل من شرب شرابا مسكرا وجب عليه الحد سكر أو لم يسكر", en: "Muwatta 2445" }
+summary:
+  ar: "قال يحيى: قال مالك: والسنة عندنا أن كل من شرب شرابا مسكرا، فسكر أو لم يسكر، فقد وجب عليه الحد. {cite:muwatta-maruf-1997 p.410}"
+relations:
+  - { type: part_of, target: passage/muwatta-kitab-28-ashriba }
+  - { type: mentions, target: person/malik-ibn-anas, sources: [source/muwatta-maruf-1997] }
+  - { type: basis_for, target: concept/hadd, sources: [source/muwatta-maruf-1997] }
+  - { type: basis_for, target: concept/khamr, sources: [source/muwatta-maruf-1997] }
+provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 2, hadith 2445 at PDF p. 410; الحد في الخمر", generated_by: "Claude Code (claude-haiku-5-5) from Apple Vision OCR of the Noor-Book PDF, checked on the page image where doubtful", run: "muwatta-prose-b81" }
+sources: [source/muwatta-maruf-1997]
+status: { review: draft, completeness: 2, generated_by: "Claude Code (claude-haiku-5-5); own-words account written from PDF p. 410; matn excerpt at most 40 words" }

@@ -1,0 +1,29 @@
+id: event/verse-of-private-consultation-charity
+class: event
+kind: other
+label: { ar: "آية النجوى وتقديم الصدقة قبل مناجاة النبي", en: "The verse of private consultation: charity before speaking privately with the Prophet" }
+summary:
+  ar: "روى علي أن النبي أمره أن يأمر الناس بالصدقة قبل مناجاتهم له، فسأل: بكم؟ فقال: بدينار، ثم بنصف دينار، ثم بشعيرة من ذهب، فقال النبي: إنك لزهيد، فنزلت الآية بالتخفيف، فكان علي يقول: «فبي خفف الله عن هذه الأمة». يورد الصلابي الرواية من سنن الترمذي وهو يذكر أنها من تفسير النبي لآيات القرآن (ص 47)، وقد ضعّف الألباني هذه الرواية في هامش الكتاب."
+  en: "Ali reports that the Prophet told him to order people to give charity before they consulted him privately; he gave a dinar, then half a dinar, then a barley-grain's weight of gold; the Prophet called him frugal and the verse eased the duty, which Ali took as the relief of this community. Al-Sallabi cites al-Tirmidhi, while the book's footnote records al-Albani's weakening of the report (p. 47)."
+wings: [ideas, people]
+periods: [period/prophetic-era]
+regions: [arabia]
+date:
+  start: { edtf: "0620/0629", calendar: julian, precision: decade, status: tradition, derived: true, note: "الكتاب لا يؤرخ الحادثة ولا نزول الآية. المدة المدنية مشتقة من ذكر المجلس مع النبي في المدينة ولا تُعدّ مصدراً للتاريخ." }
+relations:
+  - { type: occurred_at, target: place/medina }
+  - { type: had_participant, target: person/ali-ibn-abi-talib, role: "تصدّق قبل مناجاته النبي", sources: [source/sallabi-ali-vol1] }
+  - { type: had_participant, target: person/muhammad, role: "أمر علياً بالصدقة ثم خفّف عنه", sources: [source/sallabi-ali-vol1] }
+sources: [source/sallabi-ali-vol1]
+issue: { ar: "هل ثبت الحديث الذي فيه تخفيف الحكم بسبب علي؟", en: "Is the report of relief granted through Ali authentic?" }
+perspectives:
+  - tradition: sunni
+    id: sunni-author
+    summary: { ar: "يعرض الصلابي الرواية بوصفها تفسيراً من النبي لمعنى الآية، ويعدّ تخفيف الحكم عن الأمة بسبب علي، ويستند إلى رواية الترمذي التي حكم عليها بالحسن الغريب (ص 47).", en: "Al-Sallabi presents the report as the Prophet's own explanation of the verse and counts the relief for the community as due to Ali, citing al-Tirmidhi's grading as hasan gharib (p. 47)." }
+    sources: [source/sallabi-ali-vol1]
+  - tradition: other
+    id: academic-grading
+    summary: { ar: "ضعّف الألباني هذا الحديث في تحقيقه، كما هو منقول في هامش الكتاب، وذكر الكتاب ذلك دون أن يرجّح بينهما (ص 47 هامش 129).", en: "Al-Albani's weakening of the report, as noted in the book's footnote, stands against the Tirmidhi grading; the book records both without choosing between them (p. 47, n. 129)." }
+    sources: [source/sallabi-ali-vol1]
+status: { review: draft, completeness: 1, generated_by: "Claude Code (claude-haiku-5-5); mined from sallabi-ali-vol1 p. 47; grading disputed in the book's own footnote" }
+provenance: { layer: own-research, source: "sallabi-ali-vol1 p. 47", generated_by: "Claude Code", model: "claude-haiku-5-5", run: "sallabi-ali-vol1-deep-p41-74" }

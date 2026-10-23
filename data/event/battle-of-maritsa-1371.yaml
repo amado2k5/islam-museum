@@ -1,0 +1,23 @@
+id: event/battle-of-maritsa-1371
+class: event
+kind: battle
+label: { ar: "معركة ماريجا", en: "Battle of Maritsa" }
+summary:
+  ar: "بطاقة أولية لمعركة نهر ماريجا سنة ١٣٧١م، انتصار العثمانيين على الصرب الذي فتح البلقان لتوسعهم؛ لم تُراجع مصادره على الصفحة بعد."
+  en: "Draft card for the Battle of the Maritsa river in 1371, the Ottoman victory over the Serbs that opened the Balkans to their expansion; its sources are not yet checked on the page."
+wings: [time]
+periods: [period/mongol-post-mongol]
+regions: [anatolia-balkans]
+date:
+  start: { edtf: "1371", precision: year, status: tradition, derived: true }
+  end: { edtf: "1371", precision: year, status: tradition, derived: true }
+sources: [source/dawlat-uthmaniyya-salabi]
+external_ids:
+  wikidata: Q939570
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; battle attested in Ottoman-history surveys — entry not yet checked on the page"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-wave2
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

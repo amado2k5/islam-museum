@@ -1,0 +1,25 @@
+id: person/abu-mulayh-ibn-urwa
+class: person
+label: { ar: "أبو مليح بن عروة الثقفي", en: "Abu Mulayh ibn Urwa al-Thaqafi" }
+names:
+  - { kind: full, lang: ar, value: "أبو مليح بن عروة بن مسعود الثقفي" }
+gender: male
+roles: [companion]
+traditions: [sunni]
+summary:
+  ar: "من ثقيف، ابن عروة بن مسعود الذي قُتل بعد دعوته قومه إلى الإسلام؛ قدم مع قارب بن الأسود يريدان فراق ثقيف، فأسلما، ثم سأل النبي أن يقضي عن أبيه ديناً من مال اللات."
+  en: "Of Thaqif, son of Urwa ibn Mas'ud, killed after calling his people to Islam; he came with Qarib ibn al-Aswad, intending to break with Thaqif, and both embraced Islam; he then asked the Prophet to pay his father's debt from the wealth of al-Lat."
+wings: [people]
+periods: [period/prophetic-era]
+regions: [arabia]
+story_roles:
+  - { role: convert, start: { edtf: "0630~" }, status: tradition, sources: [source/ibn-hisham-saqqa] }
+faith:
+  - { value: sunni, basis: tradition, start: { edtf: "0630~" }, note: "أسلم مع قارب قبل وفد ثقيف (ابن هشام 4/186)", sources: [source/ibn-hisham-saqqa] }
+relations:
+  - { type: member_of, target: group/thaqif, sources: [source/ibn-hisham-saqqa] }
+  - { type: child_of, target: person/urwa-ibn-masud, sources: [source/ibn-hisham-saqqa] }
+  - { type: participated_in, target: event/delegation-of-thaqif, role: "أسلم مع قارب قبل الوفد", sources: [source/ibn-hisham-saqqa] }
+provenance: { layer: own-research, source: "sira-ibn-hisham saqqa 1936, juz' 4 p. 186", generated_by: "Claude Code", model: "claude-haiku-5-5", run: "ibn-hisham-batch-17" }
+sources: [source/ibn-hisham-saqqa]
+status: { review: draft, completeness: 1, generated_by: "Claude Haiku 5.5; mined from Ibn Hisham juz' 4 p. 186" }

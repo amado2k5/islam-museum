@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 37:141 (سورة الصافات، الآية 141)."
 text: "فَسَاهَمَ فَكَانَ مِنَ ٱلْمُدْحَضِينَ"
 text_search: "فساهم فكان من المدحضين"
+translations:
+  en: { text: "And then drew lots and was of those rejected;", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "اس وقت قرعہ ڈالا تو انہوں نے زک اُٹھائی", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-37 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

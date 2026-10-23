@@ -1,0 +1,22 @@
+id: person/zalzal
+class: person
+label:
+  ar: "زلزل"
+  en: "Zalzal"
+  ur: "زلزل"
+names:
+  - { kind: full, lang: ar, value: "زلزل" }
+gender: male
+roles: [singer]
+traditions: [sunni]
+summary:
+  ar: "مغنٍّ يُذكر في نوادر أبي صدقة مع الرشيد. {cite:nihayat-al-arab-nuwayri-vol4-scan p. 48-49}"
+  en: "A singer named in anecdotes of Abu Sadaqa at Harun al-Rashid's court. {cite:nihayat-al-arab-nuwayri-vol4-scan p. 48-49}"
+  ur: "گلوکار؛ ابو صدقہ کے ہارون الرشید کے دربار سے متعلق قصوں میں ان کا ذکر آتا ہے۔ {cite:nihayat-al-arab-nuwayri-vol4-scan p. 48-49}"
+wings: [people]
+themes: [literature]
+story_roles:
+  - { role: artist, status: tradition, sources: [source/nihayat-al-arab-nuwayri-vol4-scan] }
+sources: [source/nihayat-al-arab-nuwayri-vol4-scan]
+status: { review: draft, completeness: 1, generated_by: "Claude Haiku 5.5 (Nihayat vol. 4 humour chapter, pages 48-49, from helper claims file; not yet image-checked)" }
+provenance: { layer: pd, source: "archive.org nefa04 (Nihayat al-Arab vol. 4), pages 48-49", generated_by: "Claude Haiku 5.5", model: "claude-haiku-5-5", run: "lib-nihayat-batch-06" }

@@ -1,0 +1,19 @@
+id: event/zahir-accession-622
+class: event
+kind: other
+label: { ar: "خلافة الظاهر بأمر الله", en: "al-Zahir bi-Amr Allah succeeds to the caliphate" }
+date:
+  start: { edtf: "1225~", hijri: "0622", calendar: julian, precision: year, status: tradition, derived: true }
+summary:
+  ar: "بويع الظاهر بأمر الله أبو نصر محمد بن الناصر بالخلافة بعد أبيه وقد كان وليّ العهد {cite:kamil-ibn-al-athir p. 453}."
+  en: "al-Zahir bi-Amr Allah Muhammad ibn al-Nasir received the bay'a; he had been his father's appointed heir {cite:kamil-ibn-al-athir p. 453}."
+relations:
+  - { type: occurred_at, target: place/baghdad, sources: [source/kamil-ibn-al-athir] }
+  - { type: had_participant, target: person/al-zahir-billah, role: "الخليفة", sources: [source/kamil-ibn-al-athir] }
+provenance:
+  layer: own-research
+  source: "الكامل في التاريخ لابن الأثير، قراءة آبل فيجن"
+  generated_by: "Devin (SWE-2 Medium) from Apple Vision OCR"
+  run: lib-kamil-v12-batch07
+sources: [source/kamil-ibn-al-athir]
+status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 Medium)" }

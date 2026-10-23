@@ -1,8 +1,9 @@
+import { readFileSync } from "node:fs";
 import { beforeEach, describe, expect, it } from "vitest";
 import { compile } from "./build-graph";
 import { derive } from "./derive";
 import { edtfRange } from "./lib";
-import { hijriCeMismatch, hijriProblem, validateAll } from "./validate";
+import { frozenQuranTextProblem, hijriCeMismatch, hijriProblem, validateAll } from "./validate";
 import { p } from "./lib";
 import { scan } from "./check-static";
 
@@ -54,8 +55,8 @@ describe("build-graph", () => {
     expect(n.span!.latest).toBeCloseTo(1037.5, 0);
   });
   it("marks unwritten targets as stubs and attaches prose by language", () => {
-    expect(c.nodes.find((x) => x.id === "work/al-qanun-fi-al-tibb")!.stub).toBe(true);
-    expect(Object.keys(c.nodes.find((x) => x.id === "person/ibn-sina")!.prose).sort()).toEqual(["ar", "en"]);
+    expect(c.nodes.find((x) => x.id === "work/sharh-sahih-muslim-al-nawawi")!.stub).toBe(true);
+    expect(Object.keys(c.nodes.find((x) => x.id === "person/ibn-sina")!.prose).sort()).toEqual(["ar", "en", "ur"]);
   });
   it("derives timeline and map layers (GeoJSON is [lon, lat])", () => {
     const d = derive(c);
@@ -77,10 +78,16 @@ const run = (...e: ReturnType<typeof base>[]) => validateAll(e).issues;
 const msgs = (i: ReturnType<typeof run>, level: "error" | "warn") => i.filter((x) => x.level === level).map((x) => x.msg).join("\n");
 
 describe("rules from docs 12-15", () => {
-  it("rejects data from layers that may not enter CC0 data", () => {
-    const i = run(base("place", "zz-test-a", { kind: "city", provenance: { layer: "by-sa" } }));
-    expect(msgs(i, "error")).toMatch(/may not enter data/);
+  it("records the provenance layer and only asks a rewritten source to be cited (docs/sources-policy.md)", () => {
+    // any layer may enter data/ once rewritten and cited
+    expect(msgs(run(base("place", "zz-test-a", { kind: "city", provenance: { layer: "by-sa" } })), "error")).toBe("");
     expect(msgs(run(base("place", "zz-test-b", { kind: "city", provenance: { layer: "cc0" } })), "error")).toBe("");
+    // a layer other than the open ones must cite the source it was rewritten from
+    const i = run(base("place", "zz-test-e", { kind: "city", sources: [], provenance: { layer: "copyrighted-reference" } }));
+    expect(msgs(i.filter((x) => x.file.includes("zz-test-e")), "error")).toMatch(/requires cited sources/);
+    // an unknown layer name is a warning, not a wall
+    const u = run(base("place", "zz-test-f", { kind: "city", provenance: { layer: "mystery" } }));
+    expect(msgs(u.filter((x) => x.file.includes("zz-test-f")), "warn")).toMatch(/not a known layer/);
   });
   it("warns when a conflict lists fewer than two sides", () => {
     const i = run(base("event", "zz-test-c", { kind: "battle", sides: [{ label: { en: "A" } }] }));
@@ -109,22 +116,15 @@ describe("rules from docs 12-15", () => {
 });
 
 describe("the Qur'an text is frozen (docs/plan/15 §6.3 acceptance test 3)", () => {
-  it("fails validation when one character of an ayah is changed, and passes again when restored", async () => {
-    const { readFileSync, writeFileSync } = await import("node:fs");
-    const file = p("data", "passage", "quran-112-1.yaml");
-    const original = readFileSync(file, "utf8");
-    try {
-      expect(validateAll().issues.filter((i) => i.level === "error")).toEqual([]);
-      // drop one combining mark from the text line (a one-character change)
-      const lines = original.split("\n").map((l) => (l.startsWith("text: ") ? l.replace(/[ً-ْٰ]/, "") : l));
-      writeFileSync(file, lines.join("\n"));
-      const errs = validateAll().issues.filter((i) => i.level === "error").map((i) => i.msg).join("\n");
-      expect(errs).toMatch(/differs from the frozen Tanzil file/);
-    } finally {
-      writeFileSync(file, original);
-    }
-    expect(validateAll().issues.filter((i) => i.level === "error")).toEqual([]);
-  }, 120_000);
+  it("flags a passage whose text differs from the frozen Tanzil text by one character, and accepts the frozen text", () => {
+    // Read-only: the committed passage is never written to; the one-character change is made in memory only.
+    const committed = readFileSync(p("data", "passage", "quran-112-1.yaml"), "utf8").split("\n").find((l) => l.startsWith("text: "))!.slice("text: ".length);
+    const tanzil = new Map([["112:1", committed]]);
+    expect(frozenQuranTextProblem("112:1", committed, tanzil)).toBeNull();
+    const changed = committed.replace(/[ً-ْٰ]/, ""); // drop one combining mark
+    expect(changed).not.toBe(committed);
+    expect(frozenQuranTextProblem("112:1", changed, tanzil)).toMatch(/differs from the frozen Tanzil file/);
+  });
   it("has all 114 suras and 6,236 ayat", () => {
     const c = compile();
     expect(c.nodes.filter((n) => n.class === "passage" && n.data.unit === "sura").length).toBe(114);
@@ -159,9 +159,26 @@ describe("opinions: issue, holders, evidence and ids (docs/plan/20-opinions.md)"
     const m = msgs(run(e), "error");
     expect(m).toMatch(/duplicate id "same"/); expect(m).toMatch(/holders: person\/zz-nobody does not exist/); expect(m).toMatch(/evidence: source\/zz-none does not exist/);
   });
+  it("refuses a main tag on a non-Sunni opinion and a lead opinion tagged secondary or other", () => {
+    const bad = base("concept", "zz-test-o4", { kind: "doctrine", issue: { en: "q?" }, perspectives: [op({ standing: "secondary" }), op({ tradition: "shia-twelver", standing: "main" })] });
+    const m = msgs(run(bad), "error");
+    expect(m).toMatch(/cannot be tagged secondary/); expect(m).toMatch(/standing "main" is for Sunni opinions/);
+    const ok = base("concept", "zz-test-o5", { kind: "doctrine", issue: { en: "q?" }, perspectives: [op({ standing: "main" }), op({ tradition: "academic", standing: "secondary" }), op({ tradition: "shia-twelver", standing: "other" })] });
+    expect(msgs(run(ok), "error")).toBe("");
+  });
   it("warns when two opinions have no issue, or an opinion cites no source", () => {
     const w = msgs(run(base("concept", "zz-test-o3", { kind: "doctrine", perspectives: [{ tradition: "sunni", summary: { en: "x" } }, op({ tradition: "sunni-hanafi" })] })), "warn");
     expect(w).toMatch(/no `issue`/); expect(w).toMatch(/cites no source/);
+  });
+});
+
+describe("traditions[] counts a person among a tradition (content standards 13b)", () => {
+  const person = (slug: string, extra: Record<string, any>) => base("person", slug, { gender: "male", ...extra });
+  it("warns when a Sunni tradition sits on a person whose recorded faith has no Muslim value", () => {
+    const w = run(person("zz-test-t1", { traditions: ["sunni"], faith: [{ value: "arabian-polytheism", basis: "tradition" }] })).filter((x) => x.file.includes("zz-test-t1")).map((x) => x.msg).join();
+    expect(w).toMatch(/not counted among a tradition/);
+    const ok = run(person("zz-test-t2", { traditions: ["sunni"], faith: [{ value: "arabian-polytheism", basis: "tradition" }, { value: "sunni", basis: "tradition" }] })).filter((x) => x.file.includes("zz-test-t2")).map((x) => x.msg).join();
+    expect(ok).not.toMatch(/not counted among a tradition/);
   });
 });
 
@@ -191,10 +208,30 @@ describe("Arabic first (docs/language.md)", () => {
     const src = { ...base("source", "zz-test-r", { kind: "secondary", type: "book", title: "T" }).entity, label: { en: "T" }, summary: { en: "t" } };
     expect(msgs(validateAll([{ entity: src, file: p("data", "source", "zz-test-r.yaml") }]).issues, "error")).toBe("");
   });
-  it("requires Arabic alt text on media, not English", () => {
+  it("requires alt text in every published language (ar, en and ur)", () => {
     const m = (alt: any) => ({ ...base("media", "zz-test-s", { kind: "map", license: "CC0", alt }).entity });
-    expect(msgs(validateAll([{ entity: m({ en: "x" }), file: p("data", "media", "zz-test-s.yaml") }]).issues, "error")).toMatch(/alt text missing for "ar"/);
-    expect(msgs(validateAll([{ entity: m({ ar: "x" }), file: p("data", "media", "zz-test-s.yaml") }]).issues, "error")).toBe("");
+    expect(msgs(validateAll([{ entity: m({ en: "x", ur: "x" }), file: p("data", "media", "zz-test-s.yaml") }]).issues, "error")).toMatch(/alt text missing for "ar"/);
+    expect(msgs(validateAll([{ entity: m({ ar: "x", ur: "x" }), file: p("data", "media", "zz-test-s.yaml") }]).issues, "error")).toMatch(/alt text missing for "en"/);
+    expect(msgs(validateAll([{ entity: m({ ar: "x", en: "y" }), file: p("data", "media", "zz-test-s.yaml") }]).issues, "error")).toMatch(/alt text missing for "ur"/);
+    expect(msgs(validateAll([{ entity: m({ ar: "x", en: "y", ur: "z" }), file: p("data", "media", "zz-test-s.yaml") }]).issues, "error")).toBe("");
+  });
+});
+
+describe("published UI languages (docs/language.md)", () => {
+  it("i18n/ar.yaml, i18n/en.yaml and i18n/ur.yaml carry the same key set (a missing key renders as a raw path or falls back to English)", async () => {
+    const { readFileSync } = await import("node:fs");
+    const { parse } = await import("yaml");
+    const keys = (o: any, prefix = ""): Set<string> =>
+      new Set(Object.entries(o ?? {}).flatMap(([k, v]) => {
+        const key = prefix ? `${prefix}.${k}` : k;
+        return v && typeof v === "object" && !Array.isArray(v) ? [...keys(v, key)] : [key];
+      }));
+    const ar = keys(parse(readFileSync(p("i18n", "ar.yaml"), "utf8")));
+    for (const lang of ["en", "ur"]) {
+      const other = keys(parse(readFileSync(p("i18n", `${lang}.yaml`), "utf8")));
+      expect([...other].filter((k) => !ar.has(k)), `${lang} keys absent from ar`).toEqual([]);
+      expect([...ar].filter((k) => !other.has(k)), `ar keys absent from ${lang}`).toEqual([]);
+    }
   });
 });
 

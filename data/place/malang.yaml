@@ -1,0 +1,23 @@
+id: place/malang
+class: place
+kind: city
+label:
+  ar: مالانج
+  en: "Malang"
+summary:
+  ar: "مدينة في محافظة جاوة الشرقية بإندونيسيا، فيها جامعة مولانا مالك إبراهيم الإسلامية الحكومية التي منحت الإمام الأكبر درجة الدكتوراه الفخرية يوم 24 فبراير 2016م {cite:rihla-imam-akbar-indonesia-azhar p. 112}."
+  en: "City in East Java, Indonesia, home to Maulana Malik Ibrahim State Islamic University, which awarded the Grand Imam an honorary doctorate on 24 February 2016."
+wings: [place]
+regions: [southeast-asia]
+relations:
+  - { type: located_in, target: place/java, sources: [source/rihla-imam-akbar-indonesia-azhar] }
+sources: [source/rihla-imam-akbar-indonesia-azhar]
+provenance:
+  layer: own-research
+  source: "Al-Azhar Islamic Research Academy, 'The Grand Imam's Journey to Indonesia' (2018), pp. 112-119 (PDF pagination)"
+  generated_by: "Claude Code"
+  model: "claude-haiku-5-5"
+  run: "azhar-rihla-imam-akbar-indonesia-azhar"
+status:
+  review: draft
+  completeness: 1

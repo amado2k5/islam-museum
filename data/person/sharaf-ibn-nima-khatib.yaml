@@ -1,0 +1,27 @@
+id: person/sharaf-ibn-nima-khatib
+class: person
+label: { ar: "شرف الدين ابن نعمة خطيب الخطباء", en: "Sharaf al-Din ibn Ni'ma, khatib of khatibs" }
+names:
+  - { value: "خطيب الخطباء شرف الدين أحمد بن أحمد بن نعمة بن أحمد المقدسي الشافعي", kind: full }
+born: { edtf: "1225~", hijri: "0622", calendar: julian, precision: year, status: tradition, derived: true, note: "ولد سنة اثنتين وعشرين وستمائة {cite:shadharat-dhahab p. 742}." }
+died: { edtf: "1295-07~", hijri: "0694-09", calendar: julian, precision: month, status: tradition, derived: true, note: "توفي في رمضان سنة أربع وتسعين وستمائة {cite:shadharat-dhahab p. 742}." }
+summary:
+  ar: "خطيب دمشق ومفتيها وشيخ الشافعية بها؛ سمع من السخاوي وابن الصلاح وتفقه على ابن عبد السلام وبرع في الفقه والأصول والعربية، وناب في الحكم مدة ودرّس بالشامية والغزالية وكتب الخط المنسوب الفائق وألّف كتاباً في الأصول؛ وكان من محاسن الزمان وله ألغاز مشهورة منها لغزه في الناعورة {cite:shadharat-dhahab p. 742}."
+gender: male
+roles: [jurist, scholar, poet]
+wings: [people]
+periods: [period/mongol-post-mongol]
+regions: [levant-iraq]
+faith:
+  - value: sunni-shafii
+    basis: tradition
+relations:
+  - { type: student_of, target: person/izz-al-din-ibn-abd-al-salam, sources: [source/shadharat-dhahab] }
+  - { type: died_in, target: place/damascus, sources: [source/shadharat-dhahab] }
+sources: [source/shadharat-dhahab]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }
+provenance:
+  layer: own-research
+  source: "شذرات الذهب — ابن العماد (ج7، سنة 694)، قراءة آبل فيجن"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-shadharat-batch-134

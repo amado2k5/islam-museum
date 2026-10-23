@@ -1,0 +1,23 @@
+id: event/siege-of-fez-1912
+class: event
+kind: siege
+label: { ar: "حصار فاس (١٩١٢)", en: "Siege of Fez (1912)" }
+summary:
+  ar: "بطاقة أولية لحصار فاس (١٩١٢)؛ لم تُراجع مصادره على الصفحة بعد."
+  en: "Draft card for Siege of Fez (1912); its sources are not yet checked on the page."
+wings: [time]
+periods: [period/modern-era]
+regions: [maghreb]
+date:
+  start: { edtf: "1912", precision: year, status: tradition, derived: true }
+  end: { edtf: "1912", precision: year, status: tradition, derived: true }
+sources: [source/tarikh-islam-hasan-ibrahim]
+external_ids:
+  wikidata: Q139715321
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; battle attested in narrative histories — entry not yet checked on the page"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-wave2
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

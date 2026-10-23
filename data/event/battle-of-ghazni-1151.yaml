@@ -1,0 +1,23 @@
+id: event/battle-of-ghazni-1151
+class: event
+kind: battle
+label: { ar: "معركة غزنة (١١٥١)", en: "Battle of Ghazni" }
+summary:
+  ar: "بطاقة أولية لمعركة غزنة سنة ١١٥١م، أخذ علاء الدين حسين الغوري المدينة وإحراقها سبعة أيام؛ لم تُراجع مصادره على الصفحة بعد."
+  en: "Draft card for the Battle of Ghazni in 1151, Ala al-Din Husayn the Ghurid's capture and seven-day burning of the city; its sources are not yet checked on the page."
+wings: [time]
+periods: [period/crusades-ayyubid-mamluk]
+regions: [persia-central-asia]
+date:
+  start: { edtf: "1151", precision: year, status: tradition, derived: true }
+  end: { edtf: "1151", precision: year, status: tradition, derived: true }
+sources: [source/kamil-ibn-al-athir]
+external_ids:
+  wikidata: Q16207187
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; battle attested in narrative histories — entry not yet checked on the page"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-wave2
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

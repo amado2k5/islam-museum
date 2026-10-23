@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 9:48 (سورة التوبة، الآية 48)."
 text: "لَقَدِ ٱبْتَغَوُا۟ ٱلْفِتْنَةَ مِن قَبْلُ وَقَلَّبُوا۟ لَكَ ٱلْأُمُورَ حَتَّىٰ جَآءَ ٱلْحَقُّ وَظَهَرَ أَمْرُ ٱللَّهِ وَهُمْ كَـٰرِهُونَ"
 text_search: "لقد ابتغوا الفتنة من قبل وقلبوا لك الأمور حتى جاء الحق وظهر أمر الله وهم كارهون"
+translations:
+  en: { text: "Aforetime they sought to cause sedition and raised difficulties for thee till the Truth came and the decree of Allah was made manifest, though they were loth.", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "یہ پہلے بھی طالب فساد رہے ہیں اور بہت سی باتوں میں تمہارے لیے الٹ پھیر کرتے رہے ہیں۔ یہاں تک کہ حق آپہنچا اور خدا کا حکم غالب ہوا اور وہ برا مانتے ہی رہ گئے", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-9 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

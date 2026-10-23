@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 109:6 (سورة الكافرون، الآية 6)."
 text: "لَكُمْ دِينُكُمْ وَلِىَ دِينِ"
 text_search: "لكم دينكم ولي دين"
+translations:
+  en: { text: "Unto you your religion, and unto me my religion.", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "تم اپنے دین پر میں اپنے دین پر", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-109 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

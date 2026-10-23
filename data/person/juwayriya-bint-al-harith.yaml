@@ -9,6 +9,9 @@ names:
   - kind: full
     lang: ar
     value: جويرية بنت الحارث بن أبي ضرار بن حبيب بن جذيمة (المصطلق) الخزاعية المصطلقية
+  - kind: alternate
+    lang: ar
+    value: برة
 gender: female
 roles:
   - companion
@@ -17,8 +20,7 @@ traditions:
 summary:
   ar: أم المؤمنين، ابنة سيد بني المصطلق؛ وقعت في السبي يوم المريسيع فكاتبت على نفسها، فأدى النبي كتابتها وتزوجها، فأطلق الناس ما في أيديهم من بني المصطلق، فأعتق الله بها مئة أهل بيت.
   en: "A Mother of the Believers, daughter of the chief of Banu al-Mustaliq; she fell among the captives at al-Muraysi' and arranged her own manumission, the Prophet paid it and married her, and people released the Mustaliq captives they held, so that a hundred households were freed through her."
-wings:
-  - people
+wings: [people]
 themes:
   - women
   - family-marriage-kinship
@@ -53,6 +55,11 @@ relations:
     sources:
       - source/ibn-hajar-isaba
       - source/mubarakpuri-raheeq
+  - type: spouse_of
+    target: person/musafi-ibn-safwan
+    note: "زوجها الأول مسافع بن صفوان ابن عمها؛ قُتل يوم المريسيع (نساء حول الرسول ص118-120)."
+    sources:
+      - source/nisa-hawl-alrasul
   - type: member_of
     target: group/mothers-of-the-believers
     sources: [source/tanzil-quran, source/mubarakpuri-raheeq]
@@ -62,12 +69,14 @@ provenance:
   generated_by: Claude (maintainer session)
   model: claude-sonnet-5-5
   run: isaba-batch-3
+external_ids: { wikidata: "Q3595927" }
 sources:
   - source/ibn-hajar-isaba
   - source/mubarakpuri-raheeq
   - source/zad-al-maad
   - source/ibn-hisham-sira
   - source/ibn-sad-tabaqat-bewley
+  - source/nisa-hawl-alrasul
 status:
   review: draft
   completeness: 2

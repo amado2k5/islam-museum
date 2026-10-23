@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 42:5 (سورة الشورى، الآية 5)."
 text: "تَكَادُ ٱلسَّمَـٰوَٰتُ يَتَفَطَّرْنَ مِن فَوْقِهِنَّ ۚ وَٱلْمَلَـٰٓئِكَةُ يُسَبِّحُونَ بِحَمْدِ رَبِّهِمْ وَيَسْتَغْفِرُونَ لِمَن فِى ٱلْأَرْضِ ۗ أَلَآ إِنَّ ٱللَّهَ هُوَ ٱلْغَفُورُ ٱلرَّحِيمُ"
 text_search: "تكاد السماوات يتفطرن من فوقهن ۚ والملائكة يسبحون بحمد ربهم ويستغفرون لمن في الأرض ۗ ألا إن الله هو الغفور الرحيم"
+translations:
+  en: { text: "Almost might the heavens above be rent asunder while the angels hymn the praise of their Lord and ask forgiveness for those on the earth. Lo! Allah, He is the Forgiver, the Merciful.", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "قریب ہے کہ آسمان اوپر سے پھٹ پڑیں اور فرشتے اپنے پروردگار کی تعریف کے ساتھ اس کی تسبیج کرتے رہتے ہیں اور جو لوگ زمین میں ہیں ان کے لئے معافی مانگتے رہتے ہیں۔ سن رکھو کہ خدا بخشنے والا مہربان ہے", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-42 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

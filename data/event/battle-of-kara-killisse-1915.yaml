@@ -1,0 +1,23 @@
+id: event/battle-of-kara-killisse-1915
+class: event
+kind: battle
+label: { ar: "معركة كاراكليسا", en: "Battle of Kara Killisse" }
+summary:
+  ar: "بطاقة أولية لمعركة كاراكليسا سنة ١٩١٥م، اشتباك الروس والعثمانيين في حملة القوقاز؛ لم تُراجع مصادره على الصفحة بعد."
+  en: "Draft card for the Battle of Kara Killisse in 1915, the Russian-Ottoman clash in the Caucasus campaign; its sources are not yet checked on the page."
+wings: [time]
+periods: [period/modern-era]
+regions: [anatolia-balkans]
+date:
+  start: { edtf: "1915", precision: year, status: tradition, derived: true }
+  end: { edtf: "1915", precision: year, status: tradition, derived: true }
+sources: [source/dawlat-uthmaniyya-salabi]
+external_ids:
+  wikidata: Q936223
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; battle attested in Caucasus-campaign histories — entry not yet checked on the page"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-wave2
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

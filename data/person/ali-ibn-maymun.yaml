@@ -1,0 +1,30 @@
+id: person/ali-ibn-maymun
+class: person
+label: { ar: "علي بن ميمون" }
+names:
+  - { value: "أبو الحسن علي بن ميمون المغربي الصوفي", kind: full }
+summary:
+  ar: "أبو الحسن علي بن ميمون المغربي الصوفي، خلف أبا مدين في طريقته وهو من أهل المغرب ونزل مراكش، وكان متورعاً؛ استُنكر أن تُنسب إليه رسالة لأنه كان متورعاً وأستاذاً، وإنما نسبت إليه لأنه انفرد بترتيبها وانتفع بها خلق كثير؛ توفي بأزمور من أعمال مراكش سنة سبع وستمائة {cite:shadharat-dhahab p. 34-35}."
+  en: "Abu al-Hasan Ali b. Maymun, the Maghribi Sufi who succeeded Abu Madyan in his path, resident of Marrakesh, scrupulous; a treatise attributed to him was disowned as his only in that he alone arranged it — and many profited; he died at Azammur in the Marrakesh countryside in 607 {cite:shadharat-dhahab p. 34-35}."
+gender: male
+wings: [people]
+roles: [sufi]
+periods: [period/crusades-ayyubid-mamluk]
+regions: [maghreb]
+died:
+  edtf: "1210~"
+  hijri: "0607"
+  calendar: julian
+  precision: year
+  status: tradition
+  derived: true
+  note: "توفي بأزمور من عمل مراكش سنة سبع وستمائة {cite:shadharat-dhahab p. 35}؛ التحويل مشتق."
+relations:
+  - { type: student_of, target: person/abu-madyan, sources: [source/shadharat-dhahab] }
+provenance:
+  layer: own-research
+  source: "شذرات الذهب لابن العماد — الجزء الخامس، ممسوح مكتبة الحصاد (AAlexandrina-001518)، قراءة آبل فيجن"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-shadharat-batch-122
+sources: [source/shadharat-dhahab]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

@@ -1,0 +1,23 @@
+id: event/siege-of-sidon-1110
+class: event
+kind: siege
+label: { ar: "حصار صيدا (١١١٠)", en: "Siege of Sidon" }
+summary:
+  ar: "بطاقة أولية لحصار صيدا سنة ١١١٠م، سقوط المدينة بيد الفرنج والنرويجيين في الحملة الأولى؛ لم تُراجع مصادره على الصفحة بعد."
+  en: "Draft card for the Siege of Sidon in 1110, the city's fall to the Crusaders and Norwegians in the First Crusade's aftermath; its sources are not yet checked on the page."
+wings: [time]
+periods: [period/crusades-ayyubid-mamluk]
+regions: [levant-iraq]
+date:
+  start: { edtf: "1110", precision: year, status: tradition, derived: true }
+  end: { edtf: "1110", precision: year, status: tradition, derived: true }
+sources: [source/kamil-ibn-al-athir]
+external_ids:
+  wikidata: Q3431465
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; siege attested in Crusades histories — entry not yet checked on the page"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-wave2
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

@@ -1,0 +1,20 @@
+id: person/warqa-ibn-nawfal
+class: person
+label: { ar: "ورقاء بن نوفل", en: "Warqa' ibn Nawfal" }
+roles: [general]
+gender: male
+summary:
+  ar: "قائد المقتدر بالله؛ أوقع سنة ثلاث وثلاثمائة بالأعراب بناحية الأجفر فقتل جماعة وأسر جماعة وقدم بهم بغداد فوثبت العامة على الأسرى فقتلتهم {cite:muntazam-ibn-al-jawzi p. 418}."
+  en: "Al-Muqtadir's commander; in 303 he fell on the Arabs at al-Ajfar, killing and capturing bands whom the Baghdad mob then killed {cite:muntazam-ibn-al-jawzi p. 418}."
+wings: [people]
+periods: [period/abbasid-early]
+regions: [levant-iraq]
+relations:
+  - { type: allied_with, target: person/al-muqtadir-billah, role: "قائد", sources: [source/muntazam-ibn-al-jawzi] }
+provenance:
+  layer: own-research
+  source: "المنتظم لابن الجوزي (ط حيدرآباد 1357، ج6، سنة 303)، قراءة آبل فيجن"
+  generated_by: "Devin (SWE-2 Medium) from Apple Vision OCR"
+  run: lib-muntazam-258-349-batch29
+sources: [source/muntazam-ibn-al-jawzi]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 Medium)" }

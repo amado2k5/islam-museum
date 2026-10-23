@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 56:79 (سورة الواقعة، الآية 79)."
 text: "لَّا يَمَسُّهُۥٓ إِلَّا ٱلْمُطَهَّرُونَ"
 text_search: "لا يمسه إلا المطهرون"
+translations:
+  en: { text: "Which none toucheth save the purified,", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "اس کو وہی ہاتھ لگاتے ہیں جو پاک ہیں", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-56 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

@@ -1,0 +1,25 @@
+id: person/hujr-ibn-al-harith-al-kindi
+class: person
+label: { ar: "حجر بن الحارث الكندي" }
+names:
+  - { value: "حجر بن الحارث بن عمرو الكندي، أبو امرئ القيس", kind: full }
+gender: male
+summary:
+  ar: "حجر بن الحارث بن عمرو الكندي، أكبر أولاد الحارث وأبو الشاعر امرئ القيس؛ ملكه أبوه على بني أسد بن خزيمة وغطفان وكنانة وله عليهم جائزة وإتاوة، فلما بعث جبايته طردت بنو أسد رسله فسار إليهم فأخذ سرواتهم وأباح الأموال وحبس جماعة من أشرافهم فيهم عبيد بن الأبرص، ثم تكهن كاهنهم عوف بن ربيعة فهجموا عليه في قبته فقتله علباء بن الحارث الكاهلي وكان حجر قتل أباه، وانتهبت قيس وكنانة أسلابه {cite:kamil-ibn-al-athir p. 382-383}."
+  en: "Hujr ibn al-Harith al-Kindi, eldest of al-Harith's sons and father of the poet Imru' al-Qays; placed over Asad, Ghatafan and Kinana with a yearly levy, he seized their chiefs and plundered their goods when they expelled his collectors — until their kahin prophesied his fall and Ilba' ibn al-Harith speared him in his tent, avenging his own father {cite:kamil-ibn-al-athir p. 382-383}."
+wings: [people]
+periods: [period/pre-islamic-arabia]
+regions: [arabia]
+relations:
+  - { type: child_of, target: person/al-harith-ibn-amr-al-kindi, sources: [source/kamil-ibn-al-athir] }
+  - { type: member_of, target: group/kinda, sources: [source/kamil-ibn-al-athir] }
+  - { type: sibling_of, target: person/shurahbil-ibn-al-harith, sources: [source/kamil-ibn-al-athir] }
+  - { type: sibling_of, target: person/salama-ibn-al-harith-al-taghlibi, sources: [source/kamil-ibn-al-athir] }
+sources: [source/kamil-ibn-al-athir]
+provenance:
+  layer: own-research
+  source: "الكامل في التاريخ لابن الأثير — أيام العرب، ص382-383"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  model: swe-2-high
+  run: lib-kamil-22
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

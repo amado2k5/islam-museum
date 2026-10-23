@@ -1,0 +1,15 @@
+id: passage/muwatta-15-1702
+class: passage
+unit: hadith
+work: work/muwatta-malik
+ref: "1702"
+label: { ar: "الموطأ 1702 — مالك في الرجل تكون تحته الأمة فيبتاعها فيعتقها: تعتد حيضتين ما لم يصبها، فإن أصابها بعد ملكه إياها قبل عتاقها فعليها الاستبراء بحيضة", en: "Muwatta 1702" }
+summary:
+  ar: "يقول مالك في الرجل تكون تحته الأمة، ثم يبتاعها فيعتقها، إنها تعتد عدة الأمة حيضتين، ما لم يصبها. فإن أصابها بعد ملكه إياها قبل عتاقها، لم يكن عليها إلا الاستبراء بحيضة. {cite:muwatta-maruf-1997 p.95}"
+relations:
+  - { type: part_of, target: passage/muwatta-kitab-15-talaq }
+  - { type: mentions, target: person/malik-ibn-anas, sources: [source/muwatta-maruf-1997] }
+  - { type: basis_for, target: concept/talaq, sources: [source/muwatta-maruf-1997] }
+provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 2, hadith 1702 at PDF p. 95; عدة الأمة من طلاق زوجها", generated_by: "Claude Code (claude-haiku-5-5) from Apple Vision OCR of the Noor-Book PDF, checked on the page image where doubtful", run: "muwatta-prose-k15-b38" }
+sources: [source/muwatta-maruf-1997]
+status: { review: draft, completeness: 2, generated_by: "Claude Code (claude-haiku-5-5); own-words account written from PDF p. 95; matn excerpt at most 40 words" }

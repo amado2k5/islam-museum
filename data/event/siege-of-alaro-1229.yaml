@@ -1,0 +1,23 @@
+id: event/siege-of-alaro-1229
+class: event
+kind: siege
+label: { ar: "حصار قلعة ألارو (١٢٢٩)", en: "Siege of Alaró (1229)" }
+summary:
+  ar: "بطاقة أولية لحصار قلعة ألارو سنة ١٢٢٩م، آخر مقاومة مسلمي مايورقة لفتح جيمس الأول؛ لم تُراجع مصادره على الصفحة بعد."
+  en: "Draft card for the Siege of Alaró in 1229, the last stand of Mallorca's Muslims against James I's conquest; its sources are not yet checked on the page."
+wings: [time]
+periods: [period/crusades-ayyubid-mamluk]
+regions: [andalus-europe]
+date:
+  start: { edtf: "1229-12", precision: year, status: tradition, derived: true }
+  end: { edtf: "1230-04", precision: year, status: tradition, derived: true }
+sources: [source/tarikh-islam-hasan-ibrahim]
+external_ids:
+  wikidata: Q17586787
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; battle attested in narrative histories — entry not yet checked on the page"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-wave2
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

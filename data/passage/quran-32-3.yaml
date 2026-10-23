@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 32:3 (سورة السجدة، الآية 3)."
 text: "أَمْ يَقُولُونَ ٱفْتَرَىٰهُ ۚ بَلْ هُوَ ٱلْحَقُّ مِن رَّبِّكَ لِتُنذِرَ قَوْمًا مَّآ أَتَىٰهُم مِّن نَّذِيرٍ مِّن قَبْلِكَ لَعَلَّهُمْ يَهْتَدُونَ"
 text_search: "أم يقولون افتراه ۚ بل هو الحق من ربك لتنذر قوما ما أتاهم من نذير من قبلك لعلهم يهتدون"
+translations:
+  en: { text: "Or say they: He hath invented it? Nay, but it is the Truth from thy Lord, that thou mayst warn a folk to whom no warner came before thee, that haply they may walk aright.", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "کیا یہ لوگ یہ کہتے ہیں کہ پیغمبر نے اس کو از خود بنا لیا ہے (نہیں) بلکہ وہ تمہارے پروردگار کی طرف سے برحق ہے تاکہ تم ان لوگوں کو ہدایت کرو جن کے پاس تم سے پہلے کوئی ہدایت کرنے والا نہیں آیا تاکہ یہ رستے پر چلیں", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-32 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

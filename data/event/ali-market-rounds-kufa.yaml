@@ -1,0 +1,32 @@
+id: event/ali-market-rounds-kufa
+class: event
+kind: other
+label: { ar: "جولات علي في سوق الكوفة", en: "Ali's rounds in the market of Kufa" }
+summary:
+  ar: "كان علي يدخل السوق بنفسه بالدرة في يده، ويأمر التجار بأخذ الحق وإعطائه، ويقول: «بيعوا ولا تحلفوا، فإن اليمين تنفق السلعة وتمحق البركة»، وينهى عن الغش وتنقيح اللحم وبيع السمك الطافي، ويقضي في النزاع بين الباعة والمشترين {cite:sallabi-ali-vol1 p. 265}. وأمر أن يُطعم المساكين وقال: «لا تردوا قليل الربح فتحرموا كثيره» {cite:sallabi-ali-vol1 p. 267}."
+  en: "Ali walked the Kufan market himself, told the traders to sell without swearing oaths, forbade adulteration and the selling of floating fish, decided disputes between sellers and buyers, and urged them not to refuse small profit lest they lose the greater {cite:sallabi-ali-vol1 p. 265}."
+wings: [people]
+themes: [trade-and-finance, ethics-and-character]
+periods: [period/rashidun]
+regions: [levant-iraq]
+date:
+  start: { edtf: "0656/0661", calendar: julian, precision: year, status: tradition, derived: true, note: "الكتاب لا يؤرخ الجولات؛ الإطار (خلافة علي بالكوفة) مشتق؛ ثقة منخفضة." }
+relations:
+  - { type: had_participant, target: person/ali-ibn-abi-talib, role: "المحتسب في السوق", sources: [source/sallabi-ali-vol1] }
+  - { type: occurred_at, target: place/kufa, sources: [source/sallabi-ali-vol1] }
+sources: [source/sallabi-ali-vol1]
+perspectives:
+  - tradition: sunni
+    id: sunni-book
+    summary:
+      ar: "يعرض الصلابي الجولات بوصفها دليلاً على حرص علي على تفقد أحوال المتعاملين وحملهم على الشرع في البيع، ويرى أن ذلك كان من الإحتساب في السوق {cite:sallabi-ali-vol1 p. 265}."
+      en: "Al-Sallabi presents the rounds as proof of Ali's care that traders deal by the law, and as an example of hisba in the market {cite:sallabi-ali-vol1 p. 265}."
+    sources: [source/sallabi-ali-vol1]
+  - tradition: academic
+    id: academic
+    summary:
+      ar: "ينقل الكتاب قول الأصبغ بن نباتة في قضية المحل التجاري في سوق الكوفة، ولم يُعرض فيه تحليل أكاديمي لتاريخ السوق؛ يحتاج إلى مرجع محدد (needs_source)."
+      en: "The book gives no academic analysis of the Kufan market's history; to be added from a named source (needs_source)."
+    sources: []
+provenance: { layer: own-research, source: "sallabi-ali-vol1 pp. 265-268", generated_by: "Claude Code", model: "claude-haiku-5-5", run: "sallabi-ali-vol1-deep-pp251-300" }
+status: { review: draft, completeness: 1, generated_by: "Claude Code (claude-haiku-5-5); mined from sallabi-ali-vol1 pp. 265-268" }

@@ -15,8 +15,7 @@ traditions:
 summary:
   ar: أخت زينب بنت جحش، كانت زوج مصعب بن عمير فقُتل عنها يوم أحد، ثم تزوجها طلحة بن عبيد الله؛ شهدت أحداً تسقي العطشى وتداوي الجرحى، وروت حديث الاستحاضة.
   en: Sister of Zaynab bint Jahsh, wife of Mus'ab ibn Umayr, who was killed at Uhud, and then of Talha ibn Ubaydullah; she was at Uhud giving water to the thirsty and tending the wounded, and she narrated the hadith on abnormal bleeding.
-wings:
-- people
+wings: [people]
 themes:
 - women
 periods:
@@ -36,16 +35,27 @@ faith:
 relations:
 - type: spouse_of
   target: person/musab-ibn-umayr
+  note: تزوجها مصعب بن عمير حتى استشهد يوم أحد؛ حين بُلّغت قيل لها «يا حمنة احتسبي زوجك» (نساء حول الرسول ص371-375).
   sources:
   - source/ibn-hajar-isaba
+  - source/nisa-hawl-alrasul
 - type: spouse_of
   target: person/talha-ibn-ubaydullah
+  note: تزوجها طلحة بن عبيد الله بعد مصعب فولدت له محمداً المعروف بالسجاد (نساء حول الرسول ص376).
   sources:
   - source/ibn-hajar-isaba
+  - source/nisa-hawl-alrasul
+- type: parent_of
+  target: person/muhammad-ibn-talha
+  note: ابنها محمد بن طلحة بن عبيد الله الملقب بالسجاد (نساء حول الرسول ص376).
+  sources:
+  - source/nisa-hawl-alrasul
 - type: child_of
   target: person/umayma-bint-abd-al-muttalib
+  note: أمها أميمة بنت عبد المطلب فهي بنت عمة النبي (نساء حول الرسول ص368).
   sources:
   - source/ibn-hajar-isaba
+  - source/nisa-hawl-alrasul
 - type: participated_in
   target: event/battle-of-uhud
   sources:
@@ -56,8 +66,10 @@ provenance:
   generated_by: Claude (maintainer session)
   model: claude-sonnet-5-5
   run: isaba-women-1
+external_ids: { wikidata: "Q4120121" }
 sources:
 - source/ibn-hajar-isaba
+- source/nisa-hawl-alrasul
 status:
   review: draft
   completeness: 2

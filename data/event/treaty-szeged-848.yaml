@@ -1,0 +1,25 @@
+id: event/treaty-szeged-848
+class: event
+kind: treaty
+label:
+  ar: "معاهدة سيزجادن (٨٤٨هـ/١٤٤٤م)"
+  en: "Treaty of Szeged (1444)"
+summary:
+  ar: "معاهدة صلح لعشر سنين أُبرمت في سيزجادن في يوليو سنة ٨٤٨هـ/١٤٤٤م بعد أن أوقع القائد المجري يوحنا هنيادي بالعثمانيين هزيمتين فادحتين عام ٨٤٦هـ/١٤٤٢م فاضطروا لطلب الصلح. تنازل فيها السلطان مراد الثاني عن الصرب فاعترف بجورج برانكوفيتش أميراً عليها، وعن الأفلاق للمجر، وافتدى زوج ابنته محمود جلبي قائد الجيوش العثمانية بستين ألف دوقية، وحُررت باللغتين العثمانية والمجرية وأقسم لاديسلاس ملك المجر على الإنجيل وأقسم السلطان مراد على القرآن على مراعاة شروطها بذمة وشرف {cite:dawlat-uthmaniyya-salabi p. 80}. ويذكر الكتاب أن الكاردينال سيزاريني والبابا أوجين الرابع دعوا النصارى لنقضها بحجة أنها عُقدت دون إذن البابا، فنقضها الحلف وكانت وقعة وارنه {cite:dawlat-uthmaniyya-salabi p. 81-82}."
+  en: "The ten-year peace sworn at Szeged in July 848/1444 after Hunyadi's double victory: Murad II ceded Serbia to George Branković and Wallachia to Hungary, ransomed his son-in-law Mahmud Çelebi for 60,000 ducats, and swore on the Qur'an as King Ladislas swore on the Gospel {cite:dawlat-uthmaniyya-salabi p. 80}. The book narrates Cardinal Cesarini and Pope Eugene IV preaching its annulment as made without papal leave — the coalition broke it, and Varna followed {cite:dawlat-uthmaniyya-salabi p. 81-82}."
+wings: [time]
+periods: [period/mongol-post-mongol]
+regions: [anatolia-balkans]
+date:
+  start: { edtf: "1444-07", hijri: "0848", calendar: julian, precision: month, status: tradition, derived: true, note: "يوليو ٨٤٨هـ/١٤٤٤م؛ التحويل مشتق {cite:dawlat-uthmaniyya-salabi p. 80}." }
+relations:
+  - { type: had_participant, target: person/murad-ii-uthmani, role: "الطرف العثماني", sources: [source/dawlat-uthmaniyya-salabi] }
+  - { type: had_participant, target: person/hunyadi-janos, role: "قائد الطرف المجري", sources: [source/dawlat-uthmaniyya-salabi] }
+  - { type: related_to, target: event/battle-varna-848, role: "نُقضت فكانت وارنه", sources: [source/dawlat-uthmaniyya-salabi] }
+sources: [source/dawlat-uthmaniyya-salabi]
+provenance:
+  layer: own-research
+  source: "الدولة العثمانية لعلي محمد الصلابي، ص 80–82"
+  generated_by: "Devin (SWE-2 Medium) from Apple Vision OCR"
+  run: lib-salabi-uthmani-batch-4
+status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 Medium)" }

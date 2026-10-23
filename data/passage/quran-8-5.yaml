@@ -12,10 +12,13 @@ summary:
   ar: "القرآن 8:5 (سورة الأنفال، الآية 5)."
 text: "كَمَآ أَخْرَجَكَ رَبُّكَ مِنۢ بَيْتِكَ بِٱلْحَقِّ وَإِنَّ فَرِيقًا مِّنَ ٱلْمُؤْمِنِينَ لَكَـٰرِهُونَ"
 text_search: "كما أخرجك ربك من بيتك بالحق وإن فريقا من المؤمنين لكارهون"
+translations:
+  en: { text: "Even as thy Lord caused thee (Muhammad) to go forth from thy home with the Truth, and lo! a party of the believers were averse (to it).", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "(ان لوگوں کو اپنے گھروں سے اسی طرح نکلنا چاہیئے تھا) جس طرح تمہارے پروردگار نے تم کو تدبیر کے ساتھ اپنے گھر سے نکالا اور (اس وقت) مومنوں ایک جماعت ناخوش تھی", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-8 }
   - { type: revealed_about, target: event/battle-of-badr, sources: [source/mubarakpuri-raheeq] }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

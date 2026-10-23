@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 23:71 (سورة المؤمنون، الآية 71)."
 text: "وَلَوِ ٱتَّبَعَ ٱلْحَقُّ أَهْوَآءَهُمْ لَفَسَدَتِ ٱلسَّمَـٰوَٰتُ وَٱلْأَرْضُ وَمَن فِيهِنَّ ۚ بَلْ أَتَيْنَـٰهُم بِذِكْرِهِمْ فَهُمْ عَن ذِكْرِهِم مُّعْرِضُونَ"
 text_search: "ولو اتبع الحق أهواءهم لفسدت السماوات والأرض ومن فيهن ۚ بل أتيناهم بذكرهم فهم عن ذكرهم معرضون"
+translations:
+  en: { text: "And if the Truth had followed their desires, verily the heavens and the earth and whosoever is therein had been corrupted. Nay, We have brought them their Reminder, but from their Reminder they now turn away.", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "اور خدائے (برحق) ان کی خواہشوں پر چلے تو آسمان اور زمین اور جو ان میں ہیں سب درہم برہم ہوجائیں۔ بلکہ ہم نے ان کے پاس ان کی نصیحت (کی کتاب) پہنچا دی ہے اور وہ اپنی (کتاب) نصیحت سے منہ پھیر رہے ہیں", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-23 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

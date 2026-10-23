@@ -1,0 +1,23 @@
+id: person/taqi-al-din-al-fasi
+class: person
+label: { ar: "تقي الدين الفاسي", en: "Taqi al-Din al-Fasi" }
+names:
+  - { value: "تقي الدين أبو الطيب محمد بن أحمد بن علي الفاسي ثم المكي", kind: full }
+gender: male
+summary:
+  ar: "الحافظ تقي الدين الفاسي ثم المكي؛ ذو تجربة وحذق وعشرة وحلاوة لسان يجلب القلوب بحسن عبارته ولطيف إشارته، قال ابن حجر رافقني في السماع كثيراً بمصر والشام واليمن وغيرها وكنت أوده وأعظمه وأقوم معه في مهماته ولقد ساءني موته وأسفت على فقد مثله، وكان قد أصيب ببصره وله في ذلك أخبار ومكث من قذحه فما أطاق ذلك ولا أفاده، ومن مصنفاته العقد الثمين في أخبار البلد الأمين وشفاء الغرام في أخبار البلد الحرام، توفي بمكة في رابع شوال سنة اثنتين وثلاثين وثمانمائة {cite:shadharat-dhahab p. 199}."
+  en: "The hafiz Taqi al-Din al-Fasi of Mecca — Ibn Hajar's beloved study-companion across Egypt, Syria and Yemen ('his death grieved me'); author of al-'Iqd al-Thamin and Shifa' al-Gharam on the histories of Medina and Mecca; died at Mecca 4 Shawwal 832 {cite:shadharat-dhahab p. 199}."
+roles: [historian, scholar]
+wings: [people]
+periods: [period/mongol-post-mongol]
+regions: [arabia]
+died: { edtf: "1429-07-04~", hijri: "0832-10-04", calendar: julian, precision: day, status: tradition, derived: true, note: "توفي بمكة في رابع شوال 832 {cite:shadharat-dhahab p. 199}", sources: [source/shadharat-dhahab] }
+relations:
+  - { type: teacher_of, target: person/ibn-hajar-al-asqalani, sources: [source/shadharat-dhahab] }
+provenance:
+  layer: own-research
+  source: "شذرات الذهب — ابن العماد (ط مكتبة المثنى 1351، ج7، سنة 832)، قراءة آبل فيجن"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-shadharat-batch-138
+sources: [source/shadharat-dhahab]
+status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 High)" }

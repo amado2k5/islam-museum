@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 20:75 (سورة طه، الآية 75)."
 text: "وَمَن يَأْتِهِۦ مُؤْمِنًا قَدْ عَمِلَ ٱلصَّـٰلِحَـٰتِ فَأُو۟لَـٰٓئِكَ لَهُمُ ٱلدَّرَجَـٰتُ ٱلْعُلَىٰ"
 text_search: "ومن يأته مؤمنا قد عمل الصالحات فأولئك لهم الدرجات العلى"
+translations:
+  en: { text: "But whoso cometh unto Him a believer, having done good works, for such are the high stations;", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "اور جو اس کے روبرو ایماندار ہو کر آئے گا اور عمل بھی نیک کئے ہوں گے تو ایسے لوگوں کے لئے اونچے اونچے درجے ہیں", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-20 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

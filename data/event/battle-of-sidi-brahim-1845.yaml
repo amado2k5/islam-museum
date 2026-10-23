@@ -1,0 +1,23 @@
+id: event/battle-of-sidi-brahim-1845
+class: event
+kind: battle
+label: { ar: "معركة سيدي إبراهيم (١٨٤٥)", en: "Battle of Sidi-Brahim" }
+summary:
+  ar: "بطاقة أولية لمعركة سيدي إبراهيم سنة ١٨٤٥م، محاصرة عبد القادر الكتيبة الفرنسية وفنائها؛ لم تُراجع مصادره على الصفحة بعد."
+  en: "Draft card for the Battle of Sidi-Brahim in 1845, Abd al-Qadir's encirclement and destruction of the French battalion; its sources are not yet checked on the page."
+wings: [time]
+periods: [period/colonial-era]
+regions: [maghreb]
+date:
+  start: { edtf: "1845-09-23", precision: year, status: tradition, derived: true }
+  end: { edtf: "1845-09-26", precision: year, status: tradition, derived: true }
+sources: [source/tarikh-islam-hasan-ibrahim]
+external_ids:
+  wikidata: Q2889977
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; battle attested in narrative histories — entry not yet checked on the page"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-wave2
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

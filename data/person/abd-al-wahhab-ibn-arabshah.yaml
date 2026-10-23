@@ -1,0 +1,26 @@
+id: person/abd-al-wahhab-ibn-arabshah
+class: person
+label: { ar: "تاج الدين عبد الوهاب بن عربشاه", en: "Taj al-Din 'Abd al-Wahhab ibn 'Arabshah" }
+names:
+  - { kind: full, lang: ar, value: "قاضي القضاة تاج الدين عبد الوهاب بن العلامة شهاب الدين أحمد بن محمد بن عربشاه الحنفي" }
+gender: male
+roles: [jurist, scholar]
+traditions: [sunni]
+wings: [people]
+themes: [law-and-courts, education]
+periods: [period/mongol-post-mongol]
+regions: [levant-iraq, egypt-nile]
+summary:
+  ar: "قاضي القضاة تاج الدين عبد الوهاب بن المؤرخ شهاب الدين ابن عربشاه الحنفي، ولد سنة ثلاث عشرة وثمانمائة؛ كان في ابتداء أمره شاهداً وبلغ في صناعة الشهادة غاية الدهاء، وكان فقيراً فحصلت له ثروة وجاه، ونظم في مذهب الحنفية كتاباً كبيراً، وولى قضاء قضاة دمشق في رجب سنة أربع وثمانين وثمانمائة ثم عزل في شوال سنة خمس وتسعين، فسافر إلى مصر فولي مشيخة الصرغتمشية بها إلى أن توفي في خامس عشر رجب سنة إحدى وتسعمائة {cite:shadharat-dhahab p. 421-422}."
+  en: "Son of the historian Ibn 'Arabshah, b. 813 — rose from a professional witness ('utter cunning in the craft of testimony') and poverty to wealth and rank, composed a large verse work on Hanafi doctrine, was chief qadi of Damascus Rajab 884–Shawwal 895, then held the Sarghitmishiyya shaykhate in Cairo until his death 15 Rajab 901 {cite:shadharat-dhahab p. 421-422}."
+born: { edtf: "1410/1411", hijri: "0813", calendar: julian, precision: year, status: tradition, derived: true, note: "ولد 813؛ التحويل مشتق {cite:shadharat-dhahab p. 421}", sources: [source/shadharat-dhahab] }
+died: { edtf: "1496-03-06~", hijri: "0901-07-15", calendar: julian, precision: day, status: tradition, derived: true, note: "توفي 15 رجب 901 بمصر {cite:shadharat-dhahab p. 422}", sources: [source/shadharat-dhahab] }
+relations:
+  - { type: child_of, target: person/ibn-arabshah, sources: [source/shadharat-dhahab] }
+provenance:
+  layer: own-research
+  source: "شذرات الذهب — ابن العماد (ط مكتبة المثنى 1351، ج8، سنة 901)، قراءة آبل فيجن"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-shadharat-batch-143
+sources: [source/shadharat-dhahab]
+status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 High)" }

@@ -1,0 +1,105 @@
+---
+// Teacher's Kit: one lesson plan — objectives, 40-minute flow table,
+// discussion prompts, printable worksheet, and a "try it" link to the kid
+// experience. All server-rendered; print CSS prints the worksheet alone.
+import BaseLayout from "../../../../../layouts/BaseLayout.astro";
+import { ui, LANGS, type Lang } from "../../../../../lib/i18n";
+import { loadLessons, getLesson, viewLessons } from "../../../../../lib/kids";
+import "../../../../../styles/kids.css";
+
+export function getStaticPaths() {
+  const lessons = loadLessons();
+  return LANGS.flatMap((lang) =>
+    lessons.map((l) => ({ params: { lang, unit: l.unit_slug }, props: { lang, unit: l.unit_slug } })));
+}
+const { lang, unit } = Astro.props as { lang: Lang; unit: string };
+const T = ui(lang);
+const t = T.kids;
+const minutesWord = T.learn.minutes as string;
+const lesson = viewLessons([getLesson(unit)], lang)[0];
+const lessonTitle = t[`${unit}_title`] as string;
+const tryHref = `/${lang}${lesson.experience_href}`;
+const crumbLabel = lang === "ar" ? "مسار التنقل" : "breadcrumb";
+---
+<BaseLayout lang={lang} title={lessonTitle} description={lessonTitle} path={`/${lang}/sighar/teachers/lessons/${unit}/`} kids={true}>
+  <div class="kids teachers-lesson lesson-scope">
+    <nav aria-label={crumbLabel} class="crumbs">
+      <a href={`/${lang}/sighar/`}>{t.hub_title}</a>
+      <span aria-hidden="true"> / </span>
+      <a href={`/${lang}/sighar/teachers/`}>{t.teachers_title}</a>
+      <span aria-hidden="true"> / </span>
+      <span aria-current="page">{lessonTitle}</span>
+    </nav>
+    <h1>{lessonTitle}</h1>
+
+    <section class="lesson-objectives" aria-label={t.lesson_objectives}>
+      <h2>{t.lesson_objectives}</h2>
+      <ul>
+        {lesson.objectives.map((o) => <li>{o}</li>)}
+      </ul>
+    </section>
+
+    <section class="lesson-flow" aria-label={t.lesson_flow}>
+      <h2>{t.lesson_flow}</h2>
+      <table>
+        <caption class="vh">{t.lesson_flow}</caption>
+        <thead>
+          <tr>
+            <th scope="col">{minutesWord}</th>
+            <th scope="col">{t.lesson_flow}</th>
+          </tr>
+        </thead>
+        <tbody>
+          {lesson.flow_40min.map((f) => (
+            <tr>
+              <th scope="row" class="mins">{f.t}</th>
+              <td>{f.what}</td>
+            </tr>
+          ))}
+        </tbody>
+      </table>
+    </section>
+
+    <section class="lesson-discussion" aria-label={t.lesson_discussion}>
+      <h2>{t.lesson_discussion}</h2>
+      <ol>
+        {lesson.discussion_prompts.map((d) => <li>{d}</li>)}
+      </ol>
+    </section>
+
+    <section class="worksheet" id="worksheet" aria-label={t.lesson_worksheet}>
+      <h2>{t.lesson_worksheet}</h2>
+      <ol class="worksheet-lines">
+        {lesson.worksheet.map((w) => (
+          <li>
+            <p>{w}</p>
+            <div class="write-lines" aria-hidden="true"></div>
+          </li>
+        ))}
+      </ol>
+      <p class="no-print"><button type="button" class="kids-btn" data-print>{t.lesson_print}</button></p>
+    </section>
+
+    <p class="lesson-try">
+      <a class="kids-btn" href={tryHref}>{t.lesson_try_it}</a>
+    </p>
+  </div>
+  <script src="../../../../../scripts/print-btn.ts"></script>
+</BaseLayout>
+<style>
+.vh {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  clip: rect(0 0 0 0);
+  white-space: nowrap;
+}
+@media print {
+  .lesson-scope > :not(.worksheet) { display: none !important; }
+  .worksheet .write-lines { break-inside: avoid; }
+}
+@media (prefers-reduced-motion: reduce) {
+  .lesson-scope * { animation: none !important; transition: none !important; }
+}
+</style>

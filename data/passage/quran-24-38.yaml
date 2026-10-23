@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 24:38 (سورة النور، الآية 38)."
 text: "لِيَجْزِيَهُمُ ٱللَّهُ أَحْسَنَ مَا عَمِلُوا۟ وَيَزِيدَهُم مِّن فَضْلِهِۦ ۗ وَٱللَّهُ يَرْزُقُ مَن يَشَآءُ بِغَيْرِ حِسَابٍ"
 text_search: "ليجزيهم الله أحسن ما عملوا ويزيدهم من فضله ۗ والله يرزق من يشاء بغير حساب"
+translations:
+  en: { text: "That Allah may reward them with the best of what they did, and increase reward for them of His bounty. Allah giveth blessings without stint to whom He will.", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "تاکہ خدا ان کو ان کے عملوں کا بہت اچھا بدلہ دے اور اپنے فضل سے زیادہ بھی عطا کرے۔ اور جس کو چاہتا ہے خدا بےشمار رزق دیتا ہے", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-24 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

@@ -1,0 +1,27 @@
+id: building/gul-mosque-istanbul
+class: building
+kind: mosque
+label:
+  ar: "مسجد جول بإسطنبول"
+  en: "Gul Mosque, Istanbul"
+summary:
+  ar: "بطاقة أولية لمسجد جول بإسطنبول، الكنيسة البيزنطية التي حُوّلت إلى مسجد في العهد العثماني؛ تذكره مصادر تاريخ العمارة العثمانية ولم تُراجع الصفحة بعد."
+  en: "Draft card for the Gul (Rose) Mosque of Istanbul, a Byzantine church converted to a mosque in the Ottoman period; per the cited architecture survey, the page not yet checked."
+wings: [objects]
+regions: [anatolia-balkans]
+periods: [period/gunpowder-empires]
+themes: [architecture]
+relations:
+- { type: located_in, target: place/istanbul }
+sources: [source/goodwin-ottoman-architecture-1971]
+external_ids:
+  wikidata: Q2334536
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; book source: Goodwin, A History of Ottoman Architecture (1971) — entry not yet read on the page"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-0013
+status:
+  review: draft
+  completeness: 1

@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 9:6 (سورة التوبة، الآية 6)."
 text: "وَإِنْ أَحَدٌ مِّنَ ٱلْمُشْرِكِينَ ٱسْتَجَارَكَ فَأَجِرْهُ حَتَّىٰ يَسْمَعَ كَلَـٰمَ ٱللَّهِ ثُمَّ أَبْلِغْهُ مَأْمَنَهُۥ ۚ ذَٰلِكَ بِأَنَّهُمْ قَوْمٌ لَّا يَعْلَمُونَ"
 text_search: "وإن أحد من المشركين استجارك فأجره حتى يسمع كلام الله ثم أبلغه مأمنه ۚ ذلك بأنهم قوم لا يعلمون"
+translations:
+  en: { text: "And if anyone of the idolaters seeketh thy protection (O Muhammad), then protect him so that he may hear the Word of Allah, and afterward convey him to his place of safety. That is because they are a folk who know not.", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "اور اگر کوئی مشرک تم سے پناہ کا خواستگار ہو تو اس کو پناہ دو یہاں تک کہ کلام خدا سننے لگے پھر اس کو امن کی جگہ واپس پہنچادو۔ اس لیے کہ یہ بےخبر لوگ ہیں", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-9 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

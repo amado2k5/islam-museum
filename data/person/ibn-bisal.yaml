@@ -1,0 +1,23 @@
+id: person/ibn-bisal
+class: person
+label: { ar: "نور الدين ابن بصال", en: "Nur al-Din Ibn Bisal" }
+names:
+  - { value: "نور الدين علي بن أحمد بن خليل بن ناصر بن علي بن طيء المشهور قديماً بابن السقطي وأخيراً بابن بصال الإسكندراني", kind: full }
+gender: male
+summary:
+  ar: "نور الدين ابن بصال الإسكندراني المشهور قديماً بابن السقطي؛ ولد سنة ثلاث وسبعين وسبعمائة قال ابن حجر واشتغل كثيراً في عدة فنون ولم يكن بالماهر وكان يتعانى توقيع الإنشاء وسمع من سراج الدين بن الملقن وغيره وكتب بخطه كثيراً من تصانيف ابن الملقن وحدث باليسير ولازم مجالس الإملاء عندي نحواً من عشرين سنة، وتوفي آخر يوم الأربعاء ثالث عشر جمادى الأولى سنة سبع وأربعين وثمانمائة {cite:shadharat-dhahab p. 260-261}."
+  en: "Ibn Bisal of Alexandria (b. 773) — Ibn Hajar's own twenty-year companion in his dictation sessions ('he attended my imla' some twenty years'); copied much of Ibn al-Mulaqqin's corpus in his own hand; died end of Wednesday 13 Jumada I 847 {cite:shadharat-dhahab p. 260-261}."
+roles: [scholar]
+wings: [people]
+themes: [scripture-and-its-sciences]
+periods: [period/mongol-post-mongol]
+regions: [egypt-nile]
+born: { edtf: "1372~", hijri: "0773", calendar: julian, precision: year, status: tradition, derived: true, note: "ولد 773 {cite:shadharat-dhahab p. 260}", sources: [source/shadharat-dhahab] }
+died: { edtf: "1443-09-09~", hijri: "0847-05-13", calendar: julian, precision: day, status: tradition, derived: true, note: "توفي آخر الأربعاء 13 جمادى الأولى 847 {cite:shadharat-dhahab p. 261}", sources: [source/shadharat-dhahab] }
+provenance:
+  layer: own-research
+  source: "شذرات الذهب — ابن العماد (ط مكتبة المثنى 1351، ج7، سنة 847)، قراءة آبل فيجن"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-shadharat-batch-139
+sources: [source/shadharat-dhahab]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

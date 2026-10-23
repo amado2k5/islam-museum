@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 3:182 (سورة آل عمران، الآية 182)."
 text: "ذَٰلِكَ بِمَا قَدَّمَتْ أَيْدِيكُمْ وَأَنَّ ٱللَّهَ لَيْسَ بِظَلَّامٍ لِّلْعَبِيدِ"
 text_search: "ذلك بما قدمت أيديكم وأن الله ليس بظلام للعبيد"
+translations:
+  en: { text: "This is on account of that which your own hands have sent before (you to the judgment). Allah is no oppressor of (His) bondmen.", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "یہ ان کاموں کی سزا ہے جو تمہارے ہاتھ آگے بھیجتے رہے ہیں اور خدا تو بندوں پر مطلق ظلم نہیں کرتا", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-3 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

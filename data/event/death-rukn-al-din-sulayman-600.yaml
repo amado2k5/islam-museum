@@ -1,0 +1,20 @@
+id: event/death-rukn-al-din-sulayman-600
+class: event
+kind: death
+label: { ar: "وفاة ركن الدين بن قلج أرسلان", en: "Death of Rukn al-Din Sulayman II of Rum" }
+date:
+  start: { edtf: "1204~", hijri: "0600", calendar: julian, precision: "year", status: tradition, derived: true }
+summary:
+  ar: "توفي سادس ذي القعدة ركن الدين سليمان بن قلج أرسلان صاحب بلاد الروم، وكان ابنه غياث الدين كيخسرو قد ملك قبله ثم عاد إليه الملك {cite:kamil-ibn-al-athir p. 292}."
+  en: "Rukn al-Din Sulayman II, Seljuk sultan of Rum, died on 6 Dhu'l-Qa'da — his son Kaykhusraw had ruled before and now returned to the throne {cite:kamil-ibn-al-athir p. 292}."
+relations:
+  - { type: occurred_at, target: place/konya, sources: [source/kamil-ibn-al-athir] }
+  - { type: had_participant, target: person/sulayman-shah-ii-rum, role: "المتوفى", sources: [source/kamil-ibn-al-athir] }
+  - { type: had_participant, target: person/ghiyath-al-din-kaykhusraw-i, role: "الخلف", sources: [source/kamil-ibn-al-athir] }
+provenance:
+  layer: own-research
+  source: "الكامل في التاريخ لابن الأثير، قراءة آبل فيجن"
+  generated_by: "Devin (SWE-2 Medium) from Apple Vision OCR"
+  run: lib-kamil-v12-batch05
+sources: [source/kamil-ibn-al-athir]
+status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 Medium)" }

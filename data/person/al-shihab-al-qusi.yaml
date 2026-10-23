@@ -1,0 +1,29 @@
+id: person/al-shihab-al-qusi
+class: person
+label: { ar: "الشهاب القوصي", en: "al-Shihab al-Qusi" }
+names:
+  - { value: "الشهاب القوصي أبو الفداء وأبو العرب وأبو الطاهر إسماعيل بن حامد بن عبد الرحمن الأنصاري الخزرجي الشافعي", kind: full }
+born: { edtf: "1178-06~", hijri: "0574-01", calendar: julian, precision: month, status: tradition, derived: true, note: "ولد بقوص في المحرم سنة أربع وسبعين وخمسمائة {cite:shadharat-dhahab p. 268}." }
+died: { edtf: "1255-03~", hijri: "0653-03", calendar: julian, precision: month, status: tradition, derived: true, note: "توفي بدمشق في ربيع الأول سنة ثلاث وخمسين وستمائة ودفن بداره التي وقفها دار حديث {cite:shadharat-dhahab p. 269}." }
+summary:
+  ar: "الرئيس الفقيه، وكيل بيت المال بالشام وواقف الحلقة القوصية بالجامع؛ ولد بقوص ورحل إلى مصر سنة تسعين ثم قدم دمشق سنة إحدى وتسعين واستوطنها وسمع الكثير ببلاد متعددة واتصل بالصاحب صفي الدين بن شكر، وخرج لنفسه معجماً في أربع مجلدات كبار قال الذهبي فيه غلط كثير؛ وكان أديباً أخبارياً فصيحاً مفوهاً بصيراً بالفقه وترسل إلى البلاد وولي وكالة بيت المال وتقدم عند الملوك ودرس بحلقته بجامع دمشق، ووقف داره دار حديث {cite:shadharat-dhahab p. 268-269}."
+  en: "Shafi'i ra'is and wakil of Syria's bayt al-mal (b. Qus 574, d. Damascus Rabi' I 653) — he endowed his own house as a dar al-hadith and was buried in it; his four-volume mu'jam Dhahabi found full of errors {cite:shadharat-dhahab p. 268-269}."
+gender: male
+roles: [scholar, jurist]
+wings: [people]
+periods: [period/crusades-ayyubid-mamluk]
+regions: [egypt-nile, levant-iraq]
+faith:
+  - value: sunni-shafii
+    basis: tradition
+relations:
+  - { type: born_in, target: place/qus, sources: [source/shadharat-dhahab] }
+  - { type: died_in, target: place/damascus, sources: [source/shadharat-dhahab] }
+  - { type: buried_in, target: place/damascus, sources: [source/shadharat-dhahab] }
+sources: [source/shadharat-dhahab]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }
+provenance:
+  layer: own-research
+  source: "شذرات الذهب — ابن العماد (ج5، سنة 653)، قراءة آبل فيجن"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-shadharat-batch-129

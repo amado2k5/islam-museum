@@ -1,0 +1,30 @@
+id: person/muhammad-al-yunini
+class: person
+label: { ar: "شيخ الإسلام اليونيني", en: "Shaykh al-Islam al-Yunini" }
+names:
+  - { value: "شيخ الإسلام أبو عبد الله محمد بن أبي الحسين أحمد بن عبد الله بن عيسى اليونيني الحنبلي الحافظ", kind: full }
+born: { edtf: "1177", hijri: "0572", calendar: julian, precision: year, status: tradition, derived: true, note: "ولد سنة اثنتين وسبعين وخمسمائة بيونين {cite:shadharat-dhahab p. 302}." }
+died: { edtf: "1259-09~", hijri: "0657-09-19~", calendar: julian, precision: day, status: tradition, derived: true, note: "توفي ليلة تاسع عشر رمضان ببعلبك ودفن عند شيخه عبد الله اليونيني {cite:shadharat-dhahab p. 302}." }
+summary:
+  ar: "حافظ بعلبك الكبير؛ لبس الخرقة من الشيخ عبد الله البطائحي عن الشيخ عبد القادر ورباه الشيخ عبد الله اليونيني وتفقه على الشيخ الموفق، وكان يكرر على الجمع بين الصحيحين وعلى أكثر مسند أحمد ونال من الحرمة والتقدم ما لم ينله أحد وكانت الملوك تقبل يده وتقدم مداسه؛ قال ولده موسى قطب الدين صاحب التاريخ حفظ والدي الجمع بين الصحيحين وأكثر مسند الإمام أحمد وحفظ صحيح مسلم في أربعة أشهر وحفظ سورة الأنعام في يوم واحد وحفظ ثلث مقامات الحريري في بعض يوم، وكان يحفظ في الجلسة الواحدة ما يزيد على سبعين حديثاً؛ وقال عمر بن الحاجب الحافظ لم ير زمانه مثل نفسه في كماله وبراعته جمع بين الشريعة والحقيقة؛ وكان لا يرى إظهار الكرامات ويقول كما أوجب الله على الأنبياء إظهار المعجزات أوجب على الأولياء إخفاء الكرامات؛ وتزوج ابنة الشيخ عبد الله اليونيني وهي أول زوجاته {cite:shadharat-dhahab p. 302}."
+  en: "The great Hanbali hafiz of Baalbek (b. 572, d. night of 19 Ramadan 657) — raised by Abdallah 'Lion of Syria', whose daughter he wed; kings kissed his hand; per his son the historian Qutb al-Din Musa he held the Jam' bayn al-Sahihayn and most of Ahmad's Musnad, Sahih Muslim in four months, a sura in a day — seventy-plus hadith from a single sitting; 'as God bound the prophets to show miracles, He bound the saints to hide karamat' {cite:shadharat-dhahab p. 302}."
+gender: male
+roles: [scholar, muhaddith, mystic]
+wings: [people]
+periods: [period/crusades-ayyubid-mamluk]
+regions: [levant-iraq]
+faith:
+  - value: sunni-hanbali
+    basis: tradition
+relations:
+  - { type: student_of, target: person/abdallah-al-yunini, sources: [source/shadharat-dhahab] }
+  - { type: student_of, target: person/ibn-qudama-al-maqdisi, sources: [source/shadharat-dhahab] }
+  - { type: died_in, target: place/baalbek, sources: [source/shadharat-dhahab] }
+  - { type: buried_in, target: place/baalbek, sources: [source/shadharat-dhahab] }
+sources: [source/shadharat-dhahab]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }
+provenance:
+  layer: own-research
+  source: "شذرات الذهب — ابن العماد (ج5، سنة 658)، قراءة آبل فيجن"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-shadharat-batch-130

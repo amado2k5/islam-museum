@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 58:14 (سورة المجادلة، الآية 14)."
 text: "۞ أَلَمْ تَرَ إِلَى ٱلَّذِينَ تَوَلَّوْا۟ قَوْمًا غَضِبَ ٱللَّهُ عَلَيْهِم مَّا هُم مِّنكُمْ وَلَا مِنْهُمْ وَيَحْلِفُونَ عَلَى ٱلْكَذِبِ وَهُمْ يَعْلَمُونَ"
 text_search: "۞ ألم تر إلى الذين تولوا قوما غضب الله عليهم ما هم منكم ولا منهم ويحلفون على الكذب وهم يعلمون"
+translations:
+  en: { text: "Hast thou not seen those who take for friends a folk with whom Allah is wroth? They are neither of you nor of them, and they swear a false oath knowingly.", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "بھلا تم نے ان لوگوں کو نہیں دیکھا جو ایسوں سے دوستی کرتے ہیں جن پر خدا کا غضب ہوا۔ وہ نہ تم میں ہیں نہ ان میں۔ اور جان بوجھ کر جھوٹی باتوں پر قسمیں کھاتے ہیں", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-58 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

@@ -1,0 +1,23 @@
+id: event/battle-of-vaikal-1465
+class: event
+kind: battle
+label: { ar: "معركة فايكال", en: "Battle of Vaikal" }
+summary:
+  ar: "بطاقة أولية لمعركة فايكال سنة ١٤٦٥م، فوز إسكندر بك على العثمانيين في ألبانيا؛ لم تُراجع مصادره على الصفحة بعد."
+  en: "Draft card for the Battle of Vaikal in 1465, Skanderbeg's victory over the Ottomans in Albania; its sources are not yet checked on the page."
+wings: [time]
+periods: [period/crusades-ayyubid-mamluk]
+regions: [anatolia-balkans]
+date:
+  start: { edtf: "1465", precision: year, status: tradition, derived: true }
+  end: { edtf: "1465", precision: year, status: tradition, derived: true }
+sources: [source/dawlat-uthmaniyya-salabi]
+external_ids:
+  wikidata: Q4872638
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; battle attested in narrative histories — entry not yet checked on the page"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-wave2
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

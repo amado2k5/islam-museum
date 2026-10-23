@@ -1,0 +1,36 @@
+id: event/ali-spares-amr-ibn-al-as
+class: event
+kind: other
+label: { ar: "علي يترك عمرو بن العاص بعد أن انكشف", en: "Ali spares Amr ibn al-As after he was exposed" }
+summary:
+  ar: "في صفين، ظفر علي بعمرو بن العاص وقد سقط مكشوف السوأة، فأعرض عنه ولم يقتله، وفق ما يرويه العقاد عن أدب الفروسية عند علي {cite:abqariyyat-ali-aqqad p.35}. ويعدّ المؤلف ذلك من أندر المروءات، لأن عمرو كان أخطر على علي من جيش كامل في رأيه {cite:abqariyyat-ali-aqqad p.25}."
+  en: "At Siffin Ali got the upper hand over Amr ibn al-As, who had fallen with his private parts exposed, and turned away without killing him, in the author's account of Ali's chivalry {cite:abqariyyat-ali-aqqad p.35}. Al-Aqqad counts this among the rarest acts of generosity, since Amr was more dangerous to Ali than an army {cite:abqariyyat-ali-aqqad p.25}."
+wings: [people]
+themes: [wars-and-campaigns, ethics-and-character]
+periods: [period/rashidun]
+regions: [levant-iraq]
+date:
+  start: { hijri: "0037", precision: year, status: tradition, derived: true, note: "الكتاب لا يؤرخ الواقعة بسنة؛ الموضع صفين، والكتاب يذكرها في سياق وقعة صفين (abqariyyat-ali-aqqad pp. 24-25, 34-35). سنة 37هـ مشتقة من معرفة الوقعة، لا منصوصة في الكتاب." }
+relations:
+  - { type: occurred_at, target: place/siffin, sources: [source/abqariyyat-ali-aqqad] }
+  - { type: had_participant, target: person/ali-ibn-abi-talib, role: "ظفر بعمرو فأعرض عنه", sources: [source/abqariyyat-ali-aqqad] }
+  - { type: had_participant, target: person/amr-ibn-al-as, role: "انكشفت عورته فتركه علي", sources: [source/abqariyyat-ali-aqqad] }
+  - { type: part_of, target: event/battle-of-siffin, sources: [source/abqariyyat-ali-aqqad] }
+perspectives:
+  - tradition: sunni
+    id: sunni-pending
+    stance: { ar: "لم يُعرض بعد من مصدر سني محدد", en: "Not yet set out from a named Sunni source" }
+    summary:
+      ar: "لم يُنقل هنا موقف سني كلاسيكي من هذه الواقعة؛ الرواية هنا من قراءة العقاد وحدها، ويُضاف المصدر السني عند توفره (needs_source)."
+      en: "No classical Sunni account of this episode is recorded here; the episode rests on al-Aqqad's reading alone, and a Sunni source is to be added (needs_source)."
+    sources: [source/abqariyyat-ali-aqqad]
+  - tradition: other
+    id: aqqad-reading
+    stance: { ar: "قراءة أدبية: الفروسية تأبى الانتقام من المكشوف", en: "Literary reading: chivalry refuses vengeance on the exposed" }
+    summary:
+      ar: "يقرأ العقاد الواقعة بوصفها صورة من النخوة: الفارس لا ينال عدواً مكشوفاً يخاف الموت، ولا يُحسب ذلك ضعفاً {cite:abqariyyat-ali-aqqad p.35}. وهذا تأويل المؤلف."
+      en: "Al-Aqqad reads the episode as an image of nakhwa: the knight does not strike an exposed foe who fears death, and this is not counted as weakness {cite:abqariyyat-ali-aqqad p.35}. This is the author's interpretation."
+    sources: [source/abqariyyat-ali-aqqad]
+sources: [source/abqariyyat-ali-aqqad]
+status: { review: draft, completeness: 1, generated_by: "Claude Code (claude-haiku-5-5); from abqariyyat-ali-aqqad pp. 24-25, 34-35" }
+provenance: { layer: own-research, source: "abqariyyat-ali-aqqad pp. 24-25, 34-35", generated_by: "Claude Code", model: "claude-haiku-5-5", run: "abqariyyat-ali-aqqad-batch1" }

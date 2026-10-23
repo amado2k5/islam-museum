@@ -1,0 +1,23 @@
+id: event/skanderbeg-rebellion
+class: event
+kind: revolt
+label: { ar: "انتفاضة إسكندر بك", en: "Skanderbeg's Rebellion" }
+summary:
+  ar: "بطاقة أولية لانتفاضة إسكندر بك من ١٤٤٣ إلى ١٤٦٨م، المقاومة الألبانية الطويلة على الدولة العثمانية؛ لم تُراجع مصادره على الصفحة بعد."
+  en: "Draft card for Skanderbeg's rebellion of 1443–1468, Albania's long resistance against the Ottoman state; its sources are not yet checked on the page."
+wings: [time]
+periods: [period/crusades-ayyubid-mamluk]
+regions: [anatolia-balkans]
+date:
+  start: { edtf: "1443", precision: year, status: tradition, derived: true }
+  end: { edtf: "1468", precision: year, status: tradition, derived: true }
+sources: [source/dawlat-uthmaniyya-salabi]
+external_ids:
+  wikidata: Q61116375
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; rebellion attested in Albanian histories — entry not yet checked on the page"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-wave2
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

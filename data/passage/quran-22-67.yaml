@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 22:67 (سورة الحج، الآية 67)."
 text: "لِّكُلِّ أُمَّةٍ جَعَلْنَا مَنسَكًا هُمْ نَاسِكُوهُ ۖ فَلَا يُنَـٰزِعُنَّكَ فِى ٱلْأَمْرِ ۚ وَٱدْعُ إِلَىٰ رَبِّكَ ۖ إِنَّكَ لَعَلَىٰ هُدًى مُّسْتَقِيمٍ"
 text_search: "لكل أمة جعلنا منسكا هم ناسكوه ۖ فلا ينازعنك في الأمر ۚ وادع إلى ربك ۖ إنك لعلى هدى مستقيم"
+translations:
+  en: { text: "Unto each nation have We given sacred rites which they are to perform; so let them not dispute with thee of the matter, but summon thou unto thy Lord. Lo! thou indeed followest right guidance.", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "ہم نے ہر ایک اُمت کے لئے ایک شریعت مقرر کردی ہے جس پر وہ چلتے ہیں تو یہ لوگ تم سے اس امر میں جھگڑا نہ کریں اور تم (لوگوں کو) اپنے پروردگار کی طرف بلاتے رہو۔ بےشک تم سیدھے رستے پر ہو", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-22 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

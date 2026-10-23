@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 3:83 (سورة آل عمران، الآية 83)."
 text: "أَفَغَيْرَ دِينِ ٱللَّهِ يَبْغُونَ وَلَهُۥٓ أَسْلَمَ مَن فِى ٱلسَّمَـٰوَٰتِ وَٱلْأَرْضِ طَوْعًا وَكَرْهًا وَإِلَيْهِ يُرْجَعُونَ"
 text_search: "أفغير دين الله يبغون وله أسلم من في السماوات والأرض طوعا وكرها وإليه يرجعون"
+translations:
+  en: { text: "Seek they other than the religion of Allah, when unto Him submitteth whosoever is in the heavens and the earth, willingly or unwillingly, and unto Him they will be returned.", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "کیا یہ (کافر) خدا کے دین کے سوا کسی اور دین کے طالب ہیں حالانکہ سب اہلِ آسمان و زمین خوشی یا زبردستی سے خدا کے فرماں بردار ہیں اور اسی کی طرف لوٹ کر جانے والے ہیں", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-3 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

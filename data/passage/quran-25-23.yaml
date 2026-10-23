@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 25:23 (سورة الفرقان، الآية 23)."
 text: "وَقَدِمْنَآ إِلَىٰ مَا عَمِلُوا۟ مِنْ عَمَلٍ فَجَعَلْنَـٰهُ هَبَآءً مَّنثُورًا"
 text_search: "وقدمنا إلى ما عملوا من عمل فجعلناه هباء منثورا"
+translations:
+  en: { text: "And We shall turn unto the work they did and make it scattered motes.", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "اور جو انہوں نے عمل کئے ہوں گے ہم ان کی طرف متوجہ ہوں گے تو ان کو اُڑتی خاک کردیں گے", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-25 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

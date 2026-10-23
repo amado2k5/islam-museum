@@ -1,0 +1,76 @@
+id: exhibit/path-mamluk-cairo
+class: exhibit
+kind: trail
+label:
+  ar: القاهرة المملوكة
+  en: Mamluk Cairo
+summary:
+  ar: 'مسار في سلطنة المماليك: قلاوون وبيبرس والناصر، ومسجد السلطان حسن، وأزهى عصور العمارة الإسلامية.'
+  en: A trail through the Mamluk sultanate.
+audience:
+- newcomer
+- student
+duration_minutes: 30
+wings: []
+regions:
+- egypt-nile
+rooms:
+- title:
+    ar: بيبرس
+    en: Baybars
+  body:
+    ar: الظاهر يؤسس الدولة بعد عين جالوت.
+    en: الظاهر يؤسس الدولة بعد عين جالوت.
+  features:
+  - person/baybars
+  - place/cairo
+- title:
+    ar: قلاوون
+    en: Qalawun
+  body:
+    ar: الألفي يبني المدرسة والبيمارستان.
+    en: الألفي يبني المدرسة والبيمارستان.
+  features:
+  - person/qalawun
+  - place/cairo
+- title:
+    ar: الناصر
+    en: Al-Nasir
+  body:
+    ar: 'محمد بن قلاوون: أطول عهد وأعمره.'
+    en: 'محمد بن قلاوون: أطول عهد وأعمره.'
+  features:
+  - person/al-nasir-muhammad-ibn-qalawun
+  - place/cairo
+- title:
+    ar: السلطان حسن
+    en: Sultan Hasan
+  body:
+    ar: 'أعظم مسجد مدرسة: عقد القاهرة الأيواني.'
+    en: 'أعظم مسجد مدرسة: عقد القاهرة الأيواني.'
+  features:
+  - building/masjid-sultan-hasan
+  - place/cairo
+- title:
+    ar: المدينة
+    en: The city
+  body:
+    ar: القاهرة مدينة الألف مئذنة.
+    en: القاهرة مدينة الألف مئذنة.
+  features:
+  - place/cairo
+  - building/al-azhar
+prerequisites:
+- exhibit/path-islam-in-30-minutes
+sources:
+- source/wikidata
+provenance:
+  layer: own-research
+  source: Devin-assembled trail from existing museum entities
+  generated_by: Devin (SWE-2 High)
+  model: SWE-2 High
+  run: pathways-batch-7
+status:
+  review: draft
+  completeness: 1
+  generated_by: Devin (SWE-2 High), pathways lane, 2026-10-16

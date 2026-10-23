@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 20:50 (سورة طه، الآية 50)."
 text: "قَالَ رَبُّنَا ٱلَّذِىٓ أَعْطَىٰ كُلَّ شَىْءٍ خَلْقَهُۥ ثُمَّ هَدَىٰ"
 text_search: "قال ربنا الذي أعطى كل شيء خلقه ثم هدى"
+translations:
+  en: { text: "He said: Our Lord is He Who gave unto everything its nature, then guided it aright.", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "کہا کہ ہمارا پروردگار وہ ہے جس نے ہر چیز کو اس کی شکل وصورت بخشی پھر راہ دکھائی", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-20 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

@@ -1,0 +1,24 @@
+id: event/qaytbay-accession-872
+class: event
+kind: other
+label: { ar: "وفاة خشقدم وتداول السلطنة على يلباي وتمر بغا ثم قايتباي", en: "Khushqadam's death and the succession through Yalbay and Timurbugha to Qaytbay" }
+summary:
+  ar: "توفي السلطان الظاهر خشقدم يوم السبت لعشر خلون من ربيع الأول سنة اثنتين وسبعين وثمانمائة بعد ست سنين ونصف، فتسلطن في ذلك اليوم الملك الظاهر بلباي المؤيدي وهو الرابع عشر من ملوك الجراكسة فخلعه الأمراء بعد شهرين إلا أربعة أيام، ثم تسلطن الملك الظاهر تمر بغا الظاهري الخامس عشر فكانت سلطنته شهرين إلا يوماً واحداً وخلع ونفي إلى الإسكندرية، وولي السلطنة الملك الأشرف قايتباي المحمودي في ظهر يوم الاثنين سادس ذي الحجة سنة اثنتين وسبعين وثمانمائة وهو السادس عشر من ملوك الجراكسة {cite:shadharat-dhahab p. 315}."
+  en: "Khushqadam died Saturday 10 Rabi' I 872 after six and a half years; the amirs seated Yalbay (14th of the Circassian kings) then deposed him after two months minus four days, raised Timurbugha (15th) whose sultanate lasted two months minus one day before exile to Alexandria, and invested al-Ashraf Qaytbay (16th) at midday Monday 6 Dhu'l-Hijja 872 {cite:shadharat-dhahab p. 315}."
+wings: [time]
+periods: [period/mongol-post-mongol]
+regions: [egypt-nile]
+date:
+  start: { edtf: "1467-10-20~", hijri: "0872-03-10", calendar: julian, precision: day, status: tradition, derived: true, note: "وفاة خشقدم السبت 10 ربيع الأول 872 {cite:shadharat-dhahab p. 315}", sources: [source/shadharat-dhahab] }
+  end: { edtf: "1468-07-01~", hijri: "0872-12-06", calendar: julian, precision: day, status: tradition, derived: true, note: "تولية قايتباي الاثنين 6 ذي الحجة 872 {cite:shadharat-dhahab p. 315}؛ وفي ترجمته بشذرات الذهب نفسها «يوم الاثنين سادس رجب» {cite:shadharat-dhahab p. 423}", sources: [source/shadharat-dhahab] }
+relations:
+  - { type: occurred_at, target: place/cairo, sources: [source/shadharat-dhahab] }
+  - { type: had_participant, target: person/khushqadam, role: "السلطان المتوفى", sources: [source/shadharat-dhahab] }
+  - { type: had_participant, target: person/qaytbay, role: "السلطان الجديد", sources: [source/shadharat-dhahab] }
+provenance:
+  layer: own-research
+  source: "شذرات الذهب — ابن العماد (ط مكتبة المثنى 1351، ج7، سنة 872)، قراءة آبل فيجن"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-shadharat-batch-141
+sources: [source/shadharat-dhahab]
+status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 High)" }

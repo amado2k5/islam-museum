@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 17:46 (سورة الإسراء، الآية 46)."
 text: "وَجَعَلْنَا عَلَىٰ قُلُوبِهِمْ أَكِنَّةً أَن يَفْقَهُوهُ وَفِىٓ ءَاذَانِهِمْ وَقْرًا ۚ وَإِذَا ذَكَرْتَ رَبَّكَ فِى ٱلْقُرْءَانِ وَحْدَهُۥ وَلَّوْا۟ عَلَىٰٓ أَدْبَـٰرِهِمْ نُفُورًا"
 text_search: "وجعلنا على قلوبهم أكنة أن يفقهوه وفي آذانهم وقرا ۚ وإذا ذكرت ربك في القرآن وحده ولوا على أدبارهم نفورا"
+translations:
+  en: { text: "And We place upon their hearts veils lest they should understand it, and in their ears a deafness; and when thou makest mention of thy Lord alone in the Qur'an, they turn their backs in aversion.", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "اور ان کے دلوں پر پردہ ڈال دیتے ہیں کہ اسے سمجھ نہ سکیں اور ان کے کانوں میں ثقل پیدا کر دیتے ہیں۔ اور جب تم قرآن میں اپنے پروردگار یکتا کا ذکر کرتے ہو تو وہ بدک جاتے اور پیٹھ پھیر کر چل دیتے ہیں", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-17 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

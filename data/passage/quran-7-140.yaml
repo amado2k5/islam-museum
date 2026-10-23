@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 7:140 (سورة الأعراف، الآية 140)."
 text: "قَالَ أَغَيْرَ ٱللَّهِ أَبْغِيكُمْ إِلَـٰهًا وَهُوَ فَضَّلَكُمْ عَلَى ٱلْعَـٰلَمِينَ"
 text_search: "قال أغير الله أبغيكم إلها وهو فضلكم على العالمين"
+translations:
+  en: { text: "He said: Shall I seek for you a god other than Allah when He hath favoured you above (all) creatures?", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "(اور یہ بھی) کہا کہ بھلا میں خدا کے سوا تمہارے لیے کوئی اور معبود تلاش کروں حالانکہ اس نے تم کو تمام اہل عالم پر فضیلت بخشی ہے", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-7 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

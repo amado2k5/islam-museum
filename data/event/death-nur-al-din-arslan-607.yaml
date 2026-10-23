@@ -1,0 +1,19 @@
+id: event/death-nur-al-din-arslan-607
+class: event
+kind: death
+label: { ar: "وفاة نور الدين أرسلان شاه صاحب الموصل", en: "Death of Nur al-Din Arslan Shah of Mosul" }
+date:
+  start: { edtf: "1210~", hijri: "0607", calendar: julian, precision: year, status: tradition, derived: true }
+summary:
+  ar: "توفي نور الدين أرسلان شاه بن عز الدين مسعود صاحب الموصل، وكان من أشجع الملوك وأبخلهم حتى قيل فيه ما قيل، وملك بعده ولده عز الدين مسعود وهو صغير فانفرد بالأمر مماليكه {cite:kamil-ibn-al-athir p. 353}."
+  en: "Nur al-Din Arslan Shah of Mosul died — Ibn al-Athir recalls his valor and notorious stinginess; his young son Izz al-Din Mas'ud II succeeded and the mamluks ruled {cite:kamil-ibn-al-athir p. 353}."
+relations:
+  - { type: occurred_at, target: place/mosul, sources: [source/kamil-ibn-al-athir] }
+  - { type: had_participant, target: person/nur-al-din-arslan-shah, role: "المتوفى", sources: [source/kamil-ibn-al-athir] }
+provenance:
+  layer: own-research
+  source: "الكامل في التاريخ لابن الأثير، قراءة آبل فيجن"
+  generated_by: "Devin (SWE-2 Medium) from Apple Vision OCR"
+  run: lib-kamil-v12-batch06
+sources: [source/kamil-ibn-al-athir]
+status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 Medium)" }

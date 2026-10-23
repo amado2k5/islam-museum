@@ -1,0 +1,23 @@
+id: event/battle-of-nadaun-1691
+class: event
+kind: battle
+label: { ar: "معركة ندون", en: "Battle of Nadaun" }
+summary:
+  ar: "بطاقة أولية لمعركة ندون سنة ١٦٩١م، فوز المغول والسيخ على زعماء التلال؛ لم تُراجع مصادره على الصفحة بعد."
+  en: "Draft card for the Battle of Nadaun in 1691, the Mughal–Sikh victory over the hill chiefs; its sources are not yet checked on the page."
+wings: [time]
+periods: [period/gunpowder-empires]
+regions: [south-asia]
+date:
+  start: { edtf: "1691", precision: year, status: tradition, derived: true }
+  end: { edtf: "1691", precision: year, status: tradition, derived: true }
+sources: [source/tarikh-islam-hasan-ibrahim]
+external_ids:
+  wikidata: Q4871844
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; battle attested in narrative histories — entry not yet checked on the page"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-wave2
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

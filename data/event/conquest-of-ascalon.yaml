@@ -1,0 +1,21 @@
+id: event/conquest-of-ascalon
+class: event
+kind: conquest
+label: { ar: "فتح عسقلان", en: "the conquest of Ascalon (24 AH)" }
+date:
+  start: { edtf: "0644", hijri: "0024", calendar: julian, precision: year, status: tradition, derived: true, note: "سنة 24؛ التحويل مشتق {cite:kamil-ibn-al-athir p. 455}." }
+summary:
+  ar: "فيها غزا معاوية الصائفة ومعه عبادة بن الصامت وأبو أيوب الأنصاري، وفتح معاوية عسقلان على صلح {cite:kamil-ibn-al-athir p. 455}."
+  en: "Mu'awiya's summer expedition — with 'Ubada ibn al-Samit and Abu Ayyub al-Ansari in his ranks — ended with Ascalon taken on terms {cite:kamil-ibn-al-athir p. 455}."
+relations:
+  - { type: occurred_at, target: place/ascalon, sources: [source/kamil-ibn-al-athir] }
+  - { type: had_participant, target: person/muawiya-ibn-abi-sufyan, role: "القائد", sources: [source/kamil-ibn-al-athir] }
+  - { type: had_participant, target: person/abu-ayyub-al-ansari, sources: [source/kamil-ibn-al-athir] }
+  - { type: had_participant, target: person/ubada-ibn-al-samit, sources: [source/kamil-ibn-al-athir] }
+provenance:
+  layer: own-research
+  source: "الكامل في التاريخ لابن الأثير (دار الكتاب العربي 2012، ج2)، قراءة آبل فيجن"
+  generated_by: "Devin (SWE-2 Medium) from Apple Vision OCR"
+  run: lib-kamil-v2-batch04
+sources: [source/kamil-ibn-al-athir]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 Medium)" }

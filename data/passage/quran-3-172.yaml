@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 3:172 (سورة آل عمران، الآية 172)."
 text: "ٱلَّذِينَ ٱسْتَجَابُوا۟ لِلَّهِ وَٱلرَّسُولِ مِنۢ بَعْدِ مَآ أَصَابَهُمُ ٱلْقَرْحُ ۚ لِلَّذِينَ أَحْسَنُوا۟ مِنْهُمْ وَٱتَّقَوْا۟ أَجْرٌ عَظِيمٌ"
 text_search: "الذين استجابوا لله والرسول من بعد ما أصابهم القرح ۚ للذين أحسنوا منهم واتقوا أجر عظيم"
+translations:
+  en: { text: "As for those who heard the call of Allah and His messenger after the harm befell them (in the fight); for such of them as do right and ward off (evil), there is great reward.", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "جنہوں نے باوجود زخم کھانے کے خدا اور رسول (کے حکم) کو قبول کیا جو لوگ ان میں نیکوکار اور پرہیزگار ہیں ان کے لئے بڑا ثواب ہے", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-3 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

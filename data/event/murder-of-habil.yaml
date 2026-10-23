@@ -1,0 +1,20 @@
+id: event/murder-of-habil
+class: event
+kind: death
+label: { ar: "قتل هابيل", en: "The killing of Habil" }
+summary:
+  ar: "قتل قابيل أخاه هابيل وفق رواية الثعلبي بعد خلاف على القربان والزواج. يعرض الكتاب روايات عن موضع القتل وعن الغراب الذي علّم قابيل الدفن، وعن الأرض التي شربت الدم."
+  en: "According to al-Tha'labi, Qabil killed his brother Habil after a dispute over offerings and marriage. The book gives varying accounts of the place of the killing, the raven that taught Qabil to bury, and the earth that drank the blood."
+wings: [time]
+themes: [prophets]
+relations:
+  - { type: had_participant, target: person/qabil, role: "القاتل في الرواية", sources: [source/qisas-anbiya-thaalabi-edition] }
+  - { type: had_participant, target: person/habil, role: "المقتول في الرواية", sources: [source/qisas-anbiya-thaalabi-edition] }
+sources: [source/qisas-anbiya-thaalabi-edition]
+provenance:
+  layer: own-research
+  source: "al-Tha'labi, Qisas al-Anbiya' (OCR scan, edition not verified), pp. 43-47 of the OCR markers"
+  generated_by: "Claude Code sub-agent (library-expansion)"
+  model: "claude-haiku-5-5"
+  run: "lib-exp-qisas-prophets-batch-01"
+status: { review: draft, completeness: 1, generated_by: "Claude Code sub-agent (claude-haiku-5-5); edition not verified" }

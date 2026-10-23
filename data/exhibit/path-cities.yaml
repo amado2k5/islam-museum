@@ -1,0 +1,88 @@
+id: exhibit/path-cities
+class: exhibit
+kind: trail
+label:
+  ar: مدن الإسلام
+  en: Cities of Islam
+summary:
+  ar: 'مسار في حواضر الحضارة: الحرمان والقدس، فعواصم الخلافة، فقرطبة وفاس وتمبكتو، فإسطنبول.'
+  en: A trail through the capitals of the civilization.
+audience:
+- newcomer
+- student
+duration_minutes: 30
+wings: []
+regions:
+- global
+rooms:
+- title:
+    ar: الحرمان
+    en: The sanctuaries
+  body:
+    ar: مكة الكعبة والمدينة المسجد.
+    en: Mecca's Kaaba and Medina's Mosque.
+  features:
+  - place/mecca
+  - place/medina
+  - building/masjid-al-haram
+- title:
+    ar: القدس
+    en: Jerusalem
+  body:
+    ar: أولى القبلتين وثالث الحرمين.
+    en: First qibla, third sanctuary.
+  features:
+  - place/jerusalem
+  - building/al-aqsa-mosque
+- title:
+    ar: عواصم الخلافة
+    en: Capitals
+  body:
+    ar: دمشق فبغداد فالقاهرة.
+    en: Damascus, Baghdad, Cairo.
+  features:
+  - place/damascus
+  - place/baghdad
+  - place/cairo
+- title:
+    ar: الغرب
+    en: The West
+  body:
+    ar: قرطبة النور وفاس العلم وغرناطة الحمراء.
+    en: Cordoba's light, Fez's learning, Granada's Alhambra.
+  features:
+  - place/cordoba
+  - place/fez
+  - place/granada
+- title:
+    ar: الجنوب
+    en: The South
+  body:
+    ar: 'تمبكتو: عاصمة الذهب والمخطوط.'
+    en: 'Timbuktu: capital of gold and manuscripts.'
+  features:
+  - place/timbuktu
+  - person/mansa-musa
+- title:
+    ar: الشمال
+    en: The North
+  body:
+    ar: 'القسطنطينية فإسطنبول: آخر عواصم الخلافة.'
+    en: 'Constantinople to Istanbul: the last caliphal capital.'
+  features:
+  - place/istanbul
+  - place/samarra
+prerequisites:
+- exhibit/path-islam-in-30-minutes
+sources:
+- source/wikidata
+provenance:
+  layer: own-research
+  source: Devin-assembled trail from existing museum entities
+  generated_by: Devin (SWE-2 High)
+  model: SWE-2 High
+  run: pathways-batch-1
+status:
+  review: draft
+  completeness: 1
+  generated_by: Devin (SWE-2 High), pathways lane, 2026-10-16

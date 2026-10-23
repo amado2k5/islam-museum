@@ -1,0 +1,32 @@
+id: polity/muhammad-ali-dynasty
+class: polity
+kind: dynasty
+label:
+  ar: "الأسرة العلوية (مصر)"
+  en: "Muhammad Ali dynasty"
+summary:
+  ar: "بطاقة أولية للأسرة العلوية، أسرة محمد علي باشا الحاكمة لمصر والسودان من ١٨٠٥ حتى ١٩٥٣م؛ لم تُراجع مصادرها على الصفحة بعد."
+  en: "Draft card for the Muhammad Ali dynasty, the Albanian-Ottoman house ruling Egypt and Sudan from 1805 to 1953; its sources are not yet checked on the page."
+wings: [time]
+periods: [period/colonial-era]
+regions: [egypt-nile]
+start:
+  edtf: "1805"
+  precision: year
+  status: tradition
+  derived: true
+end:
+  edtf: "1953"
+  precision: year
+  status: tradition
+  derived: true
+sources: [source/tarikh-islam-hasan-ibrahim]
+external_ids:
+  wikidata: Q142913
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; dynasty attested in modern-Egyptian histories — entry not yet checked on the page"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-wave2
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

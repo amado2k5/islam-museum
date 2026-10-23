@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 9:27 (سورة التوبة، الآية 27)."
 text: "ثُمَّ يَتُوبُ ٱللَّهُ مِنۢ بَعْدِ ذَٰلِكَ عَلَىٰ مَن يَشَآءُ ۗ وَٱللَّهُ غَفُورٌ رَّحِيمٌ"
 text_search: "ثم يتوب الله من بعد ذلك على من يشاء ۗ والله غفور رحيم"
+translations:
+  en: { text: "Then afterward Allah will relent toward whom He will; for Allah is Forgiving, Merciful.", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "پھر خدا اس کے بعد جس پر چاہے مہربانی سے توجہ فرمائے اور خدا بخشنے والا مہربان ہے", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-9 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

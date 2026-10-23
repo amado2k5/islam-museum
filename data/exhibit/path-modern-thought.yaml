@@ -1,0 +1,76 @@
+id: exhibit/path-modern-thought
+class: exhibit
+kind: trail
+label:
+  ar: الفكر الحديث
+  en: Modern Thought
+summary:
+  ar: 'مسار في تجديد القرنين الأخيرين: الأفغاني وعبده ورضا، وإقبال ومالكوم — الأمة تفكر في نفسها.'
+  en: A trail through the last two centuries' renewal.
+audience:
+- newcomer
+- student
+duration_minutes: 30
+wings: []
+regions:
+- global
+rooms:
+- title:
+    ar: الأفغاني
+    en: Al-Afghani
+  body:
+    ar: 'الصحوة: أمة واحدة ضد الغرب.'
+    en: 'الصحوة: أمة واحدة ضد الغرب.'
+  features:
+  - person/jamal-al-din-al-afghani
+  - place/istanbul
+- title:
+    ar: عبده
+    en: Abduh
+  body:
+    ar: 'مفتي مصر: تعليم وإصلاح.'
+    en: 'مفتي مصر: تعليم وإصلاح.'
+  features:
+  - person/muhammad-abduh
+  - place/cairo
+- title:
+    ar: رضا
+    en: Rida
+  body:
+    ar: 'المنار: الوريث الصحفي.'
+    en: 'المنار: الوريث الصحفي.'
+  features:
+  - person/rashid-rida
+  - place/cairo
+- title:
+    ar: إقبال
+    en: Iqbal
+  body:
+    ar: 'شاعر الفلسفة: إحياء النفس.'
+    en: 'شاعر الفلسفة: إحياء النفس.'
+  features:
+  - person/muhammad-iqbal
+  - place/lahore
+- title:
+    ar: مالكوم
+    en: Malcolm
+  body:
+    ar: 'السنة إلى الغرب: رحلة تكتمل.'
+    en: 'السنة إلى الغرب: رحلة تكتمل.'
+  features:
+  - person/malcolm-x
+  - place/mecca
+prerequisites:
+- exhibit/path-islam-in-30-minutes
+sources:
+- source/wikidata
+provenance:
+  layer: own-research
+  source: Devin-assembled trail from existing museum entities
+  generated_by: Devin (SWE-2 High)
+  model: SWE-2 High
+  run: pathways-batch-7
+status:
+  review: draft
+  completeness: 1
+  generated_by: Devin (SWE-2 High), pathways lane, 2026-10-16

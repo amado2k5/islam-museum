@@ -1,0 +1,19 @@
+id: person/umm-qirfa
+class: person
+label: { ar: "أم قرفة فاطمة بنت ربيعة بن بدر الفزارية", en: "Umm Qirfa, Fatima bint Rabi'a ibn Badr al-Fazariyya" }
+names:
+  - { kind: full, lang: ar, value: "أم قرفة فاطمة بنت ربيعة بن بدر الفزارية" }
+gender: female
+roles: [tribal-leader]
+summary:
+  ar: "عجوز كبيرة من بني فزارة في بيت شرف من قومها، كانت عند مالك بن حذيفة بن بدر؛ كانت العرب تقول: لو كنت أعز من أم قرفة ما زدت. أُسرت في غزوة زيد بن حارثة الثانية لفزارة بوادي القرى فأمر زيد قيس بن المسحّر بقتلها فقتلها قتلاً عنيفاً، وأُسرت بنتها فوهبها النبي لخاله حزن بن أبي وهب."
+  en: "An aged woman of Banu Fazara from a noble house, wife of Malik ibn Hudhayfa ibn Badr; the Arabs said that no one could be mightier than Umm Qirfa. She was captured in Zayd ibn Haritha's second raid on Fazara at Wadi al-Qura and Zayd ordered Qays ibn al-Musahhar to kill her, which he did violently; her daughter was captured and the Prophet gave her to his maternal uncle Hazn ibn Abi Wahb."
+wings: [people]
+periods: [period/prophetic-era]
+regions: [arabia]
+relations:
+  - { type: member_of, target: group/banu-fazara, sources: [source/ibn-hisham-saqqa] }
+  - { type: participated_in, target: event/raid-of-zayd-on-banu-fazara-and-umm-qirfa, role: "أُسرت وقُتلت", sources: [source/ibn-hisham-saqqa] }
+provenance: { layer: own-research, source: "sira-ibn-hisham saqqa 1936, juz' 4 pp. 265-266", generated_by: "Claude Code", model: "claude-fable-5-1", run: "ibn-hisham-batch-13" }
+sources: [source/ibn-hisham-saqqa]
+status: { review: draft, completeness: 1, generated_by: "Claude Fable 5.1; mined from Ibn Hisham juz' 4 pp. 265-266" }

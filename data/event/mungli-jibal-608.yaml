@@ -1,0 +1,23 @@
+id: event/mungli-jibal-608
+class: event
+kind: conquest
+label: { ar: "استيلاء منكلي على بلاد الجبل وأصفهان وهرب أيتغمش", en: "Mungli seizes the Jibal and Isfahan; Aytaqmish flees" }
+date:
+  start: { edtf: "1211~", hijri: "0608", calendar: julian, precision: year, status: tradition, derived: true }
+summary:
+  ar: "استولى منكلي على بلاد الجبل وأصفهان وغيرها وهرب منه أيتغمش، وكان من مماليك الخوارزمية {cite:kamil-ibn-al-athir p. 356}."
+  en: "Mungli the Khwarazmian commander seized the Jibal and Isfahan; Aytaqmish fled {cite:kamil-ibn-al-athir p. 356}."
+sides:
+  - label: { ar: "منكلي وعسكر خوارزم" }
+  - label: { ar: "أيتغمش وحاميته" }
+relations:
+  - { type: occurred_at, target: place/jibal, sources: [source/kamil-ibn-al-athir] }
+  - { type: had_participant, target: person/mangli, role: "المستولي", sources: [source/kamil-ibn-al-athir] }
+  - { type: had_participant, target: person/aytaqmish, role: "الهارب", sources: [source/kamil-ibn-al-athir] }
+provenance:
+  layer: own-research
+  source: "الكامل في التاريخ لابن الأثير، قراءة آبل فيجن"
+  generated_by: "Devin (SWE-2 Medium) from Apple Vision OCR"
+  run: lib-kamil-v12-batch06
+sources: [source/kamil-ibn-al-athir]
+status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 Medium)" }

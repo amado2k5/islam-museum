@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 4:18 (سورة النساء، الآية 18)."
 text: "وَلَيْسَتِ ٱلتَّوْبَةُ لِلَّذِينَ يَعْمَلُونَ ٱلسَّيِّـَٔاتِ حَتَّىٰٓ إِذَا حَضَرَ أَحَدَهُمُ ٱلْمَوْتُ قَالَ إِنِّى تُبْتُ ٱلْـَٔـٰنَ وَلَا ٱلَّذِينَ يَمُوتُونَ وَهُمْ كُفَّارٌ ۚ أُو۟لَـٰٓئِكَ أَعْتَدْنَا لَهُمْ عَذَابًا أَلِيمًا"
 text_search: "وليست التوبة للذين يعملون السيئات حتى إذا حضر أحدهم الموت قال إني تبت الآن ولا الذين يموتون وهم كفار ۚ أولئك أعتدنا لهم عذابا أليما"
+translations:
+  en: { text: "The forgiveness is not for those who do ill-deeds until, when death attendeth upon one of them, he saith: Lo! I repent now; nor yet for those who die while they are disbelievers. For such We have prepared a painful doom.", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "اور ایسے لوگوں کی توبہ قبول نہیں ہوتی جو (ساری عمر) برے کام کرتے ہیں۔ یہاں تک کہ جب ان میں سے کسی موت آموجود ہو تو اس وقت کہنے لگے کہ اب میں توبہ کرتا ہوں اور نہ ان کی (توبہ قبول ہوتی ہے) جو کفر کی حالت میں مریں۔ ایسے لوگوں کے لئے ہم نے عذاب الیم تیار کر رکھا ہے", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-4 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

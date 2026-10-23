@@ -1,0 +1,23 @@
+id: event/battle-of-bamut-1995
+class: event
+kind: battle
+label: { ar: "معركة باموت", en: "Battle of Bamut" }
+summary:
+  ar: "بطاقة أولية لمعركة باموت سنة ١٩٩٥م، حصار القرية الشيشانية في الحرب الأولى؛ لم تُراجع مصادره على الصفحة بعد."
+  en: "Draft card for the Battle of Bamut in 1995, the siege of the Chechen village in the first war; its sources are not yet checked on the page."
+wings: [time]
+periods: [period/contemporary-era]
+regions: [persia-central-asia]
+date:
+  start: { edtf: "1995", precision: year, status: tradition, derived: true }
+  end: { edtf: "1995", precision: year, status: tradition, derived: true }
+sources: [source/tarikh-islam-hasan-ibrahim]
+external_ids:
+  wikidata: Q4087294
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; battle attested in narrative histories — entry not yet checked on the page"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-wave2
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

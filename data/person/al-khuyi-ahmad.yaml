@@ -1,0 +1,28 @@
+id: person/al-khuyi-ahmad
+class: person
+label: { ar: "الخوئي قاضي القضاة", en: "al-Khuyi, qadi al-qudat of al-Sham" }
+names:
+  - { value: "قاضي القضاة شمس الدين أبو العباس أحمد بن خليل بن سعادة بن جعفر بن عيسى الخوئي المهلبي الشافعي", kind: full }
+born: { edtf: "1187", hijri: "0583-10", calendar: julian, precision: month, status: tradition, derived: true, note: "ولد في شوال سنة ثلاث وثمانين وخمسمائة {cite:shadharat-dhahab p. 183}." }
+died: { edtf: "1240", hijri: "0637-08", calendar: julian, precision: month, status: tradition, derived: true, note: "توفي في شعبان سنة سبع وثلاثين وستمائة ودفن بسفح قاسيون {cite:shadharat-dhahab p. 183}.", sources: [source/shadharat-dhahab] }
+summary:
+  ar: "قاضي القضاة شمس الدين الخوئي الشافعي، نسبة إلى خوي مدينة بآذربيجان؛ دخل خراسان وقرأ بها الأصول على القطب المصري صاحب الإمام فخر الدين الرازي، وقرأ الفقه على الرافعي وعلم الجدل على علاء الدين الطوسي، وولي قضاء القضاة بالشام؛ وله كتاب في الأصول وكتاب فيه رموز حكمية وكتاب في النحو وكتاب في العروض، قال الذهبي كان فقيهاً إماماً مناظراً خبيراً بعلم الكلام أستاذاً في الطب والحكمة وديناً كثير الصلاة والصيام {cite:shadharat-dhahab p. 183}."
+  en: "Qadi al-qudat al-Khuyi (b. 583, d. Sha'ban 637, buried below Qasyun) — al-Razi's usul pupil and al-Rafi'i's fiqh pupil, master of kalam, medicine and hikma; the Sham's chief judge {cite:shadharat-dhahab p. 183}."
+gender: male
+roles: [scholar, jurist]
+wings: [people]
+periods: [period/crusades-ayyubid-mamluk]
+regions: [persia-central-asia, levant-iraq]
+faith:
+  - value: sunni-shafii
+    basis: tradition
+relations:
+  - { type: died_in, target: place/damascus, sources: [source/shadharat-dhahab] }
+  - { type: student_of, target: person/al-rafi-i, sources: [source/shadharat-dhahab] }
+sources: [source/shadharat-dhahab]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }
+provenance:
+  layer: own-research
+  source: "شذرات الذهب — ابن العماد (ج5، سنة 637)، قراءة آبل فيجن"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-shadharat-batch-126

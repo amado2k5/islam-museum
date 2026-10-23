@@ -1,0 +1,23 @@
+id: event/siege-of-ceuta-1790
+class: event
+kind: siege
+label: { ar: "حصار سبتة (١٧٩٠)", en: "Siege of Ceuta" }
+summary:
+  ar: "بطاقة أولية لحصار سبتة في ١٧٩٠–١٧٩١م، حصار مولاي يزيد للمدينة الإسبانية؛ لم تُراجع مصادره على الصفحة بعد."
+  en: "Draft card for the Siege of Ceuta in 1790–91, Mulay Yazid's siege of the Spanish-held city; its sources are not yet checked on the page."
+wings: [time]
+periods: [period/colonial-era]
+regions: [maghreb]
+date:
+  start: { edtf: "1790-09-25", precision: year, status: tradition, derived: true }
+  end: { edtf: "1791-09-14", precision: year, status: tradition, derived: true }
+sources: [source/tarikh-islam-hasan-ibrahim]
+external_ids:
+  wikidata: Q28088235
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; battle attested in narrative histories — entry not yet checked on the page"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-wave2
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

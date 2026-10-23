@@ -1,0 +1,15 @@
+id: passage/muslim-2162
+class: passage
+unit: hadith
+work: work/sahih-muslim
+ref: "2162"
+label: { ar: "مسلم 2162 — حق المسلم على المسلم ست", en: "Muslim 2162 — The Muslim's six rights over his brother" }
+text: "قال رسول الله: «حق المسلم على المسلم ست»؛ قيل: ما هن يا رسول الله؟ قال: «إذا لقيته فسلم عليه، وإذا دعاك فأجبه، وإذا استنصحك فانصح له، وإذا عطس فحمد الله فشمته، وإذا مرض فعده، وإذا مات فاتبعه»"
+summary:
+  ar: "رواية أبي هريرة في كتاب البر من صحيح مسلم؛ ستة حقوق للمسلم على أخيه: رد السلام وإجابة الدعوة والنصيحة وتشميت العاطس وعيادة المريض واتباع الجنازة — دستور الأخوة الاجتماعية."
+relations:
+  - { type: mentions, target: person/muhammad, sources: [source/sahih-muslim] }
+  - { type: mentions, target: person/abu-hurayra, sources: [source/sahih-muslim] }
+provenance: { layer: own-research, source: "صحيح مسلم، كتاب البر والصلة، باب من حق المسلم للمسلم رد السلام (طبعة دار التأصيل، الحديث 5778؛ ترقيم عبد الباقي المعروف 2162)، تصوير Apple Vision OCR", generated_by: "Devin (SWE-2 High) from Apple Vision OCR", run: "hadith-muslim-passages-2" }
+sources: [source/sahih-muslim]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High); matn excerpt at most 40 words checked against the scan" }

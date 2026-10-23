@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 4:110 (سورة النساء، الآية 110)."
 text: "وَمَن يَعْمَلْ سُوٓءًا أَوْ يَظْلِمْ نَفْسَهُۥ ثُمَّ يَسْتَغْفِرِ ٱللَّهَ يَجِدِ ٱللَّهَ غَفُورًا رَّحِيمًا"
 text_search: "ومن يعمل سوءا أو يظلم نفسه ثم يستغفر الله يجد الله غفورا رحيما"
+translations:
+  en: { text: "Yet whoso doeth evil or wrongeth his own soul, then seeketh pardon of Allah, will find Allah Forgiving, Merciful.", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "اور جو شخص کوئی برا کام کر بیٹھے یا اپنے حق میں ظلم کرلے پھر خدا سے بخشش مانگے تو خدا کو بخشنے والا اور مہربان پائے گا", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-4 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 26:165 (سورة الشعراء، الآية 165)."
 text: "أَتَأْتُونَ ٱلذُّكْرَانَ مِنَ ٱلْعَـٰلَمِينَ"
 text_search: "أتأتون الذكران من العالمين"
+translations:
+  en: { text: "What! Of all creatures do ye come unto the males,", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "کیا تم اہل عالم میں سے لڑکوں پر مائل ہوتے ہو", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-26 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

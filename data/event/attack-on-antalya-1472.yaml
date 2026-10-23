@@ -1,0 +1,23 @@
+id: event/attack-on-antalya-1472
+class: event
+kind: battle
+label: { ar: "الغارة على أنطاليا (١٤٧٢)", en: "Attack on Antalya (1472)" }
+summary:
+  ar: "بطاقة أولية للغارة على أنطاليا سنة ١٤٧٢م، هجوم البندقية على المدينة العثمانية؛ لم تُراجع مصادره على الصفحة بعد."
+  en: "Draft card for the raid on Antalya in 1472, the Venetian attack on the Ottoman city; its sources are not yet checked on the page."
+wings: [time]
+periods: [period/crusades-ayyubid-mamluk]
+regions: [anatolia-balkans]
+date:
+  start: { edtf: "1472-08", precision: year, status: tradition, derived: true }
+  end: { edtf: "1472-08", precision: year, status: tradition, derived: true }
+sources: [source/dawlat-uthmaniyya-salabi]
+external_ids:
+  wikidata: Q133696197
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; battle attested in narrative histories — entry not yet checked on the page"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-wave2
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

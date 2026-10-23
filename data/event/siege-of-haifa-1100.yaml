@@ -1,0 +1,23 @@
+id: event/siege-of-haifa-1100
+class: event
+kind: siege
+label: { ar: "حصار حيفا (١١٠٠)", en: "Siege of Haifa" }
+summary:
+  ar: "بطاقة أولية لحصار حيفا سنة ١١٠٠م، أخذ تنكرد والأسطول البندقي المدينة الفاطمية بعد دفاع يهودي إسلامي مشترك؛ لم تُراجع مصادره على الصفحة بعد."
+  en: "Draft card for the Siege of Haifa in 1100, Tancred and the Venetian fleet taking the Fatimid port; its sources are not yet checked on the page."
+wings: [time]
+periods: [period/crusades-ayyubid-mamluk]
+regions: [levant-iraq]
+date:
+  start: { edtf: "1100-07-25", precision: year, status: tradition, derived: true }
+  end: { edtf: "1100-08-20", precision: year, status: tradition, derived: true }
+sources: [source/kamil-ibn-al-athir]
+external_ids:
+  wikidata: Q137785638
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; battle attested in narrative histories — entry not yet checked on the page"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-wave2
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

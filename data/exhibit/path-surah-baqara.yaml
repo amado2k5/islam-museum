@@ -1,0 +1,77 @@
+id: exhibit/path-surah-baqara
+class: exhibit
+kind: trail
+label:
+  ar: سورة البقرة
+  en: Surah al-Baqara
+summary:
+  ar: 'مسار في أطول سور القرآن: افتتاح المتقين، وبناء الكعبة، وآية الكرسي، وأحكام الصيام، وختام المؤمنون.'
+  en: A trail through the longest sura.
+audience:
+- newcomer
+- student
+duration_minutes: 30
+wings: []
+regions:
+- arabia
+rooms:
+- title:
+    ar: الافتتاح
+    en: The opening
+  body:
+    ar: 'الم: صفات المتقين وأصناف الناس.'
+    en: 'الم: صفات المتقين وأصناف الناس.'
+  features:
+  - passage/quran-2
+  - passage/quran-2-1
+  - passage/quran-2-2
+- title:
+    ar: الكعبة
+    en: The Ka'ba
+  body:
+    ar: إبراهيم وإسماعيل يرفعان القواعد.
+    en: إبراهيم وإسماعيل يرفعان القواعد.
+  features:
+  - passage/quran-2-127
+  - place/mecca
+- title:
+    ar: آية الكرسي
+    en: Ayat al-Kursi
+  body:
+    ar: 'أعظم آية: العرش والكرسي والحي القيوم.'
+    en: 'أعظم آية: العرش والكرسي والحي القيوم.'
+  features:
+  - passage/quran-2-255
+  - concept/kalam-allah
+- title:
+    ar: الصيام
+    en: Fasting
+  body:
+    ar: 'أحكام رمضان والليالي: شرائع السورة.'
+    en: 'أحكام رمضان والليالي: شرائع السورة.'
+  features:
+  - passage/quran-2-185
+  - practice/sawm-ramadan
+- title:
+    ar: الختام
+    en: The end
+  body:
+    ar: 'آمنت الرسل: دعاء الختام العظيم.'
+    en: 'آمنت الرسل: دعاء الختام العظيم.'
+  features:
+  - passage/quran-2-286
+  - passage/quran-2-286
+prerequisites:
+- exhibit/path-islam-in-30-minutes
+sources:
+- source/wikidata
+provenance:
+  layer: own-research
+  source: Devin-assembled trail from existing museum entities
+  generated_by: Devin (SWE-2 High)
+  model: SWE-2 High
+  run: pathways-batch-7
+status:
+  review: draft
+  completeness: 1
+  generated_by: Devin (SWE-2 High), pathways lane, 2026-10-16

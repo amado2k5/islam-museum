@@ -13,8 +13,7 @@ traditions: []
 summary:
   ar: عمة النبي وزوج أبي أمية بن المغيرة والد أم سلمة، ولدت له عبد الله وقريبة؛ اشتهرت برؤياها قبل بدر بثلاث ليال، واختُلف في إسلامها.
   en: An aunt of the Prophet and wife of Abu Umayya ibn al-Mughira, the father of Umm Salama, to whom she bore Abdullah and Quraiba; known for the dream she had three nights before Badr. Whether she embraced Islam is disputed.
-wings:
-- people
+wings: [people]
 themes:
 - women
 periods:
@@ -42,6 +41,58 @@ relations:
   - source/ibn-hajar-isaba
 - type: sibling_of
   target: person/abbas-ibn-abd-al-muttalib
+  sources:
+  - source/ibn-hajar-isaba
+issue:
+  ar: هل أسلمت عاتكة بنت عبد المطلب؟
+  en: Did Atika bint Abd al-Muttalib embrace Islam?
+perspectives:
+- tradition: sunni
+  id: report-1
+  stance:
+    ar: الأكثر على نفي إسلامها (أبو عمر بن عبد البر، كما في الإصابة)
+  summary:
+    ar: اختُلف في إسلامها والأكثر يأبون ذلك.
+  evidence:
+  - ref: source/ibn-hajar-isaba
+    note:
+      ar: ص 1921
+  sources:
+  - source/ibn-hajar-isaba
+- tradition: sunni
+  id: report-2
+  stance:
+    ar: ابن إسحاق
+  summary:
+    ar: لم يسلم من عمات النبي إلا صفية.
+  evidence:
+  - ref: source/ibn-hajar-isaba
+    note:
+      ar: ص 1921
+  sources:
+  - source/ibn-hajar-isaba
+- tradition: sunni
+  id: report-3
+  stance:
+    ar: ابن سعد
+  summary:
+    ar: أسلمت عاتكة بمكة وهاجرت إلى المدينة، وهي صاحبة الرؤيا في قصة بدر.
+  evidence:
+  - ref: source/ibn-hajar-isaba
+    note:
+      ar: ص 1922
+  sources:
+  - source/ibn-hajar-isaba
+- tradition: sunni
+  id: report-4
+  stance:
+    ar: ابن فتحون والدارقطني (كما في الإصابة)
+  summary:
+    ar: ذكرها ابن فتحون في ذيل الاستيعاب واستدل على إسلامها بشعر لها تمدح فيه النبي وتصفه بالنبوة، وقال الدارقطني في كتاب «الإخوة» إن لها شعراً تذكر فيه تصديقها.
+  evidence:
+  - ref: source/ibn-hajar-isaba
+    note:
+      ar: ص 1921
   sources:
   - source/ibn-hajar-isaba
 provenance:

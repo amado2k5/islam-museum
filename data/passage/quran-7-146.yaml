@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 7:146 (سورة الأعراف، الآية 146)."
 text: "سَأَصْرِفُ عَنْ ءَايَـٰتِىَ ٱلَّذِينَ يَتَكَبَّرُونَ فِى ٱلْأَرْضِ بِغَيْرِ ٱلْحَقِّ وَإِن يَرَوْا۟ كُلَّ ءَايَةٍ لَّا يُؤْمِنُوا۟ بِهَا وَإِن يَرَوْا۟ سَبِيلَ ٱلرُّشْدِ لَا يَتَّخِذُوهُ سَبِيلًا وَإِن يَرَوْا۟ سَبِيلَ ٱلْغَىِّ يَتَّخِذُوهُ سَبِيلًا ۚ ذَٰلِكَ بِأَنَّهُمْ كَذَّبُوا۟ بِـَٔايَـٰتِنَا وَكَانُوا۟ عَنْهَا غَـٰفِلِينَ"
 text_search: "سأصرف عن آياتي الذين يتكبرون في الأرض بغير الحق وإن يروا كل آية لا يؤمنوا بها وإن يروا سبيل الرشد لا يتخذوه سبيلا وإن يروا سبيل الغي يتخذوه سبيلا ۚ ذلك بأنهم كذبوا بآياتنا وكانوا عنها غافلين"
+translations:
+  en: { text: "I shall turn away from My revelations those who magnify themselves wrongfully in the earth, and if they see each token believe it not, and if they see the way of righteousness choose it nor for (their) way, and if they see the way of error choose if for (their) way. That is because they deny Our revelations and are used to disregard them.", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "جو لوگ زمین میں ناحق غرور کرتے ہیں ان کو اپنی آیتوں سے پھیر دوں گا۔ اگر یہ سب نشانیاں بھی دیکھ لیں تب بھی ان پر ایمان نہ لائیں اور اگر راستی کا رستہ دیکھیں تو اسے (اپنا) رستہ نہ بنائیں۔ اور اگر گمراہی کی راہ دیکھیں تو اسے رستہ بنالیں۔ یہ اس لیے کہ انہوں نے ہماری آیات کو جھٹلایا اور ان سے غفلت کرتے رہے", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-7 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

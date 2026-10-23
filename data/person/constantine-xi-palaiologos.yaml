@@ -1,0 +1,31 @@
+id: person/constantine-xi-palaiologos
+class: person
+label:
+  ar: "قسطنطين الحادي عشر باليولوغ"
+  en: "Constantine XI Palaiologos"
+names:
+  - { kind: full, lang: ar, value: "قسطنطين الحادي عشر باليولوغ" }
+gender: male
+roles: [ruler]
+died: { edtf: "1453-05-29", hijri: "0857", calendar: julian, precision: day, status: tradition, derived: true, note: "يوم سقوط المدينة 20 جمادى الأولى 857هـ/29 مايو 1453م على رواية الصلابي {cite:dawlat-uthmaniyya-salabi p. 110}", sources: [source/dawlat-uthmaniyya-salabi] }
+summary:
+  ar: "قسطنطين، آخر أباطرة بيزنطة، قاد دفاع القسطنطينية بنفسه ضد محمد الفاتح سنة 857هـ/1453م. ينقل الصلابي أنه استمات في محاولات ثني السلطان بالأموال والهدايا، وطلب المساعدات من الدول الأوروبية وعلى رأسها البابا حتى مال إلى توحيد الكنيسة الأرثوذكسية مع الكاثوليك فأغضب ذلك جمهور الأرثوذكس {cite:dawlat-uthmaniyya-salabi p. 93-94}، وأنه رفض في مجلسين متتاليين نصيحة معاونيه بالخروج من المدينة لطلب النجدات مصرّاً على أن يكون مصيره مصير شعبه {cite:dawlat-uthmaniyya-salabi p. 100-103}، وأنه رد رسالة الفاتح الأخيرة بأنه يدفع الجزية أما المدينة فأقسم أن يدافع عنها إلى آخر نفس: «فإما أن يحفظ عرشه أو يدفن تحت أسوارها» {cite:dawlat-uthmaniyya-salabi p. 104}. ولما رفعت الأعلام العثمانية على الأبراج خلع ملابسه حتى لا يُعرف ونزل عن حصانه وقاتل حتى قُتل في ساحة المعركة {cite:dawlat-uthmaniyya-salabi p. 110}."
+  en: "Constantine, the last Byzantine emperor, who led Constantinople's defence in person against Mehmed II in 857/1453. Al-Salabi recounts his desperate gifts and bribes to turn the sultan away, his appeals to Europe and the Pope — leaning toward uniting the Orthodox church with Rome, which enraged his own Orthodox {cite:dawlat-uthmaniyya-salabi p. 93-94} — his twice refusing his councillors' advice to leave the city, insisting his fate was his people's {cite:dawlat-uthmaniyya-salabi p. 100-103}, and his answer to Mehmed's final offer of safe-conduct: he would pay tribute, but had sworn to defend the city to his last breath, 'either keeping his throne or buried beneath its walls' {cite:dawlat-uthmaniyya-salabi p. 104}. When the Ottoman banners rose on the towers he cast off his clothes so he would not be known, dismounted, and fought until he was killed {cite:dawlat-uthmaniyya-salabi p. 110}."
+wings: [people]
+regions: [anatolia-balkans]
+periods: [period/mongol-post-mongol]
+relations:
+  - { type: participated_in, target: event/conquest-constantinople-857, role: "الإمبراطور المدافع", sources: [source/dawlat-uthmaniyya-salabi] }
+  - { type: opposed, target: person/mehmed-ii, sources: [source/dawlat-uthmaniyya-salabi] }
+sources: [source/dawlat-uthmaniyya-salabi]
+external_ids:
+  wikidata: Q155725
+provenance:
+  layer: own-research
+  source: "الدولة العثمانية لعلي محمد الصلابي (ط1 1421) ص 93-110"
+  generated_by: "Devin (SWE-2 Medium) from Apple Vision OCR"
+  model: "SWE-2 Medium"
+  run: lib-salabi-uthmani-batch-5
+status:
+  review: draft
+  completeness: 2

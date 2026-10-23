@@ -1,0 +1,38 @@
+id: person/ibn-al-qaysarani-muhammad
+class: person
+label: { ar: "ابن القيسراني الشاعر" }
+names:
+  - { value: "أبو عبد الله محمد بن نصر بن صغير بن خالد القيسراني العكي الأديب", kind: full }
+summary:
+  ar: "أبو عبد الله ابن القيسراني محمد بن نصر الأديب حامل لواء الشعر في عصره؛ ولد بعكا سنة سبع وثمانين وأربعمائة وتولى إدارة الساعات التي بدمشق مدة ثم سكن حلب وكان عارفاً بالهيئة والنجوم والهندسة والحساب مدح الملوك والكبار، وكانت بينه وبين ابن منير مكاتبات وأجوبة ومهاجاة؛ توفي ليلة الأربعاء حادي عشري شعبان بدمشق ودفن بمقبرة باب الفراديس {cite:shadharat-dhahab p. 630-631}."
+  en: "Abu Abdallah Ibn al-Qaysarani Muhammad ibn Nasr, the littérateur who bore poetry's banner in his age; b. Acre 477, he administered the Damascus bureau then settled at Aleppo — versed in astronomy, geometry and reckoning, panegyrist of kings and grandees, and Ibn Munir's epistolary rival; d. the eve of Wednesday 21 Sha'ban at Damascus, buried at Bab al-Faradis {cite:shadharat-dhahab p. 630-631}."
+gender: male
+wings: [people]
+roles: [poet, writer]
+periods: [period/buyid-seljuk-fatimid-era]
+regions: [levant-iraq]
+born:
+  edtf: "1084~"
+  hijri: "0477"
+  calendar: julian
+  precision: year
+  status: tradition
+  derived: true
+  note: "ولد بعكا سنة سبع وثمانين وأربعمائة {cite:shadharat-dhahab p. 631}؛ التحويل مشتق."
+died:
+  edtf: "1153-10~"
+  hijri: "0548-08"
+  calendar: julian
+  precision: day
+  status: tradition
+  derived: true
+  note: "توفي ليلة الأربعاء حادي عشري شعبان سنة ثمان وأربعين وخمسمائة بدمشق ودفن بمقبرة باب الفراديس {cite:shadharat-dhahab p. 631}؛ التحويل مشتق."
+relations:
+  - { type: died_in, target: place/damascus, sources: [source/shadharat-dhahab] }
+provenance:
+  layer: own-research
+  source: "شذرات الذهب لابن العماد — الجزء الرابع، ممسوح مكتبة الحصاد (AAlexandrina-223861)، قراءة آبل فيجن"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-shadharat-batch-116
+sources: [source/shadharat-dhahab]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

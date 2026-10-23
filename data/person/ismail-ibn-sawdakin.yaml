@@ -1,0 +1,26 @@
+id: person/ismail-ibn-sawdakin
+class: person
+label: { ar: "إسماعيل بن سودكين النوري", en: "Isma'il b. Sawdakin al-Nuri" }
+names:
+  - { value: "إسماعيل بن سودكين أبو الطاهر النوري الحنفي الصوفي", kind: full }
+died: { edtf: "1248-05~", hijri: "0646-02", calendar: julian, precision: month, status: tradition, derived: true, note: "توفي في صفر سنة ست وأربعين وستمائة وروى عن الأرتاحي {cite:shadharat-dhahab p. 242}." }
+summary:
+  ar: "الحنفي الصوفي؛ كان صاحب الشيخ محي الدين بن العربي وله كلام وشعر؛ توفي في صفر وروى عن الأرتاحي {cite:shadharat-dhahab p. 242}."
+  en: "The Hanafi Sufi (d. Safar 646) — companion of Muhyi al-Din Ibn Arabi, with speech and verse of his own {cite:shadharat-dhahab p. 242}."
+gender: male
+roles: [mystic, poet]
+wings: [people]
+periods: [period/crusades-ayyubid-mamluk]
+regions: [egypt-nile, levant-iraq]
+faith:
+  - value: sunni-hanafi
+    basis: tradition
+relations:
+  - { type: student_of, target: person/ibn-arabi-muhyi-al-din, sources: [source/shadharat-dhahab] }
+sources: [source/shadharat-dhahab]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }
+provenance:
+  layer: own-research
+  source: "شذرات الذهب — ابن العماد (ج5، سنة 646)، قراءة آبل فيجن"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-shadharat-batch-127

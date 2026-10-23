@@ -1,0 +1,23 @@
+id: event/battle-of-tafilah-1918
+class: event
+kind: battle
+label: { ar: "معركة الطفيلة (١٩١٨)", en: "Battle of Tafilah (1918)" }
+summary:
+  ar: "بطاقة أولية لمعركة الطفيلة (١٩١٨)؛ لم تُراجع مصادره على الصفحة بعد."
+  en: "Draft card for Battle of Tafilah (1918); its sources are not yet checked on the page."
+wings: [time]
+periods: [period/modern-era]
+regions: [levant-iraq]
+date:
+  start: { edtf: "1918", precision: year, status: tradition, derived: true }
+  end: { edtf: "1918", precision: year, status: tradition, derived: true }
+sources: [source/tarikh-islam-hasan-ibrahim]
+external_ids:
+  wikidata: Q124540640
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; event attested in narrative histories — entry not yet checked on the page"
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: wikidata-import-wave2
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 Medium)" }

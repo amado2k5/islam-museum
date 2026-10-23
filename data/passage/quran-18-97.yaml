@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 18:97 (سورة الكهف، الآية 97)."
 text: "فَمَا ٱسْطَـٰعُوٓا۟ أَن يَظْهَرُوهُ وَمَا ٱسْتَطَـٰعُوا۟ لَهُۥ نَقْبًا"
 text_search: "فما اسطاعوا أن يظهروه وما استطاعوا له نقبا"
+translations:
+  en: { text: "And (Gog and Magog) were not able to surmount, nor could they pierce (it).", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "پھر ان میں یہ قدرت نہ رہی کہ اس پر چڑھ سکیں اور نہ یہ طاقت رہی کہ اس میں نقب لگا سکیں", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-18 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

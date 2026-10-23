@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 12:32 (سورة يوسف، الآية 32)."
 text: "قَالَتْ فَذَٰلِكُنَّ ٱلَّذِى لُمْتُنَّنِى فِيهِ ۖ وَلَقَدْ رَٰوَدتُّهُۥ عَن نَّفْسِهِۦ فَٱسْتَعْصَمَ ۖ وَلَئِن لَّمْ يَفْعَلْ مَآ ءَامُرُهُۥ لَيُسْجَنَنَّ وَلَيَكُونًا مِّنَ ٱلصَّـٰغِرِينَ"
 text_search: "قالت فذلكن الذي لمتنني فيه ۖ ولقد راودته عن نفسه فاستعصم ۖ ولئن لم يفعل ما آمره ليسجنن وليكونا من الصاغرين"
+translations:
+  en: { text: "She said: This is he on whose account ye blamed me. I asked of him an evil act, but he proved continent, but if he do not my behest he verily shall be imprisoned, and verily shall be of those brought low.", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "تب زلیخا نے کہا یہ وہی ہے جس کے بارے میں تم مجھے طعنے دیتی تھیں۔ اور بےشک میں نے اس کو اپنی طرف مائل کرنا چاہا مگر یہ بچا رہا۔ اور اگر یہ وہ کام نہ کرے گا جو میں اسے کہتی ہوں تو قید کردیا جائے گا اور ذلیل ہوگا", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-12 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

@@ -1,0 +1,23 @@
+id: event/battle-of-acre-1840
+class: event
+kind: battle
+label: { ar: "معركة عكا (١٨٤٠)", en: "Battle of Acre" }
+summary:
+  ar: "بطاقة أولية لمعركة عكا سنة ١٨٤٠م، قصف الحلفاء لحصن إبراهيم باشا في الحرب السورية؛ لم تُراجع مصادره على الصفحة بعد."
+  en: "Draft card for the Battle of Acre in 1840, the Allied bombardment of Ibrahim Pasha's fortress in the Syrian War; its sources are not yet checked on the page."
+wings: [time]
+periods: [period/colonial-era]
+regions: [levant-iraq]
+date:
+  start: { edtf: "1840", precision: year, status: tradition, derived: true }
+  end: { edtf: "1840", precision: year, status: tradition, derived: true }
+sources: [source/tarikh-islam-hasan-ibrahim]
+external_ids:
+  wikidata: Q27627693
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; battle attested in narrative histories — entry not yet checked on the page"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-wave2
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

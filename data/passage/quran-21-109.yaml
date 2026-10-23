@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 21:109 (سورة الأنبياء، الآية 109)."
 text: "فَإِن تَوَلَّوْا۟ فَقُلْ ءَاذَنتُكُمْ عَلَىٰ سَوَآءٍ ۖ وَإِنْ أَدْرِىٓ أَقَرِيبٌ أَم بَعِيدٌ مَّا تُوعَدُونَ"
 text_search: "فإن تولوا فقل آذنتكم على سواء ۖ وإن أدري أقريب أم بعيد ما توعدون"
+translations:
+  en: { text: "But if they are averse, then say: I have warned you all alike, although I know not whether nigh or far is that which ye are promised.", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "اگر یہ لوگ منہ پھیریں تو کہہ دو کہ میں نے تم کو سب کو یکساں (احکام الہیٰ سے) آگاہ کردیا ہے۔ اور مجھ کو معلوم نہیں کہ جس چیز کا تم سے وعدہ کیا جاتا ہے وہ (عن) قریب (آنے والی) ہے یا (اس کا وقت) دور ہے", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-21 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

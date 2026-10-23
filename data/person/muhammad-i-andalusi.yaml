@@ -1,0 +1,21 @@
+id: person/muhammad-i-andalusi
+class: person
+label: { ar: "محمد الأول بن عبد الرحمن" }
+summary:
+  ar: "سادس أمراء بني أمية بقرطبة (سنة ٢٣٨–٢٧٣هـ)؛ لما استمدّ أهل طليطلة المخالفون بملكي جليقية والبشكنس لقيهم على وادي سليطة وقد أكمن لهم فأوقع بهم وبلغت عدة القتلى من أهل طليطلة والمشركين عشرين ألفاً {cite:nafh-tib-maqqari p. 386}. وفي سنة ٢٤٥هـ ظهرت مراكب المجوس فلقيهم مراكبه فقاتلوهم وغنموا منهم مركبين {cite:nafh-tib-maqqari p. 387}. وسنة ٢٤٧هـ أغزى إلى نواحي بنبلونة فأسر فرتون ابن صاحبها فبقي أسيراً بقرطبة عشرين سنة، وفي أيامه خربت ماردة وهدمت ولم يبق لها أثر {cite:nafh-tib-maqqari p. 387}."
+  en: "Sixth Umayyad emir of Córdoba (AH 238–273): he ambushed Toledo and its Galician-Pamplonan allies at Wadi Salit leaving twenty thousand dead, beat off the Majus ships in 245, held Fortún of Pamplona captive in Córdoba for twenty years, and saw Mérida razed to no trace {cite:nafh-tib-maqqari pp. 386–387}."
+gender: male
+wings: [people]
+periods: [period/abbasid-early]
+regions: [andalus-europe]
+born: { edtf: "0823~", hijri: "0207~", calendar: julian, precision: year, status: tradition, derived: true, note: "مولده سنة 207هـ {cite:nafh-tib-maqqari p. 388}." }
+died: { edtf: "0886~", hijri: "0273-02", calendar: julian, precision: month, status: historical, derived: true, note: "شهر صفر سنة 273هـ لخمس وثلاثين سنة من إمارته {cite:nafh-tib-maqqari p. 388}." }
+relations:
+  - { type: ruled_over, target: place/cordoba, sources: [source/nafh-tib-maqqari] }
+provenance:
+  layer: own-research
+  source: "نفح الطيب من غصن الأندلس الرطيب للمقري (ط إحسان عباس) ص 386–388"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-nafh-tib-batch-63
+sources: [source/nafh-tib-maqqari]
+status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 High)" }

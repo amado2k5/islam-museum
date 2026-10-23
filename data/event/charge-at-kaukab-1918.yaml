@@ -1,0 +1,23 @@
+id: event/charge-at-kaukab-1918
+class: event
+kind: battle
+label: { ar: "هجوم كوكب (١٩١٨)", en: "Charge at Kaukab" }
+summary:
+  ar: "بطاقة أولية لهجوم كوكب سنة ١٩١٨م جنوب دمشق في الحملة البريطانية على بلاد الشام؛ لم تُراجع مصادره على الصفحة بعد."
+  en: "Draft card for the Charge at Kaukab in 1918 south of Damascus during the Sinai and Palestine campaign; its sources are not yet checked on the page."
+wings: [time]
+periods: [period/modern-era]
+regions: [levant-iraq]
+date:
+  start: { edtf: "1918-09-30", precision: year, status: tradition, derived: true }
+  end: { edtf: "1918-09-30", precision: year, status: tradition, derived: true }
+sources: [source/tarikh-islam-hasan-ibrahim]
+external_ids:
+  wikidata: Q5074256
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; battle attested in narrative histories — entry not yet checked on the page"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-wave2
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

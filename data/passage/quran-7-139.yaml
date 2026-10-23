@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 7:139 (سورة الأعراف، الآية 139)."
 text: "إِنَّ هَـٰٓؤُلَآءِ مُتَبَّرٌ مَّا هُمْ فِيهِ وَبَـٰطِلٌ مَّا كَانُوا۟ يَعْمَلُونَ"
 text_search: "إن هؤلاء متبر ما هم فيه وباطل ما كانوا يعملون"
+translations:
+  en: { text: "Lo! as for these, their way will be destroyed and all that they are doing is in vain.", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "یہ لوگ جس (شغل) میں (پھنسے ہوئے) ہیں وہ برباد ہونے والا ہے اور جو کام یہ کرتے ہیں سب بیہودہ ہیں", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-7 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

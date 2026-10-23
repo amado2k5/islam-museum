@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 41:4 (سورة فصلت، الآية 4)."
 text: "بَشِيرًا وَنَذِيرًا فَأَعْرَضَ أَكْثَرُهُمْ فَهُمْ لَا يَسْمَعُونَ"
 text_search: "بشيرا ونذيرا فأعرض أكثرهم فهم لا يسمعون"
+translations:
+  en: { text: "Good tidings and a warning. But most of them turn away so that they hear not.", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "جو بشارت بھی سناتا ہے اور خوف بھی دلاتا ہے لیکن ان میں سے اکثروں نے منہ پھیر لیا اور وہ سنتے ہی نہیں", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-41 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

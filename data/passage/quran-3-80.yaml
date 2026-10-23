@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 3:80 (سورة آل عمران، الآية 80)."
 text: "وَلَا يَأْمُرَكُمْ أَن تَتَّخِذُوا۟ ٱلْمَلَـٰٓئِكَةَ وَٱلنَّبِيِّـۧنَ أَرْبَابًا ۗ أَيَأْمُرُكُم بِٱلْكُفْرِ بَعْدَ إِذْ أَنتُم مُّسْلِمُونَ"
 text_search: "ولا يأمركم أن تتخذوا الملائكة والنبيين أربابا ۗ أيأمركم بالكفر بعد إذ أنتم مسلمون"
+translations:
+  en: { text: "And he commanded you not that ye should take the angels and the prophets for lords. Would he command you to disbelieve after ye had surrendered (to Allah)?", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "اور اس کو یہ بھی نہیں کہنا چاہیے کہ تم فرشتوں اور پیغمبروں کو خدا بنالو بھلا جب تم مسلمان ہو چکے تو کیا اسے زیبا ہے کہ تمہیں کافر ہونے کو کہے", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-3 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

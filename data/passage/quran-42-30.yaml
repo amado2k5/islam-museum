@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 42:30 (سورة الشورى، الآية 30)."
 text: "وَمَآ أَصَـٰبَكُم مِّن مُّصِيبَةٍ فَبِمَا كَسَبَتْ أَيْدِيكُمْ وَيَعْفُوا۟ عَن كَثِيرٍ"
 text_search: "وما أصابكم من مصيبة فبما كسبت أيديكم ويعفو عن كثير"
+translations:
+  en: { text: "Whatever of misfortune striketh you, it is what your right hands have earned. And He forgiveth much.", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "اور جو مصیبت تم پر واقع ہوتی ہے سو تمہارے اپنے فعلوں سے اور وہ بہت سے گناہ تو معاف ہی کردیتا ہے", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-42 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

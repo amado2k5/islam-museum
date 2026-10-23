@@ -1,0 +1,18 @@
+id: person/umm-abdallah-bint-yazid-al-kalbiyya
+class: person
+label: { ar: "أم عبد الله بنت يزيد الكلبية", en: "Umm Abdallah bint Yazid al-Kalbiyya" }
+summary:
+  ar: "أم عبد الله بنت يزيد الكلبية امرأة حبيب بن مسلمة الفهري؛ عند البلاذري: قالت له ليلة بيات الروم بقاليقلا «أين موعدك؟» قال «سرادق الطاغية أو الجنة» فلما انتهى إلى السرادق وجدها عنده."
+  en: "Umm Abdallah bint Yazid al-Kalbiyya, wife of Habib ibn Maslama al-Fihri; in al-Baladhuri: on the night of the Muslims' night-attack on the Romans at Qaliqala she asked him 'where is your tryst?' — he answered 'the tyrant's pavilion or Paradise', and when he reached the pavilion he found her there."
+wings: [people]
+periods: [period/rashidun]
+relations:
+  - { type: spouse_of, target: person/habib-ibn-maslama, sources: [source/futuh-buldan-maarif-1407] }
+  - { type: participated_in, target: event/conquest-of-qaliqala, role: "في السرادق ليلة البيات", sources: [source/futuh-buldan-maarif-1407] }
+provenance:
+  layer: own-research
+  source: "فتوح البلدان (ط مؤسسة المعارف 1407هـ/1987م) ص 278"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-futuh-buldan-batch-17
+sources: [source/futuh-buldan-maarif-1407]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

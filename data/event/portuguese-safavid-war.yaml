@@ -1,0 +1,23 @@
+id: event/portuguese-safavid-war
+class: event
+kind: war
+label: { ar: "الحرب البرتغالية الصفوية (١٦٢١–١٦٣٠)", en: "Portuguese–Safavid War (1621–30)" }
+summary:
+  ar: "بطاقة أولية للحرب البرتغالية الصفوية من ١٦٢١ إلى ١٦٣٠م، نزاع الخليج الذي انتهى بأخذ هرمز؛ لم تُراجع مصادره على الصفحة بعد."
+  en: "Draft card for the Portuguese–Safavid War of 1621–30, the Gulf contest that ended with the fall of Hormuz; its sources are not yet checked on the page."
+wings: [time]
+periods: [period/gunpowder-empires]
+regions: [persia-central-asia]
+date:
+  start: { edtf: "1621", precision: year, status: tradition, derived: true }
+  end: { edtf: "1630", precision: year, status: tradition, derived: true }
+sources: [source/tarikh-islam-hasan-ibrahim]
+external_ids:
+  wikidata: Q137921461
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; battle attested in narrative histories — entry not yet checked on the page"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-wave2
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

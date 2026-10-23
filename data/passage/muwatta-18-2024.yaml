@@ -1,0 +1,16 @@
+id: passage/muwatta-18-2024
+class: passage
+unit: hadith
+work: work/muwatta-malik
+ref: "2024"
+label: { ar: "الموطأ 2024 — يحيى عن مالك: لا يصلح القراض إلا في العين، ولا يكون في العروض، لأن القراض فيها يقع على وجهين، وفيهما غرر، ويقوم عمل العامل بأجرة إن جهل الأمر حتى يمضي", en: "Muwatta 2024" }
+summary:
+  ar: "قال يحيى: قال مالك: لا ينبغي لأحد أن يقارض أحدا إلا في العين، ولا تنبغي المقارضة في العروض، لأن المقارضة في العروض إنما تكون على أحد وجهين: إما أن يقول صاحب العرض للعامل: خذ هذا العرض فبعه، فما خرج من ثمنه فاشتر به، وبع على وجه القراض، فقد اشترط صاحب المال فضلا لنفسه من بيع سلعته وما يكفيه من مؤونتها. أو يقول: اشتر بهذه السلعة وبع، فإذا فرغت فابتع لي مثل عرضي الذي دفعت إليك، فإن فضل شيء فهو بيني وبينك. ولعل صاحب العرض أن يدفعه إلى العامل في زمن هو فيه نافق كثير الثمن، ثم يرده العامل حين يرده وقد رخص، فيشتريه بثلث ثمنه أو أقل من ذلك، فيكون العامل قد ربح نصف ما نقص من ثمن العرض في حصته من الربح. فإن جهل ذلك حتى يمضي، نظر إلى قدر أجر الذي دفع إليه القراض في بيعه إياه وعلاجه، فيعطاه. ثم يكون المال قراضا من يوم نض واجتمع عينا، ويرد إلى قراض مثل. {cite:muwatta-maruf-1997 p.227} {cite:muwatta-maruf-1997 p.228}"
+relations:
+  - { type: part_of, target: passage/muwatta-kitab-18-qiraad }
+  - { type: mentions, target: person/yahya-ibn-yahya-al-laythi, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/malik-ibn-anas, sources: [source/muwatta-maruf-1997] }
+  - { type: basis_for, target: concept/qiradh, sources: [source/muwatta-maruf-1997] }
+provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 2, hadith 2024 at PDF p. 227; القراض في العروض", generated_by: "Claude Code (claude-haiku-5-5) from Apple Vision OCR of the Noor-Book PDF, checked on the page image where doubtful", run: "muwatta-prose-k18-b56" }
+sources: [source/muwatta-maruf-1997]
+status: { review: draft, completeness: 2, generated_by: "Claude Code (claude-haiku-5-5); own-words account written from PDF p. 227; matn excerpt at most 40 words" }

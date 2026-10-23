@@ -1,0 +1,23 @@
+id: event/ottoman-venetian-war-1423
+class: event
+kind: war
+label: { ar: "الحرب العثمانية البندقية (١٤٢٣–١٤٣٠)", en: "Ottoman–Venetian War of 1423–1430" }
+summary:
+  ar: "بطاقة أولية لالحرب العثمانية البندقية (١٤٢٣–١٤٣٠)؛ لم تُراجع مصادره على الصفحة بعد."
+  en: "Draft card for Ottoman–Venetian War of 1423–1430; its sources are not yet checked on the page."
+wings: [time]
+periods: [period/crusades-ayyubid-mamluk]
+regions: [anatolia-balkans]
+date:
+  start: { edtf: "1423", precision: year, status: tradition, derived: true }
+  end: { edtf: "1430", precision: year, status: tradition, derived: true }
+sources: [source/tarikh-islam-hasan-ibrahim]
+external_ids:
+  wikidata: Q109391512
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; battle attested in narrative histories — entry not yet checked on the page"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-wave2
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

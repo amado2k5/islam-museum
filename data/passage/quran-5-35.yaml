@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 5:35 (سورة المائدة، الآية 35)."
 text: "يَـٰٓأَيُّهَا ٱلَّذِينَ ءَامَنُوا۟ ٱتَّقُوا۟ ٱللَّهَ وَٱبْتَغُوٓا۟ إِلَيْهِ ٱلْوَسِيلَةَ وَجَـٰهِدُوا۟ فِى سَبِيلِهِۦ لَعَلَّكُمْ تُفْلِحُونَ"
 text_search: "يا أيها الذين آمنوا اتقوا الله وابتغوا إليه الوسيلة وجاهدوا في سبيله لعلكم تفلحون"
+translations:
+  en: { text: "O ye who believe! Be mindful of your duty to Allah, and seek the way of approach unto Him, and strive in His way in order that ye may succeed.", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "اے ایمان والو! خدا سے ڈرتے رہو اور اس کا قرب حاصل کرنے کا ذریعہ تلاش کرتے رہو اور اس کے رستے میں جہاد کرو تاکہ رستگاری پاؤ", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-5 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

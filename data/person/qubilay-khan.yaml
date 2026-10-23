@@ -1,0 +1,38 @@
+id: person/qubilay-khan
+class: person
+label:
+  ar: قبلاي بن طولي
+  en: Qubilai Khan ibn Tolui
+summary:
+  ar: "قبلاي بن طولي بن جنكزخان؛ بعثه أخوه منكوفان مع أخيهم هلاكو لغزو بلاد الخطا، وولي الخانات بعد أخيه أربيكان، وفي أعقابه ملوك: دمرفاي وتربى كيزي وكيزقان وسندمرقان بن طرمالا بن جنكمر."
+  en: "Qubilai ibn Tolui ibn Genghis Khan; his brother Monke sent him with their brother Hulagu against the land of Khita, and he held the khanate after their brother Ariq Boke — in his line followed Tarmashirin's house and the kings Darmfay, Tarba Kizi, Kizqan and Sandmarqan ibn Tarmala ibn Jankmar."
+gender: male
+roles: [ruler]
+relations:
+- type: child_of
+  target: person/tolui-ibn-genghis
+  sources:
+  - source/tarikh-ibn-khaldun-ibar
+- type: sibling_of
+  target: person/monke-khan
+  sources:
+  - source/tarikh-ibn-khaldun-ibar
+- type: sibling_of
+  target: person/hulagu
+  sources:
+  - source/tarikh-ibn-khaldun-ibar
+wings: [people]
+periods: [period/mongol-post-mongol]
+regions: [china-east-asia, persia-central-asia]
+sources:
+- source/tarikh-ibn-khaldun-ibar
+provenance:
+  layer: own-research
+  source: ابن خلدون، العبر — دولة التتر، ص1536 (طبعة هيليوبوليس)
+  generated_by: Devin (SWE-2 High) from Apple Vision OCR
+  model: swe-2-high
+  run: lib-ibar-east-12
+status:
+  review: draft
+  completeness: 1
+  generated_by: Devin (SWE-2 High); extracted from Ibn Khaldun al-Ibar via Apple Vision OCR

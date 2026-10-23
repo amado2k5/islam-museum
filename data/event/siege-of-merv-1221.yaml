@@ -1,0 +1,23 @@
+id: event/siege-of-merv-1221
+class: event
+kind: siege
+label: { ar: "حصار مرو", en: "Siege of Merv" }
+summary:
+  ar: "بطاقة أولية لحصار مرو سنة ١٢٢١م، تدمير المدينة على يد تولوي خان؛ لم تُراجع مصادره على الصفحة بعد."
+  en: "Draft card for the Siege of Merv in 1221, the city's destruction by Tolui Khan; its sources are not yet checked on the page."
+wings: [time]
+periods: [period/mongol-post-mongol]
+regions: [persia-central-asia]
+date:
+  start: { edtf: "1221", precision: year, status: tradition, derived: true }
+  end: { edtf: "1221", precision: year, status: tradition, derived: true }
+sources: [source/kamil-ibn-al-athir]
+external_ids:
+  wikidata: Q39081822
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; battle attested in narrative histories — entry not yet checked on the page"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-wave2
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

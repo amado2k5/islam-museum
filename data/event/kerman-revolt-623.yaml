@@ -1,0 +1,22 @@
+id: event/kerman-revolt-623
+class: event
+kind: revolt
+label: { ar: "عصيان كرمان على جلال الدين ومسيره إليها", en: "Kirman revolts; Jalal al-Din marches on it" }
+date:
+  start: { edtf: "1226~", hijri: "0623", calendar: julian, precision: year, status: tradition, derived: true }
+summary:
+  ar: "عصت كرمان على جلال الدين بن خوارزم شاه فسار إليها بنفسه وأخضعها {cite:kamil-ibn-al-athir p. 463}."
+  en: "Kirman rebelled against Jalal al-Din and he marched on it in person and subdued it {cite:kamil-ibn-al-athir p. 463}."
+sides:
+  - label: { ar: "المسلمون" }
+  - label: { ar: "خصومهم" }
+relations:
+  - { type: occurred_at, target: place/kirman, sources: [source/kamil-ibn-al-athir] }
+  - { type: had_participant, target: person/jalal-al-din-khwarazmshah, role: "السائر", sources: [source/kamil-ibn-al-athir] }
+provenance:
+  layer: own-research
+  source: "الكامل في التاريخ لابن الأثير، قراءة آبل فيجن"
+  generated_by: "Devin (SWE-2 Medium) from Apple Vision OCR"
+  run: lib-kamil-v12-batch07
+sources: [source/kamil-ibn-al-athir]
+status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 Medium)" }

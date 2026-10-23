@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 51:57 (سورة الذاريات، الآية 57)."
 text: "مَآ أُرِيدُ مِنْهُم مِّن رِّزْقٍ وَمَآ أُرِيدُ أَن يُطْعِمُونِ"
 text_search: "ما أريد منهم من رزق وما أريد أن يطعمون"
+translations:
+  en: { text: "I seek no livelihood from them, nor do I ask that they should feed Me.", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "میں ان سے طالب رزق نہیں اور نہ یہ چاہتا ہوں کہ مجھے (کھانا) کھلائیں", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-51 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

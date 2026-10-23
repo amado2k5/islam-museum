@@ -1,0 +1,19 @@
+id: event/bakr-khilat-killed-589
+class: event
+kind: other
+label: { ar: "قتل بكر صاحب خلاط", en: "Bakr, lord of Khilat, killed" }
+date:
+  start: { edtf: "1193~", hijri: "0589", calendar: julian, precision: year, status: tradition, derived: true }
+summary:
+  ar: "قُتل بكر صاحب خلاط من أعمال أرمنية، وكانت خلاط من ثغور الإسلام على بحيرة وان يتغالها المسلمون والأرمن والكرج {cite:kamil-ibn-al-athir p. 229}."
+  en: "Bakr, lord of Khilat on Lake Van — the march where Muslims, Armenians and Georgians contested — was killed {cite:kamil-ibn-al-athir p. 229}."
+relations:
+  - { type: occurred_at, target: place/khilat, sources: [source/kamil-ibn-al-athir] }
+  - { type: had_participant, target: person/bakr-khilat, role: "المقتول", sources: [source/kamil-ibn-al-athir] }
+provenance:
+  layer: own-research
+  source: "الكامل في التاريخ لابن الأثير، قراءة آبل فيجن"
+  generated_by: "Devin (SWE-2 Medium) from Apple Vision OCR"
+  run: lib-kamil-v12-batch04
+sources: [source/kamil-ibn-al-athir]
+status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 Medium)" }

@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 11:38 (سورة هود، الآية 38)."
 text: "وَيَصْنَعُ ٱلْفُلْكَ وَكُلَّمَا مَرَّ عَلَيْهِ مَلَأٌ مِّن قَوْمِهِۦ سَخِرُوا۟ مِنْهُ ۚ قَالَ إِن تَسْخَرُوا۟ مِنَّا فَإِنَّا نَسْخَرُ مِنكُمْ كَمَا تَسْخَرُونَ"
 text_search: "ويصنع الفلك وكلما مر عليه ملأ من قومه سخروا منه ۚ قال إن تسخروا منا فإنا نسخر منكم كما تسخرون"
+translations:
+  en: { text: "And he was building the ship, and every time that chieftains of his people passed him, they made mock of him. He said: Though ye make mock of Us, yet We mock at you even as ye mock;", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "تو نوح نے کشتی بنانی شروع کردی۔ اور جب ان کی قوم کے سردار ان کے پاس سے گزرتے تو ان سے تمسخر کرتے۔ وہ کہتے کہ اگر تم ہم سے تمسخر کرتے ہو تو جس طرح تم ہم سے تمسخر کرتے ہو اس طرح (ایک وقت) ہم بھی تم سے تمسخر کریں گے", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-11 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

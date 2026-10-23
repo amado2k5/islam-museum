@@ -1,0 +1,23 @@
+id: event/siege-of-buda-1684
+class: event
+kind: siege
+label: { ar: "حصار بودا (١٦٨٤)", en: "Siege of Buda" }
+summary:
+  ar: "بطاقة أولية لحصار بودا سنة ١٦٨٤م، المحاولة النمساوية الفاشلة الأولى لاسترداد العاصمة المجرية العثمانية؛ لم تُراجع مصادره على الصفحة بعد."
+  en: "Draft card for the Siege of Buda in 1684, the first failed Habsburg attempt on the Ottoman Hungarian capital; its sources are not yet checked on the page."
+wings: [time]
+periods: [period/gunpowder-empires]
+regions: [anatolia-balkans]
+date:
+  start: { edtf: "1684", precision: year, status: tradition, derived: true }
+  end: { edtf: "1684", precision: year, status: tradition, derived: true }
+sources: [source/dawlat-uthmaniyya-salabi]
+external_ids:
+  wikidata: Q3625456
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; siege attested in Great Turkish War histories — entry not yet checked on the page"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-wave2
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

@@ -1,0 +1,16 @@
+id: passage/bukhari-4428
+class: passage
+unit: hadith
+work: work/sahih-al-bukhari
+ref: "4428"
+label: { ar: "البخاري 4428 — ألم الأكلة التي أكلها بخيبر", en: "Bukhari 4428 — The pain of the meal he ate at Khaybar" }
+text: "قالت عائشة: كان النبي يقول في مرضه الذي مات فيه: «يا عائشة، ما أزال أجد ألم الطعام الذي أكلت بخيبر، فهذا أوان وجدت انقطاع أبهري»"
+summary:
+  ar: "في كتاب المغازي؛ رواية عائشة أن النبي كان يجد في مرض موته ألم الطعام الذي أكل بخيبر — الشاة المسمومة التي قدمتها له يهودية — حتى قال إنه وجد انقطاع أبهره. من نصوص خبر سم خيبر وأثره الباقي."
+relations:
+  - { type: mentions, target: event/death-of-the-prophet, sources: [source/sahih-al-bukhari] }
+  - { type: mentions, target: event/battle-of-khaybar, sources: [source/sahih-al-bukhari] }
+  - { type: mentions, target: person/aisha, sources: [source/sahih-al-bukhari] }
+provenance: { layer: own-research, source: "صحيح البخاري (طبعة دار ابن كثير، ترقيم فخر الدين)، تصوير Apple Vision OCR، حديث 4428 (كتاب المغازي)", generated_by: "Devin (SWE-2 High) from Apple Vision OCR", run: "hadith-bukhari-passages-1" }
+sources: [source/sahih-al-bukhari]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High); matn excerpt at most 40 words checked against the scan" }

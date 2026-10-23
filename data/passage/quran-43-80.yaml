@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 43:80 (سورة الزخرف، الآية 80)."
 text: "أَمْ يَحْسَبُونَ أَنَّا لَا نَسْمَعُ سِرَّهُمْ وَنَجْوَىٰهُم ۚ بَلَىٰ وَرُسُلُنَا لَدَيْهِمْ يَكْتُبُونَ"
 text_search: "أم يحسبون أنا لا نسمع سرهم ونجواهم ۚ بلى ورسلنا لديهم يكتبون"
+translations:
+  en: { text: "Or deem they that We cannot hear their secret thoughts and private confidences? Nay, but Our envoys, present with them, do record.", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "کیا یہ لوگ یہ خیال کرتے ہیں کہ ہم ان کی پوشیدہ باتوں اور سرگوشیوں کو سنتے نہیں؟ ہاں ہاں (سب سنتے ہیں) اور ہمارے فرشتے ان کے پاس (ان کی سب باتیں) لکھ لیتے ہیں", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-43 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

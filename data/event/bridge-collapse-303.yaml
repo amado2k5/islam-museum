@@ -1,0 +1,22 @@
+id: event/bridge-collapse-303
+class: event
+kind: other
+label: { ar: "انقطاع كرسي الجسر ببغداد", en: "Collapse of the bridge's seating at Baghdad" }
+summary:
+  ar: "في يوم الأربعاء لتسع خلون من رمضان سنة ثلاث وثلاثمائة انقطع كرسي الجسر ببغداد والناس عليه، فغرق خلق كثير؛ وفي ليلة الجمعة لثمان بقين من رمضان انقضّ كوكب عظيم بقي ضوؤه ساعة كالمِقباس {cite:muntazam-ibn-al-jawzi p. 418}."
+  en: "On Wednesday 9 Ramadan 303 the pontoon seating on Baghdad's bridge gave way under the crowds and many drowned; on Friday 8 Ramadan a great star fell whose light lingered an hour like a lamp {cite:muntazam-ibn-al-jawzi p. 418}."
+wings: [time]
+periods: [period/abbasid-early]
+regions: [levant-iraq]
+map: { kind: locator, precision: approximate, center: [44.36, 33.31] }
+date:
+  start: { edtf: "0916-04~", hijri: "0303-09", calendar: julian, precision: month, status: tradition, derived: true, note: "رمضان ٣٠٣؛ التحويل مشتق {cite:muntazam-ibn-al-jawzi p. 418}." }
+relations:
+  - { type: occurred_at, target: place/baghdad, sources: [source/muntazam-ibn-al-jawzi] }
+provenance:
+  layer: own-research
+  source: "المنتظم لابن الجوزي (ط حيدرآباد 1357، ج6، سنة 303)، قراءة آبل فيجن"
+  generated_by: "Devin (SWE-2 Medium) from Apple Vision OCR"
+  run: lib-muntazam-258-349-batch29
+sources: [source/muntazam-ibn-al-jawzi]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 Medium)" }

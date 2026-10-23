@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 10:53 (سورة يونس، الآية 53)."
 text: "۞ وَيَسْتَنۢبِـُٔونَكَ أَحَقٌّ هُوَ ۖ قُلْ إِى وَرَبِّىٓ إِنَّهُۥ لَحَقٌّ ۖ وَمَآ أَنتُم بِمُعْجِزِينَ"
 text_search: "۞ ويستنبئونك أحق هو ۖ قل إي وربي إنه لحق ۖ وما أنتم بمعجزين"
+translations:
+  en: { text: "And they ask thee to inform them (saying): Is it true? Say: Yea, by my Lord, verily it is true, and ye cannot escape.", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "اور تم سے دریافت کرتے ہیں کہ آیا یہ سچ ہے۔ کہہ دو ہاں خدا کی قسم سچ ہے اور تم (بھاگ کر خدا کو) عاجز نہیں کرسکو گے", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-10 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

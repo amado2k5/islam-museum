@@ -1,0 +1,23 @@
+id: event/battle-of-arsuf-587
+class: event
+kind: battle
+label: { ar: "معركة أرسوف", en: "Battle of Arsuf" }
+summary:
+  ar: "بطاقة أولية لمعركة أرسوف سنة ١١٩١م، موقعة ريتشارد قلب الأسد على جيش صلاح الدين في الحملة الصليبية الثالثة؛ لم تُراجع مصادره على الصفحة بعد."
+  en: "Draft card for the Battle of Arsuf in 1191, Richard the Lionheart's victory over Saladin's army during the Third Crusade; its sources are not yet checked on the page."
+wings: [time]
+periods: [period/crusades-ayyubid-mamluk]
+regions: [levant-iraq]
+date:
+  start: { edtf: "1191", precision: year, status: tradition, derived: true }
+  end: { edtf: "1191", precision: year, status: tradition, derived: true }
+sources: [source/kamil-ibn-al-athir]
+external_ids:
+  wikidata: Q940026
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; battle attested in Crusades histories — entry not yet checked on the page"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-wave2
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

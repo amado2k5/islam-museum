@@ -1,0 +1,21 @@
+id: place/ur
+class: place
+kind: site
+label: { ar: "أور (آر)", en: "Ur" }
+summary:
+  ar: "بلدة على الشاطئ الغربي من نهر الفرات بالقرب من الكوفة، منها أصل إبراهيم جدّ العرب المستعربة في رواية الرحيق المختوم، وقد جاءت الحفريات بتفاصيل واسعة عنها وعن أسرة إبراهيم؛ وذُكر قوم سبأ في حفرياتها بخمسة وعشرين قرناً قبل الميلاد."
+  en: "A town on the west bank of the Euphrates near Kufa, the origin of Ibrahim, ancestor of the Arabized Arabs, in al-Raheeq al-Makhtum's account; excavations there gave details of the town and Ibrahim's family, and mention the Sabaeans twenty-five centuries before the Common Era."
+wings: [place]
+periods: [period/pre-islamic-arabia]
+regions: [levant-iraq]
+coordinate_note: "لم تُحدَّد الإحداثيات بعد؛ الموضع المعروف في جنوبي العراق (تل المقير) ولم يُقابل بعدُ بما في ويكيداتا."
+relations:
+  - { type: located_in, target: place/iraq, sources: [source/mubarakpuri-raheeq] }
+provenance:
+  layer: own-research
+  source: "الرحيق المختوم ص17–20 نقلاً عن قلب جزيرة العرب ص230–235 وتفهيم القرآن 1/553–556 وصحيح البخاري 1/474–476"
+  generated_by: "Claude Code"
+  model: "claude-fable-5-1"
+  run: "raheeq-prose-batch-1a"
+sources: [source/mubarakpuri-raheeq, source/tafhim-al-quran]
+status: { review: draft, completeness: 1, generated_by: "Claude Code (claude-fable-5-1); al-Raheeq al-Makhtum pp. 18, 23" }

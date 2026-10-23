@@ -1,0 +1,30 @@
+id: person/mehmed-ii
+aliases: [person/muhammad-al-fatih]
+class: person
+label: { ar: "السلطان محمد الفاتح" }
+names:
+  - { kind: full, lang: ar, value: "السلطان محمد بن السلطان مراد خان بن بايزيد بن أورخان بن عثمان" }
+  - { kind: laqab, lang: ar, value: "الفاتح" }
+summary:
+  ar: "سابع ملوك بني عثمان السلطان محمد بن السلطان مراد خان ولد سنة خمس وثلاثين وثمان مئة وولي السلطنة سنة ست وخمسين وكانت مدة ولايته إحدى وثلاثين سنة وكان من أعاظم سلاطين بني عثمان أعظمهم جهاداً وأقواهم إقداماً واجتهاداً وأثبتهم جأشاً وقوادة وأكثرهم توكلاً على الله واعتماداً وهو الذي أسس ملك بني عثمان وسن لهم قوانين صارت كالأطواق في أعناق الزمان وغزواته كسرت بها أصلاب الصلبان والأصنام من أعظمها أنه فتح القسطنطينية الكبرى وساق بها السفن تجري براً وبحراً وحاصرها خمسين يوماً أشد الحصار حتى فتحها يوم الأربعاء العشرون من جمادى الآخرة سنة سبع وخمسين وثمان مئة وصلى في أياصوفيا أكبر كنائس النصارى صلاة الجمعة وأسس في أصطنبول للعلم أساساً راسخاً وبنى بها مدارس كالجفان لها ثمانية أبواب وسن بها قوانين تطابق المعقول والمنقول وجعل للطلاب أيام الطلب ما يسد فاقتهم ومراتب يترقون إليها واستجلب العلماء الكبار من أقصى الديار وأنعم عليهم كمولانا علي القوشجي والفاضل الطوسي والعالم الكوراني فصارت أصطنبول بهم أم الدنيا واستقر بعده في المملكة ابنه الأكبر أبو يزيد يلدرم ومعناه البرق {cite:shadharat-dhahab p. 344-345}. وعند الصلابي: ولي السلطنة بعد وفاة أبيه في 16 محرم 855هـ الموافق 18 فبراير 1451م وله اثنان وعشرون عاماً، فأعاد تنظيم إدارات الدولة وماليتها وكتائب الجيش وسجلات الجند ومرتباتهم، ثم تطلع إلى القسطنطينية فأعد لها ربع مليون مقاتل وأكثر من أربعمئة سفينة، وبنى قلعة روملي حصار في أضيق نقطة من البوسفور، وجلب المهندس المجري أوربان لصناعة المدافع العظيمة {cite:dawlat-uthmaniyya-salabi p. 87-92}."
+  en: "Mehmed the Conqueror, seventh of the Ottoman kings — sultan for thirty-one years from 856, 'the greatest of their sultans in jihad', who laid the Ottoman state's foundations and its statutes. His fame rests on the conquest of Constantinople: he drove ships over land, besieged it fifty days and took it on Wednesday 20 Jumada II 857, prayed Friday in Hagia Sophia, built the Eight Madrasas with endowed stipend-ranks for students, and drew the age's great scholars — Ali al-Qushji, al-Tusi, al-Kurani — till Istanbul became mother of the world {cite:shadharat-dhahab p. 344-345}."
+gender: male
+roles: [ruler, military]
+died: { edtf: "1481-05-03", hijri: "0886-03-04", calendar: julian, precision: day, status: tradition, derived: true, note: "مات يوم الخميس 4 ربيع الأول 886هـ/3 مايو 1481م وسط جيشه بأسكدار عن 52 سنة بعد نيف وثلاثين عاماً في الحكم {cite:dawlat-uthmaniyya-salabi p. 157}", sources: [source/dawlat-uthmaniyya-salabi] }
+wings: [people]
+periods: [period/mongol-post-mongol, period/gunpowder-empires]
+regions: [anatolia-balkans]
+relations:
+  - { type: child_of, target: person/murad-ii-uthmani, sources: [source/dawlat-uthmaniyya-salabi] }
+  - { type: ruler_of, target: place/istanbul, sources: [source/dawlat-uthmaniyya-salabi] }
+  - { type: student_of, target: person/aq-shams-al-din, sources: [source/dawlat-uthmaniyya-salabi] }
+  - { type: student_of, target: person/ahmad-ibn-ismail-al-kurani, sources: [source/dawlat-uthmaniyya-salabi] }
+  - { type: participated_in, target: event/conquest-constantinople-857, role: "القائد الفاتح", sources: [source/dawlat-uthmaniyya-salabi] }
+provenance:
+  layer: own-research
+  source: "شذرات الذهب — ابن العماد (ج6، سنة 886)"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-shadharat-batch-70
+external_ids: { wikidata: "Q34503" }
+sources: [source/shadharat-dhahab, source/dawlat-uthmaniyya-salabi]
+status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 High)" }

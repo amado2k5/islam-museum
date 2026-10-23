@@ -1,0 +1,21 @@
+id: person/ibn-al-hajjaj-al-shair
+class: person
+label: { ar: "أبو عبد الله الحسين بن أحمد بن الحجاج الشاعر" }
+summary:
+  ar: "الحسين بن أحمد بن الحجاج أبو عبد الله الشاعر، كان من أولاد العمال والكتاب وكانت إليه حسبة بغداد في أيام عضد الدولة فاستخلف عليها ستة أنفس كلهم لا خير فيه، ثم تشاغل بالشعر وتفرد بالسخف الذي يدل على خساسة النفس فحصل الأموال به وصار ممن يتقي لسانه، وحمل إليه صاحب مصر عن مديح مدحه به ألف دينار مغربية، وقد أفرد أبو الحسن الرضي من شعره ما خلا عن السخف وهو شعر حسن. توفي ابن الحجاج بالنيل في جمادى الآخرة سنة إحدى وتسعين ورثاه الرضي {cite:muntazam-ibn-al-jawzi j.7 p.216-217}."
+wings: [people]
+periods: [period/buyid-seljuk-fatimid-era]
+regions: [levant-iraq, egypt-nile]
+roles: [poet]
+themes: [literature]
+died:
+  { edtf: "1001-03~", hijri: "0391-06", calendar: julian, precision: month, status: tradition, derived: true, note: "جمادى الآخرة 391 بالنيل؛ التحويل مشتق {cite:muntazam-ibn-al-jawzi j.7 p.217}" }
+relations:
+  - { type: related_to, target: person/al-sharif-al-radi, role: "أفرد الرضي من شعره ما خلا عن السخف ورثاه عند موته", sources: [source/muntazam-ibn-al-jawzi] }
+provenance:
+  layer: own-research
+  source: "المنتظم في تاريخ الملوك والأمم — ابن الجوزي (ج7، وفيات سنة 391)، قراءة آبل فيجن"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-muntazam-batch-21
+sources: [source/muntazam-ibn-al-jawzi]
+status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 High)" }

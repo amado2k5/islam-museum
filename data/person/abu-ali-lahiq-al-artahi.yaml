@@ -1,0 +1,26 @@
+id: person/abu-ali-lahiq-al-artahi
+class: person
+label: { ar: "أبو الكرم لاحق الأرتاحي", en: "Abu al-Karam Lahiq al-Artahi" }
+names:
+  - { value: "أبو الكرم لاحق بن عبد المنعم بن قاسم الأنصاري الأرتاحي ثم المصري الحنفي اللبان", kind: full }
+died: { edtf: "1260-06~", hijri: "0658-06", calendar: julian, precision: month, status: tradition, derived: true, note: "توفي بمصر في جمادى الآخرة سنة ثمان وخمسين وستمائة {cite:shadharat-dhahab p. 304}." }
+summary:
+  ar: "الحنفي اللبان؛ سمع من عم جده عبد الله الأرتاحي وتفرد بالإجازة من المبارك، وكان صالحاً متعففاً روى عنه الزكي عبد العظيم مع تقدمه؛ توفي بمصر في جمادى الآخرة {cite:shadharat-dhahab p. 304}."
+  en: "The Artahi Hanafi — sole ijaza-heir of al-Mubarak; 'devout, self-restrained'; d. Egypt Jumada II 658 {cite:shadharat-dhahab p. 304}."
+gender: male
+roles: [scholar, muhaddith]
+wings: [people]
+periods: [period/crusades-ayyubid-mamluk]
+regions: [egypt-nile, levant-iraq]
+faith:
+  - value: sunni-hanafi
+    basis: tradition
+relations:
+  - { type: died_in, target: place/cairo, sources: [source/shadharat-dhahab] }
+sources: [source/shadharat-dhahab]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }
+provenance:
+  layer: own-research
+  source: "شذرات الذهب — ابن العماد (ج5، سنة 658)، قراءة آبل فيجن"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-shadharat-batch-130

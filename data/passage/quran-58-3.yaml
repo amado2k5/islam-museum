@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 58:3 (سورة المجادلة، الآية 3)."
 text: "وَٱلَّذِينَ يُظَـٰهِرُونَ مِن نِّسَآئِهِمْ ثُمَّ يَعُودُونَ لِمَا قَالُوا۟ فَتَحْرِيرُ رَقَبَةٍ مِّن قَبْلِ أَن يَتَمَآسَّا ۚ ذَٰلِكُمْ تُوعَظُونَ بِهِۦ ۚ وَٱللَّهُ بِمَا تَعْمَلُونَ خَبِيرٌ"
 text_search: "والذين يظاهرون من نسائهم ثم يعودون لما قالوا فتحرير رقبة من قبل أن يتماسا ۚ ذلكم توعظون به ۚ والله بما تعملون خبير"
+translations:
+  en: { text: "Those who put away their wives (by saying they are as their mothers) and afterward would go back on that which they have said, (the penalty) in that case (is) the freeing of a slave before they touch one another. Unto this ye are exhorted; and Allah is Informed of what ye do.", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "اور جو لوگ اپنی بیویوں کو ماں کہہ بیٹھیں پھر اپنے قول سے رجوع کرلیں تو (ان کو) ہم بستر ہونے سے پہلے ایک غلام آزاد کرنا (ضروری) ہے۔ (مومنو) اس (حکم) سے تم کو نصیحت کی جاتی ہے۔ اور جو کچھ تم کرتے ہو خدا اس سے خبردار ہے", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-58 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

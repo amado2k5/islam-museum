@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 37:28 (سورة الصافات، الآية 28)."
 text: "قَالُوٓا۟ إِنَّكُمْ كُنتُمْ تَأْتُونَنَا عَنِ ٱلْيَمِينِ"
 text_search: "قالوا إنكم كنتم تأتوننا عن اليمين"
+translations:
+  en: { text: "They say: Lo! ye used to come unto us, imposing, (swearing that ye spoke the truth).", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "کہیں گے کیا تم ہی ہمارے پاس دائیں (اور بائیں) سے آتے تھے", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-37 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

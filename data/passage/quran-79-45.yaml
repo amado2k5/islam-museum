@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 79:45 (سورة النازعات، الآية 45)."
 text: "إِنَّمَآ أَنتَ مُنذِرُ مَن يَخْشَىٰهَا"
 text_search: "إنما أنت منذر من يخشاها"
+translations:
+  en: { text: "Thou art but a warner unto him who feareth it.", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "جو شخص اس سے ڈر رکھتا ہے تم تو اسی کو ڈر سنانے والے ہو", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-79 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

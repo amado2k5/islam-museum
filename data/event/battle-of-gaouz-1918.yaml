@@ -1,0 +1,23 @@
+id: event/battle-of-gaouz-1918
+class: event
+kind: battle
+label: { ar: "معركة كاوز (١٩١٨)", en: "Battle of Gaouz (1918)" }
+summary:
+  ar: "بطاقة أولية لمعركة كاوز سنة ١٩١٨م، من مقاومة الزيان للحماية الفرنسية في المغرب؛ لم تُراجع مصادره على الصفحة بعد."
+  en: "Draft card for the Battle of Gaouz in 1918, part of the Zaian resistance to the French protectorate in Morocco; its sources are not yet checked on the page."
+wings: [time]
+periods: [period/modern-era]
+regions: [maghreb]
+date:
+  start: { edtf: "1918-08", precision: year, status: tradition, derived: true }
+  end: { edtf: "1918-08", precision: year, status: tradition, derived: true }
+sources: [source/tarikh-islam-hasan-ibrahim]
+external_ids:
+  wikidata: Q136222206
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; battle attested in narrative histories — entry not yet checked on the page"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-wave2
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

@@ -1,0 +1,25 @@
+id: person/uthman-ibn-ali
+class: person
+gender: male
+label:
+  ar: عثمان بن علي
+  en: Uthman ibn Ali
+  ur: عثمان بن علی
+summary:
+  ar: "عثمان بن علي بن أبي طالب؛ يعدّه ابن كثير في أولاد علي الذين قتلوا مع الحسين بكربلاء سنة 61هـ {cite:al-bidaya-wal-nihaya}."
+  en: "Uthman ibn Ali ibn Abi Talib; Ibn Kathir counts him among Ali's sons killed with Husayn at Karbala in 61 AH {cite:al-bidaya-wal-nihaya}."
+wings: [people]
+themes: [sects-and-schools, civil-wars-and-revolts]
+regions: [levant-iraq]
+periods: [period/umayyad]
+relations:
+  - { type: child_of, target: person/ali-ibn-abi-talib }
+  - { type: died_in, target: place/karbala }
+external_ids: { wikidata: "Q5686263" }
+sources: [source/al-bidaya-wal-nihaya]
+provenance:
+  layer: own-research
+  source: "wikidata-import deferred Q5686263; Bidaya 61 AH 'awlad Ali ... wa-Uthman' killed at Karbala verified in OCR (lines 20820-20826)"
+  generated_by: "Devin (SWE-2 Medium)"
+  run: wd-deferred-12
+status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 Medium)" }

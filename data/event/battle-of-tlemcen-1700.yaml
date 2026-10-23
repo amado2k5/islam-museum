@@ -1,0 +1,23 @@
+id: event/battle-of-tlemcen-1700
+class: event
+kind: battle
+label: { ar: "معركة تلمسان (١٧٠٠)", en: "Battle of Tlemcen (1700)" }
+summary:
+  ar: "بطاقة أولية لمعركة تلمسان سنة ١٧٠٠م، مصادمة الجزائريين مع جيوش مولاي إسماعيل؛ لم تُراجع مصادره على الصفحة بعد."
+  en: "Draft card for the Battle of Tlemcen in 1700, the Algerine clash with the armies of Moulay Ismail; its sources are not yet checked on the page."
+wings: [time]
+periods: [period/gunpowder-empires]
+regions: [maghreb]
+date:
+  start: { edtf: "1700", precision: year, status: tradition, derived: true }
+  end: { edtf: "1700", precision: year, status: tradition, derived: true }
+sources: [source/tarikh-islam-hasan-ibrahim]
+external_ids:
+  wikidata: "Q122830159"
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; battle attested in narrative histories — entry not yet checked on the page"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-wave2
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

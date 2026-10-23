@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 26:151 (سورة الشعراء، الآية 151)."
 text: "وَلَا تُطِيعُوٓا۟ أَمْرَ ٱلْمُسْرِفِينَ"
 text_search: "ولا تطيعوا أمر المسرفين"
+translations:
+  en: { text: "And obey not the command of the prodigal,", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "اور حد سے تجاوز کرنے والوں کی بات نہ مانو", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-26 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

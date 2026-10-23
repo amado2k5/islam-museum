@@ -1,0 +1,23 @@
+id: event/battle-of-guadix-1362
+class: event
+kind: battle
+label: { ar: "معركة وادي آش (١٣٦٢)", en: "Battle of Guadix" }
+summary:
+  ar: "بطاقة أولية لمعركة وادي آش سنة ١٣٦٢م، فوز محمد السادس الغرناطي على القوات القشتالية؛ لم تُراجع مصادره على الصفحة بعد."
+  en: "Draft card for the Battle of Guadix in 1362, Muhammad VI of Granada's victory over Castilian forces; its sources are not yet checked on the page."
+wings: [time]
+periods: [period/crusades-ayyubid-mamluk]
+regions: [andalus-europe]
+date:
+  start: { edtf: "1362-01-15", precision: year, status: tradition, derived: true }
+  end: { edtf: "1362-01-15", precision: year, status: tradition, derived: true }
+sources: [source/tarikh-islam-hasan-ibrahim]
+external_ids:
+  wikidata: Q16840426
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; battle attested in narrative histories — entry not yet checked on the page"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-wave2
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

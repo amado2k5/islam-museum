@@ -1,0 +1,22 @@
+id: event/battle-of-maritsa-763
+class: event
+kind: battle
+label: { ar: "وقعة نهر الماريتسا (صيرمن)" }
+summary:
+  ar: "يذكر الصلابي أن ملوك البلقان (الصرب والبلغار والبوسنيين وغيرهم) تحالفوا ضد الدولة العثمانية وجمعوا جيشاً كبيراً نحو مئة ألف مقاتل تقدم حتى نهر الماريتسا قرب أدرنة، فهاجمهم القائد العثماني لاله شاهين ليلاً قبل طلوع الفجر وهو في عدد قليل، فأباد النصارى عن آخرهم وغرق كثير منهم في النهر، وفتح هذا النصر طريق البلقان أمام العثمانيين {cite:dawlat-uthmaniyya-salabi p. 58-59}. ويذكر الكتاب أن أخباراً من بلاد الروم جاءت إلى القاهرة فأقام المسلمون فيها الاحتفالات سبعة أيام {cite:dawlat-uthmaniyya-salabi p. 59}."
+  en: "Maritsa (Sırpsındığı), early in Murad I's reign — al-Sallabi has a Balkan coalition of some hundred thousand camped on the river near Edirne when Lala Şahin's smaller Ottoman force struck before dawn and destroyed it, opening the Balkans to Ottoman advance; news reaching Cairo was met with seven days of public celebration {cite:dawlat-uthmaniyya-salabi p. 58-59}."
+wings: [time]
+periods: [period/mongol-post-mongol]
+regions: [anatolia-balkans]
+date:
+  start: { hijri: "0763~", precision: year, status: tradition, note: "التاريخ الدقيق لم يُنص في المقطع المقروء؛ الرقم أولي ويحتاج مصدراً ثانياً.", derived: true }
+relations:
+  - { type: had_participant, target: person/lala-shahin, role: "القائد العثماني", sources: [source/dawlat-uthmaniyya-salabi] }
+  - { type: related_to, target: person/murad-i-uthmani, sources: [source/dawlat-uthmaniyya-salabi] }
+sources: [source/dawlat-uthmaniyya-salabi]
+provenance:
+  layer: own-research
+  source: "الدولة العثمانية لعلي محمد الصلابي، ص 58–59"
+  generated_by: "Devin (SWE-2 Medium) from Apple Vision OCR"
+  run: lib-salabi-uthmani-batch-3
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 Medium)" }

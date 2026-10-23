@@ -1,0 +1,30 @@
+id: person/tughtigin-atabeg
+class: person
+label: { ar: "ظهير الدين طغتكين أتابك" }
+names:
+  - { value: "ظهير الدين طغتكين أتابك صاحب دمشق", kind: full }
+summary:
+  ar: "الأتابك ظهير الدين طغتكين؛ كان من أمراء تتش السلجوقي بدمشق فزوجه بأم ولده دقاق ثم صار أتابك دقاق ثم ملك دمشق، وكان سيّداً شجاعاً عاقلاً مدبّراً سائساً له مواقف مشهورة مع الفرنج؛ توفي في صفر سنة اثنتين وعشرين وخمسمائة ودفن بتربته قبل المصلى، وملك بعده ابنه تاج الملوك بوري {cite:shadharat-dhahab p. 545-546}."
+  en: "The atabeg Zahir al-Din Tughtigin — once an amir of the Saljuq Tutush at Damascus, married to Duqaq's mother, then Duqaq's atabeg, then lord of Damascus in his own right; a brave, prudent master of policy with famous stands against the Franks; d. Safar 522, buried in his turbah before the musalla, succeeded by his son Taj al-Muluk Buri {cite:shadharat-dhahab p. 545-546}."
+gender: male
+wings: [people]
+roles: [emir, general]
+periods: [period/crusades-ayyubid-mamluk]
+regions: [levant-iraq]
+died:
+  edtf: "1128-02~"
+  hijri: "0522-02"
+  calendar: julian
+  precision: month
+  status: tradition
+  derived: true
+  note: "توفي في صفر سنة اثنتين وعشرين وخمسمائة ودفن بتربته قبل المصلى {cite:shadharat-dhahab p. 546}؛ التحويل مشتق."
+relations:
+  - { type: ruler_of, target: polity/burid-dynasty, sources: [source/shadharat-dhahab] }
+provenance:
+  layer: own-research
+  source: "شذرات الذهب لابن العماد — الجزء الرابع، ممسوح مكتبة الحصاد (AAlexandrina-223861)، قراءة آبل فيجن"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-shadharat-batch-114
+sources: [source/shadharat-dhahab]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

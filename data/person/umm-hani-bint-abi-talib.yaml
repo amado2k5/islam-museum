@@ -11,6 +11,7 @@ names:
   lang: ar
   value: أم هانئ
 gender: female
+died: { edtf: "0660", hijri: "0040", calendar: julian, precision: year, status: tradition, note: "يذكر الكتاب وفاتها سنة أربعين للهجرة (نساء حول الرسول ص187).", sources: [source/nisa-hawl-alrasul] }
 roles:
 - companion
 traditions:
@@ -18,8 +19,7 @@ traditions:
 summary:
   ar: ابنة عم النبي، واسمها فاختة وقيل فاطمة وقيل هند؛ كانت زوج هبيرة بن عمرو المخزومي الذي هرب إلى نجران يوم فتح مكة، وروت عن النبي أحاديث في الكتب الستة.
   en: A cousin of the Prophet, named Fakhita (also given as Fatima or Hind); wife of Hubayra ibn Amr al-Makhzumi, who fled to Najran on the day Mecca was taken; she narrated hadith found in the six collections.
-wings:
-- people
+wings: [people]
 themes:
 - women
 periods:
@@ -56,8 +56,10 @@ provenance:
   generated_by: Claude (maintainer session)
   model: claude-sonnet-5-5
   run: isaba-women-1
+external_ids: { wikidata: "Q3738508" }
 sources:
 - source/ibn-hajar-isaba
+- source/nisa-hawl-alrasul
 status:
   review: draft
   completeness: 2

@@ -1,0 +1,23 @@
+id: event/battle-of-kirkuk-1991
+class: event
+kind: battle
+label: { ar: "معركة كركوك (١٩٩١)", en: "Battle of Kirkuk (1991)" }
+summary:
+  ar: "بطاقة أولية لمعركة كركوك سنة ١٩٩١م، من انتفاضة آذار العراقية؛ لم تُراجع مصادره على الصفحة بعد."
+  en: "Draft card for the Battle of Kirkuk in 1991, an action of the Iraqi uprisings; its sources are not yet checked on the page."
+wings: [time]
+periods: [period/contemporary-era]
+regions: [levant-iraq]
+date:
+  start: { edtf: "1991", precision: year, status: tradition, derived: true }
+  end: { edtf: "1991", precision: year, status: tradition, derived: true }
+sources: [source/tarikh-islam-hasan-ibrahim]
+external_ids:
+  wikidata: Q4587295
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; battle attested in narrative histories — entry not yet checked on the page"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-wave2
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

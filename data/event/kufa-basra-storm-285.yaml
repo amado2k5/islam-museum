@@ -1,0 +1,22 @@
+id: event/kufa-basra-storm-285
+class: event
+kind: other
+label: { ar: "عاصفة وبرد الكوفة والبصرة سنة ٢٨٥", en: "Storm and hail at Kufa and Basra, 285" }
+summary:
+  ar: "في ربيع الأول سنة خمس وثمانين ومائتين كتب صاحب البريد من الكوفة أن ريحًا صفراء ارتفعت ثم استحالت سوداء والناس في تضرع، ثم مطرت السماء مطرًا شديدًا برعود وبروق متصلة، ومطرت قرية تُعرف بأحمد آباذ حجارة بيضًا وسودًا؛ وورد من البصرة أن الريح ارتفعت بعد الجمعة صفراء ثم خضراء ثم سوداء مع أمطار لم يُرَ مثلها، ووقع برد وزن البردة الواحدة مائة وخمسون درهمًا، واقتلعت الريح من نهر الحسن خمسمائة نخلة ومن نهر معقل مائة نخلة، وزادت دجلة زيادة مفرطة لم يُرَ مثلها فتهدمت أبنية كثيرة حولها {cite:muntazam-ibn-al-jawzi p. 294-295}."
+  en: "In Rabi' I 285 postal dispatches reported a yellow-then-black wind over Kufa with stones raining on Ahmadabadh village, and at Basra a yellow, green, then black storm with hailstones of a hundred and fifty dirhams, five hundred palms uprooted on the Nahr al-Hasan, and a Tigris surge that wrecked riverside buildings {cite:muntazam-ibn-al-jawzi p. 294-295}."
+wings: [time]
+periods: [period/abbasid-early]
+regions: [levant-iraq]
+date:
+  start: { edtf: "0898-03~", hijri: "0285-03", calendar: julian, precision: month, status: tradition, derived: true, note: "ربيع الأول ٢٨٥؛ التحويل مشتق {cite:muntazam-ibn-al-jawzi p. 294}." }
+relations:
+  - { type: occurred_at, target: place/basra, sources: [source/muntazam-ibn-al-jawzi] }
+  - { type: occurred_at, target: place/kufa, sources: [source/muntazam-ibn-al-jawzi] }
+provenance:
+  layer: own-research
+  source: "المنتظم لابن الجوزي (ط حيدرآباد 1357، ج5 ق2، سنة 285)، قراءة آبل فيجن"
+  generated_by: "Devin (SWE-2 Medium) from Apple Vision OCR"
+  run: lib-muntazam-258-349-batch27
+sources: [source/muntazam-ibn-al-jawzi]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 Medium)" }

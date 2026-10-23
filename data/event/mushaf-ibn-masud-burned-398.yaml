@@ -1,0 +1,23 @@
+id: event/mushaf-ibn-masud-burned-398
+class: event
+kind: other
+label: { ar: "إحراق مصحف منسوب إلى ابن مسعود وفتنة الكرخ", en: "The burning of a codex attributed to Ibn Mas'ud and the Karkh strife" }
+summary:
+  ar: "في رجب سنة ثمان وتسعين جرت فتنة بين أهل الكرخ والفقهاء بقطيعة الربيع بعد تعرض لأبي عبد الله ابن النعمان المعروف بابن المعلم فقيه الشيعة، وأحضر مصحف ذكر أنه مصحف ابن مسعود وهو يخالف المصاحف فاجتمع الأشراف والقضاة والفقهاء وعرض عليهم فأشار أبو حامد الاسفراييني والفقهاء بتحريقه ففعل بحضورهم، ثم قتل رجل دعا على من أحرقه فوقع القتال بين أهل الكرخ وأهل باب البصرة وباب الشعير والقلائين وصاحوا حاكم يا منصور، وبلغ الخليفة فأحفظه فوضع الحرس على بابه لمعاونة أهل السنة وأحرق ما يلي نهر الدجاج، وخرج ابن المعلم من البلد ليلة الأحد لسبع بقين من رمضان {cite:muntazam-ibn-al-jawzi j.7 p.238-239}."
+  en: "In Rajab 398 a strife broke out at Qati'at al-Rabi' between the people of al-Karkh and the jurists, after an assault on Abu Abd Allah ibn al-Nu'man, known as Ibn al-Mu'allim, the Shi'i jurist. A codex was produced which was said to be Ibn Mas'ud's and which differed from the codices in use. The notables, judges and jurists gathered and it was presented to them; Abu Hamid al-Isfara'ini and the jurists advised burning it, and it was burned in their presence. Then a man who had cursed whoever burned it was killed, and fighting broke out between the people of al-Karkh and the people of Bab al-Basra, Bab al-Sha'ir and al-Qala'in, shouting 'Hakim, O Mansur'. Word reached the caliph, who was angered; he set guards at his gate to support the Sunnis, and what lay along the Nahr al-Dajaj was burned. Ibn al-Mu'allim left the city on the night of Sunday, seven days before the end of Ramadan {cite:muntazam-ibn-al-jawzi j.7 p.238-239}."
+wings: [time]
+periods: [period/buyid-seljuk-fatimid-era]
+regions: [levant-iraq]
+date:
+  start: { edtf: "1008-03~", hijri: "0398-07", calendar: julian, precision: month, status: tradition, derived: true, note: "رجب 398؛ التحويل مشتق {cite:muntazam-ibn-al-jawzi j.7 p.238}" }
+relations:
+  - { type: located_in, target: place/baghdad, sources: [source/muntazam-ibn-al-jawzi] }
+  - { type: had_participant, target: person/abu-hamid-al-isfarayini, role: "أشار مع الفقهاء بتحريق المصحف", sources: [source/muntazam-ibn-al-jawzi] }
+  - { type: had_participant, target: person/al-qadir-billah, role: "أحفظه الأمر فوضع الحرس على بابه", sources: [source/muntazam-ibn-al-jawzi] }
+provenance:
+  layer: own-research
+  source: "المنتظم في تاريخ الملوك والأمم — ابن الجوزي (ج7، أحداث سنة 398)، قراءة آبل فيجن"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-muntazam-batch-21
+sources: [source/muntazam-ibn-al-jawzi]
+status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 High)" }

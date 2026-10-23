@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 44:21 (سورة الدخان، الآية 21)."
 text: "وَإِن لَّمْ تُؤْمِنُوا۟ لِى فَٱعْتَزِلُونِ"
 text_search: "وإن لم تؤمنوا لي فاعتزلون"
+translations:
+  en: { text: "And if ye put no faith in me, then let me go.", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "اور اگر تم مجھ پر ایمان نہیں لاتے تو مجھ سے الگ ہو جاؤ", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-44 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

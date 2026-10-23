@@ -1,0 +1,26 @@
+id: person/abu-ali-ibn-duwayra
+class: person
+label: { ar: "أبو علي بن دويرة البصري", en: "Abu Ali b. Duwayra al-Basri" }
+names:
+  - { value: "أبو علي أحمد بن أحمد بن أبي الحسن بن دويرة البصري المقرئ الزاهد", kind: full }
+died: { edtf: "1254~", hijri: "0652", calendar: julian, precision: year, status: tradition, derived: true, note: "توفي في هذه السنة بالبصرة وخلفه في التدريس تلميذه نور الدين عبد الرحمن {cite:shadharat-dhahab p. 267}." }
+summary:
+  ar: "شيخ الحنابلة بالبصرة ورئيسهم ومدرّسهم؛ اشتغل عليه أمم وختم عليه القرآن أزيد من ألف إنسان، وكان صالحاً زاهداً ورعاً؛ حدّث بجامع الترمذي بإجازة الحافظ أبي محمد ابن الأخضر؛ توفي بالبصرة وولي بعده التدريس بمدرسته تلميذه نور الدين عبد الرحمن بن عمر البصري {cite:shadharat-dhahab p. 267}."
+  en: "Shaykh of Basra's Hanbalis (d. 652) — more than a thousand finished the Qur'an under him; his pupil Nur al-Din Abd al-Rahman al-Basri succeeded him at the madrasa {cite:shadharat-dhahab p. 267}."
+gender: male
+roles: [scholar, teacher]
+wings: [people]
+periods: [period/crusades-ayyubid-mamluk]
+regions: [levant-iraq]
+faith:
+  - value: sunni-hanbali
+    basis: tradition
+relations:
+  - { type: died_in, target: place/basra, sources: [source/shadharat-dhahab] }
+sources: [source/shadharat-dhahab]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }
+provenance:
+  layer: own-research
+  source: "شذرات الذهب — ابن العماد (ج5، سنة 652)، قراءة آبل فيجن"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-shadharat-batch-128

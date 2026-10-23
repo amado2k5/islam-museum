@@ -3,6 +3,7 @@ class: person
 label:
   ar: جابر بن سمرة
   en: Jabir ibn Samura
+aliases: [person/jabir-ibn-samra]
 names:
 - kind: full
   lang: ar
@@ -19,8 +20,7 @@ summary:
   ar: صحابي من بني سواءة حليف بني زهرة، أمه خالدة بنت أبي وقاص أخت سعد؛ له ولأبيه صحبة، وأخرج له أصحاب الصحيح، ونزل الكوفة وتوفي بها سنة 74هـ.
   en: A Companion of Banu Sawa'a, ally of Banu Zuhra, whose mother Khalida was the sister of Sa'd ibn Abi Waqqas; he and his father were Companions, the authors of the sound collections narrate from him, and he settled in Kufa and died there
     in 74 AH.
-wings:
-- people
+wings: [people]
 themes:
 - converts-and-leavers
 periods:
@@ -55,6 +55,7 @@ provenance:
   run: isaba-batch-2
 sources:
 - source/ibn-hajar-isaba
+- source/sallabi-ali-vol1
 status:
   review: draft
   completeness: 2

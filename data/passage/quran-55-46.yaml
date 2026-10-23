@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 55:46 (سورة الرحمن، الآية 46)."
 text: "وَلِمَنْ خَافَ مَقَامَ رَبِّهِۦ جَنَّتَانِ"
 text_search: "ولمن خاف مقام ربه جنتان"
+translations:
+  en: { text: "But for him who feareth the standing before his Lord there are two gardens.", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "اور جو شخص اپنے پروردگار کے سامنے کھڑے ہونے سے ڈرا اس کے لئے دو باغ ہیں", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-55 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

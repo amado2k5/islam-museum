@@ -1,0 +1,16 @@
+id: passage/muslim-0218
+class: passage
+unit: hadith
+work: work/sahih-muslim
+ref: "218"
+label: { ar: "مسلم 218 — سبعون ألفاً يدخلون الجنة بغير حساب", en: "Muslim 218 — Seventy thousand entering Paradise without reckoning" }
+text: "قال عبد الله بن عباس عن رسول الله: هذه أمتك، ومعهم سبعون ألفاً يدخلون الجنة بغير حساب ولا عذاب... هم الذين لا يَرقون ولا يسترقون ولا يتطيرون وعلى ربهم يتوكلون، فقام عكاشة بن محصن فقال: ادع الله أن يجعلني منهم، قال: أنت منهم، فقام رجل آخر فقال: ادع الله أن يجعلني منهم، فقال: سبقك بها عكاشة"
+summary:
+  ar: "رواية ابن عباس في باب عدد أهل الجنة والسبعين ألفاً من كتاب الإيمان في صحيح مسلم؛ الذين يدخلون بلا حساب صفاتهم ترك الرقية والتطير مع التوكل."
+relations:
+  - { type: mentions, target: person/muhammad, sources: [source/sahih-muslim] }
+  - { type: mentions, target: person/abdullah-ibn-abbas, sources: [source/sahih-muslim] }
+  - { type: mentions, target: concept/tawakkul, sources: [source/sahih-muslim] }
+provenance: { layer: own-research, source: "صحيح مسلم، كتاب الإيمان، باب عدد أهل الجنة (طبعة دار التأصيل، الحديث 210؛ ترقيم عبد الباقي المعروف 218)، تصوير Apple Vision OCR", generated_by: "Devin (SWE-2 High) from Apple Vision OCR", run: "hadith-muslim-passages-4" }
+sources: [source/sahih-muslim]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High); matn excerpt at most 40 words checked against the scan" }

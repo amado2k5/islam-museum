@@ -1,0 +1,23 @@
+id: event/battle-of-yassicemen-1230
+class: event
+kind: battle
+label: { ar: "معركة ياسي جمن", en: "Battle of Yassıçemen" }
+summary:
+  ar: "بطاقة أولية لمعركة ياسي جمن سنة ١٢٣٠م، هزيمة جلال الدين الخوارزمي أمام السلاجقة والأيوبيين؛ لم تُراجع مصادره على الصفحة بعد."
+  en: "Draft card for the Battle of Yassıçemen in 1230, Jalal al-Din Khwarazmshah's defeat by the Seljuks and Ayyubids; its sources are not yet checked on the page."
+wings: [time]
+periods: [period/crusades-ayyubid-mamluk]
+regions: [anatolia-balkans]
+date:
+  start: { edtf: "1230", precision: year, status: tradition, derived: true }
+  end: { edtf: "1230", precision: year, status: tradition, derived: true }
+sources: [source/kamil-ibn-al-athir]
+external_ids:
+  wikidata: Q929537
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; battle attested in narrative histories — entry not yet checked on the page"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-wave2
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

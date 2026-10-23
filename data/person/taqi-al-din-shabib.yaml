@@ -1,0 +1,26 @@
+id: person/taqi-al-din-shabib
+class: person
+label: { ar: "تقي الدين شبيب الشاعر الكحال", en: "Taqi al-Din Shabib, poet-oculist" }
+names:
+  - { value: "تقي الدين شبيب بن حمدان النميري الحراني", kind: full }
+born: { edtf: "1218~", hijri: "0615~", calendar: julian, precision: year, status: tradition, derived: true, note: "توفي وهو في عشر الثمانين {cite:shadharat-dhahab p. 749}." }
+died: { edtf: "1296-02~", hijri: "0695-04", calendar: julian, precision: month, status: tradition, derived: true, note: "توفي في ربيع الآخر سنة خمس وتسعين وهو في عشر الثمانين {cite:shadharat-dhahab p. 749}." }
+summary:
+  ar: "الأديب البارع الشاعر المفلق الطبيب الكحال، أخو نجم الدين أحمد بن حمدان بن شبيب الحراني؛ عارض «بانت سعاد» بقصيدة عظيمة مطلعها: مجدٌ كبا الوهمُ عن إدراك غايته وردّ عقلَ البرايا وهو معقول {cite:shadharat-dhahab p. 749}."
+gender: male
+roles: [poet, physician, writer]
+wings: [people]
+periods: [period/mongol-post-mongol]
+regions: [levant-iraq]
+faith:
+  - value: sunni
+    basis: tradition
+relations:
+  - { type: sibling_of, target: person/najm-al-din-ibn-shabib, sources: [source/shadharat-dhahab] }
+sources: [source/shadharat-dhahab]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }
+provenance:
+  layer: own-research
+  source: "شذرات الذهب — ابن العماد (ج7، سنة 695)، قراءة آبل فيجن"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-shadharat-batch-134

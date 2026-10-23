@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 76:3 (سورة الإنسان، الآية 3)."
 text: "إِنَّا هَدَيْنَـٰهُ ٱلسَّبِيلَ إِمَّا شَاكِرًا وَإِمَّا كَفُورًا"
 text_search: "إنا هديناه السبيل إما شاكرا وإما كفورا"
+translations:
+  en: { text: "Lo! We have shown him the way, whether he be grateful or disbelieving.", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "(اور) اسے رستہ بھی دکھا دیا۔ (اب) وہ خواہ شکرگزار ہو خواہ ناشکرا", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-76 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

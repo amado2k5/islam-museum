@@ -1,0 +1,20 @@
+id: person/emile-dermenghem
+class: person
+label: { en: "Émile Dermenghem", ar: "إميل درمنغهم" }
+names:
+  - { kind: full, lang: ar, value: "إميل درمنغهم" }
+  - { kind: latinized, lang: fr, value: "Émile Dermenghem" }
+gender: male
+roles: [orientalist, scholar]
+languages: [language/arabic]
+summary:
+  ar: "باحث فرنسي كتب «حياة محمد»، وهو الكتاب الذي أخذ عنه الدكتور هيكل بحسب غلاب {cite:al-islam-kama-yarahu-al-urubiyyun-azhar p. 69}. يعدّه غلاب من المحدثين الذين درسوا النصوص قبل الحكم، ويعرض عبارات له عن النبي بوصفه إنساناً معتدلاً وحكيماً ونبياً {cite:al-islam-kama-yarahu-al-urubiyyun-azhar p. 70} {cite:al-islam-kama-yarahu-al-urubiyyun-azhar p. 72} {cite:al-islam-kama-yarahu-al-urubiyyun-azhar p. 73}. ويرى أن الحرب بين الإسلام والمسيحية أورثت إساءة فهم من الجانب الغربي أكثر منها من الشرقي {cite:al-islam-kama-yarahu-al-urubiyyun-azhar p. 35}. هذه أقوال درمنغهم كما نقلها غلاب، وليست حكماً من المتحف."
+sources: [source/al-islam-kama-yarahu-al-urubiyyun-azhar]
+status:
+  review: draft
+  completeness: 1
+provenance:
+  generated_by: "Claude Code"
+  model: claude-haiku-5-5
+  run: "lib-azhar-academy batch 1 (al-islam-kama-yarahu-al-urubiyyun-azhar)"
+  source: "source/al-islam-kama-yarahu-al-urubiyyun-azhar pp. 35, 69-74"

@@ -1,0 +1,78 @@
+id: exhibit/path-hajj-rites
+class: exhibit
+kind: trail
+label:
+  ar: مناسك الحج
+  en: The Rites of Hajj
+summary:
+  ar: 'مسار في أيام الحج: الإحرام والطواف والسعي، وعرفة ومزدلفة ومنى، ويوم النحر.'
+  en: A trail through the days of hajj.
+audience:
+- newcomer
+- student
+duration_minutes: 30
+wings: []
+regions:
+- arabia
+rooms:
+- title:
+    ar: الإحرام
+    en: Ihram
+  body:
+    ar: 'أول النسك: ثوبان أبيضان ونية وتلبية.'
+    en: 'أول النسك: ثوبان أبيضان ونية وتلبية.'
+  features:
+  - practice/hajj
+  - question/what-is-ihram
+- title:
+    ar: الطواف والسعي
+    en: Tawaf and sa'i
+  body:
+    ar: سبعة حول البيت وسبعة بين الصفا والمروة.
+    en: سبعة حول البيت وسبعة بين الصفا والمروة.
+  features:
+  - practice/tawaf
+  - practice/sai
+  - building/kaaba
+- title:
+    ar: عرفة
+    en: Arafat
+  body:
+    ar: 'يوم الحج الأكبر: الوقوف من الزوال إلى الغروب.'
+    en: 'يوم الحج الأكبر: الوقوف من الزوال إلى الغروب.'
+  features:
+  - place/arafat
+  - practice/hajj
+- title:
+    ar: مزدلفة ومنى
+    en: Muzdalifa and Mina
+  body:
+    ar: ليلة الجمع ثم رمي الجمرات والنحر والحلق.
+    en: ليلة الجمع ثم رمي الجمرات والنحر والحلق.
+  features:
+  - place/muzdalifa
+  - place/mina
+  - practice/udhiyya
+- title:
+    ar: الوداع
+    en: The farewell
+  body:
+    ar: 'طواف الوداع: ختام الرحلة وبداية العام.'
+    en: 'طواف الوداع: ختام الرحلة وبداية العام.'
+  features:
+  - practice/hajj
+  - place/mecca
+prerequisites:
+- exhibit/path-islam-in-30-minutes
+sources:
+- source/wikidata
+provenance:
+  layer: own-research
+  source: Devin-assembled trail from existing museum entities
+  generated_by: Devin (SWE-2 High)
+  model: SWE-2 High
+  run: pathways-batch-7
+status:
+  review: draft
+  completeness: 1
+  generated_by: Devin (SWE-2 High), pathways lane, 2026-10-16

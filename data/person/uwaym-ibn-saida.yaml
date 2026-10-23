@@ -1,0 +1,21 @@
+id: person/uwaym-ibn-saida
+class: person
+label: { ar: "عويم بن ساعدة", en: "Uwaym ibn Sa'ida" }
+names:
+  - { kind: full, lang: ar, value: "عويم بن ساعدة" }
+gender: male
+roles: [companion]
+traditions: [sunni]
+summary:
+  ar: "من الأنصار؛ لقي أبا بكر وعمر وأبا عبيدة في طريقهم إلى السقيفة مع معن بن عدي، فذكرا لهم ما اجتمع عليه القوم؛ وهو الذي نزل فيه عند ابن إسحاق قوله تعالى في رجال يحبون أن يتطهروا، والنبي قال فيه: نعم المرء منهم."
+  en: "One of the Ansar who met Abu Bakr, Umar and Abu Ubayda on their way to Saqifa with Ma'n ibn Adi, and told them what the assembly had agreed; Ibn Ishaq says the Prophet praised him as an excellent man among them."
+wings: [people]
+periods: [period/prophetic-era, period/rashidun]
+regions: [arabia]
+story_roles:
+  - { role: companion, status: tradition, sources: [source/ibn-hisham-saqqa] }
+relations:
+  - { type: participated_in, target: event/saqifa, role: "أحد الرجلين اللذين لقيا المهاجرين في الطريق إلى السقيفة", sources: [source/ibn-hisham-saqqa] }
+provenance: { layer: own-research, source: "sira-ibn-hisham saqqa 1936, juz' 4 pp. 307-310", generated_by: "Claude Code", model: "claude-haiku-5-5", run: "ibn-hisham-batch-20" }
+sources: [source/ibn-hisham-saqqa]
+status: { review: draft, completeness: 1, generated_by: "Claude Haiku 5.5; mined from Ibn Hisham juz' 4 pp. 307-310" }

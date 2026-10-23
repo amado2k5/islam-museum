@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 71:7 (سورة نوح، الآية 7)."
 text: "وَإِنِّى كُلَّمَا دَعَوْتُهُمْ لِتَغْفِرَ لَهُمْ جَعَلُوٓا۟ أَصَـٰبِعَهُمْ فِىٓ ءَاذَانِهِمْ وَٱسْتَغْشَوْا۟ ثِيَابَهُمْ وَأَصَرُّوا۟ وَٱسْتَكْبَرُوا۟ ٱسْتِكْبَارًا"
 text_search: "وإني كلما دعوتهم لتغفر لهم جعلوا أصابعهم في آذانهم واستغشوا ثيابهم وأصروا واستكبروا استكبارا"
+translations:
+  en: { text: "And lo! whenever I call unto them that Thou mayst pardon them they thrust their fingers in their ears and cover themselves with their garments and persist (in their refusal) and magnify themselves in pride.", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "جب جب میں نے ان کو بلایا کہ (توبہ کریں اور) تو ان کو معاف فرمائے تو انہوں نے اپنے کانوں میں انگلیاں دے لیں اور کپڑے اوڑھ لئے اور اڑ گئے اور اکڑ بیٹھے", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-71 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

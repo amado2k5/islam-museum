@@ -1,0 +1,23 @@
+id: event/first-siege-of-gibraltar-1309
+class: event
+kind: siege
+label: { ar: "حصار جبل طارق الأول", en: "First Siege of Gibraltar" }
+summary:
+  ar: "بطاقة أولية لحصار جبل طارق الأول سنة ١٣٠٩م، أخذ القشتاليين للصخرة من المرينيين؛ لم تُراجع مصادره على الصفحة بعد."
+  en: "Draft card for the First Siege of Gibraltar in 1309, the Castilian capture of the Rock from the Marinids; its sources are not yet checked on the page."
+wings: [time]
+periods: [period/crusades-ayyubid-mamluk]
+regions: [andalus-europe]
+date:
+  start: { edtf: "1309", precision: year, status: tradition, derived: true }
+  end: { edtf: "1309", precision: year, status: tradition, derived: true }
+sources: [source/tarikh-ibn-khaldun-ibar]
+external_ids:
+  wikidata: Q981031
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; siege attested in Marinid histories — entry not yet checked on the page"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-wave2
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

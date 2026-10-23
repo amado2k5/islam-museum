@@ -1,0 +1,54 @@
+---
+// Hadith browser index (Phase 3, roadmap: "hadith browser"): every collection in the graph that
+// holds passage records (unit: hadith), as cards with report counts. Collections with chapter
+// records (the Muwatta's kitab level) open into per-book pages; the rest list their reports.
+import BaseLayout from "../../../../layouts/BaseLayout.astro";
+import PageHeader from "../../../../components/PageHeader.astro";
+import { ui, LANGS, fmt, type Lang } from "../../../../lib/i18n";
+import { byId, labelOf, realNodes, summaryOf } from "../../../../lib/graph";
+
+export function getStaticPaths() { return LANGS.map((lang) => ({ params: { lang }, props: { lang } })); }
+const { lang } = Astro.props as { lang: Lang };
+const T = ui(lang);
+const H = T.hadith;
+const hadiths = realNodes.filter((n) => n.class === "passage" && n.data.unit === "hadith");
+const byWork = new Map<string, number>();
+for (const h of hadiths) byWork.set(h.data.work, (byWork.get(h.data.work) ?? 0) + 1);
+const chapters = new Map<string, number>();
+for (const n of realNodes.filter((x) => x.class === "passage" && x.data.unit === "chapter")) chapters.set(n.data.work, (chapters.get(n.data.work) ?? 0) + 1);
+const collections = [...byWork.entries()]
+  .map(([work, count]) => {
+    const w = byId.get(work);
+    if (!w) throw new Error(`hadith index: passage work ${work} has no work entity`);
+    return { slug: work.split("/")[1], node: w, count, books: chapters.get(work) ?? 0 };
+  })
+  .sort((a, b) => b.count - a.count);
+---
+<BaseLayout lang={lang} title={H.title} description={H.lede} path={`/${lang}/words/hadith/`}>
+  <PageHeader
+    title={H.title}
+    lede={H.lede}
+    crumbs={[
+      { label: T.entity.breadcrumb, href: `/${lang}/` },
+      { label: T.wings.words.title, href: `/${lang}/words/` },
+      { label: H.title },
+    ]}
+    crumbsLabel={T.entity.breadcrumb}
+    wing="words"
+  />
+  <div class="wrap" style="padding-block:20px" data-pagefind-ignore>
+    <p class="ui muted" style="max-width:var(--measure);margin:0 0 16px">{H.index_note}</p>
+    <ul class="grid-cards">
+      {collections.map((c) => (
+        <li>
+          <a class="card" href={`/${lang}/words/hadith/${c.slug}/`}>
+            <span class="ui kicker">{T.class.work}</span>
+            <h2 class="card-title">{labelOf(c.node, lang)}</h2>
+            <span class="ui">{fmt(H.reports, { n: String(c.count) })}{c.books > 0 && ` · ${fmt(H.books, { n: String(c.books) })}`}</span>
+            <span>{summaryOf(c.node, lang)}</span>
+          </a>
+        </li>
+      ))}
+    </ul>
+  </div>
+</BaseLayout>
