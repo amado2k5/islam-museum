@@ -20,3 +20,5 @@ status: draft
 ظہار کے مزید احکام، بیوی کا مہر کے عوض خود کو روکنا، مہر معجل و مؤجل کے احکام، اور دونوں فریق کی طرف سے پہلے ادائیگی کی ترتیب کا خلاصہ۔ {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.17512}{cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.17515}
 
 وطء کی شرط کے اثر، عزل، رضاعی وطء، حاملہ سے وطء، اور وطء کے آثار (مہر کی تکمیل، عدت، ایلاء کی فیئ، احصان، رجعت) کا مختصر بیان۔ {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.17516}{cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.17519}
+
+طلاق بدعت، وطء کا حد زنا، غسل، تحلیل، مصاہرت اور کفارات (حیض اور رمضان کے وطء) کے احکام کا مختصر بیان۔ {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.17520}{cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.17523}
