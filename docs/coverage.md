@@ -189,7 +189,7 @@ Average sources per entity: **1.28** · Women share of persons with a recorded g
 | sport | 3 |
 | takfir-and-its-critics | 4 |
 | the-elderly | 4 |
-| the-poor-and-the-worker | 82 |
+| the-poor-and-the-worker | 81 |
 | trade-and-finance | 165 |
 | tradition-versus-culture | 82 |
 | travel | 8 |
