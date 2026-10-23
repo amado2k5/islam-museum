@@ -4,20 +4,21 @@ label: { ar: "المزوار بن بو غنام", en: "al-Muzawwar b. Bu Ghannam
 names:
   - { kind: full, lang: ar, value: "المزوار بن بو غنام" }
 gender: male
-roles: [military]
+roles: [military, diplomat]
 summary:
-  ar: "قائد القبائل المجاورة لتلمسان التي ظلت تضايق النفوذ العثماني خارج المدينة؛ يذكر الصلابي أنه كان يرغب في مساندة زوج ابنته الأمير مولاي أحمد حليف الأسبان {cite:dawlat-uthmaniyya-salabi p. 230}."
-  en: "Leader of the tribes around Tlemcen whose harrying kept Ottoman authority outside the city unsteady; al-Salabi notes he wished to back his son-in-law, the prince Mulay Ahmad, an ally of Spain {cite:dawlat-uthmaniyya-salabi p. 230}."
+  ar: "قائد قبائل مجاورة لتلمسان وقفت ضد النفوذ العثماني؛ كان يرغب في مساندة زوج ابنته الأمير مولاي أحمد حليف الأسبان {cite:dawlat-uthmaniyya-salabi p. 230}. ثم كلفه المولى محمد الشيخ السعدي بالوساطة مع الأسبان، فبعث رسالته الأولى إلى حاكم وهران الكونت دي الكوديت مطلع ربيع الأول ٩٦٣هـ/يناير ١٥٥٥م مخبراً بوصول رسائله وسرور الشريف وابنه عبد الله بقدوم الوفد الأسباني للتفاوض على حملة مشتركة ضد العثمانيين {cite:dawlat-uthmaniyya-salabi p. 241}."
+  en: "Leader of the tribes around Tlemcen against Ottoman influence, who wished to back his son-in-law the prince Mulay Ahmad, Spain's ally {cite:dawlat-uthmaniyya-salabi p. 230}. The Sa'di Muhammad al-Shaykh then charged him with mediation to Spain: his first letter to the Count of Alcaudete, governor of Oran, went out early Rabi' I 963/January 1555, announcing receipt of the count's letters and the sharif's and his son Abdallah's pleasure at a Spanish embassy to arrange a joint campaign against the Ottomans {cite:dawlat-uthmaniyya-salabi p. 241}."
 wings: [people]
 regions: [maghreb]
 periods: [period/gunpowder-empires]
 relations:
   - { type: opposed, target: person/hasan-ibn-khayr-al-din, sources: [source/dawlat-uthmaniyya-salabi] }
+  - { type: allied_with, target: person/muhammad-al-shaykh-al-sadi, sources: [source/dawlat-uthmaniyya-salabi] }
 sources: [source/dawlat-uthmaniyya-salabi]
 provenance:
   layer: own-research
-  source: "الدولة العثمانية لعلي محمد الصلابي (ط1 1421) ص 230"
+  source: "الدولة العثمانية لعلي محمد الصلابي (ط1 1421) ص 230، 241"
   generated_by: "Devin (SWE-2 Medium)"
   model: "SWE-2 Medium"
-  run: salabi-uthmani-batch11
+  run: salabi-uthmani-batch12
 status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 Medium)" }
