@@ -1,0 +1,45 @@
+id: concept/al-ard-masjid-wa-tahur
+class: concept
+kind: doctrine
+label: { ar: "الأرض مسجداً وطهوراً", en: "The earth made a place of prayer and purity" }
+summary:
+  ar: "يعرض الشعراوي أن الله جعل الأرض كلها مسجداً وطهوراً لأمة محمد، فتصح الصلاة في كل موضع، وأن تخريب المساجد يُنظر إليه على أنه ظلم عظيم يستدعي الخزي في الدنيا والعذاب في الآخرة. ويقول إن النعم الكاشفة عن أسرار الكون تُقابل بالسجود شكراً. {cite:tafsir-sharawi-khawatir-scan p.537}{cite:tafsir-sharawi-khawatir-scan p.538}{cite:tafsir-sharawi-khawatir-scan p.539}{cite:tafsir-sharawi-khawatir-scan p.540}"
+  en: "Sha'rawi holds that God made the whole earth a place of prayer and purity for the community of Muhammad, so that prayer is valid in every place. He treats the wrecking of mosques as a very great wrong that brings shame in this world and punishment in the next, and says that the discovery of hidden laws in creation calls for prostration in thanks {cite:tafsir-sharawi-khawatir-scan p.537}{cite:tafsir-sharawi-khawatir-scan p.538}{cite:tafsir-sharawi-khawatir-scan p.539}{cite:tafsir-sharawi-khawatir-scan p.540}."
+wings: [ideas]
+themes: [worship-and-the-pillars, sacred-space-and-pilgrimage]
+periods: [period/prophetic-era]
+regions: [global]
+issue:
+  ar: "ما معنى جعل الأرض كلها مسجداً، وما حكم منع ذكر الله في المساجد وتخريبها؟"
+  en: "What does it mean that the whole earth is a place of prayer, and what is the ruling on barring the remembrance of God in mosques or wrecking them?"
+perspectives:
+  - tradition: sunni
+    id: sunni-sharawi-whole-earth
+    stance:
+      ar: "الأرض كلها مسجد وطهور لتيسير العبادة، والمساجد أعظم حرمة وتخريبها ظلم"
+      en: "The whole earth is a place of prayer and purity to ease worship; mosques carry greater sanctity and wrecking them is a wrong"
+    holders: [person/muhammad-mutawalli-al-shaarawi]
+    summary:
+      ar: "يذكر الشعراوي أن الدين قبل الإسلام كان لا تصح عبادته إلا في موضع مخصص، ثم جعل الله الأرض كلها مسجداً وطهوراً توسعةً على الناس ليلتقوا بربهم، ويستدل بحديث الخصال الخمس عن جابر. ويعدّ منع ذكر الله في مساجده وسعي خرابها أعظم الظلم، ويقول إن المؤمن إن سكت عن ذلك فقد شارك فيه. {cite:tafsir-sharawi-khawatir-scan p.537}{cite:tafsir-sharawi-khawatir-scan p.538}{cite:tafsir-sharawi-khawatir-scan p.541}"
+      en: "Sha'rawi says that before Islam a religion's worship was valid only in a designated place, and that God made the whole earth a place of prayer and purity to widen the means of meeting Him; he cites the hadith of the five gifts from Jabir. He counts barring God's name from mosques and seeking their ruin as the greatest wrong, and says a believer who keeps silent shares in it {cite:tafsir-sharawi-khawatir-scan p.537}{cite:tafsir-sharawi-khawatir-scan p.538}{cite:tafsir-sharawi-khawatir-scan p.541}."
+    sources: [source/tafsir-sharawi-khawatir-scan]
+  - tradition: sunni
+    id: sunni-scope-note
+    stance:
+      ar: "أحكام المسجد وحرمته وما يُفسد صلاته وتخريبه دون مصدر في هذه الدفعة"
+      en: "The rules on mosque sanctity, on what invalidates prayer there and on the penalties for wrecking a mosque are not yet entered from a source"
+    holders: []
+    summary:
+      ar: "لم تُدخل بعد أحكام الفقهاء في حرمة المسجد وأحكام تخريبه ومنع الذكر فيه، ولا الرأي الأكاديمي أو الآراء الأخرى. {cite:tafsir-sharawi-khawatir-scan p.541}"
+      en: "The jurists' rulings on the sanctity of mosques, the penalties for wrecking them and barring worship in them, the academic view and other views are not yet entered."
+    sources: [source/tafsir-sharawi-khawatir-scan]
+relations:
+  - { type: based_on, target: passage/quran-2-114, sources: [source/tafsir-sharawi-khawatir-scan] }
+sources: [source/tafsir-sharawi-khawatir-scan]
+provenance:
+  layer: own-research
+  source: "تفسير الشعراوي، الصفحات 537 إلى 541 من النسخة الممسوحة (OCR)"
+  generated_by: "Claude Haiku 5.5 (Claude Code subagent)"
+  model: "claude-haiku-5-5"
+  run: tafsir-sharawi-501-1000-batch-2
+status: { review: draft, completeness: 1, generated_by: "Claude Haiku 5.5 (Claude Code subagent); OCR pages 537-541 read" }

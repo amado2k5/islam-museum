@@ -4,7 +4,7 @@ Owner: harvest run `tafsir-sharawi-501-1000`. Branch `harvest/tafsir-sharawi-501
 
 ## State
 
-- Last page reached and written: **530** (of 501 to 1000).
+- Last page reached and written: **554** (of 501 to 1000). Batch 2 (531 to 554) is in its own commit.
 - Source entity: `source/tafsir-sharawi-khawatir-scan` (created in batch 1). Edition not identified; flagged unverified in its `reliability_note`. Citations use the scan's page index.
 - Claims table (not in git): scratchpad `tafsir/claims-501-1000.md`.
 
@@ -12,7 +12,8 @@ Owner: harvest run `tafsir-sharawi-501-1000`. Branch `harvest/tafsir-sharawi-501
 
 | batch | pages | new entities | reused entities (extra source or text) | commit |
 |---|---|---|---|---|
-| 1 | 501 to 530 | 2 (`concept/al-naskh`, `concept/al-taabbud`) + 1 source | 2 (`event/change-of-qibla`, `concept/zakat`) | see PR |
+| 1 | 501 to 530 | 2 (`concept/al-naskh`, `concept/al-taabbud`) + 1 source | 2 (`event/change-of-qibla`, `concept/zakat`) | 6530d3f22 |
+| 2 | 531 to 554 | 3 (`concept/al-tanzih`, `concept/al-kun-fa-yakun`, `concept/al-ard-masjid-wa-tahur`) | 1 (`concept/ahl-al-kitab`) | see PR |
 
 ## Flags for review
 
