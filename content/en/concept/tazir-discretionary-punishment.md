@@ -69,3 +69,39 @@ Abu Hanifa and Muhammad do not allow taking property as ta'zir; Abu Yusuf allows
 
 ## Kinds of ta'zir by property
 Property may be held from its owner for a time and returned on repentance; destroyed, as where the place of selling wine was burnt; altered in form, as where instruments of music were broken; or transferred, as where the thief pays double. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.5436} {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.5437} {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.5438}
+
+## Bare notice
+Notice is the judge saying to the offender: "It has reached me that you did such and such", or sending his agent to say so. Some jurists add that it should be given with a stern look. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.5438}
+
+## Summoning to the court
+The offender is brought to the judge's door and addressed face to face. Unlike bare notice, it involves a claim against him about what was attributed to him. The judge often uses one of these two forms, or both, when the offence was a first and rare slip, the measure deters, and the offence is not grave. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.5438}
+
+## Reproof
+Reproof as ta'zir is lawful by the agreement of the jurists. A basis is the Prophet's words to Abu Dhar when he reproached a man about his mother: "you are a man in whom there is still ignorance". It may take the form of the judge turning away from the offender or looking at him sternly, removing him from the court, or sharp speech and rebuke, provided it is not slander; some forbade even abuse. Umar disciplined soldiers who wore silk by turning away from them and rebuking them. Rebuking a drinker in words after he has been beaten is also reproof. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.5438} {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.5439}
+
+## Boycott
+Boycott is cutting off the offender and refusing contact with him. It is lawful; the basis cited is Surat al-Nisa' (verse 34) on dealing with a disobedient wife. The Prophet boycotted three companions who stayed behind at Tabuk, and Umar punished Subay' by ordering that no one sit with him after banishing him to Basra. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.5439} {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.5440}
+
+## Offences for which ta'zir replaces the hadd
+An offence may belong to a kind that has a fixed hadd or retaliation, but the fixed penalty is not applied because its conditions are missing or a bar exists, such as doubt that averts the hadd or the pardon of the claimant. An offence may also have no fixed penalty at all, and then ta'zir is the penalty itself. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.5440}
+
+## Intentional killing
+Intentional unlawful killing requires retaliation, on condition that the intent is pure and free of doubt, that the killer acted by choice and directly, that the victim was not a part of the killer, that the blood is protected, and that the blood-relative asks for retaliation. If one condition fails, retaliation is barred and ta'zir applies. The detail is in the entry on killing and retaliation. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.5440}
+
+## Quasi-intentional killing
+Al-Buhuti, quoting al-Mubdi', says ta'zir may be due in quasi-intentional killing, because the expiation is a right of God owed in place of the lost life, while the forbidden act itself carries no expiation. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.5440}
+
+## Killing by an object that does not cut, according to the Hanafis
+The Hanafis hold that where there is no retaliation, as with killing by a heavy object, the ruler may discipline up to killing when the offence is repeated and the harm cannot be stopped otherwise, so long as there is a public interest. On this basis they allow ta'zir by death for one who repeatedly strangles, drowns, or throws people from a height. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.5441}
+
+## Injury short of death
+If the offence is intentional injury short of death, retaliation requires equal harm and the possibility of an exact match. Malik allows ta'zir with or without the blood-money or the arsh, according to the case; for example, injuries to dangerous bones for which he allows no retaliation, and a loss of function while the limb remains, such as loss of sight with the eye intact, where the offender is disciplined and pays the diya. Where no mark is left, most jurists prescribe ta'zir rather than retaliation. Some Malikis allow retaliation for a whip stroke; Ibn al-Qayyim and some Hanbalis allow it for a slap or a blow. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.5441}
+
+## Unlawful sex that carries no hadd, and its preliminaries
+When the hadd for fornication is not applied because of doubt or because a condition is missing, the act is still an offence and the offender is disciplined, since every offence without a hadd or retaliation carries ta'zir. Doubt of act, of ownership, or of contract averts the hadd and the offender is disciplined. Where the woman is dead, ta'zir applies, since her life is a condition of the hadd. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.5442}
+
+## Sodomy between men
+Abu Hanifa does not impose the hadd where the act is not in the front of a woman but imposes ta'zir; this is also a view among the Shafi'is. Ibn Abbas held that the act is punished by death in every case, another Shafi'i view. The Shafi'i school's preferred view treats it as fornication with the hadd; Malik, Abu Yusuf, the preferred Shafi'i view and a narration from Ahmad treat it as fornication with the hadd. Where the act is with the doer's own wife, the hadd is not due by consensus, and the majority impose ta'zir. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.5442}
+
+## Lesser acts short of intercourse
+Every act short of intercourse carries ta'zir, such as intercourse outside the private part, whether by a Muslim or unbeliever, married or not. Also carrying ta'zir: any other forbidden touching of a woman, embracing or kissing a woman not lawful to the man, exposing the nakedness to another, deceiving women, and procuring, that is bringing men and women together for fornication, or men together for sodomy. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.5442}
