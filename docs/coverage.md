@@ -9,7 +9,7 @@ Average sources per entity: **1.28** · Women share of persons with a recorded g
 | Key | Count |
 |---|---|
 | building | 5591 |
-| concept | 1605 |
+| concept | 1606 |
 | dataset | 16 |
 | event | 4352 |
 | exhibit | 301 |
@@ -21,7 +21,7 @@ Average sources per entity: **1.28** · Women share of persons with a recorded g
 | object | 517 |
 | passage | 9546 |
 | period | 13 |
-| person | 8617 |
+| person | 8616 |
 | place | 1692 |
 | polity | 175 |
 | practice | 60 |
@@ -34,11 +34,11 @@ Average sources per entity: **1.28** · Women share of persons with a recorded g
 
 | Key | Count |
 |---|---|
-| ideas | 1371 |
+| ideas | 1372 |
 | living | 73 |
 | made | 119 |
 | objects | 6146 |
-| people | 8307 |
+| people | 8306 |
 | place | 1711 |
 | time | 3973 |
 | today | 6 |
@@ -48,7 +48,7 @@ Average sources per entity: **1.28** · Women share of persons with a recorded g
 
 | Key | Count |
 |---|---|
-| period/abbasid-early | 1554 |
+| period/abbasid-early | 1556 |
 | period/abbasid-fragmentation | 493 |
 | period/buyid-seljuk-fatimid-era | 1225 |
 | period/colonial-era | 1348 |
@@ -56,7 +56,7 @@ Average sources per entity: **1.28** · Women share of persons with a recorded g
 | period/crusades-ayyubid-mamluk | 2647 |
 | period/gunpowder-empires | 4967 |
 | period/modern-era | 1144 |
-| period/mongol-post-mongol | 1307 |
+| period/mongol-post-mongol | 1306 |
 | period/pre-islamic-arabia | 402 |
 | period/prophetic-era | 2183 |
 | period/rashidun | 840 |
@@ -118,9 +118,9 @@ Average sources per entity: **1.28** · Women share of persons with a recorded g
 | education | 138 |
 | engineering-and-technology | 5 |
 | environment-and-climate | 4 |
-| ethics-and-character | 201 |
+| ethics-and-character | 199 |
 | factions-splits-schisms | 26 |
-| family-marriage-kinship | 358 |
+| family-marriage-kinship | 357 |
 | fasting | 4 |
 | food-of-ramadan-and-feasts | 4 |
 | games-and-leisure | 1 |
@@ -128,7 +128,7 @@ Average sources per entity: **1.28** · Women share of persons with a recorded g
 | golden-age-and-decline | 4 |
 | halal-and-haram | 40 |
 | halal-certification-and-standards | 2 |
-| health-body-death | 83 |
+| health-body-death | 82 |
 | history-of-islam-online | 2 |
 | history-writing-and-social-thought | 170 |
 | hospitality | 14 |
@@ -146,7 +146,7 @@ Average sources per entity: **1.28** · Women share of persons with a recorded g
 | islam-and-secular-thought | 2 |
 | islam-and-the-modern-state | 6 |
 | islam-and-zoroastrianism | 2 |
-| law-and-courts | 291 |
+| law-and-courts | 293 |
 | laws-of-war-and-peace | 58 |
 | libraries-paper-and-the-book | 11 |
 | linguistics | 77 |
@@ -179,7 +179,7 @@ Average sources per entity: **1.28** · Women share of persons with a recorded g
 | sacred-space-and-pilgrimage | 102 |
 | sacred-time | 31 |
 | science-today | 6 |
-| scripture-and-its-sciences | 595 |
+| scripture-and-its-sciences | 594 |
 | seafaring-and-ports | 1 |
 | sects-and-schools | 110 |
 | sexuality-gender-diversity | 6 |
@@ -191,7 +191,7 @@ Average sources per entity: **1.28** · Women share of persons with a recorded g
 | the-elderly | 4 |
 | the-poor-and-the-worker | 86 |
 | trade-and-finance | 175 |
-| tradition-versus-culture | 84 |
+| tradition-versus-culture | 83 |
 | travel | 8 |
 | violent-extremism-and-the-muslim-response | 27 |
 | waqf | 2 |
@@ -200,7 +200,7 @@ Average sources per entity: **1.28** · Women share of persons with a recorded g
 | water-and-animals | 8 |
 | websites-and-apps | 2 |
 | women | 218 |
-| worship-and-the-pillars | 393 |
+| worship-and-the-pillars | 394 |
 | zakat-and-sadaqa | 21 |
 | zoology | 1 |
 
