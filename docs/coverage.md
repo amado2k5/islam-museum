@@ -70,7 +70,7 @@ Average sources per entity: **1.29** · Women share of persons with a recorded g
 | americas-oceania | 64 |
 | anatolia-balkans | 4096 |
 | andalus-europe | 1165 |
-| arabia | 2978 |
+| arabia | 2979 |
 | china-east-asia | 127 |
 | east-africa | 274 |
 | egypt-nile | 955 |
@@ -111,7 +111,7 @@ Average sources per entity: **1.29** · Women share of persons with a recorded g
 | cuisines | 10 |
 | dawa-and-christian-mission | 7 |
 | desertions-defections-withdrawals | 4 |
-| development-of-law-theology-institutions | 156 |
+| development-of-law-theology-institutions | 157 |
 | diplomacy-and-envoys | 1 |
 | disability | 4 |
 | dissent-heresy-freethought | 22 |
@@ -173,7 +173,7 @@ Average sources per entity: **1.29** · Women share of persons with a recorded g
 | prophets | 128 |
 | race-colour-ethnicity | 10 |
 | reconciliation-and-unity | 12 |
-| refugees-migrants-diaspora | 143 |
+| refugees-migrants-diaspora | 144 |
 | religious-authorities | 9 |
 | renewal-and-reform | 2 |
 | rights-and-freedoms | 22 |
@@ -200,7 +200,7 @@ Average sources per entity: **1.29** · Women share of persons with a recorded g
 | water-and-animals | 6 |
 | websites-and-apps | 2 |
 | women | 206 |
-| worship-and-the-pillars | 177 |
+| worship-and-the-pillars | 176 |
 | zakat-and-sadaqa | 19 |
 | zoology | 1 |
 
