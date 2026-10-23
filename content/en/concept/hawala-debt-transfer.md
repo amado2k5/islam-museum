@@ -1,0 +1,8 @@
+---
+id: concept/hawala-debt-transfer
+lang: en
+source_lang: ar
+translators: []
+---
+## Summary
+Hawala lexically is transfer; technically it is the transfer of a debt from one liability to another by offer and acceptance between two of three parties: the creditor, the debtor and the one who undertakes payment. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.7336} {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.7337} The transferor is the debtor, the transferee the creditor, the transferee-debtor the one who undertakes payment, and the debt is the object. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.7337} Hawala differs from surety in that it releases the transferor's liability, and from release in that it moves a right rather than dropping it. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.7337} It is lawful by the saying 'delay by a rich man is wrong, and when one of you is referred to a solvent man let him follow the reference', by consensus and by analogy with surety. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.7337} {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.7338} On the command to accept, Ibn al-Humam takes it as permission, and a creditor known for good payment may be followed as recommended. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.7339} On the nature of the contract, the Hanafis, Hanbalis and the sounder Shafii view treat hawala as an exception to the sale of debt for debt; others call it a sale; Ibn Taymiyya and Ibn al-Qayyim deny that it runs against analogy, and the Hanbalis treat it as an act of accommodation. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.7339} {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.7340} {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.7341} {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.7342} The article continues beyond p.7342. 
