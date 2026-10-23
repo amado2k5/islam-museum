@@ -9,3 +9,4 @@ Instructions for agents are vendor-neutral and live in [`../agents/`](../agents/
 
 The earlier per-vendor prompts (Antigravity, Kiro, Codex) were merged into the vendor-neutral documents and removed; their lane-specific content is in `../agents/lanes/`.
 - [local-model-library-prompt.md](local-model-library-prompt.md): paste-able prompt to process the downloaded library on the founder's Mac with local models (Ollama), vendor-neutral.
+- [education-master-plan.md](education-master-plan.md): Stage 1 audit and phased plan (E1–E5) for the education programme (five age bands, teacher and parent surfaces, trilingual), with mockups in `../design/education/`; awaiting the founder's phase-by-phase approval (23 October 2026).
