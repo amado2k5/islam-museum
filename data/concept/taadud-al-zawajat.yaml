@@ -11,7 +11,36 @@ summary:
 wings: [ideas]
 themes: [family-marriage-kinship, law-and-courts]
 external_ids: { wikidata: "Q3300314" }
-sources: [source/fiqh-mawsua-kuwaitiyya-noor-v3]
+perspectives:
+  - tradition: sunni
+    id: sunni-sharawi-permission-with-justice
+    stance:
+      ar: "التعدد مباح لا مأمور به، ولا يُؤخذ إلا مع العدل"
+      en: "Plurality is permitted, not commanded, and is taken only together with justice"
+    holders: [person/muhammad-mutawalli-al-shaarawi]
+    summary:
+      ar: "يقرر الشعراوي أن الله أباح التعدد ولم يُوجبه، وأن من أخذ الإباحة فعليه أن يأخذ العدل معها {cite:tafsir-sharawi-khawatir-scan p. 2001}{cite:tafsir-sharawi-khawatir-scan p. 2006}. ويرى أن التعدد يمتص فائض النساء في المجتمع على شرط العدل، وأن الفائض لا يكون إلا مع زيادة الإناث على الذكور {cite:tafsir-sharawi-khawatir-scan p. 2006}{cite:tafsir-sharawi-khawatir-scan p. 2007}، وهذه القراءة من الشعراوي وحده."
+      en: "Sha'rawi holds that God permitted plurality without making it obligatory, and whoever takes the permission must take justice with it {cite:tafsir-sharawi-khawatir-scan p. 2001}{cite:tafsir-sharawi-khawatir-scan p. 2006}. He argues that plurality absorbs the surplus of women in society on condition of justice, a surplus that arises where women outnumber men {cite:tafsir-sharawi-khawatir-scan p. 2006}{cite:tafsir-sharawi-khawatir-scan p. 2007}. This is his own reading."
+    sources: [source/tafsir-sharawi-khawatir-scan]
+  - tradition: academic
+    id: academic
+    stance:
+      ar: "القراءة الاجتماعية والديموغرافية لتعدد الزوجات لم تُضف بعد"
+      en: "The social and demographic reading of plurality is still to be added"
+    summary:
+      ar: "لم يُعرض في هذا الجزء رأي أكاديمي؛ يحتاج إلى مرجع محدد (needs_source)."
+      en: "No academic reading is set out in this part of the book; a named source is needed (needs_source)."
+    sources: []
+  - tradition: other
+    id: other-states-and-plurality
+    stance:
+      ar: "إباحة التعدد في بعض الدول لمعالجة قضايا اجتماعية لا لأن الإسلام شرعه"
+      en: "Some states' moves to permit plurality to address social problems, not on Islamic grounds"
+    summary:
+      ar: "يذكر الشعراوي أن بعض الدول تكلمت عن إباحة التعدد لظروفها الاجتماعية، ويحيل إلى كتاب تفسير للدكتور محمد خفاجة فيه قائمة بقرارات هذه الدول؛ ولم يُقرأ ذلك الكتاب بعد، فعرض أصحاب هذه الآراء يحتاج إلى مصدر منهم (needs_source) {cite:tafsir-sharawi-khawatir-scan p. 2006}."
+      en: "Sha'rawi says some states spoke of permitting plurality because of their social conditions, not because Islam prescribes it, and points to a commentary by Dr Muhammad Khafaja that lists their decisions. That work has not been read here, so the case of those states needs its own source (needs_source) {cite:tafsir-sharawi-khawatir-scan p. 2006}."
+    sources: [source/tafsir-sharawi-khawatir-scan]
+sources: [source/fiqh-mawsua-kuwaitiyya-noor-v3, source/tafsir-sharawi-khawatir-scan]
 provenance:
   layer: own-research
   source: "wikidata-import deferred (queue Q1317113 is a dead stub; live item Q3300314 'Polygamy in Islam'); Kuwaiti Fiqh Encyclopedia taaddud al-zawajat sections verified in OCR (lines 22034, 312741)"
