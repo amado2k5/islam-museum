@@ -1,23 +1,23 @@
 id: event/conquest-of-tunis-1534
 class: event
 kind: conquest
-label: { ar: "فتح تونس (١٥٣٤)", en: "Conquest of Tunis" }
+label: { ar: "دخول خير الدين بربروسة تونس (١٥٣٤م)", en: "Khayr al-Din takes Tunis (1534)" }
 summary:
-  ar: "بطاقة أولية لفتح تونس سنة ١٥٣٤م، أخذ خير الدين بارباروسا للمدينة من الحفصيين؛ لم تُراجع مصادره على الصفحة بعد."
-  en: "Draft card for the conquest of Tunis in 1534, Hayreddin Barbarossa's capture of the city from the Hafsids; its sources are not yet checked on the page."
+  ar: "انطلق الأسطول العثماني بقيادة خير الدين بعد خلعته بخلعة الوزارة في حلب، فدخل عنابة وتزود بالإمدادات ثم تقدم نحو بنزرت واتجه إلى حلق الواد فتمكن منها بلا صعوبة، واستقبله الخطباء والعلماء، وهرب السلطان الحفصي الحسن بن محمد إلى أسبانيا، وعين خير الدين أخاه الأمير الرشيد على تونس وأعلن ضمها للأملاك العثمانية، في وقت بدت فيه السيادة العثمانية في حوض البحر المتوسط الغربي {cite:dawlat-uthmaniyya-salabi p. 218}."
+  en: "After receiving the vizier's robe at Aleppo, Khayr al-Din's fleet took Bizerte and La Goulette unopposed; the Hafsid sultan al-Hasan b. Muhammad fled to Spain, and Khayr al-Din installed his brother al-Rashid and declared Tunis annexed to the Ottoman dominions {cite:dawlat-uthmaniyya-salabi p. 218}."
 wings: [time]
 periods: [period/gunpowder-empires]
 regions: [maghreb]
 date:
-  start: { edtf: "1534", precision: year, status: tradition, derived: true }
-  end: { edtf: "1534", precision: year, status: tradition, derived: true }
-sources: [source/tarikh-ibn-khaldun-ibar]
-external_ids:
-  wikidata: Q5245689
+  start: { edtf: "1534", hijri: "0941", calendar: julian, precision: year, status: tradition, derived: true, sources: [source/dawlat-uthmaniyya-salabi] }
+relations:
+  - { type: had_participant, target: person/khayr-al-din-barbarossa, sources: [source/dawlat-uthmaniyya-salabi] }
+  - { type: occurred_at, target: place/tunis, sources: [source/dawlat-uthmaniyya-salabi] }
+sources: [source/dawlat-uthmaniyya-salabi]
 provenance:
   layer: own-research
-  source: "Wikidata candidate; conquest attested in Maghrebi histories — entry not yet checked on the page"
-  generated_by: "Devin (SWE-2 High)"
-  model: "SWE-2 High"
-  run: wikidata-import-wave2
-status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }
+  source: "الدولة العثمانية لعلي محمد الصلابي (ط1 1421) ص 218"
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: salabi-uthmani-batch9
+status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 Medium)" }

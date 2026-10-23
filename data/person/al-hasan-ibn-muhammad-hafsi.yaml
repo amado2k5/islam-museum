@@ -1,0 +1,26 @@
+id: person/al-hasan-ibn-muhammad-hafsi
+class: person
+label: { ar: "الحسن بن محمد الحفصي", en: "al-Hasan b. Muhammad al-Hafsi" }
+names:
+  - { kind: full, lang: ar, value: "الحسن بن محمد الحفصي" }
+gender: male
+roles: [ruler]
+summary:
+  ar: "السلطان الحفصي في تونس في عهد خير الدين بربروسة؛ يصفه الصلابي بأنه أساء السيرة في البلاد وقتل عدداً من إخوته حتى اضطربت الأحوال وخرج البعض عن طاعته، وهرب أخوه الأمير الرشيد منه فلجأ إلى خير الدين في الجزائر. وحين دخل خير الدين تونس سنة ١٥٣٤م هرب الحسن إلى أسبانيا، فاستنجد بشارل الخامس الذي أعاد السيطرة الإسبانية على تونس سنة ٩٤٢هـ/١٥٣٥م ونصّبه حاكماً عليها ملزماً بتسليم بونة والمهدية وبتحمل نفقات حامية ألفي جندي إسباني في قلعة حلق الواد {cite:dawlat-uthmaniyya-salabi p. 215-220}."
+  en: "The Hafsid sultan of Tunis in Khayr al-Din's day; al-Salabi depicts misrule and fratricide that drove his brother al-Rashid to seek protection in Algiers. Fleeing to Spain at Khayr al-Din's entry in 1534, his appeal brought Charles V's 1535 reconquest — which reinstalled him bound to surrender Bône and Mahdia and to fund a 2,000-man Spanish garrison at La Goulette {cite:dawlat-uthmaniyya-salabi p. 215-220}."
+wings: [people]
+periods: [period/gunpowder-empires]
+regions: [maghreb]
+relations:
+  - { type: ruler_of, target: place/tunis, sources: [source/dawlat-uthmaniyya-salabi] }
+  - { type: ruled_over, target: polity/hafsid-dynasty, sources: [source/dawlat-uthmaniyya-salabi] }
+  - { type: sibling_of, target: person/al-rashid-ibn-muhammad-hafsi, sources: [source/dawlat-uthmaniyya-salabi] }
+sources: [source/dawlat-uthmaniyya-salabi]
+external_ids: { wikidata: "Q3127531" }
+provenance:
+  layer: own-research
+  source: "الدولة العثمانية لعلي محمد الصلابي (ط1 1421) ص 215-220"
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: salabi-uthmani-batch9
+status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 Medium)" }
