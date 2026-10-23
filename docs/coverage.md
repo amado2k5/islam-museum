@@ -73,7 +73,7 @@ Average sources per entity: **1.28** · Women share of persons with a recorded g
 | china-east-asia | 127 |
 | east-africa | 274 |
 | egypt-nile | 976 |
-| global | 1299 |
+| global | 1300 |
 | levant-iraq | 3613 |
 | maghreb | 1360 |
 | persia-central-asia | 3064 |
@@ -173,7 +173,7 @@ Average sources per entity: **1.28** · Women share of persons with a recorded g
 | race-colour-ethnicity | 10 |
 | reconciliation-and-unity | 12 |
 | refugees-migrants-diaspora | 144 |
-| religious-authorities | 9 |
+| religious-authorities | 10 |
 | renewal-and-reform | 2 |
 | rights-and-freedoms | 22 |
 | sacred-space-and-pilgrimage | 102 |
