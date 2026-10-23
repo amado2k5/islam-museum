@@ -1,0 +1,37 @@
+id: person/badr-al-din-simawi
+class: person
+label:
+  ar: "الشيخ بدر الدين السماوني"
+  en: "Sheikh Badr al-Din of Simavna"
+names:
+  - { kind: full, lang: ar, value: "بدر الدين محمود بن إسرائيل بن قاضي سماونة" }
+roles: [scholar, mystic, activist]
+gender: male
+summary:
+  ar: "بدر الدين محمود بن إسرائيل المعروف بابن قاضي سماونة؛ وُلد في قلعة سماونة في بلاد الروم قرب أدرنة في زمن مراد الأول، وكان أبوه قاضيها وأمير عسكرها وفاتحها. روى صاحب الشقائق النعمانية أنه حفظ القرآن ودرس الصرف والنحو ثم ارتحل إلى مصر فقرأ مع السيد الشريف الجرجاني على مباركشاه المنطقي، وقرأ بمكة على الشيخ الزيعلي، وتتلمذ في القاهرة على أكمل الدين البابيري، وأن السلطان المملوكي فرج بن برقوق تتلمذ عليه؛ ثم جذبته الجذبة الإلهية فلازم الشيخ سعيد الأخلاطي بمصر وأرسله إلى تبريز، وسافر بين بدليس ومصر وحلب وقونية حتى أسلم على يديه رئيس جزيرة ساقز، ولما تسلطن موسى بن بايزيد جعله قاضياً لعسكره، فلما قتل أخوه محمدٌ موسى حُبس بدر الدين مع أهله في أزنيق {cite:dawlat-uthmaniyya-salabi p. 74}. يصف الصلابي دعوته في أزنيق بأنها كانت إلى المساواة في الأموال والأديان بلا تفريق بين مسلم وغيره، ويرى المؤلف أنه «مذهب فاسد» يشبه في نظره دعوات لاحقة — وهذا حكم الكاتب على حركته لا وصف محايد {cite:dawlat-uthmaniyya-salabi p. 74-75}. جمع في دلي أورمان ما بين سبعة وثمانية آلاف مقاتل بدعم من أمير الأفلاق، فخرج عليه السلطان محمد الأول بنفسه وجعل مركز قيادته في سيروز، وهُزمت قواته وتوارى ثم اخترقت مخابرات السلطان صفوف أتباعه فوقع في الأسر، ولما سأله السلطان عن اصفرار وجهه قال: «إن الشمس يا مولاي تصفر عندما تقترب من الغروب»، فأقيمت له محكمة شرعية وحكم عليه بالإعدام بفتوى العلماء مستندة إلى حديث شق العصا {cite:dawlat-uthmaniyya-salabi p. 76}."
+  en: "Sheikh Badr al-Din Mahmud ibn Isra'il, known as Ibn Qadi Simavna — son of the qadi, commander and conqueror of Simavna castle near Edirne under Murad I. The Shaqa'iq al-Nu'maniyya traced his formation through Cairo — al-Sayyid al-Sharif al-Jurjani, Akmal al-Din al-Babirti, and the Mamluk sultan Faraj ibn Barquq among his pupils — then his Sufi turn under Sheikh Sa'id al-Akhlati, until Musa Çelebi made him qadi 'askar and Mehmed's victory over Musa landed him confined at Iznik {cite:dawlat-uthmaniyya-salabi p. 74}. Al-Sallabi describes his preaching there as a call to equality of wealth and religions — a doctrine the author himself brands 'corrupt', which is the historian's judgment rather than a neutral description {cite:dawlat-uthmaniyya-salabi p. 74-75}. Backed by the prince of Wallachia he raised seven to eight thousand fighters at Deli Orman; Mehmed took the field from Serres, broke his force, and intelligence penetration delivered him prisoner — 'the sun pales, my lord, as it nears setting' — before a shari'a court sentenced him to death on the 'splitting the stick' hadith {cite:dawlat-uthmaniyya-salabi p. 76}."
+issue: { ar: "كيف تُقيَّم دعوة بدر الدين وحركته: خروج زندقي أم احتجاج اجتماعي ديني؟", en: "How should Badr al-Din's movement be judged — heretical rebellion or religious-social protest?" }
+perspectives:
+  - tradition: sunni
+    id: sunni
+    summary: { en: "Al-Sallabi, following the Ottoman chroniclers, treats Badr al-Din as a 'corrupt-doctrine' insurgent rightly tried and executed by the scholars' ruling for splitting the community's unity." }
+    sources: [source/dawlat-uthmaniyya-salabi]
+  - tradition: academic
+    id: academic
+    summary: { en: "Modern scholarship generally reads the rising as a socio-religious protest movement in post-Timurid Anatolia and the Balkans and questions the polemical charges in the sources; this file records the book's framing without endorsing it." }
+    sources: [source/dawlat-uthmaniyya-salabi]
+sensitivity: contested
+wings: [people]
+regions: [anatolia-balkans]
+periods: [period/mongol-post-mongol]
+relations:
+  - { type: related_to, target: person/musa-ibn-bayezid, role: "قاضي عسكره", sources: [source/dawlat-uthmaniyya-salabi] }
+  - { type: opposed, target: person/muhammad-i-jalabi, sources: [source/dawlat-uthmaniyya-salabi] }
+sources: [source/dawlat-uthmaniyya-salabi]
+provenance:
+  layer: own-research
+  source: "الدولة العثمانية لعلي محمد الصلابي، ص 74–76"
+  generated_by: "Devin (SWE-2 Medium) from Apple Vision OCR"
+  model: "SWE-2 Medium"
+  run: lib-salabi-uthmani-batch-3
+status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 Medium)" }

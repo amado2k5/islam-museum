@@ -3,24 +3,24 @@ class: person
 label:
   ar: "بايزيد باشا"
   en: "Bayezid Pasha"
-roles: [vizier]
+roles: [vizier, military]
 gender: male
 summary:
-  ar: "بطاقة أولية لبايزيد باشا، الصدر الأعظم العثماني الألباني في عهد محمد الأول؛ لم تُراجع ترجمته على الصفحة بعد."
-  en: "Draft card for Bayezid Pasha, the Albanian Ottoman grand vizier under Mehmed I; his entry is not yet checked on the page."
+  ar: "بايزيد باشا؛ الوزير الأول للسلطان محمد الأول جلبي. يذكر الصلابي أنه قاد الجيش الثاني ضد بير كلجة مصطفى داعية الشيخ بدر الدين، فانتصر عليه في موقعة قره بورنو بعد أن كان بير كلجة قد قتل القائد سيسمان وهزم جيشه {cite:dawlat-uthmaniyya-salabi p. 75}. ولما دنا أجل السلطان محمد سنة ٨٢٤هـ/١٤٢١م أوصاه بولاية ابنه مراد، فاتفق بايزيد مع الوزير إبراهيم على إخفاء موت السلطان على الجند حتى وصل مراد الثاني بعد واحد وأربعين يوماً وتسلّم مقاليد الحكم {cite:dawlat-uthmaniyya-salabi p. 77-78}."
+  en: "Bayezid Pasha, first vizier of Mehmed I — al-Sallabi credits him with commanding the second army against Börklüce Mustafa and winning at Qara Burnu after Börklüce had killed the commander Shishman {cite:dawlat-uthmaniyya-salabi p. 75}. On the sultan's deathbed in 824/1421 he received the charge for young Murad and, with the vizier Ibrahim, concealed Mehmed's death forty-one days until the heir arrived {cite:dawlat-uthmaniyya-salabi p. 77-78}."
 wings: [people]
 regions: [anatolia-balkans]
-periods: [period/crusades-ayyubid-mamluk]
-died: { edtf: "1421", precision: year, status: tradition, derived: true }
+periods: [period/mongol-post-mongol]
+relations:
+  - { type: related_to, target: person/muhammad-i-jalabi, role: "وزيره الأول", sources: [source/dawlat-uthmaniyya-salabi] }
+  - { type: fought, target: person/bir-kilija-mustafa, role: "قهره في قره بورنو", sources: [source/dawlat-uthmaniyya-salabi] }
 sources: [source/dawlat-uthmaniyya-salabi]
 external_ids:
   wikidata: Q4874493
 provenance:
   layer: own-research
-  source: "Wikidata candidate; entry not yet read on the page in a book source"
-  generated_by: "Devin (SWE-2 High)"
-  model: "SWE-2 High"
-  run: wikidata-import-wave2
-status:
-  review: draft
-  completeness: 1
+  source: "الدولة العثمانية لعلي محمد الصلابي، ص 75–78"
+  generated_by: "Devin (SWE-2 Medium) from Apple Vision OCR"
+  model: "SWE-2 Medium"
+  run: lib-salabi-uthmani-batch-3
+status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 Medium)" }
