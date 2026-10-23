@@ -1,0 +1,44 @@
+id: concept/breastfeeding-and-weaning
+class: concept
+kind: legal
+label:
+  ar: الرضاعة والفصال
+  en: Breastfeeding and weaning
+  ur: دودھ پلانا اور دودھ چھڑانا
+summary:
+  ar: "يعرض الشعراوي في تفسير آية الرضاع (البقرة 233) مدة الرضاعة وحقّ الرضيع على أبويه، ويجعل النفقة على الأب، ويعالج الفِصال بالتراضي والتشاور، ويرى أن الآية تحمي الطفل من أثر الطلاق {cite:tafsir-sharawi-khawatir-scan-vol-2 p.1004} {cite:tafsir-sharawi-khawatir-scan-vol-2 p.1005}."
+  en: "In his commentary on the nursing verse (al-Baqara 2:233), Sha'rawi treats the period of suckling, the child's claim on both parents, and the duty of maintenance, which he places on the father; he reads weaning as a matter for mutual consent and consultation, and holds that the verse protects the child from the effects of divorce {cite:tafsir-sharawi-khawatir-scan-vol-2 p.1004} {cite:tafsir-sharawi-khawatir-scan-vol-2 p.1005}."
+issue: { ar: "كيف يقرأ الشعراوي مدة الرضاعة ونفقة المرضع وحق الطفل بعد الطلاق؟", en: "How does Sha'rawi read the period of suckling, the nursing mother's maintenance and the child's right after divorce?" }
+wings: [ideas]
+themes: [family-marriage-kinship, law-and-courts]
+periods: [period/prophetic-era]
+regions: [global]
+relations:
+  - { type: related_to, target: passage/quran-2-233 }
+  - { type: related_to, target: concept/rada }
+  - { type: related_to, target: concept/maintenance-after-divorce }
+perspectives:
+  - tradition: sunni
+    id: sunni-sharawi-natural-fact
+    stance: { en: "The suckling is stated as a natural fact, not as a command", ar: "الإرضاع يُعرض خبراً واقعاً لا أمراً" }
+    holders: [person/muhammad-mutawalli-al-shaarawi]
+    summary:
+      en: "Sha'rawi notes that the verse states mothers' suckling in the declarative form, presenting it as a natural and unavoidable fact rather than an order that could be obeyed or disobeyed {cite:tafsir-sharawi-khawatir-scan-vol-2 p.1005}. He records that the father is the one charged with the nursing mother's upkeep, because the child is attributed to the father {cite:tafsir-sharawi-khawatir-scan-vol-2 p.1005}."
+      ar: "ينبّه الشعراوي إلى أن الآية أوردت إرضاع الوالدات بصيغة الخبر، فجعلته أمراً طبيعياً واقعاً لا أمراً يُطاع أو يُعصى {cite:tafsir-sharawi-khawatir-scan-vol-2 p.1005}، ويذكر أن نفقة المرضعة على الأب لانتساب الولد إليه {cite:tafsir-sharawi-khawatir-scan-vol-2 p.1005}."
+    sources: [source/tafsir-sharawi-khawatir-scan-vol-2]
+  - tradition: sunni
+    id: sunni-sharawi-consent-to-wean
+    stance: { en: "Weaning before two years needs the parents' mutual consent and consultation", ar: "الفطام قبل العامين يحتاج إلى تراض بين الأبوين وتشاور" }
+    holders: [person/muhammad-mutawalli-al-shaarawi]
+    summary:
+      en: "Sha'rawi reads the words 'by mutual consent and consultation' as keeping a shared concern for the child even after the parents separate, so that the child is not deprived of either parent's tenderness {cite:tafsir-sharawi-khawatir-scan-vol-2 p.1007}."
+      ar: "يقرأ الشعراوي عبارة «عن تراضٍ منهما وتشاوُر» على أنها تُبقي الشأن المشترك للطفل قائماً بعد الفرقة، فلا يُحرم الطفل من عاطفة أيٍّ من أبويه {cite:tafsir-sharawi-khawatir-scan-vol-2 p.1007}."
+    sources: [source/tafsir-sharawi-khawatir-scan-vol-2]
+sources: [source/tafsir-sharawi-khawatir-scan-vol-2]
+provenance:
+  layer: own-research
+  source: "تفسير الشعراوي (نسخة ممسوحة)، ص 1004-1008، تعليق على البقرة 233"
+  generated_by: "Claude (Haiku 5.5)"
+  model: claude-haiku-5-5
+  run: tafsir-sharawi-1001-1500
+status: { review: draft, completeness: 1, generated_by: "Claude (Haiku 5.5); scan OCR pages 1004-1008; edition unverified" }
