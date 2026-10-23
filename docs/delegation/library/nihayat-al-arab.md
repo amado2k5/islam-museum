@@ -13,3 +13,7 @@
 - Checked on the image, p. 6: the Companions known for jest, and the anecdote of Nu'aymān and Suwaybit (Badri, in the caravan to Busra). p. 7: the honey-jar anecdote, the anecdote of Makhrama ibn Nawfal (blind Companion) and Nu'aymān, and the start of Ibn Abi Atiq (who joked with Abdullah ibn Umar).
 - Open identity questions: which Companion is "Nu'aymān" (no entry yet; do not guess the full name); person/makhrama-ibn-nawfal already exists; Suwaybit ibn Sa'd has no entry; Ibn Abi Atiq has no entry.
 - Not yet written up: all entries above. Next: one batch per 4-5 sections, each entry image-checked.
+
+## Batch 5 (humour chapter, scan pp. 6-7)
+- New entries: person/suwaybit-ibn-saad (Badri Companion, p. 6, image-checked) and person/abdullah-ibn-abi-atiq (p. 7, image-checked; the anecdote's ending on p. 8 is not yet read).
+- Not written: Nu'aymān (identity not settled, so no entry yet). Makhrama ibn Nawfal already has an entry and needs the Nihayat source added.
