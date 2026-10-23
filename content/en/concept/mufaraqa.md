@@ -52,3 +52,12 @@ If a Muslim marries two sisters in one contract both marriages are void; in two 
 
 ## Greeting after parting
 Al-Nawawi holds greeting a strongly recommended sunna, and it is recommended to greet someone again after parting from him, even briefly or when something stood between you, citing the hadith of the one who prayed badly and a hadith about a tree or wall between companions. One who rises to leave a gathering should greet those present. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.14822}
+
+## Leaving the community of Muslims
+The jurists agree that obedience to a just ruler is required and that rebellion against him is forbidden; they differ over obedience to one who is not just. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.14823}
+
+## A wife reconciling with her husband to avoid separation
+If a husband turns away from his wife and wants to divorce her, she may offer a settlement to keep him. The Qur'an (Surah al-Nisa) is cited, and the Prophet's keeping of Sawda bint Zam'a, who gave up her day to Aisha. If the husband still insists on separation, God promises that each will be made independent by His bounty. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.14823}
+
+## Sitting in public places
+Anyone may sit in public places such as a street, mosque or market for a need, provided no harm falls on others. Whether one who leaves his place and returns has a prior claim is discussed under the entry on the assembly. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.14823}
