@@ -125,3 +125,31 @@ All from `source/fiqh-mawsua-kuwaitiyya-noor-v3` headwords; each record ar+en+ur
 - `practice/aqiqah` — duplicate of `practice/aqiqa`, alias decision pending (founder).
 - `practice/mosque-study-circle`, `practice/mawlid-al-nabi`, `practice/urs`, `practice/sama-mawlawiyya`, `practice/rihla-ilm`, `practice/hajj` adjacent cultural records — cultural rather than mawsua headwords; better sourced elsewhere.
 - Index pages: many headword hits at pp.~46–1200 are the encyclopedia's own فهرس; real headword = the later page. Batch 4 corrected earlier index false-positives (taraweeh 4930→10497, mahr 14847→15120, ramadan 11623→8986).
+
+## Batch 5 — hadith-rijal cohort (7 records, ar+en+ur)
+
+Pivot per founder direction from the fiqh tier to the missing-prose rijal/general queue. All seven are existing stubs (completeness 1 → 3) whose filed source was `source/al-aalam` (or siyar); prose written from the rijal books on the harvest drive, not from al-A'lam.
+
+| record | source read on the page |
+|---|---|
+| person/qurayba-bint-abi-umayya | al-Isaba (Dar al-Jil facsimile), women's section p.1946 |
+| person/muhammad-ibn-yahya-ibn-habban | Tahdhib al-Kamal, Muhammad-vol entry 6273, pp.551–552 |
+| person/malik-ibn-abi-amir-al-asbahi | Taqrib al-Tahdhib entry 6443, pp.576–577 |
+| person/muhammad-ibn-abd-al-rahman-ibn-nawfal | Tahdhib al-Kamal entry 6002, pp.408–409 |
+| person/bukayr-ibn-al-akhnas-al-sadusi | Thiqat Ibn Hibban 4/76 + editor digest at Tahdhib 2067 (scan p.279) |
+| person/abd-al-razzaq-al-sanani | Taqrib al-Tahdhib entry 4554 (Alexandrina scan, ~p.327) + Thiqat editor intro p.25 |
+| person/mabad-ibn-kab-ibn-malik | al-Isaba pp.139, 772 + Tahdhib register p.1050 (Tahdhib 10/224) |
+
+New source records created for citations: `source/taqrib-al-tahdhib`, `source/thiqat-ibn-hibban` (both draft, completeness 1).
+
+### Deferred this batch (source not readable on the drive)
+- `person/amir-ibn-sad-ibn-abi-waqqas` — his own entry sits in Thiqat vol. 5 (p.186) and Tahdhib vol. 9–10; neither volume is extracted locally. Isnad mentions only.
+- `person/jamil-ibn-darraj` — only the badly-corrupted Mizan OCR; no clean own entry found in the extracted Tahdhib volumes.
+- `person/abd-al-rahman-ibn-abd-al-qari`, `person/abu-salama-ibn-abd-al-rahman-ibn-awf` — no data records exist yet; out of lane scope (prose backfill, not record creation).
+- `person/muhammad-mutawalli-al-shaarawi` (97 inbound links, queue head) — harvest drive holds his *works*, no biographical source extracted; needs siyar/obituary material, deferred.
+- `person/al-najashi` — hits are for the wrong Najashi; deferred.
+
+### Methodological notes
+- The Taqrib Majmuat and Alexandrina scans carry heavy OCR noise; identity was always confirmed by the full label (nasab chain), never by a short name — e.g. «عامر بن سعد بن مالك الخثعمي» ≠ our «عامر بن سعد بن أبي وقاص», «مالك بن أبي عامر» the grandfather ≠ Imam Malik ibn Anas (entry 6425).
+- Thiqat index vol. (BBib-07679) locates entries by vol/page; vols 5–6 of the Hyderabad printing are not extracted, so narrators filed there were deferred rather than guessed.
+- Abd al-Razzaq's birth year (126 AH in printings) is not legible in the scan and was left out of prose; death year 211 AH is legible.
