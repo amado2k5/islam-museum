@@ -110,7 +110,7 @@ Average sources per entity: **1.28** · Women share of persons with a recorded g
 | cuisines | 10 |
 | dawa-and-christian-mission | 7 |
 | desertions-defections-withdrawals | 4 |
-| development-of-law-theology-institutions | 171 |
+| development-of-law-theology-institutions | 173 |
 | diplomacy-and-envoys | 2 |
 | disability | 4 |
 | dissent-heresy-freethought | 23 |
