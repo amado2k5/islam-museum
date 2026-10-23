@@ -11,12 +11,13 @@ Working notes (claims table) are kept outside git, in the session scratchpad.
 
 ## Batch 2 (scan pages 2523-2622)
 
-- Created (9 concepts and practices, each with Arabic, English and Urdu prose): `concept/diya`, `concept/qisas`, `concept/qatl-amd`, `concept/tabayyun`, `practice/salat-al-khawf`, `concept/hijra-fi-sabil-allah`, `concept/hidaya`, `concept/ahd-wal-mithaq`, `concept/hukm-bayn-al-nas`.
-- Extended (perspectives added, prose not changed): `concept/nifaq` (sunni-sharawi-hypocrites), `concept/tawba` (sunni-sharawi-three-stages), `concept/kasb` (sunni-sharawi-kasb-iktisab).
-- Source: `source/tafsir-sharawi-khawatir-scan` reliability note now records that scan p.2586 is the title page of volume five (Q. 4:101 to 5:54).
+- Created (7 concepts, each with Arabic, English and Urdu prose): `concept/qisas`, `concept/qatl-amd`, `concept/tabayyun`, `concept/hijra-fi-sabil-allah`, `concept/hidaya`, `concept/ahd-wal-mithaq`, `concept/hukm-bayn-al-nas`.
+- Reuse on merge: `concept/diya` was written first and dropped, because main already has `concept/aqila-diya` (kin liability and blood-money); Sha'rawi's diya reading is added there as a perspective. `practice/salat-al-khawf` already existed on main (from the 1001-1500 harvest); Sha'rawi's pages 2589-2597 are added to it as a perspective.
+- Extended (perspectives added, prose not changed): `concept/nifaq` (sunni-sharawi-hypocrites), `concept/tawba` (sunni-sharawi-three-stages), `concept/kasb` (sunni-sharawi-kasb-iktisab), `concept/aqila-diya` (sunni-sharawi-diya-aqila), `practice/salat-al-khawf` (sunni-sharawi-forms-2501-3000).
+- Source: batch 2 cites `source/tafsir-sharawi-khawatir-scan-pp-2501-3000` (the record for these pages, created on main). Its reliability note now records that scan p.2586 is the title page of volume five (Q. 4:101 to 5:54). The volume-one record `source/tafsir-sharawi-khawatir-scan` is left as main has it.
 - Reused without edit: `event/hijra` (not linked from the new hijra concept; the concept is about the doctrine), `concept/qadar`, `concept/ikrah`, `concept/munafiq`, `concept/niyya`, `person/muhammad-mutawalli-al-shaarawi`; passages linked from the new entities: Q. 2:178, 2:179, 4:88, 4:90, 4:92, 4:93, 4:94, 4:97, 4:100, 4:101, 4:102, 4:105, 4:112, 28:56, 42:52.
 - Hadith sources named in the scan footnotes and cited as sources: `source/sahih-al-bukhari`, `source/sahih-muslim`, `source/sunan-abi-dawud`, `source/sunan-al-nasai` (the footnotes name these collections; the hadith are not checked against them).
-- Entities: 9 created, 3 extended, 0 deleted. Coverage regenerated.
+- Entities: 7 created, 5 extended, 0 deleted (`concept/diya` was never pushed). Coverage regenerated.
 - No Qur'an text is typed; verses are referenced only as passage ids.
 
 ## Batch 1 (scan pages 2501-2522)

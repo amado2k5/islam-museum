@@ -2,17 +2,19 @@
 id: practice/salat-al-khawf
 lang: en
 source_lang: ar
-translators: []
+translators: ["Claude (Haiku 5.5), draft translation"]
 ---
-
 ## Summary
-Prayer in fear, in Sha'rawi's commentary on Q. 4:101 and 4:102: the prayer is shortened on a journey, and in battle it is prayed by two groups. He sets out several forms reported from the Prophet's practice, and stresses carrying arms and caution, and keeping the prayer to its time {cite:tafsir-sharawi-khawatir-scan p.2589}{cite:tafsir-sharawi-khawatir-scan p.2592}.
+Prayer in fear is the prayer performed when an enemy is feared. Sha'rawi holds that it does not lapse at the meeting with the enemy. He reads the detailed forms the jurists describe as belonging to battles the Prophet led, and holds in his own view that after the Prophet's death each group may pray behind its own imam. {cite:tafsir-sharawi-khawatir-scan-vol-2 p.1026} {cite:tafsir-sharawi-khawatir-scan-vol-2 p.1027}
 
-## What Sha'rawi says
-He explains that shortening on a journey applies to the four-rak'a prayers, namely noon, afternoon and night, while dawn and sunset are not shortened {cite:tafsir-sharawi-khawatir-scan p.2590}{cite:tafsir-sharawi-khawatir-scan p.2592}. He holds that the prayer of fear is in the Qur'an, and the travel prayer comes from the Sunna {cite:tafsir-sharawi-khawatir-scan p.2591}.
+## The prayer is not dropped
+On the words 'if you fear, on foot or mounted' in [[passage/quran-2-239|al-Baqara 239]], Sha'rawi holds that the believer does not drop the remembrance of God in battle, when the need for God is greatest. He explains that the believer prays on foot or mounted. {cite:tafsir-sharawi-khawatir-scan-vol-2 p.1026}
 
-## The two groups and the forms
-He reads the believers as divided: one group prays with the Prophet while the other keeps watch on the enemy, and then the second comes to pray; arms are carried {cite:tafsir-sharawi-khawatir-scan p.2592}. He sets out three forms of the Prophet's prayer: two rak'as with each group; one rak'a with each group, which then completes alone; and the first group prays one rak'a while the Prophet remains standing until it finishes {cite:tafsir-sharawi-khawatir-scan p.2592}{cite:tafsir-sharawi-khawatir-scan p.2593}.
+## The sick and the unable
+Sha'rawi holds that the sick person prays standing, then seated, then lying down. One who cannot pray in fear says the takbir twice, as he reports in the note to his text. {cite:tafsir-sharawi-khawatir-scan-vol-2 p.1026} {cite:tafsir-sharawi-khawatir-scan-vol-2 p.1027}
 
-## Leaders and separate groups
-He reports the scholars' view that if the leaders are successors of the Prophet in authority, the Qur'anic form is applied; if each group has its own imam, each prays the shortened prayer complete behind its imam {cite:tafsir-sharawi-khawatir-scan p.2593}. He does not name these scholars, and the jurisprudential works on the forms of this prayer are not yet set out from a named source.
+## The form described
+He describes the fear prayer the Prophet performed at the battle of Dhat al-Riqa': one group prays one rak'a with him, completes alone, and stands guard; the other group then prays the next rak'a with him and completes alone. {cite:tafsir-sharawi-khawatir-scan-vol-2 p.1026}
+
+## Sha'rawi's own view on application
+Sha'rawi says these forms belonged to battles the Prophet led, since God did not want any group kept from praying behind him. After his death, each group may pray behind its own imam. This is stated as his own view and not as a report from another scholar. {cite:tafsir-sharawi-khawatir-scan-vol-2 p.1027}
