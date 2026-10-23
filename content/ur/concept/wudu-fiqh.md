@@ -14,3 +14,7 @@ status: draft
 سر کا مسح، اس کی مقدار، مسح کی کیفیت، بال مونڈنے کا اثر، مسح کی تکرار، گندھے ہوئے بال اور پاؤں دھونے کے چار اقوال کا آغاز۔ {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.17396}{cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.17402}
 
 پاؤں دھونے کی بحث اور وضوء کے مختلف فیہ فرائض یعنی نیت، توڑنے کی صورت، موالات، ترتیب اور دلک کے احکام۔ {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.17402}{cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.17406}
+
+پانی کی ملنے کا مسئلہ، وضوء کی سنتوں کی تفصیل، جیسے بسم اللہ، ہاتھوں کو کلائیوں تک دھونا، کلی، ناک میں پانی ڈالنا، ناک جھاڑنا اور سر کا مسح، اور سر کے مسح کی تکرار اور کیفیت۔ {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.17407}{cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.17411}
+
+سر اور کانوں کا مسح، تخلیلِ داڑھی، انگلیوں کا خلال، تثلیث، مسواک اور عمامے پر مسح کی سنتیں اور ان کے احکام۔ {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.17412}{cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.17416}
