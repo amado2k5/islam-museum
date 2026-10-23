@@ -16,3 +16,5 @@ status: draft
 مطلق وکالت بالبیع میں قیود کا اختلاف (حنفیہ اور جمہور)، وکیل کا اپنے آپ کو بیچنا، قیود کے ساتھ مقیّد وکالت کا حکم، اور ثمن کی وصف میں مخالفت (نقد اور ادھار) کا حکم۔ {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.17752}{cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.17759}
 
 وکیل بالبیع کی جنس، قدر، مکان، وقت اور مشتری کی مخالفت کے احکام، تفریقِ صفقہ، وکالتِ شراء (مطلق و مقید)، اور وکیل کا اپنے مال یا محجور سے خریدنا۔ {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.17760}{cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.17767}
+
+وکالتِ شراء میں ثمن کی وصف، جنس، قدر، شراء کی چیز اور تفریقِ صفقہ کی مخالفت کے احکام۔ {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.17768}{cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.17775}
