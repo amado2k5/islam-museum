@@ -2,19 +2,13 @@
 id: concept/intihar
 lang: ur
 source_lang: ar
-translators: []
+translators: ["Claude Haiku 5.5 (claude-haiku-5-5), draft translation"]
 ---
-## خلاصہ
-شعراوی «ولا تقتلوا أنفسکم» کو اپنی جان لینے اور خود کو ہلاکت میں ڈالنے دونوں سے منع سمجھتے ہیں، اور اس ممانعت کو اللہ پر یقین سے جوڑتے ہیں۔ {cite:tafsir-sharawi-khawatir-scan-vol-2 p. 2146}{cite:tafsir-sharawi-khawatir-scan-vol-2 p. 2148}
+## تعریف
+انتحار سے مراد انسان کا خود اپنی جان لینا ہے، کسی بھی ذریعے سے۔ {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.3420}
 
-## اللہ پر بھروسہ
-ان کے مطابق جس کے اسباب ختم ہو جائیں اسے مایوس نہیں ہونا چاہیے، کیونکہ مومن اپنے خالق سے کٹتا نہیں، اور وہ موسیٰ کے سمندر کے کنارے کے قول سے استدلال کرتے ہیں کہ میرا رب میرے ساتھ ہے۔ {cite:tafsir-sharawi-khawatir-scan-vol-2 p. 2147}{cite:tafsir-sharawi-khawatir-scan-vol-2 p. 2148}
+## حکم
+خودکشی بالاتفاق حرام اور کبیرہ گناہوں میں سے ہے۔ {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.3423} جمہور فقہاء کے نزدیک خودکشی کرنے والا دائرۂ اسلام سے خارج نہیں ہوتا، اس لیے اس کو غسل دیا جاتا ہے اور اس کی نماز جنازہ پڑھی جاتی ہے۔ {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.3430}{cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.3431}{cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.3433}
 
-## وہ حدیث جو وہ نقل کرتے ہیں
-وہ ایک حدیث نقل کرتے ہیں جس میں اپنی جان لینے میں جلدی کرنے والے کے لیے جنت حرام ہونے کا ذکر ہے، اور کتاب کے حاشیے میں اس کے مخرج کا نام دیا گیا ہے، متن مکمل یہاں نہیں دیا گیا۔ {cite:tafsir-sharawi-khawatir-scan-vol-2 p. 2147}
-
-## دوسروں کا قتل
-ان کے مطابق یہ ممانعت مومنوں کے ایک دوسرے کو قتل کرنے پر بھی ہے، کیونکہ وہ ایک ایمانی وحدت ہیں، اور قصاص میں زندگی ہے۔ {cite:tafsir-sharawi-khawatir-scan-vol-2 p. 2148}{cite:tafsir-sharawi-khawatir-scan-vol-2 p. 2149}
-
-## یہاں جانچا نہیں گیا
-ان صفحات میں کوئی طبی، نفسیاتی یا مراجعت شدہ فقہی رائے پیش نہیں کی گئی (needs_source)۔
+## آثار
+خودکشی کرنے والے پر نہ قصاص ہے نہ دیت، اور جو خودکشی کی کوشش کرے اور بچ جائے اسے سزا دی جائے گی۔ {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.3431}{cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.3432}
