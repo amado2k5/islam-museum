@@ -1,0 +1,42 @@
+id: building/taj-mahal-agra
+class: building
+kind: tomb
+label:
+  ar: "تاج محل، آگرة"
+  en: "Taj Mahal, Agra"
+summary:
+  ar: "ضريح مغولي في آگرة يحوّل الچهارباغ من المركز إلى ضفة النهر، ويبنى على مخطط تسعي مثمن، ويعدّه المؤلف مثالاً على امتزاج المبادئ الإيرانية بالتقاليد الهندية."
+  en: "A Mughal mausoleum in Agra that shifts the chahar bagh focus from centre to riverfront and rests on a noni-partite octagonal plan; the author presents it as a synthesis of Iranian and Indian ideas."
+wings: [place, objects]
+regions: [south-asia]
+style: "Mughal, Iranian and Indian synthesis"
+relations:
+  - type: located_in
+    target: place/agra
+    sources:
+      - source/rezavi-iranian-influence-2002
+  - type: exemplifies
+    target: concept/chahar-bagh
+    sources:
+      - source/rezavi-iranian-influence-2002
+  - type: exemplifies
+    target: concept/noni-partite-plan
+    sources:
+      - source/rezavi-iranian-influence-2002
+  - type: exemplifies
+    target: concept/arch-and-panel
+    sources:
+      - source/rezavi-iranian-influence-2002
+  - type: exemplifies
+    target: concept/khurasanian-vault
+    sources:
+      - source/rezavi-iranian-influence-2002
+sources:
+  - source/rezavi-iranian-influence-2002
+provenance:
+  layer: own-research
+  source: "Syed Ali Nadeem Rezavi, Iranian Influence on Medieval Indian Architecture, in A Shared Heritage (ed. Irfan Habib, 2002), OCR scan pp. 2-16"
+  generated_by: "Claude Haiku 5.5 (book-6 harvest agent)"
+  model: claude-haiku-5-5
+  run: book-6-iranian-indian-1
+status: { review: draft, completeness: 1, generated_by: "Claude Haiku 5.5; from Rezavi chapter pp. 4-5, 7-8, 14-15; framing as the author's reading, not a verdict" }
