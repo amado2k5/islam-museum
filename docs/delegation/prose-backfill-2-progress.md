@@ -297,3 +297,28 @@ Batch 8 as a missing-prose batch is void; the next batch needs a fresh missing-p
 ### Methodological notes
 - Muntazam/Shadharat cites follow the printed page numbers used by the existing record summaries (verified against the scanned pages listed in each file's research notes).
 - `person/` untouched.
+
+## Batch 9 — audit of the queue head (agent pb2-rijal)
+
+The twelve queue-head records (`nafi-mawla-ibn-umar` 560 links, `hisham-ibn-urwa` 489, `zayd-ibn-aslam` 340, `muhammad-ibn-al-munkadir` 32, `zayd-ibn-khalid-al-juhani` 32, `abu-bakr-ibn-abd-al-rahman-ibn-al-harith` 29, `amr-ibn-shuayb` 28, `abu-umama-ibn-sahl-ibn-hunayf` 24, `sahl-ibn-hunayf` 14, `abu-qatada-al-ansari` 12, `abd-al-rahman-ibn-abi-layla` 12, `abu-waqid-al-laythi` 12) all already had committed ar+en+ur prose (`prose-backfill` batches 002/004, `ebd1f80d7` narrators batch, sallabi-ali-vol1 harvests). Prose untouched.
+
+Each record's own entry was located on the page by full nasab, the verified rijal source was added to the YAML where missing, and `completeness` raised to 3:
+
+| record | own entry verified |
+|---|---|
+| person/nafi-mawla-ibn-umar | Taqrib ٧٠٨٦ (نافع مولى ابن عمر), scan p.625 |
+| person/hisham-ibn-urwa | Taqrib ٧٣٠٢ (هشام بن عروة بن الزبير بن العوام الأسدي), p.640 |
+| person/zayd-ibn-aslam | Taqrib ٢١١٧ (زيد بن أسلم العدوي مولى عمر), p.210; Tahdhib al-Tahdhib ٢١٩٢ p.373 |
+| person/muhammad-ibn-al-munkadir | Taqrib ٦٣٢٧ (محمد بن المنكدر بن عبد الله بن الهدير), p.568 |
+| person/zayd-ibn-khalid-al-juhani | Taqrib ٢١٣٣ (زيد بن خالد الجهني المدني صحابي), p.212; Tahdhib al-Tahdhib ٢٢٠٨ p.376 |
+| person/abu-bakr-ibn-abd-al-rahman-ibn-al-harith | Taqrib ٧٩٧٦ (أبو بكر بن عبد الرحمن بن الحارث بن هشام المخزومي), p.693 |
+| person/amr-ibn-shuayb | Tahdhib al-Tahdhib ٥٢٠٧ (عمرو بن شعيب بن محمد بن عبد الله بن عمرو بن العاص), p.798 |
+| person/abu-umama-ibn-sahl-ibn-hunayf | Taqrib ٤٠٢ (أسعد بن سهل بن حنيف أبو أمامة) + ٨٧٩٠, pp.76/778 |
+| person/sahl-ibn-hunayf | Taqrib ٢٦٥٦ (سهل بن حنيف بن واهب الأنصاري الأوسي بدري), p.259 |
+| person/abu-qatada-al-ansari | Taqrib ٨٣١١ (أبو قتادة الأنصاري = الحارث بن ربعي السلمي), p.720 |
+| person/abd-al-rahman-ibn-abi-layla | Taqrib ٣٩٩٣ (عبد الرحمن بن أبي ليلى الأنصاري المدني ثم الكوفي), p.375 |
+| person/abu-waqid-al-laythi | Taqrib ٨٤٣٣ kunya (أبو واقد الليثي صحابي), p.729 |
+
+### Notes
+- `amr-ibn-shuayb`'s Taqrib own-entry head is lost to the scan's column interleaving in this copy; verified instead in Tahdhib al-Tahdhib (٥٢٠٧) with the full five-generation nasab.
+- `muhammad-ibn-yahya-ibn-habban` and `malik-ibn-abi-amir-al-asbahi` were skipped per the batch plan (already done in batch 5).
