@@ -1,0 +1,8 @@
+---
+id: concept/khuruj-fiqh
+lang: en
+source_lang: ar
+translators: []
+---
+## Summary
+Khuruj is lexically going out, the opposite of entering; jurists use it also for rebellion against the rulers. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.7628} Among what leaves the two passages, semen, menses and postnatal blood require a full wash; usual discharges such as urine, faeces and wind break wudu; unusual discharges break it for the Hanafis, Shafiis, Hanbalis and Ibn Abd al-Hakam, but not by most Malikis, who count worms and pebbles as harmless. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.7628}{cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.7629} The heel or most of the foot coming out into the leg of the sock brings the rule of taking off the sock; the Shafiis count this only for a long sock beyond custom. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.7629} Leaving the mosque after the call to prayer without excuse is disliked by most jurists and forbidden by the Hanbalis, citing a report of Abu Hurayra. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.7629} Speaking while the Imam preaches is forbidden by most jurists; speech before the sermon begins is permitted by most; Abu Hanifa forbids it from the moment he comes out; voluntary prayer is barred after he comes out for the Hanafis and Malikis, and ends when he sits on the pulpit for the Shafiis and Hanbalis, citing the report "sit, you have troubled and delayed". {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.7630} The one in retreat (mu'takif) leaves only for a human need or the Friday prayer; the Shafiis require him to go out for Friday. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.7630}
