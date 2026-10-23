@@ -2,17 +2,16 @@
 id: practice/zakat
 lang: en
 source_lang: ar
-translators: ["Devin (SWE-2), draft translation"]
+translators: [Devin]
 ---
-
 ## Summary
-"The zakat" is the imposed alms, one of [[concept/five-pillars|Islam's five pillars]] {cite:sahih-al-bukhari 8}. Gabriel's hadith describes it as "the imposed" {cite:sahih-al-bukhari 50}, and the Qur'an mentions it coupled with the prayer: [[passage/quran-2-43|al-Baqara 43]].
+Zakat — from growth, blessing and increase — names both the due that must be paid on specified wealth in a specified way, with hawla and nisab conditions, and the portion paid out itself; it is called thus because it purifies and fructifies wealth. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.9072}
 
-## Its disbursements in the Qur'an
-The alms verse defines its recipients: [[passage/quran-9-60|al-Tawba 60]]. Among the categories named in it is "those whose hearts are reconciled" — the museum treated its prophetic application in [[concept/al-muallafa-qulubuhum|those whose hearts are reconciled]].
+## Beside sadaqa and 'atiyya
+Sadaqa covers what is given seeking God's face — obligatory and voluntary — and is sometimes confined to the obligatory, as in "there is no sadaqa on less than five dhawd of camels"; 'atiyya is broader still, any gift whether or not God's face is intended. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.9072} {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.9073}
 
-## In the hadith
-When the Najdi man asked whether anything but the zakat was upon him, the Prophet said: "No — unless you volunteer" {cite:sahih-al-bukhari 46}, making whatever exceeds it voluntary.
+## Its obligatory status
+Zakat is an obligation of Islam and a pillar of the religion, established by Book, Sunna and consensus: in the Book, "establish prayer and give zakat" and the warning to hoarders; in the Sunna, "Islam is built on five", and the Prophet's instruction to Mu'adh for Yemen that God had imposed a sadaqa on their wealth "taken from their rich and returned to their poor". {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.9073}
 
-## What is not covered here
-The zakat's thresholds, the kinds of wealth, the conditions of its obligation and the schools' disagreements will be added in a later batch from the fiqh books.
+## Fighting those who withhold it
+Muslims in every age agreed on its obligation in general, and the Companions agreed to fight its withholders — al-Bukhari relates that Abu Bakr fought them when they withheld it after the Prophet's death. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.9074}
