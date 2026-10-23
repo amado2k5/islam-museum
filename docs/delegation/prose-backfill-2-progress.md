@@ -97,3 +97,31 @@ All from `source/fiqh-mawsua-kuwaitiyya-noor-v3` headwords; each record ar+en+ur
 - `practice/dhabihah` — still deferred (see batch 2 note).
 - `practice/sawm-ramadan`, `practice/tahajjud`, `practice/laylat-al-qadr`, `practice/salat-al-duha`, `practice/zakat-al-fitr`, `practice/ziyarat-al-qubur`, `practice/greeting-salam`, `practice/dhikr`, `practice/dua` — candidates for batch 4; headword variants still to check.
 - `practice/aqiqah` — probable duplicate of `practice/aqiqa` (already done); needs alias decision, not prose.
+
+## Batch 4 — remaining practice terms, second sweep (16 records)
+
+| record | headword scan page(s) |
+|---|---|
+| practice/tahajjud | p.5920–5921 («تهجد») |
+| practice/laylat-al-qadr | p.13731–13732 («ليلة القدر») |
+| practice/salat-al-duha | p.10583 («صلاة الضحى») + p.10494 («صلاة الإشراق») |
+| practice/zakat-al-fitr | p.9181 («زكاة الفطر») |
+| practice/ziyarat-al-qubur | p.9284 («زيارة» §4–5) |
+| practice/dua | p.8102–8103 («دعاء») |
+| practice/greeting-salam | p.5084 («تسليم» — the greeting via سلّم على القوم) |
+| practice/sujud-tilawa | p.9405–9407 («سجود» — سجود القرآن treated as sujud-like) |
+| practice/dhabihah | p.8380–8381 («ذبائح»: نحر/عقر/تذكية) — batch-2 deferral resolved |
+| practice/mahr | p.15120 («مهر») + p.14849 (مفوضة: مهر المثل) |
+| practice/hajj | p.6836 («حج») |
+| practice/tajwid | p.4610–4611 («تجويد») |
+| practice/hifz-al-quran | p.7135–7136 («حفظ») |
+| practice/ijaza | p.1576 («إجازة») |
+| practice/taraweeh | p.10497 («صلاة التراويح») + p.6405 (جلوس بين الترويحتين) |
+| practice/sawm-ramadan | p.8986 («رمضان»: ثبوت الشهر بالرؤية) + p.11623 («العشر الأواخر») |
+
+### Still unresolved
+- `practice/miswak`, `practice/khatm-al-quran` — no headword located in this scan.
+- `practice/dhikr` — «ذكر» headword exists but covers the ritual term across many pages; the standalone-line search missed it; may need section-level extraction in a later pass.
+- `practice/aqiqah` — duplicate of `practice/aqiqa`, alias decision pending (founder).
+- `practice/mosque-study-circle`, `practice/mawlid-al-nabi`, `practice/urs`, `practice/sama-mawlawiyya`, `practice/rihla-ilm`, `practice/hajj` adjacent cultural records — cultural rather than mawsua headwords; better sourced elsewhere.
+- Index pages: many headword hits at pp.~46–1200 are the encyclopedia's own فهرس; real headword = the later page. Batch 4 corrected earlier index false-positives (taraweeh 4930→10497, mahr 14847→15120, ramadan 11623→8986).
