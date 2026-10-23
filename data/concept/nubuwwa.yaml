@@ -1,20 +1,21 @@
 id: concept/nubuwwa
 class: concept
-kind: belief
-label:
-  ar: النبوة
-  en: Nubuwwa (prophethood)
-  ur: نبوت
+kind: legal
+label: { ar: "النُّبُوَّة", en: "Prophethood (nubuwwa)", ur: "نبوت" }
 summary:
-  ar: "النبوة في العقيدة السنية: الإيمان بالنبيين وبالكتب المنزلة على المرسلين وأنهم كانوا على الحق المبين، مع كون إبراهيم خليل الله وموسى كليمه {cite:aqida-tahawiyya §71-72}؛ وتصنف كتب «دلائل النبوة» كالبيهقي في آيات النبوة ومعجزاتها {cite:dalail-al-nubuwwa-bayhaqi}."
-  en: "Prophethood in Sunni creed: belief in the prophets and in the books sent down to the messengers, that they were upon manifest truth — with Abraham God's intimate friend and Moses His interlocutor {cite:aqida-tahawiyya §71-72}; the 'proofs of prophethood' literature, as by al-Bayhaqi, treats its signs and miracles {cite:dalail-al-nubuwwa-bayhaqi}."
+  ar: "النبوة في اللغة من النبوة والنباوة وهي الارتفاع، أو من النبأ وهو الخبر، والنبيّ مأخوذ منهما. وفي الاصطلاح صفة ثبوتية في النبي وصفة إضافية هي تعلق الخطاب الإلهي به. والرسالة أخص من النبوة، فهي كون الشخص مرسلاً من الله إلى الناس لتبليغ الأحكام. وتثبت النبوة بالمعجزات الخارقة للعادة المقرونة بالتحدي، ومن ذلك القرآن. وما حكاه القرآن أو السنة من شرائع الأنبياء السابقين في أصول الدين ثابت في حقنا اتفاقاً، وفي الفروع فجمهور العلماء على أنه شرع لنا ما لم يرد ما يرده، والشافعية على أنه ليس شرعاً لنا. ومن ادعى النبوة لنفسه أو لغيره فهو كاذب مرتد كافر باتفاق، لأن النبي خاتم النبيين، ومن صدّق مدعي النبوة صار مرتداً، وفي استتابة الذمي المدعي خلاف. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.15458} {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.15459} {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.15460} {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.15461} {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.15462}"
+  en: "Nubuwwa comes from the root for height or for news, and nabi is related to both. In law it is an affirmative quality of the prophet together with a relational one, the attachment of the divine address to him. Risala is narrower: it is being sent from God to people, or some of them, to convey the law. Prophecy is established by miracles that break habit and are joined with a challenge, the Qur'an among them. Rules that the Qur'an or Sunna relate from earlier prophets bind us in matters of faith by agreement, and in matters of law the majority hold them binding unless our law sets them aside, whereas the Shafi'is hold them not binding for us. Whoever claims prophecy, for himself or for another, is a liar and an apostate by agreement, since the Prophet is the seal of the prophets; one who confirms such a claimant becomes an apostate. Jurists differ on whether a dhimmi who makes the claim is to be asked to repent. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.15458} {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.15459} {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.15460} {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.15461} {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.15462}"
+  ur: "نبوت وہ صفت ہے جو اللہ کی طرف سے وحی پانے والے نبی میں ثابت ہو۔ رسالت نبوت سے خاص ہے۔ معجزات سے نبوت ثابت ہوتی ہے۔ نبوت کا دعویٰ کرنے والا کاذب اور کافر و مرتد ہے، کیونکہ نبی کریم خاتم النبیین ہیں۔ {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.15458} {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.15459} {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.15460} {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.15461} {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.15462}"
 wings: [ideas]
-themes: [afterlife-and-eschatology]
-external_ids: { wikidata: "Q168827" }
-sources: [source/aqida-tahawiyya, source/sharh-tahawiyya-ibn-abi-al-izz, source/dalail-al-nubuwwa-bayhaqi]
+themes: [prophets]
+periods: [period/prophetic-era]
+regions: [global]
 provenance:
   layer: own-research
-  source: "wikidata-import deferred Q168827; Tahawiyya §§71-72 verified in OCR (p. 20); Dalail al-Nubuwwa (al-Bayhaqi) in the harvest library"
-  generated_by: "Devin (SWE-2 Medium) from Apple Vision OCR + Wikipedia bibliography harvest"
-  run: wd-deferred-2
-status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 Medium)" }
+  source: "الموسوعة الفقهية الكويتية، نسخة نور بوك، مدخل «نبوّة»، الجزء الأربعون، ص 15458-15462 من المسح"
+  generated_by: "Claude Haiku 5.5"
+  model: claude-haiku-5-5
+  run: mawsua-w09-63
+  scan_pages: [15458, 15459, 15460, 15461, 15462]
+sources: [source/fiqh-mawsua-kuwaitiyya-noor-v3]
+status: { review: draft, completeness: 1, generated_by: "Claude Haiku 5.5; headword complete on scan pp.15458-15462 (definition, related term risala, proof by miracles, earlier laws, the claim to prophecy and its consequences). The cross-reference نبيذ (see أشربة) is on p.15462; the next headword نبي begins on p.15462 and is not in this batch. Printed folios not verified; summary not exhaustive" }
