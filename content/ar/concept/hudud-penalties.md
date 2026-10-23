@@ -1,0 +1,8 @@
+---
+id: concept/hudud-penalties
+lang: ar
+source_lang: ar
+translators: []
+---
+## موجز
+الحدود جمع حد، وهو في اللغة المنع، وفي الاصطلاح عقوبة مقدرة وجبت حقا لله تعالى، وعرفها الشافعية والحنابلة بأنها عقوبة مقدرة على ذنب وجبت حقا لله أو اجتمع فيها حق الله وحق العبد كالقذف. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.6942} وتختلف عن القصاص لأنه حق للعبد، وعن التعزير لأن التعزير غير مقدر. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.6943} وإقامة الحدود فرض على ولي الأمر بالكتاب والسنة والإجماع، وفي المعقول أن الشهوة البشرية تميل إلى المحرمات، فشرعت الحدود زجرا وحسما للفساد. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.6943} {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.6944} وتفترق الحدود عن القصاص في أنها لا تورث ولا يصح العفو فيها ولا تتوقف على الدعوى، ويجوز الرجوع عن الإقرار فيها، ولا تجوز الشفاعة فيها بعد وصولها إلى الحاكم. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.6945} {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.6946} وإذا اجتمع حدان من جنس واحد دخل أحدهما في الآخر غالبا، وإن تعدد الجاني بالجناية فيحد لكل جناية. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.6946} وتسقط الحدود بالشبهة، وتدرأ بها، وبالرجوع عن الإقرار إلا حد القذف، وبموت الشهود في الرجم عند من يشترط البداءة بالشهود. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.6947} {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.6948} {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.6949} ولا يشترط في الزنى إلا أربعة شهود عند جمهور الفقهاء، ولا يقام الحد إلا بمكلف عاقل بالغ، ولا يُقام إلا بالإمام أو نائبه. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.6949} {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.6950} {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.6957} {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.6958} والحد لا يسقط بالتوبة إلا في قطع الطريق والردة قبل القدرة، وفي غيرها خلاف. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.6947}
