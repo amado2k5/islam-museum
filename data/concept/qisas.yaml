@@ -1,0 +1,57 @@
+id: concept/qisas
+class: concept
+kind: legal
+label:
+  ar: القصاص
+  en: Retaliation (qisas)
+summary:
+  ar: "القصاص في تفسير الشعراوي حق لولي الدم، له أن يعفو أو يأخذ الدية، أما الحدود فحق لله لا يملك أحد التنازل عنها. ويرى أن القصاص يحفظ حياتين، لأن القاتل إذا علم أنه سيُقتص منه كفّ عن القتل {cite:tafsir-sharawi-khawatir-scan p.2538}{cite:tafsir-sharawi-khawatir-scan p.2543}."
+  en: "Retaliation (qisas) in Sha'rawi's commentary is the right of the victim's heir, who may pardon or take the blood-money; the hadd penalties are God's right and no one may waive them. He holds that retaliation preserves two lives, since a killer who knows he will be retaliated against refrains {cite:tafsir-sharawi-khawatir-scan p.2538}{cite:tafsir-sharawi-khawatir-scan p.2543}."
+wings:
+- ideas
+themes:
+- law-and-courts
+periods:
+- period/prophetic-era
+regions:
+- global
+issue:
+  ar: "هل يملك أهل القتيل العفو عن القاتل، وما الفرق بين القصاص والحد؟"
+  en: "May the victim's heirs pardon the killer, and how does retaliation differ from the hadd penalties?"
+relations:
+  - { type: based_on, target: passage/quran-2-178, sources: [source/tafsir-sharawi-khawatir-scan] }
+  - { type: based_on, target: passage/quran-2-179, sources: [source/tafsir-sharawi-khawatir-scan] }
+perspectives:
+- tradition: sunni
+  id: sunni-sharawi-qisas-heir
+  stance:
+    ar: "القصاص حق الولي يعفو أو يأخذ الدية، والحد حق الله، والقصاص حياة"
+    en: "Retaliation is the heir's right, who may pardon or take the blood-money; the hadd is God's right; retaliation is life"
+  summary:
+    ar: "يقرر الشعراوي أن القصاص في القتل حق الولي، فله أن يعفو أو أن يأخذ الدية، وأن الحدود حق الله لا يتنازل عنها أحد {cite:tafsir-sharawi-khawatir-scan p.2543}. ويستدل بآية البقرة على أن القصاص يحفظ الحياة، فمن علم أنه إن قتل قُتل لم يقتل، فتُحفظ حياة القاتل وحياة من كان سيُقتل {cite:tafsir-sharawi-khawatir-scan p.2538}. ويذكر أن القتل الخطأ خارج القصاص ويُكتفى فيه بالدية {cite:tafsir-sharawi-khawatir-scan p.2543}. وهذا رأيه، ولم تُعرض بعد أقوال الفقهاء في شروط القصاص من مصدر محدد (needs_source)."
+    en: "Sha'rawi holds that retaliation for killing is the heir's right, who may pardon or take the blood-money, and that the hadd penalties are God's right which no one may waive {cite:tafsir-sharawi-khawatir-scan p.2543}. He reads the verse of the Baqara as showing that retaliation preserves life: the one who knows he will be killed if he kills does not kill, so both lives are kept {cite:tafsir-sharawi-khawatir-scan p.2538}. He places accidental killing outside retaliation, where blood-money suffices {cite:tafsir-sharawi-khawatir-scan p.2543}. This is his view; the jurists' conditions for retaliation are not yet set out from a named source (needs_source)."
+  holders:
+  - person/muhammad-mutawalli-al-shaarawi
+  sources:
+  - source/tafsir-sharawi-khawatir-scan
+- tradition: academic
+  id: academic
+  stance:
+    ar: "لم يُعرض بعد"
+    en: "Not yet set out"
+  summary:
+    ar: "لم تُضف بعد شروط القصاص وأحكام الحدود من مصدر فقهي محدد (needs_source)."
+    en: "The conditions of retaliation and the rules of the hadd penalties have not yet been added from a named source (needs_source)."
+  sources: []
+sources:
+- source/tafsir-sharawi-khawatir-scan
+provenance:
+  layer: own-research
+  source: "تفسير الشعراوي، نسخة ممسوحة، صفحات المسح 2538-2543 (نص OCR محلي)"
+  generated_by: "Claude Haiku 5.5"
+  model: claude-haiku-5-5
+  run: "tafsir-sharawi-2523-3000 batch 2"
+status:
+  review: draft
+  completeness: 1
+  generated_by: "Claude Haiku 5.5; Sha'rawi's account only (scan pages 2538-2543); edition unverified; the other schools are not yet set out"

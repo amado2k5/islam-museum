@@ -1,0 +1,55 @@
+id: practice/salat-al-khawf
+class: practice
+kind: ritual
+label:
+  ar: صلاة الخوف
+  en: Prayer in fear (salat al-khawf)
+summary:
+  ar: "صلاة الخوف في تفسير الشعراوي لآيات النساء 101 إلى 102: تُقصر الصلاة في السفر، وتُصلّى في القتال بطائفتين، وللنبي صور متعددة عرضها الشعراوي، مع تأكيد أخذ السلاح والحذر، والإتيان بالصلاة في وقتها {cite:tafsir-sharawi-khawatir-scan p.2589}{cite:tafsir-sharawi-khawatir-scan p.2592}."
+  en: "Prayer in fear in Sha'rawi's commentary on Q. 4:101 and 4:102: prayer is shortened on a journey, and in battle it is prayed by two groups; he sets out several forms reported from the Prophet's practice, and stresses carrying arms and caution, and keeping the prayer to its time {cite:tafsir-sharawi-khawatir-scan p.2589}{cite:tafsir-sharawi-khawatir-scan p.2592}."
+wings:
+- living
+periods:
+- period/prophetic-era
+regions:
+- global
+issue:
+  ar: "كيف تُؤدّى الصلاة في حال القتال والخوف، ومن يصلي بمن؟"
+  en: "How is prayer performed during battle or in fear, and who leads whom?"
+relations:
+  - { type: based_on, target: passage/quran-4-101, sources: [source/tafsir-sharawi-khawatir-scan] }
+  - { type: based_on, target: passage/quran-4-102, sources: [source/tafsir-sharawi-khawatir-scan] }
+perspectives:
+- tradition: sunni
+  id: sunni-sharawi-forms
+  stance:
+    ar: "تُصلّى الصلاة في الخوف بطائفتين مع أخذ الأسلحة والحذر، وإن كان لكل جماعة إمام صلت كل جماعة صلاتها كاملة"
+    en: "In fear the prayer is held by two groups, with arms and caution; if each group has its own imam, each prays its prayer complete"
+  summary:
+    ar: "يرى الشعراوي أن الآية تأمر بأن تنقسم الطائفة المؤمنة إلى قسمين: قسم يصلي مع النبي وقسم يرقب العدو، ثم يأتي الآخرون ليصلوا {cite:tafsir-sharawi-khawatir-scan p.2592}. ويعرض ثلاث صور من صلاة النبي في الخوف، منها أن يصلي بكل فرقة ركعتين، ومنها أن تصلي كل طائفة ركعة ثم تكمل بنفسها، ومنها أن تصلي الطائفة الأولى ركعة ويبقى النبي قائماً حتى تكمل {cite:tafsir-sharawi-khawatir-scan p.2592}{cite:tafsir-sharawi-khawatir-scan p.2593}. وينقل أن العلماء قالوا: إن كان القائمون بالقيادة خلفاء للنبي في الولاية فتُقام الصلاة كما جاءت، وإن كان لكل جماعة إمام فتصلي كل جماعة صلاة القصر كاملة خلف إمامها {cite:tafsir-sharawi-khawatir-scan p.2593}. ويؤكد أن الحذر والسلاح واجبان على المصلّين، وأن الصلاة لا تُترك في الحرب {cite:tafsir-sharawi-khawatir-scan p.2593}{cite:tafsir-sharawi-khawatir-scan p.2594}. ولم يسمِّ الشعراوي العلماء الذين نقل قولهم (needs_source)."
+    en: "Sha'rawi reads the verse as dividing the believing group in two: one part prays with the Prophet while the other keeps watch on the enemy, and then the other part comes to pray {cite:tafsir-sharawi-khawatir-scan p.2592}. He sets out three forms from the Prophet's practice: two rak'as with each group; each group prays one rak'a and then completes alone; and the first group prays one rak'a while the Prophet stands until it finishes {cite:tafsir-sharawi-khawatir-scan p.2592}{cite:tafsir-sharawi-khawatir-scan p.2593}. He reports the scholars' view that if the leaders are successors of the Prophet the form in the Qur'an applies, and if each group has its own imam each prays the shortened prayer complete behind it {cite:tafsir-sharawi-khawatir-scan p.2593}. He stresses that arms and caution are required, and that prayer is not abandoned in war {cite:tafsir-sharawi-khawatir-scan p.2593}{cite:tafsir-sharawi-khawatir-scan p.2594}. The scholars he cites are not named (needs_source)."
+  holders:
+  - person/muhammad-mutawalli-al-shaarawi
+  sources:
+  - source/tafsir-sharawi-khawatir-scan
+- tradition: academic
+  id: academic
+  stance:
+    ar: "لم يُعرض بعد"
+    en: "Not yet set out"
+  summary:
+    ar: "لم تُضف بعد كتب الفقه في صفات صلاة الخوف وتعدد صورها من مصدر محدد (needs_source)."
+    en: "The jurisprudential works on the forms of prayer in fear and their variety have not yet been added from a named source (needs_source)."
+  sources: []
+sources:
+- source/tafsir-sharawi-khawatir-scan
+provenance:
+  layer: own-research
+  source: "تفسير الشعراوي، نسخة ممسوحة، صفحات المسح 2589-2597 (نص OCR محلي)"
+  generated_by: "Claude Haiku 5.5"
+  model: claude-haiku-5-5
+  run: "tafsir-sharawi-2523-3000 batch 2"
+status:
+  review: draft
+  completeness: 1
+  generated_by: "Claude Haiku 5.5; Sha'rawi's account only (scan pages 2589-2597); edition unverified; the forms are reported by Sha'rawi without a named hadith source"

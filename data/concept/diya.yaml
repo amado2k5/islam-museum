@@ -1,0 +1,56 @@
+id: concept/diya
+class: concept
+kind: legal
+label:
+  ar: الدية
+  en: Blood-money (diya)
+summary:
+  ar: "الدية في تفسير الشعراوي لآية القتل الخطأ: تحرير رقبة مؤمنة، ثم دية مسلّمة إلى أهل القتيل في البيئة المؤمنة. ويرى أن العاقلة، أي قرابة القاتل، هي التي تؤديها، ولا تُؤخذ من أصوله وفروعه، وأن في ذلك وقاية للمجتمع من رد الفعل {cite:tafsir-sharawi-khawatir-scan p.2543}."
+  en: "Blood-money in Sha'rawi's commentary on the verse about accidental killing: a believing slave is freed and blood-money is paid to the victim's family in a believing setting. He holds that the kin group (aqila) pays it, not the killer alone, and that it is not taken from the killer's ascendants or descendants; its purpose is to prevent a reaction in society {cite:tafsir-sharawi-khawatir-scan p.2543}."
+wings:
+- ideas
+themes:
+- law-and-courts
+periods:
+- period/prophetic-era
+regions:
+- global
+issue:
+  ar: "على من يجب الضمان في القتل الخطأ، وكيف يُجبر أهل المقتول؟"
+  en: "Who owes compensation for accidental killing, and how is the victim's family compensated?"
+relations:
+  - { type: based_on, target: passage/quran-4-92, sources: [source/tafsir-sharawi-khawatir-scan] }
+perspectives:
+- tradition: sunni
+  id: sunni-sharawi-diya-aqila
+  stance:
+    ar: "الدية على العاقلة لا على القاتل وحده، ولا تؤخذ من الأصول والفروع، وفيها جبر لأهل القتيل وتوازن للمجتمع"
+    en: "The blood-money falls on the kin group rather than the killer alone, is not taken from his ascendants or descendants, and compensates the family and balances society"
+  summary:
+    ar: "يذكر الشعراوي أن الدية تؤديها قرابة القاتل، ولا تؤخذ من أصوله وفروعه حتى لا تجتمع عليهم مصيبة القتل مع فزع المشاركة فيه {cite:tafsir-sharawi-khawatir-scan p.2543}{cite:tafsir-sharawi-khawatir-scan p.2547}. ويرى أن القريب إذا علم أنه سيشارك في الدية تعلّم صون حقوق غيره {cite:tafsir-sharawi-khawatir-scan p.2543}. ويرى أن الدية التي تُسلَّم إلى أهل القتيل المسلم تجبر فقدهم، وأن عفوهم عنها يورث مودة في الأسرتين {cite:tafsir-sharawi-khawatir-scan p.2544}{cite:tafsir-sharawi-khawatir-scan p.2545}. وهذا رأيه في تفسير الآية، ولم تُعرض بعد أحكام الفقهاء في تحديد العاقلة ومقدار الدية من مصدر محدد (needs_source)."
+    en: "Sha'rawi says the blood-money is paid by the killer's kin, and not from his ascendants or descendants, so that the grief of the killing is not compounded by the burden of paying {cite:tafsir-sharawi-khawatir-scan p.2543}{cite:tafsir-sharawi-khawatir-scan p.2547}. He holds that a relative who knows he will share the payment learns to protect others' rights {cite:tafsir-sharawi-khawatir-scan p.2543}. He holds that blood-money paid to the family of a Muslim victim consoles them, and that forgiving it breeds affection between the families {cite:tafsir-sharawi-khawatir-scan p.2544}{cite:tafsir-sharawi-khawatir-scan p.2545}. This is his reading of the verse; the jurists' rules on who is the aqila and on the amount are not yet set out from a named source (needs_source)."
+  holders:
+  - person/muhammad-mutawalli-al-shaarawi
+  sources:
+  - source/tafsir-sharawi-khawatir-scan
+- tradition: academic
+  id: academic
+  stance:
+    ar: "لم يُعرض بعد"
+    en: "Not yet set out"
+  summary:
+    ar: "لم تُضف بعد أحكام المذاهب الفقهية في العاقلة ومقدار الدية وطريقة تسليمها من مصدر محدد (needs_source)."
+    en: "The jurists' rules on the aqila, the amount of the blood-money and how it is paid have not yet been added from a named source (needs_source)."
+  sources: []
+sources:
+- source/tafsir-sharawi-khawatir-scan
+provenance:
+  layer: own-research
+  source: "تفسير الشعراوي، نسخة ممسوحة، صفحات المسح 2543-2547 (نص OCR محلي)"
+  generated_by: "Claude Haiku 5.5"
+  model: claude-haiku-5-5
+  run: "tafsir-sharawi-2523-3000 batch 2"
+status:
+  review: draft
+  completeness: 1
+  generated_by: "Claude Haiku 5.5; Sha'rawi's account only (scan pages 2543-2547); edition unverified; the other schools are not yet set out"
