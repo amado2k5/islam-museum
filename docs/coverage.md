@@ -199,7 +199,7 @@ Average sources per entity: **1.29** · Women share of persons with a recorded g
 | water-and-animals | 6 |
 | websites-and-apps | 2 |
 | women | 206 |
-| worship-and-the-pillars | 176 |
+| worship-and-the-pillars | 177 |
 | zakat-and-sadaqa | 19 |
 | zoology | 1 |
 
