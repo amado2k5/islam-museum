@@ -18,6 +18,7 @@ vision, content model, editorial policy and roadmap.
 | [08 · Security](08-security.md) | Threat model, supply chain, secrets, licensing enforcement, privacy, content integrity | Maintainers, reviewers |
 | [09 · Cost analysis](09-cost-analysis.md) | Free-tier inventory, harvest-side costs, scale scenarios, $0/month runtime | Founder, funders |
 | [10 · Extensibility](10-extensibility.md) | Adding classes, languages, islands, predicates, harvest lanes; the delegation model | Contributors |
+| [11 · Assessment](11-assessment.md) | Scorecard vs world-class knowledge projects: ratings, justifications, gaps, priorities | Founder, reviewers, funders |
 | [Diagrams](diagrams.md) | All Mermaid diagrams in one place | Everyone |
 | [Executive deck](../presentation/executive-deck.md) | Marp slide deck for developers | New joiners |
 
