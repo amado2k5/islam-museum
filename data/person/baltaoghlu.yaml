@@ -1,0 +1,29 @@
+id: person/baltaoghlu
+class: person
+label:
+  ar: "بالطة أوغلي"
+  en: "Baltaoglu"
+names:
+  - { kind: full, lang: ar, value: "بالطة أوغلي" }
+gender: male
+roles: [military-leader]
+summary:
+  ar: "بالطة أوغلي، قائد الأسطول العثماني في حصار القسطنطينية سنة 857هـ/1453م؛ ينقل الصلابي أن الفاتح أرسل إليه حين حاولت سفن أوروبية بلوغ الخليج: «إما أن تستولي على هذه السفن وإما أن تغرقها، وإذا لم توفق في ذلك فلا ترجع إلينا حياً»، فلم يستطع منعها رغم الجهود، فعزله السلطان واتهمه بالجبن، فكشف عن عينه المصابة وقال: «إني استقبل الموت بجنان ثابت، ولكن يؤلمني أن أموت وأنا متهم بمثل هذه التهمة»، فأدرك الفاتح أن الرجل قد أعذر فاكتفى بعزله وجعل مكانه حمزة باشا {cite:dawlat-uthmaniyya-salabi p. 97}."
+  en: "Baltaoglu, the Ottoman fleet commander at the siege of Constantinople in 857/1453; al-Salabi records Mehmed's message to him when European ships tried to reach the gulf — 'take those ships or sink them, and if you fail do not return to me alive' — and, when the ships got through, his dismissal on a charge of cowardice. The admiral uncovered his wounded eye: 'I face death steadfastly, but it grieves me to die under this accusation.' The sultan accepted his excuse, dismissed him, and appointed Hamza Pasha in his place {cite:dawlat-uthmaniyya-salabi p. 97}."
+wings: [people]
+regions: [anatolia-balkans]
+periods: [period/mongol-post-mongol]
+relations:
+  - { type: participated_in, target: event/conquest-constantinople-857, role: "قائد الأسطول", sources: [source/dawlat-uthmaniyya-salabi] }
+sources: [source/dawlat-uthmaniyya-salabi]
+external_ids:
+  wikidata: Q632560
+provenance:
+  layer: own-research
+  source: "الدولة العثمانية لعلي محمد الصلابي (ط1 1421) ص 97"
+  generated_by: "Devin (SWE-2 Medium) from Apple Vision OCR"
+  model: "SWE-2 Medium"
+  run: lib-salabi-uthmani-batch-5
+status:
+  review: draft
+  completeness: 2

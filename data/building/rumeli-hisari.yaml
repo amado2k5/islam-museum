@@ -5,20 +5,23 @@ label:
   ar: "قلعة روملي حصار"
   en: "Rumeli Hisarı"
 summary:
-  ar: "بطاقة أولية لقلعة روملي حصار على البوسفور بإسطنبول، حصن محمد الفاتح الذي قطع به ممر القسطنطينية قبل فتحها سنة ١٤٥٢م؛ لم تُراجع مصادره على الصفحة بعد."
-  en: "Draft card for Rumeli Hisarı on the Bosphorus, Mehmed II's fortress that cut off Constantinople before its conquest in 1452; its sources are not yet checked on the page."
+  ar: "أقام السلطان محمد الفاتح قلعة روملي حصار في الجانب الأوروبي على مضيق البوسفور في أضيق نقطة منه، مقابل القلعة التي أسسها السلطان بايزيد في البر الآسيوي؛ حاول الإمبراطور البيزنطي إثناءه عن البناء بعروض مالية فأصرّ، حتى اكتملت قلعة عالية محصنة وصل ارتفاعها 82 متراً على ما في الصلابي، وصارت القلعتان متقابلتين لا يفصل بينهما سوى 660 متراً تتحكمان في عبور السفن وتستطيع نيران مدافعهما منع أي سفينة من الوصول إلى القسطنطينية من جهة البحر الأسود {cite:dawlat-uthmaniyya-salabi p. 92}."
+  en: "Rumeli Hisarı, Mehmed II's castle on the European side of the Bosphorus at its narrowest point, opposite Bayezid's fortress on the Asian shore: the emperor's money could not buy it off, and when finished the two castles stood 660 m apart, their cannon able to bar any ship's passage toward Constantinople {cite:dawlat-uthmaniyya-salabi p. 92}. The book's 82-m height figure is reported as printed."
 wings: [objects]
 regions: [anatolia-balkans]
-periods: [period/crusades-ayyubid-mamluk]
-sources: [source/goodwin-ottoman-architecture-1971]
+periods: [period/mongol-post-mongol]
+built: { edtf: "1452", calendar: julian, precision: year, status: tradition, derived: true, note: "بُنيت قبيل فتح القسطنطينية 857هـ/1453م؛ السنة الميلادية مشتقة {cite:dawlat-uthmaniyya-salabi p. 92}", sources: [source/dawlat-uthmaniyya-salabi] }
+relations:
+  - { type: located_in, target: place/istanbul, sources: [source/dawlat-uthmaniyya-salabi] }
+sources: [source/goodwin-ottoman-architecture-1971, source/dawlat-uthmaniyya-salabi]
 external_ids:
   wikidata: Q90801
 provenance:
   layer: own-research
-  source: "Wikidata candidate; fortress attested in Ottoman-architecture surveys — entry not yet checked on the page"
-  generated_by: "Devin (SWE-2 High)"
-  model: "SWE-2 High"
-  run: wikidata-import-wave2
+  source: "الدولة العثمانية لعلي محمد الصلابي (ط1 1421) ص 92"
+  generated_by: "Devin (SWE-2 Medium) from Apple Vision OCR"
+  model: "SWE-2 Medium"
+  run: lib-salabi-uthmani-batch-5
 status:
   review: draft
-  completeness: 1
+  completeness: 2
