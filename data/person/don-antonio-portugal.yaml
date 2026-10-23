@@ -1,0 +1,27 @@
+id: person/don-antonio-portugal
+class: person
+label:
+  ar: "دون أنطونيو البرتغالي"
+  en: "Don António of Portugal"
+names:
+  - { kind: full, lang: ar, value: "دون أنطونيو" }
+roles: [ruler]
+gender: male
+summary:
+  ar: "الأمير البرتغالي الذي لم يستطع مقاومة القوات الأسبانية التي اكتسحت الأراضي البرتغالية، فضمّت إسبانيا أراضيه سنة ٩٨٨هـ/١٥٨٠م {cite:dawlat-uthmaniyya-salabi p. 270}."
+  en: "The Portuguese prince who could not resist the Spanish forces that swept through Portugal; Spain annexed his lands in 988/1580 {cite:dawlat-uthmaniyya-salabi p. 270}."
+wings: [people]
+regions: [andalus-europe]
+periods: [period/gunpowder-empires]
+relations:
+  - { type: opposed, target: person/philip-ii-spain, sources: [source/dawlat-uthmaniyya-salabi] }
+sources: [source/dawlat-uthmaniyya-salabi]
+external_ids:
+  wikidata: "Q365352"
+provenance:
+  layer: own-research
+  source: "الدولة العثمانية لعلي محمد الصلابي (ط1 1421) ص 270"
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: salabi-uthmani-batch15
+status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 Medium)" }
