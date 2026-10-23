@@ -25,3 +25,18 @@ She becomes entitled in one of four ways. First, the couple agree on an amount b
 
 ## Her claim to have it fixed
 Before consummation she may ask the husband to fix an amount, so she knows the terms on which she gives herself. If the spouses agree on an amount, large or small, it stands; the report of Uqba ibn Amir is cited for a companion who gave his share of Khaybar as dower. If they dispute, the judge fixes the dower of like women. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.14852}
+
+## Withholding herself
+Until a dower is fixed, the Hanafis, Malikis, Shafi'is and Hanbalis allow a delegated wife to withhold herself from her husband; she may also withhold herself until a fixed dower is paid if it is due now. If it is deferred she may not withhold herself, as with a deferred dower named in the contract. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.14853} {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.14854}
+
+## When the dower falls due
+The Hanafis and Hanbalis, and a view that is the less preferred for the Shafi'is, hold that the dower falls due by the contract itself, since a marriage cannot be without a dower and it would not settle at death otherwise. The sounder Shafi'i view and the Malikis hold that it is not due by the contract, but that she may demand that a dower be fixed, after which it stands as a dower named in the contract. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.14853} {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.14854} {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.14855}
+
+## Halving the fixed dower on a pre-consummation divorce
+The majority, the Malikis, Shafi'is and Hanbalis together with Abu Yusuf, hold that a fixed dower is halved if the husband divorces her before consummation, provided the separation is from him and the amount is valid, whether fixed by the spouses or by the judge. The Hanafis and a Hanbali view hold no halving applies, because the contract named no sum. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.14855}
+
+## The consolation payment (mut'a)
+A delegated wife divorced before consummation and before a dower is fixed is owed only a consolation payment. The majority, the Hanafis, the newer Shafi'i view and the Hanbalis hold it obligatory when the husband caused the separation, and none when she did. The Malikis and the older Shafi'i view hold it not obligatory; the dispute goes back to the wording of the Quranic verse. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.14855} {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.14856}
+
+## What counts when the dower is fixed
+The jurists differ on the time whose circumstances count for fixing the dower of like women: her state at the contract, which creates the duty, or her state at intercourse. The contract places the marriage under the husband's liability, so the dower is assessed from the contract until intercourse. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.14856}
