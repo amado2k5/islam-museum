@@ -83,5 +83,23 @@ The lessor must deliver the land empty; if it holds another's crop, the lease is
 
 The lessee must use the land within what is customary and agreed. The Hanafis hold that one who leases land for wheat may not plant cotton; if he does, he owes the loss he caused and is treated as a usurper. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.1555} If a crop cannot be harvested within the term, the Shafi'is hold that a stipulation to leave it standing voids the lease when it contradicts the contract's purpose; for trees, leaving them standing may be stipulated, since the contract allows it. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.1556} {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.1557}
 
+## Leases for a term of months
+The term must be known and need not begin at once. A lease of a house for a month at a time is valid according to the majority; the first month binds by the contract and later months bind when the lessee takes them up. One Shafi'i view holds it invalid. If the lease says one month at a price and the rest pro rata, it is valid for the first month and void for the rest as unknown. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.1558}
+
+## Leases of houses
+The lessor must enable use, and rent runs from the time of enablement, even if the lessee does not use the house. If the term passes without enablement, the lessor is owed nothing. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.1559} The lessee may sublet the house to another as long as he may use it himself. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.1559}
+
+## A house let to a non-Muslim
+If a dhimmi leases a house from a Muslim to make it a church or a shop for selling wine, the majority hold the lease void because it is for a wrong; Abu Hanifa allows it, since the contract covers the benefit of the house as such. If the dhimmi leased it for residence and later made it a church, the lease stands, and the authorities may prevent the change. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.1559}
+
+## Leasing animals
+The Hanbalis allow paying for the covering of a stallion when a person needs it and cannot find another; the Malikis, some Shafi'is and Abu al-Khattab allow hiring it in general. The majority hold that an animal lease may not lead to the sale of its produce, as when a ewe is hired for her milk, since the object of a lease is the benefit, not the thing itself. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.1561}
+
+## Leases of persons
+A worker may be a private worker hired for one employer only, or a shared worker serving several. A private worker may be hired for work a Muslim may do for himself, such as tailoring, building or ploughing; not for work he could not do for himself, such as pressing wine or herding pigs. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.1562} A private worker may not work for others without the employer's leave, and his wage is reduced accordingly. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.1563}
+
+## Hiring for acts of worship
+The general rule is that no hire may be taken for acts reserved to Muslims, such as leading prayer, the call to prayer, the pilgrimage, teaching the Qur'an and jihad. This is the view of Ata', al-Dahhak ibn Qays, Abu Hanifa and Ahmad, who rely on reports about the call to prayer given without pay and about teaching the Qur'an. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.1564}
+
 ## Remaining material
-The entry continues with the rest of the farmland rules, leases of houses and movable goods, and the hired worker, up to p.1575. These are not yet drafted. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.1557}
+The entry continues with the rest of the rules on hired workers and wages, up to p.1575. These are not yet drafted. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.1564}
