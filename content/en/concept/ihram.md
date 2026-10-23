@@ -24,3 +24,17 @@ Entering ihram without naming the rite is valid by agreement, and it binds the p
 
 ## Copying another's ihram and stipulation
 Entering ihram in the same way as another person is valid, and according to the majority it takes the form of that person's ihram. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.1784} {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.1785} A stipulation made at the start («if a hinderer holds me back, my release is where you hold me») is valid for the Shafi'is and Hanbalis and allows release when hindered; the Hanafis and Malikis hold it invalid. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.1785}
+
+## Joining one ihram to another
+Joining the hajj to the umra takes several forms, depending on the timing and the status of the pilgrim. For the Hanafis, qiran is disliked for a Meccan; if he does it, it is lawful but he owes a make-up sacrifice. For a man from afar, joining the hajj to the umra before circling for it makes him a qarin; for a Meccan, the umra is abandoned and he owes a sacrifice for abandoning it. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.1786} {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.1787}
+The Malikis and Hanbalis allow joining the hajj to an umra already begun, making the pilgrim a qarin; the Shafi'is forbid it once circling has begun and allow it before. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.1787} {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.1788}
+Adding an umra to a hajj already begun is not valid for the Malikis, Shafi'is and Hanbalis, so no qiran results; the Hanafis and Malikis dislike it. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.1789}
+
+## Two hajjs or two umras at once
+If a pilgrim enters ihram for two hajjs or two umras, the majority hold that it takes effect with one and the other is void; Abu Hanifa holds that both take effect and one must be made up. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.1789}
+
+## Forms of ihram: ifrad, qiran and tamattu'
+Ihram divides by what the pilgrim intends to perform: ifrad, which is intending the hajj alone or the umra alone; qiran, which joins the two; and tamattu', which performs the umra first and the hajj after it in the same season. Each school defines these differently. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.1790} {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.1791}
+
+## Obligations of ihram
+The obligations of ihram come down to two: that the ihram begins at the miqat, and that it is guarded against the prohibited acts. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.1790}
