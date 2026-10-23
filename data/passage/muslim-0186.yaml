@@ -1,0 +1,16 @@
+id: passage/muslim-0186
+class: passage
+unit: hadith
+work: work/sahih-muslim
+ref: "186"
+label: { ar: "مسلم 186 — آخر أهل النار خروجاً منها", en: "Muslim 186 — The last to come out of the Fire" }
+text: "قال عبد الله بن مسعود: قال رسول الله: إني لأعلم آخر أهل النار خروجاً منها وآخر أهل الجنة دخولاً الجنة، رجل يخرج من النار حبواً... فيقول الله له: اذهب فادخل الجنة فإن لك مثل الدنيا وعشرة أمثالها، فيقول: أتسخر بي وأنت الملك؟ قال: لقد رأيت رسول الله ضحك حتى بدت نواجذه، وكان يقال: ذاك أدنى أهل الجنة منزلة"
+summary:
+  ar: "رواية عبد الله بن مسعود في باب الشفاعة وإخراج الموحدين من النار من كتاب الإيمان في صحيح مسلم؛ وصف آخر الداخلين الجنة ومنزلته — عشرة أمثال الدنيا."
+relations:
+  - { type: mentions, target: person/muhammad, sources: [source/sahih-muslim] }
+  - { type: mentions, target: person/abdullah-ibn-masud, sources: [source/sahih-muslim] }
+  - { type: mentions, target: concept/shafaa, sources: [source/sahih-muslim] }
+provenance: { layer: own-research, source: "صحيح مسلم، كتاب الإيمان، باب الشفاعة وإخراج الموحدين من النار (طبعة دار التأصيل، الحديث 177؛ ترقيم عبد الباقي المعروف 186)، تصوير Apple Vision OCR", generated_by: "Devin (SWE-2 High) from Apple Vision OCR", run: "hadith-muslim-passages-4" }
+sources: [source/sahih-muslim]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High); matn excerpt at most 40 words checked against the scan" }

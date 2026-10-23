@@ -1,0 +1,23 @@
+id: event/siege-of-aleppo-1124
+class: event
+kind: siege
+label: { ar: "حصار حلب (١١٢٤)", en: "Siege of Aleppo" }
+summary:
+  ar: "بطاقة أولية لحصار حلب في ١١٢٤–١١٢٥م، صد البلقاويين حصار بالدوين الثاني؛ لم تُراجع مصادره على الصفحة بعد."
+  en: "Draft card for the Siege of Aleppo in 1124–25, Balak's repulse of Baldwin II's siege; its sources are not yet checked on the page."
+wings: [time]
+periods: [period/crusades-ayyubid-mamluk]
+regions: [levant-iraq]
+date:
+  start: { edtf: "1124-10-06", precision: year, status: tradition, derived: true }
+  end: { edtf: "1125-01-25", precision: year, status: tradition, derived: true }
+sources: [source/tarikh-islam-hasan-ibrahim]
+external_ids:
+  wikidata: Q60791275
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; battle attested in narrative histories — entry not yet checked on the page"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-wave2
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

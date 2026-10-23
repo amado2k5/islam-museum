@@ -1,0 +1,19 @@
+id: passage/muwatta-1-459
+class: passage
+unit: hadith
+chain: [person/malik-ibn-anas, person/nafi-al-madani, person/abdullah-ibn-umar]
+work: work/muwatta-malik
+ref: "1.459"
+label: { ar: "الموطأ 459 — السنن الرواتب: ركعتان قبل الظهر وبعدها وبعد المغرب والعشاء", en: "Muwatta 459" }
+text: "كان يصلي قبل الظهر ركعتين وبعدها ركعتين، وبعد المغرب ركعتين في بيته، وبعد صلاة العشاء ركعتين"
+summary:
+  ar: "أول حديث في باب العمل في جامع الصلاة. يرويه يحيى عن مالك عن نافع عن ابن عمر: كان النبي يصلي قبل الظهر ركعتين وبعدها ركعتين، وبعد المغرب ركعتين في بيته، وبعد العشاء ركعتين، وكان لا يصلي بعد الجمعة حتى ينصرف فيركع ركعتين. ويخرّجه المحقق عند البخاري (937) ومسلم (3/17) وأبي داود (1252) والنسائي وابن خزيمة والدارمي وأحمد من طرق أصحاب مالك، وينقل عن ابن عبد البر أن يحيى لم يقل «في بيته» إلا في الركعتين بعد المغرب وتابعه القعنبي، وأن ابن بكير قالها في موضعين وابن وهب في ثلاثة مواضع (التمهيد 14/167). {cite:muwatta-maruf-1997 p.235} {cite:muwatta-maruf-1997 p.236}"
+relations:
+  - { type: part_of, target: passage/muwatta-kitab-01-salat }
+  - { type: mentions, target: person/muhammad, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/abdullah-ibn-umar, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/nafi-mawla-ibn-umar, sources: [source/muwatta-maruf-1997] }
+  - { type: basis_for, target: practice/salah, sources: [source/muwatta-maruf-1997] }
+provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 1, hadith 459 at PDF p. 235; باب العمل في جامع الصلاة", generated_by: "Claude Code (claude-haiku-5-5) from Apple Vision OCR of the Noor-Book PDF, checked on the page image where doubtful", run: "muwatta-prose-k1-b19" }
+sources: [source/muwatta-maruf-1997]
+status: { review: draft, completeness: 2, generated_by: "Claude Code (claude-haiku-5-5); own-words account written from PDF p. 235; matn excerpt at most 40 words" }

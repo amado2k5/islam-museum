@@ -1,0 +1,37 @@
+id: event/ali-refuses-to-lead-prayer-during-siege
+class: event
+kind: other
+label: { ar: "علي يمتنع عن إمامة الناس والخليفة محصور", en: "Ali refuses to lead prayer while the caliph is besieged" }
+summary:
+  ar: "حين حاصر الثائرون عثمان في داره، دعا الناس علياً ليصلي بهم، فامتنع قائلاً إنه لا يصلي بهم والإمام محصور، وصلى وحده وانصرف، وترك ابنيه مع أبناء صحابة لحراسة دار الخليفة {cite:abqariyyat-ali-aqqad p.62}. ويقرأ العقاد الموقف على أنه إعلان أن الاعتداء على الخليفة اعتداء على كل ذي قدر في الإسلام، لعل الثائرين يرتدعون {cite:abqariyyat-ali-aqqad p.62}."
+  en: "When the rebels surrounded Uthman in his house, people asked Ali to lead the prayer; he refused, saying he would not lead them while the imam was besieged, prayed alone and went home, leaving his sons with the sons of other companions to guard the caliph's house {cite:abqariyyat-ali-aqqad p.62}. Al-Aqqad reads this as a warning that attacking the caliph was an attack on every notable in Islam {cite:abqariyyat-ali-aqqad p.62}."
+wings: [people, ideas]
+themes: [civil-wars-and-revolts, ethics-and-character]
+periods: [period/rashidun]
+regions: [arabia]
+date:
+  start: { hijri: "0035", precision: year, status: tradition, derived: true, note: "الكتاب لا يؤرخ الحصار بسنة؛ الحصار هو حصار عثمان المؤرخ بسنة 35هـ (انظر event/siege-of-uthman-35). التاريخ مشتق، ثقة منخفضة." }
+relations:
+  - { type: part_of, target: event/siege-of-uthman-35, sources: [source/abqariyyat-ali-aqqad] }
+  - { type: occurred_at, target: place/medina, sources: [source/abqariyyat-ali-aqqad] }
+  - { type: had_participant, target: person/ali-ibn-abi-talib, role: "امتنع عن الإمامة وصلى وحده", sources: [source/abqariyyat-ali-aqqad] }
+  - { type: had_participant, target: person/uthman-ibn-affan, role: "كان محصوراً في داره", sources: [source/abqariyyat-ali-aqqad] }
+issue: { ar: "هل كان في وسع علي أن ينقذ عثمان؟", en: "Could Ali have saved Uthman?" }
+perspectives:
+  - tradition: sunni
+    id: sunni-pending
+    stance: { ar: "لم يُعرض بعد من مصدر سني محدد", en: "Not yet set out from a named Sunni source" }
+    summary:
+      ar: "لم يُنقل هنا موقف سني كلاسيكي من امتناع علي عن الإمامة في الحصار؛ يُضاف من مصدر محدد (needs_source)."
+      en: "No classical Sunni account of Ali's refusal to lead the prayer is recorded here; to be added from a named source (needs_source)."
+    sources: [source/abqariyyat-ali-aqqad]
+  - tradition: other
+    id: aqqad-reading
+    stance: { ar: "قراءة العقاد: موقف علي كان أصعب المواقف، ولم يكن في مقدوره إنقاذ عثمان", en: "Al-Aqqad: Ali's position was the hardest, and he could not have saved Uthman" }
+    summary:
+      ar: "يرى العقاد أن معاوية كان أقدر على حماية عثمان لو أراد، أما علي فكان بين الخليفة والثائرين ويُتهم من الطرفين {cite:abqariyyat-ali-aqqad p.63}. وهذا حكم المؤلف، ويعرضه هنا بوصفه قراءة."
+      en: "Al-Aqqad holds that Muawiya had more means to protect Uthman had he wished it, while Ali stood between the caliph and the rebels and was blamed by both {cite:abqariyyat-ali-aqqad p.63}. This is the author's judgement, recorded here as a reading."
+    sources: [source/abqariyyat-ali-aqqad]
+sources: [source/abqariyyat-ali-aqqad]
+status: { review: draft, completeness: 1, generated_by: "Claude Code (claude-haiku-5-5); from abqariyyat-ali-aqqad pp. 61-63" }
+provenance: { layer: own-research, source: "abqariyyat-ali-aqqad pp. 61-63", generated_by: "Claude Code", model: "claude-haiku-5-5", run: "abqariyyat-ali-aqqad-batch1" }

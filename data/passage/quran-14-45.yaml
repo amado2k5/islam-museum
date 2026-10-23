@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 14:45 (سورة إبراهيم، الآية 45)."
 text: "وَسَكَنتُمْ فِى مَسَـٰكِنِ ٱلَّذِينَ ظَلَمُوٓا۟ أَنفُسَهُمْ وَتَبَيَّنَ لَكُمْ كَيْفَ فَعَلْنَا بِهِمْ وَضَرَبْنَا لَكُمُ ٱلْأَمْثَالَ"
 text_search: "وسكنتم في مساكن الذين ظلموا أنفسهم وتبين لكم كيف فعلنا بهم وضربنا لكم الأمثال"
+translations:
+  en: { text: "And (have ye not) dwelt in the dwellings of those who wronged themselves (of old) and (hath it not) become plain to you how We dealt with them and made examples for you?", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "اور جو لوگ اپنے آپ پر ظلم کرتے تھے تم ان کے مکانوں میں رہتے تھے اور تم پر ظاہر ہوچکا تھا کہ ہم نے ان لوگوں کے ساتھ کس طرح (کا معاملہ) کیا تھا اور تمہارے (سمجھانے) کے لیے مثالیں بیان کر دی تھیں", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-14 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

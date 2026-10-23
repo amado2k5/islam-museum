@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 14:46 (سورة إبراهيم، الآية 46)."
 text: "وَقَدْ مَكَرُوا۟ مَكْرَهُمْ وَعِندَ ٱللَّهِ مَكْرُهُمْ وَإِن كَانَ مَكْرُهُمْ لِتَزُولَ مِنْهُ ٱلْجِبَالُ"
 text_search: "وقد مكروا مكرهم وعند الله مكرهم وإن كان مكرهم لتزول منه الجبال"
+translations:
+  en: { text: "Verily they have plotted their plot, and their plot is with Allah, though their plot were one whereby the mountains should be moved.", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "اور انہوں نے (بڑی بڑی) تدبیریں کیں اور ان کی (سب) تدبیریں خدا کے ہاں (لکھی ہوئی) ہیں گو وہ تدبیریں ایسی (غضب کی) تھیں کہ ان سے پہاڑ بھی ٹل جائیں", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-14 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

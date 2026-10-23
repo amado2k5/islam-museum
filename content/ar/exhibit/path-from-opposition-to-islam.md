@@ -23,37 +23,37 @@ translators: []
 ## الخطوات
 
 ### 1. عمر
-[[event/islam-of-umar|إسلام عمر بن الخطاب]]: من خرج يريد النبي فانتهى مسلماً.
+[[event/islam-of-umar|إسلام عمر بن الخطاب]]: من خرج يريد النبي فانتهى مسلماً. {cite:jami-al-tirmidhi}
 
 ### 2. عمير بن وهب
-[[event/conversion-of-umayr-ibn-wahb|إسلام عمير بن وهب]]: بعد بدر: ما بيّته وكيف انتهى.
+[[event/conversion-of-umayr-ibn-wahb|إسلام عمير بن وهب]]: بعد بدر: ما بيّته وكيف انتهى. {cite:mubarakpuri-raheeq p.233}
 
 ### 3. خالد بن الوليد
-[[person/khalid-ibn-al-walid|خالد بن الوليد]]: من قاد خيل مكة ثم أسلم قبل الفتح.
+[[person/khalid-ibn-al-walid|خالد بن الوليد]]: من قاد خيل مكة ثم أسلم قبل الفتح. {cite:ibn-ishaq-guillaume}
 
 ### 4. إسلام أبي سفيان
-[[event/abu-sufyan-conversion|إسلام أبي سفيان بن حرب بمر الظهران]]: ليلة الفتح في مر الظهران.
+[[event/abu-sufyan-conversion|إسلام أبي سفيان بن حرب بمر الظهران]]: ليلة الفتح في مر الظهران. {cite:ibn-hisham-saqqa 4/44-47}
 
 ### 5. هند بنت عتبة
-[[person/hind-bint-utba|هند بنت عتبة]]: وسيرتها قبل الفتح وبعده.
+[[person/hind-bint-utba|هند بنت عتبة]]: وسيرتها قبل الفتح وبعده. {cite:ibn-ishaq-guillaume}
 
 ### 6. حكيم بن حزام
-[[person/hakim-ibn-hizam|حكيم بن حزام]]: من قال فيه النبي كلمة أمان.
+[[person/hakim-ibn-hizam|حكيم بن حزام]]: من قال فيه النبي كلمة أمان. {cite:ibn-hajar-isaba p.337}
 
 ### 7. سهيل بن عمرو
-[[person/suhayl-ibn-amr|سهيل بن عمرو]]: مفاوض الحديبية الذي أسلم يوم الفتح.
+[[person/suhayl-ibn-amr|سهيل بن عمرو]]: مفاوض الحديبية الذي أسلم يوم الفتح. {cite:ibn-ishaq-guillaume}
 
 ### 8. عكرمة بن أبي جهل
-[[person/ikrima-ibn-abi-jahl|عكرمة بن أبي جهل]]: من أُمِّن يوم الفتح.
+[[person/ikrima-ibn-abi-jahl|عكرمة بن أبي جهل]]: من أُمِّن يوم الفتح. {cite:ibn-sad-tabaqat-bewley}
 
 ### 9. صفوان بن أمية
-[[person/safwan-ibn-umayya|صفوان بن أمية]]: هرب ثم جاءه الأمان.
+[[person/safwan-ibn-umayya|صفوان بن أمية]]: هرب ثم جاءه الأمان. {cite:ibn-hajar-isaba p.695}
 
 ### 10. وحشي بن حرب
-[[person/wahshi-ibn-harb|وحشي بن حرب]]: قاتل حمزة، وما تذكره الرواية بعد إسلامه.
+[[person/wahshi-ibn-harb|وحشي بن حرب]]: قاتل حمزة، وما تذكره الرواية بعد إسلامه. {cite:ibn-ishaq-guillaume}
 
 ### 11. عبد الله بن الزبعرى
-[[person/abdullah-ibn-al-zibara|عبد الله بن الزبعرى]]: شاعر قريش: رجوعه واعتذاره.
+[[person/abdullah-ibn-al-zibara|عبد الله بن الزبعرى]]: شاعر قريش: رجوعه واعتذاره. {cite:ibn-hajar-isaba p.875}
 
 ### 12. المؤلفة قلوبهم
 [[concept/al-muallafa-qulubuhum|المؤلفة قلوبهم]]: ما شُرع لتثبيت إسلام هؤلاء وأمثالهم.

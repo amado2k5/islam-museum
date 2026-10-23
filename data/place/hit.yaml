@@ -1,0 +1,19 @@
+id: place/hit
+class: place
+kind: town
+label: { ar: "هيت", en: "Hit" }
+summary:
+  ar: "هيت على الفرات الأسفل؛ فتحها جيش الكوفة الذي بعثه عمار بن ياسر عليه سعد بن عمرو بن حرام — وقيل مذلاج بن عمرو السلمي — فأمنهم أهلها واستثنى عليهم نصف كنيستهم، وهي أواخر ما التقى فيه فتح الجزيرة من جهة عمير بن سعد بفتح العراق من جهة الكوفة."
+  en: "Hit on the lower Euphrates; taken by the Kufan army Ammar ibn Yasir dispatched under Sa'd ibn Amr ibn Haram — or by report Midlaj ibn Amr al-Sulami — its people taking aman with half their church reserved for the Muslims; it is where Umayr ibn Sa'd's Jazira conquest met the Iraq conquest out of Kufa."
+wings: [place]
+periods: [period/rashidun]
+regions: [levant-iraq]
+relations:
+  - { type: site_of, target: event/conquest-of-hit, sources: [source/futuh-buldan-maarif-1407] }
+provenance:
+  layer: own-research
+  source: "فتوح البلدان (ط مؤسسة المعارف 1407هـ/1987م) ص 246"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-futuh-buldan-batch-14
+sources: [source/futuh-buldan-maarif-1407]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

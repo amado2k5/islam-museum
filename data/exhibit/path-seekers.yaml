@@ -1,0 +1,78 @@
+id: exhibit/path-seekers
+class: exhibit
+kind: trail
+label:
+  ar: الطالبون
+  en: The Seekers
+summary:
+  ar: 'مسار في من طلبوا الحق فوجدوه: سلمان الفارسي يجوب الأديان، وعبد الله بن سلام العالم اليهودي — قصص
+    الاهتداء.'
+  en: A trail through those who sought and found.
+audience:
+- newcomer
+- student
+duration_minutes: 30
+wings: []
+regions:
+- arabia
+rooms:
+- title:
+    ar: سلمان
+    en: Salman
+  body:
+    ar: 'الفارسي: من الزرادشتية إلى النصرانية إلى الإسلام.'
+    en: 'الفارسي: من الزرادشتية إلى النصرانية إلى الإسلام.'
+  features:
+  - person/salman-al-farisi
+  - place/isfahan
+- title:
+    ar: الرحلة
+    en: The journey
+  body:
+    ar: 'أصفهان إلى الشام إلى المدينة: عشرون سنة.'
+    en: 'أصفهان إلى الشام إلى المدينة: عشرون سنة.'
+  features:
+  - person/salman-al-farisi
+  - place/damascus
+  - place/medina
+- title:
+    ar: ابن سلام
+    en: Ibn Salam
+  body:
+    ar: 'عبد الله: حبر يهودي يصدق النبي.'
+    en: 'عبد الله: حبر يهودي يصدق النبي.'
+  features:
+  - person/abdullah-ibn-salam
+  - place/medina
+- title:
+    ar: الخندق
+    en: The trench
+  body:
+    ar: 'سلمان يقترح: الفكرة الفارسية.'
+    en: 'سلمان يقترح: الفكرة الفارسية.'
+  features:
+  - person/salman-al-farisi
+  - place/medina
+- title:
+    ar: المثل
+    en: The model
+  body:
+    ar: 'البحث عن الحق: قصص المتحف.'
+    en: 'البحث عن الحق: قصص المتحف.'
+  features:
+  - person/salman-al-farisi
+  - person/salman-al-farisi
+prerequisites:
+- exhibit/path-islam-in-30-minutes
+sources:
+- source/wikidata
+provenance:
+  layer: own-research
+  source: Devin-assembled trail from existing museum entities
+  generated_by: Devin (SWE-2 High)
+  model: SWE-2 High
+  run: pathways-batch-7
+status:
+  review: draft
+  completeness: 1
+  generated_by: Devin (SWE-2 High), pathways lane, 2026-10-16

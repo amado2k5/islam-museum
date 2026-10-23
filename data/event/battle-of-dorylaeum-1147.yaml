@@ -1,0 +1,23 @@
+id: event/battle-of-dorylaeum-1147
+class: event
+kind: battle
+label: { ar: "معركة ضورليم الثانية", en: "Second Battle of Dorylaeum" }
+summary:
+  ar: "بطاقة أولية لمعركة ضورليم الثانية سنة ١١٤٧م، كمين السلاجقة لجيش كونراد الثالث في الحملة الثانية؛ لم تُراجع مصادره على الصفحة بعد."
+  en: "Draft card for the Second Battle of Dorylaeum in 1147, the Seljuk ambush of Conrad III's army in the Second Crusade; its sources are not yet checked on the page."
+wings: [time]
+periods: [period/crusades-ayyubid-mamluk]
+regions: [anatolia-balkans]
+date:
+  start: { edtf: "1147", precision: year, status: tradition, derived: true }
+  end: { edtf: "1147", precision: year, status: tradition, derived: true }
+sources: [source/kamil-ibn-al-athir]
+external_ids:
+  wikidata: Q1678637
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; battle attested in Crusades histories — entry not yet checked on the page"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-wave2
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

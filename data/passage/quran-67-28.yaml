@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 67:28 (سورة الملك، الآية 28)."
 text: "قُلْ أَرَءَيْتُمْ إِنْ أَهْلَكَنِىَ ٱللَّهُ وَمَن مَّعِىَ أَوْ رَحِمَنَا فَمَن يُجِيرُ ٱلْكَـٰفِرِينَ مِنْ عَذَابٍ أَلِيمٍ"
 text_search: "قل أرأيتم إن أهلكني الله ومن معي أو رحمنا فمن يجير الكافرين من عذاب أليم"
+translations:
+  en: { text: "Say (O Muhammad): Have ye thought: Whether Allah causeth me (Muhammad) and those with me to perish or hath mercy on us, still, who will protect the disbelievers from a painful doom?", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "کہو کہ بھلا دیکھو تو اگر خدا مجھ کو اور میرے ساتھیوں کو ہلاک کردے یا ہم پر مہربانی کرے۔ تو کون ہے کافروں کو دکھ دینے والے عذاب سے پناہ دے؟", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-67 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

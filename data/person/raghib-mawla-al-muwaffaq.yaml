@@ -1,0 +1,20 @@
+id: person/raghib-mawla-al-muwaffaq
+class: person
+label: { ar: "راغب مولى الموفق", en: "Raghib mawla al-Muwaffaq" }
+roles: [general]
+gender: male
+summary:
+  ar: "خادم ومولى أبي أحمد الموفق، غزا في البحر سنة خمس وثمانين ومائتين فأظفره الله بمراكب كثيرة من الروم وبجميع ما فيها، فضُربت أعناق ثلاثة آلاف منهم وأُحرقت المراكب وفُتح حصون كثيرة {cite:muntazam-ibn-al-jawzi p. 295}."
+  en: "A client of Abu Ahmad al-Muwaffaq; in 285 he led a naval raid that took many Byzantine ships, beheaded three thousand, burned the vessels and captured fortresses {cite:muntazam-ibn-al-jawzi p. 295}."
+wings: [people]
+periods: [period/abbasid-early]
+regions: [levant-iraq, anatolia-balkans]
+relations:
+  - { type: allied_with, target: person/abu-ahmad-al-muwaffaq, role: "مولى", sources: [source/muntazam-ibn-al-jawzi] }
+provenance:
+  layer: own-research
+  source: "المنتظم لابن الجوزي (ط حيدرآباد 1357، ج5 ق2، سنة 285)، قراءة آبل فيجن"
+  generated_by: "Devin (SWE-2 Medium) from Apple Vision OCR"
+  run: lib-muntazam-258-349-batch27
+sources: [source/muntazam-ibn-al-jawzi]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 Medium)" }

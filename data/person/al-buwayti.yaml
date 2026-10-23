@@ -1,0 +1,24 @@
+id: person/al-buwayti
+class: person
+label: { ar: "أبو يعقوب البويطي", en: "Abu Ya'qub al-Buwayti" }
+names:
+  - { value: "أبو يعقوب يوسف بن يحيى المصري البويطي", kind: full }
+gender: male
+summary:
+  ar: "صاحب الشافعي وواسطة عقد جماعته وأظهرهم نجابة، اختص به في حياته وقام مقامه في الدرس والفتوى بعد وفاته؛ حمل في أيام الواثق بالله من مصر إلى بغداد في مدة المحنة فأريد على القول بخلق القرآن فامتنع فحبس ولم يزل في السجن والقيد حتى مات؛ قال الربيع بن سليمان رأيته على بغل في عنقه غل وفي رجليه قيد وبينهما سلسلة فيها طوبة وزنها أربعون رطلاً وهو يقول فوالله لأموتن في حديدي حتى يأتي من بعدي قوم يعلمون أنه مات في هذا الشأن قوم في حديدهم، وكان أبو إسحاق الشيرازي يحكي أنه كان إذا سمع المؤذن يوم الجمعة اغتسل ولبس ثيابه ومشى إلى باب السجن فيقول السجان أين تريد فيقول أجيب داعي الله {cite:wafayat-ayan p. 61-64}. وفي تاريخ بغداد (ترجمة 7613): سمع عبد الله بن وهب ومحمد بن إدريس الشافعي، وروى عنه أبو إسماعيل الترمذي وإبراهيم بن إسحاق الحربي وأحمد بن منصور الرمادي والقاسم بن هاشم السمسار، وحُمل إلى بغداد أيام المحنة فامتنع من القول بخلق القرآن فحُبس حتى مات؛ وفيه منازعة ابن عبد الحكم لمجلس الشافعي في مرضه وقول الشافعي ليس أحد أحق بمجلسي من يوسف بن يحيى وليس أحد من أصحابي أعلم منه، وقوله للبويطي أنت تموت في الحديد {cite:tarikh-baghdad-khatib j.11 p.300-302}."
+  en: "Al-Shafi'i's chosen disciple who filled his place in lesson and fatwa; carried to Baghdad in al-Wathiq's days of the mihna and refusing the created-Qur'an he died in chains — al-Rabi' saw him on a mule, collared and fettered with a forty-ratl iron, vowing to die in his iron so that later folk would know men had died in this cause; each Friday he washed, dressed and walked to the prison gate to answer God's caller {cite:wafayat-ayan p. 61-64}. Tarikh Baghdad (#7613) adds that he heard Ibn Wahb and al-Shafi'i himself and was transmitted from by al-Tirmidhi, Ibrahim b. Ishaq al-Harbi, Ahmad b. Mansur al-Ramadi and Qasim b. Hashim al-Simsar; it preserves the contest with Ibn 'Abd al-Hakam for al-Shafi'i's sickbed majlis — 'no one has more right to my circle than Yusuf b. Yahya, and no pupil of mine knows more' — and al-Shafi'i's thrice-told prophecy 'you will die in your iron' {cite:tarikh-baghdad-khatib j.11 p.300-302}."
+roles: [jurist, scholar]
+wings: [people]
+periods: [period/abbasid-early]
+regions: [egypt-nile, levant-iraq]
+relations:
+  - { type: student_of, target: person/al-shafii }
+provenance:
+  layer: own-research
+  source: "وفيات الأعيان وأنباء أبناء الزمان — ابن خلكان (حرف الياء)"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-wafayat-batch-4
+died: { hijri: "0231", edtf: "0846~", calendar: julian, precision: year, status: tradition, derived: true, note: "الشيرازي: مات ببغداد في السجن سنة إحدى وثلاثين ومائتين، وكان حُمل من مصر في فتنة القرآن فأبى أن يقول بخلقه (PDF ص52).", sources: [source/tabaqat-fuqaha-abbas-1981] }
+external_ids: { wikidata: "Q2829209" }
+sources: [source/wafayat-ayan, source/tabaqat-fuqaha-abbas-1981, source/tarikh-baghdad-khatib]
+status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 High)" }

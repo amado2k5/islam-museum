@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 50:37 (سورة ق، الآية 37)."
 text: "إِنَّ فِى ذَٰلِكَ لَذِكْرَىٰ لِمَن كَانَ لَهُۥ قَلْبٌ أَوْ أَلْقَى ٱلسَّمْعَ وَهُوَ شَهِيدٌ"
 text_search: "إن في ذلك لذكرى لمن كان له قلب أو ألقى السمع وهو شهيد"
+translations:
+  en: { text: "Lo! therein verily is a reminder for him who hath a heart, or giveth ear with full intelligence.", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "جو شخص دل (آگاہ) رکھتا ہے یا دل سے متوجہ ہو کر سنتا ہے اس کے لئے اس میں نصیحت ہے", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-50 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

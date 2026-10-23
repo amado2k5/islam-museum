@@ -1,0 +1,32 @@
+id: person/muhammad-ibn-al-musayyib
+class: person
+label:
+  ar: أبو الدرداء محمد بن المسيب العقيلي
+  en: Abu al-Darda' Muhammad ibn al-Musayyib al-Uqayli
+summary:
+  ar: "أبو الدرداء محمد بن المسيب بن رافع بن مقلد أمير بني عقيل؛ مؤسس ملكهم بالموصل إذ قتل أبا طاهر وأصحابه وسار إلى الموصل فملكها، ولما بعث بهاء الدولة أبا جعفر الحجاج بن هرمز فغلب عليها زحف لحربه في قومه ومن اجتمع إليه من العرب فكان الظفر للديلم، وتوفي سنة 386هـ فولي إمارة بني عقيل أخوه علي ثم استقر الملك لأخيهما المقلد."
+  en: "Abu al-Darda' Muhammad ibn al-Musayyib ibn Rafi' ibn Muqallad, amir of Banu Uqayl and founder of their rule at Mosul — he killed Abu Tahir and his companions and took the city; when Baha' al-Dawla sent Abu Ja'far al-Hajjaj ibn Hurmuz who seized it, he marched against him with his people and rallied Arabs but the Daylamites prevailed; he died in 386 AH, the emirate passing to his brother Ali then settling with their brother al-Muqallad."
+gender: male
+roles: [ruler]
+traditions: [sunni]
+died: { edtf: "0996", hijri: "0386", calendar: julian, precision: year, status: tradition, derived: true, note: "توفي سنة 386هـ عند ابن خلدون؛ التحويل مشتق.", sources: [source/tarikh-ibn-khaldun-ibar] }
+relations:
+- type: member_of
+  target: group/banu-uqayl
+  sources:
+  - source/tarikh-ibn-khaldun-ibar
+wings: [people]
+periods: [period/buyid-seljuk-fatimid-era]
+regions: [levant-iraq]
+sources:
+- source/tarikh-ibn-khaldun-ibar
+provenance:
+  layer: own-research
+  source: ابن خلدون، العبر — دولة بني عقيل، ابتداء أمرهم بأبي الدرداء، ص1064 (طبعة هيليوبوليس)
+  generated_by: Devin (SWE-2 High) from Apple Vision OCR
+  model: swe-2-high
+  run: lib-ibar-east-1
+status:
+  review: draft
+  completeness: 1
+  generated_by: Devin (SWE-2 High); extracted from Ibn Khaldun al-Ibar via Apple Vision OCR

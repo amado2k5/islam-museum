@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 19:20 (سورة مريم، الآية 20)."
 text: "قَالَتْ أَنَّىٰ يَكُونُ لِى غُلَـٰمٌ وَلَمْ يَمْسَسْنِى بَشَرٌ وَلَمْ أَكُ بَغِيًّا"
 text_search: "قالت أنى يكون لي غلام ولم يمسسني بشر ولم أك بغيا"
+translations:
+  en: { text: "She said: How can I have a son when no mortal hath touched me, neither have I been unchaste?", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "مریم نے کہا کہ میرے ہاں لڑکا کیونکر ہوگا مجھے کسی بشر نے چھوا تک نہیں اور میں بدکار بھی نہیں ہوں", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-19 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

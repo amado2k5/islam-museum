@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 29:53 (سورة العنكبوت، الآية 53)."
 text: "وَيَسْتَعْجِلُونَكَ بِٱلْعَذَابِ ۚ وَلَوْلَآ أَجَلٌ مُّسَمًّى لَّجَآءَهُمُ ٱلْعَذَابُ وَلَيَأْتِيَنَّهُم بَغْتَةً وَهُمْ لَا يَشْعُرُونَ"
 text_search: "ويستعجلونك بالعذاب ۚ ولولا أجل مسمى لجاءهم العذاب وليأتينهم بغتة وهم لا يشعرون"
+translations:
+  en: { text: "They bid thee hasten on the doom (of Allah). And if a term had not been appointed, the doom would assuredly have come unto them (ere now). And verily it will come upon them suddenly when they perceive not.", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "اور یہ لوگ تم سے عذاب کے لئے جلدی کر رہے ہیں۔ اگر ایک وقت مقرر نہ (ہو چکا) ہوتا تو اُن پر عذاب آبھی گیا ہوتا۔ اور وہ (کسی وقت میں) اُن پر ضرور ناگہاں آکر رہے گا اور اُن کو معلوم بھی نہ ہوگا", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-29 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

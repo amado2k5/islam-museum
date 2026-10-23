@@ -1,0 +1,23 @@
+id: event/battle-of-rio-quiros-795
+class: event
+kind: battle
+label: { ar: "معركة نهر كيروس (٧٩٥)", en: "Battle of Río Quirós" }
+summary:
+  ar: "بطاقة أولية لمعركة نهر كيروس سنة ٧٩٥م، حملة عبد الملك بن عبد الواحد بن مغيث في أستورياس؛ لم تُراجع مصادره على الصفحة بعد."
+  en: "Draft card for the Battle of Río Quirós in 795, the Umayyad campaign into Asturias; its sources are not yet checked on the page."
+wings: [time]
+periods: [period/abbasid-early]
+regions: [andalus-europe]
+date:
+  start: { edtf: "0795", precision: year, status: tradition, derived: true }
+  end: { edtf: "0795", precision: year, status: tradition, derived: true }
+sources: [source/tarikh-al-tabari]
+external_ids:
+  wikidata: Q55664278
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; battle attested in narrative histories — entry not yet checked on the page"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-wave2
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

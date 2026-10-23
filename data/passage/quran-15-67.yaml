@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 15:67 (سورة الحجر، الآية 67)."
 text: "وَجَآءَ أَهْلُ ٱلْمَدِينَةِ يَسْتَبْشِرُونَ"
 text_search: "وجاء أهل المدينة يستبشرون"
+translations:
+  en: { text: "And the people of the city came, rejoicing at the news (of new arrivals).", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "اور اہل شہر (لوط کے پاس) خوش خوش (دوڑے) آئے", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-15 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

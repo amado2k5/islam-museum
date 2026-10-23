@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 47:22 (سورة محمد، الآية 22)."
 text: "فَهَلْ عَسَيْتُمْ إِن تَوَلَّيْتُمْ أَن تُفْسِدُوا۟ فِى ٱلْأَرْضِ وَتُقَطِّعُوٓا۟ أَرْحَامَكُمْ"
 text_search: "فهل عسيتم إن توليتم أن تفسدوا في الأرض وتقطعوا أرحامكم"
+translations:
+  en: { text: "Would ye then, if ye were given the command, work corruption in the land and sever your ties of kinship?", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "(اے منافقو!) تم سے عجب نہیں کہ اگر تم حاکم ہو جاؤ تو ملک میں خرابی کرنے لگو اور اپنے رشتوں کو توڑ ڈالو", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-47 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

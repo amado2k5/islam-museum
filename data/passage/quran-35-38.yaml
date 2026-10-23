@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 35:38 (سورة فاطر، الآية 38)."
 text: "إِنَّ ٱللَّهَ عَـٰلِمُ غَيْبِ ٱلسَّمَـٰوَٰتِ وَٱلْأَرْضِ ۚ إِنَّهُۥ عَلِيمٌۢ بِذَاتِ ٱلصُّدُورِ"
 text_search: "إن الله عالم غيب السماوات والأرض ۚ إنه عليم بذات الصدور"
+translations:
+  en: { text: "Lo! Allah is the Knower of the Unseen of the heavens and the earth. Lo! He is Aware of the secret of (men's) breasts.", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "بےشک خدا ہی آسمانوں اور زمین کی پوشیدہ باتوں کا جاننے والا ہے۔ وہ تو دل کے بھیدوں تک سے واقف ہے", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-35 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

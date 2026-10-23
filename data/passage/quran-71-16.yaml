@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 71:16 (سورة نوح، الآية 16)."
 text: "وَجَعَلَ ٱلْقَمَرَ فِيهِنَّ نُورًا وَجَعَلَ ٱلشَّمْسَ سِرَاجًا"
 text_search: "وجعل القمر فيهن نورا وجعل الشمس سراجا"
+translations:
+  en: { text: "And hath made the moon a light therein, and made the sun a lamp?", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "اور چاند کو ان میں (زمین کا) نور بنایا ہے اور سورج کو چراغ ٹھہرایا ہے", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-71 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

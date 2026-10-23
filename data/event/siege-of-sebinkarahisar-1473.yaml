@@ -1,0 +1,23 @@
+id: event/siege-of-sebinkarahisar-1473
+class: event
+kind: siege
+label: { ar: "حصار سبينقره حصار (١٤٧٣)", en: "Siege of Sebinkarahisar (1473)" }
+summary:
+  ar: "بطاقة أولية لحصار سبينقره حصار سنة ١٤٧٣م، من حرب محمد الفاتح مع أوزون حسن؛ لم تُراجع مصادره على الصفحة بعد."
+  en: "Draft card for the Siege of Sebinkarahisar in 1473, an action of Mehmed II's war with Uzun Hasan; its sources are not yet checked on the page."
+wings: [time]
+periods: [period/crusades-ayyubid-mamluk]
+regions: [anatolia-balkans]
+date:
+  start: { edtf: "1473", precision: year, status: tradition, derived: true }
+  end: { edtf: "1473", precision: year, status: tradition, derived: true }
+sources: [source/dawlat-uthmaniyya-salabi]
+external_ids:
+  wikidata: Q118947854
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; battle attested in narrative histories — entry not yet checked on the page"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-wave2
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

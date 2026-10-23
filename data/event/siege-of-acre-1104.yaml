@@ -1,0 +1,23 @@
+id: event/siege-of-acre-1104
+class: event
+kind: siege
+label: { ar: "حصار عكا (١١٠٤)", en: "Siege of Acre" }
+summary:
+  ar: "بطاقة أولية لحصار عكا سنة ١١٠٤م، أخذ الصليبيين للمدينة من الفاطميين؛ لم تُراجع مصادره على الصفحة بعد."
+  en: "Draft card for the Siege of Acre in 1104, the Crusader capture of the city from the Fatimids; its sources are not yet checked on the page."
+wings: [time]
+periods: [period/crusades-ayyubid-mamluk]
+regions: [levant-iraq]
+date:
+  start: { edtf: "1104", precision: year, status: tradition, derived: true }
+  end: { edtf: "1104", precision: year, status: tradition, derived: true }
+sources: [source/kamil-ibn-al-athir]
+external_ids:
+  wikidata: Q815103
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; battle attested in narrative histories — entry not yet checked on the page"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-wave2
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

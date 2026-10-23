@@ -13,16 +13,16 @@ You work from the book's extracted text, never from memory. Retrieve, then write
 - PDF page is not always the printed page. Find the offset on the images, record it once in the lane's progress file, and cite the page the reader will find.
 - Text-layer extractions fold Arabic presentation forms to plain letters, but الله often appears as «االله» (a PDF artefact): read it as الله and never copy the artefact. Scans are OCR'd and misread names and numbers: verify those on the page image. Dictionaries in two columns: if the text looks interleaved, re-read the pages with `ocr_page.py`.
 
-## 2. Rights: what you may take
+## 2. Rights: what you may take (`docs/sources-policy.md`)
 
-The book is a copyrighted-reference layer (`docs/plan/15` §3). You may take facts, chronology, names with nasab, places, numbers, grades attributed to a named scholar, isnad heads, and citations. Quotations are verbatim, at most 40 words, in quotation marks, with the page. Never republish a page, never paraphrase a chapter into museum prose, never store OCR text, page images or claims tables in the repository. Classical texts are public domain, but a modern edition's apparatus (tahqiq notes, indexes, margin rubrics) is not: facts and citations only, never the editor's notes verbatim.
+Everything the book says, rewritten. Read the book, copyrighted or not, including a modern edition's apparatus (tahqiq notes, indexes, margin rubrics), and write what it says in the museum's own words, organised by entity, with the page cited after every sentence that states a fact. Facts, chronology, names with nasab, places, numbers, grades attributed to a named scholar, isnad heads and citations all enter `data/`. Quotations are verbatim, at most 40 words, in quotation marks, with the page. What stays out of git: the book's text beyond those quotations (a page-by-page retelling or a sentence-by-sentence rewording is not the museum's text), and the source files themselves (OCR text, page images, claims tables).
 
 ## 3. One batch at a time (a batch is one coherent section; at most 25 entities)
 
 1. Read the section's pages (and the images where the text is doubtful).
 2. Build a claims table in the harvest workspace, not git: claim, value, printed page, quote ≤ 40 words, isnad head or attribution as printed, any doubt marker, target entity.
 3. Search `data/` for each entity (Arabic and ASCII). Reuse and extend; create only what is absent. A second book's page becomes an extra source and extra claims on the existing entity; a different date or number becomes a second dated claim with its own source and `status: debated`, never an overwrite.
-4. Write the entities and the Arabic prose from the claims table only (`content-standards.md`).
+4. Write the entities and the Arabic prose in your own words from what you read (`content-standards.md`); the claims table is how every sentence stays traceable to a page, not a limit on what you may say.
 5. Run the 60-second check, `npm run validate && npm test`, and `python scripts/harvest/library/verify_cites.py`.
 6. Commit and push (`workflow.md` §4), update the progress file, start the next batch. Do not stop to ask: use the rules, flag uncertainty in the entity and the progress file, continue.
 

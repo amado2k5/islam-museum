@@ -1,0 +1,23 @@
+id: event/polish-ottoman-war-1672
+class: event
+kind: war
+label: { ar: "الحرب البولونية العثمانية (١٤٧٢–١٦٧٦)", en: "Polish–Ottoman War of 1672–1676" }
+summary:
+  ar: "بطاقة أولية للحرب البولونية العثمانية من ١٦٧٢ إلى ١٦٧٦م، حرب بودوليا التي انتهت بصلح جورافنو؛ لم تُراجع مصادره على الصفحة بعد."
+  en: "Draft card for the Polish–Ottoman War of 1672–1676, the Podolia war ended by the Treaty of Żurawno; its sources are not yet checked on the page."
+wings: [time]
+periods: [period/gunpowder-empires]
+regions: [anatolia-balkans]
+date:
+  start: { edtf: "1672", precision: year, status: tradition, derived: true }
+  end: { edtf: "1676", precision: year, status: tradition, derived: true }
+sources: [source/dawlat-uthmaniyya-salabi]
+external_ids:
+  wikidata: Q74298
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; war attested in Ottoman histories — entry not yet checked on the page"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-wave2
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

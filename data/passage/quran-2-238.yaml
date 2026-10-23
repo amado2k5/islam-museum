@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 2:238 (سورة البقرة، الآية 238)."
 text: "حَـٰفِظُوا۟ عَلَى ٱلصَّلَوَٰتِ وَٱلصَّلَوٰةِ ٱلْوُسْطَىٰ وَقُومُوا۟ لِلَّهِ قَـٰنِتِينَ"
 text_search: "حافظوا على الصلوات والصلاة الوسطى وقوموا لله قانتين"
+translations:
+  en: { text: "Be guardians of your prayers, and of the midmost prayer, and stand up with devotion to Allah.", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "(مسلمانو) سب نمازیں خصوصاً بیچ کی نماز (یعنی نماز عصر) پورے التزام کے ساتھ ادا کرتے رہو۔ اور خدا کے آگے ادب سے کھڑے رہا کرو", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-2 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

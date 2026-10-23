@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 7:156 (سورة الأعراف، الآية 156)."
 text: "۞ وَٱكْتُبْ لَنَا فِى هَـٰذِهِ ٱلدُّنْيَا حَسَنَةً وَفِى ٱلْـَٔاخِرَةِ إِنَّا هُدْنَآ إِلَيْكَ ۚ قَالَ عَذَابِىٓ أُصِيبُ بِهِۦ مَنْ أَشَآءُ ۖ وَرَحْمَتِى وَسِعَتْ كُلَّ شَىْءٍ ۚ فَسَأَكْتُبُهَا لِلَّذِينَ يَتَّقُونَ وَيُؤْتُونَ ٱلزَّكَوٰةَ وَٱلَّذِينَ هُم بِـَٔايَـٰتِنَا يُؤْمِنُونَ"
 text_search: "۞ واكتب لنا في هذه الدنيا حسنة وفي الآخرة إنا هدنا إليك ۚ قال عذابي أصيب به من أشاء ۖ ورحمتي وسعت كل شيء ۚ فسأكتبها للذين يتقون ويؤتون الزكاة والذين هم بآياتنا يؤمنون"
+translations:
+  en: { text: "And ordain for us in this world that which is good, and in the Hereafter (that which is good), Lo! We have turned unto Thee. He said: I smite with My punishment whom I will, and My mercy embraceth all things, therefore I shall ordain it for those who ward off (evil) and pay the poor-due, and those who believe Our revelations;", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "اور ہمارے لیے اس دنیا میں بھی بھلائی لکھ دے اور آخرت میں بھی۔ ہم تیری طرف رجوع ہوچکے۔ فرمایا کہ جو میرا عذاب ہے اسے تو جس پر چاہتا ہوں نازل کرتا ہوں اور جو میری رحمت ہے وہ ہر چیز کو شامل ہے۔ میں اس کو ان لوگوں کے لیے لکھ دوں گا جو پرہیزگاری کرتے اور زکوٰة دیتے اور ہماری آیتوں پر ایمان رکھتے ہیں", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-7 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

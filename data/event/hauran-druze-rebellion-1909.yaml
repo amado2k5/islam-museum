@@ -1,0 +1,23 @@
+id: event/hauran-druze-rebellion-1909
+class: event
+kind: revolt
+label: { ar: "ثورة دروز حوران", en: "Hauran Druze Rebellion" }
+summary:
+  ar: "بطاقة أولية لثورة دروز حوران في ١٩٠٩–١٩١٠م، انتفاضة الأطرش على العثمانيين؛ لم تُراجع مصادره على الصفحة بعد."
+  en: "Draft card for the Hauran Druze Rebellion of 1909–10, the Atrash revolt against the Ottomans; its sources are not yet checked on the page."
+wings: [time]
+periods: [period/modern-era]
+regions: [levant-iraq]
+date:
+  start: { edtf: "1909", precision: year, status: tradition, derived: true }
+  end: { edtf: "1910", precision: year, status: tradition, derived: true }
+sources: [source/tarikh-islam-hasan-ibrahim]
+external_ids:
+  wikidata: Q5682791
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; battle attested in narrative histories — entry not yet checked on the page"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-wave2
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

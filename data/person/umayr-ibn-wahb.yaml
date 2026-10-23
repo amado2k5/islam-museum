@@ -1,0 +1,19 @@
+id: person/umayr-ibn-wahb
+class: person
+label: { ar: "عمير بن وهب الجمحي", en: "Umayr ibn Wahb al-Jumahi" }
+summary:
+  ar: "عمير بن وهب الجمحي؛ كان في جيش الزبير بن العوام المعزّز إلى مصر ووجّهه عمرو بن العاص بعد فتح الفسطاط إلى تنّيس ودمياط وتونة ودميرة وشطا ودقهلة وبنا وبوصير فصالح أهل قراها على مثل حكم الفسطاط."
+  en: "Umayr ibn Wahb al-Jumahi; he rode in al-Zubayr ibn al-Awwam's reinforcement to Egypt, and after al-Fustat's fall Amr ibn al-As sent him to Tinnis, Dimyat, Tuna, Damira, Shata, Diqahla, Bana and Busir, whose villages compounded on Fustat's terms."
+wings: [people]
+periods: [period/rashidun]
+relations:
+  - { type: participated_in, target: event/conquest-of-egypt, role: "في جيش الزبير", sources: [source/futuh-buldan-maarif-1407] }
+  - { type: participated_in, target: event/four-lieutenants-egypt, role: "موجّه تنيس ودمياط والبحري", sources: [source/futuh-buldan-maarif-1407] }
+  - { type: participated_in, target: event/conversion-of-umayr-ibn-wahb, role: "المسلم" }
+provenance:
+  layer: own-research
+  source: "فتوح البلدان (ط مؤسسة المعارف 1407هـ/1987م) ص 299، 304"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-futuh-buldan-batch-19
+sources: [source/futuh-buldan-maarif-1407]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

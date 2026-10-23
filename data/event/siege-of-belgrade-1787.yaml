@@ -1,0 +1,23 @@
+id: event/siege-of-belgrade-1787
+class: event
+kind: siege
+label: { ar: "حصار بلغراد (١٧٨٧–١٧٨٨)", en: "Siege of Belgrade (1787–1788)" }
+summary:
+  ar: "بطاقة أولية لحصار بلغراد (١٧٨٧–١٧٨٨)؛ لم تُراجع مصادره على الصفحة بعد."
+  en: "Draft card for Siege of Belgrade (1787–1788); its sources are not yet checked on the page."
+wings: [time]
+periods: [period/gunpowder-empires]
+regions: [anatolia-balkans]
+date:
+  start: { edtf: "1787", precision: year, status: tradition, derived: true }
+  end: { edtf: "1788", precision: year, status: tradition, derived: true }
+sources: [source/tarikh-islam-hasan-ibrahim]
+external_ids:
+  wikidata: Q56389812
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; battle attested in narrative histories — entry not yet checked on the page"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-wave2
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

@@ -1,0 +1,24 @@
+id: work/al-mawsua-al-fiqhiyya-al-kuwaitiyya
+class: work
+kind: book
+label: { ar: "الموسوعة الفقهية الكويتية", en: "al-Mawsu'a al-Fiqhiyya al-Kuwaitiyya (Kuwaiti Fiqh Encyclopedia)" }
+summary:
+  ar: "موسوعة فقهية عصرية تصدرها وزارة الأوقاف والشئون الإسلامية في الكويت. ترتب مصطلحات الفقه ألفبائياً، وتعرض في كل مسألة الاتجاهات الفقهية مع أدلتها، وتستوعب التراث الفقهي حتى القرن الثالث عشر الهجري، ولا تشمل التقنينات ولا الترجيح الشخصي ولا المناقشات المذهبية. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.1326} {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.1331} {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.1341}"
+  en: "A modern fiqh encyclopedia issued by the Ministry of Awqaf and Islamic Affairs in Kuwait. Its headwords are fiqh terms arranged alphabetically; under each question it sets out the juristic positions with their evidence, and it covers the legal heritage up to the 13th century AH. It excludes codifications, personal preference and sectarian debate."
+language: language/arabic
+wings: [ideas]
+themes: [development-of-law-theology-institutions]
+periods: [period/contemporary-era]
+regions: [global]
+relations:
+  - { type: mentions, target: concept/fiqh }
+  - { type: mentions, target: concept/al-abar }
+  - { type: mentions, target: concept/ibaha }
+provenance:
+  layer: own-research
+  source: "الموسوعة الفقهية الكويتية، نسخة نور بوك، المقدمة (الفقرات 45-70، ص 1279-1344 من المسح) ومدخلا آبار وإباحة"
+  generated_by: "Claude Haiku 5.5"
+  model: claude-haiku-5-5
+  run: lib-exp-usul-fiqh-depth-kuwaiti-1
+sources: [source/fiqh-mawsua-kuwaitiyya-noor-v3]
+status: { review: draft, completeness: 1, generated_by: "Claude Haiku 5.5; authors not named on the pages read, left empty; printed edition and volume not verified; second edition date flagged needs_source" }

@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 19:48 (سورة مريم، الآية 48)."
 text: "وَأَعْتَزِلُكُمْ وَمَا تَدْعُونَ مِن دُونِ ٱللَّهِ وَأَدْعُوا۟ رَبِّى عَسَىٰٓ أَلَّآ أَكُونَ بِدُعَآءِ رَبِّى شَقِيًّا"
 text_search: "وأعتزلكم وما تدعون من دون الله وأدعو ربي عسى ألا أكون بدعاء ربي شقيا"
+translations:
+  en: { text: "I shall withdraw from you and that unto which ye pray beside Allah, and I shall pray unto my Lord. It may be that, in prayer unto my Lord, I shall not be unblest.", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "اور میں آپ لوگوں سے اور جن کو آپ خدا کے سوا پکارا کرتے ہیں ان سے کنارہ کرتا ہوں اور اپنے پروردگار ہی کو پکاروں گا۔ امید ہے کہ میں اپنے پروردگار کو پکار کر محروم نہیں رہوں گا", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-19 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

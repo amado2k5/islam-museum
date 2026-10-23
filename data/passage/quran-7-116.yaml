@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 7:116 (سورة الأعراف، الآية 116)."
 text: "قَالَ أَلْقُوا۟ ۖ فَلَمَّآ أَلْقَوْا۟ سَحَرُوٓا۟ أَعْيُنَ ٱلنَّاسِ وَٱسْتَرْهَبُوهُمْ وَجَآءُو بِسِحْرٍ عَظِيمٍ"
 text_search: "قال ألقوا ۖ فلما ألقوا سحروا أعين الناس واسترهبوهم وجاءوا بسحر عظيم"
+translations:
+  en: { text: "He said: Throw! And when they threw they cast a spell upon the people's eyes, and overawed them, and produced a mighty spell.", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "(موسیٰ نے) کہا تم ہی ڈالو۔ جب انہوں نے (جادو کی چیزیں) ڈالیں تو لوگوں کی آنکھوں پر جادو کردیا (یعنی نظربندی کردی) اور (لاٹھیوں اور رسیوں کے سانپ بنا بنا کر) انہیں ڈرا دیا اور بہت بڑا جادو دکھایا", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-7 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

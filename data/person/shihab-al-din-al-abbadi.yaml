@@ -1,0 +1,25 @@
+id: person/shihab-al-din-al-abbadi
+class: person
+label: { ar: "شهاب الدين العبادي الحنفي", en: "Shihab al-Din al-'Abbadi, the Hanafi" }
+names:
+  - { value: "شهاب الدين أحمد بن أبي بكر بن محمد العبادي الحنفي", kind: full }
+died: { edtf: "1398-12~", hijri: "0801-04", calendar: julian, precision: month, status: tradition, derived: true, note: "توفي في ثامن أو تاسع عشر ربيع الآخر سنة إحدى وثمانمائة {cite:shadharat-dhahab p. 11-12}." }
+summary:
+  ar: "الفقيه الحنفي؛ تفقه على السراج الهندي وفضل ودرّس واشتغل ثم صاهر القايجي وناب في الحكم ووقع على القضاء ودرّس مدرسة الظاهر حسن وكان يجمع الطلبة ويحسن إليهم، وحصلت له مخنة مع السالمي وأخرى مع الملك الظاهر {cite:shadharat-dhahab p. 11-12}."
+gender: male
+roles: [jurist, teacher]
+wings: [people]
+periods: [period/mongol-post-mongol]
+regions: [egypt-nile]
+faith:
+  - value: sunni-hanafi
+    basis: tradition
+relations:
+  - { type: died_in, target: place/cairo, sources: [source/shadharat-dhahab] }
+sources: [source/shadharat-dhahab]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }
+provenance:
+  layer: own-research
+  source: "شذرات الذهب — ابن العماد (ط مثنى، ج7، سنة 801)، قراءة آبل فيجن"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-shadharat-batch-136

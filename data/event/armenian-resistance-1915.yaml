@@ -1,0 +1,23 @@
+id: event/armenian-resistance-1915
+class: event
+kind: revolt
+label: { ar: "المقاومة الأرمنية (١٩١٥)", en: "Armenian Resistance of 1915" }
+summary:
+  ar: "بطاقة أولية للمقاومة الأرمنية في الدولة العثمانية سنة ١٩١٥م، دفاعات فان وموصى داغ وشابين قره حصار؛ لم تُراجع مصادره على الصفحة بعد."
+  en: "Draft card for the Armenian resistance of 1915, the defences at Van, Musa Dagh and Shabin Karahisar in the Ottoman Empire; its sources are not yet checked on the page."
+wings: [time]
+periods: [period/modern-era]
+regions: [anatolia-balkans]
+date:
+  start: { edtf: "1914", precision: year, status: tradition, derived: true }
+  end: { edtf: "1917", precision: year, status: tradition, derived: true }
+sources: [source/dawlat-uthmaniyya-salabi]
+external_ids:
+  wikidata: Q23303392
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; resistance attested in late-Ottoman histories — entry not yet checked on the page"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-wave2
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

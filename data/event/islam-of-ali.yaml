@@ -1,0 +1,33 @@
+id: event/islam-of-ali
+class: event
+kind: other
+label: { ar: "إسلام علي بن أبي طالب وهو صبي", en: "Ali ibn Abi Talib accepts Islam as a boy" }
+summary:
+  ar: "أخذ النبي عليّاً من عمه أبي طالب في أزمة قريش فنشأ في بيته، فلما بُعث النبي اتبعه علي وأقرّ به وصدّقه، وكان إسلامه وهو صبي؛ ويرى الصلابي أنه أول الصبيان إسلاماً، وأن أبا بكر أول الرجال الأحرار. وكان علي يكتم إسلامه عن أبي طالب خوفاً منه، ثم عُرف أمره بصلاته مع النبي في شعاب مكة."
+  en: "Ali grew up in the Prophet's household after a famine led the Prophet and al-Abbas to take charge of his upbringing; he followed the Prophet from the start of the mission, and the Sunni author counts him the first boy to believe."
+wings: [people, ideas]
+themes: [converts-and-leavers]
+periods: [period/prophetic-era]
+regions: [arabia]
+date:
+  start: { edtf: "0610/0622", calendar: julian, precision: year, status: tradition, derived: true, note: "الكتاب لا يذكر سنة لإسلام علي؛ الفترة المكية من بداية البعثة إلى الهجرة (ص31). التاريخ مشتق لا منصوص عليه." }
+relations:
+  - { type: occurred_at, target: place/mecca }
+  - { type: had_participant, target: person/ali-ibn-abi-talib, role: "أسلم وهو صبي", sources: [source/sallabi-ali-vol1] }
+  - { type: had_participant, target: person/muhammad, role: "دعاه إلى الإسلام وعلّمه الشهادة", sources: [source/sallabi-ali-vol1] }
+  - { type: had_participant, target: person/khadija, role: "أول من آمن بالنبي من النساء", sources: [source/sallabi-ali-vol1] }
+  - { type: had_participant, target: person/abu-talib, role: "كان يكتم عنه إسلامه خوفاً منه، ثم عرف بصلاته ولم ينهه", sources: [source/sallabi-ali-vol1] }
+  - { type: part_of, target: period/prophetic-era }
+issue: { ar: "من أول من أسلم بعد خديجة: أبو بكر أم علي؟", en: "Who believed first after Khadija: Abu Bakr or Ali?" }
+perspectives:
+  - tradition: sunni
+    id: sunni-author
+    summary: { ar: "يرجّح الصلابي أن أول الرجال الأحرار إسلاماً أبو بكر، وأن علياً أول الصبيان إسلاماً؛ ويستند إلى رواية ابن إسحاق في أن النبي أخذه من عمه أبي طالب في أزمة قريش فضمّه إليه قبل البعثة فلم يزل معه (ص31-32).", en: "Al-Sallabi prefers the view that Abu Bakr was the first free man and Ali the first boy to believe, citing Ibn Ishaq's account that the Prophet took Ali into his own care during a famine before the mission (pp. 31-32)." }
+    sources: [source/sallabi-ali-vol1]
+  - tradition: other
+    id: other-report
+    summary: { ar: "تنقل المصادر الأخرى أن أول الرجال إسلاماً أبو بكر وأن الكثير من أهل السيرة يقدمون علياً في الصبيان؛ لم يُقرأ هنا نص مرجع آخر، فالتلخيص يحتاج إلى مرجع محدد (needs_source).", en: "Other sources record Abu Bakr as the first man; the summary of the wider debate over boys needs a named reference (needs_source)." }
+    sources: [source/sallabi-ali-vol1]
+sources: [source/sallabi-ali-vol1]
+status: { review: draft, completeness: 1, generated_by: "Claude Code (claude-haiku-5-5); mined from sallabi-ali-vol1 pp. 31-32" }
+provenance: { layer: own-research, source: "sallabi-ali-vol1 pp. 31-32", generated_by: "Claude Code", model: "claude-haiku-5-5", run: "sallabi-ali-vol1-batch1" }

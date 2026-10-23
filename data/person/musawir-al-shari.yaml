@@ -1,0 +1,32 @@
+id: person/musawir-al-shari
+class: person
+label:
+  ar: مساور الشراري
+  en: Musawir al-Shari
+summary:
+  ar: "مساور الشراري، زعيم خارجي خرج على الموصل أيام الخليفة المنصور فهزم أهلها على عهد واليها عقبة بن محمد بن الأشعث، وتغلب على المدينة وكثر أتباعه إلى أن هلك في حربه مع العساكر سنة 263هـ على حكاية ابن خلدون."
+  en: "Musawir al-Shari, a Kharijite leader who rose at Mosul and defeated its people under the governor Uqba ibn Muhammad ibn al-Ash'ath, seized the city and drew many followers until he was killed fighting the troops in 263 AH, per Ibn Khaldun's account."
+gender: male
+roles: [rebel]
+traditions: [other]
+died: { edtf: "0877", hijri: "0263", calendar: julian, precision: year, status: tradition, derived: true, note: "هلك في حربه مع العساكر سنة 263هـ عند ابن خلدون؛ التحويل مشتق.", sources: [source/tarikh-ibn-khaldun-ibar] }
+relations:
+- type: member_of
+  target: group/khawarij
+  sources:
+  - source/tarikh-ibn-khaldun-ibar
+wings: [people]
+periods: [period/abbasid-fragmentation]
+regions: [levant-iraq]
+sources:
+- source/tarikh-ibn-khaldun-ibar
+provenance:
+  layer: own-research
+  source: ابن خلدون، العبر — أخبار الخوارج بالموصل ومهلك مساور، ص1046-1047 (طبعة هيليوبوليس)
+  generated_by: Devin (SWE-2 High) from Apple Vision OCR
+  model: swe-2-high
+  run: lib-ibar-east-1
+status:
+  review: draft
+  completeness: 1
+  generated_by: Devin (SWE-2 High); extracted from Ibn Khaldun al-Ibar via Apple Vision OCR

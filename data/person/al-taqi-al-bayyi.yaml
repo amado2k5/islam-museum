@@ -1,0 +1,27 @@
+id: person/al-taqi-al-bayyi
+class: person
+label: { ar: "التقي البيع وزير خمسة ملوك", en: "al-Taqi al-Bayyi', vizier to five sultans" }
+names:
+  - { value: "التقي البيع الصاحب الكبير أبو البقاء توبة بن علي بن مهاجر التكريتي", kind: full }
+born: { edtf: "1223~", hijri: "0620~", calendar: julian, precision: year, status: tradition, derived: true, note: "توفي عن ثمان وسبعين سنة {cite:shadharat-dhahab p. 771}." }
+died: { edtf: "1299-03~", hijri: "0698-06", calendar: julian, precision: month, status: tradition, derived: true, note: "توفي في جمادى الآخرة ودفن بتربته بسفح قاسيون {cite:shadharat-dhahab p. 771}." }
+summary:
+  ar: "الصاحب الكبير؛ كان تاجراً فلما أخذت التتار بغداد حضر إلى الشام فتولى البيعية بدار الوكالة ثم ضمنها في أيام الظاهر، وخدم المنصور وأقرضه ستين ألفاً بلا فائدة فلما تولى المنصور أطلق له دار الوكالة وما كان عليه مكسوراً — مائة ألف درهم — وولاه كتابة الخزانة ثم نقله إلى وزارة الشام، وتوزر لخمسة ملوك: الأشرف والمنصور والعادل كتبغا ولاجين والناصر {cite:shadharat-dhahab p. 771}."
+  en: "The great sahib — a merchant who, lending al-Mansur sixty thousand gratis, rose to the khizana and then Syria's vizierate; served five sultans: al-Ashraf, al-Mansur, al-Adil Kitbugha, Lajin, al-Nasir {cite:shadharat-dhahab p. 771}."
+gender: male
+roles: [vizier, merchant]
+wings: [people]
+periods: [period/mongol-post-mongol]
+regions: [levant-iraq, egypt-nile]
+faith:
+  - value: sunni
+    basis: tradition
+relations:
+  - { type: died_in, target: place/damascus, sources: [source/shadharat-dhahab] }
+sources: [source/shadharat-dhahab]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }
+provenance:
+  layer: own-research
+  source: "شذرات الذهب — ابن العماد (ج7، سنة 698)، قراءة آبل فيجن"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-shadharat-batch-135

@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 5:68 (سورة المائدة، الآية 68)."
 text: "قُلْ يَـٰٓأَهْلَ ٱلْكِتَـٰبِ لَسْتُمْ عَلَىٰ شَىْءٍ حَتَّىٰ تُقِيمُوا۟ ٱلتَّوْرَىٰةَ وَٱلْإِنجِيلَ وَمَآ أُنزِلَ إِلَيْكُم مِّن رَّبِّكُمْ ۗ وَلَيَزِيدَنَّ كَثِيرًا مِّنْهُم مَّآ أُنزِلَ إِلَيْكَ مِن رَّبِّكَ طُغْيَـٰنًا وَكُفْرًا ۖ فَلَا تَأْسَ عَلَى ٱلْقَوْمِ ٱلْكَـٰفِرِينَ"
 text_search: "قل يا أهل الكتاب لستم على شيء حتى تقيموا التوراة والإنجيل وما أنزل إليكم من ربكم ۗ وليزيدن كثيرا منهم ما أنزل إليك من ربك طغيانا وكفرا ۖ فلا تأس على القوم الكافرين"
+translations:
+  en: { text: "Say O People of the Scripture! Ye have naught (of guidance) till ye observe the Torah and the Gospel and that which was revealed unto you from your Lord. That which is revealed unto thee (Muhammad) from thy Lord is certain to increase the contumacy and disbelief of many of them. But grieve not for the disbelieving folk.", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "کہو کہ اے اہل کتاب! جب تک تم تورات اور انجیل کو اور جو (اور کتابیں) تمہارے پروردگار کی طرف سے تم لوگوں پر نازل ہوئیں ان کو قائم نہ رکھو گے کچھ بھی راہ پر نہیں ہو سکتے اور یہ (قرآن) جو تمہارے پروردگار کی طرف سے تم پر نازل ہوا ہے ان میں سے اکثر کی سرکشی اور کفر اور بڑھے گا تو تم قوم کفار پر افسوس نہ کرو", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-5 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

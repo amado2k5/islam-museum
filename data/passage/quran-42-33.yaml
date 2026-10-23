@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 42:33 (سورة الشورى، الآية 33)."
 text: "إِن يَشَأْ يُسْكِنِ ٱلرِّيحَ فَيَظْلَلْنَ رَوَاكِدَ عَلَىٰ ظَهْرِهِۦٓ ۚ إِنَّ فِى ذَٰلِكَ لَـَٔايَـٰتٍ لِّكُلِّ صَبَّارٍ شَكُورٍ"
 text_search: "إن يشأ يسكن الريح فيظللن رواكد على ظهره ۚ إن في ذلك لآيات لكل صبار شكور"
+translations:
+  en: { text: "If He will He calmeth the wind so that they keep still upon its surface - Lo! herein verily are signs for every steadfast grateful (heart). -", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "اگر خدا چاہے تو ہوا کو ٹھیرا دے اور جہاز اس کی سطح پر کھڑے رہ جائیں۔ تمام صبر اور شکر کرنے والوں کے لئے ان (باتوں) میں قدرت خدا کے نمونے ہیں", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-42 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

@@ -1,0 +1,23 @@
+id: event/battle-of-corbins-1126
+class: event
+kind: battle
+label: { ar: "معركة قوربينس", en: "Battle of Corbins" }
+summary:
+  ar: "بطاقة أولية لمعركة قوربينس سنة ١١٢٦م، فوز الكتالان على قوات الطائفة في حصار لاردة؛ لم تُراجع مصادره على الصفحة بعد."
+  en: "Draft card for the Battle of Corbins in 1126, the Catalan victory over taifa forces at Lleida's siege; its sources are not yet checked on the page."
+wings: [time]
+periods: [period/crusades-ayyubid-mamluk]
+regions: [andalus-europe]
+date:
+  start: { edtf: "1126", precision: year, status: tradition, derived: true }
+  end: { edtf: "1126", precision: year, status: tradition, derived: true }
+sources: [source/tarikh-islam-hasan-ibrahim]
+external_ids:
+  wikidata: Q11908733
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; battle attested in narrative histories — entry not yet checked on the page"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-wave2
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

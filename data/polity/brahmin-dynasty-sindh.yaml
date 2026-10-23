@@ -1,0 +1,32 @@
+id: polity/brahmin-dynasty-sindh
+class: polity
+kind: dynasty
+label:
+  ar: "براهمة السند"
+  en: "Brahmin dynasty of Sindh"
+summary:
+  ar: "بطاقة أولية لسلالة البراهمة، حكام السند الهندوس الذين خلفوا الرايات قبل الفتح الإسلامي؛ لم تُراجع مصادرها على الصفحة بعد."
+  en: "Draft card for the Brahmin dynasty, the Hindu rulers of Sindh who followed the Rai before the Islamic conquest; its sources are not yet checked on the page."
+wings: [time]
+periods: [period/umayyad]
+regions: [south-asia]
+start:
+  edtf: "631"
+  precision: year
+  status: tradition
+  derived: true
+end:
+  edtf: "712"
+  precision: year
+  status: tradition
+  derived: true
+sources: [source/futuh-buldan-maarif-1407]
+external_ids:
+  wikidata: Q15156207
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; dynasty attested in Chachnama and conquest histories — entry not yet checked on the page"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-wave2
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

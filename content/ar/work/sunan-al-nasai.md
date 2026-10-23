@@ -1,0 +1,10 @@
+---
+id: work/sunan-al-nasai
+lang: ar
+source_lang: ar
+translators: []
+---
+## موجز
+«السنن»، ويعرف بالسنن الصغرى، لأحمد بن شعيب [[person/al-nasai|النسائي]] (215–303هـ). وهو من [[concept/kutub-al-sitta|الكتب الستة]]. {cite:sunan-al-nasai}
+
+اشتهر بعنايته بعلل الحديث وأخطاء الراوي، حتى قيل إنه أدقها من جهة العلل. وقسّمه مصنفه في النسخة المختصرة بعد أن انتقاه من سننه الكبرى. {cite:sunan-al-nasai}

@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 26:154 (سورة الشعراء، الآية 154)."
 text: "مَآ أَنتَ إِلَّا بَشَرٌ مِّثْلُنَا فَأْتِ بِـَٔايَةٍ إِن كُنتَ مِنَ ٱلصَّـٰدِقِينَ"
 text_search: "ما أنت إلا بشر مثلنا فأت بآية إن كنت من الصادقين"
+translations:
+  en: { text: "Thou art but a mortal like us. So bring some token if thou art of the truthful.", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "تم اور کچھ نہیں ہماری طرح آدمی ہو۔ اگر سچے ہو تو کوئی نشانی پیش کرو", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-26 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

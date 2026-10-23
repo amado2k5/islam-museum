@@ -1,0 +1,23 @@
+id: event/nasrani-hadd-riot-284
+class: event
+kind: other
+label: { ar: "فتنة النصراني المشتِم سنة ٢٨٤", en: "Unrest over the Christian accused of insulting the Prophet, 284" }
+summary:
+  ar: "في سنة أربع وثمانين ومائتين أُخذ نصراني شُهد عليه أنه شتم النبي فحُبس، فاجتمعت العوام وصاحوا بالقاسم بن عبيد الله يطالبونه بإقامة الحد، ومضوا إلى دار السلطان فوثبوا بأعوانه حتى هربوا، ودخلوا من الباب الأول والثاني إلى باب المعتضد، فأرسل إلى يوسف القاضي لينظر في الأمر، فكاد الزحام يقتل الرسول والقاضي حتى دخل القاضي بابًا وأُغلق دونهم {cite:muntazam-ibn-al-jawzi p. 171}."
+  en: "In 284 a Christian testified to have insulted the Prophet was imprisoned; the Baghdad crowds massed demanding the hadd, stormed the vizier's door and the caliphal gates, and nearly killed the judge Yusuf and the caliph's messenger in the crush {cite:muntazam-ibn-al-jawzi p. 171}."
+wings: [time]
+periods: [period/abbasid-early]
+regions: [levant-iraq]
+date:
+  start: { edtf: "0897~", hijri: "0284", calendar: julian, precision: year, status: tradition, derived: true, note: "٢٨٤؛ التحويل مشتق {cite:muntazam-ibn-al-jawzi p. 171}." }
+relations:
+  - { type: occurred_at, target: place/baghdad, sources: [source/muntazam-ibn-al-jawzi] }
+  - { type: had_participant, target: person/yusuf-ibn-yaqub-al-qadi, role: "القاضي", sources: [source/muntazam-ibn-al-jawzi] }
+  - { type: had_participant, target: person/al-mutadid, role: "الخليفة", sources: [source/muntazam-ibn-al-jawzi] }
+provenance:
+  layer: own-research
+  source: "المنتظم لابن الجوزي (ط حيدرآباد 1357، ج5 ق2، سنة 284)، قراءة آبل فيجن"
+  generated_by: "Devin (SWE-2 Medium) from Apple Vision OCR"
+  run: lib-muntazam-258-349-batch27
+sources: [source/muntazam-ibn-al-jawzi]
+status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 Medium)" }

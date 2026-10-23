@@ -1,0 +1,20 @@
+id: event/saladin-homs-hama-573
+class: event
+kind: conquest
+label: { ar: "ملك صلاح الدين حمص وحماة", en: "Saladin takes Homs and Hama" }
+date:
+  start: { edtf: "1177~", hijri: "0573", calendar: julian, precision: year, status: tradition, derived: true }
+summary:
+  ar: "ملك صلاح الدين مدينتي حمص وحماة، فأما حماة فدخلها بعد أن امتنع أهلها فقاتلهم من الغد فملك البلد وأمّن أهله وامتنعت عليه القلعة {cite:kamil-ibn-al-athir p. 64-65}."
+  en: "Saladin took Homs and Hama — Hama's townsfolk resisted a day, then the city fell; he gave them amān while the citadel still held out {cite:kamil-ibn-al-athir p. 64-65}."
+relations:
+  - { type: occurred_at, target: place/homs, sources: [source/kamil-ibn-al-athir] }
+  - { type: occurred_at, target: place/hama, sources: [source/kamil-ibn-al-athir] }
+  - { type: had_participant, target: person/salah-al-din-yusuf-ibn-ayyub, sources: [source/kamil-ibn-al-athir] }
+provenance:
+  layer: own-research
+  source: "الكامل في التاريخ لابن الأثير، قراءة آبل فيجن"
+  generated_by: "Devin (SWE-2 Medium) from Apple Vision OCR"
+  run: lib-kamil-v12-batch02
+sources: [source/kamil-ibn-al-athir]
+status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 Medium)" }

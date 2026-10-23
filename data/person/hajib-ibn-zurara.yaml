@@ -1,0 +1,23 @@
+id: person/hajib-ibn-zurara
+class: person
+label: { ar: "حاجب بن زرارة التميمي", en: "Hajib ibn Zurara al-Tamimi" }
+names:
+  - { kind: full, lang: ar, value: "حاجب بن زرارة التميمي" }
+gender: male
+roles: [tribal-chief]
+summary:
+  ar: "سيد من سادات تميم يذكره الرحيق المختوم مع هانئ بن مسعود والسموأل بن عادياء مثلاً على أن الوفاء بالعهد كان عند أهل الجاهلية ديناً يتمسكون به."
+  en: "A chief of Tamim named in al-Raheeq al-Makhtum with Hani ibn Mas'ud and al-Samaw'al ibn Adiya as an example of how fidelity to a covenant was a religion to the Arabs of the Jahiliyya."
+wings: [people]
+periods: [period/pre-islamic-arabia]
+regions: [arabia]
+relations:
+  - { type: member_of, target: group/banu-tamim, sources: [source/mubarakpuri-raheeq] }
+provenance:
+  layer: own-research
+  source: "الرحيق المختوم ص45–47"
+  generated_by: "Claude Code"
+  model: "claude-fable-5-1"
+  run: "raheeq-prose-batch-4a"
+sources: [source/mubarakpuri-raheeq]
+status: { review: draft, completeness: 1, generated_by: "Claude Code (claude-fable-5-1); al-Raheeq al-Makhtum p. 47" }

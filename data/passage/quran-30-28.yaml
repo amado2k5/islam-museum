@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 30:28 (سورة الروم، الآية 28)."
 text: "ضَرَبَ لَكُم مَّثَلًا مِّنْ أَنفُسِكُمْ ۖ هَل لَّكُم مِّن مَّا مَلَكَتْ أَيْمَـٰنُكُم مِّن شُرَكَآءَ فِى مَا رَزَقْنَـٰكُمْ فَأَنتُمْ فِيهِ سَوَآءٌ تَخَافُونَهُمْ كَخِيفَتِكُمْ أَنفُسَكُمْ ۚ كَذَٰلِكَ نُفَصِّلُ ٱلْـَٔايَـٰتِ لِقَوْمٍ يَعْقِلُونَ"
 text_search: "ضرب لكم مثلا من أنفسكم ۖ هل لكم من ما ملكت أيمانكم من شركاء في ما رزقناكم فأنتم فيه سواء تخافونهم كخيفتكم أنفسكم ۚ كذلك نفصل الآيات لقوم يعقلون"
+translations:
+  en: { text: "He coineth for you a similitude of yourselves. Have ye, from among those whom your right hands possess, partners in the wealth We have bestowed upon you, equal with you in respect thereof, so that ye fear them as ye fear each other (that ye ascribe unto Us partners out of that which We created)? Thus We display the revelations for people who have sense.", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "وہ تمہارے لئے تمہارے ہی حال کی ایک مثال بیان فرماتا ہے کہ بھلا جن (لونڈی غلاموں) کے تم مالک ہو وہ اس (مال) میں جو ہم نے تم کو عطا فرمایا ہے تمہارے شریک ہیں، اور (کیا) تم اس میں (اُن کو اپنے) برابر (مالک سمجھتے) ہو (اور کیا) تم اُن سے اس طرح ڈرتے ہو جس طرح اپنوں سے ڈرتے ہو، اسی طرح عقل والوں کے لئے اپنی آیتیں کھول کھول کر بیان کرتے ہیں", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-30 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

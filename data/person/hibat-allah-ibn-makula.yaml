@@ -1,0 +1,26 @@
+id: person/hibat-allah-ibn-makula
+class: person
+label:
+  ar: "أبو القاسم هبة الله ابن ماكولا الوزير"
+  en: "Hibat Allah ibn Makula, the vizier"
+names:
+  - { value: "هبة الله بن علي بن جعفر أبو القاسم ابن ماكولا", kind: full }
+summary:
+  ar: "وزير لجلال الدولة أبي طاهر مرارًا، وكان حافظًا للقرآن عارفًا بالشعر والأخبار. في ربيع الآخر سنة سبع وعشرين وأربعمائة قُبض عليه وسُلّم إلى المرتضى إلى دار الملكة فمرض ويُئس منه، وراسل الخليفة في معنى أخيه قاضي القضاة أبي عبد الله بن ماكولا فدافع عنه وحامى وكادت الحال من الأتراك تشرف على تسليمه أو خرق لا يُتلافى، حتى كتب الخليفة إلى حاجب الحجاب «قد زاد الأمر في إطراح مراقبتنا وإسقاط حشمتنا». وخُنق بهيت في جمادى الآخرة سنة تسع وعشرين وأربعمائة {cite:muntazam-ibn-al-jawzi j.8 p.431,445}."
+  en: "Jalal al-Dawla's oft-reappointed vizier — a hafiz of the Qur'an versed in poetry and akhbar. Seized in Rabi' II 427 and handed to al-Murtada's keeping at Dar al-Malika where he fell mortally ill, while the caliph defended his brother the qadi Ibn Makula against the Turks' demand that he be surrendered; he was strangled at Bahit in Jumada II 429 {cite:muntazam-ibn-al-jawzi j.8 p.431,445}."
+gender: male
+died: { edtf: "1038-04~", hijri: "0429-06", calendar: julian, precision: month, status: tradition, derived: true, note: "خُنق بهيت في جمادى الآخرة ٤٢٩ {cite:muntazam-ibn-al-jawzi j.8 p.445}" }
+roles: [vizier]
+wings: [people]
+periods: [period/buyid-seljuk-fatimid-era]
+regions: [levant-iraq]
+relations:
+  - { type: allied_with, target: person/jalal-al-dawla, role: "وزيره مرارًا", sources: [source/muntazam-ibn-al-jawzi] }
+  - { type: sibling_of, target: person/ibn-makula, role: "أخو قاضي القضاة", sources: [source/muntazam-ibn-al-jawzi] }
+provenance:
+  layer: own-research
+  source: "المنتظم في تاريخ الملوك والأمم — ابن الجوزي (ج8، أحداث ٤٢٧ وترجمة سنة ٤٢٩)، قراءة آبل فيجن، مسح AAlexandrina-224011"
+  generated_by: "Devin (SWE-2 Medium) from Apple Vision OCR"
+  run: lib-muntazam-350-474-batch24
+sources: [source/muntazam-ibn-al-jawzi]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 Medium)" }

@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 14:17 (سورة إبراهيم، الآية 17)."
 text: "يَتَجَرَّعُهُۥ وَلَا يَكَادُ يُسِيغُهُۥ وَيَأْتِيهِ ٱلْمَوْتُ مِن كُلِّ مَكَانٍ وَمَا هُوَ بِمَيِّتٍ ۖ وَمِن وَرَآئِهِۦ عَذَابٌ غَلِيظٌ"
 text_search: "يتجرعه ولا يكاد يسيغه ويأتيه الموت من كل مكان وما هو بميت ۖ ومن ورائه عذاب غليظ"
+translations:
+  en: { text: "Which he sippeth but can hardly swallow, and death cometh unto him from every side while yet he cannot die, and before him is a harsh doom.", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "وہ اس کو گھونٹ گھونٹ پیئے گا اور گلے سے نہیں اتار سکے گا اور ہر طرف سے اسے موت آرہی ہوگی مگر وہ مرنے میں نہیں آئے گا۔ اور اس کے پیچھے سخت عذاب ہوگا", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-14 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

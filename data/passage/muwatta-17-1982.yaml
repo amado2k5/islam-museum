@@ -1,0 +1,15 @@
+id: passage/muwatta-17-1982
+class: passage
+unit: hadith
+work: work/muwatta-malik
+ref: "1982"
+label: { ar: "الموطأ 1982 — مالك: من اشترى بقعة أرض فبنى فيها دارا أو نسج الغزل ثوبا ثم أفلس، فلرب البقعة أن يأخذها بما فيها من البنيان ليس له ذلك، بل تقوم البقعة وما أصلحه المشتري، ويكونان شريكين فيها", en: "Muwatta 1982" }
+summary:
+  ar: "قال مالك: ومن اشترى سلعة من السلع، غزلا أو متاعا أو بقعة من الأرض، ثم أحدث في ذلك المشتري عملا، بنى البقعة دارا، أو نسج الغزل ثوبا، ثم أفلس الذي ابتاع ذلك، فقال رب البقعة: أنا آخذ البقعة وما فيها من البنيان، إن ذلك ليس له، ولكن تقوم البقعة وما فيها مما أصلح المشتري، ثم ينظر كم ثمن البقعة؟ وكم ثمن البنيان من تلك القيمة؟ ثم يكونان شريكين في ذلك، لصاحب البقعة بقدر حصته، ويكون للغرماء بقدر حصة البنيان. {cite:muwatta-maruf-1997 p.211} {cite:muwatta-maruf-1997 p.212}"
+relations:
+  - { type: part_of, target: passage/muwatta-kitab-17-buyu }
+  - { type: mentions, target: person/malik-ibn-anas, sources: [source/muwatta-maruf-1997] }
+  - { type: basis_for, target: concept/iflas, sources: [source/muwatta-maruf-1997] }
+provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 2, hadith 1982 at PDF p. 211; ما جاء في إفلاس الغريم", generated_by: "Claude Code (claude-haiku-5-5) from Apple Vision OCR of the Noor-Book PDF, checked on the page image where doubtful", run: "muwatta-prose-k17-b53" }
+sources: [source/muwatta-maruf-1997]
+status: { review: draft, completeness: 2, generated_by: "Claude Code (claude-haiku-5-5); own-words account written from PDF p. 211; matn excerpt at most 40 words" }

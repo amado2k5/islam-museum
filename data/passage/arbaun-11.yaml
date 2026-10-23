@@ -1,0 +1,18 @@
+id: passage/arbaun-11
+class: passage
+unit: hadith
+work: work/arbaun-nawawi
+ref: "11"
+label: { ar: "الأربعون 11 — دع ما يريبك إلى ما لا يريبك", en: "Arba'un 11 — leave what makes you doubt for what does not" }
+text: "دع ما يريبك إلى ما لا يريبك"
+summary:
+  ar: "حديث الحسن بن علي — «سبط رسول الله وريحانته» كما في المتن — وهو الحديث الحادي عشر في الأربعين النووية وفي شرح ابن رجب؛ رواه النسائي والترمذي (2518) وقال الترمذي: حسن صحيح، وخرجه أحمد وابن حبان (722) والحاكم من رواية بريد بن أبي مريم عن أبي الحوراء السعدي عن الحسن بن علي، واختلف في أبي الحوراء: قال الأكثرون اسمه ربيعة بن شيبان ووثقه النسائي وابن حبان، وتوقف أحمد، وقال الجوزجاني إنه مجهول؛ وفي رواية الترمذي وغيره زيادة «فإن الصدق طمأنينة وإن الكذب ريبة»، وعند ابن حبان «فإن الخير طمأنينة وإن الشر ريبة»؛ وروي بأسانيد ضعيفة عن أنس وابن عمر وأبي هريرة وواثلة بن الأسقع — وفي رواية واثلة سئل «فمن الورع؟ قال: الذي يقف عند الشبهة» — وورد موقوفاً على عمر وابن عمر وأبي الدرداء، وعن ابن مسعود «ما تريد إلى ما يريبك وحولك أربعة آلاف لا تريبك؟» وقال عمر «دعوا الربا والريبة»؛ ومعنى الحديث عند ابن رجب يرجع إلى الوقوف عند الشبهات واتقائها (جامع العلوم والحكم ص 260–267)."
+  en: "The hadith of al-Hasan ibn Ali — 'the Prophet's grandson and his delight' in the wording of the text — the eleventh of al-Nawawi's Forty and of Ibn Rajab's commentary; transmitted by al-Nasa'i and al-Tirmidhi (2518), who graded it hasan sahih, and by Ahmad, Ibn Hibban (722) and al-Hakim through Burayd ibn Abi Maryam from Abu al-Hawra' al-Sa'di from al-Hasan; Abu al-Hawra's identity was disputed — most name him Rabi'a ibn Shayban, deemed reliable by al-Nasa'i and Ibn Hibban, while Ahmad was undecided and al-Jawzjani called him unknown; al-Tirmidhi's route adds 'truthfulness is tranquility and lying is doubt', Ibn Hibban's 'good is tranquility and evil is doubt'; weaker chains report it from Anas, Ibn Umar, Abu Hurayra and Wathila ibn al-Asqa' — Wathila's version adding, when asked who is scrupulous, 'the one who stops at the doubtful' — and it is cited as the saying of Umar, Ibn Umar and Abu al-Darda', with Ibn Masud's 'why turn to what troubles you when four thousand things around you do not?' and Umar's 'leave both usury and suspicion'; for Ibn Rajab its meaning reduces to stopping at the doubtful and guarding against it (Jami' al-Ulum wal-Hikam pp. 260–267)."
+relations:
+  - { type: basis_for, target: concept/wara, sources: [source/ibn-rajab-jami-ulum-hikam] }
+  - { type: mentions, target: person/hasan-ibn-ali, sources: [source/ibn-rajab-jami-ulum-hikam] }
+  - { type: mentions, target: person/abdullah-ibn-masud, sources: [source/ibn-rajab-jami-ulum-hikam] }
+  - { type: mentions, target: person/wathila-ibn-al-asqa, sources: [source/ibn-rajab-jami-ulum-hikam] }
+provenance: { layer: own-research, source: "Jami' al-Ulum wal-Hikam (Dar Ibn Kathir 1429/2008), hadith 11 pp. 260–267", generated_by: "Devin (SWE-2 High) from Apple Vision OCR", run: "lib-jami-ulum-hikam-batch-5" }
+sources: [source/ibn-rajab-jami-ulum-hikam]
+status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 High); matn verified against OCR of printed p. 260, takhrij and companion reports from the edition's apparatus pp. 260–261" }

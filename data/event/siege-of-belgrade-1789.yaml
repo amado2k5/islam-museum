@@ -1,0 +1,23 @@
+id: event/siege-of-belgrade-1789
+class: event
+kind: siege
+label: { ar: "حصار بلغراد (١٧٨٩)", en: "Siege of Belgrade" }
+summary:
+  ar: "بطاقة أولية لحصار بلغراد سنة ١٧٨٩م، أخذ النمساويين للمدينة العثمانية في حرب يوسف الثاني؛ لم تُراجع مصادره على الصفحة بعد."
+  en: "Draft card for the Siege of Belgrade in 1789, the Austrian capture of the Ottoman city in Joseph II's war; its sources are not yet checked on the page."
+wings: [time]
+periods: [period/colonial-era]
+regions: [anatolia-balkans]
+date:
+  start: { edtf: "1789", precision: year, status: tradition, derived: true }
+  end: { edtf: "1789", precision: year, status: tradition, derived: true }
+sources: [source/dawlat-uthmaniyya-salabi]
+external_ids:
+  wikidata: Q7509870
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; siege attested in Austro-Turkish war histories — entry not yet checked on the page"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-wave2
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

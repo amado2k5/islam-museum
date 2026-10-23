@@ -1,0 +1,8 @@
+---
+id: object/waraqa-quran-qahira-1300
+lang: en
+source_lang: ar
+translators: ["Claude Haiku 5.5 (claude-haiku-5-5), draft translation"]
+---
+## Overview
+A leaf from a Mamluk Qur'an; fourteenth century, Cairo. In the Cleveland Museum of Art. {cite:cleveland-open-access}

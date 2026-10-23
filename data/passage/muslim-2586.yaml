@@ -1,0 +1,16 @@
+id: passage/muslim-2586
+class: passage
+unit: hadith
+work: work/sahih-muslim
+ref: "2586"
+label: { ar: "مسلم 2586 — مثل المؤمنين في توادهم كالجسد", en: "Muslim 2586 — The believers' likeness in compassion is one body" }
+text: "قال رسول الله: «مثل المؤمنين في توادهم وتراحمهم وتعاطفهم مثل الجسد: إذا اشتكى منه عضو تداعى له سائر الجسد بالسهر والحمى»"
+summary:
+  ar: "رواية النعمان بن بشير في باب تراحم المؤمنين من صحيح مسلم؛ مثل الجسد الواحد للأمة في السهر والحمى — نص التكافل الاجتماعي الأشهر."
+relations:
+  - { type: mentions, target: person/muhammad, sources: [source/sahih-muslim] }
+  - { type: mentions, target: person/al-numan-ibn-bashir, sources: [source/sahih-muslim] }
+  - { type: mentions, target: concept/ukhuwwa, sources: [source/sahih-muslim] }
+provenance: { layer: own-research, source: "صحيح مسلم، كتاب البر والصلة، باب تراحم المؤمنين (طبعة دار التأصيل، الحديث 6751؛ ترقيم عبد الباقي المعروف 2586)، تصوير Apple Vision OCR", generated_by: "Devin (SWE-2 High) from Apple Vision OCR", run: "hadith-muslim-passages-2" }
+sources: [source/sahih-muslim]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High); matn excerpt at most 40 words checked against the scan" }

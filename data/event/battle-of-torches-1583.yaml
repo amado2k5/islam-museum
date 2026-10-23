@@ -1,0 +1,23 @@
+id: event/battle-of-torches-1583
+class: event
+kind: battle
+label: { ar: "معركة المشاعل", en: "Battle of Torches" }
+summary:
+  ar: "بطاقة أولية لمعركة المشاعل سنة ١٥٨٣م، نصر العثمانيين الليلي على الصفويين في حرب القوقاز؛ لم تُراجع مصادره على الصفحة بعد."
+  en: "Draft card for the Battle of Torches in 1583, the Ottomans' night victory over the Safavids in the Caucasus war; its sources are not yet checked on the page."
+wings: [time]
+periods: [period/gunpowder-empires]
+regions: [anatolia-balkans]
+date:
+  start: { edtf: "1583", precision: year, status: tradition, derived: true }
+  end: { edtf: "1583", precision: year, status: tradition, derived: true }
+sources: [source/dawlat-uthmaniyya-salabi]
+external_ids:
+  wikidata: Q4872575
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; battle attested in Ottoman-Safavid histories — entry not yet checked on the page"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-wave2
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

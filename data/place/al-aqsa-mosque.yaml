@@ -1,0 +1,19 @@
+id: place/al-aqsa-mosque
+class: place
+kind: site
+label: { ar: "المسجد الأقصى", en: "al-Aqsa Mosque" }
+summary:
+  ar: "المسجد الأقصى في بيت المقدس، الذي يعدّه الكتاب مسرى النبي وثاني المساجد التي تشد إليها الرحال. يرى الكتاب أن اسم الأقصى كان يشمل المسجد كله بما دار عليه السور، وأن إطلاقه على المبنى المعروف اليوم اصطلاح حادث {cite:bayt-al-maqdis-fi-al-islam-azhar p. 74}، وأن عبد الملك بن مروان بنى المسجدين المعروفين بالصخرة والأقصى {cite:bayt-al-maqdis-fi-al-islam-azhar p. 17-18}، وأن مساحة الساحة كلها نحو مائة وأربعين دونماً وتسعمائة متر على حساب دائرة الانتداب {cite:bayt-al-maqdis-fi-al-islam-azhar p. 120}."
+  en: "The al-Aqsa Mosque in Jerusalem, which the book calls the Prophet's place of the Night Journey and the second mosque to which journeys are made. The book holds that 'al-Aqsa' named the whole enclosure within the wall, and that applying it to the present building is a later usage {cite:bayt-al-maqdis-fi-al-islam-azhar p. 74}."
+wings: [place]
+regions: [levant-iraq]
+relations:
+  - { type: located_in, target: place/jerusalem }
+sources: [source/bayt-al-maqdis-fi-al-islam-azhar]
+provenance:
+  layer: own-research
+  source: "Bayt al-Maqdis fi al-Islam (Academy, Scientific Series), PDF pp. 17-18, 73-74, 119-120"
+  generated_by: "Claude Code (Haiku 5.5)"
+  model: claude-haiku-5-5
+  run: azhar-bayt-al-maqdis-fi-al-islam-azhar
+status: { review: draft, completeness: 1, generated_by: "Claude Code (Haiku 5.5); the book's claims about the enclosure are its own reading, not checked against a second source" }

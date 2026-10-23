@@ -1,0 +1,18 @@
+id: passage/arbaun-35
+class: passage
+unit: hadith
+work: work/arbaun-nawawi
+ref: "35"
+label: { ar: "الأربعون 35 — لا تحاسدوا ولا تناجشوا وكونوا عباد الله إخواناً", en: "Arba'un 35 — do not envy one another; be brothers" }
+summary:
+  ar: "حديث أبي هريرة قال: قال رسول الله: «لا تحاسدوا ولا تناجشوا ولا تباغضوا ولا تدابروا ولا يبع بعضكم على بيع بعض وكونوا عباد الله إخواناً، المسلم أخو المسلم لا يظلمه ولا يخذله ولا يكذبه ولا يحقره» ثم أشار إلى صدره ثلاث مرات «التقوى ههنا» وقال «بحسب امرئ من الشر أن يحقر أخاه المسلم، كل المسلم على المسلم حرام: دمه وماله وعرضه» — وهو الحديث الخامس والثلاثون في الأربعين النووية وفي شرح ابن رجب؛ أخرجه مسلم (2564) من رواية أبي سعيد مولى عبد الله بن عامر بن كريز عن أبي هريرة، وأبو سعيد هذا لا يعرف اسمه وقد روى عنه غير واحد وذكره ابن حبان في ثقاته وقال ابن المديني هو مجهول؛ ورواه سفيان الثوري فقال فيه عن سعيد بن يسار عن أبي هريرة فوهم إنما هو أبو سعيد مولى ابن كريز قاله أحمد ويحيى والدارقطني؛ وخرجه الترمذي (1927) من رواية أبي صالح عن أبي هريرة بلفظ «المسلم أخو المسلم لا يخونه ولا يكذبه ولا يخذله كل المسلم على المسلم حرام عرضه وماله ودمه، التقوى ههنا، بحسب امرئ من الشر أن يحقر أخاه المسلم» (جامع العلوم والحكم ص 710–730)."
+  en: "The hadith of Abu Hurayra that the Messenger of God said 'do not envy one another, do not outbid one another, do not hate one another, do not turn your backs on one another, and let none of you sell upon his brother's sale — be servants of God, brothers: a Muslim is a Muslim's brother, he does not wrong him, fail him, lie to him or despise him', then pointing to his breast three times 'God-fearingness is here', and 'it is enough evil for a man to despise his Muslim brother; all of the Muslim is forbidden to the Muslim — his blood, his property and his honour' — the thirty-fifth of al-Nawawi's Forty and of Ibn Rajab's commentary, transmitted by Muslim (2564) through Abu Sa'id, the client of Abdullah ibn Amir ibn Kurayz, from Abu Hurayra — this Abu Sa'id's personal name is unknown though several narrated from him, Ibn Hibban listing him among the trustworthy while Ibn al-Madini called him unknown; Sufyan al-Thawri slipped narrating it 'from Sa'id ibn Yasar from Abu Hurayra' — it is rather Abu Sa'id the client of Ibn Kurayz, as Ahmad, Yahya and al-Daraqutni held; and al-Tirmidhi (1927) carries it through Abu Salih from Abu Hurayra in the wording 'a Muslim is a Muslim's brother, he does not betray him, lie to him or fail him; all of the Muslim is forbidden to the Muslim — his honour, his property and his blood; God-fearingness is here; it is enough evil for a man to despise his Muslim brother' (Jami' al-Ulum wal-Hikam pp. 710–730)."
+relations:
+  - { type: mentions, target: person/abu-hurayra, sources: [source/ibn-rajab-jami-ulum-hikam] }
+  - { type: basis_for, target: concept/ukhuwwa, sources: [source/ibn-rajab-jami-ulum-hikam] }
+  - { type: basis_for, target: concept/hasad, sources: [source/ibn-rajab-jami-ulum-hikam] }
+  - { type: basis_for, target: concept/hurmat-al-dam, sources: [source/ibn-rajab-jami-ulum-hikam] }
+  - { type: basis_for, target: concept/taqwa, sources: [source/ibn-rajab-jami-ulum-hikam] }
+provenance: { layer: own-research, source: "Jami' al-Ulum wal-Hikam (Dar Ibn Kathir 1429/2008), hadith 35 pp. 710–730", generated_by: "Devin (SWE-2 High) from Apple Vision OCR", run: "lib-jami-ulum-hikam-batch-13" }
+sources: [source/ibn-rajab-jami-ulum-hikam]
+status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 High); matn omitted as it exceeds the excerpt limit — clause-by-clause paraphrase in summary; the unnamed-mawla chain and al-Thawri's slip from p. 710" }

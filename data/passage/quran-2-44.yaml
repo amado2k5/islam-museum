@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 2:44 (سورة البقرة، الآية 44)."
 text: "۞ أَتَأْمُرُونَ ٱلنَّاسَ بِٱلْبِرِّ وَتَنسَوْنَ أَنفُسَكُمْ وَأَنتُمْ تَتْلُونَ ٱلْكِتَـٰبَ ۚ أَفَلَا تَعْقِلُونَ"
 text_search: "۞ أتأمرون الناس بالبر وتنسون أنفسكم وأنتم تتلون الكتاب ۚ أفلا تعقلون"
+translations:
+  en: { text: "Enjoin ye righteousness upon mankind while ye yourselves forget (to practise it)? And ye are readers of the Scripture! Have ye then no sense?", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "(یہ) کیا (عقل کی بات ہے کہ) تم لوگوں کو نیکی کرنے کو کہتے ہو اور اپنے تئیں فراموش کئے دیتے ہو، حالانکہ تم کتاب (خدا) بھی پڑھتے ہو۔ کیا تم سمجھتے نہیں؟", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-2 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

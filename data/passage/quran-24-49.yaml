@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 24:49 (سورة النور، الآية 49)."
 text: "وَإِن يَكُن لَّهُمُ ٱلْحَقُّ يَأْتُوٓا۟ إِلَيْهِ مُذْعِنِينَ"
 text_search: "وإن يكن لهم الحق يأتوا إليه مذعنين"
+translations:
+  en: { text: "But if right had been with them they would have come unto him willingly.", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "اگر (معاملہ) حق (ہو اور) ان کو (پہنچتا) ہو تو ان کی طرف مطیع ہو کر چلے آتے ہیں", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-24 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

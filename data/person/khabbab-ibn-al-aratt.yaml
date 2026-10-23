@@ -1,6 +1,7 @@
 id: person/khabbab-ibn-al-aratt
 class: person
 label: { en: "Khabbab ibn al-Aratt", ar: "خباب بن الأرت" }
+aliases: [person/habbab-ibn-al-aratt]
 names:
   - { kind: full, lang: ar, value: "خباب بن الأرت التميمي" }
 gender: male
@@ -18,5 +19,6 @@ faith:
   - { value: sunni, basis: tradition, note: "Early Muslim; recorded under the museum's Sunni frame (docs/scope.md)." }
 relations:
   - { type: participated_in, target: event/al-dawa-al-sirriyya, role: "من أوائل المسلمين", sources: [source/mubarakpuri-raheeq] }
+external_ids: { wikidata: "Q1147560" }
 sources: [source/mubarakpuri-raheeq, source/ibn-hisham-sira]
 status: { review: draft, completeness: 2, generated_by: "Devin; al-Raheeq al-Makhtum pp. 75-76" }

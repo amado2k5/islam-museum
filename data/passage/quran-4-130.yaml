@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 4:130 (سورة النساء، الآية 130)."
 text: "وَإِن يَتَفَرَّقَا يُغْنِ ٱللَّهُ كُلًّا مِّن سَعَتِهِۦ ۚ وَكَانَ ٱللَّهُ وَٰسِعًا حَكِيمًا"
 text_search: "وإن يتفرقا يغن الله كلا من سعته ۚ وكان الله واسعا حكيما"
+translations:
+  en: { text: "But if they separate, Allah will compensate each out of His abundance. Allah is ever All-Embracing, All-Knowing.", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "اور اگر میاں بیوی (میں موافقت نہ ہوسکے اور) ایک دوسرے سے جدا ہوجائیں تو خدا ہر ایک کو اپنی دولت سے غنی کردے گا اور خدا بڑی کشائش والا اور حکمت والا ہے", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-4 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

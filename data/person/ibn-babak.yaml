@@ -1,0 +1,21 @@
+id: person/ibn-babak
+class: person
+label: { ar: "أبو القاسم عبد الصمد بن بابك الشاعر" }
+summary:
+  ar: "عبد الصمد بن بابك أبو القاسم الشاعر، من فحول شعراء عصره، وشعره مستحسن متداول في كتب الأدب والتواريخ، قصد الصاحب بن عباد بالري ومدحه فقال له الصاحب: أنت ابن بابك؟ فقال: أنا ابن بابك. توفي في شوال سنة عشر وأربعمائة {cite:muntazam-ibn-al-jawzi j.7 p.295}."
+wings: [people]
+periods: [period/buyid-seljuk-fatimid-era]
+regions: [levant-iraq, persia-central-asia]
+roles: [poet]
+themes: [literature]
+died:
+  { edtf: "1020-02~", hijri: "0410-10", calendar: julian, precision: month, status: tradition, derived: true, note: "شوال 410هـ؛ التحويل مشتق {cite:muntazam-ibn-al-jawzi j.7 p.295}" }
+relations:
+  - { type: wrote_about, target: person/sahib-ibn-abbad, role: "قصد الصاحب بن عباد ومدحه بشعره", sources: [source/muntazam-ibn-al-jawzi] }
+provenance:
+  layer: own-research
+  source: "المنتظم في تاريخ الملوك والأمم — ابن الجوزي (ج7، وفيات سنة 410)، قراءة آبل فيجن"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-muntazam-batch-22
+sources: [source/muntazam-ibn-al-jawzi]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

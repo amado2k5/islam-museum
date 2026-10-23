@@ -1,0 +1,20 @@
+id: place/shib-abi-talib
+class: place
+kind: site
+label: { ar: "شعب أبي طالب", en: "Shi'b Abi Talib" }
+summary:
+  ar: "شعب بمكة حُبس فيه بنو هاشم وبنو المطلب مؤمنهم وكافرهم، ومعهم النبي، ثلاث سنين في المقاطعة التي فرضتها قريش، من ليلة هلال المحرم سنة سبع من البعثة."
+  en: "A ravine at Mecca where Banu Hashim and Banu al-Muttalib, believers and unbelievers alike, were confined with the Prophet for three years under the boycott Quraysh imposed, from the night of the Muharram crescent in the seventh year of the mission."
+wings: [place]
+periods: [period/prophetic-era]
+regions: [arabia]
+relations:
+  - { type: located_in, target: place/mecca, sources: [source/mubarakpuri-raheeq] }
+provenance:
+  layer: own-research
+  source: "الرحيق المختوم ص109–110 نقلاً عن زاد المعاد 2/46 وصحيح البخاري 1/216، 1/548 وابن هشام 1/350–377"
+  generated_by: "Claude Code"
+  model: "claude-haiku-5-5"
+  run: "raheeq-prose-batch-9a"
+sources: [source/mubarakpuri-raheeq, source/sahih-al-bukhari, source/zad-al-maad]
+status: { review: draft, completeness: 1, generated_by: "Claude Code (claude-haiku-5-5); al-Raheeq al-Makhtum pp. 109–110" }

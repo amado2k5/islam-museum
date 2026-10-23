@@ -1,0 +1,18 @@
+id: person/al-masarjisi-abu-al-hasan
+class: person
+label: { ar: "أبو الحسن الماسرجسي محمد بن علي بن سهل", en: "Abu al-Hasan al-Masarjisi Muhammad ibn Ali ibn Sahl" }
+names:
+  - { kind: full, lang: ar, value: "أبو الحسن محمد بن علي بن سهل الماسرجسي" }
+gender: male
+roles: [jurist]
+traditions: [sunni]
+died: { hijri: "0383", edtf: "0993~", calendar: julian, precision: year, status: tradition, derived: true, note: "الشيرازي: سنة 383هـ (PDF ص61). حاشية 4: ابن خلكان يذكر 384هـ.", sources: [source/tabaqat-fuqaha-abbas-1981] }
+summary:
+  ar: "أبو الحسن محمد بن علي بن سهل الماسرجسي. مات سنة ثلاث وثمانين وثلاثمائة {cite:tabaqat-fuqaha-abbas-1981 p. 61}، تفقه على أبي إسحاق وخرج معه إلى مصر، وكان متقناً للمذهب، ودرّس بنيسابور وأخذ عنه فقهاؤها، وعليه تفقه شيخ الشيرازي القاضي أبو الطيب الطبري {cite:tabaqat-fuqaha-abbas-1981 p. 61}."
+  en: "Abu al-Hasan Muhammad ibn Ali ibn Sahl al-Masarjisi. He died in 383 {cite:tabaqat-fuqaha-abbas-1981 p. 61}. He studied jurisprudence under Abu Ishaq and went out with him to Egypt; he was proficient in the school, taught at Nishapur, and its jurists took from him. The teacher of al-Shirazi, the qadi Abu al-Tayyib al-Tabari, studied jurisprudence under him {cite:tabaqat-fuqaha-abbas-1981 p. 61}."
+wings: [people]
+relations:
+  - { type: student_of, target: person/abu-ishaq-ibrahim-al-marwazi, role: "تفقه على أبي إسحاق (PDF ص61)", sources: [source/tabaqat-fuqaha-abbas-1981] }
+sources: [source/tabaqat-fuqaha-abbas-1981]
+provenance: { layer: own-research, source: "طبقات الفقهاء (تحقيق إحسان عباس) PDF ص59–61", generated_by: "Claude (Haiku 5.5)", model: "claude-haiku-5-5", run: "lib-tabaqat-fuqaha-batch-7" }
+status: { review: draft, completeness: 1, generated_by: "Claude (Haiku 5.5); batch 7 (PDF ص59–61)" }

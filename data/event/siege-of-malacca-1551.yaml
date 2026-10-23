@@ -1,0 +1,23 @@
+id: event/siege-of-malacca-1551
+class: event
+kind: siege
+label: { ar: "حصار ملقا (١٥٥١)", en: "Siege of Malacca" }
+summary:
+  ar: "بطاقة أولية لحصار ملقا سنة ١٥٥١م، هجوم تحالف جوهر وجاوة وخير الدين على البرتغاليين؛ لم تُراجع مصادره على الصفحة بعد."
+  en: "Draft card for the Siege of Malacca in 1551, the Johor-Jepara-Kayr al-Din coalition's attack on the Portuguese; its sources are not yet checked on the page."
+wings: [time]
+periods: [period/gunpowder-empires]
+regions: [southeast-asia]
+date:
+  start: { edtf: "1551-06", precision: year, status: tradition, derived: true }
+  end: { edtf: "1551-09", precision: year, status: tradition, derived: true }
+sources: [source/tarikh-islam-hasan-ibrahim]
+external_ids:
+  wikidata: Q121283200
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; battle attested in narrative histories — entry not yet checked on the page"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-wave2
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

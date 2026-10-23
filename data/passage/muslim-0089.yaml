@@ -1,0 +1,15 @@
+id: passage/muslim-0089
+class: passage
+unit: hadith
+work: work/sahih-muslim
+ref: "89"
+label: { ar: "مسلم 89 — اجتنبوا السبع الموبقات", en: "Muslim 89 — Avoid the seven destructive sins" }
+text: "قال رسول الله: «اجتنبوا السبع الموبقات»، قيل: يا رسول الله وما هن؟ قال: «الشرك بالله، والسحر، وقتل النفس التي حرم الله إلا بالحق، وأكل مال اليتيم، وأكل الربا، والتولي يوم الزحف، وقذف المحصنات الغافلات المؤمنات»"
+summary:
+  ar: "رواية أبي هريرة في كتاب الإيمان من صحيح مسلم؛ قائمة الكبائر السبع التي صارت مرجعاً لأبواب الكبائر في الفقه والفتاوى."
+relations:
+  - { type: mentions, target: person/muhammad, sources: [source/sahih-muslim] }
+  - { type: mentions, target: person/abu-hurayra, sources: [source/sahih-muslim] }
+provenance: { layer: own-research, source: "صحيح مسلم، كتاب الإيمان، باب بيان الكبائر وأكبرها (النسخة المرقمة هامشياً، الحديث ٢٧٢؛ ترقيم عبد الباقي المعروف 89)، تصوير Apple Vision OCR", generated_by: "Devin (SWE-2 High) from Apple Vision OCR", run: "hadith-muslim-passages-3" }
+sources: [source/sahih-muslim]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High); matn excerpt at most 40 words checked against the scan" }

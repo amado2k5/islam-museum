@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 61:12 (سورة الصف، الآية 12)."
 text: "يَغْفِرْ لَكُمْ ذُنُوبَكُمْ وَيُدْخِلْكُمْ جَنَّـٰتٍ تَجْرِى مِن تَحْتِهَا ٱلْأَنْهَـٰرُ وَمَسَـٰكِنَ طَيِّبَةً فِى جَنَّـٰتِ عَدْنٍ ۚ ذَٰلِكَ ٱلْفَوْزُ ٱلْعَظِيمُ"
 text_search: "يغفر لكم ذنوبكم ويدخلكم جنات تجري من تحتها الأنهار ومساكن طيبة في جنات عدن ۚ ذلك الفوز العظيم"
+translations:
+  en: { text: "He will forgive you your sins and bring you into Gardens underneath which rivers flow, and pleasant dwellings in Gardens of Eden. That is the supreme triumph.", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "وہ تمہارے گناہ بخش دے گا اور تم کو باغہائے جنت میں جن میں نہریں بہہ رہیں ہیں اور پاکیزہ مکانات میں جو بہشت ہائے جاودانی میں (تیار) ہیں داخل کرے گا۔ یہ بڑی کامیابی ہے", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-61 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

@@ -1,0 +1,29 @@
+id: event/umar-doubles-hadd-for-wine
+class: event
+kind: other
+label: { en: "Umar sets the penalty for wine at eighty on Ali's counsel", ar: "أخذ عمر بمشورة علي في جعل حد الخمر ثمانين" }
+summary:
+  en: "When wine-drinking spread in the newly conquered lands, Umar took Ali's counsel to flog the drinker eighty lashes, the lightest of the fixed penalties, arguing that a drunk man raves and one who raves slanders, and the slanderer gets eighty. Jurists differ on whether the fixed penalty is forty or eighty; Sallabi sets out the schools."
+  ar: "لما انتشر شرب الخمر في البلاد المفتوحة حديثة العهد بالإسلام، أخذ عمر بمشورة علي بأن يُجلد شاربها ثمانين، وعلل علي ذلك بأن السكران يهذي، وإذا هذى افترى، وعلى المفتري ثمانون. ويعرض الكتاب خلاف الفقهاء بين ثمانين وأربعين."
+wings: [words, people]
+themes: [crime-and-punishment, halal-and-haram]
+periods: [period/rashidun]
+regions: [arabia]
+date:
+  start: { edtf: "0634/0644", hijri: "0013", calendar: julian, precision: year, status: tradition, derived: true, note: "الكتاب لا يؤرخ القرار، ويضعه في خلافة عمر (13-23هـ)." }
+relations:
+  - { type: had_participant, target: person/ali-ibn-abi-talib, role: "أشار بجلد ثمانين", sources: [source/sallabi-ali-vol1] }
+  - { type: had_participant, target: person/umar-ibn-al-khattab, role: "أخذ بالمشورة وجعل الحد ثمانين", sources: [source/sallabi-ali-vol1] }
+issue: { ar: "ما مقدار حد شارب الخمر؟", en: "What is the fixed penalty for drinking wine?" }
+perspectives:
+  - tradition: sunni
+    id: sunni-majority-eighty
+    summary: { en: "Sallabi, citing al-Mughni: Malik, al-Thawri, Abu Hanifa and those who followed them set eighty as the penalty, on the consensus of the Companions; a report of Ali's reasoning supports it.", ar: "يعرض الكتاب عن المغني: مالك والثوري وأبو حنيفة ومن تبعهم جعلوا الحد ثمانين بإجماع الصحابة، وتؤيده رواية تعليل علي." }
+    sources: [source/sallabi-ali-vol1]
+  - tradition: sunni
+    id: sunni-forty
+    summary: { en: "Al-Shafi'i and a view of Ahmad, as the book reports, take forty as the fixed penalty and treat any addition as discretionary punishment for the ruler; the book also cites Ibn Taymiyya on the matter.", ar: "يذكر الكتاب أن الشافعي وقولاً لأحمد يجعلان الحد أربعين، وما زاد عليه تعزير للإمام؛ وينقل عن ابن تيمية في ذلك." }
+    sources: [source/sallabi-ali-vol1]
+sources: [source/sallabi-ali-vol1]
+status: { review: draft, completeness: 1, generated_by: "Claude Code (claude-haiku-5-5); mined from sallabi-ali-vol1 p. 143" }
+provenance: { layer: own-research, source: "sallabi-ali-vol1 p. 143", generated_by: "Claude Code", model: "claude-haiku-5-5", run: "sallabi-ali-vol1-deep-pp111-150" }

@@ -152,7 +152,7 @@ Average sources per entity: **1.09** · Women share of persons with a recorded g
 | en | 58 |
 | ar | 845 |
 
-### Themes with no entries yet (63 of 124)
+### Themes with no entries yet (63 of 132)
 
 `disability`, `sexuality-gender-diversity`, `indigenous-peoples`, `muslim-minorities-under-non-muslim-rule`, `minorities-within-islam`, `local-islams-and-syncretism`, `dress`, `names-and-honorifics`, `takfir-and-its-critics`, `crusades`, `mongol-invasions`, `colonial-wars-and-resistance`, `modern-conflicts`, `violent-extremism-and-the-muslim-response`, `scholarly-councils`, `international-bodies`, `religious-authorities`, `movements-and-mass-organisations`, `education`, `waqf`, `websites-and-apps`, `history-of-islam-online`, `ai-and-islam`, `zakat-and-sadaqa`, `waqf-in-service`, `modern-relief-and-development`, `animals-and-mercy`, `halal-certification-and-standards`, `halal-economy`, `cuisines`, `food-of-ramadan-and-feasts`, `foods-that-travelled`, `astronomy-and-timekeeping`, `mathematics`, `optics-and-physics`, `chemistry-and-alchemy`, `geography-and-cartography`, `agriculture-and-botany`, `zoology`, `linguistics`, `libraries-paper-and-the-book`, `translation-and-transmission`, `science-today`, `evolution`, `cosmology-and-creation`, `scientific-miracles-claims`, `islam-and-modern-medicine`, `environment-and-climate`, `renewal-and-reform`, `islam-and-the-modern-state`, `law-today`, `rights-and-freedoms`, `islam-and-hinduism`, `islam-and-buddhism`, `islam-and-african-religions`, `islam-and-secular-thought`, `interfaith-dialogue`, `hostility-to-jews-and-christians`, `arts-of-the-book`, `sport`, `travel`, `law-and-courts`, `water-and-animals`
 

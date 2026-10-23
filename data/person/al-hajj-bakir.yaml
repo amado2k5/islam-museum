@@ -1,0 +1,24 @@
+id: person/al-hajj-bakir
+class: person
+label: { ar: "الحاج بكير", en: "al-Hajj Bakir" }
+names:
+  - { kind: full, lang: ar, value: "الحاج بكير" }
+gender: male
+roles: [ruler]
+summary:
+  ar: "الرجل الذي أجمع عليه أهل الديوان في الجزائر حاكماً مكان حسن آغا الطوشي عند وفاته سنة ٩٥١هـ/١٥٤٤م، ريثما عيّن الباب العالي في استانبول الحاكم الجديد — فكان حسن بن خير الدين بربروسة، قادماً في السنة نفسها {cite:dawlat-uthmaniyya-salabi p. 229}."
+  en: "The man Algiers' diwan chose unanimously as governor on Hasan Agha al-Tushi's death in 951/1544, holding office until the Sublime Porte's appointee — Hasan b. Khayr al-Din — arrived that same year {cite:dawlat-uthmaniyya-salabi p. 229}."
+wings: [people]
+periods: [period/gunpowder-empires]
+regions: [maghreb]
+relations:
+  - { type: ruled_over, target: place/algiers, sources: [source/dawlat-uthmaniyya-salabi] }
+  - { type: successor_of, target: person/hasan-aga-al-tushi, sources: [source/dawlat-uthmaniyya-salabi] }
+sources: [source/dawlat-uthmaniyya-salabi]
+provenance:
+  layer: own-research
+  source: "الدولة العثمانية لعلي محمد الصلابي (ط1 1421) ص 229"
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: salabi-uthmani-batch10
+status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 Medium)" }

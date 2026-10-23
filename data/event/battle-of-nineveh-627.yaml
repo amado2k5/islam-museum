@@ -1,0 +1,23 @@
+id: event/battle-of-nineveh-627
+class: event
+kind: battle
+label: { ar: "معركة نينوى (٦٢٧)", en: "Battle of Nineveh" }
+summary:
+  ar: "بطاقة أولية لمعركة نينوى سنة ٦٢٧م، النصر البيزنطي الحاسم لهرقل على الساسانيين في ختام الحرب الطويلة؛ لم تُراجع مصادره على الصفحة بعد."
+  en: "Draft card for the Battle of Nineveh in 627, Heraclius' decisive Byzantine victory over the Sasanians closing their long war; its sources are not yet checked on the page."
+wings: [time]
+periods: [period/pre-islamic-arabia]
+regions: [levant-iraq]
+date:
+  start: { edtf: "627", precision: year, status: tradition, derived: true }
+  end: { edtf: "627", precision: year, status: tradition, derived: true }
+sources: [source/tarikh-al-tabari]
+external_ids:
+  wikidata: Q755966
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; battle attested in late-antique histories — entry not yet checked on the page"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-wave2
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

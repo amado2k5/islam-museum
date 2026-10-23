@@ -1,0 +1,23 @@
+id: event/portuguese-ottoman-war-1509
+class: event
+kind: war
+label: { ar: "الحرب البرتغالية العثمانية (١٥٠٩)", en: "Portuguese–Ottoman War (1509)" }
+summary:
+  ar: "بطاقة أولية للحرب البرتغالية العثمانية من ١٥٠٩م، الصراع الذي فتحته معركة ديو وتتابع حتى أزمة جدة؛ لم تُراجع مصادره على الصفحة بعد."
+  en: "Draft card for the Portuguese–Ottoman war opened after Diu in 1509 and pressed on to the Jeddah crisis; its sources are not yet checked on the page."
+wings: [time]
+periods: [period/gunpowder-empires]
+regions: [global]
+date:
+  start: { edtf: "1509", precision: year, status: tradition, derived: true }
+  end: { edtf: "1517", precision: year, status: tradition, derived: true }
+sources: [source/tarikh-islam-hasan-ibrahim]
+external_ids:
+  wikidata: Q722713
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; battle attested in narrative histories — entry not yet checked on the page"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-wave2
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

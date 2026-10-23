@@ -1,0 +1,18 @@
+id: event/conquest-of-takrit
+class: event
+kind: conquest
+label: { ar: "فتح تكريت", en: "Conquest of Takrit (16 AH)" }
+date:
+  start: { edtf: "0637", hijri: "0016-03", calendar: julian, precision: month, status: tradition, derived: true, note: "جمادى سنة 16؛ التحويل مشتق {cite:kamil-ibn-al-athir p. 348}." }
+summary:
+  ar: "فتح تكريت على دجلة في جمادى سنة ست عشرة، ضمن فتوح شرقي العراق {cite:kamil-ibn-al-athir p. 348}."
+  en: "Takrit on the Tigris taken in Jumada of year 16, within the eastern-Iraq conquests {cite:kamil-ibn-al-athir p. 348}."
+relations:
+  - { type: occurred_at, target: place/takrit, sources: [source/kamil-ibn-al-athir] }
+provenance:
+  layer: own-research
+  source: "الكامل في التاريخ لابن الأثير (دار الكتاب العربي 2012، ج2)، قراءة آبل فيجن"
+  generated_by: "Devin (SWE-2 Medium) from Apple Vision OCR"
+  run: lib-kamil-v2-batch03
+sources: [source/kamil-ibn-al-athir]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 Medium)" }

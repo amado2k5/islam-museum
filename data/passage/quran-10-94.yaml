@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 10:94 (سورة يونس، الآية 94)."
 text: "فَإِن كُنتَ فِى شَكٍّ مِّمَّآ أَنزَلْنَآ إِلَيْكَ فَسْـَٔلِ ٱلَّذِينَ يَقْرَءُونَ ٱلْكِتَـٰبَ مِن قَبْلِكَ ۚ لَقَدْ جَآءَكَ ٱلْحَقُّ مِن رَّبِّكَ فَلَا تَكُونَنَّ مِنَ ٱلْمُمْتَرِينَ"
 text_search: "فإن كنت في شك مما أنزلنا إليك فاسأل الذين يقرءون الكتاب من قبلك ۚ لقد جاءك الحق من ربك فلا تكونن من الممترين"
+translations:
+  en: { text: "And if thou (Muhammad) art in doubt concerning that which We reveal unto thee, then question those who read the Scripture (that was) before thee. Verily the Truth from thy Lord hath come unto thee. So be not thou of the waverers.", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "اگر تم کو اس (کتاب کے) بارے میں جو ہم نے تم پر نازل کی ہے کچھ شک ہو تو جو لوگ تم سے پہلے کی (اُتری ہوئی) کتابیں پڑھتے ہیں ان سے پوچھ لو۔ تمہارے پروردگار کی طرف سے تمہارے پاس حق آچکا ہے تو تم ہرگز شک کرنے والوں میں نہ ہونا", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-10 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

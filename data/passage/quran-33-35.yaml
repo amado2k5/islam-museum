@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 33:35 (سورة الأحزاب، الآية 35)."
 text: "إِنَّ ٱلْمُسْلِمِينَ وَٱلْمُسْلِمَـٰتِ وَٱلْمُؤْمِنِينَ وَٱلْمُؤْمِنَـٰتِ وَٱلْقَـٰنِتِينَ وَٱلْقَـٰنِتَـٰتِ وَٱلصَّـٰدِقِينَ وَٱلصَّـٰدِقَـٰتِ وَٱلصَّـٰبِرِينَ وَٱلصَّـٰبِرَٰتِ وَٱلْخَـٰشِعِينَ وَٱلْخَـٰشِعَـٰتِ وَٱلْمُتَصَدِّقِينَ وَٱلْمُتَصَدِّقَـٰتِ وَٱلصَّـٰٓئِمِينَ وَٱلصَّـٰٓئِمَـٰتِ وَٱلْحَـٰفِظِينَ فُرُوجَهُمْ وَٱلْحَـٰفِظَـٰتِ وَٱلذَّٰكِرِينَ ٱللَّهَ كَثِيرًا وَٱلذَّٰكِرَٰتِ أَعَدَّ ٱللَّهُ لَهُم مَّغْفِرَةً وَأَجْرًا عَظِيمًا"
 text_search: "إن المسلمين والمسلمات والمؤمنين والمؤمنات والقانتين والقانتات والصادقين والصادقات والصابرين والصابرات والخاشعين والخاشعات والمتصدقين والمتصدقات والصائمين والصائمات والحافظين فروجهم والحافظات والذاكرين الله كثيرا والذاكرات أعد الله لهم مغفرة وأجرا عظيما"
+translations:
+  en: { text: "Lo! men who surrender unto Allah, and women who surrender, and men who believe and women who believe, and men who obey and women who obey, and men who speak the truth and women who speak the truth, and men who persevere (in righteousness) and women who persevere, and men who are humble and women who are humble, and men who give alms and women who give alms, and men who fast and women who fast, and men who guard their modesty and women who guard (their modesty), and men who remember Allah much and women who remember - Allah hath prepared for them forgiveness and a vast reward.", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "(جو لوگ خدا کے آگے سر اطاعت خم کرنے والے ہیں یعنی) مسلمان مرد اور مسلمان عورتیں اور مومن مرد اور مومن عورتیں اور فرماں بردار مرد اور فرماں بردار عورتیں اور راست باز مرد اور راست باز عورتیں اور صبر کرنے والے مرد اور صبر کرنے والی عورتیں اور فروتنی کرنے والے مرد اور فروتنی کرنے والی عورتیں اور خیرات کرنے والے مرد اور اور خیرات کرنے والی عورتیں اور روزے رکھنے والے مرد اور روزے رکھنے والی عورتیں اور اپنی شرمگاہوں کی حفاظت کرنے والے مرد اور حفاظت کرنے والی عورتیں اور خدا کو کثرت سے یاد کرنے والے مرد اور کثرت سے یاد کرنے والی عورتیں۔ کچھ شک نہیں کہ ان کے لئے خدا نے بخشش اور اجر عظیم تیار کر رکھا ہے", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-33 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

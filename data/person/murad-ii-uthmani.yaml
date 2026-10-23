@@ -1,0 +1,30 @@
+id: person/murad-ii-uthmani
+class: person
+label: { ar: "مراد الثاني" }
+names:
+  - { kind: full, lang: ar, value: "مراد بن محمد الأول" }
+gender: male
+roles: [ruler, military]
+died: { edtf: "1451", hijri: "0855", calendar: julian, precision: year, status: tradition, derived: true, note: "خلفه ابنه محمد الفاتح في ١٦ محرم ٨٥٥هـ؛ التحويل مشتق {cite:dawlat-uthmaniyya-salabi p. 87}." }
+summary:
+  ar: "السلطان مراد الثاني (٨٢٤–٨٥٥هـ/١٤٢١–١٤٥١م)؛ تولى أمر الدولة بعد وفاة أبيه محمد جلبي وعمره لا يزيد على ثمانية عشر سنة، وكان محباً للجهاد والدعوة إلى الإسلام في ربوع أوروبا، معروفاً لدى رعيته بالتقوى والعدالة والشفقة. قضى على تمرد عمه مصطفى الذي دعمه الإمبراطور البيزنطي مانويل الثاني فحاصر غاليبولي، فقبض عليه مراد وقدمه للمشنقة، ثم احتل سالونيك ودخلها عنوة في مارس ٨٣٣هـ/١٤٣١م فصارت جزءاً لا يتجزأ من الدولة العثمانية، وأخضع إقليم ولاشيا بجزية سنوية وجدّد ملك الصب ولاءه للسلطان {cite:dawlat-uthmaniyya-salabi p. 77-79}. عقد صلح سيزجادن لعشر سنين مع المجريين سنة ٨٤٨هـ/١٤٤٤م وأقسم على القرآن كما أقسم ملكهم على الإنجيل، ثم نزل عن السلطنة لابنه محمد واعتزل في مغنيسيا، فلما حرض الكاردينال سيزاريني والبابا أوجين الرابع النصارى على نقض العهد عاد ليقود الجيش فنقل الأسطول الجنوي أربعين ألفاً من آسيا إلى أوروبا بدينار لكل جندي، ورفع المعاهدة المنقوضة على رأس رمح، وقاتل الملك لاديسلاس وجهاً لوجه حتى أسقطه عن جواده بضربة رمح فنُصبت وقعة وارنه {cite:dawlat-uthmaniyya-salabi p. 80-82}. ثم عاد إلى عزلته فنزل عن العرش مرة ثانية، حتى ثار الانكشارية في أدرنة فعاد ليقبض على زمام الأمر وبقي على العرش إلى آخر حياته، وكانت له الغلبة في قوصوه الثانية سنة ٨٥٢هـ/١٤٤٨م {cite:dawlat-uthmaniyya-salabi p. 82-83}. كان يعقد للشعراء مجلساً يومين في الأسبوع ويرافقونه في جهاده، ويرسل لأهلي الحرمين وبيت المقدس ثلاثة آلاف وخمس مئة دينار كل عام، وتوفي في قصر أدرنه عن عمر يناهز سبعة وأربعين عاماً ودُفن بجانب جامع مرادية ببورصة تنفيذاً لوصيته {cite:dawlat-uthmaniyya-salabi p. 83-85}."
+  en: "Murad II (r. 824–855/1421–1451 CE) — crushed his uncle Mustafa's Byzantine-backed revolt, stormed Thessaloniki in 833/1431, and fathered Mehmed the Conqueror {cite:dawlat-uthmaniyya-salabi p. 77-79}. Al-Sallabi has him twice abdicating for a life of retreat at Magnesia: recalled first to smash the oath-breaking crusade at Varna in 848/1444 — the broken treaty raised on a spear-point, King Ladislas dead by his own lance — then again when the Janissaries rioted in Edirne, staying on the throne through the second Kosovo victory in 852/1448 {cite:dawlat-uthmaniyya-salabi p. 80-83}. A patron of poets who held a twice-weekly majlis for them, he sent 3,500 dinars yearly to the Haramayn and Jerusalem, died at Edirne palace aged about forty-seven, and was buried by his austere will beside the Muradiyya mosque at Bursa {cite:dawlat-uthmaniyya-salabi p. 83-85}."
+wings: [people]
+periods: [period/mongol-post-mongol]
+regions: [anatolia-balkans]
+relations:
+  - { type: child_of, target: person/muhammad-i-jalabi, sources: [source/dawlat-uthmaniyya-salabi] }
+  - { type: related_to, target: person/mustafa-ibn-bayezid, role: "قضى على تمرد عمه", sources: [source/dawlat-uthmaniyya-salabi] }
+  - { type: participated_in, target: event/battle-varna-848, role: "القائد الغالب", sources: [source/dawlat-uthmaniyya-salabi] }
+  - { type: participated_in, target: event/battle-kosovo-ii-852, role: "القائد الغالب", sources: [source/dawlat-uthmaniyya-salabi] }
+  - { type: signed, target: event/treaty-szeged-848, role: "الطرف العثماني", sources: [source/dawlat-uthmaniyya-salabi] }
+  - { type: fought, target: person/hunyadi-janos, sources: [source/dawlat-uthmaniyya-salabi] }
+external_ids:
+  wikidata: Q131394
+sources: [source/dawlat-uthmaniyya-salabi]
+provenance:
+  layer: own-research
+  source: "الدولة العثمانية لعلي محمد الصلابي (ط1 1421) ص 77-79"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-salabi-uthmani-batch-1
+status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 High)" }

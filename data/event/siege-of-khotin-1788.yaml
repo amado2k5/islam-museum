@@ -1,0 +1,23 @@
+id: event/siege-of-khotin-1788
+class: event
+kind: siege
+label: { ar: "حصار خوتين (١٧٨٨)", en: "Siege of Khotin" }
+summary:
+  ar: "بطاقة أولية لحصار خوتين سنة ١٧٨٨م، حصار النمساويين الروس للقلعة العثمانية؛ لم تُراجع مصادره على الصفحة بعد."
+  en: "Draft card for the Siege of Khotin in 1788, the Austro-Russian blockade of the Ottoman fortress; its sources are not yet checked on the page."
+wings: [time]
+periods: [period/gunpowder-empires]
+regions: [anatolia-balkans]
+date:
+  start: { edtf: "1788", precision: year, status: tradition, derived: true }
+  end: { edtf: "1788", precision: year, status: tradition, derived: true }
+sources: [source/dawlat-uthmaniyya-salabi]
+external_ids:
+  wikidata: Q4337461
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; battle attested in narrative histories — entry not yet checked on the page"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-wave2
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

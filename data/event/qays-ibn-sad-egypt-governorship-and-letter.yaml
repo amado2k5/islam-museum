@@ -1,0 +1,36 @@
+id: event/qays-ibn-sad-egypt-governorship-and-letter
+class: event
+kind: other
+label: { ar: "ولاية قيس بن سعد على مصر ورسالة علي إليه", en: "Qays ibn Sa'd's governorship of Egypt and Ali's letter to him" }
+summary:
+  ar: "ولّى علي قيس بن سعد مصر بعد مقتل محمد بن أبي حذيفة، فدخلها ونظّم أمورها، وكفّ عمّن امتنع من البيعة، ثم روى أبو مخنف وغيره رسائل بين قيس ومعاوية وروايات عن عزله، ويرد الكتاب كثيراً منها، ويرجّح رواية أن علياً كتب إليه: «إني قد احتجت إلى قربك فاستخلف على عملك وأقدم» {cite:sallabi-ali-vol1 p. 330}{cite:sallabi-ali-vol1 p. 331}{cite:sallabi-ali-vol1 p. 334}."
+  en: "Ali sent Qays ibn Sa'd to govern Egypt after Muhammad ibn Abi Hudhayfa's death. Qays organised the province and did not force those who held back from the pledge. Abu Mikhnaf's narrations of letters between Qays and Mu'awiya and of his removal are largely rejected by the book, which prefers a version in which Ali asked him to come to Kufa."
+wings: [people, place]
+themes: [politics-governance-and-authority, civil-wars-and-revolts]
+periods: [period/rashidun]
+regions: [egypt-nile]
+date:
+  start: { edtf: "0657/0659", calendar: julian, precision: year, status: tradition, derived: true, note: "الكتاب يذكر ولاية قيس بعد مقتل محمد بن أبي حذيفة وقبل تولية الأشتر ومحمد؛ الإطار 37-38هـ مشتق؛ ثقة منخفضة." }
+relations:
+  - { type: had_participant, target: person/qays-ibn-sad, role: "الوالي على مصر في الرواية", sources: [source/sallabi-ali-vol1] }
+  - { type: had_participant, target: person/ali-ibn-abi-talib, role: "الآمر بالولاية والمكاتب", sources: [source/sallabi-ali-vol1] }
+  - { type: had_participant, target: person/muawiya-ibn-abi-sufyan, role: "المرسِل للرسائل في الروايات المنقولة", sources: [source/sallabi-ali-vol1] }
+  - { type: occurred_at, target: place/misr }
+  - { type: part_of, target: period/rashidun }
+issue: { ar: "هل عُزل قيس بن سعد عن مصر، وبأي سبب؟", en: "Was Qays ibn Sa'd removed from Egypt, and why?" }
+perspectives:
+  - tradition: sunni
+    id: sunni-author
+    summary:
+      ar: "يرى الكتاب أن رسائل قيس ومعاوية في روايات أبي مخنف باطلة لا تصح، وأن أبا مخنف متروك في الرواية، ويرجّح رواية الدكتور يحيى اليحيى من طريق مؤرخ مصري ثقة، وأن علياً كتب إلى قيس بالقدوم، وأن عزله كان بمثابة استدعاء {cite:sallabi-ali-vol1 p. 331}{cite:sallabi-ali-vol1 p. 334}."
+      en: "The book judges Abu Mikhnaf's letters between Qays and Mu'awiya false and his narrations abandoned; it prefers the account Yahya al-Yahya supports from an Egyptian historian, in which Ali asked Qays to come and the letter amounted to a recall {cite:sallabi-ali-vol1 p. 331}{cite:sallabi-ali-vol1 p. 334}."
+    sources: [source/sallabi-ali-vol1]
+  - tradition: other
+    id: abu-mikhnaf-narration
+    summary:
+      ar: "ينقل الكتاب روايات أبي مخنف (وصفه الكتاب بأنه رافضي متروك) عن رسائل قيس ومعاوية، ويعرضها دون أن يقبلها؛ وأسباب ترجيح الكتاب بين الروايات مذكورة في الصفحة (ص 331-334)."
+      en: "The book reports Abu Mikhnaf's narrations of the letters, which the author calls Rafidi and abandoned, before rejecting them; the discussion is at pages 331-334."
+    sources: [source/sallabi-ali-vol1]
+provenance: { layer: own-research, source: "sallabi-ali-vol1 pp. 330-334", generated_by: "Claude Code", model: "claude-haiku-5-5", run: "sallabi-ali-vol1-deep-pp301-350" }
+sources: [source/sallabi-ali-vol1]
+status: { review: draft, completeness: 1, generated_by: "Claude Code (claude-haiku-5-5); mined from sallabi-ali-vol1 pp. 330-334; contested" }

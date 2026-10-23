@@ -1,0 +1,23 @@
+id: event/muslim-quraysh-war
+class: event
+kind: war
+label: { ar: "حرب المسلمين وقريش", en: "Muslim–Quraysh War" }
+summary:
+  ar: "بطاقة أولية لحرب المسلمين وقريش من ٦٢٤ إلى ٦٣٠م، سلسلة الغزوات بين دولة المدينة وقريش حتى فتح مكة؛ لم تُراجع مصادره على الصفحة بعد."
+  en: "Draft card for the Muslim–Quraysh war of 624–630, the campaigns between Medina and Quraysh until the conquest of Mecca; its sources are not yet checked on the page."
+wings: [time]
+periods: [period/prophetic-era]
+regions: [arabia]
+date:
+  start: { edtf: "624", precision: year, status: tradition, derived: true }
+  end: { edtf: "630", precision: year, status: tradition, derived: true }
+sources: [source/ibn-ishaq-guillaume]
+external_ids:
+  wikidata: Q111939431
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; battle attested in narrative histories — entry not yet checked on the page"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-wave2
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

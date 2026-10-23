@@ -1,0 +1,18 @@
+id: event/conquest-of-fasa
+class: event
+kind: conquest
+label: { ar: "فتح فسا ودار ابجرد", en: "the conquest of Fasa and Darabjird (24 AH)" }
+date:
+  start: { edtf: "0644", hijri: "0024", calendar: julian, precision: year, status: tradition, derived: true, note: "سنة 24؛ التحويل مشتق {cite:kamil-ibn-al-athir p. 428}." }
+summary:
+  ar: "فتح فسا ودار ابجرد من بلاد فارس سنة أربع وعشرين {cite:kamil-ibn-al-athir p. 428}."
+  en: "Fasa and Darabjird in Fars opened in year 24 {cite:kamil-ibn-al-athir p. 428}."
+relations:
+  - { type: occurred_at, target: place/fars, sources: [source/kamil-ibn-al-athir] }
+provenance:
+  layer: own-research
+  source: "الكامل في التاريخ لابن الأثير (دار الكتاب العربي 2012، ج2)، قراءة آبل فيجن"
+  generated_by: "Devin (SWE-2 Medium) from Apple Vision OCR"
+  run: lib-kamil-v2-batch04
+sources: [source/kamil-ibn-al-athir]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 Medium)" }

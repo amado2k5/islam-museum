@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 109:4 (سورة الكافرون، الآية 4)."
 text: "وَلَآ أَنَا۠ عَابِدٌ مَّا عَبَدتُّمْ"
 text_search: "ولا أنا عابد ما عبدتم"
+translations:
+  en: { text: "And I shall not worship that which ye worship.", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "اور (میں پھر کہتا ہوں کہ) جن کی تم پرستش کرتے ہوں ان کی میں پرستش کرنے والا نہیں ہوں", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-109 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

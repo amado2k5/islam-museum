@@ -1,0 +1,23 @@
+id: event/kuwait-najd-border-war
+class: event
+kind: war
+label: { ar: "الحرب الكويتية النجدية", en: "Kuwait–Najd Border War" }
+summary:
+  ar: "بطاقة أولية للحرب الكويتية النجدية من ١٩١٩ إلى ١٩٢٠م، غارات الإخوان على الكويت ومعركة الجهراء؛ لم تُراجع مصادره على الصفحة بعد."
+  en: "Draft card for the Kuwait–Najd border war of 1919–1920, the Ikhwan raids on Kuwait and the Battle of Jahra; its sources are not yet checked on the page."
+wings: [time]
+periods: [period/modern-era]
+regions: [arabia]
+date:
+  start: { edtf: "1919", precision: year, status: tradition, derived: true }
+  end: { edtf: "1920", precision: year, status: tradition, derived: true }
+sources: [source/tarikh-islam-hasan-ibrahim]
+external_ids:
+  wikidata: Q6449024
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; battle attested in narrative histories — entry not yet checked on the page"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-wave2
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

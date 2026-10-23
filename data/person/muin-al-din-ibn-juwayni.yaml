@@ -1,0 +1,27 @@
+id: person/muin-al-din-ibn-juwayni
+class: person
+label: { ar: "معين الدين ابن شيخ الشيوخ الجويني", en: "Mu'in al-Din Ibn al-Juwayni" }
+names:
+  - { value: "معين الدين الصاحب الكبير أبو علي الحسن بن شيخ الشيوخ صدر الدين محمد بن عمر الجويني", kind: full }
+born: { edtf: "1187~", hijri: "0583~", calendar: julian, precision: year, status: tradition, derived: true, note: "توفي سنة 643 وقد قارب الستين {cite:shadharat-dhahab p. 226}." }
+died: { edtf: "1246-01~", hijri: "0643-09", calendar: julian, precision: month, status: tradition, derived: true, note: "توفي في رمضان سنة ثلاث وأربعين وستمائة وقد قارب الستين {cite:shadharat-dhahab p. 226}." }
+summary:
+  ar: "الصاحب الكبير ابن شيخ الشيوخ صدر الدين الجويني؛ ولى عدة مناصب وتقدم عند صاحب مصر، فأمره على جيشه الذي حاصر دمشق فأخذها، وولى وعزل وعمل نيابة السلطنة، فبغته الأجل بعد أربعة أشهر {cite:shadharat-dhahab p. 226}."
+  en: "Son of shaykh al-shuyukh Sadr al-Din al-Juwayni (d. Ramadan 643) — the commander the lord of Egypt set over the army that besieged and took Damascus in 637; acting sultan for four months, then death took him unawares {cite:shadharat-dhahab p. 226}."
+gender: male
+roles: [general, vizier]
+wings: [people]
+periods: [period/crusades-ayyubid-mamluk]
+regions: [levant-iraq, egypt-nile]
+faith:
+  - value: sunni
+    basis: tradition
+relations:
+  - { type: participated_in, target: event/salih-ismail-takes-damascus-637, sources: [source/shadharat-dhahab] }
+sources: [source/shadharat-dhahab]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }
+provenance:
+  layer: own-research
+  source: "شذرات الذهب — ابن العماد (ج5، سنة 643)، قراءة آبل فيجن"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-shadharat-batch-127

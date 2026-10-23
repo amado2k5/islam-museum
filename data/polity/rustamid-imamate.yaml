@@ -1,0 +1,32 @@
+id: polity/rustamid-imamate
+class: polity
+kind: dynasty
+label:
+  ar: "الدولة الرستمية"
+  en: "Rustamid imamate"
+summary:
+  ar: "بطاقة أولية للدولة الرستمية، إمامة بني رستم الإباضية في تهارت بالمغرب الأوسط من ٧٧٧ حتى ٩٠٩م؛ لم تُراجع مصادرها على الصفحة بعد."
+  en: "Draft card for the Rustamid imamate, the Ibadi house of Banu Rustam ruling from Tahert in the central Maghreb from 777 to 909; its sources are not yet checked on the page."
+wings: [time]
+periods: [period/abbasid-early]
+regions: [maghreb]
+start:
+  edtf: "777"
+  precision: year
+  status: tradition
+  derived: true
+end:
+  edtf: "909"
+  precision: year
+  status: tradition
+  derived: true
+sources: [source/tarikh-ibn-khaldun-ibar]
+external_ids:
+  wikidata: Q940123
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; dynasty attested in Ibn Khaldun — entry not yet checked on the page"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-wave2
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

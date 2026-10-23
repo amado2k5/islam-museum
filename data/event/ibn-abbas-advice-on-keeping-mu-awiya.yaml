@@ -1,0 +1,46 @@
+id: event/ibn-abbas-advice-on-keeping-mu-awiya
+class: event
+kind: other
+label: { ar: "روايات مشورة ابن عباس والمغيرة على علي في إبقاء الولاة", en: "Reported advice to Ali by Ibn Abbas and al-Mughira on keeping or removing Uthman's governors" }
+summary:
+  ar: "يعرض الكتاب روايات تنسب إلى ابن عباس والمغيرة بن شعبة مشورتين متعارضتين على علي بعد بيعته في شأن ولاة عثمان ومعاوية: إقرارهم حتى يبايعوا، ثم عزلهم وتولية طلحة والزبير، فأبى علي إلا العزل. ويرد الكتاب هذه الروايات لضعف أسانيدها واضطراب متونها، ويرى أنها افتراضية لا تنقل الخبر على حقيقته {cite:sallabi-ali-vol1 p. 352}{cite:sallabi-ali-vol1 p. 353}{cite:sallabi-ali-vol1 p. 354}."
+  en: "The book sets out reports that give Ibn Abbas and al-Mughira ibn Shu'ba opposing counsel to Ali after his pledge: keep Uthman's governors until they pledge, or remove them and give Basra and Kufa to Talha and al-Zubayr. Ali refused to keep them. The book rejects these reports for weak chains and confused texts and calls them hypothetical {cite:sallabi-ali-vol1 p. 352}{cite:sallabi-ali-vol1 p. 353}{cite:sallabi-ali-vol1 p. 354}."
+date:
+  start: { edtf: "0656", calendar: julian, precision: year, status: tradition, derived: true, note: "تقع الروايات بعد بيعة علي (سنة 35 هـ مشتقة من الكتاب)؛ الكتاب لا يثبت تاريخ الحوار؛ ثقة منخفضة." }
+wings: [people, ideas]
+themes: [civil-wars-and-revolts, politics-governance-and-authority]
+periods: [period/rashidun]
+regions: [arabia, levant-iraq]
+relations:
+  - { type: had_participant, target: person/ali-ibn-abi-talib, role: "المتلقي للمشورة", sources: [source/sallabi-ali-vol1] }
+  - { type: had_participant, target: person/abdullah-ibn-abbas, role: "ناصح بالعزل وقائل بالتحذير من الشام", sources: [source/sallabi-ali-vol1] }
+  - { type: had_participant, target: person/al-mughira-ibn-shuba, role: "ناصح بإقرار الولاة ثم عزلهم", sources: [source/sallabi-ali-vol1] }
+  - { type: part_of, target: period/rashidun }
+issue: { ar: "هل أشار المغيرة وابن عباس على علي بإبقاء ولاة عثمان؟", en: "Did al-Mughira and Ibn Abbas advise Ali to keep Uthman's governors?" }
+perspectives:
+  - tradition: sunni
+    id: sunni-author
+    summary:
+      ar: "يرد الكتاب الروايات لأن أسانيدها واهية، ولأن متنها يخالف روايات أوثق (منها أن معظم الولاة تركوا ولاياتهم وذهبوا إلى مكة)، ولأن الروايات تصوّر المغيرة بالمداهنة وهو ما لا يوافق سيرته، ويرى الكتاب أن تعيين ولاة جدد كان أدعى إلى بيعة الناس {cite:sallabi-ali-vol1 p. 354}{cite:sallabi-ali-vol1 p. 355}."
+      en: "The book rejects the reports: their chains are weak, their texts conflict with more reliable reports (most of those governors had left their provinces for Mecca), and they portray al-Mughira as a flatterer, which does not fit his conduct. It holds that appointing new governors better served the people's pledge {cite:sallabi-ali-vol1 p. 354}{cite:sallabi-ali-vol1 p. 355}."
+    sources: [source/sallabi-ali-vol1]
+  - tradition: academic
+    id: academic-view
+    summary:
+      ar: "يستند الكتاب في الرد إلى كتاب خلافة علي بن أبي طالب لعبد الحميد علي (هوامش ص 353-354)، وإلى الولاية على البلدان، ولم يُنقل في هذا الموضع حكم أكاديمي مغاير بنص مستقل (needs_source) {cite:sallabi-ali-vol1 p. 353}."
+      en: "The book's rejection leans on Abd al-Hamid Ali's study of Ali's caliphate and on the book on governorships (footnotes, pp. 353-354); no separate contrary academic verdict is quoted (needs_source) {cite:sallabi-ali-vol1 p. 353}."
+    sources: [source/sallabi-ali-vol1]
+  - tradition: other
+    id: critics-using-the-reports
+    summary:
+      ar: "يذكر الكتاب أن كتاباً معاصرين اعتمدوا هذه الروايات للطعن في أكابر الصحابة أهل الشورى في دينهم وعدلهم وأمانتهم، ويعدّ الكتاب ذلك خطأً قائماً على أساس واه {cite:sallabi-ali-vol1 p. 354}. وينسب الكتاب إلى بعض القراء أن عزل علي لولاة عثمان كان ضعفاً في الخبرة السياسية، وإلى آخرين أنه صلابة في الحق {cite:sallabi-ali-vol1 p. 355}."
+      en: "The book reports that modern writers relied on these reports to impugn the senior Companions of the shura in their religion, justice and trust, which it calls a flawed foundation. It also reports readers who read Ali's dismissals as weakness of political judgement and others who read them as firmness for the truth {cite:sallabi-ali-vol1 p. 354}{cite:sallabi-ali-vol1 p. 355}."
+    sources: [source/sallabi-ali-vol1]
+provenance:
+  layer: own-research
+  source: "sallabi-ali-vol1 pp. 352-355 (harvest OCR)"
+  generated_by: "Claude Code"
+  model: "claude-haiku-5-5"
+  run: "sallabi-ali-vol1-deep-pp351-388"
+sources: [source/sallabi-ali-vol1]
+status: { review: draft, completeness: 2, generated_by: "Claude Code (claude-haiku-5-5); mined from sallabi-ali-vol1 pp. 352-355; contested; the reports are the book's own citations to al-Waqidi and Abu Mikhnaf and are not verified here" }

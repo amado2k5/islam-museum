@@ -1,0 +1,23 @@
+id: event/battle-of-sidon-1840
+class: event
+kind: battle
+label: { ar: "معركة صيدا (١٨٤٠)", en: "Battle of Sidon" }
+summary:
+  ar: "بطاقة أولية لمعركة صيدا سنة ١٨٤٠م، طرد الحلفاء لجيش إبراهيم باشا من الساحل؛ لم تُراجع مصادره على الصفحة بعد."
+  en: "Draft card for the Battle of Sidon in 1840, the Allies' expulsion of Ibrahim Pasha's army from the coast; its sources are not yet checked on the page."
+wings: [time]
+periods: [period/colonial-era]
+regions: [levant-iraq]
+date:
+  start: { edtf: "1840-09-26", precision: year, status: tradition, derived: true }
+  end: { edtf: "1840-09-26", precision: year, status: tradition, derived: true }
+sources: [source/tarikh-islam-hasan-ibrahim]
+external_ids:
+  wikidata: Q112648578
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; battle attested in narrative histories — entry not yet checked on the page"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-wave2
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 38:70 (سورة ص، الآية 70)."
 text: "إِن يُوحَىٰٓ إِلَىَّ إِلَّآ أَنَّمَآ أَنَا۠ نَذِيرٌ مُّبِينٌ"
 text_search: "إن يوحى إلي إلا أنما أنا نذير مبين"
+translations:
+  en: { text: "It is revealed unto me only that I may be a plain warner.", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "میری طرف تو یہی وحی کی جاتی ہے کہ میں کھلم کھلا ہدایت کرنے والا ہوں", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-38 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

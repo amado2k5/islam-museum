@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 4:107 (سورة النساء، الآية 107)."
 text: "وَلَا تُجَـٰدِلْ عَنِ ٱلَّذِينَ يَخْتَانُونَ أَنفُسَهُمْ ۚ إِنَّ ٱللَّهَ لَا يُحِبُّ مَن كَانَ خَوَّانًا أَثِيمًا"
 text_search: "ولا تجادل عن الذين يختانون أنفسهم ۚ إن الله لا يحب من كان خوانا أثيما"
+translations:
+  en: { text: "And plead not on behalf of (people) who deceive themselves. Lo! Allah loveth not one who is treacherous and sinful.", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "اور لوگ اپنے ہم جنسوں کی خیانت کرتے ہیں ان کی طرف سے بحث نہ کرنا کیونکہ خدا خائن اور مرتکب جرائم کو دوست نہیں رکھتا", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-4 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

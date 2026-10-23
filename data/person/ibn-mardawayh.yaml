@@ -1,0 +1,21 @@
+id: person/ibn-mardawayh
+class: person
+label: { ar: "أحمد بن موسى بن مردويه أبو بكر الحافظ الأصبهاني" }
+summary:
+  ar: "أحمد بن موسى بن مردويه بن فورك أبو بكر الحافظ الأصبهاني، الإمام المحدث المفسر الكبير، صاحب كتاب التفسير المسند الحافل وكتاب المسند وتاريخ أصبهان، ومن أئمة الحديث وحفاظه المكثرين المشهورين. توفي بأصبهان في رمضان سنة عشر وأربعمائة {cite:muntazam-ibn-al-jawzi j.7 p.294}."
+wings: [people]
+periods: [period/buyid-seljuk-fatimid-era]
+regions: [persia-central-asia]
+roles: [scholar, teacher]
+themes: [scripture-and-its-sciences]
+died:
+  { edtf: "1020-01~", hijri: "0410-09", calendar: julian, precision: month, status: tradition, derived: true, note: "رمضان 410هـ؛ التحويل مشتق {cite:muntazam-ibn-al-jawzi j.7 p.294}" }
+relations:
+  - { type: died_in, target: place/isfahan, sources: [source/muntazam-ibn-al-jawzi] }
+provenance:
+  layer: own-research
+  source: "المنتظم في تاريخ الملوك والأمم — ابن الجوزي (ج7، وفيات سنة 410)، قراءة آبل فيجن"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-muntazam-batch-22
+sources: [source/muntazam-ibn-al-jawzi]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

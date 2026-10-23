@@ -1,0 +1,75 @@
+id: exhibit/path-abbasid-age
+class: exhibit
+kind: trail
+label:
+  ar: العصر العباسي
+  en: The Abbasid Age
+summary:
+  ar: 'مسار في قرون بغداد العظمى: الرشيد والمأمون وبيت الحكمة، وسامراء، والخلافة على كرسي السلاطين.'
+  en: A trail through Baghdad's great centuries.
+audience:
+- newcomer
+- student
+duration_minutes: 30
+wings: []
+regions:
+- levant-iraq
+rooms:
+- title:
+    ar: الرشيد
+    en: Harun
+  body:
+    ar: 'بغداد في أوجها: عدل وحج وشعر وفتوح.'
+    en: 'بغداد في أوجها: عدل وحج وشعر وفتوح.'
+  features:
+  - person/harun-al-rashid
+  - place/baghdad
+- title:
+    ar: المأمون
+    en: Al-Ma'mun
+  body:
+    ar: عصر الترجمة والرصد والجدل.
+    en: عصر الترجمة والرصد والجدل.
+  features:
+  - person/abd-allah-al-mamun
+  - building/bayt-al-hikma
+- title:
+    ar: سامراء
+    en: Samarra
+  body:
+    ar: الخلفاء يسكنون مدينة العسكر نصف قرن.
+    en: الخلفاء يسكنون مدينة العسكر نصف قرن.
+  features:
+  - place/samarra
+- title:
+    ar: الأمراء والسلاطين
+    en: Amirs and sultans
+  body:
+    ar: البويهيون ثم السلاجقة يحكمون باسم الخليفة.
+    en: البويهيون ثم السلاجقة يحكمون باسم الخليفة.
+  features:
+  - polity/buyid-dynasty
+  - polity/seljuk-empire
+  - polity/abbasid-caliphate
+- title:
+    ar: النهاية
+    en: The end
+  body:
+    ar: '1258: هولاكو يطفئ بغداد بعد خمسة قرون.'
+    en: '1258: هولاكو يطفئ بغداد بعد خمسة قرون.'
+  features:
+  - event/sack-of-baghdad-656
+prerequisites:
+- exhibit/path-islam-in-30-minutes
+sources:
+- source/wikidata
+provenance:
+  layer: own-research
+  source: Devin-assembled trail from existing museum entities
+  generated_by: Devin (SWE-2 High)
+  model: SWE-2 High
+  run: pathways-batch-4
+status:
+  review: draft
+  completeness: 1
+  generated_by: Devin (SWE-2 High), pathways lane, 2026-10-16

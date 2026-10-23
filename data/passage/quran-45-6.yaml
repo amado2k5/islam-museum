@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 45:6 (سورة الجاثية، الآية 6)."
 text: "تِلْكَ ءَايَـٰتُ ٱللَّهِ نَتْلُوهَا عَلَيْكَ بِٱلْحَقِّ ۖ فَبِأَىِّ حَدِيثٍۭ بَعْدَ ٱللَّهِ وَءَايَـٰتِهِۦ يُؤْمِنُونَ"
 text_search: "تلك آيات الله نتلوها عليك بالحق ۖ فبأي حديث بعد الله وآياته يؤمنون"
+translations:
+  en: { text: "These are the portents of Allah which We recite unto thee (Muhammad) with truth. Then in what fact, after Allah and His portents, will they believe?", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "یہ خدا کی آیتیں ہیں جو ہم تم کو سچائی کے ساتھ پڑھ کر سناتے ہیں۔ تو یہ خدا اور اس کی آیتوں کے بعد کس بات پر ایمان لائیں گے؟", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-45 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

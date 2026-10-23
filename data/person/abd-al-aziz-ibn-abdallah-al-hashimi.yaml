@@ -1,0 +1,27 @@
+id: person/abd-al-aziz-ibn-abdallah-al-hashimi
+class: person
+label: { ar: "عبد العزيز بن عبد الله الهاشمي", en: "Abd al-Aziz ibn Abdallah al-Hashimi" }
+names:
+  - { kind: full, lang: ar, value: "عبد العزيز بن عبد الله بن عبيد الله بن العباس بن محمد بن علي بن عبد الله بن العباس بن عبد المطلب، أبو القاسم الهاشمي" }
+  - { kind: kunya, lang: ar, value: "أبو القاسم" }
+gender: male
+roles: [hadith-scholar]
+traditions: [sunni]
+summary:
+  ar: "هاشمي بغدادي من ولد عبد الله بن العباس بن عبد المطلب؛ سمع يحيى بن عبد الرحمن المقرئ وأبا بكر الحميدي وعبد الله بن جعفر الرقي وعبد الله بن إبراهيم الغفاري، وروى عنه عبد الله بن إسحاق المدائني والقاضي المحاملي وإسماعيل بن محمد الصفار ومحمد بن العباس بن مجيح، وقال الدارقطني: كان ثقة؛ توفي لإحدى عشرة ليلة بقيت من ذي الحجة سنة خمس وسبعين ومائتين وقد بلغ ستًا وثمانين سنة، وكان جميلًا بهيًّا لم يغيّر شيبه {cite:tarikh-baghdad-khatib j.9 p.451-452}."
+  en: "A Hashimi of Baghdad of the line of 'Abdallah b. al-'Abbas b. 'Abd al-Muttalib; he heard Yahya b. 'Abd al-Rahman al-Muqri', Abu Bakr al-Humaydi, 'Abdallah b. Ja'far al-Raqqi and 'Abdallah b. Ibrahim al-Ghifari; his transmitters included 'Abdallah b. Ishaq al-Mada'ini and the judge al-Muhamili; al-Daraqutni said he was trustworthy; he died on 11 Dhu'l-Hijja 275 aged eighty-six, still handsome, his grey hair unchanged {cite:tarikh-baghdad-khatib j.9 p.451-452}."
+died: { hijri: "0275-11-11", edtf: "0889", calendar: julian, precision: day, status: tradition, derived: true, note: "توفي يوم الخميس لإحدى عشرة ليلة بقيت من ذي الحجة سنة 275 هـ، وقال أحمد بن كامل: يوم الثلاثاء. التحويل مشتق.", sources: [source/tarikh-baghdad-khatib] }
+wings: [people]
+themes: [scripture-and-its-sciences]
+regions: [levant-iraq]
+periods: [period/abbasid-early]
+relations:
+  - { type: member_of, target: group/banu-hashim, sources: [source/tarikh-baghdad-khatib] }
+provenance:
+  layer: own-research
+  source: "تاريخ بغداد للخطيب البغدادي (ج9، ترجمة 5610، ص451-452)، قراءة آبل فيجن"
+  generated_by: "Devin (SWE-2 Medium) from Apple Vision OCR"
+  model: "SWE-2 Medium"
+  run: lib-tarikh-baghdad-tb7
+sources: [source/tarikh-baghdad-khatib]
+status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 Medium)" }

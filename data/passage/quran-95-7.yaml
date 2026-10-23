@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 95:7 (سورة التين، الآية 7)."
 text: "فَمَا يُكَذِّبُكَ بَعْدُ بِٱلدِّينِ"
 text_search: "فما يكذبك بعد بالدين"
+translations:
+  en: { text: "So who henceforth will give the lie to thee about the judgment?", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "تو (اے آدم زاد) پھر تو جزا کے دن کو کیوں جھٹلاتا ہے؟", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-95 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

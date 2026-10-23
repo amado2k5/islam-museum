@@ -2,9 +2,10 @@ id: person/arbad-ibn-qays
 class: person
 label: { en: "Arbad ibn Qays", ar: "أربد بن قيس" }
 names:
-  - { kind: full, lang: ar, value: "أربد بن قيس العامري" }
+  - { kind: full, lang: ar, value: "أربد بن قيس بن جزء بن خالد بن جعفر العامري" }
+  - { kind: kunya, lang: ar, value: "أبو حريز" }
 gender: male
-died: { edtf: "0631~", hijri: "0009", calendar: julian, precision: year, status: tradition, note: "أصابته صاعقة في طريق رجوعه فأحرقته فيما ترويه السيرة.", sources: [source/mubarakpuri-raheeq] }
+died: { edtf: "0631~", hijri: "0009", calendar: julian, precision: year, status: tradition, note: "أصابته صاعقة بعد رجوعه إلى أرض بني عامر بيوم أو يومين فأحرقته وجمله (ابن هشام ص215؛ الرحيق ص453).", sources: [source/ibn-hisham-saqqa, source/mubarakpuri-raheeq] }
 roles: [politician]
 summary:
   en: "A leader of Banu Amir, maternal half-brother of the poet Labid, who circled behind the Prophet and half-drew his sword during the 9 AH delegation; the tradition says his hand was stayed, and lightning struck him dead on the way home."
@@ -16,8 +17,9 @@ regions: [arabia]
 story_roles:
   - { role: opponent, toward: person/muhammad, start: { edtf: "0631~" }, status: tradition, sources: [source/mubarakpuri-raheeq] }
 relations:
-  - { type: member_of, target: group/banu-amir }
+  - { type: member_of, target: group/banu-amir-ibn-sasaa, sources: [source/ibn-hisham-saqqa] }
   - { type: sibling_of, target: person/labid-ibn-rabia }
-  - { type: participated_in, target: event/assassination-attempt-of-amir-and-arbad, role: "الذي اخترط السيف", sources: [source/mubarakpuri-raheeq] }
-sources: [source/mubarakpuri-raheeq, source/sahih-al-bukhari, source/zad-al-maad]
+  - { type: participated_in, target: event/assassination-attempt-of-amir-and-arbad, role: "المكلَّف بالضرب بالسيف", sources: [source/ibn-hisham-saqqa, source/mubarakpuri-raheeq] }
+  - { type: participated_in, target: event/death-of-arbad-ibn-qays, role: "المتوفى", sources: [source/ibn-hisham-saqqa] }
+sources: [source/mubarakpuri-raheeq, source/sahih-al-bukhari, source/zad-al-maad, source/ibn-hisham-saqqa]
 status: { review: draft, completeness: 2, generated_by: "Devin; al-Raheeq al-Makhtum pp. 440-454 (batch 22)" }

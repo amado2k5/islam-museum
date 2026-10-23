@@ -1,0 +1,23 @@
+id: event/siege-of-khokhanaberd-1236
+class: event
+kind: siege
+label: { ar: "حصار خوخانابرد (١٢٣٦)", en: "Siege of Khokhanaberd (1236)" }
+summary:
+  ar: "بطاقة أولية لحصار خوخانابرد سنة ١٢٣٦م، أخذ المغول للحصن الأرمني في غنجة؛ لم تُراجع مصادره على الصفحة بعد."
+  en: "Draft card for the Siege of Khokhanaberd in 1236, the Mongol capture of the Armenian fortress; its sources are not yet checked on the page."
+wings: [time]
+periods: [period/crusades-ayyubid-mamluk]
+regions: [anatolia-balkans]
+date:
+  start: { edtf: "1236", precision: year, status: tradition, derived: true }
+  end: { edtf: "1236", precision: year, status: tradition, derived: true }
+sources: [source/tarikh-islam-hasan-ibrahim]
+external_ids:
+  wikidata: Q132821236
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; battle attested in narrative histories — entry not yet checked on the page"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-wave2
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

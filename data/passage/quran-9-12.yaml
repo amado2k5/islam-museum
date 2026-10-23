@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 9:12 (سورة التوبة، الآية 12)."
 text: "وَإِن نَّكَثُوٓا۟ أَيْمَـٰنَهُم مِّنۢ بَعْدِ عَهْدِهِمْ وَطَعَنُوا۟ فِى دِينِكُمْ فَقَـٰتِلُوٓا۟ أَئِمَّةَ ٱلْكُفْرِ ۙ إِنَّهُمْ لَآ أَيْمَـٰنَ لَهُمْ لَعَلَّهُمْ يَنتَهُونَ"
 text_search: "وإن نكثوا أيمانهم من بعد عهدهم وطعنوا في دينكم فقاتلوا أئمة الكفر ۙ إنهم لا أيمان لهم لعلهم ينتهون"
+translations:
+  en: { text: "And if they break their pledges after their treaty (hath been made with you) and assail your religion, then fight the heads of disbelief - Lo! they have no binding oaths - in order that they may desist.", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "اور اگر عہد کرنے کے بعد اپنی قسموں کو توڑ ڈالیں اور تمہارے دین میں طعنے کرنے لگیں تو ان کفر کے پیشواؤں سے جنگ کرو (یہ یہ بےایمان لوگ ہیں اور) ان کی قسموں کا کچھ اعتبار نہیں ہے۔ عجب نہیں کہ (اپنی حرکات سے) باز آجائیں", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-9 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

@@ -1,0 +1,23 @@
+id: event/islam-of-abu-dharr
+class: event
+kind: other
+label: { ar: "إسلام أبي ذر الغفاري في مكة على يد علي", en: "Abu Dharr al-Ghifari accepts Islam in Mecca through Ali" }
+summary:
+  ar: "قدم أبو ذر مكة يسأل عن النبي فلم يسأل أحداً خشية الرقابة، فأضافه علي ثلاث ليال دون أن يسأله، ثم دله على النبي فسمع قوله فأسلم، وأعلن شهادته في المسجد فضربه القوم حتى أنقذه العباس؛ ويرى الكتاب في ذلك دروساً في التأني والاحتياط والتغطية الأمنية للتحرك."
+  en: "Abu Dharr came to Mecca looking for the Prophet and asked no one, out of caution. Ali hosted him for three nights without asking his business, then guided him to the Prophet, heard him, and accepted Islam. Abu Dharr declared his faith aloud in the mosque, was beaten, and was rescued by al-Abbas."
+wings: [people]
+themes: [converts-and-leavers]
+periods: [period/prophetic-era]
+regions: [arabia]
+date:
+  start: { edtf: "0610/0622", calendar: julian, precision: year, status: tradition, derived: true, note: "الكتاب لا يذكر تاريخاً لإسلام أبي ذر؛ الفترة المكية قبل الهجرة (ص33-34). التاريخ مشتق لا منصوص عليه." }
+relations:
+  - { type: occurred_at, target: place/mecca }
+  - { type: had_participant, target: person/abu-dharr-al-ghifari, role: "أسلم", sources: [source/sallabi-ali-vol1] }
+  - { type: had_participant, target: person/ali-ibn-abi-talib, role: "أضافه ثلاث ليال ثم دله على النبي", sources: [source/sallabi-ali-vol1] }
+  - { type: had_participant, target: person/muhammad, role: "سمع منه ودعاه إلى كتمان أمره ثم أمره بالرجوع إلى قومه", sources: [source/sallabi-ali-vol1] }
+  - { type: had_participant, target: person/abbas-ibn-abd-al-muttalib, role: "أنقذه من القوم حين ضربوه", sources: [source/sallabi-ali-vol1] }
+  - { type: part_of, target: period/prophetic-era }
+sources: [source/sallabi-ali-vol1]
+status: { review: draft, completeness: 1, generated_by: "Claude Code (claude-haiku-5-5); mined from sallabi-ali-vol1 pp. 33-34" }
+provenance: { layer: own-research, source: "sallabi-ali-vol1 pp. 33-34", generated_by: "Claude Code", model: "claude-haiku-5-5", run: "sallabi-ali-vol1-batch1" }

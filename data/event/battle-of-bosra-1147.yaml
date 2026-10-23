@@ -1,0 +1,23 @@
+id: event/battle-of-bosra-1147
+class: event
+kind: battle
+label: { ar: "معركة بصرى (١١٤٧)", en: "Battle of Bosra" }
+summary:
+  ar: "بطاقة أولية لمعركة بصرى سنة ١١٤٧م، صدام قوات دمشق مع الغز الصليبي على الحوران؛ لم تُراجع مصادره على الصفحة بعد."
+  en: "Draft card for the Battle of Bosra in 1147, the clash of Damascus's forces with the Frankish raid on the Hauran; its sources are not yet checked on the page."
+wings: [time]
+periods: [period/crusades-ayyubid-mamluk]
+regions: [levant-iraq]
+date:
+  start: { edtf: "1147", precision: year, status: tradition, derived: true }
+  end: { edtf: "1147", precision: year, status: tradition, derived: true }
+sources: [source/kamil-ibn-al-athir]
+external_ids:
+  wikidata: Q4870532
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; battle attested in Crusade histories — entry not yet checked on the page"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-wave2
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

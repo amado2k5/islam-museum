@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 42:16 (سورة الشورى، الآية 16)."
 text: "وَٱلَّذِينَ يُحَآجُّونَ فِى ٱللَّهِ مِنۢ بَعْدِ مَا ٱسْتُجِيبَ لَهُۥ حُجَّتُهُمْ دَاحِضَةٌ عِندَ رَبِّهِمْ وَعَلَيْهِمْ غَضَبٌ وَلَهُمْ عَذَابٌ شَدِيدٌ"
 text_search: "والذين يحاجون في الله من بعد ما استجيب له حجتهم داحضة عند ربهم وعليهم غضب ولهم عذاب شديد"
+translations:
+  en: { text: "And those who argue concerning Allah after He hath been acknowledged, their argument hath no weight with their Lord, and wrath is upon them and theirs will be an awful doom.", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "اور جو لوگ خدا (کے بارے) میں بعد اس کے کہ اسے (مومنوں نے) مان لیا ہو جھگڑتے ہیں ان کے پروردگار کے نزدیک ان کا جھگڑا لغو ہے۔ اور ان پر (خدا کا) غضب اور ان کے لئے سخت عذاب ہے", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-42 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

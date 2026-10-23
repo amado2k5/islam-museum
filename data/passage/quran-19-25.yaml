@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 19:25 (سورة مريم، الآية 25)."
 text: "وَهُزِّىٓ إِلَيْكِ بِجِذْعِ ٱلنَّخْلَةِ تُسَـٰقِطْ عَلَيْكِ رُطَبًا جَنِيًّا"
 text_search: "وهزي إليك بجذع النخلة تساقط عليك رطبا جنيا"
+translations:
+  en: { text: "And shake the trunk of the palm-tree toward thee, thou wilt cause ripe dates to fall upon thee.", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "اور کھجور کے تنے کو پکڑ کر اپنی طرف ہلاؤ تم پر تازہ تازہ کھجوریں جھڑ پڑیں گی", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-19 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

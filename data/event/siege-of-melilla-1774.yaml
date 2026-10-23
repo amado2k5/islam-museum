@@ -1,0 +1,23 @@
+id: event/siege-of-melilla-1774
+class: event
+kind: siege
+label: { ar: "حصار مليلية", en: "Siege of Melilla" }
+summary:
+  ar: "بطاقة أولية لحصار مليلية من ١٧٧٤ إلى ١٧٧٥م، محاولة سلطان المغرب محمد الثالث الفاشلة لاسترداد المدينة؛ لم تُراجع مصادره على الصفحة بعد."
+  en: "Draft card for the Siege of Melilla of 1774–1775, Sultan Muhammad III's failed attempt to retake the Spanish city; its sources are not yet checked on the page."
+wings: [time]
+periods: [period/colonial-era]
+regions: [maghreb]
+date:
+  start: { edtf: "1774", precision: year, status: tradition, derived: true }
+  end: { edtf: "1775", precision: year, status: tradition, derived: true }
+sources: [source/tarikh-ibn-khaldun-ibar]
+external_ids:
+  wikidata: Q4337399
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; siege attested in Moroccan histories — entry not yet checked on the page"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-wave2
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

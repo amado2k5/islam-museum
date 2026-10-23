@@ -1,0 +1,24 @@
+id: person/al-harith-ibn-amr-al-kindi
+class: person
+label: { ar: "الحارث بن عمرو الكندي", en: "al-Harith ibn Amr al-Kindi" }
+names:
+  - { kind: full, lang: ar, value: "الحارث بن عمرو بن حجر الكندي" }
+gender: male
+roles: [ruler]
+summary:
+  ar: "الكندي الذي ولاه قباذ بن فيروز الحيرة بعد عزل المنذر بن ماء السماء، لأنه أجاب دعوة قباذ إلى المذهب المزدكي؛ فلما ملك كسرى أنوشروان وقتل مزدك أعاد المنذر وطلب الحارث، فأفلت إلى ديار كلب فبقي فيهم حتى مات، في رواية الرحيق المختوم."
+  en: "The Kindite whom Qubadh ibn Firuz installed at al-Hira after dismissing al-Mundhir ibn Ma' al-Sama', because he had accepted Qubadh's Mazdakite doctrine; when Khosrow Anushirvan killed Mazdak and restored al-Mundhir he sought al-Harith, who escaped to the land of Kalb and remained there until his death, in al-Raheeq al-Makhtum's account."
+wings: [people]
+periods: [period/pre-islamic-arabia]
+regions: [arabia, levant-iraq]
+relations:
+  - { type: member_of, target: group/kinda, sources: [source/mubarakpuri-raheeq] }
+  - { type: ruler_of, target: place/al-hira, note: "بتولية قباذ بعد عزل المنذر؛ المدة غير محددة في الكتاب.", sources: [source/mubarakpuri-raheeq, source/muhadarat-tarikh-al-umam-al-islamiyya] }
+provenance:
+  layer: own-research
+  source: "الرحيق المختوم ص25–28 و40 نقلاً عن محاضرات تاريخ الأمم الإسلامية للخضري 1/29–34 وتاريخ أرض القرآن 2/80–82 وتفهيم القرآن 6/297–298"
+  generated_by: "Claude Code"
+  model: "claude-fable-5-1"
+  run: "raheeq-prose-batch-2b"
+sources: [source/mubarakpuri-raheeq, source/muhadarat-tarikh-al-umam-al-islamiyya]
+status: { review: draft, completeness: 1, generated_by: "Claude Code (claude-fable-5-1); al-Raheeq al-Makhtum p. 26" }

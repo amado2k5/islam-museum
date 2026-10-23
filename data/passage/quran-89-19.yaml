@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 89:19 (سورة الفجر، الآية 19)."
 text: "وَتَأْكُلُونَ ٱلتُّرَاثَ أَكْلًا لَّمًّا"
 text_search: "وتأكلون التراث أكلا لما"
+translations:
+  en: { text: "And ye devour heritages with devouring greed.", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "اور میراث کے مال سمیٹ کر کھا جاتے ہو", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-89 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

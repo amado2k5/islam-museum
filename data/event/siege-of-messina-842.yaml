@@ -1,0 +1,23 @@
+id: event/siege-of-messina-842
+class: event
+kind: siege
+label: { ar: "حصار مسينة (٨٤٢–٨٤٣)", en: "Siege of Messina (842–843)" }
+summary:
+  ar: "بطاقة أولية لحصار مسينة (٨٤٢–٨٤٣)؛ لم تُراجع مصادره على الصفحة بعد."
+  en: "Draft card for Siege of Messina (842–843); its sources are not yet checked on the page."
+wings: [time]
+periods: [period/abbasid-early]
+regions: [andalus-europe]
+date:
+  start: { edtf: "842", precision: year, status: tradition, derived: true }
+  end: { edtf: "843", precision: year, status: tradition, derived: true }
+sources: [source/tarikh-islam-hasan-ibrahim]
+external_ids:
+  wikidata: Q125565027
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; event attested in narrative histories — entry not yet checked on the page"
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: wikidata-import-wave2
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 Medium)" }

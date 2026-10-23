@@ -1,0 +1,23 @@
+id: event/khwarezmian-sack-of-jerusalem-1244
+class: event
+kind: siege
+label: { ar: "سقوط القدس بيد الخوارزمية (١٢٤٤)", en: "Khwarezmian sack of Jerusalem" }
+summary:
+  ar: "بطاقة أولية لسقوط القدس سنة ١٢٤٤م، حين استردها الخوارزمية المتحالفون مع الأيوبيين من أيدي الفرنج؛ لم تُراجع مصادره على الصفحة بعد."
+  en: "Draft card for the fall of Jerusalem in 1244, when the Khwarezmians allied to the Ayyubids retook the city from the Franks; its sources are not yet checked on the page."
+wings: [time]
+periods: [period/crusades-ayyubid-mamluk]
+regions: [levant-iraq]
+date:
+  start: { edtf: "1244", precision: year, status: tradition, derived: true }
+  end: { edtf: "1244", precision: year, status: tradition, derived: true }
+sources: [source/kamil-ibn-al-athir]
+external_ids:
+  wikidata: Q3849563
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; event attested in Crusades histories — entry not yet checked on the page"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-wave2
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 3:183 (سورة آل عمران، الآية 183)."
 text: "ٱلَّذِينَ قَالُوٓا۟ إِنَّ ٱللَّهَ عَهِدَ إِلَيْنَآ أَلَّا نُؤْمِنَ لِرَسُولٍ حَتَّىٰ يَأْتِيَنَا بِقُرْبَانٍ تَأْكُلُهُ ٱلنَّارُ ۗ قُلْ قَدْ جَآءَكُمْ رُسُلٌ مِّن قَبْلِى بِٱلْبَيِّنَـٰتِ وَبِٱلَّذِى قُلْتُمْ فَلِمَ قَتَلْتُمُوهُمْ إِن كُنتُمْ صَـٰدِقِينَ"
 text_search: "الذين قالوا إن الله عهد إلينا ألا نؤمن لرسول حتى يأتينا بقربان تأكله النار ۗ قل قد جاءكم رسل من قبلي بالبينات وبالذي قلتم فلم قتلتموهم إن كنتم صادقين"
+translations:
+  en: { text: "(The same are) those who say: Lo! Allah hath charged us that we believe not in any messenger until he bring us an offering which fire (from heaven) shall devour. Say (unto them, O Muhammad): Messengers came unto you before me with miracles, and with that (very miracle) which ye describe. Why then did ye slay them? (Answer that) if ye are truthful!", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "جو لوگ کہتے ہی کہ خدا نے ہمیں حکم بھیجا ہے کہ جب تک کوئی پیغمبر ہمارے پاس ایسی نیاز لے کر نہ آئے جس کو آگ آکر کھا جائے تب تک ہم اس پر ایمان نہ لائیں گے (اے پیغمبر ان سے) کہہ دو کہ مجھ سے پہلے کئی پیغمبر تمہارے پاس کھلی ہوئی نشانیاں لے کر آئے اور وہ (معجزہ) بھی لائے جو تم کہتے ہو تو اگر سچے ہو تو تم نے ان کو قتل کیوں کیا؟", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-3 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

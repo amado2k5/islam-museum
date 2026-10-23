@@ -1,0 +1,17 @@
+id: passage/arbaun-02
+class: passage
+unit: hadith
+work: work/arbaun-nawawi
+ref: "2"
+label: { ar: "الأربعون 2 — حديث جبريل", en: "Arba'un 2 — the hadith of Jibril" }
+summary:
+  ar: "حديث عمر بن الخطاب المشهور بحديث جبريل، وهو الحديث الثاني في الأربعين النووية وفي شرح ابن رجب؛ يسأل فيه رجل شديد بياض الثياب شديد سواد الشعر النبي عن الإسلام فيجيبه بأركانه الخمسة، ثم عن الإيمان فيجيبه بالتصديق بالله وملائكته وكتبه ورسله واليوم الآخر والقدر خيره وشره، ثم عن الإحسان فيجيبه أن يعبد الله كأنه يراه فإن لم يكن يراه فإنه يراه، ثم عن الساعة وأماراتها، ويخبر عمر في آخره أن السائل كان جبريل جاء يعلمهم دينهم؛ رواه مسلم (8) وتفرد به عن البخاري في الصحيحين، وأخرجه أيضاً أحمد (1/27 و28 و51 و52) وأبو داود (4695–4697) وابن ماجه (63) والترمذي (2610) وغيرهم؛ شرحه ابن رجب شرحاً موسعاً في حقائق الإسلام والإيمان والإحسان والساعة (جامع العلوم والحكم ص 70–120)."
+  en: "Umar ibn al-Khattab's famous hadith of Jibril, the second hadith of al-Nawawi's Forty and of Ibn Rajab's commentary: a man in strikingly white clothes asks the Prophet about islam and is answered with its five pillars, then about iman — assent to God, His angels, books, messengers, the Last Day and the decree, its good and its ill — then about ihsan — worshipping God as though you see Him, for He sees you — then about the Hour and its signs; Umar is told at the end that the questioner was Jibril come to teach them their religion. Transmitted by Muslim (8), who alone of the two Sahih collections includes it; also by Ahmad (1/27, 28, 51, 52), Abu Dawud (4695–4697), Ibn Majah (63), al-Tirmidhi (2610) and others; Ibn Rajab comments at length on the realities of islam, iman, ihsan and the Hour (Jami' al-Ulum wal-Hikam pp. 70–120)."
+relations:
+  - { type: basis_for, target: concept/islam-din, sources: [source/ibn-rajab-jami-ulum-hikam] }
+  - { type: basis_for, target: concept/iman, sources: [source/ibn-rajab-jami-ulum-hikam] }
+  - { type: basis_for, target: concept/ihsan, sources: [source/ibn-rajab-jami-ulum-hikam] }
+  - { type: mentions, target: person/umar-ibn-al-khattab, sources: [source/ibn-rajab-jami-ulum-hikam] }
+provenance: { layer: own-research, source: "Jami' al-Ulum wal-Hikam (Dar Ibn Kathir 1429/2008), hadith 2 pp. 70–120", generated_by: "Devin (SWE-2 High) from Apple Vision OCR", run: "lib-jami-ulum-hikam-batch-2" }
+sources: [source/ibn-rajab-jami-ulum-hikam]
+status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 High); no matn stored (hadith exceeds excerpt limit); takhrij from the edition's apparatus p. 71" }

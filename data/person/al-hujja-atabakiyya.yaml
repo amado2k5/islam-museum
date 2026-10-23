@@ -1,0 +1,27 @@
+id: person/al-hujja-atabakiyya
+class: person
+label: { ar: "الحجة الأتابكية", en: "al-Hujja al-Atabakiyya" }
+names:
+  - { value: "تركان بنت الملك عز الدين مسعود بن قطب الدين مودود بن أتابك زنكي", kind: full }
+died: { edtf: "1242~", hijri: "0640", calendar: julian, precision: year, status: tradition, derived: true, note: "ترجمة في أحوال سنة أربعين وستمائة {cite:shadharat-dhahab p. 207}.", sources: [source/shadharat-dhahab] }
+summary:
+  ar: "الحجة الأتابكية امرأة الملك الأشرف موسى بن العادل، تركان بنت الملك عز الدين مسعود بن قطب الدين مودود بن أتابك زنكي — أميرة زنكية تزوجها الأشرف؛ صاحبة المدرسة والتربة بجبل قاسيون بدمشق {cite:shadharat-dhahab p. 207}."
+  en: "al-Hujja al-Atabakiyya (d. 640) — the Zengid princess Turkan bint Izz al-Din Mas'ud b. Qutb al-Din Mawdud b. Atabak Zengi, wife of al-Malik al-Ashraf Musa, foundress of a madrasa and turba on Mount Qasyun {cite:shadharat-dhahab p. 207}."
+gender: female
+roles: [patron]
+wings: [people]
+periods: [period/crusades-ayyubid-mamluk]
+regions: [levant-iraq]
+faith:
+  - value: sunni
+    basis: tradition
+relations:
+  - { type: spouse_of, target: person/al-malik-al-ashraf, sources: [source/shadharat-dhahab] }
+  - { type: child_of, target: person/izz-al-din-masud, sources: [source/shadharat-dhahab] }
+sources: [source/shadharat-dhahab]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }
+provenance:
+  layer: own-research
+  source: "شذرات الذهب — ابن العماد (ج5، سنة 640)، قراءة آبل فيجن"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-shadharat-batch-126

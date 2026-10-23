@@ -1,0 +1,17 @@
+id: person/suwayd-ibn-qutba
+class: person
+label: { ar: "سويد بن قطب ة الذهلي" }
+summary:
+  ar: "عند البلاذري: من بكر بن وائل كان بالبصرة ومعه جماعة من قومه يريد أن يفعل بها مثل فعل المثنى بالكوفة فاحتمى فيه خالد عند قتال الأبلة ثم خلّفه على ناحيته قائلاً قد عركنا هذه الأعاجم بناحيتك عركة أذلتهم لك — وقال غير أبي مخنف كان بها قطب ة بن قتادة الذهلي."
+  en: "In al-Baladhuri: of Bakr ibn Wa'il, at Basra with a band of his people meaning to do to it what al-Muthanna did to Kufa; Khalid sheltered in his camp at the Ubulla fight, then left him over the district saying 'we have mauled these Persians in your district a mauling that humbles them for you' — per other-than-Abu Mikhnaf, Qutba ibn Qatada al-Dhuhli was there."
+gender: male
+relations:
+  - { type: participated_in, target: event/battle-of-ubulla, role: "صاحب العسكر", sources: [source/futuh-buldan-maarif-1407] }
+  - { type: member_of, target: group/bakr-ibn-wail, sources: [source/futuh-buldan-maarif-1407] }
+provenance:
+  layer: own-research
+  source: "فتوح البلدان (ط مؤسسة المعارف 1407هـ/1987م) ص 337–338"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-futuh-buldan-batch-26
+sources: [source/futuh-buldan-maarif-1407]
+status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 High)" }

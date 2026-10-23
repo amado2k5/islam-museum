@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 43:77 (سورة الزخرف، الآية 77)."
 text: "وَنَادَوْا۟ يَـٰمَـٰلِكُ لِيَقْضِ عَلَيْنَا رَبُّكَ ۖ قَالَ إِنَّكُم مَّـٰكِثُونَ"
 text_search: "ونادوا يا مالك ليقض علينا ربك ۖ قال إنكم ماكثون"
+translations:
+  en: { text: "And they cry: O master! Let thy Lord make an end of us. He saith: Lo! here ye must remain.", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "اور پکاریں گے کہ اے مالک تمہارا پروردگار ہمیں موت دے دے۔ وہ کہے گا کہ تم ہمیشہ (اسی حالت میں) رہو گے", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-43 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

@@ -1,0 +1,77 @@
+id: exhibit/path-ismaili-dawa
+class: exhibit
+kind: trail
+label:
+  ar: الدعوة الإسماعيلية
+  en: The Isma'ili Da'wa
+summary:
+  ar: 'مسار في الحركة التي بنت القاهرة: دعاة الإسماعيلية ينتشرون، والفاطميون يقومون، والأغاخان يستمر —
+    مذهب الدعوة.'
+  en: A trail through the movement that built Cairo.
+audience:
+- newcomer
+- student
+duration_minutes: 30
+wings: []
+regions:
+- egypt-nile
+rooms:
+- title:
+    ar: الدعاة
+    en: The da'is
+  body:
+    ar: 'شبكة سرية: من كوفة إلى المغرب.'
+    en: 'شبكة سرية: من كوفة إلى المغرب.'
+  features:
+  - group/ismaili-dawa
+  - group/ismaili-dawa
+- title:
+    ar: الفاطميون
+    en: The Fatimids
+  body:
+    ar: 'عبيد الله المهدي 909: الدعوة تصير خلافة.'
+    en: 'عبيد الله المهدي 909: الدعوة تصير خلافة.'
+  features:
+  - polity/fatimid-caliphate
+  - person/jawhar-al-siqilli
+- title:
+    ar: الأزهر
+    en: Al-Azhar
+  body:
+    ar: جوهر يبني جامع الدعوة 970.
+    en: جوهر يبني جامع الدعوة 970.
+  features:
+  - building/al-azhar
+  - place/cairo
+- title:
+    ar: الانقسام
+    en: The split
+  body:
+    ar: 'نزارية ومستعلية وطيبية: فروع الدعوة.'
+    en: 'نزارية ومستعلية وطيبية: فروع الدعوة.'
+  features:
+  - group/ismaili-dawa
+  - group/darajat-al-dawa-al-nizariyya
+- title:
+    ar: اليوم
+    en: Today
+  body:
+    ar: 'الإسماعيلية اليوم: ملايين في العالم.'
+    en: 'الإسماعيلية اليوم: ملايين في العالم.'
+  features:
+  - group/ismaili-dawa
+  - place/cairo
+prerequisites:
+- exhibit/path-islam-in-30-minutes
+sources:
+- source/wikidata
+provenance:
+  layer: own-research
+  source: Devin-assembled trail from existing museum entities
+  generated_by: Devin (SWE-2 High)
+  model: SWE-2 High
+  run: pathways-batch-7
+status:
+  review: draft
+  completeness: 1
+  generated_by: Devin (SWE-2 High), pathways lane, 2026-10-16

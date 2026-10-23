@@ -1,0 +1,21 @@
+id: event/karbala-wall-construction-400
+class: event
+kind: other
+label: { ar: "بناء السور الحصين على مشهد الحائر بكربلاء", en: "Building the fortified wall around the shrine of al-Ha'ir in Karbala" }
+summary:
+  ar: "في جمادى الأولى سنة أربعمائة بُدئ ببناء سور حصين على المشهد بالحائر، وكان أبو محمد الحسن بن الفضل بن سهلان قد زار المشهد ونذر أن يعمل عليه سوراً حصيناً مانعاً لكثرة من يطرق الموضع من أعراب البادية، فشرع في قضاء نذره وعمل السور وأحكم وعُلّي وعُرّض ونُصبت عليه أبواب وثيقة بعضها من حديد وتحصن المشهد به وحسن الأثر فيه {cite:muntazam-ibn-al-jawzi j.7 p.246}. ويُنسب البناء سنة ٤٠٣ في ترجمة الحسين بن فضل بن سهلان وزير سلطان الدولة إليه — وهو من بيت ابن سهلان نفسه {cite:muntazam-ibn-al-jawzi j.8 p.355}."
+  en: "In Jumada I 400 construction began on a strong wall around the shrine at al-Ha'ir in Karbala. Abu Muhammad al-Hasan ibn al-Fadl ibn Sahlan had visited the shrine and vowed to build a stout wall protecting it against the many Bedouin raiders who came to the site. He fulfilled his vow: the wall was built, made firm, raised high and widened, and strong doors, some of iron, were set into it, so the shrine was fortified and the effect was good {cite:muntazam-ibn-al-jawzi j.7 p.246}. The construction is also credited, under the year 403 in the biography of al-Husayn ibn al-Fadl ibn Sahlan, vizier of Sultan al-Dawla, to him; he was of the same house as Ibn Sahlan {cite:muntazam-ibn-al-jawzi j.8 p.355}."
+wings: [time]
+periods: [period/buyid-seljuk-fatimid-era]
+regions: [levant-iraq]
+date:
+  start: { edtf: "1009-12~", hijri: "0400-05", calendar: julian, precision: month, status: tradition, derived: true, note: "جمادى الأولى 400هـ؛ التحويل مشتق {cite:muntazam-ibn-al-jawzi j.7 p.246}" }
+relations:
+  - { type: located_in, target: place/karbala, sources: [source/muntazam-ibn-al-jawzi] }
+provenance:
+  layer: own-research
+  source: "المنتظم في تاريخ الملوك والأمم — ابن الجوزي (ج7، أحداث سنة 400)، قراءة آبل فيجن"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-muntazam-batch-22
+sources: [source/muntazam-ibn-al-jawzi]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

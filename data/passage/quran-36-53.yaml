@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 36:53 (سورة يس، الآية 53)."
 text: "إِن كَانَتْ إِلَّا صَيْحَةً وَٰحِدَةً فَإِذَا هُمْ جَمِيعٌ لَّدَيْنَا مُحْضَرُونَ"
 text_search: "إن كانت إلا صيحة واحدة فإذا هم جميع لدينا محضرون"
+translations:
+  en: { text: "It is but one Shout, and behold them brought together before Us!", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "صرف ایک زور کی آواز کا ہونا ہوگا کہ سب کے سب ہمارے روبرو آحاضر ہوں گے", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-36 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

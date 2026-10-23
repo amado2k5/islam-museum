@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 2:75 (سورة البقرة، الآية 75)."
 text: "۞ أَفَتَطْمَعُونَ أَن يُؤْمِنُوا۟ لَكُمْ وَقَدْ كَانَ فَرِيقٌ مِّنْهُمْ يَسْمَعُونَ كَلَـٰمَ ٱللَّهِ ثُمَّ يُحَرِّفُونَهُۥ مِنۢ بَعْدِ مَا عَقَلُوهُ وَهُمْ يَعْلَمُونَ"
 text_search: "۞ أفتطمعون أن يؤمنوا لكم وقد كان فريق منهم يسمعون كلام الله ثم يحرفونه من بعد ما عقلوه وهم يعلمون"
+translations:
+  en: { text: "Have ye any hope that they will be true to you when a party of them used to listen to the word of Allah, then used to change it, after they had understood it, knowingly?", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "(مومنو) کیا تم امید رکھتے ہو کہ یہ لوگ تمہارے (دین کے) قائل ہو جائیں گے، (حالانکہ) ان میں سے کچھ لوگ کلامِ خدا (یعنی تورات) کو سنتے، پھر اس کے سمجھ لینے کے بعد اس کو جان بوجھ کر بدل دیتے رہے ہیں", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-2 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

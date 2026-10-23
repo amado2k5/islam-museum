@@ -1,20 +1,31 @@
 ---
 id: person/halima-al-sadiyya
 lang: en
-source_lang: en
-translators: []
+source_lang: ar
+translators: ["Claude Haiku 5.5 (claude-haiku-5-5), draft translation"]
 ---
 
-## Brief
-Halima was a Bedouin woman of Banu Sa'd who nursed the infant Muhammad in the desert, as wealthier Meccan families arranged for their children. Tradition remembers her as the Prophet's foster-mother.
+## Summary
+Halima bint Abi Dhu'ayb, of [[group/banu-sad-ibn-bakr|Banu Sa'd ibn Bakr]], the wet-nurse of [[person/muhammad|the Prophet]] in the desert. Her husband [[person/al-harith-ibn-abd-al-uzza|al-Harith ibn Abd al-Uzza]] was from the same tribe {cite:mubarakpuri-raheeq p.55} {cite:ibn-hisham-sira 1/162-164}. She took the orphan when the other wet-nurses had refused him. She saw the blessing he brought, as she herself recounted, and he stayed with her until he was four or five years old {cite:mubarakpuri-raheeq p.55-56}.
 
-## Life
-It was the custom of Quraysh families to send newborns into the desert to grow strong among the tribes. Around 570 CE Halima of Banu Sa'd ibn Bakr, a clan of [[group/hawazin]], took the orphan Muhammad into her tent, and he remained with her family for several years {cite:ibn-ishaq-guillaume}.
+## Why wet-nurses were sought
+It was the custom among the settled Arabs to seek wet-nurses for their children in the desert, to keep them away from the diseases of the towns, so that their bodies would grow strong, their nerves firm, and they would master the Arabic tongue in the cradle ([[concept/istirda-al-badiya|nursing in the desert]]) {cite:mubarakpuri-raheeq p.55}. So [[person/abd-al-muttalib|Abd al-Muttalib]] sought wet-nurses for the Prophet, and Halima was entrusted with nursing him from Banu Sa'd ibn Bakr {cite:mubarakpuri-raheeq p.55} {cite:ibn-hisham-sira 1/162}.
 
-The sira reports her later meetings with the Prophet — including a visit in Mecca, and tradition counts her among those who embraced Islam {cite:ibn-sad-tabaqat-bewley}. The details of her later life and death are thinly recorded.
+## How she took him
+The author relates Halima's account as Ibn Ishaq transmitted it. She set out from her town with her husband and a small son she was nursing, in a company of women from Banu Sa'd looking for infants to nurse. It was a year of drought that had left them nothing. She rode a weak she-ass, and they had a camel that gave not a drop of milk; they could not sleep at night for the crying of their child, who was hungry {cite:mubarakpuri-raheeq p.55} {cite:ibn-hisham-sira 1/162-164}. When they reached Mecca the boy was offered to every woman, and each refused him once she heard he was an orphan, because they hoped for kindness from the boy's father. No woman was left without taking a nursling, except her {cite:mubarakpuri-raheeq p.56} {cite:ibn-hisham-sira 1/162-164}. She disliked returning without a nursling among her companions, so she told her husband she would take that orphan. He said that perhaps God would make a blessing for them through him. She took him, and what drove her to it was only that she found no other {cite:mubarakpuri-raheeq p.56} {cite:ibn-hisham-sira 1/162-164}.
 
-## Legacy
-Through Halima, the museum's story touches a real institution: fosterage in pre-Islamic Arabia, which created bonds as binding as blood — the Prophet called her family his own.
+## What she saw of the blessing
+She recounts that when she placed him in her lap, her breasts filled with milk and he drank until he was satisfied; his foster-brother drank until he was satisfied too, and then they both slept. Her husband went to their she-camel, which was now full, and milked it, and they drank until they were satisfied and spent a good night. In the morning her husband told her that she had taken a blessed soul {cite:mubarakpuri-raheeq p.56} {cite:ibn-hisham-sira 1/162-164}. Then they set out, and her she-ass outpaced the whole company, so that none of their donkeys could keep up, and her companions marvelled. They reached their dwellings in the land of Banu Sa'd, which is among the most barren of God's lands. Her flock came back full and milky while her people's flocks came back hungry, to the point that the herders told their shepherds to graze where the shepherd of Abu Dhu'ayb's daughter grazed {cite:mubarakpuri-raheeq p.56} {cite:ibn-hisham-sira 1/162-164}. They continued to see increase and good from God until his two years were complete and she weaned him, and he grew into a youth unlike other boys {cite:mubarakpuri-raheeq p.56}.
+
+## Returning him, and then taking him back
+She brought him to his mother, who was keen to keep him with her because of the blessing she saw in him. Halima asked Amina to leave him with her until he grew sturdier, out of fear for him from the plague of Mecca, and she kept pressing until Amina sent him back with her {cite:mubarakpuri-raheeq p.56} {cite:ibn-hisham-sira 1/162-164}. He stayed among Banu Sa'd until he was four or five years old, when the [[event/shaqq-al-sadr|incident of the chest-splitting]] occurred. She then feared for him and returned him to his mother {cite:mubarakpuri-raheeq p.56} {cite:mubarakpuri-raheeq p.57} {cite:talqih-fuhum-ahl-al-athr p.7}.
+
+## Her household
+Her husband al-Harith ibn Abd al-Uzza, whom the book calls Abu Kabsha, and her children were the Prophet's foster-siblings: Abd Allah ibn al-Harith, Unaysa bint al-Harith, and Hudhafa or Judhama bint al-Harith, who is [[person/al-shayma-bint-al-harith|al-Shayma]], the one who used to nurse him {cite:mubarakpuri-raheeq p.55} {cite:zad-al-maad 1/19}. Also with him in Banu Sa'd were his cousin [[person/abu-sufyan-ibn-al-harith|Abu Sufyan ibn al-Harith ibn Abd al-Muttalib]], and his uncle [[person/hamza|Hamza]], whom his mother had nursed one day {cite:mubarakpuri-raheeq p.55} {cite:zad-al-maad 1/19}.
+
+## Notes for researchers
+- The book calls her husband Abu Kabsha, while al-Isaba calls him Abu Dhu'ayb. The disagreement is recorded on al-Harith's entry.
+- What the data card says about her meeting the Prophet after the mission and her own Islam comes from other sources, not from this chapter.
 
 ## For young visitors
-In those days, city families sent their babies to live with desert families to grow up healthy. Muhammad's desert mother was Halima, and he loved her all his life.
+Halima was a woman from the desert who came to Mecca looking for a child to nurse. No one would take the orphan Muhammad, so she took him. Then she saw the blessing grow in her house, until she loved him as her own son.

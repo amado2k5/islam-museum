@@ -1,0 +1,22 @@
+id: event/mongol-take-mazandaran-617
+class: event
+kind: campaign
+label: { ar: "استيلاء التتر على مازندران وأخذ ذخائر أم خوارزم شاه", en: "The Mongols Seize Mazandaran and the Treasures of Khwarazm-shah's Mother" }
+summary:
+  ar: "لما أيست طائفة التتر المغربة من إدراك خوارزم شاه في قلعته بالبحر عادوا فقصدوا بلاد مازندران فملكوها في أسرع وقت مع حصانتها وصعوبة الدخول إليها؛ ويذكر ابن الأثير أنها لم تزل ممتنعة قديم الزمان وحديثه حتى إن المسلمين لما ملكوا بلاد الأكاسرة جميعها من العراق إلى أقاصي خراسان بقيت أعمال مازندران يؤخذ منهم الخراج ولا يقدرون على دخولها إلى أن ملكت أيام سليمان بن عبد الملك سنة تسعين، فملكها هؤلاء صفواً وقتلوا وسبوا ونهبوا وأحرقوا، وسلكوا نحو الري فرأوا في الطريق والدة خوارزم شاه ونساءه وأموالهم وذخائرهم التي لم يسمع بمثلها من الأعلاق النفيسة إذ كانت قد فارقت خوارزم قاصدة الري فأصفهان لتستحصن فصادفوها قبل وصولها، فسيروا الجميع إلى جنكزخان بسمرقند {cite:kamil-ibn-al-athir p. 408}."
+  en: "When the western Mongol detachment despaired of catching Khwarazm-shah in his fortress by the sea, they turned back and made for Mazandaran, which they took very quickly despite its strength and the difficulty of entering it. Ibn al-Athir notes that it had always resisted, old and new: when the Muslims had taken all the Sasanian lands from Iraq to the far reaches of Khurasan, the districts of Mazandaran still paid tribute while the Muslims could not enter, until it was conquered in the days of Sulayman ibn Abd al-Malik in 90. Now the Mongols took it outright, killing, enslaving, plundering and burning. They then headed for Rayy and came upon the mother of Khwarazm-shah, with his women, property and treasures, precious goods the like of which had never been heard of, for she had left Khwarazm making for Rayy and then Isfahan to seek refuge, and they caught her before she arrived. They sent everything on to Genghis Khan at Samarkand {cite:kamil-ibn-al-athir p. 408}."
+wings: [time]
+themes: [mongol-invasions]
+periods: [period/mongol-post-mongol]
+regions: [persia-central-asia]
+date:
+  start: { edtf: "1220~", hijri: "0617", calendar: julian, precision: year, status: tradition, derived: true, note: "617؛ التحويل مشتق {cite:kamil-ibn-al-athir p. 408}." }
+relations:
+  - { type: had_participant, target: person/genghis-khan, role: "صاحب الأمر ومرسل الطائفة", sources: [source/kamil-ibn-al-athir] }
+provenance:
+  layer: own-research
+  source: "الكامل في التاريخ — ابن الأثير، مسح kamilt00_201908، سنة 617، ص 408"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-kamil-562-629-08
+sources: [source/kamil-ibn-al-athir]
+status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 High)" }

@@ -1,13 +1,15 @@
 id: person/abdullah-ibn-jafar
 class: person
-label: { ar: "عبد الله بن جعفر" }
+label: { en: Abdullah ibn Ja'far, ar: "عبد الله بن جعفر" }
+aliases: [person/abd-allah-ibn-jafar]
 names:
   - { kind: full, lang: ar, value: "عبد الله بن جعفر بن أبي طالب" }
 gender: male
 roles: [companion]
 traditions: [sunni]
 summary:
-  ar: "ابن جعفر بن أبي طالب وأسماء بنت عميس، ولد في أرض الحبشة."
+  ar: "ابن جعفر بن أبي طالب وأسماء بنت عميس، ولد في أرض الحبشة. وعند المسعودي لما أرادوا قتل ابن ملجم قال دعوني حتى أشفي نفسي منه فقطع يديه ورجليه وأحمى له مسماراً فكحله به، فقال ابن ملجم سبحان الذي خلق الإنسان إنك لتكحل عمك بملمول الرصاص، ثم أدرجوه في بوار مطلوة بالنفط فاحترق {cite:muruj-al-dhahab p. 704}، وعند المسعودي توفي سنة ثمانين وهو ابن سبع وستين وولد بالحبشة حين هاجر جعفر، ولما قل ماله سمع يوم الجمعة في المسجد الجامع يقول اللهم إنك قد عودتني عادة فعودتها عبادك فإن قطعتها عني فلا تبقني فمات في تلك الجمعة وصلى عليه أبان بن عثمان، وهي سنة السيل الجحاف الذي بلغ الركن وسنة الطاعون العام بالعراق والشام ومصر والجزيرة والحجاز، وقال حين عوتب على كثرة إفضاله إن الله عودني أن يفضل عليّ وعودته أن أفضل على عباده فأكره أن أقطع العادة عنهم فيقطع العادة عني {cite:muruj-al-dhahab p. 157-158}"
+  en: Son of Ja'far ibn Abi Talib and Asma bint Umays, born in the land of Abyssinia.
 wings: [people]
 themes: [refugees-migrants-diaspora]
 periods: [period/prophetic-era]
@@ -22,5 +24,6 @@ relations:
   - { type: child_of, target: person/asma-bint-umays, sources: [source/ibn-hisham-saqqa] }
   - { type: participated_in, target: event/return-of-abyssinian-emigrants, role: born-in-abyssinia, sources: [source/ibn-hisham-saqqa] }
 provenance: { layer: own-research, source: "sira-ibn-hisham saqqa 1936, juz' 4 p. 3", generated_by: "Claude Sonnet 5.5", run: "ibn-hisham-batch-5c-iii" }
-sources: [source/ibn-hisham-saqqa]
+external_ids: { wikidata: "Q1112978" }
+sources: [source/ibn-hisham-saqqa, source/muruj-al-dhahab, source/bakr-umayyad-state-1134715, source/sallabi-ali-vol1]
 status: { review: draft, completeness: 1, generated_by: "Claude Sonnet 5.5; mined from Ibn Hisham juz' 4 pp. 3-11" }

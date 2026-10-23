@@ -1,0 +1,22 @@
+id: place/ifriqiya
+class: place
+kind: region
+label: { ar: "إفريقية", en: "Ifriqiya" }
+summary:
+  ar: "إفريقية إقليم المغرب بين أطرابلس وطنجة؛ قال ابن الكلبي كان إفريقيس بن قيس بن صيفي الحميري غلب عليها في الجاهلية فسمّيت به وهو قتل جرجير ملكها فقال للبرابرة ما أكثر بربرة هؤلاء فسُمّوا البرابرة؛ غزاها عبد الله بن سعد بن أبي سرح في خلافة عثمان فقتل بطريقها بمقوبة وصالحه عظماؤها على ثلاثمائة قنطار من ذهب، ثم افتتحها عقبة بن نافع واختطّ قيروانها."
+  en: "Ifriqiya, the Maghreb province between Tripoli and Tangier; Ibn al-Kalbi says Ifriqis ibn Qays ibn Sayfi al-Himyari held it in the Jahiliyya and it was named for him — he killed its king Jurjir and said of the Barabira 'how barbarous these folk', whence they were called al-Barabira; Abdallah ibn Sa'd ibn Abi Sarh raided it under Uthman, killed its patrikios at Sbejtla and took its grandees' three hundred qintar of gold, then Uqba ibn Nafi' opened it and laid out its Qayrawan."
+wings: [place]
+periods: [period/rashidun, period/umayyad]
+regions: [maghreb]
+relations:
+  - { type: site_of, target: event/first-raid-on-ifriqiya, sources: [source/futuh-buldan-maarif-1407] }
+  - { type: site_of, target: event/founding-of-qayrawan, sources: [source/futuh-buldan-maarif-1407] }
+  - { type: site_of, target: event/hassan-vs-kahina, sources: [source/futuh-buldan-maarif-1407] }
+  - { type: site_of, target: event/killing-of-kulthum-ibn-iyad, sources: [source/futuh-buldan-maarif-1407] }
+provenance:
+  layer: own-research
+  source: "فتوح البلدان (ط مؤسسة المعارف 1407هـ/1987م) ص 317–322"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-futuh-buldan-batch-21
+sources: [source/futuh-buldan-maarif-1407]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

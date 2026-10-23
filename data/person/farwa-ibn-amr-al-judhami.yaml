@@ -1,8 +1,11 @@
 id: person/farwa-ibn-amr-al-judhami
 class: person
 label: { en: "Farwa ibn Amr al-Judhami", ar: "فروة بن عمرو الجذامي" }
+names:
+  - { kind: full, lang: ar, value: "فروة بن عمرو بن النافرة الجذامي ثم النفاثي" }
+  - { kind: kunya, lang: ar, value: "أبو كبيشة (مخاطَب أبياته؛ غير مؤكد أنها كنيته)" }
 gender: male
-died: { edtf: "0630~", hijri: "0008", calendar: julian, precision: year, status: tradition, sources: [source/mubarakpuri-raheeq, source/zad-al-maad] }
+died: { edtf: "0630~", hijri: "0008", calendar: julian, precision: year, status: tradition, sources: [source/mubarakpuri-raheeq, source/zad-al-maad, source/ibn-hisham-saqqa] }
 roles: [politician]
 summary:
   en: "An Arab commander in Byzantine service governing the tribes around Ma'an in southern Syria, who embraced Islam after Mu'ta, sent the Prophet a white mule, and was crucified by the Byzantines when he refused to apostatise."
@@ -12,13 +15,16 @@ themes: [converts-and-leavers]
 periods: [period/prophetic-era]
 regions: [arabia]
 story_roles:
-  - { role: official, toward: polity/byzantine-empire, status: tradition, note: "كان عاملاً للروم على من يليهم من العرب بمنزلة معان.", sources: [source/mubarakpuri-raheeq, source/zad-al-maad] }
+  - { role: official, toward: polity/byzantine-empire, status: tradition, note: "كان عاملاً للروم على من يليهم من العرب بمنزلة معان.", sources: [source/mubarakpuri-raheeq, source/zad-al-maad, source/ibn-hisham-saqqa] }
   - { role: convert, toward: person/muhammad, start: { edtf: "0629~" }, status: tradition, sources: [source/mubarakpuri-raheeq] }
-  - { role: martyr, start: { edtf: "0630~" }, status: tradition, note: "خُيّر بين الردة والموت فاختار الموت؛ صُلب على ماء عفراء وضُربت عنقه.", sources: [source/mubarakpuri-raheeq, source/zad-al-maad] }
+  - { role: martyr, start: { edtf: "0630~" }, status: tradition, note: "خُيّر بين الردة والموت فاختار الموت؛ صُلب على ماء عفراء وضُربت عنقه.", sources: [source/mubarakpuri-raheeq, source/zad-al-maad, source/ibn-hisham-saqqa] }
 faith:
   - { value: sunni, basis: tradition, start: { edtf: "0629~" }, note: "أسلم بعد مشاهدة موقف المسلمين في مؤتة فيما ترويه السيرة." }
 relations:
   - { type: member_of, target: group/judham }
-  - { type: died_in, target: place/afra }
-sources: [source/mubarakpuri-raheeq, source/zad-al-maad]
+  - { type: died_in, target: place/afra, sources: [source/ibn-hisham-saqqa] }
+  - { type: authored, target: work/farwa-al-judhami-prison-verses, sources: [source/ibn-hisham-saqqa] }
+  - { type: participated_in, target: event/martyrdom-of-farwa-al-judhami, role: "الشهيد", sources: [source/ibn-hisham-saqqa] }
+  - { type: lived_in, target: place/maan, sources: [source/ibn-hisham-saqqa] }
+sources: [source/mubarakpuri-raheeq, source/zad-al-maad, source/ibn-hisham-saqqa]
 status: { review: draft, completeness: 2, generated_by: "Devin; al-Raheeq al-Makhtum pp. 440-454 (batch 22)" }

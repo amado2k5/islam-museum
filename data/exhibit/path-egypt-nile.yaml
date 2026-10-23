@@ -1,0 +1,78 @@
+id: exhibit/path-egypt-nile
+class: exhibit
+kind: trail
+label:
+  ar: الإسلام في مصر
+  en: Islam in Egypt
+summary:
+  ar: 'مسار في أربعة عشر قرنًا مصريًا: الفسطاط والأزهر ودار الحكمة، والمماليك وشجر الدر، وصلاح الدين ومحمد
+    علي.'
+  en: A trail through fourteen Egyptian centuries.
+audience:
+- newcomer
+- student
+duration_minutes: 30
+wings: []
+regions:
+- egypt-nile
+rooms:
+- title:
+    ar: الفتح والفسطاط
+    en: The conquest
+  body:
+    ar: عمرو بن العاص يفتح مصر ويؤسس الفسطاط 641.
+    en: Amr ibn al-As conquers Egypt and founds Fustat, 641.
+  features:
+  - place/cairo
+  - polity/fatimid-caliphate
+- title:
+    ar: الأزهر
+    en: Al-Azhar
+  body:
+    ar: جامع الفاطميين 972 يصير أعظم جامعات الإسلام.
+    en: The Fatimid mosque of 972 becomes Islam's greatest university.
+  features:
+  - building/al-azhar
+  - building/dar-al-hikma-cairo
+- title:
+    ar: المماليك
+    en: The Mamluks
+  body:
+    ar: 'شجر الدر وقطز وبيبرس: ممالك حمت الإسلام.'
+    en: 'Shajar al-Durr, Qutuz, Baybars: the sultanates that shielded Islam.'
+  features:
+  - person/shajar-al-durr
+  - person/qutuz
+  - person/baybars
+  - event/ayn-jalut-658
+- title:
+    ar: صلاح الدين
+    en: Saladin
+  body:
+    ar: الأيوبي يعيد مصر للسنة ويبني القلعة.
+    en: The Ayyubid restores Egypt to the Sunna and builds the citadel.
+  features:
+  - person/salah-al-din-yusuf-ibn-ayyub
+- title:
+    ar: العصر الحديث
+    en: Modern Egypt
+  body:
+    ar: محمد علي يحدّث ثم الاستعمار ثم مصر العربية.
+    en: Muhammad Ali modernizes; then colonialism; then Arab Egypt.
+  features:
+  - person/muhammad-ali-pasha
+  - place/cairo
+prerequisites:
+- exhibit/path-islam-in-30-minutes
+sources:
+- source/wikidata
+provenance:
+  layer: own-research
+  source: Devin-assembled trail from existing museum entities
+  generated_by: Devin (SWE-2 High)
+  model: SWE-2 High
+  run: pathways-batch-3
+status:
+  review: draft
+  completeness: 1
+  generated_by: Devin (SWE-2 High), pathways lane, 2026-10-16

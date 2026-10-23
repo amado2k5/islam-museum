@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 7:168 (سورة الأعراف، الآية 168)."
 text: "وَقَطَّعْنَـٰهُمْ فِى ٱلْأَرْضِ أُمَمًا ۖ مِّنْهُمُ ٱلصَّـٰلِحُونَ وَمِنْهُمْ دُونَ ذَٰلِكَ ۖ وَبَلَوْنَـٰهُم بِٱلْحَسَنَـٰتِ وَٱلسَّيِّـَٔاتِ لَعَلَّهُمْ يَرْجِعُونَ"
 text_search: "وقطعناهم في الأرض أمما ۖ منهم الصالحون ومنهم دون ذلك ۖ وبلوناهم بالحسنات والسيئات لعلهم يرجعون"
+translations:
+  en: { text: "And We have sundered them in the earth as (separate) nations. Some of them are righteous, and some far from that. And We have tried them with good things and evil things that haply they might return.", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "اور ہم نے ان کو جماعت جماعت کرکے ملک میں منتشر کر دیا۔ بعض ان میں سے نیکوکار ہیں اور بعض اور طرح کے (یعنی بدکار) اور ہم آسائشوں، تکلیفوں (دونوں) سے ان کی آزمائش کرتے رہے تاکہ (ہماری طرف) رجوع کریں", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-7 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

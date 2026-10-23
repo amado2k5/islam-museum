@@ -1,0 +1,26 @@
+id: person/shah-rukh
+class: person
+label: { ar: "شاه رخ بن تيمور", en: "Shah Rukh ibn Timur" }
+names:
+  - { value: "القان معين الدين شاه رخ بن تيمور لنك صاحب سمرقند وبخارى وغيرهما", kind: full }
+gender: male
+summary:
+  ar: "القان معين الدين شاه رخ بن تيمور لنك صاحب سمرقند وبخارى وغيرهما؛ خلف أباه تيمور في الملك واستقر ملكه في خراسان ومآربها نيفاً وأربعين سنة وأيامه كانت عامرة بالأمن والعدل ونصرة العلم والعلماء حتى انتهت إليه رياسة الملوك في زمانه، توفي سنة إحدى وخمسين وثمانمائة {cite:shadharat-dhahab p. 269}."
+  en: "Shah Rukh ibn Timur — ruler of Samarkand, Bukhara and the East after his father, whose long reign saw Khurasan flourish; patron of scholarship whose son Ulugh Beg he installed at Samarkand; died 851 {cite:shadharat-dhahab p. 269}."
+roles: [sultan]
+wings: [people]
+periods: [period/mongol-post-mongol]
+regions: [persia-central-asia]
+died: { edtf: "1447~", hijri: "0851", calendar: julian, precision: year, status: tradition, derived: true, note: "توفي 851 {cite:shadharat-dhahab p. 269}", sources: [source/shadharat-dhahab] }
+relations:
+  - { type: child_of, target: person/timur-lang, sources: [source/shadharat-dhahab] }
+  - { type: parent_of, target: person/ibrahim-ibn-shah-rukh, sources: [source/shadharat-dhahab] }
+  - { type: parent_of, target: person/ahmad-ibn-shah-rukh, sources: [source/shadharat-dhahab] }
+  - { type: parent_of, target: person/ulugh-beg, sources: [source/shadharat-dhahab] }
+provenance:
+  layer: own-research
+  source: "شذرات الذهب — ابن العماد (ط مكتبة المثنى 1351، ج7، سنة 851)، قراءة آبل فيجن"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-shadharat-batch-139
+sources: [source/shadharat-dhahab]
+status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 High)" }

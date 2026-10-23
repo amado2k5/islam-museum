@@ -1,0 +1,23 @@
+id: event/battle-of-nigoiti-1854
+class: event
+kind: battle
+label: { ar: "معركة نيغويتي", en: "Battle of Nigoiti" }
+summary:
+  ar: "بطاقة أولية لمعركة نيغويتي، من حوادث جبهة القوقاز في حرب القرم؛ لم تُراجع مصادره على الصفحة بعد."
+  en: "Draft card for the Battle of Nigoiti, an action of the Caucasus front of the Crimean War; its sources are not yet checked on the page."
+wings: [time]
+periods: [period/modern-era]
+regions: [anatolia-balkans]
+date:
+  start: { edtf: "1854", precision: year, status: tradition, derived: true }
+  end: { edtf: "1854", precision: year, status: tradition, derived: true }
+sources: [source/dawlat-uthmaniyya-salabi]
+external_ids:
+  wikidata: Q12867550
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; battle attested in narrative histories — entry not yet checked on the page"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-wave2
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

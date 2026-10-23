@@ -1,0 +1,25 @@
+id: person/al-qasim-ibn-al-hasan
+class: person
+gender: male
+label:
+  ar: القاسم بن الحسن
+  en: Al-Qasim ibn al-Hasan
+  ur: قاسم بن حسن
+summary:
+  ar: "القاسم بن الحسن بن علي بن أبي طالب؛ سجّل ابن كثير قتله بكربلاء سنة 61هـ ضمن من قتل مع الحسين من أهل بيته {cite:al-bidaya-wal-nihaya}."
+  en: "Al-Qasim ibn al-Hasan ibn Ali ibn Abi Talib; Ibn Kathir records his killing at Karbala in 61 AH among the ahl al-bayt martyred with Husayn {cite:al-bidaya-wal-nihaya}."
+wings: [people]
+themes: [sects-and-schools, civil-wars-and-revolts]
+regions: [levant-iraq]
+periods: [period/umayyad]
+relations:
+  - { type: child_of, target: person/hasan-ibn-ali }
+  - { type: died_in, target: place/karbala }
+external_ids: { wikidata: "Q575430" }
+sources: [source/al-bidaya-wal-nihaya]
+provenance:
+  layer: own-research
+  source: "wikidata-import deferred Q575430; Bidaya 61 AH Karbala list verified in OCR (lines 20681, 20717-20826)"
+  generated_by: "Devin (SWE-2 Medium)"
+  run: wd-deferred-12
+status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 Medium)" }

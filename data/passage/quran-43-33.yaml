@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 43:33 (سورة الزخرف، الآية 33)."
 text: "وَلَوْلَآ أَن يَكُونَ ٱلنَّاسُ أُمَّةً وَٰحِدَةً لَّجَعَلْنَا لِمَن يَكْفُرُ بِٱلرَّحْمَـٰنِ لِبُيُوتِهِمْ سُقُفًا مِّن فِضَّةٍ وَمَعَارِجَ عَلَيْهَا يَظْهَرُونَ"
 text_search: "ولولا أن يكون الناس أمة واحدة لجعلنا لمن يكفر بالرحمن لبيوتهم سقفا من فضة ومعارج عليها يظهرون"
+translations:
+  en: { text: "And were it not that mankind would have become one community, We might well have appointed, for those who disbelieve in the Beneficent, roofs of silver for their houses and stairs (of silver) whereby to mount,", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "اور اگر یہ خیال نہ ہوتا کہ سب لوگ ایک ہی جماعت ہوجائیں گے تو جو لوگ خدا سے انکار کرتے ہیں ہم ان کے گھروں کی چھتیں چاندی کی بنا دیتے اور سیڑھیاں (بھی) جن پر وہ چڑھتے ہیں", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-43 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

@@ -1,26 +1,20 @@
 ---
 id: person/hasan-ibn-ali
 lang: en
-source_lang: en
-translators: []
+source_lang: ar
+translators: ["Claude Haiku 5.5 (claude-haiku-5-5), draft translation"]
 ---
 
 ## Brief
-Hasan was the elder grandson of the Prophet, son of [[person/fatima]] and [[person/ali-ibn-abi-talib]]. When his father was killed in 661 he briefly became caliph — then stepped down and gave the leadership to Muawiya, a choice remembered as either peacemaking or defeat.
+Hasan, the elder grandson of the Prophet, son of [[person/fatima|Fatima]] and [[person/ali-ibn-abi-talib|Ali]]. The people gave him the caliphate when his father was killed in 661 CE, and then he ceded it to Mu'awiya. His choice is recorded as a settlement by some and as a defeat by others.
 
 ## Life
-Born in Medina in mid-625 CE {cite:ibn-sad-tabaqat-bewley}, Hasan grew up in the Prophet's household; the traditions describe the Prophet's tenderness toward him and his brother [[person/husayn-ibn-ali]].
+He was born in Medina in the middle of 625 CE {cite:ibn-sad-tabaqat-bewley}. He grew up in the household of prophethood, and traditions tell of the Prophet's tenderness toward him and his brother [[person/husayn-ibn-ali|Husayn]].
 
-When Ali was assassinated in January 661, the people of Kufa pledged to Hasan. Facing Muawiya's stronger Syrian army, and reports of defections in his own camp, he negotiated an abdication later that year on terms that included an amnesty and, in some reports, a stipulation that Muawiya's successor not be appointed {cite:madelung-1997}. He retired to Medina and died there about 670 CE. The tradition that he was poisoned is widely repeated; historians treat it as unproven {cite:madelung-1997}.
-
-:::perspectives
-- **Sunni**: Sunni tradition reveres Hasan as the Prophet's beloved grandson and counts his abdication an act of reconciliation that ended the first civil war — the year remembered as the 'year of unity' {cite:ibn-sad-tabaqat-bewley}.
-- **Academic**: Historians describe a caliphate that lacked the military and political base to continue, so that the abdication was as much a consequence of weakness as of peacemaking {cite:madelung-1997}.
-- **Twelver Shia**: Twelver Shia tradition venerates Hasan as the second Imam, who abdicated under duress to spare his followers, and holds that he was later poisoned at Muawiya's instigation {cite:momen-1985}.
-:::
+When Ali was assassinated in January 661 CE, the people of Kufa pledged allegiance to Hasan. Facing Mu'awiya's Syrian army, which was stronger, and reports of defections in his own camp, he negotiated a concession that year, which included an amnesty. Some accounts also mention a condition that Mu'awiya should not appoint anyone to succeed him {cite:madelung-1997}. He then withdrew to Medina, where he died around 670 CE. It is widely said that he was poisoned, but historians regard this as unestablished {cite:madelung-1997}.
 
 ## Legacy
-His abdication is one of the founding moments of the Sunni–Shia memory of early Islam: the same act read as wisdom by one community and as tragedy by another.
+His abdication is one of the founding moments in the memory of early Islam for Sunnis and Shi'is alike. The same act is read by one community as wisdom, and by another as tragedy.
 
 ## For young visitors
-Hasan had a choice: fight a war he might not win, or give up power to keep the peace. Muslims have been discussing his choice for fourteen hundred years.
+Hasan was given a choice: a war he might not win, or giving up rule to keep the peace. Muslims have been debating his choice for fourteen centuries.

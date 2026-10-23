@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 17:95 (سورة الإسراء، الآية 95)."
 text: "قُل لَّوْ كَانَ فِى ٱلْأَرْضِ مَلَـٰٓئِكَةٌ يَمْشُونَ مُطْمَئِنِّينَ لَنَزَّلْنَا عَلَيْهِم مِّنَ ٱلسَّمَآءِ مَلَكًا رَّسُولًا"
 text_search: "قل لو كان في الأرض ملائكة يمشون مطمئنين لنزلنا عليهم من السماء ملكا رسولا"
+translations:
+  en: { text: "Say: If there were in the earth angels walking secure, We had sent down for them from heaven an angel as messenger.", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "کہہ دو کہ اگر زمین میں فرشتے ہوتے (کہ اس میں) چلتے پھرتے (اور) آرام کرتے (یعنی بستے) تو ہم اُن کے پاس فرشتے کو پیغمبر بنا کر بھیجتے", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-17 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

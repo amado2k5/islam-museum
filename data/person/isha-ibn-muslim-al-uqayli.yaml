@@ -1,0 +1,18 @@
+id: person/isha-ibn-muslim-al-uqayli
+class: person
+label: { ar: "إسحاق بن مسلم العقيلي", en: "Ishaq ibn Muslim al-Uqayli" }
+summary:
+  ar: "إسحاق بن مسلم العقيلي؛ كان في مقدمة سعيد بن عمرو الحرشي إلى أرمينية هو وإخوته، وولّاه مروان بن محمد أرمينية فلم يزل يقاتل مسافراً القصّاب وكان مسافر في قلعة الكلاب بالسيسجان."
+  en: "Ishaq ibn Muslim al-Uqayli; he and his brothers rode in Sa'id ibn Amr al-Harashi's vanguard to Armenia, and Marwan ibn Muhammad gave him Armenia, where he fought Musafir al-Qassab without cease while Musafir held Qal'at al-Kilab in Sisajan."
+wings: [people]
+periods: [period/umayyad]
+relations:
+  - { type: participated_in, target: event/maslama-khazar-campaign, role: "في المقدمة", sources: [source/futuh-buldan-maarif-1407] }
+  - { type: participated_in, target: event/musafir-revolt-armenia, role: "والي أرمينية المقاتل لمسافر", sources: [source/futuh-buldan-maarif-1407] }
+provenance:
+  layer: own-research
+  source: "فتوح البلدان (ط مؤسسة المعارف 1407هـ/1987م) ص 290، 294"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-futuh-buldan-batch-18
+sources: [source/futuh-buldan-maarif-1407]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

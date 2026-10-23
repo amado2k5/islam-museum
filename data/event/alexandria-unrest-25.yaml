@@ -1,0 +1,19 @@
+id: event/alexandria-unrest-25
+class: event
+kind: revolt
+label: { ar: "خلاف أهل الإسكندرية واستردادها", en: "the Alexandria rising and its recovery (25 AH)" }
+date:
+  start: { edtf: "0645", hijri: "0025", calendar: julian, precision: year, status: tradition, derived: true, note: "سنة 25؛ التحويل مشتق {cite:kamil-ibn-al-athir p. 455}." }
+summary:
+  ar: "خلاف أهل الإسكندرية ونقضهم الصلح: كاتب الرومُ من كان فيها منهم ودعوهم إلى نقض الصلح فأجابوهم وسار إليهم من القسطنطينية جيش كثير عليهم منويل الخصي فأرسوا بها واتفق معهم من بها من الروم، ولم يوافقهم المقوقس بل ثبت على صلحه. فسار إليهم عمرو بن العاص والروم تسير إليه فالتقوا فاقتتلوا قتالًا شديدًا فانهزم الروم وأدخلهم المسلمون الإسكندرية وقتلوا منهم في البلد مقتلة عظيمة منهم منويل الخصي، وردّ عمرو لأهل القرى الذين لم يخالفوا أموالهم بعد إقامة البينة، وهدم سور الإسكندرية وتركها بغير سور {cite:kamil-ibn-al-athir p. 455}."
+  en: "Alexandria broke its treaty: Constantinople shipped a large army under the eunuch Manuel, and the Romans inside the city joined them — though the Muqawqis kept his pact. 'Amr ibn al-'As marched, routed them, followed them into the streets and killed a great multitude including Manuel; he restored to the villagers who had not rebelled their confiscated property upon proof, and demolished Alexandria's walls, leaving her wall-less {cite:kamil-ibn-al-athir p. 455}."
+relations:
+  - { type: occurred_at, target: place/alexandria, sources: [source/kamil-ibn-al-athir] }
+  - { type: had_participant, target: person/amr-ibn-al-as, role: "القائد", sources: [source/kamil-ibn-al-athir] }
+provenance:
+  layer: own-research
+  source: "الكامل في التاريخ لابن الأثير (دار الكتاب العربي 2012، ج2)، قراءة آبل فيجن"
+  generated_by: "Devin (SWE-2 Medium) from Apple Vision OCR"
+  run: lib-kamil-v2-batch04
+sources: [source/kamil-ibn-al-athir]
+status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 Medium)" }

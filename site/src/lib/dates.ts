@@ -5,11 +5,21 @@ import type { Lang } from "./i18n";
 const GREG = {
   en: ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"],
   ar: ["يناير", "فبراير", "مارس", "أبريل", "مايو", "يونيو", "يوليو", "أغسطس", "سبتمبر", "أكتوبر", "نوفمبر", "ديسمبر"],
+  ur: ["جنوری", "فروری", "مارچ", "اپریل", "مئی", "جون", "جولائی", "اگست", "ستمبر", "اکتوبر", "نومبر", "دسمبر"],
 };
 const HIJRI = {
   en: ["Muharram", "Safar", "Rabi' I", "Rabi' II", "Jumada I", "Jumada II", "Rajab", "Sha'ban", "Ramadan", "Shawwal", "Dhu al-Qa'da", "Dhu al-Hijja"],
   ar: ["محرم", "صفر", "ربيع الأول", "ربيع الآخر", "جمادى الأولى", "جمادى الآخرة", "رجب", "شعبان", "رمضان", "شوال", "ذو القعدة", "ذو الحجة"],
+  ur: ["محرم", "صفر", "ربیع الاول", "ربیع الثانی", "جمادی الاول", "جمادی الثانی", "رجب", "شعبان", "رمضان", "شوال", "ذوالقعدہ", "ذوالحجہ"],
 };
+// Era and approximation labels per language. Urdu uses its own forms; Arabic keeps the Hijri-era marks.
+export const ERA = {
+  en: { ce: "CE", bce: "BCE", ah: "AH", bh: "BH", approx: "c. ", approxTail: " (approx.)" },
+  ar: { ce: "م", bce: "ق.م", ah: "هـ", bh: "ق.هـ", approx: "نحو ", approxTail: " (تقريبًا)" },
+  ur: { ce: "عیسوی", bce: "قبل مسیح", ah: "ھ", bh: "قبل ہجرت", approx: "تقریباً ", approxTail: " (تقریباً)" },
+} as const;
+export const GREG_MONTHS = GREG;
+export const HIJRI_MONTHS = HIJRI;
 
 interface Parts { y: number; m?: number; d?: number; approx: boolean; uncertain: boolean; unknown: boolean }
 function parts(s: string): Parts | null {
@@ -23,24 +33,39 @@ function parts(s: string): Parts | null {
 const num = (n: number, lang: Lang) => (lang === "ar" ? new Intl.NumberFormat("ar-EG-u-nu-latn", { useGrouping: false }).format(n) : String(n));
 
 function render(p: Parts, names: string[], lang: Lang, era: string): string {
-  const c = lang === "ar" ? "نحو " : "c. ";
-  const yr = p.y < 0 ? (lang === "ar" ? `${num(-p.y, lang)} ق.م` : `${-p.y} BCE`) : num(p.y, lang);
+  const E = ERA[lang];
+  const c = E.approx;
+  const yr = p.y < 0 ? (lang === "en" ? `${-p.y} ${E.bce}` : `${num(-p.y, lang)} ${E.bce}`) : num(p.y, lang);
   const core = [p.d ? num(p.d, lang) : "", p.m ? names[p.m - 1] : "", yr].filter(Boolean).join(" ");
-  const tail = p.unknown ? (lang === "ar" ? " (تقريبًا)" : " (approx.)") : "";
+  const tail = p.unknown ? E.approxTail : "";
   return `${p.approx || p.unknown ? c : ""}${core}${p.uncertain ? "?" : ""}${tail} ${era}`.trim();
 }
 
+/** "0634/0644" (an EDTF interval: some time between two years) → "بين 634 و644 م" / "between 634 and 644 CE". */
+function interval(edtf: string, lang: Lang, era: (y: number) => string): string | undefined {
+  const m = edtf.match(/^(-?\d{4})\/(-?\d{4})$/);
+  if (!m) return undefined;
+  const a = Number(m[1]), b = Number(m[2]);
+  if (lang === "en") return `between ${a} and ${b} ${era(b)}`.trim();
+  if (lang === "ur") return `${num(a, lang)} اور ${num(b, lang)} کے درمیان ${era(b)}`.trim();
+  return `بين ${num(a, lang)} و${num(b, lang)} ${era(b)}`.trim();
+}
+
 export function formatCE(edtf: string, lang: Lang): string {
+  const iv = interval(edtf, lang, (y) => (y < 0 ? "" : ERA[lang].ce));
+  if (iv) return iv;
   const p = parts(edtf);
-  return p ? render(p, GREG[lang], lang, p.y < 0 ? "" : lang === "ar" ? "م" : "CE") : edtf;
+  return p ? render(p, GREG[lang], lang, p.y < 0 ? "" : ERA[lang].ce) : edtf;
 }
 /** The Hijri calendar has no year 0: 0 is 1 BH, -11 is 12 BH (years before the Hijra are counted back from 1). */
 function renderAH(p: Parts, lang: Lang): string {
   const bh = p.y < 1;
   const q = bh ? { ...p, y: 1 - p.y } : p;
-  return render(q, HIJRI[lang], lang, bh ? (lang === "ar" ? "ق.هـ" : "BH") : (lang === "ar" ? "هـ" : "AH"));
+  return render(q, HIJRI[lang], lang, bh ? ERA[lang].bh : ERA[lang].ah);
 }
 export function formatAH(hijri: string, lang: Lang): string {
+  const iv = interval(hijri, lang, (y) => (y < 1 ? ERA[lang].bh : ERA[lang].ah));
+  if (iv) return iv;
   const p = parts(hijri);
   return p ? renderAH(p, lang) : hijri;
 }
@@ -78,14 +103,14 @@ export function startOf(data: any): any {
 const msToYear = (ms: number) => 1970 + ms / (365.2425 * 86_400_000);
 
 /** [year, month, day] from a stored Hijri string ("-0011", "0007~", "0010-12-08"); missing month or day count as 1. */
-function hijriParts(h: unknown): [number, number, number] | undefined {
+export function hijriParts(h: unknown): [number, number, number] | undefined {
   const m = typeof h === "string" ? h.match(/^(-?\d{4})(?:-(\d{2}))?(?:-(\d{2}))?/) : null;
   return m ? [Number(m[1]), Number(m[2] ?? 1), Number(m[3] ?? 1)] : undefined;
 }
 
 /**
- * Timeline sort key: decimal CE start (from the Hijri date when given, else the CE date), then the Hijri date as tie-break. Year-precision periods (eras) sort after the
- * events of their start year. Dates given only in the Hijri calendar are converted, so they are not left at the end of the list.
+ * Timeline sort key: decimal CE start (from the Hijri date when given, else the CE date), then the Hijri date as tie-break. Year-precision dates (eras and year-only events) sort after the
+ * dated events of their start year. Dates given only in the Hijri calendar are converted, so they are not left at the end of the list.
  * Returns Infinity for undated entities.
  */
 export function timelineKey(n: { span?: { earliest: number }; class: string; data: any }): { key: number; ord: number } {
@@ -93,11 +118,20 @@ export function timelineKey(n: { span?: { earliest: number }; class: string; dat
   // Early entries are dated in the Hijri calendar in the sources (a CE year can be a year off, e.g. 629 for 8 AH), so a Hijri date is the key when there is one.
   let key: number | undefined;
   const hj = hijriParts(s?.hijri);
-  if (hj) {
+  // ...unless the Hijri string is coarser than the CE date (a month or a year against a day): then the CE day is the key
+  const hijriCoarser = hj && typeof s?.hijri === "string" && typeof s?.edtf === "string" && s.hijri.length < s.edtf.replace(/[~?%]/g, "").length;
+  if (hj && !hijriCoarser) {
     const c = hijriToCivil({ y: hj[0], m: hj[1], d: hj[2] });
     key = msToYear(Date.UTC(c.date.y, c.date.m - 1, c.date.d));
   } else key = n.span?.earliest;
   if (key === undefined) return { key: Infinity, ord: 0 };
-  if (n.class === "period" && s?.precision === "year") key = Math.round(key) + 1 - 1e-6;
+  // Year-only dates sort after the dated events of their year (§1.5): "نحو 622" follows "12 سبتمبر 622". A year given in the
+  // Hijri calendar ends with that Hijri year, so "1 هـ" follows ذو القعدة 1 هـ and precedes محرم 2 هـ (not the end of 623 CE).
+  if (s?.precision === "year") {
+    if (hj && !hijriCoarser) {
+      const c = hijriToCivil({ y: hj[0] + 1, m: 1, d: 1 });
+      key = msToYear(Date.UTC(c.date.y, c.date.m - 1, c.date.d)) - 1e-6;
+    } else key = Math.floor(key) + 1 - 1e-6;
+  }
   return { key, ord: hj ? hj[0] * 10000 + hj[1] * 100 + hj[2] : 0 };
 }

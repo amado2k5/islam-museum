@@ -1,0 +1,19 @@
+id: event/samarqand-betrayal-605
+class: event
+kind: other
+label: { ar: "غدر صاحب سمرقند بالخوارزميين", en: "The lord of Samarqand betrays the Khwarazmians" }
+date:
+  start: { edtf: "1208~", hijri: "0605", calendar: julian, precision: year, status: tradition, derived: true }
+summary:
+  ar: "غدر صاحب سمرقند بالخوارزميين فأوقع بهم، وكان من فتن ما وراء النهر في هذه الأعوام {cite:kamil-ibn-al-athir p. 338}."
+  en: "The lord of Samarqand betrayed the Khwarazmians and fell upon them — one of the Transoxanian upheavals of these years {cite:kamil-ibn-al-athir p. 338}."
+relations:
+  - { type: occurred_at, target: place/samarqand, sources: [source/kamil-ibn-al-athir] }
+  - { type: had_participant, target: person/muhammad-khwarazmshah, role: "المغدور به", sources: [source/kamil-ibn-al-athir] }
+provenance:
+  layer: own-research
+  source: "الكامل في التاريخ لابن الأثير، قراءة آبل فيجن"
+  generated_by: "Devin (SWE-2 Medium) from Apple Vision OCR"
+  run: lib-kamil-v12-batch06
+sources: [source/kamil-ibn-al-athir]
+status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 Medium)" }

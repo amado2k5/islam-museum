@@ -1,0 +1,21 @@
+id: event/tigris-flood-401
+class: event
+kind: other
+label: { ar: "غرق بغداد وفيضان دجلة إحدى وعشرين ذراعاً", en: "The Flooding of Baghdad as the Tigris Rises Twenty-One Cubits" }
+summary:
+  ar: "في رجب سنة إحدى وأربعمائة زادت دجلة وامتدت الزيادة إلى رمضان فبلغت إحدى وعشرين ذراعاً، ودخل الماء أكثر الدور الشاطئة وقطيعة الدقيق وباب التبن وباب الشعير وباب الطاق، وفاض على مسجد الكف بقطيعة الدقيق فخربه واحتمل أفرعته وسقوفه وتفجرت البثوق وغرقت القرى والحصون {cite:muntazam-ibn-al-jawzi j.7 p.251-252}."
+  en: "In Rajab 401 the Tigris rose, and the rise continued until Ramadan, reaching twenty-one cubits. Water entered most of the riverside houses and reached Qati'at al-Daqiq, Bab al-Tibn, Bab al-Sha'ir and Bab al-Taq; at Qati'at al-Daqiq it overflowed onto the Mosque of al-Kaff, wrecking it and carrying away its upper parts and roofs. Breaches burst open in the banks, and villages and fortresses were drowned. {cite:muntazam-ibn-al-jawzi j.7 p.251-252}"
+wings: [time]
+periods: [period/buyid-seljuk-fatimid-era]
+regions: [levant-iraq]
+date:
+  start: { edtf: "1011-02~", hijri: "0401-07", calendar: julian, precision: month, status: tradition, derived: true, note: "رجب إلى رمضان 401هـ؛ التحويل مشتق {cite:muntazam-ibn-al-jawzi j.7 p.251}" }
+relations:
+  - { type: located_in, target: place/baghdad, sources: [source/muntazam-ibn-al-jawzi] }
+provenance:
+  layer: own-research
+  source: "المنتظم في تاريخ الملوك والأمم — ابن الجوزي (ج7، أحداث سنة 401)، قراءة آبل فيجن"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-muntazam-batch-22
+sources: [source/muntazam-ibn-al-jawzi]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

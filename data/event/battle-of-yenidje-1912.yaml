@@ -1,0 +1,23 @@
+id: event/battle-of-yenidje-1912
+class: event
+kind: battle
+label: { ar: "معركة ينيدجا", en: "Battle of Yenidje" }
+summary:
+  ar: "بطاقة أولية لمعركة ينيدجا سنة ١٩١٢م، نصر اليونانيين على العثمانيين في ثيساليا خلال حرب البلقان؛ لم تُراجع مصادره على الصفحة بعد."
+  en: "Draft card for the Battle of Yenidje in 1912, the Greek victory over the Ottomans in Thessaly in the Balkan War; its sources are not yet checked on the page."
+wings: [time]
+periods: [period/modern-era]
+regions: [anatolia-balkans]
+date:
+  start: { edtf: "1912", precision: year, status: tradition, derived: true }
+  end: { edtf: "1912", precision: year, status: tradition, derived: true }
+sources: [source/dawlat-uthmaniyya-salabi]
+external_ids:
+  wikidata: Q765175
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; battle attested in Balkan War histories — entry not yet checked on the page"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-wave2
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

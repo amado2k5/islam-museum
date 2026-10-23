@@ -1,0 +1,22 @@
+id: event/fuwwa-raid-601
+class: event
+kind: raid
+label: { ar: "غارة الفرنج على فوّة", en: "Frankish fleet sacks Fuwwa on the Egyptian coast" }
+date:
+  start: { edtf: "1204~", hijri: "0601", calendar: julian, precision: "year", status: tradition, derived: true }
+summary:
+  ar: "خرج أسطول من الفرنج إلى الديار المصرية فنهبوا مدينة فوّة وقتلوا وأسروا من أهلها {cite:kamil-ibn-al-athir p. 293}."
+  en: "A Frankish fleet entered Egyptian waters and sacked Fuwwa, killing and capturing its people {cite:kamil-ibn-al-athir p. 293}."
+sides:
+  - label: { ar: "أسطول الفرنج" }
+  - label: { ar: "أهل فوّة والمدافعون" }
+relations:
+  - { type: occurred_at, target: place/fuwwa, sources: [source/kamil-ibn-al-athir] }
+  - { type: had_participant, target: group/ifranja, role: "الغازون", sources: [source/kamil-ibn-al-athir] }
+provenance:
+  layer: own-research
+  source: "الكامل في التاريخ لابن الأثير، قراءة آبل فيجن"
+  generated_by: "Devin (SWE-2 Medium) from Apple Vision OCR"
+  run: lib-kamil-v12-batch05
+sources: [source/kamil-ibn-al-athir]
+status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 Medium)" }

@@ -1,0 +1,23 @@
+id: event/trebizond-campaign-1916
+class: event
+kind: campaign
+label: { ar: "حملة طرابزون", en: "Trebizond Campaign" }
+summary:
+  ar: "بطاقة أولية لحملة طرابزون سنة ١٩١٦م، أخذ الروس للمدينة العثمانية على البحر الأسود في الحرب العالمية؛ لم تُراجع مصادره على الصفحة بعد."
+  en: "Draft card for the Trebizond Campaign of 1916, Russia's capture of the Ottoman Black Sea city in the First World War; its sources are not yet checked on the page."
+wings: [time]
+periods: [period/modern-era]
+regions: [anatolia-balkans]
+date:
+  start: { edtf: "1916", precision: year, status: tradition, derived: true }
+  end: { edtf: "1916", precision: year, status: tradition, derived: true }
+sources: [source/dawlat-uthmaniyya-salabi]
+external_ids:
+  wikidata: Q2058905
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; campaign attested in WWI histories — entry not yet checked on the page"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-wave2
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

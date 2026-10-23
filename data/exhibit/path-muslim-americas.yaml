@@ -1,0 +1,66 @@
+id: exhibit/path-muslim-americas
+class: exhibit
+kind: trail
+label:
+  ar: المسلمون في الغرب
+  en: Muslims in the West
+summary:
+  ar: 'مسار في الإسلام بالأمريكتين وأوروبا: مالكولم إكس ويوسف إسلام، والجاليات والمساجد والأسئلة الجديدة.'
+  en: A trail through Islam in the Americas and Europe.
+audience:
+- newcomer
+- student
+duration_minutes: 30
+wings: []
+regions:
+- americas-oceania
+rooms:
+- title:
+    ar: مالكولم إكس
+    en: Malcolm X
+  body:
+    ar: 'من أمة الإسلام إلى السنة: حجة 1964.'
+    en: 'من أمة الإسلام إلى السنة: حجة 1964.'
+  features:
+  - person/malcolm-x
+  - screen/malcolm-x-1992
+- title:
+    ar: يوسف إسلام
+    en: Yusuf Islam
+  body:
+    ar: مغني سبعينات القرن يجد الطريق.
+    en: مغني سبعينات القرن يجد الطريق.
+  features:
+  - person/yusuf-islam
+- title:
+    ar: الجاليات
+    en: Communities
+  body:
+    ar: 'مسلمو أمريكا وأوروبا: أجيال ثالثة ورابعة.'
+    en: 'مسلمو أمريكا وأوروبا: أجيال ثالثة ورابعة.'
+  features:
+  - screen/aida-2020
+  - question/what-is-islam
+- title:
+    ar: الأسئلة
+    en: New questions
+  body:
+    ar: 'الفتوى والهوية في الغرب: بطاقات المتحف.'
+    en: 'الفتوى والهوية في الغرب: بطاقات المتحف.'
+  features:
+  - question/what-is-fatwa
+  - question/what-is-hijab
+prerequisites:
+- exhibit/path-islam-in-30-minutes
+sources:
+- source/wikidata
+provenance:
+  layer: own-research
+  source: Devin-assembled trail from existing museum entities
+  generated_by: Devin (SWE-2 High)
+  model: SWE-2 High
+  run: pathways-batch-7
+status:
+  review: draft
+  completeness: 1
+  generated_by: Devin (SWE-2 High), pathways lane, 2026-10-16

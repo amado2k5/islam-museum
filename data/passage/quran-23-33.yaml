@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 23:33 (سورة المؤمنون، الآية 33)."
 text: "وَقَالَ ٱلْمَلَأُ مِن قَوْمِهِ ٱلَّذِينَ كَفَرُوا۟ وَكَذَّبُوا۟ بِلِقَآءِ ٱلْـَٔاخِرَةِ وَأَتْرَفْنَـٰهُمْ فِى ٱلْحَيَوٰةِ ٱلدُّنْيَا مَا هَـٰذَآ إِلَّا بَشَرٌ مِّثْلُكُمْ يَأْكُلُ مِمَّا تَأْكُلُونَ مِنْهُ وَيَشْرَبُ مِمَّا تَشْرَبُونَ"
 text_search: "وقال الملأ من قومه الذين كفروا وكذبوا بلقاء الآخرة وأترفناهم في الحياة الدنيا ما هذا إلا بشر مثلكم يأكل مما تأكلون منه ويشرب مما تشربون"
+translations:
+  en: { text: "And the chieftains of his folk, who disbelieved and denied the meeting of the Hereafter, and whom We had made soft in the life of the world, said: This is only a mortal like you, who eateth of that whereof ye eat and drinketh of that ye drink.", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "تو ان کی قوم کے سردار جو کافر تھے اور آخرت کے آنے کو جھوٹ سمجھتے تھے اور دنیا کی زندگی میں ہم نے ان کو آسودگی دے رکھی تھی۔ کہنے لگے کہ یہ تو تم ہی جیسا آدمی ہے، جس قسم کا کھانا تم کھاتے ہو، اسی طرح کا یہ بھی کھاتا ہے اور جو پانی تم پیتے ہو اسی قسم کا یہ بھی پیتا ہے", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-23 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

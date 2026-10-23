@@ -1,0 +1,19 @@
+id: event/battle-of-saqatiyya
+class: event
+kind: battle
+label: { ar: "وقعة السقاطية بكَسْكر", en: "Battle of al-Saqatiyya at Kaskar (13 AH)" }
+date:
+  start: { edtf: "0634", hijri: "0013", calendar: julian, precision: year, status: tradition, derived: true, note: "سنة 13 بعد النمارق؛ التحويل مشتق {cite:kamil-ibn-al-athir p. 275}." }
+summary:
+  ar: "وقعة السقاطية أسفل كسكر: لحق المنهزمون بنرسي ابن خالة الملك ومعه أهل باروسما والزوابي وبندويه وتيرويه ابنا بسطام، فعاجلهم أبو عبيد من النمارق فانهزمت فارس وهرب نرسي وغلب المسلمون على عسكره وأرضه وأخذوا النرسيان — نوع من التمر لا يأكله إلا كسرى أو من أكرمه به ولا يغرسه غيرهم — فأطعموه الفلاحين وبعثوا بخمسه إلى عمر وكتبوا: إن الله أطعمنا مطاعم كانت الأكاسرة تحميها وأحببنا أن تروها لتشكروا إنعام الله وإفضاله. وقبلها كانت بوران قد نُصّبت بعد أن فقأ رستم عين آزرميدخت على أن تُملّك عشر سنين {cite:kamil-ibn-al-athir p. 275}."
+  en: "At al-Saqatiyya below Kaskar, Abu 'Ubayd smashed Narsi — the shah's cousin — and his joined levies. In the captured camp was the narsiyyan, a date the Kaisars reserved for the royal table alone and none else might plant; the Muslims fed it to the farmers, sent its fifth to 'Umar with the letter: 'God fed us food the Kaisars hoarded — we wished you to see it, to thank God's grace.' Behind the battle stood Buran, crowned after Rustam put out Azarmidukht's eyes, on a ten-year pact to restore the House of Kisra {cite:kamil-ibn-al-athir p. 275}."
+relations:
+  - { type: occurred_at, target: place/kaskar, sources: [source/kamil-ibn-al-athir] }
+  - { type: had_participant, target: person/abu-ubayd-ibn-masud, role: "قائد الجيش", sources: [source/kamil-ibn-al-athir] }
+provenance:
+  layer: own-research
+  source: "الكامل في التاريخ لابن الأثير (دار الكتاب العربي 2012، ج2)، قراءة آبل فيجن"
+  generated_by: "Devin (SWE-2 Medium) from Apple Vision OCR"
+  run: lib-kamil-v2-batch02
+sources: [source/kamil-ibn-al-athir]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 Medium)" }

@@ -12,10 +12,13 @@ summary:
   ar: "القرآن 8:30 (سورة الأنفال، الآية 30)."
 text: "وَإِذْ يَمْكُرُ بِكَ ٱلَّذِينَ كَفَرُوا۟ لِيُثْبِتُوكَ أَوْ يَقْتُلُوكَ أَوْ يُخْرِجُوكَ ۚ وَيَمْكُرُونَ وَيَمْكُرُ ٱللَّهُ ۖ وَٱللَّهُ خَيْرُ ٱلْمَـٰكِرِينَ"
 text_search: "وإذ يمكر بك الذين كفروا ليثبتوك أو يقتلوك أو يخرجوك ۚ ويمكرون ويمكر الله ۖ والله خير الماكرين"
+translations:
+  en: { text: "And when those who disbelieve plot against thee (O Muhammad) to wound thee fatally, or to kill thee or to drive thee forth; they plot, but Allah (also) plotteth; and Allah is the best of plotters.", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "اور (اے محمدﷺ اس وقت کو یاد کرو) جب کافر لوگ تمہارے بارے میں چال چل رہے تھے کہ تم کو قید کر دیں یا جان سے مار ڈالیں یا (وطن سے) نکال دیں تو (ادھر تو) وہ چال چل رہے تھے اور (اُدھر) خدا چال چل رہا تھا۔ اور خدا سب سے بہتر چال چلنے والا ہے", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-8 }
   - { type: revealed_about, target: event/hijra-departure, sources: [source/mubarakpuri-raheeq, source/ibn-hisham-sira] }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

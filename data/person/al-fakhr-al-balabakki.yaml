@@ -1,0 +1,29 @@
+id: person/al-fakhr-al-balabakki
+class: person
+label: { ar: "الفخر البعلبكي المفتي", en: "al-Fakhr al-Ba'labakki" }
+names:
+  - { value: "الفخر البعلبكي المفتي أبو محمد عبد الرحمن بن يوسف بن محمد بن نصر الحنبلي", kind: full }
+born: { edtf: "1214~", hijri: "0611", calendar: julian, precision: year, status: tradition, derived: true, note: "ولد سنة إحدى عشرة وستمائة ببعلبك {cite:shadharat-dhahab p. 707}." }
+died: { edtf: "1289-07~", hijri: "0688-07-07", calendar: julian, precision: day, status: tradition, derived: true, note: "توفي ليلة الأربعاء سابع رجب بدمشق ودفن بالقرب من قبر الشيخ موفق الدين {cite:shadharat-dhahab p. 708}." }
+summary:
+  ar: "الفقيه المحدث الزاهد؛ قرأ القرآن على خاله قاضي بعلبك، وحفظ كتاب «علوم الحديث» وعرضه من حفظه على مؤلفه الحافظ ابن الصلاح، وصحب الشيخ اليونيني وإبراهيم البطائحي والنووي، وكان اليونيني يحبه ويقدمه على أولاده؛ وكان دائم البشر يلازم قيام الليل من الثلث الأخير ويصوم الأيام البيض وستاً من شوال وعشر ذي الحجة والمحرم لا يخل بذلك؛ وقال لولده في صحته: أنا أعيش عمر الإمام أحمد، لكن شتان ما بيني وبينه، فكان كما قال {cite:shadharat-dhahab p. 707-708}."
+  en: "The Baalbek Hanbali — recited Ibn al-Salah's Ulum al-Hadith back to its author from memory; al-Yunini loved him above his own sons; foretold 'I shall live Imam Ahmad's age' — and died at seventy-seven {cite:shadharat-dhahab p. 707-708}."
+gender: male
+roles: [jurist, scholar]
+wings: [people]
+periods: [period/mongol-post-mongol]
+regions: [levant-iraq]
+faith:
+  - value: sunni-hanbali
+    basis: tradition
+relations:
+  - { type: student_of, target: person/muhammad-al-yunini, sources: [source/shadharat-dhahab] }
+  - { type: born_in, target: place/baalbek, sources: [source/shadharat-dhahab] }
+  - { type: died_in, target: place/damascus, sources: [source/shadharat-dhahab] }
+sources: [source/shadharat-dhahab]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }
+provenance:
+  layer: own-research
+  source: "شذرات الذهب — ابن العماد (ج7، سنة 688)، قراءة آبل فيجن"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-shadharat-batch-134

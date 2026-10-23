@@ -1,0 +1,23 @@
+id: event/siege-of-tbilisi-628
+class: event
+kind: siege
+label: { ar: "حصار تبليسي (٦٢٨)", en: "Siege of Tbilisi" }
+summary:
+  ar: "بطاقة أولية لحصار تبليسي من ٦٢٧ إلى ٦٢٨م، فتح جورجيا على يد الإمبراطور هرقل والخزر؛ لم تُراجع مصادره على الصفحة بعد."
+  en: "Draft card for the Siege of Tbilisi in 627–628, the Byzantine-Khazar capture of the city; its sources are not yet checked on the page."
+wings: [time]
+periods: [period/prophetic-era]
+regions: [persia-central-asia]
+date:
+  start: { edtf: "627", precision: year, status: tradition, derived: true }
+  end: { edtf: "628", precision: year, status: tradition, derived: true }
+sources: [source/kamil-ibn-al-athir]
+external_ids:
+  wikidata: Q16379713
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; siege attested in Caucasian histories — entry not yet checked on the page"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-wave2
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

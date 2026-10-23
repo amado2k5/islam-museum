@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 18:76 (سورة الكهف، الآية 76)."
 text: "قَالَ إِن سَأَلْتُكَ عَن شَىْءٍۭ بَعْدَهَا فَلَا تُصَـٰحِبْنِى ۖ قَدْ بَلَغْتَ مِن لَّدُنِّى عُذْرًا"
 text_search: "قال إن سألتك عن شيء بعدها فلا تصاحبني ۖ قد بلغت من لدني عذرا"
+translations:
+  en: { text: "(Moses) said: If I ask thee after this concerning aught, keep not company with me. Thou hast received an excuse from me.", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "انہوں نے کہا کہ اگر میں اس کے بعد (پھر) کوئی بات پوچھوں (یعنی اعتراض کروں) تو مجھے اپنے ساتھ نہ رکھیئے گا کہ آپ میری طرف سے عذر (کے قبول کرنے میں غایت) کو پہنچ گئے", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-18 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

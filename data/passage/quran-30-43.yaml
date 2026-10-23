@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 30:43 (سورة الروم، الآية 43)."
 text: "فَأَقِمْ وَجْهَكَ لِلدِّينِ ٱلْقَيِّمِ مِن قَبْلِ أَن يَأْتِىَ يَوْمٌ لَّا مَرَدَّ لَهُۥ مِنَ ٱللَّهِ ۖ يَوْمَئِذٍ يَصَّدَّعُونَ"
 text_search: "فأقم وجهك للدين القيم من قبل أن يأتي يوم لا مرد له من الله ۖ يومئذ يصدعون"
+translations:
+  en: { text: "So set thy purpose resolutely for the right religion, before the inevitable day cometh from Allah. On that day mankind will be sundered-", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "تو اس روز سے پہلے جو خدا کی طرف سے آکر رہے گا اور رک نہیں سکے گا دین (کے رستے) پر سیدھا منہ کئے چلے چلو اس روز (سب) لوگ منتشر ہوجائیں گے", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-30 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

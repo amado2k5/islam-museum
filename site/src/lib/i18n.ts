@@ -2,15 +2,34 @@ import { readFileSync } from "node:fs";
 import { repoPath } from "./paths";
 import { parse } from "yaml";
 
-// Arabic first (docs/language.md): the site publishes Arabic only through Phase 3. Add "en" here, in astro.config.mjs and in scripts/lib.ts PUBLISHED_LANGS when the English translation ships (Phase 4).
-export const LANGS = ["ar"] as const;
-export const ALL_LANGS = ["ar", "en"] as const;
-export type Lang = "ar" | "en";
-export const other = (l: Lang): Lang => (l === "en" ? "ar" : "en");
+// Arabic canonical, English published beside it (docs/language.md): /ar/ and /en/ ship together.
+export const LANGS = ["ar", "en", "ur"] as const;
+export const ALL_LANGS = ["ar", "en", "ur"] as const;
+export type Lang = "ar" | "en" | "ur";
+/** The next language in the switcher cycle: ar → en → ur → ar. */
+export const nextLang = (l: Lang): Lang => LANGS[(LANGS.indexOf(l) + 1) % LANGS.length];
+/** Languages whose UI and prose share the Arabic script and the Naskh faces. */
+export const ARABIC_SCRIPT: readonly Lang[] = ["ar", "ur"];
+/** Open Graph locale per language. */
+export const OG_LOCALE: Record<Lang, string> = { ar: "ar_AR", en: "en_US", ur: "ur_PK" };
+/** Intl locale for numbers: Western digits everywhere (docs/language.md), grouping per language. */
+export const NUM_LOCALE: Record<Lang, string> = { ar: "ar-EG-u-nu-latn", en: "en-GB", ur: "ur-PK-u-nu-latn" };
 
 const cache = new Map<string, any>();
+/** Fill keys a language has not translated yet from English, so a page renders instead of crashing. */
+const fillMissing = (target: any, base: any): any => {
+  for (const k of Object.keys(base)) {
+    const v = base[k];
+    if (v && typeof v === "object" && !Array.isArray(v)) target[k] = fillMissing(target[k] && typeof target[k] === "object" ? target[k] : {}, v);
+    else if (target[k] === undefined) target[k] = v;
+  }
+  return target;
+};
 export function ui(lang: Lang): any {
-  if (!cache.has(lang)) cache.set(lang, parse(readFileSync(repoPath("i18n", `${lang}.yaml`), "utf8")));
+  if (!cache.has(lang)) {
+    const data = parse(readFileSync(repoPath("i18n", `${lang}.yaml`), "utf8"));
+    cache.set(lang, lang === "en" ? data : fillMissing(data, ui("en")));
+  }
   return cache.get(lang);
 }
 
@@ -22,5 +41,7 @@ export type Wing = (typeof WINGS)[number];
 
 export const WING_PATH: Record<Wing, string> = { time: "time", place: "place", people: "people", ideas: "ideas", objects: "objects", words: "words", living: "living", today: "today", made: "made" };
 export const wingHref = (lang: Lang, w: Wing) => `/${lang}/${WING_PATH[w]}/`;
+/** The language the AR | EN switch links to. */
+export const other = (l: Lang): Lang => (l === "en" ? "ar" : "en");
 
 export const t = (lang: Lang, path: string): string => path.split(".").reduce((o: any, k) => o?.[k], ui(lang)) ?? path;

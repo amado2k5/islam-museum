@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 8:50 (سورة الأنفال، الآية 50)."
 text: "وَلَوْ تَرَىٰٓ إِذْ يَتَوَفَّى ٱلَّذِينَ كَفَرُوا۟ ۙ ٱلْمَلَـٰٓئِكَةُ يَضْرِبُونَ وُجُوهَهُمْ وَأَدْبَـٰرَهُمْ وَذُوقُوا۟ عَذَابَ ٱلْحَرِيقِ"
 text_search: "ولو ترى إذ يتوفى الذين كفروا ۙ الملائكة يضربون وجوههم وأدبارهم وذوقوا عذاب الحريق"
+translations:
+  en: { text: "If thou couldst see how the angels receive those who disbelieve, smiting faces and their backs and (saying): Taste the punishment of burning!", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "اور کاش تم اس وقت (کی کیفیت) دیکھو۔ جب فرشتے کافروں کی جانیں نکالتے ہیں ان کے مونہوں اور پیٹھوں پر (کوڑے اور ہتھوڑے وغیرہ) مارتے (ہیں اور کہتے ہیں) کہ (اب) عذاب آتش (کا مزہ) چکھو", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-8 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

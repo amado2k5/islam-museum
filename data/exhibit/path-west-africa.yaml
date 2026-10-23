@@ -1,0 +1,71 @@
+id: exhibit/path-west-africa
+class: exhibit
+kind: trail
+label:
+  ar: الإسلام في غرب أفريقيا
+  en: Islam in West Africa
+summary:
+  ar: 'مسار في ساحل الذهب والعلم: غانا ومالي ومانسا موسى وتمبكتو — الإسلام يعبر الصحراء مع قوافل الملح.'
+  en: 'A trail through the Sahel of gold and learning: Ghana, Mali, Mansa Musa and Timbuktu.'
+audience:
+- newcomer
+- student
+duration_minutes: 30
+wings: []
+regions:
+- west-africa-sahel
+rooms:
+- title:
+    ar: غانا القديمة
+    en: Old Ghana
+  body:
+    ar: 'إمبراطورية الذهب الأولى قبل الإسلام ومعه: أوقادوست وكومبي صالح.'
+    en: The first gold empire, before and alongside Islam.
+  features:
+  - polity/ghana-empire
+- title:
+    ar: مالي
+    en: Mali
+  body:
+    ar: سوندياتا يؤسس والإسلام دين البلاط والتجار.
+    en: Sundiata founds it; Islam the court's and merchants' faith.
+  features:
+  - polity/mali-empire
+- title:
+    ar: حج مانسا موسى
+    en: Musa's hajj
+  body:
+    ar: '1324: قافلة الذهب التي غيّرت أسعار القاهرة.'
+    en: '1324: the gold caravan that moved Cairo''s prices.'
+  features:
+  - person/mansa-musa
+- title:
+    ar: تمبكتو
+    en: Timbuktu
+  body:
+    ar: 'عاصمة المخطوط: جامعات وسوق كتب على النيجر.'
+    en: 'The manuscript capital: universities and a book market.'
+  features:
+  - place/timbuktu
+- title:
+    ar: البلد اليوم
+    en: Today
+  body:
+    ar: أكثرية مسلمة من السنغال إلى نيجيريا.
+    en: Muslim majorities from Senegal to Nigeria.
+  features:
+  - person/bilal-ibn-rabah
+prerequisites:
+- exhibit/path-islam-in-30-minutes
+sources:
+- source/wikidata
+provenance:
+  layer: own-research
+  source: Devin-assembled trail from existing museum entities
+  generated_by: Devin (SWE-2 High)
+  model: SWE-2 High
+  run: pathways-batch-4
+status:
+  review: draft
+  completeness: 1
+  generated_by: Devin (SWE-2 High), pathways lane, 2026-10-16

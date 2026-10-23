@@ -1,0 +1,15 @@
+id: passage/muwatta-15-1713
+class: passage
+unit: hadith
+work: work/muwatta-malik
+ref: "1713"
+label: { ar: "الموطأ 1713 — مالك: الرجل يقول لامرأته أنت الطلاق، وكل امرأة أنكحها فهي طالق، ومالي صدقة إن لم يفعل كذا فحنث: امرأته تطلق كما قال، وأما كل امرأة فلا يلزمه إلا بتسمية، ويتصدق بثلث ماله", en: "Muwatta 1713" }
+summary:
+  ar: "يقول مالك في الرجل يقول لامرأته أنت الطلاق، وكل امرأة أنكحها فهي طالق، ومالي صدقة إن لم يفعل كذا وكذا، فحنث، قال أما نساؤه فطلاق كما قال، وأما قوله كل امرأة أنكحها فهي طالق، فإنه إذا لم يسم امرأة بعينها، أو قبيلة، أو أرضا، أو نحو هذا، فليس يلزمه ذلك، وليتزوج ما شاء، وأما ماله فليتصدق بثلثه. {cite:muwatta-maruf-1997 p.98}"
+relations:
+  - { type: part_of, target: passage/muwatta-kitab-15-talaq }
+  - { type: mentions, target: person/malik-ibn-anas, sources: [source/muwatta-maruf-1997] }
+  - { type: basis_for, target: concept/talaq, sources: [source/muwatta-maruf-1997] }
+provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 2, hadith 1713 at PDF p. 98; يمين الرجل بطلاق ما لم ينكح", generated_by: "Claude Code (claude-haiku-5-5) from Apple Vision OCR of the Noor-Book PDF, checked on the page image where doubtful", run: "muwatta-prose-k15-b38" }
+sources: [source/muwatta-maruf-1997]
+status: { review: draft, completeness: 2, generated_by: "Claude Code (claude-haiku-5-5); own-words account written from PDF p. 98; matn excerpt at most 40 words" }

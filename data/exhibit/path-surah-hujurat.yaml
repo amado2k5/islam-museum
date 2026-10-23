@@ -1,0 +1,76 @@
+id: exhibit/path-surah-hujurat
+class: exhibit
+kind: trail
+label:
+  ar: سورة الحجرات
+  en: Surah al-Hujurat
+summary:
+  ar: 'مسار في سورة الأخلاق: آداب الخطاب مع النبي، والتثبت من الفاسق، والإصلاح بين المؤمنين — سورة المجتمع.'
+  en: A trail through the ethics sura.
+audience:
+- newcomer
+- student
+duration_minutes: 30
+wings: []
+regions:
+- arabia
+rooms:
+- title:
+    ar: الآداب
+    en: Etiquettes
+  body:
+    ar: 'لا تقدموا بين يدي الله: أدب الحضرة.'
+    en: 'لا تقدموا بين يدي الله: أدب الحضرة.'
+  features:
+  - passage/quran-49
+  - passage/quran-49-1
+- title:
+    ar: التثبت
+    en: Verification
+  body:
+    ar: إن جاءكم فاسق بنبإ فتبينوا.
+    en: إن جاءكم فاسق بنبإ فتبينوا.
+  features:
+  - passage/quran-49-6
+  - concept/adab
+- title:
+    ar: الإخوة
+    en: Brotherhood
+  body:
+    ar: 'إنما المؤمنون إخوة: سلام المجتمع.'
+    en: 'إنما المؤمنون إخوة: سلام المجتمع.'
+  features:
+  - passage/quran-49-10
+  - concept/adab
+- title:
+    ar: التعارف
+    en: Knowing
+  body:
+    ar: خلقناكم شعوبا وقبائل لتعارفوا.
+    en: خلقناكم شعوبا وقبائل لتعارفوا.
+  features:
+  - passage/quran-49-13
+  - passage/quran-49-13
+- title:
+    ar: المنع
+    en: Prohibitions
+  body:
+    ar: لمز وتهمة وظن وغيبة وتجسس.
+    en: لمز وتهمة وظن وغيبة وتجسس.
+  features:
+  - passage/quran-49-11
+  - passage/quran-49-12
+prerequisites:
+- exhibit/path-islam-in-30-minutes
+sources:
+- source/wikidata
+provenance:
+  layer: own-research
+  source: Devin-assembled trail from existing museum entities
+  generated_by: Devin (SWE-2 High)
+  model: SWE-2 High
+  run: pathways-batch-7
+status:
+  review: draft
+  completeness: 1
+  generated_by: Devin (SWE-2 High), pathways lane, 2026-10-16

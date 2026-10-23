@@ -1,0 +1,76 @@
+id: exhibit/path-surah-adiyat
+class: exhibit
+kind: trail
+label:
+  ar: سورة العاديات
+  en: Surah al-Adiyat
+summary:
+  ar: 'مسار في سورة الخيل: العاديات ضبحًا، والكنود يُوصف، والمحتوى يُعلم — سورة الجحود والنعم.'
+  en: A trail through the charging mares.
+audience:
+- newcomer
+- student
+duration_minutes: 30
+wings: []
+regions:
+- arabia
+rooms:
+- title:
+    ar: القسم
+    en: The oath
+  body:
+    ar: والعاديات ضبحا فالموريات قدحا.
+    en: والعاديات ضبحا فالموريات قدحا.
+  features:
+  - passage/quran-100
+  - passage/quran-100-1
+- title:
+    ar: الغارة
+    en: The raid
+  body:
+    ar: فالمغيرات صبحا فأثرن به نقعا.
+    en: فالمغيرات صبحا فأثرن به نقعا.
+  features:
+  - passage/quran-100-3
+  - passage/quran-100-3
+- title:
+    ar: الكنود
+    en: The ungrateful
+  body:
+    ar: إن الإنسان لربه لكنود.
+    en: إن الإنسان لربه لكنود.
+  features:
+  - passage/quran-100-6
+  - concept/akhira
+- title:
+    ar: الحب
+    en: The love
+  body:
+    ar: وإنه لحب الخير لشديد.
+    en: وإنه لحب الخير لشديد.
+  features:
+  - passage/quran-100-8
+  - passage/quran-100-8
+- title:
+    ar: العلم
+    en: The knowing
+  body:
+    ar: ثم إن ربهم بهم يومئذ لخبير.
+    en: ثم إن ربهم بهم يومئذ لخبير.
+  features:
+  - passage/quran-100-11
+  - concept/akhira
+prerequisites:
+- exhibit/path-islam-in-30-minutes
+sources:
+- source/wikidata
+provenance:
+  layer: own-research
+  source: Devin-assembled trail from existing museum entities
+  generated_by: Devin (SWE-2 High)
+  model: SWE-2 High
+  run: pathways-batch-7
+status:
+  review: draft
+  completeness: 1
+  generated_by: Devin (SWE-2 High), pathways lane, 2026-10-16

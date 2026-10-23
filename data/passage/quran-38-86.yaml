@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 38:86 (سورة ص، الآية 86)."
 text: "قُلْ مَآ أَسْـَٔلُكُمْ عَلَيْهِ مِنْ أَجْرٍ وَمَآ أَنَا۠ مِنَ ٱلْمُتَكَلِّفِينَ"
 text_search: "قل ما أسألكم عليه من أجر وما أنا من المتكلفين"
+translations:
+  en: { text: "Say (O Muhammad, unto mankind): I ask of you no fee for this, and I am no simulating.", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "اے پیغمبر کہہ دو کہ میں تم سے اس کا صلہ نہیں مانگتا اور نہ میں بناوٹ کرنے والوں میں ہوں", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-38 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

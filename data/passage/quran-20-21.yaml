@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 20:21 (سورة طه، الآية 21)."
 text: "قَالَ خُذْهَا وَلَا تَخَفْ ۖ سَنُعِيدُهَا سِيرَتَهَا ٱلْأُولَىٰ"
 text_search: "قال خذها ولا تخف ۖ سنعيدها سيرتها الأولى"
+translations:
+  en: { text: "He said: Grasp it and fear not. We shall return it to its former state.", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "خدا نے فرمایا کہ اسے پکڑ لو اور ڈرنا مت۔ ہم اس کو ابھی اس کی پہلی حالت پر لوٹا دیں گے", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-20 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

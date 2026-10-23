@@ -1,0 +1,17 @@
+id: person/sulayman
+class: person
+label: { ar: "سليمان", en: "Sulayman (Solomon)" }
+gender: male
+summary:
+  ar: "سليمان بن داود. عند البخاري قال «لأطوفن الليلة على مائة امرأة تلد كل امرأة غلاماً يقاتل في سبيل الله» فقال له الملك قل إن شاء الله فلم يقل، وقال النبي «لو قال إن شاء الله لم يخلف وكان أرجى لحاجته» {cite:sahih-al-bukhari 5242}."
+  en: "Son of Dawud who swore to father a hundred fighting sons and forgot 'God willing' — a lesson the Prophet repeated {cite:sahih-al-bukhari 5242}."
+wings: [people]
+themes: [prophets]
+periods: [period/pre-islamic-arabia]
+story_roles:
+  - { role: prophet-figure, status: scriptural, sources: [source/tanzil-quran, source/sahih-al-bukhari] }
+relations:
+  - { type: child_of, target: person/dawud, sources: [source/sahih-al-bukhari] }
+provenance: { layer: own-research, source: "صحيح البخاري (طبعة دار ابن كثير، ترقيم فخر الدين)، تصوير Apple Vision OCR", generated_by: "Devin (SWE-2 High) from Apple Vision OCR", run: "hadith-bukhari-anbiya" }
+sources: [source/sahih-al-bukhari]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High) from Apple Vision OCR" }

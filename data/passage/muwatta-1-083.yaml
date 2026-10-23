@@ -1,0 +1,15 @@
+id: passage/muwatta-1-083
+class: passage
+unit: hadith
+work: work/muwatta-malik
+ref: "1.83"
+label: { ar: "الموطأ 83 — مالك: لا يمسح على الخفين إلا من لبسهما على طهر", en: "Muwatta 83" }
+summary:
+  ar: "فتوى لمالك يرويها يحيى في باب ما جاء في المسح على الخفين: سُئل عن رجل توضأ ثم لبس خفيه ثم بال ثم نزعهما ثم ردهما، أيستأنف الوضوء؟ فقال: لينزع خفيه ثم ليتوضأ وليغسل رجليه؛ وإنما يمسح على الخفين من أدخل رجليه فيهما وهما طاهرتان بطهر الوضوء، فأما من لبسهما على غير طهر فلا يمسح عليهما. ويذكر المحقق أن معنى هذه الفتوى مروي عن عدد من التابعين عند ابن أبي شيبة وعبد الرزاق والبيهقي. {cite:muwatta-maruf-1997 p.78}"
+relations:
+  - { type: part_of, target: passage/muwatta-kitab-01-salat }
+  - { type: mentions, target: person/malik-ibn-anas, sources: [source/muwatta-maruf-1997] }
+  - { type: basis_for, target: practice/wudu, sources: [source/muwatta-maruf-1997] }
+provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 1, hadith 83 at PDF p. 78; باب ما جاء في المسح على الخفين", generated_by: "Claude Code (claude-haiku-5-5) from Apple Vision OCR of the Noor-Book PDF, checked on the page image where doubtful", run: "muwatta-prose-k1-b04" }
+sources: [source/muwatta-maruf-1997]
+status: { review: draft, completeness: 2, generated_by: "Claude Code (claude-haiku-5-5); own-words account written from PDF p. 78; matn excerpt at most 40 words" }

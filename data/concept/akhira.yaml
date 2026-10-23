@@ -7,8 +7,7 @@ label:
 summary:
   ar: بنود العقيدة الطحاوية في عذاب القبر وسؤال الملكين والبعث والحساب والصراط والميزان وخلق الجنة والنار.
   en: The Tahawi creed's articles on the punishment of the grave, the questioning by two angels, the resurrection, the reckoning, the bridge, the scale and the creation of Paradise and Hell.
-wings:
-- ideas
+wings: [ideas]
 themes:
 - creed
 periods:
@@ -54,15 +53,54 @@ perspectives:
       en: pp. 31 to 35
   sources:
   - source/lumat-al-itiqad
+- tradition: sunni-hanbali
+  id: aqida-wasitiyya
+  stance:
+    ar: الإيمان بفتنة القبر وعذابه ونعيمه والبعث والميزان والحوض والصراط
+    en: Belief in the trial of the grave and its punishment and bliss, the resurrection, the scale, the pool and the bridge
+  summary:
+    ar: 'يفصّل ابن تيمية الإيمان باليوم الآخر: فتنة القبر والسؤال عن الرب والدين والنبي، ثم النعيم أو العذاب إلى القيامة الكبرى، فتعاد الأرواح إلى الأجساد، وتنصب الموازين وتنشر الدواوين، والحوض الذي طوله شهر وعرضه شهر، والصراط المنصوب على متن جهنم.'
+    en: 'Ibn Taymiyya sets out belief in the last day: the trial of the grave and the questions about the Lord, the religion and the prophet, then bliss or punishment until the great resurrection, when spirits are returned to bodies, the scales are set up and the records unrolled, the pool a month long and a month wide, and the bridge set over Hell.'
+  holders:
+  - person/ibn-taymiyya
+  - work/aqida-wasitiyya
+  evidence:
+  - ref: source/aqida-wasitiyya
+    note:
+      ar: ص 18 إلى 20
+      en: pp. 18 to 20
+  sources:
+  - source/aqida-wasitiyya
+- tradition: sunni-ashari
+  id: maqalat-ashari
+  stance:
+    ar: عذاب القبر والبعث والحساب والحوض والصراط، والجنة والنار مخلوقتان
+    en: The punishment of the grave, resurrection, reckoning, the pool and the bridge, and Paradise and Hell are created
+  summary:
+    ar: يذكر الأشعري أنهم يقرون بعذاب القبر والحوض والصراط والبعث بعد الموت والمحاسبة والوقوف بين يدي الله، وبسؤال منكر ونكير، ويقرون بأن الجنة والنار مخلوقتان.
+    en: Al-Ash'ari reports they affirm the punishment of the grave, the pool, the bridge, the resurrection after death, the reckoning and standing before God, and the questioning by Munkar and Nakir, and they affirm that Paradise and Hell are created.
+  holders:
+  - person/al-ashari
+  - work/maqalat-islamiyyin
+  evidence:
+  - ref: source/maqalat-islamiyyin
+    note:
+      ar: ص 345 و347 إلى 349
+      en: pp. 345 and 347 to 349
+  sources:
+  - source/maqalat-islamiyyin
 provenance:
   layer: own-research
   source: العقيدة الطحاوية، طبعة دار ابن حزم 1995 (نص كامل؛ 134 بنداً، الصفحات 7-32)
   generated_by: Claude (maintainer session)
   model: claude-sonnet-5-5
   run: tahawiyya-1
+external_ids: { wikidata: "Q219228" }
 sources:
 - source/aqida-tahawiyya
 - source/lumat-al-itiqad
+- source/aqida-wasitiyya
+- source/maqalat-islamiyyin
 status:
   review: draft
   completeness: 2

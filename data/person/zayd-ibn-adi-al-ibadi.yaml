@@ -1,0 +1,23 @@
+id: person/zayd-ibn-adi-al-ibadi
+class: person
+label: { ar: "زيد بن عدي العبادي", en: "Zayd ibn Adi al-Ibadi" }
+names:
+  - { kind: full, lang: ar, value: "زيد بن عدي العبادي" }
+gender: male
+roles: [courtier]
+summary:
+  ar: "صاحب الوشاية التي دبّرها عند كسرى على النعمان بن المنذر ملك الحيرة، فغضب كسرى على النعمان وطلبه فحبسه حتى مات؛ وكان ذلك أول سلسلة الأحداث التي انتهت بيوم ذي قار، في رواية الرحيق المختوم."
+  en: "The courtier whose intrigue at Khosrow's court turned the king against al-Nu'man ibn al-Mundhir of al-Hira, who was summoned and imprisoned until his death, the first link in the chain that ended at Dhu Qar, in al-Raheeq al-Makhtum's account."
+wings: [people]
+periods: [period/pre-islamic-arabia]
+regions: [levant-iraq]
+relations:
+  - { type: opposed, target: person/al-numan-ibn-al-mundhir, note: "دبّر الوشاية التي أغضبت كسرى عليه.", sources: [source/mubarakpuri-raheeq, source/muhadarat-tarikh-al-umam-al-islamiyya] }
+provenance:
+  layer: own-research
+  source: "الرحيق المختوم ص25–28 و40 نقلاً عن محاضرات تاريخ الأمم الإسلامية للخضري 1/29–34 وتاريخ أرض القرآن 2/80–82 وتفهيم القرآن 6/297–298"
+  generated_by: "Claude Code"
+  model: "claude-fable-5-1"
+  run: "raheeq-prose-batch-2b"
+sources: [source/mubarakpuri-raheeq, source/muhadarat-tarikh-al-umam-al-islamiyya]
+status: { review: draft, completeness: 1, generated_by: "Claude Code (claude-fable-5-1); al-Raheeq al-Makhtum p. 26" }

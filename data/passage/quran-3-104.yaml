@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 3:104 (سورة آل عمران، الآية 104)."
 text: "وَلْتَكُن مِّنكُمْ أُمَّةٌ يَدْعُونَ إِلَى ٱلْخَيْرِ وَيَأْمُرُونَ بِٱلْمَعْرُوفِ وَيَنْهَوْنَ عَنِ ٱلْمُنكَرِ ۚ وَأُو۟لَـٰٓئِكَ هُمُ ٱلْمُفْلِحُونَ"
 text_search: "ولتكن منكم أمة يدعون إلى الخير ويأمرون بالمعروف وينهون عن المنكر ۚ وأولئك هم المفلحون"
+translations:
+  en: { text: "And there may spring from you a nation who invite to goodness, and enjoin right conduct and forbid indecency. Such are they who are successful.", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "اور تم میں ایک جماعت ایسی ہونی چاہیئے جو لوگوں کو نیکی کی طرف بلائے اور اچھے کام کرنے کا حکم دے اور برے کاموں سے منع کرے یہی لوگ ہیں جو نجات پانے والے ہیں", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-3 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

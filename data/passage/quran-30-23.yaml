@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 30:23 (سورة الروم، الآية 23)."
 text: "وَمِنْ ءَايَـٰتِهِۦ مَنَامُكُم بِٱلَّيْلِ وَٱلنَّهَارِ وَٱبْتِغَآؤُكُم مِّن فَضْلِهِۦٓ ۚ إِنَّ فِى ذَٰلِكَ لَـَٔايَـٰتٍ لِّقَوْمٍ يَسْمَعُونَ"
 text_search: "ومن آياته منامكم بالليل والنهار وابتغاؤكم من فضله ۚ إن في ذلك لآيات لقوم يسمعون"
+translations:
+  en: { text: "And of His signs is your slumber by night and by day, and your seeking of His bounty. Lo! herein indeed are portents for folk who heed.", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "اور اسی کے نشانات (اور تصرفات) میں سے ہے تمہارا رات اور دن میں سونا اور اُس کے فضل کا تلاش کرنا۔ جو لوگ سنتے ہیں اُن کے لیے ان باتوں میں (بہت سی) نشانیاں ہیں", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-30 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

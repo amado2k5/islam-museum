@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 33:33 (سورة الأحزاب، الآية 33)."
 text: "وَقَرْنَ فِى بُيُوتِكُنَّ وَلَا تَبَرَّجْنَ تَبَرُّجَ ٱلْجَـٰهِلِيَّةِ ٱلْأُولَىٰ ۖ وَأَقِمْنَ ٱلصَّلَوٰةَ وَءَاتِينَ ٱلزَّكَوٰةَ وَأَطِعْنَ ٱللَّهَ وَرَسُولَهُۥٓ ۚ إِنَّمَا يُرِيدُ ٱللَّهُ لِيُذْهِبَ عَنكُمُ ٱلرِّجْسَ أَهْلَ ٱلْبَيْتِ وَيُطَهِّرَكُمْ تَطْهِيرًا"
 text_search: "وقرن في بيوتكن ولا تبرجن تبرج الجاهلية الأولى ۖ وأقمن الصلاة وآتين الزكاة وأطعن الله ورسوله ۚ إنما يريد الله ليذهب عنكم الرجس أهل البيت ويطهركم تطهيرا"
+translations:
+  en: { text: "And stay in your houses. Bedizen not yourselves with the bedizenment of the Time of Ignorance. Be regular in prayer, and pay the poor-due, and obey Allah and His messenger. Allah's wish is but to remove uncleanness far from you, O Folk of the Household, and cleanse you with a thorough cleansing.", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "اور اپنے گھروں میں ٹھہری رہو اور جس طرح (پہلے) جاہلیت (کے دنوں) میں اظہار تجمل کرتی تھیں اس طرح زینت نہ دکھاؤ۔ اور نماز پڑھتی رہو اور زکوٰة دیتی رہو اور خدا اور اس کے رسول کی فرمانبرداری کرتی رہو۔ اے (پیغمبر کے) اہل بیت خدا چاہتا ہے کہ تم سے ناپاکی (کا میل کچیل) دور کردے اور تمہیں بالکل پاک صاف کردے", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-33 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

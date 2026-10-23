@@ -1,0 +1,76 @@
+id: exhibit/path-maghreb-dynasts
+class: exhibit
+kind: trail
+label:
+  ar: دول المغرب
+  en: States of the Maghreb
+summary:
+  ar: 'مسار في دول المغرب العربي: الأغالبة في القيروان، والزيريون، والموحدون الكبرى، والحفصيون في تونس.'
+  en: A trail through the Maghreb states.
+audience:
+- newcomer
+- student
+duration_minutes: 30
+wings: []
+regions:
+- maghreb
+rooms:
+- title:
+    ar: القيروان
+    en: Kairouan
+  body:
+    ar: 'أول مصر بالمغرب: عقبة بن نافع يؤسس 670.'
+    en: 'أول مصر بالمغرب: عقبة بن نافع يؤسس 670.'
+  features:
+  - place/qayrawan
+  - place/tunis
+- title:
+    ar: الزيريون
+    en: The Zirids
+  body:
+    ar: 'سانحاجة يحكمون إفريقية: المنصورية.'
+    en: 'سانحاجة يحكمون إفريقية: المنصورية.'
+  features:
+  - polity/zirid-dynasty
+  - place/qayrawan
+- title:
+    ar: الموحدون
+    en: The Almohads
+  body:
+    ar: 'من تينمل إلى إشبيلية: أعظم دولة مغربية.'
+    en: 'من تينمل إلى إشبيلية: أعظم دولة مغربية.'
+  features:
+  - polity/almohad-caliphate
+  - person/abd-al-mumin-ibn-ali
+- title:
+    ar: الحفصيون
+    en: The Hafsids
+  body:
+    ar: 'تونس عاصمة: ثلاثة قرون استقرار.'
+    en: 'تونس عاصمة: ثلاثة قرون استقرار.'
+  features:
+  - polity/hafsid-dynasty
+  - place/tunis
+- title:
+    ar: العلماء
+    en: The scholars
+  body:
+    ar: 'ابن عرفة وابن خلدون: مغرب العلم.'
+    en: 'ابن عرفة وابن خلدون: مغرب العلم.'
+  features:
+  - place/tunis
+  - place/tunis
+prerequisites:
+- exhibit/path-islam-in-30-minutes
+sources:
+- source/wikidata
+provenance:
+  layer: own-research
+  source: Devin-assembled trail from existing museum entities
+  generated_by: Devin (SWE-2 High)
+  model: SWE-2 High
+  run: pathways-batch-7
+status:
+  review: draft
+  completeness: 1
+  generated_by: Devin (SWE-2 High), pathways lane, 2026-10-16

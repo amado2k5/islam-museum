@@ -1,0 +1,27 @@
+id: event/ali-oversight-of-governors
+class: event
+kind: other
+label: { ar: "مراقبة علي لولاته: المفتشون والشكاوى والتأديب", en: "Ali's oversight of his governors: inspectors, complaints and discipline" }
+summary:
+  ar: "كان علي يتابع ولاته بعدة وسائل: يبعث مفتشين يسألون الناس عن الولاة، ويتلقى تقارير سرية، ويفتح الباب لكل شكوى، ويكتب إليهم بالنصيحة والتوجيه. وقد أدّب واليا بالحبس والضرب بالدرة بعد ثبوت التهمة، ويقول إذا بلغته شكوى: «اللهم إني لم آمرهم أن يظلموا خلقك أو يتركوا حقك» {cite:sallabi-ali-vol1 p. 359}."
+  en: "Ali followed his governors through inspectors who questioned people about them, secret reports, an open door for every complaint, and written advice. When a charge against a governor was proven he jailed and whipped him with a rod, and on hearing a complaint he would say, 'O God, I did not order them to wrong Your creation or to leave Your right unpaid' {cite:sallabi-ali-vol1 p. 359}."
+date:
+  start: { edtf: "0656/0661", calendar: julian, precision: year, status: tradition, derived: true, note: "الكتاب لا يؤرخ هذه الممارسة بسنة بعينها؛ الإطار خلافة علي مشتق؛ ثقة منخفضة." }
+wings: [people, ideas]
+themes: [law-and-courts, politics-governance-and-authority]
+periods: [period/rashidun]
+regions: [levant-iraq, arabia]
+relations:
+  - { type: had_participant, target: person/ali-ibn-abi-talib, role: "صاحب المراقبة", sources: [source/sallabi-ali-vol1] }
+  - { type: had_participant, target: person/qays-ibn-sad, role: "وجّه إليه تعليمات الدخول بجند", sources: [source/sallabi-ali-vol1] }
+  - { type: had_participant, target: person/muhammad-ibn-abi-bakr, role: "وصله عهد علي إليه", sources: [source/sallabi-ali-vol1] }
+  - { type: part_of, target: period/rashidun }
+issue: { ar: "كيف يراقب الخليفة ولاته دون أن يعزلهم؟", en: "How does a caliph supervise governors without dismissing them?" }
+provenance:
+  layer: own-research
+  source: "sallabi-ali-vol1 pp. 359-360 (harvest OCR)"
+  generated_by: "Claude Code"
+  model: "claude-haiku-5-5"
+  run: "sallabi-ali-vol1-deep-pp351-388"
+sources: [source/sallabi-ali-vol1]
+status: { review: draft, completeness: 2, generated_by: "Claude Code (claude-haiku-5-5); mined from sallabi-ali-vol1 pp. 359-360" }

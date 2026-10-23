@@ -1,0 +1,23 @@
+id: event/franco-turkish-war-1798
+class: event
+kind: war
+label: { ar: "الحرب الفرنسية العثمانية (١٧٩٨–١٨٠١)", en: "Franco-Turkish War (1798–1801)" }
+summary:
+  ar: "بطاقة أولية لالحرب الفرنسية العثمانية (١٧٩٨–١٨٠١)؛ لم تُراجع مصادره على الصفحة بعد."
+  en: "Draft card for Franco-Turkish War (1798–1801); its sources are not yet checked on the page."
+wings: [time]
+periods: [period/colonial-era]
+regions: [egypt-nile]
+date:
+  start: { edtf: "1798", precision: year, status: tradition, derived: true }
+  end: { edtf: "1801", precision: year, status: tradition, derived: true }
+sources: [source/tarikh-islam-hasan-ibrahim]
+external_ids:
+  wikidata: Q118957424
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; battle attested in narrative histories — entry not yet checked on the page"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-wave2
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

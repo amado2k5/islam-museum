@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 44:22 (سورة الدخان، الآية 22)."
 text: "فَدَعَا رَبَّهُۥٓ أَنَّ هَـٰٓؤُلَآءِ قَوْمٌ مُّجْرِمُونَ"
 text_search: "فدعا ربه أن هؤلاء قوم مجرمون"
+translations:
+  en: { text: "And he cried unto his Lord, (saying): These are guilty folk.", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "تب موسیٰ نے اپنے پروردگار سے دعا کی کہ یہ نافرمان لوگ ہیں", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-44 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

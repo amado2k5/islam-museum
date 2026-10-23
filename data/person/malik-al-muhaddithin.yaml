@@ -1,0 +1,24 @@
+id: person/malik-al-muhaddithin
+class: person
+label: { ar: "ملك المحدثين بكجرات", en: "Malik al-Muhaddithin, hadith master of Gujarat" }
+names:
+  - { kind: full, lang: ar, value: "ملك المحدثين بكجرات" }
+gender: male
+roles: [scholar]
+traditions: [sunni]
+wings: [people]
+themes: [scripture-and-its-sciences]
+periods: [period/gunpowder-empires]
+regions: [south-asia]
+summary:
+  ar: "ملك المحدثين بكجرات؛ قال في النور السافر عن صاحبه: كان له قدم راسخ في علم الحديث وغيره ودرّس وأفتى؛ استشهد يوم الأربعاء سادس شوال وكان عمره ثلاثاً وسبعين سنة، وكان له مذهب المهداوية {cite:shadharat-dhahab p. 414}."
+  en: "Malik al-Muhaddithin of Gujarat — 'firmly rooted in hadith,' teacher and mufti, a follower of the Mahdawi creed; martyred Wednesday 6 Shawwal 986 aged seventy-three {cite:shadharat-dhahab p. 414}."
+born: { edtf: "1507~", hijri: "0913", calendar: julian, precision: year, status: tradition, derived: true, note: "عن ثلاث وسبعين سنة؛ الاشتقاق من سنة الاستشهاد {cite:shadharat-dhahab p. 414}", sources: [source/shadharat-dhahab] }
+died: { edtf: "1578-12-08~", hijri: "0986-10-06", calendar: julian, precision: day, status: tradition, derived: true, note: "استشهد الأربعاء 6 شوال؛ التحويل مشتق {cite:shadharat-dhahab p. 414}", sources: [source/shadharat-dhahab] }
+provenance:
+  layer: own-research
+  source: "شذرات الذهب — ابن العماد (ط مكتبة المثنى 1351، ج8، سنة 986، عن النور السافر)، قراءة آبل فيجن"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-shadharat-batch-148
+sources: [source/shadharat-dhahab]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

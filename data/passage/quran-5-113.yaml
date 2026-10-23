@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 5:113 (سورة المائدة، الآية 113)."
 text: "قَالُوا۟ نُرِيدُ أَن نَّأْكُلَ مِنْهَا وَتَطْمَئِنَّ قُلُوبُنَا وَنَعْلَمَ أَن قَدْ صَدَقْتَنَا وَنَكُونَ عَلَيْهَا مِنَ ٱلشَّـٰهِدِينَ"
 text_search: "قالوا نريد أن نأكل منها وتطمئن قلوبنا ونعلم أن قد صدقتنا ونكون عليها من الشاهدين"
+translations:
+  en: { text: "(They said:) We wish to eat thereof, that we may satisfy our hearts and know that thou hast spoken truth to us, and that thereof we may be witnesses.", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "وہ بولے کہ ہماری یہ خواہش ہے کہ ہم اس میں سے کھائیں اور ہمارے دل تسلی پائیں اور ہم جان لیں کہ تم نے ہم سے سچ کہا ہے اور ہم اس (خوان کے نزول) پر گواہ رہیں", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-5 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

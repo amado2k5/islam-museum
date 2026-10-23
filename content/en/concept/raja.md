@@ -1,0 +1,15 @@
+---
+id: concept/raja
+lang: en
+source_lang: ar
+translators: ["Claude Haiku 5.5 (claude-haiku-5-5), draft translation"]
+---
+## Overview
+The *raj'a* (return) is a belief connected with the belief in the Mahdi, which according to Ahmad Amin in *Duha al-Islam* many of the Imamiyya hold. Its substance is that the Prophet, Ali, al-Hasan, al-Husayn, and the rest of the imams, and their opponents such as Abu Bakr, Umar, Uthman, Mu'awiya, and Yazid, will return to the world after the Mahdi appears. {cite:duha-islam p.876}
+
+## As Ahmad Amin describes it
+Then whoever attacked the imams, usurped their rights, or killed them will be punished; then they will all die, and then be brought back to life on the Day of Resurrection. He relates from al-Sharif al-Murtada that Abu Bakr and Umar will be crucified on a tree in the time of the Mahdi. Ahmad Amin describes it as more deeply strange than the belief in the Mahdi; this is the author's description. {cite:duha-islam p.876}
+
+The earliest to speak of the return in the first age was Abd Allah ibn Saba', for he used to say that Ali would return. {cite:duha-islam p.874}
+
+This is a picture from a single non-Imami source, and it needs a further source from the books of the Imamiyya.

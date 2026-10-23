@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 6:27 (سورة الأنعام، الآية 27)."
 text: "وَلَوْ تَرَىٰٓ إِذْ وُقِفُوا۟ عَلَى ٱلنَّارِ فَقَالُوا۟ يَـٰلَيْتَنَا نُرَدُّ وَلَا نُكَذِّبَ بِـَٔايَـٰتِ رَبِّنَا وَنَكُونَ مِنَ ٱلْمُؤْمِنِينَ"
 text_search: "ولو ترى إذ وقفوا على النار فقالوا يا ليتنا نرد ولا نكذب بآيات ربنا ونكون من المؤمنين"
+translations:
+  en: { text: "If thou couldst see when they are set before the Fire and say: Oh, would that we might return! Then would we not deny the revelations of our Lord but we would be of the believers!", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "کاش تم (ان کو اس وقت) دیکھو جب یہ دوزخ کے کنارے کھڑے کئے جائیں گے اور کہیں گے کہ اے کاش ہم پھر (دنیا میں) لوٹا دیئے جائیں تاکہ اپنے پروردگار کی آیتوں کی تکذیب نہ کریں اور مومن ہوجائیں", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-6 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

@@ -1,0 +1,77 @@
+id: exhibit/path-dawa-delegations
+class: exhibit
+kind: trail
+label:
+  ar: الدعوة والوفود
+  en: Da'wa and Delegations
+summary:
+  ar: 'مسار في نشر الدعوة: الرسل إلى الملوك، والوفود إلى المدينة، والتجار إلى أفريقيا وآسيا — الإسلام
+    ينتقل.'
+  en: A trail through the spread of the call.
+audience:
+- newcomer
+- student
+duration_minutes: 30
+wings: []
+regions:
+- global
+rooms:
+- title:
+    ar: الرسل
+    en: The envoys
+  body:
+    ar: 'رسائل النبي: كسرى وقيصر والنجاشي.'
+    en: 'رسائل النبي: كسرى وقيصر والنجاشي.'
+  features:
+  - person/muhammad
+  - place/abyssinia
+- title:
+    ar: الوفود
+    en: The delegations
+  body:
+    ar: 'عام الوفود: القبائل تأتي.'
+    en: 'عام الوفود: القبائل تأتي.'
+  features:
+  - event/year-of-delegations
+  - place/medina
+- title:
+    ar: المعلمون
+    en: The teachers
+  body:
+    ar: مصعب إلى المدينة وعمرو إلى نجران.
+    en: مصعب إلى المدينة وعمرو إلى نجران.
+  features:
+  - event/mission-of-amr-ibn-hazm-to-najran
+  - event/first-pledge-of-aqaba
+- title:
+    ar: التجار
+    en: The traders
+  body:
+    ar: 'الطرق البحرية: الإسلام بالتجارة.'
+    en: 'الطرق البحرية: الإسلام بالتجارة.'
+  features:
+  - place/malacca
+  - place/zanzibar
+- title:
+    ar: اليوم
+    en: Today
+  body:
+    ar: 'الدعوة الحديثة: وسائل جديدة.'
+    en: 'الدعوة الحديثة: وسائل جديدة.'
+  features:
+  - concept/adab
+  - concept/adab
+prerequisites:
+- exhibit/path-islam-in-30-minutes
+sources:
+- source/wikidata
+provenance:
+  layer: own-research
+  source: Devin-assembled trail from existing museum entities
+  generated_by: Devin (SWE-2 High)
+  model: SWE-2 High
+  run: pathways-batch-7
+status:
+  review: draft
+  completeness: 1
+  generated_by: Devin (SWE-2 High), pathways lane, 2026-10-16

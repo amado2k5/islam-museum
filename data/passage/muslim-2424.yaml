@@ -1,0 +1,20 @@
+id: passage/muslim-2424
+class: passage
+unit: hadith
+work: work/sahih-muslim
+ref: "2424"
+label: { ar: "مسلم 2424 — حديث الكساء وآية التطهير", en: "Muslim 2424 — The cloak report and the purification verse" }
+text: "قالت عائشة: خرج النبي غداة وعليه مرط مرحل من شعر أسود، فجاء الحسن بن علي فأدخله، ثم جاء الحسين فدخل معه، ثم جاءت فاطمة فأدخلها، ثم جاء علي فأدخله، ثم قال: «إنما يريد الله ليذهب عنكم الرجس أهل البيت ويطهركم تطهيرا»"
+summary:
+  ar: "رواية عائشة عند صفية بنت شيبة في باب فضائل أهل بيت النبي؛ أدخل النبي الحسن والحسين وفاطمة وعليا تحت المرط المرحل ثم تلا آية التطهير (الأحزاب 33) — من أظهر النصوص في حد أهل البيت عند أهل السنة."
+relations:
+  - { type: mentions, target: person/aisha, sources: [source/sahih-muslim] }
+  - { type: mentions, target: person/ali-ibn-abi-talib, sources: [source/sahih-muslim] }
+  - { type: mentions, target: person/fatima, sources: [source/sahih-muslim] }
+  - { type: mentions, target: person/hasan-ibn-ali, sources: [source/sahih-muslim] }
+  - { type: mentions, target: person/husayn-ibn-ali, sources: [source/sahih-muslim] }
+  - { type: mentions, target: group/ahl-al-bayt, sources: [source/sahih-muslim] }
+  - { type: mentions, target: person/muhammad, sources: [source/sahih-muslim] }
+provenance: { layer: own-research, source: "صحيح مسلم، كتاب فضائل الصحابة، باب فضائل أهل بيت النبي (طبعة دار إحياء التراث بالترقيم الهامشي، حديث 6414؛ ترقيم عبد الباقي المعروف 2424)، تصوير Apple Vision OCR", generated_by: "Devin (SWE-2 High) from Apple Vision OCR", run: "hadith-muslim-passages-1" }
+sources: [source/sahih-muslim]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High); matn excerpt at most 40 words checked against the scan" }

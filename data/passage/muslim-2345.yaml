@@ -1,0 +1,16 @@
+id: passage/muslim-2345
+class: passage
+unit: hadith
+work: work/sahih-muslim
+ref: "2345"
+label: { ar: "مسلم 2345 — إثبات خاتم النبوة بين كتفيه", en: "Muslim 2345 — The seal of prophethood between his shoulders" }
+text: "قال السائب بن يزيد: ذهبت بي خالتي إلى رسول الله فقالت: يا رسول الله إن ابن أختي وجع، فمسح رأسي ودعا لي بالبركة، ثم توضأ فشربت من وضوئه، ثم قمت خلف ظهره فنظرت إلى الخاتم بين كتفيه مثل زر الحجلة"
+summary:
+  ar: "رواية السائب بن يزيد في باب إثبات خاتم النبوة وصفته ومحله من جسده من كتاب الفضائل في صحيح مسلم؛ مشاهدة الغلام للخاتم بين الكتفين مثل زر الحجلة — متوافقة مع رواية البخاري."
+relations:
+  - { type: mentions, target: person/muhammad, sources: [source/sahih-muslim] }
+  - { type: mentions, target: person/al-saib-ibn-yazid, sources: [source/sahih-muslim] }
+  - { type: mentions, target: concept/khatm-al-nubuwwa, sources: [source/sahih-muslim] }
+provenance: { layer: own-research, source: "صحيح مسلم، كتاب الفضائل، باب إثبات خاتم النبوة (طبعة دار التأصيل، الحديث 6233؛ ترقيم عبد الباقي المعروف 2345)، تصوير Apple Vision OCR", generated_by: "Devin (SWE-2 High) from Apple Vision OCR", run: "hadith-muslim-passages-3" }
+sources: [source/sahih-muslim]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High); matn excerpt checked against the scan" }

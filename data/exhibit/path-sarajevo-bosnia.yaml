@@ -1,0 +1,77 @@
+id: exhibit/path-sarajevo-bosnia
+class: exhibit
+kind: trail
+label:
+  ar: سراييفو والبوسنة
+  en: Sarajevo and Bosnia
+summary:
+  ar: 'مسار في قلب البلقان المسلم: سراييفو مدينة الغازي خسرو بك، وخمسة قرون عثمانية، وبقاء الإسلام في
+    أوروبا.'
+  en: A trail through the Muslim heart of the Balkans.
+audience:
+- newcomer
+- student
+duration_minutes: 30
+wings: []
+regions:
+- anatolia-balkans
+rooms:
+- title:
+    ar: سراييفو
+    en: Sarajevo
+  body:
+    ar: 'مدينة البازار والمساجد: عثمانية التأسيس.'
+    en: 'مدينة البازار والمساجد: عثمانية التأسيس.'
+  features:
+  - place/sarajevo
+  - polity/ottoman-empire
+- title:
+    ar: العهد العثماني
+    en: Ottoman era
+  body:
+    ar: 'خمسة قرون: البوسنة أوروبا الإسلامية.'
+    en: 'خمسة قرون: البوسنة أوروبا الإسلامية.'
+  features:
+  - place/sarajevo
+  - polity/ottoman-empire
+- title:
+    ar: الحرب
+    en: The war
+  body:
+    ar: 'حصار سراييفو 1992-1995: أطول حصار حديث.'
+    en: 'حصار سراييفو 1992-1995: أطول حصار حديث.'
+  features:
+  - place/sarajevo
+  - place/sarajevo
+- title:
+    ar: البلقان
+    en: The Balkans
+  body:
+    ar: 'الإسلام في أوروبا: ألبانيا وكوسوفو والبوسنة.'
+    en: 'الإسلام في أوروبا: ألبانيا وكوسوفو والبوسنة.'
+  features:
+  - place/sarajevo
+  - polity/ottoman-empire
+- title:
+    ar: اليوم
+    en: Today
+  body:
+    ar: 'مسلمو أوروبا: مساجد ومدارس وذاكرة.'
+    en: 'مسلمو أوروبا: مساجد ومدارس وذاكرة.'
+  features:
+  - place/sarajevo
+  - place/sarajevo
+prerequisites:
+- exhibit/path-islam-in-30-minutes
+sources:
+- source/wikidata
+provenance:
+  layer: own-research
+  source: Devin-assembled trail from existing museum entities
+  generated_by: Devin (SWE-2 High)
+  model: SWE-2 High
+  run: pathways-batch-7
+status:
+  review: draft
+  completeness: 1
+  generated_by: Devin (SWE-2 High), pathways lane, 2026-10-16

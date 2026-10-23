@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 89:21 (سورة الفجر، الآية 21)."
 text: "كَلَّآ إِذَا دُكَّتِ ٱلْأَرْضُ دَكًّا دَكًّا"
 text_search: "كلا إذا دكت الأرض دكا دكا"
+translations:
+  en: { text: "Nay, but when the earth is ground to atoms, grinding, grinding,", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "تو جب زمین کی بلندی کوٹ کوٹ کو پست کر دی جائے گی", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-89 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

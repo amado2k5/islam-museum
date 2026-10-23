@@ -1,0 +1,23 @@
+id: event/battle-of-ramla-1105
+class: event
+kind: battle
+label: { ar: "معركة الرملة الثالثة", en: "Third Battle of Ramla" }
+summary:
+  ar: "بطاقة أولية لمعركة الرملة الثالثة سنة ١١٠٥م، آخر الهجمات الفاطمية الكبرى على مملكة بيت المقدس؛ لم تُراجع مصادره على الصفحة بعد."
+  en: "Draft card for the third Battle of Ramla in 1105, the last great Fatimid push against the kingdom of Jerusalem; its sources are not yet checked on the page."
+wings: [time]
+periods: [period/crusades-ayyubid-mamluk]
+regions: [levant-iraq]
+date:
+  start: { edtf: "1105", precision: year, status: tradition, derived: true }
+  end: { edtf: "1105", precision: year, status: tradition, derived: true }
+sources: [source/kamil-ibn-al-athir]
+external_ids:
+  wikidata: Q13553993
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; battle attested in Crusades histories — entry not yet checked on the page"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-wave2
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

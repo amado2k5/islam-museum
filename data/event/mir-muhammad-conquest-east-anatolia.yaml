@@ -1,0 +1,23 @@
+id: event/mir-muhammad-conquest-east-anatolia
+class: event
+kind: conquest
+label: { ar: "فتح مير محمد لشرق الأناضول", en: "Mir Muhammad’s conquest of East Anatolia" }
+summary:
+  ar: "بطاقة أولية لفتح مير محمد لشرق الأناضول؛ لم تُراجع مصادره على الصفحة بعد."
+  en: "Draft card for Mir Muhammad’s conquest of East Anatolia; its sources are not yet checked on the page."
+wings: [time]
+periods: [period/gunpowder-empires]
+regions: [anatolia-balkans]
+date:
+  start: { edtf: "1500", precision: year, status: tradition, derived: true }
+  end: { edtf: "1550", precision: year, status: tradition, derived: true }
+sources: [source/tarikh-islam-hasan-ibrahim]
+external_ids:
+  wikidata: Q134787188
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; event attested in narrative histories — entry not yet checked on the page"
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: wikidata-import-wave2
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 Medium)" }

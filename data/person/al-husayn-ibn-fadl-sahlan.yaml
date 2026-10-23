@@ -1,0 +1,22 @@
+id: person/al-husayn-ibn-fadl-sahlan
+class: person
+label: { ar: "الحسين بن فضل بن سهلان الوزير", en: "al-Husayn ibn Fadl ibn Sahlan" }
+summary:
+  ar: "الحسين بن فضل بن سهلان أبو علي الرامهرمزي، وزير سلطان الدولة؛ يذكر ابن الجوزي في ترجمته أنه بنى سور الحائر بكربلاء سنة ٤٠٣ — وفي موضع آخر من الكتاب يُنسب البناء إلى أخيه أبي محمد الحسن بن الفضل بن سهلان — قُتل في شعبان سنة ٤١٤ وله ثلاث وخمسون سنة {cite:muntazam-ibn-al-jawzi j.8 p.355}."
+  en: "Al-Husayn ibn al-Fadl ibn Sahlan, Abu Ali al-Ramhurmuzi, vizier of Sultan al-Dawla. Ibn al-Jawzi, in his entry on him, says that he built the wall of al-Ha'ir at Karbala in 403; elsewhere in the book the building is attributed to his brother Abu Muhammad al-Hasan ibn al-Fadl ibn Sahlan. He was killed in Sha'ban 414, aged 53 {cite:muntazam-ibn-al-jawzi j.8 p.355}."
+gender: male
+wings: [people]
+roles: [vizier]
+periods: [period/buyid-seljuk-fatimid-era]
+regions: [levant-iraq]
+died: { edtf: "1023-10~", hijri: "0414-08", calendar: julian, precision: month, status: tradition, derived: true, note: "قتل في شعبان ٤١٤ وله ٥٣ سنة {cite:muntazam-ibn-al-jawzi j.8 p.355}." }
+relations:
+  - { type: allied_with, target: person/sultan-al-dawla, role: "وزيره", sources: [source/muntazam-ibn-al-jawzi] }
+  - { type: participated_in, target: event/karbala-wall-construction-400, sources: [source/muntazam-ibn-al-jawzi] }
+provenance:
+  layer: own-research
+  source: "المنتظم في تاريخ الملوك والأمم — ابن الجوزي (ج8، أحداث سنة ٤١٤)، قراءة آبل فيجن، مسح AAlexandrina-224011"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-muntazam-350-474-batch23
+sources: [source/muntazam-ibn-al-jawzi]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 17:27 (سورة الإسراء، الآية 27)."
 text: "إِنَّ ٱلْمُبَذِّرِينَ كَانُوٓا۟ إِخْوَٰنَ ٱلشَّيَـٰطِينِ ۖ وَكَانَ ٱلشَّيْطَـٰنُ لِرَبِّهِۦ كَفُورًا"
 text_search: "إن المبذرين كانوا إخوان الشياطين ۖ وكان الشيطان لربه كفورا"
+translations:
+  en: { text: "Lo! the squanderers were ever brothers of the devils, and the devil was ever an ingrate to his Lord.", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "کہ فضول خرچی کرنے والے تو شیطان کے بھائی ہیں۔ اور شیطان اپنے پروردگار (کی نعمتوں) کا کفر ان کرنے والا (یعنی ناشکرا) ہے", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-17 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 23:63 (سورة المؤمنون، الآية 63)."
 text: "بَلْ قُلُوبُهُمْ فِى غَمْرَةٍ مِّنْ هَـٰذَا وَلَهُمْ أَعْمَـٰلٌ مِّن دُونِ ذَٰلِكَ هُمْ لَهَا عَـٰمِلُونَ"
 text_search: "بل قلوبهم في غمرة من هذا ولهم أعمال من دون ذلك هم لها عاملون"
+translations:
+  en: { text: "Nay, but their hearts are in ignorance of this (Qur'an), and they have other works, besides, which they are doing;", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "مگر ان کے دل ان (باتوں) کی طرف سے غفلت میں (پڑے ہوئے) ہیں، اور ان کے سوا اور اعمال بھی ہیں جو یہ کرتے رہتے ہیں", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-23 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

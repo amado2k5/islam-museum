@@ -1,0 +1,23 @@
+id: event/battle-of-baghdad-946
+class: event
+kind: battle
+label: { ar: "معركة بغداد (٩٤٦)", en: "Battle of Baghdad (946)" }
+summary:
+  ar: "بطاقة أولية لمعركة بغداد سنة ٩٤٦م، انتصار معز الدولة البويهي على ناصر الدولة الحمداني وتثبيت السيطرة البويهية؛ لم تُراجع مصادره على الصفحة بعد."
+  en: "Draft card for the Battle of Baghdad in 946, Mu'izz al-Dawla's victory over the Hamdanids; its sources are not yet checked on the page."
+wings: [time]
+periods: [period/buyid-seljuk-fatimid-era]
+regions: [levant-iraq]
+date:
+  start: { edtf: "0946-04", precision: year, status: tradition, derived: true }
+  end: { edtf: "0946-08", precision: year, status: tradition, derived: true }
+sources: [source/tarikh-al-tabari]
+external_ids:
+  wikidata: Q4870385
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; battle attested in narrative histories — entry not yet checked on the page"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-wave2
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

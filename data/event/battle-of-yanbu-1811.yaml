@@ -1,0 +1,23 @@
+id: event/battle-of-yanbu-1811
+class: event
+kind: battle
+label: { ar: "معركة ينبع (١٨١١)", en: "Battle of Yanbu" }
+summary:
+  ar: "بطاقة أولية لمعركة ينبع سنة ١٨١١م، استرداد المصريين الميناء من السعوديين؛ لم تُراجع مصادره على الصفحة بعد."
+  en: "Draft card for the Battle of Yanbu in 1811, the Egyptian recovery of the port from the Saudis; its sources are not yet checked on the page."
+wings: [time]
+periods: [period/colonial-era]
+regions: [arabia]
+date:
+  start: { edtf: "1811", precision: year, status: tradition, derived: true }
+  end: { edtf: "1811", precision: year, status: tradition, derived: true }
+sources: [source/tarikh-islam-hasan-ibrahim]
+external_ids:
+  wikidata: Q3656327
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; battle attested in narrative histories — entry not yet checked on the page"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-wave2
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

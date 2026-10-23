@@ -1,0 +1,23 @@
+id: event/battle-of-baghdad-932
+class: event
+kind: battle
+label: { ar: "معركة بغداد (٩٣٢)", en: "Battle of Baghdad (932)" }
+summary:
+  ar: "بطاقة أولية لمعركة بغداد (٩٣٢)؛ لم تُراجع مصادره على الصفحة بعد."
+  en: "Draft card for Battle of Baghdad (932); its sources are not yet checked on the page."
+wings: [time]
+periods: [period/buyid-seljuk-fatimid-era]
+regions: [levant-iraq]
+date:
+  start: { edtf: "932", precision: year, status: tradition, derived: true }
+  end: { edtf: "932", precision: year, status: tradition, derived: true }
+sources: [source/tarikh-islam-hasan-ibrahim]
+external_ids:
+  wikidata: Q126112148
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; event attested in narrative histories — entry not yet checked on the page"
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: wikidata-import-wave2
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 Medium)" }

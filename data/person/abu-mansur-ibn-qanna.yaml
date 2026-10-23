@@ -1,0 +1,21 @@
+id: person/abu-mansur-ibn-qanna
+class: person
+label: { ar: "أبو منصور ابن قنا وزير أبي كليجار", en: "Abu Mansur ibn Qanna" }
+summary:
+  ar: "وزير عماد الدولة أبي كليجار البويهي؛ كان فاضلًا، ومن آثاره أنه أوقف دار كتب على طلاب العلم جمع فيها تسعة عشر ألف مجلد ما فيها إلا أصل منسوب، وفيها أربعة آلاف ورقة بخط بني مقلة {cite:muntazam-ibn-al-jawzi j.8 p.406}."
+  en: "Vizier of Imad al-Dawla Abu Kalijar al-Buwayhi; a man of merit, and among his works he endowed a library for students of learning, which held nineteen thousand volumes, none in it except an original with an established attribution, and in it four thousand leaves in the hand of the Banu Muqla {cite:muntazam-ibn-al-jawzi j.8 p.406}."
+gender: male
+wings: [people]
+roles: [vizier, patron]
+themes: [libraries-paper-and-the-book]
+periods: [period/buyid-seljuk-fatimid-era]
+regions: [persia-central-asia]
+relations:
+  - { type: allied_with, target: person/abu-kalijar, role: "وزيره", sources: [source/muntazam-ibn-al-jawzi] }
+provenance:
+  layer: own-research
+  source: "المنتظم في تاريخ الملوك والأمم — ابن الجوزي (ج8، أحداث سنة ٤٢٣)، قراءة آبل فيجن، مسح AAlexandrina-224011"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-muntazam-350-474-batch23
+sources: [source/muntazam-ibn-al-jawzi]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

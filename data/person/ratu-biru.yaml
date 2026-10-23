@@ -1,0 +1,27 @@
+id: person/ratu-biru
+class: person
+label:
+  ar: "راتو بيرو"
+  en: "Ratu Biru of Patani"
+roles: [royal]
+gender: male
+summary:
+  ar: "بطاقة أولية لراتو بيرو، ملكة فطاني الأولى؛ لم تُراجع ترجمتها على الصفحة بعد."
+  en: "Draft card for Ratu Biru, the first queen of the Patani sultanate; her entry is not yet checked on the page."
+wings: [people]
+regions: [southeast-asia]
+periods: [period/gunpowder-empires]
+born: { edtf: "1560", precision: year, status: tradition, derived: true }
+died: { edtf: "1624", precision: year, status: tradition, derived: true }
+sources: [source/al-aalam]
+external_ids:
+  wikidata: Q7296051
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; entry not yet read on the page in a book source"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-wave2
+status:
+  review: draft
+  completeness: 1

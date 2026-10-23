@@ -1,20 +1,23 @@
 ---
 id: person/safiyya-bint-huyayy
 lang: en
-source_lang: en
-translators: []
+source_lang: ar
+translators: ["Claude Haiku 5.5 (claude-haiku-5-5), draft translation"]
 ---
 
 ## Brief
-Safiyya bint Huyayy was a daughter of the Jewish chief Huyayy ibn Akhtab of Banu Nadir. Taken captive when Khaybar fell in 628, she was freed and married to the Prophet — one of the most striking crossings in the early community.
+Safiyya bint Huyayy was a daughter of Huyayy ibn Akhtab, chief of the Jewish tribe of [[group/banu-nadir|Banu Nadir]]. She was taken captive the day Khaybar fell in 628 CE, was freed, and married the Prophet, one of the most striking crossings in the first community.
 
 ## Life
-Born about 610 CE, Safiyya grew up among [[group/banu-nadir]], the Jewish tribe expelled from Medina to the oasis of [[place/khaybar]] {cite:watt-1956-medina}. When Khaybar fell in [[event/battle-of-khaybar]], her father having already been killed, and her husband executed after the capitulation, she was brought as a captive before [[person/muhammad]] {cite:ibn-ishaq-guillaume}.
+Born around 610 CE, she grew up among Banu Nadir, the Jewish tribe that was expelled from Medina to the oasis of [[place/khaybar|Khaybar]] {cite:watt-1956-medina}. When Khaybar fell in [[event/battle-of-khaybar|the battle of Khaybar]], her father had already been killed, and her husband was executed after the truce. She was brought as a captive to [[person/muhammad|Muhammad]] {cite:ibn-ishaq-guillaume}.
 
-The sources report that the Prophet freed her and married her — her freedom standing as her dowry — and that she embraced Islam. In Medina she became one of the Mothers of the Believers; she died about 670 CE {cite:ibn-sad-tabaqat-bewley}.
+The sources state that the Prophet freed her and married her, her freedom serving as her dowry, and that she embraced Islam. In Medina she became one of the Mothers of the Believers, and she died around 670 CE {cite:ibn-sad-tabaqat-bewley}.
 
 ## Legacy
-Safiyya's life sits at the seam of two communities: Jewish by birth, a captive of the wars, a wife of the Prophet. The tradition itself records her hurt when other wives reminded her of her origins — and the Prophet's answer, naming her father a prophet's descendant and her husband a prophet.
+Safiyya's life stands on the boundary between two communities: Jewish by birth, a captive of war, and a wife of the Prophet. The account itself preserves her pain when her co-wives reminded her of her origins, and the Prophet's answer, which named her father as one of a prophet's line and her husband as a prophet.
 
 ## For young visitors
-Safiyya lost everything in a war — and then began a completely new life. People still tell the story of how she crossed from one world to another.
+Safiyya lost everything in a war, and then began a completely new life. People still tell how she crossed from one world into another.
+
+## In Medina at the Prophet's arrival (*The Sealed Nectar*, p. 181)
+Safiyya relates, on the authority of her father Huyayy ibn Akhtab and her uncle Abu Yasir, that when they went out to the Prophet after he alighted at Quba, they returned listless. Her uncle said to her father: "Did you recognize him? What is in your heart toward him?" He said: "Enmity toward him, by God, for as long as I live" ([[concept/medina-society-at-hijra|the society of Medina at the Hijra]]) {cite:mubarakpuri-raheeq p.181} {cite:ibn-hisham-sira 1/518-519}.

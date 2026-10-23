@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 22:72 (سورة الحج، الآية 72)."
 text: "وَإِذَا تُتْلَىٰ عَلَيْهِمْ ءَايَـٰتُنَا بَيِّنَـٰتٍ تَعْرِفُ فِى وُجُوهِ ٱلَّذِينَ كَفَرُوا۟ ٱلْمُنكَرَ ۖ يَكَادُونَ يَسْطُونَ بِٱلَّذِينَ يَتْلُونَ عَلَيْهِمْ ءَايَـٰتِنَا ۗ قُلْ أَفَأُنَبِّئُكُم بِشَرٍّ مِّن ذَٰلِكُمُ ۗ ٱلنَّارُ وَعَدَهَا ٱللَّهُ ٱلَّذِينَ كَفَرُوا۟ ۖ وَبِئْسَ ٱلْمَصِيرُ"
 text_search: "وإذا تتلى عليهم آياتنا بينات تعرف في وجوه الذين كفروا المنكر ۖ يكادون يسطون بالذين يتلون عليهم آياتنا ۗ قل أفأنبئكم بشر من ذلكم ۗ النار وعدها الله الذين كفروا ۖ وبئس المصير"
+translations:
+  en: { text: "And when Our revelations are recited unto them, thou knowest the denial in the faces of those who disbelieve; they all but attack those who recite Our revelations unto them. Say: Shall I proclaim unto you worse than that? The Fire! Allah hath promised it for those who disbelieve. A hapless journey's end!", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "اور جب ان کو ہماری آیتیں پڑھ کر سنائی جاتی تو (ان کی شکل بگڑ جاتی ہے اور) تم ان کے چہروں میں صاف طور پر ناخوشی (کے آثار) دیکھتے ہو۔ قریب ہوتے ہیں کہ جو لوگ ان کو ہماری آیتیں پڑھ کر سناتے ہیں ان پر حملہ کردیں۔ کہہ دو کہ میں تم کو اس سے بھی بری چیز بتاؤں؟ وہ دوزخ کی آگ ہے۔ جس کا خدا نے کافروں سے وعدہ کیا ہے۔ اور وہ برا ٹھکانا ہے", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-22 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

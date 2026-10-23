@@ -1,0 +1,23 @@
+id: event/battle-of-vardanakert-702
+class: event
+kind: battle
+label: { ar: "معركة فارداناكرت", en: "Battle of Vardanakert" }
+summary:
+  ar: "بطاقة أولية لمعركة فارداناكرت سنة ٧٠٢م، نصر الأرمن على الحامية الأموية في أرمينية؛ لم تُراجع مصادره على الصفحة بعد."
+  en: "Draft card for the Battle of Vardanakert in 702, the Armenian victory over the Umayyad garrison; its sources are not yet checked on the page."
+wings: [time]
+periods: [period/umayyad]
+regions: [persia-central-asia]
+date:
+  start: { edtf: "702", precision: year, status: tradition, derived: true }
+  end: { edtf: "702", precision: year, status: tradition, derived: true }
+sources: [source/tarikh-al-tabari]
+external_ids:
+  wikidata: Q4087416
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; battle attested in Armenian histories — entry not yet checked on the page"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-wave2
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

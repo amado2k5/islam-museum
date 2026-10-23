@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 40:33 (سورة غافر، الآية 33)."
 text: "يَوْمَ تُوَلُّونَ مُدْبِرِينَ مَا لَكُم مِّنَ ٱللَّهِ مِنْ عَاصِمٍ ۗ وَمَن يُضْلِلِ ٱللَّهُ فَمَا لَهُۥ مِنْ هَادٍ"
 text_search: "يوم تولون مدبرين ما لكم من الله من عاصم ۗ ومن يضلل الله فما له من هاد"
+translations:
+  en: { text: "A day when ye will turn to flee, having no preserver from Allah: and he whom Allah sendeth astray, for him there is no guide.", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "جس دن تم پیٹھ پھیر کر (قیامت کے دن سے) بھاگو گے (اس دن) تم کو کوئی (عذاب) خدا سے بچانے والا نہ ہوگا۔ اور جس شخص کو خدا گمراہ کرے اس کو کوئی ہدایت دینے والا نہیں", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-40 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

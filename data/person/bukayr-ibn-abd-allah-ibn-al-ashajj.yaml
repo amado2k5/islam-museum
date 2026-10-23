@@ -1,0 +1,18 @@
+id: person/bukayr-ibn-abd-allah-ibn-al-ashajj
+class: person
+label: { ar: "بكير بن عبد الله بن الأشج" }
+names:
+  - { kind: full, lang: ar, value: "بكير بن عبد الله بن الأشج" }
+gender: male
+roles: [jurist]
+traditions: [sunni]
+summary:
+  ar: "بكير بن عبد الله بن الأشج، ممن انتقل إلى مرثد بن عبد الله اليزني؛ قال ابن وهب: ما ذكر مالك بكيراً إلا قال: كان من العلماء {cite:tabaqat-fuqaha-abbas-1981 p. 42}."
+wings: [people]
+themes: [scripture-and-its-sciences]
+regions: [egypt-nile]
+relations:
+  - { type: student_of, target: person/marthad-ibn-abd-allah-al-yazani, sources: [source/tabaqat-fuqaha-abbas-1981] }
+sources: [source/tabaqat-fuqaha-abbas-1981]
+provenance: { layer: own-research, source: "طبقات الفقهاء (تحقيق إحسان عباس) PDF ص41–43", generated_by: "Claude (Haiku 5.5)", model: "claude-haiku-5-5", run: "lib-tabaqat-fuqaha-batch-3" }
+status: { review: draft, completeness: 1, generated_by: "Claude (Haiku 5.5); batch 3 from PDF pp. 41-43; the teacher edge follows the book's words (انتقل إليه); no dates; a second source is needed" }

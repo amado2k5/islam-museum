@@ -1,0 +1,23 @@
+id: event/battles-for-diyarbakir-1514
+class: event
+kind: campaign
+label: { ar: "معارك ديار بكر (١٥١٤)", en: "Battles for Diyarbakir (1514)" }
+summary:
+  ar: "بطاقة أولية لمعارك ديار بكر من ١٥١٤ إلى ١٥١٥م، أخذ العثمانيين للمنطقة من الصفويين؛ لم تُراجع مصادره على الصفحة بعد."
+  en: "Draft card for the battles for Diyarbakir in 1514–15, the Ottoman taking of the region from the Safavids; its sources are not yet checked on the page."
+wings: [time]
+periods: [period/gunpowder-empires]
+regions: [anatolia-balkans]
+date:
+  start: { edtf: "1514", precision: year, status: tradition, derived: true }
+  end: { edtf: "1515", precision: year, status: tradition, derived: true }
+sources: [source/dawlat-uthmaniyya-salabi]
+external_ids:
+  wikidata: Q85969802
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; battle attested in narrative histories — entry not yet checked on the page"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-wave2
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

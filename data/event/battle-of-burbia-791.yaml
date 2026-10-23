@@ -1,0 +1,23 @@
+id: event/battle-of-burbia-791
+class: event
+kind: battle
+label: { ar: "معركة نهر بوربيا", en: "Battle of the Burbia" }
+summary:
+  ar: "بطاقة أولية لمعركة نهر بوربيا سنة ٧٩١م، نصر جيش الأندلس الأموي على برمودو الأول ملك أستورياس؛ لم تُراجع مصادره على الصفحة بعد."
+  en: "Draft card for the Battle of the Burbia in 791, the Umayyad Andalusian army's victory over Bermudo I of Asturias; its sources are not yet checked on the page."
+wings: [time]
+periods: [period/umayyad]
+regions: [andalus-europe]
+date:
+  start: { edtf: "791", precision: year, status: tradition, derived: true }
+  end: { edtf: "791", precision: year, status: tradition, derived: true }
+sources: [source/tarikh-ibn-khaldun-ibar]
+external_ids:
+  wikidata: Q2888222
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; battle attested in Andalusian histories — entry not yet checked on the page"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-wave2
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

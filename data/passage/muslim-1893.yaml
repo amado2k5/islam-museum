@@ -1,0 +1,15 @@
+id: passage/muslim-1893
+class: passage
+unit: hadith
+work: work/sahih-muslim
+ref: "1893"
+label: { ar: "مسلم 1893 — من دل على خير فله مثل أجر فاعله", en: "Muslim 1893 — Whoever points to good earns the doer's reward" }
+text: "قال أبو مسعود الأنصاري: جاء رجل إلى النبي فقال إني أبدع بي فاحملني، قال ما عندي، فقال رجل: يا رسول الله أنا أدله على من يحمله، فقال رسول الله: من دل على خير فله مثل أجر فاعله"
+summary:
+  ar: "رواية أبي مسعود الأنصاري في باب فضل إغاثة الملهوف وفضل الجهاد من كتاب الإمارة في صحيح مسلم؛ قاعدة مشاركة الدال على الخير في أجر فاعله."
+relations:
+  - { type: mentions, target: person/muhammad, sources: [source/sahih-muslim] }
+  - { type: mentions, target: person/abu-masud-al-badri, sources: [source/sahih-muslim] }
+provenance: { layer: own-research, source: "صحيح مسلم، كتاب الإمارة، باب فضل إغاثة الملهوف في الغزو وفيمن دل على خير (طبعة دار التأصيل، الحديث 1944؛ ترقيم عبد الباقي المعروف 1893)، تصوير Apple Vision OCR", generated_by: "Devin (SWE-2 High) from Apple Vision OCR", run: "hadith-muslim-passages-3" }
+sources: [source/sahih-muslim]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High); matn excerpt at most 40 words checked against the scan" }

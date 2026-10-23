@@ -1,0 +1,30 @@
+id: person/muhammad-ibn-musafir
+class: person
+label:
+  ar: محمد بن مسافر الطرمي
+  en: Muhammad ibn Musafir al-Tarumi
+summary:
+  ar: "محمد بن مسافر من كبار الديلم، صاحب قلعة الطرم؛ أصهر في الأكراد إلى بعض رؤسائهم فولد له ابنه رستم، وكان له أولاد كثيرون منهم سلار وصعلوك ووهشودان والمرزبان، ومن بيته قامت دولة بني مسافر باذربيجان."
+  en: "Muhammad ibn Musafir, a Daylamite magnate and master of al-Tarum castle; he married into the Kurdish chiefs who bore him his son Rustam, and among his many sons were Salar, Sa'luk, Wahsudan and al-Marzuban — from his house rose the Musafirid state in Azerbaijan."
+gender: male
+roles: [ruler]
+relations:
+- type: parent_of
+  target: person/marzuban-ibn-muhammad
+  sources:
+  - source/tarikh-ibn-khaldun-ibar
+wings: [people]
+periods: [period/abbasid-fragmentation]
+regions: [persia-central-asia]
+sources:
+- source/tarikh-ibn-khaldun-ibar
+provenance:
+  layer: own-research
+  source: ابن خلدون، العبر — دولة مسافر من الديلم باذربيجان، ص1226 (طبعة هيليوبوليس)
+  generated_by: Devin (SWE-2 High) from Apple Vision OCR
+  model: swe-2-high
+  run: lib-ibar-east-3
+status:
+  review: draft
+  completeness: 1
+  generated_by: Devin (SWE-2 High); extracted from Ibn Khaldun al-Ibar via Apple Vision OCR

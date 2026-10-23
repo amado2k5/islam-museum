@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 23:82 (سورة المؤمنون، الآية 82)."
 text: "قَالُوٓا۟ أَءِذَا مِتْنَا وَكُنَّا تُرَابًا وَعِظَـٰمًا أَءِنَّا لَمَبْعُوثُونَ"
 text_search: "قالوا أإذا متنا وكنا ترابا وعظاما أإنا لمبعوثون"
+translations:
+  en: { text: "They say: When we are dead and have become (mere) dust and bones, shall we then, forsooth, be raised again?", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "کہتے ہیں کہ جب ہم مر جائیں گے اور مٹی ہو جائیں گے اور استخوان (بوسیدہ کے سوا کچھ) نہ رہے گا تو کیا ہم پھر اٹھائے جائیں گے؟", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-23 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

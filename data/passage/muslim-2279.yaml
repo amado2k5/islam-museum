@@ -1,0 +1,15 @@
+id: passage/muslim-2279
+class: passage
+unit: hadith
+work: work/sahih-muslim
+ref: "2279"
+label: { ar: "مسلم 2279 — نبع الماء من بين أصابع النبي", en: "Muslim 2279 — Water flowing from between the Prophet's fingers" }
+text: "أتي رسول الله بوضوء فوضع في ذلك الإناء يده وأمر الناس أن يتوضؤوا منه؛ قال أنس: فرأيت الماء ينبع من تحت أصابعه فتوضأ الناس حتى توضئوا من عند آخرهم"
+summary:
+  ar: "رواية أنس بن مالك في باب معجزات النبي من كتاب الفضائل بصحيح مسلم؛ نبع الماء من بين أصابع النبي حتى توضأ منه القوم — من أشهر نصوص المعجزات المحسوسة في الدواوين."
+relations:
+  - { type: mentions, target: person/muhammad, sources: [source/sahih-muslim] }
+  - { type: mentions, target: person/anas-ibn-malik, sources: [source/sahih-muslim] }
+provenance: { layer: own-research, source: "صحيح مسلم، كتاب الفضائل، باب في معجزات النبي (طبعة دار التأصيل، الحديث 6081؛ ترقيم عبد الباقي المعروف 2279)، تصوير Apple Vision OCR", generated_by: "Devin (SWE-2 High) from Apple Vision OCR", run: "hadith-muslim-passages-2" }
+sources: [source/sahih-muslim]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High); matn excerpt at most 40 words checked against the scan" }

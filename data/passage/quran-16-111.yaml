@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 16:111 (سورة النحل، الآية 111)."
 text: "۞ يَوْمَ تَأْتِى كُلُّ نَفْسٍ تُجَـٰدِلُ عَن نَّفْسِهَا وَتُوَفَّىٰ كُلُّ نَفْسٍ مَّا عَمِلَتْ وَهُمْ لَا يُظْلَمُونَ"
 text_search: "۞ يوم تأتي كل نفس تجادل عن نفسها وتوفى كل نفس ما عملت وهم لا يظلمون"
+translations:
+  en: { text: "On the Day when every soul will come pleading for itself, and every soul will be repaid what it did, and they will not be wronged.", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "جس دن ہر متنفس اپنی طرف سے جھگڑا کرنے آئے گا۔ اور ہر شخص کو اس کے اعمال کا پورا پورا بدلہ دیا جائے گا۔ اور کسی کا نقصان نہیں کیا جائے گا", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-16 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

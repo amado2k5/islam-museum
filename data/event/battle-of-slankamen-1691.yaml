@@ -1,0 +1,23 @@
+id: event/battle-of-slankamen-1691
+class: event
+kind: battle
+label: { ar: "معركة سلنكمان", en: "Battle of Slankamen" }
+summary:
+  ar: "بطاقة أولية لمعركة سلنكمان سنة ١٦٩١م، هزيمة العثمانيين ومقتل الصدر الأعظم فاضل مصطفى باشا في الحرب التركية الكبرى؛ لم تُراجع مصادره على الصفحة بعد."
+  en: "Draft card for the Battle of Slankamen in 1691, the Ottoman defeat and death of Grand Vizier Fazil Mustafa Pasha in the Great Turkish War; its sources are not yet checked on the page."
+wings: [time]
+periods: [period/gunpowder-empires]
+regions: [anatolia-balkans]
+date:
+  start: { edtf: "1691", precision: year, status: tradition, derived: true }
+  end: { edtf: "1691", precision: year, status: tradition, derived: true }
+sources: [source/dawlat-uthmaniyya-salabi]
+external_ids:
+  wikidata: Q690481
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; battle attested in Ottoman histories — entry not yet checked on the page"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-wave2
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

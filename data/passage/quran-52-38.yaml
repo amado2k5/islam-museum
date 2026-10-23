@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 52:38 (سورة الطور، الآية 38)."
 text: "أَمْ لَهُمْ سُلَّمٌ يَسْتَمِعُونَ فِيهِ ۖ فَلْيَأْتِ مُسْتَمِعُهُم بِسُلْطَـٰنٍ مُّبِينٍ"
 text_search: "أم لهم سلم يستمعون فيه ۖ فليأت مستمعهم بسلطان مبين"
+translations:
+  en: { text: "Or have they any stairway (unto heaven) by means of which they overhear (decrees). Then let their listener produce some warrant manifest!", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "یا ان کے پاس کوئی سیڑھی ہے جس پر (چڑھ کر آسمان سے باتیں) سن آتے ہیں۔ تو جو سن آتا ہے وہ صریح سند دکھائے", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-52 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

@@ -1,0 +1,22 @@
+id: event/khartabirt-siege-601
+class: event
+kind: siege
+label: { ar: "حصر صاحب آمد خرتبرت ورجوعه عنها", en: "The lord of Amid besieges Khartabirt and withdraws" }
+date:
+  start: { edtf: "1204~", hijri: "0601", calendar: julian, precision: "year", status: tradition, derived: true }
+summary:
+  ar: "حصر صاحب آمد قلعة خرتبرت ثم رجع عنها بغير ظفر {cite:kamil-ibn-al-athir p. 296}."
+  en: "Najm al-Din Mahmud of Amid besieged the Khartabirt fortress, then withdrew unsuccessful {cite:kamil-ibn-al-athir p. 296}."
+sides:
+  - label: { ar: "صاحب آمد نجم الدين محمود" }
+  - label: { ar: "حامية خرتبرت" }
+relations:
+  - { type: occurred_at, target: place/khartabirt, sources: [source/kamil-ibn-al-athir] }
+  - { type: had_participant, target: person/najm-al-din-mahmud-artuqi, role: "الحاصر", sources: [source/kamil-ibn-al-athir] }
+provenance:
+  layer: own-research
+  source: "الكامل في التاريخ لابن الأثير، قراءة آبل فيجن"
+  generated_by: "Devin (SWE-2 Medium) from Apple Vision OCR"
+  run: lib-kamil-v12-batch05
+sources: [source/kamil-ibn-al-athir]
+status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 Medium)" }

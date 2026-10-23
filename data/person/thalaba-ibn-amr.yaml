@@ -1,0 +1,26 @@
+id: person/thalaba-ibn-amr
+class: person
+label: { ar: "ثعلبة بن عمرو الأزدي", en: "Tha'laba ibn Amr al-Azdi" }
+names:
+  - { kind: full, lang: ar, value: "ثعلبة بن عمرو مزيقياء الأزدي" }
+gender: male
+roles: [tribal-ancestor]
+summary:
+  ar: "الأزدي الذي عطف نحو الحجاز في هجرة الأزد فأقام بين الثعلبية وذي قار، ثم سار إلى المدينة فاستوطنها لما كبر ولده؛ ومن أبنائه الأوس والخزرج ابنا حارثة بن ثعلبة، في رواية الرحيق المختوم."
+  en: "The Azdi who turned toward the Hijaz in the Azd migration, lived between al-Tha'labiyya and Dhu Qar, then settled Medina when his sons grew; the Aws and the Khazraj, sons of Haritha ibn Tha'laba, descend from him in al-Raheeq al-Makhtum's account."
+wings: [people]
+themes: [family-marriage-kinship, refugees-migrants-diaspora]
+periods: [period/pre-islamic-arabia]
+regions: [arabia]
+relations:
+  - { type: child_of, target: person/amr-ibn-amir-muzayqiya, sources: [source/mubarakpuri-raheeq] }
+  - { type: member_of, target: group/al-azd, sources: [source/mubarakpuri-raheeq] }
+  - { type: lived_in, target: place/medina, note: "سار نحو المدينة فأقام بها واستوطنها.", sources: [source/mubarakpuri-raheeq, source/qalb-jazirat-al-arab] }
+provenance:
+  layer: own-research
+  source: "الرحيق المختوم ص17–20 نقلاً عن قلب جزيرة العرب ص230–235 وتفهيم القرآن 1/553–556 وصحيح البخاري 1/474–476"
+  generated_by: "Claude Code"
+  model: "claude-fable-5-1"
+  run: "raheeq-prose-batch-1a"
+sources: [source/mubarakpuri-raheeq, source/qalb-jazirat-al-arab]
+status: { review: draft, completeness: 1, generated_by: "Claude Code (claude-fable-5-1); al-Raheeq al-Makhtum p. 17" }

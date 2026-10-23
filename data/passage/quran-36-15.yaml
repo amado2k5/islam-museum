@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 36:15 (سورة يس، الآية 15)."
 text: "قَالُوا۟ مَآ أَنتُمْ إِلَّا بَشَرٌ مِّثْلُنَا وَمَآ أَنزَلَ ٱلرَّحْمَـٰنُ مِن شَىْءٍ إِنْ أَنتُمْ إِلَّا تَكْذِبُونَ"
 text_search: "قالوا ما أنتم إلا بشر مثلنا وما أنزل الرحمن من شيء إن أنتم إلا تكذبون"
+translations:
+  en: { text: "They said: Ye are but mortals like unto us. The Beneficent hath naught revealed. Ye do but lie!", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "وہ بولے کہ تم (اور کچھ) نہیں مگر ہماری طرح کے آدمی (ہو) اور خدا نے کوئی چیز نازل نہیں کی تم محض جھوٹ بولتے ہو", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-36 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

@@ -1,0 +1,23 @@
+id: event/battle-of-kardzhali-1912
+class: event
+kind: battle
+label: { ar: "معركة كارجلي", en: "Battle of Kardzhali" }
+summary:
+  ar: "بطاقة أولية لمعركة كارجلي سنة ١٩١٢م، نصر بلغاريا على العثمانيين في رودوب خلال حرب البلقان؛ لم تُراجع مصادره على الصفحة بعد."
+  en: "Draft card for the Battle of Kardzhali in 1912, Bulgaria's victory over the Ottomans in the Rhodopes during the Balkan War; its sources are not yet checked on the page."
+wings: [time]
+periods: [period/modern-era]
+regions: [anatolia-balkans]
+date:
+  start: { edtf: "1912", precision: year, status: tradition, derived: true }
+  end: { edtf: "1912", precision: year, status: tradition, derived: true }
+sources: [source/dawlat-uthmaniyya-salabi]
+external_ids:
+  wikidata: Q4871390
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; battle attested in Balkan War histories — entry not yet checked on the page"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-wave2
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

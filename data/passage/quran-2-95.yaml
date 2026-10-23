@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 2:95 (سورة البقرة، الآية 95)."
 text: "وَلَن يَتَمَنَّوْهُ أَبَدًۢا بِمَا قَدَّمَتْ أَيْدِيهِمْ ۗ وَٱللَّهُ عَلِيمٌۢ بِٱلظَّـٰلِمِينَ"
 text_search: "ولن يتمنوه أبدا بما قدمت أيديهم ۗ والله عليم بالظالمين"
+translations:
+  en: { text: "But they will never long for it, because of that which their own hands have sent before them. Allah is aware of evil-doers.", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "لیکن ان اعمال کی وجہ سے، جو ان کے ہاتھ آگے بھیج چکے ہیں، یہ کبھی اس کی آرزو نہیں کریں گے، اور خدا ظالموں سے (خوب) واقف ہے", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-2 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

@@ -1,0 +1,26 @@
+id: person/al-rabi-ibn-sulayman-al-jizi
+class: person
+label: { ar: "الربيع بن سليمان الجيزي", en: "Al-Rabi ibn Sulayman al-Jizi" }
+names:
+  - { kind: full, lang: ar, value: "الربيع بن سليمان بن داود الجيزي، أبو محمد الأزدي مولاهم المصري الأعرج" }
+gender: male
+roles: [jurist, hadith-scholar]
+traditions: [sunni]
+summary:
+  ar: "مصري من أصحاب الشافعي، رجل فقيه صالح؛ روى عن الشافعي وعبد الله بن وهب وإسحاق بن وهب وعبد الله بن يوسف، وروى عنه أبو داود والنسائي وأبو بكر بن أبي داود وأبو جعفر الطحاوي. وهو الذي روى عن الشافعي أن قراءة القرآن بالألحان مكروهة. توفي في ذي الحجة سنة ست وخمسين ومائتين، وقيل سنة سبع وخمسين {cite:tabaqat-shafiiyya-subki j.1 p.259}."
+  en: "An Egyptian companion of al-Shafi'i — 'a jurist and a righteous man' — transmitting from al-Shafi'i, 'Abdallah b. Wahb, Ishaq b. Wahb and 'Abdallah b. Yusuf; Abu Dawud, al-Nasa'i, Ibn Abi Dawud and al-Tahawi transmitted from him. It is he who reports from al-Shafi'i that reciting the Qur'an with melodies is disapproved. He died in Dhu'l-Hijja 256, or 257 {cite:tabaqat-shafiiyya-subki j.1 p.259}."
+died: { hijri: "0256-12", edtf: "0870~", calendar: julian, precision: month, status: debated, derived: true, note: "توفي ذو الحجة 256هـ وقيل 257هـ (السبكي). التحويل مشتق.", sources: [source/tabaqat-shafiiyya-subki] }
+wings: [people]
+themes: [scripture-and-its-sciences]
+regions: [egypt-nile]
+periods: [period/abbasid-early]
+relations:
+  - { type: student_of, target: person/al-shafii, sources: [source/tabaqat-shafiiyya-subki] }
+provenance:
+  layer: own-research
+  source: "طبقات الشافعية الكبرى للسبكي (ج1، ترجمة الربيع الجيزي، ص259)، قراءة آبل فيجن"
+  generated_by: "Devin (SWE-2 Medium) from Apple Vision OCR"
+  model: "SWE-2 Medium"
+  run: lib-subki-tabaqat-ts1
+sources: [source/tabaqat-shafiiyya-subki]
+status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 Medium)" }
