@@ -12,3 +12,5 @@ status: draft
 بازوؤں، ہاتھ کے زائد حصوں، ناخنوں اور کھال کے لٹکے ہوئے حصوں کو دھونے کے احکام، اور سر کے مسح کی ابتدا۔ {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.17392}{cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.17396}
 
 سر کا مسح، اس کی مقدار، مسح کی کیفیت، بال مونڈنے کا اثر، مسح کی تکرار، گندھے ہوئے بال اور پاؤں دھونے کے چار اقوال کا آغاز۔ {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.17396}{cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.17402}
+
+پاؤں دھونے کی بحث اور وضوء کے مختلف فیہ فرائض یعنی نیت، توڑنے کی صورت، موالات، ترتیب اور دلک کے احکام۔ {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.17402}{cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.17406}
