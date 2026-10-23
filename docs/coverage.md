@@ -42,13 +42,13 @@ Average sources per entity: **1.28** · Women share of persons with a recorded g
 | place | 1711 |
 | time | 3973 |
 | today | 6 |
-| words | 167 |
+| words | 166 |
 
 ### By period
 
 | Key | Count |
 |---|---|
-| period/abbasid-early | 1567 |
+| period/abbasid-early | 1566 |
 | period/abbasid-fragmentation | 494 |
 | period/buyid-seljuk-fatimid-era | 1226 |
 | period/colonial-era | 1349 |
@@ -58,7 +58,7 @@ Average sources per entity: **1.28** · Women share of persons with a recorded g
 | period/modern-era | 1144 |
 | period/mongol-post-mongol | 1306 |
 | period/pre-islamic-arabia | 402 |
-| period/prophetic-era | 2251 |
+| period/prophetic-era | 2252 |
 | period/rashidun | 840 |
 | period/umayyad | 1025 |
 
@@ -120,7 +120,7 @@ Average sources per entity: **1.28** · Women share of persons with a recorded g
 | environment-and-climate | 4 |
 | ethics-and-character | 212 |
 | factions-splits-schisms | 26 |
-| family-marriage-kinship | 376 |
+| family-marriage-kinship | 377 |
 | fasting | 4 |
 | food-of-ramadan-and-feasts | 4 |
 | games-and-leisure | 2 |
@@ -146,7 +146,7 @@ Average sources per entity: **1.28** · Women share of persons with a recorded g
 | islam-and-secular-thought | 2 |
 | islam-and-the-modern-state | 6 |
 | islam-and-zoroastrianism | 2 |
-| law-and-courts | 321 |
+| law-and-courts | 320 |
 | laws-of-war-and-peace | 61 |
 | libraries-paper-and-the-book | 11 |
 | linguistics | 77 |
@@ -168,7 +168,7 @@ Average sources per entity: **1.28** · Women share of persons with a recorded g
 | philosophy-and-logic | 34 |
 | pilgrimages-and-mass-gatherings | 17 |
 | polemic-and-apologetic | 10 |
-| politics-governance-and-authority | 42 |
+| politics-governance-and-authority | 43 |
 | prophets | 133 |
 | race-colour-ethnicity | 10 |
 | reconciliation-and-unity | 12 |
@@ -200,7 +200,7 @@ Average sources per entity: **1.28** · Women share of persons with a recorded g
 | water-and-animals | 8 |
 | websites-and-apps | 2 |
 | women | 219 |
-| worship-and-the-pillars | 428 |
+| worship-and-the-pillars | 427 |
 | zakat-and-sadaqa | 21 |
 | zoology | 1 |
 
