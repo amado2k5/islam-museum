@@ -1,7 +1,7 @@
 # Harvest: Sha'rawi's commentary (Khawatir), scan pages 2501-3000
 
 Lane: tafsir-sharawi-2501-3000. Branch: harvest/tafsir-sharawi-2501-3000.
-Source entity: `source/tafsir-sharawi-khawatir-scan` (edition not verified; citations are scan page numbers, not printed pages).
+Source entity: `source/tafsir-sharawi-khawatir-scan-pp-501-1000` (edition not verified; citations are scan page numbers, not printed pages).
 Working notes (claims table) are kept outside git, in the session scratchpad.
 
 ## Progress
@@ -11,7 +11,7 @@ Working notes (claims table) are kept outside git, in the session scratchpad.
 
 ## Batch 1 (scan pages 2501-2522)
 
-- Created: `source/tafsir-sharawi-khawatir-scan`, `work/tafsir-al-shaarawi`, `practice/greeting-salam` (Arabic, English and Urdu prose).
+- Created: `source/tafsir-sharawi-khawatir-scan-pp-501-1000`, `work/tafsir-al-shaarawi`, `practice/greeting-salam` (Arabic, English and Urdu prose).
 - Extended (perspectives and sources added, prose not changed): `concept/qadar` (sunni-sharawi-two-attributes), `concept/ikrah` (sunni-sharawi-no-compulsion).
 - Reused without edit so far: `concept/munafiq`, `concept/nifaq`, `concept/al-sidq-truthfulness`, `person/muhammad-mutawalli-al-shaarawi`, `passage/quran-4-86`, `passage/quran-4-88`, `passage/quran-2-256`.
 
