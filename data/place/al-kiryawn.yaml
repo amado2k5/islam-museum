@@ -12,8 +12,9 @@ relations:
   - { type: site_of, target: event/conquest-of-alexandria, sources: [source/futuh-buldan-maarif-1407] }
 provenance:
   layer: own-research
-  source: "فتوح البلدان (ط مؤسسة المعارف 1407هـ/1987م) ص 309، 312"
-  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
-  run: lib-futuh-buldan-batch-20
-sources: [source/futuh-buldan-maarif-1407]
-status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }
+  source: "فتوح البلدان (ط مؤسسة المعارف 1407هـ/1987م) ص 309، 312؛ المقريزي، الخطط (ط مدبولي 1998) ص 246، 499، 509"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR; Khitat sections by Claude Haiku 5.5 (showcase-prose lane)"
+  model: claude-haiku-5-5
+  run: lib-futuh-buldan-batch-20, showcase-prose-phase2-egypt-batch18
+sources: [source/futuh-buldan-maarif-1407, source/khitat-maqrizi-1998]
+status: { review: published, completeness: 3, generated_by: "Claude Haiku 5.5; the place opposite Kasa, the ten-odd days of fighting with Amr's advance guard, and the houses that the Byzantines held after the Muslims left are read from al-Maqrizi's Khitat (local scan, pp. 246, 499, 509). The Futuh passages (pp. 309, 312) keep their citations" }
