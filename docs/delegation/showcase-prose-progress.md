@@ -306,6 +306,19 @@ Checks: `npm run cite-check` 2 of 2 pass; `npm run validate` 0 errors, 7,295 war
 
 Egypt set now: 41 records at completeness 3 (39 + the two above).
 
+### Batch 14 (Phase 2, Cairo drafts with Khitat passages): one new record
+
+- **New** `building/al-jami-al-jadid-al-nasiri` (completeness 3): the New Mosque outside Misr at Mawrid al-Hulfa, built by al-Nasir Muhammad ibn Qalawun (p. 831); the Nasiri canal's built-up quarter (p. 1037); the four hundred thousand dirhams Fakhr al-Din refused back, spent on it (p. 2099). Kept apart from the Citadel draft `building/al-nasir-muhammad-mosque` (decision D32, now evidenced: the Khitat's Nasiri mosque is outside Misr; the Citadel mosque is named only in a list at p. 1934). No date is given (none in the passages read).
+
+Checked and not written:
+- Sayyida Nafisa mosque (`building/sayyida-nafisa-mosque`): the Khitat mentions the shrine as a landmark and as the beneficiary of an endowment (p. 1620), and gives no mosque account. No prose.
+- al-Malika Safiyya (`building/mosque-of-al-malika-safiyya`): "Suwaiqat Safiyya" (pp. 1604, 2151) is a street name; the mosque is not described.
+- The Citadel Nasiri mosque (`building/al-nasir-muhammad-mosque`): only a list entry (p. 1934). The draft stays at completeness 1.
+
+Checks: `npm run cite-check` on the new record; `npm run validate` 0 errors, 7,295 warnings (unchanged); `npm run graph` and `npm run coverage` regenerated.
+
+Egypt set now: 42 records at completeness 3 (41 + the New Mosque).
+
 ## NEXT STEP:
 
-Phase 2, batch 14: the Cairo drafts whose names still have Khitat hits (the Nasiri Citadel mosque with D32 checked first, the Sayyida Nafisa mosque, and al-Malika Safiyya), with a reuse check first. The Khitat's building passages are close to exhausted for the drafts checked. The al-Nasiriyya madrasa stays skipped until a founder or date is found. Two decisions wait for the founder: D16 (merge `place/iskandariyya` into `place/alexandria`) and D15 (Archnet's terms, read in a visible session, or the founder supplies the posture). Also for the founder: the period-file alignment with D26, the Urdu drafts, the Adil place-name conflict, and D28 (two dates for Aybak's independence, both stated).
+Phase 2, batch 15: the Egypt drafts beyond Cairo (the Fayyum, Upper Egypt and Alexandria drafts), and the Fustat monuments outside the Amr mosque, with a Khitat passage first. The Cairo drafts with Khitat passages are close to exhausted. The al-Nasiriyya madrasa stays skipped until a founder or date is found. Two decisions wait for the founder: D16 (merge `place/iskandariyya` into `place/alexandria`) and D15 (Archnet's terms, read in a visible session, or the founder supplies the posture). Also for the founder: the period-file alignment with D26, the Urdu drafts, the Adil place-name conflict, and D28 (two dates for Aybak's independence, both stated).
