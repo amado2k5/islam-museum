@@ -17,13 +17,13 @@ Before you create an entity of a class, open two existing ones of that class fro
 
 ## 3. Rules reviewers check
 
-_These rules are also the substance of the promotion checklist in `docs/agents/review-and-promotion.md` §2; a record is promoted to `reviewed` only when an independent reviewer has checked it against them._
+_These rules describe a good record. Publication itself needs only the bar in `docs/agents/publication-standard.md` — citations to defined sources, provenance recorded, no review._
 
-5. **Cite where the museum looks.** Every entity has a top-level `sources: [source/...]`. A citation inside `provenance` alone does not count. Dated facts need a second source or a `needs_source` flag. Cite as `{cite:<source-id> p.N}` after every sentence that states a fact.
+5. **Cite where the museum looks.** Every entity has a top-level `sources: [source/...]`. A citation inside `provenance` alone does not count. One source is enough for any fact, dated or not; a second source strengthens a record but is never required. Cite as `{cite:<source-id> p.N}` after every sentence that states a fact.
 6. **Typed relations, never `related_to`.** Use `part_of`/`has_part`, `caused`/`caused_by`, `occurred_at`, `had_participant` (with `role`), `member_of`, `child_of`, `spouse_of`, `sibling_of`, `based_on`, and so on from `schema/predicates.yaml`. `related_to` means you did not decide.
 7. **Complete the entity.** Events: `wings`, `periods`, `regions`, `date` with `calendar` and `status`, `sides` with commanders when it is a fight, `occurred_at` a place. Places: `kind`, `part_of`, coordinates only from `docs/plan/16` §6 or Wikidata (say which). People: `names[]` with nasab, `gender`, `roles`, `traditions`, `faith` with basis.
 8. **Dates must agree.** A Hijri month and an EDTF month must be the same time (Shawwal 3 AH is March 625, not June). Convert with `scripts/hijri/`, mark conversions `derived`, put the book's words in `note`. Use the parent event's date for a part of it. Hijri exactly as the source words it; never invent a day.
-9. **Honest provenance.** `generated_by` is the tool or model that really wrote it; records enter as `status.review: draft` and are promoted only under `docs/agents/review-and-promotion.md`. A page number you did not read on the page is a flagged guess, not a citation.
+9. **Honest provenance.** `generated_by` is the tool or model that really wrote it; records enter as `status.review: published` under `docs/agents/publication-standard.md`. A page number you did not read on the page is a flagged guess, not a citation.
 10. **Reuse before you create.** Search `data/` by Arabic name and by ASCII slug, and read `names[]` of existing people (spellings differ: ابن/بن, أبو/أبي). If an id you need duplicates an existing entity, use the existing id and, only if your spelling is already referenced elsewhere, add yours to the existing entity's `aliases`. Do not create a stub for something that exists. Source entities: `ls data/source | grep <name>` first.
 11. **Link entities in prose**: `[[class/slug|الاسم]]` on the first mention of each person, place, group, event; short sentences; define terms on first use.
 

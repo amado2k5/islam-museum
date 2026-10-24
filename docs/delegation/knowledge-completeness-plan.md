@@ -116,7 +116,7 @@ Collision check performed against `docs/agents/lanes.md` (23 Oct 2026): none of 
 - **Scope.** Sweep the single-source dated-fact cohort — **6,245 entities** — starting with the ~11,700-record `wikidata-*` provenance cohort, adding a genuine second source per dated fact or confirming an explicit `needs_source`/flag.
 - **Order.** Top-5,000 most-linked tier first (its flagged/single-source dated facts), then the rest of the dated cohort by inbound links.
 - **Target.** Average sources per entity on the top-5,000 tier **1.417 → ≥1.6** (corpus-wide 1.285 → reported alongside), measured by coverage regeneration; every dated fact on the swept records two-sourced or explicitly flagged.
-- **Review.** Records believed review-ready (complete prose, two sources on dated facts, links resolved) are promoted under `docs/agents/review-and-promotion.md` (adopted 24 Oct 2026): an independent reviewer agent re-derives the claims and flips `status.review` with an attestation in the record's provenance. The former review-packet system is abolished; audit results live in `docs/delegation/review-audit.md`.
+- **Publication.** Records are published under `docs/agents/publication-standard.md`: citations to defined sources and recorded provenance are the whole bar — no review step, and one source is enough for any fact. (The former review-packet system, and the short-lived promotion protocol that replaced it, were both abolished on 24 Oct 2026.)
 
 ## 3. Targets and execution order
 
@@ -126,9 +126,9 @@ Collision check performed against `docs/agents/lanes.md` (23 Oct 2026): none of 
 | 2 | `practice-fiqh` | `practice` 60 → ≥300 + linked fiqh concepts |
 | 3 | `lib-tafsir-ibn-kathir` | 6 named surahs + Juz 'Amma ≈ 968 ayah records with `commentary_on` coverage |
 | 4 | `modern-century` | ~1,500 modern entities/events at completeness ≥2 with prose |
-| 5 | second-sources sweep | top-5k tier avg sources 1.417 → ≥1.6; promotions under the review protocol |
+| 5 | second-sources sweep | top-5k tier avg sources 1.417 → ≥1.6; records published under the publication standard |
 
-Execution in the order 1 → 5. A phase boundary is an exit check, not a stop (amended 24 Oct 2026): the phase exits when its metrics are recorded in its progress file — its coverage delta achieved, the standing audit (docs/agents/review-and-promotion.md §6) passing at ≥ 98%, and zero unresolved contested flags — and the next phase starts. Phases may overlap when their queues are disjoint; the queue split and the usul-fiqh collision protocol keep them so.
+Execution in the order 1 → 5. A phase boundary is an exit check, not a stop (amended 24 Oct 2026): the phase exits when its metrics are recorded in its progress file — its coverage delta achieved and zero unresolved contested flags — and the next phase starts. Phases may overlap when their queues are disjoint; the queue split and the usul-fiqh collision protocol keep them so.
 
 ## 4. Explicitly not in this programme
 

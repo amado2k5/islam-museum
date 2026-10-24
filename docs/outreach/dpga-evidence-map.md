@@ -24,7 +24,7 @@ _Prepared 17 October 2026 for the application at app.digitalpublicgoods.net. Com
 ## What the application cannot yet say
 
 - A legal entity (incorporation in progress; see `GOVERNANCE.md`). The registry accepts individual-owned projects; the form asks for ownership documents, not a company.
-- A human-reviewed corpus: every record enters as `draft`, and since 24 Oct 2026 promotion to `reviewed`/`verified` is earned under an autonomous protocol (`docs/agents/review-and-promotion.md`): independent reviewer agents re-derive claims against their sources and attest the review in the record's provenance, with a standing audit that demotes failures. No record has yet been promoted. Describe the protocol and the provenance rule rather than claiming verified content.
+- A human-reviewed corpus: the museum does not review its records and does not claim to. Since 24 Oct 2026 records are published under a citation standard (`docs/agents/publication-standard.md`): every record cites defined sources with recorded provenance, one source is enough for any fact, and readers judge from the citations shown. Records written under the earlier rules still carry `draft` status values. Describe the publication standard and the provenance rule; do not claim reviewed or verified content.
 - A third-party accessibility audit; the Lighthouse accessibility budget is self-assessed and not yet run in CI.
 - A citable release with a DOI (planned).
 

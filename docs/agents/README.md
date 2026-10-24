@@ -8,7 +8,8 @@ These documents apply to every agent, whichever vendor, product or model it is, 
 | [`../sources-policy.md`](../sources-policy.md) | Before you use any source: what may be read (everything), how it is rewritten and cited, what stays out of git. |
 | [`workflow.md`](workflow.md) | You are about to set up, edit, commit, push, merge or hand off. |
 | [`content-standards.md`](content-standards.md) | You write or change any entity (data or prose). |
-| [`review-and-promotion.md`](review-and-promotion.md) | You review a record, promote its `status.review`, run the audit, or demote. |
+| [`publication-standard.md`](publication-standard.md) | Always: the publication bar — citations to defined sources plus provenance; no review; one source is enough. |
+| [`source-families.md`](source-families.md) | You enrich records and need sources beyond books: registered families, onboarding order, exploration list, evaluation criteria. |
 | [`mining-sources.md`](mining-sources.md) and [`categories/`](categories/) | You turn a book, a dictionary or a text collection into entities. |
 | [`lanes.md`](lanes.md) and [`lanes/`](lanes/) | You are assigned a lane, or you start a new one; the registry of who works on what. |
 | [`../status.md`](../status.md) | You need the live state of the project and the harvest. |
