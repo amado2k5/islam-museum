@@ -346,6 +346,32 @@ Eleven of the next queue segment already had committed prose (audit fixes only);
 - `person/jalal-al-dawla`, `person/abu-kalijar` — Buyid dynasts with committed prose and real sources already (shadharat/muntazam); own-entry verification belongs to the dynastic-history lane rather than the rijal books; completeness left to that lane.
 - `person/mabad-ibn-kab-ibn-malik`, `person/muhammad-ibn-abd-al-rahman-ibn-nawfal` — already completeness 3 with verified sources; skipped.
 
+## Batch 11 — thin-stub expansion cohort, 13 records (rijal lane, agent pb2-rijal)
+
+Queue recomputed over `data/person/*.yaml` lacking or thin (`<900 B`) `content/ar` prose, ranked by distinct inbound-linking files. The truly missing heads are non-rijal (`muhammad-mutawalli-al-shaarawi`, Ottoman/Persian/modern figures) — deferred; the rijal tier below it was all thin one-section stubs. Each stub's own entry was located by full nasab, then the stub was expanded (existing cited paragraphs kept) and the used source id added with completeness 3.
+
+| record | own entry verified |
+|---|---|
+| person/ata-ibn-yasar | Taqrib ٤٦٠٥ (عطاء بن يسار الهلالي أبو محمد المدني مولى ميمونة), Majmuat scan p.431 |
+| person/abu-salama-ibn-abd-al-rahman | Taqrib ٨١٤٢ (أبو سلمة بن عبد الرحمن بن عوف الزهري), p.707 |
+| person/al-tirmidhi-muhammad-ibn-isa | Taqrib ٦٢٠٦ (محمد بن عيسى بن سورة بن موسى بن الضحاك السلمي الترمذي), p.558 |
+| person/said-ibn-jubayr | Taqrib ٢٢٧٨ (سعيد بن جبير الأسدي مولاهم الكوفي), p.223 |
+| person/sahl-ibn-sad-al-saidi | Isaba ٣٧٠٩ (سهل بن سعد بن مالك بن خالد بن ثعلبة … الساعدي), al-Asriyya pp.624-625 |
+| person/asad-ibn-zurara | Isaba ١٦٣ (أسد بن زرارة؛ تصحيح أسعد), p.46 |
+| person/muawiya-ibn-khudayj | Isaba ٨٣٥٥ (معاوية بن حُديج بن جفنة من تجيب السكوني), p.1429 |
+| person/iyyad-ibn-ghanm | Isaba ٦٩٢٨ (عياض بن غنم الأشعري؛ الفهري/الأشعري لبس داخل الترجمة), p.1166 + p.1000 (Mosul with Utba) |
+| person/utba-ibn-farqad | Isaba ٥٨٧١ (عتبة بن فرقد بن يربوع … السلمي), pp.1000-1001 |
+| person/abd-al-rahman-ibn-abi-bakr | Isaba ٤٦٥٤ (عبد الرحمن بن أبي بكر الصديق بن أبي قحافة), p.783 |
+| person/ubaydallah-ibn-umar | Isaba ٥٨٠٤ (عبيد الله بن عمر بن الخطاب القرشي العدوي), pp.988-989 |
+| person/abdallah-ibn-khazim-al-sulami | Isaba ٥٠٩٠ (عبد الله بن خازم ابن أسماء بن الصلت … أبو صالح الأمير المشهور), p.867 |
+| person/al-rabi-ibn-ziyad-al-harithi | Isaba ٢٦١٥-٢٦١٦ (الربيع بن زياد … العبسي الحارثي، فتح سجستان 29هـ), p.455 |
+
+### Notes
+- `iyyad-ibn-ghanm`: the Isaba entry is titled الأشعري while the record and history works keep الفهري; the entry's own text records Ibn Manda's "الفهري أو الأشعري" — prose cites the entry and flags the نسبة reading instead of resolving it.
+- `iyyad` conquest of Mosul (18 AH, with Utba) is cited from Utba's own Isaba entry ٥٨٧١, p.1000, not from a passing mention in Iyad's entry.
+- `ubaydallah-ibn-umar`'s killing stays flagged (Mas'udi's three reports); `abdallah-ibn-khazim` and `al-rabi-ibn-ziyad` Companionship recorded as "not established" per Ibn Hajar.
+- `qays-ibn-al-haytham`, `ubayd-allah-ibn-ziyad`, `musab-ibn-al-zubayr`, `abd-al-rahman-ibn-habib-al-fihri`, `ayyub-al-sakhtiyani` — queue neighbours without a readable own entry in the extracted Taqrib/Isaba scans (Ayyub's Tahdhib entry sits in vol. 1, not extracted; Mus'ab/Ubaydallah are non-Companion figures needing Tabari/Kamil passes) — deferred.
+
 ### Batch 11 (24 Oct 2026, 13 records: 8 written + 5 audit) — general lane (Devin)
 
 (Renumbered from "Batch 10" after the sibling rijal lane's Batch 10 landed first.)
@@ -376,4 +402,34 @@ Single source this batch: John Freely, *A History of Ottoman Architecture* (WIT 
 ### Methodological notes
 - Each new record carries a curatorial note naming the read source + page range.
 - The "build it on the sea" anecdote (Kılıç Ali Pasha) and Evliya Çelebi's tomb quote are relayed as anecdotes exactly as the source presents them.
+- `person/` untouched.
+
+### Batch 12 (24 Oct 2026, 15 records: 9 written + 6 audit) — general lane (Devin)
+
+Same source as Batch 11: Freely, *A History of Ottoman Architecture* (2011), continuing through the Goodwin-tagged stub list — a re-scan found dedicated sections that the first pass missed (notably Zal Mahmut Pasha).
+
+**New prose (ar+en+ur), completeness 3, `source/freely-ottoman-architecture-2011` added:**
+
+| record | Freely pages |
+|---|---|
+| building/hudavendigar-mosque-bursa | pp.54–56 — Murat I 1365–85, two-storey mosque+medrese, unique plan |
+| building/emir-sultan-mosque-bursa | p.64 — Hundi Hatun foundation, rebuilt Selim III era |
+| building/haci-ozbek-mosque-iznik | p.71 — oldest surviving Ottoman mosque (inscription 1333), never had a minaret |
+| building/yesil-turbe | pp.63–64 — Mehmet I's türbe, Murat II, Hacı Ivaz Pasha |
+| building/mahmud-pasa-mosque-istanbul | pp.138–140 — 1462, earliest veziral mosque, Bursa style, founder's türbe |
+| building/firuz-aga-mosque | pp.214–215 — 1491, treasurer of Beyazit II, simplest preclassical type |
+| building/atik-ali-pasha-mosque | pp.215–218 — 1496, Hadım Ali Pasha, Pierre Gilles description of medrese |
+| building/hadim-ibrahim-pasa-mosque | pp.295–296 — Sinan 1551, Silivri Gate, baroque minaret |
+| building/zal-mahmud-pasha-mosque | pp.305–307 — Sinan ~1575–80, Eyüp, two medreses (un-deferred: dedicated section found) |
+
+**Audit (existing ar+en+ur sibling prose with Freely citations; completeness 2→3, no prose edits):**
+`building/bayezid-ii-mosque`, `building/blue-mosque`, `building/bursa-ulu-cami`, `building/fatih-mosque-istanbul` (also cites salabi), `building/kucuk-ayasofya`, `building/rustem-pasha-mosque`.
+
+### Deferred this batch
+- `building/vasat-atik-ali-pasha-mosque` — only a passing mention in Freely (no own section).
+- `building/kalenderhane-mosque`, `building/eski-imaret-mosque`, `building/fenari-isa-mosque`, `building/gul-mosque-istanbul`, `building/hirami-ahmed-pasha-mosque`, `building/koca-mustafa-pasha-mosque` — still no dedicated Freely section found.
+- `building/muradiye-mosque-baghdad` — no coverage (the Freely Muradiye sections are Edirne p.82 and Bursa p.64, different buildings).
+- Freely covers further buildings (Muradiye Bursa/Edirne, Zincirli Kuyu, Ivaz Efendi, etc.) that have no records yet — creating new records is out of this lane's missing-prose scope.
+
+### Methodological notes
 - `person/` untouched.
