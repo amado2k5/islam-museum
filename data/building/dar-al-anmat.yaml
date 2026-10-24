@@ -14,6 +14,7 @@ provenance:
   layer: own-research
   source: "مسالك الأبصار (ط 1924) ص 234"
   generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
-  run: lib-geo-umari-1
-sources: [source/umari-masalik-1924]
-status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }
+  model: claude-haiku-5-5
+  run: lib-geo-umari-1, showcase-prose-phase2-egypt-batch10
+sources: [source/umari-masalik-1924, source/khitat-maqrizi-1998]
+status: { review: published, completeness: 3, generated_by: "Claude Haiku 5.5; the sale and demolition for Baybars's qaysariyya and the market of the Anmatiyyin are read from al-Maqrizi's Khitat (local scan, pp. 1059, 1541). The Fustat location (al-Umari, p. 234) and the Cairo location (al-Maqrizi) conflict and are both stated in the prose; the relation to place/al-fustat keeps the al-Umari source" }

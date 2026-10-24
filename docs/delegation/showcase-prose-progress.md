@@ -248,6 +248,20 @@ Checks: `npm run cite-check` on the four records 4 of 4 pass; `npm run validate`
 
 Egypt set now: 31 records (27 + 4) and 2 trails at 3.
 
+### Batch 10 (Phase 2, Fayyum towns and a Fustat-area building): done
+
+- **New** `place/al-lahun` (completeness 3): Khitat pp. 531, 720, 723 (the canal to Lahun; the 307 AH entry into the Fayyum). The Yusuf attribution is the Khitat's own tradition and is stated as such.
+- **New** `place/damuna` (completeness 3): Khitat p. 731 (water by flow from the great canal; vines watered by waterwheels). One page only, no date.
+- `building/dar-al-anmat` raised to completeness 3. The Khitat (pp. 1059, 1541) places a house of this name in Cairo, on al-Jawdariyya, bought and demolished by Baybars for his qaysariyya. Al-Umari (p. 234) places it in Fustat. The two conflict and both are stated (decision D30, the D7 rule).
+
+Both new places use `periods: [period/prophetic-era]` because the Khitat's account is Yusuf's canal; the Fatimid entry is dated in the prose.
+
+Skipped: `building/qubbas-of-the-seven-daughters` (no Khitat passage found). The Khitat hits at p. 2077 are about another subject.
+
+Checks: `npm run cite-check` 3 of 3 pass; `npm run validate` 0 errors, 7,295 warnings (unchanged); `npm run graph` and `npm run coverage` regenerated.
+
+Egypt set now: 34 records at completeness 3 (31 + al-lahun + damuna + dar-al-anmat).
+
 ## NEXT STEP:
 
-Phase 2, batch 10: Fayyum towns in the Khitat that need new records, after a reuse check (`place/al-fayyum` links), and the Fustat monuments (the mosque of Ibn Tulun's neighbours and the al-Qarafa tombs) where the Khitat has a building passage. The al-Nasiriyya madrasa stays skipped until a founder or date is found. Two decisions wait for the founder: D16 (merge `place/iskandariyya` into `place/alexandria`) and D15 (Archnet's terms, read in a visible session, or the founder supplies the posture). Also for the founder: the period-file alignment with D26, the Urdu drafts, the Adil place-name conflict, and D28 (two dates for Aybak's independence, both stated).
+Phase 2, batch 11: the remaining Fayyum towns in the Khitat (Hawara, the Awsiyya villages and Bayad, with a reuse check first; Batn al-Rayyan has no Khitat hit), and the al-Qarafa tombs where the Khitat has a building passage. The al-Nasiriyya madrasa stays skipped until a founder or date is found. Two decisions wait for the founder: D16 (merge `place/iskandariyya` into `place/alexandria`) and D15 (Archnet's terms, read in a visible session, or the founder supplies the posture). Also for the founder: the period-file alignment with D26, the Urdu drafts, the Adil place-name conflict, and D28 (two dates for Aybak's independence, both stated).

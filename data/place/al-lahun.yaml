@@ -1,0 +1,20 @@
+id: place/al-lahun
+class: place
+kind: town
+label: { ar: "اللاهون", en: "Lahun" }
+summary:
+  ar: "اللاهون بالفيوم؛ يُروى أن يوسف بناه ليُقسم الماء، ودخل منه عسكر الفاطميين الفيوم سنة 307هـ {cite:khitat-maqrizi-1998 p.720} {cite:khitat-maqrizi-1998 p.531}."
+  en: "Lahun in the Fayyum: it is related that Yusuf built it to share out the water, and in 307 AH the Fatimid forces entered the Fayyum through it {cite:khitat-maqrizi-1998 p.720} {cite:khitat-maqrizi-1998 p.531}."
+wings: [place]
+periods: [period/prophetic-era]
+regions: [egypt-nile]
+relations:
+  - { type: located_in, target: place/al-fayyum, sources: [source/khitat-maqrizi-1998] }
+sources: [source/khitat-maqrizi-1998]
+provenance:
+  layer: own-research
+  source: "al-Maqrizi, al-Mawa'iz wa-l-i'tibar (al-Khitat), Madbouli 1998, scan pp. 531, 720, 723"
+  generated_by: "Claude Haiku 5.5 (claude-haiku-5-5), showcase-prose lane"
+  model: claude-haiku-5-5
+  run: showcase-prose-phase2-egypt-batch10
+status: { review: published, completeness: 3, generated_by: "Claude Haiku 5.5; the canal to Lahun, its building and the 307 AH entry into the Fayyum are read from al-Maqrizi's Khitat (local scan, pp. 531, 720, 723). The Yusuf attribution is the Khitat's own tradition and is stated as such" }
