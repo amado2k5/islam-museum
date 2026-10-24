@@ -3,8 +3,10 @@
 // the children's chrome. Pathways by grade (E2), seasonal packs and the classroom quiz (E3) land here later.
 import BaseLayout from "../../../../layouts/BaseLayout.astro";
 import Qr from "../../../../components/Qr.astro";
-import { ui, LANGS, type Lang } from "../../../../lib/i18n";
+import { ui, fmt, LANGS, type Lang } from "../../../../lib/i18n";
 import { loadLessons, viewLessons } from "../../../../lib/kids";
+import { pathways, pathwayPath, pathwaySubject } from "../../../../lib/pathways";
+import { labelOf } from "../../../../lib/graph";
 import "../../../../styles/edu.css";
 
 export function getStaticPaths() { return LANGS.map((lang) => ({ params: { lang }, props: { lang } })); }
@@ -15,6 +17,10 @@ const t = T.kids;
 const path = `/${lang}/learn/teachers/`;
 const lessons = viewLessons(loadLessons(), lang);
 const lessonTitle = (unit: string): string => t[`${unit}_title`] as string;
+// curriculum pathways grouped by grade (E2); the order is the grade's, then the slug's
+const byGrade = new Map<string, ReturnType<typeof pathways>>();
+for (const n of pathways()) byGrade.set(n.data.curriculum.grade, [...(byGrade.get(n.data.curriculum.grade) ?? []), n]);
+const grades = [...byGrade.keys()].sort((a, b) => Number(a) - Number(b));
 ---
 <BaseLayout lang={lang} title={E.th_title} description={E.th_lede} path={path}>
   <div class="wrap edu" style="padding-block:10px 24px">
@@ -27,6 +33,24 @@ const lessonTitle = (unit: string): string => t[`${unit}_title`] as string;
       <li><a href={`/${lang}/learn/trails/`}><span class="ic" aria-hidden="true">🗺</span><span><h2>{E.th_trails}</h2><p>{E.th_trails_desc}</p></span></a></li>
       <li><a href={`/${lang}/learn/passport/`}><span class="ic" aria-hidden="true">🛂</span><span><h2>{E.th_passport}</h2><p>{E.th_passport_desc}</p></span></a></li>
     </ul>
+
+    {grades.length > 0 && (
+      <section id="pathways" aria-labelledby="pw-hub-h">
+        <h2 id="pw-hub-h">{E.tp_hub_title}</h2>
+        <p style="max-width:var(--measure)">{E.tp_hub_lede}</p>
+        <p class="muted" style="font-size:.9rem">{E.tp_mapped}</p>
+        {grades.map((g) => (
+          <>
+            <h3 style="font-size:1.05rem;margin:1rem 0 .3rem">{fmt(E.tp_grade_fmt, { g })} · {Number(g) <= 8 ? E.tp_elementary : E.tp_secondary}</h3>
+            <ul class="tp-list">
+              {byGrade.get(g)!.map((n) => (
+                <li><a href={pathwayPath(lang, n)}>{labelOf(n, lang)}</a> <span class="muted ui" style="font-size:.88rem"><span dir="ltr">{pathwaySubject(n, lang)}</span> · {fmt(E.tp_duration, { n: String(n.data.duration_minutes) })} · {E[`tp_level_${n.data.level}`] ?? n.data.level}</span></li>
+              ))}
+            </ul>
+          </>
+        ))}
+      </section>
+    )}
 
     <h2>{E.th_lessons}</h2>
     <ul>

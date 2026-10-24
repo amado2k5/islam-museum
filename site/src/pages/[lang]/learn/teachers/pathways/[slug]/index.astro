@@ -1,0 +1,88 @@
+---
+// A teacher's landing page for one curriculum pathway (docs/delegation/education-master-plan.md §5 E2, "Teacher SEO"):
+// the Ontario mapping in the museum's words with the line "mapped by the museum, not endorsed by the Ministry", the
+// goal, the trail itself (walk or print), the worksheet, a QR code and the printable pack linked as rel="alternate".
+// Everything reads without JavaScript; the only script is the trail walker the Pathway component already carries.
+import BaseLayout from "../../../../../../layouts/BaseLayout.astro";
+import Pathway from "../../../../../../components/Pathway.astro";
+import PathwayWorksheet from "../../../../../../components/PathwayWorksheet.astro";
+import Qr from "../../../../../../components/Qr.astro";
+import { href, labelOf, summaryOf, SITE } from "../../../../../../lib/graph";
+import { ui, fmt, LANGS, type Lang } from "../../../../../../lib/i18n";
+import { renderProse } from "../../../../../../lib/markdown";
+import { formatDate } from "../../../../../../lib/dates";
+import { learningResourceLd, pathways, pathwayPath, pathwayPrintPath, pathwaySlug, pathwayTitle } from "../../../../../../lib/pathways";
+import type { Node } from "../../../../../../../../scripts/build-graph";
+import "../../../../../../styles/edu.css";
+
+export function getStaticPaths() {
+  return LANGS.flatMap((lang) => pathways().map((n) => ({ params: { lang, slug: pathwaySlug(n) }, props: { node: n, lang } })));
+}
+const { node: n, lang } = Astro.props as { node: Node; lang: Lang };
+const T = ui(lang);
+const E = T.edu;
+const P = T.pathway;
+const d = n.data;
+const c = d.curriculum;
+const loc = (o: any) => o?.[lang] ?? o?.en ?? o?.ar ?? "";
+const path = pathwayPath(lang, n);
+const printPath = pathwayPrintPath(lang, n);
+const title = pathwayTitle(n, lang);
+const alternates = Object.fromEntries(LANGS.map((l) => [l, pathwayPath(l, n)]));
+const teacherNote = n.prose[lang]?.sections.find((s) => ["للمعلم", "For the teacher", "استاد کے لیے"].includes(s.heading));
+const noteHtml = teacherNote ? renderProse(teacherNote.markdown, lang).html : "";
+const verified = c.verified ? formatDate({ edtf: c.verified, calendar: "gregorian", precision: "day" }, lang).text : "";
+---
+<BaseLayout lang={lang} title={title} description={summaryOf(n, lang)} path={path} jsonld={learningResourceLd(n, lang)} alternates={alternates} ogType="article">
+  <link slot="head" rel="alternate" type="text/html" href={`${SITE}${printPath}`} title={E.tp_print_view} />
+  <div class="wrap edu tp" style="padding-block:10px 24px">
+    <nav class="ui muted no-print" aria-label="breadcrumb"><a href={`/${lang}/learn/`}>{E.title}</a> › <a href={`/${lang}/learn/teachers/`}>{E.teachers_title}</a> › <a href={`/${lang}/learn/teachers/#pathways`}>{E.tp_hub_title}</a></nav>
+    <h1 style="margin-bottom:.3rem">{labelOf(n, lang)}</h1>
+    <p class="ui tp-kicker">{fmt(E.tp_grade_fmt, { g: c.grade })} · {loc(c.course_title)} · {fmt(E.tp_duration, { n: String(d.duration_minutes) })} · {E[`tp_level_${d.level}`] ?? d.level}</p>
+    <p class="tp-mapped" role="note"><b>{E.tp_mapped}</b></p>
+    <p style="font-size:1.1rem;max-width:var(--measure)">{summaryOf(n, lang)}</p>
+
+    <div class="tp-grid">
+      <section class="panel ui" aria-labelledby="cur-h">
+        <h2 id="cur-h" style="font-size:1rem;margin:0 0 10px">{E.tp_curriculum}</h2>
+        <dl class="tp-dl">
+          <dt class="muted">{E.tp_jurisdiction}</dt><dd>{loc(c.course_title)} <span class="chip ltr">{c.course}</span></dd>
+          <dt class="muted">{E.tp_grade}</dt><dd>{c.grade}</dd>
+          <dt class="muted">{E.tp_strand}</dt><dd><span class="ltr">{c.strand}</span> · {loc(c.strand_title)}</dd>
+          {(c.expectations ?? []).length > 0 && <><dt class="muted">{E.tp_expectations}</dt><dd class="ltr">{c.expectations.join(", ")}</dd></>}
+          <dt class="muted">{E.tp_expectation}</dt><dd>{loc(c.expectation)}</dd>
+          <dt class="muted">{E.tp_document}</dt><dd lang="en" dir="ltr">{c.document}</dd>
+          {verified && <><dt class="muted">{E.tp_verified.replace("{date}", "").trim()}</dt><dd>{verified}</dd></>}
+        </dl>
+        <p class="muted" style="margin:10px 0 0;font-size:.85rem">{E.tp_mapped}</p>
+      </section>
+      <section class="panel" aria-labelledby="goal-h">
+        <h2 id="goal-h" class="ui" style="font-size:1rem;margin:0 0 8px">{E.tp_goal}</h2>
+        <p style="margin:0 0 10px">{loc(d.goal)}</p>
+        {noteHtml && <div class="tp-note" set:html={noteHtml} />}
+        <p class="ui no-print" style="margin:12px 0 0;display:flex;flex-wrap:wrap;gap:8px">
+          <a class="chip" style="border:1px solid var(--gold)" href={printPath} rel="alternate">{E.tp_print}</a>
+          <a class="chip" href={href(lang, n.id)}>{P.title}</a>
+        </p>
+      </section>
+    </div>
+
+    <h2 style="margin-top:1.6rem">{E.tp_steps}</h2>
+    <Pathway node={n} lang={lang} />
+
+    <PathwayWorksheet node={n} lang={lang} />
+
+    <p class="muted" style="max-width:var(--measure)">{E.tp_free}</p>
+    <Qr lang={lang} path={path} />
+  </div>
+  <style is:inline>
+    .tp .tp-kicker{margin:0 0 .6rem;color:var(--muted)}
+    .tp .tp-mapped{margin:0 0 .8rem;padding:8px 12px;border-inline-start:4px solid var(--gold);background:var(--panel);border-radius:8px;max-width:var(--measure)}
+    .tp .tp-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:18px;margin:1rem 0}
+    .tp .tp-dl{margin:0;display:grid;grid-template-columns:auto 1fr;gap:6px 14px;font-size:.92rem}
+    .tp .tp-dl dd{margin:0}
+    .tp .ltr{direction:ltr;unicode-bidi:isolate}
+    .tp .tp-note{font-size:.95rem}
+    @media print{.tp .tp-grid{display:block}.tp .panel{margin-bottom:12px}}
+  </style>
+</BaseLayout>
