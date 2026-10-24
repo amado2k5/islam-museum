@@ -361,6 +361,15 @@ Checks: `npm run cite-check` 3 of 3 pass; `npm run validate` 0 errors, 7,295 war
 
 Egypt set now: 50 records at completeness 3 (47 + the three above).
 
+### Batch 18 (Phase 2, the last Alexandria drafts with Khitat passages): two records
+
+- `place/al-kiryawn` raised to completeness 3: pp. 246 (the canal into Alexandria led from Kasa, opposite al-Kiryawn), 499 (about ten days of fighting; Abdallah ibn Amr in the vanguard), 509 (the Byzantines occupy the houses the Muslims had claimed with their spears, and are responsible for their repair). The Futuh passages (pp. 309, 312) keep their citations.
+- `place/al-masalla-iskandariyya` raised to completeness 3: p. 141 (al-Qada'i lists the two obelisks among Alexandria's wonders, on bronze crabs at the corners). The Khitat's other obelisks (p. 679) belong to a city that is not Alexandria, so they are not used.
+
+Checks: `npm run cite-check` 2 of 2 pass; `npm run validate` 0 errors, 7,295 warnings (unchanged); `npm run graph` and `npm run coverage` regenerated.
+
+Egypt set now: 52 records at completeness 3 (50 + the two above).
+
 ## NEXT STEP:
 
-Phase 2, batch 18: the Alexandria drafts with pages still to read (al-Kiryawn at pp. 246, 482, 499, 509; al-Masalla at pp. 141, 679), and a check of the Phase 1 Sicily records still at completeness 2 for the Sicily trail (room 4). The al-Nasiriyya madrasa stays skipped until a founder or date is found. Two decisions wait for the founder: D16 (merge `place/iskandariyya` into `place/alexandria`) and D15 (Archnet's terms, read in a visible session, or the founder supplies the posture). Also for the founder: the period-file alignment with D26, the Urdu drafts, the Adil place-name conflict, and D28 (two dates for Aybak's independence, both stated).
+Phase 1: the Sicily trail's room 4 (its feature `question/what-were-the-crusades`, completeness 1), which the Sicily trail needs before it can reach 3. The Egypt set's Khitat passages are close to exhausted. The al-Nasiriyya madrasa stays skipped until a founder or date is found. Two decisions wait for the founder: D16 (merge `place/iskandariyya` into `place/alexandria`) and D15 (Archnet's terms, read in a visible session, or the founder supplies the posture). Also for the founder: the period-file alignment with D26, the Urdu drafts, the Adil place-name conflict, and D28 (two dates for Aybak's independence, both stated).
