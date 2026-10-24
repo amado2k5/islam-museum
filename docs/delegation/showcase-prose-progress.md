@@ -483,6 +483,15 @@ Checks: `npm run cite-check -- practice/salah` PASS; `npm run validate` 0 errors
 
 Checks: `npm run cite-check -- person/muhammad` PASS; `npm run validate` 0 errors, 7,295 warnings (unchanged).
 
+## Phase 3, batch 11 (concept/islam-din): completeness 3
+
+- Gabriel's hadith is witnessed in the local Ibn Khuzayma scan (p. 1070): the question on Islam, the five-part answer, and the Abu Hurayra narration. The definition is now quoted from that page.
+- Correction: the record said Bukhari counted all of it as religion, and quoted a chapter heading "Gabriel came to teach you your religion". The al-Bugha edition (scan p. 36) shows Bukhari's own sentence "جعل ذلك كله من الإيمان" ("he made all of that part of faith"), and the heading quoted is not in the scan. Both are corrected in ar, en and ur.
+- The Najdi-man hadith is re-cited as the Bedouin's hadith in Ibn Khuzayma (pp. 190, 529, 996). The commentary on Dimam ibn Tha'laba and the Muslim 16 citation are removed (not witnessed).
+- The Sha'rawi paragraph is witnessed in the scan that the source record describes (pp. 593-594) for the face and the surrender of leadership. Note: the source record covers pp. 501-1000 of the file; the scan folder used is sharawi/out/tafsir-shaarawi-486.
+
+Checks: `npm run cite-check -- concept/islam-din` PASS; `npm run validate` 0 errors, 7,295 warnings (unchanged).
+
 ## NEXT STEP:
 
 Phase 3 (the general queue) is next. The Showcase queue (`docs/delegation/showcase-queue.md`) lists 1,240 featured records, of which the Egypt and Sicily sets are a small part. The Egypt drafts with Khitat passages are close to exhausted; the Mamluk and Ayyubid entries outside Egypt need another source family. The al-Nasiriyya madrasa stays skipped until a founder or date is found. Two decisions wait for the founder: D16 (merge `place/iskandariyya` into `place/alexandria`) and D15 (Archnet's terms, read in a visible session, or the founder supplies the posture). Also for the founder: the period-file alignment with D26, the Urdu drafts, the Adil place-name conflict, and D28 (two dates for Aybak's independence, both stated).
