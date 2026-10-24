@@ -3,17 +3,17 @@ class: person
 label: { ar: "شجر الدر سلطانة مصر" }
 names:
   - { value: "شجر الدر أم خليل", kind: full }
-died: { edtf: "1257~", hijri: "0655", calendar: julian, precision: year, status: tradition, derived: true, note: "قُتلت وألقيت تحت قلعة مصر مسلوبة ثم دفنت بتربتها سنة خمس وخمسين وستمائة {cite:shadharat-dhahab p. 276}." }
+died: { edtf: "1257~", hijri: "0655", calendar: julian, precision: year, status: tradition, derived: true, note: "قُتلت وألقيت تحت قلعة مصر مسلوبة ثم دفنت بتربتها سنة خمس وخمسين وستمائة {cite:shadharat-dhahab p. 276}. (Not checked against the local scan in the showcase-prose pass: al-Maqrizi's Khitat gives her part in Aybak's death, not her own.)" }
 summary:
-  ar: "جارية الملك الصالح أيوب أم خليل، أخفت موته سنة سبع وأربعين لما أخذت الفرنج دمياط حتى حضر ولده توران شاه فلما قتله غلمان أبيه أمروها عليهم وحلف لها الأتراك ولنائبها عز الدين أيبك فشرعت في الخلع للأمراء والأعطيات، ثم استقل أيبك بالسلطنة ولقب الملك المعز وخطب لهما وضربت السكة باسمهما، وفي سنة خمس وخمسين قتلته {cite:tarikh-khulafa-minhaj-1434 p. 709-710}. وفي شذرات الذهب: كانت بارعة الحسن ذات ذكاء وعقل، وكانت تعلم بخطها علامة الملك الصالح وخُطب لها على المنابر وملكوها عليهم أياماً، وكانت تركية ذات شهامة وإقدام وجرأة، وآل أمرها إلى أن قُتلت وألقيت تحت قلعة مصر مسلوبة ثم دفنت بتربتها {cite:shadharat-dhahab p. 276}."
-  en: "Al-Malik al-Salih's slave-girl Umm Khalil; she hid his death through the Damietta crisis, and on Turanshah's murder was raised sultana — the Turks swearing to her — before Aybak took the throne beside then without her. In 655 she killed him {cite:tarikh-khulafa-minhaj-1434 p. 709-710}."
-gender: female
+  ar: "زوجة الملك الصالح أيوب وأم ولده خليل. كتمت موته سنة 647هـ حتى حضر توران شاه، ثم بويع لها بالسلطنة بعد قتل توران شاه، وخُطب لها وضُربت السكة باسمها، ثم تزوجها أيبك ونزلت له عن السلطنة، وقتلته في الحمام سنة 655هـ."
+  en: "The wife of al-Malik al-Salih Ayyub and mother of Khalil. She concealed his death in 647 AH until Turanshah came; after Turanshah was killed she was raised to the sultanate, the sermon was given in her name and coins struck with it, and after she married Aybak and ceded the throne to him she killed him in the bath in 655 AH."
 wings: [people]
 periods: [period/mongol-post-mongol]
 provenance:
   layer: own-research
-  source: "تاريخ الخلفاء للسيوطي (ط المنهاج 1434هـ/2013م) ص 704–714"
-  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
-  run: lib-tarikh-khulafa-batch-45, lib-shadharat-batch-129
-sources: [source/tarikh-khulafa-minhaj-1434, source/shadharat-dhahab]
-status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }
+  source: "al-Maqrizi, al-Mawaiz wa-l-i'tibar (al-Khitat), Madbouli 1998, scan pp. 660–661, 1384, 1657, 1912–1916"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR; Claude Haiku 5.5 (claude-haiku-5-5), showcase-prose lane (Khitat sections)"
+  model: "claude-haiku-5-5"
+  run: "lib-tarikh-khulafa-batch-45, lib-shadharat-batch-129, showcase-prose-phase2-egypt-batch2"
+sources: [source/khitat-maqrizi-1998, source/shadharat-dhahab]
+status: { review: published, completeness: 3, generated_by: "Claude Haiku 5.5; the death of al-Salih, the regency, Turanshah's killing, the sultanate, her marriage to Aybak and her killing of him are read from al-Maqrizi's Khitat (local scan, pp. 660–661, 1912–1916); her own death keeps its Shadharat citation and is not re-checked locally" }
