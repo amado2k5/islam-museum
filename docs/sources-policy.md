@@ -20,7 +20,7 @@ Read, understand, then write the museum's own text: the docent voice (`docs/agen
 
 Facts belong to nobody: names, dates, places, numbers, chronology, relations, isnad heads, gradings attributed to the scholar who gave them, bibliographic details. They enter `data/` (CC0) from any source, with the source cited. The licence layers of `docs/plan/15-local-harvest.md` §3 (`cc0`, `by`, `by-sa`, `nc`, `pd`, `copyrighted-reference`, `link-only`, `own-research`) record where a thing came from; they no longer decide whether a fact may enter. The validator accepts any recorded layer and requires only that the entity cites its sources.
 
-Reliability is a separate question and is unchanged: Wikipedia and Wikidata remain pointers, not sources (`AGENTS.md`); every dated fact needs two sources or a flag; every doubt marker the source prints is kept.
+Reliability is a separate question and is unchanged: Wikipedia and Wikidata are sources for entity facts only, under `AGENTS.md` and `docs/delegation/wikipedia-broad-rule-proposal.md`: never for prose, the content of a work, or the validity of a text; every dated fact needs two sources or a flag; every doubt marker the source prints is kept.
 
 ## 4. What stays out of the repository
 

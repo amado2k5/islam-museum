@@ -23,6 +23,11 @@ const path = href(lang, n.id);
 const title = labelOf(n, lang);
 const second = lang === "ar" ? n.label.en : n.label.ar;
 const d = n.data;
+// a work's authors (its `authors` list and any `authored_by` relation), shown beside the title. An author whose faith entry is Shi'i, on a basis of documented or tradition, is marked in red with a text label.
+const SHIA_BASES = ["self-identified", "documented", "tradition"];
+const isShiaAuthor = (p: Node) => (p.data.faith ?? []).some((f: any) => String(f.value).startsWith("shia-") && SHIA_BASES.includes(f.basis));
+const authorIds: string[] = n.class === "work" ? [...new Set([...(d.authors ?? []), ...(d.relations ?? []).filter((r: any) => r.type === "authored_by").map((r: any) => r.target)])] : [];
+const workAuthors = authorIds.map((id) => byId.get(id)).filter(Boolean) as Node[];
 
 // --- prose with fallback chain: requested language -> the other published language -> none
 const proseLang = n.prose[lang] ? lang : n.prose.ar ? "ar" : n.prose.en ? "en" : null;
@@ -126,7 +131,12 @@ const showGraph = n.degree > 0 && !(n.class === "passage" && d.unit === "ayah" &
   <div class="reading-progress" aria-hidden="true"><span></span></div>
   <article id="entity-article" data-depth="standard" data-pagefind-body={n.class !== "passage" || undefined}>
     <PageHeader title={title} crumbs={crumbs} crumbsLabel={T.entity.breadcrumb} wing={wingChips[0]} titleAttrs={{ "data-pagefind-meta": "title" }}>
-      {second && <p class="display" lang={lang === "ar" ? "en" : "ar"} dir={lang === "ar" ? "ltr" : "rtl"} style={`font-size:clamp(1.3rem,3vw,1.9rem);margin:0 0 6px;font-family:${lang === "ar" ? "var(--serif)" : "var(--ar-display)"};color:#e6d5b8`} data-pagefind-ignore>{second}</p>}
+      {workAuthors.length > 0 && (
+        <p class="ui" style="margin:0 0 10px">{T.entity.by} {workAuthors.map((a, k) => (
+          <>{k > 0 && (lang === "en" ? ", " : "، ")}<a class={isShiaAuthor(a) ? "chip author-chip shia" : "chip"} href={href(lang, a.id)}>{labelOf(a, lang)}{isShiaAuthor(a) && <> <span class="sect">{T.entity.shia_label}</span></>}</a></>
+        ))}</p>
+      )}
+      {second &&<p class="display" lang={lang === "ar" ? "en" : "ar"} dir={lang === "ar" ? "ltr" : "rtl"} style={`font-size:clamp(1.3rem,3vw,1.9rem);margin:0 0 6px;font-family:${lang === "ar" ? "var(--serif)" : "var(--ar-display)"};color:#e6d5b8`} data-pagefind-ignore>{second}</p>}
       {dateLine.text && <p class="ui" style="margin:0 0 6px;color:#e6d5b8">{dateLine.text}{dateLine.derived && <span title={T.entity.derived}> †</span>}</p>}
       {dateLine.derived && <p class="ui" style="margin:0 0 6px;font-size:.85rem;color:#c9d3d6">{T.entity.dagger}</p>}
       {places.length > 0 && <p class="ui" style="margin:0 0 10px">{places.map((p, i) => <><a class="chip" href={href(lang, p.id)}>{labelOf(p, lang)}</a>{i < places.length - 1 ? " → " : ""}</>)}</p>}

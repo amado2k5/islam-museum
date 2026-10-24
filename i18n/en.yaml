@@ -149,6 +149,8 @@ hall:
   collections: Museum collections
   index: Full object index
 entity:
+  by: By
+  shia_label: "Shi'i"
   dagger: † Hijri date derived by computation from the Gregorian/Julian date; it may differ from the transmitted date by a day or two.
   stub_desc: '{label}: an entry that is still being written.'
   breadcrumb: Museum
@@ -499,6 +501,7 @@ footer:
   news: Museum news
   contact: Contact
   privacy_policy: Privacy policy
+  authenticity: "How we decide what to show"
   no_tracking: No tracking, no ads
   changelog: Change log
   report: Report an error or suggest a correction
@@ -1218,6 +1221,27 @@ tour:
   portal_explore: Explore the wing now
   joy_label: Joystick — drag to walk
   logo_alt: islam.museum logo
+authenticity:
+  title: "How we decide what to show"
+  lede: "The museum admits only material that is genuine to its title, author, source and claimed identity. This page says how, and what the gate does not do."
+  updated: "These rules are dated 25 October 2026. They are published as the museum's authenticity policy."
+  admit_title: "What we admit"
+  admit_body: "Each book, article, image or artefact is admitted, labelled or refused as a whole. The gate asks whether the item is what its title and author say it is, and whether the copy comes from the edition or institution it names."
+  check_title: "What the gate checks"
+  check_body: "Who wrote the item, and whether the author's school is verified from named sources. Whether the copy is a real, identified edition or a catalogued institutional copy. Where it came from, and whether that place appears on a known spam or phishing list."
+  not_title: "What the gate does not check"
+  not_body: "It does not check whether each statement in a work is true, and it does not change what the work says. Summaries are written with AI and labelled as such. They are not checked line by line."
+  decisions_title: "Three decisions"
+  decisions_body: "Accept: a verified Sunni author and a validated copy. Label: a genuine copy shown with its school, or with 'school not verified'. Reject: a copy that cannot be validated, or that comes from a blocked source."
+  sources_title: "Sources we rely on"
+  sources_body: "Each source is listed in the public register with its tier and status. Wikipedia and Wikidata are pointers, not proof that an item is authentic."
+  corrections_title: "Corrections"
+  corrections_body: "Report a problem through the issue form. Each report and its outcome is recorded."
+  records_title: "What we keep for each book"
+  records_body: "For each harvested book we keep a record: its title, its author and the author's dates, the era it belongs to, the decision and who made it, the checks made and their results, and a SHA-256 fingerprint of each harvested file, so that a copy can later be shown to be unchanged. The record holds no book text. The records are published in the repository."
+  rules_title: "Where the rules live"
+  rules_body: "The rules are in the public repository: the policy, the register, the validator and the harvest gate. Anyone can read them and check them."
+
 privacy:
   title: Privacy and data
   lede: No accounts, no cookies, no tracking, no ads. This page explains what happens when you visit the museum, and what does not.
