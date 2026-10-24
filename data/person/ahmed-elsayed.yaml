@@ -1,0 +1,37 @@
+id: person/ahmed-elsayed
+class: person
+label: { ar: "أحمد بن يوسف السيد", en: "Ahmed Elsayed", ur: "احمد بن یوسف السید" }
+names:
+  - { value: "أحمد بن يوسف بن حامد السيد", kind: full }
+  - { value: "Ahmed ibn Yusuf al-Sayyid", kind: full }
+gender: male
+summary:
+  ar: "داعية وباحث، وُلد في ينبع بالسعودية سنة 1985 ونشأ فيها ثم انتقل إلى المدينة المنورة، المشرف العام على برنامج «البناء المنهجي» و«أكاديمية الجيل الصاعد» وبرنامج «صناعة المحاور»، ورسالته المعلنة في الحياة «إحياء منهاج النبوة»، وله مؤلفات وبرامج مرئية واسعة الانتشار بين الشباب."
+  en: "Preacher and researcher, born in Yanbu, Saudi Arabia, in 1985, raised there and later based in Madinah. He is the general supervisor of the 'al-Bina' al-Manhaji' programme, the 'Rising Generation Academy' and the 'San'at al-Muhawir' programme; his stated life mission is 'reviving the Prophetic method' (ihya' minhaj al-nubuwwa), and his books and video programmes circulate widely among young people."
+  ur: "مبلغ اور محقق، جو 1985 میں سعودی عرب کے شہر ینبع میں پیدا ہوئے، وہیں پلے بڑھے اور بعد میں مدینہ منورہ منتقل ہوئے۔ وہ «البناء المنهجي» پروگرام، «أكاديمية الجيل الصاعد» اور «صناعة المحاور» کے نگرانِ عام ہیں؛ ان کا اعلانیہ مشن «إحياء منهاج النبوة» ہے، اور ان کی کتب و ویڈیو پروگرام نوجوانوں میں وسیع پیمانے پر گردش کرتے ہیں۔"
+roles: [preacher, writer]
+wings: [people, living]
+born:
+  edtf: "1985"
+  calendar: gregorian
+  precision: year
+  status: historical
+  derived: true
+  note: "Year only, from the Arabic article and Wikidata; the article places the birth in Yanbu, Saudi Arabia. No Hijri year is recorded, because the sources give only the Gregorian year."
+  sources: [source/wikipedia-ahmed-elsayed-ar, source/wikidata-ahmed-elsayed]
+relations:
+  - { type: born_in, target: place/yanbu, sources: [source/wikipedia-ahmed-elsayed-ar, source/wikidata-ahmed-elsayed] }
+  - { type: lived_in, target: place/medina, sources: [source/wikipedia-ahmed-elsayed-ar] }
+faith:
+  - value: unknown
+    basis: unknown
+    note: "The Arabic article gives no school for him. It records the Hanbali-text curricula he studied (such as Zad al-Mustaqni') and his teachers in Qassim and elsewhere, which is a record of study, not an attestation of his own school. Wikidata gives only 'Islam'."
+    sources: [source/wikipedia-ahmed-elsayed-ar, source/wikidata-ahmed-elsayed]
+external_ids: { wikidata: "Q123594645" }
+sources: [source/wikipedia-ahmed-elsayed-ar, source/wikidata-ahmed-elsayed]
+provenance:
+  layer: own-research
+  source: "Arabic Wikipedia article «أحمد بن يوسف السيد» (revision of 8 August 2026; no English Wikipedia article exists), Wikidata Q123594645; identity confirmed against his 'reviving the Prophetic method' (ihya' minhaj al-nubuwwa) programme, which the article names as his life mission; checked 24 Oct 2026"
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: modern-figures-batch-4
+status: { review: published, generated_by: "Muse (Muse Spark 1.3)" }
