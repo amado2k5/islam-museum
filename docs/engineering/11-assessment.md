@@ -112,7 +112,9 @@ Wikidata constraint violations (bot-reported, not blocking), MDN CI
   Hijri anchors, scope-ordering rules, language requirements, tension-card
   rules, tour/kids/cards data integrity.
 - Lighthouse CI on the **Arabic** pages is a mature RTL-first testing
-  instinct.
+  instinct; the new education wing adds `check:weight` — per-route
+  HTML/JS byte budgets enforced in the build, fix-by-removing-weight — a
+  discipline most funded sites don't have.
 - Deploy path has dedicated test workflows (`r2-sync-test`, `r2-html-test`,
   `r2-secrets-check`) — testing the plumbing, not just the product.
 

@@ -21,7 +21,8 @@ flowchart LR
 | Layer | Command | What it proves |
 |---|---|---|
 | Schema + rule validation | `npm run validate` | Every YAML/MD conforms; links resolve; licences whitelisted; no honorifics; no typed Qur'an text; Qur'an passages byte-identical to frozen Tanzil; alt text present |
-| Unit tests | `npm test` (vitest, `scripts/*.test.ts`) | hijri converter against known anchors (`hijri/anchors.test.ts`, `dates.test.ts`), git-dates, graph endpoint, pipeline, wings, kids, cards (stories/lists/explainers validators), seo, site-deps, tour |
+| Unit tests | `npm test` (vitest, `scripts/*.test.ts`) | hijri converter against known anchors (`hijri/anchors.test.ts`, `dates.test.ts`), git-dates, graph endpoint, pipeline, wings, kids, cards (stories/lists/explainers validators), seo, site-deps, tour, **edu** (`edu.test.ts`: bands/stamps data, routes, i18n parity) |
+| Build integrity | `npm run build` tail: `check-site` + `check-weight` | site integrity, plus per-route HTML/JS page-weight budgets on education routes (breach fails; fix = remove weight, never raise the budget) |
 | Harvest self-tests | `scripts/harvest/wikidata/test_filter.py` | two-pass dump filter correctness before running on the 96 GiB dump |
 | Static-site audit | `npm run check:static` | No forms/cookies/third-party calls sneaking into the published shell — the privacy posture is executable |
 | Site checks | `tsx scripts/check-site.ts`, `check-static.ts` | Internal integrity of built output |
