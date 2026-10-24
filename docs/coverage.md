@@ -58,7 +58,7 @@ Average sources per entity: **1.28** · Women share of persons with a recorded g
 | period/modern-era | 1144 |
 | period/mongol-post-mongol | 1306 |
 | period/pre-islamic-arabia | 402 |
-| period/prophetic-era | 2277 |
+| period/prophetic-era | 2278 |
 | period/rashidun | 839 |
 | period/umayyad | 1025 |
 
