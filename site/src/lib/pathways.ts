@@ -11,6 +11,8 @@ export const pathways = (): Node[] =>
 export const pathwaySlug = (n: Node): string => n.slug.replace(/^pathway-/, "");
 export const pathwayPath = (lang: Lang, n: Node): string => `/${lang}/learn/teachers/pathways/${pathwaySlug(n)}/`;
 export const pathwayPrintPath = (lang: Lang, n: Node): string => `${pathwayPath(lang, n)}print/`;
+/** The classroom quiz for the same pathway (docs/delegation/education-master-plan.md §5 E3, step 1). */
+export const pathwayQuizPath = (lang: Lang, n: Node): string => `/${lang}/learn/teachers/quiz/${pathwaySlug(n)}/`;
 const loc = (o: any, lang: Lang): string => o?.[lang] ?? o?.en ?? o?.ar ?? "";
 /** "Social Studies" for an elementary pathway (no Ministry code), the course code (CHW3M) for a secondary one. */
 export const pathwaySubject = (n: Node, lang: Lang): string => {
