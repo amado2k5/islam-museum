@@ -1,0 +1,77 @@
+---
+// "Tell it back" (docs/delegation/education-master-plan.md §5 E2): the retrieval-practice box every quest and trail
+// ends with. Two modes. `typed` (Explorers and up): guiding prompts, a textarea kept under `edu-retell:<id>` on the
+// device, a tick box "I told it to a grown-up", a two-step erase; the passport stamps the retelling, never the click
+// (the key is written only when there are two sentences or the tick). `order` (Sprouts): the story's cards, tapped
+// into the order the child likes; every order is celebrated and nothing is stored (the band is stateless by rule).
+// Both read without JavaScript: the prompts print, and the cards list the story in order.
+import { ui, type Lang } from "../lib/i18n";
+interface Props { lang: Lang; id: string; prompts?: string[]; mode?: "typed" | "order"; cards?: { icon?: string; text: string }[]; kids?: boolean }
+const { lang, id, prompts = [], mode = "typed", cards = [], kids = false } = Astro.props;
+const E = ui(lang).edu;
+const list = prompts.length ? prompts : [E.tb_prompt_1, E.tb_prompt_2, E.tb_prompt_3];
+// a fixed, build-stable scramble (no randomness at build time): start from the middle card and step by two
+const scrambled = cards.map((_, i) => cards[(Math.floor(cards.length / 2) + 2 * i) % Math.max(cards.length, 1)]).filter((c, i, a) => a.indexOf(c) === i);
+const order = scrambled.length === cards.length ? scrambled : [...cards].reverse();
+const btn = kids ? "kids-btn" : "pw-btn";
+---
+{mode === "order" ? (
+  <section class="tb tb-order" data-tellback-order aria-labelledby={`tb-${id}-h`} data-i18n-done={E.tb_order_done}>
+    <h2 id={`tb-${id}-h`}>🧩 {E.tb_order_title}</h2>
+    <p class="tb-lede">{E.tb_order_lede}</p>
+    <p class="tb-nojs" data-nojs>{E.tb_order_nojs}</p>
+    <ul class="tb-cards" data-pool aria-label={E.tb_order_title}>
+      {order.map((c) => <li><button type="button" class={`tb-card ${btn}`} data-card aria-pressed="false"><span aria-hidden="true">{c.icon ?? "•"}</span> {c.text}</button></li>)}
+    </ul>
+    <h3 class="tb-mine">{E.tb_order_mine}</h3>
+    <ol class="tb-cards tb-chosen" data-chosen aria-live="polite"></ol>
+    <p class="tb-msg" data-msg role="status"></p>
+    <p class="no-print"><button type="button" class={`${btn} ghost`} data-again hidden>{E.tb_order_again}</button></p>
+  </section>
+) : (
+  <section class="tb" data-tellback={id} aria-labelledby={`tb-${id}-h`} data-i18n-saved={E.tb_saved} data-i18n-erased={E.tb_erased}>
+    <h2 id={`tb-${id}-h`}>🗣️ {E.tb_title}</h2>
+    <p class="tb-lede">{E.tb_lede}</p>
+    <ol class="tb-prompts">{list.map((p) => <li>{p}</li>)}</ol>
+    <p class="tb-nojs no-print" data-nojs>{E.tb_nojs}</p>
+    <div class="tb-write no-print">
+      <label class="sr-only" for={`tb-${id}-text`}>{E.tb_title}</label>
+      <textarea id={`tb-${id}-text`} data-text rows={6} placeholder={E.tb_placeholder}></textarea>
+      <label class="tb-told"><input type="checkbox" data-told /> {E.tb_told}</label>
+      <p class="tb-min ui muted">{E.tb_min}</p>
+      <p class="tb-actions"><span class="tb-status ui muted" data-status role="status"></span> <button type="button" class={`${btn} ghost`} data-erase data-confirm={E.tb_erase_confirm}>{E.tb_erase}</button></p>
+    </div>
+    <div class="tb-print print-only" data-print></div>
+  </section>
+)}
+<script src="../scripts/tellback.ts"></script>
+<style>
+  .tb { border: 1px solid var(--gold); border-radius: 14px; padding: 18px; margin: 0 0 1.2rem; background: var(--panel); }
+  .tb h2 { margin: 0 0 6px; font-size: 1.15rem; }
+  .tb-lede { margin: 0 0 8px; color: var(--muted); font-size: .92rem; }
+  .tb-prompts { margin: 0 0 10px; padding-inline-start: 1.4rem; }
+  .tb-prompts li { margin: 0 0 4px; }
+  .tb-nojs { font-size: .9rem; border: 1px dashed var(--gold); border-radius: 8px; padding: 6px 10px; }
+  :root.js .tb-nojs { display: none; }
+  .tb-write { display: none; }
+  :root.js .tb-write { display: block; }
+  .tb textarea { width: 100%; min-height: 150px; font: inherit; line-height: 1.8; color: inherit; padding: 12px; border: 1.5px solid var(--line); border-radius: 12px; background: var(--bg); resize: vertical; }
+  .tb textarea:focus-visible { outline: 3px solid var(--gold); outline-offset: 2px; }
+  .tb-told { display: flex; align-items: center; gap: 10px; min-height: 44px; margin: 6px 0 0; cursor: pointer; }
+  .tb-told input { width: 22px; height: 22px; }
+  .tb-min { font-size: .85rem; margin: 0; }
+  .tb-actions { display: flex; flex-wrap: wrap; align-items: center; gap: 10px; margin: 8px 0 0; }
+  .tb .ghost { background: transparent; }
+  [data-erase].armed { border-color: #c0392b; color: #c0392b; }
+  .tb-cards { list-style: none; margin: 0; padding: 0; display: flex; flex-wrap: wrap; gap: 10px; min-height: 52px; }
+  .tb-card { min-height: 52px; text-align: start; }
+  .tb-card[aria-pressed="true"] { opacity: .35; }
+  .tb-chosen { counter-reset: tbc; border: 2px dashed var(--line); border-radius: 12px; padding: 8px; }
+  .tb-chosen li { display: inline-flex; align-items: center; gap: 8px; min-height: 44px; padding: 6px 12px; border-radius: 999px; background: var(--bg); border: 1px solid var(--gold); }
+  .tb-chosen li::before { counter-increment: tbc; content: counter(tbc); display: inline-grid; place-items: center; width: 1.6em; height: 1.6em; border-radius: 50%; background: var(--gold); color: #1d3a6e; font-weight: 700; font-size: .85em; }
+  .tb-mine { font-size: 1rem; margin: 10px 0 6px; }
+  .tb-msg { min-height: 1.4em; margin: 8px 0 0; font-weight: 600; }
+  .tb .print-only { display: none; }
+  @media print { .tb .print-only { display: block; white-space: pre-wrap; border: 1px dashed #888; border-radius: 10px; padding: 10px; min-height: 6rem; } .tb-print:empty { min-height: 8rem; } .tb-cards { display: block; } }
+  @media (prefers-reduced-motion: reduce) { .tb * { transition: none !important; } }
+</style>
