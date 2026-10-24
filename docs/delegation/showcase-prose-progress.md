@@ -378,6 +378,19 @@ Egypt set now: 52 records at completeness 3 (50 + the two above).
 
 Checks: `npm run cite-check` 2 of 2 pass; `npm run validate` 0 errors, 7,295 warnings (unchanged); `npm run graph` and `npm run coverage` regenerated.
 
+## Phase 3 (general queue), batch 1: started, trail not yet finished
+
+First unfinished trail in `showcase-queue.md`: `exhibit/path-islam-in-30-minutes` (completeness 2, inbound 297). Its 12 featured records: 4 are at 3 (practice/zakat, practice/sawm-ramadan, practice/hajj, event/hijra); 8 are below 3 (concept/islam-din, concept/iman, concept/ihsan, concept/five-pillars, concept/shahada, practice/salah at 2; person/muhammad at 1; event/first-revelation at 2).
+
+Batch 1 (this pass):
+- `concept/ihsan`: the closing sentence of Bukhari hadith 50 ("that was Gabriel...") is not in the local scan (books/hadith/sahih-bukhari, scan p. 32), so it is removed from ar, en and ur. The gloss is at the local commentary (niyazaka edition, p. 36). The record stays at completeness 2: the summary's Ibn Rajab and Muslim 1955 sentences are not yet checked against the local harvest.
+- `person/muhammad` and `event/first-revelation`: both failed the cite-check for a missing top-level provenance block. Added (source, generated_by, model, run). Their completeness is unchanged: neither record was re-verified in this pass.
+- Verified in the local harvest and noted for the next batch: the Jibril hadith (Bukhari, scan p. 32, hadith 50: the definitions of iman, islam, ihsan); the five-pillars hadith (Ibn Khuzayma, scan p. 192 and p. 906, with Ibn Umar's chain; Bukhari's own body text for hadith 8 is not in the local OCR).
+
+Checks: `npm run cite-check` 3 of 3 pass; `npm run validate` 0 errors, 7,295 warnings (unchanged); `npm run graph` and `npm run coverage` regenerated.
+
+Still below 3 in the first trail: concept/islam-din, concept/iman, concept/ihsan, concept/five-pillars, concept/shahada, practice/salah, person/muhammad, event/first-revelation.
+
 ## NEXT STEP:
 
 Phase 3 (the general queue) is next. The Showcase queue (`docs/delegation/showcase-queue.md`) lists 1,240 featured records, of which the Egypt and Sicily sets are a small part. The Egypt drafts with Khitat passages are close to exhausted; the Mamluk and Ayyubid entries outside Egypt need another source family. The al-Nasiriyya madrasa stays skipped until a founder or date is found. Two decisions wait for the founder: D16 (merge `place/iskandariyya` into `place/alexandria`) and D15 (Archnet's terms, read in a visible session, or the founder supplies the posture). Also for the founder: the period-file alignment with D26, the Urdu drafts, the Adil place-name conflict, and D28 (two dates for Aybak's independence, both stated).
