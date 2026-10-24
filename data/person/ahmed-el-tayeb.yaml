@@ -1,0 +1,35 @@
+id: person/ahmed-el-tayeb
+class: person
+label: { ar: "أحمد الطيب", en: "Ahmed el-Tayeb", ur: "احمد طيب" }
+names:
+  - { value: "أحمد محمد أحمد الطيب", kind: full }
+  - { value: "Ahmed Mohamed Ahmed El-Tayeb", kind: full }
+gender: male
+summary:
+  ar: "عالم مصري وأستاذ العقيدة والفلسفة الإسلامية، الإمام الأكبر شيخ الأزهر منذ 19 مارس 2010، ورئيس جامعة الأزهر (2003–2010) ومفتي الديار المصرية (2002–2003) قبل ذلك."
+  en: "Egyptian scholar and professor of Islamic doctrine and philosophy, Grand Imam of al-Azhar since 19 March 2010. Before that he was president of al-Azhar University (2003–2010) and Grand Mufti of Egypt (2002–2003)."
+  ur: "مصری عالم اور اسلامی عقیدے و فلسفے کے استاد، 19 مارچ 2010 سے الازہر کے امامِ اکبر۔ اس سے پہلے وہ جامعہ ازہر کے صدر (2003–2010) اور مصر کے مفتیِ اعظم (2002–2003) رہے۔"
+roles: [scholar]
+wings: [people, living]
+born:
+  edtf: "1946-01-06"
+  hijri: "1365"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "Gregorian date from English Wikipedia and Wikidata; the Hijri date (3 Safar 1365 AH) is stated in the Arabic Wikipedia article."
+  sources: [source/wikipedia-ahmed-el-tayeb-en, source/wikidata-ahmed-el-tayeb]
+faith:
+  - value: sunni
+    basis: documented
+    note: "English Wikipedia's infobox gives the denomination as Sunni, with Maliki jurisprudence and Ash'ari creed. The Arabic Wikipedia infobox independently gives الطائفة as أهل السنة والجماعة and المذهب as مالكي, and Wikidata records his religion as Sunni Islam."
+    sources: [source/wikipedia-ahmed-el-tayeb-en, source/wikipedia-ahmed-el-tayeb-ar, source/wikidata-ahmed-el-tayeb]
+external_ids: { wikidata: "Q338708" }
+sources: [source/wikipedia-ahmed-el-tayeb-en, source/wikipedia-ahmed-el-tayeb-ar, source/wikidata-ahmed-el-tayeb]
+provenance:
+  layer: own-research
+  source: "English Wikipedia article 'Ahmed el-Tayeb' (revision of 30 August 2026), Arabic Wikipedia article «أحمد الطيب» (revision of 3 July 2026), Wikidata Q338708; checked 24 Oct 2026"
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: modern-figures-batch-1
+status: { review: published, generated_by: "Muse (Muse Spark 1.3)" }

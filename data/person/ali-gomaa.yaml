@@ -1,0 +1,35 @@
+id: person/ali-gomaa
+class: person
+label: { ar: "علي جمعة", en: "Ali Gomaa", ur: "علی جمعہ" }
+names:
+  - { value: "علي جمعة", kind: full }
+  - { value: "Ali Gomaa", kind: full }
+gender: male
+summary:
+  ar: "عالم وفقيه مصري، مفتي الديار المصرية الثامن عشر (2003–2013)، متخصص في أصول الفقه على المذهب الشافعي، وأستاذ بجامعة الأزهر، وصاحب حضور عام واسع عبر الإفتاء والإعلام."
+  en: "Egyptian scholar and jurist, the eighteenth Grand Mufti of Egypt (2003–2013). A Shafi'i specialist in Islamic legal theory, professor at al-Azhar University, and a prominent public figure through fatwa work and the media."
+  ur: "مصری عالم اور فقیہ، مصر کے اٹھارھویں مفتیِ اعظم (2003–2013)۔ شافعی اصولِ فقہ کے ماہر، جامعہ ازہر کے استاد، اور فتویٰ و میڈیا کے ذریعے وسیع عوامی موجودگی رکھنے والی شخصیت۔"
+roles: [scholar, jurist]
+wings: [people, living]
+born:
+  edtf: "1952-03-03"
+  hijri: "1371"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "Gregorian date from English Wikipedia and Wikidata; the English article also gives the Hijri date as 7 Jumada al-Akhirah 1371 AH."
+  sources: [source/wikipedia-ali-gomaa-en, source/wikidata-ali-gomaa]
+faith:
+  - value: sunni
+    basis: documented
+    note: "English Wikipedia's infobox gives the denomination as Sunni, with Shafi'i jurisprudence and Ash'ari creed. The Arabic Wikipedia infobox independently gives الطائفة as أهل السنة والجماعة and المذهب as شافعي. Two sources give the school."
+    sources: [source/wikipedia-ali-gomaa-en, source/wikipedia-ali-gomaa-ar]
+external_ids: { wikidata: "Q957704" }
+sources: [source/wikipedia-ali-gomaa-en, source/wikipedia-ali-gomaa-ar, source/wikidata-ali-gomaa]
+provenance:
+  layer: own-research
+  source: "English Wikipedia article 'Ali Gomaa' (revision of 3 October 2026), Arabic Wikipedia article «علي جمعة (عالم دين)» (revision of 12 August 2026), Wikidata Q957704; checked 24 Oct 2026"
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: modern-figures-batch-1
+status: { review: published, generated_by: "Muse (Muse Spark 1.3)" }
