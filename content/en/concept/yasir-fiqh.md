@@ -22,3 +22,7 @@ Slight gap in contracts: a slight gap between offer and acceptance does not spoi
 Slight gap in the exception: a valid exception must be joined to what it excepts, but a slight pause for breath, stammering or recollection does not break the join, since custom does not count it a gap. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.18000}
 
 Slight break between sucklings: the entry continues on p.18000 with the rule on a child who turns from the breast briefly; the rest is not yet drafted. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.18000}
+
+Slight break between sucklings: where the schools require several sucklings to establish foster-kinship, a child who turns from the breast briefly, for play, breath or a light sleep, and then returns, counts as one suckling. If the play or sleep is long while the breast is still in the mouth, it is still one suckling; the same holds if the child is moved from one breast to the other or taken off and put back after a slight gap. The reference is custom, since the law gives suckling without fixing a time or amount. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.18000} {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.18001}
+
+Slight gap between a child's birth and the denial of its lineage in li'an: the jurists require that the denial follow knowledge of the birth. A slight gap does no harm if there is an excuse, such as learning of the birth at night and denying at dawn, or being hungry and eating, or naked and dressing. The jurists differ on how long a gap may be before the denial is too late. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.18001}
