@@ -391,6 +391,16 @@ Checks: `npm run cite-check` 3 of 3 pass; `npm run validate` 0 errors, 7,295 war
 
 Still below 3 in the first trail: concept/islam-din, concept/iman, concept/ihsan, concept/five-pillars, concept/shahada, practice/salah, person/muhammad, event/first-revelation.
 
+## Phase 3, batch 2: done (Islam in Thirty Minutes trail)
+
+- `event/first-revelation` raised to completeness 3. Checked against al-Raheeq al-Makhtum p. 64: Monday, 21 Ramadan, 10 August 610 CE, age 40 lunar years, six months and twelve days. The alternative of Monday 11 Ramadan (p. 66) is covered by the record's debated date.
+- **New source** `source/sahih-ibn-khuzayma` (local scan, file 61667, cited by scan page). Its label is distinct from the Wikidata work card `work/sahih-ibn-khuzayma`, which the validator flagged for a duplicate title.
+- `concept/five-pillars`: the wording of the five pillars is witnessed at Ibn Khuzayma p. 192 (shahada, prayer, zakat, Ramadan, Hajj), and the Hajj-before-fast order at p. 906. Stays at completeness 2: Bukhari hadith 8 is not in the local Bukhari scan.
+- `practice/salah`: the Najdi hadith's wording ("five prayers in the day and night"; "is there anything else?" "no, unless you volunteer") is witnessed at Ibn Khuzayma p. 529 (Talha's hadith). Stays at 2: the Quran passages and Bukhari 46/8 are not re-checked.
+- Still below 3 in the trail: concept/islam-din, concept/iman, concept/ihsan, concept/five-pillars, concept/shahada, practice/salah, person/muhammad.
+
+Checks: `npm run cite-check` 3 of 3 pass; `npm run validate` 0 errors, 7,295 warnings (unchanged); `npm run graph` and `npm run coverage` regenerated.
+
 ## NEXT STEP:
 
 Phase 3 (the general queue) is next. The Showcase queue (`docs/delegation/showcase-queue.md`) lists 1,240 featured records, of which the Egypt and Sicily sets are a small part. The Egypt drafts with Khitat passages are close to exhausted; the Mamluk and Ayyubid entries outside Egypt need another source family. The al-Nasiriyya madrasa stays skipped until a founder or date is found. Two decisions wait for the founder: D16 (merge `place/iskandariyya` into `place/alexandria`) and D15 (Archnet's terms, read in a visible session, or the founder supplies the posture). Also for the founder: the period-file alignment with D26, the Urdu drafts, the Adil place-name conflict, and D28 (two dates for Aybak's independence, both stated).
