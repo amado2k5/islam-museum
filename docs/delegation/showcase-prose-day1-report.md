@@ -7,14 +7,14 @@ _Written 24 October 2026. Progress file: [`showcase-prose-progress.md`](showcase
 | Item | Count | Notes |
 |---|---|---|
 | Records raised to completeness 3 (Sicily, Phase 1) | 7 | `event/first-raid-on-sicily`, `event/aghabid-conquests-sicily`, `place/siqilliya`, `polity/emirate-of-sicily`, `place/palermo`, `person/al-idrisi-muhammad-ibn-abd-allah`, `journey/sicily-to-granada-jubayr` |
-| Records raised to completeness 3 (Egypt, Phase 2) | 26 | `place/cairo`, `place/al-fustat`, `place/alexandria`, `building/masjid-amr-fustat`, `building/dar-al-hikma-cairo`, `person/shajar-al-durr`, `person/al-hakim-bi-amr-allah`, `place/misr`, `place/al-fayyum`, `person/jawhar-al-siqilli`, `person/al-muizz-li-din-allah`, `building/al-azhar`, `person/baybars`, `person/qalawun`, `person/al-nasir-muhammad-ibn-qalawun`, `building/masjid-sultan-hasan`, `polity/fatimid-caliphate`, `polity/ayyubid-dynasty`, and (batch 6) `person/qutuz`, `person/salah-al-din-yusuf-ibn-ayyub`, `person/al-malik-al-kamil`, `person/al-malik-al-salih-ayyub`, `building/masjid-ibn-tulun`; and (batch 7) `person/al-malik-al-mansur-ali-ibn-aybak`, `person/al-malik-al-adil-ayyub`, `person/al-malik-al-aziz-uthman` |
+| Records raised to completeness 3 (Egypt, Phase 2) | 27 | `place/cairo`, `place/al-fustat`, `place/alexandria`, `building/masjid-amr-fustat`, `building/dar-al-hikma-cairo`, `person/shajar-al-durr`, `person/al-hakim-bi-amr-allah`, `place/misr`, `place/al-fayyum`, `person/jawhar-al-siqilli`, `person/al-muizz-li-din-allah`, `building/al-azhar`, `person/baybars`, `person/qalawun`, `person/al-nasir-muhammad-ibn-qalawun`, `building/masjid-sultan-hasan`, `polity/fatimid-caliphate`, `polity/ayyubid-dynasty`, and (batch 6) `person/qutuz`, `person/salah-al-din-yusuf-ibn-ayyub`, `person/al-malik-al-kamil`, `person/al-malik-al-salih-ayyub`, `building/masjid-ibn-tulun`; and (batch 7) `person/al-malik-al-mansur-ali-ibn-aybak`, `person/al-malik-al-adil-ayyub`, `person/al-malik-al-aziz-uthman`; and (batch 8) `person/izz-al-din-aybak` |
 | Trails at completeness 3 | 2 | `exhibit/path-mamluk-cairo`, `exhibit/path-fatimid-cairo` |
 | Trails still below 3 | 1 | `exhibit/path-sicily-islam` at 2 (room 4 features `question/what-were-the-crusades`, completeness 1) |
 | Records skipped and logged | 3 | `building/palermo-mosque-1591`, `person/asad-ibn-al-furat`, `person/ibn-jubayr-muhammad` (reasons below) |
 
 Note: the Phase 1 entry in the progress file's batch heading says "2 skipped"; the batch's own list names three, so this report uses three.
 
-Egypt target: the brief asks for about 100 records. The Egypt set is at 26 records, plus the two Cairo trails.
+Egypt target: the brief asks for about 100 records. The Egypt set is at 27 records, plus the two Cairo trails.
 
 Batch 6 (Egypt, after this report was first written) corrected one error in the Qutuz prose: the battle is Friday 15 Ramadan 658 (Khitat p. 1916), not 25. The killing day differs between the Khitat (mid-Dhu al-Qa'da) and Shadharat (the sixteenth); both are kept and noted.
 
@@ -53,7 +53,7 @@ Batch 6 (Egypt, after this report was first written) corrected one error in the 
 ## Queue position
 
 - **Phase 1 (Sicily pilot):** in progress. Seven records are at 3; the trail is at 2 because of one feature.
-- **Phase 2 (Egypt set):** in progress. Twenty-six records and two trails at 3. The brief's ~100 target is not reached.
+- **Phase 2 (Egypt set):** in progress. Twenty-seven records and two trails at 3. The brief's ~100 target is not reached.
 - **Phase 3 (general queue):** not started. The queue has 313 exhibits, 50 journeys and 1,240 distinct featured records, of which 1,171 were below completeness 3 at generation time (`showcase-queue.md`).
 
 ## Checks
