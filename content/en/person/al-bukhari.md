@@ -11,7 +11,7 @@ Abu Abd Allah Muhammad ibn Isma'il ibn Ibrahim ibn al-Mughira ibn Bardizbah al-B
 Ibn al-Nadim lists among his books: "al-Tarikh al-Kabir", "al-Tarikh al-Saghir", "al-Tarikh al-Awsat", "al-Asma' wa al-Kuna", "al-Du'afa'", "al-Sahih", "al-Sunan" in jurisprudence, "al-Adab", "Khalq Af'al al-Ibad", and "al-Qira'a khalf al-Imam". {cite:fihrist-ibn-al-nadim p.321-322}
 
 ## The Sahih
-The introduction to the Sahih relates from the "History of Damascus" that he composed his Sahih over sixteen years, and that he selected it from six hundred thousand hadiths. It says he compiled it in the Sacred Mosque and prayed two rak'as at the inclusion of each hadith, and that he wrote from a thousand shaykhs or more. {cite:sahih-al-bukhari p.9-10}
+The account the introduction to the Sahih gives through the History of Damascus (the period of composition, the number of hadiths selected, and the practice at the Sacred Mosque) is not included here: the local copies of the Sahih do not show this text, and it will be added from a documented source in a later batch.
 
 ## For Sprouts
 A revered scholar of Hadith who traveled widely and compiled the Prophet's authentic sayings in his monumental Sahih al-Bukhari.

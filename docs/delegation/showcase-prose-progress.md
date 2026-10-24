@@ -513,6 +513,21 @@ Checks: `npm run cite-check -- concept/iman` PASS; `npm run validate` 0 errors, 
 
 Checks: `npm run validate` 0 errors, 7,295 warnings (unchanged).
 
+## Phase 3, batch 14 (the Rahimiyya Bukhari label, and page-form citations to it)
+
+- Scope: `source/sahih-al-bukhari` names the al-Maktaba al-Rahimiyya edition (Deoband). No copy is in the harvest, so the label cannot be checked against a scan. Citations use hadith numbers in the standard numbering, which the al-Bugha scan follows (for example 8, 50, 74, 3035, 3148, 3211, 3219, 3230).
+- Scale left for later batches: about 612 number-form citations in 333 prose files, and 375 data files list `source/sahih-al-bukhari`. Each hadith's content is not yet checked against a scan.
+- Page-form citations (`{cite:sahih-al-bukhari p.N}`), which depend on an edition and cannot be witnessed, are fixed in ar, en and ur:
+  - person/adam: p.3326 → 3148 (the greeting of the angels); p.3207 → 3035 ("ابن ونبي").
+  - person/ayyub: p.279 → 3211 (the gold locusts).
+  - person/asiya: p.3411 → 3230 ("كمل من الرجال"); "who raised Musa" is removed (not in that hadith).
+  - person/al-khidr: p.3401 → 3219 (the account of Musa and al-Khidr); the Ibn Abbas / Nawf commentary paragraph is removed (not witnessed at a located hadith).
+  - person/al-bukhari and work/sahih-al-bukhari: the introduction's account (composition period, number of hadiths, the Sacred Mosque) is removed, as the local copies do not show it. The work record now cites the first page of the al-Bugha scan for title and author. The person record rests on al-Fihrist, with a provenance block added.
+- Source record `source/sahih-al-bukhari`: its reliability note now says that the Rahimiyya edition is not checked, and that citations are hadith numbers only.
+
+Checks: cite-check PASS for the six records; zero page-form citations to this source remain under content/ and data/.
+Blocker: `npm run validate` reports 2 errors that are not from this batch: `data/person/ahmed-kuftaro.yaml` duplicates `person/ahmad-kaftaru` (the same Wikidata id and name), introduced by the modern-figures batch (PR #1524). The duplicate needs a merge decision by its owner before this batch can be merged.
+
 ## NEXT STEP:
 
 Phase 3 (the general queue) is next. The Showcase queue (`docs/delegation/showcase-queue.md`) lists 1,240 featured records, of which the Egypt and Sicily sets are a small part. The Egypt drafts with Khitat passages are close to exhausted; the Mamluk and Ayyubid entries outside Egypt need another source family. The al-Nasiriyya madrasa stays skipped until a founder or date is found. Two decisions wait for the founder: D16 (merge `place/iskandariyya` into `place/alexandria`) and D15 (Archnet's terms, read in a visible session, or the founder supplies the posture). Also for the founder: the period-file alignment with D26, the Urdu drafts, the Adil place-name conflict, and D28 (two dates for Aybak's independence, both stated).
