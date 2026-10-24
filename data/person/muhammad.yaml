@@ -32,4 +32,10 @@ education:
   levels: [sprouts, explorers, scholars]
   flagged_for_kids: true
   provenance: { generated_by: "Claude Code", model: "Claude Haiku 5.5 (claude-haiku-5-5)", run: "education-E2-batch1", note: "Leveled texts drafted from the record's own summary; draft, pending the founder's review and scholar review of the child levels." }
+provenance:
+  layer: own-research
+  source: "The record's cited sources (Muruj al-Dhahab, Sahih al-Bukhari, Sahih Muslim, and the seerah sources listed); drafted in earlier batches, not re-verified in this pass"
+  generated_by: "Claude Sonnet 5.5 (scaffold)"
+  model: claude-sonnet-5-5
+  run: showcase-prose-phase3-batch1
 status: { review: draft, completeness: 1, generated_by: "Claude Sonnet 5.5 (scaffold)" }
