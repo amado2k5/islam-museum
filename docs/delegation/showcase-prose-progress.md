@@ -473,6 +473,16 @@ Checks: `npm run cite-check -- concept/five-pillars` PASS; `npm run validate` 0 
 
 Checks: `npm run cite-check -- practice/salah` PASS; `npm run validate` 0 errors, 7,295 warnings (unchanged).
 
+## Phase 3, batch 10 (person/muhammad): completeness 3
+
+- Every sentence of the biography is now checked against the readable local copy of al-Raheeq al-Makhtum: the 20210430 scan (460 pages; citations give its pages.json page numbers). The 344-page copy named in the source record has garbled OCR and cannot be read, so the source record should name the 460-page copy.
+- Single source: the classical citations (Ibn Hisham, Muruj al-Dhahab, Zad al-Ma'ad, Talqih, Ibn Kathir, Muslim, Bukhari) were removed as cross-references the scan does not show; the record now rests on al-Raheeq alone, as one source is enough.
+- Corrected: the Fijar war was in his twentieth year (not fifteen); the chest-opening was in his fourth year, on the verifiers' view; the shroud was three white Yemeni cloths (not two Sahari cloths and a hibra); the first revelation's fatra is the author's view of ten days.
+- Removed as not witnessed: the first-day converts list, the "more than forty" count, the Dhubab hadith's authenticity dispute, the burial by Ali, the Quran 68:4 link, and the Umm Ma'bad direct quotation (the scan's OCR of the sound words disagrees).
+- Trail status: the Islam in Thirty Minutes trail still has two records below 3, concept/iman (2) and concept/islam-din (2). The trail stays at completeness 2.
+
+Checks: `npm run cite-check -- person/muhammad` PASS; `npm run validate` 0 errors, 7,295 warnings (unchanged).
+
 ## NEXT STEP:
 
 Phase 3 (the general queue) is next. The Showcase queue (`docs/delegation/showcase-queue.md`) lists 1,240 featured records, of which the Egypt and Sicily sets are a small part. The Egypt drafts with Khitat passages are close to exhausted; the Mamluk and Ayyubid entries outside Egypt need another source family. The al-Nasiriyya madrasa stays skipped until a founder or date is found. Two decisions wait for the founder: D16 (merge `place/iskandariyya` into `place/alexandria`) and D15 (Archnet's terms, read in a visible session, or the founder supplies the posture). Also for the founder: the period-file alignment with D26, the Urdu drafts, the Adil place-name conflict, and D28 (two dates for Aybak's independence, both stated).
