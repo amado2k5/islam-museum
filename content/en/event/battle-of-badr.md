@@ -35,3 +35,12 @@ The details of the mobilisation before the battle, the Prophet's departure in pu
 
 ## After the battle (The Sealed Nectar, pp. 222–233)
 The details of the dead, the captives, the spoils, and news of Mecca and Medina are in the card [[event/badr-aftermath|After Badr]], as is the revelation of Surat al-Anfal concerning the spoils {cite:mubarakpuri-raheeq p.228} {cite:mubarakpuri-raheeq p.231}.
+
+## For Sprouts
+In Ramadan of the second year after the Hijra, the battle of Badr was fought. It was the first big meeting between the Muslims and Quraysh, and the Muslims won by God's help.
+
+## For Explorers
+In Ramadan of the second year after the Hijra, the Muslims of Medina met Quraysh of Mecca at the wells of Badr. The Muslims were few in number, and they won by God's help. Badr became a day the Muslims remember in their history.
+
+## For Scholars
+The first major battle between the Muslims of Medina and Quraysh of Mecca, fought at the wells of Badr on Friday 17 Ramadan of the second year after the Hijra. It began as a pursuit of Abu Sufyan's caravan and ended with the defeat of the Meccan army. The sources give its details through men who took part, and their accounts differ on the numbers and the names, so each number and each name needs a source. In the sira Badr marks a turning point for the young community, and this entry gives the events only as far as the sources report them, without exaggeration.

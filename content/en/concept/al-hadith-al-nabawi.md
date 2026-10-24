@@ -14,3 +14,12 @@ It is the second source of Islam after the Qur'an. It explains what the Qur'an s
 The hadith comes through [[concept/isnad|the chain of transmission]]. It was gathered in books arranged by chapters or by the musnads of transmitters, and the best known of these are the six canonical collections.
 
 The hadith is linked to the discipline of the [[concept/al-sira-al-nabawiyya|Prophetic biography]]. Further detail needs a further source.
+
+## For Sprouts
+Hadith is what was passed down from the Prophet, his words, deeds or approvals, and it reaches us through a chain of narrators. It is the second source of Islam after the Qur'an.
+
+## For Explorers
+Hadith is what was passed on from the Prophet: his words, his deeds, his approvals or his description. It was kept by a chain of narrators, each linked to the one before. It is the second source after the Qur'an, and it explains the details of worship and of good conduct.
+
+## For Scholars
+Hadith is what is transmitted of the Prophet's words, deeds, tacit approvals and descriptions, reaching us through a chain of narrators ending at him. It is the second source after the Qur'an, explaining its generals and fixing the details of worship, dealings, biography and conduct. It was gathered into works arranged by legal chapter or by narrator, the most famous being the six books. The science of the isnad shows who passed a report and how it came down, and on it judgements of soundness are based. The museum gives each hadith with its source and its grade, and does not grade a hadith itself.

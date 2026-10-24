@@ -19,3 +19,12 @@ Banu Hashim and Banu al-Muttalib, believers and unbelievers alike, withdrew, exc
 
 ## For young visitors
 Quraysh decided to cut off all dealings with the whole household of the Prophet: they would not marry into it or sell it anything. They confined Banu Hashim in a narrow valley for three years, until they ate leaves.
+
+## For Sprouts
+Quraysh agreed to cut off trade and marriage with the Banu Hashim, so the clan withdrew into a valley in the hills, the Shi'b Abi Talib, for about three years.
+
+## For Explorers
+Quraysh agreed to boycott the Banu Hashim and the Banu al-Muttalib: no one would sell to them or marry into their families. The clan gathered in the valley of Abu Talib, a valley between the hills, and lived there for about three years in great hardship, until the agreement they had written was torn up.
+
+## For Scholars
+The general boycott agreed by Quraysh against the Banu Hashim and the Banu al-Muttalib, and the clan's withdrawal into the Shi'b of Abu Talib, a valley between the hills, for about three years. No one would sell to them or marry them, and the hardship fell hardest on the children and the old. The sources say the document was later torn up, and that some people of Mecca rejected the injustice and tore it. The entry gives the boycott as the sira books tell it and passes no judgement on either side.

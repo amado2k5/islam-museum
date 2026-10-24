@@ -55,4 +55,8 @@ map:
     - { type: point, role: landmark, label: { ar: "الثغرة التي اقتحمها عمرو بن عبد ود وخيله", en: "The gap where Amr ibn Abd Wadd and his horsemen crossed" }, at: [24.496, 39.596], precision: schematic, source: source/mubarakpuri-raheeq }
 external_ids: { wikidata: "Q826083" }
 sources: [source/mubarakpuri-raheeq, source/sahih-al-bukhari, source/sahih-muslim, source/ibn-hisham-sira, source/zad-al-maad, source/sallabi-ali-vol1]
+education:
+  levels: [sprouts, explorers, scholars]
+  flagged_for_kids: true
+  provenance: { generated_by: "Claude Code", model: "Claude Haiku 5.5 (claude-haiku-5-5)", run: "education-E2-batch1", note: "Leveled texts drafted from the record's own summary; draft, pending the founder's review and scholar review of the child levels." }
 status: { review: draft, completeness: 2, generated_by: "Devin; al-Raheeq al-Makhtum pp. 301–314" }

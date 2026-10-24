@@ -33,3 +33,12 @@ In "the account of the sum of the saying of the people of hadith and sunna" in M
 
 ## What is not covered here
 This entry presents the positions of the 'Aqida al-Tahawiyya, Ibn Qudama's Lum'at al-I'tiqad, Ibn Taymiyya's al-Wasitiyya, and what al-Ash'ari related in Maqalat al-Islamiyyin of the people of hadith and sunna and declared his own — each attributed to its book. The sayings of the Maturidis and the remaining Sunni and non-Sunni schools from their own books have not yet been added; the entry needs specialist review before promotion.
+
+## For Sprouts
+Tawhid means that God is one, with no partner and no likeness, and it is the root of faith.
+
+## For Explorers
+Tawhid means that God is one, without partner, without anything like Him, and that there is no god but Him. It is the first thing a Muslim is taught, and the basis of all faith.
+
+## For Scholars
+Affirming that God is one, without partner or likeness, and denying Him any associate. Al-Tahawi opens his statement of the creed with it, saying that God is one with no partner, nothing like Him, and no god but Him. Scholars of creed divide tawhid into lordship, worship, and names and attributes, a division of later usage, so it is presented here as an explanation of the meaning and not as a sacred text. The museum speaks of tawhid as the creed of Islam, and presents the views of other groups with their attribution. This entry does not judge those who differ on it.
