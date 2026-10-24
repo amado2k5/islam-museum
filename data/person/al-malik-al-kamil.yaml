@@ -13,7 +13,8 @@ provenance:
   layer: own-research
   source: "تاريخ الخلفاء للسيوطي (ط المنهاج 1434هـ/2013م) ص 694–704"
   generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
-  run: lib-tarikh-khulafa-batch-44
+  model: claude-haiku-5-5
+  run: lib-tarikh-khulafa-batch-44, showcase-prose-phase2-egypt-batch6
 external_ids: { wikidata: "Q293464" }
-sources: [source/tarikh-khulafa-minhaj-1434, source/shadharat-dhahab]
-status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }
+sources: [source/khitat-maqrizi-1998, source/tarikh-khulafa-minhaj-1434, source/shadharat-dhahab]
+status: { review: published, completeness: 3, generated_by: "Claude Haiku 5.5; his succession at Damietta and the Chain Tower bridge are read from al-Maqrizi's Khitat (local scan, pp. 643, 644); the Suyuti account of al-Mansura keeps its citation" }

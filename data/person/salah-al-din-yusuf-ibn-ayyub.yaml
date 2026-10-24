@@ -11,8 +11,9 @@ provenance:
   layer: own-research
   source: "تاريخ الخلفاء للسيوطي (ط المنهاج 1434هـ/2013م) ص 675–685"
   generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
-  run: lib-tarikh-khulafa-batch-42
+  model: claude-haiku-5-5
+  run: lib-tarikh-khulafa-batch-42, showcase-prose-phase2-egypt-batch6
 external_ids: { wikidata: "Q8581" }
-sources: [source/shadharat-dhahab, source/wafayat-ayan, source/tarikh-khulafa-minhaj-1434]
-status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }
+sources: [source/khitat-maqrizi-1998, source/shadharat-dhahab, source/wafayat-ayan, source/tarikh-khulafa-minhaj-1434]
+status: { review: published, completeness: 3, generated_by: "Claude Haiku 5.5; the takeover of Egypt and the walls of Cairo are read from al-Maqrizi's Khitat (local scan, pp. 290, 1000, 1001); the Suyuti and Shadharat accounts keep their citations" }
 died: { edtf: "1193~", hijri: "0589~", calendar: julian, precision: year, status: tradition, derived: true, note: "589هـ سنة الملوك {cite:shadharat-dhahab p. 779}", sources: [source/shadharat-dhahab] }

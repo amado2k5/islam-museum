@@ -2,7 +2,7 @@ id: person/al-malik-al-salih-ayyub
 class: person
 label: { ar: "الملك الصالح نجم الدين أيوب بن الكامل", en: "al-Malik al-Salih Najm al-Din Ayyub ibn al-Kamil" }
 born: { edtf: "1206", hijri: "0603", calendar: julian, precision: year, status: tradition, derived: true, note: "مولده سنة ثلاث وستمائة بالقاهرة {cite:shadharat-dhahab p. 246}." }
-died: { edtf: "1249-11", hijri: "0647-08-15", calendar: julian, precision: day, status: tradition, derived: true, note: "مات ليلة نصف شعبان سنة سبع وأربعين وكتم موته أياماً حتى قدم ولده توران شاه {cite:tarikh-khulafa-minhaj-1434 p. 705,709}.", sources: [source/tarikh-khulafa-minhaj-1434, source/shadharat-dhahab] }
+died: { edtf: "1249-11", hijri: "0647-08-15", calendar: julian, precision: day, status: tradition, derived: true, note: "مات ليلة نصف شعبان سنة سبع وأربعين وكتم موته أياماً حتى قدم ولده توران شاه {cite:tarikh-khulafa-minhaj-1434 p. 705,709}. والمقريزي يذكر أنه مات يوم الأحد رابع عشر شعبان {cite:khitat-maqrizi-1998 p.1912}.", sources: [source/khitat-maqrizi-1998, source/tarikh-khulafa-minhaj-1434, source/shadharat-dhahab] }
 summary:
   ar: "سلطان أيوبي بمصر، تملكها بعد أخيه العادل قلامة لما خلع، وبنى المدرسة التي بين القصرين والقلعة التي بالروضة سنة تسع وثلاثين ثم أخرب غلمانه القلعة سنة إحدى وخمسين، ومات ليلة نصف شعبان سنة سبع وأربعين والفرنج أخذوا دمياط فأخفت جاريته شجر الدر موته {cite:tarikh-khulafa-minhaj-1434 p. 705,709}. وكان على المنصورة لما ملك الفرنج دمياط سنة سبع وأربعين فغضب على أهلها لتركهم إياها حتى شنق ستين نفساً من أعيانهم ومات ليلة نصف شعبان وكتم موته أياماً حتى قدم ولده الملك المعظم توران شاه، وكان مولده سنة ثلاث وست مئة بالقاهرة وسلطنه أبوه على آمد وحران وسنجار وحصن كيفا وكان وافر الحرمة عظيم الهيبة طاهر الذيل خليقاً للملك ظاهر الجبروت {cite:shadharat-dhahab p. 246}."
   en: "Ayyubid sultan of Egypt, builder of the madrasa between the palaces and the Rawda citadel; he died mid-Sha'ban 647 as the Franks took Damietta, Shajar al-Durr hiding his death {cite:tarikh-khulafa-minhaj-1434 p. 705,709}."
@@ -13,11 +13,12 @@ provenance:
   layer: own-research
   source: "تاريخ الخلفاء للسيوطي (ط المنهاج 1434هـ/2013م) ص 704–714"
   generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
-  run: lib-tarikh-khulafa-batch-45
+  model: claude-haiku-5-5
+  run: lib-tarikh-khulafa-batch-45, showcase-prose-phase2-egypt-batch6
 relations:
   - { type: participated_in, target: event/salih-ismail-takes-damascus-637, role: "المعتقل بالكرك ثم المتملك لمصر", sources: [source/shadharat-dhahab] }
   - { type: child_of, target: person/al-malik-al-kamil, sources: [source/shadharat-dhahab] }
   - { type: participated_in, target: event/franks-damietta-647, role: "السلطان المريض بالمنصورة", sources: [source/shadharat-dhahab] }
   - { type: participated_in, target: event/battle-mansura-647, role: "المتوفى وقد كُتم موته", sources: [source/shadharat-dhahab] }
-sources: [source/shadharat-dhahab, source/tarikh-khulafa-minhaj-1434]
-status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }
+sources: [source/khitat-maqrizi-1998, source/shadharat-dhahab, source/tarikh-khulafa-minhaj-1434]
+status: { review: published, completeness: 3, generated_by: "Claude Haiku 5.5; the al-Salihiyya, the Rawda citadel, the madrasas and the death at Mansura are read from al-Maqrizi's Khitat (local scan, pp. 558, 1912); the Suyuti and Shadharat accounts keep their citations. Khitat gives Sunday 14 Sha'ban; the date field keeps the Suyuti reading (mid-Sha'ban) until the day is converted" }

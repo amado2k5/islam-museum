@@ -2,8 +2,8 @@ id: person/qutuz
 class: person
 label: { ar: "السلطان المظفر سيف الدين قطز المعزي" }
 summary:
-  ar: "مملوك المعز أيبك وأتابك ولده الملك المنصور علي، لما نزل التتار على آمد سنة سبع وخمسين وقدم ابن العديم يطلب النجدة جمع الأمراء والأعيان فقضى الشيخ عز الدين بن عبد السلام بوجوب قتالهم وأخذ ما يستعان به بشرط بيع حوائص الأمراء وآلاتهم وعدم أخذ أموال العامة، ثم قبض على ابن أستاذه وقال هذا صبي والوقت صعب ولا بد من أن يقوم رجل شجاع ينتصب للجهاد وتسلطن ولقب بالملك المظفر، وقاد المصريين إلى الشام فهزم التتار عند عين جالوت يوم الجمعة خامس عشري رمضان سنة ثمان وخمسين، وقتله بيبرس وجماعة من الأمراء في الطريق في سادس عشر ذي القعدة {cite:tarikh-khulafa-minhaj-1434 p. 719-721}."
-  en: "Aybak's mamluk and his boy's atabeg; when the Tatars stood at Amid and Ibn al-Adim begged aid, he seized the sultanate as al-Muzaffar — 'the time is hard; a brave man must stand for jihad' — broke the Tatars at Ayn Jalut, 15 Ramadan 658, and was killed by Baybars's party on 16 Dhu'l-Qa'da {cite:tarikh-khulafa-minhaj-1434 p. 719-721}. Ibn al-Imad adds the famous reports: the delouser al-Bardajani heard him promise an amirate of fifty on the strength of a dream — 'the Prophet told me: you will hold Egypt and break the Tatars' — and the astrologer foretold the same to Qutuz and Baybars both; he claimed descent as Mahmud b. Mamdud, nephew of Khwarazmshah's sister, and left no male heir {cite:shadharat-dhahab p. 301-302}."
+  ar: "مملوك المعز أيبك وأتابك ولده الملك المنصور علي، لما نزل التتار على آمد سنة سبع وخمسين وقدم ابن العديم يطلب النجدة جمع الأمراء والأعيان فقضى الشيخ عز الدين بن عبد السلام بوجوب قتالهم وأخذ ما يستعان به بشرط بيع حوائص الأمراء وآلاتهم وعدم أخذ أموال العامة، ثم قبض على ابن أستاذه وقال هذا صبي والوقت صعب ولا بد من أن يقوم رجل شجاع ينتصب للجهاد وتسلطن ولقب بالملك المظفر، وقاد المصريين إلى الشام فهزم التتار عند عين جالوت يوم الجمعة خامس عشري رمضان سنة ثمان وخمسين، وقتله بيبرس وجماعة من الأمراء قريباً من المنزلة الصالحية في ذي القعدة {cite:tarikh-khulafa-minhaj-1434 p. 719-721}."
+  en: "Aybak's mamluk and his boy's atabeg; when the Tatars stood at Amid and Ibn al-Adim begged aid, he seized the sultanate as al-Muzaffar — 'the time is hard; a brave man must stand for jihad' — broke the Tatars at Ayn Jalut, 15 Ramadan 658, and was killed by Baybars's party near al-Manzila al-Salihiyya in Dhu'l-Qa'da {cite:tarikh-khulafa-minhaj-1434 p. 719-721}. Ibn al-Imad adds the famous reports: the delouser al-Bardajani heard him promise an amirate of fifty on the strength of a dream — 'the Prophet told me: you will hold Egypt and break the Tatars' — and the astrologer foretold the same to Qutuz and Baybars both; he claimed descent as Mahmud b. Mamdud, nephew of Khwarazmshah's sister, and left no male heir {cite:shadharat-dhahab p. 301-302}."
 died: { edtf: "1260-10-24~", hijri: "0658-11-16", calendar: julian, precision: day, status: tradition, derived: true, note: "قُتل يوم سادس عشر ذي القعدة بقرب قطية ولم يخلف ولداً ذكراً {cite:shadharat-dhahab p. 299, 301}." }
 gender: male
 wings: [people]
@@ -12,6 +12,7 @@ provenance:
   layer: own-research
   source: "تاريخ الخلفاء للسيوطي (ط المنهاج 1434هـ/2013م) ص 714–723"
   generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
-  run: lib-tarikh-khulafa-batch-46
-sources: [source/shadharat-dhahab, source/tarikh-khulafa-minhaj-1434, source/al-ishaat-al-kadhiba-azhar]
-status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }
+  model: claude-haiku-5-5
+  run: lib-tarikh-khulafa-batch-46, showcase-prose-phase2-egypt-batch6
+sources: [source/khitat-maqrizi-1998, source/shadharat-dhahab, source/tarikh-khulafa-minhaj-1434, source/al-ishaat-al-kadhiba-azhar]
+status: { review: published, completeness: 3, generated_by: "Claude Haiku 5.5; the sultanate, the Ayn Jalut victory and the killing are read from al-Maqrizi's Khitat (local scan, p. 1916); the Suyuti account keeps its citation. The day of the killing differs: the Khitat gives the middle of Dhu al-Qa'da, Shadharat (p. 299) the sixteenth; the record keeps both" }
