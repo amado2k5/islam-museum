@@ -515,7 +515,8 @@ Checks: `npm run validate` 0 errors, 7,295 warnings (unchanged).
 
 ## Phase 3, batch 14 (the Rahimiyya Bukhari label, and page-form citations to it)
 
-- Scope: `source/sahih-al-bukhari` names the al-Maktaba al-Rahimiyya edition (Deoband). No copy is in the harvest, so the label cannot be checked against a scan. Citations use hadith numbers in the standard numbering, which the al-Bugha scan follows (for example 8, 50, 74, 3035, 3148, 3211, 3219, 3230).
+- Scope: `source/sahih-al-bukhari` names the al-Maktaba al-Rahimiyya edition (Deoband). No copy is in the harvest, so the label cannot be checked against a scan. Citations use hadith numbers. The al-Bugha scan follows its own numbering: it agrees with the standard numbering for the early hadiths checked (1, 3, 8, 13, 50), but not from about 3000 on.
+- Correction (batch 15): the five person records (adam, ayyub, asiya, al-khidr) that batch 14 re-cited to scan numbers (3148, 3035, 3211, 3230, 3219) cited them to the standard source. They now cite `sahih-al-bukhari-bugha`, where those numbers are witnessed.
 - Scale left for later batches: about 612 number-form citations in 333 prose files, and 375 data files list `source/sahih-al-bukhari`. Each hadith's content is not yet checked against a scan.
 - Page-form citations (`{cite:sahih-al-bukhari p.N}`), which depend on an edition and cannot be witnessed, are fixed in ar, en and ur:
   - person/adam: p.3326 → 3148 (the greeting of the angels); p.3207 → 3035 ("ابن ونبي").
