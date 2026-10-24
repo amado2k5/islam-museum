@@ -10,4 +10,4 @@
 
 **Branch / stubs / progress.** `content/prose-backfill-2`; `data/_stubs.d/prose-backfill-2.yaml` (append-only); `docs/delegation/prose-backfill-2-progress.md` — one line per batch: files written, records skipped-no-source, next position in the queue. Commit prefix `content(prose-backfill-2)`.
 
-**Rules.** `AGENTS.md`, `docs/agents/workflow.md`, `docs/agents/content-standards.md`, `docs/agents/mining-sources.md`. All records stay `status.review: draft`.
+**Rules.** `AGENTS.md`, `docs/agents/workflow.md`, `docs/agents/content-standards.md`, `docs/agents/mining-sources.md`. Records enter as `status.review: draft` and are promoted under `docs/agents/review-and-promotion.md`.

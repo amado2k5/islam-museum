@@ -31,7 +31,7 @@ Reliability is a separate question and is unchanged: Wikipedia and Wikidata rema
 
 ## 5. No sign-off
 
-The founder has given standing permission for all of the above. No agent stops to ask whether a source may be read or rewritten, whether an entity may be written, or whether validated work may be committed and pushed. Flag doubts in the entity and the progress file and continue. Drafts still enter as `status.review: draft` with a provenance block, and no agent marks its own work `reviewed` or `verified`: that is the editorial review step, not a permission gate.
+The founder has given standing permission for all of the above. No agent stops to ask whether a source may be read or rewritten, whether an entity may be written, or whether validated work may be committed and pushed. Flag doubts in the entity and the progress file and continue. Drafts still enter as `status.review: draft` with a provenance block. Promotion to `reviewed` or `verified` is not a permission gate and not the founder's manual step: it is earned under the protocol in `docs/agents/review-and-promotion.md` (adopted 24 October 2026) — an independent reviewer agent, never the author, re-derives the record's claims against its sources and attests the review in the record's provenance, and a standing audit re-checks promoted records and demotes failures automatically. No agent ever marks its **own** work `reviewed` or `verified`.
 
 ## 6. Attribution
 

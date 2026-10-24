@@ -1,6 +1,6 @@
 # Knowledge-completeness programme — plan
 
-_Author: Devin (SWE-2 Medium), 23 Oct 2026. This is Phase 0 of the knowledge-completeness work order of 23 Oct 2026: a baseline audit and the lane definitions for Phases 1–5. No content production starts before this plan is merged and the founder gives the go-ahead. Execution stops at each phase boundary for the owner's sign-off._
+_Author: Devin (SWE-2 Medium), 23 Oct 2026. This is Phase 0 of the knowledge-completeness work order of 23 Oct 2026: a baseline audit and the lane definitions for Phases 1–5. Production began on the founder's go-ahead of 23 Oct 2026. Amended 24 Oct 2026: phases no longer stop at their boundaries for the owner's sign-off; a phase exits when its exit criteria (§3, as amended) are recorded in its progress file, and the next phase starts._
 
 ## 1. Baseline audit (recomputed 23 Oct 2026 on `origin/main` cdc4b6813)
 
@@ -116,7 +116,7 @@ Collision check performed against `docs/agents/lanes.md` (23 Oct 2026): none of 
 - **Scope.** Sweep the single-source dated-fact cohort — **6,245 entities** — starting with the ~11,700-record `wikidata-*` provenance cohort, adding a genuine second source per dated fact or confirming an explicit `needs_source`/flag.
 - **Order.** Top-5,000 most-linked tier first (its flagged/single-source dated facts), then the rest of the dated cohort by inbound links.
 - **Target.** Average sources per entity on the top-5,000 tier **1.417 → ≥1.6** (corpus-wide 1.285 → reported alongside), measured by coverage regeneration; every dated fact on the swept records two-sourced or explicitly flagged.
-- **Review packets.** Per packet, a file under `docs/delegation/review-packets/<packet-id>.md` listing records believed review-ready (complete prose, two sources on dated facts, links resolved) — proposals only; the founder alone flips `status.review`. Packet contents generated from data (no schema or status fields touched).
+- **Review.** Records believed review-ready (complete prose, two sources on dated facts, links resolved) are promoted under `docs/agents/review-and-promotion.md` (adopted 24 Oct 2026): an independent reviewer agent re-derives the claims and flips `status.review` with an attestation in the record's provenance. The former review-packet system is abolished; audit results live in `docs/delegation/review-audit.md`.
 
 ## 3. Targets and execution order
 
@@ -126,9 +126,9 @@ Collision check performed against `docs/agents/lanes.md` (23 Oct 2026): none of 
 | 2 | `practice-fiqh` | `practice` 60 → ≥300 + linked fiqh concepts |
 | 3 | `lib-tafsir-ibn-kathir` | 6 named surahs + Juz 'Amma ≈ 968 ayah records with `commentary_on` coverage |
 | 4 | `modern-century` | ~1,500 modern entities/events at completeness ≥2 with prose |
-| 5 | second-sources sweep | top-5k tier avg sources 1.417 → ≥1.6; review packets filed |
+| 5 | second-sources sweep | top-5k tier avg sources 1.417 → ≥1.6; promotions under the review protocol |
 
-Execution in the order 1 → 5, stopping at each phase boundary for the owner's go-ahead. Phases 1–2 may overlap in time only if the owner asks; the queue split and the usul-fiqh collision protocol keep them disjoint.
+Execution in the order 1 → 5. A phase boundary is an exit check, not a stop (amended 24 Oct 2026): the phase exits when its metrics are recorded in its progress file — its coverage delta achieved, the standing audit (docs/agents/review-and-promotion.md §6) passing at ≥ 98%, and zero unresolved contested flags — and the next phase starts. Phases may overlap when their queues are disjoint; the queue split and the usul-fiqh collision protocol keep them so.
 
 ## 4. Explicitly not in this programme
 
