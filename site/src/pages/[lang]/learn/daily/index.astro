@@ -1,0 +1,96 @@
+---
+// Daily challenge (docs/delegation/education-master-plan.md §5 E3, step 2): `/{lang}/learn/daily/`. The Century Challenge
+// has five rounds a day, each an event and four centuries; the schedule is `site/public/edu/daily-schedule.json`, written at
+// build time (scripts/edu-daily.ts). Without JavaScript the page lists the questions of the schedule's first seven days,
+// with the answers folded away. With JavaScript (site/src/scripts/daily.ts) it plays today's five rounds and builds the
+// result text (day, five-square grid, page link). Nothing is stored and no personal data is sent or kept.
+import { readFileSync } from "node:fs";
+import BaseLayout from "../../../../layouts/BaseLayout.astro";
+import { ui, fmt, LANGS, type Lang } from "../../../../lib/i18n";
+import { SITE } from "../../../../lib/graph";
+import { repoPath } from "../../../../lib/paths";
+import "../../../../styles/edu.css";
+
+export function getStaticPaths() { return LANGS.map((lang) => ({ params: { lang }, props: { lang } })); }
+const { lang } = Astro.props as { lang: Lang };
+const T = ui(lang);
+const E = T.edu;
+const path = `/${lang}/learn/daily/`;
+const schedule = JSON.parse(readFileSync(repoPath("site", "public", "edu", "daily-schedule.json"), "utf8"));
+const loc = (o: any) => o?.[lang] ?? o?.en ?? o?.ar ?? "";
+const week = schedule.days.slice(0, 7) as { day: number; rounds: { id: string; label: Record<string, string>; century: number }[] }[];
+const strings = { round: E.dl_round, question: E.dl_question, choice: E.dl_choice, score: E.dl_score, right: E.mc_correct, wrong: E.mc_wrong, copied: E.dl_copied, done: E.dl_done, error: E.dl_error, brand: E.dl_brand, name: E.dl_name };
+---
+<BaseLayout lang={lang} title={E.dl_title} description={E.dl_lede} path={path}>
+  <div class="wrap edu" style="padding-block:10px 24px">
+    <nav class="ui muted no-print" aria-label="breadcrumb"><a href={`/${lang}/learn/`}>{E.title}</a> › {E.dl_title}</nav>
+    <h1>{E.dl_title}</h1>
+    <p style="font-size:1.1rem;max-width:var(--measure)">{E.dl_lede}</p>
+    <p class="panel ui" style="max-width:var(--measure)"><b>{E.dl_device}</b></p>
+
+    <section class="dl" data-daily data-lang={lang} data-path={path} data-site={SITE} aria-labelledby="dl-today" data-i18n-round={strings.round} data-i18n-question={strings.question} data-i18n-choice={strings.choice} data-i18n-score={strings.score} data-i18n-right={strings.right} data-i18n-wrong={strings.wrong} data-i18n-copied={strings.copied} data-i18n-done={strings.done} data-i18n-error={strings.error} data-i18n-brand={strings.brand} data-i18n-name={strings.name}>
+      <h2 id="dl-today" class="ui" style="font-size:1.1rem">{E.dl_title}</h2>
+      <p class="ui dl-nojs" data-nojs>{E.dl_nojs}</p>
+      <div data-rounds></div>
+      <div class="dl-result" data-result hidden>
+        <p class="ui" data-score aria-live="polite"></p>
+        <p><label class="ui" for="dl-text">{E.dl_result_label}</label></p>
+        <textarea id="dl-text" class="dl-text" data-text rows="3" readonly dir="auto"></textarea>
+        <p class="dl-actions">
+          <button type="button" class="chip" data-copy>{E.dl_copy}</button>
+          <button type="button" class="chip" data-share hidden>{E.dl_share}</button>
+        </p>
+        <p class="ui" data-msg role="status"></p>
+      </div>
+    </section>
+
+    <section class="dl-week" aria-labelledby="dl-week-h">
+      <h2 id="dl-week-h" class="ui" style="font-size:1.05rem">{E.dl_week}</h2>
+      <ol class="dl-days">
+        {week.map((d) => (
+          <li>
+            <p class="ui"><b>{fmt(E.dl_day, { d: String(d.day) })}</b></p>
+            <ol class="dl-rounds">
+              {d.rounds.map((r, i) => (
+                <li>{fmt(E.dl_question, { event: loc(r.label) })} <span class="muted ui">({fmt(E.dl_round, { i: String(i + 1), n: String(d.rounds.length) })})</span></li>
+              ))}
+            </ol>
+            <details class="dl-answers">
+              <summary class="ui">{E.dl_answers}</summary>
+              <ol>
+                {d.rounds.map((r) => <li>{loc(r.label)}: {fmt(E.dl_choice, { n: String(r.century) })}</li>)}
+              </ol>
+            </details>
+          </li>
+        ))}
+      </ol>
+    </section>
+  </div>
+  <style>
+    .dl { margin: 0 0 1.6rem; }
+    .dl-nojs { font-size: .9rem; border: 1px dashed var(--gold); border-radius: 8px; padding: 6px 10px; max-width: var(--measure); }
+    :root.js .dl-nojs { display: none; }
+    .dl [hidden] { display: none !important; }
+    .dl-round { border: 1px solid var(--line); border-radius: 14px; padding: 14px; margin: 0 0 12px; background: var(--card); max-width: 46rem; }
+    .dl-round h3 { font-size: .95rem; font-weight: 400; color: var(--muted); margin: 0 0 4px; }
+    .dl-q { font-size: 1.15rem; font-weight: 700; line-height: 1.6; margin: 0 0 8px; }
+    .dl-choices { display: flex; flex-wrap: wrap; gap: 8px; margin: 0; padding: 0; list-style: none; }
+    .dl-choice { min-height: 44px; min-width: 44px; padding: 8px 14px; border-radius: 12px; border: 2px solid var(--line); background: var(--bg); color: inherit; font: inherit; cursor: pointer; }
+    .dl-choice:focus-visible, .chip:focus-visible { outline: 3px solid var(--gold); outline-offset: 2px; }
+    .dl-choice:disabled { cursor: default; }
+    .dl-choice.dl-right { border-color: #2f6b31; background: color-mix(in srgb, #2f6b31 14%, transparent); }
+    .dl-choice.dl-wrong { border-color: #c0392b; background: color-mix(in srgb, #c0392b 12%, transparent); }
+    .dl-fb { min-height: 1.3em; margin: 8px 0 0; font-weight: 700; }
+    .dl-result { border: 1px solid var(--gold); border-radius: 14px; padding: 14px; background: var(--panel); max-width: 46rem; }
+    .dl-text { width: 100%; font: inherit; padding: 8px; border-radius: 8px; border: 1px solid var(--line); background: var(--bg); color: inherit; }
+    .dl-actions { display: flex; flex-wrap: wrap; gap: 8px; margin: 10px 0 0; }
+    .dl-week { margin: 0 0 1rem; }
+    .dl-days { list-style: none; margin: 0; padding: 0; display: grid; gap: 12px; }
+    .dl-days > li { border-top: 1px solid var(--line); padding-top: 10px; }
+    .dl-rounds { margin: 4px 0 0; padding-inline-start: 1.4rem; }
+    .dl-answers { margin: 6px 0 0; }
+    .dl-answers summary { cursor: pointer; }
+    @media print { .dl, .no-print { display: none !important; } .dl-week { display: block !important; } .dl-answers[open] summary { display: none; } }
+  </style>
+</BaseLayout>
+<script src="../../../../scripts/daily.ts"></script>
