@@ -7,6 +7,7 @@ Checks run at three points. Each one is a rule a change must keep true. If a che
 | Any data or content change | `npm run validate` | Schema, references, dates, honorifics, Qur'an text, licences, content lints (below). |
 | Any logic change | `npm test` | Validator rules, the Qur'an text is frozen, scope rules, the date rules (`scripts/hijri/*.test.ts`), and the site inputs (i18n paths and dependencies, `scripts/site-deps.test.ts`). |
 | Any site change | `npm run build` | `validate`, then the graph and derive steps, the Astro build (which contains its own assertions), then `check:site`. |
+| Education page weight | `npm run check:weight` (part of `npm run build`) | The education routes listed in `scripts/check-weight.ts` stay under their HTML (CSS inlined) and JS budgets; a breach fails the build and is fixed by removing weight (plan `docs/delegation/education-master-plan.md` §3). |
 | Network guard | `npm run check:static` | No runtime calls to external origins; the site stays static. |
 
 ## Content lints (`scripts/validate.ts`)

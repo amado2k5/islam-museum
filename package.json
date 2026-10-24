@@ -3,7 +3,7 @@
   "private": true,
   "version": "0.1.0",
   "type": "module",
-  "description": "islam.museum \u2014 an open, free, all-digital museum of Islam, built as a knowledge graph in git.",
+  "description": "islam.museum — an open, free, all-digital museum of Islam, built as a knowledge graph in git.",
   "license": "MIT",
   "engines": {
     "node": ">=22"
@@ -20,9 +20,10 @@
     "test": "vitest run",
     "prebuild": "npm run validate && npm run graph && npm run derive && npm run api",
     "dev": "npm run graph && npm run derive && npm run api && npm --prefix site run dev",
-    "build": "npm --prefix site run build && npm run check:site",
+    "build": "npm --prefix site run build && npm run check:site && npm run check:weight",
     "check:static": "tsx scripts/check-static.ts",
-    "check:site": "tsx scripts/check-site.ts"
+    "check:site": "tsx scripts/check-site.ts",
+    "check:weight": "tsx scripts/check-weight.ts"
   },
   "dependencies": {
     "@umalqura/core": "^0.0.7",
@@ -30,10 +31,12 @@
     "ajv-formats": "^3.0.1",
     "edtf": "^4.6.0",
     "graphology": "^0.26.0",
+    "qrcode-generator": "^2.0.4",
     "yaml": "^2.6.0"
   },
   "devDependencies": {
     "@types/node": "^22.0.0",
+    "@types/qrcode-generator": "^0.0.16",
     "tsx": "^4.19.0",
     "typescript": "^5.6.0",
     "vitest": "^3.0.0"

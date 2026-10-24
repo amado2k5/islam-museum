@@ -35,6 +35,12 @@ if (process.argv[1] && fileURLToPath(import.meta.url) === process.argv[1]) {
     for (const path of paths) yield { path, html: readFileSync(path, "utf8") };
   }
   const { errors, warns } = scan(pages());
+  // the teacher pathway landing pages (E2) must be in the sitemap in the three languages: outreach links to them
+  const sitemap = listFiles(dist, ".xml").filter((f) => /sitemap/.test(f)).map((f) => readFileSync(f, "utf8")).join("\n");
+  for (const f of listFiles(p("data", "exhibit"), ".yaml").filter((f) => /\/pathway-/.test(f))) {
+    const slug = f.replace(/.*\/pathway-/, "").replace(/\.yaml$/, "");
+    for (const lang of ["ar", "en", "ur"]) if (!sitemap.includes(`/${lang}/learn/teachers/pathways/${slug}/`)) errors.push(`sitemap: /${lang}/learn/teachers/pathways/${slug}/ is missing`);
+  }
   for (const w of warns) console.log("warn  " + w);
   for (const e of errors) console.log("ERROR " + e);
   console.log(`checked ${paths.length} pages: ${errors.length} errors, ${warns.length} warnings`);

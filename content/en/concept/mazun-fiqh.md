@@ -1,0 +1,8 @@
+---
+id: concept/mazun-fiqh
+lang: en
+source_lang: ar
+translators: ["Claude Haiku 5.5 (claude-haiku-5-5), draft translation"]
+---
+## Summary
+Mazun, the past participle of adhina, means one to whom permission is given; the jurists drop the complement and say the permitted slave. In technical use it is a person whose restriction is lifted and who is permitted to trade and deal, by his master if a slave or by his guardian if a minor {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.13776}. Most jurists allow permission to such a person when a reason exists; the preferred Shafi'i view is that a minor may not be permitted to trade, his guardian making the contract instead {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.13776}. Permission is limited by time, place and kind of transaction; the Hanafis widen a narrow permission, the Malikis make it subject to the guardian's approval, and the Hanbalis hold the permission to what the guardian set {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.13776-13778}. A permitted minor's dealings are of three kinds: pure benefit, pure harm, and in between. Accepting an unconditional gift is valid by most jurists; a harmful dealing is not valid even with permission; an exchange made before permission is suspended on the guardian's approval for the Hanafis and Malikis, and after permission the schools differ {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.13778-13780}. The Hanafis and Malikis validate a permitted fool's sales; the Shafi'is, in the preferred view, do not {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.13780}. If the permitting person dies, a father's guardianship ends and the permission lapses, and a guardian's trusteeship ends with his death {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.13780}.

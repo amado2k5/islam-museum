@@ -42,3 +42,12 @@ As he approached forty, solitude became dear to him. For three years before his 
 
 ## The secret call (*The Sealed Nectar*, pp. 74–77)
 The author divides his call into a Meccan phase and a Medinan phase. The first stage of the Meccan phase was three years of secret call ([[concept/marahil-al-dawa|stages of the call]]) {cite:mubarakpuri-raheeq p.74}. He offered Islam first to those closest to him. On the first day, [[person/khadija|Khadija]], [[person/zayd-ibn-haritha|Zayd]], [[person/ali-ibn-abi-talib|Ali]] and [[person/abu-bakr|Abu Bakr]] embraced Islam. Then came those whom Abu Bakr called to it, and then a group whom Ibn Hisham counted at more than forty ([[event/al-dawa-al-sirriyya|the secret call]]) {cite:mubarakpuri-raheeq pp.75-76} {cite:ibn-hisham-sira 1/245-262}. He would gather with them and guide them in secret, and they would pray in the mountain passes while concealed ([[concept/al-salat-qabl-al-isra|the prayer before the Night Journey]]) {cite:mubarakpuri-raheeq pp.76-77} {cite:ibn-hisham-sira 1/247}.
+
+## For Sprouts
+The Prophet of Islam. Muslims believe the Qur'an was revealed to him, and he founded the first Muslim community in Medina.
+
+## For Explorers
+Muhammad, the Prophet of Islam, was born in Mecca around the year 570. Muslims believe the Qur'an was revealed to him. He lived in Mecca, then moved to Medina, where the first Muslim community took shape. He died in 632. People in Mecca knew him as trustworthy before revelation began.
+
+## For Scholars
+Muhammad ibn Abdullah was born in Mecca around 570 CE and died in 632 CE. Muslims believe he is the Prophet to whom the Qur'an was revealed. The people of Mecca knew him for honesty and trust before his mission, and he traded and worked among his people. Revelation came when he was forty, and he called Quraysh to the oneness of God; the harm he suffered grew until he migrated to Medina in 622, where he founded the first Muslim community. His life is told in the sira and the hadith, and the museum gives each report with its source and its degree of reliability.

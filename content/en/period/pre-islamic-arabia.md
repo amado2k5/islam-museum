@@ -62,3 +62,12 @@ The lists above are the most prominent and most frequently appearing items in th
 
 ## Notes for researchers
 The era's boundaries are the museum's own organising convention and are approximate. For the wider history of this period, see {cite:hodgson-1974} {cite:hourani-1991}.
+
+## For Sprouts
+Before Islam, the Arabian Peninsula had trading towns, tribes living in the desert, and poets who made beautiful verses.
+
+## For Explorers
+Long before revelation came, the Arabian Peninsula was a wide land with trading towns such as Mecca and tribes that moved across the desert. People loved poetry, and they gathered at the Ukaz market to hear the finest poems. Some worshipped idols, and there were also Jewish and Christian communities. Islam came out of this land.
+
+## For Scholars
+The Arabian Peninsula and its neighbours in the generations before revelation: trading towns like Mecca, scattered tribes, poetry and genealogies, and Jewish, Christian and polytheist communities. Our knowledge of this age comes from poetry, reports and genealogies, and each report needs a source that confirms it. Islam grew on this stage; this entry does not set out its rulings.

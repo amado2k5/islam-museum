@@ -1,0 +1,64 @@
+---
+// The Museum Passport page (E1): every stamp, grouped by band, with the count, the review-due line, print,
+// share and a two-step erase. Reads localStorage only; prints blank (to fill by hand) without JavaScript.
+import BaseLayout from "../../../layouts/BaseLayout.astro";
+import Qr from "../../../components/Qr.astro";
+import { ui, LANGS, fmt, type Lang } from "../../../lib/i18n";
+import { viewBands, viewStamps, stampRules } from "../../../lib/edu";
+import { SITE } from "../../../lib/graph";
+import "../../../styles/edu.css";
+
+export function getStaticPaths() { return LANGS.map((lang) => ({ params: { lang }, props: { lang } })); }
+const { lang } = Astro.props as { lang: Lang };
+const T = ui(lang);
+const E = T.edu;
+const path = `/${lang}/learn/passport/`;
+const bands = viewBands(lang, T.kids);
+const stamps = viewStamps(lang);
+const groups = bands.map((b) => ({ band: b, stamps: stamps.filter((s) => s.band === b.id) })).filter((g) => g.stamps.length > 0);
+---
+<BaseLayout lang={lang} title={E.passport_title} description={E.passport_lede} path={path}>
+  <div class="wrap edu" style="padding-block:10px 24px" data-pagefind-ignore>
+    <nav class="ui muted no-print" aria-label="breadcrumb"><a href={`/${lang}/learn/`}>{E.title}</a> › {E.passport_title}</nav>
+    <h1>{E.passport_title}</h1>
+    <p style="font-size:1.1rem;max-width:var(--measure)">{E.passport_lede}</p>
+    <p class="passport-line" style="font-size:1.1rem">
+      <b data-passport-count data-tpl={E.passport_count}>{E.passport_count.replace("{n}", "0").replace("{total}", String(stamps.length))}</b>
+      <span data-passport-empty>{E.passport_empty}</span>
+      <span data-due data-tpl={E.passport_due} hidden><span data-due-text></span> <a href={`/${lang}/cards/lists/`}>{E.passport_due_go}</a></span>
+    </p>
+    <noscript><p class="panel">{E.passport_nojs}</p></noscript>
+
+    <div class="passport-actions no-print">
+      <button type="button" class="btn btn-lapis" data-print>{E.passport_print}</button>
+      <button type="button" class="btn btn-outline" data-passport-share
+        data-title={E.passport_title} data-line={E.passport_count} data-text={E.share_text.replace("{title}", E.passport_title)}
+        data-url={`${SITE}${path}`} data-image={E.share_image} data-copy={E.share_copy} data-copied={E.share_copied} data-note={E.share_note}>{E.passport_share}</button>
+      <button type="button" class="btn btn-ghost" data-passport-erase data-confirm={E.passport_erase_confirm} data-done={E.passport_erased}>{E.passport_erase}</button>
+      <span role="status" data-passport-msg></span>
+    </div>
+    <div class="share-box" data-share-box hidden></div>
+
+    {groups.map((g) => (
+      <section aria-labelledby={`pp-${g.band.id}`}>
+        <h2 id={`pp-${g.band.id}`}>{g.band.glyph} {fmt(E.passport_band_title, { band: g.band.name })} <span class="ui muted" data-passport-count data-band={g.band.id} data-tpl={E.passport_count}>{E.passport_count.replace("{n}", "0").replace("{total}", String(g.stamps.length))}</span></h2>
+        <ul class="passport-grid">
+          {g.stamps.map((s) => (
+            <li>
+              <a class="stamp stamp-lg" href={s.href} data-stamp={s.id} data-on-label={E.passport_earned} data-off-label={E.passport_todo} aria-label={`${s.label}: ${E.passport_todo}`}>{s.icon}</a>
+              <span class="lbl">{s.label}</span>
+              <span class="st" data-stamp-state>{E.passport_todo}</span>
+            </li>
+          ))}
+        </ul>
+      </section>
+    ))}
+
+    <p class="muted">{E.passport_print_note}</p>
+    <p class="no-print"><a class="chip" href={`/${lang}/learn/parents/weekly/`}>{E.wk_title}</a> <a class="chip" href={`/${lang}/learn/shelf/`}>{E.sh_open}</a></p>
+    <Qr lang={lang} path={path} />
+    <script type="application/json" data-passport-rules set:html={JSON.stringify(stampRules())} />
+  </div>
+  <script src="../../../scripts/passport.ts"></script>
+  <script src="../../../scripts/print-btn.ts"></script>
+</BaseLayout>

@@ -11,3 +11,12 @@ When the news reached the Messenger of God he consulted his Companions, and [[pe
 When the Confederates arrived they found the trench a barrier they had not known in their wars, and laid siege to Medina for a month; at the height of the distress Huyayy ibn Akhtab tempted [[person/kaab-ibn-asad|Ka'b ibn Asad]], chief of Banu Qurayza, into breaking his pact with the Muslims, so the Muslims were threatened from behind by a war within — a fearful scene the Qur'an describes in [[passage/quran-33-10|Sura al-Ahzab, verse 10]]. {cite:mubarakpuri-raheeq}
 
 Then God prepared the means of victory through the secret conversion of [[person/nuaym-ibn-masud|Nu'aym ibn Mas'ud al-Ashja'i]]; the Prophet ordered him to sow doubt, and he spread suspicion between Quraysh and Ghatafan and between them and Qurayza. Then God sent on them a bitter, violent wind on a cold dark night that uprooted their tents, overturned their pots and cast terror into their hearts, and they fled in retreat; [[person/hudhayfa-ibn-al-yaman|Hudhayfa ibn al-Yaman]] slipped among them and returned to the Messenger of God with the news of their departure. {cite:sahih-muslim}
+
+## For Sprouts
+The Muslims dug a trench around Medina to protect it. God protected the people of the city, and a strong wind sent the armies away.
+
+## For Explorers
+Large armies came to attack Medina. Salman al-Farisi suggested digging a trench to guard the open side of the city. The Muslims were patient and worked together until the armies left, by God's leave, and a strong wind was a sign of God's help.
+
+## For Scholars
+In Shawwal of the fifth year after the Hijra, a coalition of Meccans and allied tribes marched on Medina. On Salman al-Farisi's advice the Muslims dug a trench on the northern side, and they stayed patient for nearly a month. The sources tell of the Banu Qurayza breaking their pact, of Nu'aym ibn Mas'ud's stratagem that divided the armies, and of a strong wind at night. The reports differ on the size of the armies, so each number needs a source. This entry gives the events of the trench as the sira books tell them, and shows how counsel and patience protected the city.

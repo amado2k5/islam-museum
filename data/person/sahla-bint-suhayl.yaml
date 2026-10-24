@@ -14,7 +14,7 @@ themes: [refugees-migrants-diaspora]
 periods: [period/prophetic-era]
 regions: [arabia, east-africa]
 story_roles:
-  - { role: companion, status: tradition, note: "يذكرها ابن إسحاق في فصل مهاجرة الحبشة (ص11)", sources: [source/ibn-hisham-saqqa] }
+  - { role: companion, status: tradition, note: "يذكرها ابن إسحاق في فصل مهاجرة الحبشة (ص11)", sources: [source/ibn-hisham-saqqa, source/ibn-hajar-isaba] }
 faith:
   - { value: sunni, basis: tradition, note: "ذُكر في أصحاب النبي المهاجرين إلى الحبشة؛ مسجّل في الإطار السني للمتحف" }
 relations:
@@ -24,5 +24,5 @@ relations:
   - { type: participated_in, target: event/return-of-abyssinian-emigrants, role: emigrant, sources: [source/ibn-hisham-saqqa] }
   - { type: traveled_to, target: place/aksum, note: "أرض الحبشة", sources: [source/ibn-hisham-saqqa] }
 provenance: { layer: own-research, source: "sira-ibn-hisham saqqa 1936, juz' 4 p. 11", generated_by: "Claude Sonnet 5.5", run: "ibn-hisham-batch-5c-v" }
-sources: [source/ibn-hisham-saqqa]
-status: { review: draft, completeness: 1, generated_by: "Claude Sonnet 5.5; mined from Ibn Hisham juz' 4 pp. 3-11" }
+sources: [source/ibn-hisham-saqqa, source/ibn-hajar-isaba]
+status: { review: draft, completeness: 3, generated_by: "Claude Sonnet 5.5; mined from Ibn Hisham juz' 4 pp. 3-11" }

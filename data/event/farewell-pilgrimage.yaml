@@ -20,4 +20,8 @@ relations:
   - { type: had_participant, target: person/hafsa }
   - { type: part_of, target: period/prophetic-era }
 sources: [source/ibn-ishaq-guillaume, source/watt-1956-medina, source/lings-1983, source/mubarakpuri-raheeq, source/sahih-muslim, source/sahih-al-bukhari, source/zad-al-maad, source/ibn-hisham-saqqa, source/sallabi-ali-vol1]
+education:
+  levels: [sprouts, explorers, scholars]
+  flagged_for_kids: true
+  provenance: { generated_by: "Claude Code", model: "Claude Haiku 5.5 (claude-haiku-5-5)", run: "education-E2-batch1", note: "Leveled texts drafted from the record's own summary; draft, pending the founder's review and scholar review of the child levels." }
 status: { review: draft, completeness: 2, generated_by: "Claude Sonnet 5.5; dates follow the cited tradition and are approximate where marked" }

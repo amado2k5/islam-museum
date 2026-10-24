@@ -30,3 +30,12 @@ The author notes in a footnote that historians differ about the month of the mis
 
 ## For young visitors
 The Prophet used to go to a small cave on a mountain near Mecca to worship. On one of the nights of Ramadan the angel Gabriel came to him and told him to read. These were the first verses of the Qur'an. The Prophet returned to his home afraid, and his wife Khadija reassured him.
+
+## For Sprouts
+At the cave of Hira, Jibril came to the Prophet with the first verses of surat al-Alaq, and revelation began.
+
+## For Explorers
+In the cave of Hira, near Mecca, Jibril came to the Prophet Muhammad with the first words of surat al-Alaq. This was the beginning of revelation. The Prophet used to spend time in this cave in quiet reflection, about thirteen years before the Hijra.
+
+## For Scholars
+In the cave of Hira on a mountain near Mecca, Jibril came to the Prophet Muhammad with the opening verses of surat al-Alaq, and this was the beginning of revelation. The sources say he used to withdraw to the cave for reflection, and that the event took place in Ramadan. The reports differ on the exact day, and the book gives its preferred reckoning with the calculation. Historians place the event about thirteen years before the Hijra. The Gregorian date in this entry is derived by calculation, not taken from a source.
