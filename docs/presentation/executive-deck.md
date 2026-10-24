@@ -19,8 +19,9 @@ Companion docs: `docs/engineering/` (this deck's sources).
 
 - A museum with no building: persons, events, places, ideas, objects, texts
   and living culture — from late antiquity to today.
-- ~32k entities across 21 classes (8.6k people, 9.5k Qur'an passages,
-  4.3k events, 1.7k places), all draft until human review.
+- ~36k entities across 21 classes (8.7k+ people, 9.5k Qur'an passages,
+  4.4k events, 1.7k places) plus the `edu/` programme — all draft until
+  human review.
 - Arabic first, English and Urdu always. RTL is structural.
 - Licensed open: code MIT, data CC0, prose CC BY-SA 4.0.
 
@@ -153,6 +154,7 @@ Total validation every run — no incremental hiding of bad data.
 | AVIF/WebP thumbs + IIIF full-res | small pages, no re-hosting |
 | PMTiles + range requests | one-file basemap, no tile keys |
 | Lighthouse CI on Arabic pages | budget enforced on the hard case |
+| `check:weight` per-route budgets | education pages can't gain weight silently |
 
 ---
 
