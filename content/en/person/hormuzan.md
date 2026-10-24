@@ -13,3 +13,6 @@ The index of the fourth volume of al-Tabari's history states that Ubayd Allah ib
 
 ## His counsel
 Al-Baladhuri transmits from Ma'qil ibn Yasar that Umar consulted him: should he begin with Isfahan or with Azerbaijan? Hormuzan said that Isfahan is the head and Azerbaijan the two wings, and that if the head is cut off the two wings fall. {cite:futuh-buldan-maarif-1407}
+
+## In al-Isaba
+Ibn Hajar gives him his own entry in al-Isaba, no. 9028: "al-Hurmuzan the Persian, who was among the kings of Persia; he was captured during the conquests of Iraq and became Muslim at the hands of Umar, then stayed with him in Medina, and Umar consulted him about fighting the Persians." {cite:ibn-hajar-isaba p.1542} The entry narrates from Anas that they besieged Tustar, whereupon Hormuzan came down on Umar's judgement and was brought before him, and from the judge Isma'il ibn Ishaq that the Prophet wrote a letter to Hormuzan inviting him to Islam. {cite:ibn-hajar-isaba p.1542}
