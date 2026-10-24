@@ -434,6 +434,38 @@ Same source as Batch 11: Freely, *A History of Ottoman Architecture* (2011), con
 ### Methodological notes
 - `person/` untouched.
 
+## Batch 13 — thin-stub expansion cohort, 12 records (rijal lane, agent pb2-rijal)
+
+**Reconciliation note:** the twelve queue-head names audited in Batch 9 (`nafi-mawla-ibn-umar`, `hisham-ibn-urwa`, `zayd-ibn-aslam`, `muhammad-ibn-al-munkadir`, `zayd-ibn-khalid-al-juhani`, `abu-bakr-ibn-abd-al-rahman-ibn-al-harith`, `amr-ibn-shuayb`, `abu-umama-ibn-sahl-ibn-hunayf`, `sahl-ibn-hunayf`, `abu-qatada-al-ansari`, `abd-al-rahman-ibn-abi-layla`, `abu-waqid-al-laythi`) were re-checked: all already carry committed ar+en+ur prose, verified rijal sources and completeness 3 — no work pending; the earlier "planned batch" framing was superseded by the Batch 9 audit itself.
+
+Queue recomputed over `data/person/*.yaml` thin (`<900 B`) `content/ar` stubs ranked by inbound links; the missing-prose head is non-rijal (`muhammad-mutawalli-al-shaarawi`, `yunus-emre`, Ottoman/Persian figures) — deferred. Each chosen stub's own entry was located by full nasab, then the stub was expanded (existing paragraphs kept) and the used source added with completeness 3.
+
+| record | own entry verified |
+|---|---|
+| person/abu-salih-al-samman | Taqrib ١٨٤١ (ذكوان أبو صالح السمان الزيات المدني), Majmuat scan p.190 |
+| person/ikrima-mawla-ibn-abbas | Taqrib ٤٦٧٣ (عكرمة أبو عبد الله مولى ابن عباس), p.437 |
+| person/habib-ibn-maslama | audit: Isaba ١٦٨٩ already cited in prose; +ibn-hajar-isaba, completeness 3 |
+| person/umayr-ibn-sad | Isaba ٦٧٧٨ (عمير بن سعد بن عبيد بن النعمان … الأنصاري الأوسي، عامل عمر على حمص), p.1145 |
+| person/al-ala-ibn-al-hadrami | Isaba ٦٢٠٤ (العلاء بن الحضرمي = عبد الله بن عماد بن أكبر…), p.1051 |
+| person/hormuzan | Isaba ٩٠٢٨ (الهرمزان الفارسي), p.1542 |
+| person/sahla-bint-suhayl | Isaba ١١٣٩٩ (سهلة بنت سهيل بن عمرو القرشية العامرية), p.1902 |
+| person/mujashi-ibn-masud-al-sulami | Isaba ٧٨١١ (مجاشع بن مسعود بن ثعلبة … السلمي), p.1335 |
+| person/abd-al-rahman-ibn-usayla-al-sunabihi | Isaba ٤٧٩٢ (عبد الرحمن بن عسيلة بن عسال المرادي الصنابحي), p.811 |
+| person/khuzayma-ibn-thabit | Isaba ٢٣١٠ (خزيمة بن ثابت بن الفاكه … الأوسي ثم الخطمي), p.392 |
+| person/salit-ibn-amr | Isaba ٣٥٦١ (سليط بن عمرو القرشي العامري ابن أخ سهيل بن عمرو), p.604 |
+| person/rabia-ibn-umayya-ibn-khalaf | Isaba ٢٦٣٤ (ربيعة بن أمية بن خلف بن وهب بن حذافة بن جمح الجمحي), p.458 |
+
+### Notes
+- `ikrima-mawla-ibn-abbas` death year left as a recorded disagreement: Muruj 105, Taqrib 104/لاحقاً, Kashif 106-107.
+- `rabia-ibn-umayya-ibn-khalaf`: the wine/exile-to-Caesar report is carried inside his own Isaba entry with its isnad to al-Zuhri — recorded attributed, not endorsed.
+- `umayr-ibn-sad`: Ibn Hajar's correction of Abd al-Ghani's conflation with Umayr ibn al-Hammam is noted rather than resolved silently.
+- `abd-al-rahman-ibn-usayla-al-sunabihi`: Isaba makes him a Companion-era envoy who prayed behind Abu Bakr and died 70-80 AH; the Shirazi "faqih of Egypt" framing is kept alongside.
+
+### Deferred this batch
+- `sawda-bint-zama`, `thuwayba` — no numbered own entry in the extracted Isaba scan (women's volume coverage incomplete; Sawda appears only inside relatives' entries).
+- `busr-ibn-said`, `abdallah-ibn-abi-rabia`, `sallam-ibn-ziyad`, `musa-ibn-abdallah-ibn-khazim`, `abd-al-rahman-ibn-habib-al-fihri`, `ayyub-al-sakhtiyani`, `qays-ibn-al-haytham`, `ubayd-allah-ibn-ziyad`, `musab-ibn-al-zubayr` — no readable own entry in the extracted Taqrib/Isaba/Tahdhib/Thiqat scans (Busr only in the Thiqat name-index; abdallah-ibn-abi-rabia's own entry absent, the envoy's name only inside relatives' entries).
+- `farazdaq`, `yusuf-ibn-tashfin`, `musa`, `ardashir-i-ibn-babak`, `baha-al-dawla`, `jahm-ibn-zahr`, `abu-al-bakhtari-ibn-hisham`, `shurahbil-ibn-al-harith`, `abd-al-aziz-ibn-marwan`, `amr-ibn-kulthum`, `shajar-al-durr`, `ibn-battuta-muhammad`, `ibn-qayyim-al-jawziyya`, `fakhr-al-din-al-razi`, `ibn-ishaq`, `ibn-al-nadim`, `abu-ishaq-ibrahim-al-marwazi`, `hormuzan`-adjacent non-rijal heads — poets, prophets, dynasts and scholars whose biography belongs to non-rijal sources.
+
 ### Batch 13 (24 Oct 2026, 15 records: 15 written) — general lane (Devin)
 
 Founder-authorized record creation: 14 new `building/` stubs (minimal yaml, completeness 3 with prose) plus the existing `semsi-pasha-mosque` stub — all sourced to Freely, *A History of Ottoman Architecture* (2011). Side task: `data/source/freely-ottoman-architecture-2011.yaml` enriched (completeness 1→3, reliability note).
