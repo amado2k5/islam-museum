@@ -1,0 +1,46 @@
+id: person/muhammad-sayyid-tantawi
+class: person
+label: { ar: "محمد سيد طنطاوي", en: "Muhammad Sayyid Tantawi", ur: "محمد سید طنطاوی" }
+names:
+  - { value: "محمد سيد طنطاوي", kind: full }
+  - { value: "Muhammad Sayyid Tantawi", kind: full }
+gender: male
+summary:
+  ar: "عالم مصري، مفتي الديار المصرية (1986–1996) ثم الإمام الأكبر شيخ الأزهر من 1996 حتى وفاته في 2010، وصاحب تفسير للقرآن في سبعة آلاف صفحة وفتاوى أثارت جدلًا واسعًا."
+  en: "Egyptian scholar, Grand Mufti of Egypt (1986–1996) and then Grand Imam of al-Azhar from 1996 until his death in 2010. He wrote a seven-thousand-page exegesis of the Qur'an, and a number of his fatwas drew wide controversy."
+  ur: "مصری عالم، مصر کے مفتیِ اعظم (1986–1996) اور پھر 1996 سے وفات (2010) تک الازہر کے امامِ اکبر۔ انہوں نے قرآن کی سات ہزار صفحات پر مشتمل تفسیر لکھی، اور ان کے کئی فتوے وسیع بحث کا موضوع بنے۔"
+roles: [scholar, writer]
+wings: [people]
+born:
+  edtf: "1928-10-28"
+  hijri: "1347"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "Gregorian date from English Wikipedia and Wikidata; the Arabic Wikipedia article gives the Hijri date as 14 Jumada al-awwal 1347 AH."
+  sources: [source/wikipedia-muhammad-sayyid-tantawi-en, source/wikidata-muhammad-sayyid-tantawi]
+died:
+  edtf: "2010-03-10"
+  hijri: "1431"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "Died of a heart attack in Riyadh, Saudi Arabia, and was buried in Medina. Gregorian date from English Wikipedia and Wikidata; the Arabic Wikipedia article gives the Hijri date as 24 Rabi' al-awwal 1431 AH."
+  sources: [source/wikipedia-muhammad-sayyid-tantawi-en, source/wikipedia-muhammad-sayyid-tantawi-ar, source/wikidata-muhammad-sayyid-tantawi]
+relations:
+  - { type: lived_in, target: place/medina, sources: [source/wikipedia-muhammad-sayyid-tantawi-en, source/wikipedia-muhammad-sayyid-tantawi-ar] }
+faith:
+  - value: sunni
+    basis: documented
+    note: "Wikidata records his religion as both Islam and Sunni Islam, and the Arabic Wikipedia infobox independently gives his jurisprudence as Shafi'i, one of the four Sunni schools. The English infobox gives no denomination."
+    sources: [source/wikidata-muhammad-sayyid-tantawi, source/wikipedia-muhammad-sayyid-tantawi-ar]
+external_ids: { wikidata: "Q369971" }
+sources: [source/wikipedia-muhammad-sayyid-tantawi-en, source/wikipedia-muhammad-sayyid-tantawi-ar, source/wikidata-muhammad-sayyid-tantawi]
+provenance:
+  layer: own-research
+  source: "English Wikipedia article 'Muhammad Sayyid Tantawi' (revision of 3 October 2026), Arabic Wikipedia article «محمد سيد طنطاوي» (revision of 7 October 2026), Wikidata Q369971; checked 24 Oct 2026"
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: modern-figures-batch-1
+status: { review: published, generated_by: "Muse (Muse Spark 1.3)" }

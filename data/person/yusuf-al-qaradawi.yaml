@@ -1,0 +1,44 @@
+id: person/yusuf-al-qaradawi
+class: person
+label: { ar: "يوسف القرضاوي", en: "Yusuf al-Qaradawi", ur: "یوسف قرضاوی" }
+names:
+  - { value: "يوسف عبد الله القرضاوي", kind: full }
+  - { value: "Yusuf Abdullah al-Qaradawi", kind: full }
+gender: male
+summary:
+  ar: "عالم مصري عاش في قطر، مؤسس الاتحاد العالمي لعلماء المسلمين ورئيسه، اشتهر عالميًا ببرنامجه «الشريعة والحياة» على قناة الجزيرة وبموقع إسلام أون لاين، وألّف أكثر من 120 كتابًا."
+  en: "Egyptian scholar who lived in Qatar, founder and chairman of the International Union of Muslim Scholars. He became known worldwide for his Al Jazeera programme 'Sharia and Life' and for the IslamOnline website, and wrote more than 120 books."
+  ur: "مصری عالم جو قطر میں مقیم رہے، عالمی یونین آف مسلم اسکالرز کے بانی و صدر۔ وہ الجزیرہ کے پروگرام «الشريعة والحياة» اور اسلام آن لائن ویب سائٹ سے دنیا بھر میں مشہور ہوئے، اور 120 سے زیادہ کتابیں لکھیں۔"
+roles: [scholar, writer]
+wings: [people]
+born:
+  edtf: "1926-09-09"
+  hijri: "1345"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "Gregorian date from English Wikipedia and Wikidata; the Hijri year (1345) is converted with the repo's Umm al-Qura converter (scripts/hijri) and marked derived."
+  sources: [source/wikipedia-yusuf-al-qaradawi-en, source/wikidata-yusuf-al-qaradawi]
+died:
+  edtf: "2022-09-26"
+  hijri: "1444"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "Died in Doha, Qatar. Gregorian date from English Wikipedia and Wikidata; the Arabic Wikipedia article gives the Hijri date as 30 Safar 1444 AH."
+  sources: [source/wikipedia-yusuf-al-qaradawi-en, source/wikipedia-yusuf-al-qaradawi-ar, source/wikidata-yusuf-al-qaradawi]
+faith:
+  - value: sunni
+    basis: documented
+    note: "English Wikipedia's infobox gives the denomination as Sunni. The Arabic Wikipedia infobox independently gives العقيدة as سني, citing his own book Thaqafat al-Da'iya published on his official website. Wikidata gives only Islam."
+    sources: [source/wikipedia-yusuf-al-qaradawi-en, source/wikipedia-yusuf-al-qaradawi-ar]
+external_ids: { wikidata: "Q64129" }
+sources: [source/wikipedia-yusuf-al-qaradawi-en, source/wikipedia-yusuf-al-qaradawi-ar, source/wikidata-yusuf-al-qaradawi]
+provenance:
+  layer: own-research
+  source: "English Wikipedia article 'Yusuf al-Qaradawi' (revision of 13 October 2026), Arabic Wikipedia article «يوسف القرضاوي» (revision of 21 September 2026), Wikidata Q64129; checked 24 Oct 2026"
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: modern-figures-batch-1
+status: { review: published, generated_by: "Muse (Muse Spark 1.3)" }
