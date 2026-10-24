@@ -12,6 +12,7 @@ provenance:
   layer: own-research
   source: "تاريخ الخلفاء للسيوطي (ط المنهاج 1434هـ/2013م) ص 685–694"
   generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
-  run: lib-tarikh-khulafa-batch-43
-sources: [source/tarikh-khulafa-minhaj-1434, source/shadharat-dhahab]
-status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }
+  model: claude-haiku-5-5
+  run: lib-tarikh-khulafa-batch-43, showcase-prose-phase2-egypt-batch7
+sources: [source/khitat-maqrizi-1998, source/tarikh-khulafa-minhaj-1434, source/shadharat-dhahab]
+status: { review: published, completeness: 3, generated_by: "Claude Haiku 5.5; his residence in Cairo and the zakat inquiry are read from al-Maqrizi's Khitat (local scan, pp. 352, 1001); the Suyuti account keeps its citation" }
