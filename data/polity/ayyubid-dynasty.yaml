@@ -5,8 +5,8 @@ label:
   ar: الدولة الأيوبية
   en: Ayyubid dynasty
 summary:
-  ar: سلالة حاكمة قامت سنة 1171م وانتهت سنة 1341م، وعاصمتها القاهرة.
-  en: A ruling dynasty established in 1171 CE and ended in 1341 CE; its capital was Cairo.
+  ar: سلالة حاكمة قامت سنة 1171م، وحكمت مصر حتى سنة 1250م، وعاصمتها القاهرة. والسجل مقصور على مصر.
+  en: A ruling dynasty established in 1171 CE that governed Egypt until 1250 CE; its capital was Cairo. This record covers Egypt only.
 wings: []
 periods:
 - period/crusades-ayyubid-mamluk
@@ -22,27 +22,30 @@ start:
   sources:
   - source/khitat-maqrizi-1998
 end:
-  edtf: "1341"
+  edtf: "1250"
+  hijri: "0648~"
   calendar: gregorian
   precision: year
   status: historical
-  note: "Wikidata (CC0), one source; not checked locally. The Khitat ends Ayyubid rule in Egypt in 648 AH (p. 1912), which is a narrower claim"
+  note: "648 AH, the end of Ayyubid rule in Egypt (al-Maqrizi, Khitat p. 1912). Hasan Ibrahim (pp. 494, 698) gives 567–648 AH, 1171–1250 CE. The Gregorian year is derived from the Hijri date. The record is narrowed to Egypt; Wikidata's 1341 CE has no local check and is not used"
   sources:
-  - source/wikidata
+  - source/khitat-maqrizi-1998
+  - source/tarikh-islam-hasan-ibrahim
 capitals:
 - place: place/cairo
 external_ids:
   wikidata: Q180114
 sources:
 - source/khitat-maqrizi-1998
+- source/tarikh-islam-hasan-ibrahim
 - source/wikidata
 provenance:
   layer: cc0
-  source: Wikidata (CC0), local subset built 12 Oct 2026 from the 96 GiB dump; the Egypt start and rule from al-Maqrizi's Khitat (local scan)
+  source: Wikidata (CC0), local subset built 12 Oct 2026 from the 96 GiB dump (ids and capital); the Egypt start and end from al-Maqrizi's Khitat and Hasan Ibrahim's Tarikh al-Islam (local scans)
   generated_by: Claude (maintainer session); Claude Haiku 5.5 (showcase-prose lane, Khitat sections)
   model: claude-sonnet-5-5
-  run: polity-wikidata-1, showcase-prose-phase2-egypt-batch4
+  run: polity-wikidata-1, showcase-prose-phase2-egypt-batch4, showcase-prose-phase2-egypt-batch5
 status:
   review: published
-  completeness: 2
-  generated_by: "Claude Haiku 5.5; the takeover of 567 AH, the residence in Cairo and the end of Ayyubid rule in Egypt in 648 AH are read from al-Maqrizi's Khitat (local scan, pp. 290, 1001, 1912). Completeness stays at 2 because the dynasty's end date (1341 CE, Wikidata) has no local check"
+  completeness: 3
+  generated_by: "Claude Haiku 5.5; the takeover of 567 AH, the residence in Cairo and the end of Ayyubid rule in Egypt in 648 AH (1250 CE) are read from al-Maqrizi's Khitat (local scan, pp. 290, 1001, 1912) and Hasan Ibrahim's Tarikh al-Islam (local scan, pp. 494, 698). The record is narrowed to Egypt, so the Wikidata end date (1341 CE) is not used"

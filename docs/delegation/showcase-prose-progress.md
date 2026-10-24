@@ -159,6 +159,20 @@ Trails:
 
 Checks: `npm run validate` 0 errors, 7,295 warnings (unchanged); `npm run cite-check` 11 of 11 pass. An earlier Sultan Hasan write lacked a provenance block; added before commit.
 
+### Batch 5 (Phase 2, Ayyubid end date): done
+
+The 1341 CE end was Wikidata-only, and no local source gives 1341 for the Ayyubids. Ibn al-Imad's Shadharat in the local scan covers only vols. 3, 7 and 8 (c. 800–1000 AH), and the Muntazam scan stops at 349 AH, so neither can settle it. Hasan Ibrahim's Tarikh al-Islam does: p. 494 gives the Ayyubid era as 567–648 AH, and the chapter heading on p. 698 gives "الدولة الأيوبية ١١٧١–١٢٥٠ / ٥٦٧–٦٤٨". Khitat p. 1912 gives the same 648 AH end for Egypt.
+
+| # | Question | Choice | Why |
+|---|---|---|---|
+| D26 | `polity/ayyubid-dynasty` end: 1341 (Wikidata) or narrower | Narrowed to Egypt: end 1250 CE, hijri `0648~` (the Gregorian year is derived). Summary, prose (ar, en, ur) and the status note say so. Wikidata's 1341 is no longer used, and `source/wikidata` leaves the record's sources list (the external id stays) | No local source gives a dynasty-wide end. The local sources agree on Egypt, 648 AH |
+
+- `polity/ayyubid-dynasty`: completeness **3**. Left open: the Ayyubid rulers outside Egypt after 1250 (the Syrian and Yemeni lines) are not covered by this record. A dynasty-wide end date needs a source for those lines first.
+- `exhibit/path-fatimid-cairo`: completeness **3**. Every featured record is at 3.
+- Not edited (another lane): `content/ar/period/crusades-ayyubid-mamluk.md` line 16 still gives the period's Ayyubid span as 1171–1341. It should be aligned with D26 by that lane or the founder.
+
+Checks: `npm run validate` 0 errors, 7,295 warnings (unchanged); `npm run cite-check` on the two records 2 of 2 pass; `npm run graph` and `npm run coverage` regenerated (totals unchanged). `npm test` not run, per instruction 0.2.
+
 ## NEXT STEP:
 
-Phase 2, batch 5: `polity/ayyubid-dynasty` needs its end date (1341 CE) checked against a source that covers the whole dynasty, or the record should be narrowed to Egypt. Once it reaches 3, `exhibit/path-fatimid-cairo` can be set to 3. Then the Egypt set is still well short of the 100 records in the brief; the next candidates are the Khitat's Ayyubid and Mamluk people and the Fayyum and Fustat monuments. Two decisions wait for the founder: whether to merge `place/iskandariyya` into `place/alexandria` (D16), and Archnet: its terms page must be read in a session the founder can see, or the founder supplies the posture, before any registration (D15).
+Phase 2, batch 6: the Egypt set has 18 records and 2 trails, still short of the brief's ~100. The next candidates are the Khitat's Ayyubid and Mamluk people and the Fayyum and Fustat monuments. Two decisions wait for the founder: whether to merge `place/iskandariyya` into `place/alexandria` (D16), and Archnet: its terms page must be read in a session the founder can see, or the founder supplies the posture, before any registration (D15). The period-file alignment in batch 5 is also for the founder or the period's lane.
