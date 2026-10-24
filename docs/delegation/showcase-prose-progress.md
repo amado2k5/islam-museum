@@ -526,7 +526,7 @@ Checks: `npm run validate` 0 errors, 7,295 warnings (unchanged).
 - Source record `source/sahih-al-bukhari`: its reliability note now says that the Rahimiyya edition is not checked, and that citations are hadith numbers only.
 
 Checks: cite-check PASS for the six records; zero page-form citations to this source remain under content/ and data/.
-Blocker: `npm run validate` reports 2 errors that are not from this batch: `data/person/ahmed-kuftaro.yaml` duplicates `person/ahmad-kaftaru` (the same Wikidata id and name), introduced by the modern-figures batch (PR #1524). The duplicate needs a merge decision by its owner before this batch can be merged.
+Resolved: the duplicate was `person/ahmad-kaftaru` (a wave-2 draft card, same Wikidata id Q324491 as `person/ahmed-kuftaro`). The rich record `person/ahmed-kuftaro` now lists it under `aliases`, and the card file is removed. Validate is back to 0 errors. Earlier note: `npm run validate` reported 2 errors that are not from this batch: `data/person/ahmed-kuftaro.yaml` duplicates `person/ahmad-kaftaru` (the same Wikidata id and name), introduced by the modern-figures batch (PR #1524). The duplicate needs a merge decision by its owner before this batch can be merged.
 
 ## NEXT STEP:
 
