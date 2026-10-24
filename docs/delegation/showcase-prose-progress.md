@@ -455,6 +455,15 @@ Status: `concept/iman` remains at completeness 2. Its next pass: fix the sharh p
 
 Checks: `npm run cite-check` 1 of 1 pass; `npm run validate` 0 errors, 7,295 warnings (unchanged).
 
+## Phase 3, batch 8 (concept/five-pillars): completeness 3
+
+- The hadith-source section now cites the al-Bugha edition, which was not registered before. It is registered as `source/sahih-al-bukhari-bugha` from the scan's title page (Dar Tawq al-Najat, 1422 AH, ed. al-Nasir, commentary of al-Bugha). Hadith 8 is at volume 1, page 12 of that edition; the editor's note on scan page 14 gives Muslim's number 16 and the gloss on "supports".
+- Removed, because their wording is not located in the local Bukhari scans: the Najdi-man prayer clause (Bukhari 46) and the Gabriel-hadith order clause (Bukhari 50).
+- The five-pillars list and the hajj-before-fast order stay witnessed in Ibn Khuzayma pp. 192 and 906.
+- Known issue, not fixed here: `sahih-al-bukhari` (Rahimiyya edition) is cited in other records for hadith numbers that were checked only in the al-Bugha text. Those edition labels need the same check in the next batch that touches them.
+
+Checks: `npm run cite-check -- concept/five-pillars` PASS; `npm run validate` 0 errors, 7,295 warnings (unchanged).
+
 ## NEXT STEP:
 
 Phase 3 (the general queue) is next. The Showcase queue (`docs/delegation/showcase-queue.md`) lists 1,240 featured records, of which the Egypt and Sicily sets are a small part. The Egypt drafts with Khitat passages are close to exhausted; the Mamluk and Ayyubid entries outside Egypt need another source family. The al-Nasiriyya madrasa stays skipped until a founder or date is found. Two decisions wait for the founder: D16 (merge `place/iskandariyya` into `place/alexandria`) and D15 (Archnet's terms, read in a visible session, or the founder supplies the posture). Also for the founder: the period-file alignment with D26, the Urdu drafts, the Adil place-name conflict, and D28 (two dates for Aybak's independence, both stated).
