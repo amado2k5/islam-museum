@@ -1,0 +1,46 @@
+id: person/hassan-turkmani
+class: person
+label: { ar: "حسن تركماني", en: "Hassan Turkmani", ur: "حسن تركمانی" }
+names:
+  - { value: "حسن علي تركماني", kind: full }
+  - { value: "Hasan Ali Turkmani", kind: full }
+gender: male
+summary:
+  ar: "ضابط وسياسي سوري شغل منصب وزير الدفاع من 2004 حتى 2009 بعد أن كان رئيسًا لهيئة الأركان، ثم صار معاونًا لنائب رئيس الجمهورية وقائدًا لخلية إدارة الأزمات، واغتيل في تفجير مبنى الأمن القومي بدمشق في 18 يوليو 2012."
+  en: "Syrian military officer and politician who served as minister of defence from 2004 to 2009 after a term as army chief of staff, then became assistant vice president and head of the crisis operations cell. He was killed in the bombing of the national security building in Damascus on 18 July 2012."
+  ur: "شامی فوجی افسر اور سیاست دان جنہوں نے 2004 سے 2009 تک وزیر دفاع کی حیثیت سے خدمات انجام دیں، اس سے قبل آرمی چیف آف اسٹاف رہے، پھر نائب صدر کے معاون اور کرائسس آپریشنز سیل کے سربراہ بنے۔ وہ 18 جولائی 2012 کو دمشق میں قومی سلامتی کی عمارت پر بم دھماکے میں جاں بحق ہوئے۔"
+roles: [general, politician]
+wings: [people]
+born:
+  edtf: "1935-01-27"
+  hijri: "1353"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "Born in Aleppo. The day and month (27 January) are from the English Wikipedia article; the Arabic article and Wikidata give the year 1935. The Hijri year (1353) is converted with the repo's Umm al-Qura converter (scripts/hijri) and marked derived."
+  sources: [source/wikipedia-hassan-turkmani-en, source/wikipedia-hassan-turkmani-ar, source/wikidata-hassan-turkmani]
+died:
+  edtf: "2012-07-18"
+  hijri: "1433"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "Killed in the bombing of the national security building in Damascus during a meeting of the Central Crisis Management Cell. Date from both articles and Wikidata; the Hijri year (1433) is converted with the repo's converter and marked derived."
+  sources: [source/wikipedia-hassan-turkmani-en, source/wikipedia-hassan-turkmani-ar, source/wikidata-hassan-turkmani]
+relations:
+  - { type: born_in, target: place/aleppo, sources: [source/wikipedia-hassan-turkmani-en, source/wikipedia-hassan-turkmani-ar] }
+faith:
+  - value: sunni
+    basis: documented
+    note: "The English Wikipedia article states of Turkmani himself, 'since he was a Sunni Muslim', explaining that his appointment as chief of staff was read as restoring sectarian diversity; Wikidata independently records Sunni Islam. The Arabic article gives his Turkmen parentage but no school."
+    sources: [source/wikipedia-hassan-turkmani-en, source/wikidata-hassan-turkmani]
+external_ids: { wikidata: "Q1588608" }
+sources: [source/wikipedia-hassan-turkmani-en, source/wikipedia-hassan-turkmani-ar, source/wikidata-hassan-turkmani]
+provenance:
+  layer: own-research
+  source: "English Wikipedia article 'Hasan Turkmani' (revision of 19 July 2026), Arabic Wikipedia article «حسن تركماني» (revision of 8 September 2026), Wikidata Q1588608; checked 24 Oct 2026"
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: modern-figures-batch-3
+status: { review: published, generated_by: "Muse (Muse Spark 1.3)" }

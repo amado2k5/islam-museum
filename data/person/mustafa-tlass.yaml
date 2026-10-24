@@ -1,0 +1,44 @@
+id: person/mustafa-tlass
+class: person
+label: { ar: "مصطفى طلاس", en: "Mustafa Tlass", ur: "مصطفى طلاس" }
+names:
+  - { value: "مصطفى عبد القادر طلاس", kind: full }
+  - { value: "Mustafa Abdul Qadir Tlass", kind: full }
+gender: male
+summary:
+  ar: "ضابط وسياسي سوري شغل منصب وزير الدفاع من 1972 حتى 2004 في عهد حافظ الأسد ثم بشار الأسد، وكان من أقرب رجاله إليه؛ وهو أيضًا مؤلف وناشر، أثارت بعض كتبه وتصريحاته جدلًا واسعًا، وهو والد العميد المنشق مناف طلاس."
+  en: "Syrian officer and politician who served as minister of defence from 1972 to 2004 under Hafez al-Assad and then Bashar al-Assad, and was one of Assad's most trusted loyalists. He was also an author and publisher whose books and public statements drew wide controversy. He is the father of the defected general Manaf Tlass."
+  ur: "شامی افسر اور سیاست دان جنہوں نے 1972 سے 2004 تک حافظ الاسد اور پھر بشار الاسد کے دور میں وزیر دفاع کی حیثیت سے خدمات انجام دیں۔ وہ مصنف اور ناشر بھی تھے اور ان کی بعض کتابوں اور بیانات نے شدید تنازع کھڑا کیا۔ وہ منحرف جنرل مناف طلاس کے والد ہیں۔"
+roles: [general, politician, writer]
+wings: [people]
+born:
+  edtf: "1932-05-11"
+  hijri: "1351"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "Gregorian date from English Wikipedia, the Arabic article and Wikidata; born in al-Rastan, near Homs. The Hijri year (1351) is converted with the repo's Umm al-Qura converter (scripts/hijri) and marked derived."
+  sources: [source/wikipedia-mustafa-tlass-en, source/wikipedia-mustafa-tlass-ar, source/wikidata-mustafa-tlass]
+died:
+  edtf: "2017-06-27"
+  hijri: "1438"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "Died in France at the age of 85. The English article, following his obituaries, names the Avicenne Hospital in Bobigny; the Arabic article names a Paris hospital and gives the Hijri date as 5 Shawwal 1438. The Hijri year (1438) is converted with the repo's converter and marked derived."
+  sources: [source/wikipedia-mustafa-tlass-en, source/wikipedia-mustafa-tlass-ar, source/wikidata-mustafa-tlass]
+faith:
+  - value: unknown
+    basis: unknown
+    note: "Wikidata gives Sunni Islam. The English Wikipedia article describes the prominent Sunni Muslim family Tlass was born into but gives no school for Tlass himself, and the Arabic article gives none. Not recorded as sunni until a second source gives the school for him personally."
+    sources: [source/wikidata-mustafa-tlass, source/wikipedia-mustafa-tlass-en, source/wikipedia-mustafa-tlass-ar]
+external_ids: { wikidata: "Q403707" }
+sources: [source/wikipedia-mustafa-tlass-en, source/wikipedia-mustafa-tlass-ar, source/wikidata-mustafa-tlass]
+provenance:
+  layer: own-research
+  source: "English Wikipedia article 'Mustafa Tlass' (revision of 28 July 2026), Arabic Wikipedia article «مصطفى طلاس» (revision of 25 September 2026), Wikidata Q403707; checked 24 Oct 2026"
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: modern-figures-batch-3
+status: { review: published, generated_by: "Muse (Muse Spark 1.3)" }
