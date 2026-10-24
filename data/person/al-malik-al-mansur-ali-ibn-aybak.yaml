@@ -19,10 +19,11 @@ relations:
   - { type: child_of, target: person/izz-al-din-aybak, sources: [source/shadharat-dhahab] }
   - { type: successor_of, target: person/izz-al-din-aybak, sources: [source/shadharat-dhahab] }
   - { type: participated_in, target: event/aybak-murder-655, role: "المسلطن بعد أبيه", sources: [source/shadharat-dhahab] }
-sources: [source/shadharat-dhahab]
-status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }
+sources: [source/khitat-maqrizi-1998, source/shadharat-dhahab]
+status: { review: published, completeness: 3, generated_by: "Claude Haiku 5.5; the murder of Aybak, the accession at fifteen, the uncle al-Dud and the deposition are read from al-Maqrizi's Khitat (local scan, pp. 1530, 1916); the Ibn al-Imad line keeps its citation" }
 provenance:
   layer: own-research
-  source: "شذرات الذهب — ابن العماد (ج5، سنة 655)، قراءة آبل فيجن"
-  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
-  run: lib-shadharat-batch-129
+  source: "شذرات الذهب — ابن العماد (ج5، سنة 655)، قراءة آبل فيجن؛ المقريزي، الخطط (ط مدبولي 1998) ص 1530، 1916"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR; prose by Claude Haiku 5.5"
+  model: claude-haiku-5-5
+  run: lib-shadharat-batch-129, showcase-prose-phase2-egypt-batch7

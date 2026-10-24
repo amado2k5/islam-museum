@@ -196,6 +196,24 @@ Checks: `npm run cite-check` on the five records 5 of 5 pass; `npm run validate`
 
 Egypt set now: 23 records (18 + 5) and 2 trails at 3.
 
+### Batch 7 (Phase 2, Ayyubid and Mamluk rulers): done
+
+Three records raised to completeness 3 from the local Khitat scan (ar, en, ur):
+
+- `person/al-malik-al-mansur-ali-ibn-aybak`: pp. 1916 (Aybak killed in the bath on the night of 14 Rabi' I 655; al-Mansur enthroned on 15 Rabi' I, aged fifteen; reign of two years, eight months and three days; deposed by Qutuz on 14 Dhu al-Qa'da 657), 1530 (the maternal uncle al-Dud, arrested by Qutuz in Dhu al-Hijja 657).
+- `person/al-malik-al-adil-ayyub`: p. 643 (al-Kamil becomes sole ruler on hearing of his father's death near Damietta; the father, ill after leaving Marj al-Safar, dies on the 7th of Jumada II; al-Mu'azzam Isa conceals the death and buries him in Damascus, then in the Adiliyya madrasa); p. 291 (the "Adili diwan" in the land-tax registers).
+- `person/al-malik-al-aziz-uthman`: p. 1001 (lived in Cairo after his father Saladin); p. 352 (the zakat office seizes a merchant's goods; al-Aziz leaves the assessment to the owners of property).
+
+**Conflict recorded:** `person/al-malik-al-adil-ayyub` gives the place of death as Alaqin (Ibn al-Athir, p. 393–394, the record's citation); the Khitat (p. 643) gives "عالفين" (Alfin). The day (7 Jumada II) agrees. The record keeps the Ibn al-Athir place; the spelling difference is not resolved here.
+
+**Skipped and logged:**
+- `building/al-madrasa-al-nasiriyya-cairo`: the Khitat (p. 1062) places it beside the minaret of the Mansuri dome, but the passages read give no founder or date. The record stays at completeness 1.
+- `person/izz-al-din-aybak`: the Khitat (p. 1080) dates his accession to 650 AH. The record's own date must be reconciled with that before prose is written. Not written in this batch.
+
+Checks: `npm run cite-check` on the three records 3 of 3 pass; `npm run validate` 0 errors, 7,295 warnings (unchanged); `npm run graph` and `npm run coverage` regenerated.
+
+Egypt set now: 26 records (23 + 3) and 2 trails at 3.
+
 ## NEXT STEP:
 
-Phase 2, batch 7: the Egypt set is at 23 records of the brief's ~100. Next candidates: the Khitat's other Ayyubid and Mamluk rulers and their works (al-Mansur Ali ibn Aybak, Aybak, Shajar al-Durr's successors), Fustat monuments (Qasr al-Sham'), the Khitat's Fayyum places, and al-Qarafa. Two decisions wait for the founder: D16 (merge `place/iskandariyya` into `place/alexandria`) and D15 (Archnet's terms, read in a visible session, or the founder supplies the posture). Also for the founder: the period-file alignment with D26, and the Urdu drafts.
+Phase 2, batch 8: first reconcile `person/izz-al-din-aybak`'s accession date with the Khitat's 650 AH (p. 1080), which is blocked on that check. Then the Khitat's Fustat and Cairo monuments in the records that exist at completeness 1 (the Bab Zuwayla and the gates, the Qasr al-Sham', the al-Qarafa monuments), and the Fayyum places. Two decisions wait for the founder: D16 (merge `place/iskandariyya` into `place/alexandria`) and D15 (Archnet's terms, read in a visible session, or the founder supplies the posture). Also for the founder: the period-file alignment with D26, the Urdu drafts, and the Adil place-name conflict above.
