@@ -1,0 +1,38 @@
+id: person/ahmed-al-sharaa
+class: person
+label: { ar: "أحمد الشرع", en: "Ahmed al-Sharaa", ur: "احمد الشرع" }
+names:
+  - { value: "أحمد حسين الشرع", kind: full }
+  - { value: "Ahmed Hussein al-Sharaa", kind: full }
+  - { value: "أبو محمد الجولاني", kind: kunya }
+  - { value: "Abu Mohammad al-Julani", kind: alternate }
+gender: male
+summary:
+  ar: "سياسي سوري ورئيس الجمهورية العربية السورية منذ 29 يناير 2025 للمرحلة الانتقالية. عُرف سابقًا باسمه الحركي «أبو محمد الجولاني»؛ أسس جبهة النصرة سنة 2012 وقاد هيئة تحرير الشام منذ 2017، وقاد هجوم المعارضة الذي أسقط نظام الأسد في ديسمبر 2024."
+  en: "Syrian statesman, president of Syria since 29 January 2025 for the transitional period. Formerly known by his nom de guerre Abu Mohammad al-Julani, he founded Jabhat al-Nusra in 2012, led Hay'at Tahrir al-Sham from 2017, and led the opposition offensive that toppled the Assad regime in December 2024."
+  ur: "شامی سیاست دان، 29 جنوری 2025 سے عبوری دور کے لیے شام کے صدر۔ وہ اپنے سابقہ جنگی نام «ابو محمد الجولانی» سے معروف رہے؛ انہوں نے 2012 میں جبہة النصرہ کی بنیاد رکھی، 2017 سے هيئة تحرير الشام کی قیادت کی، اور دسمبر 2024 میں اسد حکومت کو گرانے والی اپوزیشن کارروائی کی قیادت کی۔"
+roles: [politician, military-commander]
+wings: [people, living]
+born:
+  edtf: "1982-10-29"
+  hijri: "1403"
+  calendar: gregorian
+  precision: day
+  status: historical
+  note: "Born in Riyadh, Saudi Arabia. Gregorian date from English Wikipedia and Wikidata; the Arabic Wikipedia article gives the Hijri date in full as 12 Muharram 1403 AH."
+  sources: [source/wikipedia-ahmed-al-sharaa-en, source/wikipedia-ahmed-al-sharaa-ar, source/wikidata-ahmed-al-sharaa]
+relations:
+  - { type: lived_in, target: place/damascus, sources: [source/wikipedia-ahmed-al-sharaa-en, source/wikipedia-ahmed-al-sharaa-ar] }
+faith:
+  - value: unknown
+    basis: unknown
+    note: "The English and Arabic articles describe his family as a Syrian Sunni Muslim family from the Golan Heights. Wikidata gives only Islam. A family background is not a second independent attestation of his own school; not recorded as sunni."
+    sources: [source/wikipedia-ahmed-al-sharaa-en, source/wikipedia-ahmed-al-sharaa-ar, source/wikidata-ahmed-al-sharaa]
+external_ids: { wikidata: "Q7934206" }
+sources: [source/wikipedia-ahmed-al-sharaa-en, source/wikipedia-ahmed-al-sharaa-ar, source/wikidata-ahmed-al-sharaa]
+provenance:
+  layer: own-research
+  source: "English Wikipedia article 'Ahmed al-Sharaa' (revision of 24 October 2026), Arabic Wikipedia article «أحمد الشرع» (revision of 19 October 2026), Wikidata Q7934206; checked 24 Oct 2026"
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: modern-figures-batch-3
+status: { review: published, generated_by: "Muse (Muse Spark 1.3)" }

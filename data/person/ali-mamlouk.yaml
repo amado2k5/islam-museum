@@ -1,0 +1,38 @@
+id: person/ali-mamlouk
+class: person
+label: { ar: "علي مملوك", en: "Ali Mamlouk", ur: "علی مملوک" }
+names:
+  - { value: "علي مملوك", kind: full }
+  - { value: "Ali Mamlouk", kind: full }
+gender: male
+summary:
+  ar: "ضابط مخابرات سوري، من مؤسسي الاستخبارات الجوية، ترأس إدارة المخابرات العامة ثم مكتب الأمن الوطني (2012–2019)، وعُيّن نائبًا للرئيس للشؤون الأمنية سنة 2019 ومستشارًا للأمن القومي سنة 2024، وكان من أقرب مستشاري الرئيس السابق بشار الأسد."
+  en: "Syrian intelligence officer, one of the founders of Air Force Intelligence, who headed the General Security Directorate and then the National Security Bureau (2012–2019); appointed deputy vice president for security affairs in 2019 and national security advisor in 2024, he was among former president Bashar al-Assad's closest advisors."
+  ur: "شامی انٹیلی جنس افسر، فضائیہ کی انٹیلی جنس کے بانیوں میں سے ایک، جنہوں نے جنرل سیکیورٹی ڈائریکٹوریٹ اور پھر قومی سلامتی بیورو (2012–2019) کی سربراہی کی؛ 2019 میں سلامتی امور کے نائب نائب صدر اور 2024 میں قومی سلامتی کے مشیر مقرر ہوئے، اور سابق صدر بشار الاسد کے قریب ترین مشیروں میں شمار ہوتے تھے۔"
+roles: [official]
+wings: [people, living]
+born:
+  edtf: "1946-02-19"
+  hijri: "1365"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "Gregorian date from English Wikipedia and Wikidata; the Hijri year (1365) is converted and marked derived. Both articles note a second report giving his birth year as 1945."
+  sources: [source/wikipedia-ali-mamlouk-en, source/wikipedia-ali-mamlouk-ar, source/wikidata-ali-mamlouk]
+relations:
+  - { type: born_in, target: place/damascus, sources: [source/wikipedia-ali-mamlouk-en, source/wikipedia-ali-mamlouk-ar] }
+  - { type: lived_in, target: place/damascus, sources: [source/wikipedia-ali-mamlouk-en] }
+faith:
+  - value: unknown
+    basis: unknown
+    note: "The English and Arabic articles state he was born in Damascus into a Sunni family. Wikidata records Sunni Islam. A school is not recorded from family background alone; not recorded as sunni."
+    sources: [source/wikipedia-ali-mamlouk-en, source/wikipedia-ali-mamlouk-ar, source/wikidata-ali-mamlouk]
+external_ids: { wikidata: "Q2616390" }
+sources: [source/wikipedia-ali-mamlouk-en, source/wikipedia-ali-mamlouk-ar, source/wikidata-ali-mamlouk]
+provenance:
+  layer: own-research
+  source: "English Wikipedia article 'Ali Mamlouk' (revision of 12 August 2026), Arabic Wikipedia article «علي مملوك» (revision of 3 August 2026), Wikidata Q2616390; checked 24 Oct 2026"
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: modern-figures-batch-3
+status: { review: published, generated_by: "Muse (Muse Spark 1.3)" }

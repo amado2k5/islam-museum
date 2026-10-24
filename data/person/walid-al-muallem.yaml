@@ -1,0 +1,46 @@
+id: person/walid-al-muallem
+class: person
+label: { ar: "وليد المعلم", en: "Walid al-Muallem", ur: "ولید المعلم" }
+names:
+  - { value: "وليد محيي الدين المعلم", kind: full }
+  - { value: "Walid Mohi Edine al Muallem", kind: full }
+  - { value: "Walid Muallem", kind: alternate }
+gender: male
+summary:
+  ar: "دبلوماسي سوري وعضو في حزب البعث، وزير خارجية سوريا من 2006 حتى وفاته سنة 2020 ونائب رئيس مجلس الوزراء من 2012. مثّل سوريا سفيرًا لدى الولايات المتحدة (1990–2000) وكان الوجه الدبلوماسي للنظام خلال الحرب الأهلية."
+  en: "Syrian diplomat and Ba'ath Party member, foreign minister of Syria from 2006 until his death in 2020 and deputy prime minister from 2012. He served as ambassador to the United States (1990–2000) and was the regime's diplomatic face during the civil war."
+  ur: "شامی سفارت کار اور بعث پارٹی کے رکن، 2006 سے 2020 میں اپنی وفات تک شام کے وزیر خارجہ اور 2012 سے نائب وزیر اعظم رہے۔ وہ امریکہ میں شام کے سفیر (1990–2000) رہے اور خانہ جنگی کے دوران حکومت کا سفارتی چہرہ تھے۔"
+roles: [politician]
+wings: [people]
+born:
+  edtf: "1941-01-13"
+  hijri: "1359"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "The English article's lead and the Arabic article's lead give 13 January 1941 in Damascus; the Arabic article's early-life section and one of Wikidata's two recorded values give 17 July 1941. The Hijri year (1359) is converted from the recorded 13 January date and marked derived."
+  sources: [source/wikipedia-walid-al-muallem-en, source/wikipedia-walid-al-muallem-ar, source/wikidata-walid-al-muallem]
+died:
+  edtf: "2020-11-16"
+  hijri: "1442"
+  calendar: gregorian
+  precision: day
+  status: historical
+  note: "Died in Damascus. Gregorian date from English Wikipedia and Wikidata; the Arabic Wikipedia article gives the Hijri date as 1 Rabi' al-thani 1442 AH."
+  sources: [source/wikipedia-walid-al-muallem-en, source/wikipedia-walid-al-muallem-ar, source/wikidata-walid-al-muallem]
+relations:
+  - { type: born_in, target: place/damascus, sources: [source/wikipedia-walid-al-muallem-en, source/wikipedia-walid-al-muallem-ar] }
+faith:
+  - value: unknown
+    basis: unknown
+    note: "The English article states he was born in Damascus into a Sunni family. Wikidata gives only Islam. A school is not recorded from family background alone; not recorded as sunni."
+    sources: [source/wikipedia-walid-al-muallem-en, source/wikidata-walid-al-muallem]
+external_ids: { wikidata: "Q1334803" }
+sources: [source/wikipedia-walid-al-muallem-en, source/wikipedia-walid-al-muallem-ar, source/wikidata-walid-al-muallem]
+provenance:
+  layer: own-research
+  source: "English Wikipedia article 'Walid Muallem' (revision of 20 July 2026), Arabic Wikipedia article «وليد المعلم» (revision of 1 October 2026), Wikidata Q1334803; checked 24 Oct 2026"
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: modern-figures-batch-3
+status: { review: published, generated_by: "Muse (Muse Spark 1.3)" }
