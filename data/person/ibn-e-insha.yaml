@@ -1,0 +1,47 @@
+id: person/ibn-e-insha
+class: person
+label: { ar: "ابن انشا", en: "Ibn-e-Insha", ur: "ابن انشا" }
+names:
+  - { value: "شیر محمد خان", kind: full }
+  - { value: "Sher Muhammad Khan", kind: full }
+  - { value: "Ibn-e-Insha", kind: pen-name }
+gender: male
+summary:
+  ar: "شاعر وكاتب أردي باكستاني (1927–1978)، اسمه الحقيقي شير محمد خان، عُرف بقلمه «ابن انشا». اشتهر بغزله وشعر الفكاهة وأدب الرحلات وأعمدته الصحفية، ووصل شعره إلى جمهور واسع عبر الإذاعة والغناء."
+  en: "Pakistani Urdu poet and writer (1927–1978), born Sher Muhammad Khan and known by his pen name Ibn-e-Insha. He was celebrated for his ghazals, humour poetry, travelogues and newspaper columns, and his verse reached a wide audience through radio and song."
+  ur: "پاکستانی اردو شاعر اور اديب (1927–1978)، اصل نام شیر محمد خان، قلمی نام «ابن انشا» سے معروف ہوئے۔ وہ اپنی غزلوں، مزاحیہ شاعری، سفرناموں اور اخباری کالموں کے لیے مشہور ہوئے، اور ان کا کلام ریڈیو اور گائیکی کے ذریعے وسیع سامعین تک پہنچا۔"
+roles: [poet, writer, journalist]
+wings: [people]
+born:
+  edtf: "1927-06-15"
+  hijri: "1345"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "Gregorian date from English Wikipedia and Wikidata; the Hijri year is converter-derived."
+  sources: [source/wikipedia-ibn-e-insha-en, source/wikidata-ibn-e-insha]
+died:
+  edtf: "1978-01-11"
+  hijri: "1398"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "Gregorian date from English Wikipedia and Wikidata; the Hijri year is converter-derived."
+  sources: [source/wikipedia-ibn-e-insha-en, source/wikidata-ibn-e-insha]
+relations:
+  - { type: lived_in, target: place/lahore, sources: [source/wikipedia-ibn-e-insha-en] }
+faith:
+  - value: unknown
+    basis: unknown
+    note: "The English Wikipedia article states no religion or school for him. Wikidata gives only Islam. Not recorded as sunni until a second source confirms it."
+    sources: [source/wikipedia-ibn-e-insha-en, source/wikidata-ibn-e-insha]
+external_ids: { wikidata: "Q3694577" }
+sources: [source/wikipedia-ibn-e-insha-en, source/wikidata-ibn-e-insha]
+provenance:
+  layer: own-research
+  source: "English Wikipedia (revision of 22 September 2026) and Wikidata Q3694577, as cited in those articles and checked 24 October 2026. No Arabic Wikipedia article exists (only an Egyptian Arabic one), so no Arabic source entity was registered."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: modern-figures-batch-2
+status: { review: published, generated_by: "Muse (Muse Spark 1.3)" }
