@@ -1,0 +1,44 @@
+id: person/necmettin-erbakan
+class: person
+label: { ar: "نجم الدين أربكان", en: "Necmettin Erbakan", ur: "نجم الدین اربکان" }
+names:
+  - { value: "نجم الدين أربكان", kind: full }
+  - { value: "Necmettin Erbakan", kind: full }
+gender: male
+summary:
+  ar: "مهندس وسياسي تركي، مؤسس حركة «ملي كورش» (الرؤية الوطنية) وسلسلة من الأحزاب السياسية الإسلامية في تركيا، ورئيس وزراء تركيا الثالث والعشرون (1996–1997)، أُجبر على الاستقالة تحت ضغط الجيش وحُظر من السياسة لاحقًا."
+  en: "Turkish engineer and politician, founder of the Millî Görüş (National Outlook) movement and of a series of Islamic political parties in Turkey. He was Turkey's 23rd prime minister (1996–1997), was pressured by the military to step down, and was later banned from politics."
+  ur: "ترک انجینئر اور سیاست دان، «ملی گوروش» (قومی نظریہ) تحریک اور ترکی میں اسلامی سیاسی جماعتوں کے سلسلے کے بانی۔ وہ ترکی کے 23ویں وزیرِ اعظم رہے (1996–1997)، فوج کے دباؤ پر مستعفی ہوئے اور بعد میں سیاست سے پابندی کا سامنا کرنا پڑا۔"
+roles: [politician]
+wings: [people]
+born:
+  edtf: "1926-10-29"
+  hijri: "1345"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "Gregorian date from English Wikipedia and Wikidata (born in Sinop); the Hijri year (1345) is converted with the Umm al-Qura calendar and marked derived."
+  sources: [source/wikipedia-necmettin-erbakan-en, source/wikidata-necmettin-erbakan]
+died:
+  edtf: "2011-02-27"
+  hijri: "1432"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "Died of heart failure at Güven Hospital in Ankara. Gregorian date from English Wikipedia and Wikidata; the Hijri year (1432) is converted with the Umm al-Qura calendar and marked derived."
+  sources: [source/wikipedia-necmettin-erbakan-en, source/wikidata-necmettin-erbakan]
+faith:
+  - value: unknown
+    basis: unknown
+    note: "Wikidata gives the religion as Sunni Islam. The English Wikipedia article describes his Millî Görüş movement and his membership of the İskenderpaşa Naqshbandi community but gives no denomination, and the Arabic Wikipedia article describes his Islamic orientations without naming a school. Not recorded as sunni until a second source confirms it."
+    sources: [source/wikidata-necmettin-erbakan, source/wikipedia-necmettin-erbakan-en, source/wikipedia-necmettin-erbakan-ar]
+external_ids: { wikidata: "Q243550" }
+sources: [source/wikipedia-necmettin-erbakan-en, source/wikipedia-necmettin-erbakan-ar, source/wikidata-necmettin-erbakan]
+provenance:
+  layer: own-research
+  source: "English Wikipedia article 'Necmettin Erbakan' (revision of 28 September 2026), Arabic Wikipedia article «نجم الدين أربكان» (revision of 24 September 2026), Wikidata Q243550; checked 24 Oct 2026"
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: modern-figures-batch-2
+status: { review: published, generated_by: "Muse (Muse Spark 1.3)" }

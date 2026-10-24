@@ -1,0 +1,35 @@
+id: person/ali-erbas
+class: person
+label: { ar: "علي أرباش", en: "Ali Erbaş", ur: "علی ارباش" }
+names:
+  - { value: "علي بن عبد الرحمن تورغوت أرباش", kind: full }
+  - { value: "Ali Erbaş", kind: full }
+gender: male
+summary:
+  ar: "عالم إسلامي تركي متخصص في تاريخ الأديان، وأستاذ جامعي، ورئيس رئاسة الشؤون الدينية التركية (ديانت) من 2017 إلى 2025، وصلت خطبه وتصريحاته من هذا المنصب إلى جمهور واسع داخل تركيا وخارجها."
+  en: "Turkish Islamic scholar specialising in the history of religions and a university professor, president of Turkey's Directorate of Religious Affairs (Diyanet) from 2017 to 2025. From that office his sermons and statements reached a wide audience inside and outside Turkey."
+  ur: "ترک اسلامی عالم، تاریخِ مذاہب کے ماہر اور جامعاتی استاد، جو 2017 سے 2025 تک ترکی کی مذہبی امور کی صدارت (دیانت) کے صدر رہے۔ اس منصب سے ان کے خطبات اور بیانات ترکی کے اندر اور باہر وسیع سامعین تک پہنچے۔"
+roles: [scholar]
+wings: [people, living]
+born:
+  edtf: "1961-09-10"
+  hijri: "1381"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "Gregorian date from English Wikipedia and Wikidata; the Arabic article gives his birthplace as Kabadüz in Ordu province. The Hijri year (1381) is converted with the Umm al-Qura calendar and marked derived."
+  sources: [source/wikipedia-ali-erbas-en, source/wikipedia-ali-erbas-ar, source/wikidata-ali-erbas]
+faith:
+  - value: unknown
+    basis: unknown
+    note: "Wikidata gives the religion as Islam, with a Sunni affiliation qualifier. The English Wikipedia article calls him a Turkish Islamic scholar and the Arabic article a Turkish Muslim scholar; neither states a school in its text. Not recorded as sunni until a second source confirms it."
+    sources: [source/wikidata-ali-erbas, source/wikipedia-ali-erbas-en, source/wikipedia-ali-erbas-ar]
+external_ids: { wikidata: "Q40467872" }
+sources: [source/wikipedia-ali-erbas-en, source/wikipedia-ali-erbas-ar, source/wikidata-ali-erbas]
+provenance:
+  layer: own-research
+  source: "English Wikipedia article 'Ali Erbaş' (revision of 3 October 2026), Arabic Wikipedia article «علي أرباش» (revision of 9 June 2026), Wikidata Q40467872; checked 24 Oct 2026"
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: modern-figures-batch-2
+status: { review: published, generated_by: "Muse (Muse Spark 1.3)" }
