@@ -16,3 +16,12 @@ Al-Bukhari relates the story in full on the authority of Ibn Abbas, including hi
 
 ## The Night Journey
 The Prophet saw him on the Night Journey as a tall man with straight hair. He returned to him, and Musa asked him to get the obligations reduced, until they came down to five. {cite:sahih-al-bukhari 3207}
+
+## For Sprouts
+Moses was a courageous prophet whom God spoke to, who stood for justice and mercy to guide Pharaoh and help his people.
+
+## For Explorers
+Moses is known as the one who spoke with God, a noble messenger of resolute determination who lived in Egypt. Blessed with signs such as his staff and glowing hand, he confronted Pharaoh with the call to monotheism, seeking freedom for the Children of Israel from oppression, leading them across the sea to safety with enduring courage.
+
+## For Scholars
+The interlocutor of God (Kalim Allah) and one of the five resolute messengers, whose prophetic life is the most extensively chronicled in the Qur'an. Raised in Pharaoh's court, he journeyed to Midian before receiving the divine commission in the sacred valley of Tuwa to summon Pharaoh to divine unity and liberate the Israelites. Bestowed with signs including the staff and the parting of the sea, he was given the Torah as guidance and light, leading his community with patience through trials and establishing foundational moral laws.

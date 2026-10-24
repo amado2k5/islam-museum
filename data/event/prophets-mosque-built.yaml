@@ -19,4 +19,8 @@ relations:
   - { type: part_of, target: period/prophetic-era }
   - { type: caused_by, target: event/hijra }
 sources: [source/mubarakpuri-raheeq, source/sahih-al-bukhari, source/zad-al-maad, source/ibn-ishaq-guillaume, source/watt-1956-medina, source/lings-1983]
+education:
+  levels: [sprouts, explorers, scholars]
+  flagged_for_kids: true
+  provenance: { generated_by: "Devin", model: "gemini-2.5-pro", run: "education-E2-batch3", note: "Leveled texts drafted from the record's own summary and prose; draft, pending the founder's review and scholar review of the child levels." }
 status: { review: draft, completeness: 2, generated_by: "Antigravity; al-Raheeq al-Makhtum p. 184 citing Bukhari 1/71, 555, 560 and Zad al-Maad 2/56" }

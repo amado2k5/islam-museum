@@ -19,3 +19,12 @@ The building of the Ka'ba by Quraysh in the Prophet's youth, and the dispute ove
 
 ## For young visitors
 The father met his son after a long separation. Together they built God's House in Mecca, and then Abraham called the people to the pilgrimage.
+
+## For Sprouts
+Abraham and his son Ishmael raised the foundations of the sacred Kaaba in Mecca, praying to God to make it a blessed sanctuary.
+
+## For Explorers
+Prophet Abraham and his son Ishmael gathered in the valley of Mecca to raise the foundations of the Sacred House by divine command. Working together with humility and dedication, they set the Black Stone in its corner and prayed for God's acceptance and blessing upon their descendants, making the Kaaba the global Qibla of prayer and pilgrimage.
+
+## For Scholars
+A foundational event in sacred Islamic history wherein the patriarch Abraham and his son Ishmael raised the ancient foundations of the Sacred House in Mecca following divine commandment, as chronicled in Surat al-Baqarah. The construction was accompanied by Abraham's comprehensive prayer for the valley's security, sustenance, and the emergence of a messenger from among their descendants. Marked by the positioning of the Black Stone and the Station of Abraham (Maqam Ibrahim), the site was consecrated as the inaugural house of worship appointed for humankind and the perpetual focal point (Qibla) for Muslim prayer.

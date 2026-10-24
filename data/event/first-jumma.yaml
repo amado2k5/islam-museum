@@ -20,4 +20,8 @@ relations:
   - { type: had_participant, target: person/abu-bakr, role: "ردف النبي في المسير", sources: [source/mubarakpuri-raheeq] }
   - { type: had_participant, target: group/banu-salim, note: "أدركته الجمعة فيهم وكانوا مائة رجل" }
 sources: [source/mubarakpuri-raheeq, source/sahih-al-bukhari, source/ibn-hisham-sira]
+education:
+  levels: [sprouts, explorers, scholars]
+  flagged_for_kids: true
+  provenance: { generated_by: "Devin", model: "gemini-2.5-pro", run: "education-E2-batch3", note: "Leveled texts drafted from the record's own summary and prose; draft, pending the founder's review and scholar review of the child levels." }
 status: { review: draft, completeness: 2, generated_by: "Devin; al-Raheeq al-Makhtum pp. 172-173" }

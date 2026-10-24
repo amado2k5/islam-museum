@@ -11,4 +11,8 @@ coordinates: [41.0138, 28.9497]
 coordinate_precision: site
 external_ids: { wikidata: "Q406", geonames: "745044" }
 sources: [source/geonames-gazetteer]
+education:
+  levels: [sprouts, explorers, scholars]
+  flagged_for_kids: true
+  provenance: { generated_by: "Devin", model: "gemini-2.5-pro", run: "education-E2-batch3", note: "Leveled texts drafted from the record's own summary and prose; draft, pending the founder's review and scholar review of the child levels." }
 status: { review: draft, completeness: 1, generated_by: "Claude Sonnet 5.5; coordinates from GeoNames; descriptive facts to be checked against reference works" }

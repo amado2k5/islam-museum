@@ -23,4 +23,8 @@ relations:
   - { type: had_participant, target: person/ali-ibn-abi-talib, role: "لحق بهما بعد أداء الودائع ومشيه من مكة", sources: [source/mubarakpuri-raheeq, source/zad-al-maad] }
   - { type: had_participant, target: person/abu-bakr, role: "ظلل على النبي بردائه فعرفه الناس", sources: [source/mubarakpuri-raheeq, source/sahih-al-bukhari] }
 sources: [source/mubarakpuri-raheeq, source/ibn-hisham-sira, source/sahih-al-bukhari, source/zad-al-maad, source/muruj-al-dhahab, source/samhudi-wafa-al-wafa]
+education:
+  levels: [sprouts, explorers, scholars]
+  flagged_for_kids: true
+  provenance: { generated_by: "Devin", model: "gemini-2.5-pro", run: "education-E2-batch3", note: "Leveled texts drafted from the record's own summary and prose; draft, pending the founder's review and scholar review of the child levels." }
 status: { review: draft, completeness: 2, generated_by: "Devin; al-Raheeq al-Makhtum pp. 170-172" }

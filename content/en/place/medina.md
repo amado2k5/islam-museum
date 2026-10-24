@@ -75,3 +75,12 @@ The museum's material on this place includes: events that took place here: 74; p
 
 ## What this page covers
 This page gathers what the museum links to the place: events, people and buildings. It is not a full historical description of the place. A description of the place and its history will be added from primary sources in the coming batches.
+
+## For Sprouts
+Medina is the blessed city of migration, home to the Prophet's Mosque, where the Prophet and his companions lived in harmony.
+
+## For Explorers
+Medina is the illuminated city to which the Prophet and early Muslims migrated, received by the Helpers (Ansar) with profound generosity. There, the first Islamic commonwealth was established based on justice and the Constitution of Medina. It houses the Prophet's Mosque, the Rawdah, and the resting places of the Prophet and his companions Abu Bakr and Umar.
+
+## For Scholars
+Taybah, the City of the Prophet, and the second holiest sanctuary in Islam, situated in a fertile volcanic oasis in the Hejaz roughly 400 kilometers north of Mecca. Following the Hijra in 622 CE, it served as the political and spiritual capital of the early Islamic state, where the Prophet forged brotherhood between Emigrants and Helpers and promulgated the Constitution of Medina. Encompassing the Prophet's Mosque, the Rawdah, Jannat al-Baqi, and the Mosque of Quba, Medina was designated an inviolable sanctuary (haram), serving as the crucible for the revelation of communal laws and civic ethics.

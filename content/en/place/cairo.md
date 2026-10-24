@@ -20,3 +20,12 @@ The museum's material on this place includes: polities of which it was the capit
 
 ## What this page covers
 This page gathers what the museum links to the place: events, people and buildings. It is not a full historical account of the place; a description of the place and its history from original sources will be added in later batches.
+
+## For Sprouts
+Cairo is Egypt's historic capital, the city of a thousand minarets, home to the noble al-Azhar Mosque and vibrant heritage.
+
+## For Explorers
+Cairo is an ancient city on the banks of the Nile River in Egypt, founded by the general Jawhar al-Siqilli in the Fatimid era in 358 AH near historic Fustat. Called the City of a Thousand Minarets for its abundant mosques and colleges like al-Azhar and Sultan Hasan, it flourished under the Ayyubids and Mamluks as a hub of commerce and scholarship.
+
+## For Scholars
+The historic capital of Egypt and one of the supreme metropolitan centers of Islamic civilization, situated along the eastern bank of the Nile. Founded as 'al-Qahira al-Mu'izziyya' in 358 AH (969 CE) by the Fatimid commander Jawhar al-Siqilli north of earlier settlements at Fustat and al-Qata'i. Following the fall of Baghdad in 656 AH, Cairo became the preeminent political and intellectual capital of the central Islamic lands under the Ayyubids and Mamluks, hosting the symbolic Abbasid caliphate, al-Azhar University, and monumental stone-carved colleges and hospitals controlling Mediterranean-Red Sea trade.

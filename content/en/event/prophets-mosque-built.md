@@ -19,3 +19,12 @@ The mosque was not for prayer alone. It was a centre of learning, a forum in whi
 
 ## For young visitors
 The Prophet built the first mosque in Medina with his own hands and the hands of his Companions, from palm trunks and mudbrick, so that Muslims could gather there for prayer and learning. It had a place where the poor could sleep.
+
+## For Sprouts
+The Prophet and his companions built the Prophet's Mosque in Medina with mud bricks and palm branches, as a house of prayer and care.
+
+## For Explorers
+Upon arriving in Medina, the Prophet's camel knelt on land belonging to two orphan youths of the Banu al-Najjar clan, which was purchased to establish the Prophet's Mosque. The Emigrants and Helpers joined with the Prophet in carrying bricks and palm trunks to construct the mosque, which became the beating heart of worship, education, and community support.
+
+## For Scholars
+The foundation and construction of the Prophet's Mosque in the first year of the Hijra (622 CE) following the Prophet's arrival in Medina. Built upon land purchased from two orphan youths of Banu al-Najjar where his camel halted, the Prophet labored alongside the Emigrants and Helpers using clay bricks and palm timber, with the initial qibla facing Jerusalem before the redirection to the Kaaba. Serving as the civic, educational, and devotional nexus of the emergent Muslim community, it accommodated worship, public administration, foreign delegations, and the shelter of the suffa community, establishing the enduring archetype for Islamic religious architecture.

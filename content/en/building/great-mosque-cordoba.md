@@ -16,3 +16,12 @@ Ibn Fadl Allah al-Umari says the mosque is a hundred cubits long and eighty wide
 In its storeroom is a Qur'an that two men lift because of its weight. Al-Umari says that it contains four leaves of the Qur'an copied by Uthman with his own hand, with spots of his blood on them. Its minbar is of ebony and box-wood. {cite:umari-masalik-1924 p. 212-214}
 
 There is a censer, on which six craftsmen worked for seven years, and al-Umari considers that it has no equal in craftsmanship anywhere in the inhabited world. Its minaret is climbed by two staircases set at odds, so that the two climbers meet only at the top, and it holds three hundred columns and three apples, one of gold and two of silver. Sixty men serve the mosque. {cite:umari-masalik-1924 p. 212-214}
+
+## For Sprouts
+The Great Mosque of Cordoba is a vast and grand mosque in al-Andalus, famed for its marble columns and red-and-white arches.
+
+## For Explorers
+The Great Mosque of Cordoba is a masterpiece of Islamic architecture in al-Andalus, commenced by Emir Abd al-Rahman I in 170 AH and expanded by subsequent rulers. It features a breathtaking hypostyle prayer hall with hundreds of marble columns supporting double-tiered red-and-white arches and a dazzling golden mihrab.
+
+## For Scholars
+A monumental masterpiece of Islamic architecture and the crowning jewel of the Umayyad Caliphate in al-Andalus, founded by Emir Abd al-Rahman I in 170 AH (786 CE). Successively expanded under Abd al-Rahman II, al-Hakam II, and al-Mansur, the mosque could accommodate tens of thousands of worshipers. It is architecturally celebrated for its iconic hypostyle forest of jasper, onyx, and marble columns crowned by two-tiered horseshoe arches with alternating red brick and white stone voussoirs, ribbed melon domes, and a dazzling octagonal mihrab adorned with Byzantine glass mosaics.

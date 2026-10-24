@@ -72,3 +72,12 @@ The museum's material on this place includes: events that took place here: 55; p
 
 ## What this page covers
 This page gathers what the museum links to the place: events, people and buildings. It is not a full historical description of the place. A description of the place and its history will be added from primary sources in the coming batches.
+
+## For Sprouts
+Mecca is a blessed and holy city, home to the sacred Kaaba and the Grand Mosque, toward which Muslims pray.
+
+## For Explorers
+Mecca is the holiest city in Islam, the birthplace of the Prophet Muhammad, and the cradle of revelation. It embraces the Grand Mosque, the sacred Kaaba built by Abraham and Ishmael, the well of Zamzam, and the hills of Safa and Marwah, welcoming millions of pilgrims annually for the Hajj in brotherhood.
+
+## For Scholars
+Umm al-Qura (the Mother of Cities) and the holiest sanctuary in Islam, situated in a desert valley within the Hejaz mountains of western Arabia. Mecca encloses the Sacred Mosque and the Kaaba, the inaugural house of worship consecrated for humanity and the universal Qibla for Islamic prayer. Associated with Abraham, Hagar, and Ishmael, it flourished as a pre-Islamic commercial hub under Quraysh along the seasonal trade routes. The birthplace of the Prophet Muhammad and the cradle of Qur'anic revelation, the sanctuary is governed by inviolable sacred boundaries, hosting millions of pilgrims annually during the Hajj.
