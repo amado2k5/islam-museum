@@ -63,3 +63,12 @@ He prepared for the emigration; the Prophet said to him: "Wait a little," and he
 
 ## In the emigration (Sealed Nectar, pp. 161–166)
 He went out with the Prophet from a small door in his house to the cave of Thawr. He entered it before him to clean it, and blocked a hole in it with his garment; he was stung in the foot, and did not move, lest he wake the Prophet ([[event/hijra-night-escape|the Prophet's departure from his house and hiding in the cave]]). {cite:mubarakpuri-raheeq p.164}
+
+## For Sprouts
+Abu Bakr al-Siddiq was the loyal companion of the Prophet, the first caliph, famous for truthfulness, kindness, and generosity.
+
+## For Explorers
+Abu Bakr al-Siddiq was the devoted companion of the Prophet and his partner on the migration to Medina, being the first adult free male to accept Islam. Known as al-Siddiq for his unswerving truthfulness, he spent his wealth freeing enslaved believers, and was chosen as the first caliph to preserve the unity of the community.
+
+## For Scholars
+Abdullah ibn Abi Quhafa, famed as Abu Bakr al-Siddiq (c. 51 BH – 13 AH / 573–634 CE), the Prophet's closest companion, his partner in the cave during the Hijra, and the first Rightly Guided Caliph (11–13 AH). The earliest adult male convert, he used his wealth in Mecca to ransom persecuted slaves like Bilal ibn Rabah. Elected at the Saqifa following the Prophet's passing, his leadership safeguarded the young commonwealth, initiated the first centralized compilation of the Qur'an, and dispatched expeditions to Syria and Iraq, embodying unshakeable faith and serene resolve.

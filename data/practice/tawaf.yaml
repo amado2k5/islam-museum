@@ -27,6 +27,10 @@ provenance:
   layer: own-research
   source: Qur'an refs via Tanzil; fiqh via standard madhhab literature
   generated_by: Devin (SWE-2 High), practices lane
+education:
+  levels: [sprouts, explorers, scholars]
+  flagged_for_kids: true
+  provenance: { generated_by: "Devin", model: "gemini-2.5-pro", run: "education-E2-batch4", note: "Leveled texts drafted from the record's own summary and prose; draft, pending the founder's review and scholar review of the child levels." }
 status:
   review: draft
   completeness: 3

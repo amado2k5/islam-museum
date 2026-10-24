@@ -25,3 +25,12 @@ Ibn al-Sakan relates from Thabit that Anas said: "this is a hair of the Messenge
 
 ## His death
 His year of death is disputed: Shu'ayb ibn al-Habhab said year 90; Sa'id ibn Ufayr, al-Haytham ibn Adi and Mu'tamar said year 91; Abdullah ibn Zayd al-Hudhali attended him in year 92 in Ibn Sa'd's account from al-Waqidi; Abu Nu'aym al-Kufi, al-Mada'ini and Khalifa said year 93, al-Mada'ini and Khalifa adding that he was one hundred three — and other views exist {cite:ibn-hajar-isaba p. 101}.
+
+## For Sprouts
+A kind companion who served the Prophet in Medina as a youth for ten years, sharing stories of gentleness and care.
+
+## For Explorers
+Anas ibn Malik was an Ansari companion brought by his mother Umm Sulaym to serve the Prophet when he arrived in Medina as a ten-year-old boy. He lived with the Prophet for ten years, recalling that the Prophet never rebuked him or spoke harshly, praying for blessings in his family, wealth, and lifespan, becoming one of the major narrators of Hadith.
+
+## For Scholars
+Abu Hamza Anas ibn Malik (c. 10 BH – 93 AH / 612–712 CE), the dedicated companion who served the Prophet throughout the Medinan period and stands as the third most prolific narrator of Hadith after Abu Hurayra and Ibn Umar. Entrusted to the Prophet by his mother Umm Sulaym at age ten, he resided in close proximity to the household for ten years, faithfully preserving detailed observations of prophetic worship and domestic ethics. Blessed by the Prophet's prayer for abundance and long life, he settled in Basra, surviving as one of the last living companions and teaching seminal scholars including al-Hasan al-Basri and Ibn Sirin.

@@ -18,3 +18,12 @@ The first form of the Islamic state, in how the caliph rules, how stipends are g
 
 ## For young visitors
 Umar was a feared enemy before he became the second leader of the community. In ten years, the religion that was born in one valley reached three empires.
+
+## For Sprouts
+Umar ibn al-Khattab was the second righteous caliph, famous for justice, mercy, helping the needy, and caring for people.
+
+## For Explorers
+Umar ibn al-Khattab, titled al-Faruq (the Distinguisher of truth), was the second caliph and a wise leader known for justice, humility, and accountability. During his rule, he established civic administrations, public registries (diwans), and the Hijri calendar, famously walking the streets at night to assist families in need.
+
+## For Scholars
+Abu Hafs Umar ibn al-Khattab (c. 40 BH – 23 AH / 584–644 CE), titled al-Faruq, the second Rightly Guided Caliph and a transformative statesman. Embracing Islam in Mecca in the sixth year of prophethood, his leadership strengthened the early community. Assuming the caliphate in 13 AH (634 CE) upon Abu Bakr's nomination, his tenure oversaw historic expansions into Syria, Iraq, Egypt, and Jerusalem, where he issued the landmark Covenant of Umar. He laid the institutional architecture of the Islamic state through the creation of administrative registries (diwans), an independent judiciary, the treasury, and the official institution of the lunar Hijri calendar.

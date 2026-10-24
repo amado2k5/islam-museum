@@ -18,3 +18,12 @@ Jurists agreed that wudu was ordained in Mecca together with prayer, and that no
 
 ## Wudu, tayammum and ghusl
 Wudu and tayammum both lift ritual impurity, but wudu is a water rite for minor hadath while tayammum serves for both minor and major hadath using clean earth; the Lawgiver even called tayammum "wudu" since it stands in its place — "clean earth is the Muslim's wudu". {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.17366} {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.17367}
+
+## For Sprouts
+Wudu is a refreshing purification with clean water before prayer, washing the face and hands, wiping the head, and washing feet.
+
+## For Explorers
+Wudu is the ritual ablution commanded by God before prayer, preparing believers to stand before Him in purity and cleanliness. It begins with intention, washing the hands, rinsing the mouth and nose, washing the face and arms to the elbows, wiping the head and ears, and washing the feet to the ankles, bringing physical cleanliness and inner serenity.
+
+## For Scholars
+The minor ritual ablution (wudu) with water, standing as an indispensable prerequisite for the validity of the ritual prayer (salat), circumambulation of the Kaaba (tawaf), and handling the Qur'anic text, established by the Qur'an in Surat al-Ma'idah. Combining its obligatory integrals (fara'id)—washing the face, washing the forearms including elbows, wiping the head, and washing the feet including ankles—with recommended practices (sunan) like rinsing the mouth, inhaling water, using the toothstick (siwak), and maintaining sequence. Wudu embodies a recurring synthesis of physical hygiene and spiritual revitalization performed multiple times daily.

@@ -23,4 +23,8 @@ relations:
   - { type: participated_in, target: event/return-of-abyssinian-emigrants, role: returnee, sources: [source/ibn-hisham-saqqa] }
 external_ids: { wikidata: "Q335170" }
 sources: [source/ibn-hisham-saqqa, source/muruj-al-dhahab, source/sallabi-ali-vol1]
+education:
+  levels: [sprouts, explorers, scholars]
+  flagged_for_kids: true
+  provenance: { generated_by: "Devin", model: "gemini-2.5-pro", run: "education-E2-batch4", note: "Leveled texts drafted from the record's own summary and prose; draft, pending the founder's review and scholar review of the child levels." }
 status: { review: draft, completeness: 1, generated_by: "kiro; mined from Ibn Hisham juz' 4 p. 4" }

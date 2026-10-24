@@ -36,4 +36,8 @@ perspectives:
     id: shia-twelver
     summary: { en: "Twelver Shia tradition holds that the Prophet had designated Ali ibn Abi Talib as successor, so regards Abu Bakr's accession as a departure from that designation." }
 sources: [source/ibn-ishaq-guillaume, source/watt-1956-medina, source/mubarakpuri-raheeq, source/ibn-hisham-saqqa, source/ibn-hisham-sira, source/rahma-lil-alamin, source/sahih-al-bukhari, source/sahih-muslim]
+education:
+  levels: [sprouts, explorers, scholars]
+  flagged_for_kids: true
+  provenance: { generated_by: "Devin", model: "gemini-2.5-pro", run: "education-E2-batch4", note: "Leveled texts drafted from the record's own summary and prose; draft, pending the founder's review and scholar review of the child levels." }
 status: { review: draft, completeness: 1, generated_by: "Claude Sonnet 5.5 (scaffold)" }

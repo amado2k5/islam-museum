@@ -12,6 +12,10 @@ coordinate_precision: site
 wings: [place]
 external_ids: { wikidata: "Q5753", geonames: "1216265", pleiades: "59915" }
 sources: [source/futuh-buldan-maarif-1407, source/geonames-gazetteer, source/ahsan-al-taqasim, source/farghani-elements-astronomy]
+education:
+  levels: [sprouts, explorers, scholars]
+  flagged_for_kids: true
+  provenance: { generated_by: "Devin", model: "gemini-2.5-pro", run: "education-E2-batch4", note: "Leveled texts drafted from the record's own summary and prose; draft, pending the founder's review and scholar review of the child levels." }
 status: { review: draft, completeness: 1 }
 provenance:
   layer: own-research

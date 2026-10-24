@@ -55,5 +55,9 @@ perspectives:
     sources: [source/momen-1985]
 sensitivity: contested
 sources: [source/ibn-sad-tabaqat-bewley, source/watt-1956-medina, source/ibn-ishaq-guillaume, source/muruj-al-dhahab, source/mubarakpuri-raheeq, source/ibn-hisham-sira, source/sahih-al-bukhari, source/sahih-muslim, source/nihayat-al-arab-nuwayri-vol3-scan]
+education:
+  levels: [sprouts, explorers, scholars]
+  flagged_for_kids: true
+  provenance: { generated_by: "Devin", model: "gemini-2.5-pro", run: "education-E2-batch4", note: "Leveled texts drafted from the record's own summary and prose; draft, pending the founder's review and scholar review of the child levels." }
 status: { review: draft, completeness: 3, generated_by: "Devin; 2026-10-11" }
 external_ids: { wikidata: Q37731 }

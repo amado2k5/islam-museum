@@ -76,3 +76,12 @@ On the night of the departure the Prophet told him to sleep in his bed and wrap 
 
 ## Commander of the Muhajirun at Badr (Al-Rahiq al-Makhtum pp. 205, 210)
 The Prophet put him over the battalion of the Muhajirun, and sent him with al-Zubayr and Sa'd to scout the caravan, and they seized two boys ([[event/badr-expedition-setup|the preparation before Badr]]). {cite:mubarakpuri-raheeq p.205} {cite:mubarakpuri-raheeq p.210}
+
+## For Sprouts
+Ali ibn Abi Talib was the Prophet's cousin, brave and wise, the fourth righteous caliph who loved justice and truth.
+
+## For Explorers
+Ali ibn Abi Talib was the cousin and son-in-law of the Prophet, married to Fatima al-Zahra, and the first youth to embrace Islam. Renowned for supreme courage, profound eloquence, and judicial wisdom, he served as the fourth Rightly Guided Caliph and holds an honored place in the hearts of all Muslims.
+
+## For Scholars
+Abu al-Hasan Ali ibn Abi Talib (c. 23 BH – 40 AH / 600–661 CE), the Prophet's cousin, son-in-law married to Fatima al-Zahra, the fourth Rightly Guided Caliph (35–40 AH) in Sunni tradition, and the first Imam in Shi'i tradition. The first male youth to accept Islam, he risked his life in the Prophet's bed on the night of the Hijra. Famed for valor at Badr, Uhud, and Khaybar, and acclaimed for judicial wisdom and supreme Arabic eloquence, his caliphate emphasized rigorous social justice, strict administrative accountability, and personal asceticism.

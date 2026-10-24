@@ -18,3 +18,12 @@ Military histories still study his campaigns, and Muslim memory still debates wh
 
 ## For young visitors
 Khalid was the most skilled commander of his age, and he fought on both sides. People still argue about whether he was a hero or went too far.
+
+## For Sprouts
+A brave commander titled the Drawn Sword of God by the Prophet, skilled in leadership and devoted to justice.
+
+## For Explorers
+Khalid ibn al-Walid was a brilliant military strategist and commander renowned for his tactical genius and courage. Embracing Islam before the opening of Mecca in 7 AH, the Prophet honored him with the title 'The Drawn Sword of God' after the battle of Mut'ah for his skillful leadership, subsequently leading campaigns in Iraq and Syria.
+
+## For Scholars
+Abu Sulayman Khalid ibn al-Walid (d. 21 AH / 642 CE), celebrated as the 'Drawn Sword of God' (Sayf Allah al-Maslul), stands among the most brilliant military commanders in history. Accepting Islam in 8 AH prior to the conquest of Mecca alongside Amr ibn al-As, the Prophet bestowed his honorific title following his tactical withdrawal of the Muslim army at Mut'ah. Entrusted with key commands during the Ridda campaigns and early expeditions in Iraq and Syria, his maneuvers at the decisive Battle of Yarmouk (15 AH) demonstrated supreme strategic mastery. Undefeated in battle, he spent his final years in Homs, embodying military discipline upon accepting Caliph Umar's administrative decisions.

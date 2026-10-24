@@ -28,3 +28,12 @@ Al-Bukhari, in al-Tarikh, reports from Malik that he reached eighty-seven years;
 
 ## Letting the turban's end hang
 Ibn Ishaq reports from Ata' ibn Abi Rabah that a man from Basra asked Ibn Umar about letting the end of a turban hang down behind the wearer. Ibn Umar answered with an account of a gathering of the Prophet in the mosque, where he was the tenth of ten. In it, a young Ansari asked about the best and most discerning believers; the Prophet related [[work/hadith-of-the-five-afflictions|the hadith of the five afflictions]]; and the Prophet turbanned Abd al-Rahman ibn Awf with his own hand and let four fingers' length hang behind him. See [[event/sariyya-of-abd-al-rahman-ibn-awf-to-dumat-al-jandal|the expedition]]. {cite:ibn-hisham-saqqa 4/280}
+
+## For Sprouts
+A noble companion from Medina who deeply loved the Prophet and carefully followed his peaceful example and devotion.
+
+## For Explorers
+Abdullah ibn Umar ibn al-Khattab was a distinguished companion, scholar, and one of the most prolific narrators of Hadith. Migrating to Medina as a youth, he was renowned for meticulously emulating the Prophet's practices in devotion, travel, and kindness, while remaining completely detached from political ambitions and devoted to charity.
+
+## For Scholars
+Abu Abd al-Rahman Abdullah ibn Umar ibn al-Khattab (c. 10 BH – 73 AH / 613–693 CE), an eminent companion, jurist, and one of the prominent narrators of Hadith. Accepting Islam in childhood and migrating with his father Umar, he witnessed the Trench, the Pledge of Ridwan, and early campaigns. Renowned in Islamic memory for his meticulous emulation of the Prophet's personal habits and devotional practices, he epitomized strict moral asceticism, steadfastly declining caliphal office and remaining neutral during civil discords while serving as a senior legal authority in Medina.

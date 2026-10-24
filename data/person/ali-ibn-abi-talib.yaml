@@ -24,4 +24,8 @@ relations:
   - { type: participated_in, target: event/hijra, role: stayed-behind-then-followed, sources: [source/ibn-ishaq-guillaume] }
 external_ids: { wikidata: Q39619 }
 sources: [source/ibn-ishaq-guillaume, source/muruj-al-dhahab, source/fihrist-ibn-al-nadim, source/ibn-hisham-saqqa, source/mubarakpuri-raheeq, source/ibn-hisham-sira, source/rahma-lil-alamin, source/sahih-al-bukhari, source/sahih-muslim, source/sallabi-ali-vol1, source/nihayat-al-arab-nuwayri-vol3-scan]
+education:
+  levels: [sprouts, explorers, scholars]
+  flagged_for_kids: true
+  provenance: { generated_by: "Devin", model: "gemini-2.5-pro", run: "education-E2-batch4", note: "Leveled texts drafted from the record's own summary and prose; draft, pending the founder's review and scholar review of the child levels." }
 status: { review: draft, completeness: 1, generated_by: "Claude Sonnet 5.5 (scaffold)" }
