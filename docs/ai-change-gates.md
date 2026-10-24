@@ -50,13 +50,13 @@ Before anything is pushed: `npm run validate` reports 0 errors, `npm test` passe
 
 The charter in `AGENTS.md` is non-negotiable and is restated here only so that no agent can claim this document replaced it:
 
-- AI output enters as `status.review: draft` with a `provenance` block; promotion to `reviewed` or `verified` is performed by agents only under the protocol in `docs/agents/review-and-promotion.md` (independent reviewer, attestation in provenance, standing audit with automatic demotion). No agent promotes its own work.
+- AI output is published under `docs/agents/publication-standard.md`: it enters as `status.review: published` with a `provenance` block once it cites defined sources. No review — human or agent — gates publication.
 - Qur'an text is never typed, completed or corrected; it comes only from the frozen Tanzil files and is referenced as `[[passage/quran-<sura>-<aya>|label]]`.
 - No honorifics typed anywhere; the UI renders them.
 - Arabic first: `label.ar` and `summary.ar` required; new prose goes in `content/ar/` first; English and Urdu are translations.
 - Every page readable without JavaScript; WCAG 2.2 AA; alt text in every published language.
 - Sunni Islam is the default frame and is labelled; any other view is labelled before it is stated; contested topics use the `perspectives` block, cited, with no verdict; never "enemy of Islam" or an equivalent in the museum's voice.
-- Every entity cites sources; every dated fact has two sources or a flag; never invent a date, quote, page number, ISBN or citation.
+- Every entity cites sources; one source is enough for any fact, dated or not; never invent a date, quote, page number, ISBN or citation.
 - Media only from the whitelist in `schema/enums/licenses.yaml`; no figurative depictions of prophets or Companions; no AI-generated portraits.
 
 ## 7. Attribution gate

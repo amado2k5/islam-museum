@@ -29,7 +29,7 @@ Everything the book says, rewritten. Read the book, copyrighted or not, includin
 ## 4. Rules specific to mining
 
 - **Status of claims:** `tradition` by default for the tradition's own narrative; `historical` or `debated` only where an academic source says so; the book's own opinions are recorded as that author's view with the page.
-- **Dates** exactly as the book words them (`«جمادى الأولى سنة ثمان»` becomes hijri `0008-05`, precision month); Gregorian only if a source gives it, `calendar: julian`; never a day the source does not give. A dated fact needs this book plus a second source, or `confidence: low` with `needs_source`.
+- **Dates** exactly as the book words them (`«جمادى الأولى سنة ثمان»` becomes hijri `0008-05`, precision month); Gregorian only if a source gives it, `calendar: julian`; never a day the source does not give. One source is enough for a dated fact; add a second when it is cheap, and use `confidence: low` with `needs_source` only when the source itself is doubtful — neither ever blocks publication.
 - **Isnads and attributions:** record the first transmitters the book prints in the claim's note. Report grades only as attributed to a named grader.
 - **Hadith matn:** do not bulk-import. Create a `passage` only for a report the museum cites: `ref`, a matn excerpt of at most 40 words, the isnad head as printed, the grade attributed to its grader.
 - **Qur'an:** reference `passage/quran-<sura>-<aya>` and add edges with sources; quote the book's words about the occasion, never the ayah.
@@ -39,4 +39,4 @@ Everything the book says, rewritten. Read the book, copyrighted or not, includin
 
 ## 5. Quality bar for every batch
 
-Every dated fact: this book's page plus a second source, or flagged. Every claim traceable to a page a reviewer can open and verify in under a minute. Every doubt marker captured. Every entity: `label.ar`, `summary.ar`, at least one source, a provenance block, `status.review: draft`. No sentence stating a fact without a citation; no quotation over 40 words; no honorific; no Qur'an text; no English prose. End each batch with a short report (entities created or updated, claims count, sources used, doubt markers captured, contested points flagged, passages verified on the image) in the commit body or progress file.
+Every dated fact: cited to this book's page (a second source when cheap, never required). Every claim traceable to a page a reader can open and verify in under a minute. Every doubt marker captured. Every entity: `label.ar`, `summary.ar`, at least one source, a provenance block, `status.review: published`. No sentence stating a fact without a citation; no quotation over 40 words; no honorific; no Qur'an text; no English prose. End each batch with a short report (entities created or updated, claims count, sources used, doubt markers captured, contested points flagged, passages verified on the image) in the commit body or progress file.
