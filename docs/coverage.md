@@ -40,7 +40,7 @@ Average sources per entity: **1.28** · Women share of persons with a recorded g
 | objects | 6222 |
 | people | 8396 |
 | place | 1713 |
-| time | 3977 |
+| time | 3978 |
 | today | 6 |
 | words | 167 |
 
@@ -177,7 +177,7 @@ Average sources per entity: **1.28** · Women share of persons with a recorded g
 | renewal-and-reform | 2 |
 | rights-and-freedoms | 22 |
 | sacred-space-and-pilgrimage | 103 |
-| sacred-time | 36 |
+| sacred-time | 37 |
 | science-today | 6 |
 | scripture-and-its-sciences | 604 |
 | seafaring-and-ports | 1 |
@@ -200,7 +200,7 @@ Average sources per entity: **1.28** · Women share of persons with a recorded g
 | water-and-animals | 9 |
 | websites-and-apps | 2 |
 | women | 220 |
-| worship-and-the-pillars | 459 |
+| worship-and-the-pillars | 460 |
 | zakat-and-sadaqa | 21 |
 | zoology | 1 |
 
