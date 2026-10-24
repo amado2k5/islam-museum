@@ -41,6 +41,7 @@ npm run dev             # = graph+derive+api, then `site` astro dev
 # 4b. Or produce the real static site + search indexes
 npm run build           # = prebuild (validate+graph+derive+api) then astro build
                         # + pagefind-ar/-en/-ur indexes into dist/
+                        # + check:site + check:weight (integrity + page-weight budgets)
 ```
 
 `npm run build` produces `dist/` — the entire museum as files. Serve them:
