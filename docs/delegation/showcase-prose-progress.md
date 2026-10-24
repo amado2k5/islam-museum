@@ -447,6 +447,14 @@ Decision needed before editing: page conventions. Some sources in the record use
 
 Status: `concept/iman` remains at completeness 2. Its next pass: fix the sharh page (p. 271), re-cite lumat by scan page (p. 48 for the definition, p. 27 for shu'ab), locate the tahawi definition, and search sallabi and the two Quran verses.
 
+## Phase 3, batch 7 (concept/iman correction pass): done, completeness stays 2
+
+- Page citations re-mapped to the local scans: the Tahawi definition to aqidat-tahawiyya p. 367 (the quotation is in the scan there); Lumat's definition to p. 48 (the printed 27 was a different page); Lumat's atom hadith to p. 29; Maqalat's definition and "pieces" sentences to p. 324; Sharh al-Tahawiyya's Maturidi and Karramiyya sentences to p. 271.
+- Removed, because the local scans do not contain them: the Bukhari 8 quotation "وهو قول وفعل، ويزيد وينقص" and the chapter claims 1/14 and 1/11 (with their section); the Tahawi clauses on the wording of the 'waahid' sentence and the 'no exit from faith' clause; the Sharh's Jahm clause, "ظاهرا الفساد", and the four-fold classification paragraph; the whole Sallabi section (the Sallabi volume is not in the local harvest; the source stays defined and is no longer cited here).
+- Remaining: the Quran cross-references (2:285 and 98:5) and the Bukhari 1/14 heading are not re-checked, so `concept/iman` stays at completeness 2.
+
+Checks: `npm run cite-check` 1 of 1 pass; `npm run validate` 0 errors, 7,295 warnings (unchanged).
+
 ## NEXT STEP:
 
 Phase 3 (the general queue) is next. The Showcase queue (`docs/delegation/showcase-queue.md`) lists 1,240 featured records, of which the Egypt and Sicily sets are a small part. The Egypt drafts with Khitat passages are close to exhausted; the Mamluk and Ayyubid entries outside Egypt need another source family. The al-Nasiriyya madrasa stays skipped until a founder or date is found. Two decisions wait for the founder: D16 (merge `place/iskandariyya` into `place/alexandria`) and D15 (Archnet's terms, read in a visible session, or the founder supplies the posture). Also for the founder: the period-file alignment with D26, the Urdu drafts, the Adil place-name conflict, and D28 (two dates for Aybak's independence, both stated).
