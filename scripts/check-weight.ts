@@ -36,6 +36,8 @@ export const BUDGETS: Budget[] = [
   // E2: the shelf (a list rendered on the device) and the weekly sheet (52 activities in the HTML, hidden but present)
   { family: "shelf", route: "/ar/learn/shelf/", html: 200 * KB, js: 12 * KB },
   { family: "weekly sheet", route: "/ar/learn/parents/weekly/", html: 260 * KB, js: 8 * KB },
+  // E3 step 1: the classroom quiz (plan §3 family ceiling for the quiz screen; one of the twelve pathways)
+  { family: "classroom quiz", route: "/ar/learn/teachers/quiz/g11-chw3m-rise-of-islam/", html: 80 * KB, js: 15 * KB },
 ];
 
 export interface Measure { route: string; html: number; js: number; scripts: string[] }

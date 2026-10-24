@@ -91,7 +91,7 @@ describe("education: routes and wiring", () => {
   });
   it("every relative import and <script src> in the new pages and components resolves", () => {
     const files = [...walk(`${PAGES}/learn`), `${PAGES}/sighar/sprouts.astro`, `${PAGES}/sighar/explorers.astro`, `${PAGES}/sighar/storytellers.astro`,
-      "site/src/components/BandHub.astro", "site/src/components/PassportStrip.astro", "site/src/components/StudyModes.astro", "site/src/components/Qr.astro",
+      "site/src/components/BandHub.astro", "site/src/components/PassportStrip.astro", "site/src/components/ClassroomQuiz.astro", "site/src/components/StudyModes.astro", "site/src/components/Qr.astro",
       `${PAGES}/sighar/read/[class]/[slug].astro`, "site/src/components/ReadShelf.astro", "site/src/components/LevelSwitcher.astro", "site/src/components/PathwayWorksheet.astro"];
     for (const f of files) {
       const src = readFileSync(f, "utf8");
@@ -124,7 +124,7 @@ describe("education: routes and wiring", () => {
       }
       return spans;
     };
-    for (const f of ["passport.ts", "study.ts", "share.ts", "quiz.ts"]) {
+    for (const f of ["passport.ts", "study.ts", "share.ts", "quiz.ts", "classroom-quiz.ts"]) {
       const src = readFileSync(`site/src/scripts/${f}`, "utf8");
       expect(src.includes("fetch("), `${f} fetches`).toBe(false);
       const spans = trySpans(src);
@@ -143,7 +143,7 @@ describe("education: weight budgets and QR", () => {
   it("budget table names built routes with sane limits", async () => {
     const { BUDGETS } = await import("./check-weight.ts");
     for (const b of BUDGETS) {
-      const dynamic = /^\/ar\/(cards\/list|sighar\/teachers\/lessons|sighar\/read\/[a-z]+|learn\/teachers\/pathways|[a-z]+)\/[a-z0-9-]+\/(print\/)?$/.test(b.route);
+      const dynamic = /^\/ar\/(cards\/list|sighar\/teachers\/lessons|sighar\/read\/[a-z]+|learn\/teachers\/pathways|learn\/teachers\/quiz|[a-z]+)\/[a-z0-9-]+\/(print\/)?$/.test(b.route);
       expect(routeBuilt(b.route.replace(/^\/ar/, "")) || dynamic, b.route).toBe(true);
       expect(b.html).toBeLessThanOrEqual(700 * 1024);
       expect(b.js).toBeLessThanOrEqual(30 * 1024);
@@ -407,5 +407,75 @@ describe("education: shelf and weekly sheet (E2 step 6)", () => {
   });
   it("the shelf strings and the weekly strings exist in all three languages", () => {
     for (const l of LANGS) for (const k of ["sh_title", "sh_add", "sh_privacy", "wk_title", "wk_print", "wk_all"]) expect(typeof i18n(l).edu[k] === "string" && i18n(l).edu[k].length > 0, `${l} ${k}`).toBe(true);
+  });
+});
+
+describe("education: classroom quiz (E3 step 1)", () => {
+  const pathwayFiles = readdirSync("data/exhibit").filter((f) => f.startsWith("pathway-")).map((f) => `data/exhibit/${f}`);
+  const quiz = readFileSync("site/src/components/ClassroomQuiz.astro", "utf8");
+  const script = readFileSync("site/src/scripts/classroom-quiz.ts", "utf8");
+
+  it("one route per pathway in each language, from the same pathway list the teacher pages use", () => {
+    expect(pathwayFiles.length).toBe(12);
+    expect(readFileSync(`${PAGES}/learn/teachers/quiz/[slug].astro`, "utf8").includes("pathways()")).toBe(true);
+  });
+
+  it("the page states in every language that no answer leaves the device, and the strings exist in ar, en and ur", () => {
+    for (const l of LANGS) {
+      const v = i18n(l).edu.cq_device;
+      expect(typeof v === "string" && v.length > 0, `${l} cq_device`).toBe(true);
+    }
+    expect(quiz.includes("E.cq_device")).toBe(true);
+  });
+
+  it("renders all five questions, their options and the answer sheet in the HTML (no script needed), and hides them only under the js class", () => {
+    expect(quiz.includes("qs.map((q) =>")).toBe(true);
+    expect(quiz.includes('<section class="cq-sheet"')).toBe(true);
+    expect(quiz.includes("q.options.map(")).toBe(true);
+    // the questions are visible by default; only a page that has the js class hides them until the quiz starts
+    expect(/:root\.js \.cq-q \{ display: none; \}/.test(quiz)).toBe(true);
+    expect(/:root\.js \.cq-sheet \{ display: none; \}/.test(quiz)).toBe(true);
+    expect(/\.cq-q\s*\{[^}]*hidden/.test(quiz)).toBe(false);
+  });
+
+  it("the teaching step is named on a wrong answer and links to the step on the pathway page", () => {
+    expect(quiz.includes("#pw-${q.teaches}")).toBe(true);
+    expect(quiz.includes("fmt(E.mc_teaches")).toBe(true);
+  });
+
+  it("keys 1 to 4 choose, Enter or N moves on, the timer is 20 seconds, and classroom=1 switches the mode", () => {
+    expect(script.includes("/^[1-4]$/")).toBe(true);
+    expect(script.includes("const LIMIT = 20")).toBe(true);
+    expect(script.includes('get("classroom") === "1"')).toBe(true);
+    expect(script.includes('e.key.toLowerCase() === "n"')).toBe(true);
+  });
+
+  it("the script never stores, fetches or reads the clock at build time: no storage, no network, one clock read at run time", () => {
+    expect(script.includes("localStorage")).toBe(false);
+    expect(script.includes("sessionStorage")).toBe(false);
+    expect(script.includes("fetch(")).toBe(false);
+    expect(script.includes("XMLHttpRequest")).toBe(false);
+    expect(script.includes("navigator.sendBeacon")).toBe(false);
+    expect(script.includes("Math.random")).toBe(false);
+  });
+
+  it("the printed sheet carries a QR code and a blank tally column for the teacher", () => {
+    expect(quiz.includes("<Qr lang={lang} path={pathwayQuizPath(lang, n)}")).toBe(true);
+    expect(quiz.includes('class="cq-blank"')).toBe(true);
+  });
+
+  it("the classroom quiz strings exist in all three languages with Urdu not repeating English", () => {
+    const en = i18n("en").edu, ur = i18n("ur").edu;
+    for (const k of Object.keys(i18n("ar").edu).filter((k) => k.startsWith("cq_"))) {
+      for (const l of LANGS) expect(typeof i18n(l).edu[k] === "string" && i18n(l).edu[k].length > 0, `${l} ${k}`).toBe(true);
+      expect(ur[k] === en[k], `ur repeats en for ${k}`).toBe(false);
+    }
+  });
+
+  it("the budget table names the classroom quiz route with the plan's family ceiling", async () => {
+    const { BUDGETS } = await import("./check-weight.ts");
+    const b = BUDGETS.find((x) => x.family === "classroom quiz");
+    expect(b?.html).toBe(80 * 1024);
+    expect(b?.js).toBe(15 * 1024);
   });
 });
