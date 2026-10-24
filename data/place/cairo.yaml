@@ -10,13 +10,16 @@ regions: [egypt-nile]
 coordinates: [30.0626, 31.2497]
 coordinate_precision: site
 external_ids: { wikidata: "Q85", geonames: "360630", pleiades: "727082" }
-sources: [source/geonames-gazetteer, source/tarikh-khulafa-minhaj-1434, source/ahsan-al-taqasim, source/farghani-elements-astronomy]
+sources: [source/khitat-maqrizi-1998, source/geonames-gazetteer, source/tarikh-khulafa-minhaj-1434, source/ahsan-al-taqasim, source/farghani-elements-astronomy]
 education:
   levels: [sprouts, explorers, scholars]
   flagged_for_kids: true
   provenance: { generated_by: "Devin", model: "gemini-2.5-pro", run: "education-E2-batch3", note: "Leveled texts drafted from the record's own summary and prose; draft, pending the founder's review and scholar review of the child levels." }
-status: { review: draft, completeness: 1, generated_by: "Claude Sonnet 5.5; coordinates from GeoNames; descriptive facts to be checked against reference works" }
+status: { review: published, completeness: 3, generated_by: "Claude Haiku 5.5; the founding, the first walls and the Fatimid seat are read from al-Maqrizi's Khitat (local scan, pp. 1001, 1030, 1067); the earlier sentences keep their own citations; the education levels are unchanged and still pending the founder's review" }
 
 provenance:
+  layer: own-research
+  source: "al-Maqrizi, al-Mawaiz wa-l-i'tibar (al-Khitat), Madbouli 1998, scan pp. 404, 829, 1001, 1030, 1067; coordinates from GeoNames"
+  generated_by: "Claude Haiku 5.5 (claude-haiku-5-5), showcase-prose lane"
   model: "claude-haiku-5-5"
-  run: "farghani-389-577"
+  run: "showcase-prose-phase2-egypt-batch1"

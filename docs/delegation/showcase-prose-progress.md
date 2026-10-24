@@ -9,7 +9,7 @@ _Opened 24 October 2026. Lane document: [`../agents/lanes/showcase-prose.md`](..
 | Setup | Repo, branch, dependencies, harvest workspace | 45 min | Done (see day log) |
 | 0 | Register the lane; queue file | 30 min | Done (this commit) |
 | 1 | Sicily pilot: `exhibit/path-sicily-islam` and its 10 featured records and journey | ~2.5 h | In progress |
-| 2 | Egypt showcase set (after Archnet registration) | ~2.5 h | Not started |
+| 2 | Egypt showcase set | ~2.5 h | In progress: batch 1 done (4 records). Archnet blocked, see D15; 100-record target not reached |
 | 3 | General Showcase queue | remainder | Not started |
 
 ## 0.0 Compliance checklist (instructions of 24 October 2026)
@@ -47,6 +47,10 @@ _Opened 24 October 2026. Lane document: [`../agents/lanes/showcase-prose.md`](..
 | D12 | Which Nuzhat al-Mushtaq to cite | `source/nuzhat-al-mushtaq-2002` (its scan `1-2_20240914`, two volumes), not the Rome 1592 scan | The local scan has two volumes, matching the 2002 Cairo entity; the 1592 copy is not used in this batch |
 | D13 | Idrisi birth and death years (Mawsu'at A'lam pp. 408–410) | Kept in the data, unchanged, with their source. They are not in the local workspace and were not re-checked; the prose makes no claim that depends on them | Flagged for the founder's later check rather than removed |
 | D14 | Exhibit completeness | Rooms rewritten to the 5.4 standard in ar, en and ur. The trail stays at completeness 2: room 4 features `question/what-were-the-crusades`, which is at completeness 1 | The 5.4 rule says a trail is finished only when every featured record is at 3. That record is outside this batch |
+| D15 | Archnet registration: every request to archnet.org returned HTTP 429 with a bot-detection checkpoint (terms page, a site page, robots.txt) | Skip and log vs. complete the checkpoint or route around it | Skip. Completing or bypassing bot detection is outside the rules, and the terms page could not be read, so the posture cannot be verified at the provider's page as `source-families.md` requires. No Archnet data was fetched. Also open: `docs/plan/08-prior-art.md` records Archnet's terms as "default CC BY-NC 4.0" with "no public API", which conflicts with `source-families.md` ("fully open access"); settle at onboarding |
+| D16 | Two Alexandria entities: `place/alexandria` (city) and `place/iskandariyya` (town, 11 inbound) | Merge now vs. write one and log | Wrote `place/alexandria` only. `place/iskandariyya` is untouched: a merge changes ids and aliases across the graph, so it is the founder's call |
+| D17 | Khitat (al-Maqrizi) has no `data/source/` entity | Wait for a registered family vs. register the book | Registered `source/khitat-maqrizi-1998` (book, local scan `20221202_20221202_0332`, cited by scan page). Classical text; no registry entry needed, as with the other books |
+| D18 | Egypt set size: the brief asks for about 100 records | Pad with unverified records vs. stop at what local evidence supports | Stopped at 4 records this pass. Each claim needed a page read in the local Khitat OCR; the remaining candidates are listed in NEXT STEP |
 
 ## Batches
 
@@ -72,6 +76,27 @@ Checks run: `npm run cite-check` (8 of 8 pass); `npm run graph` and `npm run cov
 
 Urdu for founder review: every ur file in this batch is a draft translation by Claude Haiku 5.5, marked as such in its frontmatter.
 
+### Batch 2 (Phase 2, Egypt, first pass): 4 records done; Archnet not registered
+
+Archnet (`source-families.md` section 5.3, Tier 1) is **not registered**. On 24 October 2026 each request from this Mac to archnet.org (the terms page, a site page and `robots.txt`) returned HTTP 429 with a bot-detection checkpoint. The terms could not be read, and no Archnet data was fetched. The checkpoint was not completed or routed around (D15).
+
+Records done (completeness 3, `status.review: published`, ar + en + ur prose in the same commit; `cite-check` 4 of 4 pass):
+
+- `place/cairo`: the arrival of Jawhar on 17 Sha'ban 358 AH and the first mud-brick wall, named al-Mansuriyya before al-Mu'izz named the city al-Qahira (Khitat scan pp. 1030, 1067); the other account, laid out in Jumada II 359 (p. 1030); Cairo as the fourth seat of rule in Egypt, and the move to the Citadel under al-Kamil (p. 1001). The earlier farghani sentences keep their own citations (their 360 AH date stands beside Khitat's 358).
+- `place/al-fustat`: al-Jawhari on the word fustat (p. 829); the seat of rule moves from Alexandria (p. 829); al-Askar and al-Qata'i (p. 829); the layout around Amr's mosque and the Qasr al-Sham' (p. 990); Shawar's burning (p. 829). The Futuh and Ahsan sentences are kept.
+- `place/alexandria`: the 641 CE date in the earlier summary is removed (no local source states it). Alexandria as the seat before Fustat and the Alexander refounding (p. 446); the "house of learning" account, quoted by al-Maqrizi from Abu al-Salt al-Andalusi (p. 422); the move of the seat to Fustat (p. 446). The farghani sentences are kept.
+- `building/masjid-amr-fustat`: Amr's founding of the mosque by the camp, the receding Nile and the house plots (p. 831); the layout of Fustat around the mosque (p. 990). The Umari sentences are kept.
+
+Source registered: `source/khitat-maqrizi-1998` (`data/source/khitat-maqrizi-1998.yaml`): al-Maqrizi, Madbouli 1998, cited by PDF scan page. The OCR of the two-column pages is checked against the page image before a date or name is quoted.
+
+Skipped or not done:
+- `place/iskandariyya`: a second Alexandria entity; left for the founder (D16).
+- `building/dar-al-hikma-cairo`: Khitat p. 1221 (the Dar al-'Ilm founded by al-Hakim, reopened in 517 AH) is found, not yet checked against the record. Not written in this pass.
+- `person/shajar-al-durr` (8 inbound): Khitat pp. 654–661 and 1536–1543 hold the material; not read in this pass.
+- No Egypt trail is finished: each Egypt trail features records below completeness 3.
+
+Checks: `npm run cite-check` 4 of 4 pass; `npm run validate` 0 errors, 7,295 warnings (the same count as batch 1, so no new warnings from this batch); `npm run graph` and `npm run coverage` regenerated. `npm test` not run (instruction 0.2).
+
 ## NEXT STEP:
 
-Phase 1, batch 2: the remaining Sicily records not yet verified are `person/asad-ibn-al-furat` and `person/ibn-jubayr-muhammad` (both skipped in this batch: see D8, D9). Before writing either, find their passages in the local workspace (Ibn Khallikan's Sahnun entry for Asad; the Nafh al-Tib entry for Ibn Jubayr). Then the trail: raise `question/what-were-the-crusades` (outside the Sicily set, for the exhibit's 5.4 finish) or ask the founder whether room 4 should keep that feature. Then Phase 2 (Egypt): register Archnet first (source-families 5.3).
+Phase 2, batch 2: write `building/dar-al-hikma-cairo` (Khitat pp. 1221 and 1250, after checking its date against the local text) and `person/shajar-al-durr` (Khitat pp. 654–661, 1536–1543), then the Khitat passages behind the Egypt trails already in the queue (`exhibit/path-fatimid-cairo`, `exhibit/path-mamluk-cairo`). Two decisions wait for the founder: whether to merge `place/iskandariyya` into `place/alexandria` (D16), and Archnet: its terms page must be read in a session the founder can see, or the founder supplies the posture, before any registration (D15).

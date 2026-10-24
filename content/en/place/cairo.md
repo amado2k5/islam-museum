@@ -21,6 +21,17 @@ The museum's material on this place includes: polities of which it was the capit
 ## What this page covers
 This page gathers what the museum links to the place: events, people and buildings. It is not a full historical account of the place; a description of the place and its history from original sources will be added in later batches.
 
+## Founding and the Fatimid city
+Jawhar, the commander of al-Mu'izz li-Din Allah, reached the site of Cairo on 17 Sha'ban 358 AH, settled there and laid out the palace, and built the first wall, of mud brick, around the palace and the mosque. {cite:khitat-maqrizi-1998 p.1030} {cite:khitat-maqrizi-1998 p.1067}
+
+Jawhar called that first wall al-Mansuriyya, until al-Mu'izz arrived from the Maghrib and named the city al-Qahira. It is said that the astrologers chose an hour in which Mars was "the conqueror of the sphere" (qahir al-falak), and that this gave the city its name. {cite:khitat-maqrizi-1998 p.1067}
+
+Accounts differ on the date of the laying-out. Al-Maqrizi gives Jawhar's arrival as 358 AH and reports another account that the city was laid out in Jumada II 359 AH. {cite:khitat-maqrizi-1998 p.1030}
+
+Al-Maqrizi counts Cairo as the fourth place in Egypt, in the Islamic period, to which the seat of rule moved, after Fustat, al-Askar and al-Qata'i. {cite:khitat-maqrizi-1998 p.1001}
+
+Cairo became the caliphal residence, where the caliph lived with his household and his closest people. After the Fatimids, Saladin and his sons and the rulers after them lived there, until al-Kamil moved from Cairo to the Citadel (Qal'at al-Jabal). Cairo then became a city of residence, after it had been a fortress in which one was held. {cite:khitat-maqrizi-1998 p.1001}
+
 ## For Sprouts
 Cairo is Egypt's historic capital, the city of a thousand minarets, home to the noble al-Azhar Mosque and vibrant heritage.
 
