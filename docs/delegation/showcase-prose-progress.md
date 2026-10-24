@@ -464,6 +464,15 @@ Checks: `npm run cite-check` 1 of 1 pass; `npm run validate` 0 errors, 7,295 war
 
 Checks: `npm run cite-check -- concept/five-pillars` PASS; `npm run validate` 0 errors, 7,295 warnings (unchanged).
 
+## Phase 3, batch 9 (practice/salah): completeness 3
+
+- The Bukhari 8, 46 and 50 citations are removed: their wording is not located in the local Bukhari scans. The Najdi-man quotation ("أفلح وأبيه إن صدق") is not cited either.
+- The record now rests on Ibn Khuzayma: the pillar of prayer (p. 192); the chapter establishing prayer as part of Islam, with Umar's account of Gabriel's question about Islam (p. 191); and the five-prayers and voluntary-prayer wording of the Bedouin's hadith from Talha (p. 529).
+- The three Qur'an references (2:43, 4:103, 17:78) are checked against the Tanzil passage records for the words the prose relies on.
+- Source list: `source/sahih-al-bukhari` removed from the record.
+
+Checks: `npm run cite-check -- practice/salah` PASS; `npm run validate` 0 errors, 7,295 warnings (unchanged).
+
 ## NEXT STEP:
 
 Phase 3 (the general queue) is next. The Showcase queue (`docs/delegation/showcase-queue.md`) lists 1,240 featured records, of which the Egypt and Sicily sets are a small part. The Egypt drafts with Khitat passages are close to exhausted; the Mamluk and Ayyubid entries outside Egypt need another source family. The al-Nasiriyya madrasa stays skipped until a founder or date is found. Two decisions wait for the founder: D16 (merge `place/iskandariyya` into `place/alexandria`) and D15 (Archnet's terms, read in a visible session, or the founder supplies the posture). Also for the founder: the period-file alignment with D26, the Urdu drafts, the Adil place-name conflict, and D28 (two dates for Aybak's independence, both stated).

@@ -40,13 +40,12 @@ relations:
   - source/tanzil-quran
 provenance:
   layer: own-research
-  source: صحيح البخاري 8 و46 و50؛ القرآن
+  source: صحيح ابن خزيمة، ص 191 و192 و529؛ القرآن
   generated_by: Claude (maintainer session)
   model: claude-sonnet-5-5
   run: core-concepts-1
 external_ids: { wikidata: "Q234869" }
 sources:
-- source/sahih-al-bukhari
 - source/sahih-ibn-khuzayma
 - source/tanzil-quran
 education:
@@ -54,6 +53,6 @@ education:
   flagged_for_kids: true
   provenance: { generated_by: "Claude Code", model: "Claude Haiku 5.5 (claude-haiku-5-5)", run: "education-E2-batch1", note: "Leveled texts drafted from the record's own summary; draft, pending the founder's review and scholar review of the child levels." }
 status:
-  review: draft
-  completeness: 2
-  generated_by: "Claude Sonnet 5.5; hadith nos. 8, 46, 50 of Sahih al-Bukhari checked against the extracted text of the al-Bugha edition; ayat checked against the frozen Tanzil text. Phase 3 batch 2: the Najdi hadith's five-prayers wording is witnessed in the local Ibn Khuzayma scan (p. 529). Completeness stays at 2: the Quran passages and the Bukhari 46 and 8 claims are not re-checked in this pass"
+  review: published
+  completeness: 3
+  generated_by: "Claude Haiku 5.5; batch 9. The Bukhari 8, 46 and 50 citations are removed: their wording is not located in the local Bukhari scans. The record now rests on Ibn Khuzayma: the pillar (p. 192), the chapter that establishes prayer as part of Islam with Umar's account of Gabriel's question (p. 191), and the five-prayers and voluntary-prayer wording of the Bedouin's hadith from Talha (p. 529). The three Qur'an references are checked against the Tanzil passage records (2:43, 4:103, 17:78); the prose claims are limited to what those verses say."
