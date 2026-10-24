@@ -4,26 +4,36 @@ lang: en
 source_lang: ar
 translators: ["Claude Haiku 5.5 (claude-haiku-5-5), draft translation"]
 ---
-## Summary
-In the Qur'an's address, the People of the Book are the Jews and the Christians. [[person/rashid-rida|Muhammad Rashid Rida]] holds that whoever believes in God but distinguishes between His messengers does not have sound faith, and that the partisanship and blind imitation found among the People of the Book do not amount to faith in the message. {cite:tafsir-manar-v06 p.7} {cite:tafsir-manar-v06 p.8} [[passage/quran-4-150|An-Nisa 150]]
+## Definition
+For the majority of jurists the People of the Book are the Jews and Christians in their various sects. The Hanafis extend the term to anyone who believes in a prophet and acknowledges a scripture, such as the Psalms of David and the scrolls of Abraham and Seth. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.3636}
+- The Magians are not People of the Book by agreement, though they are treated like them in the poll tax. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.3636}{cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.3637}
+- The Sabians are disputed: Abu Hanifa counts them among the People of the Book, and the Shafi'i view is that they are a kind of Christian if they agree with them on the roots of faith. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.3636}
 
-## Belief in the messengers
-Rida holds that whoever believes in Moses and Jesus but rejects Muhammad has not understood the nature of prophethood. The marks of the message appear in the Prophet in a more complete form than in any other messenger, and the evidence for his truthfulness is stronger. {cite:tafsir-manar-v06 p.8}
+## Related terms
+- Unbelievers: three kinds: the People of the Book, those with a semblance of a scripture such as the Magians, and those with neither, such as idolaters. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.3637}
+- The protected people: those under covenant among them and others; the two categories do not coincide, since a protected person may not be a Scripturalist. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.3637}
 
-## The likeness of the messengers
-Rida gives the example of the governors a sultan sends out to the provinces and the regulations an administration issues. Each messenger is to be honoured because he comes from God, and each book is to be acted upon because it comes from Him, and the last one abrogates what came before it. {cite:tafsir-manar-v06 p.9} [[passage/quran-4-151|An-Nisa 151]]
+## Relative standing
+The jurists agree that Magianism is worse; for Judaism and Christianity the majority see no difference, some Hanafis hold Christianity worse, and another view holds Judaism the more unbelieving. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.3637}{cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.3638}
 
-## Asking for a book from heaven
-Rida records that the People of the Book asked the Prophet to send down a book to them from heaven, and he reads this request as obstinacy and an attempt to stump him. He notes that some Muslim books claim the Torah was revealed all at once, and that the Jews used this claim to mislead Muslims. He replies that what Moses brought all at once was the Ten Commandments alone, on two tablets, while the other rulings were revealed to him at successive times. {cite:tafsir-manar-v06 p.10} {cite:tafsir-manar-v06 p.11} [[passage/quran-4-153|An-Nisa 153]]
+## Covenant of protection
+A covenant of protection may be granted to the People of the Book by agreement, and it protects their life and property; if they ask for it and it serves the Muslims, the Malikis and Shafi'is say the imam must grant it. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.3638}
 
-## Scholars who know their books
-In his commentary on Al-An'am 114, Rida holds that learned People of the Book who know their scriptures recognise that the Qur'an was sent down from their Lord in truth. Whoever knows the genre of a scripture can tell what belongs to it from what does not, and their books contain good tidings of the Prophet. He notes that the fair-minded among them believed, and that some of them concealed the truth out of envy and insolence. {cite:tafsir-manar-v08 p.10} {cite:tafsir-manar-v08 p.11} [[passage/quran-6-114|Al-An'am 114]]
+## Slaughter, game, marriage, vessels and blood money
+- Their slaughter and game are lawful by the majority, and there is no difference between a combatant and a protected person. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.3638}{cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.3639}
+- Where one parent is of a people whose slaughter is not lawful, the Hanbalis forbid it, the Shafi'is distinguish, and Abu Hanifa allows it. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.3639}
+- A Muslim may marry a Scriptural woman by agreement; Ahmad had a view forbidding the Christian women of the Banu Taghlib, but the sounder view treats them as others. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.3639}{cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.3640}
+- Their vessels may be used by the Hanafis and Malikis unless their impurity is certain; the Shafi'is and a Hanbali report dislike it. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.3640}
+- Their blood money is half a Muslim's in the view of Malik and Ahmad, a third in the Shafi'i view, and equal to a Muslim's in the Hanafi view. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.3640}
 
-## Rida's critique of the doctrine of the Trinity
-Rida holds that the Christian view of their prophet as God took the form given to it by the pagan emperor Constantine and his successors; that it was not the teaching of Christ and his disciples; and that it shaped their religion out of assorted pagan traditions. He says that free-minded European scholars had shown this. This is Rida's critique and his argument, presented here as his view. {cite:tafsir-manar-v06 p.8}
+## Fighting them and enlisting them
+- God commanded fighting those who do not submit until they pay the poll tax, and named the People of the Book for their knowledge of the prophets. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.3640}
+- Their help in war is allowed in need by the Hanafis, Hanbalis and Shafi'is, provided they are trusted; the Malikis forbid it. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.3640}{cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.3641}
 
-## Author's note
-Everything above is Rida's reading and his debate with the People of the Book, presented as his own view. The opinions of the major classical exegetes on which communities the verses address have not yet been added, nor has the academic study of the history of these communities.
+## Rules shared with idolaters
+- They are barred from the sacred precinct, from settling in the Arabian peninsula, and by some from entering mosques. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.3641}{cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.3642}
+- They may not build a place of worship in the land of Islam, nor be buried in Muslim graves. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.3642}
 
-## Sha'rawi on the disputes among the communities
-Sha'rawi notes that Jews and Christians each say the other has no ground, though both are People of the Book, and so they fall into the same accusation as those who have no knowledge. {cite:tafsir-sharawi-khawatir-scan-pp-501-1000 p.535} He says the judgment on this dispute belongs to the Day of Judgment, since this world is a place of testing and not of settling matters of faith. {cite:tafsir-sharawi-khawatir-scan-pp-501-1000 p.536} He answers the claim that paradise belongs only to the People of the Book by saying that entry depends on submitting one's face to God while doing good, and not on belonging to a religion. {cite:tafsir-sharawi-khawatir-scan-pp-501-1000 p.532} {cite:tafsir-sharawi-khawatir-scan-pp-501-1000 p.533}
+## Authority, marriage and dealings
+- An unbeliever has no authority over a Muslim, whether as imam, judge, guardian in marriage, custodian or executor; a Muslim woman may not marry one of them; the duty of equal treatment among wives applies to a Scriptural wife. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.3642}{cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.3643}
+- Dealing with them is lawful: the Prophet bought food from a Jew on credit and pledged his armour to him, and he also made agreements with them for farming and irrigation. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.3643}

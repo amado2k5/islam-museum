@@ -24,5 +24,5 @@ relations:
   - { type: died_in, target: place/ajnadayn, sources: [source/ibn-hisham-saqqa] }
   - { type: participated_in, target: event/return-of-abyssinian-emigrants, role: emigrant, sources: [source/ibn-hisham-saqqa] }
 provenance: { layer: own-research, source: "sira-ibn-hisham saqqa 1936, juz' 4 p. 7", generated_by: "Claude Sonnet 5.5", run: "ibn-hisham-batch-5c-iii" }
-sources: [source/ibn-hisham-saqqa]
-status: { review: draft, completeness: 1, generated_by: "Claude Sonnet 5.5; mined from Ibn Hisham juz' 4 pp. 3-11" }
+sources: [source/ibn-hisham-saqqa, source/ibn-hajar-isaba]
+status: { review: draft, completeness: 3, generated_by: "Claude Sonnet 5.5; mined from Ibn Hisham juz' 4 pp. 3-11" }
