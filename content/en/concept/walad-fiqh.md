@@ -26,3 +26,17 @@ A child's lineage is established from the mother by birth, and from the father b
 On sacrifice for a child: if the child is grown, his father is not obliged; if he is a minor without property, the Hanafis report from al-Hasan from Abu Hanifa that it is obligatory, and another narration that it is not obligatory but recommended from the father's own money. If the minor has property, his father or executor sacrifices from it, according to Abu Hanifa and Abu Yusuf, against Muhammad and Zufar. The Malikis make it a sunna for the parent to sacrifice for poor parents and for a young child until the boy reaches puberty; the Shafi'is allow it only for the father and grandfather from their own money. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.17910}{cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.17911}
 
 The 'aqiqa, the animal slaughtered for a newborn in thanks to God, is a sunna for the Shafi'is and Hanbalis, recommended for the Malikis and permitted for the Hanafis. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.17911}
+
+Among the rulings that bind the child to his parents are: circumcision (cutting the foreskin of a male and the membrane of a female, obligatory for some and sunna for others); naming; custody; suckling; maintenance; education; discipline; the duty of the child to obey and honour his parents in what is not sinful; the child's prayer for his father; the prohibition on a parent's curse on his child; the Hanafi dislike of a son calling his father by his name, and the Shafi'i recommendation that a child not name his father by name. These are set out in their own places. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.17912}{cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.17913}
+
+Preference among children in gifts. The Hanafis, Malikis and Shafi'is recommend equality; the Hanbalis and Abu Yusuf make it obligatory. Preference in affection is not blamed by the Hanafis, since affection is an act of the heart. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.17913}{cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.17914}
+
+Gift of an occupied thing. The Hanafis hold that a house still occupied by the donor's goods cannot be given, while a lent house may be given; the father may take back a gift to his child, according to the Malikis, the Shafi'is and the school view of the Hanbalis, which the Hanafis and a Hanbali narration deny. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.17914}
+
+An endowment for one's children includes children of both sexes by agreement, and their children are a matter of difference. In a bequest to relatives, the Hanafis do not include parents or children in the apparent view; the Hanbalis and one Shafi'i view include them; the sounder Shafi'i view excludes them but includes grandparents and grandchildren. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.17914}{cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.17915}
+
+It is sunna for a child to be just in his gifts to his parents, and if he prefers one, al-Darimi says he should prefer the mother. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.17915}
+
+Leave of parents for travel. The Hanafis hold that for a journey in which danger is great, the child may not go without his parents' leave; for a journey without great danger he may go if he does not neglect them. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.17915}
+
+Jihad requires the permission of the parents, as the next part of the entry sets out. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.17915}
