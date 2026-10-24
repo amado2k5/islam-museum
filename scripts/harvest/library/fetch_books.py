@@ -16,12 +16,22 @@ from common import HARVEST, client, require_source, sha256
 ap = argparse.ArgumentParser()
 ap.add_argument("--only"); ap.add_argument("--cat"); ap.add_argument("--dry-run", action="store_true")
 ap.add_argument("--max-items", type=int, default=6); ap.add_argument("--max-gib", type=float, default=1.5)
+ap.add_argument("--require-decision", action="store_true", help="refuse books with no authenticity decision (authenticity_gate.py)")
 args = ap.parse_args()
 src = require_source("archive-org-books")
 PAUSE = src["limits"]["pause_seconds"]
 books = yaml.safe_load((Path(__file__).parent / "books.yaml").read_text())["books"]
 if args.only: books = [b for b in books if b["id"] in args.only.split(",")]
 if args.cat: books = [b for b in books if b["cat"] == args.cat]
+# authenticity gate: rejected books are never fetched; labelled and accepted books go on as before
+from authenticity_gate import gate, load_decisions
+_decisions = load_decisions()
+_kept = []
+for _b in books:
+    _ok, _dec, _msg = gate(_b["id"], _decisions, require_decision=args.require_decision)
+    print(f"gate: {_msg}", file=sys.stderr)
+    if _ok: _kept.append(_b)
+books = _kept
 
 OUT = HARVEST / "raw/library"; MAN = HARVEST / "library/manifest.jsonl"; MAN.parent.mkdir(parents=True, exist_ok=True)
 DIAC = re.compile("[ً-ٰٟـ]")

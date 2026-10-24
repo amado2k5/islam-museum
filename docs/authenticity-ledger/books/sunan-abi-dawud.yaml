@@ -1,0 +1,53 @@
+id: sunan-abi-dawud
+kind: book
+title: سنن أبي داود
+author:
+  name: Abu Dawud al-Sijistani
+  death_ah: 275
+era: pre-print (author died 275 AH / 889 CE)
+harvest:
+  folder: null
+  files: 0
+  sha256: []
+  note: not harvested; work decision recorded from the catalogue record
+work_sources:
+- type: catalogue record
+  name: Sunan Abī Dāwūd, al-Ṭabʻah 1, Maktabat al-Maʻārif, Riyadh, [200-]
+  identifier: WorldCat OCLC 416765762
+  url: https://search.worldcat.org/title/416765762
+  editors:
+  - Muḥammad Nāṣir al-Dīn al-Albānī
+  - Mashhūr Ḥasan Maḥmūd Salmān
+copies:
+- name: hadith-api-master/books/abu-daud.json
+  location: ~/Downloads/hadith-api-master/books/abu-daud.json (not in git)
+  carrier: 'GitHub repository gadingnst/hadith-api (README: data from tafsirq.com)'
+  carrier_tier: T5
+  records: 4419
+  numbering: 1 to 4590 with 171 gaps; matches neither 5274 (Albani) nor 5184 (Islamic
+    Foundation) edition counts
+  named_source: none
+  sha256: b0efbb33a11aed7db639dc6e35f2bafc9882056fe113efca078c536051f74891
+  status: rejected
+checks:
+- date: '2026-10-25'
+  type: sample of 3 rows
+  basis: websites (ablibrary, dorar, hadithbd), not a named edition
+  result: texts matched, but this does not count under the rules
+  valid: false
+- date: '2026-10-26'
+  type: sample of 30 rows (seed 20261026)
+  basis: named edition in the catalogue record
+  result: 'not run: no checked text of that edition is available; rows drawn: 72,
+    446, 747, 943, 1073, 1105, 1638, 1760, 1849, 1857, 1930, 2286, 2590, 2719, 2782,
+    2877, 2984, 3129, 3138, 3255, 3290, 3361, 3393, 3437, 3653, 4135, 4219, 4220,
+    4234, 4468'
+  valid: false
+decision:
+  work: accept
+  decided_by: founder
+  decided_on: '2026-10-26'
+  reason: Accepted by the founder on the catalogue record; the copy is rejected separately.
+history:
+- date: '2026-10-26'
+  event: work accepted by the founder; downloaded copy rejected; sample not yet run

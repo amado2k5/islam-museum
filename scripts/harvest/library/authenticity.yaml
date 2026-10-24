@@ -1,0 +1,95 @@
+# Authenticity register: the gate for books, articles, images and artefacts, and for the sites they come from.
+# Governed by docs/delegation/authenticity-policy-proposal.md (approved in part on 25 Oct 2026; see its status line).
+#
+# This file records DECISIONS about whole items: accept, label or reject. It never records a judgement about
+# what an item says. The gate checks identity (title, author, school) and provenance (edition, institution, carrier).
+#
+# Decision values:
+#   accept  the author is verified as Sunni (two independent sources) and the item is validated (authenticity_basis)
+#   label   the item is admitted but shown with its school or "school not verified"
+#   reject  the item is refused; reason required
+# School values: sunni | shia | mutazili | ibadi | other | unverified
+# Source tiers: T1 named edition or primary record; T2 public institution; T3 academic and cultural;
+#               T4 reference (Wikipedia, Wikidata, press); T5 unclassified (leads only, cannot validate an item)
+
+gate_date: "2026-10-25"
+
+decisions:
+  # Processed before the gate existed; the founder chose LABEL over REJECT on 25 Oct 2026 (not removed from books.yaml).
+  - id: tahrir-majisti-tusi
+    kind: book
+    title: "تحرير كتاب المجسطي"
+    author: "Nasir al-Din al-Tusi"
+    decision: label
+    school: shia
+    school_evidence:
+      - "https://en.wikipedia.org/wiki/Nasir_al-Din_al-Tusi (infobox: Denomination Shia, Twelver)"
+    authenticity_basis: "Manuscript copy: British Library Add MS 23392 (source/tahrir-majisti-bl-add-23392); record is draft"
+    decided_by: founder
+    decided_on: "2026-10-25"
+    reason: "Non-Sunni author, admitted and labelled. Grandfathered: processed before the gate."
+
+  - id: tafsir-zamakhshari
+    kind: book
+    title: "الكشاف"
+    author: "Zamakhshari"
+    decision: label
+    school: mutazili
+    school_evidence:
+      - "https://en.wikipedia.org/wiki/Zamakhshari (infobox: Denomination Mu'tazila)"
+    authenticity_basis: "Work record data/work/al-kashshaf.yaml (draft); edition not yet named in the register"
+    decided_by: founder
+    decided_on: "2026-10-25"
+    reason: "Non-Sunni author, admitted and labelled. Grandfathered: processed before the gate."
+
+  # Work-level decision by the founder, 26 Oct 2026, on the catalogue record. The downloaded copy is a separate decision (see docs/authenticity-ledger).
+  - id: sunan-abi-dawud
+    kind: book
+    title: "سنن أبي داود"
+    author: "Abu Dawud al-Sijistani"
+    decision: accept
+    school: sunni
+    school_evidence:
+      - "https://en.wikipedia.org/wiki/Abu_Dawud_al-Sijistani (infobox: Denomination Sunni)"
+      - "https://www.wikidata.org/wiki/Q336558 (religion: Sunni Islam; date of death 275 AH)"
+    era: "pre-print (author died 275 AH / 889 CE)"
+    authenticity_basis: "Named edition: Sunan Abī Dāwūd, al-Ṭabʻah 1, edited by Muḥammad Nāṣir al-Dīn al-Albānī and Mashhūr Ḥasan Maḥmūd Salmān, Maktabat al-Maʻārif lil-Nashr wa-al-Tawzīʻ, Riyadh, [200-]; catalogue record WorldCat OCLC 416765762 (https://search.worldcat.org/title/416765762)"
+    decided_by: founder
+    decided_on: "2026-10-26"
+    reason: "Accepted by the founder on the catalogue record. The text of this edition has not been sampled yet; the downloaded copy is rejected separately."
+
+sources:
+  - id: dorar.net
+    url: "https://dorar.net"
+    kind: website
+    allowed_uses: [pointer, grades]
+    retrieved_on: "2026-10-25"
+    tier: T3
+    status: reference-scoped
+    scope: "Grades attributed to named scholars and the editions they cite; not a substitute for the edition"
+    checked_on: "2026-10-25"
+    evidence: "Own methodology page https://dorar.net/article/77; about 460 Arabic Wikipedia pages cite it; sample row 1080 matched its Abu Dawud text (its number 1272)"
+
+  - id: ablibrary.net
+    url: "https://ablibrary.net"
+    kind: website
+    allowed_uses: [pointer]
+    retrieved_on: "2026-10-25"
+    tier: T3
+    status: reference-edition-dependent
+    scope: "Pointer to a book; always cite the printed edition, and label machine-extracted texts"
+    checked_on: "2026-10-25"
+    evidence: "Arabic Wikipedia: non-profit run by a Shia organization (founded 1996); its about page says some texts are machine-extracted; sample rows 877 and 1867 matched its texts; ~38 Arabic Wikipedia pages cite it"
+
+  - id: hadithbd.com
+    url: "https://www.hadithbd.com"
+    kind: website
+    allowed_uses: []
+    retrieved_on: "2026-10-25"
+    tier: T5
+    status: not-verified
+    scope: "Do not cite for hadith text; may name editions after they are checked"
+    checked_on: "2026-10-25"
+    evidence: "Developer named in its privacy policy; lists Abu Dawud in two editions (5,274 and 5,184 hadith); no method page; sample row 1867 matched a page with number 2180"
+
+blocklist: []   # domains found on phishing, malware or spam lists; checked by hand before each publication, with the date

@@ -10,7 +10,8 @@
   },
   "scripts": {
     "schema": "tsx scripts/gen-schema.ts",
-    "validate": "tsx scripts/validate.ts",
+    "validate": "tsx scripts/validate.ts && tsx scripts/check-authenticity.ts",
+    "check:authenticity": "tsx scripts/check-authenticity.ts",
     "cite-check": "tsx scripts/cite-check.ts",
     "wordmap": "tsx scripts/wordmap.ts",
     "graph": "tsx scripts/build-graph.ts",
