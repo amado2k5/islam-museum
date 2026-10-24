@@ -10,7 +10,8 @@ regions: [andalus-europe]
 provenance:
   layer: own-research
   source: "فتوح البلدان (ط مؤسسة المعارف 1407هـ/1987م) ص 329"
-  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
-  run: lib-futuh-buldan-batch-24
-sources: [source/futuh-buldan-maarif-1407]
-status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 High)" }
+  generated_by: "Claude Haiku 5.5 (claude-haiku-5-5), showcase-prose lane"
+  model: claude-haiku-5-5
+  run: showcase-prose-phase1-batch1
+sources: [source/futuh-buldan-maarif-1407, source/nuzhat-al-mushtaq-2002]
+status: { review: published, completeness: 3, generated_by: "Claude Haiku 5.5; prose checked against the Ma'arif 1407 scan p. 329 and the Nuzhat al-Mushtaq 2002 scan pp. 588–589 in the local harvest workspace" }

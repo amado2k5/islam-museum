@@ -9,8 +9,8 @@ traditions: [sunni]
 born: { edtf: "1100", hijri: "0493", calendar: julian, precision: year, status: tradition, sources: [source/mawsuat-a3lam-ulama-adaba] }
 died: { edtf: "1164", hijri: "0560", calendar: julian, precision: year, status: tradition, sources: [source/mawsuat-a3lam-ulama-adaba] }
 summary:
-  ar: "جغرافي ورحّالة من أهل سبتة، عمل في صقلية في بلاط روجر الثاني، وصنّف كتاب «نزهة المشتاق» مع خريطة للعالم."
-  en: "A geographer and traveller from Ceuta who worked at the court of Roger II in Sicily. He wrote Nuzhat al-Mushtaq, a geographical work with a world map."
+  ar: "جغرافي صنّف لرجار الثاني ملك صقلية كتاب «نزهة المشتاق في اختراق الآفاق»، وأتمّه في شوال سنة 548هـ."
+  en: "A geographer who wrote Nuzhat al-Mushtaq fi ikhtiraq al-afaq for Roger II, king of Sicily, and completed it in Shawwal 548 AH."
 wings: [people]
 themes: [geography-and-cartography, history-writing-and-social-thought]
 periods: [period/crusades-ayyubid-mamluk]
@@ -19,6 +19,6 @@ story_roles:
   - { role: scientist, status: tradition, sources: [source/mawsuat-a3lam-ulama-adaba] }
 relations:
   - { type: authored, target: work/nuzhat-al-mushtaq }
-sources: [source/mawsuat-a3lam-ulama-adaba]
-status: { review: draft, completeness: 1, generated_by: "Devin; Mawsuat A'lam vol 1 pp. 408-410, lib-mawsuat-a3lam" }
-provenance: { layer: own-research, source: "موسوعة أعلام العلماء والأدباء (أليكسو/دار الجيل 2004) ج1 ص408-410", generated_by: "Devin", model: "SWE-2 High", run: "lib-mawsuat-a3lam" }
+sources: [source/nuzhat-al-mushtaq-2002, source/mawsuat-a3lam-ulama-adaba]
+status: { review: published, completeness: 3, generated_by: "Claude Haiku 5.5; the prose rests on the Nuzhat al-Mushtaq 2002 scan pp. 4, 7, 588 in the local workspace. The birth and death years (status tradition) come from Mawsu'at A'lam pp. 408-410, which is not in the local workspace and was not re-checked in this pass" }
+provenance: { layer: own-research, source: "نزهة المشتاق (طبعة القاهرة 2002) ص 4، 7، 588؛ موسوعة أعلام العلماء والأدباء (أليكسو/دار الجيل 2004) ج1 ص408-410 لتاريخي الميلاد والوفاة", generated_by: "Claude Haiku 5.5 (claude-haiku-5-5), showcase-prose lane", model: "claude-haiku-5-5", run: "showcase-prose-phase1-batch1" }

@@ -5,8 +5,8 @@ label:
   ar: الإمارة الصقلية
   en: Emirate of Sicily
 summary:
-  ar: إمارة قامت سنة 827م وانتهت سنة 1091م.
-  en: An emirate established in 827 CE and ended in 1091 CE.
+  ar: إمارة قامت سنة 827م وانتهت سنة 1091م، والتاريخان مشتقان من مدة النصوص (انظر النص).
+  en: An emirate established in 827 CE and ended in 1091 CE; both years are derived from the spans in the texts (see the prose).
 wings: []
 periods:
 - period/abbasid-early
@@ -16,29 +16,33 @@ start:
   edtf: "0827"
   calendar: julian
   precision: year
-  status: historical
-  note: التاريخ من ويكيداتا (CC0) ومصدره واحد؛ يحتاج مصدراً ثانياً قبل الترقية.
+  status: tradition
+  derived: true
+  note: "ابن خلدون، سنة اثنتي عشرة (212هـ) في نزول الجيش مازر؛ التحويل إلى 827م مشتق. ويكيداتا (Q118780154) للمقارنة فقط."
   sources:
-  - source/wikidata
+  - source/tarikh-ibn-khaldun-ibar
 end:
   edtf: "1091"
   calendar: julian
   precision: year
-  status: historical
-  note: التاريخ من ويكيداتا (CC0) ومصدره واحد؛ يحتاج مصدراً ثانياً قبل الترقية.
+  status: tradition
+  derived: true
+  note: "الإدريسي: بدأ رجار بن تنقرين الفتح سنة 453هـ واستولى على الجزيرة في ثلاثين عاماً؛ 1091م حساب مشتق من هذه المدة."
   sources:
-  - source/wikidata
+  - source/nuzhat-al-mushtaq-2002
 external_ids:
   wikidata: Q118780154
 sources:
-- source/wikidata
+- source/tarikh-ibn-khaldun-ibar
+- source/nuzhat-al-mushtaq-2002
+- source/rihla-ibn-jubayr-1907
 provenance:
-  layer: cc0
-  source: Wikidata (CC0), local subset built 12 Oct 2026 from the 96 GiB dump
-  generated_by: Claude (maintainer session)
-  model: claude-sonnet-5-5
-  run: polity-wikidata-1
+  layer: own-research
+  source: "Ibn Khaldun, Kitab al-Ibar (Bayt al-Afkar, single-volume scan p. 1026); al-Idrisi, Nuzhat al-Mushtaq (2002 Cairo scan pp. 589); Ibn Jubayr, Rihla (Gibb 1907 scan pp. 92–93)"
+  generated_by: "Claude Haiku 5.5 (claude-haiku-5-5), showcase-prose lane"
+  model: claude-haiku-5-5
+  run: showcase-prose-phase1-batch1
 status:
-  review: draft
-  completeness: 1
-  generated_by: Claude Sonnet 5.5; facts (label, dates, capitals, predecessors) read from the local Wikidata CC0 subset; no prose yet, needs a cited narrative from a history book
+  review: published
+  completeness: 3
+  generated_by: "Claude Haiku 5.5; start and end years are read from the local scans and are marked derived; the earlier Wikidata-only dates are kept only as an external identifier"

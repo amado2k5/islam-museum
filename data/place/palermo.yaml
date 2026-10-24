@@ -3,12 +3,21 @@ class: place
 kind: city
 label: { en: "Palermo", ar: "باليرمو" }
 summary:
-  en: "Sicilian city that fell to Muslim forces in 831 CE and was the capital of the Emirate of Sicily until the Norman conquest in 1072."
-  ar: "مدينة صقلية فتحها المسلمون سنة 831م، وكانت عاصمة إمارة صقلية حتى الفتح النورماندي سنة 1072م."
+  en: "Sicilian city taken by the Muslims in the Aghlabid conquest of the island (Ibn Khaldun does not give the year in the lines read) and described by Ibn Jubayr as the seat of the island's king."
+  ar: "مدينة في صقلية فتحها المسلمون في فتح الأغالبة للجزيرة (لا يذكر ابن خلدون سنتها في الأسطر المقروءة)، ووصفها ابن جبير بأنها مقر ملك الجزيرة."
 wings: [place]
 regions: [andalus-europe]
 coordinates: [38.1166, 13.3636]
 coordinate_precision: site
 external_ids: { geonames: "2523920", pleiades: "462410" }
-sources: [source/geonames-gazetteer]
-status: { review: draft, completeness: 1, generated_by: "Claude Sonnet 5.5; coordinates from GeoNames; descriptive facts to be checked against reference works" }
+sources: [source/tarikh-ibn-khaldun-ibar, source/rihla-ibn-jubayr-1907, source/geonames-gazetteer]
+provenance:
+  layer: own-research
+  source: "Ibn Khaldun, Kitab al-Ibar (Bayt al-Afkar, single-volume scan p. 1026); Ibn Jubayr, Rihla (Gibb 1907 scan pp. 92–93); coordinates from GeoNames"
+  generated_by: "Claude Haiku 5.5 (claude-haiku-5-5), showcase-prose lane"
+  model: claude-haiku-5-5
+  run: showcase-prose-phase1-batch1
+status:
+  review: published
+  completeness: 3
+  generated_by: "Claude Haiku 5.5; the 831 and 1072 dates in the earlier draft are removed: no local source in the workspace supports them"
