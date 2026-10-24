@@ -173,6 +173,29 @@ The 1341 CE end was Wikidata-only, and no local source gives 1341 for the Ayyubi
 
 Checks: `npm run validate` 0 errors, 7,295 warnings (unchanged); `npm run cite-check` on the two records 2 of 2 pass; `npm run graph` and `npm run coverage` regenerated (totals unchanged). `npm test` not run, per instruction 0.2.
 
+### Batch 6 (Phase 2, Ayyubid and Mamluk people; Ibn Tulun mosque): done
+
+Five records raised to completeness 3, each from the local Khitat scan (ar, en, ur in the same commit). The Khitat spells Qutuz as "قطز" (p. 1916); a first keyword search missed it, and the later search found it.
+
+- `person/qutuz`: pp. 1916 (deputy of al-Mu'izz Aybak; deposes al-Mansur Ali on Saturday 14 Dhu al-Qa'da 657; Ayn Jalut on Friday 15 Ramadan 658; killed by Baybars near al-Manzila al-Salihiyya). Suyuti's account of Amid keeps its citation.
+- `person/salah-al-din-yusuf-ibn-ayyub`: pp. 290 (takes Egypt after the Fatimid end), 1000 (the wall: Qaraqush extends Cairo's wall to Bab al-Qantara, Bab al-Sha'riyya and Bab al-Bahr), 1001 (his successors in Cairo; al-Kamil moves to the Citadel).
+- `person/al-malik-al-kamil`: pp. 643–644 (sole ruler at al-Adiliyya near Damietta on his father's death; the bridge against the Franks at the Chain Tower, over 70,000 dinars; seventy messengers for help).
+- `person/al-malik-al-salih-ayyub`: p. 558 (al-Salihiyya founded in 644 AH); p. 1912 (the Rawda citadel; the four madrasas between the palaces; death at al-Mansura, Sunday 14 Sha'ban 647, concealed by Shajar al-Durr).
+- `building/masjid-ibn-tulun`: pp. 881–882 (beside the upper police in al-Askar; built on the hill of Yashkur); p. 279 (the divan moves to the mosque, then to Ya'qub ibn Killis's house).
+
+**Corrections made:**
+- `person/qutuz` prose said the battle was on "25 Ramadan"; the Khitat gives Friday 15 Ramadan 658. The prose now says 15 Ramadan.
+- `person/qutuz` killing day: the Khitat gives the middle of Dhu al-Qa'da (p. 1916); Shadharat gives the sixteenth (p. 299). The prose states both and the record keeps both; the data `died` field stays as Shadharat's day.
+- `person/al-malik-al-salih-ayyub`: the death day is Khitat's Sunday 14 Sha'ban; the `died` field keeps the Suyuti reading (mid-Sha'ban), noted, until the day is converted.
+
+**Not confirmed locally:** `building/masjid-ibn-tulun` built year 879 is Wikidata only. The Khitat passages read here give no founding year. The record notes this and the prose gives no year.
+
+**Decision D27:** the Khitat is the first source for Cairo and Fustat monuments and for the rulers' acts. Suyuti and Shadharat citations remain as labelled reports, not as the main basis.
+
+Checks: `npm run cite-check` on the five records 5 of 5 pass; `npm run validate` 0 errors, 7,295 warnings (unchanged); `npm run graph` and `npm run coverage` regenerated. `npm test` not run, per instruction 0.2.
+
+Egypt set now: 23 records (18 + 5) and 2 trails at 3.
+
 ## NEXT STEP:
 
-Phase 2, batch 6: the Egypt set has 18 records and 2 trails, still short of the brief's ~100. The next candidates are the Khitat's Ayyubid and Mamluk people and the Fayyum and Fustat monuments. Two decisions wait for the founder: whether to merge `place/iskandariyya` into `place/alexandria` (D16), and Archnet: its terms page must be read in a session the founder can see, or the founder supplies the posture, before any registration (D15). The period-file alignment in batch 5 is also for the founder or the period's lane.
+Phase 2, batch 7: the Egypt set is at 23 records of the brief's ~100. Next candidates: the Khitat's other Ayyubid and Mamluk rulers and their works (al-Mansur Ali ibn Aybak, Aybak, Shajar al-Durr's successors), Fustat monuments (Qasr al-Sham'), the Khitat's Fayyum places, and al-Qarafa. Two decisions wait for the founder: D16 (merge `place/iskandariyya` into `place/alexandria`) and D15 (Archnet's terms, read in a visible session, or the founder supplies the posture). Also for the founder: the period-file alignment with D26, and the Urdu drafts.
