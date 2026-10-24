@@ -5,9 +5,16 @@ source_lang: ar
 translators: ["Claude Haiku 5.5 (claude-haiku-5-5), draft translation"]
 ---
 ## Overview
-The Fatimid caliphate, founded in 909 CE and ended in 1171 CE, with its capital at [[place/cairo|Cairo]]. The data record that it succeeded [[polity/abbasid-caliphate|the Abbasid caliphate]] in the sequence of states. {cite:wikidata}
+The Fatimid caliphate, founded in 909 CE and ended in 1171 CE, with its capital at [[place/cairo|Cairo]]. {cite:khitat-maqrizi-1998 p.1366} {cite:khitat-maqrizi-1998 p.290}
 
-A second source is needed: the two dates and the succession come from Wikidata alone, and a second source is required before this entry is upgraded. The entity also needs to present the Sunni and academic sources before any description of its doctrine.
+## According to al-Maqrizi
+Al-Maqrizi says that the Fatimid state began with Abu Abd Allah al-Shi'i, who became one of the leading companions of the mission in the Maghrib. {cite:khitat-maqrizi-1998 p.1005}
+
+He says that al-Mahdi reached Rafada at the end of Rabi' II 297 AH. {cite:khitat-maqrizi-1998 p.1366}
+
+He says that Cairo became the residence of the caliph with his household and his closest people, and that al-Mu'izz lodged in his palace there. {cite:khitat-maqrizi-1998 p.1001} {cite:khitat-maqrizi-1998 p.2174}
+
+He says that the state ended when the Ghuzz came from Syria and Saladin Yusuf ibn Ayyub took the kingdom of Egypt; he gives al-Qadi al-Fadil's notes for 567 AH. {cite:khitat-maqrizi-1998 p.290}
 
 ## For Sprouts
 The Fatimids founded the city of Cairo in Egypt and built the noble al-Azhar mosque to teach learning and reading.
