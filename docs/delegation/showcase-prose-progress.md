@@ -8,7 +8,7 @@ _Opened 24 October 2026. Lane document: [`../agents/lanes/showcase-prose.md`](..
 |---|---|---|---|
 | Setup | Repo, branch, dependencies, harvest workspace | 45 min | Done (see day log) |
 | 0 | Register the lane; queue file | 30 min | Done (this commit) |
-| 1 | Sicily pilot: `exhibit/path-sicily-islam` and its 10 featured records and journey | ~2.5 h | In progress |
+| 1 | Sicily pilot: `exhibit/path-sicily-islam` and its featured records | ~2.5 h | Done (batch 19: the trail is at completeness 3; every featured record is at 3) |
 | 2 | Egypt showcase set | ~2.5 h | In progress: batch 1 done (4 records). Archnet blocked, see D15; 100-record target not reached |
 | 3 | General Showcase queue | remainder | Not started |
 
@@ -370,6 +370,14 @@ Checks: `npm run cite-check` 2 of 2 pass; `npm run validate` 0 errors, 7,295 war
 
 Egypt set now: 52 records at completeness 3 (50 + the two above).
 
+### Batch 19 (Phase 1, Sicily trail room 4): done, the Sicily trail reaches 3
+
+- `question/what-were-the-crusades` raised to completeness 3 from Hasan Ibrahim's Tarikh al-Islam (local scan): pp. 110, 111, 238, 243 (Antioch 1098 and Jerusalem June 1099 with a massacre; Hattin 1187; Saladin's entry into Jerusalem on 27 Rajab 583 AH after the Crusaders asked for terms; the end of the Crusades in the East).
+- Corrections: the draft cited Wikidata (a pointer, not a source) and gave a 1096 start and a 1291 expulsion from Acre. Neither is in the local text, so both are removed. The Mamluk stage is left undated in the record. Hasan's Hattin line prints "579 AH (1187 CE)"; the record gives 1187 CE only, since 583 AH is the correct year.
+- `exhibit/path-sicily-islam` is now at completeness 3: its four featured records (place/palermo, place/siqilliya, polity/emirate-of-sicily, question/what-were-the-crusades) are all at 3.
+
+Checks: `npm run cite-check` 2 of 2 pass; `npm run validate` 0 errors, 7,295 warnings (unchanged); `npm run graph` and `npm run coverage` regenerated.
+
 ## NEXT STEP:
 
-Phase 1: the Sicily trail's room 4 (its feature `question/what-were-the-crusades`, completeness 1), which the Sicily trail needs before it can reach 3. The Egypt set's Khitat passages are close to exhausted. The al-Nasiriyya madrasa stays skipped until a founder or date is found. Two decisions wait for the founder: D16 (merge `place/iskandariyya` into `place/alexandria`) and D15 (Archnet's terms, read in a visible session, or the founder supplies the posture). Also for the founder: the period-file alignment with D26, the Urdu drafts, the Adil place-name conflict, and D28 (two dates for Aybak's independence, both stated).
+Phase 3 (the general queue) is next. The Showcase queue (`docs/delegation/showcase-queue.md`) lists 1,240 featured records, of which the Egypt and Sicily sets are a small part. The Egypt drafts with Khitat passages are close to exhausted; the Mamluk and Ayyubid entries outside Egypt need another source family. The al-Nasiriyya madrasa stays skipped until a founder or date is found. Two decisions wait for the founder: D16 (merge `place/iskandariyya` into `place/alexandria`) and D15 (Archnet's terms, read in a visible session, or the founder supplies the posture). Also for the founder: the period-file alignment with D26, the Urdu drafts, the Adil place-name conflict, and D28 (two dates for Aybak's independence, both stated).

@@ -4,32 +4,28 @@ label:
   ar: ما الحروب الصليبية؟
   en: What were the Crusades?
 summary:
-  ar: الحروب الصليبية حملات عسكرية لاتينية على الشام والقدس 1096–1291؛ أسست ممالك صليبية وانتهت بطردهم
-    من عكا على يد المماليك.
-  en: "The Crusades were Latin military campaigns against Syria and Jerusalem, 1096–1291. They established Crusader kingdoms and ended with their expulsion from Acre by the Mamluks."
+  ar: الحروب الصليبية حملات عسكرية لاتينية على الشام وبيت المقدس، بدأت بسقوط أنطاكية 1097–1098 وبيت المقدس 1099، وانتهت بطرد الصليبيين من المشرق (حسن إبراهيم حسن، ص 238، 243).
+  en: "The Crusades were Latin military campaigns against Syria and Jerusalem. They began with the fall of Antioch in 1097–1098 and of Jerusalem in 1099, and ended with the expulsion of the Crusaders from the East (Hasan Ibrahim Hasan, pp. 238, 243)."
 question:
   ar: ما الحروب الصليبية؟
 short_answer:
-  ar: الحروب الصليبية حملات عسكرية لاتينية على الشام والقدس 1096–1291؛ أسست ممالك صليبية وانتهت بطردهم
-    من عكا على يد المماليك.
+  ar: الحروب الصليبية حملات عسكرية لاتينية على الشام وبيت المقدس، بدأت بسقوط بيت المقدس سنة 1099م، وانتهت بطرد الصليبيين من المشرق.
 long_answer:
-  ar: الحروب الصليبية سلسلة حملات عسكرية لاتينية ردّ عليها المسلمون قرنين؛ بدأت بسقوط القدس 1099 ومذبحة
-    أهلها، فردّها عماد الدين زنكي ونور الدين وصلاح الدين في حطين 1187، واستكملها المماليك بطرد آخر معاقلهم
-    في عكا 1291. {cite:wikidata}
+  ar: الحروب الصليبية حملات عسكرية لاتينية على الشام وبيت المقدس. دخل الصليبيون أنطاكية عنوة سنة 1098م، ثم بيت المقدس في يونيو 1099م، ووقعت فيها مذبحة كبيرة (حسن إبراهيم حسن، ص 238). ردّها المسلمون بقيادة صلاح الدين، فهزم الصليبيين في حطين سنة 1187م، ودخل بيت المقدس في 27 رجب 583هـ بعد أن طلب الصليبيون الصلح (ص 110، 111). وانتهت الحروب الصليبية بطرد الصليبيين من المشرق (ص 243). {cite:tarikh-islam-hasan-ibrahim p.238}
 related:
 - event/battle-of-hattin-583
 wings: []
 themes:
 - scripture-and-its-sciences
+sources:
+- source/tarikh-islam-hasan-ibrahim
 provenance:
   layer: own-research
-  source: Devin general-knowledge draft; verify against cited source
-  generated_by: Devin (SWE-2 High)
-  model: SWE-2 High
-  run: questions-faith-batch-4
-sources:
-- source/wikidata
+  source: "حسن إبراهيم حسن، تاريخ الإسلام السياسي والديني والثقافي والاجتماعي، المجلد الرابع (المسح المحلي) ص 110، 111، 238، 243"
+  generated_by: "Devin (SWE-2 High); rewritten by Claude Haiku 5.5 (showcase-prose lane)"
+  model: claude-haiku-5-5
+  run: questions-faith-batch-4, showcase-prose-sicily-room4
 status:
-  review: draft
-  completeness: 1
-  generated_by: Devin (SWE-2 High), questions lane, 2026-10-16
+  review: published
+  completeness: 3
+  generated_by: "Claude Haiku 5.5; the sequence of the conquests (Antioch 1098, Jerusalem June 1099, Hattin 1187, Saladin's entry into Jerusalem on 27 Rajab 583 AH) and the end of the Crusades in the East are read from Hasan Ibrahim's Tarikh al-Islam (local scan, pp. 110, 111, 238, 243). The Wikidata citation is removed: it is a pointer, not a source. The 1096 start and the 1291 Acre date from the draft are not in the local text and are not used; the Mamluk stage is left undated here"
