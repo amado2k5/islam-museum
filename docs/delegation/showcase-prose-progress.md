@@ -334,6 +334,18 @@ Checks: `npm run cite-check` 2 of 2 pass; `npm run validate` 0 errors, 7,295 war
 
 Egypt set now: 44 records at completeness 3 (42 + the two above).
 
+### Batch 16 (Phase 2, Khizanat al-Suruj rewrite; remaining drafts): three records
+
+- `building/khizanat-al-suruj` rewritten on the Khitat, pp. 1033 (its place among the palace stores between Bab al-Zahuma and al-Azhar), 1159 (five thousand saddles taken out by al-Mustansir; over four thousand stored; a saddle valued from a thousand to seven thousand dinars; Ibn al-Tuwayr's description of the hall, quoted by al-Maqrizi). The earlier Hasan Ibrahim prose on the craft is kept and cited to its own source.
+- `building/masjid-al-husayn-cairo` raised to completeness 3: pp. 1178, 1181 (Dar al-Fitra opposite the shrine; the teaching circle under al-Nasir with al-Baha' al-Dimashqi; the vizier Mu'in al-Din's teaching iwan built from endowments; the fire in the Salihi years, in a year of the 640s AH). The Duha entry is not read and not cited.
+- `building/ulmas-al-hajib-mosque` raised to completeness 3: p. 2087 (built by Almas al-Hajib on the street outside Bab Zuwayla, completed in 730 AH; he was a mamluk of al-Nasir Muhammad ibn Qalawun). The draft's 1330 CE is the same year, now stated in the Hijri.
+
+Checked and not written: the Egypt drafts whose names give only generic hits (see batches 12–15). With these three, the reuse-checked shortlist from the Khitat is close to exhausted for the Egypt drafts.
+
+Checks: `npm run cite-check` 3 of 3 pass; `npm run validate` 0 errors, 7,295 warnings (unchanged); `npm run graph` and `npm run coverage` regenerated.
+
+Egypt set now: 47 records at completeness 3 (44 + the three above).
+
 ## NEXT STEP:
 
-Phase 2, batch 16: rewrite `building/khizanat-al-suruj` on the Khitat (pp. 1033, 1159) with the existing prose kept as a labelled second source, then the Egypt set's remaining drafts that the reuse check clears. The Khitat's building passages are now close to exhausted for the Egypt drafts. The al-Nasiriyya madrasa stays skipped until a founder or date is found. Two decisions wait for the founder: D16 (merge `place/iskandariyya` into `place/alexandria`) and D15 (Archnet's terms, read in a visible session, or the founder supplies the posture). Also for the founder: the period-file alignment with D26, the Urdu drafts, the Adil place-name conflict, and D28 (two dates for Aybak's independence, both stated).
+Phase 2, batch 17: the Egypt drafts that were not rechecked because the first shortlist used only the names (the Fayyum towns in the Khitat's Yusuf section, pp. 720-735; the Alexandria drafts with Khitat hits). The Khitat's building passages are close to exhausted for the drafts checked. The al-Nasiriyya madrasa stays skipped until a founder or date is found. Two decisions wait for the founder: D16 (merge `place/iskandariyya` into `place/alexandria`) and D15 (Archnet's terms, read in a visible session, or the founder supplies the posture). Also for the founder: the period-file alignment with D26, the Urdu drafts, the Adil place-name conflict, and D28 (two dates for Aybak's independence, both stated).

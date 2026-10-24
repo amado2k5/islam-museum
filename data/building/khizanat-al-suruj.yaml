@@ -13,11 +13,12 @@ regions: [egypt-nile]
 relations:
 - { type: "related_to", target: "polity/fatimid-caliphate", note: "خزانة فاطمية متخصصة", sources: [source/tarikh-islam-hasan-ibrahim] }
 sources:
+- source/khitat-maqrizi-1998
 - source/tarikh-islam-hasan-ibrahim
 provenance:
   layer: own-research
-  source: حسن إبراهيم حسن، تاريخ الإسلام ج4 — صناعة الجلود، ص382، عن تاريخ الدولة الفاطمية ص590
-  generated_by: Devin (SWE-2 High) from Apple Vision OCR
-  model: swe-2-high
-  run: lib-hasanibrahim-13
-status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }
+  source: "حسن إبراهيم حسن، تاريخ الإسلام ج4 — صناعة الجلود، ص382، عن تاريخ الدولة الفاطمية ص590؛ المقريزي، الخطط (ط مدبولي 1998) ص 1033، 1159"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR; Khitat sections by Claude Haiku 5.5 (showcase-prose lane)"
+  model: claude-haiku-5-5
+  run: lib-hasanibrahim-13, showcase-prose-phase2-egypt-batch16
+status: { review: published, completeness: 3, generated_by: "Claude Haiku 5.5; the place among the palace stores between Bab al-Zahuma and al-Azhar (p. 1033), the stock of saddles and the value of each (p. 1159, Ibn al-Tuwayr quoted by al-Maqrizi) are read from the Khitat (local scan). The Hasan Ibrahim prose on the craft (pp. 382, 590) keeps its citation" }

@@ -5,20 +5,21 @@ label:
   ar: "مسجد ألماس الحاجب"
   en: "Mosque of Ulmas al-Hajib, Cairo"
 summary:
-  ar: "بطاقة أولية لمسجد ألماس الحاجب بالقاهرة، الجامع المملوكي من سنة ١٣٣٠م؛ لم تُراجع مصادره على الصفحة بعد."
-  en: "Draft card for the Mosque of Ulmas al-Hajib in Cairo, the Mamluk mosque of 1330; its sources are not yet checked on the page."
+  ar: "جامع ألماس الحاجب بالشارع خارج باب زويلة بالقاهرة، بناه الأمير سيف الدين ألماس الحاجب، وكمل سنة 730هـ (المقريزي، ص 2087)."
+  en: "The mosque of Almas al-Hajib on the street outside Bab Zuwayla, Cairo, built by Amir Sayf al-Din Almas al-Hajib and completed in 730 AH (al-Maqrizi, p. 2087)."
 wings: [objects]
 regions: [egypt-nile]
 periods: [period/crusades-ayyubid-mamluk]
-sources: [source/tarikh-islam-hasan-ibrahim]
+sources: [source/khitat-maqrizi-1998]
 external_ids:
   wikidata: Q25454207
 provenance:
   layer: own-research
-  source: "Wikidata candidate; monument attested in heritage registers — entry not yet checked on the page"
-  generated_by: "Devin (SWE-2 High)"
-  model: "SWE-2 High"
-  run: wikidata-import-wave2
+  source: "al-Maqrizi, al-Mawa'iz wa-l-i'tibar (al-Khitat), Madbouli 1998, scan p. 2087; Wikidata candidate for the identifier"
+  generated_by: "Devin (SWE-2 High); prose by Claude Haiku 5.5 (showcase-prose lane)"
+  model: claude-haiku-5-5
+  run: wikidata-import-wave2, showcase-prose-phase2-egypt-batch16
 status:
-  review: draft
-  completeness: 1
+  review: published
+  completeness: 3
+  generated_by: "Claude Haiku 5.5; the builder, the place outside Bab Zuwayla, the completion date and his service under al-Nasir Muhammad are read from al-Maqrizi's Khitat (local scan, p. 2087). The draft's 1330 is the completion year the Khitat gives (730 AH, about 1330 CE); the year is stated in Hijri only"
