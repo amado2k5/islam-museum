@@ -528,3 +528,38 @@ Same method as Batch 13: thin (`<900 B`) `content/ar` stubs ranked by inbound li
 - `suhayb-ibn-sinan` — the extracted Isaba scan reaches him only via the kunya cross-list (١٠٧٧٠), his own entry is outside the extracted pages.
 - `said-ibn-uthman` (ibn Affan, Umayyad governor) — Isaba ٣٣٧٦ is a different, Ansari namesake; no own entry found.
 - `umayr-ibn-wahb` (al-Jumahi), `umayr-ibn-riab`, `khazim-ibn-khuzayma`, `shurahbil-ibn-hasana` (only his sons' entries ٢٦٥٧-٢٦٥٨), `ubaydallah-ibn-abi-bakra`, `muhayyisa-ibn-masud`, `umama-al-muzayriyya`, `salih-ibn-kaysan` (only an isnad hit), `rawh-ibn-hatim`, `mukhallad-ibn-yazid`, `bujayr-ibn-waraqa`, `habbar-ibn-sufyan`, `waki-ibn-hassan`, `muhammad-ibn-kab-al-qurazi` (the Isaba hits are Ansari namesakes), `abu-qays-ibn-al-harith`, `ata-al-khurasani`, `amr-ibn-muslim`, `zamaa-ibn-al-aswad`, `umama-al-muzayriyya` — no readable own entry in the extracted scans.
+
+### Batch 15 (24 Oct 2026, 17 records: 17 written) — general lane (Devin)
+
+Second founder-authorized record-creation batch: 12 new `building/` stubs + 3 existing wikidata-import stubs completed + 2 records whose prior wikidata-only stub-prose was replaced — all sourced to Freely, *A History of Ottoman Architecture* (2011).
+
+**Records (new prose ar+en+ur, completeness 3):**
+
+| record | disposition | Freely pages |
+|---|---|---|
+| building/alaettin-bey-mosque-bursa | NEW record + prose | pp.52–53 — oldest dated Bursa mosque 1335, earliest Ottoman minaret per Kuran |
+| building/orhan-gazi-mosque-bursa | NEW record + prose | pp.53–54 — first Bursa imperial mosque 1339, burned 1413, cross-axial eyvan |
+| building/yildirim-bayezid-mosque-bursa | NEW record + prose | pp.56–57 — külliye 1390–6, lost both minarets, first Bursa arch |
+| building/hamza-bey-mosque-bursa | NEW record + prose | pp.66–67 — mid-15th c., two türbes |
+| building/suleyman-pasha-madrasa-iznik | NEW record + prose | pp.72–73 — first purpose-built Ottoman medrese |
+| building/nilufer-hatun-imaret-iznik | NEW record + prose | pp.73–74 — 1388 Ahi hostel → imaret → İznik Museum |
+| building/burmali-mosque | NEW record + prose | pp.256–258 — c.1550, unique spiral-brick minaret |
+| building/yedikule | NEW record + prose | pp.121–123 — Golden Gate fortress, Osman II executed 1622 |
+| building/cinili-kosk | NEW record + prose | pp.166–167 — Fatih 1472 Persian-design tile kiosk |
+| building/ibrahim-pasha-palace | NEW record + prose | pp.230–233 — largest Ottoman palace, Museum of Turkish and Islamic Art |
+| building/haseki-hurrem-mosque | NEW record + prose | pp.233–237 — Sinan's first Istanbul complex, 1538–58 phases |
+| building/buyukcekmece-bridge | NEW record + prose | pp.109–110 — Sinan 1566–7, 28 arches |
+| building/edirne-palace | existing stub + prose | pp.103–104 — Fatih's birthplace, destroyed 1877, Adalet Kasrı survives |
+| building/rustem-pasha-medrese | existing stub + prose | p.256 — Sinan A.H. 957, unique octagonal courtyard |
+| building/tomb-of-hayreddin-barbarossa | existing stub + prose | pp.253–254 — Sinan's earliest türbe A.H. 948, Beşiktaş |
+| building/eyup-sultan-mosque | wikidata-only prose replaced | pp.125–128 — sword-girding ceremony, Selim III rebuild 1800 |
+| building/grand-bazaar-istanbul | wikidata-only prose replaced | pp.123–125 — Fatih bedesten, guild streets |
+
+### Deferred this batch
+- Eight Goodwin-tagged stubs remain deferred (kalenderhane, eski-imaret, fenari-isa, gul-mosque, hirami-ahmed-pasha, koca-mustafa-pasha, vasat-atik-ali-pasha, muradiye-baghdad) — no dedicated Freely sections.
+- Freely covers many further uncatalogued buildings (Edirne minor mosques §2.9–2.29, Thrace monuments §3, veziral/mescit foundations ch. V §4, Topkapı/Harem elements ch. VI, Şehzade türbes and early-classical mescits ch. VIII §6, baroque buildings ch. XI–XII) — more batches can follow the same recipe.
+- `mihrimah-sultan-mosque-uskudar` = Freely's Iskele Camii (pp.246–249): already written in Batch 11; no new record.
+
+### Methodological notes
+- eyup-sultan-mosque and grand-bazaar-istanbul had auto-generated stub prose citing only wikidata; replaced with sourced prose, noted in curatorial notes, yaml sources upgraded.
+- `person/` untouched.
