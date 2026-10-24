@@ -114,6 +114,26 @@ Decisions (this pass):
 
 Still open from batch 2: the Egypt set is well short of 100 records. The Egypt trails (`exhibit/path-fatimid-cairo`, `exhibit/path-mamluk-cairo`) are not finished, because their featured records are not all at completeness 3.
 
+### Batch 3 (Phase 2, Egypt): 3 records done, merged as PR #1488
+
+- `person/al-hakim-bi-amr-allah`: the disappearance in Shawwal 411 AH, his age and reign, his astronomy, Dar al-Ilm and the confession account of 415 AH that al-Maqrizi prefers (Khitat pp. 1250, 2041–2042). The al-Suyuti and Muntazam accounts keep their citations, labelled as reports. Note: Khitat gives his age as 36 years 7 months; the Muntazam sentence in the summary says 37. Both kept, attributed.
+- `place/misr`: Egypt among the climes; Fustat and Cairo at 55° longitude and 30° latitude; the desert frontiers (Khitat p. 84).
+- `place/al-fayyum`: the Joseph tradition (p. 711); the year the Fayyum went unknown to the Muslims after the conquest, from Ibn Abd al-Hakam (p. 733). Honorifics typed in the first version were removed (validator error caught before the merge; fixed in a second commit on the same branch).
+
+### Batch 4 (Phase 2, trails): evidence gathered, records not yet written
+
+Both trails are still at completeness 1. Each needs its featured records at completeness 3 first. Verified Khitat passages for each feature (not yet written into the records):
+
+- `person/jawhar-al-siqilli`: p. 1011 (al-Mu'izz sends him; the army's cost 358–362 AH); pp. 1030, 1067 (arrival and founding of Cairo); p. 2173 (after entering Egypt he proclaims the Shi'i call "hayya 'ala khayr al-'amal" in the mosques). The footnote on p. 1011 calls him builder of Cairo and al-Azhar; that is the editor's note, not al-Maqrizi's text, so do not cite it as Maqrizi.
+- `person/al-muizz-li-din-allah`: p. 1067 (he names the city al-Qahira on arrival); p. 2174 (in Ramadan 362 AH, after he entered and lodged in his palace in Cairo, he ordered the inscription naming Ali).
+- `building/al-azhar`: p. 1032 (the Friday mosque of the palace area is called Jami' al-Qahira or al-Azhar); p. 1098 (a session for women in al-Azhar, held by the Fatimid da'i); p. 1194 (the al-Azhar preacher preaches at the Prophet's birthday ceremony before the caliph). **The founding year is not found in the local OCR**; the existing record's "additional source" note stays until it is.
+- `polity/fatimid-caliphate`: p. 2173 (the Shi'i proclamation); p. 1001 (Cairo as the caliphal residence until the Ayyubids); p. 290 (the dynasty ends with the Ghuzz entry and Saladin's takeover; al-Fadil's note for 567 AH).
+- `polity/ayyubid-dynasty`: p. 290 (Saladin takes Egypt); p. 1001 (Saladin lives in Cairo; al-Kamil moves to the Citadel); p. 1912 (the Ayyubid rule in Egypt ends in 648 AH, after 81 years and 17 days, with eight rulers).
+- `person/baybars`: p. 1032 (the al-Zahiriyya madrasa at Bab al-Dhahab, founded by al-Zahir Rukn al-Din Baybars); p. 1081 (Baybars is among the amirs who leave Cairo for al-Nasir Yusuf in Syria after Aqtay's killing).
+- `person/qalawun`: p. 1249 (he begins the Mansuri hospital, madrasa and mausoleum on the old western-palace site, overseen by Sanjar al-Shuja'i); pp. 1061–1062 (the Mansuri dome and madrasa; the Nasiriyya madrasa beside its minaret).
+- `person/al-nasir-muhammad-ibn-qalawun`: pp. 240–241 (his reign; he builds a bridge over the Nile); p. 831 (al-Jami' al-Jadid al-Nasiri outside Misr); p. 1062 (the Nasiriyya madrasa).
+- `building/masjid-sultan-hasan`: p. 2111 (begun in 757 AH; three years of building; the great iwan). The record's data currently cites Wikidata, which is a pointer and not a source; the Khitat citation replaces it. The "built 1363" date needs a check against the 757 AH start (1356 CE), which the Khitat gives.
+
 ## NEXT STEP:
 
-Phase 2, batch 3: the remaining Egypt records the queue lists with the most inbound links, starting with the Khitat-backed ones: `person/al-hakim-bi-amr-allah` (featured by Dar al-Hikma), then `place/misr` and `place/al-fayyum` if the Khitat passages support them. Then the trails `exhibit/path-fatimid-cairo` and `exhibit/path-mamluk-cairo`, as far as their featured records allow. Two decisions wait for the founder: whether to merge `place/iskandariyya` into `place/alexandria` (D16), and Archnet: its terms page must be read in a session the founder can see, or the founder supplies the posture, before any registration (D15).
+Phase 2, batch 4: write the nine feature records above (eight persons and polities plus al-Azhar) at completeness 3 with Khitat citations, then update both trails' prose and status. Then decide: the Azhar founding year needs a further search (the section heading may be under a different spelling in the OCR), and the Sultan Hasan date needs the 757 AH versus 1363 CE check. Two decisions wait for the founder: whether to merge `place/iskandariyya` into `place/alexandria` (D16), and Archnet: its terms page must be read in a session the founder can see, or the founder supplies the posture, before any registration (D15).
