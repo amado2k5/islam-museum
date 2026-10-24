@@ -346,6 +346,21 @@ Checks: `npm run cite-check` 3 of 3 pass; `npm run validate` 0 errors, 7,295 war
 
 Egypt set now: 47 records at completeness 3 (44 + the three above).
 
+### Batch 17 (Phase 2, Alexandria monuments; Fayyum passages): three records
+
+- `place/al-manara-iskandariyya` (the Pharos) raised to completeness 3: pp. 476, 478, 482 (the builder traditions; the treasure beneath it; the height of more than 150 cubits from Ibn Abd al-Hakam; the mosque at its top; Ibn Tulun's wooden dome; the Baybars rebuilding in 673 AH). Conflict recorded: the Idrisi height of about 300 cubits (p. 320) differs from the Khitat's 150, and both are stated (D7 rule).
+- `building/amud-al-sawari` (the pillar) raised to completeness 3: p. 487 (the red speckled stone; about four hundred columns broken by Qaraja in Saladin's time and thrown to the shore; the Aristotle-portico tradition).
+- `place/malab-iskandariyya` (the hippodrome) raised to completeness 3: p. 484 (al-Qada'i's list of Alexandria's wonders; the ball; Amr's festival attendance).
+
+Checked and not written:
+- The Fayyum passages in the Yusuf section (pp. 709-735) were already used for Lahun, Damuna, Bayad and al-Awsiyya (batch 10-11). Al-Qays (p. 734, named after Qays ibn al-Harith's expedition) is a different place from `place/al-qays` (Idrisi's town near Dahrut), so it is not written as the same entry; logged.
+- The other Alexandria drafts (al-Kiryawn, al-Masalla, Sidi Bishr, the Shurbagi and Tirbana mosques, Ras al-Tin and the other palaces) have no matching Khitat passage in this pass, or only a list entry. al-Kiryawn (pp. 246, 482, 499, 509) and al-Masalla (pp. 141, 679) remain for a later check.
+- Iskandariyya (`place/iskandariyya`) is the duplicate of `place/alexandria` (D16); the three records above keep their existing relations to it.
+
+Checks: `npm run cite-check` 3 of 3 pass; `npm run validate` 0 errors, 7,295 warnings (unchanged); `npm run graph` and `npm run coverage` regenerated.
+
+Egypt set now: 50 records at completeness 3 (47 + the three above).
+
 ## NEXT STEP:
 
-Phase 2, batch 17: the Egypt drafts that were not rechecked because the first shortlist used only the names (the Fayyum towns in the Khitat's Yusuf section, pp. 720-735; the Alexandria drafts with Khitat hits). The Khitat's building passages are close to exhausted for the drafts checked. The al-Nasiriyya madrasa stays skipped until a founder or date is found. Two decisions wait for the founder: D16 (merge `place/iskandariyya` into `place/alexandria`) and D15 (Archnet's terms, read in a visible session, or the founder supplies the posture). Also for the founder: the period-file alignment with D26, the Urdu drafts, the Adil place-name conflict, and D28 (two dates for Aybak's independence, both stated).
+Phase 2, batch 18: the Alexandria drafts with pages still to read (al-Kiryawn at pp. 246, 482, 499, 509; al-Masalla at pp. 141, 679), and a check of the Phase 1 Sicily records still at completeness 2 for the Sicily trail (room 4). The al-Nasiriyya madrasa stays skipped until a founder or date is found. Two decisions wait for the founder: D16 (merge `place/iskandariyya` into `place/alexandria`) and D15 (Archnet's terms, read in a visible session, or the founder supplies the posture). Also for the founder: the period-file alignment with D26, the Urdu drafts, the Adil place-name conflict, and D28 (two dates for Aybak's independence, both stated).
