@@ -2,7 +2,7 @@ id: person/al-bukhari
 class: person
 label: { ar: "محمد بن إسماعيل البخاري", en: "Al Bukhari" }
 summary:
-  ar: "أبو عبد الله محمد بن إسماعيل بن إبراهيم بن المغيرة بن بردزبة البخاري الجعفي، أمير المؤمنين في الحديث؛ من علماء المحدثين الثقات، وله كتاب التاريخ الكبير وكتاب التاريخ الصغير وكتاب الأسماء والكنى وكتاب الضعفاء وكتاب الصحيح وكتاب السنن في الفقه وكتاب الأدب وكتاب التاريخ الأوسط وكتاب خلق أفعال العباد وكتاب القراءة خلف الإمام {cite:fihrist-ibn-al-nadim p. 321-322}. وفي تاريخ دمشق أنه صنّف صحيحه في ست عشرة سنة وقال «أخرجته من ستمائة ألف حديث وجعلته حجة بيني وبين الله»، و«ما أدخلت في هذا الكتاب إلا ما صح وتركت من الصحاح لطائل الطول»، وصنّفه في المسجد الحرام مستخيراً ومصلياً ركعتين عند إدخال كل حديث، وحوّل تراجم جامعه بين قبر النبي ومنبره يصلي لكل ترجمة ركعتين، وكان يحفظ مائة ألف حديث صحيح ومائتي ألف حديث غير صحيح وكتب عن ألف شيخ أو أكثر {cite:sahih-al-bukhari p. 9-10}."
+  ar: "أبو عبد الله محمد بن إسماعيل بن إبراهيم بن المغيرة بن بردزبة البخاري الجعفي، أمير المؤمنين في الحديث؛ من علماء المحدثين الثقات، وله كتاب التاريخ الكبير وكتاب التاريخ الصغير وكتاب الأسماء والكنى وكتاب الضعفاء وكتاب الصحيح وكتاب السنن في الفقه وكتاب الأدب وكتاب التاريخ الأوسط وكتاب خلق أفعال العباد وكتاب القراءة خلف الإمام {cite:fihrist-ibn-al-nadim p. 321-322}."
   en: "Al-Bukhari — the Fihrist's list of his books, Sahih among them {cite:fihrist-ibn-al-nadim}"
 external_ids: { wikidata: "Q241026" }
 sources: [source/fihrist-ibn-al-nadim, source/sahih-al-bukhari, source/tabaqat-shafiiyya-subki]
@@ -10,4 +10,10 @@ education:
   levels: [sprouts, explorers, scholars]
   flagged_for_kids: true
   provenance: { generated_by: "Devin", model: "gemini-2.5-pro", run: "education-E2-batch4", note: "Leveled texts drafted from the record's own summary and prose; draft, pending the founder's review and scholar review of the child levels." }
-status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }
+provenance:
+  layer: own-research
+  source: "Ibn al-Nadim, al-Fihrist, pp. 321-322 (the biography and the list of works); the introduction to the Sahih account is not included, because the local copies of the Sahih do not show it"
+  generated_by: "Claude Haiku 5.5 (batch 14)"
+  model: claude-haiku-5-5
+  run: showcase-prose-phase3-batch14
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High); batch 14: the unwitnessed introduction paragraph is removed in ar, en and ur, the page-form citation is removed, and the biography rests on al-Fihrist" }
