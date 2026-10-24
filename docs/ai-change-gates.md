@@ -50,7 +50,7 @@ Before anything is pushed: `npm run validate` reports 0 errors, `npm test` passe
 
 The charter in `AGENTS.md` is non-negotiable and is restated here only so that no agent can claim this document replaced it:
 
-- AI output enters as `status.review: draft` with a `provenance` block; nothing is marked `reviewed` or `verified` by an agent.
+- AI output enters as `status.review: draft` with a `provenance` block; promotion to `reviewed` or `verified` is performed by agents only under the protocol in `docs/agents/review-and-promotion.md` (independent reviewer, attestation in provenance, standing audit with automatic demotion). No agent promotes its own work.
 - Qur'an text is never typed, completed or corrected; it comes only from the frozen Tanzil files and is referenced as `[[passage/quran-<sura>-<aya>|label]]`.
 - No honorifics typed anywhere; the UI renders them.
 - Arabic first: `label.ar` and `summary.ar` required; new prose goes in `content/ar/` first; English and Urdu are translations.
