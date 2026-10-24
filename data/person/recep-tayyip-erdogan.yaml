@@ -1,0 +1,38 @@
+id: person/recep-tayyip-erdogan
+class: person
+label: { ar: "رجب طيب أردوغان", en: "Recep Tayyip Erdoğan", ur: "رجب طیب ایردوان" }
+names:
+  - { value: "رجب طيب أردوغان", kind: full }
+  - { value: "Recep Tayyip Erdoğan", kind: full }
+gender: male
+summary:
+  ar: "سياسي تركي، رئيس جمهورية تركيا منذ سنة 2014، ورئيس وزرائها من 2003 إلى 2014، ورئيس بلدية إسطنبول من 1994 إلى 1998. شارك في تأسيس حزب العدالة والتنمية سنة 2001 وقاده إلى انتصارات انتخابية متتالية، وارتبط اسمه بتحول تركيا إلى النظام الرئاسي وبجدل واسع حول مسار الديمقراطية والحريات في بلاده."
+  en: "Turkish politician, president of Turkey since 2014, previously prime minister from 2003 to 2014 and mayor of Istanbul from 1994 to 1998. He co-founded the Justice and Development Party (AKP) in 2001 and led it to repeated election victories; his rule is associated with Turkey's move to a presidential system and with wide debate over the course of democracy and freedoms in his country."
+  ur: "ترک سیاست دان، 2014 سے ترکی کے صدر، اس سے پہلے 2003 سے 2014 تک وزیر اعظم اور 1994 سے 1998 تک استنبول کے میئر رہے۔ انہوں نے 2001 میں جسٹس اینڈ ڈویلپمنٹ پارٹی (AKP) کی تاسیس میں حصہ لیا اور اسے مسلسل انتخابی فتوحات دلائیں؛ ان کے دور کو ترکی کے صدارتی نظام کی طرف انتقال اور جمہوریت و آزادیوں پر وسیع بحث سے جوڑا جاتا ہے۔"
+roles: [politician]
+wings: [people, living]
+born:
+  edtf: "1954-02-26"
+  hijri: "1373"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "Gregorian date from English Wikipedia and Wikidata (born in Kasımpaşa, Beyoğlu, Istanbul); the Hijri year 1373 is converter-derived."
+  sources: [source/wikipedia-recep-tayyip-erdogan-en, source/wikidata-recep-tayyip-erdogan]
+relations:
+  - { type: born_in, target: place/istanbul, sources: [source/wikipedia-recep-tayyip-erdogan-en] }
+  - { type: lived_in, target: place/istanbul, sources: [source/wikipedia-recep-tayyip-erdogan-en] }
+faith:
+  - value: unknown
+    basis: unknown
+    note: "Wikidata gives his religion as Sunni Islam. The English article records his membership of the Community of İskenderpaşa, a Turkish Sufi community of the Naqshbandi order, but neither article states a denomination or a school of law. Not recorded as sunni until a second source gives the school."
+    sources: [source/wikidata-recep-tayyip-erdogan, source/wikipedia-recep-tayyip-erdogan-en]
+external_ids: { wikidata: "Q39259" }
+sources: [source/wikipedia-recep-tayyip-erdogan-en, source/wikipedia-recep-tayyip-erdogan-ar, source/wikidata-recep-tayyip-erdogan]
+provenance:
+  layer: own-research
+  source: "English Wikipedia article 'Recep Tayyip Erdoğan' (revision of 19 October 2026), Arabic Wikipedia article «رجب طيب أردوغان» (revision of 4 October 2026), Wikidata Q39259; checked 24 Oct 2026"
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: modern-figures-batch-2
+status: { review: published, generated_by: "Muse (Muse Spark 1.3)" }
