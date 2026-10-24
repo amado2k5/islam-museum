@@ -291,6 +291,21 @@ Checks: `npm run cite-check` 1 of 1 pass; `npm run validate` 0 errors, 7,295 war
 
 Egypt set now: 39 records at completeness 3 (38 + the al-Muayyad mosque).
 
+### Batch 13 (Phase 2, Cairo drafts with Khitat passages): done, two records
+
+- `building/khanqah-of-baybars-al-gashankir` raised to completeness 3: pp. 1065, 1200 (within the Dar al-Wizara, facing the Dirb al-Asfar; the Qaraqanshiyya madrasa beside it; the houses of Qazman and Sanqur al-A'sar). The Khitat gives no founding date in these passages, so the draft's 1310 is not used.
+- `building/shajarat-al-durr-tomb` raised to completeness 3: pp. 1384, 1657 (the garden, house and baths she built near Sayyida Nafisa's shrine; the tomb's site where the garden stood), p. 1536 (a property built by Jahārkas bought for "the mother of Khalil" in 655 AH).
+
+Checked and not written:
+- Taghribirdi (pp. 1470-1471): the passages are about the houses of Ahmad and Bayabars, not the Taghribirdi mosque, which is later than the Khitat.
+- Qanibay (p. 1934): a list of mosques with no description.
+- Fustat church and gate names: no building record exists in `data/` for them, so there is nothing to upgrade.
+- al-Nasir Muhammad: the Khitat's new Jami' al-Nasiri (p. 831) is outside Misr, and the draft is the Citadel mosque (the Citadel's Jami' al-Nasiri appears only in the list at p. 1934). Not written; the two buildings need a check before any merge (logged for D32).
+
+Checks: `npm run cite-check` 2 of 2 pass; `npm run validate` 0 errors, 7,295 warnings (unchanged); `npm run graph` and `npm run coverage` regenerated.
+
+Egypt set now: 41 records at completeness 3 (39 + the two above).
+
 ## NEXT STEP:
 
-Phase 2, batch 13: the Cairo and Fustat drafts whose Khitat passages were not yet read (the Taghribirdi and Qanibay names at pp. 1470-1471 and 1934; the Fustat church and gate names), with a reuse check first. Batch 12 yielded one record, so the Khitat's building passages are close to exhausted for the drafts checked. The al-Nasiriyya madrasa stays skipped until a founder or date is found. Two decisions wait for the founder: D16 (merge `place/iskandariyya` into `place/alexandria`) and D15 (Archnet's terms, read in a visible session, or the founder supplies the posture). Also for the founder: the period-file alignment with D26, the Urdu drafts, the Adil place-name conflict, and D28 (two dates for Aybak's independence, both stated).
+Phase 2, batch 14: the Cairo drafts whose names still have Khitat hits (the Nasiri Citadel mosque with D32 checked first, the Sayyida Nafisa mosque, and al-Malika Safiyya), with a reuse check first. The Khitat's building passages are close to exhausted for the drafts checked. The al-Nasiriyya madrasa stays skipped until a founder or date is found. Two decisions wait for the founder: D16 (merge `place/iskandariyya` into `place/alexandria`) and D15 (Archnet's terms, read in a visible session, or the founder supplies the posture). Also for the founder: the period-file alignment with D26, the Urdu drafts, the Adil place-name conflict, and D28 (two dates for Aybak's independence, both stated).

@@ -5,20 +5,21 @@ label:
   ar: "ضريح شجرة الدر"
   en: "Mausoleum of Shajarat al-Durr, Cairo"
 summary:
-  ar: "بطاقة أولية لضريح شجرة الدر في القاهرة، مرقد السلطانة المملوكية؛ لم تُراجع مصادره على الصفحة بعد."
-  en: "Draft card for the Mausoleum of Shajarat al-Durr of Cairo, the Mamluk sultana's tomb; its sources are not yet checked on the page."
+  ar: "تربة شجرة الدر قرب مشهد السيدة نفيسة في القاهرة، وكان موضعها بستاناً بنته شجرة الدر (المقريزي، ص 1384، 1657)."
+  en: "The tomb of Shajar al-Durr near the shrine of Sayyida Nafisa in Cairo; its site was a garden she had built (al-Maqrizi, pp. 1384, 1657)."
 wings: [objects]
 regions: [egypt-nile]
 periods: [period/crusades-ayyubid-mamluk]
-sources: [source/tarikh-islam-hasan-ibrahim]
+sources: [source/khitat-maqrizi-1998]
 external_ids:
   wikidata: Q23975588
 provenance:
   layer: own-research
-  source: "Wikidata candidate; monument attested in heritage registers — entry not yet checked on the page"
-  generated_by: "Devin (SWE-2 High)"
-  model: "SWE-2 High"
-  run: wikidata-import-wave2
+  source: "al-Maqrizi, al-Mawa'iz wa-l-i'tibar (al-Khitat), Madbouli 1998, scan pp. 1384, 1657; Wikidata candidate for the identifier"
+  generated_by: "Devin (SWE-2 High); prose by Claude Haiku 5.5 (showcase-prose lane)"
+  model: claude-haiku-5-5
+  run: wikidata-import-wave2, showcase-prose-phase2-egypt-batch13
 status:
-  review: draft
-  completeness: 1
+  review: published
+  completeness: 3
+  generated_by: "Claude Haiku 5.5; the garden and house near Sayyida Nafisa and the tomb of Shajar al-Durr, where the garden stood, are read from al-Maqrizi's Khitat (local scan, pp. 1384, 1657). The Khitat names the tomb's site, not a burial account; her death and burial are covered by the person record and are not repeated here"
