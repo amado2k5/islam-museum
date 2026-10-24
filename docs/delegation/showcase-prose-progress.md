@@ -214,6 +214,16 @@ Checks: `npm run cite-check` on the three records 3 of 3 pass; `npm run validate
 
 Egypt set now: 26 records (23 + 3) and 2 trails at 3.
 
+### Batch 8 (Phase 2, Aybak): done
+
+- `person/izz-al-din-aybak`: completeness 3. The Suyuti account gives his independence in Rabi' al-Akhir 648 AH; the Khitat (p. 1080) gives 650 AH. Both dates are stated in the prose with their sources, not resolved. Pages 1080–1081 add Aqtay's rivalry and the Bahriyya in Syria after his murder.
+
+**Decision D28:** where two sources give different dates for the same act and neither can be checked against the other, both are stated with their citations (the D7 rule). The record's summary keeps the Suyuti date.
+
+Checks: `npm run cite-check` 1 of 1 pass; `npm run validate` 0 errors, 7,295 warnings (unchanged); `npm run graph` and `npm run coverage` regenerated.
+
+Egypt set now: 27 records (26 + 1) and 2 trails at 3.
+
 ## NEXT STEP:
 
-Phase 2, batch 8: first reconcile `person/izz-al-din-aybak`'s accession date with the Khitat's 650 AH (p. 1080), which is blocked on that check. Then the Khitat's Fustat and Cairo monuments in the records that exist at completeness 1 (the Bab Zuwayla and the gates, the Qasr al-Sham', the al-Qarafa monuments), and the Fayyum places. Two decisions wait for the founder: D16 (merge `place/iskandariyya` into `place/alexandria`) and D15 (Archnet's terms, read in a visible session, or the founder supplies the posture). Also for the founder: the period-file alignment with D26, the Urdu drafts, and the Adil place-name conflict above.
+Phase 2, batch 9: the Khitat's Fustat and Cairo monuments in the records that exist at completeness 1 (the Bab Zuwayla and the gates, the Qasr al-Sham', the al-Qarafa monuments), and the Fayyum places. The al-Nasiriyya madrasa stays skipped until a founder or date is found. Two decisions wait for the founder: D16 (merge `place/iskandariyya` into `place/alexandria`) and D15 (Archnet's terms, read in a visible session, or the founder supplies the posture). Also for the founder: the period-file alignment with D26, the Urdu drafts, the Adil place-name conflict, and D28 (two dates for Aybak's independence, both stated).
