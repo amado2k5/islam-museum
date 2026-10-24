@@ -18,32 +18,32 @@ relations:
 - type: basis_for
   target: concept/shahada
   sources:
-  - source/sahih-al-bukhari
+  - source/sahih-al-bukhari-bugha
 - type: basis_for
   target: practice/salah
   sources:
-  - source/sahih-al-bukhari
+  - source/sahih-al-bukhari-bugha
 - type: basis_for
   target: practice/zakat
   sources:
-  - source/sahih-al-bukhari
+  - source/sahih-al-bukhari-bugha
 - type: basis_for
   target: practice/sawm-ramadan
   sources:
-  - source/sahih-al-bukhari
+  - source/sahih-al-bukhari-bugha
 - type: basis_for
   target: practice/hajj
   sources:
-  - source/sahih-al-bukhari
+  - source/sahih-al-bukhari-bugha
 provenance:
   layer: own-research
-  source: صحيح البخاري، كتاب الإيمان، الأحاديث 8 و46 و50
+  source: صحيح البخاري (طبعة البغا)، الحديث 8؛ صحيح ابن خزيمة، ص 192 و906
   generated_by: Claude (maintainer session)
   model: claude-sonnet-5-5
   run: core-concepts-1
 external_ids: { wikidata: "Q176770" }
 sources:
-- source/sahih-al-bukhari
+- source/sahih-al-bukhari-bugha
 - source/sahih-ibn-khuzayma
 - source/tanzil-quran
 - source/ibn-rajab-jami-ulum-hikam
@@ -52,6 +52,6 @@ education:
   flagged_for_kids: true
   provenance: { generated_by: "Claude Code", model: "Claude Haiku 5.5 (claude-haiku-5-5)", run: "education-E2-batch1", note: "Leveled texts drafted from the record's own summary; draft, pending the founder's review and scholar review of the child levels." }
 status:
-  review: draft
-  completeness: 2
-  generated_by: "Claude Sonnet 5.5; hadith nos. 8, 46, 50 of Sahih al-Bukhari checked against the extracted text of the al-Bugha edition; ayat checked against the frozen Tanzil text. Phase 3 batch 2: the wording of the five pillars is witnessed in the local Ibn Khuzayma scan (pp. 192, 906), which shows the differing order; completeness stays at 2 because the Bukhari hadith 8 is not in the local Bukhari scan and the Ibn Rajab sentences are not checked. Phase 3 batch 5: the list citations now point to Ibn Khuzayma p. 192 (and p. 906 for the hajj-before-fast order); the quotations are aligned with those pages. Still open: the commentary sentences of the section on the hadith source cite Bukhari hadith 8 (the editor notes and the Muslim number 16)"
+  review: published
+  completeness: 3
+  generated_by: "Claude Haiku 5.5; batch 8. The hadith source section now cites the al-Bugha edition, registered as source/sahih-al-bukhari-bugha: hadith 8 is at volume 1, page 12 of that edition, and the editor's note on scan page 14 gives Muslim's number 16 and the gloss on 'supports'. The five-pillars list and the order are witnessed in the local Ibn Khuzayma scan (pp. 192, 906). The Bukhari 46 (Najdi man) and Bukhari 50 (Gabriel) citations are removed: their wording is not located in the local Bukhari scans. Completeness 3."

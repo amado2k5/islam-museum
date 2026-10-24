@@ -10,15 +10,15 @@ translators: ["Devin (SWE-2), draft translation"]
 
 ## The pillars in detail
 - [[concept/shahada|The two testimonies]]: testifying that there is no god but God and that Muhammad is God's messenger {cite:sahih-ibn-khuzayma p.192}.
-- [[practice/salah|The prayer]]: establishing the prayer {cite:sahih-ibn-khuzayma p.192} — five prayers in the day and night, as in the hadith of the Najdi man {cite:sahih-al-bukhari 46}.
+- [[practice/salah|The prayer]]: establishing the prayer {cite:sahih-ibn-khuzayma p.192}.
 - [[practice/zakat|The zakat]]: giving the zakat {cite:sahih-ibn-khuzayma p.192}.
 - [[practice/hajj|The hajj]] {cite:sahih-ibn-khuzayma p.192}.
 - [[practice/sawm-ramadan|Fasting Ramadan]] {cite:sahih-ibn-khuzayma p.192}.
 
-The order of the pillars differs between accounts: in another place in Ibn Khuzayma the hajj comes before the fast {cite:sahih-ibn-khuzayma p.906}, while in Gabriel's hadith the Prophet mentions prayer, zakat and fasting when defining [[concept/islam-din|Islam]] {cite:sahih-al-bukhari 50}.
+The order of the pillars differs between accounts: in another place in Ibn Khuzayma the hajj comes before the fast {cite:sahih-ibn-khuzayma p.906}.
 
 ## The hadith's source
-Al-Bukhari recorded this hadith in the Book of Faith; the editor notes that Muslim also recorded it in the chapter "the pillars of Islam and its great supports" as number 16 {cite:sahih-al-bukhari 8}. The editor explains "supports" as being to the building in the place of pillars — it does not stand without them {cite:sahih-al-bukhari 8}.
+Al-Bukhari recorded this hadith as number 8 (volume 1, page 12 of the al-Bugha edition); the editor notes that Muslim also recorded it in the chapter "the pillars of Islam and its great supports" as number 16 {cite:sahih-al-bukhari-bugha p.14}. The editor explains "supports" as being to the building in the place of pillars — it does not stand without them {cite:sahih-al-bukhari-bugha p.14}.
 
 Ibn Khuzayma narrates it from Ibn Umar with the wording: "Islam is built on five: the testimony that there is no god but God, establishing the prayer, giving zakat, fasting Ramadan, and the Hajj to the House" {cite:sahih-ibn-khuzayma p.192}. Elsewhere in his book the Hajj comes before the fast {cite:sahih-ibn-khuzayma p.906}, which confirms that the order differs between the accounts.
 
