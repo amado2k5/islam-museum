@@ -86,3 +86,9 @@ A child's brigandage (hirabah) against his parent. The Hanafis remove the hudud 
 The young of a sacrifice: some jurists require it to be slaughtered with its mother, others do not; details are under sacrifice. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.17927}
 
 The kid of a goat that looks like a dog: the Hanafis decide its lawfulness by tests (drinking, eating, whether it has intestines or a paunch). The Shafis leave it as a matter of caution unless its shape points to lawfulness. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.17927}
+
+A live child separated from its dead mother is pure in its substance by Shafi'i agreement, though its outer surface must be washed (al-Mawardi and al-Ruyani). {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.17928}
+
+Sale of a pregnant animal: the young follows its mother in sale. If an animal is bought pregnant, or becomes pregnant with the buyer, and a defect is found after birth, the young is returned with the mother; the buyer owes nothing for the birth unless it reduced her value, in which case the reduction is returned too, unless the young makes it good. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.17928}
+
+Zakat on the young of a wild and a domestic animal: the Hanbalis and a Maliki view require zakat, by analogy with the young of grazing and fodder-fed animals. Abu Hanifa and another Maliki view require it only if the mothers are domestic, since the mother's side is weightier. The Shafi'is and the preferred Maliki view require none, because the default is no obligation. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.17928}

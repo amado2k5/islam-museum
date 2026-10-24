@@ -35,5 +35,26 @@ Ayy follows what it is attached to: for persons it acts like man, for things lik
 ## Kull and kullama
 Kull is used for totality by context and sometimes for multitude, and it is always attached to a noun; kullama carries the generality of what it is attached to. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.5469}
 
-## Status of this entry
-This is a partial draft. The entry continues past scan p.5469 with the remaining particles and the rulings on divorce and oaths, and its end has not been read. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.5469}
+## Kull and kullama (continued)
+Kullama indicates repetition and immediacy, and is followed by the verb, not the noun: if one says, whenever I marry a woman she is divorced, and he marries her several times, she is divorced each time. Kull counts as a particle of ta'liq for the Hanafis and Malikis, and for the Shafiis when meant as ta'liq. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.5470} {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.5471}
+
+## Law, kayfa
+Law is a conditional for the future, not inflected; some jurists treat it as in, and it indicates limitation in the past. Lawla is for prevention and is not a particle of ta'liq. For Abu Hanifa kayfa affects only the manner of an act, not the act itself; for Abu Yusuf and Muhammad it affects both. The Hanbalis treat it like the others, so a divorce does not take effect until she says she has willed it. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.5471} {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.5472} {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.5473}
+
+## Haythu, ayna, anna
+Haythu is a noun for an unspecified place. For the Hanafis a ta'liq with it is limited to the session of address; for the Hanbalis it is not so limited. Ayna and anna are treated like in by some Hanbalis. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.5473} {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.5474}
+
+## Conditions of ta'liq
+The condition must be an unknown matter that could go either way; a ta'liq on a certainty is an immediate act, and on an impossibility is void. It must be something whose occurrence can be known; a divorce linked to God's will is not valid. There must be no gap between condition and consequence; the condition must concern the future, not the past, so an acknowledgement cannot be linked; it must not be meant as a retort, and if it is, the divorce takes effect, though a man who meant only ta'liq is believed before God. A link such as fa or the sudden idha must appear where the consequence is delayed. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.5474} {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.5475}
+
+## Ownership at the time of ta'liq
+The Hanafis and Malikis require only ownership in some form. The Shafiis and Hanbalis require that the one who links be able to act at once, on the rule: whoever can act immediately can link, and whoever cannot act immediately cannot link. The first camp argues that the act is an oath, that its effect comes at the condition, and that ownership is certain then. The second relies on the report that there is no vow, no manumission and no divorce about what a son of Adam does not own, and on the report that there is no divorce except after marriage. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.5475} {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.5476}
+
+## The effect on cause and ruling
+The Hanafis hold that ta'liq blocks the cause from being a cause as well as the ruling from taking effect, so a divorce or manumission linked to ownership is valid and takes effect when ownership comes. The Shafiis hold that ta'liq does not block the cause but only the ruling, so it is void when the object is not owned. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.5476} {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.5477}
+
+## Acts that accept ta'liq
+The ila' accepts a condition, so the man becomes one who swears off intercourse when the condition occurs. Hajj may be linked and may take a condition. Khul' from the husband's side accepts ta'liq for the Hanafis, Malikis and Shafiis; from the wife's side the Hanafis and Shafiis do not accept it, since it is an exchange, and the Hanbalis do not accept it at all. Divorce accepts ta'liq by agreement. Zihar may be linked by agreement. Manumission may be linked to a condition or a description, with details. Writing for manumission may be linked. A vow may be linked, and its fulfilment is not due before the condition occurs. Command, judgeship and guardianship in general accept ta'liq; the Hanafis, Shafiis and Hanbalis allow a guardianship appointment linked to death; the Malikis do not state it. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.5477} {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.5478} {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.5479} {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.5480}
+
+## Acts that refuse ta'liq
+Hire, acknowledgement, faith in God, sale, return to a wife, marriage, endowment and agency in general refuse ta'liq, since they transfer ownership or report facts or do not admit certainty. Some detail in endowment and agency is disputed. The governing principle is that pure transfer rejects ta'liq, pure release accepts it, and between them lie acts such as rescission, release of a debt and endowment, on which the schools differ. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.5477} {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.5478} {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.5479} {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.5480} {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.5481} {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.5482}
