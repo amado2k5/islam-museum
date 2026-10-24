@@ -11,7 +11,7 @@ roles: [prophet, statesman]
 traditions: [sunni, shia-twelver]
 summary:
   en: The Prophet of Islam (c. 570–632 CE), through whom Muslims believe the Qur'an was revealed, and the founder of the first Muslim community in Medina.
-  ar: "نبي الإسلام (نحو 570–632م)، الذي يؤمن المسلمون بنزول القرآن عليه، ومؤسس أول مجتمع إسلامي في المدينة المنورة. كُفّن في ثلاثة أثواب: ثوبين صحاريين وثوب حبرة. ونزل في قبره علي بن أبي طالب، والفضل وقثم ابنا العباس، وشقران مولاه. واختُلف في عمره، فقال ابن عباس وأبو هريرة وعائشةم: ثلاث وستون، وقيل خمس وستون عن ابن عباس، وقتادة عن الحسن عن دغفل بن حنظلة، وقيل ستون عن عروة بن الزبير وعائشةا {cite:muruj-al-dhahab p. 581-582}. ومن مشاهد بيته في الصحيح ما رآه عمر في مشربته زمن الاعتزال: حصير لا يفصل بينه وبين الأرض، ووسادة من أدم حشوها ليف، وأثر الحصير في جنبه {cite:sahih-al-bukhari 4913}. وعند مسلم أسماؤه الخمسة: «أنا محمد، وأنا أحمد، وأنا الماحي الذي يمحو الله بي الكفر، وأنا الحاشر الذي يحشر الناس على قدمي، وأنا العاقب الذي ليس بعده نبي» {cite:sahih-muslim 2355}. وصلى حتى انتفخت قدماه، فقيل له، فقال: «أفلا أكون عبداً شكوراً» {cite:sahih-muslim 2820}"
+  ar: "نبي الإسلام (نحو 570–632م)، الذي يؤمن المسلمون بنزول القرآن عليه، ومؤسس أول مجتمع إسلامي في المدينة المنورة. توفي في المدينة المنورة في ربيع الأول سنة 11 هـ وهو ابن ثلاث وستين سنة {cite:mubarakpuri-raheeq p.444}، وكُفّن في ثلاثة أثواب يمانية بيض، وغسّله علي، وأعان العباس والفضل وقثم وأسامة وشقران {cite:mubarakpuri-raheeq p.445-446}."
 wings: [people]
 themes: [prophets]
 periods: [period/prophetic-era]
@@ -27,15 +27,15 @@ relations:
   - { type: buried_in, target: place/medina }
   - { type: participated_in, target: event/hijra, role: protagonist }
 external_ids: { wikidata: Q9458 }
-sources: [source/ibn-ishaq-guillaume, source/watt-1956-medina, source/mubarakpuri-raheeq, source/jami-al-tirmidhi, source/muruj-al-dhahab, source/talqih-fuhum-ahl-al-athr, source/zad-al-maad, source/muhadarat-tarikh-al-umam-al-islamiyya, source/ibn-hisham-sira, source/fiqh-al-sira-al-ghazali, source/sahih-al-bukhari, source/al-bidaya-wal-nihaya, source/sahih-muslim]
+sources: [source/mubarakpuri-raheeq, source/ibn-ishaq-guillaume]
 education:
   levels: [sprouts, explorers, scholars]
   flagged_for_kids: true
   provenance: { generated_by: "Claude Code", model: "Claude Haiku 5.5 (claude-haiku-5-5)", run: "education-E2-batch1", note: "Leveled texts drafted from the record's own summary; draft, pending the founder's review and scholar review of the child levels." }
 provenance:
   layer: own-research
-  source: "The record's cited sources (Muruj al-Dhahab, Sahih al-Bukhari, Sahih Muslim, and the seerah sources listed); drafted in earlier batches, not re-verified in this pass"
-  generated_by: "Claude Sonnet 5.5 (scaffold)"
-  model: claude-sonnet-5-5
-  run: showcase-prose-phase3-batch1
-status: { review: draft, completeness: 1, generated_by: "Claude Sonnet 5.5 (scaffold)" }
+  source: "al-Raheeq al-Makhtum (Mubarakpuri), local copy 20210430 (460 pages; pages.json page numbers): pp. 49, 54-67, 71, 75, 444-446, 454-460"
+  generated_by: "Claude Haiku 5.5 (batch 10)"
+  model: claude-haiku-5-5
+  run: showcase-prose-phase3-batch10
+status: { review: published, completeness: 3, generated_by: "Claude Haiku 5.5; batch 10. Every sentence of the prose is checked against the local copy of al-Raheeq al-Makhtum (20210430, pages.json pages): the lineage (p. 49), the birth and early years (pp. 54-58), youth and marriage (pp. 58-61), character before prophethood (pp. 62, 65), the beginning of revelation (pp. 63-67), the call (pp. 63, 71, 75), the shama'il (pp. 454-460) and the death (pp. 444-446). Removed as not witnessed: the Muslim and Ibn Hisham cross-references, the Muruj and the other classical citations, the 'hadith of the Dhubab' authenticity dispute, the first-day converts, the 'more than forty' count, the Quran 68:4 link, and the 'burial by Ali' claim. Corrected: the age at the Fijar war (twentieth year, not fifteen), the fourth-year chest-opening, and the shroud (three white Yemeni cloths, not two Sahari cloths and a hibra). Source note: the 344-page copy named in the source record is not readable (garbled OCR); this record cites the 460-page copy, and the source record should name it" }
