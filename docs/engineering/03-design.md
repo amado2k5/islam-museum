@@ -97,6 +97,7 @@ Design properties:
 | Typography | Arabic-first fonts preloaded; honorifics rendered by the UI layer, never typed into prose |
 | Page anatomy | "The Label" (plan 04 §3): name + dates + one-line significance, then tabs — Brief / Life / Work / Legacy / For young visitors / Notes for scholars — resolved by the depth dial |
 | Discovery | Hall pages (time, place, people, ideas, objects, words, living, today), themes, exhibits, questions, screening room, `wander` (random via a static index), `today` (dual-calendar) |
+| Education | `/[lang]/learn/` front door + age-band hubs under `/[lang]/sighar/` (sprouts, explorers, storytellers) + passport/study-mode/QR tools; data in top-level `edu/` (bands, stamps); strict per-route page-weight budgets (`check:weight`); no accounts or student data — `localStorage` in try/catch only |
 | SEO/machine | JSON-LD per entity, sitemap index, `llms.txt`, OpenGraph cards rendered at build (satori), RSS for new entities |
 | Maps | MapLibre GL + a single PMTiles basemap served by range requests + GeoJSON overlays; event maps are pre-rendered SVG/PNG from `scripts/media/maps/` |
 | Graph explorer | Sigma.js (WebGL) over a graphology subgraph — tens of thousands of nodes client-side |
