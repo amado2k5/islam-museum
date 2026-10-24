@@ -224,6 +224,30 @@ Checks: `npm run cite-check` 1 of 1 pass; `npm run validate` 0 errors, 7,295 war
 
 Egypt set now: 27 records (26 + 1) and 2 trails at 3.
 
+### Batch 9 (Phase 2, Cairo monuments; Fayyum not reached): done
+
+Four Cairo buildings raised to completeness 3 from the local Khitat scan (ar, en, ur):
+
+- `building/juyushi-mosque-cairo`: pp. 400–401 (also called al-Rasd, next to al-Antaki's house; begun by al-Afdal, unfinished, completed when assigned to the observatory; a ring moved from the Fil mosque; after the lower ring was finished al-Afdal was killed, and al-Ma'mun al-Bata'ihi moved the observatory to Bab al-Nasr).
+- `building/al-madrasa-al-salihiyya-cairo`: pp. 1061–1062 (two Salihiyya madrasas between the palaces, one for the Hanafis and Hanbalis, one for the Shafi'is and Malikis, beside the dome of al-Salih); p. 1912 (founded by al-Salih Ayyub; four teaching posts).
+- `building/madrasah-al-kamiliya-cairo`: pp. 1032, 1062, 1063 (known as Dar al-Hadith, beside the new Zahiriyya; opposite Bab al-Bahr, today Bab Qasr Bashtak; a shop-block in its endowment).
+- `building/al-aqmar-mosque`: pp. 1063, 1131, 1132 (at the end of the candle-makers' market; inscriptions on its gate threshold; the Mukhalliq corner opposite its basin).
+
+**Corrections to the records' summaries** (these were Wikidata or encyclopedia claims with no local check):
+- The Juyushi summary said Badr al-Jamali built it in 1085. The Khitat (p. 400) names al-Afdal as its builder. The summary now follows the Khitat.
+- The Aqmar summary said al-Ma'mun al-Bata'ihi built it in 1125. No local passage read here gives a builder or date, so the summary now says so.
+- The Salihiyya summary gave a 1243 date from Wikidata. Not used; the prose has no date.
+
+**Decision D29:** where a draft record's summary names a builder or date that the Khitat does not give, the summary follows the local text and the record's status note says what is not confirmed.
+
+**Skipped and logged, Fayyum:** no Fayyum place record exists beyond `place/al-fayyum` (done in batch 3). The Khitat's Fayyum towns (for example Batn al-Rayyan and Hawara) have no data records yet. Creating records is a new-entity task with a reuse check first, so it is left for a later batch.
+
+**Skipped, Cairo candidates checked:** the al-Shafi'i mausoleum, the Mahmudiya, the Sayyida Zainab and Sayyida Aisha mosques (no usable Khitat passage found in this pass), and Uqba ibn Amir in al-Qarafa (the Khitat hits are about the conquest, not the mosque).
+
+Checks: `npm run cite-check` on the four records 4 of 4 pass; `npm run validate` 0 errors, 7,295 warnings (unchanged); `npm run graph` and `npm run coverage` regenerated.
+
+Egypt set now: 31 records (27 + 4) and 2 trails at 3.
+
 ## NEXT STEP:
 
-Phase 2, batch 9: the Khitat's Fustat and Cairo monuments in the records that exist at completeness 1 (the Bab Zuwayla and the gates, the Qasr al-Sham', the al-Qarafa monuments), and the Fayyum places. The al-Nasiriyya madrasa stays skipped until a founder or date is found. Two decisions wait for the founder: D16 (merge `place/iskandariyya` into `place/alexandria`) and D15 (Archnet's terms, read in a visible session, or the founder supplies the posture). Also for the founder: the period-file alignment with D26, the Urdu drafts, the Adil place-name conflict, and D28 (two dates for Aybak's independence, both stated).
+Phase 2, batch 10: Fayyum towns in the Khitat that need new records, after a reuse check (`place/al-fayyum` links), and the Fustat monuments (the mosque of Ibn Tulun's neighbours and the al-Qarafa tombs) where the Khitat has a building passage. The al-Nasiriyya madrasa stays skipped until a founder or date is found. Two decisions wait for the founder: D16 (merge `place/iskandariyya` into `place/alexandria`) and D15 (Archnet's terms, read in a visible session, or the founder supplies the posture). Also for the founder: the period-file alignment with D26, the Urdu drafts, the Adil place-name conflict, and D28 (two dates for Aybak's independence, both stated).
