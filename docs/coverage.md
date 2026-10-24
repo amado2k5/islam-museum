@@ -162,7 +162,7 @@ Average sources per entity: **1.28** · Women share of persons with a recorded g
 | music | 38 |
 | muslim-minorities-under-non-muslim-rule | 75 |
 | names-and-honorifics | 3 |
-| non-muslim-minorities-under-muslim-rule | 28 |
+| non-muslim-minorities-under-muslim-rule | 29 |
 | optics-and-physics | 1 |
 | peace-making-and-coexistence | 51 |
 | philosophy-and-logic | 34 |
