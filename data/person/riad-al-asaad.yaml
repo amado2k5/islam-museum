@@ -1,0 +1,35 @@
+id: person/riad-al-asaad
+class: person
+label: { ar: "رياض الأسعد", en: "Riad al-Asaad", ur: "ریاض الاسعد" }
+names:
+  - { value: "رياض موسى الأسعد", kind: full }
+  - { value: "Riad Mousa al-Asaad", kind: full }
+gender: male
+summary:
+  ar: "ضابط سوري سابق برتبة عقيد في سلاح الجو، انشق في يوليو 2011 وأسّس الجيش السوري الحر وقاده في طوره الأول، ثم شغل منصب نائب رئيس وزراء حكومة الإنقاذ السورية للشؤون العسكرية من 2017 حتى 2024."
+  en: "Former Syrian Air Force colonel who defected in July 2011, founded the Free Syrian Army and led it in its early phase. He later served as deputy prime minister for military affairs of the Syrian Salvation Government from 2017 to 2024."
+  ur: "شامی فضائیہ کے سابق کرنل جنہوں نے جولائی 2011 میں انحراف کر کے فری سیرین آرمی کی بنیاد رکھی اور اس کے ابتدائی دور میں اس کی قیادت کی۔ بعد میں وہ 2017 سے 2024 تک شامی حکومت نجات کے فوجی امور کے نائب وزیر اعظم رہے۔"
+roles: [general, politician]
+wings: [people, living]
+born:
+  edtf: "1961-02-02"
+  hijri: "1380"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "Full date from the English Wikipedia article; the Arabic article and Wikidata give the year 1961, and Wikidata gives the birthplace as Idlib, which neither article states. The Hijri year (1380) is converted with the repo's Umm al-Qura converter (scripts/hijri) and marked derived."
+  sources: [source/wikipedia-riad-al-asaad-en, source/wikipedia-riad-al-asaad-ar, source/wikidata-riad-al-asaad]
+faith:
+  - value: unknown
+    basis: unknown
+    note: "Wikidata gives Sunni Islam. Neither the English nor the Arabic Wikipedia article gives a school for al-Asaad. Not recorded as sunni until a second source gives it."
+    sources: [source/wikidata-riad-al-asaad, source/wikipedia-riad-al-asaad-en, source/wikipedia-riad-al-asaad-ar]
+external_ids: { wikidata: "Q714040" }
+sources: [source/wikipedia-riad-al-asaad-en, source/wikipedia-riad-al-asaad-ar, source/wikidata-riad-al-asaad]
+provenance:
+  layer: own-research
+  source: "English Wikipedia article 'Riad al-Asaad' (revision of 16 July 2026), Arabic Wikipedia article «رياض الأسعد» (revision of 7 October 2026), Wikidata Q714040; checked 24 Oct 2026"
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: modern-figures-batch-3
+status: { review: published, generated_by: "Muse (Muse Spark 1.3)" }

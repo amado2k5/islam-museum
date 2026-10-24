@@ -1,0 +1,28 @@
+id: person/lamia-al-hariri
+class: person
+label: { ar: "لمياء الحريري", en: "Lamia al-Hariri", ur: "لمیاء الحریری" }
+names:
+  - { value: "لمياء الحريري", kind: full }
+  - { value: "Lamia al-Hariri", kind: full }
+gender: female
+summary:
+  ar: "دبلوماسية سورية كانت القائمة بأعمال سفارة سوريا في قبرص، أعلنت انشقاقها عن نظام بشار الأسد في يوليو 2012 وتوجهت إلى قطر، فكان انشقاقها ثاني انشقاق دبلوماسي سوري في ذلك الشهر."
+  en: "Syrian diplomat who served as her country's chargée d'affaires in Cyprus. She defected from Bashar al-Assad's government in July 2012 and went to Qatar — the second defection of a Syrian diplomat that month."
+  ur: "شامی سفارت کار جو قبرص میں شام کی ناظم الامور تھیں۔ انہوں نے جولائی 2012 میں بشار الاسد کی حکومت سے انحراف کر کے قطر کا رخ کیا؛ وہ اس مہینے منحرف ہونے والی دوسری شامی سفارت کار تھیں۔"
+roles: [politician]
+wings: [people, living]
+relations:
+  - { type: born_in, target: place/hama, sources: [source/wikipedia-lamia-al-hariri-en, source/wikipedia-lamia-al-hariri-ar] }
+faith:
+  - value: unknown
+    basis: unknown
+    note: "Wikidata gives Sunni Islam. Neither the English nor the Arabic Wikipedia article gives a school for al-Hariri. Not recorded as sunni until a second source gives it."
+    sources: [source/wikidata-lamia-al-hariri, source/wikipedia-lamia-al-hariri-en, source/wikipedia-lamia-al-hariri-ar]
+external_ids: { wikidata: "Q3216730" }
+sources: [source/wikipedia-lamia-al-hariri-en, source/wikipedia-lamia-al-hariri-ar, source/wikidata-lamia-al-hariri]
+provenance:
+  layer: own-research
+  source: "English Wikipedia article 'Lamia al-Hariri' (revision of 31 May 2026), Arabic Wikipedia article «لمياء الحريري» (revision of 4 April 2026), Wikidata Q3216730; checked 24 Oct 2026. No birth date is given by any source, so the record carries no born block; her birthplace (Hama) is recorded as a relation only."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: modern-figures-batch-3
+status: { review: published, generated_by: "Muse (Muse Spark 1.3)" }
