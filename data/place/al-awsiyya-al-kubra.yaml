@@ -1,0 +1,20 @@
+id: place/al-awsiyya-al-kubra
+class: place
+kind: town
+label: { ar: "الأوسية الكبرى", en: "Al-Awsiyya al-Kubra" }
+summary:
+  ar: "الأوسية الكبرى، ضيعة في الفيوم؛ يصلها الماء من مقسمين، ولها باب يتحكم في الماء، ويُشرب منه نخلها وشجرها {cite:khitat-maqrizi-1998 p.731}."
+  en: "Al-Awsiyya al-Kubra, a village of the Fayyum; water reaches it from two outlets, it has a gate that controls the flow, and its palms and trees are watered from it {cite:khitat-maqrizi-1998 p.731}."
+wings: [place]
+periods: [period/prophetic-era]
+regions: [egypt-nile]
+relations:
+  - { type: located_in, target: place/al-fayyum, sources: [source/khitat-maqrizi-1998] }
+sources: [source/khitat-maqrizi-1998]
+provenance:
+  layer: own-research
+  source: "al-Maqrizi, al-Mawa'iz wa-l-i'tibar (al-Khitat), Madbouli 1998, scan p. 731"
+  generated_by: "Claude Haiku 5.5 (claude-haiku-5-5), showcase-prose lane"
+  model: claude-haiku-5-5
+  run: showcase-prose-phase2-egypt-batch11
+status: { review: published, completeness: 3, generated_by: "Claude Haiku 5.5; the two outlets, the gate and the watering of the palms are read from al-Maqrizi's Khitat (local scan, p. 731). The Khitat's kura named al-Awsiyya (p. 253), a district list of Lower Egypt, is a different entry and is not used. One page only; no date" }

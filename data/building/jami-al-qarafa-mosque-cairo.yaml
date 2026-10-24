@@ -5,20 +5,21 @@ label:
   ar: "جامع القرافة"
   en: "Jami al-Qarafa Mosque, Cairo"
 summary:
-  ar: "بطاقة أولية لـJami al-Qarafa Mosque, Cairo، المعلم التاريخي؛ لم تُراجع مصادره على الصفحة بعد."
-  en: "Draft card for the Jami al-Qarafa Mosque, Cairo, the historic monument; its sources are not yet checked on the page."
+  ar: "جامع القرافة، ويُعرف اليوم بجامع الأولياء، ويُنسب إلى بني عبد الله بن مانع بن مزروع، ويُعرف أيضاً بمسجد القبة (المقريزي، ص 2437، 2456)."
+  en: "Jami al-Qarafa, today called Jami al-Awliya, named after the Banu Abd Allah ibn Manih ibn Mazrub and also known as the Mosque of the Dome (al-Maqrizi, pp. 2437, 2456)."
 wings: [objects]
 regions: [egypt-nile]
 periods: [period/buyid-seljuk-fatimid-era]
-sources: [source/tarikh-islam-hasan-ibrahim]
+sources: [source/khitat-maqrizi-1998]
 external_ids:
   wikidata: Q16849487
 provenance:
   layer: own-research
-  source: "Wikidata candidate; monument attested in heritage registers — entry not yet checked on the page"
-  generated_by: "Devin (SWE-2 High)"
-  model: "SWE-2 High"
-  run: wikidata-import-wave2
+  source: "al-Maqrizi, al-Mawa'iz wa-l-i'tibar (al-Khitat), Madbouli 1998, scan pp. 2437, 2456, 2463; Wikidata candidate for the identifier"
+  generated_by: "Devin (SWE-2 High); prose by Claude Haiku 5.5 (showcase-prose lane)"
+  model: claude-haiku-5-5
+  run: wikidata-import-wave2, showcase-prose-phase2-egypt-batch11
 status:
-  review: draft
-  completeness: 1
+  review: published
+  completeness: 3
+  generated_by: "Claude Haiku 5.5; the names, the attribution to the Banu Abd Allah ibn Manih and the renewal under al-Amir bi-Ahkam Allah are read from al-Maqrizi's Khitat (local scan, pp. 2437, 2456, 2463). The Khitat's account of who built it is not explicit: it places the building in the account of Tafrid's palace (366 AH). The Khitat also lists a mosque named Ibn Abi al-Saghir as the Qarafa's jami (p. 2459); that identification is not resolved here"
