@@ -55,6 +55,7 @@ const groups = bands.map((b) => ({ band: b, stamps: stamps.filter((s) => s.band 
     ))}
 
     <p class="muted">{E.passport_print_note}</p>
+    <p class="no-print"><a class="chip" href={`/${lang}/learn/parents/weekly/`}>{E.wk_title}</a> <a class="chip" href={`/${lang}/learn/shelf/`}>{E.sh_open}</a></p>
     <Qr lang={lang} path={path} />
     <script type="application/json" data-passport-rules set:html={JSON.stringify(stampRules())} />
   </div>

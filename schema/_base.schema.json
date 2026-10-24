@@ -599,6 +599,44 @@
       },
       "uniqueItems": true
     },
+    "education": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "levels": {
+          "type": "array",
+          "uniqueItems": true,
+          "items": {
+            "enum": [
+              "sprouts",
+              "explorers",
+              "scholars"
+            ]
+          }
+        },
+        "flagged_for_kids": {
+          "type": "boolean"
+        },
+        "exclude": {
+          "type": "boolean"
+        },
+        "provenance": {
+          "type": "object",
+          "additionalProperties": true,
+          "properties": {
+            "generated_by": {
+              "type": "string"
+            },
+            "model": {
+              "type": "string"
+            },
+            "run": {
+              "type": "string"
+            }
+          }
+        }
+      }
+    },
     "provenance": {
       "type": "object",
       "additionalProperties": true,

@@ -1,0 +1,45 @@
+---
+// My museum shelf (docs/delegation/education-master-plan.md §4 and §5 E2): the visitor's own shelf of records, trails
+// and kids' texts, kept under `edu-shelf` on the device (at most 60 ids), printed as a pack or shared as a ?ids= link
+// that carries ids only. The page renders its list on the device through the museum's static JSON API, as My tour does.
+import BaseLayout from "../../../layouts/BaseLayout.astro";
+import Qr from "../../../components/Qr.astro";
+import { ui, fmt, LANGS, type Lang } from "../../../lib/i18n";
+import "../../../styles/edu.css";
+
+export function getStaticPaths() { return LANGS.map((lang) => ({ params: { lang }, props: { lang } })); }
+const { lang } = Astro.props as { lang: Lang };
+const T = ui(lang);
+const E = T.edu;
+const path = `/${lang}/learn/shelf/`;
+const payload = { remove: E.sh_remove, empty: E.sh_empty, count: E.sh_count, copied: E.sh_copied };
+---
+<BaseLayout lang={lang} title={E.sh_title} description={E.sh_lede} path={path}>
+  <div class="wrap edu" style="padding-block:10px 24px">
+    <nav class="ui muted no-print" aria-label="breadcrumb"><a href={`/${lang}/learn/`}>{E.title}</a> › {E.sh_title}</nav>
+    <h1>{E.sh_title}</h1>
+    <p style="font-size:1.1rem;max-width:var(--measure)">{E.sh_lede}</p>
+    <section class="shelf-page" data-shelf data-lang={lang}>
+      <noscript><p class="panel ui">{E.sh_nojs}</p></noscript>
+      <p class="panel ui" data-import-note hidden>{E.sh_import_note}</p>
+      <p class="ui muted" data-note>{fmt(E.sh_count, { n: "0", max: "60" })}</p>
+      <ul class="grid-cards" data-list style="margin:0 0 1rem"></ul>
+      <div class="no-print" style="display:flex;flex-wrap:wrap;gap:10px">
+        <button type="button" class="chip" data-copy>{E.sh_copy}</button>
+        <button type="button" class="chip" data-print>{E.sh_print}</button>
+        <button type="button" class="chip" data-addall hidden>{E.sh_import_add}</button>
+        <button type="button" class="chip" data-clear data-confirm={E.sh_clear_confirm}>{E.sh_clear}</button>
+      </div>
+      <script type="application/json" set:html={JSON.stringify(payload)} />
+    </section>
+    <p class="muted" style="max-width:var(--measure);margin-top:1rem">{E.sh_privacy}</p>
+    <Qr lang={lang} path={path} />
+  </div>
+  <script src="../../../scripts/shelf.ts"></script>
+  <style>
+    .shelf-page ul li { display: flex; flex-direction: column; gap: 8px; }
+    .shelf-page ul li .chip { align-self: flex-start; cursor: pointer; }
+    [data-clear].armed { border-color: #c0392b; color: #c0392b; }
+    @media print { .shelf-page ul { display: block; } .shelf-page ul li { break-inside: avoid; margin-bottom: 10px; } }
+  </style>
+</BaseLayout>

@@ -1,0 +1,103 @@
+---
+// The kids' reader (docs/delegation/education-master-plan.md §4 and §5 E2): a flagged record's Sprouts and
+// Explorers texts inside the Kids' Wing chrome, never the Scholars text or the full article. Built only for records
+// whose data file says `education.flagged_for_kids: true` (the opt-in rule of docs/agents/kids-content.md §4). Two
+// radio inputs and CSS switch the texts; no script at all, so the page is stateless for the youngest band. Links in
+// the child texts are rendered as plain words: the one door out is the bridge card to the full page.
+import BaseLayout from "../../../../../layouts/BaseLayout.astro";
+import Hudhud from "../../../../../components/Hudhud.astro";
+import { nodes, SEGMENT, href, labelOf } from "../../../../../lib/graph";
+import { ui, LANGS, type Lang } from "../../../../../lib/i18n";
+import { levelOf, plainChildMarkdown } from "../../../../../lib/entity";
+import { renderProse, newHonState } from "../../../../../lib/markdown";
+import type { Node } from "../../../../../../../scripts/build-graph";
+import "../../../../../styles/kids.css";
+
+export function getStaticPaths() {
+  return LANGS.flatMap((lang) =>
+    nodes
+      .filter((n) => n.data.education?.flagged_for_kids && n.prose[lang])
+      .map((n) => ({ params: { lang, class: SEGMENT[n.class] ?? n.class, slug: n.slug }, props: { node: n, lang } })),
+  );
+}
+const { node: n, lang } = Astro.props as { node: Node; lang: Lang };
+const T = ui(lang);
+const t = T.kids;
+const E = T.edu;
+const title = labelOf(n, lang);
+const seg = SEGMENT[n.class] ?? n.class;
+const path = `/${lang}/sighar/read/${seg}/${n.slug}/`;
+const secs = n.prose[lang].sections;
+const text = (id: string): string | null => {
+  const s = secs.find((x) => levelOf(x.heading, lang)?.id === id);
+  return s ? renderProse(plainChildMarkdown(s.markdown, lang), lang, newHonState()).html : null;
+};
+const sprouts = text("sprouts");
+const explorers = text("explorers");
+if (!explorers) throw new Error(`${n.id}: flagged_for_kids but no Explorers section in ${lang} (the validator should have refused this)`);
+const crumbLabel = lang === "ar" ? "مسار التنقل" : lang === "ur" ? "راہ نما" : "breadcrumb";
+const classLabel = T.class[n.class] ?? n.class;
+---
+<BaseLayout lang={lang} title={title} description={E.read_lede} path={path} kids={true}>
+  <div class="kids read">
+    <nav aria-label={crumbLabel} class="crumbs">
+      <a href={`/${lang}/sighar/`}>{t.hub_title}</a>
+      <span aria-hidden="true"> / </span>
+      <a href={`/${lang}/sighar/explorers/`}>{E.read_shelf_title}</a>
+      <span aria-hidden="true"> / </span>
+      <span aria-current="page">{title}</span>
+    </nav>
+
+    <section class="kids-hero">
+      <div class="kids-hudhud"><Hudhud pose="think" size={110} /></div>
+      <div>
+        <p class="eyebrow">{E.read_eyebrow} · {classLabel}</p>
+        <h1>{title}</h1>
+        <p class="kids-speech">{E.read_lede}</p>
+      </div>
+    </section>
+
+    <div class="lvl" data-levels>
+      {sprouts && <input type="radio" name="edu-level" class="lvl-in" id="lvl-sprouts" value="sprouts" />}
+      <input type="radio" name="edu-level" class="lvl-in" id="lvl-explorers" value="explorers" checked />
+      <div class="lvl-switch" role="group" aria-label={E.level_title}>
+        {sprouts && <label class="kids-btn" for="lvl-sprouts"><span aria-hidden="true">🌱</span> {E.read_sprouts}</label>}
+        <label class="kids-btn" for="lvl-explorers"><span aria-hidden="true">🧭</span> {E.read_explorers}</label>
+      </div>
+      {sprouts && <article class="read-card" data-level="sprouts" aria-label={E.read_sprouts} set:html={sprouts} />}
+      <article class="read-card" data-level="explorers" aria-label={E.read_explorers} set:html={explorers} />
+    </div>
+
+    <section class="bridge" aria-label={t.bridge_title}>
+      <p class="bridge-note">{t.bridge_door_note}</p>
+      <p class="no-print"><button type="button" class="kids-btn" data-shelf-add={n.id} data-add={E.sh_add} data-added={E.sh_added} data-full={E.sh_full} aria-pressed="false">{E.sh_add}</button></p>
+      <div class="entries">
+        <a class="entry-card bridge-card" href={href(lang, n.id)}>
+          <h2><span aria-hidden="true">🚪</span> {E.read_bridge}</h2>
+          <p>{E.level_storytellers_note}</p>
+        </a>
+      </div>
+    </section>
+
+    <details class="grownups">
+      <summary>{t.grownups_title}</summary>
+      <p>{E.read_grownups}</p>
+    </details>
+  </div>
+  <script src="../../../../../scripts/shelf.ts"></script>
+  <style is:inline>
+    .read .eyebrow{margin:0 0 .2rem;font-size:.95rem;opacity:.85}
+    .read .lvl-in{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0);white-space:nowrap}
+    .read .lvl-switch{display:flex;flex-wrap:wrap;gap:10px;margin:1rem 0}
+    .read .lvl-switch label{cursor:pointer}
+    .read .lvl [data-level]{display:none}
+    .read #lvl-sprouts:checked~[data-level=sprouts],.read #lvl-explorers:checked~[data-level=explorers]{display:block}
+    .read #lvl-sprouts:checked~.lvl-switch label[for=lvl-sprouts],.read #lvl-explorers:checked~.lvl-switch label[for=lvl-explorers]{background:var(--kids-lapis);color:#fff;border-color:var(--kids-lapis)}
+    .read #lvl-sprouts:focus-visible~.lvl-switch label[for=lvl-sprouts],.read #lvl-explorers:focus-visible~.lvl-switch label[for=lvl-explorers]{outline:3px solid var(--kids-gold);outline-offset:2px}
+    .read .read-card{border:2px solid var(--kids-gold);border-radius:var(--kids-radius);background:#fffdf6;padding:1.25rem 1.5rem;margin:0 0 1.5rem;max-width:820px}
+    .read .read-card[data-level=sprouts]{font-size:1.5rem;line-height:2.1}
+    .read .read-card[data-level=explorers]{font-size:1.2rem;line-height:1.95}
+    .read .read-card p{margin:0 0 .8em}
+    @media print{.read .lvl [data-level]{display:block!important}.read .lvl-switch,.read .bridge,.read .grownups{display:none!important}}
+  </style>
+</BaseLayout>
