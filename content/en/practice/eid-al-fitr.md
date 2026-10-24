@@ -15,3 +15,12 @@ Takbir on the two Eids is prescribed on the way to the prayer in homes, markets 
 
 ## The day's practices
 Keeping the two Eid nights alive in worship is recommended — "whoever keeps alive the night of fitr and of adha in hope, his heart shall not die on the day hearts die" — and the Eid bath, as the Prophet bathed on the two days. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.11985}
+
+## For Sprouts
+Eid al-Fitr is a joyful day after Ramadan, when we wear fresh clothes, visit family, and share happy greetings.
+
+## For Explorers
+Eid al-Fitr is the blessed holiday celebrated on the first day of Shawwal, marking the completion of fasting during Ramadan. The day commences with giving Zakat al-Fitr to ensure joy for the poor, followed by the communal Eid prayer and praises of God, as families exchange sweets and warm wishes in a spirit of generosity.
+
+## For Scholars
+One of the two canonical festivals in Islam, falling on the first day of Shawwal to mark the conclusion of the obligatory fast of Ramadan. Instituted in the second year of the Hijra, its religious observances include the mandatory disbursement of Zakat al-Fitr prior to the festival prayer to support the indigent, congregational Eid prayers held in large outdoor prayer areas (musallas), and communal recitations of takbir. The festival integrates profound devotional gratitude for spiritual completion with vital communal renewal, family visitation, and civic solidarity.

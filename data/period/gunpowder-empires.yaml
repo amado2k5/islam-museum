@@ -10,4 +10,8 @@ regions: [anatolia-balkans]
 start: { edtf: "1500~", calendar: julian, precision: year, status: historical, note: "Dates are approximate; the three empires rose and fell at different times." }
 end: { edtf: "1800~", calendar: gregorian, precision: year, status: historical }
 sources: [source/hodgson-1974, source/hourani-1991]
+education:
+  levels: [sprouts, explorers, scholars]
+  flagged_for_kids: true
+  provenance: { generated_by: "Devin", model: "gemini-2.5-pro", run: "education-E2-batch2", note: "Leveled texts drafted from the record's own summary and prose; draft, pending the founder's review and scholar review of the child levels." }
 status: { review: draft, completeness: 1, generated_by: "Claude Sonnet 5.5; boundaries are curatorial and approximate" }

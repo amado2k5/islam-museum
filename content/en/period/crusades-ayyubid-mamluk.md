@@ -37,3 +37,12 @@ This era is still thinly covered in the museum (13 items only), so this page sho
 
 ## Notes for researchers
 The era's boundaries are the museum's own organising convention and are approximate. For the wider history of this period, see {cite:hodgson-1974} {cite:hourani-1991}.
+
+## For Sprouts
+A historic era in which the leader Salah al-Din al-Ayyubi was famous for wisdom, justice, mercy, and helping people.
+
+## For Explorers
+An era across the Levant and Egypt marked by encounters with the Frankish Crusader campaigns and the rise of the Ayyubid state under Salah al-Din followed by the Mamluks. This period saw the construction of citadels, colleges, and hospitals, as leaders protected cities and patronized scholarship and history.
+
+## For Scholars
+A transformative period in the central Islamic lands extending from the late 5th to early 10th century AH (c. 1096–1517 CE). Encompassing the Crusades and the succession of the Ayyubid and Mamluk sultanates, it witnessed the political unification of Syria and Egypt and the defense against Mongol forces at Ayn Jalut in 658 AH. The era fostered extensive architectural, hospital, and college endowments, alongside monumental encyclopedic writing in history, geography, and law.
