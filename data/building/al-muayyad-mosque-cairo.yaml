@@ -5,21 +5,22 @@ label:
   ar: "مسجد السلطان المؤيد بالقاهرة"
   en: "Sultan al-Mu'ayyad Mosque, Cairo"
 summary:
-  ar: "بطاقة أولية لمسجد السلطان المؤيد شيخ بالقاهرة عند باب زويلة، الجامع المملوكي الذي بُني سنة ١٤١٥–١٤٢٠م وباتت مئذنتاه على باب زويلة؛ من معالم القاهرة المملوكية ولم تُراجع الصفحة بعد."
-  en: "Draft card for the Sultan al-Mu'ayyad Mosque beside Bab Zuwayla in Cairo, the Mamluk mosque built 1415–1420 whose twin minarets crown the gate; a Cairo landmark per the cited encyclopedia, the page not yet checked."
+  ar: "جامع السلطان المؤيد شيخ بالقاهرة، بجوار باب زويلة من داخله، أنشأه المؤيد على موضع خزانة شمائل وقيسارية سنقر الأشقر؛ وأُدخلت القيسارية فيه سنة 818هـ (المقريزي، ص 1535، 2143)."
+  en: "The mosque of Sultan al-Mu'ayyad Shaykh inside Bab Zuwayla, Cairo, built by al-Mu'ayyad on the site of Khizanat Shamail and the qaysariyya of Sanqur al-Ashqar, which was absorbed into it in 818 AH (al-Maqrizi, pp. 1535, 2143)."
 wings: [objects]
 regions: [egypt-nile]
 periods: [period/crusades-ayyubid-mamluk]
 themes: [architecture]
-sources: [source/duha-islam]
+sources: [source/khitat-maqrizi-1998]
 external_ids:
   wikidata: Q838360
 provenance:
   layer: own-research
-  source: "Wikidata candidate; book source: al-Shalabi, Duha al-Islam encyclopedia — entry not yet read on the page"
-  generated_by: "Devin (SWE-2 High)"
-  model: "SWE-2 High"
-  run: wikidata-import-0023
+  source: "al-Maqrizi, al-Mawa'iz wa-l-i'tibar (al-Khitat), Madbouli 1998, scan pp. 1535, 2143, 2147; Wikidata candidate for the identifier"
+  generated_by: "Devin (SWE-2 High); prose by Claude Haiku 5.5 (showcase-prose lane)"
+  model: claude-haiku-5-5
+  run: wikidata-import-0023, showcase-prose-phase2-egypt-batch12
 status:
-  review: draft
-  completeness: 1
+  review: published
+  completeness: 3
+  generated_by: "Claude Haiku 5.5; the founder, the site beside Bab Zuwayla, the qaysariyya absorbed in 818 AH and the leaning minaret are read from al-Maqrizi's Khitat (local scan, pp. 1535, 2143, 2147). The Wikidata candidate's 1415-1420 dates are not used: the Khitat's 818 AH (about 1415) is the dated event. The Duha entry is not read and is not cited"
