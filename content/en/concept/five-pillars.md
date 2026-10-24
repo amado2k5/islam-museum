@@ -19,3 +19,12 @@ The order of the pillars differs between accounts: in this account the hajj come
 
 ## The hadith's source
 Al-Bukhari recorded this hadith in the Book of Faith; the editor notes that Muslim also recorded it in the chapter "the pillars of Islam and its great supports" as number 16 {cite:sahih-al-bukhari 8}. The editor explains "supports" as being to the building in the place of pillars — it does not stand without them {cite:sahih-al-bukhari 8}.
+
+## For Sprouts
+The pillars of Islam are five: the testimony of faith, prayer, zakat, fasting and the Hajj.
+
+## For Explorers
+The pillars of Islam are five: to testify that there is no god but God and that Muhammad is God's messenger, then prayer, zakat, fasting in Ramadan, and the Hajj for those who are able.
+
+## For Scholars
+The five acts on which Islam is built according to the sound hadith: the testimony that there is no god but God and that Muhammad is God's messenger, establishing prayer, paying zakat, fasting Ramadan, and the pilgrimage to the House for those able to make the journey. The pillars join the heart, the tongue and the body and the wealth. This order follows the well-known hadith of Ibn Umar in the two Sahihs. The details of each pillar differ among the schools of law, so each has its own entry. This entry gives what the hadith says without the detailed rulings.

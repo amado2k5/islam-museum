@@ -41,4 +41,8 @@ map:
     - { type: line, role: retreat, side: 0, from: [24.503, 39.607], to: [24.505, 39.617], label: { ar: "انسحاب المسلمين المنظم إلى شعب الجبل", en: "The Muslims' ordered withdrawal into the shi'b" }, precision: schematic, source: source/mubarakpuri-raheeq }
 external_ids: { wikidata: "Q488278" }
 sources: [source/ibn-ishaq-guillaume, source/watt-1956-medina, source/lings-1983, source/mubarakpuri-raheeq, source/sahih-al-bukhari, source/sallabi-ali-vol1]
+education:
+  levels: [sprouts, explorers, scholars]
+  flagged_for_kids: true
+  provenance: { generated_by: "Claude Code", model: "Claude Haiku 5.5 (claude-haiku-5-5)", run: "education-E2-batch1", note: "Leveled texts drafted from the record's own summary; draft, pending the founder's review and scholar review of the child levels." }
 status: { review: draft, completeness: 1, generated_by: "Claude Sonnet 5.5; dates follow the cited tradition and are approximate where marked" }

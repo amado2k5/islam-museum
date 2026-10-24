@@ -16,3 +16,12 @@ In Gabriel's hadith the Prophet makes "establishing the prayer" part of the defi
 
 ## What is not covered here
 The detail of prayer times, its form, its rulings and the schools' disagreements on it will be added in a later batch from the fiqh books, with each position's school identified.
+
+## For Sprouts
+Prayer is performed five times a day. It is one of the pillars of Islam, and in it the Muslim stands before God with the whole heart.
+
+## For Explorers
+Prayer is performed five times a day and night, and it is one of the pillars of Islam. In it the Muslim stands before God, recites, bows and prostrates, and prays in the mosque or at home.
+
+## For Scholars
+The prescribed prayer, five times in the day and night, one of the five pillars of Islam. The Qur'an commands its establishment and calls it a timed obligation on the believers, and the hadith adds that other prayers are voluntary. It consists of standing, recitation, bowing and prostration, and the jurists fixed its times from the Book and the Sunna. The jurists differ on the details of its pillars, conditions and recommended acts, so this entry gives its basis without weighing the schools against each other. Wudu and the mosque are linked to prayer, and each has its own entry.

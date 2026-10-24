@@ -493,6 +493,7 @@ footer:
   faq: Frequently asked questions
   resources: Resources
   open_data: Open data (JSON)
+  engineering: Engineering
   contribute: Contribute on GitHub
   follow: Follow
   news: Museum news
@@ -1319,3 +1320,221 @@ browse:
   lede: Every type of content in the museum, on one page, with how many entries each has.
   count: entries
   all: All entries
+edu:
+  title: Learn in the museum
+  lede: A path for every age from four to eighteen, with a kit for the teacher and a page for the family. Everything is free and open, with no account, no sign-up and no tracking.
+  ask_age: How old are you?
+  enter: Enter
+  soon: In the making
+  teachers_title: For teachers
+  teachers_desc: The teacher's kit, lesson plans, printables, classroom mode, and a QR code on every sheet.
+  parents_title: For families
+  parents_desc: What each path does, the museum passport on the fridge, and what is and is not stored.
+  trails_title: All trails
+  trails_desc: Guided trails through the main museum, each with its goal and its time.
+  privacy_accounts: No accounts
+  privacy_tracking: No tracking and no cookies
+  privacy_open: 'Free and open: teachers print and adapt'
+  band_hub_for: for ages {ages}
+  next_title: Your next step
+  next_go: Start
+  activities_title: My activities
+  ladder_title: Outgrown this band?
+  ladder_text: '{band} is waiting for you, and your passport goes with you.'
+  ladder_go: To {band}
+  ladder_soon: The teen wing is in the making; until then, the guided trails of the main museum are waiting for you.
+  grownups_band: Each age band has its own page and its activities in order from easiest to hardest. Progress is kept in this browser only, with no account and no tracking, and is erased with one button.
+  passport_title: Museum passport
+  passport_lede: A stamp for every activity you complete. It stays on this device only, with no account and no name.
+  passport_strip: Your passport
+  passport_count: '{n} of {total} stamps'
+  passport_open: Open the passport
+  passport_print: Print the passport
+  passport_share: Share your passport
+  passport_empty: No stamps yet. Start with any activity!
+  passport_due: 'Cards to review today: {n}'
+  passport_due_go: Review them
+  passport_earned: Stamp earned
+  passport_todo: Not earned yet
+  passport_band_title: '{band} stamps'
+  passport_erase: Erase the passport
+  passport_erase_confirm: Sure? The passport on this device will be erased.
+  passport_erased: Erased! Stamps come back as you complete the activities again.
+  passport_nojs: The passport reads your stamps from this device with JavaScript. Without it, the page prints blank for you to fill in by hand.
+  passport_print_note: Print the passport, put it on the fridge, and tick each stamp as you earn it.
+  share_title: Share
+  share_text: '{title} · {n} of {total} · islam.museum'
+  share_image: Download the picture card
+  share_copy: Copy the text
+  share_copied: Text copied; paste it anywhere.
+  share_note: The share card is drawn on your device and is not sent anywhere.
+  study_title: Study modes
+  mode_flip: Flip
+  mode_match: Match
+  mode_type: Type
+  mode_test: Test
+  match_lede: Match each title with its description. Six pairs per round.
+  match_time: 'Time: {s} s'
+  match_done: Well done! {n} pairs in {s} seconds.
+  match_again: New round
+  type_lede: Read the description and type the title.
+  type_placeholder: Type here
+  type_check: Check
+  type_correct: Correct!
+  type_close: 'Close! The answer: {a}'
+  type_wrong: 'The answer: {a}'
+  type_next: Next
+  type_done: 'Cards finished: {n} correct of {total}.'
+  test_lede: Ten questions from this deck, marked on your device and sent to no one.
+  test_start: Start the test
+  test_q: Question {i} of {n}
+  test_result: 'Your result: {n} of {total}'
+  test_pass: Excellent! You earned a stamp in your passport.
+  test_review: What you missed will come back in tomorrow's review.
+  test_again: New test
+  deck_print: Print the cards to cut out
+  deck_print_note: 'Print single-sided and cut along the lines: the title on one card, the description on another.'
+  study_nojs: Study modes need JavaScript; the full list below reads and prints without it.
+  due_today: 'Today''s review: {n}'
+  qr_scan: Scan the code to open this page
+  qr_label: QR code for this page
+  th_title: 'Teacher''s kit: every band'
+  th_lede: 'Everything a teacher needs from the museum on one page: the kids'' kit, lesson plans, printables, trails for students, and classroom mode. No accounts and no student data.'
+  th_kids_kit: Teacher's kit for the Kids' Wing (ages 4 to 12)
+  th_kids_kit_desc: Six 40-minute lesson plans, three curriculum paths, and the five-school pilot guide.
+  th_lessons: Lesson plans
+  th_printables: Printables
+  th_trails: Trails for students with a printable handout
+  th_trails_desc: Every trail can be walked step by step or printed whole as a class handout.
+  th_classroom: Classroom mode
+  th_classroom_text: 'Add ?classroom=1 to the address of any Kids'' Wing page: bigger type for the back row, bigger buttons, no erase buttons, and a "vote together" banner.'
+  th_qr_text: Every printable carries a QR code and the page address, so students open it on their devices with one tap.
+  th_passport: Museum passport
+  th_passport_desc: The student prints it and ticks each stamp; nothing is stored with us.
+  th_coming: 'Coming in later phases: seasonal packs, and a classroom quiz for the projector.'
+  ph_title: For families
+  ph_lede: What each path does at home, how the passport works, and what is and is not stored.
+  ph_bands_title: What does each path do?
+  ph_passport_title: The passport on the fridge
+  ph_passport_text: Print the passport and put it up. Every completed activity is a stamp the child ticks by hand; no reminders, no notifications, and the schedule lives on paper.
+  ph_privacy_title: What do we store?
+  ph_privacy_text: Nothing leaves the device. Progress is kept in the browser alone, with no name, no age and no account, and is erased from the "erase my progress" button on any page.
+  ph_tips_title: Three tips
+  ph_tips:
+  - 'Sit together on the first visit: choose the age band from the front door and let the child lead.'
+  - Ask the child to tell you the story in their own words after each quest; the telling is the learning.
+  - Bedtime stories are for reading aloud; the doors marked "the big museum" are for grown-ups and those with them.
+  level_title: Reading level
+  level_sprouts: Sprouts (4–6)
+  level_explorers: Explorers (7–9)
+  level_scholars: Scholars (13+)
+  level_storytellers_note: Storytellers (10–12) read the Explorers text, then cross to the Scholars text.
+  level_full: Full text
+  level_remember: Your choice is kept in this browser only.
+  level_kids_link: Read it in the Kids' Wing
+  read_eyebrow: Reading at your level
+  read_lede: A grown-up reads you the short text; the longer one you read yourself.
+  read_sprouts: Read to me (4–6)
+  read_explorers: I read it myself (7–9)
+  read_bridge: The full text in the big museum
+  read_shelf_title: Reading shelf
+  read_shelf_lede: Stories, places and people from the museum, in words your size.
+  read_shelf_lede_st: Read the Explorers text, then cross the bridge to the full text.
+  read_grownups: The leveled texts are written from the same record in the big museum at three levels and follow the kids' content rules; the Scholars level does not appear here.
+  tp_hub_title: Pathways by grade and subject
+  tp_hub_lede: 'Lesson pathways through the museum''s own pages, each mapped to the Ontario curriculum in the museum''s words, not the Ministry''s: grade, course, strand and expectation, with a worksheet, a mastery check and a QR code.'
+  tp_mapped: Mapped by the museum, not endorsed by the Ministry.
+  tp_title_fmt: '{topic}: Grade {grade} {subject} lesson and free printable'
+  tp_curriculum: Curriculum mapping
+  tp_jurisdiction: Ontario, Canada
+  tp_course: Course
+  tp_grade: Grade
+  tp_grade_fmt: Grade {g}
+  tp_strand: Strand
+  tp_expectations: Overall expectations
+  tp_expectation: What the lesson does, in the museum's words
+  tp_document: Curriculum document consulted
+  tp_verified: Codes checked on {date}
+  tp_goal: Lesson goal
+  tp_steps: Lesson steps
+  tp_walk: Walk the trail with the class
+  tp_worksheet: Worksheet
+  tp_worksheet_lede: Answer in your own words after each step; every question points back to a museum page.
+  tp_name_line: 'Name: ______________  Class: ________  Date: ________'
+  tp_print: 'Print the pack: teacher page, worksheet and answer key'
+  tp_print_view: Printable version
+  tp_answer_key: Answer key
+  tp_answer_key_note: Each worksheet question is answered by one step; the number points to the step.
+  tp_level: Level
+  tp_duration: '{n} min'
+  tp_free: 'Free and open: print, quote and adapt, with no account and no student data.'
+  tp_level_intro: intro
+  tp_level_standard: standard
+  tp_level_deep: deep
+  tp_elementary: Elementary
+  tp_secondary: Secondary
+  mc_title: Mastery check
+  mc_lede: Five questions on what you walked through. Marked on your device; nothing is kept but the stamp in your passport when you pass.
+  mc_q: Question {i} of {n}
+  mc_check: Check
+  mc_again: Try again
+  mc_result: '{n} of {total}'
+  mc_pass: Well done! You passed, and a new stamp is in your passport.
+  mc_retry: Revisit the steps shown, then try again.
+  mc_teaches: 'Learn it at step {k}: {title}'
+  mc_correct: Correct
+  mc_wrong: Not this one
+  mc_key: Answer key (for the teacher)
+  mc_nojs: Marking needs JavaScript; the questions and their key read and print without it.
+  mc_unanswered: Answer every question first.
+  tb_title: Tell it back
+  tb_lede: Tell what you learned in your own words. What you write stays on this device only, and no one else reads it.
+  tb_placeholder: Write your telling here…
+  tb_told: I told it to a grown-up
+  tb_saved: Saved on this device
+  tb_min: Write at least two sentences, or tick that you told it, to earn the stamp in your passport.
+  tb_erase: Erase what I wrote
+  tb_erase_confirm: Sure? The text will be erased from this device.
+  tb_erased: Erased.
+  tb_prompt_1: Where would you start if you told this to a friend?
+  tb_prompt_2: What surprised you or did you like most?
+  tb_prompt_3: Sum it up in two sentences of your own.
+  tb_order_title: Put the story in order
+  tb_order_lede: Tap the cards in the order you want to tell the story. Every order is a story!
+  tb_order_mine: My story
+  tb_order_done: A lovely story! Now tell it to a grown-up out loud.
+  tb_order_again: Start again
+  tb_order_nojs: The cards in order; tell the story out loud to a grown-up.
+  tb_nojs: Writing here needs JavaScript; the prompts read and print without it.
+  sh_title: My museum shelf
+  sh_lede: 'Put on it what you want to come back to: a record, a trail or a kids'' text. The shelf stays on this device, prints as a pack or travels as a link.'
+  sh_add: Put it on my shelf
+  sh_added: On your shelf
+  sh_empty: The shelf is empty. Visit a page and look for the 'Put it on my shelf' button.
+  sh_count: '{n} of {max}'
+  sh_full: 'The shelf is full: sixty items. Remove one to add another.'
+  sh_copy: Copy the shelf link
+  sh_copied: Link copied.
+  sh_print: Print the shelf as a pack
+  sh_clear: Empty the shelf
+  sh_clear_confirm: Sure? The shelf on this device will be emptied.
+  sh_remove: Remove
+  sh_import_note: This shelf reached you by a link. Browse it, or add it to your own shelf.
+  sh_import_add: Add it to my shelf
+  sh_privacy: The shelf lives in your browser alone. The link carries page ids only, no name and nothing about you.
+  sh_nojs: The shelf needs JavaScript to read what you saved on this device.
+  sh_open: Open my shelf
+  wk_title: The family's weekly sheet
+  wk_lede: 'One page printed from the passport: what was done this week, what is due for review, and one family activity. Nothing leaves the device.'
+  wk_done: Done this week
+  wk_none: No new stamps this week, and that is fine.
+  wk_due: 'Cards due for review: {n}'
+  wk_due_none: No cards to review this week.
+  wk_activity: This week's family activity
+  wk_week: Week {n}
+  wk_print: Print the weekly sheet
+  wk_notes: This week we…
+  wk_nojs: Without JavaScript the sheet prints blank for you to fill in by hand, with the first week's activity.
+  wk_all: All fifty-two activities
+  wk_go: Open
+  wk_from_passport: From the museum passport

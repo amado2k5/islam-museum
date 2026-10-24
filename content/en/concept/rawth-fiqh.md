@@ -1,0 +1,9 @@
+---
+id: concept/rawth-fiqh
+lang: en
+source_lang: ar
+translators: []
+status: draft
+---
+## Summary
+Rawth is the dung of an animal with hooves in the lexicon; the jurists use it for the dung of any animal, such as camels and sheep. The dung of cows is khatha, of camels and sheep ba'r, of birds dhurq, and of humans 'adhra. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.9038} The Malikis, Hanbalis and, in one view, the Shafi'is hold that the dung of an animal whose meat is eaten is pure, citing the hadith permitting prayer in sheepfolds; the dung of an animal not eaten is impure for them, and the Hanafis and, according to the school's preferred view, the Shafi'is hold all dung impure. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.9038} Abu Hanifa holds dung to be gross impurity, because a text declares it impure, while Abu Yusuf and Muhammad hold it light impurity, since the scholars differ about it. Thus a garment with more than a dirham's worth of dung on it does not validate prayer for Abu Hanifa, while the two companions allow it unless it is excessive. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.9039} The Malikis excuse what falls on shoes and sandals from beasts' dung in the roads, but not on clothes or the body; Ahmad excuses a little of the droppings of beasts of prey, mules and donkeys. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.9040} On cleaning with dung, the Shafi'is, Hanbalis and most Malikis forbid it, and the Hanafis dislike it; if someone does so anyway, the Hanafis, Malikis and Ibn Taymiyya count it if it cleans, while the Shafi'is and most Hanbalis do not, relying on the hadiths of Abu Hurayra and of Ibn Mas'ud about the provision of the jinn. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.9040} {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.9041} The sale of dung is treated under the entry on zibl. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.9041}

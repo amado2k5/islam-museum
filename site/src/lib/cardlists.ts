@@ -16,6 +16,8 @@ export interface DeckFile {
   lede: { ar: string; en: string; ur?: string };
   source_card: string;
   quiz: boolean;
+  /** Opted into the Kids' Wing reading shelf (kids-content.md §4: opt-in, never opt-out). */
+  kids?: boolean;
   note?: { ar: string; en: string; ur?: string };
   items: DeckItem[];
 }
@@ -23,12 +25,12 @@ export interface DeckFile {
 const dir = () => repoPath("cards/lists");
 
 /** All available decks, sorted by slug. */
-export function listDecks(): { slug: string; title: { ar: string; en: string; ur?: string }; count: number }[] {
+export function listDecks(): { slug: string; title: { ar: string; en: string; ur?: string }; count: number; kids: boolean }[] {
   return readdirSync(dir())
     .filter((f) => f.endsWith(".yaml"))
     .map((f) => {
       const raw = parse(readFileSync(`${dir()}/${f}`, "utf8")) as DeckFile;
-      return { slug: raw.slug, title: raw.title, count: raw.items.length };
+      return { slug: raw.slug, title: raw.title, count: raw.items.length, kids: raw.kids === true };
     })
     .sort((a, b) => a.slug.localeCompare(b.slug));
 }

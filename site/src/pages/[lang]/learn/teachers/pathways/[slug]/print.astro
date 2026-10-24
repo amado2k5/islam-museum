@@ -1,0 +1,62 @@
+---
+// The printable pack of a curriculum pathway: teacher page, the steps as a list, the worksheet and the answer key,
+// in that order, each on its own sheet (docs/delegation/education-master-plan.md §5 E2: "a teacher can print one
+// lesson as one pack in at most 4 sheets"). No script at all; the page is the same on screen and on paper.
+import BaseLayout from "../../../../../../layouts/BaseLayout.astro";
+import PathwayWorksheet from "../../../../../../components/PathwayWorksheet.astro";
+import Qr from "../../../../../../components/Qr.astro";
+import { byId, href, labelOf, summaryOf } from "../../../../../../lib/graph";
+import { ui, fmt, LANGS, type Lang } from "../../../../../../lib/i18n";
+import { renderProse } from "../../../../../../lib/markdown";
+import { pathways, pathwayPath, pathwayPrintPath, pathwaySlug, pathwayTitle } from "../../../../../../lib/pathways";
+import type { Node } from "../../../../../../../../scripts/build-graph";
+import "../../../../../../styles/edu.css";
+
+export function getStaticPaths() {
+  return LANGS.flatMap((lang) => pathways().map((n) => ({ params: { lang, slug: pathwaySlug(n) }, props: { node: n, lang } })));
+}
+const { node: n, lang } = Astro.props as { node: Node; lang: Lang };
+const T = ui(lang);
+const E = T.edu;
+const d = n.data;
+const c = d.curriculum;
+const loc = (o: any) => o?.[lang] ?? o?.en ?? o?.ar ?? "";
+const path = pathwayPrintPath(lang, n);
+const alternates = Object.fromEntries(LANGS.map((l) => [l, pathwayPrintPath(l, n)]));
+const teacherNote = n.prose[lang]?.sections.find((s) => ["للمعلم", "For the teacher", "استاد کے لیے"].includes(s.heading));
+const noteHtml = teacherNote ? renderProse(teacherNote.markdown, lang).html : "";
+const rooms: any[] = d.rooms ?? [];
+---
+<BaseLayout lang={lang} title={`${pathwayTitle(n, lang)} · ${E.tp_print_view}`} description={summaryOf(n, lang)} path={path} alternates={alternates} noindex={true}>
+  <div class="wrap edu tpp" style="padding-block:10px 24px">
+    <p class="ui no-print"><a href={pathwayPath(lang, n)}>← {labelOf(n, lang)}</a> · <button type="button" class="chip" style="border:1px solid var(--gold);cursor:pointer" onclick="window.print()">{E.tp_print}</button></p>
+    <section class="tpp-sheet">
+      <h1 style="margin:0 0 .3rem">{labelOf(n, lang)}</h1>
+      <p class="ui muted" style="margin:0 0 .6rem">{fmt(E.tp_grade_fmt, { g: c.grade })} · {loc(c.course_title)} <span dir="ltr">({c.course})</span> · {E.tp_strand} <span dir="ltr">{c.strand}</span>{(c.expectations ?? []).length > 0 && <> · <span dir="ltr">{c.expectations.join(", ")}</span></>} · {fmt(E.tp_duration, { n: String(d.duration_minutes) })}</p>
+      <p><b>{E.tp_mapped}</b></p>
+      <p>{summaryOf(n, lang)}</p>
+      <h2 class="ui" style="font-size:1rem">{E.tp_goal}</h2>
+      <p>{loc(d.goal)}</p>
+      <h2 class="ui" style="font-size:1rem">{E.tp_expectation}</h2>
+      <p>{loc(c.expectation)}</p>
+      <p class="muted" style="font-size:.85rem" lang="en" dir="ltr">{c.document}</p>
+      {noteHtml && <div set:html={noteHtml} />}
+      <h2 class="ui" style="font-size:1rem">{E.tp_steps}</h2>
+      <ol class="tpp-steps">
+        {rooms.map((r: any) => (
+          <li><b>{loc(r.title)}</b>{loc(r.body) && <> — {loc(r.body)}</>}
+            {(r.features ?? []).map((id: string) => byId.get(id)).filter(Boolean).map((f: Node) => <> · <a href={href(lang, f.id)}>{labelOf(f, lang)}</a></>)}</li>
+        ))}
+      </ol>
+      <Qr lang={lang} path={pathwayPath(lang, n)} />
+    </section>
+    <PathwayWorksheet node={n} lang={lang} answers={true} />
+    <p class="muted">{E.tp_free}</p>
+  </div>
+  <style is:inline>
+    .tpp .tpp-sheet{border:1px solid var(--gold);border-radius:14px;padding:18px;margin:0 0 1.2rem;background:var(--panel)}
+    .tpp .tpp-steps{padding-inline-start:1.4rem}
+    .tpp .tpp-steps li{margin:0 0 6px}
+    @media print{.tpp .tpp-sheet{border:1px solid #999;break-after:page}.tpp .no-print{display:none}}
+  </style>
+</BaseLayout>

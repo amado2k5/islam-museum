@@ -1,0 +1,92 @@
+# Passport stamps (docs/delegation/education-master-plan.md E1). One stamp per existing activity that keeps local
+# progress. `earn` names the localStorage key the activity already writes and the rule that awards the stamp:
+#   list-min:N   the key holds a JSON array with at least N entries
+#   number-min:N the key holds a number >= N
+#   keys-min:N   the key holds a JSON object with at least N truthy values
+#   prefix-any   at least one localStorage key starts with `key`
+# Sprouts (4-6) earn nothing: that band is stateless by rule (docs/agents/kids-content.md §7.3).
+stamps:
+  - id: garden
+    band: explorers
+    icon: "🌸"
+    href: /sighar/garden/
+    label: { ar: "حديقة الكلمات: خمس إجابات للنحلة", en: "Word Garden: five answers for the bee", ur: "الفاظ کا باغ: شہد کی مکھی کے لیے پانچ جواب" }
+    earn: { key: kids-bee-score, rule: "number-min:5" }
+  - id: quest
+    band: explorers
+    icon: "⭐"
+    href: /sighar/quest/
+    label: { ar: "رحلة الأنبياء: المحطات الخمس", en: "Prophet Quest: all five stops", ur: "انبیاء کا سفر: پانچوں پڑاؤ" }
+    earn: { key: kids-quest-stars, rule: "list-min:5" }
+  - id: kindness-week
+    band: explorers
+    icon: "🤲"
+    href: /sighar/kindness/
+    label: { ar: "تحدّي الأخلاق: أسبوع كامل", en: "Kindness Quest: a full week", ur: "اخلاق کا چیلنج: پورا ایک ہفتہ" }
+    earn: { key: kids-kindness, rule: "list-min:7" }
+  - id: kindness-month
+    band: explorers
+    icon: "🌟"
+    href: /sighar/kindness/
+    label: { ar: "تحدّي الأخلاق: ثلاثون يومًا", en: "Kindness Quest: thirty days", ur: "اخلاق کا چیلنج: تیس دن" }
+    earn: { key: kids-kindness, rule: "list-min:30" }
+  - id: mosque
+    band: explorers
+    icon: "🕌"
+    href: /sighar/mosque/
+    label: { ar: "ابنِ مسجدك: الأجزاء السبعة", en: "Build-a-Mosque: all seven parts", ur: "اپنی مسجد بنائیں: ساتوں حصے" }
+    earn: { key: kids-mosque-parts, rule: "list-min:7" }
+  - id: timemachine
+    band: explorers
+    icon: "⏳"
+    href: /sighar/timemachine/
+    label: { ar: "آلة الزمن: العصور الخمسة", en: "Time Machine: all five eras", ur: "ٹائم مشین: پانچوں ادوار" }
+    earn: { key: kids-eras-visited, rule: "list-min:5" }
+  - id: retell
+    band: storytellers
+    icon: "✍️"
+    href: /sighar/retell/
+    label: { ar: "أعد الحكاية: حكاية بكلماتك", en: "Retell: a story in your own words", ur: "کہانی دہرائیں: اپنے الفاظ میں ایک کہانی" }
+    earn: { key: "kids-retell-", rule: "prefix-any" }
+  - id: journal
+    band: storytellers
+    icon: "📓"
+    href: /sighar/journal/
+    label: { ar: "دفتر القيم: أول خاطرة", en: "Values Journal: a first entry", ur: "اقدار کی ڈائری: پہلی تحریر" }
+    earn: { key: kids-journal, rule: "list-min:1" }
+  - id: study
+    band: storytellers
+    icon: "🃏"
+    href: /cards/lists/
+    label: { ar: "بطاقات المتحف: اختبار ناجح", en: "Museum Cards: a test passed", ur: "میوزیم کارڈز: ایک ٹیسٹ پاس" }
+    earn: { key: "edu-study:", rule: "prefix-any" }
+  - id: trail
+    band: storytellers
+    icon: "🗺️"
+    href: /learn/trails/
+    label: { ar: "مسار موجَّه: مشيت مسارًا", en: "Guided trail: walked a trail", ur: "رہنما راستہ: ایک راستہ طے کیا" }
+    earn: { key: "pw:", rule: "prefix-any" }
+  - id: challenge
+    band: storytellers
+    icon: "📅"
+    href: /cards/challenge/
+    label: { ar: "تحدّي الثلاثين يومًا: سبعة أيام", en: "Thirty-day challenge: seven days", ur: "تیس دن کا چیلنج: سات دن" }
+    earn: { key: "cards-challenge-", rule: "prefix-keys-min:7" }
+  - id: mastery
+    band: storytellers
+    icon: "✅"
+    href: /learn/trails/
+    label: { ar: "فحص الإتقان: نجحت في فحص مسار", en: "Mastery check: passed a trail's check", ur: "مہارت کی جانچ: ایک راستے کی جانچ پاس کی" }
+    earn: { key: "edu-quiz:", rule: "prefix-any" }
+  - id: tellback
+    band: storytellers
+    icon: "🗣️"
+    href: /learn/trails/
+    label: { ar: "احكِها من جديد: حكيت ما تعلّمته", en: "Tell it back: retold what you learned", ur: "دوبارہ سناؤ: جو سیکھا وہ سنایا" }
+    earn: { key: "edu-retell:", rule: "prefix-any" }
+status: { review: draft }
+provenance:
+  generated_by: "Claude Code"
+  model: "Claude Fable 5.1 (claude-fable-5-1)"
+  run: "education-E1"
+  note: "Stamp labels drafted in Arabic; English and Urdu translated from it, pending the founder's review."
