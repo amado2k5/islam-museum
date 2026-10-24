@@ -11,7 +11,7 @@ Lane: `docs/agents/lanes/modern-figures.md` · Branch: `content/modern-figures` 
 
 ## Batches
 
-- Batch 1 (scholars and preachers, 15): group C DONE 24 Oct 2026 — sayyid-qutb, abd-al-fattah-abu-ghudda, ismail-ibn-musa-menk (new) + al-albani-muhammad-nasir-al-din, hasyim-asyari (enriched 1 → 3, published). Faith outcomes: abu-ghudda `sunni-hanafi` (two sources); qutb and menk `unknown` with notes. Group A DONE — ali-gomaa, ahmed-el-tayeb, yusuf-al-qaradawi, muhammad-sayyid-tantawi (all `sunni / documented`). Al-Sha'rawi found already present as `muhammad-mutawalli-al-shaarawi` (draft skeleton) — enrichment re-issued under that slug, in flight. Group B in flight. PR #1522 (lane + group C) merged 24 Oct 2026.
+- Batch 1 (scholars and preachers, 15): group C DONE 24 Oct 2026 — sayyid-qutb, abd-al-fattah-abu-ghudda, ismail-ibn-musa-menk (new) + al-albani-muhammad-nasir-al-din, hasyim-asyari (enriched 1 → 3, published). Faith outcomes: abu-ghudda `sunni-hanafi` (two sources); qutb and menk `unknown` with notes. Group A DONE — ali-gomaa, ahmed-el-tayeb, yusuf-al-qaradawi, muhammad-sayyid-tantawi (all `sunni / documented`). Group B DONE — ahmed-raza-khan-barelvi (`sunni-hanafi`), ahmed-kuftaro (`sunni`), said-nursi, ahmed-deedat, hamka (`unknown` with notes; for Nursi and Deedat a 429 rate-limit blocked re-verification of the EN infobox wikitext, so the two-source rule was applied conservatively — a browser infobox check could upgrade both). Al-Sha'rawi found already present as `muhammad-mutawalli-al-shaarawi` (draft skeleton) — enrichment in flight. PRs #1522 (lane + group C) and #1523 (group A) merged 24 Oct 2026.
 - Batch 2 (public/political, 18 + 1 enrichment): queued.
 - Batch 3 (remaining figures, 16): queued.
 

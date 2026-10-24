@@ -1,0 +1,46 @@
+id: person/ahmed-kuftaro
+class: person
+label: { ar: "أحمد كفتارو", en: "Ahmed Kuftaro", ur: "احمد کفتارو" }
+names:
+  - { value: "أحمد محمد أمين كفتارو", kind: full }
+  - { value: "Ahmed Muhammad Amin Kuftaro", kind: full }
+gender: male
+summary:
+  ar: "عالم سوري كردي وشيخ الطريقة النقشبندية، كان المفتي العام للجمهورية العربية السورية من 1964 حتى وفاته سنة 2004، وعُرف بدعوته إلى الحوار بين الأديان وبمؤسساته التعليمية والخيرية في دمشق."
+  en: "Syrian Kurdish scholar and Naqshbandi Sufi shaykh who served as Grand Mufti of Syria from 1964 until his death in 2004; known for advocating interreligious dialogue and for the educational and charitable institutions he built in Damascus."
+  ur: "سوری کرد عالم اور نقشبندی صوفی شیخ، جو 1964 سے 2004 میں وفات تک شام کے مفتی اعظم رہے؛ بین المذاہب مکالمے کی دعوت اور دمشق میں اپنے تعلیمی و فلاحی اداروں کے لیے معروف۔"
+roles: [scholar, mufti, sufi, teacher]
+wings: [people]
+born:
+  edtf: "1915-12"
+  calendar: gregorian
+  precision: month
+  status: historical
+  derived: true
+  note: "English Wikipedia gives December 1915 and Wikidata the year 1915; the Arabic Wikipedia gives 1912 throughout. The Hijri year is omitted until the Gregorian year is settled."
+  sources: [source/wikipedia-ahmed-kuftaro-en, source/wikipedia-ahmed-kuftaro-ar, source/wikidata-ahmed-kuftaro]
+died:
+  edtf: "2004-09-01"
+  hijri: "1425"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "Arabic Wikipedia gives Wednesday 17 Rajab 1425 AH, corresponding to 1 September 2004; Wikidata gives the same Gregorian date."
+  sources: [source/wikipedia-ahmed-kuftaro-ar, source/wikidata-ahmed-kuftaro]
+relations:
+  - { type: born_in, target: place/damascus, sources: [source/wikipedia-ahmed-kuftaro-ar, source/wikidata-ahmed-kuftaro] }
+  - { type: lived_in, target: place/damascus, sources: [source/wikipedia-ahmed-kuftaro-en, source/wikipedia-ahmed-kuftaro-ar] }
+faith:
+  - value: sunni
+    basis: documented
+    note: "English Wikipedia calls him 'a Sunni Muslim of the Naqshbandi Sufi order' and the highest officially appointed Sunni Muslim representative in Syria; Wikidata records Sunni Islam. His jurisprudence was Shafi'i (English Wikipedia)."
+    sources: [source/wikipedia-ahmed-kuftaro-en, source/wikidata-ahmed-kuftaro]
+external_ids: { wikidata: "Q324491" }
+sources: [source/wikipedia-ahmed-kuftaro-en, source/wikipedia-ahmed-kuftaro-ar, source/wikidata-ahmed-kuftaro]
+provenance:
+  layer: own-research
+  source: "English Wikipedia 'Ahmed Kuftaro' (revision of 13 June 2026), Arabic Wikipedia «أحمد كفتارو» (revision of 24 October 2026), Wikidata Q324491; checked 24 October 2026"
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: modern-figures-batch-1
+status: { review: published, generated_by: "Muse (Muse Spark 1.3)" }

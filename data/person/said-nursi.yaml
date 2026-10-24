@@ -1,0 +1,46 @@
+id: person/said-nursi
+class: person
+label: { ar: "سعيد النورسي", en: "Said Nursi", ur: "سعید نورسی" }
+names:
+  - { value: "بديع الزمان سعيد النورسي", kind: full }
+  - { value: "Said Nursi", kind: full }
+gender: male
+summary:
+  ar: "عالم كردي من تركيا العثمانية، وُلد سنة 1877 وتوفي سنة 1960، ألّف «رسائل النور»، وهي تفسير للقرآن يزيد على ستة آلاف صفحة، وقضى أكثر من عشرين عامًا بين السجن والنفي في تركيا الجمهورية."
+  en: "Kurdish scholar from Ottoman Turkey, born in 1877 and died in 1960; author of the Risale-i Nur, a Qur'anic commentary of more than six thousand pages, who spent over twenty years in prison and exile in republican Turkey."
+  ur: "عثمانی ترکی کے کرد عالم، جو 1877 میں پیدا ہوئے اور 1960 میں وفات پائی؛ «رسائل نور» کے مصنف، جو چھ ہزار سے زائد صفحات پر مشتمل قرآن کی تفسیر ہے، اور جنہوں نے جمہوریہ ترکی میں بیس سال سے زیادہ قید و جلاوطنی میں گزارے۔"
+roles: [scholar, theologian, writer]
+wings: [people]
+born:
+  edtf: "1877"
+  hijri: "1294"
+  calendar: gregorian
+  precision: year
+  status: historical
+  derived: true
+  note: "English Wikipedia and Wikidata give 1877, and the Arabic article's biography section gives 1294 AH / 1877 CE; the Arabic article's lead gives 12 March 1876, which is not recorded."
+  sources: [source/wikipedia-said-nursi-en, source/wikipedia-said-nursi-ar, source/wikidata-said-nursi]
+died:
+  edtf: "1960-03-23"
+  hijri: "1379"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "Arabic Wikipedia gives 25 Ramadan 1379 AH, corresponding to 23 March 1960; English Wikipedia and Wikidata give the same Gregorian date."
+  sources: [source/wikipedia-said-nursi-en, source/wikipedia-said-nursi-ar, source/wikidata-said-nursi]
+relations:
+  - { type: lived_in, target: place/istanbul, sources: [source/wikipedia-said-nursi-en] }
+faith:
+  - value: unknown
+    basis: unknown
+    note: "Wikidata records his religion as Islam and Sunni Islam, and gives the Shafi'i school. The English and Arabic article texts do not state a school. Not recorded as sunni until a second source confirms it."
+    sources: [source/wikidata-said-nursi, source/wikipedia-said-nursi-en, source/wikipedia-said-nursi-ar]
+external_ids: { wikidata: "Q198770" }
+sources: [source/wikipedia-said-nursi-en, source/wikipedia-said-nursi-ar, source/wikidata-said-nursi]
+provenance:
+  layer: own-research
+  source: "English Wikipedia 'Said Nursi' (revision of 5 October 2026), Arabic Wikipedia «بديع الزمان سعيد النورسي» (revision of 11 September 2026), Wikidata Q198770; checked 24 October 2026"
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: modern-figures-batch-1
+status: { review: published, generated_by: "Muse (Muse Spark 1.3)" }

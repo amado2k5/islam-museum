@@ -1,0 +1,44 @@
+id: person/ahmed-raza-khan-barelvi
+class: person
+label: { ar: "أحمد رضا خان البريلوي", en: "Ahmed Raza Khan Barelvi", ur: "احمد رضا خان بریلوی" }
+names:
+  - { value: "أبو حامد أحمد رضا خان البريلوي", kind: full }
+  - { value: "Ahmed Raza Khan Barelvi", kind: full }
+gender: male
+summary:
+  ar: "فقيه حنفي ومتصوف قادري هندي، وُلد في بريلي سنة 1856 وتوفي سنة 1921، وهو مؤسس الحركة البريلوية في جنوب آسيا، وصاحب «فتاوى رضوية» وترجمة القرآن إلى الأردية «كنز الإيمان»."
+  en: "Indian Hanafi jurist and Qadiri Sufi, born in Bareilly in 1856 and died in 1921; founder of the Barelvi movement in South Asia, author of the Fatawa-i Razawiyya and of the Urdu Qur'an translation Kanz ul-Iman."
+  ur: "ہندوستانی حنفی فقیہ اور قادری صوفی، جو 1856 میں بریلی میں پیدا ہوئے اور 1921 میں وفات پائی؛ جنوبی ایشیا میں بریلوی تحریک کے بانی، «فتاویٰ رضویہ» کے مصنف اور قرآن کے اردو ترجمے «کنز الایمان» کے مترجم۔"
+roles: [scholar, jurist, sufi, poet]
+wings: [people]
+born:
+  edtf: "1856-06-14"
+  hijri: "1272"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "Gregorian date from English Wikipedia and Wikidata. Both articles give 10 Shawwal 1272 AH, which converts to 14 June 1856; the Arabic article's Gregorian '4 June 1856' appears to be a slip and is not recorded."
+  sources: [source/wikipedia-ahmed-raza-khan-barelvi-en, source/wikipedia-ahmed-raza-khan-barelvi-ar, source/wikidata-ahmed-raza-khan-barelvi]
+died:
+  edtf: "1921-10-28"
+  hijri: "1340"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "English Wikipedia and Wikidata give 28 October 1921; the English article gives 25 Safar 1340 AH."
+  sources: [source/wikipedia-ahmed-raza-khan-barelvi-en, source/wikidata-ahmed-raza-khan-barelvi]
+faith:
+  - value: sunni-hanafi
+    basis: documented
+    note: "English Wikipedia calls the Fatawa-i Razawiyya a compendium of the Hanafi school of Sunni Islam and gives his organisation's aim as the religious education of the Ahl-e-Sunnat wal Jamat; the Arabic article styles him al-Maturidi al-Hanafi al-Qadiri. Wikidata records the Barelvi movement and Ahlus Sunnat Wal Jama'at; its religion field gives only Islam."
+    sources: [source/wikipedia-ahmed-raza-khan-barelvi-en, source/wikipedia-ahmed-raza-khan-barelvi-ar, source/wikidata-ahmed-raza-khan-barelvi]
+external_ids: { wikidata: "Q3629485" }
+sources: [source/wikipedia-ahmed-raza-khan-barelvi-en, source/wikipedia-ahmed-raza-khan-barelvi-ar, source/wikidata-ahmed-raza-khan-barelvi]
+provenance:
+  layer: own-research
+  source: "English Wikipedia 'Ahmed Raza Khan Barelvi' (revision of 6 October 2026), Arabic Wikipedia «أحمد رضا خان» (revision of 25 September 2026), Wikidata Q3629485; checked 24 October 2026"
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: modern-figures-batch-1
+status: { review: published, generated_by: "Muse (Muse Spark 1.3)" }
