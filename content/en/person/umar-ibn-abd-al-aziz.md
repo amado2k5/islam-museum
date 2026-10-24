@@ -24,3 +24,12 @@ Umar disliked Yazid ibn al-Muhallab and his household, and said they were tyrant
 - The references use the scan page number. The years are not given, because their reading in the OCR is not reliable, except what is reported from the annals.
 - The sentence on page 91 is rendered in sense, and should be checked against the scan before it is relied on.
 - Reports with OCR damage have been left out of the entry, and will be added after the page images are checked.
+
+## For Sprouts
+A just and humble caliph who loved people, spread justice and mercy, and lived simply to support the poor and needy.
+
+## For Explorers
+Umar ibn Abd al-Aziz was the pious Umayyad caliph often remembered as the fifth of the Rightly Guided Caliphs for his profound justice and humility. Assuming office, he restored misused properties to the treasury, abolished tribute on new Muslims, and appointed upright governors, fostering widespread prosperity where charity could hardly find anyone in need.
+
+## For Scholars
+Abu Hafs Umar ibn Abd al-Aziz (61–101 AH / 681–720 CE), the eighth Umayyad caliph, universally acclaimed for his justice and piety, widely celebrated as the fifth Rightly Guided Caliph and the first historical renewer (mujaddid) of Islam. Raised and educated in Medina among master traditionists, he succeeded to the caliphate in 99 AH (717 CE) and instituted sweeping moral and structural reforms: returning expropriated lands to the state treasury, dismissing corrupt governors, abolishing the jizya tax on converts, and officially ordering the first systematic state codification of Hadith under Ibn Shihab al-Zuhri.

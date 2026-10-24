@@ -18,3 +18,12 @@ The whole genre of Qur'an commentary — tafsir — traces its ancestry to his t
 
 ## For young visitors
 Ibn Abbas was only a boy when the Prophet died, but he spent his life asking the elders everything they remembered — and became the great explainer of the Qur'an.
+
+## For Sprouts
+Ibn Abbas was a wise companion for whom the Prophet prayed for understanding, becoming the scholar who explained the Qur'an.
+
+## For Explorers
+Abdullah ibn Abbas was the Prophet's young cousin, acclaimed as the Sage of the Community and the Interpreter of the Qur'an. Blessed by the Prophet's prayer for deep comprehension, he studied with senior companions, mastering Arabic poetry, vocabulary, and circumstances of revelation, establishing celebrated teaching circles in Mecca and Basra.
+
+## For Scholars
+Abu al-Abbas Abdullah ibn Abbas (3 BH – 68 AH / 619–687 CE), acclaimed as the Sage of the Community (Habr al-Umma) and Interpreter of the Qur'an (Tarjuman al-Qur'an). Born in Mecca shortly before the Hijra, he was blessed by the Prophet's prayer for deep understanding of religion and the interpretation of scripture. Following the Prophet's passing, he rigorously collected traditions and linguistic usage from senior companions, pioneering systematic Qur'anic exegesis (tafsir) by utilizing classical Arabic poetry, lexical analysis, and contexts of revelation (asbab al-nuzul), founding the renowned Meccan school of commentary through students like Mujahid and Sa'id ibn Jubayr.

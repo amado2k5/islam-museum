@@ -11,4 +11,8 @@ coordinates: [30.5085, 47.7804]
 coordinate_precision: site
 external_ids: { geonames: "99532", pleiades: "912821" }
 sources: [source/muntazam-ibn-al-jawzi, source/geonames-gazetteer, source/muruj-al-dhahab]
+education:
+  levels: [sprouts, explorers, scholars]
+  flagged_for_kids: true
+  provenance: { generated_by: "Devin", model: "gemini-2.5-pro", run: "education-E2-batch4", note: "Leveled texts drafted from the record's own summary and prose; draft, pending the founder's review and scholar review of the child levels." }
 status: { review: draft, completeness: 1, generated_by: "Claude Sonnet 5.5; coordinates from GeoNames; descriptive facts to be checked against reference works" }

@@ -83,3 +83,12 @@ The lists above are the most prominent and most frequently appearing items in th
 
 ## Notes for researchers
 The era's boundaries are the museum's own organising convention and are approximate. For the wider history of this period, see {cite:ibn-ishaq-guillaume} {cite:watt-1956-medina}.
+
+## For Sprouts
+A blessed era when Prophet Muhammad and his companions lived in Mecca and Medina, spreading the light of the Qur'an, mercy, and peace.
+
+## For Explorers
+The Prophetic Era is the foundational epoch of Islamic history, spanning twenty-three years from the first revelation in the Cave of Hira to the Prophet's passing. Historians divide it into the Meccan period, focusing on monotheism, patience, and character, and the Medinan period, which built the first commonwealth of justice, brotherhood, and divine law.
+
+## For Scholars
+The foundational epoch of Islamic history and law, encompassing the twenty-three years of the Prophet Muhammad's mission (610–632 CE / from the first revelation in Hira until his passing in 11 AH). Formatively structured into two complementary phases: the Meccan period (13 years), dedicated to cultivating monotheism, personal moral agency, and resilience under persecution; and the Medinan period (10 years) following the Hijra, marked by institutional foundation, the Prophet's Mosque, the Constitution of Medina, and the comprehensive development of civil, ethical, and ritual laws culminating in the Farewell Pilgrimage, establishing the primary normative paradigm for Islamic thought.

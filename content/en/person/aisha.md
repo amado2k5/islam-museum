@@ -26,3 +26,12 @@ Ibn Ishaq, from Asim ibn Umar ibn Qatada, relates that Aisha said to the Prophet
 
 ## Her marriage (The Sealed Nectar, p.136)
 The Prophet married her in Shawwal of the eleventh year of the mission, when she was six years old. He consummated the marriage in Medina in Shawwal of the first year of the Hijra, when she was nine {cite:mubarakpuri-raheeq p.136} {cite:sahih-al-bukhari 1/551}.
+
+## For Sprouts
+Aisha, Mother of the Believers, was a brilliant scholar and teacher who taught people the Qur'an and Sunna with wisdom.
+
+## For Explorers
+Aisha bint Abi Bakr, Mother of the Believers and wife of the Prophet, was one of the greatest scholars in Islamic history. Renowned for her sharp intellect, she served as a key authority for senior companions in Qur'anic exegesis, jurisprudence, medicine, and Arabic poetry, narrating hundreds of traditions depicting the Prophet's household life and character.
+
+## For Scholars
+Aisha bint Abi Bakr al-Siddiq (c. 9 BH – 58 AH / 613–678 CE), Mother of the Believers, regarded in Islamic scholarship as the foremost female jurist and one of the highest authorities among the companions. Raised in Abu Bakr's household and married to the Prophet in Medina, she possessed remarkable insight into prophetic household life and private devotion. Highly esteemed for her expertise in Qur'anic interpretation, legal inheritance, poetry, and medicine, senior companions sought her legal verdicts, and her critical corrections of transmitted traditions (istidrak) shaped the discipline of Hadith verification.

@@ -21,3 +21,12 @@ Uthman gathered the scattered pages of the Qur'an into a single authoritative bo
 
 ## In the secret call (The Sealed Nectar p.76)
 The book counts him among those who became Muslim through [[person/abu-bakr|Abu Bakr]] during the years of the [[event/al-dawa-al-sirriyya|secret call]], one of the eight who went before the people and formed the first vanguard and the front line of Islam. {cite:mubarakpuri-raheeq p.76} {cite:ibn-hisham-sira 1/245-262}. The book refers to him by his Umayyad lineage. {cite:mubarakpuri-raheeq p.76}.
+
+## For Sprouts
+Uthman ibn Affan was the third righteous caliph, known for modesty and generosity, who unified the Qur'an into one standard text.
+
+## For Explorers
+Uthman ibn Affan, titled Dhu al-Nurayn, was the third caliph and an early convert to Islam. Renowned for his vast generosity, he outfitted the expedition of Tabuk and bought the well of Rumah as an enduring public endowment. His most significant service as caliph was standardizing the Qur'an into a unified text distributed across the regions.
+
+## For Scholars
+Abu Abd Allah Uthman ibn Affan (c. 47 BH – 35 AH / 576–656 CE), titled Dhu al-Nurayn (Possessor of the Two Lights), the third Rightly Guided Caliph (23–35 AH). An early convert who participated in both migrations to Abyssinia and Medina, he was famed for his immense philanthropic endowments, financing the Tabuk campaign, purchasing the well of Rumah for public use, and expanding the Prophet's Mosque. Elected caliph following the council appointed by Umar, his era saw major territorial expansions and the creation of the first Islamic navy. His crowning historical legacy remains the authoritative compilation and distribution of the standard Uthmanic codex of the Qur'an.

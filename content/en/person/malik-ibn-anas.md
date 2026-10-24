@@ -65,3 +65,12 @@ Malik ibn Anas, the imam of the abode of emigration, was born in Medina, learned
 - The details of the *Muwatta'* in respect of the number of hadiths and the names of its transmitters are taken from al-Dhahabi. We have not yet checked them against the standard *Muwatta'* edition (Ma'ruf, 1997).
 - The attribution of "I do not know" to Malik, al-Shafi'i and Ibn Uyayna are sayings al-Dhahabi relays from others, and have not been checked against originals.
 - The accounts of assemblies and caliphs are relayed by al-Dhahabi with chains, and the chains need review before they are relied on for anything beyond a reference.
+
+## For Sprouts
+A revered scholar of Medina who compiled the Prophet's traditions and jurisprudence in his famous book, al-Muwatta.
+
+## For Explorers
+Malik ibn Anas, known as the Imam of Medina, was one of the four great jurists of Sunni Islam. Born and residing in Medina, he taught Hadith in the Prophet's Mosque and authored al-Muwatta, combining authentic prophetic traditions with the living practice of the community of Medina, renowned for his reverence and caution in legal rulings.
+
+## For Scholars
+Abu Abd Allah Malik ibn Anas (93–179 AH / 711–795 CE), the Imam of Dar al-Hijra (Medina) and founder of the Maliki school of law, standing as one of the formative figures of 8th-century Islamic jurisprudence and Hadith scholarship. Studying under premier Successors such as Ibn Shihab al-Zuhri and Nafi, he compiled 'al-Muwatta', the earliest extant standardized legal and Hadith compendium. His jurisprudential methodology is notable for treating the continuous communal praxis of Medina ('amal ahl al-Madina) as a vital normative source alongside the Qur'an, Sunna, and consensus.

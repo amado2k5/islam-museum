@@ -25,4 +25,8 @@ relations:
   - { type: participated_in, target: event/conquest-of-mecca, role: submitted, sources: [source/ibn-ishaq-guillaume] }
 external_ids: { wikidata: "Q485732" }
 sources: [source/ibn-ishaq-guillaume, source/watt-1953-mecca, source/watt-1956-medina, source/muruj-al-dhahab, source/mubarakpuri-raheeq, source/sahih-muslim]
+education:
+  levels: [sprouts, explorers, scholars]
+  flagged_for_kids: true
+  provenance: { generated_by: "Devin", model: "gemini-2.5-pro", run: "education-E2-batch4", note: "Leveled texts drafted from the record's own summary and prose; draft, pending the founder's review and scholar review of the child levels." }
 status: { review: draft, completeness: 2, generated_by: "Devin; 2026-10-11" }
