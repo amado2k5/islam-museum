@@ -1,0 +1,35 @@
+id: person/malala-yousafzai
+class: person
+label: { ar: "ملالا يوسفزي", en: "Malala Yousafzai", ur: "ملالہ یوسفزئی" }
+names:
+  - { value: "ملالا يوسفزي", kind: full }
+  - { value: "Malala Yousafzai", kind: full }
+gender: female
+summary:
+  ar: "ناشطة باكستانية في تعليم الفتيات ومنتجة أفلام وبرامج تلفزيونية، أصغر حاصلة على جائزة نوبل في التاريخ. بدأت التدوين لبي بي سي أردو باسم مستعار وعمرها إحدى عشرة سنة، ونجت من محاولة اغتيال نفذتها طالبان سنة 2012، ثم شاركت في تأسيس «صندوق ملالا» وألّفت كتاب «أنا ملالا»، ونالت جائزة نوبل للسلام سنة 2014 وعمرها سبع عشرة سنة."
+  en: "Pakistani girls'-education activist and film and television producer, the youngest Nobel Prize laureate in history. She began blogging for BBC Urdu under a pseudonym at eleven, survived a Taliban assassination attempt in 2012, then co-founded the Malala Fund, co-authored 'I Am Malala', and received the Nobel Peace Prize in 2014 at seventeen."
+  ur: "پاکستانی لڑکیوں کی تعلیم کی کارکن اور فلم و ٹیلی ویژن پروڈیوسر، تاریخ کی سب سے کم عمر نوبل انعام یافتہ۔ انہوں نے گیارہ برس کی عمر میں مستعار نام سے بی بی سی اردو کے لیے بلاگ لکھنا شروع کیا، 2012ء میں طالبان کے قاتلانہ حملے میں بچ گئیں، پھر «ملالہ فنڈ» کی شریک بانی بنیں، کتاب «میں ہوں ملالہ» لکھی، اور 2014ء میں سترہ برس کی عمر میں نوبل امن انعام پایا۔"
+roles: [activist, writer]
+wings: [people, living]
+born:
+  edtf: "1997-07-12"
+  hijri: "1418"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "Born at Mingora, Swat District, Khyber Pakhtunkhwa. Gregorian date from English Wikipedia, Arabic Wikipedia and Wikidata; the Hijri year (1418) is converted with the repo's Umm al-Qura converter (scripts/hijri) and marked derived."
+  sources: [source/wikipedia-malala-yousafzai-en, source/wikipedia-malala-yousafzai-ar, source/wikidata-malala-yousafzai]
+faith:
+  - value: sunni
+    basis: documented
+    note: "English Wikipedia states that her family is Sunni Muslim of Pashtun ethnicity. The Arabic Wikipedia article independently states she was born into a Sunni Muslim Pashtun family. Wikidata records her religion as Sunni Islam."
+    sources: [source/wikipedia-malala-yousafzai-en, source/wikipedia-malala-yousafzai-ar, source/wikidata-malala-yousafzai]
+external_ids: { wikidata: "Q32732" }
+sources: [source/wikipedia-malala-yousafzai-en, source/wikipedia-malala-yousafzai-ar, source/wikidata-malala-yousafzai]
+provenance:
+  layer: own-research
+  source: "English Wikipedia article 'Malala Yousafzai' (revision of 23 October 2026), Arabic Wikipedia article «ملالا يوسفزي» (revision of 4 October 2026), Wikidata Q32732; checked 24 Oct 2026"
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: modern-figures-batch-2
+status: { review: published, generated_by: "Muse (Muse Spark 1.3)" }

@@ -1,0 +1,46 @@
+id: person/pervez-musharraf
+class: person
+label: { ar: "برويز مشرف", en: "Pervez Musharraf", ur: "پرویز مشرف" }
+names:
+  - { value: "پرویز مشرف", kind: full }
+  - { value: "Pervez Musharraf", kind: full }
+gender: male
+summary:
+  ar: "جنرال وسياسي باكستاني حكم باكستان من انقلاب 1999 حتى استقالته سنة 2008، رئيسًا للأركان ثم رئيسًا تنفيذيًا ثم رئيسًا للجمهورية. حالف الولايات المتحدة بعد هجمات 11 سبتمبر، وحرّر الإعلام ووسّع الحكم المحلي، وانتهى حكمه بأزمة القضاء وحالة الطوارئ سنة 2007، وتوفي في دبي سنة 2023."
+  en: "Pakistani general and politician who ruled Pakistan from the 1999 coup until his resignation in 2008, as chief of army staff, then chief executive, then president. He allied Pakistan with the United States after the September 11 attacks, liberalised the media and expanded local government; his rule ended amid the 2007 judiciary crisis and state of emergency. He died in Dubai in 2023."
+  ur: "پاکستانی جنرل اور سیاست دان جنہوں نے 1999ء کی بغاوت سے 2008ء میں استعفے تک پاکستان پر حکمرانی کی: چیف آف آرمی اسٹاف، پھر چیف ایگزیکٹو، پھر صدر۔ انہوں نے 11 ستمبر کے حملوں کے بعد پاکستان کو امریکہ کا اتحادی بنایا، میڈیا کو آزاد کیا اور بلدیاتی نظام پھیلایا؛ ان کا دور 2007ء کی عدلیہ بحران اور ایمرجنسی پر ختم ہوا۔ 2023ء میں دبئی میں وفات پائی۔"
+roles: [general, politician]
+wings: [people]
+born:
+  edtf: "1943-08-11"
+  hijri: "1362"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "Born in Delhi, British India. Gregorian date from English Wikipedia and Wikidata; the Hijri year (1362) is converted with the repo's Umm al-Qura converter (scripts/hijri) and marked derived."
+  sources: [source/wikipedia-pervez-musharraf-en, source/wikidata-pervez-musharraf]
+died:
+  edtf: "2023-02-05"
+  hijri: "1444"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "Died in Dubai, United Arab Emirates. Gregorian date from English Wikipedia, Arabic Wikipedia and Wikidata; the Hijri year (1444) is converted with the repo's Umm al-Qura converter and marked derived."
+  sources: [source/wikipedia-pervez-musharraf-en, source/wikipedia-pervez-musharraf-ar, source/wikidata-pervez-musharraf]
+relations:
+  - { type: born_in, target: place/delhi, sources: [source/wikipedia-pervez-musharraf-en, source/wikidata-pervez-musharraf] }
+faith:
+  - value: unknown
+    basis: unknown
+    note: "Wikidata gives his religion only as Islam. Neither the English nor the Arabic Wikipedia article states a school. Not recorded as sunni until two sources give the school."
+    sources: [source/wikidata-pervez-musharraf, source/wikipedia-pervez-musharraf-en, source/wikipedia-pervez-musharraf-ar]
+external_ids: { wikidata: "Q40495" }
+sources: [source/wikipedia-pervez-musharraf-en, source/wikipedia-pervez-musharraf-ar, source/wikidata-pervez-musharraf]
+provenance:
+  layer: own-research
+  source: "English Wikipedia article 'Pervez Musharraf' (revision of 21 October 2026), Arabic Wikipedia article «برويز مشرف» (revision of 8 September 2026), Wikidata Q40495; checked 24 Oct 2026"
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: modern-figures-batch-2
+status: { review: published, generated_by: "Muse (Muse Spark 1.3)" }

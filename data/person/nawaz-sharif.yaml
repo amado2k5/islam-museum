@@ -1,0 +1,38 @@
+id: person/nawaz-sharif
+class: person
+label: { ar: "نواز شريف", en: "Nawaz Sharif", ur: "نواز شریف" }
+names:
+  - { value: "ميان محمد نواز شريف", kind: full }
+  - { value: "Mian Muhammad Nawaz Sharif", kind: full }
+gender: male
+summary:
+  ar: "سياسي ورجل أعمال باكستاني، رئيس وزراء باكستان ثلاث مرات (1990–1993 و1997–1999 و2013–2017) وزعيم حزب الرابطة الإسلامية (ن)، وهو أطول رؤساء وزراء باكستان خدمة. انتهت ولاياته الثلاث جميعًا بإقالته أو إطاحته، آخرها بقرار المحكمة العليا في قضية وثائق بنما سنة 2017، ثم عاد من منفاه سنة 2023 وبُرّئ من قضايا الفساد."
+  en: "Pakistani politician and businessman, three times prime minister of Pakistan (1990–1993, 1997–1999, 2013–2017) and leader of the Pakistan Muslim League (N); he is Pakistan's longest-serving prime minister. All three terms ended in his removal, the last by the Supreme Court in the Panama Papers case in 2017; he returned from exile in 2023 and was acquitted in the corruption cases."
+  ur: "پاکستانی سیاست دان اور کاروباری شخصیت، تین بار پاکستان کے وزیرِ اعظم (1990ء–1993ء، 1997ء–1999ء، 2013ء–2017ء) اور پاکستان مسلم لیگ (ن) کے قائد؛ وہ پاکستان کے سب سے طویل عرصہ خدمت کرنے والے وزیرِ اعظم ہیں۔ ان کی تینوں مدتوں کا خاتمہ برطرفی پر ہوا، آخری بار 2017ء میں پاناما پیپرز کیس میں سپریم کورٹ کے فیصلے سے؛ 2023ء میں وہ جلا وطنی سے واپس آئے اور بدعنوانی کے مقدمات میں بری ہوئے۔"
+roles: [politician]
+wings: [people, living]
+born:
+  edtf: "1949-12-25"
+  hijri: "1369"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "Born in Lahore, Punjab. Gregorian date from English Wikipedia, Arabic Wikipedia and Wikidata; the Hijri year (1369) is converted with the repo's Umm al-Qura converter (scripts/hijri) and marked derived."
+  sources: [source/wikipedia-nawaz-sharif-en, source/wikipedia-nawaz-sharif-ar, source/wikidata-nawaz-sharif]
+relations:
+  - { type: born_in, target: place/lahore, sources: [source/wikipedia-nawaz-sharif-en, source/wikidata-nawaz-sharif] }
+  - { type: lived_in, target: place/lahore, sources: [source/wikipedia-nawaz-sharif-en] }
+faith:
+  - value: unknown
+    basis: unknown
+    note: "Wikidata gives his religion as Sunni Islam (and Islam). The English Wikipedia article gives him no denomination; it says only that the Sharif family 'are known to have strong Barelvi thoughts', an attributed characterization of the family. The Arabic Wikipedia article states no school. Not recorded as sunni until a second source gives his school."
+    sources: [source/wikidata-nawaz-sharif, source/wikipedia-nawaz-sharif-en, source/wikipedia-nawaz-sharif-ar]
+external_ids: { wikidata: "Q134068" }
+sources: [source/wikipedia-nawaz-sharif-en, source/wikipedia-nawaz-sharif-ar, source/wikidata-nawaz-sharif]
+provenance:
+  layer: own-research
+  source: "English Wikipedia article 'Nawaz Sharif' (revision of 7 October 2026), Arabic Wikipedia article «نواز شريف» (revision of 8 September 2026), Wikidata Q134068; checked 24 Oct 2026"
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: modern-figures-batch-2
+status: { review: published, generated_by: "Muse (Muse Spark 1.3)" }
