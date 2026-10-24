@@ -426,6 +426,27 @@ Checks: `npm run cite-check` 1 of 1 pass; `npm run validate` 0 errors, 7,295 war
 
 Checks: `npm run cite-check` 1 of 1 pass; `npm run validate` 0 errors, 7,295 warnings (unchanged); `npm run graph` and `npm run coverage` regenerated.
 
+## Phase 3, batch 6 (concept/iman audit): findings, no edits yet
+
+`concept/iman` (completeness 2) cites many books. Checked against the local scans in this pass:
+
+| Claim in the record | Local scan | Result |
+|---|---|---|
+| Jibril's definition of iman (Bukhari 50) | Bukhari p. 32 | Verified |
+| "قول وفعل، ويزيد وينقص" as the Book of Iman's heading (Bukhari 8) | not found in the Bukhari body | Unverified |
+| Wasitiyya: "الدين والإيمان قول وعمل" | aqida-wasitiyya p. 22 | Verified (record cites p. 22) |
+| Lumat: "والإيمان قول باللسان وعمل بالأركان..." | lumat-itiqad p. 48 (printed 27) | Verified; the record's p. 27 is the printed number, not the scan page |
+| Lumat: "بضع وسبعون شعبة" | lumat-itiqad p. 27 | Verified (record cites p. 27) |
+| Maqalat: "وبكل ما ذكرنا من قولهم نقول" | maqalat-islamiyyin p. 350 | Verified (record cites p. 350); the record's p. 347 for the definition is not found |
+| Sharh al-Tahawiyya: "اختلف الناس فيما يقع عليه اسم الإيمان" | sharh-tahawiyya-ibn-abi-al-izz p. 271 | Record cites p. 267; the local scan has it at p. 271 |
+| Tahawi definition "الإقرار باللسان والتصديق بالجنان" | aqidat-tahawiyya p. 367 (commentary); sharh p. 271 | Record cites aqida-tahawiyya p. 21; not confirmed at that page |
+| Sallabi: Ali's "لمظة بيضاء" and the four pillars | not yet searched | Pending |
+| Quran 2:285 and 98:5 | Tanzil (frozen) | Pending |
+
+Decision needed before editing: page conventions. Some sources in the record use printed page numbers (lumat) and some use scan pages (sharh). The record should use one convention, the scan page, and the Phase 3 pass must re-cite every sentence that moves. This is not done in this batch.
+
+Status: `concept/iman` remains at completeness 2. Its next pass: fix the sharh page (p. 271), re-cite lumat by scan page (p. 48 for the definition, p. 27 for shu'ab), locate the tahawi definition, and search sallabi and the two Quran verses.
+
 ## NEXT STEP:
 
 Phase 3 (the general queue) is next. The Showcase queue (`docs/delegation/showcase-queue.md`) lists 1,240 featured records, of which the Egypt and Sicily sets are a small part. The Egypt drafts with Khitat passages are close to exhausted; the Mamluk and Ayyubid entries outside Egypt need another source family. The al-Nasiriyya madrasa stays skipped until a founder or date is found. Two decisions wait for the founder: D16 (merge `place/iskandariyya` into `place/alexandria`) and D15 (Archnet's terms, read in a visible session, or the founder supplies the posture). Also for the founder: the period-file alignment with D26, the Urdu drafts, the Adil place-name conflict, and D28 (two dates for Aybak's independence, both stated).
