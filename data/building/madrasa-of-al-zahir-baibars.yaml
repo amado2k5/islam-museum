@@ -5,20 +5,21 @@ label:
   ar: "مدرسة الظاهر بيبرس"
   en: "Madrasa of al-Zahir Baibars"
 summary:
-  ar: "بطاقة أولية لـMadrasa of al-Zahir Baibars، المعلم التاريخي؛ لم تُراجع مصادره على الصفحة بعد."
-  en: "Draft card for the Madrasa of al-Zahir Baibars, the historic monument; its sources are not yet checked on the page."
+  ar: "المدرسة الظاهرية الركنية البيبرسية البندقدارية بالقاهرة، بين القصرين؛ أصلها قاعة السدرة وقاعة الخيم اللتان صارتا لبيبرس سنة 660هـ (المقريزي، ص 1061، 1194، 1343)."
+  en: "The Zahiriyya madrasa of Rukn al-Din Baybars al-Bunduqdari, Cairo, between the two palaces; its origin was the Hall of the Lote Tree and the Hall of the Tents, which passed to Baybars in 660 AH (al-Maqrizi, pp. 1061, 1194, 1343)."
 wings: [objects]
 regions: [egypt-nile]
 periods: [period/crusades-ayyubid-mamluk]
-sources: [source/tarikh-islam-hasan-ibrahim]
+sources: [source/khitat-maqrizi-1998]
 external_ids:
   wikidata: Q23975647
 provenance:
   layer: own-research
-  source: "Wikidata candidate; monument attested in heritage registers — entry not yet checked on the page"
-  generated_by: "Devin (SWE-2 Medium)"
-  model: "SWE-2 Medium"
-  run: wikidata-import-wave2
+  source: "al-Maqrizi, al-Mawa'iz wa-l-i'tibar (al-Khitat), Madbouli 1998, scan pp. 1061, 1194, 1343; Wikidata candidate for the identifier"
+  generated_by: "Devin (SWE-2 Medium); prose by Claude Haiku 5.5 (showcase-prose lane)"
+  model: claude-haiku-5-5
+  run: wikidata-import-wave2, showcase-prose-phase2-egypt-batch15
 status:
-  review: draft
-  completeness: 1
+  review: published
+  completeness: 3
+  generated_by: "Claude Haiku 5.5; the madrasa's place between the palaces, the two halls that became its origin and their sale to Baybars in 660 AH, and the mihrab on a Fatimid palace gate are read from al-Maqrizi's Khitat (local scan, pp. 1061, 1194, 1343). The Khitat gives no founding date in these passages; the draft's Wikidata data is not used"
