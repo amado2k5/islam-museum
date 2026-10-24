@@ -10,7 +10,19 @@ Lane doc: `docs/agents/lanes/education.md`. Plan: `docs/delegation/education-mas
 
 **Data and strings:** `edu/bands.yaml` (5 bands), `edu/stamps.yaml` (11 stamps, rules over the existing storage keys), `edu:` block of `i18n/*.yaml` (100 keys × 3), `kids: true` on four decks (`tartib-al-anbiya`, `asma-al-ashhur-al-hijriyya`, `ashjar-al-quran`, `nabatat-al-quran`). The `accept:` spelling lists of the plan were not authored: type mode normalises diacritics, hamza seats, ta marbuta, alef maqsura and the Urdu letter forms and accepts a one- or two-letter slip, which covered the decks tried; add `accept` per item only where the review finds a miss.
 
-**Tests added:** `scripts/edu.test.ts` (14), Urdu parity of the kids strings, `scripts/check-weight.ts` run by `npm run build` (first budgets estimated from the dev server with headroom; **next step:** read the table the Validate build prints and tighten each number toward the plan §3 ceilings).
+**Tests added:** `scripts/edu.test.ts` (14), Urdu parity of the kids strings, `scripts/check-weight.ts` run by `npm run build`. Calibrated on the first production build (23 October 2026, 118,388 pages, 0 errors): the budgets are now the plan §3 family ceilings, and the measured pages (markup with the inlined CSS) were:
+
+| Route | HTML | Budget |
+|---|---|---|
+| `/ar/learn/` | 92.5 KB | 170 KB |
+| `/ar/sighar/sprouts/` · `/explorers/` · `/storytellers/` | 101.6 · 107.6 · 110.4 KB | 170 KB |
+| `/ar/learn/teachers/` · `/ar/learn/parents/` · `/ar/learn/passport/` | 94.7 · 86.9 · 98.0 KB | 170 KB |
+| `/ar/sighar/quest/` (after the sprite) · `/kindness/` · `/mosque/` | 107.3 · 135.5 · 123.6 KB | 210 KB |
+| `/ar/cards/list/tartib-al-anbiya/` (with study modes) | 133.6 KB | 210 KB |
+| `/ar/sighar/teachers/lessons/quest/` | 105.2 KB | 200 KB |
+| `/ar/learn/trails/` | 270.9 KB | 600 KB |
+
+Page scripts are 0.3 to 11.8 KB per route (inline module scripts plus the hashed files and the chunks they import).
 
 **Verified by hand (dev server, 23 October 2026):** every new route in the three languages, no console errors; a full deck test → passport stamp → share card (PNG drawn on the device, text copied); no horizontal scroll at 390 px on the front door, a band hub and a deck page; print layouts not yet checked on paper.
 
