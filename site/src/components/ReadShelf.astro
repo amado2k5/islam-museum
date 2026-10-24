@@ -1,0 +1,36 @@
+---
+// The reading shelf on the Explorers and Storytellers hubs (docs/delegation/education-master-plan.md §4): every record
+// flagged for the kids' reader, grouped by class, linking to /sighar/read/… Explorers read at their level; Storytellers
+// read the Explorers text and cross the bridge to the full page (the bridge sits on the reader page itself).
+import { nodes, SEGMENT, labelOf } from "../lib/graph";
+import { ui, type Lang } from "../lib/i18n";
+interface Props { lang: Lang; band: "explorers" | "storytellers" }
+const { lang, band } = Astro.props;
+const T = ui(lang);
+const E = T.edu;
+const flagged = nodes.filter((n) => n.data.education?.flagged_for_kids && n.prose[lang]);
+const groups = new Map<string, typeof flagged>();
+for (const n of flagged) groups.set(n.class, [...(groups.get(n.class) ?? []), n]);
+const sorted = [...groups.entries()].sort((a, b) => b[1].length - a[1].length || a[0].localeCompare(b[0]));
+const sortBy = (a: (typeof flagged)[number], b: (typeof flagged)[number]) => labelOf(a, lang).localeCompare(labelOf(b, lang), lang);
+---
+{flagged.length > 0 && (
+  <section class="shelf read-shelf" aria-labelledby="read-shelf-h">
+    <h2 id="read-shelf-h"><span aria-hidden="true">📖</span> {E.read_shelf_title}</h2>
+    <p>{band === "storytellers" ? E.read_shelf_lede_st : E.read_shelf_lede}</p>
+    {sorted.map(([cls, items]) => (
+      <>
+        <h3>{T.class[cls] ?? cls}</h3>
+        <ul class="read-list">
+          {items.sort(sortBy).map((n) => <li><a href={`/${lang}/sighar/read/${SEGMENT[n.class] ?? n.class}/${n.slug}/`}>{labelOf(n, lang)}</a></li>)}
+        </ul>
+      </>
+    ))}
+  </section>
+)}
+<style>
+  .read-list { display: flex; flex-wrap: wrap; gap: 10px; list-style: none; padding: 0; margin: .4rem 0 1rem; }
+  .read-list a { display: inline-flex; align-items: center; min-height: 44px; padding: 0 16px; border: 2px solid var(--kids-gold); border-radius: 999px; background: #fffdf6; color: inherit; text-decoration: none; font-weight: 600; }
+  .read-list a:hover, .read-list a:focus-visible { background: var(--kids-gold); color: #1b2a4a; }
+  .read-shelf h3 { font-size: 1.05rem; margin: .8rem 0 .2rem; }
+</style>

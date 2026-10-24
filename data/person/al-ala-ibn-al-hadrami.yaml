@@ -1,26 +1,33 @@
 id: person/al-ala-ibn-al-hadrami
 class: person
-label: { en: "al-Ala ibn al-Hadrami", ar: "العلاء بن الحضرمي" }
-names:
-  - { kind: full, lang: ar, value: "العلاء بن عبد الله بن عماد الحضرمي" }
 gender: male
-roles: [companion, commander, diplomat]
-traditions: [sunni]
+label:
+  ar: العلاء بن الحضرمي
+  en: Al-Ala ibn al-Hadrami (Companion, governor of Bahrain)
 summary:
-  en: "An early Muslim Companion and skilled diplomat from Hadramawt; appointed by the Prophet as his envoy to al-Mundhir ibn Sawa, ruler of Bahrain, who accepted Islam alongside his people; served as governor of Bahrain under the Prophet, Abu Bakr, and Umar."
-  ar: "صحابي جليل وفقيه من قادة المسلمين، من حضرموت؛ بعثه النبي بكتابه إلى المنذر بن ساوى عظيم البحرين فأسلم المنذر وقومه، وولاه النبي إمرة البحرين وجمع صدقاتها، واستمر والياً عليها في خلافتي أبي بكر وعمر."
-wings: [people]
-themes: [converts-and-leavers, peace-making-and-coexistence]
-periods: [period/prophetic-era, period/rashidun]
-regions: [arabia]
-story_roles:
-  - { role: companion, start: { edtf: "0620~" }, status: tradition, sources: [source/mubarakpuri-raheeq] }
-  - { role: official, toward: person/muhammad, start: { edtf: "0628" }, status: historical, note: "سفير النبي إلى ملك البحرين ثم والياً عليها (الرحيق ص358–359).", sources: [source/mubarakpuri-raheeq, source/zad-al-maad] }
-faith:
-  - { value: sunni, basis: tradition, start: { edtf: "0620~" }, note: "صحابي وقائد ووالي البحرين." }
-relations:
-  - { type: participated_in, target: event/letters-to-rulers-and-kings, role: "سفير النبي إلى البحرين", sources: [source/mubarakpuri-raheeq, source/zad-al-maad] }
-  - { type: participated_in, target: event/islam-of-al-mundhir-ibn-sawa, role: "الرسول إلى المنذر ثم الأمير على البحرين", sources: [source/ibn-hisham-saqqa] }
-  - { type: ruler_of, target: place/bahrayn, note: "أمير النبي على البحرين (ابن هشام ص222)", sources: [source/ibn-hisham-saqqa] }
-sources: [source/mubarakpuri-raheeq, source/zad-al-maad, source/ibn-sad-tabaqat-bewley, source/ibn-hisham-saqqa]
-status: { review: draft, completeness: 2, generated_by: "Devin; al-Raheeq al-Makhtum pp. 358–359" }
+  ar: صحابي من حضرموت، سكن أبوه مكة فولد بها العلاء؛ ولاه النبي البحرين وجعل له جباية، وأعطاه كتابا فيه فرائض الصدقة في الإبل والبقر والغنم والثمار والأموال، وأقره أبو بكر ثم عمر؛ روى عنه السائب بن يزيد وأبو هريرة، ويقال إنه أول مسلم ركب البحر للغزو. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.7842}
+  en: A Companion from Hadramawt, whose father settled in Mecca where al-Ala was born; the Prophet made him governor of Bahrain with the collection of alms and gave him a writing on the rates of zakat for camels, cattle, sheep, fruit and goods; Abu Bakr and Umar confirmed him; al-Sa'ib ibn Yazid and Abu Hurayra transmitted from him; he is said to be the first Muslim to ride the sea for a raid. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.7842}
+  ur: صحابی، حضرموت کے؛ والد مکہ میں آباد ہوئے تو العلاء وہیں پیدا ہوئے؛ نبی نے انہیں بحرین کا عامل بنایا اور زکوٰۃ کے فرائض کی تحریر دی؛ ابو بکر اور عمر نے بحال رکھا؛ سائب بن یزید اور ابو ہریرہ نے ان سے روایت کی۔ {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.7842}
+roles:
+- companion
+- governor
+- transmitter
+wings:
+- people
+periods:
+- period/prophetic-era
+regions:
+- global
+provenance:
+  layer: own-research
+  source: الموسوعة الفقهية الكويتية، نسخة نور بوك، ملحق تراجم الفقهاء، ص 7842 من المسح
+  generated_by: Claude Haiku 5.5
+  model: claude-haiku-5-5
+  run: mawsua-w04-batch102
+sources:
+- source/fiqh-mawsua-kuwaitiyya-noor-v3
+- source/ibn-hajar-isaba
+status:
+  review: draft
+  completeness: 3
+  generated_by: Claude Haiku 5.5; summary-level draft from OCR text, appendix entry on p.7842; moved to person class per the window brief

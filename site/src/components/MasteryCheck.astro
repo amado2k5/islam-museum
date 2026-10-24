@@ -1,0 +1,73 @@
+---
+// Mastery check at the end of a trail (docs/delegation/education-master-plan.md §5 E2): five questions of four options,
+// marked on the device by site/src/scripts/quiz.ts. A wrong answer points to the step that teaches it; a pass (4 of 5)
+// writes `edu-quiz:<trail id>` = "pass" and nothing else, which the passport turns into a stamp. Without JavaScript the
+// questions read as a form that posts nowhere, and the answer key sits in a <details> for the teacher.
+import { ui, fmt, type Lang } from "../lib/i18n";
+import type { Node } from "../../../scripts/build-graph";
+interface Props { node: Node; lang: Lang }
+const { node: n, lang } = Astro.props;
+const E = ui(lang).edu;
+const loc = (o: any) => o?.[lang] ?? o?.en ?? o?.ar ?? "";
+const rooms: any[] = n.data.rooms ?? [];
+const quiz: any[] = n.data.quiz ?? [];
+const qs = quiz.map((q, i) => ({ i, text: loc(q.q), options: (q.options as any[]).map(loc), answer: q.answer as number, teaches: q.teaches as number, stepTitle: loc(rooms[q.teaches]?.title) }));
+---
+{qs.length > 0 && (
+  <section class="mc" data-quiz={n.id} data-pass="4" aria-labelledby="mc-h" data-i18n-pass={E.mc_pass} data-i18n-retry={E.mc_retry} data-i18n-unanswered={E.mc_unanswered} data-i18n-result={E.mc_result} data-i18n-correct={E.mc_correct} data-i18n-wrong={E.mc_wrong}>
+    <h2 id="mc-h">{E.mc_title}</h2>
+    <p class="mc-lede">{E.mc_lede}</p>
+    <p class="mc-nojs" data-nojs>{E.mc_nojs}</p>
+    <form class="mc-form" action="" onsubmit="return false">
+      {qs.map((q) => (
+        <fieldset class="mc-q" data-q={q.i} data-answer={q.answer} data-teaches={q.teaches}>
+          <legend><span class="ui muted mc-n">{fmt(E.mc_q, { i: String(q.i + 1), n: String(qs.length) })}</span><br />{q.text}</legend>
+          <ul class="mc-opts">
+            {q.options.map((o, k) => (
+              <li><label><input type="radio" name={`mc-${n.slug}-${q.i}`} value={k} /> <span>{o}</span></label></li>
+            ))}
+          </ul>
+          <p class="mc-fb" data-fb role="status"></p>
+          <p class="mc-teach ui" data-teach hidden><a href={`#pw-${q.teaches}`}>{fmt(E.mc_teaches, { k: String(q.teaches + 1), title: q.stepTitle })}</a></p>
+        </fieldset>
+      ))}
+      <p class="mc-actions no-print">
+        <button type="button" class="pw-btn" data-check>{E.mc_check}</button>
+        <button type="button" class="pw-btn" data-again hidden>{E.mc_again}</button>
+        <span class="mc-score" data-score aria-live="polite"></span>
+      </p>
+      <p class="mc-msg" data-msg role="status"></p>
+    </form>
+    <details class="mc-key">
+      <summary class="ui">{E.mc_key}</summary>
+      <ol>
+        {qs.map((q) => <li>{q.text} — <b>{q.options[q.answer]}</b> <span class="muted ui">({fmt(E.mc_teaches, { k: String(q.teaches + 1), title: q.stepTitle })})</span></li>)}
+      </ol>
+    </details>
+  </section>
+)}
+<script src="../scripts/quiz.ts"></script>
+<style>
+  .mc { border: 1px solid var(--gold); border-radius: 14px; padding: 18px; margin: 0 0 1.2rem; background: var(--panel); }
+  .mc h2 { margin: 0 0 6px; font-size: 1.15rem; }
+  .mc-lede { margin: 0 0 10px; color: var(--muted); font-size: .92rem; }
+  .mc-nojs { font-size: .9rem; border: 1px dashed var(--gold); border-radius: 8px; padding: 6px 10px; }
+  :root.js .mc-nojs { display: none; }
+  .mc-q { border: 1px solid color-mix(in srgb, var(--gold) 35%, transparent); border-radius: 12px; padding: 12px 14px; margin: 0 0 12px; background: var(--bg); }
+  .mc-q legend { font-weight: 600; padding: 0 6px; }
+  .mc-n { font-size: .8rem; font-weight: 400; }
+  .mc-opts { list-style: none; margin: 8px 0 0; padding: 0; display: grid; gap: 6px; }
+  .mc-opts label { display: flex; align-items: center; gap: 10px; min-height: 44px; padding: 6px 10px; border: 1px solid var(--line); border-radius: 10px; cursor: pointer; }
+  .mc-opts label:focus-within { outline: 3px solid var(--gold); outline-offset: 2px; }
+  .mc-q.ok .mc-opts label:has(input:checked) { border-color: #2f6b31; background: color-mix(in srgb, #2f6b31 12%, transparent); }
+  .mc-q.ko .mc-opts label:has(input:checked) { border-color: #c0392b; background: color-mix(in srgb, #c0392b 10%, transparent); }
+  .mc-fb { margin: 6px 0 0; font-size: .9rem; min-height: 1.2em; }
+  .mc-teach { margin: 2px 0 0; font-size: .9rem; }
+  .mc-actions { display: flex; flex-wrap: wrap; align-items: center; gap: 10px; margin: 6px 0 0; }
+  .mc-score { font-weight: 700; }
+  .mc-msg { margin: 6px 0 0; min-height: 1.2em; }
+  .mc-key { margin-top: 10px; }
+  .mc-key summary { cursor: pointer; }
+  .mc-key ol { padding-inline-start: 1.4rem; font-size: .92rem; }
+  @media print { .mc-actions, .mc-nojs { display: none !important; } .mc-key { display: block; } .mc-key[open] summary, .mc-key summary { display: none; } .mc-key ol { display: block; break-before: page; } }
+</style>

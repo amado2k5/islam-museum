@@ -1,0 +1,59 @@
+---
+// Leveled reading on the entity page (docs/delegation/education-master-plan.md §5 E2): three radio inputs and CSS
+// choose between the Sprouts, Explorers and Scholars texts and the full article, so the switcher works without
+// JavaScript; the default is Scholars (the 13+ text, then the full article below it). A few inline lines of script
+// remember the choice under `edu-level` in localStorage, inside try/catch, and nothing else is stored. With no levels
+// the component renders its slot alone, so a page without leveled sections is byte-identical to before.
+import { ui, type Lang } from "../lib/i18n";
+interface Props { lang: Lang; levels: { id: string; heading: string; html: string }[]; kidsHref?: string; shelfId?: string }
+const { lang, levels, kidsHref, shelfId } = Astro.props;
+const E = ui(lang).edu;
+const ORDER = ["sprouts", "explorers", "scholars"] as const;
+const GLYPH: Record<string, string> = { sprouts: "🌱", explorers: "🧭", scholars: "◆" };
+const by = new Map(levels.map((l) => [l.id, l]));
+const ids = ORDER.filter((id) => by.has(id) || id === "scholars");
+const defaultId = "scholars";
+---
+{levels.length > 0 ? (
+  <div class="lvl" data-levels>
+    {ids.map((id) => <input type="radio" name="edu-level" class="lvl-in" id={`lvl-${id}`} value={id} checked={id === defaultId} />)}
+    <div class="lvl-switch no-print" role="group" aria-label={E.level_title}>
+      <span class="ui muted lvl-t">{E.level_title}</span>
+      {ids.map((id) => <label for={`lvl-${id}`}><span aria-hidden="true">{GLYPH[id]}</span> {by.has(id) ? E[`level_${id}`] : E.level_full}</label>)}
+      {kidsHref && <a class="chip lvl-kids" href={kidsHref}>{E.level_kids_link}</a>}
+      {shelfId && <button type="button" class="chip lvl-kids" data-shelf-add={shelfId} data-add={E.sh_add} data-added={E.sh_added} data-full={E.sh_full} aria-pressed="false">{E.sh_add}</button>}
+    </div>
+    {ORDER.filter((id) => by.has(id)).map((id) => (
+      <section class="lvl-sec sec" data-level={id} aria-label={by.get(id)!.heading}>
+        <div set:html={by.get(id)!.html} />
+        {id === "explorers" && <p class="ui muted lvl-note">{E.level_storytellers_note}</p>}
+      </section>
+    ))}
+    <div class="lvl-full"><slot /></div>
+    <p class="ui muted lvl-remember no-print">{E.level_remember}</p>
+    <style is:inline>
+      .lvl-in{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0);white-space:nowrap}
+      .lvl-switch{display:flex;flex-wrap:wrap;gap:8px;align-items:center;margin:0 0 14px}
+      .lvl-switch label{display:inline-flex;align-items:center;gap:6px;min-height:44px;padding:0 14px;border:1.5px solid var(--line);border-radius:999px;cursor:pointer;font-size:.95rem}
+      .lvl-switch .lvl-kids{min-height:44px;display:inline-flex;align-items:center;border:1px solid var(--gold)}
+      .lvl [data-level]{display:none}
+      #lvl-sprouts:checked~[data-level=sprouts],#lvl-explorers:checked~[data-level=explorers],#lvl-scholars:checked~[data-level=scholars]{display:block}
+      #lvl-sprouts:checked~.lvl-full,#lvl-explorers:checked~.lvl-full{display:none}
+      #lvl-sprouts:checked~.lvl-switch label[for=lvl-sprouts],#lvl-explorers:checked~.lvl-switch label[for=lvl-explorers],#lvl-scholars:checked~.lvl-switch label[for=lvl-scholars]{background:var(--lapis);color:#fff;border-color:var(--lapis)}
+      #lvl-sprouts:focus-visible~.lvl-switch label[for=lvl-sprouts],#lvl-explorers:focus-visible~.lvl-switch label[for=lvl-explorers],#lvl-scholars:focus-visible~.lvl-switch label[for=lvl-scholars]{outline:3px solid var(--gold);outline-offset:2px}
+      .lvl-sec[data-level=sprouts]{font-size:1.35rem;line-height:2}
+      .lvl-sec[data-level=explorers]{font-size:1.15rem;line-height:1.9}
+      .lvl-note{font-size:.9rem;margin:.5rem 0 0}
+      .lvl-remember{font-size:.85rem}
+      @media print{.lvl [data-level],.lvl-full{display:block!important}}
+    </style>
+    <script is:inline>
+      (function(){var ID=/^[a-z]+\/[a-z0-9][a-z0-9-]*$/,K="edu-shelf";document.querySelectorAll("[data-shelf-add]").forEach(function(b){var id=b.getAttribute("data-shelf-add")||"";if(!ID.test(id))return;function g(){try{var v=JSON.parse(localStorage.getItem(K)||"[]");return Array.isArray(v)?v:[]}catch(e){return[]}}function p(){var on=g().indexOf(id)>=0;b.setAttribute("aria-pressed",String(on));b.textContent=on?b.getAttribute("data-added"):b.getAttribute("data-add")}b.addEventListener("click",function(){var l=g(),i=l.indexOf(id);if(i>=0)l.splice(i,1);else{if(l.length>=60){b.textContent=b.getAttribute("data-full");return}l.push(id)}try{localStorage.setItem(K,JSON.stringify(l))}catch(e){}p()});p()});})();
+      (function(){var k="edu-level",q=document.querySelectorAll('input[name="edu-level"]');
+      try{var v=localStorage.getItem(k),r=v&&document.getElementById("lvl-"+v);if(r){r.checked=true;}}catch(e){}
+      for(var i=0;i<q.length;i++){q[i].addEventListener("change",function(ev){try{localStorage.setItem(k,ev.target.value);}catch(e){}});}})();
+    </script>
+  </div>
+) : (
+  <slot />
+)}

@@ -7,9 +7,9 @@ summary:
 wings: [people]
 periods: [period/rashidun]
 relations:
-  - { type: participated_in, target: event/conquest-of-alexandria, role: "حامل كتاب الفتح", sources: [source/futuh-buldan-maarif-1407] }
+  - { type: participated_in, target: event/conquest-of-alexandria, role: "حامل كتاب الفتح", sources: [source/futuh-buldan-maarif-1407, source/ibn-hajar-isaba] }
   - { type: participated_in, target: event/first-raid-on-sicily, role: "أول الغازين", sources: [source/futuh-buldan-maarif-1407] }
-  - { type: participated_in, target: event/sulh-al-nuba, role: "مفقوء العين", sources: [source/futuh-buldan-maarif-1407] }
+  - { type: participated_in, target: event/sulh-al-nuba, role: "مفقوء العين", sources: [source/futuh-buldan-maarif-1407, source/ibn-hajar-isaba] }
   - { type: member_of, target: group/banu-kinda, sources: [source/futuh-buldan-maarif-1407] }
 provenance:
   layer: own-research
@@ -17,5 +17,5 @@ provenance:
   generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
   run: lib-futuh-buldan-batch-20
 external_ids: { wikidata: "Q4147420" }
-sources: [source/futuh-buldan-maarif-1407]
-status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }
+sources: [source/futuh-buldan-maarif-1407, source/ibn-hajar-isaba]
+status: { review: draft, completeness: 3, generated_by: "Devin (SWE-2 High)" }
