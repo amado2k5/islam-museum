@@ -492,6 +492,18 @@ Checks: `npm run cite-check -- person/muhammad` PASS; `npm run validate` 0 error
 
 Checks: `npm run cite-check -- concept/islam-din` PASS; `npm run validate` 0 errors, 7,295 warnings (unchanged).
 
+## Phase 3, batch 12 (concept/iman): completeness 3
+
+- Gabriel's hadith: the definition of iman is cited to Ibn Khuzayma p. 1070 (the wording with "وكتابه"); the questioner's identity (Gabriel in the form of a man) and Bukhari's own sentences are cited to the al-Bugha edition, pp. 13, 22 and 36. The order is corrected: iman is the first question, not the second.
+- Tahawi: the definition is at the Tahawi text (1995 scan, p. 21). The record's p. 367 is a later commentary quoting it; corrected.
+- Lum'at al-I'tiqad: the definition, the Bayyina verse and the seventy-odd branches are at p. 28 of the scan (printed 27, per the source note). The atom hadith (p. 29 before) is not in this scan and is removed.
+- Maqalat al-Islamiyyin: the edition the source record describes (printed pp. 345-350) is the scan `MaghalatAlIslamyeen`; the definition, the Islam sentence and the "neither created nor uncreated" sentence are at p. 347, and the closing sentence at p. 350. The earlier p. 324 was from another edition and is corrected.
+- Sharh al-Tahawiyya: pp. 271-272 of the scan (printed 267-268 per the source note); the "verbal dispute" line is at p. 272.
+- Wasitiyya pp. 22-23 and the Ibn Rajab evidence pages (83-91, 121-122, 282-283) are checked. For Ibn Rajab only the key phrases are located on those pages; the long summary was not read sentence by sentence, so it is marked as located, not fully read.
+- Note on the scan convention: citations give pages.json page numbers (for Lum'at and Sharh these are the PDF pages, not the printed ones).
+
+Checks: `npm run cite-check -- concept/iman` PASS; `npm run validate` 0 errors, 7,295 warnings (unchanged).
+
 ## NEXT STEP:
 
 Phase 3 (the general queue) is next. The Showcase queue (`docs/delegation/showcase-queue.md`) lists 1,240 featured records, of which the Egypt and Sicily sets are a small part. The Egypt drafts with Khitat passages are close to exhausted; the Mamluk and Ayyubid entries outside Egypt need another source family. The al-Nasiriyya madrasa stays skipped until a founder or date is found. Two decisions wait for the founder: D16 (merge `place/iskandariyya` into `place/alexandria`) and D15 (Archnet's terms, read in a visible session, or the founder supplies the posture). Also for the founder: the period-file alignment with D26, the Urdu drafts, the Adil place-name conflict, and D28 (two dates for Aybak's independence, both stated).
