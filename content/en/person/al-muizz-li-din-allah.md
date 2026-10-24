@@ -7,6 +7,11 @@ translators: ["Claude Haiku 5.5 (claude-haiku-5-5), draft translation"]
 ## Overview
 Al-Mu'izz li-Din Allah Ma'add ibn al-Mansur ibn al-Qa'im, the fourth of the rulers of the Ubaydid state. Al-Suyuti says that he sent his client, the commander Jawhar, with a great army, and he took Egypt and laid out [[place/cairo|Cairo]], built the palace of government known as al-Qasrayn, and cut off the khutba of the Abbasids. Al-Mu'izz entered Egypt in Ramadan 362 AH with the coffins of his forefathers. {cite:tarikh-khulafa-minhaj-1434 p.617,620-622}
 
+## In al-Maqrizi
+When al-Mu'izz entered Egypt and lodged in his palace in Cairo, he ordered in Ramadan 362 AH that "the best of people after the Messenger of God is the Commander of the Faithful Ali ibn Abi Talib" be written in all the places of the city of Misr. {cite:khitat-maqrizi-1998 p.2174}
+
+Al-Maqrizi also says that when al-Mu'izz arrived, the city, which had been called al-Mansuriyya, was named al-Qahira. {cite:khitat-maqrizi-1998 p.1067}
+
 ## The khutba and death
 The khutba and the call were established for him in the two holy cities in Dhu al-Hijja 363 AH. He died in 365 AH, and his son Nizar, titled al-Aziz, succeeded him. {cite:tarikh-khulafa-minhaj-1434 p.626-627}
 

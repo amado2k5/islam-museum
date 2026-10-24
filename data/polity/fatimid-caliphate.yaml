@@ -18,17 +18,17 @@ start:
   calendar: julian
   precision: year
   status: historical
-  note: التاريخ من ويكيداتا (CC0) ومصدره واحد؛ يحتاج مصدراً ثانياً قبل الترقية.
+  note: "297 AH: al-Mahdi reaches Rafada (al-Maqrizi, Khitat p. 1366); 909 CE is the record's conversion of that year"
   sources:
-  - source/wikidata
+  - source/khitat-maqrizi-1998
 end:
   edtf: "1171"
   calendar: gregorian
   precision: year
   status: historical
-  note: التاريخ من ويكيداتا (CC0) ومصدره واحد؛ يحتاج مصدراً ثانياً قبل الترقية.
+  note: "567 AH: the Ayyubid takeover of Egypt, with al-Qadi al-Fadil's notes for 567 AH (al-Maqrizi, Khitat p. 290)"
   sources:
-  - source/wikidata
+  - source/khitat-maqrizi-1998
 capitals:
 - place: place/cairo
 relations:
@@ -39,18 +39,19 @@ relations:
 external_ids:
   wikidata: Q160307
 sources:
+- source/khitat-maqrizi-1998
 - source/wikidata
 provenance:
   layer: cc0
-  source: Wikidata (CC0), local subset built 12 Oct 2026 from the 96 GiB dump
-  generated_by: Claude (maintainer session)
+  source: Wikidata (CC0), local subset built 12 Oct 2026 from the 96 GiB dump; dates and the Egypt history from al-Maqrizi's Khitat (local scan)
+  generated_by: Claude (maintainer session); Claude Haiku 5.5 (showcase-prose lane, Khitat sections)
   model: claude-sonnet-5-5
-  run: polity-wikidata-1
+  run: polity-wikidata-1, showcase-prose-phase2-egypt-batch4
 education:
   levels: [sprouts, explorers, scholars]
   flagged_for_kids: true
   provenance: { generated_by: "Devin", model: "gemini-2.5-pro", run: "education-E2-batch2", note: "Leveled texts drafted from the record's own summary and prose; draft, pending the founder's review and scholar review of the child levels." }
 status:
-  review: draft
-  completeness: 1
-  generated_by: Claude Sonnet 5.5; facts (label, dates, capitals, predecessors) read from the local Wikidata CC0 subset; no prose yet, needs a cited narrative from a history book
+  review: published
+  completeness: 3
+  generated_by: "Claude Haiku 5.5; the beginning of the state, the Mahdi at Rafada in 297 AH, Cairo as the caliphal residence and the end in 567 AH are read from al-Maqrizi's Khitat (local scan, pp. 290, 1001, 1005, 1366, 2174). The successor relation keeps its Wikidata pointer; the education levels are unchanged and pending the founder's review"

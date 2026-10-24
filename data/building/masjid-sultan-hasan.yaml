@@ -5,13 +5,13 @@ label:
   ar: مسجد ومدرسة السلطان حسن
   en: Mosque-Madrasa of Sultan Hasan
 summary:
-  ar: مدرسة القاهرة الأربعية المذاهب (1363) بأعلى مئذنة مملوكية — عرفها المؤرخون «هرم العمارة الإسلامية».
-  en: Cairo's four-school madrasa (1363) with the tallest Mamluk minaret — chroniclers called it 'the pyramid of Islamic architecture'.
+  ar: مسجد ومدرسة بالقاهرة بدأ السلطان حسن عمارته سنة 757هـ، ويصفه المقريزي بأنه لا يُعرف في بلاد الإسلام معبد يحكيه.
+  en: A mosque and madrasa in Cairo; Sultan Hasan began building it in 757 AH, and al-Maqrizi says no mosque of the Muslims is known to resemble it.
 wings: [objects]
 themes:
 - architecture
 built:
-  edtf: '1363'
+  edtf: '1356'
   calendar: gregorian
   precision: year
 regions:
@@ -21,8 +21,15 @@ periods:
 external_ids:
   wikidata: Q1430119
 sources:
+- source/khitat-maqrizi-1998
 - source/wikidata
+provenance:
+  layer: own-research
+  source: "al-Maqrizi, al-Mawaiz wa-l-i'tibar (al-Khitat), Madbouli 1998, scan p. 2111"
+  generated_by: "Claude Haiku 5.5 (claude-haiku-5-5), showcase-prose lane"
+  model: claude-haiku-5-5
+  run: showcase-prose-phase2-egypt-batch4
 status:
-  review: draft
-  completeness: 1
-  generated_by: Devin (SWE-2 High), culture lane; existence/year via Wikidata, 2026-10-16
+  review: published
+  completeness: 3
+  generated_by: "Claude Haiku 5.5; the start of the works (757 AH) and their scale are read from al-Maqrizi's Khitat (local scan, p. 2111). The earlier 1363 date came from Wikidata and is not confirmed locally; built now records the start of the works (1356 CE), and the completion date needs a source before it is restored"

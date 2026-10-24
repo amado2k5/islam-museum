@@ -13,6 +13,13 @@ He was deposed in 694 AH, and Kitbugha al-Mansuri took the sultanate, then Lajin
 ## Karak and his third return
 Al-Suyuti says that in 708 AH he set out for the pilgrimage, but the bridge broke under him at al-Karak, and he escaped, while four others died. He stayed at al-Karak and wrote to depose himself from the kingdom, so Baybars al-Jashnakir was given the allegiance. Then he returned in Rajab 709 AH and entered Egypt on the day of the Feast of Breaking the Fast. {cite:tarikh-khulafa-minhaj-1434 p. 734}
 
+## According to al-Maqrizi
+Al-Maqrizi says that in 702 AH the sultan in Egypt was al-Malik al-Nasir Muhammad ibn Qalawun, the affairs of state being managed by the amir Rukn al-Din Baybars al-Jashnakir, with Salar as deputy of the sultanate. {cite:khitat-maqrizi-1998 p.240}
+
+He also says that al-Nasir built a bridge across the Nile to break the force of the current from the bank. {cite:khitat-maqrizi-1998 p.241}
+
+He says that al-Nasir built the new mosque known as al-Jami' al-Jadid al-Nasiri outside Misr. {cite:khitat-maqrizi-1998 p.831}
+
 ## Notes for researchers
-- The years in the data summary are written without their century; they have been estimated here as the eighth century AH, and that needs an additional source to confirm.
-- The only source is al-Suyuti's "History of the Caliphs".
+- The years fall in the eighth century AH; al-Maqrizi's mention of 702 AH confirms the century.
+- The summary is based on al-Suyuti's "History of the Caliphs"; al-Maqrizi is added in the section above.

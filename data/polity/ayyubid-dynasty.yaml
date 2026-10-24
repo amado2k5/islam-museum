@@ -18,15 +18,15 @@ start:
   calendar: julian
   precision: year
   status: historical
-  note: التاريخ من ويكيداتا (CC0) ومصدره واحد؛ يحتاج مصدراً ثانياً قبل الترقية.
+  note: "567 AH: Saladin takes the kingdom of Egypt (al-Maqrizi, Khitat p. 290)"
   sources:
-  - source/wikidata
+  - source/khitat-maqrizi-1998
 end:
   edtf: "1341"
   calendar: gregorian
   precision: year
   status: historical
-  note: التاريخ من ويكيداتا (CC0) ومصدره واحد؛ يحتاج مصدراً ثانياً قبل الترقية.
+  note: "Wikidata (CC0), one source; not checked locally. The Khitat ends Ayyubid rule in Egypt in 648 AH (p. 1912), which is a narrower claim"
   sources:
   - source/wikidata
 capitals:
@@ -34,14 +34,15 @@ capitals:
 external_ids:
   wikidata: Q180114
 sources:
+- source/khitat-maqrizi-1998
 - source/wikidata
 provenance:
   layer: cc0
-  source: Wikidata (CC0), local subset built 12 Oct 2026 from the 96 GiB dump
-  generated_by: Claude (maintainer session)
+  source: Wikidata (CC0), local subset built 12 Oct 2026 from the 96 GiB dump; the Egypt start and rule from al-Maqrizi's Khitat (local scan)
+  generated_by: Claude (maintainer session); Claude Haiku 5.5 (showcase-prose lane, Khitat sections)
   model: claude-sonnet-5-5
-  run: polity-wikidata-1
+  run: polity-wikidata-1, showcase-prose-phase2-egypt-batch4
 status:
-  review: draft
-  completeness: 1
-  generated_by: Claude Sonnet 5.5; facts (label, dates, capitals, predecessors) read from the local Wikidata CC0 subset; no prose yet, needs a cited narrative from a history book
+  review: published
+  completeness: 2
+  generated_by: "Claude Haiku 5.5; the takeover of 567 AH, the residence in Cairo and the end of Ayyubid rule in Egypt in 648 AH are read from al-Maqrizi's Khitat (local scan, pp. 290, 1001, 1912). Completeness stays at 2 because the dynasty's end date (1341 CE, Wikidata) has no local check"

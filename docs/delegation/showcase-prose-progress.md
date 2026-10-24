@@ -136,4 +136,29 @@ Both trails are still at completeness 1. Each needs its featured records at comp
 
 ## NEXT STEP:
 
-Phase 2, batch 4: write the nine feature records above (eight persons and polities plus al-Azhar) at completeness 3 with Khitat citations, then update both trails' prose and status. Then decide: the Azhar founding year needs a further search (the section heading may be under a different spelling in the OCR), and the Sultan Hasan date needs the 757 AH versus 1363 CE check. Two decisions wait for the founder: whether to merge `place/iskandariyya` into `place/alexandria` (D16), and Archnet: its terms page must be read in a session the founder can see, or the founder supplies the posture, before any registration (D15).
+### Batch 4 (Phase 2, trails): done
+
+Nine features written with Khitat citations (ar, en, ur). Completeness now:
+
+- At 3: `person/jawhar-al-siqilli`, `person/al-muizz-li-din-allah`, `building/al-azhar`, `person/baybars`, `person/qalawun`, `person/al-nasir-muhammad-ibn-qalawun`, `building/masjid-sultan-hasan`, and `polity/fatimid-caliphate`.
+- At 2: `polity/ayyubid-dynasty`. Its end date, 1341 CE, comes from Wikidata and has no local check. The Khitat ends Ayyubid rule in Egypt in 648 AH; that is recorded in the prose and does not settle the dynasty-wide date.
+
+Decisions (this pass):
+
+| # | Question | Choice | Why |
+|---|---|---|---|
+| D22 | Al-Azhar's founding year | Not stated; the record says so in its scope note | No passage giving the building year turned up in the local OCR, after several searches. The 378 AH date keeps its Hasan Ibrahim citation |
+| D23 | Sultan Hasan's date: the earlier record said built 1363 (Wikidata) | `built` now records the start of the works, 1356 CE (757 AH, Khitat p. 2111). The completion date needs a source before it is restored | Khitat gives the start and the three years of building; it does not give 1363 |
+| D24 | Fatimid start (909 CE) and end (1171 CE) | Both cited to the Khitat: 297 AH (p. 1366) and 567 AH (p. 290) | Those are the dated steps the local text gives. The start is a year-level match, not an explicit "founded" statement |
+| D25 | Nasir's century | Confirmed as the 8th century AH (Khitat p. 240: 702 AH) | Removes the "needs a source" note the record had |
+
+Trails:
+
+- `exhibit/path-mamluk-cairo`: completeness **3**. Every featured record is at 3; each room has three cited sentences.
+- `exhibit/path-fatimid-cairo`: completeness **2**. Rooms rewritten with Khitat citations; the Ayyubid feature is at 2 (D24's end date is Wikidata-only).
+
+Checks: `npm run validate` 0 errors, 7,295 warnings (unchanged); `npm run cite-check` 11 of 11 pass. An earlier Sultan Hasan write lacked a provenance block; added before commit.
+
+## NEXT STEP:
+
+Phase 2, batch 5: `polity/ayyubid-dynasty` needs its end date (1341 CE) checked against a source that covers the whole dynasty, or the record should be narrowed to Egypt. Once it reaches 3, `exhibit/path-fatimid-cairo` can be set to 3. Then the Egypt set is still well short of the 100 records in the brief; the next candidates are the Khitat's Ayyubid and Mamluk people and the Fayyum and Fustat monuments. Two decisions wait for the founder: whether to merge `place/iskandariyya` into `place/alexandria` (D16), and Archnet: its terms page must be read in a session the founder can see, or the founder supplies the posture, before any registration (D15).
