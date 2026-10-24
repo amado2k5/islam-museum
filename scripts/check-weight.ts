@@ -40,6 +40,8 @@ export const BUDGETS: Budget[] = [
   // BaseLayout alone is about 92 KB); the plan §3 ceiling of 80 KB cannot be met with the shared layout (the parent hub is
   // 86.9 KB under the same layout). Set at the child-activity ceiling of 120 KB, pending the founder's sign-off.
   { family: "classroom quiz", route: "/ar/learn/teachers/quiz/g11-chw3m-rise-of-islam/", html: 120 * KB, js: 15 * KB },
+  // E3 step 2: the daily challenge (Century Challenge, five rounds a day) at the child-activity ceiling of plan §3
+  { family: "daily challenge", route: "/ar/learn/daily/", html: 120 * KB, js: 12 * KB },
 ];
 
 export interface Measure { route: string; html: number; js: number; scripts: string[] }

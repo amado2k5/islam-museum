@@ -479,3 +479,67 @@ describe("education: classroom quiz (E3 step 1)", () => {
     expect(b?.js).toBe(15 * 1024);
   });
 });
+
+describe("education: daily challenge (E3 step 2)", () => {
+  const generator = "scripts/edu-daily.ts";
+  const script = readFileSync("site/src/scripts/daily.ts", "utf8");
+  const page = readFileSync(`${PAGES}/learn/daily/index.astro`, "utf8");
+
+  it("the schedule has 366 days of five rounds, each round a non-excluded event with at least two sources and a century among its four choices", async () => {
+    const { buildSchedule, centuryPool, DAYS, ROUNDS, CHOICES } = await import("./edu-daily.ts");
+    const pool = centuryPool();
+    const byId = new Map(pool.map((e) => [e.id, e]));
+    const s = buildSchedule(pool);
+    expect(s.days.length).toBe(DAYS);
+    expect(DAYS).toBe(366);
+    s.days.forEach((d, i) => {
+      expect(d.day).toBe(i + 1);
+      expect(d.rounds.length).toBe(ROUNDS);
+      for (const r of d.rounds) {
+        const src = parse(readFileSync(`data/${r.id.replace("/", "/")}.yaml`, "utf8"));
+        expect(src.education?.exclude === true, r.id).toBe(false);
+        expect((src.sources ?? []).length, r.id).toBeGreaterThanOrEqual(2);
+        expect(byId.has(r.id), r.id).toBe(true);
+        expect(r.choices.length).toBe(CHOICES);
+        expect(new Set(r.choices).size).toBe(CHOICES);
+        expect(r.choices.includes(r.century)).toBe(true);
+      }
+    });
+  });
+
+  it("the schedule is byte-identical across two builds of the same data (no clock, no random)", async () => {
+    const { buildSchedule, centuryPool } = await import("./edu-daily.ts");
+    const a = JSON.stringify(buildSchedule(centuryPool()));
+    const b = JSON.stringify(buildSchedule(centuryPool()));
+    expect(a).toBe(b);
+  });
+
+  it("the generator and the client never read the clock for a build, use a random number, or store anything", () => {
+    const gen = readFileSync(generator, "utf8");
+    expect(gen.includes("Math.random")).toBe(false);
+    expect(gen.includes("Date")).toBe(false);
+    expect(script.includes("localStorage")).toBe(false);
+    expect(script.includes("fetch(\"/edu/daily-schedule.json\")")).toBe(true);
+    expect(script.includes("location.search")).toBe(false);
+  });
+
+  it("the result text names the day, a five-square grid and the page path, and carries no query parameter", () => {
+    expect(script.includes("🟩")).toBe(true);
+    expect(script.includes("⬜")).toBe(true);
+    expect(script.includes("${t.site || \"\"}${t.path || \"\"}")).toBe(true);
+    expect(page.includes("data-path={path}")).toBe(true);
+  });
+
+  it("without JavaScript the page lists the first seven days' questions, with the answers folded away", () => {
+    expect(page.includes("schedule.days.slice(0, 7)")).toBe(true);
+    expect(page.includes("<details class=\"dl-answers\">")).toBe(true);
+  });
+
+  it("the daily strings exist in all three languages and Urdu is not the English", async () => {
+    const en = i18n("en").edu, ur = i18n("ur").edu;
+    for (const k of Object.keys(i18n("ar").edu).filter((k) => k.startsWith("dl_"))) {
+      for (const l of LANGS) expect(typeof i18n(l).edu[k] === "string" && i18n(l).edu[k].length > 0, `${l} ${k}`).toBe(true);
+      expect(ur[k] === en[k], `ur repeats en for ${k}`).toBe(false);
+    }
+  });
+});
