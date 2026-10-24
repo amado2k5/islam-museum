@@ -16,3 +16,12 @@ The doubtful is what is disputed as to whether it is lawful or unlawful, such as
 
 ## Whoever guards against doubtful matters
 Whoever guards against doubtful matters keeps his religion and his honour clear. Whoever falls into them is like a shepherd grazing around a protected pasture of God's prohibitions. {cite:ibn-rajab-jami-ulum-hikam p.172-173}
+
+## For Sprouts
+Halal is everything wholesome and permissible that benefits us, and haram is what is forbidden for human well-being.
+
+## For Explorers
+An Islamic ethical guidance system distinguishing between halal, which is beneficial and permitted in food and daily conduct, and haram, which causes harm and must be avoided, such as lying, injustice, and deceit. Between them lie doubtful matters to be navigated with care, while the general principle in worldly matters is broad permissibility.
+
+## For Scholars
+A fundamental normative framework in Islamic jurisprudence governing ethical and legal conduct, grounded in the canonical prophetic maxim: 'The lawful is clear, and the unlawful is clear, and between them are ambiguous matters.' Halal signifies the permissible and beneficial actions, foods, and contracts free of legal encumbrance; haram denotes categorically proscribed acts that infringe on rights or well-being, such as injustice, deception, and clear prohibitions. Ambiguous matters (mushtabihat) invite moral prudence (wara'), while legal hermeneutics maintains the foundational principle that worldly things remain inherently permissible unless explicitly forbidden.

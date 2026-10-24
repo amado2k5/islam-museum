@@ -24,3 +24,12 @@ Imagine a doctor and thinker so respected that his book of medicine was taught i
 
 ## Notes for researchers
 The birth year is usually given as 980 CE, although some accounts point to 973 CE. The dates are kept here as the sources give them, and any Hijri conversion is marked as derived.
+
+## For Sprouts
+A wise physician and scholar who wrote a medical encyclopedia that helped doctors care for patients and protect their health.
+
+## For Explorers
+Ibn Sina was a physician and polymath born near Bukhara. He authored The Canon of Medicine, which served as the primary medical textbook in universities across the world for centuries, describing illnesses and treatments, as well as The Book of Healing covering natural sciences, astronomy, and philosophy.
+
+## For Scholars
+Abu Ali al-Husayn ibn Abd Allah ibn Sina (c. 370–428 AH / 980–1037 CE), the polymath philosopher and physician known to the West as Avicenna. Author of an immense corpus across diverse disciplines, his medical masterwork 'The Canon of Medicine' synthesized classical medicine with systematic clinical observation, anatomy, and pharmacology, remaining a standard university textbook in both East and West for centuries. In philosophy, his encyclopedic 'Kitab al-Shifa' (The Book of Healing) articulated a comprehensive framework uniting logic, natural philosophy, and metaphysics.

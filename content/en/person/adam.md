@@ -10,3 +10,12 @@ Abu al-Bashar, the father of humankind. Al-Bukhari relates that God created him,
 In the hadith of the Night Journey, the Prophet saw him in the lowest heaven, and said to him: "Welcome, son and prophet." {cite:sahih-al-bukhari p.3207}
 
 The rest of his story is not set out here and needs an additional source.
+
+## For Sprouts
+Adam was the first human created by God, who taught him all the names and placed him in the Garden, and he is the father of all humanity.
+
+## For Explorers
+The Qur'an relates that Adam was the first human created by God from clay, honored by divine breath and endowed with the knowledge of all names. Placed with his spouse in the Garden before dwelling on Earth to cultivate it with goodness, he was the first prophet and the father of humankind, honored with moral agency and stewardship.
+
+## For Scholars
+The father of humanity and the first prophet in Islamic theology. The Qur'an chronicles his creation from clay and dust, the breathing of life into him, the prostration of angels in honor of divine command, and his instruction in the names of all things, signifying the primacy of knowledge in the human calling of stewardship (khilafa). Residing with his spouse in the Garden, they descended to Earth following their repentance, which God accepted. Reflected throughout the Qur'an and canonical Hadith corpora, Adam represents the ontological unity of the human race and the genesis of moral agency grounded in divine guidance.

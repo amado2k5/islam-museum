@@ -12,4 +12,8 @@ coordinate_precision: site
 coordinate_note: "Agrees with GeoNames within 2.5 km."
 external_ids: { wikidata: "Q1218", geonames: "281184", pleiades: "687928" }
 sources: [source/farghani-elements-astronomy, source/geonames-gazetteer, source/ahsan-al-taqasim]
+education:
+  levels: [sprouts, explorers, scholars]
+  flagged_for_kids: true
+  provenance: { generated_by: "Devin", model: "gemini-2.5-pro", run: "education-E2-batch2", note: "Leveled texts drafted from the record's own summary and prose; draft, pending the founder's review and scholar review of the child levels." }
 status: { review: draft, completeness: 1, generated_by: "Claude Sonnet 5.5; coordinates from docs/plan/16 §6, checked against GeoNames" }

@@ -27,3 +27,12 @@ This era is still thinly covered in the museum (7 items only), so this page shou
 
 ## Notes for researchers
 The era's boundaries are the museum's own organising convention and are approximate. For the wider history of this period, see {cite:hodgson-1974} {cite:hourani-1991}.
+
+## For Sprouts
+Three great Islamic empires lived together: the Ottomans, Safavids, and Mughals in India, known for their beautiful cities and arts.
+
+## For Explorers
+An era when three major Islamic empires flourished in the early modern period: the Ottomans in the Middle East, the Safavids in Iran, and the Mughals in South Asia. This period witnessed political stability, wide trade networks, and the creation of timeless monuments such as the Taj Mahal, Naqsh-e Jahan Square, and the Suleymaniye Mosque.
+
+## For Scholars
+A historiographical term popularized by Marshall Hodgson and William McNeill to describe the three major Islamic empires of the early modern period (c. 1500–1750 CE): the Ottoman, Safavid, and Mughal realms. Defined by centralized administrative authority, early military modernization, and expansive commercial highways, the era witnessed unprecedented artistic patronage in carpet weaving, miniature painting, ceramics, and sublime architectural monuments blending local idioms with classical Islamic aesthetics.

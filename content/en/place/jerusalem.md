@@ -29,3 +29,12 @@ The museum's material on this place includes events that took place there: 1, pe
 
 ## What this page covers
 This page gathers what the museum links to the place: events, people and buildings. It is not a full historical description of the place. The description and history of the place, from the original sources, will be added in the next batches.
+
+## For Sprouts
+Jerusalem is a blessed and historic city, home to the sacred al-Aqsa Mosque and the golden Dome of the Rock.
+
+## For Explorers
+Jerusalem is a sacred city of profound status in Islam, being the first Qibla toward which early Muslims prayed and the destination of the Prophet's Night Journey. It houses the sacred al-Aqsa compound and the Dome of the Rock, and Caliph Umar entered it with a celebrated peace treaty guaranteeing religious freedom and safety for its inhabitants.
+
+## For Scholars
+A city of deep spiritual sanctity and rich history spanning millennia. In Islamic tradition, it stands as the first Qibla, the third holiest sanctuary, and the terrestrial terminal of the Prophet's Night Journey, encompassing the al-Aqsa compound and the Dome of the Rock. Surrendered peacefully in 16 AH (637 CE) to Caliph Umar ibn al-Khattab under the historic 'Covenant of Umar' guaranteeing Christian religious liberties, the city experienced continuous stewardship under the Umayyads, the Ayyubids under Salah al-Din, and subsequent Mamluk and Ottoman administrations.
