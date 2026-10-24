@@ -134,6 +134,17 @@ const base = {
     },
     sensitivity: enm(sensitivity),
     themes: { type: "array", items: enm(themes), uniqueItems: true },
+    // Leveled reading (docs/delegation/education-master-plan.md §5 E2): which levels the prose carries (the validator
+    // checks they match the sections in content/) and whether the record is opted into the kids' routes.
+    education: {
+      type: "object", additionalProperties: false,
+      properties: {
+        levels: { type: "array", uniqueItems: true, items: { enum: ["sprouts", "explorers", "scholars"] } },
+        flagged_for_kids: { type: "boolean" },
+        exclude: { type: "boolean" },
+        provenance: { type: "object", additionalProperties: true, properties: { generated_by: str, model: str, run: str } },
+      },
+    },
     provenance: {
       type: "object", additionalProperties: true,
       properties: { layer: enm(kinds["provenance-layer"]), source: str, harvested: { type: "string" }, submitted_via: str, generated_by: str },
@@ -312,7 +323,18 @@ const classProps: Record<string, { properties: any; required?: string[] }> = {
       outcomes: { type: "array", items: { type: "object", required: ["text"], properties: { text: L, steps: { type: "array", items: intStr } } } },
       next: entityRefs,
       rooms: { type: "array", items: { type: "object", required: ["title"], properties: { title: L, body: L, features: entityRefs, media: entityRefs,
-        depth: enm(["brief", "standard", "deep"]), optional: { type: "boolean" }, why_next: L, branch_of: intStr } } } },
+        depth: enm(["brief", "standard", "deep"]), optional: { type: "boolean" }, why_next: L, branch_of: intStr } } },
+      // Curriculum pathways (docs/delegation/education-master-plan.md §5 E2): the mapping a teacher reads, in the museum's own
+      // words, never copied from the Ministry document; `course` is the Ministry code (CHW3M) or "G4-SS" where none exists.
+      curriculum: { type: "object", additionalProperties: false, required: ["jurisdiction", "course", "grade", "strand", "expectation"],
+        properties: { jurisdiction: enm(["on-ca"]), course: { type: "string", pattern: "^(G[1-8]-[A-Z]{2,4}|[A-Z]{3}[1-4][A-Z])$" }, course_title: L, grade: { type: "string", pattern: "^([1-9]|1[0-2])$" },
+          strand: { type: "string", pattern: "^[A-F]$" }, strand_title: L, expectations: { type: "array", items: { type: "string", pattern: "^[A-F][1-4]$" }, minItems: 1 },
+          expectation: L, document: str, verified: { type: "string", format: "date" } } },
+      // Mastery check (plan §5 E2): five questions, four options each, the index of the right one, and the step that teaches it.
+      quiz: { type: "array", minItems: 5, maxItems: 5, items: { type: "object", required: ["q", "options", "answer", "teaches"], additionalProperties: false,
+        properties: { q: L, options: { type: "array", minItems: 4, maxItems: 4, items: L }, answer: { type: "integer", minimum: 0, maximum: 3 }, teaches: intStr } } },
+      // The student worksheet of a lesson pathway (one prompt per line, printed with writing lines).
+      worksheet: { type: "array", minItems: 1, items: { type: "object", required: ["prompt"], properties: { prompt: L, steps: { type: "array", items: intStr } } } } },
     required: ["kind"],
   },
   question: {

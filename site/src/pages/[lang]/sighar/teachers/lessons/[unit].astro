@@ -5,6 +5,7 @@
 import BaseLayout from "../../../../../layouts/BaseLayout.astro";
 import { ui, LANGS, type Lang } from "../../../../../lib/i18n";
 import { loadLessons, getLesson, viewLessons } from "../../../../../lib/kids";
+import Qr from "../../../../../components/Qr.astro";
 import "../../../../../styles/kids.css";
 
 export function getStaticPaths() {
@@ -77,6 +78,7 @@ const crumbLabel = lang === "ar" ? "مسار التنقل" : "breadcrumb";
           </li>
         ))}
       </ol>
+      <Qr lang={lang} path={`/${lang}/sighar/teachers/lessons/${unit}/`} />
       <p class="no-print"><button type="button" class="kids-btn" data-print>{t.lesson_print}</button></p>
     </section>
 

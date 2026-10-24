@@ -5,12 +5,12 @@ label:
   ar: "قصر أدرنة"
   en: "Edirne Palace"
 summary:
-  ar: "بطاقة أولية لـEdirne Palace، المعلم التاريخي؛ لم تُراجع مصادره على الصفحة بعد."
-  en: "Draft card for the Edirne Palace, the historic monument; its sources are not yet checked on the page."
+  ar: "قصر أدرنة القديم حيث ولد محمد الفاتح 1432م ووسّعه سلطاناً؛ أقام فيه محمد الرابع أكثر عهده ودُمّر 1877م إثر الاحتلال الروسي، ولم يبق منه سوى أربعة أنقاض بينها عدلت قصري المرمم."
+  en: "The old palace of Edirne where Mehmet the Conqueror was born in 1432 and which he enlarged as sultan; Mehmet IV spent most of his reign there, it was destroyed in the 1877 Russian occupation, and only four ruins survive including the restored Adalet Kasrı."
 wings: [objects]
 regions: [anatolia-balkans]
 periods: [period/gunpowder-empires]
-sources: [source/tarikh-islam-hasan-ibrahim]
+sources: [source/tarikh-islam-hasan-ibrahim, source/freely-ottoman-architecture-2011]
 external_ids:
   wikidata: Q6092391
 provenance:
@@ -18,7 +18,7 @@ provenance:
   source: "Wikidata candidate; monument attested in heritage registers — entry not yet checked on the page"
   generated_by: "Devin (SWE-2 Medium)"
   model: "SWE-2 Medium"
-  run: wikidata-import-wave2
+  run: wikidata-import-wave2; prose-backfill-2-batch14 (Freely pp.103-104)
 status:
   review: draft
-  completeness: 1
+  completeness: 3

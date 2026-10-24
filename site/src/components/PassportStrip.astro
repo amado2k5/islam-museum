@@ -1,0 +1,27 @@
+---
+// The passport strip: the stamps of one band (or all), a count, and a door to the full passport. The HTML renders
+// every stamp unearned; passport.ts turns the earned ones on from localStorage. Rendered once per page: it carries
+// the rule payload the script reads, so a page that shows two strips must pass `rules={false}` to the second.
+import { stampRules, type StampView } from "../lib/edu";
+import { ui, type Lang } from "../lib/i18n";
+
+interface Props { lang: Lang; stamps: StampView[]; band?: string; rules?: boolean; heading?: string }
+const { lang, stamps, band, rules = true, heading } = Astro.props;
+const T = ui(lang).edu;
+---
+<section class="passport-strip" aria-labelledby="pp-strip-h">
+  <h2 id="pp-strip-h">{heading ?? T.passport_strip}</h2>
+  <ul class="stamp-row">
+    {stamps.map((s) => (
+      <li><a class="stamp" href={s.href} data-stamp={s.id} data-on-label={`${s.label}: ${T.passport_earned}`} data-off-label={`${s.label}: ${T.passport_todo}`} aria-label={`${s.label}: ${T.passport_todo}`}>{s.icon}</a></li>
+    ))}
+  </ul>
+  <p class="passport-line">
+    <span data-passport-count data-band={band} data-tpl={T.passport_count}>{T.passport_count.replace("{n}", "0").replace("{total}", String(stamps.length))}</span>
+    <span data-passport-empty>{T.passport_empty}</span>
+    <span data-due data-tpl={T.due_today} hidden><a href={`/${lang}/learn/passport/`} data-due-text></a></span>
+    <a href={`/${lang}/learn/passport/`}>{T.passport_open} <span class="flip" aria-hidden="true">→</span></a>
+  </p>
+  {rules && <script type="application/json" data-passport-rules set:html={JSON.stringify(stampRules())} />}
+</section>
+<script src="../scripts/passport.ts"></script>

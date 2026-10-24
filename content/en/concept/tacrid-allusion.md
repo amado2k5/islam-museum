@@ -8,7 +8,7 @@ translators: ["Claude Haiku 5.5 (claude-haiku-5-5), draft translation"]
 Ta'rid is allusion, the opposite of plain statement: speech that may carry the intended sense or another. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.5412}
 
 ## A veiled proposal to a widow
-A veiled proposal to a woman in the waiting period for her husband's death is lawful by agreement, on the verse «there is no blame on you for what you allude to of a proposal to women». {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.5413}
+A veiled proposal to a woman in the waiting period for her husband's death is lawful by agreement, on the verse in the Surah of the Cow about alluding to a proposal to women (verse 235). {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.5413}
 
 ## A veiled proposal to a divorced woman
 Most jurists allow it to a woman divorced irrevocably in her waiting period; the Malikis, the more known Shafii view and one Hanbali view allow it, while the less known Shafii view and one of Ahmad's views forbid it. The Hanafis forbid it for any woman under a divorce, and link its lawfulness to whether she may leave her house. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.5413}

@@ -5,6 +5,9 @@
 // resume) with progress kept in localStorage only — no account, no server.
 import { byId, href, labelOf, nodes } from "../lib/graph";
 import { ui, type Lang } from "../lib/i18n";
+import Qr from "./Qr.astro";
+import MasteryCheck from "./MasteryCheck.astro";
+import TellItBack from "./TellItBack.astro";
 import type { Node } from "../../../scripts/build-graph";
 const { node: n, lang } = Astro.props as { node: Node; lang: Lang };
 const T = ui(lang);
@@ -44,6 +47,7 @@ const N = steps.length;
     <button type="button" class="pw-btn" data-all hidden>{P.see_all}</button>
     <button type="button" class="pw-btn" data-resume hidden>{P.resume}</button>
     <button type="button" class="pw-btn" data-print>{P.print}</button>
+    <button type="button" class="pw-btn" data-shelf-add={n.id} data-add={T.edu.sh_add} data-added={T.edu.sh_added} data-full={T.edu.sh_full} aria-pressed="false">{T.edu.sh_add}</button>
     <div class="pw-progress" aria-hidden="true"><div class="pw-fill" data-fill style="width:0%"></div></div>
     <span class="ui muted pw-count" data-count aria-live="polite"></span>
     <button type="button" class="pw-btn" data-prev hidden>{P.prev}</button>
@@ -67,6 +71,7 @@ const N = steps.length;
   </ol>
 
   {outcomes.length > 0 && (
+    <div class="pw-print-qr print-only"><Qr lang={lang} path={href(lang, n.id)} /></div>
     <div class="pw-recap" data-recap>
       <h3 class="ui" style="font-size:1rem;margin:0 0 6px">{P.recap}</h3>
       <ul>
@@ -77,6 +82,9 @@ const N = steps.length;
     </div>
   )}
 
+  {(d.quiz?.length ?? 0) > 0 && <MasteryCheck node={n} lang={lang} />}
+  <TellItBack lang={lang} id={n.id} prompts={outcomes.map((o: any) => loc(o.text)).filter(Boolean)} />
+
   {(prereqs.length > 0 || onward.length > 0) && (
     <p class="ui muted pw-links" style="margin:12px 0 0;font-size:.9rem">
       {prereqs.length > 0 && <>{P.before}: {prereqs.map((p, k) => <>{k > 0 && " · "}<a href={href(lang, p.id)}>{labelOf(p, lang)}</a></>)}<br /></>}
@@ -86,6 +94,7 @@ const N = steps.length;
 </section>
 )}
 <script src="../scripts/pathway.ts"></script>
+<script src="../scripts/shelf.ts"></script>
 <style>
 .pw { border: 1px solid var(--gold); border-radius: 14px; padding: 18px; margin: 0 0 1.2rem; background: var(--panel); }
 .pw-bar { display: flex; align-items: center; flex-wrap: wrap; gap: 8px 12px; margin-bottom: 12px; }
@@ -110,5 +119,6 @@ const N = steps.length;
 .pw-recap ul { margin: 0; padding-inline-start: 20px; }
 @media (prefers-reduced-motion: reduce) { .pw-fill { transition: none; } }
 /* a handout always prints the whole route, whatever step the walk is on */
-@media print { .pw-step[hidden] { display: block !important; } }
+.pw-print-qr { display: none; }
+@media print { .pw-step[hidden] { display: block !important; } .pw-print-qr { display: block; } }
 </style>
