@@ -5,20 +5,21 @@ label:
   ar: "مسجد العطارين"
   en: "Attarine Mosque, Alexandria"
 summary:
-  ar: "بطاقة أولية لمسجد العطارين بالإسكندرية، الجامع على كنيسة أثناسيوس من العهد الفاطمي؛ لم تُراجع مصادره على الصفحة بعد."
-  en: "Draft card for the Attarine Mosque of Alexandria, the Fatimid-era mosque on the site of the Athanasius church; its sources are not yet checked on the page."
+  ar: "جامع العطارين بالإسكندرية، عمّره بدر الجمالي أمير الجيوش من مال المصادرات، وفرغ منه في ربيع الأول سنة 479هـ (المقريزي، ص 1078)."
+  en: "The Attarine Mosque in Alexandria, built by Badr al-Jamali, Amir al-Juyush, from confiscated funds and finished in Rabi' I 479 AH (al-Maqrizi, p. 1078)."
 wings: [objects]
 regions: [egypt-nile]
 periods: [period/buyid-seljuk-fatimid-era]
-sources: [source/tarikh-islam-hasan-ibrahim]
+sources: [source/khitat-maqrizi-1998]
 external_ids:
   wikidata: Q12204272
 provenance:
   layer: own-research
-  source: "Wikidata candidate; mosque attested in Egyptian heritage registers — entry not yet checked on the page"
-  generated_by: "Devin (SWE-2 High)"
-  model: "SWE-2 High"
-  run: wikidata-import-wave2
+  source: "al-Maqrizi, al-Mawa'iz wa-l-i'tibar (al-Khitat), Madbouli 1998, scan pp. 1077, 1078; Wikidata candidate for the identifier"
+  generated_by: "Devin (SWE-2 High); prose by Claude Haiku 5.5 (showcase-prose lane)"
+  model: claude-haiku-5-5
+  run: wikidata-import-wave2, showcase-prose-phase2-egypt-batch15
 status:
-  review: draft
-  completeness: 1
+  review: published
+  completeness: 3
+  generated_by: "Claude Haiku 5.5; the builder (Badr al-Jamali, Amir al-Juyush), the confiscated funds, the taking of Alexandria in Muharram 477 AH and the completion in Rabi' I 479 AH are read from al-Maqrizi's Khitat (local scan, pp. 1077, 1078). The draft's Athanasius-church claim is not in the Khitat's passage and is not used"
