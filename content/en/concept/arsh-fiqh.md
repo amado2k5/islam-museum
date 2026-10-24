@@ -1,0 +1,14 @@
+---
+id: concept/arsh-fiqh
+lang: en
+source_lang: ar
+translators: ["Claude Haiku 5.5 (claude-haiku-5-5), draft translation"]
+---
+## Arsh (compensation for injury)
+In the lexicon arsh means the blood-money, a scratch, and the loss a defect causes in a garment, since it is the cause of compensation. In the technical sense it is the property due for a wrong done to a person short of killing, and it is sometimes used for the full blood-money itself. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.2185}
+Hukumat al-'adl is the compensation due for a wrong with no fixed sum; it is one kind of arsh, which is the wider term. Diya is the substitute for a life when retaliation falls away, and the compensation for injury short of death is sometimes also called diya. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.2185}
+The lawgiver made compensation for every loss so that no wrong is wasted. When retaliation is not due, as in a wrong done by mistake or where retaliation has lapsed for some cause, the arsh is due according to the kind of wrong, and where the text fixes a sum that is what is owed. Among these fixed sums is the letter of the Prophet to the people of Yemen, which fixes half a diya for one leg, a third for the deep head wound (mamummah) and for the belly wound (jaifa), fifteen camels for the wound that breaks the skull bone (munqilah), ten camels for each finger of the hand or foot, and five camels for a tooth or for a head wound that exposes the bone (mudihah). {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.2185} {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.2186}
+When a wrong destroys the whole of a function, or removes an evident beauty, the full diya is due. When an organ exists in two copies in the body, the loss of its function is half the diya, as with the two hands or two feet; when there are more, it is proportioned, as with the fingers, which are equal in the ruling. Where there is no fixed text, hukumat al-'adl applies. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.2186}
+Kinds of arsh. (a) Wounds to a free woman: the Hanafis and Shafi'is hold that what requires the full diya for a free man requires half for a free woman; the Malikis and Hanbalis agree when the arsh reaches a third of the diya or more, and below a third the woman and the man are equal. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.2186}
+(b) Wounds to a dhimmi: the Hanafis make the Muslim, the dhimmi and the musta'min equal in arsh and diya. The Malikis hold the dhimmi's diya to be half the Muslim's, and that of a Magian, a mu'ahid or an apostate to be a third of a fifth of the Muslim's. The Hanbalis hold all of these to be half the Muslim's, and the Shafi'is hold all of them to be a third. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.2186}
+(c) Multiple arsh: the principle of Abu Hanifa, Malik, al-Shafi'i and Ahmad is that arsh is multiplied as the wrongs are multiplied; the details are in the entries on diya and the aqila. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.2186}
