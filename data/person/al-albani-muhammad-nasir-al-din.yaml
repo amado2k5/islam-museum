@@ -1,22 +1,27 @@
 id: person/al-albani-muhammad-nasir-al-din
 class: person
-label: { ar: "الألباني محمد ناصر الدين", en: "Al-Albani, Muhammad Nasir al-Din" }
+label: { ar: "الألباني محمد ناصر الدين", en: "Al-Albani, Muhammad Nasir al-Din", ur: "محمد ناصر الدین الالبانی" }
 names:
   - { kind: full, lang: ar, value: "محمد ناصر الدين بن نوح بن آدم نجاتي الألباني" }
 gender: male
 roles: [muhaddith, scholar]
 traditions: [sunni]
-born: { edtf: "1914", hijri: "1333", calendar: gregorian, precision: year, status: tradition, sources: [source/mawsuat-a3lam-ulama-adaba] }
-died: { edtf: "1999", hijri: "1420", calendar: gregorian, precision: year, status: tradition, sources: [source/mawsuat-a3lam-ulama-adaba] }
+born: { edtf: "1914", hijri: "1333", calendar: gregorian, precision: year, status: tradition, sources: [source/mawsuat-a3lam-ulama-adaba, source/wikipedia-al-albani-muhammad-nasir-al-din-en, source/wikidata-al-albani-muhammad-nasir-al-din] }
+died: { edtf: "1999", hijri: "1420", calendar: gregorian, precision: year, status: tradition, sources: [source/mawsuat-a3lam-ulama-adaba, source/wikipedia-al-albani-muhammad-nasir-al-din-en, source/wikidata-al-albani-muhammad-nasir-al-din] }
 summary:
   ar: "محدث مشهور من أصل ألباني وجنسية سورية، برز في التصحيح والتضعيف وفقه الحديث."
   en: "A well-known hadith scholar of Albanian origin and Syrian nationality, distinguished in the authentication and grading of hadiths and in hadith jurisprudence."
+  ur: "مشہور محدث، البانوی اصل اور شامی شہریت کے حامل، جو احادیث کی تصحیح و تضعیف اور فقہ الحدیث میں ممتاز ہوئے۔"
 wings: [people]
 themes: [scripture-and-its-sciences]
 periods: [period/contemporary-era]
 regions: [levant-iraq]
+relations:
+  - { type: lived_in, target: place/damascus, sources: [source/wikipedia-al-albani-muhammad-nasir-al-din-en] }
+  - { type: lived_in, target: place/amman, sources: [source/wikipedia-al-albani-muhammad-nasir-al-din-en] }
 story_roles:
   - { role: scholar, status: tradition, sources: [source/mawsuat-a3lam-ulama-adaba] }
-sources: [source/mawsuat-a3lam-ulama-adaba]
-status: { review: draft, completeness: 1, generated_by: "Devin; Mawsuat A'lam vol 2 pp. 300, lib-mawsuat-a3lam" }
-provenance: { layer: own-research, source: "موسوعة أعلام العلماء والأدباء (أليكسو/دار الجيل 2004) ج2 ص300", generated_by: "Devin", model: "SWE-2 High", run: "lib-mawsuat-a3lam" }
+sources: [source/mawsuat-a3lam-ulama-adaba, source/wikipedia-al-albani-muhammad-nasir-al-din-en, source/wikipedia-al-albani-muhammad-nasir-al-din-ar, source/wikidata-al-albani-muhammad-nasir-al-din]
+external_ids: { wikidata: "Q560078" }
+status: { review: published, completeness: 3, generated_by: "Devin; Mawsuat A'lam vol 2 pp. 300, lib-mawsuat-a3lam" }
+provenance: { layer: own-research, source: "موسوعة أعلام العلماء والأدباء (أليكسو/دار الجيل 2004) ج2 ص300 + English and Arabic Wikipedia, Wikidata Q560078, checked 24 October 2026", generated_by: "Devin", model: "SWE-2 High", run: "lib-mawsuat-a3lam" }

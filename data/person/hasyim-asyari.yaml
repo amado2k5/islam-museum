@@ -3,24 +3,29 @@ class: person
 label:
   ar: "هاشم أشعري"
   en: "Hasyim Asy'ari"
+  ur: "ہاشم اشعری"
 roles: [scholar]
 gender: male
 summary:
-  ar: "بطاقة أولية لهاشم أشعري، عالم إندونيسيا مؤسس نهضة العلماء سنة ١٩٢٦م؛ لم تُراجع ترجمته على الصفحة بعد."
-  en: "Draft card for Hasyim Asy'ari, the Indonesian scholar who founded Nahdlatul Ulama in 1926; his entry is not yet checked on the page."
+  ar: "عالم إندونيسي وبطل قومي، أسس جمعية نهضة العلماء سنة 1926 ومدرسة تيبويرينغ الشرعية سنة 1899، وهي من أكبر المدارس الدينية في جاوة. تختلف المصادر في سنة ولادته بين 1871 و1875، وتوفي سنة 1947."
+  en: "Indonesian scholar and National Hero who founded Nahdlatul Ulama in 1926 and the Tebuireng pesantren in 1899, one of the largest Islamic boarding schools in Java. The sources disagree on his birth year, giving 1871 and 1875; he died in 1947."
+  ur: "انڈونیشی عالم اور قومی ہیرو، جنہوں نے 1926 میں نهضۃ العلماء اور 1899 میں تیبویرینگ کا دینی مدرسہ قائم کیا، جو جاوا کے بڑے دینی مدارس میں سے تھا۔ ان کے سنہ ولادت پر ماخذ میں اختلاف ہے: 1871 اور 1875؛ وہ 1947 میں وفات پائے۔"
 wings: [people]
 regions: [southeast-asia]
 periods: [period/modern-era]
-died: { edtf: "1947", precision: year, status: tradition, derived: true }
-sources: [source/tarikh-islam-hasan-ibrahim]
+born: { edtf: "1871", precision: year, status: tradition, derived: true, note: "The English article gives two birth dates, 14 February 1871 and 10 April 1875; Wikidata gives 14 February 1871 and the Arabic article gives 10 April 1875. The year 1871 is recorded; the discrepancy is unresolved.", sources: [source/wikipedia-hasyim-asyari-en, source/wikidata-hasyim-asyari] }
+died: { edtf: "1947", precision: year, status: tradition, derived: true, sources: [source/wikipedia-hasyim-asyari-en, source/wikidata-hasyim-asyari] }
+relations:
+  - { type: born_in, target: place/java, sources: [source/wikipedia-hasyim-asyari-en] }
+sources: [source/tarikh-islam-hasan-ibrahim, source/wikipedia-hasyim-asyari-en, source/wikipedia-hasyim-asyari-ar, source/wikidata-hasyim-asyari]
 external_ids:
   wikidata: Q4202200
 provenance:
   layer: own-research
-  source: "Wikidata candidate; entry not yet read on the page in a book source"
+  source: "Hasan Ibrahim Hasan, Tarikh al-Islam (book source of the original card) + English and Arabic Wikipedia, Wikidata Q4202200, checked 24 October 2026"
   generated_by: "Devin (SWE-2 High)"
   model: "SWE-2 High"
   run: wikidata-import-wave2
 status:
-  review: draft
-  completeness: 1
+  review: published
+  completeness: 3

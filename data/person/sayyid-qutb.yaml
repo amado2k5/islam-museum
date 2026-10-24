@@ -1,0 +1,41 @@
+id: person/sayyid-qutb
+class: person
+label: { ar: "سيد قطب", en: "Sayyid Qutb", ur: "سید قطب" }
+names:
+  - { value: "سيد إبراهيم حسين الشاذلي قطب", kind: full }
+  - { value: "Sayyid Ibrahim Husayn Shadhili Qutb", kind: full }
+gender: male
+summary:
+  ar: "كاتب وشاعر وناقد أدبي ومُنظّر إسلامي مصري، وُلد في قرية موشا بمحافظة أسيوط سنة 1906، وكان من أبرز أعضاء جماعة الإخوان المسلمين. ألّف تفسير «في ظلال القرآن» في ثلاثين جزءا وكتاب «معالم في الطريق»، وأُعدم في القاهرة سنة 1966 بعد إدانته بالتآمر على الرئيس جمال عبد الناصر."
+  en: "Egyptian writer, poet, literary critic and Islamic theorist, born in the village of Musha in Asyut Province in 1906, and a leading member of the Muslim Brotherhood. He wrote the thirty-volume Qur'an commentary Fi Zilal al-Qur'an (In the Shade of the Qur'an) and Ma'alim fi al-Tariq (Milestones), and was executed in Cairo in 1966 after being convicted of plotting against President Gamal Abdel Nasser."
+  ur: "مصری مصنف، شاعر، ادبی نقاد اور اسلامی مفکر، جو 1906 میں محافظہ اسیوط کے گاؤں موشا میں پیدا ہوئے اور اخوان المسلمون کے نمایاں ارکان میں سے تھے۔ انہوں نے تیس جلدوں پر مشتمل تفسیر «فی ظلال القرآن» اور کتاب «معالم فی الطریق» لکھی، اور 1966 میں صدر جمال عبدالناصر کے خلاف سازش کے الزام میں سزا پا کر قاہرہ میں پھانسی دیے گئے۔"
+roles: [writer, theorist]
+wings: [people]
+born:
+  edtf: "1906-10-09"
+  calendar: gregorian
+  precision: day
+  status: historical
+  sources: [source/wikipedia-sayyid-qutb-en, source/wikipedia-sayyid-qutb-ar]
+died:
+  edtf: "1966-08-29"
+  calendar: gregorian
+  precision: day
+  status: historical
+  sources: [source/wikipedia-sayyid-qutb-en, source/wikipedia-sayyid-qutb-ar]
+relations:
+  - { type: born_in, target: place/asyut, sources: [source/wikipedia-sayyid-qutb-en] }
+  - { type: lived_in, target: place/cairo, sources: [source/wikipedia-sayyid-qutb-en] }
+faith:
+  - value: unknown
+    basis: unknown
+    note: "The articles describe Qutb as an Islamic theorist and a leading member of the Muslim Brotherhood; neither article states his school, and Wikidata gives only Islam. His legacy is contested (al-Azhar's ulama declared him deviant after his death; his supporters call him a martyr), so the museum records no school for him."
+    sources: [source/wikipedia-sayyid-qutb-en, source/wikipedia-sayyid-qutb-ar, source/wikidata-sayyid-qutb]
+external_ids: { wikidata: "Q211379" }
+sources: [source/wikipedia-sayyid-qutb-en, source/wikipedia-sayyid-qutb-ar, source/wikidata-sayyid-qutb]
+provenance:
+  layer: own-research
+  source: "English and Arabic Wikipedia, Wikidata Q211379, as cited in those articles and checked 24 October 2026"
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: modern-figures-batch-1
+status: { review: published, generated_by: "Muse (Muse Spark 1.3)" }
