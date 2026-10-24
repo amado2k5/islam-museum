@@ -3,24 +3,53 @@ class: person
 label:
   ar: "أحمد دحلان"
   en: "Ahmad Dahlan"
+  ur: "احمد دہلان"
+names:
+  - { value: "محمد درويش", kind: full }
+  - { value: "Muhammad Darwis", kind: full }
 roles: [reformer]
 gender: male
 summary:
-  ar: "بطاقة أولية لأحمد دحلان، المصلح الإندونيسي مؤسس جمعية المحمدية سنة ١٩١٢م؛ لم تُراجع ترجمته على الصفحة بعد."
-  en: "Draft card for Ahmad Dahlan, the Indonesian reformer who founded the Muhammadiyah in 1912; his entry is not yet checked on the page."
+  ar: "مصلح وعالم إندونيسي (1868–1923)، وُلد باسم محمد درويش في يوغياكارتا، حجّ ودرس في مكة سنوات، ثم أسس جمعية المحمدية سنة 1912 لتكون أداة إصلاح ديني وتعليمي، فغدت من أكبر المنظمات الإسلامية في إندونيسيا."
+  en: "Indonesian reformer and religious leader (1868–1923), born as Muhammad Darwis in Yogyakarta. He performed the Hajj and studied in Mecca for years, then founded the Muhammadiyah in 1912 as an instrument of religious and educational reform; it became one of the largest Muslim organisations in Indonesia."
+  ur: "انڈونیشیائی مصلح اور عالم (1868–1923)، اصل نام محمد درویش، یوگیاکارتا میں پیدا ہوئے۔ انہوں نے حج کیا اور برسوں مکہ میں تعلیم حاصل کی، پھر 1912 میں دینی و تعلیمی اصلاح کے لیے محمدیہ کی بنیاد رکھی، جو انڈونیشیا کی سب سے بڑی مسلم تنظیموں میں سے ایک بن گئی۔"
 wings: [people]
 regions: [southeast-asia]
 periods: [period/modern-era]
-died: { edtf: "1923", precision: year, status: tradition, derived: true }
-sources: [source/tarikh-islam-hasan-ibrahim]
+born:
+  edtf: "1868-08-01"
+  hijri: "1285"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "Gregorian date from English and Arabic Wikipedia and Wikidata; the Hijri year is converter-derived."
+  sources: [source/wikipedia-ahmad-dahlan-en, source/wikipedia-ahmad-dahlan-ar, source/wikidata-ahmad-dahlan]
+died:
+  edtf: "1923-02-23"
+  hijri: "1341"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "Gregorian date from English and Arabic Wikipedia and Wikidata; the Hijri year is converter-derived. The earlier skeleton record carried only the year 1923 from the book source, which is kept in the sources list."
+  sources: [source/wikipedia-ahmad-dahlan-en, source/wikipedia-ahmad-dahlan-ar, source/wikidata-ahmad-dahlan]
+relations:
+  - { type: lived_in, target: place/mecca, sources: [source/wikipedia-ahmad-dahlan-en, source/wikipedia-ahmad-dahlan-ar] }
+faith:
+  - value: unknown
+    basis: unknown
+    note: "Neither the English nor the Arabic article names a school for him; the Arabic article notes he studied in Mecca with a teacher of the Shafi'i school, which is his teacher's affiliation, not his. Wikidata gives only Islam. Not recorded as sunni until a second source confirms it."
+    sources: [source/wikipedia-ahmad-dahlan-en, source/wikipedia-ahmad-dahlan-ar, source/wikidata-ahmad-dahlan]
+sources: [source/tarikh-islam-hasan-ibrahim, source/wikipedia-ahmad-dahlan-en, source/wikipedia-ahmad-dahlan-ar, source/wikidata-ahmad-dahlan]
 external_ids:
   wikidata: Q4695300
 provenance:
   layer: own-research
-  source: "Wikidata candidate; entry not yet read on the page in a book source"
-  generated_by: "Devin (SWE-2 High)"
-  model: "SWE-2 High"
-  run: wikidata-import-wave2
+  source: "تاريخ الإسلام لحسن إبراهيم حسن (the skeleton record's book source, kept) + English and Arabic Wikipedia, Wikidata Q4695300, checked 24 October 2026"
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: "modern-figures-batch-2"
 status:
-  review: draft
-  completeness: 1
+  review: published
+  completeness: 3
+  generated_by: "Muse (Muse Spark 1.3)"

@@ -1,0 +1,36 @@
+id: person/deddy-corbuzier
+class: person
+label: { ar: "ديدي كوربوزير", en: "Deddy Corbuzier", ur: "ڈیڈی کوربوزیئر" }
+names:
+  - { value: "Deodatus Andreas Deddy Cahyadi Sunjoyo", kind: full }
+gender: male
+summary:
+  ar: "مقدّم تلفزيوني إندونيسي ولاعب خفة سابق تحوّل إلى عروض العقل (منتلست)، وُلد في جاكرتا. اشتهر ببرامج تلفزيونية كبرى، ثم ببودكاست «أغلق الباب» (Close the Door) على يوتيوب الذي يتابعه الملايين، واعتنق الإسلام سنة 2019."
+  en: "Indonesian television presenter and former magician turned mentalist, born in Jakarta. He became famous through major television shows, then through his Close the Door podcast on YouTube, followed by millions, and he embraced Islam in 2019."
+  ur: "انڈونیشیائی ٹیلی ویژن پیش کار اور سابق جادوگر، جو بعد میں مینٹلسٹ بنے، جکارتا میں پیدا ہوئے۔ وہ بڑے ٹیلی ویژن شوز سے مشہور ہوئے، پھر یوٹیوب پر اپنے پوڈکاسٹ «کلوز دی ڈور» کے ذریعے، جسے لاکھوں لوگ دیکھتے ہیں، اور 2019 میں انہوں نے اسلام قبول کیا۔"
+roles: [presenter, writer]
+wings: [people, living]
+born:
+  edtf: "1976-12-28"
+  hijri: "1397"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "Date as given by the English Wikipedia article; Wikidata gives 28 December 1974 instead, and the discrepancy is unresolved. The Hijri year is converter-derived from the article's date."
+  sources: [source/wikipedia-deddy-corbuzier-en, source/wikidata-deddy-corbuzier]
+relations:
+  - { type: born_in, target: place/jakarta, sources: [source/wikipedia-deddy-corbuzier-en, source/wikidata-deddy-corbuzier] }
+faith:
+  - value: unknown
+    basis: unknown
+    note: "Wikidata gives only Islam, and neither the English nor the Indonesian article names a school for him; he embraced Islam in 2019. Not recorded as sunni until a second source confirms it."
+    sources: [source/wikipedia-deddy-corbuzier-en, source/wikipedia-deddy-corbuzier-id, source/wikidata-deddy-corbuzier]
+external_ids: { wikidata: "Q7475753" }
+sources: [source/wikipedia-deddy-corbuzier-en, source/wikipedia-deddy-corbuzier-id, source/wikidata-deddy-corbuzier]
+provenance:
+  layer: own-research
+  source: "English Wikipedia (revision of 29 September 2026), Indonesian Wikipedia (revision of 18 September 2026) and Wikidata Q7475753, as cited in those articles and checked 24 October 2026. No Arabic Wikipedia article exists, so no Arabic source entity was registered; the Indonesian article is registered because it alone documents his 2019 conversion."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: modern-figures-batch-2
+status: { review: published, generated_by: "Muse (Muse Spark 1.3)" }
