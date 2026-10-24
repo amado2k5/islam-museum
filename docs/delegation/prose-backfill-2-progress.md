@@ -498,3 +498,33 @@ Founder-authorized record creation: 14 new `building/` stubs (minimal yaml, comp
 ### Methodological notes
 - New yamls copy the existing stub shape (wings/regions/periods/themes per mosque class); no invented external_ids.
 - `person/` untouched.
+
+## Batch 14 — thin-stub expansion cohort, 11 records (rijal lane, agent pb2-rijal)
+
+Same method as Batch 13: thin (`<900 B`) `content/ar` stubs ranked by inbound links; each stub's own entry located by full nasab, existing paragraphs kept, used source added, completeness 3.
+
+| record | own entry verified |
+|---|---|
+| person/aqil-ibn-abi-talib | Taqrib ٤٦٦١ (عقيل بن أبي طالب الهاشمي أخو علي وجعفر), Majmuat scan p.435 |
+| person/maqil-ibn-yasar | Isaba ٨٤٦٨ (معقل بن يسار … المزني، حفر نهر معقل بالبصرة), p.1447 |
+| person/abd-al-rahman-ibn-abi-bakra | Isaba ٤٦٥٥ (عبد الرحمن بن أبي بكرة الثقفي، تابعي أول مولود بالبصرة), p.783 |
+| person/amir-ibn-abi-waqqas | Isaba ٤٥٠٩ (عامر بن أبي وقاص الزهري = عامر بن مالك), p.763 |
+| person/uhayha-ibn-al-julah | Isaba ٨٨ (أحيحة ابن الجلاح؛ قاتل عمه ووهم نسبته للصحابة), p.33 |
+| person/umm-harmala-bint-abd-al-aswad | Isaba ١٢٠١٥ (أم حرملة بنت عبد الأسود … الخزاعية), p.1990 |
+| person/suwayd-ibn-qutba | Isaba ٣٨١٢ (سويد بن قطبة الوائلي، ذكر في الفتوح), p.639 |
+| person/firas-ibn-al-nadr | Isaba ٧٠١٥ (فراس بن النضر بن الحارث … العبدري أبو الحارث), p.1189 |
+| person/ziyad-ibn-labid-al-bayadi | Isaba ٢٩٢٢ (زياد بن لبيد بن ثعلبة … الأنصاري البياضي), p.506 |
+| person/utba-ibn-masoud | Isaba ٥٨٧٣ (عتبة بن مسعود الهذلي أخو عبد الله لأبويه), p.1000 |
+| person/kharija-ibn-hudhafa-al-adawi | Isaba ٢١٤٢ (خارجة بن حذافة بن غانم … العدوي، شرطة عمرو ومقتله), p.361 |
+
+### Notes
+- `abd-al-rahman-ibn-abi-bakra`: Isaba corrects the Baladhuri-driven impression of companionship — he is a Successor born in 14 AH; prose carries Ibn Hajar's reservation on the "لا تطلب الإمارة" report rather than asserting his hearing it.
+- `uhayha-ibn-al-julah`: the record describes his Jahiliyya role; Isaba explicitly doubts counting him a Companion — flagged, not asserted.
+- `umm-harmala`: Isaba gives a Khuza'i nasab while Ibn Ishaq lists her among Banu Abd al-Dar — both kept and flagged.
+- `aqil`: Taqrib gives 60 AH for his death "وقيل بعدها"; the Siyar record's "in Mu'awiya's caliphate" is compatible and kept.
+- `kharija`: the night-of-Ali's-killing report is told "قيل" in the entry — carried as reported speech.
+
+### Deferred this batch
+- `suhayb-ibn-sinan` — the extracted Isaba scan reaches him only via the kunya cross-list (١٠٧٧٠), his own entry is outside the extracted pages.
+- `said-ibn-uthman` (ibn Affan, Umayyad governor) — Isaba ٣٣٧٦ is a different, Ansari namesake; no own entry found.
+- `umayr-ibn-wahb` (al-Jumahi), `umayr-ibn-riab`, `khazim-ibn-khuzayma`, `shurahbil-ibn-hasana` (only his sons' entries ٢٦٥٧-٢٦٥٨), `ubaydallah-ibn-abi-bakra`, `muhayyisa-ibn-masud`, `umama-al-muzayriyya`, `salih-ibn-kaysan` (only an isnad hit), `rawh-ibn-hatim`, `mukhallad-ibn-yazid`, `bujayr-ibn-waraqa`, `habbar-ibn-sufyan`, `waki-ibn-hassan`, `muhammad-ibn-kab-al-qurazi` (the Isaba hits are Ansari namesakes), `abu-qays-ibn-al-harith`, `ata-al-khurasani`, `amr-ibn-muslim`, `zamaa-ibn-al-aswad`, `umama-al-muzayriyya` — no readable own entry in the extracted scans.
