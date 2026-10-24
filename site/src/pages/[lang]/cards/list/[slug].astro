@@ -2,6 +2,7 @@
 // List deck page: flip cards for numbered material.
 import BaseLayout from "../../../../layouts/BaseLayout.astro";
 import FlipDeck from "../../../../components/FlipDeck.astro";
+import StudyModes from "../../../../components/StudyModes.astro";
 import { ui, LANGS, type Lang } from "../../../../lib/i18n";
 import { listDecks, loadDeck } from "../../../../lib/cardlists";
 
@@ -24,5 +25,6 @@ const t = { flip: C.flip, tap_to_flip: C.tap_to_flip, prev: C.prev, next: C.next
     <h1>{L(deck.title)}</h1>
     <p style="font-size:1.15rem;max-width:var(--measure)">{L(deck.lede)}</p>
     <FlipDeck deck={deck} lang={lang} t={t} />
+    <StudyModes deck={deck} lang={lang} path={`/${lang}/cards/list/${slug}/`} />
   </div>
 </BaseLayout>
