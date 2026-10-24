@@ -1,0 +1,26 @@
+---
+// The classroom quiz for one Ontario pathway (docs/delegation/education-master-plan.md §5 E3, step 1): `/{lang}/learn/teachers/quiz/{trail}/`
+// (the `?classroom=1` query only switches the type size on the device; the page is the same static file either way).
+import BaseLayout from "../../../../../layouts/BaseLayout.astro";
+import ClassroomQuiz from "../../../../../components/ClassroomQuiz.astro";
+import { labelOf } from "../../../../../lib/graph";
+import { ui, LANGS, type Lang } from "../../../../../lib/i18n";
+import { pathwayPath, pathwayQuizPath, pathways, pathwaySlug } from "../../../../../lib/pathways";
+import type { Node } from "../../../../../../../scripts/build-graph";
+
+export function getStaticPaths() {
+  return LANGS.flatMap((lang) => pathways().map((n) => ({ params: { lang, slug: pathwaySlug(n) }, props: { node: n, lang } })));
+}
+const { node: n, lang } = Astro.props as { node: Node; lang: Lang };
+const E = ui(lang).edu;
+const path = pathwayQuizPath(lang, n);
+const alternates = Object.fromEntries(LANGS.map((l) => [l, pathwayQuizPath(l, n)]));
+---
+<BaseLayout lang={lang} title={`${E.cq_title}: ${labelOf(n, lang)}`} description={E.cq_lede} path={path} alternates={alternates}>
+  <div class="wrap edu" style="padding-block:10px 24px">
+    <nav class="ui muted no-print" aria-label="breadcrumb"><a href={`/${lang}/learn/`}>{E.title}</a> › <a href={`/${lang}/learn/teachers/`}>{E.teachers_title}</a> › <a href={pathwayPath(lang, n)}>{labelOf(n, lang)}</a></nav>
+    <h1 style="margin-bottom:.4rem">{E.cq_title}</h1>
+    <p class="ui muted" style="margin:0 0 .9rem">{labelOf(n, lang)}</p>
+    <ClassroomQuiz node={n} lang={lang} />
+  </div>
+</BaseLayout>
