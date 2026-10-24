@@ -11,7 +11,7 @@ import { href, labelOf, summaryOf, SITE } from "../../../../../../lib/graph";
 import { ui, fmt, LANGS, type Lang } from "../../../../../../lib/i18n";
 import { renderProse } from "../../../../../../lib/markdown";
 import { formatDate } from "../../../../../../lib/dates";
-import { learningResourceLd, pathways, pathwayPath, pathwayPrintPath, pathwaySlug, pathwayTitle } from "../../../../../../lib/pathways";
+import { learningResourceLd, pathways, pathwayPath, pathwayPrintPath, pathwayQuizPath, pathwaySlug, pathwayTitle } from "../../../../../../lib/pathways";
 import type { Node } from "../../../../../../../../scripts/build-graph";
 import "../../../../../../styles/edu.css";
 
@@ -62,6 +62,7 @@ const verified = c.verified ? formatDate({ edtf: c.verified, calendar: "gregoria
         {noteHtml && <div class="tp-note" set:html={noteHtml} />}
         <p class="ui no-print" style="margin:12px 0 0;display:flex;flex-wrap:wrap;gap:8px">
           <a class="chip" style="border:1px solid var(--gold)" href={printPath} rel="alternate">{E.tp_print}</a>
+          <a class="chip" href={pathwayQuizPath(lang, n)}>{E.cq_chip}</a>
           <a class="chip" href={href(lang, n.id)}>{P.title}</a>
         </p>
       </section>

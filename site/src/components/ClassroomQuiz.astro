@@ -1,0 +1,168 @@
+---
+// Classroom quiz (docs/delegation/education-master-plan.md §5 E3, step 1): the five mastery questions of one pathway for a
+// projector. One question at a time, a 20-second ring, keys 1 to 4 to choose, Enter or N for the next question, a reveal
+// that names the teaching step, a per-device score kept in memory only, and a printable answer and tally sheet for the
+// teacher. Nothing is stored and nothing is sent (site/src/scripts/classroom-quiz.ts has no storage and no network call).
+// Without JavaScript every question, option, teaching link and the answer sheet are in the HTML.
+import Qr from "./Qr.astro";
+import { labelOf } from "../lib/graph";
+import { ui, fmt, type Lang } from "../lib/i18n";
+import { pathwayPath, pathwayQuizPath } from "../lib/pathways";
+import type { Node } from "../../../scripts/build-graph";
+
+interface Props { node: Node; lang: Lang }
+const { node: n, lang } = Astro.props;
+const E = ui(lang).edu;
+const loc = (o: any) => o?.[lang] ?? o?.en ?? o?.ar ?? "";
+const rooms: any[] = n.data.rooms ?? [];
+const path = pathwayPath(lang, n);
+const qs = ((n.data.quiz ?? []) as any[]).map((q, i) => ({
+  i,
+  text: loc(q.q),
+  options: (q.options as any[]).map(loc),
+  answer: q.answer as number,
+  teaches: q.teaches as number,
+  stepTitle: loc(rooms[q.teaches]?.title),
+}));
+const teachLink = (q: (typeof qs)[number]) => ({ href: `${path}#pw-${q.teaches}`, text: fmt(E.mc_teaches, { k: String(q.teaches + 1), title: q.stepTitle }) });
+---
+
+{qs.length > 0 && (
+  <section class="cq" data-cq data-i18n-timeup={E.cq_timeup} data-i18n-secs={E.cq_secs} data-i18n-correct={E.mc_correct} data-i18n-wrong={E.mc_wrong} data-i18n-score={E.cq_device_score} aria-labelledby="cq-h">
+    <h2 id="cq-h" class="visually-hidden">{E.cq_title}</h2>
+    <p class="cq-device"><b>{E.cq_device}</b></p>
+    <p class="cq-lede">{E.cq_lede}</p>
+    <p class="cq-nojs" data-nojs>{E.cq_nojs}</p>
+
+    <div class="cq-controls no-print">
+      <button type="button" class="cq-btn cq-begin" data-begin>{E.cq_begin}</button>
+      <div class="cq-clock" data-clock role="timer" aria-live="off" hidden>
+        <div class="cq-ring">
+          <svg viewBox="0 0 64 64" aria-hidden="true" focusable="false">
+            <circle class="cq-track" cx="32" cy="32" r="28" pathLength="100" />
+            <circle class="cq-arc" data-arc cx="32" cy="32" r="28" pathLength="100" />
+          </svg>
+          <span class="cq-secs" data-secs>20</span>
+        </div>
+      </div>
+    </div>
+
+    <ol class="cq-list">
+      {qs.map((q) => (
+        <li class="cq-q" data-q data-answer={q.answer}>
+          <h3 class="cq-n">{fmt(E.mc_q, { i: String(q.i + 1), n: String(qs.length) })}</h3>
+          <p class="cq-text">{q.text}</p>
+          <p class="cq-cue">{E.cq_cue}</p>
+          <ol class="cq-opts">
+            {q.options.map((o, k) => (
+              <li class="cq-opt"><span class="cq-num">{k + 1}</span> <span class="cq-otext">{o}</span></li>
+            ))}
+          </ol>
+          <p class="cq-fb" data-fb role="status"></p>
+          <p class="cq-teach" data-teach hidden><a href={teachLink(q).href}>{teachLink(q).text}</a></p>
+          <p class="cq-next-row"><button type="button" class="cq-btn cq-next" data-next hidden>{E.cq_next}</button></p>
+        </li>
+      ))}
+    </ol>
+
+    <div class="cq-done" data-done tabindex="-1" hidden>
+      <p class="cq-done-h"><b>{E.cq_done}</b></p>
+      <p class="cq-score" data-score aria-live="polite"></p>
+      <section class="cq-revisit" data-revisit hidden>
+        <p>{E.cq_revisit}</p>
+        <ol data-revisit-list></ol>
+      </section>
+      <p class="cq-controls no-print">
+        <button type="button" class="cq-btn" data-restart hidden>{E.cq_restart}</button>
+        <button type="button" class="cq-btn" data-print hidden>{E.cq_print}</button>
+      </p>
+    </div>
+
+    <section class="cq-sheet" aria-labelledby="cq-sheet-h">
+      <h2 id="cq-sheet-h">{E.cq_sheet}</h2>
+      <p>{E.cq_sheet_hint}</p>
+      <table class="cq-table">
+        <thead>
+          <tr><th scope="col">#</th><th scope="col">{E.cq_col_answer}</th><th scope="col">{E.cq_col_step}</th><th scope="col">{E.cq_col_tally}</th></tr>
+        </thead>
+        <tbody>
+          {qs.map((q) => (
+            <tr>
+              <th scope="row">{q.i + 1}</th>
+              <td>{q.options[q.answer]}</td>
+              <td><a href={teachLink(q).href}>{q.teaches + 1}. {q.stepTitle}</a></td>
+              <td class="cq-blank"></td>
+            </tr>
+          ))}
+        </tbody>
+      </table>
+      <Qr lang={lang} path={pathwayQuizPath(lang, n)} />
+      <p class="cq-foot">{labelOf(n, lang)}</p>
+    </section>
+  </section>
+)}
+<script src="../scripts/classroom-quiz.ts"></script>
+<style>
+  .cq { margin: 0 0 1.2rem; }
+  .cq [hidden] { display: none !important; }
+  .visually-hidden { position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0 0 0 0); white-space: nowrap; }
+  .cq-device { margin: 0 0 8px; padding: 8px 12px; max-width: var(--measure); border-inline-start: 4px solid var(--gold); background: var(--panel); border-radius: 8px; }
+  .cq-lede, .cq-nojs { max-width: var(--measure); margin: 0 0 10px; }
+  .cq-nojs { font-size: .9rem; border: 1px dashed var(--gold); border-radius: 8px; padding: 6px 10px; }
+  :root.js .cq-nojs { display: none; }
+  .cq-btn { min-height: 44px; min-width: 44px; padding: 0 18px; border-radius: 999px; border: 2px solid var(--edu-teal); background: var(--card); color: inherit; font: inherit; font-weight: 700; cursor: pointer; }
+  .cq-btn:focus-visible, .cq-choice:focus-visible { outline: 3px solid var(--gold); outline-offset: 2px; }
+  .cq-begin { background: var(--edu-teal); color: #fff; font-size: 1.15rem; min-height: 56px; padding: 0 28px; }
+  .cq-controls { display: flex; flex-wrap: wrap; align-items: center; gap: 12px; margin: 0 0 12px; }
+  .cq-clock { display: flex; align-items: center; gap: 12px; }
+  .cq-ring { position: relative; width: 84px; height: 84px; flex: none; }
+  .cq-ring svg { width: 100%; height: 100%; transform: rotate(-90deg); }
+  .cq-ring circle { fill: none; stroke-width: 7; }
+  .cq-track { stroke: var(--line); }
+  .cq-arc { stroke: var(--edu-teal); stroke-linecap: round; stroke-dasharray: 100; stroke-dashoffset: 0; transition: stroke-dashoffset .2s linear; }
+  .cq-secs { position: absolute; inset: 0; display: grid; place-items: center; font-size: 1.6rem; font-weight: 800; font-variant-numeric: tabular-nums; }
+  .cq-list { list-style: none; margin: 0; padding: 0; }
+  :root.js .cq-q { display: none; }
+  :root.js .cq-q.cq-on { display: block; }
+  .cq-q { border: 1px solid var(--line); border-radius: 14px; padding: 16px; margin: 0 0 12px; background: var(--card); max-width: 56rem; }
+  .cq-n { font-size: .95rem; font-weight: 400; color: var(--muted); margin: 0 0 4px; }
+  .cq-text { font-size: 1.3rem; font-weight: 700; line-height: 1.6; margin: 0 0 6px; }
+  .cq-cue { color: var(--muted); margin: 0 0 10px; font-size: .95rem; }
+  .cq-opts { list-style: none; margin: 0; padding: 0; display: grid; gap: 10px; }
+  .cq-opt { display: flex; align-items: center; gap: 12px; }
+  .cq-num { flex: none; display: inline-grid; place-items: center; width: 34px; height: 34px; border-radius: 50%; background: var(--gold); color: #1b1b1b; font-weight: 800; }
+  :root.js .cq-opt { display: block; }
+  .cq-choice { width: 100%; min-height: 44px; display: flex; align-items: center; gap: 12px; padding: 10px 14px; border: 2px solid var(--line); border-radius: 12px; background: var(--bg); color: inherit; font: inherit; font-size: 1.05rem; text-align: start; cursor: pointer; }
+  .cq-choice:disabled { cursor: default; }
+  .cq-choice.cq-right { border-color: #2f6b31; background: color-mix(in srgb, #2f6b31 14%, transparent); }
+  .cq-choice.cq-wrong { border-color: #c0392b; background: color-mix(in srgb, #c0392b 12%, transparent); }
+  .cq-fb { min-height: 1.4em; margin: 10px 0 0; font-weight: 700; }
+  .cq-teach { margin: 2px 0 0; }
+  .cq-next-row { margin: 10px 0 0; }
+  .cq-done { max-width: 56rem; border: 1px solid var(--gold); border-radius: 14px; padding: 16px; margin: 0 0 12px; background: var(--panel); }
+  .cq-done:focus { outline: 3px solid var(--gold); outline-offset: 2px; }
+  .cq-done-h { font-size: 1.3rem; margin: 0 0 4px; }
+  .cq-score { font-size: 1.1rem; margin: 0 0 8px; }
+  .cq-revisit ol { padding-inline-start: 1.4rem; }
+  .cq-sheet { margin-top: 18px; padding-top: 12px; border-top: 2px dashed var(--gold); }
+  :root.js .cq-sheet { display: none; }
+  :root.js .cq.cq-finished .cq-sheet { display: block; }
+  .cq-table { width: 100%; border-collapse: collapse; margin: 8px 0 14px; font-size: .95rem; }
+  .cq-table th, .cq-table td { border: 1px solid var(--line); padding: 6px 8px; text-align: start; vertical-align: top; }
+  .cq-blank { min-width: 6rem; height: 2.2rem; }
+  .cq-foot { font-size: .85rem; color: var(--muted); }
+  /* classroom mode (?classroom=1, set by the script): larger type and targets, the same layout */
+  .cq.cq-classroom .cq-text { font-size: 2rem; }
+  .cq.cq-classroom .cq-choice { min-height: 64px; font-size: 1.5rem; }
+  .cq.cq-classroom .cq-num { width: 48px; height: 48px; font-size: 1.2rem; }
+  .cq.cq-classroom .cq-ring { width: 120px; height: 120px; }
+  .cq.cq-classroom .cq-secs { font-size: 2.2rem; }
+  .cq.cq-classroom .cq-btn { min-height: 64px; font-size: 1.3rem; }
+  @media (prefers-reduced-motion: reduce) { .cq-arc { transition: none; } }
+  @media print {
+    .cq-controls, .cq-clock, .cq-lede, .cq-nojs, .cq-list, .cq-done, .no-print { display: none !important; }
+    .cq-sheet { display: block !important; margin-top: 0; border-top: 0; }
+    .cq-table th, .cq-table td { border-color: #000; }
+    .cq-blank { height: 1.8rem; }
+  }
+</style>
