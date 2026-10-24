@@ -105,3 +105,65 @@ Abu Hanifa does not impose the hadd where the act is not in the front of a woman
 
 ## Lesser acts short of intercourse
 Every act short of intercourse carries ta'zir, such as intercourse outside the private part, whether by a Muslim or unbeliever, married or not. Also carrying ta'zir: any other forbidden touching of a woman, embracing or kissing a woman not lawful to the man, exposing the nakedness to another, deceiving women, and procuring, that is bringing men and women together for fornication, or men together for sodomy. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.5442}
+
+## Slander that carries no hadd
+The hadd for slander is applied only when all its conditions hold; if one is missing or defective, the slanderer is disciplined when the slandered person claims. A condition of the hadd is that the slandered person be chaste, so a slanderer is disciplined who accuses a madman or a child of fornication, a woman known for fornication, a man known for it, or a woman with children whose father is unknown; the last three lack chastity. The person slandered must also be identified: one who accuses another man's grandfather without naming him, or a brother where he has several, is disciplined and not given the hadd. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.5443}
+
+Slander by allusion carries no hadd: the Hanafis and Shafi'is impose ta'zir, while Malik imposes the hadd for allusion. Words that do not plainly mean fornication, such as "you libertine", are disciplined, as is an accusation that is not fornication, like calling someone effeminate. Abu Hanifa disciplines one who accuses another of the deed of the people of Lot, since he does not treat that as fornication; Malik, al-Shafi'i, Abu Yusuf and Muhammad impose the slander hadd, and the dispute turns on whether sodomy is fornication. A slander made conditional on a term or a condition is disciplined and not given the hadd. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.5443}
+
+## Abuse and insult
+Where the words are not slander but mere abuse or insult, the act is a wrong with no hadd and so carries ta'zir. Examples are calling a Muslim "Christian", "heretic" or "unbeliever"; calling someone "perjurer" or "hypocrite" when he is not; "usurer", "drinker", "traitor" or "thief" to one not known for it; "fool", "filthy", "stupid" or "tyrant"; "one-eyed" to a man with two good eyes, or "paralysed" to a healthy man. Any insult is in principle a wrong. What counts as an insult is decided by custom: if the words do not bring shame, harm or disgrace in custom, there is no offence. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.5443} {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.5444}
+
+## Theft that carries no hadd
+Theft is a hadd offence only when its conditions hold: it must be secret, of property that belongs to another, in a place of safe keeping (hirz), and of the minimum value (nisab). If a condition fails, there is no hadd but the thief is disciplined. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.5444}
+
+## Highway robbery that carries no hadd
+Highway robbery is also a hadd offence only when its conditions hold: the robber is a mature male, the victim is a Muslim or a protected non-Muslim, the robber's hand over the property is valid, no kinsman within the forbidden degrees is among the victims, the property is valuable, lawful, owned by another, kept, and of the minimum value, and the robbery takes place outside a town. If one fails, the robber is disciplined. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.5444}
+
+## Offences whose basic penalty is ta'zir
+### False testimony
+The Qur'an forbids false speech (Surat al-Hajj, verse 30), and the Prophet counted false speech and false testimony among the greatest sins. Since no fixed penalty applies, ta'zir is due. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.5444} {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.5445}
+
+### Unfounded complaint
+The author of Tabsirat al-hukkam says a person who lodges an unfounded complaint is disciplined. Al-Buhuti says that when a claimant's falsehood is shown and it harmed the defendant, he is disciplined for lying and for the harm. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.5445}
+
+### Killing or harming an animal that does no harm
+The Prophet forbade torment of animals, citing the woman who entered the fire for a cat she locked up. Hanafi jurists hold that cutting the tail of a horse is a wrong that carries ta'zir. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.5445}
+
+### Violating another's property
+Entering another's house without permission is forbidden, and a person found in another's home without consent and without lawful cause is disciplined; the basis is Surat al-Nur (verse 27). {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.5445}
+
+### Offences against the public interest
+Some offences harm the public interest and have no fixed penalty, so they carry ta'zir. Spying for the enemy against Muslims is forbidden (Surat al-Hujurat, verse 12; Surat al-Mumtahanah, verse 1), and details are in the entry on spying. Bribery is forbidden by the Qur'an (Surat al-Ma'idah, verse 42) and by the hadith cursing the giver, the taker and the broker. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.5445} {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.5446}
+
+### Officials who exceed their authority or neglect it
+A judge who deliberately rules unjustly is disciplined, removed, and made liable for the loss from his own property; if he errs without intent, he owes nothing, since a judge is not immune from error (Surat al-Ahzab, verse 5). Any act that halts public work or disrupts its order carries ta'zir, such as an official who abandons his post to obstruct work, rebels in his office, uses force or violence against superiors, or abuses his post to harm another. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.5446} {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.5447}
+
+### Resisting or assaulting officers of the state
+Assaulting public officials or those charged with public service carries ta'zir. Examples include insulting scholars or state officers improperly, by gesture, words or otherwise; striking a soldier, tearing his clothes or abusing him, which carries ta'zir and compensation for any loss; and insulting a court, with its session offences; the judge may pardon these. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.5447}
+
+### Harbouring offenders and escaping detention
+Whoever shelters a robber, thief or similar offender who owes a right to God or a person, and blocks its enforcement, is treated as a partner in the offence and disciplined. He may be ordered to produce the offender or to reveal his place; if he refuses, he is jailed and beaten repeatedly until he complies. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.5447}
+
+### Counterfeiting coins and forgery
+Counterfeiting circulating coins and helping pass or spread debased currency carries ta'zir. Forgery is also a ta'zir offence; Umar punished Ma'n ibn Zaida, who made a seal copying the treasury's seal and took money with it, by a hundred strokes, then a hundred again, then a third hundred, and then banished him. Writing false documents and deeds is also a ground for ta'zir. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.5447}
+
+### Selling above a fixed price, and refusing to sell
+When the ruler fixes prices of necessities, selling above the fixed price carries ta'zir, and refusing to sell is likewise punished, since it is failing a duty. Hoarding necessities to control the price is punished, on the hadith "no one hoards but a sinner". {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.5447} {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.5448}
+
+### Cheating with measures and scales
+Cheating in measure and weight is a wrong with no fixed penalty, so it carries ta'zir, on the Qur'anic command to give full measure (Surat al-Shu'ara', verses 181-183) and the hadith "whoever cheats us is not one of us". {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.5448}
+
+## Suspects
+Ta'zir may be due not for a particular act but for the danger of the person's state. Some jurists discipline a man suspected of theft even when he has committed no new theft, and one known or suspected of offences against the person, such as killing, beating or wounding. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.5448}
+
+## When ta'zir lapses
+Ta'zir lapses by the death of the offender, by pardon, and by repentance. A bodily or liberty-restricting penalty lapses on death, since it attaches to the person: boycott, reproof, imprisonment and beating. A penalty on property, such as a fine or confiscation, does not lapse on death after judgment, because it becomes a debt on the estate. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.5448}
+
+### Pardon
+Pardon is permitted for ta'zir that is a right of God, on the Prophet's words "overlook the punishment of people of standing, except in a hadd of God's", and "pardon the people of standing their slips". Some held pardon is not allowed where the ta'zir is a right of God, as with one who abandons prayer, and others held that where the penalty is prescribed by text, as with intercourse with a slave-girl shared with another, obedience is required, so there is no pardon. Some say pardon suits a first slip and persons of standing, so the offender's standing counts. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.5448} {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.5449}
+
+Where ta'zir is a right of a person, the ruler may leave it and pardon, even if the claimant asks, according to some; most jurists say it cannot be dropped when claimed, like retaliation. If the claimant pardons, his pardon is valid but does not affect the ruler's right. Al-Mawardi separates a pardon before the case reaches the ruler, which leaves him the choice, from a pardon after the case, where he may still discipline, because public correction is a general right. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.5449} {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.5450}
+
+### Repentance
+Jurists differ on the effect of repentance. The Hanafis, Malikis, some Shafi'is and some Hanbalis say repentance does not lapse the penalty, since it is an expiation of the sin, and making it lapse would open a way to claim it falsely. The Shafi'is and Hanbalis in one view say repentance before capture lapses the penalty, by analogy with the hadd for highway robbery, citing the hadith of Anas about the man who said he had done a hadd and the Prophet's question whether he had prayed with them, then said God had forgiven him. Ibn Taymiyya and Ibn al-Qayyim hold that repentance averts ta'zir as it averts the penalty for highway robbery; a right of God lapses, unless the offender chooses the penalty to purify himself, and provided he does not seek it for public rights. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.5450} {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.5451}
