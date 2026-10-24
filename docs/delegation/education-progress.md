@@ -130,3 +130,25 @@ The following merged PRs and commits are ready on `main` for the founder to depl
 - E2 Batch 4 (23 records): PR #1461
 - E2 Final progress & review documentation: PR #1462
 **Notice:** No Worker (`workers/`) or workflow (`.github/workflows/`) file was modified in any of these E2 commits. All changes are static Astro components, TypeScript library code, curriculum data YAMLs, and markdown content files.
+
+## E3 · Reach engines: classroom quiz, daily challenge, fact engine, seasonal packs, offline packs, Where am I?, homework search, Explorers map
+
+**Founder approval:** on 24 October 2026, the founder wrote: "E3 is approved: reach engines (classroom quiz, daily challenge, fact engine, seasonal packs, offline packs, Where am I, homework search, Explorers map)." Recorded in `docs/delegation/education-master-plan.md` §9.1. Label `non-impacting` for the site (plan §5 E3); any new script origin or network call stops for the founder.
+
+**Scope rules for this phase:** no E4 teen routes (the `/shabab/daily/` and `/shabab/where/` mirrors wait for E4); no E5 items; no PDF generation; no change to the submission claims files (`docs/outreach/unesco-nomination-dossier.md`, `docs/outreach/dpga-evidence-map.md`, `docs/outreach/media-licence-audit.md`).
+
+**Steps (one pull request each, merged by the agent after Validate passes):**
+
+| # | Step | Route or artefact | Status |
+|---|---|---|---|
+| 0 | Record the founder's approval (this section, plan §9.1) | docs only | done (this PR) |
+| 1 | Classroom quiz | `/{lang}/learn/teachers/quiz/{trail}/?classroom=1` | pending |
+| 2 | Daily challenge (Century Challenge, Who am I?) and `edu/daily-schedule.json` (366 entries) | `/{lang}/learn/daily/` | pending |
+| 3 | Fact engine: `did_you_know` on entities, 365 facts in batches of at most 25, fact of the day, archive, A4 poster | `/{lang}/learn/facts/` | pending |
+| 4 | Seasonal packs (heritage month, Ramadan, back to school, exam season) and the founder's email texts | `/{lang}/learn/teachers/packs/{season}/`, `docs/outreach/education/` | pending |
+| 5 | Offline packs: one HTML file per unit, inlined, 2 MB or less, checked in `scripts/check-site.ts` | `/{lang}/learn/teachers/offline/{unit}.html` | pending |
+| 6 | Where am I? (gentle version) | `/{lang}/sighar/explorers/where/` | pending |
+| 7 | Homework search: 50 topics × three phrasings in ar, en, ur merged into the search synonyms | `edu/homework-topics.yaml`, search zero-result strip | pending |
+| 8 | Explorers map: world SVG (80 KB or less, 12 hot spots), replacing the placeholder on the Explorers hub | `site/src/data/basemap-world.json`, `/{lang}/sighar/explorers/` | pending |
+
+**Urdu for the founder's review (E3):** listed step by step as each step lands.
