@@ -401,6 +401,15 @@ Still below 3 in the first trail: concept/islam-din, concept/iman, concept/ihsan
 
 Checks: `npm run cite-check` 3 of 3 pass; `npm run validate` 0 errors, 7,295 warnings (unchanged); `npm run graph` and `npm run coverage` regenerated.
 
+## Phase 3, batch 3 (Islam in Thirty Minutes trail): done, one record to 3
+
+- `concept/shahada` raised to completeness 3: the order of the list is witnessed at Ibn Khuzayma p. 192; the Jibril quotation is trimmed to the words on Bukhari p. 32 ("أن تعبد الله ولا تشرك به"). Its Bukhari hadith 8 citation is replaced by Ibn Khuzayma.
+- `concept/islam-din`: removes two sentences not in the local Bukhari scan ("that was Gabriel..." and "all of that is faith") in ar, en and ur, and replaces them with the chapter heading on p. 32, which is in the scan ("Gabriel came to teach you your religion, and made all of that religion"). Hadith 8 is witnessed at Ibn Khuzayma p. 192. Stays at completeness 2: the Najdi hadith's zakat and Ramadan clause (Bukhari 46) and the Sha'rawi paragraph (pp. 593-594) are not re-checked.
+
+Still below 3 in the trail: concept/iman, concept/ihsan, concept/five-pillars, practice/salah, person/muhammad. The trail is not finished.
+
+Checks: `npm run cite-check` 2 of 2 pass; `npm run validate` 0 errors, 7,295 warnings (unchanged); `npm run graph` and `npm run coverage` regenerated.
+
 ## NEXT STEP:
 
 Phase 3 (the general queue) is next. The Showcase queue (`docs/delegation/showcase-queue.md`) lists 1,240 featured records, of which the Egypt and Sicily sets are a small part. The Egypt drafts with Khitat passages are close to exhausted; the Mamluk and Ayyubid entries outside Egypt need another source family. The al-Nasiriyya madrasa stays skipped until a founder or date is found. Two decisions wait for the founder: D16 (merge `place/iskandariyya` into `place/alexandria`) and D15 (Archnet's terms, read in a visible session, or the founder supplies the posture). Also for the founder: the period-file alignment with D26, the Urdu drafts, the Adil place-name conflict, and D28 (two dates for Aybak's independence, both stated).

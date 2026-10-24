@@ -33,6 +33,7 @@ provenance:
   run: core-concepts-1
 sources:
 - source/sahih-al-bukhari
+- source/sahih-ibn-khuzayma
 - source/tanzil-quran
 - source/ibn-rajab-jami-ulum-hikam
 - source/tafsir-sharawi-khawatir-scan-pp-501-1000
@@ -40,4 +41,4 @@ sources:
 status:
   review: draft
   completeness: 2
-  generated_by: Claude Sonnet 5.5; hadith nos. 8, 46, 50 of Sahih al-Bukhari checked against the extracted text of the al-Bugha edition; ayat checked against the frozen Tanzil text
+  generated_by: "Claude Sonnet 5.5; hadith nos. 8, 46, 50 of Sahih al-Bukhari checked against the extracted text of the al-Bugha edition; ayat checked against the frozen Tanzil text. Phase 3 batch 3: the Jibril chapter heading ('Gabriel came to teach you your religion, and made all of that religion') is checked in the local Bukhari scan (p. 32); the sentence 'that was Gabriel...' and 'all of that is faith' were not in the scan and are removed; the five-pillars sentence is witnessed in Ibn Khuzayma p. 192. Completeness stays at 2: the Najdi hadith's zakat and Ramadan clause (Bukhari 46) and the Sha'rawi paragraph (pp. 593-594) are not re-checked"

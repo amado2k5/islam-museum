@@ -6,7 +6,7 @@ translators: ["Devin (SWE-2), draft translation"]
 ---
 
 ## Summary
-"The two testimonies" are the testimony that there is no god but God and that Muhammad is God's messenger — the first thing the Prophet mentioned in his saying "Islam is built on five" {cite:sahih-al-bukhari 8}. They are one of [[concept/five-pillars|the five pillars of Islam]].
+"The two testimonies" are the testimony that there is no god but God and that Muhammad is God's messenger — the first thing the Prophet mentioned in his saying "Islam is built on five" {cite:sahih-ibn-khuzayma p.192}. They are one of [[concept/five-pillars|the five pillars of Islam]].
 
 ## In Gabriel's hadith
 When the Prophet defined [[concept/islam-din|Islam]] for Gabriel he said: "That you worship God and associate nothing with Him" {cite:sahih-al-bukhari 50}.
