@@ -1,0 +1,37 @@
+id: person/ebru-gundes
+class: person
+label: { ar: "أبرو غوندش", en: "Ebru Gündeş", ur: "ایبرو گوندش" }
+names:
+  - { value: "أبرو غوندش", kind: full }
+  - { value: "Ebru Gündeş", kind: full }
+gender: female
+summary:
+  ar: "مغنية بوب فولك وأرابيسك وممثلة وشخصية تلفزيونية تركية، وُلدت في إسطنبول سنة 1974، وحقق ألبومها الأول «تانري ميسافيري» (1993) مبيعات بلغت 1,250,000 نسخة في تركيا، وتوالت ألبوماتها الناجحة وبرامجها التلفزيونية، ومنها عضويتها في لجنة تحكيم «أو سيس تركيا»."
+  en: "Turkish pop-folk and arabesque singer, actress and television personality, born in Istanbul in 1974. Her debut album Tanrı Misafiri (1993) sold 1,250,000 copies in Turkey, and she followed it with a long run of successful albums and television work, including judging on O Ses Türkiye."
+  ur: "ترک پاپ فوک اور ارابیسک گلوکارہ، اداکارہ اور ٹیلی ویژن شخصیت، جو 1974 میں استنبول میں پیدا ہوئیں۔ ان کے پہلے البم نے ترکی میں 1,250,000 کاپیاں فروخت کیں، اور اس کے بعد ان کے کامیاب البمز اور ٹیلی ویژن پروگراموں کا سلسلہ جاری رہا۔"
+roles: [singer, actress]
+wings: [people, living]
+born:
+  edtf: "1974-10-12"
+  hijri: "1394"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "Gregorian date from English Wikipedia and Wikidata; the Arabic Wikipedia article gives 12 June 1974 instead. The Hijri year (1394) is converter-derived."
+  sources: [source/wikipedia-ebru-gundes-en, source/wikidata-ebru-gundes]
+relations:
+  - { type: born_in, target: place/istanbul, sources: [source/wikipedia-ebru-gundes-en, source/wikidata-ebru-gundes] }
+faith:
+  - value: unknown
+    basis: unknown
+    note: "None of the sources consulted records her religion or school: the English and Arabic articles are silent on religion and Wikidata gives no religion statement."
+    sources: [source/wikipedia-ebru-gundes-en, source/wikipedia-ebru-gundes-ar, source/wikidata-ebru-gundes]
+external_ids: { wikidata: "Q469770" }
+sources: [source/wikipedia-ebru-gundes-en, source/wikipedia-ebru-gundes-ar, source/wikidata-ebru-gundes]
+provenance:
+  layer: own-research
+  source: "English Wikipedia article 'Ebru Gündeş' (revision of 24 August 2026), Arabic Wikipedia article «أبرو غوندش» (revision of 2 May 2026), Wikidata Q469770; checked 24 October 2026"
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: modern-figures-batch-3
+status: { review: published, generated_by: "Muse (Muse Spark 1.3)" }

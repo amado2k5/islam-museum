@@ -1,0 +1,48 @@
+id: person/shukri-al-quwatli
+class: person
+label: { ar: "شكري القوتلي", en: "Shukri al-Quwatli", ur: "شکری القوتلی" }
+names:
+  - { value: "شكري بن محمود بن عبد الغني القوتلي", kind: full }
+  - { value: "Shukri al-Quwatli", kind: full }
+gender: male
+summary:
+  ar: "سياسي ورجل دولة سوري، وُلد في دمشق سنة 1891 لأسرة تجارية، ناضل من أجل استقلال سورية ووحدة الأراضي العربية، وصار أول رئيس لسورية بعد الاستقلال، فتولى الرئاسة 1943–1949 ثم 1955–1958، وقاد بلاده إلى الاستقلال التام سنة 1946، وتنازل سنة 1958 ليخلفه جمال عبد الناصر رئيسا للجمهورية العربية المتحدة، وتوفي في بيروت سنة 1967."
+  en: "Syrian politician and statesman, born in Damascus in 1891 to a mercantile family. He worked for Syria's independence and Arab unity, became the first president of post-independence Syria, serving 1943–1949 and again 1955–1958, led the country to full independence in 1946, and stepped down in 1958 for Gamal Abdel Nasser to head the United Arab Republic. He died in Beirut in 1967."
+  ur: "شامی سیاست دان اور ریاست کار، جو 1891 میں دمشق میں پیدا ہوئے۔ وہ آزادیِ شام کے رہنما اور اس کے پہلے صدر بنے (1943–1949، پھر 1955–1958)، ان کی قیادت میں شام کو 1946 میں مکمل آزادی ملی، اور 1958 میں وہ متحدہ عرب جمہوریہ کے حق میں دستبردار ہو گئے۔ ان کا انتقال 1967 میں بیروت میں ہوا۔"
+roles: [politician]
+wings: [people]
+born:
+  edtf: "1891-10-21"
+  hijri: "1309"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "Date from Arabic Wikipedia and Wikidata's precise value; the English Wikipedia lead gives 6 May 1891 instead. The Hijri year (1309) is converter-derived."
+  sources: [source/wikipedia-shukri-al-quwatli-ar, source/wikidata-shukri-al-quwatli]
+died:
+  edtf: "1967-06-30"
+  hijri: "1387"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "Date and Beirut place of death from both Wikipedia articles and Wikidata's precise death value (Wikidata's own place-of-death field gives Jeddah and is not followed). The Hijri year (1387) is converter-derived."
+  sources: [source/wikipedia-shukri-al-quwatli-en, source/wikipedia-shukri-al-quwatli-ar]
+relations:
+  - { type: born_in, target: place/damascus, sources: [source/wikipedia-shukri-al-quwatli-en, source/wikidata-shukri-al-quwatli] }
+  - { type: lived_in, target: place/cairo, sources: [source/wikipedia-shukri-al-quwatli-en] }
+  - { type: lived_in, target: place/alexandria, sources: [source/wikipedia-shukri-al-quwatli-en] }
+faith:
+  - value: unknown
+    basis: unknown
+    note: "The English article describes the Quwatlis as a Sunni Muslim mercantile family from Baghdad. Wikidata gives only Islam, and the Arabic article records no school for him. One source is not enough under the lane rule, so his school is not recorded as sunni."
+    sources: [source/wikipedia-shukri-al-quwatli-en, source/wikidata-shukri-al-quwatli]
+external_ids: { wikidata: "Q59981" }
+sources: [source/wikipedia-shukri-al-quwatli-en, source/wikipedia-shukri-al-quwatli-ar, source/wikidata-shukri-al-quwatli]
+provenance:
+  layer: own-research
+  source: "English Wikipedia article 'Shukri al-Quwatli' (revision of 22 October 2026), Arabic Wikipedia article «شكري القوتلي» (revision of 6 September 2026), Wikidata Q59981; checked 24 October 2026"
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: modern-figures-batch-3
+status: { review: published, generated_by: "Muse (Muse Spark 1.3)" }
