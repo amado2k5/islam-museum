@@ -1,0 +1,35 @@
+id: person/maher-zain
+class: person
+label: { ar: "ماهر زين", en: "Maher Zain", ur: "ماہر زین" }
+names:
+  - { value: "ماهر مصطفى زين", kind: full }
+  - { value: "Maher Mustafa Zain", kind: full }
+gender: male
+summary:
+  ar: "منشد ومغنّي آر أند بي لبناني الأصل سويدي الجنسية، وُلد في طرابلس بلبنان سنة 1981، ونشأ في السويد وعمل منتجا موسيقيا فيها وفي نيويورك، قبل أن يتجه إلى الغناء الديني المعاصر، فحقق ألبومه الأول «شكرا يا الله» (Thank You Allah، 2009) انتشارا عالميا عبر الإنترنت، وتلته ألبومات «سامحني» (2012) و«واحد» (2016) و«العودة إليك» (2026)."
+  en: "Lebanese-Swedish nasheed and R&B singer, born in Tripoli, Lebanon in 1981. Raised in Sweden, he worked as a music producer there and in New York before turning to contemporary Islamic singing; his debut album Thank You Allah (2009) reached a worldwide audience online, followed by Forgive Me (2012), One (2016) and Back To You (2026)."
+  ur: "لبنانی نژاد سویڈش نعت خواں اور گلوکار، جو 1981 میں طرابلس، لبنان میں پیدا ہوئے۔ وہ سویڈن میں پلے بڑھے اور بطور پروڈیوسر کام کرنے کے بعد اسلامی گائیکی کی طرف آئے؛ ان کا پہلا البم «Thank You Allah» (2009) انٹرنیٹ کے ذریعے دنیا بھر میں پھیل گیا۔"
+roles: [singer, songwriter]
+wings: [people, living]
+born:
+  edtf: "1981-07-16"
+  hijri: "1401"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "Gregorian date from English Wikipedia, Arabic Wikipedia and Wikidata; the Hijri year (1401) is converter-derived."
+  sources: [source/wikipedia-maher-zain-en, source/wikidata-maher-zain]
+faith:
+  - value: unknown
+    basis: unknown
+    note: "Both articles describe him as a Muslim singer of Islamic songs; Wikidata gives no religion statement, and neither article gives a school, so none is recorded."
+    sources: [source/wikipedia-maher-zain-en, source/wikipedia-maher-zain-ar, source/wikidata-maher-zain]
+external_ids: { wikidata: "Q2750368" }
+sources: [source/wikipedia-maher-zain-en, source/wikipedia-maher-zain-ar, source/wikidata-maher-zain]
+provenance:
+  layer: own-research
+  source: "English Wikipedia article 'Maher Zain' (revision of 27 September 2026), Arabic Wikipedia article «ماهر زين» (revision of 31 May 2026), Wikidata Q2750368; checked 24 October 2026. No born_in/lived_in relation is written: his birthplace Tripoli (Lebanon) and his Swedish home have no place records in data/place/."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: modern-figures-batch-3
+status: { review: published, generated_by: "Muse (Muse Spark 1.3)" }
