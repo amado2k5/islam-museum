@@ -58,7 +58,7 @@ Average sources per entity: **1.28** · Women share of persons with a recorded g
 | period/modern-era | 1145 |
 | period/mongol-post-mongol | 1307 |
 | period/pre-islamic-arabia | 402 |
-| period/prophetic-era | 2302 |
+| period/prophetic-era | 2301 |
 | period/rashidun | 839 |
 | period/umayyad | 1035 |
 
@@ -146,7 +146,7 @@ Average sources per entity: **1.28** · Women share of persons with a recorded g
 | islam-and-secular-thought | 2 |
 | islam-and-the-modern-state | 6 |
 | islam-and-zoroastrianism | 2 |
-| law-and-courts | 353 |
+| law-and-courts | 355 |
 | laws-of-war-and-peace | 62 |
 | libraries-paper-and-the-book | 11 |
 | linguistics | 77 |
@@ -179,7 +179,7 @@ Average sources per entity: **1.28** · Women share of persons with a recorded g
 | sacred-space-and-pilgrimage | 102 |
 | sacred-time | 33 |
 | science-today | 6 |
-| scripture-and-its-sciences | 601 |
+| scripture-and-its-sciences | 602 |
 | seafaring-and-ports | 1 |
 | sects-and-schools | 111 |
 | sexuality-gender-diversity | 6 |
@@ -200,7 +200,7 @@ Average sources per entity: **1.28** · Women share of persons with a recorded g
 | water-and-animals | 8 |
 | websites-and-apps | 2 |
 | women | 219 |
-| worship-and-the-pillars | 443 |
+| worship-and-the-pillars | 441 |
 | zakat-and-sadaqa | 21 |
 | zoology | 1 |
 
