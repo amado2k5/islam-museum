@@ -419,6 +419,13 @@ Still below 3 in the trail: concept/iman, concept/five-pillars, practice/salah, 
 
 Checks: `npm run cite-check` 1 of 1 pass; `npm run validate` 0 errors, 7,295 warnings (unchanged).
 
+## Phase 3, batch 5 (Islam in Thirty Minutes trail): partial
+
+- `concept/five-pillars`: the list citations (the shahada, prayer, zakat, hajj and fasting bullets, and the summary quotation) now point to Ibn Khuzayma p. 192, and the hajj-before-fast order to p. 906. Quotations in ar, en and ur are aligned with the cited wording (Ibn Khuzayma's order). Stays at completeness 2: the section on the hadith's source still cites Bukhari hadith 8 for the editor's note on Muslim number 16 and for the commentary on "supports" (the niyazaka edition, p. 14, is the local witness, not yet cited).
+- Not started: `concept/iman` (long creed section), `practice/salah` (Quran passages; Bukhari 46 and 8), `person/muhammad` (biography). The trail is not finished: four of its twelve featured records remain below 3 (iman, five-pillars, salah, muhammad).
+
+Checks: `npm run cite-check` 1 of 1 pass; `npm run validate` 0 errors, 7,295 warnings (unchanged); `npm run graph` and `npm run coverage` regenerated.
+
 ## NEXT STEP:
 
 Phase 3 (the general queue) is next. The Showcase queue (`docs/delegation/showcase-queue.md`) lists 1,240 featured records, of which the Egypt and Sicily sets are a small part. The Egypt drafts with Khitat passages are close to exhausted; the Mamluk and Ayyubid entries outside Egypt need another source family. The al-Nasiriyya madrasa stays skipped until a founder or date is found. Two decisions wait for the founder: D16 (merge `place/iskandariyya` into `place/alexandria`) and D15 (Archnet's terms, read in a visible session, or the founder supplies the posture). Also for the founder: the period-file alignment with D26, the Urdu drafts, the Adil place-name conflict, and D28 (two dates for Aybak's independence, both stated).
