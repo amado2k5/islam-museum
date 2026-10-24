@@ -5,20 +5,21 @@ label:
   ar: "ضريح الإمام الشافعي"
   en: "Mausoleum of Imam al-Shafi'i, Cairo"
 summary:
-  ar: "بطاقة أولية لضريح الإمام الشافعي في القاهرة، قبة الإمام التي بناها صلاح الدين؛ لم تُراجع مصادره على الصفحة بعد."
-  en: "Draft card for the Imam al-Shafi'i mausoleum of Cairo, the dome built under Saladin; its sources are not yet checked on the page."
+  ar: "ضريح الإمام الشافعي في القرافة بالقاهرة؛ أنشأ صلاح الدين مدرسة بجواره ووقف عليها جزيرة الفيل (المقريزي، ص 1782، 2061، 2324)."
+  en: "The mausoleum of Imam al-Shafi'i in the Qarafa, Cairo; Saladin built a madrasa beside it and endowed it with Fil island (al-Maqrizi, pp. 1782, 2061, 2324)."
 wings: [objects]
 regions: [egypt-nile]
 periods: [period/crusades-ayyubid-mamluk]
-sources: [source/tarikh-islam-hasan-ibrahim]
+sources: [source/khitat-maqrizi-1998]
 external_ids:
   wikidata: Q12242699
 provenance:
   layer: own-research
-  source: "Wikidata candidate; monument attested in heritage registers — entry not yet checked on the page"
-  generated_by: "Devin (SWE-2 High)"
-  model: "SWE-2 High"
-  run: wikidata-import-wave2
+  source: "al-Maqrizi, al-Mawa'iz wa-l-i'tibar (al-Khitat), Madbouli 1998, scan pp. 1782, 2061, 2324; Wikidata candidate for the identifier"
+  generated_by: "Devin (SWE-2 High); prose by Claude Haiku 5.5 (showcase-prose lane)"
+  model: claude-haiku-5-5
+  run: wikidata-import-wave2, showcase-prose-phase2-egypt-batch11
 status:
-  review: draft
-  completeness: 1
+  review: published
+  completeness: 3
+  generated_by: "Claude Haiku 5.5; the madrasa beside the tomb, its endowment and the small mosque beside it are read from al-Maqrizi's Khitat (local scan, pp. 1782, 2061, 2324). The dome's date and builder are not stated in the passages read: the draft's 'dome built under Saladin' is replaced by the madrasa, which the Khitat does name"

@@ -262,6 +262,20 @@ Checks: `npm run cite-check` 3 of 3 pass; `npm run validate` 0 errors, 7,295 war
 
 Egypt set now: 34 records at completeness 3 (31 + al-lahun + damuna + dar-al-anmat).
 
+### Batch 11 (Phase 2, al-Qarafa and the remaining Fayyum villages): done
+
+- `building/mausoleum-of-imam-al-shafii` raised to completeness 3: pp. 1782, 2061, 2324 (Saladin's madrasa beside the grave, endowed with Fil island; the Nasiriyya madrasa beside the dome, with a teacher of Shafi'i fiqh; al-Kamil's enlargement of the small mosque beside the tomb, Friday prayer in 607 AH). The draft's "dome built under Saladin" is replaced by what the Khitat names.
+- `building/jami-al-qarafa-mosque-cairo` raised to completeness 3: pp. 2437, 2456, 2463 (names; attribution to the Banu Abd Allah ibn Manih; the renewal under al-Amir bi-Ahkam Allah in 520 AH). The builder is not stated outright; the Khitat's line on Tafrid is quoted as the Khitat gives it. The Khitat's other identification (Ibn Abi al-Saghir's mosque, p. 2459) is not resolved (D31).
+- **New** `place/bayad` and `place/al-awsiyya-al-kubra` (completeness 3), both Fayyum villages on the great canal (p. 731). The Awsiyya kura at p. 253 is a Lower Egypt district list and is a different entry.
+
+Skipped and checked: Hawara (the Khitat's Hawara at pp. 554, 597 is a Berber group and a town in Upper Egypt, not the Fayyum place); Batn al-Rayyan (no Khitat hit).
+
+Logged for the founder: the Khitat's Qarafa Nasiriyya (p. 2324) is a madrasa beside al-Shafi'i's dome. It is a different building from the skipped Cairo al-Nasiriyya (the Mansuri hospital's neighbour, pp. 1062); do not merge them without a check.
+
+Checks: `npm run cite-check` 4 of 4 pass; `npm run validate` 0 errors, 7,295 warnings (unchanged); `npm run graph` and `npm run coverage` regenerated.
+
+Egypt set now: 38 records at completeness 3 (34 + the Shafi'i mausoleum and the Qarafa mosque, which were drafts, and the two Fayyum villages).
+
 ## NEXT STEP:
 
-Phase 2, batch 11: the remaining Fayyum towns in the Khitat (Hawara, the Awsiyya villages and Bayad, with a reuse check first; Batn al-Rayyan has no Khitat hit), and the al-Qarafa tombs where the Khitat has a building passage. The al-Nasiriyya madrasa stays skipped until a founder or date is found. Two decisions wait for the founder: D16 (merge `place/iskandariyya` into `place/alexandria`) and D15 (Archnet's terms, read in a visible session, or the founder supplies the posture). Also for the founder: the period-file alignment with D26, the Urdu drafts, the Adil place-name conflict, and D28 (two dates for Aybak's independence, both stated).
+Phase 2, batch 12: the Fustat and Cairo buildings still at completeness 1 where the Khitat has a passage (the church and gate names in the Fustat section, and the Qarafa tombs with a named builder), with a reuse check first. The al-Nasiriyya madrasa stays skipped until a founder or date is found. Two decisions wait for the founder: D16 (merge `place/iskandariyya` into `place/alexandria`) and D15 (Archnet's terms, read in a visible session, or the founder supplies the posture). Also for the founder: the period-file alignment with D26, the Urdu drafts, the Adil place-name conflict, and D28 (two dates for Aybak's independence, both stated).
