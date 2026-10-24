@@ -39,3 +39,12 @@ The Prophet made the pilgrimage with thousands of Muslims, and taught them how t
 - There is disagreement among the accounts about the order of some events (such as coming out of ihram by the umra and the position of Ali). This page follows Ibn Hisham alone, and has not yet been checked against the two Sahihs (Muslim, from the report of Jabir in particular).
 - On the question of the name: "Pilgrimage of Farewell" and "Pilgrimage of Proclamation" are both names that appear in the same printed edition (p. 253).
 - The report of the complaint of Ali's army (p. 250) is two accounts from Ibn Ishaq, and should be read together with what is in the page on Ghadir Khumm.
+
+## For Sprouts
+The Prophet made his only Hajj, and he gave the Farewell Sermon at Arafat, full of great advice about brotherhood and justice.
+
+## For Explorers
+The Prophet made his last pilgrimage, the only Hajj he performed. At Arafat he gave a great sermon in which he urged the people to brotherhood and justice, and it is called the Farewell Sermon.
+
+## For Scholars
+The only pilgrimage the Prophet led, during which he gave the sermon known as the Farewell Sermon. The longest account of its rites is the report of Jabir ibn Abdullah in Sahih Muslim, which includes the sermon at Arafat. The sermon speaks of the sanctity of lives, property and honour, of justice and brotherhood, of the rights of women and of servants, and of holding fast to the Book and the Sunna. Its words are reported in several transmissions, so each sentence has its own source. This entry presents the pilgrimage as the hadith books tell it, and does not add to what they report.

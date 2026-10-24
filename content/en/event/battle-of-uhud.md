@@ -40,3 +40,12 @@ The next day the Prophet called on the people to pursue Quraysh. The Muslims mar
 
 ## The Qur'an and the battle
 About sixty verses of Surat Al 'Imran came down on the matter of Uhud, beginning with the verse [[passage/quran-3-121|آل عمران 121]] {cite:mubarakpuri-raheeq p.193}. The verses address the position of the hypocrites, the cause of the reversal in disobeying the order, and the wisdom of the trial in distinguishing the truthful from the liar.
+
+## For Sprouts
+The battle of Uhud was fought near the mountain. The Muslims learned a lesson there about staying faithful to what they were commanded.
+
+## For Explorers
+In the battle of Uhud, near Mount Uhud, Quraysh had the upper hand at first. Children learn from it that the Prophet told the archers to stay in their places, that patience and obedience matter, and that the Prophet loved his companions and prayed for them.
+
+## For Scholars
+A battle near Mount Uhud in which Quraysh had the upper hand at first, after some Muslims disobeyed the Prophet's order to the archers on the hill and lost what they had been guarding. The sources relate its events through al-Bukhari and others, including the Prophet's charge to the archers, Abu Sufyan's words about the day of Badr, and the Prophet's climb of the mountain with his companions. Accounts of the dead and the missing need exact sources; this entry gives the battle as far as is needed to understand its lessons, without the details of wounds and killing.
