@@ -410,6 +410,15 @@ Still below 3 in the trail: concept/iman, concept/ihsan, concept/five-pillars, p
 
 Checks: `npm run cite-check` 2 of 2 pass; `npm run validate` 0 errors, 7,295 warnings (unchanged); `npm run graph` and `npm run coverage` regenerated.
 
+## Phase 3, batch 4 (Islam in Thirty Minutes trail): done, one record to 3
+
+- `concept/ihsan` raised to completeness 3. The summary's Ibn Rajab sentences are checked in the local Jami' al-Ulum wal-Hikam (pp. 361-363: the wording of 'writing', its obligation, and "if you kill, do it well; if you slaughter, do it well" at p. 363). The Muslim 1955 citation is replaced by Ibn Rajab, which quotes it; the Muslim 8 citation is replaced by Bukhari 50 (p. 32), which is checked locally.
+- Not raised: `concept/five-pillars` (its Bukhari hadith 8 claims are not in the local Bukhari body; they would need Ibn Khuzayma p. 192 throughout, plus a local check of the Muslim 16 note), `concept/iman` (long creed section, many books not re-checked), `practice/salah` (Quran passages and Bukhari 46/8), `person/muhammad` (biography not re-checked).
+
+Still below 3 in the trail: concept/iman, concept/five-pillars, practice/salah, person/muhammad. The trail is not finished.
+
+Checks: `npm run cite-check` 1 of 1 pass; `npm run validate` 0 errors, 7,295 warnings (unchanged).
+
 ## NEXT STEP:
 
 Phase 3 (the general queue) is next. The Showcase queue (`docs/delegation/showcase-queue.md`) lists 1,240 featured records, of which the Egypt and Sicily sets are a small part. The Egypt drafts with Khitat passages are close to exhausted; the Mamluk and Ayyubid entries outside Egypt need another source family. The al-Nasiriyya madrasa stays skipped until a founder or date is found. Two decisions wait for the founder: D16 (merge `place/iskandariyya` into `place/alexandria`) and D15 (Archnet's terms, read in a visible session, or the founder supplies the posture). Also for the founder: the period-file alignment with D26, the Urdu drafts, the Adil place-name conflict, and D28 (two dates for Aybak's independence, both stated).
