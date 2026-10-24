@@ -3,16 +3,19 @@ class: place
 kind: city
 label: { en: "Alexandria", ar: "الإسكندرية" }
 summary:
-  en: "Mediterranean port of Egypt that surrendered to the Muslim army in 641 CE, long a centre of Greek learning and trade."
-  ar: "ميناء مصري على البحر المتوسط سلّم للجيش المسلم سنة 641م، وكان مركزًا قديمًا للعلم اليوناني والتجارة."
+  en: "Mediterranean port of Egypt, the seat of rule in Egypt before Fustat; al-Maqrizi reports it stayed a house of learning and wisdom until the Muslims took it."
+  ar: "ميناء مصري على البحر المتوسط، كانت دار المملكة بمصر قبل الفسطاط؛ يذكر المقريزي أنها ظلت دار العلم ومقر الحكمة إلى أن فتحها المسلمون."
 wings: [place]
 regions: [egypt-nile]
 coordinates: [31.2018, 29.9158]
 coordinate_precision: site
 external_ids: { wikidata: "Q87", geonames: "361058", pleiades: "727070" }
-sources: [source/geonames-gazetteer, source/farghani-elements-astronomy]
-status: { review: draft, completeness: 1, generated_by: "Claude Sonnet 5.5; coordinates from GeoNames; descriptive facts to be checked against reference works" }
+sources: [source/khitat-maqrizi-1998, source/geonames-gazetteer, source/farghani-elements-astronomy]
+status: { review: published, completeness: 3, generated_by: "Claude Haiku 5.5; the seat of rule before Fustat and the Alexander refounding are read from al-Maqrizi's Khitat (local scan, pp. 422, 446, 829); the 641 date that the earlier draft gave is removed (no local source states it); coordinates from GeoNames" }
 
 provenance:
+  layer: own-research
+  source: "al-Maqrizi, al-Mawaiz wa-l-i'tibar (al-Khitat), Madbouli 1998, scan pp. 422, 446, 829; coordinates from GeoNames"
+  generated_by: "Claude Haiku 5.5 (claude-haiku-5-5), showcase-prose lane"
   model: "claude-haiku-5-5"
-  run: "farghani-389-577"
+  run: "showcase-prose-phase2-egypt-batch1"
