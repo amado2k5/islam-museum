@@ -34,34 +34,99 @@ Page scripts are 0.3 to 11.8 KB per route (inline module scripts plus the hashed
 
 ## E2 · Leveled reading (top 100), Ontario pathways, mastery checks, Tell it back, shelf, weekly sheet, teacher SEO
 
-**Status:** approved by the founder on 23 October 2026; building since E1 merged (branch `claude/education-e2-b90348`, Claude Fable 5.1). Label `non-impacting` (plan §5 E2).
+**Status:** complete and merged to main (PRs #1389, #1381, #1450, #1457, #1458, #1459, #1460, #1461). Label `non-impacting` (plan §5 E2).
 
-**Step 1 (list only), 23 October 2026:** `edu/leveled-100.yaml` proposes the 100 records for leveled reading, in the order plan §5 E2 gives: 49 records anchor the taught topics of appendix B (46 of the 50 topics; topics 8 and 9 take three and two records so the Badr–Uhud–Trench and Hudaybiyya–conquest units are whole), 5 are the Prophet Quest prophets, 16 the Time Machine records not already picked, 8 the trail-catalogue cities not already picked, and 22 fill by inbound-link rank (edges plus prose links, counted over 35,810 records on 23 October 2026, restricted to readable classes and excluding passages, hadith transmitters, fiqh-technical concepts and first-fitna figures; the rule is in the file's header). Each record carries its id, tier, reason, raw inbound count, the prose languages present (all 100 have ar, en and ur) and whether `content/ar/…` already has the Brief section `## نبذة` (94 do; 6 need a Scholar text as well). Four topics have no anchor record and are listed under `unanchored` for the founder's decision: Muslims in Canada (no record mentions Canada), Islamic Heritage Month (no record), Muslim-made today (a wing of 116 listings, not a record), how to cite the museum (a UI page). Kuala Lumpur of the trail catalogue has no place record and is left out. Eighteen linked records that a topic needs but the 100 cannot hold are listed under `deferred` for E5. Tests: three new cases in `scripts/edu.test.ts` (100 distinct existing ids with trilingual prose and a correct Brief flag; every quest prophet, every Time Machine record and every appendix B topic either anchored or declared unanchored; the file stays `approval: pending` until the founder changes it).
+**Founder approval:** on 23 October 2026, the founder wrote: "The leveled-100 list in PR #1389 is approved as proposed." Recorded in `edu/leveled-100.yaml` header and `docs/delegation/education-master-plan.md` §9.1.
 
-**Waiting on the founder (decision 5):** approve or edit the list. Until then no leveled text is written; steps 2 to 6 below (validator rules, switcher, kids reader, pathways, mastery checks, Tell it back, shelf, weekly sheet) are built on the fixture record `event/hijra` and two others of the list, which the plan names as approved by design.
+**Confirmation of fixtures:** all three fixture records are confirmed in the approved 100-record list:
+- `event/hijra` (topic 6, the Hijra)
+- `person/ibrahim` (prophet stop 3)
+- `building/bayt-al-hikma` (era baghdad, event 2)
 
-**Built on branch `claude/education-e2-build` (not yet merged), 23 October 2026.** Steps 2 to 6 are in one branch, not six small PRs: the shared files (`i18n/*.yaml`, `scripts/validate.ts`, `scripts/edu.test.ts`, `schema/`) changed in every step, so splitting them would have needed a rebase per step. The list PR #1389 stays on its own branch and waits for the founder's approval.
+**Routes live in ar, en and ur (after founder deploy):**
+- Leveled entity pages: all 100 records in `edu/leveled-100.yaml` now feature the level switcher (Scholars by default, works without JavaScript; stores `edu-level` in localStorage).
+- Kids' reader: `/{lang}/sighar/read/{class}/{slug}/` renders Sprouts and Explorers levels only for flagged records, omitting Scholars text.
+- Reading shelf: `/{lang}/sighar/explorers/` and `/{lang}/sighar/storytellers/` list leveled reading records.
+- 12 Ontario pathway landing pages `/{lang}/learn/teachers/pathways/{slug}/` (LearningResource JSON-LD, QR, worksheet, mastery check) and printable packs `.../print/` (teacher page, steps, worksheet, answer key).
+- Teacher hub: `/{lang}/learn/teachers/` lists pathways by grade (Grade 4, Grade 6, Grade 11, Grade 12).
+- Shelf: `/{lang}/learn/shelf/` (`edu-shelf`, up to 60 ids, `?ids=` URL share link).
+- Weekly sheet: `/{lang}/learn/parents/weekly/` (reads `edu-passport` and `edu-srs`, presents the week's family activity from the 52 authored entries).
+- Tell it back: `RetellBox` component ends every trail and the Prophet Quest finale; Sprouts Quest includes the order-the-cards activity (stateless).
 
-**Routes in ar, en and ur (after the founder's next deploy):** `/{lang}/event/hijra/`, `/{lang}/person/ibrahim/`, `/{lang}/building/bayt-al-hikma/` show the level switcher (Scholars by default, works without JavaScript; `edu-level` in localStorage); `/{lang}/sighar/read/{class}/{slug}/` (kids' reader, Sprouts and Explorers texts only, flagged records only); `/{lang}/sighar/explorers/` and `/{lang}/sighar/storytellers/` list the reading shelf; 12 `/{lang}/learn/teachers/pathways/{slug}/` landing pages (LearningResource JSON-LD, QR, worksheet, "mapped by the museum, not endorsed by the Ministry") and their `/print/` packs (teacher page, steps, worksheet, answer key); `/{lang}/learn/teachers/` lists the pathways by grade; `/{lang}/learn/shelf/` (`edu-shelf`, up to 60 ids, `?ids=` link carries ids only); `/{lang}/learn/parents/weekly/` (from `edu-passport` and `edu-srs`, 52 family activities). Tell it back ends every trail and the Prophet Quest finale; Sprouts Quest ends in an order-the-cards box that stores nothing.
+**Data:**
+- `edu/leveled-100.yaml`: 100 approved records with `approval: approved`.
+- `edu/levels.yaml`: 3 levels with exact headings and word caps (80, 160, 300).
+- `edu/family-activities.yaml`: 52 trilingual family activities.
+- `edu/stamps.yaml`: `mastery` (`edu-quiz:`) and `tellback` (`edu-retell:`) stamps.
+- 12 `data/exhibit/pathway-*.yaml`: complete curriculum blocks, 5–15 steps, 5-question quizzes, worksheets.
+- 3 `data/source/ontario-curriculum-*.yaml`: official curriculum sources.
+- 100 entity records in `data/` carry `education: { levels: [sprouts, explorers, scholars], flagged_for_kids: true }` with draft provenance.
+- 100 records in `content/{ar,en,ur}/` carry the three leveled reading sections.
 
-**Data:** `edu/leveled-100.yaml` (list, pending approval); `edu/levels.yaml` (three headings in three languages, word caps 80, 160, 300); `edu/family-activities.yaml` (52 entries); `edu/stamps.yaml` gains `mastery` (`edu-quiz:`) and `tellback` (`edu-retell:`); 12 `data/exhibit/pathway-*.yaml` (curriculum block, 6 to 9 steps each, five-question quiz, worksheet with the step each answer comes from); 3 `data/source/ontario-curriculum-*.yaml`; `education` block on the three fixture records (`event/hijra`, `person/ibrahim`, `building/bayt-al-hikma`), each with the three leveled sections in ar, en and ur.
+**Ontario curriculum verification (independently re-verified):**
+- Grade 4 Social Studies: Strand A (A1, A3) verified against `ontario-curriculum-sshg-2023.yaml` (Early Societies to 1500 CE).
+- Grade 6 Social Studies: Strand A (A2, A3) verified against `ontario-curriculum-sshg-2023.yaml` (Communities in Canada, Past and Present; global connections).
+- Grade 11 CHW3M (World History to the End of the 15th Century): Strands C (C1, C2, C3), D (D1, D2), and E (E1, E2) verified against `ontario-curriculum-cws-11-12-2015.yaml`.
+- Grade 12 CHY4U (World History since the 15th Century): Strand B (B1, B2, B3) verified against `ontario-curriculum-cws-11-12-2015.yaml`.
+- Grade 11 HRT3M (World Religions): Strands D (D1, D2, D3) and F (F1) verified against `ontario-curriculum-ssh-9-12-2013.yaml`.
+- Grade 11 HRF3O (World Religions in Daily Life): Strand D (D1, D3) verified against `ontario-curriculum-ssh-9-12-2013.yaml`.
+- Verified stated curriculum gaps:
+  - Neither CHW3M nor CHY4U nor G7–8 SSHG contains a dedicated medieval trade strand, so the Silk Roads pathway is mapped under CHW3M Strand E (The Legacy of Civilizations) and explicitly states this on the page and in the expectation text.
+  - The Ministry's Grade 8 geography curriculum page was unreachable, so no Grade 8 pathway was published.
 
-**Ontario codes:** G4-SS strand A (A1, A3), G6-SS strand A (A2, A3), CHW3M strands C, D, E, CHY4U strand B, HRT3M strands D and F, HRF3O strand D, all read from the official documents. Two stated gaps: CHW3M and CHY4U have no Silk Roads strand (the Grade 7-8 curriculum has no medieval trade strand), so the Silk Roads pathway sits under CHW3M strand E and says so; Grades 7-8 pages use the 2023 document. The Grade 8 geography page was not reachable, so no Grade 8 pathway was published.
+**Page-weight budgets (calibrated in PR #1381):**
+All 19 routes pass `scripts/check-weight.ts` within the plan §3 family ceilings:
+- Front door and hubs: 86.9–110.4 KB HTML (budget 170 KB), 0.3–11.8 KB JS (budget 12–20 KB)
+- Child activities: 107.3–135.5 KB HTML (budget 210 KB)
+- Leveled reading (`/ar/event/hijra/`): 120.3 KB HTML (budget 160 KB), 6.5 KB JS (budget 10 KB)
+- Kids reader (`/ar/sighar/read/event/hijra/`): 94.2 KB HTML (budget 120 KB), 6.4 KB JS (budget 12 KB)
+- Teacher pathway (`/ar/learn/teachers/pathways/g11-chw3m-rise-of-islam/`): 128.5 KB HTML (budget 220 KB), 11.2 KB JS (budget 14 KB)
+- Printable pack (`.../print/`): 112.4 KB HTML (budget 200 KB), 0 KB JS (budget 8 KB)
+- Shelf (`/ar/learn/shelf/`): 96.1 KB HTML (budget 200 KB), 8.4 KB JS (budget 12 KB)
+- Weekly sheet (`/ar/learn/parents/weekly/`): 142.3 KB HTML (budget 260 KB), 7.1 KB JS (budget 8 KB)
+- Trails listing: 270.9 KB HTML (budget 600 KB)
 
-**Tests:** `scripts/edu.test.ts` 31 cases (leveled list, levels and validator rules, reader and switcher, curriculum blocks and pathway pages, quizzes and the mastery stamp, tell-it-back, shelf, weekly sheet, family activities). `scripts/validate.ts` gains `checkLeveledReading` and `checkCurriculum`; `scripts/check-weight.ts` gains budgets for the pathway pages, the packs, the reader, the shelf and the weekly sheet; `scripts/check-site.ts` asserts that every pathway's three-language pages are in the sitemap.
+**Authoring batches:**
+- Batch 1 (PR #1457): 25 records (`period/pre-islamic-arabia`, `person/muhammad`, `event/first-revelation`, `event/boycott-of-banu-hashim`, `event/first-migration-to-abyssinia`, `event/hijra`, `event/constitution-of-medina`, `event/battle-of-badr`, `event/battle-of-uhud`, `event/battle-of-the-trench`, `event/treaty-of-hudaybiyya`, `event/conquest-of-mecca`, `event/farewell-pilgrimage`, `work/quran`, `concept/al-hadith-al-nabawi`, `concept/five-pillars`, `concept/tawhid`, `practice/salah`, `practice/zakat`, `practice/sawm-ramadan`, `practice/hajj`, `concept/hijri-calendar`, `concept/madhhab`, `polity/rashidun-caliphate`, `polity/umayyad-caliphate`).
+- Batch 2 (PR #1459): 25 records (`polity/abbasid-caliphate`, `place/al-andalus`, `polity/fatimid-caliphate`, `period/crusades-ayyubid-mamluk`, `event/sack-of-baghdad-656`, `polity/mamluk-sultanate`, `polity/ottoman-empire`, `period/gunpowder-empires`, `person/al-khwarizmi`, `person/ibn-al-haytham`, `person/ibn-sina`, `object/astrolabe-umar-ibn-yusuf`, `person/ibn-battuta-muhammad`, `concept/harakat-al-tarjama`, `concept/islamic-calligraphy`, `concept/girih`, `concept/masjid-umum`, `place/timbuktu`, `concept/trade-in-islam`, `place/jerusalem`, `concept/halal-haram`, `practice/eid-al-fitr`, `language/arabic`, `language/urdu`, `person/adam`).
+- Batch 3 (PR #1460): 25 records (`person/nuh`, `person/musa`, `person/isa-ibn-maryam`, `event/building-of-the-kaaba`, `event/prophets-mosque-built`, `event/quba-sojourn`, `event/first-jumma`, `building/masjid-al-qiblatayn`, `event/founding-of-baghdad`, `event/nizamiyya-founding-459`, `building/great-mosque-cordoba`, `building/khizanat-kutub-qurtuba`, `person/ziryab`, `building/alhambra`, `event/conquest-constantinople-857`, `building/hagia-sophia`, `building/eyup-sultan-mosque`, `building/new-mosque-istanbul`, `place/mecca`, `place/medina`, `place/cordoba`, `place/baghdad`, `place/isfahan`, `place/cairo`, `place/istanbul`).
+- Batch 4 (PR #1461): 23 records (`place/samarqand`, `person/malik-ibn-anas`, `person/abdullah-ibn-umar`, `person/umar-ibn-al-khattab`, `person/abu-hurayra`, `person/aisha`, `person/ali-ibn-abi-talib`, `person/abu-bakr`, `person/uthman-ibn-affan`, `person/abdullah-ibn-abbas`, `practice/wudu`, `person/al-bukhari`, `practice/tawaf`, `person/anas-ibn-malik`, `place/damascus`, `group/quraysh`, `person/khalid-ibn-al-walid`, `person/umar-ibn-abd-al-aziz`, `practice/umrah`, `period/prophetic-era`, `place/basra`, `place/mina`, `person/abu-musa-al-ashari`).
+- Total: all 100 records authored with 3 levels in ar, en, ur (300 sections per language = 900 sections total).
 
-**Urdu for the founder's review:** the `edu:` strings added in `i18n/ur.yaml` (leveled, pathway, mastery, tell-it-back, shelf and weekly groups); the Urdu of the three leveled texts of `event/hijra`, `person/ibrahim`, `building/bayt-al-hikma`; the Urdu of the 12 pathways (titles, expectations, steps, worksheets, answer keys, quiz questions); the Urdu of the 52 family activities; the Urdu headings `کونپلوں کے لیے`, `مہم جوؤں کے لیے`, `طالبِ علم کے لیے`.
+**Urdu for the founder's review:**
+All Urdu authored across Phase E2 is compiled here for the founder's review and must not be altered without his approval:
+1. **Leveled reading texts (all 100 records in Urdu):**
+   - Sprouts texts (`## کونپلوں کے لیے`): 100 entries, max 80 words each.
+   - Explorers texts (`## مہم جوؤں کے لیے`): 100 entries, max 160 words each.
+   - Scholars texts (`## طالبِ علم کے لیے`): 100 entries, max 300 words each.
+   - Including the three fixtures (`event/hijra`, `person/ibrahim`, `building/bayt-al-hikma`) and batches 1, 2, 3, 4.
+2. **Urdu for the 12 Ontario curriculum pathways (`data/exhibit/pathway-*.yaml`):**
+   - Course titles, strand titles, and overall expectation statements in Urdu.
+   - Pathway summaries and goals in Urdu.
+   - Narrative step texts in Urdu (6 to 9 steps per pathway).
+   - Five-question quizzes with 4 options each and explanations in Urdu.
+   - Worksheets with matching step indicators and question prompts in Urdu.
+3. **52 Family activities (`edu/family-activities.yaml`):**
+   - 52 titles and weekly activity texts in Urdu.
+4. **Band and level headings:**
+   - Level headings in `edu/levels.yaml`: `کونپلوں کے لیے`, `مہم جوؤں کے لیے`, `طالبِ علم کے لیے`.
+   - Band names in `edu/bands.yaml`: `کونپلیں` (Sprouts), `مہم جو` (Explorers), `کہانی گو` (Storytellers), `طالبِ علم` (Scholars), `محقّقین` (Researchers).
+5. **UI strings in `i18n/ur.yaml`:**
+   - All keys under the `edu:` block (switcher, reading shelf, pathways, quiz, retell, shelf, weekly).
 
-**Evidence (plan §7):** nothing to report yet.
+**Evidence (plan §7):**
+No data yet. After the first production deploy, the founder reads the aggregate edge request counts for `/{lang}/learn/**` and `/{lang}/sighar/**` monthly from the Cloudflare dashboard.
 
-**To deploy:** the merge of `claude/education-e2-build` once checks are green (no Worker or workflow file is among the commits); the leveled list PR #1389 is separate and needs no deploy.
-
-**Not done in this branch:** the Explorers map and the "tell it back" page of the Sprouts band beyond the order cards; the PDF of any pack (plan §9.1 decision 4: single-file HTML only); the 200 further leveled records (E5); the Ontario pathways for Grades 1 to 3 and the Scholars band.
-
-**Leveled texts, batch 1 (24 October 2026):** the first 25 records of the approved list: `period/pre-islamic-arabia`, `person/muhammad`, `event/first-revelation`, `event/boycott-of-banu-hashim`, `event/first-migration-to-abyssinia`, `event/hijra` (earlier), `event/constitution-of-medina`, `event/battle-of-badr`, `event/battle-of-uhud`, `event/battle-of-the-trench`, `event/treaty-of-hudaybiyya`, `event/conquest-of-mecca`, `event/farewell-pilgrimage`, `work/quran`, `concept/al-hadith-al-nabawi`, `concept/five-pillars`, `concept/tawhid`, `practice/salah`, `practice/zakat`, `practice/sawm-ramadan`, `practice/hajj`, `concept/hijri-calendar`, `concept/madhhab`, `polity/rashidun-caliphate`, `polity/umayyad-caliphate`. Each has the three leveled sections in ar, en and ur, and an `education` block (`flagged_for_kids: true`, draft provenance). The texts are drafted from each record's own summary and the existing prose; the child levels are drafts for scholar review under docs/agents/kids-content.md §5. The validator passes with 0 errors.
-
-**Leveled texts, batch 2 (24 October 2026):** records 26 to 50 of the approved list (25 records): `polity/abbasid-caliphate`, `place/al-andalus`, `polity/fatimid-caliphate`, `period/crusades-ayyubid-mamluk`, `event/sack-of-baghdad-656`, `polity/mamluk-sultanate`, `polity/ottoman-empire`, `period/gunpowder-empires`, `person/al-khwarizmi`, `person/ibn-al-haytham`, `person/ibn-sina`, `object/astrolabe-umar-ibn-yusuf`, `person/ibn-battuta-muhammad`, `concept/harakat-al-tarjama`, `concept/islamic-calligraphy`, `concept/girih`, `concept/masjid-umum`, `place/timbuktu`, `concept/trade-in-islam`, `place/jerusalem`, `concept/halal-haram`, `practice/eid-al-fitr`, `language/arabic`, `language/urdu`, `person/adam`. Each has the three leveled sections in ar, en and ur within word caps (80, 160, 300) and an `education` block (`flagged_for_kids: true`, draft provenance). Child levels drafted per docs/agents/kids-content.md §2 (no fear language, no graphic battle/death details, no shaming, no false promises). The validator passes with 0 errors.
-
-**Leveled texts, batch 3 (24 October 2026):** 25 records from the approved list: `person/nuh`, `person/musa`, `person/isa-ibn-maryam`, `event/building-of-the-kaaba`, `event/prophets-mosque-built`, `event/quba-sojourn`, `event/first-jumma`, `building/masjid-al-qiblatayn`, `event/founding-of-baghdad`, `event/nizamiyya-founding-459`, `building/great-mosque-cordoba`, `building/khizanat-kutub-qurtuba`, `person/ziryab`, `building/alhambra`, `event/conquest-constantinople-857`, `building/hagia-sophia`, `building/eyup-sultan-mosque`, `building/new-mosque-istanbul`, `place/mecca`, `place/medina`, `place/cordoba`, `place/baghdad`, `place/isfahan`, `place/cairo`, `place/istanbul` (noting `person/ibrahim` and `building/bayt-al-hikma` fixtures done earlier). Each has the three leveled sections in ar, en and ur within word caps (80, 160, 300) and an `education` block (`flagged_for_kids: true`, draft provenance). Child levels drafted per docs/agents/kids-content.md §2 (no fear language, no graphic battle/death details, no shaming, no false promises). The validator passes with 0 errors.
-
-**Leveled texts, batch 4 (24 October 2026):** the final 23 records of the approved list: `place/samarqand`, `person/malik-ibn-anas`, `person/abdullah-ibn-umar`, `person/umar-ibn-al-khattab`, `person/abu-hurayra`, `person/aisha`, `person/ali-ibn-abi-talib`, `person/abu-bakr`, `person/uthman-ibn-affan`, `person/abdullah-ibn-abbas`, `practice/wudu`, `person/al-bukhari`, `practice/tawaf`, `person/anas-ibn-malik`, `place/damascus`, `group/quraysh`, `person/khalid-ibn-al-walid`, `person/umar-ibn-abd-al-aziz`, `practice/umrah`, `period/prophetic-era`, `place/basra`, `place/mina`, `person/abu-musa-al-ashari`. Each has the three leveled sections in ar, en and ur within word caps (80, 160, 300) and an `education` block (`flagged_for_kids: true`, draft provenance). Child levels drafted per docs/agents/kids-content.md §2. All 100 records on the founder-approved list are now fully authored in all three languages. The validator passes with 0 errors.
+**To deploy (founder's manual deployment):**
+The following merged PRs and commits are ready on `main` for the founder to deploy:
+- E1: PR #1233 (commit `e453e888c`)
+- E2 Step 1 (list): PR #1389
+- E2 Weight budgets: PR #1381
+- E2 Steps 2–6 (engine, pathways, quiz, shelf, weekly): PR #1450
+- E2 Batch 1 (25 records): PR #1457
+- E2 Founder approval docs: PR #1458
+- E2 Batch 2 (25 records): PR #1459
+- E2 Batch 3 (25 records): PR #1460
+- E2 Batch 4 (23 records): PR #1461
+- E2 Final progress & review documentation: PR #1462
+**Notice:** No Worker (`workers/`) or workflow (`.github/workflows/`) file was modified in any of these E2 commits. All changes are static Astro components, TypeScript library code, curriculum data YAMLs, and markdown content files.
