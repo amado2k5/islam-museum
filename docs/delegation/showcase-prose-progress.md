@@ -504,6 +504,15 @@ Checks: `npm run cite-check -- concept/islam-din` PASS; `npm run validate` 0 err
 
 Checks: `npm run cite-check -- concept/iman` PASS; `npm run validate` 0 errors, 7,295 warnings (unchanged).
 
+## Phase 3, batch 13 (trail: exhibit/path-islam-in-30-minutes): completeness 3
+
+- Every featured record is at completeness 3 (concept/islam-din, concept/iman, concept/ihsan, concept/five-pillars, concept/shahada, practice/salah, practice/zakat, practice/sawm-ramadan, practice/hajj, person/muhammad, event/first-revelation, event/hijra).
+- Corrected step text: the iman room said "Islam is outward works and iman is inner assent", which the iman record does not support; it now says the hadith asks about iman, Islam and ihsan, and that the open question is whether deeds belong to iman. The ihsan room said the third rank "completes the ordering of the religion"; it now says "after Islam and iman". The shahada room said it is the pillar "by which a person enters Islam"; it now says it is first in the order of Ibn Umar's hadith.
+- Trail sources now name the al-Bugha edition and Ibn Khuzayma in place of the Rahimiyya-labelled Bukhari.
+- The zakat, fasting and Hijra room texts were checked against their records and kept.
+
+Checks: `npm run validate` 0 errors, 7,295 warnings (unchanged).
+
 ## NEXT STEP:
 
 Phase 3 (the general queue) is next. The Showcase queue (`docs/delegation/showcase-queue.md`) lists 1,240 featured records, of which the Egypt and Sicily sets are a small part. The Egypt drafts with Khitat passages are close to exhausted; the Mamluk and Ayyubid entries outside Egypt need another source family. The al-Nasiriyya madrasa stays skipped until a founder or date is found. Two decisions wait for the founder: D16 (merge `place/iskandariyya` into `place/alexandria`) and D15 (Archnet's terms, read in a visible session, or the founder supplies the posture). Also for the founder: the period-file alignment with D26, the Urdu drafts, the Adil place-name conflict, and D28 (two dates for Aybak's independence, both stated).
