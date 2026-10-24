@@ -72,6 +72,18 @@ stamps:
     href: /cards/challenge/
     label: { ar: "تحدّي الثلاثين يومًا: سبعة أيام", en: "Thirty-day challenge: seven days", ur: "تیس دن کا چیلنج: سات دن" }
     earn: { key: "cards-challenge-", rule: "prefix-keys-min:7" }
+  - id: mastery
+    band: storytellers
+    icon: "✅"
+    href: /learn/trails/
+    label: { ar: "فحص الإتقان: نجحت في فحص مسار", en: "Mastery check: passed a trail's check", ur: "مہارت کی جانچ: ایک راستے کی جانچ پاس کی" }
+    earn: { key: "edu-quiz:", rule: "prefix-any" }
+  - id: tellback
+    band: storytellers
+    icon: "🗣️"
+    href: /learn/trails/
+    label: { ar: "احكِها من جديد: حكيت ما تعلّمته", en: "Tell it back: retold what you learned", ur: "دوبارہ سناؤ: جو سیکھا وہ سنایا" }
+    earn: { key: "edu-retell:", rule: "prefix-any" }
 status: { review: draft }
 provenance:
   generated_by: "Claude Code"

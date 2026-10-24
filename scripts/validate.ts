@@ -8,7 +8,7 @@ import { createHash } from "node:crypto";
 import Ajv2020 from "ajv/dist/2020.js";
 import addFormats from "ajv-formats";
 import edtf from "edtf";
-import { CLASSES, LANGS, PUBLISHED_LANGS, loadEntities, loadPredicates, loadProse, loadStubs, p, readYaml, rel, resolvePredicates } from "./lib.js";
+import { CLASSES, LANGS, PUBLISHED_LANGS, loadEntities, loadPredicates, loadProse, loadStubs, p, readYaml, rel, resolvePredicates, type Prose } from "./lib.js";
 import { hijriToCivil, toJDN } from "./hijri/convert.js";
 
 export interface Issue { level: "error" | "warn"; file: string; msg: string }
@@ -66,6 +66,134 @@ function* textFields(o: any, path = ""): Generator<[string, string]> {
 export function frozenQuranTextProblem(ref: string, text: string, tanzil: Map<string, string> | undefined): string | null {
   if (tanzil && tanzil.get(ref) !== text) return `Qur'an text of ${ref} differs from the frozen Tanzil file (the text is never edited; regenerate with scripts/harvest/quran/generate.py)`;
   return null;
+}
+
+// ---- leveled reading (edu/levels.yaml; docs/delegation/education-master-plan.md §5 E2, decision 3 of §9.1)
+// Three optional sections under fixed headings per language inside the prose file. Each is capped in words, present in
+// all three published languages or in none, declared in the record's `education.levels`, and the two child levels obey
+// the kids' rulebook (docs/agents/kids-content.md §2: no fear, no gore, no shaming, no promises; §3: no perspectives).
+export interface LevelDef { id: string; band: string; child: boolean; max_words: number; heading: Record<string, string> }
+let levelDefs: LevelDef[] | null = null;
+export function loadLevels(): LevelDef[] {
+  if (!levelDefs) levelDefs = (readYaml(p("edu", "levels.yaml")).levels ?? []) as LevelDef[];
+  return levelDefs;
+}
+/** Words a reader sees: links reduced to their label, citation markers removed, whitespace-separated. */
+export const levelWordCount = (md: string): number =>
+  md.replace(/\[\[[^\]|]+\|([^\]]*)\]\]/g, "$1").replace(/\[\[[^\]]+\]\]/g, "").replace(/\{cite:[^}]*\}/g, "").split(/\s+/).filter(Boolean).length;
+// What never enters a child level, whatever the language (kids rulebook §2). Whole words only; names and ordinary
+// story words (battle, journey, sea) are allowed because the rule is about gore and threats, not about events.
+const KIDS_BANNED: { what: string; re: RegExp }[] = [
+  { what: "fear-based language (hell, torment, punishment)", re: /(?<!\p{L})(جهنم|عذاب|يعذب|يعذّب|سيُعذَّب|hell|hellfire|torment|torture|punish(?:ed|ment|es)?|جہنم|دوزخ|عذاب)(?!\p{L})/iu },
+  { what: "graphic battle or death detail", re: /(?<!\p{L})(قُتل|قتلوا|قتلوه|مجزرة|الدماء|دماء|ذُبح|جثث|جثة|killed|slaughtered?|massacre|blood|bloodshed|corpses?|gore|قتل|خون|ذبح|لاشیں|لاش)(?!\p{L})/iu },
+  { what: "moral shaming of the child", re: /(?<!\p{L})(يا للعار|عار عليك|لا تكن جبانًا|لا تكن جبانا|shame on you|naughty|coward|cowardly|شرم کرو|بزدل)(?!\p{L})/iu },
+  { what: "a promise the museum cannot keep", re: /(?<!\p{L})(سيضمن الله|سوف ينجح دائمًا|will always succeed|guarantees? that|always be rewarded|ہمیشہ کامیاب)(?!\p{L})/iu },
+];
+export function checkLeveledReading(prose: Prose[], loaded: { entity: any; file: string }[]): Issue[] {
+  const issues: Issue[] = [];
+  const err = (file: string, msg: string) => issues.push({ level: "error", file, msg });
+  const levels = loadLevels();
+  const byHeading = new Map<string, { lvl: LevelDef; lang: string }>();
+  for (const l of levels) for (const [lang, h] of Object.entries(l.heading)) byHeading.set(h, { lvl: l, lang });
+  const present = new Map<string, Map<string, Set<string>>>(); // id -> level -> langs
+  const proseFile = new Map<string, string>(); // id:lang -> file
+  for (const pr of prose) {
+    proseFile.set(`${pr.id}:${pr.lang}`, pr.file);
+    let cur: { heading: string; lines: string[] } | null = null;
+    const sections: { heading: string; body: string }[] = [];
+    for (const line of pr.body.split("\n")) {
+      const m = line.match(/^## (.+)$/);
+      if (m) { if (cur) sections.push({ heading: cur.heading, body: cur.lines.join("\n") }); cur = { heading: m[1].trim(), lines: [] }; }
+      else if (cur) cur.lines.push(line);
+    }
+    if (cur) sections.push({ heading: cur.heading, body: cur.lines.join("\n") });
+    for (const sec of sections) {
+      const hit = byHeading.get(sec.heading);
+      if (!hit) continue;
+      const { lvl, lang } = hit;
+      if (lang !== pr.lang) { err(pr.file, `"## ${sec.heading}" is the ${lvl.id} heading for ${lang}; in ${pr.lang} prose write "## ${lvl.heading[pr.lang]}" (edu/levels.yaml)`); continue; }
+      const langs = present.get(pr.id) ?? new Map<string, Set<string>>();
+      present.set(pr.id, langs);
+      if (langs.get(lvl.id)?.has(pr.lang)) err(pr.file, `"## ${sec.heading}" appears twice`);
+      langs.set(lvl.id, (langs.get(lvl.id) ?? new Set()).add(pr.lang));
+      const body = sec.body.trim();
+      if (!body) { err(pr.file, `"## ${sec.heading}" is empty`); continue; }
+      const n = levelWordCount(body);
+      if (n > lvl.max_words) err(pr.file, `"## ${sec.heading}" has ${n} words; the ${lvl.id} level allows at most ${lvl.max_words} (edu/levels.yaml)`);
+      if (lvl.child) {
+        if (/:::perspectives/.test(body)) err(pr.file, `"## ${sec.heading}" is a child level and must not carry a perspectives block (docs/agents/kids-content.md §3)`);
+        for (const b of KIDS_BANNED) { const m = body.match(b.re); if (m) err(pr.file, `"## ${sec.heading}" is a child level and contains ${b.what}: "${m[0]}" (docs/agents/kids-content.md §2)`); }
+      }
+    }
+  }
+  const byId = new Map(loaded.map((x) => [x.entity.id, x]));
+  const all = PUBLISHED_LANGS as readonly string[];
+  for (const [id, langsByLevel] of present) {
+    const ent = byId.get(id);
+    for (const [lvl, langs] of langsByLevel) {
+      const missing = all.filter((l) => !langs.has(l));
+      if (missing.length) err(proseFile.get(`${id}:${[...langs][0]}`) ?? id, `level ${lvl} exists in ${[...langs].sort().join(", ")} but not in ${missing.join(", ")}: a leveled section is present in all three languages or in none`);
+    }
+    if (!ent) continue;
+    const declared: string[] = [...(ent.entity.education?.levels ?? [])].sort();
+    const found = [...langsByLevel.keys()].sort();
+    if (declared.join() !== found.join()) err(ent.file, `education.levels [${declared.join(", ")}] must match the leveled sections in content/ [${found.join(", ")}]`);
+  }
+  for (const { entity, file } of loaded) {
+    const edu = entity.education;
+    if (!edu) continue;
+    if (edu.levels?.length && !present.has(entity.id)) err(file, `education.levels [${edu.levels.join(", ")}] declared but content/ has no leveled section for ${entity.id}`);
+    if (edu.flagged_for_kids && !(edu.levels ?? []).includes("explorers")) err(file, "education.flagged_for_kids needs the explorers level: the kids' reader shows the Sprout and Explorer texts");
+  }
+  return issues;
+}
+
+// ---- curriculum pathways (docs/delegation/education-master-plan.md §5 E2): a lesson trail mapped to a jurisdiction's
+// curriculum must be walkable by a class (5 to 15 steps over existing records), addressed to teachers and students,
+// levelled, and explained in the three published languages in the museum's own words.
+export function checkCurriculum(loaded: { entity: any; file: string }[]): Issue[] {
+  const issues: Issue[] = [];
+  const err = (file: string, msg: string) => issues.push({ level: "error", file, msg });
+  const ids = new Set(loaded.map((x) => x.entity.id));
+  for (const { entity: e, file } of loaded) {
+    // mastery check (plan §5 E2): 5 questions, 4 options, one answer, each teaching a step of this trail, in three languages
+    if (e.quiz) {
+      const n = (e.rooms ?? []).length;
+      if (e.class !== "exhibit") err(file, "quiz: only an exhibit carries a mastery check");
+      if (e.quiz.length !== 5) err(file, `quiz: a mastery check has exactly 5 questions, this one has ${e.quiz.length}`);
+      e.quiz.forEach((q: any, i: number) => {
+        if ((q.options ?? []).length !== 4) err(file, `quiz ${i + 1}: four options`);
+        if (!Number.isInteger(q.answer) || q.answer < 0 || q.answer > 3) err(file, `quiz ${i + 1}: answer is the index of the right option, 0 to 3`);
+        if (!Number.isInteger(q.teaches) || q.teaches < 0 || q.teaches >= n) err(file, `quiz ${i + 1}: teaches must point to a step of this trail (0 to ${n - 1})`);
+        for (const l of PUBLISHED_LANGS) { if (!q.q?.[l]) err(file, `quiz ${i + 1}: question lacks ${l}`); (q.options ?? []).forEach((o: any, k: number) => { if (!o?.[l]) err(file, `quiz ${i + 1}: option ${k + 1} lacks ${l}`); }); }
+        const en = (q.options ?? []).map((o: any) => o?.en).filter(Boolean);
+        if (new Set(en).size !== en.length) err(file, `quiz ${i + 1}: options repeat`);
+      });
+    }
+    const c = e.curriculum;
+    if (!c) continue;
+    if (e.class !== "exhibit" || e.kind !== "lesson") err(file, "curriculum: only an exhibit of kind lesson carries a curriculum block");
+    const rooms: any[] = e.rooms ?? [];
+    if (rooms.length < 5 || rooms.length > 15) err(file, `curriculum: a pathway has 5 to 15 steps, this one has ${rooms.length}`);
+    for (const a of ["teacher", "student"]) if (!(e.audience ?? []).includes(a)) err(file, `curriculum: audience must include ${a}`);
+    if (!e.level) err(file, "curriculum: a pathway states its level (intro, standard or deep)");
+    if (!e.duration_minutes) err(file, "curriculum: a pathway states its duration_minutes");
+    for (const l of PUBLISHED_LANGS) {
+      if (!c.expectation?.[l]) err(file, `curriculum.expectation lacks ${l}: write the mapping in the museum's words in all three languages`);
+      if (!e.goal?.[l]) err(file, `curriculum: a pathway states its goal in ${l}`);
+    }
+    (e.worksheet ?? []).forEach((w: any, i: number) => {
+      for (const l of PUBLISHED_LANGS) if (!w?.prompt?.[l]) err(file, `worksheet prompt ${i + 1} lacks ${l}`);
+      for (const k of w?.steps ?? []) if (!Number.isInteger(k) || k < 0 || k >= rooms.length) err(file, `worksheet prompt ${i + 1} points to step ${k}, which is not a step of this pathway`);
+    });
+    if (!(e.worksheet ?? []).length) err(file, "curriculum: a pathway ships a worksheet (at least one prompt)");
+    if (!(e.quiz ?? []).length) err(file, "curriculum: a pathway ends with a mastery check (quiz of 5 questions)");
+    rooms.forEach((r, i) => {
+      for (const f of r.features ?? []) if (!ids.has(f)) err(file, `curriculum: step ${i + 1} names ${f}, which is not a record`);
+      if (!(r.features ?? []).length) err(file, `curriculum: step ${i + 1} names no record`);
+    });
+  }
+  return issues;
 }
 
 export function validateAll(extra: { entity: any; file: string }[] = []): { issues: Issue[]; entityCount: number; proseCount: number } {
@@ -357,6 +485,8 @@ export function validateAll(extra: { entity: any; file: string }[] = []): { issu
     }
     if (!/^## /m.test(pr.body)) warn(pr.file, "no section headings");
   }
+  for (const i of checkLeveledReading(prose, loaded)) issues.push(i);
+  for (const i of checkCurriculum(loaded)) issues.push(i);
   for (const { entity, file } of loaded) {
     if (["person", "event"].includes(entity.class) && !seen.has(`ar:${entity.id}`) && entity.status?.completeness >= 2) {
       warn(file, "completeness >= 2 but no Arabic prose in content/ar/");

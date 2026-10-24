@@ -6,6 +6,7 @@ import Hudhud from "./Hudhud.astro";
 import type { QuestStopView } from "../lib/kids";
 import { ui, fmt, type Lang } from "../lib/i18n";
 
+import TellItBack from "./TellItBack.astro";
 interface Props { lang: Lang; t: Record<string, string>; stops: QuestStopView[] }
 const { lang, t, stops } = Astro.props;
 const T = ui(lang);
@@ -66,6 +67,7 @@ const valuesJoined = stops.map((s) => s.value).join(sep);
       <button type="button" class="kids-btn ghost" data-erase data-confirm={t.erase_confirm}>{t.erase}</button>
     </p>
     <p data-erase-msg role="status"></p>
+    <TellItBack lang={lang} id="quest" kids={true} />
     <details class="grownups">
       <summary>{t.grownups_title}</summary>
       <p>{t.grownups_quest}</p>
