@@ -5,20 +5,21 @@ label:
   ar: "مسجد الإمام الحسين بالقاهرة"
   en: "Al-Hussein Mosque, Cairo"
 summary:
-  ar: "بطاقة أولية لمسجد الإمام الحسين بالقاهرة، المسجد والمشهد المنسوب إلى رأس الحسين بن علي في قلب القاهرة القديمة؛ لم تُراجع مصادره على الصفحة بعد."
-  en: "Draft card for the al-Husayn Mosque of Cairo, the mosque-shrine associated with the head of al-Husayn ibn Ali in the heart of the old city; its sources are not yet checked on the page."
+  ar: "مشهد الإمام الحسين بالقاهرة؛ قابله دار الفطرة، وجعل فيه السلطان الناصر حلقة تدريس، ثم بنى الوزير معين الدين ايوان التدريس من أوقافه، واحترق المشهد في الأيام الصالحية (المقريزي، ص 1178، 1181)."
+  en: "The shrine of al-Husayn in Cairo, opposite Dar al-Fitra; al-Nasir set up a teaching circle in it, and the vizier Mu'in al-Din later built its teaching iwan from its endowments; it burned in the Salihi years (al-Maqrizi, pp. 1178, 1181)."
 wings: [objects]
 regions: [egypt-nile]
 periods: [period/buyid-seljuk-fatimid-era]
-sources: [source/duha-islam]
+sources: [source/khitat-maqrizi-1998]
 external_ids:
   wikidata: Q2279688
 provenance:
   layer: own-research
-  source: "Wikidata candidate; mosque attested in Egyptian heritage registers — entry not yet checked on the page"
-  generated_by: "Devin (SWE-2 High)"
-  model: "SWE-2 High"
-  run: wikidata-import-wave2
+  source: "al-Maqrizi, al-Mawa'iz wa-l-i'tibar (al-Khitat), Madbouli 1998, scan pp. 1178, 1181; Wikidata candidate for the identifier"
+  generated_by: "Devin (SWE-2 High); prose by Claude Haiku 5.5 (showcase-prose lane)"
+  model: claude-haiku-5-5
+  run: wikidata-import-wave2, showcase-prose-phase2-egypt-batch16
 status:
-  review: draft
-  completeness: 1
+  review: published
+  completeness: 3
+  generated_by: "Claude Haiku 5.5; the Dar al-Fitra opposite the shrine, the teaching circle under al-Nasir, the teaching iwan built from endowments in the vizier's time, and the fire in the Salihi years are read from al-Maqrizi's Khitat (local scan, pp. 1178, 1181). The Duha entry is not read and is not cited; no construction date for the shrine is in these passages"
