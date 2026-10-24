@@ -14,6 +14,8 @@ The Qur'an commands establishing the prayer coupled with the zakat: [[passage/qu
 ## In the hadith
 In Gabriel's hadith the Prophet makes "establishing the prayer" part of the definition of [[concept/islam-din|Islam]] {cite:sahih-al-bukhari 50}. In the Najdi man's hadith, the man said after hearing the obligations: "By God I shall add nothing to this and take nothing from it", and the Prophet said: "He prospers if he is truthful" {cite:sahih-al-bukhari 46}.
 
+Ibn Khuzayma narrates the hadith of Talha ibn Ubayd Allah about the Bedouin with the words "five prayers in the day and night"; the man asked whether anything else was required, and the Prophet said: "No, unless you do something voluntarily" {cite:sahih-ibn-khuzayma p.529}.
+
 ## What is not covered here
 The detail of prayer times, its form, its rulings and the schools' disagreements on it will be added in a later batch from the fiqh books, with each position's school identified.
 
