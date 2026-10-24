@@ -97,6 +97,23 @@ Skipped or not done:
 
 Checks: `npm run cite-check` 4 of 4 pass; `npm run validate` 0 errors, 7,295 warnings (the same count as batch 1, so no new warnings from this batch); `npm run graph` and `npm run coverage` regenerated. `npm test` not run (instruction 0.2).
 
+### Batch 2b (Phase 2, Egypt, second pass): 2 records done
+
+Records done (completeness 3, `status.review: published`, ar + en + ur prose in the same commit; `cite-check` 2 of 2 pass; `npm run validate` 0 errors, 7,295 warnings, unchanged):
+
+- `building/dar-al-hikma-cairo`: opened on Saturday 10 Jumada II 395 AH, with books brought from the palace libraries and jurists, readers, astrologers and physicians sitting in it (Khitat p. 1250). Copying and reading open to all, paid attendants, supplies for readers and copyists (p. 1251). Closed by al-Afdal; reopened at another site in Rabi' I 517 AH under al-Amir (pp. 1221, 1250). The Hasan Ibrahim paragraph on the Fatimid centres of wisdom is kept with its citation and is not re-checked locally.
+- `person/shajar-al-durr`: concealed al-Salih's death on 14 Sha'ban 647 AH and brought in Turanshah (p. 1912). Turanshah threatened her; she wrote to the mamluks against him (pp. 660, 1914). The Bahriyya killed him on 19 Muharram 648 (p. 1912). The sultanate on 10 Safar 648, with the "mother of Khalil" signature, the coins and the khutba (pp. 1914, 661). She ceded the throne to Aybak after eighty days; he took the title al-Mu'izz (p. 1915). She killed Aybak in the bath in 655 AH (p. 1916). Her garden and tomb near the mashhad of al-Sayyida Nafisa (pp. 1384, 1657).
+
+Decisions (this pass):
+
+| # | Question | Choice | Why |
+|---|---|---|---|
+| D19 | Shajar al-Durr's own death: the earlier summary cites Shadharat p. 276 for her killing and burial | Removed from the summary; kept in `died.note` with its citation and flagged "not checked against the local scan" | Khitat in the workspace has her part in Aybak's death, not her own. The Shadharat claim is cited, but not checked here |
+| D20 | The earlier record called her a slave-girl (جارية) | Changed to "wife" (زوجة) | Khitat p. 654 calls her the sultan's wife and p. 1912 the mother of his son. The slave-girl description came from the Tarikh al-Khulafa summary, which is not in the local text |
+| D21 | Dar al-Hikma's Fatimid da'wa paragraph (Hasan Ibrahim pp. 405, 409) | Kept with its citation; not re-checked locally | It is cited to a defined source, and the claim is not one the Khitat contradicts. Flagged, as with the Idrisi years in batch 1 |
+
+Still open from batch 2: the Egypt set is well short of 100 records. The Egypt trails (`exhibit/path-fatimid-cairo`, `exhibit/path-mamluk-cairo`) are not finished, because their featured records are not all at completeness 3.
+
 ## NEXT STEP:
 
-Phase 2, batch 2: write `building/dar-al-hikma-cairo` (Khitat pp. 1221 and 1250, after checking its date against the local text) and `person/shajar-al-durr` (Khitat pp. 654–661, 1536–1543), then the Khitat passages behind the Egypt trails already in the queue (`exhibit/path-fatimid-cairo`, `exhibit/path-mamluk-cairo`). Two decisions wait for the founder: whether to merge `place/iskandariyya` into `place/alexandria` (D16), and Archnet: its terms page must be read in a session the founder can see, or the founder supplies the posture, before any registration (D15).
+Phase 2, batch 3: the remaining Egypt records the queue lists with the most inbound links, starting with the Khitat-backed ones: `person/al-hakim-bi-amr-allah` (featured by Dar al-Hikma), then `place/misr` and `place/al-fayyum` if the Khitat passages support them. Then the trails `exhibit/path-fatimid-cairo` and `exhibit/path-mamluk-cairo`, as far as their featured records allow. Two decisions wait for the founder: whether to merge `place/iskandariyya` into `place/alexandria` (D16), and Archnet: its terms page must be read in a session the founder can see, or the founder supplies the posture, before any registration (D15).
