@@ -563,3 +563,33 @@ Second founder-authorized record-creation batch: 12 new `building/` stubs + 3 ex
 ### Methodological notes
 - eyup-sultan-mosque and grand-bazaar-istanbul had auto-generated stub prose citing only wikidata; replaced with sourced prose, noted in curatorial notes, yaml sources upgraded.
 - `person/` untouched.
+
+## Batch 16 — thin-stub expansion cohort, 8 records (rijal lane, agent pb2-rijal)
+
+Same method as Batch 14: thin (`<900 B`) `content/ar` stubs ranked by inbound links; each record's own entry located by full nasab, existing paragraphs kept, used source added, completeness 3.
+
+| record | own entry verified |
+|---|---|
+| person/suhayb-ibn-sinan | Isaba ٤١٧٥ (صهيب بن سنان بن مالك … النمري أبو يحيى), p.705-706 |
+| person/hattab-ibn-al-harith | Isaba ١٩٢٦ (حطاب بن الحارث بن معمر … الجمحي), p.329 |
+| person/zamaa-ibn-al-aswad | Isaba ٢٨٥٣ (زمعة بن الأسود … عقده أبو بكر أميراً مع يزيد بن أبي سفيان), p.496 |
+| person/habbar-ibn-sufyan | Isaba ٨٩٨٧ (هبار بن سفيان بن عبد الأسد … المخزومي), p.1537 |
+| person/abu-qays-ibn-al-harith | Isaba ١٠٤٧٦ (أبو قيس بن الحارث بن قيس … السهمي، اسمه عبد الله), p.1750 |
+| person/abu-waqid-al-laythi | Isaba ١٥٢٨ + كنى ١٠٧٤٣ (الحارث بن مالك؛ الخلاف على اسمه), pp.268, 1797 |
+| person/ata-al-khurasani | Taqrib ٤٦٠٠ (عطاء بن أبي مسلم أبو عثمان الخراساني), p.430-431 |
+| person/salih-ibn-kaysan | Tahdhib al-Tahdhib ٦٨٢ باب الصاد (صالح بن كيسان المدني أبو محمد), pp.891-892 |
+
+### Notes
+- `suhayb-ibn-sinan`: his own entry (٤١٧٥) was present in the extracted Isaba text this time — earlier deferral lifted.
+- `zamaa-ibn-al-aswad`: al-Azdi's report inside Isaba ٢٨٥٣ affiliates him to Banu Amir ibn Lu'ayy while the sira gives him as al-Asadi ibn al-Muttalib — divergence kept and flagged, not resolved.
+- `abu-qays-ibn-al-harith`: Isaba ١٠٤٧٦ says his name was the kunya (عبد الله بن الحارث per Abu Umar from Ibn Ishaq); the sira's Yamama death kept alongside.
+- `abu-waqid-al-laythi`: Badr companionship reported as disputed (Bukhari/Ibn Hibban vs Abu Umar's reservation); name disputed three ways; death 75/85/during Mu'awiya.
+- `salih-ibn-kaysan`: al-Hakim's 160-year age rejected in prose with Ibn Hajar's own rebuke; missing siyar-alam-nubala-ideas-house source added to YAML (prose already cited it).
+
+### Deferred this batch
+- `shurahbil-ibn-hasana` — still no standalone own entry in the extracted Isaba text (only sons ٢٦٥٧-٢٦٥٨ and brother الغطريف ٤٨٤٧).
+- `waki-ibn-hassan`, `khazim-ibn-khuzayma`, `rawh-ibn-hatim`, `mukhallad-ibn-yazid`, `amr-ibn-muslim` (al-Bahili, Qutayba's brother), `said-ibn-uthman` (ibn Affan), `abu-al-husayn-ibn-al-qattan` — Umayyad/Abbasid-era figures; no rijal own entry in the extracted scans (other lanes' sources apply).
+- `umayr-ibn-wahb` (al-Jumahi), `umayr-ibn-riab` — mentions only via relatives' entries; no own entry found.
+- `bujayr-ibn-waraqa` — the record's بجير بن ورقاء الصرعي is a different man from Isaba's بجير بن بجرة الطائي (٥٩٦/٥٩٨).
+- `muhayyisa-ibn-masud` — repeated mentions (أخو حويصة، حديث الحجام، قتل ابن سنان/ابن سناة) but no numbered own entry in the extract.
+- `ubaydallah-ibn-abi-bakra`, `muhammad-ibn-abd-al-rahman-ibn-thawban`, `quraysh-ibn-badran`, `al-akhzar-ibn-lut`, `umama-al-muzayriyya` — no readable own entry in the extracted scans.
