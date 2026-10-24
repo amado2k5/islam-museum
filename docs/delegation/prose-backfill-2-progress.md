@@ -465,3 +465,36 @@ Queue recomputed over `data/person/*.yaml` thin (`<900 B`) `content/ar` stubs ra
 - `sawda-bint-zama`, `thuwayba` — no numbered own entry in the extracted Isaba scan (women's volume coverage incomplete; Sawda appears only inside relatives' entries).
 - `busr-ibn-said`, `abdallah-ibn-abi-rabia`, `sallam-ibn-ziyad`, `musa-ibn-abdallah-ibn-khazim`, `abd-al-rahman-ibn-habib-al-fihri`, `ayyub-al-sakhtiyani`, `qays-ibn-al-haytham`, `ubayd-allah-ibn-ziyad`, `musab-ibn-al-zubayr` — no readable own entry in the extracted Taqrib/Isaba/Tahdhib/Thiqat scans (Busr only in the Thiqat name-index; abdallah-ibn-abi-rabia's own entry absent, the envoy's name only inside relatives' entries).
 - `farazdaq`, `yusuf-ibn-tashfin`, `musa`, `ardashir-i-ibn-babak`, `baha-al-dawla`, `jahm-ibn-zahr`, `abu-al-bakhtari-ibn-hisham`, `shurahbil-ibn-al-harith`, `abd-al-aziz-ibn-marwan`, `amr-ibn-kulthum`, `shajar-al-durr`, `ibn-battuta-muhammad`, `ibn-qayyim-al-jawziyya`, `fakhr-al-din-al-razi`, `ibn-ishaq`, `ibn-al-nadim`, `abu-ishaq-ibrahim-al-marwazi`, `hormuzan`-adjacent non-rijal heads — poets, prophets, dynasts and scholars whose biography belongs to non-rijal sources.
+
+### Batch 13 (24 Oct 2026, 15 records: 15 written) — general lane (Devin)
+
+Founder-authorized record creation: 14 new `building/` stubs (minimal yaml, completeness 3 with prose) plus the existing `semsi-pasha-mosque` stub — all sourced to Freely, *A History of Ottoman Architecture* (2011). Side task: `data/source/freely-ottoman-architecture-2011.yaml` enriched (completeness 1→3, reliability note).
+
+**Records (new prose ar+en+ur, completeness 3):**
+
+| record | disposition | Freely pages |
+|---|---|---|
+| building/suleymaniye-mosque | NEW record + prose | pp.260–268 — külliye 1550–57, seven medreses, Şarhoş glass, earliest Iznik |
+| building/atik-valide-mosque | NEW record + prose | pp.288–292 — Nurbanu külliye A.H. 978–991, last imperial Sinan complex |
+| building/kara-ahmet-pasha-mosque | NEW record + prose | pp.297–298 — begun 1558, completed early 1560s |
+| building/piyale-pasha-mosque | NEW record + prose | pp.326–329 — 1573, unique multi-domed classical mosque |
+| building/mesih-pasha-mosque | NEW record + prose | pp.332–333 — 1585, Kuran's Davut Ağa attribution |
+| building/nisanci-mehmet-pasha-mosque | NEW record + prose | pp.335–337 — 1584–88, not in Sinan's Tezkere |
+| building/yeni-cami | NEW record + prose | pp.349–356 — two valide-sultan phases 1597→1665, Spice Bazaar, türbe |
+| building/selimiye-mosque-uskudar | NEW record + prose | pp.408–409 — Selim III 1803–4, last pure baroque |
+| building/nusretiye-mosque | NEW record + prose | pp.413–414 — Kirkor Balyan 1822–26, Auspicious Event dedication |
+| building/muradiye-mosque-edirne | NEW record + prose | pp.82–83 — Murat II 1435 zaviye→mosque, early Iznik mihrab |
+| building/muradiye-mosque-bursa | NEW record + prose | pp.64–65 — Murat II 1424–6, open-air türbe |
+| building/rum-mehmet-pasha-mosque | NEW record + prose | pp.143–144 — 1471, most Byzantine of early mosques |
+| building/murat-pasha-mosque-istanbul | NEW record + prose | pp.142–143 — 1469, Hass Murat Pasha, Palaeologue convert |
+| building/davut-pasha-mosque | NEW record + prose | pp.210–211 — "A.H. 480 (1485)" inscription as printed |
+| building/semsi-pasha-mosque | existing stub + prose | pp.312–313 — Sinan 988 A.H., adjoining türbe |
+
+### Deferred this batch
+- The remaining Goodwin-tagged stubs without dedicated Freely sections (kalenderhane, eski-imaret, fenari-isa, gul-mosque, hirami-ahmed-pasha, koca-mustafa-pasha, vasat-atik-ali-pasha, muradiye-baghdad) — still deferred.
+- Freely covers many further buildings (Davut Pasha hamams, hans, külliye components, Edirne minor mosques, baroque buildings) — next batch can continue record creation if desired.
+- `davut-pasha-mosque`: source prints "A.H. 480 (1485)" — kept verbatim, flagged as probable OCR/inscription misprint in curatorial notes.
+
+### Methodological notes
+- New yamls copy the existing stub shape (wings/regions/periods/themes per mosque class); no invented external_ids.
+- `person/` untouched.
