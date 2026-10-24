@@ -1,0 +1,48 @@
+id: person/abd-al-fattah-abu-ghudda
+class: person
+label: { ar: "عبد الفتاح أبو غدة", en: "Abd al-Fattah Abu Ghudda", ur: "عبد الفتاح ابو غدہ" }
+names:
+  - { value: "عبد الفتاح بن محمد بن بشير بن حسن أبو غدة الخالدي الحلبي", kind: full }
+  - { value: "Abd al-Fattah ibn Muhammad ibn Bashir ibn Hasan Abu Ghudda al-Khalidi al-Halabi", kind: full }
+gender: male
+summary:
+  ar: "عالم سوري حنفي ومحدّث وباحث محقّق، وُلد في حلب سنة 1917 وتوفي في الرياض سنة 1997. درّس في جامعة دمشق وجامعات سعودية، وحقّق طائفة من أهم كتب الحديث والفقه الحنفي حتى صارت طبعاته معتمدة في المعاهد والجامعات، وله أكثر من سبعين مؤلفا وتحقيقا."
+  en: "Syrian Hanafi scholar, hadith specialist and critical editor, born in Aleppo in 1917 and died in Riyadh in 1997. He taught at Damascus University and at Saudi universities, and his critical editions of major works of hadith and Hanafi jurisprudence became standard editions in seminaries and universities; he published more than seventy authored and edited works."
+  ur: "شامی حنفی عالم، محدث اور محقق، جو 1917 میں حلب میں پیدا ہوئے اور 1997 میں ریاض میں وفات پائی۔ انہوں نے جامعہ دمشق اور سعودی جامعات میں تدریس کی، اور حدیث و فقہ حنفی کی اہم کتابوں کی ان کی تنقیدی اشاعتیں مدارس و جامعات میں معیاری نسخے بن گئیں؛ ان کی تصنیف و تحقیق کردہ کتابیں ستر سے زیادہ ہیں۔"
+roles: [scholar, muhaddith]
+wings: [people]
+born:
+  edtf: "1917-05-09"
+  hijri: "1336"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "Gregorian date from English Wikipedia and Wikidata; the Arabic article gives 17 Rajab 1336 AH / 9 May 1917."
+  sources: [source/wikipedia-abd-al-fattah-abu-ghudda-en, source/wikipedia-abd-al-fattah-abu-ghudda-ar, source/wikidata-abd-al-fattah-abu-ghudda]
+died:
+  edtf: "1997-02-16"
+  hijri: "1417"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "Died in Riyadh; the English article gives the Hijri date as 9 Shawwal 1417 AH. He was buried at al-Baqi cemetery in Medina."
+  sources: [source/wikipedia-abd-al-fattah-abu-ghudda-en, source/wikidata-abd-al-fattah-abu-ghudda]
+relations:
+  - { type: born_in, target: place/aleppo, sources: [source/wikipedia-abd-al-fattah-abu-ghudda-en] }
+  - { type: lived_in, target: place/damascus, sources: [source/wikipedia-abd-al-fattah-abu-ghudda-en] }
+  - { type: lived_in, target: place/cairo, sources: [source/wikipedia-abd-al-fattah-abu-ghudda-en] }
+faith:
+  - value: sunni-hanafi
+    basis: documented
+    note: "The English article describes him in its opening line as a Sunni Hanafi Muslim scholar, and Wikidata's religion statement is Sunni Islam; two sources independently give the school."
+    sources: [source/wikipedia-abd-al-fattah-abu-ghudda-en, source/wikidata-abd-al-fattah-abu-ghudda]
+external_ids: { wikidata: "Q11029119" }
+sources: [source/wikipedia-abd-al-fattah-abu-ghudda-en, source/wikipedia-abd-al-fattah-abu-ghudda-ar, source/wikidata-abd-al-fattah-abu-ghudda]
+provenance:
+  layer: own-research
+  source: "English and Arabic Wikipedia, Wikidata Q11029119, as cited in those articles and checked 24 October 2026"
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: modern-figures-batch-1
+status: { review: published, generated_by: "Muse (Muse Spark 1.3)" }

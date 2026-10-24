@@ -1,0 +1,34 @@
+id: person/ismail-ibn-musa-menk
+class: person
+label: { ar: "إسماعيل بن موسى منك", en: "Ismail ibn Musa Menk", ur: "اسماعیل بن موسیٰ منک" }
+names:
+  - { value: "إسماعيل بن موسى منك", kind: full }
+  - { value: "Ismail ibn Musa Menk", kind: full }
+gender: male
+summary:
+  ar: "داعية وعالم مسلم من زيمبابوي، يُعرف بالمفتي منك، وُلد سنة 1975 في سالزبوري (هراري اليوم). وهو المفتي الأكبر في زيمبابوي ورئيس إدارة الفتوى في مجلس علماء زيمبابوي، واشتهر عالميا بمحاضراته التحفيزية القصيرة التي تنتشر عبر المنصات الرقمية وتصل إلى جمهور واسع بلغات عدة."
+  en: "Zimbabwean Muslim preacher and scholar, known as Mufti Menk, born in 1975 in Salisbury (now Harare). He is the Grand Mufti of Zimbabwe and head of the fatwa department of the Council of Islamic Scholars of Zimbabwe, known worldwide for short motivational lectures that spread through digital platforms to a large audience in several languages."
+  ur: "زمبابوے کے مسلمان مبلغ اور عالم، جو مفتی منک کے نام سے معروف ہیں، 1975 میں سیلسبری (موجودہ ہرارے) میں پیدا ہوئے۔ وہ زمبابوے کے مفتی اعظم اور زمبابوے کی کونسل آف اسلامک اسکالرز کے شعبۂ فتویٰ کے سربراہ ہیں، اور اپنی مختصر پُرجوش تقاریر کے لیے دنیا بھر میں معروف ہیں جو ڈیجیٹل پلیٹ فارموں کے ذریعے کئی زبانوں میں وسیع سامعین تک پہنچتی ہیں۔"
+roles: [preacher, scholar]
+wings: [people, living]
+born:
+  edtf: "1975-06-27"
+  calendar: gregorian
+  precision: day
+  status: historical
+  sources: [source/wikipedia-ismail-ibn-musa-menk-en, source/wikidata-ismail-ibn-musa-menk]
+relations:
+  - { type: lived_in, target: place/medina, sources: [source/wikipedia-ismail-ibn-musa-menk-en] }
+faith:
+  - value: unknown
+    basis: unknown
+    note: "The English article's infobox gives his religion as Sunni Islam, and the article text says he has been identified as a Deobandi and as a Salafi. Wikidata gives only Islam and the Arabic article names no school. Not recorded as sunni until a second source confirms it."
+    sources: [source/wikipedia-ismail-ibn-musa-menk-en, source/wikipedia-ismail-ibn-musa-menk-ar, source/wikidata-ismail-ibn-musa-menk]
+external_ids: { wikidata: "Q20677091" }
+sources: [source/wikipedia-ismail-ibn-musa-menk-en, source/wikipedia-ismail-ibn-musa-menk-ar, source/wikidata-ismail-ibn-musa-menk]
+provenance:
+  layer: own-research
+  source: "English and Arabic Wikipedia, Wikidata Q20677091, as cited in those articles and checked 24 October 2026"
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: modern-figures-batch-1
+status: { review: published, generated_by: "Muse (Muse Spark 1.3)" }
