@@ -413,7 +413,7 @@ The founder agreed to all five recommendations in chat on 23 October 2026. They 
 4. Packs ship as single-file HTML in E3; a PDF build job is added only if pilot teachers ask for it.
 5. The agent proposes `edu/leveled-100.yaml` (and later the next 200) with demand evidence, and the founder approves the list before authoring starts.
 
-Phase approvals, as given in chat: **E1 approved 23 October 2026** (built in the `education` lane the same day); **E2 approved 23 October 2026**, to start once E1 is merged, beginning with the proposed list `edu/leveled-100.yaml` for the founder's approval (decision 5).
+Phase approvals, as given in chat: **E1 approved 23 October 2026** (built in the `education` lane the same day); **E2 approved 23 October 2026**, to start once E1 is merged, beginning with the proposed list `edu/leveled-100.yaml` for the founder's approval (decision 5). On 23 October 2026, the founder wrote: "The leveled-100 list in PR #1389 is approved as proposed."
 
 ## 10. Build this first, and why
 
