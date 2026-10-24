@@ -97,9 +97,11 @@ dozens of parallel batches proceed without per-PR permission.
 
 ### 4.2 Lanes — scoped work, registered ownership
 
-`docs/agents/lanes/` holds 11 active lane documents (illustrations, library,
+`docs/agents/lanes/` holds the active lane documents (illustrations, library,
 raheeq, hisham, prophetic-people, azhar-academy, en-translation, muwatta,
-prose-backfill ×2, maintainer). Each lane doc specifies: goal, owned paths,
+prose-backfill ×2, maintainer, education — the last a phased lane where the
+founder approves each phase in writing before the next starts, recorded in
+its master plan). Each lane doc specifies: goal, owned paths,
 paths it may *use but never edit*, branch naming, progress file, stub file,
 commit format, batch limit. Handoff is documented: a new agent resumes from
 the lane's progress file "next step" — the institutional memory lives in
