@@ -53,6 +53,11 @@ decisions:
       - "https://en.wikipedia.org/wiki/Abu_Dawud_al-Sijistani (infobox: Denomination Sunni)"
       - "https://www.wikidata.org/wiki/Q336558 (religion: Sunni Islam; date of death 275 AH)"
     era: "pre-print (author died 275 AH / 889 CE)"
+    # the harvester downloads only a candidate whose archive.org metadata names BOTH a publisher term and an editor term
+    named_edition:
+      publisher_any: ["Maktabat al-Maarif", "Maktabat al-Ma'arif", "مكتبة المعارف", "المعارف للنشر"]
+      editor_any: ["Albani", "al-Albani", "Albany", "الألباني", "الالباني"]
+      catalogue: "WorldCat OCLC 416765762"
     authenticity_basis: "Named edition: Sunan Abī Dāwūd, al-Ṭabʻah 1, edited by Muḥammad Nāṣir al-Dīn al-Albānī and Mashhūr Ḥasan Maḥmūd Salmān, Maktabat al-Maʻārif lil-Nashr wa-al-Tawzīʻ, Riyadh, [200-]; catalogue record WorldCat OCLC 416765762 (https://search.worldcat.org/title/416765762)"
     decided_by: founder
     decided_on: "2026-10-26"

@@ -40,6 +40,10 @@ python3 scripts/harvest/library/authenticity_ledger.py --check  # verify ledger 
 - Undecided books are only a warning. This is intentional: older work predates the gate.
 - The public page and the submission documents are edited by hand. Changes to them need the label `submission-impacting` under `docs/ai-change-gates.md` section 3.
 
+## Named-edition check in the harvest
+
+An accepted work must have a `named_edition` in the register: a list of publisher terms and a list of editor terms, taken from the catalogue record. The harvester (`fetch_books.py`) reads each candidate's archive.org metadata and downloads it only if the metadata contains one publisher term and one editor term. A candidate with a matching title but no matching publisher or editor is skipped with the message "metadata does not match the named edition". The gate refuses an accepted work that has no named edition, and the validator refuses an accept without one. Tested on synthetic metadata (publisher only, editor only, both, empty, Arabic and English forms) and on the six real Sunan Abi Dawud candidates, none of which matched: nothing was downloaded.
+
 ## Websites and the items they hold
 
 Websites are registered as sources (`kind: website`) with the uses they allow (`allowed_uses`: pointer, grades, facts, text). Articles, theses, whitepapers and research papers are item kinds with their own decisions. The validator enforces: a website needs a retrieval date; a T5 or not-verified source may only be a pointer; `text` needs a T1 source or a valid 30-row sample against a named edition; unknown uses are errors. Website records live in `docs/authenticity-ledger/websites/` and are checked by `authenticity_ledger.py --check` against the register. Full rules: `docs/delegation/web-sources-rules.md`.

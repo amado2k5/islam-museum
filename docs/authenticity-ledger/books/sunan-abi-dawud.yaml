@@ -9,7 +9,8 @@ harvest:
   folder: null
   files: 0
   sha256: []
-  note: not harvested; work decision recorded from the catalogue record
+  note: 'not harvested: no candidate matches the named edition; the harvest gate checks
+    titles only (see the rules document)'
 work_sources:
 - type: catalogue record
   name: Sunan Abī Dāwūd, al-Ṭabʻah 1, Maktabat al-Maʻārif, Riyadh, [200-]
@@ -43,6 +44,22 @@ checks:
     2877, 2984, 3129, 3138, 3255, 3290, 3361, 3393, 3437, 3653, 4135, 4219, 4220,
     4234, 4468'
   valid: false
+- date: '2026-10-26'
+  type: harvest dry run against the named edition (no download)
+  basis: 'named edition: Maktabat al-Maʻārif, editors al-Albānī and Mashhūr Salmān
+    (WorldCat OCLC 416765762)'
+  result: no candidate matched. Six archive.org candidates were listed by title. None
+    shows the named editors, publisher or place. One is a certificate of transmission
+    (إجازة), one is a commentary (بذل المجهود), one is volume 4 of a different recension
+    (رواية ابن داسة), and three are undated uploads with no edition data
+  candidates_identifiers:
+  - '20210709_20210709_0709'
+  - '1_20250811_20250811_1800'
+  - Sunane-Abi-Dawood-Mukammal
+  - abo_daod
+  - BazlulMajhoodNadwi
+  - alturki22_gmail_4_20180711
+  valid: false
 decision:
   work: accept
   decided_by: founder
@@ -51,3 +68,5 @@ decision:
 history:
 - date: '2026-10-26'
   event: work accepted by the founder; downloaded copy rejected; sample not yet run
+- date: '2026-10-26'
+  event: 'harvest test against the named edition: no candidate matched; nothing downloaded'
