@@ -1,0 +1,46 @@
+id: person/farouk-of-egypt
+class: person
+label: { ar: "فاروق الأول", en: "Farouk of Egypt", ur: "فاروق اول" }
+names:
+  - { value: "فاروق بن فؤاد", kind: full }
+  - { value: "Farouk bin Fuad", kind: full }
+gender: male
+summary:
+  ar: "ملك مصر والسودان من 1936 إلى 1952، عاشر حكام مصر من أسرة محمد علي وقبل الأخير من ملوكها. اعتلى العرش في السادسة عشرة، وتآكلت شعبيته مع فساد الحكومات وهزيمة 1948، فأطاح به الضباط الأحرار سنة 1952، وتنازل لابنه الرضيع ومات في منفاه بروما سنة 1965."
+  en: "King of Egypt and the Sudan from 1936 to 1952, the tenth ruler of Egypt from the Muhammad Ali dynasty and its penultimate king. He came to the throne at sixteen; his standing eroded with government corruption and the 1948 defeat, and the Free Officers overthrew him in 1952. He abdicated in favour of his infant son and died in exile in Rome in 1965."
+  ur: "1936ء سے 1952ء تک مصر و سوڈان کے بادشاہ، خاندانِ محمد علی کے دسویں حکمران اور اس کے آخری سے پہلے بادشاہ۔ سولہ برس کی عمر میں تخت نشین ہوئے؛ حکومتی بدعنوانی اور 1948ء کی شکست سے ان کی ساکھ گھٹی، اور 1952ء میں فری آفیسرز نے انہیں ہٹا دیا۔ وہ اپنے نوزائیدہ بیٹے کے حق میں دست بردار ہوئے اور 1965ء میں روم میں جلا وطنی کے دوران وفات پائی۔"
+roles: [ruler]
+wings: [people]
+born:
+  edtf: "1920-02-11"
+  hijri: "1338"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "Born at Abdeen Palace, Cairo. Gregorian date from English Wikipedia and Wikidata; the Hijri year (1338) is converted with the repo's converter (scripts/hijri) and marked derived."
+  sources: [source/wikipedia-farouk-of-egypt-en, source/wikidata-farouk-of-egypt]
+died:
+  edtf: "1965-03-18"
+  hijri: "1384"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "Died in exile in Rome, Italy. Gregorian date from English Wikipedia, Arabic Wikipedia and Wikidata; the Hijri year (1384) is converted with the repo's converter and marked derived."
+  sources: [source/wikipedia-farouk-of-egypt-en, source/wikipedia-farouk-of-egypt-ar, source/wikidata-farouk-of-egypt]
+relations:
+  - { type: born_in, target: place/cairo, sources: [source/wikipedia-farouk-of-egypt-en] }
+faith:
+  - value: unknown
+    basis: unknown
+    note: "Wikidata gives his religion as Sunni Islam. Neither the English nor the Arabic Wikipedia article states a school. Not recorded as sunni until a second source confirms it."
+    sources: [source/wikidata-farouk-of-egypt, source/wikipedia-farouk-of-egypt-en, source/wikipedia-farouk-of-egypt-ar]
+external_ids: { wikidata: "Q213001" }
+sources: [source/wikipedia-farouk-of-egypt-en, source/wikipedia-farouk-of-egypt-ar, source/wikidata-farouk-of-egypt]
+provenance:
+  layer: own-research
+  source: "English Wikipedia article 'Farouk of Egypt' (revision of 19 October 2026), Arabic Wikipedia article «فاروق الأول» (revision of 17 October 2026), Wikidata Q213001; checked 24 Oct 2026"
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: modern-figures-batch-2
+status: { review: published, generated_by: "Muse (Muse Spark 1.3)" }
