@@ -1,0 +1,46 @@
+id: person/hamka
+class: person
+label: { ar: "عبد الملك كريم أمر الله", en: "Hamka", ur: "حاجی عبد الملک کریم امر اللہ" }
+names:
+  - { value: "الحاج عبد الملك كريم أمر الله", kind: full }
+  - { value: "Haji Abdul Malik Karim Amrullah", kind: full }
+gender: male
+summary:
+  ar: "عالم وكاتب وصحفي إندونيسي، وُلد سنة 1908 وتوفي سنة 1981، كان أول رئيس لمجلس علماء إندونيسيا وقياديًا في جمعية المحمدية، وألّف أكثر من مئة كتاب، أشهرها تفسيره للقرآن «تفسير الأزهر» وروايته «غرق سفينة فان دير ويك»."
+  en: "Indonesian scholar, writer and journalist, born in 1908 and died in 1981; first chairman of the Indonesian Ulema Council and a leader of Muhammadiyah, he wrote more than one hundred books, most famously his Qur'an commentary Tafsir Al-Azhar and the novel Tenggelamnya Kapal van der Wijck (The Sinking of the van der Wijck)."
+  ur: "انڈونیشیائی عالم، ادیب اور صحافی، جو 1908 میں پیدا ہوئے اور 1981 میں وفات پائی؛ مجلس علمائے انڈونیشیا کے پہلے صدر اور محمدیہ کے رہنما، انہوں نے سو سے زائد کتابیں لکھیں، جن میں قرآن کی تفسیر «تفسیر الازہر» اور ناول «تینگگیلامنیا کاپال فان دیر ویک» مشہور ہیں۔"
+roles: [scholar, writer, journalist, philosopher, politician]
+wings: [people]
+born:
+  edtf: "1908-02-17"
+  hijri: "1326"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "Gregorian date from English Wikipedia and Wikidata. The Hijri year is derived by conversion (repository converter, scripts/hijri/convert.ts); no source in hand states it."
+  sources: [source/wikipedia-hamka-en, source/wikidata-hamka]
+died:
+  edtf: "1981-07-24"
+  hijri: "1401"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "Gregorian date from English Wikipedia and Wikidata. The Hijri year is derived by conversion (repository converter, scripts/hijri/convert.ts); no source in hand states it."
+  sources: [source/wikipedia-hamka-en, source/wikidata-hamka]
+relations:
+  - { type: lived_in, target: place/jakarta, sources: [source/wikipedia-hamka-en] }
+faith:
+  - value: unknown
+    basis: unknown
+    note: "English Wikipedia presents him as an Indonesian ʿālim active in Muhammadiyah, and the Arabic article likewise; Wikidata records only Islam. No source in hand states his school. Not recorded as sunni until a source confirms it."
+    sources: [source/wikipedia-hamka-en, source/wikipedia-hamka-ar, source/wikidata-hamka]
+external_ids: { wikidata: "Q5645435" }
+sources: [source/wikipedia-hamka-en, source/wikipedia-hamka-ar, source/wikidata-hamka]
+provenance:
+  layer: own-research
+  source: "English Wikipedia 'Hamka' (revision of 17 October 2026), Arabic Wikipedia «عبد الملك كريم أمر الله» (revision of 20 June 2026), Wikidata Q5645435; checked 24 October 2026"
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: modern-figures-batch-1
+status: { review: published, generated_by: "Muse (Muse Spark 1.3)" }

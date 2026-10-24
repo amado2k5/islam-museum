@@ -1,0 +1,44 @@
+id: person/ahmed-deedat
+class: person
+label: { ar: "أحمد ديدات", en: "Ahmed Deedat", ur: "احمد دیدات" }
+names:
+  - { value: "أحمد حسين ديدات", kind: full }
+  - { value: "Ahmed Husein Deedat", kind: full }
+gender: male
+summary:
+  ar: "داعية جنوب أفريقي من أصل هندي، وُلد سنة 1918 وتوفي سنة 2005، اشتهر بمناظراته العامة في مقارنة الأديان مع المبشرين الإنجيليين، وأسس المركز الإسلامي العالمي للدعوة (IPCI)، ونال جائزة الملك فيصل العالمية لخدمة الإسلام سنة 1986."
+  en: "South African preacher of Indian origin, born in 1918 and died in 2005; famous for his public debates on comparative religion with evangelical Christians, founder of the Islamic Propagation Centre International (IPCI), and winner of the King Faisal International Prize for Service to Islam in 1986."
+  ur: "جنوبی افریقہ کے مبلغ، جو ہندوستانی نژاد تھے، 1918 میں پیدا ہوئے اور 2005 میں وفات پائی؛ انجیلی مسیحی مبلغین کے ساتھ تقابلِ ادیان پر اپنے عوامی مناظروں کے لیے مشہور، بین الاقوامی اسلامی دعوتی مرکز (IPCI) کے بانی، اور 1986 میں خدمتِ اسلام پر شاہ فیصل عالمی انعام کے حامل۔"
+roles: [preacher, missionary, writer]
+wings: [people]
+born:
+  edtf: "1918-07-01"
+  hijri: "1336"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "Gregorian date from English Wikipedia and Wikidata; the Arabic Wikipedia gives the Hijri year 1336 AH directly."
+  sources: [source/wikipedia-ahmed-deedat-en, source/wikipedia-ahmed-deedat-ar, source/wikidata-ahmed-deedat]
+died:
+  edtf: "2005-08-08"
+  hijri: "1426"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "Gregorian date from English Wikipedia and Wikidata; the Arabic Wikipedia gives 3 Rajab 1426 AH."
+  sources: [source/wikipedia-ahmed-deedat-en, source/wikipedia-ahmed-deedat-ar, source/wikidata-ahmed-deedat]
+faith:
+  - value: unknown
+    basis: unknown
+    note: "Wikidata records his religion as Islam and Sunni Islam. The English and Arabic article texts do not state a school. Not recorded as sunni until a second source confirms it."
+    sources: [source/wikidata-ahmed-deedat, source/wikipedia-ahmed-deedat-en, source/wikipedia-ahmed-deedat-ar]
+external_ids: { wikidata: "Q332566" }
+sources: [source/wikipedia-ahmed-deedat-en, source/wikipedia-ahmed-deedat-ar, source/wikidata-ahmed-deedat]
+provenance:
+  layer: own-research
+  source: "English Wikipedia 'Ahmed Deedat' (revision of 14 October 2026), Arabic Wikipedia «أحمد ديدات» (revision of 18 September 2026), Wikidata Q332566; checked 24 October 2026"
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: modern-figures-batch-1
+status: { review: published, generated_by: "Muse (Muse Spark 1.3)" }
