@@ -30,9 +30,9 @@ died:
   note: "Gregorian date from English Wikipedia and Wikidata; the Arabic Wikipedia gives 3 Rajab 1426 AH."
   sources: [source/wikipedia-ahmed-deedat-en, source/wikipedia-ahmed-deedat-ar, source/wikidata-ahmed-deedat]
 faith:
-  - value: unknown
-    basis: unknown
-    note: "Wikidata records his religion as Islam and Sunni Islam. The English and Arabic article texts do not state a school. Not recorded as sunni until a second source confirms it."
+  - value: sunni
+    basis: documented
+    note: "Two sources independently give Sunni: the English article's infobox (verified 24 October 2026) gives Denomination Sunni and Jurisprudence Hanafi; Wikidata records Islam and Sunni Islam. The Hanafi jurisprudence rests on the infobox alone, so the value stays plain sunni rather than the compound."
     sources: [source/wikidata-ahmed-deedat, source/wikipedia-ahmed-deedat-en, source/wikipedia-ahmed-deedat-ar]
 external_ids: { wikidata: "Q332566" }
 sources: [source/wikipedia-ahmed-deedat-en, source/wikipedia-ahmed-deedat-ar, source/wikidata-ahmed-deedat]
