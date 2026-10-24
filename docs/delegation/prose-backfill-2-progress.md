@@ -626,3 +626,36 @@ Freely ch. III Edirne minor monuments + Thrace road cohort: 19 new `building/` r
 
 ### Methodological notes
 - `person/` untouched. All new records draft+completeness 3 with page-level cites.
+
+### Batch 18 (24 Oct 2026, 20 records: 20 written) — general lane (Devin)
+Fatih-era minor foundations (Freely ch. V §3.4–4.13, pp.141–152) and Beyazit II / Selim I buildings (ch. VII §4, pp.208–227). All NEW records, ar+en+ur, draft + completeness 3.
+
+| record | action | source |
+| --- | --- | --- |
+| building/kirkcu-hani | NEW | pp.141–142 — oldest han, Mahmut Pasha foundation |
+| building/gedik-ahmet-pasha-hamam | NEW | pp.141–142 — oldest functioning bath, c.1475 |
+| building/yavasca-sahin-mosque | NEW | p.145 — two-domed-porch type, restored 1950 |
+| building/samanveren-mosque | NEW | pp.145–146 — Inspector of Straw's mosque |
+| building/timurtas-mosque-istanbul | NEW | pp.146–147 — enclosed minaret, twin of Samanveren |
+| building/tahtakale-hamam-istanbul | NEW | p.147 — double bath, 16.7 m camekân dome |
+| building/hurmali-balkapan-hans | NEW | p.148 — oldest hans, Byzantine vaults c.2000 m² |
+| building/kantarcilar-mescidi | NEW | pp.148–149 — Scale-Makers' mescit |
+| building/kazancilar-mosque | NEW | pp.149–150 — Three-Mihrab mosque, founded 1475 |
+| building/sagricilar-mosque | NEW | pp.150–151 — probably oldest in city, 1455, Evliya's ancestor |
+| building/ibrahim-pasha-mosque-fatih | NEW | p.151 — Çandarlı İbrahim Pasha, 1478 |
+| building/yarhisar-mosque | NEW | p.151 — 1461, second-oldest mosque |
+| building/kumrulu-mescit | NEW | pp.151–152 — built by Atik Sinan, his 1471 tombstone in garden |
+| building/yatagan-mosque | NEW | p.152 — Hacı İlyas Ağa, wooden-roof type |
+| building/selcuk-hatun-mosque | NEW | pp.211–212 — d. of Mehmet I, re-erected 1956 |
+| building/sandal-bedesten | NEW | pp.208–209 — Beyazit II's 20-dome bedesten |
+| building/kara-davut-pasha-mosque | NEW | p.209 — three equal domes, Üsküdar |
+| building/ishak-pasha-mosque-topkapi | NEW | pp.212–214 — 1486, mosque + hamam by Topkapı |
+| building/seyh-vefa-turbesi | NEW | p.214 — 1491 türbe, gave Vefa district its name |
+| building/ahi-celebi-mosque | NEW | pp.226–227 — restored by Sinan, unique son cemaat yeri |
+
+### Fixes this batch
+- content/ar/building/eyup-sultan-mosque.md: renamed `## الخلاصة` → `## موجز` (leveled-100 reading list expects brief flag heading).
+
+### Still open in Freely
+- ch. III §2.9–2.11, §2.24–2.29 (Edirne: Selimiye medrese, Kavaflar Arastası, Defterdar, Ayşe Kadın Hanı, bridges, Eski Saray); Thrace §3.2–3.13 remainder; ch. V §4.14 beyazit-aga; ch. VI Topkapı/Harem elements; ch. VII §4.4/4.10–4.18 remainder (dulgerzade, zincirli-kuyu etc.); ch. VIII §6; ch. X–XII later classical/baroque.
+- Goodwin-deferred 8 stubs remain uncovered (kalenderhane, eski-imaret, fenari-isa, gul-mosque, hirami-ahmed-pasha, koca-mustafa-pasha, vasat-atik-ali-pasha, muradiye-baghdad).
