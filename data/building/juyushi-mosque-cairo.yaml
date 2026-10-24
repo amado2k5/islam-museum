@@ -5,20 +5,21 @@ label:
   ar: "مسجد الجيوشي (القاهرة)"
   en: "Juyushi Mosque, Cairo"
 summary:
-  ar: "بطاقة أولية لمسجد الجيوشي على المقطم بالقاهرة، الجامع الذي بناه بدر الجمالي سنة ١٠٨٥م في أولى عمائر الفاطميين الباقية؛ لم تُراجع مصادره على الصفحة بعد."
-  en: "Draft card for the Juyushi Mosque on the Muqattam, built by Badr al-Jamali in 1085 and among the earliest surviving Fatimid works; its sources are not yet checked on the page."
+  ar: "مسجد الجيوشي بالقاهرة، ويُعرف بالرصد، بدأه الأفضل ولم يكتمل فكمل حين صار رصداً (المقريزي، ص 400–401)."
+  en: "The Juyushi Mosque in Cairo, also called al-Rasd (the observatory): begun by al-Afdal, unfinished, and completed when it became an observatory (al-Maqrizi, pp. 400–401)."
 wings: [objects]
 regions: [egypt-nile]
 periods: [period/buyid-seljuk-fatimid-era]
-sources: [source/tarikh-islam-hasan-ibrahim]
+sources: [source/khitat-maqrizi-1998]
 external_ids:
   wikidata: Q4022325
 provenance:
   layer: own-research
-  source: "Wikidata candidate; mosque attested in Cairo heritage registers — entry not yet checked on the page"
-  generated_by: "Devin (SWE-2 High)"
-  model: "SWE-2 High"
-  run: wikidata-import-wave2
+  source: "al-Maqrizi, al-Mawa'iz wa-l-i'tibar (al-Khitat), Madbouli 1998, scan pp. 400-401; Wikidata candidate for the identifier"
+  generated_by: "Devin (SWE-2 High); prose by Claude Haiku 5.5 (showcase-prose lane)"
+  model: claude-haiku-5-5
+  run: wikidata-import-wave2, showcase-prose-phase2-egypt-batch9
 status:
-  review: draft
-  completeness: 1
+  review: published
+  completeness: 3
+  generated_by: "Claude Haiku 5.5; the founding by al-Afdal, the unfinished work, the ring and the move of the observatory are read from al-Maqrizi's Khitat (local scan, pp. 400-401). The Wikidata candidate's builder (Badr al-Jamali, 1085) is not confirmed locally: the Khitat names al-Afdal"

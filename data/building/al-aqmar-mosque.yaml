@@ -5,21 +5,22 @@ label:
   ar: "مسجد الأقمر"
   en: "al-Aqmar Mosque, Cairo"
 summary:
-  ar: "بطاقة أولية لمسجد الأقمر بالقاهرة، الجامع الفاطمي الذي بناه الوزير المأمون البطائحي سنة ١١٢٥م وأول جامع بواجهة حجرية منحوتة في مصر؛ لم تُراجع الصفحة بعد."
-  en: "Draft card for al-Aqmar Mosque in Cairo, the Fatimid mosque built by the vizier al-Ma'mun al-Bata'ihi in 1125 and Egypt's first with a carved stone facade; the encyclopedia entry is not yet checked on the page."
+  ar: "الجامع الأقمر بالقاهرة، في آخر سوق الشماعين قرب الركن المخلق، وأسكفة بابه عليها كتابة (المقريزي، ص 1063، 1131، 1132). بناؤه وتاريخه لم يُتحققا محلياً."
+  en: "al-Aqmar Mosque in Cairo, at the end of the candle-makers' market, with inscriptions on its gate threshold (al-Maqrizi, pp. 1063, 1131, 1132). Its founder and date are not checked locally."
 wings: [objects]
 regions: [egypt-nile]
 periods: [period/buyid-seljuk-fatimid-era]
 themes: [architecture]
-sources: [source/duha-islam]
+sources: [source/khitat-maqrizi-1998, source/duha-islam]
 external_ids:
   wikidata: Q287283
 provenance:
   layer: own-research
-  source: "Wikidata candidate; book source: al-Shalabi, Duha al-Islam encyclopedia — entry not yet read on the page"
-  generated_by: "Devin (SWE-2 High)"
-  model: "SWE-2 High"
-  run: wikidata-import-0022
+  source: "al-Maqrizi, al-Mawa'iz wa-l-i'tibar (al-Khitat), Madbouli 1998, scan pp. 1063, 1131, 1132; Wikidata candidate for the identifier"
+  generated_by: "Devin (SWE-2 High); prose by Claude Haiku 5.5 (showcase-prose lane)"
+  model: claude-haiku-5-5
+  run: wikidata-import-0022, showcase-prose-phase2-egypt-batch9
 status:
-  review: draft
-  completeness: 1
+  review: published
+  completeness: 3
+  generated_by: "Claude Haiku 5.5; the site, the gate inscriptions and the Mukhalliq corner are read from al-Maqrizi's Khitat (local scan, pp. 1063, 1131, 1132). The founder and the 1125 date in the Wikidata candidate are not confirmed locally and are not used"

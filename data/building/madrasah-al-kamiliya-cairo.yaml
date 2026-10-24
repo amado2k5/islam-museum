@@ -5,20 +5,21 @@ label:
   ar: "المدرسة الكاملية"
   en: "Madrasah Al Kamiliya, Cairo"
 summary:
-  ar: "بطاقة أولية لـMadrasah Al Kamiliya, Cairo، المعلم التاريخي؛ لم تُراجع مصادره على الصفحة بعد."
-  en: "Draft card for the Madrasah Al Kamiliya, Cairo, the historic monument; its sources are not yet checked on the page."
+  ar: "المدرسة الكاملية بالقاهرة، المعروفة بدار الحديث، ملاصقة للمدرسة الظاهرية الجديدة، ولها وقف من الأرباع (المقريزي، ص 1032، 1062، 1063)."
+  en: "The Kamiliya madrasa in Cairo, known as Dar al-Hadith, beside the new Zahiriyya madrasa, with a shop-block in its endowment (al-Maqrizi, pp. 1032, 1062, 1063)."
 wings: [objects]
 regions: [egypt-nile]
 periods: [period/crusades-ayyubid-mamluk]
-sources: [source/tarikh-islam-hasan-ibrahim]
+sources: [source/khitat-maqrizi-1998]
 external_ids:
   wikidata: Q12241661
 provenance:
   layer: own-research
-  source: "Wikidata candidate; monument attested in heritage registers — entry not yet checked on the page"
-  generated_by: "Devin (SWE-2 High)"
-  model: "SWE-2 High"
-  run: wikidata-import-wave2
+  source: "al-Maqrizi, al-Mawa'iz wa-l-i'tibar (al-Khitat), Madbouli 1998, scan pp. 1032, 1062, 1063; Wikidata candidate for the identifier"
+  generated_by: "Devin (SWE-2 High); prose by Claude Haiku 5.5 (showcase-prose lane)"
+  model: claude-haiku-5-5
+  run: wikidata-import-wave2, showcase-prose-phase2-egypt-batch9
 status:
-  review: draft
-  completeness: 1
+  review: published
+  completeness: 3
+  generated_by: "Claude Haiku 5.5; the location, the name Dar al-Hadith and the endowment are read from al-Maqrizi's Khitat (local scan, pp. 1032, 1062, 1063). The founder and the date are not stated in the passages read, so neither is given"

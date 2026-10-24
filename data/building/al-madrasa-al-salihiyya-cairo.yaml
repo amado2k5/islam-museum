@@ -5,20 +5,21 @@ label:
   ar: "المدرسة الصالحية (القاهرة)"
   en: "al-Salihiyya Madrasa, Cairo"
 summary:
-  ar: "بطاقة أولية للمدرسة والقبة الصالحية بالقاهرة، مجمع نجم الدين أيوب الملك الصالح أسس سنة ١٢٤٣م في شارع المعز؛ لم تُراجع مصادره على الصفحة بعد."
-  en: "Draft card for the Salihiyya madrasa and dome of Cairo, the 1243 complex of Sultan al-Salih Najm al-Din Ayyub on al-Mu'izz street; its sources are not yet checked on the page."
+  ar: "المدارس الصالحية بين القصرين بالقاهرة، عمّرها الملك الصالح نجم الدين أيوب، وقرر فيها دروساً للمذاهب الأربعة (المقريزي، ص 1061–1062 و1912)."
+  en: "The Salihiyya madrasas between the two palaces in Cairo, built by al-Salih Najm al-Din Ayyub, with four teaching posts for the four schools (al-Maqrizi, pp. 1061–1062, 1912)."
 wings: [objects]
 regions: [egypt-nile]
 periods: [period/crusades-ayyubid-mamluk]
-sources: [source/mujam-al-buldan]
+sources: [source/khitat-maqrizi-1998]
 external_ids:
   wikidata: Q7404512
 provenance:
   layer: own-research
-  source: "Wikidata candidate; attested in Cairo Mamluk heritage registers — entry not yet checked on the page"
-  generated_by: "Devin (SWE-2 High)"
-  model: "SWE-2 High"
-  run: wikidata-import-audit
+  source: "al-Maqrizi, al-Mawa'iz wa-l-i'tibar (al-Khitat), Madbouli 1998, scan pp. 1061, 1062, 1912; Wikidata candidate for the identifier"
+  generated_by: "Devin (SWE-2 High); prose by Claude Haiku 5.5 (showcase-prose lane)"
+  model: claude-haiku-5-5
+  run: wikidata-import-audit, showcase-prose-phase2-egypt-batch9
 status:
-  review: draft
-  completeness: 1
+  review: published
+  completeness: 3
+  generated_by: "Claude Haiku 5.5; the two Salihiyya madrasas, their position beside the dome of al-Salih, and the four teaching posts are read from al-Maqrizi's Khitat (local scan, pp. 1061, 1062, 1912). The 1243 date of the Wikidata candidate is not confirmed locally and is not used in the prose"
