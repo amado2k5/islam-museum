@@ -21,6 +21,20 @@ const BRIEF = ["Brief", "نبذة"];
 export const sectionRole = (h: string): "brief" | "main" | "kids" | "scholars" =>
   BRIEF.includes(h) ? "brief" : KIDS.includes(h) ? "kids" : SCHOLARS.includes(h) ? "scholars" : "main";
 
+// Leveled reading (edu/levels.yaml, docs/delegation/education-master-plan.md §5 E2): the fixed headings per language
+// that mark a Sprouts, Explorers or Scholars section inside the prose file; the validator enforces the same file.
+export interface Level { id: string; band: string; child: boolean; max_words: number; heading: Record<string, string> }
+export const levels: Level[] = parse(readFileSync(repoPath("edu", "levels.yaml"), "utf8")).levels;
+if (levels.length !== 3) throw new Error(`edu/levels.yaml: expected 3 levels, found ${levels.length}`);
+export const levelOf = (heading: string, lang: string): Level | null => levels.find((l) => l.heading[lang] === heading) ?? null;
+/** Child-level markdown for the kids' chrome: links become plain labels (bridge cards are the only doors out), citations go. */
+export function plainChildMarkdown(md: string, lang: Lang): string {
+  return md
+    .replace(/\[\[([a-z]+\/[a-z0-9-]+)\|([^\]]*)\]\]/g, "$2")
+    .replace(/\[\[([a-z]+\/[a-z0-9-]+)\]\]/g, (_m, id: string) => { const n = byId.get(id); return n ? labelOf(n, lang) : id.split("/")[1]; })
+    .replace(/\{cite:[^}]*\}/g, "");
+}
+
 export interface Group { type: string; label: string; items: { node: Node; edge: any }[] }
 
 /** Connections grouped by predicate, labelled from the registry (inverse label for computed edges). */

@@ -4,6 +4,7 @@
 // no scores, no failure states. Scoped <style> on this page.
 import BaseLayout from "../../../layouts/BaseLayout.astro";
 import Hudhud from "../../../components/Hudhud.astro";
+import TellItBack from "../../../components/TellItBack.astro";
 import { ui, LANGS, type Lang } from "../../../lib/i18n";
 import { loadQuestStops, viewSproutLines } from "../../../lib/kids";
 import "../../../styles/kids.css";
@@ -52,6 +53,7 @@ const STAR_COUNT = 12;
           <p>
             <button type="button" class="kids-btn quest-next" data-again>{t.sprouts_again}</button>
           </p>
+          <TellItBack lang={lang} id="sprouts-quest" mode="order" kids={true} cards={lines.map((l) => ({ icon: l.icon, text: l.line }))} />
         </section>
       </div>
     </div>
