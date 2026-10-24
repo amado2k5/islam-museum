@@ -8,11 +8,12 @@ import JourneyPlayer from "../components/JourneyPlayer.astro";
 import Pathway from "../components/Pathway.astro";
 import PageHeader from "../components/PageHeader.astro";
 import ExploreBar from "../components/ExploreBar.astro";
-import { byId, href, labelOf, summaryOf, summaryRaw, related, updatedOn, REPO, SITE } from "../lib/graph";
+import LevelSwitcher from "../components/LevelSwitcher.astro";
+import { byId, href, labelOf, summaryOf, summaryRaw, related, updatedOn, REPO, SITE, SEGMENT } from "../lib/graph";
 import { ui, fmt, LANGS, WINGS, wingHref, type Lang } from "../lib/i18n";
 import { renderProse, newHonState } from "../lib/markdown";
 import { formatDate } from "../lib/dates";
-import { connectionsOf, externalUrl, jsonLd, placesOf, regionLabel, sectionRole, traditionLabel } from "../lib/entity";
+import { connectionsOf, externalUrl, jsonLd, levelOf, placesOf, regionLabel, sectionRole, traditionLabel } from "../lib/entity";
 import type { Node } from "../../../scripts/build-graph";
 
 interface Props { node: Node; lang: Lang }
@@ -54,7 +55,9 @@ const hon = newHonState(); // one honorific state per article, so the first ment
 // the lede is read first on the page, so its summary renders before the sections: {cite:…} markers
 // in summaries become footnotes and [[wiki-links]] become links, matching the prose pipeline
 const ledeR = renderProse(summaryRaw(n, lang), lang, hon);
-const sections = (prose?.sections ?? []).map((s) => ({ ...s, role: sectionRole(s.heading), r: renderProse(s.markdown, lang, hon) }));
+// leveled reading sections (edu/levels.yaml) leave the article flow and go to the switcher; the rest render as before
+const levelSecs = (prose?.sections ?? []).filter((s) => proseLang && levelOf(s.heading, proseLang));
+const sections = (prose?.sections ?? []).filter((s) => !levelSecs.includes(s)).map((s) => ({ ...s, role: sectionRole(s.heading), r: renderProse(s.markdown, lang, hon) }));
 // citation numbers are per-section in renderProse; re-number globally for the footnote list
 const citeList: { source: string; locator?: string }[] = [];
 const citeIndex = (c: { source: string; locator?: string }) => {
@@ -76,6 +79,9 @@ const sectionHtml = sections.map((s) => {
   const renumber = renumberR(s.r);
   return { ...s, html: renumber(s.r.html), persp: s.r.perspectives.map((p) => ({ ...p, html: renumber(p.html) })) };
 });
+// each level is read on its own, so each gets its own honorific state; its citations join the page's footnote list
+const levelHtml = levelSecs.map((s) => { const r = renderProse(s.markdown, lang, newHonState()); return { id: levelOf(s.heading, proseLang!)!.id, heading: s.heading, html: renumberR(r)(r.html) }; });
+const kidsReadHref = d.education?.flagged_for_kids ? `/${lang}/sighar/read/${SEGMENT[n.class] ?? n.class}/${n.slug}/` : undefined;
 const proseSources = [...new Set(citeList.map((c) => c.source))];
 const ownSources = [...new Set([...(d.sources ?? []), ...proseSources])].map((id) => byId.get(id)).filter(Boolean) as Node[];
 const refChip = (id: string) => { const n = byId.get(id); return n ? { id, label: labelOf(n, lang), url: href(lang, id), stub: !!n.stub } : null; };
@@ -182,6 +188,7 @@ const showGraph = n.degree > 0 && !(n.class === "passage" && d.unit === "ayah" &
 
         <div class="prose" lang={proseLang ?? lang} dir={proseLang === "ar" ? "rtl" : "ltr"} data-pagefind-ignore={untranslated || undefined}>
           {!prose && n.class !== "passage" && <p class="panel ui" role="note">{T.entity.no_prose}</p>}
+          <LevelSwitcher lang={lang} levels={levelHtml} kidsHref={kidsReadHref} shelfId={n.id}>
           {sectionHtml.map((s) =>
             s.role === "kids" || s.role === "scholars" ? (
               <details data-role={s.role} class="sec" style="margin-block:1rem">
@@ -195,6 +202,7 @@ const showGraph = n.degree > 0 && !(n.class === "passage" && d.unit === "ayah" &
               </section>
             ),
           )}
+          </LevelSwitcher>
         </div>
 
         {perspectives.length > 0 && (

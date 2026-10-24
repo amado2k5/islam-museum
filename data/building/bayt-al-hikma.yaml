@@ -23,4 +23,8 @@ provenance:
   model: swe-2-high
   run: lib-duha-islam-3
 sources: [source/duha-islam]
+education:
+  levels: [sprouts, explorers, scholars]
+  flagged_for_kids: true
+  provenance: { generated_by: "Claude Code", model: "Claude Fable 5.1 (claude-fable-5-1)", run: "education-E2-fixtures", note: "Leveled texts restated from this record's own prose in ar, en and ur; draft, pending the founder's review (Urdu flagged)." }
 status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

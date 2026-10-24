@@ -70,3 +70,25 @@ The child's right to retaliation for a killing belongs to all the heirs of the s
 Killing a child. A parent may not kill his child, on the verse 'do not kill your children for fear of poverty' and on the saying that the gravest sin is to kill one's child for fear that he will eat with you. If a father kills his child, the majority hold that he is not retaliated against, and a grandfather is not retaliated against for his grandson; the Malikis distinguish: he is retaliated against if he lays the child down and slaughters him or splits his belly, and not if he strikes him with a sword or a stick. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.17922}{cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.17923}
 
 A child who kills his parents is retaliated against for each parent, according to the majority, by the general texts and the reasons: the need for deterrence lies with the child, a parent loves his child for the child's own sake rather than for his own, and the father has greater sanctity than a stranger. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.17923}
+
+A father's killing of his child carries no retaliation by the majority, since his offence against the child's life is void; Ahmad in one narration says the son is not killed for his father, because the father's testimony for his son is not accepted. A killing of a parent or child by a just or rebel party in the course of fighting, where the fighting requires it, is not liable; outside the necessity of fighting, it is liable. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.17924}
+
+The testimony of a child for a parent, or a parent for a child, is not admitted; the testimony of one for the other is admitted. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.17924}
+
+The inclusion of parents and children in the 'aqila (the kin who share blood-money): the Malikis, a Hanafi view and one Hanbali view include them; the Shafis, another Hanafi view and the second Hanbali view do not. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.17924}{cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.17925}
+
+Theft by a parent from his child's property, and the reverse. The majority hold that a parent is not amputated for stealing from his child's property, on the sayings 'you and your property belong to your father' and 'your children are from your earnings', since hudud are averted by doubts. Abu Thawr and Ibn al-Mundhir amputate a father, by the apparent text of the verse of theft. For a child stealing from his parent, the majority do not amputate him, while the Malikis, a Hanbali narration and al-Kharaqi amputate him. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.17925}{cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.17926}
+
+A parent's slander of his child. The Hanafis, the school of the Malikis, the Shafi'is and the Hanbalis do not punish a parent for slandering his child, by analogy with his non-retaliation for killing him; the Shafi'is and Hanafis discipline him for abuse. A parent who inherits a slander against a woman from his child is not punished unless others share the right. One Maliki view allows the son to claim the slander penalty against his parents. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.17926}
+
+A child's brigandage (hirabah) against his parent. The Hanafis remove the hudud of brigandage if the victim's child or an unlawful relative is the brigand, since there is an apparent permission to take property at home, and hudud are averted by doubts; the Shafis and Hanbalis agree for a child who takes his father's property as a brigand. A child who kills his father by brigandage is still liable to retaliation. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.17926}{cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.17927}
+
+The young of a sacrifice: some jurists require it to be slaughtered with its mother, others do not; details are under sacrifice. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.17927}
+
+The kid of a goat that looks like a dog: the Hanafis decide its lawfulness by tests (drinking, eating, whether it has intestines or a paunch). The Shafis leave it as a matter of caution unless its shape points to lawfulness. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.17927}
+
+A live child separated from its dead mother is pure in its substance by Shafi'i agreement, though its outer surface must be washed (al-Mawardi and al-Ruyani). {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.17928}
+
+Sale of a pregnant animal: the young follows its mother in sale. If an animal is bought pregnant, or becomes pregnant with the buyer, and a defect is found after birth, the young is returned with the mother; the buyer owes nothing for the birth unless it reduced her value, in which case the reduction is returned too, unless the young makes it good. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.17928}
+
+Zakat on the young of a wild and a domestic animal: the Hanbalis and a Maliki view require zakat, by analogy with the young of grazing and fodder-fed animals. Abu Hanifa and another Maliki view require it only if the mothers are domestic, since the mother's side is weightier. The Shafi'is and the preferred Maliki view require none, because the default is no obligation. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.17928}

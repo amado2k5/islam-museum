@@ -110,3 +110,19 @@ export function viewStamps(lang: Lang, band?: string): StampView[] {
 
 /** The rule payload the client reads to award stamps (no labels: those are in the HTML already). */
 export const stampRules = () => loadStamps().map((s) => ({ id: s.id, band: s.band, key: s.earn.key, rule: s.earn.rule }));
+
+export interface FamilyActivity { week: number; icon: string; title: Tri; text: Tri; href: string }
+let actsCache: FamilyActivity[] | null = null;
+/** The 52 family activities of the weekly sheet (edu/family-activities.yaml), one per ISO week. */
+export function loadFamilyActivities(): FamilyActivity[] {
+  if (actsCache) return actsCache;
+  const raw = parse(readFileSync(repoPath("edu/family-activities.yaml"), "utf8")) as { activities?: FamilyActivity[] };
+  const acts = raw?.activities ?? [];
+  if (acts.length !== 52) throw new Error(`edu/family-activities.yaml: expected 52 activities, found ${acts.length}`);
+  acts.forEach((a, i) => {
+    if (a.week !== i + 1) throw new Error(`edu/family-activities.yaml: activity ${i + 1} has week ${a.week}`);
+    for (const l of ["ar", "en", "ur"] as const) if (!a.title?.[l] || !a.text?.[l]) throw new Error(`edu/family-activities.yaml: week ${a.week} lacks ${l}`);
+  });
+  actsCache = acts;
+  return acts;
+}

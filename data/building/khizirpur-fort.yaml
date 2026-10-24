@@ -1,0 +1,21 @@
+id: building/khizirpur-fort
+class: building
+kind: fort
+label: { ar: "حصن خضرفور القديم (حاجي گنج)", en: "Ancient Khizirpur Fort (Hajiganj Fort)" }
+summary:
+  ar: "حصن مائي على نهر شيتالاكشيا قرب نارايانغانج، يُعرف اليوم بحصن حاجي گنج، يُنسب بناؤه في الوثيقة المعمارية إلى الصوبيدار مير جملة، ولا نقش فيه يؤرخه."
+  en: "A riverine water fort on the Shitalakshya near Narayanganj, now called Hajiganj Fort; the 2023 documentation attributes it to Mir Jumla, but it has no inscription to date it."
+wings: [place, objects]
+periods: [period/gunpowder-empires, period/colonial-era]
+regions: [south-asia]
+relations:
+  - { type: located_in, target: place/narayanganj }
+  - { type: built_by, target: person/mir-jumla }
+sources: [source/khizirpur-fort-ijrias-2023]
+status: { review: draft, completeness: 1, generated_by: "Claude Haiku 5.5 (book-1 harvest); from source/khizirpur-fort-ijrias-2023, printed pp. 95-114 of the IJRIAS print; no date beyond the author's estimate" }
+provenance:
+  layer: own-research
+  source: "IJRIAS 2023 documentation paper (single source, licence not stated); rewritten in the museum's words"
+  generated_by: "Claude Haiku 5.5 (book-1 harvest)"
+  model: "claude-haiku-5-5"
+  run: "book-1-khizirpur"

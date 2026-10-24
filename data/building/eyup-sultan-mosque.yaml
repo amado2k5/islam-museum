@@ -13,8 +13,8 @@ built:
   sources:
   - source/wikidata
 summary:
-  ar: مسجد في إسطنبول، يُؤرَّخ بناؤه سنة 1458م.
-  en: A mosque in Istanbul, dated to 1458 CE.
+  ar: "أقدس موضع إسلامي في إسطنبول عند أعالي القرن الذهبي؛ أقام الفاتح حول قبر أبي أيوب كُلّية بعد الفتح بخمس سنين، والمسجد الحالي من عهد سليم الثالث (انتهى 1800م) ومنارتا أحمد الثالث بقيتا من البناء القديم."
+  en: "The holiest Muslim site in Istanbul on the upper Golden Horn; the Conqueror built a külliye around Eyüp's grave five years after 1453, and today's mosque is Selim III's 1800 rebuilding, with Ahmet III's minarets surviving from the earlier building."
 wings: [objects]
 periods:
 - period/mongol-post-mongol
@@ -33,13 +33,13 @@ external_ids:
   wikidata: Q956677
 sources:
 - source/wikidata
+- source/freely-ottoman-architecture-2011
 provenance:
   layer: cc0
   source: Wikidata (CC0), local subset built 12 Oct 2026 from the 96 GiB dump
   generated_by: Claude (maintainer session)
   model: claude-sonnet-5-5
-  run: building-wikidata-1
+  run: building-wikidata-1; prose-backfill-2-batch14 (Freely pp.125-128)
 status:
   review: draft
-  completeness: 1
-  generated_by: Claude Sonnet 5.5; label, coordinates and construction date read from the local Wikidata CC0 subset; no prose yet, the history of the building needs a cited narrative
+  completeness: 3

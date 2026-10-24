@@ -42,4 +42,8 @@ relations:
   - { type: has_part, target: journey/hijra-route }
 external_ids: { wikidata: Q180226 }
 sources: [source/ibn-ishaq-guillaume, source/watt-1956-medina, source/mubarakpuri-raheeq, source/ibn-hisham-sira, source/sahih-al-bukhari, source/zad-al-maad, source/muruj-al-dhahab]
+education:
+  levels: [sprouts, explorers, scholars]
+  flagged_for_kids: true
+  provenance: { generated_by: "Claude Code", model: "Claude Fable 5.1 (claude-fable-5-1)", run: "education-E2-fixtures", note: "Leveled texts restated from this record's own prose in ar, en and ur; draft, pending the founder's review (Urdu flagged)." }
 status: { review: draft, completeness: 3, generated_by: "Claude Sonnet 5.5 (scaffold); QID to be verified; upgraded by Devin from al-Raheeq al-Makhtum pp. 161-174" }

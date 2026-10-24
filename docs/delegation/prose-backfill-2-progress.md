@@ -433,3 +433,229 @@ Same source as Batch 11: Freely, *A History of Ottoman Architecture* (2011), con
 
 ### Methodological notes
 - `person/` untouched.
+
+## Batch 13 — thin-stub expansion cohort, 12 records (rijal lane, agent pb2-rijal)
+
+**Reconciliation note:** the twelve queue-head names audited in Batch 9 (`nafi-mawla-ibn-umar`, `hisham-ibn-urwa`, `zayd-ibn-aslam`, `muhammad-ibn-al-munkadir`, `zayd-ibn-khalid-al-juhani`, `abu-bakr-ibn-abd-al-rahman-ibn-al-harith`, `amr-ibn-shuayb`, `abu-umama-ibn-sahl-ibn-hunayf`, `sahl-ibn-hunayf`, `abu-qatada-al-ansari`, `abd-al-rahman-ibn-abi-layla`, `abu-waqid-al-laythi`) were re-checked: all already carry committed ar+en+ur prose, verified rijal sources and completeness 3 — no work pending; the earlier "planned batch" framing was superseded by the Batch 9 audit itself.
+
+Queue recomputed over `data/person/*.yaml` thin (`<900 B`) `content/ar` stubs ranked by inbound links; the missing-prose head is non-rijal (`muhammad-mutawalli-al-shaarawi`, `yunus-emre`, Ottoman/Persian figures) — deferred. Each chosen stub's own entry was located by full nasab, then the stub was expanded (existing paragraphs kept) and the used source added with completeness 3.
+
+| record | own entry verified |
+|---|---|
+| person/abu-salih-al-samman | Taqrib ١٨٤١ (ذكوان أبو صالح السمان الزيات المدني), Majmuat scan p.190 |
+| person/ikrima-mawla-ibn-abbas | Taqrib ٤٦٧٣ (عكرمة أبو عبد الله مولى ابن عباس), p.437 |
+| person/habib-ibn-maslama | audit: Isaba ١٦٨٩ already cited in prose; +ibn-hajar-isaba, completeness 3 |
+| person/umayr-ibn-sad | Isaba ٦٧٧٨ (عمير بن سعد بن عبيد بن النعمان … الأنصاري الأوسي، عامل عمر على حمص), p.1145 |
+| person/al-ala-ibn-al-hadrami | Isaba ٦٢٠٤ (العلاء بن الحضرمي = عبد الله بن عماد بن أكبر…), p.1051 |
+| person/hormuzan | Isaba ٩٠٢٨ (الهرمزان الفارسي), p.1542 |
+| person/sahla-bint-suhayl | Isaba ١١٣٩٩ (سهلة بنت سهيل بن عمرو القرشية العامرية), p.1902 |
+| person/mujashi-ibn-masud-al-sulami | Isaba ٧٨١١ (مجاشع بن مسعود بن ثعلبة … السلمي), p.1335 |
+| person/abd-al-rahman-ibn-usayla-al-sunabihi | Isaba ٤٧٩٢ (عبد الرحمن بن عسيلة بن عسال المرادي الصنابحي), p.811 |
+| person/khuzayma-ibn-thabit | Isaba ٢٣١٠ (خزيمة بن ثابت بن الفاكه … الأوسي ثم الخطمي), p.392 |
+| person/salit-ibn-amr | Isaba ٣٥٦١ (سليط بن عمرو القرشي العامري ابن أخ سهيل بن عمرو), p.604 |
+| person/rabia-ibn-umayya-ibn-khalaf | Isaba ٢٦٣٤ (ربيعة بن أمية بن خلف بن وهب بن حذافة بن جمح الجمحي), p.458 |
+
+### Notes
+- `ikrima-mawla-ibn-abbas` death year left as a recorded disagreement: Muruj 105, Taqrib 104/لاحقاً, Kashif 106-107.
+- `rabia-ibn-umayya-ibn-khalaf`: the wine/exile-to-Caesar report is carried inside his own Isaba entry with its isnad to al-Zuhri — recorded attributed, not endorsed.
+- `umayr-ibn-sad`: Ibn Hajar's correction of Abd al-Ghani's conflation with Umayr ibn al-Hammam is noted rather than resolved silently.
+- `abd-al-rahman-ibn-usayla-al-sunabihi`: Isaba makes him a Companion-era envoy who prayed behind Abu Bakr and died 70-80 AH; the Shirazi "faqih of Egypt" framing is kept alongside.
+
+### Deferred this batch
+- `sawda-bint-zama`, `thuwayba` — no numbered own entry in the extracted Isaba scan (women's volume coverage incomplete; Sawda appears only inside relatives' entries).
+- `busr-ibn-said`, `abdallah-ibn-abi-rabia`, `sallam-ibn-ziyad`, `musa-ibn-abdallah-ibn-khazim`, `abd-al-rahman-ibn-habib-al-fihri`, `ayyub-al-sakhtiyani`, `qays-ibn-al-haytham`, `ubayd-allah-ibn-ziyad`, `musab-ibn-al-zubayr` — no readable own entry in the extracted Taqrib/Isaba/Tahdhib/Thiqat scans (Busr only in the Thiqat name-index; abdallah-ibn-abi-rabia's own entry absent, the envoy's name only inside relatives' entries).
+- `farazdaq`, `yusuf-ibn-tashfin`, `musa`, `ardashir-i-ibn-babak`, `baha-al-dawla`, `jahm-ibn-zahr`, `abu-al-bakhtari-ibn-hisham`, `shurahbil-ibn-al-harith`, `abd-al-aziz-ibn-marwan`, `amr-ibn-kulthum`, `shajar-al-durr`, `ibn-battuta-muhammad`, `ibn-qayyim-al-jawziyya`, `fakhr-al-din-al-razi`, `ibn-ishaq`, `ibn-al-nadim`, `abu-ishaq-ibrahim-al-marwazi`, `hormuzan`-adjacent non-rijal heads — poets, prophets, dynasts and scholars whose biography belongs to non-rijal sources.
+
+### Batch 13 (24 Oct 2026, 15 records: 15 written) — general lane (Devin)
+
+Founder-authorized record creation: 14 new `building/` stubs (minimal yaml, completeness 3 with prose) plus the existing `semsi-pasha-mosque` stub — all sourced to Freely, *A History of Ottoman Architecture* (2011). Side task: `data/source/freely-ottoman-architecture-2011.yaml` enriched (completeness 1→3, reliability note).
+
+**Records (new prose ar+en+ur, completeness 3):**
+
+| record | disposition | Freely pages |
+|---|---|---|
+| building/suleymaniye-mosque | NEW record + prose | pp.260–268 — külliye 1550–57, seven medreses, Şarhoş glass, earliest Iznik |
+| building/atik-valide-mosque | NEW record + prose | pp.288–292 — Nurbanu külliye A.H. 978–991, last imperial Sinan complex |
+| building/kara-ahmet-pasha-mosque | NEW record + prose | pp.297–298 — begun 1558, completed early 1560s |
+| building/piyale-pasha-mosque | NEW record + prose | pp.326–329 — 1573, unique multi-domed classical mosque |
+| building/mesih-pasha-mosque | NEW record + prose | pp.332–333 — 1585, Kuran's Davut Ağa attribution |
+| building/nisanci-mehmet-pasha-mosque | NEW record + prose | pp.335–337 — 1584–88, not in Sinan's Tezkere |
+| building/yeni-cami | NEW record + prose | pp.349–356 — two valide-sultan phases 1597→1665, Spice Bazaar, türbe |
+| building/selimiye-mosque-uskudar | NEW record + prose | pp.408–409 — Selim III 1803–4, last pure baroque |
+| building/nusretiye-mosque | NEW record + prose | pp.413–414 — Kirkor Balyan 1822–26, Auspicious Event dedication |
+| building/muradiye-mosque-edirne | NEW record + prose | pp.82–83 — Murat II 1435 zaviye→mosque, early Iznik mihrab |
+| building/muradiye-mosque-bursa | NEW record + prose | pp.64–65 — Murat II 1424–6, open-air türbe |
+| building/rum-mehmet-pasha-mosque | NEW record + prose | pp.143–144 — 1471, most Byzantine of early mosques |
+| building/murat-pasha-mosque-istanbul | NEW record + prose | pp.142–143 — 1469, Hass Murat Pasha, Palaeologue convert |
+| building/davut-pasha-mosque | NEW record + prose | pp.210–211 — "A.H. 480 (1485)" inscription as printed |
+| building/semsi-pasha-mosque | existing stub + prose | pp.312–313 — Sinan 988 A.H., adjoining türbe |
+
+### Deferred this batch
+- The remaining Goodwin-tagged stubs without dedicated Freely sections (kalenderhane, eski-imaret, fenari-isa, gul-mosque, hirami-ahmed-pasha, koca-mustafa-pasha, vasat-atik-ali-pasha, muradiye-baghdad) — still deferred.
+- Freely covers many further buildings (Davut Pasha hamams, hans, külliye components, Edirne minor mosques, baroque buildings) — next batch can continue record creation if desired.
+- `davut-pasha-mosque`: source prints "A.H. 480 (1485)" — kept verbatim, flagged as probable OCR/inscription misprint in curatorial notes.
+
+### Methodological notes
+- New yamls copy the existing stub shape (wings/regions/periods/themes per mosque class); no invented external_ids.
+- `person/` untouched.
+
+## Batch 14 — thin-stub expansion cohort, 11 records (rijal lane, agent pb2-rijal)
+
+Same method as Batch 13: thin (`<900 B`) `content/ar` stubs ranked by inbound links; each stub's own entry located by full nasab, existing paragraphs kept, used source added, completeness 3.
+
+| record | own entry verified |
+|---|---|
+| person/aqil-ibn-abi-talib | Taqrib ٤٦٦١ (عقيل بن أبي طالب الهاشمي أخو علي وجعفر), Majmuat scan p.435 |
+| person/maqil-ibn-yasar | Isaba ٨٤٦٨ (معقل بن يسار … المزني، حفر نهر معقل بالبصرة), p.1447 |
+| person/abd-al-rahman-ibn-abi-bakra | Isaba ٤٦٥٥ (عبد الرحمن بن أبي بكرة الثقفي، تابعي أول مولود بالبصرة), p.783 |
+| person/amir-ibn-abi-waqqas | Isaba ٤٥٠٩ (عامر بن أبي وقاص الزهري = عامر بن مالك), p.763 |
+| person/uhayha-ibn-al-julah | Isaba ٨٨ (أحيحة ابن الجلاح؛ قاتل عمه ووهم نسبته للصحابة), p.33 |
+| person/umm-harmala-bint-abd-al-aswad | Isaba ١٢٠١٥ (أم حرملة بنت عبد الأسود … الخزاعية), p.1990 |
+| person/suwayd-ibn-qutba | Isaba ٣٨١٢ (سويد بن قطبة الوائلي، ذكر في الفتوح), p.639 |
+| person/firas-ibn-al-nadr | Isaba ٧٠١٥ (فراس بن النضر بن الحارث … العبدري أبو الحارث), p.1189 |
+| person/ziyad-ibn-labid-al-bayadi | Isaba ٢٩٢٢ (زياد بن لبيد بن ثعلبة … الأنصاري البياضي), p.506 |
+| person/utba-ibn-masoud | Isaba ٥٨٧٣ (عتبة بن مسعود الهذلي أخو عبد الله لأبويه), p.1000 |
+| person/kharija-ibn-hudhafa-al-adawi | Isaba ٢١٤٢ (خارجة بن حذافة بن غانم … العدوي، شرطة عمرو ومقتله), p.361 |
+
+### Notes
+- `abd-al-rahman-ibn-abi-bakra`: Isaba corrects the Baladhuri-driven impression of companionship — he is a Successor born in 14 AH; prose carries Ibn Hajar's reservation on the "لا تطلب الإمارة" report rather than asserting his hearing it.
+- `uhayha-ibn-al-julah`: the record describes his Jahiliyya role; Isaba explicitly doubts counting him a Companion — flagged, not asserted.
+- `umm-harmala`: Isaba gives a Khuza'i nasab while Ibn Ishaq lists her among Banu Abd al-Dar — both kept and flagged.
+- `aqil`: Taqrib gives 60 AH for his death "وقيل بعدها"; the Siyar record's "in Mu'awiya's caliphate" is compatible and kept.
+- `kharija`: the night-of-Ali's-killing report is told "قيل" in the entry — carried as reported speech.
+
+### Deferred this batch
+- `suhayb-ibn-sinan` — the extracted Isaba scan reaches him only via the kunya cross-list (١٠٧٧٠), his own entry is outside the extracted pages.
+- `said-ibn-uthman` (ibn Affan, Umayyad governor) — Isaba ٣٣٧٦ is a different, Ansari namesake; no own entry found.
+- `umayr-ibn-wahb` (al-Jumahi), `umayr-ibn-riab`, `khazim-ibn-khuzayma`, `shurahbil-ibn-hasana` (only his sons' entries ٢٦٥٧-٢٦٥٨), `ubaydallah-ibn-abi-bakra`, `muhayyisa-ibn-masud`, `umama-al-muzayriyya`, `salih-ibn-kaysan` (only an isnad hit), `rawh-ibn-hatim`, `mukhallad-ibn-yazid`, `bujayr-ibn-waraqa`, `habbar-ibn-sufyan`, `waki-ibn-hassan`, `muhammad-ibn-kab-al-qurazi` (the Isaba hits are Ansari namesakes), `abu-qays-ibn-al-harith`, `ata-al-khurasani`, `amr-ibn-muslim`, `zamaa-ibn-al-aswad`, `umama-al-muzayriyya` — no readable own entry in the extracted scans.
+
+### Batch 15 (24 Oct 2026, 17 records: 17 written) — general lane (Devin)
+
+Second founder-authorized record-creation batch: 12 new `building/` stubs + 3 existing wikidata-import stubs completed + 2 records whose prior wikidata-only stub-prose was replaced — all sourced to Freely, *A History of Ottoman Architecture* (2011).
+
+**Records (new prose ar+en+ur, completeness 3):**
+
+| record | disposition | Freely pages |
+|---|---|---|
+| building/alaettin-bey-mosque-bursa | NEW record + prose | pp.52–53 — oldest dated Bursa mosque 1335, earliest Ottoman minaret per Kuran |
+| building/orhan-gazi-mosque-bursa | NEW record + prose | pp.53–54 — first Bursa imperial mosque 1339, burned 1413, cross-axial eyvan |
+| building/yildirim-bayezid-mosque-bursa | NEW record + prose | pp.56–57 — külliye 1390–6, lost both minarets, first Bursa arch |
+| building/hamza-bey-mosque-bursa | NEW record + prose | pp.66–67 — mid-15th c., two türbes |
+| building/suleyman-pasha-madrasa-iznik | NEW record + prose | pp.72–73 — first purpose-built Ottoman medrese |
+| building/nilufer-hatun-imaret-iznik | NEW record + prose | pp.73–74 — 1388 Ahi hostel → imaret → İznik Museum |
+| building/burmali-mosque | NEW record + prose | pp.256–258 — c.1550, unique spiral-brick minaret |
+| building/yedikule | NEW record + prose | pp.121–123 — Golden Gate fortress, Osman II executed 1622 |
+| building/cinili-kosk | NEW record + prose | pp.166–167 — Fatih 1472 Persian-design tile kiosk |
+| building/ibrahim-pasha-palace | NEW record + prose | pp.230–233 — largest Ottoman palace, Museum of Turkish and Islamic Art |
+| building/haseki-hurrem-mosque | NEW record + prose | pp.233–237 — Sinan's first Istanbul complex, 1538–58 phases |
+| building/buyukcekmece-bridge | NEW record + prose | pp.109–110 — Sinan 1566–7, 28 arches |
+| building/edirne-palace | existing stub + prose | pp.103–104 — Fatih's birthplace, destroyed 1877, Adalet Kasrı survives |
+| building/rustem-pasha-medrese | existing stub + prose | p.256 — Sinan A.H. 957, unique octagonal courtyard |
+| building/tomb-of-hayreddin-barbarossa | existing stub + prose | pp.253–254 — Sinan's earliest türbe A.H. 948, Beşiktaş |
+| building/eyup-sultan-mosque | wikidata-only prose replaced | pp.125–128 — sword-girding ceremony, Selim III rebuild 1800 |
+| building/grand-bazaar-istanbul | wikidata-only prose replaced | pp.123–125 — Fatih bedesten, guild streets |
+
+### Deferred this batch
+- Eight Goodwin-tagged stubs remain deferred (kalenderhane, eski-imaret, fenari-isa, gul-mosque, hirami-ahmed-pasha, koca-mustafa-pasha, vasat-atik-ali-pasha, muradiye-baghdad) — no dedicated Freely sections.
+- Freely covers many further uncatalogued buildings (Edirne minor mosques §2.9–2.29, Thrace monuments §3, veziral/mescit foundations ch. V §4, Topkapı/Harem elements ch. VI, Şehzade türbes and early-classical mescits ch. VIII §6, baroque buildings ch. XI–XII) — more batches can follow the same recipe.
+- `mihrimah-sultan-mosque-uskudar` = Freely's Iskele Camii (pp.246–249): already written in Batch 11; no new record.
+
+### Methodological notes
+- eyup-sultan-mosque and grand-bazaar-istanbul had auto-generated stub prose citing only wikidata; replaced with sourced prose, noted in curatorial notes, yaml sources upgraded.
+- `person/` untouched.
+
+## Batch 16 — thin-stub expansion cohort, 8 records (rijal lane, agent pb2-rijal)
+
+Same method as Batch 14: thin (`<900 B`) `content/ar` stubs ranked by inbound links; each record's own entry located by full nasab, existing paragraphs kept, used source added, completeness 3.
+
+| record | own entry verified |
+|---|---|
+| person/suhayb-ibn-sinan | Isaba ٤١٧٥ (صهيب بن سنان بن مالك … النمري أبو يحيى), p.705-706 |
+| person/hattab-ibn-al-harith | Isaba ١٩٢٦ (حطاب بن الحارث بن معمر … الجمحي), p.329 |
+| person/zamaa-ibn-al-aswad | Isaba ٢٨٥٣ (زمعة بن الأسود … عقده أبو بكر أميراً مع يزيد بن أبي سفيان), p.496 |
+| person/habbar-ibn-sufyan | Isaba ٨٩٨٧ (هبار بن سفيان بن عبد الأسد … المخزومي), p.1537 |
+| person/abu-qays-ibn-al-harith | Isaba ١٠٤٧٦ (أبو قيس بن الحارث بن قيس … السهمي، اسمه عبد الله), p.1750 |
+| person/abu-waqid-al-laythi | Isaba ١٥٢٨ + كنى ١٠٧٤٣ (الحارث بن مالك؛ الخلاف على اسمه), pp.268, 1797 |
+| person/ata-al-khurasani | Taqrib ٤٦٠٠ (عطاء بن أبي مسلم أبو عثمان الخراساني), p.430-431 |
+| person/salih-ibn-kaysan | Tahdhib al-Tahdhib ٦٨٢ باب الصاد (صالح بن كيسان المدني أبو محمد), pp.891-892 |
+
+### Notes
+- `suhayb-ibn-sinan`: his own entry (٤١٧٥) was present in the extracted Isaba text this time — earlier deferral lifted.
+- `zamaa-ibn-al-aswad`: al-Azdi's report inside Isaba ٢٨٥٣ affiliates him to Banu Amir ibn Lu'ayy while the sira gives him as al-Asadi ibn al-Muttalib — divergence kept and flagged, not resolved.
+- `abu-qays-ibn-al-harith`: Isaba ١٠٤٧٦ says his name was the kunya (عبد الله بن الحارث per Abu Umar from Ibn Ishaq); the sira's Yamama death kept alongside.
+- `abu-waqid-al-laythi`: Badr companionship reported as disputed (Bukhari/Ibn Hibban vs Abu Umar's reservation); name disputed three ways; death 75/85/during Mu'awiya.
+- `salih-ibn-kaysan`: al-Hakim's 160-year age rejected in prose with Ibn Hajar's own rebuke; missing siyar-alam-nubala-ideas-house source added to YAML (prose already cited it).
+
+### Deferred this batch
+- `shurahbil-ibn-hasana` — still no standalone own entry in the extracted Isaba text (only sons ٢٦٥٧-٢٦٥٨ and brother الغطريف ٤٨٤٧).
+- `waki-ibn-hassan`, `khazim-ibn-khuzayma`, `rawh-ibn-hatim`, `mukhallad-ibn-yazid`, `amr-ibn-muslim` (al-Bahili, Qutayba's brother), `said-ibn-uthman` (ibn Affan), `abu-al-husayn-ibn-al-qattan` — Umayyad/Abbasid-era figures; no rijal own entry in the extracted scans (other lanes' sources apply).
+- `umayr-ibn-wahb` (al-Jumahi), `umayr-ibn-riab` — mentions only via relatives' entries; no own entry found.
+- `bujayr-ibn-waraqa` — the record's بجير بن ورقاء الصرعي is a different man from Isaba's بجير بن بجرة الطائي (٥٩٦/٥٩٨).
+- `muhayyisa-ibn-masud` — repeated mentions (أخو حويصة، حديث الحجام، قتل ابن سنان/ابن سناة) but no numbered own entry in the extract.
+- `ubaydallah-ibn-abi-bakra`, `muhammad-ibn-abd-al-rahman-ibn-thawban`, `quraysh-ibn-badran`, `al-akhzar-ibn-lut`, `umama-al-muzayriyya` — no readable own entry in the extracted scans.
+### Batch 17 (24 Oct 2026, 20 records: 20 written) — general lane (Devin)
+
+Freely ch. III Edirne minor monuments + Thrace road cohort: 19 new `building/` records + 1 existing wikidata stub completed (`bayezid-ii-complex-edirne`). All ar/en/ur, completeness 3.
+
+| record | disposition | Freely pages |
+|---|---|---|
+| building/bayezid-ii-complex-edirne | existing stub + prose | pp.85–88 — Beyazidiye külliye 1484–8, hospital/medical school, music therapy per Evliya |
+| building/hudavendigar-mosque-edirne | NEW | pp.79–80 — earliest Edirne imperial mosque, Murat I after 1369 |
+| building/edirne-bedesten | NEW | p.82 — Mehmet I, 14 domes/36 strongrooms, Eski Cami vakf |
+| building/gazi-mihal-hamam-edirne | NEW | p.94 — Edirne's oldest hamam, 1406 |
+| building/sahmelak-pasha-mosque-edirne | NEW | pp.94–95 — 1428, blind vezir, open türbe |
+| building/gazi-mihal-mosque-edirne | NEW | p.95 — inscription 1422, axial eyvan |
+| building/beylerbeyi-mosque-edirne | NEW | pp.95–96 — 1428 Yusuf Pasha, apsed prayer eyvan |
+| building/darulhadis-mosque-edirne | NEW | pp.96–97 — 1434 darülhadis→mosque, Şehzadeler türbes, Tahtakale Hamam still working |
+| building/haci-sahabettin-mosque-edirne | NEW | p.97 — 1436 'Cherry Mosque', double mihrab |
+| building/saatli-medrese-edirne | NEW | p.97 — Murat II era, Seljuk-style portal |
+| building/mezit-bey-mosque-edirne | NEW | p.98 — 1441, founder killed vs Hunyadi same year |
+| building/ayse-kadin-mosque-edirne | NEW | pp.98–99 — 1468, daughter of Mehmet I |
+| building/sitti-hatun-mosque-edirne | NEW | p.99 — 1482, Mehmet II's wife left in Edirne |
+| building/kasim-pasha-mosque-edirne | NEW | p.99 — 1478, restored 1964 |
+| building/suleymaniye-mosque-edirne | NEW | p.99 — 1548 Gazi Süleyman Pasha, lost minaret |
+| building/rustem-pasha-caravansarai-edirne | NEW | pp.99–100 — Sinan 1560–1, Büyük+Küçük Han |
+| building/semiz-ali-pasha-arasta-edirne | NEW | p.101 — Sinan 1568, 126 shops, 1992 fire |
+| building/uzunkopru-bridge | NEW | p.106 — 1444, 1392 m, 173 arches |
+| building/guzelce-hasan-bey-mosque | NEW | pp.106–107 — 1406, among earliest avlus |
+| building/sokollu-mehmed-pasha-complex-luleburgaz | NEW | pp.107–108 — Sinan 1569–71, grandest on the road |
+
+### Deferred this batch
+- Goodwin-tagged 8 stubs confirmed NOT covered by Freely scan (searched kalenderhane/pantokrator/fenari/gül/hırami/sümbül/vasat variants — no dedicated sections; converted Byzantine churches are outside the scan's catalogue): kalenderhane, eski-imaret, fenari-isa, gul-mosque, hirami-ahmed-pasha, koca-mustafa-pasha, vasat-atik-ali-pasha, muradiye-baghdad → require Goodwin or another source.
+- Still open in Freely: ch. III §2.9–2.11 (Selimiye medrese/darülhadis, Kavaflar Arastası), §2.26–2.29 (Defterdar, Ayşe Kadın Hanı, çeşmes, Edirne bridges, Eski Saray), Thrace §3.2/3.4/3.5/3.8–3.13 (Havsa, Babaeski, Sokollu bridge, Karıştıran, Tekirdağ, Çorlu, Silivri, aqueducts), ch. V §4 mescits, ch. VI Topkapı/Harem, ch. VIII §6 early-classical, ch. X–XII later classical/baroque.
+
+### Methodological notes
+- `person/` untouched. All new records draft+completeness 3 with page-level cites.
+
+### Batch 18 (24 Oct 2026, 20 records: 20 written) — general lane (Devin)
+Fatih-era minor foundations (Freely ch. V §3.4–4.13, pp.141–152) and Beyazit II / Selim I buildings (ch. VII §4, pp.208–227). All NEW records, ar+en+ur, draft + completeness 3.
+
+| record | action | source |
+| --- | --- | --- |
+| building/kirkcu-hani | NEW | pp.141–142 — oldest han, Mahmut Pasha foundation |
+| building/gedik-ahmet-pasha-hamam | NEW | pp.141–142 — oldest functioning bath, c.1475 |
+| building/yavasca-sahin-mosque | NEW | p.145 — two-domed-porch type, restored 1950 |
+| building/samanveren-mosque | NEW | pp.145–146 — Inspector of Straw's mosque |
+| building/timurtas-mosque-istanbul | NEW | pp.146–147 — enclosed minaret, twin of Samanveren |
+| building/tahtakale-hamam-istanbul | NEW | p.147 — double bath, 16.7 m camekân dome |
+| building/hurmali-balkapan-hans | NEW | p.148 — oldest hans, Byzantine vaults c.2000 m² |
+| building/kantarcilar-mescidi | NEW | pp.148–149 — Scale-Makers' mescit |
+| building/kazancilar-mosque | NEW | pp.149–150 — Three-Mihrab mosque, founded 1475 |
+| building/sagricilar-mosque | NEW | pp.150–151 — probably oldest in city, 1455, Evliya's ancestor |
+| building/ibrahim-pasha-mosque-fatih | NEW | p.151 — Çandarlı İbrahim Pasha, 1478 |
+| building/yarhisar-mosque | NEW | p.151 — 1461, second-oldest mosque |
+| building/kumrulu-mescit | NEW | pp.151–152 — built by Atik Sinan, his 1471 tombstone in garden |
+| building/yatagan-mosque | NEW | p.152 — Hacı İlyas Ağa, wooden-roof type |
+| building/selcuk-hatun-mosque | NEW | pp.211–212 — d. of Mehmet I, re-erected 1956 |
+| building/sandal-bedesten | NEW | pp.208–209 — Beyazit II's 20-dome bedesten |
+| building/kara-davut-pasha-mosque | NEW | p.209 — three equal domes, Üsküdar |
+| building/ishak-pasha-mosque-topkapi | NEW | pp.212–214 — 1486, mosque + hamam by Topkapı |
+| building/seyh-vefa-turbesi | NEW | p.214 — 1491 türbe, gave Vefa district its name |
+| building/ahi-celebi-mosque | NEW | pp.226–227 — restored by Sinan, unique son cemaat yeri |
+
+### Fixes this batch
+- content/ar/building/eyup-sultan-mosque.md: renamed `## الخلاصة` → `## موجز` (leveled-100 reading list expects brief flag heading).
+
+### Still open in Freely
+- ch. III §2.9–2.11, §2.24–2.29 (Edirne: Selimiye medrese, Kavaflar Arastası, Defterdar, Ayşe Kadın Hanı, bridges, Eski Saray); Thrace §3.2–3.13 remainder; ch. V §4.14 beyazit-aga; ch. VI Topkapı/Harem elements; ch. VII §4.4/4.10–4.18 remainder (dulgerzade, zincirli-kuyu etc.); ch. VIII §6; ch. X–XII later classical/baroque.
+- Goodwin-deferred 8 stubs remain uncovered (kalenderhane, eski-imaret, fenari-isa, gul-mosque, hirami-ahmed-pasha, koca-mustafa-pasha, vasat-atik-ali-pasha, muradiye-baghdad).
