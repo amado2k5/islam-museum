@@ -23,4 +23,8 @@ text_source:
 provenance: { layer: by, source: tanzil-quran-v1.1 }
 external_ids: { wikidata: "Q428" }
 sources: [source/tanzil-quran]
+education:
+  levels: [sprouts, explorers, scholars]
+  flagged_for_kids: true
+  provenance: { generated_by: "Claude Code", model: "Claude Haiku 5.5 (claude-haiku-5-5)", run: "education-E2-batch1", note: "Leveled texts drafted from the record's own summary; draft, pending the founder's review and scholar review of the child levels." }
 status: { review: draft, completeness: 2, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

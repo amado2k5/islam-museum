@@ -19,3 +19,12 @@ The Prophet made a covenant with the Muslims and the Jews of Medina to live toge
 
 ## Clauses on the Jews (The Sealed Nectar pp.192-193)
 The Prophet agreed with the Jews a treaty that left them complete freedom in religion and property. The Banu Awf and other Jews had their religion, and they formed one community with the believers. They bore their own expenses, and the Muslims bore theirs. Between them was support against whoever fought the people of the document, with sincere counsel and goodness rather than sin, and support for the wronged. Medina's interior was sacred, and disputes that threatened corruption were referred to God and to the Prophet. Quraysh and its supporters were not to be given protection {cite:mubarakpuri-raheeq p.192} {cite:mubarakpuri-raheeq p.193}. Through this treaty, Medina and its surroundings became a state founded on concord, with Medina as its capital and the Prophet as its head {cite:mubarakpuri-raheeq p.193}.
+
+## For Sprouts
+The Prophet wrote an agreement that brought the people of Medina together in peace and mutual help, so that all became one community protecting one another.
+
+## For Explorers
+After the Hijra the Prophet wrote a document to organise life in Medina among the Muslims and their neighbours, including Jews and others. It said that all were one community, that each group kept its own religion, and that people would help one another defend the city. It was the first arrangement for a community of several faiths in Medina.
+
+## For Scholars
+A document written by the Prophet to organise shared life in Medina. The sources preserve parts of it through Ibn Ishaq and others, and the reports differ in the order and detail of its clauses, so each clause needs a source. It declared the believers one community, made a pact of truce and mutual help with the Jews of Yathrib, guaranteed each group its religion and property, and bound all to defend the city if it was attacked. It is the first document to organise a multi-faith community in Medina, and the museum presents its content as the sources transmit it, without additions.

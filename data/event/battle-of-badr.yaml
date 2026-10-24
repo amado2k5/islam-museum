@@ -89,4 +89,8 @@ map:
 media: { map: media/map-event-battle-of-badr }
 external_ids: { wikidata: "Q486124" }
 sources: [source/mubarakpuri-raheeq, source/ibn-hisham-sira, source/sahih-al-bukhari, source/sahih-muslim, source/ibn-ishaq-guillaume, source/watt-1956-medina, source/lings-1983, source/muhammad-qaid-al-aala-azhar, source/sallabi-ali-vol1]
+education:
+  levels: [sprouts, explorers, scholars]
+  flagged_for_kids: true
+  provenance: { generated_by: "Claude Code", model: "Claude Haiku 5.5 (claude-haiku-5-5)", run: "education-E2-batch1", note: "Leveled texts drafted from the record's own summary; draft, pending the founder's review and scholar review of the child levels." }
 status: { review: draft, completeness: 3, generated_by: "Devin; mined from al-Raheeq al-Makhtum pp. 204–233 with the classical citations in its footnotes" }

@@ -27,6 +27,15 @@ export const BUDGETS: Budget[] = [
   { family: "deck with study modes", route: "/ar/cards/list/tartib-al-anbiya/", html: 210 * KB, js: 30 * KB },
   { family: "lesson (printable)", route: "/ar/sighar/teachers/lessons/quest/", html: 200 * KB, js: 6 * KB },
   { family: "listing", route: "/ar/learn/trails/", html: 600 * KB, js: 12 * KB },
+  // E2: a leveled entity page (the switcher is inline CSS and a few lines of inline script, so JS stays the layout's) and the kids' reader
+  { family: "leveled reading", route: "/ar/event/hijra/", html: 160 * KB, js: 10 * KB },
+  { family: "child activity", route: "/ar/sighar/read/event/hijra/", html: 120 * KB, js: 12 * KB },
+  // E2: a teacher pathway landing page (trail walker script only) and its printable pack (no script)
+  { family: "teacher pathway", route: "/ar/learn/teachers/pathways/g11-chw3m-rise-of-islam/", html: 220 * KB, js: 14 * KB },
+  { family: "printable pack", route: "/ar/learn/teachers/pathways/g11-chw3m-rise-of-islam/print/", html: 200 * KB, js: 8 * KB },
+  // E2: the shelf (a list rendered on the device) and the weekly sheet (52 activities in the HTML, hidden but present)
+  { family: "shelf", route: "/ar/learn/shelf/", html: 200 * KB, js: 12 * KB },
+  { family: "weekly sheet", route: "/ar/learn/parents/weekly/", html: 260 * KB, js: 8 * KB },
 ];
 
 export interface Measure { route: string; html: number; js: number; scripts: string[] }
