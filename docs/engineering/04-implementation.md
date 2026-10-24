@@ -13,7 +13,9 @@ islam-museum/
 ├─ geo/               GeoJSON polity extents, routes, regions
 ├─ i18n/              UI strings per language
 ├─ datasets/          CSVs referenced by data/dataset/*.yaml
+├─ edu/               education programme data (bands.yaml, stamps.yaml)
 ├─ templates/         authoring templates (yaml + md) per class
+├─ tools/dashboard/   local build dashboard (npm run dashboard)
 ├─ scripts/
 │  ├─ validate.ts            total validation (schema + rules)
 │  ├─ build-graph.ts         YAML+MD → .cache/graph.json (graphology)
@@ -21,7 +23,9 @@ islam-museum/
 │  ├─ export-api.ts          api/v1 JSON endpoints
 │  ├─ gen-schema.ts          schema generator
 │  ├─ check-static.ts        "no runtime code/cookies/forms" site audit
-│  ├─ check-site.ts          site integrity checks
+│  ├─ check-site.ts          site integrity checks (runs in npm run build)
+│  ├─ check-weight.ts        per-route page-weight budgets for education routes (in build)
+│  ├─ edu.test.ts            education lane tests (routes, bands, stamps, i18n)
 │  ├─ wings.ts / wordmap.ts  wing membership, word maps
 │  ├─ indexnow.mjs           IndexNow URL notification at deploy
 │  ├─ git-dates.ts           entity created/updated dates from git history
@@ -51,8 +55,10 @@ islam-museum/
 ### npm scripts (root)
 
 `npm run validate` · `npm test` (vitest) · `npm run graph` · `npm run derive`
-· `npm run api` · `npm run coverage` · `npm run build` (prebuild =
-validate+graph+derive+api, then `site` build) · `npm run check:static`.
+· `npm run api` · `npm run coverage` · `npm run wordmap` · `npm run dashboard`
+(local build dashboard) · `npm run build` (prebuild = validate+graph+derive+api,
+then `site` build, then `check:site` + `check:weight`) · `npm run check:static`
+· `npm run check:site` · `npm run check:weight`.
 
 ## 2. Detailed flows (LLD)
 
@@ -104,7 +110,9 @@ neighbours + tags).
 ### 2.4 Site build
 
 `site/` Astro build (content-layer loader `loaders/graph.ts` consumes
-`.cache/graph.json`): one page per entity per language, hall pages,
+`.cache/graph.json`): one page per entity per language, hall pages, the
+education routes (`learn/`, `sighar/` band hubs, passport, study modes —
+fed by `edu/` data via `site/src/lib/edu.ts`),
 exhibits, questions, screen entries, themes, `wander`, `today`, JSON-LD,
 OG images (satori), sitemaps, RSS, `api/` passthrough, `_redirects` (API
 301s to `api.islam.museum`, slug renames). Passage (Qur'an verse) pages are

@@ -18,6 +18,7 @@ entities, "on this day", share cards, maps) is precomputed in CI.
 | Graph explorer | Sigma.js/WebGL over precomputed subgraphs — no live graph queries |
 | Cache headers | Pagefind `immutable, max-age=31536000`; API `max-age=3600, stale-while-revalidate=86400`; hashed assets 1y; HTML edge ~1h |
 | API | Static JSON files on R2 — cacheable forever-ish, no per-request cost |
+| Page weight | `check:weight` enforces per-route HTML/JS budgets on the education routes (`learn/`, `sighar/` hubs), measured on `dist/` in Arabic (the heaviest script); a breach fails the build — weight is removed, never the budget raised |
 
 ## 3. Build performance
 
@@ -37,7 +38,7 @@ entities, "on this day", share cards, maps) is precomputed in CI.
 
 | Pressure | State / mitigation |
 |---|---|
-| Entity growth (~32k files and climbing) | Build time grows linearly; watch Astro build; per-language builds could parallelise if needed |
+| Entity growth (~36k files and climbing) | Build time grows linearly; watch Astro build; per-language builds could parallelise if needed |
 | Pagefind chunk count | Already mitigated by passage exclusion; a Worker+D1 FTS5 fallback is documented as the upgrade path if indexes get too heavy (plan 03 §7) |
 | 3 languages now, more later | Pagefind runs per language; each language multiplies index and page count — language additions are phased (plan 06 Phase 4) |
 | Media (maps, illustrations, thumbnails) | Rendered offline on the Mac, committed as static files, served from `site/public/media/` and the media repo/R2 |
