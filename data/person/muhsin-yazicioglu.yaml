@@ -1,0 +1,44 @@
+id: person/muhsin-yazicioglu
+class: person
+label: { ar: "محسن يازجي أوغلو", en: "Muhsin Yazıcıoğlu", ur: "محسن یازجی اوغلو" }
+names:
+  - { value: "محسن يازجي أوغلو", kind: full }
+  - { value: "Muhsin Yazıcıoğlu", kind: full }
+gender: male
+summary:
+  ar: "سياسي تركي، مؤسس حزب الوحدة الكبرى (BBP) وزعيمه، ونائب في البرلمان التركي، عُرف بخطابه القومي والإسلامي، وقُتل في تحطم مروحية سنة 2009 في ظروف ما تزال محل جدل وتحقيقات."
+  en: "Turkish politician, founder and leader of the Great Unity Party (BBP) and a member of the Turkish parliament, known for a nationalist and Islamist discourse. He died in a helicopter crash in 2009 whose circumstances remained disputed and investigated."
+  ur: "ترک سیاست دان، عظیم اتحاد پارٹی (BBP) کے بانی و رہنما اور ترک پارلیمنٹ کے رکن، جو قوم پرست اور اسلام پسند خطاب کے لیے جانے جاتے تھے۔ وہ 2009 میں ایک ہیلی کاپٹر حادثے میں جاں بحق ہوئے جس کے حالات متنازع اور زیرِ تفتیش رہے۔"
+roles: [politician]
+wings: [people]
+born:
+  edtf: "1954-12-31"
+  hijri: "1374"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "Gregorian date from English Wikipedia and Wikidata (born in Elmalı village, Şarkışla, Sivas province); the Hijri year (1374) is converted with the Umm al-Qura calendar and marked derived."
+  sources: [source/wikipedia-muhsin-yazicioglu-en, source/wikidata-muhsin-yazicioglu]
+died:
+  edtf: "2009-03-25"
+  hijri: "1430"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "Died in a helicopter crash in Kahramanmaraş province. Gregorian date from English Wikipedia and Wikidata; the Hijri year (1430) is converted with the Umm al-Qura calendar and marked derived."
+  sources: [source/wikipedia-muhsin-yazicioglu-en, source/wikidata-muhsin-yazicioglu]
+faith:
+  - value: unknown
+    basis: unknown
+    note: "Wikidata gives the religion as Sunni Islam. The English Wikipedia article describes his party as nationalist-Islamist but gives no denomination, and no Arabic Wikipedia article exists for him. Not recorded as sunni until a second source confirms it."
+    sources: [source/wikidata-muhsin-yazicioglu, source/wikipedia-muhsin-yazicioglu-en]
+external_ids: { wikidata: "Q1397239" }
+sources: [source/wikipedia-muhsin-yazicioglu-en, source/wikidata-muhsin-yazicioglu]
+provenance:
+  layer: own-research
+  source: "English Wikipedia article 'Muhsin Yazıcıoğlu' (revision of 24 October 2026), Wikidata Q1397239; no Arabic Wikipedia article exists (checked 24 Oct 2026)"
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: modern-figures-batch-2
+status: { review: published, generated_by: "Muse (Muse Spark 1.3)" }

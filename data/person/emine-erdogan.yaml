@@ -1,0 +1,37 @@
+id: person/emine-erdogan
+class: person
+label: { ar: "أمينة أردوغان", en: "Emine Erdoğan", ur: "امینہ ایردوان" }
+names:
+  - { value: "أمينة جولبران أردوغان", kind: full }
+  - { value: "Emine Gülbaran Erdoğan", kind: full }
+gender: female
+summary:
+  ar: "ناشطة اجتماعية تركية والسيدة الأولى لتركيا منذ 2014 بوصفها زوجة الرئيس رجب طيب أردوغان، عُرفت بحملات تعليم البنات والأمهات، ومشروعات التنمية الاجتماعية والمساعدات الإنسانية، ومبادرة «صفر نفايات» البيئية."
+  en: "Turkish social activist and First Lady of Turkey since 2014 as the wife of President Recep Tayyip Erdoğan. She is known for campaigns for girls' and mothers' schooling, social development and humanitarian aid projects, and the environmental Zero Waste initiative."
+  ur: "ترک سماجی کارکن اور 2014 سے ترکی کی خاتونِ اول، صدر رجب طیب ایردوان کی اہلیہ۔ وہ لڑکیوں اور ماؤں کی تعلیم کی مہمات، سماجی ترقی و انسانی امداد کے منصوبوں، اور ماحولیاتی «زیرو ویسٹ» اقدام کے لیے جانی جاتی ہیں۔"
+roles: [activist]
+wings: [people, living]
+born:
+  edtf: "1955-02-21"
+  hijri: "1374"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "Date from Arabic Wikipedia and Wikidata (born in Üsküdar, Istanbul); the English Wikipedia article gives 16 February 1955, a discrepancy recorded here rather than resolved. The Hijri year (1374) is converted with the Umm al-Qura calendar and marked derived."
+  sources: [source/wikipedia-emine-erdogan-ar, source/wikidata-emine-erdogan]
+relations:
+  - { type: born_in, target: place/istanbul, sources: [source/wikipedia-emine-erdogan-en, source/wikipedia-emine-erdogan-ar] }
+faith:
+  - value: unknown
+    basis: unknown
+    note: "Wikidata gives the religion as Sunni Islam. Neither the English nor the Arabic Wikipedia article states a denomination in its text. Not recorded as sunni until a second source confirms it."
+    sources: [source/wikidata-emine-erdogan, source/wikipedia-emine-erdogan-en, source/wikipedia-emine-erdogan-ar]
+external_ids: { wikidata: "Q2977143" }
+sources: [source/wikipedia-emine-erdogan-en, source/wikipedia-emine-erdogan-ar, source/wikidata-emine-erdogan]
+provenance:
+  layer: own-research
+  source: "English Wikipedia article 'Emine Erdoğan' (revision of 27 September 2026), Arabic Wikipedia article «أمينة أردوغان» (revision of 7 May 2026), Wikidata Q2977143; checked 24 Oct 2026"
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: modern-figures-batch-2
+status: { review: published, generated_by: "Muse (Muse Spark 1.3)" }
