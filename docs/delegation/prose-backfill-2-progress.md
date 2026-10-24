@@ -593,3 +593,36 @@ Same method as Batch 14: thin (`<900 B`) `content/ar` stubs ranked by inbound li
 - `bujayr-ibn-waraqa` — the record's بجير بن ورقاء الصرعي is a different man from Isaba's بجير بن بجرة الطائي (٥٩٦/٥٩٨).
 - `muhayyisa-ibn-masud` — repeated mentions (أخو حويصة، حديث الحجام، قتل ابن سنان/ابن سناة) but no numbered own entry in the extract.
 - `ubaydallah-ibn-abi-bakra`, `muhammad-ibn-abd-al-rahman-ibn-thawban`, `quraysh-ibn-badran`, `al-akhzar-ibn-lut`, `umama-al-muzayriyya` — no readable own entry in the extracted scans.
+### Batch 17 (24 Oct 2026, 20 records: 20 written) — general lane (Devin)
+
+Freely ch. III Edirne minor monuments + Thrace road cohort: 19 new `building/` records + 1 existing wikidata stub completed (`bayezid-ii-complex-edirne`). All ar/en/ur, completeness 3.
+
+| record | disposition | Freely pages |
+|---|---|---|
+| building/bayezid-ii-complex-edirne | existing stub + prose | pp.85–88 — Beyazidiye külliye 1484–8, hospital/medical school, music therapy per Evliya |
+| building/hudavendigar-mosque-edirne | NEW | pp.79–80 — earliest Edirne imperial mosque, Murat I after 1369 |
+| building/edirne-bedesten | NEW | p.82 — Mehmet I, 14 domes/36 strongrooms, Eski Cami vakf |
+| building/gazi-mihal-hamam-edirne | NEW | p.94 — Edirne's oldest hamam, 1406 |
+| building/sahmelak-pasha-mosque-edirne | NEW | pp.94–95 — 1428, blind vezir, open türbe |
+| building/gazi-mihal-mosque-edirne | NEW | p.95 — inscription 1422, axial eyvan |
+| building/beylerbeyi-mosque-edirne | NEW | pp.95–96 — 1428 Yusuf Pasha, apsed prayer eyvan |
+| building/darulhadis-mosque-edirne | NEW | pp.96–97 — 1434 darülhadis→mosque, Şehzadeler türbes, Tahtakale Hamam still working |
+| building/haci-sahabettin-mosque-edirne | NEW | p.97 — 1436 'Cherry Mosque', double mihrab |
+| building/saatli-medrese-edirne | NEW | p.97 — Murat II era, Seljuk-style portal |
+| building/mezit-bey-mosque-edirne | NEW | p.98 — 1441, founder killed vs Hunyadi same year |
+| building/ayse-kadin-mosque-edirne | NEW | pp.98–99 — 1468, daughter of Mehmet I |
+| building/sitti-hatun-mosque-edirne | NEW | p.99 — 1482, Mehmet II's wife left in Edirne |
+| building/kasim-pasha-mosque-edirne | NEW | p.99 — 1478, restored 1964 |
+| building/suleymaniye-mosque-edirne | NEW | p.99 — 1548 Gazi Süleyman Pasha, lost minaret |
+| building/rustem-pasha-caravansarai-edirne | NEW | pp.99–100 — Sinan 1560–1, Büyük+Küçük Han |
+| building/semiz-ali-pasha-arasta-edirne | NEW | p.101 — Sinan 1568, 126 shops, 1992 fire |
+| building/uzunkopru-bridge | NEW | p.106 — 1444, 1392 m, 173 arches |
+| building/guzelce-hasan-bey-mosque | NEW | pp.106–107 — 1406, among earliest avlus |
+| building/sokollu-mehmed-pasha-complex-luleburgaz | NEW | pp.107–108 — Sinan 1569–71, grandest on the road |
+
+### Deferred this batch
+- Goodwin-tagged 8 stubs confirmed NOT covered by Freely scan (searched kalenderhane/pantokrator/fenari/gül/hırami/sümbül/vasat variants — no dedicated sections; converted Byzantine churches are outside the scan's catalogue): kalenderhane, eski-imaret, fenari-isa, gul-mosque, hirami-ahmed-pasha, koca-mustafa-pasha, vasat-atik-ali-pasha, muradiye-baghdad → require Goodwin or another source.
+- Still open in Freely: ch. III §2.9–2.11 (Selimiye medrese/darülhadis, Kavaflar Arastası), §2.26–2.29 (Defterdar, Ayşe Kadın Hanı, çeşmes, Edirne bridges, Eski Saray), Thrace §3.2/3.4/3.5/3.8–3.13 (Havsa, Babaeski, Sokollu bridge, Karıştıran, Tekirdağ, Çorlu, Silivri, aqueducts), ch. V §4 mescits, ch. VI Topkapı/Harem, ch. VIII §6 early-classical, ch. X–XII later classical/baroque.
+
+### Methodological notes
+- `person/` untouched. All new records draft+completeness 3 with page-level cites.
