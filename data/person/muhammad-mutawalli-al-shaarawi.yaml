@@ -3,26 +3,54 @@ class: person
 label:
   ar: "محمد متولي الشعراوي"
   en: "Muhammad Mutawalli al-Sha'rawi"
-roles: [scholar]
+  ur: "محمد متولی الشعراوی"
 gender: male
 summary:
-  ar: "بطاقة أولية لمحمد متولي الشعراوي، العالم المصري المشهور بتفسيره المتلفز للقرآن؛ لم تُراجع ترجمته على الصفحة بعد. ألّف رسالة «قضية السنة» ضمن السلسلة العلمية لمجمع البحوث الإسلامية، وتذكر صفحة الغلاف الداخلية وفاته سنة ١٤١٩ه / ١٩٩٨م {cite:qadiyat-al-sunna-azhar p. 2}، وفيها يقرر لزوم اتباع السنة {cite:qadiyat-al-sunna-azhar p. 12}."
-  en: "Draft card for Muhammad Mutawalli al-Sha'rawi, the Egyptian scholar famed for his televised Qur'an commentary; his entry is not yet checked on the page."
+  ar: "مفسّر وعالم دين مصري، اشتهر بخواطره التلفزيونية في تفسير القرآن الكريم التي وصلت بلغة مبسطة إلى ملايين المشاهدين، وتولى وزارة الأوقاف وشؤون الأزهر بين سنتي 1976 و1978، ولقّبه بعضهم بإمام الدعاة."
+  en: "Egyptian Qur'an commentator and religious scholar, famed for his televised reflections (khawatir) on the Qur'an, which reached millions of viewers in simple language; he served as Minister of Endowments and al-Azhar Affairs from 1976 to 1978, and some called him the Imam of the Preachers."
+  ur: "مصری مفسرِ قرآن اور عالمِ دین، جو قرآن کریم کی سادہ زبان میں ٹیلی ویژن تفسیر (خواطر) سے لاکھوں ناظرین تک پہنچے؛ 1976 سے 1978 تک وزیرِ اوقاف و امورِ ازہر رہے، اور بعض نے انہیں «امام الدعاة» کا لقب دیا۔"
+roles: [scholar, preacher, writer]
 wings: [people]
 regions: [egypt-nile]
 periods: [period/modern-era]
-died: { edtf: "1998", precision: year, status: tradition, derived: true }
-sources: [source/al-aalam, source/al-isra-wal-miraj-azhar, source/qadiyat-al-sunna-azhar, source/tafsir-sharawi-khawatir-scan-vol-2]
+born:
+  edtf: "1911-04-15"
+  hijri: "1329"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "Gregorian date from both Wikipedia articles and Wikidata; the Arabic article gives the Hijri equivalent, 17 Rabi' al-awwal 1329."
+  sources: [source/wikipedia-muhammad-mutawalli-al-shaarawi-en, source/wikipedia-muhammad-mutawalli-al-shaarawi-ar, source/wikidata-muhammad-mutawalli-al-shaarawi]
+died:
+  edtf: "1998-06-17"
+  hijri: "1419"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "Date from both Wikipedia articles and Wikidata; the Arabic article gives 22 Safar 1419, and the earlier draft card recorded the year 1419 AH / 1998 CE from the title page of his Qadiyat al-Sunna. Wikidata and the Arabic article's infobox place his death in Daqadus; the English article gives no place of death."
+  sources: [source/qadiyat-al-sunna-azhar, source/wikipedia-muhammad-mutawalli-al-shaarawi-en, source/wikipedia-muhammad-mutawalli-al-shaarawi-ar, source/wikidata-muhammad-mutawalli-al-shaarawi]
+faith:
+  - value: sunni-ashari
+    basis: documented
+    note: "The Arabic article's infobox gives his sect as Ahl al-Sunna wa'l-Jama'a and his creed as Ash'ari, citing a peer-reviewed study of his positions on creed (Islamic University of Gaza journal, 1423 AH/2002, pp. 35–36); Wikidata's religion statements are Sunni Islam and Ash'ari. Two sources independently give the school."
+    sources: [source/wikipedia-muhammad-mutawalli-al-shaarawi-ar, source/wikidata-muhammad-mutawalli-al-shaarawi]
 relations:
+  - { type: lived_in, target: place/cairo, sources: [source/wikipedia-muhammad-mutawalli-al-shaarawi-en, source/wikipedia-muhammad-mutawalli-al-shaarawi-ar] }
+  - { type: lived_in, target: place/mecca, sources: [source/wikipedia-muhammad-mutawalli-al-shaarawi-en, source/wikipedia-muhammad-mutawalli-al-shaarawi-ar] }
+  - { type: lived_in, target: place/algiers, sources: [source/wikipedia-muhammad-mutawalli-al-shaarawi-en, source/wikipedia-muhammad-mutawalli-al-shaarawi-ar] }
   - { type: authored, target: work/al-isra-wal-miraj-shaarawi, sources: [source/al-isra-wal-miraj-dar-al-jeel-2003] }
+  - { type: authored, target: work/tafsir-al-shaarawi, sources: [source/tafsir-sharawi-khawatir-scan-vol-2] }
 external_ids:
   wikidata: Q4164538
+sources: [source/al-aalam, source/al-isra-wal-miraj-azhar, source/qadiyat-al-sunna-azhar, source/tafsir-sharawi-khawatir-scan-vol-2, source/wikipedia-muhammad-mutawalli-al-shaarawi-en, source/wikipedia-muhammad-mutawalli-al-shaarawi-ar, source/wikidata-muhammad-mutawalli-al-shaarawi]
 provenance:
   layer: own-research
-  source: "Wikidata candidate; entry not yet read on the page in a book source"
-  generated_by: "Devin (SWE-2 High)"
-  model: "SWE-2 High"
-  run: wikidata-import-wave2
+  source: "Wikidata-import skeleton (run wikidata-import-wave2) and its Azhar book sources (al-A'lam; al-Isra' wa'l-Mi'raj; Qadiyat al-Sunna; the Khawatir tafsir scan), enriched with English and Arabic Wikipedia and Wikidata Q4164538, checked 24 October 2026"
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: modern-figures-batch-1
 status:
-  review: draft
-  completeness: 1
+  review: published
+  completeness: 3
+  generated_by: "Muse (Muse Spark 1.3)"
