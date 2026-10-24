@@ -16,12 +16,23 @@ from common import HARVEST, client, require_source, sha256
 ap = argparse.ArgumentParser()
 ap.add_argument("--only"); ap.add_argument("--cat"); ap.add_argument("--dry-run", action="store_true")
 ap.add_argument("--max-items", type=int, default=6); ap.add_argument("--max-gib", type=float, default=1.5)
+ap.add_argument("--require-decision", action="store_true", help="refuse books with no authenticity decision (authenticity_gate.py)")
 args = ap.parse_args()
 src = require_source("archive-org-books")
 PAUSE = src["limits"]["pause_seconds"]
 books = yaml.safe_load((Path(__file__).parent / "books.yaml").read_text())["books"]
 if args.only: books = [b for b in books if b["id"] in args.only.split(",")]
 if args.cat: books = [b for b in books if b["cat"] == args.cat]
+# authenticity gate: rejected books are never fetched; labelled and accepted books go on as before
+sys.path.insert(0, str(Path(__file__).resolve().parent))  # the gate lives beside this script; works under python -I too
+from authenticity_gate import gate, load_decisions, named_edition, edition_matches
+_decisions = load_decisions()
+_kept = []
+for _b in books:
+    _ok, _dec, _msg = gate(_b["id"], _decisions, require_decision=args.require_decision)
+    print(f"gate: {_msg}", file=sys.stderr)
+    if _ok: _kept.append(_b)
+books = _kept
 
 OUT = HARVEST / "raw/library"; MAN = HARVEST / "library/manifest.jsonl"; MAN.parent.mkdir(parents=True, exist_ok=True)
 DIAC = re.compile("[ً-ٰٟـ]")
@@ -88,6 +99,10 @@ with client() as http:
             try: files, md, why = pdfs_of(http, ident)
             except Exception as e: print("  metadata failed", ident, e); continue
             if why or not files: print(f"  skip {ident}: {why or 'no pdf'}"); continue
+            # edition check: a candidate is downloaded only if its metadata names the work's named edition
+            _cfg = named_edition(b["id"], _decisions)
+            if _cfg is not None and not edition_matches(md, _cfg):
+                print(f"  skip {ident}: metadata does not match the named edition", flush=True); continue
             f = max(files, key=lambda x: int(x["size"]))
             gib = int(f["size"]) / 2**30
             if gib > args.max_gib: print(f"  skip {ident}: {gib:.2f} GiB over cap"); continue

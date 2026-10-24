@@ -1,5 +1,15 @@
 # Content standards: what a good entity looks like
 
+## Rich first pass, for every topic
+
+Rule (founder, 26 October 2026): write the full, detailed prose and as many well-sourced details as the sources allow in the first pass. This applies to every class of entity and every topic, not only people: a person, a book, an article, a thesis, a website, a building, an object, an image, a place, an event, a concept, or a practice.
+
+- Gather the sources first (defined source entities; Wikipedia and Wikidata for entity facts; the press and institutional sources they cite), then write the complete prose in Arabic (canonical), English and Urdu in the same commit.
+- Include every fact, programme, work, institution, travel, relationship, recognition and reported criticism that the sources support, each cited to a defined source entity.
+- Show contested or reported criticism as a labelled perspective, not a verdict, and say when the primary statements have not yet been checked.
+- Do not defer enrichment to later runs or phases. Later work is revision only: correcting, reaffirming, or extending with new sources, never completing a thin first draft.
+- A lead (an item not yet verified) is recorded as a lead with its reason. Leads are not a reason to leave prose thin.
+
 Applies to every agent and human who writes or changes an entity. The rules that never bend are in [`AGENTS.md`](../../AGENTS.md). This document says how to meet them and lists the mistakes that have actually happened (each cost a repair). The validator enforces the first group; reviewers and the next agent enforce the rest. Fixing a defect you find, in anyone's merged work, is everyone's job.
 
 _Origin: written 11 October 2026 after a review found defects the validator missed, extended after main once broke._

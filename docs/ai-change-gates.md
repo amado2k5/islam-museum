@@ -15,6 +15,19 @@ A proposal is approved when:
 
 Everything else needs its own approval first, including a "small" code fix, a new site page, a new i18n key, a schema or enum change, and content outside a listed lane.
 
+## 1a. Harvest canon gate
+
+`scripts/harvest/library/books.yaml` is the harvest canon: prominent Sunni books to locate and mine. Every change to it, an addition or a removal, is a `non-impacting` proposal under section 1 and needs the checks below first. Nothing is added to the canon on a guess that an author is "probably Sunni".
+
+1. **Check whether the book was already processed.** Search, and record what you find: `data/work/`, `data/source/`, `data/concept/` and `data/person/` (for the author); `content/*/work/` and `content/*/person/`; `docs/delegation/library/` and `data/_stubs.d/lib-<id>.yaml`; and the harvest store `$HARVEST/books/<cat>/<id>/` (default `~/islam-museum-harvest`). A book with any of these is processed.
+2. **Verify the author's school from a defined source.** Use the Wikipedia infobox (Denomination, Jurisprudence, Creed) and the Wikidata religion statement, with the URL and the check date. The result is "Sunni", "non-Sunni (name the sect)" or "unverified". A madhhab alone is not proof: name the source.
+3. **Record the check** in `scripts/harvest/library/exclusions.yaml`: the author, the sect, the evidence URLs, the date, and the processed-check result from step 1.
+4. **Non-Sunni or unverified: do not add.** Record the author under `excluded_authors` (non-Sunni) or `held` (unverified). Do not put the book in the canon.
+5. **Sunni and verified: add**, in the same commit as the record from step 3. Run `npm run validate` and the usual checks first, as section 5 requires.
+6. **Removing an entry** from the canon is allowed only when step 1 finds no processed record and step 2 shows the author is non-Sunni. A processed book is never removed by an agent. Report it to the founder with the evidence from step 1, and leave it in place until the founder decides.
+
+The exclusion list does not filter any fetch or make-source script today. Wiring it into `fetch_books.py` or `make_sources.py` is a separate proposal under section 1.
+
 ## 2. Scope gate
 
 Stay inside the approved task. Do not widen it, do not fix neighbouring things, do not refactor what you pass through, do not start work the founder has reserved for himself or for a named agent (section 8). If the task cannot be finished without touching something outside its scope, stop and say so; do not touch it.

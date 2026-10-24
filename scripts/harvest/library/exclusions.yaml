@@ -1,0 +1,128 @@
+# Exclusion list for the harvest canon (books.yaml, "prominent Sunni books").
+#
+# Rule: a book enters the canon only when its author is verified as a Sunni Muslim. Nothing in this file
+# may be added to books.yaml. The fetch and make-source scripts read books.yaml only, so this file is a
+# record for the founder and agents; it does not filter anything until someone wires it in.
+#
+# Sections:
+#   excluded_authors   non-Sunni authors (Shia, Mu'tazili, other), each with the evidence checked
+#   excluded_sources   collections or repositories whose hadith text is non-Sunni
+#   held               authors or books not yet verified: do not add until verified
+#   canon_flags        entries already in books.yaml that need a decision (nothing removed here)
+#
+# Verified 24 Oct 2026 on English Wikipedia and Wikidata (checked in the browser; no API).
+
+excluded_authors:
+  - name: Mohsen Fayz Kashani (Mollā Moḥsen Fayḍ Kāshānī)
+    death_ah: 1091
+    sect: Akhbari Twelver Shi'i
+    evidence:
+      - https://en.wikipedia.org/wiki/Mohsen_Fayz_Kashani
+      - https://www.wikidata.org/wiki/Q97259499 (religion: Shia Islam)
+    works:
+      - Tafsir Safi (al-Safi fi Tafsir Kalam Allah al-Wafi)
+      - al-Wafi (hadith collection)
+
+  - name: Molla Fathollah Kashani (Fath Allah Kashani)
+    death_ah: 988
+    sect: Shia
+    evidence:
+      - https://en.wikipedia.org/wiki/Molla_Fathollah_Kashani (Menhaj al-Sadeghin listed under Shia tafsir)
+      - https://www.wikidata.org/wiki/Q5217701 (religion: Shia Islam)
+    works:
+      - Menhaj al-Sadeghin (Persian, 10 volumes)
+      - Zobdat al-Tafsir
+    note: Wikipedia's text calls him 15th-century and gives death 1580 (988 AH), which is 16th-century; the dates need a source before use.
+
+  - name: Nasir al-Din al-Tusi
+    death_ah: 672
+    sect: Twelver Shi'i
+    evidence:
+      - https://en.wikipedia.org/wiki/Nasir_al-Din_al-Tusi (infobox: Denomination Shia; Twelver)
+    works_in_canon:
+      - tahrir-majisti-tusi
+
+  - name: Zamakhshari (Mahmud ibn Umar al-Zamakhshari)
+    death_ah: 538
+    sect: Mu'tazila
+    evidence:
+      - https://en.wikipedia.org/wiki/Zamakhshari (infobox: Denomination Mu'tazila)
+    works_in_canon:
+      - tafsir-zamakhshari (al-Kashshaf)
+
+excluded_sources:
+  - name: Rewayaat (rewayaat/rewayaat, https://github.com/rewayaat/rewayaat)
+    reason: Shia hadith research platform; 50,038 narrations from 21 books. Book names not yet listed; inventory them before any use.
+  - name: Thaqalayn (thaqalayn.net, Shia source)
+    reason: Shia hadith collection. Appears in the QURAN-NLP dataset as hadith_thaqalayn (27k hadith).
+
+held:
+  - name: Tafsir al-Kashani (file Kashani_Tafsir_tafseer.csv in QURAN-NLP)
+    status: Author not identified. Both candidate authors (Fayz Kashani and Fath Allah Kashani) are Shia, so treat as excluded until altafsir.com shows a Sunni author.
+
+  - name: Tafsir al-Qushayri (Lata'if al-Isharat)
+    status: Author al-Qushayri is generally recorded as Sunni (Ash'ari Sufi). Not yet verified on Wikipedia.
+
+  - name: Tafsir al-Sa'di (Taysir al-Karim al-Rahman)
+    status: Not yet verified.
+
+  - name: Tafsir al-Qurtubi (al-Jami li-Ahkam al-Quran)
+    status: Not yet verified.
+
+  - name: Tafsir al-Muyassar
+    status: Produced by King Fahad Quran Complex (institution, not one author). Verify the institution's Sunni basis before adding.
+
+  - name: Tafsir al-Muntakhab
+    status: Produced by the Egyptian Ministry of Awqaf (institution). Verify before adding.
+
+  - name: Hisn al-Muslim (Fortress of the Muslim)
+    author: Sa'id ibn Ali al-Qahtani
+    status: Not yet verified.
+
+  - name: Lu'lu' wal-Marjan
+    author: Muhammad Fu'ad Abd al-Baqi
+    status: Not yet verified.
+
+  - name: Shama'il al-Muhammadiyya
+    author: al-Tirmidhi
+    status: Author is Sunni, but the book is not yet verified as an entry; check before adding.
+
+  - name: Forty Hadith Qudsi
+    status: Compiler varies by edition. Check the edition before adding.
+
+  - name: Forty Hadith of Shah Waliullah
+    author: Shah Waliullah al-Dihlawi
+    status: Not yet verified.
+
+  - name: Avicenna (Ibn Sina)
+    status: Religious affiliation not confirmed on Wikipedia (infobox text not captured). Used in canon_flags.
+
+  - name: Averroes (Ibn Rushd)
+    status: Maliki jurist per general knowledge; Wikipedia check returned no religion text. Used in canon_flags.
+
+canon_flags:
+  - id: tahrir-majisti-tusi
+    line: 280
+    processed_before: "yes. data/work/tahrir-al-majisti.yaml (review: draft), data/source/tahrir-majisti-bl-add-23392.yaml, content/{ar,en,ur}/work/tahrir-al-majisti.md, harvest store books/medicine-science/tahrir-majisti-tusi, and docs/delegation/library/medicine-science.md."
+    reason: Nasir al-Din al-Tusi, Twelver Shi'i (see excluded_authors). Processed before, so NOT removed. Founder decision needed on the canon entry and its records.
+
+  - id: tafsir-zamakhshari
+    line: 106
+    processed_before: "yes. data/work/al-kashshaf.yaml (review: draft), data/person/al-zamakhshari.yaml, content/{ar,en,ur}/work/al-kashshaf.md and content/*/person/al-zamakhshari.md, harvest store books/tafsir/tafsir-zamakhshari, and docs/delegation/library/shadharat-dhahab.md (dedupe note)."
+    reason: Zamakhshari, Mu'tazili (see excluded_authors). Processed before, so NOT removed. Founder decision needed on the canon entry and its records.
+
+  - id: canon-ibn-sina
+    line: 251
+    reason: Avicenna's religious affiliation not confirmed (see held). Confirm before keeping.
+
+  - id: bidayat-mujtahid
+    line: 199
+    reason: Ibn Rushd al-Hafid (Averroes), Maliki. Not yet confirmed Sunni on Wikipedia. Confirm before keeping.
+
+  - id: bidayat-mujtahid-ibn-rushd
+    line: 241
+    reason: Duplicate of bidayat-mujtahid (same title, same author). Merge or remove one. Confirm Sunni status first.
+
+  - id: sharh-tashrih-qanun-ibn-nafis
+    line: 265
+    reason: Ibn al-Nafis, Shafi'i jurist (Wikipedia). Shafi'i is a Sunni school, so likely Sunni. Confirm.

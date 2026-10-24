@@ -195,6 +195,9 @@ html:is([lang="ar"], [lang="ur"]) .page-banner .crumbs { font-family: var(--ar-b
 /* chips on a dark banner: light glass, light text (the default chip would take the ink colour) */
 .page-banner .chip { background: rgba(249, 248, 246, 0.12); color: #f9f8f6; }
 .page-banner .chip:hover { outline-color: var(--gold); }
+/* a Shi'i author beside the book title: a red name on an ivory chip (red text on the dark banner would fail contrast: #a4262c on ivory is 6.56:1, on sand 5.33:1); the "Shi'i" label keeps the mark readable without colour. The chip keeps its light colours in dark mode, like the sand panel. */
+.page-banner .author-chip.shia { background: #f7f3ea; color: #a4262c; border-color: #a4262c; }
+.page-banner .author-chip.shia .sect { color: #6e5414; font-size: 0.8em; font-weight: 600; }
 #font-toggle { white-space: nowrap; }
 
 /* the reading card: alabaster page, one white panel, a soft gold-neutral rule (spec §1, §3B) */

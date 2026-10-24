@@ -1,0 +1,38 @@
+id: person/amr-khaled
+class: person
+label: { ar: "عمرو خالد", en: "Amr Khaled", ur: "عمرو خالد" }
+names:
+  - { value: "عمرو محمد حلمي خالد", kind: full }
+  - { value: "Amr Mohamed Helmi Khaled", kind: full }
+gender: male
+summary:
+  ar: "داعية إسلامي مصري ومقدّم برامج دينية تلفزيونية، وُلد في الإسكندرية سنة 1967، وأطلق مشروعات تنموية وتعليمية وخيرية في مصر والعالم العربي، وله عدد من الكتب."
+  en: "Egyptian Muslim preacher and television presenter, born in Alexandria in 1967. He launched development, education and charity initiatives in Egypt and the Arab world, and has published several books."
+  ur: "مصری مسلمان مبلغ اور ٹیلی ویژن پیش کار، جو 1967 میں اسکندریہ میں پیدا ہوئے۔ انہوں نے مصر اور عرب دنیا میں ترقیاتی، تعلیمی اور فلاحی منصوبے شروع کیے اور کئی کتابیں لکھیں۔"
+roles: [preacher, writer]
+wings: [people, living]
+born:
+  edtf: "1967-09-05"
+  hijri: "1387"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "Gregorian date from English Wikipedia and Wikidata; the Hijri year (1387) is from the Arabic Wikipedia category."
+  sources: [source/wikipedia-amr-khaled-en, source/wikidata-amr-khaled]
+relations:
+  - { type: born_in, target: place/alexandria, sources: [source/wikipedia-amr-khaled-en] }
+  - { type: lived_in, target: place/cairo, sources: [source/wikipedia-amr-khaled-ar] }
+faith:
+  - value: unknown
+    basis: unknown
+    note: "Arabic Wikipedia's infobox gives the school as سنّي. Wikidata gives only Islam. Not recorded as sunni until a second source confirms it."
+    sources: [source/wikipedia-amr-khaled-ar, source/wikidata-amr-khaled]
+external_ids: { wikidata: "Q477480" }
+sources: [source/wikipedia-amr-khaled-en, source/wikipedia-amr-khaled-ar, source/wikidata-amr-khaled, source/time-100-2007, source/bbc-newsnight-2010, source/bbc-arabic-2008-forbes]
+provenance:
+  layer: own-research
+  source: "English and Arabic Wikipedia, Wikidata Q477480, TIME 100 (2007), BBC Newsnight (2010), BBC Arabic (2008), as cited in those articles and checked in Chrome on 26 Oct 2026"
+  generated_by: "Claude Code (claude-haiku-5-5)"
+  run: amr-khaled-batch-1
+status: { review: published, generated_by: "Claude Code (claude-haiku-5-5)" }
