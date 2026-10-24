@@ -21,3 +21,12 @@ The museum's material on this place includes: people born here: 1, polities of w
 
 ## What this page covers
 This page gathers what the museum links to the place: events, people and buildings. It is not a full historical account of the place; a description of the place and its history from original sources will be added in later batches.
+
+## For Sprouts
+Baghdad is Iraq's historic capital of learning, built by the Abbasids on the Tigris River, famous for the House of Wisdom.
+
+## For Explorers
+Baghdad is the capital of Iraq and the historic center of the Abbasid Caliphate for centuries, founded by Caliph al-Mansur as the City of Peace. Famous for its round design on the Tigris River, it became the preeminent metropolis of science and arts, home to the House of Wisdom, the Nizamiyya academy, and hospitals.
+
+## For Scholars
+The imperial capital of the Abbasid Caliphate and the cosmopolitan epicenter of medieval Islamic civilization, founded in 145 AH (762 CE) by Caliph Abu Jafar al-Mansur on the Tigris River at a vital crossroads of Afro-Eurasian trade. For five centuries, it stood as the undisputed global capital of sciences, philosophy, translation, and literature, nurturing the House of Wisdom, the Nizamiyya, and early teaching hospitals. Home to founding jurists like Abu Hanifa and Ahmad ibn Hanbal and master scientists like al-Khwarizmi, Baghdad remains the enduring symbol of the Islamic Golden Age.

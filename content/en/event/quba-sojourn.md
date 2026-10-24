@@ -15,3 +15,12 @@ Medina's Muslims would go out each morning to the harra watching for him until t
 The Prophet lodged with [[person/kulthum-ibn-al-hidm|Kulthum ibn al-Hidm]] — the likelier view — or, it is said, Sa'd ibn Khaythama; he stayed at Quba four days on Ibn Ishaq's account, which the author chose (Bukhari has twenty-four, fourteen-odd and fourteen nights), and he founded Quba's mosque and prayed in it — the first mosque founded on God-consciousness after the prophethood {cite:mubarakpuri-raheeq p. 172}.
 
 [[person/ali-ibn-abi-talib|Ali]] caught up with them at Quba after staying three days in Mecca to return on the Prophet's behalf the deposits people had left with him, then emigrating on foot {cite:mubarakpuri-raheeq pp. 171-172} {cite:zad-al-maad}.
+
+## For Sprouts
+The Prophet stayed in the blessed village of Quba upon arriving near Medina, establishing the first mosque in Islam.
+
+## For Explorers
+When the Prophet and his companion Abu Bakr reached the outskirts of Medina, they stayed at Quba, where the locals welcomed them with joy. During his stay, the Prophet founded the blessed Mosque of Quba, praised in the Qur'an as founded on piety from the first day, with early Muslims enthusiastically helping lay its stones.
+
+## For Scholars
+The pivotal first stop of the Prophet and Abu Bakr al-Siddiq on the outskirts of Medina in Rabi' al-Awwal of the first year of the Hijra (September 622 CE). Lodging with Kulthum ibn al-Hidm among the clan of Banu Amr ibn Awf at Quba, the Prophet spent several days laying the foundation for the Mosque of Quba, commemorated in the Qur'an as the mosque founded upon piety from its very first day. Marking the safe conclusion of the Hijra and the threshold of the Medinan commonwealth, Quba remained a venerated site that the Prophet visited regularly.

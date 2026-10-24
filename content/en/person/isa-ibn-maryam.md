@@ -15,3 +15,12 @@ Isa ibn Maryam, a prophet among the prophets of the Children of Israel. This pag
 - On the night of the Night Journey, the Prophet described him as of medium height, well-proportioned, with a reddish complexion. {cite:sahih-al-bukhari 3207}
 
 What the Qur'an says about him is not yet recorded on this page. It needs an additional source.
+
+## For Sprouts
+Jesus son of Mary was a blessed prophet born by a divine miracle, who taught people love, mercy, healing, and helping those in need.
+
+## For Explorers
+Jesus son of Mary was a noble messenger among the five of resolute determination, created through God's word without a father and honoring his mother Mary. God revealed to him the Gospel (Injil) and filled his message with mercy, blessing him with miracles including healing the blind and leper by God's leave, and speaking in infancy to defend his mother.
+
+## For Scholars
+The Messiah, Jesus son of Mary, is a preeminent prophet and messenger among the resolute five, recognized in Islam as God's Word bestowed upon the Virgin Mary and a Spirit from Him. Islamic theology emphasizes his miraculous virginal conception, speaking from the cradle in vindication of his mother, and the revelation of the Gospel (Injil) confirming the Torah and heralding the Prophet Muhammad. Sustained by miracles performed solely by divine leave, the Qur'an records his being raised to heaven, standing as an exemplar of spiritual asceticism, humility, and compassion.

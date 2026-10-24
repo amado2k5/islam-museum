@@ -15,3 +15,12 @@ Their last king, Abu Abd Allah Muhammad, handed the Alhambra over to the Christi
 
 ## What is not covered here
 The data contains no architectural description of the palace and no building dates beyond those given above. An additional source is needed.
+
+## For Sprouts
+The Alhambra is a magnificent palace upon the hills of Granada, with flowing fountains and walls adorned with beautiful calligraphy.
+
+## For Explorers
+The Alhambra is an enchanting royal palace-fortress in Granada built by the Nasrid sultans. It is famous for the Court of the Lions with its graceful marble columns, the lush flowing gardens of the Generalife, and plaster walls carved with Arabic poetry, Qur'anic verses, and the motto 'There is no victor but God'.
+
+## For Scholars
+The renowned palatial fortress complex overlooking Granada, constructed by the Nasrid sultans beginning in the 7th century AH (13th century CE) under Muhammad I (Ibn al-Ahmar). Standing as the most complete and breathtaking surviving Islamic palatine ensemble in Europe, it comprises the Alcazaba fortress, the Comares Palace, the Court of the Lions, and the Generalife summer palace. It exemplifies supreme artistic mastery through reflective pools, flowing fountains, intricate muqarnas vaulting, polychrome tilework (zellij), and stucco epigraphy bearing the iconic Nasrid motto: 'Wa la ghaliba illa Allah'.

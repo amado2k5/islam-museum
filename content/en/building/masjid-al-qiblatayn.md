@@ -17,3 +17,12 @@ Ibn Hajar reconciled the reports. Al-Majd noted that according to the report of 
 
 ## Whose mosque it was
 According to Ibn Zabala, the mosque belonged to Banu Sawad ibn Ghanm ibn Ka'b ibn Salima, in the area of al-Madhadh. Al-Mutarri returned it to Banu Haram. {cite:samhudi-wafa-al-wafa p. 213}
+
+## For Sprouts
+A historic mosque in Medina where God's command was received to turn the prayer direction toward the Kaaba in Mecca.
+
+## For Explorers
+The Mosque of the Two Qiblas is located in Medina in the district of Banu Salama, named because the prayer orientation shifted during prayer there. Muslims initially prayed facing Jerusalem until God revealed the command to turn toward the Kaaba in Mecca, and the congregation turned together in devotion.
+
+## For Scholars
+A historic sanctuary in northwestern Medina situated in the ancestral lands of Banu Salama. Known universally as Masjid al-Qiblatayn (The Mosque of the Two Qiblas), it marks the site where divine revelation directed the Prophet and his companions during prayer in the second year of the Hijra (c. 624 CE) to change the liturgical direction (Qibla) from Jerusalem to the Kaaba in Mecca, as articulated in Surat al-Baqarah. Historically celebrated for featuring indicators for both early and definitive Qiblas, the mosque has been preserved and expanded across the centuries, remaining an enduring monument to this central transition in Islamic religious identity.

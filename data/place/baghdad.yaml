@@ -11,4 +11,8 @@ coordinates: [33.3406, 44.4009]
 coordinate_precision: site
 external_ids: { wikidata: "Q1530", geonames: "98182", pleiades: "893952" }
 sources: [source/farghani-elements-astronomy, source/geonames-gazetteer, source/muruj-al-dhahab, source/ahsan-al-taqasim]
+education:
+  levels: [sprouts, explorers, scholars]
+  flagged_for_kids: true
+  provenance: { generated_by: "Devin", model: "gemini-2.5-pro", run: "education-E2-batch3", note: "Leveled texts drafted from the record's own summary and prose; draft, pending the founder's review and scholar review of the child levels." }
 status: { review: draft, completeness: 1, generated_by: "Claude Sonnet 5.5; coordinates from GeoNames; descriptive facts to be checked against reference works" }
