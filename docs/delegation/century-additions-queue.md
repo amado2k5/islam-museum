@@ -1612,7 +1612,6 @@ lists' own order. Status markers: [ ] queued · [~] in a writer's hands · [x] m
 - [ ] Vehbi Dibra (1867–1937)
 - [ ] Hafiz Ali Korça (1873–1956)
 - [ ] Salih Safvet Bašić (1886–1948)
-- [ ] Mehmed Džemaludin Čaušević (1870–1938)
 - [ ] Safvet-beg Bašagić (1870–1934)
 - [ ] Edhem Mulabdić (1862–1954)
 - [ ] Osman Nuri Hadžić (1869–1937)
@@ -1865,7 +1864,6 @@ All 34 real names in the list are already in the museum; the remaining 966 rows 
 - [ ] Jamal al-Din Khwansari — 1651–1711
 - [ ] Mohammad-Saleh Khwansari — 1620–1688
 - [ ] Sayyid Nezam al-Din Ahmad — 1610–1675
-- [ ] Sultan Suleiman II — 1642–1691
 - [ ] Kâtip Çelebi (Hacı Halife) — 1609–1657
 - [ ] Nâbî — 1642–1712
 - [ ] Nef'î — 1589–1635
@@ -1913,9 +1911,7 @@ All 34 real names in the list are already in the museum; the remaining 966 rows 
 - [ ] Sheikh Farid al-Din Ganjshakar (Baba Farid) — 1173–1266
 - [ ] Lal Shahbaz Qalandar — 1177–1274
 - [ ] Fakhr al-Din 'Iraqi — 1213–1289
-- [ ] Ibn al-Farid — 1181–1235
 - [ ] Amir Khusrow — 1253–1325
-- [ ] Abu Yusuf Yaqub ibn Abd al-Haqq — 1212–1286
 - [ ] Abu Yaqub Yusuf an-Nasr — 1260–1307
 - [ ] Muhammad II al-Faqih of Granada — 1235–1302
 - [ ] Oldjaitu (Muhammad Khodabandeh) — 1280–1316
