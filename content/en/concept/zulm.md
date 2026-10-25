@@ -22,3 +22,8 @@ He cites in support the sermon of the Farewell Pilgrimage on the prohibition of 
 
 ## In Ibn Khaldun
 Ibn Khaldun makes it a herald of the ruin of settlement. See [[concept/zulm-mukharrib-al-umran|injustice heralds the ruin of settlement]]. {cite:muqaddima-ibn-khaldun p.276-278}
+
+## Injustice in Sheikh Omar Abdelkafy's lessons (episodes 3 and 4)
+The Sheikh says injustice is transgression against others' rights, like a flood that leaves its banks (needs_source). {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep04 00:21:00} He says that injustice and disobedience to parents bear fruit in this world before the next, that no tyrant in history goes unpunished, and recalls the Meccan persecutors of Bilal and Ammar (needs_source). {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep04 00:22:00} {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep04 00:22:30}
+He says that whoever takes a span of land unjustly is punished, that judges decide by arguments, and that what a person takes of his brother's right without cause is a piece of the Fire (needs_source). {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep04 00:44:30} {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep04 00:45:00}
+He holds that the tyrant's fire returns to him, since he planted fire in people's hearts and is consumed by it (his view). {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep03 00:46:00} {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep03 00:46:30} He says each person's account is like the goods he takes from the supermarket, for which each is held to account (his view). {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep03 00:47:00}

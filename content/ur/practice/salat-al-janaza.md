@@ -18,3 +18,6 @@ translators: [Devin]
 
 ## سنن
 حنفیہ کے نزدیک امام میت کے سینے کے سامنے کھڑا ہوتا ہے؛ شافعیہ کے نزدیک مرد کے سر اور عورت کی کمر کے سامنے۔ پہلی تکبیر کے بعد ثناء، دوسری کے بعد درود اور تیسری کے بعد میت، خود اور تمام مسلمانوں کے لیے دعا سنت ہے۔ {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.6480} {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.6481}
+
+## شیخ عمر عبدالکافی کے درسوں میں جنازہ (قسط نو)
+شیخ کہتے ہیں کہ عمر بن خطاب نے وصیت کی کہ انہیں جلد دفن کیا جائے، کیونکہ اگر وہ نیک ہوں تو بھلائی کی طرف جائیں گے، ورنہ لوگوں سے دور کر دیے جائیں گے (needs_source)۔ {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep09 00:14:00} ان کی رائے ہے کہ جنازے کے ساتھ چلنا اور اس پر غور ہزار درس کے برابر ہے (شیخ کی رائے، needs_source)۔ {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep09 00:14:30} وہ بتاتے ہیں کہ عبدالملک بن مروان ابو حازم کے ہاتھوں میت کا غسل دیکھنے آئے، اور ابو حازم نے ان کو جواب دیا (needs_source)۔ {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep09 00:15:00} وہ نبی کے غسل اور صحابہ کے اختلاف کی روایات بیان کرتے ہیں، اور کہتے ہیں کہ جو نبی کے ساتھ کیا گیا وہ اللہ کی مدد سے ہوا (needs_source)۔ {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep09 00:17:00} {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep09 00:18:00}
