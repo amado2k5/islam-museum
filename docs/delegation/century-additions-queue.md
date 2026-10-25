@@ -148,11 +148,11 @@ lists' own order. Status markers: [ ] queued · [~] in a writer's hands · [x] m
 - [x] Babar Azam — 1994–Living
 - [x] Imran Khan — 1952–Living
 - [x] Shoaib Akhtar — 1975–Living
-- [ ] Rashid Khan — 1998–Living
-- [ ] Mohammad Nabi — 1985–Living
-- [ ] Kumar Sangakkara (Friend/Contemporary) — 1977–Living
-- [ ] Hashim Amla — 1983–Living
-- [ ] Tabraiz Shamsi — 1990–Living
+- [x] Rashid Khan — 1998–Living
+- [x] Mohammad Nabi — 1985–Living
+- [ ] Kumar Sangakkara (Friend/Contemporary) — 1977–Living (flagged: the wave-21 Z1 writer's sources show he is not a Muslim — English Wikipedia's Personal life section, cited to The Guardian (2014) and NDTV Sports, calls him a devout Buddhist, and in his own words in a ThePapare interview: "I'm a Buddhist" — kept queued with this flag per Ahmad's ruling of 25 October 2026, the Guru Nanak / Kabir Das precedent; Ahmad may strike)
+- [x] Hashim Amla — 1983–Living
+- [x] Tabraiz Shamsi — 1990–Living
 - [ ] Farhaan Behardien — 1983–Living
 - [ ] Usman Khawaja — 1986–Living
 - [ ] Fawad Ahmed — 1982–Living
