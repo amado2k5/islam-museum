@@ -1,0 +1,45 @@
+id: person/humayun-ahmed
+class: person
+label: { ar: "همايون أحمد", en: "Humayun Ahmed", ur: "ہمایوں احمد" }
+names:
+  - { value: "Humayun Ahmed", kind: full }
+  - { value: "হুমায়ূন আহমেদ", kind: full }
+  - { value: "Shamsur Rahman", kind: alternate }
+gender: male
+summary:
+  ar: "روائي وكاتب مسرحي وسينمائي بنغلاديشي (1948–2012)، من أشهر كتّاب اللغة البنغالية في القرن العشرين. وُلد في نيتروكونا، ونال الدكتوراه في كيمياء البوليمرات ودرّس الكيمياء في جامعة دكا، وانطلقت شهرته بروايته الأولى «نونديتو نوروكي» سنة 1972، وكتب أكثر من مئتي كتاب تصدرت مبيعات معرض الكتاب، وأخرج ثمانية أفلام من رواياته، ونال جائزة الأكاديمية البنغالية الأدبية سنة 1981 ووسام إكوشي باداك سنة 1994."
+  en: "Bangladeshi novelist, dramatist and filmmaker (1948–2012), among the most popular Bengali-language writers of the twentieth century. Born in Netrokona, he took a PhD in polymer chemistry and taught chemistry at the University of Dhaka. His breakthrough was his debut novel Nondito Noroke in 1972; he wrote over 200 books that topped the Ekushey Book Fair sales, directed eight films from his own novels, and received the Bangla Academy Literary Award in 1981 and the Ekushey Padak in 1994."
+  ur: "بنگلہ دیشی ناول نگار، ڈراما نویس اور فلم ساز (1948ء–2012ء)، بیسویں صدی کے مقبول ترین بنگالی ادیبوں میں سے ایک۔ نیٹروکونا میں پیدا ہوئے، پولیمر کیمسٹری میں پی ایچ ڈی کی اور جامعہ ڈھاکہ میں کیمسٹری پڑھائی۔ ان کی شہرت کا آغاز 1972 میں پہلے ناول «نوندیتو نوروکے» سے ہوا؛ انھوں نے دو سو سے زائد کتابیں لکھیں جو کتاب میلے کی سب سے زیادہ بکنے والی کتابیں رہیں، اپنے ناولوں پر آٹھ فلمیں بنائیں، اور 1981 میں بنگلہ اکیڈمی ادبی ایوارڈ اور 1994 میں اکوشے پادک پایا۔"
+roles: [writer, filmmaker, scholar]
+wings: [people]
+born:
+  edtf: "1948-11-13"
+  hijri: "1368"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "Born on 13 November 1948 at Kutubpur, Mohanganj, Netrokona, East Bengal, in the Dominion of Pakistan (now Bangladesh); his birth name is given in the English article's infobox as Shamsur Rahman. No place entity for Netrokona or Mohanganj exists in data/place/, so no born_in relation is written. The Hijri year (1368) is derived by tabular conversion."
+  sources: [source/wikipedia-humayun-ahmed-en, source/wikipedia-humayun-ahmed-ar, source/wikidata-humayun-ahmed]
+died:
+  edtf: "2012-07-19"
+  hijri: "1433"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "Died on 19 July 2012 at Bellevue Hospital, New York City, United States, of colorectal cancer, per both Wikipedia articles. No place entity for New York City exists in data/place/, so no died_in relation is written. The Hijri year (1433) is derived by tabular conversion."
+  sources: [source/wikipedia-humayun-ahmed-en, source/wikipedia-humayun-ahmed-ar, source/wikidata-humayun-ahmed]
+faith:
+  - value: unknown
+    basis: unknown
+    note: "NOT RECORDED AS DOCUMENTED — the Sunni attestation is single. The English article's personal-life section states in one sentence, with one citation, that he was a Sunni Muslim and regarded the Islamic scholar Muhiuddin Khan as a father figure; regarding a scholar as a father figure is not itself a school attestation. The Arabic article's infobox gives his religion as Islam generically, and no second independent source naming Sunni for him was found. Under the two-source rule and the founder's doubt rule the faith is left unknown — the same settled single-source pattern as the lane's single-infobox cases."
+    sources: [source/wikipedia-humayun-ahmed-en, source/wikipedia-humayun-ahmed-ar, source/wikidata-humayun-ahmed]
+external_ids: { wikidata: "Q12052777" }
+sources: [source/wikipedia-humayun-ahmed-en, source/wikipedia-humayun-ahmed-ar, source/wikidata-humayun-ahmed]
+provenance:
+  layer: own-research
+  source: "English Wikipedia 'Humayun Ahmed' and Arabic Wikipedia «همايون أحمد», both read in full on 25 October 2026, and Wikidata Q12052777 (QID and dates confirmed from two Wikidata project listings; the item itself is unreachable from this machine through the Wikimedia proxy block). His brothers Muhammad Zafar Iqbal and Ahsan Habib have no records in data/person/, so no sibling_of relations are written. No earlier record existed in data/person/ under humayun-ahmed or any other spelling checked."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: century-additions-17
+status: { review: published, completeness: 3, generated_by: "Muse (Muse Spark 1.3)" }

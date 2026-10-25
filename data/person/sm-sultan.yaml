@@ -1,0 +1,46 @@
+id: person/sm-sultan
+class: person
+label: { ar: "إس إم سلطان", en: "SM Sultan", ur: "ایس ایم سلطان" }
+names:
+  - { value: "Sheikh Mohammed Sultan", kind: full }
+  - { value: "শেখ মহম্মদ সুলতান", kind: full }
+  - { value: "S M Sultan", kind: alternate }
+  - { value: "Lal Mia", kind: alternate }
+gender: male
+summary:
+  ar: "رسام بنغالي (1923–1994)، اسمه الكامل شيخ محمد سلطان. وُلد في ماشيمديا بنارايل لأسرة بنّاء فقيرة، ورسم بالفحم مبانيَ يعمل عليها أبوه، ودرس الفن في كلكتا ثلاث سنوات دون أن يكمله، وجاب الهند والولايات المتحدة وإنجلترا عارضًا أعماله، ثم استقر في نارايل من سنة 1953. اشتهر بلوحات فلاحي البنغال ذوي العضلات المبالغ فيها رمزًا لقوة الإنسان العامل، ونال وسام إكوشي باداك سنة 1982 وجائزة يوم الاستقلال سنة 1993."
+  en: "Bengali painter (1923–1994), full name Sheikh Mohammed Sultan. Born at Machimdia, Narail, to a poor mason's family, he drew in charcoal the buildings his father worked on, studied art in Calcutta for three years without completing the course, travelled and exhibited in India, the United States and England, then settled in Narail from 1953. He is famous for canvases of exaggeratedly muscular Bengali peasants as a symbol of the working person's strength, and received the Ekushey Padak in 1982 and the Independence Day Award in 1993."
+  ur: "بنگالی مصور (1923ء–1994ء)، پورا نام شیخ محمد سلطان۔ نارائل کے ماشیمڈیا میں ایک غریب معمار کے گھر پیدا ہوئے، والد کے کام کی عمارتوں کو کوئلے سے بناتے تھے، کلکتہ میں تین برس فن کی تعلیم ادھوری چھوڑی، ہندوستان، امریکہ اور انگلستان میں نمائشیں کیں، پھر 1953 سے نارائل میں مقیم رہے۔ وہ بنگالی کسانوں کی مبالغہ آمیز عضلاتی تصویروں کے لیے مشہور ہیں جو محنت کش انسان کی قوت کی علامت ہیں۔ انھیں 1982 میں اکوشے پادک اور 1993 میں یومِ آزادی ایوارڈ ملا۔"
+roles: [artist]
+wings: [people]
+born:
+  edtf: "1923-08-10"
+  hijri: "1341"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "Born on 10 August 1923 at Machimdia village, then in Jessore District, Bengal, British India (now Narail District, Bangladesh), per the English article. No place entity for Narail or Machimdia exists in data/place/, so no born_in relation is written. The Hijri year (1341) is derived by tabular conversion."
+  sources: [source/wikipedia-sm-sultan-en, source/wikidata-sm-sultan]
+died:
+  edtf: "1994-10-10"
+  hijri: "1415"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "Died on 10 October 1994 at Jessore, Khulna, Bangladesh, per the English article (the hospital at Jessore), and was buried at Narail. A Spanish Wikipedia article gives Narail as the place of death; the record follows the English article. No place entity for Jessore or Narail exists in data/place/, so no died_in relation is written. The Hijri year (1415) is derived by tabular conversion."
+  sources: [source/wikipedia-sm-sultan-en, source/wikidata-sm-sultan]
+faith:
+  - value: unknown
+    basis: unknown
+    note: "NOT RECORDED AS DOCUMENTED — no source names a school for him. The English article names no religion or school at all; it records only that as a young man he joined Allama Mashriqi's Khaksar movement, which sought to organise Muslim social life — a movement affiliation, which under the lane rules is not a school attestation. His name and milieu are not evidence of a school. Under the two-source rule and the founder's doubt rule the faith is left unknown."
+    sources: [source/wikipedia-sm-sultan-en, source/wikidata-sm-sultan]
+external_ids: { wikidata: "Q681949" }
+sources: [source/wikipedia-sm-sultan-en, source/wikidata-sm-sultan]
+provenance:
+  layer: own-research
+  source: "English Wikipedia 'SM Sultan', read in full on 25 October 2026, and Wikidata Q681949 (QID confirmed from the Wikipedia WikiProject Visual Arts list; the item itself is unreachable from this machine through the Wikimedia proxy block). No Arabic Wikipedia article on him exists, so no Arabic source entity is registered — noted here per the lane model. The many sultan records in data/person/ are other people; no earlier record for this painter existed under sm-sultan, s-m-sultan or any other spelling checked."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: century-additions-17
+status: { review: published, completeness: 3, generated_by: "Muse (Muse Spark 1.3)" }
