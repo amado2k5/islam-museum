@@ -41,6 +41,18 @@ A recording is a primary source for what the speaker says. It is not corroborati
 - **Platform figures** (subscribers, views, plays) are dated platform numbers, never museum facts without a date.
 - **Sites that forbid collection are not used.** Check the site's robots.txt and terms before the first bulk download. YouTube-hosted lectures are cited as pointers only: this method never downloads from YouTube (its terms forbid it; `publication-standard` and `15-local-harvest.md` §5 rule 5 apply).
 
+## Include everything, and categorise it (founder, 25 Oct 2026)
+
+These rules apply to every harvest, from recordings, books or any other source. They are the founder's standing decisions.
+
+1. **Include everything intelligible, on any topic.** Nothing is dropped as "off-topic". If the topic has no entity yet, create one.
+2. **Opinions and rants are content too.** A passage that is the speaker's own opinion, criticism or rant, and not a fact of a known category, is included. File it where it fits best: a `question` entity (the issue, with the view labelled and any tensions) when it answers a question; a `concept` under the closest category when it is an idea; or the person's record, under a heading that names it as his opinion, when it is about a person. Label the view as "speaker's view (opinion)" or "speaker's view (rant)" in the perspectives block.
+3. **Tag what is contested or polemical.** Set `sensitivity: contested` on a record that holds disputed matter, and `sensitivity: polemical` on one that attacks a group or a person (described and cited, never reproduced in quotation). Both are visible on the site. Contested passages go in a `:::perspectives` block with the speaker's view first.
+4. **Unverifiable figures and claims are kept**, marked `needs_source` in the YAML and the prose note. They are not dropped.
+5. **Garbled or unclear material** cannot be written as content. The founder has decided that it may be discarded. A repetition loop is not speech and is not used.
+6. **Qur'an and hadith wording is never typed as scripture.** Refer to a passage as `[[passage/quran-<sura>-<aya>|label]]` only when the speaker clearly names it, and cite what he says about it.
+7. **Every excluded item is reported** with its reason, the gate it failed and its override, in the lane's progress file and in every progress report to the founder. Nothing is re-entered without the founder's written authorisation.
+
 ## 3. The Mac toolchain (checked 25 October 2026 on the founder's Mac)
 
 | Job | Tool | Where it is |
