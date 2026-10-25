@@ -1,0 +1,45 @@
+id: person/benazir-bhutto
+class: person
+label: { ar: "بينظير بوتو", en: "Benazir Bhutto", ur: "بے نظیر بھٹو" }
+names:
+  - { value: "Benazir Bhutto", kind: full }
+  - { value: "بينظير بوتو", kind: full }
+  - { value: "بے نظیر بھٹو", kind: full }
+gender: female
+summary:
+  ar: "سياسية وكاتبة باكستانية (1953–2007)، أول امرأة تُنتخب لرئاسة حكومة بلد ذي أغلبية مسلمة؛ ورثت قيادة حزب الشعب الباكستاني عن أبيها ذو الفقار علي بوتو، ورأست حكومة باكستان مرتين (1988–1990 و1993–1996)، وقضت سنوات بين السجن والمنفى وملاحقات قضايا الفساد، ثم عادت من منفاها سنة 2007 فاغتيلت في تجمع انتخابي في راولبندي في 27 ديسمبر 2007."
+  en: "Pakistani politician and writer (1953–2007), the first woman elected to head the government of a Muslim-majority country. She inherited the leadership of the Pakistan People's Party from her father Zulfikar Ali Bhutto and served two terms as Prime Minister of Pakistan (1988–1990 and 1993–1996), enduring prison, exile and corruption proceedings, before returning from exile in 2007 and being assassinated at an election rally in Rawalpindi on 27 December 2007."
+  ur: "پاکستانی سیاست دان و مصنفہ (1953ء–2007ء)، کسی مسلم اکثریتی ملک کی حکومت کی سربراہی کے لیے منتخب ہونے والی پہلی خاتون۔ اپنے والد ذوالفقار علی بھٹو سے پاکستان پیپلز پارٹی کی قیادت ورثے میں پائی، دو مرتبہ وزیرِ اعظم پاکستان رہیں (1988ء–1990ء اور 1993ء–1996ء)، قید، جلاوطنی اور بدعنوانی کے مقدمات کا سامنا کیا، پھر 2007ء میں وطن لوٹیں اور 27 دسمبر 2007ء کو راولپنڈی میں ایک انتخابی جلسے میں قتل کر دی گئیں۔"
+roles: [politician, writer]
+wings: [people]
+born:
+  edtf: "1953-06-21"
+  hijri: "1372"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "Born on 21 June 1953 at Pinto's Nursing Home in Karachi (English article and Wikidata agree). Karachi has no place entity in the museum yet, so no born_in relation is written. The Hijri year (1372) is derived by tabular conversion."
+  sources: [source/wikipedia-benazir-bhutto-en, source/wikidata-benazir-bhutto]
+died:
+  edtf: "2007-12-27"
+  hijri: "1428"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "Assassinated on 27 December 2007 after an election rally at Liaquat Bagh, Rawalpindi; buried the following day beside her father in the family mausoleum at Garhi Khuda Bakhsh. Neither Rawalpindi nor Garhi Khuda Bakhsh has a place entity in the museum yet, so no died_in or buried_in relation is written. The Hijri year (1428) is derived by tabular conversion."
+  sources: [source/wikipedia-benazir-bhutto-en, source/wikidata-benazir-bhutto]
+faith:
+  - value: unknown
+    basis: unknown
+    note: "No two independent sources name a school for Bhutto herself, and the fullest source contradicts itself. The English article describes her family as Sunni Muslims of Sindhi and Kurdish origin and says her mother Nusrat was born into a Shia family and converted to Sunnism on marriage — statements about her parents, which never count. The same article records that she, like her father, professed an adherence to Sufism, and its legacy section says Islamist opponents opposed her 'because she was a Shia Muslim'. One article pointing three ways is not two attestations; Britannica names no sect, and Wikidata (Q34413) gives Islam generically. Where there is doubt the value stays unclassified, so the segment is unknown with exactly this stated."
+    sources: [source/wikipedia-benazir-bhutto-en, source/britannica-benazir-bhutto, source/wikidata-benazir-bhutto]
+external_ids: { wikidata: "Q34413" }
+sources: [source/wikipedia-benazir-bhutto-en, source/wikipedia-benazir-bhutto-ar, source/wikipedia-benazir-bhutto-ur, source/britannica-benazir-bhutto, source/wikidata-benazir-bhutto]
+provenance:
+  layer: own-research
+  source: "English Wikipedia 'Benazir Bhutto' (revision 1380696680), Arabic Wikipedia «بينظير بوتو» (revision 76509706), Urdu Wikipedia «بینظیر بھٹو» (revision 10017655), Wikidata Q34413 (confirmed via the Wikidata API: human, born 21 June 1953 at Karachi, died 27 December 2007 at Rawalpindi, religion Islam generically) and Encyclopaedia Britannica's entry 'Benazir Bhutto' (first published 20 July 1998, last updated 23 October 2026), checked 25 October 2026. No earlier record for her existed in data/person/ under any spelling; this is a new build, not an enrichment."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: century-additions-8
+status: { review: published, completeness: 3, generated_by: "Muse (Muse Spark 1.3)" }

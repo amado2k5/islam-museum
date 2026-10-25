@@ -1,0 +1,35 @@
+id: person/halimah-yacob
+class: person
+label: { ar: "حليمة يعقوب", en: "Halimah Yacob", ur: "حلیمہ یعقوب" }
+names:
+  - { value: "Halimah binti Yacob", kind: full }
+  - { value: "Halimah Yacob", kind: full }
+gender: female
+summary:
+  ar: "سياسية ومحامية سنغافورية وُلدت سنة 1954 في أسرة فقيرة لأب هندي مسلم وأم ملايوية؛ صعدت من العمل النقابي في المؤتمر الوطني لنقابات العمال إلى البرلمان، فصارت سنة 2013 أول امرأة ترأس برلمان سنغافورة، ثم ثامن رئيس للجمهورية وأول امرأة تتولى المنصب (2017–2023)."
+  en: "Singaporean politician and lawyer born in 1954 to a poor family, the daughter of an Indian-Muslim father and a Malay mother. She rose through the National Trades Union Congress to Parliament, became in 2013 the first woman Speaker of Singapore's Parliament, and then its eighth president and first woman to hold the office (2017–2023)."
+  ur: "سنگاپور کی سیاست دان و وکیل، پیدائش 1954ء، ایک غریب خاندان میں ہندوستانی مسلمان والد اور مالے والدہ کے ہاں۔ نیشنل ٹریڈز یونین کانگریس سے پارلیمنٹ تک پہنچیں، 2013ء میں سنگاپور کی پارلیمنٹ کی پہلی خاتون اسپیکر بنیں، پھر ملک کی آٹھویں صدر اور اس منصب پر فائز ہونے والی پہلی خاتون (2017ء–2023ء)۔"
+roles: [politician]
+wings: [people, living]
+born:
+  edtf: "1954-08-23"
+  hijri: "1373"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "Born on 23 August 1954 at the family home on Queen Street, Singapore (English article; Wikidata gives Singapore). Singapore has no place entity in the museum yet, so no born_in relation is written. The Hijri year (1373) is derived by tabular conversion."
+  sources: [source/wikipedia-halimah-yacob-en, source/wikidata-halimah-yacob]
+faith:
+  - value: unknown
+    basis: unknown
+    note: "No source consulted names a school for Halimah Yacob. The English article says she identifies as a Muslim and with Singapore's Malay–Muslim community; the Arabic article states that she professes Islam; Wikidata (Q5642345) gives Islam generically. A generic identification is not a school attestation, and the record does not infer one from Singapore's Malay-Muslim milieu — the same restraint this lane applied to Morocco's Maliki default — so the segment is unknown."
+    sources: [source/wikipedia-halimah-yacob-en, source/wikipedia-halimah-yacob-ar, source/wikidata-halimah-yacob]
+external_ids: { wikidata: "Q5642345" }
+sources: [source/wikipedia-halimah-yacob-en, source/wikipedia-halimah-yacob-ar, source/wikipedia-halimah-yacob-ur, source/wikidata-halimah-yacob]
+provenance:
+  layer: own-research
+  source: "English Wikipedia 'Halimah Yacob' (revision 1380020438), Arabic Wikipedia «حليمة يعقوب» (revision 76759629), Urdu Wikipedia «حلیمہ یعقوب» (revision 12144430) and Wikidata Q5642345 (confirmed via the Wikidata API: human, born 23 August 1954 at Singapore, religion Islam generically), checked 25 October 2026. No earlier record for her existed in data/person/ under any spelling; this is a new build, not an enrichment."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: century-additions-8
+status: { review: published, completeness: 3, generated_by: "Muse (Muse Spark 1.3)" }
