@@ -1,0 +1,41 @@
+id: person/nana-asmau
+class: person
+label: { ar: "نانا أسماء", en: "Nana Asma'u", ur: "نانا اسماء" }
+names:
+  - { value: "أسماء بنت عثمان بن فودي", kind: full }
+  - { value: "Asma'u bint Shehu Usman dan Fodiyo", kind: full }
+  - { value: "Nana Uwar daje", kind: variant }
+gender: female
+summary:
+  ar: "عالمة وشاعرة ومعلّمة من خلافة سوكوتو في غرب أفريقيا، ابنة مؤسس الخلافة عثمان بن فودي، وُلدت سنة 1793 وتوفيت سنة 1864. ألّفت أكثر من ستين عملا بالعربية والفولانية والهوسا والتماشق، وأسست شبكة «يان تارو» من المعلّمات المتجولات لتعليم النساء، فصارت أبرز عالمات غرب أفريقيا في عصرها."
+  en: "Scholar, poet and teacher of the Sokoto Caliphate in West Africa, daughter of its founder Usman dan Fodio; born in 1793 and died in 1864. She wrote more than sixty works in Arabic, Fula, Hausa and Tamacheq, and built the 'Yan Taru network of travelling women teachers, becoming the most prominent woman scholar of West Africa in her age."
+  ur: "مغربی افریقہ کی خلافت سوکوتو کی عالمہ، شاعرہ اور معلمہ، خلافت کے بانی عثمان بن فودیو کی بیٹی؛ 1793 میں پیدا ہوئیں اور 1864 میں وفات پائی۔ انہوں نے عربی، فولانی، ہاؤسا اور تماشق میں ساٹھ سے زائد تصانیف لکھیں اور خواتین کی تعلیم کے لیے سفر کرنے والی معلمات کا جال «یان تارو» قائم کیا۔"
+roles: [scholar, poet, teacher]
+wings: [people]
+born:
+  edtf: "1793"
+  precision: year
+  status: historical
+  note: "Born at Degel, in what became the Sokoto Caliphate, and named after Asma bint Abi Bakr. The year is given by both Wikipedia articles and Wikidata; no month or day is recorded in the sources consulted."
+  sources: [source/wikipedia-nana-asmau-en, source/wikidata-nana-asmau]
+died:
+  edtf: "1864"
+  precision: year
+  status: historical
+  note: "Died in the Sokoto Caliphate. Wikipedia and Wikidata give 1864; Jean Boyd's biography carries the years 1793–1865 in its title, so the death year is given as 1864 with the variant noted."
+  sources: [source/wikipedia-nana-asmau-en, source/wikipedia-nana-asmau-ar, source/wikidata-nana-asmau]
+relations:
+  - { type: member_of, target: group/qadiriyya, sources: [source/wikipedia-nana-asmau-en, source/nana-asmau-one-womans-jihad] }
+faith:
+  - value: sunni-maliki
+    basis: documented
+    note: "Two sources name the school: the English article's infobox gives denomination Sunni and jurisprudence Maliki, with tariqa Qadiriyyah and creed Ash'ari; and the scholarly literature on her life — Jean Boyd's The Caliph's Sister (1989) and Mack & Boyd's One Woman's Jihad (2000) — documents her scholarship and teaching within the Sokoto Caliphate's Maliki legal tradition and Qadiriyya order, the tradition her own poems teach. Wikidata gives only Islam. The Ash'ari creed is recorded in this note only — the person schema has no creed compound."
+    sources: [source/wikipedia-nana-asmau-en, source/nana-asmau-one-womans-jihad, source/wikidata-nana-asmau]
+external_ids: { wikidata: "Q1964420" }
+sources: [source/wikipedia-nana-asmau-en, source/wikipedia-nana-asmau-ar, source/wikidata-nana-asmau, source/nana-asmau-one-womans-jihad]
+provenance:
+  layer: own-research
+  source: "English Wikipedia article 'Nana Asmaʼu' (revision of 20 August 2026), Arabic Wikipedia article «نانا أسماء بنت عثمان فودي» (revision of 20 June 2026), Wikidata Q1964420, and Mack & Boyd, One Woman's Jihad (Indiana University Press, 2000), as listed in the article's sources; checked 24 October 2026"
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: century-additions-1
+status: { review: published, completeness: 3, generated_by: "Muse (Muse Spark 1.3)" }

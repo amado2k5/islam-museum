@@ -1,0 +1,49 @@
+id: person/syed-ahmad-khan
+class: person
+label: { ar: "السيد أحمد خان", en: "Syed Ahmad Khan", ur: "سید احمد خان" }
+names:
+  - { value: "سيد أحمد بن محمد متقي خان", kind: full }
+  - { value: "Syed Ahmad bin Muhammad Muttaqi Khan", kind: full }
+  - { value: "Sir Syed Ahmad Khan", kind: variant }
+gender: male
+summary:
+  ar: "مصلح وتربوي هندي مسلم، وُلد في دلهي سنة 1817 وتوفي في عليكرة سنة 1898. عمل في خدمة شركة الهند الشرقية قاضيا، وشهد تمرد 1857 فأنقذ أرواحا كثيرة، ثم أسس الجمعية العلمية سنة 1864 والكلية الشرقية الأنجلو-محمدية في عليكرة سنة 1875 التي صارت جامعة عليكرة الإسلامية، وكتب «أسباب الثورة الهندية» و«الخطبات الأحمدية»، ورائد فكرة الأمتين في الهند."
+  en: "Indian Muslim reformer and educator, born in Delhi in 1817 and died at Aligarh in 1898. A judge in East India Company service, he saved many lives during the 1857 rebellion, then founded the Scientific Society (1864) and the Muhammadan Anglo-Oriental College at Aligarh (1875), which became Aligarh Muslim University; he wrote The Causes of the Indian Mutiny and the Khutbat-e-Ahmadiya, and pioneered the two-nation theory in India."
+  ur: "ہندوستانی مسلمان مصلح اور ماہر تعلیم، جو 1817 میں دلی میں پیدا ہوئے اور 1898 میں علی گڑھ میں وفات پائی۔ ایسٹ انڈیا کمپنی کی عدلیہ میں منصب رہے، 1857 کی بغاوت میں کئی جانیں بچائیں، پھر سائنٹفک سوسائٹی (1864) اور علی گڑھ میں محمدن اینگلو اورینٹل کالج (1875) قائم کیا جو بعد میں علی گڑھ مسلم یونیورسٹی بنا؛ ان کی تصانیف میں «اسباب بغاوت ہند» اور «خطبات احمدیہ» شامل ہیں۔"
+roles: [scholar, writer, teacher]
+wings: [people]
+born:
+  edtf: "1817-10-17"
+  hijri: "1232"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "Born in Delhi, in the Mughal Empire; his father Syed Muhammad Muttaqi was an adviser to the emperor Akbar Shah II. Gregorian date from the English article and Wikidata; the Hijri year is a conversion, marked derived."
+  sources: [source/wikipedia-syed-ahmad-khan-en, source/wikidata-syed-ahmad-khan]
+died:
+  edtf: "1898-03-27"
+  hijri: "1315"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "Died at Aligarh and was buried at the Sir Syed Mosque on the college campus, according to Wikidata. Gregorian date from the English article and Wikidata; the Hijri year is a conversion, marked derived."
+  sources: [source/wikipedia-syed-ahmad-khan-en, source/wikidata-syed-ahmad-khan]
+relations:
+  - { type: born_in, target: place/delhi, sources: [source/wikipedia-syed-ahmad-khan-en, source/wikidata-syed-ahmad-khan] }
+  - { type: lived_in, target: place/delhi, sources: [source/wikipedia-syed-ahmad-khan-en] }
+  - { type: lived_in, target: place/agra, sources: [source/wikipedia-syed-ahmad-khan-en] }
+faith:
+  - value: unknown
+    basis: unknown
+    note: "No source consulted names a school: Wikidata gives his religion as Islam only, and the English, Arabic and Urdu articles consulted name no denomination or school. He was raised in a household shaped by the Naqshbandi tradition — his first teacher Shah Ghulam Ali was his father's spiritual mentor — and became a rationalist modernist whose Qur'an commentary was opposed by scholars of more than one tendency; a family's tradition and later controversy are not the man's own documented school, so none is recorded."
+    sources: [source/wikipedia-syed-ahmad-khan-en, source/wikipedia-syed-ahmad-khan-ar, source/wikidata-syed-ahmad-khan]
+external_ids: { wikidata: "Q196546" }
+sources: [source/wikipedia-syed-ahmad-khan-en, source/wikipedia-syed-ahmad-khan-ar, source/wikipedia-syed-ahmad-khan-ur, source/wikidata-syed-ahmad-khan]
+provenance:
+  layer: own-research
+  source: "English Wikipedia article 'Syed Ahmad Khan' (revision of 12 October 2026), Arabic Wikipedia article «السيد أحمد خان» (revision of 24 September 2025), Urdu Wikipedia article «سید احمد خان» (revision of 5 October 2026), Wikidata Q196546; checked 24 October 2026"
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: century-additions-1
+status: { review: published, completeness: 3, generated_by: "Muse (Muse Spark 1.3)" }
