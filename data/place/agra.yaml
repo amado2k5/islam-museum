@@ -10,5 +10,9 @@ regions: [south-asia]
 coordinates: [27.1833, 78.0167]
 coordinate_precision: site
 external_ids: { geonames: "1279259" }
-sources: [source/geonames-gazetteer]
-status: { review: draft, completeness: 1, generated_by: "Claude Sonnet 5.5; coordinates from GeoNames; Arabic summary to be checked against reference works" }
+sources: [source/geonames-gazetteer, source/encyclopaedia-of-islam-2]
+provenance:
+  layer: own-research
+  source: "Encyclopaedia of Islam, 2nd ed. (Brill), vol. 1, PDF pp. 274-276, article 'Agra' signed Nurul Hasan (EI2 enrichment, batch ei2-b003 part 3by); GeoNames for coordinates"
+  generated_by: "Claude Code (claude-haiku-5-5)"
+status: { review: published, completeness: 2 }
