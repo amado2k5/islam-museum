@@ -1,0 +1,48 @@
+id: person/umm-kulthum
+class: person
+label: { ar: "أم كلثوم", en: "Umm Kulthum", ur: "ام کلثوم" }
+names:
+  - { value: "Fatima Ibrahim es-Sayyid el-Beltagi", kind: full }
+  - { value: "أم كلثوم إبراهيم السيد البلتاجي", kind: full }
+gender: female
+summary:
+  ar: "مغنية وممثلة مصرية (1898–1975)، لُقّبت بـ«كوكب الشرق» و«صوت مصر» و«الهرم الرابع»؛ أشهر مطربات العالم العربي في القرن العشرين، إذ جمعت حفلاتها الإذاعية الشهرية المستمعين في أنحاء العالم العربي نحو أربعين عامًا، وبقي صوتها رمزًا ثقافيًا لمصر بعد رحيلها."
+  en: "Egyptian singer and film actress (1898–1975), known as Kawkab al-Sharq ('Star of the East'), 'the Voice of Egypt' and 'Egypt's Fourth Pyramid'. She was the most celebrated Arab singer of the twentieth century: her monthly radio concerts drew listeners across the Arab world for some forty years, and her voice has remained a cultural emblem of Egypt since her death."
+  ur: "مصری گلوکارہ و اداکارہ (1898ء–1975ء)، جو «کوکب الشرق»، «مصر کی آواز» اور «مصر کا چوتھا ہرم» کے القاب سے مشہور ہیں؛ بیسویں صدی کی سب سے نامور عرب گلوکارہ، جن کے ماہانہ ریڈیو کنسرٹس نے تقریباً چالیس برس تک پورے عرب دنیا کے سامعین کو محو رکھا۔"
+roles: [singer, actress]
+wings: [people]
+born:
+  edtf: "1898-12-31"
+  hijri: "1316"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "Her birth date is genuinely disputed and the conflict is recorded, not resolved. The Arabic article's lead and the traditional Egyptian date give 31 December 1898, followed here; Wikidata carries that date as one of two claims. The English article's lead gives 4 May 1904 (Hijri year 1322 by the same conversion), which Wikidata carries as its second claim, and the Arabic article's text adds that 'official records' give 4 May 1908 — a third date inconsistent with its own lead. The English article's statement that she died 'aged 70' follows the 1904 year; on the 1898 date she was 76. She was born at Tamay al-Zahayra, a village in the Dakahlia Governorate of the Nile Delta; the village has no place entity in the museum yet, so no born_in relation is written. The Hijri year (1316) is derived by tabular conversion."
+  sources: [source/wikipedia-umm-kulthum-ar, source/wikipedia-umm-kulthum-en, source/wikidata-umm-kulthum]
+died:
+  edtf: "1975-02-03"
+  hijri: "1395"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "Died in Cairo on 3 February 1975, of kidney failure (English article). The English article places her burial in a mausoleum in the City of the Dead near the tomb of Imam al-Shafi'i; Wikidata names the Al Basatin cemetery as her burial place. Both Cairo locations fall under the museum's place/cairo entity for the buried_in relation. The Hijri year (1395) is derived by tabular conversion."
+  sources: [source/wikipedia-umm-kulthum-en, source/wikidata-umm-kulthum]
+relations:
+  - { type: lived_in, target: place/cairo, sources: [source/wikipedia-umm-kulthum-en, source/wikipedia-umm-kulthum-ar] }
+  - { type: died_in, target: place/cairo, sources: [source/wikipedia-umm-kulthum-en, source/wikidata-umm-kulthum] }
+  - { type: buried_in, target: place/cairo, sources: [source/wikipedia-umm-kulthum-en, source/wikidata-umm-kulthum] }
+faith:
+  - value: unknown
+    basis: unknown
+    note: "No source names a school for her. Wikidata gives her religion as Islam (Q432) generically, with no school, and neither Wikipedia article names one. Her formation — a father who was the imam and muezzin of her village, memorisation of the Qur'an at the village kuttab, and a childhood spent singing religious hymns in her father's ensemble — is upbringing and repertoire, which never count as attestation of a school. Under the doubt rule the segment stays unknown."
+    sources: [source/wikidata-umm-kulthum, source/wikipedia-umm-kulthum-en, source/wikipedia-umm-kulthum-ar]
+external_ids: { wikidata: "Q1110560" }
+sources: [source/wikipedia-umm-kulthum-en, source/wikipedia-umm-kulthum-ar, source/wikipedia-umm-kulthum-ur, source/wikidata-umm-kulthum]
+provenance:
+  layer: own-research
+  source: "English Wikipedia 'Umm Kulthum' (revision 1381571823 of 23 October 2026), Arabic Wikipedia «أم كلثوم (مطربة)» (revision 77047040 of 22 October 2026), Urdu Wikipedia «ام کلثوم» (revision 11680615 of 23 July 2026), Wikidata Q1110560 (confirmed via the Wikidata API: human, born with two competing claims — 31 December 1898 and 4 May 1904 — at Tamay al-Zahayra, died 3 February 1975 at Cairo, religion Islam generically), checked 25 October 2026. No earlier record for her existed in data/person/ under any spelling (the umm-kulthum-bint-* records are early Islamic women); this is a new build, not an enrichment."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: century-additions-9
+status: { review: published, completeness: 3, generated_by: "Muse (Muse Spark 1.3)" }

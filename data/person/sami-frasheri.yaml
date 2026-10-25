@@ -1,0 +1,79 @@
+id: person/sami-frasheri
+class: person
+
+label:
+  ar: "شمس الدين سامي فراشري"
+  en: "Sami Frashëri"
+  ur: "شمس الدین سامی فراشری"
+
+names:
+  - { value: "Şemseddin Sami", lang: tr, kind: variant }
+  - { value: "Sami bey Frashëri", lang: en, kind: full }
+
+summary:
+  ar: "كاتب ومعجمي ألباني عثماني (1850-1904) عُرف في المصادر التركية باسم شمس الدين سامي، وأحد الإخوة فراشري الثلاثة ومنظّري الصحوة الوطنية الألبانية. وضع أول موسوعة مطبوعة بالتركية «قاموس الأعلام» في ستة مجلدات و«القاموس التركي»، وصمّم الأبجدية الألبانية المعروفة بأبجدية إسطنبول، وكتب كتيّب «ألبانيا: ما كانت وما هي وما ستكون» (1899) الذي تُنازع نسبته إليه."
+  en: "Albanian-Ottoman writer and lexicographer (1850–1904), known in Turkish sources as Şemseddin Sami, one of the three Frashëri brothers and an ideologue of the Albanian National Awakening. He compiled the first encyclopedia printed in Turkish, the six-volume Kâmûsü'l-A'lâm, and the Kâmûs-ı Türkî dictionary, designed the 'Istanbul alphabet' for Albanian, and is credited with the 1899 manifesto Albania: What she has been, What she is, What she shall be — an attribution Turkish historians generally dispute."
+  ur: "البانوی عثمانی مصنف اور لغت نویس (1850ء–1904ء)، جو ترکی مصادر میں شمس الدین سامی کے نام سے معروف ہیں، تینوں فراشری بھائیوں میں سے ایک اور البانوی قومی بیداری کے نظریہ ساز۔ انھوں نے ترکی میں چھپنے والی پہلی انسائیکلوپیڈیا «قاموس الاعلام» چھ جلدوں میں اور «قاموس ترکی» مرتب کی، البانوی کے لیے «استنبول حروفِ تہجی» وضع کی، اور 1899ء کا رسالہ «البانیہ: کیا تھی، کیا ہے، کیا ہوگی» ان سے منسوب ہے۔"
+
+roles: [lexicographer, writer, playwright]
+wings: [people]
+
+faith:
+  - value: unknown
+    status: unknown
+    basis_sources: [source/wikipedia-sami-frasheri-en, source/wikipedia-sami-frasheri-sq, source/wikipedia-sami-frasheri-tr, source/wikidata-sami-frasheri]
+    note: "NOT RECORDED AS DOCUMENTED — no fetched source attests Sami Frashëri's own adherence to a school or order. What the sources give is his family's affiliation and his schooling: the English article calls his a 'distinguished Muslim Albanian family of Bektashi religious affiliations' and says he began his studies at the Bektashi tekke in Frashër; the Albanian article calls his father's ancestors Muslim Bektashi timar holders; the German article records his first education at the Frashër tekke of the Bektashi order; the Turkish article says he 'continued attending the Bektashi tekke in line with family tradition' — practice within a family tradition, in one source. Family background, schooling at an order's tekke and attendance following family tradition do not attest the man's own adherence, and his brother Naim's attested Bektashi adherence is Naim's, not his (contrast person/naim-frasheri, where the affiliation itself is attested of the man three times over). Wikidata's religion statement is Islam generically (Q432), one structured-data value naming no order or school. Under the lane's two-source rule and the founder's doubt rule ('if we have doubt then unclassified') the faith is left unknown."
+
+born:
+  place_text: "Frashër, Ottoman Albania (now Albania)"
+  date:
+    edtf: "1850-06-01"
+    hijri: "1266"
+    calendar: gregorian
+    precision: day
+    status: historical
+    derived: true
+    note: "Born 1 June 1850 at Frashër; the English, Albanian, Turkish and German articles, the TDV İslâm Ansiklopedisi entry and Wikidata (Q331896, day precision) all agree. The Arabic article gives his years in Hijri as 1266–1322 AH, matching the tabular conversion of 1850."
+  sources: [source/wikipedia-sami-frasheri-en, source/tdv-semseddin-sami, source/wikidata-sami-frasheri]
+
+died:
+  place_text: "Erenköy, Istanbul, Ottoman Empire (now Türkiye)"
+  date:
+    edtf: "1904-06-18"
+    hijri: "1322"
+    calendar: gregorian
+    precision: day
+    status: historical
+    derived: true
+    note: "Died 18 June 1904 at his home in Erenköy, Istanbul, after a severe illness; the English and Albanian articles and Wikidata agree. CONFLICTS: the Turkish article gives 1 July 1904 and the German article 5 June 1904; the record follows 18 June 1904 and records both variants. The Hijri year is derived by tabular conversion and matches the Arabic article's 1322 AH."
+  sources: [source/wikipedia-sami-frasheri-en, source/wikipedia-sami-frasheri-sq, source/wikidata-sami-frasheri]
+
+relations:
+  - predicate: sibling_of
+    target: person/abdyl-frasheri
+    note: "His elder brother Abdyl Frashëri (1839–1892), the League of Prizren leader; the brotherhood is stated in all the articles and in the sibling statements of their Wikidata items (Q47007, Q317988, Q331896)."
+    sources: [source/wikipedia-sami-frasheri-en, source/wikidata-sami-frasheri]
+  - predicate: sibling_of
+    target: person/naim-frasheri
+    note: "His elder brother Naim Frashëri (1846–1900), the poet; the two came to Istanbul together in 1872 and later wrote the Korçë school textbooks together."
+    sources: [source/wikipedia-sami-frasheri-en, source/wikidata-sami-frasheri]
+  - predicate: lived_in
+    target: place/istanbul
+    note: "Came to Istanbul in 1872 and lived there for the rest of his life, in Ottoman service and journalism."
+    sources: [source/wikipedia-sami-frasheri-en]
+  - predicate: died_in
+    target: place/istanbul
+    note: "Died at his home in Erenköy, Istanbul, on 18 June 1904."
+    sources: [source/wikipedia-sami-frasheri-en, source/wikidata-sami-frasheri]
+
+external_ids:
+  wikidata: Q331896
+
+provenance:
+  layer: own-research
+  sources: "English Wikipedia 'Sami Frashëri', rev. 1376878947 of 2026-09-26; Albanian Wikipedia 'Sami Frashëri', rev. 2940717 of 2026-04-13; Turkish Wikipedia 'Şemseddin Sâmi', rev. 38303247 of 2026-10-20; German Wikipedia 'Sami Frashëri', rev. 260929690 of 2025-10-26; Arabic Wikipedia 'شمس الدين سامي فراشري', rev. 76079660 of 2026-08-03; Urdu Wikipedia 'شمس الدین سامی فراشری', rev. 11734089 of 2026-07-31; TDV İslâm Ansiklopedisi entry 'Şemseddin Sâmi' by Abdullah Uçman (2010), read at islamansiklopedisi.org.tr; Wikidata Q331896 read via the API. All read in full on 25 October 2026."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: century-additions-9
+  checked: "2026-10-25"
+
+status: { review: published, completeness: 3 }

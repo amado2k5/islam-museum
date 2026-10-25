@@ -1,0 +1,34 @@
+id: person/ramy-youssef
+class: person
+label: { ar: "رامي يوسف", en: "Ramy Youssef", ur: "رامی یوسف" }
+names:
+  - { value: "رامي يوسف", kind: full }
+gender: male
+summary:
+  ar: "كوميدي وممثل وكاتب أمريكي من أصل مصري، وُلد في كوينز بنيويورك سنة 1991؛ صانع مسلسل «رامي» (2019–2022) وبطله، الذي يتناول حياة شاب مسلم أمريكي من الجيل الأول بين الإيمان والعائلة والهوية، ونال عنه جائزة غولدن غلوب وجائزة بيبودي، وشارك في صناعة مسلسل «مو» على نتفليكس."
+  en: "American stand-up comedian, actor and writer of Egyptian origin, born in Queens, New York, in 1991. He created and starred in the Hulu series Ramy (2019–2022), about a first-generation Muslim-American negotiating faith, family and identity, winning a Golden Globe and a Peabody Award for it, and co-created the Netflix series Mo."
+  ur: "مصری نژاد امریکی مزاح نگار، اداکار و مصنف، 1991 میں کوئنز، نیویارک میں پیدا ہوئے؛ ہولو سیریز «رامی» (2019–2022) کے خالق و مرکزی اداکار، جو ایک پہلی نسل کے مسلمان امریکی نوجوان کی ایمان، خاندان اور شناخت کی کشمکش بیان کرتی ہے، جس پر انہیں گولڈن گلوب اور پی باڈی ایوارڈ ملا، اور نیٹ فلکس سیریز «مو» کے شریک خالق۔"
+roles: [comedian, actor, writer]
+wings: [people, living]
+born:
+  edtf: "1991-03-26"
+  hijri: "1411"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "Born on 26 March 1991 in Queens, New York City (English article and Wikidata agree). No place entity for New York City or Queens exists in data/place/, so no born_in relation is written. The Hijri year (1411) is derived by tabular conversion."
+  sources: [source/wikipedia-ramy-youssef-en, source/wikidata-ramy-youssef]
+faith:
+  - value: unknown
+    basis: unknown
+    note: "No source names a school for him. The English article says he was raised in a Muslim household observing Islamic holidays and 'remains a practicing Muslim' — upbringing and practice, which under the counting rule are not a school attestation. Wikidata gives his religion as Islam (Q432) generically. His public statements about his faith, including his prayers from the Saturday Night Live stage, are carried attributed in the prose as his stance, not as a segment."
+    sources: [source/wikipedia-ramy-youssef-en, source/wikidata-ramy-youssef]
+external_ids: { wikidata: "Q65029416" }
+sources: [source/wikipedia-ramy-youssef-en, source/wikipedia-ramy-youssef-ar, source/wikipedia-ramy-youssef-ur, source/wikidata-ramy-youssef]
+provenance:
+  layer: own-research
+  source: "English Wikipedia 'Ramy Youssef' (revision 1381398817 of 22 October 2026), Arabic Wikipedia «رامي يوسف» (revision 75167536 of 7 June 2026), Urdu Wikipedia «رامی یوسف» (revision 10659757 of 28 May 2026, a stub) and Wikidata Q65029416 (confirmed via the Wikidata API: human, born 26 March 1991 at Queens, religion Islam generically), checked 25 October 2026. The existing shared entity source/variety-ramy-globe-2020 (screen-index lane, status draft) was not cited, the record's facts resting on the sources above. No earlier record for him existed in data/person/ under any spelling; this is a new build, not an enrichment."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: century-additions-10
+status: { review: published, completeness: 3, generated_by: "Muse (Muse Spark 1.3)" }

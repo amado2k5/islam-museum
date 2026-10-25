@@ -22,6 +22,22 @@ Lane document: `docs/agents/lanes/ei2.md`. Approved by the founder on 24 Oct 202
 
 Continue ei2-b002 part 2: seq 38-50 (ABU 'I-'ATAHIYA, NADIDIARI AL-ANSARI, ABU BAKR, AL-DIN PANIPATI (page image needed), ABU DAMDAM, AL-ASH'ATH (Abu Dawud al-Sijistani), ABU DHARR, ABU DUAD, ABU DULAF, AL-KURASHI, ABU 'I-FIDA', ABU DJAHL is done). Then ei2-b003 from seq 51 on a branch from origin/main. Checks: npm run validate (0 errors), npm run cite-check, npm run graph, npm run coverage; then commit, push, open PR and merge without waiting for CI (coordinator instruction, 25 Oct 2026).
 
+## Batch ei2-b003 (vol. 1 from seq 51)
+
+| Part | Rows | Entries | Status |
+|---|---|---|---|
+| ei2-b003 part 3a | seq 52, 53, 56, 59 | enriched person/abu-al-ghazi-bahadur, person/abu-hamid-al-gharnati, person/abu-hatim-ahmad-al-razi, person/abu-hayyan-al-tawhidi (from the Encyclopaedia's text as read; the articles are only partly read: Abu l-Ghazi to 2300 chars of 5743, Abu Hayyan to 3000 of 7222, Abu Hamid to 900 of 4767; the rest is open) | done; PR in progress |
+| ei2-b003 part 3b | seq 57, 60, 61 | 3 entries: new person/abu-hatim-al-sijistani (the printed heading AL-DIUSHAMI is garbled; identified from the works and pupils named; check the page image p. 144); enriched person/abu-al-hudhayl-al-allaf (read in full, pp. 146-147), person/abu-inan-faris (read to p. 148); en, ar, ur | done; PR in progress |
+| ei2-b003 part 3c | seq 51 | 1 new: person/abu-ghanim-bishr-al-khurasani (Ibadi jurist; the heading SANI is confirmed on the page image p. 139 as ABU GHANIM BISR B. GHANIM AL-KHURASANI); en, ar, ur | done; PR in progress. Page-image checks for seq 54, 55, 62 are still open |
+| ei2-b003 part 3d (decisions only) | seq 54, 55, 58, 62 | Page-image checks done for p. 144 (seq 55 and 58). Decisions: seq 55 is not the 'ABU HASHIM' heading of the splitter. On the page image, p. 144 shows "ABU HASHIM, Mu'tazili theologian [see AL-JUBBA'I]" (a cross-reference, skipped) followed by the entry ABU HATIM YA'KUB b. LABID (or LABIB, HABIB) AL-MAZUZI AL-NAFUSI, Ibadi imam in the Maghrib, signed A. de Motylinski and T. Lewicki. That entry is NEW and goes to the next part as person/abu-hatim-yaqub-al-mazuzi. seq 58 ABU 'L-HAWL (the Sphinx): DECISION, not written as a person; the building record building/abu-al-hawl exists and the entry is about the monument, so it is left to a building enrichment in a later part. seq 54 ABU HASHIM 'ABD ALLAH (Kaysanite leader, son of Muhammad b. al-Hanafiyya, p. 143): the existing person/abu-hashim-ibn-muhammad is to be enriched in the next part. seq 62 ABSTINAAN (p. 149): page image not yet checked; open. | decisions recorded; no content this part |
+| ei2-b003 part 3a (open) | seq 51, 54, 55, 57, 58, 60, 61, 62 | not yet written | open |
+
+Open reasons: seq 51 SANI is an Ibadi lawyer (Abu Ghanim's Mudawwana; heading clipped; needs its own record). seq 54 ABU HASHIM 'ABD ALLAH and seq 55 ABU HASHIM (the Mutazili/Ibadi line is mixed by the splitter) need the page image. seq 57, 58, 60 (ABU L-HUDHAYL AL-'ALLAF, 13.6k chars), 61, 62 not yet read.
+
+Open after part 3b: seq 51 SANI (Ibadi lawyer, Abu Ghanim's Mudawwana; heading clipped, needs its own record after the page image check); seq 54 and 55 (ABU HASHIM; the splitter mixes the Mutazili and Ibadi lines; the page image is needed before writing); seq 58 (heading 'MMIA' is the tail of the AL-DIUSHAMI bibliography and the start of ABU 'L-HAWL, the Sphinx, which is already a building record, building/abu-al-hawl); seq 62 ABSTINAAN (Jewish messianic claimant under 'Abd al-Malik or Marwan II, Isawiyya; heading garbled, needs the page image).
+
+Note: four content files (abu-al-ghazi-bahadur, abu-hamid-al-gharnati, abu-hatim-ahmad-al-razi) had no content file before; they now carry the encyclopaedia section only, with the record's existing summary in the yaml.
+
 ## Open after part 2b
 
 - seq 30 AI-ABNA' (a term with five senses): OPEN, reason: needs a concept record, and the class is not yet checked against schema/enums.

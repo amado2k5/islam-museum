@@ -15,3 +15,6 @@ Al-Suyuti holds that in this report lies the origin of the claim that the imamat
 
 ## Notes for researchers
 - The report is from al-Suyuti alone; a second source is needed. The other views on this claim are not set out here.
+
+## Encyclopaedia of Islam account
+The Encyclopaedia of Islam (2nd ed.) entry describes Abu Hashim 'Abd Allah, the Shi'ite leader and son of Muhammad b. al-Hanafiyya, whom he succeeded as head of the smaller branch of the Shi'a (see Kaysaniyya). The article says that the only information about him concerns his death and his testament in favour of the 'Abbasids. Old historical and heresiographical sources relate that he went with a group of Shi'ites to the court of Sulayman b. 'Abd al-Malik, who, afraid of his intelligence and authority, had him poisoned on the return journey. Feeling death near, he made a detour to Humayma, not far from the residence of the 'Abbasids, and died there after bequeathing his rights to the imamate to Muhammad b. 'Ali. The article notes that this tradition is generally taken as an invention of the pro-'Abbasid party, but that stripped of its incongruities it may contain a kernel of truth. {cite:encyclopaedia-of-islam-2 vol. 1 p. 143}

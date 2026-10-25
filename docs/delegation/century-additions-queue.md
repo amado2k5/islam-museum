@@ -63,16 +63,16 @@ lists' own order. Status markers: [ ] queued · [~] in a writer's hands · [x] m
 - [x] Halimah Yacob — 1954–Living
 - [x] Roza Otunbayeva — 1950–Living
 - [x] Atifete Jahjaga — 1975–Living
-- [ ] Umm Kulthum — 1898–1975
-- [ ] Fairuz — 1934–Living
-- [ ] Abdel Halim Hafez — 1929–1977
-- [ ] A. R. Rahman — 1967–Living
-- [ ] Shah Rukh Khan — 1965–Living
-- [ ] Aamir Khan — 1965–Living
-- [ ] Mahershala Ali — 1974–Living
-- [ ] Ramy Youssef — 1991–Living
-- [ ] Riz Ahmed — 1982–Living
-- [ ] Hasan Minhaj — 1985–Living
+- [x] Umm Kulthum — 1898–1975
+- [x] Fairuz — 1934–Living
+- [x] Abdel Halim Hafez — 1929–1977
+- [x] A. R. Rahman — 1967–Living
+- [x] Shah Rukh Khan — 1965–Living
+- [x] Aamir Khan — 1965–Living
+- [x] Mahershala Ali — 1974–Living
+- [x] Ramy Youssef — 1991–Living
+- [x] Riz Ahmed — 1982–Living
+- [x] Hasan Minhaj — 1985–Living
 - [ ] Dave Chappelle — 1973–Living
 - [ ] Yasin Bey (Mos Def) — 1973–Living
 - [ ] K'naan — 1978–Living
@@ -997,16 +997,16 @@ lists' own order. Status markers: [ ] queued · [~] in a writer's hands · [x] m
 - [x] Omer Nishani (1887–1954)
 - [x] Ismail Qemali (1844–1919)
 - [x] Omer Vrioni (1839–1928)
-- [ ] Naim Frashëri (1846–1900)
-- [ ] Sami Frashëri (1850–1904)
-- [ ] Abdyl Frashëri (1839–1892)
-- [ ] Sheikh Ma al-'Aynayn (1830–1910)
-- [ ] Ahmadu Tall (1836–1897)
-- [ ] Amadou Bamba (1853–1927)
-- [ ] El Hadj Malik Sy (1855–1922)
-- [ ] Modibo Adama (1786–1847)
-- [ ] Sultan Ali Dinar (1856–1916)
-- [ ] Syed Ameer Ali (1849–1928)
+- [x] Naim Frashëri (1846–1900)
+- [x] Sami Frashëri (1850–1904)
+- [x] Abdyl Frashëri (1839–1892)
+- [x] Sheikh Ma al-'Aynayn (1830–1910)
+- [x] Ahmadu Tall (1836–1897)
+- [x] Amadou Bamba (1853–1927)
+- [x] El Hadj Malik Sy (1855–1922)
+- [x] Modibo Adama (1786–1847)
+- [x] Sultan Ali Dinar (1856–1916)
+- [x] Syed Ameer Ali (1849–1928)
 - [ ] Altaf Hussain Hali (1837–1914)
 - [ ] Nazir Ahmad Dehlvi (1830–1912)
 - [ ] Ashraf Ali Thanwi (1863–1943)

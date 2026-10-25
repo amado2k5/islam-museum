@@ -7,6 +7,7 @@ import { ui, fmt, LANGS, type Lang } from "../../../../lib/i18n";
 import { loadLessons, viewLessons } from "../../../../lib/kids";
 import { pathways, pathwayPath, pathwaySubject } from "../../../../lib/pathways";
 import { labelOf } from "../../../../lib/graph";
+import { homeworkViews } from "../../../../lib/homework";
 import "../../../../styles/edu.css";
 
 export function getStaticPaths() { return LANGS.map((lang) => ({ params: { lang }, props: { lang } })); }
@@ -32,6 +33,7 @@ const grades = [...byGrade.keys()].sort((a, b) => Number(a) - Number(b));
       <li><a href={`/${lang}/sighar/teachers/`}><span class="ic" aria-hidden="true">🍎</span><span><h2>{E.th_kids_kit}</h2><p>{E.th_kids_kit_desc}</p></span></a></li>
       <li><a href={`/${lang}/learn/trails/`}><span class="ic" aria-hidden="true">🗺</span><span><h2>{E.th_trails}</h2><p>{E.th_trails_desc}</p></span></a></li>
       <li><a href={`/${lang}/learn/passport/`}><span class="ic" aria-hidden="true">🛂</span><span><h2>{E.th_passport}</h2><p>{E.th_passport_desc}</p></span></a></li>
+      <li><a href={`/${lang}/learn/teachers/packs/`}><span class="ic" aria-hidden="true">🗓</span><span><h2>{E.pk_title}</h2><p>{E.pk_desc}</p></span></a></li>
     </ul>
 
     {grades.length > 0 && (
@@ -66,6 +68,11 @@ const grades = [...byGrade.keys()].sort((a, b) => Number(a) - Number(b));
     </ul>
     <p class="muted" style="max-width:var(--measure)">{E.th_qr_text}</p>
 
+    <section id="homework" aria-labelledby="hw-hub-h">
+      <h2 id="hw-hub-h">{E.hw_title}</h2>
+      <p class="muted" style="max-width:var(--measure)">{E.hw_lede}</p>
+      <p style="display:flex;flex-wrap:wrap;gap:6px;max-width:var(--measure)">{homeworkViews(lang).map((v) => <a class="chip" href={v.href}>{v.title}</a>)}</p>
+    </section>
     <h2>{E.th_classroom}</h2>
     <p style="max-width:var(--measure)">{E.th_classroom_text}</p>
     <p><a class="chip" style="border:1px solid var(--gold)" href={`/${lang}/sighar/quest/?classroom=1`}>{t.quest_title} · ?classroom=1</a></p>

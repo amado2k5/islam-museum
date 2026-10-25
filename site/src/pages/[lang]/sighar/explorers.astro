@@ -18,6 +18,9 @@ const band = viewBands(lang, T.kids).find((b) => b.id === "explorers")!;
 <BaseLayout lang={lang} title={band.name} description={`${fmt(E.band_hub_for, { ages: band.agesLabel })}: ${band.voice}`} path={band.hub} kids={true}>
   <BandHub lang={lang} band={band}>
     <FactStrip lang={lang} />
+    <ul class="edu-adult">
+      <li><a href={`/${lang}/sighar/explorers/where/`}><span class="ic" aria-hidden="true">🧭</span><span><h2>{E.wh_title}</h2><p>{E.wh_lede}</p></span></a></li>
+    </ul>
     <ReadShelf lang={lang} band="explorers" />
   </BandHub>
 </BaseLayout>

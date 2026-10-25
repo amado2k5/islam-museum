@@ -4,6 +4,7 @@
 import { describe, expect, it } from "vitest";
 import { existsSync, readFileSync, readdirSync } from "node:fs";
 import { parse } from "yaml";
+import { loadPacks } from "../site/src/lib/packs.ts";
 
 const HONORIFIC = /(peace be upon him|\bpbuh\b|\(saw\)|ﷺ|صلى الله عليه|صلى اللّٰه عليه|عليه السلام|عليها السلام|رضي الله ع|رضي اللّٰه ع|رحمه الله|رحمها الله)/;
 const LANGS = ["ar", "en", "ur"] as const;
@@ -143,7 +144,7 @@ describe("education: weight budgets and QR", () => {
   it("budget table names built routes with sane limits", async () => {
     const { BUDGETS } = await import("./check-weight.ts");
     for (const b of BUDGETS) {
-      const dynamic = /^\/ar\/(cards\/list|sighar\/teachers\/lessons|sighar\/read\/[a-z]+|learn\/teachers\/pathways|learn\/teachers\/quiz|[a-z]+)\/[a-z0-9-]+\/(print\/)?$/.test(b.route);
+      const dynamic = /^\/ar\/(cards\/list|sighar\/teachers\/lessons|sighar\/read\/[a-z]+|learn\/teachers\/pathways|learn\/teachers\/quiz|learn\/teachers\/packs|[a-z]+)\/[a-z0-9-]+\/(print\/)?$/.test(b.route);
       expect(routeBuilt(b.route.replace(/^\/ar/, "")) || dynamic, b.route).toBe(true);
       expect(b.html).toBeLessThanOrEqual(700 * 1024);
       expect(b.js).toBeLessThanOrEqual(30 * 1024);
@@ -599,6 +600,180 @@ describe("education: fact engine (E3 step 3, plan §5)", () => {
 
   it("the fact strings exist in all three languages and Urdu is not the English", () => {
     for (const k of Object.keys(i18n("ar").edu).filter((k) => k.startsWith("fc_"))) {
+      for (const l of LANGS) expect(typeof i18n(l).edu[k] === "string" && i18n(l).edu[k].length > 0, `${l} ${k}`).toBe(true);
+      expect(i18n("ur").edu[k] === i18n("en").edu[k], `ur repeats en for ${k}`).toBe(false);
+    }
+  });
+});
+
+describe("education: seasonal packs (E3 step 4, plan §5)", () => {
+  const packsLib = readFileSync("site/src/lib/packs.ts", "utf8");
+  const packPage = readFileSync("site/src/pages/[lang]/learn/teachers/packs/[slug].astro", "utf8");
+  const hubPage = readFileSync("site/src/pages/[lang]/learn/teachers/index.astro", "utf8");
+
+  it("edu/packs.yaml defines exactly the four dated packs, each printing 8-12 sheets", () => {
+    const packs = loadPacks().map((p) => p.id);
+    expect(packs.sort()).toEqual(["back-to-school", "exam-season", "heritage-month", "ramadan"].sort());
+    for (const p of loadPacks()) {
+      const sheets = p.kit.reduce((a, k) => a + k.sheets, 0);
+      expect(sheets, `${p.id} kit`).toBeGreaterThanOrEqual(8);
+      expect(sheets, `${p.id} kit`).toBeLessThanOrEqual(12);
+      for (const l of LANGS) {
+        expect(p.title[l].length, `${p.id} ${l}`).toBeGreaterThan(0);
+        expect(p.when[l].length, `${p.id} when ${l}`).toBeGreaterThan(0);
+        expect(p.lede[l].length, `${p.id} lede ${l}`).toBeGreaterThan(0);
+      }
+      expect(p.kit.length, `${p.id} kit size`).toBeGreaterThan(0);
+    }
+  });
+
+  it("every pack route is generated per language and the page carries the kit, the print button and the QR", () => {
+    expect(packPage.includes("loadPacks()")).toBe(true);
+    expect(packPage.includes("window.print()")).toBe(true);
+    expect(packPage.includes("<Qr ")).toBe(true);
+    expect(packPage.includes("E.pk_kit_title")).toBe(true);
+    expect(hubPage.includes("/learn/teachers/packs/")).toBe(true);
+  });
+
+  it("every pack kit href resolves to a real static route", () => {
+    for (const p of loadPacks()) for (const k of p.kit) {
+      const candidates = [
+        `site/src/pages/[lang]${k.href.slice(0, -1)}.astro`,
+        `site/src/pages/[lang]${k.href}index.astro`,
+      ];
+      // dynamic routes ([slug].astro, [unit].astro) stand in for the leaf
+      const parts = k.href.split("/").filter(Boolean);
+      const parent = `site/src/pages/[lang]/${parts.slice(0, -1).join("/")}`;
+      const dyn = `${parent}/[slug].astro`;
+      const dynUnit = `${parent}/[unit].astro`;
+      const grand = `site/src/pages/[lang]/${parts.slice(0, -2).join("/")}`;
+      const dyn2 = `${grand}/[slug]/${parts[parts.length - 1]}.astro`;
+      const dyn2idx = `${grand}/[slug]/${parts[parts.length - 1]}/index.astro`;
+      const ok = candidates.some((c) => existsSync(c)) || existsSync(dyn) || existsSync(dynUnit) || existsSync(dyn2) || existsSync(dyn2idx);
+      expect(ok, `${p.id}: ${k.href}`).toBe(true);
+    }
+  });
+
+  it("the Ramadan pack states the Umm al-Qura expectation and the sighting caveat in every language", () => {
+    const p = loadPacks().find((x) => x.id === "ramadan")!;
+    for (const l of LANGS) {
+      const w = p.when[l];
+      expect(w.includes("1448")).toBe(true);
+      expect(/2027/.test(w)).toBe(true);
+      expect(/رؤية|sighting|ہلال/.test(w)).toBe(true);
+    }
+  });
+
+  it("each pack has its email text in docs/outreach/education/ for the founder", () => {
+    for (const p of loadPacks()) {
+      const f = `docs/outreach/education/${p.id}.md`;
+      expect(existsSync(f), p.id).toBe(true);
+      expect(readFileSync(f, "utf8").includes(`/learn/teachers/packs/${p.id}/`)).toBe(true);
+    }
+  });
+
+  it("the pack strings exist in all three languages and Urdu is not the English", () => {
+    for (const k of Object.keys(i18n("ar").edu).filter((k) => k.startsWith("pk_"))) {
+      for (const l of LANGS) expect(typeof i18n(l).edu[k] === "string" && i18n(l).edu[k].length > 0, `${l} ${k}`).toBe(true);
+      expect(i18n("ur").edu[k] === i18n("en").edu[k], `ur repeats en for ${k}`).toBe(false);
+    }
+  });
+});
+
+describe("education: offline packs (E3 step 5, plan §5)", () => {
+  const endpoint = readFileSync("site/src/pages/[lang]/learn/teachers/offline/[slug].html.ts", "utf8");
+
+  it("the endpoint writes one .html per pack per language, self-contained: inline CSS, no script, no absolute URL", () => {
+    expect(endpoint.includes("getStaticPaths")).toBe(true);
+    expect(endpoint.includes("loadPacks()")).toBe(true);
+    expect(endpoint.includes("<style>")).toBe(true);
+    expect(endpoint.includes("<script")).toBe(false);
+    expect(endpoint.includes("Content-Type")).toBe(true);
+    expect(endpoint.includes("pk_offline_note")).toBe(true);
+  });
+
+  it("check-site asserts every offline file exists, is at most 2 MB, and carries no external fetch", () => {
+    const cs = readFileSync("scripts/check-site.ts", "utf8");
+    expect(cs.includes("offline")).toBe(true);
+    expect(cs.includes("2 * 1024 * 1024")).toBe(true);
+    expect(cs.includes("<script[^>]*\\ssrc=")).toBe(true);
+    expect(cs.includes("https?:\\/\\/")).toBe(true);
+  });
+
+  it("each pack page links its offline file", () => {
+    const packPage = readFileSync("site/src/pages/[lang]/learn/teachers/packs/[slug].astro", "utf8");
+    expect(packPage.includes("/learn/teachers/offline/")).toBe(true);
+    expect(packPage.includes("pk_offline")).toBe(true);
+  });
+});
+
+describe("education: Where am I? gentle (E3 step 6, plan §5)", () => {
+  const page = readFileSync("site/src/pages/[lang]/sighar/explorers/where.astro", "utf8");
+
+  it("edu/where.yaml has 12 rounds, each with two real options whose answer is among them", async () => {
+    const { loadWhere, viewWhere } = await import("../site/src/lib/where.ts");
+    const rounds = loadWhere();
+    expect(rounds.length).toBe(12);
+    for (const r of rounds) {
+      expect(r.options.length).toBe(2);
+      expect(r.options.includes(r.answer)).toBe(true);
+      for (const l of LANGS) expect(r.question[l].length, `${r.id} ${l}`).toBeGreaterThan(0);
+      const v = viewWhere(r, "en");
+      expect(v.options.filter((o) => o.right).length).toBe(1);
+      expect(v.answerLabel.length).toBeGreaterThan(0);
+    }
+  });
+
+  it("the page needs no JavaScript: every option reveals through <details>, and wrong guesses stay warm", () => {
+    expect(page.includes("<script")).toBe(false);
+    expect(page.includes("<details")).toBe(true);
+    expect(page.includes("wh_notquite")).toBe(true);
+    expect(page.includes("wh_yes")).toBe(true);
+    expect(page.includes("loadWhere()")).toBe(true);
+  });
+
+  it("the Explorers hub links the game and the wh_* strings exist in all three languages", () => {
+    const hub = readFileSync("site/src/pages/[lang]/sighar/explorers.astro", "utf8");
+    expect(hub.includes("/sighar/explorers/where/")).toBe(true);
+    for (const k of Object.keys(i18n("ar").edu).filter((k) => k.startsWith("wh_"))) {
+      for (const l of LANGS) expect(typeof i18n(l).edu[k] === "string" && i18n(l).edu[k].length > 0, `${l} ${k}`).toBe(true);
+      expect(i18n("ur").edu[k] === i18n("en").edu[k], `ur repeats en for ${k}`).toBe(false);
+    }
+  });
+});
+
+describe("education: homework search (E3 step 7, plan §5)", () => {
+  it("edu/homework-topics.yaml has 50 topics × 3 phrasings in each language, every target real", async () => {
+    const { loadHomework, viewHomework } = await import("../site/src/lib/homework.ts");
+    const topics = loadHomework();
+    expect(topics.length).toBe(50);
+    for (const t of topics) {
+      for (const l of LANGS) {
+        expect(t.phrasings[l].length, `${t.id} ${l}`).toBe(3);
+        expect(new Set(t.phrasings[l]).size).toBe(3);
+        expect(t.title[l].length).toBeGreaterThan(0);
+      }
+      expect(viewHomework(t, "en").href.startsWith("/en/")).toBe(true);
+    }
+    // the plan's example: «الحروب الصليبية واجب» is a phrasing of the crusades topic
+    const crusades = topics.find((x) => x.id === "crusades")!;
+    expect(crusades.phrasings.ar).toContain("الحروب الصليبية واجب");
+    expect(crusades.target).toBe("exhibit/pathway-g11-chw3m-crusades-muslim-side");
+  });
+
+  it("the phrasings merge into the search synonyms at build, and the zero-result strip is wired", () => {
+    const derive = readFileSync("scripts/derive.ts", "utf8");
+    expect(derive.includes("homework-topics.yaml")).toBe(true);
+    const search = readFileSync("site/src/pages/[lang]/search/index.astro", "utf8");
+    expect(search.includes("hw-strip")).toBe(true);
+    expect(search.includes("homeworkViews")).toBe(true);
+    expect(search.includes("pagefind-ui__result")).toBe(true);
+    const hub = readFileSync("site/src/pages/[lang]/learn/teachers/index.astro", "utf8");
+    expect(hub.includes("homeworkViews")).toBe(true);
+  });
+
+  it("the hw_* strings exist in all three languages and Urdu is not the English", () => {
+    for (const k of Object.keys(i18n("ar").edu).filter((k) => k.startsWith("hw_"))) {
       for (const l of LANGS) expect(typeof i18n(l).edu[k] === "string" && i18n(l).edu[k].length > 0, `${l} ${k}`).toBe(true);
       expect(i18n("ur").edu[k] === i18n("en").edu[k], `ur repeats en for ${k}`).toBe(false);
     }
