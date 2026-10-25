@@ -1,0 +1,47 @@
+id: person/shibli-nomani
+class: person
+label: { ar: "شبلي النعماني", en: "Shibli Nomani", ur: "شبلی نعمانی" }
+names:
+  - { value: "محمد شبلي النعماني", kind: full }
+  - { value: "Muhammad Shibli Nomani", kind: full }
+  - { value: "Shibli Numani", kind: alternate }
+gender: male
+summary:
+  ar: "عالم ومؤرخ وشاعر هندي مسلم (1857–1914)، أستاذ العربية والفارسية في عليكره ستة عشر عامًا، والقوة المحرّكة لندوة العلماء في لكنو، ومؤسس دار المصنفين في أعظم كره، يُلقَّب بأبي التأريخ الأردي، صاحب «سيرة النبي» التي أكملها تلميذه سليمان الندوي و«الفاروق» و«شعر العجم» ومشروع علم الكلام الجديد."
+  en: "Indian Muslim scholar, historian and poet (1857–1914): professor of Arabic and Persian at Aligarh for sixteen years, the driving force of Nadwatul Ulama at Lucknow, and founder of the Darul Musannefin academy at Azamgarh. Called the father of Urdu historiography, he authored the Sirat-un-Nabi that his disciple Sulaiman Nadvi completed, Al-Faruq, Sher-ul-Ajam, and a project for a new kalam."
+  ur: "ہندوستانی مسلمان عالم، مورخ اور شاعر (1857–1914): علی گڑھ میں سولہ برس عربی و فارسی کے استاد، لکھنؤ میں ندوۃ العلما کی محرک شخصیت، اور اعظم گڑھ میں دار المصنفین کے بانی؛ انہیں اردو تاریخ نگاری کا باپ کہا جاتا ہے؛ «سیرت النبی» (جسے شاگرد سلیمان ندوی نے مکمل کیا)، «الفاروق» اور «شعر العجم» کے مصنف اور علم کلام جدید کے منصوبے کے حامل۔"
+roles: [scholar, historian, writer, poet]
+wings: [people]
+born:
+  edtf: "1857-06-03"
+  hijri: "1273"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "Birth day contested: Wikidata and the Urdu article's infobox (citing the German National Library file) give 3 June 1857, which the record follows; the English article and the Urdu article's text give 4 June. Birthplace: the village of Bindwal (Bindul) near Azamgarh, from the English article and the TDV entry; neither Bindwal nor Azamgarh has a place entity in the museum yet, so no born_in relation is written. The Hijri year (1273) is derived by tabular conversion; the Arabic article's infobox gives 1275 AH, which does not convert from June 1857."
+  sources: [source/wikidata-shibli-nomani, source/wikipedia-shibli-nomani-ur, source/wikipedia-shibli-nomani-en, source/tdv-shibli-nomani]
+died:
+  edtf: "1914-11-18"
+  hijri: "1332"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "He died at Azamgarh on 18 November 1914, from the English and Urdu articles and Wikidata. The Arabic article dates his death 29 Dhu al-Hijja 1332 AH — whose tabular conversion is 18 November — but pairs it in print with 17 November; the record follows 18 November and the Arabic article's own Hijri date. Azamgarh has no place entity in the museum yet, so no died_in relation is written."
+  sources: [source/wikipedia-shibli-nomani-en, source/wikipedia-shibli-nomani-ur, source/wikidata-shibli-nomani, source/wikipedia-shibli-nomani-ar]
+relations:
+  - { type: student_of, target: person/ahmad-ali-saharanpuri, sources: [source/wikipedia-shibli-nomani-ur, source/wikipedia-shibli-nomani-ar] }
+faith:
+  - value: unknown
+    basis: unknown
+    note: "Near attestation, held unclassified under the doubt rule. The Arabic article's infobox alone assigns him outright — fiqh Hanafi, affiliation Ahl al-Sunna wa-l-Jama'a, creed Maturidi. The English article's infobox gives only the denomination 'Sunni' with no madhhab, and its text, citing Bhardwaj's History of Modern India, calls him a supporter of the Deobandi school — a movement affiliation, which does not count as a school attestation. Wikidata gives Islam (Q432) generically. The TDV encyclopedia entry, the fullest scholarly account fetched, names no school for him at all: it explains his nisba Nu'mani as taken after Abu Hanifa's name, and his Sirat-i Nu'man's treatment of Hanafi fiqh as belonging to its subject, Abu Hanifa. One infobox naming a school, one movement affiliation, and one generic statement do not make the two independent sources naming the school that the lane requires, so the value stays unknown with the Arabic infobox's assignment recorded here."
+    sources: [source/wikipedia-shibli-nomani-ar, source/wikipedia-shibli-nomani-en, source/wikidata-shibli-nomani, source/tdv-shibli-nomani]
+external_ids: { wikidata: "Q773259" }
+sources: [source/wikipedia-shibli-nomani-en, source/wikipedia-shibli-nomani-ur, source/wikipedia-shibli-nomani-ar, source/wikidata-shibli-nomani, source/tdv-shibli-nomani]
+provenance:
+  layer: own-research
+  source: "English Wikipedia 'Shibli Nomani' (revision 1380888050), Urdu Wikipedia «شبلی نعمانی» (revision 11800886), Arabic Wikipedia «شبلي النعماني» (revision 73831110), TDV İslâm Ansiklopedisi 'Şiblî Nu'mânî' by Anis Ahmad and M. Sait Özervarli (vol. 39, 2010), Wikidata Q773259 (verified via the API: human, born 1857-06-03 at Azamgarh, died 1914-11-18, religion Islam generically), checked 24 October 2026"
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: century-additions-6
+status: { review: published, completeness: 3, generated_by: "Muse (Muse Spark 1.3)" }

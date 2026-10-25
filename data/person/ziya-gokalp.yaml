@@ -1,0 +1,48 @@
+id: person/ziya-gokalp
+class: person
+label: { ar: "ضياء كوك ألب", en: "Ziya Gökalp", ur: "ضیاء گوک الپ" }
+names:
+  - { value: "Mehmed Ziya", kind: full }
+  - { value: "محمد ضياء", kind: full }
+  - { value: "Mehmet Ziya Gökalp", kind: alternate }
+gender: male
+summary:
+  ar: "عالم اجتماع وكاتب وشاعر وسياسي تركي (1876–1924)، المنظّر الأبرز للطورانية والقومية التركية وصاحب «مبادئ الطورانية» (1923) وصيغة «التتريك والأسلمة والمعاصرة»، عضو جمعية الاتحاد والترقي وأول أستاذ لعلم الاجتماع في جامعة إسطنبول، أثّر فكره عميقًا في كمال أتاتورك وإصلاحاته، ومات نائبًا في المجلس الوطني الكبير."
+  en: "Turkish sociologist, writer, poet and politician (1876–1924), the leading theorist of Turkism and Turkish nationalism, author of The Principles of Turkism (1923) and of the formula 'Turkification, Islamization, modernization'. A Committee of Union and Progress member and Istanbul University's first professor of sociology, his thought deeply influenced Mustafa Kemal Atatürk and his reforms; he died a deputy of the Grand National Assembly."
+  ur: "ترک ماہر عمرانیات، ادیب، شاعر اور سیاست دان (1876–1924)، ترکیت اور ترک قومیت کے سب سے بڑے نظریہ ساز، «ترکیت کے اصول» (1923) کے مصنف اور 'ترکی سازی، اسلامیت اور جدیدیت' کے فارمولے کے خالق؛ جمعیت اتحاد و ترقی کے رکن اور استنبول یونیورسٹی کے پہلے پروفیسر برائے عمرانیات؛ ان کی فکر نے مصطفی کمال اتاترک اور ان کی اصلاحات پر گہرا اثر ڈالا۔"
+roles: [sociologist, writer, poet, politician]
+wings: [people]
+born:
+  edtf: "1876-03-23"
+  hijri: "1293"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "Birthplace contested at district level: the TDV encyclopedia entry and the bodies of the Turkish and English articles place his birth in Diyarbakır city, his family (the Müftüzadeler) having settled there from Çermik; the Turkish article's infobox and Wikidata give Çermik. The record's label follows Diyarbakır city. Neither Diyarbakır nor Çermik has a place entity in the museum yet, so no born_in relation is written. The Arabic article's lead gives 1875, against all other sources. The Hijri year (1293) is derived by tabular conversion."
+  sources: [source/tdv-ziya-gokalp, source/wikipedia-ziya-gokalp-en, source/wikipedia-ziya-gokalp-tr, source/wikidata-ziya-gokalp]
+died:
+  edtf: "1924-10-25"
+  hijri: "1343"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "He died at Istanbul — the TDV entry specifies the French Hospital there, after a short illness — and was buried in the precinct of the tomb of Mahmud II at Divanyolu, Çemberlitaş, so both died_in and buried_in are written to place/istanbul. The Arabic article's lead gives 25 November 1924, against its own infobox and every other source. The Hijri year (1343) is derived by tabular conversion."
+  sources: [source/tdv-ziya-gokalp, source/wikipedia-ziya-gokalp-en, source/wikipedia-ziya-gokalp-tr, source/wikidata-ziya-gokalp]
+relations:
+  - { type: died_in, target: place/istanbul, sources: [source/tdv-ziya-gokalp, source/wikipedia-ziya-gokalp-en, source/wikipedia-ziya-gokalp-tr] }
+  - { type: buried_in, target: place/istanbul, sources: [source/tdv-ziya-gokalp, source/wikipedia-ziya-gokalp-tr, source/wikidata-ziya-gokalp] }
+faith:
+  - value: unknown
+    basis: unknown
+    note: "No fetched source names a school for him. Wikidata carries no religion statement; the English, Turkish and Arabic articles and the TDV entry describe his programme — Islam as the moral component of a Turkish national identity, in the formula of Turkification, Islamization and modernization — without naming a madhhab. His uncle taught him tasawwuf and kalam among the traditional sciences (TDV), and one study notes his admiration for the Naqshbandiyya's solidarity and for Ibn Arabi's idealism (English article, via Topal): formation and admiration are not affiliation, and under the doubt rule no segment is recorded."
+    sources: [source/wikidata-ziya-gokalp, source/wikipedia-ziya-gokalp-en, source/tdv-ziya-gokalp]
+external_ids: { wikidata: "Q83275" }
+sources: [source/wikipedia-ziya-gokalp-en, source/wikipedia-ziya-gokalp-tr, source/wikipedia-ziya-gokalp-ar, source/wikipedia-ziya-gokalp-ur, source/wikidata-ziya-gokalp, source/tdv-ziya-gokalp]
+provenance:
+  layer: own-research
+  source: "English Wikipedia 'Ziya Gökalp' (revision 1379354150), Turkish Wikipedia 'Ziya Gökalp' (revision 38320250), Arabic Wikipedia «ضياء كوك ألب» (revision 76146590), Urdu Wikipedia «ضیاء گوک الپ» (revision 9463141), TDV İslâm Ansiklopedisi 'Gökalp, Ziya' by M. Orhan Okay (vol. 14, 1996), Wikidata Q83275 (verified via the API: human, born 1876-03-23 at Çermik, died 1924-10-25 at Istanbul, no religion statement), checked 24 October 2026"
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: century-additions-6
+status: { review: published, completeness: 3, generated_by: "Muse (Muse Spark 1.3)" }

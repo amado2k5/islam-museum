@@ -1,0 +1,50 @@
+id: person/tippu-tip
+class: person
+label: { ar: "تيبو تيب", en: "Tippu Tip", ur: "ٹیپو ٹپ" }
+names:
+  - { value: "حمد بن محمد بن جمعة بن رجب بن محمد بن سعيد المرجبي", kind: full }
+  - { value: "Hamad ibn Muhammad ibn Juma ibn Rajab ibn Muhammad ibn Sa'id al-Murjabi", kind: full }
+  - { value: "Tippu Tib", kind: alternate }
+  - { value: "Tippoo Tib", kind: alternate }
+gender: male
+summary:
+  ar: "تاجر عاج ورقيق ومستكشف زنجباري من أصل عربي عُماني، بنى في حوض الكونغو الشرقي دولة تجارية في ظل سلاطين زنجبار، وجمع العبيد لمزارع القرنفل فيها حتى صار بحلول 1895 مالك سبع مزارع وعشرة آلاف عبد وفقًا لعبد الشريف، وقبِل سنة 1887 ولاية مقاطعة شلالات ستانلي في دولة الكونغو الحرة، وأملى سيرته الذاتية — أول سيرة ذاتية باللغة السواحلية."
+  en: "Zanzibari ivory and slave trader and explorer of Arab-Omani descent who built a trading state in the eastern Congo basin under the sultans of Zanzibar, gathered slaves for its clove plantations until by 1895 he held seven plantations and 10,000 slaves according to Abdul Sheriff, accepted the governorship of the Stanley Falls District in the Congo Free State in 1887, and dictated his life account — the first autobiography in the Swahili language."
+  ur: "عرب عمانی النسل زنجباری ہاتھی دانت اور غلاموں کے تاجر اور مہم جو، جنہوں نے زنجبار کے سلاطین کے زیر سایہ مشرقی کانگو کے طاس میں ایک تجارتی ریاست قائم کی، لونگ کے باغات کے لیے غلام جمع کیے حتیٰ کہ عبد الشریف کے مطابق 1895 تک ان کے پاس سات باغات اور دس ہزار غلام تھے، 1887 میں کانگو فری اسٹیٹ کے اسٹینلے فالز ضلع کی گورنری قبول کی، اور اپنی سوانح لکھوائی — جو سواحلی زبان کی پہلی خود نوشت ہے۔"
+roles: [merchant, explorer]
+wings: [people]
+born:
+  edtf: "1837"
+  hijri: "1253"
+  calendar: gregorian
+  precision: year
+  status: historical
+  derived: true
+  note: "Birth year contested. Wikidata, the Arabic and Urdu articles and Britannica give 1837, which the record follows; the English article's lead gives about 1832, following the Brode/Hinde tradition, and the Arabic article's biographical narrative gives 1248 AH (about 1832/33 CE). Birthplace Zanzibar, from all four sources; place/zanzibar is the island-city entity, so the born_in relation is written to it. The Hijri year (1253) is derived by tabular conversion of the followed year."
+  sources: [source/wikidata-tippu-tip, source/wikipedia-tippu-tip-ar, source/wikipedia-tippu-tip-ur, source/britannica-tippu-tip, source/wikipedia-tippu-tip-en]
+died:
+  edtf: "1905-06-14"
+  hijri: "1323"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "Death day contested. The English article's infobox, the Arabic and Urdu articles and Britannica give 14 June 1905, which the record follows; the English article's body, following Brode, says he died of malaria at his home in Stone Town on 13 June 1905, and Wikidata carries both 13 and 14 June as values. Stone Town is part of Zanzibar City, covered by place/zanzibar, so the died_in relation is written to it. The Hijri year (1323) is derived by tabular conversion."
+  sources: [source/wikipedia-tippu-tip-en, source/wikipedia-tippu-tip-ar, source/wikipedia-tippu-tip-ur, source/britannica-tippu-tip, source/wikidata-tippu-tip]
+relations:
+  - { type: born_in, target: place/zanzibar, sources: [source/wikidata-tippu-tip, source/wikipedia-tippu-tip-ar, source/britannica-tippu-tip] }
+  - { type: died_in, target: place/zanzibar, sources: [source/wikipedia-tippu-tip-ar, source/wikipedia-tippu-tip-ur, source/britannica-tippu-tip] }
+  - { type: lived_in, target: place/zanzibar, sources: [source/wikipedia-tippu-tip-en, source/britannica-tippu-tip] }
+faith:
+  - value: unknown
+    basis: unknown
+    note: "No fetched source names a religion, let alone a school, for him personally. Wikidata carries no religion statement at all; the English, Arabic and Urdu articles describe a Swahili-Zanzibari Arab trader, and Britannica an Arab trader, without naming Islam or a madhhab for him. Zanzibar's Omani ruling house was Ibadi and his mother's family was of Muscat, but a milieu is not an attestation, and his own affiliation is nowhere recorded; under the doubt rule it stays unclassified."
+    sources: [source/wikidata-tippu-tip, source/wikipedia-tippu-tip-en, source/wikipedia-tippu-tip-ar, source/britannica-tippu-tip]
+external_ids: { wikidata: "Q458421" }
+sources: [source/wikipedia-tippu-tip-en, source/wikipedia-tippu-tip-ar, source/wikipedia-tippu-tip-ur, source/wikidata-tippu-tip, source/britannica-tippu-tip]
+provenance:
+  layer: own-research
+  source: "English Wikipedia 'Tippu Tip' (revision 1379759374), Arabic Wikipedia «تيبوتيب» (revision 75956254), Urdu Wikipedia «ٹیپو ٹپ» (revision 10152363), Encyclopaedia Britannica 'Tippu Tib', Wikidata Q458421 (verified via the API: human, born 1837 at Zanzibar, died 13/14 June 1905 at Zanzibar City, no religion statement), checked 24 October 2026"
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: century-additions-6
+status: { review: published, completeness: 3, generated_by: "Muse (Muse Spark 1.3)" }

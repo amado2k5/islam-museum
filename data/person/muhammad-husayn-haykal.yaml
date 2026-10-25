@@ -1,0 +1,47 @@
+id: person/muhammad-husayn-haykal
+class: person
+label: { ar: "محمد حسين هيكل", en: "Muhammad Husayn Haykal", ur: "محمد حسین ہیکل" }
+names:
+  - { value: "Mohammed Hussein Heikal", kind: full }
+  - { value: "Haikal", kind: alternate }
+  - { value: "Haekal", kind: alternate }
+gender: male
+summary:
+  ar: "أديب وصحفي وسياسي مصري (1888–1956)، صاحب رواية «زينب» (1914) التي يعدّها كثير من النقاد أول رواية مصرية حديثة، وصاحب «حياة محمد» (1935) أشهر سيرة نبوية عربية حديثة كُتبت بمنهج نقدي، تولّى وزارة المعارف مرارًا ورئاسة حزب الأحرار الدستوريين ومجلس الشيوخ."
+  en: "Egyptian writer, journalist and politician (1888–1956), author of Zaynab (1914), regarded by many critics as the first modern Egyptian novel, and of Hayat Muhammad (1935), the most famous modern Arabic biography of the Prophet written with a critical method. He served repeatedly as minister of education and led the Liberal Constitutional Party and the Senate."
+  ur: "مصری ادیب، صحافی اور سیاست دان (1888–1956)، ناول «زینب» (1914) کے مصنف جسے بہت سے نقاد پہلا جدید مصری ناول قرار دیتے ہیں، اور «حیات محمد» (1935) کے مصنف جو تنقیدی اسلوب میں لکھی گئی مشہور ترین جدید عربی سیرت ہے؛ وہ بارہا وزیر تعلیم رہے اور لبرل دستوری جماعت اور مجلس شیوخ کی صدارت کی۔"
+roles: [writer, politician, journalist]
+wings: [people]
+born:
+  edtf: "1888-08-20"
+  hijri: "1305"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: false
+  note: "The Arabic article gives the date in both calendars: 20 August 1888, corresponding to 12 Dhu al-Hijja 1305 AH, so the Hijri year is the source's own, not a conversion. Birthplace: the village of Kafr Ghannam — the English article places it under Mansoura, the Arabic article under Sinbillawin in Daqahliyah, and Wikidata records Mansoura. Neither Kafr Ghannam nor Mansoura has a place entity in the museum yet, so no born_in relation is written."
+  sources: [source/wikipedia-muhammad-husayn-haykal-en, source/wikipedia-muhammad-husayn-haykal-ar, source/wikipedia-muhammad-husayn-haykal-ur, source/wikidata-muhammad-husayn-haykal]
+died:
+  edtf: "1956-12-08"
+  hijri: "1376"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: false
+  note: "The Arabic article gives the date in both calendars: 8 December 1956, corresponding to 5 Jumada al-awwal 1376 AH, so the Hijri year is the source's own, not a conversion. He died at Cairo, from all three articles and Wikidata."
+  sources: [source/wikipedia-muhammad-husayn-haykal-en, source/wikipedia-muhammad-husayn-haykal-ar, source/wikipedia-muhammad-husayn-haykal-ur, source/wikidata-muhammad-husayn-haykal]
+relations:
+  - { type: died_in, target: place/cairo, sources: [source/wikipedia-muhammad-husayn-haykal-en, source/wikipedia-muhammad-husayn-haykal-ar] }
+faith:
+  - value: unknown
+    basis: unknown
+    note: "No fetched source names a school for him. Wikidata carries no religion statement; the English, Arabic and Urdu articles describe his formation under Muhammad Abduh's reformism and his later turn to Islamic biographical writing without naming a madhhab. A thinker's teachers and subjects are not an attestation of his school, and none is recorded."
+    sources: [source/wikidata-muhammad-husayn-haykal, source/wikipedia-muhammad-husayn-haykal-en, source/wikipedia-muhammad-husayn-haykal-ar]
+external_ids: { wikidata: "Q2362588" }
+sources: [source/wikipedia-muhammad-husayn-haykal-en, source/wikipedia-muhammad-husayn-haykal-ar, source/wikipedia-muhammad-husayn-haykal-ur, source/wikidata-muhammad-husayn-haykal]
+provenance:
+  layer: own-research
+  source: "English Wikipedia 'Mohammed Hussein Heikal' (revision 1362974022), Arabic Wikipedia «محمد حسين هيكل» (revision 76918435), Urdu Wikipedia «محمد حسین ہیکل» (revision 12070493), Wikidata Q2362588 (verified via the API: human, born 1888-08-20 at Mansoura, died 1956-12-08 at Cairo, no religion statement), checked 24 October 2026"
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: century-additions-6
+status: { review: published, completeness: 3, generated_by: "Muse (Muse Spark 1.3)" }
