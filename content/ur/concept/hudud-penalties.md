@@ -15,3 +15,13 @@ translators: []
 ## شیخ عمر عبدالکافی کی رائے
 ان کے نزدیک جو اللہ کی ایک حد کا انکار کرے وہ گویا ساری حدوں کا انکار کرتا ہے، اور جو کتاب کی ایک آیت توڑے وہ گویا پوری کتاب توڑتا ہے۔ {cite:assabile-omar-abdelkafy aadau-al-islam/ep01 00:17:00} وہ کہتے ہیں کہ جو کتاب کا کچھ حصہ قبول کرے اور کچھ رد کرے، وہ کتاب پر ایمان کے خلاف چلا۔ {cite:assabile-omar-abdelkafy aadau-al-islam/ep01 00:17:30}
 وہ کہتے ہیں کہ حدود کے مسئلے کو آج کے لوگوں کے حالات کی روشنی میں دیکھا جائے، اگرچہ ان کے الفاظ اس بارے میں ریکارڈنگ میں واضح نہیں (needs_source)۔ {cite:assabile-omar-abdelkafy aadau-al-islam/ep01 00:12:30}
+
+## حدود پر متکلم کی رائے اور ریاست کا کردار
+شیخ حدِ حرابہ، حدِ شراب نوشی اور حدِ زنا کا ذکر کرتے ہیں اور ان کے نفاذ کو ریاست سے جوڑتے ہیں؛ وہ کہتے ہیں کہ اس باب میں ریاست ہر کام نہیں کر سکتی (needs_source: ٹرانسکرپٹ مشوش ہے، کسی ایک عبارت کو منسوب کرنے سے پہلے دوبارہ سننا ضروری ہے) {cite:assabile-omar-abdelkafy al-hoquq/ep05 00:21:30} {cite:assabile-omar-abdelkafy al-hoquq/ep05 00:23:30} {cite:assabile-omar-abdelkafy al-hoquq/ep05 00:24:00}۔
+
+:::perspectives
+- **Sunni view: not yet sourced**: ابھی تک ماخوذ نہیں۔
+- **speaker's view (Omar Abdelkafy)**: شیخ کی رائے ہے کہ یہ حدود ایسی ریاست میں نافذ ہوتی ہیں جو شریعت نافذ کرتی ہو، اور اس کے بغیر مقصد حاصل نہیں ہوتا {cite:assabile-omar-abdelkafy al-hoquq/ep05 00:23:30} (needs_source: ٹرانسکرپٹ مشوش ہے)۔
+- **academic view: not yet sourced**: ابھی تک ماخوذ نہیں۔
+- **other view: not yet sourced**: ابھی تک ماخوذ نہیں۔
+:::

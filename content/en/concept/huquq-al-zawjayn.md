@@ -41,3 +41,32 @@ He recounts that Aisha, in jealousy, broke a dish of food, and that the Prophet 
 He cites the verse on the Prophet's gentleness and holds that correcting a wife should be done gently. [[passage/quran-3-159|The verse on the Prophet's gentleness]] {cite:assabile-omar-abdelkafy al-hoquq/ep02 00:24:00} {cite:assabile-omar-abdelkafy al-hoquq/ep02 00:24:30}
 He describes the good wife as one who guards her home and children, so that the house is orderly and the children clean. {cite:assabile-omar-abdelkafy al-hoquq/ep02 00:28:00}
 He counts it among the wife's rights that her husband teach her her religion, and that she hear from scholars and learn. {cite:assabile-omar-abdelkafy al-hoquq/ep02 00:44:30} {cite:assabile-omar-abdelkafy al-hoquq/ep02 00:45:00}
+
+## From the lectures: justice, work and manner of treatment
+The speaker says that rights between spouses run in both directions and that each has a right over the other {cite:assabile-omar-abdelkafy al-hoquq/ep01 00:33:00} (needs_source: the sentence is unclear in the transcript).
+He counts justice as "the second of the rights" and includes kind treatment within it {cite:assabile-omar-abdelkafy al-hoquq/ep01 00:19:00} (needs_source: the rest of the sentence is unclear).
+He says a husband must protect his wife's feelings or be counted among the unjust {cite:assabile-omar-abdelkafy al-hoquq/ep02 00:23:30}.
+The views below on a wife's work, her earnings, correction and obedience are contested among scholars; they are shown as the speaker's own views.
+
+:::perspectives
+- **Sunni view: not yet sourced**: not yet sourced.
+- **speaker's view (Omar Abdelkafy)**: He says that a wife's work out of necessity differs from work without necessity, and that being away from home for seven or eight hours or more requires a ruling the transcript does not make clear {cite:assabile-omar-abdelkafy al-hoquq/ep01 00:11:30} (needs_source: partly unclear). He warns a husband against taking from his wife's salary {cite:assabile-omar-abdelkafy al-hoquq/ep01 00:11:00} (needs_source: partly unclear).
+- **academic view: not yet sourced**: not yet sourced.
+- **other view: not yet sourced**: not yet sourced.
+:::
+
+:::perspectives
+- **Sunni view: not yet sourced**: not yet sourced.
+- **speaker's view (Omar Abdelkafy)**: He says "do not strike the face" and calls it forbidden {cite:assabile-omar-abdelkafy al-hoquq/ep02 00:29:30} (needs_source: the sentence is partly unclear and its context needs re-listening).
+- **academic view: not yet sourced**: not yet sourced.
+- **other view: not yet sourced**: not yet sourced.
+:::
+
+:::perspectives
+- **Sunni view: not yet sourced**: not yet sourced.
+- **speaker's view (Omar Abdelkafy)**: He names good hearing and obedience to the husband {cite:assabile-omar-abdelkafy al-hoquq/ep01 00:36:30}, and says that a wife leaving her husband's house in this manner is forbidden {cite:assabile-omar-abdelkafy al-hoquq/ep01 00:42:30} (needs_source: the rest of the sentence is unclear).
+- **academic view: not yet sourced**: not yet sourced.
+- **other view: not yet sourced**: not yet sourced.
+:::
+
+The speaker refers to a Qur'anic verse on a believer's choice once God and His Messenger have decided, but he does not name the sura in the recording, so it is not linked (needs_source: {cite:assabile-omar-abdelkafy al-hoquq/ep01 00:29:30}). A reference to a verse at {cite:assabile-omar-abdelkafy al-hoquq/ep02 00:37:00} is likewise not linked, because the transcript does not name it (needs_source).

@@ -30,3 +30,17 @@ translators: []
 
 ## التزام الابن بالسنة
 يشكو الشيخ من أن الأب قد يغضب إذا التزم الابن بالسنة، ويرى أن ذلك صار يُعدّ حرية شخصية. {cite:assabile-omar-abdelkafy al-hoquq/ep04 00:24:00} {cite:assabile-omar-abdelkafy al-hoquq/ep04 00:24:30}
+
+## من حلقات «الحقوق»: الدعاء والبر وقضايا المال والحج
+يقول الشيخ إن الأبناء إذا عقّوا آباءهم وأمهاتهم نُزعت البركة من أيديهم {cite:assabile-omar-abdelkafy al-hoquq/ep04 00:03:00}.
+ويذكر الشيخ الجنة والنار في سياق البر بالوالدين والعقوق، وفي التسجيل جملة مشوشة لم تُكتب هنا إلا بوصفها إشارة (needs_source) {cite:assabile-omar-abdelkafy al-hoquq/ep04 00:08:30}.
+ويروي الشيخ قصة أب أمر ابنه بطلاق زوجته، وفيها ذكر لأبي بكر وغيره من الصحابة، ولم يُحقق بعد تفصيل الرواية (needs_source) {cite:assabile-omar-abdelkafy al-hoquq/ep04 00:13:00}.
+ويسأل الشيخ عن معنى البر بالأم والأهل، ولم يتضح الجواب في النص (needs_source) {cite:assabile-omar-abdelkafy al-hoquq/ep04 00:30:30}.
+ويذكر الشيخ قولا ينسبه إلى أبي حنيفة في تقسيم الحق بين الأم والأب، ولم يُتحقق من نسبة القول بعد (needs_source) {cite:assabile-omar-abdelkafy al-hoquq/ep04 00:26:30}.
+
+:::perspectives
+- **أهل السنة: لم يُصدر بعد (not yet sourced)**: لم يُنسب بعد.
+- **speaker's view (Omar Abdelkafy)**: يقول الشيخ إنه لا ينبغي أن يُحرم الوالدان من زكاة المال، وإن الابن لا يقطع أباه أو أمه منها {cite:assabile-omar-abdelkafy al-hoquq/ep04 00:41:00} (needs_source: الجملة في صيغة سؤال وتقرير، والنص مشوش جزئيا).
+- **academic view: not yet sourced**: لم يُنسب بعد.
+- **other view: not yet sourced**: لم يُنسب بعد.
+:::

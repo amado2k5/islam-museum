@@ -35,3 +35,8 @@ He cites a saying that whoever begins a good practice has its reward and the rew
 ## Responsibility and belonging
 He cites the saying that every shepherd is responsible for his flock: a man is a shepherd over his household, and a woman over her home. {cite:assabile-omar-abdelkafy al-hoquq/ep05 00:28:00}
 He holds that among young people belonging should begin with religion, followed by belonging to the land, the family and the homeland. {cite:assabile-omar-abdelkafy al-hoquq/ep05 00:29:00}
+
+## From the lectures: teaching children and parents' responsibility
+The speaker counts it among children's rights that they be taught the history of their fathers and forefathers {cite:assabile-omar-abdelkafy al-hoquq/ep05 00:16:30} (needs_source: partly garbled).
+He sets out parents' duties towards their own parents, their sons and their daughters, and gives his reasons {cite:assabile-omar-abdelkafy al-hoquq/ep05 00:33:30}.
+He cites a survey of female students smoking at a Cairo university, attributed to "one of the universities" with no study named (needs_source: the figure of 74% has no traced source and should not be relied on before re-listening) {cite:assabile-omar-abdelkafy al-hoquq/ep05 00:38:30}.

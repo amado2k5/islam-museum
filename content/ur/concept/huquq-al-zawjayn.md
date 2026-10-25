@@ -41,3 +41,32 @@ translators: []
 وہ نبی کی نرمی والی آیت کا ذکر کرتے ہیں اور کہتے ہیں کہ بیوی کو نیکی کی طرف متوجہ کرنا نرمی سے ہونا چاہیے۔ [[passage/quran-3-159|نبی کی نرمی سے متعلق آیت]] {cite:assabile-omar-abdelkafy al-hoquq/ep02 00:24:00} {cite:assabile-omar-abdelkafy al-hoquq/ep02 00:24:30}
 وہ نیک بیوی کو ایسی بیان کرتے ہیں جو اپنے گھر اور بچوں کی حفاظت کرتی ہے، جس سے گھر سلیقے والا اور بچے صاف ستھرے رہتے ہیں۔ {cite:assabile-omar-abdelkafy al-hoquq/ep02 00:28:00}
 وہ بیوی کے حقوق میں شمار کرتے ہیں کہ شوہر اسے دین سکھائے، اور وہ علماء سے سنے اور سیکھے۔ {cite:assabile-omar-abdelkafy al-hoquq/ep02 00:44:30} {cite:assabile-omar-abdelkafy al-hoquq/ep02 00:45:00}
+
+## «حقوق» کے دروس سے: عدل، کام اور حسن سلوک
+شیخ کے مطابق میاں بیوی کے حقوق دو طرفہ ہیں اور ہر فریق کا دوسرے پر حق ہے {cite:assabile-omar-abdelkafy al-hoquq/ep01 00:33:00} (needs_source: جملہ ٹرانسکرپٹ میں واضح نہیں)۔
+شیخ عدل کو «دوسرا حق» قرار دیتے ہیں اور اس میں اچھا سلوک شامل کرتے ہیں {cite:assabile-omar-abdelkafy al-hoquq/ep01 00:19:00} (needs_source: باقی جملہ واضح نہیں)۔
+وہ کہتے ہیں کہ شوہر کو بیوی کے جذبات کا خیال رکھنا چاہیے، ورنہ وہ ظالموں میں شمار ہوگا {cite:assabile-omar-abdelkafy al-hoquq/ep02 00:23:30}۔
+بیوی کا گھر سے باہر کام، اس کی کمائی، تادیب اور اطاعت پر شیخ کی رائے علماء کے درمیان مختلف فیہ ہے، اس لیے یہ آرا متکلم کی اپنی رائے کے طور پر پیش کی جاتی ہیں:
+
+:::perspectives
+- **Sunni view: not yet sourced**: ابھی تک ماخوذ نہیں۔
+- **speaker's view (Omar Abdelkafy)**: شیخ کہتے ہیں کہ ضرورت کے تحت بیوی کا کام کرنا اس سے مختلف ہے جو بغیر ضرورت کیا جائے، اور گھر سے سات یا آٹھ گھنٹے یا زیادہ غیر حاضری کسی حکم کی متقاضی ہے جو ٹرانسکرپٹ میں واضح نہیں {cite:assabile-omar-abdelkafy al-hoquq/ep01 00:11:30} (needs_source: جزوی طور پر غیر واضح)۔ وہ شوہر کو بیوی کی تنخواہ میں سے لینے سے خبردار کرتے ہیں {cite:assabile-omar-abdelkafy al-hoquq/ep01 00:11:00} (needs_source: جزوی طور پر غیر واضح)۔
+- **academic view: not yet sourced**: ابھی تک ماخوذ نہیں۔
+- **other view: not yet sourced**: ابھی تک ماخوذ نہیں۔
+:::
+
+:::perspectives
+- **Sunni view: not yet sourced**: ابھی تک ماخوذ نہیں۔
+- **speaker's view (Omar Abdelkafy)**: شیخ کہتے ہیں «چہرے پر مت مارو» اور اسے حرام بتاتے ہیں {cite:assabile-omar-abdelkafy al-hoquq/ep02 00:29:30} (needs_source: جملہ جزوی طور پر غیر واضح ہے؛ دوبارہ سننے کی ضرورت ہے)۔
+- **academic view: not yet sourced**: ابھی تک ماخوذ نہیں۔
+- **other view: not yet sourced**: ابھی تک ماخوذ نہیں۔
+:::
+
+:::perspectives
+- **Sunni view: not yet sourced**: ابھی تک ماخوذ نہیں۔
+- **speaker's view (Omar Abdelkafy)**: شیخ شوہر کی اچھی سماعت اور اطاعت کا ذکر کرتے ہیں {cite:assabile-omar-abdelkafy al-hoquq/ep01 00:36:30}، اور کہتے ہیں کہ اس طرح شوہر کے گھر سے نکلنا حرام ہے {cite:assabile-omar-abdelkafy al-hoquq/ep01 00:42:30} (needs_source: باقی جملہ واضح نہیں)۔
+- **academic view: not yet sourced**: ابھی تک ماخوذ نہیں۔
+- **other view: not yet sourced**: ابھی تک ماخوذ نہیں۔
+:::
+
+شیخ ایک آیت کی طرف اشارہ کرتے ہیں جو مومن کے اختیار کے بارے میں ہے، لیکن وہ ریکارڈنگ میں سورت کا نام نہیں لیتے، اس لیے اسے لنک نہیں کیا گیا (needs_source: {cite:assabile-omar-abdelkafy al-hoquq/ep01 00:29:30})۔ {cite:assabile-omar-abdelkafy al-hoquq/ep02 00:37:00} میں آیت کا حوالہ بھی اسی وجہ سے لنک نہیں کیا گیا کیونکہ ٹرانسکرپٹ اسے واضح طور پر نام نہیں دیتا (needs_source)۔

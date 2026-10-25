@@ -41,3 +41,32 @@ translators: []
 ويقرأ الآية في لين النبي، ويرى أن الأمر بالمعروف للزوجة يكون باللين. [[passage/quran-3-159|الآية في لين النبي]] {cite:assabile-omar-abdelkafy al-hoquq/ep02 00:24:00} {cite:assabile-omar-abdelkafy al-hoquq/ep02 00:24:30}
 ويصف الزوجة الصالحة بأنها تحفظ بيتها وأبناءها، فيكون البيت مرتبا والأبناء نظفاء. {cite:assabile-omar-abdelkafy al-hoquq/ep02 00:28:00}
 ويعدّ من حقوق المرأة على زوجها أن يعلمها الدين، وأن تسمع من العلماء وتتعلم. {cite:assabile-omar-abdelkafy al-hoquq/ep02 00:44:30} {cite:assabile-omar-abdelkafy al-hoquq/ep02 00:45:00}
+
+## من حلقات «الحقوق»: العدل والعمل والمعاملة
+يقول الشيخ إن الحقوق بين الزوجين متبادلة، وإن لكل منهما حقا على الآخر {cite:assabile-omar-abdelkafy al-hoquq/ep01 00:33:00} (needs_source: الجملة مشوشة في النص).
+ويعد الشيخ العدل «الحق الثاني من الحقوق»، ويذكر منه إحسان المعاملة {cite:assabile-omar-abdelkafy al-hoquq/ep01 00:19:00} (needs_source: بقية الجملة غير واضحة في النص).
+ويقول إن على الزوج أن يحافظ على مشاعر زوجته، وإلا كان من الظالمين {cite:assabile-omar-abdelkafy al-hoquq/ep02 00:23:30}.
+ويعرض الشيخ رأيه في عمل المرأة خارج البيت وفي راتبها، ويعرض كذلك رأيه في الضرب والطاعة، وهي مسائل مختلف فيها بين العلماء، فتُعرض هنا بوصفها رأي المتكلم:
+
+:::perspectives
+- **أهل السنة: لم يُصدر بعد (not yet sourced)**: لم يُنسب بعد.
+- **speaker's view (Omar Abdelkafy)**: يقول الشيخ إن عمل المرأة لضرورة يختلف عن عملها لغير ضرورة، ويذكر أن غيابها عن البيت سبع ساعات أو ثماني ساعات أو أكثر يوجب أمرا لم يتضح في النص {cite:assabile-omar-abdelkafy al-hoquq/ep01 00:11:30} (needs_source: الجملة مشوشة جزئيا). ويحذر الزوج من أن يأخذ من راتب زوجته {cite:assabile-omar-abdelkafy al-hoquq/ep01 00:11:00} (needs_source: الجملة مشوشة جزئيا).
+- **academic view: not yet sourced**: لم يُنسب بعد.
+- **other view: not yet sourced**: لم يُنسب بعد.
+:::
+
+:::perspectives
+- **أهل السنة: لم يُصدر بعد (not yet sourced)**: لم يُنسب بعد.
+- **speaker's view (Omar Abdelkafy)**: يقول الشيخ: «لا تضرب الوجه»، ويذكر أن ذلك حرام {cite:assabile-omar-abdelkafy al-hoquq/ep02 00:29:30} (needs_source: الجملة مشوشة جزئيا، والسياق قبلها غير واضح؛ يحتاج إلى إعادة استماع).
+- **academic view: not yet sourced**: لم يُنسب بعد.
+- **other view: not yet sourced**: لم يُنسب بعد.
+:::
+
+:::perspectives
+- **أهل السنة: لم يُصدر بعد (not yet sourced)**: لم يُنسب بعد.
+- **speaker's view (Omar Abdelkafy)**: يذكر الشيخ حسن الاستماع للزوج والطاعة له {cite:assabile-omar-abdelkafy al-hoquq/ep01 00:36:30}، ويقول إن خروج المرأة من بيت زوجها على هذا الوجه حرام {cite:assabile-omar-abdelkafy al-hoquq/ep01 00:42:30} (needs_source: بقية الجملة مشوشة في النص).
+- **academic view: not yet sourced**: لم يُنسب بعد.
+- **other view: not yet sourced**: لم يُنسب بعد.
+:::
+
+ويشير الشيخ إلى آية في الباب تتعلق بخيار المؤمنة فيما قضاه الله ورسوله، ولم يسمِّ الآية باسم السورة في التسجيل، فلم تُربط هنا (needs_source: الإشارة إلى الآية في {cite:assabile-omar-abdelkafy al-hoquq/ep01 00:29:30}، ولم يُذكر موضعها في النص). وبالمثل لم تُربط الإشارة إلى آية في {cite:assabile-omar-abdelkafy al-hoquq/ep02 00:37:00} لأن النص لا يُسميها (needs_source).

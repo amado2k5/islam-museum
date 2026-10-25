@@ -30,3 +30,17 @@ He warns against children living in comfort while their parents live below that 
 
 ## A child's commitment to the sunna
 He complains that a father may grow angry when his son commits to the sunna, and says this is now called personal freedom. {cite:assabile-omar-abdelkafy al-hoquq/ep04 00:24:00} {cite:assabile-omar-abdelkafy al-hoquq/ep04 00:24:30}
+
+## From the lectures: prayer, dutifulness, money and the Hajj
+The speaker says that when children disobey their fathers and mothers, blessing is taken from them {cite:assabile-omar-abdelkafy al-hoquq/ep04 00:03:00}.
+He speaks of paradise and the fire in the context of dutifulness and disobedience to parents; one sentence is garbled and is noted only as a pointer (needs_source) {cite:assabile-omar-abdelkafy al-hoquq/ep04 00:08:30}.
+He tells a story of a father who ordered his son to divorce his wife, in which Abu Bakr and other Companions are mentioned; the detail of the narration has not yet been checked (needs_source) {cite:assabile-omar-abdelkafy al-hoquq/ep04 00:13:00}.
+He asks what dutifulness to a mother and family means; the answer is not clear in the transcript (needs_source) {cite:assabile-omar-abdelkafy al-hoquq/ep04 00:30:30}.
+He attributes to Abu Hanifa a view dividing a right between mother and father; the attribution has not yet been checked (needs_source) {cite:assabile-omar-abdelkafy al-hoquq/ep04 00:26:30}.
+
+:::perspectives
+- **Sunni view: not yet sourced**: not yet sourced.
+- **speaker's view (Omar Abdelkafy)**: He says parents should not be excluded from zakat on wealth, and that a son should not cut off his father or mother from it {cite:assabile-omar-abdelkafy al-hoquq/ep04 00:41:00} (needs_source: the sentence is phrased as a question and is partly garbled).
+- **academic view: not yet sourced**: not yet sourced.
+- **other view: not yet sourced**: not yet sourced.
+:::

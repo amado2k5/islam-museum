@@ -30,3 +30,17 @@ translators: []
 
 ## بیٹے کا سنت پر عمل
 وہ شکایت کرتے ہیں کہ جب بیٹا سنت پر عمل کرنا چاہے تو باپ ناراض ہو جاتا ہے، اور وہ کہتے ہیں کہ اب اسے ذاتی آزادی کہا جانے لگا ہے۔ {cite:assabile-omar-abdelkafy al-hoquq/ep04 00:24:00} {cite:assabile-omar-abdelkafy al-hoquq/ep04 00:24:30}
+
+## «حقوق» کے دروس سے: دعا، نیکی، مال اور حج
+شیخ کہتے ہیں کہ جب اولاد والدین کی نافرمانی کرتی ہے تو ان سے برکت اٹھ جاتی ہے {cite:assabile-omar-abdelkafy al-hoquq/ep04 00:03:00}۔
+وہ والدین سے نیکی اور نافرمانی کے سیاق میں جنت اور جہنم کا ذکر کرتے ہیں؛ ایک جملہ مشوش ہے اور صرف اشارے کے طور پر درج ہے (needs_source) {cite:assabile-omar-abdelkafy al-hoquq/ep04 00:08:30}۔
+وہ ایک باپ کا قصہ سناتے ہیں جس نے بیٹے کو بیوی طلاق دینے کا حکم دیا، جس میں ابوبکر اور دوسرے صحابہ کا ذکر ہے؛ روایت کی تفصیل ابھی جانچی نہیں گئی (needs_source) {cite:assabile-omar-abdelkafy al-hoquq/ep04 00:13:00}۔
+وہ پوچھتے ہیں کہ ماں اور گھر والوں سے نیکی کا کیا مطلب ہے؛ جواب ٹرانسکرپٹ میں واضح نہیں (needs_source) {cite:assabile-omar-abdelkafy al-hoquq/ep04 00:30:30}۔
+وہ ابوحنیفہ کی طرف ایک قول منسوب کرتے ہیں جو حق کو ماں اور باپ کے درمیان تقسیم کرتا ہے؛ نسبت کی ابھی تصدیق نہیں ہوئی (needs_source) {cite:assabile-omar-abdelkafy al-hoquq/ep04 00:26:30}۔
+
+:::perspectives
+- **Sunni view: not yet sourced**: ابھی تک ماخوذ نہیں۔
+- **speaker's view (Omar Abdelkafy)**: شیخ کہتے ہیں کہ والدین کو مال کی زکوٰۃ سے محروم نہیں کرنا چاہیے، اور بیٹا اپنے باپ یا ماں کو اس سے نہ کاٹے {cite:assabile-omar-abdelkafy al-hoquq/ep04 00:41:00} (needs_source: جملہ سوال کی شکل میں ہے اور جزوی طور پر مشوش ہے)۔
+- **academic view: not yet sourced**: ابھی تک ماخوذ نہیں۔
+- **other view: not yet sourced**: ابھی تک ماخوذ نہیں۔
+:::
