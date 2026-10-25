@@ -153,4 +153,48 @@ sources:
     checked_on: "2026-10-24"
     evidence: "Site pages checked 24 Oct 2026: /library (listing by language and topic), /about-us (volunteer-run; no copyrighted uploads claimed; the disclaimer invites link sharing). No edition data seen on the listing page; book pages not sampled."
 
+  - id: islamweb.net
+    url: "https://islamweb.net/ar/library/"
+    kind: website
+    allowed_uses: [pointer]
+    retrieved_on: "2026-10-24"
+    tier: T3
+    status: not-verified
+    scope: "Islamweb library: books with publisher, part count and a description, classified by subject (tafsir, hadith, creed, fiqh, history). Run by Islamweb (Qatar-based). Pointer only until a named edition is checked against the printed book."
+    checked_on: "2026-10-24"
+    evidence: "Library page checked 24 Oct 2026: /ar/library/ and the Sunan Ibn Majah entry (publisher al-Maktaba al-'Ilmiyya, two parts, 4341 hadith)."
+
+  - id: quranenc.com
+    url: "https://quranenc.com"
+    kind: website
+    allowed_uses: [pointer]
+    retrieved_on: "2026-10-24"
+    tier: T3
+    status: not-verified
+    scope: "Quran translations and tafsir in many languages (Encyclopedia of the Noble Quran). Qur'an text comes only from Tanzil, so this site is a pointer for translations and tafsir."
+    checked_on: "2026-10-24"
+    evidence: "Home page checked 24 Oct 2026: the site states its translations are based on the methodology of Ahl al-Sunna wal-Jama'a and can be downloaded and republished under its terms."
+
+  - id: turath.io
+    url: "https://turath.io"
+    kind: website
+    allowed_uses: [pointer]
+    retrieved_on: "2026-10-24"
+    tier: T4
+    status: not-verified
+    scope: "Turath: a library of about 8,600 classical Arabic books, with author death years and categories. A library tool, not a grading authority; each text needs a named edition before it can be used."
+    checked_on: "2026-10-24"
+    evidence: "Home page checked 24 Oct 2026: 8,609 books listed with author names and death years; PDF downloads for some titles."
+
+  - id: quranislam.github.io
+    url: "https://quranislam.github.io"
+    kind: website
+    allowed_uses: [pointer]
+    retrieved_on: "2026-10-24"
+    tier: T5
+    status: not-verified
+    scope: "Islamic encyclopedia hosted on GitHub Pages, with no named institution or editor on the pages checked. T5: pointer only."
+    checked_on: "2026-10-24"
+    evidence: "Home page checked 24 Oct 2026: sections for Quran, hadith and fatawa; no publisher, editor or institution named."
+
 blocklist: []   # domains found on phishing, malware or spam lists; checked by hand before each publication, with the date

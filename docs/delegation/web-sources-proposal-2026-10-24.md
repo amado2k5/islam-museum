@@ -46,3 +46,16 @@ Recorded in the register as `status: reference-edition-dependent`, because the v
 ## Added 24 Oct 2026: sunnielibrary.com
 
 Added at the founder request. Registered as T5, not-verified, pointer only: the site is run by volunteers, its book pages name no edition or editor on the listing, and a T5 carrier cannot validate an item (`docs/delegation/web-sources-rules.md`). Ledger record: `docs/authenticity-ledger/websites/sunnielibrary.com.yaml`.
+
+## Added 24 Oct 2026: four Arabic Islamic reference sites (founder request)
+
+Registered as not-verified, pointer only, at the tiers shown. None has been sampled.
+
+| Site | Tier | Why this tier |
+|---|---|---|
+| islamweb.net (library) | T3 | Institution-run library with publisher data |
+| quranenc.com | T3 | Qur'an translations and tafsir; Qur'an text stays with Tanzil |
+| turath.io | T4 | Library of classical texts; not a grading authority |
+| quranislam.github.io | T5 | GitHub-hosted, no named institution or editor |
+
+Not added: Scribd, a document-sharing host, not a source. Dorar.net and Shamela were already registered.
