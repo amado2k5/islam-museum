@@ -23,5 +23,9 @@ relations:
   - { type: member_of, target: group/ansar }
   - { type: participated_in, target: event/hijra, role: "أخذ الرحل إلى بيته فكان مضيف النبي بالمدينة", sources: [source/mubarakpuri-raheeq, source/sahih-al-bukhari] }
 external_ids: { wikidata: "Q334813" }
-sources: [source/mubarakpuri-raheeq, source/sahih-al-bukhari, source/zad-al-maad, source/muruj-al-dhahab, source/samhudi-wafa-al-wafa, source/sallabi-ali-vol1]
+sources: [source/mubarakpuri-raheeq, source/sahih-al-bukhari, source/zad-al-maad, source/muruj-al-dhahab, source/samhudi-wafa-al-wafa, source/sallabi-ali-vol1, source/encyclopaedia-of-islam-2]
 status: { review: draft, completeness: 2, generated_by: "Devin; al-Raheeq al-Makhtum p. 173" }
+provenance:
+  layer: own-research
+  source: "Encyclopaedia of Islam, 2nd ed. (Brill), vol. 1, PDF p. 127 (EI2 enrichment, batch ei2-b002 part 2a)"
+  generated_by: "Claude Code (claude-haiku-5-5)"
