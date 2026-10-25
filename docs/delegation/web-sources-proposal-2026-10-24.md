@@ -59,3 +59,7 @@ Registered as not-verified, pointer only, at the tiers shown. None has been samp
 | quranislam.github.io | T5 | GitHub-hosted, no named institution or editor |
 
 Not added: Scribd, a document-sharing host, not a source. Dorar.net and Shamela were already registered.
+
+## Added 24 Oct 2026: four more sites (founder request)
+
+Registered not-verified, pointer only: islamstory.com (T4), islamqa.info (T4), tafsir.net (T3), quran.com (T4). None has been sampled.
