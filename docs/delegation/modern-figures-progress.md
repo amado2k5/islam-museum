@@ -20,3 +20,5 @@ Lane: `docs/agents/lanes/modern-figures.md` · Branch: `content/modern-figures` 
 (none yet)
 
 NEXT STEP: Batch 1 write, then cite-check + validate, commit, continue to Batch 2.
+- Batch 4 K1 DONE (PR #1537): omar-abdelkafy (unknown), othman-al-khamees (sunni/documented — both articles describe him as the Sunni camp's debater; basis in the record), eyad-qunaibi (unknown), ahmed-elsayed (unknown; identified as Ahmed bin Yusuf al-Sayyid, Saudi of Yanbu/Madinah — the list's "Egyptian" tag was an error), maher-al-muaiqly (unknown). New places yanbu/amman already on main.
+- Batch 4 K3 DONE: mohammed-hijab (unknown), yasmin-mogahed (unknown), azhar-idrus (unknown; Malay Wikipedia), ali-dawah (unknown; NO Wikipedia/Wikidata — built on the no-skip ladder: his channel + IslamicFinder + Islamic Info Center + Wikitubia flagged weakest; no born block, sources conflict), hala-samir (unknown; NO Wikipedia/Wikidata — channel + two biography profiles; no born block, no reliable date exists).
