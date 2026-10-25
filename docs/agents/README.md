@@ -11,6 +11,7 @@ These documents apply to every agent, whichever vendor, product or model it is, 
 | [`publication-standard.md`](publication-standard.md) | Always: the publication bar — citations to defined sources plus provenance; no review; one source is enough. |
 | [`source-families.md`](source-families.md) | You enrich records and need sources beyond books: registered families, onboarding order, exploration list, evaluation criteria. |
 | [`mining-sources.md`](mining-sources.md) and [`categories/`](categories/) | You turn a book, a dictionary or a text collection into entities. |
+| [`audio-video-harvest.md`](audio-video-harvest.md) | You turn a lecture, a podcast or a video into entities: the Mac toolchain (browser discovery, download, mlx-whisper transcription, checks by listening), timestamp anchors and registration. |
 | [`lanes.md`](lanes.md) and [`lanes/`](lanes/) | You are assigned a lane, or you start a new one; the registry of who works on what. |
 | [`../status.md`](../status.md) | You need the live state of the project and the harvest. |
 | [`../delegation/microsd-ocr-status.md`](../delegation/microsd-ocr-status.md) | You are asked how many library books are OCR'd, or you add or OCR books on the drive. |

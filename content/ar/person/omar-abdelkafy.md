@@ -8,6 +8,8 @@ translators: []
 عمر عبد الكافي شحاتة، داعية إسلامي مصري، وُلد في 1 مايو 1951 في قرية تلة بمحافظة المنيا في صعيد مصر. {cite:wikipedia-omar-abdelkafy-ar} {cite:wikipedia-omar-abdelkafy-en} عرفه الجمهور العربي عبر القنوات الفضائية ببرامج مثل «الوعد الحق» و«هذا ديننا»، واهتم في دروسه وكتبه بالإعجاز العلمي في القرآن والسنة وبأحاديث الدار الآخرة. {cite:wikipedia-omar-abdelkafy-ar} وتذكر مقالة ويكيبيديا الإنجليزية أن قناته على يوتيوب تجاوز عدد مشتركيها 9.87 مليون مشترك، وهو رقم منصّة مؤرخ بمراجعة المقالة في أغسطس 2026 لا رقم ثابت. {cite:wikipedia-omar-abdelkafy-en}
 
 ## النشأة والتعليم
+تختلف مصادر تاريخ ميلاده: تذكر سيرته على أرشيف Assabile أنه وُلد في «عيد العمال» سنة 1952، وأنه حفظ القرآن وصحيحي البخاري ومسلم وهو في العاشرة، {cite:assabile-omar-abdelkafy biography} بينما تذكر ويكيبيديا الإنجليزية وويكي بيانات تاريخ 1 مايو 1951. {cite:wikipedia-omar-abdelkafy-en} {cite:wikidata-omar-abdelkafy} ويبقى التاريخان معروضين معا دون ترجيح.
+
 نشأ في قرية تلة من قرى محافظة المنيا. حصل على درجة الليسانس في الدراسات العربية والإسلامية ودرجة الماجستير في الفقه المقارن، والتحق أيضا بكلية الزراعة فحصل منها على درجة الدكتوراه في العلوم الزراعية، ودرس بأكاديمية البحث العلمي وعمل باحثا بالمركز القومي للبحوث. {cite:wikipedia-omar-abdelkafy-ar}
 
 تنقل وهو صغير بين أيدي أساتذة وعلماء في علوم شرعية شتى من فقه وتوحيد وتفسير وسيرة وأصول فقه وعلوم حديث، من أمثال محمد الغزالي ومحمد متولي الشعراوي ويوسف القرضاوي، وحفظ على يد أساتذته صحيحي البخاري ومسلم بالأسانيد. ودرس البلاغة والنحو والصرف وحفظ كثيرا من المتون كألفية ابن مالك، وكان عضوا بالهيئة العالمية للإعجاز العلمي في القرآن والسنة برابطة العالم الإسلامي. {cite:wikipedia-omar-abdelkafy-ar}
@@ -26,6 +28,15 @@ translators: []
 
 ## المناصب والعضويات
 هو عضو في هيئة حكماء الاتحاد العالمي لعلماء المسلمين، وعضو جائزة دبي الدولية للقرآن الكريم ومدير مركز الدراسات القرآنية التابع لها، وعضو في المجمع الفقهي لعلماء الهند، ومستشار ثقافي بمركز جمعة الماجد للثقافة والتراث في دبي. {cite:wikipedia-omar-abdelkafy-ar}
+
+## الدروس المسجّلة
+يضم أرشيف Assabile للدروس المسجّلة للشيخ عمر عبد الكافي 25 سلسلة، منها سبع سلاسل مرئية وثماني عشرة صوتية، في 622 درسا بحسب فهرس الموقع. {cite:assabile-omar-abdelkafy series-list} في الصفحات التي قُرئت لم يرد للسلاسل عناوين عربية، فتُذكر هنا بالحروف اللاتينية كما وردت في الأرشيف:
+
+- السلاسل المرئية: Ajaeb Al Kulub (29 درسا)، وAlwaad Alhaq (44)، وModakirate Iblis (30)، وMin Kunuz Al Sunnah (30)، وMawkib Al-Nour (29)، وAhl Al Hikma (27)، وAl Naba' Al Safi (24). {cite:assabile-omar-abdelkafy series-list}
+- السلاسل الصوتية الأطول: Sharh Saheeh Al Bukhare (60 درسا)، وAlbuyout Alamena (47)، وAl Dar Al Akhera (33)، وTariq Al Noor (30)، وBustan El Amal (30). {cite:assabile-omar-abdelkafy series-list}
+- سلاسل صوتية أخرى: Sharh Ketab Al Fawaed، وSharh Al Hekam Al Ataeya، وAl Hoquq، وAadau Al Islam، وAl Dinu Al Qayem، وTafsir Al Quran Al Qareem، وMuktatafat Mena Al Seera، وSilsilat Ebadu Al Rahman، وSilsilat Qissa Wa Ebra، وAl Fawzu Al Moubeen، وNafahat Ramadaneya 1436 h، وWa Nafsun Ma Sawaha، وAl Manjeyat. {cite:assabile-omar-abdelkafy series-list}
+
+هذه الأعداد من فهرس الموقع كما ظهر في 25 أكتوبر 2026، وقد تتغير مع إضافة الحلقات. ولم يُثبت هذا القسم مضمون أي درس بعد: كل نقطة من الدروس تحتاج إلى تحقّق قبل أن تُنقل إلى السجل. {cite:assabile-omar-abdelkafy series-list}
 
 ## المواقف والنقد
 ينبغي أن يُقرأ هذا القسم بوصفه عرضا لمواقف منقولة عن المصادر، وليس حكما من المتحف عليها.

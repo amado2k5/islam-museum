@@ -59,6 +59,7 @@ repeated each other's mistakes (`docs/agents/README.md`).
 | OCR library books | harvest drive, `microsd-ocr-status.md` | OCR text stays outside git |
 | Write/run CI, validators, site components | maintainer lanes | code, reviewed by tests |
 | Reconcile places to GeoNames/Pleiades | `scripts/harvest/collections/` | suggested matches, applied deliberately |
+| Transcribe and cite lecture recordings | `scripts/harvest/audio/` (mlx-whisper, large-v3, offline) and local Ollama drafts under the strict rules | audio and transcripts stay outside git; anchors are series, episode and timestamp (`docs/agents/audio-video-harvest.md`) |
 
 What AI does **not** do: serve anything at runtime, mark content
 `reviewed`/`verified`, type Qur'an text, type honorifics, merge or delete
@@ -194,8 +195,10 @@ Ollama models for bulk extraction/judging — free, offline, private.
 The harvest drills: Wikidata two-pass streaming filter (96 GiB dump never
 decompressed), Wikipedia per-language category-walks → compressed-block
 extraction, OpenITI classical corpus, Met/Pleiades/GeoNames collections,
-directory and web harvests — all into licence-separated layers, all outside
-git, all entering `data/` only as rewritten, cited, draft candidates.
+directory and web harvests, and speech-to-text of recorded lectures (Mac-local
+mlx-whisper, then checked by listening) — all into licence-separated layers,
+all outside git, all entering `data/` only as rewritten, cited, draft
+candidates.
 
 ## 8. Failure modes the system is designed for
 

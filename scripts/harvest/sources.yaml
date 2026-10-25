@@ -263,4 +263,16 @@ sources:
       quotation_max_words: 40
       note: 'PDFs, OCR text, page images and entry splits stay in the harvest workspace, never in git'
     status: enabled
+  assabile-omar-abdelkafy:
+    name: Assabile archive of Omar Abdelkafy's lectures (audio and video)
+    url: https://www.assabile.com/omar-abdelkafy
+    media_host: https://media.assabile.com/
+    licence: no licence statement found on the site (checked 25 Oct 2026); used under the founder's instruction; facts only, audio never republished
+    layer: copyrighted-reference
+    method: browser discovery of series and episode pages (media links read from the page); scripts/harvest/audio/download.py (sequential, two-second pause, identified User-Agent, SHA-256 per file); scripts/harvest/audio/transcribe.py (mlx-whisper, large-v3, local)
+    limits:
+      pause_seconds: 2
+      robots_txt: checked 25 Oct 2026; lesson pages and media host not disallowed
+      youtube: not downloaded (YouTube terms)
+    status: enabled
 workspace: /Volumes/exmicroSD/islam-museum-harvest (symlinked from ~/islam-museum-harvest)

@@ -20,6 +20,7 @@ Citation form for every family: `{cite:<family-id> <anchor>}`, where the anchor 
 | GeoNames | `source/geonames-gazetteer` | Place names, coordinates | Pointer tier, same rule |
 | Met Open Access | `source/met-open-access` | CC0 object records (kind: reference_data) | Cite by object id |
 | Tanzil | `source/tanzil-quran`, `source/tanzil-translations` | The frozen Qur'an corpus | The **only** source of Qur'an text; never typed by hand |
+| Assabile lecture archive (Omar Abdelkafy, 25 series, about 620 lessons, audio and video) | `source/assabile-omar-abdelkafy` | The speaker's own recorded lessons: what he teaches, narrates and says, with dates he gives as his statements | Facts only; audio and transcripts never republished. Anchor: series/episode + timestamp. Method: `audio-video-harvest.md` |
 
 Pleiades (ancient places gazetteer, CC BY 3.0) is in the harvest registry and `docs/attribution.md` as a pointer, but has no `data/source/` entity yet — register one before citing it.
 

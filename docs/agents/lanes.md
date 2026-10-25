@@ -33,6 +33,11 @@ Rules for every lane: [`../../AGENTS.md`](../../AGENTS.md), [`workflow.md`](work
 | `showcase-prose` | The Showcase Tier (exhibits and journeys, then every record they feature) to completeness 3 with trilingual prose, published under the publication standard; Sicily pilot, Egypt set, then the queue in `docs/delegation/showcase-queue.md` | [`lanes/showcase-prose.md`](lanes/showcase-prose.md) | `docs/delegation/showcase-prose-progress.md` | `content/showcase-prose` | `data/_stubs.d/showcase-prose.yaml` |
 | `modern-figures` | Modern-era figures whose influence is media and public work (video, broadcasting, social work), created to the `person/amr-khaled` model under the Wikipedia broad rule: per-person Wikipedia/Wikidata source entities, rich first-pass trilingual prose, faith recorded only on two sources | [`lanes/modern-figures.md`](lanes/modern-figures.md) | `docs/delegation/modern-figures-progress.md` | `content/modern-figures` | `data/_stubs.d/modern-figures.yaml` |
 | `ei2` | The Encyclopaedia of Islam, 2nd edition (Brill, 1954–2008), all entries from A to Z, volume by volume (scope B, approved 24 Oct 2026): English prose written from the text, then Arabic and Urdu translations; reuse existing records first | [`lanes/ei2.md`](lanes/ei2.md) | `docs/delegation/ei2-progress.md` | `content/ei2` | `data/_stubs.d/ei2.yaml` |
+| `omar-abdelkafy` | The recorded lectures of Sheikh Omar Abdelkafy (Assabile archive, 25 audio and video series, about 620 lessons): his biography and works from his own words, and topic entities from his lessons, cited by timestamp (approved by the founder 25 Oct 2026) | [`lanes/omar-abdelkafy.md`](lanes/omar-abdelkafy.md) | `docs/delegation/omar-abdelkafy-progress.md` | `content/omar-abdelkafy` | `data/_stubs.d/omar-abdelkafy.yaml` (created with the first stub) |
+
+## Audio and video recordings in every lane
+
+Founder's instruction, 25 Oct 2026: the audio and video harvest is part of every harvesting lane that uses recordings, not a separate track. Any lane that mines a recording (a lecture, a podcast, a talk) follows [`audio-video-harvest.md`](audio-video-harvest.md): the rights rules, the Mac toolchain, the timestamp anchors and the checks by listening. Books and dictionaries keep page anchors; recordings keep series, episode and timestamp.
 
 ## Library expansion lanes
 

@@ -27,7 +27,7 @@ Average sources per entity: **1.27** · Women share of persons with a recorded g
 | practice | 60 |
 | question | 220 |
 | screen | 315 |
-| source | 1047 |
+| source | 1048 |
 | work | 1458 |
 
 ### By wing

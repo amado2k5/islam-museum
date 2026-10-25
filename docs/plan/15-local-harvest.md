@@ -292,6 +292,10 @@ Directories supply candidates for the Made wing (`11`), for organisations, chari
 
 For official pages of institutions, texts of declarations, conference records and press archives: a Scrapy crawler with `ROBOTSTXT_OBEY = True`, a one-second delay, an HTTP cache and the harvest User-Agent, started from a hand-approved list of hosts in `sources.yaml`. `trafilatura` extracts the main text. Full text stays in the local cache; the repository receives quotations with URLs and an Internet Archive snapshot link.
 
+### 6.9 Audio and video lectures
+
+Purpose: a speaker's own recorded lessons as primary sources for what he teaches and says. Full method, rights and checks: [`docs/agents/audio-video-harvest.md`](../agents/audio-video-harvest.md). Summary: discover the episode media links in the browser pane; download politely with `scripts/harvest/audio/download.py` (identified User-Agent, two-second pause, SHA-256 per file); convert and probe with `ffmpeg`; transcribe offline with `scripts/harvest/audio/transcribe.py`, which calls `mlx-whisper` with `mlx-community/whisper-large-v3-mlx` (the large model: the turbo model was faster but measurably weaker on Arabic lectures); a transcript line is used only under the verification rule of `audio-video-harvest.md` §2 (clear line, second pass agreement for names, numbers and dates, or a person's listening at the anchor). Layer: `copyrighted-reference` (read and rewritten; audio and transcripts never leave the harvest workspace). YouTube-hosted lectures are never downloaded (§5 rule 5). First speaker: Omar Abdelkafy (`lanes/omar-abdelkafy.md`).
+
 ## 7. The local model passes
 
 All through Ollama's API with a JSON schema in the `format` field, so every answer is machine-checkable.
@@ -372,6 +376,7 @@ Superseded on 15 October 2026 by `docs/sources-policy.md`: every row may be read
 | OpenITI | Yes | Yes, rewritten and cited | Short quotations only |
 | IMDb files, TMDB, national film databases | IMDb locally yes; others as look-ups | Facts from our own reading, yes; a bulk copy, no; identifiers as pointers | No |
 | Quran Foundation API, Zabihah, Mawaqit, YouTube API data | No | Facts from our own reading, yes; their data, no | No |
+| Recorded lectures on an open archive (Assabile, for Omar Abdelkafy) | Audio and transcripts in the harvest workspace only | Yes, rewritten and cited by series, episode and timestamp | No |
 
 ## 12. Risks
 

@@ -37,6 +37,8 @@ islam-museum/
 │  │    wikidata/ (queries + two-pass filter_dump.py), wikipedia/ (load_sql,
 │  │    select_pages, extract, rank_sources), collections/ (duckdb loaders,
 │  │    reconcile_places), quran/, directories/, web/
+│  │    audio/ (download.py, transcribe.py: lecture recordings, mlx-whisper;
+│  │    see docs/agents/audio-video-harvest.md)
 │  └─ report/coverage.ts     → docs/coverage.md + api/v1/meta/coverage.json
 ├─ site/              Astro project
 │  ├─ src/layouts/           BaseLayout, EntityLayout (data-pagefind-body)
