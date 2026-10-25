@@ -1,0 +1,45 @@
+id: person/ismail-qemali
+class: person
+label: { ar: "إسماعيل كمال", en: "Ismail Qemali", ur: "اسماعیل کمال" }
+names:
+  - { value: "إسماعيل كمال بك فلوره", kind: full }
+  - { value: "Ismail Kemal Bey Vlora", kind: full }
+  - { value: "Ismail Kemal", kind: variant }
+gender: male
+summary:
+  ar: "سياسي ورجل دولة ألباني (1844-1919)، مؤسس ألبانيا الحديثة ولقبه «أبو الأمة». بدأ موظفا عثمانيا رفيعا ومتعاونا مع مدحت باشا، ثم عاش ثماني سنوات في المنفى وقاد معارضة دستورية، حتى أعلن استقلال ألبانيا في فلوره في 28 نوفمبر 1912 وصار أول رئيس وزراء ووزير خارجية لها (1912-1914)، ومات في منفاه بإيطاليا."
+  en: "Albanian politician and statesman (1844–1919), founder of modern Albania, remembered as 'Father of the Nation'. He rose as a high Ottoman civil servant and collaborator of Midhat Pasha, spent eight years in exile leading constitutional opposition, then proclaimed Albania's independence at Vlorë on 28 November 1912 and became its first prime minister and foreign minister (1912–1914); he died in exile in Italy."
+  ur: "البانوی سیاست دان اور مدبر (1844-1919)، جدید البانیہ کے بانی، ’’قوم کا باپ‘‘ کہلاتے ہیں۔ عثمانی ملازمت میں مدحت پاشا کے معتمد ساتھی رہے، آٹھ سال جلاوطنی میں آئینی اپوزیشن کی قیادت کی، پھر 28 نومبر 1912 کو ولورہ میں البانیہ کی آزادی کا اعلان کیا اور اس کے پہلے وزیرِ اعظم و وزیرِ خارجہ بنے (1912-1914)؛ وفات اٹلی میں جلاوطنی کے دوران ہوئی۔"
+roles: [politician, writer]
+wings: [people]
+born:
+  edtf: "1844-01-16"
+  hijri: "1259"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "The English and Arabic articles and Wikidata give his birth at Vlorë on 16 January 1844, which the record follows. The Albanian and Turkish articles give 24 January 1844; the conflict is recorded here and in the references. The Hijri year is derived by tabular conversion (16 January 1844 falls at the close of 1259 AH)."
+  sources: [source/wikipedia-ismail-qemali-en, source/wikipedia-ismail-qemali-ar, source/wikidata-ismail-qemali, source/wikipedia-ismail-qemali-sq, source/wikipedia-ismail-qemali-tr]
+died:
+  edtf: "1919-01-26"
+  hijri: "1337"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "The English, Arabic and Albanian articles give his death at Perugia on 26 January 1919, which the record follows; Wikidata gives 24 January 1919. The Hijri year is derived by tabular conversion (January 1919 falls in 1337 AH)."
+  sources: [source/wikipedia-ismail-qemali-en, source/wikipedia-ismail-qemali-ar, source/wikipedia-ismail-qemali-sq, source/wikidata-ismail-qemali]
+faith:
+  - value: unknown
+    basis: unknown
+    note: "No two independent sources name a school for him. The English article says he was born 'to an Albanian Muslim family' — family background, which never counts; the German article calls him an Albanian Muslim politician, a generic description naming no school. Wikidata's religion statement carries three values side by side in the one item — Islam, Shia Islam and Bektashi Order — which is a single structured-data source, internally divergent, and cannot ground any segment; the Shia-mapping rule does not engage on one source family. His burial in the Bektashi tekke at Vlorë (English and Turkish articles) is a fact about his funeral arranged by others after his death, not an attestation of his own affiliation, and is recorded in the prose as such. The value therefore stays unknown, with all of the above stated so the reader can judge."
+    sources: [source/wikipedia-ismail-qemali-en, source/wikipedia-ismail-qemali-de, source/wikidata-ismail-qemali, source/wikipedia-ismail-qemali-tr]
+external_ids: { wikidata: "Q46932" }
+sources: [source/wikipedia-ismail-qemali-en, source/wikipedia-ismail-qemali-ar, source/wikipedia-ismail-qemali-ur, source/wikipedia-ismail-qemali-sq, source/wikipedia-ismail-qemali-tr, source/wikipedia-ismail-qemali-de, source/wikidata-ismail-qemali]
+provenance:
+  layer: own-research
+  source: "English Wikipedia 'Ismail Qemali' (revision 1379237897), Arabic Wikipedia «إسماعيل كمال» (revision 77005081), Urdu Wikipedia «اسماعیل کمال» (revision 12094001), Albanian Wikipedia 'Ismail Qemali' (revision 3044799), Turkish Wikipedia 'Avlonyalı İsmail Kemal Bey' (revision 37851181), German Wikipedia 'Ismail Qemali' (revision 247236792), Wikidata Q46932 (verified via the API: human, born 16 January 1844 at Vlorë, died 24 January 1919 at Perugia, religion statement carrying Islam, Shia Islam and Bektashi Order values in the one item), checked 25 October 2026"
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: century-additions-8
+status: { review: published, completeness: 3, generated_by: "Muse (Muse Spark 1.3)" }

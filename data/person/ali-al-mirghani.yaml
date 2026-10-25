@@ -1,0 +1,45 @@
+id: person/ali-al-mirghani
+class: person
+label: { ar: "علي الميرغني", en: "Sayyid Ali al-Mirghani", ur: "علی المیرغنی" }
+names:
+  - { value: "علي الميرغني", kind: full }
+  - { value: "Ali al-Mirghani", kind: full }
+  - { value: "Ali al-Marghani", kind: variant }
+gender: male
+summary:
+  ar: "زعيم ديني وسياسي سوداني (1873-1968)، رأس الطريقة الختمية الصوفية وأسرة المراغنة في السودان ومصر وإريتريا. تحالف مع الحكومة الأنجلو-مصرية ضد الدولة المهدية، وقاد معسكر «وحدة وادي النيل» المؤيد للاتحاد مع مصر، وأسس الحزب الديمقراطي الشعبي سنة 1956 بعد انشقاقه عن الحزب الوطني الاتحادي، وبقي زعيما للطريقة حتى وفاته بالخرطوم بحري."
+  en: "Sudanese religious and political leader (1873–1968), head of the Khatmiyya Sufi order and of the Maraghna family in Sudan, Egypt and Eritrea. He allied with the Anglo-Egyptian government against the Mahdist state, led the 'Unity of the Nile Valley' camp favouring union with Egypt, founded the People's Democratic Party in 1956 after splitting from the National Unionist Party, and remained head of the order until his death at Khartoum Bahri."
+  ur: "سوڈانی دینی و سیاسی رہنما (1873-1968)، سلسلۂ ختمیہ صوفیہ اور مراغنہ خاندان کے سربراہ۔ انہوں نے مہدیہ ریاست کے خلاف اینگلو۔مصری حکومت کا ساتھ دیا، مصر سے اتحاد کے حامی ’’وحدتِ وادیِ نیل‘‘ کے دھڑے کی قیادت کی، 1956 میں نیشنل یونینسٹ پارٹی سے الگ ہو کر پیپلز ڈیموکریٹک پارٹی بنائی، اور خرطوم بحری میں اپنی وفات تک سلسلے کے سربراہ رہے۔"
+roles: [mystic, politician]
+wings: [people]
+born:
+  edtf: "1873"
+  hijri: "1289"
+  calendar: gregorian
+  precision: year
+  status: historical
+  derived: true
+  note: "The English article and Wikidata give 1873, which the record follows. The Arabic article treats the year as uncertain — it mentions 1870 and 1880 and prefers about 1879, because an intelligence report estimated his age at eleven in 1890. The place is likewise unsettled: the English article says 'Masawa in northern Sudan' and Wikidata gives Massawa, while the Arabic article says Masawi island in northern Sudan. No day or month is given anywhere. The Hijri year is derived by tabular conversion (1873 opened in 1289 AH)."
+  sources: [source/wikipedia-ali-al-mirghani-en, source/wikidata-ali-al-mirghani, source/wikipedia-ali-al-mirghani-ar]
+died:
+  edtf: "1968-02-21"
+  hijri: "1387"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "The English article gives his death, of kidney disease after surgery, on 21 February 1968 at Hillat Khojali, Khartoum Bahri; the Arabic article places his residence and death at Hillat Khojali and his burial in his mosque at Khartoum Bahri; Wikidata gives the year 1968 and the place as Hillat Khojali. The Hijri year is derived by tabular conversion (February 1968 falls in 1387 AH)."
+  sources: [source/wikipedia-ali-al-mirghani-en, source/wikipedia-ali-al-mirghani-ar, source/wikidata-ali-al-mirghani]
+faith:
+  - value: sufi
+    basis: documented
+    note: "Recorded on the headship of the Khatmiyya Sufi order, attested independently three times: the English article's lead names him 'the late leader of the Khatmiyya, a sufi order known in Egypt, Sudan and Eritrea'; the Arabic article's lead names his family as known 'for the leadership of the Sufi Khatmiyya tariqa' (قيادة الطريقة الختمية الصوفية) and him as its head; the Catalan article calls him 'cap de la tariqa khatamiyya' (head of the Khatmiyya tariqa). Two independent sources attesting the affiliation itself — here, his headship of the order — meet the lane's bar for a sufi segment; his descent from the order's founder is family background and is not the basis, and the basis is stated here so the reader can judge it. No source fetched names a madhhab for him, so no sunni segment is recorded; Wikidata carries no religion statement for him at all."
+    sources: [source/wikipedia-ali-al-mirghani-en, source/wikipedia-ali-al-mirghani-ar, source/wikipedia-ali-al-mirghani-ca]
+external_ids: { wikidata: "Q11279401" }
+sources: [source/wikipedia-ali-al-mirghani-en, source/wikipedia-ali-al-mirghani-ar, source/wikipedia-ali-al-mirghani-ca, source/wikidata-ali-al-mirghani]
+provenance:
+  layer: own-research
+  source: "English Wikipedia 'Ali al-Mirghani' (revision 1360431323), Arabic Wikipedia «علي الميرغني» (revision 76674234), Catalan Wikipedia 'Sayyid Ali al-Mirghani' (revision 38700046), Wikidata Q11279401 (verified via the API: human, born 1873 at Massawa, died 1968 at Hillat Khojali, no religion statement), checked 25 October 2026. No Urdu Wikipedia article exists; the Urdu prose is the museum's translation."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: century-additions-8
+status: { review: published, completeness: 3, generated_by: "Muse (Muse Spark 1.3)" }

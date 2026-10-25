@@ -1,0 +1,53 @@
+id: person/nazli-fazl
+class: person
+label: { ar: "نازلي فاضل", en: "Princess Nazli Fazl", ur: "نازلی فاضل" }
+names:
+  - { value: "نازلي زينب هانم", kind: full }
+  - { value: "Nazli Zainab Hanim", kind: full }
+  - { value: "Nazli Fazil", kind: variant }
+gender: female
+summary:
+  ar: "أميرة مصرية من الأسرة العلوية (1853-1913)، ابنة الأمير مصطفى فاضل باشا. أقامت في قصرها بالقاهرة منذ ثمانينيات القرن التاسع عشر أحد أوائل الصالونات الأدبية التي تديرها امرأة في العالم العربي، وكان من روّاده محمد عبده وسعد زغلول وقاسم أمين، ثم أقامت صالونا ثانيا في المرسى بتونس بعد زواجها الثاني سنة 1900."
+  en: "Egyptian princess of the Muhammad Ali dynasty (1853–1913), daughter of Prince Mustafa Fazl Pasha. From the 1880s she hosted at her Cairo palace one of the first literary salons run by a woman in the Arab world, frequented by Muhammad Abduh, Saad Zaghloul and Qasim Amin; after her second marriage in 1900 she held a second salon at La Marsa in Tunis."
+  ur: "مصر کی علوی خاندان کی شہزادی (1853-1913)، مصطفیٰ فاضل پاشا کی بیٹی۔ 1880 کی دہائی سے انہوں نے قاہرہ کے اپنے محل میں عرب دنیا کے ان پہلے ادبی صالونوں میں سے ایک قائم کیا جن کی میزبانی کوئی خاتون کرتی تھی؛ اس کے شرکا میں محمد عبدہ، سعد زغلول اور قاسم امین شامل تھے۔ 1900 میں دوسری شادی کے بعد انہوں نے تیونس کے علاقے المرسى میں دوسرا صالون قائم کیا۔"
+roles: [patron]
+wings: [people]
+born:
+  edtf: "1853"
+  hijri: "1269"
+  calendar: gregorian
+  precision: year
+  status: historical
+  derived: true
+  note: "The year 1853 is given by all the articles and Wikidata. The place is disputed: the French article and Wikidata give Constantinople (Istanbul), where her father was then in the Sultan's orbit, while the English article says she was born in Cairo and 'raised in Egypt until 1866' (French). The record follows the French article and Wikidata for the place and records the English claim here. The Hijri year is derived by tabular conversion (1853 opened in 1269 AH)."
+  sources: [source/wikipedia-nazli-fazl-fr, source/wikidata-nazli-fazl, source/wikipedia-nazli-fazl-en]
+died:
+  edtf: "1913-12-28"
+  hijri: "1332"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "The English article and Wikidata give her death at Cairo on 28 December 1913, after a fall on 13 October 1913; the record follows them. The French article gives 12 December 1913 and cardiac arrest; the Arabic article gives 28 January 1914. The Hijri year is derived by tabular conversion (28 December 1913 falls in Muharram 1332)."
+  sources: [source/wikipedia-nazli-fazl-en, source/wikidata-nazli-fazl, source/wikipedia-nazli-fazl-fr, source/wikipedia-nazli-fazl-ar]
+relations:
+  - { type: born_in, target: place/istanbul, sources: [source/wikipedia-nazli-fazl-fr, source/wikidata-nazli-fazl] }
+  - { type: lived_in, target: place/cairo, sources: [source/wikipedia-nazli-fazl-en, source/wikipedia-nazli-fazl-ar] }
+  - { type: lived_in, target: place/tunis, sources: [source/wikipedia-nazli-fazl-en, source/wikipedia-nazli-fazl-fr] }
+  - { type: died_in, target: place/cairo, sources: [source/wikipedia-nazli-fazl-en, source/wikidata-nazli-fazl] }
+  - { type: influenced, target: person/muhammad-abduh, sources: [source/wikipedia-nazli-fazl-en, source/wikipedia-nazli-fazl-ar] }
+  - { type: influenced, target: person/qasim-amin, sources: [source/wikipedia-nazli-fazl-ar] }
+  - { type: patron_of, target: person/qasim-amin, sources: [source/wikipedia-nazli-fazl-ar] }
+faith:
+  - value: unknown
+    basis: unknown
+    note: "No source fetched names a school or any formal affiliation for her: the English, Arabic and French articles are all silent on her religion as a classification, and Wikidata carries no religion statement for her at all. What the sources describe is practice and milieu — a princess of the Muhammad Ali dynasty whose salon mixed men and women unveiled, which the Arabic article presents as a break with convention and some contemporaries attacked as westernising. Practice described by sources, and dynastic background, are not an attestation of a school, so the value stays unknown."
+    sources: [source/wikipedia-nazli-fazl-en, source/wikipedia-nazli-fazl-ar, source/wikipedia-nazli-fazl-fr, source/wikidata-nazli-fazl]
+external_ids: { wikidata: "Q7244764" }
+sources: [source/wikipedia-nazli-fazl-en, source/wikipedia-nazli-fazl-ar, source/wikipedia-nazli-fazl-fr, source/wikidata-nazli-fazl]
+provenance:
+  layer: own-research
+  source: "English Wikipedia 'Nazli Fazil' (revision 1380998170), Arabic Wikipedia «نازلي فاضل» (revision 74032311), French Wikipedia 'Nazli Fazıl' (revision 238028955), Wikidata Q7244764 (verified via the API: human, female, born 1853 at Istanbul, died 28 December 1913 at Cairo, father Mustafa Fazıl Pasha, no religion statement), checked 25 October 2026"
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: century-additions-8
+status: { review: published, completeness: 3, generated_by: "Muse (Muse Spark 1.3)" }
