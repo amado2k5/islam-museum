@@ -143,11 +143,11 @@ lists' own order. Status markers: [ ] queued · [~] in a writer's hands · [x] m
 - [x] Moeen Ali — 1987–Living
 - [x] Adil Rashid — 1988–Living
 - [x] Wasim Akram — 1966–Living
-- [ ] Waqar Younis — 1971–Living
-- [ ] Inzamam-ul-Haq — 1970–Living
-- [ ] Babar Azam — 1994–Living
-- [ ] Imran Khan — 1952–Living
-- [ ] Shoaib Akhtar — 1975–Living
+- [x] Waqar Younis — 1971–Living
+- [x] Inzamam-ul-Haq — 1970–Living
+- [x] Babar Azam — 1994–Living
+- [x] Imran Khan — 1952–Living
+- [x] Shoaib Akhtar — 1975–Living
 - [ ] Rashid Khan — 1998–Living
 - [ ] Mohammad Nabi — 1985–Living
 - [ ] Kumar Sangakkara (Friend/Contemporary) — 1977–Living
