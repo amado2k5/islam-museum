@@ -2,9 +2,16 @@
 // stamp rules, trilingual parity of the `edu:` strings, the routes the data names, no typed honorifics, the
 // page-weight budget table, and the QR helper.
 import { describe, expect, it } from "vitest";
+import { execSync } from "node:child_process";
 import { existsSync, readFileSync, readdirSync } from "node:fs";
 import { parse } from "yaml";
 import { loadPacks } from "../site/src/lib/packs.ts";
+
+// Site libs (facts, homework, where, packs) read .cache/graph.json; the CI test job runs `npm test`
+// without the build, so compile the graph once here when it is missing.
+if (!existsSync(".cache/graph.json")) {
+  execSync("npm run graph", { stdio: "inherit" });
+}
 
 const HONORIFIC = /(peace be upon him|\bpbuh\b|\(saw\)|ﷺ|صلى الله عليه|صلى اللّٰه عليه|عليه السلام|عليها السلام|رضي الله ع|رضي اللّٰه ع|رحمه الله|رحمها الله)/;
 const LANGS = ["ar", "en", "ur"] as const;
