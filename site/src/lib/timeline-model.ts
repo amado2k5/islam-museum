@@ -25,5 +25,5 @@ export function timelineModel(lang: Lang) {
     early: early.length,
     t: { ah: ERA[lang].ah, bh: ERA[lang].bh, ce: ERA[lang].ce, year: T.timeline.year, events: T.timeline.events_in, before: T.timeline.before, close: T.timeline.close, all: T.timeline.all },
   };
-  return { all, early, events, MIN, MAX, rtl, markers, bands, payload, yearLabel };
+  return { all, early, events, MIN, MAX, FLOOR, rtl, markers, bands, payload, yearLabel };
 }
