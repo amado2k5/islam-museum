@@ -1,0 +1,35 @@
+id: person/farouk-el-baz
+class: person
+label: { ar: "فاروق الباز", en: "Farouk El-Baz", ur: "فاروق الباز" }
+names:
+  - { value: "فاروق محمد سيد الباز", kind: full }
+  - { value: "Farouk El-Baz", kind: full }
+gender: male
+summary:
+  ar: "عالم جيولوجيا وفضاء مصري أمريكي، وُلد في الزقازيق سنة 1938، عمل مع ناسا في التخطيط العلمي لاستكشاف القمر ضمن برنامج أبولو (1967–1972)، فاختار مواقع الهبوط ودرّب رواد الفضاء، ثم أسس وأدار مركز الاستشعار عن بعد في جامعة بوسطن واشتهر بأبحاث الصحارى والمياه الجوفية من صور الأقمار الصناعية."
+  en: "Egyptian-American geologist and space scientist, born in Zagazig in 1938, who worked with NASA on the scientific exploration of the Moon in the Apollo programme (1967–1972), selecting landing sites and training astronauts, then founded and directed Boston University's Center for Remote Sensing and became known for desert and groundwater research from satellite images."
+  ur: "مصری نژاد امریکی ماہرِ ارضیات اور خلائی سائنس دان، جو 1938 میں زقازیق میں پیدا ہوئے، جنہوں نے اپولو پروگرام میں چاند کی سائنسی تحقیق کی منصوبہ بندی میں ناسا کے ساتھ کام کیا (1967–1972)، نزول کی جگہیں منتخب کیں اور خلابازوں کو تربیت دی، پھر بوسٹن یونیورسٹی کے مرکزِ استشعارِ بعید کی بنیاد رکھی اور اس کے ڈائریکٹر رہے۔"
+roles: [scientist]
+wings: [people, living]
+born:
+  edtf: "1938-01-02"
+  hijri: "1356"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "Gregorian date and Zagazig birthplace from English Wikipedia, Ain Shams University's profile and the State Information Service report of the US Embassy statement. The Worldwide Cancer Network biography gives 1 January 1938 instead, the Egyptian-Arabic article gives Banha as the birthplace and the Persian article gives Senbellawein; the record follows Zagazig, 2 January — the reading of his university and of the English article — and records the variants here. Zagazig has no place entity in the museum yet, and no person entity exists yet for his brother Osama El-Baz, so no born_in or sibling_of relation is written. The Hijri year (1356) is derived by tabular conversion."
+  sources: [source/wikipedia-farouk-el-baz-en, source/ain-shams-farouk-el-baz, source/worldwide-cancer-network-farouk-el-baz]
+faith:
+  - value: unknown
+    basis: unknown
+    note: "English Wikipedia describes him as born to Muslim Egyptian parents and traces his idea of touchable Moon rocks to the pilgrimage of his childhood, when he touched the Black Stone at Mecca. That is family background and personal history, not a school attestation, and no source consulted for this record names a school of Islam. Not recorded until two independent sources name a school."
+    sources: [source/wikipedia-farouk-el-baz-en]
+external_ids: { wikidata: "Q1750619" }
+sources: [source/wikipedia-farouk-el-baz-en, source/wikidata-farouk-el-baz, source/ain-shams-farouk-el-baz, source/aljazeera-farouk-el-baz-profile, source/worldwide-cancer-network-farouk-el-baz, source/sis-farouk-el-baz-embassy]
+provenance:
+  layer: own-research
+  source: "English Wikipedia article on Farouk El-Baz, Wikidata Q1750619 (item ID grounded via the Wikimedia Commons category authority file; wikidata.org itself returns 403 from the build environment), Ain Shams University's Arabic profile, Al Jazeera's profile as republished by Arab Khabar (2024), the Worldwide Cancer Network biography and the State Information Service report; checked 24 October 2026. No Urdu Wikipedia article on him was found."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: century-additions-3
+status: { review: published, completeness: 3, generated_by: "Muse (Muse Spark 1.3)" }

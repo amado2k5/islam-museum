@@ -1,0 +1,34 @@
+id: person/jackie-aina
+class: person
+label: { ar: "جاكي أينا", en: "Jackie Aina", ur: "جیکی آئنا" }
+names:
+  - { value: "Jacquelyn Lonje Olayiwola Oyeshola Bolayemi Aina", kind: full }
+  - { value: "جاكلين لونجي أولاييوولا أويشولا بولاييمي أينا", kind: full }
+gender: female
+summary:
+  ar: "صانعة محتوى جمال ورائدة أعمال أمريكية من أصل نيجيري، وُلدت في لوس أنجلوس سنة 1987، أطلقت قناتها على يوتيوب سنة 2009 ودعت إلى حضور ذوي البشرة الملونة في صناعة التجميل وتوسيع درجات كريمات الأساس، وتعاونت مع كبرى العلامات، وشاركت في تأسيس علامة «فورفر مود» سنة 2020، ونالت جائزة صورة الرابطة الوطنية لتقدم الملونين «يوتيوبر العام» سنة 2018."
+  en: "Nigerian-American beauty creator and entrepreneur, born in Los Angeles in 1987, who launched her YouTube channel in 2009, campaigned for the visibility of people of colour in the cosmetics industry and for wider foundation shade ranges, collaborated with major brands, co-founded the lifestyle brand FORVR Mood in 2020, and won the NAACP Image Award for YouTuber of the Year in 2018."
+  ur: "نائیجیری نژاد امریکی بیوٹی کریئیٹر اور کاروباری خاتون، جو 1987 میں لاس اینجلس میں پیدا ہوئیں، جنہوں نے 2009 میں اپنا یوٹیوب چینل شروع کیا، کاسمیٹکس صنعت میں رنگ برنگی جلد والوں کی نمائندگی اور فاؤنڈیشن کے رنگوں کی توسیع کی وکالت کی، بڑے برانڈز کے ساتھ کام کیا، 2020 میں لائف اسٹائل برانڈ FORVR Mood کی شریک بانی بنیں، اور 2018 میں NAACP کا یوٹیوبر آف دی ایئر ایوارڈ جیتا۔"
+roles: [presenter]
+wings: [people, living]
+born:
+  edtf: "1987-08-04"
+  hijri: "1407"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "Gregorian date and Los Angeles birthplace from English Wikipedia. Los Angeles has no place entity in the museum yet, so no born_in relation is written. The Hijri year (1407) is derived by tabular conversion."
+  sources: [source/wikipedia-jackie-aina-en]
+faith:
+  - value: unknown
+    basis: unknown
+    note: "English Wikipedia and her official website name no religion or school of Islam, and no source consulted names one. She is recorded because the founder's century list includes her; the museum records no school for her, and nothing is inferred from her family background. Not recorded until two independent sources name a school."
+    sources: [source/wikipedia-jackie-aina-en, source/jackie-aina-official-site]
+sources: [source/wikipedia-jackie-aina-en, source/jackie-aina-official-site, source/stanford-gsb-jackie-aina]
+provenance:
+  layer: own-research
+  source: "English Wikipedia article on Jackie Aina, her official website's About page and her Stanford Graduate School of Business Black Leadership Conference 2026 speaker biography; checked 24 October 2026. No Arabic or Urdu Wikipedia article exists, and no Wikidata item ID could be confirmed from a fetched source (wikidata.org is unreachable from the build environment), so external_ids is omitted rather than guessed."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: century-additions-3
+status: { review: published, completeness: 3, generated_by: "Muse (Muse Spark 1.3)" }

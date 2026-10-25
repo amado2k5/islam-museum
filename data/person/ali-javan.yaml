@@ -1,0 +1,44 @@
+id: person/ali-javan
+class: person
+label: { ar: "علي جوان", en: "Ali Javan", ur: "علی جوان" }
+names:
+  - { value: "علي جوان", kind: full }
+  - { value: "Ali Javan", kind: full }
+gender: male
+summary:
+  ar: "فيزيائي ومخترع إيراني أمريكي (1926–2016)، وُلد في طهران وتوفي في لوس أنجلوس، كان أول من اقترح مبدأ ليزر الغاز، وشارك في بناء أول نموذج منه (ليزر الهليوم–نيون) في مختبرات بل سنة 1960، وهو أول ليزر يعمل باستمرار، ثم عمل أستاذا للفيزياء في معهد ماساتشوستس للتقانة."
+  en: "Iranian-American physicist and inventor (1926–2016), born in Tehran and died in Los Angeles, who first proposed the gas laser and co-built its first working model — the helium–neon laser — at Bell Laboratories in 1960, the first continuously operating laser, and was a professor of physics at MIT."
+  ur: "ایرانی نژاد امریکی طبیعیات دان اور موجد (1926–2016)، جو تہران میں پیدا ہوئے اور لاس اینجلس میں وفات پائے، جنہوں نے گیس لیزر کا اصول سب سے پہلے پیش کیا اور 1960 میں بیل لیبارٹریز میں اس کا پہلا عملی نمونہ (ہیلیم۔نیون لیزر) مشترکہ طور پر بنایا، جو پہلا مسلسل چلنے والا لیزر تھا، اور ایم آئی ٹی میں طبیعیات کے پروفیسر رہے۔"
+roles: [physicist]
+wings: [people]
+born:
+  edtf: "1926-12-26"
+  hijri: "1345"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "Gregorian date and Tehran birthplace from English Wikipedia, the Arabic and Urdu articles and the National Inventors Hall of Fame. Prabook's Marquis Who's Who entry gives 27 December 1926 instead; the record follows the 26 December date given by the academy and hall-of-fame sources and notes the variant. Tehran has no place entity in the museum yet, and no person entity exists yet for his doctoral advisor Charles Townes, so no born_in or student_of relation is written. The Hijri year (1345) is derived by tabular conversion."
+  sources: [source/wikipedia-ali-javan-en, source/wikipedia-ali-javan-ar, source/nihf-ali-javan]
+died:
+  edtf: "2016-09-12"
+  hijri: "1437"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "Date and Los Angeles from English Wikipedia and Optica's obituary. Los Angeles has no place entity in the museum yet, so no died_in relation is written. The Hijri year (1437) is derived by tabular conversion."
+  sources: [source/wikipedia-ali-javan-en, source/optica-ali-javan-obituary]
+faith:
+  - value: unknown
+    basis: unknown
+    note: "Arabic Wikipedia's infobox gives his religion as Shia (الشيعة), and English Wikipedia's 'List of Shia Muslims' includes him among scientists. Both sit inside the Wikipedia/Wikidata ecosystem and trace to the same unsourced claim, and no source outside that ecosystem consulted for this record — Optica's obituary, the National Inventors Hall of Fame profile, the Engineering and Technology History Wiki biography — names any religion or school. A single infobox and a list built on it are not two independent sources, so no school is recorded."
+    sources: [source/wikipedia-ali-javan-ar, source/optica-ali-javan-obituary, source/ethw-ali-javan]
+external_ids: { wikidata: "Q120216" }
+sources: [source/wikipedia-ali-javan-en, source/wikipedia-ali-javan-ar, source/wikipedia-ali-javan-ur, source/wikidata-ali-javan, source/optica-ali-javan-obituary, source/nihf-ali-javan, source/ethw-ali-javan]
+provenance:
+  layer: own-research
+  source: "English, Arabic and Urdu Wikipedia articles on Ali Javan, Wikidata Q120216 (item ID grounded via WikiTree's Wikidata-linked profile; wikidata.org itself returns 403 from the build environment), Optica's obituary of 12 September 2016, the National Inventors Hall of Fame profile and the Engineering and Technology History Wiki biography; checked 24 October 2026"
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: century-additions-3
+status: { review: published, completeness: 3, generated_by: "Muse (Muse Spark 1.3)" }

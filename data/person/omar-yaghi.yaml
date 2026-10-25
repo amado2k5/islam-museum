@@ -1,0 +1,37 @@
+id: person/omar-yaghi
+class: person
+label: { ar: "عمر ياغي", en: "Omar M. Yaghi", ur: "عمر یاغی" }
+names:
+  - { value: "عمر مؤنس ياغي", kind: full }
+  - { value: "Omar Mwannes Yaghi", kind: full }
+gender: male
+summary:
+  ar: "كيميائي أردني أمريكي من أصل فلسطيني، وُلد في عمّان سنة 1965 لأسرة لاجئة من قرية المسمية، أسس علم الكيمياء الشبكية وطوّر الأطر الفلزية العضوية والأطر العضوية التساهمية، ونال جائزة نوبل في الكيمياء سنة 2025 بالمشاركة مع سوسومو كيتاغاوا وريتشارد روبسون، وانتقل سنة 2026 إلى جامعة تسينغهوا في الصين لقيادة معهد جديد للذكاء الاصطناعي وعلم المواد."
+  en: "Jordanian-American chemist of Palestinian origin, born in Amman in 1965 to a refugee family from al-Masmiya, who founded reticular chemistry and developed metal–organic frameworks and covalent organic frameworks, shared the 2025 Nobel Prize in Chemistry with Susumu Kitagawa and Richard Robson, and moved in 2026 to Tsinghua University in China to lead a new institute for AI and materials science."
+  ur: "فلسطینی الاصل اردنی۔امریکی کیمیا دان، جو 1965 میں عمان میں گاؤں المسمية کے مہاجر خاندان میں پیدا ہوئے، جنہوں نے شبکی کیمیا (ریٹیکولر کیمسٹری) کی بنیاد رکھی اور دھاتی۔نامیاتی ڈھانچے تیار کیے، 2025 میں کیمیا کا نوبل انعام سوسومو کیتاگاوا اور رچرڈ روبسن کے ساتھ مشترکہ طور پر پایا، اور 2026 میں چین کی چھنگہوا یونیورسٹی منتقل ہو گئے۔"
+roles: [chemist]
+wings: [people, living]
+born:
+  edtf: "1965-02-09"
+  hijri: "1384"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "Gregorian date and Amman birthplace from English and Arabic Wikipedia. The Arabic article itself gives the Hijri date as Tuesday 8 Shawwal 1384 AH for the same day, and the tabular-conversion year (1384) agrees with it. Amman has a place entity, so born_in is written."
+  sources: [source/wikipedia-omar-yaghi-en, source/wikipedia-omar-yaghi-ar]
+relations:
+  - { type: born_in, target: place/amman, sources: [source/wikipedia-omar-yaghi-en] }
+faith:
+  - value: unknown
+    basis: unknown
+    note: "No source consulted names a school of Islam: the English and Arabic articles, the Mustafa Prize laureate page and the Saudipedia entry record no religion, and a low-quality biography site that gives only 'Islam' is not a school attestation. His King Faisal Prize and Mustafa Prize are scientific prizes, not attestations. Not recorded until two independent sources name a school."
+    sources: [source/wikipedia-omar-yaghi-en, source/wikipedia-omar-yaghi-ar, source/mustafa-prize-omar-yaghi]
+external_ids: { wikidata: "Q743252" }
+sources: [source/wikipedia-omar-yaghi-en, source/wikipedia-omar-yaghi-ar, source/wikidata-omar-yaghi, source/mustafa-prize-omar-yaghi, source/saudipedia-omar-yaghi]
+provenance:
+  layer: own-research
+  source: "English and Arabic Wikipedia articles on Omar Yaghi, Wikidata Q743252 (item ID grounded via the Nobel-laureate mirror entry keyed to Q743252 and the articles' structured data; wikidata.org itself returns 403 from the build environment), the Mustafa Prize's 2015 laureate page and Saudipedia's entry; checked 24 October 2026. No Urdu Wikipedia article on him was found."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: century-additions-3
+status: { review: published, completeness: 3, generated_by: "Muse (Muse Spark 1.3)" }

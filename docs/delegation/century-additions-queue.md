@@ -28,11 +28,11 @@ lists' own order. Status markers: [ ] queued · [~] in a writer's hands · [x] m
 - [x] Sultan bin Salman Al Saud — 1956–Living
 - [x] Sheikh Muszaphar Shukor — 1972–Living
 - [x] A. P. J. Abdul Kalam — 1931–2015
-- [~] Ali Javan — 1926–2016
-- [~] Farouk El-Baz — 1938–Living
-- [~] Omar M. Yaghi — 1965–Living
-- [~] Jackie Aina — 1987–Living
-- [~] Mo Salah (Mohamed Salah) — 1992–Living
+- [x] Ali Javan — 1926–2016
+- [x] Farouk El-Baz — 1938–Living
+- [x] Omar M. Yaghi — 1965–Living
+- [x] Jackie Aina — 1987–Living
+- [x] Mo Salah (Mohamed Salah) — 1992–Living
 - [ ] Khabib Nurmagomedov — 1988–Living
 - [ ] Hakeem Olajuwon — 1963–Living
 - [ ] Ibtihaj Muhammad — 1985–Living
