@@ -2,6 +2,7 @@
 // block, their teacher routes, and the LearningResource JSON-LD the teacher landing page emits.
 import { nodes, SITE, labelOf, summaryOf, href } from "./graph";
 import { ui, fmt, type Lang } from "./i18n";
+import { a11yLd } from "./a11y";
 import type { Node } from "../../../scripts/build-graph";
 
 export const pathways = (): Node[] =>
@@ -48,5 +49,6 @@ export function learningResourceLd(n: Node, lang: Lang) {
     hasPart: [{ "@type": "LearningResource", learningResourceType: "worksheet", url: `${SITE}${pathwayPrintPath(lang, n)}` }],
     isBasedOn: `${SITE}${href(lang, n.id)}`,
     publisher: { "@type": "Organization", name: "islam.museum", url: SITE },
+    ...a11yLd(lang),
   };
 }

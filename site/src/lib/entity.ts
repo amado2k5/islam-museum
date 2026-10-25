@@ -4,6 +4,7 @@ import { parse } from "yaml";
 import { byId, edgesFrom, href, labelOf, summaryOf, SITE } from "./graph";
 import type { Node } from "../../../scripts/build-graph";
 import { fmt, type Lang, ui } from "./i18n";
+import { a11yLd } from "./a11y";
 
 const predicates: Record<string, any> = parse(readFileSync(repoPath("schema", "predicates.yaml"), "utf8"));
 const idPatterns: Record<string, { url: string }> = parse(readFileSync(repoPath("schema", "external-id-patterns.yaml"), "utf8"));
@@ -89,6 +90,7 @@ export function jsonLd(n: Node, lang: Lang, path: string) {
     ...(sameAs.length ? { sameAs } : {}),
     license: "https://creativecommons.org/licenses/by-sa/4.0/",
     isPartOf: { "@type": "WebSite", name: "islam.museum", url: SITE },
+    ...a11yLd(lang),
   };
   if (n.class === "person") {
     ld.birthDate = iso(d.born); ld.deathDate = iso(d.died);
