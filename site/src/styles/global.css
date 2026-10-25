@@ -334,6 +334,10 @@ footer.site, .grid-cards { content-visibility: auto; contain-intrinsic-size: aut
 }
 .wing .feat:active, .wing .feat:focus-visible { border-style: solid; border-color: var(--gold); box-shadow: 0 0 0 1px var(--gold); text-decoration: none; }
 .wing .feat:active .feat-l, .wing .feat:focus-visible .feat-l { color: var(--gold-text); }
+/* Dark: a fainter tint and a lighter gold, so the small label stays AA (4.5:1) even on the gold Made card. */
+:root[data-theme="dark"] .wing .feat { background: color-mix(in srgb, var(--acc) 8%, transparent); }
+:root[data-theme="dark"] .feat-k { color: #dcc28c; }
+@media (prefers-color-scheme: dark) { :root:not([data-theme="light"]) .wing .feat { background: color-mix(in srgb, var(--acc) 8%, transparent); } :root:not([data-theme="light"]) .feat-k { color: #dcc28c; } }
 .feat-k { display: block; font-size: .72rem; color: var(--gold-text); font-weight: 600; }
 html[lang="en"] .feat-k { letter-spacing: .04em; text-transform: uppercase; }
 .wing .feat-l { display: block; font-size: 1rem; margin: .15rem 0; line-height: 1.45; color: var(--fg); transition: color .18s ease; }
