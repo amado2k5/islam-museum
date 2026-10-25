@@ -88,11 +88,11 @@ lists' own order. Status markers: [ ] queued · [~] in a writer's hands · [x] m
 - [x] El Seed — 1981–Living
 - [x] Shahzia Sikander — 1969–Living
 - [x] Lalla Essaydi — 1956–Living
-- [ ] Sal Khan — 1976–Living
-- [ ] Mona Eltahawy — 1967–Living
-- [ ] Gilles Kepel (Contributor) — 1955–Living
-- [ ] Eboo Patel — 1975–Living
-- [ ] Rami Nashashibi — 1972–Living
+- [x] Sal Khan — 1976–Living
+- [x] Mona Eltahawy — 1967–Living
+- [x] Gilles Kepel (Contributor) — 1955–Living
+- [x] Eboo Patel — 1975–Living
+- [x] Rami Nashashibi — 1972–Living
 - [ ] Linda Sarsour — 1980–Living
 - [ ] Zahra Billoo — 1983–Living
 - [ ] Ibrahim Hooper — 1955–Living
