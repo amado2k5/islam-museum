@@ -1,0 +1,35 @@
+id: person/sadiq-khan
+class: person
+label: { ar: "صادق خان", en: "Sadiq Khan", ur: "صادق خان" }
+names:
+  - { value: "صادق أمان خان", kind: full }
+  - { value: "Sadiq Aman Khan", kind: full }
+gender: male
+summary:
+  ar: "سياسي بريطاني من حزب العمال، وُلد في توتينغ بلندن سنة 1970 لأسرة باكستانية مهاجرة من الطبقة العاملة، وعمل محاميًا متخصصًا في حقوق الإنسان قبل أن يُنتخب نائبًا عن توتينغ سنة 2005، ثم أصبح سنة 2016 أول مسلم يتولى رئاسة بلدية لندن، وأعيد انتخابه سنة 2021 وسنة 2024 ليكون أول عمدة للندن يفوز بثلاث ولايات، ونال لقب فارس سنة 2025 ورُفع إلى مجلس اللوردات بوصفه عضوًا مدى الحياة سنة 2026."
+  en: "British Labour Party politician, born in Tooting, London, in 1970 into a working-class Pakistani immigrant family. He practised as a human-rights solicitor before his election as MP for Tooting in 2005, became in 2016 the first Muslim Mayor of London, was re-elected in 2021 and 2024 as the first London mayor to win three terms, was knighted in 2025, and was raised to the House of Lords as a life peer in 2026."
+  ur: "برطانوی لیبر پارٹی کے سیاست دان، جو 1970 میں لندن کے ٹوٹنگ میں ایک محنت کش پاکستانی مہاجر خاندان میں پیدا ہوئے۔ انسانی حقوق کے وکیل کے طور پر کام کرنے کے بعد 2005 میں ٹوٹنگ سے رکن پارلیمنٹ منتخب ہوئے، 2016 میں لندن کے پہلے مسلم میئر بنے، 2021 اور 2024 میں دوبارہ منتخب ہو کر تین مرتبہ جیتنے والے پہلے میئر بنے، 2025 میں نائٹ کا خطاب پایا اور 2026 میں تاحیات رکنیت کے ساتھ ایوان بالا میں شامل ہوئے۔"
+roles: [politician]
+wings: [people, living]
+born:
+  edtf: "1970-10-08"
+  hijri: "1390"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "Gregorian date and Tooting, London birthplace from English Wikipedia and Wikidata Q334155; the Arabic article gives London. London has no place entity in the museum yet, so no born_in relation is written. The Hijri year (1390) is derived by tabular conversion."
+  sources: [source/wikipedia-sadiq-khan-en, source/wikidata-sadiq-khan, source/wikipedia-sadiq-khan-ar]
+faith:
+  - value: sunni
+    basis: documented
+    note: "Two sources independently name Sunni: the English article's early-life text, citing its source, states that Khan and his siblings were raised Sunni Muslims in their Earlsfield council flat, and Wikidata records his religion as Sunni Islam. The Arabic article's infobox gives Islam only and the Urdu article names no school. No source names a madhhab, so the plain value sunni is recorded."
+    sources: [source/wikipedia-sadiq-khan-en, source/wikidata-sadiq-khan, source/wikipedia-sadiq-khan-ar]
+external_ids: { wikidata: "Q334155" }
+sources: [source/wikipedia-sadiq-khan-en, source/wikipedia-sadiq-khan-ar, source/wikipedia-sadiq-khan-ur, source/wikidata-sadiq-khan]
+provenance:
+  layer: own-research
+  source: "English Wikipedia (revision 1380235941 of 14 October 2026), Arabic Wikipedia (revision 75242564 of 9 June 2026), Urdu Wikipedia (revision 9823643 of 13 April 2026) and Wikidata Q334155, checked 24 October 2026"
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: century-additions-4
+status: { review: published, completeness: 3, generated_by: "Muse (Muse Spark 1.3)" }

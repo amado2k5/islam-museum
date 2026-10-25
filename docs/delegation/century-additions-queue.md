@@ -38,16 +38,16 @@ lists' own order. Status markers: [ ] queued · [~] in a writer's hands · [x] m
 - [x] Ibtihaj Muhammad — 1985–Living
 - [x] Nour El Sherbini — 1995–Living
 - [x] Mo Farah — 1983–Living
-- [~] Sadiq Khan — 1970–Living
-- [~] Ilhan Omar — 1982–Living
-- [~] Rashida Tlaib — 1976–Living
-- [~] Dr. Mehmet Oz — 1960–Living
-- [~] Mahathir Mohamad — 1925–Living
-- [ ] B.J. Habibie — 1936–2019
-- [ ] Alija Izetbegović — 1925–2003
-- [ ] Abdelaziz Bouteflika — 1937–2021
-- [ ] Léopold Sédar Senghor (Honored Cultural Contemporary) — 1906–2001
-- [ ] Cheikh Anta Diop — 1923–1986
+- [x] Sadiq Khan — 1970–Living
+- [x] Ilhan Omar — 1982–Living
+- [x] Rashida Tlaib — 1976–Living
+- [x] Dr. Mehmet Oz — 1960–Living
+- [x] Mahathir Mohamad — 1925–Living
+- [~] B.J. Habibie — 1936–2019
+- [~] Alija Izetbegović — 1925–2003
+- [~] Abdelaziz Bouteflika — 1937–2021
+- [~] Léopold Sédar Senghor (Honored Cultural Contemporary) — 1906–2001
+- [~] Cheikh Anta Diop — 1923–1986
 - [ ] Amadou Hampâté Bâ — 1901–1991
 - [ ] Sembène Ousmane — 1923–2007
 - [ ] Nawal El Saadawi — 1931–2021
@@ -977,11 +977,11 @@ lists' own order. Status markers: [ ] queued · [~] in a writer's hands · [x] m
 - [x] Qasim Amin (1863–1908)
 - [x] Aisha Taymur (1840–1902)
 - [x] Halide Edib Adıvar (1884–1964)
-- [ ] Huda Sha'arawi (1879–1947)
-- [ ] Muhammad Ahmad (The Mahdi) (1844–1885)
-- [ ] Said Halim Pasha (1865–1921)
-- [ ] Mirza Kalich Beg (1853–1929)
-- [ ] Fatma Aliye Topuz (1862–1936)
+- [~] Huda Sha'arawi (1879–1947)
+- [~] Muhammad Ahmad (The Mahdi) (1844–1885)
+- [~] Said Halim Pasha (1865–1921)
+- [~] Mirza Kalich Beg (1853–1929)
+- [~] Fatma Aliye Topuz (1862–1936)
 - [ ] Tippu Tip (Hamad ibn Muhammad) (1837–1905)
 - [ ] Muhammad Husayn Haykal (1888–1956)
 - [ ] Ziya Gökalp (1876–1924)

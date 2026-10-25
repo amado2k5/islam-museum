@@ -1,0 +1,37 @@
+id: person/ilhan-omar
+class: person
+label: { ar: "إلهان عمر", en: "Ilhan Omar", ur: "الحان عمر" }
+names:
+  - { value: "إلهان عبد الله عمر", kind: full }
+  - { value: "Ilhan Abdullahi Omar", kind: full }
+gender: female
+summary:
+  ar: "سياسية أمريكية من الحزب الديمقراطي، وُلدت في مقديشو سنة 1982، وفرّت أسرتها من الحرب الأهلية الصومالية فقضت أربع سنوات في مخيم للاجئين في كينيا قبل أن تحصل على اللجوء في الولايات المتحدة سنة 1995، فأصبحت سنة 2016 أول مشرّعة صومالية أمريكية في البلاد في مجلس نواب منيسوتا، ثم انتُخبت سنة 2018 لمجلس النواب الأمريكي عن الدائرة الخامسة في منيسوتا، فكانت مع رشيدة طليب أول مسلمتين في الكونغرس، وهي نائب رئيس الكتلة التقدمية وناقدة بارزة لسياسات إسرائيل ولجماعات الضغط المؤيدة لها."
+  en: "American Democratic politician, born in Mogadishu in 1982. Her family fled the Somali Civil War, spent four years in a refugee camp in Kenya, and received asylum in the United States in 1995. In 2016 she became the first Somali-American legislator in the country in the Minnesota House; in 2018 she was elected to the U.S. House for Minnesota's 5th district, becoming with Rashida Tlaib one of the first two Muslim women in Congress. She is deputy chair of the Congressional Progressive Caucus and a prominent critic of Israel's policies and of pro-Israel lobbies."
+  ur: "امریکی ڈیموکریٹ سیاست دان، جو 1982 میں موغادیشو میں پیدا ہوئیں۔ ان کا خاندان صومالی خانہ جنگی سے فرار ہو کر کینیا کے ایک پناہ گزین کیمپ میں چار سال رہا اور 1995 میں امریکہ میں پناہ ملی۔ 2016 میں وہ منی سوٹا کے ایوان میں ملک کی پہلی صومالی نژاد امریکی قانون ساز بنیں، اور 2018 میں امریکی ایوان نمائندگان کے لیے منتخب ہو کر رشیدہ طلیب کے ساتھ کانگریس کی پہلی دو مسلم خواتین میں شامل ہوئیں۔"
+roles: [politician]
+wings: [people, living]
+born:
+  edtf: "1982-10-04"
+  hijri: "1402"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "Gregorian date and Mogadishu birthplace from English Wikipedia, the Arabic article's infobox and Wikidata Q26436159. The Arabic article's early-life narrative and the Urdu article give the year 1981; the day and month agree everywhere and the record follows 1982, the year given by the English article, Wikidata and the Arabic infobox. The Hijri year (1402) is derived by tabular conversion."
+  sources: [source/wikipedia-ilhan-omar-en, source/wikidata-ilhan-omar, source/wikipedia-ilhan-omar-ar, source/wikipedia-ilhan-omar-ur]
+relations:
+  - { type: born_in, target: place/mogadishu, sources: [source/wikipedia-ilhan-omar-en, source/wikidata-ilhan-omar] }
+faith:
+  - value: unknown
+    basis: unknown
+    note: "No source names her own school. The English article describes her father and grandfather as moderate Sunni Muslims opposed to the Wahhabi interpretation — that is her family's background, not an attestation of her own school, and family background never counts. The Arabic article's infobox and Wikidata give Islam only. Not recorded as sunni until a source names her own school."
+    sources: [source/wikipedia-ilhan-omar-en, source/wikipedia-ilhan-omar-ar, source/wikidata-ilhan-omar]
+external_ids: { wikidata: "Q26436159" }
+sources: [source/wikipedia-ilhan-omar-en, source/wikipedia-ilhan-omar-ar, source/wikipedia-ilhan-omar-ur, source/wikidata-ilhan-omar, source/bioguide-ilhan-omar]
+provenance:
+  layer: own-research
+  source: "English Wikipedia (revision 1381770747 of 24 October 2026), Arabic Wikipedia (revision 77049728 of 23 October 2026), Urdu Wikipedia (revision 12081312 of 1 October 2026), Wikidata Q26436159 and the Biographical Directory of the United States Congress (O000173), checked 24 October 2026"
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: century-additions-4
+status: { review: published, completeness: 3, generated_by: "Muse (Muse Spark 1.3)" }
