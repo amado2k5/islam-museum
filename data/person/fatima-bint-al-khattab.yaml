@@ -1,4 +1,10 @@
 id: person/fatima-bint-al-khattab
+education:
+  did_you_know:
+    ar: "فاطمة بنت الخطاب أخت عمر وزوجة سعيد بن زيد؛ من أوائل المسلمات في سنوات الدعوة السرية بمكة، وفي بيتها سمع عمر القرآن فأسلم."
+    en: "Fatima bint al-Khattab, Umar's sister and Sa'id ibn Zayd's wife, was among the first Muslim women of Mecca's secret-call years — in her house Umar heard the Qur'an and entered Islam."
+    ur: "فاطمہ بنت خطاب، عمر کی بہن اور سعید بن زید کی زوجہ، دعوتِ خفی کے زمانے کی اولین مسلمہ خواتین میں ہیں — اسی کے گھر میں عمر نے قرآن سنا اور مسلمان ہوئے۔"
+    sources: [source/ibn-hisham-sira, source/tabaqat-ibn-sad]
 class: person
 label: { en: "Fatima bint al-Khattab", ar: "فاطمة بنت الخطاب" }
 names:
@@ -24,3 +30,9 @@ relations:
   - { type: participated_in, target: event/al-dawa-al-sirriyya, role: "من أوائل المسلمات", sources: [source/mubarakpuri-raheeq] }
 sources: [source/mubarakpuri-raheeq, source/ibn-hisham-sira, source/nisa-hawl-alrasul]
 status: { review: draft, completeness: 2, generated_by: "Devin; al-Raheeq al-Makhtum p. 76; Nisa' Hawl al-Rasul pp. 265-272 added by Devin (SWE-2 High), lib-nisa-hawl-rasul" }
+provenance:
+  layer: own-research
+  source: "source/ibn-hisham-sira"
+  generated_by: Devin
+  model: "unknown"
+  run: "education-E3-facts-batch15"

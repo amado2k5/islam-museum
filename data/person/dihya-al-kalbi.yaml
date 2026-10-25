@@ -1,4 +1,10 @@
 id: person/dihya-al-kalbi
+education:
+  did_you_know:
+    ar: "دحية الكلبي صحابي جليل من سادات كلب، كان من أحسن الناس وجهاً وصورة، واختاره النبي سفيراً حاملاً كتابه إلى هرقل قيصر الروم، وشهد اليرموك."
+    en: "Dihya al-Kalbi, a noble Companion of Kalb's lords and among the most handsome of men, was the Prophet's chosen envoy bearing his letter to Heraclius, the Romans' Caesar — and he witnessed al-Yarmuk."
+    ur: "دحیہ کلبی، قبیلہ کلب کے معزز صحابی اور نہایت حسین، وہی تھے جنہیں نبی نے ہرقل قیصرِ روم کے نام اپنے خط کا ایلچی بنایا — اور انہوں نے یرموک میں شرکت کی۔"
+    sources: [source/ibn-hisham-sira, source/tabaqat-ibn-sad]
 class: person
 label: { en: "Dihya al-Kalbi", ar: "دحية الكلبي" }
 names:
@@ -25,3 +31,9 @@ relations:
 external_ids: { wikidata: "Q725068" }
 sources: [source/ansab-al-ashraf, source/mubarakpuri-raheeq, source/sahih-al-bukhari, source/zad-al-maad, source/ibn-hisham-saqqa]
 status: { review: draft, completeness: 2, generated_by: "Devin; al-Raheeq al-Makhtum pp. 356–358" }
+provenance:
+  layer: own-research
+  source: "source/ibn-hisham-sira"
+  generated_by: Devin
+  model: "unknown"
+  run: "education-E3-facts-batch15"
