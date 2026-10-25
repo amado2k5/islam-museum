@@ -28,6 +28,7 @@ Continue ei2-b002 part 2: seq 38-50 (ABU 'I-'ATAHIYA, NADIDIARI AL-ANSARI, ABU B
 |---|---|---|---|
 | ei2-b003 part 3a | seq 52, 53, 56, 59 | enriched person/abu-al-ghazi-bahadur, person/abu-hamid-al-gharnati, person/abu-hatim-ahmad-al-razi, person/abu-hayyan-al-tawhidi (from the Encyclopaedia's text as read; the articles are only partly read: Abu l-Ghazi to 2300 chars of 5743, Abu Hayyan to 3000 of 7222, Abu Hamid to 900 of 4767; the rest is open) | done; PR in progress |
 | ei2-b003 part 3b | seq 57, 60, 61 | 3 entries: new person/abu-hatim-al-sijistani (the printed heading AL-DIUSHAMI is garbled; identified from the works and pupils named; check the page image p. 144); enriched person/abu-al-hudhayl-al-allaf (read in full, pp. 146-147), person/abu-inan-faris (read to p. 148); en, ar, ur | done; PR in progress |
+| ei2-b003 part 3c | seq 51 | 1 new: person/abu-ghanim-bishr-al-khurasani (Ibadi jurist; the heading SANI is confirmed on the page image p. 139 as ABU GHANIM BISR B. GHANIM AL-KHURASANI); en, ar, ur | done; PR in progress. Page-image checks for seq 54, 55, 62 are still open |
 | ei2-b003 part 3a (open) | seq 51, 54, 55, 57, 58, 60, 61, 62 | not yet written | open |
 
 Open reasons: seq 51 SANI is an Ibadi lawyer (Abu Ghanim's Mudawwana; heading clipped; needs its own record). seq 54 ABU HASHIM 'ABD ALLAH and seq 55 ABU HASHIM (the Mutazili/Ibadi line is mixed by the splitter) need the page image. seq 57, 58, 60 (ABU L-HUDHAYL AL-'ALLAF, 13.6k chars), 61, 62 not yet read.
