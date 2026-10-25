@@ -15,3 +15,13 @@ translators: []
 ## عند الشيخ عمر عبد الكافي
 يرى الشيخ أن من أنكر حدا واحدا من حدود الله فقد أنكر الحدود كلها، وأن من كسر آية واحدة من الكتاب فقد كسر الكتاب كله. {cite:assabile-omar-abdelkafy aadau-al-islam/ep01 00:17:00} ويقول إن من يقبل بعض ما في الكتاب ويرفض بعضه فقد ناقض الإيمان بالكتاب. {cite:assabile-omar-abdelkafy aadau-al-islam/ep01 00:17:30}
 ويذكر أن مسألة الحدود تُنظر في ضوء حياة الناس اليوم، وقد جاءت عبارته عن ذلك غير واضحة في التسجيل (needs_source). {cite:assabile-omar-abdelkafy aadau-al-islam/ep01 00:12:30}
+
+## رأي المتكلم في الحدود ودور الدولة فيها
+يتناول الشيخ حد الحرابة وحد شرب الخمر وحد الزنا، ويربط إقامتها بالدولة، ويذكر أن الدولة لا تستطيع أن تصنع كل شيء في هذا الباب (needs_source: النص مشوش، ويحتاج إلى إعادة استماع قبل نسب أي عبارة بعينها) {cite:assabile-omar-abdelkafy al-hoquq/ep05 00:21:30} {cite:assabile-omar-abdelkafy al-hoquq/ep05 00:23:30} {cite:assabile-omar-abdelkafy al-hoquq/ep05 00:24:00}.
+
+:::perspectives
+- **أهل السنة: لم يُصدر بعد (not yet sourced)**: لم يُنسب بعد.
+- **speaker's view (Omar Abdelkafy)**: يرى الشيخ أن هذه الحدود تقام في دولة تطبق الشريعة، وأن ما دونها لا يحقق المقصود {cite:assabile-omar-abdelkafy al-hoquq/ep05 00:23:30} (needs_source: النص مشوش).
+- **academic view: not yet sourced**: لم يُنسب بعد.
+- **other view: not yet sourced**: لم يُنسب بعد.
+:::

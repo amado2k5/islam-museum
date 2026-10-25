@@ -12,3 +12,8 @@ translators: ["Claude Haiku 5.5 (claude-haiku-5-5), draft translation"]
 
 ## مواطنِ بحث
 تسمیہ کے احکام ذبیحہ، عقیقہ اور نکاح کے ابواب میں آتے ہیں، اور عوض مقرر کرنے کا مفہوم اجارہ اور مہر کے ابواب میں۔ {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.5098} {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.5112}
+
+## شیخ عمر عبدالکافی کے نزدیک اچھا نام
+وہ کہتے ہیں کہ نبی نے بہت سے صحابہ کے برے معنی والے نام بدل کر اچھے نام رکھے، اور باپ کو چاہیے کہ بیٹے کے لیے اچھا نام منتخب کرے۔ {cite:assabile-omar-abdelkafy al-hoquq/ep05 00:04:00} {cite:assabile-omar-abdelkafy al-hoquq/ep05 00:04:30}
+وہ حزن نام کے ایک شخص کا قصہ بیان کرتے ہیں جس نے وہ نام بدلنے سے انکار کیا جو اس کے باپ نے رکھا تھا، اور کہتے ہیں کہ اس کے بعد غم اس کے گھر سے نہ نکلا (needs_source: نام اور تفصیلات تسجیل میں واضح نہیں)۔ {cite:assabile-omar-abdelkafy al-hoquq/ep05 00:05:00} {cite:assabile-omar-abdelkafy al-hoquq/ep05 00:05:30}
+وہ کہتے ہیں کہ قیامت کے دن آدمی کو اس کے نام اور اس کے باپ کے نام سے پکارا جائے گا۔ {cite:assabile-omar-abdelkafy al-hoquq/ep05 00:06:00}

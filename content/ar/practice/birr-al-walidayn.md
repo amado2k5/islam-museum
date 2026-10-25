@@ -21,3 +21,8 @@ translators: []
 
 ## بعد الوفاة
 يذكر الشيخ من حقوق الوالد بعد موته أن يُحج الابن عنه، وأن يكرم صديقه، وأن يدعو له الولد الصالح. {cite:assabile-omar-abdelkafy aadau-al-islam/ep02 00:29:30} {cite:assabile-omar-abdelkafy aadau-al-islam/ep02 00:30:00} {cite:assabile-omar-abdelkafy aadau-al-islam/ep02 00:30:30}
+
+## البر في الحلقة الرابعة من سلسلة «الحقوق»
+يذكر الشيخ أن أحق الناس بالرجل أمه. {cite:assabile-omar-abdelkafy al-hoquq/ep04 00:18:30}
+ويعدّ من أعظم البر أن يرضى الولد أباه وأمه، أحياء وأمواتا. {cite:assabile-omar-abdelkafy al-hoquq/ep04 00:22:30}
+ويذكر أن دعاء الولد الصالح لوالده يرفع منزلته في الجنة. {cite:assabile-omar-abdelkafy al-hoquq/ep04 00:28:00}
