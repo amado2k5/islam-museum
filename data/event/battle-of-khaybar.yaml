@@ -1,4 +1,10 @@
 id: event/battle-of-khaybar
+education:
+  did_you_know:
+    ar: "في محرم سنة ٧هـ سار النبي في أصحاب بيعة الرضوان لفتح واحة خيبر المنيعة، فتتابعت حصونها حتى افتُتحت كما في الصحيحين."
+    en: "In Muharram of year 7 the Prophet marched with the companions of the Ridwan pledge on the fortified oasis of Khaybar, whose strongholds fell one by one, as the two Sahihs tell."
+    ur: "محرم ساتویں ہجری میں نبی بیعتِ رضوان کے اصحاب کے ساتھ خیبر کی محصور واحہ پر چلے، اور صحیحین کے بیان میں اس کے قلعے ایک ایک کرکے فتح ہوئے۔"
+    sources: [source/mubarakpuri-raheeq, source/sahih-al-bukhari]
 class: event
 kind: siege
 label: { en: "The Conquest of Khaybar", ar: "غزوة خيبر" }
@@ -39,3 +45,9 @@ map:
 external_ids: { wikidata: "Q565661" }
 sources: [source/mubarakpuri-raheeq, source/sahih-al-bukhari, source/sahih-muslim, source/ibn-hisham-sira, source/zad-al-maad, source/sallabi-ali-vol1]
 status: { review: draft, completeness: 2, generated_by: "Devin; al-Raheeq al-Makhtum pp. 364–379" }
+provenance:
+  layer: own-research
+  source: "source/mubarakpuri-raheeq"
+  generated_by: Devin
+  model: "unknown"
+  run: "education-E3-facts-batch7"
