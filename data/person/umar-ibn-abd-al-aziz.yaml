@@ -6,8 +6,13 @@ summary:
 gender: male
 external_ids: { wikidata: "Q298403" }
 sources: [source/umayyad-birth-to-fall-2006, source/tabari-tarikh-abu-al-fadl, source/muruj-al-dhahab, source/tabari-khayyat-part2, source/khudari-umayyad-state, source/bakr-umayyad-state-1134715, source/salabi-umayyad-state-2020]
-provenance: { layer: own-research, generated_by: "Claude (Haiku 5.5) from Apple Vision OCR of Tabari, batch 3", sources: [source/tabari-tarikh-abu-al-fadl] }
+provenance: { layer: own-research, generated_by: "Claude (Haiku 5.5) from Apple Vision OCR of Tabari, batch 3", source: "Apple Vision OCR of Tabari, batch 3", sources: [source/tabari-tarikh-abu-al-fadl] }
 education:
+  did_you_know:
+    ar: "بُويع عمر بن عبد العزيز للخلافة بعد سليمان بن عبد الملك؛ وروى الطبري كيف وصلت إليه البيعة."
+    en: "Allegiance came to Umar ibn Abd al-Aziz after Sulayman ibn Abd al-Malik's death; al-Tabari preserves the account of how the succession reached him."
+    ur: "عمر بن عبدالعزیز سلیمان کے بعد خلیفہ بنے؛ طبری نے ان کی بیعت کا واقعہ محفوظ کیا۔"
+    sources: [source/tabari-tarikh-abu-al-fadl, source/umayyad-birth-to-fall-2006]
   levels: [sprouts, explorers, scholars]
   flagged_for_kids: true
   provenance: { generated_by: "Devin", model: "gemini-2.5-pro", run: "education-E2-batch4", note: "Leveled texts drafted from the record's own summary and prose; draft, pending the founder's review and scholar review of the child levels." }

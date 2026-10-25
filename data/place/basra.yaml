@@ -12,7 +12,16 @@ coordinate_precision: site
 external_ids: { geonames: "99532", pleiades: "912821" }
 sources: [source/muntazam-ibn-al-jawzi, source/geonames-gazetteer, source/muruj-al-dhahab]
 education:
+  did_you_know:
+    ar: "بدأت البصرة مدينة جند للمسلمين نحو سنة ٦٣٦م، ثم صارت مركزاً للنحو والكلام والتجارة."
+    en: "Basra began as a Muslim garrison town about 636 CE and grew into a centre of grammar, theology and trade."
+    ur: "بصرہ تقریباً 636ء میں مسلمانوں کا چھاؤنی شہر بنا اور بعد میں نحو، کلام اور تجارت کا مرکز بنا۔"
+    sources: [source/muntazam-ibn-al-jawzi, source/muruj-al-dhahab]
   levels: [sprouts, explorers, scholars]
   flagged_for_kids: true
   provenance: { generated_by: "Devin", model: "gemini-2.5-pro", run: "education-E2-batch4", note: "Leveled texts drafted from the record's own summary and prose; draft, pending the founder's review and scholar review of the child levels." }
 status: { review: draft, completeness: 1, generated_by: "Claude Sonnet 5.5; coordinates from GeoNames; descriptive facts to be checked against reference works" }
+provenance:
+  layer: own-research
+  source: "education fact engine batch 2 — did_you_know fact drafted in three languages from the record's own cited sources"
+  generated_by: Devin

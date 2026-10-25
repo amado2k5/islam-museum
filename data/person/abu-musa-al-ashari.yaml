@@ -24,7 +24,16 @@ relations:
 external_ids: { wikidata: "Q335170" }
 sources: [source/ibn-hisham-saqqa, source/muruj-al-dhahab, source/sallabi-ali-vol1]
 education:
+  did_you_know:
+    ar: "قدم أبو موسى الأشعري على النبي بخيبر في السفينتين العائدتين من الحبشة؛ ثم ولّاه عمر البصرة والكوفة."
+    en: "Abu Musa reached the Prophet at Khaybar on the two ships returning from Abyssinia; Umar later appointed him over Basra and Kufa."
+    ur: "ابو موسیٰ اشعری حبشہ سے لوٹنے والے دو جہازوں میں خیبر میں نبی سے ملے؛ بعد میں عمر نے انہیں بصرہ اور کوفہ کا والی بنایا۔"
+    sources: [source/ibn-hisham-saqqa, source/sallabi-ali-vol1]
   levels: [sprouts, explorers, scholars]
   flagged_for_kids: true
   provenance: { generated_by: "Devin", model: "gemini-2.5-pro", run: "education-E2-batch4", note: "Leveled texts drafted from the record's own summary and prose; draft, pending the founder's review and scholar review of the child levels." }
 status: { review: draft, completeness: 1, generated_by: "kiro; mined from Ibn Hisham juz' 4 p. 4" }
+provenance:
+  layer: own-research
+  source: "education fact engine batch 2 — did_you_know fact drafted in three languages from the record's own cited sources"
+  generated_by: Devin

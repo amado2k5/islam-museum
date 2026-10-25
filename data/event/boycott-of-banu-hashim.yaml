@@ -27,7 +27,16 @@ relations:
   - { type: part_of, target: period/prophetic-era }
 sources: [source/mubarakpuri-raheeq, source/ibn-hisham-sira, source/zad-al-maad, source/sahih-al-bukhari]
 education:
+  did_you_know:
+    ar: "كتبت قريش صحيفة مقاطعة بني هاشم وعلّقتها داخل الكعبة؛ فحُبسوا في شعب أبي طالب ثلاث سنين."
+    en: "Quraysh wrote a boycott of the Banu Hashim and hung the document inside the Kaaba; it confined them to Abu Talib's ravine for three years."
+    ur: "قریش نے بنو ہاشم کی بائیکاٹ کی صحیفہ لکھی اور کعبہ میں لٹکا دی؛ وہ تین برس شعبِ ابیطالب میں محصور رہے۔"
+    sources: [source/ibn-hisham-sira, source/mubarakpuri-raheeq]
   levels: [sprouts, explorers, scholars]
   flagged_for_kids: true
   provenance: { generated_by: "Claude Code", model: "Claude Haiku 5.5 (claude-haiku-5-5)", run: "education-E2-batch1", note: "Leveled texts drafted from the record's own summary; draft, pending the founder's review and scholar review of the child levels." }
 status: { review: draft, completeness: 2, generated_by: "Devin; al-Raheeq al-Makhtum pp. 109-112" }
+provenance:
+  layer: own-research
+  source: "education fact engine batch 2 — did_you_know fact drafted in three languages from the record's own cited sources"
+  generated_by: Devin
