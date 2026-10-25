@@ -36,6 +36,7 @@ const sections: { id: string; title: string; body: string[] }[] = [
         <section aria-labelledby={`${s.id}-h`} class="p-sec">
           <h2 id={`${s.id}-h`}>{s.title}</h2>
           {s.body.map((t) => <p>{t}</p>)}
+          {s.id === "formats" && <p class="p-links"><a href={`/${lang}/books/`}>{A.formats_books_link}</a></p>}
         </section>
       ))}
 
