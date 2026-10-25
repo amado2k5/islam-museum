@@ -20,6 +20,27 @@ work_sources:
   - Muḥammad Nāṣir al-Dīn al-Albānī
   - Mashhūr Ḥasan Maḥmūd Salmān
 copies:
+- name: archive.org/sunan-abu-dawood-arabic (Arabic EPUB)
+  location: ~/islam-museum-harvest/raw/library/hadith/sunan-abi-dawood-arabic.epub (not in git)
+  carrier: 'archive.org item sunan-abu-dawood-arabic (Arabic, uploaded to archive.org; the EPUB metadata names no edition, editor or publisher)'
+  carrier_tier: unregistered (not in the authenticity register)
+  bytes: 81052169
+  fetched: '2026-10-24'
+  named_source: none
+  sha256: c4d4841a8b18ae9da99c5b5abf91322cc12b7a8727d3db0514adf55be769ab2a
+  status: accepted
+  decided_by: founder
+  decided_on: '2026-10-24'
+  reason: 'Accepted by the founder as authentic and approved for use. No named edition is recorded and no 30-row sample check has been run; both gaps are recorded here.'
+- name: hadithunlocked/abudawud.epub
+  location: ~/islam-museum-harvest/raw/hadithunlocked/hadith/abudawud.epub (not in git)
+  carrier: 'Hadith Unlocked (hadithunlocked.com); the EPUB metadata names publisher Hadith Unlocked and no edition, editor or place'
+  carrier_tier: unregistered (proposed T5, pointer only, in docs/delegation/web-sources-rules.md; founder to confirm)
+  bytes: 2575513
+  fetched: '2026-10-24'
+  named_source: none
+  sha256: 96204760483d21f5e692623a72806ac16ae2b84280ca70890a6f2e59931ed259
+  status: undecided
 - name: hadith-api-master/books/abu-daud.json
   location: ~/Downloads/hadith-api-master/books/abu-daud.json (not in git)
   carrier: 'GitHub repository gadingnst/hadith-api (README: data from tafsirq.com)'
@@ -70,3 +91,7 @@ history:
   event: work accepted by the founder; downloaded copy rejected; sample not yet run
 - date: '2026-10-26'
   event: 'harvest test against the named edition: no candidate matched; nothing downloaded'
+- date: '2026-10-24'
+  event: 'Hadith Unlocked EPUB recorded as an undecided copy (no checks run); its metadata names no edition; awaiting the founder''s decision'
+- date: '2026-10-24'
+  event: 'archive.org Arabic EPUB (sunan-abi-dawood-arabic.epub) accepted by the founder as a copy; no named edition and no 30-row sample check recorded'

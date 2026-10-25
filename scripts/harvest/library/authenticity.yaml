@@ -97,4 +97,280 @@ sources:
     checked_on: "2026-10-25"
     evidence: "Developer named in its privacy policy; lists Abu Dawud in two editions (5,274 and 5,184 hadith); no method page; sample row 1867 matched a page with number 2180"
 
+  - id: archnet.org
+    url: "https://archnet.org"
+    kind: website
+    allowed_uses: [pointer]
+    retrieved_on: "2026-10-24"
+    tier: T3
+    status: not-verified
+    scope: "Proposed: architecture records (photographs, plans, papers) of the Aga Khan Documentation Center at MIT; pointer only until checked against a named edition or the published record"
+    checked_on: "2026-10-24"
+    evidence: "Wikipedia article https://en.wikipedia.org/wiki/ArchNet (origin 1998 at MIT with the Aga Khan Trust for Culture; maintained since 2011; open access since 2013). Not yet checked against any record."
+
+  - id: muslimheritage.com
+    url: "https://muslimheritage.com"
+    kind: website
+    allowed_uses: [pointer]
+    retrieved_on: "2026-10-24"
+    tier: T3
+    status: not-verified
+    scope: "Proposed: academic portal on Islamic science and architecture founded by Salim Al-Hassani; pointer only until checked"
+    checked_on: "2026-10-24"
+    evidence: "Wikipedia article https://en.wikipedia.org/wiki/Salim_Al-Hassani (founder of the MuslimHeritage.com academic portal). No Wikipedia article on the site itself. Not yet checked against any record."
+
+  - id: shamela.ws
+    url: "https://shamela.ws"
+    kind: website
+    allowed_uses: [pointer]
+    retrieved_on: "2026-10-24"
+    tier: T4
+    status: not-verified
+    scope: "Proposed: digital library of classical Arabic texts; its per-book metadata can show whether a copy matches a print edition, so use only for the named-edition check, pointer only until checked"
+    checked_on: "2026-10-24"
+    evidence: "Wikipedia article https://en.wikipedia.org/wiki/Al-Maktaba_al-Shamela (first released 2005; more than a hundred books; per-book metadata). Texts are uploaded by users, so the carrier is not a named edition."
+
+  - id: sunnah.com
+    url: "https://sunnah.com"
+    kind: website
+    allowed_uses: [pointer, text, grades]
+    retrieved_on: "2026-10-24"
+    tier: T3
+    status: reference-edition-dependent
+    scope: "Arabic and English hadith texts with references and grades for the six canonical collections; verified by a 30-row sample against a named edition (Sunan Abi Dawud, Shamela book 1726), 29 of 30 rows matched, passing grade 75 percent (founder, 24 Oct 2026); verified sites are not re-tested"
+    checked_on: "2026-10-24"
+    evidence: "Wikipedia articles linking to it: https://en.wikipedia.org/wiki/Hadith and https://en.wikipedia.org/wiki/Sunan_Abi_Dawud. Its own numbering was matched once against the named edition as a pointer (sample row, 24 Oct 2026, not valid as a sample check)."
+    samples: {size: 30, rows_matched: 29, valid: true, edition: "Sunan Abi Dawud, ed. Muhyi al-Din Abd al-Hamid, al-Maktaba al-Asriya, Sidon-Beirut (Shamela book 1726)", pass_grade: 0.75, date: "2026-10-24", decided_by: founder}
+
+  - id: sunnielibrary.com
+    url: "https://www.sunnielibrary.com"
+    kind: website
+    allowed_uses: [pointer]
+    retrieved_on: "2026-10-24"
+    tier: T5
+    status: not-verified
+    scope: "Free Islamic eBook store run by volunteers (About page). Its book pages name no publisher, edition or editor that I found, and the site says it uploads only content it believes is free to use. Pointer only: a T5 carrier cannot validate an item."
+    checked_on: "2026-10-24"
+    evidence: "Site pages checked 24 Oct 2026: /library (listing by language and topic), /about-us (volunteer-run; no copyrighted uploads claimed; the disclaimer invites link sharing). No edition data seen on the listing page; book pages not sampled."
+
+  - id: islamweb.net
+    url: "https://islamweb.net/ar/library/"
+    kind: website
+    allowed_uses: [pointer]
+    retrieved_on: "2026-10-24"
+    tier: T3
+    status: not-verified
+    scope: "Islamweb library: books with publisher, part count and a description, classified by subject (tafsir, hadith, creed, fiqh, history). Run by Islamweb (Qatar-based). Pointer only until a named edition is checked against the printed book."
+    checked_on: "2026-10-24"
+    evidence: "Library page checked 24 Oct 2026: /ar/library/ and the Sunan Ibn Majah entry (publisher al-Maktaba al-'Ilmiyya, two parts, 4341 hadith)."
+
+  - id: quranenc.com
+    url: "https://quranenc.com"
+    kind: website
+    allowed_uses: [pointer]
+    retrieved_on: "2026-10-24"
+    tier: T3
+    status: not-verified
+    scope: "Quran translations and tafsir in many languages (Encyclopedia of the Noble Quran). Qur'an text comes only from Tanzil, so this site is a pointer for translations and tafsir."
+    checked_on: "2026-10-24"
+    evidence: "Home page checked 24 Oct 2026: the site states its translations are based on the methodology of Ahl al-Sunna wal-Jama'a and can be downloaded and republished under its terms."
+
+  - id: turath.io
+    url: "https://turath.io"
+    kind: website
+    allowed_uses: [pointer]
+    retrieved_on: "2026-10-24"
+    tier: T4
+    status: not-verified
+    scope: "Turath: a library of about 8,600 classical Arabic books, with author death years and categories. A library tool, not a grading authority; each text needs a named edition before it can be used."
+    checked_on: "2026-10-24"
+    evidence: "Home page checked 24 Oct 2026: 8,609 books listed with author names and death years; PDF downloads for some titles."
+
+  - id: quranislam.github.io
+    url: "https://quranislam.github.io"
+    kind: website
+    allowed_uses: [pointer]
+    retrieved_on: "2026-10-24"
+    tier: T5
+    status: not-verified
+    scope: "Islamic encyclopedia hosted on GitHub Pages, with no named institution or editor on the pages checked. T5: pointer only."
+    checked_on: "2026-10-24"
+    evidence: "Home page checked 24 Oct 2026: sections for Quran, hadith and fatawa; no publisher, editor or institution named."
+
+  - id: islamstory.com
+    url: "https://islamstory.com"
+    kind: website
+    allowed_uses: [pointer]
+    retrieved_on: "2026-10-24"
+    tier: T4
+    status: not-verified
+    scope: "Islamic history narrative site under the supervision of Dr. Ragheb al-Sarjani; covers events, the sira and biographies in a narrative style. Popular history: pointer only until a named edition or primary source is checked."
+    checked_on: "2026-10-24"
+    evidence: "Home page checked 24 Oct 2026 (Arabic section): history articles under the supervisor's name; no edition data."
+
+  - id: islamqa.info
+    url: "https://islamqa.info"
+    kind: website
+    allowed_uses: [pointer]
+    retrieved_on: "2026-10-24"
+    tier: T4
+    status: not-verified
+    scope: "Fatwa and question-and-answer site (Islam Q&A) by Shaykh Muhammad Salih al-Munajjid, with answers citing evidence. Fatwa, not a text source: pointer only."
+    checked_on: "2026-10-24"
+    evidence: "Arabic home page checked 24 Oct 2026: answers with dates and categories; attributed to the supervising scholar."
+
+  - id: tafsir.net
+    url: "https://tafsir.net"
+    kind: website
+    allowed_uses: [pointer]
+    retrieved_on: "2026-10-24"
+    tier: T3
+    status: not-verified
+    scope: "Tafsir Center for Quranic Studies: articles on Quranic sciences, and its interpretive tools. Pointer only; Qur'an text comes only from Tanzil."
+    checked_on: "2026-10-24"
+    evidence: "Home page checked 24 Oct 2026: articles with authors and dates; a centre named on the page."
+
+  - id: quran.com
+    url: "https://quran.com"
+    kind: website
+    allowed_uses: [pointer]
+    retrieved_on: "2026-10-24"
+    tier: T4
+    status: not-verified
+    scope: "Quran reading and study platform (Quran.org) offering tafsir selections and translations of meanings. Pointer only; Qur'an text comes only from Tanzil."
+    checked_on: "2026-10-24"
+    evidence: "Home page checked 24 Oct 2026: reading, tafsir and translation tabs; no edition data on the home page."
+
+  - id: mandumah.com
+    url: "https://www.mandumah.com"
+    kind: website
+    allowed_uses: [pointer]
+    retrieved_on: "2026-10-24"
+    tier: T3
+    status: not-verified
+    scope: "Dar al-Mandumah: commercial Arabic academic database of theses, peer-reviewed articles and conference papers from many universities, with full text for many entries. The IslamicInfo base is one of its databases. Pointer only: each item is the work of its own journal or university."
+    checked_on: "2026-10-24"
+    evidence: "Home page checked 24 Oct 2026: database list (EduSearch, AraBase, HumanIndex, IslamicInfo, EcoLink and others); figures given on the page (1.5M+ theses and papers)."
+
+  - id: iifa-aifi.org
+    url: "https://iifa-aifi.org/en/"
+    kind: website
+    allowed_uses: [pointer]
+    retrieved_on: "2026-10-24"
+    tier: T2
+    status: not-verified
+    scope: "International Islamic Fiqh Academy (OIC): collective rulings and research. An institutional authority; pointer only until a decision is checked against the published text."
+    checked_on: "2026-10-24"
+    evidence: "Home page checked 24 Oct 2026: weekly meetings and resolutions reported; secretariat in Jeddah."
+
+  - id: ircica.org
+    url: "https://www.ircica.org/"
+    kind: website
+    allowed_uses: [pointer]
+    retrieved_on: "2026-10-24"
+    tier: T2
+    status: not-verified
+    scope: "Research Centre for Islamic History, Art and Culture (IRCICA, Istanbul): institutional publications on history, art and manuscripts. Pointer only."
+    checked_on: "2026-10-24"
+    evidence: "Home page checked 24 Oct 2026: departments, activities and publications listed."
+
+  - id: themwl.org
+    url: "https://themwl.org/ar"
+    kind: website
+    allowed_uses: [pointer]
+    retrieved_on: "2026-10-24"
+    tier: T3
+    status: not-verified
+    scope: "Muslim World League: an international Islamic organisation; official statements and media. Pointer only."
+    checked_on: "2026-10-24"
+    evidence: "Arabic home page checked 24 Oct 2026: official statements, news and a media centre."
+
+  - id: kau.edu.sa
+    url: "https://www.kau.edu.sa/en"
+    kind: website
+    allowed_uses: [pointer]
+    retrieved_on: "2026-10-24"
+    tier: T2
+    status: not-verified
+    scope: "King Abdulaziz University (Saudi public university): the parent of its journals. Its journal pages were not found; registered for the university only."
+    checked_on: "2026-10-24"
+    evidence: "Home page checked 24 Oct 2026: government-run university; no journal address found from the home page."
+
+  - id: awqaf.gov.kw
+    url: "https://www.awqaf.gov.kw/ar"
+    kind: website
+    allowed_uses: [pointer]
+    retrieved_on: "2026-10-24"
+    tier: T2
+    status: not-verified
+    scope: "Kuwait Ministry of Awqaf and Islamic Affairs. Publishes Al-Wa'i al-Islami magazine (found in the journal and database indexes). Official government source; pointer only until an issue is checked against its printed copy."
+    checked_on: "2026-10-24"
+    evidence: "Arabic home page checked 24 Oct 2026: ministry name, latest news and the publications section ('إصدارات الوزارة')."
+
+  - id: uqu.edu.sa
+    url: "https://uqu.edu.sa/"
+    kind: website
+    allowed_uses: [pointer]
+    retrieved_on: "2026-10-24"
+    tier: T2
+    status: not-verified
+    scope: "Umm al-Qura University (Saudi public university). Its journals are not listed on the home page; the university site is registered, not a specific journal. Pointer only."
+    checked_on: "2026-10-24"
+    evidence: "Home page checked 24 Oct 2026: government-registered university site; research and innovation section."
+
+  - id: iu.edu.sa
+    url: "https://iu.edu.sa/"
+    kind: website
+    allowed_uses: [pointer]
+    retrieved_on: "2026-10-24"
+    tier: T2
+    status: not-verified
+    scope: "Islamic University of Madinah (Saudi public university). Its home page has a 'scientific journals' section, so its journals are the first ones to check. Pointer only."
+    checked_on: "2026-10-24"
+    evidence: "Home page checked 24 Oct 2026: government-registered university; 'المجلات العلمية' (scientific journals) in the main menu."
+
+  - id: journals.ku.edu.kw
+    url: "https://journals.ku.edu.kw/jsis/index.php/jsis"
+    kind: website
+    allowed_uses: [pointer]
+    retrieved_on: "2026-10-24"
+    tier: T2
+    status: not-verified
+    scope: "Journal of Sharia and Islamic Studies (Kuwait University), a university-run academic journal founded in 1983 under the university's scientific publishing council. Pointer only: each article is the work of its authors."
+    checked_on: "2026-10-24"
+    evidence: "Journal home page checked 24 Oct 2026: journal description, founding date and the university's publishing council."
+
+  - id: alfiqhia.com
+    url: "https://alfiqhia.com"
+    kind: website
+    allowed_uses: [pointer]
+    retrieved_on: "2026-10-24"
+    tier: T3
+    status: not-verified
+    scope: "Journal of Contemporary Jurisprudential Research: a quarterly peer-reviewed journal published by the Waqf Foundation for Fiqh and Quranic Studies, first issue 1409 AH. Pointer only."
+    checked_on: "2026-10-24"
+    evidence: "Journal site checked 24 Oct 2026: issue list (issues 123 to 125 shown), editor-in-chief named on the page."
+
+  - id: majlah.shatiby.edu.sa
+    url: "https://majlah.shatiby.edu.sa/"
+    kind: website
+    allowed_uses: [pointer]
+    retrieved_on: "2026-10-24"
+    tier: T3
+    status: not-verified
+    scope: "Journal of the Imam al-Shatibi Institute for Quranic Studies: peer-reviewed research on Quranic sciences, 21 years in publication, issue 42 current. Pointer only."
+    checked_on: "2026-10-24"
+    evidence: "Journal site checked 24 Oct 2026: current issue, archive, and English abstracts section."
+
+  - id: sjournals.sdl.edu.sa
+    url: "https://sjournals.sdl.edu.sa/"
+    kind: website
+    allowed_uses: [pointer]
+    retrieved_on: "2026-10-24"
+    tier: T3
+    status: not-verified
+    scope: "Saudi Digital Library journals platform. Its listing for the Islamic University of Madinah (journals) was reached. Aggregator of institutional journals; pointer only."
+    checked_on: "2026-10-24"
+    evidence: "Platform institution page checked 24 Oct 2026: 'Islamic University (journals)' entry with the journal list."
+
 blocklist: []   # domains found on phishing, malware or spam lists; checked by hand before each publication, with the date
