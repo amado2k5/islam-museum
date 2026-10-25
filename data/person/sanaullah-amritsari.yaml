@@ -1,0 +1,48 @@
+id: person/sanaullah-amritsari
+class: person
+label: { ar: "ثناء الله الأمرتسري", en: "Sanaullah Amritsari", ur: "ثناء اللہ امرتسری" }
+names:
+  - { value: "أبو الوفاء ثناء الله الأمرتسري", kind: full }
+  - { value: "Abul Wafa Sanaullah Amritsari", kind: full }
+  - { value: "Thanaullah Amritsari", kind: alternate }
+  - { value: "Sher-e-Punjab", kind: laqab }
+gender: male
+summary:
+  ar: "عالم ومناظر وكاتب وصحفي هندي ثم باكستاني (1868-1948) من أمرتسر في البنجاب، ومن أبرز قادة حركة أهل الحديث في الهند. درس في مظاهر علوم ودار العلوم ديوبند، وأسّس مطبعة أهل الحديث وصحيفته الأسبوعية «أهل الحديث» سنة 1903 فصدرت نحو 44 سنة، وتولى الأمانة العامة لجمعية أهل الحديث لعموم الهند (1906-1947)، واشتهر بمناظراته وكتبه في الرد على القاديانية والآريا سماج، ومنها «تفسير الثنائي» و«تاريخ مرزا». هاجر بعد تقسيم الهند سنة 1947 إلى باكستان وتوفي في سرغودها."
+  en: "Indian, later Pakistani, scholar, debater, writer and journalist (1868–1948) of Amritsar in Punjab, and a leading figure of the Ahl-e-Hadith movement in India. He studied at Mazahir Uloom and Darul Uloom Deoband, founded the Ahl-e-Hadith Press and its weekly journal Ahl-e-Hadith in 1903, which ran for about 44 years, served as general secretary of the All India Jamiat-i-Ahl-i-Hadith (1906–1947), and was known for his debates and books against the Ahmadiyya and the Arya Samaj, among them the Tafsir-e-Sanai and Tareekh-e-Mirza. After the Partition of India in 1947 he migrated to Pakistan and died at Sargodha."
+  ur: "ہندوستانی، بعد ازاں پاکستانی عالم، مناظر، مصنف اور صحافی (1868ء–1948ء) جن کا تعلق پنجاب کے امرتسر سے تھا اور جو ہندوستان میں تحریک اہل حدیث کے سرکردہ رہنما تھے۔ انہوں نے مظاہر علوم اور دارالعلوم دیوبند میں تعلیم حاصل کی، 1903ء میں اہل حدیث پریس اور ہفت روزہ «اہل حدیث» جاری کیا جو تقریباً 44 سال جاری رہا، آل انڈیا جمعیت اہل حدیث کے جنرل سیکرٹری رہے (1906ء–1947ء)، اور قادیانیت اور آریہ سماج کے رد میں اپنی مناظروں اور کتابوں، جن میں «تفسیر ثنائی» اور «تاریخ مرزا» شامل ہیں، کے لیے مشہور ہوئے۔ تقسیم ہند کے بعد پاکستان ہجرت کی اور سرگودھا میں وفات پائی۔"
+roles: [scholar, writer, teacher]
+wings: [people]
+born:
+  edtf: "1868-06-12"
+  hijri: "1285"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "Born at Amritsar on 12 June 1868: the English article's infobox; the article text gives the year and the Kashmiri origin of his family, settled at Amritsar. The Hijri year (1285) is derived by tabular conversion (12 June 1868 falls in Safar 1285). Amritsar has no place entity in the museum yet, so no born_in relation is written."
+  sources: [source/wikipedia-sanaullah-amritsari-en]
+died:
+  edtf: "1948-03-15"
+  hijri: "1367"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "Died at Sargodha on 15 March 1948, after migrating to Gujranwala, Pakistan, following the Partition of 1947: the English article, corroborated by the LUMS project page, which adds that he lost a son in the Partition violence at Amritsar and suffered a paralysis attack shortly before his death. The Hijri year (1367) is derived by tabular conversion (15 March 1948 falls in Jumada al-Ula 1367). Sargodha has no place entity in the museum yet, so no died_in relation is written."
+  sources: [source/wikipedia-sanaullah-amritsari-en, source/lums-ahl-e-hadith-project]
+relations:
+  - { type: student_of, target: person/mahmud-hasan-deobandi, sources: [source/wikipedia-sanaullah-amritsari-en] }
+  - { type: member_of, target: group/ahl-i-hadith-india, sources: [source/wikipedia-sanaullah-amritsari-en, source/lums-ahl-e-hadith-project] }
+faith:
+  - value: sunni
+    basis: documented
+    note: "His school is attested directly, not merely inferred from the movement he debated for, by two independent sources. (1) The English article's infobox gives his denomination as Sunni Islam, his jurisprudence as Salafi and his movement as Ahl-i Hadith. (2) The LUMS Ahl-e-Hadith archive project, an independent university source citing Anjum (2016), states his affiliation with the Ahl-i-Hadis denomination. The faith enum holds no Ahl-e-Hadith value, so the value is recorded as sunni and the Ahl-e-Hadith (Salafi, Athari) specification is stated here and in the prose only, exactly as the lane rule requires; his general-secretaryship of the All India Jamiat-i-Ahl-i-Hadith (1906–1947) and his editorship of its weekly are the career facts behind the attestation, not the attestation itself."
+    sources: [source/wikipedia-sanaullah-amritsari-en, source/lums-ahl-e-hadith-project]
+sources: [source/wikipedia-sanaullah-amritsari-en, source/lums-ahl-e-hadith-project]
+provenance:
+  layer: own-research
+  source: "English Wikipedia 'Sanaullah Amritsari', read in full on 25 October 2026; LUMS Ahl-e-Hadith digital archive project page on Sanaullah Amritsari (citing Suhail Anjum, Urdu Sahafat aur Ulema, Delhi 2016), read on 25 October 2026. No Wikidata identifier was verified in this run, so none is recorded."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: century-additions-19
+status: { review: published, completeness: 3, generated_by: "Muse (Muse Spark 1.3)" }

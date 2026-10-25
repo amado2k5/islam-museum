@@ -1,0 +1,49 @@
+id: person/sayyid-fadl-ibn-alawi
+class: person
+label: { ar: "السيد فضل بن علوي", en: "Sayyid Fadl ibn Alawi", ur: "سید فضل بن علوی" }
+names:
+  - { value: "فضل بن علوي بن محمد بن سهل", kind: full }
+  - { value: "Fadl ibn Alawi ibn Muhammad ibn Sahl", kind: full }
+  - { value: "Fazal Pookoya Thangal", kind: alternate }
+  - { value: "Sayyid Fazl", kind: alternate }
+  - { value: "Fadl Pasha", kind: laqab }
+gender: male
+summary:
+  ar: "عالم وزعيم ديني وسياسي (1824-1900) من السادة الحضارم الباعلوي، وُلد في مامبورام بمالابار في جنوب الهند لأب صوفي مهاجر من حضرموت، وخلف والده سنة 1844 في قيادة الطريقة العلوية ومسلمي مالابار. اتهمته السلطات البريطانية بتحريض ثورات المابيلا ففرّ سنة 1853 إلى مكة بعد أمر باعتقاله، ولم يُسمح له بالعودة قط. جاب بعدها الحجاز ومصر، وصار واليا على ظفار في جنوب الجزيرة العربية (1876-1879)، ثم انتقل إلى إسطنبول فصار من وجهاء بلاط السلطان عبد الحميد الثاني ولُقّب بفضل باشا، وكتب في السياسة الشرعية والتصوف، ومن أشهر كتبه «عدة الأمراء والحكام»، وتوفي في إسطنبول."
+  en: "Scholar, religious and political leader (1824–1900) of the Hadrami Ba Alawi sayyids, born at Mampuram in Malabar, south India, to a Sufi father who had migrated from Hadramawt; in 1844 he succeeded his father as leader of the Alawiyya order and of the Muslims of Malabar. The British accused him of instigating the Mappila revolts, and in 1853, faced with an order for his arrest, he escaped to Mecca and was never allowed to return. He afterwards travelled in the Hijaz and Egypt, became governor of Dhofar in southern Arabia (1876–1879), then settled in Istanbul as a dignitary at the court of Sultan Abdulhamid II with the title Fadl Pasha, wrote on politics, law and spirituality — his best-known work is the Uddat al-Umara wa-l-Hukkam — and died in Istanbul."
+  ur: "حضرمی باعلوی سادات کے عالم اور دینی و سیاسی رہنما (1824ء–1900ء) جو جنوبی ہندوستان کے مالابار کے مامپورم میں ایک صوفی مہاجر والد کے گھر پیدا ہوئے اور 1844ء میں اپنے والد کے جانشین کے طور پر سلسلہ علویہ اور مالابار کے مسلمانوں کے رہنما بنے۔ برطانوی حکومت نے ان پر ماپلا بغاوتوں کی تحریک کا الزام لگایا، تو 1853ء میں گرفتاری کے حکم کے بعد وہ مکہ فرار ہو گئے اور پھر کبھی واپس نہ آ سکے۔ بعد ازاں وہ حجاز اور مصر میں رہے، جنوبی عرب کے ظفار کے والی بنے (1876ء–1879ء)، پھر استنبول جا کر سلطان عبدالحمید ثانی کے دربار کے معززین میں شامل ہوئے اور فضل پاشا کا لقب پایا، سیاست و تصوف پر کتابیں لکھیں جن میں «عدۃ الامراء والحکام» مشہور ہے، اور استنبول ہی میں وفات پائی۔"
+roles: [scholar, writer, activist]
+wings: [people]
+born:
+  edtf: "1824"
+  hijri: "1239"
+  calendar: gregorian
+  precision: year
+  status: historical
+  derived: true
+  note: "Born at Mampuram (Mambram) in Malabar in 1824: Abu-Manneh gives the year expressly, Jacob's monograph title dates agree, and Randathani pairs 1240/1824. The English Wikipedia article gives only circa 1820, and no source gives a day or month. The Hijri year (1239) follows the convention of the year in which the Gregorian year began (1 January 1824 falls in Jumada al-Ula 1239); Randathani's pairing gives 1240, the difference being the usual year-boundary effect. Mampuram has no place entity in the museum yet, so no born_in relation is written."
+  sources: [source/abu-manneh-sayyid-fadl-pasha, source/jacob-for-god-or-empire-2019, source/randathani-hadrami-sayyids, source/wikipedia-fazal-pookoya-thangal-en]
+died:
+  edtf: "1900-10"
+  hijri: "1318"
+  calendar: gregorian
+  precision: month
+  status: historical
+  derived: true
+  note: "Died at Istanbul in October 1900: Abu-Manneh gives Istanbul, October 1900, and expressly rejects the stray death years 1844 and 1866 in some reference works; Jacob's monograph likewise gives d. 1900, and a funeral at the Hagia Sophia mosque on 26 October 1900 is reported in the secondary literature. The English Wikipedia article and Randathani give 1901, from the Hijri year 1318, which runs from May 1900 to May 1901; October 1900 falls within 1318 (Jumada al-Akhira), so the Hijri year is not in dispute, only its Gregorian rendering. The Hijri year (1318) is derived by tabular conversion and agrees with the sources' own pairing."
+  sources: [source/abu-manneh-sayyid-fadl-pasha, source/jacob-for-god-or-empire-2019, source/wikipedia-fazal-pookoya-thangal-en, source/randathani-hadrami-sayyids]
+relations:
+  - { type: lived_in, target: place/mecca, sources: [source/abu-manneh-sayyid-fadl-pasha] }
+  - { type: died_in, target: place/istanbul, sources: [source/abu-manneh-sayyid-fadl-pasha, source/jacob-for-god-or-empire-2019, source/wikipedia-fazal-pookoya-thangal-en] }
+faith:
+  - value: sufi
+    basis: documented
+    note: "His place in the Alawiyya Sufi order is attested of him personally, not only of his family, by two independent academic sources. (1) Abu-Manneh: his father had succeeded as leader of the Alawiyya in Malabar, Fadl was trained in Alawiyya principles, and on his father's death in 1844 Fadl himself succeeded to that leadership and to the leadership of Malabar's Muslim community. (2) Jacob's monograph: Fadl was a renowned Sufi scholar, formed in the Ba Alawi Sufi pathway that his family's tradition carried across the Indian Ocean. No second segment is recorded: the Ba Alawi are a Sunni, Shafi'i tradition in general, but no two independent sources fetched attest a Sunni or Shafi'i affiliation for Fadl personally — his own books on the Shafi'i and Hanafi schools are works about those schools, not attestations of his adherence — so under the two-source rule and the doubt rule no sunni value is added, and the Shafi'i connection is stated here only."
+    sources: [source/abu-manneh-sayyid-fadl-pasha, source/jacob-for-god-or-empire-2019]
+sources: [source/wikipedia-fazal-pookoya-thangal-en, source/jacob-for-god-or-empire-2019, source/abu-manneh-sayyid-fadl-pasha, source/randathani-hadrami-sayyids]
+provenance:
+  layer: own-research
+  source: "Wilson Chacko Jacob, For God or Empire: Sayyid Fadl and the Indian Ocean World (Stanford University Press, 2019), with its review in the Journal of Indian Ocean World Studies; Butrus Abu-Manneh, 'Abdulhamid II and Sayyid Fadl Pasha of Hadramawt (1876–1900)'; Hussain Randathani, 'Hadrami Sayyids against Colonialism: the Malabar Page'; English Wikipedia 'Fazal Pookoya Thangal'. All read on 25 October 2026. No Wikidata identifier was verified in this run, so none is recorded."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: century-additions-19
+status: { review: published, completeness: 3, generated_by: "Muse (Muse Spark 1.3)" }
