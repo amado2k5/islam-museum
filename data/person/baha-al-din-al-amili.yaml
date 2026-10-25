@@ -1,27 +1,22 @@
 id: person/baha-al-din-al-amili
 class: person
 label:
-  ar: "بهاء الدين العاملي"
-  en: "Baha al-Din al-Amili"
-roles: [scholar, writer]
+  ar: "بهاء الدين العاملي (البهائي)"
+  en: "Baha' al-Din al-'Amili (al-Bahai, 953–1030/1547–1621)"
 gender: male
+roles: [scholar, poet]
+born: { edtf: "1547", calendar: gregorian, precision: year, hijri: "0953", sources: [source/encyclopaedia-of-islam-2] }
+died: { edtf: "1621", calendar: gregorian, precision: year, hijri: "1030", sources: [source/encyclopaedia-of-islam-2] }
 summary:
-  ar: "بطاقة أولية لبهاء الدين محمد بن حسين العاملي، الشيخ بهائي، عالم الإمامية وفيلسوفها ومهندسها وشاعرها وشيخ إسلام أصفهان الصفوية، توفي سنة ١٦٢١م؛ تذكره معاجم الأعلام ولم تُراجع ترجمته على الصفحة بعد."
-  en: "Draft card for Baha al-Din Muhammad ibn Husayn al-Amili, 'Shaykh Baha'i' — the Imami scholar, philosopher, architect and poet who was shaykh al-islam of Safavid Isfahan, d. 1621; the biographical entry is not yet checked on the page."
+  ar: "بهاء الدين العاملي، محمد بن الحسين، المعروف بالبهائي (953–1030هـ/1547–1621م)، من جبل عامل بسوريا، انتقل إلى فارس، ونال مكانة مرموقة عند الشاه عباس، واشتهر بكتاب «الكشكول»، وله شرح فارسي للفقه الشيعي بعنوان «الجامع العباسي»، ومثنويتان فارسيتان {cite:encyclopaedia-of-islam-2 vol. 1 p. 458}."
+  en: "Baha' al-Din al-'Amili, Muhammad b. Husayn, known as al-Bahai (953-1030 AH, 1547-1621 CE). From Jabal 'Amila in Syria, he moved to Persia and obtained an honoured place at the court of Shah 'Abbas. His best-known work is the anthology al-Kashkul, and he also wrote a Persian exposition of Shi'i fiqh, the Jami'-i 'Abbasi {cite:encyclopaedia-of-islam-2 vol. 1 p. 458}."
 wings: [people]
-regions: [persia-central-asia]
+themes: [scripture-and-its-sciences, literature]
+regions: [levant-iraq, persia-central-asia]
 periods: [period/gunpowder-empires]
-faith:
-- { value: shia-twelver, basis: tradition, note: "Imami scholar and Safavid shaykh al-islam per the biographical tradition" }
-sources: [source/al-aalam]
-external_ids:
-  wikidata: Q2658411
+sources: [source/encyclopaedia-of-islam-2]
 provenance:
   layer: own-research
-  source: "Wikidata candidate; book source: al-Zirikli, al-A'lam — entry not yet read on the page"
-  generated_by: "Devin (SWE-2 High)"
-  model: "SWE-2 High"
-  run: wikidata-import-0013
-status:
-  review: draft
-  completeness: 1
+  source: "Encyclopaedia of Islam, 2nd ed. (Brill), vol. 1, PDF p. 458, entry 'AL-'AMILI, MUHAMMAD B. HUSAYN BAHA' AL-DIN' (unsigned) (EI2 entry, batch ei2-b010 part 3ef; the AL-HURR AL-'AMILI cross-reference in the same row is already covered by person/al-hurr-al-amili)"
+  generated_by: "Claude Code (claude-haiku-5-5)"
+status: { review: published, completeness: 2 }
