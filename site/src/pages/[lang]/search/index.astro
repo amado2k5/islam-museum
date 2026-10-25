@@ -1,6 +1,7 @@
 ---
 import BaseLayout from "../../../layouts/BaseLayout.astro";
 import { ui, LANGS, type Lang } from "../../../lib/i18n";
+import { homeworkViews } from "../../../lib/homework";
 
 export function getStaticPaths() { return LANGS.map((lang) => ({ params: { lang }, props: { lang } })); }
 const { lang } = Astro.props as { lang: Lang };
@@ -16,6 +17,11 @@ const pagefindBase = (import.meta.env.PUBLIC_PAGEFIND_BASE ?? "").replace(/\/$/,
     <div class="search-wrap" data-empty="1"><div id="search" dir={T.dir}></div>
     <p class="search-hint ui muted">{T.search.hint} {T.search.examples.map((q: string, i: number) => <><a href={`/${lang}/search/?q=${encodeURIComponent(q)}`}>{q}</a>{i < T.search.examples.length - 1 ? " · " : ""}</>)}</p></div>
     <p id="search-fallback" class="panel ui" hidden>{T.search.needs_build}</p>
+    {/* homework topics strip (E3 step 7): appears when a query returned nothing, nudging pupils to a topic that exists */}
+    <section id="hw-strip" class="ui" hidden aria-label={T.edu.hw_title}>
+      <p class="muted">{T.edu.hw_lede}</p>
+      <p class="hw-chips">{homeworkViews(lang).map((v) => <a class="chip" href={v.href}>{v.title}</a>)}</p>
+    </section>
     <noscript><p class="panel ui">{T.search.noscript}</p></noscript>
     <link rel="stylesheet" href={`${pagefindBase}/pagefind-${lang}/pagefind-ui.css`} />
     <script is:inline define:vars={{ placeholder: T.search.placeholder, zeroResults: T.search.zero_results, lang, pagefindBase }}>
@@ -35,6 +41,15 @@ const pagefindBase = (import.meta.env.PUBLIC_PAGEFIND_BASE ?? "").replace(/\/$/,
             } });
           var wrap = document.querySelector(".search-wrap");
           document.addEventListener("input", function (e) { if (e.target && e.target.matches("#search input") && wrap) wrap.dataset.empty = e.target.value ? "0" : "1"; });
+          var hwStrip = document.getElementById("hw-strip");
+          var hwCheck = function () {
+            if (!hwStrip) return;
+            var q = document.querySelector("#search input");
+            var noResults = !!document.querySelector("#search .pagefind-ui__message") && !document.querySelector("#search .pagefind-ui__result");
+            hwStrip.hidden = !(q && q.value && noResults);
+          };
+          new MutationObserver(hwCheck).observe(document.getElementById("search"), { childList: true, subtree: true });
+          document.addEventListener("input", hwCheck);
           var p = new URLSearchParams(location.search).get("q");
           if (p) { var i = document.querySelector("#search input"); if (i) { i.value = p; i.dispatchEvent(new Event("input", { bubbles: true })); } }
         };

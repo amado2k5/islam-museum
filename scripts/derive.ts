@@ -42,6 +42,16 @@ export function buildSynonyms(c: Compiled, lang: "ar" | "en" = "ar") {
       }
     }
   }
+  // Homework topics (plan §5 E3 step 7): school phrasings ("… واجب", "… homework", "… for kids") resolve
+  // to their target's canonical label, so a pupil's homework query lands on the right record or pathway.
+  const topicNodes = new Map(c.nodes.map((n) => [n.id, n]));
+  const topics = readYaml<{ topics: { id: string; target: string; phrasings?: Record<string, string[]> }[] }>(p("edu", "homework-topics.yaml"));
+  for (const t of topics.topics ?? []) {
+    const n = topicNodes.get(t.target);
+    const canonical = n && (n.label[lang] ?? n.label.en ?? n.label.ar);
+    if (!canonical) continue;
+    for (const ph of t.phrasings?.[lang] ?? []) add(ph, canonical);
+  }
   // Per-word spellings: each Arabic word that appears in a label is keyed by its normalised form, so "مكه" finds "مكة" and "الاسلام" finds "الإسلام".
   const words = new Map<string, Map<string, number>>();
   for (const n of c.nodes.filter((x) => !x.stub && !(x.class === "passage" && x.data.unit === "ayah"))) {
