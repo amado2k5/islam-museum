@@ -18,3 +18,9 @@ translators: []
 
 ## ما لم يُعرض هنا
 لم يُعرض في هذه الصفحات رأي فقهي مخالف؛ ولا رأي أكاديمي (needs_source).
+
+## حسن المعاشرة في حقوق الزوجة
+يعدّ الشيخ حسن المعاشرة الحق العام الأول للزوجة على زوجها، ومن لوازمه ألا يغفل الزوج عن مشاعرها. {cite:assabile-omar-abdelkafy al-hoquq/ep02 00:17:00}
+ويرى أن الزوجة غير مطالبة بخدمة أم زوجها، وأن عليها أن تحسن إليها. {cite:assabile-omar-abdelkafy al-hoquq/ep02 00:17:30} {cite:assabile-omar-abdelkafy al-hoquq/ep02 00:18:00}
+ويحذّر من أن يهين الزوج زوجته أمام أهلها. {cite:assabile-omar-abdelkafy al-hoquq/ep02 00:22:30}
+ويذكر أن عائشة كسرت إناء من الطعام بدافع الغيرة، فلامها النبي لوما رفيقا. {cite:assabile-omar-abdelkafy al-hoquq/ep02 00:23:00}

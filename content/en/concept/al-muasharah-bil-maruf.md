@@ -18,3 +18,9 @@ He recounts that a man came to Umar ibn al-Khattab complaining that he disliked 
 
 ## Not checked here
 No contrary juristic view is set out in these pages, and no academic reading (needs_source).
+
+## Good companionship in the wife's rights
+The Sheikh counts good companionship as the first general right of the wife over her husband, and says that among its requirements the husband must not overlook her feelings. {cite:assabile-omar-abdelkafy al-hoquq/ep02 00:17:00}
+He holds that a wife is not obliged to serve her husband's mother, and that she should treat her well. {cite:assabile-omar-abdelkafy al-hoquq/ep02 00:17:30} {cite:assabile-omar-abdelkafy al-hoquq/ep02 00:18:00}
+He warns against a husband belittling his wife in front of her family. {cite:assabile-omar-abdelkafy al-hoquq/ep02 00:22:30}
+He recounts that when Aisha, out of jealousy, broke a dish of food, the Prophet rebuked her gently. {cite:assabile-omar-abdelkafy al-hoquq/ep02 00:23:00}

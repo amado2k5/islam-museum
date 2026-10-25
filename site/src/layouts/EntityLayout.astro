@@ -12,6 +12,7 @@ import LevelSwitcher from "../components/LevelSwitcher.astro";
 import { byId, href, labelOf, summaryOf, summaryRaw, related, updatedOn, REPO, SITE, SEGMENT } from "../lib/graph";
 import { ui, fmt, LANGS, WINGS, wingHref, type Lang } from "../lib/i18n";
 import { renderProse, newHonState } from "../lib/markdown";
+import { recordingRef } from "../lib/recordings";
 import { formatDate } from "../lib/dates";
 import { connectionsOf, externalUrl, jsonLd, levelOf, placesOf, regionLabel, sectionRole, traditionLabel } from "../lib/entity";
 import type { Node } from "../../../scripts/build-graph";
@@ -170,6 +171,7 @@ const showGraph = n.degree > 0 && !(n.class === "passage" && d.unit === "ayah" &
               <dd style="margin:0"><span class="chip">{T.status[reviewStatus]}</span> {d.status?.completeness !== undefined && <span class="status-note">{T.entity.completeness} {d.status.completeness}/5 · <a href={`${REPO}/issues/new?template=suggest-entity.yml&title=${encodeURIComponent(`Complete: ${n.id}`)}`}>{T.entity.complete_help}</a></span>}</dd>
             </dl>
             {d.sensitivity === "figurative-prophet" && <p class="muted" style="font-size:.85rem;margin:10px 0 0">{T.entity.figurative}</p>}
+            {d.sensitivity === "contested" && <p role="note" style="font-size:.9rem;margin:10px 0 0;padding-inline-start:10px;border-inline-start:4px solid #b45309"><strong>{T.entity.contested_label}:</strong> {T.entity.contested_notice}</p>}
           </section>
 
           {(n.span || places.some((p) => p.coordinates)) && (
@@ -278,7 +280,18 @@ const showGraph = n.degree > 0 && !(n.class === "passage" && d.unit === "ayah" &
               <ol style="padding-inline-start:1.4rem;font-size:.92rem">
                 {citeList.map((c, i) => {
                   const s = byId.get(c.source);
-                  return <li id={`note-${i + 1}`}>{s ? bibliography(s) : c.source}{c.locator ? `, ${c.locator}` : ""}</li>;
+                  const rec = recordingRef(c.source, c.locator);
+                  return (
+                    <li id={`note-${i + 1}`}>
+                      {s ? bibliography(s) : c.source}
+                      {rec
+                        ? <>{`, ${fmt(T.entity.recording_line, { series: rec.seriesTitle, ep: rec.ep })}`}{rec.time && `, ${fmt(T.entity.recording_at, { time: rec.time })}`}</>
+                        : (c.locator ? `, ${c.locator}` : "")}
+                      {rec && (rec.media
+                        ? <> · <a href={rec.media} rel="noopener">{T.entity.listen_at_archive}</a></>
+                        : <> · <a href={rec.page} rel="noopener">{T.entity.open_at_archive}</a></>)}
+                    </li>
+                  );
                 })}
               </ol>
             )}

@@ -12,3 +12,8 @@ The schools differ on when a child is named: the Malikis say on the seventh day 
 
 ## Where it is discussed
 Its rules appear in the sections on slaughter and the aqiqa, and on marriage; the use of the word for fixing a consideration is treated under hire and dower. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.5098} {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.5112}
+
+## Good names in Sheikh Omar Abdelkafy's lesson
+The Sheikh says the Prophet changed the names of many Companions whose names had bad meanings, and that a father should choose a good name for his son. {cite:assabile-omar-abdelkafy al-hoquq/ep05 00:04:00} {cite:assabile-omar-abdelkafy al-hoquq/ep05 00:04:30}
+He recounts the story of a man called Hazn who refused to change the name his father had given him, and says that the grief never left his house afterwards (needs_source: the name and details are not clear in the transcript). {cite:assabile-omar-abdelkafy al-hoquq/ep05 00:05:00} {cite:assabile-omar-abdelkafy al-hoquq/ep05 00:05:30}
+He says a person will be called on the Day of Resurrection by his name and his father's name, so the choice should be made well. {cite:assabile-omar-abdelkafy al-hoquq/ep05 00:06:00}

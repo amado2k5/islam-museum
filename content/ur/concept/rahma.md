@@ -24,3 +24,7 @@ translators: ["Claude Haiku 5.5 (claude-haiku-5-5), draft translation"]
 
 ## شیخ کا خلاصہ
 وہ کہتے ہیں کہ اللہ اس پر رحم نہیں کرتا جو اپنے بندوں پر رحم نہیں کرتا۔ {cite:assabile-omar-abdelkafy aadau-al-islam/ep03 00:21:00} اور وہ کہتے ہیں کہ جس دل میں رحمت ہو وہ نفاق کا راستہ نہیں جانتا۔ {cite:assabile-omar-abdelkafy aadau-al-islam/ep03 00:50:00}
+
+## میاں بیوی اور تربیت میں رحمت
+میاں بیوی کے درمیان شیخ محبت اور رحمت میں فرق کرتے ہیں، اور محبت کو منگنی کے دنوں میں رکھتے ہیں جب ہر ایک دوسرے کے لیے بناؤ سنگھار کرتا ہے۔ {cite:assabile-omar-abdelkafy al-hoquq/ep02 00:05:30} {cite:assabile-omar-abdelkafy al-hoquq/ep02 00:06:00}
+وہ بیان کرتے ہیں کہ ایک شخص نے نبی سے کہا کہ اس کے دس بچے ہیں (needs_source: عدد تسجیل میں ایک بار آتا ہے) اور اس نے ان میں سے کسی کو کبھی نہیں چوما، تو نبی نے اسے بتایا کہ جو رحم نہیں کرتا اس پر رحم نہیں کیا جاتا۔ {cite:assabile-omar-abdelkafy al-hoquq/ep05 00:09:30} {cite:assabile-omar-abdelkafy al-hoquq/ep05 00:10:00}

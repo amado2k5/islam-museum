@@ -15,3 +15,6 @@ Envy is linked to *najash*, which is raising the price of a commodity without in
 The hadith pairs them with belittling a fellow Muslim, and it counts that as enough evil for its possessor. {cite:ibn-rajab-jami-ulum-hikam p.710}
 
 Envy belongs to the chapter on [[concept/khuluq|character]] in the museum's classification.
+
+## Examples in Sheikh Omar Abdelkafy's lesson
+The Sheikh gives examples of the wish and the comparison that trouble the heart over blessings: a person says he has a righteous child while another has none, or a healthy child while another's child is ill (needs_source: the classification of these examples as envy is not clear in the transcript). {cite:assabile-omar-abdelkafy al-hoquq/ep03 00:29:30}
