@@ -23,9 +23,9 @@ born:
 relations:
   - { type: born_in, target: place/hamadan, sources: [source/wikipedia-shirin-ebadi-en, source/nobelprize-shirin-ebadi-facts] }
 faith:
-  - value: unknown
-    basis: unknown
-    note: "Two sources describe her as Shia without naming a branch: English Wikipedia quotes her own reply to state media — 'I am proud to say that my family and I are Shiites' — and the Arabic article's infobox gives her religion as مسلمة شيعية (a Shia Muslim). Neither source names Twelver or any other branch, and the person faith enum has no generic Shia value (only shia-twelver, shia-ismaili and shia-zaydi); a branch is not inferred from her Iranian origin, so the value stays unknown with the two attestations recorded here."
+  - value: shia-twelver
+    basis: documented
+    note: "Two sources describe her as Shia without naming a branch: English Wikipedia quotes her own reply to state media — 'I am proud to say that my family and I are Shiites' — and the Arabic article's infobox gives her religion as مسلمة شيعية (a Shia Muslim). The person faith enum has no generic Shia value, so per the founder's mapping rule (24 October 2026) a generic Shia attestation is recorded as shia-twelver where the context supports it: she is an Iranian Shia whose public religious life sits in Iran's Twelver tradition. The mapping is stated here plainly — the sources themselves name Shia, not the branch."
     sources: [source/wikipedia-shirin-ebadi-en, source/wikipedia-shirin-ebadi-ar]
 external_ids: { wikidata: "Q131152" }
 sources: [source/wikipedia-shirin-ebadi-en, source/wikipedia-shirin-ebadi-ar, source/wikidata-shirin-ebadi, source/nobelprize-shirin-ebadi-facts]
