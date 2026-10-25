@@ -17,6 +17,6 @@ wings: [people]
 themes: [literature]
 story_roles:
   - { role: poet, status: tradition, sources: [source/nihayat-al-arab-nuwayri-vol3-scan] }
-sources: [source/nihayat-al-arab-nuwayri-vol3-scan]
-status: { review: draft, completeness: 1, generated_by: "Claude Haiku 5.5 (Nihayat vol. 3 proverbs, scan p. 11, from OCR; not image-checked)" }
-provenance: { layer: pd, source: "archive.org nefa03 (Nihayat al-Arab vol. 3), scan p. 11", generated_by: "Claude Haiku 5.5", model: "claude-haiku-5-5", run: "lib-nihayat-vol3-proverbs-2" }
+sources: [source/nihayat-al-arab-nuwayri-vol3-scan, source/encyclopaedia-of-islam-2]
+status: { review: published, completeness: 2, generated_by: "Claude Haiku 5.5 (Nihayat vol. 3 proverbs, scan p. 11, from OCR; not image-checked); EI2 account added in ei2-b009 part 3dj" }
+provenance: { layer: pd, source: "archive.org nefa03 (Nihayat al-Arab vol. 3), scan p. 11", generated_by: "Claude Haiku 5.5", model: "claude-haiku-5-5", run: "lib-nihayat-vol3-proverbs-2; EI2 account added in ei2-b009 part 3dj (printed heading MUKHASHIN, ABU HAYDA; body on Aktham)" }
