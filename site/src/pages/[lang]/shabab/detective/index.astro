@@ -1,10 +1,10 @@
 ---
 // Source Detective index (E4 step 5): every unit grouped by band.
-import BaseLayout from "../../../layouts/BaseLayout.astro";
-import { ui, LANGS, type Lang } from "../../../lib/i18n";
-import { loadDetective } from "../../../lib/detective";
-import { viewBands } from "../../../lib/edu";
-import "../../../styles/edu.css";
+import BaseLayout from "../../../../layouts/BaseLayout.astro";
+import { ui, LANGS, type Lang } from "../../../../lib/i18n";
+import { loadDetective } from "../../../../lib/detective";
+import { viewBands } from "../../../../lib/edu";
+import "../../../../styles/edu.css";
 
 export function getStaticPaths() { return LANGS.map((lang) => ({ params: { lang }, props: { lang } })); }
 const { lang } = Astro.props as { lang: Lang };
