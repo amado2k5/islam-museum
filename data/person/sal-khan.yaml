@@ -1,0 +1,35 @@
+id: person/sal-khan
+class: person
+label: { ar: "سلمان خان", en: "Sal Khan", ur: "سلمان خان" }
+names:
+  - { value: "Salman Amin Khan", kind: full }
+  - { value: "سلمان أمين خان", kind: full }
+  - { value: "Sal Khan", kind: alternate }
+gender: male
+summary:
+  ar: "تربوي أمريكي من أصل بنغالي، وُلد سنة 1976 في ميتايري بلويزيانا. بدأ سنة 2004 بتدريس ابنة عمه الرياضيات عبر الإنترنت، فنما ذلك إلى أكاديمية خان، المنصة التعليمية المجانية غير الربحية التي أنشأها ونشر عبرها آلاف الدروس المصوّرة، وأسس أيضًا مدرسة خان لاب سنة 2014. عمل قبل ذلك محللًا لصناديق التحوط، واختارته مجلة تايم سنة 2012 ضمن أكثر مئة شخصية تأثيرًا في العالم."
+  en: "American educator of Bengali origin, born in 1976 in Metairie, Louisiana. He began in 2004 by tutoring his cousin in mathematics over the internet; that grew into Khan Academy, the free non-profit educational platform he founded, through which he has published thousands of video lessons, and he also founded Khan Lab School in 2014. He had worked as a hedge-fund analyst, and Time named him in its Time 100 in 2012."
+  ur: "بنگالی نژاد امریکی معلم، 1976 میں لوئیزیانا کے میٹیری میں پیدا ہوئے۔ انھوں نے 2004 میں اپنی کزن کو انٹرنیٹ پر ریاضی پڑھانا شروع کیا؛ یہی کام خان اکیڈمی بنا، مفت غیر منافع بخش تعلیمی پلیٹ فارم جو انھوں نے قائم کیا اور جس پر ہزاروں ویڈیو اسباق شائع کیے، اور 2014 میں خان لیب اسکول بھی قائم کیا۔ اس سے قبل وہ ہیج فنڈ تجزیہ کار تھے، اور ٹائم نے 2012 میں انھیں سو بااثر ترین شخصیات میں شامل کیا۔"
+roles: [educator, entrepreneur]
+wings: [people, living]
+born:
+  edtf: "1976-10-11"
+  hijri: "1396"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "Born on 11 October 1976 in Metairie, Louisiana, United States, following the English article. The Arabic article says he was born and raised in New Orleans; Metairie is a New Orleans suburb, and the variant is recorded here, not followed. No place entity for Metairie or New Orleans exists in data/place/, so no born_in relation is written. The Hijri year (1396) is derived by tabular conversion."
+  sources: [source/wikipedia-sal-khan-en, source/wikipedia-sal-khan-ar]
+faith:
+  - value: unknown
+    basis: unknown
+    note: "NOT RECORDED AS DOCUMENTED — no fetched source names a school for him. The English article records that he was born into a Bengali Muslim family: that is family background, which never counts under the lane rule. His own quoted statement on his beliefs — about making the best of our finite years, pride and self-righteousness causing conflict, and being humbled by the vastness and mystery of the Universe, ending 'then I'm the same religion as you' — is a generic statement naming no religion and no school. The Arabic article names no school. Under the two-source rule and the founder's doubt rule the faith is left unknown."
+    sources: [source/wikipedia-sal-khan-en, source/wikipedia-sal-khan-ar]
+sources: [source/wikipedia-sal-khan-en, source/wikipedia-sal-khan-ar]
+provenance:
+  layer: own-research
+  source: "English Wikipedia 'Sal Khan' and Arabic Wikipedia «سلمان خان (تربوي)», both read on 25 October 2026; Wikidata was not read directly in this run because Wikimedia returned 403 to this machine, so no Wikidata QID is recorded rather than guessed. No earlier record for him existed in data/person/ under sal-khan, salman-khan or any other spelling checked; this is a new build, not an enrichment. He is not the actor Salman Khan and not Salman al-Farisi (person/salman-al-farisi), both different people."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: century-additions-13
+status: { review: published, completeness: 3, generated_by: "Muse (Muse Spark 1.3)" }
