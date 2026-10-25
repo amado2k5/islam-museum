@@ -26,12 +26,12 @@ const today = dailyEntry();
     <p style="font-size:1.25rem;max-width:var(--measure)">{C.lede}</p>
 
     <section class="daily">
-      <h2>✦ {L(daily.title)}</h2>
+      <h2><span aria-hidden="true">✦</span> {L(daily.title)}</h2>
       <p class="prompt">{L(today.prompt)}</p>
       <p class="ui muted">{C.today}</p>
     </section>
 
-    <h2>🗺 {C.wordmaps}</h2>
+    <h2><span aria-hidden="true">🗺</span> {C.wordmaps}</h2>
     <p class="muted">{C.wordmaps_lede}</p>
     <ul class="grid-cards">
       {maps.map((m) => (
@@ -58,7 +58,7 @@ const today = dailyEntry();
     </ul>
     <p><a href={`/${lang}/cards/lists/`}>{C.all_decks} →</a></p>
 
-    <h2>❓ <a href={`/${lang}/cards/explainers/`}>{C.explainers}</a></h2>
+    <h2><span aria-hidden="true">❓</span> <a href={`/${lang}/cards/explainers/`}>{C.explainers}</a></h2>
     <p class="muted">{C.explainers_lede}</p>
     <ul class="grid-cards">
       {explainers.slice(0, 6).map((d) => (
@@ -72,7 +72,7 @@ const today = dailyEntry();
     </ul>
     <p><a href={`/${lang}/cards/explainers/`}>{C.all_explainers} →</a></p>
 
-    <h2>📖 <a href={`/${lang}/cards/stories/`}>{C.stories}</a></h2>
+    <h2><span aria-hidden="true">📖</span> <a href={`/${lang}/cards/stories/`}>{C.stories}</a></h2>
     <p class="muted">{C.stories_lede}</p>
     <ul class="grid-cards">
       {stories.slice(0, 6).map((s) => (
@@ -86,7 +86,7 @@ const today = dailyEntry();
     </ul>
     <p><a href={`/${lang}/cards/stories/`}>{C.all_stories} →</a></p>
 
-    <h2>🎯 <a href={`/${lang}/cards/challenge/`}>{C.challenge}</a></h2>
+    <h2><span aria-hidden="true">🎯</span> <a href={`/${lang}/cards/challenge/`}>{C.challenge}</a></h2>
     <p class="muted">{C.challenge_lede}</p>
   </div>
 </BaseLayout>

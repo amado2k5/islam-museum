@@ -35,7 +35,7 @@ const L = (x: { ar: string; en: string; ur?: string }) => (x[lang] ?? x.ar);
       </div>
     </section>
     <section class="bridge shelf" aria-label={T.kids.bridge_title}>
-      <h2>🚪 {T.kids.bridge_title}</h2>
+      <h2><span aria-hidden="true">🚪</span> {T.kids.bridge_title}</h2>
       <p>{T.kids.bridge_lede}</p>
       <p class="bridge-note">{T.kids.bridge_door_note}</p>
       <div class="entries">
