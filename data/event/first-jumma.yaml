@@ -21,7 +21,18 @@ relations:
   - { type: had_participant, target: group/banu-salim, note: "أدركته الجمعة فيهم وكانوا مائة رجل" }
 sources: [source/mubarakpuri-raheeq, source/sahih-al-bukhari, source/ibn-hisham-sira]
 education:
+  did_you_know:
+    ar: "أول جمعة في السيرة صلاها النبي في بني سالم بن عوف وهو في طريقه إلى المدينة، في مسجد بطن الوادي، وكانوا مائة رجل."
+    en: "The Sira's first Friday prayer was held in Banu Salim ibn Awf on the way to Medina — a hundred men in the mosque at the valley's floor."
+    ur: "سیرت کی پہلی جمعہ نماز بنی سالم بن عوف میں مدینہ کے راستے پر ادا ہوئی — وادی کے مسجد میں سو آدمی شریک تھے۔"
+    sources: [source/mubarakpuri-raheeq, source/sahih-al-bukhari, source/ibn-hisham-sira]
   levels: [sprouts, explorers, scholars]
   flagged_for_kids: true
   provenance: { generated_by: "Devin", model: "gemini-2.5-pro", run: "education-E2-batch3", note: "Leveled texts drafted from the record's own summary and prose; draft, pending the founder's review and scholar review of the child levels." }
 status: { review: draft, completeness: 2, generated_by: "Devin; al-Raheeq al-Makhtum pp. 172-173" }
+provenance:
+  layer: own-research
+  source: "education fact engine batch 3 — did_you_know fact drafted in three languages from the record's own cited sources"
+  generated_by: Devin
+  model: "unknown"
+  run: "education-E3-facts-batch3"
