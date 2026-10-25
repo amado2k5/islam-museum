@@ -39,7 +39,7 @@ Among his works named in the sources are his two university theses — the maste
 He married in 1987 and has four children; the museum does not publish family detail beyond what understanding his work requires. {cite:wikipedia-othman-al-khamees-en} {cite:wikipedia-othman-al-khamees-ar}
 
 ## Impact and audience
-His public presence was built on satellite debates from the late 1990s and then on question-and-answer programmes and recorded lessons, formats that carried his scholarly and preaching material to a wide audience inside Kuwait and beyond through satellite channels and social media. {cite:wikipedia-othman-al-khamees-ar} {cite:wikipedia-othman-al-khamees-en}
+His public presence was built on satellite debates from the late 1990s and then on question-and-answer programmes and recorded lessons, formats that carried his scholarly and preaching material to a wide audience inside Kuwait and beyond through satellite channels and social media. {cite:wikipedia-othman-al-khamees-ar} {cite:wikipedia-othman-al-khamees-en} His own YouTube channel, published under the handle @othmanalkamees, recorded 5.78 million subscribers in a channel harvest checked on 25 October 2026. {cite:youtube-othmanalkamees}
 
 ## References
 - The defined sources cited above, registered in `data/source/`.
