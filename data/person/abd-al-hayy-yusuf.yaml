@@ -1,0 +1,37 @@
+id: person/abd-al-hayy-yusuf
+class: person
+label: { ar: "عبد الحي يوسف", en: "Abd al-Hayy Yusuf", ur: "عبد الحی یوسف" }
+names:
+  - { value: "عبد الحي بن يوسف", kind: full, lang: ar }
+  - { value: "Abd al-Hayy ibn Yusuf", kind: full, lang: en }
+  - { value: "أبو عمر", kind: kunya, lang: ar }
+gender: male
+summary:
+  ar: "داعية وعالم سوداني وُلد في القاهرة سنة 1964، تخرج في كلية الشريعة بالجامعة الإسلامية بالمدينة المنورة وأتم دراساته العليا في جامعة الخرطوم، وترأس قسم الثقافة الإسلامية فيها، وتولى عمادة كلية الدراسات الإسلامية بجامعة أفريقيا العالمية، وهو إمام وخطيب مجمع خاتم المرسلين بالخرطوم، ومالك قناة طيبة الفضائية التي أوقف بثها سنة 2019."
+  en: "Sudanese preacher and scholar born in Cairo in 1964. He graduated from the College of Sharia at the Islamic University of Madinah and completed postgraduate studies at the University of Khartoum, headed its Islamic Culture Department, served as dean of the College of Islamic Studies at the International University of Africa, is imam and khatib of the Khatim al-Mursalin complex in Khartoum, and owned the Tayba satellite channel, whose broadcasting was suspended in 2019."
+  ur: "سوڈانی داعی اور عالم، 1964 میں قاہرہ میں پیدا ہوئے۔ جامعہ اسلامیہ مدینہ منورہ کے کلیہ الشریعہ سے فارغ التحصیل ہوئے اور جامعہ خرطوم میں اعلیٰ تعلیم مکمل کی، وہاں شعبہ ثقافتِ اسلامیہ کے سربراہ رہے، جامعہ افریقہ عالمیہ میں کلیہ الدراسات الاسلامیہ کے عمید رہے، خرطوم میں مجمع خاتم المرسلین کے امام و خطیب ہیں، اور فضائی چینل طیبہ کے مالک تھے جس کی نشریات 2019 میں بند کر دی گئیں۔"
+roles: [scholar, preacher]
+wings: [people, living]
+born:
+  edtf: "1964-11-25"
+  hijri: "1384"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: false
+  note: "Born in Cairo on 21 Rajab 1384 AH / 25 November 1964, as the Arabic Wikipedia article gives both dates; the Shamela author biography gives the year 1384 AH / 1964 CE. The place is carried in the born_in relation."
+  sources: [source/wikipedia-abd-al-hayy-yusuf-ar, source/shamela-abd-al-hayy-yusuf]
+relations:
+  - { type: born_in, target: place/cairo, sources: [source/wikipedia-abd-al-hayy-yusuf-ar] }
+faith:
+  - value: unknown
+    basis: unknown
+    note: "No source names a school as his. The Arabic Wikipedia article describes his fiqh method as reliance on the evidence 'with an inclination to the Maliki school in some questions', and the Shamela author biography states expressly that he is not a Maliki adherent (muqallid) but inclines to the school in questions he has not researched. An inclination described by one source family — and expressly not an adherence — is not a school attestation, so the value stays unknown under the two-source rule and the doubt rule. His public opposition to Twelver Shi'ism is a position, not a school."
+    sources: [source/wikipedia-abd-al-hayy-yusuf-ar, source/shamela-abd-al-hayy-yusuf]
+sources: [source/wikipedia-abd-al-hayy-yusuf-ar, source/shamela-abd-al-hayy-yusuf, source/youtube-abdulhayyousif]
+provenance:
+  layer: own-research
+  source: "§3 row 90 of the founder's harvest (channel name only: 'Abd Al-Hayy Yusuf'). Built from the Arabic Wikipedia article (revision consulted 25 October 2026: birth 21 Rajab 1384 AH / 25 November 1964 in Cairo, Madinah degree 1407 AH, Khartoum postgraduate studies 1998, deanship at the International University of Africa, the Tayba channel suspension of 30 December 2019 and the 2019 al-Boushi lawsuit, each fact as the article cites it), the Al-Maktaba al-Shamela author biography (his Khartoum posts and imamate) and his YouTube channel @AbdulhayYousif. No Wikidata item was found for him (checked 25 October 2026)."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: modern-figures-batch-28
+status: { review: published, completeness: 3, generated_by: "Muse (Muse Spark 1.3)" }
