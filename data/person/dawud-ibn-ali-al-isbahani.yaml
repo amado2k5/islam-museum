@@ -1,4 +1,10 @@
 id: person/dawud-ibn-ali-al-isbahani
+education:
+  did_you_know:
+    ar: "داود بن علي الأصبهاني أول من استعمل قول الظاهر وأخذ بالكتاب والسنة وألغى ما سواهما من الرأي والقياس؛ توفي ببغداد."
+    en: "Dawud ibn Ali al-Isbahani was the first to employ the literalist method — holding to the Book and the Sunna and dropping all opinion and analogy beside them; he died in Baghdad."
+    ur: "داؤد بن علی اصفہانی پہلے شخص تھے جنھوں نے ظاہری طریق اپنایا — کتاب و سنت پر قائم رہے اور اس کے سوا رائے اور قیاس کو ترک کیا؛ بغداد میں فوت ہوئے۔"
+    sources: [source/fihrist-ibn-al-nadim, source/encyclopaedia-of-islam-2]
 class: person
 label: { ar: "داود بن علي الأصبهاني", en: "Dawud ibn Ali al-Isbahani" }
 summary:
@@ -11,3 +17,9 @@ relations:
   - { type: student_of, target: person/abu-thawr-al-kalbi, role: "أخذ العلم عن أبي ثور (PDF ص49)", sources: [source/tabaqat-fuqaha-abbas-1981] }
 sources: [source/fihrist-ibn-al-nadim, source/muruj-al-dhahab, source/tabaqat-fuqaha-abbas-1981]
 status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }
+provenance:
+  layer: own-research
+  source: "source/fihrist-ibn-al-nadim"
+  generated_by: Devin
+  model: "unknown"
+  run: "education-E3-facts-batch15"

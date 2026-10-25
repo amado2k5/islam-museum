@@ -1,4 +1,10 @@
 id: person/dhu-nuwas
+education:
+  did_you_know:
+    ar: "ذو نواس آخر ملوك حمير قبل الاحتلال الحبشي الثاني؛ تهوّد وقاد حملته على نصارى نجران فخدّ لهم الأخدود — ما يذكره القرآن بقصة أصحاب الأخدود."
+    en: "Dhu Nuwas, Himyar's last king before the second Abyssinian occupation, embraced Judaism and drove his campaign on Najran's Christians, digging them the trench of fire — the story the Qur'an recalls as the People of the Trench."
+    ur: "ذونواس، دوسرے حبشی قبضے سے پہلے حمیئر کا آخری بادشاہ، یہودی ہوا اور نجران کے مسیحیوں پر مہم چلا کر ان کے لیے آگ کا خندق کھدوایا — وہی کہانی جو قرآن اصحابِ اخدود میں بیان کرتا ہے۔"
+    sources: [source/muruj-al-dhahab, source/mubarakpuri-raheeq]
 class: person
 label: { en: "Dhu Nuwas (Yusuf Asʾar Yathʾar)", ar: "ذو نواس" }
 gender: male
@@ -19,3 +25,9 @@ relations:
   - { type: participated_in, target: event/massacre-of-najran, role: "القائد الذي خدّ الأخدود وأحرقهم", sources: [source/mubarakpuri-raheeq, source/ibn-hisham-sira] }
 sources: [source/mubarakpuri-raheeq, source/tafhim-al-quran]
 status: { review: draft, completeness: 2, generated_by: "Devin; al-Raheeq al-Makhtum pp. 23–34 (batch 25b)" }
+provenance:
+  layer: own-research
+  source: "source/muruj-al-dhahab"
+  generated_by: Devin
+  model: "unknown"
+  run: "education-E3-facts-batch15"
