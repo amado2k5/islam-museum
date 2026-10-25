@@ -14,11 +14,11 @@ const pagefindBase = (import.meta.env.PUBLIC_PAGEFIND_BASE ?? "").replace(/\/$/,
 <BaseLayout lang={lang} title={T.search.title} path={`/${lang}/search/`} noindex>
   <div class="wrap" style="padding-block:10px 20px" data-pagefind-ignore>
     <h1>{T.search.title}</h1>
-    <div class="search-wrap" data-empty="1"><div id="search" dir={T.dir}></div>
+    <div class="search-wrap" data-empty="1" role="search"><div id="search" dir={T.dir}></div>
     <p class="search-hint ui muted">{T.search.hint} {T.search.examples.map((q: string, i: number) => <><a href={`/${lang}/search/?q=${encodeURIComponent(q)}`}>{q}</a>{i < T.search.examples.length - 1 ? " · " : ""}</>)}</p></div>
     <p id="search-fallback" class="panel ui" hidden>{T.search.needs_build}</p>
     {/* homework topics strip (E3 step 7): appears when a query returned nothing, nudging pupils to a topic that exists */}
-    <section id="hw-strip" class="ui" hidden aria-label={T.edu.hw_title}>
+    <section id="hw-strip" class="ui" hidden aria-label={T.edu.hw_title} aria-live="polite">
       <p class="muted">{T.edu.hw_lede}</p>
       <p class="hw-chips">{homeworkViews(lang).map((v) => <a class="chip" href={v.href}>{v.title}</a>)}</p>
     </section>

@@ -17,7 +17,7 @@ const btn = kids ? "kids-btn" : "pw-btn";
 ---
 {mode === "order" ? (
   <section class="tb tb-order" data-tellback-order aria-labelledby={`tb-${id}-h`} data-i18n-done={E.tb_order_done}>
-    <h2 id={`tb-${id}-h`}>🧩 {E.tb_order_title}</h2>
+    <h2 id={`tb-${id}-h`}><span aria-hidden="true">🧩</span> {E.tb_order_title}</h2>
     <p class="tb-lede">{E.tb_order_lede}</p>
     <p class="tb-nojs" data-nojs>{E.tb_order_nojs}</p>
     <ul class="tb-cards" data-pool aria-label={E.tb_order_title}>
@@ -30,7 +30,7 @@ const btn = kids ? "kids-btn" : "pw-btn";
   </section>
 ) : (
   <section class="tb" data-tellback={id} aria-labelledby={`tb-${id}-h`} data-i18n-saved={E.tb_saved} data-i18n-erased={E.tb_erased}>
-    <h2 id={`tb-${id}-h`}>🗣️ {E.tb_title}</h2>
+    <h2 id={`tb-${id}-h`}><span aria-hidden="true">🗣️</span> {E.tb_title}</h2>
     <p class="tb-lede">{E.tb_lede}</p>
     <ol class="tb-prompts">{list.map((p) => <li>{p}</li>)}</ol>
     <p class="tb-nojs no-print" data-nojs>{E.tb_nojs}</p>
