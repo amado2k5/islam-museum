@@ -1,0 +1,35 @@
+id: person/omar-suleiman
+class: person
+label: { ar: "عمر سليمان", en: "Omar Suleiman", ur: "عمر سلیمان" }
+names:
+  - { value: "عمر سليمان", kind: full }
+  - { value: "Omar Suleiman", kind: full }
+gender: male
+summary:
+  ar: "إمام وداعية أمريكي من أصل فلسطيني، وُلد في نيو أورلينز سنة 1986، ومؤسس معهد يقين للبحوث الإسلامية سنة 2016، عُرف بنشاطه في العدالة الاجتماعية والحوار بين الأديان وبكتبه ومحاضراته المصوّرة."
+  en: "American imam of Palestinian descent, born in New Orleans in 1986. He founded the Yaqeen Institute for Islamic Research in 2016 and is known for social-justice activism, interfaith work, books and widely viewed lectures."
+  ur: "فلسطینی نژاد امریکی امام، جو 1986 میں نیو اورلینز میں پیدا ہوئے۔ انہوں نے 2016 میں یقین انسٹی ٹیوٹ برائے اسلامی تحقیق قائم کیا، اور وہ سماجی انصاف کی سرگرمی، بین المذاہب مکالمے، کتابوں اور وسیع پیمانے پر دیکھے جانے والے خطبات کے لیے جانے جاتے ہیں۔"
+roles: [preacher, writer, activist]
+wings: [people, living]
+born:
+  edtf: "1986-06-03"
+  hijri: "1406"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "Gregorian date from English Wikipedia (3 June 1986); Wikidata records the year only. The Hijri year 1406 is converter-derived."
+  sources: [source/wikipedia-omar-suleiman-en]
+faith:
+  - value: sunni
+    basis: documented
+    note: "Two independent sources name the school: the English Wikipedia infobox gives the denomination as Sunni, and the Arabic Wikipedia infobox gives the sect as Ahl al-Sunna wa'l-Jama'a, with Hanbali jurisprudence and an Athari creed. The Hanbali jurisprudence rests on the Arabic article alone, so it is stated here in the note rather than as a compound value. Wikidata gives only Islam."
+    sources: [source/wikipedia-omar-suleiman-en, source/wikipedia-omar-suleiman-ar, source/wikidata-omar-suleiman]
+external_ids: { wikidata: "Q28873691" }
+sources: [source/wikipedia-omar-suleiman-en, source/wikipedia-omar-suleiman-ar, source/wikidata-omar-suleiman]
+provenance:
+  layer: own-research
+  source: "English Wikipedia 'Omar Suleiman (imam)' (revision of 1 Sep 2026) and Arabic Wikipedia 'عمر سليمان (شيخ)' (revision of 28 Nov 2025), Wikidata Q28873691, as cited in those articles and checked on 24 Oct 2026"
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: modern-figures-batch-6
+status: { review: published, completeness: 3, generated_by: "Muse (Muse Spark 1.3)" }

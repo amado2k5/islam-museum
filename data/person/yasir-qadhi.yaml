@@ -1,0 +1,38 @@
+id: person/yasir-qadhi
+class: person
+label: { ar: "ياسر قاضي", en: "Yasir Qadhi", ur: "یاسر قاضی" }
+names:
+  - { value: "أبو عمار ياسر قاضي", kind: full }
+  - { value: "Abu Ammaar Yasir Qadhi", kind: full }
+  - { value: "Yasir Qadhi", kind: full }
+gender: male
+summary:
+  ar: "عالم وداعية أمريكي من أصل باكستاني، وُلد في هيوستن سنة 1975، درس في الجامعة الإسلامية بالمدينة المنورة ونال الدكتوراه من جامعة ييل، وهو عميد المعهد الإسلامي في أمريكا والخطيب المقيم في مركز بلانو الإسلامي الشرقي بتكساس."
+  en: "American Muslim scholar of Pakistani descent, born in Houston in 1975. He studied at the Islamic University of Madinah and earned his doctorate at Yale University; he is dean of The Islamic Seminary of America and resident scholar of the East Plano Islamic Center in Texas."
+  ur: "پاکستانی نژاد امریکی عالم، جو 1975 میں ہیوسٹن میں پیدا ہوئے۔ انہوں نے جامعہ اسلامیہ مدینہ منورہ سے تعلیم حاصل کی اور ییل یونیورسٹی سے ڈاکٹریٹ کیا؛ وہ دی اسلامک سیمنری آف امریکہ کے ڈین اور ٹیکساس کے ایسٹ پلانو اسلامک سینٹر کے مقیم عالم ہیں۔"
+roles: [scholar, teacher, writer]
+wings: [people, living]
+born:
+  edtf: "1975-01-30"
+  hijri: "1395"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "Gregorian date from English Wikipedia and Wikidata (30 January 1975, Houston). The Hijri year 1395 is converter-derived."
+  sources: [source/wikipedia-yasir-qadhi-en, source/wikidata-yasir-qadhi]
+relations:
+  - { type: lived_in, target: place/jeddah, sources: [source/wikipedia-yasir-qadhi-en, source/wikipedia-yasir-qadhi-ar] }
+faith:
+  - value: sunni
+    basis: documented
+    note: "Two independent sources name the school: the English Wikipedia infobox gives the denomination as Sunni (citing MuslimMatters, 2014), and Wikidata records his religion as Sunni Islam. The English infobox also gives his creed as Athari, stated here in the note; its jurisprudence field is blank, so no compound value is recorded."
+    sources: [source/wikipedia-yasir-qadhi-en, source/wikidata-yasir-qadhi]
+external_ids: { wikidata: "Q4670065" }
+sources: [source/wikipedia-yasir-qadhi-en, source/wikipedia-yasir-qadhi-ar, source/wikidata-yasir-qadhi]
+provenance:
+  layer: own-research
+  source: "English Wikipedia (revision of 13 Oct 2026) and Arabic Wikipedia (revision of 25 Jun 2026), Wikidata Q4670065, as cited in those articles and checked on 24 Oct 2026. The founder's harvest §3 names him three times (the §3 #32 cluster); one record covers all three."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: modern-figures-batch-6
+status: { review: published, completeness: 3, generated_by: "Muse (Muse Spark 1.3)" }
