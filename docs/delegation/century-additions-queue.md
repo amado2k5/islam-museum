@@ -8,11 +8,11 @@ lists' own order. Status markers: [ ] queued · [~] in a writer's hands · [x] m
 
 ## A. Modern list additions (956)
 
-- [~] Muhammad Ali — 1942–2016
-- [~] Ahmed Zewail — 1946–2016
-- [~] Abdus Salam — 1926–1996
-- [~] Azim Premji — 1945–Living
-- [~] Muhammad Yunus — 1940–Living
+- [x] Muhammad Ali — 1942–2016
+- [x] Ahmed Zewail — 1946–2016
+- [x] Abdus Salam — 1926–1996
+- [x] Azim Premji — 1945–Living
+- [x] Muhammad Yunus — 1940–Living
 - [ ] Shirin Ebadi — 1947–Living
 - [ ] Tawakkol Karman — 1979–Living
 - [ ] Naguib Mahfouz — 1911–2006

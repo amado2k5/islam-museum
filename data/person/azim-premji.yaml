@@ -1,0 +1,35 @@
+id: person/azim-premji
+class: person
+label: { ar: "عظيم بريمجي", en: "Azim Premji", ur: "عظیم پریمجی" }
+names:
+  - { value: "عظيم هاشم بريمجي", kind: full }
+  - { value: "Azim Hashim Premji", kind: full }
+gender: male
+summary:
+  ar: "رجل أعمال هندي وفاعل خير، وُلد في بومباي سنة 1945 لأسرة مسلمة، وتولى سنة 1966 وهو في الحادية والعشرين شركة الزيوت النباتية التي أسسها والده فحوّلها إلى شركة «ويبرو» العالمية لخدمات تقنية المعلومات، وأسس سنة 2001 مؤسسة عظيم بريمجي التعليمية ونقل إليها قسما كبيرا من ثروته، فتصدّر قوائم فاعلي الخير في الهند."
+  en: "Indian businessman and philanthropist, born in Bombay in 1945 into a Muslim family. In 1966, aged 21, he took over his father's vegetable-oil company and transformed it into Wipro, the global information-technology services company; in 2001 he founded the education-focused Azim Premji Foundation and transferred a large share of his wealth to it, topping India's philanthropy lists."
+  ur: "ہندوستانی کاروباری اور فلاحی شخصیت، جو 1945 میں بمبئی میں ایک مسلم خاندان میں پیدا ہوئے۔ 1966 میں اکیس برس کی عمر میں انہوں نے اپنے والد کی نباتی تیل کی کمپنی سنبھالی اور اسے عالمی آئی ٹی خدمات کی کمپنی «وِپرو» میں بدل دیا؛ 2001 میں تعلیم پر مرکوز عظیم پریمجی فاؤنڈیشن قائم کی اور اپنی دولت کا بڑا حصہ اسے منتقل کیا، اور ہندوستان کی فلاحی فہرستوں میں سرِ فہرست رہے۔"
+roles: [businessman, philanthropist]
+wings: [people, living]
+born:
+  edtf: "1945-07-24"
+  hijri: "1364"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "Gregorian date and Bombay (now Mumbai) birthplace from English Wikipedia and Encyclopaedia Britannica; the Hijri year (1364) is derived by tabular conversion."
+  sources: [source/wikipedia-azim-premji-en, source/britannica-azim-premji]
+relations: []
+faith:
+  - value: unknown
+    basis: unknown
+    note: "English Wikipedia records that he was born into a Gujarati Shia Nizari Isma'ili Khoja Muslim family, and the article's categories include 'Indian Ismailis'; Britannica describes the Premjis only as 'a Muslim family', and the Arabic article's infobox gives his religion only as Islam. Family background is not a personal attestation, and no second source names his own school, so the value stays unknown."
+    sources: [source/wikipedia-azim-premji-en, source/britannica-azim-premji, source/wikipedia-azim-premji-ar]
+sources: [source/wikipedia-azim-premji-en, source/wikipedia-azim-premji-ar, source/britannica-azim-premji]
+provenance:
+  layer: own-research
+  source: "English and Arabic Wikipedia and the Encyclopaedia Britannica entry on Azim Premji, as cited and checked in Chrome on 26 Oct 2026. No Wikidata item number is recorded: wikidata.org returned HTTP 403 from this environment and no consulted source confirmed the item number, so external_ids is omitted rather than guessed."
+  generated_by: "Claude Code (claude-haiku-5-5)"
+  run: century-additions-1
+status: { review: published, generated_by: "Claude Code (claude-haiku-5-5)" }

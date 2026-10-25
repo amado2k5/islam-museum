@@ -1,0 +1,47 @@
+id: person/ahmed-zewail
+class: person
+label: { ar: "أحمد زويل", en: "Ahmed Zewail", ur: "احمد زویل" }
+names:
+  - { value: "أحمد حسن زويل", kind: full }
+  - { value: "Ahmed Hassan Zewail", kind: full }
+gender: male
+summary:
+  ar: "كيميائي مصري أمريكي، وُلد في دمنهور سنة 1946 ونشأ في دسوق ودرس في جامعة الإسكندرية، وأسس علم كيمياء الفيمتو حتى لُقّب «أبو كيمياء الفيمتو»، ونال جائزة نوبل في الكيمياء سنة 1999 منفردا فكان أول مصري وعربي ينال جائزة نوبل في فرع علمي، وأسس مدينة زويل للعلوم والتكنولوجيا، وتوفي سنة 2016."
+  en: "Egyptian-American chemist, born in Damanhur in 1946, raised in Desouk and educated at Alexandria University. He founded femtochemistry and was known as the 'father of femtochemistry'; he received the 1999 Nobel Prize in Chemistry alone, the first Egyptian and Arab to win a Nobel Prize in a scientific field, founded the Zewail City of Science and Technology, and died in 2016."
+  ur: "مصری نژاد امریکی کیمیا دان، جو 1946 میں دمنھور میں پیدا ہوئے، دسوق میں پلے بڑھے اور جامعہ اسکندریہ سے تعلیم پائی۔ انہوں نے فیمٹو کیمسٹری کی بنیاد رکھی اور «فیمٹو کیمسٹری کے بانی» کہلائے؛ 1999 میں تنہا کیمسٹری کا نوبل انعام پایا، جو کسی سائنسی شعبے میں نوبل پانے والے پہلے مصری اور عرب بنے، زویل سٹی آف سائنس اینڈ ٹیکنالوجی قائم کی، اور 2016 میں وفات پائی۔"
+roles: [chemist]
+wings: [people]
+born:
+  edtf: "1946-02-26"
+  hijri: "1365"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "Gregorian date and Damanhur birthplace from English Wikipedia, the Nobel Prize facts page and Wikidata Q106624; the Hijri year (1365) is derived by tabular conversion."
+  sources: [source/wikipedia-ahmed-zewail-en, source/nobelprize-zewail-facts, source/wikidata-ahmed-zewail]
+died:
+  edtf: "2016-08-02"
+  hijri: "1437"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "Gregorian date and Pasadena, California place of death from English Wikipedia, the Nobel Prize facts page and Wikidata Q106624; the Hijri year (1437) is derived by tabular conversion."
+  sources: [source/wikipedia-ahmed-zewail-en, source/nobelprize-zewail-facts, source/wikidata-ahmed-zewail]
+relations:
+  - { type: born_in, target: place/damanhur, sources: [source/wikipedia-ahmed-zewail-en, source/nobelprize-zewail-facts] }
+  - { type: lived_in, target: place/alexandria, sources: [source/nobelprize-zewail-facts, source/wikipedia-ahmed-zewail-en] }
+faith:
+  - value: unknown
+    basis: unknown
+    note: "No source consulted names a school. English Wikipedia's categories describe him only as an Egyptian Muslim and an American Muslim; the Nobel Prize facts page and the Arabic article give no school, and his Cairo funeral — a military funeral with prayers led by the former Grand Mufti — is a state and family matter, not a school attestation. Not recorded until two independent sources name a school."
+    sources: [source/wikipedia-ahmed-zewail-en, source/nobelprize-zewail-facts, source/wikipedia-ahmed-zewail-ar]
+external_ids: { wikidata: "Q106624" }
+sources: [source/wikipedia-ahmed-zewail-en, source/wikipedia-ahmed-zewail-ar, source/wikidata-ahmed-zewail, source/nobelprize-zewail-facts, source/zewail-voyage-through-time-2002]
+provenance:
+  layer: own-research
+  source: "English and Arabic Wikipedia, Wikidata Q106624, the Nobel Prize facts page for the 1999 Chemistry prize, and Zewail's autobiography Voyage Through Time (World Scientific, 2002) as listed by English Wikipedia, checked in Chrome on 26 Oct 2026"
+  generated_by: "Claude Code (claude-haiku-5-5)"
+  run: century-additions-1
+status: { review: published, generated_by: "Claude Code (claude-haiku-5-5)" }
