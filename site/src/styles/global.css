@@ -320,11 +320,29 @@ footer.site, .grid-cards { content-visibility: auto; contain-intrinsic-size: aut
 .path .meta { font-size: .85rem; color: var(--gold-text); font-weight: 600; }
 .plan-note { text-align: center; color: var(--muted); margin: 1.2rem 0 0; }
 .wings { display: grid; grid-template-columns: repeat(3, 1fr); gap: 1rem; list-style: none; margin: 0; padding: 0; }
-.wing { display: block; height: 100%; background: var(--panel); border: 1px solid var(--line); border-radius: 18px; padding: 1.2rem 1.3rem; border-inline-start: 5px solid var(--acc, var(--gold)); color: var(--fg); text-decoration: none; }
-.wing:hover { border-color: var(--gold); text-decoration: none; }
+.wing { display: flex; flex-direction: column; height: 100%; background: var(--panel); border: 1px solid var(--line); border-radius: 18px; padding: 1.2rem 1.3rem; border-inline-start: 5px solid var(--acc, var(--gold)); color: var(--fg); }
+.wing-head { display: block; color: var(--fg); text-decoration: none; }
+.wing-head:hover { text-decoration: none; }
+.wing-head:hover h3 { color: var(--gold-text); }
 .wing h3 { font-size: 1.2rem; margin: 0; }
 .wing .count { font-weight: 600; color: var(--gold-text); font-size: .95rem; }
-.wing p { font-size: .92rem; color: var(--muted); margin: .3rem 0 0; line-height: 1.7; }
+.wing p { font-size: .92rem; color: var(--muted); margin: .3rem 0 .8rem; line-height: 1.7; }
+.wing .feat { display: block; margin-top: auto; padding: .7rem .85rem; border-radius: 12px; background: rgba(184, 147, 47, .08); background: color-mix(in srgb, var(--acc) 14%, transparent); border: 1px dashed var(--line); border: 1px dashed color-mix(in srgb, var(--acc) 55%, transparent); color: var(--fg); text-decoration: none; -webkit-tap-highlight-color: transparent; transition: border-color .18s ease, background-color .18s ease, box-shadow .18s ease; }
+@media (hover: hover) {
+  .wing .feat:hover { border-style: solid; border-color: var(--gold); box-shadow: 0 0 0 1px var(--gold), 0 6px 16px -10px rgba(0, 0, 0, .35); text-decoration: none; }
+  .wing .feat:hover .feat-l { color: var(--gold-text); }
+}
+.wing .feat:active, .wing .feat:focus-visible { border-style: solid; border-color: var(--gold); box-shadow: 0 0 0 1px var(--gold); text-decoration: none; }
+.wing .feat:active .feat-l, .wing .feat:focus-visible .feat-l { color: var(--gold-text); }
+/* Dark: a fainter tint and a lighter gold, so the small label stays AA (4.5:1) even on the gold Made card. */
+:root[data-theme="dark"] .wing .feat { background: color-mix(in srgb, var(--acc) 8%, transparent); }
+:root[data-theme="dark"] .feat-k { color: #dcc28c; }
+@media (prefers-color-scheme: dark) { :root:not([data-theme="light"]) .wing .feat { background: color-mix(in srgb, var(--acc) 8%, transparent); } :root:not([data-theme="light"]) .feat-k { color: #dcc28c; } }
+.feat-k { display: block; font-size: .72rem; color: var(--gold-text); font-weight: 600; }
+html[lang="en"] .feat-k { letter-spacing: .04em; text-transform: uppercase; }
+.wing .feat-l { display: block; font-size: 1rem; margin: .15rem 0; line-height: 1.45; color: var(--fg); transition: color .18s ease; }
+.feat-s { display: block; font-size: .85rem; color: var(--muted); line-height: 1.55; }
+.last-upd { text-align: center; font-size: .85rem; margin: 1.5rem 0 2rem; }
 .xgrid { display: grid; grid-template-columns: 1fr 1fr; gap: 1.1rem; list-style: none; margin: 0; padding: 0; }
 .xcard { display: grid; grid-template-columns: 150px 1fr; background: var(--card); border: 1px solid var(--line); border-radius: 18px; overflow: hidden; }
 .xcard .thumb { min-height: 150px; position: relative; overflow: hidden; background: var(--panel); }

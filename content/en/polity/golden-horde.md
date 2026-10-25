@@ -14,3 +14,6 @@ Jochi's sons were Nuqaya and Berke. Berke embraced Islam at the hands of a shayk
 Their state was in Sarai until Uzbek ruled. Islam appeared among them, and they intermarried with the kings of Egypt. {cite:tarikh-ibn-khaldun-ibar}
 
 A second source is needed: the dates of founding and end are not recorded in the data.
+
+## Encyclopaedia of Islam note: the name
+Altin Orda is the modern Turkish imitation of the Russian term Zolotaya Orda, "Golden Horde". The article refers the reader to the Batu'ids. {cite:encyclopaedia-of-islam-2 vol. 1 p. 446}
