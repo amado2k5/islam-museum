@@ -1,0 +1,48 @@
+id: person/sufi-abu-taleb
+class: person
+label: { ar: "صوفي أبو طالب", en: "Sufi Abu Taleb", ur: "صوفی ابو طالب" }
+names:
+  - { value: "Sufi Abu Taleb", kind: full }
+  - { value: "صوفي أبو طالب", kind: full }
+  - { value: "Ṣūfī Abū Ṭālib", kind: latinized }
+gender: male
+summary:
+  ar: "أكاديمي قانوني وسياسي مصري (1925–2008)، وُلد بمركز طامية في محافظة الفيوم، وتخرج في كلية الحقوق بجامعة القاهرة سنة 1946 ثم نال الدكتوراه من جامعة باريس سنة 1957 عن رسالة فازت بجائزة الجامعة، ودرّس تاريخ القانون والقانون الروماني بجامعة القاهرة حتى ترأسها (1975–1978)، وانتُخب عضوا بمجلس الشعب سنة 1976 فتولى رئاسة المجلس (1978–1983) ورئاسة لجنة تقنين أحكام الشريعة الإسلامية فيه، وعقب اغتيال الرئيس أنور السادات في 6 أكتوبر 1981 تولى مهام رئيس الجمهورية بالنيابة بحكم الدستور لثمانية أيام (6–14 أكتوبر 1981) حتى انتُخب حسني مبارك، وله مؤلفات في القانون الروماني والشريعة الإسلامية منها «تطبيق الشريعة الإسلامية في البلاد العربية» (1974)، وتوفي في كوالالمبور بماليزيا في 21 فبراير 2008 أثناء مشاركته في ملتقى لرابطة خريجي الأزهر. «صوفي» اسمه الأول، وليس نسبة إلى التصوف."
+  en: "Egyptian legal scholar and politician (1925–2008), born at Tamiya in Faiyum Governorate. He graduated from Cairo University's Faculty of Law in 1946 and took his doctorate at the University of Paris in 1957 with a thesis that won the university prize, taught the history of law and Roman law at Cairo University and served as its president (1975–1978), was elected to the People's Assembly in 1976 and became its Speaker (1978–1983) and chairman of its committee for the codification of Islamic Sharia rulings. After President Anwar Sadat's assassination on 6 October 1981 he assumed the duties of acting head of state under the constitution for eight days (6–14 October 1981), stepping aside for Hosni Mubarak. His books on Roman law and Islamic law include 'Appliance of the Islamic Law in Arabic Countries' (1974). He died in Kuala Lumpur, Malaysia, on 21 February 2008 while attending an al-Azhar alumni gathering. 'Sufi' is his given name, not a Sufi affiliation."
+  ur: "مصری قانونی عالم اور سیاست دان (1925ء–2008ء)، جو محافظہ فیوم کے مرکز طامیہ میں پیدا ہوئے۔ انھوں نے 1946ء میں جامعہ قاہرہ کی کلیہ حقوق سے گریجویشن کیا اور 1957ء میں جامعہ پیرس سے ڈاکٹریٹ حاصل کی، قاہرہ یونیورسٹی میں تاریخِ قانون اور رومی قانون پڑھایا اور اس کے صدر رہے (1975ء–1978ء)، 1976ء میں مجلسِ شعب کے رکن منتخب ہوئے اور اس کے اسپیکر بنے (1978ء–1983ء) اور شریعت کے احکام کی تدوین کی کمیٹی کی صدارت کی۔ صدر انور سادات کے قتل (6 اکتوبر 1981ء) کے بعد انھوں نے آئین کے تحت آٹھ دن (6–14 اکتوبر 1981ء) قائم مقام سربراہِ مملکت کے فرائض سنبھالے، پھر حسنی مبارک کے لیے عہدہ چھوڑ دیا۔ ان کی کتابوں میں «عرب ممالک میں اسلامی شریعت کا نفاذ» (1974ء) شامل ہے۔ وہ 21 فروری 2008ء کو ملائیشیا کے کوالالمپور میں وفات پا گئے۔ «صوفی» ان کا ذاتی نام ہے، تصوف سے نسبت نہیں۔"
+roles: [scholar, politician]
+wings: [people]
+born:
+  edtf: "1925-01-27"
+  hijri: "1343"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "Born on 27 January 1925 at Tamiya, in Faiyum Governorate, Egypt: the date is from the English and Arabic Wikipedia articles and Wikidata; the place is from the English article ('born in Tamiya in Faiyum Governorate') and the Arabic article (his family is from the Tamiya district of Faiyum); Wikidata's birthplace statement gives only Egypt. A place entity for the Fayyum region exists (place/al-fayyum), so the born_in relation points there, Tamiya itself having no entity. The Hijri year (1343) is derived by tabular conversion."
+  sources: [source/wikipedia-sufi-abu-taleb-en, source/wikipedia-sufi-abu-taleb-ar, source/wikidata-sufi-abu-taleb]
+died:
+  edtf: "2008-02-21"
+  hijri: "1429"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "Died on 21 February 2008 in Kuala Lumpur, Malaysia, where he was attending the third world gathering of the al-Azhar alumni association, per the Arabic Wikipedia article; the English article says he died in Malaysia while visiting for an alumni reunion of al-Azhar graduates, and Wikidata's place-of-death statement is Kuala Lumpur. No place entity for Kuala Lumpur exists in data/place/, so no died_in relation is written. The Hijri year (1429) is derived by tabular conversion."
+  sources: [source/wikipedia-sufi-abu-taleb-en, source/wikipedia-sufi-abu-taleb-ar, source/wikidata-sufi-abu-taleb]
+relations:
+  - { type: born_in, target: place/al-fayyum, sources: [source/wikipedia-sufi-abu-taleb-en, source/wikipedia-sufi-abu-taleb-ar] }
+  - { type: lived_in, target: place/cairo, sources: [source/wikipedia-sufi-abu-taleb-en, source/wikipedia-sufi-abu-taleb-ar] }
+faith:
+  - value: unknown
+    basis: unknown
+    note: "NOT RECORDED AS DOCUMENTED — no source names a school for him. The attestations, stated in full: Wikidata's religion statement (P140) gives Islam (Q432) generically — one structured-data value, which never counts on its own. The English and Arabic articles state no religion and no school; what they record is professional: a professorial career in the history of law and Roman law, a chairmanship of the People's Assembly committee for codifying Sharia rulings, membership of al-Azhar's Islamic Research Academy and of the board of the Islamic Studies Institute, the deputy chairmanship of the Young Muslim Association, and books comparing Islamic law with Roman law. Posts held in Islamic-law bodies and scholarship about Islamic law are professional roles, not attestations of a personal school. His given name 'Sufi' (صوفي) is a personal name, not a Sufi affiliation, and is not treated as evidence of anything. Under the two-source rule and the founder's doubt rule the value stays unknown."
+    sources: [source/wikipedia-sufi-abu-taleb-en, source/wikipedia-sufi-abu-taleb-ar, source/wikidata-sufi-abu-taleb]
+external_ids: { wikidata: "Q733919" }
+sources: [source/wikipedia-sufi-abu-taleb-en, source/wikipedia-sufi-abu-taleb-ar, source/wikipedia-sufi-abu-taleb-ur, source/wikidata-sufi-abu-taleb]
+provenance:
+  layer: own-research
+  source: "English Wikipedia 'Sufi Abu Taleb' (revision 1378062977 of 2 October 2026) and Arabic Wikipedia «صوفي أبو طالب» (revision 76918690 of 7 October 2026), both read in full on 25 October 2026; Urdu Wikipedia «صوفی ابو طالب» (revision 10164242 of 30 April 2026), a stub verified for existence and title; Wikidata Q733919 consulted through the Wikidata API on 25 October 2026. RELATION DIRECTION: both relations are written here, in the subject's own record — sufi-abu-taleb born_in place/al-fayyum (he, the subject, was born at Tamiya within the Fayyum region, the target) and sufi-abu-taleb lived_in place/cairo (he lived and worked in Cairo, the target, as professor and president of Cairo University and as a parliamentarian); the inverse edges are computed at build and are not written in the places' records. This record is for Sufi Abu Taleb, the Egyptian law professor and parliament speaker born in 1925, acting head of state for eight days in October 1981 — not for any Sufi figure: 'Sufi' is his given name. No earlier record for him existed in data/person/ under sufi-abu-taleb, abu-taleb or any other spelling checked; this is a new build, not an enrichment."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: century-additions-23
+status: { review: published, completeness: 3, generated_by: "Muse (Muse Spark 1.3)" }
