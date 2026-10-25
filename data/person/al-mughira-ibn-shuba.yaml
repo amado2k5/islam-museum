@@ -1,4 +1,10 @@
 id: person/al-mughira-ibn-shuba
+education:
+  did_you_know:
+    ar: "المغيرة بن شعبة الثقفي عُرف بدهائه؛ تقدم بالكرزن فضرب باب اللات يوم هدمها سنة ٩هـ بعد أن سقط يمازح أصحابه فأُرعب أهل الطائف ظناً أنه قُتل."
+    en: "Al-Mughira ibn Shu'ba the Thaqafi, known for his wit, led the strike on al-Lat's gate when it was razed in year 9 — he had tumbled off it in jest, and the people of al-Ta'if panicked thinking him dead."
+    ur: "مغیرہ بن شعبہ ثقفی نے سن ۹ھ میں لات کے دروازے پر پہلا وار کیا — انہوں نے مذاق میں گرنے کا مظاہرہ کیا تو طائف کے لوگ سمجھے کہ وہ مارا گیا۔"
+    sources: [source/ibn-hisham-sira, source/muruj-al-dhahab]
 class: person
 label: { en: "al-Mughira ibn Shu'ba", ar: "المغيرة بن شعبة" }
 names:
@@ -25,3 +31,9 @@ relations:
 external_ids: { wikidata: "Q1050575" }
 sources: [source/mubarakpuri-raheeq, source/ibn-hisham-sira, source/muruj-al-dhahab, source/sahih-muslim]
 status: { review: draft, completeness: 2, generated_by: "Devin; al-Raheeq al-Makhtum pp. 440-454 (batch 22)" }
+provenance:
+  layer: own-research
+  source: "source/ibn-hisham-sira"
+  generated_by: Devin
+  model: "unknown"
+  run: "education-E3-facts-batch13"
