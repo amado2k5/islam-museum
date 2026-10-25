@@ -1,4 +1,10 @@
 id: event/year-of-the-elephant-and-birth
+education:
+  did_you_know:
+    ar: "وُلد النبي محمد في مكة سنة الفيل التي تحقق المصادر أنها توافق نحو ٥٧٠–٥٧١م، قبل بدء بعثته بنحو أربعين عاماً."
+    en: "The Prophet Muhammad was born in Mecca in the Year of the Elephant, which scholarship places around 570–571 CE, some forty years before his mission began."
+    ur: "نبی محمد مکہ میں عام الفیل میں پیدا ہوئے، جسے محققین تقریباً 570–571ء بتاتے ہیں — بعثت سے کوئی چالیس سال پہلے۔"
+    sources: [source/ibn-ishaq-guillaume, source/mubarakpuri-raheeq]
 class: event
 kind: birth
 label: { en: "The Year of the Elephant and the Prophet's birth", ar: "عام الفيل ومولد النبي" }
@@ -22,3 +28,9 @@ relations:
 external_ids: { wikidata: "Q139553080" }
 sources: [source/ibn-ishaq-guillaume, source/watt-1953-mecca, source/lings-1983, source/mubarakpuri-raheeq, source/ibn-hisham-sira, source/mukhtasar-sirat-al-rasul-al-najdi, source/muhadarat-tarikh-al-umam-al-islamiyya, source/rahma-lil-alamin, source/tabaqat-ibn-sad, source/fiqh-al-sira-al-ghazali, source/dalail-al-nubuwwa-bayhaqi]
 status: { review: draft, completeness: 2, generated_by: "Claude Sonnet 5.5 (scaffold); upgraded by Devin from al-Raheeq al-Makhtum pp. 54-56" }
+provenance:
+  layer: own-research
+  source: "source/ibn-ishaq-guillaume"
+  generated_by: Devin
+  model: "unknown"
+  run: "education-E3-facts-batch5"

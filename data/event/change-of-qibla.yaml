@@ -1,4 +1,10 @@
 id: event/change-of-qibla
+education:
+  did_you_know:
+    ar: "في شعبان من السنة الثانية للهجرة تحوّلت القبلة من بيت المقدس إلى الكعبة، استجابةً لرغبة النبي وتمييزاً للأمة."
+    en: "In Sha'ban of the second year after the Hijra, the prayer direction turned from Jerusalem to the Kaaba — answering the Prophet's wish and marking the community's distinct identity."
+    ur: "ہجرت کے دوسرے سال شعبان میں قبلہ بیت المقدس سے کعبہ کی طرف بدل گیا — نبی کی خواہش کے جواب میں اور امت کی ممیز شناخت کے طور پر۔"
+    sources: [source/mubarakpuri-raheeq, source/sahih-al-bukhari]
 class: event
 kind: other
 label: { en: "The change of the qibla", ar: "تحويل القبلة" }
@@ -18,3 +24,9 @@ relations:
   - { type: caused_by, target: event/hijra }
 sources: [source/mubarakpuri-raheeq, source/sahih-al-bukhari, source/sahih-muslim, source/ibn-ishaq-guillaume, source/watt-1956-medina, source/lings-1983, source/samhudi-wafa-al-wafa, source/tafsir-manar-v02, source/tafsir-sharawi-khawatir-scan-pp-501-1000]
 status: { review: draft, completeness: 2, generated_by: "Antigravity; al-Raheeq al-Makhtum p. 203 citing Bukhari and Muslim" }
+provenance:
+  layer: own-research
+  source: "source/mubarakpuri-raheeq"
+  generated_by: Devin
+  model: "unknown"
+  run: "education-E3-facts-batch5"

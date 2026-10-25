@@ -1,4 +1,10 @@
 id: event/isra-and-miraj
+education:
+  did_you_know:
+    ar: "في رحلة الإسراء والمعراج صلّى النبي بالأنبياء إماماً في المسجد الأقصى ثم عُرج به إلى السماوات وفُرضت الصلوات الخمس."
+    en: "On the Night Journey, the Prophet led the prophets in prayer at al-Aqsa, then ascended through the heavens where the five daily prayers were ordained."
+    ur: "اسراء و معراج کے سفر میں نبی نے مسجد اقصیٰ میں انبیاء کی امامت کی، پھر آسمانوں کی سیر ہوئی جہاں پانچ نمازیں فرض ہوئیں۔"
+    sources: [source/mubarakpuri-raheeq, source/sahih-muslim]
 class: event
 kind: revelation
 label: { en: "The Isra and Mi'raj", ar: "الإسراء والمعراج" }
@@ -46,3 +52,9 @@ perspectives:
 external_ids: { wikidata: "Q381240" }
 sources: [source/mubarakpuri-raheeq, source/zad-al-maad, source/sahih-al-bukhari, source/sahih-muslim, source/ibn-hisham-sira, source/al-isra-wal-miraj-azhar, source/al-isra-wal-miraj-dar-al-jeel-2003, source/tafsir-sharawi-khawatir-scan-pp-501-1000]
 status: { review: draft, completeness: 2, generated_by: "Devin; al-Raheeq al-Makhtum pp. 137-142" }
+provenance:
+  layer: own-research
+  source: "source/mubarakpuri-raheeq"
+  generated_by: Devin
+  model: "unknown"
+  run: "education-E3-facts-batch5"

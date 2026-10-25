@@ -1,4 +1,10 @@
 id: event/marriage-to-khadija
+education:
+  did_you_know:
+    ar: "تزوج النبي خديجة بعد رحلتها التجارية إلى الشام وكانت أول امرأة يتزوجها ولم يتزوج عليها حتى وفاتها."
+    en: "The Prophet married Khadija after her trading journey to Syria; she was his first wife and he married no other until her death."
+    ur: "نبی نے خدیجہ سے ان کے شام کے تجارتی سفر کے بعد شادی کی؛ وہ ان کی پہلی بیوی تھیں اور ان کی وفات تک انہوں نے دوسری شادی نہیں کی۔"
+    sources: [source/ibn-ishaq-guillaume, source/watt-1953-mecca]
 class: event
 kind: other
 label: { en: "The Prophet's marriage to Khadija", ar: "زواج النبي من خديجة" }
@@ -20,3 +26,9 @@ relations:
   - { type: part_of, target: period/prophetic-era }
 sources: [source/ibn-ishaq-guillaume, source/watt-1953-mecca, source/lings-1983, source/mubarakpuri-raheeq, source/ibn-hisham-sira, source/talqih-fuhum-ahl-al-athr, source/fiqh-al-sira-al-ghazali, source/fath-al-bari]
 status: { review: draft, completeness: 2, generated_by: "Claude Sonnet 5.5 (scaffold); upgraded by Devin from al-Raheeq al-Makhtum pp. 60-61" }
+provenance:
+  layer: own-research
+  source: "source/ibn-ishaq-guillaume"
+  generated_by: Devin
+  model: "unknown"
+  run: "education-E3-facts-batch5"
