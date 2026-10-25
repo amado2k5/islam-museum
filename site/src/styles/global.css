@@ -105,7 +105,7 @@ html[data-links="underline"] main a, html[data-links="underline"] .foot a { text
 html[data-contrast="high"] { --muted: var(--fg); --line: var(--fg); --edge: var(--fg); }
 .a11y-prefs { position: relative; }
 @media (max-width: 720px) {
-  .a11y-panel { position: fixed; inset-inline: 12px; top: 64px; min-width: 0; max-height: 70vh; overflow-y: auto; }
+  .a11y-prefs .a11y-panel { position: fixed; inset-inline: 12px; top: 64px; min-width: 0; max-height: 70vh; overflow-y: auto; }
 }
 .a11y-prefs > summary { list-style: none; cursor: pointer; user-select: none; }
 .a11y-prefs > summary::-webkit-details-marker { display: none; }

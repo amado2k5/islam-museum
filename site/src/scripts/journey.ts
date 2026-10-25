@@ -12,7 +12,7 @@ for (const root of document.querySelectorAll<HTMLElement>("[data-journey]")) {
   const count = root.querySelector<HTMLElement>("[data-count]")!;
   const panel = root.querySelector<HTMLElement>("[data-narrative]")!;
   let i = 0, timer = 0;
-  const reduced = (matchMedia("(prefers-reduced-motion: reduce)").matches || document.documentElement.getAttribute("data-motion") === "reduce");
+  const reduced = () => (matchMedia("(prefers-reduced-motion: reduce)").matches || document.documentElement.getAttribute("data-motion") === "reduce");
 
   function show(k: number, focusTick = false) {
     i = (k + p.n) % p.n;
@@ -28,7 +28,7 @@ for (const root of document.querySelectorAll<HTMLElement>("[data-journey]")) {
     if (focusTick) ticks[i].focus();
     const stop = stops[i].querySelector("circle")!;
     const cx = stop.getAttribute("cx")!, cy = stop.getAttribute("cy")!;
-    if (reduced) { marker.setAttribute("cx", cx); marker.setAttribute("cy", cy); }
+    if (reduced()) { marker.setAttribute("cx", cx); marker.setAttribute("cy", cy); }
     else { marker.style.transition = "cx .6s ease, cy .6s ease"; marker.setAttribute("cx", cx); marker.setAttribute("cy", cy); }
     stops.forEach((g, k) => g.classList.toggle("is-current", k === i));
   }
