@@ -64,6 +64,18 @@ Not added: Scribd, a document-sharing host, not a source. Dorar.net and Shamela 
 
 Registered not-verified, pointer only: islamstory.com (T4), islamqa.info (T4), tafsir.net (T3), quran.com (T4). None has been sampled.
 
+## Added 24 Oct 2026: journal and database list (founder request), batch 1
+
+Registered not-verified, pointer only: mandumah.com (T3), iifa-aifi.org (T2), ircica.org (T2), themwl.org (T3), kau.edu.sa (T2, university only).
+
+Not registered yet: ASJP (asjp.cerist.dz, error page when checked); irti.org (no DNS record found; isdb.org/irti returned 404); Kuwait University sharia journal and the other journals in the list (no URL checked yet). Journals with no URL in the founder list need one before they can be checked.
+
+## Added 24 Oct 2026: journal list, batch 2
+
+Registered not-verified, pointer only: awqaf.gov.kw (T2, Ministry of Awqaf; publishes Al-Wa'i al-Islami), uqu.edu.sa (T2), iu.edu.sa (T2).
+
+Still without a usable address: ASJP (asjp.cerist.dz, error page on two tries); irti.org (no DNS record); Kuwait University sharia journal; Journal of Contemporary Jurisprudential Research (published by a waqf foundation for fiqh and Quran studies); Journal of Current Controversial Issues in Fiqh and Law; Imam al-Shatibi Institute journal; Global Islamic Economics Magazine; University of the Holy Quran journal; Al-Muslim al-Mu'asir magazine; Islamic Knowledge magazine. These need a URL from the founder before they can be checked.
+
 ## Added 24 Oct 2026: journal addresses from the founder list, batch 3
 
 Registered not-verified, pointer only, after each page was checked: journals.ku.edu.kw (T2), alfiqhia.com (T3), majlah.shatiby.edu.sa (T3), sjournals.sdl.edu.sa (T3).
