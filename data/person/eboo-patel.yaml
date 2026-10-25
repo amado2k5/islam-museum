@@ -1,0 +1,34 @@
+id: person/eboo-patel
+class: person
+label: { ar: "إيبو باتل", en: "Eboo Patel", ur: "ایبو پٹیل" }
+names:
+  - { value: "Ebrahim Patel", kind: full }
+  - { value: "Eboo Patel", kind: alternate }
+gender: male
+summary:
+  ar: "ناشط أمريكي إسماعيلي من أصل غوجاراتي هندي، وُلد سنة 1975 في مومباي بالهند ونشأ في غلين إلين بإلينوي. نال الدكتوراه في علم اجتماع الدين من جامعة أكسفورد بمنحة رودس، وأسس سنة 2002 «أكور الشباب بين الأديان» التي صارت «إنترفيث أمريكا»، المنظمة المعنية بالتعاون بين الأديان، ويرأسها إلى اليوم. من كتبه «أعمال الإيمان» (2007) و«أرض مقدسة» (2012) و«نحتاج أن نبني» (2022)، وكان عضوًا في المجلس الاستشاري الافتتاحي للرئيس أوباما لشراكات الأديان والأحياء."
+  en: "American Ismaili activist of Gujarati Indian heritage, born in 1975 in Mumbai, India, and raised in Glen Ellyn, Illinois. He took a doctorate in the sociology of religion at Oxford University on a Rhodes Scholarship and founded in 2002 the Interfaith Youth Core, now Interfaith America, the organisation for interfaith cooperation, of which he is president. His books include Acts of Faith (2007), Sacred Ground (2012) and We Need to Build (2022), and he served on President Obama's inaugural Advisory Council on Faith-Based and Neighborhood Partnerships."
+  ur: "گجراتی ہندی نژاد امریکی اسماعیلی کارکن، 1975 میں ممبئی، بھارت میں پیدا ہوئے اور الینوائے کے گلین ایلن میں پلے بڑھے۔ انھوں نے روڈس اسکالرشپ پر آکسفورڈ یونیورسٹی سے مذہب کے سماجیات میں ڈاکٹریٹ کی اور 2002 میں «انٹرفیتھ یوتھ کور» قائم کی، جو اب «انٹرفیتھ امریکا» ہے، اور وہ اس کے صدر ہیں۔ ان کی کتابوں میں «اعمالِ ایمان» (2007)، «مقدس زمین» (2012) اور «ہمیں تعمیر کرنا ہے» (2022) شامل ہیں، اور وہ صدر اوباما کی افتتاحی مشاورتی کونسل کے رکن رہے۔"
+roles: [activist, writer, scholar]
+wings: [people, living]
+born:
+  edtf: "1975"
+  hijri: "1395"
+  calendar: gregorian
+  precision: year
+  status: historical
+  derived: true
+  note: "Born in 1975 in Mumbai, India: the Carnegie Corporation profile and the Hollins University biography both give Mumbai as his birthplace, and Encyclopedia.com gives his birth year as 1975. Wikidata-derived listings give a precise date, 9 November 1975, but that exact day rests on that single derived line, so the record follows year precision and records the day here only as reported there. The English article gives no birth date or birthplace; it records that he grew up in Glen Ellyn, Illinois. No place entity for Mumbai exists in data/place/, so no born_in relation is written. The Hijri year (1395, the year covering most of 1975) is derived by tabular conversion."
+  sources: [source/carnegie-eboo-patel, source/wikipedia-eboo-patel-en]
+faith:
+  - value: shia-ismaili
+    basis: documented
+    note: "Documented on independent sources that name his OWN Ismaili affiliation. (1) The English Wikipedia article's lead calls him 'an American Ismaili of Gujarati Indian heritage'. (2) The Carnegie Corporation of New York's Great Immigrants profile states independently that he is 'an Ismaili Muslim of Gujarati Indian heritage'. (3) In his own words, in the George W. Bush Presidential Center interview, Patel introduces himself: 'I'm an American Muslim. I'm part of the Ismaili Community of Islam, which is a small Shia Community of Islam.' The sources name Ismaili directly — the enum value shia-ismaili is the Ismaili value in schema/enums/faith.yaml, not a mapping from a generic 'Shia' label — and the third source also supplies the supportive Shia context in his own words. His service on the National Committee of the Aga Khan Foundation USA is corroborating context only, not a basis."
+    sources: [source/wikipedia-eboo-patel-en, source/carnegie-eboo-patel, source/bush-center-eboo-patel]
+sources: [source/wikipedia-eboo-patel-en, source/carnegie-eboo-patel, source/bush-center-eboo-patel]
+provenance:
+  layer: own-research
+  source: "English Wikipedia 'Eboo Patel', the Carnegie Corporation of New York Great Immigrants profile of Eboo Patel, and the George W. Bush Presidential Center interview 'Making Interfaith Collaboration a Top Five Issue', all read on 25 October 2026, with Encyclopedia.com's 'Patel, Eboo 1975-' entry and Hollins University's 2024 speaker biography also read for the birth year and Mumbai birthplace. Wikidata was not read directly in this run because Wikimedia returned 403 to this machine, so no Wikidata QID is recorded rather than guessed. No earlier record for him existed in data/person/ under eboo-patel, ebrahim-patel or any other spelling checked; this is a new build, not an enrichment."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: century-additions-13
+status: { review: published, completeness: 3, generated_by: "Muse (Muse Spark 1.3)" }

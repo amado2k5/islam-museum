@@ -1,0 +1,45 @@
+---
+// Glossary for one taught topic (E4 step 3): the twelve terms with their glosses, a pure <dl> —
+// readable with no JavaScript and printable.
+import BaseLayout from "../../../../layouts/BaseLayout.astro";
+import { ui, LANGS, type Lang } from "../../../../lib/i18n";
+import { loadTopics } from "../../../../lib/topics";
+import "../../../../styles/edu.css";
+
+export function getStaticPaths() {
+  return LANGS.flatMap((lang) =>
+    loadTopics().map((t) => ({ params: { lang, topic: t.id }, props: { lang, topic: t } })),
+  );
+}
+const { lang, topic } = Astro.props;
+const T = ui(lang);
+const S = T.shabab;
+const title = `${topic.title[lang]} — ${S.sb_glossary_title}`;
+const path = `/${lang}/shabab/glossary/${topic.id}/`;
+---
+<BaseLayout lang={lang} title={title} description={topic.title[lang]} path={path}>
+  <div class="wrap edu" style="padding-block:10px 24px">
+    <nav class="ui muted no-print" aria-label="breadcrumb">
+      <a href={`/${lang}/shabab/`}>{S.sb_title}</a> › <a href={`/${lang}/shabab/topics/`}>{S.sb_topics}</a> › {topic.title[lang]}
+    </nav>
+    <h1>{S.sb_glossary_title} — {topic.title[lang]}</h1>
+    <dl class="gl-list" style="max-width:var(--measure)">
+      {topic.glossary.map((g) => (
+        <div class="gl-item">
+          <dt>{g.term[lang]}</dt>
+          <dd>{g.gloss[lang]}</dd>
+        </div>
+      ))}
+    </dl>
+    <p class="ui no-print" style="display:flex;gap:1rem;flex-wrap:wrap">
+      <a href={`/${lang}/shabab/60s/${topic.id}/`}>{S.sb_sixty_title}</a> ·
+      <a href={`/${lang}/shabab/practice/${topic.id}/`}>{S.sb_practice_title}</a>
+    </p>
+  </div>
+  <style>
+    .gl-list { display: grid; gap: 10px; }
+    .gl-item { border: 1px solid var(--line); border-radius: 12px; padding: 10px 14px; background: var(--card); }
+    .gl-item dt { font-weight: 700; }
+    .gl-item dd { margin: .15rem 0 0; color: var(--muted); }
+  </style>
+</BaseLayout>
