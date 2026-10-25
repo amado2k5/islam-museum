@@ -151,7 +151,9 @@ describe("education: weight budgets and QR", () => {
   it("budget table names built routes with sane limits", async () => {
     const { BUDGETS } = await import("./check-weight.ts");
     for (const b of BUDGETS) {
-      const dynamic = /^\/ar\/(cards\/list|sighar\/teachers\/lessons|sighar\/read\/[a-z]+|learn\/teachers\/pathways|learn\/teachers\/quiz|learn\/teachers\/packs|[a-z]+)\/[a-z0-9-]+\/(print\/)?$/.test(b.route);
+      const dynamic =
+        /^\/ar\/(cards\/list|sighar\/teachers\/lessons|sighar\/read\/[a-z]+|learn\/teachers\/pathways|learn\/teachers\/quiz|learn\/teachers\/packs|[a-z]+)\/[a-z0-9-]+\/(print\/)?$/.test(b.route) ||
+        /^\/ar\/shabab\/(60s|glossary|practice|dilemmas|detective)\/[a-z0-9-]+\/$/.test(b.route);
       expect(routeBuilt(b.route.replace(/^\/ar/, "")) || dynamic, b.route).toBe(true);
       expect(b.html).toBeLessThanOrEqual(700 * 1024);
       expect(b.js).toBeLessThanOrEqual(30 * 1024);
