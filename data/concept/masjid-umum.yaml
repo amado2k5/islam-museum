@@ -15,6 +15,11 @@ sources:
 external_ids:
   wikidata: Q32815
 education:
+  did_you_know:
+    ar: "بيت العبادة الجامع للمسلمين؛ تطورت بنيته من مسجد النبي حول المصلى والقبلة والمنبر والصحن."
+    en: "The mosque, the Muslims' common house of worship, grew its plan from the Prophet's mosque around the prayer hall, qibla, minbar and courtyard."
+    ur: "مسجد مسلمانوں کا مشترکہ عبادت خانہ ہے؛ اس کی ساخت مسجدِ نبوی سے نمازی، قبلہ، منبر اور صحن کے گرد تیار ہوئی۔"
+    sources: [source/wikidata, source/al-masjid-fi-al-islam-azhar]
   levels: [sprouts, explorers, scholars]
   flagged_for_kids: true
   provenance: { generated_by: "Devin", model: "gemini-2.5-pro", run: "education-E2-batch2", note: "Leveled texts drafted from the record's own summary and prose; draft, pending the founder's review and scholar review of the child levels." }
@@ -22,3 +27,9 @@ status:
   review: draft
   completeness: 1
   generated_by: Devin (SWE-2 High), questions lane; via Wikidata, 2026-10-16
+provenance:
+  layer: own-research
+  source: "education fact engine batch 4 — did_you_know fact drafted in three languages from the record's own cited sources"
+  generated_by: Devin
+  model: "unknown"
+  run: "education-E3-facts-batch4"
