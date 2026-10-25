@@ -60,7 +60,4 @@ const rows = (n: number, per: number) => Math.ceil(n / per);
   .jm-legend { display:flex; gap:1rem; align-items:center; flex-wrap:wrap }
   @media print { .jm rect { fill: none; stroke:#999 } .jm rect[data-on] { fill:#9c9 } }
 </style>
-<script type="module">
-  import { initJourneyMap } from "../scripts/journeymap";
-  initJourneyMap();
-</script>
+<script src="../scripts/journeymap.ts"></script>
