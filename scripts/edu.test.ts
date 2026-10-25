@@ -706,3 +706,38 @@ describe("education: offline packs (E3 step 5, plan §5)", () => {
     expect(packPage.includes("pk_offline")).toBe(true);
   });
 });
+
+describe("education: Where am I? gentle (E3 step 6, plan §5)", () => {
+  const page = readFileSync("site/src/pages/[lang]/sighar/explorers/where.astro", "utf8");
+
+  it("edu/where.yaml has 12 rounds, each with two real options whose answer is among them", async () => {
+    const { loadWhere, viewWhere } = await import("../site/src/lib/where.ts");
+    const rounds = loadWhere();
+    expect(rounds.length).toBe(12);
+    for (const r of rounds) {
+      expect(r.options.length).toBe(2);
+      expect(r.options.includes(r.answer)).toBe(true);
+      for (const l of LANGS) expect(r.question[l].length, `${r.id} ${l}`).toBeGreaterThan(0);
+      const v = viewWhere(r, "en");
+      expect(v.options.filter((o) => o.right).length).toBe(1);
+      expect(v.answerLabel.length).toBeGreaterThan(0);
+    }
+  });
+
+  it("the page needs no JavaScript: every option reveals through <details>, and wrong guesses stay warm", () => {
+    expect(page.includes("<script")).toBe(false);
+    expect(page.includes("<details")).toBe(true);
+    expect(page.includes("wh_notquite")).toBe(true);
+    expect(page.includes("wh_yes")).toBe(true);
+    expect(page.includes("loadWhere()")).toBe(true);
+  });
+
+  it("the Explorers hub links the game and the wh_* strings exist in all three languages", () => {
+    const hub = readFileSync("site/src/pages/[lang]/sighar/explorers.astro", "utf8");
+    expect(hub.includes("/sighar/explorers/where/")).toBe(true);
+    for (const k of Object.keys(i18n("ar").edu).filter((k) => k.startsWith("wh_"))) {
+      for (const l of LANGS) expect(typeof i18n(l).edu[k] === "string" && i18n(l).edu[k].length > 0, `${l} ${k}`).toBe(true);
+      expect(i18n("ur").edu[k] === i18n("en").edu[k], `ur repeats en for ${k}`).toBe(false);
+    }
+  });
+});
