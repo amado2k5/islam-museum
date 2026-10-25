@@ -17,3 +17,6 @@ Al-Mas'udi relates that Umar ibn Hubayra sent to him in 103 AH with al-Sha'bi an
 
 ## In Ibn al-Nadim
 Ibn al-Nadim says he wrote for al-Rabi' ibn Ziyad in Khurasan and for Anas ibn Malik in Sabur. He was among those who gave the allegiance to Ibn al-Ash'ath; when that was defeated he went in to al-Hajjaj, who rebuked him and gave him safe conduct, and then he kept out of sight until he died. Among his books is a book on exegesis and a letter to Abd al-Malik ibn Marwan refuting the Qadariyya. {cite:fihrist-ibn-al-nadim p.558-559}
+
+## Al-Hasan al-Basri in Sheikh Omar Abdelkafy's lessons (episodes 2 and 3)
+The Sheikh relates that al-Hasan wept and said that if God tests them He would expose them and tear away their veils (needs_source). {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep02 00:07:00} He quotes his saying that the people of the world ate and we ate, they feared tomorrow and we are safe (needs_source). {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep03 00:51:00}

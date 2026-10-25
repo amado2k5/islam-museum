@@ -24,3 +24,6 @@ The market inspector must prevent short measure and cutting in measures, scales 
 
 ## Cross-reference
 Tatahhur and tathhir refer to the entry on purity and have no entry of their own. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.5310}
+
+## Short measure in Sheikh Omar Abdelkafy's lessons (episode 2)
+The Sheikh tells of two merchants, one of whom saw the other cheat in weighing, and he describes cheating on the scale between buyer and buyer (needs_source). {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep02 00:12:00} {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep02 00:12:30} He says that whoever tastes fruit in the markets without reckoning should hold himself to account, and that betrayal in small things is among the causes of fear (his view). {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep02 00:13:00} He says a small sin does not excuse its doer (his view). {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep02 00:13:30}

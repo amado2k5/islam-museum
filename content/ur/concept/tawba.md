@@ -26,3 +26,7 @@ translators: ["Claude Haiku 5.5 (claude-haiku-5-5), draft translation"]
 وہ توبہ میں تاخیر سے خبردار کرتے ہیں: موت مہلت نہیں دیتی، اور انسان ایک لمحہ بھی نہ آگے ہو سکتا ہے نہ پیچھے۔ {cite:assabile-omar-abdelkafy aadau-al-islam/ep04 00:12:00} {cite:assabile-omar-abdelkafy aadau-al-islam/ep04 00:12:30} قبر میں صرف نیک عمل نفع دیتا ہے۔ {cite:assabile-omar-abdelkafy aadau-al-islam/ep04 00:13:00}
 وہ کہتے ہیں کہ بندہ گناہ کرے پھر پلک جھپکنے جتنی دیر بھی ندامت کرے تو گناہ اس سے جھڑ جاتا ہے۔ {cite:assabile-omar-abdelkafy aadau-al-islam/ep04 00:14:30}
 وہ کہتے ہیں کہ توبہ کا پہلا تقاضا حقوق کو ان کے مالکوں تک پہنچانا ہے، اور حق کی طرف لوٹنا باطل پر ڈٹے رہنے سے بہتر ہے۔ {cite:assabile-omar-abdelkafy aadau-al-islam/ep04 00:16:30} {cite:assabile-omar-abdelkafy aadau-al-islam/ep04 00:18:30}
+
+## شیخ عمر عبدالکافی کے درسوں میں توبہ (قسط دو اور چار)
+شیخ کہتے ہیں کہ بندہ گناہ کرے، پھر ندامت کرے اور استغفار کرے تو اللہ اسے بخش دیتا ہے، اور جب بھی وہ توبہ کرتا ہے اللہ اسے بخشتا ہے (needs_source)۔ {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep02 00:04:00} {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep02 00:05:00} ان کے نزدیک سچی توبہ دل اور زبان دونوں سے شروع ہوتی ہے، اور جو توبہ کے بعد لوٹ جائے اسے صرف توبہ کا لفظ فائدہ نہیں دیتا (شیخ کی رائے)۔ {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep02 00:05:30}
+وہ مسجد کے دروازے پر امتحان کی مثال دیتے ہیں: توبہ پر ثابت قدمی کے لیے وقت درکار ہے، اور اللہ آزمائش کے بعد توبہ قبول کرتا ہے (شیخ کی رائے)۔ {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep02 00:06:00}

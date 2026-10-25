@@ -36,3 +36,6 @@ Assabile آرکائیو میں شیخ عمر عبد الکافی کے ریکار
 - معیشت کی بات میں غیر واضح مالی اعداد {cite:assabile-omar-abdelkafy aadau-al-islam/ep01 00:43:00}۔
 - قرض اور بینک کے سیاق میں ذکر کردہ 60 ہزار پاؤنڈ {cite:assabile-omar-abdelkafy aadau-al-islam/ep02 00:43:00}۔
 - خاندان کے سیاق میں بیس بچوں کی تعداد {cite:assabile-omar-abdelkafy aadau-al-islam/ep04 00:43:00}۔
+
+## سلسلہ «تفسیر القرآن الکریم» (اسابیل آرکائیو)
+یہ سلسلہ دس قسطوں پر مشتمل ہے اور جزء عم کی ابتدائی سورتوں کو پڑھاتا ہے: پہلے سورۃ النبأ اور پھر سورۃ النازعات۔ شیخ پہلی قسط کا آغاز سورۃ النبأ سے کرتے ہیں اور اس کے آغاز کو درس کا موضوع بناتے ہیں۔ {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep01} وہ بعد کی قسطوں میں عظیم خبر کی طرف لوٹتے ہیں۔ {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep02} {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep03} آخری قسطیں سورۃ النازعات کی طرف مڑتی ہیں، جس کا تعارف وہ آٹھویں قسط میں کرواتے ہیں۔ {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep08} نویں قسط میں وہ اب تک کے سلسلے کا خلاصہ دہراتے ہیں۔ {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep09} دسویں قسط بھی سورۃ النازعات سے متعلق ہے۔ {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep10}

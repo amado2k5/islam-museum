@@ -21,3 +21,7 @@ translators: []
 
 ## المماثلة في الإرث
 المماثلة في حساب الفرائض أن يكون أحد العددين مساويا للآخر، والفروض المقدرة في كتاب الله ستة: الثلثان والثلث والسدس والنصف والربع والثمن. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.15018} {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.15019}
+
+## الأمثال في درس الشيخ عمر عبد الكافي (الحلقة السابعة)
+يضرب الشيخ مثلا بجد توفي قبل خمسين أو مئة سنة، فلو كلّمه أحد عن المكالمات المصورة مع زملاء في بلاد بعيدة لما صدّقه، ويقول إن ذلك يجب ألا يمنعنا من تصديق ما لا نستوعبه من أمر الآخرة (رأيه). {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep07 00:02:30} {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep07 00:03:00}
+ويضرب مثل الفاكهة التي لها الشكل نفسه وتختلف في الطعم، فإن أكلها المرء في الدنيا أسقمته، وكذلك الجسد يأخذ ما ينفعه ويطرح الباقي (رأيه). {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep07 00:04:30} {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep07 00:05:00} ويقول إن الإسراف في الأكل في الدنيا يسبب عسرا في الهضم (رأيه). {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep07 00:05:30}

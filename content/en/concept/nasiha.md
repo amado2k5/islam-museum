@@ -14,3 +14,6 @@ He relates from Ibn al-Salah a detailed account of the counsel due to each of th
 
 ## Its standing
 Ibn Rajab relates from Abu Dawud that it is one of the hadiths on which jurisprudence turns, and from Muhammad ibn Aslam al-Tusi that it is one of the quarters of religion. {cite:ibn-rajab-jami-ulum-hikam p.193-204}
+
+## Sincere advice in Sheikh Omar Abdelkafy's lessons (episode 1)
+The Sheikh recalls that religion is sincere advice, and lists those to whom it is owed: to God, to His messenger, to the leaders of the Muslims and to their common folk (needs_source). {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep01 00:01:30}

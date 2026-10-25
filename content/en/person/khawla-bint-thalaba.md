@@ -29,3 +29,6 @@ Ibn al-Athir relates that Umar ibn al-Khattab passed an old woman and began talk
 - Her lineage is disputed: Ibn al-Athir gives one lineage, Thalaba ibn Malik ibn Thalaba ibn Asram ibn Fahr ibn Thalaba ibn Ghanm ibn Awf; elsewhere he gives a lineage linked to the Banu Malik ibn al-Dakhshum; and *Nisa' Hawl al-Rasul* says she was of the Banu Amr ibn Awf. We have not chosen between the reports here.
 - Other names given for her are "Khuwayla", "Jamila" and "Khawla daughter of Dulayj"; Ibn al-Athir says the first is the most correct and that the last two are not established.
 - Some reports attribute the account of the zihar to "Khawla daughter of al-Samit", and Ibn al-Athir takes her to be the same woman; we have not settled that here.
+
+## Khawla in Sheikh Omar Abdelkafy's lessons (episode 1)
+The Sheikh tells of the woman who complained to the Prophet about her husband, and says that the surah named after pleading was revealed; he says God heard what the Prophet did not hear, and that the woman spoke to the Prophet from the threshold (needs_source). {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep01 00:55:30} {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep01 00:56:00} {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep01 00:57:00} [[passage/quran-58-1|the surah of the Pleading (Al-Mujadila), in which the ruling was revealed]]
