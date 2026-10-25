@@ -58,11 +58,11 @@ lists' own order. Status markers: [ ] queued · [~] in a writer's hands · [x] m
 - [x] Hamza Yusuf — 1958–Living
 - [x] Tariq Ramadan — 1962–Living
 - [x] Fehmida Mirza — 1956–Living
-- [ ] Benazir Bhutto — 1953–2007
-- [ ] Megawati Sukarnoputri — 1947–Living
-- [ ] Halimah Yacob — 1954–Living
-- [ ] Roza Otunbayeva — 1950–Living
-- [ ] Atifete Jahjaga — 1975–Living
+- [x] Benazir Bhutto — 1953–2007
+- [x] Megawati Sukarnoputri — 1947–Living
+- [x] Halimah Yacob — 1954–Living
+- [x] Roza Otunbayeva — 1950–Living
+- [x] Atifete Jahjaga — 1975–Living
 - [ ] Umm Kulthum — 1898–1975
 - [ ] Fairuz — 1934–Living
 - [ ] Abdel Halim Hafez — 1929–1977
