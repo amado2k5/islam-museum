@@ -42,3 +42,7 @@ To move any site above `not-verified`, a founder decision is needed with: the ch
 Result applied: **sunnah.com** passed. 29 of 30 rows matched in full (96.7 percent) against Sunan Abi Dawud, ed. Muhyi al-Din Abd al-Hamid, al-Maktaba al-Asriya (Shamela book 1726), seed 20261026. Register and ledger now record `allowed_uses: [pointer, text, grades]`, with `samples` in the register.
 
 Recorded in the register as `status: reference-edition-dependent`, because the validator accepts only its listed statuses; the word "verified" is in the scope text and in the samples block. The validator does not yet check the 75 percent grade: it only checks `samples.valid` and the named edition. Adding the grade check to `scripts/check-authenticity.ts` is a separate change under the gates, to be proposed.
+
+## Added 24 Oct 2026: sunnielibrary.com
+
+Added at the founder request. Registered as T5, not-verified, pointer only: the site is run by volunteers, its book pages name no edition or editor on the listing, and a T5 carrier cannot validate an item (`docs/delegation/web-sources-rules.md`). Ledger record: `docs/authenticity-ledger/websites/sunnielibrary.com.yaml`.

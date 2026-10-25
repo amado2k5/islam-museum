@@ -142,4 +142,15 @@ sources:
     evidence: "Wikipedia articles linking to it: https://en.wikipedia.org/wiki/Hadith and https://en.wikipedia.org/wiki/Sunan_Abi_Dawud. Its own numbering was matched once against the named edition as a pointer (sample row, 24 Oct 2026, not valid as a sample check)."
     samples: {size: 30, rows_matched: 29, valid: true, edition: "Sunan Abi Dawud, ed. Muhyi al-Din Abd al-Hamid, al-Maktaba al-Asriya, Sidon-Beirut (Shamela book 1726)", pass_grade: 0.75, date: "2026-10-24", decided_by: founder}
 
+  - id: sunnielibrary.com
+    url: "https://www.sunnielibrary.com"
+    kind: website
+    allowed_uses: [pointer]
+    retrieved_on: "2026-10-24"
+    tier: T5
+    status: not-verified
+    scope: "Free Islamic eBook store run by volunteers (About page). Its book pages name no publisher, edition or editor that I found, and the site says it uploads only content it believes is free to use. Pointer only: a T5 carrier cannot validate an item."
+    checked_on: "2026-10-24"
+    evidence: "Site pages checked 24 Oct 2026: /library (listing by language and topic), /about-us (volunteer-run; no copyrighted uploads claimed; the disclaimer invites link sharing). No edition data seen on the listing page; book pages not sampled."
+
 blocklist: []   # domains found on phishing, malware or spam lists; checked by hand before each publication, with the date
