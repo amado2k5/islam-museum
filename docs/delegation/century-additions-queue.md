@@ -153,11 +153,11 @@ lists' own order. Status markers: [ ] queued · [~] in a writer's hands · [x] m
 - [ ] Kumar Sangakkara (Friend/Contemporary) — 1977–Living (flagged: the wave-21 Z1 writer's sources show he is not a Muslim — English Wikipedia's Personal life section, cited to The Guardian (2014) and NDTV Sports, calls him a devout Buddhist, and in his own words in a ThePapare interview: "I'm a Buddhist" — kept queued with this flag per Ahmad's ruling of 25 October 2026, the Guru Nanak / Kabir Das precedent; Ahmad may strike)
 - [x] Hashim Amla — 1983–Living
 - [x] Tabraiz Shamsi — 1990–Living
-- [ ] Farhaan Behardien — 1983–Living
-- [ ] Usman Khawaja — 1986–Living
-- [ ] Fawad Ahmed — 1982–Living
-- [ ] Sania Mirza — 1986–Living
-- [ ] Ons Jabeur — 1994–Living
+- [x] Farhaan Behardien — 1983–Living
+- [x] Usman Khawaja — 1986–Living
+- [x] Fawad Ahmed — 1982–Living
+- [x] Sania Mirza — 1986–Living
+- [x] Ons Jabeur — 1994–Living
 - [ ] Younes El Aynaoui — 1971–Living
 - [ ] Aisam-ul-Haq Qureshi — 1980–Living
 - [ ] Arshad Nadeem — 1997–Living

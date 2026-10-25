@@ -1,0 +1,37 @@
+id: person/ons-jabeur
+class: person
+label: { ar: "أنس جابر", en: "Ons Jabeur", ur: "اونس جبیر" }
+names:
+  - { value: "Ons Jabeur", kind: full }
+  - { value: "أنس جابر", kind: full }
+  - { value: "Minister of Happiness", kind: laqab }
+  - { value: "وزيرة السعادة", kind: laqab }
+gender: female
+summary:
+  ar: "لاعبة تنس تونسية، وُلدت في قصر هلال سنة 1994. بلغت التصنيف الثاني عالميا في يونيو 2022 وهو أعلى تصنيف حققه أي لاعب أو لاعبة من أفريقيا أو العرب في تاريخ تصنيفي رابطة المحترفات ورابطة المحترفين، وخاضت ثلاث نهائيات في البطولات الكبرى (ويمبلدون 2022 و2023 وأمريكا المفتوحة 2022) فكانت أول امرأة أفريقية وعربية تبلغ نهائي فردي في بطولة كبرى، وفازت بخمسة ألقاب فردية في جولة المحترفات منها بطولة مدريد 2022 من فئة الألف نقطة. تلقَّب في تونس بـ«وزيرة السعادة»، وأعلنت في يوليو 2025 توقفا مفتوحا عن التنس ثم أعلنت حملها الأول في نوفمبر 2025."
+  en: "Tunisian professional tennis player, born in Ksar Hellal in 1994. She reached a career-high singles ranking of world No. 2 in June 2022, the highest ranking achieved by any African or Arab player in WTA or ATP history, and contested three major singles finals (Wimbledon in 2022 and 2023, the US Open in 2022) as the first African and Arab woman to reach a major singles final. She has won five WTA singles titles, including the 2022 Madrid Open, a WTA 1000 event. Known in Tunisia as the 'Minister of Happiness', she announced an indefinite break from tennis in July 2025 and her first pregnancy in November 2025."
+  ur: "تیونس کی پیشہ ور ٹینس کھلاڑی، جو 1994 میں قصر ہلال میں پیدا ہوئیں۔ وہ جون 2022 میں عالمی نمبر 2 تک پہنچیں، جو کسی افریقی یا عرب کھلاڑی کا بلند ترین درجہ ہے، اور تین بڑے سنگلز فائنل کھیلے (ومبلڈن 2022 اور 2023، یو ایس اوپن 2022) — کسی بڑے سنگلز فائنل تک پہنچنے والی پہلی افریقی اور عرب خاتون۔ انھوں نے پانچ ڈبلیو ٹی اے سنگلز خطاب جیتے، جن میں 2022 کا میڈرڈ اوپن بھی شامل ہے، اور تیونس میں انھیں ”وزیرِ سعادت“ کہا جاتا ہے۔"
+roles: [athlete]
+wings: [people, living]
+born:
+  edtf: "1994-08-28"
+  hijri: "1415"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "Born on 28 August 1994 in Ksar Hellal, Tunisia, per the English, Arabic and Urdu Wikipedia articles and Wikidata; she grew up in nearby Sousse. No place entity for Ksar Hellal or Sousse exists in data/place/ (place/tunis is the capital city, a different town), so no born_in or lived_in relation is written. The Hijri year (1415) is derived by tabular conversion."
+  sources: [source/wikipedia-ons-jabeur-en, source/wikipedia-ons-jabeur-ar, source/wikipedia-ons-jabeur-ur, source/wikidata-ons-jabeur]
+faith:
+  - value: unknown
+    basis: unknown
+    note: "NOT RECORDED AS DOCUMENTED — no source names a school for her. The attestations, stated in full: the English article's Personal life section states 'Jabeur is a Muslim' and notes that she sometimes has to postpone Ramadan practices during tournaments — an attestation of a generic Muslim identity and of practice, naming no school (madhhab). Wikidata carries no religion claim for her at all. With one generic attestation and nothing naming a school, under the two-source rule and the founder's doubt rule the value stays unknown."
+    sources: [source/wikipedia-ons-jabeur-en, source/wikidata-ons-jabeur]
+external_ids: { wikidata: "Q290212" }
+sources: [source/wikipedia-ons-jabeur-en, source/wikipedia-ons-jabeur-ar, source/wikipedia-ons-jabeur-ur, source/wikidata-ons-jabeur]
+provenance:
+  layer: own-research
+  source: "English Wikipedia 'Ons Jabeur' (revision 1374297091), Arabic Wikipedia «أنس جابر» (revision 75661939) and Urdu Wikipedia «اونس جبیر» (revision 6791812), read on 25 October 2026; Wikidata Q290212 verified from the English article's wikibase_item returned by the Wikipedia API pageprops query on 25 October 2026, with claims read through the Wikidata API the same day. Her husband Karim Kamoun has no record in data/person/, so no spouse_of relation is written. This record is for Ons Jabeur, the Tunisian tennis player born in Ksar Hellal in 1994. No earlier record existed in data/person/ under ons-jabeur or any other spelling checked; this is a new build, not an enrichment."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: century-additions-22
+status: { review: published, completeness: 3, generated_by: "Muse (Muse Spark 1.3)" }
