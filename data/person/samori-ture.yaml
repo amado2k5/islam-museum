@@ -1,0 +1,45 @@
+id: person/samori-ture
+class: person
+label: { ar: "ساموري توري", en: "Samori Ture", ur: "سموری تورے" }
+names:
+  - { value: "ساموري توري", kind: full }
+  - { value: "Samori Toure", kind: full }
+  - { value: "Samory Touré", kind: alternate }
+gender: male
+summary:
+  ar: "مؤسس إمبراطورية واسولو في غرب أفريقيا (ح. 1830-1900) وحاكمها بلقب الإمام الأعلى (ألمامي). اعتنق الإسلام في شبابه، وبنى دولة امتدت عبر أجزاء من غينيا ومالي وسيراليون وساحل العاج الحالية، وأعلن الإسلام دينها الرسمي سنة 1884 وفرض تطبيقه، وقاوم التوسع الاستعماري الفرنسي ست عشرة سنة حتى أُسر سنة 1898 ونُفي إلى الغابون حيث توفي سنة 1900."
+  en: "Founder of the Wassoulou Empire in West Africa (c. 1830–1900) and its ruler with the title Almamy (imam). He embraced Islam as a young man, built a state spanning parts of present-day Guinea, Mali, Sierra Leone and Côte d'Ivoire, proclaimed Islam its state religion in 1884 and enforced its practice, and resisted French colonial expansion for sixteen years until his capture in 1898; he died in exile in Gabon in 1900."
+  ur: "مغربی افریقا میں سلطنتِ واسولو کے بانی (تقریباً 1830-1900) اور «المامی» (امام) کے لقب سے اس کے حکمران۔ انہوں نے جوانی میں اسلام قبول کیا، موجودہ گنی، مالی، سیرالیون اور آئیوری کوسٹ کے علاقوں پر مشتمل ریاست بنائی، 1884 میں اسلام کو اس کا سرکاری دین قرار دیا اور اس کے نفاذ کی نگرانی کی، اور فرانسیسی استعمار کے خلاف سولہ برس مزاحمت کی حتیٰ کہ 1898 میں گرفتار ہوئے؛ 1900 میں گبون میں جلاوطنی کے دوران وفات پائی۔"
+roles: [ruler, military-leader, religious-leader]
+wings: [people]
+born:
+  edtf: "1830~"
+  hijri: "1246"
+  calendar: gregorian
+  precision: year
+  status: approximate
+  derived: true
+  note: "Born about 1830 at Manyambaladugu (present-day Guinea) per the English and French articles; Wikidata gives only the year 1830 and records two places of birth, Manyambaladugu and Sanankoro — the English article notes the family moved to Sanankoro soon after his birth, so Sanankoro is the childhood home rather than a rival birthplace. The English article's short description and the Arabic article's infobox give 1828–1900; the record follows the main articles and Wikidata (c. 1830). The Hijri year is derived by tabular conversion of the approximate year. Neither birthplace has a place entity in the museum yet, so no born_in relation is written."
+  sources: [source/wikipedia-samori-ture-en, source/wikipedia-samori-ture-fr, source/wikidata-samori-ture]
+died:
+  edtf: "1900-06-02"
+  hijri: "1318"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "Died of pneumonia on 2 June 1900 in exile in Gabon — on Missanga Island near Ndjolé per the English article's infobox, at Ndjolé per the French article and Wikidata (P20). The Hijri year (1318) is derived by tabular conversion (5 Safar 1318). Ndjolé has no place entity in the museum yet, so no died_in relation is written."
+  sources: [source/wikipedia-samori-ture-en, source/wikipedia-samori-ture-fr, source/wikidata-samori-ture]
+faith:
+  - value: unknown
+    basis: tradition
+    note: "No two independent sources name a school for him, so he is left unclassified (doubt rule). What each source gives: the English article's lead describes him as 'a deeply religious Muslim of the Maliki school of fiqh of Sunni Islam' — the sentence is uncited at that point, and it is the only edition that names a school in its own words. The Arabic article repeats the same sentence in translation from the English, so it is not an independent attestation. The French article — the longest of the four, resting on the French Africanist scholarship — gives his religion in its infobox as Islam, generically, and narrates his Islamising statecraft at length without ever naming a madhhab. The German article attributes his state to the ideology of Islam and names no school. Wikidata records Islam (Q432) only. His personal practice as the sources give it — conversion to Islam in his youth in the service of the Cissé, study under the Mauritanian teacher Sidiki Cherif, the Almamy title, and his enforcement of Islam as state religion from 1884 — is public practice and state policy, which by the lane rule never counts as a school attestation. The Maliki affiliation named by the English lead is therefore recorded here as a single-source claim, not as a value."
+    sources: [source/wikipedia-samori-ture-en, source/wikipedia-samori-ture-fr, source/wikipedia-samori-ture-ar, source/wikipedia-samori-ture-de, source/wikidata-samori-ture]
+external_ids: { wikidata: "Q469314" }
+sources: [source/wikipedia-samori-ture-en, source/wikipedia-samori-ture-fr, source/wikipedia-samori-ture-ar, source/wikipedia-samori-ture-de, source/wikidata-samori-ture]
+provenance:
+  layer: own-research
+  source: "English Wikipedia (revision 1368174597), French Wikipedia «Samori Touré» (revision 232438102), Arabic Wikipedia «ساموري توري» (revision 72107867), German Wikipedia (revision 267873916), Wikidata Q469314 (verified via the API: human, born 1830, died 2 June 1900 at Ndjolé, religion Islam generically), checked 24 October 2026; Urdu Wikipedia has no article on him (sitelinks checked), so the Urdu prose is the museum's own translation"
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: century-additions-7
+status: { review: published, completeness: 3, generated_by: "Muse (Muse Spark 1.3)" }

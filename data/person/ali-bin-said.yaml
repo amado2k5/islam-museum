@@ -1,0 +1,50 @@
+id: person/ali-bin-said
+class: person
+label: { ar: "علي بن سعيد البوسعيدي", en: "Ali bin Said of Zanzibar", ur: "علی بن سعید" }
+names:
+  - { value: "علي بن سعيد", kind: full }
+  - { value: "Ali bin Said al-Busaidi", kind: full }
+gender: male
+summary:
+  ar: "علي بن سعيد البوسعيدي (1854-1893)، رابع سلاطين زنجبار من أسرة آل بوسعيد، حكم من 13 فبراير 1890 حتى وفاته في 5 مارس 1893. في عهده قُسّم ساحل شرق أفريقيا بين بريطانيا وألمانيا، وقبِلت زنجبار الحماية البريطانية، وباع الشريط الساحلي التنزاني لألمانيا، وأجّر موانئ بنادر لإيطاليا، ووضع أول دستور للسلطنة سنة 1891."
+  en: "Ali bin Said al-Busaidi (1854–1893), fourth Sultan of Zanzibar of the Al Bu Said dynasty, reigned from 13 February 1890 until his death on 5 March 1893. In his reign the East African coast was divided between Britain and Germany, Zanzibar accepted the British protectorate, he sold the Tanganyika coastal strip to Germany, leased the Benadir ports to Italy, and gave the sultanate its first constitution in 1891."
+  ur: "علی بن سعید البوسعیدی (1854-1893)، آل بوسعید خاندان کے زنجبار کے چوتھے سلطان، 13 فروری 1890 سے 5 مارچ 1893 کو اپنی وفات تک حکمران رہے۔ ان کے دور میں مشرقی افریقا کا ساحل برطانیہ اور جرمنی کے درمیان تقسیم ہوا، زنجبار نے برطانوی سرپرستی قبول کی، انہوں نے ساحلی پٹی جرمنی کو فروخت کی، بنادر کی بندرگاہیں اٹلی کو لیز پر دیں، اور 1891 میں سلطنت کا پہلا آئین جاری کیا۔"
+roles: [sultan]
+wings: [people]
+born:
+  edtf: "1854"
+  hijri: "1270"
+  calendar: gregorian
+  precision: year
+  status: historical
+  derived: true
+  note: "The year 1854 is given by all the articles and by Wikidata, which also gives the place as Muscat (P19); the Arabic article's infobox likewise gives Muscat, while the English article gives no birthplace — the born_in relation therefore rests on Wikidata and the Arabic infobox. No source gives a day or month. The Hijri year is derived by tabular conversion of 1854 (mid-year falls in Safar 1271; the year opened in Muharram 1270, and the record follows the convention of the year in which the Gregorian year began)."
+  sources: [source/wikipedia-ali-bin-said-ar, source/wikidata-ali-bin-said]
+died:
+  edtf: "1893-03-05"
+  hijri: "1310"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "All the articles and Wikidata give his death at Zanzibar on 5 March 1893, at the close of his reign (13 February 1890 – 5 March 1893). The Hijri year (1310) is derived by tabular conversion (16 Sha'ban 1310)."
+  sources: [source/wikipedia-ali-bin-said-en, source/wikipedia-ali-bin-said-ar, source/wikipedia-ali-bin-said-de, source/wikidata-ali-bin-said]
+relations:
+  - { type: born_in, target: place/muscat, sources: [source/wikidata-ali-bin-said, source/wikipedia-ali-bin-said-ar] }
+  - { type: died_in, target: place/zanzibar, sources: [source/wikipedia-ali-bin-said-en, source/wikipedia-ali-bin-said-ar, source/wikidata-ali-bin-said] }
+  - { type: sibling_of, target: person/barghash-ibn-said-al-busaidi, sources: [source/wikipedia-ali-bin-said-en, source/wikipedia-ali-bin-said-ar] }
+  - { type: sibling_of, target: person/khalifah-ibn-said-al-busaidi, sources: [source/wikipedia-ali-bin-said-en, source/wikipedia-ali-bin-said-ar] }
+  - { type: successor_of, target: person/khalifah-ibn-said-al-busaidi, sources: [source/wikipedia-ali-bin-said-en, source/wikipedia-ali-bin-said-ar] }
+faith:
+  - value: ibadi
+    basis: documented
+    note: "Stated basis, as the lane rule requires for a dynastic attestation: no source fetched names Ali bin Said's personal religion — his own English, Arabic and German articles are all silent on it, and Wikidata carries no religion (P140) statement for him at all. What the sources do attest, twice and independently, is the Ibadi affiliation of the house and of the very sultanate he headed. (1) The English article 'Al Bu Said dynasty' records the house's traditions in its infobox as 'Ibadi Islam', counts the Sultanate of Zanzibar (1856–1964) among the house's realms and its Zanzibar royal family among its branches, and is categorised among Omani Ibadi Muslims. (2) The English article 'Ibadism', a separate article on the school itself resting on Hoffman (2012) and Lewicki (1971), lists among the Ibadi dynasties 'Al Bu Said dynasty: since 1744', with the sub-entry 'Zanzibari branch: 1856–1964' — the exact span within which Ali reigned as the branch's sultan (1890–1893) — records Ibadis as present in Zanzibar, and lists the last Zanzibar sultan, Jamshid bin Abdullah, among notable Ibadis. Corroboration at the family's head: the article on his father records Said bin Sultan's own religion as Ibadi Islam. On that stated basis — the dynasty's attested Ibadi tradition as it applies to the Zanzibar sultanate he himself headed — the value ibadi is recorded. It is NOT a silent dynastic default: readers should note that the attestation is of the house and its Zanzibar branch, not a statement about Ali personally, and the Britannica entry on the dynasty ('Muslim dynasty') does not corroborate the Ibadi point and is not cited for it."
+    sources: [source/wikipedia-al-bu-said-dynasty-en, source/wikipedia-ibadism-en, source/wikipedia-said-bin-sultan-en]
+external_ids: { wikidata: "Q423643" }
+sources: [source/wikipedia-ali-bin-said-en, source/wikipedia-ali-bin-said-ar, source/wikipedia-ali-bin-said-de, source/wikipedia-al-bu-said-dynasty-en, source/wikipedia-ibadism-en, source/wikipedia-said-bin-sultan-en, source/wikidata-ali-bin-said]
+provenance:
+  layer: own-research
+  source: "English Wikipedia (revision 1342767958), Arabic Wikipedia «علي بن سعيد البوسعيدي» (revision 65086232), German Wikipedia (revision 252629907), English Wikipedia 'Al Bu Said dynasty' (revision 1379283091) and 'Ibadism' (revision 1381188604) and 'Said bin Sultan' (revision 1379282827), Wikidata Q423643 (verified via the API: human, born 1854 at Muscat, died 5 March 1893 at Zanzibar, no religion statement), checked 24 October 2026"
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: century-additions-7
+status: { review: published, completeness: 3, generated_by: "Muse (Muse Spark 1.3)" }
