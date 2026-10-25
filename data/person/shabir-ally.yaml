@@ -1,0 +1,33 @@
+id: person/shabir-ally
+class: person
+label: { ar: "شبير علي", en: "Shabir Ally", ur: "شبیر علی" }
+names:
+  - { value: "شبير علي", kind: full }
+  - { value: "Shabir Ally", kind: full }
+gender: male
+summary:
+  ar: "داعية ومناظر غوياني كندي، وُلد في غيانا نحو سنة 1953 وانتقل إلى كندا سنة 1978، ويرأس مركز المعلومات والدعوة الدولي في تورنتو، ويقدّم البرنامج التلفزيوني والرقمي «دع القرآن يتحدث» (Let the Quran Speak)، وله كتب ومناظرات واسعة في مقارنة الأديان."
+  en: "Guyanese-Canadian preacher and debater, born in Guyana around 1953 and moved to Canada in 1978. He is president of the Islamic Information & Dawah Centre International in Toronto and presents the television and online programme Let the Quran Speak; he has written and debated widely on comparative religion."
+  ur: "گویانی نژاد کینیڈین مبلغ اور مناظر، جو تقریباً 1953 میں گویانہ میں پیدا ہوئے اور 1978 میں کینیڈا منتقل ہوئے۔ وہ ٹورنٹو میں بین الاقوامی مرکزِ معلومات و دعوت کے صدر ہیں اور ٹیلی ویژن و آن لائن پروگرام «قرآن کو بولنے دو» پیش کرتے ہیں۔"
+roles: [preacher, writer]
+wings: [people, living]
+born:
+  edtf: "1953~"
+  calendar: gregorian
+  precision: year
+  status: historical
+  derived: false
+  note: "Birth year from English Wikipedia (c. 1953, Guyana); the Arabic article confirms Guyana as the birthplace without a year. No Hijri year is recorded because the Gregorian year itself is circa."
+  sources: [source/wikipedia-shabir-ally-en, source/wikipedia-shabir-ally-ar]
+faith:
+  - value: unknown
+    basis: unknown
+    note: "The English Wikipedia infobox gives his denomination as Sunni and his jurisprudence as Hanafi. The Arabic Wikipedia gives only Islam, and no second independent source names a school — no Wikidata item could be verified through the sources consulted. Not recorded as sunni until a second source confirms it, under the same rule applied to Amr Khaled."
+    sources: [source/wikipedia-shabir-ally-en, source/wikipedia-shabir-ally-ar]
+sources: [source/wikipedia-shabir-ally-en, source/wikipedia-shabir-ally-ar, source/youtube-let-the-quran-speak]
+provenance:
+  layer: own-research
+  source: "English Wikipedia 'Shabir Ally', Arabic Wikipedia, and the programme's official YouTube channel @QuranSpeaks (419,000 subscribers in the founder's channel harvest), as cited in those articles and checked on 24 October 2026. No Wikidata item identifier could be verified for him through the sources consulted."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: modern-figures-batch-7
+status: { review: published, completeness: 3, generated_by: "Muse (Muse Spark 1.3)" }
