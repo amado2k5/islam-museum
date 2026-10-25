@@ -23,16 +23,16 @@ lists' own order. Status markers: [ ] queued · [~] in a writer's hands · [x] m
 - [x] Mostafa El-Sayed — 1933–Living
 - [x] Rana Dajani — 1964–Living
 - [x] Uğur Şahin — 1965–Living
-- [ ] Özlem Türeci — 1967–Living
-- [ ] Anousheh Ansari — 1966–Living
-- [ ] Sultan bin Salman Al Saud — 1956–Living
-- [ ] Sheikh Muszaphar Shukor — 1972–Living
-- [ ] A. P. J. Abdul Kalam — 1931–2015
-- [ ] Ali Javan — 1926–2016
-- [ ] Farouk El-Baz — 1938–Living
-- [ ] Omar M. Yaghi — 1965–Living
-- [ ] Jackie Aina — 1987–Living
-- [ ] Mo Salah (Mohamed Salah) — 1992–Living
+- [~] Özlem Türeci — 1967–Living
+- [~] Anousheh Ansari — 1966–Living
+- [~] Sultan bin Salman Al Saud — 1956–Living
+- [~] Sheikh Muszaphar Shukor — 1972–Living
+- [~] A. P. J. Abdul Kalam — 1931–2015
+- [~] Ali Javan — 1926–2016
+- [~] Farouk El-Baz — 1938–Living
+- [~] Omar M. Yaghi — 1965–Living
+- [~] Jackie Aina — 1987–Living
+- [~] Mo Salah (Mohamed Salah) — 1992–Living
 - [ ] Khabib Nurmagomedov — 1988–Living
 - [ ] Hakeem Olajuwon — 1963–Living
 - [ ] Ibtihaj Muhammad — 1985–Living
@@ -205,7 +205,7 @@ lists' own order. Status markers: [ ] queued · [~] in a writer's hands · [x] m
 - [x] Zakir Naik — 1965–Living
 - [ ] Dr. Israr Ahmed — 1932–2010
 - [ ] Dr. Tahir-ul-Qadri — 1951–Living
-- [ ] Javed Ahmad Ghamidi — 1951–Living
+- [x] Javed Ahmad Ghamidi — 1951–Living (built under Batch 7 O1, Ghamidi Center channel)
 - [x] Omar Suleiman — 1986–Living
 - [ ] Suhaib Webb — 1972–Living
 - [ ] Warith Deen Mohammed — 1933–2008
