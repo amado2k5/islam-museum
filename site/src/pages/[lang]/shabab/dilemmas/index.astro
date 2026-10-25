@@ -1,10 +1,10 @@
 ---
 // Dilemma index for the teen wing (E4 step 4): every card grouped by band.
-import BaseLayout from "../../../layouts/BaseLayout.astro";
-import { ui, LANGS, type Lang } from "../../../lib/i18n";
-import { loadDilemmas } from "../../../lib/dilemmas";
-import { viewBands } from "../../../lib/edu";
-import "../../../styles/edu.css";
+import BaseLayout from "../../../../layouts/BaseLayout.astro";
+import { ui, LANGS, type Lang } from "../../../../lib/i18n";
+import { loadDilemmas } from "../../../../lib/dilemmas";
+import { viewBands } from "../../../../lib/edu";
+import "../../../../styles/edu.css";
 
 export function getStaticPaths() { return LANGS.map((lang) => ({ params: { lang }, props: { lang } })); }
 const { lang } = Astro.props as { lang: Lang };

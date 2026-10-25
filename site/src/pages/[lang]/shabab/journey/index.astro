@@ -1,12 +1,12 @@
 ---
 // Journey Map (E4 step 6): the teen territories coloured from the passport.
-import BaseLayout from "../../../layouts/BaseLayout.astro";
-import JourneyMap from "../../../components/JourneyMap.astro";
-import { ui, LANGS, type Lang } from "../../../lib/i18n";
-import { loadTopics } from "../../../lib/topics";
-import { loadDilemmas } from "../../../lib/dilemmas";
-import { loadDetective } from "../../../lib/detective";
-import "../../../styles/edu.css";
+import BaseLayout from "../../../../layouts/BaseLayout.astro";
+import JourneyMap from "../../../../components/JourneyMap.astro";
+import { ui, LANGS, type Lang } from "../../../../lib/i18n";
+import { loadTopics } from "../../../../lib/topics";
+import { loadDilemmas } from "../../../../lib/dilemmas";
+import { loadDetective } from "../../../../lib/detective";
+import "../../../../styles/edu.css";
 
 export function getStaticPaths() { return LANGS.map((lang) => ({ params: { lang }, props: { lang } })); }
 const { lang } = Astro.props as { lang: Lang };
