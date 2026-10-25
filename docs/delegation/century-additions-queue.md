@@ -93,11 +93,11 @@ lists' own order. Status markers: [ ] queued · [~] in a writer's hands · [x] m
 - [x] Gilles Kepel (Contributor) — 1955–Living
 - [x] Eboo Patel — 1975–Living
 - [x] Rami Nashashibi — 1972–Living
-- [ ] Linda Sarsour — 1980–Living
-- [ ] Zahra Billoo — 1983–Living
-- [ ] Ibrahim Hooper — 1955–Living
-- [ ] Keith Ellison — 1963–Living
-- [ ] Andre Carson — 1974–Living
+- [x] Linda Sarsour — 1980–Living
+- [x] Zahra Billoo — 1983–Living
+- [x] Ibrahim Hooper — 1955–Living
+- [x] Keith Ellison — 1963–Living
+- [x] Andre Carson — 1974–Living
 - [ ] Salima Mazari — 1980–Living
 - [ ] Fawzia Koofi — 1975–Living
 - [ ] Sima Samar — 1957–Living
