@@ -20,3 +20,6 @@ He says hypocrisy in Medina was led by Abdullah ibn Ubayy ibn Salul, and that th
 He divides hypocrisy into three kinds: in belief, in worship, and in conduct. {cite:assabile-omar-abdelkafy aadau-al-islam/ep03 00:22:00}
 For him, hypocrisy in worship is showing fasting or deeds before people while not doing them in private. {cite:assabile-omar-abdelkafy aadau-al-islam/ep03 00:27:00} Hypocrisy in conduct is showing the face of Abu Bakr while the heart is that of Abu Jahl and Abu Lahab. {cite:assabile-omar-abdelkafy aadau-al-islam/ep03 00:27:30}
 He says the hypocrite does not show mercy to believers, and that a heart filled with mercy does not know the way of hypocrisy. {cite:assabile-omar-abdelkafy aadau-al-islam/ep03 00:22:00} {cite:assabile-omar-abdelkafy aadau-al-islam/ep03 00:50:00}
+
+## Hypocrisy of conduct in the lectures
+The speaker distinguishes a person who behaves one way at work and another way at home, and calls this hypocrisy of conduct {cite:assabile-omar-abdelkafy aadau-al-islam/ep03 00:51:00}.

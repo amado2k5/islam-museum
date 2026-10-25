@@ -27,3 +27,7 @@ translators: []
 
 ## خلاصة الشيخ
 يقول إن الله لا يرحم من لم يرحم بعضهم بعضا من عباده. {cite:assabile-omar-abdelkafy aadau-al-islam/ep03 00:21:00} ويقول إن القلب الذي فيه رحمة لا يعرف طريق النفاق. {cite:assabile-omar-abdelkafy aadau-al-islam/ep03 00:50:00}
+
+## الرحمة بين الزوجين وفي تربية الأبناء
+يفرّق الشيخ بين المودة والرحمة بين الزوجين، فيجعل المودة في أيام الخطوبة حين يتجمل كل منهما للآخر. {cite:assabile-omar-abdelkafy al-hoquq/ep02 00:05:30} {cite:assabile-omar-abdelkafy al-hoquq/ep02 00:06:00}
+ويروي أن رجلا قال للنبي إن له عشرة من الأولاد (needs_source: العدد يرد مرة واحدة في التسجيل) لم يقبّل أحدا منهم، فقال له النبي إن من لا يرحم لا يُرحم. {cite:assabile-omar-abdelkafy al-hoquq/ep05 00:09:30} {cite:assabile-omar-abdelkafy al-hoquq/ep05 00:10:00}

@@ -12,3 +12,7 @@ The hadith links the pursuit of knowledge with gatherings of remembrance in the 
 
 ## The end of the hadith
 The hadith ends by saying that it is deeds that save, not lineage: "Whoever is held back by his deeds, his lineage will not hasten him." {cite:ibn-rajab-jami-ulum-hikam p.731}
+
+## From the lectures: happiness in beneficial knowledge
+The speaker says that happiness is not in gathering wealth, but in God giving a person knowledge from which he benefits {cite:assabile-omar-abdelkafy aadau-al-islam/ep04 00:30:30}.
+He urges respect for people of knowledge and says that whoever humbles himself before God is raised by Him {cite:assabile-omar-abdelkafy aadau-al-islam/ep04 00:32:00}.

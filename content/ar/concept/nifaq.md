@@ -20,3 +20,6 @@ translators: []
 ويقسم النفاق إلى ثلاثة أنواع: نفاق في العقيدة، ونفاق في العبادة، ونفاق في السلوك. {cite:assabile-omar-abdelkafy aadau-al-islam/ep03 00:22:00}
 ومن نفاق العبادة عنده أن يُظهر الإنسان الصيام والعمل أمام الناس وهو لا يفعله في خلوته. {cite:assabile-omar-abdelkafy aadau-al-islam/ep03 00:27:00} ومن نفاق السلوك أن يظهر بوجه أبي بكر وقلبه قلب أبي جهل وأبي لهب. {cite:assabile-omar-abdelkafy aadau-al-islam/ep03 00:27:30}
 ويقول إن المنافق لا يرحم المؤمن، وإن القلب الذي فيه رحمة لا يعرف طريق النفاق. {cite:assabile-omar-abdelkafy aadau-al-islam/ep03 00:22:00} {cite:assabile-omar-abdelkafy aadau-al-islam/ep03 00:50:00}
+
+## نفاق السلوك في حلقات «الحقوق»
+يفرّق الشيخ بين من يكون له حال في العمل وحال في البيت، ويعد ذلك نفاق السلوك {cite:assabile-omar-abdelkafy aadau-al-islam/ep03 00:51:00}.

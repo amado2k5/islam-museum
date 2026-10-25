@@ -57,3 +57,13 @@ translators: []
 ## المراجع
 - المصادر المعرّفة المستشهد بها أعلاه، وهي مسجلة في `data/source/`.
 - ترجمات وتعديلات لاحقة للمقال تحتاج إلى مراجعة دورية مع تواريخ تحديث واضحة.
+
+## أرقام وتواريخ في التسجيلات تحتاج إلى مصدر
+هذه الأرقام والتواريخ قالها الشيخ في تسجيلات أرشيف «أساس» (assabile.com)، ولم يُتحقق منها بعد، فلا تُعد حقائق (needs_source):
+- تاريخ يُذكر في سياق أحداث في جمهورية ويقع فيه التاريخ 1930 {cite:assabile-omar-abdelkafy al-hoquq/ep03 00:16:30}.
+- عدد 1920 في الكلام عن علماء وأحداث {cite:assabile-omar-abdelkafy al-hoquq/ep03 00:37:00}.
+- الأرقام «180 دولارا» و«73 مليون دولار» {cite:assabile-omar-abdelkafy al-hoquq/ep03 00:37:30}.
+- أعداد الإخوة والأخوات في سياق حديثه عن الأسرة، وهي أرقام متداخلة في النص {cite:assabile-omar-abdelkafy aadau-al-islam/ep01 00:42:30}.
+- أرقام مالية غير واضحة في سياق الكلام عن الاقتصاد {cite:assabile-omar-abdelkafy aadau-al-islam/ep01 00:43:00}.
+- مبلغ 60 ألف جنيه يُذكر في سياق قرض وبنك {cite:assabile-omar-abdelkafy aadau-al-islam/ep02 00:43:00}.
+- عدد الأبناء ويُذكر بوصفه عشرين في سياق عائلة {cite:assabile-omar-abdelkafy aadau-al-islam/ep04 00:43:00}.
