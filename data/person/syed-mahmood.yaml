@@ -1,0 +1,49 @@
+id: person/syed-mahmood
+class: person
+label: { ar: "سيد محمود", en: "Syed Mahmood", ur: "سید محمود" }
+names:
+  - { value: "Syed Mahmood", kind: full }
+  - { value: "Sayyid Mahmud", kind: alternate }
+  - { value: "سيد محمود", kind: full }
+  - { value: "Justice", kind: laqab }
+gender: male
+summary:
+  ar: "قاضٍ وفقيه قانوني هندي (1850-1903) من دلهي، الابن الثاني لسيد أحمد خان. درس في إنجلترا ودُعي إلى نقابة المحاماة سنة 1872، ثم صار قاضي محكمة الله آباد العليا (1887-1893)، أولَ هندي يُعيَّن فيها وأولَ مسلم يتولى قضاء محكمة عليا في الهند البريطانية، واشتهر بأحكامه الطويلة المنشورة في تقارير القانون الهندية. ساعد والده في تأسيس الكلية الشرقية الأنجلو-محمدية في عليكرة وكتب «تاريخ التعليم الإنجليزي في الهند» (1895)."
+  en: "Indian judge and jurist (1850–1903) of Delhi, the second son of Syed Ahmad Khan. Educated in England and called to the Bar in 1872, he became a puisne judge of the Allahabad High Court (1887–1893) — the first Indian appointed to that court and the first Muslim to serve as a High Court judge in British India — known for his long judgments published in the Indian Law Reports. He helped his father found the Muhammadan Anglo-Oriental College at Aligarh and wrote A History of English Education in India (1895)."
+  ur: "ہندوستانی جج اور ماہر قانون (1850ء–1903ء) جن کا تعلق دلی سے تھا اور جو سر سید احمد خان کے دوسرے بیٹے تھے۔ انگلستان میں تعلیم پائی اور 1872ء میں بار میں داخل ہوئے؛ الٰہ آباد ہائی کورٹ کے جج بنے (1887ء–1893ء)، اس عدالت میں مقرر ہونے والے پہلے ہندوستانی اور برطانوی ہند میں ہائی کورٹ کے پہلے مسلم جج۔ انھوں نے والد کی علی گڑھ میں محمڈن اینگلو اورینٹل کالج کے قیام میں مدد کی۔"
+roles: [jurist, writer, teacher]
+wings: [people]
+born:
+  edtf: "1850-05-24"
+  hijri: "1266"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "Born in Delhi on 24 May 1850, the second son of Syed Ahmad Khan: the English and Urdu articles and Wikidata agree. The Hijri year (1266) is derived by tabular conversion (24 May 1850 falls in Rajab 1266)."
+  sources: [source/wikipedia-syed-mahmood-en, source/wikipedia-syed-mahmood-ur, source/wikidata-syed-mahmood]
+died:
+  edtf: "1903-05-08"
+  hijri: "1321"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "Died at Sitapur on 8 May 1903, aged 52: the English and Urdu articles and Wikidata agree. (A stale mirror of the English article shows 1943 in its infobox; the article's lead, text and all other sources give 1903, which is followed.) The Hijri year (1321) is derived by tabular conversion (8 May 1903 falls in Safar 1321). Sitapur has no place entity in the museum yet, so no died_in relation is written."
+  sources: [source/wikipedia-syed-mahmood-en, source/wikipedia-syed-mahmood-ur, source/wikidata-syed-mahmood]
+relations:
+  - { type: born_in, target: place/delhi, sources: [source/wikipedia-syed-mahmood-en] }
+  - { type: child_of, target: person/syed-ahmad-khan, sources: [source/wikipedia-syed-mahmood-en, source/wikipedia-syed-mahmood-ur] }
+faith:
+  - value: unknown
+    basis: unknown
+    note: "NOT RECORDED AS DOCUMENTED — no fetched source names a school for Mahmood himself. The English and Urdu articles name no school; Wikidata (P140) gives only Islam. His father Syed Ahmad Khan's outlook is the father's, not the son's attestation, and his Aligarh college work and his command of Muslim law as a judge are affiliations and professional learning, not schools (the lane's near-miss rule). Under the lane's two-source rule and the founder's doubt rule the value stays unknown."
+    sources: [source/wikipedia-syed-mahmood-en, source/wikipedia-syed-mahmood-ur, source/wikidata-syed-mahmood]
+external_ids: { wikidata: "Q7660363" }
+sources: [source/wikipedia-syed-mahmood-en, source/wikipedia-syed-mahmood-ur, source/wikidata-syed-mahmood]
+provenance:
+  layer: own-research
+  source: "English Wikipedia 'Syed Mahmood', rev. 1372262827 of 31 August 2026; Urdu Wikipedia «سید محمود», rev. 11800964 of 18 August 2026; Wikidata Q7660363 read via the API. Identity verified from Mahmood's own article (not his father's). No Arabic Wikipedia article exists for him. All read in full on 25 October 2026."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: century-additions-18
+status: { review: published, completeness: 3, generated_by: "Muse (Muse Spark 1.3)" }
