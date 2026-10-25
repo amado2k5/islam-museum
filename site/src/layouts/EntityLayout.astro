@@ -39,9 +39,14 @@ const brief = prose?.sections.find((s) => sectionRole(s.heading) === "brief");
 // --- dates for the header line
 // Machine-readable form for <time datetime>: only a plain EDTF date/year qualifies;
 // approximations (~), uncertainty (?) and intervals stay text-only (HTML datetime can't express them).
+// datetime is proleptic Gregorian, so Julian-marked dates are also left as text
+// (same rule as dates.ts: no calendar declared means Julian before 1583).
 const machineDate = (d: any): string | undefined => {
   const e = d?.edtf;
-  return e && /^-?\d{1,4}(-\d{2}(-\d{2})?)?$/.test(e) ? e : undefined;
+  if (!e || !/^-?\d{1,4}(-\d{2}(-\d{2})?)?$/.test(e)) return undefined;
+  const y = Number(e.match(/^-?\d{1,4}/)![0]);
+  const cal = d.calendar ?? (y < 1583 ? "julian" : "gregorian");
+  return cal === "gregorian" ? e : undefined;
 };
 const dateLine = (() => {
   const pair = (a: any, b: any) => {
