@@ -30,7 +30,7 @@ Founder's decisions, 25 October 2026. Each one is also recorded in the progress 
 4. **Add everything intelligible, on any topic.** Nothing is dropped as "off-topic". If a topic does not exist in `data/`, create it.
 5. **Garbled or unclear windows may be discarded** (founder, 25 Oct 2026). Do not write them as content and do not re-listen to them.
 6. **Repetition loops are not speech** and stay out.
-7. **Contested matters are included, tagged.** Put each contested passage in a `:::perspectives` block with the speaker's view first, labelled as his view, and mark the other views "not yet sourced". Set `sensitivity: contested` on the record. The site shows a "Contested" notice for that tag.
+7. **Contested matters are included, tagged.** Put each contested passage in a `:::perspectives` block with the speaker's view first, labelled as his view, and mark the other views "not yet sourced". Set `sensitivity: contested` on the record. The site shows a "Contested" notice for that tag. The validator requires the first perspectives entry to be Sunni: until the founder decides otherwise, use a Sunni entry marked "not yet sourced" first, then the speaker's view, then the academic and other views, also marked "not yet sourced". Set `sensitivity: polemical` on any record that attacks a group or a person.
 8. **Individual figures and claims are added**, with `needs_source` where they cannot be verified. Do not drop them.
 9. **Qur'an and hadith wording is never typed as scripture.** Refer to a passage as `[[passage/quran-<sura>-<aya>|label]]` only when the speaker clearly names it, and cite what he says about it.
 10. **Every excluded item is reported** with its reason, the gate it failed and its override, in the progress file's excluded-items table, and in every progress report to the founder. Nothing is re-entered without the founder's written authorisation.
@@ -39,6 +39,7 @@ Founder's decisions, 25 October 2026. Each one is also recorded in the progress 
 13. **Arabic first.** `content/ar/<class>/<slug>.md` first, then `content/en/...` and `content/ur/...` with the same facts and citations. `label.ar` and `summary.ar` are required.
 15. **Opinions and rants are content too** (founder, 25 Oct 2026). If a passage is the speaker's own opinion, criticism or rant and not a fact of a known category (person, place, event, practice, concept), include it anyway. Place it where it fits best: a `question` entity (the issue, with the speaker's view as a labelled perspective and any tensions) when it answers a question; a `concept` with the closest category (for example `social` or `ethical`) when it is an idea; or the person's record, in a section headed as the speaker's opinion, when it is about a person. Label the view in the perspectives block as "speaker's view (opinion)" or "speaker's view (rant)". Set `sensitivity: polemical` when it attacks a group or a person (described and cited, never reproduced in quotation). Set `sensitivity: contested` when the matter is disputed. Do not drop opinions for lack of a category.
 14. **Batches:** at most 25 entities per commit. The commit message names the batch.
+16. **Include everything, categorised** (founder, 25 Oct 2026; full rule in `docs/agents/audio-video-harvest.md`, section "Include everything, and categorise it"). Every intelligible passage is used, whatever its topic; opinions and rants are filed under the closest category with the speaker's view labelled; unverifiable figures are kept with `needs_source`; garbled material may be discarded; repetition loops are not speech.
 
 ## 3. Where everything is (the Mac that did the work)
 
@@ -133,7 +134,7 @@ Total remaining: 613 lessons. (The archive's counts are in `docs/agents/lanes/om
 
 For each series once its transcripts exist:
 1. Read the series' `epNN.txt` files. Lines are `[hh:mm:ss] text`, one 30-second window per line.
-2. Identify every intelligible window (any topic). Skip garbled windows (discarded by decision 5) and repetition loops (decision 6). Note the windows you skip, with the reason.
+2. Identify every intelligible window (any topic). Scan every window not yet cited for opinions, criticism and rants as well as facts; file each under the closest category (decision 15). Report the count of opinions and rants separately. Skip garbled windows (discarded by decision 5) and repetition loops (decision 6). Note the windows you skip, with the reason.
 3. Search `data/` for an existing entity first (by slug and by Arabic label). Extend it with an appended cited section rather than overwrite. Create new entities where none exist, in the right class (concept, practice, person, event, place, work).
 4. For each entity: `data/<class>/<slug>.yaml` (label, summary, sources including `source/assabile-omar-abdelkafy`, provenance with the engine and the transcripts named, `status: { review: published, generated_by: ... }`) and `content/{ar,en,ur}/<class>/<slug>.md` with every fact sentence ending in `{cite:assabile-omar-abdelkafy <series>/epNN hh:mm:ss>}`.
 5. Quotations at most 40 words, in quotation marks, with the anchor.
