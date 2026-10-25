@@ -1,0 +1,47 @@
+id: person/almamy-suluku
+class: person
+label: { ar: "ألمامي سولوكو", en: "Almamy Suluku", ur: "المامی سولوکو" }
+names:
+  - { value: "ألمامي سولوكو", kind: full }
+  - { value: "Almamy Suluku", kind: full }
+  - { value: "Gbaku", kind: laqab }
+gender: male
+summary:
+  ar: "ألمامي سولوكو (ح. 1820 – 1906)، الحاكم الليمبي لبلاد بيريوا في شمال سيراليون، وابن زعيمها سانكيلاي. صار في شبابه كوروغبا (قائد الحرب) فجعل بيريوا من أكبر ممالك سيراليون، وتُوّج گباكو (ملكًا) عليها، وأغناها بحماية التجارة المارة بعاصمتها بومبان إلى فريتاون. حافظ على استقلاله بالمناورة السياسية وحدها: فحين احتلت قوات ساموري توريه الماندينكا بيريوا سنة 1884 تظاهر بالتعاون معها وهو يحذّر البريطانيين سرًا حتى انسحبت، وفي التسعينيات أظهر الولاء للبريطانيين وفعل ما يشاء، وحين اندلع تمرد 1898 أرسل سرًا المحاربين والسلاح إلى باي بوريه ثم كتب للبريطانيين يعرض وساطته. رفضت رعيته تقسيم مملكته ما دام حيًا، وحين سأله مسؤول بريطاني شيخًا أن يسمي خليفته أجاب: «سولوكو لن يموت». توفي سنة 1906."
+  en: "Almamy Suluku (c. 1820 – 1906), the Limba ruler of the Biriwa country in northern Sierra Leone and son of its chief Sankailay. As a young man he became Kurugba (war captain) and made Biriwa one of the largest kingdoms in Sierra Leone, and was crowned Gbaku (king) over it; he enriched it by fostering and protecting the trade that passed through its capital Bumban on the way to Freetown. He kept his independence by political manoeuvre alone: when Samori Touré's Mandinka forces occupied Biriwa in 1884 he pretended to co-operate with them while secretly warning the British until they withdrew; in the 1890s he professed loyalty to the British while doing exactly as he pleased; and when the 1898 rebellion broke out he secretly sent warriors and weapons to Bai Bureh, then wrote to the British offering his services as mediator. His subjects refused to let his kingdom be broken up while he lived, and when an aged Suluku was asked by a British official to name his successor he replied, 'Suluku will never die'. He died in 1906."
+  ur: "المامی سولوکو (تقریباً 1820ء – 1906ء)، شمالی سیرا لیون کے علاقے بیریوا کے لمبا حکمران اور اس کے سردار سانکیلائی کے بیٹے۔ جوانی میں وہ کوروغبا (سپہ سالار) بنے اور بیریوا کو سیرا لیون کی بڑی سلطنتوں میں شامل کر دیا، پھر گباکو (بادشاہ) کا تاج پہنا؛ انہوں نے دارالحکومت بومبان سے فری ٹاؤن جانے والی تجارت کی حفاظت کر کے اسے مالا مال کیا۔ انہوں نے اپنی آزادی محض سیاسی تدبیر سے برقرار رکھی: 1884ء میں ساموری تورے کی ماندنکا فوجوں کے قبضے پر بظاہر تعاون کیا مگر خفیہ طور پر انگریزوں کو خبردار کرتے رہے یہاں تک کہ وہ پیچھے ہٹ گئیں؛ 1898ء کی بغاوت میں بائی بورے کو خفیہ طور پر جنگجو اور ہتھیار بھیجے اور ساتھ ہی انگریزوں کو ثالثی کی پیشکش بھی کر دی۔ ان کی رعایا نے ان کی زندگی میں سلطنت کی تقسیم قبول نہ کی، اور جب ایک برطانوی اہلکار نے بڑھاپے میں ان سے جانشین کا نام پوچھا تو جواب دیا: «سولوکو کبھی نہیں مرے گا»۔ وفات 1906ء میں ہوئی۔"
+roles: [ruler, general]
+wings: [people]
+born:
+  edtf: "1820"
+  hijri: "1236"
+  calendar: gregorian
+  precision: year
+  status: historical
+  derived: true
+  note: "The year is approximate in every source: Wikidata gives 1820 at year precision, the Sierra Leone Web biography heads him 'ca. 1820-1906', and the dates stand in the title of Fyle's monograph on him (c. 1820–1906). The text of the deleted English Wikipedia article on him, surviving in mirrors and resting on Fyle, places his birth at Kamabai in the Biriwa country; the mirrors are not cited as a source entity, and the fact is recorded here with its attribution rather than used as a cited fact. The Hijri year (1236) is derived by tabular conversion (the Gregorian year 1820 spans 1235–1236 AH; the mid-year falls in 1236). Kamabai and Bumban have no place entities in the museum yet, so no born_in relation is written."
+  sources: [source/wikidata-almamy-suluku, source/sierra-leone-web-heroes]
+died:
+  edtf: "1906"
+  hijri: "1324"
+  calendar: gregorian
+  precision: year
+  status: historical
+  derived: true
+  note: "Wikidata gives 1906 at year precision, the Sierra Leone Web biography's heading gives ca. 1820–1906, and Fyle's monograph title gives the same years; no source read gives a day, month or place of death. The Hijri year (1324) is derived by tabular conversion (the Gregorian year 1906 spans 1323–1324 AH; the mid-year falls in 1324)."
+  sources: [source/wikidata-almamy-suluku, source/sierra-leone-web-heroes]
+relations:
+  - { type: allied_with, target: person/bai-bureh, note: "Direction: Suluku to Bai Bureh — material support given by the subject to the target. The Sierra Leone Web biography states expressly that when the 1898 rebellion broke out Suluku sent warriors and weapons to Bai Bureh, while simultaneously writing to the British professing support for their position and offering his services as mediator; later Sierra Leone history accounts repeat the covert support. The edge is written here, in Suluku's record, once.", sources: [source/sierra-leone-web-heroes] }
+faith:
+  - value: unknown
+    basis: unknown
+    note: "No source read names a religion, school or order for Suluku personally, still less two independent ones. What the sources give, in full: his regnal style Almamy is the Fula imamate title (from al-imam) borne by the rulers of Futa Jallon and adopted by Muslim rulers across the region, and his Limba kingship title was Gbaku; the Sierra Leone Web biography and Wikidata describe his wars, trade policy and diplomacy in detail without ever stating his personal religion, and the Limba of his period stood largely outside the Islamic world of the coast and the Futa. A borrowed regnal title is an office, not an attestation of the man's own school or affiliation, and by the lane rule neither it nor his milieu counts; his faith is therefore left unknown under the two-source rule and the doubt rule ('if we have doubt then unclassified'), and that position is stated here in full."
+    sources: [source/sierra-leone-web-heroes, source/wikidata-almamy-suluku]
+external_ids: { wikidata: "Q4733672" }
+sources: [source/wikidata-almamy-suluku, source/sierra-leone-web-heroes]
+provenance:
+  layer: own-research
+  source: "Wikidata item Q4733672 and the Sierra Leone Web biography 'Sierra Leonean Heroes: 1898 Rebellion Era', both read in full on 25 October 2026. The English Wikipedia article on Suluku has been deleted and its text survives only in mirrors (Alchetron, Wikibin, Prabook), which rest on the same scholarly account and are not cited; the standard scholarship behind the web biography is C. Magbaily Fyle, Almamy Suluku of Sierra Leone, c. 1820-1906 (Evans Brothers, 1979), confirmed bibliographically by its review in Africa 50/4 (1980) but not opened in this run. The queue's years (1820–1906) agree with the sources as approximations and are recorded as such. His father Sankailay, the Biriwa polity and the places Bumban and Kamabai have no entities in the museum yet, so the child_of, ruler_of and place relations his biography would support are omitted and flagged in the writer's report; his dealings with Samori Touré — whose record exists — were an occupation endured and diplomatically undone rather than a fought opposition, so no opposed edge is written, and that judgement too is flagged in the report."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: century-additions-22
+status: { review: published, completeness: 2, generated_by: "Muse (Muse Spark 1.3)" }
