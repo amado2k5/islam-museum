@@ -1,4 +1,10 @@
 id: event/fatrat-al-wahy
+education:
+  did_you_know:
+    ar: "انقطع الوحي بعد نزوله الأول بحراء، ويرجّح ابن سعد عن ابن عباس أنه كان أياماً لا سنين، وانتهى بظهور الملك على كرسي بين السماء والأرض ونزول «يا أيها المدثر»."
+    en: "After the first descent at Hira, revelation paused — Ibn Sa'd from Ibn Abbas favours days, not years — ending when the angel appeared seated between sky and earth and 'O you, wrapped one' came down."
+    ur: "حراء میں پہلی آیت کے بعد وحی رک گئی — ابن سعد، ابن عباس سے، دنوں کو ترجیح دیتے ہیں — پھر فرشتہ آسمان اور زمین کے درمیان ظاہر ہوا اور «اے کپڑے اوڑھنے والے» نازل ہوئی۔"
+    sources: [source/tabaqat-ibn-sad, source/mubarakpuri-raheeq]
 class: event
 kind: revelation
 label: { en: "The pause of revelation (Fatra)", ar: "فترة الوحي" }
@@ -19,3 +25,9 @@ relations:
   - { type: part_of, target: period/prophetic-era }
 sources: [source/mubarakpuri-raheeq, source/sahih-al-bukhari, source/tabaqat-ibn-sad, source/fath-al-bari]
 status: { review: draft, completeness: 2, generated_by: "Devin; al-Raheeq al-Makhtum pp. 68-70" }
+provenance:
+  layer: own-research
+  source: "source/ibn-sad-tabaqat"
+  generated_by: Devin
+  model: "unknown"
+  run: "education-E3-facts-batch9"
