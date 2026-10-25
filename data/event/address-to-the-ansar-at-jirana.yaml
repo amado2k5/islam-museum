@@ -1,4 +1,10 @@
 id: event/address-to-the-ansar-at-jirana
+education:
+  did_you_know:
+    ar: "لما أعطى النبي سادات قريش ورؤساء نجد العطايا الجزلة ولم يصب الأنصار شيء، كثرت فيهم القالة، فدخل عليه سعد بن عبادة وأخبره حتى خطب فيهم."
+    en: "When the Prophet gave Quraysh's lords and Najd's chiefs the great gifts and the Ansar got nothing, talk ran through them until Sa'd ibn Ubada went in and told him — and the Prophet addressed them."
+    ur: "جب نبی نے قریش اور نجد کے سرداروں کو بڑے عطیے دیے اور انصار کو کچھ نہ ملا تو ان میں باتیں ہونے لگیں، یہاں تک کہ سعد بن عبادہ آئے اور بتایا — پھر نبی نے خطبہ دیا۔"
+    sources: [source/mubarakpuri-raheeq, source/ibn-hisham-sira]
 class: event
 kind: gathering
 label: { en: "The Prophet's address to the Ansar at al-Ji'rana", ar: "خطبة النبي في الأنصار بالجعرانة" }
@@ -20,3 +26,9 @@ relations:
   - { type: part_of, target: period/prophetic-era }
 sources: [source/mubarakpuri-raheeq, source/ibn-hisham-saqqa, source/sahih-al-bukhari]
 status: { review: draft, completeness: 1, generated_by: "Devin; al-Raheeq al-Makhtum pp. 420-421" }
+provenance:
+  layer: own-research
+  source: "source/mubarakpuri-raheeq"
+  generated_by: Devin
+  model: "unknown"
+  run: "education-E3-facts-batch11"

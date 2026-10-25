@@ -1,4 +1,10 @@
 id: person/abdullah-ibn-abi-bakr
+education:
+  did_you_know:
+    ar: "عبد الله بن أبي بكر وصفته أخته عائشة بأنه «غلام شاب ثقف لقن»؛ كان يبيت عند الغار ويدلج بسحر فيصبح مع قريش كبائت، وما يسمع أمراً يُكتادان به إلا وعاه وأتاهما به ليلاً."
+    en: "Abd Allah ibn Abi Bakr — his sister Aisha called him 'a quick, sharp young man' — slept at the cave and slipped out before dawn to blend with Quraysh, carrying back every plot he heard by night."
+    ur: "عبداللہ بن ابی بکر — ان کی بہن عائشہ نے انہیں «تیز فہم نوجوان» کہا — غار کے پاس رات گزارتے اور صبح سے پہلے نکل کر قریش میں گھل مل جاتے، اور ہر سازش رات میں پہنچا دیتے۔"
+    sources: [source/sahih-al-bukhari, source/mubarakpuri-raheeq]
 class: person
 label: { en: "Abdullah ibn Abi Bakr", ar: "عبد الله بن أبي بكر" }
 names:
@@ -27,3 +33,9 @@ external_ids:
   wikidata: Q4666109
 sources: [source/mubarakpuri-raheeq, source/sahih-al-bukhari, source/ibn-hisham-sira]
 status: { review: draft, completeness: 2, generated_by: "Devin; al-Raheeq al-Makhtum pp. 165, 173" }
+provenance:
+  layer: own-research
+  source: "source/sahih-al-bukhari"
+  generated_by: Devin
+  model: "unknown"
+  run: "education-E3-facts-batch11"
