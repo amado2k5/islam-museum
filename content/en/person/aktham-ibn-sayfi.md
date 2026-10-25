@@ -16,3 +16,8 @@ Aktham ibn Sayfi was a famous pre-Islamic Arab sage whose wisdom became proverbi
 
 ## Research notes
 - The marginal notice is itself drawn from al-Zirikli's al-A'lam in the scanned edition; the death year is unclear in the OCR (apparently 630 CE) and should be checked against the page image before the date is relied on.
+
+## Encyclopaedia of Islam account
+The Encyclopaedia of Islam (2nd ed.) describes Aktham as a judge of the jahiliyya from the clan of Usayyid, a branch of the tribe of Tamim. His biography consists mostly of legendary stories: numerous traditions tell of kings and chiefs who sent to ask his advice. The sayings attributed to him deal with life, friendship, conduct, virtue and women; his personality as they reflect it may be compared with that of Luqman, to whom some of the same sayings are attributed in other traditions. He is famous as one of the mu'ammarin, men said to have lived to a great age. {cite:encyclopaedia-of-islam-2 vol. 1 p. 367}
+
+Muslim tradition tries to connect him with the Prophet, and stresses that Aktham approved of Islam. He is even said to have urged his people to embrace Islam, and to have died as a martyr on his way to the Prophet, but the article regards these traditions as certainly spurious. Descendants of Aktham are said to have lived in al-Kufa, among them the qadi Yahya b. Aktham. {cite:encyclopaedia-of-islam-2 vol. 1 p. 367}
