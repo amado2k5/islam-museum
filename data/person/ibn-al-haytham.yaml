@@ -21,6 +21,11 @@ provenance:
   model: claude-haiku-5-5
   run: lib-exp-medicine-science-manazir-maalim-zij-batch-1
 education:
+  did_you_know:
+    ar: "ابن الهيثم عالم القرن الخامس الهجري في الرياضيات والفيزياء، صنّف «كتاب المناظر» في علم البصريات."
+    en: "Ibn al-Haytham, a fifth-century-AH scholar of mathematics and physics, wrote the Book of Optics on the science of vision."
+    ur: "ابن ہیشم پانچویں صدی ہجری کے ریاضی اور طبیعیات کے عالم تھے جنھوں نے بصریات پر «کتاب المناظر» لکھی۔"
+    sources: [source/manazir-sabra-1983, source/mawsuat-a3lam-ulama-adaba]
   levels: [sprouts, explorers, scholars]
   flagged_for_kids: true
   provenance: { generated_by: "Devin", model: "gemini-2.5-pro", run: "education-E2-batch2", note: "Leveled texts drafted from the record's own summary and prose; draft, pending the founder's review and scholar review of the child levels." }

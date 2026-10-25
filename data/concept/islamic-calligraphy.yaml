@@ -13,6 +13,11 @@ sources: [source/wikidata]
 external_ids:
   wikidata: Q656831
 education:
+  did_you_know:
+    ar: "الخط الإسلامي أشرف الفنون الإسلامية لارتباطه بكتابة القرآن، وتنوعت خطوطه بين الكوفي والنسخ والثلث والديواني."
+    en: "Calligraphy became the noblest Islamic art through its bond with transcribing the Qur'an; its scripts range from Kufic and Naskh to Thuluth and Diwani."
+    ur: "اسلامی خطاطی قرآن کی کتابت سے جڑنے کی وجہ سے باوقار ترین اسلامی فن بنی؛ اس کے خطوط کوفی، نسخ، ثلث اور دیوانی ہیں۔"
+    sources: [source/wikidata, source/duha-islam]
   levels: [sprouts, explorers, scholars]
   flagged_for_kids: true
   provenance: { generated_by: "Devin", model: "gemini-2.5-pro", run: "education-E2-batch2", note: "Leveled texts drafted from the record's own summary and prose; draft, pending the founder's review and scholar review of the child levels." }
@@ -20,3 +25,9 @@ status:
   review: draft
   completeness: 1
   generated_by: Devin (SWE-2 High), arts lane; via Wikidata, 2026-10-16
+provenance:
+  layer: own-research
+  source: "education fact engine batch 3 — did_you_know fact drafted in three languages from the record's own cited sources"
+  generated_by: Devin
+  model: "unknown"
+  run: "education-E3-facts-batch3"
