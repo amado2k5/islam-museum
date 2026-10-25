@@ -1,4 +1,10 @@
 id: person/al-shayma-bint-al-harith
+education:
+  did_you_know:
+    ar: "الشيماء أخت النبي من الرضاعة وقعت في سبي حنين فعرّفت النبي بنفسها، فأكرمها وبسط لها رداءه وأجلسها عليه ثم ردّها إلى قومها."
+    en: "Al-Shayma, the Prophet's foster-sister, was caught among the captives of Hunayn and made herself known to him; he honoured her, spread his cloak and sat her on it, then returned her to her people."
+    ur: "شیماء، نبی کی رضاعی بہن، حنین کے قیدیوں میں پکڑی گئیں اور انہوں نے اپنی شناخت بتائی؛ نبی نے ان کا احترام کیا، اپنا چادن بچھا کر بٹھایا اور قوم کے پاس لوٹا دیا۔"
+    sources: [source/ibn-hisham-sira, source/mubarakpuri-raheeq]
 class: person
 label: { en: "al-Shayma bint al-Harith al-Sa'diyya", ar: "الشيماء بنت الحارث السعدية" }
 names:
@@ -19,3 +25,9 @@ relations:
   - { type: participated_in, target: event/battle-of-hunayn, role: captive-then-honored-foster-sister, note: "في سبي حنين قالت: «يا رسول الله إني لأختك من الرضاعة» ففرش لها رداءه، فأسلمت واختارت الرجوع إلى قومها فأعطاها (نساء حول الرسول ص293-294).", sources: [source/mubarakpuri-raheeq, source/nisa-hawl-alrasul] }
 sources: [source/mubarakpuri-raheeq, source/nisa-hawl-alrasul, source/zad-al-maad]
 status: { review: draft, completeness: 1, generated_by: "Devin; al-Raheeq al-Makhtum p. 417" }
+provenance:
+  layer: own-research
+  source: "source/ibn-hisham-sira"
+  generated_by: Devin
+  model: "unknown"
+  run: "education-E3-facts-batch14"

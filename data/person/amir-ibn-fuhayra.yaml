@@ -1,4 +1,10 @@
 id: person/amir-ibn-fuhayra
+education:
+  did_you_know:
+    ar: "عامر بن فهيرة مولى أبي بكر كان يرعى عليهما منحة الغنم ويتبع بغنمه أثر عبد الله بن أبي بكر ليعفي عليه؛ وكتب كتاب الأمان لسراقة."
+    en: "Amir ibn Fuhayra, Abu Bakr's freedman, grazed the sheep that brought the two their milk and wiped out Ibn Abi Bakr's tracks behind them — and it was he who wrote the letter of safety for Suraqa."
+    ur: "عامر بن فہیرہ، ابوبکر کے آزاد کردہ غلام، بکریاں چراتے جن کا دودھ دونوں پیتے اور عبداللہ بن ابی بکر کے نشان مٹا دیتے — اور سراقہ کے لیے خطِ امان انہی نے لکھا۔"
+    sources: [source/mubarakpuri-raheeq, source/ibn-hisham-sira]
 class: person
 label: { en: "Amir ibn Fuhayra", ar: "عامر بن فهيرة" }
 names:
@@ -25,3 +31,9 @@ relations:
 external_ids: { wikidata: "Q1108685" }
 sources: [source/mubarakpuri-raheeq, source/ibn-hisham-sira, source/zad-al-maad]
 status: { review: draft, completeness: 2, generated_by: "Devin; al-Raheeq al-Makhtum pp. 165-169" }
+provenance:
+  layer: own-research
+  source: "source/mubarakpuri-raheeq"
+  generated_by: Devin
+  model: "unknown"
+  run: "education-E3-facts-batch14"
