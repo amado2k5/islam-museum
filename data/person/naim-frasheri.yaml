@@ -1,0 +1,83 @@
+id: person/naim-frasheri
+class: person
+
+label:
+  ar: "نعيم فراشري"
+  en: "Naim Frashëri"
+  ur: "نعیم فراشری"
+
+names:
+  - { value: "Naim bey Frashëri", lang: en, kind: full }
+  - { value: "Mehmet Naim", lang: sq, kind: variant }
+
+summary:
+  ar: "شاعر ألباني (1846-1900) يُعدّ الشاعر الوطني لألبانيا وأبرز أدباء صحوتها القومية، وأحد الإخوة فراشري الثلاثة. تلقّى تعليمه الأول في تكية فراشر البكتاشية وكتب «دفتر البكتاشية» (1896) معربا فيه عن إعلانه إيمانه البكتاشي، وألّف ملحمة «كربلاء» و«تاريخ إسكندر بك» شعرا، وشغل في إسطنبول رئاسة لجنة التفتيش والرقابة على المطبوعات في وزارة المعارف فخفّف الحظر عن الكتب الألبانية."
+  en: "Albanian poet (1846–1900), regarded as the national poet of Albania and the foremost literary voice of its National Awakening, and one of the three Frashëri brothers. He received his first education at the Bektashi tekke of Frashër and wrote the Bektashi Notebook (1896), opening with a profession of his Bektashi faith; he composed the epic Qerbelaja and a verse History of Skanderbeg, and in Istanbul chaired the Ministry of Education's inspection and censorship commission, using the post to ease the ban on Albanian books."
+  ur: "البانوی شاعر (1846ء–1900ء) جنھیں البانیہ کا قومی شاعر اور اس کی قومی بیداری کی نمایاں ادبی آواز سمجھا جاتا ہے، اور وہ تینوں فراشری بھائیوں میں سے ایک تھے۔ انھوں نے فراشر کی بکتاشی تکیہ میں ابتدائی تعلیم پائی اور «بکتاشی دفتر» (1896ء) لکھی جس کے آغاز میں ان کے بکتاشی عقیدے کا اعلان تھا۔ استنبول میں وہ وزارتِ تعلیم کے معائنہ و سنسر کمیشن کے صدر رہے اور اس عہدے سے البانوی کتابوں پر پابندی میں نرمی کی۔"
+
+roles: [poet, writer, translator]
+wings: [people]
+
+faith:
+  - value: sufi
+    status: documented
+    basis_sources: [source/wikipedia-naim-frasheri-en, source/wikipedia-naim-frasheri-sq, source/elsie-naim-frasheri]
+    note: "His own adherence to the Bektashi order is attested by three independent sources, each naming the affiliation itself: the English Wikipedia article states 'Himself a Bektashi, he desired purity of the Albanian language... in his work Fletore e Bektashinjët', adds that the Notebook 'contains an introductory profession of his faith', and calls him 'the most representative writer of Sufi poetry in Albanian'; the Albanian Wikipedia article states that he began learning Ottoman Turkish, Arabic and Persian at the Tekke of Frashër 'si myhib bektashi' — as a Bektashi muhib, an adherent of the order — and calls Fletore e Bektashinjet and Qerbelaja 'the first works of Albanian Bektashism'; and Robert Elsie's scholarly biography speaks of 'his affinity for his pantheistic Bektashi religion' and of 'liberal Bektashi beliefs to which he had been attached since his childhood in Frashër'. The Turkish article's 'Kendisi de bir Bektaşi' agrees but runs closely parallel to the English article, so it is counted as corroboration, not as an independent attestation. The segment is recorded as sufi with the Bektashi affiliation stated here, following the precedent of person/omer-vrioni-ii and person/ali-al-mirghani, whose documented sufi segments likewise rest on attested order affiliation and office. No source names a school of law for him; Wikidata's religion statement is Islam generically. His Qerbelaja, a Bektashi epic on the Karbala theme, is not a Shia attestation and is not treated as one."
+
+born:
+  place_text: "Frashër, Ottoman Albania (now Albania)"
+  date:
+    edtf: "1846-05-25"
+    hijri: "1262"
+    calendar: gregorian
+    precision: day
+    status: historical
+    derived: true
+    note: "Born 25 May 1846 at Frashër; the English, Albanian, Turkish, Arabic and Urdu articles and Wikidata (Q47007, day precision) all agree. The Hijri year is derived by tabular conversion (the Gregorian year 1846 opened in 1262 AH)."
+  sources: [source/wikipedia-naim-frasheri-en, source/wikipedia-naim-frasheri-sq, source/wikidata-naim-frasheri]
+
+died:
+  place_text: "Istanbul, Ottoman Empire (now Türkiye)"
+  date:
+    edtf: "1900-10-20"
+    hijri: "1318"
+    calendar: gregorian
+    precision: day
+    status: historical
+    derived: true
+    note: "Died 20 October 1900 at Istanbul; all articles and Wikidata agree. The Albanian article adds that he died in the small hours at his home in Kızıl Toprak, Kadıköy, and was buried on 21 October 1900 at the Merdivenköy Bektashi tekke beside his brother Abdyl's grave; his remains were brought to Albania on 2 June 1937 and placed in the Tirana Bektashi tekke — the English article dates the Turkish permission for the transfer only to 'the 1950s', against the Albanian article's dated account, and the conflict is recorded here rather than resolved. The Hijri year is derived by tabular conversion."
+  sources: [source/wikipedia-naim-frasheri-en, source/wikipedia-naim-frasheri-sq, source/wikidata-naim-frasheri]
+
+relations:
+  - predicate: member_of
+    target: group/bektashiyya
+    note: "A Bektashi adherent (muhib) formed at the Frashër tekke, and author of the Bektashi Notebook containing his profession of the Bektashi faith — attested as his own affiliation by the English and Albanian articles and by Robert Elsie's biography."
+    sources: [source/wikipedia-naim-frasheri-en, source/wikipedia-naim-frasheri-sq, source/elsie-naim-frasheri]
+  - predicate: sibling_of
+    target: person/abdyl-frasheri
+    note: "His elder brother Abdyl Frashëri (1839–1892); the brotherhood is stated in all the articles and in the sibling statements of their Wikidata items (Q47007, Q317988, Q331896)."
+    sources: [source/wikipedia-naim-frasheri-en, source/wikidata-naim-frasheri]
+  - predicate: sibling_of
+    target: person/sami-frasheri
+    note: "His younger brother Sami Frashëri (1850–1904), the lexicographer and encyclopedist; the brotherhood is stated in all the articles and in the sibling statements of their Wikidata items."
+    sources: [source/wikipedia-naim-frasheri-en, source/wikidata-naim-frasheri]
+  - predicate: lived_in
+    target: place/istanbul
+    note: "Settled in Istanbul in 1882 and lived there until his death in 1900, holding posts at the Ministry of Education and chairing its inspection and censorship commission."
+    sources: [source/wikipedia-naim-frasheri-sq, source/wikipedia-naim-frasheri-en]
+  - predicate: died_in
+    target: place/istanbul
+    note: "Died at his home in Kızıl Toprak, Kadıköy, Istanbul, on 20 October 1900."
+    sources: [source/wikipedia-naim-frasheri-sq, source/wikidata-naim-frasheri]
+
+external_ids:
+  wikidata: Q47007
+
+provenance:
+  layer: own-research
+  sources: "English Wikipedia 'Naim Frashëri', rev. 1376878515 of 2026-09-26; Albanian Wikipedia 'Naim Frashëri', rev. 2940719 of 2026-04-13; Turkish Wikipedia 'Naim Fraşiri', rev. 37937205 of 2026-09-11; Arabic Wikipedia 'نعيم فراشري', rev. 77005863 of 2026-10-18; Urdu Wikipedia 'نعیم فراشری', rev. 11850274 of 2026-08-30; Robert Elsie's biography of Naim Frashëri at albanianliterature.net; Wikidata Q47007 read via the API. The German and Italian articles were also read (the Italian runs parallel to the English; the German confirms the tekke education). All read in full on 25 October 2026."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: century-additions-9
+  checked: "2026-10-25"
+
+status: { review: published, completeness: 3 }

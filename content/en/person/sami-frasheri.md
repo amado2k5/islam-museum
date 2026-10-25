@@ -1,0 +1,34 @@
+---
+lang: en
+entity: person/sami-frasheri
+title: "Sami Frashëri (1850–1904)"
+---
+
+## Overview
+
+Sami Frashëri (1 June 1850 – 18 June 1904), known in Turkish sources as Şemseddin Sami, was an Albanian-Ottoman writer, philosopher, playwright, lexicographer and encyclopedist, and with his brothers Abdyl and Naim a leading ideologue of the Albanian National Awakening.{cite:source/wikipedia-sami-frasheri-en}{cite:source/wikipedia-sami-frasheri-sq} He was a son of Halit Bey Frashëri (1797–1859) and Emine (1814–1861), born at Frashër into a distinguished Muslim Albanian family of Bektashi religious affiliations.{cite:source/wikipedia-sami-frasheri-en} In Turkish letters he is remembered above all for the first encyclopedia printed in Turkish and for his great dictionary of the Ottoman language.{cite:source/wikipedia-sami-frasheri-sq}{cite:source/wikipedia-sami-frasheri-ar}
+
+## Career
+
+He began his studies at the Bektashi tekke in Frashër and continued at the Zosimea school in Ioannina, finishing its eight-year programme in seven years, while also taking Turkish, Arabic and Persian at a local Muslim school.{cite:source/wikipedia-sami-frasheri-en}{cite:source/wikipedia-sami-frasheri-de} He came to Istanbul with his brother Naim in 1872, entered the Ottoman bureaucracy, translated Victor Hugo's Les Misérables into Ottoman Turkish, and held postings in Tripoli in Libya and on Rhodes in 1877.{cite:source/wikipedia-sami-frasheri-en} In December 1877 he was among the founders, with his brother Abdyl, Hasan Tahsini, Pashko Vasa and Jani Vreto, of the Central Committee for Defending Albanian Rights in Istanbul, and he signed the committee's memorandum of 20 June 1878 to the Congress of Berlin.{cite:source/wikipedia-sami-frasheri-en} In 1879 he created the thirty-six-letter "Istanbul alphabet" for Albanian, adopted on 19 March 1879, and founded and headed the Society for the Publication of Albanian Writings, closed by the government in 1885.{cite:source/wikipedia-sami-frasheri-en} In 1887 he and Naim obtained permission for the first Albanian boys' school at Korçë, which opened on 7 March 1887 to some two hundred Muslim and Christian pupils, and the brothers wrote its textbooks together.{cite:source/wikipedia-sami-frasheri-en} In his last years, by his children's recollections recorded in the English article, the authorities suspected him and a palace official restricted his movements at home even while he remained a government employee.{cite:source/wikipedia-sami-frasheri-en} He died on 18 June 1904 after a severe illness at his home in Erenköy, Istanbul; the Turkish article gives 1 July 1904 and the German article 5 June 1904, and the record follows 18 June with both variants noted.{cite:source/wikipedia-sami-frasheri-en}{cite:source/wikipedia-sami-frasheri-tr}{cite:source/wikipedia-sami-frasheri-de} His son Ali Sami Yen (1886–1951) founded the Galatasaray sports club.{cite:source/wikipedia-sami-frasheri-en}
+
+## Works
+
+His novel Taaşşuk-ı Tal'at ve Fitnat was serialised in the journal Hadika from November 1872 and completed in the summer of 1873; it is commonly called the first novel in Turkish, a label the Turkish article itself corrects, pointing to Vartan Pasha's Akabi Hikayesi of 1851.{cite:source/wikipedia-sami-frasheri-en}{cite:source/wikipedia-sami-frasheri-tr} His play Besâ yâhut Âhde Vefâ (1874), built on the Albanian oath of besa, was banned in its Albanian form as inciting national sentiment and staged again only in 1908–12.{cite:source/wikipedia-sami-frasheri-en} His Kâmûs-ı Fransevî (1882–1905) gave French–Turkish and Turkish–French dictionaries, and he was among the first to propose, in print, writing Turkish in Latin letters — a view he later retracted, as the Arabic article notes.{cite:source/wikipedia-sami-frasheri-en}{cite:source/wikipedia-sami-frasheri-ar} The six-volume Kâmûsü'l-A'lâm (1889–1898) was the first encyclopedia printed in Turkish, and its entry on "Arnavud" (the Albanians) ran to six pages against three for "Türk".{cite:source/wikipedia-sami-frasheri-en}{cite:source/wikipedia-sami-frasheri-ur} His two-volume Kâmûs-ı Türkî (1899–1900) argued that Ottoman is essentially a Turkish language, to be simplified and purged of unnecessary Arabic and Persian loans.{cite:source/wikipedia-sami-frasheri-en} His Albanian treatise Shqipëria ç'ka qenë, ç'është e çdo të bëhetë (1899), the manifesto of the Albanian renaissance, was published anonymously in Bucharest; Turkish historians generally reject his authorship while Albanian scholarship affirms it without doubt, a dispute the record carries as such.{cite:source/wikipedia-sami-frasheri-en}{cite:source/wikipedia-sami-frasheri-tr}
+
+## Positions and criticism
+
+This section reports what the sources attribute to Frashëri and how they assess him; it is not the museum's own judgement.
+
+The sources describe a Bektashi family background — his father's ancestors are called Muslim Bektashi timar holders in the Albanian article — and schooling at the family's tekke, with the Turkish article adding that he continued attending the Bektashi tekke "in line with family tradition".{cite:source/wikipedia-sami-frasheri-sq}{cite:source/wikipedia-sami-frasheri-tr} No source fetched attests Sami's own adherence to the order, and his brother Naim's attested adherence is Naim's alone, so the museum records his faith as unknown, as his record's faith note sets out.{cite:source/wikipedia-sami-frasheri-en}{cite:source/wikipedia-sami-frasheri-tr}{cite:source/wikidata-sami-frasheri} The English article records that he supported Turkish nationalism against its Ottoman counterpart, and secularism — anti-clericalism or laicism — against theocracy, while the Turkish article counts him among the Ottoman intellectuals who reconciled Islam with socialism, praising socialism while condemning communism.{cite:source/wikipedia-sami-frasheri-en}{cite:source/wikipedia-sami-frasheri-tr} A monument to the three Frashëri brothers stands in Tirana, and schools in Pristina, Tirana and Bogovinje bear his name.{cite:source/wikipedia-sami-frasheri-tr}
+
+## References
+
+- Wikipedia (English), "Sami Frashëri", revision 1376878947 (26 September 2026) — source/wikipedia-sami-frasheri-en.
+- Wikipedia (Albanian), "Sami Frashëri", revision 2940717 (13 April 2026) — source/wikipedia-sami-frasheri-sq.
+- Wikipedia (Turkish), "Şemseddin Sâmi", revision 38303247 (20 October 2026) — source/wikipedia-sami-frasheri-tr.
+- Wikipedia (German), "Sami Frashëri", revision 260929690 (26 October 2025) — source/wikipedia-sami-frasheri-de.
+- Wikipedia (Arabic), "شمس الدين سامي فراشري", revision 76079660 (3 August 2026) — source/wikipedia-sami-frasheri-ar.
+- Wikipedia (Urdu), "شمس الدین سامی فراشری", revision 11734089 (31 July 2026) — source/wikipedia-sami-frasheri-ur.
+- Abdullah Uçman, "Şemseddin Sâmi", TDV İslâm Ansiklopedisi (2010) — source/tdv-semseddin-sami.
+- Wikidata, Q331896 — source/wikidata-sami-frasheri.
