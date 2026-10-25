@@ -46,6 +46,8 @@ export const BUDGETS: Budget[] = [
   { family: "daily challenge", route: "/ar/learn/daily/", html: 120 * KB, js: 12 * KB },
   { family: "listing", route: "/ar/learn/facts/", html: 600 * KB, js: 10 * KB },
   { family: "printable pack", route: "/ar/learn/facts/poster/", html: 200 * KB, js: 6 * KB },
+  { family: "listing", route: "/ar/learn/teachers/packs/", html: 600 * KB, js: 10 * KB },
+  { family: "teacher pack", route: "/ar/learn/teachers/packs/ramadan/", html: 220 * KB, js: 10 * KB },
 ];
 
 export interface Measure { route: string; html: number; js: number; scripts: string[] }
