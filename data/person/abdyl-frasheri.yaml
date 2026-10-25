@@ -1,0 +1,79 @@
+id: person/abdyl-frasheri
+class: person
+
+label:
+  ar: "عبدول فراشيري"
+  en: "Abdyl Frashëri"
+  ur: "عبدل فراشری"
+
+names:
+  - { value: "Abdyl Dume bey Frashëri", lang: en, kind: full }
+  - { value: "Abdullah Hüsni", lang: tr, kind: variant }
+
+summary:
+  ar: "سياسي ألباني عثماني (1839-1892) وأكبر الإخوة فراشري الثلاثة، وأبرز قادة عصبة بريزرن المؤسِّسة للحركة الوطنية الألبانية. مثّل يانينا في أول برلمان عثماني، وأسس اللجنة المركزية للدفاع عن الحقوق الألبانية في إسطنبول، وقاد وفود العصبة إلى عواصم أوروبا، فحُكم عليه بالإعدام بعد قمع العصبة ثم خُفّف الحكم إلى السجن مع الأشغال الشاقة، وأُفرج عنه سنة 1886."
+  en: "Albanian-Ottoman politician (1839–1892), the eldest of the three Frashëri brothers and the leading political organiser of the League of Prizren, the founding movement of Albanian nationalism. He sat for Yanina in the first Ottoman parliament, founded the Central Committee for Defending Albanian Rights in Istanbul, led the League's delegations to the European capitals, and after the League's suppression was sentenced to death, the sentence commuted to prison with hard labour, until his release in 1886."
+  ur: "البانوی عثمانی سیاست دان (1839ء–1892ء)، تینوں فراشری بھائیوں میں سب سے بڑے، اور لیگ آف پریزرین کے نمایاں سیاسی قائد، جو البانوی قوم پرستی کی بانی تحریک تھی۔ وہ پہلی عثمانی پارلیمنٹ میں یانینا کے نمائندے رہے، استنبول میں البانوی حقوق کے دفاع کی مرکزی کمیٹی قائم کی، لیگ کے وفود کی یورپی دارالحکومتوں میں قیادت کی، اور لیگ کی سرکوبی کے بعد انھیں سزائے موت سنائی گئی جو بعد میں مشقت کے ساتھ قید میں بدل دی گئی؛ وہ 1886ء میں رہا ہوئے۔"
+
+roles: [politician]
+wings: [people]
+
+faith:
+  - value: unknown
+    status: unknown
+    basis_sources: [source/wikipedia-abdyl-frasheri-en, source/wikipedia-abdyl-frasheri-sq, source/wikipedia-abdyl-frasheri-ar, source/wikidata-abdyl-frasheri]
+    note: "NOT RECORDED AS DOCUMENTED — no fetched source attests Abdyl Frashëri's own adherence to a school or order. The English, Albanian and Arabic articles describe his FAMILY as a distinguished Albanian Muslim family affiliated with the Bektashi Sufi order — family background, which never counts; the English article's account of his visiting Bektashi tekkes and pressing their babas to join an armed uprising, and the German article's assembly of Albanian leaders in the Frashër tekke in 1878, are political mobilisation for the League, narrated as such; the Turkish article records that he learned Persian at a Bektashi tekke — schooling. His brother Naim's attested Bektashi adherence is Naim's, not his. His Wikidata item (Q317988) carries no religion statement at all. Under the lane's two-source rule and the founder's doubt rule ('if we have doubt then unclassified') the faith is left unknown."
+
+born:
+  place_text: "Frashër, Ottoman Albania (now Albania)"
+  date:
+    edtf: "1839-06-01"
+    hijri: "1255"
+    calendar: gregorian
+    precision: day
+    status: historical
+    derived: true
+    note: "Born at Frashër in 1839; the year is agreed everywhere. CONFLICT: the Albanian, English (lead) and Arabic articles give 1 June 1839, which the record follows; the German and Turkish articles and Wikidata (Q317988, day precision) give 17 August 1839. Both variants are recorded; the Hijri year is derived by tabular conversion (1839 opened in 1255 AH)."
+  sources: [source/wikipedia-abdyl-frasheri-sq, source/wikipedia-abdyl-frasheri-en, source/wikidata-abdyl-frasheri]
+
+died:
+  place_text: "Istanbul, Ottoman Empire (now Türkiye)"
+  date:
+    edtf: "1892-10-23"
+    hijri: "1310"
+    calendar: gregorian
+    precision: day
+    status: historical
+    derived: true
+    note: "Died at Istanbul in 1892. CONFLICT: the Albanian, English and Arabic articles give 23 October 1892, which the record follows; the German and Turkish articles and Wikidata give 11 October 1892. His remains were brought to Albania in 1978 for the League of Prizren's centenary. The Hijri year is derived by tabular conversion."
+  sources: [source/wikipedia-abdyl-frasheri-sq, source/wikipedia-abdyl-frasheri-en, source/wikidata-abdyl-frasheri]
+
+relations:
+  - predicate: sibling_of
+    target: person/naim-frasheri
+    note: "His younger brother Naim Frashëri (1846–1900), the poet; after their parents' deaths Abdyl, the eldest, became head of the household and moved the family to Ioannina in 1865."
+    sources: [source/wikipedia-abdyl-frasheri-en, source/wikidata-abdyl-frasheri]
+  - predicate: sibling_of
+    target: person/sami-frasheri
+    note: "His younger brother Sami Frashëri (1850–1904), the lexicographer; the two founded the Central Committee for Defending Albanian Rights together in 1877."
+    sources: [source/wikipedia-abdyl-frasheri-en, source/wikidata-abdyl-frasheri]
+  - predicate: lived_in
+    target: place/istanbul
+    note: "Based in Istanbul from 1877 as chairman of the Central Committee for Defending Albanian Rights, and again from his release in 1886 until his death there in 1892."
+    sources: [source/wikipedia-abdyl-frasheri-en, source/wikipedia-abdyl-frasheri-sq]
+  - predicate: died_in
+    target: place/istanbul
+    note: "Died at Istanbul on 23 October 1892 (German and Turkish articles and Wikidata: 11 October 1892 — see the died note)."
+    sources: [source/wikipedia-abdyl-frasheri-sq, source/wikidata-abdyl-frasheri]
+
+external_ids:
+  wikidata: Q317988
+
+provenance:
+  layer: own-research
+  sources: "English Wikipedia 'Abdyl Frashëri', rev. 1376906185 of 2026-09-26; Albanian Wikipedia 'Abdyl Frashëri', rev. 3045780 of 2026-09-21; German Wikipedia 'Abdyl Frashëri', rev. 240871909 of 2024-01-05; Turkish Wikipedia 'Abdül Fraşeri', rev. 37871496 of 2026-09-02; Arabic Wikipedia 'عبدول فراشيري', rev. 73771020 of 2026-03-07; Wikidata Q317988 read via the API. All read in full on 25 October 2026."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: century-additions-9
+  checked: "2026-10-25"
+
+status: { review: published, completeness: 3 }
