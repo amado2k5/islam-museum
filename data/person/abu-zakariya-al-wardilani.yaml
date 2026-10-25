@@ -1,0 +1,24 @@
+id: person/abu-zakariya-al-wardilani
+class: person
+label: { ar: "أبو زكرياء الورجلاني", en: "Abu Zakariya' al-Wardilani" }
+names:
+  - { kind: full, lang: ar, value: "أبو زكرياء يحيى بن أبي بكر الورجلاني" }
+gender: male
+roles: [historian]
+traditions: [ibadi]
+summary:
+  ar: "مؤرخ الإباضية في المغرب، من ورجلان (ورقلة)، وصاحب كتاب السيرة وأخبار الأئمة، وهو أقدم وثيقة من داخل الطائفة عن تاريخ الإباضية في المغرب، ولم تُنشر كاملة بعد."
+  en: "Historian of the Ibadis of the Maghrib, a native of Wardilan (Ouargla) and author of the Sira wa-akhbar al-a'imma, the oldest document by a member of the sect on Maghribi Ibadi history; it has not yet been published in full {cite:encyclopaedia-of-islam-2 vol. 1 p. 186}."
+wings: [people]
+regions: [maghreb]
+periods: [period/buyid-seljuk-fatimid-era]
+faith:
+  - { value: ibadi, basis: tradition, note: "Ibadi chronicler; recorded from the EI2 account." }
+story_roles:
+  - { role: scholar, status: tradition, sources: [source/encyclopaedia-of-islam-2] }
+sources: [source/encyclopaedia-of-islam-2]
+provenance:
+  layer: own-research
+  source: "Encyclopaedia of Islam, 2nd ed. (Brill), vol. 1, PDF p. 186 (EI2 enrichment, batch ei2-b003 part 3ai)"
+  generated_by: "Claude Code (claude-haiku-5-5)"
+status: { review: published, completeness: 2 }
