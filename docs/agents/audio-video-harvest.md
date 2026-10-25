@@ -135,6 +135,7 @@ Work in the harvest workspace (`~/islam-museum-harvest`, a link to the external 
 7. **Record.** Use the working engine's output as the founder authorised. Record the engine and window in the claims table, and drop any line that is unclear.
 8. **Write** the entity data (`data/…`), the Arabic prose first, then English and Urdu translations in the same commit (`docs/language.md`), every fact-stating sentence cited.
 9. **Check.** `npm run cite-check -- <class/slug> …`, `npm run validate` (0 errors), `npm test`, and `npm run coverage` when entities change. `npm run build` for any change under `site/`.
+10. **Regenerate the recording map** (`scripts/harvest/audio/regen_map.sh`) whenever a series manifest is added or changed, and before every deploy. Commit `site/src/data/recordings.json` with the content that links to it. A stale map means references lose their audio links.
 10. **Commit and push** as `workflow.md` §4 says: merge gate, attribution trailers, a pull request for the batch.
 
 ## 5. Citation anchors

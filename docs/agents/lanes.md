@@ -37,7 +37,7 @@ Rules for every lane: [`../../AGENTS.md`](../../AGENTS.md), [`workflow.md`](work
 
 ## Audio and video recordings in every lane
 
-Standing founder decisions (25 Oct 2026) for every lane: include everything intelligible on any topic; opinions and rants are included under the closest category; contested and polemical matter is tagged, not dropped; unverifiable figures are kept with `needs_source`; excluded items are reported with reason, gate and override. Full rules: `docs/agents/audio-video-harvest.md` ("Include everything, and categorise it") and `docs/agents/mining-sources.md` §4a.
+Standing founder decisions (25 Oct 2026) for every lane: maps are part of the content, so whenever a source or series is added or changed, its map (for recordings, `scripts/harvest/audio/regen_map.sh`) is regenerated and committed with the content that links to it, and before every deploy; include everything intelligible on any topic; opinions and rants are included under the closest category; contested and polemical matter is tagged, not dropped; unverifiable figures are kept with `needs_source`; excluded items are reported with reason, gate and override. Full rules: `docs/agents/audio-video-harvest.md` ("Include everything, and categorise it") and `docs/agents/mining-sources.md` §4a.
 
 Founder's instruction, 25 Oct 2026: the audio and video harvest is part of every harvesting lane that uses recordings, not a separate track. Any lane that mines a recording (a lecture, a podcast, a talk) follows [`audio-video-harvest.md`](audio-video-harvest.md): the rights rules, the Mac toolchain, the timestamp anchors and the checks by listening. Books and dictionaries keep page anchors; recordings keep series, episode and timestamp.
 
