@@ -1,0 +1,716 @@
+# Topics for the teen wing (docs/delegation/education-master-plan.md §5 E4; the approved list is
+# docs/delegation/education-e4-proposal.md §2 — the 50 rows plus appendix B). Each topic ships one
+# 60-second explainer (~150 words, Arabic written first), a 12-term glossary (term + one-line gloss),
+# and a 10-question self-marking practice set (four options, exactly one `correct: true`, an `why`
+# explanation under every option) — trilingual in the same commit. `anchor` is the record the topic
+# hangs on; the explainer cites the anchor''s sources, never invents a fact. `band` is which teen band
+# the topic is pitched at (scholars 13-15 / researchers 16-18). First batch: 3 topics.
+topics:
+- id: crusades
+  anchor: exhibit/pathway-g11-chw3m-crusades-muslim-side
+  band: scholars
+  title:
+    ar: الحروب الصليبية
+    en: the Crusades
+    ur: صلیبی جنگیں
+  sixty:
+    ar: 'بين عامي ١٠٩٥ و١٢٩١ شنّت جيوش غربية سلسلة حملات على الشام ومصر سُمّيت الحروب الصليبية. رأيناها في كتب المسلمين غزوًا أجنبيًا، وفي كتب أوروبا حجًّا مسلّحًا. نجح الفرنجة في البداية لأنّ بلاد الشام كانت مقسّمة بين سلاطين متحاربين، فأقاموا أربع إمارات ساحلية. ثم جمع صلاح الدين مصر والشام واستعاد القدس في ١١٨٧. لم تكن حربًا دينية خالصة: عقد المسلمون والفرنجة معاهدات وتجارة وصداقات، وبقيت الفرنجة داخل المدن أكثر مما حكمته من الريف. انتهت آخر مملكة صليبية بسقوط عكا ١٢٩١، لكنّ أثرها بقي في القلاع والطرق والذاكرة.'
+    en: 'Between 1095 and 1291, armies from western Europe launched a series of campaigns on Syria and Egypt known as the Crusades. Muslim chronicles saw them as a foreign invasion; European accounts called them an armed pilgrimage. The Franks succeeded at first because Syria was divided among rival rulers, and they set up four coastal states. Then Saladin united Egypt and Syria and retook Jerusalem in 1187. It was never purely a religious war: Muslims and Franks made truces, traded, and sometimes fought side by side, and Frankish power stayed in the cities more than the countryside. The last Crusader kingdom fell with Acre in 1291, but its castles, roads and memory remained.'
+    ur: '1095 اور 1291 کے درمیان مغربی یورپ کی فوجوں نے شام اور مصر پر کئی مہمات چلائیں جنہیں صلیبی جنگیں کہا جاتا ہے۔ مسلم مؤرخین نے انہیں غیر ملکی حملہ سمجھا؛ یورپی روایات نے انہیں مسلح عبادت کہا۔ فرنگی ابتدائی کامیابی انہی تقسیموں کی وجہ سے ہوئی کہ شام متنازع حکمرانوں میں بٹا تھا، اور انہوں نے چار ساحلی ریاستیں قائم کیں۔ پھر صلاح الدین نے مصر اور شام کو متحد کیا اور 1187 میں بیت المقدس واپس لیا۔ یہ کبھی محض مذہبی جنگ نہ رہی: مسلم اور فرنگی معاہدے کرتے، تجارت کرتے، کبھی ایک دوسرے کے ساتھ مل کر بھی لڑتے، اور فرنگی طاقت دیہات کے مقابلے میں شہروں تک محدود رہی۔ آخری صلیبی ریاست 1291 میں عکہ کے سقوط کے ساتھ ختم ہوئی، مگر اس کے قلعے، سڑکیں اور یادیں باقی رہیں۔'
+  glossary:
+  - term: {ar: 'الفرنج', en: 'the Franks', ur: 'فرنگی'}
+    gloss: {ar: 'ما سمّاه المسلمون الأوروبيين الذين جاءوا من الغرب', en: 'what Muslims called the western Europeans who came east', ur: 'وہ یورپی جو مشرق آئے اور جنہیں مسلمان فرنگی کہتے تھے'}
+  - term: {ar: 'الإمارات الصليبية', en: 'the Crusader states', ur: 'صلیبی ریاستیں'}
+    gloss: {ar: 'أربع ممالك أقامها الفرنجة على الساحل السوري', en: 'the four kingdoms the Franks built on the Syrian coast', ur: 'فرنگیوں کی شامی ساحل پر قائم کردہ چار ریاستیں'}
+  - term: {ar: 'عكا', en: 'Acre', ur: 'عکہ'}
+    gloss: {ar: 'آخر مدينة خسرتها الصليبيون عام ١٢٩١', en: 'the last city lost to the Crusaders in 1291', ur: 'آخری شہر جو 1291 میں صلیبیوں سے ہارا'}
+  - term: {ar: 'حطين', en: 'Hattin', ur: 'حطین'}
+    gloss: {ar: 'معركة ١١٨٧ التي فتحت طريق القدس لصلاح الدين', en: 'the 1187 battle that opened Jerusalem to Saladin', ur: '1187 کی وہ جنگ جس نے صلاح الدین کے لیے بیت المقدس کا راستہ کھولا'}
+  - term: {ar: 'الصليب', en: 'the Cross', ur: 'صلیب'}
+    gloss: {ar: 'رمز الحملة الذي أخذت الحروب اسمها منه', en: 'the campaign symbol the wars are named after', ur: 'مہم کی علامت جس سے جنگوں کا نام پڑا'}
+  - term: {ar: 'الهدنة', en: 'the truce', ur: 'صلح'}
+    gloss: {ar: 'اتفاقات وقف القتال التي جمعت الجانبين فترات طويلة', en: 'the agreements that paused fighting between both sides for long stretches', ur: 'دونوں طرف کے درمیان لڑائی روکنے والے طویل معاہدے'}
+  - term: {ar: 'الرملة', en: 'Ramla', ur: 'رملہ'}
+    gloss: {ar: 'مدينة فلسطينية تبادلها الطرفان في هدنات متكررة', en: 'a Palestinian town traded between sides in repeated truces', ur: 'ایک فلسطینی شہر جو بار بار معاہدوں میں دونوں طرف رہا'}
+  - term: {ar: 'الجهاد', en: 'jihad', ur: 'جہاد'}
+    gloss: {ar: 'كيف سمّت الخطابة الدعوةَ لصدّ الفرنجة', en: 'how the call to resist the Franks was framed in sermons', ur: 'فرنگیوں کے مقابلہ کو خطبے میں جس نام سے پیش کیا گیا'}
+  - term: {ar: 'القلعة', en: 'the castle', ur: 'قلعہ'}
+    gloss: {ar: 'مركز القوة الصليبية في الريف، أشهرها كرك', en: 'the base of Frankish power inland, most famously Krak', ur: 'فرنگی طاقت کا اندرونی مرکز، سب سے مشہور کرک'}
+  - term: {ar: 'الأربعون سنة', en: 'the forty years', ur: 'چالیس سال'}
+    gloss: {ar: 'مدة غياب القدس عن أيدي المسلمين بين ١١٨٧ و١٢٢٩', en: 'the gap between Saladin''s 1187 recovery and the 1229 deal', ur: 'صلاح الدین کی 1187 واپسی اور 1229 کے معاہدے کے درمیانی عرصہ'}
+  - term: {ar: 'المستعربة', en: 'the Arabized Franks', ur: 'عرب طرز کے فرنگی'}
+    gloss: {ar: 'فرنجة الجيل الثاني الذين عاشوا على أسلوب البلد', en: 'second-generation Franks who lived in local style', ur: 'دوسری نسل کے فرنگی جو مقامی طرز پر جیتے تھے'}
+  - term: {ar: 'عكا الكبرى', en: 'the siege of Acre', ur: 'عکہ کا محاصرہ'}
+    gloss: {ar: 'محاصرة ١١٨٩-١١٩١ التي دارت حولها الحملة الثالثة', en: 'the 1189-1191 siege at the heart of the Third Crusade', ur: 'تیسری صلیبی مہم کا مرکزی محاصرہ 1189-1191'}
+  practice:
+  - q: {ar: 'كم دامت الحروب الصليبية؟', en: 'How long did the Crusades last?', ur: 'صلیبی جنگیں کتنی دیر جاری رہیں؟'}
+    options:
+    - text: {ar: 'نحو مائتي عام', en: 'about two hundred years', ur: 'تقریباً دو سو سال'}
+      correct: true
+      why: {ar: 'من نداء البابا ١٠٩٥ إلى سقوط عكا ١٢٩١', en: 'from the 1095 call to Acre''s fall in 1291', ur: '1095 کی پکار سے 1291 میں عکہ کے سقوط تک'}
+    - text: {ar: 'عشرون عامًا', en: 'about twenty years', ur: 'تقریباً بیس سال'}
+      correct: false
+      why: {ar: 'هذا طول حملة واحدة فقط لا الحروب كلها', en: 'that is the span of one campaign, not the whole wars', ur: 'یہ تو صرف ایک مہم کا عرصہ ہے، تمام جنگوں کا نہیں'}
+    - text: {ar: 'أربعمائة عام', en: 'about four hundred years', ur: 'تقریباً چار سو سال'}
+      correct: false
+      why: {ar: 'يتجاوز هذا عصر الحروب الصليبية بمراحل', en: 'that runs well beyond the age of the Crusades', ur: 'یہ صلیبی جنگوں کے زمانے سے کہیں زیادہ ہے'}
+    - text: {ar: 'عشر سنوات فقط', en: 'only ten years', ur: 'صرف دس سال'}
+      correct: false
+      why: {ar: 'هذا عُمر إمارة صليبية واحدة صغيرة', en: 'that is the life of one small Crusader state', ur: 'یہ صرف ایک چھوٹی صلیبی ریاست کی عمر ہے'}
+  - q: {ar: 'لماذا نجح الفرنجة في البداية؟', en: 'Why did the Franks succeed at first?', ur: 'فرنگی ابتداء میں کیوں کامیاب ہوئے؟'}
+    options:
+    - text: {ar: 'لأنّ بلاد الشام كانت منقسمة بين حكّام متحاربين', en: 'because Syria was split among warring rulers', ur: 'کیونکہ شام جنگجو حکمرانوں میں بٹا تھا'}
+      correct: true
+      why: {ar: 'تذكر المصادر تفكك جبهة المقاومة قبل عودة التوحيد', en: 'sources describe a divided resistance before reunification', ur: 'ماخذ دوبارہ اتحاد سے پہلے کمزور مزاحمت کا ذکر کرتے ہیں'}
+    - text: {ar: 'لأنّ المسلمين لم يقاتلوا أبدًا', en: 'because Muslims never fought back', ur: 'کیونکہ مسلمانوں نے کبھی مزاحمت نہیں کی'}
+      correct: false
+      why: {ar: 'قاتل المسلمون منذ البداية، لكنّ التنسيق كان ضعيفًا', en: 'Muslims fought from the start; coordination was the weak part', ur: 'مسلمان شروع سے لڑے؛ کمزوری رابطے میں تھی'}
+    - text: {ar: 'لأنّ أوروبا كانت أكثر عددًا', en: 'because Europe had more people', ur: 'کیونکہ یورپ کی آبادی زیادہ تھی'}
+      correct: false
+      why: {ar: 'كان الجيش الصليبي صغيرًا مقارنة بجيوش المنطقة', en: 'Crusader armies were small next to the region''s armies', ur: 'صلیبی فوجیں علاقائی فوجوں کے مقابلے میں چھوٹی تھیں'}
+    - text: {ar: 'لأنّ الفرنجة عرفوا الطرق أفضل', en: 'because the Franks knew the roads better', ur: 'کیونکہ فرنگی راستوں کو بہتر جانتے تھے'}
+      correct: false
+      why: {ar: 'كانوا غرباء في بلاد لا يعرفونها', en: 'they were newcomers in a land they did not know', ur: 'وہ نئی سرزمین میں اجنبی تھے'}
+  - q: {ar: 'ماذا فعل صلاح الدين في ١١٨٧؟', en: 'What did Saladin do in 1187?', ur: 'صلاح الدین نے 1187 میں کیا کیا؟'}
+    options:
+    - text: {ar: 'استعاد القدس بعد معركة حطين', en: 'retook Jerusalem after the battle of Hattin', ur: 'حطین کی جنگ کے بعد بیت المقدس واپس لیا'}
+      correct: true
+      why: {ar: 'تفيد المصادر باستعادة المدينة في ربيع الأول ١١٨٧', en: 'sources record the city''s recovery in spring 1187', ur: 'ماخذ موسم بہار 1187 میں شہر کی واپسی لکھتے ہیں'}
+    - text: {ar: 'غزا روما', en: 'he invaded Rome', ur: 'اس نے روم پر حملہ کیا'}
+      correct: false
+      why: {ar: 'لم يغادر صلاح الدين الشرق الأوسط قط', en: 'Saladin never left the Middle East', ur: 'صلاح الدین کبھی مشرقِ وسطی سے باہر نہیں گیا'}
+    - text: {ar: 'أسّس إمارة صليبية', en: 'he founded a Crusader state', ur: 'اس نے ایک صلیبی ریاست بنائی'}
+      correct: false
+      why: {ar: 'كان يوحّد المسلمين ضدّ الإمارات الصليبية', en: 'he was uniting Muslims against the Crusader states', ur: 'وہ مسلمانوں کو صلیبی ریاستوں کے خلاف متحد کر رہا تھا'}
+    - text: {ar: 'عقد صلحًا بقي خمسين عامًا', en: 'he signed a fifty-year peace', ur: 'اس نے پچاس سالہ صلح کی'}
+      correct: false
+      why: {ar: 'كانت هدنه مؤقتة لا نصف قرن', en: 'his truces were shorter pauses, not half a century', ur: 'اس کی صلحیں عارضی وقفے تھیں، نصف صدی نہیں'}
+  - q: {ar: 'كم كان عدد الإمارات الصليبية؟', en: 'How many Crusader states were there?', ur: 'صلیبی ریاستیں کتنی تھیں؟'}
+    options:
+    - text: {ar: 'أربع', en: 'four', ur: 'چار'}
+      correct: true
+      why: {ar: 'إديسا وأنطاكية وطرابلس والمملكة اللاتينية', en: 'Edessa, Antioch, Tripoli and the Latin kingdom', ur: 'ایڈیسا، انطاکیہ، طرابلس اور لاطینی مملکت'}
+    - text: {ar: 'عشر', en: 'ten', ur: 'دس'}
+      correct: false
+      why: {ar: 'هذا عدد المدن الرئيسية أكثر من الإمارات', en: 'that is closer to the count of major cities', ur: 'یہ بڑی شہر کی گنتی ہے، ریاستوں کی نہیں'}
+    - text: {ar: 'اثنتان', en: 'two', ur: 'دو'}
+      correct: false
+      why: {ar: 'اثنتان فقط إن حُصرا بالساحل', en: 'two only if you ignore inland states', ur: 'صرف دو اگر اندرونی ریاستیں نظرانداز کریں'}
+    - text: {ar: 'إمارة واحدة فقط', en: 'only one', ur: 'صرف ایک'}
+      correct: false
+      why: {ar: 'قسمت الفرنجة سيطرتهم إلى أربع ممالك', en: 'the Franks split their holdings into four kingdoms', ur: 'فرنگیوں نے اپنی حدود کو چار مملکتوں میں تقسیم کیا'}
+  - q: {ar: 'هل كانت الحروب الصليبية حربًا دينية خالصة؟', en: 'Were the Crusades a purely religious war?', ur: 'کیا صلیبی جنگیں محض مذہبی جنگ تھیں؟'}
+    options:
+    - text: {ar: 'لا؛ شملت معاهدات وتجارة وشراكات', en: 'no; truces, trade and partnerships were part of it', ur: 'نہیں؛ صلحیں، تجارت اور شراکتیں بھی شامل تھیں'}
+      correct: true
+      why: {ar: 'سجّل المؤرخون صلحًا وتجارة وتعاونًا عبر الطرفين', en: 'chroniclers record peace, trade and cooperation across lines', ur: 'مورخین دونوں طرف کے مابین صلح، تجارت اور تعاون درج کرتے ہیں'}
+    - text: {ar: 'نعم؛ لم يكن فيها إلا قتال دائم', en: 'yes; it was nothing but constant fighting', ur: 'ہاں؛ اس میں صرف مسلسل لڑائی تھی'}
+      correct: false
+      why: {ar: 'دامت فترات الصلح أطول من فترات الحرب', en: 'stretches of peace outlasted stretches of war', ur: 'صلح کے دور جنگ کے دوروں سے طویل رہے'}
+    - text: {ar: 'لا؛ لم يشارك رجال دين فيها', en: 'no; no clergy took part', ur: 'نہیں؛ اس میں مذہبی رہنماؤں نے حصہ نہیں لیا'}
+      correct: false
+      why: {ar: 'شاركت الخطابة والرهبانيات من الجانبين', en: 'preachers and orders took part on both sides', ur: 'دونوں طرف کے واعظ اور مذہبی ادارے شریک تھے'}
+    - text: {ar: 'لا؛ كانت حربًا بين مدن مسلمة', en: 'no; it was a war between Muslim cities', ur: 'نہیں؛ یہ مسلم شہروں کی جنگ تھی'}
+      correct: false
+      why: {ar: 'كان العدوّ الأساسي غزوًا خارجيًا وإن تداخلت صراعات داخلية', en: 'the main foe was an outside invasion, though internal struggles overlapped', ur: 'اصل حریف بیرونی حملہ تھا، اگرچہ اندرونی تنازعات بھی تھے'}
+  - q: {ar: 'ما مصير آخر معقل صليبي؟', en: 'What happened to the last Crusader stronghold?', ur: 'آخری صلیبی گڑھ کا کیا ہوا؟'}
+    options:
+    - text: {ar: 'سقطت عكا عام ١٢٩١', en: 'Acre fell in 1291', ur: 'عکہ 1291 میں گر گیا'}
+      correct: true
+      why: {ar: 'سجّلت المصادر نهاية المملكة اللاتينية بسقوط عكا', en: 'sources date the Latin kingdom''s end to Acre''s fall', ur: 'ماخذ لاطینی مملکت کا خاتمہ عکہ کے سقوط پر لکھتے ہیں'}
+    - text: {ar: 'بقيت حتى القرن الخامس عشر', en: 'it held out into the 1400s', ur: 'یہ پندرہویں صدی تک قائم رہی'}
+      correct: false
+      why: {ar: 'انتهت الوجود الصليبي البريّ عام ١٢٩١', en: 'mainland Crusader presence ended in 1291', ur: 'برّی صلیبی موجودگی 1291 میں ختم ہوئی'}
+    - text: {ar: 'سلّمها الصليبيون طوعًا', en: 'the Crusaders handed it over freely', ur: 'صلیبیوں نے خود سپردگی کی'}
+      correct: false
+      why: {ar: 'جاء السقوط بعد محاصرة طويلة لا بتسليم', en: 'it fell after a long siege, not a handover', ur: 'یہ طویل محاصرے کے بعد گرا، خود تسلیم نہیں'}
+    - text: {ar: 'نقلها الصليبيون إلى روما', en: 'the Crusaders moved it to Rome', ur: 'صلیبی اسے روم لے گئے'}
+      correct: false
+      why: {ar: 'كانت عكا مدينة لا يمكن نقلها', en: 'Acre was a city, not something to move', ur: 'عکہ ایک شہر تھا جو منتقل نہیں ہو سکتا'}
+  - q: {ar: 'أين تركّزت قوة الفرنجة؟', en: 'Where was Frankish power concentrated?', ur: 'فرنگی طاقت کہاں مرکوز تھی؟'}
+    options:
+    - text: {ar: 'في المدن الساحلية والقلاع', en: 'in the coastal cities and castles', ur: 'ساحلی شہروں اور قلعوں میں'}
+      correct: true
+      why: {ar: 'حكموا من بيروت وعكا والقلاع أكثر من الريف', en: 'they ruled from Beirut, Acre and the castles more than the countryside', ur: 'وہ بیروت، عکہ اور قلعوں سے دیہات کے مقابلے میں زیادہ حکمرانی کرتے تھے'}
+    - text: {ar: 'في الصحراء العربية', en: 'in the Arabian desert', ur: 'عرب کی صحرا میں'}
+      correct: false
+      why: {ar: 'لم يمتدّ حكمهم إلى الصحراء', en: 'their rule did not reach the desert', ur: 'ان کی حکمرانی صحرا تک نہیں پہنچی'}
+    - text: {ar: 'في كلّ بلاد الشام بالتساوي', en: 'equally across all Syria', ur: 'پورے شام میں یکساں طور پر'}
+      correct: false
+      why: {ar: 'كانت قوتهم في الساحل والقلاع، لا في كلّ الأرض', en: 'their strength was the coast and the castles, not the whole land', ur: 'ان کی طاقت ساحل اور قلعے تھی، پوری زمین نہیں'}
+    - text: {ar: 'في مصر', en: 'in Egypt', ur: 'مصر میں'}
+      correct: false
+      why: {ar: 'لم يحكم الفرنجة مصر قط', en: 'the Franks never ruled Egypt', ur: 'فرنگیوں نے کبھی مصر پر حکومت نہیں کی'}
+  - q: {ar: 'ما أثر الحروب الصليبية بعد انتهائها؟', en: 'What did the Crusades leave behind?', ur: 'صلیبی جنگوں کے بعد کیا بچا؟'}
+    options:
+    - text: {ar: 'قلاع وطرق وذاكرة مشتركة', en: 'castles, roads and shared memory', ur: 'قلعے، سڑکیں اور مشترک یادیں'}
+      correct: true
+      why: {ar: 'بقيت القلاع والطرق والحكايات في كتب كلا الجانبين', en: 'the castles, roads and stories remained in both sides'' books', ur: 'قلعے، سڑکیں اور قصے دونوں طرف کی کتابوں میں رہے'}
+    - text: {ar: 'انتهى كلّ أثر لها فورًا', en: 'all trace of them vanished at once', ur: 'ان کا ہر نشان فوراً مٹ گیا'}
+      correct: false
+      why: {ar: 'بقيت الإمارات والقلاع والذاكرة لأجيال', en: 'the states, castles and memory lasted for generations', ur: 'ریاستیں، قلعے اور یادیں نسلوں تک رہیں'}
+    - text: {ar: 'تحوّل الشرق الأوسط كله إلى أوروبا', en: 'the whole Middle East turned European', ur: 'پورا مشرقِ وسطی یورپی بن گیا'}
+      correct: false
+      why: {ar: 'بقيت المنطقة على لغتها ودينها في غالبها', en: 'the region mostly kept its languages and faith', ur: 'خطہ عموماً اپنی زبانیں اور دین پر رہا'}
+    - text: {ar: 'انتهت التجارة بين الشرق والغرب', en: 'East-West trade ended', ur: 'مشرق و مغرب کی تجارت ختم ہو گئی'}
+      correct: false
+      why: {ar: 'ازدادت التجارة بعد الحروب لا اختفت', en: 'trade grew after the wars, it did not disappear', ur: 'جنگوں کے بعد تجارت بڑھی، ختم نہیں ہوئی'}
+  - q: {ar: 'من كتب عن الحروب الصليبية؟', en: 'Who wrote about the Crusades?', ur: 'صلیبی جنگوں کے بارے میں کس نے لکھا؟'}
+    options:
+    - text: {ar: 'مؤرخون من الجانبين المسلم والأوروبي', en: 'historians on both the Muslim and European sides', ur: 'مسلم اور یورپی دونوں طرف کے مؤرخین'}
+      correct: true
+      why: {ar: 'تصلنا روايات ابن الأثير والفرنجة وغيرهما من الجهتين', en: 'accounts reach us from Ibn al-Athir and Frankish writers alike', ur: 'ابن اثیر اور فرنگی مصنفین دونوں کی روایتیں ہم تک پہنچی ہیں'}
+    - text: {ar: 'لا أحد؛ فُقدت السجلات كلها', en: 'nobody; the records are all lost', ur: 'کوئی نہیں؛ تمام ریکارڈ کھو گئے'}
+      correct: false
+      why: {ar: 'بقيت روايات مفصّلة من الجانبين', en: 'detailed accounts survive from both sides', ur: 'دونوں طرف کی مفصل روایتیں باقی ہیں'}
+    - text: {ar: 'الأوروبيون فقط', en: 'only the Europeans', ur: 'صرف یورپی'}
+      correct: false
+      why: {ar: 'كتب المسلمون عنها بدورهم', en: 'Muslims wrote their own accounts', ur: 'مسلمانوں نے بھی اپنی روایتیں لکھیں'}
+    - text: {ar: 'المسلمون فقط', en: 'only the Muslims', ur: 'صرف مسلمان'}
+      correct: false
+      why: {ar: 'تصلنا سجلات أوروبية أيضًا', en: 'European records reach us too', ur: 'یورپی ریکارڈ بھی ہم تک پہنچے ہیں'}
+  - q: {ar: 'ما معنى "الفرنجة" في كتب المسلمين؟', en: 'What does "al-Firanj" mean in Muslim sources?', ur: 'مسلم ماخذ میں "فرنگی" کا کیا مطلب ہے؟'}
+    options:
+    - text: {ar: 'الأوروبيون الغربيون عامة', en: 'western Europeans in general', ur: 'عمومی طور پر مغربی یورپی'}
+      correct: true
+      why: {ar: 'استعملتها الكتب للقوافل والجيش الصليبي', en: 'the books used it for the invading forces and settlers', ur: 'کتابوں نے اسے حملہ آوروں اور باسیوں کے لیے استعمال کیا'}
+    - text: {ar: 'الفرس', en: 'the Persians', ur: 'فارسی'}
+      correct: false
+      why: {ar: 'كان للفرس اسم آخر في تلك الكتب', en: 'Persians had their own name in those books', ur: 'فارسیوں کا ان کتابوں میں اپنا نام تھا'}
+    - text: {ar: 'سكان البحر المتوسط', en: 'Mediterranean natives', ur: 'بحیرہ روم کے رہائشی'}
+      correct: false
+      why: {ar: 'كان اللفظ للغرباء القادمين لا لأهل الساحل', en: 'the word was for the newcomers, not the coastal people', ur: 'یہ لفظ نئے آنے والوں کے لیے تھا، ساحلی باشندوں کے لیے نہیں'}
+    - text: {ar: 'جيش روما القديمة', en: 'the army of ancient Rome', ur: 'قدیم روم کی فوج'}
+      correct: false
+      why: {ar: 'كانت الحملة في القرن الثاني عشر لا في العصور القديمة', en: 'the campaign was twelfth-century, not ancient', ur: 'مہم بارہویں صدی کی تھی، قدیم زمانے کی نہیں'}
+- id: hijra
+  anchor: event/hijra
+  band: scholars
+  title:
+    ar: الهجرة
+    en: the Hijra
+    ur: ہجرت
+  sixty:
+    ar: 'في سنة ٦٢٢ غادر رسول الله مكة إلى يثرب بدعوة من أهلها، فصارت المدينة أول دولة إسلامية. لم تكن الهجرة هروبًا من اضطهاد فحسب بل انتقالًا من جماعة مكية محاصرة إلى مجتمع مستقل يبني عقده الخاص. كتب أهل يثرب مع المهاجرين "وثيقة المدينة" فجمعت المسلمين وقبائل اليهود وحلفاءهم في بنيان واحد. قامت المدينة مركزًا للرسالة والتعليم والتجارة، وبدأ المسلمون منها تقويمهم الهجري. فتحت الهجرة الطريق إلى فتح مكة بعد ثماني سنوات وانتشار الإسلام خارج الجزيرة.'
+    en: 'In 622, the Prophet left Mecca for Yathrib at the invitation of its people, and the town — Medina — became the first Islamic polity. The Hijra was not only an escape from persecution but a move from a besieged Meccan community to an independent society writing its own covenant. The people of Yathrib wrote with the migrants the "Constitution of Medina," binding Muslims, Jewish tribes and their allies into one polity. Medina became the centre of preaching, learning and trade, and Muslims began their Hijri calendar from that year. The Hijra opened the way to the conquest of Mecca eight years later and to the spread of Islam beyond Arabia.'
+    ur: '622 میں نبی نے مکہ سے یثرب کی طرف اس کے اہلِ خانہ کی دعوت پر ہجرت کی، اور یہ شہر — مدینہ — پہلی اسلامی ریاست بن گیا۔ ہجرت صرف ظلم سے بچ نکلنا نہیں تھی بلکہ محصور مکی جماعت سے آزاد معاشرے کی طرف منتقلی تھی جو اپنا عہد لکھتی ہے۔ یثرب کے لوگوں نے مہاجرین کے ساتھ "میثاقِ مدینہ" لکھا جس نے مسلمانوں، یہودی قبائل اور ان کے حلیفوں کو ایک نظم میں باندھا۔ مدینہ دعوت، علم اور تجارت کا مرکز بنا، اور مسلمانوں نے اسی سال سے ہجری تقویم شروع کیا۔ ہجرت نے آٹھ سال بعد مکہ کی فتح اور جزیرے سے باہر اسلام کے پھیلاؤ کا راستہ کھولا۔'
+  glossary:
+  - term: {ar: 'يثرب', en: 'Yathrib', ur: 'یثرب'}
+    gloss: {ar: 'الاسم القديم للمدينة قبل أن تصبح "المدينة"', en: 'the old name of the town before it became "the City"', ur: 'شہر کا قدیم نام قبل اس کے کہ "مدینہ" بنے'}
+  - term: {ar: 'المهاجرون', en: 'the migrants', ur: 'مہاجرین'}
+    gloss: {ar: 'مؤمنو مكة الذين خرجوا مع النبي', en: 'the Meccan believers who left with the Prophet', ur: 'مکہ کے وہ مومنین جو نبی کے ساتھ نکلے'}
+  - term: {ar: 'الأنصار', en: 'the Ansar', ur: 'انصار'}
+    gloss: {ar: 'أهل يثرب الذين آووا المهاجرين', en: 'the people of Yathrib who hosted the migrants', ur: 'یثرب کے وہ لوگ جنہوں نے مہاجرین کی میزبانی کی'}
+  - term: {ar: 'وثيقة المدينة', en: 'the Constitution of Medina', ur: 'میثاقِ مدینہ'}
+    gloss: {ar: 'عقد بين المسلمين وقبائل المدينة وحلفائهم', en: 'the pact between Muslims, Medina''s tribes and their allies', ur: 'مسلمانوں، مدینہ کے قبائل اور ان کے حلیفوں کے درمیان عہد'}
+  - term: {ar: 'المسجد النبوي', en: 'the Prophet''s mosque', ur: 'مسجدِ نبوی'}
+    gloss: {ar: 'أول مركز للعبادة والتعليم في المدينة', en: 'the first centre of worship and learning in Medina', ur: 'مدینہ میں عبادت اور علم کا پہلا مرکز'}
+  - term: {ar: 'التقويم الهجري', en: 'the Hijri calendar', ur: 'ہجری تقویم'}
+    gloss: {ar: 'التاريخ الذي يبدأ من سنة الهجرة', en: 'the calendar counted from the year of the Hijra', ur: 'وہ تقویم جو ہجرت کے سال سے شروع ہوتا ہے'}
+  - term: {ar: 'الهجرة', en: 'the Hijra', ur: 'ہجرت'}
+    gloss: {ar: 'الرحلة من مكة إلى يثرب عام ٦٢٢', en: 'the journey from Mecca to Yathrib in 622', ur: '622 میں مکہ سے یثرب کا سفر'}
+  - term: {ar: 'النبي', en: 'the Prophet', ur: 'نبی'}
+    gloss: {ar: 'محمد بن عبد الله، الذي قاد الهجرة', en: 'Muhammad ibn Abdullah, who led the Hijra', ur: 'محمد بن عبداللہ، جنہوں نے ہجرت کی قیادت کی'}
+  - term: {ar: 'اليهود في المدينة', en: 'Medina''s Jews', ur: 'مدینہ کے یہود'}
+    gloss: {ar: 'قبائل أطراف في الوثيقة مع المسلمين', en: 'tribes party to the pact alongside the Muslims', ur: 'وہ قبائل جو مسلمانوں کے ساتھ معاہدے میں شریک تھے'}
+  - term: {ar: 'الأوس والخزرج', en: 'Aws and Khazraj', ur: 'اوس اور خزرج'}
+    gloss: {ar: 'قبيلتا يثرب اللتان دعتا النبي', en: 'the two Yathrib tribes that invited the Prophet', ur: 'یثرب کے وہ دو قبائل جنہوں نے نبی کو بلایا'}
+  - term: {ar: 'الصحبة', en: 'the companions', ur: 'صحابہ'}
+    gloss: {ar: 'من رافق النبي ورأى الإسلام في زمانه', en: 'those who accompanied the Prophet in his lifetime', ur: 'وہ لوگ جو نبی کے ساتھ زندگی میں رہے'}
+  - term: {ar: 'فتح مكة', en: 'the conquest of Mecca', ur: 'فتح مکہ'}
+    gloss: {ar: 'عودة المسلمين إلى مكة عام ٦٣٠ بعد الهجرة بثماني سنوات', en: 'the Muslims'' return to Mecca in 630, eight years after the Hijra', ur: '630 میں مسلمانوں کی مکہ واپسی، ہجرت کے آٹھ سال بعد'}
+  practice:
+  - q: {ar: 'متى وقعت الهجرة؟', en: 'When did the Hijra happen?', ur: 'ہجرت کب ہوئی؟'}
+    options:
+    - text: {ar: 'عام ٦٢٢ ميلادي', en: 'in 622 CE', ur: '622 عیسوی میں'}
+      correct: true
+      why: {ar: 'سجّلت المصادر سنة الهجرة ٦٢٢ وبدأت بها التقويم', en: 'sources date the Hijra to 622, the calendar''s starting year', ur: 'ماخذ ہجرت کو 622 لکھتے ہیں، تقویم کا آغاز سال'}
+    - text: {ar: 'عام ٦٣٠', en: 'in 630', ur: '630 میں'}
+      correct: false
+      why: {ar: 'ذلك العام كان فتح مكة لا الهجرة', en: 'that year was the conquest of Mecca, not the Hijra', ur: 'وہ سال فتح مکہ کا تھا، ہجرت کا نہیں'}
+    - text: {ar: 'عام ٦١٠', en: 'in 610', ur: '610 میں'}
+      correct: false
+      why: {ar: 'ذلك العام بدأت الرسالة في مكة', en: 'that year began the revelation in Mecca', ur: 'وہ سال مکہ میں وحی کا آغاز تھا'}
+    - text: {ar: 'عام ٦٥٠', en: 'in 650', ur: '650 میں'}
+      correct: false
+      why: {ar: 'ذلك بعد وفاة النبي بسنوات', en: 'that was years after the Prophet''s death', ur: 'یہ نبی کی وفات کے برسوں بعد تھا'}
+  - q: {ar: 'إلى أين كانت الهجرة؟', en: 'Where did the Hijra go?', ur: 'ہجرت کہاں کی طرف ہوئی؟'}
+    options:
+    - text: {ar: 'إلى يثرب التي صارت المدينة', en: 'to Yathrib, which became Medina', ur: 'یثرب کی طرف، جو مدینہ بن گئی'}
+      correct: true
+      why: {ar: 'دعا أهل يثرب النبي إليها فصارت مركز الدولة', en: 'Yathrib''s people invited him, and it became the polity''s centre', ur: 'یثرب کے لوگوں نے ان کو بلایا، اور یہ ریاست کا مرکز بنا'}
+    - text: {ar: 'إلى دمشق', en: 'to Damascus', ur: 'دمشق کی طرف'}
+      correct: false
+      why: {ar: 'لم تدخل دمشق في دائرة الهجرة', en: 'Damascus was not part of the Hijra', ur: 'دمشق ہجرت کا حصہ نہیں تھا'}
+    - text: {ar: 'إلى مصر', en: 'to Egypt', ur: 'مصر کی طرف'}
+      correct: false
+      why: {ar: 'بقيت مصر خارج رحلة الهجرة', en: 'Egypt was outside the Hijra''s route', ur: 'مصر ہجرت کے راستے سے باہر تھا'}
+    - text: {ar: 'إلى بغداد', en: 'to Baghdad', ur: 'بغداد کی طرف'}
+      correct: false
+      why: {ar: 'لم تكن بغداد موجودة آنذاك', en: 'Baghdad did not yet exist', ur: 'اس وقت بغداد موجود ہی نہیں تھا'}
+  - q: {ar: 'لماذا هاجر النبي؟', en: 'Why did the Prophet migrate?', ur: 'نبی نے ہجرت کیوں کی؟'}
+    options:
+    - text: {ar: 'بدعوة من أهل يثرب وبعد اضطهاد مكة', en: 'by Yathrib''s invitation after Meccan persecution', ur: 'یثرب کی دعوت پر، مکہ کے ظلم کے بعد'}
+      correct: true
+      why: {ar: 'جمعت الهجرة الهروب من الأذى وبناء دولة جديدة', en: 'the move joined escaping harm with building a new polity', ur: 'اس منتقلی نے ظلم سے بچنا اور نئی ریاست بنانا جوڑا'}
+    - text: {ar: 'للتجارة فقط', en: 'for trade only', ur: 'صرف تجارت کے لیے'}
+      correct: false
+      why: {ar: 'لم تكن غايته التجارة بل بناء الجماعة', en: 'its aim was not trade but building the community', ur: 'اس کا مقصد تجارت نہیں بلکہ جماعت بنانا تھا'}
+    - text: {ar: 'لزيارة الأقارب', en: 'to visit relatives', ur: 'رشتہ داروں سے ملنے'}
+      correct: false
+      why: {ar: 'كانت هجرة سياسية دينية لا زيارة', en: 'it was a religious-political migration, not a visit', ur: 'یہ مذہبی-سیاسی ہجرت تھی، ملاقات نہیں'}
+    - text: {ar: 'لأنّ يثرب كانت أقرب مدينة', en: 'because Yathrib was the closest town', ur: 'کیونکہ یثرب قریب ترین شہر تھا'}
+      correct: false
+      why: {ar: 'لم يكن القرب سبب الاختيار بل الدعوة', en: 'proximity was not the reason; the invitation was', ur: 'قرب وجہ نہیں تھا؛ دعوت تھی'}
+  - q: {ar: 'ما وثيقة المدينة؟', en: 'What was the Constitution of Medina?', ur: 'میثاقِ مدینہ کیا تھا؟'}
+    options:
+    - text: {ar: 'عقد بين المسلمين وقبائل المدينة وحلفائهم', en: 'a pact between Muslims, Medina''s tribes and their allies', ur: 'مسلمانوں، مدینہ کے قبائل اور ان کے حلیفوں کے درمیان عہد'}
+      correct: true
+      why: {ar: 'جمعت الوثيقة أطراف المدينة في نظام مشترك', en: 'the document bound Medina''s parties into one shared order', ur: 'اس دستاویز نے مدینہ کے فریقوں کو ایک مشترک نظم میں باندھا'}
+    - text: {ar: 'معاهدة تجارية بين مكة ويثرب', en: 'a trade treaty between Mecca and Yathrib', ur: 'مکہ اور یثرب کے درمیان تجارتی معاہدہ'}
+      correct: false
+      why: {ar: 'كانت عقدًا داخليًا لأهل المدينة لا معاهدة تجارة', en: 'it was Medina''s internal pact, not a trade treaty', ur: 'یہ مدینہ کا اندرونی عہد تھا، تجارتی معاہدہ نہیں'}
+    - text: {ar: 'دستور كتبه الفرنجة لاحقًا', en: 'a constitution written later by the Franks', ur: 'ایک آئین جو بعد میں فرنگیوں نے لکھا'}
+      correct: false
+      why: {ar: 'كُتبت في زمن النبي لا في العصور اللاحقة', en: 'it was written in the Prophet''s time, not later', ur: 'یہ نبی کے زمانے میں لکھی گئی، بعد میں نہیں'}
+    - text: {ar: 'رسالة سرية بين المهاجرين فقط', en: 'a secret letter among the migrants only', ur: 'صرف مہاجرین کے درمیان خفیہ خط'}
+      correct: false
+      why: {ar: 'شملت جميع أطراف المدينة، لا المهاجرين وحدهم', en: 'it covered all of Medina''s parties, not just the migrants', ur: 'اس میں مدینہ کے تمام فریق شامل تھے، صرف مہاجرین نہیں'}
+  - q: {ar: 'ماذا غيّرت الهجرة في المسلمين؟', en: 'What did the Hijra change for Muslims?', ur: 'ہجرت نے مسلمانوں کے لیے کیا بدلا؟'}
+    options:
+    - text: {ar: 'صاروا مجتمعًا مستقلًّا بدولته الخاصة', en: 'they became an independent society with its own polity', ur: 'وہ اپنی ریاست والا آزاد معاشرہ بن گئے'}
+      correct: true
+      why: {ar: 'انتقلت الجماعة من محاصرة مكية إلى بنيان مدني', en: 'the community moved from a besieged Meccan group to a civic structure', ur: 'جماعت محصور مکی گروہ سے شہری نظم میں بدل گئی'}
+    - text: {ar: 'لم يتغير شيء', en: 'nothing changed', ur: 'کچھ نہیں بدلا'}
+      correct: false
+      why: {ar: 'بدأت دولة وتقويم ومركز جديد للتعليم', en: 'a state, a calendar and a new centre of learning began', ur: 'ایک ریاست، تقویم اور علم کا نیا مرکز شروع ہوا'}
+    - text: {ar: 'تركوا مكة نهائيًا بلا عودة', en: 'they left Mecca forever', ur: 'انہوں نے مکہ ہمیشہ کے لیے چھوڑ دیا'}
+      correct: false
+      why: {ar: 'عادوا إلى مكة بعد ثماني سنوات في الفتح', en: 'they returned to Mecca eight years later at the conquest', ur: 'وہ آٹھ سال بعد فتح میں مکہ واپس آئے'}
+    - text: {ar: 'صاروا أقلّ عددًا من قبل', en: 'they became fewer than before', ur: 'وہ پہلے سے کم ہو گئے'}
+      correct: false
+      why: {ar: 'نما عدد المسلمين في المدينة لا نقص', en: 'Muslim numbers grew in Medina, not shrank', ur: 'مدینہ میں مسلمان بڑھے، کم نہیں ہوئے'}
+  - q: {ar: 'من كتب عن الهجرة؟', en: 'Who wrote about the Hijra?', ur: 'ہجرت کے بارے میں کس نے لکھا؟'}
+    options:
+    - text: {ar: 'مؤرخون من السيرة والتواريخ المبكرة', en: 'chroniclers of the sira and early histories', ur: 'سیرت اور ابتدائی تواریخ کے مؤرخین'}
+      correct: true
+      why: {ar: 'تصلنا روايات ابن إسحاق والواقدي والطبري', en: 'accounts reach us from Ibn Ishaq, al-Waqidi and al-Tabari', ur: 'ابن اسحاق، واقدی اور طبری کی روایتیں ہم تک پہنچی ہیں'}
+    - text: {ar: 'لا أحد', en: 'nobody', ur: 'کوئی نہیں'}
+      correct: false
+      why: {ar: 'تصلنا روايات مبكرة من كتب السيرة', en: 'early sira accounts reach us', ur: 'ابتدائی سیرت کی روایتیں ہم تک پہنچی ہیں'}
+    - text: {ar: 'المستشرقون فقط', en: 'only orientalists', ur: 'صرف مستشرقین'}
+      correct: false
+      why: {ar: 'سبقت روايات السيرة العربية بقرون', en: 'Arabic sira accounts predate orientalism by centuries', ur: 'عربی سیرت کی روایتیں صدیوں پہلے کی ہیں'}
+    - text: {ar: 'الأنصار فقط', en: 'only the Ansar', ur: 'صرف انصار'}
+      correct: false
+      why: {ar: 'تصلنا روايات مهاجرين وأنصار على حد سواء', en: 'migrant and Ansar accounts both reach us', ur: 'مہاجرین اور انصار دونوں کی روایتیں ہم تک پہنچی ہیں'}
+  - q: {ar: 'لماذا بدأ التقويم الهجري من الهجرة؟', en: 'Why does the Hijri calendar start from the Hijra?', ur: 'ہجری تقویم ہجرت سے کیوں شروع ہوتی ہے؟'}
+    options:
+    - text: {ar: 'لأنها لحظة قيام الدولة الإسلامية', en: 'because it marks the founding of the Islamic polity', ur: 'کیونکہ یہ اسلامی ریاست کے قیام کی علامت ہے'}
+      correct: true
+      why: {ar: 'اختار الخلفاء لاحقًا سنة الهجرة بداية للتاريخ الإسلامي', en: 'later caliphs chose the Hijra year as the Islamic era''s start', ur: 'بعد کے خلفاء نے ہجرت کے سال کو اسلامی عہد کا آغاز چنا'}
+    - text: {ar: 'لأنها سنة ميلاد النبي', en: 'because it is the Prophet''s birth year', ur: 'کیونکہ یہ نبی کا سالِ پیدائش ہے'}
+      correct: false
+      why: {ar: 'ولد النبي قبل الهجرة بنحو ٥٣ سنة', en: 'the Prophet was born about 53 years before the Hijra', ur: 'نبی ہجرت سے تقریباً 53 سال پہلے پیدا ہوئے'}
+    - text: {ar: 'لأنها سنة فتح مكة', en: 'because it is the conquest year', ur: 'کیونکہ یہ فتح کا سال ہے'}
+      correct: false
+      why: {ar: 'كان الفتح بعد الهجرة بثماني سنوات', en: 'the conquest was eight years after the Hijra', ur: 'فتح ہجرت کے آٹھ سال بعد تھی'}
+    - text: {ar: 'لأن القرآن أمر بذلك', en: 'because the Quran commanded it', ur: 'کیونکہ قرآن نے اس کا حکم دیا'}
+      correct: false
+      why: {ar: 'كان اختيارًا إداريًا لاحقًا لا نصًّا قرآنيًا', en: 'it was a later administrative choice, not a Quranic command', ur: 'یہ بعد کا انتظامی فیصلہ تھا، قرآنی حکم نہیں'}
+  - q: {ar: 'ماذا جاء بعد الهجرة بثماني سنوات؟', en: 'What came eight years after the Hijra?', ur: 'ہجرت کے آٹھ سال بعد کیا آیا؟'}
+    options:
+    - text: {ar: 'فتح مكة', en: 'the conquest of Mecca', ur: 'فتح مکہ'}
+      correct: true
+      why: {ar: 'عاد المسلمون إلى مكة عام ٦٣٠', en: 'the Muslims returned to Mecca in 630', ur: 'مسلمان 630 میں مکہ واپس آئے'}
+    - text: {ar: 'موت النبي', en: 'the Prophet''s death', ur: 'نبی کی وفات'}
+      correct: false
+      why: {ar: 'توفي النبي عام ٦٣٢ بعد الفتح بسنتين', en: 'he died in 632, two years after the conquest', ur: 'ان کی وفات 632 میں ہوئی، فتح کے دو سال بعد'}
+    - text: {ar: 'سقوط عكا', en: 'the fall of Acre', ur: 'عکہ کا سقوط'}
+      correct: false
+      why: {ar: 'كان ذلك عام ١٢٩١ بعد قرون', en: 'that was in 1291, centuries later', ur: 'یہ 1291 میں تھا، صدیوں بعد'}
+    - text: {ar: 'بداية الحروب الصليبية', en: 'the start of the Crusades', ur: 'صلیبی جنگوں کا آغاز'}
+      correct: false
+      why: {ar: 'كانت الحروب الصليبية في ١٠٩٥', en: 'the Crusades began in 1095', ur: 'صلیبی جنگیں 1095 میں شروع ہوئیں'}
+  - q: {ar: 'من كان الأنصار؟', en: 'Who were the Ansar?', ur: 'انصار کون تھے؟'}
+    options:
+    - text: {ar: 'أهل يثرب الذين آووا المهاجرين', en: 'the people of Yathrib who hosted the migrants', ur: 'یثرب کے وہ لوگ جنہوں نے مہاجرین کی میزبانی کی'}
+      correct: true
+      why: {ar: 'سمّوا أنصارًا لنصرتهم للنبي والمهاجرين', en: 'they were called Ansar for aiding the Prophet and the migrants', ur: 'انہیں نبی اور مہاجرین کی مدد پر انصار کہا گیا'}
+    - text: {ar: 'أهل مكة الذين هاجروا', en: 'the Meccans who migrated', ur: 'مکہ کے وہ لوگ جنہوں نے ہجرت کی'}
+      correct: false
+      why: {ar: 'أولئك كانوا المهاجرين لا الأنصار', en: 'those were the migrants, not the Ansar', ur: 'وہ مہاجرین تھے، انصار نہیں'}
+    - text: {ar: 'جيش النبي في الفتح', en: 'the Prophet''s army at the conquest', ur: 'فتح میں نبی کی فوج'}
+      correct: false
+      why: {ar: 'كان الأنصار طائفة من أهل المدينة لا جيشًا عسكريًا فقط', en: 'the Ansar were Medina''s host community, not just an army', ur: 'انصار مدینہ کی میزبان جماعت تھی، صرف فوج نہیں'}
+    - text: {ar: 'قبائل عربية في الشام', en: 'Arab tribes in Syria', ur: 'شام کے عرب قبائل'}
+      correct: false
+      why: {ar: 'كان الأنصار في يثرب لا في الشام', en: 'the Ansar were in Yathrib, not Syria', ur: 'انصار یثرب میں تھے، شام میں نہیں'}
+  - q: {ar: 'كم عُدّت يثرب قبل الإسلام؟', en: 'How was Yathrib described before Islam?', ur: 'اسلام سے پہلے یثرب کیسا تھا؟'}
+    options:
+    - text: {ar: 'واحة فيها قبائل متنافسة وحلفاء يهود', en: 'an oasis of rival tribes with Jewish allies', ur: 'ایک نخلستان جس میں متحارب قبائل اور یہودی حلیف تھے'}
+      correct: true
+      why: {ar: 'وصفت المصادر تنازع الأوس والخزرج وتحالفات يهودية', en: 'sources describe Aws-Khazraj rivalry and Jewish alliances', ur: 'ماخذ اوس-خزرج کی دشمنی اور یہودی اتحادوں کا ذکر کرتے ہیں'}
+    - text: {ar: 'مدينة موحّدة تحت ملك واحد', en: 'a unified city under one king', ur: 'ایک بادشاہ کے تحت متحد شہر'}
+      correct: false
+      why: {ar: 'لم تكن يثرب تحت حكم واحد قبل الهجرة', en: 'Yathrib was not under one ruler before the Hijra', ur: 'ہجرت سے پہلے یثرب ایک حکمران کے تحت نہیں تھا'}
+    - text: {ar: 'ميناء بحري على الخليج', en: 'a seaport on the Gulf', ur: 'خلیج پر ایک بندرگاہ'}
+      correct: false
+      why: {ar: 'كانت يثرب واحة داخلية لا ميناء', en: 'Yathrib was an inland oasis, not a port', ur: 'یثرب اندرونی نخلستان تھا، بندرگاہ نہیں'}
+    - text: {ar: 'أرض فارغة بلا سكان', en: 'empty land with no people', ur: 'بے آباد زمین'}
+      correct: false
+      why: {ar: 'كان فيها قبائل وزراعة وتجارة قبل الإسلام', en: 'it had tribes, farming and trade before Islam', ur: 'اسلام سے پہلے اس میں قبائل، کھیتی اور تجارت تھے'}
+- id: five-pillars
+  anchor: concept/five-pillars
+  band: scholars
+  title:
+    ar: أركان الإسلام الخمسة
+    en: the five pillars
+    ur: اسلام کے پانچ ارکان
+  sixty:
+    ar: 'تقوم الحياة الإسلامية على خمسة أركان: الشهادة بأن لا إله إلا الله وأن محمدًا رسول الله؛ الصلاة خمس مرات في اليوم؛ الزكاة، نصيبٌ واجب للفقراء من المال؛ الصوم شهر رمضان؛ والحج إلى مكة لمن استطاع. تجمع الأركان الإيمان والعبادة والتكافل، فالشهادة عقد القلب، والصلاة والصوم نسك البدن، والزكاة والحج ربط المال والناس بالله والمجتمع. كتبتها الكتب منذ القرون الأولى في كتب الفقه والحديث، وبقيت الإطار العملي للتدين حتى اليوم.'
+    en: 'Muslim life rests on five pillars: the testimony that there is no god but God and Muhammad is His messenger; prayer five times a day; zakat, the obligatory share for the poor from wealth; fasting the month of Ramadan; and pilgrimage to Mecca for whoever is able. The pillars bind faith, worship and solidarity — the testimony is the heart''s contract, prayer and fasting are bodily devotion, and zakat and Hajj tie wealth and people to God and to community. Books of law and hadith have recorded them since the earliest centuries, and they remain the practical frame of religious life today.'
+    ur: 'مسلمانوں کی زندگی پانچ ارکان پر قائم ہے: شہادت کہ اللہ کے سوا کوئی معبود نہیں اور محمد اس کے رسول ہیں؛ دن میں پانچ بار نماز؛ زکوٰۃ، مال میں سے غریبوں کا واجب حصہ؛ رمضان کے مہینے کا روزہ؛ اور جو شخص استطاعت رکھے اس کے لیے مکہ کا حج۔ ارکان ایمان، عبادت اور یکجہتی کو جوڑتے ہیں — شہادت دل کا عہد ہے، نماز اور روزہ جسمانی عبادت، اور زکوٰۃ اور حج مال اور لوگوں کو اللہ اور معاشرے سے باندھتے ہیں۔ فقہ اور حدیث کی کتابوں نے انہیں ابتدائی صدیوں سے لکھا، اور وہ آج بھی دینی زندگی کا عملی ڈھانچہ ہیں۔'
+  glossary:
+  - term: {ar: 'الشهادة', en: 'the testimony', ur: 'شہادت'}
+    gloss: {ar: 'القول الافتتاحي للإيمان', en: 'the opening statement of faith', ur: 'ایمان کا ابتدائی اقرار'}
+  - term: {ar: 'الصلاة', en: 'the prayer', ur: 'نماز'}
+    gloss: {ar: 'خمس صلوات في اليوم بالاتجاه إلى القبلة', en: 'five prayers daily facing the qibla', ur: 'قبلہ کی طرف دن میں پانچ نمازیں'}
+  - term: {ar: 'الزكاة', en: 'zakat', ur: 'زکوٰۃ'}
+    gloss: {ar: 'حصة واجبة من المال للفقراء', en: 'an obligatory share of wealth for the poor', ur: 'مال میں سے غریبوں کا واجب حصہ'}
+  - term: {ar: 'الصوم', en: 'the fast', ur: 'روزہ'}
+    gloss: {ar: 'امتناع عن الأكل والشراب من الفجر إلى الغروب في رمضان', en: 'no food or drink from dawn to sunset in Ramadan', ur: 'رمضان میں طلوعِ فجر سے غروبِ آفتاب تک کھانا پینا بند'}
+  - term: {ar: 'الحج', en: 'the Hajj', ur: 'حج'}
+    gloss: {ar: 'رحلة إلى مكة لمن قدر عليها مرة في العمر', en: 'the journey to Mecca once in a lifetime for whoever can', ur: 'زندگی میں ایک بار مکہ کا سفر، جو کر سکے'}
+  - term: {ar: 'التوحيد', en: 'tawhid', ur: 'توحید'}
+    gloss: {ar: 'إفراد الله بالعبادة', en: 'singling out God in worship', ur: 'اللہ کو یکتا ماننا'}
+  - term: {ar: 'القبلة', en: 'the qibla', ur: 'قبلہ'}
+    gloss: {ar: 'اتجاه الصلاة نحو الكعبة', en: 'the direction of prayer toward the Kaaba', ur: 'نماز کی سمت کعبہ کی طرف'}
+  - term: {ar: 'النية', en: 'the intention', ur: 'نیت'}
+    gloss: {ar: 'قصد العبادة قبل أدائها', en: 'the aim of the act before performing it', ur: 'عبادت کرنے سے پہلے اس کا ارادہ'}
+  - term: {ar: 'الركن', en: 'the pillar', ur: 'رکن'}
+    gloss: {ar: 'كلّ واحد من الأركان الخمسة', en: 'each one of the five pillars', ur: 'پانچ ارکان میں سے ہر ایک'}
+  - term: {ar: 'الاستطاعة', en: 'the ability', ur: 'استطاعت'}
+    gloss: {ar: 'شرط الحج لمن يقدر بدنيًا وماليًا', en: 'the Hajj condition of physical and financial capacity', ur: 'حج کی شرط کہ بدن اور مال دونوں مائل ہوں'}
+  - term: {ar: 'رمضان', en: 'Ramadan', ur: 'رمضان'}
+    gloss: {ar: 'الشهر التاسع من السنة الهجرية، شهر الصوم', en: 'the ninth Hijri month, the month of fasting', ur: 'ہجری سال کا نواں مہینہ، روزے کا مہینہ'}
+  - term: {ar: 'الأركان الخمسة', en: 'the five pillars', ur: 'پانچ ارکان'}
+    gloss: {ar: 'الإطار العملي للتدين في الإسلام', en: 'the practical frame of Muslim religious life', ur: 'مسلم دینی زندگی کا عملی ڈھانچہ'}
+  practice:
+  - q: {ar: 'كم عدد أركان الإسلام؟', en: 'How many pillars of Islam are there?', ur: 'اسلام کے ارکان کتنے ہیں؟'}
+    options:
+    - text: {ar: 'خمسة', en: 'five', ur: 'پانچ'}
+      correct: true
+      why: {ar: 'تذكر الكتب الأركان الخمسة نفسها منذ القرون الأولى', en: 'books name the same five pillars since the early centuries', ur: 'کتابیں ابتدائی صدیوں سے وہی پانچ ارکان لکھتی ہیں'}
+    - text: {ar: 'ثلاثة', en: 'three', ur: 'تین'}
+      correct: false
+      why: {ar: 'الثلاثة عدد الأيام المشهورة لا الأركان', en: 'three is the count of sacred days, not pillars', ur: 'تین مقدس دنوں کی گنتی ہے، ارکان کی نہیں'}
+    - text: {ar: 'سبعة', en: 'seven', ur: 'سات'}
+      correct: false
+      why: {ar: 'السبعة عدد أبواب المدينة أو أشياء أخرى', en: 'seven is the count of other things, not pillars', ur: 'سات دوسری چیزوں کی گنتی ہے، ارکان کی نہیں'}
+    - text: {ar: 'اثنا عشر', en: 'twelve', ur: 'بارہ'}
+      correct: false
+      why: {ar: 'الاثنا عشر عدد الأئمة عند الشيعة لا الأركان', en: 'twelve is a count from another tradition, not pillars', ur: 'بارہ دوسری روایت کی گنتی ہے، ارکان کی نہیں'}
+  - q: {ar: 'ما أول ركن؟', en: 'What is the first pillar?', ur: 'پہلا رکن کون سا ہے؟'}
+    options:
+    - text: {ar: 'الشهادة', en: 'the testimony', ur: 'شہادت'}
+      correct: true
+      why: {ar: 'تأتي الشهادة أولًا لأنها دخول الإيمان', en: 'the testimony comes first as the entry into faith', ur: 'شہادت پہلے آتی ہے کیونکہ یہ ایمان کا داخلہ ہے'}
+    - text: {ar: 'الصلاة', en: 'the prayer', ur: 'نماز'}
+      correct: false
+      why: {ar: 'الصلاة الركن الثاني بعد الشهادة', en: 'prayer is the second pillar after the testimony', ur: 'نماز شہادت کے بعد دوسرا رکن ہے'}
+    - text: {ar: 'الحج', en: 'the Hajj', ur: 'حج'}
+      correct: false
+      why: {ar: 'الحج الركن الأخير المشروط بالاستطاعة', en: 'Hajj is the last pillar, conditioned on ability', ur: 'حج آخری رکن ہے، استطاعت کی شرط کے ساتھ'}
+    - text: {ar: 'الزكاة', en: 'zakat', ur: 'زکوٰۃ'}
+      correct: false
+      why: {ar: 'الزكاة الركن الثالث المالي', en: 'zakat is the third pillar, the financial one', ur: 'زکوٰۃ تیسرا رکن ہے، مالی رکن'}
+  - q: {ar: 'كم مرة يصلي المسلم في اليوم؟', en: 'How many times does a Muslim pray daily?', ur: 'مسلمان دن میں کتنی بار نماز پڑھتا ہے؟'}
+    options:
+    - text: {ar: 'خمس مرات', en: 'five times', ur: 'پانچ بار'}
+      correct: true
+      why: {ar: 'تذكر الكتب الصلوات الخمس من الفجر إلى العشاء', en: 'books name the five prayers from dawn to night', ur: 'کتابیں طلوع فجر سے عشاء تک پانچ نمازیں لکھتی ہیں'}
+    - text: {ar: 'مرة واحدة', en: 'once', ur: 'ایک بار'}
+      correct: false
+      why: {ar: 'مرة واحدة لا تكمل العدد المشهور', en: 'once does not match the familiar count', ur: 'ایک بار مشہور گنتی پوری نہیں کرتی'}
+    - text: {ar: 'ثلاث مرات', en: 'three times', ur: 'تین بار'}
+      correct: false
+      why: {ar: 'ثلاثة عدد الصلوات المجمعة أحيانًا لا المفروضة', en: 'three is a count in combined prayer, not the required five', ur: 'تین مجموعی نمازوں کی گنتی ہے، واجب پانچ کی نہیں'}
+    - text: {ar: 'عشر مرات', en: 'ten times', ur: 'دس بار'}
+      correct: false
+      why: {ar: 'عشرة عدد النوافل لا الفرائض', en: 'ten is the count of extras, not required prayers', ur: 'دس نوافل کی گنتی ہے، فرائض کی نہیں'}
+  - q: {ar: 'ما الزكاة؟', en: 'What is zakat?', ur: 'زکوٰۃ کیا ہے؟'}
+    options:
+    - text: {ar: 'حصة واجبة من المال للفقراء', en: 'an obligatory share of wealth for the poor', ur: 'مال میں سے غریبوں کا واجب حصہ'}
+      correct: true
+      why: {ar: 'تفرض الكتب نسبة محددة لأصناف مستحقيها', en: 'books set a fixed share for its eligible categories', ur: 'کتابیں اس کے مستحقین کے لیے مقررہ حصہ لکھتی ہیں'}
+    - text: {ar: 'صدقة اختيارية', en: 'voluntary charity', ur: 'رضاکارانہ صدقہ'}
+      correct: false
+      why: {ar: 'الزكاة فرض لا تطوّع، عكس الصدقة الاختيارية', en: 'zakat is required, unlike optional charity', ur: 'زکوٰۃ فرض ہے، اختیاری صدقے کے برعکس'}
+    - text: {ar: 'ضريبة للدولة', en: 'a state tax', ur: 'ریاستی ٹیکس'}
+      correct: false
+      why: {ar: 'الزكاة عبادة مالية لا ضريبة مدنية', en: 'zakat is a financial act of worship, not a civic tax', ur: 'زکوٰۃ مالی عبادت ہے، سول ٹیکس نہیں'}
+    - text: {ar: 'هبة للأقارب', en: 'a gift for relatives', ur: 'رشتہ داروں کے لیے تحفہ'}
+      correct: false
+      why: {ar: 'الزكاة للفقراء والمستحقين لا للأقارب خاصة', en: 'zakat is for the poor and eligible, not family specifically', ur: 'زکوٰۃ غریبوں اور مستحقین کے لیے ہے، خاص رشتہ داروں کے لیے نہیں'}
+  - q: {ar: 'متى يصوم المسلمون؟', en: 'When do Muslims fast?', ur: 'مسلمان کب روزہ رکھتے ہیں؟'}
+    options:
+    - text: {ar: 'في شهر رمضان', en: 'during Ramadan', ur: 'رمضان کے مہینے میں'}
+      correct: true
+      why: {ar: 'رمضان الشهر المفروض للصوم في الكتب', en: 'Ramadan is the month of the required fast in the books', ur: 'رمضان کتابوں میں واجب روزے کا مہینہ ہے'}
+    - text: {ar: 'كلّ يوم من السنة', en: 'every day of the year', ur: 'سال کا ہر دن'}
+      correct: false
+      why: {ar: 'الصوم المفروض في رمضان لا طوال السنة', en: 'the required fast is Ramadan, not all year', ur: 'واجب روزہ رمضان کا ہے، پورے سال کا نہیں'}
+    - text: {ar: 'في أيام الحج فقط', en: 'only during Hajj days', ur: 'صرف حج کے دنوں میں'}
+      correct: false
+      why: {ar: 'أيام الحج لها أعمالها الخاصة لا صومًا عامًّا', en: 'Hajj days have their own rites, not a general fast', ur: 'حج کے دن اپنے اعمال رکھتے ہیں، عمومی روزہ نہیں'}
+    - text: {ar: 'في موسم الشتاء فقط', en: 'only in winter', ur: 'صرف سردیوں میں'}
+      correct: false
+      why: {ar: 'يجري رمضان في المواسم كلها عبر السنين', en: 'Ramadan runs through all seasons over the years', ur: 'رمضان برسوں کے دوران ہر موسم میں آتا ہے'}
+  - q: {ar: 'من يجب عليه الحج؟', en: 'Who must perform Hajj?', ur: 'حج کس پر فرض ہے؟'}
+    options:
+    - text: {ar: 'من استطاع بدنيًا وماليًا', en: 'whoever is physically and financially able', ur: 'جو جسمانی اور مالی طور پر مائل ہو'}
+      correct: true
+      why: {ar: 'تشترط الكتب الاستطاعة شرطًا للحج', en: 'the books make ability the Hajj''s condition', ur: 'کتابیں استطاعت کو حج کی شرط بناتی ہیں'}
+    - text: {ar: 'كلّ مسلم دون استثناء', en: 'every Muslim without exception', ur: 'ہر مسلمان بلا استثنا'}
+      correct: false
+      why: {ar: 'الاستطاعة شرط، فالعاجز معذور', en: 'ability is a condition, so the unable are excused', ur: 'استطاعت شرط ہے، لہٰذا عاجز معذور ہے'}
+    - text: {ar: 'الرجال فقط', en: 'only men', ur: 'صرف مرد'}
+      correct: false
+      why: {ar: 'تحجّ النساء والرجال على السواء', en: 'women and men perform Hajj alike', ur: 'عورتیں اور مرد یکساں حج کرتے ہیں'}
+    - text: {ar: 'سكان مكة فقط', en: 'only Mecca''s residents', ur: 'صرف مکہ کے رہائشی'}
+      correct: false
+      why: {ar: 'يأتي الحجاج من العالم كله لا من مكة وحدها', en: 'pilgrims come from the whole world, not just Mecca', ur: 'حجاج پوری دنیا سے آتے ہیں، صرف مکہ سے نہیں'}
+  - q: {ar: 'ما الذي تجمعه الأركان الخمسة؟', en: 'What do the five pillars bind together?', ur: 'پانچ ارکان کیا جوڑتے ہیں؟'}
+    options:
+    - text: {ar: 'الإيمان والعبادة والتكافل', en: 'faith, worship and solidarity', ur: 'ایمان، عبادت اور یکجہتی'}
+      correct: true
+      why: {ar: 'تربط الأركان القلب والبدن والمال بالمجتمع', en: 'the pillars tie heart, body and wealth to the community', ur: 'ارکان دل، جسم اور مال کو معاشرے سے جوڑتے ہیں'}
+    - text: {ar: 'العبادات فقط', en: 'worship only', ur: 'صرف عبادتیں'}
+      correct: false
+      why: {ar: 'فيها أيضًا عقد اجتماعي مالي', en: 'they include a social-financial contract too', ur: 'ان میں سماجی-مالی عہد بھی شامل ہے'}
+    - text: {ar: 'العقيدة فقط', en: 'belief only', ur: 'صرف عقیدہ'}
+      correct: false
+      why: {ar: 'فيها أعمال بدنية ومالية أيضًا', en: 'they include bodily and financial acts too', ur: 'ان میں جسمانی اور مالی اعمال بھی ہیں'}
+    - text: {ar: 'المال فقط', en: 'wealth only', ur: 'صرف مال'}
+      correct: false
+      why: {ar: 'المال جانب منها لا كلّها', en: 'wealth is one side, not the whole', ur: 'مال ایک پہلو ہے، سب کچھ نہیں'}
+  - q: {ar: 'من كتب عن الأركان الخمسة؟', en: 'Who wrote about the five pillars?', ur: 'پانچ ارکان کے بارے میں کس نے لکھا؟'}
+    options:
+    - text: {ar: 'كتب الفقه والحديث منذ القرون الأولى', en: 'books of law and hadith since the early centuries', ur: 'ابتدائی صدیوں سے فقہ اور حدیث کی کتابیں'}
+      correct: true
+      why: {ar: 'تذكرها مصادر مثل البخاري وكتب الفقه منذ القدم', en: 'sources like Bukhari and fiqh books list them from early on', ur: 'بخاری جیسے ماخذ اور فقہ کی کتابیں انہیں شروع سے لکھتی ہیں'}
+    - text: {ar: 'مؤرخو الحروب الصليبية', en: 'Crusade historians', ur: 'صلیبی جنگوں کے مؤرخین'}
+      correct: false
+      why: {ar: 'كتب الفقه الإسلامية أولى بالأركان', en: 'Islamic fiqh books are the primary place for the pillars', ur: 'ارکان کی بنیادی جگہ اسلامی فقہ کی کتابیں ہیں'}
+    - text: {ar: 'علماء الأحياء فقط', en: 'only biologists', ur: 'صرف ماہرینِ حیاتیات'}
+      correct: false
+      why: {ar: 'الأركان موضوع ديني لا علمي حيوي', en: 'the pillars are a religious subject, not biological', ur: 'ارکان مذہبی موضوع ہیں، حیاتیاتی نہیں'}
+    - text: {ar: 'لا أحد؛ نصّ شفهي فقط', en: 'nobody; oral text only', ur: 'کوئی نہیں؛ صرف زبانی روایت'}
+      correct: false
+      why: {ar: 'كُتبت الأركان في الكتب منذ القرون الأولى', en: 'the pillars were written down from the early centuries', ur: 'ارکان ابتدائی صدیوں سے لکھے جا رہے ہیں'}
+  - q: {ar: 'ما التوحيد في الشهادة؟', en: 'What is tawhid in the testimony?', ur: 'شہادت میں توحید کیا ہے؟'}
+    options:
+    - text: {ar: 'إفراد الله بالعبادة', en: 'singling out God in worship', ur: 'اللہ کو یکتا ماننا'}
+      correct: true
+      why: {ar: 'تُقسم الشهادة بين إثبات الوحدانية ورسالة النبي', en: 'the testimony pairs God''s oneness with the Prophet''s message', ur: 'شہادت اللہ کی وحدانیت اور نبی کے رسالت کو جوڑتی ہے'}
+    - text: {ar: 'تعدد الآلهة', en: 'many gods', ur: 'بہت سے معبود'}
+      correct: false
+      why: {ar: 'التوحيد هو ضدّ الشرك لا تأكيده', en: 'tawhid is the opposite of polytheism', ur: 'توحید شرک کے برعکس ہے'}
+    - text: {ar: 'عبادة الأنبياء', en: 'worshipping prophets', ur: 'نبیوں کی عبادت'}
+      correct: false
+      why: {ar: 'النبي رسول لا معبود في الشهادة', en: 'the Prophet is a messenger, not worshipped, in the testimony', ur: 'نبی شہادت میں رسول ہیں، معبود نہیں'}
+    - text: {ar: 'فلسفة يونانية', en: 'Greek philosophy', ur: 'یونانی فلسفہ'}
+      correct: false
+      why: {ar: 'التوحيد عقيدة إسلامية لا فلسفة مستوردة', en: 'tawhid is Islamic doctrine, not imported philosophy', ur: 'توحید اسلامی عقیدہ ہے، درآمدہ فلسفہ نہیں'}
+  - q: {ar: 'متى يُعفى المسلم من الحج؟', en: 'When is a Muslim excused from Hajj?', ur: 'مسلمان کب حج سے معذور ہوتا ہے؟'}
+    options:
+    - text: {ar: 'عند عدم الاستطاعة', en: 'when unable physically or financially', ur: 'جب جسمانی یا مالی طور پر عاجز ہو'}
+      correct: true
+      why: {ar: 'شرط الاستطاعة يعفي من لا يقدر عليها', en: 'the ability condition excuses whoever cannot perform it', ur: 'استطاعت کی شرط اس شخص کو معذور کرتی ہے جو نہیں کر سکتا'}
+    - text: {ar: 'أبدًا؛ فهو واجب دائمًا', en: 'never; it is always required', ur: 'کبھی نہیں؛ یہ ہمیشہ فرض ہے'}
+      correct: false
+      why: {ar: 'الاستطاعة شرط، فالعاجز معذور', en: 'ability is the condition, so the unable are excused', ur: 'استطاعت شرط ہے، لہٰذا عاجز معذور ہے'}
+    - text: {ar: 'في رمضان فقط', en: 'only in Ramadan', ur: 'صرف رمضان میں'}
+      correct: false
+      why: {ar: 'الحج مرتبط بذي الحجة لا برمضان', en: 'Hajj is tied to Dhu al-Hijja, not Ramadan', ur: 'حج ذوالحجہ سے جڑا ہے، رمضان سے نہیں'}
+    - text: {ar: 'بعد الستين فقط', en: 'only after sixty', ur: 'صرف ساٹھ کے بعد'}
+      correct: false
+      why: {ar: 'لا يتعلق الإعفاء بالعمر بل بالقدرة', en: 'the excuse depends on ability, not age', ur: 'معذوریت عمر نہیں بلکہ استطاعت پر منحصر ہے'}
+- id: salah
+  anchor: practice/salah
+  band: scholars
+  title:
+    ar: الصلاة
+    en: the prayer
+    ur: نماز
+  sixty:
+    ar: 'الصلاة الركن الثاني من أركان الإسلام، خمس مرات في اليوم بالاتجاه إلى الكعبة. تبدأ بالطهارة ثم الوقوف لله بالقراءة والركوع والسجود، وتجمع الإيمان والحركة البدنية والذكر في نظام واحد. تُؤدى في المسجد جماعةً أو فرادى، وتوقف الحياة خمس مرات يوميًّا كي تعود النفس إلى خالقها. كتبتها كتب الفقه والحديث منذ القرون الأولى، وبقيت الإطار اليومي لتدين المسلمين في كلّ بلد وثقافة.'
+    en: 'Salah is the second pillar of Islam, performed five times daily facing the Kaaba. It begins with purification, then standing before God with recitation, bowing and prostration — binding faith, bodily movement and remembrance in one discipline. It is prayed in congregation at the mosque or alone, stopping the day five times so the soul returns to its Creator. Books of law and hadith have recorded it since the earliest centuries, and it remains the daily frame of Muslim devotion in every land and culture.'
+    ur: 'نماز اسلام کا دوسرا رکن ہے، دن میں پانچ بار کعبہ کی طرف پڑھی جاتی ہے۔ یہ طہارت سے شروع ہوتی ہے، پھر اللہ کے سامنے کھڑے ہو کر تلاوت، رکوع اور سجدہ — ایمان، جسمانی حرکت اور ذکر کو ایک نظم میں باندھتی ہے۔ یہ مسجد میں جماعت کے ساتھ یا اکیلے ادا کی جاتی ہے، اور دن کو پانچ بار روکتی ہے تاکہ روح اپنے خالق کی طرف لوٹے۔ فقہ اور حدیث کی کتابوں نے اسے ابتدائی صدیوں سے لکھا، اور یہ ہر ملک اور کلچر میں مسلم عبادت کا روزانہ ڈھانچہ ہے۔'
+  glossary:
+  - term: {ar: 'الطهارة', en: 'the purification', ur: 'طہارت'}
+    gloss: {ar: 'الوضوء قبل الصلاة', en: 'washing before the prayer', ur: 'نماز سے پہلے وضو'}
+  - term: {ar: 'القبلة', en: 'the qibla', ur: 'قبلہ'}
+    gloss: {ar: 'اتجاه الكعبة الذي يصلى إليه', en: 'the direction toward the Kaaba that is prayed to', ur: 'نماز کی سمت کعبہ کی طرف'}
+  - term: {ar: 'الجماعة', en: 'the congregation', ur: 'جماعت'}
+    gloss: {ar: 'الصلاة مع الناس في المسجد أو أيّ مكان', en: 'praying with others in a mosque or anywhere', ur: 'مسجد میں یا کہیں بھی لوگوں کے ساتھ نماز'}
+  - term: {ar: 'الركوع', en: 'the bowing', ur: 'رکوع'}
+    gloss: {ar: 'الانحناء بعد القراءة في كل ركعة', en: 'the bow after recitation in each unit', ur: 'ہر رکعت میں تلاوت کے بعد جھکنا'}
+  - term: {ar: 'السجود', en: 'the prostration', ur: 'سجدہ'}
+    gloss: {ar: 'وضع الجبهة على الأرض لله', en: 'placing the forehead on the ground for God', ur: 'اللہ کے لیے پیشانی زمین پر رکھنا'}
+  - term: {ar: 'الركعة', en: 'the unit', ur: 'رکعت'}
+    gloss: {ar: 'كلّ دورة من الوقوف والركوع والسجود', en: 'each cycle of standing, bowing and prostration', ur: 'کھڑے ہونا، رکوع اور سجدہ کا ہر دور'}
+  - term: {ar: 'النية', en: 'the intention', ur: 'نیت'}
+    gloss: {ar: 'قصد الصلاة قبل بدئها', en: 'the aim of the prayer before starting it', ur: 'نماز شروع کرنے سے پہلے اس کا ارادہ'}
+  - term: {ar: 'التكبير', en: 'the takbir', ur: 'تکبیر'}
+    gloss: {ar: 'قول الله أكبر الذي تُفتح به الصلاة', en: 'the phrase God-is-greatest with which the prayer opens', ur: 'وہ فقرہ اللہ اکبر جس سے نماز کھلتی ہے'}
+  - term: {ar: 'الخمسة', en: 'the five', ur: 'پانچ'}
+    gloss: {ar: 'الفجر والظهر والعصر والمغرب والعشاء', en: 'dawn, noon, afternoon, sunset and night', ur: 'فجر، ظہر، عصر، مغرب اور عشاء'}
+  - term: {ar: 'الجمعة', en: 'Friday', ur: 'جمعہ'}
+    gloss: {ar: 'صلاة الظهر الجماعية يوم الجمعة', en: 'the congregational noon prayer on Friday', ur: 'جمعے کے دن ظہر کی جماعت کی نماز'}
+  - term: {ar: 'التراويح', en: 'the night prayers', ur: 'تراویح'}
+    gloss: {ar: 'صلاة رمضان بعد العشاء في الجماعة', en: 'the Ramadan night prayer after nightfall, in congregation', ur: 'رمضان کی رات کی نماز عشاء کے بعد، جماعت کے ساتھ'}
+  - term: {ar: 'السنن', en: 'the extra prayers', ur: 'سنتیں'}
+    gloss: {ar: 'صلوات زائدة بعد الفرائض', en: 'voluntary prayers after the required ones', ur: 'فرائض کے بعد اضافی نمازیں'}
+  practice:
+  - q: {ar: 'كم صلاة في اليوم؟', en: 'How many prayers a day?', ur: 'دن میں کتنی نمازیں؟'}
+    options:
+    - text: {ar: 'خمس', en: 'five', ur: 'پانچ'}
+      correct: true
+      why: {ar: 'الفجر والظهر والعصر والمغرب والعشاء', en: 'dawn, noon, afternoon, sunset and night', ur: 'فجر، ظہر، عصر، مغرب اور عشاء'}
+    - text: {ar: 'ثلاث', en: 'three', ur: 'تین'}
+      correct: false
+      why: {ar: 'ثلاثة عدد الصلوات المجمعة أحيانًا لا المفروضة', en: 'three is a count in combined prayer, not the required five', ur: 'تین مجموعی نمازوں کی گنتی ہے، واجب پانچ کی نہیں'}
+    - text: {ar: 'سبع', en: 'seven', ur: 'سات'}
+      correct: false
+      why: {ar: 'سبعة عدد أبواب المدينة لا الصلوات', en: 'seven is the count of gates or days, not prayers', ur: 'سات دروازوں یا دنوں کی گنتی ہے، نمازوں کی نہیں'}
+    - text: {ar: 'عشر', en: 'ten', ur: 'دس'}
+      correct: false
+      why: {ar: 'عشرة عدد النوافل لا الفرائض', en: 'ten is the count of extras, not required prayers', ur: 'دس نوافل کی گنتی ہے، فرائض کی نہیں'}
+  - q: {ar: 'إلى أيّ اتجاه تصلى؟', en: 'In which direction is salah prayed?', ur: 'نماز کس سمت پڑھی جاتی ہے؟'}
+    options:
+    - text: {ar: 'نحو الكعبة في مكة', en: 'toward the Kaaba in Mecca', ur: 'مکہ میں کعبہ کی طرف'}
+      correct: true
+      why: {ar: 'القبلة نحو الكعبة منذ البداية بعد التحويل', en: 'the qibla has been toward the Kaaba since the change', ur: 'قبلہ تبدیلی کے بعد سے کعبہ کی طرف ہے'}
+    - text: {ar: 'نحو القدس دائمًا', en: 'always toward Jerusalem', ur: 'ہمیشہ بیت المقدس کی طرف'}
+      correct: false
+      why: {ar: 'كان القدس القبلة الأولى ثم حُوّلت إلى الكعبة', en: 'Jerusalem was the first qibla, then it changed to the Kaaba', ur: 'بیت المقدس پہلا قبلہ تھا، پھر کعبہ کی طرف بدل گیا'}
+    - text: {ar: 'نحو الشرق فقط', en: 'only east', ur: 'صرف مشرق'}
+      correct: false
+      why: {ar: 'القبلة تختلف بحسب مكان المصلي', en: 'the qibla varies by the pray-er''s location', ur: 'قبلہ مقام کے حساب سے بدلتا ہے'}
+    - text: {ar: 'لا اتجاه معين', en: 'no fixed direction', ur: 'کوئی مقررہ سمت نہیں'}
+      correct: false
+      why: {ar: 'القبلة جزء أساسي من الصلاة', en: 'the qibla is a basic part of the prayer', ur: 'قبلہ نماز کا بنیادی حصہ ہے'}
+  - q: {ar: 'ماذا يسبق الصلاة؟', en: 'What comes before the prayer?', ur: 'نماز سے پہلے کیا ہوتا ہے؟'}
+    options:
+    - text: {ar: 'الطهارة بالوضوء', en: 'purification by washing', ur: 'وضو سے طہارت'}
+      correct: true
+      why: {ar: 'تشترط الكتب الطهارة شرطًا قبل الدخول في الصلاة', en: 'the books make purification a condition before the prayer', ur: 'کتابیں طہارت کو نماز سے پہلے شرط بناتی ہیں'}
+    - text: {ar: 'الأكل مباشرة', en: 'eating right away', ur: 'فوراً کھانا'}
+      correct: false
+      why: {ar: 'تُصلى على طهارة لا على معدة ممتلئة', en: 'salah is prayed in purity, not on a full stomach', ur: 'نماز طہارت میں پڑھی جاتی ہے، بھری معدے پر نہیں'}
+    - text: {ar: 'النوم', en: 'sleeping', ur: 'سونا'}
+      correct: false
+      why: {ar: 'النوم ناقض للطهارة لا مقدمة لها', en: 'sleep breaks purification, it does not prepare it', ur: 'نیند طہارت توڑتی ہے، اس کی تیاری نہیں'}
+    - text: {ar: 'لا شيء', en: 'nothing', ur: 'کچھ نہیں'}
+      correct: false
+      why: {ar: 'الطهارة شرط ثابت في الكتب', en: 'purification is a fixed condition in the books', ur: 'طہارت کتابوں میں مقررہ شرط ہے'}
+  - q: {ar: 'أين تصلى الجمعة؟', en: 'Where is the Friday prayer held?', ur: 'جمعے کی نماز کہاں ہوتی ہے؟'}
+    options:
+    - text: {ar: 'في المسجد جماعةً', en: 'in the mosque in congregation', ur: 'مسجد میں جماعت کے ساتھ'}
+      correct: true
+      why: {ar: 'الجمعة صلاة جماعة مع الخطبة في المسجد', en: 'Friday is a congregational prayer with a sermon in the mosque', ur: 'جمعہ مسجد میں خطبے کے ساتھ جماعت کی نماز ہے'}
+    - text: {ar: 'في البيت وحدها', en: 'alone at home', ur: 'گھر میں تنہا'}
+      correct: false
+      why: {ar: 'يتطلب الجمعة الجماعة والخطبة في المسجد', en: 'Friday requires congregation and sermon in the mosque', ur: 'جمعہ مسجد میں جماعت اور خطبہ چاہتا ہے'}
+    - text: {ar: 'في المدرسة فقط', en: 'only in school', ur: 'صرف سکول میں'}
+      correct: false
+      why: {ar: 'تصلى الجمعة في أيّ مسجد جامع لا في المدرسة خاصة', en: 'Friday is prayed in any congregational mosque, not only school', ur: 'جمعہ کسی بھی جامع مسجد میں ہوتا ہے، صرف سکول میں نہیں'}
+    - text: {ar: 'في السوق', en: 'in the market', ur: 'بازار میں'}
+      correct: false
+      why: {ar: 'ليس السوق مكان الجمعة', en: 'the market is not the place for Friday', ur: 'بازار جمعے کی جگہ نہیں'}
+  - q: {ar: 'ما التكبير؟', en: 'What is the takbir?', ur: 'تکبیر کیا ہے؟'}
+    options:
+    - text: {ar: 'قول "الله أكبر" لافتتاح الصلاة', en: 'saying "God is greatest" to open the prayer', ur: 'نماز کھولنے کے لیے "اللہ اکبر" کہنا'}
+      correct: true
+      why: {ar: 'تُفتح الصلاة بالتكبير ويُكرر في مواضعها', en: 'the prayer opens with the takbir and repeats it in its places', ur: 'نماز تکبیر سے کھلتی ہے اور اپنے مقامات پر دہراتی ہے'}
+    - text: {ar: 'اسم المسجد', en: 'the mosque''s name', ur: 'مسجد کا نام'}
+      correct: false
+      why: {ar: 'التكبير عبارة لا اسم مكان', en: 'takbir is a phrase, not a place name', ur: 'تکبیر ایک فقرہ ہے، جگہ کا نام نہیں'}
+    - text: {ar: 'نوع من الصدقة', en: 'a kind of charity', ur: 'ایک قسم کا صدقہ'}
+      correct: false
+      why: {ar: 'التكبير ذكر لا عمل مالي', en: 'takbir is remembrance, not a financial act', ur: 'تکبیر ذکر ہے، مالی عمل نہیں'}
+    - text: {ar: 'صلاة الليل', en: 'the night prayer', ur: 'رات کی نماز'}
+      correct: false
+      why: {ar: 'التكبير جزء من كلّ صلاة لا صلاة خاصة', en: 'takbir is part of every prayer, not a separate one', ur: 'تکبیر ہر نماز کا حصہ ہے، الگ نماز نہیں'}
+  - q: {ar: 'متى تصلى الجمعة؟', en: 'When is the Friday prayer?', ur: 'جمعے کی نماز کب ہوتی ہے؟'}
+    options:
+    - text: {ar: 'يوم الجمعة وقت الظهر', en: 'on Friday at noon', ur: 'جمعے کے دن ظہر کے وقت'}
+      correct: true
+      why: {ar: 'تُعقد الجمعة في موعد الظهر مع الخطبة', en: 'Friday prayer is held at noon with the sermon', ur: 'جمعہ ظہر کے وقت خطبے کے ساتھ ہوتا ہے'}
+    - text: {ar: 'كلّ يوم عند الغروب', en: 'every day at sunset', ur: 'ہر دن غروب پر'}
+      correct: false
+      why: {ar: 'يوم الجمعة خاص لا يومي', en: 'Friday is a special day, not daily', ur: 'جمعہ ایک خاص دن ہے، روزانہ نہیں'}
+    - text: {ar: 'مرة في الشهر', en: 'once a month', ur: 'مہینے میں ایک بار'}
+      correct: false
+      why: {ar: 'الجمعة أسبوعية لا شهرية', en: 'Friday is weekly, not monthly', ur: 'جمعہ ہفتہ وار ہے، ماہانہ نہیں'}
+    - text: {ar: 'في رمضان فقط', en: 'only in Ramadan', ur: 'صرف رمضان میں'}
+      correct: false
+      why: {ar: 'تصلى الجمعة طوال السنة لا في رمضان وحده', en: 'Friday is prayed all year, not only in Ramadan', ur: 'جمعہ پورے سال ہوتا ہے، صرف رمضان میں نہیں'}
+  - q: {ar: 'ما الركعة؟', en: 'What is a rak''ah?', ur: 'رکعت کیا ہے؟'}
+    options:
+    - text: {ar: 'دورة من الوقوف والركوع والسجود', en: 'a cycle of standing, bowing and prostration', ur: 'کھڑے ہونے، رکوع اور سجدے کا ایک دور'}
+      correct: true
+      why: {ar: 'تُقسّم كلّ صلاة إلى ركعات ثابتة العدد', en: 'each prayer is divided into a fixed number of units', ur: 'ہر نماز مقررہ رکعتوں میں بٹی ہوتی ہے'}
+    - text: {ar: 'نوع من الصدقة', en: 'a kind of charity', ur: 'ایک قسم کا صدقہ'}
+      correct: false
+      why: {ar: 'الركعة جزء حركي من الصلاة لا صدقة', en: 'a rak''ah is a prayer movement, not charity', ur: 'رکعت نماز کی حرکت ہے، صدقہ نہیں'}
+    - text: {ar: 'خطبة الجمعة', en: 'the Friday sermon', ur: 'جمعے کا خطبہ'}
+      correct: false
+      why: {ar: 'الخطبة منفصلة عن الركعات', en: 'the sermon is separate from the units', ur: 'خطبہ رکعتوں سے الگ ہے'}
+    - text: {ar: 'اسم المسجد', en: 'the mosque''s name', ur: 'مسجد کا نام'}
+      correct: false
+      why: {ar: 'الركعة وحدة عبادة لا مكان', en: 'a rak''ah is a worship unit, not a place', ur: 'رکعت عبادت کی اکائی ہے، جگہ نہیں'}
+  - q: {ar: 'لماذا تُقسّم الصلاة إلى خمس؟', en: 'Why is the prayer divided into five?', ur: 'نماز پانچ میں کیوں بٹی ہے؟'}
+    options:
+    - text: {ar: 'لتوقف الحياة خمس مرات يوميًّا نحو الله', en: 'to pause life toward God five times a day', ur: 'دن میں پانچ بار اللہ کی طرف وقفہ کے لیے'}
+      correct: true
+      why: {ar: 'تذكر الكتب الصلوات الخمس كمواقيت ثابتة للذكر', en: 'the books describe the five as fixed times for remembrance', ur: 'کتابیں پانچ کو ذکر کے مقررہ اوقات کے طور پر لکھتی ہیں'}
+    - text: {ar: 'لأنّ الأيام خمسة في الأسبوع', en: 'because there are five days in a week', ur: 'کیونکہ ہفتے میں پانچ دن ہیں'}
+      correct: false
+      why: {ar: 'الأسبوع سبعة أيام لا خمسة', en: 'a week has seven days, not five', ur: 'ہفتے میں سات دن ہیں، پانچ نہیں'}
+    - text: {ar: 'لأنّ الأركان خمسة أيضًا', en: 'because the pillars are also five', ur: 'کیونکہ ارکان بھی پانچ ہیں'}
+      correct: false
+      why: {ar: 'الصدفة رقمية لا علّة', en: 'the match in number is coincidence, not the reason', ur: 'تعداد میں مماثلت اتفاق ہے، وجہ نہیں'}
+    - text: {ar: 'لأنّها سهلة', en: 'because it is easy', ur: 'کیونکہ یہ آسان ہے'}
+      correct: false
+      why: {ar: 'العدد ثابت في النصوص لا للسهولة', en: 'the count is fixed in the texts, not for ease', ur: 'تعداد نصوص میں مقررہ ہے، آسانی کے لیے نہیں'}
+  - q: {ar: 'من يصلي؟', en: 'Who prays?', ur: 'نماز کون پڑھتا ہے؟'}
+    options:
+    - text: {ar: 'كلّ مسلم بالغ عاقل قادر', en: 'every adult, sane, able Muslim', ur: 'ہر بالغ، عاقل، قادر مسلمان'}
+      correct: true
+      why: {ar: 'تشترط الكتب البلوغ والعقل والقدرة للصلاة', en: 'the books condition prayer on maturity, sanity and ability', ur: 'کتابیں نماز پر بلوغت، عقل اور استطاعت کی شرط لگاتی ہیں'}
+    - text: {ar: 'الرجال فقط', en: 'only men', ur: 'صرف مرد'}
+      correct: false
+      why: {ar: 'تُصلي النساء والرجال على السواء', en: 'women and men pray alike', ur: 'عورتیں اور مرد یکساں نماز پڑھتے ہیں'}
+    - text: {ar: 'في المسجد فقط', en: 'only in the mosque', ur: 'صرف مسجد میں'}
+      correct: false
+      why: {ar: 'تصلى في أيّ مكان طاهر لا في المسجد وحده', en: 'salah is prayed anywhere pure, not only the mosque', ur: 'نماز کسی پاک جگہ میں ہوتی ہے، صرف مسجد میں نہیں'}
+    - text: {ar: 'في رمضان فقط', en: 'only in Ramadan', ur: 'صرف رمضان میں'}
+      correct: false
+      why: {ar: 'الصلاة يومية طوال السنة', en: 'the prayer is daily all year', ur: 'نماز پورے سال روزانہ ہے'}
+  - q: {ar: 'ما الجماعة؟', en: 'What is the congregation?', ur: 'جماعت کیا ہے؟'}
+    options:
+    - text: {ar: 'الصلاة مع الناس في المسجد أو أيّ مكان', en: 'praying with others in a mosque or anywhere', ur: 'مسجد میں یا کہیں بھی لوگوں کے ساتھ نماز'}
+      correct: true
+      why: {ar: 'تُثيب الكتب الجماعة أكثر من الفرادى', en: 'the books reward congregational prayer over individual', ur: 'کتابیں جماعت کو انفرادی پر فضیلت دیتی ہیں'}
+    - text: {ar: 'صلاة الجمعة وحدها', en: 'only the Friday prayer', ur: 'صرف جمعے کی نماز'}
+      correct: false
+      why: {ar: 'الجماعة تصلى في أيّ وقت لا الجمعة وحدها', en: 'congregation is prayed at any time, not only Friday', ur: 'جماعت کسی بھی وقت ہوتی ہے، صرف جمعہ نہیں'}
+    - text: {ar: 'صلاة العيدين فقط', en: 'only the two Eid prayers', ur: 'صرف دونوں عیدوں کی نماز'}
+      correct: false
+      why: {ar: 'العيدان جماعة خاصة لا معنى الجماعة العام', en: 'the Eids are special congregations, not the general meaning', ur: 'عیدیں خاص جماعتیں ہیں، عمومی معنی نہیں'}
+    - text: {ar: 'لا صلاة مشتركة في الإسلام', en: 'there is no shared prayer in Islam', ur: 'اسلام میں مشترک نماز نہیں'}
+      correct: false
+      why: {ar: 'الجماعة جزء أساسي من التدين', en: 'congregation is a basic part of devotion', ur: 'جماعت عبادت کا بنیادی حصہ ہے'}
