@@ -24,5 +24,9 @@ relations:
   - { type: had_participant, target: person/abbas-ibn-abd-al-muttalib, role: "حضر ليتوثق لابن أخيه وهو على دين قومه", sources: [source/mubarakpuri-raheeq] }
   - { type: had_participant, target: group/ansar, role: "المبايعون من الأوس والخزرج", sources: [source/mubarakpuri-raheeq] }
   - { type: part_of, target: period/prophetic-era }
-sources: [source/mubarakpuri-raheeq, source/ibn-hisham-sira, source/sahih-al-bukhari, source/musnad-ahmad]
-status: { review: draft, completeness: 2, generated_by: "Devin; al-Raheeq al-Makhtum pp. 143-154" }
+sources: [source/mubarakpuri-raheeq, source/ibn-hisham-sira, source/sahih-al-bukhari, source/musnad-ahmad, source/encyclopaedia-of-islam-2]
+provenance:
+  layer: own-research
+  source: "Encyclopaedia of Islam, 2nd ed. (Brill), vol. 1, PDF p. 336, unsigned article 'al-'Aqaba' (first entry, the pass at Mina) (EI2 enrichment, batch ei2-b003 part 3cw); earlier sources as listed in sources"
+  generated_by: "Claude Code (claude-haiku-5-5)"
+status: { review: draft, completeness: 2, generated_by: "Devin; al-Raheeq al-Makhtum pp. 143-154; EI2 account added in part 3cw" }
