@@ -1,17 +1,17 @@
 id: place/andijan
 class: place
 kind: town
-label: { ar: "أنديجان" }
+label: { ar: "أنديجان", en: "Andijan" }
 summary:
   ar: "أنديجان حاضرة وادي فرغانة في مصادر أبي الفداء، ويرى غوليوس أن مؤلفين عرّفوا فرغانة بها، وأن الجداول الفلكية تضع قصبة الإقليم في أخسيكت. {cite:farghani-elements-astronomy p. 411}"
 wings: [place]
 regions: [persia-central-asia]
 part_of: place/farghana
-sources: [source/farghani-elements-astronomy]
+sources: [source/farghani-elements-astronomy, source/encyclopaedia-of-islam-2]
 provenance:
   layer: own-research
   source: "Golius (ed.), Alfraganus, Elementa astronomica (Amsterdam 1669), Latin notes, PDF pp. 389-549"
   generated_by: "Claude Code"
   model: "claude-haiku-5-5"
   run: "farghani-389-577"
-status: { review: draft, completeness: 1, generated_by: "Claude Code (claude-haiku-5-5)" }
+status: { review: published, completeness: 2, generated_by: "Claude Code (claude-haiku-5-5); EI2 account added (batch ei2-b013 seq 301)" }
