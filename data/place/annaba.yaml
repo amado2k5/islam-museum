@@ -10,5 +10,9 @@ wings: [place]
 coordinates: [36.9, 7.76667]
 coordinate_precision: locality
 external_ids: { geonames: "2506999" }
-sources: [source/geonames-gazetteer, source/rihla-ibn-battuta-1958]
-status: { review: draft, completeness: 1, generated_by: "Claude Code; coordinates from GeoNames (modern settlement of the same name); identification with the classical place to be checked" }
+sources: [source/geonames-gazetteer, source/rihla-ibn-battuta-1958, source/encyclopaedia-of-islam-2]
+status: { review: published, completeness: 2, generated_by: "Claude Code; coordinates from GeoNames (modern settlement of the same name); EI2 account added (batch ei2-b013 seq 306); the Ibn Battuta identification is in the EI2 account as Bone" }
+provenance:
+  layer: own-research
+  source: "Encyclopaedia of Islam, 2nd ed., vol. 1, PDF pp. 535-536, entry AL-'ANNABA (V. Minorsky); coordinates from GeoNames"
+  generated_by: "Claude Code (claude-haiku-5-5)"
