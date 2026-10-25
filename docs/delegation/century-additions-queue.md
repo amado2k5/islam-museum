@@ -48,11 +48,11 @@ lists' own order. Status markers: [ ] queued · [~] in a writer's hands · [x] m
 - [x] Abdelaziz Bouteflika — 1937–2021
 - [x] Léopold Sédar Senghor (Honored Cultural Contemporary) — 1906–2001
 - [x] Cheikh Anta Diop — 1923–1986
-- [~] Amadou Hampâté Bâ — 1901–1991
-- [~] Sembène Ousmane — 1923–2007
-- [~] Nawal El Saadawi — 1931–2021
-- [~] Fatema Mernissi — 1940–2015
-- [~] Edward Said — 1935–2003
+- [x] Amadou Hampâté Bâ — 1901–1991
+- [x] Sembène Ousmane — 1923–2007
+- [x] Nawal El Saadawi — 1931–2021
+- [x] Fatema Mernissi — 1940–2015
+- [x] Edward Said — 1935–2003
 - [ ] Taha Hussein — 1889–1973
 - [ ] Abul A'la Maududi — 1903–1979
 - [ ] Hamza Yusuf — 1958–Living

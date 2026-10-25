@@ -1,0 +1,46 @@
+id: person/fatema-mernissi
+class: person
+label: { ar: "فاطمة المرنيسي", en: "Fatema Mernissi", ur: "فاطمہ مرنیسی" }
+names:
+  - { value: "Fatima Mernissi", kind: alternate }
+  - { value: "Fatna Aït Sabbah", kind: alternate }
+gender: female
+summary:
+  ar: "عالمة اجتماع وكاتبة مغربية، وُلدت في فاس سنة 1940 ونشأت في حريم جدّتها لأبيها، ودرست في الرباط وباريس وجامعة براندايس، وصارت من مؤسسات النسوية الإسلامية بكتب مثل «ما وراء الحجاب» و«الحجاب والنخبة الذكورية» و«سلطانات منسيات»، وتوفيت في الرباط سنة 2015."
+  en: "Moroccan sociologist and writer, born at Fez in 1940 and raised in her paternal grandmother's harem. Educated at Rabat, Paris and Brandeis University, she became a founding figure of Islamic feminism with books such as Beyond the Veil, The Veil and the Male Elite and The Forgotten Queens of Islam; she died at Rabat in 2015."
+  ur: "مراکشی ماہرِ عمرانیات اور مصنفہ، جو 1940 میں فاس میں پیدا ہوئیں اور دادی کے حرم میں پلی بڑھیں؛ رباط، پیرس اور برینڈائس یونیورسٹی سے تعلیم پائی اور «پردے کے پیچھے»، «حجاب اور مرد اشرافیہ» اور «بھولی بسری سلطانائیں» جیسی کتابوں سے اسلامی نسائیت کی بانی شخصیات میں شمار ہوئیں؛ 2015 میں رباط میں وفات پائی۔"
+roles: [sociologist, writer, activist]
+wings: [people]
+born:
+  edtf: "1940-09-27"
+  hijri: "1359"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "Born at Fez on 27 September 1940 (the English and Arabic articles agree on the day; the Arabic and Urdu infoboxes give the year only). Wikidata carries two birth claims — the year 1940 and 28 September 1940; the articles' 27 September is followed and the Wikidata variant recorded here. The Hijri year (1359) is derived by tabular conversion."
+  sources: [source/wikipedia-fatema-mernissi-en, source/wikipedia-fatema-mernissi-ar, source/wikidata-fatema-mernissi]
+died:
+  edtf: "2015-11-30"
+  hijri: "1437"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "Died at Rabat on 30 November 2015 (all three articles and Wikidata agree). Rabat has no place entity in the museum yet, so no died_in relation is written. The Hijri year (1437) is derived by tabular conversion."
+  sources: [source/wikipedia-fatema-mernissi-en, source/wikipedia-fatema-mernissi-ar, source/wikidata-fatema-mernissi]
+relations:
+  - { type: born_in, target: place/fes, sources: [source/wikipedia-fatema-mernissi-en, source/wikidata-fatema-mernissi] }
+faith:
+  - value: unknown
+    basis: unknown
+    note: "Wikidata and the Arabic article's infobox record her religion as Islam in general, with no branch or school, and the English article describes her as an Islamic feminist who embraced the Islamic faith while arguing — in The Veil and the Male Elite and elsewhere — that the subordination of women rests on manipulated traditions rather than on the Qur'an itself. No source fetched names a school or madhhab for her, and the majority school of her country is never inferred; under the lane's two-source rule the value stays unknown, and her Islamic-feminist position is carried attributed in the prose."
+    sources: [source/wikidata-fatema-mernissi, source/wikipedia-fatema-mernissi-ar, source/wikipedia-fatema-mernissi-en]
+external_ids: { wikidata: "Q242376" }
+sources: [source/wikipedia-fatema-mernissi-en, source/wikipedia-fatema-mernissi-ar, source/wikipedia-fatema-mernissi-ur, source/wikidata-fatema-mernissi]
+provenance:
+  layer: own-research
+  source: "English Wikipedia 'Fatema Mernissi' (revision 1379690558), Arabic Wikipedia «فاطمة المرنيسي» (revision 77056601), Urdu Wikipedia «فاطمہ مرنیسی» (revision 10953622), Wikidata Q242376 (confirmed via the Wikidata API: human, born at Fez, died 30 November 2015 at Rabat, religion recorded as Islam in general), checked 24 October 2026. Encyclopaedia Britannica's Mernissi entry, cited by the Urdu article, returned 404 on the day of checking and is not used."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: century-additions-6
+status: { review: published, completeness: 3, generated_by: "Muse (Muse Spark 1.3)" }

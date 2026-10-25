@@ -1,0 +1,47 @@
+id: person/edward-said
+class: person
+label: { ar: "إدوارد سعيد", en: "Edward Said", ur: "ایڈورڈ سعید" }
+names:
+  - { value: "Edward Wadie Said", kind: full }
+  - { value: "إدوارد وديع سعيد", kind: full }
+gender: male
+summary:
+  ar: "ناقد أدبي ومفكر فلسطيني-أمريكي، وُلد في القدس سنة 1935 في أسرة مسيحية بروتستانتية، ودرّس الأدب الإنجليزي والمقارن في جامعة كولومبيا أربعة عقود، وأسس بكتابه «الاستشراق» (1978) دراسات ما بعد الاستعمار، ودافع عن الحقوق الفلسطينية في العالم، وتوفي في نيويورك سنة 2003. وهو مدرج في هذا المتحف بوصفه مفكرًا فلسطينيًا كبيرًا من مفكري عالم الإسلام الحديث، لا بوصفه مسلمًا."
+  en: "Palestinian-American literary critic and public intellectual, born in Jerusalem in 1935 into a Protestant Christian family. He taught English and comparative literature at Columbia University for four decades, founded postcolonial studies with Orientalism (1978), and argued the Palestinian case before the world; he died in New York in 2003. He is included as a major Palestinian intellectual of the modern Muslim world — not as a Muslim."
+  ur: "فلسطینی نژاد امریکی ادبی نقاد اور دانشور، جو 1935 میں یروشلم کے ایک پروٹسٹنٹ مسیحی گھرانے میں پیدا ہوئے؛ کولمبیا یونیورسٹی میں چار دہائیوں تک انگریزی و تقابلی ادب پڑھایا، «استشراق» (1978) سے مابعد نوآبادیاتی مطالعات کی بنیاد رکھی اور دنیا بھر میں فلسطینی حقوق کی وکالت کی؛ 2003 میں نیویارک میں وفات پائی۔ وہ اس میوزیم میں عالمِ اسلام کے ایک بڑے فلسطینی مفکر کے طور پر شامل ہیں — مسلمان کے طور پر نہیں۔"
+roles: [literary-critic, academic, writer, activist]
+wings: [people]
+born:
+  edtf: "1935-11-01"
+  hijri: "1354"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "Born in Jerusalem, then under the British Mandate for Palestine, on 1 November 1935 (all sources agree). The Hijri year (1354) is derived by tabular conversion."
+  sources: [source/wikipedia-edward-said-en, source/britannica-edward-said, source/wikidata-edward-said]
+died:
+  edtf: "2003-09-25"
+  hijri: "1424"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "Died in New York on 25 September 2003, after a twelve-year struggle with chronic lymphocytic leukaemia: the Arabic article, Britannica and his gravestone (as reported by the English article) give 25 September, while the English article's lead and infobox give 24 September, its Urdu counterpart's lead does the same against its own infobox, and Wikidata carries both dates as separate claims. The 25 September date is followed. New York has no place entity in the museum yet, so no died_in relation is written; the English article records his burial in the Protestant Cemetery at Brummana in Lebanon. The Hijri year (1424) is derived by tabular conversion."
+  sources: [source/wikipedia-edward-said-ar, source/britannica-edward-said, source/wikipedia-edward-said-en, source/wikidata-edward-said]
+relations:
+  - { type: born_in, target: place/jerusalem, sources: [source/wikipedia-edward-said-en, source/britannica-edward-said] }
+  - { type: lived_in, target: place/cairo, sources: [source/wikipedia-edward-said-en, source/britannica-edward-said] }
+faith:
+  - value: christian
+    basis: documented
+    note: "Said was not a Muslim, and nothing in this record presents him as one; he stands in the founder's century list as a major Palestinian intellectual whose life and work belong to the history of the modern Muslim world. His Christian identity is attested by two independent sources: the English Wikipedia article records that he was born into a family of Palestinian Christians, that both his parents were Arab Christians adhering to Protestantism, and that he was raised Protestant (his Jerusalem schooling was at the Anglican St George's School, and he was buried in a Protestant cemetery); and Encyclopaedia Britannica calls him outright 'an Arab Christian'. His adult position is recorded just as plainly: the English article states that although raised Protestant he became an agnostic in his later years, and the scholars Adel Iskander and Hakem Rustom, quoted in its references, describe him as 'of Christian background, a confirmed agnostic, perhaps even an atheist'. The segment records the documented Christian upbringing and identity, following the precedent of person/leopold-sedar-senghor; the later agnosticism is carried here and in the prose, not hidden."
+    sources: [source/wikipedia-edward-said-en, source/britannica-edward-said]
+external_ids: { wikidata: "Q201538" }
+sources: [source/wikipedia-edward-said-en, source/wikipedia-edward-said-ar, source/wikipedia-edward-said-ur, source/wikidata-edward-said, source/britannica-edward-said]
+provenance:
+  layer: own-research
+  source: "English Wikipedia 'Edward Said' (revision 1381190735), Arabic Wikipedia «إدوارد سعيد» (revision 77032882), Urdu Wikipedia «ایڈورڈ سعید» (revision 9113683), Wikidata Q201538 (confirmed via the Wikidata API: human, born 1 November 1935 at Jerusalem, died at New York with competing 24/25 September 2003 claims, no religion statement) and Encyclopaedia Britannica's entry 'Edward Said', checked 24 October 2026"
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: century-additions-6
+status: { review: published, completeness: 3, generated_by: "Muse (Muse Spark 1.3)" }
