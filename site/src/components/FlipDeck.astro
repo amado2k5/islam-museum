@@ -73,4 +73,7 @@ const L = (x: { ar: string; en: string; ur?: string }) => (x[lang] ?? x.ar);
 .fd-note { margin-top: 12px; border-inline-start: 3px solid #c9a227; padding-inline-start: 10px; }
 .fd-fallback { margin-top: 22px; }
 @media (prefers-reduced-motion: reduce) { .fd-inner { transition: none; } .fd-bar { transition: none; } }
+@media print {
+  .fd-progress, .fd-stage, .fd-nav, .fd-fallback, .fd-note { display: none !important; }
+}
 </style>
