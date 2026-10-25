@@ -5,7 +5,7 @@ export interface SurahMapPayload {
   lang: string; total: number; name: string;
   families: Record<string, string>;
   colors: Record<string, string>;
-  t: { journey: string; stop: string; close: string; prev: string; next: string; verse_n: string };
+  t: { journey: string; stop: string; close: string; prev: string; next: string; verse_n: string; zoom_in: string; zoom_out: string; zoom_reset: string };
   sections: { t: string; a: number; b: number; f: string; s: string; kids: { t: string; a: number; b: number }[] }[];
 }
 const { payload, hint } = Astro.props as { payload: SurahMapPayload; hint: string };
@@ -33,9 +33,9 @@ const ticks = [1, Math.round(payload.total / 4), Math.round(payload.total / 2), 
   <section class="canvas-wrap" aria-label={payload.name}>
     <svg data-map role="img" aria-label={payload.name}></svg>
     <div class="toolbar">
-      <button data-zin aria-label="+">+</button>
-      <button data-zout aria-label="−">−</button>
-      <button data-zreset aria-label="⟲">⟲</button>
+      <button data-zin aria-label={payload.t.zoom_in}>+</button>
+      <button data-zout aria-label={payload.t.zoom_out}>−</button>
+      <button data-zreset aria-label={payload.t.zoom_reset}><span aria-hidden="true">⟲</span></button>
     </div>
     <div class="playbar"><button data-play>▶ {payload.t.journey}</button></div>
     <div class="gx-card" data-card hidden></div>

@@ -29,7 +29,7 @@ const payload: SurahMapPayload = {
   lang, total, name,
   families: { faith: SM.family_faith, stories: SM.family_stories, law: SM.family_law },
   colors: { faith: "#c5a059", stories: "#2a7b88", law: "#4d8a4f" },
-  t: { journey: SM.journey, stop: SM.stop, close: SM.close_card, prev: SM.prev, next: SM.next, verse_n: SM.verse_n },
+  t: { journey: SM.journey, stop: SM.stop, close: SM.close_card, prev: SM.prev, next: SM.next, verse_n: SM.verse_n, zoom_in: SM.zoom_in, zoom_out: SM.zoom_out, zoom_reset: SM.zoom_reset },
   sections: file.map.map((s) => ({
     t: L(s.title), a: s.range[0], b: s.range[1], f: s.family, s: L(s.summary),
     kids: (s.children ?? []).map((k) => ({ t: L(k.title), a: k.range[0], b: k.range[1] })),
