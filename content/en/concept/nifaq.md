@@ -14,3 +14,9 @@ The commentary explains that the gathering of the four traits is full hypocrisy,
 Ibn Rajab mentions an interpretation by someone inclined to the doctrine of postponement (*irja'*), who took the hadith to refer only to the hypocrites of the Prophet's time, through a report from Muhammad al-Muharram from Ata' from Jabir. Ibn Rajab rejects it, saying that this report is false, and that al-Muharram is known for lying. {cite:ibn-rajab-jami-ulum-hikam p.901}
 
 Within its chapter, it is part of [[concept/iman|faith]] in its relation to deeds.
+
+## Sheikh Omar Abdelkafy's account
+He says hypocrisy in Medina was led by Abdullah ibn Ubayy ibn Salul, and that the Prophet did not order any of his Companions to kill him. {cite:assabile-omar-abdelkafy aadau-al-islam/ep01 00:04:30} {cite:assabile-omar-abdelkafy aadau-al-islam/ep01 00:05:00}
+He divides hypocrisy into three kinds: in belief, in worship, and in conduct. {cite:assabile-omar-abdelkafy aadau-al-islam/ep03 00:22:00}
+For him, hypocrisy in worship is showing fasting or deeds before people while not doing them in private. {cite:assabile-omar-abdelkafy aadau-al-islam/ep03 00:27:00} Hypocrisy in conduct is showing the face of Abu Bakr while the heart is that of Abu Jahl and Abu Lahab. {cite:assabile-omar-abdelkafy aadau-al-islam/ep03 00:27:30}
+He says the hypocrite does not show mercy to believers, and that a heart filled with mercy does not know the way of hypocrisy. {cite:assabile-omar-abdelkafy aadau-al-islam/ep03 00:22:00} {cite:assabile-omar-abdelkafy aadau-al-islam/ep03 00:50:00}

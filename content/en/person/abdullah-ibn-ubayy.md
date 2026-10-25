@@ -21,3 +21,9 @@ The Aws and the Khazraj had united under his leadership after the war of Bu'ath,
 
 ## Quraysh's letter to him (The Sealed Nectar p.194–195)
 Quraysh wrote to him threatening war or expulsion, and he and the pagans with him gathered to fight the Prophet. When the Prophet came to them, they dispersed. He refrained from fighting, because he judged that his companions would not hold firm ([[event/quraysh-letter-to-ibn-ubayy|Quraysh's letter to Ibn Ubayy]]) {cite:mubarakpuri-raheeq p.194}.
+
+## Sheikh Omar Abdelkafy's account
+He calls him the chief of the hypocrites in Medina, and says the Prophet did not order any of his Companions to kill him. {cite:assabile-omar-abdelkafy aadau-al-islam/ep01 00:04:30} {cite:assabile-omar-abdelkafy aadau-al-islam/ep01 00:05:00}
+He recounts that Abdullah ibn Ubayy's son asked the Prophet's permission to kill his father, and was not given it. {cite:assabile-omar-abdelkafy aadau-al-islam/ep03 00:23:00}
+He says the Prophet offered Abdullah ibn Ubayy's family a shroud for him (needs_source: the wording of this sentence is not clear in the automatic transcript). {cite:assabile-omar-abdelkafy aadau-al-islam/ep03 00:24:00}
+He says the Prophet said he would ask forgiveness for him, however many times it was asked (needs_source: the number is not clear in the automatic transcript), and then a prohibition on praying over the hypocrites came down. {cite:assabile-omar-abdelkafy aadau-al-islam/ep03 00:24:30} {cite:assabile-omar-abdelkafy aadau-al-islam/ep03 00:25:30}

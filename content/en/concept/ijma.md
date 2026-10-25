@@ -18,3 +18,7 @@ Consensus may be used for religious matters, of belief or practice; rational mat
 
 ## Consensus, abrogation and ranking
 Consensus cannot abrogate or be abrogated by consensus, since consensus happens only after the Prophet's death. When it contradicts a text, it shows that the text is abrogated. Al-Ghazali ranks consensus above the Qur'an and Sunna in the search for proof; Abu Hashim al-Jubba'i takes it as a proof but not a consensus; al-Shafi'i and others deny that it is a proof. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.1699}
+
+## Sheikh Omar Abdelkafy's use of the consensus
+He cites the consensus of the Companions in the matter of fighting those who withheld zakat, and says rulings are taken from the Qur'an, the Sunna and the consensus of the Companions. {cite:assabile-omar-abdelkafy aadau-al-islam/ep01 00:18:30}
+He asks whether Abu Bakr was wrong to fight those who withheld zakat, and says Umar, Ali and others agreed with him. {cite:assabile-omar-abdelkafy aadau-al-islam/ep01 00:18:30} (needs_source: the full list of names is not clear in the automatic transcript.)
