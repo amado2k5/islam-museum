@@ -22,6 +22,28 @@ export function scan(files: Iterable<{ path: string; html: string }>): { errors:
     }
     if (/<meta name="description" content=""/.test(html)) warns.push(`${file}: empty meta description`);
     if (/<li>\s*<\/li>/.test(html)) warns.push(`${file}: empty <li> element`);
+    // Media rule (WCAG 1.2): every <audio>/<video> needs a captions <track> or a working text
+    // equivalent — aria-describedby to an element on the page, or a non-empty aria-label;
+    // and media must never auto-play.
+    for (const m of html.matchAll(/<(audio|video)\b[^>]*>/g)) {
+      const open = m[0];
+      if (/\sautoplay\b/i.test(open)) errors.push(`${file}: <${m[1]}> auto-plays (media must start on user action)`);
+      let hasCaptions = false;
+      if (!open.endsWith("/>")) {
+        const rest = html.slice(m.index! + open.length);
+        const close = rest.search(new RegExp(`</${m[1]}\\s*>`, "i"));
+        const inner = close === -1 ? rest : rest.slice(0, close);
+        hasCaptions = /<track\b[^>]*\bsrc=['"][^'"]+['"][^>]*\bkind=['"]?captions['"]?/.test(inner)
+          || /<track\b[^>]*\bkind=['"]?captions['"]?[^>]*\bsrc=['"][^'"]+['"]/.test(inner);
+      }
+      const describedIds = [...open.matchAll(/\saria-describedby\s*=\s*['"]?([^'"\s>]+)['"]?/g)]
+        .flatMap((x) => x[1].trim().split(/\s+/)).filter(Boolean);
+      const anchored = describedIds.length > 0 && describedIds.every((id) =>
+        new RegExp(`\\bid=['"]?${id.replace(/[.*+?^${}()|[\]\\]/g, "\\$&")}['"\\s/>]`).test(html));
+      const labelled = /\saria-label\s*=\s*['"]?[^'"\s>]/.test(open);
+      if (!hasCaptions && !anchored && !labelled)
+        errors.push(`${file}: <${m[1]}> without a captions <track> or a working text equivalent (aria-describedby)`);
+    }
   }
   return { errors, warns };
 }
