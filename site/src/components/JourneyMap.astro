@@ -21,8 +21,9 @@ interface Props {
   doneLabel: string;
   todoLabel: string;
   printLabel: string;
+  listLabel: string;
 }
-const { lang, topics, dilemmas, detective, titleLabel, legendLabel, topicLabel, dilemmaLabel, detectiveLabel, doneLabel, todoLabel, printLabel } = Astro.props;
+const { lang, topics, dilemmas, detective, titleLabel, legendLabel, topicLabel, dilemmaLabel, detectiveLabel, doneLabel, todoLabel, printLabel, listLabel } = Astro.props;
 const W = 26, H = 16, GAP = 2; // tile box
 const rows = (n: number, per: number) => Math.ceil(n / per);
 ---
@@ -50,6 +51,12 @@ const rows = (n: number, per: number) => Math.ceil(n / per);
         ))}
       </svg>
       <p class="ui muted"><span data-jm-count>{zone.items.length}</span></p>
+      <details class="jm-text ui">
+        <summary>{listLabel}</summary>
+        <ol>
+          {zone.items.map((it) => <li>{it.name}</li>)}
+        </ol>
+      </details>
     </section>
   ))}
 </section>
