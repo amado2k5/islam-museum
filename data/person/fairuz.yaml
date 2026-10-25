@@ -1,0 +1,38 @@
+id: person/fairuz
+class: person
+label: { ar: "فيروز", en: "Fairuz", ur: "فیروز" }
+names:
+  - { value: "Nouhad Wadie Haddad", kind: full }
+  - { value: "نهاد وديع حداد", kind: full }
+gender: female
+summary:
+  ar: "مغنية وممثلة لبنانية، وُلدت في بيروت باسم نهاد وديع حداد؛ صوت لبنان الأكثر تبجيلًا وأحد أكثر الفنانين مبيعًا في التاريخ العربي، إذ صاغت مع الأخوين رحباني شكلًا جديدًا للأغنية اللبنانية، وأصبحت — وهي مسيحية غنّت لكل الأطراف — رمزًا لوحدة لبنان في حربه الأهلية وما بعدها. وهي مدرجة في هذا المتحف بوصفها شخصية سامقة في العالم العربي والإسلامي الحديث، لا بوصفها مسلمة."
+  en: "Lebanese singer and stage actress, born in Beirut as Nouhad Wadie Haddad. She is Lebanon's most revered voice and one of the best-selling recording artists in Arab history: with the Rahbani Brothers she shaped a new Lebanese song, and — a Christian whose songs were sung by all sides — she became a symbol of Lebanon's unity through its civil war and after. She is included in this museum as a towering figure of the modern Arab and Muslim world, not as a Muslim."
+  ur: "لبنانی گلوکارہ و اداکارہ، بیروت میں نهاد ودیع حداد کے نام سے پیدا ہوئیں؛ لبنان کی سب سے معزز آواز اور عرب تاریخ کی سب سے زیادہ فروخت ہونے والی فنکاروں میں سے ایک، جنہوں نے رحبانی برادران کے ساتھ لبنانی گیت کی نئی صورت گھڑی، اور — ایک مسیحی ہوتے ہوئے جن کے گیت ہر فریق نے گائے — خانہ جنگی میں لبنان کی وحدت کی علامت بنیں۔ وہ اس میوزیم میں جدید عرب و مسلم دنیا کی ایک عظیم شخصیت کے طور پر شامل ہیں — مسلمان کے طور پر نہیں۔"
+roles: [singer, actress]
+wings: [people, living]
+born:
+  edtf: "1934-11-20"
+  hijri: "1353"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "Two birth dates circulate and both are recorded. Encyclopaedia Britannica gives 'November 20, 1934?' with a researcher's note on the uncertainty, and the English article's lead gives '20 November 1934 or 21 November 1935'; the Arabic article's lead and Wikidata give 21 November 1935 (Hijri year 1354 by the same conversion). The 20 November 1934 date is followed, as Britannica and the founder's queue give it. The English article and Britannica place her birth in Beirut, where the family lived in the Zuqaq al-Blat quarter; the Arabic article says she was born in the Shouf district — a variant recorded here, not followed. The Hijri year (1353) is derived by tabular conversion."
+  sources: [source/britannica-fairuz, source/wikipedia-fairuz-en, source/wikipedia-fairuz-ar, source/wikidata-fairuz]
+relations:
+  - { type: born_in, target: place/bayrut, sources: [source/wikipedia-fairuz-en, source/britannica-fairuz] }
+  - { type: lived_in, target: place/bayrut, sources: [source/wikipedia-fairuz-en, source/wikipedia-fairuz-ar] }
+faith:
+  - value: christian
+    basis: documented
+    note: "Fairuz is not a Muslim, and nothing in this record presents her as one; she stands in the founder's century list as a towering figure of the modern Arab and Muslim world, following the precedent of person/edward-said and person/leopold-sedar-senghor. Her Christianity itself is attested by two independent sources that name the religion: the English Wikipedia article records that she was born into a Syriac Orthodox and Maronite Christian family and that she converted to Greek Orthodoxy when she married Assi Rahbani; and Encyclopaedia Britannica describes her as 'born ... of Arab Christian parents' and states outright: 'Although Christian (Greek Orthodox) and Lebanese, her songs were adopted by all sides in the Civil War'. The Arabic article corroborates the detail: a Syriac Orthodox family, a Maronite mother, and her adoption of the Eastern (Greek) Orthodox church on her marriage."
+    sources: [source/wikipedia-fairuz-en, source/britannica-fairuz, source/wikipedia-fairuz-ar]
+external_ids: { wikidata: "Q3247658" }
+sources: [source/wikipedia-fairuz-en, source/wikipedia-fairuz-ar, source/wikipedia-fairuz-ur, source/wikidata-fairuz, source/britannica-fairuz]
+provenance:
+  layer: own-research
+  source: "English Wikipedia 'Fairuz' (revision 1361431363 of 27 June 2026), Arabic Wikipedia «فيروز» (revision 76890529 of 6 October 2026), Urdu Wikipedia «فیروز» (revision 9303563 of 4 January 2026 — a two-line stub), Wikidata Q3247658 (confirmed via the Wikidata API: human, born 21 November 1935 at Zuqaq al-Blat, Beirut, spouse Assi Rahbani, no religion statement) and Encyclopaedia Britannica's entry 'Fairuz' (published 7 March 2019), checked 25 October 2026. No earlier record for her existed in data/person/ under any spelling; this is a new build, not an enrichment."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: century-additions-9
+status: { review: published, completeness: 3, generated_by: "Muse (Muse Spark 1.3)" }

@@ -1,0 +1,47 @@
+id: person/abdel-halim-hafez
+class: person
+label: { ar: "عبد الحليم حافظ", en: "Abdel Halim Hafez", ur: "عبدالحلیم حافظ" }
+names:
+  - { value: "Abdel Halim Ali Shabana", kind: full }
+  - { value: "عبد الحليم علي إسماعيل شبانة", kind: full }
+gender: male
+summary:
+  ar: "مغنٍّ وممثل مصري (1929–1977)، لُقّب بـ«العندليب الأسمر» و«ملك الغناء» و«صوت الشعب»؛ أحد أعظم أصوات الغناء العربي في القرن العشرين، إذ غنّى أكثر من ثلاثمائة أغنية ومثّل في ستة عشر فيلمًا، وكانت أغانيه الوطنية صوت ثورة 1952 وعقودها، حتى ردّدتها الجماهير مجددًا في ثورة 2011."
+  en: "Egyptian singer and actor (1929–1977), known as al-Andaleeb el-Asmar ('the Dark Nightingale'), 'King of Music' and 'the Voice of the People'. He was one of the greatest Arab singing voices of the twentieth century, recording more than three hundred songs and starring in sixteen films; his patriotic songs became the voice of the 1952 revolution and its decades, and crowds sang them again in the revolution of 2011."
+  ur: "مصری گلوکار و اداکار (1929ء–1977ء)، جو «العندلیب الاسمر»، «موسیقی کے بادشاہ» اور «عوام کی آواز» کے القاب سے مشہور ہیں؛ بیسویں صدی کے عظیم ترین عرب گلوکاروں میں سے ایک، جنہوں نے تین سو سے زیادہ گیت گائے اور سولہ فلموں میں اداکاری کی، اور جن کے قومی نغمے 1952 کے انقلاب کی آواز بنے۔"
+roles: [singer, actor, producer]
+wings: [people]
+born:
+  edtf: "1929-06-21"
+  hijri: "1348"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "Born on 21 June 1929 at al-Hilwat (Elhallawat), a village in the Sharqia Governorate (English and Arabic articles and Wikidata agree). The village has no place entity in the museum yet, so no born_in relation is written. The Hijri year (1348) is derived by tabular conversion."
+  sources: [source/wikipedia-abdel-halim-hafez-en, source/wikipedia-abdel-halim-hafez-ar, source/wikidata-abdel-halim-hafez]
+died:
+  edtf: "1977-03-30"
+  hijri: "1397"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "Died on 30 March 1977 at King's College Hospital, London, of liver cirrhosis following the schistosomiasis he had contracted as a child. London has no place entity in the museum yet, so no died_in relation is written; he is buried in the Al Bassatin Cemetery in Cairo, which grounds the buried_in relation to place/cairo. The Hijri year (1397) is derived by tabular conversion."
+  sources: [source/wikipedia-abdel-halim-hafez-en, source/wikipedia-abdel-halim-hafez-ar, source/wikidata-abdel-halim-hafez]
+relations:
+  - { type: lived_in, target: place/cairo, sources: [source/wikipedia-abdel-halim-hafez-en, source/wikipedia-abdel-halim-hafez-ar] }
+  - { type: buried_in, target: place/cairo, sources: [source/wikipedia-abdel-halim-hafez-en, source/wikidata-abdel-halim-hafez] }
+faith:
+  - value: unknown
+    basis: unknown
+    note: "No source names a religion, let alone a school, for him. Wikidata carries no religion statement for him at all, and neither the English nor the Arabic article names one. His recorded religious invocations (ibtihalat, written by Abdel-Fattah Mustafa and composed by Muhammad al-Mouji) are repertoire — public performance, which never counts as attestation of a school. Under the doubt rule the segment stays unknown."
+    sources: [source/wikidata-abdel-halim-hafez, source/wikipedia-abdel-halim-hafez-en, source/wikipedia-abdel-halim-hafez-ar]
+external_ids: { wikidata: "Q307786" }
+sources: [source/wikipedia-abdel-halim-hafez-en, source/wikipedia-abdel-halim-hafez-ar, source/wikipedia-abdel-halim-hafez-ur, source/wikidata-abdel-halim-hafez]
+provenance:
+  layer: own-research
+  source: "English Wikipedia 'Abdel Halim Hafez' (revision 1377724208 of 30 September 2026), Arabic Wikipedia «عبد الحليم حافظ» (revision 76096524 of 4 August 2026), Urdu Wikipedia «عبدالحلیم حافظ» (revision 12024415 of 24 September 2026 — a short article), Wikidata Q307786 (confirmed via the Wikidata API: human, born 21 June 1929 at Elhallawat, died 30 March 1977 at London, buried Al Basatin, no religion statement), checked 25 October 2026. No earlier record for him existed in data/person/ under any spelling; this is a new build, not an enrichment."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: century-additions-9
+status: { review: published, completeness: 3, generated_by: "Muse (Muse Spark 1.3)" }

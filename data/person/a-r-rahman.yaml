@@ -1,0 +1,37 @@
+id: person/a-r-rahman
+class: person
+label: { ar: "أي.أر. رحمان", en: "A. R. Rahman", ur: "اے آر رحمان" }
+names:
+  - { value: "Allah Rakha Rahman", kind: full }
+  - { value: "الله ركها رحمان", kind: full }
+  - { value: "اللہ رکھا رحمان", kind: full }
+  - { value: "A. S. Dileep Kumar", kind: full }
+gender: male
+summary:
+  ar: "مؤلف موسيقي ومغنٍّ هندي، وُلد في مدراس (تشيناي) باسم أ. س. دليب كومار في أسرة هندوسية، واعتنق الإسلام مع أسرته وهو في الثالثة والعشرين من عمره سنة 1989؛ غيّرت موسيقاه لفيلم «روجا» (1992) وجه الموسيقى السينمائية الهندية، وحملته موسيقى «مليونير العشوائيات» (2008) إلى جائزتي أوسكار وجائزتي غرامي، فصار يُلقّب بـ«عاصفة الموسيقى» و«موتسارت مدراس»."
+  en: "Indian composer and singer, born in Madras (now Chennai) as A. S. Dileep Kumar into a Hindu family; he converted to Islam with his family at the age of twenty-three, in 1989. His score for Roja (1992) transformed Indian film music, and Slumdog Millionaire (2008) carried him to two Academy Awards and two Grammy Awards. He is nicknamed Isai Puyal ('Musical Storm') and 'the Mozart of Madras'."
+  ur: "ہندوستانی موسیقار و گلوکار، مدراس (چینئی) میں اے ایس دلیپ کمار کے نام سے ایک ہندو گھرانے میں پیدا ہوئے؛ 1989 میں تیئیس برس کی عمر میں اپنے خاندان کے ساتھ اسلام قبول کیا۔ ان کی فلم «روجا» (1992) کی موسیقی نے ہندوستانی فلمی موسیقی کا رخ بدل دیا، اور «سلم ڈاگ ملینیئر» (2008) پر انہیں دو اکیڈمی ایوارڈز اور دو گریمی ایوارڈز ملے۔"
+roles: [composer, singer, songwriter]
+wings: [people, living]
+born:
+  edtf: "1967-01-06"
+  hijri: "1386"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "The English article and Encyclopaedia Britannica give 6 January 1967, followed here. Wikidata's preferred (normal-rank) claim is 6 January 1966, with the 1967 date marked deprecated, and the Arabic article is internally inconsistent — 1967 in its lead, 1966 in its text (Hijri year 1385 by the same conversion). The conflict is recorded, not silently resolved. He was born in Madras, now Chennai; Chennai has no place entity in the museum yet, so no born_in relation is written. The Hijri year (1386) is derived by tabular conversion."
+  sources: [source/wikipedia-a-r-rahman-en, source/britannica-a-r-rahman, source/wikidata-a-r-rahman, source/wikipedia-a-r-rahman-ar]
+faith:
+  - value: sufi
+    basis: documented
+    note: "Two independent sources name the path itself. The English Wikipedia article's conversion section records that Rahman 'was introduced to Qadiri tariqa when his younger sister was seriously ill in 1984' and that Sufism influenced his mother, a practising Hindu, and eventually his family, before he converted to Islam with them at twenty-three. The Urdu Wikipedia article has a dedicated section on Sufism («صوفی ازم») stating that Rahman believes in Sufism, that he visits the shrines of pirs and saints, and that he is a devotee (murid) of the Pakistani qawwali singer Nusrat Fateh Ali Khan. The segment therefore records sufi, with the Qadiri order named by the English article recorded here. No sunni segment is recorded: no source names a legal school for him — Wikidata gives Islam (Q432) generically — and a Sufi orientation is not a madhhab attestation. His conversion itself is corroborated by Encyclopaedia Britannica, which says that in his early twenties Rahman, along with his family, converted to Islam and adopted the name by which he is now known."
+    sources: [source/wikipedia-a-r-rahman-en, source/wikipedia-a-r-rahman-ur, source/britannica-a-r-rahman]
+external_ids: { wikidata: "Q108560" }
+sources: [source/wikipedia-a-r-rahman-en, source/wikipedia-a-r-rahman-ar, source/wikipedia-a-r-rahman-ur, source/wikidata-a-r-rahman, source/britannica-a-r-rahman]
+provenance:
+  layer: own-research
+  source: "English Wikipedia 'A. R. Rahman' (revision 1381025505 of 19 October 2026), Arabic Wikipedia «أي.أر. رحمان» (revision 73714472 of 7 March 2026 — a short article), Urdu Wikipedia «اے آر رحمان» (revision 11801353 of 18 August 2026), Wikidata Q108560 (confirmed via the Wikidata API: human, born 6 January 1966 as the preferred claim with 6 January 1967 deprecated, at Chennai, religion Islam generically, father R. K. Shekhar) and Encyclopaedia Britannica's entry 'A.R. Rahman' (published 28 October 2009), checked 25 October 2026. No earlier record for him existed in data/person/ under any spelling; this is a new build, not an enrichment."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: century-additions-9
+status: { review: published, completeness: 3, generated_by: "Muse (Muse Spark 1.3)" }
