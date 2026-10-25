@@ -17,10 +17,9 @@ const live = [
   { href: `/${lang}/shabab/detective/`, title: S.sb_detective, lede: S.sb_detective_lede },
   { href: `/${lang}/shabab/daily/`, title: S.sb_daily, lede: S.sb_daily_lede },
   { href: `/${lang}/shabab/where/`, title: S.sb_where, lede: S.sb_where_lede },
+  { href: `/${lang}/shabab/journey/`, title: S.sb_journey, lede: S.sb_journey_lede },
 ];
-const coming = [
-  { title: S.sb_journey, lede: S.sb_journey_lede },
-];
+const coming: { title: string; lede: string }[] = [];
 const crumbLabel = lang === "ar" ? "مسار التنقل" : "breadcrumb";
 ---
 <BaseLayout lang={lang} title={band.name} description={S.sb_scholars_lede} path={path}>

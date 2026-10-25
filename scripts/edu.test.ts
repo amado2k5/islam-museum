@@ -990,3 +990,26 @@ describe("E4 step 5 — edu/detective/*.yaml (source detective)", () => {
       expect(HON.test(readFileSync(`edu/detective/${f}`, "utf8")), f).toBe(false);
   });
 });
+
+describe("E4 step 6 — Journey Map + teen doors", () => {
+  it("the /shabab/journey/ route exists and the strings ship in all three languages", () => {
+    expect(existsSync("site/src/pages/[lang]/shabab/journey/index.astro")).toBe(true);
+    const keys = ["sb_journey", "sb_journey_lede", "sb_journey_legend", "sb_journey_done", "sb_journey_todo", "sb_journey_print"];
+    for (const l of ["ar", "en", "ur"]) {
+      const d = parse(readFileSync(`i18n/${l}.yaml`, "utf8")).shabab;
+      for (const k of keys) expect(typeof d[k] === "string" && d[k].length > 0, `${l}.${k}`).toBe(true);
+    }
+  });
+  it("teen doors point at /shabab/ everywhere a shabab band door is rendered", () => {
+    for (const f of ["site/src/pages/[lang]/learn/index.astro", "site/src/pages/[lang]/learn/parents/index.astro"]) {
+      const src = readFileSync(f, "utf8");
+      expect(src.includes("`/${lang}/shabab/`"), f).toBe(true);
+      expect(/shabab.*learn\/trails/.test(src), f).toBe(false);
+    }
+  });
+  it("the Journey Map colours tiles only from device keys (no fetch, no per-visitor data)", () => {
+    const src = readFileSync("site/src/scripts/journeymap.ts", "utf8");
+    expect(src.includes("localStorage")).toBe(true);
+    expect(src.includes("fetch(")).toBe(false);
+  });
+});

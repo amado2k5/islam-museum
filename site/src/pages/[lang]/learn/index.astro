@@ -15,8 +15,8 @@ const T = ui(lang);
 const E = T.edu;
 const bands = viewBands(lang, T.kids);
 const stamps = viewStamps(lang);
-// The teen wing (E4) is not built yet: its doors lead to the trail chooser and say so.
-const doorHref = (b: (typeof bands)[number]) => (b.wing === "shabab" ? `/${lang}/learn/trails/` : b.hub);
+// The teen wing (E4) is live: its doors lead to /shabab/.
+const doorHref = (b: (typeof bands)[number]) => (b.wing === "shabab" ? `/${lang}/shabab/` : b.hub);
 ---
 <BaseLayout lang={lang} title={E.title} description={E.lede} path={`/${lang}/learn/`}>
   <div class="wrap edu" style="padding-block:10px 24px" data-pagefind-ignore>
@@ -31,7 +31,6 @@ const doorHref = (b: (typeof bands)[number]) => (b.wing === "shabab" ? `/${lang}
       {bands.map((b) => (
         <li>
           <a class={`edu-door pal-${b.palette}`} href={doorHref(b)}>
-            {b.wing === "shabab" && <span class="chip soon">{E.soon}</span>}
             <span class="g" aria-hidden="true">{b.glyph}</span>
             <h2>{b.name}</h2>
             <span class="ages">{b.agesLabel}</span>

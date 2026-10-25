@@ -55,6 +55,16 @@ export const BUDGETS: Budget[] = [
   { family: "teen band", route: "/ar/shabab/researchers/", html: 170 * KB, js: 12 * KB },
   { family: "daily challenge", route: "/ar/shabab/daily/", html: 120 * KB, js: 12 * KB },
   { family: "teen activity", route: "/ar/shabab/where/", html: 220 * KB, js: 8 * KB },
+  // E4 steps 3–6: the taught wing — topics index, one page per kind, cards and the Journey Map.
+  { family: "teen listing", route: "/ar/shabab/topics/", html: 400 * KB, js: 8 * KB },
+  { family: "teen lesson", route: "/ar/shabab/60s/hijra/", html: 170 * KB, js: 10 * KB },
+  { family: "teen lesson", route: "/ar/shabab/glossary/hijra/", html: 170 * KB, js: 8 * KB },
+  { family: "teen activity", route: "/ar/shabab/practice/hijra/", html: 200 * KB, js: 14 * KB },
+  { family: "teen listing", route: "/ar/shabab/dilemmas/", html: 300 * KB, js: 8 * KB },
+  { family: "teen activity", route: "/ar/shabab/dilemmas/hijra-leave/", html: 170 * KB, js: 10 * KB },
+  { family: "teen listing", route: "/ar/shabab/detective/", html: 300 * KB, js: 8 * KB },
+  { family: "teen activity", route: "/ar/shabab/detective/niyya-chain/", html: 170 * KB, js: 10 * KB },
+  { family: "teen map", route: "/ar/shabab/journey/", html: 170 * KB, js: 10 * KB },
 ];
 
 export interface Measure { route: string; html: number; js: number; scripts: string[] }
