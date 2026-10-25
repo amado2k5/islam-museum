@@ -41,6 +41,20 @@ if (process.argv[1] && fileURLToPath(import.meta.url) === process.argv[1]) {
     const slug = f.replace(/.*\/pathway-/, "").replace(/\.yaml$/, "");
     for (const lang of ["ar", "en", "ur"]) if (!sitemap.includes(`/${lang}/learn/teachers/pathways/${slug}/`)) errors.push(`sitemap: /${lang}/learn/teachers/pathways/${slug}/ is missing`);
   }
+  // the offline teacher packs (E3 step 5): one self-contained file per pack and language — it exists,
+  // is at most 2 MB, and carries no <script src and no absolute http(s) URL (an xmlns is a namespace,
+  // not a fetch), so it opens from file:// with no internet
+  const packIds = (readFileSync(p("edu", "packs.yaml"), "utf8").match(/- id: ([a-z-]+)/g) ?? []).map((m) => m.replace("- id: ", ""));
+  for (const lang of ["ar", "en", "ur"]) for (const id of packIds) {
+    const f = p("dist", lang, "learn", "teachers", "offline", `${id}.html`);
+    if (!existsSync(f)) { errors.push(`offline pack missing: ${lang}/learn/teachers/offline/${id}.html`); continue; }
+    const buf = readFileSync(f);
+    if (buf.byteLength > 2 * 1024 * 1024) errors.push(`${lang}/learn/teachers/offline/${id}.html is ${buf.byteLength} bytes; a pack is at most 2 MB`);
+    const h = buf.toString("utf8");
+    if (/<script[^>]*\ssrc=/.test(h)) errors.push(`${lang}/learn/teachers/offline/${id}.html has a <script src>`);
+    const urls = h.replace(/xmlns="[^"]*"/g, "");
+    if (/https?:\/\//.test(urls)) errors.push(`${lang}/learn/teachers/offline/${id}.html references an absolute http(s) URL`);
+  }
   for (const w of warns) console.log("warn  " + w);
   for (const e of errors) console.log("ERROR " + e);
   console.log(`checked ${paths.length} pages: ${errors.length} errors, ${warns.length} warnings`);

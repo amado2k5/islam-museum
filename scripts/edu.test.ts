@@ -679,3 +679,30 @@ describe("education: seasonal packs (E3 step 4, plan §5)", () => {
     }
   });
 });
+
+describe("education: offline packs (E3 step 5, plan §5)", () => {
+  const endpoint = readFileSync("site/src/pages/[lang]/learn/teachers/offline/[slug].html.ts", "utf8");
+
+  it("the endpoint writes one .html per pack per language, self-contained: inline CSS, no script, no absolute URL", () => {
+    expect(endpoint.includes("getStaticPaths")).toBe(true);
+    expect(endpoint.includes("loadPacks()")).toBe(true);
+    expect(endpoint.includes("<style>")).toBe(true);
+    expect(endpoint.includes("<script")).toBe(false);
+    expect(endpoint.includes("Content-Type")).toBe(true);
+    expect(endpoint.includes("pk_offline_note")).toBe(true);
+  });
+
+  it("check-site asserts every offline file exists, is at most 2 MB, and carries no external fetch", () => {
+    const cs = readFileSync("scripts/check-site.ts", "utf8");
+    expect(cs.includes("offline")).toBe(true);
+    expect(cs.includes("2 * 1024 * 1024")).toBe(true);
+    expect(cs.includes("<script[^>]*\\ssrc=")).toBe(true);
+    expect(cs.includes("https?:\\/\\/")).toBe(true);
+  });
+
+  it("each pack page links its offline file", () => {
+    const packPage = readFileSync("site/src/pages/[lang]/learn/teachers/packs/[slug].astro", "utf8");
+    expect(packPage.includes("/learn/teachers/offline/")).toBe(true);
+    expect(packPage.includes("pk_offline")).toBe(true);
+  });
+});
