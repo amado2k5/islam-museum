@@ -1,0 +1,52 @@
+id: person/seku-amadu
+class: person
+label: { ar: "شيخو أحمدو", en: "Seku Amadu", ur: "سیکو امادو" }
+names:
+  - { value: "أحمد بن محمّد بوبو بن أبي بكر بن سعيد الفلاني", kind: full }
+  - { value: "Ahmadu mo Muhammadu mo Abi Bakr Lobbo Barry", kind: full }
+  - { value: "شيخ أحمد بن محمّد لبّو", kind: alternate }
+  - { value: "Aamadu Hammadi Buubu", kind: alternate }
+  - { value: "Cheikhou Amadou", kind: alternate }
+  - { value: "Sékou Amadou", kind: latinized }
+  - { value: "Sise al-Masini", kind: laqab }
+  - { value: "Almamy", kind: laqab }
+gender: male
+summary:
+  ar: "شيخو أحمدو (أحمد بن محمد لبو، ح. 1776 – 1845)، مؤسس إمبراطورية ماسينا (دينا حمد الله) في دلتا النيجر الداخلية بمالي الحالية وحاكمها بلقب الإمام (ألمامي) من 1818 إلى وفاته. مرابط فولاني منتمٍ إلى القادرية، تتلمذ عند سيدي المختار الكنتي بحسب المصادر الإنجليزية وابتدأ في الطريقة على يد كابارا فارما بحسب المصادر الفرنسية، وقاد جهادا أسقط حكم البمبارا وأسس دولة ثيوقراطية عاصمتها حمد الله، حكمت بقضاء مالكي صارم، ووسّع نفوذها إلى جني وتمبكتو، وخلفه ابنه أحمدو الثاني ثم حفيده أحمدو الثالث."
+  en: "Seku Amadu (Ahmadu ibn Muhammadu Lobbo, c. 1776 – 1845), founder of the Massina Empire (the Diina of Hamdullahi) in the Inner Niger Delta of present-day Mali and its ruler, with the title Almami, from 1818 until his death. A Fulbe marabout of the Qadiriyya — taught, on the English sources, by Sidi Mukhtar al-Kunti, and initiated, on the French sources, by Kabara Farma — he led the jihad that overthrew Bambara overlordship and founded a theocratic state at Hamdullahi, governed under a strict Maliki application of Sharia, extending his authority to Djenné and Timbuktu; his son Amadu II and then his grandson Amadu III succeeded him."
+  ur: "شیکھو احمدو (احمد بن محمد لوبو، تقریباً 1776ء – 1845ء)، موجودہ مالی کے اندرونی نائجر ڈیلٹا میں سلطنتِ ماسینا (دینۂ حمد اللہ) کے بانی اور 1818ء سے وفات تک «المامی» کے لقب سے اس کے حکمران۔ وہ قادریہ سے وابستہ فولبے مرابط تھے — انگریزی مآخذ کے مطابق سیدی المختار الکُنتی کے شاگرد اور فرانسیسی مآخذ کے مطابق کابارا فارما کے ہاتھوں طریقے میں داخل ہوئے — انہوں نے بمبارا اقتدار کے خلاف جہاد کی قیادت کی اور حمد اللہ میں ایسی دینی ریاست قائم کی جو مالکی شریعت کے سخت نفاذ سے چلتی تھی اور جس کا اثر جینے اور تمبکٹو تک پھیلا؛ ان کے بعد بیٹے احمدو ثانی اور پھر پوتے احمدو ثالث جانشین ہوئے۔"
+roles: [ruler, scholar, mystic]
+wings: [people]
+born:
+  edtf: "1776~"
+  hijri: "1190"
+  calendar: gregorian
+  precision: year
+  status: historical
+  derived: true
+  note: "Born about 1776: the English article gives c. 1776 and the full name Ahmadu mo Muhammadu mo Abi Bakr Lobbo Barry; the French article's body gives 1776 at Malangal, a village near Mopti, while its infobox gives 1775 or 1776 in Macina. No source gives a day or month. The Hijri year (1190) is derived by tabular conversion (the Gregorian year 1776 spans 1189–1190 AH; the mid-year falls in 1190). Malangal and Macina have no place entities in the museum yet, so no born_in relation is written."
+  sources: [source/wikipedia-seku-amadu-en, source/wikipedia-seku-amadu-fr]
+died:
+  edtf: "1845-04-20"
+  hijri: "1261"
+  calendar: gregorian
+  precision: day
+  status: debated
+  derived: true
+  note: "The English biographical article gives his death precisely, in its lead, infobox and closing narrative, as 20 April 1845, leaving the empire to his son Amadu II; the Hijri year (1261) is derived by tabular conversion of that date. The year is nevertheless debated: the English Massina Empire article's body says 'Ahmadu died in 1844' (citing Sandomirsky's encyclopaedia entry) and its rulers list ends his reign in 1844, and the French article gives his death as 1844 or 1845. The record follows the dedicated biographical article's exact date and records the 1844 alternative here in full. No source read names a death place with a museum place entity, so no died_in relation is written."
+  sources: [source/wikipedia-seku-amadu-en, source/wikipedia-seku-amadu-fr, source/wikipedia-massina-empire-en]
+relations:
+  - { type: student_of, target: person/mukhtar-al-kunti, note: "The English article states expressly that Amadu was a pupil of the Qadiriyya Sufi teacher Sidi Mukhtar al-Kunti (citing Hunwick 2004). The French article instead names the Sufi Kabara Farma as the man who initiated him into the Qadiriyya (citing Boly's thesis on Sufism in Mali); the two teacher traditions are both stated in the prose and neither is silently dropped.", sources: [source/wikipedia-seku-amadu-en, source/wikipedia-seku-amadu-fr] }
+  - { type: member_of, target: group/qadiriyya, sources: [source/wikipedia-seku-amadu-en, source/wikipedia-seku-amadu-fr, source/wikipedia-empire-du-macina-fr] }
+faith:
+  - value: sufi
+    basis: documented
+    note: "Attested of Seku Amadu personally by independent sources. (1) The English article states that he was a pupil of the Qadiriyya Sufi teacher Sidi Mukhtar al-Kunti, and that the literate Fulbe Muslims who backed his jihad were influenced by the Sufi revival (citing Hunwick 2004 and Hiskett 1976). (2) The French article calls him in its lead a Fulbe marabout and adherent of the Qadiriyya ('adepte de la Qadiriyya') and says he was initiated into the Qadiriyya by the Sufi Kabara Farma (citing Boly's 2013 thesis) — the initiator's name differs from the English article's teacher, but the personal Qadiriyya adherence is the same attestation from a separate source family. (3) The French Macina Empire article states that its founder was a member of the Qadiriyya Sufi confraternity. No sunni or sunni-maliki segment is recorded: the Maliki character the sources describe is that of his state's law — the English article says the law was based on the strict Maliki interpretation of Sharia, the French Macina article speaks of a rigorous application of Maliki Sharia, and the English Massina article calls the state itself a Sunni Muslim caliphate — and by the lane rule a state's law and a state's description are political facts, not a personal school attestation; no source read attests a madhhab of the man personally with a second independent source, so under the two-source rule and the doubt rule none is added, and that position is stated here in full."
+    sources: [source/wikipedia-seku-amadu-en, source/wikipedia-seku-amadu-fr, source/wikipedia-empire-du-macina-fr, source/wikipedia-massina-empire-en]
+sources: [source/wikipedia-seku-amadu-en, source/wikipedia-seku-amadu-fr, source/wikipedia-massina-empire-en, source/wikipedia-empire-du-macina-fr]
+provenance:
+  layer: own-research
+  source: "English Wikipedia 'Seku Amadu' and 'Caliphate of Hamdullahi' (the Massina Empire article) and French Wikipedia 'Sékou Amadou' and 'Empire du Macina', all read in full on 25 October 2026. The queue line (docs/delegation/century-additions-queue.md §B: 'Seku Amadu (1776–1845)'; the same man also stands unchecked in §J as 'Seku Amadu (Amadu Lobbo) — 1776–1845', one person to be built once) agrees with the sources on the years; the exact death day comes from the English biographical article alone and the 1844 alternative is recorded in the died note. No Wikidata identifier was verified in this run, so none is recorded. The Massina polity (the Caliphate of Hamdullahi) and the places Malangal, Hamdullahi, Djenné and Sebera have no entities in the museum yet, so the founder_of and ruler_of edges and the place relations his biography would support are omitted and flagged in the writer's report rather than written to missing targets; Usman dan Fodio, who authorised his jihad and gave him a flag, likewise has no person record yet."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: century-additions-21
+status: { review: published, completeness: 3, generated_by: "Muse (Muse Spark 1.3)" }

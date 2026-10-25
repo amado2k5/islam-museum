@@ -1,0 +1,49 @@
+id: person/lat-dior
+class: person
+label: { ar: "لات ديور", en: "Lat Dior", ur: "لات دیور" }
+names:
+  - { value: "لاتير ديور نغوني لاتير ديوب", kind: full }
+  - { value: "Lat Jor Ngoné Latir Jop", kind: full }
+  - { value: "Lat Dior Ngoné Latyr Diop", kind: alternate }
+  - { value: "Latyr Dior Ngoné Latyr Diop", kind: alternate }
+  - { value: "Silmakha Diop", kind: alternate }
+  - { value: "Damel", kind: laqab }
+gender: male
+summary:
+  ar: "لات ديور (لات جور نغوني لاتير جوب، 1842 – 26 أكتوبر 1886)، دامل (ملك) كايور، الدولة الولوفية في السنغال الحالية، وبطل السنغال الوطني لمقاومته الاستعمار الفرنسي خمسة وعشرين عاما. وُلد في كور أمادو يالا في وسط مسلم اسميا ودرس في مدرسة قرآنية، وانتُخب داملا شابا فهُزم ونُفي، فلجأ إلى المرابط مابا دياخو با في سالوم واعتنق الإسلام عنده — أخذ اسم سيلماخا ديوب في الرواية الفرنسية — وبقي مسلما ممارسا بقية حياته وقاد جيوش مابا، ثم استعاد كايور وحكمها، وقاوم بشدة بناء سكة حديد داكار-سان لوي، وخاض حرب عصابات ثلاث سنوات بعد عزله سنة 1883 حتى قُتل في معركة ديخيلي في أكتوبر 1886 فسقطت كايور نهائيا."
+  en: "Lat Dior (Lat Jor Ngoné Latir Jop, 1842 – 26 October 1886), damel (king) of Cayor, the Wolof state in present-day Senegal, and a national hero of Senegal for twenty-five years of resistance to French colonialism. Born at Keur Amadou Yalla, raised in a nominally Muslim milieu and schooled in a Quranic school, he was elected damel as a youth, defeated and exiled; he took refuge with the marabout Maba Diakhou Ba in Saloum and embraced Islam under him — taking the name Silmakha Diop in the French account — remained a practicing Muslim for the rest of his life and led Maba's armies, then recovered Cayor and ruled it, fought the Dakar–Saint-Louis railway with all his might, and after his deposition in 1883 waged a three-year guerrilla war until he was killed at Dekhele in October 1886, when Cayor ceased to exist."
+  ur: "لات دیور (لات جور نگونے لاتیر جوپ، 1842ء – 26 اکتوبر 1886ء)، موجودہ سینیگال کی وولوف ریاست کایور کے «دامل» (بادشاہ) اور پچیس برس فرانسیسی استعمار کی مزاحمت پر سینیگال کے قومی ہیرو۔ کیور امادو یالا میں پیدا ہوئے، برائے نام مسلم ماحول میں پلے اور قرآنی مکتب میں پڑھے، جوانی میں دامل منتخب ہوئے، شکست کھا کر جلاوطن ہوئے؛ سالوم میں مرابط مابا دیاخو با کی پناہ لی اور ان کے پاس اسلام قبول کیا — فرانسیسی روایت میں نام «سیلماخا دیوپ» لیا — عمر بھر عامل مسلمان رہے اور مابا کی فوجوں کی قیادت کی، پھر کایور واپس لے کر حکومت کی، ڈاکار–سینٹ لوئی ریلوے کی پوری قوت سے مخالفت کی، اور 1883ء میں معزولی کے بعد تین برس چھاپہ مار جنگ لڑی یہاں تک کہ اکتوبر 1886ء میں دیخیلے کی لڑائی میں مارے گئے اور کایور ختم ہو گیا۔"
+roles: [ruler, general]
+wings: [people]
+born:
+  edtf: "1842"
+  hijri: "1258"
+  calendar: gregorian
+  precision: year
+  status: historical
+  derived: true
+  note: "Born in 1842 at Keur Amadou Yalla in north-eastern Cayor: the French article gives the year and place plainly; the English article gives c. 1842 and the same place, its early-life section adding that he was raised in a nominally Muslim milieu and studied at a Quranic school as a child, on oral histories kept by griots (citing Monteil 1963). No source gives a day or month. The Hijri year (1258) is derived by tabular conversion. Keur Amadou Yalla has no place entity in the museum yet, so no born_in relation is written."
+  sources: [source/wikipedia-lat-jor-en, source/wikipedia-lat-dior-fr]
+died:
+  edtf: "1886-10-26"
+  hijri: "1304"
+  calendar: gregorian
+  precision: day
+  status: debated
+  derived: true
+  note: "Killed in action at Dekhele (Dékheulé) in October 1886. The day is debated and every variant is stated: the French article's lead and infobox give 26 October 1886, and the Italian article and the older English text it derives from agree on 26 October; the French article's own closing narrative has his army march to Dékhélé on 27 October 1886 and the French Alboury Ndiaye article dates the battle to 26–27 October, with genealogical compilations also giving 27 October; the English article's infobox instead gives 26 December 1886, against its own narrative sequence (his successor Samba Lawbe Fall was killed on 6 October 1886, after which Lat Jor fought his last battle) and against the French tradition — the record follows 26 October as the majority scholarly tradition and records the December date as the rejected outlier. The Hijri year (1304) is derived by tabular conversion of 26 October 1886. Dekhele has no place entity in the museum yet, so no died_in relation is written."
+  sources: [source/wikipedia-lat-jor-en, source/wikipedia-lat-dior-fr, source/wikipedia-alboury-ndiaye-fr]
+relations:
+  - { type: allied_with, target: person/alboury-ndaye, note: "Cousins and allies: Alboury Ndiaye was raised alongside Lat Jor in Cayor and fought beside him from the 1860s; Lat Jor supported the exiled Jolof prince Alboury (English article), Alboury secretly sustained Lat Jor after his deposition and defeated the French-backed damel Samba Laobé Fall at Guilé in June 1886 in the campaign to restore him (French articles), and the two coordinated their resistance until Lat Jor's death months later. The kinship itself is stated differently — the English Alboury article calls Lat Jor his older cousin, the French Alboury article calls him his uncle — so the alliance, on which all sources agree, is the edge written, and the kinship discrepancy is stated in both records' prose.", sources: [source/wikipedia-alboury-ndiaye-en, source/wikipedia-lat-dior-fr, source/wikipedia-alboury-ndiaye-fr] }
+faith:
+  - value: unknown
+    basis: tradition
+    note: "No two independent sources name a school or order for Lat Dior personally, so he is left unclassified (doubt rule). What the sources give, in full: the English article's infobox alone gives his religion as 'Islam (Tijaniyyah)' — an order named in that one field, uncited there, and nowhere in the article's body. The French article's infobox gives his religion as Islam with no order, and neither biography attests a Tijani initiation of Lat Dior himself. What both articles do attest is his conversion and practice: raised in a nominally Muslim milieu and Quranic-schooled as a child (English article), he fled to the marabout Maba Diakhou Ba, formally became his talibe (disciple) to seal their alliance and remained a practicing Muslim for the rest of his life (English article, citing Monteil 1963); the French article says Maba, a disciple of El Hadj Omar Tall, required his conversion as the price of help, that the ceddo Lat Dior converted and took the name Silmakha Diop. Maba's own standing in the Tijani tradition descending from Umar Tall is Maba's attestation, not Lat Dior's, and discipleship to a marabout is not by itself a documented order affiliation for the disciple. The Tijaniyyah claim is therefore recorded here as a single-infobox tradition, not as a value."
+    sources: [source/wikipedia-lat-jor-en, source/wikipedia-lat-dior-fr]
+sources: [source/wikipedia-lat-jor-en, source/wikipedia-lat-dior-fr, source/wikipedia-alboury-ndiaye-en, source/wikipedia-alboury-ndiaye-fr]
+provenance:
+  layer: own-research
+  source: "English Wikipedia 'Lat Jor' and French Wikipedia 'Lat Dior', both read in full on 25 October 2026, with the French 'Alboury Ndiaye' article for the alliance and the battle dates. The queue line (§B: 'Lat Dior (1842–1886)') agrees with the sources on the years. The museum label and slug follow the queue's and French spelling 'Lat Dior'; the English article's Wolof spelling 'Lat Jor' is carried among his names. His reign dates differ between the articles (French: damel 1861–1863, then 1871–1883, title line 1862–1886; English: installed 1862, recognised by treaty in 1870–1871, deposed 1883, his nephew-successor killed 6 October 1886) and the prose states both rather than merging them. The converted_under edge to Maba Diakhou Ba cannot be written because Maba has no person record yet; Cayor, Baol, Keur Amadou Yalla and Dekhele have no place or polity entities yet — all flagged in the writer's report. No Wikidata identifier was verified in this run, so none is recorded."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: century-additions-21
+status: { review: published, completeness: 3, generated_by: "Muse (Muse Spark 1.3)" }
