@@ -33,7 +33,7 @@ In May 2015 he tweeted that he was pleased that no church bells are heard in Sau
 The sources record that al-Kalbani has two wives and twelve children, among them seven daughters and five sons. The museum does not publish family details beyond what is needed to understand his work. {cite:wikipedia-adel-al-kalbani-en}
 
 ## Reach
-Through the combination of the Ramadan imamate at the Grand Mosque, two decades of imamate in Riyadh, his recorded recitation and his media presence, al-Kalbani's voice reached a global audience, and his influence extended beyond recitation into public controversy. Platform figures change constantly and are recorded here only with a date; his YouTube channel stood at about 227,000 subscribers in the harvest of October 2026. {cite:wikipedia-adel-al-kalbani-en}
+Through the combination of the Ramadan imamate at the Grand Mosque, two decades of imamate in Riyadh, his recorded recitation and his media presence, al-Kalbani's voice reached a global audience, and his influence extended beyond recitation into public controversy. Platform figures change constantly and are recorded here only with a date; his YouTube channel stood at about 227,000 subscribers in the harvest of October 2026. {cite:wikipedia-adel-al-kalbani-en} His recitations, lessons and clips of his talks are also published on that channel, under the handle @youadelalkalbani. {cite:youtube-adel-al-kalbani}
 
 ## Sources
 - The defined source entities cited above, recorded in `data/source/`.
