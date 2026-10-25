@@ -320,11 +320,19 @@ footer.site, .grid-cards { content-visibility: auto; contain-intrinsic-size: aut
 .path .meta { font-size: .85rem; color: var(--gold-text); font-weight: 600; }
 .plan-note { text-align: center; color: var(--muted); margin: 1.2rem 0 0; }
 .wings { display: grid; grid-template-columns: repeat(3, 1fr); gap: 1rem; list-style: none; margin: 0; padding: 0; }
-.wing { display: block; height: 100%; background: var(--panel); border: 1px solid var(--line); border-radius: 18px; padding: 1.2rem 1.3rem; border-inline-start: 5px solid var(--acc, var(--gold)); color: var(--fg); text-decoration: none; }
-.wing:hover { border-color: var(--gold); text-decoration: none; }
+.wing { display: flex; flex-direction: column; height: 100%; background: var(--panel); border: 1px solid var(--line); border-radius: 18px; padding: 1.2rem 1.3rem; border-inline-start: 5px solid var(--acc, var(--gold)); color: var(--fg); }
+.wing-head { display: block; color: var(--fg); text-decoration: none; }
+.wing-head:hover { text-decoration: none; }
+.wing-head:hover h3 { color: var(--gold-text); }
 .wing h3 { font-size: 1.2rem; margin: 0; }
 .wing .count { font-weight: 600; color: var(--gold-text); font-size: .95rem; }
-.wing p { font-size: .92rem; color: var(--muted); margin: .3rem 0 0; line-height: 1.7; }
+.wing p { font-size: .92rem; color: var(--muted); margin: .3rem 0 .8rem; line-height: 1.7; }
+.wing .feat { display: block; margin-top: auto; padding: .7rem .85rem; border-radius: 12px; background: color-mix(in srgb, var(--acc) 14%, transparent); border: 1px dashed color-mix(in srgb, var(--acc) 55%, transparent); color: var(--fg); text-decoration: none; }
+.wing .feat:hover { border-style: solid; border-color: var(--gold); text-decoration: none; }
+.feat-k { display: block; font-size: .72rem; letter-spacing: .04em; text-transform: uppercase; color: var(--gold-text); font-weight: 600; }
+.feat-l { display: block; font-size: 1rem; margin: .15rem 0; }
+.feat-s { display: block; font-size: .85rem; color: var(--muted); line-height: 1.55; }
+.last-upd { text-align: center; font-size: .85rem; margin: 1.5rem 0 2rem; }
 .xgrid { display: grid; grid-template-columns: 1fr 1fr; gap: 1.1rem; list-style: none; margin: 0; padding: 0; }
 .xcard { display: grid; grid-template-columns: 150px 1fr; background: var(--card); border: 1px solid var(--line); border-radius: 18px; overflow: hidden; }
 .xcard .thumb { min-height: 150px; position: relative; overflow: hidden; background: var(--panel); }

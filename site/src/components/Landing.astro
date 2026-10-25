@@ -6,9 +6,10 @@ import Logo from "./Logo.astro";
 import TodayCards from "./TodayCards.astro";
 import GiftShop from "./GiftShop.astro";
 import ArtStrip from "./ArtStrip.astro";
-import { ui, fmt, WINGS, wingHref, type Lang } from "../lib/i18n";
+import { ui, fmt, WINGS, wingHref, NUM_LOCALE, type Lang } from "../lib/i18n";
 import { href, graph, labelOf, summaryOf, realNodes } from "../lib/graph";
 import { wingCountLabel, explorePages, num } from "../lib/nav";
+import { featuredPool } from "../../../scripts/wings";
 const { lang, path } = Astro.props as { lang: Lang; path: string };
 const T = ui(lang);
 const L = T.learn;
@@ -18,6 +19,9 @@ const paths = realNodes.filter((n: any) => n.class === "exhibit" && String(n.id)
 const PATH_ACC = ["var(--gold)", "var(--wing-ideas)", "var(--wing-place)", "#8e5aa8", "var(--wing-people)"];
 const EXPLORE = explorePages(lang);
 const pages = 2 * realNodes.length;
+// One random entry per wing card, picked in the browser from a small pool fixed at build time (scripts/wings.ts featuredPool).
+const teaser = (s: string, n = 110) => (s.length > n ? s.slice(0, n).replace(/\s+\S*$/, "") + "…" : s);
+const featured = Object.fromEntries(WINGS.map((w) => [w, featuredPool(realNodes as any[], w, lang).map((n: any) => ({ h: href(lang, n.id), l: labelOf(n, lang), s: teaser(summaryOf(n, lang)) }))]));
 const stats = fmt(T.landing.stats, { items: num(realNodes.length, lang), pages: num(Math.round(pages / 1000) * 1000, lang) });
 ---
 <BaseLayout lang={lang} title={T.tagline} path={path} jsonld={{ "@context": "https://schema.org", "@type": "WebSite", name: "islam.museum", url: "https://islam.museum/", inLanguage: ["en", "ar"], license: "https://creativecommons.org/licenses/by-sa/4.0/", sameAs: "https://www.wikidata.org/wiki/Q141801006" }}>
@@ -47,9 +51,14 @@ const stats = fmt(T.landing.stats, { items: num(realNodes.length, lang), pages: 
       <div class="sec-head"><h2 id="wings-title">{T.landing.wings_title}</h2><p class="muted">{T.landing.wings_lede}</p></div>
       <ul class="wings" role="list">
         {WINGS.map((w) => (
-          <li><a class="wing" data-wing={w} href={wingHref(lang, w)} style={`--acc:var(--wing-${w})`}><h3>{T.wings[w].title}</h3><span class="count ui">{wingCountLabel(lang, w)}</span><p>{T.wings[w].blurb}</p></a></li>
+          <li class="wing" data-wing={w} style={`--acc:var(--wing-${w})`}>
+            <a class="wing-head" href={wingHref(lang, w)}><h3>{T.wings[w].title} <span class="flip" aria-hidden="true">→</span></h3><span class="count ui">{wingCountLabel(lang, w)}</span></a>
+            <p>{T.wings[w].blurb}</p>
+            {featured[w][0] && <a class="feat" data-feat={w} href={featured[w][0].h}><span class="feat-k ui">✦ {T.landing.featured}</span><strong class="feat-l"><bdi>{featured[w][0].l}</bdi></strong><span class="feat-s">{featured[w][0].s}</span></a>}
+          </li>
         ))}
       </ul>
+      <script type="application/json" data-feat-pool set:html={JSON.stringify(featured)} />
     </div>
   </section>
 
@@ -104,5 +113,7 @@ const stats = fmt(T.landing.stats, { items: num(realNodes.length, lang), pages: 
   </section>
   <ArtStrip lang={lang} />
   <GiftShop lang={lang} />
+  <p class="last-upd ui muted" data-last-updated data-tpl={T.landing.last_updated} data-locale={NUM_LOCALE[lang]} hidden></p>
   <script src="../scripts/hijri-widget.ts"></script>
+  <script src="../scripts/landing-random.ts"></script>
 </BaseLayout>
