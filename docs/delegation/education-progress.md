@@ -349,3 +349,4 @@ Homework topics (`edu/homework-topics.yaml`) — id | ur title | ur phrasings:
 - **Step 2, topics-50 schema + first batch**: `edu/topics-50.yaml` schema (anchor, band, trilingual title, ~150-word sixty-second explainer, 12-term glossary, 10-question practice set with one `correct` and a `why` under every option). First batch of 4 topics authored in full (crusades, hijra, five-pillars, salah); `site/src/lib/topics.ts` is the integrity gate. Tests: 3 new, 75/75 pass. Remaining 46 topics pending.
 - **Step 2, batch 2**: +4 topics (badr, first-revelation, conquest-mecca, baghdad) — 8 of 50 authored.
 - **Step 2, batches 3–4**: +8 topics (mecca, medina, jerusalem, cordoba, timbuktu, cairo, delhi, istanbul) — 16 of 50 authored.
+- **Step 2, batch 5** (PR TBD): +4 topics (salah-al-din, mansa-musa, fatima-al-fihri, al-khwarizmi) — 20 of 50 authored.
