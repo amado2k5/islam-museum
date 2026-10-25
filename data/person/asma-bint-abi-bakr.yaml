@@ -1,4 +1,10 @@
 id: person/asma-bint-abi-bakr
+education:
+  did_you_know:
+    ar: "أسماء بنت أبي بكر ذات النطاقين: حملت سفرة النبي وأبيها إلى الغار فشقّت نطاقها رباطاً للطعام والماء."
+    en: "Asma bint Abi Bakr, 'she of the two waist-bands', carried provisions to the Prophet and her father in the cave, splitting her girdle to tie food and water."
+    ur: "اسماء بنت ابی بکر، «دو کمر بندوں والی»، غار میں نبی اور اپنے والد کے لیے راشن پہنچائی — اپنا کمر بند دو ٹکڑے کرکے کھانا اور پانی باندھا۔"
+    sources: [source/mubarakpuri-raheeq, source/sahih-al-bukhari]
 class: person
 label: { en: "Asma bint Abi Bakr", ar: "أسماء بنت أبي بكر" }
 names:
@@ -28,3 +34,9 @@ relations:
 external_ids: { wikidata: "Q2444841" }
 sources: [source/mubarakpuri-raheeq, source/sahih-al-bukhari, source/ibn-hisham-sira, source/nisa-hawl-alrasul, source/muruj-al-dhahab, source/bakr-umayyad-state-1134715]
 status: { review: draft, completeness: 2, generated_by: "Devin; al-Raheeq al-Makhtum pp. 165-166, 170" }
+provenance:
+  layer: own-research
+  source: "source/mubarakpuri-raheeq"
+  generated_by: Devin
+  model: "unknown"
+  run: "education-E3-facts-batch6"

@@ -1,4 +1,10 @@
 id: person/sad-ibn-muadh
+education:
+  did_you_know:
+    ar: "سعد بن معاذ سيد الأوس وحامل راية الأنصار يوم بدر، وأجاب في مشورة الخروج إليها ببيعة القتال خارج الديار."
+    en: "Sa'd ibn Mu'adh, chief of the Aws and the Ansar's standard-bearer at Badr, pledged on their behalf to fight beyond their homes in the pre-battle council."
+    ur: "سعد بن معاذ، قبیلہ اوس کے سردار اور بدر میں انصار کے علمبردار؛ بدر سے پہلے مشورے میں انہوں نے اپنے گھر سے باہر لڑنے کی بیعت کی۔"
+    sources: [source/mubarakpuri-raheeq, source/ibn-hisham-sira]
 class: person
 label: { en: "Sa'd ibn Mu'adh", ar: "سعد بن معاذ" }
 names:
@@ -30,3 +36,9 @@ external_ids:
   wikidata: Q2002479
 sources: [source/mubarakpuri-raheeq, source/ibn-hisham-sira, source/tabaqat-ibn-sad, source/samhudi-wafa-al-wafa, source/sahih-al-bukhari, source/sahih-muslim, source/ibn-hajar-isaba]
 status: { review: draft, completeness: 3, generated_by: "Devin; al-Raheeq al-Makhtum pp. 204-233 (pp. 205, 209, 212)" }
+provenance:
+  layer: own-research
+  source: "source/mubarakpuri-raheeq"
+  generated_by: Devin
+  model: "unknown"
+  run: "education-E3-facts-batch6"

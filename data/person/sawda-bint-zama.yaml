@@ -1,4 +1,10 @@
 id: person/sawda-bint-zama
+education:
+  did_you_know:
+    ar: "سودة بنت زمعة أم المؤمنين، أسلمت قديماً وهاجرت إلى الحبشة، وهي أول من تزوجها النبي بعد وفاة خديجة سنة ١٠ من النبوة."
+    en: "Sawda bint Zam'a, a Mother of the Believers, an early convert who emigrated to Abyssinia — the first woman the Prophet married after Khadija's death in year ten."
+    ur: "سودہ بنت زمعہ، ام المومنین، اولین مسلمانوں میں سے جو حبشہ ہجرت کی — خدیجہ کی وفات کے بعد نبی کی پہلی زوجہ، نبوت کے دسویں سال۔"
+    sources: [source/mubarakpuri-raheeq, source/ibn-sad-tabaqat-bewley]
 class: person
 label: { en: "Sawda bint Zam'a", ar: "سودة بنت زمعة" }
 names:
@@ -32,3 +38,9 @@ relations:
 external_ids: { wikidata: "Q1943555" }
 sources: [source/mubarakpuri-raheeq, source/ibn-sad-tabaqat-bewley, source/sahih-al-bukhari, source/ibn-hisham-saqqa, source/nisa-hawl-alrasul, source/ibn-hajar-isaba]
 status: { review: draft, completeness: 3, generated_by: "Devin; al-Raheeq al-Makhtum pp. 117-118; Nisa' Hawl al-Rasul pp. 49-58 added by Devin (SWE-2 High), lib-nisa-hawl-rasul" }
+provenance:
+  layer: own-research
+  source: "source/mubarakpuri-raheeq"
+  generated_by: Devin
+  model: "unknown"
+  run: "education-E3-facts-batch6"

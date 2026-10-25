@@ -1,4 +1,10 @@
 id: person/saad-ibn-abi-waqqas
+education:
+  did_you_know:
+    ar: "سعد بن أبي وقاص من السابقين إلى الإسلام، والقائد الذي كسر الجيش الساساني في القادسية نحو ٦٣٦م ومؤسس مدينة الكوفة."
+    en: "Sa'd ibn Abi Waqqas, among the earliest Muslims, was the commander who broke the Sasanian army at al-Qadisiyya around 636 CE and founded the city of Kufa."
+    ur: "سعد بن ابی وقاص اولین مسلمانوں میں سے، قادسیہ میں ساسانی لشکر شکست دینے والے سپہ سالار (تقریباً 636ء) اور کوفہ شہر کے بانی۔"
+    sources: [source/ibn-sad-tabaqat-bewley, source/tabari-donner-1993]
 class: person
 aliases: [person/sad-ibn-abi-waqqas]   # same person; merged from the Raheeq lane's spelling so existing references resolve
 label: { en: "Sa'd ibn Abi Waqqas", ar: "سعد بن أبي وقاص" }
@@ -37,3 +43,9 @@ external_ids:
   wikidata: Q380184
 sources: [source/ibn-sad-tabaqat-bewley, source/tabari-donner-1993, source/sahih-al-bukhari, source/mubarakpuri-raheeq, source/ibn-hisham-sira, source/sahih-muslim, source/ibn-hajar-isaba]
 status: { review: draft, completeness: 3, generated_by: "Devin; 2026-10-11" }
+provenance:
+  layer: own-research
+  source: "source/ibn-sad-tabaqat-bewley"
+  generated_by: Devin
+  model: "unknown"
+  run: "education-E3-facts-batch6"

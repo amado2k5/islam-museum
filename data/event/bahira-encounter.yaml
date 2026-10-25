@@ -1,4 +1,10 @@
 id: event/bahira-encounter
+education:
+  did_you_know:
+    ar: "في رحلة أبي طالب التجارية إلى الشام لقي الركب الراهب بحيرا ببصرى فعرف الفتى محمداً بخاتم النبوة ووصف في كتبهم."
+    en: "On Abu Talib's trade journey to Syria the caravan met the monk Bahira at Busra, who knew the boy Muhammad by the seal of prophecy described in their books."
+    ur: "ابو طالب کے تجارتی سفرِ شام میں قافلہ بصریٰ کے راہب بحیرا سے ملا جس نے اپنے کتب کے بیان سے خاتمِ نبوت پہچان کر بچے محمد کو جانا۔"
+    sources: [source/mubarakpuri-raheeq, source/zad-al-maad]
 class: event
 kind: other
 label: { en: "The monk Bahira at Busra", ar: "لقاء الراهب بحيرا ببصرى" }
@@ -18,3 +24,9 @@ relations:
   - { type: part_of, target: period/prophetic-era }
 sources: [source/mubarakpuri-raheeq, source/ibn-hisham-sira, source/zad-al-maad, source/mukhtasar-sirat-al-rasul-al-najdi, source/talqih-fuhum-ahl-al-athr]
 status: { review: draft, completeness: 2, generated_by: "Devin; al-Raheeq al-Makhtum pp. 58-59" }
+provenance:
+  layer: own-research
+  source: "source/mubarakpuri-raheeq"
+  generated_by: Devin
+  model: "unknown"
+  run: "education-E3-facts-batch6"
