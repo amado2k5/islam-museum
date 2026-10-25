@@ -23,3 +23,9 @@ translators: []
 
 ## كتاب قريش إليه (الرحيق المختوم ص194–195)
 كتبت إليه قريش تهدده بالقتال أو الإخراج، فاجتمع هو ومن معه من المشركين ليقاتلوا النبي، فلما جاءهم النبي تفرقوا، فامتنع عن القتال لأنه رأى أن أصحابه لا يثبتون ([[event/quraysh-letter-to-ibn-ubayy|كتاب قريش إلى ابن أبي]]) {cite:mubarakpuri-raheeq p.194}.
+
+## عند الشيخ عمر عبد الكافي
+يصفه الشيخ بأنه زعيم المنافقين في المدينة، ويقول إن النبي لم يأمر أحدا من أصحابه بقتله. {cite:assabile-omar-abdelkafy aadau-al-islam/ep01 00:04:30} {cite:assabile-omar-abdelkafy aadau-al-islam/ep01 00:05:00}
+يروي الشيخ أن ابنه طلب من النبي أن يأذن له بقتل أبيه، فلم يأذن له. {cite:assabile-omar-abdelkafy aadau-al-islam/ep03 00:23:00}
+ويذكر الشيخ أن النبي عرض على أهل عبد الله بن أبي كفنا (needs_source: لفظ هذه الجملة غير واضح في النسخة الآلية). {cite:assabile-omar-abdelkafy aadau-al-islam/ep03 00:24:00}
+ويذكر أن النبي قال إنه يستغفر له ولو تكرر الاستغفار كثيرا (needs_source: العدد غير واضح في النسخة الآلية)، ثم نزل النهي عن الصلاة على المنافقين. {cite:assabile-omar-abdelkafy aadau-al-islam/ep03 00:24:30} {cite:assabile-omar-abdelkafy aadau-al-islam/ep03 00:25:30}

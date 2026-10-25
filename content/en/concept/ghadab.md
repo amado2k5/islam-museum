@@ -16,3 +16,8 @@ Ibn Rajab draws from the repetition of the answer that anger is the sum of evil 
 He relates from Abu Amr ibn al-Salah, from Abu Muhammad ibn Abi Zayd, that "do not become angry" is one of four hadiths from which the branches of good manners spring. {cite:ibn-rajab-jami-ulum-hikam p.343-344}
 
 Among the definitions of good character according to Ahmad is "that you do not become angry and do not become harsh," and according to Ishaq ibn Rahawayh, "openness of countenance and not becoming angry." {cite:ibn-rajab-jami-ulum-hikam p.430}
+
+## Sheikh Omar Abdelkafy's account
+He says a person must master himself when desiring and when afraid, and fear only the One who created him. {cite:assabile-omar-abdelkafy aadau-al-islam/ep02 00:22:00}
+He says anger comes from Satan, and Satan was created from fire. {cite:assabile-omar-abdelkafy aadau-al-islam/ep02 00:23:00}
+He recounts the man who asked the Prophet for counsel and was told, "do not become angry", and urges imitating the forbearance of the Prophet, the Companions and the scholars. {cite:assabile-omar-abdelkafy aadau-al-islam/ep02 00:23:30}
