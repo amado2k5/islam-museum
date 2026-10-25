@@ -1,0 +1,37 @@
+---
+// Source Detective index (E4 step 5): every unit grouped by band.
+import BaseLayout from "../../../layouts/BaseLayout.astro";
+import { ui, LANGS, type Lang } from "../../../lib/i18n";
+import { loadDetective } from "../../../lib/detective";
+import { viewBands } from "../../../lib/edu";
+import "../../../styles/edu.css";
+
+export function getStaticPaths() { return LANGS.map((lang) => ({ params: { lang }, props: { lang } })); }
+const { lang } = Astro.props as { lang: Lang };
+const T = ui(lang);
+const S = T.shabab;
+const bands = viewBands(lang, T.kids);
+const units = loadDetective();
+const path = `/${lang}/shabab/detective/`;
+---
+<BaseLayout lang={lang} title={S.sb_detective} description={S.sb_detective_lede} path={path}>
+  <div class="wrap edu" style="padding-block:10px 24px">
+    <nav class="ui muted no-print" aria-label="breadcrumb"><a href={`/${lang}/shabab/`}>{S.sb_title}</a> › {S.sb_detective}</nav>
+    <h1>{S.sb_detective}</h1>
+    <p style="max-width:var(--measure)">{S.sb_detective_lede}</p>
+    {bands.map((b) => (
+      <section aria-labelledby={`dt-${b.id}`}>
+        <h2 id={`dt-${b.id}`} class="ui" style="font-size:1.15rem">{b.name}</h2>
+        <ul class="edu-adult">
+          {units.filter((u) => u.band === b.id).map((u) => (
+            <li>
+              <a href={`/${lang}/shabab/detective/${u.id}/`}>
+                <span><h3>{u.claim[lang]}</h3><p>{u.historians[lang].slice(0, 140)}…</p></span>
+              </a>
+            </li>
+          ))}
+        </ul>
+      </section>
+    ))}
+  </div>
+</BaseLayout>
