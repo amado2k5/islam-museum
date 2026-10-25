@@ -54,6 +54,7 @@ requires forking architecture.
    candidates reach `data/` via PR as `draft`.
 3. Unresolved refs → `data/_stubs.d/<lane>.yaml` (your own file).
 4. ≤25 entities per batch; `npm run coverage` in the same commit.
+5. Recordings (lectures, podcasts, videos) follow `docs/agents/audio-video-harvest.md`: timestamp anchors, transcripts outside git, checks by listening.
 
 ### 2.6 Add an API endpoint
 

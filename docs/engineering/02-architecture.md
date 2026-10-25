@@ -66,7 +66,7 @@ flowchart TB
     end
 
     subgraph Mac["Founder's Mac (offline)"]
-        H[scripts/harvest/<br/>Wikidata · Wikipedia · OpenITI<br/>Met · Pleiades · GeoNames]
+        H[scripts/harvest/<br/>Wikidata · Wikipedia · OpenITI<br/>Met · Pleiades · GeoNames · lectures]
         M[scripts/media/<br/>map renderer · briefs]
     end
 
