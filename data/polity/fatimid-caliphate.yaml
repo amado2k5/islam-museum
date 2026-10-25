@@ -48,6 +48,11 @@ provenance:
   model: claude-sonnet-5-5
   run: polity-wikidata-1, showcase-prose-phase2-egypt-batch4
 education:
+  did_you_know:
+    ar: "الدولة الفاطمية خلافة قامت سنة ٩٠٩م وانتهت سنة ١١٧١م، وعاصمتها القاهرة التي أسسوها."
+    en: "The Fatimid Caliphate ruled from 909 to 1171 CE; its capital was Cairo, the city it founded."
+    ur: "فاطمی خلافت 909ء سے 1171ء تک قائم رہی اور اس کا دارالحکومت قاہرہ تھا جسے اس نے بسایا۔"
+    sources: [source/khitat-maqrizi-1998, source/wikidata]
   levels: [sprouts, explorers, scholars]
   flagged_for_kids: true
   provenance: { generated_by: "Devin", model: "gemini-2.5-pro", run: "education-E2-batch2", note: "Leveled texts drafted from the record's own summary and prose; draft, pending the founder's review and scholar review of the child levels." }

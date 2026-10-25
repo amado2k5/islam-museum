@@ -42,6 +42,11 @@ provenance:
   model: claude-sonnet-5-5
   run: polity-wikidata-1
 education:
+  did_you_know:
+    ar: "الدولة العثمانية من سنة ١٢٩٩م إلى ١٩٢٢م وعاصمتها القسطنطينية."
+    en: "The Ottoman Empire lasted from 1299 to 1922, with its capital at Constantinople."
+    ur: "سلطنتِ عثمانیہ 1299ء سے 1922ء تک رہی اور اس کا دارالحکومت قسطنطنیہ تھا۔"
+    sources: [source/wikidata, source/dawlat-uthmaniyya-salabi]
   levels: [sprouts, explorers, scholars]
   flagged_for_kids: true
   provenance: { generated_by: "Devin", model: "gemini-2.5-pro", run: "education-E2-batch2", note: "Leveled texts drafted from the record's own summary and prose; draft, pending the founder's review and scholar review of the child levels." }

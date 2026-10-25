@@ -47,6 +47,11 @@ provenance:
   model: claude-sonnet-5-5
   run: polity-wikidata-1
 education:
+  did_you_know:
+    ar: "الخلافة العباسية من سنة ٧٥٠م إلى ١٢٥٨م، عاصمتها بغداد ثم القاهرة."
+    en: "The Abbasid Caliphate ran from 750 to 1258 CE, its capital Baghdad then Cairo."
+    ur: "عباسی خلافت 750ء سے 1258ء تک رہی، دارالحکومت بغداد پھر قاہرہ۔"
+    sources: [source/wikidata, source/encyclopaedia-of-islam-2]
   levels: [sprouts, explorers, scholars]
   flagged_for_kids: true
   provenance: { generated_by: "Devin", model: "gemini-2.5-pro", run: "education-E2-batch2", note: "Leveled texts drafted from the record's own summary and prose; draft, pending the founder's review and scholar review of the child levels." }

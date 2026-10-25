@@ -40,6 +40,11 @@ provenance:
   model: claude-sonnet-5-5
   run: building-wikidata-1
 education:
+  did_you_know:
+    ar: "آيا صوفيا بإسطنبول أُرِّخ بناؤها سنة ٥٣٢م، وصارت مع فتح القسطنطينية سنة ٨٥٧هـ مسجداً."
+    en: "Istanbul's Hagia Sophia, dated to 532 CE, became a mosque with the conquest of Constantinople in 857 AH."
+    ur: "استنبول کی آیا صوفیا 532ء میں تعمیر ہوئی اور 857ھ میں قسطنطنیہ کی فتح کے ساتھ مسجد بنی۔"
+    sources: [source/wikidata, source/shadharat-dhahab]
   levels: [sprouts, explorers, scholars]
   flagged_for_kids: true
   provenance: { generated_by: "Devin", model: "gemini-2.5-pro", run: "education-E2-batch3", note: "Leveled texts drafted from the record's own summary and prose; draft, pending the founder's review and scholar review of the child levels." }

@@ -13,6 +13,11 @@ sources: [source/wikidata]
 external_ids:
   wikidata: Q17050256
 education:
+  did_you_know:
+    ar: "الجيره عقد هندسية تبني نجوماً ومضلعات بخطوط متشابكة، شاعت في العمارة السلجوقية والصفوية."
+    en: "Girih are interlaced geometric knots building stars and polygons, widespread in Seljuk and Safavid architecture."
+    ur: "جیرہ متصل خطوط سے ستارے اور کثیر الاضلاع بنانے والے ہندسی عقدے ہیں جو سلجوقی اور صفوی عمارتوں میں عام ہیں۔"
+    sources: [source/wikidata, source/encyclopaedia-of-islam-2]
   levels: [sprouts, explorers, scholars]
   flagged_for_kids: true
   provenance: { generated_by: "Devin", model: "gemini-2.5-pro", run: "education-E2-batch2", note: "Leveled texts drafted from the record's own summary and prose; draft, pending the founder's review and scholar review of the child levels." }
@@ -20,3 +25,9 @@ status:
   review: draft
   completeness: 1
   generated_by: Devin (SWE-2 High), arts lane; via Wikidata, 2026-10-16
+provenance:
+  layer: own-research
+  source: "education fact engine batch 4 — did_you_know fact drafted in three languages from the record's own cited sources"
+  generated_by: Devin
+  model: "unknown"
+  run: "education-E3-facts-batch4"

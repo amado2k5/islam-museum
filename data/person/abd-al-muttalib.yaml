@@ -1,4 +1,10 @@
 id: person/abd-al-muttalib
+education:
+  did_you_know:
+    ar: "عبد المطلب جدّ النبي وكافله ومن كبار شيوخ قريش، يذكره التقليد بحفر بئر زمزم وقيادته مكة زمن حملة أبرهة."
+    en: "Abd al-Muttalib, the Prophet's grandfather and guardian and a leading Quraysh elder, is remembered for digging the Zamzam well and leading Mecca in Abraha's year."
+    ur: "عبدالمطلب نبی کے دادا اور کفیل اور قریش کے بڑے بزرگ تھے؛ زمزم کا کنواں کھودنے اور ابرہہ کے سال مکہ کی قیادت کے لیے یاد کیے جاتے ہیں۔"
+    sources: [source/ibn-ishaq-guillaume, source/watt-1953-mecca]
 class: person
 label: { en: Abd al-Muttalib ibn Hashim, ar: عبد المطلب بن هاشم }
 names:
@@ -37,3 +43,9 @@ external_ids:
   wikidata: Q380479
 sources: [source/ibn-ishaq-guillaume, source/ibn-sad-tabaqat-bewley, source/watt-1953-mecca, source/muruj-al-dhahab, source/mubarakpuri-raheeq, source/ibn-hisham-sira, source/talqih-fuhum-ahl-al-athr]
 status: { review: draft, completeness: 2, generated_by: "Devin; 2026-10-11" }
+provenance:
+  layer: own-research
+  source: "source/ibn-ishaq-guillaume"
+  generated_by: Devin
+  model: "unknown"
+  run: "education-E3-facts-batch5"

@@ -12,7 +12,18 @@ coordinate_precision: site
 external_ids: { wikidata: "Q406", geonames: "745044" }
 sources: [source/geonames-gazetteer]
 education:
+  did_you_know:
+    ar: "إسطنبول القسطنطينية سابقاً فتحها محمد الفاتح سنة ١٤٥٣م، فكانت عاصمة الدولة العثمانية."
+    en: "Istanbul, once Constantinople, was taken by Mehmed al-Fatih in 1453 CE and became the Ottoman capital."
+    ur: "استنبول پہلے قسطنطنیہ تھا جسے محمد فاتح نے 1453ء میں فتح کیا اور وہ عثمانی دارالحکومت بنا۔"
+    sources: [source/geonames-gazetteer, source/dawlat-uthmaniyya-salabi]
   levels: [sprouts, explorers, scholars]
   flagged_for_kids: true
   provenance: { generated_by: "Devin", model: "gemini-2.5-pro", run: "education-E2-batch3", note: "Leveled texts drafted from the record's own summary and prose; draft, pending the founder's review and scholar review of the child levels." }
 status: { review: draft, completeness: 1, generated_by: "Claude Sonnet 5.5; coordinates from GeoNames; descriptive facts to be checked against reference works" }
+provenance:
+  layer: own-research
+  source: "education fact engine batch 3 — did_you_know fact drafted in three languages from the record's own cited sources"
+  generated_by: Devin
+  model: "unknown"
+  run: "education-E3-facts-batch3"
