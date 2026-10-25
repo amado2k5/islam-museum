@@ -1,0 +1,35 @@
+id: person/riz-ahmed
+class: person
+label: { ar: "ريز أحمد", en: "Riz Ahmed", ur: "رض احمد" }
+names:
+  - { value: "Rizwan Ahmed", kind: full }
+  - { value: "رضوان أحمد", kind: full }
+gender: male
+summary:
+  ar: "ممثل ورابر بريطاني من أصل باكستاني، وُلد في ويمبلي بلندن سنة 1982؛ أول مسلم وأول جنوب آسيوي يفوز بجائزة إيمي لأفضل ممثل رئيسي عن «ليلة من» (2016)، ورُشّح للأوسكار عن «صوت المعدن» (2019)، وفاز فيلمه القصير «الوداع الطويل» بجائزة الأوسكار، وهو من أبرز الأصوات في قضية تمثيل المسلمين على الشاشة حتى سُمّي «اختبار ريز» على اسمه."
+  en: "British actor and rapper of Pakistani origin, born in Wembley, London, in 1982. He was the first Muslim and first South Asian to win a lead-acting Emmy, for The Night Of (2016), was Oscar-nominated for Sound of Metal (2019), won the Academy Award for his short film The Long Goodbye, and is a leading voice on the screen representation of Muslims, with the 'Riz Test' named after him."
+  ur: "پاکستانی نژاد برطانوی اداکار و ریپر، 1982 میں ویمبلی، لندن میں پیدا ہوئے؛ «دی نائٹ آف» (2016) پر مرکزی اداکاری کا ایمی جیتنے والے پہلے مسلمان اور پہلے جنوبی ایشیائی، «ساؤنڈ آف میٹل» (2019) پر آسکر کے لیے نامزد، ان کی مختصر فلم «دی لانگ گڈ بائی» نے اکیڈمی ایوارڈ جیتا، اور پردے پر مسلمانوں کی نمائندگی کے نمایاں ترین وکلا میں سے ایک ہیں جن کے نام پر «رض ٹیسٹ» رکھا گیا۔"
+roles: [actor, rapper]
+wings: [people, living]
+born:
+  edtf: "1982-12-01"
+  hijri: "1403"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "Born on 1 December 1982 in Wembley, London (English article and Wikidata agree). No place entity for Wembley or London exists in data/place/, so no born_in relation is written. The Hijri year (1403) is derived by tabular conversion."
+  sources: [source/wikipedia-riz-ahmed-en, source/wikidata-riz-ahmed]
+faith:
+  - value: unknown
+    basis: unknown
+    note: "No source names a school for him. The English article calls him 'a practicing Muslim' who 'has spoken candidly about negative stereotyping of Muslims' — practice and advocacy, which under the counting rule are not a school attestation. Wikidata gives his religion as Islam (Q432) generically. His public statements on his faith and on Muslim representation are carried attributed in the prose as his stance, not as a segment."
+    sources: [source/wikipedia-riz-ahmed-en, source/wikidata-riz-ahmed]
+external_ids: { wikidata: "Q1861917" }
+sources: [source/wikipedia-riz-ahmed-en, source/wikipedia-riz-ahmed-ar, source/wikipedia-riz-ahmed-ur, source/wikidata-riz-ahmed]
+provenance:
+  layer: own-research
+  source: "English Wikipedia 'Riz Ahmed' (revision 1380736485 of 17 October 2026), Arabic Wikipedia «ريز أحمد» (revision 76985111 of 16 October 2026), Urdu Wikipedia «رض احمد» (revision 11611487 of 18 July 2026, a stub) and Wikidata Q1861917 (confirmed via the Wikidata API: human, born 1 December 1982 at Wembley, spouse Fatima Farheen Mirza, religion Islam generically), checked 25 October 2026. No earlier record for him existed in data/person/ under any spelling; this is a new build, not an enrichment."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: century-additions-10
+status: { review: published, completeness: 3, generated_by: "Muse (Muse Spark 1.3)" }
