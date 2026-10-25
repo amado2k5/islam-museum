@@ -21,6 +21,11 @@ sources:
 - source/fiqh-mawsua-kuwaitiyya-noor-v3
 - source/wikidata
 education:
+  did_you_know:
+    ar: "عيد الفطر أول شوال: صلاة العيد وزكاة الفطر قبلها، ثم الولائم والزيارات — أكبر موسم احتفالي عام في العالم الإسلامي."
+    en: "Eid al-Fitr opens Shawwal: the festival prayer and zakat al-fitr beforehand, then feasts and visits — the biggest common festival season in the Muslim world."
+    ur: "عید الفطر یکم شوال کو ہے: عید کی نماز اور اس سے پہلے زکوٰۃ الفطر، پھر ضیافتیں اور ملاقاتیں — اسلامی دنیا کا سب سے بڑا عام تہوار۔"
+    sources: [source/fiqh-mawsua-kuwaitiyya-noor-v3, source/wikidata]
   levels: [sprouts, explorers, scholars]
   flagged_for_kids: true
   provenance: { generated_by: "Devin", model: "gemini-2.5-pro", run: "education-E2-batch2", note: "Leveled texts drafted from the record's own summary and prose; draft, pending the founder's review and scholar review of the child levels." }
@@ -28,3 +33,9 @@ status:
   review: draft
   completeness: 3
   generated_by: Devin (SWE-2 High), culture lane; existence/year via Wikidata, 2026-10-16
+provenance:
+  layer: own-research
+  source: "education fact engine batch 3 — did_you_know fact drafted in three languages from the record's own cited sources"
+  generated_by: Devin
+  model: "unknown"
+  run: "education-E3-facts-batch3"
