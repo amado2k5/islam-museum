@@ -18,3 +18,8 @@ Al-Salabi relates that during the siege the amirs and viziers gathered before th
 
 ## Notes for researchers
 - All the reports here come from one source, and the dates of birth and death are conventional; they need an additional source.
+
+## Encyclopaedia of Islam account
+The Encyclopaedia of Islam (2nd ed.), article signed H. J. Kissling, describes Ak Shams al-Din (Muhammad Shams al-Milla wa'l-Din) as a saint of the Bayramiyya and the discoverer of the tomb of Abu Ayyub al-Ansari near Constantinople. He was the son of Hamza, who won fame in Syria as a worker of miracles and died in the district of Kawak near Amasya. He was born at Damascus in 792/1389–90 and came with his parents to Kawak in 799/1396–7. His father died when he was seven, and he studied theology. He later became a müderris at Osmancik, but was not satisfied with the rational outlook of orthodox Islam and sought a spiritual guide, travelling to Persia and Transoxania. {cite:encyclopaedia-of-islam-2 vol. 1 p. 334}
+
+About 830/1426–7 he turned to Hadji Bayram, who appointed him his successor (khalifa). His later activities as a shaykh and healer were at Begbazar, west of Ankara, at Isklib and at Goynuk. Between 851/1447–8 and 855/1451–2 he was called to Adrianople to treat Sulayman Celebi, kadi 'asker of Murad II. He took part in the conquest of Constantinople as a preacher; a later legend has him discovering the tomb of Abu Ayyub, and he healed a daughter of Mehmed II. He died at Goynuk at the end of Rabi' II 863/1459. He had seven, or by other accounts twelve, sons, the most important the poet Hamdi. A quarrel between him and some companions caused a great secession of the Malamatiyya, which hampered the whole order. {cite:encyclopaedia-of-islam-2 vol. 1 p. 334}

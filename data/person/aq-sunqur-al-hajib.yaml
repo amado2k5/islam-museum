@@ -2,24 +2,23 @@ id: person/aq-sunqur-al-hajib
 class: person
 label:
   ar: "آق سنقر الحاجب"
-  en: "Aq Sunqur al-Hajib"
+  en: "Aq Sunqur al-Hajib (Seljuk governor of Aleppo, d. 1094)"
+names:
+  - { kind: full, lang: ar, value: "آق سنقر بن عبد الله، قاسم الدولة، الحاجب" }
 roles: [military, ruler]
 gender: male
+died: { edtf: "1094~", calendar: julian, precision: year, status: tradition, derived: true, note: "Defeated by Tutush near Aleppo in Jumada I 487/May 1094, EI2.", sources: [source/encyclopaedia-of-islam-2] }
 summary:
-  ar: "بطاقة أولية لآق سنقر الحاجب، الأمير السلجوقي صاحب حلب في عهد ملك شاه الذي ربّى تتش وعهد إليه بأنطاكية، توفي سنة ١٠٩٤م؛ يذكره ابن الأثير في حوادث عصره ولم تُراجع ترجمته على الصفحة بعد."
-  en: "Draft card for Aq Sunqur al-Hajib, the Seljuk amir holding Aleppo under Malik Shah who raised Tutush and governed Antioch, d. 1094; Ibn al-Athir's annals not yet checked on the page."
+  ar: "آق سنقر الحاجب، مملوك ملكشاه السلجوقي، ولاه حلب سنة 480هـ/1087م، وأيّد تتش في محاولته الاستقرار في الشام، ثم انضم إلى بركيارق بعد وفاة ملكشاه، فهزمه تتش قرب حلب في جمادى الأولى 487هـ/مايو 1094م، وكان أبًا لزنكي صاحب الموصل فيما بعد {cite:encyclopaedia-of-islam-2 vol. 1 p. 336}."
+  en: "Aq Sunqur al-Hajib, a mamluk of Malik-shah who appointed him governor of Aleppo in 480/1087. He first supported Tutush's attempt to establish himself in Syria, but after Malik-shah's death he joined Barkiyaruk, and Tutush defeated him near Aleppo in May 1094. He was the father of Zangi, later atabeg of Mosul, and was praised for his justice {cite:encyclopaedia-of-islam-2 vol. 1 p. 336}."
 wings: [people]
 regions: [levant-iraq]
 periods: [period/buyid-seljuk-fatimid-era]
-sources: [source/kamil-ibn-al-athir]
+sources: [source/kamil-ibn-al-athir, source/encyclopaedia-of-islam-2]
 external_ids:
   wikidata: Q622698
 provenance:
   layer: own-research
-  source: "Wikidata candidate; book source: Ibn al-Athir, al-Kamil — entry not yet read on the page"
-  generated_by: "Devin (SWE-2 High)"
-  model: "SWE-2 High"
-  run: wikidata-import-0017
-status:
-  review: draft
-  completeness: 1
+  source: "Encyclopaedia of Islam, 2nd ed. (Brill), vol. 1, PDF p. 336, article 'Ak Sunkur' signed H. A. R. Gibb (entry 1; entry 2 'Ak Sunkur al-Ahmadili' is a cross-reference) (EI2 enrichment, batch ei2-b003 part 3cv); Wikidata Q622698 for the identifier"
+  generated_by: "Claude Code (claude-haiku-5-5)"
+status: { review: published, completeness: 2 }
