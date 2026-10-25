@@ -6,6 +6,9 @@ It complements — and never restates — the product plan in
 [`docs/plan/`](../plan/00-README.md), which remains the source of truth for
 vision, content model, editorial policy and roadmap.
 
+Founded and owned by [Ahmed Abdel Aal](https://www.linkedin.com/in/ahmadit2017/),
+a Canadian of Egyptian origin, resident in Oakville, Ontario (`@amado2k5`).
+
 | Doc | Contents | Audience |
 |---|---|---|
 | [01 · Business requirements](01-business-requirements.md) | Vision, stakeholders, functional and non-functional requirements, scope, success metrics | Everyone |
