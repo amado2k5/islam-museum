@@ -931,3 +931,37 @@ describe("E4 step 3 — teen topic pages (60s, practice, glossary)", () => {
     expect(comp).toContain("data-why");
   });
 });
+
+describe("E4 step 4 — edu/dilemmas/*.yaml (decision cards)", () => {
+  it("every dilemma loads: real band, trilingual decision/context/reflection, ≥2 positions each with holder, stance, evidence and ≥1 real source id", async () => {
+    const { loadDilemmas } = await import("../site/src/lib/dilemmas.ts");
+    const dilemmas = loadDilemmas();
+    expect(dilemmas.length).toBeGreaterThanOrEqual(30);
+    for (const d of dilemmas) {
+      expect(["scholars", "researchers"]).toContain(d.band);
+      expect(d.positions.length).toBeGreaterThanOrEqual(2);
+      for (const p of d.positions) expect(p.sources.length).toBeGreaterThanOrEqual(1);
+    }
+  });
+  it("no position is scored: no verdict/winner/correct field anywhere in the data or the page", () => {
+    const BAN = /"?(verdict|winner|correct)"?:/i;
+    for (const f of readdirSync("edu/dilemmas")) {
+      const raw = readFileSync(`edu/dilemmas/${f}`, "utf8");
+      expect(BAN.test(raw), f).toBe(false);
+    }
+    const page = readFileSync("site/src/components/Dilemma.astro", "utf8");
+    expect(BAN.test(page)).toBe(false);
+  });
+  it("the new shabab strings exist in all three languages", () => {
+    const keys = ["sb_positions", "sb_evidence", "sb_sources", "sb_you_decide", "sb_reflect_hint", "sb_saved"];
+    for (const l of ["ar", "en", "ur"]) {
+      const d = parse(readFileSync(`i18n/${l}.yaml`, "utf8")).shabab;
+      for (const k of keys) expect(typeof d[k] === "string" && d[k].length > 0, `${l}.${k}`).toBe(true);
+    }
+  });
+  it("no typed honorifics or Qur'an text in the dilemma data", () => {
+    const HON = new RegExp("(صلى الله عليه|عليه السلام|رضي الله عنه|رحمه الله|\\uFDFA|\\uFDFF|\\u06D6)");
+    for (const f of readdirSync("edu/dilemmas"))
+      expect(HON.test(readFileSync(`edu/dilemmas/${f}`, "utf8")), f).toBe(false);
+  });
+});
