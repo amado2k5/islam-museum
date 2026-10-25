@@ -1,0 +1,49 @@
+id: person/qasim-amin
+class: person
+label: { ar: "قاسم أمين", en: "Qasim Amin", ur: "قاسم امین" }
+names:
+  - { value: "قاسم أمين", kind: full }
+  - { value: "Qasim Amin", kind: full }
+gender: male
+summary:
+  ar: "قاضٍ وكاتب مصري (1863–1908) وأحد مؤسسي الحركة الوطنية المصرية وجامعة القاهرة؛ اشتهر بكتابيه «تحرير المرأة» (1899) و«المرأة الجديدة» (1900) اللذين دعا فيهما إلى تعليم المرأة ورفع الحجاب وإصلاح قوانين الزواج والطلاق، فأثارا جدلًا واسعًا ما زال مستمرًا حول مكانته بوصفه من أوائل المدافعين عن حقوق المرأة في العالم العربي."
+  en: "Egyptian jurist and writer (1863–1908), a founder of the Egyptian national movement and of Cairo University. He is best known for The Liberation of Women (1899) and The New Woman (1900), which argued for women's education, the abolition of the veil and reform of marriage and divorce law, and which ignited a debate — still running — over his standing as one of the Arab world's first advocates of women's rights."
+  ur: "مصری قاضی اور مصنف (1863–1908)، مصری قومی تحریک اور جامعہ قاہرہ کے بانیوں میں سے ایک؛ اپنی دو کتابوں «تحریر المرأة» (1899) اور «المرأة الجديدة» (1900) کے لیے مشہور، جن میں انہوں نے خواتین کی تعلیم، حجاب کے خاتمے اور شادی و طلاق کے قوانین کی اصلاح کی دعوت دی، اور جن پر آج تک بحث جاری ہے۔"
+roles: [jurist, judge, writer, reformer]
+wings: [people]
+born:
+  edtf: "1863-12-01"
+  hijri: "1280"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "Gregorian date and Alexandria birthplace from English and Arabic Wikipedia and Wikidata Q740282. The Hijri year (1280) is derived by tabular conversion."
+  sources: [source/wikipedia-qasim-amin-en, source/wikipedia-qasim-amin-ar, source/wikidata-qasim-amin]
+died:
+  edtf: "1908-04-23"
+  hijri: "1326"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "Date (23 April 1908, at Cairo) from Arabic Wikipedia and Wikidata Q740282. The English article's lead gives 12 April 1908 — the discrepancy is recorded here and in both Wikipedia source entities. The Hijri year (1326) is derived by tabular conversion."
+  sources: [source/wikipedia-qasim-amin-ar, source/wikidata-qasim-amin, source/wikipedia-qasim-amin-en]
+relations:
+  - { type: born_in, target: place/alexandria, sources: [source/wikipedia-qasim-amin-en, source/wikipedia-qasim-amin-ar] }
+  - { type: died_in, target: place/cairo, sources: [source/wikipedia-qasim-amin-ar, source/wikidata-qasim-amin] }
+  - { type: lived_in, target: place/cairo, sources: [source/wikipedia-qasim-amin-en] }
+  - { type: student_of, target: person/muhammad-abduh, sources: [source/wikipedia-qasim-amin-en, source/wikipedia-qasim-amin-ar] }
+faith:
+  - value: unknown
+    basis: unknown
+    note: "Neither Wikipedia article names a school for him; Wikidata records his religion as Islam (Q432) only. His Islamic-modernist positions are described in the prose, attributed; a reform programme is not a school attestation, so the value stays unknown with what the sources give recorded here."
+    sources: [source/wikipedia-qasim-amin-en, source/wikipedia-qasim-amin-ar, source/wikidata-qasim-amin]
+external_ids: { wikidata: "Q740282" }
+sources: [source/wikipedia-qasim-amin-en, source/wikipedia-qasim-amin-ar, source/wikidata-qasim-amin]
+provenance:
+  layer: own-research
+  source: "English Wikipedia (revision 1380784547), Arabic Wikipedia (revision 76322621) and Wikidata Q740282, checked 24 October 2026"
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: century-additions-4
+status: { review: published, completeness: 3, generated_by: "Muse (Muse Spark 1.3)" }

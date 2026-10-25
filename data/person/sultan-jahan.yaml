@@ -1,0 +1,46 @@
+id: person/sultan-jahan
+class: person
+label: { ar: "سلطان جهان، بيغوم بوبال", en: "Sultan Jahan, Begum of Bhopal", ur: "سلطان جہاں، بیگم بھوپال" }
+names:
+  - { value: "سلطان كايخسرو جهان بيغوم", kind: full }
+  - { value: "Sultan Kaikhusrau Jahan Begum", kind: full }
+  - { value: "Sarkar Amman", kind: alternate }
+gender: female
+summary:
+  ar: "حاكمة إمارة بوبال الإسلامية في وسط الهند (1901–1926)، وثالثة ورابع نساء أسرة البيغومات اللواتي حكمن بوبال؛ أصلحت التعليم والصحة والقضاء والإدارة، وجعلت التعليم الابتدائي مجانيًا وإلزاميًا سنة 1918، وكانت أول مستشارة (رئيسة) لجامعة عليكرة الإسلامية من 1920 حتى وفاتها، وألّفت كتبًا في التربية والصحة وشؤون المرأة، ثم تنازلت عن العرش لابنها حميد الله خان سنة 1926."
+  en: "Ruler of the Islamic principality of Bhopal in central India (1901–1926), of the line of Begums who governed Bhopal. She reformed education, health, the judiciary and administration, made primary education free and compulsory in 1918, served as founding Chancellor of Aligarh Muslim University from 1920 until her death — the only woman to have held that office — wrote books on education, health and women's questions, and abdicated in 1926 in favour of her son Hamidullah Khan."
+  ur: "وسط ہندوستان کی مسلم ریاست بھوپال کی حکمران (1901–1926)، بیگمات کی اس نسل سے جنہوں نے بھوپال پر حکومت کی۔ انہوں نے تعلیم، صحت، عدلیہ اور انتظام میں اصلاحات کیں، 1918 میں ابتدائی تعلیم مفت اور لازمی قرار دی، 1920 سے وفات تک علی گڑھ مسلم یونیورسٹی کی بانی چانسلر رہیں، تعلیم و صحت پر کتابیں لکھیں، اور 1926 میں اپنے بیٹے حمید اللہ خان کے حق میں تخت سے دستبردار ہو گئیں۔"
+roles: [ruler, writer, reformer]
+wings: [people]
+born:
+  edtf: "1858-07-09"
+  hijri: "1274"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "Gregorian date and Bhopal birthplace from English Wikipedia and Wikidata Q2364774. Bhopal has no place entity in the museum yet, so no born_in relation is written. The Hijri year (1274) is derived by tabular conversion."
+  sources: [source/wikipedia-sultan-jahan-en, source/wikidata-sultan-jahan]
+died:
+  edtf: "1930-05-12"
+  hijri: "1348"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "Gregorian date and Bhopal place of death from English Wikipedia and Wikidata Q2364774; no place entity exists for Bhopal, so no died_in relation is written. The Hijri year (1348) is derived by tabular conversion."
+  sources: [source/wikipedia-sultan-jahan-en, source/wikidata-sultan-jahan]
+relations: []
+faith:
+  - value: unknown
+    basis: unknown
+    note: "English Wikipedia names no school for her and there is no Arabic article; Wikidata records her religion as Islam (Q432) only. She ruled a Muslim principality and wrote on Muslim women's life, but a ruler's state and subjects are not a personal school attestation, so the value stays unknown with what the sources give recorded here."
+    sources: [source/wikipedia-sultan-jahan-en, source/wikidata-sultan-jahan]
+external_ids: { wikidata: "Q2364774" }
+sources: [source/wikipedia-sultan-jahan-en, source/wikidata-sultan-jahan]
+provenance:
+  layer: own-research
+  source: "English Wikipedia (revision 1373471307) and Wikidata Q2364774, checked 24 October 2026; no Arabic Wikipedia article exists for her"
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: century-additions-4
+status: { review: published, completeness: 3, generated_by: "Muse (Muse Spark 1.3)" }
