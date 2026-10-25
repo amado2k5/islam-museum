@@ -37,20 +37,27 @@ const untranslated = !!prose && proseLang !== lang;
 const brief = prose?.sections.find((s) => sectionRole(s.heading) === "brief");
 
 // --- dates for the header line
+// Machine-readable form for <time datetime>: only a plain EDTF date/year qualifies;
+// approximations (~), uncertainty (?) and intervals stay text-only (HTML datetime can't express them).
+// datetime is proleptic Gregorian, so Julian-marked dates are also left as text
+// (same rule as dates.ts: no calendar declared means Julian before 1583).
+const machineDate = (d: any): string | undefined => {
+  const e = d?.edtf;
+  if (!e || !/^-?\d{1,4}(-\d{2}(-\d{2})?)?$/.test(e)) return undefined;
+  const y = Number(e.match(/^-?\d{1,4}/)![0]);
+  const cal = d.calendar ?? (y < 1583 ? "julian" : "gregorian");
+  return cal === "gregorian" ? e : undefined;
+};
 const dateLine = (() => {
-  if (n.class === "person") {
-    const b = formatDate(d.born, lang), e = formatDate(d.died, lang);
-    return { text: [b.text, e.text].filter(Boolean).join(" – "), derived: b.derived || e.derived };
-  }
-  if (n.class === "event") {
-    const s = formatDate(d.date?.start, lang), e = formatDate(d.date?.end, lang);
-    return { text: [s.text, e.text].filter(Boolean).join(" – "), derived: s.derived || e.derived };
-  }
-  if (n.class === "period" || n.class === "polity") {
-    const s = formatDate(d.start, lang), e = formatDate(d.end, lang);
-    return { text: [s.text, e.text].filter(Boolean).join(" – "), derived: s.derived || e.derived };
-  }
-  return { text: "", derived: false };
+  const pair = (a: any, b: any) => {
+    const s = formatDate(a, lang), e = formatDate(b, lang);
+    const parts = [{ text: s.text, dt: machineDate(a) }, { text: e.text, dt: machineDate(b) }].filter((p) => p.text);
+    return { parts, derived: s.derived || e.derived };
+  };
+  if (n.class === "person") return pair(d.born, d.died);
+  if (n.class === "event") return pair(d.date?.start, d.date?.end);
+  if (n.class === "period" || n.class === "polity") return pair(d.start, d.end);
+  return { parts: [], derived: false };
 })();
 
 const places = placesOf(n.id);
@@ -138,7 +145,7 @@ const showGraph = n.degree > 0 && !(n.class === "passage" && d.unit === "ayah" &
         ))}</p>
       )}
       {second &&<p class="display" lang={lang === "ar" ? "en" : "ar"} dir={lang === "ar" ? "ltr" : "rtl"} style={`font-size:clamp(1.3rem,3vw,1.9rem);margin:0 0 6px;font-family:${lang === "ar" ? "var(--serif)" : "var(--ar-display)"};color:#e6d5b8`} data-pagefind-ignore>{second}</p>}
-      {dateLine.text && <p class="ui" style="margin:0 0 6px;color:#e6d5b8">{dateLine.text}{dateLine.derived && <span title={T.entity.derived}> †</span>}</p>}
+      {dateLine.parts.length > 0 && <p class="ui" style="margin:0 0 6px;color:#e6d5b8">{dateLine.parts.map((p, i) => <>{i > 0 && " – "}{p.dt ? <time datetime={p.dt}>{p.text}</time> : p.text}</>)}{dateLine.derived && <span title={T.entity.derived}> †</span>}</p>}
       {dateLine.derived && <p class="ui" style="margin:0 0 6px;font-size:.85rem;color:#c9d3d6">{T.entity.dagger}</p>}
       {places.length > 0 && <p class="ui" style="margin:0 0 10px">{places.map((p, i) => <><a class="chip" href={href(lang, p.id)}>{labelOf(p, lang)}</a>{i < places.length - 1 ? " → " : ""}</>)}</p>}
       {ledeHtml && <p class="page-lede" data-pagefind-meta="summary" set:html={ledeHtml} />}

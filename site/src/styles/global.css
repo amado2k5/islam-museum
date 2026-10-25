@@ -453,9 +453,10 @@ html[lang="en"] .jp-label { font-family: var(--sans); font-size: 2.8px; }
 .jp-bar { display: flex; align-items: center; gap: 12px; padding: 10px 14px; border-top: 1px solid var(--line); background: var(--panel); }
 .jp-play { width: 42px; height: 42px; border-radius: 50%; border: 0; background: var(--gold); color: #0a2533; font-size: 1rem; cursor: pointer; flex: none; }
 .jp-ticks { display: flex; gap: 6px; flex: 1; }
-.jp-ticks button { flex: 1; height: 10px; min-width: 14px; border: 0; border-radius: 999px; background: color-mix(in srgb, var(--fg) 18%, transparent); cursor: pointer; padding: 0; }
-.jp-ticks button[aria-selected="true"] { background: var(--gold); }
-.jp-ticks button:hover { background: var(--lapis); }
+.jp-ticks button { flex: 1; height: 24px; min-width: 24px; border: 0; border-radius: 999px; background: transparent; cursor: pointer; padding: 7px 0; }
+.jp-ticks button::before { content: ""; display: block; width: 100%; height: 10px; border-radius: 999px; background: color-mix(in srgb, var(--fg) 18%, transparent); }
+.jp-ticks button[aria-selected="true"]::before { background: var(--gold); }
+.jp-ticks button:hover::before { background: var(--lapis); }
 .jp-list-link { font-size: .9rem; white-space: nowrap; }
 .jp-ol { padding-inline-start: 1.3rem; margin: 0; } .jp-ol li { margin: 0 0 .7rem; }
 :root[data-theme="dark"] .jp-map { background: #2a2a2a; }
