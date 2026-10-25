@@ -1,0 +1,37 @@
+id: person/ozlem-tureci
+class: person
+label: { ar: "أوزليم توريتشي", en: "Özlem Türeci", ur: "اوزلم تورےچی" }
+names:
+  - { value: "أوزليم توريتشي", kind: full }
+  - { value: "Özlem Türeci", kind: full }
+gender: female
+summary:
+  ar: "طبيبة مناعة ألمانية من أصل تركي، وُلدت في زيغن سنة 1967 لأبوين مهاجرين تركيين، وشاركت زوجها أوغور شاهين وكريستوف هوبر في تأسيس شركتي غانيميد (2001) وبيوأنتك (2008)، وقادت بوصفها الرئيسة الطبية لبيوأنتك التطوير السريري للقاح BNT162b2، أول لقاح بتقنية الحمض النووي الريبي المرسال يُعتمد للاستعمال البشري، وهي أستاذة العلاج المناعي الشخصي في معهد هاي-ترون وجامعة ماينز منذ 2021."
+  en: "Turkish-German physician and immunologist, born in Siegen in 1967 to Turkish immigrant parents, who co-founded Ganymed Pharmaceuticals (2001) and BioNTech (2008) with her husband Uğur Şahin and Christoph Huber, led the clinical development of BNT162b2 — the first mRNA vaccine approved for human use — as BioNTech's chief medical officer, and has been Professor of Personalized Immunotherapy at HI-TRON and Johannes Gutenberg University Mainz since 2021."
+  ur: "ترک نژاد جرمن ماہرِ امیونولوجی، جو 1967 میں زیگن میں ترک مہاجر والدین کے گھر پیدا ہوئیں، جنہوں نے اپنے شوہر اوغور شاہین اور کرسٹوف ہوبر کے ساتھ گینی میڈ (2001) اور بائیو این ٹیک (2008) قائم کیں، بائیو این ٹیک کی چیف میڈیکل آفیسر کی حیثیت سے BNT162b2 کی کلینیکل تیاری کی قیادت کی، جو انسانی استعمال کے لیے منظور ہونے والی پہلی ایم آر این اے ویکسین بنی، اور 2021 سے ہائی-ٹرون اور یونیورسٹی آف مائنز میں پرسنلائزڈ امیونوتھراپی کی پروفیسر ہیں۔"
+roles: [immunologist]
+wings: [people, living]
+born:
+  edtf: "1967-03-06"
+  hijri: "1386"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "Gregorian date and Siegen birthplace from the English and Turkish Wikipedia articles and Wikidata Q92379963. The Arabic article gives her birthplace as Cloppenburg, where her father worked at the Catholic St. Elisabeth hospital in Lastrup; the discrepancy is recorded here and Siegen follows the two articles and Wikidata. Siegen has no place entity in the museum yet, so no born_in relation is written. The Hijri year (1386) is derived by tabular conversion."
+  sources: [source/wikipedia-ozlem-tureci-en, source/wikipedia-ozlem-tureci-tr, source/wikipedia-ozlem-tureci-ar, source/wikidata-ozlem-tureci]
+relations:
+  - { type: spouse_of, target: person/ugur-sahin, sources: [source/wikipedia-ozlem-tureci-en, source/wikipedia-ozlem-tureci-tr] }
+faith:
+  - value: unknown
+    basis: unknown
+    note: "No source consulted names a religion or a school of Islam for her: Wikidata records no religion, and neither the English, Turkish nor Arabic article names one. The articles describe her childhood admiration for the nuns at her father's Catholic hospital — an inspiration for studying medicine, not a faith attestation. Not recorded until two independent sources name a school."
+    sources: [source/wikipedia-ozlem-tureci-en, source/wikipedia-ozlem-tureci-ar, source/wikidata-ozlem-tureci]
+external_ids: { wikidata: "Q92379963" }
+sources: [source/wikipedia-ozlem-tureci-en, source/wikipedia-ozlem-tureci-tr, source/wikipedia-ozlem-tureci-ar, source/wikidata-ozlem-tureci]
+provenance:
+  layer: own-research
+  source: "English, Turkish and Arabic Wikipedia articles on Özlem Türeci and Wikidata Q92379963; checked 24 October 2026"
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: century-additions-3
+status: { review: published, completeness: 3, generated_by: "Muse (Muse Spark 1.3)" }
