@@ -13,11 +13,11 @@ lists' own order. Status markers: [ ] queued · [~] in a writer's hands · [x] m
 - [x] Abdus Salam — 1926–1996
 - [x] Azim Premji — 1945–Living
 - [x] Muhammad Yunus — 1940–Living
-- [~] Shirin Ebadi — 1947–Living
-- [~] Tawakkol Karman — 1979–Living
-- [~] Naguib Mahfouz — 1911–2006
-- [~] Orhan Pamuk — 1952–Living
-- [~] Aziz Sancar — 1946–Living
+- [x] Shirin Ebadi — 1947–Living
+- [x] Tawakkol Karman — 1979–Living
+- [x] Naguib Mahfouz — 1911–2006
+- [x] Orhan Pamuk — 1952–Living
+- [x] Aziz Sancar — 1946–Living
 - [x] Fazlur Rahman Khan — 1929–1982
 - [x] Zaha Hadid — 1950–2016
 - [x] Mostafa El-Sayed — 1933–Living

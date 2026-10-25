@@ -1,0 +1,47 @@
+id: person/naguib-mahfouz
+class: person
+label: { ar: "نجيب محفوظ", en: "Naguib Mahfouz", ur: "نجیب محفوظ" }
+names:
+  - { value: "نجيب محفوظ عبد العزيز إبراهيم أحمد الباشا", kind: full }
+  - { value: "Naguib Mahfouz Abdelaziz Ibrahim Ahmed Al-Basha", kind: full }
+gender: male
+summary:
+  ar: "روائي مصري، وُلد في القاهرة سنة 1911 وتوفي فيها سنة 2006، عمل موظفا حكوميا بالتوازي مع الكتابة، وألّف أكثر من ثلاثين رواية ومئات القصص القصيرة جعلت من الحارة القاهرية صورة مصغرة للعالم، ونال جائزة نوبل في الأدب سنة 1988 فكان المصري الوحيد والعربي الوحيد حتى اليوم الذي نالها في الأدب، ونجا من محاولة اغتيال سنة 1994 على خلفية الجدل حول روايته «أولاد حارتنا»."
+  en: "Egyptian novelist, born in Cairo in 1911 and died there in 2006. He worked as a civil servant alongside his writing and produced more than thirty novels and hundreds of short stories that made the Cairo lane a microcosm of the world. He received the 1988 Nobel Prize in Literature — still the only Egyptian and the only Arab to win it in literature — and survived a 1994 assassination attempt driven by the controversy over his novel Children of Gebelawi."
+  ur: "مصری ناول نگار، جو 1911 میں قاہرہ میں پیدا ہوئے اور 2006 میں وہیں وفات پائی۔ انہوں نے ملازمت کے ساتھ ساتھ لکھا اور تیس سے زائد ناول اور سینکڑوں افسانے تخلیق کیے جن میں قاہرہ کی گلی دنیا کی تصویر بن گئی۔ انہیں 1988 میں ادب کا نوبل انعام ملا — وہ یہ انعام پانے والے واحد مصری اور واحد عرب ادیب ہیں — اور 1994 میں اپنے ناول «اولاد حارتنا» کے تنازعے سے جڑے قاتلانہ حملے میں بچ گئے۔"
+roles: [novelist, screenwriter, playwright]
+wings: [people]
+born:
+  edtf: "1911-12-11"
+  hijri: "1329"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "Gregorian date and Cairo birthplace from English Wikipedia, the Nobel Prize facts page and Wikidata Q7176; the Hijri year (1329) is derived by tabular conversion."
+  sources: [source/wikipedia-naguib-mahfouz-en, source/nobelprize-naguib-mahfouz-facts, source/wikidata-naguib-mahfouz]
+died:
+  edtf: "2006-08-30"
+  hijri: "1427"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "Gregorian date from English Wikipedia, the Nobel Prize facts page and Wikidata Q7176; English Wikipedia places the death in Agouza, Giza, while the Nobel facts page gives Cairo; the Hijri year (1427) is derived by tabular conversion."
+  sources: [source/wikipedia-naguib-mahfouz-en, source/nobelprize-naguib-mahfouz-facts, source/wikidata-naguib-mahfouz]
+relations:
+  - { type: born_in, target: place/cairo, sources: [source/wikipedia-naguib-mahfouz-en, source/nobelprize-naguib-mahfouz-facts] }
+  - { type: lived_in, target: place/cairo, sources: [source/wikipedia-naguib-mahfouz-en, source/nobelprize-naguib-mahfouz-facts] }
+faith:
+  - value: unknown
+    basis: unknown
+    note: "No source consulted names a school. English Wikipedia describes a lower-middle-class Muslim family and, in his own recollection, a strict Islamic upbringing — family background, not a school attestation; the Arabic articles give no school (a Moroccan-dialect edition's infobox gives his religion as Islam only), and the Nobel Prize facts page gives no religion."
+    sources: [source/wikipedia-naguib-mahfouz-en, source/wikipedia-naguib-mahfouz-ar, source/nobelprize-naguib-mahfouz-facts]
+external_ids: { wikidata: "Q7176" }
+sources: [source/wikipedia-naguib-mahfouz-en, source/wikipedia-naguib-mahfouz-ar, source/wikidata-naguib-mahfouz, source/nobelprize-naguib-mahfouz-facts]
+provenance:
+  layer: own-research
+  source: "English and Arabic Wikipedia, Wikidata Q7176 and the Nobel Prize facts page for the 1988 Literature prize, checked on 24 October 2026"
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: century-additions-2
+status: { review: published, completeness: 3, generated_by: "Muse (Muse Spark 1.3)" }
