@@ -2,26 +2,26 @@ id: person/ahmad-sirhindi
 class: person
 label:
   ar: "أحمد السرهندي"
-  en: "Ahmad Sirhindi"
+  en: "Shaykh Ahmad Sirhindi (Mujaddid-i Alf-i Thani)"
 names:
   - { kind: full, lang: ar, value: "أحمد بن عبد الأحد الفاروقي السرهندي" }
-roles: [mystic, scholar]
+roles: [mystic, scholar, theologian]
 gender: male
+born: { edtf: "1564", hijri: "0971", calendar: julian, precision: year, status: tradition, derived: false, note: "Born 971/1564 at Sirhind, EI2.", sources: [source/encyclopaedia-of-islam-2] }
+died: { edtf: "1624", hijri: "1034", calendar: julian, precision: year, status: tradition, derived: false, note: "Died 1034/1624 and buried at Sirhind, EI2.", sources: [source/encyclopaedia-of-islam-2] }
 summary:
-  ar: "بطاقة أولية لأحمد السرهندي الملقب بمجدد ألف ثان، نقشبندي الهند صاحب المكتوبات، ورد في وصف مرجعي مفتوح (ويكي البيانات). لم تُراجع ترجمته في معجم الأعلام على الصفحة بعد، لذلك لا تُذكر هنا تواريخ."
-  en: "Draft card for Ahmad Sirhindi, the Mujaddid Alf Thani, the Naqshbandi of India who wrote the Maktubat, named from an open reference description (Wikidata); his al-A'lam entry is not yet checked on the page, so no dates are given."
+  ar: "الشيخ أحمد السرهندي، المعروف بمجدد الألف الثاني، من علماء الصوفية الهنود، وُلد في سرهند سنة 971هـ/1564م، وأخذ الطريقة النقشبندية سنة 1008هـ عن الخواجة باقي بالله، وعارض التشيع والبدع في بلاط جهانكير، وصاحب «المكتوبات» الفارسية، ودعا إلى وحدة الشهود بدلًا من وحدة الوجود، وتوفي ودُفن في سرهند سنة 1034هـ/1624م {cite:encyclopaedia-of-islam-2 vol. 1 p. 319}."
+  en: "Shaykh Ahmad Sirhindi, known as Mujaddid-i Alf-i Thani, was a leading Indian divine and Naqshbandi mystic, born at Sirhind in 971/1564. He was initiated into the Naqshbandi order in 1008 by Khwaja Baqi bi'llah, opposed Shi'ism and innovation at the court of Jahangir, and was confined at Gwalior for a time. His Persian Maktubat, letters to disciples, are a classic of orthodox Muslim India; he taught wahdat al-shuhud in place of pantheistic wahdat al-wujud. He died in 1034/1624 and was buried at Sirhind {cite:encyclopaedia-of-islam-2 vol. 1 p. 319}."
 wings: [people]
 regions: [south-asia]
 periods: [period/gunpowder-empires]
-sources: [source/al-aalam]
+sources: [source/al-aalam, source/encyclopaedia-of-islam-2]
 external_ids:
   wikidata: Q2493613
 provenance:
   layer: own-research
-  source: "Wikidata Q2493613 (religion claim Islam); book source: al-Zirikli, al-A'lam — entry not yet read on the page"
-  generated_by: "Devin (SWE-2 High)"
-  model: "SWE-2 High"
-  run: wikidata-import-0008
+  source: "Encyclopaedia of Islam, 2nd ed. (Brill), vol. 1, PDF pp. 319-320, article 'Shaykh Ahmad Sirhindi' signed Sh. Inayatullah (EI2 enrichment, batch ei2-b003 part 3cp); Wikidata Q2493613 for the identifier"
+  generated_by: "Claude Code (claude-haiku-5-5)"
 status:
-  review: draft
-  completeness: 1
+  review: published
+  completeness: 2
