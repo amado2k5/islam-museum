@@ -97,4 +97,48 @@ sources:
     checked_on: "2026-10-25"
     evidence: "Developer named in its privacy policy; lists Abu Dawud in two editions (5,274 and 5,184 hadith); no method page; sample row 1867 matched a page with number 2180"
 
+  - id: archnet.org
+    url: "https://archnet.org"
+    kind: website
+    allowed_uses: [pointer]
+    retrieved_on: "2026-10-24"
+    tier: T3
+    status: not-verified
+    scope: "Proposed: architecture records (photographs, plans, papers) of the Aga Khan Documentation Center at MIT; pointer only until checked against a named edition or the published record"
+    checked_on: "2026-10-24"
+    evidence: "Wikipedia article https://en.wikipedia.org/wiki/ArchNet (origin 1998 at MIT with the Aga Khan Trust for Culture; maintained since 2011; open access since 2013). Not yet checked against any record."
+
+  - id: muslimheritage.com
+    url: "https://muslimheritage.com"
+    kind: website
+    allowed_uses: [pointer]
+    retrieved_on: "2026-10-24"
+    tier: T3
+    status: not-verified
+    scope: "Proposed: academic portal on Islamic science and architecture founded by Salim Al-Hassani; pointer only until checked"
+    checked_on: "2026-10-24"
+    evidence: "Wikipedia article https://en.wikipedia.org/wiki/Salim_Al-Hassani (founder of the MuslimHeritage.com academic portal). No Wikipedia article on the site itself. Not yet checked against any record."
+
+  - id: shamela.ws
+    url: "https://shamela.ws"
+    kind: website
+    allowed_uses: [pointer]
+    retrieved_on: "2026-10-24"
+    tier: T4
+    status: not-verified
+    scope: "Proposed: digital library of classical Arabic texts; its per-book metadata can show whether a copy matches a print edition, so use only for the named-edition check, pointer only until checked"
+    checked_on: "2026-10-24"
+    evidence: "Wikipedia article https://en.wikipedia.org/wiki/Al-Maktaba_al-Shamela (first released 2005; more than a hundred books; per-book metadata). Texts are uploaded by users, so the carrier is not a named edition."
+
+  - id: sunnah.com
+    url: "https://sunnah.com"
+    kind: website
+    allowed_uses: [pointer]
+    retrieved_on: "2026-10-24"
+    tier: T3
+    status: not-verified
+    scope: "Proposed: Arabic and English hadith texts with references and grades for the six canonical collections; pointer only until checked against the named edition of each collection"
+    checked_on: "2026-10-24"
+    evidence: "Wikipedia articles linking to it: https://en.wikipedia.org/wiki/Hadith and https://en.wikipedia.org/wiki/Sunan_Abi_Dawud. Its own numbering was matched once against the named edition as a pointer (sample row, 24 Oct 2026, not valid as a sample check)."
+
 blocklist: []   # domains found on phishing, malware or spam lists; checked by hand before each publication, with the date
