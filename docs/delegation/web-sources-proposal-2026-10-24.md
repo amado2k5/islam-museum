@@ -63,3 +63,9 @@ Not added: Scribd, a document-sharing host, not a source. Dorar.net and Shamela 
 ## Added 24 Oct 2026: four more sites (founder request)
 
 Registered not-verified, pointer only: islamstory.com (T4), islamqa.info (T4), tafsir.net (T3), quran.com (T4). None has been sampled.
+
+## Added 24 Oct 2026: journal addresses from the founder list, batch 3
+
+Registered not-verified, pointer only, after each page was checked: journals.ku.edu.kw (T2), alfiqhia.com (T3), majlah.shatiby.edu.sa (T3), sjournals.sdl.edu.sa (T3).
+
+Not registered: the Google search link given for the Madinah journals (a search redirect, not a journal address); journals.iu.edu.sa (did not load in this session); the remaining journals from the founder's list (Global Islamic Economics Magazine, Journal of Current Controversial Issues in Fiqh and Law, University of the Holy Quran journal, Al-Muslim al-Mu'asir, Islamic Knowledge), which the list says are reached through aggregators.
