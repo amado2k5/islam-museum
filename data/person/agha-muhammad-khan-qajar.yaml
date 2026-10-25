@@ -7,21 +7,19 @@ names:
   - { kind: full, lang: ar, value: "آغا محمد خان بن محمد حسن خان القاجاري" }
 roles: [sultan]
 gender: male
+born: { edtf: "1742", hijri: "1155", calendar: julian, precision: year, status: tradition, derived: false, note: "Born 1155/1742, EI2.", sources: [source/encyclopaedia-of-islam-2] }
+died: { edtf: "1797", hijri: "1211~", calendar: julian, precision: year, status: tradition, derived: true, note: "Assassinated 1797, EI2; Hijri derived.", sources: [source/encyclopaedia-of-islam-2] }
 summary:
-  ar: "بطاقة أولية لآغا محمد خان القاجاري، مؤسس الدولة القاجارية في إيران، ورد في وصف مرجعي مفتوح (ويكي البيانات). لم تُراجع ترجمته في تاريخ الإسلام لحسن إبراهيم على الصفحة بعد، لذلك لا تُذكر هنا تواريخ."
-  en: "Draft card for Agha Muhammad Khan Qajar, founder of the Qajar state in Iran, named from an open reference description (Wikidata); his entry in Hasan Ibrahim's Tarikh al-Islam is not yet checked on the page, so no dates are given."
+  ar: "مؤسس الأسرة القاجارية في إيران، وُلد سنة 1155هـ/1742م، وأُخصي في صباه بأمر عادل شاه ابن أخي نادر شاه، وبعد مقتل أبيه سنة 1758 صار زعيم القاجاريين، ونقل عاصمته إلى طهران سنة 1785، ثم تُوّج شاهًا سنة 1796، واغتيل سنة 1797 {cite:encyclopaedia-of-islam-2 vol. 1 p. 268}."
+  en: "Founder of the Qajar dynasty of Persia, born 1155/1742. As a child he was castrated on the order of 'Adil Shah, Nadir Shah's nephew, and after his father's murder in 1758 he became chief of the Qajars. He made Tehran his capital in 1785, executed Luft 'Ali Khan in 1794, was crowned in 1796 and was assassinated in 1797 {cite:encyclopaedia-of-islam-2 vol. 1 p. 268}."
 wings: [people]
 regions: [persia-central-asia]
 periods: [period/gunpowder-empires]
-sources: [source/tarikh-islam-hasan-ibrahim]
+sources: [source/encyclopaedia-of-islam-2, source/tarikh-islam-hasan-ibrahim]
 external_ids:
   wikidata: Q324974
 provenance:
   layer: own-research
-  source: "Wikidata Q324974 (religion claim Islam); book source: Tarikh al-Islam (Hasan Ibrahim) — entry not yet read on the page"
-  generated_by: "Devin (SWE-2 High)"
-  model: "SWE-2 High"
-  run: wikidata-import-0004
-status:
-  review: draft
-  completeness: 1
+  source: "Encyclopaedia of Islam, 2nd ed. (Brill), vol. 1, PDF p. 268, article 'Agha Muhammad Shah' signed Cl. Huart and L. Lockhart (EI2 enrichment, batch ei2-b003 part 3bx); Wikidata Q324974 for the identifier"
+  generated_by: "Claude Code (claude-haiku-5-5)"
+status: { review: published, completeness: 2 }
