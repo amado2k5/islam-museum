@@ -85,3 +85,7 @@ Ali ibn Abi Talib was the cousin and son-in-law of the Prophet, married to Fatim
 
 ## For Scholars
 Abu al-Hasan Ali ibn Abi Talib (c. 23 BH – 40 AH / 600–661 CE), the Prophet's cousin, son-in-law married to Fatima al-Zahra, the fourth Rightly Guided Caliph (35–40 AH) in Sunni tradition, and the first Imam in Shi'i tradition. The first male youth to accept Islam, he risked his life in the Prophet's bed on the night of the Hijra. Famed for valor at Badr, Uhud, and Khaybar, and acclaimed for judicial wisdom and supreme Arabic eloquence, his caliphate emphasized rigorous social justice, strict administrative accountability, and personal asceticism.
+
+## From Sheikh Omar Abdelkafy's Tafsir lectures (episode 9)
+
+The Sheikh relates that before Ibn Umm Maktum gave the call to prayer, Ali would take a short nap, since he appeared tired in the daytime from work, and then wake up; the Sheikh says Ali wanted to prolong his conversation with the Messenger of God {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep09 00:51:30}. He mentions that Ali answered the Messenger of God that our souls are in God's hand, and if He wills He keeps them and if He wills He sends them back {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep09 00:52:00}.

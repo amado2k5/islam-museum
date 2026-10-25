@@ -19,3 +19,7 @@ translators: []
 
 ## رثاؤه أخاه أربد
 يذكر ابن إسحاق أن [[person/arbad-ibn-qays|أربد بن قيس]] كان أخا لبيد لأمه، ويورد له فيه ست مراثٍ بعد [[event/death-of-arbad-ibn-qays|موته بالصاعقة]] في رجوعه من وفد بني عامر؛ انظر [[work/labid-elegies-for-arbad|مراثي لبيد في أربد]]. {cite:ibn-hisham-saqqa 4/215} {cite:ibn-hisham-saqqa 4/219}
+
+## من درس الشيخ عمر عبد الكافي: تفسير القرآن (الحلقة 10)
+
+يفرّق الشيخ بين كلام الله وكلام البشر بأنه كالفرق بين الله وخلقه، ويذكر الصحابي لبيد بن ربيعة صاحب المعلقة، وأنه امتنع عن الشعر بعد إسلامه {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep10 00:24:00}. ويذكر أن معلقته من أعظم سبع قصائد في تاريخ العرب وأنها عُلّقت على الكعبة، وأن النبي سأل لبيداً: أين شعرك؟ (needs_source) {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep10 00:24:30}. ويروي أن لبيداً قال إنه بعد سماع القرآن لم يستطع أن يقول شعراً لضحالة لغته أمامه، وإن الشعر لم يعد يجري على لسانه إلا كدبيب النمل {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep10 00:30:00}.

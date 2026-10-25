@@ -19,3 +19,7 @@ The question is whether "deeds" in the hadith means all voluntary deeds, or the 
 
 ## Sha'rawi on sincerity
 Sha'rawi says two people may do the same deed, one rewarded because he sought God's pleasure and the other not because he sought the world; if the act is not sincere for God, it is not accepted. He relies on the hadith that deeds are by intentions. {cite:tafsir-sharawi-khawatir-scan-pp-501-1000 p.586}
+
+## From Sheikh Omar Abdelkafy's Tafsir lectures (episode 9)
+
+The Sheikh relays a saying of the scholars that one who is far from a sin but wishes for it in his heart is like one who was present at it, and that one who is present where a sin occurs but rejects it in his heart is like one who was not present {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep09 00:25:30}. He then returns to the verses of al-Nazi'at and says that the "Sabihat" ([[passage/quran-79-3|Qur'an 79:3]]) carry the souls of the believers swiftly along {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep09 00:25:30}.

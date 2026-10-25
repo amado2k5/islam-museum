@@ -15,3 +15,9 @@ Ibn Ishaq relates that Hassan was absent when the [[event/delegation-of-banu-tam
 
 ## His reply to Asma bint Marwan
 Ibn Ishaq relates that Asma bint Marwan composed verses disparaging Islam and its people and inciting against the Prophet. Hassan answered her with verses in which he places the Banu Wa'il, Waqif and Khatma below the Banu Khazraj, and describes her killing. See [[work/hassan-reply-to-asma-bint-marwan|the reply]] and [[event/killing-of-asma-bint-marwan|the account]] {cite:ibn-hisham-saqqa 4/286}.
+
+## From Sheikh Omar Abdelkafy's Tafsir lectures (episode 7)
+
+The Sheikh says that Hassan ibn Thabit was a poet, and that the Prophet used to set a chair for him and tell him to speak, since the Holy Spirit supports him (needs_source) {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep07 00:22:00}.
+
+He says that Jibril supports him with inspiration (needs_source) {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep07 00:22:30}. The Sheikh plays on the sound of names, saying that the foreign poet's name ends on the pattern of Iblis while Hassan is on the pattern of wudu', and that the distance between them is great {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep07 00:22:30}.

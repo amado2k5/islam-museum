@@ -20,3 +20,7 @@ Amana is the opposite of betrayal. It covers the religious duties and anything e
 - In a cost-plus sale, if betrayal is found the buyer may choose. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.3377}
 - Guardians, endowment managers and judges must be trustworthy, and one whose betrayal is shown is dismissed; the testimony of a betrayer is not accepted. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.3377}{cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.3378}
 - Swearing by trust joined to God's name is an oath that carries expiation, according to most jurists. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.3378}
+
+## From Sheikh Omar Abdelkafy's Tafsir lectures (episode 4)
+
+The Sheikh tells of a boy whose mother told him never to disclose the Prophet's secret {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep04 00:59:30}. The narrator in the story says that his father died while he was still in his mother's womb, that at the age of ten he sat in the gatherings of grown men to learn how they speak, and that his mother would tell him as he left the gathering to bury what the men had said (needs_source) {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep04 01:00:00}. The Sheikh comments admiringly on this upbringing and links it to the principle that gatherings are held in trust {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep04 01:00:00}.

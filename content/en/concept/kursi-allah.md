@@ -18,3 +18,7 @@ He compares the distances of the earth, moon and stars, and holds that humans ha
 
 ## Not yet checked
 The astronomical figures are illustrations in Sha'rawi's text and are not entered as facts. The chain and grade of the hadith have not been checked. The academic view and any non-Sunni view have not been checked.
+
+## From Sheikh Omar Abdelkafy's Tafsir lectures (episode 01)
+
+The Sheikh describes the Kursi as vast, saying that the heavens beside it are like a ring thrown into a desert, and that the Kursi beside the Throne is likewise like a ring thrown into a desert {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep01 00:43:00}.

@@ -17,3 +17,57 @@ He lists the levels of the fire: Jahannam, Laza, Hutama, Sa'ir and Hawiya, with 
 He says that the first level holds the disobedient monotheists who died with debts owed to people (needs_source). {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep03 00:45:00}
 He relates reports of necks coming out of the fire, of seventy thousand halters, and of three breaths of the fire, some of which could not be checked (needs_source). {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep03 00:42:00} {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep03 00:42:30} {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep03 00:43:30}
 He mentions a valley of insects that torments those who bring grief upon the Muslims (needs_source). {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep03 00:49:30} {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep03 00:50:00}
+
+## From Sheikh Omar Abdelkafy's Tafsir lectures (episode 1)
+
+The Sheikh says that God showed the Prophet the Fire and that no one has seen of it what he saw, and that this is why the prophets and messengers fear the Fire (needs_source) {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep01 00:36:30}.
+
+He cites a hadith to the effect that a bucket of the drink of the people of the Fire, mentioned in the Book of God, if poured out in the world would make its inhabitants stink, and he asks God to keep us far from the Fire (needs_source) {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep01 00:37:00}.
+
+## From Sheikh Omar Abdelkafy's Tafsir lectures (episode 3)
+
+The Sheikh says that the people of Hell, if they were in the fires of this world, would find rest in them and sleep (needs_source) {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep03 00:43:00}. He mentions that Hell throws sparks like a castle, and that when the Companions asked the Prophet whether this was like a hill he said it was like cities and forts, a single spark (needs_source) {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep03 00:43:00}.
+
+He relates a hadith that when Hell exhales for the third time the Prophet stood up for it (needs_source) {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep03 00:44:00}. He then moves on to the verses that speak of the Day of Decision and of Hell lying in wait for its people {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep03 00:44:00}.
+
+The Sheikh says that hamim is water boiled to the extreme {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep03 00:57:30}. He links this to the point that God's provision comes before the existence of the one who needs it, and counts this as generosity from God {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep03 00:57:30}.
+
+He says that when the steam of the boiling water nears the face the flesh of the face falls away, and when he drinks it, it cuts his intestines (needs_source) {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep03 00:58:00}. He ties this to the one who did not eat what is lawful and took people's money unjustly, and recalls that Abu Bakr's stomach could not bear milk of which he was doubtful (needs_source) {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep03 00:58:00}.
+
+He says that the recompense matches what a person did in this world {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep03 00:58:30}. He pauses on the word yarjun in the description of those who did not look to the reckoning, noting that it is explained as meaning that they did not fear it {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep03 00:58:30}.
+
+He says that the punishment of the people of Hell is not lightened (needs_source) {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep03 00:59:30}. He then closes the lesson with a supplication and says that the next lesson will be about the God-fearing and their success {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep03 00:59:30}.
+
+## From Sheikh Omar Abdelkafy's Tafsir lectures (episode 4)
+
+The Sheikh says the verses now turn to what shakes the servant to the core, namely that Hell lies in wait, and he asks who is the watcher and who the watched {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep04 00:19:00}.
+
+He explains this with the image of a father keeping watch on his son after adolescence, to show what watching means {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep04 00:19:30}.
+
+He says to imagine Hell watching for the tyrants and waiting for them {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep04 00:20:00}. He cites a hadith that Hell knows its people as a mother knows her children (needs_source) {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep04 00:20:00}.
+
+He cites a hadith that whoever raises a piece of iron against his brother has the protection of God, of His Messenger and of the believers withdrawn from him (needs_source) {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep04 00:21:30}. He takes raising the iron to mean threatening and spreading terror, and says there is a valley in Hell where those who bring distress upon people are put (needs_source) {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep04 00:21:30}.
+
+He says that Hell watches for its people and waits for them, and that it has necks like those of Bukhti camels with which it picks up its own as a bird picks up grain (needs_source) {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep04 00:39:30}.
+
+He explains that ma'ab means the place of return, and says the tyrants had gone ahead in this world and prepared a place for themselves before arriving at it {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep04 00:43:00}. He adds that the one bound for Paradise likewise prepared a place there before coming to it, so that Paradise was his place of return {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep04 00:43:00}.
+
+The Sheikh holds that the recompense fits the misdeeds of those concerned: whoever brought distress upon people has distress brought upon him {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep04 00:50:00}. He says that Islam made the solutions easy and that we have made them hard {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep04 00:50:00}.
+
+He says that these people denied God's signs every time they were reminded of them, so that persistent denial became their state before God {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep04 00:54:30}.
+
+The Sheikh speaks of one who took unlawful money from his sisters or his company and seized people's money wrongfully, and says that his skin grows thick so that he feels nothing {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep04 01:00:30}. He notes that skins are replaced in the torment, and then says that the remaining verses of the surah are about the God-fearing (needs_source) {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep04 01:00:30}.
+
+## From Sheikh Omar Abdelkafy's Tafsir lectures (episode 6)
+
+The Sheikh says that the disbelievers remain in the Fire forever because God knows that had they lived forever they would have disbelieved in Him forever, so He punishes them with an everlasting punishment (needs_source) {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep06 00:48:00}.
+
+:::perspectives
+- **Sunni view (not yet sourced)**: Not yet sourced.
+- **The speaker's view (opinion)**: The Sheikh holds that the disbelievers' eternity in the Fire is because God knows that had they lived forever they would have disbelieved forever {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep06 00:48:00}.
+- **Academic and other views (not yet sourced)**: Not yet sourced.
+:::
+
+## From Sheikh Omar Abdelkafy's Tafsir lectures (episode 7)
+
+The Sheikh says that the people of the Fire, if they found a fire of this world, would find rest in it (needs_source) {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep07 00:45:30}. He mentions that a single drop of ghislin, if poured out among the people of this world, would kill them with its smell (needs_source) {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep07 00:45:30}.

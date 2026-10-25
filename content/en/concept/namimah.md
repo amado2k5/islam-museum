@@ -22,3 +22,17 @@ It is recommended to perform ablution after foul speech; Ibn Mas'ud said "I woul
 (1) Not to believe him, since the tale-bearer is a wrongdoer whose testimony is rejected, on the verse "if a wrongdoer brings you news, verify it". (2) To forbid him, advise him and disapprove of his speech, on the verse "command what is right and forbid what is wrong", and on the hadith "shall I tell you what the slander is? It is tale-bearing, carrying words between people". Umar ibn Abd al-Aziz, when a man reported another's words to him, told him that if he was lying he was of those in the verse on the wrongdoer, and if he was truthful he was of those in the verse on the slanderer; Mus'ab ibn al-Zubayr said that accepting a report is worse than the report itself. The Prophet's saying "let no one bring me word of another among my companions, for I would go to them with a clean heart" is cited. (3) To hate him for God's sake. (4) Not to think ill of the one reported, on the verse "avoid much suspicion". (5) Not to let what he was told lead him to spy and search, on the verse "do not spy". (6) Not to accept for himself what he has been forbidden. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.16204}
 
 **Seventh: not to repeat the tale-bearer's tale.** Do not say "so-and-so told me such and such", for then you are a tale-bearer and a backbiter, and have done what you were forbidden. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.16205}
+
+## From Sheikh Omar Abdelkafy's Tafsir lectures (episode 5)
+
+The Sheikh advises against becoming a tale-bearer, since nobody likes a tale-bearer, and asks his listeners whether any of them likes the person who carries words around {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep05 00:16:30}.
+
+The Sheikh describes an employee who carries whatever is said in the office to the manager within minutes, so that everyone in the office is wary of him {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep05 00:17:00}.
+
+The Sheikh relates that the people of Musa complained that the rain had not fallen, and God told Musa that there was a sinner among them who was holding back the water and that He would not send it down until he left (needs_source) {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep05 00:17:30}.
+
+He continues that Musa repeated his plea, saying the sinner had not left; the doors of the sky opened with water, and Musa wondered and asked his Lord how the water could come down when the sinner had not left (needs_source) {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep05 00:18:00}.
+
+He says God answered that the man had repented in what lay between him and his Lord; Musa wanted to know the penitent in order to learn from him, and God said that He had concealed him while he sinned and would not expose him now that he had repented, and that since He forbids tale-bearing He would not be a tale-bearer Himself (needs_source) {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep05 00:18:30}.
+
+The Sheikh holds that carrying words in order to harm people is a trait we should be rid of, and that when a believer sees a sin he should dislike the sin without hating the sinner as a person {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep05 00:19:00}.

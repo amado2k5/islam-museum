@@ -15,3 +15,7 @@ translators: []
 
 ## ما يتصل به
 تنسب بيانات المتحف إليه [[work/ikhtilaf-al-hadith-shafii|اختلاف الحديث]] {cite:kashf-zunun-furqan}، وتجعله مؤسس [[group/shafii-madhhab|المذهب الشافعي]].
+
+## من درس الشيخ عمر عبد الكافي: تفسير القرآن (الحلقة 10)
+
+ينقل الشيخ عن الإمام الشافعي أنه كان يرى أن الشعر يقلل من هيبة العلماء، ويذكر أن العرب قالت إن أبلغ الشعر أكذبه {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep10 00:30:30}.

@@ -18,3 +18,13 @@ He tells the story of Umar and a shepherd, in which a question is asked of the s
 
 ## The heart and the limbs
 He compares the heart to a chief executive under whom the limbs work as staff: when the heart is full of faith and certainty, all actions are set right. {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep02 00:02:00} {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep02 00:02:30}
+
+## From Sheikh Omar Abdelkafy's Tafsir lectures (episode 5)
+
+The Sheikh invites a person to measure himself against the fault he sees in another before judging him, so that he finds his own faults larger than the other's {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep05 00:15:00}.
+
+He gives the example of someone who hears his daughter or sister complain about her husband and leans toward taking her side, and advises him to look at himself before judging: if the husband raises his voice a little, he thinks the world has fallen apart, though his own mother and grandmother were patient and he may himself be falling short at home {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep05 00:15:30}.
+
+He relays that wisdom can be learned even from the ignorant, by avoiding any act, word or position of theirs that one does not approve of {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep05 00:16:00}.
+
+He calls for the restraint to come from within the person, asks whether the endowments authority or the ministry will send a sheikh to every home to remind people of God, and says a person should make himself his own watcher {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep05 00:55:30}.

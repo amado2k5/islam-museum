@@ -20,3 +20,7 @@ translators: ["Claude Haiku 5.5 (claude-haiku-5-5), draft translation"]
 - **academic view: not yet sourced**: ابھی تک ماخوذ نہیں۔
 - **other view: not yet sourced**: ابھی تک ماخوذ نہیں۔
 :::
+
+## شیخ عمر عبد الکافی کے تفسیری درس (قسط 02)
+
+شیخ ایک بیوہ کا ذکر کرتے ہیں جس کے دو یا تین بچے ہیں، اور کہتے ہیں کہ وہ کسی شادی شدہ مرد کی آدھی، تہائی یا چوتھائی بیوی بننے پر بھی راضی ہو سکتی ہے، پھر سامعین سے پوچھتے ہیں کہ کیا یہ درست نہیں {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep02 00:29:00}۔

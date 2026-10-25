@@ -41,7 +41,7 @@ relations:
   - { type: mentioned_in, target: passage/quran-66-4, note: "نزوله أثناء التكبير عند استقبال بني عمرو بن عوف على رواية ابن القيم (الرحيق ص171؛ زاد المعاد 2/54)", sources: [source/mubarakpuri-raheeq, source/zad-al-maad] }
   - { type: has_part, target: journey/hijra-route }
 external_ids: { wikidata: Q180226 }
-sources: [source/ibn-ishaq-guillaume, source/watt-1956-medina, source/mubarakpuri-raheeq, source/ibn-hisham-sira, source/sahih-al-bukhari, source/zad-al-maad, source/muruj-al-dhahab]
+sources: [source/ibn-ishaq-guillaume, source/watt-1956-medina, source/mubarakpuri-raheeq, source/ibn-hisham-sira, source/sahih-al-bukhari, source/zad-al-maad, source/muruj-al-dhahab, source/assabile-omar-abdelkafy]
 education:
   did_you_know:
     ar: "اختبأ النبي وصاحبه ثلاث ليالٍ في غار ثور، ودخل المدينةَ يومَ جمعة، فأقام أول جمعةٍ في بني سالم."
@@ -52,3 +52,4 @@ education:
   flagged_for_kids: true
   provenance: { generated_by: "Claude Code", model: "Claude Fable 5.1 (claude-fable-5-1)", run: "education-E2-fixtures", note: "Leveled texts restated from this record's own prose in ar, en and ur; draft, pending the founder's review (Urdu flagged)." }
 status: { review: draft, completeness: 3, generated_by: "Claude Sonnet 5.5 (scaffold); QID to be verified; upgraded by Devin from al-Raheeq al-Makhtum pp. 161-174" }
+provenance: { layer: own-research, source: "al-Raheeq al-Makhtum pp. 161-174; Assabile, Tafsir Al Quran Al Qareem ep04 (added for cite-check)", generated_by: "Claude Sonnet 5.5 (scaffold); upgraded by Devin" }

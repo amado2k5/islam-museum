@@ -22,3 +22,11 @@ translators: ["Claude Haiku 5.5 (claude-haiku-5-5), draft translation"]
 ## شیخ عمر عبدالکافی کے درسوں میں حسد (قسط پانچ)
 شیخ کہتے ہیں کہ اپنے اردگرد لوگوں پر صبر، جن میں حسد کرنے والے رشتے دار بھی ہیں، وہ صبر ہے جس کی ضرورت ہے (شیخ کی رائے)۔ {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep05 00:45:00} ان کی رائے ہے کہ حسد اس کے ساتھ اچھائی کرنے اور اس سے زیادہ نرمی برتنے سے ٹوٹتا ہے (شیخ کی رائے)۔ {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep05 00:45:30}
 وہ شیطان کے وسوسوں سے پناہ مانگنے اور برائی کو بہتر طریقے سے ٹالنے کا ذکر کرتے ہیں (needs_source)۔ {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep05 00:46:00} {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep05 00:47:00}
+
+## شیخ عمر عبد الکافی کے تفسیری درس (قسط 5)
+
+شیخ دنیا کے جذبات کا آخرت کے جذبات سے موازنہ کرتے ہیں۔ وہ کہتے ہیں کہ آدمی اپنے چچازاد کو مہنگی گاڑی میں دیکھ سکتا ہے، اور اگر وہ قناعت والا ہو تو اپنے حصے پر راضی رہتا اور صحت کی نعمت پر اللہ کا شکر ادا کرتا ہے، جبکہ کسی اور کے دل میں حساسیت اور حسد اٹھ سکتا ہے، اور وہ اس سب کو دنیا کے جذبات میں شمار کرتے ہیں {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep05 00:02:30} {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep05 00:03:00}۔
+
+## شیخ عمر عبد الکافی کے تفسیری درس (قسط 6)
+
+شیخ مزاح میں کہتے ہیں کہ اگر وہ مینیجر بن جائیں تو ان کا پہلا فیصلہ اس ملازم کو قید کرنا ہوگا جو افسر کے پاس ساتھیوں کی شکایت لگاتا ہے، پھر وہ بات سنبھالتے ہوئے کہتے ہیں کہ کائنات انسان کے ہاتھ میں نہیں ہے {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep06 00:24:30}۔ اسی مزاح میں وہ تصور کرتے ہیں کہ ہوا کے ٹینک ان کے ہاتھ میں آ گئے ہیں اور وہ ہوا اپنے گھر والوں اور رشتے داروں میں بانٹتے ہیں، منظر کے آخر میں ساس کا ذکر آتا ہے، پھر وہ زور دیتے ہیں کہ رزق صرف اللہ کے فضل سے ہے {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep06 00:25:00} {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep06 00:25:30}۔

@@ -21,3 +21,6 @@ The Hajj is a journey to Mecca, where Muslims perform known rites, such as circl
 
 ## For Scholars
 The journey to the Sacred House at Mecca to perform prescribed rites, one of the five pillars of Islam. The Qur'an makes it a duty for those able to make the way there, and tells of the call to proclaim it to the people. The Hajj includes the state of ihram, circling the Kaaba, running between Safa and Marwa, standing at Arafat, spending the night at Muzdalifa and at Mina, and throwing the pebbles. The books of sira tell of the Prophet's pilgrimage and the Farewell Sermon. This entry presents the Hajj as a global journey where Muslims gather from many countries, and refers the details of the rites to the entry on the Hajj in law.
+
+## From Sheikh Omar Abdelkafy's Tafsir lectures (episode 2)
+The Sheikh explains the word thajj as pouring forth, and cites a hadith he relates from the Prophet that the best Hajj is al-'ajj and al-thajj, al-'ajj being the raising of the voice with takbir as he puts it, and al-thajj the shedding of blood (needs_source) {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep02 00:57:30}.

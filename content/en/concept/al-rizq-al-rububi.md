@@ -33,3 +33,11 @@ He says that, by his account, most of humanity does not worship God although it 
 He gives the example of the unborn child in its mother's womb, who is provided for without work, to show that God's blessings are bounty and not a reward for deeds. He closes by reminding the listener to give thanks. {cite:assabile-omar-abdelkafy al-fawzu-al-moubeen/ep12 00:48:00}
 
 He says that God provides for His servants and heals their sick. He cites Abraham's prayer for the people of the land to be provided for, and says that provision reaches the disbeliever too. {cite:assabile-omar-abdelkafy al-fawzu-al-moubeen/ep14 00:09:00}
+
+## From Sheikh Omar Abdelkafy's Tafsir lectures (episode 2)
+
+The Sheikh says that provision has already been apportioned and settled, so in his view whoever fears tomorrow is weak in faith; he urges strengthening certainty and clearing the heart of its diseases, and asks why a person is arrogant toward God's creatures, looks down on them and admires himself {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep02 01:15:00}.
+
+## From Sheikh Omar Abdelkafy's Tafsir lectures (episode 9)
+
+The Sheikh says that every morning has its provision, and that God gives this world to those He loves and to those He does not, while He gives religion only to those He loves {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep09 00:36:30}.

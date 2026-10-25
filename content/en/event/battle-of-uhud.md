@@ -49,3 +49,9 @@ In the battle of Uhud, near Mount Uhud, Quraysh had the upper hand at first. Chi
 
 ## For Scholars
 A battle near Mount Uhud in which Quraysh had the upper hand at first, after some Muslims disobeyed the Prophet's order to the archers on the hill and lost what they had been guarding. The sources relate its events through al-Bukhari and others, including the Prophet's charge to the archers, Abu Sufyan's words about the day of Badr, and the Prophet's climb of the mountain with his companions. Accounts of the dead and the missing need exact sources; this entry gives the battle as far as is needed to understand its lessons, without the details of wounds and killing.
+
+## From Sheikh Omar Abdelkafy's Tafsir lectures (episode 09)
+
+The Sheikh says, with wonder, that worms, which we assume have no mind, do not come near the body of a martyr, and he mentions that the flow of the valley at Uhud came down on the martyrs of Uhud forty years after the battle (needs_source) {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep09 00:05:00}.
+
+He relates that the Companions consulted one another and decided to move the bodies of the martyrs away from the course of the valley out of respect for them, and that as the digging began one of them struck with his axe, which fell on Hamza's foot, and blood flowed from it forty years later (needs_source) {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep09 00:05:30}.

@@ -28,3 +28,9 @@ In "the account of the sum of the saying of the people of hadith and sunna" in M
 
 ## What is not covered here
 This entry presents the positions of the 'Aqida al-Tahawiyya, Ibn Qudama's Lum'at al-I'tiqad, Ibn Taymiyya's al-Wasitiyya, and what al-Ash'ari related in Maqalat al-Islamiyyin of the people of hadith and sunna and declared his own — each attributed to its book. The sayings of the Maturidis and the remaining Sunni and non-Sunni schools from their own books have not yet been added; the entry needs specialist review before promotion.
+
+## From Sheikh Omar Abdelkafy's Tafsir lectures (episode 4)
+
+The Sheikh holds that if the decrees followed what people wish, the earth would not be built up {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep04 00:24:30}.
+
+The Sheikh asks whether you are the planner or the one planned for: do you arrange your affairs and organise your schedule and life, or does God arrange your matter for you? {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep04 00:28:00}. He calls for patience until what God arranges becomes clear {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep04 00:28:00}.

@@ -24,3 +24,7 @@ He came to Mecca and asked about the man who claimed to be a prophet. He embrace
 
 ## Encyclopaedia of Islam account
 The Encyclopaedia of Islam (2nd ed.) entry gives his name as commonly Jundub b. Junada, with other names also recorded. Before his conversion he is said to have worshipped one God. When news of Muhammad reached him, he sent his brother to Mecca, and then went himself, and he became a believer at once. The article puts him among the first five believers, or even the fourth. He went to Medina after the battle of the Ditch (5/627), later lived in Syria, and was recalled by 'Uthman after a complaint from Mu'awiya; he died at al-Rabadha in 32/652-3 or 31. The article notes his humility and asceticism, and credits him with 281 traditions, of which al-Bukhari and Muslim gave thirty-one between them. {cite:encyclopaedia-of-islam-2 vol. 1 p. 133}
+
+## From Sheikh Omar Abdelkafy's Tafsir lectures (episode 9)
+
+The Sheikh relates that Abu Dharr said, in the year 36 AH, that the time that had been roses without thorns had become thorns without roses (needs_source) {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep09 00:34:30}.

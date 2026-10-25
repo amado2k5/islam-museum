@@ -21,3 +21,15 @@ translators: ["Claude Haiku 5.5 (claude-haiku-5-5), draft translation"]
 شیخ کہتے ہیں کہ طالب علم کو تین رکاوٹیں درپیش ہیں: پہلی جھوٹ، دوسری حسد جو انسان اور علم کے درمیان دیوار بن جاتا ہے، اور تیسری یہ کہ دنیا دل میں بھر جائے (شیخ کی رائے)۔ {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep01 00:01:00} {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep01 00:04:00} {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep01 00:04:30}
 وہ کہتے ہیں کہ دل کو ہر تین دن میں علم کے درس کی ضرورت ہے، اور جب دل درس چھوڑ دیتا ہے تو اعضاء نافرمان ہو جاتے ہیں اور دنیا اس پر ہجوم کر لیتی ہے (needs_source)۔ {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep01 00:25:30} ان کی رائے ہے کہ علم کی مجالس بہتر ہیں، اور ان میں اطاعت سے اللہ کی رضا مل سکتی ہے، اس لیے مومن ان میں سے کسی کو حقیر نہ جانے (شیخ کی رائے)۔ {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep02 00:03:00} {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep02 00:03:30}
 وہ کہتے ہیں کہ جو بہت بولے اس بات پر جو وہ نہیں جانتا، وہ عالم نہیں (شیخ کی رائے)۔ {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep03 00:25:30} وہ کہتے ہیں کہ علم کی مجلس میں بیٹھنے والا فرشتوں سے بہتر ہے کیونکہ وہ اپنے نفس سے جہاد کرتا ہے (شیخ کی رائے)۔ {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep09 00:42:00}
+
+## شیخ عمر عبد الکافی کے تفسیری درس (قسط 3)
+
+شیخ ایسے علم میں پڑنے پر تنقید کرتے ہیں جس کا کوئی فائدہ نہیں، اور مثال دیتے ہیں اس بھیڑیے کا نام جاننے کی کوشش کی جس نے یعقوب کے بیٹے کو نہیں کھایا تھا، اور اسے بے فائدہ موضوع میں داخل ہونا قرار دیتے ہیں {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep03 00:26:00}۔
+
+## شیخ عمر عبد الکافی کے تفسیری درس (قسط 7)
+
+شیخ کہتے ہیں کہ علم کی مجلس میں انسان پانی میں مچھلی کی طرح ہے، جب تک وہ اپنے قدرتی ماحول میں ہے اس کی زندگی محفوظ ہے، اور اس سے دور ہو تو ہلاکت قریب ہوتی ہے {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep07 00:43:30}۔ وہ سوال کرتے ہیں کہ ایسی مجلسوں میں دل کو غذا کیسے ملتی ہے {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep07 00:43:30}۔
+
+وہ اس قول کا ذکر کرتے ہیں کہ ان نیک ہم نشینوں کے ساتھ بیٹھنے والا کبھی بدبخت نہیں ہوتا (needs_source) {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep07 00:46:30}۔ ان کی رائے ہے کہ علم کی مجلس میں بیٹھنے والا مسلمان فرشتوں سے بلند مقام پاتا ہے، کیونکہ فرشتوں کی غذا تسبیح، تہلیل اور تقدیس ہے جس سے وہ تھکتے نہیں {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep07 00:46:30}۔
+
+وہ کہتے ہیں کہ مومن نماز میں فرشتوں سے مشابہت رکھتا ہے، اور فرشتوں کے دو، تین اور چار پروں کو پانچ نمازوں کی رکعتوں سے جوڑتے ہیں (needs_source) {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep07 00:47:00}۔ ان کی رائے ہے کہ نماز کے باہر وہ فرشتوں سے اس طرح بڑھ جاتا ہے کہ بھلائی کی بات سنتا ہے جبکہ رحمتیں نازل ہو رہی ہوتی ہیں {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep07 00:47:00}۔

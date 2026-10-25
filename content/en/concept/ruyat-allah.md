@@ -28,3 +28,6 @@ In "the account of the sum of the saying of the people of hadith and sunna" in M
 
 ## What is not covered here
 This entry presents the positions of the 'Aqida al-Tahawiyya, Ibn Qudama's Lum'at al-I'tiqad, Ibn Taymiyya's al-Wasitiyya, and what al-Ash'ari related in Maqalat al-Islamiyyin of the people of hadith and sunna and declared his own — each attributed to its book. The sayings of the Maturidis and the remaining Sunni and non-Sunni schools from their own books have not yet been added; the entry needs specialist review before promotion.
+
+## From Sheikh Omar Abdelkafy's Tafsir lectures (episode 9)
+The Sheikh relays from the people of knowledge that if God were to reveal Himself with His noble face to the people of the Fire they would forget the torment they are in, and if He were to veil His noble face from the people of Paradise, life there would not be pleasant for them for a moment (needs_source) {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep09 00:39:30}.

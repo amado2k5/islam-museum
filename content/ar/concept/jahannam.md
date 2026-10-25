@@ -17,3 +17,57 @@ translators: []
 ويذكر أن الدركة الأولى يُوضع فيها عصاة الموحدين الذين ماتوا على التوحيد وعليهم تبعات للناس (needs_source). {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep03 00:45:00}
 ويروي روايات عن أعناق تخرج من النار، وعن سبعين ألف زمام، وعن ثلاث زفرات للنار، ويذكر أن بعضها لم يُتحقق منه (needs_source). {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep03 00:42:00} {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep03 00:42:30} {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep03 00:43:30}
 ويذكر وادي الحشرات الذي يعذب من يُدخل النكد على المسلمين (needs_source). {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep03 00:49:30} {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep03 00:50:00}
+
+## من درس الشيخ عمر عبد الكافي: تفسير القرآن (الحلقة 1)
+
+يقول الشيخ إن الله أرى النبي النار، ولم ير أحد منها ما رآه، ولذلك فالأنبياء والرسل يخافون من النار (needs_source) {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep01 00:36:30}.
+
+ويذكر حديثا مفاده أن دلوا من شراب أهل النار الذي ذُكر في كتاب الله لو أُهريق في الدنيا لأنتن أهلها، ويسأل الله أن يبعدنا عن النار (needs_source) {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep01 00:37:00}.
+
+## من درس الشيخ عمر عبد الكافي: تفسير القرآن (الحلقة 3)
+
+ويذكر الشيخ أن أهل النار لو كانوا في نيران الدنيا لاستراحوا فيها ونامُوا (needs_source) {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep03 00:43:00}. ويذكر أن جهنم ترمي شررا كالقصر، وأن النبي لما سأله الصحابة أهو كالهضبة قال إنه كالمدائن والحصون، أي شرارة واحدة (needs_source) {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep03 00:43:00}.
+
+ويروي حديثا أن جهنم إذا زفرت الزفرة الثالثة قام لها النبي (needs_source) {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep03 00:44:00}. ثم ينتقل إلى الآيات التي تتحدث عن يوم الفصل وعن جهنم التي تنتظر أهلها {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep03 00:44:00}.
+
+يقول الشيخ إن الحميم هو الماء المغلي غاية الغليان {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep03 00:57:30}. ويربط ذلك بأن رزق الله يسبق وجود المحتاج إليه، ويعد هذا كرما من الله {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep03 00:57:30}.
+
+ويقول إن أبخرة الماء المغلي إذا اقتربت من الوجه تساقط لحمه، وإذا شربه قطّع أمعاءه (needs_source) {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep03 00:58:00}. ويربط ذلك بمن لم يأكل الحلال وأخذ أموال الناس بالباطل، ويذكر أن أبا بكر لم تحتمل معدته لبنا شك فيه (needs_source) {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep03 00:58:00}.
+
+ويقول إن الجزاء موافق لعمل الدنيا {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep03 00:58:30}. ويقف عند كلمة «يرجون» في وصف من لم يتوقعوا الحساب، ويذكر أنها تُفسَّر بمعنى أنهم لا يخشون حسابه {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep03 00:58:30}.
+
+ويقول إن العذاب لا يخفف عن أهل جهنم (needs_source) {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep03 00:59:30}. ثم يختم الدرس بالدعاء، ويعد بأن الدرس القادم عن المتقين وفوزهم {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep03 00:59:30}.
+
+## من درس الشيخ عمر عبد الكافي: تفسير القرآن (الحلقة 4)
+
+يقول الشيخ إن الآيات تنتقل هنا إلى ما يهز العبد هزا، وهو أن جهنم كانت مرصادا، ويتساءل: من الراصد ومن المرصود؟ {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep04 00:19:00}.
+
+ويشرح ذلك بمثال أب يراقب ابنه بعد سن المراهقة، ليبين معنى المراقبة {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep04 00:19:30}.
+
+ويقول: تخيل أن جهنم تترقب الطغاة وتنتظرهم {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep04 00:20:00}. ويذكر حديثا أن جهنم تعرف أهلها كما تعرف الأم بنيها (needs_source) {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep04 00:20:00}.
+
+ويذكر حديثا أن من رفع على أخيه حديدة برئت منه ذمة الله وذمة رسوله والمؤمنين (needs_source) {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep04 00:21:30}. ويفهم من رفع الحديدة التهديد وإدخال الرعب، ويقول إن في جهنم واديا يوضع فيه الذين يدخلون الكدر على الناس (needs_source) {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep04 00:21:30}.
+
+ويقول إن جهنم ترصد أهلها وتنتظرهم، وإن لها أعناقا كأعناق البخت تلتقط أصحابها كما يلتقط الطير الحب (needs_source) {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep04 00:39:30}.
+
+ويفسر المآب بأنه المرجع، ويقول إن الطاغين سبقوا في الدنيا فهيأوا لأنفسهم مكانا قبل أن يأتوا إليه {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep04 00:43:00}. ويضيف أن صاحب الجنة كذلك أعد لنفسه مكانا فيها قبل أن يأتي إليه فكانت الجنة مآبه {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep04 00:43:00}.
+
+يرى الشيخ أن الجزاء موافق لسيئات أصحابه، فمن كان يدخل الكدر على الناس يدخل عليه الكدر {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep04 00:50:00}. ويقول إن الإسلام وضع الحلول سهلة ونحن صعّبناها {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep04 00:50:00}.
+
+ويقول إن هؤلاء كذبوا بآيات الله كلما ذُكّروا بها، فصار التكذيب المتواصل حالهم عند الله {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep04 00:54:30}.
+
+ويذكر الشيخ من أخذ الحرام من مال أخواته أو شركته واستولى على أموال الناس بالباطل، ويقول إن جلده يغلظ فلا يحس {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep04 01:00:30}. ويذكر أن الجلود تُبدَّل في العذاب، ثم يقول إن بقية آيات السورة عن المتقين (needs_source) {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep04 01:00:30}.
+
+## من درس الشيخ عمر عبد الكافي: تفسير القرآن (الحلقة 6)
+
+يقول الشيخ إن الكافرين يخلدون في النار لأن الله يعلم أنهم لو عاشوا أبدا لكفروا به أبدا، فعذبهم عذابا أبديا (needs_source) {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep06 00:48:00}.
+
+:::perspectives
+- **أهل السنة (لم يُسنَد بعد)**: لم يُسنَد بعد.
+- **رأي الشيخ عمر عبد الكافي (رأي شخصي)**: يرى الشيخ أن خلود الكافرين في النار سببه علم الله بأنهم لو عاشوا أبدا لكفروا أبدا {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep06 00:48:00}.
+- **رأي أكاديمي أو آراء أخرى (لم يُسنَد بعد)**: لم يُسنَد بعد.
+:::
+
+## من درس الشيخ عمر عبد الكافي: تفسير القرآن (الحلقة 7)
+
+ويقول الشيخ إن أهل النار لو وجدوا نارا من نيران الدنيا لاستراحوا فيها (needs_source) {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep07 00:45:30}. ويذكر أن قطرة واحدة من الغسلين لو أُهريقت في أهل الدنيا لماتوا من رائحتها (needs_source) {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep07 00:45:30}.

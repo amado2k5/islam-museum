@@ -15,3 +15,11 @@ translators: []
 
 ## العَجْب
 يذكر الشيخ رواية عن عظم في أسفل الصلب، هو العَجب، يُعاد منه خلق الإنسان يوم القيامة، وأنه لا يبلى (needs_source). {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep03 00:28:00}
+
+## من درس الشيخ عمر عبد الكافي: تفسير القرآن (الحلقة 3)
+
+يقول الشيخ إن آدم كان آخر المخلوقات، وإن الله جعل كل ما خلقه قبله مسخرا لخدمته {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep03 00:01:30}. ويعدد من ذلك الكواكب والأرض والنجوم والبحار والمحيطات والنباتات والحيوانات {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep03 00:01:30}.
+
+ويقول إن الكون كله صار خادما لابن آدم، لكن الخادم في الظاهر أطول عمرا من المخدوم، كالشمس والقمر والبحار {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep03 00:02:00}.
+
+ويقول إن الكون مخلوق منذ ملايين السنين ويبقى إلى ما شاء الله، وإن عمر الإنسان ما بين الستين والمئة والعشرين (needs_source) {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep03 00:02:30}. ويتساءل كيف يكون المخدوم، وهو الأرقى حالا، أقصر عمرا {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep03 00:02:30}.
