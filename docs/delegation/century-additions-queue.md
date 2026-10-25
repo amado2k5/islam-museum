@@ -13,16 +13,16 @@ lists' own order. Status markers: [ ] queued · [~] in a writer's hands · [x] m
 - [x] Abdus Salam — 1926–1996
 - [x] Azim Premji — 1945–Living
 - [x] Muhammad Yunus — 1940–Living
-- [ ] Shirin Ebadi — 1947–Living
-- [ ] Tawakkol Karman — 1979–Living
-- [ ] Naguib Mahfouz — 1911–2006
-- [ ] Orhan Pamuk — 1952–Living
-- [ ] Aziz Sancar — 1946–Living
-- [ ] Fazlur Rahman Khan — 1929–1982
-- [ ] Zaha Hadid — 1950–2016
-- [ ] Mostafa El-Sayed — 1933–Living
-- [ ] Rana Dajani — 1964–Living
-- [ ] Uğur Şahin — 1965–Living
+- [~] Shirin Ebadi — 1947–Living
+- [~] Tawakkol Karman — 1979–Living
+- [~] Naguib Mahfouz — 1911–2006
+- [~] Orhan Pamuk — 1952–Living
+- [~] Aziz Sancar — 1946–Living
+- [~] Fazlur Rahman Khan — 1929–1982
+- [~] Zaha Hadid — 1950–2016
+- [~] Mostafa El-Sayed — 1933–Living
+- [~] Rana Dajani — 1964–Living
+- [~] Uğur Şahin — 1965–Living
 - [ ] Özlem Türeci — 1967–Living
 - [ ] Anousheh Ansari — 1966–Living
 - [ ] Sultan bin Salman Al Saud — 1956–Living
