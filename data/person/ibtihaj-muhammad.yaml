@@ -1,0 +1,35 @@
+id: person/ibtihaj-muhammad
+class: person
+label: { ar: "ابتهاج محمد", en: "Ibtihaj Muhammad", ur: "ابتہاج محمد" }
+names:
+  - { value: "ابتهاج محمد", kind: full }
+  - { value: "Ibtihaj Muhammad", kind: full }
+gender: female
+summary:
+  ar: "مبارزة أمريكية بالسيف (السابر) وكاتبة ورائدة أعمال، وُلدت سنة 1985 في نيوجيرسي، فازت مع فريق الولايات المتحدة بذهبية بطولة العالم 2014، وفي أولمبياد ريو 2016 أصبحت أول أمريكية تنافس في الأولمبياد مرتدية الحجاب وأول مسلمة أمريكية تفوز بميدالية أولمبية، إذ نالت برونزية فرق السابر."
+  en: "American sabre fencer, author and entrepreneur, born in New Jersey in 1985. She won World Championship team gold in 2014, and at the Rio 2016 Olympics became the first American woman to compete at the Olympics in hijab and the first Muslim American woman to win an Olympic medal, taking bronze in the women's team sabre."
+  ur: "امریکی سیبر شمشیر باز، مصنفہ اور کاروباری خاتون، جو 1985 میں نیو جرسی میں پیدا ہوئیں۔ انہوں نے 2014 میں عالمی ٹیم طلائی تمغا جیتا، اور ریو 2016 اولمپکس میں اولمپکس میں حجاب پہن کر حصہ لینے والی پہلی امریکی خاتون اور اولمپک تمغا جیتنے والی پہلی مسلم امریکی خاتون بنیں، جب انہوں نے خواتین کی ٹیم سیبر میں کانسی کا تمغا حاصل کیا۔"
+roles: [fencer, writer]
+wings: [people, living]
+born:
+  edtf: "1985-12-04"
+  hijri: "1406"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "Gregorian date from English Wikipedia and Wikidata Q3147556. The English article says she was born in New Jersey and raised in Maplewood; Wikidata gives her birthplace as Maplewood (Q32525) and the Arabic article likewise gives Maplewood. Maplewood has no place entity in the museum yet, so no born_in relation is written. The Hijri year (1406) is derived by tabular conversion."
+  sources: [source/wikipedia-ibtihaj-muhammad-en, source/wikidata-ibtihaj-muhammad, source/wikipedia-ibtihaj-muhammad-ar]
+faith:
+  - value: unknown
+    basis: unknown
+    note: "Wikidata gives her religion only as Islam (Q432). The English article describes her as a Muslim woman who competes in hijab and names no school; the Arabic article adds that her parents are African American converts to Islam, which is family background, not an attestation of her school. Not recorded until two independent sources name a school."
+    sources: [source/wikidata-ibtihaj-muhammad, source/wikipedia-ibtihaj-muhammad-en, source/wikipedia-ibtihaj-muhammad-ar]
+external_ids: { wikidata: "Q3147556" }
+sources: [source/wikipedia-ibtihaj-muhammad-en, source/wikipedia-ibtihaj-muhammad-ar, source/wikipedia-ibtihaj-muhammad-ur, source/wikidata-ibtihaj-muhammad]
+provenance:
+  layer: own-research
+  source: "English Wikipedia (revision 1379608427 of 10 October 2026), Arabic Wikipedia (revision 76143884 of 8 August 2026), Urdu Wikipedia (revision 6719284 of 16 February 2025) and Wikidata Q3147556 (read through the Wikidata API); checked 24 October 2026. Olympics.com athlete pages returned access denied from this environment and are not cited."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: century-additions-4
+status: { review: published, completeness: 3, generated_by: "Muse (Muse Spark 1.3)" }

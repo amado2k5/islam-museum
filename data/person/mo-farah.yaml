@@ -1,0 +1,36 @@
+id: person/mo-farah
+class: person
+label: { ar: "محمد فرح", en: "Mo Farah", ur: "مو فرح" }
+names:
+  - { value: "محمد فرح", kind: full }
+  - { value: "Mohamed Muktar Jama Farah", kind: full }
+  - { value: "Hussein Abdi Kahin", kind: birth }
+gender: male
+summary:
+  ar: "عدّاء مسافات طويلة بريطاني من أصل صومالي، وُلد سنة 1983، فاز بذهبيتي 5000 و10000 متر في أولمبياد لندن 2012 وكرر الإنجاز في ريو 2016، وحقق ستة ألقاب عالمية، وهو أنجح عدّاء مسافات في تاريخ بطولات العالم الكبرى وأنجح رياضي بريطاني في تاريخ الأولمبياد في ألعاب القوى، واعتزل سنة 2023. كشف سنة 2022 أنه جاء إلى بريطانيا طفلا مهربا باسم طفل آخر."
+  en: "British long-distance runner of Somali origin, born in 1983. He won the 5,000 m and 10,000 m gold medals at the London 2012 Olympics and repeated the double at Rio 2016, took six World Championship titles, and is the most successful male track distance runner in global championship history and Britain's most successful Olympic track athlete. He retired in 2023. In 2022 he revealed that he had been trafficked to Britain as a child under another child's name."
+  ur: "صومالی نژاد برطانوی طویل فاصلے کے دوڑنے والے، جو 1983 میں پیدا ہوئے۔ انہوں نے لندن 2012 اولمپکس میں 5,000 اور 10,000 میٹر کے طلائی تمغے جیتے اور ریو 2016 میں یہی کارنامہ دہرایا، چھ عالمی ٹائٹل حاصل کیے، اور عالمی چیمپئن شپ کی تاریخ کے کامیاب ترین مرد ٹریک فاصلاتی رنر اور برطانیہ کے کامیاب ترین اولمپک ٹریک ایتھلیٹ ہیں۔ وہ 2023 میں ریٹائر ہوئے۔ 2022 میں انہوں نے انکشاف کیا کہ انہیں بچپن میں کسی اور بچے کے نام پر برطانیہ اسمگل کیا گیا تھا۔"
+roles: [long-distance runner]
+wings: [people, living]
+born:
+  edtf: "1983-03-23"
+  hijri: "1403"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "Gregorian date from English and Arabic Wikipedia and Wikidata Q1671. The birthplace is disputed between the sources: the Arabic article gives Mogadishu, Wikidata gives the Gabiley area (Q1016892), and the English article names no town, so no born_in relation is written. The Hijri year (1403) is derived by tabular conversion."
+  sources: [source/wikipedia-mo-farah-en, source/wikipedia-mo-farah-ar, source/wikidata-mo-farah]
+faith:
+  - value: unknown
+    basis: unknown
+    note: "The English article describes him as a Muslim who prays before races, deferred his Ramadan fast during the London 2012 Games, and moved with his family to Qatar in 2026 saying he wanted his children to grow up knowing the faith; Wikidata gives his religion only as Islam (Q432), and the Arabic article names no religion. Public practice is not a school attestation, and no source names a school."
+    sources: [source/wikipedia-mo-farah-en, source/wikidata-mo-farah]
+external_ids: { wikidata: "Q1671" }
+sources: [source/wikipedia-mo-farah-en, source/wikipedia-mo-farah-ar, source/wikidata-mo-farah]
+provenance:
+  layer: own-research
+  source: "English Wikipedia (revision 1381198018 of 20 October 2026), Arabic Wikipedia (revision 75427142 of 13 June 2026) and Wikidata Q1671 (read through the Wikidata API); checked 24 October 2026. The Arabic article still carries the pre-2022 account of his arrival in Britain and gives Mogadishu as his birthplace; the English article governs those facts. No Urdu Wikipedia article exists for him; checked via the Arabic article's language links."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: century-additions-4
+status: { review: published, completeness: 3, generated_by: "Muse (Muse Spark 1.3)" }
