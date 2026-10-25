@@ -1,4 +1,10 @@
 id: person/amr-ibn-adi
+education:
+  did_you_know:
+    ar: "عمرو بن عدي أول ملوك اللخميين على الحيرة، وليها بعد موت جذيمة في عهد كسرى سابور، ولم تزل ملوك اللخم تتوالى عليها حتى ولّى الفرس عاملاً."
+    en: "Amr ibn Adi was the first Lakhmid king over al-Hira, installed after Jadhima's death under Khusraw Sabur; the Lakhmid kings held it in succession until the Persians appointed their own governor."
+    ur: "عمرو بن عدی حیرہ پر پہلا لخمی بادشاہ تھا، جسے جذیمہ کی موت کے بعد خسرو سابور کے زمانے میں بٹھایا گیا؛ لخمی بادشاہوں کی حکومت چلتی رہی یہاں تک کہ فارسیوں نے اپنا حاکم مقرر کیا۔"
+    sources: [source/muruj-al-dhahab, source/tabaqat-ibn-sad]
 class: person
 label: { en: "Amr ibn Adi ibn Nasr al-Lakhmi", ar: "عمرو بن عدي اللخمي" }
 gender: male
@@ -17,3 +23,9 @@ relations:
   - { type: successor_of, target: person/jadhima-al-abrash }
 sources: [source/mubarakpuri-raheeq, source/muruj-al-dhahab, source/muhadarat-tarikh-al-umam-al-islamiyya]
 status: { review: draft, completeness: 2, generated_by: "Devin; al-Raheeq al-Makhtum pp. 23–34 (batch 25b)" }
+provenance:
+  layer: own-research
+  source: "source/muruj-al-dhahab"
+  generated_by: Devin
+  model: "unknown"
+  run: "education-E3-facts-batch14"
