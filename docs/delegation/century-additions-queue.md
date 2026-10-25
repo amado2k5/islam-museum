@@ -73,11 +73,11 @@ lists' own order. Status markers: [ ] queued · [~] in a writer's hands · [x] m
 - [x] Ramy Youssef — 1991–Living
 - [x] Riz Ahmed — 1982–Living
 - [x] Hasan Minhaj — 1985–Living
-- [ ] Dave Chappelle — 1973–Living
-- [ ] Yasin Bey (Mos Def) — 1973–Living
-- [ ] K'naan — 1978–Living
-- [ ] Dalia Mogahed — 1974–Living
-- [ ] Ingrid Mattson — 1963–Living
+- [x] Dave Chappelle — 1973–Living
+- [x] Yasin Bey (Mos Def) — 1973–Living
+- [x] K'naan — 1978–Living
+- [x] Dalia Mogahed — 1974–Living
+- [x] Ingrid Mattson — 1963–Living
 - [ ] Amina Wadud — 1952–Living
 - [ ] Asma Afsaruddin — 1958–Living
 - [ ] Seyed Hossein Nasr — 1933–Living
