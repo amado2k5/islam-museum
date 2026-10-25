@@ -1,0 +1,47 @@
+id: person/muhammad-salih-al-munajjid
+class: person
+label:
+  ar: محمد صالح المنجد
+  en: Muhammad Salih Al-Munajjid
+  ur: محمد صالح المنجد
+names:
+  - { value: "محمد صالح المنجد", kind: full, lang: ar }
+  - { value: "Muhammad Salih al-Munajjid", kind: full, lang: en }
+  - { value: "أبو أنس", kind: kunya, lang: ar }
+gender: male
+summary:
+  ar: "محمد صالح المنجد (وُلد 1961م) عالم وداعية سوري من أصل فلسطيني مقيم في السعودية، مؤسس موقع «الإسلام سؤال وجواب» (1996م) والمشرف العام عليه، ومؤسس شركة مجموعة زاد ومشرفها، ومن مشاريعها أكاديمية زاد وقناة زاد الفضائية، وهو إمام وخطيب جامع عمر بن عبد العزيز بالخبر."
+  en: "Muhammad Salih Al-Munajjid (born 1961) is a Syrian-born Islamic scholar and preacher of Palestinian family, resident in Saudi Arabia: founder of the IslamQA website (1996) and its general supervisor, and founder of the ZAD Group, whose projects include the ZAD Academy and the ZAD satellite channel; he is imam and khatib of the Umar ibn Abd al-Aziz Mosque in al-Khobar."
+  ur: "محمد صالح المنجد (پیدائش 1961ء) شام میں پیدا ہونے والے فلسطینی نژاد عالم و داعی ہیں جو سعودی عرب میں مقیم ہیں: ویب سائٹ «اسلام سوال و جواب» (1996ء) کے بانی اور نگرانِ عام، اور زاد گروپ کے بانی، جس کے منصوبوں میں زاد اکیڈمی بھی شامل ہے۔"
+roles: [scholar, preacher, writer]
+wings: [people, living]
+born:
+  edtf: "1961-06-13"
+  hijri: "1380"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: false
+  note: "Born in Aleppo to Palestinian refugee parents. Both Wikipedia articles give the Hijri date 30 Dhu al-Hijja 1380 AH; the Arabic article dates it 13 June 1961 (sourced to IslamQA's own biography of its supervisor) and the English article's infobox 14 June 1961, and Wikidata gives only the year 1960, so the Arabic article's date is recorded and the variants stated. The kunya Abu Anas is from the Arabic article."
+  sources: [source/wikipedia-muhammad-salih-al-munajjid-ar, source/wikipedia-muhammad-salih-al-munajjid-en, source/wikidata-muhammad-salih-al-munajjid]
+relations:
+  - { type: born_in, target: place/aleppo }
+  - { type: student_of, target: person/ibn-baz-abd-al-aziz }
+faith:
+  - value: unknown
+    basis: unknown
+    note: "Not recorded as a school. The Arabic article's infobox gives his creed as Islam, Ahl al-Sunna wa'l-Jama'a; the English article's infobox gives denomination Sunni and creed Athari; Wikidata gives religion as Sunni Islam. All three are infobox or structured fields of one source family, and no source names a school of law — a single infobox family is not two independent attestations, so the value stays unknown under the two-source rule."
+    sources: [source/wikipedia-muhammad-salih-al-munajjid-ar, source/wikipedia-muhammad-salih-al-munajjid-en, source/wikidata-muhammad-salih-al-munajjid]
+external_ids: { wikidata: "Q117803" }
+sources:
+  - source/wikipedia-muhammad-salih-al-munajjid-ar
+  - source/wikipedia-muhammad-salih-al-munajjid-en
+  - source/wikidata-muhammad-salih-al-munajjid
+  - source/wikipedia-zad-group-ar
+  - source/youtube-academyzad
+provenance:
+  layer: own-research
+  source: "Arabic Wikipedia article (revision 76345674), English Wikipedia article (revision 1371264846) and Wikidata item Q117803 (structured data: birthplace Aleppo; birth given at year precision 1960, which conflicts with the articles' June 1961 - the variant is stated in the record), the Arabic Wikipedia article on the ZAD Group (revision 68630870), and the ZAD Academy programme's own YouTube channel (@academyzad), its project's channel; checked 26 October 2026."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: modern-figures-batch-26
+status: { review: published, completeness: 3 }
