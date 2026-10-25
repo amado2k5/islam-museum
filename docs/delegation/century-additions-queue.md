@@ -113,11 +113,11 @@ lists' own order. Status markers: [ ] queued · [~] in a writer's hands · [x] m
 - [x] Zinedine Zidane — 1972–Living
 - [x] Mesut Özil — 1988–Living
 - [x] Paul Pogba — 1993–Living
-- [ ] N'Golo Kanté — 1991–Living
-- [ ] Kenia Os — 1999–Living
-- [ ] Sariyah Idan — 1985–Living
-- [ ] Sami Said — 1998–Living
-- [ ] Dina Shihabi — 1989–Living
+- [x] N'Golo Kanté — 1991–Living
+- [x] Kenia Os — 1999–Living
+- [x] Sariyah Idan — 1985–Living
+- [x] Sami Said — 1998–Living
+- [x] Dina Shihabi — 1989–Living
 - [ ] May Calamawy — 1986–Living
 - [ ] Shohreh Aghdashloo — 1952–Living
 - [ ] Asghar Farhadi — 1972–Living
