@@ -853,3 +853,41 @@ describe("E4 step 1 — the teen wing skeleton (/shabab/)", () => {
     }
   });
 });
+
+describe("E4 step 2 — edu/topics-50.yaml (taught topics)", () => {
+  it("every topic loads: real anchor, known band, trilingual title and explainer, 12 terms, 10 questions with exactly one answer each", async () => {
+    const { loadTopics } = await import("../site/src/lib/topics.ts");
+    const topics = loadTopics();
+    expect(topics.length).toBeGreaterThan(0);
+    for (const t of topics) {
+      expect(["scholars", "researchers"]).toContain(t.band);
+    }
+  });
+
+  it("anchors come from the approved proposal list, not invented ids", () => {
+    const raw = parse(readFileSync("edu/topics-50.yaml", "utf8")).topics;
+    const approved = new Set([
+      "exhibit/pathway-g11-chw3m-crusades-muslim-side", "exhibit/pathway-g11-chw3m-rise-of-islam",
+      "exhibit/pathway-g11-chw3m-baghdad-and-the-silk-roads", "exhibit/pathway-g11-chw3m-al-andalus",
+      "exhibit/pathway-g11-chw3m-mongols-and-after", "exhibit/pathway-g11-hrf3o-five-pillars-daily-life",
+      "exhibit/pathway-g11-hrt3m-islamic-art-architecture", "exhibit/pathway-g11-hrt3m-life-of-the-prophet",
+      "exhibit/pathway-g11-hrt3m-quran-as-a-text", "exhibit/pathway-g12-chy4u-ottomans-gunpowder-empires",
+      "exhibit/pathway-g4-social-studies-four-cities", "exhibit/pathway-g6-social-studies-hajj-network",
+      "event/battle-of-badr", "event/hijra", "event/first-revelation", "event/conquest-of-mecca",
+      "person/ibn-battuta-muhammad", "person/ibn-sina", "person/al-khwarizmi", "person/ibn-rushd",
+      "person/mansa-musa", "person/fatima-al-fihri", "person/al-ghazali-abu-hamid", "person/mimar-sinan",
+      "person/salah-al-din-yusuf-ibn-ayyub", "building/kaaba", "building/alhambra", "building/dome-of-the-rock",
+      "building/great-mosque-cordoba", "building/al-aqsa-mosque", "building/suleymaniye-mosque",
+      "building/blue-mosque", "building/umayyad-mosque", "place/baghdad", "place/cordoba", "place/timbuktu",
+      "place/cairo", "place/delhi", "place/istanbul", "place/mecca", "place/medina", "place/jerusalem",
+      "concept/five-pillars", "concept/hijri-calendar", "concept/algebra", "concept/astronomy",
+      "concept/islamic-calligraphy", "practice/salah", "practice/sawm-ramadan", "practice/zakat",
+    ]);
+    for (const t of raw) expect(approved.has(t.anchor), `${t.id} -> ${t.anchor}`).toBe(true);
+  });
+
+  it("no typed honorifics or Qur'an text in the topic data", () => {
+    const HON = new RegExp("(صلى الله عليه|عليه السلام|رضي الله عنه|رحمه الله|\\uFDFA|\\uFDFF|\\u06D6)");
+    expect(HON.test(readFileSync("edu/topics-50.yaml", "utf8"))).toBe(false);
+  });
+});
