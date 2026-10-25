@@ -138,6 +138,7 @@ The series slug is the archive's own slug (its URL), and `epNN` is the episode n
 2. `data/source/<site>-<speaker>.yaml`: `kind: primary`, `type: audio`/`video` lecture archive, `reliability_note` with the date checked and the rule: a primary source for what the speaker says, not for history.
 3. `docs/attribution.md`: one row.
 4. `docs/agents/source-families.md`: one row in the registered table.
+5. `scripts/harvest/library/authenticity.yaml` (one `sources` entry, `allowed_uses` held at `pointer` until the founder decides wider uses) and `docs/authenticity-ledger/websites/<domain>.yaml` (archive checks, evidence, history). Then `python3 scripts/harvest/library/authenticity_ledger.py --check` must report 0 problems.
 
 ## 7. Progress and handoff
 

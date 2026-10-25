@@ -1,0 +1,25 @@
+id: assabile.com
+kind: website
+url: https://www.assabile.com/omar-abdelkafy
+tier: T2
+status: pending-founder-decision
+allowed_uses:
+- pointer
+owner: Assabile, a lecture archive; the speaker's own recorded lessons (Omar Abdelkafy)
+evidence:
+- robots.txt checked 2026-10-25 (lesson pages and media.assabile.com not disallowed)
+- no licence statement found on the site on 2026-10-25
+- archive index: 25 series, 622 lessons (7 video, 18 audio), read in the built-in browser on 2026-10-25
+- Arabic and English Wikipedia and Wikidata give birth on 1 May 1951; the archive biography gives Labour Day 1952
+checks:
+- date: '2026-10-25'
+  type: archive page text compared with English Wikipedia and Wikidata, birth date
+  basis: site biography text, not a named edition
+  result: conflict recorded, not settled
+  valid: false
+history:
+- date: '2026-10-25'
+  event: registered as a recorded-lecture archive for facts cited by series, episode and timestamp (founder's instruction, 25 Oct 2026); allowed uses held at pointer until the founder decides
+- date: '2026-10-25'
+  event: audio downloads and transcripts kept in the harvest workspace, not in git; transcription method in docs/agents/audio-video-harvest.md
+retrieved_on: '2026-10-25'
