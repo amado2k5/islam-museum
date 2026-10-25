@@ -24,6 +24,8 @@ export const BUDGETS: Budget[] = [
   { family: "child activity", route: "/ar/sighar/quest/", html: 210 * KB, js: 14 * KB },
   { family: "child activity", route: "/ar/sighar/kindness/", html: 210 * KB, js: 14 * KB },
   { family: "child activity", route: "/ar/sighar/mosque/", html: 210 * KB, js: 14 * KB },
+  // E2 leftover A1: the Sprouts read-aloud stories page (server-rendered, no page script)
+  { family: "child activity", route: "/ar/sighar/sprouts/stories/", html: 210 * KB, js: 14 * KB },
   { family: "deck with study modes", route: "/ar/cards/list/tartib-al-anbiya/", html: 210 * KB, js: 30 * KB },
   { family: "lesson (printable)", route: "/ar/sighar/teachers/lessons/quest/", html: 200 * KB, js: 6 * KB },
   { family: "listing", route: "/ar/learn/trails/", html: 600 * KB, js: 12 * KB },
