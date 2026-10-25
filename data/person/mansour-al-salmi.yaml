@@ -1,0 +1,40 @@
+id: person/mansour-al-salmi
+class: person
+label: { ar: "منصور السالمي", en: "Mansour Al Salmi", ur: "منصور السالمي" }
+names:
+  - { value: "منصور السالمي", kind: full }
+  - { value: "Mansour Al Salmi", kind: full }
+  - { value: "منصور عابد السالمي", kind: full }
+  - { value: "Mansur Abid Al-Salimi", kind: full }
+  - { value: "Mansoor Al Salmi", kind: alternate }
+gender: male
+summary:
+  ar: "داعية وقارئ قرآن سعودي، وُلد في جدة سنة 1983، يعمل إماما في جدة ومدرّس تربية إسلامية فيها، واشتهر بتلاواته ومحاضراته الدعوية، وبمشاركاته المتكررة مع الداعية نايف الصحفي، وتصل تلاواته عبر قناته الرسمية على يوتيوب إلى ملايين المستمعين."
+  en: "Saudi preacher and Quran reciter, born in Jeddah in 1983. He serves as an imam in Jeddah and teaches Islamic education there, and became known for his recitations and dawah lectures, his frequent joint appearances with the preacher Nayef Al-Sahfi, and recitation recordings on his official YouTube channel that reach millions of listeners."
+  ur: "سعودی مبلغ اور قاریِ قرآن، جو 1983 میں جدہ میں پیدا ہوئے۔ وہ جدہ میں امام ہیں اور وہیں اسلامی تعلیم پڑھاتے ہیں، اور اپنی تلاوتوں اور دینی لیکچرز، مبلغ نائف الصحفی کے ساتھ اپنی بار بار کی مشترکہ نشستوں، اور اپنے سرکاری یوٹیوب چینل پر لاکھوں سامعین تک پہنچنے والی تلاوتوں کے لیے جانے گئے۔"
+roles: [preacher, reciter]
+wings: [people, living]
+born:
+  edtf: "1983-06-07"
+  hijri: "1403"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "Gregorian date and birthplace (Jeddah) from Mawdoo3's profile; the Hijri year (1403) is derived from the Gregorian date."
+  sources: [source/mawdoo3-mansour-al-salmi]
+relations:
+  - { type: born_in, target: place/jeddah, sources: [source/mawdoo3-mansour-al-salmi] }
+  - { type: lived_in, target: place/jeddah, sources: [source/mawdoo3-mansour-al-salmi] }
+faith:
+  - value: unknown
+    basis: unknown
+    note: "No source names a school or path for him. Mawdoo3's profile names none; the publisher biography reports a degree in Aqeedah (Islamic creed) at Umm al-Qura University, which is an education record, not an attestation of a school; his own channel's self-presentation is not an attestation either. Not recorded until two independent sources name his own school."
+    sources: [source/mawdoo3-mansour-al-salmi, source/storytel-mansour-al-salimi, source/youtube-sheikhmansouralsalmi]
+sources: [source/mawdoo3-mansour-al-salmi, source/youtube-sheikhmansouralsalmi, source/storytel-mansour-al-salimi]
+provenance:
+  layer: own-research
+  source: "Mawdoo3's profile «منصور السالمي (داعية وقارئ قرآن سعودي)», his own YouTube channel @sheikhmansouralsalmi (which describes itself as his official channel; a joint-lecture upload lists this handle among his accounts alongside Instagram m.alsalmy1, Twitter malsalmy2 and Facebook/Snapchat mn99y), and the Storytel / House of Recitations audiobook biography, as cited in those sources and checked on 25 October 2026. No Wikipedia article on him exists in any language checked and no Wikidata item exists (searched 25 October 2026), so this record is built on the channel-plus-profiles ladder. Mawdoo3 names the Musab bin Umair Mosque in Jeddah as his mosque, while the app-circulated version of the publisher biography names Al-Farouq Mosque in Jeddah; the discrepancy is noted and no mosque is carried in the data. The channel header's subscriber figure could not be extracted in the text check, so no subscriber figure is carried as a fact; the channel's reach is documented by its view counts (Surah Al-Baqarah recitation at about 16 million views) and by Mawdoo3's report of more than 15 million channel views and more than 1.5 million Instagram followers."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: modern-figures-batch-17
+status: { review: published, completeness: 3, generated_by: "Muse (Muse Spark 1.3)" }
