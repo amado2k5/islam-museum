@@ -741,3 +741,41 @@ describe("education: Where am I? gentle (E3 step 6, plan §5)", () => {
     }
   });
 });
+
+describe("education: homework search (E3 step 7, plan §5)", () => {
+  it("edu/homework-topics.yaml has 50 topics × 3 phrasings in each language, every target real", async () => {
+    const { loadHomework, viewHomework } = await import("../site/src/lib/homework.ts");
+    const topics = loadHomework();
+    expect(topics.length).toBe(50);
+    for (const t of topics) {
+      for (const l of LANGS) {
+        expect(t.phrasings[l].length, `${t.id} ${l}`).toBe(3);
+        expect(new Set(t.phrasings[l]).size).toBe(3);
+        expect(t.title[l].length).toBeGreaterThan(0);
+      }
+      expect(viewHomework(t, "en").href.startsWith("/en/")).toBe(true);
+    }
+    // the plan's example: «الحروب الصليبية واجب» is a phrasing of the crusades topic
+    const crusades = topics.find((x) => x.id === "crusades")!;
+    expect(crusades.phrasings.ar).toContain("الحروب الصليبية واجب");
+    expect(crusades.target).toBe("exhibit/pathway-g11-chw3m-crusades-muslim-side");
+  });
+
+  it("the phrasings merge into the search synonyms at build, and the zero-result strip is wired", () => {
+    const derive = readFileSync("scripts/derive.ts", "utf8");
+    expect(derive.includes("homework-topics.yaml")).toBe(true);
+    const search = readFileSync("site/src/pages/[lang]/search/index.astro", "utf8");
+    expect(search.includes("hw-strip")).toBe(true);
+    expect(search.includes("homeworkViews")).toBe(true);
+    expect(search.includes("pagefind-ui__result")).toBe(true);
+    const hub = readFileSync("site/src/pages/[lang]/learn/teachers/index.astro", "utf8");
+    expect(hub.includes("homeworkViews")).toBe(true);
+  });
+
+  it("the hw_* strings exist in all three languages and Urdu is not the English", () => {
+    for (const k of Object.keys(i18n("ar").edu).filter((k) => k.startsWith("hw_"))) {
+      for (const l of LANGS) expect(typeof i18n(l).edu[k] === "string" && i18n(l).edu[k].length > 0, `${l} ${k}`).toBe(true);
+      expect(i18n("ur").edu[k] === i18n("en").edu[k], `ur repeats en for ${k}`).toBe(false);
+    }
+  });
+});
