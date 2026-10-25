@@ -2,25 +2,27 @@ id: person/ahmad-jami
 class: person
 label:
   ar: "أحمد الجامي"
-  en: "Ahmad-e Jami"
-roles: [scholar, poet]
+  en: "Ahmad-e Jami (Zhanda Pil, Khorasani Sufi, d. 1141)"
+names:
+  - { kind: full, lang: ar, value: "شهاب الدين أبو نصر أحمد بن أبي الحسن بن أحمد بن محمد النامقي الجامي" }
+roles: [scholar, poet, mystic]
 gender: male
+born: { edtf: "1049~", hijri: "0441~", calendar: julian, precision: year, status: tradition, derived: true, note: "Born in Nama, Turshiz, 441/1049-50, EI2.", sources: [source/encyclopaedia-of-islam-2] }
+died: { edtf: "1141~", hijri: "0536~", calendar: julian, precision: year, status: tradition, derived: true, note: "Died Muharram 536/August 1141 at his convent, EI2.", sources: [source/encyclopaedia-of-islam-2] }
 summary:
-  ar: "بطاقة أولية لأحمد الجامي، صوفي خراسان وشاعر فارسي القرن الثاني عشر الملقب بزنده بيل، توفي سنة ١١٤١م؛ تذكره معاجم الأعلام ولم تُراجع ترجمته على الصفحة بعد."
-  en: "Draft card for Ahmad-e Jami, the twelfth-century Khorasani Sufi and Persian poet called Zhanda Pil, d. 1141; the biographical entry is not yet checked on the page."
+  ar: "أحمد الجامي، شهاب الدين أبو نصر، صوفي خراساني وشاعر فارسي من قرية نامق بطوس، ولد سنة 441هـ/1049م تقريبًا، وتوفي في خانقاهه بجام في محرم 536هـ/1141م، وله منظومات وكتب بالفارسية، ويلقب «زنده بيل» {cite:encyclopaedia-of-islam-2 vol. 1 p. 305}."
+  en: "Ahmad-e Jami, Shihab al-Din Abu Nasr, a Khorasani Sufi and Persian writer, born in the village of Nama in Turshiz about 441/1049–50 and called Zhanda Pil. After a conversion in 463/1070–1 he lived in solitude, and later founded a convent and a mosque at Ma'addabad of Jam, where he died in Muharram 536/1141. His Persian works include Uns al-tainin and Sirat al-sairin {cite:encyclopaedia-of-islam-2 vol. 1 p. 305}."
 wings: [people]
 regions: [persia-central-asia]
 periods: [period/buyid-seljuk-fatimid-era]
 themes: [spirituality-and-sufism]
-sources: [source/al-aalam]
+sources: [source/al-aalam, source/encyclopaedia-of-islam-2]
 external_ids:
   wikidata: Q3780300
 provenance:
   layer: own-research
-  source: "Wikidata candidate; book source: al-Zirikli, al-A'lam — entry not yet read on the page"
-  generated_by: "Devin (SWE-2 High)"
-  model: "SWE-2 High"
-  run: wikidata-import-0027
+  source: "Encyclopaedia of Islam, 2nd ed. (Brill), vol. 1, PDF p. 305, article 'Ahmad-i Djam' (EI2 enrichment, batch ei2-b003 part 3ci; the article runs on to about p. 306); Wikidata Q3780300 for the identifier"
+  generated_by: "Claude Code (claude-haiku-5-5)"
 status:
-  review: draft
-  completeness: 1
+  review: published
+  completeness: 2
