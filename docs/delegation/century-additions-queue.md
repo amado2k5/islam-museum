@@ -128,11 +128,11 @@ lists' own order. Status markers: [ ] queued · [~] in a writer's hands · [x] m
 - [x] Haifaa al-Mansour — 1974–Living
 - [x] Nadine Labaki — 1974–Living
 - [x] Jehane Noujaim — 1974–Living
-- [ ] Academy Award Winner Sharmeen Obaid-Chinoy — 1978–Living
-- [ ] Kazi Nazrul Islam — 1899–1976
-- [ ] Humayun Ahmed — 1948–2012
-- [ ] Zainul Abedin — 1914–1976
-- [ ] SM Sultan — 1923–1994
+- [x] Academy Award Winner Sharmeen Obaid-Chinoy — 1978–Living
+- [x] Kazi Nazrul Islam — 1899–1976
+- [x] Humayun Ahmed — 1948–2012
+- [x] Zainul Abedin — 1914–1976
+- [x] SM Sultan — 1923–1994
 - [ ] Feryal Clark — 1979–Living
 - [ ] Shabana Mahmood — 1980–Living
 - [ ] Rushanara Ali — 1975–Living
@@ -1015,7 +1015,7 @@ lists' own order. Status markers: [ ] queued · [~] in a writer's hands · [x] m
 - [ ] Syed Nawab Ali Chowdhury (1863–1929)
 - [ ] Nawab Faizunnesa Choudhurani (1834–1903)
 - [ ] Rokeya Sakhawat Hossain (1880–1932)
-- [ ] Kazi Nazrul Islam (1899–1976)
+- [x] Kazi Nazrul Islam (1899–1976) (built under §A)
 - [ ] Ismail Hossain Siraji (1880–1931)
 - [ ] Meer Mosharraf Hossain (1847–1912)
 - [ ] Muhammad Husain Azad (1830–1910)

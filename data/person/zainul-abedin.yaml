@@ -1,0 +1,49 @@
+id: person/zainul-abedin
+class: person
+label: { ar: "زين العابدين", en: "Zainul Abedin", ur: "زین العابدین" }
+names:
+  - { value: "Zainul Abedin", kind: full }
+  - { value: "জয়নুল আবেদিন", kind: full }
+  - { value: "Shilpacharya", kind: laqab }
+gender: male
+summary:
+  ar: "رسام بنغلاديشي (1914–1976) لُقّب بـ«شيلباتشاريا» أي سيد الفن، ويُعد مؤسس الفن الحديث في بنغلاديش. وُلد في كيشورغانج، وذاعت شهرته سنة 1944 برسوم مجاعة البنغال سنة 1943 التي رسمها بحبر صنعه من الفحم المحروق على ورق رخيص، وأسس سنة 1948 معهد الفنون والحرف في جامعة دكا وكان أول مدير له، وتوفي في دكا سنة 1976."
+  en: "Bangladeshi painter (1914–1976), titled Shilpacharya, 'Great Teacher of the Arts', and regarded as the founding father of Bangladeshi modern art. Born in Kishoreganj, he became well known in 1944 through his sketches of the 1943 Bengal famine, drawn with ink he made from burnt charcoal on cheap packing paper. In 1948 he helped establish the Institute of Arts and Crafts at the University of Dhaka and was its founding principal. He died in Dhaka in 1976."
+  ur: "بنگلہ دیشی مصور (1914ء–1976ء) جنھیں «شلپاچاریہ» یعنی استادِ فن کا لقب ملا اور جو بنگلہ دیش کے جدید فن کے بانی سمجھے جاتے ہیں۔ کشور گنج میں پیدا ہوئے، 1944 میں 1943 کے بنگال قحط کی خاکہ نگاری سے مشہور ہوئے جو انھوں نے جلے کوئلے کی سیاہی سے سستے کاغذ پر بنائی تھی۔ 1948 میں جامعہ ڈھاکہ میں انسٹی ٹیوٹ آف آرٹس اینڈ کرافٹس کے قیام میں حصہ لیا اور اس کے پہلے پرنسپل بنے۔ 1976 میں ڈھاکہ میں وفات پائی۔"
+roles: [artist]
+wings: [people]
+born:
+  edtf: "1914-12-29"
+  hijri: "1333"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "Born on 29 December 1914 at Kendua (now in Netrokona) in Kishoreganj district, Mymensingh, East Bengal, British India (now Bangladesh), per the English article; the Arabic article shortens the place to Kishoreganj district. No place entity for Kishoreganj, Kendua or Mymensingh exists in data/place/, so no born_in relation is written. The Hijri year (1333) is derived by tabular conversion."
+  sources: [source/wikipedia-zainul-abedin-en, source/wikipedia-zainul-abedin-ar, source/wikidata-zainul-abedin]
+died:
+  edtf: "1976-05-28"
+  hijri: "1396"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "Died on 28 May 1976 in Dhaka, Bangladesh, of lung cancer, per the English article; he was buried beside the Dhaka University Central Mosque. The Hijri year (1396) is derived by tabular conversion."
+  sources: [source/wikipedia-zainul-abedin-en, source/wikipedia-zainul-abedin-ar, source/wikidata-zainul-abedin]
+relations:
+  - { type: died_in, target: place/dhaka, sources: [source/wikipedia-zainul-abedin-en, source/wikipedia-zainul-abedin-ar] }
+  - { type: lived_in, target: place/dhaka, sources: [source/wikipedia-zainul-abedin-en] }
+  - { type: buried_in, target: place/dhaka, sources: [source/wikipedia-zainul-abedin-en] }
+faith:
+  - value: unknown
+    basis: unknown
+    note: "NOT RECORDED AS DOCUMENTED — no source names a school for him. The Arabic article's infobox gives his religion as Islam generically. The English article records that he was the first Muslim student to take a first-class distinction at the Government School of Art, and scholarly writing describes him as a Muslim artist born to a Muslim family — a communal identity and a family background, neither of which is an attestation of his own school. Under the two-source rule and the founder's doubt rule the faith is left unknown."
+    sources: [source/wikipedia-zainul-abedin-en, source/wikipedia-zainul-abedin-ar, source/wikidata-zainul-abedin]
+external_ids: { wikidata: "Q2443222" }
+sources: [source/wikipedia-zainul-abedin-en, source/wikipedia-zainul-abedin-ar, source/wikidata-zainul-abedin]
+provenance:
+  layer: own-research
+  source: "English Wikipedia 'Zainul Abedin' and Arabic Wikipedia «زين العابدين (رسام بنغلاديشي)», both read in full on 25 October 2026, and Wikidata Q2443222 (QID confirmed from the Wikipedia WikiProject Visual Arts list; the item itself is unreachable from this machine through the Wikimedia proxy block). The existing record person/zainul-abideen-azmi is a different person and was not touched. No earlier record for this painter existed in data/person/ under zainul-abedin or any other spelling checked."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: century-additions-17
+status: { review: published, completeness: 3, generated_by: "Muse (Muse Spark 1.3)" }
