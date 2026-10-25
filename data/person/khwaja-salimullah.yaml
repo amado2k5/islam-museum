@@ -1,0 +1,48 @@
+id: person/khwaja-salimullah
+class: person
+label: { ar: "خواجة سليم الله", en: "Khwaja Salimullah", ur: "خواجہ سلیم اللہ" }
+names:
+  - { value: "Khwaja Salimullah", kind: full }
+  - { value: "Khwaja Salimullah Bahadur", kind: full }
+  - { value: "Nawab Bahadur", kind: laqab }
+gender: male
+summary:
+  ar: "رابع نواب دكا (1871-1915)، حفيد خواجة عبد الغني وابن خواجة إحسان الله. استضاف في دكا مؤتمر التعليم المحمدي لعموم الهند في ديسمبر 1906 الذي تأسست في ختامه رابطة مسلمي عموم الهند (مسلم ليغ) فصار نائب رئيسها، وكان أبرز الداعين إلى تقسيم البنغال سنة 1905، وقاد المطالبة بجامعة في دكا حتى وُعد بها سنة 1912."
+  en: "Fourth Nawab of Dhaka (1871–1915), grandson of Khwaja Abdul Ghani and son of Khwaja Ahsanullah. He hosted the December 1906 All India Muhammadan Educational Conference at Dhaka at whose close the All-India Muslim League was founded, becoming its vice-president; he was a leading supporter of the 1905 Partition of Bengal and led the demand for a university at Dhaka until it was pledged in 1912."
+  ur: "ڈھاکہ کے چوتھے نواب (1871ء–1915ء)، خواجہ عبد الغنی کے پوتے اور خواجہ احسان اللہ کے بیٹے۔ انھوں نے دسمبر 1906ء میں ڈھاکہ میں آل انڈیا محمڈن ایجوکیشنل کانفرنس کی میزبانی کی جس کے اختتام پر آل انڈیا مسلم لیگ قائم ہوئی اور وہ اس کے نائب صدر بنے؛ وہ 1905ء میں تقسیمِ بنگال کے بڑے حامی تھے اور ڈھاکہ میں یونیورسٹی کے مطالبے کی قیادت کی یہاں تک کہ 1912ء میں اس کا وعدہ ملا۔"
+roles: [politician]
+wings: [people]
+born:
+  edtf: "1871-06-07"
+  hijri: "1288"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "Born at Ahsan Manzil, Dhaka, on 7 June 1871: the English article, Banglapedia and Wikidata agree. Eldest son of Khwaja Ahsanullah, third Nawab of Dhaka, and his first wife Nawab Begum Wahidunnesa; grandson of Khwaja Abdul Ghani. The Hijri year (1288) is derived by tabular conversion (7 June 1871 falls in Rabi' al-Awwal 1288)."
+  sources: [source/wikipedia-khwaja-salimullah-en, source/banglapedia-khwaja-salimullah, source/wikidata-khwaja-salimullah]
+died:
+  edtf: "1915-01-16"
+  hijri: "1333"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "Died at Chowringhee, Calcutta, on 16 January 1915, aged 43: the English article, Banglapedia and Wikidata agree. His body was brought back to Dhaka with state honours and buried in the family graveyard at Begum Bazaar (Banglapedia). The Hijri year (1333) is derived by tabular conversion (16 January 1915 falls in Safar 1333). Calcutta has no place entity in the museum yet, so no died_in relation is written."
+  sources: [source/wikipedia-khwaja-salimullah-en, source/banglapedia-khwaja-salimullah, source/wikidata-khwaja-salimullah]
+relations:
+  - { type: born_in, target: place/dhaka, sources: [source/wikipedia-khwaja-salimullah-en, source/banglapedia-khwaja-salimullah] }
+  - { type: buried_in, target: place/dhaka, sources: [source/banglapedia-khwaja-salimullah, source/wikipedia-khwaja-salimullah-en] }
+faith:
+  - value: unknown
+    basis: unknown
+    note: "NOT RECORDED AS DOCUMENTED — only one source family names a school for him. The English article's infobox records his religion as Sunni Islam. No second independent source names the school: the Arabic and Urdu articles name none; Banglapedia names none (his popularising of Milad celebrations and his madrasa-education reform work, recorded there, are public practice, not attestation); Wikidata (P140) gives Islam only. Under the lane's two-source rule and the founder's doubt rule the value stays unknown, with the single attestation stated here."
+    sources: [source/wikipedia-khwaja-salimullah-en, source/banglapedia-khwaja-salimullah, source/wikidata-khwaja-salimullah]
+external_ids: { wikidata: "Q3350461" }
+sources: [source/wikipedia-khwaja-salimullah-en, source/wikipedia-khwaja-salimullah-ur, source/wikipedia-khwaja-salimullah-ar, source/wikidata-khwaja-salimullah, source/banglapedia-khwaja-salimullah]
+provenance:
+  layer: own-research
+  source: "English Wikipedia 'Khwaja Salimullah', rev. 1358761376 of 10 June 2026; Urdu Wikipedia «خواجہ سلیم اللہ», rev. 11801205 of 18 August 2026; Arabic Wikipedia «خواجة سليم الله», rev. 73394809 of 10 February 2026; Banglapedia, 'Salimullah, Khwaja' by Mohammad Alamgir (Asiatic Society of Bangladesh), online edition; Wikidata Q3350461 read via the API. All read in full on 25 October 2026."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: century-additions-11
+status: { review: published, completeness: 3, generated_by: "Muse (Muse Spark 1.3)" }
