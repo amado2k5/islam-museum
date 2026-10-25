@@ -1,0 +1,35 @@
+id: person/ahmed-sbei
+class: person
+label: { ar: "أحمد سبيع", en: "Ahmed Sbei", ur: "احمد سبیع" }
+names:
+  - { value: "أحمد السيد أحمد سبيع", kind: full }
+  - { value: "Ahmed al-Sayyid Ahmed Sbei", kind: full }
+  - { value: "Ahmed Spea", kind: alternate }
+gender: male
+summary:
+  ar: "باحث مصري في مقارنة الأديان من الجيزة، وُلد في حدود سنة 1985. تعلم العبرية ليقرأ كتب مخالفيه في أصولها، وعمل في النقد النصي للعهد القديم، وأسس سنة 2014 قناة «البينة لمقارنة الأديان والرد على الشبهات» على يوتيوب التي تجاوز مشتركوها مليون مشترك، واعتُقل سنة 2020 ثم أُفرج عنه."
+  en: "Egyptian comparative-religion researcher from Giza, born in about 1985. He learned Hebrew in order to read his opponents' books in the original, worked in Old Testament textual criticism, and in 2014 founded the YouTube channel Al-Bayyinah (Comparative Religion and Answering Doubts), whose subscribers passed one million; he was detained in 2020 and later released."
+  ur: "جیزہ سے تعلق رکھنے والے مصری محققِ تقابلِ ادیان، جو تقریباً 1985 میں پیدا ہوئے۔ انہوں نے مخالفین کی کتابیں اصل میں پڑھنے کے لیے عبرانی سیکھی، عہدِ قدیم کی تنقیدِ متن پر کام کیا، اور 2014 میں یوٹیوب چینل «البینة لمقارنة الأديان والرد على الشبهات» قائم کیا جس کے سبسکرائبرز دس لاکھ سے تجاوز کر گئے؛ وہ 2020 میں گرفتار ہوئے اور بعد میں رہا کر دیے گئے۔"
+roles: [preacher, writer]
+wings: [people, living]
+born:
+  edtf: "1985"
+  hijri: "1405"
+  calendar: gregorian
+  precision: year
+  status: historical
+  derived: false
+  note: "Born in Giza in about 1405 AH / 1985 CE: the Alsiyars biography gives the year in both calendars with an approximation ('in the region of the year 1405'), and Al-Mrj3 gives no birth date. Low-quality pages circulating other ages for him are not used."
+  sources: [source/alsiyars-ahmed-sbei]
+faith:
+  - value: unknown
+    basis: unknown
+    note: "The sources give his religion as Islam. One biography table (Al-Mrj3) describes his affiliation as Ahl al-Sunna wa'l-Jama'a; that is a single attestation, and under this lane's rule a school is recorded only when two independent sources name the person's own school, so his school is recorded as unknown."
+    sources: [source/almrj3-ahmed-sbei-bio, source/alsiyars-ahmed-sbei, source/youtube-albyyinah]
+sources: [source/youtube-albyyinah, source/alsiyars-ahmed-sbei, source/almrj3-ahmed-sbei-bio]
+provenance:
+  layer: own-research
+  source: "The Al-Bayyinah channel itself (its description names Ahmed Sbei as its founder and supervisor; 1,089,752 subscribers per SocialCounts, 25 October 2026), the Alsiyars biographical encyclopedia's biography of him, and Al-Mrj3's published biography; no Wikipedia article and no Wikidata item exist for him (searched 25 October 2026). A claim circulating on low-quality pages that he converted to Islam from Christianity contradicts the Alsiyars biography, which gives his birth to a Muslim family, and is not recorded. The channel is an organisation he founded and supervises, not a museum entity, so no relations are recorded. Checked 25 October 2026"
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: modern-figures-batch-20
+status: { review: published, completeness: 3, generated_by: "Muse (Muse Spark 1.3)" }
