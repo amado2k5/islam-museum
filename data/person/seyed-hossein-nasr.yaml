@@ -1,0 +1,37 @@
+id: person/seyed-hossein-nasr
+class: person
+label: { ar: "سيد حسين نصر", en: "Seyed Hossein Nasr", ur: "سید حسین نصر" }
+names:
+  - { value: "Seyyed Hossein Nasr", kind: full }
+  - { value: "Seyed Hossein Nasr", kind: alternate }
+  - { value: "Hossein Nasr", kind: alternate }
+  - { value: "سید حسین نصر", kind: full }
+gender: male
+summary:
+  ar: "فيلسوف إيراني وباحث في الدراسات الإسلامية، وُلد في طهران سنة 1933. درس الفيزياء في معهد ماساتشوستس للتكنولوجيا ونال الدكتوراه في تاريخ العلم من هارفارد سنة 1958، ودرّس في جامعة طهران وأسس الأكاديمية الإمبراطورية الإيرانية للفلسفة، وبعد ثورة 1979 استقر في الولايات المتحدة أستاذًا للدراسات الإسلامية في جامعة جورج واشنطن. ألّف أكثر من خمسين كتابًا في الفلسفة الإسلامية والصوفية وفلسفة العلم والبيئة، وهو من أبرز ممثلي المدرسة الدائمة (الحكمة الخالدة)."
+  en: "Iranian philosopher and scholar of Islamic studies, born in Tehran in 1933. He studied physics at MIT and took his doctorate in the history of science at Harvard in 1958, taught at Tehran University and founded the Imperial Iranian Academy of Philosophy; after the 1979 revolution he settled in the United States as University Professor of Islamic Studies at George Washington University. He has written more than fifty books on Islamic philosophy, Sufism, the philosophy of science and the environment, and is a leading representative of the perennialist (Traditionalist) school."
+  ur: "ایرانی فلسفی اور ماہرِ اسلامیات، 1933 میں تہران میں پیدا ہوئے۔ انھوں نے MIT میں طبیعیات پڑھی اور 1958 میں ہارورڈ سے تاریخِ سائنس میں ڈاکٹریٹ کی، تہران یونیورسٹی میں تدریس کی اور شاہی ایرانی اکیڈمی برائے فلسفہ قائم کی؛ 1979 کے انقلاب کے بعد امریکہ میں جارج واشنگٹن یونیورسٹی میں اسلامی مطالعات کے پروفیسر رہے۔ انھوں نے اسلامی فلسفے، تصوف، فلسفۂ سائنس اور ماحول پر پچاس سے زائد کتابیں لکھیں۔"
+roles: [philosopher, scholar, professor, writer, theologian]
+wings: [people, living]
+born:
+  edtf: "1933-04-07"
+  hijri: "1351"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "Born on 7 April 1933 in Tehran; the English article and Wikidata agree. No place entity for Tehran exists in data/place/, so no born_in relation is written. The Hijri year (1351) is derived by tabular conversion."
+  sources: [source/wikipedia-seyed-hossein-nasr-en, source/wikidata-seyed-hossein-nasr]
+faith:
+  - value: shia-twelver
+    basis: documented
+    note: "SHIA-MAPPING APPLIED, stated here as the lane rule requires: there is no generic shia enum value, so two sources attesting 'Shia' about Nasr himself, plus supportive context, are mapped to shia-twelver. (1) The English Wikipedia article's infobox in its archived form listed his schools as 'Perennial Philosophy, Twelver Shi'ism' — an attestation of Twelver Shi'ism specifically, not merely of Islam. (2) Independently, a peer-reviewed article in the American Journal of Islamic Social Sciences states expressly: 'As for Nasr being a Shi`ah, this is clearly one dimension of his identity.' Supportive context: he is an Iranian scholar formed in Tehran's Twelver scholarly milieu, an editor of Shi'ism: Doctrines, Thought, and Spirituality (1988), and a source the encyclopaedias cite as a leading expert on Shiism; that context supports, but does not by itself create, the attestation. His perennialist and Sufi interests are NOT recorded as a separate sufi segment: the sources present them as his intellectual school and fields of writing, and no two sources attest a Sufi order affiliation for him personally, so under the doubt rule no second segment is written."
+    sources: [source/wikipedia-seyed-hossein-nasr-en, source/ajis-nasr-shia]
+external_ids: { wikidata: "Q471041" }
+sources: [source/wikipedia-seyed-hossein-nasr-en, source/wikidata-seyed-hossein-nasr, source/ajis-nasr-shia]
+provenance:
+  layer: own-research
+  source: "English Wikipedia 'Seyyed Hossein Nasr', Wikidata Q471041 (QID confirmed via the English Wikipedia pageprops API on 25 October 2026), and the American Journal of Islamic Social Sciences article on Nasr (ajis.org), all read on 25 October 2026. No earlier record for him existed in data/person/ under seyed-hossein-nasr, seyyed-hossein-nasr, hossein-nasr or any other spelling checked among the many classical Nasr/Husayn files; this is a new build, not an enrichment. Slug follows the queue's spelling 'Seyed Hossein Nasr'; the fuller transliteration 'Seyyed' is recorded as a name."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: century-additions-12
+status: { review: published, completeness: 3, generated_by: "Muse (Muse Spark 1.3)" }

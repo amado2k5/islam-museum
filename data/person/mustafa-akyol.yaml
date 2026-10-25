@@ -1,0 +1,34 @@
+id: person/mustafa-akyol
+class: person
+label: { ar: "مصطفى أكيول", en: "Mustafa Akyol", ur: "مصطفیٰ اکیول" }
+names:
+  - { value: "Mustafa Akyol", kind: full }
+gender: male
+summary:
+  ar: "كاتب وصحفي تركي، وُلد سنة 1972. درس العلاقات الدولية والتاريخ في جامعة بوغازيتشي بإسطنبول، وكتب أعمدة في صحف تركية وعالمية، واشتهر عالميًا بكتابه «الإسلام بلا تطرف: حجة مسلمة من أجل الحرية» (2011) الذي دافع فيه عن توافق الإسلام مع الحرية، وبكتابه «يسوع الإسلامي» (2017)، وهو زميل أقدم في معهد كاتو منذ 2018."
+  en: "Turkish writer and journalist, born in 1972. He studied international relations and history at Boğaziçi University in Istanbul, wrote columns for Turkish and international newspapers, and became known internationally for Islam without Extremes: A Muslim Case for Liberty (2011) and The Islamic Jesus (2017); he has been a senior fellow at the Cato Institute since 2018."
+  ur: "ترک مصنف و صحافی، 1972 میں پیدا ہوئے۔ انھوں نے استنبول کی بوغازیچی یونیورسٹی میں بین الاقوامی تعلقات و تاریخ پڑھی، ترک و عالمی اخبارات میں کالم لکھے، اور اپنی کتاب «اسلام وِد آؤٹ ایکسٹریمز» (2011) اور «دی اسلامک جیسس» (2017) سے عالمی شہرت پائی؛ 2018 سے کیٹو انسٹی ٹیوٹ کے سینئر فیلو ہیں۔"
+roles: [writer, scholar, activist]
+wings: [people, living]
+born:
+  edtf: "1972-02-20"
+  hijri: "1392"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "Born on 20 February 1972 in Turkey; the English article gives the day and month and the country, and its biographical sources place his early education in Ankara — no fetched source states his birthplace as a city, so no born_in relation is written (Istanbul, which does have a place entity, was his university city, not a stated birthplace). The Hijri year (1392) is derived by tabular conversion."
+  sources: [source/wikipedia-mustafa-akyol-en, source/wikidata-mustafa-akyol]
+faith:
+  - value: unknown
+    basis: unknown
+    note: "NOT RECORDED AS DOCUMENTED — no fetched source names a school for him. His self-description as an 'Ottomanist', his argument in Islam without Extremes for a Muslim case for liberty, his criticism of both Islamic extremism and Turkish secularism, and his fellowship at the Cato Institute are positions, arguments and a post, not attestations that he himself belongs to a specific school or path. He is the son of the journalist Taha Akyol — a father's profile is family background and never counts. Wikidata gives no school. Under the two-source rule and the doubt rule the faith is left unknown."
+    sources: [source/wikipedia-mustafa-akyol-en, source/wikidata-mustafa-akyol]
+external_ids: { wikidata: "Q6943223" }
+sources: [source/wikipedia-mustafa-akyol-en, source/wikidata-mustafa-akyol]
+provenance:
+  layer: own-research
+  source: "English Wikipedia 'Mustafa Akyol' and Wikidata Q6943223 (QID confirmed via the English Wikipedia pageprops API on 25 October 2026), read on 25 October 2026. No earlier record for him existed in data/person/ under any spelling checked; this is a new build, not an enrichment."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: century-additions-12
+status: { review: published, completeness: 3, generated_by: "Muse (Muse Spark 1.3)" }
