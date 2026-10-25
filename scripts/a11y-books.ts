@@ -43,7 +43,7 @@ function louTranslate(table: string, s: string): string | null {
   const capi = lou.capi, mem = lou.mem;
   const inP = mem.transfer(capi, s);
   const inLen = mem.getBufferLength(s);
-  const outP = capi._malloc(inLen * 4);
+  const outP = capi._malloc(inLen * 8); // blP counts cells; utf16 cells are 2 bytes
   const blP = capi._malloc(4), slP = capi._malloc(4);
   capi.setValue(blP, inLen * 4, "i32");
   capi.setValue(slP, inLen, "i32");
@@ -56,7 +56,7 @@ function louTranslate(table: string, s: string): string | null {
 
 // Only send the table's own script through: Latin names, digits and symbols
 // pass through verbatim (the BRF convention for uncontracted foreign words).
-const ARABIC_RUN = /[\u0600-\u06FF\u0750-\u077F\u08A0-\u08FF\uFB50-\uFDFF\uFE70-\uFEFF][\u0600-\u06FF\u0750-\u077F\u08A0-\u08FF\uFB50-\uFDFF\uFE70-\uFEFF0-9 \t.,;:!?()«»"'’\u0640-]*/g;
+const ARABIC_RUN = /[\u0600-\u06FF\u0750-\u077F\u08A0-\u08FF\uFB50-\uFDFF\uFE70-\uFEFF][\u0600-\u06FF\u0750-\u077F\u08A0-\u08FF\uFB50-\uFDFF\uFE70-\uFEFF \t.,;:!?()«»"'’\u0640-]*/g;
 
 // Some tables (ur-pk-g2) emit Unicode braille cells; BRF readers want the
 // NABCC ASCII codes — the fixed cell-pattern-to-ASCII mapping.
@@ -75,14 +75,21 @@ function brailleOf(text: string, lang: string): string {
       return s.split(/(\s+)/).map((w) => (/^\s*$/.test(w) ? w : safe(w))).join("");
     }
   };
+  // Passthrough must still be valid BRF: Arabic-Indic digits become ASCII
+  // digits, every digit run gets the '#' number indicator, and any remaining
+  // non-ASCII symbol (dashes, emoji, ornaments) collapses to a space.
+  const passthrough = (s: string): string => s
+    .replace(/[\u0660-\u0669\u06F0-\u06F9]/g, (d) => String(("\u0660\u0661\u0662\u0663\u0664\u0665\u0666\u0667\u0668\u0669\u06F0\u06F1\u06F2\u06F3\u06F4\u06F5\u06F6\u06F7\u06F8\u06F9".indexOf(d)) % 10))
+    .replace(/[0-9]+/g, "#$&")
+    .replace(/[^\x20-\x7E]/g, " ");
   const braillePara = (words: string): string => {
-    if (lang === "en") return toBrfAscii(safe(words));
+    if (lang === "en") return toBrfAscii(passthrough(safe(words)));
     let out = "", last = 0;
     for (const m of words.matchAll(ARABIC_RUN)) {
-      out += words.slice(last, m.index) + toBrfAscii(safe(m[0]));
+      out += passthrough(words.slice(last, m.index)) + toBrfAscii(safe(m[0]));
       last = m.index! + m[0].length;
     }
-    return out + words.slice(last);
+    return out + passthrough(words.slice(last));
   };
   const out: string[] = [];
   for (const para of text.split(/\n{2,}/)) {
