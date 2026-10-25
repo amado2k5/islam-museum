@@ -1,6 +1,6 @@
 ---
 lang: en
-entity: person/abdyl-frasheri
+id: person/abdyl-frasheri
 title: "Abdyl Frashëri (1839–1892)"
 ---
 

@@ -1,6 +1,6 @@
 ---
 lang: ur
-entity: person/ma-al-aynayn
+id: person/ma-al-aynayn
 title: "ماء العینین (1831ء–1910ء)"
 ---
 

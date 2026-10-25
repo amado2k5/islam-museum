@@ -1,6 +1,6 @@
 ---
 lang: en
-entity: person/ahmadu-tall
+id: person/ahmadu-tall
 title: "Ahmadu Tall (1836–1897)"
 ---
 
