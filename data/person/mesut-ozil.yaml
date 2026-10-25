@@ -1,0 +1,34 @@
+id: person/mesut-ozil
+class: person
+label: { ar: "مسعود أوزيل", en: "Mesut Özil", ur: "مسعود اوزل" }
+names:
+  - { value: "مسعود أوزيل", kind: full }
+  - { value: "Mesut Özil", kind: full }
+gender: male
+summary:
+  ar: "لاعب كرة قدم ألماني محترف سابق، وُلد في غيلزنكيرشن سنة 1988 لأبوين مهاجرين تركيين؛ لاعب وسط مهاجم لشالكه وفيردر بريمن وريال مدريد وأرسنال وفنربخشة وإسطنبول باشاكشهير، اشتهر برؤيته وتمريراته الحاسمة، فاز بالدوري الإسباني مع ريال مدريد وبثلاثة كؤوس إنجليزية مع أرسنال وبكأس العالم 2014 مع ألمانيا، واعتزل اللعب الدولي سنة 2018 بدعوى التمييز وعدم الاحترام، واعتزل اللعب نهائيًا سنة 2023."
+  en: "German former professional footballer, born in Gelsenkirchen in 1988 to Turkish immigrant parents. An attacking midfielder for Schalke 04, Werder Bremen, Real Madrid, Arsenal, Fenerbahçe and İstanbul Başakşehir, renowned for his vision and assists, he won La Liga with Real Madrid, three FA Cups with Arsenal and the 2014 World Cup with Germany, retired from international football in 2018 alleging discrimination and disrespect, and retired from playing in 2023."
+  ur: "جرمن سابق پیشہ ور فٹبالر، 1988 میں گیلزنکیرشن میں ترک مہاجر والدین کے ہاں پیدا ہوئے؛ شالکے، ویرڈر بریمن، ریال میڈرڈ، آرسنل، فنربخشے اور استنبول باشاکشہر کے حملہ آور مڈفیلڈر، اپنی بصیرت اور اسسٹس کے لیے مشہور، انہوں نے ریال میڈرڈ کے ساتھ لا لیگا، آرسنل کے ساتھ تین ایف اے کپ اور جرمنی کے ساتھ 2014 ورلڈ کپ جیتا، 2018 میں امتیاز اور بے احترامی کا الزام لگا کر بین الاقوامی فٹبال سے ریٹائر ہوئے، اور 2023 میں کھیل سے ریٹائر ہوئے۔"
+roles: [athlete]
+wings: [people, living]
+born:
+  edtf: "1988-10-15"
+  hijri: "1409"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "Born 15 October 1988 in Gelsenkirchen, West Germany, as given by the English Wikipedia article's infobox and early-life section, which records that he is the son of Turkish immigrants and that his grandfather moved as a Gastarbeiter from Zonguldak, Turkey. No place entity for Gelsenkirchen exists in data/place/, so no born_in relation is written. The Hijri year (1409) is derived by tabular conversion."
+  sources: [source/wikipedia-mesut-ozil-en]
+faith:
+  - value: unknown
+    basis: unknown
+    note: "No source read in this run names a school or madhhab for Özil himself. The English Wikipedia article calls him 'a practising Muslim' who recites from the Quran before his matches, prays before going on the pitch, observes the Ramadan fast on the days his job allows, and performed the Umrah pilgrimage to Mecca in May 2016. Public practice and pilgrimage are not an attestation of his own school: no source names Sunni, Hanafi or any other specific value for him, and his Turkish family heritage may not be inferred onto him as a Hanafi attestation. Under the two-source rule and the doubt rule, no faith value beyond unknown is recorded."
+    sources: [source/wikipedia-mesut-ozil-en]
+sources: [source/wikipedia-mesut-ozil-en]
+provenance:
+  layer: own-research
+  source: "English Wikipedia 'Mesut Özil', read in full on 25 October 2026. No Wikidata QID was verified from a tool result in this run, so no external_ids are recorded. No earlier record for him existed in data/person/ under mesut-ozil or any other spelling checked; this is a new build, not an enrichment."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: century-additions-15
+status: { review: published, completeness: 3, generated_by: "Muse (Muse Spark 1.3)" }

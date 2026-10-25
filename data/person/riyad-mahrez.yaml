@@ -1,0 +1,34 @@
+id: person/riyad-mahrez
+class: person
+label: { ar: "رياض محرز", en: "Riyad Mahrez", ur: "ریاض محرز" }
+names:
+  - { value: "رياض كريم محرز", kind: full }
+  - { value: "Riyad Karim Mahrez", kind: full }
+gender: male
+summary:
+  ar: "لاعب كرة قدم جزائري محترف، وُلد في كليشي بفرنسا سنة 1991؛ جناح أيمن صعد عبر كيمبر ولوهافر إلى ليستر سيتي، حيث نال جائزة أفضل لاعب من رابطة اللاعبين المحترفين في موسم لقب الدوري الإنجليزي 2015–16، ثم فاز بأربعة ألقاب أخرى للدوري وبطولة دوري أبطال أوروبا 2022–23 ضمن ثلاثية مع مانشستر سيتي قبل انضمامه إلى الأهلي السعودي سنة 2023؛ وقاد الجزائر قائدًا إلى لقب كأس أمم أفريقيا 2019 وسُمّي أفضل لاعب أفريقي سنة 2016."
+  en: "Algerian professional footballer, born in Clichy, France, in 1991. A right winger who rose through Quimper and Le Havre to Leicester City, where he was PFA Players' Player of the Year in the club's 2015-16 Premier League title season, then won four more Premier League titles and the 2022-23 UEFA Champions League as part of a treble with Manchester City before joining Saudi club Al-Ahli in 2023; he captained Algeria to the 2019 Africa Cup of Nations title and was named CAF African Footballer of the Year in 2016."
+  ur: "الجزائر کے پیشہ ور فٹبالر، 1991 میں فرانس کے کلیشی میں پیدا ہوئے؛ دائیں ونگر جو کیمپر اور لو آوغ سے ہوتے ہوئے لیسٹر سٹی پہنچے، جہاں کلب کے 2015–16 پریمیئر لیگ خطاب والے سیزن میں پی ایف اے پلیئرز پلیئر آف دی ایئر رہے، پھر مانچسٹر سٹی کے ساتھ مزید چار پریمیئر لیگ خطابات اور 2022–23 یوئیفا چیمپئنز لیگ بطور ٹریبل جیتی اور 2023 میں سعودی کلب الاہلی میں شامل ہوئے؛ انہوں نے الجزائر کی قیادت کرتے ہوئے 2019 افریقہ کپ آف نیشنز جیتا اور 2016 میں سی اے ایف افریقی فٹبالر آف دی ایئر قرار پائے۔"
+roles: [athlete]
+wings: [people, living]
+born:
+  edtf: "1991-02-21"
+  hijri: "1411"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "Born 21 February 1991 in Clichy, France, as given by the English Wikipedia article's infobox and early-life section, which records an Algerian father from Beni Snous, Tlemcen, and a mother of Algerian and Moroccan descent, and a childhood in Sarcelles. No place entity for Clichy or Sarcelles exists in data/place/, so no born_in relation is written. The Hijri year (1411) is derived by tabular conversion."
+  sources: [source/wikipedia-riyad-mahrez-en]
+faith:
+  - value: unknown
+    basis: unknown
+    note: "No source read in this run names a school or madhhab for Mahrez himself. The English Wikipedia article calls him 'a practising Muslim' and records that he made the Umrah pilgrimage to Mecca in June 2017. Public practice and pilgrimage are not an attestation of his own school: no source names Sunni, Maliki or any other specific value for him, and his Algerian and Moroccan family heritage may not be inferred onto him as a Maliki attestation. Under the two-source rule and the doubt rule, no faith value beyond unknown is recorded."
+    sources: [source/wikipedia-riyad-mahrez-en]
+sources: [source/wikipedia-riyad-mahrez-en]
+provenance:
+  layer: own-research
+  source: "English Wikipedia 'Riyad Mahrez', read in full on 25 October 2026. No Wikidata QID was verified from a tool result in this run, so no external_ids are recorded. No earlier record for him existed in data/person/ under riyad-mahrez or any other spelling checked; this is a new build, not an enrichment."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: century-additions-15
+status: { review: published, completeness: 3, generated_by: "Muse (Muse Spark 1.3)" }
