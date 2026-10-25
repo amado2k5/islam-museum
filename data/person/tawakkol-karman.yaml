@@ -1,0 +1,38 @@
+id: person/tawakkol-karman
+class: person
+label: { ar: "توكل كرمان", en: "Tawakkol Karman", ur: "توکل کرمان" }
+names:
+  - { value: "توكل عبد السلام خالد كرمان", kind: full }
+  - { value: "Tawakkol Abdel-Salam Khalid Karman", kind: full }
+gender: female
+summary:
+  ar: "صحافية وسياسية يمنية ومدافعة عن حقوق الإنسان، وُلدت في محافظة تعز سنة 1979، وشاركت في تأسيس منظمة «صحفيات بلا قيود» سنة 2005 وقادت الاحتجاجات الأسبوعية في صنعاء منذ 2007، ثم برزت وجها عالميا لانتفاضة اليمن سنة 2011، ونالت جائزة نوبل للسلام في العام نفسه مع إلين جونسون سيرليف وليما غبوي، فكانت أول يمنية وأول عربية وثاني مسلمة تنال جائزة نوبل، وتعيش في إسطنبول منذ سيطرة الحوثيين على صنعاء."
+  en: "Yemeni journalist, politician and human rights activist, born in Taiz Governorate in 1979. She co-founded Women Journalists Without Chains in 2005 and led weekly protests in Sana'a from 2007, then became the international face of Yemen's 2011 uprising. She received the 2011 Nobel Peace Prize with Ellen Johnson Sirleaf and Leymah Gbowee — the first Yemeni, the first Arab woman and the second Muslim woman to win a Nobel Prize — and has lived in Istanbul since the Houthi takeover of Sana'a."
+  ur: "یمنی صحافی، سیاست دان اور انسانی حقوق کی علمبردار، جو 1979 میں محافظہ تعز میں پیدا ہوئیں۔ انہوں نے 2005 میں «صحفیات بلا قیود» کی بنیاد رکھنے میں حصہ لیا اور 2007 سے صنعاء میں ہفتہ وار احتجاج کی قیادت کی، پھر 2011 کی یمنی بغاوت کا عالمی چہرہ بنیں۔ انہیں اسی سال ایلن جانسن سرلیف اور لیما گبووی کے ساتھ نوبل امن انعام ملا — وہ یہ انعام پانے والی پہلی یمنی، پہلی عرب خاتون اور دوسری مسلم خاتون بنیں — اور حوثیوں کے صنعاء پر قبضے کے بعد سے استنبول میں مقیم ہیں۔"
+roles: [journalist, politician, activist]
+wings: [people, living]
+born:
+  edtf: "1979-02-07"
+  hijri: "1399"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "Gregorian date from English Wikipedia, the Nobel Prize facts page and Wikidata Q104622; English Wikipedia gives the birthplace as Shara'b As Salam, Taiz Governorate, and the Nobel facts page as Ta'izz, Yemen; the Hijri year (1399) is derived by tabular conversion."
+  sources: [source/wikipedia-tawakkol-karman-en, source/nobelprize-tawakkol-karman-facts, source/wikidata-tawakkol-karman]
+relations:
+  - { type: lived_in, target: place/sanaa, sources: [source/wikipedia-tawakkol-karman-en] }
+  - { type: lived_in, target: place/istanbul, sources: [source/wikipedia-tawakkol-karman-en] }
+faith:
+  - value: unknown
+    basis: unknown
+    note: "No source consulted names a school. English Wikipedia gives no religion field; the Arabic article's data (Wikidata property P140) gives Islam only. A Scots Wikipedia infobox says 'Sunni Islam', but a single unattributed infobox in a minor edition is not one of this record's sources and cannot carry a school by itself; her former senior membership of the Al-Islah party is a political affiliation, not a school attestation."
+    sources: [source/wikipedia-tawakkol-karman-en, source/wikipedia-tawakkol-karman-ar, source/wikidata-tawakkol-karman]
+external_ids: { wikidata: "Q104622" }
+sources: [source/wikipedia-tawakkol-karman-en, source/wikipedia-tawakkol-karman-ar, source/wikidata-tawakkol-karman, source/nobelprize-tawakkol-karman-facts]
+provenance:
+  layer: own-research
+  source: "English and Arabic Wikipedia, Wikidata Q104622 and the Nobel Prize facts page for the 2011 Peace Prize, checked on 24 October 2026"
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: century-additions-2
+status: { review: published, completeness: 3, generated_by: "Muse (Muse Spark 1.3)" }

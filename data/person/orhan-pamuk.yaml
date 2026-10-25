@@ -1,0 +1,39 @@
+id: person/orhan-pamuk
+class: person
+label: { ar: "أورخان باموق", en: "Orhan Pamuk", ur: "اورحان پاموک" }
+names:
+  - { value: "فريت أورخان باموق", kind: full }
+  - { value: "Ferit Orhan Pamuk", kind: full }
+gender: male
+summary:
+  ar: "روائي تركي، وُلد في إسطنبول سنة 1952، ترك دراسة العمارة ليتفرغ للكتابة، وبنى رواياته على التوتر بين الشرق والغرب وبين التراث والحداثة في مدينته، وبيعت كتبه بأكثر من ثلاثة عشر مليون نسخة في ثلاث وستين لغة، ونال جائزة نوبل في الأدب سنة 2006 فكان أول تركي ينال جائزة نوبل، وحوكم في بلاده على خلفية تصريحات عن مقتل الأرمن والأكراد ثم أُسقطت التهم، وهو أستاذ في جامعة كولومبيا ومؤسس متحف البراءة الفعلي في إسطنبول."
+  en: "Turkish novelist, born in Istanbul in 1952. He left architecture studies to write full-time and built his novels on the tension between East and West, tradition and modernity in his native city; his books have sold over thirteen million copies in sixty-three languages. He received the 2006 Nobel Prize in Literature, the first Turk to win a Nobel Prize, was prosecuted in Turkey over remarks about the killing of Armenians and Kurds before the charges were dropped, and is a professor at Columbia University and the founder of the real Museum of Innocence in Istanbul."
+  ur: "ترکی ناول نگار، جو 1952 میں استنبول میں پیدا ہوئے۔ انہوں نے تعمیرات کی تعلیم چھوڑ کر خود کو لکھنے کے لیے وقف کیا اور اپنے شہر میں مشرق و مغرب اور روایت و جدیدیت کے تصادم کو اپنے ناولوں کا موضوع بنایا؛ ان کی کتابیں تریسٹھ زبانوں میں ایک کروڑ تیس لاکھ سے زائد فروخت ہوئیں۔ انہیں 2006 میں ادب کا نوبل انعام ملا — وہ نوبل پانے والے پہلے ترک بنے — ارمنیوں اور کردوں کے قتل کے بارے میں بیانات پر ان پر وطن میں مقدمہ چلا پھر الزامات ختم ہوئے، اور وہ کولمبیا یونیورسٹی میں استاد اور استنبول میں حقیقی «معصومیت میوزیم» کے بانی ہیں۔"
+roles: [novelist]
+wings: [people, living]
+born:
+  edtf: "1952-06-07"
+  hijri: "1371"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "Gregorian date and Istanbul birthplace from English Wikipedia, the Nobel Prize facts page and Wikidata Q241248; the Hijri year (1371) is derived by tabular conversion."
+  sources: [source/wikipedia-orhan-pamuk-en, source/nobelprize-orhan-pamuk-facts, source/wikidata-orhan-pamuk]
+relations:
+  - { type: born_in, target: place/istanbul, sources: [source/wikipedia-orhan-pamuk-en, source/nobelprize-orhan-pamuk-facts] }
+  - { type: lived_in, target: place/istanbul, sources: [source/wikipedia-orhan-pamuk-en] }
+  - { type: authored, target: work/thalj-pamuk, sources: [source/wikipedia-orhan-pamuk-en] }
+faith:
+  - value: unknown
+    basis: unknown
+    note: "No source consulted names a school. English Wikipedia records his self-description as a 'Cultural Muslim' who identifies with Islam historically and culturally while not believing in a personal connection to God, and the Arabic article likewise reports, with references, that he considers himself a cultural Muslim only. A self-description of cultural affiliation is not a school attestation."
+    sources: [source/wikipedia-orhan-pamuk-en, source/wikipedia-orhan-pamuk-ar]
+external_ids: { wikidata: "Q241248" }
+sources: [source/wikipedia-orhan-pamuk-en, source/wikipedia-orhan-pamuk-ar, source/wikidata-orhan-pamuk, source/nobelprize-orhan-pamuk-facts]
+provenance:
+  layer: own-research
+  source: "English and Arabic Wikipedia, Wikidata Q241248 and the Nobel Prize facts page for the 2006 Literature prize, checked on 24 October 2026"
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: century-additions-2
+status: { review: published, completeness: 3, generated_by: "Muse (Muse Spark 1.3)" }

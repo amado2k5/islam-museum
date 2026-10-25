@@ -1,0 +1,37 @@
+id: person/shirin-ebadi
+class: person
+label: { ar: "شيرين عبادي", en: "Shirin Ebadi", ur: "شیریں عبادی" }
+names:
+  - { value: "شيرين عبادي", kind: full }
+  - { value: "Shirin Ebadi", kind: full }
+gender: female
+summary:
+  ar: "محامية إيرانية وقاضية سابقة ومدافعة عن حقوق الإنسان، وُلدت في همدان سنة 1947، وكانت من أوائل القاضيات في إيران ورأست محكمة مدينة طهران منذ 1975 حتى أقصتها ثورة 1979 عن القضاء، فعملت محامية ودافعت عن المعارضين والأطفال والنساء، وأسست مركز الدفاع عن حقوق الإنسان، ونالت جائزة نوبل للسلام سنة 2003 فكانت أول إيرانية وأول مسلمة تنالها، وتعيش في المنفى في لندن منذ 2009."
+  en: "Iranian lawyer, former judge and human rights defender, born in Hamadan in 1947. She was one of Iran's first female judges and presided over the Tehran city court from 1975 until the 1979 revolution removed women from the judiciary; she then practised law, defended dissidents, children and women, founded the Defenders of Human Rights Center, and received the 2003 Nobel Peace Prize — the first Iranian and the first Muslim woman to receive it. She has lived in exile in London since 2009."
+  ur: "ایرانی وکیل، سابق جج اور انسانی حقوق کی محافظ، جو 1947 میں ہمدان میں پیدا ہوئیں۔ وہ ایران کی پہلی خاتون ججوں میں سے تھیں اور 1975 سے تہران کی سٹی کورٹ کی صدر رہیں، حتیٰ کہ 1979 کے انقلاب نے خواتین کو عدلیہ سے ہٹا دیا؛ پھر انہوں نے وکالت کی، مخالفین، بچوں اور خواتین کا دفاع کیا، انسانی حقوق کے دفاع کا مرکز قائم کیا، اور 2003 میں نوبل امن انعام پایا — یہ انعام پانے والی پہلی ایرانی اور پہلی مسلم خاتون بنیں۔ وہ 2009 سے لندن میں جلاوطنی کی زندگی گزار رہی ہیں۔"
+roles: [lawyer, judge, writer]
+wings: [people, living]
+born:
+  edtf: "1947-06-21"
+  hijri: "1366"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "Gregorian date and Hamadan birthplace from English Wikipedia, the Nobel Prize facts page and Wikidata Q131152; the Hijri year (1366) is derived by tabular conversion."
+  sources: [source/wikipedia-shirin-ebadi-en, source/nobelprize-shirin-ebadi-facts, source/wikidata-shirin-ebadi]
+relations:
+  - { type: born_in, target: place/hamadan, sources: [source/wikipedia-shirin-ebadi-en, source/nobelprize-shirin-ebadi-facts] }
+faith:
+  - value: unknown
+    basis: unknown
+    note: "Two sources describe her as Shia without naming a branch: English Wikipedia quotes her own reply to state media — 'I am proud to say that my family and I are Shiites' — and the Arabic article's infobox gives her religion as مسلمة شيعية (a Shia Muslim). Neither source names Twelver or any other branch, and the person faith enum has no generic Shia value (only shia-twelver, shia-ismaili and shia-zaydi); a branch is not inferred from her Iranian origin, so the value stays unknown with the two attestations recorded here."
+    sources: [source/wikipedia-shirin-ebadi-en, source/wikipedia-shirin-ebadi-ar]
+external_ids: { wikidata: "Q131152" }
+sources: [source/wikipedia-shirin-ebadi-en, source/wikipedia-shirin-ebadi-ar, source/wikidata-shirin-ebadi, source/nobelprize-shirin-ebadi-facts]
+provenance:
+  layer: own-research
+  source: "English and Arabic Wikipedia, Wikidata Q131152 and the Nobel Prize facts page for the 2003 Peace Prize, checked on 24 October 2026"
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: century-additions-2
+status: { review: published, completeness: 3, generated_by: "Muse (Muse Spark 1.3)" }
