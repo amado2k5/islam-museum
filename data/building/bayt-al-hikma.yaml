@@ -24,6 +24,11 @@ provenance:
   run: lib-duha-islam-3
 sources: [source/duha-islam]
 education:
+  did_you_know:
+    ar: "بيت الحكمة ببغداد أكبر مكتبة منقول خبرها من العصر العباسي الأول؛ وضع الرشيد نواتها ونمّاها المأمون."
+    en: "Baghdad's Bayt al-Hikma is the largest library reported from the early Abbasid age; al-Rashid planted it and al-Ma'mun grew it."
+    ur: "بغداد کا بیت الحکمتہ ابتدائی عباسی عہد کا سب سے بڑا منقولہ کتب خانہ ہے؛ رشید نے اس کی بنیاد رکھی اور مامون نے اسے پروان چڑھایا۔"
+    sources: [source/duha-islam, source/fihrist-ibn-al-nadim]
   levels: [sprouts, explorers, scholars]
   flagged_for_kids: true
   provenance: { generated_by: "Claude Code", model: "Claude Fable 5.1 (claude-fable-5-1)", run: "education-E2-fixtures", note: "Leveled texts restated from this record's own prose in ar, en and ur; draft, pending the founder's review (Urdu flagged)." }

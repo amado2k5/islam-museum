@@ -1,4 +1,10 @@
 id: event/year-of-delegations
+education:
+  did_you_know:
+    ar: "في السنة التاسعة للهجرة تتابعت وفود قبائل الجزيرة إلى المدينة تعلن الإسلام أو تعقد الاتفاقات، فسمّي عام الوفود."
+    en: "In year nine of the Hijra, delegations from Arabia's tribes streamed into Medina to announce Islam or make pacts — hence its name, the Year of Delegations."
+    ur: "ہجرت کے نویں سال جزیرہ نما کے قبائل کے وفود مدینہ آئے تاکہ اسلام قبول کریں یا معاہدے کریں — اسی لیے اسے عام الوفود کہا جاتا ہے۔"
+    sources: [source/ibn-ishaq-guillaume, source/mubarakpuri-raheeq]
 class: event
 kind: other
 label: { en: "The Year of Delegations", ar: "عام الوفود" }
@@ -18,3 +24,9 @@ relations:
   - { type: caused_by, target: event/conquest-of-mecca }
 sources: [source/ibn-ishaq-guillaume, source/watt-1956-medina, source/lings-1983, source/mubarakpuri-raheeq, source/sahih-al-bukhari, source/zad-al-maad, source/ibn-hisham-saqqa]
 status: { review: draft, completeness: 2, generated_by: "Claude Sonnet 5.5; dates follow the cited tradition and are approximate where marked" }
+provenance:
+  layer: own-research
+  source: "source/ibn-ishaq-guillaume"
+  generated_by: Devin
+  model: "unknown"
+  run: "education-E3-facts-batch5"

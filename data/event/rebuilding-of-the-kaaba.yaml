@@ -1,4 +1,10 @@
 id: event/rebuilding-of-the-kaaba
+education:
+  did_you_know:
+    ar: "لما كان عمر النبي خمساً وثلاثين أعادت قريش بناء الكعبة، وتحكّم هو في نزاع من يضع الحجر الأسود بحلّ الرداء."
+    en: "When the Prophet was thirty-five, Quraysh rebuilt the Kaaba, and he arbitrated their dispute over placing the Black Stone with the cloak solution they accepted."
+    ur: "جب نبی کی عمر پینتیس برس تھی تو قریش نے کعبہ تعمیر کیا اور سیاہ حجر رکھنے کے جھگڑے میں انھوں نے چادر کی ترتیب سے فیصلہ کیا جو سب نے مانا۔"
+    sources: [source/ibn-ishaq-guillaume, source/watt-1953-mecca]
 class: event
 kind: founding
 label: { en: "The rebuilding of the Kaaba", ar: "إعادة بناء الكعبة وقضية الحجر الأسود" }
@@ -23,3 +29,9 @@ relations:
   - { type: part_of, target: period/prophetic-era }
 sources: [source/ibn-ishaq-guillaume, source/watt-1953-mecca, source/lings-1983, source/mubarakpuri-raheeq, source/ibn-hisham-sira, source/sahih-al-bukhari, source/muruj-al-dhahab, source/fiqh-al-sira-al-ghazali, source/muhadarat-tarikh-al-umam-al-islamiyya]
 status: { review: draft, completeness: 2, generated_by: "Claude Sonnet 5.5 (scaffold); upgraded by Devin from al-Raheeq al-Makhtum pp. 61-63" }
+provenance:
+  layer: own-research
+  source: "source/ibn-ishaq-guillaume"
+  generated_by: Devin
+  model: "unknown"
+  run: "education-E3-facts-batch5"
