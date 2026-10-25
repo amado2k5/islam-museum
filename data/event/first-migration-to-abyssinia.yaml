@@ -23,7 +23,16 @@ relations:
   - { type: part_of, target: period/prophetic-era }
 sources: [source/ibn-ishaq-guillaume, source/watt-1953-mecca, source/lings-1983, source/mubarakpuri-raheeq, source/zad-al-maad]
 education:
+  did_you_know:
+    ar: "أبحر اثنا عشر رجلاً وأربع نساء إلى النجاشي في سفينتين — أول هجرة في الإسلام — لأنه ملك عادل لا يُظلم عنده أحد."
+    en: "Twelve men and four women sailed to the Negus in two ships — the first hijra in Islam — because he was a just king under whom no one was wronged."
+    ur: "بارہ مرد اور چار عورتیں دو جہازوں میں نجاشی کے پاس گئیں — اسلام کی پہلی ہجرت — کیونکہ وہ انصاف کرنے والا بادشاہ تھا۔"
+    sources: [source/ibn-ishaq-guillaume, source/mubarakpuri-raheeq]
   levels: [sprouts, explorers, scholars]
   flagged_for_kids: true
   provenance: { generated_by: "Claude Code", model: "Claude Haiku 5.5 (claude-haiku-5-5)", run: "education-E2-batch1", note: "Leveled texts drafted from the record's own summary; draft, pending the founder's review and scholar review of the child levels." }
 status: { review: draft, completeness: 2, generated_by: "Claude Sonnet 5.5 (scaffold); upgraded by Devin from al-Raheeq al-Makhtum pp. 92-94" }
+provenance:
+  layer: own-research
+  source: "education fact engine batch 2 — did_you_know fact drafted in three languages from the record's own cited sources"
+  generated_by: Devin

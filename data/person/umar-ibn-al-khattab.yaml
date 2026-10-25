@@ -57,7 +57,16 @@ external_ids:
   wikidata: Q8467
 sources: [source/ibn-sad-tabaqat-bewley, source/watt-1956-medina, source/ibn-ishaq-guillaume, source/muruj-al-dhahab, source/ibn-hisham-saqqa, source/sahih-al-bukhari, source/sahih-muslim, source/sallabi-ali-vol1, source/nihayat-al-arab-nuwayri-vol3-scan]
 education:
+  did_you_know:
+    ar: "في عشر سنوات من خلافة عمر فتحت الجيوش الشام ومصر ومعظم دولة الفرس؛ وتذكره السنة بلقب الفاروق."
+    en: "In Umar's ten years the community conquered Syria, Egypt and most of the Sasanian empire; Sunni memory calls him al-Faruq."
+    ur: "عمر کے دس سالہ دور میں مسلمانوں نے شام، مصر اور ساسانی سلطنت کا بڑا حصہ فتح کیا؛ اہلِ سنت انہیں فاروق یاد کرتے ہیں۔"
+    sources: [source/watt-1956-medina, source/sahih-al-bukhari]
   levels: [sprouts, explorers, scholars]
   flagged_for_kids: true
   provenance: { generated_by: "Devin", model: "gemini-2.5-pro", run: "education-E2-batch4", note: "Leveled texts drafted from the record's own summary and prose; draft, pending the founder's review and scholar review of the child levels." }
 status: { review: draft, completeness: 3, generated_by: "Devin; 2026-10-11" }
+provenance:
+  layer: own-research
+  source: "education fact engine batch 2 — did_you_know fact drafted in three languages from the record's own cited sources"
+  generated_by: Devin

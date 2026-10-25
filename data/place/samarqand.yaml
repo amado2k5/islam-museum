@@ -13,12 +13,18 @@ wings: [place]
 external_ids: { wikidata: "Q5753", geonames: "1216265", pleiades: "59915" }
 sources: [source/futuh-buldan-maarif-1407, source/geonames-gazetteer, source/ahsan-al-taqasim, source/farghani-elements-astronomy]
 education:
+  did_you_know:
+    ar: "حاصر سعيد بن عثمان سمرقند وحلف ألا يبرح حتى يفتحها؛ فصالحه أهلها على سبعمائة ألف درهم ورهنوا من أبناء ملوكهم خمسة عشر رهينة، وقيل أربعين."
+    en: "Sa'id ibn Uthman besieged Samarqand vowing not to leave until he took it; its people ransomed peace for seven hundred thousand dirhams and fifteen royal hostages, some accounts say forty."
+    ur: "سعید بن عثمان نے سمرقند کا محاصرہ کیا اور فتح کے بغیر نہ لوٹنے کی قسم کھائی؛ اہلِ شہر نے سات لاکھ درہم اور پندرہ شاہی یرغمال پر صلح کی، بعض روایات میں چالیس ہیں۔"
+    sources: [source/futuh-buldan-maarif-1407, source/ahsan-al-taqasim]
   levels: [sprouts, explorers, scholars]
   flagged_for_kids: true
   provenance: { generated_by: "Devin", model: "gemini-2.5-pro", run: "education-E2-batch4", note: "Leveled texts drafted from the record's own summary and prose; draft, pending the founder's review and scholar review of the child levels." }
 status: { review: draft, completeness: 1 }
 provenance:
   layer: own-research
+  source: "Apple Vision OCR -> manual extraction"
   generated_by: "Devin (SWE-2 High)"
   extraction_flow: "Apple Vision OCR -> manual extraction"
   model: "claude-haiku-5-5"

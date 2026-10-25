@@ -13,7 +13,16 @@ historical_names:
 external_ids: { wikidata: Q35484, pleiades: "814688", geonames: "109223" }
 sources: [source/bakr-umayyad-state-1134715, source/samhudi-wafa-al-wafa, source/sahih-al-bukhari]
 education:
+  did_you_know:
+    ar: "حرّم النبي المدينة ما بين لابتيها كما حرّم إبراهيم مكة؛ وعدّ السمهودي لها نحو خمسة وتسعين اسماً."
+    en: "The Prophet declared Medina a sanctuary between its two lava fields, as Ibrahim declared Mecca; Samhudi counts nearly ninety-five of its names."
+    ur: "نبی نے مدینہ کو اس کی دو حرہ زمینوں کے درمیان حرم قرار دیا جیسے ابراہیم نے مکہ کیا؛ سمہودی نے اس کے پچانوے نام گنوائے۔"
+    sources: [source/samhudi-wafa-al-wafa, source/sahih-al-bukhari]
   levels: [sprouts, explorers, scholars]
   flagged_for_kids: true
   provenance: { generated_by: "Devin", model: "gemini-2.5-pro", run: "education-E2-batch3", note: "Leveled texts drafted from the record's own summary and prose; draft, pending the founder's review and scholar review of the child levels." }
 status: { review: draft, completeness: 1, generated_by: "Claude Sonnet 5.5 (scaffold). Alias note (not a schema alias): al-Maqr is listed among Medina's names by Samhudi, Wafa al-Wafa scan p. 36 (the entry for al-Maqr, the eighty-third name, read from OCR; no alias ID created)." }
+provenance:
+  layer: own-research
+  source: "education fact engine batch 2 — did_you_know fact drafted in three languages from the record's own cited sources"
+  generated_by: Devin

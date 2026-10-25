@@ -24,7 +24,16 @@ relations:
   - { type: had_participant, target: person/abu-bakr, role: "ظلل على النبي بردائه فعرفه الناس", sources: [source/mubarakpuri-raheeq, source/sahih-al-bukhari] }
 sources: [source/mubarakpuri-raheeq, source/ibn-hisham-sira, source/sahih-al-bukhari, source/zad-al-maad, source/muruj-al-dhahab, source/samhudi-wafa-al-wafa]
 education:
+  did_you_know:
+    ar: "في قباء أسّس النبي أول مسجد قبل أن يدخل المدينة يوم الجمعة؛ واختلفت الأخبار في مكثه بين أربعة أيام وأربع وعشرين ليلة."
+    en: "At Quba the Prophet founded the first mosque before riding to Medina on Friday; reports set his stay between four days and twenty-four nights."
+    ur: "قباء میں نبی نے پہلی مسجد بنائی اور جمعے کو مدینہ تشریف لے گئے؛ قیام چار دن سے چوبیس راتوں تک بیان ہوا ہے۔"
+    sources: [source/mubarakpuri-raheeq, source/sahih-al-bukhari]
   levels: [sprouts, explorers, scholars]
   flagged_for_kids: true
   provenance: { generated_by: "Devin", model: "gemini-2.5-pro", run: "education-E2-batch3", note: "Leveled texts drafted from the record's own summary and prose; draft, pending the founder's review and scholar review of the child levels." }
 status: { review: draft, completeness: 2, generated_by: "Devin; al-Raheeq al-Makhtum pp. 170-172" }
+provenance:
+  layer: own-research
+  source: "education fact engine batch 2 — did_you_know fact drafted in three languages from the record's own cited sources"
+  generated_by: Devin

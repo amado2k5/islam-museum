@@ -56,8 +56,17 @@ perspectives:
 sensitivity: contested
 sources: [source/ibn-sad-tabaqat-bewley, source/watt-1956-medina, source/ibn-ishaq-guillaume, source/muruj-al-dhahab, source/mubarakpuri-raheeq, source/ibn-hisham-sira, source/sahih-al-bukhari, source/sahih-muslim, source/nihayat-al-arab-nuwayri-vol3-scan]
 education:
+  did_you_know:
+    ar: "في عهد عثمان جُمع القرآن في مصحف واحد؛ وقد تزوّج ابنتين للنبي إحداهما بعد الأخرى فلُقّب بذي النورين."
+    en: "Under Uthman the Qur'an was gathered into a single codex; he married two of the Prophet's daughters in succession, so he was called Dhu al-Nurayn."
+    ur: "عثمان کے عہد میں قرآن ایک مصحف میں جمع ہوا؛ ان سے نبی کی دو بیٹیوں سے باری باری نکاح ہوا، اس لیے ذوالنورین کہلائے۔"
+    sources: [source/ibn-sad-tabaqat-bewley, source/sahih-al-bukhari]
   levels: [sprouts, explorers, scholars]
   flagged_for_kids: true
   provenance: { generated_by: "Devin", model: "gemini-2.5-pro", run: "education-E2-batch4", note: "Leveled texts drafted from the record's own summary and prose; draft, pending the founder's review and scholar review of the child levels." }
 status: { review: draft, completeness: 3, generated_by: "Devin; 2026-10-11" }
 external_ids: { wikidata: Q37731 }
+provenance:
+  layer: own-research
+  source: "education fact engine batch 2 — did_you_know fact drafted in three languages from the record's own cited sources"
+  generated_by: Devin

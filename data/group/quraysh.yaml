@@ -26,7 +26,16 @@ relations:
 external_ids: { wikidata: "Q485732" }
 sources: [source/ibn-ishaq-guillaume, source/watt-1953-mecca, source/watt-1956-medina, source/muruj-al-dhahab, source/mubarakpuri-raheeq, source/sahih-muslim]
 education:
+  did_you_know:
+    ar: "كانت قريش تقوم على الكعبة وتجارة مكة؛ قاتلت الدعوة عشر سنين ثم صارت بعد الفتح قلب الجماعة الجديدة."
+    en: "Quraysh kept the Kaaba and Mecca's trade; its leaders fought the call for a decade, yet after 630 the tribe became the core of the new community."
+    ur: "قریش کعبہ کے نگران اور مکہ کے تاجر تھے؛ دس برس مخالفت کے بعد فتحِ مکہ کے باعث جماعت کا مرکز بنے۔"
+    sources: [source/ibn-ishaq-guillaume, source/watt-1953-mecca]
   levels: [sprouts, explorers, scholars]
   flagged_for_kids: true
   provenance: { generated_by: "Devin", model: "gemini-2.5-pro", run: "education-E2-batch4", note: "Leveled texts drafted from the record's own summary and prose; draft, pending the founder's review and scholar review of the child levels." }
 status: { review: draft, completeness: 2, generated_by: "Devin; 2026-10-11" }
+provenance:
+  layer: own-research
+  source: "education fact engine batch 2 — did_you_know fact drafted in three languages from the record's own cited sources"
+  generated_by: Devin

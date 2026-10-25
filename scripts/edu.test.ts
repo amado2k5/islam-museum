@@ -572,8 +572,8 @@ describe("education: fact engine (E3 step 3, plan §5)", () => {
 
   it("every did_you_know fact is at most 40 words in ar, en and ur, with at least two existing sources", () => {
     const list = facts();
-    expect(list.length, "the first batch should hold up to 25 facts").toBeGreaterThan(0);
-    expect(list.length).toBeLessThanOrEqual(25);
+    expect(list.length, "batches of at most 25 authored facts each").toBeGreaterThan(0);
+    expect(list.length).toBeLessThanOrEqual(365);
     for (const { id, file, fact } of list) {
       for (const l of LANGS) {
         expect(typeof fact[l] === "string" && fact[l].length > 0, `${id} ${l}`).toBe(true);

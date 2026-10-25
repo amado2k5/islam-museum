@@ -42,7 +42,16 @@ map:
 external_ids: { wikidata: "Q488278" }
 sources: [source/ibn-ishaq-guillaume, source/watt-1956-medina, source/lings-1983, source/mubarakpuri-raheeq, source/sahih-al-bukhari, source/sallabi-ali-vol1]
 education:
+  did_you_know:
+    ar: "في أحد جعل النبي خمسين رامياً على جبل الرماة وأمرهم ألا يفارقوا مواقعهم؛ فلما نزلوا قبل الأوان دارت المعركة على المسلمين."
+    en: "At Uhud, fifty archers were posted on the Archers' Mount with orders not to leave it; when they came down early, the battle turned against the Muslims."
+    ur: "احد میں پچاس تیراندازوں کو پہاڑ پر مامور کیا گیا اور حکم دیا گیا کہ اپنا موقف نہ چھوڑیں؛ جب وہ وقت سے پہلے اتر آئے تو جنگ مسلمانوں کے خلاف پلٹ گئی۔"
+    sources: [source/mubarakpuri-raheeq, source/sahih-al-bukhari]
   levels: [sprouts, explorers, scholars]
   flagged_for_kids: true
   provenance: { generated_by: "Claude Code", model: "Claude Haiku 5.5 (claude-haiku-5-5)", run: "education-E2-batch1", note: "Leveled texts drafted from the record's own summary; draft, pending the founder's review and scholar review of the child levels." }
 status: { review: draft, completeness: 1, generated_by: "Claude Sonnet 5.5; dates follow the cited tradition and are approximate where marked" }
+provenance:
+  layer: own-research
+  source: "education fact engine batch 2 — did_you_know fact drafted in three languages from the record's own cited sources"
+  generated_by: Devin
