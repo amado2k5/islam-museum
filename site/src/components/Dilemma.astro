@@ -1,0 +1,79 @@
+---
+// Dilemma card (docs/delegation/education-master-plan.md §5 E4): the decision, two attributed
+// positions with their evidence cards, then "you decide" — a written reflection kept in
+// localStorage on the device. No winner, no verdict, positions never scored.
+import type { Lang } from "../lib/i18n";
+import { href as recordHref } from "../lib/graph";
+import type { Dilemma } from "../lib/dilemmas";
+
+interface Props {
+  lang: Lang;
+  dilemma: Dilemma;
+  positionsLabel: string;
+  evidenceLabel: string;
+  sourcesLabel: string;
+  decideLabel: string;
+  reflectLabel: string;
+  savedLabel: string;
+}
+const { lang, dilemma, positionsLabel, evidenceLabel, sourcesLabel, decideLabel, reflectLabel, savedLabel } =
+  Astro.props;
+---
+<div class="dilemma" data-dilemma={dilemma.id}>
+  <h1>{dilemma.decision[lang]}</h1>
+  <p class="dl-context">{dilemma.context[lang]}</p>
+
+  <h2 class="ui" style="font-size:1.1rem">{positionsLabel}</h2>
+  <div class="dl-positions">
+    {dilemma.positions.map((p) => (
+      <section class="dl-pos">
+        <h3 class="dl-holder">{p.holder[lang]}</h3>
+        <p class="dl-stance">{p.stance[lang]}</p>
+        <div class="dl-ev">
+          <p class="ui dl-ev-label">{evidenceLabel}</p>
+          <p>{p.evidence[lang]}</p>
+        </div>
+        <p class="ui dl-src">{sourcesLabel}: {p.sources.map((s) => <a href={recordHref(lang, s)}>{s}</a>)}</p>
+      </section>
+    ))}
+  </div>
+
+  <section class="dl-decide">
+    <h2 class="ui" style="font-size:1.1rem">{decideLabel}</h2>
+    <p>{dilemma.reflection[lang]}</p>
+    <label class="ui" for={`dl-${dilemma.id}`}>{reflectLabel}</label>
+    <textarea id={`dl-${dilemma.id}`} data-reflect rows="4" aria-describedby={`dl-saved-${dilemma.id}`}></textarea>
+    <p class="ui dl-saved" id={`dl-saved-${dilemma.id}`} data-saved>{savedLabel}</p>
+  </section>
+</div>
+<script>
+  for (const root of document.querySelectorAll<HTMLElement>("[data-dilemma]")) {
+    const id = root.dataset.dilemma || "";
+    const ta = root.querySelector<HTMLTextAreaElement>("[data-reflect]");
+    const saved = root.querySelector<HTMLElement>("[data-saved]");
+    if (!ta || !saved) continue;
+    const key = `edu-dilemma:${id}`;
+    try { ta.value = localStorage.getItem(key) || ""; } catch { /* storage unavailable */ }
+    let timer: ReturnType<typeof setTimeout>;
+    ta.addEventListener("input", () => {
+      clearTimeout(timer);
+      timer = setTimeout(() => {
+        try { localStorage.setItem(key, ta.value); saved.style.opacity = "1"; } catch { /* storage unavailable */ }
+      }, 400);
+    });
+  }
+</script>
+<style>
+  .dl-context { font-size: 1.08rem; line-height: 1.9; max-width: var(--measure); }
+  .dl-positions { display: grid; gap: 14px; max-width: 46rem; }
+  .dl-pos { border: 1px solid var(--line); border-radius: 14px; padding: 12px 16px; background: var(--card); }
+  .dl-holder { margin: 0; font-size: 1rem; color: var(--gold); }
+  .dl-stance { font-weight: 600; margin: .3rem 0 .6rem; }
+  .dl-ev { border-inline-start: 3px solid var(--line); padding-inline-start: .8rem; }
+  .dl-ev-label { margin: 0; font-size: .85rem; color: var(--muted); text-transform: uppercase; letter-spacing: .04em; }
+  .dl-src { margin: .6rem 0 0; font-size: .88rem; }
+  .dl-src a + a { margin-inline-start: .8rem; }
+  .dl-decide { margin-top: 1.6rem; max-width: 46rem; }
+  .dl-decide textarea { width: 100%; padding: 10px 12px; border: 1px solid var(--line); border-radius: 10px; background: var(--bg); color: inherit; font: inherit; margin-top: .4rem; }
+  .dl-saved { font-size: .85rem; color: var(--muted); opacity: 0; transition: opacity .3s; }
+</style>
