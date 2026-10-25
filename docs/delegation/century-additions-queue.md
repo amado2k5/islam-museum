@@ -967,11 +967,11 @@ lists' own order. Status markers: [ ] queued · [~] in a writer's hands · [x] m
 
 ## B. 1826–1925 additions (730)
 
-- [~] Omar Mukhtar (1858–1931)
-- [~] Nana Asma'u (1793–1864)
-- [~] Sir Syed Ahmad Khan (1817–1898)
-- [~] Namık Kemal (1840–1888)
-- [~] Osman Hamdi Bey (1842–1910)
+- [x] Omar Mukhtar (1858–1931)
+- [x] Nana Asma'u (1793–1864)
+- [x] Sir Syed Ahmad Khan (1817–1898)
+- [x] Namık Kemal (1840–1888)
+- [x] Osman Hamdi Bey (1842–1910)
 - [ ] Sultan Jahan, Begum of Bhopal (1858–1930)
 - [ ] Imam Shamil (1797–1871)
 - [ ] Qasim Amin (1863–1908)
@@ -1797,7 +1797,7 @@ lists' own order. Status markers: [ ] queued · [~] in a writer's hands · [x] m
 
 - [ ] Usman dan Fodio — 1754–1817
 - [ ] Muhammad Bello — 1781–1837
-- [ ] Nana Asma'u — 1793–1864 (also in §B — in build now, build once)
+- [x] Nana Asma'u — 1793–1864 (built under §B)
 - [ ] Muhammad al-Kanemi — 1776–1837
 - [ ] Sulayman Bal — 1730–1775
 - [ ] Abdul Kader Kane — 1745–1806
@@ -1914,3 +1914,25 @@ All 34 real names in the list are already in the museum; the remaining 966 rows 
 - [ ] Anusha Khan of Khiva — 1630–1687
 - [ ] Erekle I of Kakheti (Nazar Ali Khan) — 1642–1709
 - [ ] Shah Quli Khan — 1650–1720
+
+## N. 1226–1325 additions (19)
+
+- [ ] Sultan Iltutmish — 1192–1236
+- [ ] Ghiyas ud din Balban — 1200–1287
+- [ ] Razia Sultana — 1205–1240
+- [ ] Sultan Jalal-ud-din Khalji — 1220–1296
+- [ ] Ghiyas al-Din Tughlaq — 1250–1325
+- [ ] Malik Kafur — 1270–1316 (CSV calls him a "Mughal" general — an anachronism; he was Alauddin Khalji's general)
+- [ ] Nizam al-Din Awliya — 1238–1325
+- [ ] Sheikh Farid al-Din Ganjshakar (Baba Farid) — 1173–1266
+- [ ] Lal Shahbaz Qalandar — 1177–1274
+- [ ] Fakhr al-Din 'Iraqi — 1213–1289
+- [ ] Ibn al-Farid — 1181–1235
+- [ ] Amir Khusrow — 1253–1325
+- [ ] Abu Yusuf Yaqub ibn Abd al-Haqq — 1212–1286
+- [ ] Abu Yaqub Yusuf an-Nasr — 1260–1307
+- [ ] Muhammad II al-Faqih of Granada — 1235–1302
+- [ ] Oldjaitu (Muhammad Khodabandeh) — 1280–1316
+- [ ] Rashid al-Din Hamadani — 1247–1318
+- [ ] Historian Abu al-Fida — 1273–1331
+- [ ] Qutb al-Din Shirazi — 1236–1311

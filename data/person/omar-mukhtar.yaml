@@ -1,0 +1,46 @@
+id: person/omar-mukhtar
+class: person
+label: { ar: "عمر المختار", en: "Omar Mukhtar", ur: "عمر مختار" }
+names:
+  - { value: "عمر المختار محمد بن فرحات المنفي", kind: full }
+  - { value: "Umar al-Mukhtar Muhammad bin Farhat al-Manifi", kind: full }
+  - { value: "Omar al-Mukhtar", kind: variant }
+  - { value: "أسد الصحراء", kind: variant }
+gender: male
+summary:
+  ar: "معلّم قرآن وشيخ زاوية سنوسية ليبي، وُلد سنة 1858 وقاد مقاومة برقة ضد الاحتلال الإيطالي من سنة 1911 حتى أُسر وأُعدم شنقا في معسكر سلوك في 16 سبتمبر 1931، ولُقّب بأسد الصحراء وشيخ الشهداء."
+  en: "Libyan Qur'an teacher and sheikh of the Senussi order, born in 1858, who led the resistance of Cyrenaica against the Italian occupation from 1911 until his capture and hanging at the Soluch camp on 16 September 1931; he is known as the Lion of the Desert and the Sheikh of the Martyrs."
+  ur: "لیبیا کے قرآن کے استاد اور سنوسی سلسلے کے شیخ، جو 1858 میں پیدا ہوئے اور 1911 سے اطالوی قبضے کے خلاف برقة کی مزاحمت کی قیادت کی، یہاں تک کہ 16 ستمبر 1931 کو سلوک کیمپ میں گرفتار کر کے پھانسی دی گئی؛ وہ اسد الصحراء اور شیخ الشہداء کے لقب سے مشہور ہیں۔"
+roles: [teacher, general]
+wings: [people]
+born:
+  edtf: "1858-08-20"
+  hijri: "1275"
+  calendar: gregorian
+  precision: day
+  status: historical
+  note: "The English article's infobox gives his birthplace as Benghazi, but its text gives the town of Zanzur (Janzur) near Tobruk; Wikidata gives the region, Cyrenaica. The Arabic article pairs the date with 10 Muharram 1275 AH, so the Hijri year is the article's own, not a conversion."
+  sources: [source/wikipedia-omar-mukhtar-en, source/wikipedia-omar-mukhtar-ar, source/wikidata-omar-mukhtar]
+died:
+  edtf: "1931-09-16"
+  hijri: "1350"
+  calendar: gregorian
+  precision: day
+  status: historical
+  note: "Captured wounded near Slonta on 11 September 1931, tried by a military court, and hanged on 16 September 1931 at the Soluch (Suluq) concentration camp before his assembled followers. The Arabic article pairs the date with 3 Jumada al-awwal 1350 AH."
+  sources: [source/wikipedia-omar-mukhtar-en, source/wikipedia-omar-mukhtar-ar, source/wikidata-omar-mukhtar]
+relations:
+  - { type: student_of, target: person/muhammad-al-mahdi-al-sanusi, sources: [source/wikipedia-omar-mukhtar-en] }
+faith:
+  - value: sunni
+    basis: documented
+    note: "Two sources independently name Sunni: the English article's infobox gives his religion as Sunni Islam, citing as-Sallabi's published biography (Al-Firdous, 2011), and Wikidata records his religion as Sunni Islam; the Arabic article's infobox likewise gives Sunni. The Arabic article additionally names his school as Maliki, and he was a sheikh of the Senussi (Sanusiyya) Sufi order; the Maliki school is named by the Arabic article alone among the sources consulted, so the compound sunni-maliki is not recorded."
+    sources: [source/wikipedia-omar-mukhtar-en, source/wikipedia-omar-mukhtar-ar, source/wikidata-omar-mukhtar, source/omar-mukhtar-sallabi]
+external_ids: { wikidata: "Q212388" }
+sources: [source/wikipedia-omar-mukhtar-en, source/wikipedia-omar-mukhtar-ar, source/wikidata-omar-mukhtar, source/omar-mukhtar-sallabi]
+provenance:
+  layer: own-research
+  source: "English Wikipedia article 'Omar al-Mukhtar' (revision of 16 October 2026), Arabic Wikipedia article «عمر المختار» (revision of 22 September 2026), Wikidata Q212388, and the as-Sallabi biography as cited by the English article; checked 24 October 2026"
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: century-additions-1
+status: { review: published, completeness: 3, generated_by: "Muse (Muse Spark 1.3)" }
