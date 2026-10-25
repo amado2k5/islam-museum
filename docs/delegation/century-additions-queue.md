@@ -138,11 +138,11 @@ lists' own order. Status markers: [ ] queued · [~] in a writer's hands · [x] m
 - [x] Rushanara Ali — 1975–Living
 - [x] Yasmin Qureshi — 1963–Living
 - [x] Humza Yousaf — 1985–Living
-- [ ] Anas Sarwar — 1983–Living
-- [ ] Nasser Hussain — 1968–Living
-- [ ] Moeen Ali — 1987–Living
-- [ ] Adil Rashid — 1988–Living
-- [ ] Wasim Akram — 1966–Living
+- [x] Anas Sarwar — 1983–Living
+- [x] Nasser Hussain — 1968–Living
+- [x] Moeen Ali — 1987–Living
+- [x] Adil Rashid — 1988–Living
+- [x] Wasim Akram — 1966–Living
 - [ ] Waqar Younis — 1971–Living
 - [ ] Inzamam-ul-Haq — 1970–Living
 - [ ] Babar Azam — 1994–Living

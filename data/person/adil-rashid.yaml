@@ -1,0 +1,34 @@
+id: person/adil-rashid
+class: person
+label: { ar: "عادل رشيد", en: "Adil Rashid", ur: "عادل رشید" }
+names:
+  - { value: "Adil Usman Rashid", kind: full }
+gender: male
+summary:
+  ar: "لاعب كريكت إنجليزي، وُلد في برادفورد سنة 1988 من أصل باكستاني ميربوري. رامٍ يدور الكرة بكسر الساق باليمنى، يلعب ليوركشير منذ 2006 ولإنجلترا في المباريات ليوم واحد والعشرينيات منذ 2009، ولعب للاختبار بين 2015 و2019، وهو أكثر رامي دوران أخذا للويكيت لإنجلترا في المباريات ليوم واحد والعشرينيات، وفاز مع إنجلترا بكأس العالم 2019 وكأس العالم للعشرينيات 2022، ونال وسام الإمبراطورية البريطانية برتبة عضو (MBE) سنة 2023، وتغيّب عن سلسلة الهند سنة 2022 لأداء الحج."
+  en: "English cricketer, born in Bradford in 1988 of Pakistani Mirpuri descent. A right-arm leg-break bowler, he has played for Yorkshire since 2006 and for England in One Day International and Twenty20 International cricket since 2009, played Tests between 2015 and 2019, is England's highest wicket-taker among spin bowlers in both ODIs and T20Is, won the 2019 Cricket World Cup and the 2022 T20 World Cup with England, was appointed MBE in 2023, and missed the 2022 India series to perform Hajj."
+  ur: "انگلش کرکٹ کھلاڑی، جو 1988 میں بریڈفورڈ میں پاکستانی میرپوری نسل سے پیدا ہوئے۔ دائیں ہاتھ سے لیگ بریک گیند بازی کرنے والے کھلاڑی کی حیثیت سے وہ 2006 سے یارکشائر اور 2009 سے ایک روزہ اور ٹی ٹوئنٹی بین الاقوامی کرکٹ میں انگلینڈ کے لیے کھیل رہے ہیں، 2015ء سے 2019ء تک ٹیسٹ کھیلے، ایک روزہ اور ٹی ٹوئنٹی دونوں میں اسپن باؤلرز میں انگلینڈ کے سب سے زیادہ وکٹیں لینے والے باؤلر ہیں، انگلینڈ کے ساتھ 2019ء کرکٹ ورلڈ کپ اور 2022ء ٹی ٹوئنٹی ورلڈ کپ جیتا، 2023 میں ایم بی ای بنائے گئے، اور 2022 میں حج کی ادائیگی کے لیے بھارت کے خلاف سیریز سے غیر حاضر رہے۔"
+roles: [athlete]
+wings: [people, living]
+born:
+  edtf: "1988-02-17"
+  hijri: "1408"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "Born on 17 February 1988 in Bradford, West Yorkshire, England, per the English, Arabic and Urdu Wikipedia articles and Wikidata. No place entity for Bradford exists in data/place/, so no born_in relation is written. The Hijri year (1408) is derived by tabular conversion."
+  sources: [source/wikipedia-adil-rashid-en, source/wikipedia-adil-rashid-ar, source/wikipedia-adil-rashid-ur, source/wikidata-adil-rashid]
+faith:
+  - value: unknown
+    basis: unknown
+    note: "NOT RECORDED AS DOCUMENTED — no source names a school for him. The sources attest practice, not a school: ESPNcricinfo reporting in June 2022, carried widely, described him as a practising Muslim who was granted leave by the ECB and Yorkshire to miss the India white-ball series and perform Hajj with his wife, quoting him that for Islam and being a Muslim Hajj is one of the biggest things and a big thing for his faith. Practice and a generic Muslim attestation name no school. Under the two-source rule and the founder's doubt rule the value stays unknown."
+    sources: [source/wikipedia-adil-rashid-en, source/wikidata-adil-rashid]
+external_ids: { wikidata: "Q4682815" }
+sources: [source/wikipedia-adil-rashid-en, source/wikipedia-adil-rashid-ar, source/wikipedia-adil-rashid-ur, source/wikidata-adil-rashid]
+provenance:
+  layer: own-research
+  source: "English Wikipedia 'Adil Rashid', read in full on 25 October 2026; Arabic Wikipedia «عادل رشيد» and Urdu Wikipedia «عادل رشید (انگریز کرکٹ کھلاڑی)», read on 25 October 2026 — both are short and the Arabic stub misdescribes his nationality, so career facts rest on the English article; Wikidata Q4682815 verified from the English article's wikibase_item (Q4682815) returned by the Wikipedia API pageprops query on 25 October 2026 (the Wikidata site itself is unreachable from this machine). This record is for Adil Usman Rashid, the England leg-spinner born in 1988, not the Afghan cricketer Rashid Khan or any other Rashid. No earlier record for him existed in data/person/ under adil-rashid or any other spelling checked; this is a new build, not an enrichment."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: century-additions-19
+status: { review: published, completeness: 3, generated_by: "Muse (Muse Spark 1.3)" }

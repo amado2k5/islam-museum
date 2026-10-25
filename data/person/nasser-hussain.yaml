@@ -1,0 +1,34 @@
+id: person/nasser-hussain
+class: person
+label: { ar: "ناصر حسين", en: "Nasser Hussain", ur: "ناصر حسین" }
+names:
+  - { value: "Nasser Hussain", kind: full }
+gender: male
+summary:
+  ar: "لاعب كريكت إنجليزي سابق ومعلّق، وُلد في مدراس بالهند سنة 1968 لأسرة مسلمة وانتقل مع أسرته إلى إنجلترا سنة 1975. لعب لإسيكس (1987-2004) ولإنجلترا في 96 مباراة اختبار و88 مباراة دولية ليوم واحد، وقاد إنجلترا في 45 مباراة اختبار (1999-2003) فحققت في عهده أربعة انتصارات متتالية في السلاسل وصعدت إلى المركز الثالث عالميا، وسجّل أعلى نتيجة له 207 أمام أستراليا سنة 1997، ثم صار من أبرز معلّقي سكاي سبورتس وفازت سيرته الذاتية «اللعب بالنار» بجائزة أفضل سيرة ذاتية في جوائز الكتاب الرياضي البريطاني سنة 2005."
+  en: "English former cricketer and commentator, born in Madras, India, in 1968 into a Muslim family, whose family moved to England in 1975. He played for Essex (1987–2004) and for England in 96 Tests and 88 One Day Internationals, captained England in 45 Tests from 1999 to 2003 — overseeing four consecutive series wins and a rise to third in the Test rankings — scored a highest Test score of 207 against Australia in 1997, and became a leading Sky Sports commentator; his autobiography Playing With Fire won Best Autobiography at the British Sports Book Awards in 2005."
+  ur: "انگلینڈ کے سابق کرکٹ کھلاڑی اور مبصر، جو 1968 میں مدراس، بھارت میں ایک مسلم خاندان میں پیدا ہوئے اور 1975 میں خاندان کے ساتھ انگلینڈ منتقل ہوئے۔ انھوں نے ایسیکس (1987ء–2004ء) اور انگلینڈ کے لیے 96 ٹیسٹ اور 88 ایک روزہ بین الاقوامی میچ کھیلے، 1999ء سے 2003ء تک 45 ٹیسٹ میچوں میں انگلینڈ کی کپتانی کی — ان کے دور میں ٹیم نے مسلسل چار سیریز جیتیں اور ٹیسٹ درجہ بندی میں تیسرے نمبر پر پہنچی — 1997 میں آسٹریلیا کے خلاف 207 کا سب سے بڑا ٹیسٹ سکور بنایا، اور اسکائی اسپورٹس کے ممتاز مبصر بنے؛ ان کی خودنوشت «پلے انگ ود فائر» نے 2005 میں برٹش اسپورٹس بک ایوارڈز میں بہترین خودنوشت کا اعزاز جیتا۔"
+roles: [athlete, writer]
+wings: [people, living]
+born:
+  edtf: "1968-03-28"
+  hijri: "1387"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "Born on 28 March 1968 in Madras, India (now Chennai), per the English, Arabic and Urdu Wikipedia articles and Wikidata. No place entity for Madras or Chennai exists in data/place/, so no born_in relation is written. The Hijri year (1387) is derived by tabular conversion."
+  sources: [source/wikipedia-nasser-hussain-en, source/wikipedia-nasser-hussain-ar, source/wikipedia-nasser-hussain-ur, source/wikidata-nasser-hussain]
+faith:
+  - value: unknown
+    basis: unknown
+    note: "NOT RECORDED AS DOCUMENTED — the Shia attestation traces to a single source family and is not corroborated. Attestations in full: the current English article says only that he was born in Madras into a Muslim family — family background, which does not count. An older revision of that same English article, preserved in mirrors of it (TheFreeDictionary's encyclopedia copy and low-quality biography sites copying it), worded the sentence as 'born in Madras, India as a Shia Muslim'; those copies are one Wikipedia source family, not independent sources, and the current article no longer carries the wording. No independent reputable source naming a school for him, and no supportive context for a Twelver mapping, was found. Under the two-source rule, the Shia-mapping rule and the founder's doubt rule the value stays unknown."
+    sources: [source/wikipedia-nasser-hussain-en, source/wikidata-nasser-hussain]
+external_ids: { wikidata: "Q3520174" }
+sources: [source/wikipedia-nasser-hussain-en, source/wikipedia-nasser-hussain-ar, source/wikipedia-nasser-hussain-ur, source/wikidata-nasser-hussain]
+provenance:
+  layer: own-research
+  source: "English Wikipedia 'Nasser Hussain', read in full on 25 October 2026; Arabic Wikipedia «ناصر حسين (لاعب كريكت)» and Urdu Wikipedia «ناصر حسین (کرکٹ کھلاڑی)», read on 25 October 2026 — both are short stubs and the Arabic stub misattributes his county cricket, so county and career facts rest on the English article; Wikidata Q3520174 verified from the English article's wikibase_item (Q3520174) returned by the Wikipedia API pageprops query on 25 October 2026 (the Wikidata site itself is unreachable from this machine). This record is for the English cricketer Nasser Hussain (born 1968), not the Indian rugby union player of the same name and not Nasir Hossain. No earlier record for him existed in data/person/ under nasser-hussain or any other spelling checked; this is a new build, not an enrichment."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: century-additions-19
+status: { review: published, completeness: 3, generated_by: "Muse (Muse Spark 1.3)" }
