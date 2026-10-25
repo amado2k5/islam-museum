@@ -1,0 +1,66 @@
+---
+// Journey Map for the teen wing (E4 step 6): three SVG territories — the 52
+// topics, the dilemma cards and the detective units — coloured live from the
+// passport keys already kept on this device (edu-practice / edu-dilemma /
+// edu-detective). Printable poster: the legend and tiles print clean.
+import type { Lang } from "../lib/i18n";
+import type { Topic } from "../lib/topics";
+import type { Dilemma } from "../lib/dilemmas";
+import type { DetectiveUnit } from "../lib/detective";
+
+interface Props {
+  lang: Lang;
+  topics: Topic[];
+  dilemmas: Dilemma[];
+  detective: DetectiveUnit[];
+  titleLabel: string;
+  legendLabel: string;
+  topicLabel: string;
+  dilemmaLabel: string;
+  detectiveLabel: string;
+  doneLabel: string;
+  todoLabel: string;
+  printLabel: string;
+}
+const { lang, topics, dilemmas, detective, titleLabel, legendLabel, topicLabel, dilemmaLabel, detectiveLabel, doneLabel, todoLabel, printLabel } = Astro.props;
+const W = 26, H = 16, GAP = 2; // tile box
+const rows = (n: number, per: number) => Math.ceil(n / per);
+---
+<section class="jm" data-journey aria-label={titleLabel}>
+  <h1>{titleLabel}</h1>
+  <p class="ui muted jm-legend" aria-label={legendLabel}>
+    <span><i class="jm-chip jm-on" aria-hidden="true"></i>{doneLabel}</span>
+    <span><i class="jm-chip" aria-hidden="true"></i>{todoLabel}</span>
+    <button class="btn no-print" type="button" data-jm-print>{printLabel}</button>
+  </p>
+  {[
+    { label: topicLabel, items: topics.map((t) => ({ id: t.id, key: `edu-practice:${t.id}`, name: t.title[lang] })) },
+    { label: dilemmaLabel, items: dilemmas.map((d) => ({ id: d.id, key: `edu-dilemma:${d.id}`, name: d.decision[lang] })) },
+    { label: detectiveLabel, items: detective.map((u) => ({ id: u.id, key: `edu-detective:${u.id}`, name: u.claim[lang] })) },
+  ].map((zone, zi) => (
+    <section class="jm-zone">
+      <h2 class="ui">{zone.label}</h2>
+      <svg role="img" viewBox={`0 0 ${13 * (W + GAP)} ${rows(zone.items.length, 13) * (H + GAP)}`} style={`max-width:100%;height:auto`} aria-label={zone.label}>
+        {zone.items.map((it, i) => (
+          <g>
+            <rect data-jm-key={it.key} x={(i % 13) * (W + GAP)} y={Math.floor(i / 13) * (H + GAP)} width={W} height={H} rx="3" fill="var(--edge,#ddd)">
+              <title>{it.name}</title>
+            </rect>
+          </g>
+        ))}
+      </svg>
+      <p class="ui muted"><span data-jm-count>{zone.items.length}</span></p>
+    </section>
+  ))}
+</section>
+<style>
+  .jm .jm-chip { display:inline-block; width:.8em; height:.8em; border-radius:2px; background:var(--edge,#ddd); margin-inline-end:.3em; vertical-align:-0.1em }
+  .jm .jm-chip.jm-on { background:var(--accent,#2a7) }
+  .jm rect[data-on] { fill:var(--accent,#2a7) }
+  .jm-legend { display:flex; gap:1rem; align-items:center; flex-wrap:wrap }
+  @media print { .jm rect { fill: none; stroke:#999 } .jm rect[data-on] { fill:#9c9 } }
+</style>
+<script type="module">
+  import { initJourneyMap } from "../scripts/journeymap";
+  initJourneyMap();
+</script>
