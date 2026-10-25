@@ -1,0 +1,37 @@
+id: person/rashid-khan
+class: person
+label: { ar: "راشد خان", en: "Rashid Khan", ur: "راشد خان" }
+names:
+  - { value: "Rashid Khan Arman", kind: full }
+  - { value: "راشد خان ارمان", kind: full }
+gender: male
+summary:
+  ar: "لاعب كريكت أفغاني وقائد منتخب أفغانستان في مباريات العشرين الدولية، وُلد في ننكرهار سنة 1998 لأسرة بشتونية من الشينواري أصلها جلال آباد. رامٍ يدور الكرة بكسر الساق بالذراع اليمنى وضارب أيمن هجومي، لعب في أول مباراة اختبار لأفغانستان سنة 2018، وصار أصغر قائد لفريق اختبار في التاريخ سنة 2019 بعمر 20 سنة و350 يوما، وأصغر لاعب يتصدر تصنيف المجلس الدولي لراميي مباريات اليوم الواحد والعشرينيات سنة 2018، وأسرع رامٍ يبلغ 100 ويكيت في مباريات اليوم الواحد (44 مباراة) وفي العشرينيات الدولية (53 مباراة)، ونال جائزة لاعب العقد في العشرينيات الدولية سنة 2020، ويحمل الرقم القياسي لأكثر الويكيت في العشرينيات الدولية، ويلعب في دوريات الامتياز حول العالم منها الدوري الهندي الممتاز والدوري الباكستاني الممتاز ودوري بيغ باش الأسترالي."
+  en: "Afghan cricketer and captain of the Afghanistan national team in Twenty20 Internationals, born in Nangarhar in 1998 to a Shinwari Pashtun family from Jalalabad. A right-arm leg-spin bowler and aggressive right-handed batter, he played in Afghanistan's first Test match in 2018, became the youngest cricketer to captain a Test team in 2019 at 20 years and 350 days, became the youngest player to top the ICC bowler rankings in both ODIs and T20Is in 2018, is the fastest bowler to 100 ODI wickets (44 matches) and to 100 T20I wickets (53 matches), was named the ICC Men's T20I Cricketer of the Decade in 2020, holds the record for the most wickets in men's T20 Internationals, and plays in franchise leagues worldwide including the IPL, the PSL and Australia's Big Bash League."
+  ur: "افغان کرکٹ کھلاڑی اور ٹی ٹوئنٹی بین الاقوامی کرکٹ میں افغانستان کی قومی ٹیم کے کپتان، جو 1998 میں ننگرہار میں جلال آباد سے تعلق رکھنے والے شنواری پشتون خاندان میں پیدا ہوئے۔ دائیں ہاتھ سے لیگ اسپن گیند بازی کرنے والے اور جارحانہ دائیں ہاتھ کے بلے باز کی حیثیت سے انھوں نے 2018 میں افغانستان کے پہلے ٹیسٹ میچ میں شرکت کی، 2019 میں 20 برس 350 دن کی عمر میں ٹیسٹ ٹیم کی کپتانی کرنے والے سب سے کم عمر کھلاڑی بنے، 2018 میں ایک روزہ اور ٹی ٹوئنٹی دونوں میں آئی سی سی گیند بازوں کی درجہ بندی میں سرفہرست رہنے والے سب سے کم عمر کھلاڑی بنے، ایک روزہ کرکٹ میں سب سے تیز 100 وکٹیں (44 میچ) اور ٹی ٹوئنٹی بین الاقوامی میں سب سے تیز 100 وکٹیں (53 میچ) مکمل کیں، 2020 میں دہائی کے بہترین مرد ٹی ٹوئنٹی کھلاڑی قرار پائے، مردوں کی ٹی ٹوئنٹی بین الاقوامی کرکٹ میں سب سے زیادہ وکٹوں کا ریکارڈ رکھتے ہیں، اور آئی پی ایل، پی ایس ایل اور آسٹریلیا کی بگ بیش لیگ سمیت دنیا بھر کی فرنچائز لیگز میں کھیلتے ہیں۔"
+roles: [athlete]
+wings: [people, living]
+born:
+  edtf: "1998-09-20"
+  hijri: "1419"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "Born on 20 September 1998 in Nangarhar Province, Afghanistan, per the English Wikipedia article and Wikidata. No place entity for Nangarhar or Jalalabad exists in data/place/, so no born_in relation is written. The Hijri year (1419) is derived by tabular conversion."
+  sources: [source/wikipedia-rashid-khan-en, source/wikipedia-rashid-khan-ar, source/wikipedia-rashid-khan-ur, source/wikidata-rashid-khan]
+relations:
+  - { type: successor_of, target: person/mohammad-nabi, sources: [source/wikipedia-rashid-khan-en, source/wikipedia-mohammad-nabi-en] }
+faith:
+  - value: unknown
+    basis: unknown
+    note: "NOT RECORDED AS DOCUMENTED — no source names a school for him. The English article records only his Shinwari Pashtun family background and his marriages, the second of which it describes as contracted in accordance with Sharia law — practice and family background, which do not count, and neither names a school. Low-quality biography sites give at most a generic Muslim label, naming no school. Under the two-source rule and the founder's doubt rule the value stays unknown."
+    sources: [source/wikipedia-rashid-khan-en, source/wikidata-rashid-khan]
+external_ids: { wikidata: "Q21621685" }
+sources: [source/wikipedia-rashid-khan-en, source/wikipedia-rashid-khan-ar, source/wikipedia-rashid-khan-ur, source/wikidata-rashid-khan]
+provenance:
+  layer: own-research
+  source: "English Wikipedia 'Rashid Khan', read in full on 25 October 2026; Arabic Wikipedia «رشيد خان (لاعب كريكت)» and Urdu Wikipedia «راشد خان», existence and titles verified via the English article's language links returned by the Wikipedia API on 25 October 2026; Wikidata Q21621685 verified from the English article's wikibase_item (Q21621685) returned by the Wikipedia API pageprops query on 25 October 2026 (the Wikidata site itself is unreachable from this machine). The successor_of relation rests on the English articles for both men: Nabi resigned the T20I captaincy after the 2022 T20 World Cup and Rashid Khan was appointed Afghanistan's T20I captain in December 2022. This record is for Rashid Khan Arman, the Afghan leg-spinner born in Nangarhar in 1998, not Adil Rashid, Rashid Rida, or any other Rashid Khan. No earlier record for him existed in data/person/ under rashid-khan or any other spelling checked; this is a new build, not an enrichment."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: century-additions-21
+status: { review: published, completeness: 3, generated_by: "Muse (Muse Spark 1.3)" }
