@@ -1,0 +1,34 @@
+id: person/linda-sarsour
+class: person
+label: { ar: "ليندا صرصور", en: "Linda Sarsour", ur: "لیندا سرسور" }
+names:
+  - { value: "Linda Sarsour", kind: full }
+  - { value: "ليندا صرصور", kind: full }
+gender: female
+summary:
+  ar: "ناشطة سياسية أمريكية من أصل فلسطيني، وُلدت في بروكلين بنيويورك سنة 1980 أكبرَ أبناء مهاجرين فلسطينيين. قادت الجمعية العربية الأمريكية في نيويورك، واكتسبت شهرة وطنية باعتراضها على مراقبة الشرطة للمسلمين الأمريكيين، ثم شاركت في رئاسة مسيرة النساء سنة 2017 فاختارتها مجلة تايم ضمن أكثر مئة شخصية تأثيرًا، وكانت المدعية الرئيسية في دعوى الطعن في حظر السفر الذي فرضته إدارة ترمب، وأسست منصة إم باور تشينج للتنظيم عبر الإنترنت."
+  en: "American political activist of Palestinian descent, born in Brooklyn, New York, in 1980, the eldest of seven children of Palestinian immigrants. She led the Arab American Association of New York, first gained national attention protesting police surveillance of American Muslims, co-chaired the 2017 Women's March — after which Time named her and her co-chairs among its 100 most influential people — was lead plaintiff in the legal challenge to the Trump travel ban, and co-founded the MPOWER Change online organising platform."
+  ur: "فلسطینی نژاد امریکی سیاسی کارکن، جو 1980 میں بروکلن، نیویارک میں فلسطینی مہاجر والدین کے سات بچوں میں سب سے بڑی اولاد کے طور پر پیدا ہوئیں۔ انھوں نے نیویارک کی عرب امریکن ایسوسی ایشن کی قیادت کی، امریکی مسلمانوں کی پولیس نگرانی کے خلاف احتجاج سے قومی شہرت پائی، 2017 کی ویمنز مارچ کی شریک صدر رہیں، ٹرمپ کے سفری پابندی کے خلاف مقدمے کی مرکزی مدعی رہیں، اور ایم پاور چینج آن لائن پلیٹ فارم کی شریک بانی ہیں۔"
+roles: [activist, writer]
+wings: [people, living]
+born:
+  edtf: "1980"
+  hijri: "1400"
+  calendar: gregorian
+  precision: year
+  status: historical
+  derived: true
+  note: "Only the year is given by the sources. The English Wikipedia article's infobox gives '1980, New York City' and its early-life section specifies Brooklyn; the Kennedy Center profile likewise gives 'born in 1980 in Brooklyn, New York, the eldest of seven children of Palestinian immigrants'. A specific day (19 March) circulates on low-authority celebrity and hall-of-fame sites but is given by neither source used here, so no day is recorded. No place entity for Brooklyn or New York City exists in data/place/, so no born_in relation is written. The Hijri year (1400, covering most of 1980) is derived by tabular conversion."
+  sources: [source/wikipedia-linda-sarsour-en, source/kennedy-center-linda-sarsour]
+faith:
+  - value: unknown
+    basis: unknown
+    note: "No source names a school for her. The English article describes her as 'a Muslim of Palestinian descent', quotes her saying 'I believe that my religion is an empowering religion', and notes that she chooses to wear a hijab; the Kennedy Center profile frames her work as advocacy for American Muslims. A generic Muslim identity, descent, practice (hijab) and activism on behalf of Muslims are not an attestation of her own school or madhhab. Under the two-source rule and the doubt rule the faith is left unknown."
+    sources: [source/wikipedia-linda-sarsour-en, source/kennedy-center-linda-sarsour]
+sources: [source/wikipedia-linda-sarsour-en, source/kennedy-center-linda-sarsour]
+provenance:
+  layer: own-research
+  source: "English Wikipedia 'Linda Sarsour' and the Robert & Ethel Kennedy Human Rights Center profile of Linda Sarsour, both read in full on 25 October 2026. No Arabic or Urdu Wikipedia article was used in this run. No earlier record for her existed in data/person/ under any spelling (checked linda-sarsour and variants); this is a new build, not an enrichment. No Wikidata QID is recorded because no QID was verified from a retrieved source in this run."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: century-additions-13
+status: { review: published, completeness: 3, generated_by: "Muse (Muse Spark 1.3)" }

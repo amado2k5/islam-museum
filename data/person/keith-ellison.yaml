@@ -1,0 +1,34 @@
+id: person/keith-ellison
+class: person
+label: { ar: "كيث إليسون", en: "Keith Ellison", ur: "کیتھ ایلیسن" }
+names:
+  - { value: "Keith Maurice Ellison", kind: full }
+  - { value: "كيث إليسون", kind: full }
+gender: male
+summary:
+  ar: "محامٍ وسياسي أمريكي من حزب منيسوتا الديمقراطي-الفلاحي-العمالي، وُلد في ديترويت سنة 1963 ونشأ كاثوليكيًا ثم اعتنق الإسلام أثناء دراسته الجامعية. كان أول مسلم يُنتخب لكونغرس الولايات المتحدة (2007–2019) وأول أمريكي أفريقي يمثل منيسوتا فيه، وشارك في رئاسة الكتلة التقدمية، ثم أصبح سنة 2019 المدعي العام لمنيسوتا فكان أول مسلم يفوز بمنصب على مستوى ولاية أمريكية بأكملها."
+  en: "American lawyer and Democratic-Farmer-Labor politician, born in Detroit in 1963, raised Catholic and converted to Islam while at university. He was the first Muslim elected to the United States Congress (2007–2019) and the first African American to represent Minnesota there, co-chaired the Congressional Progressive Caucus, and in 2019 became attorney general of Minnesota — the first Muslim in the United States to win statewide office."
+  ur: "امریکی وکیل اور ڈیموکریٹک سیاست دان، جو 1963 میں ڈیٹرائٹ میں پیدا ہوئے، کیتھولک ماحول میں پرورش پائی اور یونیورسٹی کے دوران اسلام قبول کیا۔ وہ امریکی کانگریس کے لیے منتخب ہونے والے پہلے مسلمان تھے (2007ء–2019ء)، کانگریشنل پروگریسو کاکس کے شریک صدر رہے، اور 2019 میں منی سوٹا کے اٹارنی جنرل بنے — امریکہ میں ریاستی سطح کا عہدہ جیتنے والے پہلے مسلمان۔"
+roles: [politician]
+wings: [people, living]
+born:
+  edtf: "1963-08-04"
+  hijri: "1383"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "Gregorian date and Detroit birthplace from the English Wikipedia article and from the Minnesota Legislative Reference Library's legislator record, which gives 'Date of Birth: 8/4/1963, Birth Place: Detroit, Michigan'. Detroit has no place entity in data/place/ (the same gap noted in person/rashida-tlaib), so no born_in relation is written. The Hijri year (1383) is derived by tabular conversion."
+  sources: [source/wikipedia-keith-ellison-en, source/mn-legislators-keith-ellison]
+faith:
+  - value: unknown
+    basis: unknown
+    note: "No fetched source names a school for him in its text. The English article and the Minnesota legislators record both give his religion generically — 'Muslim' / 'Islam' — record his conversion from Catholicism to Islam at university, his ceremonial swearing-in on Thomas Jefferson's Qur'an, and (in the Minnesota record) his membership of the Masjid An-Nur mosque in Minneapolis; the article also discusses his past association with the Nation of Islam, which he repudiated for its bigoted and antisemitic statements. A generic Muslim label, a conversion, a mosque membership and a repudiated past association are none of them an attestation of his own school or madhhab, and the repudiated association if anything adds doubt. Under the two-source rule and the doubt rule the faith is left unknown."
+    sources: [source/wikipedia-keith-ellison-en, source/mn-legislators-keith-ellison]
+sources: [source/wikipedia-keith-ellison-en, source/mn-legislators-keith-ellison]
+provenance:
+  layer: own-research
+  source: "English Wikipedia 'Keith Ellison' and the Minnesota Legislative Reference Library record 'Keith Maurice Ellison' (Minnesota Legislators Past & Present), both read in full on 25 October 2026. No earlier record for him existed in data/person/ under keith-ellison or any other spelling; this is a new build, not an enrichment. No Wikidata QID is recorded because no QID was verified from a retrieved source in this run."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: century-additions-13
+status: { review: published, completeness: 3, generated_by: "Muse (Muse Spark 1.3)" }

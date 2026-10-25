@@ -1,0 +1,35 @@
+id: person/andre-carson
+class: person
+label: { ar: "أندريه كارسون", en: "André Carson", ur: "آندرے کارسن" }
+names:
+  - { value: "André Darryl Carson", kind: full }
+  - { value: "Andre Carson", kind: alternate }
+  - { value: "أندريه كارسون", kind: full }
+gender: male
+summary:
+  ar: "سياسي أمريكي ديمقراطي، وُلد في إنديانابوليس سنة 1974، وهو حفيد سلفه في الكونغرس جوليا كارسون. عمل ضابطًا في شرطة الولاية وفي وحدة مكافحة الإرهاب التابعة لوزارة الأمن الداخلي في إنديانا، ثم عضوًا في مجلس مدينة إنديانابوليس، وفاز سنة 2008 في انتخاب خاص بمقعد جدته فأصبح ثاني مسلم يُنتخب لكونغرس الولايات المتحدة بعد كيث إليسون، وما زال يمثل الدائرة السابعة في إنديانا وعميد وفدها في الكونغرس."
+  en: "American Democratic politician, born in Indianapolis in 1974, the grandson of his predecessor in Congress, Julia Carson. He worked as a state excise police officer and in the Indiana Department of Homeland Security's anti-terrorism unit, then on the Indianapolis City-County Council, and in 2008 won the special election for his grandmother's seat, becoming the second Muslim elected to the United States Congress, after Keith Ellison. He still represents Indiana's 7th district and is dean of Indiana's congressional delegation."
+  ur: "امریکی ڈیموکریٹ سیاست دان، جو 1974 میں انڈیاناپولس میں پیدا ہوئے اور کانگریس میں اپنی پیش رو جولیا کارسن کے پوتے ہیں۔ انھوں نے ریاستی پولیس اور انڈیانا کے محکمہ ہوم لینڈ سکیورٹی کی انسدادِ دہشت گردی یونٹ میں کام کیا، انڈیاناپولس سٹی کونسل کے رکن رہے، اور 2008 میں اپنی دادی کی نشست کے ضمنی انتخاب میں کامیاب ہو کر کیتھ ایلیسن کے بعد کانگریس کے لیے منتخب ہونے والے دوسرے مسلمان بنے۔"
+roles: [politician]
+wings: [people, living]
+born:
+  edtf: "1974-10-16"
+  hijri: "1394"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "Gregorian date and Indianapolis birthplace from the English Wikipedia article and from the Biographical Directory of the United States Congress entry, which gives 'born in Indianapolis, Marion County, Ind., October 16, 1974'. Indianapolis has no place entity in data/place/, so no born_in relation is written. The Hijri year (1394) is derived by tabular conversion."
+  sources: [source/wikipedia-andre-carson-en, source/house-history-andre-carson]
+faith:
+  - value: unknown
+    basis: unknown
+    note: "No source names a school for him. The English article calls him the second Muslim elected to Congress, and biographical listings give his religion simply as 'Muslim'; his own campaign biography describes him as 'one of four Muslims serving in Congress'. A generic Muslim label and congressional office are not an attestation of his own school or madhhab, his grandmother Julia Carson's reported closeness to Nation of Islam leader Louis Farrakhan is family background which never counts, and his 2012 madrassa remarks and same-day clarification name no school either. Under the two-source rule and the doubt rule the faith is left unknown."
+    sources: [source/wikipedia-andre-carson-en, source/house-history-andre-carson]
+sources: [source/wikipedia-andre-carson-en, source/house-history-andre-carson]
+provenance:
+  layer: own-research
+  source: "English Wikipedia 'Andre Carson' and the Biographical Directory of the United States Congress entry for Andre Carson via the U.S. House History site, both read in full on 25 October 2026; his campaign 'About Andre' page was also read (it describes him as one of four Muslims serving in Congress, with no school). The slug is the unaccented andre-carson, as in the queue; the accented form André Carson is his name's usual spelling and is recorded in the label and names. No earlier record existed in data/person/ under andre-carson or andré-carson; this is a new build, not an enrichment. No Wikidata QID is recorded because no QID was verified from a retrieved source in this run."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: century-additions-13
+status: { review: published, completeness: 3, generated_by: "Muse (Muse Spark 1.3)" }
