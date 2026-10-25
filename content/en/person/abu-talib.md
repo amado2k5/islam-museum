@@ -39,3 +39,14 @@ He fell into debt and surrendered the siqaya and rifada to al-'Abbas, but he rem
 
 ## The boycott and his death
 He continued to protect Muhammad when he came forward as a prophet, even when most of the other clans of Quraysh boycotted Hashim and al-Muttalib. He died shortly after the end of the boycott, about 619, and was probably succeeded as chief by his brother Abu Lahab. His sons by Fatima bint Asad b. Hashim, 'Ali, who is said to have been brought up by Muhammad, and Ja'far became Muslims; Talib fought against Muhammad at Badr. The article notes that whether Abu Talib himself was a Muslim was much discussed in connection with the fate of those who lived before Muhammad's mission. {cite:encyclopaedia-of-islam-2 vol. 1 p. 171}
+
+## From Sheikh Omar Abdelkafy's lectures on Sharh Kitab al-Fawa'id
+
+The Sheikh cites a narration that the lightest punishment in the Fire will be for Abu Talib, placed in the least severe part of the Fire, with his brain boiling (needs_source: narration whose source the lecture does not name). {cite:assabile-omar-abdelkafy sharh-ketab-al-fawaed/ep04 00:58:00}
+
+:::perspectives
+- **Sunni view: not yet sourced**: not yet attributed.
+- **speaker's view (Omar Abdelkafy)**: The Sheikh cites this narration in support of the view that Abu Talib receives the lightest punishment in the Fire {cite:assabile-omar-abdelkafy sharh-ketab-al-fawaed/ep04 00:58:00}.
+- **academic view: not yet sourced**: not yet attributed.
+- **other view: not yet sourced**: not yet attributed.
+:::

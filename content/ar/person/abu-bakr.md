@@ -93,3 +93,7 @@ translators: []
 
 ## من درس الشيخ عمر عبد الكافي: تفسير القرآن (الحلقة 7)
 يقول الشيخ إن النبي كان يصعد المنبر، وهو ذو ثلاث درجات، منذ هجرته إلى المدينة حتى وفاته (needs_source) {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep07 00:17:00}. ويذكر أن أبا بكر كان يجلس على الدرجة الأولى من المنبر وينظر دائماً إلى وجه رسول الله {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep07 00:17:30}. ويصف عمر بأنه كان صاحب رأي صريح لا يستطيع أن يخفيه، وأنه جادل أبا بكر، وكان أبو بكر قليل الكلام فلم يرد عليه {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep07 00:17:30}. ويروي أن النبي أخذ أبا بكر واحتضنه، وقال: هل تتركون لي صاحبي (needs_source) {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep07 00:18:00}. ويحكي أن أبا بكر وعمر زارا النبي فأذّن بلال لصلاة العصر، فخرج الصاحبان معه، ووضع يده على كتف أبي بكر عن يمينه وعلى كتف عمر، وقال إنهم هكذا يدخلون الجنة ثلاثتهم (needs_source) {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep07 00:19:00}.
+
+## من درس الشيخ عمر عبد الكافي: شرح كتاب الفوائد
+
+يقول الشيخ إن أبا بكر سُمّي «الصديق» من ذلك اليوم لأنه قال للنبي إنه صدق (needs_source: قول الشيخ، ولم يُذكر له مصدر في الدرس). {cite:assabile-omar-abdelkafy sharh-ketab-al-fawaed/ep04 00:51:00}

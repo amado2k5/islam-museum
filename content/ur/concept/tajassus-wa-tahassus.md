@@ -1,0 +1,15 @@
+---
+id: concept/tajassus-wa-tahassus
+lang: ur
+source_lang: ar
+translators: []
+---
+## خلاصہ
+شیخ تحسس، یعنی حواس سے کسی معاملے کی تحقیق، اور تجسس، یعنی لوگوں کے معاملات میں داخل ہونا، کے درمیان فرق بیان کرتے ہیں، اور کہتے ہیں کہ تجسس حرام ہے۔ {cite:assabile-omar-abdelkafy sharh-ketab-al-fawaed/ep03 00:49:00} وہ عمر کا واقعہ بیان کرتے ہیں کہ انہوں نے ایک عجیب آواز سنی، دیوار پھاندی اور کچھ لوگوں کو شراب پیتے پایا، اور ان کا جواب، مگر یہ روایت ریکارڈنگ میں جزوی طور پر مشوش ہے (needs_source)۔ {cite:assabile-omar-abdelkafy sharh-ketab-al-fawaed/ep03 00:47:00} {cite:assabile-omar-abdelkafy sharh-ketab-al-fawaed/ep03 00:47:30}
+
+## تحسس اور تجسس
+شیخ کہتے ہیں کہ تحسس کسی معاملے کی تحقیق حواس سے کرنا ہے، اور اس کی مثال دروازوں کی جانچ ہے۔ {cite:assabile-omar-abdelkafy sharh-ketab-al-fawaed/ep03 00:49:00}
+وہ کہتے ہیں کہ تجسس لوگوں کے درمیان اور ان کے معاملات میں داخل ہونا ہے، اور یہ حرام ہے۔ {cite:assabile-omar-abdelkafy sharh-ketab-al-fawaed/ep03 00:49:00}
+
+## عمر اور شراب پینے والے لوگ
+شیخ بیان کرتے ہیں کہ عمر نے ایک عجیب آواز سنی، دیوار پر چڑھے اور تین آدمیوں کو شراب پیتے پایا۔ {cite:assabile-omar-abdelkafy sharh-ketab-al-fawaed/ep03 00:47:00} ان لوگوں نے کہا کہ آپ نے اللہ کی تین نافرمانیاں کی ہیں، جن میں تجسس بھی شامل ہے، اور شیخ گھروں میں دروازوں سے داخل ہونے کے بارے میں ایک آیت کا حوالہ دیتے ہیں جس کا نام وہ نہیں لیتے (needs_source: روایت ریکارڈنگ میں جزوی طور پر مشوش ہے)۔ {cite:assabile-omar-abdelkafy sharh-ketab-al-fawaed/ep03 00:47:30}

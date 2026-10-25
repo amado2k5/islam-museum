@@ -88,3 +88,7 @@ translators: ["Claude Haiku 5.5 (claude-haiku-5-5), draft translation"]
 
 ## شیخ عمر عبد الکافی کے تفسیری درس (قسط 7)
 شیخ کہتے ہیں کہ نبی ہجرتِ مدینہ سے وفات تک منبر پر چڑھتے تھے جو تین درجوں کا تھا (needs_source) {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep07 00:17:00}۔ وہ ذکر کرتے ہیں کہ ابو بکر منبر کے پہلے درجے پر بیٹھتے اور ہمیشہ رسول اللہ کے چہرے کو دیکھتے رہتے {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep07 00:17:30}۔ وہ عمر کو ایسا شخص بتاتے ہیں جس کی رائے صاف گو تھی اور وہ اسے چھپا نہیں سکتے تھے، انہوں نے ابو بکر سے بحث کی، اور ابو بکر کم گو تھے تو انہوں نے جواب نہ دیا {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep07 00:17:30}۔ وہ روایت کرتے ہیں کہ نبی نے ابو بکر کو پکڑ کر گلے لگا لیا اور فرمایا کہ کیا تم میرے ساتھی کو میرے لیے چھوڑو گے نہیں (needs_source) {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep07 00:18:00}۔ وہ بیان کرتے ہیں کہ ابو بکر اور عمر نبی سے ملنے آئے، بلال نے عصر کی اذان دی، تو دونوں ساتھی ان کے ساتھ نکلے، نبی کا ہاتھ دائیں جانب ابو بکر کے کندھے پر اور عمر کے کندھے پر تھا، اور انہوں نے فرمایا کہ تینوں اسی طرح جنت میں داخل ہوں گے (needs_source) {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep07 00:19:00}۔
+
+## شیخ عمر عبد الکافی کے درس شرح کتاب الفوائد سے
+
+شیخ کہتے ہیں کہ ابو بکر کو اسی دن سے «صدیق» کہا گیا، کیونکہ انہوں نے نبی سے کہا کہ آپ نے سچ فرمایا (needs_source: شیخ کا بیان، درس میں اس واقعے کا ماخذ نہیں)۔ {cite:assabile-omar-abdelkafy sharh-ketab-al-fawaed/ep04 00:51:00}

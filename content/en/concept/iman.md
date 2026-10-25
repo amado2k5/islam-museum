@@ -38,3 +38,26 @@ The Sheikh warns against wavering faith and says that the servant who worships G
 The Sheikh gives a familiar example from families: a man who does not pray and a woman who refuses the headscarf, who are nonetheless of excellent character {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep04 00:41:30}. He asks whether their good character makes up for the prayer and the headscarf {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep04 00:41:30}.
 
 The Sheikh compares this to a pupil expelled from school for refusing some subjects, and says the believer takes the religion whole {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep04 00:42:00}. He notes that Bani Israel were faulted for believing in part of the Book and rejecting part of it, as though one believed in two pages and rejected the third, whereas we believe in the whole Book {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep04 00:42:00}.
+
+## From Sheikh Omar Abdelkafy's Sharh Ketab Al Fawaed lectures (episode 3)
+
+The Sheikh says that faith has an outward and an inward part: the outward is speech of the tongue and deeds of the limbs, and the inward is the heart's assent {cite:assabile-omar-abdelkafy sharh-ketab-al-fawaed/ep03 00:42:30} {cite:assabile-omar-abdelkafy sharh-ketab-al-fawaed/ep03 00:43:00}.
+
+He says that every believer is a Muslim, but not every Muslim is a believer, and he quotes a verse about the desert Arabs, not named by him {cite:assabile-omar-abdelkafy sharh-ketab-al-fawaed/ep03 00:41:30}.
+
+The Sheikh holds that the inward faith shows itself only through the outward, except in some cases, such as coercion or fear for one's life {cite:assabile-omar-abdelkafy sharh-ketab-al-fawaed/ep03 00:52:30} {cite:assabile-omar-abdelkafy sharh-ketab-al-fawaed/ep03 00:53:00}.
+
+He holds that leaving the outward act when nothing prevents it is a sign of corruption within {cite:assabile-omar-abdelkafy sharh-ketab-al-fawaed/ep03 00:53:30}.
+
+He says that obedience increases faith and disobedience reduces it, and that a faith which does not move its holder to act is open to doubt {cite:assabile-omar-abdelkafy sharh-ketab-al-fawaed/ep03 00:55:30} {cite:assabile-omar-abdelkafy sharh-ketab-al-fawaed/ep03 00:56:00}.
+
+## From Sheikh Omar Abdelkafy's Sharh Ketab Al Fawaed lectures (episode 6)
+
+He says that faith increases and decreases: obedience increases it and sin reduces it {cite:assabile-omar-abdelkafy sharh-ketab-al-fawaed/ep06 01:11:30}.
+
+:::perspectives
+- **Sunni view: not yet sourced**: not yet attributed.
+- **speaker's view (Omar Abdelkafy)**: The Sheikh holds that faith increases and decreases, increased by obedience and reduced by sin {cite:assabile-omar-abdelkafy sharh-ketab-al-fawaed/ep06 01:11:30}.
+- **academic view: not yet sourced**: not yet attributed.
+- **other view: not yet sourced**: not yet attributed.
+:::

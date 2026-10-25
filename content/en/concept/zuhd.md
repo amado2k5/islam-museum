@@ -25,3 +25,9 @@ He notes that people disagreed, in two views, over whether the name of ascetic b
 Muslim opens the book of asceticism and tender hearts with the saying of the Prophet: "The world is a prison for the believer and a paradise for the unbeliever." {cite:sahih-muslim 2956}
 
 See [[concept/wara|scrupulousness]].
+
+## From Sheikh Omar Abdelkafy's Sharh Ketab Al Fawaed lectures (episode 5)
+
+The Sheikh says that when hearts renounce the tables of this world, they sit at the tables of the Hereafter {cite:assabile-omar-abdelkafy sharh-ketab-al-fawaed/ep05 00:15:30}.
+
+He says that a person should live in this world as a stranger or a traveller to God, with his heart in the Hereafter {cite:assabile-omar-abdelkafy sharh-ketab-al-fawaed/ep05 00:37:30}.

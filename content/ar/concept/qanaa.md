@@ -20,3 +20,9 @@ translators: []
 
 ## ما لم يُذكر هنا
 لم يُتحقق بعد من الآية التي يشير إليها الشيخ في سياق التمني، فلم تُربط بسورة أو آية محددة (needs_source).
+
+## من درس الشيخ عمر عبد الكافي: شرح كتاب الفوائد (الحلقة 5)
+
+يقول الشيخ إن الغنى الحقيقي غنى النفس، لا كثرة العرض من المال والمتاع {cite:assabile-omar-abdelkafy sharh-ketab-al-fawaed/ep05 00:37:30} {cite:assabile-omar-abdelkafy sharh-ketab-al-fawaed/ep05 00:38:00}.
+
+يرى الشيخ، وهذا رأيه، أن الفقير القانع الراضي قد يكون أحسن حالا من الملك (needs_source: لفظ «الملك» في التفريغ غير واضح) {cite:assabile-omar-abdelkafy sharh-ketab-al-fawaed/ep05 00:33:30}.

@@ -49,3 +49,7 @@ He adds that Umar welcomed Isa and the Prophet, then welcomed the angel of death
 He tells how Umar ibn Abd al-Aziz, on entering the mosque, stepped on a man's foot, and the man jumped up in fright and seized the Commander of the Faithful by the collar (needs_source) {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep09 00:32:00}.
 
 He says the man asked him, are you blind, and Umar answered no; the members of his retinue wanted to discipline the man, but Umar said he had only asked him a question and he had answered it; the Sheikh then moves on to al-Hasan al-Basri, saying that his fame spread across the horizons (needs_source) {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep09 00:32:30}.
+
+## From Sheikh Omar Abdelkafy's lectures on Sharh Kitab al-Fawa'id
+
+The Sheikh narrates an anecdote: a boy went in to Umar ibn Abd al-Aziz, and the caliph told him to leave speaking to someone older. The boy replied that if the matter depended on age, someone in the gathering would be older than the caliph and more entitled to the command of the believers (needs_source: anecdote with no source given in the lecture). {cite:assabile-omar-abdelkafy sharh-ketab-al-fawaed/ep01 01:04:30} {cite:assabile-omar-abdelkafy sharh-ketab-al-fawaed/ep01 01:05:00}

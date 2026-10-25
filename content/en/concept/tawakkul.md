@@ -33,3 +33,17 @@ He asks why a child of one or two years is at ease, and answers that God created
 The Sheikh calls on a person to follow his Lord and not anyone else out of tribal loyalty, to leave the matter of the universe to its Creator and to entrust the affair to his Lord {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep10 00:55:30}.
 
 He calls for relying on God rather than on a strong tribe, a prominent family or a minister, and mentions young men each boasting that his father is the chief of police, the head of an office, or some other figure {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep10 00:56:00}.
+
+## From Sheikh Omar Abdelkafy's Sharh Ketab Al Fawaed lectures (episode 3)
+
+The Sheikh says that trust in God is of two kinds: trust in God for worldly needs, and trust in God for what He loves and approves, namely faith, certainty, struggle and calling to God {cite:assabile-omar-abdelkafy sharh-ketab-al-fawaed/ep03 01:04:30} {cite:assabile-omar-abdelkafy sharh-ketab-al-fawaed/ep03 01:05:00}.
+
+He says the second kind is the greater, and that whoever trusts God in it as He deserves is sufficed by the first kind {cite:assabile-omar-abdelkafy sharh-ketab-al-fawaed/ep03 01:05:30}.
+
+He says the greatest trust is trust in God when bearing harm, in calling to God, in following the Prophet and in struggling against falsehood, and he calls this the hardest thing {cite:assabile-omar-abdelkafy sharh-ketab-al-fawaed/ep03 01:06:00} {cite:assabile-omar-abdelkafy sharh-ketab-al-fawaed/ep03 01:06:30}.
+
+He says that trust alongside taking the means means trusting the Causer of causes, not the means themselves: one studies, then relies on God for success {cite:assabile-omar-abdelkafy sharh-ketab-al-fawaed/ep03 01:19:00}.
+
+He says that the reality of trust is the heart's reliance on God alone, and that taking the means does not harm it while the heart does not lean on them {cite:assabile-omar-abdelkafy sharh-ketab-al-fawaed/ep03 01:21:00}.
+
+He says one should not rely on a person who may die, leave or forget, but on God, who endures and does not pass away; he quotes a verse, not named by him {cite:assabile-omar-abdelkafy sharh-ketab-al-fawaed/ep03 01:02:00} {cite:assabile-omar-abdelkafy sharh-ketab-al-fawaed/ep03 01:02:30}.

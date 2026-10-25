@@ -21,3 +21,11 @@ Among the definitions of good character according to Ahmad is "that you do not b
 He says a person must master himself when desiring and when afraid, and fear only the One who created him. {cite:assabile-omar-abdelkafy aadau-al-islam/ep02 00:22:00}
 He says anger comes from Satan, and Satan was created from fire. {cite:assabile-omar-abdelkafy aadau-al-islam/ep02 00:23:00}
 He recounts the man who asked the Prophet for counsel and was told, "do not become angry", and urges imitating the forbearance of the Prophet, the Companions and the scholars. {cite:assabile-omar-abdelkafy aadau-al-islam/ep02 00:23:30}
+
+## From Sheikh Omar Abdelkafy's Sharh Ketab Al Fawaed lectures (episode 4)
+
+The Sheikh says that anger comes from Satan and Satan from fire, and that the fire of anger is put out only by gentleness; the transcript here reads "al-na'im" (needs_source: the word is unclear in the transcript and is likely "gentleness", to be verified) {cite:assabile-omar-abdelkafy sharh-ketab-al-fawaed/ep04 01:00:00}.
+
+## From Sheikh Omar Abdelkafy's Sharh Ketab Al Fawaed lectures (episode 9)
+
+The Sheikh says that the fire of revenge comes from the fire of anger, so anger is its source {cite:assabile-omar-abdelkafy sharh-ketab-al-fawaed/ep09 00:07:30}.

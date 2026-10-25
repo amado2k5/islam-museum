@@ -1,0 +1,17 @@
+---
+id: concept/tul-al-amal
+lang: ur
+source_lang: ar
+translators: []
+---
+## خلاصہ
+شیخ عمر عبدالکافی کہتے ہیں کہ وقت کا ضیاع طولِ امید سے آتا ہے، کیونکہ آدمی یہ گمان رکھتا ہے کہ کل آئے گا۔ {cite:assabile-omar-abdelkafy sharh-ketab-al-fawaed/ep05 01:20:00} شیخ کی رائے ہے کہ خواہش کی پیروی آدمی کو حق سے پھیر دیتی ہے، اور طولِ امید آخرت کو بھلا دیتی ہے۔ {cite:assabile-omar-abdelkafy sharh-ketab-al-fawaed/ep05 01:20:30}
+
+## وقت کا ضیاع اور طولِ امید
+شیخ کہتے ہیں کہ وقت کا ضیاع طولِ امید سے آتا ہے، کیونکہ آدمی یہ گمان رکھتا ہے کہ کل آئے گا۔ {cite:assabile-omar-abdelkafy sharh-ketab-al-fawaed/ep05 01:20:00} {cite:assabile-omar-abdelkafy sharh-ketab-al-fawaed/ep05 01:20:30}
+
+## خواہش کی پیروی اور طولِ امید
+شیخ کہتے ہیں کہ خواہش کی پیروی آدمی کو حق سے ہٹاتی ہے، اور طولِ امید اسے آخرت بھلا دیتی ہے۔ {cite:assabile-omar-abdelkafy sharh-ketab-al-fawaed/ep05 01:20:30}
+
+## شیخ کی رائے: مقصد ہدایت پر چلنا اور اللہ سے ملاقات کی تیاری
+شیخ کی رائے ہے کہ نماز کا سارا مقصد ہدایت کی پیروی اور اللہ سے ملاقات کی تیاری میں ہے۔ {cite:assabile-omar-abdelkafy sharh-ketab-al-fawaed/ep05 01:21:00}

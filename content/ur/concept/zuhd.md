@@ -24,3 +24,9 @@ translators: ["Claude Haiku 5.5 (claude-haiku-5-5), draft translation"]
 مسلم زہد اور رقائق کی کتاب کا آغاز نبی کے قول سے کرتے ہیں: «دنیا مومن کا قید خانہ اور کافر کی جنت ہے»۔ {cite:sahih-muslim 2956}
 
 دیکھیں [[concept/wara|ورع]]۔
+
+## شیخ عمر عبد الکافی کے شرح کتاب الفوائد کے درس (قسط 5)
+
+شیخ کہتے ہیں کہ جب دل دنیا کے دسترخوان سے بے رغبت ہوتے ہیں تو وہ آخرت کے دسترخوان پر بیٹھتے ہیں {cite:assabile-omar-abdelkafy sharh-ketab-al-fawaed/ep05 00:15:30}۔
+
+شیخ کہتے ہیں کہ انسان دنیا میں اجنبی یا اللہ کی طرف سفر کرنے والے کی طرح رہے، اور اس کا دل آخرت میں ہو {cite:assabile-omar-abdelkafy sharh-ketab-al-fawaed/ep05 00:37:30}۔

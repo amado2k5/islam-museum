@@ -28,3 +28,9 @@ The Encyclopaedia of Islam (2nd ed.) entry gives his name as commonly Jundub b. 
 ## From Sheikh Omar Abdelkafy's Tafsir lectures (episode 9)
 
 The Sheikh relates that Abu Dharr said, in the year 36 AH, that the time that had been roses without thorns had become thorns without roses (needs_source) {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep09 00:34:30}.
+
+## From Sheikh Omar Abdelkafy's lectures on Sharh Kitab al-Fawa'id
+
+The Sheikh narrates that Abu Dharr recited Sura al-Zalzala to a Bedouin until its end. The Bedouin wept and asked whether God would not hold them to account for the weight of an atom on the Day of Resurrection, and Abu Dharr said yes (needs_source: narration with no source given in the lecture). {cite:assabile-omar-abdelkafy sharh-ketab-al-fawaed/ep05 00:21:30} {cite:assabile-omar-abdelkafy sharh-ketab-al-fawaed/ep05 00:22:00}
+
+The Sheikh holds that knowledge is of benefit only when it is put into practice. {cite:assabile-omar-abdelkafy sharh-ketab-al-fawaed/ep05 00:22:00}

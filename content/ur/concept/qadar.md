@@ -33,3 +33,9 @@ translators: ["Claude Haiku 5.5 (claude-haiku-5-5), draft translation"]
 شیخ کی رائے ہے کہ اگر تقدیریں لوگوں کی خواہش کے مطابق چلتیں تو زمین آباد نہ ہوتی {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep04 00:24:30}۔
 
 شیخ پوچھتے ہیں کہ کیا تم تدبیر کرنے والے ہو یا جس کے لیے تدبیر کی جاتی ہے؟ کیا تم اپنے معاملات خود ترتیب دیتے اور اپنا نظام الاوقات بناتے ہو، یا اللہ تمہارے لیے تمہارا معاملہ طے کرتا ہے؟ {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep04 00:28:00}۔ وہ صبر کی دعوت دیتے ہیں یہاں تک کہ وہ ظاہر ہو جائے جو اللہ طے کرتا ہے {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep04 00:28:00}۔
+
+## شیخ عمر عبد الکافی کے شرح کتاب الفوائد کے درس (قسط 4)
+
+شیخ کہتے ہیں کہ کسی شخص کو اس چیز پر ملامت نہیں کرنی چاہیے جو اللہ نے اسے نقصان نہ پہنچائی ہو {cite:assabile-omar-abdelkafy sharh-ketab-al-fawaed/ep04 00:19:30}۔
+
+شیخ کہتے ہیں کہ انسان پر جو کچھ گزرتا ہے وہ اللہ عزوجل کی تقدیر سے گزرتا ہے {cite:assabile-omar-abdelkafy sharh-ketab-al-fawaed/ep04 00:20:00}۔

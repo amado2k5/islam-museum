@@ -41,3 +41,11 @@ The Sheikh says that provision has already been apportioned and settled, so in h
 ## From Sheikh Omar Abdelkafy's Tafsir lectures (episode 9)
 
 The Sheikh says that every morning has its provision, and that God gives this world to those He loves and to those He does not, while He gives religion only to those He loves {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep09 00:36:30}.
+
+## From Sheikh Omar Abdelkafy's Sharh Ketab Al Fawaed lectures (episode 4)
+
+The Sheikh tells of a man who did not carry worry about his provision, and cites a verse, not named by him, that provision is in the sky (needs_source: the transcript is unclear, and the claim that worry adds nothing to provision is not stated in it, so it is not attributed here) {cite:assabile-omar-abdelkafy sharh-ketab-al-fawaed/ep04 00:17:30}.
+
+The Sheikh says that God's provision comes to the one who is eager for it, is not turned back by the aversion of one who dislikes it, and that what God has written for His servant no one can prevent {cite:assabile-omar-abdelkafy sharh-ketab-al-fawaed/ep04 00:22:30}.
+
+The Sheikh uses the image of water for provision: it reaches a person as water flows, while the condition he attaches to this is unclear in the transcript (needs_source) {cite:assabile-omar-abdelkafy sharh-ketab-al-fawaed/ep04 00:18:00}.

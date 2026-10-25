@@ -20,3 +20,7 @@ The book "The Umayyad State" by al-Salabi says that Sulayman summoned him when h
 
 ## From Sheikh Omar Abdelkafy's Tafsir lectures (episode 9)
 The Sheikh tells again that Abd al-Malik ibn Marwan, a man of awe-inspiring presence, said he wished he had washed and shrouded the dead and had not governed the Muslims for even a single day, that Abu Hazim paused on hearing this, then told his assistant to pour water on the dead man, and praised God that at their death they wish for our life (needs_source) {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep09 00:16:00}.
+
+## From Sheikh Omar Abdelkafy's lectures on Sharh Kitab al-Fawa'id
+
+The Sheikh narrates that Abu Hazim entered on Ishaq ibn Abd al-Malik and took off his shoes, saying that he takes off his shoes before his Lord five times a day and night (needs_source: narration with no source given in the lecture). {cite:assabile-omar-abdelkafy sharh-ketab-al-fawaed/ep02 01:05:30} {cite:assabile-omar-abdelkafy sharh-ketab-al-fawaed/ep02 01:06:00}

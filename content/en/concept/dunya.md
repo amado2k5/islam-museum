@@ -17,3 +17,10 @@ He says that every stage of life has its own dignity for a Muslim. He faults the
 He adds that one should not demand things against their nature, like someone looking for a spark of fire inside water, and he applies this to marriage: if a wife is not good at showing affection (or the reverse), that is her nature and she is accepted as she is {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep04 00:53:00}.
 
 He tells a humorous story of a wife who went with her husband to a tower after sunset in a romantic moment and expected him to say something kind about the moon and the lovely evening; instead he asked her jokingly what she would think if he buried her in the sand right now, and she wondered at such romance (needs_source) {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep04 00:53:30}.
+
+## From Sheikh Omar Abdelkafy's Sharh Ketab al-Fawaed lectures (episode 2)
+The Sheikh says that the world is not a house of honour but a house of trial, and he calls it the prison of the believer (his view). He cites a saying that he describes as authentic (needs_source: its source is not given in this passage) {cite:assabile-omar-abdelkafy sharh-ketab-al-fawaed/ep02 00:55:00}.
+
+## From Sheikh Omar Abdelkafy's Sharh Ketab al-Fawaed lectures (episode 5)
+He relates a saying, attributed to an unnamed person who was asked how he had found the world, that it is a house with two doors: he entered by one and left by the other (needs_source: the transcript does not make clear to whom the saying is attributed) {cite:assabile-omar-abdelkafy sharh-ketab-al-fawaed/ep05 00:29:00}.
+He quotes a saying of the Prophet: the believer is a stranger in this world, neither grieving over its glory nor despairing at its hardship {cite:assabile-omar-abdelkafy sharh-ketab-al-fawaed/ep05 01:02:00}.

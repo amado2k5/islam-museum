@@ -20,3 +20,9 @@ He gives examples of such wishing, such as the wish to sit on a board of directo
 
 ## Not yet covered here
 The speaker alludes to a Qur'anic verse in the context of wishing, but the recording does not name its sura or verse, so it is not linked (needs_source).
+
+## From Sheikh Omar Abdelkafy's Sharh Ketab Al Fawaed lectures (episode 5)
+
+The Sheikh says that true richness is the richness of the soul, not an abundance of goods {cite:assabile-omar-abdelkafy sharh-ketab-al-fawaed/ep05 00:37:30} {cite:assabile-omar-abdelkafy sharh-ketab-al-fawaed/ep05 00:38:00}.
+
+The Sheikh holds, as his own view, that a contented poor man may be better off than a king (needs_source: the word for "king" in the transcript is unclear) {cite:assabile-omar-abdelkafy sharh-ketab-al-fawaed/ep05 00:33:30}.

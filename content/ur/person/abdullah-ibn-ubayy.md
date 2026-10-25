@@ -29,3 +29,16 @@ translators: ["Claude Haiku 5.5 (claude-haiku-5-5), draft translation"]
 وہ بیان کرتے ہیں کہ عبداللہ بن ابی کے بیٹے نے نبی سے اپنے باپ کے قتل کی اجازت مانگی اور اجازت نہیں دی گئی۔ {cite:assabile-omar-abdelkafy aadau-al-islam/ep03 00:23:00}
 وہ کہتے ہیں کہ نبی نے ان کے گھر والوں کو ان کے کفن کی پیشکش کی (needs_source: اس جملے کے الفاظ خودکار ٹرانسکرپشن میں واضح نہیں)۔ {cite:assabile-omar-abdelkafy aadau-al-islam/ep03 00:24:00}
 وہ بیان کرتے ہیں کہ نبی نے کہا کہ وہ ان کے لیے استغفار کریں گے چاہے کتنی ہی بار کیا جائے (needs_source: تعداد خودکار ٹرانسکرپشن میں واضح نہیں)، پھر منافقین پر نماز پڑھنے کی ممانعت نازل ہوئی۔ {cite:assabile-omar-abdelkafy aadau-al-islam/ep03 00:24:30} {cite:assabile-omar-abdelkafy aadau-al-islam/ep03 00:25:30}
+
+## شیخ عمر عبد الکافی کے درس شرح کتاب الفوائد سے
+
+شیخ روایت کرتے ہیں کہ عبداللہ بن ابی کی وفات پر لوگوں نے نبی سے درخواست کی کہ وہ اس کی نماز جنازہ پڑھائیں (needs_source: درس میں اس روایت کا ماخذ نہیں دیا گیا)۔ {cite:assabile-omar-abdelkafy sharh-ketab-al-fawaed/ep02 01:21:00}
+
+شیخ ایک آیت کا حوالہ دیتے ہیں جس کا نام انہوں نے نہیں لیا، اور اسے منافقین میں سے مرنے والوں پر نماز پڑھنے اور ان کی قبر پر کھڑے ہونے کی ممانعت کے طور پر پیش کرتے ہیں۔ {cite:assabile-omar-abdelkafy sharh-ketab-al-fawaed/ep02 01:23:30} {cite:assabile-omar-abdelkafy sharh-ketab-al-fawaed/ep02 01:24:00}
+
+:::perspectives
+- **أهل السنة: ابھی ماخذ نہیں**: ابھی منسوب نہیں۔
+- **speaker's view (Omar Abdelkafy)**: شیخ روایت اور اس آیت کا ذکر کرتے ہیں جس سے وہ منافقین کے مرنے پر نماز کی ممانعت سمجھتے ہیں {cite:assabile-omar-abdelkafy sharh-ketab-al-fawaed/ep02 01:21:00} {cite:assabile-omar-abdelkafy sharh-ketab-al-fawaed/ep02 01:23:30}۔
+- **academic view: not yet sourced**: ابھی منسوب نہیں۔
+- **other view: not yet sourced**: ابھی منسوب نہیں۔
+:::

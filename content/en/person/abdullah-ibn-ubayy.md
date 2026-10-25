@@ -27,3 +27,16 @@ He calls him the chief of the hypocrites in Medina, and says the Prophet did not
 He recounts that Abdullah ibn Ubayy's son asked the Prophet's permission to kill his father, and was not given it. {cite:assabile-omar-abdelkafy aadau-al-islam/ep03 00:23:00}
 He says the Prophet offered Abdullah ibn Ubayy's family a shroud for him (needs_source: the wording of this sentence is not clear in the automatic transcript). {cite:assabile-omar-abdelkafy aadau-al-islam/ep03 00:24:00}
 He says the Prophet said he would ask forgiveness for him, however many times it was asked (needs_source: the number is not clear in the automatic transcript), and then a prohibition on praying over the hypocrites came down. {cite:assabile-omar-abdelkafy aadau-al-islam/ep03 00:24:30} {cite:assabile-omar-abdelkafy aadau-al-islam/ep03 00:25:30}
+
+## From Sheikh Omar Abdelkafy's lectures on Sharh Kitab al-Fawa'id
+
+The Sheikh narrates that when Abdullah ibn Ubayy died, people asked the Prophet to pray over him (needs_source: narration with no source given in the lecture). {cite:assabile-omar-abdelkafy sharh-ketab-al-fawaed/ep02 01:21:00}
+
+He quotes a verse, not named by him, which he presents as a prohibition on praying over the dead among the hypocrites and standing at their graves. {cite:assabile-omar-abdelkafy sharh-ketab-al-fawaed/ep02 01:23:30} {cite:assabile-omar-abdelkafy sharh-ketab-al-fawaed/ep02 01:24:00}
+
+:::perspectives
+- **Sunni view: not yet sourced**: not yet attributed.
+- **speaker's view (Omar Abdelkafy)**: The Sheikh gives the narration and the verse from which he draws a prohibition on praying over the hypocrites who die {cite:assabile-omar-abdelkafy sharh-ketab-al-fawaed/ep02 01:21:00} {cite:assabile-omar-abdelkafy sharh-ketab-al-fawaed/ep02 01:23:30}.
+- **academic view: not yet sourced**: not yet attributed.
+- **other view: not yet sourced**: not yet attributed.
+:::
