@@ -253,4 +253,14 @@ sources:
       max_items_per_book: 6
       max_file_gib: 1.5
       note: 'facts, chronology, names and citations only; never republish text; OCR text and PDFs stay in the harvest workspace, never in git'
+  encyclopaedia-of-islam-2:
+    name: Encyclopaedia of Islam, 2nd edition (Leiden: Brill, 1954-2008, 13 volumes)
+    url: https://archive.org/details/ei2-complete
+    licence: Brill copyright; the archive.org item states no licence URL and the status is not verified as public domain. Read and rewritten in the museum's own words under docs/sources-policy.md, each fact cited by volume and PDF page
+    layer: copyrighted-reference
+    method: download of the 15 PDFs (checksums checked against archive.org); Apple Vision OCR (en-US, accurate, 200 dpi, every page); entry split with scripts/harvest/encyclopaedia/split_entries.py; English prose written from the text, then Arabic and Urdu translations
+    limits:
+      quotation_max_words: 40
+      note: 'PDFs, OCR text, page images and entry splits stay in the harvest workspace, never in git'
+    status: enabled
 workspace: /Volumes/exmicroSD/islam-museum-harvest (symlinked from ~/islam-museum-harvest)
