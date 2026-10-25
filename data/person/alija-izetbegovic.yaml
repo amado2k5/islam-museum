@@ -1,0 +1,47 @@
+id: person/alija-izetbegovic
+class: person
+label: { ar: "علي عزت بيغوفيتش", en: "Alija Izetbegović", ur: "علیجا عزت بیگووچ" }
+names:
+  - { value: "Alija Izetbegović", kind: full }
+  - { value: "علي عزت بيغوفيتش", kind: full }
+gender: male
+summary:
+  ar: "سياسي وفيلسوف وكاتب بوسني، وُلد سنة 1925، أسّس حزب العمل الديمقراطي وقاد البوسنة والهرسك رئيسًا خلال حرب البوسنة (1990–1996) ووقّع اتفاق دايتون، وألّف كتاب «الإسلام بين الشرق والغرب» و«الإعلان الإسلامي»، وتوفي في سراييفو سنة 2003."
+  en: "Bosnian politician, philosopher and author, born in 1925. He founded the Party of Democratic Action, led Bosnia and Herzegovina as president through the Bosnian War (1990-1996) and signed the Dayton Agreement. His books include Islam Between East and West and the Islamic Declaration. He died at Sarajevo in 2003."
+  ur: "بوسنیائی سیاست دان، فلسفی اور مصنف، جو 1925 میں پیدا ہوئے۔ انہوں نے پارٹی آف ڈیموکریٹک ایکشن قائم کی، بوسنیائی جنگ کے دوران (1990–1996) بوسنیا و ہرزیگووینا کے صدر کی حیثیت سے ملک کی قیادت کی اور ڈیٹن معاہدے پر دستخط کیے۔ ان کی کتابوں میں «اسلام مشرق و مغرب کے درمیان» اور «اعلانِ اسلامی» شامل ہیں۔ 2003 میں سرائیوو میں وفات پائی۔"
+roles: [politician, philosopher, writer]
+wings: [people]
+born:
+  edtf: "1925-08-08"
+  hijri: "1344"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "Gregorian date from English Wikipedia and Wikidata, which also give the birthplace as Bosanski Šamac; the Arabic article's lead instead gives Bosanska Krupa — the conflict is recorded here and the English/Wikidata value is followed. The Arabic article gives the full Hijri date (18 Muharram 1344); the year is recorded. Bosanski Šamac has no place entity in the museum yet, so no born_in relation is written."
+  sources: [source/wikipedia-alija-izetbegovic-en, source/wikipedia-alija-izetbegovic-ar, source/wikidata-alija-izetbegovic]
+died:
+  edtf: "2003-10-19"
+  hijri: "1424"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "Died at Sarajevo of heart disease complicated by injuries from a fall at home (English article and Wikidata); buried at the Kovači Martyrs' Memorial Cemetery in Sarajevo, which has no place entity yet. The Arabic article gives the full Hijri date (23 Sha'ban 1424); the year is recorded."
+  sources: [source/wikipedia-alija-izetbegovic-en, source/wikipedia-alija-izetbegovic-ar, source/wikidata-alija-izetbegovic]
+relations:
+  - { type: died_in, target: place/sarajevo, sources: [source/wikipedia-alija-izetbegovic-en, source/wikidata-alija-izetbegovic] }
+  - { type: lived_in, target: place/sarajevo, sources: [source/wikipedia-alija-izetbegovic-en, source/wikipedia-alija-izetbegovic-ar] }
+faith:
+  - value: unknown
+    basis: unknown
+    note: "The English article describes him as an Islamic philosopher and author and records his lifelong Islamic activism, from the Young Muslims to the Islamic Declaration; the Arabic article presents the same life of Islamic thought and activism. Neither article names a school for him. Wikidata does record his religion (P140) as Sunni Islam (Q483654) — but that is one source naming the school, and a school is recorded only when two independent sources name it; the two articles, which treat his thought and activism at length, never do. The Bosnian Muslim tradition is historically Hanafi, but a population's school is not a personal attestation. His school is therefore not recorded."
+    sources: [source/wikipedia-alija-izetbegovic-en, source/wikipedia-alija-izetbegovic-ar, source/wikidata-alija-izetbegovic]
+external_ids: { wikidata: "Q183848" }
+sources: [source/wikipedia-alija-izetbegovic-en, source/wikipedia-alija-izetbegovic-ar, source/wikidata-alija-izetbegovic]
+provenance:
+  layer: own-research
+  source: "English Wikipedia 'Alija Izetbegović' (revision 1377890008), Arabic Wikipedia «علي عزت بيغوفيتش» (revision 76623347) and Wikidata Q183848 (confirmed via the English Wikipedia sitelink and the claims API: human, born 8 August 1925 at Bosanski Šamac, died 19 October 2003 at Sarajevo, religion Sunni Islam), checked 24 October 2026"
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: century-additions-5
+status: { review: published, completeness: 3, generated_by: "Muse (Muse Spark 1.3)" }

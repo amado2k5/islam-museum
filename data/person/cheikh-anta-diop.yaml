@@ -1,0 +1,44 @@
+id: person/cheikh-anta-diop
+class: person
+label: { ar: "شيخ أنتا ديوب", en: "Cheikh Anta Diop", ur: "شیخ آنتا دیوپ" }
+names:
+  - { value: "Cheikh Anta Diop", kind: full }
+  - { value: "شيخ أنتا ديوب", kind: full }
+gender: male
+summary:
+  ar: "مؤرخ وعالِم فيزياء وأنثروبولوجيا سنغالي، وُلد في تييتو سنة 1923 في أسرة مسلمة من الطريقة المريدية، ودرس في باريس، ودافع بأعماله عن الأصل الأفريقي للحضارة المصرية القديمة، وأسّس مختبرًا للتأريخ بالكربون المشع في داكار، وتوفي سنة 1986."
+  en: "Senegalese historian, physicist and anthropologist, born at Thieytou in 1923 into a Muslim family of the Mouride brotherhood. Trained in Paris, he argued in his works for the African origin of ancient Egyptian civilisation and founded a radiocarbon dating laboratory at Dakar. He died in 1986."
+  ur: "سینیگالی مؤرخ، طبیعیات دان اور ماہرِ بشریات، جو 1923 میں تیئیتو میں مریدی سلسلے کے ایک مسلم گھرانے میں پیدا ہوئے۔ پیرس میں تعلیم پائی، اپنی تصانیف میں قدیم مصری تہذیب کی افریقی اصل کا دفاع کیا، اور ڈاکار میں ریڈیو کاربن تاریخ کاری کی تجربہ گاہ قائم کی۔ 1986 میں وفات پائی۔"
+roles: [historian, scientist, politician]
+wings: [people]
+born:
+  edtf: "1923-12-29"
+  hijri: "1342"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "Gregorian date and Thieytou birthplace from English Wikipedia and Wikidata; the Arabic article gives only December 1923 and the Diourbel region. Thieytou has no place entity in the museum yet, so no born_in relation is written. The Hijri year (1342) is derived by tabular conversion."
+  sources: [source/wikipedia-cheikh-anta-diop-en, source/wikidata-cheikh-anta-diop]
+died:
+  edtf: "1986-02-07"
+  hijri: "1406"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "Death date and Dakar from English Wikipedia and Wikidata. Dakar has no place entity in the museum yet, so no died_in relation is written. The Hijri year (1406) is derived by tabular conversion."
+  sources: [source/wikipedia-cheikh-anta-diop-en, source/wikidata-cheikh-anta-diop]
+faith:
+  - value: unknown
+    basis: unknown
+    note: "The English article records that he was born into an aristocratic Muslim Wolof family, was educated in a traditional Islamic school, and that his family was part of the Mouride brotherhood. That is family background and schooling: no source fetched names Diop's own school or affiliation as an adult, and Wikidata records his religion (P140) only as Islam (Q432), generically. A family's brotherhood is not a personal attestation, so his faith is recorded as unknown; the biographical facts themselves are stated in the prose."
+    sources: [source/wikipedia-cheikh-anta-diop-en, source/wikidata-cheikh-anta-diop]
+external_ids: { wikidata: "Q521729" }
+sources: [source/wikipedia-cheikh-anta-diop-en, source/wikipedia-cheikh-anta-diop-ar, source/wikidata-cheikh-anta-diop]
+provenance:
+  layer: own-research
+  source: "English Wikipedia 'Cheikh Anta Diop' (revision 1378304702), Arabic Wikipedia «أنتا ديوب» (revision 72817069) and Wikidata Q521729 (confirmed via the English Wikipedia sitelink and the claims API: human, born 29 December 1923 at Thieytou, died 7 February 1986 at Dakar, religion Islam with no school), checked 24 October 2026"
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: century-additions-5
+status: { review: published, completeness: 3, generated_by: "Muse (Muse Spark 1.3)" }

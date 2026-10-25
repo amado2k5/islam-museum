@@ -1,0 +1,47 @@
+id: person/abdelaziz-bouteflika
+class: person
+label: { ar: "عبد العزيز بوتفليقة", en: "Abdelaziz Bouteflika", ur: "عبد العزیز بوتفلیقہ" }
+names:
+  - { value: "Abdelaziz Bouteflika", kind: full }
+  - { value: "عبد العزيز بوتفليقة", kind: full }
+  - { value: "Abdelkader al-Mali", kind: alternate }
+gender: male
+summary:
+  ar: "سياسي ودبلوماسي جزائري، وُلد في وجدة بالمغرب سنة 1937، قاتل في جيش التحرير الوطني شابًا، وكان وزير خارجية الجزائر (1963–1979) ورئيس الجمعية العامة للأمم المتحدة، ثم رئيس الجمهورية نحو عشرين عامًا (1999–2019) حتى أطاحت به احتجاجات الحراك، وتوفي سنة 2021."
+  en: "Algerian politician and diplomat, born at Oujda in Morocco in 1937. He fought in the National Liberation Army as a young man, served as Algeria's foreign minister (1963-1979) and president of the UN General Assembly, and was then president of Algeria for almost twenty years (1999-2019) until the Hirak protests forced his resignation. He died in 2021."
+  ur: "الجزائری سیاست دان اور سفارت کار، جو 1937 میں مراکش کے وجدة میں پیدا ہوئے۔ جوانی میں قومی آزادی فوج میں لڑے، الجزائر کے وزیرِ خارجہ (1963–1979) اور اقوام متحدہ کی جنرل اسمبلی کے صدر رہے، پھر تقریباً بیس برس (1999–2019) الجزائر کے صدر رہے یہاں تک کہ حراک احتجاج نے انھیں مستعفی ہونے پر مجبور کر دیا۔ 2021 میں وفات پائی۔"
+roles: [politician]
+wings: [people]
+born:
+  edtf: "1937-03-02"
+  hijri: "1355"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "Gregorian date and Oujda birthplace from English Wikipedia, the Arabic article and Wikidata; his parents were Algerians from Tlemcen who had emigrated to Oujda. Oujda has no place entity in the museum yet, so no born_in relation is written. The Hijri year (1355) is derived by tabular conversion."
+  sources: [source/wikipedia-abdelaziz-bouteflika-en, source/wikipedia-abdelaziz-bouteflika-ar, source/wikidata-abdelaziz-bouteflika]
+died:
+  edtf: "2021-09-17"
+  hijri: "1443"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "Died at his home in Zéralda, a suburb of Algiers, of cardiac arrest (English article and Wikidata); buried at El Alia Cemetery in Algiers on 19 September 2021. Zéralda has no place entity in the museum yet, so no died_in relation is written. The Hijri year (1443) is derived by tabular conversion."
+  sources: [source/wikipedia-abdelaziz-bouteflika-en, source/wikidata-abdelaziz-bouteflika]
+relations:
+  - { type: lived_in, target: place/algiers, sources: [source/wikipedia-abdelaziz-bouteflika-en, source/wikipedia-abdelaziz-bouteflika-ar] }
+faith:
+  - value: unknown
+    basis: unknown
+    note: "The English article records his Qur'anic schooling in Oujda and that as a schoolboy he was affiliated with a Qadiriyya zawiya there; that is a childhood affiliation reported for his school years in a single source, not an adult attestation of a tariqa or school, and it is recorded here rather than in the value. The Arabic article names no school. Wikidata records his religion (P140) as Islam (Q432) and also as Sufism (Q9603), without naming an order; a generic structured-data value of unstated provenance, set beside one article's report of a schoolboy affiliation, is not an adult attestation of tariqa membership, and under the founder's doubt rule no sufi segment is recorded. No source fetched names his madhhab, so no school is recorded."
+    sources: [source/wikipedia-abdelaziz-bouteflika-en, source/wikidata-abdelaziz-bouteflika]
+external_ids: { wikidata: "Q57308" }
+sources: [source/wikipedia-abdelaziz-bouteflika-en, source/wikipedia-abdelaziz-bouteflika-ar, source/wikidata-abdelaziz-bouteflika]
+provenance:
+  layer: own-research
+  source: "English Wikipedia 'Abdelaziz Bouteflika' (revision 1376881910), Arabic Wikipedia «عبد العزيز بوتفليقة» (revision 75999632) and Wikidata Q57308 (confirmed via the English Wikipedia sitelink and the claims API: human, born 2 March 1937 at Oujda, died 17 September 2021 at Zéralda, religion Islam and Sufism), checked 24 October 2026"
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: century-additions-5
+status: { review: published, completeness: 3, generated_by: "Muse (Muse Spark 1.3)" }

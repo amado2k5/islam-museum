@@ -43,11 +43,11 @@ lists' own order. Status markers: [ ] queued · [~] in a writer's hands · [x] m
 - [x] Rashida Tlaib — 1976–Living
 - [x] Dr. Mehmet Oz — 1960–Living
 - [x] Mahathir Mohamad — 1925–Living
-- [~] B.J. Habibie — 1936–2019
-- [~] Alija Izetbegović — 1925–2003
-- [~] Abdelaziz Bouteflika — 1937–2021
-- [~] Léopold Sédar Senghor (Honored Cultural Contemporary) — 1906–2001
-- [~] Cheikh Anta Diop — 1923–1986
+- [x] B.J. Habibie — 1936–2019
+- [x] Alija Izetbegović — 1925–2003
+- [x] Abdelaziz Bouteflika — 1937–2021
+- [x] Léopold Sédar Senghor (Honored Cultural Contemporary) — 1906–2001
+- [x] Cheikh Anta Diop — 1923–1986
 - [ ] Amadou Hampâté Bâ — 1901–1991
 - [ ] Sembène Ousmane — 1923–2007
 - [ ] Nawal El Saadawi — 1931–2021
@@ -1137,7 +1137,7 @@ lists' own order. Status markers: [ ] queued · [~] in a writer's hands · [x] m
 - [ ] Ali-Akbar Dehkhoda (1879–1956)
 - [ ] Arif Qazvini (1882–1934)
 - [ ] Abolqasem Lahouti (1887–1957)
-- [ ] Said Halim Pasha (1865–1921)
+- [~] Said Halim Pasha (1865–1921)
 - [ ] Ahmed Cevdet Oran (1862–1935)
 - [ ] Ebüzziya Tevfik (1849–1913)
 - [ ] Ali Suavi (1839–1878)
@@ -1564,7 +1564,7 @@ lists' own order. Status markers: [ ] queued · [~] in a writer's hands · [x] m
 - [ ] Khan Amirzadeh Khan (1890–1950)
 - [ ] Pir Pagaro (Sibghatullah Shah Rashdi) (1908–1943)
 - [ ] Sheikh Abdul Majid Sindhi (1889–1978)
-- [ ] Mirza Kalich Beg (1853–1929)
+- [~] Mirza Kalich Beg (1853–1929)
 - [ ] Allah Bux Soomro (1900–1943)
 - [ ] Sir Haji Abdullah Haroon (1872–1942)
 - [ ] Lady Nusrat Abdullah Haroon (1886–1966)
