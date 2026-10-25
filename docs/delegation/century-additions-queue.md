@@ -174,7 +174,6 @@ lists' own order. Status markers: [ ] queued · [~] in a writer's hands · [x] m
 - [ ] Youssou N'Dour — 1959–Living
 - [ ] Ismaël Lô — 1956–Living
 - [ ] Alpha Blondy — 1953–Living
-- [ ] K'Naan Warsame — 1978–Living
 - [ ] Akon (Aliaune Badara Akon Thiam) — 1973–Living
 - [ ] Swizz Beatz (Kasseem Daoud Dean) — 1978–Living
 - [ ] Busta Rhymes (Trevor George Smith Jr.) — 1972–Living
@@ -333,7 +332,6 @@ lists' own order. Status markers: [ ] queued · [~] in a writer's hands · [x] m
 - [ ] Anissa Meksen — 1988–Living
 - [ ] Ruqsana Begum — 1983–Living
 - [ ] Kallie Knoetze (Contemporary) — 1953–Living
-- [ ] Muhammad Ali (Laila Ali's father) — 1942–2016
 - [ ] Laila Ali — 1977–Living
 - [ ] Riddick Bowe — 1967–Living
 - [ ] Dwight Muhammad Qawi — 1953–Living
@@ -440,7 +438,6 @@ lists' own order. Status markers: [ ] queued · [~] in a writer's hands · [x] m
 - [ ] Mohamed Ould Abdel Aziz — 1956–Living
 - [ ] Mohamed Ould Ghazouani — 1956–Living
 - [ ] Lamine Diack — 1933–2021
-- [ ] Léopold Sédar Senghor — 1906–2001
 - [ ] Abdou Diouf — 1935–Living
 - [ ] Abdoulaye Wade — 1926–Living
 - [ ] Macky Sall — 1961–Living
@@ -684,7 +681,6 @@ lists' own order. Status markers: [ ] queued · [~] in a writer's hands · [x] m
 - [ ] Wan Muhamad Noor Matha — 1944–Living
 - [ ] Surin Pitsuwan — 1949–2017
 - [ ] Azza Karam — 1968–Living
-- [ ] Dr. Sima Samar — 1957–Living
 - [ ] Dr. Sania Nishtar — 1963–Living
 - [ ] Dr. Zubaida Sirang — 1990–Living
 - [ ] Dr. Abdul Samad — 1980–Living
@@ -886,7 +882,6 @@ lists' own order. Status markers: [ ] queued · [~] in a writer's hands · [x] m
 - [ ] Rageh Omaar — 1967–Living
 - [ ] Asad Ahmad — 1969–Living
 - [ ] Adnan Nawaz — 1968–Living
-- [ ] Sharmeen Obaid-Chinoy — 1978–Living
 - [ ] Shazia Mirza — 1972–Living
 - [ ] Nabil Abdulrashid — 1985–Living
 - [ ] Tez Ilyas — 1983–Living
@@ -1069,7 +1064,6 @@ lists' own order. Status markers: [ ] queued · [~] in a writer's hands · [x] m
 - [ ] Ahmed Rıza (1858–1930)
 - [ ] Prince Sabahaddin (1879–1948)
 - [ ] Ibrahim Edhem Pasha (1819–1893)
-- [ ] Şemseddin Sami (1850–1904)
 - [ ] Ibrahim Şinasi (1826–1871)
 - [ ] Tevfik Fikret (1867–1915)
 - [ ] Cenap Şahabettin (1870–1934)
@@ -1108,7 +1102,6 @@ lists' own order. Status markers: [ ] queued · [~] in a writer's hands · [x] m
 - [ ] Sheikh Hamdullah Efendi (1850–1922)
 - [ ] Sami Efendi (1838–1912)
 - [ ] Hasan Riza Efendi (1849–1920)
-- [ ] Şevki Efendi (1829–1887)
 - [ ] Mehmed Şevket Eygi (Ancestors) (1880–1940)
 - [ ] Sheikh Fazlollah Nouri (1843–1909)
 - [ ] Sayyid Jamal al-Din Va'iz (1862–1908)
@@ -1177,11 +1170,8 @@ lists' own order. Status markers: [ ] queued · [~] in a writer's hands · [x] m
 - [ ] Abbas II of Egypt (1874–1944)
 - [ ] Hussein Kamel of Egypt (1853–1917)
 - [ ] King Fuad I (1868–1936)
-- [ ] Yaqub Sanu (1839–1912)
 - [ ] Abdullah al-Nadim (1845–1896)
-- [ ] Qasim Amin (1863–1908)
 - [ ] Ahmed Lutfi al-Sayyid (1872–1963)
-- [ ] Taha Hussein (1889–1973)
 - [ ] Abbas al-Aqqad (1889–1964)
 - [ ] Salama Moussa (1887–1958)
 - [ ] Mustafa Sadiq al-Rafi'i (1880–1937)
@@ -1280,9 +1270,7 @@ lists' own order. Status markers: [ ] queued · [~] in a writer's hands · [x] m
 - [ ] Mustafa Khan Shefta (1804–1869)
 - [ ] Dagh Dehlvi (1831–1905)
 - [ ] Ameer Meenai (1828–1900)
-- [ ] Akbar Allahabadi (1846–1921)
 - [ ] Badr al-Din al-Aini (Descendants) (1830–1900)
-- [ ] Mahmud al-Hasan (Sheikh al-Hind) (1851–1920)
 - [ ] Hussain Ahmad Madani (1879–1957)
 - [ ] Kifayatullah Dehlvi (1875–1952)
 - [ ] Abdul Bari Firangi Mahali (1878–1926)
@@ -1349,7 +1337,6 @@ lists' own order. Status markers: [ ] queued · [~] in a writer's hands · [x] m
 - [ ] Abdul Aleem Siddiqui (1892–1954)
 - [ ] Shah Ahmad Noorani (1926–2003)
 - [ ] Muhammad Shafee Okarvi (1929–1984)
-- [ ] Sayyid Abul A'la Maududi (1903–1979)
 - [ ] Manzoor Nomani (1905–1997)
 - [ ] Muhammad Ilyas Kandhlawi (1885–1944)
 - [ ] Muhammad Zakariya Kandhlawi (1898–1982)
@@ -1384,7 +1371,6 @@ lists' own order. Status markers: [ ] queued · [~] in a writer's hands · [x] m
 - [ ] Zehra Faizi (1880–1940)
 - [ ] Suhrawardy Art Guild Founders (1890–1930)
 - [ ] Syed Ross Masood (1889–1937)
-- [ ] Sultan Kaikhusrau Jahan (1858–1930)
 - [ ] Shah Jahan Begum (1838–1901)
 - [ ] Sikandar Begum (1817–1868)
 - [ ] Qudsia Begum (1801–1881)
