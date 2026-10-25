@@ -58,7 +58,7 @@ const { lang, dilemma, positionsLabel, evidenceLabel, sourcesLabel, decideLabel,
     ta.addEventListener("input", () => {
       clearTimeout(timer);
       timer = setTimeout(() => {
-        try { localStorage.setItem(key, ta.value); saved.style.opacity = "1"; } catch { /* storage unavailable */ }
+        try { if (ta.value.trim()) { localStorage.setItem(key, ta.value); saved.style.opacity = "1"; } else { localStorage.removeItem(key); } } catch { /* storage unavailable */ }
       }, 400);
     });
   }
