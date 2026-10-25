@@ -1,0 +1,35 @@
+id: person/asghar-farhadi
+class: person
+label: { ar: "أصغر فرهادي", en: "Asghar Farhadi", ur: "اصغر فرہادی" }
+names:
+  - { value: "Asghar Farhadi", kind: full }
+  - { value: "اصغر فرهادی", kind: full }
+gender: male
+summary:
+  ar: "مخرج وكاتب سيناريو إيراني، وُلد في همايون شهر قرب أصفهان سنة 1972؛ من أبرز صنّاع السينما الإيرانية والعالمية في القرن الحادي والعشرين، إذ فاز فيلمه «انفصال» (2011) بالدب الذهبي وبجائزة الأوسكار لأفضل فيلم دولي — أول فيلم إيراني يفوز بها — ثم فاز بها ثانية بـ«البائع» (2016)، ونال «عن إيلي» (2009) الدب الفضي و«بطل» (2021) الجائزة الكبرى في كان، واختير في قائمة تايم 100 سنة 2012 ومُنح وسام جوقة الشرف الفرنسي."
+  en: "Iranian film director and screenwriter, born in Homayoon Shahr near Isfahan in 1972 and among the most prominent filmmakers of Iranian and world cinema in the 21st century. His A Separation (2011) won the Golden Bear and the Academy Award for Best International Feature Film — the first Iranian film to win it — and he won the award again with The Salesman (2016); About Elly (2009) won the Silver Bear for Best Director and A Hero (2021) the Cannes Grand Prix. He was named to the Time 100 in 2012 and received France's Legion of Honour."
+  ur: "ایرانی فلم ہدایت کار و منظر نویس، 1972 میں اصفہان کے قریب ہمایوں شہر میں پیدا ہوئے؛ اکیسویں صدی کی ایرانی اور عالمی سنیما کی نمایاں ترین شخصیات میں سے ایک، ان کی «جدائی» (2011) نے گولڈن بیئر اور بہترین بین الاقوامی فیچر فلم کا اکیڈمی ایوارڈ جیتا — یہ ایوارڈ جیتنے والی پہلی ایرانی فلم — اور انھوں نے «دی سیلز مین» (2016) سے یہ ایوارڈ دوبارہ جیتا؛ «اباؤٹ ایلی» (2009) پر سلور بیئر اور «اے ہیرو» (2021) پر کان کا گرینڈ پرکس ملا، وہ 2012 میں ٹائم 100 میں شامل ہوئے اور انھیں فرانس کا لیجن آف آنر ملا۔"
+roles: [film-director, screenwriter, producer]
+wings: [people, living]
+born:
+  edtf: "1972-05-07"
+  hijri: "1392"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "Born 7 May 1972 in Homayoon Shahr, Isfahan province (now Khomeyni Shahr), as given by the English Wikipedia article's infobox and early-life section; Wikidata gives the birthplace at province level only, Isfahan Province (Q1367759). Homayoon Shahr is a separate city near Isfahan, not Isfahan itself, and neither city has a place entity usable here — place/isfahan is the city of Isfahan and is not used for a birth in a different city — so no born_in relation is written. The Hijri year (1392) is derived by tabular conversion."
+  sources: [source/wikipedia-asghar-farhadi-en, source/wikidata-asghar-farhadi]
+faith:
+  - value: unknown
+    basis: unknown
+    note: "No two independent sources attest a specific affiliation for Farhadi, so no faith value beyond unknown is recorded. The English Wikipedia article names no religion for him at all. Wikidata, alone, carries three religion claims for him — Islam (Q432), Shia Islam (Q9585) and Twelver Shiism (Q269785) — but under the lane rules a lone Wikidata value never counts, and the Shia-mapping rule requires two independent sources attesting 'Shia' plus supportive context: a single source's three claims, uncorroborated by any second source, cannot support a shia-twelver/documented segment, and the claims are recorded here so the gap is visible rather than hidden. His early writing and directing for IRIB, the Iranian state broadcaster, is employment, not attestation; the Islamic judicial system, oaths and moral dilemmas that his films examine — in The Beautiful City, A Separation and others — are his subjects, not his affiliation; and Iranian birth does not make a person a Twelver Shia. Under the two-source rule and the doubt rule his faith is unknown."
+    sources: [source/wikipedia-asghar-farhadi-en, source/wikidata-asghar-farhadi]
+external_ids: { wikidata: "Q334242" }
+sources: [source/wikipedia-asghar-farhadi-en, source/wikidata-asghar-farhadi]
+provenance:
+  layer: own-research
+  source: "English Wikipedia 'Asghar Farhadi', read in full on 25 October 2026, and Wikidata Q334242 (confirmed via the Wikidata API: human, male, born 7 May 1972 in Isfahan Province, citizen of Iran and France, religion claims Islam, Shia Islam and Twelver Shiism from this single source alone), checked 25 October 2026. No earlier record for him existed in data/person/ under asghar-farhadi or any other spelling checked; this is a new build, not an enrichment."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: century-additions-16
+status: { review: published, completeness: 3, generated_by: "Muse (Muse Spark 1.3)" }

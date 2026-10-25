@@ -1,0 +1,36 @@
+id: person/amir-mounir
+class: person
+label: { ar: "أمير منير", en: "Amir Mounir", ur: "امیر منیر" }
+names:
+  - { value: "أمير منير", kind: full }
+  - { value: "Amir Mounir", kind: full }
+gender: male
+summary:
+  ar: "داعية مصري وصانع محتوى، وُلد في القاهرة سنة 1993، وهو صيدلي حاصل على بكالوريوس الصيدلة. قناته الرسمية على يوتيوب بدأت سنة 2014 وتجاوز مشتركوها 2.4 مليون مشترك، وفيها دروسه وسلاسله مثل «أبواب الجنة» و«الساعة سبعة». أثار ترويجه سنة 2023 لتطبيق «عمرة البدل» جدلًا واسعًا وانتقادات من علماء ومؤسسات دينية مصرية."
+  en: "Egyptian preacher and content creator, born in Cairo in 1993; he is a pharmacist holding a bachelor's degree in pharmacy. His official YouTube channel began in 2014 and has passed 2.4 million subscribers, carrying his lessons and series such as Abwab al-Janna (The Gates of Paradise) and Al-Sa'a Sab'a (The Seven O'Clock). His 2023 promotion of an 'Umra-by-proxy' application drew wide controversy and criticism from Egyptian scholars and religious institutions."
+  ur: "مصری مبلغ اور مواد ساز، جو 1993 میں قاہرہ میں پیدا ہوئے؛ وہ فارماسسٹ ہیں اور فارمیسی میں بیچلر کی ڈگری رکھتے ہیں۔ ان کا رسمی یوٹیوب چینل 2014 میں شروع ہوا اور اس کے سبسکرائبرز چوبیس لاکھ سے تجاوز کر گئے، جس میں ان کے دروس اور «أبواب الجنة» و «الساعة سبعة» جیسی سلسلے شامل ہیں۔ 2023 میں «عمرة البدل» ایپ کی ان کی تشہیر نے وسیع تنازع اور مصری علماء و دینی اداروں کی تنقید کو جنم دیا۔"
+roles: [preacher]
+wings: [people, living]
+born:
+  edtf: "1993-08-22"
+  hijri: "1414"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "Born in Cairo on 22 August 1993, as the Alafdel biography gives it; that biography is the single source for the date, and the Hijri year (1414) is a converter derivation from it."
+  sources: [source/alafdel-amir-mounir-bio]
+relations:
+  - { type: born_in, target: place/cairo, sources: [source/alafdel-amir-mounir-bio] }
+faith:
+  - value: unknown
+    basis: unknown
+    note: "The published biography gives his religion as Islam only and names no school. A polemical press report on the Umra-by-proxy affair calls him 'the Egyptian Salafi'; that is a single, hostile press label for a movement, not two independent attestations of his own school, and his own fiqh discussions cite several schools. Recorded as unknown."
+    sources: [source/alafdel-amir-mounir-bio, source/youtube-amirmounirofficial]
+sources: [source/youtube-amirmounirofficial, source/alafdel-amir-mounir-bio]
+provenance:
+  layer: own-research
+  source: "His official YouTube channel @amirmounirofficial (2,470,000 subscribers, 135,223,336 views and 821 videos per vidIQ, 23 October 2026; channel started 11 April 2014, country Egypt) and the Alafdel biography; his pharmacist-and-preacher description is corroborated by his own Instagram profile as aggregated by FollowerStat. No Wikipedia article and no Wikidata item exist for him (searched 25 October 2026). The Umra-by-proxy controversy is recorded from the biography's account of the Awqaf statement and the Dar al-Ifta comment, as reported positions, not as a museum verdict. No source gives him a fuller name: the biography states his identity-card name is simply 'Amir Mounir', and no 'Badran' element appears in any source checked — see the batch report on harvest rows 35–36. Checked 25 October 2026"
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: modern-figures-batch-21
+status: { review: published, completeness: 3, generated_by: "Muse (Muse Spark 1.3)" }

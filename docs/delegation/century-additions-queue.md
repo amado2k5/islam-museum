@@ -118,11 +118,11 @@ lists' own order. Status markers: [ ] queued · [~] in a writer's hands · [x] m
 - [x] Sariyah Idan — 1985–Living
 - [x] Sami Said — 1998–Living
 - [x] Dina Shihabi — 1989–Living
-- [ ] May Calamawy — 1986–Living
-- [ ] Shohreh Aghdashloo — 1952–Living
-- [ ] Asghar Farhadi — 1972–Living
-- [ ] Majid Majidi — 1959–Living
-- [ ] Abbas Kiarostami — 1940–2016
+- [x] May Calamawy — 1986–Living
+- [x] Shohreh Aghdashloo — 1952–Living
+- [x] Asghar Farhadi — 1972–Living
+- [x] Majid Majidi — 1959–Living
+- [x] Abbas Kiarostami — 1940–2016
 - [x] Nuri Bilge Ceylan — 1959–Living
 - [x] Youssef Chahine — 1926–2008
 - [x] Haifaa al-Mansour — 1974–Living
