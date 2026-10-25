@@ -15,3 +15,6 @@ Rida says that before Islam people were of two kinds: one dominated by materiali
 
 ## Bearing witness over people
 Rida holds that the community bears witness over people through its conduct, and that the Messenger bears witness for it to the extent that it conformed to his sunna. If it deviates from this path and falls to one of the extremes, the Messenger becomes a proof against it. {cite:tafsir-manar-v02 p.5} [[passage/quran-2-143|Al-Baqara 2:143]]
+
+## Moderation in Sheikh Omar Abdelkafy's lessons (episode 1)
+The Sheikh says that the Prophet's mission came at the middle point of the world, sharing day and night, with moderation in everything, even in trade, and that the law is moderate in everything (his view). {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep01 00:12:00}

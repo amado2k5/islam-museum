@@ -18,3 +18,6 @@ translators: []
 
 ## من سننها
 قيام الإمام حذاء صدر الميت ذكراً كان أو أنثى عند الحنفية، وعند رأس الرجل وعجز المرأة عند الشافعية؛ والثناء بعد التكبيرة الأولى سنة عند الحنفية؛ والصلاة على النبي بعد التكبيرة الثانية؛ والدعاء للميت ولنفسه ولجماعة المسلمين بعد التكبيرة الثالثة، ومن المأثور: «اللهم اغفر له وارحمه وعافه واعفُ عنه…». {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.6480} {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.6481}
+
+## الجنازة في درس الشيخ عمر عبد الكافي (الحلقة التاسعة)
+يذكر الشيخ أن عمر بن الخطاب أوصى بأن يُدفن سريعا، فإن كان صالحا ذهب إلى خير، وإن لم يكن فيُبعد عن الناس (needs_source). {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep09 00:14:00} ويرى أن المشي في الجنازة والتفكر فيها يعدل ألف درس (رأيه، needs_source). {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep09 00:14:30} ويروي أن عبد الملك بن مروان جاء ليشهد غسل جثة يغسلها أبو حازم، فقال له أبو حازم ما قال (needs_source). {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep09 00:15:00} ويروي روايات عن غسل النبي وخلاف الصحابة في تقليبه، ويقول إن ما غُسل من النبي لم يكن إلا بعون الله (needs_source). {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep09 00:17:00} {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep09 00:18:00}

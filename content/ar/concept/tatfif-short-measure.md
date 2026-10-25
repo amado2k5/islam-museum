@@ -24,3 +24,6 @@ translators: []
 
 ## الإحالة
 تطهر وتطهير تحال إلى طهارة، ولا تستحق مدخلاً مستقلاً. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.5310}
+
+## التطفيف في درس الشيخ عمر عبد الكافي (الحلقة الثانية)
+يروي الشيخ حكاية تاجرين رأى أحدهما صاحبه يغش في الكيل والوزن، ويصف غشّ الميزان بين المشتري والمشتري (needs_source). {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep02 00:12:00} {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep02 00:12:30} ويقول إن من يتذوق الفاكهة في الأسواق دون حساب ينبغي أن يحاسب نفسه، وإن الخيانة في الصغير من أسباب الخوف (رأيه). {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep02 00:13:00} ويقول إن الذنب الصغير لا يُعذر صاحبه فيه (رأيه). {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep02 00:13:30}

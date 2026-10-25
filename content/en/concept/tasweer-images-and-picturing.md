@@ -127,3 +127,13 @@ Whoever destroys an image that could be used lawfully owes its value without the
 
 ## Theft of images and the hand's amputation
 No hand is cut for stealing images whose broken value is nothing or below the nisab. In other cases the Hanafis, the less favoured Shafii view and the Hanbali view that is the school's view hold that stealing a musical instrument or a forbidden image is not punished by amputation, even if the broken value reaches the nisab, since its lawfulness has become a doubt. The Hanbalis add that stealing a cross or an idol of gold is not punished. The Malikis and the sounder Shafii view require amputation if the broken value reaches the nisab. Most jurists hold that stolen coins with images are punished, since money is for wealth and has no doubt; one Hanbali view distinguishes whether the thief meant to break it. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.5294} {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.5295}
+
+## Images and picturing in Sheikh Omar Abdelkafy's lessons (episode 2)
+The Sheikh reports that some muftis say the television image is imagination; his own view is not clear in the recording (needs_source). {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep02 00:15:30}
+
+:::perspectives
+- **Sunni view: not yet sourced**: not yet sourced.
+- **speaker's view (Omar Abdelkafy)**: He reports that some muftis say the television image is merely imagination; his own view is not clear in the recording (needs_source). {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep02 00:15:30}
+- **academic view: not yet sourced**: not yet sourced.
+- **other view: not yet sourced**: not yet sourced.
+:::

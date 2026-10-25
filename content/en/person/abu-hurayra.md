@@ -27,3 +27,6 @@ Abu Hurayra was a devoted companion known by his moniker for a small kitten he g
 
 ## For Scholars
 Abu Hurayra (c. 19 BH – 57 AH / 603–678 CE), the foremost narrator of Hadith in classical Sunni tradition. Embracing Islam and arriving in Medina from Yemen during the expedition of Khaybar in 7 AH, he dedicated himself to constant companionship with the Prophet as a member of the Ahl al-Suffa in the Prophet's Mosque, unencumbered by trade or farming. Blessed by the Prophet's prayer for an enduring memory, his transmissions in canonical Hadith collections exceed five thousand narrations covering theology, ethics, and ritual jurisprudence, transmitted through hundreds of disciples.
+
+## Abu Hurayra in Sheikh Omar Abdelkafy's lessons (episode 3)
+The Sheikh relates that a man asked Abu Hurayra about the interval between the two blasts; Abu Hurayra gave a figure and then drew back, and the telling is broken off (needs_source). {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep03 00:24:30} {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep03 00:25:00}

@@ -18,3 +18,7 @@ Envy belongs to the chapter on [[concept/khuluq|character]] in the museum's clas
 
 ## Examples in Sheikh Omar Abdelkafy's lesson
 The Sheikh gives examples of the wish and the comparison that trouble the heart over blessings: a person says he has a righteous child while another has none, or a healthy child while another's child is ill (needs_source: the classification of these examples as envy is not clear in the transcript). {cite:assabile-omar-abdelkafy al-hoquq/ep03 00:29:30}
+
+## Envy in Sheikh Omar Abdelkafy's lessons (episode 5)
+The Sheikh says that patience with those around you, including relatives who envy you, is patience that is needed (his view). {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep05 00:45:00} He holds that envy is broken by doing good to the one who envies you and increasing kindness to him (his view). {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep05 00:45:30}
+He mentions seeking refuge from the whisperings of Satan, and repelling evil with what is better (needs_source). {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep05 00:46:00} {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep05 00:47:00}
