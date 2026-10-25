@@ -1,0 +1,49 @@
+id: person/aisha-taymur
+class: person
+label: { ar: "عائشة التيمورية", en: "Aisha Taymur", ur: "عائشہ التیموریہ" }
+names:
+  - { value: "عائشة عصمت بنت إسماعيل باشا تيمور", kind: full }
+  - { value: "Aisha E'ismat Taymur", kind: full }
+  - { value: "'A'isha al-Taymuriyya", kind: alternate }
+gender: female
+summary:
+  ar: "شاعرة وكاتبة مصرية (1840–1902) نظمت الشعر بالعربية والتركية والفارسية، وتُعد من رائدات الكتابة النسائية العربية الحديثة؛ تعلّمت في بيتها بتشجيع أبيها رغم معارضة أمها، ورثت ابنتها توحيدة بقصائد عُدت من أرقى المراثي الحديثة، وكتبت في حقوق المرأة من داخل التراث الإسلامي، وعارضت في مقالاتها دعوة قاسم أمين إلى السفور."
+  en: "Egyptian poet and writer (1840–1902) who composed in Arabic, Turkish and Persian and is counted among the pioneers of modern Arabic women's writing. Educated at home at her father's insistence against her mother's wish, she mourned her daughter Tawhida in elegies ranked among the finest of the modern age, argued for women's rights from within the Islamic tradition, and opposed Qasim Amin's call for unveiling in her published articles."
+  ur: "مصری شاعرہ اور مصنفہ (1840–1902) جنہوں نے عربی، ترکی اور فارسی میں شاعری کی اور جدید عربی خواتین کی تحریر کی بانیوں میں شمار ہوتی ہیں؛ والد کی ترغیب پر گھر میں تعلیم پائی، بیٹی توحیدہ کے مرثیے لکھے، اسلامی روایت کے اندر سے خواتین کے حقوق کی بات کی، اور قاسم امین کی دعوتِ سفور کی مخالفت میں مضامین لکھے۔"
+roles: [poet, writer, activist]
+wings: [people]
+born:
+  edtf: "1840"
+  hijri: "1256"
+  calendar: gregorian
+  precision: year
+  status: historical
+  derived: true
+  note: "Year and Cairo birthplace (a palace in Darb Saada, Darb al-Ahmar) from English and Arabic Wikipedia and Wikidata Q2876220, which also carries a November 1840 month-precision value; the record stays at year precision. The Hijri year (1256) is derived by tabular conversion."
+  sources: [source/wikipedia-aisha-taymur-en, source/wikipedia-aisha-taymur-ar, source/wikidata-aisha-taymur]
+died:
+  edtf: "1902"
+  hijri: "1320"
+  calendar: gregorian
+  precision: year
+  status: historical
+  derived: true
+  note: "Year and Cairo place of death agreed by English and Arabic Wikipedia and Wikidata Q2876220, but the day in May 1902 conflicts: the Arabic article gives 2 May in one passage and 25 May in another, and Wikidata gives 26 May 1902 — so the death is recorded at year precision with the conflict stated here. The Hijri year (1320) is derived by tabular conversion."
+  sources: [source/wikipedia-aisha-taymur-en, source/wikipedia-aisha-taymur-ar, source/wikidata-aisha-taymur]
+relations:
+  - { type: born_in, target: place/cairo, sources: [source/wikipedia-aisha-taymur-en, source/wikipedia-aisha-taymur-ar] }
+  - { type: died_in, target: place/cairo, sources: [source/wikipedia-aisha-taymur-en, source/wikipedia-aisha-taymur-ar] }
+  - { type: lived_in, target: place/cairo, sources: [source/wikipedia-aisha-taymur-ar] }
+faith:
+  - value: unknown
+    basis: unknown
+    note: "Neither Wikipedia article names a school for her, and Wikidata records no religion (P140) for her at all. Her writings argue women's rights from within Islam and her elegies are devotional in register, but piety of subject matter is not a school attestation, so the value stays unknown with what the sources give recorded here."
+    sources: [source/wikipedia-aisha-taymur-en, source/wikipedia-aisha-taymur-ar, source/wikidata-aisha-taymur]
+external_ids: { wikidata: "Q2876220" }
+sources: [source/wikipedia-aisha-taymur-en, source/wikipedia-aisha-taymur-ar, source/wikidata-aisha-taymur]
+provenance:
+  layer: own-research
+  source: "English Wikipedia (revision 1368939201), Arabic Wikipedia (revision 76373228) and Wikidata Q2876220, checked 24 October 2026"
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: century-additions-4
+status: { review: published, completeness: 3, generated_by: "Muse (Muse Spark 1.3)" }

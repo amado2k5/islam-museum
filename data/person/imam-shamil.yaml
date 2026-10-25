@@ -1,0 +1,54 @@
+id: person/imam-shamil
+class: person
+label: { ar: "الإمام شامل", en: "Imam Shamil", ur: "امام شامل" }
+names:
+  - { value: "شامل الداغستاني", kind: full }
+  - { value: "شمویل", kind: birth }
+  - { value: "Shamuyil", kind: birth }
+  - { value: "Shamil of Dagestan", kind: alternate }
+gender: male
+summary:
+  ar: "ثالث أئمة إمامة القوقاز وقائد المقاومة الشيشانية والداغستانية ضد الإمبراطورية الروسية نحو ربع قرن (1834–1859)، وشيخ في الطريقة النقشبدية؛ وُلد في غيمري بداغستان سنة 1797، وحّد قبائل شمال القوقاز تحت دولة شرعية منظمة، ثم استسلم سنة 1859 وعاش منفيًا في روسيا قبل أن يحجّ ويموت في المدينة سنة 1871."
+  en: "Third Imam of the Caucasian Imamate and leader of the Chechen and Dagestani resistance to the Russian Empire for about a quarter of a century (1834–1859), and a sheikh of the Naqshbandi Sufi order. Born at Gimry in Dagestan in 1797, he united the tribes of the North Caucasus in an organised Sharia-governed state, surrendered in 1859, lived in exile in Russia, then performed the Hajj and died at Medina in 1871."
+  ur: "قفقازی امامت کے تیسرے امام اور روسی سلطنت کے خلاف چيچن اور داغستانی مزاحمت کے تقریباً پچیس برس (1834–1859) قائد، اور نقشبندی طریقت کے شیخ؛ 1797 میں داغستان کے گمری میں پیدا ہوئے، شمالی قفقاز کے قبائل کو ایک منظم شرعی ریاست میں متحد کیا، 1859 میں ہتھیار ڈالے، روس میں جلاوطنی گزاری، پھر حج کیا اور 1871 میں مدینہ میں وفات پائی۔"
+roles: [imam, military-leader, religious-leader]
+wings: [people]
+born:
+  edtf: "1797-06-26"
+  hijri: "1212"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "Date from English Wikipedia; Wikidata's precise value (26 June 1797) is Julian-calendar, and Britannica gives only '1797?'. Birthplace Gimry (Avar aul, Dagestan) from all three; Gimry has no place entity in the museum yet, so no born_in relation is written. The Hijri year (1212 — the tabular conversion of 26 June 1797 falls on 1 Muharram 1212) is derived."
+  sources: [source/wikipedia-imam-shamil-en, source/wikidata-imam-shamil, source/britannica-shamil]
+died:
+  edtf: "1871-02-04"
+  hijri: "1287"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "Day date (4 February 1871, at Medina) from English Wikipedia and Wikidata's Julian-calendar value. The Arabic article and Britannica both give March 1871 — Britannica with a question mark ('Medina?') — so the month is contested across sources; the day date of the English article and Wikidata is followed and the conflict recorded here. The Hijri year (1287) is derived by tabular conversion."
+  sources: [source/wikipedia-imam-shamil-en, source/wikidata-imam-shamil, source/wikipedia-imam-shamil-ar, source/britannica-shamil]
+relations:
+  - { type: died_in, target: place/medina, sources: [source/wikipedia-imam-shamil-en, source/wikidata-imam-shamil] }
+  - { type: buried_in, target: place/baqi-al-gharqad, sources: [source/wikipedia-imam-shamil-en] }
+  - { type: member_of, target: group/naqshbandiyya, sources: [source/wikipedia-imam-shamil-en, source/britannica-shamil] }
+faith:
+  - value: sunni
+    basis: documented
+    note: "Two sources independently give the school at the Sunni level: the English article's infobox gives his religion as Sunni Islam, and Wikidata records his religion (P140) as Sunni Islam (Q483654). The same infobox also specifies Ash'ari creed and Shafi'i jurisprudence, but no second source fetched names the madhhab, so no compound value is recorded — the creed and madhhab rest on that single attestation and are stated here only."
+    sources: [source/wikipedia-imam-shamil-en, source/wikidata-imam-shamil]
+  - value: sufi
+    basis: documented
+    note: "His Sufi affiliation is attested independently of the infobox: the English article's lead calls him a Muslim sheikh of the Naqshbandi Sufi order, and Encyclopaedia Britannica records that in 1830 he joined the Muridis, a Sufi brotherhood — the Dagestani Muridiyya of the Naqshbandi tradition, through whose teachers (Jamal al-Din al-Ghazi-Ghumuqi and Muhammad al-Yaraghi) his line of initiation ran. The order itself is recorded as the member_of relation to group/naqshbandiyya."
+    sources: [source/wikipedia-imam-shamil-en, source/britannica-shamil]
+external_ids: { wikidata: "Q244742" }
+sources: [source/wikipedia-imam-shamil-en, source/wikipedia-imam-shamil-ar, source/wikidata-imam-shamil, source/britannica-shamil]
+provenance:
+  layer: own-research
+  source: "English Wikipedia (revision 1375215666), Arabic Wikipedia «شامل الداغستاني» (revision 74258705), Wikidata Q244742 and Encyclopaedia Britannica's entry 'Shamil', checked 24 October 2026"
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: century-additions-4
+status: { review: published, completeness: 3, generated_by: "Muse (Muse Spark 1.3)" }

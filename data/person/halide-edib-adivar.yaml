@@ -1,0 +1,48 @@
+id: person/halide-edib-adivar
+class: person
+label: { ar: "خالدة أديب أديوار", en: "Halide Edib Adıvar", ur: "خالدہ ادیب ادیوار" }
+names:
+  - { value: "خالدة أديب", kind: full }
+  - { value: "Halidé Edib", kind: alternate }
+gender: female
+summary:
+  ar: "روائية وكاتبة تركية (1884–1964) من أبرز وجوه النهضة الأدبية والحركة الوطنية التركية؛ كتبت روايات نقدت فيها وضع المرأة التركية ودافعت عن القومية التركية والطورانية، وخدمت مفتشة للمدارس في سوريا ولبنان أثناء الحرب العالمية الأولى — ومنها إدارتها المثيرة للجدل لميتم أنطورة — ثم انضمت إلى حرب الاستقلال وشاركت في تأسيس وكالة الأناضول، وأصبحت لاحقًا أستاذة للأدب الإنجليزي في جامعة إسطنبول ونائبة في البرلمان."
+  en: "Turkish novelist and writer (1884–1964), a leading figure of the Turkish literary revival and national movement. Her novels criticised the low status of Turkish women and advocated Turkish nationalism and Turanism; she served as a schools inspector in Syria and Lebanon during the First World War — including her contested administration of the Antoura orphanage — then joined the War of Independence, co-founded the Anadolu Agency, and later became professor of English literature at Istanbul University and a member of parliament."
+  ur: "ترک ناول نگار اور مصنفہ (1884–1964)، ترک ادبی نشاۃ اور قومی تحریک کی نمایاں شخصیت؛ اپنے ناولوں میں ترک خواتین کی حالت پر تنقید اور ترک قوم پرستی کی حمایت کی، پہلی عالمی جنگ میں شام و لبنان میں مدارس کی مفتش رہیں — انطورة کے یتیم خانے کا متنازع انتظام بھی اسی دور میں تھا — پھر جنگِ آزادی میں شامل ہوئیں، انادولو ایجنسی کی شریک بانی بنیں، اور بعد میں استنبول یونیورسٹی میں انگریزی ادب کی پروفیسر اور رکنِ پارلیمان رہیں۔"
+roles: [novelist, writer, teacher, politician]
+wings: [people]
+born:
+  edtf: "1884-06-11"
+  hijri: "1301"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "Gregorian date (11 June 1884) and Constantinople (Istanbul) birthplace from English Wikipedia and Wikidata Q234289; Wikidata also carries an 1883 year-precision birth value, recorded here as a discrepancy. The Hijri year (1301) is derived by tabular conversion."
+  sources: [source/wikipedia-halide-edib-adivar-en, source/wikidata-halide-edib-adivar]
+died:
+  edtf: "1964-01-09"
+  hijri: "1383"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "Gregorian date and Istanbul place of death from English and Arabic Wikipedia and Wikidata Q234289; she was buried in the Merkezefendi Cemetery in Istanbul. The Hijri year (1383) is derived by tabular conversion."
+  sources: [source/wikipedia-halide-edib-adivar-en, source/wikipedia-halide-edib-adivar-ar, source/wikidata-halide-edib-adivar]
+relations:
+  - { type: born_in, target: place/istanbul, sources: [source/wikipedia-halide-edib-adivar-en, source/wikidata-halide-edib-adivar] }
+  - { type: died_in, target: place/istanbul, sources: [source/wikipedia-halide-edib-adivar-en, source/wikipedia-halide-edib-adivar-ar] }
+  - { type: lived_in, target: place/istanbul, sources: [source/wikipedia-halide-edib-adivar-en] }
+faith:
+  - value: unknown
+    basis: unknown
+    note: "Neither Wikipedia article names a school for her; Wikidata records her religion as Islam (Q432) only. Her nationalism, her novels' treatment of religion and her memoir self-presentation are described in the prose, attributed; none of it is a school attestation, so the value stays unknown with what the sources give recorded here."
+    sources: [source/wikipedia-halide-edib-adivar-en, source/wikipedia-halide-edib-adivar-ar, source/wikidata-halide-edib-adivar]
+external_ids: { wikidata: "Q234289" }
+sources: [source/wikipedia-halide-edib-adivar-en, source/wikipedia-halide-edib-adivar-ar, source/wikidata-halide-edib-adivar]
+provenance:
+  layer: own-research
+  source: "English Wikipedia (revision 1367353072), Arabic Wikipedia (revision 76310352) and Wikidata Q234289, checked 24 October 2026"
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: century-additions-4
+status: { review: published, completeness: 3, generated_by: "Muse (Muse Spark 1.3)" }

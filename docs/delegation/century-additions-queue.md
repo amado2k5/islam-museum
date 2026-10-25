@@ -33,16 +33,16 @@ lists' own order. Status markers: [ ] queued · [~] in a writer's hands · [x] m
 - [x] Omar M. Yaghi — 1965–Living
 - [x] Jackie Aina — 1987–Living
 - [x] Mo Salah (Mohamed Salah) — 1992–Living
-- [ ] Khabib Nurmagomedov — 1988–Living
-- [ ] Hakeem Olajuwon — 1963–Living
-- [ ] Ibtihaj Muhammad — 1985–Living
-- [ ] Nour El Sherbini — 1995–Living
-- [ ] Mo Farah — 1983–Living
-- [ ] Sadiq Khan — 1970–Living
-- [ ] Ilhan Omar — 1982–Living
-- [ ] Rashida Tlaib — 1976–Living
-- [ ] Dr. Mehmet Oz — 1960–Living
-- [ ] Mahathir Mohamad — 1925–Living
+- [~] Khabib Nurmagomedov — 1988–Living
+- [~] Hakeem Olajuwon — 1963–Living
+- [~] Ibtihaj Muhammad — 1985–Living
+- [~] Nour El Sherbini — 1995–Living
+- [~] Mo Farah — 1983–Living
+- [~] Sadiq Khan — 1970–Living
+- [~] Ilhan Omar — 1982–Living
+- [~] Rashida Tlaib — 1976–Living
+- [~] Dr. Mehmet Oz — 1960–Living
+- [~] Mahathir Mohamad — 1925–Living
 - [ ] B.J. Habibie — 1936–2019
 - [ ] Alija Izetbegović — 1925–2003
 - [ ] Abdelaziz Bouteflika — 1937–2021
@@ -972,11 +972,11 @@ lists' own order. Status markers: [ ] queued · [~] in a writer's hands · [x] m
 - [x] Sir Syed Ahmad Khan (1817–1898)
 - [x] Namık Kemal (1840–1888)
 - [x] Osman Hamdi Bey (1842–1910)
-- [ ] Sultan Jahan, Begum of Bhopal (1858–1930)
-- [ ] Imam Shamil (1797–1871)
-- [ ] Qasim Amin (1863–1908)
-- [ ] Aisha Taymur (1840–1902)
-- [ ] Halide Edib Adıvar (1884–1964)
+- [x] Sultan Jahan, Begum of Bhopal (1858–1930)
+- [x] Imam Shamil (1797–1871)
+- [x] Qasim Amin (1863–1908)
+- [x] Aisha Taymur (1840–1902)
+- [x] Halide Edib Adıvar (1884–1964)
 - [ ] Huda Sha'arawi (1879–1947)
 - [ ] Muhammad Ahmad (The Mahdi) (1844–1885)
 - [ ] Said Halim Pasha (1865–1921)
