@@ -1,4 +1,10 @@
 id: person/amina-bint-wahb
+education:
+  did_you_know:
+    ar: "آمنة بنت وهب أم النبي من بني زهرة؛ خرجت بابنها اليتيم إلى يثرب زيارةً لقبر أبيه فماتت في طريق العودة بالأبواء."
+    en: "Amina bint Wahb, the Prophet's mother from Banu Zuhra, took her orphaned son to Yathrib to visit his father's grave and died at al-Abwa on the way back."
+    ur: "آمنہ بنت وہب، نبی کی والدہ بنو زہرہ سے تھیں؛ اپنے یتیم بیٹے کو اس کے باپ کی قبر کی زیارت کو یثرب لے گئیں اور واپسی میں ابواء میں وفات پائیں۔"
+    sources: [source/mubarakpuri-raheeq, source/ibn-hisham-sira]
 class: person
 label: { en: "Amina bint Wahb", ar: "آمنة بنت وهب" }
 names:
@@ -26,3 +32,9 @@ relations:
   - { type: participated_in, target: event/death-of-amina, role: "المتوفاة بالأبواء", sources: [source/mubarakpuri-raheeq] }
 sources: [source/ansab-al-ashraf, source/mubarakpuri-raheeq, source/ibn-hisham-sira, source/nisa-hawl-alrasul, source/tabaqat-ibn-sad, source/talqih-fuhum-ahl-al-athr]
 status: { review: draft, completeness: 2, generated_by: "Devin; al-Raheeq al-Makhtum pp. 54-57; Nisa' Hawl al-Rasul pp. 11-19 added by Devin (SWE-2 High), lib-nisa-hawl-rasul" }
+provenance:
+  layer: own-research
+  source: "source/mubarakpuri-raheeq"
+  generated_by: Devin
+  model: "unknown"
+  run: "education-E3-facts-batch6"

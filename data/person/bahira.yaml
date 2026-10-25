@@ -1,4 +1,10 @@
 id: person/bahira
+education:
+  did_you_know:
+    ar: "بحيرا راهب ببصرى في الشام عرف الفتى محمداً بعلامات نبوته حين نزل ركب أبي طالب، كما تروي كتب السيرة."
+    en: "Bahira, a Christian monk at Busra in Syria, recognized the boy Muhammad by the signs of prophecy when Abu Talib's caravan stopped there, the sirah relates."
+    ur: "بحیرا، شام کے بصریٰ کا ایک نصرانی راہب، نے ابو طالب کے قافلے کے اترنے پر بچے محمد کی نبوت کی نشانیاں پہچانیں، جیسا کہ سیرت روایت کرتی ہے۔"
+    sources: [source/mubarakpuri-raheeq, source/ibn-hisham-sira]
 class: person
 label: { en: "Bahira the monk", ar: "بحيرا الراهب" }
 names:
@@ -21,3 +27,9 @@ relations:
   - { type: participated_in, target: event/bahira-encounter, role: "عرف النبي بخاتم النبوة", sources: [source/mubarakpuri-raheeq] }
 sources: [source/mubarakpuri-raheeq, source/ibn-hisham-sira, source/muruj-al-dhahab, source/mukhtasar-sirat-al-rasul-al-najdi, source/zad-al-maad, source/tuhfat-al-ahwadhi]
 status: { review: draft, completeness: 2, generated_by: "Devin; al-Raheeq al-Makhtum pp. 58-59" }
+provenance:
+  layer: own-research
+  source: "source/mubarakpuri-raheeq"
+  generated_by: Devin
+  model: "unknown"
+  run: "education-E3-facts-batch6"

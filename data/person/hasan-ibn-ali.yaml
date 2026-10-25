@@ -1,4 +1,10 @@
 id: person/hasan-ibn-ali
+education:
+  did_you_know:
+    ar: "الحسن بن علي حفيد النبي الأكبر، تولّى الخلافة فترة وجيزة سنة ٦٦١م قبل أن يتنازل عنها لمعاوية ليجنب الأمة القتال."
+    en: "Al-Hasan ibn Ali, the Prophet's elder grandson, held the caliphate briefly in 661 CE before ceding it to Mu'awiya to spare the community war."
+    ur: "حسن بن علی، نبی کے بڑے نواسے، نے 661ء میں مختصر خلافت سنبھالی اور امت کو جنگ سے بچانے کو معاویہ کو دے دی۔"
+    sources: [source/ibn-sad-tabaqat-bewley, source/madelung-1997]
 class: person
 label: { en: Hasan ibn Ali, ar: الحسن بن علي }
 names:
@@ -48,3 +54,9 @@ sensitivity: contested
 sources: [source/ibn-sad-tabaqat-bewley, source/madelung-1997, source/momen-1985, source/muruj-al-dhahab, source/sahih-muslim, source/sallabi-ali-vol1]
 status: { review: draft, completeness: 2, generated_by: "Devin; 2026-10-11" }
 external_ids: { wikidata: Q182914 }
+provenance:
+  layer: own-research
+  source: "source/ibn-sad-tabaqat-bewley"
+  generated_by: Devin
+  model: "unknown"
+  run: "education-E3-facts-batch6"
