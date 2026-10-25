@@ -1,0 +1,35 @@
+id: person/zinedine-zidane
+class: person
+label: { ar: "زين الدين زيدان", en: "Zinedine Zidane", ur: "زین الدین زیدان" }
+names:
+  - { value: "زين الدين يزيد زيدان", kind: full }
+  - { value: "Zinedine Yazid Zidane", kind: full }
+  - { value: "Zizou", kind: alternate }
+gender: male
+summary:
+  ar: "مدرب كرة قدم فرنسي ولاعب وسط مهاجم سابق، وُلد في مرسيليا سنة 1972؛ صانع ألعاب لكان وبوردو ويوفنتوس وريال مدريد، سجل هدفين في فوز فرنسا بنهائي كأس العالم 1998، وفاز بالكرة الذهبية 1998 وبجائزة أفضل لاعب في العالم ثلاث مرات، وسجل هدف الفوز الطائر في نهائي دوري الأبطال 2002، وطُرد في نهائي كأس العالم 2006؛ وكمدرب لريال مدريد فاز بثلاثة ألقاب متتالية لدوري الأبطال (2016–2018) وبلقب ثانٍ للدوري الإسباني في فترته الثانية."
+  en: "French football manager and former attacking midfielder, born in Marseille in 1972. A playmaker for Cannes, Bordeaux, Juventus and Real Madrid, he scored twice in France's 1998 World Cup final win, won the 1998 Ballon d'Or and FIFA World Player of the Year three times, scored the winning volley in the 2002 Champions League final, and was sent off in the 2006 World Cup final; as Real Madrid coach he won three consecutive Champions League titles (2016-2018) and a second La Liga title in his second spell."
+  ur: "فرانسیسی فٹبال مینیجر اور سابق حملہ آور مڈفیلڈر، 1972 میں مارسیلے میں پیدا ہوئے؛ کان، بورڈو، یووینٹس اور ریال میڈرڈ کے پلے میکر، انہوں نے فرانس کی 1998 ورلڈ کپ فائنل جیت میں دو گول کیے، 1998 بالن ڈی اور جیتا اور تین بار فیفا ورلڈ پلیئر آف دی ایئر رہے، 2002 چیمپئنز لیگ فائنل میں فاتح والی گول کیا، اور 2006 ورلڈ کپ فائنل میں باہر بھیجے گئے؛ ریال میڈرڈ کے کوچ کی حیثیت سے انہوں نے مسلسل تین چیمپئنز لیگ خطابات (2016–2018) اور دوسری مدت میں دوسرا لا لیگا خطاب جیتا۔"
+roles: [athlete]
+wings: [people, living]
+born:
+  edtf: "1972-06-23"
+  hijri: "1392"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "Born 23 June 1972 in La Castellane, Marseille, France, as given by the English Wikipedia article's infobox and early-life section, which records Algerian parents from Aguemoune in Kabylia who immigrated in 1953. No place entity for Marseille exists in data/place/, so no born_in relation is written. The Hijri year (1392) is derived by tabular conversion."
+  sources: [source/wikipedia-zinedine-zidane-en]
+faith:
+  - value: unknown
+    basis: unknown
+    note: "No source read in this run names a school or madhhab for Zidane himself. The English Wikipedia article records that he has described himself as a 'non-practicing Muslim', and that the Royal Islamic Strategic Studies Centre ranked him among the 500 most influential Muslims in 2016, noting his modest character. A self-description of non-practice and a listing based on influence are not an attestation of his own school: no source names Sunni, Maliki or any other specific value for him, and his Algerian Kabyle family heritage may not be inferred onto him. Under the two-source rule and the doubt rule, no faith value beyond unknown is recorded."
+    sources: [source/wikipedia-zinedine-zidane-en]
+sources: [source/wikipedia-zinedine-zidane-en]
+provenance:
+  layer: own-research
+  source: "English Wikipedia 'Zinedine Zidane', read in full on 25 October 2026. No Wikidata QID was verified from a tool result in this run, so no external_ids are recorded. No earlier record for him existed in data/person/ under zinedine-zidane or any other spelling checked; this is a new build, not an enrichment."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: century-additions-15
+status: { review: published, completeness: 3, generated_by: "Muse (Muse Spark 1.3)" }

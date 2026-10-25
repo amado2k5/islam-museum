@@ -1,0 +1,34 @@
+id: person/karim-benzema
+class: person
+label: { ar: "كريم بنزيما", en: "Karim Benzema", ur: "کریم بنزیما" }
+names:
+  - { value: "كريم مصطفى بنزيما", kind: full }
+  - { value: "Karim Mostafa Benzema", kind: full }
+gender: male
+summary:
+  ar: "لاعب كرة قدم فرنسي محترف، وُلد في ليون سنة 1987؛ مهاجم برز في ليون ثم قضى أربعة عشر موسمًا في ريال مدريد فاز فيها بخمسة ألقاب لدوري أبطال أوروبا وصار ثاني هدّافي النادي تاريخيًا، وفاز بالكرة الذهبية سنة 2022، وانضم إلى الاتحاد السعودي سنة 2023؛ ومع فرنسا خاض 97 مباراة دولية، وغاب عن المنتخب أكثر من خمس سنوات بعد 2015 على خلفية قضية ابتزاز، وعاد للمشاركة في يورو 2020 وكأس العالم 2022."
+  en: "French professional footballer, born in Lyon in 1987. A striker who broke through at Lyon, then spent fourteen seasons at Real Madrid, winning five UEFA Champions League titles and becoming the club's second-highest goalscorer, won the 2022 Ballon d'Or, and joined Saudi club Al-Ittihad in 2023; for France he earned 97 caps, was absent from the national team for over five years after 2015 in connection with a blackmail case, and returned for Euro 2020 and the 2022 World Cup."
+  ur: "فرانسیسی پیشہ ور فٹبالر، 1987 میں لیون میں پیدا ہوئے؛ اسٹرائیکر جو لیون میں ابھرے، پھر ریال میڈرڈ میں چودہ سیزن گزارے جن میں پانچ یوئیفا چیمپئنز لیگ خطابات جیتے اور کلب کے دوسرے سب سے بڑے گول اسکورر بنے، 2022 کا بالن ڈی اور جیتا، اور 2023 میں سعودی کلب الاتحاد میں شامل ہوئے؛ فرانس کے لیے 97 کیپس حاصل کیں، 2015 کے بعد بلیک میل قضیے کے سلسلے میں پانچ سال سے زائد قومی ٹیم سے باہر رہے، اور یورو 2020 اور 2022 ورلڈ کپ کے لیے واپس آئے۔"
+roles: [athlete]
+wings: [people, living]
+born:
+  edtf: "1987-12-19"
+  hijri: "1408"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "Born 19 December 1987 in Lyon, France, as given by the English Wikipedia article's infobox and early-life section, which records parents of Algerian descent and a childhood in Bron, a suburb of Lyon. No place entity for Lyon or Bron exists in data/place/, so no born_in relation is written. The Hijri year (1408) is derived by tabular conversion."
+  sources: [source/wikipedia-karim-benzema-en]
+faith:
+  - value: unknown
+    basis: unknown
+    note: "No source read in this run names a school or madhhab for Benzema himself. The English Wikipedia article calls him 'a practicing Muslim' who observes the Ramadan fast, and quotes him saying his faith helps him be focused and is his strength for himself, his family and his work. Public practice and a personal statement about faith in general are not an attestation of his own school: no source names Sunni, Maliki or any other specific value for him, and his Algerian family heritage may not be inferred onto him. Under the two-source rule and the doubt rule, no faith value beyond unknown is recorded."
+    sources: [source/wikipedia-karim-benzema-en]
+sources: [source/wikipedia-karim-benzema-en]
+provenance:
+  layer: own-research
+  source: "English Wikipedia 'Karim Benzema', read in full on 25 October 2026. No Wikidata QID was verified from a tool result in this run, so no external_ids are recorded. No earlier record for him existed in data/person/ under karim-benzema or any other spelling checked; this is a new build, not an enrichment."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: century-additions-15
+status: { review: published, completeness: 3, generated_by: "Muse (Muse Spark 1.3)" }
