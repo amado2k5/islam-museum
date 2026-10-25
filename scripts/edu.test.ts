@@ -779,3 +779,36 @@ describe("education: homework search (E3 step 7, plan §5)", () => {
     }
   });
 });
+
+describe("education: Explorers world map (E3 step 8, plan §5)", () => {
+  const map = readFileSync("site/src/components/WorldMap.astro", "utf8");
+
+  it("basemap-world.json is Natural Earth 110m land at 80 KB or less", () => {
+    const b = JSON.parse(readFileSync("site/src/data/basemap-world.json", "utf8"));
+    expect(b.credit).toContain("Natural Earth");
+    expect(readFileSync("site/src/data/basemap-world.json").byteLength).toBeLessThanOrEqual(80 * 1024);
+    expect(b.paths.length).toBeGreaterThan(100);
+    expect(b.viewBox).toBe("0 0 1000 500");
+  });
+
+  it("there are exactly 12 hot spots, each opening an existing record", () => {
+    const spots = [...map.matchAll(/"place\/[a-z-]+": \[/g)].map((m) => m[0].slice(1, -4));
+    expect(spots.length).toBe(12);
+    for (const s of ["place/mecca", "place/medina", "place/jerusalem", "place/damascus", "place/baghdad", "place/cairo", "place/cordoba", "place/fez", "place/timbuktu", "place/istanbul", "place/samarqand", "place/delhi"]) {
+      expect(existsSync(`data/place/${s.split("/")[1]}.yaml`), s).toBe(true);
+    }
+    // the no-JS / screen-reader equivalent list
+    expect(map.includes("wm-list")).toBe(true);
+    expect(map.includes("href={s.href}")).toBe(true);
+    expect(map.includes('role="img"')).toBe(true);
+  });
+
+  it("the Explorers hub renders the map and the wm_* strings exist in all three languages", () => {
+    const hub = readFileSync("site/src/pages/[lang]/sighar/explorers.astro", "utf8");
+    expect(hub.includes("WorldMap")).toBe(true);
+    for (const k of Object.keys(i18n("ar").edu).filter((k) => k.startsWith("wm_"))) {
+      for (const l of LANGS) expect(typeof i18n(l).edu[k] === "string" && i18n(l).edu[k].length > 0, `${l} ${k}`).toBe(true);
+      expect(i18n("ur").edu[k] === i18n("en").edu[k], `ur repeats en for ${k}`).toBe(false);
+    }
+  });
+});
