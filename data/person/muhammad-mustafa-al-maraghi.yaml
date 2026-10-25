@@ -1,0 +1,50 @@
+id: person/muhammad-mustafa-al-maraghi
+class: person
+label: { ar: "محمد مصطفى المراغي", en: "Muhammad Mustafa al-Maraghi", ur: "محمد مصطفی المراغی" }
+names:
+  - { value: "محمد بن مصطفى بن محمد بن عبد المنعم المراغي", kind: full }
+  - { value: "Muhammad ibn Mustafa ibn Muhammad ibn Abd al-Mun'im al-Maraghi", kind: full }
+gender: male
+summary:
+  ar: "عالم وقاض مصري (1881-1945) تولى مشيخة الأزهر مرتين (1928-1929 و1935-1945)، وكان قبلها قاضي القضاة في السودان (1908-1919) فرئيسا للمحكمة الشرعية العليا في القاهرة. من تلاميذ محمد عبده، وداعية للإصلاح والاجتهاد والتقريب بين المذاهب، وصاحب قانون الأحوال الشخصية لسنة 1920 ومؤسس لجنة الفتوى بالأزهر ذات التمثيل المذهبي المتعدد."
+  en: "Egyptian scholar and judge (1881–1945) who served twice as Grand Imam (Sheikh) of al-Azhar (1928–1929 and 1935–1945), after a career as Grand Qadi of the Sudan (1908–1919) and president of Cairo's Supreme Sharia Court. A pupil of Muhammad Abduh, he championed reform, ijtihad and rapprochement between the legal schools; he authored the 1920 personal-status law and founded al-Azhar's cross-madhhab Fatwa Committee."
+  ur: "مصری عالم و قاضی (1881-1945) جو دو مرتبہ شیخ الازہر رہے (1928-1929 اور 1935-1945)، اس سے پہلے سوڈان کے قاضی القضاة (1908-1919) اور قاہرہ کی عدالتِ شرعیہ علیا کے صدر رہے۔ محمد عبدہ کے شاگرد، اصلاح، اجتہاد اور مذاہب کے تقریب کے داعی، 1920 کے قانونِ احوالِ شخصیہ کے مصنف اور الازہر کی کثیرالمذاہب دارالافتاء کمیٹی کے بانی۔"
+roles: [scholar, jurist, qadi]
+wings: [people]
+born:
+  edtf: "1881-03-09"
+  hijri: "1298"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "Born 9 March 1881 at El Maragha, Sohag (Upper Egypt): the Arabic article (infobox and body), the Urdu article and the TDV entry agree, and the Arabic article and TDV both give the Hijri date as 7 Rabi' al-Akhar 1298, which the record adopts (the Hijri year is therefore source-given, not only derived). The English article gives 5 March 1881; Wikidata gives only the year 1881. The place, El Maragha in Sohag, is not the museum's place/maragha (Maragha in Iranian Azerbaijan) — no place entity for El Maragha exists yet, so no born_in relation is written."
+  sources: [source/wikipedia-muhammad-mustafa-al-maraghi-ar, source/tdv-muhammad-mustafa-al-maraghi, source/wikipedia-muhammad-mustafa-al-maraghi-ur, source/wikipedia-muhammad-mustafa-al-maraghi-en, source/wikidata-muhammad-mustafa-al-maraghi]
+died:
+  edtf: "1945-08-22"
+  hijri: "1364"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "Died on the night of Wednesday 14 Ramadan 1364 AH, i.e. 22 August 1945, at Alexandria — the Arabic article's infobox gives Alexandria as the place of death, and its narrative has him ill at the city's Mowasat hospital, where the confrontation with King Farouk over the refused fatwa took place; the English and Urdu articles agree on 22 August 1945. The TDV entry dates the death 23 August 1945 and records the body taken to Hulwan, the funeral at al-Azhar Mosque and burial at the Sayyida Nafisa cemetery in Cairo. Wikidata carries two conflicting death years, 1944 and 1945, of which 1944 is rejected by every article. The Hijri year 1364 is source-given in the Arabic article's dating of the death night."
+  sources: [source/wikipedia-muhammad-mustafa-al-maraghi-ar, source/wikipedia-muhammad-mustafa-al-maraghi-en, source/wikipedia-muhammad-mustafa-al-maraghi-ur, source/tdv-muhammad-mustafa-al-maraghi]
+relations:
+  - { type: student_of, target: person/muhammad-abduh, sources: [source/wikipedia-muhammad-mustafa-al-maraghi-en, source/wikipedia-muhammad-mustafa-al-maraghi-ar, source/tdv-muhammad-mustafa-al-maraghi] }
+  - { type: influenced, target: person/mahmud-shaltut, sources: [source/wikipedia-muhammad-mustafa-al-maraghi-ar, source/wikipedia-muhammad-mustafa-al-maraghi-de] }
+  - { type: lived_in, target: place/cairo, sources: [source/wikipedia-muhammad-mustafa-al-maraghi-ar, source/tdv-muhammad-mustafa-al-maraghi] }
+  - { type: died_in, target: place/alexandria, sources: [source/wikipedia-muhammad-mustafa-al-maraghi-ar] }
+  - { type: buried_in, target: place/cairo, sources: [source/tdv-muhammad-mustafa-al-maraghi] }
+faith:
+  - value: unknown
+    basis: tradition
+    note: "No source consulted names a fiqh school for him, so he is left unclassified. What each source gives: Wikidata records Islam (Q432) only. The Arabic article's infobox gives his religion as Islam, generically, and names no madhhab; the Urdu infobox likewise names no madhhab; the English article names none; the German article — resting on Zeghal, Brunner and Costet-Tardieu — names none; and the TDV İslâm Ansiklopedisi entry by Ali Gomaa, the fullest scholarly notice consulted, names none either. The evidence runs the other way from a single-school attachment: as Grand Qadi of the Sudan he won for his judges the right to apply whichever school's opinion served the case, and in Egypt his July 1920 personal-status legislation expressly freed the courts from the former Hanafi-only constraint where another school's ruling better served the public interest; the Fatwa Committee he founded in 1935 was deliberately composed across the four schools (3 Hanafi, 3 Maliki, 3 Shafi'i, 2 Hanbali); and in his treatise on translating the Qur'an he invoked a Hanafi argument — a position taken in an argument, not an affiliation. A pupil-of-Abduh or Azhar-rector affiliation is an institutional fact, which by the lane rule never counts as a school attestation. Unknown is therefore the honest value."
+    sources: [source/wikipedia-muhammad-mustafa-al-maraghi-ar, source/wikipedia-muhammad-mustafa-al-maraghi-en, source/wikipedia-muhammad-mustafa-al-maraghi-de, source/wikipedia-muhammad-mustafa-al-maraghi-ur, source/tdv-muhammad-mustafa-al-maraghi, source/wikidata-muhammad-mustafa-al-maraghi]
+external_ids: { wikidata: "Q4120117" }
+sources: [source/wikipedia-muhammad-mustafa-al-maraghi-en, source/wikipedia-muhammad-mustafa-al-maraghi-ar, source/wikipedia-muhammad-mustafa-al-maraghi-ur, source/wikipedia-muhammad-mustafa-al-maraghi-de, source/tdv-muhammad-mustafa-al-maraghi, source/wikidata-muhammad-mustafa-al-maraghi]
+provenance:
+  layer: own-research
+  source: "English Wikipedia (revision 1357399555), Arabic Wikipedia «محمد مصطفى المراغي» (revision 72346389), Urdu Wikipedia (revision 12253951), German Wikipedia (revision 266314227), Ali Gomaa, 'MERÂGĪ, Muhammed Mustafa', TDV İslâm Ansiklopedisi vol. 29 (2004), pp. 164–165, read in full at islamansiklopedisi.org.tr, Wikidata Q4120117 (verified via the API: human, born 1881, religion Islam generically), checked 24 October 2026"
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: century-additions-7
+status: { review: published, completeness: 3, generated_by: "Muse (Muse Spark 1.3)" }
