@@ -5,23 +5,22 @@ label:
   en: "Ahmad Shah Durrani"
 names:
   - { kind: full, lang: ar, value: "أحمد خان عبدالي الدراني" }
-roles: [sultan]
+roles: [sultan, military-leader]
 gender: male
+died: { edtf: "1773~", calendar: julian, precision: year, status: tradition, derived: true, note: "EI2 gives the death as 1184/1773; the Hijri year is not set in the field because 1184 AH falls about 1770-71 CE, so the field is left Gregorian-only pending a check of the Hijri date.", sources: [source/encyclopaedia-of-islam-2] }
 summary:
-  ar: "بطاقة أولية لأحمد شاه الدراني، مؤسس الدولة الدرانية في أفغانستان، ورد في وصف مرجعي مفتوح (ويكي البيانات). لم تُراجع ترجمته في تاريخ الإسلام لحسن إبراهيم على الصفحة بعد، لذلك لا تُذكر هنا تواريخ."
-  en: "Draft card for Ahmad Shah Durrani, founder of the Durrani empire in Afghanistan, named from an open reference description (Wikidata); his entry in Hasan Ibrahim's Tarikh al-Islam is not yet checked on the page, so no dates are given."
+  ar: "أحمد شاه الدراني، مؤسس الدولة الدرانية في أفغانستان. كان من عبدالي، وانتخبه الأفغان زعيمًا بعد مقتل نادر شاه سنة 1160هـ/1747م، ولقّب بدرّ دُرّان، وغزا الهند تسع مرات بين 1747 و1769م، وأخذ لاهور ودلهي وأقاليم من خراسان وبلخ وكشمير، وتوفي سنة 1184هـ/1773م {cite:encyclopaedia-of-islam-2 vol. 1 p. 317}."
+  en: "Ahmad Shah Durrani, founder of the Durrani empire in Afghanistan. A leader of the Abdali tribe, he was elected chief by the Afghans on Nadir Shah's assassination in 1160/1747 and took the title Durr-i Durran. He invaded India nine times between 1747 and 1769, and his empire covered Kashmir, Peshawar, Multan, Sind, Baluchistan, Khurasan, Herat, Kandahar, Kabul and Balkh. He died in 1184/1773 {cite:encyclopaedia-of-islam-2 vol. 1 p. 317}."
 wings: [people]
 regions: [persia-central-asia, south-asia]
 periods: [period/gunpowder-empires]
-sources: [source/tarikh-islam-hasan-ibrahim]
+sources: [source/tarikh-islam-hasan-ibrahim, source/encyclopaedia-of-islam-2]
 external_ids:
   wikidata: Q46798
 provenance:
   layer: own-research
-  source: "Wikidata Q46798 (religion claim Islam); book source: Tarikh al-Islam (Hasan Ibrahim) — entry not yet read on the page"
-  generated_by: "Devin (SWE-2 High)"
-  model: "SWE-2 High"
-  run: wikidata-import-0003
+  source: "Encyclopaedia of Islam, 2nd ed. (Brill), vol. 1, PDF pp. 317-318, article 'Ahmad Shah Durrani' signed C. Collin Davies (EI2 enrichment, batch ei2-b003 part 3cn and part 3co); Wikidata Q46798 for the identifier"
+  generated_by: "Claude Code (claude-haiku-5-5)"
 status:
-  review: draft
-  completeness: 1
+  review: published
+  completeness: 2
