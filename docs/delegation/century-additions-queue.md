@@ -33,11 +33,11 @@ lists' own order. Status markers: [ ] queued · [~] in a writer's hands · [x] m
 - [x] Omar M. Yaghi — 1965–Living
 - [x] Jackie Aina — 1987–Living
 - [x] Mo Salah (Mohamed Salah) — 1992–Living
-- [~] Khabib Nurmagomedov — 1988–Living
-- [~] Hakeem Olajuwon — 1963–Living
-- [~] Ibtihaj Muhammad — 1985–Living
-- [~] Nour El Sherbini — 1995–Living
-- [~] Mo Farah — 1983–Living
+- [x] Khabib Nurmagomedov — 1988–Living
+- [x] Hakeem Olajuwon — 1963–Living
+- [x] Ibtihaj Muhammad — 1985–Living
+- [x] Nour El Sherbini — 1995–Living
+- [x] Mo Farah — 1983–Living
 - [~] Sadiq Khan — 1970–Living
 - [~] Ilhan Omar — 1982–Living
 - [~] Rashida Tlaib — 1976–Living

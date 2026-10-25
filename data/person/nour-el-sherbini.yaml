@@ -1,0 +1,38 @@
+id: person/nour-el-sherbini
+class: person
+label: { ar: "نور الشربيني", en: "Nour El Sherbini", ur: "نور الشربینی" }
+names:
+  - { value: "نور عاطف أحمد زكي الشربيني", kind: full }
+  - { value: "Nour Atef Ahmed Zaki El Sherbini", kind: full }
+gender: female
+summary:
+  ar: "لاعبة اسكواش مصرية محترفة، وُلدت في الإسكندرية سنة 1995، بدأت اللعب في السادسة من عمرها، وأصبحت أصغر بطلة عالم للناشئين في تاريخ اللعبة سنة 2009، ثم فازت بثمانية ألقاب عالمية فردية (2015 و2016 و2018-19 و2019-20 و2020-21 و2022 و2023 و2025) معادلة الرقم القياسي لنيكول ديفيد، وتصدرت التصنيف العالمي مرات عدة."
+  en: "Egyptian professional squash player, born in Alexandria in 1995. She took up the game at six, became the youngest world junior champion in the sport's history in 2009, and went on to win eight individual world titles (2015, 2016, 2018-19, 2019-20, 2020-21, 2022, 2023 and 2025), equalling Nicol David's all-time record, with several spells as world No. 1."
+  ur: "مصری پیشہ ور اسکواش کھلاڑی، جو 1995 میں اسکندریہ میں پیدا ہوئیں۔ انہوں نے چھ سال کی عمر میں کھیل شروع کیا، 2009 میں اس کھیل کی تاریخ کی سب سے کم عمر عالمی جونیئر چیمپئن بنیں، اور پھر آٹھ انفرادی عالمی ٹائٹل جیتے (2015، 2016، 2018-19، 2019-20، 2020-21، 2022، 2023 اور 2025)، یوں نکول ڈیوڈ کا آل ٹائم ریکارڈ برابر کیا، اور کئی مرتبہ عالمی نمبر 1 رہیں۔"
+roles: [squash player]
+wings: [people, living]
+born:
+  edtf: "1995-11-01"
+  hijri: "1416"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "Gregorian date from English and Arabic Wikipedia and Wikidata Q4355286; Alexandria birthplace from the English article and Wikidata. The Hijri year (1416) is derived by tabular conversion."
+  sources: [source/wikipedia-nour-el-sherbini-en, source/wikipedia-nour-el-sherbini-ar, source/wikidata-nour-el-sherbini]
+relations:
+  - { type: born_in, target: place/alexandria, sources: [source/wikipedia-nour-el-sherbini-en, source/wikidata-nour-el-sherbini] }
+  - { type: lived_in, target: place/alexandria, sources: [source/wikipedia-nour-el-sherbini-en] }
+faith:
+  - value: unknown
+    basis: unknown
+    note: "Neither the English nor the Arabic Wikipedia article says anything about her religion, and her Wikidata item carries no religion statement at all. Nothing is inferred from her name, family or country."
+    sources: [source/wikipedia-nour-el-sherbini-en, source/wikipedia-nour-el-sherbini-ar, source/wikidata-nour-el-sherbini]
+external_ids: { wikidata: "Q4355286" }
+sources: [source/wikipedia-nour-el-sherbini-en, source/wikipedia-nour-el-sherbini-ar, source/wikidata-nour-el-sherbini, source/psa-nour-el-sherbini-400-matches]
+provenance:
+  layer: own-research
+  source: "English Wikipedia (revision 1377318069 of 28 September 2026), Arabic Wikipedia (revision 73958981 of 12 March 2026), Wikidata Q4355286 (read through the Wikidata API) and the PSA Squash Tour's 400-matches article of 15 October 2022; checked 24 October 2026. No Urdu Wikipedia article exists for her; checked via the Arabic article's language links."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: century-additions-4
+status: { review: published, completeness: 3, generated_by: "Muse (Muse Spark 1.3)" }
