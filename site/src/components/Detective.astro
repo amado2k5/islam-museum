@@ -1,0 +1,62 @@
+---
+// Source Detective card (E4 step 5): the claim, three evidence cards — a
+// chained passage shown as an isnad strip, a chronicle excerpt, an object or
+// record — then the student grades what the evidence proves on a four-step
+// scale and compares with the historians' note (device-only save).
+import type { Lang } from "../lib/i18n";
+import { href as recordHref } from "../lib/graph";
+import type { DetectiveUnit } from "../lib/detective";
+
+interface Props {
+  lang: Lang;
+  unit: DetectiveUnit;
+  claimLabel: string;
+  evidenceLabel: string;
+  chainLabel: string;
+  scaleLabel: string;
+  scaleOptions: string[];   // 4 labels, strongest first
+  noteLabel: string;
+  revealLabel: string;
+  savedLabel: string;
+}
+const { lang, unit, claimLabel, evidenceLabel, chainLabel, scaleLabel, scaleOptions, noteLabel, revealLabel, savedLabel } = Astro.props;
+---
+<article class="dt" data-detective={unit.id} data-i18n-saved={savedLabel}>
+  <header>
+    <p class="ui muted">{claimLabel}</p>
+    <h1>{unit.claim[lang]}</h1>
+  </header>
+  <h2 class="ui">{evidenceLabel}</h2>
+  <ol class="dt-ev">
+    {unit.evidence.map((e, i) => (
+      <li class="dt-card">
+        <p class="ui muted">{e.kind === "passage" ? chainLabel : e.kind} — <a href={recordHref(lang, e.id)}>{e.id}</a></p>
+        {e.kind === "passage" && e.chain && (
+          <ol class="dt-chain" aria-label={chainLabel}>
+            {e.chain.map((p) => <li><a href={recordHref(lang, p)}>{p}</a></li>)}
+          </ol>
+        )}
+        <p>{e.caption[lang]}</p>
+      </li>
+    ))}
+  </ol>
+  <fieldset class="dt-scale">
+    <legend class="ui">{scaleLabel}</legend>
+    {scaleOptions.map((opt, i) => (
+      <label class="dt-opt">
+        <input type="radio" name={`dt-${unit.id}`} value={i} data-scale />
+        <span>{opt}</span>
+      </label>
+    ))}
+    <button class="btn" data-reveal hidden>{revealLabel}</button>
+    <p class="ui muted" data-saved aria-live="polite"></p>
+  </fieldset>
+  <section class="dt-note" data-note hidden>
+    <h2 class="ui">{noteLabel}</h2>
+    <p>{unit.historians[lang]}</p>
+  </section>
+  <script type="module">
+    import { initDetective } from "../scripts/detective";
+    initDetective();
+  </script>
+</article>

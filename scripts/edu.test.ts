@@ -965,3 +965,28 @@ describe("E4 step 4 — edu/dilemmas/*.yaml (decision cards)", () => {
       expect(HON.test(readFileSync(`edu/dilemmas/${f}`, "utf8")), f).toBe(false);
   });
 });
+
+describe("E4 step 5 — edu/detective/*.yaml (source detective)", () => {
+  it("every unit loads: known band, trilingual claim and historians' note, exactly three evidence ids in the graph, ≥1 passage with a chain", async () => {
+    const { loadDetective } = await import("../site/src/lib/detective.ts");
+    const units = loadDetective();
+    expect(units.length).toBeGreaterThanOrEqual(20);
+    for (const u of units) {
+      expect(["scholars", "researchers"]).toContain(u.band);
+      expect(u.evidence.length).toBe(3);
+      expect(u.evidence.some((e) => e.kind === "passage" && e.chain && e.chain.length > 0), u.id).toBe(true);
+    }
+  });
+  it("detective strings exist in all three languages", () => {
+    const keys = ["sb_claim", "sb_chain", "sb_what_proves", "sb_scale_proves", "sb_scale_supports", "sb_scale_hints", "sb_scale_no", "sb_hist_note", "sb_show_note"];
+    for (const l of ["ar", "en", "ur"]) {
+      const d = parse(readFileSync(`i18n/${l}.yaml`, "utf8")).shabab;
+      for (const k of keys) expect(typeof d[k] === "string" && d[k].length > 0, `${l}.${k}`).toBe(true);
+    }
+  });
+  it("no typed honorifics in detective data", () => {
+    const HON = new RegExp("(صلى الله عليه|عليه السلام|رضي الله عنه|رحمه الله|\\uFDFA|\\uFDFF|\\u06D6)");
+    for (const f of readdirSync("edu/detective"))
+      expect(HON.test(readFileSync(`edu/detective/${f}`, "utf8")), f).toBe(false);
+  });
+});
