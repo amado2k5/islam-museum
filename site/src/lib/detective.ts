@@ -5,9 +5,10 @@
 import { readFileSync, readdirSync } from "node:fs";
 import { parse } from "yaml";
 import { byId } from "./graph";
+import { repoPath } from "./paths";
 import type { Lang } from "./i18n";
 
-const DIR = "edu/detective";
+const DIR = repoPath("edu/detective");
 const KINDS = ["passage", "chronicle", "object"] as const;
 export type EvidenceKind = (typeof KINDS)[number];
 type Tri = Record<Lang, string>;
@@ -45,7 +46,7 @@ export function loadDetective(): DetectiveUnit[] {
       tri(e.caption, `${where} evidence ${e.id}`);
       if (e.kind === "passage") {
         const slug = e.id.split("/")[1];
-        const p = parse(readFileSync(`data/passage/${slug}.yaml`, "utf8"));
+        const p = parse(readFileSync(repoPath(`data/passage/${slug}.yaml`), "utf8"));
         if (Array.isArray(p.chain) && p.chain.length) {
           chained = true;
           (e as { chain?: string[] }).chain = p.chain;

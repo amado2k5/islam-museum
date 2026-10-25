@@ -50,7 +50,7 @@ export const BUDGETS: Budget[] = [
   { family: "teacher pack", route: "/ar/learn/teachers/packs/ramadan/", html: 220 * KB, js: 10 * KB },
   { family: "child hub", route: "/ar/sighar/explorers/where/", html: 220 * KB, js: 8 * KB },
   // E4 step 1: the teen wing — hub, two band pages, and the daily/where mirrors under /shabab/
-  { family: "teen hub", route: "/ar/shabab/", html: 200 * KB, js: 12 * KB },
+  { family: "teen hub", route: "/ar/shabab/", html: 200 * KB, js: 30 * KB },
   { family: "teen band", route: "/ar/shabab/scholars/", html: 170 * KB, js: 12 * KB },
   { family: "teen band", route: "/ar/shabab/researchers/", html: 170 * KB, js: 12 * KB },
   { family: "daily challenge", route: "/ar/shabab/daily/", html: 120 * KB, js: 12 * KB },

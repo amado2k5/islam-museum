@@ -4,7 +4,7 @@
 import BaseLayout from "../../../../layouts/BaseLayout.astro";
 import SixtySeconds from "../../../../components/SixtySeconds.astro";
 import { ui, LANGS, type Lang } from "../../../../lib/i18n";
-import { loadTopics } from "../../../../lib/topics";
+import { loadTopics, courseLd } from "../../../../lib/topics";
 import { href } from "../../../../lib/graph";
 import { viewBands } from "../../../../lib/edu";
 import "../../../../styles/edu.css";
@@ -23,7 +23,7 @@ const path = `/${lang}/shabab/60s/${topic.id}/`;
 const practiceHref = `/${lang}/shabab/practice/${topic.id}/`;
 const glossaryHref = `/${lang}/shabab/glossary/${topic.id}/`;
 ---
-<BaseLayout lang={lang} title={title} description={topic.sixty[lang]} path={path}>
+<BaseLayout lang={lang} title={title} description={topic.sixty[lang]} path={path} jsonld={courseLd(topic, lang)}>
   <div class="wrap edu" style="padding-block:10px 24px">
     <nav class="ui muted no-print" aria-label="breadcrumb">
       <a href={`/${lang}/shabab/`}>{S.sb_title}</a> › <a href={`/${lang}/shabab/topics/`}>{S.sb_topics}</a> › {topic.title[lang]}
