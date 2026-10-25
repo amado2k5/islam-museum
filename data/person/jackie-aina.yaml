@@ -25,10 +25,11 @@ faith:
     basis: unknown
     note: "English Wikipedia and her official website name no religion or school of Islam, and no source consulted names one. She is recorded because the founder's century list includes her; the museum records no school for her, and nothing is inferred from her family background. Not recorded until two independent sources name a school."
     sources: [source/wikipedia-jackie-aina-en, source/jackie-aina-official-site]
-sources: [source/wikipedia-jackie-aina-en, source/jackie-aina-official-site, source/stanford-gsb-jackie-aina]
+external_ids: { wikidata: "Q54897722" }
+sources: [source/wikidata-jackie-aina, source/wikipedia-jackie-aina-en, source/jackie-aina-official-site, source/stanford-gsb-jackie-aina]
 provenance:
   layer: own-research
-  source: "English Wikipedia article on Jackie Aina, her official website's About page and her Stanford Graduate School of Business Black Leadership Conference 2026 speaker biography; checked 24 October 2026. No Arabic or Urdu Wikipedia article exists, and no Wikidata item ID could be confirmed from a fetched source (wikidata.org is unreachable from the build environment), so external_ids is omitted rather than guessed."
+  source: "English Wikipedia article on Jackie Aina, her official website's About page and her Stanford Graduate School of Business Black Leadership Conference 2026 speaker biography; checked 24 October 2026. No Arabic or Urdu Wikipedia article exists, and no Wikidata item ID could be confirmed from a fetched source (wikidata.org is unreachable from the build environment), so external_ids is omitted rather than guessed. Superseded by the QID pass of 24 October 2026: the item number (Q54897722) was confirmed through the Wikidata API and is now recorded in external_ids with a registered wikidata source entity."
   generated_by: "Muse (Muse Spark 1.3)"
   run: century-additions-3
 status: { review: published, completeness: 3, generated_by: "Muse (Muse Spark 1.3)" }

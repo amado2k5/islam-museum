@@ -26,10 +26,11 @@ faith:
     basis: unknown
     note: "English Wikipedia records that he was born into a Gujarati Shia Nizari Isma'ili Khoja Muslim family, and the article's categories include 'Indian Ismailis'; Britannica describes the Premjis only as 'a Muslim family', and the Arabic article's infobox gives his religion only as Islam. Family background is not a personal attestation, and no second source names his own school, so the value stays unknown."
     sources: [source/wikipedia-azim-premji-en, source/britannica-azim-premji, source/wikipedia-azim-premji-ar]
-sources: [source/wikipedia-azim-premji-en, source/wikipedia-azim-premji-ar, source/britannica-azim-premji]
+external_ids: { wikidata: "Q380152" }
+sources: [source/wikidata-azim-premji, source/wikipedia-azim-premji-en, source/wikipedia-azim-premji-ar, source/britannica-azim-premji]
 provenance:
   layer: own-research
-  source: "English and Arabic Wikipedia and the Encyclopaedia Britannica entry on Azim Premji, as cited and checked in Chrome on 26 Oct 2026. No Wikidata item number is recorded: wikidata.org returned HTTP 403 from this environment and no consulted source confirmed the item number, so external_ids is omitted rather than guessed."
+  source: "English and Arabic Wikipedia and the Encyclopaedia Britannica entry on Azim Premji, as cited and checked in Chrome on 26 Oct 2026. No Wikidata item number is recorded: wikidata.org returned HTTP 403 from this environment and no consulted source confirmed the item number, so external_ids is omitted rather than guessed. Superseded by the QID pass of 24 October 2026: the item number (Q380152) was confirmed through the Wikidata API and is now recorded in external_ids with a registered wikidata source entity."
   generated_by: "Claude Code (claude-haiku-5-5)"
   run: century-additions-1
 status: { review: published, generated_by: "Claude Code (claude-haiku-5-5)" }

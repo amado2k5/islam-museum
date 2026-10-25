@@ -18,17 +18,18 @@ born:
   precision: day
   status: historical
   derived: true
-  note: "Gregorian date and Savur, Mardin Province birthplace from English Wikipedia and the Nobel Prize facts page; the Hijri year (1365) is derived by tabular conversion. No Wikidata item number is recorded: see the provenance note."
+  note: "Gregorian date and Savur, Mardin Province birthplace from English Wikipedia and the Nobel Prize facts page; the Hijri year (1365) is derived by tabular conversion. The Wikidata item number (Q15118973) was confirmed in the QID pass of 24 October 2026: see the provenance note."
   sources: [source/wikipedia-aziz-sancar-en, source/nobelprize-aziz-sancar-facts]
 faith:
   - value: unknown
     basis: unknown
     note: "No source consulted names a school. English Wikipedia describes him as a practising Muslim and quotes his interview statement 'I am proud to be Muslim'; the Arabic article's infobox gives his religion as الإسلام (Islam) only. Neither names a madhhab."
     sources: [source/wikipedia-aziz-sancar-en, source/wikipedia-aziz-sancar-ar]
-sources: [source/wikipedia-aziz-sancar-en, source/wikipedia-aziz-sancar-ar, source/nobelprize-aziz-sancar-facts]
+external_ids: { wikidata: "Q15118973" }
+sources: [source/wikidata-aziz-sancar, source/wikipedia-aziz-sancar-en, source/wikipedia-aziz-sancar-ar, source/nobelprize-aziz-sancar-facts]
 provenance:
   layer: own-research
-  source: "English and Arabic Wikipedia and the Nobel Prize facts page for the 2015 Chemistry prize, checked on 24 October 2026. A Wikidata item for him exists (the Wikipedia articles link to it), but its number could not be verified from this environment — wikidata.org returns HTTP 403 to this fetcher and no third-party source line confirmed the number — so no QID and no wikidata source entity are recorded rather than guessed; one live-browser check can add both."
+  source: "English and Arabic Wikipedia and the Nobel Prize facts page for the 2015 Chemistry prize, checked on 24 October 2026. A Wikidata item for him exists (the Wikipedia articles link to it), but its number could not be verified from this environment — wikidata.org returns HTTP 403 to this fetcher and no third-party source line confirmed the number — so no QID and no wikidata source entity are recorded rather than guessed; one live-browser check can add both. That check has now been done — the QID pass of 24 October 2026 confirmed Q15118973 through the Wikidata API, and external_ids and the wikidata source entity are recorded."
   generated_by: "Muse (Muse Spark 1.3)"
   run: century-additions-2
 status: { review: published, completeness: 3, generated_by: "Muse (Muse Spark 1.3)" }
