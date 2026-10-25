@@ -151,6 +151,8 @@ The following merged PRs and commits are ready on `main` for the founder to depl
 | 6 | Where am I? (gentle version) | `/{lang}/sighar/explorers/where/` | done — `edu/where.yaml` 12 first-person riddles × two choices, always-warm <details> reveals, no JS; linked from the Explorers hub; this PR |
 | 7 | Homework search: 50 topics × three phrasings in ar, en, ur merged into the search synonyms | `edu/homework-topics.yaml`, search zero-result strip | done — `edu/homework-topics.yaml` (50 topics), phrasings merged into `search-synonyms.{ar,en}.json` in `derive.ts`, zero-result `#hw-strip` on `/{lang}/search/` + teacher-hub strip; this PR |
 | 8 | Explorers map: world SVG (80 KB or less, 12 hot spots), replacing the placeholder on the Explorers hub | `site/src/data/basemap-world.json`, `/{lang}/sighar/explorers/` | done — `basemap-world.json` (Natural Earth 110m land, 61 KB) + `WorldMap.astro` inline SVG, 12 hot spots each opening its city's leveled record (fez/delhi open the plain record), list below the map as the no-JS equivalent; this PR |
+| 7 | Homework search: 50 topics × three phrasings in ar, en, ur merged into the search synonyms | `edu/homework-topics.yaml`, search zero-result strip | pending |
+| 8 | Explorers map: world SVG (80 KB or less, 12 hot spots), replacing the placeholder on the Explorers hub | `site/src/data/basemap-world.json`, `/{lang}/sighar/explorers/` | done — `basemap-world.json` (Natural Earth 110m land, 61 KB) + `WorldMap.astro` inline SVG, 12 hot spots each opening its city's leveled record (fez/delhi open the plain record), list below the map as the no-JS equivalent; this PR |
 
 **Urdu for the founder's review (E3):** listed step by step as each step lands.
 
