@@ -89,7 +89,9 @@ export function checkRegister(reg: any, canonIds: Set<string>): Issue[] {
     // a T5 site, or one not verified, may only be used to point to a book
     if ((s.tier === "T5" || s.status === "not-verified") && uses.some((u) => u !== "pointer")) err(w, "a T5 or not-verified source may only be used as a pointer");
     // quoted matter needs a T1 source, or a valid sample of 30 or more rows checked against a named edition
-    if (uses.includes("text") && s.tier !== "T1" && !(s.samples?.size >= 30 && s.samples?.valid === true && s.samples?.edition)) err(w, "text use needs a T1 source or a valid sample of 30 or more rows against a named edition");
+    // a recorded founder override (founder_override.text: true, with decided_by, date and reason) stands in for the sample when the founder authorises text use
+    const founderText = s.founder_override?.text === true && s.founder_override?.decided_by === "founder" && DATE.test(String(s.founder_override?.date ?? "")) && typeof s.founder_override?.reason === "string" && s.founder_override.reason.length > 0;
+    if (uses.includes("text") && s.tier !== "T1" && !founderText && !(s.samples?.size >= 30 && s.samples?.valid === true && s.samples?.edition)) err(w, "text use needs a T1 source, a valid sample of 30 or more rows against a named edition, or a recorded founder override");
   }
 
   const blocked = new Set((reg.blocklist ?? []).map(String));

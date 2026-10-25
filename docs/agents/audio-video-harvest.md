@@ -140,7 +140,7 @@ The series slug is the archive's own slug (its URL), and `epNN` is the episode n
 2. `data/source/<site>-<speaker>.yaml`: `kind: primary`, `type: audio`/`video` lecture archive, `reliability_note` with the date checked and the rule: a primary source for what the speaker says, not for history.
 3. `docs/attribution.md`: one row.
 4. `docs/agents/source-families.md`: one row in the registered table.
-5. `scripts/harvest/library/authenticity.yaml` (one `sources` entry, `allowed_uses: [pointer, text]`, the same uses as a book) and `docs/authenticity-ledger/websites/<domain>.yaml` (archive checks, evidence, history). Then `python3 scripts/harvest/library/authenticity_ledger.py --check` must report 0 problems.
+5. `scripts/harvest/library/authenticity.yaml` (one `sources` entry, `allowed_uses: [pointer, text]`, the same uses as a book). The archive is not tier T1 and has no sample, so text use rests on the founder override `founder_override` (text, decided_by, date, reason), which `scripts/check-authenticity.ts` accepts only when all four fields are present and `docs/authenticity-ledger/websites/<domain>.yaml` (archive checks, evidence, history). Then `python3 scripts/harvest/library/authenticity_ledger.py --check` must report 0 problems.
 
 ## 7. Progress and handoff
 
@@ -159,5 +159,7 @@ A recording counts as **completed** only when its claims have passed the verific
 | Claims | total claims, with engine and window recorded; lines dropped as unclear |
 | Doubts | count of `needs_source` annotations and dropped lines |
 | Commit | the commit or PR that carries it |
+
+Every dropped or excluded item is listed under "Excluded items" in the lane's progress file, with the reason, the gate it failed and its override status. Nothing is re-entered without the founder's written authorisation.
 
 Recordings that are downloaded or transcribed but not yet completed are listed separately with their status. Nothing is counted as completed on the strength of a transcript alone.

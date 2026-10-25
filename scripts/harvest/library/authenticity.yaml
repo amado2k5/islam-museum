@@ -383,4 +383,9 @@ sources:
     scope: "Recorded lectures of Sheikh Omar Abdelkafy (25 series, 622 lessons, audio and video). Treated exactly like a book, by the founder's decision of 25 Oct 2026: full details and full prose may be taken from the recordings, written in the museum's own words and cited by series, episode and timestamp. Quotations at most 40 words. Audio files, transcripts and claims tables are never held in git. Authorised by the founder on 25 Oct 2026 as an authentic store of the audio and video files of these lessons."
     checked_on: "2026-10-25"
     evidence: "robots.txt (checked 25 Oct 2026): lesson pages and media.assabile.com not disallowed; no licence statement found on the site; the archive's biography gives birth on Labour Day 1952, which conflicts with English Wikipedia and Wikidata (1 May 1951)"
+    founder_override:
+      text: true
+      decided_by: founder
+      date: "2026-10-25"
+      reason: "The founder authorised the use of the text of the recorded lessons, as for a book: full details and full prose, in the museum's own words, cited by series, episode and timestamp (quotations at most 40 words). Engine output is used directly, without a sample; the archive is not tier T1."
 blocklist: []   # domains found on phishing, malware or spam lists; checked by hand before each publication, with the date

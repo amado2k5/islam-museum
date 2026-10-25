@@ -18,3 +18,11 @@ translators: []
 
 ## قول الشعراوي في التوبة والمجتمع
 يرى الشعراوي أن إبراهيم وإسماعيل سألا التوبة لذريتهما لعلمهما أن من يأتي بعدهما سيقع في الذنب، وأن تشريع التوبة وقاية للمجتمع كله، لأن الذنب لو جعل صاحبه خالداً في النار بلا توبة لأيس الناس وتجرأ العصاة. ويستدل بقول النبي: «كل بني آدم خطاء وخير الخطائين التوابون». {cite:tafsir-sharawi-khawatir-scan-pp-501-1000 p.588}
+
+## عند الشيخ عمر عبد الكافي
+يروي الشيخ معنى الحديث أن الله يبسط يده بالليل ليتوب مسيء النهار، وبالنهار ليتوب مسيء الليل. {cite:assabile-omar-abdelkafy aadau-al-islam/ep04 00:04:00} ويقول إن الجنة محفوفة بالمكاره، والنار محفوفة بالشهوات. {cite:assabile-omar-abdelkafy aadau-al-islam/ep04 00:04:30}
+ويفرق بين التائب الذي يثبت على توبته ويُعذر في اللمم، وبين من يتوب بجسده دون قلبه فيعود إلى الذنب. {cite:assabile-omar-abdelkafy aadau-al-islam/ep04 00:05:00} {cite:assabile-omar-abdelkafy aadau-al-islam/ep04 00:05:30}
+ويصف نوعا ثالثا يتجنب التذكير بالله ويهرب من التنبيه على ذنبه (needs_source: عبارة هذا القسم غير واضحة في النسخة الآلية). {cite:assabile-omar-abdelkafy aadau-al-islam/ep04 00:06:00}
+ويحذر من تأجيل التوبة، فالموت لا يمهل، ولا يُقدَّم الإنسان ولا يُؤخَّر لحظة. {cite:assabile-omar-abdelkafy aadau-al-islam/ep04 00:12:00} {cite:assabile-omar-abdelkafy aadau-al-islam/ep04 00:12:30} وينبه إلى أن العمل الصالح وحده ينفع في القبر. {cite:assabile-omar-abdelkafy aadau-al-islam/ep04 00:13:00}
+ويقول إن العبد إذا أذنب ثم ندم ولو طرفة عين سقط عنه الذنب. {cite:assabile-omar-abdelkafy aadau-al-islam/ep04 00:14:30}
+ويقول إن أول ما تطلبه التوبة إعادة الحقوق إلى أصحابها، وإن العودة إلى الحق خير من التمادي في الباطل. {cite:assabile-omar-abdelkafy aadau-al-islam/ep04 00:16:30} {cite:assabile-omar-abdelkafy aadau-al-islam/ep04 00:18:30}

@@ -14,3 +14,9 @@ translators: ["Claude Haiku 5.5 (claude-haiku-5-5), draft translation"]
 ابن رجب اس تاویل کا ذکر کرتے ہیں جو ارجاء کی طرف مائل تھی، یعنی حدیث کو خاص طور پر نبی کے زمانے کے منافقین پر محمول کرنا، محمد المحرم کی عطاء سے اور انہوں نے جابر سے روایت پر، اور وہ اسے رد کرتے ہیں کہ یہ روایت جھوٹ ہے، اور کہتے ہیں کہ محرم جھوٹ کے لیے معروف ہیں۔ {cite:ibn-rajab-jami-ulum-hikam p.901}
 
 یہ اپنے باب میں عمل کے تعلق سے [[concept/iman|ایمان]] کا حصہ ہے۔
+
+## شیخ عمر عبدالکافی کا بیان
+وہ کہتے ہیں کہ مدینہ میں نفاق کی قیادت عبداللہ بن ابی بن سلول کے ہاتھ میں تھی، اور نبی نے اپنے کسی صحابی کو ان کے قتل کا حکم نہیں دیا۔ {cite:assabile-omar-abdelkafy aadau-al-islam/ep01 00:04:30} {cite:assabile-omar-abdelkafy aadau-al-islam/ep01 00:05:00}
+وہ نفاق کی تین قسمیں بیان کرتے ہیں: عقیدے میں نفاق، عبادت میں نفاق، اور سلوک میں نفاق۔ {cite:assabile-omar-abdelkafy aadau-al-islam/ep03 00:22:00}
+ان کے نزدیک عبادت میں نفاق یہ ہے کہ انسان لوگوں کے سامنے روزہ یا عمل ظاہر کرے اور تنہائی میں نہ کرے۔ {cite:assabile-omar-abdelkafy aadau-al-islam/ep03 00:27:00} سلوک میں نفاق یہ ہے کہ آدمی ابوبکر کا چہرہ دکھائے اور دل ابوجہل اور ابولہب کا رکھے۔ {cite:assabile-omar-abdelkafy aadau-al-islam/ep03 00:27:30}
+وہ کہتے ہیں کہ منافق مومن پر رحم نہیں کرتا، اور جس دل میں رحمت ہو وہ نفاق کا راستہ نہیں جانتا۔ {cite:assabile-omar-abdelkafy aadau-al-islam/ep03 00:22:00} {cite:assabile-omar-abdelkafy aadau-al-islam/ep03 00:50:00}

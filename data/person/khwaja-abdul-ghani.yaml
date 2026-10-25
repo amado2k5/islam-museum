@@ -1,0 +1,50 @@
+id: person/khwaja-abdul-ghani
+class: person
+label: { ar: "خواجة عبد الغني", en: "Khwaja Abdul Ghani", ur: "خواجہ عبد الغنی" }
+names:
+  - { value: "Khwaja Abdul Ghani", kind: full }
+  - { value: "Ghani Miah", kind: alternate }
+  - { value: "Nawab Bahadur", kind: laqab }
+gender: male
+summary:
+  ar: "ثاني نواب دكا (1813-1896) وأول من صار اللقب في أسرته وراثيًّا باعتراف الراج البريطاني. ورث أملاك أبيه خواجة عليم الله سنة 1846 فوسّعها، وبنى قصر منزل إحسان مقرًّا للأسرة، وأدخل إلى دكا مصابيح الغاز وشبكة المياه ونظام البانشايات وحديقة الحيوان والصحافة، واشتهر بالتحكيم بين الناس وبالبذل الواسع في الأعمال الخيرية."
+  en: "Second Nawab of Dhaka (1813–1896) and the first of his family to hold the title as hereditary, recognised by the British Raj. He inherited his father Khwaja Alimullah's estate in 1846 and enlarged it, built Ahsan Manzil as the family's seat, and brought gas lighting, piped water, the panchayat system, a zoological garden and a newspaper to Dhaka; he was famed as an arbiter of disputes and for large-scale charity."
+  ur: "ڈھاکہ کے دوسرے نواب (1813ء–1896ء) اور اپنے خاندان کے پہلے فرد جن کا یہ خطاب انگریز حکومت کی منظوری سے موروثی ہوا۔ انھوں نے 1846ء میں والد خواجہ علیم اللہ کی جائیداد سنبھالی اور اسے بڑھایا، احسن منزل کو خاندان کی رہائش گاہ بنایا، اور ڈھاکہ میں گیس کی روشنی، پانی کی فراہمی، پنچایت نظام، چڑیا گھر اور اخبار متعارف کرائے؛ وہ تنازعات کے ثالث اور بڑے خیراتی کاموں کے لیے مشہور تھے۔"
+roles: [politician, philanthropist]
+wings: [people]
+born:
+  edtf: "1813-07-30"
+  hijri: "1228"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "Born at Begum Bazaar, Dhaka, on 30 July 1813: the English article, Banglapedia and Wikidata agree. Second son of Khwaja Alimullah (his predecessor as head of the family; d. 1854 per Banglapedia) and Zinat Begum. The Hijri year (1228) is derived by tabular conversion (30 July 1813 falls in Rajab 1228)."
+  sources: [source/wikipedia-khwaja-abdul-ghani-en, source/banglapedia-khwaja-abdul-ghani, source/wikidata-khwaja-abdul-ghani]
+died:
+  edtf: "1896-08-24"
+  hijri: "1314"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "Died at Ahsan Manzil, Dhaka, on 24 August 1896 (a Monday, per Banglapedia): the English article, Banglapedia and Wikidata agree. He was succeeded by his second son Khwaja Ahsanullah. Burial is recorded two ways: the English article names the Kartalab Khan Mosque, Dhaka; Banglapedia gives the family graveyard at Begum Bazaar — the mosque stands in Begum Bazaar, and both are recorded. The Hijri year (1314) is derived by tabular conversion (24 August 1896 falls in Rabi' al-Awwal 1314)."
+  sources: [source/wikipedia-khwaja-abdul-ghani-en, source/banglapedia-khwaja-abdul-ghani, source/wikidata-khwaja-abdul-ghani]
+relations:
+  - { type: born_in, target: place/dhaka, sources: [source/wikipedia-khwaja-abdul-ghani-en, source/banglapedia-khwaja-abdul-ghani] }
+  - { type: died_in, target: place/dhaka, sources: [source/wikipedia-khwaja-abdul-ghani-en, source/banglapedia-khwaja-abdul-ghani] }
+  - { type: buried_in, target: place/dhaka, sources: [source/wikipedia-khwaja-abdul-ghani-en, source/banglapedia-khwaja-abdul-ghani] }
+  - { type: built, target: building/ahsan-manzil, sources: [source/wikipedia-khwaja-abdul-ghani-en, source/banglapedia-khwaja-abdul-ghani] }
+faith:
+  - value: unknown
+    basis: unknown
+    note: "NOT RECORDED AS DOCUMENTED — only one source family names a school for him. The English article's infobox records his religion as Sunni Islam and its text says, of his patronage of the Shia Hoseni Dalan, that he acted 'though he was a Sunni himself'. No second independent source names the school: the Arabic article names none; Banglapedia describes him as 'intensely a religious man' and records his arbitration of the 1869 Shia–Sunni riot without naming his own school; Wikidata (P140) gives Islam only. Under the lane's two-source rule and the founder's doubt rule the value stays unknown, with the single attestation stated here."
+    sources: [source/wikipedia-khwaja-abdul-ghani-en, source/banglapedia-khwaja-abdul-ghani, source/wikidata-khwaja-abdul-ghani]
+external_ids: { wikidata: "Q6403412" }
+sources: [source/wikipedia-khwaja-abdul-ghani-en, source/wikipedia-khwaja-abdul-ghani-ar, source/wikidata-khwaja-abdul-ghani, source/banglapedia-khwaja-abdul-ghani]
+provenance:
+  layer: own-research
+  source: "English Wikipedia 'Khwaja Abdul Ghani', rev. 1358761338 of 10 June 2026; Arabic Wikipedia «خواجة عبد الغني», rev. 61263083 of 21 February 2023; Banglapedia, 'Ghani, Nawab Khwaja Abdul' by Mohammad Alamgir (Asiatic Society of Bangladesh), online edition; Wikidata Q6403412 read via the API. All read in full on 25 October 2026."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: century-additions-11
+status: { review: published, completeness: 3, generated_by: "Muse (Muse Spark 1.3)" }
