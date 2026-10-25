@@ -1,4 +1,10 @@
 id: event/assassination-of-sallam-ibn-abi-al-huqayq
+education:
+  did_you_know:
+    ar: "في ذي الحجة سنة ٥هـ تسلل خمسة من الخزرج بقيادة عبد الله بن عتيك إلى حصن خيبر ليلاً فقتلوا سلام بن أبي الحقيق، تاجر أهل الحجاز وأحد محرضي الأحزاب."
+    en: "In Dhu al-Hijja of year 5, five Khazraji champions led by Abd Allah ibn Atik slipped into Khaybar's fortress by night and killed Sallam ibn Abi al-Huqayq — the Hijazis' merchant and an inciter of the Confederates."
+    ur: "سن ۵ھ ذوالحجہ میں خزرج کے پانچ بہادر عبداللہ بن عتیک کی قیادت میں رات کے وقت خیبر کے قلعہ میں گھس گئے اور سلام بن ابی حقیق — حجازیوں کے تاجر اور احزاب کے مشتعل — کو قتل کیا۔"
+    sources: [source/mubarakpuri-raheeq, source/ibn-hisham-sira]
 class: event
 kind: raid
 label: { en: "The Mission of Abu Rafi' (Sallam ibn Abi al-Huqayq)", ar: "مقتل أبي رافع سلام بن أبي الحقيق" }
@@ -24,3 +30,9 @@ sides:
     commanders: [person/sallam-ibn-abi-al-huqayq]
 sources: [source/mubarakpuri-raheeq, source/sahih-al-bukhari, source/ibn-hisham-sira]
 status: { review: draft, completeness: 2, generated_by: "Devin; al-Raheeq al-Makhtum pp. 319–321" }
+provenance:
+  layer: own-research
+  source: "source/mubarakpuri-raheeq"
+  generated_by: Devin
+  model: "unknown"
+  run: "education-E3-facts-batch11"

@@ -1,4 +1,10 @@
 id: person/abd-al-rahman-ibn-awf
+education:
+  did_you_know:
+    ar: "عبد الرحمن بن عوف أحد الثمانية الرعيل الأول؛ أسلم بدعوة أبي بكر الصديق في سنوات الدعوة السرية بمكة."
+    en: "Abd al-Rahman ibn Awf is one of the eight of the first rank; he entered Islam at Abu Bakr al-Siddiq's call in the secret years of the mission at Mecca."
+    ur: "عبدالرحمن بن عوف آٹھ اولین سابقین میں سے ہیں؛ انہوں نے مکہ میں دعوت کے پوشیدہ زمانے میں ابوبکر صدیق کی دعوت پر اسلام قبول کیا۔"
+    sources: [source/tabaqat-ibn-sad, source/mubarakpuri-raheeq]
 class: person
 label: { en: "Abd al-Rahman ibn Awf", ar: "عبد الرحمن بن عوف" }
 names:
@@ -24,3 +30,9 @@ relations:
 external_ids: { wikidata: "Q1647771" }
 sources: [source/mubarakpuri-raheeq, source/ibn-hisham-sira, source/ibn-hisham-saqqa]
 status: { review: draft, completeness: 2, generated_by: "Devin; al-Raheeq al-Makhtum pp. 75-76" }
+provenance:
+  layer: own-research
+  source: "source/tabaqat-ibn-sad"
+  generated_by: Devin
+  model: "unknown"
+  run: "education-E3-facts-batch11"

@@ -1,4 +1,10 @@
 id: person/abdullah-ibn-salam
+education:
+  did_you_know:
+    ar: "عبد الله بن سلام حبر من بني قينقاع اختبر النبي فشهد بصدقه وأسلم، فصار أشهر من أسلم من يهود المدينة، ويعدّه التراث السني من المبشرين بالجنة."
+    en: "Abd Allah ibn Salam, a learned rabbi of Banu Qaynuqa', tested the Prophet, bore witness to his truth and entered Islam — the most famous Jewish convert of Medina, counted by Sunni tradition among those promised Paradise."
+    ur: "عبداللہ بن سلام، بنو قینقاع کا عالمِ کتاب، نے نبی کی آزمائش کی اور مسلمان ہوا — مدینہ کے مشہور ترین یہودی نو مسلم، جسے سنی روایت جنت کی بشارت پانے والوں میں گنتی ہے۔"
+    sources: [source/sahih-al-bukhari, source/tabaqat-ibn-sad]
 class: person
 label: { en: "Abdullah ibn Salam", ar: "عبد الله بن سلام" }
 names:
@@ -43,3 +49,9 @@ perspectives:
 external_ids: { wikidata: "Q307686" }
 sources: [source/ibn-sad-tabaqat-bewley, source/ibn-ishaq-guillaume, source/watt-1956-medina, source/sahih-al-bukhari]
 status: { review: draft, completeness: 2, generated_by: "Devin; 2026-10-11" }
+provenance:
+  layer: own-research
+  source: "source/sahih-al-bukhari"
+  generated_by: Devin
+  model: "unknown"
+  run: "education-E3-facts-batch11"
