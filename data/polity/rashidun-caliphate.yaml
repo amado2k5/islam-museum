@@ -43,6 +43,11 @@ provenance:
   model: claude-sonnet-5-5
   run: polity-wikidata-1
 education:
+  did_you_know:
+    ar: "الخلافة الراشدة من سنة ٦٣٢م إلى ٦٦١م، وكانت عاصمتها الكوفة ثم المدينة المنورة."
+    en: "The Rashidun Caliphate ran from 632 to 661 CE, its capital at Kufa then Medina."
+    ur: "راشدہ خلافت 632ء سے 661ء تک رہی اور اس کا دارالحکومت کوفہ پھر مدینہ تھا۔"
+    sources: [source/wikidata, source/encyclopaedia-of-islam-2]
   levels: [sprouts, explorers, scholars]
   flagged_for_kids: true
   provenance: { generated_by: "Claude Code", model: "Claude Haiku 5.5 (claude-haiku-5-5)", run: "education-E2-batch1", note: "Leveled texts drafted from the record's own summary; draft, pending the founder's review and scholar review of the child levels." }

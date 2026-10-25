@@ -12,7 +12,18 @@ coordinate_precision: site
 external_ids: { wikidata: "Q9427", geonames: "2449067" }
 sources: [source/geonames-gazetteer]
 education:
+  did_you_know:
+    ar: "تمبكتو على أطراف الصحراء في مالي كانت مركزاً للعلم الإسلامي في العصور الوسطى، وفيها جامع سانكوري وجامع جينغاريبر."
+    en: "Timbuktu on Mali's desert edge was a medieval centre of Islamic learning, home to the Sankore and Djinguereber mosques."
+    ur: "مالی میں صحرا کے کنارے آباد تمبکٹو قرونِ وسطیٰ میں علمِ اسلام کا مرکز تھا، جہاں سنکورے اور جینگریبر کی مساجد ہیں۔"
+    sources: [source/geonames-gazetteer, source/hodgson-1974]
   levels: [sprouts, explorers, scholars]
   flagged_for_kids: true
   provenance: { generated_by: "Devin", model: "gemini-2.5-pro", run: "education-E2-batch2", note: "Leveled texts drafted from the record's own summary and prose; draft, pending the founder's review and scholar review of the child levels." }
 status: { review: draft, completeness: 1, generated_by: "Claude Sonnet 5.5; coordinates from GeoNames; Arabic summary to be checked against reference works" }
+provenance:
+  layer: own-research
+  source: "education fact engine batch 3 — did_you_know fact drafted in three languages from the record's own cited sources"
+  generated_by: Devin
+  model: "unknown"
+  run: "education-E3-facts-batch3"

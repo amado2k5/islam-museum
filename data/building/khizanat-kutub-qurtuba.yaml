@@ -17,6 +17,11 @@ provenance:
   run: lib-nafh-tib-batch-63
 sources: [source/nafh-tib-maqqari]
 education:
+  did_you_know:
+    ar: "خزانة كتب الحكم المستنصر بقرطبة بلغت أربعاً وأربعين فهرسة في كل فهرسة عشرون ورقة أسماء دواوين فقط."
+    en: "Al-Hakam al-Mustansir's library in Cordoba ran to forty-four catalogues of twenty leaves each — titles of works only."
+    ur: "حکم مستنصر کا قرطبہ کا کتب خانہ چوالیس فہرستوں تک پہنچا، ہر فہرست میں بیس ورق صرف کتب کے ناموں پر مشتمل۔"
+    sources: [source/nafh-tib-maqqari, source/duha-islam]
   levels: [sprouts, explorers, scholars]
   flagged_for_kids: true
   provenance: { generated_by: "Devin", model: "gemini-2.5-pro", run: "education-E2-batch3", note: "Leveled texts drafted from the record's own summary and prose; draft, pending the founder's review and scholar review of the child levels." }

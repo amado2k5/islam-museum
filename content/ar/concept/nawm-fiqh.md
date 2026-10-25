@@ -25,3 +25,7 @@ translators: []
 
 ## الجناية وإتلاف المال
 فعل النائم في الجناية يُعتبر خطأً، فتجب الدية على العاقلة والكفارة على النائم، وفي إتلاف المال يضمن النائم كالمستيقظ. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.16675} {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.16676}
+
+## النوم في درس الشيخ عمر عبد الكافي (الحلقات الأولى والثانية والتاسعة والعاشرة)
+يعد الشيخ النوم من النعم، ويقول إن الإسراف في المباحات يضر الإنسان، ويحذر من الغلو في الدين (رأيه). {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep01 00:40:30} {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep01 00:41:00} ويقول إن الإنسان إذا نعس في الصلاة فلينم حتى يذهب عنه النوم، لأنه قد يدعو على نفسه وهو لا يشعر (needs_source). {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep01 01:09:00}
+ويذكر أن النوم قبل منتصف الليل أنفع من النوم بعده، وينسب ذلك إلى أهل العلم دون تحقق (needs_source). {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep01 01:10:00} ويذكر أن للنوم صلة بهرمون النمو، وهي دعوى لم تُتحقق (needs_source). {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep01 01:10:30} ويحث على النوم المبكر، ويرى أن السهر يضيع الصحة (رأيه). {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep02 00:48:30}

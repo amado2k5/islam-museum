@@ -1,27 +1,20 @@
 ---
 // The Hijri-primary timeline (Part 3, C.2): one SVG, 1 BH-side to the current year, era bands beneath, one marker per Hijri year,
 // a draggable playhead with a dual-date readout, and a هجري/ميلادي toggle for the axis labels. Rendered at build time so it
-// reads without JavaScript; the browser script adds the cards, the drag and the era zoom from the same embedded data.
+// reads without JavaScript. The browser script loads the full event data from /timeline-data/<lang>.json (progressive
+// enhancement only). The page draws a capped set of markers so it stays within its weight budget; every event is listed
+// without JavaScript on /<lang>/timeline/events/.
 import { ui, type Lang } from "../lib/i18n";
-import { ERA } from "../lib/dates";
-import { buildDay } from "../lib/today";
-import { ceTicks, timelineEvents, timelinePeriods } from "../lib/timeline";
-import { layoutBands, layoutMarkers, W, xOf, yearLabel } from "../lib/timeline-layout";
+import { timelineModel } from "../lib/timeline-model";
+import { ceTicks } from "../lib/timeline";
+import { W, xOf, yearLabel } from "../lib/timeline-layout";
 const { lang } = Astro.props as { lang: Lang };
 const T = ui(lang);
-const rtl = T.dir === "rtl";
-const MAX = buildDay().h.y;
-const FLOOR = -150; // earlier events (the patriarchs) gather at the edge marker rather than stretching the axis by millennia
-const all = timelineEvents(lang);
-const early = all.filter((e) => e.y < FLOOR);
-const events = all.filter((e) => e.y >= FLOOR).map((e) => (e.y > MAX ? { ...e, y: MAX } : e));
-const MIN = Math.min(FLOOR, Math.floor(Math.min(...events.map((e) => e.y)) / 50) * 50);
-const markers = layoutMarkers(events, MIN, MAX, rtl);
-if (early.length) markers.push({ y: MIN, x: xOf(MIN, MIN, MAX, rtl), lane: Math.max(...markers.map((m) => m.lane)) + 1, r: 5, items: early });
-const bands = layoutBands(timelinePeriods(lang, MAX), MIN, MAX, rtl);
-// Build assertion (spec C.2): every marker and band edge lies on the rendered axis.
-for (const m of markers) if (m.x < 0 || m.x > W) throw new Error(`timeline: marker for year ${m.y} falls off the axis (${m.x})`);
-for (const b of bands) if (b.x0 < 0 || b.x1 > W) throw new Error(`timeline: band ${b.id} falls off the axis`);
+const model = timelineModel(lang);
+const { MIN, MAX, FLOOR, rtl, bands, early } = model;
+const SHOWN = 120; // markers drawn in the page; the rest are on the events list
+const step = Math.max(1, Math.ceil(model.markers.length / SHOWN));
+const markers = model.markers.filter((_, i) => i % step === 0);
 const lanes = Math.max(...markers.map((m) => m.lane)) + 1;
 const rows = Math.max(...bands.map((b) => b.row)) + 1;
 const LANE = 9, TOP = 12, BAND = 16;
@@ -31,10 +24,12 @@ const hTicks: number[] = [1];
 for (let y = 100; y < MAX; y += 100) hTicks.push(y);
 hTicks.push(MAX);
 const gTicks = ceTicks(MIN, MAX);
-const payload = { lang, rtl, min: MIN, max: MAX, events, bands: bands.map(({ id, href, label, from, to }) => ({ id, href, label, from, to })), early: early.length, t: { ah: ERA[lang].ah, bh: ERA[lang].bh, ce: ERA[lang].ce, year: T.timeline.year, events: T.timeline.events_in, before: T.timeline.before, close: T.timeline.close, all: T.timeline.all } };
+// Build assertion (spec C.2): every marker and band edge lies on the rendered axis.
+for (const m of markers) if (m.x < 0 || m.x > W) throw new Error(`timeline: marker for year ${m.y} falls off the axis (${m.x})`);
+for (const b of bands) if (b.x0 < 0 || b.x1 > W) throw new Error(`timeline: band ${b.id} falls off the axis`);
 const dual = (y: number) => `${yearLabel(Math.floor(y), lang)}`;
 ---
-<section class="tl ui" data-timeline data-cal="h" aria-labelledby="tl-title">
+<section class="tl ui" data-timeline data-cal="h" data-src={`/timeline-data/${lang}.json`} aria-labelledby="tl-title">
   <div class="tl-head">
     <h2 id="tl-title" style="margin:0;font-size:1.3rem">{T.timeline.title}</h2>
     <div class="tl-tools">
@@ -79,6 +74,6 @@ const dual = (y: number) => `${yearLabel(Math.floor(y), lang)}`;
     <div class="tl-card" data-card hidden></div>
   </div>
   <p class="muted" style="font-size:.85rem;margin:.6rem 0 0">{T.timeline.note}</p>
-  <script type="application/json" set:html={JSON.stringify(payload)} />
+  <p style="margin:.4rem 0 0"><a href={`/${lang}/timeline/events/`}>{T.timeline.all_events_link}</a></p>
 </section>
 <script src="../scripts/timeline.ts"></script>

@@ -24,3 +24,6 @@ translators: ["Claude Haiku 5.5 (claude-haiku-5-5), draft translation"]
 
 ## حوالہ
 تطهر اور تطهیر طہارت کے مدخل کی طرف ہیں اور ان کا علیحدہ مدخل نہیں۔ {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.5310}
+
+## شیخ عمر عبدالکافی کے درسوں میں ناپ تول میں کمی (قسط دو)
+شیخ دو تاجروں کا واقعہ بیان کرتے ہیں جن میں سے ایک نے دوسرے کو تول میں دھوکا دیتے دیکھا، اور وہ خریدار اور خریدار کے درمیان ترازو میں دھوکے کا ذکر کرتے ہیں (needs_source)۔ {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep02 00:12:00} {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep02 00:12:30} وہ کہتے ہیں کہ جو بازاروں میں بغیر حساب پھل چکھتا ہے اسے اپنا محاسبہ کرنا چاہیے، اور چھوٹی چیزوں میں خیانت خوف کا سبب ہے (شیخ کی رائے)۔ {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep02 00:13:00} وہ کہتے ہیں کہ چھوٹا گناہ کرنے والے کو اس کا عذر نہیں ملتا (شیخ کی رائے)۔ {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep02 00:13:30}

@@ -15,3 +15,11 @@ translators: ["Claude Haiku 5.5 (claude-haiku-5-5), draft translation"]
 
 ## چھوٹے قارئین کے لیے
 ابتدائی مسلمان اذیت پر صبر کرتے تھے کیونکہ وہ اللہ پر ایمان رکھتے تھے، نبی سے محبت کرتے تھے، اور جانتے تھے کہ آخرت بہتر ہے۔
+
+## شیخ عمر عبدالکافی کے درسوں میں صبر (قسط پانچ)
+شیخ کہتے ہیں کہ صبر ایمان کے پہلے حصے کا پہلا درجہ ہے، اور مومن کی پہلی آزمائش مصیبت پر صبر ہے۔ {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep05 00:20:00} ان کے نزدیک مومن کو اس پر خوش ہونا چاہیے کہ وہ اب بھی ثابت قدم ہے، اور آزمائش مال یا صحت میں آتی ہے۔ {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep05 00:20:30}
+وہ کہتے ہیں کہ صبر فطری نہیں بلکہ مشق سے حاصل ہوتا ہے۔ {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep05 00:49:30} ان کے مطابق صبر بے چینی کو دور کرتا ہے اور کمزوری کے احساس کا علاج ہے۔ {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep05 00:50:00}
+وہ کہتے ہیں کہ جو آزمائش میں صبر کرے وہ بلند ہوتا ہے، اور مصیبتیں مومن کو اسی طرح پاک کرتی ہیں جیسے آگ سونے کو، کہ کھوٹ اوپر آ کر الگ ہو جاتا ہے۔ {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep05 00:30:00} {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep05 00:30:30} وہ تیل اور پانی کی ایک مثال ابن الجوزی سے منسوب کرتے ہیں، جو ریکارڈنگ میں تصدیق نہیں ہو سکی (needs_source)۔ {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep05 00:31:00}
+وہ کہتے ہیں کہ مریضوں کی عیادت آزمائش کو ہلکا کرتی ہے، کیونکہ مبتلا لوگ بہت ہیں۔ {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep05 00:25:30} وہ روایت کرتے ہیں کہ جو مصیبت میں کلمۂ استرجاع کہے اسے اس کے رب کی طرف سے برکت ملتی ہے (needs_source)۔ {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep05 00:29:30}
+وہ الأحنف بن قيس کا واقعہ بیان کرتے ہیں جب ان کے بھتیجے نے ان کے بیٹے کو قتل کیا: وہ خاموش رہے، پھر معاف کیا، پھر دیت اپنے مال سے ادا کی، اور اسے غصے پر صبر کی مثال قرار دیتے ہیں (needs_source)۔ {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep05 00:50:30} {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep05 00:51:30}
+وہ غصے کے وقت ایک عملی مشق بتاتے ہیں: اللہ کی پناہ مانگنا، غصے کا خط لکھ کر محفوظ رکھنا، اور ایک دن بعد اسے دوبارہ پڑھنا؛ ان کے نزدیک اس سے غصہ ٹھنڈا ہوتا ہے (شیخ کی رائے)۔ {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep05 00:54:00} {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep05 00:55:00}

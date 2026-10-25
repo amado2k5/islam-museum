@@ -25,3 +25,7 @@ The sleeper's words in legal acts are void: his consecration, divorce and admiss
 
 ## Injury and destruction of property
 An injury by a sleeper is treated as an error: the diya falls on his kin and expiation on him; in destruction of property he is liable like one who is awake. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.16675} {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.16676}
+
+## Sleep in Sheikh Omar Abdelkafy's lessons (episodes 1, 2, 9 and 10)
+The Sheikh counts sleep among the blessings, says excess in permissible things harms a person, and warns against exaggeration in religion (his view). {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep01 00:40:30} {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep01 00:41:00} He says that if a person dozes in prayer he should sleep until the drowsiness passes, since he may curse himself without noticing (needs_source). {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep01 01:09:00}
+He says that sleep before midnight is more beneficial than sleep after it, attributing this to scholars without verification (needs_source). {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep01 01:10:00} He says sleep is linked to growth hormone, a claim that could not be checked (needs_source). {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep01 01:10:30} He urges early sleep, holding that staying up late wastes health (his view). {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep02 00:48:30}
