@@ -41,6 +41,15 @@ if (process.argv[1] && fileURLToPath(import.meta.url) === process.argv[1]) {
     const slug = f.replace(/.*\/pathway-/, "").replace(/\.yaml$/, "");
     for (const lang of ["ar", "en", "ur"]) if (!sitemap.includes(`/${lang}/learn/teachers/pathways/${slug}/`)) errors.push(`sitemap: /${lang}/learn/teachers/pathways/${slug}/ is missing`);
   }
+  // the teen 60-second pages (E4): every topic's route is in the sitemap in the three languages and
+  // its page carries a schema.org Course JSON-LD block
+  const topicIds = (readFileSync(p("edu", "topics-50.yaml"), "utf8").match(/^- id: ([a-z0-9-]+)/gm) ?? []).map((m) => m.replace("- id: ", ""));
+  for (const lang of ["ar", "en", "ur"]) for (const id of topicIds) {
+    if (!sitemap.includes(`/${lang}/shabab/60s/${id}/`)) errors.push(`sitemap: /${lang}/shabab/60s/${id}/ is missing`);
+    const f = p("dist", lang, "shabab", "60s", id, "index.html");
+    if (!existsSync(f)) { errors.push(`missing page: ${lang}/shabab/60s/${id}/index.html`); continue; }
+    if (!readFileSync(f, "utf8").includes('"@type":"Course"')) errors.push(`${lang}/shabab/60s/${id}/ has no Course JSON-LD`);
+  }
   // the offline teacher packs (E3 step 5): one self-contained file per pack and language — it exists,
   // is at most 2 MB, and carries no <script src and no absolute http(s) URL (an xmlns is a namespace,
   // not a fetch), so it opens from file:// with no internet

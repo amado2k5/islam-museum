@@ -5,7 +5,7 @@
 import { readFileSync } from "node:fs";
 import { parse } from "yaml";
 import { repoPath } from "./paths";
-import { byId } from "./graph";
+import { byId, SITE } from "./graph";
 import type { Tri } from "./edu";
 
 export interface TopicOption { text: Tri; correct: boolean; why: Tri }
@@ -52,4 +52,23 @@ export function loadTopics(): Topic[] {
   }
   cache = topics;
   return topics;
+}
+
+/** schema.org Course for one taught topic's 60-second page (E4 close-out: the teen wing is a
+ * course family; the sitemap carries these routes already via @astrojs/sitemap). */
+export function courseLd(t: Topic, lang: (typeof LANGS)[number]) {
+  const url = `${SITE}/${lang}/shabab/60s/${t.id}/`;
+  return {
+    "@context": "https://schema.org",
+    "@type": "Course",
+    "@id": url,
+    url,
+    name: t.title[lang],
+    description: t.sixty[lang],
+    inLanguage: lang,
+    isAccessibleForFree: true,
+    license: "https://creativecommons.org/licenses/by-sa/4.0/",
+    provider: { "@type": "Organization", name: "islam.museum", url: SITE },
+    isPartOf: { "@type": "WebSite", name: "islam.museum", url: SITE },
+  };
 }
