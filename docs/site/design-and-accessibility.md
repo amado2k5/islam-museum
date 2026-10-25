@@ -65,3 +65,16 @@ The theme toggle's accessible name names the action: "تبديل الوضع ال
 ## Visual anchors
 
 Cards are text-first. Do not add decorative images to every card. A future motif should be abstract, built from the existing geometric pattern, and should not mean generating thousands of images.
+
+## The accessibility statement
+
+The public statement is `/[lang]/accessibility/` (`site/src/pages/[lang]/accessibility/index.astro`, texts in `i18n/*.yaml` under `accessibility:`, linked from the footer fine line on every page). It follows the European Commission's model accessibility statement: conformance status (WCAG 2.2 AA target, partially conformant, self-assessed until a third-party audit runs), the standards and laws we follow (CRPD, Marrakesh Treaty, ADA and Section 508, ACA and CAN/ASC-EN 301 549, AODA, EAA and EN 301 549, UK Equality Act), a per-visitor-group description, known limitations, the feedback route (`discover@islam.museum` and the `accessibility.yml` issue template, five-working-day reply), alternative formats, enforcement routes and how the statement was prepared.
+
+Rules for contributors:
+
+- **Keep the statement true.** A feature listed on it must exist; a limitation removed from the page must be removed from the statement in the same commit. Change the `updated` date with any content change.
+- **No overlay.** Never add a third-party accessibility toolbar, overlay or widget: it breaks the no-script/no-network rule and does not make the site conformant.
+- **Every `<audio>` and `<video>`** must have a `<track kind="captions">` and/or a visible linked transcript on the page; a media alternative for text (like the kids' story narrations) must say so in its `<figcaption>` and be linked to the player with `aria-describedby`. Audio never autoplays.
+- **Media alt text is per language.** Templates use `alt[lang] ?? alt.ar`; never render `alt.ar` on `/en/` or `/ur/` pages. The art gallery's English and Urdu alt text is filled in `site/src/data/architecture-art.json`.
+- **Braille and sign language.** The site does not render braille; screen readers relay text to braille displays — keep `lang` correct on every page and every foreign-language run. Sign-language videos, braille-ready (BRF) and EPUB downloads, and an easy-read level are in the accessibility megaplan, not yet built.
+- **Claims:** schema.org `accessibilityFeature`/`accessibilityHazard`/`accessMode`/`accessibilitySummary` metadata is the approved plan (megaplan A6); add it to `BaseLayout.astro` JSON-LD only after the listed features exist.
