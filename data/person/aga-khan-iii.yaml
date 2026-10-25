@@ -1,0 +1,48 @@
+id: person/aga-khan-iii
+class: person
+label: { ar: "آغا خان الثالث", en: "Aga Khan III", ur: "آغا خان سوم" }
+names:
+  - { value: "سلطان محمد شاه", kind: full }
+  - { value: "Sultan Muhammad Shah", kind: full }
+  - { value: "Sultan Mahomed Shah", kind: alternate }
+  - { value: "Sultan Mohammed Shah", kind: alternate }
+  - { value: "Aga Khan III", kind: laqab }
+gender: male
+summary:
+  ar: "السلطان محمد شاه (1877-1957)، الإمام الثامن والأربعون للنزارية الإسماعيلية منذ سنة 1885 حين خلف والده وهو في السابعة، فامتدت إمامته 72 سنة. وُلد في كراتشي وتلقى تعليما إسلاميا وغربيا وقضى مدة في إيتون وكامبريدج. قاد وفد مسلمي الهند إلى نائب الملك سنة 1906، وكان من مؤسسي الرابطة الإسلامية لعموم الهند وأول رئيس دائم لها، ودفع باتجاه جامعة عليكره، ومثّل الهند في عصبة الأمم ورأس جمعيتها (1937-1938). أصلح مؤسسات جماعته وأصدر دساتير إسماعيلية ودعا إلى تعليم المرأة والإصلاح الاجتماعي، وعُرف أيضا بملكيته لخيول السباق الأصيلة."
+  en: "Sultan Muhammad Shah (1877–1957), 48th Imam of the Nizari Ismailis from 1885, when he succeeded his father at the age of seven, in an imamate that lasted 72 years. Born in Karachi, he received both an Islamic and a Western education, including Eton and Cambridge. He headed the 1906 Muslim deputation to the Viceroy, was a founder and the first permanent president of the All-India Muslim League, campaigned for Aligarh Muslim University, represented India at the League of Nations and presided over its Assembly (1937–1938). He reformed his community's institutions, promulgated Ismaili constitutions, and campaigned for women's education and social reform; he was also a noted owner and breeder of Thoroughbred racehorses."
+  ur: "سلطان محمد شاہ (1877ء–1957ء)، نزاری اسماعیلیوں کے اڑتالیسویں امام، جو 1885ء میں سات سال کی عمر میں اپنے والد کے جانشین بنے اور جن کی امامت 72 سال جاری رہی۔ کراچی میں پیدا ہوئے، اسلامی اور مغربی دونوں تعلیم حاصل کی، ایٹن اور کیمبرج میں بھی پڑھے۔ 1906ء میں وائسرائے کے پاس مسلم وفد کی قیادت کی، آل انڈیا مسلم لیگ کے بانیوں اور اس کے پہلے مستقل صدر رہے، علی گڑھ مسلم یونیورسٹی کے قیام کی کوشش کی، جمعیت اقوام میں ہندوستان کی نمائندگی کی اور اس کی اسمبلی کی صدارت کی (1937ء–1938ء)۔ انہوں نے اپنی جماعت کے ادارے اصلاح کیے، اسماعیلی آئین جاری کیے اور خواتین کی تعلیم اور سماجی اصلاح کی دعوت دی؛ وہ اصیل نسل کے گھوڑوں کے مشہور مالک بھی تھے۔"
+roles: [politician, patron]
+wings: [people]
+born:
+  edtf: "1877-11-02"
+  hijri: "1294"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "Born at Karachi on 2 November 1877: Britannica and the English article agree. The Hijri year (1294) is derived by tabular conversion (2 November 1877 falls in Dhu al-Qa'da 1294). Karachi has no place entity in the museum yet, so no born_in relation is written."
+  sources: [source/britannica-aga-khan-iii, source/wikipedia-aga-khan-iii-en]
+died:
+  edtf: "1957-07-11"
+  hijri: "1376"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "Died at Versoix, near Geneva in Switzerland, on 11 July 1957: Britannica and the English article agree. The Hijri year (1376) is derived by tabular conversion (11 July 1957 falls in Dhu al-Hijja 1376). Versoix has no place entity in the museum yet, so no died_in relation is written; his burial at Aswan is written as a relation because that place entity exists."
+  sources: [source/britannica-aga-khan-iii, source/wikipedia-aga-khan-iii-en]
+relations:
+  - { type: buried_in, target: place/aswan, sources: [source/wikipedia-aga-khan-iii-en] }
+faith:
+  - value: shia-ismaili
+    basis: documented
+    note: "Recorded on two independent sources that each attest his tradition directly. (1) Britannica: he succeeded his father in 1885 as imam (leader) of the Nizari Ismaili sect. (2) The English article: he was the 48th imam of the Nizari Ismaili branch of Shia Islam, and its infobox gives his denomination as Isma'ilism and his school as Nizari Ismaili; the article also quotes his own 1905 statement in the Haji Bibi case describing his followers as Shi'i Imami Ismailis. The enum value shia-ismaili is the museum's value for the Nizari Ismaili tradition he headed; no mapping beyond what the sources state is made. His father Aga Khan II has no record in the museum yet, so the child_of and successor_of edges to him are not written and are flagged in the run report."
+    sources: [source/britannica-aga-khan-iii, source/wikipedia-aga-khan-iii-en]
+sources: [source/wikipedia-aga-khan-iii-en, source/britannica-aga-khan-iii]
+provenance:
+  layer: own-research
+  source: "English Wikipedia 'Aga Khan III', read in full on 25 October 2026; Encyclopaedia Britannica, 'Aga Khan III' (Britannica Editors), read on 25 October 2026. No Wikidata identifier was verified in this run, so none is recorded."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: century-additions-19
+status: { review: published, completeness: 3, generated_by: "Muse (Muse Spark 1.3)" }

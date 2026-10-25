@@ -1,0 +1,48 @@
+id: person/said-bin-sultan
+class: person
+label: { ar: "سعيد بن سلطان البوسعيدي", en: "Said bin Sultan", ur: "سعید بن سلطان" }
+names:
+  - { value: "سعيد بن سلطان بن أحمد بن سعيد البوسعيدي", kind: full }
+  - { value: "Said bin Sultan bin Ahmad bin Said al-Busaidi", kind: full }
+  - { value: "Sayyid Said bin Sultan", kind: alternate }
+  - { value: "أسد عُمان", kind: laqab }
+gender: male
+summary:
+  ar: "سعيد بن سلطان البوسعيدي (1791-1856)، خامس حكام أسرة آل بوسعيد وسلطان مسقط وعُمان وزنجبار. خلف والده سنة 1804 مع أخيه سالم، وصار الحاكم الفعلي منفردا بعد مقتل ابن عمه بدر بن سيف سنة 1806. بنى أسطولا وقوة تجارية بحرية، وبسط سلطانه على ساحل شرق أفريقيا، ونقل عاصمته من مسقط إلى زنجبار في ثلاثينيات القرن التاسع عشر، فصارت زنجبار في عهده المركز التجاري الأول في غرب المحيط الهندي وميناء القرنفل والعاج والرقيق، وعقد معاهدات مع بريطانيا وفرنسا والولايات المتحدة. توفي في البحر قرب سيشل، وقُسمت ممتلكاته بوصيته بين ابنيه ماجد وثويني فانفصلت زنجبار عن عُمان."
+  en: "Said bin Sultan al-Busaidi (1791–1856), fifth ruler of the Al Bu Said dynasty and Sultan of Muscat, Oman and Zanzibar. He succeeded his father in 1804 jointly with his brother Salim and became effective sole ruler after the killing of his cousin Badr bin Saif in 1806. He built a fleet and a maritime commercial power, extended his rule over the East African coast, and moved his capital from Muscat to Zanzibar in the 1830s, making Zanzibar under him the leading commercial centre of the western Indian Ocean for cloves, ivory and slaves, and concluded treaties with Britain, France and the United States. He died at sea near the Seychelles, and his will divided his dominions between his sons Majid and Thuwaini, separating Zanzibar from Oman."
+  ur: "سعید بن سلطان البوسعیدی (1791ء–1856ء)، آل بوسعید خاندان کے پانچویں حکمران اور مسقط، عمان اور زنجبار کے سلطان۔ 1804ء میں اپنے والد کے بعد بھائی سالم کے ساتھ جانشین بنے اور 1806ء میں چچا زاد بدر بن سیف کے قتل کے بعد عملاً تنہا حکمران بن گئے۔ انہوں نے بحری بیڑا اور تجارتی طاقت بنائی، مشرقی افریقا کے ساحل پر اپنا اقتدار پھیلایا اور 1830ء کی دہائی میں دارالحکومت مسقط سے زنجبار منتقل کر دیا، جس سے زنجبار لونگ، ہاتھی دانت اور غلاموں کی تجارت کا بڑا مرکز بن گیا، اور برطانیہ، فرانس اور امریکا سے معاہدے کیے۔ سیشلز کے قریب سمندر میں وفات پائی اور ان کی وصیت سے ان کے بیٹوں ماجد اور ثوینی کے درمیان مملکت تقسیم ہو گئی۔"
+roles: [sultan]
+wings: [people]
+born:
+  edtf: "1791-06-05"
+  hijri: "1205"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "Born on 5 June 1791: the English article gives the day and the place Samail in Oman; Britannica gives only the year 1791 and Oman. The Hijri year (1205) is derived by tabular conversion (5 June 1791 falls in Shawwal 1205). Samail has no place entity in the museum yet, so no born_in relation is written."
+  sources: [source/wikipedia-said-bin-sultan-en, source/britannica-said-ibn-sultan]
+died:
+  edtf: "1856-10-19"
+  hijri: "1273"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "Died on 19 October 1856: the English article and Britannica agree on the date. Britannica says he died at sea; the English article's infobox gives the place as the Seychelles, off which his ship was sailing, and records his burial in the Makusurani Cemetery at Zanzibar. The Hijri year (1273) is derived by tabular conversion (19 October 1856 falls in Safar 1273). No died_in relation is written, the death having occurred at sea."
+  sources: [source/wikipedia-said-bin-sultan-en, source/britannica-said-ibn-sultan]
+relations:
+  - { type: lived_in, target: place/muscat, sources: [source/wikipedia-said-bin-sultan-en, source/britannica-said-ibn-sultan] }
+  - { type: lived_in, target: place/zanzibar, sources: [source/wikipedia-said-bin-sultan-en, source/britannica-said-ibn-sultan] }
+faith:
+  - value: ibadi
+    basis: documented
+    note: "Attested of Said personally by two independent sources. (1) Britannica states in its own voice: 'Saʿīd belonged to the Ibāḍī sect of Islām, which, if puritanical, is notably tolerant of others', and adds that a majority of his subjects were Sunni Muslims, for whom he appointed a special judge. (2) The English article's infobox gives his religion as Ibadi Islam. This is a personal attestation in both sources, not merely the tradition of his house, though the house's Ibadi tradition is separately attested in the Al Bu Said dynasty and Ibadism articles cited in his son Ali's record."
+    sources: [source/britannica-said-ibn-sultan, source/wikipedia-said-bin-sultan-en]
+sources: [source/wikipedia-said-bin-sultan-en, source/britannica-said-ibn-sultan]
+provenance:
+  layer: own-research
+  source: "English Wikipedia 'Said bin Sultan' (source entity registered in century-additions-7, revision of 9 October 2026); Encyclopaedia Britannica, 'Saʿīd ibn Sulṭān' by G. S. P. Freeman-Grenville, read in full on 25 October 2026. The reign is dated 1804 in the English article (succession) and 1806 in Britannica (effective sole rule after Badr's killing); both datings are stated in the prose. No Wikidata identifier was verified in this run, so none is recorded."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: century-additions-19
+status: { review: published, completeness: 3, generated_by: "Muse (Muse Spark 1.3)" }

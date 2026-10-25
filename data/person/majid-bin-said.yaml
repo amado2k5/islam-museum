@@ -1,0 +1,49 @@
+id: person/majid-bin-said
+class: person
+label: { ar: "ماجد بن سعيد البوسعيدي", en: "Majid bin Said", ur: "ماجد بن سعید" }
+names:
+  - { value: "ماجد بن سعيد البوسعيدي", kind: full }
+  - { value: "Sayyid Majid bin Said al-Busaidi", kind: full }
+  - { value: "Majid bin Said al-Busaid", kind: alternate }
+gender: male
+summary:
+  ar: "ماجد بن سعيد البوسعيدي (نحو 1834-1870)، أول سلاطين زنجبار. وُلد في أونغوجا بزنجبار، وهو ابن سعيد بن سلطان من جاريته الشركسية سارة، وكان نائبا لوالده في زنجبار قبل وفاته. خلف والده عند وفاته سنة 1856 فاعترض أخوه الأكبر ثويني من مسقط على خلافته، وانتهى النزاع بحكم كانينغ سنة 1861 الذي قسّم الممتلكات نهائيا: زنجبار وشرق أفريقيا لماجد، ومسقط وعُمان لثويني، مقابل أن تدفع زنجبار إعانة سنوية لمسقط. ثار عليه أخوه برغش سنة 1859 ففشل ونُفي إلى بومباي سنتين. ازدهرت في عهده ثروة زنجبار وتجارتها، وأسّس دار السلام على الساحل، وتوفي في زنجبار سنة 1870 فخلفه برغش."
+  en: "Majid bin Said al-Busaidi (c. 1834–1870), first Sultan of Zanzibar. Born on Unguja, Zanzibar, a son of Said bin Sultan by his Circassian consort Sarah, he was his father's governor and regent in Zanzibar before Said's death. He succeeded his father in 1856, his elder brother Thuwaini at Muscat contested the succession, and the dispute ended with the Canning Award of 1861, which divided the dominions permanently: Zanzibar and East Africa to Majid, Muscat and Oman to Thuwaini, with Zanzibar paying an annual subsidy to Muscat. His brother Barghash rebelled in 1859, failed, and was exiled to Bombay for two years. Zanzibar's wealth and trade grew in his reign, he founded Dar es Salaam on the mainland coast, and he died at Zanzibar in 1870 and was succeeded by Barghash."
+  ur: "ماجد بن سعید البوسعیدی (تقریباً 1834ء–1870ء)، زنجبار کے پہلے سلطان۔ اونگوجا، زنجبار میں پیدا ہوئے، سعید بن سلطان کے بیٹے تھے، اور والد کی زندگی ہی میں زنجبار میں ان کے نائب رہے۔ 1856ء میں والد کے جانشین بنے تو مسقط سے ان کے بڑے بھائی ثوینی نے جانشینی پر اعتراض کیا، اور یہ تنازع 1861ء کے کیننگ فیصلے پر ختم ہوا جس سے مملکت مستقل تقسیم ہو گئی: زنجبار اور مشرقی افریقا ماجد کو اور مسقط و عمان ثوینی کو ملے۔ ان کے بھائی برغش نے 1859ء میں بغاوت کی، ناکام ہوئے اور دو سال بمبئی جلا وطن رہے۔ ان کے دور میں زنجبار کی دولت اور تجارت بڑھی، انہوں نے ساحل پر دار السلام کی بنیاد رکھی، اور 1870ء میں زنجبار میں وفات پائی، ان کے بعد برغش سلطان بنے۔"
+roles: [sultan]
+wings: [people]
+born:
+  edtf: "1834"
+  hijri: "1250"
+  calendar: gregorian
+  precision: year
+  status: historical
+  derived: true
+  note: "Born circa 1834 on Unguja, Zanzibar: the English article, citing Nicolini (2009) for his parentage (son of Said bin Sultan and Sarah, a Circassian); one genealogical listing gives 1834/5. No source gives a day or month. The Hijri year (1250) is derived by tabular conversion of mid-1834."
+  sources: [source/wikipedia-majid-bin-said-en]
+died:
+  edtf: "1870-10-07"
+  hijri: "1287"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "Died at Zanzibar on 7 October 1870, at the close of his reign (19 October 1856 – 7 October 1870), and was buried in the Makusurani Cemetery: the English article. The Hijri year (1287) is derived by tabular conversion (7 October 1870 falls in Rajab 1287)."
+  sources: [source/wikipedia-majid-bin-said-en]
+relations:
+  - { type: child_of, target: person/said-bin-sultan, sources: [source/wikipedia-majid-bin-said-en] }
+  - { type: successor_of, target: person/said-bin-sultan, sources: [source/wikipedia-majid-bin-said-en] }
+  - { type: born_in, target: place/zanzibar, sources: [source/wikipedia-majid-bin-said-en] }
+  - { type: died_in, target: place/zanzibar, sources: [source/wikipedia-majid-bin-said-en] }
+faith:
+  - value: ibadi
+    basis: documented
+    note: "Stated basis, following the settled pattern of his brother Ali bin Said's record in this lane. Majid's own article's infobox names his religion personally: Ibadi Islam. That personal attestation is corroborated at the level of the house and of the sultanate he himself founded and headed: the English article 'Al Bu Said dynasty' records the house's traditions as Ibadi Islam and counts the Sultanate of Zanzibar (1856–1964) among its realms, and the English article 'Ibadism' lists 'Al Bu Said dynasty: since 1744' with the sub-entry 'Zanzibari branch: 1856–1964' — the exact span Majid opened as its first sultan — among the Ibadi dynasties, resting on Hoffman (2012) and Lewicki (1971). His father's personal Ibadi affiliation is separately attested by Britannica and by his father's article. The value is therefore recorded as documented, with the reader able to see that the personal attestation is the infobox of his own article and the corroboration is dynastic."
+    sources: [source/wikipedia-majid-bin-said-en, source/wikipedia-al-bu-said-dynasty-en, source/wikipedia-ibadism-en, source/wikipedia-said-bin-sultan-en]
+sources: [source/wikipedia-majid-bin-said-en, source/wikipedia-al-bu-said-dynasty-en, source/wikipedia-ibadism-en, source/wikipedia-said-bin-sultan-en]
+provenance:
+  layer: own-research
+  source: "English Wikipedia 'Majid bin Said', read in full on 25 October 2026; English Wikipedia 'Al Bu Said dynasty' and 'Ibadism' (source entities registered in century-additions-7, revisions of 9 and 20 October 2026) and 'Said bin Sultan' (revision of 9 October 2026), cited for the faith corroboration only. No Wikidata identifier was verified in this run, so none is recorded."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: century-additions-19
+status: { review: published, completeness: 3, generated_by: "Muse (Muse Spark 1.3)" }
