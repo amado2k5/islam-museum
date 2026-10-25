@@ -30,11 +30,20 @@ themes:
 - wars-and-campaigns
 regions:
 - south-asia
+relations:
+- { type: child_of, target: person/humayun-mughal }
+- { type: child_of, target: person/hamida-banu-begum }
+- { type: successor_of, target: person/humayun-mughal }
 sources:
 - source/wikidata
+- source/encyclopaedia-of-islam-2
 external_ids:
   wikidata: Q8597
+provenance:
+  layer: own-research
+  source: "Encyclopaedia of Islam, 2nd ed. (Brill), vol. 1, PDF pp. 338-339, article 'AKBAR, ABU 'l-FATH DJALAL AL-DIN MUHAMMAD' (EI2 enrichment, batch ei2-b009 part 3cx); Wikidata Q8597 for the identifier"
+  generated_by: "Claude Code (claude-haiku-5-5)"
 status:
-  review: draft
-  completeness: 1
-  generated_by: Devin (SWE-2 High), questions lane; via Wikidata, 2026-10-16
+  review: published
+  completeness: 2
+  generated_by: "Devin (SWE-2 High), questions lane; via Wikidata, 2026-10-16; EI2 account added in part 3cx"
