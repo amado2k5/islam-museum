@@ -1,0 +1,35 @@
+id: person/ziauddin-sardar
+class: person
+label: { ar: "ضياء الدين سردار", en: "Ziauddin Sardar", ur: "ضیاء الدین سردار" }
+names:
+  - { value: "Ziauddin Sardar", kind: full }
+  - { value: "Zia", kind: alternate }
+gender: male
+summary:
+  ar: "باحث وكاتب وناقد ثقافي بريطاني من أصل باكستاني، وُلد سنة 1951 في ديپالپور بالبنجاب ونشأ وتعلّم في بريطانيا. درس الفيزياء ثم علم المعلومات في جامعة سيتي بلندن، وعمل في جامعة الملك عبد العزيز بجدة وفي مجلتي نيتشر ونيو ساينتست، وألّف وحرّر أكثر من ستين كتابًا في الفكر المسلم ودراسات المستقبل، وأطلق مجلة «كريتيكال مسلم» سنة 2012."
+  en: "British-Pakistani scholar, writer and cultural critic, born in Dipalpur, Punjab in 1951 and educated and brought up in Britain. He read physics and then information science at City University, London, worked at King Abdul Aziz University in Jeddah and for Nature and New Scientist, and has written and edited more than sixty books on Muslim thought and futures studies; in 2012 he launched the quarterly Critical Muslim."
+  ur: "برطانوی پاکستانی مصنف، دانشور اور ثقافتی نقاد، 1951 میں پنجاب کے دیپالپور میں پیدا ہوئے اور برطانیہ میں پرورش و تعلیم پائی۔ انھوں نے سٹی یونیورسٹی لندن میں طبیعیات اور اطلاعاتی سائنس پڑھی، جدہ اور نیچر و نیو سائنٹسٹ میں کام کیا، اور مسلم فکر و مستقبل بینی پر ساٹھ سے زائد کتابیں لکھیں و مرتب کیں؛ 2012 میں انھوں نے «کرٹیکل مسلم» جاری کیا۔"
+roles: [scholar, writer, activist]
+wings: [people, living]
+born:
+  edtf: "1951-10-31"
+  hijri: "1371"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "Born on 31 October 1951 in Dipalpur, Punjab, Pakistan; the English article and Wikidata agree. The queue brief gave his birth year as 1948 — that is wrong; see the writer's brief corrections. No place entity for Dipalpur exists in data/place/, so no born_in relation is written. The Hijri year (1371) is derived by tabular conversion."
+  sources: [source/wikipedia-ziauddin-sardar-en, source/wikidata-ziauddin-sardar]
+faith:
+  - value: unknown
+    basis: unknown
+    note: "NOT RECORDED AS DOCUMENTED — no fetched source names a school for him. His specialism in Muslim thought and the future of Islam, his five years at King Abdul Aziz University in Jeddah, his founding editorship of Inquiry and Critical Muslim, and Prospect naming him among Britain's top public intellectuals are a field, posts and recognition, not attestations that he himself belongs to a specific school or path. Wikidata gives no school. Under the two-source rule and the doubt rule the faith is left unknown."
+    sources: [source/wikipedia-ziauddin-sardar-en, source/wikidata-ziauddin-sardar]
+external_ids: { wikidata: "Q1921138" }
+sources: [source/wikipedia-ziauddin-sardar-en, source/wikidata-ziauddin-sardar]
+provenance:
+  layer: own-research
+  source: "English Wikipedia 'Ziauddin Sardar' and Wikidata Q1921138 (QID confirmed via the English Wikipedia pageprops API on 25 October 2026), read on 25 October 2026. No earlier record for him existed in data/person/ under any spelling checked; this is a new build, not an enrichment."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: century-additions-12
+status: { review: published, completeness: 3, generated_by: "Muse (Muse Spark 1.3)" }

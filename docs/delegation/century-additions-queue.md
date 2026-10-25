@@ -78,11 +78,11 @@ lists' own order. Status markers: [ ] queued · [~] in a writer's hands · [x] m
 - [x] K'naan — 1978–Living
 - [x] Dalia Mogahed — 1974–Living
 - [x] Ingrid Mattson — 1963–Living
-- [ ] Amina Wadud — 1952–Living
-- [ ] Asma Afsaruddin — 1958–Living
-- [ ] Seyed Hossein Nasr — 1933–Living
-- [ ] Ziauddin Sardar — 1948–Living
-- [ ] Mustafa Akyol — 1972–Living
+- [x] Amina Wadud — 1952–Living
+- [x] Asma Afsaruddin — 1958–Living
+- [x] Seyed Hossein Nasr — 1933–Living
+- [x] Ziauddin Sardar — 1948–Living
+- [x] Mustafa Akyol — 1972–Living
 - [ ] Wael Ghonim — 1980–Living
 - [ ] Shirin Neshat — 1957–Living
 - [ ] El Seed — 1981–Living
