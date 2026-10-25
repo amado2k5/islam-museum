@@ -1,0 +1,37 @@
+id: person/babar-azam
+class: person
+label: { ar: "بابر أعظم", en: "Babar Azam", ur: "بابر اعظم" }
+names:
+  - { value: "Mohammad Babar Azam", kind: full }
+  - { value: "Bobby", kind: laqab }
+gender: male
+summary:
+  ar: "لاعب كريكت باكستاني دولي وقائد سابق لمنتخب باكستان في الصيغ الثلاث، وُلد في لاهور سنة 1994 لأسرة من المدينة المسوّرة. ضارب أيمن في أعلى الترتيب عُرف بتقنيته الكلاسيكية وتوقيته، بدأ دوليا سنة 2015، وكان في فريق باكستان الفائز بكأس الأبطال 2017، وسجّل ثلاث مئات متتالية في مباريات اليوم الواحد سنة 2016، وقاد باكستان في الاختبار ومباريات اليوم الواحد ومباريات العشرين، وقادها إلى نهائي كأس العالم للعشرين سنة 2022، ونال جائزة المجلس الدولي للكريكت لأفضل لاعب في مباريات اليوم الواحد سنتي 2021 و2022، ويقود بيشاور زلمي في الدوري الباكستاني الممتاز."
+  en: "Pakistani international cricketer and former captain of the Pakistan national team in all three formats, born in Lahore in 1994 to a family of the Walled City. A right-handed top-order batter known for classical technique and timing, he debuted internationally in 2015, was in the Pakistan team that won the 2017 Champions Trophy, scored three consecutive ODI centuries in 2016, captained Pakistan in Tests, ODIs and T20Is and led them to the 2022 T20 World Cup final, won the ICC Men's ODI Cricketer of the Year award in 2021 and 2022, and captains Peshawar Zalmi in the Pakistan Super League."
+  ur: "پاکستانی بین الاقوامی کرکٹ کھلاڑی اور تینوں فارمیٹس میں قومی ٹیم کے سابق کپتان، جو 1994 میں لاہور میں اندرون شہر کے ایک خاندان میں پیدا ہوئے۔ دائیں ہاتھ کے ٹاپ آرڈر بلے باز، جو کلاسیکی تکنیک اور ٹائمنگ کے لیے مشہور ہیں، انھوں نے 2015ء میں بین الاقوامی آغاز کیا، 2017ء چیمپئنز ٹرافی جیتنے والی پاکستانی ٹیم میں شامل تھے، 2016ء میں مسلسل تین ایک روزہ سنچریاں بنائیں، ٹیسٹ، ایک روزہ اور ٹی ٹوئنٹی میں پاکستان کی قیادت کی اور ٹیم کو 2022ء ٹی ٹوئنٹی ورلڈ کپ کے فائنل تک پہنچایا، 2021ء اور 2022ء میں آئی سی سی مینز ون ڈے کرکٹر آف دی ایئر کا اعزاز جیتا، اور پاکستان سپر لیگ میں پشاور زلمی کی قیادت کرتے ہیں۔"
+roles: [athlete]
+wings: [people, living]
+born:
+  edtf: "1994-10-15"
+  hijri: "1415"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "Born on 15 October 1994 in Lahore, Punjab, Pakistan, per the English and Urdu Wikipedia articles and Wikidata. The Hijri year (1415) is derived by tabular conversion."
+  sources: [source/wikipedia-babar-azam-en, source/wikipedia-babar-azam-ur, source/wikidata-babar-azam]
+relations:
+  - { type: born_in, target: place/lahore, sources: [source/wikipedia-babar-azam-en] }
+faith:
+  - value: unknown
+    basis: unknown
+    note: "NOT RECORDED AS DOCUMENTED — no source names a school for him. The Urdu article says he was born into a Punjabi Muslim family of Lahore and the English article describes his Walled City family in the same terms — family background, which does not count — and neither article, nor Wikidata, attests a religion or school for Babar Azam himself. Under the two-source rule and the founder's doubt rule the value stays unknown."
+    sources: [source/wikipedia-babar-azam-en, source/wikipedia-babar-azam-ur, source/wikidata-babar-azam]
+external_ids: { wikidata: "Q4837515" }
+sources: [source/wikipedia-babar-azam-en, source/wikipedia-babar-azam-ur, source/wikidata-babar-azam]
+provenance:
+  layer: own-research
+  source: "English Wikipedia 'Babar Azam', read on 25 October 2026; Urdu Wikipedia «بابر اعظم», read on 25 October 2026; Wikidata Q4837515 verified from the English article's wikibase_item (Q4837515) returned by the Wikipedia API pageprops query on 25 October 2026. This record is for Mohammad Babar Azam, the Pakistani batter born in Lahore in 1994. No earlier record for him existed in data/person/ under babar-azam or any other spelling checked; this is a new build, not an enrichment. No Arabic Wikipedia article for him was found on 25 October 2026, so no Arabic source entity is registered. He is a living, still-active player; career totals in the prose are dated to October 2026."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: century-additions-20
+status: { review: published, completeness: 3, generated_by: "Muse (Muse Spark 1.3)" }

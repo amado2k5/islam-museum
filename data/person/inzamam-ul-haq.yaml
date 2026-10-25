@@ -1,0 +1,38 @@
+id: person/inzamam-ul-haq
+class: person
+label: { ar: "انضمام الحق", en: "Inzamam-ul-Haq", ur: "انضمام الحق" }
+names:
+  - { value: "Syed Inzamam-ul-Haq", kind: full }
+  - { value: "Inzi", kind: laqab }
+  - { value: "Sultan of Multan", kind: laqab }
+gender: male
+summary:
+  ar: "لاعب كريكت باكستاني سابق وقائد سابق لمنتخب باكستان وكبير مختاريه لاحقا، وُلد في ملتان سنة 1970. ضارب أيمن في الوسط عُرف بهدوئه وقوته، لعب لباكستان بين 1991 و2007 في 120 مباراة اختبار سجّل فيها 8,830 جولة و378 مباراة ليوم واحد سجّل فيها 11,739 جولة فكان أعلى مسجّل لباكستان في مباريات اليوم الواحد والوحيد من باكستان الذي بلغ 20,000 جولة دولية، واشتهر بجولاته 60 من 37 كرة في نصف نهائي كأس العالم 1992 التي أوصلت باكستان إلى النهائي واللقب، وقاد باكستان بين 2003 و2007، ودرّب أفغانستان (2015-2016)، وعمل كبيرا لمختاري باكستان في فترتين."
+  en: "Pakistani former cricketer, former captain of the Pakistan national team and later its chief selector, born in Multan in 1970. A right-handed middle-order batsman known for his calm and power, he played for Pakistan from 1991 to 2007, scoring 8,830 runs in 120 Tests and 11,739 runs in 378 One Day Internationals — Pakistan's leading ODI run-scorer and the only Pakistani to score 20,000 international runs — rose to fame with 60 off 37 balls in the 1992 World Cup semi-final that took Pakistan to the final and the title, captained Pakistan from 2003 to 2007, coached Afghanistan (2015–2016) and served two spells as Pakistan's chief selector."
+  ur: "پاکستان کے سابق کرکٹ کھلاڑی، قومی ٹیم کے سابق کپتان اور بعد میں چیف سلیکٹر، جو 1970 میں ملتان میں پیدا ہوئے۔ دائیں ہاتھ کے مڈل آرڈر بلے باز، جو اپنے سکون اور طاقت کے لیے مشہور ہیں، انھوں نے 1991ء سے 2007ء تک پاکستان کے لیے کھیلا، 120 ٹیسٹ میچوں میں 8,830 رنز اور 378 ایک روزہ میچوں میں 11,739 رنز بنائے — پاکستان کے سب سے زیادہ ایک روزہ رنز بنانے والے اور 20,000 بین الاقوامی رنز مکمل کرنے والے واحد پاکستانی — 1992ء ورلڈ کپ سیمی فائنل میں 37 گیندوں پر 60 رنز کی اننگز سے شہرت پائی جس نے پاکستان کو فائنل اور ٹائٹل تک پہنچایا، 2003ء سے 2007ء تک پاکستان کی قیادت کی، افغانستان کی کوچنگ کی (2015ء–2016ء) اور دو ادوار میں پاکستان کے چیف سلیکٹر رہے۔"
+roles: [athlete]
+wings: [people, living]
+born:
+  edtf: "1970-03-03"
+  hijri: "1389"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "Born on 3 March 1970 in Multan, Punjab, Pakistan, per the English and Urdu Wikipedia articles and Wikidata. The Hijri year (1389) is derived by tabular conversion."
+  sources: [source/wikipedia-inzamam-ul-haq-en, source/wikipedia-inzamam-ul-haq-ur, source/wikidata-inzamam-ul-haq]
+relations:
+  - { type: born_in, target: place/multan, sources: [source/wikipedia-inzamam-ul-haq-en] }
+faith:
+  - value: unknown
+    basis: unknown
+    note: "NOT RECORDED AS DOCUMENTED — the attestations found do not meet the two-source rule, and they are stated here in full. (1) The English article's early-life section says he was born into a Punjabi family professing Sunni Islam, whose Syed family was historically involved in Sufism and the preaching of Islam — family background, which does not count. (2) The same article calls him a prominent member of the Tablighi Jamaat, an Islamic missionary organisation — movement affiliation, which does not count. No source attests a school for Inzamam-ul-Haq himself on a second independent basis, so under the two-source rule and the founder's doubt rule the value stays unknown."
+    sources: [source/wikipedia-inzamam-ul-haq-en, source/wikidata-inzamam-ul-haq]
+external_ids: { wikidata: "Q1393201" }
+sources: [source/wikipedia-inzamam-ul-haq-en, source/wikipedia-inzamam-ul-haq-ur, source/wikidata-inzamam-ul-haq]
+provenance:
+  layer: own-research
+  source: "English Wikipedia 'Inzamam-ul-Haq', read in full on 25 October 2026; Urdu Wikipedia «انضمام الحق», consulted on 25 October 2026; Wikidata Q1393201 verified from the English article's wikibase_item (Q1393201) returned by the Wikipedia API pageprops query on 25 October 2026. This record is for Syed Inzamam-ul-Haq, the Pakistani batsman born in Multan in 1970. No earlier record for him existed in data/person/ under inzamam-ul-haq, inzamamul-haq or any other spelling checked; this is a new build, not an enrichment. No Arabic Wikipedia article for him was found on 25 October 2026, so no Arabic source entity is registered."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: century-additions-20
+status: { review: published, completeness: 3, generated_by: "Muse (Muse Spark 1.3)" }

@@ -1,0 +1,39 @@
+id: person/imran-khan
+class: person
+label: { ar: "عمران خان", en: "Imran Khan", ur: "عمران خان" }
+names:
+  - { value: "Imran Ahmed Khan Niazi", kind: full }
+  - { value: "Kaptaan", kind: laqab }
+gender: male
+summary:
+  ar: "لاعب كريكت باكستاني سابق وفاعل خير وسياسي ورئيس وزراء باكستان التاسع عشر، وُلد في لاهور سنة 1952. لاعب شامل رامٍ سريع بالذراع اليمنى، لعب لباكستان بين 1971 و1992 في 88 مباراة اختبار أخذ فيها 362 ويكيت وسجّل 3,807 جولات، وقاد باكستان إلى لقبها الوحيد في كأس العالم سنة 1992، ودخل قاعة مشاهير المجلس الدولي للكريكت سنة 2009، ثم أسس مستشفى شوكت خانم التذكاري للسرطان، أول مستشفى سرطان في باكستان، وأسس حزب حركة الإنصاف الباكستانية سنة 1996 وقاده حتى 2023، وكان رئيس وزراء باكستان من أغسطس 2018 إلى أبريل 2022 حين عُزل بتصويت حجب ثقة، وهو أول رئيس وزراء باكستاني يُعزل بهذه الطريقة، وسُجن منذ 2023 كما تنقل المصادر."
+  en: "Pakistani former cricketer, philanthropist and politician who served as the 19th prime minister of Pakistan, born in Lahore in 1952. A fast-bowling all-rounder, he played for Pakistan from 1971 to 1992, taking 362 wickets and scoring 3,807 runs in 88 Tests, captained Pakistan to its only Cricket World Cup title in 1992, and was inducted into the ICC Cricket Hall of Fame in 2009. He then founded the Shaukat Khanum Memorial Cancer Hospital, Pakistan's first cancer hospital, founded the Pakistan Tehreek-e-Insaf party in 1996 and chaired it until 2023, and was prime minister of Pakistan from August 2018 to April 2022, when he was removed by a no-confidence vote — the first Pakistani prime minister removed that way — and has been imprisoned since 2023 as the sources report."
+  ur: "پاکستان کے سابق کرکٹ کھلاڑی، فلاحی کارکن اور سیاست دان اور پاکستان کے انیسویں وزیرِ اعظم، جو 1952 میں لاہور میں پیدا ہوئے۔ تیز گیند باز آل راؤنڈر کی حیثیت سے انھوں نے 1971ء سے 1992ء تک پاکستان کے لیے کھیلا، 88 ٹیسٹ میچوں میں 362 وکٹیں لیں اور 3,807 رنز بنائے، پاکستان کو 1992ء میں اس کے واحد کرکٹ ورلڈ کپ ٹائٹل تک پہنچایا، اور 2009 میں آئی سی سی کرکٹ ہال آف فیم میں شامل ہوئے۔ پھر انھوں نے شوکت خانم میموریل کینسر ہسپتال قائم کیا، جو پاکستان کا پہلا کینسر ہسپتال ہے، 1996 میں پاکستان تحریکِ انصاف قائم کی اور 2023 تک اس کے چیئرمین رہے، اور اگست 2018 سے اپریل 2022 تک پاکستان کے وزیرِ اعظم رہے، جب انھیں تحریکِ عدم اعتماد کے ذریعے ہٹایا گیا — اس طریقے سے ہٹائے جانے والے پہلے پاکستانی وزیرِ اعظم — اور ماخذوں کی رپورٹ کے مطابق 2023 سے قید میں ہیں۔"
+roles: [athlete, politician]
+wings: [people, living]
+born:
+  edtf: "1952-10-05"
+  hijri: "1372"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "Born on 5 October 1952 in Lahore, West Punjab, Pakistan, per the English and Arabic Wikipedia articles, Encyclopaedia Britannica and Wikidata. Some reports give 25 November 1952; the English article records Khan's own statement that this is a mistake from his passport. The Hijri year (1372) is derived by tabular conversion."
+  sources: [source/wikipedia-imran-khan-en, source/wikipedia-imran-khan-ar, source/britannica-imran-khan, source/wikidata-imran-khan]
+relations:
+  - { type: born_in, target: place/lahore, sources: [source/wikipedia-imran-khan-en] }
+  - { type: influenced, target: person/waqar-younis, sources: [source/wikipedia-waqar-younis-en] }
+  - { type: influenced, target: person/inzamam-ul-haq, sources: [source/wikipedia-inzamam-ul-haq-en] }
+faith:
+  - value: unknown
+    basis: unknown
+    note: "NOT RECORDED AS DOCUMENTED — no two independent sources attest a school for him. The Arabic Wikipedia infobox gives his religion simply as Islam, naming no school; the English article and Britannica name no school. His public religious statements, his advocacy against Islamophobia as prime minister and his party's religious positioning are political and personal-identity material, not a school attestation, and do not count under the lane rule. Under the two-source rule and the founder's doubt rule the value stays unknown."
+    sources: [source/wikipedia-imran-khan-ar, source/wikipedia-imran-khan-en, source/britannica-imran-khan, source/wikidata-imran-khan]
+external_ids: { wikidata: "Q155164" }
+sources: [source/wikipedia-imran-khan-en, source/wikipedia-imran-khan-ar, source/wikidata-imran-khan, source/britannica-imran-khan]
+provenance:
+  layer: own-research
+  source: "English Wikipedia 'Imran Khan', read on 25 October 2026; Arabic Wikipedia «عمران خان», consulted on 25 October 2026; Encyclopaedia Britannica 'Imran Khan', consulted on 25 October 2026; Wikidata Q155164 verified from the English article's wikibase_item (Q155164) returned by the Wikipedia API pageprops query on 25 October 2026. This record is for Imran Ahmed Khan Niazi, the cricketer and former prime minister born in Lahore in 1952, separated from every other person named Imran Khan. No earlier record for him existed in data/person/ under imran-khan or any other spelling checked (the existing imran-* records are all earlier historical figures); this is a new build, not an enrichment. The influenced relations are written on this record because the predicate runs from the influencer to the influenced: Khan spotted and selected Waqar Younis for Pakistan after watching him on television, and handpicked Inzamam-ul-Haq for the 1992 World Cup squad, as the targets' own articles record. No founder_of relation to Pakistan Tehreek-e-Insaf is written because no group entity for the party exists in data/group/."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: century-additions-20
+status: { review: published, completeness: 3, generated_by: "Muse (Muse Spark 1.3)" }
