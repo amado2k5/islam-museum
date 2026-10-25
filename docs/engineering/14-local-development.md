@@ -141,8 +141,10 @@ in production. Options for a laptop:
 those pipelines produce PRs of finished content. If you want a mini
 harvest anyway, `docs/plan/15-local-harvest.md` §4 has the setup; point the
 workspace path at your own disk.
-Audio harvest (`scripts/harvest/audio/`) also needs `ffmpeg` and `mlx-whisper`
-(setup in `docs/agents/audio-video-harvest.md` §3); it is equally outside the site.
+Audio harvest (`scripts/harvest/audio/`) also needs `ffmpeg`, `mlx-whisper`, the
+`.venv-audio` environment (Voxtral, Qwen3-ASR; setup in
+`docs/agents/audio-video-harvest.md` §3.1) and, optionally, the Swift Apple speech
+tool; it is equally outside the site.
 
 ## 8. Troubleshooting
 

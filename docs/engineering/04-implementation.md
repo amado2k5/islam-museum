@@ -37,7 +37,10 @@ islam-museum/
 │  │    wikidata/ (queries + two-pass filter_dump.py), wikipedia/ (load_sql,
 │  │    select_pages, extract, rank_sources), collections/ (duckdb loaders,
 │  │    reconcile_places), quran/, directories/, web/
-│  │    audio/ (download.py, transcribe.py: lecture recordings, mlx-whisper;
+│  │    audio/ (download.py; transcribe.py: mlx-whisper large-v3;
+│  │    transcribe_qwen.py: Qwen3-ASR Arabic dialect model, MPS;
+│  │    agree.py: window comparison of two engine outputs (diagnostic only);
+│  │    apple-speech/: Swift wrapper for Apple on-device recognition;
 │  │    see docs/agents/audio-video-harvest.md)
 │  └─ report/coverage.ts     → docs/coverage.md + api/v1/meta/coverage.json
 ├─ site/              Astro project
