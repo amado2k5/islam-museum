@@ -6,7 +6,7 @@ import Logo from "./Logo.astro";
 import TodayCards from "./TodayCards.astro";
 import GiftShop from "./GiftShop.astro";
 import ArtStrip from "./ArtStrip.astro";
-import { ui, fmt, WINGS, wingHref, NUM_LOCALE, type Lang } from "../lib/i18n";
+import { ui, fmt, WINGS, wingHref, NUM_LOCALE, ARABIC_SCRIPT, type Lang } from "../lib/i18n";
 import { href, graph, labelOf, summaryOf, realNodes } from "../lib/graph";
 import { wingCountLabel, explorePages, num } from "../lib/nav";
 import { featuredPool } from "../../../scripts/wings";
@@ -21,7 +21,15 @@ const EXPLORE = explorePages(lang);
 const pages = 2 * realNodes.length;
 // One random entry per wing card, picked in the browser from a small pool fixed at build time (scripts/wings.ts featuredPool).
 const teaser = (s: string, n = 110) => (s.length > n ? s.slice(0, n).replace(/\s+\S*$/, "") + "…" : s);
-const featured = Object.fromEntries(WINGS.map((w) => [w, featuredPool(realNodes as any[], w, lang).map((n: any) => ({ h: href(lang, n.id), l: labelOf(n, lang), s: teaser(summaryOf(n, lang)) }))]));
+// A wing with no entry written in the page's language yet borrows from the next language (Urdu: Arabic, then English); the link stays in the page's language.
+const FALLBACK: Record<Lang, Lang[]> = { ar: ["ar", "en"], en: ["en", "ar"], ur: ["ur", "ar", "en"] };
+const featured = Object.fromEntries(WINGS.map((w) => {
+  let src = lang, pool: any[] = [];
+  for (const l of FALLBACK[lang]) { pool = featuredPool(realNodes as any[], w, l); src = l; if (pool.length) break; }
+  return [w, { g: src, x: pool.map((n: any) => ({ h: href(lang, n.id), l: labelOf(n, src), s: teaser(summaryOf(n, src)) })) }];
+})) as Record<string, { g: Lang; x: { h: string; l: string; s: string }[] }>;
+const featLang = (w: string) => featured[w].g === lang ? {} : { lang: featured[w].g, dir: ARABIC_SCRIPT.includes(featured[w].g) ? "rtl" : "ltr" };
+const featJson = JSON.stringify(Object.fromEntries(Object.entries(featured).map(([w, f]) => [w, f.x]))).replace(/</g, "\\u003c");
 const stats = fmt(T.landing.stats, { items: num(realNodes.length, lang), pages: num(Math.round(pages / 1000) * 1000, lang) });
 ---
 <BaseLayout lang={lang} title={T.tagline} path={path} jsonld={{ "@context": "https://schema.org", "@type": "WebSite", name: "islam.museum", url: "https://islam.museum/", inLanguage: ["en", "ar"], license: "https://creativecommons.org/licenses/by-sa/4.0/", sameAs: "https://www.wikidata.org/wiki/Q141801006" }}>
@@ -54,11 +62,11 @@ const stats = fmt(T.landing.stats, { items: num(realNodes.length, lang), pages: 
           <li class="wing" data-wing={w} style={`--acc:var(--wing-${w})`}>
             <a class="wing-head" href={wingHref(lang, w)}><h3>{T.wings[w].title} <span class="flip" aria-hidden="true">→</span></h3><span class="count ui">{wingCountLabel(lang, w)}</span></a>
             <p>{T.wings[w].blurb}</p>
-            {featured[w][0] && <a class="feat" data-feat={w} href={featured[w][0].h}><span class="feat-k ui">✦ {T.landing.featured}</span><strong class="feat-l"><bdi>{featured[w][0].l}</bdi></strong><span class="feat-s">{featured[w][0].s}</span></a>}
+            {featured[w].x[0] && <a class="feat" data-feat={w} href={featured[w].x[0].h}><span class="feat-k ui">✦ {T.landing.featured}</span><h4 class="feat-l" {...featLang(w)}><bdi>{featured[w].x[0].l}</bdi></h4><span class="feat-s" {...featLang(w)}>{featured[w].x[0].s}</span></a>}
           </li>
         ))}
       </ul>
-      <script type="application/json" data-feat-pool set:html={JSON.stringify(featured)} />
+      <script type="application/json" data-feat-pool set:html={featJson} />
     </div>
   </section>
 
