@@ -1,4 +1,10 @@
 id: person/abdullah-ibn-amr-ibn-haram
+education:
+  did_you_know:
+    ar: "عبد الله بن عمرو بن حرام سيد بني سلمة ووالد جابر؛ شهد بيعة العقبة الثانية وبدراً واستشهد بأحد فكان أول قتيل من المسلمين فيها."
+    en: "Abd Allah ibn Amr ibn Haram, lord of Banu Salama and Jabir's father, witnessed the second pledge of Aqaba and Badr, and fell at Uhud — the first Muslim killed there."
+    ur: "عبداللہ بن عمرو بن حرام، بنو سلمہ کے سردار اور جابر کے والد، دوسری بیعتِ عقبہ اور بدر میں شریک تھے اور احد میں پہلے شہید مسلمان کے طور پر گرے۔"
+    sources: [source/ibn-hisham-sira, source/sahih-al-bukhari]
 class: person
 aliases: [person/abd-allah-ibn-haram]   # same person; merged from the Raheeq lane's spelling so existing references resolve
 label: { en: "Abdullah ibn Amr ibn Haram", ar: "عبد الله بن عمرو بن حرام" }
@@ -28,3 +34,9 @@ relations:
 external_ids: { wikidata: "Q12223557" }
 sources: [source/mubarakpuri-raheeq, source/ibn-hisham-sira, source/ibn-sad-tabaqat-bewley, source/sahih-al-bukhari]
 status: { review: draft, completeness: 2, generated_by: "Devin; al-Raheeq al-Makhtum pp. 148, 152" }
+provenance:
+  layer: own-research
+  source: "source/ibn-hisham-sira"
+  generated_by: Devin
+  model: "unknown"
+  run: "education-E3-facts-batch11"

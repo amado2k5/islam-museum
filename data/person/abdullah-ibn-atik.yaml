@@ -1,4 +1,10 @@
 id: person/abdullah-ibn-atik
+education:
+  did_you_know:
+    ar: "عبد الله بن عتيك صحابي من بني سلمة كان يرطن باليهودية؛ أمّره النبي على سرية خيبر لقتل أبي رافع، فتسلل إلى مخدعه وضربه بسيفه، وانكسرت ساقه في عودته."
+    en: "Abd Allah ibn Atik, a Companion of Banu Salama who spoke the Jewish tongue, led the Prophet's Khaybar raid against Abu Rafi'; he struck him with his sword and broke his leg on the way back."
+    ur: "عبداللہ بن عتیک، بنو سلمہ کے صحابی جو یہودی زبان بولتے تھے، خیبر کی مہم کے سردار بنے ابو رافع کو مارنے کے لیے؛ انہوں نے تلوار مارا اور واپسی میں ٹانگ ٹوٹ گئی۔"
+    sources: [source/sahih-al-bukhari, source/ibn-hisham-sira]
 class: person
 label: { en: "Abdullah ibn Atik", ar: "عبد الله بن عتيك" }
 names:
@@ -25,3 +31,9 @@ relations:
   - { type: participated_in, target: event/assassination-of-sallam-ibn-abi-al-huqayq, role: "قائد السرية وفاتح الحصن", sources: [source/mubarakpuri-raheeq, source/sahih-al-bukhari] }
 sources: [source/mubarakpuri-raheeq, source/sahih-al-bukhari, source/ibn-hisham-sira]
 status: { review: draft, completeness: 2, generated_by: "Devin; al-Raheeq al-Makhtum pp. 319–321" }
+provenance:
+  layer: own-research
+  source: "source/sahih-al-bukhari"
+  generated_by: Devin
+  model: "unknown"
+  run: "education-E3-facts-batch11"

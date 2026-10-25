@@ -1,4 +1,10 @@
 id: person/abbas-ibn-abd-al-muttalib
+education:
+  did_you_know:
+    ar: "العباس عم النبي، أُسر مع المكيين يوم بدر ثم أسلم لاحقاً، ومن نسله قامت الخلافة العباسية."
+    en: "Al-Abbas, the Prophet's uncle, was taken with the Meccans at Badr and later embraced Islam; from his line rose the Abbasid caliphate."
+    ur: "عباس، نبی کے چچا، بدر میں مکیوں کے ساتھ گرفتار ہوئے اور بعد میں مسلمان ہوئے؛ ان کی اولاد سے عباسی خلافت قائم ہوئی۔"
+    sources: [source/ibn-hisham-sira, source/muruj-al-dhahab]
 class: person
 label: { en: al-Abbas ibn Abd al-Muttalib, ar: العباس بن عبد المطلب }
 names:
@@ -38,3 +44,9 @@ external_ids:
   wikidata: Q293599
 sources: [source/ibn-ishaq-guillaume, source/ibn-sad-tabaqat-bewley, source/mubarakpuri-raheeq, source/ibn-hisham-saqqa, source/sahih-al-bukhari, source/sallabi-ali-vol1]
 status: { review: draft, completeness: 2, generated_by: "Devin; 2026-10-11" }
+provenance:
+  layer: own-research
+  source: "source/ibn-hisham-sira"
+  generated_by: Devin
+  model: "unknown"
+  run: "education-E3-facts-batch11"

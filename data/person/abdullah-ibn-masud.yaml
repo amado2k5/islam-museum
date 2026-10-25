@@ -1,4 +1,10 @@
 id: person/abdullah-ibn-masud
+education:
+  did_you_know:
+    ar: "ابن مسعود راعٍ مكي من أول المسلمين، يذكره التراث أول من جهر بقراءة القرآن في مكة، وصار بالكوفة أستاذ جيلها الأول في العلم."
+    en: "Ibn Mas'ud, a Meccan shepherd among the first Muslims, is remembered by the tradition as the first to recite the Qur'an aloud in Mecca — and at Kufa he became its first generation's teacher."
+    ur: "ابن مسعود، مکہ کے ایک چرواہے اور اولین مسلمانوں میں سے، روایت میں پہلے شخص ہیں جنھوں نے مکہ میں بلند آواز سے قرآن پڑھا — اور کوفہ میں وہ پہلی نسل کے استاد بنے۔"
+    sources: [source/tabaqat-ibn-sad, source/sahih-al-bukhari]
 class: person
 label: { en: "Abdullah ibn Mas'ud", ar: "عبد الله بن مسعود" }
 names:
@@ -34,3 +40,9 @@ external_ids:
   wikidata: Q423557
 sources: [source/ibn-sad-tabaqat-bewley, source/ibn-ishaq-guillaume, source/mubarakpuri-raheeq, source/ibn-hisham-sira, source/sahih-al-bukhari]
 status: { review: draft, completeness: 2, generated_by: "Devin; 2026-10-11" }
+provenance:
+  layer: own-research
+  source: "source/tabaqat-ibn-sad"
+  generated_by: Devin
+  model: "unknown"
+  run: "education-E3-facts-batch11"
