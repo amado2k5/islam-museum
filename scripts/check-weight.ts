@@ -24,6 +24,8 @@ export const BUDGETS: Budget[] = [
   { family: "child activity", route: "/ar/sighar/quest/", html: 210 * KB, js: 14 * KB },
   { family: "child activity", route: "/ar/sighar/kindness/", html: 210 * KB, js: 14 * KB },
   { family: "child activity", route: "/ar/sighar/mosque/", html: 210 * KB, js: 14 * KB },
+  // E2 leftover A1: the Sprouts read-aloud stories page (server-rendered, no page script)
+  { family: "child activity", route: "/ar/sighar/sprouts/stories/", html: 210 * KB, js: 14 * KB },
   { family: "deck with study modes", route: "/ar/cards/list/tartib-al-anbiya/", html: 210 * KB, js: 30 * KB },
   { family: "lesson (printable)", route: "/ar/sighar/teachers/lessons/quest/", html: 200 * KB, js: 6 * KB },
   { family: "listing", route: "/ar/learn/trails/", html: 600 * KB, js: 12 * KB },
@@ -42,6 +44,8 @@ export const BUDGETS: Budget[] = [
   { family: "classroom quiz", route: "/ar/learn/teachers/quiz/g11-chw3m-rise-of-islam/", html: 120 * KB, js: 15 * KB },
   // E3 step 2: the daily challenge (Century Challenge, five rounds a day) at the child-activity ceiling of plan §3
   { family: "daily challenge", route: "/ar/learn/daily/", html: 120 * KB, js: 12 * KB },
+  { family: "listing", route: "/ar/learn/facts/", html: 600 * KB, js: 10 * KB },
+  { family: "printable pack", route: "/ar/learn/facts/poster/", html: 200 * KB, js: 6 * KB },
 ];
 
 export interface Measure { route: string; html: number; js: number; scripts: string[] }

@@ -196,7 +196,13 @@ function init(root: HTMLElement) {
           opts.appendChild(b);
         });
       };
-      document.addEventListener("keydown", (e) => { if (/^[1-4]$/.test(e.key) && !next.hidden === false) opts.querySelectorAll<HTMLButtonElement>("button")[Number(e.key) - 1]?.click(); });
+      document.addEventListener("keydown", (e) => {
+        // Answer keys 1-4: only while this round's options are still on the page and unanswered
+        // (an earlier listener whose round ended would otherwise click detached tiles and re-mark the SRS box).
+        if (e.altKey || e.ctrlKey || e.metaKey || !opts.isConnected || !next.hidden) return;
+        if (e.target instanceof HTMLInputElement || e.target instanceof HTMLTextAreaElement) return;
+        if (/^[1-4]$/.test(e.key)) { e.preventDefault(); opts.querySelectorAll<HTMLButtonElement>("button")[Number(e.key) - 1]?.click(); }
+      });
       next.addEventListener("click", () => { k++; ask(); });
       const finish = () => {
         head.textContent = ""; q.textContent = fill(t.test_result, { n: String(score), total: String(order.length) }); opts.innerHTML = ""; next.hidden = true;

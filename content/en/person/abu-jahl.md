@@ -30,3 +30,6 @@ He was the commander of Mecca's army. He disobeyed al-Akhnas ibn Shariq when al-
 
 ## His death at Badr (The Sealed Nectar, pp.220–221)
 Two young men of the Ansar killed him, and then Ibn Mas'ud finished him off. The Prophet called him the Pharaoh of this community ([[event/death-of-abu-jahl|The death of Abu Jahl]]) {cite:mubarakpuri-raheeq p.221}.
+
+## Encyclopaedia of Islam account
+The Encyclopaedia of Islam (2nd ed.) entry gives his full name as Abu l-Hakam Hisham b. al-Mughira of the Banu Makhzum of Quraysh, also called Ibn al-Hanzaliyya after his mother, Asma' bint Mukharriba. He was born about 570, and his mother became a Muslim and lived beyond 13/635. Shortly before the Hijra he succeeded al-Walid b. al-Mughira as leader of the Makhzum, and he was less willing than al-Walid to compromise with Muhammad. The article says he was largely responsible for the boycott of Hashim and al-Muttalib, and that he persuaded Abu Lahab to withdraw protection from the Prophet. Many persecutions of Muslims are attributed to him, though the article doubts that all of them happened. He led the relief force for the Syrian caravan in 2/624 and was killed at Badr. {cite:encyclopaedia-of-islam-2 vol. 1 p. 134}

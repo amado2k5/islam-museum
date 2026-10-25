@@ -142,9 +142,9 @@ The following merged PRs and commits are ready on `main` for the founder to depl
 | # | Step | Route or artefact | Status |
 |---|---|---|---|
 | 0 | Record the founder's approval (this section, plan §9.1) | docs only | done (this PR) |
-| 1 | Classroom quiz | `/{lang}/learn/teachers/quiz/{trail}/?classroom=1` | pending |
-| 2 | Daily challenge (Century Challenge, Who am I?) and `edu/daily-schedule.json` (366 entries) | `/{lang}/learn/daily/` | pending |
-| 3 | Fact engine: `did_you_know` on entities, 365 facts in batches of at most 25, fact of the day, archive, A4 poster | `/{lang}/learn/facts/` | pending |
+| 1 | Classroom quiz | `/{lang}/learn/teachers/quiz/{trail}/?classroom=1` | done — merged #1471 (budget fix #1477) |
+| 2 | Daily challenge (Century Challenge, Who am I?) and `edu/daily-schedule.json` (366 entries) | `/{lang}/learn/daily/` | done — merged #1479 |
+| 3 | Fact engine: `did_you_know` on entities, 365 facts in batches of at most 25, fact of the day, archive, A4 poster | `/{lang}/learn/facts/` | done — this PR: engine + batch 1 (25 of 365 facts); 340 facts remain for later batches |
 | 4 | Seasonal packs (heritage month, Ramadan, back to school, exam season) and the founder's email texts | `/{lang}/learn/teachers/packs/{season}/`, `docs/outreach/education/` | pending |
 | 5 | Offline packs: one HTML file per unit, inlined, 2 MB or less, checked in `scripts/check-site.ts` | `/{lang}/learn/teachers/offline/{unit}.html` | pending |
 | 6 | Where am I? (gentle version) | `/{lang}/sighar/explorers/where/` | pending |
@@ -152,3 +152,21 @@ The following merged PRs and commits are ready on `main` for the founder to depl
 | 8 | Explorers map: world SVG (80 KB or less, 12 hot spots), replacing the placeholder on the Explorers hub | `site/src/data/basemap-world.json`, `/{lang}/sighar/explorers/` | pending |
 
 **Urdu for the founder's review (E3):** listed step by step as each step lands.
+
+- **Step 3 (fact engine) — new i18n strings:**
+  - `fc_dyk`: «کیا آپ جانتے ہیں؟»
+  - `fc_title`: «حقائق» · `fc_day`: «آج کی حقیقت» · `fc_week`: «ہفتے کی حقیقت»
+  - `fc_lede`: «میوزیم سے روز ایک تصدیق شدہ حقیقت — ہر ایک کا اپنا ریکارڈ اور ماخذ۔»
+  - `fc_all`: «تمام حقائق» · `fc_count`: «تمام حقائق ({n})» · `fc_sources`: «ماخذ»
+  - `fc_poster`: «ہفتے کی حقیقت کا پوسٹر چھاپیں» · `fc_poster_title`: «ہفتے کی حقیقت · پوسٹر»
+  - `fc_poster_note`: «ایک ورق (A4): کلاس کی دیوار پر لگائیں اور مزید حقائق کے لیے کوڈ اسکین کریں۔»
+- **Step 3 — the 25 Urdu fact texts** are on the entities themselves (`education.did_you_know.ur` in batch 1: events badr, hijra, conquest-of-mecca, constitution-of-medina, first-revelation, prophets-mosque-built, founding-of-baghdad; persons aisha, abu-hurayra, abdullah-ibn-abbas, ibn-sina, al-khwarizmi, al-bukhari; buildings great-mosque-cordoba, eyup-sultan-mosque; concepts five-pillars, tawhid, hijri-calendar; practices salah, sawm-ramadan, hajj; places baghdad, cordoba, jerusalem; polity umayyad-caliphate). Draft, pending the founder's review.
+
+## E2 leftovers · Part A close-out (24 October 2026, this PR)
+
+- **A1 Sprouts read-aloud stories.** The master plan §4 route map names a **new** `/sighar/sprouts/stories/` (a read-aloud subset of Bedtime Stories), while the E2 brief pointed at `/{lang}/sighar/sprouts/stories/`. Built per the plan: `site/src/pages/[lang]/sighar/sprouts/stories.astro` serves the read-aloud stories inside the Sprouts hub, reusing `loadStories`/`storyAudioExists` from `site/src/lib/kids.ts` and the existing `kids.*` i18n keys (no new strings, no invented audio — audio plays only where a real audio file already exists). `edu/bands.yaml` updated so the Sprouts "stories" activity links to the new route; `/sighar/stories/` stays as the Explorers read-aloud shelf. A `child activity` row was added to `scripts/check-weight.ts` for `/ar/sighar/sprouts/stories/` (210 KB HTML / 14 KB JS, same ceiling as the other child routes).
+- **A2 Paper print check.** Code-level audit of the six printables: museum passport (`/{lang}/learn/passport/`, `edu.css` print block hides actions/share, stamps redraw dashed for hand-filling; page prints blank without JS per its own header note), pathway print (`/{lang}/learn/teachers/pathways/{slug}/print/`, dedicated print layout), card deck cut-out (`/{lang}/cards/list/{slug}/`, kids.css print block), lesson worksheet (`/{lang}/sighar/teachers/lessons/{unit}/`, `@media print` in the page plus kids.css `write-lines` block), kindness chart (`/{lang}/sighar/kindness/`, kids.css print block hides interactive controls), Tell-it-back (`/{lang}/sighar/retell/`, static printable prompts, ask-a-grown-up note). Global `.no-print` strip (header/footer/chrome) applies to all. Print-render evidence (one paper PDF per printable) is recorded below once the local `npm run build` finishes; the page-change build was still running at push time and the PR's Validate workflow re-runs it.
+- **A3 Keyboard and tap audit.** Study modes, the quiz, the shelf and the level switcher were audited in `site/src/scripts/` and the Svelte islands. One real defect found and fixed in `site/src/scripts/study.ts`: the test-mode answer-key listener (keys 1–4) was bound per round but never removed, so a stale listener could click detached option tiles and re-mark the SRS box; the handler now bails unless this round's options node is still connected and unanswered. No "accept spelling" lists were needed anywhere — quiz answers are button taps, and the only free-text checks already normalize case/whitespace and tolerate levenshtein distance ≤2.
+- **A4 Sitemap and JSON-LD.** Verified on `dist/` when the build completes: pathway pages emit `Course`-type JSON-LD (`seo.ts`/`seo.test.ts` already guards it; recorded once the artifact exists).
+- **A5 Full `npm test`.** Ran to completion this time: **13 files, 155 tests, all passed** (previously the run did not finish).
+- **A6 Step table fix + this record.** E3 rows 1–2 corrected from `pending` to merged (#1471 classroom quiz, #1477 budget fix, #1479 daily challenge), and this section records Part A.

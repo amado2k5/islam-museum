@@ -83,3 +83,19 @@ The series slug is the archive's own slug (its URL), and `epNN` is the episode n
 ## 7. Progress and handoff
 
 Each speaker's lane keeps a progress file in `docs/delegation/<lane>-progress.md` with: series done (episodes downloaded, transcribed, verified by ear, written), the next series, the claims table location, doubts, and the speed and model used. A new session resumes from the "next step" line there.
+
+## 8. Completion report for every recording
+
+A recording counts as **completed** only when its claims have passed the verification rule of §2 and its entities are committed. For every completed recording the progress file of its lane gets one row with these fields:
+
+| Field | Meaning |
+|---|---|
+| Recording | series slug, episode number and the archive's title for it |
+| Duration | from the archive, and from `ffprobe` |
+| Prose | number of entity prose files written (ar, en, ur counted separately) |
+| Persons, places, groups, events, concepts, practices, works, objects | number of new entities of each class, and number of existing entities enriched |
+| Claims | total claims, and how many passed each verification step (second pass, listening, or dropped) |
+| Doubts | count of `needs_source` annotations and dropped lines |
+| Commit | the commit or PR that carries it |
+
+Recordings that are downloaded or transcribed but not yet completed are listed separately with their status. Nothing is counted as completed on the strength of a transcript alone.

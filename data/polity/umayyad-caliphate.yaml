@@ -47,6 +47,11 @@ provenance:
   model: claude-sonnet-5-5
   run: polity-wikidata-1
 education:
+  did_you_know:
+    ar: "في العهد الأموي امتد حكم المسلمين من الأندلس غرباً إلى جيحون شرقاً؛ أوسع دولةٍ عرفها العالم يومها."
+    en: "Under the Umayyads Muslim rule stretched from al-Andalus to the Oxus; it was the largest state the world had yet seen."
+    ur: "اموی عہد میں مسلموں کی حکومت اندلس سے دریائے جیحوں تک پھیلی؛ اس زمانے کی دنیا کی سب سے بڑی ریاست تھی۔"
+    sources: [source/umayyad-birth-to-fall-2006, source/wikidata]
   levels: [sprouts, explorers, scholars]
   flagged_for_kids: true
   provenance: { generated_by: "Claude Code", model: "Claude Haiku 5.5 (claude-haiku-5-5)", run: "education-E2-batch1", note: "Leveled texts drafted from the record's own summary; draft, pending the founder's review and scholar review of the child levels." }

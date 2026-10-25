@@ -1,0 +1,189 @@
+---
+// Sprouts read-aloud stories (ages 4–6): the Bedtime Stories retellings inside the
+// Sprouts hub, per docs/delegation/education-master-plan.md §4
+// (/{lang}/sighar/sprouts/stories/ is a read-aloud subset of /sighar/stories/).
+// Stateless by band rule, server-rendered, no JS needed. Story bodies come from
+// kids/stories.yaml via lib/kids.ts viewStories() — the UI renders honorifics
+// programmatically; authors never type them. Audio stays gated on file existence.
+// The leaf-and-paper Sprouts theme lives in this page's scoped <style>.
+import BaseLayout from "../../../../layouts/BaseLayout.astro";
+import Hudhud from "../../../../components/Hudhud.astro";
+import { ui, LANGS, type Lang } from "../../../../lib/i18n";
+import { loadStories, viewStories, storyAudioExists } from "../../../../lib/kids";
+import { viewBands } from "../../../../lib/edu";
+import "../../../../styles/kids.css";
+
+export function getStaticPaths() { return LANGS.map((lang) => ({ params: { lang }, props: { lang } })); }
+const { lang } = Astro.props as { lang: Lang };
+const T = ui(lang);
+const t = T.kids;
+const band = viewBands(lang, T.kids).find((b) => b.id === "sprouts")!;
+const crumbLabel = lang === "ar" ? "مسار التنقل" : lang === "ur" ? "راہ نما" : "breadcrumb";
+const stories = viewStories(loadStories(), lang).map((s) => ({
+  ...s,
+  audio: storyAudioExists(s.slug, lang),
+}));
+---
+<BaseLayout lang={lang} title={t.stories_title} description={t.stories_lede} path={`/${lang}/sighar/sprouts/stories/`} kids={true}>
+  <div class="kids day" id="top">
+    <nav aria-label={crumbLabel} class="crumbs">
+      <a href={`/${lang}/sighar/`}>{t.hub_title}</a>
+      <span aria-hidden="true"> / </span>
+      <a href={`/${lang}/sighar/sprouts/`}>{band.name}</a>
+      <span aria-hidden="true"> / </span>
+      <span aria-current="page">{t.stories_title}</span>
+    </nav>
+
+    <header class="stories-head">
+      <Hudhud pose="greet" size={120} />
+      <div>
+        <h1 class="stories-h1"><span aria-hidden="true">🌙</span> {t.stories_title}</h1>
+        <p class="lede">{t.stories_lede}</p>
+      </div>
+    </header>
+
+    <nav class="stories-index" aria-label={t.stories_all}>
+      <ul>
+        {stories.map((s) => (
+          <li>
+            <a href={`#story-${s.slug}`}>
+              <span aria-hidden="true">{s.icon}</span> {s.title}
+            </a>
+          </li>
+        ))}
+      </ul>
+    </nav>
+
+    {stories.map((s, i) => {
+      const next = stories[(i + 1) % stories.length];
+      const nextHref = i === stories.length - 1 ? "#top" : `#story-${next.slug}`;
+      return (
+        <article class="story" id={`story-${s.slug}`} aria-labelledby={`story-title-${s.slug}`}>
+          <h2 class="story-title" id={`story-title-${s.slug}`}>
+            <span aria-hidden="true" class="story-icon">{s.icon}</span> {s.title}
+          </h2>
+          <div class="story-body">
+            {s.bodyHtml.split(/\n{2,}/).map((para) => (
+              <p set:html={para} />
+            ))}
+          </div>
+          {s.audio && (
+            <figure class="story-audio">
+              <figcaption>{t.stories_listen}</figcaption>
+              <audio controls preload="none" src={`/audio/kids/${s.slug}-${lang}.mp3`} />
+            </figure>
+          )}
+          <aside class="talk-box" aria-label={t.stories_talk}>
+            <p><b>💬 {t.stories_talk}:</b> {s.talk}</p>
+          </aside>
+          <p class="next-wrap">
+            <a class="kids-btn next-story" href={nextHref}>
+              {t.stories_next} <span aria-hidden="true">{next.icon}</span>
+            </a>
+          </p>
+        </article>
+      );
+    })}
+
+    <details class="grownups">
+      <summary>{t.grownups_title}</summary>
+      <p>{t.grownups_sprouts}</p>
+      <p>{t.grownups_stories}</p>
+    </details>
+  </div>
+
+  <style>
+    /* Sprouts daytime read-aloud theme: paper and leaf, big serif, one idea per screen. */
+    .kids.day {
+      background: var(--kids-paper);
+      color: var(--kids-ink);
+      border-radius: 1.5rem;
+      padding: clamp(1.25rem, 4vw, 3rem);
+    }
+    .kids.day .stories-head {
+      display: flex;
+      gap: 1rem;
+      align-items: center;
+      flex-wrap: wrap;
+    }
+    .kids.day .stories-h1 {
+      font-family: Georgia, "Times New Roman", "Amiri", "Noto Naskh Arabic", serif;
+      font-size: clamp(2.25rem, 7vw, 3.5rem);
+      color: var(--kids-leaf-deep);
+      margin-block: 0.75rem 0.5rem;
+    }
+    .kids.day .lede {
+      font-size: clamp(1.25rem, 4vw, 1.6rem);
+      color: var(--kids-ink-soft);
+      max-width: 40em;
+    }
+    .kids.day .stories-index ul {
+      list-style: none;
+      padding: 0;
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.75rem;
+      margin-block: 1.5rem;
+    }
+    .kids.day .stories-index a {
+      display: inline-block;
+      padding: 0.75rem 1.25rem;
+      min-height: 48px;
+      border: 2px solid var(--kids-leaf-deep);
+      border-radius: 999px;
+      color: var(--kids-leaf-deep);
+      font-size: 1.15rem;
+      text-decoration: none;
+    }
+    .kids.day .stories-index a:hover,
+    .kids.day .stories-index a:focus-visible {
+      background: var(--kids-leaf-deep);
+      color: #fff;
+    }
+    .kids.day .story {
+      border-top: 2px solid #d8d2b8;
+      padding-block: 2.5rem;
+      max-width: 46em;
+    }
+    .kids.day .story-title {
+      font-family: Georgia, "Times New Roman", "Amiri", "Noto Naskh Arabic", serif;
+      font-size: clamp(1.75rem, 5vw, 2.5rem);
+      color: var(--kids-leaf-deep);
+      margin-block: 0 1rem;
+      scroll-margin-top: 1rem;
+    }
+    .kids.day .story-icon { font-size: 1.2em; }
+    .kids.day .story-body {
+      font-size: clamp(1.35rem, 4vw, 1.7rem);
+      line-height: 1.9;
+    }
+    .kids.day .story-body p { margin-block: 0 1.25rem; }
+    .kids.day .story-audio { margin-block: 1.5rem; }
+    .kids.day .story-audio figcaption {
+      font-size: 1.2rem;
+      color: var(--kids-leaf-deep);
+      margin-block-end: 0.5rem;
+    }
+    .kids.day .story-audio audio { width: 100%; max-width: 28rem; }
+    .kids.day .talk-box {
+      background: #f0ecd8;
+      border: 2px dashed var(--kids-leaf-deep);
+      border-radius: 1rem;
+      padding: 1rem 1.25rem;
+      font-size: 1.2rem;
+      line-height: 1.7;
+      margin-block: 1.5rem;
+    }
+    .kids.day .next-wrap { margin-block: 1.5rem 0; }
+    .kids.day .next-story {
+      min-height: 64px;
+      font-size: 1.35rem;
+      display: inline-flex;
+      align-items: center;
+      gap: 0.5rem;
+    }
+    @media (prefers-reduced-motion: reduce) {
+      .kids.day * { animation: none !important; transition: none !important; }
+    }
+  </style>
+</BaseLayout>

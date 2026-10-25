@@ -543,3 +543,64 @@ describe("education: daily challenge (E3 step 2)", () => {
     }
   });
 });
+
+describe("education: fact engine (E3 step 3, plan §5)", () => {
+  const factsPage = readFileSync(`${PAGES}/learn/facts/index.astro`, "utf8");
+  const poster = readFileSync(`${PAGES}/learn/facts/poster.astro`, "utf8");
+  const strip = readFileSync("site/src/components/FactStrip.astro", "utf8");
+  const ids = new Set(walk("data").flatMap((f) => {
+    const m = /^data\/([a-z]+)\/([a-z0-9-]+)\.yaml$/.exec(f);
+    return m && !f.includes("/_") ? [`${m[1]}/${m[2]}`] : [];
+  }));
+  const words = (s: string) => (s ?? "").trim().split(/\s+/).filter(Boolean).length;
+  const facts = () => walk("data").flatMap((f) => {
+    if (!/^data\/[a-z]+\/[a-z0-9-]+\.yaml$/.test(f)) return [];
+    const d = parse(readFileSync(f, "utf8"));
+    const fact = d?.education?.did_you_know;
+    return fact ? [{ id: d.id, file: f, fact }] : [];
+  });
+
+  it("every did_you_know fact is at most 40 words in ar, en and ur, with at least two existing sources", () => {
+    const list = facts();
+    expect(list.length, "the first batch should hold up to 25 facts").toBeGreaterThan(0);
+    expect(list.length).toBeLessThanOrEqual(25);
+    for (const { id, file, fact } of list) {
+      for (const l of LANGS) {
+        expect(typeof fact[l] === "string" && fact[l].length > 0, `${id} ${l}`).toBe(true);
+        expect(words(fact[l]), `${id}.${l} word count`).toBeLessThanOrEqual(40);
+      }
+      expect((fact.sources ?? []).length, `${id} sources`).toBeGreaterThanOrEqual(2);
+      for (const s of fact.sources) expect(ids.has(s), `${id} -> ${s}`).toBe(true);
+      expect(fact.en, `${id}: Urdu repeats English?`).not.toBe(fact.ur);
+      expect(HONORIFIC.test(fact.en + fact.ar + fact.ur), `${id}: typed honorific`).toBe(false);
+    }
+  });
+
+  it("fact-of-day rotation is deterministic and wraps the pool", async () => {
+    const { factOfDay, factOfWeek, loadFacts } = await import("../site/src/lib/facts.ts");
+    const a = factOfDay(new Date(Date.UTC(2026, 0, 15)));
+    const b = factOfDay(new Date(Date.UTC(2026, 0, 15)));
+    expect(a).not.toBeNull();
+    expect(a!.id).toBe(b!.id);
+    const n = loadFacts().length;
+    const afterPool = factOfDay(new Date(Date.UTC(2026, 0, 15 + n)));
+    expect(afterPool!.id).toBe(a!.id);
+    expect(factOfWeek()).not.toBeNull();
+  });
+
+  it("the archive lists every fact with its record and sources, and the poster is one QR-carrying A4 sheet", () => {
+    expect(factsPage.includes("loadFacts()")).toBe(true);
+    expect(factsPage.includes("v.href")).toBe(true);
+    expect(factsPage.includes("E.fc_sources")).toBe(true);
+    expect(poster.includes("<Qr ")).toBe(true);
+    expect(poster.includes("factOfWeek()")).toBe(true);
+    expect(strip.includes("factOfDay()")).toBe(true);
+  });
+
+  it("the fact strings exist in all three languages and Urdu is not the English", () => {
+    for (const k of Object.keys(i18n("ar").edu).filter((k) => k.startsWith("fc_"))) {
+      for (const l of LANGS) expect(typeof i18n(l).edu[k] === "string" && i18n(l).edu[k].length > 0, `${l} ${k}`).toBe(true);
+      expect(i18n("ur").edu[k] === i18n("en").edu[k], `ur repeats en for ${k}`).toBe(false);
+    }
+  });
+});
