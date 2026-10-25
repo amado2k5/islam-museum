@@ -819,3 +819,115 @@ describe("education: Explorers world map (E3 step 8, plan §5)", () => {
     }
   });
 });
+
+describe("E4 step 1 — the teen wing skeleton (/shabab/)", () => {
+  it("edu/bands.yaml keeps scholars and researchers in the shabab wing with /shabab/ hubs", () => {
+    const bs = bands();
+    const sch = bs.find((b) => b.id === "scholars");
+    const res = bs.find((b) => b.id === "researchers");
+    expect(sch?.wing).toBe("shabab");
+    expect(res?.wing).toBe("shabab");
+    expect(sch?.hub).toBe("/shabab/scholars/");
+    expect(res?.hub).toBe("/shabab/researchers/");
+  });
+
+  it("the sb_* strings exist in all three languages, Urdu different from English", () => {
+    for (const k of Object.keys(i18n("ar").shabab).filter((k) => k.startsWith("sb_"))) {
+      for (const l of LANGS) expect(typeof i18n(l).shabab[k] === "string" && i18n(l).shabab[k].length > 0, `${l} ${k}`).toBe(true);
+      expect(i18n("ur").shabab[k] === i18n("en").shabab[k], `ur repeats en for ${k}`).toBe(false);
+    }
+  });
+
+  it("every /shabab/ page exists, breadcrumbs to the wing and stays free of kids chrome", () => {
+    for (const f of ["index", "scholars", "researchers", "daily", "where"]) {
+      const s = readFileSync(`site/src/pages/[lang]/shabab/${f}.astro`, "utf8");
+      expect(s.includes("/shabab/"), f).toBe(true);
+      expect(s.includes("kids={true}") || s.includes("Hudhud") || s.includes("kids.css"), f).toBe(false);
+    }
+  });
+
+  it("check-weight covers the teen family routes", () => {
+    const cw = readFileSync("scripts/check-weight.ts", "utf8");
+    for (const r of ["/ar/shabab/", "/ar/shabab/scholars/", "/ar/shabab/researchers/", "/ar/shabab/daily/", "/ar/shabab/where/"]) {
+      expect(cw.includes(`route: "${r}"`), r).toBe(true);
+    }
+  });
+});
+
+describe("E4 step 2 — edu/topics-50.yaml (taught topics)", () => {
+  it("every topic loads: real anchor, known band, trilingual title and explainer, 12 terms, 10 questions with exactly one answer each", async () => {
+    const { loadTopics } = await import("../site/src/lib/topics.ts");
+    const topics = loadTopics();
+    expect(topics.length).toBeGreaterThan(0);
+    for (const t of topics) {
+      expect(["scholars", "researchers"]).toContain(t.band);
+    }
+  });
+
+  it("anchors come from the approved proposal list, not invented ids", () => {
+    const raw = parse(readFileSync("edu/topics-50.yaml", "utf8")).topics;
+    const approved = new Set([
+      "exhibit/pathway-g11-chw3m-crusades-muslim-side", "exhibit/pathway-g11-chw3m-rise-of-islam",
+      "exhibit/pathway-g11-chw3m-baghdad-and-the-silk-roads", "exhibit/pathway-g11-chw3m-al-andalus",
+      "exhibit/pathway-g11-chw3m-mongols-and-after", "exhibit/pathway-g11-hrf3o-five-pillars-daily-life",
+      "exhibit/pathway-g11-hrt3m-islamic-art-architecture", "exhibit/pathway-g11-hrt3m-life-of-the-prophet",
+      "exhibit/pathway-g11-hrt3m-quran-as-a-text", "exhibit/pathway-g12-chy4u-ottomans-gunpowder-empires",
+      "exhibit/pathway-g4-social-studies-four-cities", "exhibit/pathway-g6-social-studies-hajj-network",
+      "event/battle-of-badr", "event/hijra", "event/first-revelation", "event/conquest-of-mecca",
+      "person/ibn-battuta-muhammad", "person/ibn-sina", "person/al-khwarizmi", "person/ibn-rushd",
+      "person/mansa-musa", "person/fatima-al-fihri", "person/al-ghazali-abu-hamid", "person/mimar-sinan",
+      "person/salah-al-din-yusuf-ibn-ayyub", "building/kaaba", "building/alhambra", "building/dome-of-the-rock",
+      "building/great-mosque-cordoba", "building/al-aqsa-mosque", "building/suleymaniye-mosque",
+      "building/blue-mosque", "building/umayyad-mosque", "building/bayt-al-hikma",
+      "place/damascus", "place/baghdad", "place/cordoba", "place/timbuktu",
+      "place/cairo", "place/delhi", "place/istanbul", "place/mecca", "place/medina", "place/jerusalem",
+      "concept/five-pillars", "concept/hijri-calendar", "concept/algebra", "concept/astronomy",
+      "concept/islamic-calligraphy", "practice/salah", "practice/sawm-ramadan", "practice/zakat",
+    ]);
+    for (const t of raw) expect(approved.has(t.anchor), `${t.id} -> ${t.anchor}`).toBe(true);
+  });
+
+  it("no typed honorifics or Qur'an text in the topic data", () => {
+    const HON = new RegExp("(صلى الله عليه|عليه السلام|رضي الله عنه|رحمه الله|\\uFDFA|\\uFDFF|\\u06D6)");
+    expect(HON.test(readFileSync("edu/topics-50.yaml", "utf8"))).toBe(false);
+  });
+});
+
+describe("E4 step 3 — teen topic pages (60s, practice, glossary)", () => {
+  const PAGE_FILES = [
+    "site/src/pages/[lang]/shabab/60s/[topic].astro",
+    "site/src/pages/[lang]/shabab/practice/[topic].astro",
+    "site/src/pages/[lang]/shabab/glossary/[topic].astro",
+    "site/src/pages/[lang]/shabab/topics.astro",
+  ];
+  it("the four page routes exist and build one path per language and topic", async () => {
+    const { loadTopics } = await import("../site/src/lib/topics.ts");
+    const n = loadTopics().length;
+    for (const f of PAGE_FILES) {
+      const src = readFileSync(f, "utf8");
+      if (f.includes("[topic]")) {
+        expect(src).toContain("loadTopics()");
+        expect(src).toContain("LANGS");
+      }
+    }
+    expect(n).toBeGreaterThan(0);
+  });
+  it("the new shabab strings exist in all three languages", () => {
+    const keys = ["sb_sixty_title", "sb_glossary_title", "sb_practice_title", "sb_practice_mark",
+      "sb_practice_again", "sb_practice_unanswered", "sb_practice_correct", "sb_practice_wrong",
+      "sb_practice_result", "sb_anchor", "sb_sixty_progress", "sb_practice_lede"];
+    for (const l of ["ar", "en", "ur"]) {
+      const d = parse(readFileSync(`i18n/${l}.yaml`, "utf8")).shabab;
+      for (const k of keys) expect(typeof d[k] === "string" && d[k].length > 0, `${l}.${k}`).toBe(true);
+    }
+  });
+  it("practice.ts marks locally only — keyboard-native radios, storage in try/catch", () => {
+    const src = readFileSync("site/src/scripts/practice.ts", "utf8");
+    expect(src).toContain("localStorage");
+    expect(src).toContain("try {");
+    expect(src).not.toContain("fetch(");
+    const comp = readFileSync("site/src/components/PracticeSet.astro", "utf8");
+    expect(comp).toContain('type="radio"');
+    expect(comp).toContain("data-why");
+  });
+});

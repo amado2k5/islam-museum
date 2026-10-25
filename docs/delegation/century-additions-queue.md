@@ -73,26 +73,26 @@ lists' own order. Status markers: [ ] queued · [~] in a writer's hands · [x] m
 - [x] Ramy Youssef — 1991–Living
 - [x] Riz Ahmed — 1982–Living
 - [x] Hasan Minhaj — 1985–Living
-- [ ] Dave Chappelle — 1973–Living
-- [ ] Yasin Bey (Mos Def) — 1973–Living
-- [ ] K'naan — 1978–Living
-- [ ] Dalia Mogahed — 1974–Living
-- [ ] Ingrid Mattson — 1963–Living
-- [ ] Amina Wadud — 1952–Living
-- [ ] Asma Afsaruddin — 1958–Living
-- [ ] Seyed Hossein Nasr — 1933–Living
-- [ ] Ziauddin Sardar — 1948–Living
-- [ ] Mustafa Akyol — 1972–Living
-- [ ] Wael Ghonim — 1980–Living
-- [ ] Shirin Neshat — 1957–Living
-- [ ] El Seed — 1981–Living
-- [ ] Shahzia Sikander — 1969–Living
-- [ ] Lalla Essaydi — 1956–Living
-- [ ] Sal Khan — 1976–Living
-- [ ] Mona Eltahawy — 1967–Living
-- [ ] Gilles Kepel (Contributor) — 1955–Living
-- [ ] Eboo Patel — 1975–Living
-- [ ] Rami Nashashibi — 1972–Living
+- [x] Dave Chappelle — 1973–Living
+- [x] Yasin Bey (Mos Def) — 1973–Living
+- [x] K'naan — 1978–Living
+- [x] Dalia Mogahed — 1974–Living
+- [x] Ingrid Mattson — 1963–Living
+- [x] Amina Wadud — 1952–Living
+- [x] Asma Afsaruddin — 1958–Living
+- [x] Seyed Hossein Nasr — 1933–Living
+- [x] Ziauddin Sardar — 1948–Living
+- [x] Mustafa Akyol — 1972–Living
+- [x] Wael Ghonim — 1980–Living
+- [x] Shirin Neshat — 1957–Living
+- [x] El Seed — 1981–Living
+- [x] Shahzia Sikander — 1969–Living
+- [x] Lalla Essaydi — 1956–Living
+- [x] Sal Khan — 1976–Living
+- [x] Mona Eltahawy — 1967–Living
+- [x] Gilles Kepel (Contributor) — 1955–Living
+- [x] Eboo Patel — 1975–Living
+- [x] Rami Nashashibi — 1972–Living
 - [ ] Linda Sarsour — 1980–Living
 - [ ] Zahra Billoo — 1983–Living
 - [ ] Ibrahim Hooper — 1955–Living
@@ -1007,11 +1007,11 @@ lists' own order. Status markers: [ ] queued · [~] in a writer's hands · [x] m
 - [x] Modibo Adama (1786–1847)
 - [x] Sultan Ali Dinar (1856–1916)
 - [x] Syed Ameer Ali (1849–1928)
-- [ ] Altaf Hussain Hali (1837–1914)
-- [ ] Nazir Ahmad Dehlvi (1830–1912)
-- [ ] Ashraf Ali Thanwi (1863–1943)
-- [ ] Nawab Khwaja Abdul Ghani (1813–1896)
-- [ ] Nawab Salimullah (1871–1915)
+- [x] Altaf Hussain Hali (1837–1914)
+- [x] Nazir Ahmad Dehlvi (1830–1912)
+- [x] Ashraf Ali Thanwi (1863–1943)
+- [x] Nawab Khwaja Abdul Ghani (1813–1896)
+- [x] Nawab Salimullah (1871–1915)
 - [ ] Syed Nawab Ali Chowdhury (1863–1929)
 - [ ] Nawab Faizunnesa Choudhurani (1834–1903)
 - [ ] Rokeya Sakhawat Hossain (1880–1932)

@@ -1,0 +1,34 @@
+id: person/mona-eltahawy
+class: person
+label: { ar: "منى الطحاوي", en: "Mona Eltahawy", ur: "منی الطحاوی" }
+names:
+  - { value: "Mona Eltahawy", kind: full }
+  - { value: "منى الطحاوي", kind: full }
+gender: female
+summary:
+  ar: "صحفية وكاتبة نسوية مصرية أمريكية، وُلدت سنة 1967 في بورسعيد. عملت مراسلة لرويترز في القاهرة والقدس وكتبت في صحف عالمية، وانتقلت إلى الولايات المتحدة سنة 2000. تعرّضت للضرب والاعتداء الجنسي من شرطة مكافحة الشغب المصرية أثناء تغطيتها احتجاجات ميدان التحرير في نوفمبر 2011. من كتبها «الحجاب وغشاء البكارة» (2015) و«الخطايا السبع الضرورية للنساء والفتيات» (2019)، وهي من رائدات حركة #MosqueMeToo."
+  en: "Egyptian-American journalist and feminist writer, born in 1967 in Port Said. She worked as a Reuters correspondent in Cairo and Jerusalem and wrote for publications worldwide, moving to the United States in 2000. Egyptian riot police beat and sexually assaulted her while she covered the Tahrir Square protests in November 2011. Her books are Headscarves and Hymens (2015) and The Seven Necessary Sins for Women and Girls (2019), and she is among the people who spearheaded the #MosqueMeToo movement."
+  ur: "مصری امریکی صحافی اور نسوانی مصنفہ، 1967 میں پورٹ سعید میں پیدا ہوئیں۔ انھوں نے قاہرہ اور یروشلم میں رائٹرز کی نمائندہ کے طور پر کام کیا اور دنیا بھر کے اخبارات میں لکھا، اور 2000 میں امریکہ منتقل ہوئیں۔ نومبر 2011 میں تحریر اسکوائر کے احتجاج کی کوریج کے دوران مصری فسادی پولیس نے انھیں مارا اور جنسی زیادتی کا نشانہ بنایا۔ ان کی کتابوں میں «حجاب اور پردۂ بکارت» (2015) اور «عورتوں اور لڑکیوں کے لیے سات ضروری گناہ» (2019) شامل ہیں، اور وہ #MosqueMeToo تحریک کی بانیوں میں سے ہیں۔"
+roles: [journalist, writer, activist]
+wings: [people, living]
+born:
+  edtf: "1967-08-01"
+  hijri: "1387"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "Born on 1 August 1967 in Port Said, Egypt, following both the English and Arabic articles. No place entity for Port Said exists in data/place/, so no born_in relation is written. The Hijri year (1387) is derived by tabular conversion."
+  sources: [source/wikipedia-mona-eltahawy-en, source/wikipedia-mona-eltahawy-ar]
+faith:
+  - value: unknown
+    basis: unknown
+    note: "NOT RECORDED AS DOCUMENTED — no fetched source names a school for her. She described herself in a 2011 interview as 'a secular, radical feminist Muslim', the Arabic article's infobox gives her religion generically as 'Muslim' and says she likes to present herself as a liberal secular Egyptian Muslim, and the Aspen Institute biography likewise calls her a proud liberal Muslim. A generic Muslim identity — even self-described, and even in two sources — names no school or path, so under the lane rule it stays unknown. Her board membership of the Progressive Muslim Union of North America (2004-2006) is a movement affiliation, which also never counts. Under the two-source rule and the founder's doubt rule the faith is left unknown."
+    sources: [source/wikipedia-mona-eltahawy-en, source/wikipedia-mona-eltahawy-ar]
+sources: [source/wikipedia-mona-eltahawy-en, source/wikipedia-mona-eltahawy-ar]
+provenance:
+  layer: own-research
+  source: "English Wikipedia 'Mona Eltahawy' and Arabic Wikipedia «منى الطحاوي», both read on 25 October 2026; Wikidata was not read directly in this run because Wikimedia returned 403 to this machine, so no Wikidata QID is recorded rather than guessed. No earlier record for her existed in data/person/ under mona-eltahawy, mona-el-tahawy or any other spelling checked; this is a new build, not an enrichment."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: century-additions-13
+status: { review: published, completeness: 3, generated_by: "Muse (Muse Spark 1.3)" }

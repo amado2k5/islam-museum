@@ -52,7 +52,7 @@ He has written dozens of books in Arabic, among them "The True Promise" (al-Wa'd
 He is married with children; the museum does not publish family detail beyond what understanding his work requires. {cite:wikipedia-omar-abdelkafy-ar}
 
 ## Impact and audience
-His lessons and programmes reached a wide audience through Arab satellite channels and then online; the English Wikipedia article states that his YouTube channel had over 9.87 million subscribers. Platform figures change constantly, so this article records them only with the source's revision date of August 2026. {cite:wikipedia-omar-abdelkafy-en}
+His lessons and programmes reached a wide audience through Arab satellite channels and then online; the English Wikipedia article states that his YouTube channel had over 9.87 million subscribers. Platform figures change constantly, so this article records them only with the source's revision date of August 2026. {cite:wikipedia-omar-abdelkafy-en} His own YouTube channel, published under the handle @abdelkafytube and described in its About as his official channel, recorded 10.2 million subscribers in a channel harvest checked on 25 October 2026. {cite:youtube-abdelkafytube}
 
 ## References
 - The defined sources cited above, registered in `data/source/`.

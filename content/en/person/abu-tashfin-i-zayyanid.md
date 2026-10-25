@@ -14,3 +14,6 @@ Ibn Khaldun relates that his father gave him companions from the Mu'alluj to ser
 Abu Tashfin held the affair alone after his father, [[person/abu-hammu-i-musa-zayyanid|Abu Hammu Musa]]. He then marched against Muhammad ibn Yusuf, who had rebelled against his father when he returned from the siege of Bejaia. His wars with the Almohads in the long strife over Bejaia and Tlemcen continued. {cite:tarikh-ibn-khaldun-ibar}
 
 This page belongs to the [[polity/zayyanid-tlemcen|Zayyanid state of Tlemcen]].
+
+## Encyclopaedia of Islam account
+The Encyclopaedia of Islam (2nd ed.) entry on Abu Tashufin I, 'Abd al-Rahman b. Abi Hammu, of the 'Abd al-Wadid dynasty, says that he was proclaimed on 23 Jumada I 718/23 July 1318 after the murder of his father Abu Hammu I. He exiled to Spain all the relatives who could claim the throne, which freed him to besiege Constantine and Bougie and to try to extend the kingdom eastwards. The Hafsids and the Marinid sultan Abu l-Hasan then seized his dominions and besieged Tlemcen in 735/1335; two years later the capital was taken by assault and the king was killed in battle. {cite:encyclopaedia-of-islam-2 vol. 1 p. 174}

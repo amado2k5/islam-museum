@@ -1,0 +1,42 @@
+---
+// Researchers band (16–18) — mascot-free band page for the teen wing.
+import BaseLayout from "../../../layouts/BaseLayout.astro";
+import { ui, LANGS, type Lang } from "../../../lib/i18n";
+import { viewBands } from "../../../lib/edu";
+import "../../../styles/edu.css";
+
+export function getStaticPaths() { return LANGS.map((lang) => ({ params: { lang }, props: { lang } })); }
+const { lang } = Astro.props as { lang: Lang };
+const T = ui(lang);
+const S = T.shabab;
+const band = viewBands(lang, T.kids).find((b) => b.id === "researchers")!;
+const path = `/${lang}/shabab/researchers/`;
+const live = [
+  { href: `/${lang}/shabab/topics/`, title: S.sb_topics, lede: S.sb_topics_lede },
+  { href: `/${lang}/shabab/daily/`, title: S.sb_daily, lede: S.sb_daily_lede },
+  { href: `/${lang}/shabab/where/`, title: S.sb_where, lede: S.sb_where_lede },
+];
+const coming = [
+  { title: S.sb_dilemmas, lede: S.sb_dilemmas_lede },
+  { title: S.sb_detective, lede: S.sb_detective_lede },
+  { title: S.sb_journey, lede: S.sb_journey_lede },
+];
+const crumbLabel = lang === "ar" ? "مسار التنقل" : "breadcrumb";
+---
+<BaseLayout lang={lang} title={band.name} description={S.sb_researchers_lede} path={path}>
+  <div class="wrap edu" style="padding-block:10px 24px" data-pagefind-ignore>
+    <nav class="ui muted no-print" aria-label={crumbLabel}><a href={`/${lang}/shabab/`}>{S.sb_title}</a> › {band.name}</nav>
+    <section class="edu-hero">
+      <p class="ui" style="color:var(--gold);margin:0 0 .2rem">{S.sb_researchers_ages}</p>
+      <h1>{band.name}</h1>
+      <p>{S.sb_researchers_lede}</p>
+    </section>
+    <section aria-labelledby="res-live">
+      <h2 id="res-live" class="ui" style="font-size:1.15rem">{S.sb_activities}</h2>
+      <ul class="edu-adult">
+        {live.map((a) => <li><a href={a.href}><span><h2>{a.title}</h2><p>{a.lede}</p></span></a></li>)}
+        {coming.map((a) => <li><span><h2>{a.title} <span class="chip soon">{S.sb_soon}</span></h2><p>{a.lede}</p></span></li>)}
+      </ul>
+    </section>
+  </div>
+</BaseLayout>

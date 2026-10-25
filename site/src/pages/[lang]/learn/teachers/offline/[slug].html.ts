@@ -44,7 +44,7 @@ ${p.kit.map((k) => `  <li>${esc(k.title)} <span class="sheets">${esc(E.pk_sheets
 <p>${esc(E.pk_note)}</p>
 <h2>${esc(E.fc_all)}</h2>
 <ol class="facts">
-${facts.map((f) => `  <li>${esc(f.text)} — <em>${esc(f.rec.title)}</em></li>`).join("\n")}
+${facts.map((f) => `  <li>${esc(f.text)} — <em>${esc(f.rec.label)}</em></li>`).join("\n")}
 </ol>
 <p class="foot">islam.museum — ${esc(`/${lang}/learn/teachers/packs/${p.id}/`)} · ${esc(E.pk_offline_note)}</p>
 </body>

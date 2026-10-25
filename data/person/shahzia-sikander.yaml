@@ -1,0 +1,36 @@
+id: person/shahzia-sikander
+class: person
+label: { ar: "شهزية سكندر", en: "Shahzia Sikander", ur: "شہزیہ سکندر" }
+names:
+  - { value: "Shahzia Sikander", kind: full }
+  - { value: "شہزیہ سکندر", kind: full }
+gender: female
+summary:
+  ar: "فنانة بصرية باكستانية-أمريكية، وُلدت في لاهور سنة 1969. أحيت فنّ المنمنمات الإندو-فارسية الذي كان منسيًا بين فناني جيلها، إذ درسته في الكلية الوطنية للفنون بلاهور على يد المعلّم بشير أحمد، وكان عمل تخرّجها «المخطوطة» (1989–1990) انطلاقتها وانطلاقة ما سُمّي المنمنمة الجديدة. نالت الماجستير من مدرسة رود آيلاند للتصميم سنة 1995 وتقيم في نيويورك، وامتدّ عملها إلى الرسوم المتحركة والنحت والتركيب، ومنه منحوتتا «الآن» و«الشاهدة» (2023)، ونالت زمالة ماك آرثر سنة 2006."
+  en: "Pakistani-American visual artist, born in Lahore in 1969. She revived the Indo-Persian miniature painting that younger artists of her generation had abandoned, studying it at the National College of Arts in Lahore under the master miniaturist Bashir Ahmad; her thesis work The Scroll (1989-90) was her breakthrough and launched what came to be called the neo-miniature. She took her MFA at the Rhode Island School of Design in 1995 and lives in New York; her work has expanded into animation, sculpture and installation, including the sculptures NOW and Witness (2023). She received a MacArthur Fellowship in 2006."
+  ur: "پاکستانی-امریکی بصری فنکارہ، 1969 میں لاہور میں پیدا ہوئیں۔ انھوں نے ہند-فارسی منی ایچر مصوری کو زندہ کیا جسے ان کی نسل کے فنکار ترک کر چکے تھے: اسے لاہور کے نیشنل کالج آف آرٹس میں استاد بشیر احمد سے سیکھا، اور ان کے تھیسس کام «دی اسکرول» (1989ء–1990ء) نے انھیں شہرت دی اور نو-منی ایچر کی بنیاد رکھی۔ انھوں نے 1995 میں رہوڈ آئی لینڈ اسکول آف ڈیزائن سے ایم ایف اے کیا اور نیویارک میں رہتی ہیں؛ ان کا کام اینیمیشن، مجسمہ سازی اور تنصیب تک پھیل گیا، جس میں مجسمے «ناؤ» اور «وٹنس» (2023) شامل ہیں۔ انھیں 2006 میں میک آرتھر فیلوشپ ملی۔"
+roles: [artist]
+wings: [people, living]
+born:
+  edtf: "1969-03-06"
+  hijri: "1388"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "The English Wikipedia article gives only the year 1969 and Lahore; the full date of 6 March 1969 in Lahore is given by Encyclopaedia Britannica and is followed here. The Hijri year (1388) is derived by tabular conversion."
+  sources: [source/britannica-shahzia-sikander, source/wikipedia-shahzia-sikander-en]
+relations:
+  - { type: born_in, target: place/lahore, sources: [source/britannica-shahzia-sikander, source/wikipedia-shahzia-sikander-en] }
+faith:
+  - value: unknown
+    basis: unknown
+    note: "NOT RECORDED AS DOCUMENTED — two sources describe her as a Muslim woman, and neither names any school or path for her, which is what the lane records. Britannica writes that in the United States she grappled 'with the challenges of being an immigrant and a Muslim woman', and the English article likewise speaks of her as a Muslim woman in New York after 9/11 and of the veil motif as exploring 'her own religious history and cultural identity'. Those are descriptions of a general Muslim identity and of her work's themes — the Mughal (Islamic) and Rajput (Hindu) forms she studied, the veil, the gopi figures — and subject matter and a generic identity label are not an attestation of a specific school. No fetched source calls her Sunni, Shia or anything more specific. Under the two-source rule (two sources naming a specific school for the person herself) and the founder's doubt rule the faith is left unknown, with the general descriptions recorded here."
+    sources: [source/wikipedia-shahzia-sikander-en, source/britannica-shahzia-sikander]
+sources: [source/wikipedia-shahzia-sikander-en, source/britannica-shahzia-sikander]
+provenance:
+  layer: own-research
+  source: "English Wikipedia 'Shahzia Sikander' and Encyclopaedia Britannica's entry 'Shahzia Sikander' (published 21 January 2025), both read in full on 25 October 2026. Her teacher Bashir Ahmad the miniaturist has no person entity in the museum, so no student_of relation is written. No earlier record for her existed in data/person/ under any spelling (sikander checked); this is a new build, not an enrichment. No Wikidata item was registered for her in this run, so no external ID is recorded rather than an unverified one."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: century-additions-12
+status: { review: published, completeness: 3, generated_by: "Muse (Muse Spark 1.3)" }

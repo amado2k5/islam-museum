@@ -137,9 +137,10 @@ const dayLabel = (n: number) => fmt(t.kindness_day, { n: String(n) });
 .kindness-all li { break-inside: avoid; margin-bottom: .4rem; }
 @media (max-width: 560px) { .kindness-all ol { columns: 1; } }
 @media print {
-  .kindness-play, .kindness-all { display: none !important; }
-  .sticker-chart { grid-template-columns: 1fr 1fr; }
-  .sticker-chart li { break-inside: avoid; }
+  .kindness-play, .kindness-all, .progress-line, .kindness-bar { display: none !important; }
+  .sticker-chart { grid-template-columns: 1fr 1fr; gap: 4px; margin: 0.4rem 0; }
+  .sticker-chart li { break-inside: avoid; padding: 4px 6px; font-size: 0.75rem; }
+  .sticker-chart .box { font-size: 1rem; }
   .day-btn { break-inside: avoid; }
 }
 @media (prefers-reduced-motion: reduce) {

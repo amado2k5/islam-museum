@@ -1,0 +1,34 @@
+id: person/gilles-kepel
+class: person
+label: { ar: "جيل كيبل", en: "Gilles Kepel", ur: "ژیل کیپل" }
+names:
+  - { value: "Gilles Kepel", kind: full }
+  - { value: "جيل كيبل", kind: full }
+gender: male
+summary:
+  ar: "عالم سياسة ومستعرب فرنسي، وُلد سنة 1955 في باريس، متخصّص في الشرق الأوسط المعاصر والمسلمين في الغرب. بدأ دراسة العربية بعد رحلة إلى المشرق سنة 1974، وأنجز في مصر العمل الميداني لأطروحته عن الحركات الإسلامية التي صدرت بالإنجليزية بعنوان «النبي والفرعون» (1985)، وهو من أوائل الدراسات لأي لغة في التشدد الإسلامي المعاصر. من كتبه «انتقام الله» (1991) و«الجهاد: مسار الإسلام السياسي» و«بعيدًا عن الفوضى» (2020). وهو مدرج في هذا المتحف بصفته مساهمًا بارزًا في دراسة الإسلام الحديث، لا بصفته مسلمًا."
+  en: "French political scientist and Arabist, born in 1955 in Paris, specialising in the contemporary Middle East and in Muslims in the West. He began studying Arabic after a journey to the Levant in 1974 and did the fieldwork in Egypt for his thesis on Islamist movements, published in English as The Prophet and Pharaoh (1985), among the first studies in any language of contemporary Islamist militancy. His books include The Revenge of God (1991), Jihad: The Trail of Political Islam, and Away from Chaos (2020). He is included in this museum as a leading contributor to the study of modern Islam, not as a Muslim."
+  ur: "فرانسیسی ماہرِ سیاسیات و مستعرب، 1955 میں پیرس میں پیدا ہوئے، جو معاصر مشرقِ وسطیٰ اور مغرب میں مسلمانوں کے ماہر ہیں۔ انھوں نے 1974 میں مشرق کے سفر کے بعد عربی سیکھنا شروع کی اور مصر میں اسلامی تحریکوں پر اپنے مقالے کا میدانی کام کیا، جو انگریزی میں «پیغمبر اور فرعون» (1985) کے عنوان سے شائع ہوا۔ ان کی کتابوں میں «خدا کا انتقام» (1991)، «جہاد: سیاسی اسلام کا راستہ» اور «انتشار سے دور» (2020) شامل ہیں۔ وہ اس میوزیم میں جدید اسلام کے مطالعے کے نمایاں معاون کے طور پر شامل ہیں — مسلمان کے طور پر نہیں۔"
+roles: [scholar, writer, professor]
+wings: [people, living]
+born:
+  edtf: "1955-06-30"
+  hijri: "1374"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "Born on 30 June 1955 in Paris, France, following both the English and Arabic articles. No place entity for Paris exists in data/place/, so no born_in relation is written. The Hijri year (1374) is derived by tabular conversion."
+  sources: [source/wikipedia-gilles-kepel-en, source/wikipedia-gilles-kepel-ar]
+faith:
+  - value: unknown
+    basis: unknown
+    note: "NOT RECORDED — no fetched source attests any personal religion for Kepel at all, and nothing in this record presents him as a Muslim. He is recorded, following the honoured-contemporary precedent of person/fairuz, for his contribution to the study of Islam: the founder's queue marks him '(Contributor)'. The English and Arabic articles describe his field — political Islam, the contemporary Middle East and Muslims in the West — his CNRS and university posts, and his books; a scholar's subject, teachers, employers and fieldwork are not a faith attestation, and no source names a religion or school as his own. Under the two-source rule and the founder's doubt rule the faith is left unknown, with no assumption made in either direction."
+    sources: [source/wikipedia-gilles-kepel-en, source/wikipedia-gilles-kepel-ar]
+sources: [source/wikipedia-gilles-kepel-en, source/wikipedia-gilles-kepel-ar]
+provenance:
+  layer: own-research
+  source: "English Wikipedia 'Gilles Kepel' and Arabic Wikipedia «جيل كيبيل», both read on 25 October 2026; Wikidata was not read directly in this run because Wikimedia returned 403 to this machine, so no Wikidata QID is recorded rather than guessed. No earlier record for him existed in data/person/ under gilles-kepel or any other spelling checked; this is a new build, not an enrichment."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: century-additions-13
+status: { review: published, completeness: 3, generated_by: "Muse (Muse Spark 1.3)" }

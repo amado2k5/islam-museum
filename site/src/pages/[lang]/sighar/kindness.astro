@@ -15,13 +15,13 @@ if (deeds.length !== 30) throw new Error(`kindness: expected 30 deeds, got ${dee
 const crumbLabel = lang === "ar" ? "مسار التنقل" : "breadcrumb";
 ---
 <BaseLayout lang={lang} title={t.kindness_title} description={t.kindness_lede} path={`/${lang}/sighar/kindness/`} kids={true}>
-  <nav aria-label={crumbLabel} class="crumbs">
+  <nav aria-label={crumbLabel} class="crumbs no-print">
     <a href={`/${lang}/sighar/`}>{t.hub_title}</a>
     <span aria-hidden="true"> / </span>
     <span aria-current="page">{t.kindness_title}</span>
   </nav>
   <KindnessQuest lang={lang} t={t} deeds={deeds} />
-  <details class="grownups">
+  <details class="grownups no-print">
     <summary>{t.grownups_title}</summary>
     <p>{t.grownups_kindness}</p>
   </details>
