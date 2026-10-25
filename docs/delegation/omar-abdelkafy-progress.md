@@ -29,6 +29,20 @@ Write prose from the pilot transcripts (`pass5-qwen`, the working engine), as th
 
 Downloaded and transcribed, not completed: `aadau-al-islam` episodes 1–4 (transcripts only; verification in progress).
 
+## Excluded items (standing rule, founder's instruction, 25 Oct 2026)
+
+Every enrichment, prose passage, claim or entity that is dropped or left out must be listed here, with:
+- **Item:** the entity, sentence or line (with its episode and timestamp).
+- **Reason:** what was wrong with it (unclear transcript line, garbled name or number, conflict with another source, outside the lane's scope, and so on).
+- **Gate failed:** the rule it did not meet (for example "unclear transcript", "single occurrence, name garbled", "no citation resolves", "schema check").
+- **Override:** `open` until the founder authorises re-entry; then `re-entered by founder authorisation (date)` or `kept excluded`.
+
+Nothing is re-entered without the founder's written authorisation.
+
+| Item | Episode / time | Reason | Gate failed | Override |
+|---|---|---|---|---|
+| (none yet) | | | | |
+
 ## Batch log
 
 - Batch 0 (25 Oct 2026, commit on branch `claude/harvest-omar-abdel-kafi-content-81375c`): method document, scripts, lane document, source entity, registry and engineering-doc updates; person record `person/omar-abdelkafy` enriched in ar, en and ur with the archive's biography conflict (birth 1951 against 1952) and the archive's list of 25 series (622 lessons) under `source/assabile-omar-abdelkafy`. Sources: the archive's own pages (biography, series index), not transcripts. Checks: `npm run validate` 0 errors, `npm test` 13 of 13 files pass, `npm run cite-check -- person/omar-abdelkafy` pass, `npm run coverage` regenerated.
