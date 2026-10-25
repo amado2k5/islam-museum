@@ -1,0 +1,55 @@
+---
+// Seasonal pack landing page (docs/delegation/education-master-plan.md §5 E3, step 4): what the pack is
+// for, when it runs, and its kit — a checklist of the museum's printables that together make the 8–12
+// page class kit, each with its sheet count and QR back to the pack. No JavaScript needed; the page is
+// the same on screen and on paper. The site sends nothing: the email text for each pack lives in
+// docs/outreach/education/<slug>.md for the founder to send.
+import BaseLayout from "../../../../../layouts/BaseLayout.astro";
+import Qr from "../../../../../components/Qr.astro";
+import { ui, fmt, LANGS, type Lang } from "../../../../../lib/i18n";
+import { loadPacks, viewPack, type Pack } from "../../../../../lib/packs";
+import "../../../../../styles/edu.css";
+
+export function getStaticPaths() {
+  return LANGS.flatMap((lang) => loadPacks().map((p) => ({ params: { lang, slug: p.id }, props: { pack: p, lang } })));
+}
+const { pack, lang } = Astro.props as { pack: Pack; lang: Lang };
+const T = ui(lang);
+const E = T.edu;
+const p = viewPack(pack, lang);
+const path = `/${lang}/learn/teachers/packs/${p.id}/`;
+const sheets = p.kit.reduce((a, k) => a + k.sheets, 0);
+---
+<BaseLayout lang={lang} title={p.title} description={p.lede} path={path}>
+  <div class="wrap edu pk" style="padding-block:10px 24px">
+    <nav class="ui muted no-print" aria-label="breadcrumb"><a href={`/${lang}/learn/`}>{E.title}</a> › <a href={`/${lang}/learn/teachers/`}>{E.teachers_title}</a> › {p.title}</nav>
+    <section class="edu-hero">
+      <p class="ui" style="color:var(--gold);margin:0 0 .2rem">{E.pk_season}</p>
+      <h1>{p.title}</h1>
+      <p>{p.lede}</p>
+      <p class="ui muted">{p.when}</p>
+      <p class="no-print"><button type="button" class="chip" style="border:1px solid var(--gold);cursor:pointer" onclick="window.print()">{E.tp_print}</button></p>
+    </section>
+
+    <section aria-labelledby="pk-kit">
+      <h2 id="pk-kit" class="ui" style="font-size:1.05rem">{fmt(E.pk_kit_title, { n: String(sheets) })}</h2>
+      <ol class="pk-kit">
+        {p.kit.map((k) => (
+          <li>
+            <span class="pk-name"><a href={k.href}>{k.title}</a></span>
+            <span class="ui pk-sheets muted">{fmt(E.pk_sheets, { n: String(k.sheets) })}</span>
+          </li>
+        ))}
+      </ol>
+      <p class="muted" style="max-width:var(--measure)">{E.pk_note}</p>
+    </section>
+
+    <Qr lang={lang} path={path} />
+  </div>
+  <style>
+    .pk-kit { list-style: none; margin: 0 0 .6rem; padding: 0; display: grid; gap: 8px; max-width: 46rem; }
+    .pk-kit > li { border: 1px solid var(--line); border-radius: 12px; padding: 10px 14px; background: var(--card); display: flex; justify-content: space-between; align-items: baseline; gap: 12px; }
+    .pk-sheets { flex: none; font-size: .85rem; }
+    @media print { .pk .edu-hero .chip, nav { display: none !important; } }
+  </style>
+</BaseLayout>
