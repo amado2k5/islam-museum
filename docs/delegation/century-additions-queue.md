@@ -123,11 +123,11 @@ lists' own order. Status markers: [ ] queued · [~] in a writer's hands · [x] m
 - [ ] Asghar Farhadi — 1972–Living
 - [ ] Majid Majidi — 1959–Living
 - [ ] Abbas Kiarostami — 1940–2016
-- [ ] Nuri Bilge Ceylan — 1959–Living
-- [ ] Youssef Chahine — 1926–2008
-- [ ] Haifaa al-Mansour — 1974–Living
-- [ ] Nadine Labaki — 1974–Living
-- [ ] Jehane Noujaim — 1974–Living
+- [x] Nuri Bilge Ceylan — 1959–Living
+- [x] Youssef Chahine — 1926–2008
+- [x] Haifaa al-Mansour — 1974–Living
+- [x] Nadine Labaki — 1974–Living
+- [x] Jehane Noujaim — 1974–Living
 - [ ] Academy Award Winner Sharmeen Obaid-Chinoy — 1978–Living
 - [ ] Kazi Nazrul Islam — 1899–1976
 - [ ] Humayun Ahmed — 1948–2012
