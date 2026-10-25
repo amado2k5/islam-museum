@@ -31,6 +31,7 @@ Errors:
 - U+FFFD, or `ق.م هـ`, on any page.
 - A date rendered with a placeholder digit (`dddd-dd-dX`).
 - A footnote link `#note-N` with no `id="note-N"` on the same page.
+- An `<audio>` or `<video>` element without a text alternative: it must carry `aria-describedby` pointing to a transcript or stated text equivalent (or `aria-label`), or contain `<track kind="captions">`. Media never auto-plays, and captions and transcripts are provided in all published languages.
 
 Warnings:
 

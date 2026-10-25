@@ -22,6 +22,17 @@ export function scan(files: Iterable<{ path: string; html: string }>): { errors:
     }
     if (/<meta name="description" content=""/.test(html)) warns.push(`${file}: empty meta description`);
     if (/<li>\s*<\/li>/.test(html)) warns.push(`${file}: empty <li> element`);
+    // Media rule (WCAG 1.2): every <audio>/<video> needs a captions <track> or a stated text
+    // equivalent — aria-describedby to a transcript/figcaption, or an aria-label naming it;
+    // and media must never auto-play.
+    for (const m of html.matchAll(/<(audio|video)\b[^>]*>/g)) {
+      const open = m[0];
+      const inner = open.endsWith("/>") ? "" : html.slice(m.index! + open.length, m.index! + open.length + 3000).split(/<\/(audio|video)>/)[0];
+      const hasCaptions = /<track\b[^>]*kind="captions"/.test(inner);
+      if (!/\s(aria-describedby|aria-label)=/.test(open) && !hasCaptions)
+        errors.push(`${file}: <${m[1]}> without a captions <track> or a text equivalent (aria-describedby)`);
+      if (/\sautoplay\b/i.test(open)) errors.push(`${file}: <${m[1]}> auto-plays (media must start on user action)`);
+    }
   }
   return { errors, warns };
 }
