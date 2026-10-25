@@ -11,7 +11,16 @@ start: { edtf: "1500~", calendar: julian, precision: year, status: historical, n
 end: { edtf: "1800~", calendar: gregorian, precision: year, status: historical }
 sources: [source/hodgson-1974, source/hourani-1991]
 education:
+  did_you_know:
+    ar: "«إمبراطوريات البارود» ثلاث دول كبرى معاصرة: العثمانية والصفوية والمغولية الهندية، طويلة العمر ذات بلاطات وفنون."
+    en: "The 'Gunpowder Empires' were three long-lived contemporary powers — Ottoman, Safavid and Mughal India — famed for their courts and arts."
+    ur: "«بارود کی سلطنتیں» تین ہمعصر طویل العمر طاقتیں تھیں — عثمانی، صفوی اور مغلیہ ہند — اپنے درباروں اور فنون کی وجہ سے مشہور۔"
+    sources: [source/hodgson-1974, source/hourani-1991]
   levels: [sprouts, explorers, scholars]
   flagged_for_kids: true
   provenance: { generated_by: "Devin", model: "gemini-2.5-pro", run: "education-E2-batch2", note: "Leveled texts drafted from the record's own summary and prose; draft, pending the founder's review and scholar review of the child levels." }
 status: { review: draft, completeness: 1, generated_by: "Claude Sonnet 5.5; boundaries are curatorial and approximate" }
+provenance:
+  layer: own-research
+  source: "education fact engine batch 3 — did_you_know fact drafted in three languages from the record's own cited sources"
+  generated_by: Devin

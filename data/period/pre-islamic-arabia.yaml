@@ -11,7 +11,16 @@ start: { edtf: "0500~", calendar: julian, precision: year, status: historical, n
 end: { edtf: "0610~", calendar: julian, precision: year, status: historical }
 sources: [source/hodgson-1974, source/hourani-1991]
 education:
+  did_you_know:
+    ar: "قبل الوحي كانت جزيرة العرب مدناً تجارية وقبائل وشعراً، وفيها جماعات يهودية ومسيحية ووثنية."
+    en: "Before the revelation, Arabia was a land of trading cities, tribes and poetry, with Jewish, Christian and pagan communities."
+    ur: "وحی سے پہلے جزیرہ عرب تجارتی شہروں، قبائل اور شاعری کی سرزمین تھا جس میں یہودی، مسیحی اور بُت پرست برادریاں آباد تھیں۔"
+    sources: [source/hodgson-1974, source/hourani-1991]
   levels: [sprouts, explorers, scholars]
   flagged_for_kids: true
   provenance: { generated_by: "Claude Code", model: "Claude Haiku 5.5 (claude-haiku-5-5)", run: "education-E2-batch1", note: "Leveled texts drafted from the record's own summary; draft, pending the founder's review and scholar review of the child levels." }
 status: { review: draft, completeness: 1, generated_by: "Claude Sonnet 5.5; boundaries are curatorial and approximate" }
+provenance:
+  layer: own-research
+  source: "education fact engine batch 3 — did_you_know fact drafted in three languages from the record's own cited sources"
+  generated_by: Devin

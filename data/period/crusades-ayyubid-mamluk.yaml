@@ -11,7 +11,16 @@ start: { edtf: "1095", calendar: julian, precision: year, status: historical, no
 end: { edtf: "1517", calendar: julian, precision: year, status: historical }
 sources: [source/hodgson-1974, source/hourani-1991]
 education:
+  did_you_know:
+    ar: "عصر الحروب الصليبية شهد قيام دولة صلاح الدين الأيوبي، ثم حكم المماليك مصر والشام حتى الفتح العثماني."
+    en: "The Crusades age saw Salah al-Din's Ayyubid state, then Mamluk rule over Egypt and Syria until the Ottoman conquest."
+    ur: "صلیبی جنگوں کے دور میں صلاح الدین ایوبی کی ریاست قائم ہوئی، پھر فتحِ عثمانی تک مملوکوں نے مصر و شام پر حکومت کی۔"
+    sources: [source/hodgson-1974, source/hourani-1991]
   levels: [sprouts, explorers, scholars]
   flagged_for_kids: true
   provenance: { generated_by: "Devin", model: "gemini-2.5-pro", run: "education-E2-batch2", note: "Leveled texts drafted from the record's own summary and prose; draft, pending the founder's review and scholar review of the child levels." }
 status: { review: draft, completeness: 1, generated_by: "Claude Sonnet 5.5; boundaries are curatorial and approximate" }
+provenance:
+  layer: own-research
+  source: "education fact engine batch 3 — did_you_know fact drafted in three languages from the record's own cited sources"
+  generated_by: Devin

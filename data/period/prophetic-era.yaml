@@ -11,7 +11,16 @@ start: { edtf: "0610~", calendar: julian, precision: year, status: tradition, no
 end: { edtf: "0632-06", hijri: "0011-03", calendar: julian, precision: month, status: tradition }
 sources: [source/ibn-ishaq-guillaume, source/watt-1956-medina]
 education:
+  did_you_know:
+    ar: "العصر النبوي سنوات الدعوة في مكة والمدينة، من بدء الوحي سنة ٦١٠م إلى وفاة النبي سنة ٦٣٢م."
+    en: "The Prophetic Era spans the call in Mecca and Medina — from the first revelation in 610 CE to the Prophet's death in 632."
+    ur: "نبوی دور مکہ اور مدینہ میں دعوت کے سالوں پر محیط ہے — 610ء میں وحی کے آغاز سے 632ء میں وفاتِ نبوی تک۔"
+    sources: [source/ibn-ishaq-guillaume, source/watt-1956-medina]
   levels: [sprouts, explorers, scholars]
   flagged_for_kids: true
   provenance: { generated_by: "Devin", model: "gemini-2.5-pro", run: "education-E2-batch4", note: "Leveled texts drafted from the record's own summary and prose; draft, pending the founder's review and scholar review of the child levels." }
 status: { review: draft, completeness: 2, generated_by: "Claude Sonnet 5.5 (scaffold)" }
+provenance:
+  layer: own-research
+  source: "education fact engine batch 3 — did_you_know fact drafted in three languages from the record's own cited sources"
+  generated_by: Devin
