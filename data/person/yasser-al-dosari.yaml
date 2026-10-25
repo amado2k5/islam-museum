@@ -1,0 +1,37 @@
+id: person/yasser-al-dosari
+class: person
+label: { ar: "ياسر الدوسري", en: "Yasser Al-Dosari", ur: "یاسر الدوسری" }
+names:
+  - { value: "ياسر بن راشد بن حسين الودعاني الدوسري", kind: full }
+  - { value: "Yasir ibn Rashid al-Dawsari", kind: full }
+gender: male
+summary:
+  ar: "قارئ قرآن وعالم سعودي، وُلد في محافظة الخرج سنة 1980، وحفظ القرآن في الخامسة عشرة، وأمّ مساجد الرياض منذ 1995، ثم عُيّن إمامًا مشاركًا للتراويح والتهجد في المسجد الحرام سنة 2015 وإمامًا دائمًا وخطيبًا فيه، وهو أستاذ مشارك في الفقه المقارن بجامعة أم القرى."
+  en: "Saudi Quran reciter and scholar, born in al-Kharj governorate in 1980. He memorised the Quran by the age of fifteen and led prayers in Riyadh mosques from 1995, before being appointed a Taraweeh and Tahajjud imam at Masjid al-Haram in 2015 and then a permanent imam and khatib there. He is an associate professor of comparative fiqh at Umm Al-Qura University."
+  ur: "سعودی قاریِ قرآن اور عالم، جو 1980 میں محافظہ الخرج میں پیدا ہوئے۔ انہوں نے پندرہ سال کی عمر میں قرآن حفظ کیا اور 1995 سے ریاض کی مساجد میں امامت کی، پھر 2015 میں مسجد الحرام میں تراویح و تہجد کے شریک امام اور بعد ازاں مستقل امام و خطیب مقرر ہوئے۔ وہ جامعہ ام القریٰ میں فقہ مقارن کے ایسوسی ایٹ پروفیسر ہیں۔"
+roles: [reciter, scholar]
+wings: [people, living]
+born:
+  edtf: "1980-08-06"
+  hijri: "1400"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: false
+  note: "Gregorian date from both articles and Wikidata; the Arabic article states 6 August 1980 / 24 Ramadan 1400 AH, born in al-Kharj governorate."
+  sources: [source/wikipedia-yasser-al-dosari-en, source/wikipedia-yasser-al-dosari-ar, source/wikidata-yasser-al-dosari]
+relations:
+  - { type: lived_in, target: place/mecca, sources: [source/wikipedia-yasser-al-dosari-en, source/wikipedia-yasser-al-dosari-ar] }
+faith:
+  - value: unknown
+    basis: unknown
+    note: "Wikidata gives only Islam. Neither the English nor the Arabic Wikipedia article names a school; his teachers are not a school attribution for him. Not recorded as sunni until a second source confirms it."
+    sources: [source/wikidata-yasser-al-dosari, source/wikipedia-yasser-al-dosari-en, source/wikipedia-yasser-al-dosari-ar]
+external_ids: { wikidata: "Q12251502" }
+sources: [source/wikipedia-yasser-al-dosari-en, source/wikipedia-yasser-al-dosari-ar, source/wikidata-yasser-al-dosari]
+provenance:
+  layer: own-research
+  source: "English Wikipedia 'Yasir al-Dawsari' (revision of 18 October 2026), Arabic Wikipedia «ياسر الدوسري» (revision of 14 October 2026), Wikidata Q12251502, checked 24 October 2026"
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: modern-figures-batch-4
+status: { review: published, generated_by: "Muse (Muse Spark 1.3)" }

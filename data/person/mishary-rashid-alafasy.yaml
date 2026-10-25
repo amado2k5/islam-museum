@@ -1,0 +1,37 @@
+id: person/mishary-rashid-alafasy
+class: person
+label: { ar: "مشاري راشد العفاسي", en: "Mishary Rashid Alafasy", ur: "مشاری بن راشد العفاسی" }
+names:
+  - { value: "مشاري بن راشد بن غريب بن محمد بن راشد العفاسي", kind: full }
+  - { value: "Mishari bin Rashid Alafasy", kind: full }
+gender: male
+summary:
+  ar: "قارئ قرآن كويتي وإمام المسجد الكبير بالكويت وخطيب ومنشد، وُلد سنة 1976، درس القراءات العشر والتفسير في الجامعة الإسلامية بالمدينة المنورة، وانتشرت تسجيلاته القرآنية والإنشادية في العالم عبر القنوات والمنصات الرقمية."
+  en: "Kuwaiti Quran reciter, imam of the Grand Mosque of Kuwait, preacher and nasheed artist, born in 1976. He studied the ten qira'at and tafsir at the Islamic University of Madinah, and his Quran recordings and nasheeds have spread worldwide through broadcast channels and digital platforms."
+  ur: "کویتی قاریِ قرآن، کویت کی جامع مسجد کے امام، خطیب اور نعت خواں، جو 1976 میں پیدا ہوئے۔ انہوں نے مدینہ منورہ کی اسلامی یونیورسٹی میں عشرہ قراءات اور تفسیر کی تعلیم حاصل کی، اور ان کی قرآنی ریکارڈنگز اور نعتیں چینلز اور ڈیجیٹل پلیٹ فارمز کے ذریعے دنیا بھر میں پھیل گئیں۔"
+roles: [reciter, preacher]
+wings: [people, living]
+born:
+  edtf: "1976-09-05"
+  hijri: "1396"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: false
+  note: "Gregorian date from Wikidata and both articles; the Arabic article states the birth as Sunday 11 Ramadan 1396 AH / 5 September 1976 in Kuwait."
+  sources: [source/wikipedia-mishary-rashid-alafasy-ar, source/wikipedia-mishary-rashid-alafasy-en, source/wikidata-mishary-rashid-alafasy]
+relations:
+  - { type: lived_in, target: place/medina, sources: [source/wikipedia-mishary-rashid-alafasy-en, source/wikipedia-mishary-rashid-alafasy-ar] }
+faith:
+  - value: unknown
+    basis: unknown
+    note: "Wikidata gives Islam and Sunni Islam. Neither the English nor the Arabic Wikipedia article names a school. Not recorded as sunni until a second source confirms it."
+    sources: [source/wikidata-mishary-rashid-alafasy, source/wikipedia-mishary-rashid-alafasy-en, source/wikipedia-mishary-rashid-alafasy-ar]
+external_ids: { wikidata: "Q948361" }
+sources: [source/wikipedia-mishary-rashid-alafasy-en, source/wikipedia-mishary-rashid-alafasy-ar, source/wikidata-mishary-rashid-alafasy]
+provenance:
+  layer: own-research
+  source: "English Wikipedia 'Mishari bin Rashid Alafasy' (revision of 30 July 2026), Arabic Wikipedia «مشاري العفاسي» (revision of 15 June 2026), Wikidata Q948361, checked 24 October 2026"
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: modern-figures-batch-4
+status: { review: published, generated_by: "Muse (Muse Spark 1.3)" }
