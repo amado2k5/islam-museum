@@ -75,42 +75,41 @@ Founder's decisions, 25 October 2026. Each one is also recorded in the progress 
   - Media: `https://media.assabile.com/assabile/lessons_8234632432/mp3/omar-abdel-kafy/…` (audio) and `…/mp4/…` (video). Both are linked from the pages.
   - `robots.txt` at `https://www.assabile.com/robots.txt` does not disallow the lesson pages or the media host (checked 25 October 2026).
 
-## 4. What is done, and the queue order
+## 4. What is done, and the queue order (status 25 Oct 2026, 15:20)
 
-Done and committed (see `git log` for the hashes):
-- `aadau-al-islam` (4 episodes): transcribed; 4 new entities and 7 extended, committed (`dcf9f0520`), merged.
-- `al-hoquq` (5 episodes): transcribed; 6 new entities and 8 extended, committed (`635866fe8`), local until pushed.
-- Founder decisions and the override: committed (`e6baea03f`, `c435bc2fb`, `fa45086ef` and others).
+**Totals.** 622 lessons in 25 series (video 7 series, 213 lessons; audio 18 series, 409 lessons). Transcribed: 43 lessons (Aadau Al Islam 4, Al Hoquq 5, Tafsir Al Quran Al Qareem 10, Al Fawzu Al Moubeen 14, Sharh Ketab Al Fawaed 10). Remaining: 579 lessons (video 213; audio 366), across 20 series. Al Dinu Al Qayem (13 lessons) is being transcribed by the queue.
 
-Queue order (the queue runs them in this order, shortest first):
+**Extraction on `main` (PRs merged).** Aadau Al Islam: PRs #1591, #1651 (pilot prose and the text-use override). Al Hoquq: PR #1717 (with Tafsir), commit `635866fe8`. Tafsir Al Quran Al Qareem: PR #1717, and its write-up of the remaining intelligible windows in PR #1780 (749 windows cited; 206 skipped, listed in `docs/delegation/omar-abdelkafy-excluded-tafsir-writeup.md`). Al Fawzu Al Moubeen: PR #1755 (batch 2 in commit `e405b02bf`; exclusions in `docs/delegation/omar-abdelkafy-excluded-al-fawzu.md`). `concept/time-as-resource`: English and Urdu added in PR #1762. Totals on `main` at 15:14: 185 entities, 555 prose files, 5,964 citation markers, 1,540 distinct windows.
 
-| Series | Type | Lessons |
-|---|---|---|
-| tafsir-al-quran-al-qareem | audio | 10 |
-| al-fawzu-al-moubeen | audio | 14 |
-| sharh-ketab-al-fawaed | audio | 10 |
-| al-dinu-al-qayem | audio | 13 |
-| sharh-al-hekam-al-ataeya | audio | 17 |
-| nafahat-ramadaneya-1436-h | audio | 6 |
-| silsilat-qissa-wa-ebra | audio | 22 |
-| al-manjeyat | audio | 27 |
-| wa-nafsun-ma-sawaha | audio | 29 |
-| tariq-al-noor | audio | 30 |
-| bustan-el-amal | audio | 30 |
-| al-dar-al-akhera | audio | 33 |
-| silsilat-ebadu-al-rahman | audio | 28 |
-| muktatafat-mena-al-seera | audio | 24 |
-| albuyout-alamena | audio | 47 |
-| sharh-saheeh-al-bukhare | audio | 60 |
-| al-naba-al-safi | video | 24 |
-| ahl-al-hikma | video | 27 |
-| mawkib-al-nour | video | 29 |
-| ajaeb-al-kulub | video | 29 |
-| min-kunuz-al-sunnah | video | 30 |
-| modakirate-iblis | video | 30 |
-| alwaad-alhaq | video | 44 |
+**Extraction in progress.** Sharh Ketab Al Fawaed (10 episodes, all transcribed): an extraction agent is writing it; commit its output when it reports (rule 16 and section 7).
 
-Total remaining: 613 lessons. (The archive's counts are in `docs/agents/lanes/omar-abdelkafy.md`.)
+**Queue order** (the queue runs them in this order; a series with a file in `pass5-qwen` is transcribed):
+
+| Series | Type | Lessons | Status |
+|---|---|---|---|
+| sharh-ketab-al-fawaed | audio | 10 | transcribed; extraction in progress |
+| al-dinu-al-qayem | audio | 13 | transcribing |
+| sharh-al-hekam-al-ataeya | audio | 17 | queued |
+| nafahat-ramadaneya-1436-h | audio | 6 | queued |
+| silsilat-qissa-wa-ebra | audio | 22 | queued |
+| al-manjeyat | audio | 27 | queued |
+| wa-nafsun-ma-sawaha | audio | 29 | queued |
+| tariq-al-noor | audio | 30 | queued |
+| bustan-el-amal | audio | 30 | queued |
+| al-dar-al-akhera | audio | 33 | queued |
+| silsilat-ebadu-al-rahman | audio | 28 | queued |
+| muktatafat-mena-al-seera | audio | 24 | queued |
+| albuyout-alamena | audio | 47 | queued |
+| sharh-saheeh-al-bukhare | audio | 60 | queued |
+| al-naba-al-safi | video | 24 | queued |
+| ahl-al-hikma | video | 27 | queued |
+| mawkib-al-nour | video | 29 | queued |
+| ajaeb-al-kulub | video | 29 | queued |
+| min-kunuz-al-sunnah | video | 30 | queued |
+| modakirate-iblis | video | 30 | queued |
+| alwaad-alhaq | video | 44 | queued |
+
+Done in full: aadau-al-islam, al-hoquq, tafsir-al-quran-al-qareem, al-fawzu-al-moubeen.
 
 ## 5. Known problems and their fixes (learned the hard way)
 
@@ -125,6 +124,17 @@ Total remaining: 613 lessons. (The archive's counts are in `docs/agents/lanes/om
 | `ls | grep` shows scripts, `for f in $VAR` does not split | the shell is zsh | use arrays (`PATHS=(…)`) or explicit paths |
 | `sleep` blocked in the tool | the tool forbids chained sleeps | use a background job and check it later |
 | `set -e` aborts a loop | any failed `curl` or step | the queue uses `|| continue` on each step |
+
+- **Build check on `main`, teen hub (PR #1716, fixed by #1721).** The timeline component lost its closing frontmatter fence (`---`), which broke the build at `HijriTimeline.astro:59`. After any Astro edit, check the fences. The teen hub's weight budget was also exceeded (1.94 MB against 200 KB); fixed by moving the timeline data to `/timeline-data/<lang>.json`, capping markers at 120, and adding `/<lang>/timeline/events/` (`docs/site/changes-2026-10.md`, Part 4).
+- **Commit with a list of paths in zsh.** `git add -- $VAR` with a newline-separated list fails. Use `git status --short data content | awk '{print $2}' | xargs git add --`.
+- **Merge conflict in `docs/coverage.md`.** Regenerate it: `npm run graph && npm run coverage`, then `git add docs/coverage.md`, then finish the merge.
+- **Merge conflict in a person's `provenance`.** Two blocks for the same key make invalid YAML. Keep one block and carry the other under `also:`.
+- **PR "not mergeable: merge commit cannot be cleanly created".** Often transient. Wait a few seconds and merge again. If the base moved, merge `origin/main` into the branch first.
+- **Subagent perspectives.** Openers with four or five colons do not match the renderer; normalise to three. The validator needs the first perspectives entry to be Sunni: use "أهل السنة: ..." marked "not yet sourced" (Urdu too). Records without a `provenance` source fail cite-check.
+- **Missing translations.** Every new Arabic record needs `content/en` and `content/ur` in the same commit. Check with a script before committing (`concept/time-as-resource` was missing both until PR #1762).
+- **Subagent prose from noisy text.** Subagents have written prose from garbled ASR and been wrong. The Tafsir bet-story payments and a Hikma daughter clause were corrected by spot-checks. Spot-check about ten windows per series before merging, and check every number against its window.
+- **Skipped windows.** Keep the per-window lists in the scratchpad and copy the ranges into a committed `docs/delegation/omar-abdelkafy-excluded-<series>.md`, with reason, gate and override.
+- **Map.** Regenerate `site/src/data/recordings.json` whenever a manifest changes (rule 17). Last regenerated for six series (PR #1725).
 
 ## 6. If the Mac is not reachable (fallback for Devin on another machine)
 
