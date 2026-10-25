@@ -1,0 +1,36 @@
+id: person/lalla-essaydi
+class: person
+label: { ar: "للا السعيدي", en: "Lalla Essaydi", ur: "للہ السعیدی" }
+names:
+  - { value: "Lalla Assia Essaydi", kind: full }
+  - { value: "لالة السعيدي", kind: full }
+gender: female
+summary:
+  ar: "مصوّرة مغربية، وُلدت باسم للا آسية السعيدي في مراكش سنة 1956. عاشت في المغرب والسعودية وفرنسا ثم أمريكا، ودرست في المدرسة العليا للفنون الجميلة بباريس ونالت الماجستير في التصوير والرسم من بوسطن سنة 2003. تشتهر بصور مُعدّة بعناية لنساء عربيات تكسو أجسادهن وفضاءاتهن خطوطٌ عربية مرسومة بالحناء — الفنّ الذي كان حكرًا على الرجال — في سلاسل مثل «أراضٍ متقاربة» و«نساء المغرب»، فتعيد بها قراءة الصورة الاستشراقية للمرأة العربية وتردّ النظر إلى صاحبته."
+  en: "Moroccan photographer, born as Lalla Assia Essaydi in Marrakesh in 1956. She has lived in Morocco, Saudi Arabia, France and the United States, studied at the Ecole nationale superieure des Beaux-Arts in Paris, and took her MFA in painting and photography in Boston in 2003. She is known for carefully staged photographs of Arab women whose bodies and surroundings are covered in Arabic calligraphy applied in henna — an art traditionally reserved to men — in series such as Converging Territories and Les Femmes du Maroc, re-reading the Orientalist image of the Arab woman and returning the gaze to its subject."
+  ur: "مراکشی مصوّرہ، 1956 میں مراکش میں للہ آسیہ السعیدی کے نام سے پیدا ہوئیں۔ وہ مراکش، سعودی عرب، فرانس اور امریکہ میں رہیں، پیرس کے ایکول ناسیونال میں تعلیم حاصل کی اور 2003 میں بوسٹن سے مصوری و فوٹوگرافی میں ایم ایف اے کیا۔ وہ عرب خواتین کی احتیاط سے سجائی گئی تصاویر کے لیے مشہور ہیں جن کے جسم اور ماحول مہندی سے لکھی عربی خطاطی سے ڈھکے ہوتے ہیں — وہ فن جو روایتی طور پر مردوں کے لیے مخصوص تھا — «کنورجنگ ٹیریٹریز» اور «مراکش کی خواتین» جیسی سیریز میں، جن میں وہ عرب عورت کی مستشرقانہ تصویر کو نئے سرے سے پڑھتی ہیں۔"
+roles: [artist, photographer]
+wings: [people, living]
+born:
+  edtf: "1956"
+  hijri: "1375"
+  calendar: gregorian
+  precision: year
+  status: historical
+  derived: true
+  note: "Born in 1956 in Marrakesh; no source read gives a month or day, so the date is carried at year precision. The Hijri year (1375, the year covering most of 1956) is derived by tabular conversion."
+  sources: [source/wikipedia-lalla-essaydi-en]
+relations:
+  - { type: born_in, target: place/marrakesh, sources: [source/wikipedia-lalla-essaydi-en] }
+faith:
+  - value: unknown
+    basis: unknown
+    note: "NOT RECORDED AS DOCUMENTED — she describes her own identity in general terms and no source names a school for her. In her widely quoted artist statement she invites the viewer to see her 'through multiple lenses — as artist, as Moroccan, as Saudi, as traditionalist, as liberal, as Muslim': a self-description of identity that names no school, order or tradition. The English article and museum coverage describe her work as exploring how gender and power are inscribed on Muslim women's bodies and her challenge to Orientalist depictions — that is her subject matter, not a school attestation, and her Moroccan upbringing and years in Saudi Arabia are background, which the lane rules exclude. Under the two-source rule and the founder's doubt rule the faith is left unknown, with her own self-description recorded here."
+    sources: [source/wikipedia-lalla-essaydi-en]
+sources: [source/wikipedia-lalla-essaydi-en]
+provenance:
+  layer: own-research
+  source: "English Wikipedia 'Lalla Essaydi', read in full on 25 October 2026, with the National Museum of Women in the Arts and Smithsonian coverage of her work read in search-result extract the same day for corroboration of the birth year and place and of her artist statement. No earlier record for her existed in data/person/ under any spelling (essaydi checked); this is a new build, not an enrichment. No Wikidata item was registered for her in this run, so no external ID is recorded rather than an unverified one."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: century-additions-12
+status: { review: published, completeness: 3, generated_by: "Muse (Muse Spark 1.3)" }

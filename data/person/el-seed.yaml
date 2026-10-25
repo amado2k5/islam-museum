@@ -1,0 +1,35 @@
+id: person/el-seed
+class: person
+label: { ar: "إل سيد", en: "eL Seed", ur: "ایل سیڈ" }
+names:
+  - { value: "eL Seed", kind: pen }
+  - { value: "elSeed", kind: alternate }
+  - { value: "EL Seed", kind: alternate }
+gender: male
+summary:
+  ar: "فنان خطّ وغرافيتي فرنسي-تونسي، وُلد سنة 1981 في لو شيناي قرب باريس لأسرة تونسية، ولم يتعلّم قراءة العربية الفصحى وكتابتها حتى مراهقته حين تاق إلى جذوره. اشتقّ اسمه الفني من مسرحية «السيد» الفرنسية. يمزج الخطّ العربي بالغرافيتي فيما يسمّيه «الكاليغرافيتي»، ومن أشهر أعماله رسم مئذنة جامع الجارة بقابس سنة 2012 بآية قرآنية عن التعارف بين الشعوب، ومشروع «إدراك» (2016) الذي غطّى نحو خمسين مبنى في حي منشية ناصر بالقاهرة، ونال جائزة اليونسكو-الشارقة للثقافة العربية سنة 2017، وهو مقيم في دبي."
+  en: "French-Tunisian calligraphy and graffiti artist, born in 1981 in Le Chesnay, near Paris, to a Tunisian family; he did not learn to read or write standard Arabic until his teens, when he reached for his roots. His artist name derives from the French play Le Cid. He fuses Arabic calligraphy with graffiti in what he calls 'calligraffiti'. His best-known works are the 2012 painting of the Jara Mosque minaret in Gabes with a Qur'anic verse on peoples knowing one another, and Perception (2016), an anamorphic work across some fifty buildings in Cairo's Manshiyat Nasr district. He received the UNESCO-Sharjah Prize for Arab Culture in 2017 and is based in Dubai."
+  ur: "فرانسیسی-تیونسی خطاطی و گرافٹی فنکار، 1981 میں پیرس کے قریب لو شینای میں ایک تیونسی خاندان میں پیدا ہوئے؛ معیاری عربی پڑھنا لکھنا انھوں نے نوعمری میں سیکھا جب اپنے اصل کی طرف رجوع ہوا۔ ان کا فنی نام فرانسیسی ڈرامے «السید» سے ماخوذ ہے۔ وہ عربی خطاطی اور گرافٹی کے امتزاج کو «کیلی گرافٹی» کہتے ہیں۔ ان کے مشہور اعمال میں 2012 میں قابس کی جارہ مسجد کے مینار پر اقوام کے باہمی تعارف کی قرآنی آیت کی مصوری اور قاہرہ کے منصیۃ ناصر محلے کی تقریباً پچاس عمارتوں پر پھیلا کام «ادراک» (2016) شامل ہیں۔ انھیں 2017 میں یونیسکو-شارجہ انعام برائے عرب ثقافت ملا اور وہ دبئی میں مقیم ہیں۔"
+roles: [artist, calligrapher]
+wings: [people, living]
+born:
+  edtf: "1981-08-21"
+  hijri: "1401"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "Born on 21 August 1981 in Le Chesnay, Ile-de-France, France, given by the English Wikipedia article's infobox; the article's text phrases it more broadly as born to a Tunisian family in Paris in 1981 (Le Chesnay is a commune on the outskirts of Paris). He was NOT born in Gabes: Gabes is the Tunisian city whose Jara Mosque minaret he painted in 2012. No place entity for Le Chesnay or Paris exists in data/place/, so no born_in relation is written. The Hijri year (1401) is derived by tabular conversion."
+  sources: [source/wikipedia-el-seed-en]
+faith:
+  - value: unknown
+    basis: unknown
+    note: "NOT RECORDED AS DOCUMENTED — no fetched source names a religion or school for him. His art works with Arabic calligraphy and, on the Gabes minaret, with a verse of the Qur'an chosen, in his own words, 'to bring people together': that is the subject matter and text of a work, not an attestation of his own affiliation, and his Tunisian family background is likewise excluded by the lane rules. The English article names no religion for him. Under the two-source rule and the founder's doubt rule the faith is left unknown."
+    sources: [source/wikipedia-el-seed-en]
+sources: [source/wikipedia-el-seed-en]
+provenance:
+  layer: own-research
+  source: "English Wikipedia 'EL Seed', read in full on 25 October 2026. A personal name behind the artist name appears in press coverage in conflicting spellings (Faouzi Khlifi in Expo 2020 Dubai material, Faouzi Khleefi in an Anadolu/Getty caption) and is therefore NOT recorded in this record rather than guessed. No earlier record for him existed in data/person/ under any spelling (el-seed, elseed and variants checked); this is a new build, not an enrichment. No Wikidata item was registered for him in this run, so no external ID is recorded rather than an unverified one."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: century-additions-12
+status: { review: published, completeness: 3, generated_by: "Muse (Muse Spark 1.3)" }

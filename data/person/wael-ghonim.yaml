@@ -1,0 +1,38 @@
+id: person/wael-ghonim
+class: person
+label: { ar: "وائل غنيم", en: "Wael Ghonim", ur: "وائل غنیم" }
+names:
+  - { value: "Wael Ghonim", kind: full }
+  - { value: "وائل غنيم", kind: full }
+  - { value: "Wael Said Abbas Ghonim", kind: alternate }
+gender: male
+summary:
+  ar: "ناشط إنترنت ومهندس حاسوب مصري، وُلد في القاهرة سنة 1980 ونشأ في أبها بالسعودية. كان مدير تسويق غوغل للشرق الأوسط وشمال أفريقيا حين أنشأ دون كشف هويته سنة 2010 صفحة «كلنا خالد سعيد» على فيسبوك، فصارت منطلق دعوة إلى مظاهرات 25 يناير 2011. اعتُقل سرًا 11 يومًا، وأعاد لقاؤه التلفزيوني المؤثر بعد الإفراج عنه الزخم إلى الاحتجاجات التي أطاحت بحسني مبارك. كتب مذكراته «الثورة 2.0»، وأسس أكاديمية التحرير، وشارك في تأسيس منصة بارليو."
+  en: "Egyptian Internet activist and computer engineer, born in Cairo in 1980 and raised in Abha, Saudi Arabia. He was Google's head of marketing for the Middle East and North Africa when in 2010 he anonymously created the Facebook page 'We are all Khaled Said', which became a launching point for the call to the 25 January 2011 demonstrations. He was held in secret detention for 11 days, and his emotional television interview on his release re-energised the protests that forced Hosni Mubarak from power. He wrote the memoir Revolution 2.0, founded Tahrir Academy, and co-founded the Parlio platform."
+  ur: "مصری انٹرنیٹ کارکن اور کمپیوٹر انجینئر، 1980 میں قاہرہ میں پیدا ہوئے اور سعودی عرب کے شہر ابھا میں پلے بڑھے۔ وہ گوگل کے مشرقِ وسطیٰ و شمالی افریقہ کے مارکیٹنگ سربراہ تھے جب 2010 میں انھوں نے گمنام طور پر فیس بک صفحہ «ہم سب خالد سعید ہیں» بنایا، جو 25 جنوری 2011 کے مظاہروں کی دعوت کا نقطۂ آغاز بنا۔ انھیں 11 دن خفیہ حراست میں رکھا گیا، اور رہائی پر ان کے جذباتی ٹیلی ویژن انٹرویو نے حسنی مبارک کو اقتدار سے ہٹانے والے احتجاج میں نئی روح پھونکی۔ انھوں نے یادداشت «انقلاب 2.0» لکھی، تحریر اکیڈمی قائم کی اور پارلیو کے شریک بانی رہے۔"
+roles: [activist, engineer, writer]
+wings: [people, living]
+born:
+  edtf: "1980-12-23"
+  hijri: "1401"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "Born on 23 December 1980 in Cairo, given identically by the English Wikipedia article and Encyclopaedia Britannica. The Hijri year (1401) is derived by tabular conversion."
+  sources: [source/wikipedia-wael-ghonim-en, source/britannica-wael-ghonim]
+relations:
+  - { type: born_in, target: place/cairo, sources: [source/wikipedia-wael-ghonim-en, source/britannica-wael-ghonim] }
+  - { type: lived_in, target: place/cairo, sources: [source/wikipedia-wael-ghonim-en] }
+faith:
+  - value: unknown
+    basis: unknown
+    note: "NOT RECORDED AS DOCUMENTED — no fetched source names a religion, let alone a school, for him. The English article contains no statement of his affiliation; the one remark touching on religion is Fouad Ajami's quoted judgement that Ghonim 'was not driven by piety' — a commentator's characterisation of his motives, which attests neither an affiliation nor its absence and cannot ground any segment. Britannica and the Arabic article likewise name no religion or school. His employers (Google, Quora), his movement (the 2011 pro-democracy protests) and his Egyptian upbringing in Cairo and Abha are not attestations. Under the two-source rule and the founder's doubt rule the faith is left unknown."
+    sources: [source/wikipedia-wael-ghonim-en, source/britannica-wael-ghonim, source/wikipedia-wael-ghonim-ar]
+sources: [source/wikipedia-wael-ghonim-en, source/wikipedia-wael-ghonim-ar, source/britannica-wael-ghonim]
+provenance:
+  layer: own-research
+  source: "English Wikipedia 'Wael Ghonim', Arabic Wikipedia «وائل غنيم» and Encyclopaedia Britannica's entry 'Wael Ghonim' (published 25 February 2011), all read on 25 October 2026. The full name Wael Said Abbas Ghonim is attested in the French Wikipedia article's birth-name field as reported in search results and is recorded only as an alternate name. No earlier record for him existed in data/person/ under any spelling (ghonim and variants checked); this is a new build, not an enrichment. No Wikidata item was registered for him in this run, so no external ID is recorded rather than an unverified one."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: century-additions-12
+status: { review: published, completeness: 3, generated_by: "Muse (Muse Spark 1.3)" }
