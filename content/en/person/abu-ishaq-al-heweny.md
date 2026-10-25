@@ -43,7 +43,7 @@ He married twice and had twelve sons; among his known sons is Hatem, who announc
 He died in Doha on the evening of Monday 17 Ramadan 1446 AH / 17 March 2025, after a health crisis that took him to hospital; Wikidata gives the cause of death as cerebral haemorrhage. Ahmad Isa al-Ma'sarawi led his funeral prayer after the afternoon prayer the next day at the Imam Muhammad ibn Abd al-Wahhab Mosque in Doha, and he was buried at Mesaimeer Cemetery. {cite:wikipedia-abu-ishaq-al-heweny-ar} {cite:wikidata-abu-ishaq-al-heweny}
 
 ## Impact and audience
-Wikidata records 731,000 subscribers for his YouTube channel on 7 March 2021 — a dated platform figure the museum records only with its date. His lessons and books continue to circulate through his official website and the platforms after his death. {cite:wikidata-abu-ishaq-al-heweny}
+Wikidata records 731,000 subscribers for his YouTube channel on 7 March 2021 — a dated platform figure the museum records only with its date. His lessons and books continue to circulate through his official website and the platforms after his death. {cite:wikidata-abu-ishaq-al-heweny} The channel is published under the handle @alhuwayni; its own description names it his official channel, and it was verified in a channel harvest checked on 25 October 2026. {cite:youtube-alhuwayni}
 
 ## References
 - The defined sources cited above, registered in `data/source/`.
