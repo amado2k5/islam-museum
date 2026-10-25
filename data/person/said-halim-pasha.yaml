@@ -1,0 +1,49 @@
+id: person/said-halim-pasha
+class: person
+label: { ar: "سعيد حليم باشا", en: "Said Halim Pasha", ur: "سعید حلیم پاشا" }
+names:
+  - { value: "محمد سعيد حليم", kind: full }
+  - { value: "Mehmed Said Halim", kind: full }
+  - { value: "Sait Halim Paşa", kind: alternate }
+  - { value: "Mehmed", kind: alternate }
+gender: male
+summary:
+  ar: "سياسي عثماني ومفكر إسلامي (1864-1921)، حفيد محمد علي باشا والي مصر، تولى الصدارة العظمى في الدولة العثمانية من 1913 إلى 1917 مع وزارة الخارجية، فوقّع التحالف العثماني الألماني رغم معارضته دخول الحرب، ووقّع أوامر ترحيل الأرمن، ونُفي إلى مالطا بعد الحرب وبُرّئ، ثم اغتيل في روما. كتب ثماني رسائل في الفكر الاجتماعي والسياسي جمعت في «برهاناتنا» (1919)، منها «إسلاملاشمق» (التأسلم)."
+  en: "Ottoman statesman and Islamist thinker (1864–1921), a grandson of Muhammad Ali Pasha of Egypt. He was Grand Vizier of the Ottoman Empire from 1913 to 1917, holding the foreign ministry as well: he signed the Ottoman–German alliance despite opposing entry into the war, and signed the Armenian deportation orders; after the war he was exiled to Malta, acquitted, and assassinated in Rome. His eight treatises of social and political thought, mostly signed 'Mehmed', were collected as Buhranlarımız ('Our Crises', 1919); the best known is İslamlaşmak ('Islamisation')."
+  ur: "عثمانی سیاست دان اور اسلامی مفکر (1864-1921)، محمد علی پاشا والیِ مصر کے پوتے؛ 1913 سے 1917 تک سلطنتِ عثمانیہ کے صدرِ اعظم اور وزیرِ خارجہ رہے، جنگ میں شمولیت کے مخالف ہونے کے باوجود عثمانی جرمن اتحاد پر دستخط کیے اور آرمنی بے دخلی کے احکامات پر بھی دستخط کیے؛ جنگ کے بعد مالٹا جلاوطن ہوئے، بری ہوئے اور روم میں قتل کر دیے گئے۔ ان کی آٹھ فکری رسائل «بحران‌لارمز» (1919) میں جمع ہوئے۔"
+roles: [vizier, politician, writer]
+wings: [people]
+born:
+  edtf: "1864-02-19"
+  hijri: "1280"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "The Turkish article, the TDV İslâm Ansiklopedisi and Wikidata agree: born 19 February 1864 at the Shubra Palace, Cairo, son of Prince Muhammad Abd al-Halim, a son of Muhammad Ali Pasha. Variants: the English article gives '18 or 28 January 1865 or 19 February 1864', the Arabic article gives 1863, and Ahmet Şeyhun's biography is titled (1865–1921). The record follows 19 February 1864. The Hijri year (1280) is derived by tabular conversion."
+  sources: [source/wikipedia-said-halim-pasha-tr, source/tdv-said-halim-pasha, source/wikidata-said-halim-pasha, source/wikipedia-said-halim-pasha-en]
+died:
+  edtf: "1921-12-05"
+  hijri: "1340"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "Assassinated in Rome by Arshavir Shirakian of the Armenian Revolutionary Federation. The TDV encyclopedia, the Turkish article's header and Wikidata give 5 December 1921; the English article's lead and the Turkish article's narrative give 6 December. The record follows 5 December and records the variant. Rome has no place entity in the museum yet, so no died_in relation is written. The Hijri year (1340) is derived by tabular conversion."
+  sources: [source/tdv-said-halim-pasha, source/wikipedia-said-halim-pasha-tr, source/wikidata-said-halim-pasha, source/wikipedia-said-halim-pasha-en]
+relations:
+  - { type: born_in, target: place/cairo, sources: [source/wikipedia-said-halim-pasha-en, source/wikipedia-said-halim-pasha-tr, source/tdv-said-halim-pasha] }
+  - { type: lived_in, target: place/istanbul, sources: [source/wikipedia-said-halim-pasha-en, source/tdv-said-halim-pasha] }
+faith:
+  - value: unknown
+    basis: unknown
+    note: "No source names a school for him. Wikidata records his religion as Islam (Q432) generically. The sources describe a conservative Islamist thinker — the TDV encyclopedia calls him one of the most important idea-leaders of the Islamism current, and his treatise İslamlaşmak argues that Islam is a whole comprising belief, ethics, society and politics — but an intellectual-political current is not a madhhab attestation, and none of the fetched sources names one for him, so the value stays unknown."
+    sources: [source/wikidata-said-halim-pasha, source/tdv-said-halim-pasha, source/wikipedia-said-halim-pasha-en]
+external_ids: { wikidata: "Q2034890" }
+sources: [source/wikipedia-said-halim-pasha-en, source/wikipedia-said-halim-pasha-ar, source/wikipedia-said-halim-pasha-tr, source/wikidata-said-halim-pasha, source/tdv-said-halim-pasha]
+provenance:
+  layer: own-research
+  source: "English Wikipedia (revision 1370289223), Arabic Wikipedia (revision 76474106), Turkish Wikipedia (revision 38092722), Wikidata Q2034890 (verified via the API: human, born 1864-02-19 at Cairo, died 1921-12-05 at Rome, religion Islam generically) and the TDV İslâm Ansiklopedisi entry 'Said Halim Pasha' by M. Hanefi Bostan (2008, web edition updated 17 February 2023), checked 24 October 2026"
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: century-additions-5
+status: { review: published, completeness: 3, generated_by: "Muse (Muse Spark 1.3)" }

@@ -1,0 +1,49 @@
+id: person/huda-shaarawi
+class: person
+label: { ar: "هدى شعراوي", en: "Huda Sha'arawi", ur: "ہدی شعراوی" }
+names:
+  - { value: "نور الهدى محمد سلطان شعراوي", kind: full }
+  - { value: "Nour Al-Huda Mohamed Sultan Shaarawi", kind: full }
+  - { value: "Hoda Sha'rawi", kind: alternate }
+  - { value: "Huda Sharawi", kind: alternate }
+gender: female
+summary:
+  ar: "ناشطة نسوية وقومية مصرية (1879-1947)، مؤسسة الاتحاد النسائي المصري ورئيسته مدى حياتها، ومن مؤسسات الاتحاد النسائي العربي؛ وُلدت في المنيا لأسرة من كبار ملاك الصعيد، وقادت مظاهرات النساء في ثورة 1919، واشتهرت بخلعها النقاب علنًا سنة 1923 عند عودتها من مؤتمر روما النسائي الدولي."
+  en: "Egyptian feminist and nationalist leader (1879–1947), founder of the Egyptian Feminist Union and its president for the rest of her life, and a founding figure of the Arab Feminist Union. Born at Minya into a wealthy Upper Egyptian landowning family, she led women's demonstrations in the 1919 revolution and became famous for publicly removing her face veil in 1923 on her return from the Rome congress of the International Woman Suffrage Alliance."
+  ur: "مصری نسوانی و قوم پرست رہنما (1879-1947)، مصری نسوانی اتحاد کی بانی اور عمر بھر اس کی صدر، اور عرب نسوانی اتحاد کی بانی شخصیات میں سے ایک؛ منیا میں ایک زمیندار گھرانے میں پیدا ہوئیں، 1919 کی انقلابی تحریک میں خواتین کے مظاہروں کی قیادت کی، اور 1923 میں روم کانفرنس سے واپسی پر علانیہ نقاب اتارنے سے مشہور ہوئیں۔"
+roles: [activist, writer]
+wings: [people]
+born:
+  edtf: "1879-06-23"
+  hijri: "1296"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "Date and Minya birthplace from English Wikipedia, the Arabic article and Encyclopaedia Britannica; Wikidata agrees (born 23 June 1879 at Minya). Minya has no place entity in the museum yet, so no born_in relation is written. The Hijri year (1296) is derived by tabular conversion."
+  sources: [source/wikipedia-huda-shaarawi-en, source/wikipedia-huda-shaarawi-ar, source/wikidata-huda-shaarawi, source/britannica-huda-sharawi]
+died:
+  edtf: "1947-12-12"
+  hijri: "1367"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "Date from English Wikipedia, the Arabic article, Wikidata and Britannica, which gives Cairo as the place of death; the Arabic article adds that she died of a heart attack while writing a statement demanding Arab unity over Palestine. The Hijri year (1367) is derived by tabular conversion."
+  sources: [source/wikipedia-huda-shaarawi-en, source/wikipedia-huda-shaarawi-ar, source/wikidata-huda-shaarawi, source/britannica-huda-sharawi]
+relations:
+  - { type: lived_in, target: place/cairo, sources: [source/wikipedia-huda-shaarawi-ar, source/wikipedia-huda-shaarawi-en] }
+  - { type: died_in, target: place/cairo, sources: [source/britannica-huda-sharawi, source/wikidata-huda-shaarawi] }
+faith:
+  - value: unknown
+    basis: unknown
+    note: "No source names a school for her. Wikidata records her religion as Islam (Q432) generically; the English article and Britannica name no religion; the Arabic article places her inside Egypt's Muslim society — she memorised the Qur'an at nine and her salon discussed Islam as a source of women's rights against custom — but a milieu and a position are not an attestation of a madhhab, so the value stays unknown."
+    sources: [source/wikidata-huda-shaarawi, source/wikipedia-huda-shaarawi-en, source/wikipedia-huda-shaarawi-ar, source/britannica-huda-sharawi]
+external_ids: { wikidata: "Q2423343" }
+sources: [source/wikipedia-huda-shaarawi-en, source/wikipedia-huda-shaarawi-ar, source/wikipedia-huda-shaarawi-ur, source/wikidata-huda-shaarawi, source/britannica-huda-sharawi]
+provenance:
+  layer: own-research
+  source: "English Wikipedia (revision 1372745115), Arabic Wikipedia «هدى شعراوي» (revision 76664694), Urdu Wikipedia (revision 11793203), Wikidata Q2423343 (verified via the API: human, born 1879-06-23, died 1947-12-12, religion Islam generically) and Encyclopaedia Britannica's entry 'Huda Sharawi' by Jennifer Jaffer, checked 24 October 2026"
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: century-additions-5
+status: { review: published, completeness: 3, generated_by: "Muse (Muse Spark 1.3)" }
