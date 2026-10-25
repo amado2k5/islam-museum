@@ -1,0 +1,22 @@
+id: person/ibn-al-salar
+class: person
+label: { ar: "أبو الحسن علي بن السلار", en: "Abu 'l-Hasan 'Ali ibn al-Salar" }
+names:
+  - { kind: full, lang: ar, value: "علي بن السلار" }
+gender: male
+roles: [official]
+died: { edtf: "1153-04~", hijri: "0548-01", calendar: julian, precision: month, status: tradition, derived: true, note: "Killed on 6 Muharram 548 (about 3 April 1153), EI2.", sources: [source/encyclopaedia-of-islam-2] }
+summary:
+  ar: "وزير فاطمي من أصل أرتقي، تولى الوزارة سنة 544 للهجرة وكان له تحالف مع نور الدين ضد الفرنجة، واغتاله ربيب له في القاهرة سنة 548 للهجرة."
+  en: "Fatimid vizier of Artukid origin, who seized the vizierate in 544/1149 with the title al-Malik al-'Adil and was killed in Cairo in 548/1153 by a stepson's agent. He was the first Fatimid vizier to consider an alliance with Nur al-Din against the Franks {cite:encyclopaedia-of-islam-2 vol. 1 p. 217}."
+wings: [people]
+regions: [egypt-nile]
+periods: [period/crusades-ayyubid-mamluk]
+story_roles:
+  - { role: official, status: historical, sources: [source/encyclopaedia-of-islam-2] }
+sources: [source/encyclopaedia-of-islam-2]
+provenance:
+  layer: own-research
+  source: "Encyclopaedia of Islam, 2nd ed. (Brill), vol. 1, PDF pp. 217-218 (EI2 enrichment, batch ei2-b003 part 3at)"
+  generated_by: "Claude Code (claude-haiku-5-5)"
+status: { review: published, completeness: 2 }

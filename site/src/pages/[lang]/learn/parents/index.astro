@@ -21,8 +21,7 @@ const bands = viewBands(lang, T.kids);
     <ul class="edu-doors">
       {bands.map((b) => (
         <li>
-          <a class={`edu-door pal-${b.palette}`} href={b.wing === "shabab" ? `/${lang}/learn/trails/` : b.hub}>
-            {b.wing === "shabab" && <span class="chip soon">{E.soon}</span>}
+          <a class={`edu-door pal-${b.palette}`} href={b.wing === "shabab" ? `/${lang}/shabab/` : b.hub}>
             <span class="g" aria-hidden="true">{b.glyph}</span>
             <h2>{b.name}</h2>
             <span class="ages">{b.agesLabel}</span>

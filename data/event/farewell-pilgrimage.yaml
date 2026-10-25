@@ -21,7 +21,16 @@ relations:
   - { type: part_of, target: period/prophetic-era }
 sources: [source/ibn-ishaq-guillaume, source/watt-1956-medina, source/lings-1983, source/mubarakpuri-raheeq, source/sahih-muslim, source/sahih-al-bukhari, source/zad-al-maad, source/ibn-hisham-saqqa, source/sallabi-ali-vol1]
 education:
+  did_you_know:
+    ar: "حجة الوداع في السنة العاشرة هي الحجة الوحيدة التي حجّها النبي؛ بيّن فيها للناس مناسكهم وألقى خطبته المشهورة."
+    en: "The Farewell Pilgrimage in 10 AH was the only hajj the Prophet led; in it he showed the people their rites and delivered the well-known sermon."
+    ur: "دسویں ہجری کی حجۃ الوداع نبی کی واحد حج تھی؛ اس میں انھوں نے مناسک سکھائے اور مشہور خطبہ دیا۔"
+    sources: [source/ibn-hisham-saqqa, source/mubarakpuri-raheeq]
   levels: [sprouts, explorers, scholars]
   flagged_for_kids: true
   provenance: { generated_by: "Claude Code", model: "Claude Haiku 5.5 (claude-haiku-5-5)", run: "education-E2-batch1", note: "Leveled texts drafted from the record's own summary; draft, pending the founder's review and scholar review of the child levels." }
 status: { review: draft, completeness: 2, generated_by: "Claude Sonnet 5.5; dates follow the cited tradition and are approximate where marked" }
+provenance:
+  layer: own-research
+  source: "education fact engine batch 2 — did_you_know fact drafted in three languages from the record's own cited sources"
+  generated_by: Devin

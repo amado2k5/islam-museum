@@ -25,7 +25,16 @@ relations:
 external_ids: { wikidata: Q39619 }
 sources: [source/ibn-ishaq-guillaume, source/muruj-al-dhahab, source/fihrist-ibn-al-nadim, source/ibn-hisham-saqqa, source/mubarakpuri-raheeq, source/ibn-hisham-sira, source/rahma-lil-alamin, source/sahih-al-bukhari, source/sahih-muslim, source/sallabi-ali-vol1, source/nihayat-al-arab-nuwayri-vol3-scan]
 education:
+  did_you_know:
+    ar: "كان علي من أوائل من أسلم، ورابع الخلفاء الراشدين؛ بُويع في المدينة سنة ٣٥هـ، وقُتل بالكوفة سنة ٤٠هـ وله ثلاث وستون."
+    en: "Ali was among the first to embrace Islam and the fourth caliph; allegiance came to him in Medina in 35 AH, and he was killed in Kufa in 40 AH at sixty-three."
+    ur: "علی پہلے مسلمانوں میں سے اور چوتھے خلیفہ تھے؛ مدینہ میں 35ھ میں بیعت ہوئی اور کوفہ میں 40ھ میں 63 برس کی عمر میں شہید ہوئے۔"
+    sources: [source/ibn-ishaq-guillaume, source/sallabi-ali-vol1]
   levels: [sprouts, explorers, scholars]
   flagged_for_kids: true
   provenance: { generated_by: "Devin", model: "gemini-2.5-pro", run: "education-E2-batch4", note: "Leveled texts drafted from the record's own summary and prose; draft, pending the founder's review and scholar review of the child levels." }
 status: { review: draft, completeness: 1, generated_by: "Claude Sonnet 5.5 (scaffold)" }
+provenance:
+  layer: own-research
+  source: "education fact engine batch 2 — did_you_know fact drafted in three languages from the record's own cited sources"
+  generated_by: Devin

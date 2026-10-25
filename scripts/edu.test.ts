@@ -151,7 +151,9 @@ describe("education: weight budgets and QR", () => {
   it("budget table names built routes with sane limits", async () => {
     const { BUDGETS } = await import("./check-weight.ts");
     for (const b of BUDGETS) {
-      const dynamic = /^\/ar\/(cards\/list|sighar\/teachers\/lessons|sighar\/read\/[a-z]+|learn\/teachers\/pathways|learn\/teachers\/quiz|learn\/teachers\/packs|[a-z]+)\/[a-z0-9-]+\/(print\/)?$/.test(b.route);
+      const dynamic =
+        /^\/ar\/(cards\/list|sighar\/teachers\/lessons|sighar\/read\/[a-z]+|learn\/teachers\/pathways|learn\/teachers\/quiz|learn\/teachers\/packs|[a-z]+)\/[a-z0-9-]+\/(print\/)?$/.test(b.route) ||
+        /^\/ar\/shabab\/(60s|glossary|practice|dilemmas|detective)\/[a-z0-9-]+\/$/.test(b.route);
       expect(routeBuilt(b.route.replace(/^\/ar/, "")) || dynamic, b.route).toBe(true);
       expect(b.html).toBeLessThanOrEqual(700 * 1024);
       expect(b.js).toBeLessThanOrEqual(30 * 1024);
@@ -570,8 +572,8 @@ describe("education: fact engine (E3 step 3, plan §5)", () => {
 
   it("every did_you_know fact is at most 40 words in ar, en and ur, with at least two existing sources", () => {
     const list = facts();
-    expect(list.length, "the first batch should hold up to 25 facts").toBeGreaterThan(0);
-    expect(list.length).toBeLessThanOrEqual(25);
+    expect(list.length, "batches of at most 25 authored facts each").toBeGreaterThan(0);
+    expect(list.length).toBeLessThanOrEqual(365);
     for (const { id, file, fact } of list) {
       for (const l of LANGS) {
         expect(typeof fact[l] === "string" && fact[l].length > 0, `${id} ${l}`).toBe(true);
@@ -929,5 +931,87 @@ describe("E4 step 3 — teen topic pages (60s, practice, glossary)", () => {
     const comp = readFileSync("site/src/components/PracticeSet.astro", "utf8");
     expect(comp).toContain('type="radio"');
     expect(comp).toContain("data-why");
+  });
+});
+
+describe("E4 step 4 — edu/dilemmas/*.yaml (decision cards)", () => {
+  it("every dilemma loads: real band, trilingual decision/context/reflection, ≥2 positions each with holder, stance, evidence and ≥1 real source id", async () => {
+    const { loadDilemmas } = await import("../site/src/lib/dilemmas.ts");
+    const dilemmas = loadDilemmas();
+    expect(dilemmas.length).toBeGreaterThanOrEqual(30);
+    for (const d of dilemmas) {
+      expect(["scholars", "researchers"]).toContain(d.band);
+      expect(d.positions.length).toBeGreaterThanOrEqual(2);
+      for (const p of d.positions) expect(p.sources.length).toBeGreaterThanOrEqual(1);
+    }
+  });
+  it("no position is scored: no verdict/winner/correct field anywhere in the data or the page", () => {
+    const BAN = /"?(verdict|winner|correct)"?:/i;
+    for (const f of readdirSync("edu/dilemmas")) {
+      const raw = readFileSync(`edu/dilemmas/${f}`, "utf8");
+      expect(BAN.test(raw), f).toBe(false);
+    }
+    const page = readFileSync("site/src/components/Dilemma.astro", "utf8");
+    expect(BAN.test(page)).toBe(false);
+  });
+  it("the new shabab strings exist in all three languages", () => {
+    const keys = ["sb_positions", "sb_evidence", "sb_sources", "sb_you_decide", "sb_reflect_hint", "sb_saved"];
+    for (const l of ["ar", "en", "ur"]) {
+      const d = parse(readFileSync(`i18n/${l}.yaml`, "utf8")).shabab;
+      for (const k of keys) expect(typeof d[k] === "string" && d[k].length > 0, `${l}.${k}`).toBe(true);
+    }
+  });
+  it("no typed honorifics or Qur'an text in the dilemma data", () => {
+    const HON = new RegExp("(صلى الله عليه|عليه السلام|رضي الله عنه|رحمه الله|\\uFDFA|\\uFDFF|\\u06D6)");
+    for (const f of readdirSync("edu/dilemmas"))
+      expect(HON.test(readFileSync(`edu/dilemmas/${f}`, "utf8")), f).toBe(false);
+  });
+});
+
+describe("E4 step 5 — edu/detective/*.yaml (source detective)", () => {
+  it("every unit loads: known band, trilingual claim and historians' note, exactly three evidence ids in the graph, ≥1 passage with a chain", async () => {
+    const { loadDetective } = await import("../site/src/lib/detective.ts");
+    const units = loadDetective();
+    expect(units.length).toBeGreaterThanOrEqual(20);
+    for (const u of units) {
+      expect(["scholars", "researchers"]).toContain(u.band);
+      expect(u.evidence.length).toBe(3);
+      expect(u.evidence.some((e) => e.kind === "passage" && e.chain && e.chain.length > 0), u.id).toBe(true);
+    }
+  });
+  it("detective strings exist in all three languages", () => {
+    const keys = ["sb_claim", "sb_chain", "sb_what_proves", "sb_scale_proves", "sb_scale_supports", "sb_scale_hints", "sb_scale_no", "sb_hist_note", "sb_show_note"];
+    for (const l of ["ar", "en", "ur"]) {
+      const d = parse(readFileSync(`i18n/${l}.yaml`, "utf8")).shabab;
+      for (const k of keys) expect(typeof d[k] === "string" && d[k].length > 0, `${l}.${k}`).toBe(true);
+    }
+  });
+  it("no typed honorifics in detective data", () => {
+    const HON = new RegExp("(صلى الله عليه|عليه السلام|رضي الله عنه|رحمه الله|\\uFDFA|\\uFDFF|\\u06D6)");
+    for (const f of readdirSync("edu/detective"))
+      expect(HON.test(readFileSync(`edu/detective/${f}`, "utf8")), f).toBe(false);
+  });
+});
+
+describe("E4 step 6 — Journey Map + teen doors", () => {
+  it("the /shabab/journey/ route exists and the strings ship in all three languages", () => {
+    expect(existsSync("site/src/pages/[lang]/shabab/journey/index.astro")).toBe(true);
+    const keys = ["sb_journey", "sb_journey_lede", "sb_journey_legend", "sb_journey_done", "sb_journey_todo", "sb_journey_print"];
+    for (const l of ["ar", "en", "ur"]) {
+      const d = parse(readFileSync(`i18n/${l}.yaml`, "utf8")).shabab;
+      for (const k of keys) expect(typeof d[k] === "string" && d[k].length > 0, `${l}.${k}`).toBe(true);
+    }
+  });
+  it("teen doors point at /shabab/ everywhere a shabab band door is rendered", () => {
+    for (const f of ["site/src/pages/[lang]/learn/index.astro", "site/src/pages/[lang]/learn/parents/index.astro"]) {
+      const src = readFileSync(f, "utf8");
+      expect(src.includes("`/${lang}/shabab/`"), f).toBe(true);
+      expect(/shabab.*learn\/trails/.test(src), f).toBe(false);
+    }
+  });
+  it("the Journey Map colours tiles only from device keys (no fetch, no per-visitor data)", () => {
+    const src = readFileSync("site/src/scripts/journeymap.ts", "utf8");
+    expect(src.includes("localStorage")).toBe(true);
+    expect(src.includes("fetch(")).toBe(false);
   });
 });

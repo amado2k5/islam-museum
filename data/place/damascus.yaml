@@ -12,7 +12,16 @@ coordinate_precision: site
 external_ids: { wikidata: "Q3766", geonames: "170654", pleiades: "678106" }
 sources: [source/farghani-elements-astronomy, source/geonames-gazetteer, source/muruj-al-dhahab]
 education:
+  did_you_know:
+    ar: "كانت دمشق عاصمة الدولة الأموية (٦٦١–٧٥٠م) وفيها الجامع الأموي."
+    en: "Damascus was the capital of the Umayyad caliphate (661–750 CE) and is home to the Umayyad Mosque."
+    ur: "دمشق سلطنتِ امویہ کا دارالحکومت (661–750ء) رہا اور یہیں اموی مسجد ہے۔"
+    sources: [source/muruj-al-dhahab, source/geonames-gazetteer]
   levels: [sprouts, explorers, scholars]
   flagged_for_kids: true
   provenance: { generated_by: "Devin", model: "gemini-2.5-pro", run: "education-E2-batch4", note: "Leveled texts drafted from the record's own summary and prose; draft, pending the founder's review and scholar review of the child levels." }
 status: { review: draft, completeness: 1, generated_by: "Claude Sonnet 5.5; coordinates from GeoNames; descriptive facts to be checked against reference works" }
+provenance:
+  layer: own-research
+  source: "education fact engine batch 2 — did_you_know fact drafted in three languages from the record's own cited sources"
+  generated_by: Devin

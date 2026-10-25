@@ -40,7 +40,7 @@ He has written books on jurisprudence, hadith, hadith terminology and exegesis. 
 His editions of earlier works include: the "Muntakhab" of Abd ibn Humayd; Ibn Taymiyya's "al-Furqan bayn Awliya' al-Rahman wa-Awliya' al-Shaytan"; Ibn al-Qayyim's "al-Wabil al-Sayyib"; Ibn Abi al-Izz's "Sharh al-'Aqida al-Tahawiyya"; and Ibn Kathir's "Tafsir al-Quran al-'Azim". {cite:wikipedia-mostafa-al-adwy-ar}
 
 ## Reach
-Al-Adawi is among Egypt's most prominent contemporary hadith scholars; students from inside Egypt and abroad attend his lessons, and his lessons and fatwas circulate through his official website, satellite channels and internet platforms. Wikidata records two YouTube channels for him and identifiers in international library databases. {cite:wikipedia-mostafa-al-adwy-ar} {cite:wikidata-mostafa-al-adwy}
+Al-Adawi is among Egypt's most prominent contemporary hadith scholars; students from inside Egypt and abroad attend his lessons, and his lessons and fatwas circulate through his official website, satellite channels and internet platforms. Wikidata records two YouTube channels for him and identifiers in international library databases. {cite:wikipedia-mostafa-al-adwy-ar} {cite:wikidata-mostafa-al-adwy} His own lessons channel on YouTube is published under the handle @mostafaaladwy and is named as his official channel in his own videos; it was verified in a channel harvest checked on 25 October 2026. {cite:youtube-mostafaaladwy}
 
 ## Sources
 - The defined source entities cited above, recorded in `data/source/`.

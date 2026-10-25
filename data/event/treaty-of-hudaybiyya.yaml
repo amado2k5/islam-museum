@@ -48,7 +48,16 @@ external_ids:
   wikidata: Q1647162
 sources: [source/mubarakpuri-raheeq, source/sahih-al-bukhari, source/ibn-hisham-sira, source/zad-al-maad, source/sallabi-ali-vol1]
 education:
+  did_you_know:
+    ar: "في الحديبية وافق النبي على هدنة عشر سنين بدت شاقة على المسلمين؛ فسمّاها القرآن فتحاً مبيناً."
+    en: "At Hudaybiyya the Prophet agreed to a ten-year truce that looked hard on the Muslims; the Qur'an called it a manifest victory."
+    ur: "حدیدبیہ میں نبی نے دس سال کی صلح قبول کی جو مسلمانوں پر سخت معلوم ہوتی تھی؛ قرآن نے اسے فتحِ مبین کہا۔"
+    sources: [source/mubarakpuri-raheeq, source/sahih-al-bukhari]
   levels: [sprouts, explorers, scholars]
   flagged_for_kids: true
   provenance: { generated_by: "Claude Code", model: "Claude Haiku 5.5 (claude-haiku-5-5)", run: "education-E2-batch1", note: "Leveled texts drafted from the record's own summary; draft, pending the founder's review and scholar review of the child levels." }
 status: { review: draft, completeness: 2, generated_by: "Devin; al-Raheeq al-Makhtum pp. 337–348" }
+provenance:
+  layer: own-research
+  source: "education fact engine batch 2 — did_you_know fact drafted in three languages from the record's own cited sources"
+  generated_by: Devin
