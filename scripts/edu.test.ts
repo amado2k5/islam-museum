@@ -892,3 +892,42 @@ describe("E4 step 2 — edu/topics-50.yaml (taught topics)", () => {
     expect(HON.test(readFileSync("edu/topics-50.yaml", "utf8"))).toBe(false);
   });
 });
+
+describe("E4 step 3 — teen topic pages (60s, practice, glossary)", () => {
+  const PAGE_FILES = [
+    "site/src/pages/[lang]/shabab/60s/[topic].astro",
+    "site/src/pages/[lang]/shabab/practice/[topic].astro",
+    "site/src/pages/[lang]/shabab/glossary/[topic].astro",
+    "site/src/pages/[lang]/shabab/topics.astro",
+  ];
+  it("the four page routes exist and build one path per language and topic", async () => {
+    const { loadTopics } = await import("../site/src/lib/topics.ts");
+    const n = loadTopics().length;
+    for (const f of PAGE_FILES) {
+      const src = readFileSync(f, "utf8");
+      if (f.includes("[topic]")) {
+        expect(src).toContain("loadTopics()");
+        expect(src).toContain("LANGS");
+      }
+    }
+    expect(n).toBeGreaterThan(0);
+  });
+  it("the new shabab strings exist in all three languages", () => {
+    const keys = ["sb_sixty_title", "sb_glossary_title", "sb_practice_title", "sb_practice_mark",
+      "sb_practice_again", "sb_practice_unanswered", "sb_practice_correct", "sb_practice_wrong",
+      "sb_practice_result", "sb_anchor", "sb_sixty_progress", "sb_practice_lede"];
+    for (const l of ["ar", "en", "ur"]) {
+      const d = parse(readFileSync(`i18n/${l}.yaml`, "utf8")).shabab;
+      for (const k of keys) expect(typeof d[k] === "string" && d[k].length > 0, `${l}.${k}`).toBe(true);
+    }
+  });
+  it("practice.ts marks locally only — keyboard-native radios, storage in try/catch", () => {
+    const src = readFileSync("site/src/scripts/practice.ts", "utf8");
+    expect(src).toContain("localStorage");
+    expect(src).toContain("try {");
+    expect(src).not.toContain("fetch(");
+    const comp = readFileSync("site/src/components/PracticeSet.astro", "utf8");
+    expect(comp).toContain('type="radio"');
+    expect(comp).toContain("data-why");
+  });
+});

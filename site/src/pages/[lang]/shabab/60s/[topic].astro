@@ -1,0 +1,45 @@
+---
+// Sixty-second explainer for one taught topic (E4 step 3): a one-minute read with a reading bar,
+// links to the topic's practice set, glossary and museum record.
+import BaseLayout from "../../../../layouts/BaseLayout.astro";
+import SixtySeconds from "../../../../components/SixtySeconds.astro";
+import { ui, LANGS, type Lang } from "../../../../lib/i18n";
+import { loadTopics } from "../../../../lib/topics";
+import { href } from "../../../../lib/graph";
+import { viewBands } from "../../../../lib/edu";
+import "../../../../styles/edu.css";
+
+export function getStaticPaths() {
+  return LANGS.flatMap((lang) =>
+    loadTopics().map((t) => ({ params: { lang, topic: t.id }, props: { lang, topic: t } })),
+  );
+}
+const { lang, topic } = Astro.props;
+const T = ui(lang);
+const S = T.shabab;
+const band = viewBands(lang, T.kids).find((b) => b.id === topic.band);
+const title = `${topic.title[lang]} — ${S.sb_sixty_title}`;
+const path = `/${lang}/shabab/60s/${topic.id}/`;
+const practiceHref = `/${lang}/shabab/practice/${topic.id}/`;
+const glossaryHref = `/${lang}/shabab/glossary/${topic.id}/`;
+---
+<BaseLayout lang={lang} title={title} description={topic.sixty[lang]} path={path}>
+  <div class="wrap edu" style="padding-block:10px 24px">
+    <nav class="ui muted no-print" aria-label="breadcrumb">
+      <a href={`/${lang}/shabab/`}>{S.sb_title}</a> › <a href={`/${lang}/shabab/topics/`}>{S.sb_topics}</a> › {topic.title[lang]}
+    </nav>
+    <SixtySeconds
+      lang={lang}
+      title={topic.title[lang]}
+      sixty={topic.sixty[lang]}
+      bandLabel={band?.name ?? ""}
+      progressLabel={S.sb_sixty_progress}
+      anchorLabel={S.sb_anchor}
+      anchorHref={href(lang, topic.anchor)}
+    />
+    <p class="ui" style="display:flex;gap:1rem;flex-wrap:wrap">
+      <a class="edu-btn" href={glossaryHref}>{S.sb_glossary_title}</a>
+      <a class="edu-btn" href={practiceHref}>{S.sb_practice_title}</a>
+    </p>
+  </div>
+</BaseLayout>
