@@ -104,6 +104,9 @@ html[data-leading="roomy"] body { line-height: 2 !important; }
 html[data-links="underline"] main a, html[data-links="underline"] .foot a { text-decoration: underline !important; text-underline-offset: .15em; }
 html[data-contrast="high"] { --muted: var(--fg); --line: var(--fg); --edge: var(--fg); }
 .a11y-prefs { position: relative; }
+@media (max-width: 720px) {
+  .a11y-panel { position: fixed; inset-inline: 12px; top: 64px; min-width: 0; max-height: 70vh; overflow-y: auto; }
+}
 .a11y-prefs > summary { list-style: none; cursor: pointer; user-select: none; }
 .a11y-prefs > summary::-webkit-details-marker { display: none; }
 .a11y-prefs[open] > summary { outline: 2px solid var(--edge); outline-offset: 1px; }
@@ -294,7 +297,7 @@ footer.site, .grid-cards { content-visibility: auto; contain-intrinsic-size: aut
 .dd-menu .t { font-weight: 600; line-height: 1.5; display: flex; align-items: center; gap: 8px; }
 .dd-menu .d { font-size: .86rem; color: var(--muted); line-height: 1.6; }
 .chip.soon { font-size: .72rem; border: 1px solid var(--gold); background: transparent; padding: 0 8px; }
-.nav-tools { margin-inline-start: auto; display: flex; align-items: center; gap: 8px; flex: none; }
+.nav-tools { margin-inline-start: auto; display: flex; align-items: center; gap: 8px; flex: none; flex-wrap: wrap; }
 .nav-tools .chip { white-space: nowrap; }
 @media (max-width: 720px) {
   html.js .nav-links { display: none; }

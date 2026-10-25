@@ -95,6 +95,24 @@ const EXPLORE = explorePages(lang);
           <a class="kids-back" href={`/${lang}/`}>
             <span aria-hidden="true">🏛</span> {T.kids.back_to_museum}
           </a>
+          <details class="a11y-prefs" id="a11y-prefs">
+            <summary class="chip">{T.a11y.prefs}</summary>
+            <div class="a11y-panel" role="group" aria-label={T.a11y.prefs}>
+              <div class="a11y-row">
+                <span>{T.a11y.prefs_text}</span>
+                <span class="a11y-ctl">
+                  <button type="button" data-ts="-" aria-label={T.a11y.prefs_smaller}>A−</button>
+                  <output data-ts-out aria-live="polite">100%</output>
+                  <button type="button" data-ts="+" aria-label={T.a11y.prefs_larger}>A+</button>
+                </span>
+              </div>
+              <label class="a11y-row"><span>{T.a11y.prefs_leading}</span><input type="checkbox" data-pref="leading" /></label>
+              <label class="a11y-row"><span>{T.a11y.prefs_contrast}</span><input type="checkbox" data-pref="contrast" /></label>
+              <label class="a11y-row"><span>{T.a11y.prefs_motion}</span><input type="checkbox" data-pref="motion" /></label>
+              <label class="a11y-row"><span>{T.a11y.prefs_links}</span><input type="checkbox" data-pref="links" /></label>
+              <p class="a11y-note muted">{T.a11y.prefs_note}</p>
+            </div>
+          </details>
         </div>
         <script src="../scripts/classroom.ts"></script>
       ) : (

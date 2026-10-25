@@ -12,7 +12,7 @@ for (const root of document.querySelectorAll<HTMLElement>("[data-journey]")) {
   const count = root.querySelector<HTMLElement>("[data-count]")!;
   const panel = root.querySelector<HTMLElement>("[data-narrative]")!;
   let i = 0, timer = 0;
-  const reduced = matchMedia("(prefers-reduced-motion: reduce)").matches;
+  const reduced = (matchMedia("(prefers-reduced-motion: reduce)").matches || document.documentElement.getAttribute("data-motion") === "reduce");
 
   function show(k: number, focusTick = false) {
     i = (k + p.n) % p.n;
