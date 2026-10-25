@@ -6,7 +6,7 @@ The first lane to use it is `omar-abdelkafy` (`lanes/omar-abdelkafy.md`). The fi
 
 ## 0. Start here (any agent, any session)
 
-1. Read §2 (rights and verification) before any transcript is used. The rule is: a name, number or date counts only when two independent engine families agree within the same 60-second window, or a person has listened at the anchor.
+1. Read §2 (rights and use) before any transcript is used. The working engine's output is used directly, as the founder authorised on 25 Oct 2026; no second engine has to agree.
 2. Set up the Mac once with §3.1 and check §3.2 before debugging anything; most failures are already recorded there.
 3. Work per series in the lane's progress file (`docs/delegation/<lane>-progress.md`). Record every completed recording with the §8 report.
 4. Never put audio, transcripts, model weights or claims tables in git. Only the scripts, the museum's own cited prose, the `data/` facts and the documents change in the repository.
@@ -31,7 +31,7 @@ A recording is a primary source for what the speaker says. It is not corroborati
 - **No transcription of the Qur'an or of hadith matn as scripture.** A recitation or an ayah read in a lecture is never typed into the museum. Reference the passage (`[[passage/quran-<sura>-<aya>|label]]`) and cite the lecture for what the speaker says about it. The validator rejects Qur'an text in prose.
 - **Transcripts are noisy, and an agent cannot listen.** Speech recognition on these archives is wrong in places: the pilot's transcript of episode 1 (large-v3, 8 kbit/s source audio) has invented or garbled words in several lines (for example a line that reads as a non-sentence where the speaker is clearly reciting or quoting). An agent works from text and cannot hear the audio, so the verification rule is:
   1. a fact, name, number, date or quotation is written only from a transcript line that reads clearly as Arabic and makes sense in its context;
-  2. the claims table records the line and its timestamp; at least two independent engines (§3) must give the same words for a name, number or date within the same 60-second window (`scripts/harvest/audio/agree.py` scores this per window), or the claim is dropped. Engines from the same family (two Whisper models) count as one witness for this purpose, because they share their errors on recited and rhymed passages;
+  2. the claims table records the line, its timestamp, the engine and the window. Engine output is used directly, without a second-engine agreement check (founder's decision, 25 Oct 2026).
   3. the founder or another reviewer may confirm a line by listening at its anchor; a line nobody has confirmed is marked `needs_source` in the entity or left out, never presented as checked;
   4. recitations of the Qur'an and quoted hadith are never written from the transcript (see the Qur'an rule above).
 - **Dates and numbers** the speaker gives are his statements. Record them as his, with the anchor; never convert or "correct" them.
@@ -49,7 +49,7 @@ A recording is a primary source for what the speaker says. It is not corroborati
 | Bulk download, polite and resumable | `scripts/harvest/audio/download.py` (Python standard library; identified User-Agent; two-second pause; checksums) | repo |
 | Audio probing and conversion | `ffmpeg`, `ffprobe` (Homebrew) | `/opt/homebrew/bin` |
 | Speech to text, offline | `scripts/harvest/audio/transcribe.py` calling `mlx_whisper` with `mlx-community/whisper-large-v3-mlx` | `/opt/homebrew/Caskroom/miniconda/base/bin/mlx_whisper` |
-| Egyptian and dialect-aware engine | `oddadmix/qwen3-asr-1.7b-arabic-dialectal-v2` (Apache-2.0; Qwen3-ASR-1.7B fine-tuned on dialectal Arabic; reported WER 0.322 on its Egyptian test split against 0.47 for the Whisper large-v3 LoRA on Egyptian MGB-3) through `scripts/harvest/audio/transcribe_qwen.py` in `$HARVEST/.venv-audio` (transformers 5.20, runs on the Mac's GPU, 30-second windows with timestamps). Used with the family of Whisper and Voxtral, so three families agree. Alternatives kept for a later pass: `oddadmix/whisper-large-v3-turbo-arabic-dialectal-v2` (Apache-2.0, Whisper family) and `AbdelrahmanHassan/whisper-large-v3-egyptian-arabic` (Apache-2.0, LoRA, 100 training steps only) |
+| Egyptian and dialect-aware engine | `oddadmix/qwen3-asr-1.7b-arabic-dialectal-v2` (Apache-2.0; Qwen3-ASR-1.7B fine-tuned on dialectal Arabic; reported WER 0.322 on its Egyptian test split against 0.47 for the Whisper large-v3 LoRA on Egyptian MGB-3) through `scripts/harvest/audio/transcribe_qwen.py` in `$HARVEST/.venv-audio` (transformers 5.20, runs on the Mac's GPU, 30-second windows with timestamps). Used as the working engine for the pilot; agreement with other engines is not required (founder's decision, 25 Oct 2026). Alternatives kept for a later pass: `oddadmix/whisper-large-v3-turbo-arabic-dialectal-v2` (Apache-2.0, Whisper family) and `AbdelrahmanHassan/whisper-large-v3-egyptian-arabic` (Apache-2.0, LoRA, 100 training steps only) |
 | Second and third speech engines | Voxtral Mini 3B (`mlx-community/Voxtral-Mini-3B-2507-bf16`) through `mlx-audio` in `$HARVEST/.venv-audio` (installed 25 Oct 2026 with PyTorch, `mistral-common`, `librosa`); Apple's on-device speech recognizer through `scripts/harvest/audio/apple-speech/main.swift` (compiled to `$HARVEST/bin/apple-speech`) | Voxtral gives plain text without timestamps on this file; Apple's engine needs Arabic dictation installed in System Settings (Keyboard > Dictation), a change only the founder makes; until then it refuses to run and sends no audio anywhere |
 | Drafting and claim extraction | local Ollama models (`qwen3:32b`, `gemma4:26b`, judge from another family) under the strict rules of `feedback-local-model-drafting` and `scripts/harvest/library/draft_prose.py` | `ollama` |
 
@@ -57,7 +57,7 @@ A recording is a primary source for what the speaker says. It is not corroborati
 
 - `whisper-large-v3-turbo`: about 60 seconds per episode, but visibly weaker Arabic (repeated lines, dropped words, misread verbs).
 - `whisper-large-v3` (`mlx-community/whisper-large-v3-mlx`): about 3 minutes 15 seconds per 44-minute episode (about 13 times real time), clearly better. **This is the default.** Turbo is used only for a quick pass on a long series where time matters more than accuracy, and its output is never the basis of a quotation.
-- The lecture audio is low quality (about 8 kHz mono, 8 kbit/s MP3 from the archive), so error rates stay high; the verification rule of §2 is what makes it safe. Options still to test, in order: a second pass with `whisper-large-v3-turbo` on a noise-reduced copy (`ffmpeg -af "highpass=f=80,afftdn"` into the harvest workspace, never over the raw file), and an agreement report between the two passes per episode.
+- The lecture audio is low quality (about 8 kHz mono, 8 kbit/s MP3 from the archive), so error rates stay high. The claims table records the engine and window for every line, so an error can be traced and corrected. Optional later diagnostic: a second pass on a noise-reduced copy (`ffmpeg -af "highpass=f=80,afftdn"` into the harvest workspace, never over the raw file), compared with `agree.py`; it is not a condition for use.
 
 Cost: the whole corpus of one preacher with about 600 lessons is roughly 450 hours of audio, about 33 hours of Mac time at this speed. It runs in the background (`tmux` plus `caffeinate -dims`, as in `15-local-harvest.md` §9).
 
@@ -118,9 +118,9 @@ Work in the harvest workspace (`~/islam-museum-harvest`, a link to the external 
 2. **Check the rights and the robots file** of the host once, and record the date in the source entity's `reliability_note`.
 3. **Download.** `python scripts/harvest/audio/download.py --out $HARVEST/raw/<site>/<speaker>/ --manifest <manifest>.tsv`. Files land in `<series_slug>/epNN.mp3` with `SHA256SUMS`. Raw downloads are never edited.
 4. **Probe.** `ffprobe -hide_banner <file>` for duration and tags. Record the duration in the manifest; the archive's own duration is a check.
-5. **Transcribe** (large-v3; for the agreement check of §2 run the second pass with the turbo model on a noise-reduced copy). `python scripts/harvest/audio/transcribe.py --out $HARVEST/books/<site>/<speaker>/<series_slug> <files…>`. Output per episode: `epNN.json` (segments with start and end seconds), `epNN.txt` (lines prefixed `[hh:mm:ss]`), `epNN.meta.json` (model, input checksum, speed, machine). Resumable.
+5. **Transcribe** (large-v3, the primary pass). `python scripts/harvest/audio/transcribe.py --out $HARVEST/books/<site>/<speaker>/<series_slug> <files…>`. Output per episode: `epNN.json` (segments with start and end seconds), `epNN.txt` (lines prefixed `[hh:mm:ss]`), `epNN.meta.json` (model, input checksum, speed, machine). Resumable.
 6. **Read and build a claims table** (harvest workspace, never git): claim, value, anchor `series/epNN hh:mm:ss`, the exact transcript line, a quote of at most 40 words if one is used, doubt flags, target entity. Search `data/` for each target first (reuse; add the new anchor as another cited claim).
-7. **Verify.** Apply the verification rule of §2 (clear line, second pass agrees, or a person's listening recorded in the claims table). Record which of these was done for each claim; never record "verified" for a line nobody heard.
+7. **Record.** Use the working engine's output as the founder authorised. Record the engine and window in the claims table, and drop any line that is unclear.
 8. **Write** the entity data (`data/…`), the Arabic prose first, then English and Urdu translations in the same commit (`docs/language.md`), every fact-stating sentence cited.
 9. **Check.** `npm run cite-check -- <class/slug> …`, `npm run validate` (0 errors), `npm test`, and `npm run coverage` when entities change. `npm run build` for any change under `site/`.
 10. **Commit and push** as `workflow.md` §4 says: merge gate, attribution trailers, a pull request for the batch.
@@ -156,7 +156,7 @@ A recording counts as **completed** only when its claims have passed the verific
 | Duration | from the archive, and from `ffprobe` |
 | Prose | number of entity prose files written (ar, en, ur counted separately) |
 | Persons, places, groups, events, concepts, practices, works, objects | number of new entities of each class, and number of existing entities enriched |
-| Claims | total claims, and how many passed each verification step (second pass, listening, or dropped) |
+| Claims | total claims, with engine and window recorded; lines dropped as unclear |
 | Doubts | count of `needs_source` annotations and dropped lines |
 | Commit | the commit or PR that carries it |
 

@@ -59,7 +59,7 @@ repeated each other's mistakes (`docs/agents/README.md`).
 | OCR library books | harvest drive, `microsd-ocr-status.md` | OCR text stays outside git |
 | Write/run CI, validators, site components | maintainer lanes | code, reviewed by tests |
 | Reconcile places to GeoNames/Pleiades | `scripts/harvest/collections/` | suggested matches, applied deliberately |
-| Transcribe and cite lecture recordings | `scripts/harvest/audio/`: mlx-whisper large-v3, Voxtral Mini 3B (mlx-audio), Qwen3-ASR Arabic dialect model (`oddadmix/qwen3-asr-1.7b-arabic-dialectal-v2`, Apache-2.0, Egyptian-capable), Apple on-device recogniser (unavailable on the founder's Mac, see the method doc); all local, all offline after download | audio and transcripts stay outside git; a claim needs two engine families to agree (`agree.py`), anchors are series, episode and timestamp (`docs/agents/audio-video-harvest.md`) |
+| Transcribe and cite lecture recordings | `scripts/harvest/audio/`: mlx-whisper large-v3, Voxtral Mini 3B (mlx-audio), Qwen3-ASR Arabic dialect model (`oddadmix/qwen3-asr-1.7b-arabic-dialectal-v2`, Apache-2.0, Egyptian-capable), Apple on-device recogniser (unavailable on the founder's Mac, see the method doc); all local, all offline after download | audio and transcripts stay outside git; the working engine's output is used directly, with engine and window recorded (founder's decision, 25 Oct 2026); `agree.py` is a diagnostic, anchors are series, episode and timestamp (`docs/agents/audio-video-harvest.md`) |
 
 What AI does **not** do: serve anything at runtime, mark content
 `reviewed`/`verified`, type Qur'an text, type honorifics, merge or delete

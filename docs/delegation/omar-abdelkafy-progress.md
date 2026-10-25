@@ -4,7 +4,7 @@ Lane document: [`docs/agents/lanes/omar-abdelkafy.md`](../agents/lanes/omar-abde
 
 ## Next step
 
-Run the verification of `audio-video-harvest.md` §2 on the pilot transcripts: a second pass with `whisper-large-v3-turbo` on a noise-reduced copy of each episode, then an agreement report per episode. Only lines that pass it (or that a person has listened to at the anchor) go into claims and prose. Then take `al-hoquq` (5 lessons) through the same steps.
+Write prose from the pilot transcripts (`pass5-qwen`, the working engine), as the founder authorised on 25 Oct 2026; the extraction agent's output is pending checks and commit.
 
 ## Done
 
@@ -17,7 +17,7 @@ Run the verification of `audio-video-harvest.md` §2 on the pilot transcripts: a
 
 ## Doubts in the record
 
-- Transcript quality: the pilot's episode 1 transcript contains garbled and invented lines even with large-v3. No prose is written from the pilot transcripts until the verification rule of `audio-video-harvest.md` §2 is met (second pass or a person's listening at the anchor).
+- Transcript quality: the working engine's output is noisy (garbled and invented lines) and does not agree with the large-v3 pass on most windows. Used as authorised by the founder on 25 Oct 2026; unclear lines dropped, single-occurrence names and numbers marked `needs_source`.
 - Birth year: the archive's biography says "labour day of 1952"; English Wikipedia and Wikidata say 1 May 1951. Both kept; the record shows the conflict (not yet written into the person record; to do in the first prose batch).
 - The archive lists his name as Omar AbdelKafy and Omar Abdelkafi; the record keeps Omar Abd al-Kafi / Abdelkafy as the label.
 
