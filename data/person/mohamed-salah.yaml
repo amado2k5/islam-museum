@@ -1,0 +1,35 @@
+id: person/mohamed-salah
+class: person
+label: { ar: "محمد صلاح", en: "Mohamed Salah", ur: "محمد صلاح" }
+names:
+  - { value: "محمد صلاح حامد محروس غالي", kind: full }
+  - { value: "Mohamed Salah Hamed Mahrous Ghaly", kind: full }
+gender: male
+summary:
+  ar: "لاعب كرة قدم مصري، وُلد في نجريج بمحافظة الغربية سنة 1992، بدأ مع المقاولون العرب ثم تألق مع ليفربول (2017–2026) فحقق دوري أبطال أوروبا والدوري الإنجليزي وأرقاما قياسية في التهديف، وقاد منتخب مصر قائدا له في كأس العالم 2026، ويلعب منذ 2026 لطرابزون سبور التركي. هذا السجل للاعب كرة القدم، وليس للعالِم التونسي محمد صلاح بن مراد صاحب السجل المنفصل في المتحف."
+  en: "Egyptian professional footballer, born in Nagrig, Gharbia, in 1992, who began at Al-Mokawloon, starred for Liverpool (2017–2026) winning the Champions League and Premier League titles and setting scoring records, captained Egypt at the 2026 World Cup, and plays for Trabzonspor in Türkiye since 2026. This record is the footballer, not the Tunisian scholar Mohamed Salah Ben Mrad, who has his own record in the museum."
+  ur: "مصری پیشہ ور فٹ بالر، جو 1992 میں الغربية کے گاؤں نجریج میں پیدا ہوئے، جنہوں نے المقاولون العرب سے آغاز کیا، لیورپول (2017–2026) میں چیمپئنز لیگ اور پریمیئر لیگ جیتے اور گول اسکورنگ کے ریکارڈ بنائے، 2026 کے ورلڈ کپ میں مصر کی قیادت کی، اور 2026 سے ترکی کے ٹرابزون سپور میں کھیل رہے ہیں۔ یہ ریکارڈ فٹ بالر کا ہے۔"
+roles: [footballer]
+wings: [people, living]
+born:
+  edtf: "1992-06-15"
+  hijri: "1412"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "Gregorian date and Nagrig birthplace from English and Arabic Wikipedia. Nagrig has no place entity in the museum yet, so no born_in relation is written. The Hijri year (1412) is derived by tabular conversion. The identity is unambiguous: Mohamed Salah Hamed Mahrous Ghaly, the footballer born 1992 — not Mohamed Salah Ben Mrad (Tunisian scholar, separate record person/mohamed-salah-ben-mrad) and not the 'Dr Muhammad Salah' named in the founder's harvest queue."
+  sources: [source/wikipedia-mohamed-salah-en, source/wikipedia-mohamed-salah-ar]
+faith:
+  - value: unknown
+    basis: unknown
+    note: "English Wikipedia documents that he is Muslim and celebrates goals by performing the sujud, and the Arabic article's infobox gives his religion as Muslim (مسلم). Neither names a school of Islam, and public practice is not a school attestation. Not recorded until two independent sources name a school."
+    sources: [source/wikipedia-mohamed-salah-en, source/wikipedia-mohamed-salah-ar]
+external_ids: { wikidata: "Q1354960" }
+sources: [source/wikipedia-mohamed-salah-en, source/wikipedia-mohamed-salah-ar, source/wikipedia-mohamed-salah-ur, source/wikidata-mohamed-salah]
+provenance:
+  layer: own-research
+  source: "English, Arabic and Urdu Wikipedia articles on Mohamed Salah and Wikidata Q1354960 (item ID taken from the English article's own page information; wikidata.org itself returns 403 from the build environment); checked 24 October 2026. The Urdu article is a stub that still lists Liverpool; the English and Arabic articles, both updated for his August 2026 move to Trabzonspor, govern the current-club facts."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: century-additions-3
+status: { review: published, completeness: 3, generated_by: "Muse (Muse Spark 1.3)" }
