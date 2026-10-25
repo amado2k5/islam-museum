@@ -1,0 +1,36 @@
+id: person/shirin-neshat
+class: person
+label: { ar: "شيرين نشاط", en: "Shirin Neshat", ur: "شیرین نشاط" }
+names:
+  - { value: "Shirin Neshat", kind: full }
+  - { value: "شیرین نشاط", kind: full }
+gender: female
+summary:
+  ar: "مصوّرة وفنانة بصرية وفيلمية إيرانية تعيش في نيويورك، وُلدت في قزوين سنة 1957 ونشأت في بيئة أسرية مسلمة، وغادرت إيران للدراسة في بيركلي سنة 1975 فحالت ثورة 1979 دون عودتها سنوات. بنت شهرتها على سلسلة الصور «نساء الله» (1993–1997) وعلى أعمال فيديو ثنائية الشاشة مثل «مضطرب» و«نشوة» التي نالت الجائزة الدولية في بينالي البندقية سنة 1999، وعلى فيلمها الروائي الأول «نساء بلا رجال» (2009) الذي نال الأسد الفضي لأفضل إخراج. يدور عملها على التضاد بين الإسلام والغرب والأنوثة والذكورة والمنفى والانتماء."
+  en: "Iranian photographer, visual artist and filmmaker living in New York, born in Qazvin in 1957 and brought up in a Muslim family environment. She left Iran in 1975 to study at Berkeley, and the 1979 revolution kept her from returning for years. She built her reputation on the Women of Allah photographic series (1993-97) and on two-screen video works such as Turbulent and Rapture, which won the International Award at the 1999 Venice Biennale, and on her first feature film, Women Without Men (2009), which won the Silver Lion for best director. Her work turns on the contrasts between Islam and the West, femininity and masculinity, exile and belonging."
+  ur: "ایرانی مصوّرہ، بصری فنکارہ اور فلم ساز جو نیویارک میں رہتی ہیں، 1957 میں قزوین میں پیدا ہوئیں اور ایک مسلم خاندانی ماحول میں پلی بڑھیں۔ وہ 1975 میں برکلے میں تعلیم کے لیے ایران سے گئیں اور 1979 کے انقلاب نے برسوں ان کی واپسی روکے رکھی۔ ان کی شہرت تصویری سلسلے «نساء اللہ» (1993ء–1997ء)، دو اسکرینی ویڈیو اعمال جیسے «مضطرب» اور «نشوہ» — جنھیں 1999 کے وینس بینالے کا بین الاقوامی انعام ملا — اور ان کی پہلی فیچر فلم «مردوں کے بغیر عورتیں» (2009) پر قائم ہے، جس نے بہترین ہدایت کاری کا سلور لائن جیتا۔"
+roles: [artist, photographer, filmmaker]
+wings: [people, living]
+born:
+  edtf: "1957-03-26"
+  hijri: "1376"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "Born on 26 March 1957 in Qazvin, given by the English Wikipedia article's lead and infobox. The Hijri year (1376) is derived by tabular conversion."
+  sources: [source/wikipedia-shirin-neshat-en]
+relations:
+  - { type: born_in, target: place/qazvin, sources: [source/wikipedia-shirin-neshat-en] }
+faith:
+  - value: unknown
+    basis: unknown
+    note: "NOT RECORDED AS DOCUMENTED — the evidence attests a Muslim upbringing and practice, never a school or path of her own. The English article says she was brought up in a 'very warm, supportive Muslim family environment' and learned traditional religious values through her maternal grandparents: that is family background, which the lane rules expressly exclude (the Sami Frashëri near-miss). In a 2014 interview she said of herself and her family, 'my whole family were Muslims... We were all practicing Muslims, so it wasn't just my grandma or anything' — her own words attest that she was raised and practised as a Muslim, but they name no school, order or tradition, and the fact that she was born in Iran cannot supply one: inferring Twelver Shi'ism from an Iranian birthplace is exactly the inference the rules forbid, and the Shia-mapping rule requires two sources attesting 'Shia' for the person herself, which no fetched source does. Her work's subject matter — Islam and the West, Muslim women, martyrdom and exile — is repertoire, not attestation. Under the two-source rule and the founder's doubt rule the faith is left unknown, with the Muslim upbringing and practice recorded here as she stated them."
+    sources: [source/wikipedia-shirin-neshat-en]
+sources: [source/wikipedia-shirin-neshat-en]
+provenance:
+  layer: own-research
+  source: "English Wikipedia 'Shirin Neshat', read in full on 25 October 2026; her 2014 interview with ASX (American Suburb X), in which she describes her family's and her own Muslim practice, was read in search-result extract the same day and is cited in the faith note as an interview statement, not registered as a separate source entity. No earlier record for her existed in data/person/ under any spelling (neshat checked); this is a new build, not an enrichment. No Wikidata item was registered for her in this run, so no external ID is recorded rather than an unverified one."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: century-additions-12
+status: { review: published, completeness: 3, generated_by: "Muse (Muse Spark 1.3)" }
