@@ -103,7 +103,7 @@ html:is([lang="ar"], [lang="ur"]) .card .card-title { font-family: var(--ar-body
 @media print {
   :root, :root[data-theme="dark"] { --bg: #fff; --fg: #000; --panel: #fff; --muted: #333; --link: #000; }
   .no-print, header.site, footer.site, .pattern, .skip, .depth-dial { display: none !important; }
-  body { font-size: 11pt; display: block; }
+  body { font-size: 11pt; display: block; min-height: 0; }
   a { text-decoration: none; }
   a[href^="http"]::after { content: " (" attr(href) ")"; font-size: 0.8em; }
   .panel, .card { border: 1px solid #999; break-inside: avoid; }
