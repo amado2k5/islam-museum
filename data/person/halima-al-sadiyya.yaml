@@ -1,4 +1,10 @@
 id: person/halima-al-sadiyya
+education:
+  did_you_know:
+    ar: "حليمة السعدية امرأة بدوية من بني سعد أرضعت النبي رضيعاً في البادية سنوات عدة كما كانت عادة أهل مكة بإرسال أبنائهم إلى المراضع."
+    en: "Halima al-Sa'diyya, a Bedouin woman of Banu Sa'd, nursed the infant Prophet in the desert for several years, as Meccans customarily sent their children to wet-nurses."
+    ur: "حلیمہ سعدیہ، بنو سعد کی بدو عورت، نے نبی کو رضاعت میں صحرا میں کئی سال پالا — مکیوں کی عادت تھی بچے دایہ کو سونپنا۔"
+    sources: [source/ibn-sad-tabaqat-bewley, source/ibn-ishaq-guillaume]
 class: person
 label: { en: Halima al-Sa'diyya, ar: حليمة السعدية }
 names:
@@ -26,3 +32,9 @@ relations:
   - { type: lived_in, target: place/mecca, start: { edtf: "062X" }, note: "Later reports place her in Mecca and Medina.", sources: [source/ibn-sad-tabaqat-bewley] }
 sources: [source/ibn-sad-tabaqat-bewley, source/ibn-ishaq-guillaume, source/nisa-hawl-alrasul, source/mubarakpuri-raheeq, source/ibn-hisham-sira, source/zad-al-maad]
 status: { review: draft, completeness: 1, generated_by: "Devin; 2026-10-11; Nisa' Hawl al-Rasul pp. 15-19 added by Devin (SWE-2 High), lib-nisa-hawl-rasul" }
+provenance:
+  layer: own-research
+  source: "source/ibn-sad-tabaqat-bewley"
+  generated_by: Devin
+  model: "unknown"
+  run: "education-E3-facts-batch6"

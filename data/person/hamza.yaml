@@ -1,4 +1,10 @@
 id: person/hamza
+education:
+  did_you_know:
+    ar: "حمزة عمّ النبي ومن أشد المدافعين الأوائل عن الإسلام، ويذكره التقليد بسيد الشهداء لمقتله بأُحد."
+    en: "Hamza, the Prophet's uncle and one of Islam's fiercest early defenders, is remembered in tradition as the chief of martyrs for his death at Uhud."
+    ur: "حمزہ، نبی کے چچا اور اسلام کے اولین سخت مدافعین میں سے، احد میں شہادت کے سبب روایت میں سید الشہدا کہلاتے ہیں۔"
+    sources: [source/ibn-ishaq-guillaume, source/mubarakpuri-raheeq]
 class: person
 label: { en: Hamza ibn Abd al-Muttalib, ar: حمزة بن عبد المطلب }
 names:
@@ -41,3 +47,9 @@ external_ids:
   wikidata: Q770033
 sources: [source/ibn-ishaq-guillaume, source/ibn-sad-tabaqat-bewley, source/watt-1956-medina, source/mubarakpuri-raheeq, source/talqih-fuhum-ahl-al-athr, source/zad-al-maad, source/sahih-al-bukhari]
 status: { review: draft, completeness: 2, generated_by: "Devin; 2026-10-11" }
+provenance:
+  layer: own-research
+  source: "source/ibn-ishaq-guillaume"
+  generated_by: Devin
+  model: "unknown"
+  run: "education-E3-facts-batch6"
