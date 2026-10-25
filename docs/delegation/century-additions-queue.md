@@ -108,11 +108,11 @@ lists' own order. Status markers: [ ] queued · [~] in a writer's hands · [x] m
 - [x] Ayaan Hirsi Ali (Historical Figure) — 1969–Living
 - [x] Asisat Oshoala — 1994–Living
 - [x] Sadio Mané — 1992–Living
-- [ ] Riyad Mahrez — 1991–Living
-- [ ] Karim Benzema — 1987–Living
-- [ ] Zinedine Zidane — 1972–Living
-- [ ] Mesut Özil — 1988–Living
-- [ ] Paul Pogba — 1993–Living
+- [x] Riyad Mahrez — 1991–Living
+- [x] Karim Benzema — 1987–Living
+- [x] Zinedine Zidane — 1972–Living
+- [x] Mesut Özil — 1988–Living
+- [x] Paul Pogba — 1993–Living
 - [ ] N'Golo Kanté — 1991–Living
 - [ ] Kenia Os — 1999–Living
 - [ ] Sariyah Idan — 1985–Living
