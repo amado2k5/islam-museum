@@ -1,4 +1,10 @@
 id: person/al-mundhir-ibn-ma-al-sama
+education:
+  did_you_know:
+    ar: "المنذر بن ماء السماء ملك الحيرة عزله قباذ لأبيه اختيار المذهب المزدكي، فولّى بدله الحارث الكندي، ثم أعاده أنوشروان بعد قتل مزدك."
+    en: "Al-Mundhir ibn Ma' al-Sama, king of al-Hira, was deposed by Qubadh because his father had chosen the Mazdakite creed; al-Harith al-Kindi replaced him — then Anushirwan restored him after Mazdak was killed."
+    ur: "منذر بن ماء السماء، حیرہ کا بادشاہ، کو قباذ نے معزول کیا کیونکہ اس کے باپ نے مزدکی مذہب اختیار کیا تھا؛ اس کی جگہ حارث کندی بیٹھایا گیا — پھر مزدک کے قتل کے بعد انوشروان نے اسے لوٹایا۔"
+    sources: [source/muruj-al-dhahab, source/tabaqat-ibn-sad]
 class: person
 label: { en: "al-Mundhir ibn Maʾ al-Samaʾ", ar: "المنذر بن ماء السماء" }
 gender: male
@@ -16,3 +22,9 @@ relations:
   - { type: member_of, target: group/banu-lakhm }
 sources: [source/mubarakpuri-raheeq, source/al-aalam, source/muhadarat-tarikh-al-umam-al-islamiyya, source/nihayat-al-arab-nuwayri-vol1-scan]
 status: { review: draft, completeness: 2, generated_by: "Devin; al-Raheeq al-Makhtum pp. 23–34 (batch 25b)" }
+provenance:
+  layer: own-research
+  source: "source/muruj-al-dhahab"
+  generated_by: Devin
+  model: "unknown"
+  run: "education-E3-facts-batch13"
