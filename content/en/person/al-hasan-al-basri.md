@@ -20,3 +20,17 @@ Ibn al-Nadim says he wrote for al-Rabi' ibn Ziyad in Khurasan and for Anas ibn M
 
 ## Al-Hasan al-Basri in Sheikh Omar Abdelkafy's lessons (episodes 2 and 3)
 The Sheikh relates that al-Hasan wept and said that if God tests them He would expose them and tear away their veils (needs_source). {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep02 00:07:00} He quotes his saying that the people of the world ate and we ate, they feared tomorrow and we are safe (needs_source). {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep03 00:51:00}
+
+## From the series Al Fawzu Al Moubeen
+
+The Sheikh relates that al-Hasan preferred reading from the mushaf to reciting from memory, because looking into it gives the eye a share of light, and that the mushaf testifies for the reader and pleads on his behalf (needs_source: attribution garbled) {cite:assabile-omar-abdelkafy al-fawzu-al-moubeen/ep02 00:33:00}.
+
+He transmits al-Hasan's saying that the people of the world wronged themselves and were not wronged, and that the patient poor man and the grateful rich man both await what is with God (needs_source: source of the saying not named) {cite:assabile-omar-abdelkafy al-fawzu-al-moubeen/ep05 00:20:00}.
+
+He relates that people saw a light on the face of Muhammad ibn Sirin, and that al-Hasan, who was dark-complexioned, also showed a light. Asked about it, al-Hasan answered that his people had been alone with God in the dark of night, so He clothed them in beauty; the Sheikh concludes that what counts is the purity of the heart (needs_source: anecdote unsourced) {cite:assabile-omar-abdelkafy al-fawzu-al-moubeen/ep11 00:04:30}.
+
+He relates that al-Hasan saw small cells in Basra and said they would one day be inhabited, and he draws from this a warning about the danger of following the ruler (needs_source: anecdote unsourced) {cite:assabile-omar-abdelkafy al-fawzu-al-moubeen/ep11 00:12:00}.
+
+He relates that the household of al-Hasan had only a little egg left, that a girl of the house gave nine eggs in charity to a poor man, and that a rich neighbour then sent a basket of eggs {cite:assabile-omar-abdelkafy al-fawzu-al-moubeen/ep10 00:13:00}.
+
+He relates that al-Hasan visited a sad man and asked whether what was happening to him was in God's sight or far from it, and then compared this to a mother watching over her son {cite:assabile-omar-abdelkafy al-fawzu-al-moubeen/ep10 00:37:00}.

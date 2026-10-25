@@ -39,3 +39,20 @@ Assabile آرکائیو میں شیخ عمر عبد الکافی کے ریکار
 
 ## سلسلہ «تفسیر القرآن الکریم» (اسابیل آرکائیو)
 یہ سلسلہ دس قسطوں پر مشتمل ہے اور جزء عم کی ابتدائی سورتوں کو پڑھاتا ہے: پہلے سورۃ النبأ اور پھر سورۃ النازعات۔ شیخ پہلی قسط کا آغاز سورۃ النبأ سے کرتے ہیں اور اس کے آغاز کو درس کا موضوع بناتے ہیں۔ {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep01} وہ بعد کی قسطوں میں عظیم خبر کی طرف لوٹتے ہیں۔ {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep02} {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep03} آخری قسطیں سورۃ النازعات کی طرف مڑتی ہیں، جس کا تعارف وہ آٹھویں قسط میں کرواتے ہیں۔ {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep08} نویں قسط میں وہ اب تک کے سلسلے کا خلاصہ دہراتے ہیں۔ {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep09} دسویں قسط بھی سورۃ النازعات سے متعلق ہے۔ {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep10}
+
+## سلسلہ الفوز المبین سے
+پہلی قسط میں شیخ اس سلسلے کو آسان حلوں کے ذریعے [[concept/al-fawz-al-mubin|الفوز المبین]] تک پہنچنے کا عملی راستہ قرار دیتے ہیں۔ ان کا خیال ہے کہ لوگ آسان حل کو کم اہمیت دیتے ہیں اور سمجھتے ہیں کہ یہ کامیابی صرف بڑے کاموں سے ملتی ہے، جیسے صحابہ کے کام۔ {cite:assabile-omar-abdelkafy al-fawzu-al-moubeen/ep01 00:01:00} نویں قسط میں وہ کہتے ہیں کہ اس سلسلے کا موضوع الفوز المبین ہے۔ {cite:assabile-omar-abdelkafy al-fawzu-al-moubeen/ep09 00:00:00}
+
+پہلی قسط میں وہ کہتے ہیں کہ امت کے اخلاق اور طرزِ عمل میں خلل ہے۔ ان کے نزدیک معاملات میں ذوق کا فقدان بہت سی بنیادی چیزوں کے کھو جانے کا سبب بنتا ہے۔ {cite:assabile-omar-abdelkafy al-fawzu-al-moubeen/ep01 00:02:00} {cite:assabile-omar-abdelkafy al-fawzu-al-moubeen/ep01 00:03:00}
+
+وہ ہر مسلمان کو دعوت دیتے ہیں کہ نبی جو کچھ اپنے اقوال، افعال اور معاملات میں پسند کرتے تھے اس پر غور کرے اور اسے اپنے سامنے رکھے۔ وہ نتیجہ نکالتے ہیں کہ امانت ادا کرنا، سچ بولنا اور اچھی ہمسائیگی نبی کی پسندیدہ باتوں میں شامل ہیں۔ {cite:assabile-omar-abdelkafy al-fawzu-al-moubeen/ep02 00:01:00} {cite:assabile-omar-abdelkafy al-fawzu-al-moubeen/ep02 00:34:00}
+
+تیسری قسط میں وہ کہتے ہیں کہ [[concept/al-qiraa-wal-thaqafa|مطالعے]] کا موضوع نہایت اہم ہے، کیونکہ یہ عالمی ثقافت کے سامنے امت کی ثقافت کا تعین کرتا ہے۔ {cite:assabile-omar-abdelkafy al-fawzu-al-moubeen/ep03 00:01:00} وہ اپنی روزانہ کی عادت بیان کرتے ہیں کہ دو صفحات قرآن کے اور دو صفحات ایک مفید کتاب کے پڑھتے ہیں۔ وہ روزانہ پندرہ منٹ کے آزاد مطالعے کی تجویز دیتے ہیں جو آہستہ آہستہ بڑھتا جائے، اور کتاب کے حاشیے پر نوٹس لکھنے اور خریدنے سے پہلے اس کی فہرست پڑھنے کی تلقین کرتے ہیں۔ {cite:assabile-omar-abdelkafy al-fawzu-al-moubeen/ep03 00:27:00} {cite:assabile-omar-abdelkafy al-fawzu-al-moubeen/ep03 00:37:00} {cite:assabile-omar-abdelkafy al-fawzu-al-moubeen/ep03 00:42:00}
+
+بعض قسطوں کا آغاز شیخ کے بجائے پیش کار کرتے ہیں: ساتویں قسط میں پیش کار اعلان کرتا ہے کہ یہ قسط [[concept/sharh-al-sadr|انشراحِ صدر]] کے لیے مخصوص ہے، اور گیارہویں میں مذیع اسے ان لوگوں کے لیے امید کی جگہ کے طور پر پیش کرتا ہے جو امید کھو چکے ہیں۔ {cite:assabile-omar-abdelkafy al-fawzu-al-moubeen/ep07 00:00:30} {cite:assabile-omar-abdelkafy al-fawzu-al-moubeen/ep11 00:01:00}
+
+تیرہویں قسط میں وہ کہتے ہیں کہ دین آسان ہے مگر لوگوں نے معاملات کو الجھا دیا اور اس کی حقیقتوں سے دور ہو گئے۔ وہ ایسے شخص کی صحبت کو، جس سے بھلائی کی امید نہ ہو، الفوز المبین کی راہ میں پہلی رکاوٹ قرار دیتے ہیں۔ {cite:assabile-omar-abdelkafy al-fawzu-al-moubeen/ep13 00:42:00} {cite:assabile-omar-abdelkafy al-fawzu-al-moubeen/ep13 00:43:00}
+
+[[concept/huquq-wal-wajibat|حقوق و واجبات]] کے بارے میں وہ کہتے ہیں کہ حقوق کا ضیاع الفوز المبین میں رکاوٹ ہے، اور وہ ناظر کو دعوت دیتے ہیں کہ اپنے کردار کے مطابق دوسروں کے حقوق پر غور کرے، جیسے بیٹا، باپ، شوہر، ہمسایہ اور کام دینے والا۔ {cite:assabile-omar-abdelkafy al-fawzu-al-moubeen/ep08 00:00:30} {cite:assabile-omar-abdelkafy al-fawzu-al-moubeen/ep08 00:48:00}
+
+بارہویں قسط میں وہ اپنے تجربے کا ذکر کرتے ہیں: امریکہ میں ستر اور اسی کی دہائی میں ہوٹلوں کے بورڈوں پر لکھا ہوتا تھا کہ زندگی مال سے زیادہ قیمتی ہے، اور مکہ میں انہیں وہ روحانی امن نظر آتا ہے جس میں حاجی اپنی عبادت پر مطمئن ہوتا ہے (needs_source: personal-recollection)۔ {cite:assabile-omar-abdelkafy al-fawzu-al-moubeen/ep12 00:40:00}

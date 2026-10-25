@@ -70,3 +70,20 @@ translators: []
 
 ## سلسلة «تفسير القرآن الكريم» (أرشيف أسابيل)
 تقع في عشر حلقات، وتتناول أول سور جزء عمّ: سورة النبأ ثم سورة النازعات. يبدأ الشيخ الحلقة الأولى بسورة النبأ وقد اختار أولها موضوعا للدرس. {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep01} ويعود إلى النبأ العظيم في حلقات تالية. {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep02} {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep03} وتتصل الحلقات الأخيرة بسورة النازعات، ويبدأ الشيخ بها في الحلقة الثامنة. {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep08} ويعيد في التاسعة ما سبق من السلسلة. {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep09} وتتناول الحلقة الأخيرة النازعات أيضا. {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep10}
+
+## من سلسلة الفوز المبين
+يقدّم الشيخ في الحلقة الأولى السلسلة بوصفها طريقا عمليا إلى [[concept/al-fawz-al-mubin|الفوز المبين]] بحلول بسيطة، ويرى أن الناس يستهينون بالحلول اليسيرة ويظنون أن هذا الفوز لا يتحقق إلا بأعمال كبيرة كأعمال الصحابة. {cite:assabile-omar-abdelkafy al-fawzu-al-moubeen/ep01 00:01:00} ويعلن في الحلقة التاسعة أن موضوع السلسلة هو الفوز المبين. {cite:assabile-omar-abdelkafy al-fawzu-al-moubeen/ep09 00:00:00}
+
+يرى الشيخ في الحلقة الأولى أن الأمة تعاني خللا في أخلاقها وسلوكها، وأن فقدان الذوق في التعامل يقود إلى فقدان أمور أساسية كثيرة. {cite:assabile-omar-abdelkafy al-fawzu-al-moubeen/ep01 00:02:00} {cite:assabile-omar-abdelkafy al-fawzu-al-moubeen/ep01 00:03:00}
+
+ويدعو كل مسلم إلى أن يتأمل ما كان النبي يحبه في أقواله وأفعاله ومعاملاته، ويضعه نصب عينيه. ويخلص إلى أن أداء الأمانة وصدق الحديث وحسن الجوار من محبوبات النبي. {cite:assabile-omar-abdelkafy al-fawzu-al-moubeen/ep02 00:01:00} {cite:assabile-omar-abdelkafy al-fawzu-al-moubeen/ep02 00:34:00}
+
+وفي الحلقة الثالثة يعد الشيخ موضوع [[concept/al-qiraa-wal-thaqafa|القراءة]] بالغ الخطورة، لأنه يحدد ثقافة الأمة أمام الثقافة العالمية. {cite:assabile-omar-abdelkafy al-fawzu-al-moubeen/ep03 00:01:00} ويصف عادته اليومية بقراءة صفحتين من المصحف وصفحتين من كتاب نافع، ويقترح قراءة حرة لربع ساعة يوميا تزيد تدريجيا، وينصح بتدوين الملاحظات على هامش الكتاب وبقراءة فهرسه قبل شرائه. {cite:assabile-omar-abdelkafy al-fawzu-al-moubeen/ep03 00:27:00} {cite:assabile-omar-abdelkafy al-fawzu-al-moubeen/ep03 00:37:00} {cite:assabile-omar-abdelkafy al-fawzu-al-moubeen/ep03 00:42:00}
+
+ويفتتح بعض الحلقات مقدِّم لا الشيخ: ففي السابعة يعلن المقدِّم أن الحلقة مخصصة لـ[[concept/sharh-al-sadr|انشراح الصدر]]، وفي الحادية عشرة يقدّم المذيع الحلقة بوصفها مساحة أمل لمن فقد الرجاء. {cite:assabile-omar-abdelkafy al-fawzu-al-moubeen/ep07 00:00:30} {cite:assabile-omar-abdelkafy al-fawzu-al-moubeen/ep11 00:01:00}
+
+في الحلقة الثالثة عشرة يرى الشيخ أن الدين ميسور، لكن الناس عقّدوا الأمور وابتعدوا عن حقائقها، ويعد صحبة من لا يُرجى خيره أول مانع من الفوز المبين. {cite:assabile-omar-abdelkafy al-fawzu-al-moubeen/ep13 00:42:00} {cite:assabile-omar-abdelkafy al-fawzu-al-moubeen/ep13 00:43:00}
+
+وفي موضوع [[concept/huquq-wal-wajibat|الحقوق والواجبات]] يرى الشيخ أن ضياع الحقوق يحول دون الفوز المبين، ويدعو المشاهد إلى تأمل ما للآخرين من حقوق بحسب دوره، كالابن والأب والزوج والجار وصاحب العمل. {cite:assabile-omar-abdelkafy al-fawzu-al-moubeen/ep08 00:00:30} {cite:assabile-omar-abdelkafy al-fawzu-al-moubeen/ep08 00:48:00}
+
+ويتحدث الشيخ عن تجربته في أمريكا في السبعينات والثمانينات، حيث كانت لافتات الفنادق تحث على أن الحياة أثمن من المال، ثم يرى في مكة أمنا روحيا يطمئن فيه الحاج لعبادته (needs_source: personal-recollection). {cite:assabile-omar-abdelkafy al-fawzu-al-moubeen/ep12 00:40:00}

@@ -35,3 +35,23 @@ translators: []
 يذكر الشيخ أن عمر كان يبكي إذا سمع القرآن من النبي (needs_source). {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep01 00:23:30} ويقول إن عمر خاف أن يُسأل عن بغلة تعثر في طريق العراق لم يُمهَّد لها الطريق (needs_source). {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep02 00:20:30}
 ويذكر أن عمر قدّم العدل أولا، فأخذ البطيخ من يد حفيده وأعطاه لفقير (needs_source). {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep02 00:22:00} ويذكر أن عمر جعل الستة الذين يختارون الإمام لا يخرجون حتى يختاروا أحدهم، وأن ابنه عبد الله وقف على الباب (needs_source). {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep02 00:22:30} {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep02 00:23:00}
 ويقول إن عمر كان يشعر بالمسؤولية عن أمة محمد (رأي الشيخ). {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep02 00:23:00} ويذكر في حكاية عن معنى لفظ الأب، وأنه سأل عنه فأُجيب بأنه في القرآن (needs_source). {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep03 00:38:00}
+
+## من سلسلة الفوز المبين
+
+يروي الشيخ أن عمر كان يدعو الله أن يرزقه الشهادة والموت في بلد رسوله، فتعجب الصحابة لذلك، ويستدل بالقصة على شدة تعلقهم بالنبي {cite:assabile-omar-abdelkafy al-fawzu-al-moubeen/ep02 00:06:00}.
+
+يذكر أن عمر كان يسأل من يأتيه بأمر: أهو عام للمسلمين أم خاص به؟ فإن كان خاصا أطفأ السراج الذي تضيئه الدولة (needs_source: anecdote-unsourced) {cite:assabile-omar-abdelkafy al-fawzu-al-moubeen/ep02 00:28:00}، وأنه أطفأ السراج حين مات الرجل الذي كان يجالسه لأن الزيت صار حقا للورثة (needs_source: anecdote-unsourced) {cite:assabile-omar-abdelkafy al-fawzu-al-moubeen/ep02 00:28:30}، وأخذ من حفيده قطعة نقدية من بيت المال (needs_source: figure-coin-value; anecdote-unsourced) {cite:assabile-omar-abdelkafy al-fawzu-al-moubeen/ep02 00:29:00}. ويذكر أنه أمر خازن بيت المال بإعفاء شيخ كبير من أهل الذمة من الجزية {cite:assabile-omar-abdelkafy al-fawzu-al-moubeen/ep02 00:44:00}.
+
+ينسب الشيخ إلى عمر قوله إن الله أعز المسلمين بالإسلام بعد أن كانوا في ضعف، وإن طلب العزة بغيره يذلهم (needs_source: athar-attribution-uncited) {cite:assabile-omar-abdelkafy al-fawzu-al-moubeen/ep04 00:36:30}.
+
+يذكر أن عمر خطب في الناس حين زلزلت الأرض، وقال للأرض «اثبتي»، وأن زلزال المدينة نذير بذنوب أحدثت (needs_source: athar-umar-unverified) {cite:assabile-omar-abdelkafy al-fawzu-al-moubeen/ep06 00:35:30}، ويحلل موقفه بأن الأرض تتزلزل لأفعال من نسي الله، ويعدد أمثلة من الذنوب {cite:assabile-omar-abdelkafy al-fawzu-al-moubeen/ep06 00:36:00}. ويذكر أثرا بأن في الأمم السابقة محدّثين، ثم يروي قصة عن عمر مع رجل نسب نفسه إلى حرة واقم فأمره بالرجوع إلى أهله (needs_source: anecdote-umar) {cite:assabile-omar-abdelkafy al-fawzu-al-moubeen/ep06 00:20:30}.
+
+ويروي أن شابا قبطيا فاز في سباق على ابن عمرو بن العاص فضربه، فشكاه إلى عمر، فاستدعى عمرو وابنه، وأمر القبطي بضرب ابن عمرو، وقال كلمته المشهورة عن أن الناس خلقهم الله أحرارا (needs_source: anecdote-unsourced) {cite:assabile-omar-abdelkafy al-fawzu-al-moubeen/ep06 00:28:00} {cite:assabile-omar-abdelkafy al-fawzu-al-moubeen/ep06 00:29:00}.
+
+يذكر أن عمر أشار بالقتل في موقف، فبيّن النبي أن الله يلين قلوب قوم ويشدّ قلوب آخرين، وشبّه أبا بكر بإبراهيم وعيسى، وعمر بنوح وموسى [[passage/quran-14-36|إبراهيم 36]] [[passage/quran-5-118|المائدة 118]] [[passage/quran-71-26|نوح 26]] {cite:assabile-omar-abdelkafy al-fawzu-al-moubeen/ep09 00:12:00}.
+
+يروي أن عمر نام تحت شجرة بعد أن قال له رجل فارسي إنه عادل فأمن، ويقول إن العين تنام والقلب يقظ مع الله {cite:assabile-omar-abdelkafy al-fawzu-al-moubeen/ep10 00:37:30}.
+
+يحكي أن شابا كان يشرب الخمر بعيدا عن الطريق، فلما عاد إلى بيته بزجاجة فيها خمر وجد عمر في طريقه (needs_source: anecdote-unattributed) {cite:assabile-omar-abdelkafy al-fawzu-al-moubeen/ep13 00:22:30}.
+
+يحكي أن رجلا شكا إلى عمر زوجته لأنها ترفع صوتها عليه، ويعرض القصة مع الصبر على سوء الخلق والنظر إلى خدمة الزوجة (needs_source: anecdote-garbled) {cite:assabile-omar-abdelkafy al-fawzu-al-moubeen/ep14 00:22:00}، ويذكر أن الخليفة شكا هو الآخر زوجته، ووصفها بأنها تغسل الثياب وتطبخ وتربي الأولاد، ويقول إن الصبر على سوء الخلق طريق يُرجى به الجنة (needs_source: anecdote-garbled) {cite:assabile-omar-abdelkafy al-fawzu-al-moubeen/ep14 00:23:00}.

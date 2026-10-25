@@ -12,3 +12,25 @@ In Ka'b's account he was saved by truthfulness when he knew nothing else would s
 
 ## Notes
 - The page relays what Ka'b said of himself; the general ethical treatment needs other sources (needs_source).
+
+## From the series Al Fawzu Al Moubeen
+In the second episode the Sheikh says that the Prophet disliked lying and loved truthful speech. He faults people who lie even in worship, and gives as an example the opening takbir of prayer, said without attention to its meaning. {cite:assabile-omar-abdelkafy al-fawzu-al-moubeen/ep02 00:13:00}
+
+He tells of a man who hid under a heap of palm fibre to escape people who wanted to kill him. When the pursuers asked him, he answered truthfully, so they took him for a madman and left him. He uses the story to show the merit of truthful speech. {cite:assabile-omar-abdelkafy al-fawzu-al-moubeen/ep02 00:15:00} (needs_source: anecdote-unsourced)
+
+He holds that a person who keeps to truth is recorded before God as truthful (siddiq), and one who lies until lying becomes a habit is recorded as a liar. He describes the truthful person as balanced within himself, and in the same passage refers to a hadith without naming its narrator. {cite:assabile-omar-abdelkafy al-fawzu-al-moubeen/ep02 00:18:30}
+
+He gives the example of a habitual liar who, asked the price of a watch, lies about it and changes the lie in every gathering. Repeated lying, he concludes, records its owner as a liar. {cite:assabile-omar-abdelkafy al-fawzu-al-moubeen/ep02 00:19:00}
+
+He criticises managers who promise staff promotions and do not keep their word, and holds that this is the promise of Satan. He closes by saying that the Muslim is truthful in speech; most of this passage is garbled in the transcript. {cite:assabile-omar-abdelkafy al-fawzu-al-moubeen/ep02 00:14:30} (needs_source: garbled-passage)
+
+He holds that clear speech is preferable to the affected language of meetings, with its reports, strategies and frameworks, which the listener cannot follow. {cite:assabile-omar-abdelkafy al-fawzu-al-moubeen/ep02 00:24:00}
+
+He tells of a security firm that interviewed young Muslim and non-Muslim candidates and asked them about drinking alcohol. One candidate answered truthfully and was hired, because security needs truthfulness. {cite:assabile-omar-abdelkafy al-fawzu-al-moubeen/ep07 00:39:00} (needs_source: anecdote-unnamed)
+
+:::perspectives
+- **Sunni view: not yet sourced**: not yet sourced.
+- **speaker's view (Omar Abdelkafy)**: He holds that a manager's promise of promotion that is not kept is the promise of Satan. {cite:assabile-omar-abdelkafy al-fawzu-al-moubeen/ep02 00:14:30} (needs_source: garbled-passage)
+- **academic view: not yet sourced**: not yet sourced.
+- **other view: not yet sourced**: not yet sourced.
+:::

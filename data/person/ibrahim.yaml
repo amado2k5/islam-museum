@@ -19,6 +19,7 @@ relations:
   - { type: built, target: building/kaaba, note: "رفع القواعد من البيت مع ابنه إسماعيل في رحلته الثالثة المحفوظة.", sources: [source/mubarakpuri-raheeq, source/sahih-al-bukhari] }
   - { type: lived_in, target: place/palestine, note: "اتخذ فلسطين قاعدة لدعوته بعد هجرته من أور وحرّان.", sources: [source/mubarakpuri-raheeq] }
   - { type: traveled_to, target: place/mecca, note: "أربع رحلات محفوظة إلى مكة: الإسكان، الذبح، واختبار الزوجتين، وبناء البيت.", sources: [source/mubarakpuri-raheeq, source/sahih-al-bukhari] }
+sensitivity: contested
 sources: [source/mubarakpuri-raheeq, source/sahih-al-bukhari, source/sifr-al-takwin, source/tafsir-sharawi-khawatir-scan-pp-501-1000, source/assabile-omar-abdelkafy]
 education:
   did_you_know:
@@ -35,7 +36,7 @@ provenance:
   source: 'Earlier content of this record: provenance was not recorded when it was written (see the record''s status line). Section added from Assabile, Tafsir Al Quran Al Qareem (pass5-qwen transcripts; engine Qwen3-ASR, oddadmix/qwen3-asr-1.7b-arabic-dialectal-v2)'
   generated_by: Claude Code (claude-haiku-5-5)
   model: claude-haiku-5-5
-  run: omar-abdelkafy-tafsir-1
+  run: omar-abdelkafy-tafsir-1; omar-abdelkafy-al-fawzu-1
   also:
   - layer: own-research
     source: education fact engine batch 2 — did_you_know fact drafted in three languages from the record's own cited sources
