@@ -103,11 +103,11 @@ lists' own order. Status markers: [ ] queued · [~] in a writer's hands · [x] m
 - [ ] Sima Samar — 1957–Living
 - [ ] Habiba Sarābi — 1956–Living
 - [ ] Dr. Hawa Abdi — 1947–2020
-- [ ] Ilwad Elman — 1989–Living
-- [ ] Fartuun Adan — 1969–Living
-- [ ] Ayaan Hirsi Ali (Historical Figure) — 1969–Living
-- [ ] Asisat Oshoala — 1994–Living
-- [ ] Sadio Mané — 1992–Living
+- [x] Ilwad Elman — 1989–Living
+- [x] Fartuun Adan — 1969–Living
+- [x] Ayaan Hirsi Ali (Historical Figure) — 1969–Living
+- [x] Asisat Oshoala — 1994–Living
+- [x] Sadio Mané — 1992–Living
 - [ ] Riyad Mahrez — 1991–Living
 - [ ] Karim Benzema — 1987–Living
 - [ ] Zinedine Zidane — 1972–Living

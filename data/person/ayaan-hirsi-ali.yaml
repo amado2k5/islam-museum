@@ -1,0 +1,36 @@
+id: person/ayaan-hirsi-ali
+class: person
+label: { ar: "أيان حرسي علي", en: "Ayaan Hirsi Ali", ur: "آیان ہرسی علی" }
+names:
+  - { value: "Ayaan Hirsi Magan", kind: alternate }
+  - { value: "Ayaan Xirsi Cali", kind: alternate }
+gender: female
+summary:
+  ar: "كاتبة وناشطة وسياسية سابقة صومالية المولد هولندية أمريكية، وُلدت في مقديشو سنة 1969؛ طلبت اللجوء في هولندا سنة 1992 وجلست في برلمانها (2003–2006)، وكتبت سيناريو فيلم «الخضوع» مع ثيو فان غوخ الذي اغتيل بعد عرضه سنة 2004، واشتهرت كتبها «الكافرة» و«البدوية» و«الزنديقة». تركت الإسلام وأعلنت الإلحاد سنة 2002، ثم أعلنت اعتناقها المسيحية في نوفمبر 2023؛ وهي مدرجة هنا بوصفها شخصية مؤثرة في قصة العالم الإسلامي الحديث، ومواقفها وانتقاداتها منقولة منسوبة إلى مصادرها مع ردود منتقديها، بلا حكم من المتحف."
+  en: "Somali-born Dutch-American writer, activist and former politician, born in Mogadishu in 1969. She sought asylum in the Netherlands in 1992 and sat in its parliament (2003-2006); she wrote the script for the film Submission with Theo van Gogh, who was murdered after its release in 2004, and her books Infidel, Nomad and Heretic became bestsellers. She renounced Islam and declared herself an atheist in 2002, then announced her conversion to Christianity in November 2023. She is included here as an influential figure in the story of the modern Muslim world; her positions and criticisms are carried attributed from the sources, with her critics' responses, and with no verdict from the museum."
+  ur: "صومالی نژاد ڈچ امریکی مصنفہ، کارکن اور سابق سیاست دان، 1969 میں موغادیشو میں پیدا ہوئیں؛ 1992 میں نیدرلینڈز میں پناہ لی اور اس کی پارلیمنٹ کی رکن رہیں (2003ء–2006ء)، تھیو وان گوخ کے ساتھ فلم «سبمیشن» لکھی جس کی نمائش کے بعد 2004 میں وان گوخ قتل ہوئے، اور ان کی کتابیں «انفیڈل»، «نوماڈ» اور «ہیریٹک» مقبول ہوئیں۔ انھوں نے 2002 میں اسلام چھوڑ کر الحاد کا اعلان کیا، پھر نومبر 2023 میں مسیحیت قبول کرنے کا اعلان کیا۔ وہ یہاں جدید مسلم دنیا کی کہانی کی ایک مؤثر شخصیت کے طور پر شامل ہیں؛ ان کے مواقف اور تنقیدات مآخذ سے منسوب کر کے، ان کے ناقدین کے جوابات سمیت، درج ہیں اور میوزیم کا کوئی فیصلہ نہیں دیا گیا۔"
+roles: [writer, activist, politician]
+wings: [people, living]
+born:
+  edtf: "1969-11-13"
+  hijri: "1389"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "Born Ayaan Hirsi Magan on 13 November 1969 in Mogadishu, Somali Democratic Republic, as given by the English Wikipedia article's infobox and lead. The Hijri year (1389) is derived by tabular conversion."
+  sources: [source/wikipedia-ayaan-hirsi-ali-en]
+relations:
+  - { type: born_in, target: place/mogadishu, sources: [source/wikipedia-ayaan-hirsi-ali-en] }
+faith:
+  - value: christian
+    basis: documented
+    note: "Her current position is recorded exactly as she states it herself, on two independent attestations. In her own essay 'Why I am now a Christian', published by UnHerd on 13 November 2023, Hirsi Ali wrote that she now considers herself a Christian, that she had found life without spiritual solace unendurable, and that atheism had failed to answer the question of the meaning and purpose of life; the Catholic News Agency report of the same day, carried by EWTN, reports the essay in the same terms and records that she 'now considers herself a member of the Christian religion'. The English Wikipedia article independently records: 'In November 2023, Hirsi Ali converted to Christianity'. Her earlier position is part of this same record and is not suppressed: she renounced Islam and acknowledged her disbelief in God in 2002, identified as an atheist for over two decades alongside the New Atheist writers, and that atheist period is attested by the same sources (the English article's section 'Atheism and conversion to Christianity'; the CNA report: 'in 2002 renounced her Muslim faith and declared herself an atheist'; Encyclopedia.com's entry lists her religion in that period as 'Atheist'). The segment recorded is christian because that is her own latest self-description; the atheist-or-sceptic value the queue-era framing expected describes the 2002-2023 period only. Critics of the conversion are also on record in the sources: some Christians read it as a cultural rather than a spiritual response, and some atheists said they were baffled by it; both responses are carried in the prose, attributed, with no verdict from the museum."
+    sources: [source/wikipedia-ayaan-hirsi-ali-en, source/ewtn-hirsi-ali-christian]
+sources: [source/wikipedia-ayaan-hirsi-ali-en, source/ewtn-hirsi-ali-christian]
+provenance:
+  layer: own-research
+  source: "English Wikipedia 'Ayaan Hirsi Ali', read in full on 25 October 2026, and the Catholic News Agency report 'Outspoken atheist Ayaan Hirsi Ali says she is now a Christian' (13 November 2023), as carried by EWTN, read on 25 October 2026, reporting her own UnHerd essay 'Why I am now a Christian' (13 November 2023). No Wikidata QID was verified from a tool result in this run, so no external_ids are recorded. No earlier record for her existed in data/person/ under ayaan-hirsi-ali or any other spelling checked; this is a new build, not an enrichment."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: century-additions-14
+status: { review: published, completeness: 3, generated_by: "Muse (Muse Spark 1.3)" }
