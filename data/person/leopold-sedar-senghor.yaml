@@ -1,0 +1,44 @@
+id: person/leopold-sedar-senghor
+class: person
+label: { ar: "ليوبولد سيدار سنغور", en: "Léopold Sédar Senghor", ur: "لیوپولڈ سیدار سینگور" }
+names:
+  - { value: "Léopold Sédar Senghor", kind: full }
+  - { value: "ليوبولد سيدار سنغور", kind: full }
+gender: male
+summary:
+  ar: "شاعر وسياسي سنغالي كاثوليكي، وُلد في جوال سنة 1906، شارك في تأسيس فكرة «الزنوجة»، وصار أول رئيس للسنغال (1960–1980)، وهو مدرج في هذا المتحف بوصفه معاصرًا ثقافيًا مُكرَّمًا في قائمة المؤسس، لا بوصفه مسلمًا."
+  en: "Senegalese Catholic poet and statesman, born at Joal in 1906. He co-founded the idea of négritude and became the first president of Senegal (1960-1980). He appears in this museum as an honoured cultural contemporary named in the founder's list — not as a Muslim."
+  ur: "سینیگالی کیتھولک شاعر اور سیاست دان، جو 1906 میں جوال میں پیدا ہوئے۔ انہوں نے «زنوجیت» (نیگریٹیوڈ) کے نظریے کی بنیاد رکھنے میں حصہ لیا اور سینیگال کے پہلے صدر (1960–1980) بنے۔ وہ اس میوزیم میں بانی کی فہرست میں درج ایک معزز ثقافتی ہم عصر کی حیثیت سے شامل ہیں — مسلمان کی حیثیت سے نہیں۔"
+roles: [politician, poet, writer, philosopher]
+wings: [people]
+born:
+  edtf: "1906-10-09"
+  hijri: "1324"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "Gregorian date and Joal birthplace from English Wikipedia, the Arabic article and Wikidata. The English article records a discrepancy: his birth certificate gives 9 October 1906 while his baptismal certificate gives 9 August 1906; the birth-certificate date is followed. Joal has no place entity in the museum yet, so no born_in relation is written. The Hijri year (1324) is derived by tabular conversion."
+  sources: [source/wikipedia-leopold-sedar-senghor-en, source/wikipedia-leopold-sedar-senghor-ar, source/wikidata-leopold-sedar-senghor]
+died:
+  edtf: "2001-12-20"
+  hijri: "1422"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "Died at Verson in Normandy, France (both articles and Wikidata); his funeral was held at Dakar on 29 December 2001 and Wikidata records his burial at Bel-Air Cemetery, Dakar. Neither Verson nor Dakar has a place entity in the museum yet, so no died_in or buried_in relation is written. The Hijri year (1422) is derived by tabular conversion."
+  sources: [source/wikipedia-leopold-sedar-senghor-en, source/wikipedia-leopold-sedar-senghor-ar, source/wikidata-leopold-sedar-senghor]
+faith:
+  - value: christian
+    basis: documented
+    note: "Senghor was a Roman Catholic, not a Muslim. He is in the museum only because the founder's century list names him an honoured cultural contemporary: the founding president of Muslim-majority Senegal and a major theorist of African culture, whose career belongs to the world his Muslim contemporaries lived in. Two sources attest the Catholicism independently of each other: Wikidata records his religion (P140) as the Catholic Church (Q9592), and the BlackPast encyclopedia entry records that he was raised in his parents' Catholic faith, was sent to a Catholic mission school, decided at thirteen to enter the Catholic priesthood and attended the Libermann seminary in Dakar before leaving it in 1926 for secular schooling; the English and Arabic articles describe the same Catholic mission schooling and seminary years. Nothing in this record presents him as a Muslim."
+    sources: [source/wikidata-leopold-sedar-senghor, source/blackpast-senghor, source/wikipedia-leopold-sedar-senghor-en]
+external_ids: { wikidata: "Q154545" }
+sources: [source/wikipedia-leopold-sedar-senghor-en, source/wikipedia-leopold-sedar-senghor-ar, source/wikidata-leopold-sedar-senghor, source/blackpast-senghor]
+provenance:
+  layer: own-research
+  source: "English Wikipedia 'Léopold Sédar Senghor' (revision 1373213960), Arabic Wikipedia «ليوبولد سنغور» (revision 72817057), Wikidata Q154545 (confirmed via the English Wikipedia sitelink and the claims API: human, born 9 October 1906 at Joal-Fadiouth, died 20 December 2001 at Verson, religion Catholicism) and the BlackPast encyclopedia entry (published 2008, updated 2025), checked 24 October 2026"
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: century-additions-5
+status: { review: published, completeness: 3, generated_by: "Muse (Muse Spark 1.3)" }
