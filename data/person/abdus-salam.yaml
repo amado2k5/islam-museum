@@ -36,10 +36,11 @@ faith:
     basis: documented
     note: "English Wikipedia records that Salam was born into a Punjabi family professing Ahmadiyya and belonged to the Ahmadiyya Muslim Community, and the Columbia Encyclopedia independently describes Ahmadis as 'the religious group of which he was a member'. In 1974 Pakistan's parliament unanimously declared members of the Ahmadiyya community non-Muslim, and Salam left the country in protest. The museum records his affiliation exactly as the sources give it, and takes no position on the dispute."
     sources: [source/wikipedia-abdus-salam-en, source/columbia-encyclopedia-abdus-salam]
-sources: [source/wikipedia-abdus-salam-en, source/wikipedia-abdus-salam-ar, source/columbia-encyclopedia-abdus-salam, source/ictp-spirit-of-abdus-salam-award]
+external_ids: { wikidata: "Q28189" }
+sources: [source/wikidata-abdus-salam, source/wikipedia-abdus-salam-en, source/wikipedia-abdus-salam-ar, source/columbia-encyclopedia-abdus-salam, source/ictp-spirit-of-abdus-salam-award]
 provenance:
   layer: own-research
-  source: "English and Arabic Wikipedia, the Columbia Encyclopedia entry (via FactMonster) and the ICTP's Spirit of Abdus Salam Award page, as cited and checked in Chrome on 26 Oct 2026. No Wikidata item number is recorded: wikidata.org returned HTTP 403 from this environment and no consulted source confirmed the item number, so external_ids is omitted rather than guessed."
+  source: "English and Arabic Wikipedia, the Columbia Encyclopedia entry (via FactMonster) and the ICTP's Spirit of Abdus Salam Award page, as cited and checked in Chrome on 26 Oct 2026. No Wikidata item number is recorded: wikidata.org returned HTTP 403 from this environment and no consulted source confirmed the item number, so external_ids is omitted rather than guessed. Superseded by the QID pass of 24 October 2026: the item number (Q28189) was confirmed through the Wikidata API and is now recorded in external_ids with a registered wikidata source entity."
   generated_by: "Claude Code (claude-haiku-5-5)"
   run: century-additions-1
 status: { review: published, generated_by: "Claude Code (claude-haiku-5-5)" }
