@@ -1,0 +1,36 @@
+id: person/abdullah-rushdy
+class: person
+label: { ar: "عبد الله رشدي", en: "Abdullah Rushdy", ur: "عبد اللہ رشدی" }
+names:
+  - { value: "عبد الله محمد رشدي محمد السعداوي", kind: full }
+  - { value: "Abdullah Muhammad Rushdy Muhammad al-Saadawi", kind: full }
+gender: male
+summary:
+  ar: "داعية مصري وإمام وخطيب بوزارة الأوقاف المصرية في مسجد السيدة نفيسة بالقاهرة، وُلد في القاهرة سنة 1984. حصل على ليسانس الدعوة الإسلامية وليسانس الشريعة والقانون من جامعة الأزهر ثم ماجستير في الأديان والمذاهب، واشتهر بمناظراته التلفزيونية وبقناته الرسمية على يوتيوب التي تجاوز مشتركوها 2.4 مليون مشترك. مُنع من الخطابة سنة 2017 ثم أعاده القضاء إلى عمله سنة 2019، وله كتب في الرد على الشبهات والإلحاد."
+  en: "Egyptian preacher, and imam and preacher at the Sayyida Nafisa Mosque in Cairo for the Egyptian Ministry of Awqaf, born in Cairo in 1984. He holds Azhar bachelor's degrees in Islamic dawah and in sharia and law and a master's in religions and schools; he became known for his televised debates and for his official YouTube channel, whose subscribers have passed 2.4 million. He was barred from preaching in 2017 and restored to his post by a court ruling in 2019, and he has written books answering doubts and atheism."
+  ur: "مصری مبلغ، اور قاہرہ کی مسجد سیدہ نفیسہ میں مصری وزارتِ اوقاف کے امام و خطیب، جو 1984 میں قاہرہ میں پیدا ہوئے۔ انہوں نے الازہر سے دعوتِ اسلامی اور شریعت و قانون میں بیچلر اور ادیان و مذاہب میں ماسٹر کیا؛ وہ اپنے ٹیلی ویژن مباحثوں اور رسمی یوٹیوب چینل کے لیے مشہور ہوئے جس کے سبسکرائبرز چوبیس لاکھ سے تجاوز کر گئے۔ 2017 میں انہیں خطابت سے روکا گیا اور 2019 میں عدالت کے حکم سے وہ اپنے منصب پر واپس آئے، اور شبہات و الحاد کے رد میں ان کی کتابیں ہیں۔"
+roles: [preacher, writer]
+wings: [people, living]
+born:
+  edtf: "1984-02-03"
+  hijri: "1404"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "Born in Cairo on 3 February 1984, as the Arabic Wikipedia article gives it; the Hijri year (1404) is a converter derivation from that date. The Al-Mrj3 biography gives his birthplace as a village in Beheira Governorate instead; the article's Cairo is recorded and the conflict is noted here."
+  sources: [source/wikipedia-abdullah-rushdy-ar]
+relations:
+  - { type: born_in, target: place/cairo, sources: [source/wikipedia-abdullah-rushdy-ar] }
+faith:
+  - value: unknown
+    basis: unknown
+    note: "The Arabic Wikipedia infobox gives his affiliation as Ahl al-Sunna wa'l-Jama'a and his jurisprudence as Shafi'i. The Al-Mrj3 biography table repeats the Sunni affiliation but cites the Wikipedia article itself as its source, so there is only one independent attestation — a single-infobox case — and under this lane's doubt rule his school is recorded as unknown, with the infobox attestation stated here."
+    sources: [source/wikipedia-abdullah-rushdy-ar, source/almrj3-abdullah-rushdy-bio]
+sources: [source/wikipedia-abdullah-rushdy-ar, source/almrj3-abdullah-rushdy-bio, source/youtube-abdullahrushdy]
+provenance:
+  layer: own-research
+  source: "Arabic Wikipedia article «عبد الله رشدي» (as read 25 October 2026), the Al-Mrj3 biography, and his official YouTube channel @abdullahrushdy (2,470,000 subscribers, 301,553,596 views and 1,285 videos per vidIQ, 23 October 2026; channel started 12 March 2012), whose video descriptions link the official website the article records. His suspension and court-ordered reinstatement are recorded from the article's cited Egyptian press reports. Checked 25 October 2026"
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: modern-figures-batch-21
+status: { review: published, completeness: 3, generated_by: "Muse (Muse Spark 1.3)" }
