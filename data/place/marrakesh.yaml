@@ -1,4 +1,10 @@
 id: place/marrakesh
+education:
+  did_you_know:
+    ar: "أسس المرابطون مراكش نحو سنة ١٠٧٠م عاصمةً لهم؛ يذكر ابن خلدون أن يوسف بن تاشفين اختطّها سنة ٤٥٤هـ وجعلها لنزله وعسكره."
+    en: "The Almoravids founded Marrakesh around 1070 CE as their capital; Ibn Khaldun records Yusuf ibn Tashfin laying it out in 454 AH as his own and his army's seat."
+    ur: "مرابطوں نے تقریباً 1070ء میں مراکش اپنی دارالحکومت بنا کر آباد کیا؛ ابن خلدون لکھتے ہیں یوسف بن تاشفین نے 454ھ میں اسے اپنے اور اپنے لشکر کے لیے بسایا۔"
+    sources: [source/tarikh-ibn-khaldun-ibar, source/geonames-gazetteer]
 class: place
 kind: city
 label: { en: "Marrakesh", ar: "مراكش" }
@@ -12,3 +18,9 @@ coordinate_precision: site
 external_ids: { wikidata: "Q101625", geonames: "2542997" }
 sources: [source/wafayat-ayan, source/tarikh-ibn-khaldun-ibar, source/geonames-gazetteer]
 status: { review: draft, completeness: 1, generated_by: "Claude Sonnet 5.5; coordinates from GeoNames; descriptive facts to be checked against reference works" }
+provenance:
+  layer: own-research
+  source: "source/tarikh-ibn-khaldun-ibar"
+  generated_by: Devin
+  model: "unknown"
+  run: "education-E3-facts-batch9"

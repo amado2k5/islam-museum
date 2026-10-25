@@ -1,4 +1,10 @@
 id: event/expedition-of-banu-al-nadir
+education:
+  did_you_know:
+    ar: "في ربيع الأول ٤هـ تآمر بنو النضير على إلقاء رحى على النبي، فحاصرهم المسلمون ست ليالٍ حتى قذف الله في قلوبهم الرعب فنزلوا على الجلاء وحملوا ما أقلت الإبل إلا السلاح."
+    en: "In Rabi' I of year 4, Banu al-Nadir plotted to drop a millstone on the Prophet; the Muslims besieged them six nights until fear entered their hearts — they accepted exile and carried off what camels bore, save arms."
+    ur: "سن ۴ھ میں بنو نضیر نے نبی پر پتھر گرانے کی سازش کی؛ مسلمانوں نے چھ رات محاصرہ کیا تو انہوں نے جلاوطنی قبول کی اور ہتھیاروں کے سوا جو اونٹ اٹھا سکے لے گئے۔"
+    sources: [source/mubarakpuri-raheeq, source/ibn-hisham-sira]
 class: event
 kind: siege
 label: { en: "The Siege and Expulsion of Banu al-Nadir", ar: "غزوة بني النضير" }
@@ -20,3 +26,9 @@ relations:
   - { type: part_of, target: period/prophetic-era }
 sources: [source/mubarakpuri-raheeq, source/sahih-al-bukhari, source/ibn-hisham-sira, source/zad-al-maad, source/sallabi-ali-vol1]
 status: { review: draft, completeness: 2, generated_by: "Devin; al-Raheeq al-Makhtum pp. 295–298" }
+provenance:
+  layer: own-research
+  source: "source/mubarakpuri-raheeq"
+  generated_by: Devin
+  model: "unknown"
+  run: "education-E3-facts-batch9"
