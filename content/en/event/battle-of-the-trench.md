@@ -20,3 +20,12 @@ Large armies came to attack Medina. Salman al-Farisi suggested digging a trench 
 
 ## For Scholars
 In Shawwal of the fifth year after the Hijra, a coalition of Meccans and allied tribes marched on Medina. On Salman al-Farisi's advice the Muslims dug a trench on the northern side, and they stayed patient for nearly a month. The sources tell of the Banu Qurayza breaking their pact, of Nu'aym ibn Mas'ud's stratagem that divided the armies, and of a strong wind at night. The reports differ on the size of the armies, so each number needs a source. This entry gives the events of the trench as the sira books tell them, and shows how counsel and patience protected the city.
+
+## From Sheikh Omar Abdelkafy's Tafsir lectures (episode 3)
+In a linguistic comment made in the course of his commentary, unrelated to the Trench itself, the Sheikh explains the word hiqba and says the Arabs reckoned it at eighty years and some reckoned it at a hundred (needs_source) {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep03 00:55:00}. He mentions that Musa used the word in his story with al-Khidr {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep03 00:55:00}.
+
+## From Sheikh Omar Abdelkafy's Tafsir lectures (episode 4)
+In another episode, again in a linguistic context unrelated to the Trench, the Sheikh says that ahqab either means years without end or a long span of time, as Musa said to his attendant {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep04 00:49:00}.
+
+## From Sheikh Omar Abdelkafy's Tafsir lectures (episode 5)
+The Sheikh relates that the night at the Trench was so bitterly cold that two of the Companions wrapped themselves in a single garment, and that the Prophet said: who will cross the trench and bring me news of the enemy, without causing any incident? No one answered him (needs_source) {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep05 00:52:30}. He says the Prophet repeated the request, that the night was at the end of the month and the place was dark, and that the Companion crossed and Abu Sufyan passed in front of him at a very short distance (needs_source) {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep05 00:53:00}. He mentions that the Companion thought that Abu Sufyan was the head of the group and that killing him might end the matter, but remembered the Prophet's words not to start anything, so he held back his sword and stopped at the limits set by God (needs_source) {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep05 00:53:30}.

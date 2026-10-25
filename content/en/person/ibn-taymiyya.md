@@ -19,3 +19,6 @@ Al-Suyuti says that in 709 AH the vizier spoke of returning the dhimmis to weari
 
 ## Ghazan in 700 AH
 Ibn al-Imad says that [[person/ghazan-khan|Ghazan]] crossed the Euphrates with his army and headed for Aleppo. Ibn Taymiyya sent a dispatch by post to Cairo to rouse people to holy war, and met the chief emirs. The people of Damascus were afraid and gathered in the citadel, and the fear subsided when Ghazan turned back. {cite:shadharat-dhahab p.429}
+
+## From Sheikh Omar Abdelkafy's Tafsir lectures (episode 8)
+The Sheikh relates that Ibn Taymiyya was asked whether he was a believer, a question hard to answer, and that he first replied that he was if faith meant belief in God, His angels, His books, His messengers, the Last Day and the divine decree (needs_source) {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep08 00:26:00}. He says that he answered a second time that he was a believer also if faith meant that the heart trembles when God is mentioned [[passage/quran-8-2|Al-Anfal 2]] {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep08 00:26:30}. The Sheikh recalls the saying of Abu Bakr that, with one foot in Paradise and one outside, he would not feel secure from God's plan (needs_source) {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep08 00:26:30}.

@@ -28,3 +28,9 @@ In the Sahih: when the Prophet arrived, Umm Sulaym said: "Messenger of God, here
 
 ## Narration
 She related several hadiths from the Prophet; from her related her son Anas, Ibn Abbas, Zayd ibn Thabit and Abu Salama ibn Abd al-Rahman {cite:ibn-hajar-isaba p. 2007}. Ibn Hajar mentions that Abu Umar took her lineage from Ibn al-Sakan but gave her mother's name as Malika, while Ibn al-Sakan's book has Aniqa — Ibn Fathun pointed this out {cite:ibn-hajar-isaba p. 2007}.
+
+## From Sheikh Omar Abdelkafy's Tafsir lectures (episode 7)
+
+The Sheikh relates that the Prophet said that when he entered paradise he saw al-Rumaysa in front of him, who is Umm Sulaym, and that Abu Talha came to her as a suitor {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep07 00:20:30}. He says that Umm Sulaym told Abu Talha that he was a sensible man who worshipped an idol he carved with his own hands and prostrated to, and the Sheikh comments that whoever knows everything but does not know God is as if he knows nothing {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep07 00:21:00}. He mentions that Umm Sulaym told Abu Talha that a man like him is not turned down, and when he asked her what she wanted, she said that if he accepted Islam, that would be her dowry {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep07 00:29:00}.
+
+He recounts that Abu Talha accepted Islam, did well in his Islam and married Umm Sulaym, and the Sheikh says that the Prophet saw al-Rumaysa in paradise in front of him and was proud of his Companions as a teacher is proud of his pupils {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep07 00:29:30}.

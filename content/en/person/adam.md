@@ -19,3 +19,6 @@ The Qur'an relates that Adam was the first human created by God from clay, honor
 
 ## For Scholars
 The father of humanity and the first prophet in Islamic theology. The Qur'an chronicles his creation from clay and dust, the breathing of life into him, the prostration of angels in honor of divine command, and his instruction in the names of all things, signifying the primacy of knowledge in the human calling of stewardship (khilafa). Residing with his spouse in the Garden, they descended to Earth following their repentance, which God accepted. Reflected throughout the Qur'an and canonical Hadith corpora, Adam represents the ontological unity of the human race and the genesis of moral agency grounded in divine guidance.
+
+## From Sheikh Omar Abdelkafy's Tafsir lectures (episode 4)
+The Sheikh says that Adam repented in Paradise and came down to earth seeking forgiveness, cleansed of his sin; he did not descend with his sin, but after God had forgiven him {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep04 00:43:30}. He holds that the Paradise Adam lived in, even if it was a garden in this world on his account, is one a person will return to if he has planted good in it {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep04 00:43:30}.

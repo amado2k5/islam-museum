@@ -22,3 +22,11 @@ translators: []
 ## الحسد في درس الشيخ عمر عبد الكافي (الحلقة الخامسة)
 يقول الشيخ إن الصبر على من حولك، ومنهم أقارب يحسدونك، من الصبر الذي يُحتاج إليه (رأيه). {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep05 00:45:00} ويرى أن الحسد يُكسر بالإحسان إلى من يحسدك، وبزيادة الطيبة معه (رأيه). {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep05 00:45:30}
 ويذكر الشيخ الاستعاذة من وسوسة الشيطان، ودفع السيئة بالتي هي أحسن (needs_source). {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep05 00:46:00} {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep05 00:47:00}
+
+## من درس الشيخ عمر عبد الكافي: تفسير القرآن (الحلقة 5)
+
+يقارن الشيخ بين عواطف الدنيا وعواطف الآخرة، فيقول إن المرء قد يرى ابن عمه يركب سيارة غالية، فإن كان قنوعاً رضي بقدره وحمد الله على نعمة الصحة، وقد تثور في قلب غيره الحساسية والحسد، ويعدّ الشيخ ذلك كله من عواطف الدنيا {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep05 00:02:30} {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep05 00:03:00}.
+
+## من درس الشيخ عمر عبد الكافي: تفسير القرآن (الحلقة 6)
+
+يمزح الشيخ بأنه لو صار مديراً لكان أول قرار يتخذه سجن الموظف الذي يشي بزملائه عند المدير، ثم يستدرك بأن الكون ليس في يد الإنسان {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep06 00:24:30}. ويتخيل في مزاحه أن خزانات الهواء صارت بيده فيوزع الهواء على عائلته وأقاربه، ويأتي ذكر الحماة في آخر المشهد، ثم يؤكد أن الرزق من فضل الله وحده {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep06 00:25:00} {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep06 00:25:30}.

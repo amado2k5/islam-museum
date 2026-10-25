@@ -31,5 +31,11 @@ relations:
   - { type: parent_of, target: person/usama-ibn-zayd, note: "أم أسامة بن زيد (نساء حول الرسول ص26-28).", sources: [source/nisa-hawl-alrasul] }
   - { type: parent_of, target: person/ayman-ibn-ubayd, note: "أم الشهيد أيمن الذي استشهد بحُنين (نساء حول الرسول ص27-28).", sources: [source/nisa-hawl-alrasul] }
 external_ids: { wikidata: "Q1982723" }
-sources: [source/ibn-sad-tabaqat-bewley, source/lings-1983, source/nisa-hawl-alrasul, source/mubarakpuri-raheeq, source/ibn-hisham-sira, source/mukhtasar-sirat-al-rasul-al-najdi, source/fiqh-al-sira-al-ghazali]
+sources: [source/ibn-sad-tabaqat-bewley, source/lings-1983, source/nisa-hawl-alrasul, source/mubarakpuri-raheeq, source/ibn-hisham-sira, source/mukhtasar-sirat-al-rasul-al-najdi, source/fiqh-al-sira-al-ghazali, source/assabile-omar-abdelkafy]
 status: { review: draft, completeness: 1, generated_by: "Devin; 2026-10-11; Nisa' Hawl al-Rasul pp. 18-28 added by Devin (SWE-2 High), lib-nisa-hawl-rasul" }
+provenance:
+  layer: own-research
+  source: "Existing entry (Devin, 2026-10-11); lecture addition: Assabile, Tafsir Al Quran Al Qareem ep01 (Sheikh Omar Abdelkafy)"
+  generated_by: "Devin; Claude Sonnet (subagent) for the lecture section"
+  model: sonnet
+  run: omar-tafsir-bundle-5

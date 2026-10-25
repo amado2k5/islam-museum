@@ -22,3 +22,11 @@ The Sheikh gives examples of the wish and the comparison that trouble the heart 
 ## Envy in Sheikh Omar Abdelkafy's lessons (episode 5)
 The Sheikh says that patience with those around you, including relatives who envy you, is patience that is needed (his view). {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep05 00:45:00} He holds that envy is broken by doing good to the one who envies you and increasing kindness to him (his view). {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep05 00:45:30}
 He mentions seeking refuge from the whisperings of Satan, and repelling evil with what is better (needs_source). {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep05 00:46:00} {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep05 00:47:00}
+
+## From Sheikh Omar Abdelkafy's Tafsir lectures (episode 5)
+
+The Sheikh contrasts the emotions of this world with those of the afterlife. He says a man may see his cousin driving an expensive car and, if he is content, accept his own lot and thank God for his health, while in someone else's heart sensitivity and envy may stir, and he counts all this among the emotions of this world {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep05 00:02:30} {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep05 00:03:00}.
+
+## From Sheikh Omar Abdelkafy's Tafsir lectures (episode 6)
+
+The Sheikh jokes that if he became a manager his first decision would be to jail the employee who informs on colleagues to the boss, and then adds that the universe is not in a person's hands {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep06 00:24:30}. In the same jest he imagines the air tanks placed in his hands so that he rations air among his family and relatives, with the mother-in-law mentioned at the end of the scene, and then stresses that sustenance comes from God's bounty alone {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep06 00:25:00} {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep06 00:25:30}.

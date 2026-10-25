@@ -20,3 +20,7 @@ translators: []
 - في بيع المرابحة إذا ظهرت الخيانة يكون المشتري بالخيار. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.3377}
 - يشترط في الوصي وناظر الوقف والقاضي الأمانة، ويعزل من ظهرت خيانته، ولا تقبل شهادة الخائن. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.3377}{cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.3378}
 - الحلف بالأمانة مع إضافتها إلى الله يمين توجب الكفارة عند الجمهور. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.3378}
+
+## من درس الشيخ عمر عبد الكافي: تفسير القرآن (الحلقة 4)
+
+يروي الشيخ قصة ولد قالت له أمه ألا يكشف يوماً سر رسول الله {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep04 00:59:30}. ويذكر الراوي في القصة أن أباه مات وهو لا يزال في بطن أمه، وأنه كان يجلس في العاشرة من عمره إلى مجالس الرجال الكبار ليتعلم كيف يتحدثون، وأن أمه كانت تقول له عند خروجه من المجلس أن يدفن كلام الرجال (needs_source) {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep04 01:00:00}. ويعلّق الشيخ بإعجاب على هذه التربية، ويربطها بأن المجالس بالأمانة {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep04 01:00:00}.

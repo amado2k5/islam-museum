@@ -18,3 +18,7 @@ Rida holds that the community bears witness over people through its conduct, and
 
 ## Moderation in Sheikh Omar Abdelkafy's lessons (episode 1)
 The Sheikh says that the Prophet's mission came at the middle point of the world, sharing day and night, with moderation in everything, even in trade, and that the law is moderate in everything (his view). {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep01 00:12:00}
+
+## From Sheikh Omar Abdelkafy's Tafsir lectures (episode 1)
+
+The Sheikh mentions that in some parts of the earth there are days with no night and days with no day, and that God sent the Prophet in the middle region of the world where night and day share the time, and he sees in this moderation in everything {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep01 01:12:00}.

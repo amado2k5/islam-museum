@@ -15,3 +15,11 @@ The other reading is that God knows things before they occur, that they will occ
 
 ## Trial and testing in the Qur'an
 Rida holds that God purifies what is in hearts through the trials with which people are tested, and cites verses of al-'Ankabut. In his account, the trial does not lie in the matter itself, but in what follows from it: the denial of the ignorant and the steadfastness of believers. {cite:tafsir-manar-v02 p.8} [[passage/quran-2-143|Al-Baqara 143]]
+
+## From Sheikh Omar Abdelkafy's Tafsir lectures (episode 5)
+
+The Sheikh explains that the original sense of fitna is putting a piece of gold mixed with impurities into the fire to refine it, and notes that those before us were tested in their turn {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep05 00:32:00}.
+
+He relates that the Companions asked the Prophet to pray for them, and that he told them one of those before them would be sawn from the parting of his hair to his heels and it would not turn him from saying there is no god but God; the Sheikh asks whether we took the religion with such hardship {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep05 00:32:30}.
+
+He recounts from Sa'd about the expedition to Tabuk that they marched until they ate the qatad, a thorny desert tree, and when their provisions ran out they would pound its thorns with stones, swallow them and drink water over them {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep05 00:33:00}.

@@ -45,3 +45,15 @@ One night the Prophet rode al-Buraq with Gabriel to Bayt al-Maqdis, then rose in
 
 ## Sha'rawi on Abu Bakr's acceptance
 Sha'rawi reports that when Abu Bakr was told that his companion claimed to have been taken by night, he said that if the Prophet had said it, then it was true. He takes it as an example of knowledge of certainty, since the report came from one he trusted. {cite:tafsir-sharawi-khawatir-scan-pp-501-1000 p.556}
+
+## From Sheikh Omar Abdelkafy's Tafsir lectures (episode 1)
+The Sheikh mentions that the Prophet met the prophets, ascended to the seventh heaven and returned, and says that on his return it was as though time had stopped, a matter in which reason has no room {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep01 00:28:30}.
+
+## From Sheikh Omar Abdelkafy's Tafsir lectures (episode 7)
+The Sheikh speaks of a prayer in which the supplicant asks his Lord for the power, strength and sight to see Him, and then says that God, in His generosity, honoured His prophet at the Miraj by showing Himself to him, after the night journey from the Sacred Mosque to al-Aqsa Mosque [[passage/quran-17-1|Al-Isra 1]] {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep07 00:15:00}. He says that time was folded in the journey, outside the laws of humankind, so that the Prophet went from Mecca to Jerusalem and then to the seventh heaven and back, while on the Buraq he brushed the branch of a tree {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep07 00:15:30}. He relates that the Prophet prayed at al-Aqsa Mosque with the prophets, ascended through the seven heavens, was charged with the prayer, and then returned {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep07 00:16:00}. He mentions that on the way back the Prophet saw a caravan and a camel carrying a black sack, and that the camel shied from the Buraq, since animals see what we do not, and its leg broke (needs_source) {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep07 00:16:00}. He says the branch was still swaying when he returned, and reflects on how deeply the Companions were attached to the Messenger {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep07 00:16:30}.
+
+:::perspectives
+- **Sunni view (not yet sourced)**: The Sunni position on this matter has not yet been sourced.
+- **The speaker's view (opinion)**: The Sheikh holds that God, out of His generosity, showed Himself to the Prophet at the Miraj, after the night journey from the Sacred Mosque to al-Aqsa Mosque {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep07 00:15:00}.
+- **Academic and other views (not yet sourced)**: Academic and other views on this matter have not yet been sourced.
+:::

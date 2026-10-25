@@ -69,3 +69,6 @@ He says Ibrahim is the one who named the Muslims [[passage/quran-22-78|Qur'an 22
 - **academic view: not yet sourced**: not yet sourced.
 - **other view: not yet sourced**: not yet sourced.
 :::
+
+## From Sheikh Omar Abdelkafy's Tafsir lectures (episode 4)
+The Sheikh says that God loves the servant who often returns to Him (awwab), setting against him the one who worships God on the edge, piece by piece. He mentions that God described His friend Ibrahim as tender-hearted and turning back to God (awwah, munib), and explains that the word mathaba, used of the Sacred House, means a return {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep04 00:24:00}.

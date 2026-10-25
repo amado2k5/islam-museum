@@ -16,3 +16,9 @@ translators: ["Claude Haiku 5.5 (claude-haiku-5-5), draft translation"]
 
 ## عصماء بنت مروان کا جواب
 ابن اسحاق روایت کرتے ہیں کہ عصماء بنت مروان نے ایک شعر کہا جس میں اسلام اور اہلِ اسلام پر عیب لگایا گیا اور نبی کے خلاف ابھارا گیا، تو حسان نے اشعار کے ذریعے جواب دیا، جس میں انہوں نے بنو وائل، واقف اور خطمہ کو بنو خزرج سے آگے رکھا اور ان کے قتل کا منظر بیان کیا۔ دیکھیں [[work/hassan-reply-to-asma-bint-marwan|یہ جواب]] اور [[event/killing-of-asma-bint-marwan|یہ خبر]] {cite:ibn-hisham-saqqa 4/286}۔
+
+## شیخ عمر عبد الکافی کے تفسیری درس (قسط 7)
+
+شیخ کہتے ہیں کہ حسان بن ثابت شاعر تھے، اور نبی ان کے لیے کرسی رکھواتے اور فرماتے کہ بولو، روح القدس تمہاری تائید کرتا ہے (needs_source) {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep07 00:22:00}۔
+
+وہ کہتے ہیں کہ جبریل الہام کے ذریعے ان کی تائید کرتے ہیں (needs_source) {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep07 00:22:30}۔ شیخ ناموں کی مشابہت پر مذاق کرتے ہیں، اور کہتے ہیں کہ غیر ملکی شاعر کا نام ابلیس کے وزن پر ختم ہوتا ہے جبکہ حسان وضو کے وزن پر ہے، اور دونوں میں بڑا فرق ہے {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep07 00:22:30}۔

@@ -18,3 +18,9 @@ Al-Mas'udi reports that he was given the oath of allegiance on the morning of th
 Al-Suyuti reports that he prayed one hundred cycles of prayer every day and gave away a thousand dirhams from his wealth every day. {cite:tarikh-khulafa-minhaj-1434 p.456-461} Al-Mas'udi mentions that people called his days "the days of the bride" for their brightness and abundant good. {cite:muruj-al-dhahab p.670} Al-Suyuti, citing Muhammad ibn Ali al-Khurasani, says that he was the first Abbasid caliph to play polo and chess. {cite:tarikh-khulafa-minhaj-1434 p.470-471}
 
 The statements on this page are attributed to their authors, and they have not been compared with one another in the museum's data; they need an additional source.
+
+## From Sheikh Omar Abdelkafy's Tafsir lectures (episode 8)
+
+The Sheikh says that Harun al-Rashid, when dying, called on the One whose kingdom never ends to have mercy on one whose kingdom had ended, and that he pronounced the testimony of faith {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep08 00:47:30}.
+
+He then tells an exchange in this context in which a man is asked what he would pay for a cup of water if it were withheld from him and says he would buy it with half his kingdom; asked again about water that went in and did not come out, he says he would buy its release with the other half of his kingdom {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep08 00:48:00}.

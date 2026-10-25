@@ -21,3 +21,9 @@ Safiyya lost everything in a war, and then began a completely new life. People s
 
 ## In Medina at the Prophet's arrival (*The Sealed Nectar*, p. 181)
 Safiyya relates, on the authority of her father Huyayy ibn Akhtab and her uncle Abu Yasir, that when they went out to the Prophet after he alighted at Quba, they returned listless. Her uncle said to her father: "Did you recognize him? What is in your heart toward him?" He said: "Enmity toward him, by God, for as long as I live" ([[concept/medina-society-at-hijra|the society of Medina at the Hijra]]) {cite:mubarakpuri-raheeq p.181} {cite:ibn-hisham-sira 1/518-519}.
+
+## From Sheikh Omar Abdelkafy's Tafsir lectures (episode 10)
+
+The Sheikh relates that Aisha and Hafsa called Safiyya a daughter of a Jewess, and that her mother was Jewish and her father was Huyayy ibn Akhtab, one of the leaders of the Jews (needs_source) {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep10 00:46:30}.
+
+He says that the Prophet comforted her and told her that if she was spoken to in this way she should say that her father is Harun, her uncle is Musa and her husband is Muhammad (needs_source) {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep10 00:48:00}.

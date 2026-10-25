@@ -15,3 +15,9 @@ The Sheikh likens the reading of the book to the results of an examination, betw
 
 ## Counting every small and great thing
 The Sheikh describes the Day of Judgement, when people's records are published one by one, and he appeals to a sense from the Qur'an that the book leaves nothing small or great unrecorded. {cite:assabile-omar-abdelkafy al-fawzu-al-moubeen/ep06 00:41:30}
+
+## From Sheikh Omar Abdelkafy's Tafsir lectures (episode 04)
+
+The Sheikh says that God has counted everything in a record that neither wrongs nor forgets, that people will find what they did in the world present before them, and that God wrongs no one {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep04 00:55:00}.
+
+He adds that God makes the person his own reckoner over the pages of his deeds, so that he acknowledges his bad deeds, and he prays that the angel of good deeds will write good for us and that we may spare the angel of bad deeds {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep04 00:55:30}.

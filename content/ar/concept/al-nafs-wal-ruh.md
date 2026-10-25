@@ -24,3 +24,26 @@ translators: []
 ويذكر أن حقيقة الروح فوق علم البشر، ويستشهد بالآية التي تقول إن العلم بها قليل (رأيه). {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep08 00:06:30} ويقول إن لكل إنسان لباسا أرضيا وآخر نورانيا، وإن الصحابة كان نورانيهم أكثر (needs_source). {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep08 00:07:00}
 ويقول إن الروح تخرج اختيارا في العبادة إذا صفا القلب، وتُقبض قسرا في النوم (needs_source). {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep08 00:15:30} {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep08 00:27:30} ويشرح بتمثيل الماء الصافي والزيت في زجاجة فاخرة، فتظهر نقاء الروح الطاهرة كما يظهر الزيت (رأيه). {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep09 00:02:30} {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep09 00:03:00}
 ويصف الشيخ خروج روح الكافر بصعوبة ورّوح المؤمن بيسر، ويضرب مثلا بالجمل الذي تُحل عقدة حبله فينهض بسهولة (رأيه). {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep09 00:09:00} {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep09 00:10:30} ويضرب مثلا بالدلو يُسحب من البئر بلطف (رأيه). {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep09 00:11:00} ويرى أن الروح تُستقبل بمرافقة كما يُستقبل رئيس دولة، مشبّها بالطائرات التي تحيط بطائرة الشخصية الكبيرة (رأيه). {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep09 00:20:00} {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep09 00:20:30}
+
+## من درس الشيخ عمر عبد الكافي: تفسير القرآن (الحلقة 6)
+يطرح الشيخ سؤالا عن «الروح»: من هو؟ أهو جبريل أم مخلوق خاص؟ ويذكر قول بعض العلماء إنه ملك عظيم من السماء الرابعة، قدماه في الأرض ورأسه في السماء الرابعة، وتبدو السماء والأرض وما فيهما بالنسبة إليه كحلقة ملقاة {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep06 00:50:00}. ويسأل كذلك هل الروح هي روح العبد نفسها، أم هي مخلوق جديد يخلقه الله للعبد {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep06 00:50:00}.
+
+:::perspectives
+- **أهل السنة (لم يُسنَد بعد)**: لم يُسنَد موقف أهل السنة في هذه المسألة بعد.
+- **رأي الشيخ عمر عبد الكافي (رأي شخصي)**: يتساءل الشيخ عن حقيقة «الروح»: أهو جبريل أم مخلوق خاص، ويذكر أن بعض العلماء قالوا إنه ملك عظيم من السماء الرابعة، ويتساءل أيضا هل هو روح العبد نفسها أم مخلوق جديد يخلقه الله للعبد، دون أن يحسم المسألة في هذا المقطع {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep06 00:50:00}.
+- **رأي أكاديمي أو آراء أخرى (لم يُسنَد بعد)**: لم تُسنَد الآراء الأكاديمية والآراء الأخرى بعد.
+:::
+
+## من درس الشيخ عمر عبد الكافي: تفسير القرآن (الحلقة 8)
+ينقل الشيخ عن عثمان تعريفا للراحة الحقة، وهو أن ترى قدمك اليسرى بجوار قدمك اليمنى عند عتبة الجنة (needs_source) {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep08 00:27:00}. ويقول إن الروح تخرج من البدن وتغادره باختيارها عند الصلاة (needs_source) {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep08 00:27:00}.
+
+ويذم الشيخ الفضول والتجسس على عيوب الناس، ويقول إن هذا يقع حتى بين أصحاب الدروس والمساجد، وإن الناس ينبغي أن يروا فيهم ما لا يرونه في غيرهم، فيكونوا بينهم كالشامة {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep08 00:30:00}. ويقول إن الروح إذا نام الإنسان تبدأ في مواجهة عالم الأرواح (needs_source) {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep08 00:30:00}.
+
+:::perspectives
+- **أهل السنة (لم يُسنَد بعد)**: لم يُسنَد موقف أهل السنة في هذه المسألة بعد.
+- **رأي الشيخ عمر عبد الكافي (رأي شخصي)**: ينتقد الشيخ بنبرة حادة ولع الناس بتتبع أخبار غيرهم وعيوبهم، ويرى أن أهل الدروس والمساجد خاصة ينبغي أن يظهر منهم ما لا يظهر من غيرهم {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep08 00:30:00}.
+- **رأي أكاديمي أو آراء أخرى (لم يُسنَد بعد)**: لم تُسنَد الآراء الأكاديمية والآراء الأخرى بعد.
+:::
+
+## من درس الشيخ عمر عبد الكافي: تفسير القرآن (الحلقة 9)
+يقول الشيخ إن الروح من عالم النور، وإنها لا تتأثر بحال الجسد الذي تسكنه، ويشبّه ذلك بالزجاجة التي تكون نقية أحيانا ومغبرة أحيانا (تشبيه من عنده) {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep09 00:03:30}.

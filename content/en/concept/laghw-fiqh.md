@@ -13,3 +13,12 @@ Most jurists hold that an idle oath carries no expiation and no sin, on the vers
 ## Idle speech during the Friday sermon
 The jurists differ on listening to the sermon and the idle speech of one who does not listen, in the detailed entry on listening {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.13654}. The Malikis hold that the sermon must be in Arabic, so in another tongue it is idle, that it must be audible, and that it must have substance {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.13654}.
 
+## From Sheikh Omar Abdelkafy's Tafsir lectures (episode 06)
+
+The Sheikh holds that one of the Devil's steps is to lead a person toward the forbidden little by little, and he gives the example of asking someone who has bought something whether he paid the full price; he counts this intrusive question as idle talk (laghw) {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep06 00:44:00}.
+
+He likewise counts as laghw questions such as whether a car was bought in cash or on instalments, and from which bank, an Islamic one or an ordinary one, and says the person asked may answer with something just to quiet the questioner {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep06 00:44:30}.
+
+He cites the example of an employee asked about his salary, a question put to twenty employees, whose answer may be forgotten after two months, and then asks whether this belongs to God's religion; he advises people not to get themselves into such troubles (needs_source) {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep06 00:45:30}.
+
+He says that in the 1950s and 1960s idle talk and backbiting were attributed to women, whereas today he sees men outdoing them, sitting in cafes every day and talking about the reform of the Ummah and the interpretation of Sahih al-Bukhari in talk that serves no purpose (needs_source) {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep06 00:46:00}.

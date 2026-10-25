@@ -15,3 +15,11 @@ translators: ["Claude Haiku 5.5 (claude-haiku-5-5), draft translation"]
 
 ## عَجَب الذنب
 شیخ ریڑھ کی ہڈی کے نچلے حصے کی ایک ہڈی کا ذکر کرتے ہیں جسے عجب الذنب کہا جاتا ہے، اور اس سے قیامت کے دن جسم دوبارہ بنایا جائے گا، اور یہ گلتی نہیں (needs_source)۔ {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep03 00:28:00}
+
+## شیخ عمر عبد الکافی کے تفسیری درس (قسط 3)
+
+شیخ کہتے ہیں کہ آدم تمام مخلوقات میں آخری تھے، اور اللہ نے ان سے پہلے جو کچھ پیدا کیا تھا وہ سب انسان کے لیے مسخر کر دیا {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep03 00:01:30}۔ وہ ان میں سیاروں، زمین، ستاروں، سمندروں، بحرِ محیط، نباتات اور جانوروں کو شمار کرتے ہیں {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep03 00:01:30}۔
+
+وہ کہتے ہیں کہ پوری کائنات ابنِ آدم کی خادم بن گئی، لیکن بظاہر خادم مخدوم سے زیادہ عمر پاتا ہے، جیسے سورج، چاند اور سمندر {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep03 00:02:00}۔
+
+وہ کہتے ہیں کہ کائنات لاکھوں برس پہلے پیدا ہوئی اور جب تک اللہ چاہے باقی رہے گی، جبکہ انسان کی عمر ساٹھ سے ایک سو بیس برس کے درمیان ہوتی ہے (needs_source) {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep03 00:02:30}۔ اور سوال کرتے ہیں کہ جس کی خدمت کی جا رہی ہے اور جو مقام میں بلند ہے وہ کم عمر کیوں ہے {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep03 00:02:30}۔

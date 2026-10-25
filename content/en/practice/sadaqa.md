@@ -15,3 +15,6 @@ Gift, present and donation are all gratuitous transfers: for the afterlife's rew
 
 ## Its wisdom and merit
 Sadaqa aids the weak, relieves the distressed, gives thanks for God's blessings, and evidences the giver's faith — among the merits transmitted, the seven shaded by God include "a man who gave a sadaqa and hid it so that his left hand did not know what his right hand spent". {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.10296} {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.10297}
+
+## From Sheikh Omar Abdelkafy's Tafsir lectures (episode 4)
+The Sheikh mentions that a soul sends ahead some deeds and leaves behind others, that what it sends ahead is good deeds, and that some people leave behind bad ones, such as one who writes an indecent book {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep04 00:45:30}. He says ongoing charity has a counterpart in ongoing sin, so that one who makes an indecent film earns a burden each time people watch it, and he holds that the Messenger urges ongoing charity {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep04 00:46:00}.

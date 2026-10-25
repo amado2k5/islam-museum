@@ -18,3 +18,8 @@ Karbala became the supreme model of martyrdom in Islam: a story that every gener
 
 ## For young visitors
 Husayn was offered safety if he accepted a ruler he saw as unjust. He refused, and he died for that refusal. Millions of people still remember his choice every year.
+
+## From Sheikh Omar Abdelkafy's Tafsir lectures (episode 10)
+The Sheikh mentions that al-Husayn ibn Ali had a lisp in his pronunciation of the letter ra, close to ghayn, and compares it to the way the French pronounce r (needs_source) {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep10 00:45:00}.
+
+He relates that the Prophet used to tease him about it when he was about four years old, saying it was a lisp he had inherited from his uncle Musa, and he ties the account to Musa, whom his Lord called in the sacred valley (needs_source) {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep10 00:45:30}.

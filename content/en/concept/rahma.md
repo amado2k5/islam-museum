@@ -28,3 +28,7 @@ He says God does not show mercy to those who do not show mercy to one another. {
 ## Mercy between spouses and in upbringing
 Between spouses, the Sheikh distinguishes affection from mercy and places affection in the days of engagement, when each adorns themselves for the other. {cite:assabile-omar-abdelkafy al-hoquq/ep02 00:05:30} {cite:assabile-omar-abdelkafy al-hoquq/ep02 00:06:00}
 He recounts that a man told the Prophet he had ten children (needs_source: the number is spoken once in the transcript) and had never kissed one of them, and the Prophet told him that whoever shows no mercy is shown none. {cite:assabile-omar-abdelkafy al-hoquq/ep05 00:09:30} {cite:assabile-omar-abdelkafy al-hoquq/ep05 00:10:00}
+
+## From Sheikh Omar Abdelkafy's Tafsir lectures (episode 2)
+
+The Sheikh urges a person to put himself in another's place when he sees someone weeping bitterly, for example someone dismissed from his job, and says our problem is that none of us puts himself in anyone else's place {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep02 00:28:30}.

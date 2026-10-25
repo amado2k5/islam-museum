@@ -28,3 +28,13 @@ Ibn Abi al-Izz says: "People have differed much over what the name faith applies
 
 ## What is not covered here
 This entry presents what is documented from Sahih al-Bukhari, the 'Aqida al-Tahawiyya, Lum'at al-I'tiqad, al-Wasitiyya, Maqalat al-Islamiyyin and Ibn Abi al-Izz's Sharh al-Tahawiyya. Al-Maturidi's sayings from his own books and the rest of the Sunni and non-Sunni schools' sayings have not yet been added; no judgement between the two definitions is made here.
+
+## From Sheikh Omar Abdelkafy's Tafsir lectures (episode 4)
+
+The Sheikh holds that God does not want from people a faith of mere witnessing and verbal testimony but a faith in the unseen {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep04 00:14:00}. For that reason he says that the faith of one who believes too late is not accepted: one who does not pray would not be accepted if he prayed then, and likewise those who associate partners with God, even if they became certain at that point that the Messiah is a human being and that Muhammad is the Messenger {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep04 00:14:00}.
+
+The Sheikh warns against wavering faith and says that the servant who worships God on an edge gains nothing from it {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep04 00:18:30}.
+
+The Sheikh gives a familiar example from families: a man who does not pray and a woman who refuses the headscarf, who are nonetheless of excellent character {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep04 00:41:30}. He asks whether their good character makes up for the prayer and the headscarf {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep04 00:41:30}.
+
+The Sheikh compares this to a pupil expelled from school for refusing some subjects, and says the believer takes the religion whole {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep04 00:42:00}. He notes that Bani Israel were faulted for believing in part of the Book and rejecting part of it, as though one believed in two pages and rejected the third, whereas we believe in the whole Book {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep04 00:42:00}.

@@ -12,3 +12,9 @@ translators: []
 
 ## حكمه
 لا خلاف في أن الاشتغال بعلم التجويد فرض كفاية. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.4611}
+
+## من درس الشيخ عمر عبد الكافي: تفسير القرآن (الحلقة 2)
+
+يحث الشيخ كل واحد من الحاضرين على ألا يمر عليه يوم دون أن يجدد عهده مع الله بفتح المصحف {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep02 00:11:00}. ويذكر أن من الناس من يفتح الله عليه فيقرأ وردا معينا، فيختم المصحف في أسبوع أو أسبوعين، أو يقرأ جزءا كل يوم {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep02 00:11:00}.
+
+ويحث الشيخ على تقوية القلب الضعيف أمام ابتلاءات الدنيا بالارتباط بكلام الله، ويدعو بالتيسير {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep02 00:14:00}. ثم يشكر القارئ الذي قرأ قبل الدرس فهزّ القلوب وهيأها لدخول الدرس {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep02 00:14:00}.
