@@ -1,0 +1,51 @@
+id: person/altaf-hussain-hali
+class: person
+label: { ar: "ألطاف حسين حالي", en: "Altaf Hussain Hali", ur: "الطاف حسین حالی" }
+names:
+  - { value: "Altaf Hussain", kind: full }
+  - { value: "Khwaja Altaf Hussain Hali", kind: full }
+  - { value: "الطاف حسین حالی", kind: full }
+  - { value: "Hali", kind: pen }
+  - { value: "Khasta", kind: pen }
+  - { value: "Shamsul Ulema", kind: laqab }
+gender: male
+summary:
+  ar: "شاعر وكاتب باللغة الأردية (1837-1914) من بانيبات، اقترن اسمه بحركة عليكرة وسر سيد أحمد خان. ألّف «مسدس حالي» (1879)، قصيدة مدّ الإسلام وجزره، وكتب أول نقد أدبي في الأردية «مقدمة شعر وشاعري»، وسِيَر غالب وسعدي وسيد أحمد خان؛ وصفته آن ماري شيمل بأنه مؤسس التقليد الأدبي في الأردية."
+  en: "Urdu poet and writer (1837–1914) of Panipat, associated with Sir Syed Ahmad Khan's Aligarh circle. He composed the Musaddas-e-Hali (1879), the elegiac poem on the ebb and tide of Islam, wrote Urdu's first work of literary criticism, the Muqaddama-e-Shair-o-Shairi, and biographies of Ghalib, Saadi and Sir Syed; Annemarie Schimmel called him the founder of the literary tradition in Urdu."
+  ur: "اردو کے شاعر اور مصنف (1837ء–1914ء) جن کا تعلق پانی پت سے تھا اور جو سر سید احمد خان کے علی گڑھ حلقے سے وابستہ رہے۔ انھوں نے «مسدس حالی» (1879ء) لکھی، جو اسلام کے مد و جزر پر رثائی نظم ہے، اردو کی پہلی ادبی تنقید «مقدمہ شعر و شاعری» لکھی، اور غالب، سعدی اور سر سید کی سوانح لکھیں۔"
+roles: [poet, writer]
+wings: [people]
+born:
+  edtf: "1837"
+  hijri: "1253"
+  calendar: gregorian
+  precision: year
+  status: historical
+  derived: true
+  note: "Born at Panipat. All three Wikipedia editions, the TDV encyclopedia and Wikidata give only the year 1837; no fetched source gives a month or day, and the day-precision birth claim on Wikidata (+1837-01-01) is a default-date artefact and is not used. The Hijri year is derived by tabular conversion: 1837 CE spans 1252–1253 AH, and 1253 is recorded with the span stated. Panipat has no place entity in the museum yet, so no born_in relation is written."
+  sources: [source/wikipedia-altaf-hussain-hali-en, source/wikipedia-altaf-hussain-hali-ur, source/wikipedia-altaf-hussain-hali-ar, source/wikidata-altaf-hussain-hali]
+died:
+  edtf: "1914-12-31"
+  hijri: "1333"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "Died at Panipat on 31 December 1914: the English, Urdu and Arabic articles and Wikidata agree. The TDV İslâm Ansiklopedisi entry gives 1 January 1915 — a one-day variant, recorded here; the majority date is followed. The Hijri year (1333) is derived by tabular conversion (31 December 1914 falls in Safar 1333). Panipat has no place entity in the museum yet, so no died_in relation is written."
+  sources: [source/wikipedia-altaf-hussain-hali-en, source/wikipedia-altaf-hussain-hali-ur, source/wikipedia-altaf-hussain-hali-ar, source/wikidata-altaf-hussain-hali, source/tdv-hali]
+relations:
+  - { type: lived_in, target: place/delhi, sources: [source/wikipedia-altaf-hussain-hali-en] }
+  - { type: lived_in, target: place/lahore, sources: [source/wikipedia-altaf-hussain-hali-en] }
+faith:
+  - value: unknown
+    basis: unknown
+    note: "NOT RECORDED AS DOCUMENTED — no fetched source names a school for Hali himself. The English article records two episodes from his student years in Delhi: he wrote an Arabic essay supporting the dialectics of Siddiq Hasan Khan, described there as an adherent of Wahhabism, and his teacher Maulvi Navazish Ali — who is the one the article identifies as belonging to the Hanafi school — tore the essay up. A youthful essay and a teacher's school are not attestations of Hali's own school. His association with Sir Syed Ahmad Khan and the Aligarh movement, attested by all the sources, is milieu, not attestation (the lane's near-miss rule). The Urdu article's infobox gives his religion as Islam; Wikidata (P140) gives Islam; the Arabic article and the TDV entry name no school. Under the lane's two-source rule and the founder's doubt rule the value stays unknown."
+    sources: [source/wikipedia-altaf-hussain-hali-en, source/wikipedia-altaf-hussain-hali-ur, source/wikidata-altaf-hussain-hali]
+external_ids: { wikidata: "Q1066898" }
+sources: [source/wikipedia-altaf-hussain-hali-en, source/wikipedia-altaf-hussain-hali-ur, source/wikipedia-altaf-hussain-hali-ar, source/wikidata-altaf-hussain-hali, source/tdv-hali]
+provenance:
+  layer: own-research
+  source: "English Wikipedia 'Altaf Hussain Hali', rev. 1371332475 of 25 August 2026; Urdu Wikipedia «الطاف حسین حالی», rev. 11801412 of 18 August 2026; Arabic Wikipedia «ألطاف حسين حالي», rev. 74334760 of 19 April 2026; TDV İslâm Ansiklopedisi, 'HÂLÎ' by Hanif Fauq (vol. 15, 1997, p. 263); Wikidata Q1066898 read via the API. All read in full on 25 October 2026."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: century-additions-11
+status: { review: published, completeness: 3, generated_by: "Muse (Muse Spark 1.3)" }

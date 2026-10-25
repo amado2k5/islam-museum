@@ -1,0 +1,49 @@
+id: person/nazir-ahmad-dehlvi
+class: person
+label: { ar: "نذير أحمد الدهلوي", en: "Nazir Ahmad Dehlvi", ur: "ڈپٹی نذیر احمد" }
+names:
+  - { value: "Nazir Ahmad Dehlvi", kind: full }
+  - { value: "نذير أحمد بن سعادت علي بن نجابت علي الأعظمبوري البجنوري الدهلوي", kind: full }
+  - { value: "Deputy Nazir Ahmad", kind: alternate }
+  - { value: "Shamsul Ulema", kind: laqab }
+gender: male
+summary:
+  ar: "روائي وكاتب باللغة الأردية (1830-1912) من بجنور، يُعدّ أول روائي في الأدب الأردي بروايته «مرآة العروس» (1869) التي كتبها لتعليم بناته. عمل في التعليم ثم في إدارة الإيرادات حتى صار نائب المجمّع (Deputy Collector) — ومنه لقبه «ديبتي» — وترجم القرآن إلى أردية سلسة، وعُرف خطيبًا في مؤتمرات التعليم المحمدية."
+  en: "Urdu novelist and writer (1830–1912) of Bijnor, regarded as the first novelist of Urdu literature for Mirat-ul-Uroos (1869), written for his daughters' education. He served in education and then the revenue administration, rising to deputy collector — the office behind his byname 'Deputy' — translated the Qur'an into idiomatic Urdu, and became a celebrated orator at the Muhammadan Educational Conferences."
+  ur: "اردو کے ناول نگار اور مصنف (1830ء–1912ء) جن کا تعلق بجنور سے تھا اور جو «مرآۃ العروس» (1869ء) کی بدولت اردو کے پہلے ناول نگار مانے جاتے ہیں؛ یہ ناول انھوں نے اپنی بیٹیوں کی تعلیم کے لیے لکھا تھا۔ وہ تعلیم اور پھر محکمۂ مال میں رہے، ڈپٹی کلکٹر بنے — یہی عہدہ ان کے لقب «ڈپٹی» کی وجہ ہے — قرآن کا اردو ترجمہ کیا اور محمڈن ایجوکیشنل کانفرنس کے مشہور خطیب رہے۔"
+roles: [writer, teacher]
+wings: [people]
+born:
+  edtf: "1830-12-06"
+  hijri: "1246"
+  calendar: gregorian
+  precision: day
+  status: debated
+  derived: true
+  note: "Born at Rehar village, Bijnor district. DATE CONTESTED, and adjudicated by the scholarly source: the TDV İslâm Ansiklopedisi entry gives 6 December 1830 and states expressly that the information he was born in 1833 is wrong, citing Iftikhar Ahmad Siddiqi's monograph (pp. 21–22); the record follows TDV. The variants: the English article's lead and infobox give 6 December 1833, while its own body text says he was born in 1831 and its categories file him under 1836 births, the year the authority files also give; the Arabic article gives 1831 (paired with 1247 AH); the Urdu article gives '1836 or 6 December 1831'; Wikidata gives 1831 (year precision). The Hijri year (1246) is derived by tabular conversion from the followed date (6 December 1830 falls in Jumada al-Akhirah 1246). Rehar and Bijnor have no place entity in the museum yet, so no born_in relation is written."
+  sources: [source/tdv-nazir-ahmad-dehlvi, source/wikipedia-nazir-ahmad-dehlvi-en, source/wikipedia-nazir-ahmad-dehlvi-ur, source/wikipedia-nazir-ahmad-dehlvi-ar, source/wikidata-nazir-ahmad-dehlvi]
+died:
+  edtf: "1912-05-03"
+  hijri: "1330"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "Died at Delhi on Friday 3 May 1912: the English, Urdu and Arabic articles, TDV and Wikidata agree on the day (the Arabic article's printed death year 1902 is a typographical error contradicted by its own categories). He was buried in the Khwaja Baqi Billah (Shah Baqi Billah) cemetery near New Delhi railway station. The Hijri year (1330) is derived by tabular conversion (3 May 1912 falls in Jumada al-Ula 1330)."
+  sources: [source/wikipedia-nazir-ahmad-dehlvi-en, source/wikipedia-nazir-ahmad-dehlvi-ur, source/tdv-nazir-ahmad-dehlvi, source/wikidata-nazir-ahmad-dehlvi]
+relations:
+  - { type: lived_in, target: place/delhi, sources: [source/wikipedia-nazir-ahmad-dehlvi-en, source/tdv-nazir-ahmad-dehlvi] }
+  - { type: died_in, target: place/delhi, sources: [source/wikipedia-nazir-ahmad-dehlvi-en, source/wikipedia-nazir-ahmad-dehlvi-ur, source/tdv-nazir-ahmad-dehlvi] }
+faith:
+  - value: unknown
+    basis: unknown
+    note: "NOT RECORDED AS DOCUMENTED — no fetched source names a school for Nazir Ahmad. The Arabic article describes him as an advocate and follower of the reform movement led by Sayyid Ahmad Khan, and TDV records that he largely defended Sir Syed while disagreeing with him on some points — movement association and allegiance, which never count (the lane's near-miss rule: teachers, ancestors, influences and milieu are not attestations). The family line TDV traces for him — descent from a family whose elders included a khalifa of the Chishti-Sabiri shaykh Abdul Quddus Gangohi — is family background, which never counts. The English and Urdu articles name no school; Wikidata (P140) gives Islam only. Under the lane's two-source rule and the founder's doubt rule the value stays unknown."
+    sources: [source/wikipedia-nazir-ahmad-dehlvi-ar, source/tdv-nazir-ahmad-dehlvi, source/wikidata-nazir-ahmad-dehlvi]
+external_ids: { wikidata: "Q905333" }
+sources: [source/wikipedia-nazir-ahmad-dehlvi-en, source/wikipedia-nazir-ahmad-dehlvi-ur, source/wikipedia-nazir-ahmad-dehlvi-ar, source/wikidata-nazir-ahmad-dehlvi, source/tdv-nazir-ahmad-dehlvi]
+provenance:
+  layer: own-research
+  source: "English Wikipedia 'Nazir Ahmad Dehlvi', rev. 1372305603 of 31 August 2026; Urdu Wikipedia «ڈپٹی نذیر احمد», rev. 12119777 of 9 October 2026; Arabic Wikipedia «نذير أحمد», rev. 73831230 of 8 March 2026; TDV İslâm Ansiklopedisi, 'NEZÎR AHMED DİHLEVÎ' (supplement vol. EK-2, revised 3rd ed., Ankara 2019, pp. 353–355); Wikidata Q905333 read via the API. All read in full on 25 October 2026."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: century-additions-11
+status: { review: published, completeness: 3, generated_by: "Muse (Muse Spark 1.3)" }
