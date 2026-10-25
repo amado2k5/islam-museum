@@ -56,5 +56,7 @@ His kunya is Abu Hashim, after his eldest son; the museum publishes no family de
 ## Reach and audience
 Al-Maghamsi became known for an accessible style of exegesis, and his lessons travelled from Quba Mosque — the first mosque founded in Islam — to many Arab and Gulf screens, until he became an imam of the Prophet's Mosque, among the most senior imamates in the Muslim world. {cite:wikipedia-saleh-al-maghamsi-en} {cite:wikipedia-saleh-al-maghamsi-ar}
 
+His lectures and lessons are broadcast on the Al-Rasekhoon YouTube channel (@alrasekhoon), whose About states that it is run through the Al-Rasekhoon website, his official website, as the channel stood when checked on 25 October 2026. {cite:youtube-alrasekhoon}
+
 ## Sources
 - The defined source entities cited above, recorded in `data/source/`.
