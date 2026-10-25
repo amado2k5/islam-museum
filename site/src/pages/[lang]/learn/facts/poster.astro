@@ -1,0 +1,44 @@
+---
+// «Fact of the week» A4 poster (docs/delegation/education-master-plan.md §5 E3, step 3): one fact,
+// big, with a QR to the archive — a teacher prints it for the classroom wall. No JavaScript needed;
+// the page is the same on screen and on paper.
+import BaseLayout from "../../../../layouts/BaseLayout.astro";
+import Qr from "../../../../components/Qr.astro";
+import { ui, LANGS, type Lang } from "../../../../lib/i18n";
+import { factOfWeek, viewFact } from "../../../../lib/facts";
+import "../../../../styles/edu.css";
+
+export function getStaticPaths() { return LANGS.map((lang) => ({ params: { lang }, props: { lang } })); }
+const { lang } = Astro.props as { lang: Lang };
+const T = ui(lang);
+const E = T.edu;
+const path = `/${lang}/learn/facts/poster/`;
+const fact = factOfWeek();
+const v = fact ? viewFact(fact, lang) : null;
+---
+<BaseLayout lang={lang} title={E.fc_poster_title} description={E.fc_poster_note} path={path} noindex={true}>
+  <div class="wrap edu fcp" style="padding-block:10px 24px">
+    <p class="ui no-print"><a href={`/${lang}/learn/facts/`}>← {E.fc_title}</a> · <button type="button" class="chip" style="border:1px solid var(--gold);cursor:pointer" onclick="window.print()">{E.tp_print}</button></p>
+    {v && (
+      <section class="fcp-sheet">
+        <p class="fcp-tag">{E.fc_dyk}</p>
+        <h1 class="fcp-fact">{v.text}</h1>
+        <p class="fcp-entity"><a href={v.href}>{v.label}</a> · islam.museum</p>
+        <Qr lang={lang} path={`/${lang}/learn/facts/`} />
+        <p class="ui muted">{E.fc_poster_note}</p>
+      </section>
+    )}
+  </div>
+  <style is:inline>
+    .fcp .fcp-sheet { border: 2px solid var(--gold); border-radius: 18px; padding: 26px; max-width: 46rem; background: var(--panel); text-align: center; }
+    .fcp .fcp-tag { margin: 0 0 .8rem; font-size: 1.3rem; font-weight: 800; color: var(--gold); }
+    .fcp .fcp-fact { font-size: 1.9rem; line-height: 1.6; margin: 0 0 .8rem; }
+    .fcp .fcp-entity { font-size: 1rem; margin: 0 0 .4rem; }
+    .fcp .qr-block { justify-content: center; }
+    @media print {
+      .fcp .no-print { display: none !important; }
+      .fcp .fcp-sheet { border: 3px solid #000; background: #fff; break-inside: avoid; }
+      .fcp .fcp-tag { color: #000; }
+    }
+  </style>
+</BaseLayout>

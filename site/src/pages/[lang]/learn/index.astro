@@ -4,6 +4,7 @@
 // strip at the foot lights up from localStorage; without JavaScript the page is five links and two more.
 import BaseLayout from "../../../layouts/BaseLayout.astro";
 import PassportStrip from "../../../components/PassportStrip.astro";
+import FactStrip from "../../../components/FactStrip.astro";
 import { ui, LANGS, type Lang } from "../../../lib/i18n";
 import { viewBands, viewStamps } from "../../../lib/edu";
 import "../../../styles/edu.css";
@@ -46,6 +47,8 @@ const doorHref = (b: (typeof bands)[number]) => (b.wing === "shabab" ? `/${lang}
       <li><a href={`/${lang}/learn/parents/`}><span class="ic" aria-hidden="true">🏠</span><span><h2>{E.parents_title}</h2><p>{E.parents_desc}</p></span></a></li>
       <li><a href={`/${lang}/learn/trails/`}><span class="ic" aria-hidden="true">🗺</span><span><h2>{E.trails_title}</h2><p>{E.trails_desc}</p></span></a></li>
     </ul>
+
+    <FactStrip lang={lang} />
 
     <PassportStrip lang={lang} stamps={stamps} />
 

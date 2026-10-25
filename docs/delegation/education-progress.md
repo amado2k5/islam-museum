@@ -144,7 +144,7 @@ The following merged PRs and commits are ready on `main` for the founder to depl
 | 0 | Record the founder's approval (this section, plan §9.1) | docs only | done (this PR) |
 | 1 | Classroom quiz | `/{lang}/learn/teachers/quiz/{trail}/?classroom=1` | done — merged #1471 (budget fix #1477) |
 | 2 | Daily challenge (Century Challenge, Who am I?) and `edu/daily-schedule.json` (366 entries) | `/{lang}/learn/daily/` | done — merged #1479 |
-| 3 | Fact engine: `did_you_know` on entities, 365 facts in batches of at most 25, fact of the day, archive, A4 poster | `/{lang}/learn/facts/` | pending |
+| 3 | Fact engine: `did_you_know` on entities, 365 facts in batches of at most 25, fact of the day, archive, A4 poster | `/{lang}/learn/facts/` | done — this PR: engine + batch 1 (25 of 365 facts); 340 facts remain for later batches |
 | 4 | Seasonal packs (heritage month, Ramadan, back to school, exam season) and the founder's email texts | `/{lang}/learn/teachers/packs/{season}/`, `docs/outreach/education/` | pending |
 | 5 | Offline packs: one HTML file per unit, inlined, 2 MB or less, checked in `scripts/check-site.ts` | `/{lang}/learn/teachers/offline/{unit}.html` | pending |
 | 6 | Where am I? (gentle version) | `/{lang}/sighar/explorers/where/` | pending |
@@ -152,6 +152,15 @@ The following merged PRs and commits are ready on `main` for the founder to depl
 | 8 | Explorers map: world SVG (80 KB or less, 12 hot spots), replacing the placeholder on the Explorers hub | `site/src/data/basemap-world.json`, `/{lang}/sighar/explorers/` | pending |
 
 **Urdu for the founder's review (E3):** listed step by step as each step lands.
+
+- **Step 3 (fact engine) — new i18n strings:**
+  - `fc_dyk`: «کیا آپ جانتے ہیں؟»
+  - `fc_title`: «حقائق» · `fc_day`: «آج کی حقیقت» · `fc_week`: «ہفتے کی حقیقت»
+  - `fc_lede`: «میوزیم سے روز ایک تصدیق شدہ حقیقت — ہر ایک کا اپنا ریکارڈ اور ماخذ۔»
+  - `fc_all`: «تمام حقائق» · `fc_count`: «تمام حقائق ({n})» · `fc_sources`: «ماخذ»
+  - `fc_poster`: «ہفتے کی حقیقت کا پوسٹر چھاپیں» · `fc_poster_title`: «ہفتے کی حقیقت · پوسٹر»
+  - `fc_poster_note`: «ایک ورق (A4): کلاس کی دیوار پر لگائیں اور مزید حقائق کے لیے کوڈ اسکین کریں۔»
+- **Step 3 — the 25 Urdu fact texts** are on the entities themselves (`education.did_you_know.ur` in batch 1: events badr, hijra, conquest-of-mecca, constitution-of-medina, first-revelation, prophets-mosque-built, founding-of-baghdad; persons aisha, abu-hurayra, abdullah-ibn-abbas, ibn-sina, al-khwarizmi, al-bukhari; buildings great-mosque-cordoba, eyup-sultan-mosque; concepts five-pillars, tawhid, hijri-calendar; practices salah, sawm-ramadan, hajj; places baghdad, cordoba, jerusalem; polity umayyad-caliphate). Draft, pending the founder's review.
 
 ## E2 leftovers · Part A close-out (24 October 2026, this PR)
 

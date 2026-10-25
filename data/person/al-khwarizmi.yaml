@@ -25,6 +25,11 @@ provenance:
   run: lib-muruj-dhahab-batch-21
 sources: [source/muruj-al-dhahab, source/mawsuat-a3lam-ulama-adaba]
 education:
+  did_you_know:
+    ar: "من كتاب الخوارزمي في الجبر جاءت كلمة algebra، ومن اسمه اللاتيني Algoritmi جاءت كلمة algorithm."
+    en: "Algebra comes from al-Khwarizmi's book al-Jabr, and algorithm from the Latin form of his name, Algoritmi."
+    ur: "الجبرا کا نام الخوارزمی کی کتاب «الجبر» سے اور الگورتھم ان کے لاطینی نام «الگورتمی» سے نکلا۔"
+    sources: [source/muruj-al-dhahab, source/mawsuat-a3lam-ulama-adaba]
   levels: [sprouts, explorers, scholars]
   flagged_for_kids: true
   provenance: { generated_by: "Devin", model: "gemini-2.5-pro", run: "education-E2-batch2", note: "Leveled texts drafted from the record's own summary and prose; draft, pending the founder's review and scholar review of the child levels." }

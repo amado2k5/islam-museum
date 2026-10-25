@@ -41,6 +41,11 @@ provenance:
   model: claude-sonnet-5-5
   run: building-wikidata-1; prose-backfill-2-batch14 (Freely pp.125-128)
 education:
+  did_you_know:
+    ar: "أول مسجدٍ بناه العثمانيون في إستانبول بعد الفتح؛ أقامه محمد الفاتح عام 862هـ فوق قبر أبي أيوب الأنصاري."
+    en: "The first mosque the Ottomans built in Istanbul after the conquest: Mehmed the Conqueror raised it in 1458 over the tomb of Abu Ayyub al-Ansari."
+    ur: "فتح کے بعد استنبول میں پہلی عثمانی مسجد: محمد فاتح نے 1458ء میں ابوایوب انصاری کے مزار پر بنائی۔"
+    sources: [source/freely-ottoman-architecture-2011, source/wikidata]
   levels: [sprouts, explorers, scholars]
   flagged_for_kids: true
   provenance: { generated_by: "Devin", model: "gemini-2.5-pro", run: "education-E2-batch3", note: "Leveled texts drafted from the record's own summary and prose; draft, pending the founder's review and scholar review of the child levels." }

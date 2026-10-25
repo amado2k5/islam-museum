@@ -1,0 +1,27 @@
+---
+// The fact-of-the-day strip (docs/delegation/education-master-plan.md §5 E3): «هل تعلم؟» plus
+// today's fact and a link to the record, shown on the education front door and the band hubs.
+// Pure HTML — no JavaScript needed to read it.
+import { ui, type Lang } from "../lib/i18n";
+import { factOfDay, viewFact } from "../lib/facts";
+
+interface Props { lang: Lang }
+const { lang } = Astro.props;
+const E = ui(lang).edu;
+const fact = factOfDay();
+const v = fact ? viewFact(fact, lang) : null;
+---
+{v && (
+  <section class="fact-strip" aria-label={E.fc_day}>
+    <p class="fact-tag">{E.fc_dyk}</p>
+    <p class="fact-text">{v.text} — <a href={v.href}>{v.label}</a></p>
+    <p class="fact-more"><a href={`/${lang}/learn/facts/`}>{E.fc_all} →</a></p>
+  </section>
+)}
+<style>
+  .fact-strip { border: 2px solid var(--gold); border-radius: 14px; padding: 12px 16px; margin: 0 0 1.2rem; background: var(--panel); max-width: 46rem; }
+  .fact-tag { margin: 0 0 .3rem; font-weight: 800; color: var(--gold); }
+  .fact-text { margin: 0 0 .3rem; line-height: 1.7; }
+  .fact-more { margin: 0; font-size: .9rem; }
+  :dir(rtl) .fact-more a { direction: rtl; }
+</style>
