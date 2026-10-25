@@ -19,6 +19,8 @@ Alongside his imamate in Kirkuk, Raad al-Kurdi is invited from time to time — 
 
 His voice spread worldwide through recitation clips on YouTube, some of which have been watched by millions according to the Sorani article, and on 1 January 2021 a documentary film about his life story and his path to recitation was released on his official channel, directed by Rawa Jamal. Wikidata records 3.69 million subscribers for his YouTube channel at 1 October 2025, and 2.65 million subscribers with some 344.5 million views at 20 December 2020; these are dated platform figures. {cite:wikipedia-raad-al-kurdi-ckb} {cite:wikidata-raad-al-kurdi}
 
+His official YouTube channel (@RadMohammad) carries his recitations to his worldwide audience; the museum verified on 25 October 2026 that the channel presents itself as 'the official channel of the reciter Raad Muhammad al-Kurdi'. {cite:youtube-radmohammad}
+
 ## References
 - Urdu Wikipedia, «رعد محمد الکردی», revision of 13 March 2025.
 - Sorani Kurdish Wikipedia, «ڕەعد کوردی», revision of 20 February 2023.

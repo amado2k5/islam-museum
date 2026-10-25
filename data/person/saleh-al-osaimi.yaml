@@ -1,0 +1,40 @@
+id: person/saleh-al-osaimi
+class: person
+label: { ar: "صالح العصيمي", en: "Saleh Al-Osaimi", ur: "صالح العصیمی" }
+names:
+  - { value: "صالح بن عبد الله بن حمد العصيمي العتيبي", kind: full }
+  - { value: "Saleh bin Abdullah bin Hamad al-Osaimi al-Otaibi", kind: full }
+  - { value: "Saleh Al-Usaimi", kind: alternate }
+  - { value: "Saleh al-Usaymi", kind: alternate }
+  - { value: "أبو عمرو", kind: kunya }
+  - { value: "مسند الديار النجدية", kind: laqab }
+gender: male
+summary:
+  ar: "عالم حديث ومُسنِد سعودي، وُلد في الرياض سنة 1391هـ/1971م. تخرج في جامعة الإمام محمد بن سعود الإسلامية ونال الماجستير في علوم الحديث من جامعة أم القرى والدكتوراه من المعهد العالي للقضاء، وتتلمذ على ابن باز وابن عثيمين وابن عقيل وغيرهم، وحصل على الإجازة في القراءات العشر. عُيّن عضوا في هيئة كبار العلماء (1438–1442هـ)، واشتهر ببرامجه التعليمية المنهجية مثل «مهمات العلم» في المسجد النبوي و«أصول العلم»، وبكتابه «تعظيم العلم»."
+  en: "Saudi hadith scholar and musnid (master of transmission chains), born in Riyadh in 1391 AH / 1971. He graduated from Imam Muhammad ibn Saud Islamic University, took a master's in hadith sciences at Umm al-Qura University and a doctorate at the Higher Institute of Judiciary, studied under Ibn Baz, Ibn Uthaymin, Ibn Aqeel and others, and holds an ijaza in the ten readings. He served as a member of the Council of Senior Scholars (1438–1442 AH) and is known for his structured teaching programmes such as Muhimmat al-'Ilm at the Prophet's Mosque and Usul al-'Ilm, and for his book Ta'zim al-'Ilm (The Glorification of Knowledge)."
+  ur: "سعودی عالمِ حدیث اور مُسنِد، جو 1391ھ/1971 میں ریاض میں پیدا ہوئے۔ انہوں نے جامعہ امام محمد بن سعود الاسلامیہ سے تعلیم پائی، جامعہ ام القری سے علومِ حدیث میں ماسٹرز اور المعہد العالی للقضاء سے ڈاکٹریٹ کیا، ابن باز، ابن عثیمین اور ابن عقیل سمیت دیگر علماء سے استفادہ کیا، اور قراءاتِ عشرہ میں اجازہ حاصل کیا۔ وہ 1438–1442ھ میں ہیئۃ کبار العلماء کے رکن رہے اور «مہمات العلم» و «اصول العلم» جیسے منہجی تعلیمی پروگراموں اور اپنی کتاب «تعظیم العلم» کے لیے مشہور ہیں۔"
+roles: [scholar, teacher]
+wings: [people, living]
+born:
+  edtf: "1971"
+  hijri: "1391"
+  calendar: gregorian
+  precision: year
+  status: historical
+  derived: true
+  note: "Born in Riyadh in Safar 1391 AH, which both sources equate with the year 1971 CE; neither gives a Gregorian month or day. The Hijri month is the sources' own, and the Gregorian year is their own equivalence, marked derived because no Gregorian date is stated."
+  sources: [source/wikipedia-saleh-al-osaimi-ar, source/alsiyars-saleh-al-osaimi]
+relations:
+  - { type: student_of, target: person/ibn-baz-abd-al-aziz, sources: [source/wikipedia-saleh-al-osaimi-ar, source/alsiyars-saleh-al-osaimi] }
+faith:
+  - value: sunni
+    basis: documented
+    note: "Two independent sources attest it. The Arabic Wikipedia article's infobox gives his affiliation (taifa) as Ahl al-Sunna wa'l-Jama'a, his legal school as Hanbali and his creed as Athari. The Alsiyars biographical encyclopedia, independently, files him under the category 'Ahl al-Sunna' and states in its prose that he is 'firm in his Sunni creed' (صلب في عقيدته السنية). Recorded as sunni on those two attestations. The Hanbali school is attested only by the single infobox, so it is not recorded as sunni-hanbali."
+    sources: [source/wikipedia-saleh-al-osaimi-ar, source/alsiyars-saleh-al-osaimi]
+sources: [source/wikipedia-saleh-al-osaimi-ar, source/alsiyars-saleh-al-osaimi, source/youtube-alosyme]
+provenance:
+  layer: own-research
+  source: "Arabic Wikipedia article «صالح العصيمي» and the Alsiyars encyclopedia of contemporary figures biography «من هو صالح العصيمي؟» (published 1 September 2026), as cited in those pages and checked 25 October 2026; his YouTube channel @alosyme, whose description names him in full, checked the same day, with his lesson descriptions on the companion channel @qutofosaimi identifying @alosyme among his official accounts. No English Wikipedia article and no Wikidata item for him were found in this pass (searched 25 October 2026), so no external_ids are recorded. No born_in or lived_in relation is recorded because the museum has no place record for Riyadh. Built for §3 row 71 of the founder's channel harvest."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: modern-figures-batch-25
+status: { review: published, completeness: 3, generated_by: "Muse (Muse Spark 1.3)" }
