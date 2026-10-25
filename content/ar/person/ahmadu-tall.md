@@ -1,6 +1,6 @@
 ---
 lang: ar
-entity: person/ahmadu-tall
+id: person/ahmadu-tall
 title: "أحمدو تال (1836–1897)"
 ---
 

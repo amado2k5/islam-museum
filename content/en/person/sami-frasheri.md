@@ -1,6 +1,6 @@
 ---
 lang: en
-entity: person/sami-frasheri
+id: person/sami-frasheri
 title: "Sami Frashëri (1850–1904)"
 ---
 

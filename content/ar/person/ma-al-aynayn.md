@@ -1,6 +1,6 @@
 ---
 lang: ar
-entity: person/ma-al-aynayn
+id: person/ma-al-aynayn
 title: "ماء العينين القلقمي (1831–1910)"
 ---
 

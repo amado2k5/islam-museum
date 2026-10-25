@@ -8,8 +8,8 @@ label:
 
 names:
   - { value: "Sidi al-Mustafa ibn Muhammad Fadil al-Qalqami", lang: en, kind: full }
-  - { value: "Muhammad al-Mustafa Ma al-'Aynayn", lang: en, kind: variant }
-  - { value: "Shaykh Ma al-'Aynayn", lang: en, kind: variant }
+  - { value: "Muhammad al-Mustafa Ma al-'Aynayn", lang: en, kind: alternate }
+  - { value: "Shaykh Ma al-'Aynayn", lang: en, kind: alternate }
 
 summary:
   ar: "شيخ صوفي قادري موريتاني (1831-1910) خلف أباه محمد فاضل، مؤسس الطريقة الفاضلية، على رأس أخويته، فاجتمع حوله أكثر من عشرة آلاف مريد. بنى الرباط والمدينة في سمارة بالساقية الحمراء، وقاد من سنة 1904 الجهاد ضد الاستعمار الفرنسي والإسباني في الصحراء والمغرب، وهُزم في مسيرته شمالا سنة 1910 وتوفي في تزنيت في أكتوبر من تلك السنة."
@@ -21,47 +21,45 @@ wings: [people]
 
 faith:
   - value: sufi
-    status: documented
-    basis_sources: [source/wikipedia-ma-al-aynayn-en, source/wikipedia-ma-al-aynayn-ar, source/wikipedia-ma-al-aynayn-fr]
+    basis: documented
+    sources: [source/wikipedia-ma-al-aynayn-en, source/wikipedia-ma-al-aynayn-ar, source/wikipedia-ma-al-aynayn-fr]
     note: "His headship of the Fadiliyya — the Qadiriyya branch his father Muhammad Fadil founded — is attested as his own office and practice by three independent articles: the English article records that on his return from the Hajj in 1861 'his father gave him a turban and the title of Shaykh', and speaks of the members of his own brotherhood and of his murids at his zawiya; the Arabic article records his Sufi formation under his father ('he was influenced by him in the aspect of tasawwuf'), his more than ten thousand murids, the tariqas he himself taught them (al-Qadiriyya and al-Tijaniyya among them, as they chose), and that his sons inherited 'his jihadist and Sufi call'; the French article describes the father as founder of 'the Sufi congregation Fadiliyya' and Ma al-'Aynayn himself as a sheikh and marabout with numerous disciples of the Fadiliyya-Ma'ayniyya line. The segment is recorded as sufi on this headship — the investiture and leadership of the order itself, following the precedent of person/ali-al-mirghani (Khatmiyya headship attested in three articles) — and expressly not on descent from the order's founder alone. No source names a school of law for him; Wikidata's religion statement is Islam generically. The German article's remark that he was influenced by Wahhabi and Sanusi teachings is carried in the prose as that article's attributed statement only. The French newspaper Es-Saada's campaign rumour that his followers were Shia was a hostile colonial press smear and is recorded in the prose as such; it is not evidence of anything."
 
 born:
-  place_text: "the Hawdh region, eastern Mauritania (the French article: near Oualata/Walata)"
-  date:
-    edtf: "1831-02-10"
-    hijri: "1246"
-    calendar: gregorian
-    precision: day
-    status: historical
-    derived: false
-    note: "CONFLICT: the Arabic article gives his birth by an exact Hijri date — Tuesday 27 Sha'ban 1246 AH — which converts exactly to 10 February 1831; the French article gives 'about 1831' near Oualata, and Wikidata carries a day-precision claim of 1831-02-10 alongside a year-precision claim of 1830. The English and Spanish articles give 1830 (the English lead: 'c. 10 February 1830'), and the Urdu article gives the range 1830–31. The record follows 10 February 1831, on the Arabic article's exact date, and records every variant here. The Hijri year is NOT derived: it is the Arabic article's own date. The founder's queue lists 1830; the record follows the evidence as set out here."
+  edtf: "1831-02-10"
+  hijri: "1246"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: false
+  note: "Place: the Hawdh region, eastern Mauritania (the French article: near Oualata/Walata) — CONFLICT: the Arabic article gives his birth by an exact Hijri date — Tuesday 27 Sha'ban 1246 AH — which converts exactly to 10 February 1831; the French article gives 'about 1831' near Oualata, and Wikidata carries a day-precision claim of 1831-02-10 alongside a year-precision claim of 1830. The English and Spanish articles give 1830 (the English lead: 'c. 10 February 1830'), and the Urdu article gives the range 1830–31. The record follows 10 February 1831, on the Arabic article's exact date, and records every variant here. The Hijri year is NOT derived: it is the Arabic article's own date. The founder's queue lists 1830; the record follows the evidence as set out here."
   sources: [source/wikipedia-ma-al-aynayn-ar, source/wikipedia-ma-al-aynayn-fr, source/wikidata-ma-al-aynayn, source/wikipedia-ma-al-aynayn-en]
 
 died:
-  place_text: "Tiznit, Morocco"
-  date:
-    edtf: "1910-10-23"
-    hijri: "1328"
-    calendar: gregorian
-    precision: day
-    status: historical
-    derived: false
-    note: "Died at Tiznit on 23 October 1910; the English and French articles and Wikidata (day precision) agree, and he is buried at Tiznit, his tomb a pilgrimage site. CONFLICT: the Arabic article pairs the Hijri date 17 Shawwal 1328 with '25 October 1910', although that Hijri date converts to about 21–22 October 1910 — its own pairing disagrees with its Hijri date; both are recorded here. The Hijri year is the Arabic article's own (17 Shawwal 1328 AH), not a conversion."
+  edtf: "1910-10-23"
+  hijri: "1328"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: false
+  note: "Place: Tiznit, Morocco — Died at Tiznit on 23 October 1910; the English and French articles and Wikidata (day precision) agree, and he is buried at Tiznit, his tomb a pilgrimage site. CONFLICT: the Arabic article pairs the Hijri date 17 Shawwal 1328 with '25 October 1910', although that Hijri date converts to about 21–22 October 1910 — its own pairing disagrees with its Hijri date; both are recorded here. The Hijri year is the Arabic article's own (17 Shawwal 1328 AH), not a conversion."
   sources: [source/wikipedia-ma-al-aynayn-en, source/wikipedia-ma-al-aynayn-fr, source/wikidata-ma-al-aynayn, source/wikipedia-ma-al-aynayn-ar]
 
 relations:
-  - predicate: member_of
+  - type: member_of
     target: group/qadiriyya
     note: "Head of the Fadiliyya, the Qadiriyya branch founded by his father Muhammad Fadil, invested by his father with a turban and the title of Shaykh in 1861 and followed by more than ten thousand murids."
     sources: [source/wikipedia-ma-al-aynayn-en, source/wikipedia-ma-al-aynayn-ar, source/wikipedia-ma-al-aynayn-fr]
-  - predicate: traveled_to
+  - type: traveled_to
     target: place/fez
     note: "Singled out among his brothers to study in Fes, and from 1873 a regular visitor to the Moroccan court cities including Fes."
     sources: [source/wikipedia-ma-al-aynayn-en]
-  - predicate: traveled_to
+  - type: traveled_to
     target: place/meknes
     note: "Met Sultan Abd al-Rahman at Meknes during his Hajj journey of 1858, the beginning of his Moroccan connections."
     sources: [source/wikipedia-ma-al-aynayn-en]
+
+sources: [source/wikidata-ma-al-aynayn, source/wikipedia-ma-al-aynayn-ar, source/wikipedia-ma-al-aynayn-en, source/wikipedia-ma-al-aynayn-fr]
 
 external_ids:
   wikidata: Q2520973
