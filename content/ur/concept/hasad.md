@@ -18,3 +18,7 @@ translators: ["Claude Haiku 5.5 (claude-haiku-5-5), draft translation"]
 
 ## شیخ عمر عبدالکافی کی مثالیں
 شیخ دل میں پیدا ہونے والی اُس خواہش اور موازنے کی مثالیں دیتے ہیں جو نعمتوں کے بارے میں ہوتا ہے: کوئی کہے کہ اس کے پاس نیک اولاد ہے جبکہ دوسرے کی کوئی اولاد نہیں، یا صحت مند بچہ جبکہ دوسرے کا بچہ بیمار ہو (needs_source: ان مثالوں کو حسد میں شمار کرنا تسجیل میں واضح نہیں)۔ {cite:assabile-omar-abdelkafy al-hoquq/ep03 00:29:30}
+
+## شیخ عمر عبدالکافی کے درسوں میں حسد (قسط پانچ)
+شیخ کہتے ہیں کہ اپنے اردگرد لوگوں پر صبر، جن میں حسد کرنے والے رشتے دار بھی ہیں، وہ صبر ہے جس کی ضرورت ہے (شیخ کی رائے)۔ {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep05 00:45:00} ان کی رائے ہے کہ حسد اس کے ساتھ اچھائی کرنے اور اس سے زیادہ نرمی برتنے سے ٹوٹتا ہے (شیخ کی رائے)۔ {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep05 00:45:30}
+وہ شیطان کے وسوسوں سے پناہ مانگنے اور برائی کو بہتر طریقے سے ٹالنے کا ذکر کرتے ہیں (needs_source)۔ {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep05 00:46:00} {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep05 00:47:00}
