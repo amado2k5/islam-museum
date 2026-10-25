@@ -22,7 +22,7 @@ const related = extra.related ?? [];
   <div class="wrap" style="padding-block:24px 20px;max-width:1280px">
     <figure style="margin:0">
       <a href={`/media/architecture-art/${item.slug}.webp`} target="_blank" rel="noopener" aria-label={T.art.open_full}>
-        <img src={`/media/architecture-art/${item.slug}.webp`} alt={item.alt.ar} width="1280" height="853" style="width:100%;height:auto;border-radius:8px" />
+        <img src={`/media/architecture-art/${item.slug}.webp`} alt={item.alt[lang] ?? item.alt.ar} width="1280" height="853" style="width:100%;height:auto;border-radius:8px" />
       </a>
       <figcaption class="ui muted" style="padding-top:8px">{item.source === "met" ? T.art.badge_met : T.art.badge} · <a href={`/media/architecture-art/${item.slug}.webp`} target="_blank" rel="noopener">{T.art.open_full}</a></figcaption>
     </figure>

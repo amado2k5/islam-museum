@@ -57,8 +57,8 @@ const stories = viewStories(loadStories(), lang).map((s) => ({
           </div>
           {s.audio && (
             <figure class="story-audio">
-              <figcaption>{t.stories_listen}</figcaption>
-              <audio controls preload="none" src={`/audio/kids/${s.slug}-${lang}.mp3`} />
+              <figcaption id={`story-audio-${s.slug}`}>{t.stories_listen} · {t.stories_transcript}</figcaption>
+              <audio controls preload="none" src={`/audio/kids/${s.slug}-${lang}.mp3`} aria-describedby={`story-audio-${s.slug}`} />
             </figure>
           )}
           <aside class="talk-box" aria-label={t.stories_talk}>
