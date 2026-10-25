@@ -4,6 +4,7 @@ import BaseLayout from "../../../layouts/BaseLayout.astro";
 import BandHub from "../../../components/BandHub.astro";
 import FactStrip from "../../../components/FactStrip.astro";
 import ReadShelf from "../../../components/ReadShelf.astro";
+import WorldMap from "../../../components/WorldMap.astro";
 import { ui, LANGS, fmt, type Lang } from "../../../lib/i18n";
 import { viewBands } from "../../../lib/edu";
 
@@ -21,6 +22,7 @@ const band = viewBands(lang, T.kids).find((b) => b.id === "explorers")!;
     <ul class="edu-adult">
       <li><a href={`/${lang}/sighar/explorers/where/`}><span class="ic" aria-hidden="true">🧭</span><span><h2>{E.wh_title}</h2><p>{E.wh_lede}</p></span></a></li>
     </ul>
+    <WorldMap lang={lang} />
     <ReadShelf lang={lang} band="explorers" />
   </BandHub>
 </BaseLayout>

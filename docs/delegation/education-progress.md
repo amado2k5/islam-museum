@@ -144,15 +144,174 @@ The following merged PRs and commits are ready on `main` for the founder to depl
 | 0 | Record the founder's approval (this section, plan §9.1) | docs only | done (this PR) |
 | 1 | Classroom quiz | `/{lang}/learn/teachers/quiz/{trail}/?classroom=1` | done — merged #1471 (budget fix #1477) |
 | 2 | Daily challenge (Century Challenge, Who am I?) and `edu/daily-schedule.json` (366 entries) | `/{lang}/learn/daily/` | done — merged #1479 |
-| 3 | Fact engine: `did_you_know` on entities, 365 facts in batches of at most 25, fact of the day, archive, A4 poster | `/{lang}/learn/facts/` | done — this PR: engine + batch 1 (25 of 365 facts); 340 facts remain for later batches |
-| 4 | Seasonal packs (heritage month, Ramadan, back to school, exam season) and the founder's email texts | `/{lang}/learn/teachers/packs/{season}/`, `docs/outreach/education/` | done — `edu/packs.yaml` (4 packs × kit of 8–11 sheets) + pack landing pages + packs index + emails `docs/outreach/education/{heritage-month,ramadan,back-to-school,exam-season}.md`; this PR |
+| 3 | Fact engine: `did_you_know` on entities, 365 facts in batches of at most 25, fact of the day, archive, A4 poster | `/{lang}/learn/facts/` | done — merged #1586: engine + batch 1 (25 of 365 facts); 340 facts remain for later batches |
+| 4 | Seasonal packs (heritage month, Ramadan, back to school, exam season) and the founder's email texts | `/{lang}/learn/teachers/packs/{season}/`, `docs/outreach/education/` | done — `edu/packs.yaml` (4 packs × kit of 8–11 sheets) + pack landing pages + packs index + emails `docs/outreach/education/{heritage-month,ramadan,back-to-school,exam-season}.md`; merged #1590 |
 
-| 5 | Offline packs: one self-contained `.html` per pack per language, inlined CSS, no script or external fetch, ≤ 2 MB, checked in `check-site.ts` | `/{lang}/learn/teachers/offline/{unit}.html` | done — build-time endpoint `site/src/pages/[lang]/learn/teachers/offline/[slug].html.ts` (pack overview + kit + fact archive); linked from each pack page; check-site asserts size/no-script/no-absolute-URL; this PR |
-| 6 | Where am I? (gentle version) | `/{lang}/sighar/explorers/where/` | done — `edu/where.yaml` 12 first-person riddles × two choices, always-warm <details> reveals, no JS; linked from the Explorers hub; this PR |
-| 7 | Homework search: 50 topics × three phrasings in ar, en, ur merged into the search synonyms | `edu/homework-topics.yaml`, search zero-result strip | done — `edu/homework-topics.yaml` (50 topics), phrasings merged into `search-synonyms.{ar,en}.json` in `derive.ts`, zero-result `#hw-strip` on `/{lang}/search/` + teacher-hub strip; this PR |
-| 8 | Explorers map: world SVG (80 KB or less, 12 hot spots), replacing the placeholder on the Explorers hub | `site/src/data/basemap-world.json`, `/{lang}/sighar/explorers/` | pending |
+| 5 | Offline packs: one self-contained `.html` per pack per language, inlined CSS, no script or external fetch, ≤ 2 MB, checked in `check-site.ts` | `/{lang}/learn/teachers/offline/{unit}.html` | done — build-time endpoint `site/src/pages/[lang]/learn/teachers/offline/[slug].html.ts` (pack overview + kit + fact archive); linked from each pack page; check-site asserts size/no-script/no-absolute-URL; merged #1593 |
+| 6 | Where am I? (gentle version) | `/{lang}/sighar/explorers/where/` | done — `edu/where.yaml` 12 first-person riddles × two choices, always-warm <details> reveals, no JS; linked from the Explorers hub; merged #1598 |
+| 7 | Homework search: 50 topics × three phrasings in ar, en, ur merged into the search synonyms | `edu/homework-topics.yaml`, search zero-result strip | done — `edu/homework-topics.yaml` (50 topics), phrasings merged into `search-synonyms.{ar,en}.json` in `derive.ts`, zero-result `#hw-strip` on `/{lang}/search/` + teacher-hub strip; merged #1601 |
+| 8 | Explorers map: world SVG (80 KB or less, 12 hot spots), replacing the placeholder on the Explorers hub | `site/src/data/basemap-world.json`, `/{lang}/sighar/explorers/` | done — `basemap-world.json` (Natural Earth 110m land, 61 KB) + `WorldMap.astro` inline SVG, 12 hot spots each opening its city's leveled record (fez/delhi open the plain record), list below the map as the no-JS equivalent; merged #1602 |
 
-**Urdu for the founder's review (E3):** listed step by step as each step lands.
+**Deploy register (close-out 1e, checked 25 Oct 2026):** merged education PRs since 24 Oct 2026 — #1233 (E1), #1389, #1381, #1450, #1457-#1462 (E2), #1582 (E2 close-out), #1467, #1471, #1477, #1479, #1586, #1590, #1593, #1598, #1601, #1602 (E3 steps), #1605 (validate repair), #1606, #1608 (close-out). `git diff` over every one of them: **none touches `.github/workflows`, `workers/` or any wrangler config** — a plain `main` deploy covers everything, no Worker/workflow restart needed.
+
+**Urdu for the founder's review (E3):** strings landed per step, quoted for review. UI keys live in `i18n/ur.yaml`; content strings in the cited files. None is approved yet — please review and correct in place or send edits.
+
+**Step 3 — fact engine (#1586).** UI keys `fc_*`:
+- `fc_dyk`: کیا آپ جانتے ہیں؟
+- `fc_title`: حقائق
+- `fc_lede`: میوزیم سے روز ایک تصدیق شدہ حقیقت — ہر ایک کا اپنا ریکارڈ اور ماخذ۔
+- `fc_day`: آج کی حقیقت
+- `fc_week`: ہفتے کی حقیقت
+- `fc_all`: تمام حقائق
+- `fc_count`: تمام حقائق ({n})
+- `fc_poster`: ہفتے کی حقیقت کا پوسٹر چھاپیں
+- `fc_poster_title`: ہفتے کی حقیقت · پوسٹر
+- `fc_poster_note`: ایک ورق (A4): کلاس کی دیوار پر لگائیں اور مزید حقائق کے لیے کوڈ اسکین کریں۔
+- `fc_sources`: ماخذ
+
+Fact strings (`education.did_you_know.ur` on 25 records):
+- `building/eyup-sultan-mosque.yaml`: فتح کے بعد استنبول میں پہلی عثمانی مسجد: محمد فاتح نے 1458ء میں ابوایوب انصاری کے مزار پر بنائی۔
+- `building/great-mosque-cordoba.yaml`: مسجدِ قرطبة میں تقریباً ساڑھے آٹھ سو ماربل اور جزع کے ستون ہیں، جن میں سے بہت سے پرانی رومی اور ویزگوتھک عمارتوں سے لیے گئے۔
+- `concept/five-pillars.yaml`: اسلام کے پانچ ارکان مشہور حدیثِ جبرائیل میں جمع ہوئے، جب انھوں نے نبی سے اسلام، ایمان اور احسان پوچھے۔
+- `concept/hijri-calendar.yaml`: ہجری تقویم ہجرت کے دن سے نہیں شروع ہوتا؛ عمر بن خطاب نے 17ھ میں سال کے آغاز کو محرم ٹھہرایا۔
+- `concept/tawhid.yaml`: توحید کا لفظ قرآن میں نہیں آتا، مگر علما نے اسے ایک پوری شاخ کا نام بنایا: عبادت اور صفات میں اللہ کو یکتا ماننا۔
+- `event/battle-of-badr.yaml`: بدر سے پہلے کی رات بارش ہوئی اور ریت مسلمانوں کے قدموں تلے مضبوط ہوگئی؛ اس دن انھوں نے قریش کے ستر آدمی قیدی بنائے۔
+- `event/conquest-of-mecca.yaml`: نبی تقریباً دس ہزار کے ساتھ مکہ داخل ہوئے اور عام معافی کا اعلان کیا؛ اہلِ مکہ سے کہا: جاؤ، تم آزاد ہو۔
+- `event/constitution-of-medina.yaml`: صحیفۂ مدینہ نے یثرب کے مسلمانوں اور یہودیوں کو ایک امت بنایا؛ بہت سے مورخین اسے اسلامی تاریخ کا پہلا تحریری دستور مانتے ہیں۔
+- `event/first-revelation.yaml`: نبی پر غارِ حرا میں وحی نازل ہوئی؛ سب سے پہلے جو شے ان پر نازل ہوئی وہ پڑھنے کا حکم تھا۔
+- `event/founding-of-baghdad.yaml`: منصور نے دجلہ اور فرات کے درمیان بغداد کی جگہ چنی، اسے شہرِ سلامت کہا، اور سلطنت بھر سے بنانے والے بلائے۔
+- `event/hijra.yaml`: نبی اور ان کے ساتھی غارِ ثور میں تین راتیں چھپے رہے؛ وہ جمعے کے دن مدینہ داخل ہوئے اور بنو سالم میں پہلی نمازِ جمعہ ادا کی گئی۔
+- `event/prophets-mosque-built.yaml`: نبی کی اونٹنی اسی جگہ بیٹھی جہاں ان کی مسجد بننی تھی؛ انھوں نے دو یتیموں سے زمین خریدی اور اینٹ اور کھجور کی چھال سے مسجد بنائی۔
+- `person/abdullah-ibn-abbas.yaml`: ابنِ عباس نبی کے انتقال کے وقت تیرہ برس کے تھے، مگر اگلی نسل کے لیے تفسیر کا حوالہ بنے اور «ترجمانِ قرآن» کہلائے۔
+- `person/abu-hurayra.yaml`: ابوہریرہ نے صرف تین سال کی صحبت میں تقریباً پانچ ہزار احادیث بیان کیں۔
+- `person/aisha.yaml`: عائشہ سے دو ہزار سے زیادہ احادیث مروی ہیں؛ صحابہ دین کے باریک مسائل ان سے پوچھتے تھے۔
+- `person/al-bukhari.yaml`: بخاری نے سولہ برس کے سفر میں جمع کی گئی تقریباً چھ لاکھ احادیث میں سے صحیح چنی؛ صرف وہی لی جو ان کی شرط پر پوری اترے۔
+- `person/al-khwarizmi.yaml`: الجبرا کا نام الخوارزمی کی کتاب «الجبر» سے اور الگورتھم ان کے لاطینی نام «الگورتمی» سے نکلا۔
+- `person/ibn-sina.yaml`: سولہ برس میں ابنِ سینا نے سامانی شہزادہ نوح بنِ منصور کا علاج کیا؛ اس نے شاہی کتب خانہ کھول دیا اور انھوں نے وہ سب پڑھ لیا۔
+- `place/baghdad.yaml`: بغداد شہرِ سلامت کہلایا اور تیسری ہجری صدی میں دنیا کا سب سے بڑا شہر تھا؛ جغرافیہ دانوں نے اس کی آبادی لاکھوں میں گنی۔
+- `place/cordoba.yaml`: چوتھی ہجری صدی میں قرطبة یورپ کے شہروں سے بڑا تھا؛ اس کی پکی سڑکیں لندن سے صدیوں پہلے چراغوں سے روشن تھیں۔
+- `place/jerusalem.yaml`: یروشلم تقریباً سولہ ماہ مسلمانوں کا پہلا قبلہ رہا، پھر قبلہ کعبہ کی طرف پھر گیا۔
+- `polity/umayyad-caliphate.yaml`: اموی عہد میں مسلموں کی حکومت اندلس سے دریائے جیحوں تک پھیلی؛ اس زمانے کی دنیا کی سب سے بڑی ریاست تھی۔
+- `practice/hajj.yaml`: لوگ اسلام سے پہلے بھی کعبہ کا طواف کرتے تھے؛ 9ھ کے حج نے گھر کو ابراہیم اور اسماعیل کی توحید پر لوٹایا۔
+- `practice/salah.yaml`: پانچ کے فرض ہونے سے پہلے مسلمان صبح اور شام دو دو رکعتیں پڑھتے تھے؛ پانچ نمازیں راتِ معراج میں مقرر ہوئیں۔
+- `practice/sawm-ramadan.yaml`: مریض اور مسافر رمضان کے روزے سے معذور ہیں بشرط بعد میں قضا کے؛ مسافر کی رخصت حکمِ روزے سے پہلے آئی۔
+
+**Step 4 — seasonal packs (#1590).** UI keys:
+- `pk_season`: موسمی پیک
+- `pk_kit_title`: پیک کا سامان (چھپائی پر {n} ورقیں)
+- `pk_sheets`: {n} ورقیں
+- `pk_note`: ہر شے اپنا چھپائی صفحہ کھولتی ہے؛ سب چھاپیں تو پیک مکمل ہوتا ہے۔
+- `pk_title`: موسمی پیک
+- `pk_desc`: تاریخ کے مطابق کلاس کا سامان: ورثہ ماہ، رمضان، اسکول واپسی اور امتحانوں کا موسم۔
+- pack `heritage-month` title: اسلامی ورثہ ماہ کا پیک | when: انٹاریو میں اسلامی ورثہ ماہ: ہر سال اکتوبر۔ | lede: روز ایک حقیقت، مکمل چھپنے والا راستہ، میوزیم پاسپورٹ اور روزانہ چیلنج: ورثہ ماہ کے لیے کلاس کا سامان۔
+  - kit item: ہفتے کی حقیقت کا پوسٹر
+  - kit item: نصابی راستے کا چھپائی پیک (اسلام کا عروج)
+  - kit item: میوزیم پاسپورٹ
+  - kit item: روزانہ چیلنج (ایک ہفتے کے سوالات)
+  - kit item: اپنے الفاظ میں سنانے کی مشق
+- pack `ramadan` title: رمضان کا پیک | when: رمضان 1448ھ: ام‌القری تقویم کے مطابق متوقع آغاز تقریباً 8 فروری 2027ء؛ اصل آغاز ہلال دیکھنے پر موقوف ہے۔ | lede: نیکی کا چارٹ، حقائق کا پوسٹر، خاندانی ہفتہ وار ورقیں اور چھپنے والا راستہ: رمضان کے لیے کلاس کا سامان۔
+  - kit item: ہفتے کی حقیقت کا پوسٹر
+  - kit item: نیکی کی 30 روزہ چارٹ
+  - kit item: نصابی راستے کا چھپائی پیک
+  - kit item: خاندانی ہفتہ وار ورق
+  - kit item: روزانہ چیلنج
+- pack `back-to-school` title: اسکول واپسی کا پیک | when: ستمبر کا پہلا ہفتہ۔ | lede: سال کا آغاز ہر شاگرد کے پاسپورٹ، حقائق کے پوسٹر، کلاس کے راستے اور کاٹنے اور پڑھنے کے کارڈ سے کریں۔
+  - kit item: میوزیم پاسپورٹ
+  - kit item: ہفتے کی حقیقت کا پوسٹر
+  - kit item: نصابی راستے کا چھپائی پیک
+  - kit item: انبیاء کی ترتیب کے کاٹنے والے کارڈ
+- pack `exam-season` title: امتحانوں کے موسم کا پیک | when: مئی تا جون۔ | lede: خود جانچنے والے مطالعہ طریقے، راستوں کی ورک شیٹیں، روزانہ چیلنج اور حقائق کا پوسٹر: امتحان سے پہلے کلاس کی دہرائی کا سامان۔
+  - kit item: مطالعے کے کاٹنے والے کارڈ
+  - kit item: نصابی راستے کا چھپائی پیک (ورک شیٹ سمیت)
+  - kit item: سبق کی ورک شیٹ
+  - kit item: روزانہ چیلنج
+  - kit item: ہفتے کی حقیقت کا پوسٹر
+
+**Step 5 — offline packs (#1593).** UI keys:
+- `pk_offline`: آف لائن پیک (ایک فائل)
+- `pk_offline_note`: یہ ایک فائل پورا پیک رکھتی ہے؛ بغیر انٹرنیٹ کھلتی ہے۔
+
+**Step 6 — Where am I? (#1598).** UI keys `wh_*`:
+- `wh_title`: میں کہاں ہوں؟
+- `wh_lede`: بارہ مقامات پہلے شخص میں بولتے ہیں۔ ہر ایک کی پہیلی سنو، پھر جواب جھانکو — یہاں کوئی غلط اندازہ نہیں۔
+- `wh_guess`: کیا میں {name} ہوں؟
+- `wh_yes`: ہاں! میں {name} ہوں۔
+- `wh_notquite`: پیارا اندازہ — میں دراصل {answer} ہوں۔ مگر {name} بھی ایک خوبصورت جگہ ہے!
+- `wh_visit`: میرا ریکارڈ دیکھو
+- `wh_note`: ہر اندازے کو نرم جواب ملتا ہے، اور ہر جواب میوزیم کی ایک اصل جگہ کھولتا ہے۔
+Riddle strings (`edu/where.yaml`):
+- `kaaba`: میں اس شہر میں کھڑا ہوں جہاں نبی پیدا ہوئے، اور لوگ نماز میں میری طرف رخ کرتے ہیں۔ میں کون ہوں؟
+- `prophets-mosque`: میں سب سے پہلے مٹی کی اینٹوں اور کھجور کے تنوں سے بنا، اور میرے پاس ایک بابرکت آرام گاہ کے اوپر سبز گنبد ہے۔ میں کون ہوں؟
+- `great-mosque-cordoba`: میں قرطبہ میں کھڑا ہوں، اور میری چھت کے نیچے ستونوں اور سرخ و سفید محرابوں کا جنگل ہے۔ میں کون ہوں؟
+- `alhambra`: میں غرناطہ کی پہاڑی پر ایک محل ہوں جہاں صحنوں میں پانی بہتا ہے اور میری دیواروں پر شاعری کندہ ہے۔ میں کون ہوں؟
+- `baghdad`: میں دجلہ کے کنارے بسا ایک گول شہر ہوں، اور میرے دارالحکمت نے دنیا کے علوم کا ترجمہ کیا۔ میں کون ہوں؟
+- `timbuktu`: میں عظیم صحرا کے کنارے کھڑا ہوں، اور میرے لوگوں کے گھروں میں بے شمار کتابیں محفوظ رہیں۔ میں کون ہوں؟
+- `bukhara`: میں شاہراہِ ریشم کا پرانا شہر ہوں جس کا اونچا مینار صدیوں تک قافلوں کی رہنمائی کرتا رہا۔ میں کون ہوں؟
+- `umayyad-mosque`: میں پرانے دمشق کے دل میں کھڑا ہوں؛ میرے صحن میں اونچے مینار اور عقاب کا گنبد ہیں۔ میں کون ہوں؟
+- `dome-of-the-rock`: میں یروشلم میں ایک چٹان کے اوپر سنہری گنبد ہوں، جو پرانے شہر کی ہر جگہ سے نظر آتا ہے۔ میں کون ہوں؟
+- `suleymaniye`: مجھے معمار سنان نے استنبول کی ایک پہاڑی پر بنایا، اور میرے چار میناروں سے باسفورس نظر آتا ہے۔ میں کون ہوں؟
+- `al-aqsa`: میں وہ مسجد ہوں جہاں لوگ پہلے قبلے کی طرف نماز پڑھتے تھے، حرمِ شریف کے کنارے۔ میں کون ہوں؟
+- `eyup-sultan`: میں گولڈن ہورن کے کنارے کھڑا ہوں، اور میرا نام اس مہربان صحابی پر ہے جس نے مدینہ میں نبی کی میزبانی کی۔ میں کون ہوں؟
+
+**Step 7 — homework search (#1601).** UI keys:
+- `hw_title`: ہوم ورک کے موضوعات
+- `hw_lede`: کچھ نہ ملا؟ یہ پچاس اسکول موضوعات ہمیشہ کہیں نہ کہیں پہنچتے ہیں:
+Homework topics (`edu/homework-topics.yaml`) — id | ur title | ur phrasings:
+- `crusades` | صلیبی جنگیں | صلیبی جنگیں ہوم ورک · صلیبی جنگیں پروجیکٹ · صلیبی جنگیں بچوں کے لیے
+- `rise-of-islam` | اسلام کا عروج | اسلام کا عروج ہوم ورک · اسلام کا عروج پروجیکٹ · اسلام کا عروج بچوں کے لیے
+- `baghdad-silk-roads` | بغداد اور شاہراہِ ریشم | بغداد اور شاہراہِ ریشم ہوم ورک · بغداد اور شاہراہِ ریشم پروجیکٹ · بغداد اور شاہراہِ ریشم بچوں کے لیے
+- `al-andalus` | اندلس | اندلس ہوم ورک · اندلس پروجیکٹ · اندلس بچوں کے لیے
+- `mongols` | منگول | منگول ہوم ورک · منگول پروجیکٹ · منگول بچوں کے لیے
+- `five-pillars-path` | روزمرہ میں اسلام کے پانچ ارکان | روزمرہ میں اسلام کے پانچ ارکان ہوم ورک · روزمرہ میں اسلام کے پانچ ارکان پروجیکٹ · روزمرہ میں اسلام کے پانچ ارکان بچوں کے لیے
+- `art-architecture` | اسلامی فن و عمارت | اسلامی فن و عمارت ہوم ورک · اسلامی فن و عمارت پروجیکٹ · اسلامی فن و عمارت بچوں کے لیے
+- `life-of-prophet` | سیرتِ نبی | سیرتِ نبی ہوم ورک · سیرتِ نبی پروجیکٹ · سیرتِ نبی بچوں کے لیے
+- `quran-text` | قرآن بطور متن | قرآن بطور متن ہوم ورک · قرآن بطور متن پروجیکٹ · قرآن بطور متن بچوں کے لیے
+- `ottomans` | سلطنتِ عثمانیہ | سلطنتِ عثمانیہ ہوم ورک · سلطنتِ عثمانیہ پروجیکٹ · سلطنتِ عثمانیہ بچوں کے لیے
+- `four-cities` | چار اسلامی شہر | چار اسلامی شہر ہوم ورک · چار اسلامی شہر پروجیکٹ · چار اسلامی شہر بچوں کے لیے
+- `hajj-network` | حج کا سلسلہ | حج کا سلسلہ ہوم ورک · حج کا سلسلہ پروجیکٹ · حج کا سلسلہ بچوں کے لیے
+- `badr` | غزوۂ بدر | غزوۂ بدر ہوم ورک · غزوۂ بدر پروجیکٹ · غزوۂ بدر بچوں کے لیے
+- `hijra` | ہجرت | ہجرت ہوم ورک · ہجرت پروجیکٹ · ہجرت بچوں کے لیے
+- `first-revelation` | پہلی وحی | پہلی وحی ہوم ورک · پہلی وحی پروجیکٹ · پہلی وحی بچوں کے لیے
+- `conquest-mecca` | فتح مکہ | فتح مکہ ہوم ورک · فتح مکہ پروجیکٹ · فتح مکہ بچوں کے لیے
+- `ibn-battuta` | ابن بطوطہ | ابن بطوطہ ہوم ورک · ابن بطوطہ پروجیکٹ · ابن بطوطہ بچوں کے لیے
+- `ibn-sina` | ابن سینا | ابن سینا ہوم ورک · ابن سینا پروجیکٹ · ابن سینا بچوں کے لیے
+- `al-khwarizmi` | خوارزمی | خوارزمی ہوم ورک · خوارزمی پروجیکٹ · خوارزمی بچوں کے لیے
+- `ibn-rushd` | ابن رشد | ابن رشد ہوم ورک · ابن رشد پروجیکٹ · ابن رشد بچوں کے لیے
+- `mansa-musa` | مانسا موسی | مانسا موسی ہوم ورک · مانسا موسی پروجیکٹ · مانسا موسی بچوں کے لیے
+- `fatima-al-fihri` | فاطمہ الفہری | فاطمہ الفہری ہوم ورک · فاطمہ الفہری پروجیکٹ · فاطمہ الفہری بچوں کے لیے
+- `al-ghazali` | غزالی | غزالی ہوم ورک · غزالی پروجیکٹ · غزالی بچوں کے لیے
+- `mimar-sinan` | معمار سنان | معمار سنان ہوم ورک · معمار سنان پروجیکٹ · معمار سنان بچوں کے لیے
+- `salah-al-din` | صلاح الدین | صلاح الدین ہوم ورک · صلاح الدین پروجیکٹ · صلاح الدین بچوں کے لیے
+- `kaaba` | کعبہ | کعبہ ہوم ورک · کعبہ پروجیکٹ · کعبہ بچوں کے لیے
+- `alhambra` | الحمرا | الحمرا ہوم ورک · الحمرا پروجیکٹ · الحمرا بچوں کے لیے
+- `dome-of-rock` | قبة الصخرہ | قبة الصخرہ ہوم ورک · قبة الصخرہ پروجیکٹ · قبة الصخرہ بچوں کے لیے
+- `cordoba-mosque` | جامعِ قرطبہ | جامعِ قرطبہ ہوم ورک · جامعِ قرطبہ پروجیکٹ · جامعِ قرطبہ بچوں کے لیے
+- `al-aqsa` | مسجدِ اقصی | مسجدِ اقصی ہوم ورک · مسجدِ اقصی پروجیکٹ · مسجدِ اقصی بچوں کے لیے
+- `suleymaniye` | مسجدِ سلیمانیہ | مسجدِ سلیمانیہ ہوم ورک · مسجدِ سلیمانیہ پروجیکٹ · مسجدِ سلیمانیہ بچوں کے لیے
+- `blue-mosque` | نیلی مسجد | نیلی مسجد ہوم ورک · نیلی مسجد پروجیکٹ · نیلی مسجد بچوں کے لیے
+- `umayyad-mosque` | اموی مسجد | اموی مسجد ہوم ورک · اموی مسجد پروجیکٹ · اموی مسجد بچوں کے لیے
+- `baghdad` | بغداد | بغداد ہوم ورک · بغداد پروجیکٹ · بغداد بچوں کے لیے
+- `cordoba` | قرطبہ | قرطبہ ہوم ورک · قرطبہ پروجیکٹ · قرطبہ بچوں کے لیے
+- `timbuktu` | ٹمبکٹو | ٹمبکٹو ہوم ورک · ٹمبکٹو پروجیکٹ · ٹمبکٹو بچوں کے لیے
+- `cairo` | قاہرہ | قاہرہ ہوم ورک · قاہرہ پروجیکٹ · قاہرہ بچوں کے لیے
+- `delhi` | دہلی | دہلی ہوم ورک · دہلی پروجیکٹ · دہلی بچوں کے لیے
+- `istanbul` | استنبول | استنبول ہوم ورک · استنبول پروجیکٹ · استنبول بچوں کے لیے
+- `mecca` | مکہ | مکہ ہوم ورک · مکہ پروجیکٹ · مکہ بچوں کے لیے
+- `medina` | مدینہ | مدینہ ہوم ورک · مدینہ پروجیکٹ · مدینہ بچوں کے لیے
+- `jerusalem` | بیت المقدس | بیت المقدس ہوم ورک · بیت المقدس پروجیکٹ · بیت المقدس بچوں کے لیے
+- `five-pillars` | ارکانِ اسلام | ارکانِ اسلام ہوم ورک · ارکانِ اسلام پروجیکٹ · ارکانِ اسلام بچوں کے لیے
+- `hijri-calendar` | ہجری تقویم | ہجری تقویم ہوم ورک · ہجری تقویم پروجیکٹ · ہجری تقویم بچوں کے لیے
+- `algebra` | الجبرا | الجبرا ہوم ورک · الجبرا پروجیکٹ · الجبرا بچوں کے لیے
+- `astronomy` | فلکیات | فلکیات ہوم ورک · فلکیات پروجیکٹ · فلکیات بچوں کے لیے
+- `calligraphy` | عرب خطاطی | عرب خطاطی ہوم ورک · عرب خطاطی پروجیکٹ · عرب خطاطی بچوں کے لیے
+- `salah` | نماز | نماز ہوم ورک · نماز پروجیکٹ · نماز بچوں کے لیے
+- `sawm` | رمضان کے روزے | رمضان کے روزے ہوم ورک · رمضان کے روزے پروجیکٹ · رمضان کے روزے بچوں کے لیے
+- `zakat` | زکوٰۃ | زکوٰۃ ہوم ورک · زکوٰۃ پروجیکٹ · زکوٰۃ بچوں کے لیے
+
+**Step 8 — Explorers map (#1602).** UI keys:
+- `wm_title`: میوزیم کا نقشہ
+- `wm_lede`: بارہ شہر، بارہ دروازے۔ سنہری نکتہ چھوؤ یا فہرست سے چنو — ہر ایک ایک ریکارڈ کھولتا ہے۔
+
 
 - **Step 3 (fact engine) — new i18n strings:**
   - `fc_dyk`: «کیا آپ جانتے ہیں؟»

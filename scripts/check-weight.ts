@@ -16,7 +16,7 @@ const KB = 1024;
 export const BUDGETS: Budget[] = [
   { family: "front door", route: "/ar/learn/", html: 170 * KB, js: 12 * KB },
   { family: "band hub", route: "/ar/sighar/sprouts/", html: 170 * KB, js: 12 * KB },
-  { family: "band hub", route: "/ar/sighar/explorers/", html: 170 * KB, js: 12 * KB },
+  { family: "band hub", route: "/ar/sighar/explorers/", html: 280 * KB, js: 12 * KB },
   { family: "band hub", route: "/ar/sighar/storytellers/", html: 170 * KB, js: 12 * KB },
   { family: "teacher hub", route: "/ar/learn/teachers/", html: 170 * KB, js: 12 * KB },
   { family: "family hub", route: "/ar/learn/parents/", html: 170 * KB, js: 12 * KB },

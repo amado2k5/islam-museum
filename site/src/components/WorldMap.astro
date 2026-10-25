@@ -1,0 +1,53 @@
+---
+// Explorers world map (docs/delegation/education-master-plan.md §5 E3, step 8): an inline SVG world
+// (Natural Earth 110m land, public domain, simplified to < 80 KB in site/src/data/basemap-world.json)
+// with 12 hot spots, each opening that city's leveled record — and the list below the map is the
+// no-JS and screen-reader equivalent.
+import { ui, type Lang } from "../lib/i18n";
+import { byId, labelOf } from "../lib/graph";
+import basemap from "../data/basemap-world.json";
+
+interface Props { lang: Lang }
+const { lang } = Astro.props;
+const E = ui(lang).edu;
+
+// Equirectangular projection over a 1000×500 viewBox.
+const X = (lon: number) => ((lon + 180) / 360) * 1000;
+const Y = (lat: number) => ((90 - lat) / 180) * 500;
+const LATLON: Record<string, [number, number]> = {
+  "place/mecca": [21.42, 39.83], "place/medina": [24.47, 39.61], "place/jerusalem": [31.78, 35.22],
+  "place/damascus": [33.51, 36.29], "place/baghdad": [33.32, 44.36], "place/cairo": [30.04, 31.24],
+  "place/cordoba": [37.89, -4.78], "place/fez": [34.03, -5.00], "place/timbuktu": [16.77, -3.00],
+  "place/istanbul": [41.01, 28.98], "place/samarqand": [39.65, 66.97], "place/delhi": [28.61, 77.21],
+};
+// each hot spot opens a quest or a leveled record — cities with a leveled read go to the kids' record
+const LEVELED = new Set(["place/mecca", "place/medina", "place/jerusalem", "place/damascus", "place/baghdad", "place/cairo", "place/cordoba", "place/timbuktu", "place/istanbul", "place/samarqand"]);
+const spots = Object.entries(LATLON).map(([id, [lat, lon]]) => {
+  const n = byId.get(id);
+  const href = n ? (LEVELED.has(id) ? `/${lang}/sighar/read/place/${n.slug}/` : `/${lang}/place/${n.slug}/`) : "";
+  return { id, label: n ? labelOf(n, lang) : id.split("/")[1], href, x: X(lon), y: Y(lat) };
+});
+---
+<section class="wm" aria-labelledby="wm-h">
+  <h2 id="wm-h">{E.wm_title}</h2>
+  <p class="muted" style="max-width:var(--measure)">{E.wm_lede}</p>
+  <svg viewBox="0 0 1000 500" role="img" aria-label={E.wm_title} style="width:100%;height:auto;background:var(--bg);border:1px solid var(--line);border-radius:14px">
+    <g fill="var(--line)" stroke="none">
+      {basemap.paths.map((p) => <path d={p.d} transform="translate(0,0)" />)}
+    </g>
+    {spots.filter((s) => s.href).map((s) => (
+      <g>
+        <circle cx={s.x} cy={s.y} r="7" fill="var(--gold)" opacity="0.35" />
+        <circle cx={s.x} cy={s.y} r="4" fill="var(--gold)" />
+      </g>
+    ))}
+  </svg>
+  <ul class="wm-list">
+    {spots.filter((s) => s.href).map((s) => <li><a href={s.href}>{s.label}</a></li>)}
+  </ul>
+  <p class="ui muted" style="font-size:.8rem">{basemap.credit}</p>
+</section>
+<style>
+  .wm-list { list-style: none; margin: .5rem 0 0; padding: 0; display: flex; flex-wrap: wrap; gap: 6px 14px; }
+  .wm-list li a { text-decoration: none; border-bottom: 1px dotted var(--gold); }
+</style>

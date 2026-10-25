@@ -1,6 +1,6 @@
 ---
 lang: ur
-entity: person/naim-frasheri
+id: person/naim-frasheri
 title: "نعیم فراشری (1846ء–1900ء)"
 ---
 
