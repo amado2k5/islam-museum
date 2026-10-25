@@ -90,7 +90,6 @@ export function jsonLd(n: Node, lang: Lang, path: string) {
     ...(sameAs.length ? { sameAs } : {}),
     license: "https://creativecommons.org/licenses/by-sa/4.0/",
     isPartOf: { "@type": "WebSite", name: "islam.museum", url: SITE },
-    ...a11yLd(lang),
   };
   if (n.class === "person") {
     ld.birthDate = iso(d.born); ld.deathDate = iso(d.died);
@@ -109,7 +108,21 @@ export function jsonLd(n: Node, lang: Lang, path: string) {
   }
   if (n.class === "event") { ld.startDate = iso(d.date?.start); ld.endDate = iso(d.date?.end); }
   if (n.class === "place" && n.coordinates) ld.geo = { "@type": "GeoCoordinates", latitude: n.coordinates[0], longitude: n.coordinates[1] };
-  return JSON.parse(JSON.stringify(ld));
+  ld.mainEntityOfPage = `${SITE}${path}`;
+  // Accessibility is a property of the page (a CreativeWork), not of the subject (Person, Place…):
+  // a second JSON-LD node describes the article and points back at the entity node.
+  const page = {
+    "@context": "https://schema.org",
+    "@type": "WebPage",
+    "@id": `${SITE}${path}`,
+    url: `${SITE}${path}`,
+    name: labelOf(n, lang),
+    inLanguage: lang,
+    isPartOf: { "@type": "WebSite", name: "islam.museum", url: SITE },
+    about: { "@id": `${SITE}${path}` },
+    ...a11yLd(lang),
+  };
+  return JSON.parse(JSON.stringify([ld, page]));
 }
 
 // ---- themes (docs/plan/14) ----
