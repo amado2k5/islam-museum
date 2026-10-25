@@ -3,23 +3,20 @@ class: person
 label:
   ar: "قره أحمد باشا"
   en: "Kara Ahmed Pasha"
-roles: [grand-vizier]
+roles: [grand-vizier, military-leader]
 gender: male
+died: { edtf: "1555-09-28", hijri: "0962", calendar: julian, precision: day, status: tradition, derived: false, note: "Executed 13 Dhu'l-Qa'da 962/28 September 1555, EI2.", sources: [source/encyclopaedia-of-islam-2] }
 summary:
-  ar: "بطاقة أولية لقره أحمد باشا، الصدر الأعظم الذي أُعدم في عهد سليمان القانوني، ورد في وصف مرجعي مفتوح (ويكي البيانات). لم تُراجع ترجمته في تاريخ الدولة العثمانية للصلابي على الصفحة بعد، لذلك لا تُذكر هنا تواريخ."
-  en: "Draft card for Kara Ahmed Pasha, the grand vizier executed under Suleiman the Magnificent, named from an open reference description (Wikidata); his entry in al-Salabi's history of the Ottoman state is not yet checked on the page, so no dates are given."
+  ar: "قره أحمد باشا، صدر أعظم عثماني من أصل ألباني في عهد سليمان القانوني، تولى أغا الإنكشارية، ثم قائدًا عامًا ضد الفرس، وأُعدم في 13 ذي القعدة 962هـ/28 سبتمبر 1555م {cite:encyclopaedia-of-islam-2 vol. 1 p. 313}."
+  en: "Kara Ahmed Pasha, Ottoman grand vizier under Sulayman I, of Albanian origin and educated in the palace. He became agha of the Janissaries in 927/1521, took part in the Hungarian campaigns, and was made second vizier in 1548. He was beheaded on 13 Dhu'l-Qa'da 962/28 September 1555 {cite:encyclopaedia-of-islam-2 vol. 1 p. 313}."
 wings: [people]
 regions: [anatolia-balkans]
 periods: [period/gunpowder-empires]
-sources: [source/dawlat-uthmaniyya-salabi]
+sources: [source/dawlat-uthmaniyya-salabi, source/encyclopaedia-of-islam-2]
 external_ids:
   wikidata: Q1571856
 provenance:
   layer: own-research
-  source: "Wikidata Q1571856 (religion claim Islam); book source: al-Salabi, al-Dawla al-Uthmaniyya — entry not yet read on the page"
-  generated_by: "Devin (SWE-2 High)"
-  model: "SWE-2 High"
-  run: wikidata-import-0009
-status:
-  review: draft
-  completeness: 1
+  source: "Encyclopaedia of Islam, 2nd ed. (Brill), vol. 1, PDF p. 313, article 'Ahmad Pasha, Kara' signed M. Cavid Baysun (EI2 enrichment, batch ei2-b003 part 3ck); Wikidata Q1571856 for the identifier"
+  generated_by: "Claude Code (claude-haiku-5-5)"
+status: { review: published, completeness: 2 }
