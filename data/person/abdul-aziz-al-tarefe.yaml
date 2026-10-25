@@ -1,0 +1,37 @@
+id: person/abdul-aziz-al-tarefe
+class: person
+label: { ar: "عبد العزيز الطريفي", en: "Abdul Aziz Al-Tarefe", ur: "عبدالعزیز طریفی" }
+names:
+  - { value: "عبد العزيز بن مرزوق الطريفي", kind: full }
+  - { value: "Abdulaziz bin Marzooq al-Tarifi", kind: full }
+  - { value: "Abd al-Aziz al-Tarifi", kind: variant }
+  - { value: "Abdul Aziz At-Turaifi", kind: variant }
+gender: male
+summary:
+  ar: "عالم حديث وفقيه سعودي، وُلد في الكويت سنة 1976 واستقر في الرياض. عُرف بحفظه للحديث من دواوين السنة الكبرى، وتخرج في كلية الشريعة بجامعة الإمام محمد بن سعود الإسلامية، وعمل باحثًا في وزارة الشؤون الإسلامية. وبحسب التقارير المنقولة اعتُقل في أبريل 2016 وما يزال محتجزًا."
+  en: "Saudi hadith scholar and jurist, born in Kuwait in 1976 and settled in Riyadh. Known for recalling hadith from the major collections from memory, he graduated from the College of Sharia at Imam Muhammad ibn Saud Islamic University and worked as a researcher at the Ministry of Islamic Affairs. According to the reports carried in the sources, he was arrested in April 2016 and remains detained."
+  ur: "سعودی عالمِ حدیث اور فقیہ، جو 1976 میں کویت میں پیدا ہوئے اور ریاض میں مقیم ہوئے۔ کتبِ حدیث کی بڑی مجموعوں سے حدیث زبانی یاد رکھنے کے لیے مشہور، انہوں نے جامعہ امام محمد بن سعود الاسلامیہ کے کلیہ شریعہ سے تعلیم پائی اور وزارتِ امورِ اسلامیہ میں محقق رہے۔ ماخذوں میں نقل شدہ رپورٹوں کے مطابق وہ اپریل 2016 میں گرفتار ہوئے اور اب تک زیرِ حراست ہیں۔"
+roles: [scholar, jurist]
+wings: [people, living]
+born:
+  edtf: "1976-11-29"
+  hijri: "1396"
+  calendar: gregorian
+  precision: day
+  status: historical
+  note: "Born in Kuwait on 29 November 1976, which the English article also gives as 7 Dhu al-Hijja 1396 AH — the article's own Hijri date, not a conversion. As a child he moved between Kuwait and Mosul before the family settled in Riyadh."
+  sources: [source/wikipedia-abdul-aziz-al-tarefe-en, source/alsiyar-abdul-aziz-al-tarefe]
+relations:
+  - { type: lived_in, target: place/mosul, sources: [source/wikipedia-abdul-aziz-al-tarefe-en] }
+faith:
+  - value: unknown
+    basis: unknown
+    note: "Only one source states his school in its data: the English article's infobox gives denomination Sunni, jurisprudence Hanbali, creed Athari and movement Salafism. The Al-Siyar biographical encyclopedia files him under the category 'Ahl al-Sunna', which is a category label, not a second statement of a school in prose, and aggregator labels do not count under the lane's rule. Not recorded as sunni-hanbali until a second source names the school."
+    sources: [source/wikipedia-abdul-aziz-al-tarefe-en, source/alsiyar-abdul-aziz-al-tarefe]
+sources: [source/wikipedia-abdul-aziz-al-tarefe-en, source/alsiyar-abdul-aziz-al-tarefe, source/taj-rights-abdul-aziz-al-tarefe]
+provenance:
+  layer: own-research
+  source: "English Wikipedia article 'Abd al-Aziz al-Tarifi' and the Al-Siyar encyclopedia of contemporary figures (alsiyar.com), as cited in those pages and checked 24 October 2026. No Arabic Wikipedia article on him was found (searched 24 October 2026); his published biography, reproduced by Arabic book sites, supplies his teachers. His arrest in April 2016 and continued detention are carried as attributed reports: the English article cites BBC News Arabic (24 April 2016) for the arrest and dates its 'still detained' statement to August 2026, and rights organisations (Together For Justice, ALQST) report detention without charge or trial, a death-penalty request by prosecutors and solitary confinement at al-Ha'ir Prison — reports the Saudi authorities have not publicly confirmed or denied. A Wikidata item for him could not be retrieved in this pass, so no external_ids are recorded. No born_in or Riyadh relation is recorded because the museum has no place records for Kuwait City or Riyadh."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: modern-figures-batch-6
+status: { review: published, completeness: 3, generated_by: "Muse (Muse Spark 1.3)" }

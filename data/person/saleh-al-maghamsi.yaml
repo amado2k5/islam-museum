@@ -1,0 +1,37 @@
+id: person/saleh-al-maghamsi
+class: person
+label: { ar: "صالح المغامسي", en: "Saleh Al-Maghamsi", ur: "صالح مغامسی" }
+names:
+  - { value: "صالح بن عوض المغامسي", kind: full }
+  - { value: "Saleh bin Awad al-Maghamsi", kind: full }
+  - { value: "صالح بن عواد المغامسي الحربي", kind: variant }
+gender: male
+summary:
+  ar: "عالم وداعية سعودي ومفسّر، وُلد سنة 1963 في منطقة المدينة المنورة. درس اللغة العربية والعلوم الإسلامية في جامعة الملك عبد العزيز وتتلمذ على ابن باز وابن عثيمين وغيرهما، وكان إمامًا وخطيبًا لمسجد قباء نحوًا من سنة 2006، وله دروس وبرامج تلفزيونية في التفسير، وعُيّن بمرسوم ملكي في فبراير 2026 إمامًا للمسجد النبوي."
+  en: "Saudi scholar, preacher and Qur'an exegete, born in 1963 in the Medina region. He studied Arabic language and Islamic sciences at King Abdulaziz University and under Ibn Baz, Ibn Uthaymin and others, served as imam and khatib of Quba Mosque from about 2006, is known for his recorded and televised lessons in exegesis, and was appointed by royal decree in February 2026 as an imam of the Prophet's Mosque."
+  ur: "سعودی عالم، مبلغ اور مفسر، جو 1963 میں مدینہ کے علاقے میں پیدا ہوئے۔ انہوں نے جامعہ ملک عبدالعزیز میں عربی زبان اور اسلامی علوم کی تعلیم پائی اور ابن باز و ابن عثیمین سمیت دیگر علماء سے استفادہ کیا، تقریباً 2006 سے مسجد قبا کے امام و خطیب رہے، تفسیر میں ان کے ریکارڈ شدہ اور ٹیلی ویژن دروس مشہور ہیں، اور فروری 2026 میں شاہی فرمان سے مسجد نبوی کے امام مقرر ہوئے۔"
+roles: [scholar, preacher]
+wings: [people, living]
+born:
+  edtf: "1963-11-17"
+  hijri: "1383"
+  calendar: gregorian
+  precision: day
+  status: historical
+  note: "Born 17 November 1963, which the sources also give as 1 Rajab 1383 AH — the article's own Hijri date, not a conversion. The English article gives the birthplace as Medina; the Arabic article is more precise: he was born in the village of Khayf al-Huzami in Wadi al-Safra, in Badr Governorate west of Medina, and moved to Medina as a child."
+  sources: [source/wikipedia-saleh-al-maghamsi-en, source/wikipedia-saleh-al-maghamsi-ar]
+relations:
+  - { type: born_in, target: place/medina, sources: [source/wikipedia-saleh-al-maghamsi-en] }
+  - { type: lived_in, target: place/medina, sources: [source/wikipedia-saleh-al-maghamsi-ar, source/wikipedia-saleh-al-maghamsi-en] }
+faith:
+  - value: unknown
+    basis: unknown
+    note: "Only one source names him Sunni: the English article's infobox gives the denomination as Sunni. The Arabic article names no school, and the Polish article's infobox gives his religion as Islam only. Under the lane's two-source rule the school is not recorded until a second source names it."
+    sources: [source/wikipedia-saleh-al-maghamsi-en, source/wikipedia-saleh-al-maghamsi-ar]
+sources: [source/wikipedia-saleh-al-maghamsi-en, source/wikipedia-saleh-al-maghamsi-ar]
+provenance:
+  layer: own-research
+  source: "English Wikipedia article 'Saleh Al-Maghamsi' and Arabic Wikipedia article «صالح المغامسي», as cited in those articles and checked 24 October 2026; the Arabic text was consulted through a public mirror of the article. The February 2026 appointment to the Prophet's Mosque is carried from the English article, which cites the Saudi Gazette (21 February 2026) and The Times of India (22 February 2026). A Wikidata item for him could not be retrieved in this pass (searches on 24 October 2026 returned no item), so no external_ids are recorded."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: modern-figures-batch-6
+status: { review: published, completeness: 3, generated_by: "Muse (Muse Spark 1.3)" }

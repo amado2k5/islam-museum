@@ -1,0 +1,34 @@
+id: person/zakir-naik
+class: person
+label: { ar: "ذاكر نايك", en: "Zakir Naik", ur: "ذاکر نایک" }
+names:
+  - { value: "ذاكر عبد الكريم نايك", kind: full }
+  - { value: "Zakir Abdul Karim Naik", kind: full }
+gender: male
+summary:
+  ar: "داعية هندي وطبيب، وُلد في مومباي سنة 1965. أسس مؤسسة البحوث الإسلامية وترأسها، وأسس سنة 2006 شبكة «بيس تي في» الفضائية، واشتهر بمحاضرات بالإنجليزية ومناظرات في مقارنة الأديان بلغت بحسب المصادر أكثر من أربعة آلاف محاضرة. ومنذ 2016 يقيم في ماليزيا بصفة مقيم دائم، وتتهمه السلطات الهندية بخطاب الكراهية وغسل الأموال، وهي اتهامات ينفيها."
+  en: "Indian preacher and physician, born in Bombay (Mumbai) in 1965. He founded and presides over the Islamic Research Foundation and founded the Peace TV satellite network in 2006, becoming known for English-language lectures and debates in comparative religion — more than 4,000 lectures, according to the sources. Since 2016 he has lived in Malaysia as a permanent resident; the Indian authorities accuse him of hate speech and money laundering, charges he denies."
+  ur: "ہندوستانی مبلغ اور طبیب، جو 1965 میں ممبئی میں پیدا ہوئے۔ انہوں نے اسلامی ریسرچ فاؤنڈیشن کی بنیاد رکھی اور اس کے صدر ہیں، اور 2006 میں پیس ٹی وی سیٹلائٹ نیٹ ورک قائم کیا؛ انگریزی میں تقاریر اور تقابلِ ادیان کے مباحثوں سے مشہور ہوئے — ماخذوں کے مطابق چار ہزار سے زائد لیکچر۔ 2016 سے وہ ملائیشیا میں مستقل رہائشی کی حیثیت سے مقیم ہیں؛ ہندوستانی حکام ان پر نفرت انگیز تقریر اور منی لانڈرنگ کے الزامات لگاتے ہیں، جن کی وہ تردید کرتے ہیں۔"
+roles: [preacher, physician, writer]
+wings: [people, living]
+born:
+  edtf: "1965-10-18"
+  hijri: "1385"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "Born at Bombay (Mumbai), Maharashtra, on 18 October 1965, from both Wikipedia articles; the Hijri year (1385) is a converter derivation from that date."
+  sources: [source/wikipedia-zakir-naik-en, source/wikipedia-zakir-naik-ar]
+faith:
+  - value: unknown
+    basis: unknown
+    note: "The sources do not give two independent attestations of a school. The Arabic article's infobox gives his religion as 'Islam, Ahl al-Sunna wa'l-Jama'a'. The English article records that he does not claim to be a follower of any one school of thought in Islam and is considered most closely associated with the Salafi school — an association, not his own attestation; it also reports that Darul Uloom Deoband described him as a self-styled preacher unattached to any of the four Sunni schools of jurisprudence. Not recorded as sunni."
+    sources: [source/wikipedia-zakir-naik-ar, source/wikipedia-zakir-naik-en]
+sources: [source/wikipedia-zakir-naik-en, source/wikipedia-zakir-naik-ar]
+provenance:
+  layer: own-research
+  source: "English Wikipedia article 'Zakir Naik' and Arabic Wikipedia article «ذاكر نايك», as cited in those articles and checked 24 October 2026. His legal status is carried exactly as the English article attributes it: accused in India of hate speech and money laundering, the Islamic Research Foundation and Peace TV broadcasting banned, his passport revoked in 2017, Interpol's repeated refusal of a red notice for insufficient evidence, a Malaysian rejection of India's 2020 extradition request, and his denials of all charges. A Wikidata item for him could not be retrieved in this pass (searches on 24 October 2026 returned no item), so no external_ids are recorded. No born_in relation is recorded because the museum has no place record for Mumbai."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: modern-figures-batch-6
+status: { review: published, completeness: 3, generated_by: "Muse (Muse Spark 1.3)" }
