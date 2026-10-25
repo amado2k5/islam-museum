@@ -22,3 +22,8 @@ translators: []
 
 ## عند ابن خلدون
 يجعله ابن خلدون مؤذناً بخراب العمران. انظر [[concept/zulm-mukharrib-al-umran|الظلم مؤذن بخراب العمران]]. {cite:muqaddima-ibn-khaldun p.276-278}
+
+## الظلم في درس الشيخ عمر عبد الكافي (الحلقتان الثالثة والرابعة)
+يقول الشيخ إن الظلم تعدٍّ على حقوق الغير، كالسيل يخرج عن ضفتيه (needs_source). {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep04 00:21:00} ويذكر أن الظلم وعقوق الوالدين يثمران في الدنيا قبل الآخرة، وأنه لا يبقى ظالم في التاريخ دون عقوبة، ويذكر مشركي مكة الذين عذبوا بلالا وعمارا (needs_source). {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep04 00:22:00} {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep04 00:22:30}
+ويذكر أن من أخذ شبرا من أرض بغير حق يُعاقب، وأن القضاء بالحجج، وأن ما يأخذه المرء من حق أخيه بغير وجه قطعة من النار (needs_source). {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep04 00:44:30} {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep04 00:45:00}
+ويقول الشيخ إن الظالم تعود عليه نار ظلمه، فقد زرع في القلوب نارا فيعود إليها (رأيه). {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep03 00:46:00} {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep03 00:46:30} ويذكر أن حساب المرء كالبضاعة التي يأخذها من السوبر ماركت، وكل واحد يُحاسب عليها (رأيه). {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep03 00:47:00}

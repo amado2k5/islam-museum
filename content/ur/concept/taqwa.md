@@ -17,3 +17,9 @@ translators: ["Claude Haiku 5.5 (claude-haiku-5-5), draft translation"]
 تقوی اولین و آخرین کے لیے اللہ کی وصیت ہے، اور اس کے رسول کی اپنی امت کے لیے۔ اور آپ اسے خاص طور پر امیروں کو بھی وصیت کرتے تھے۔ اور ابو ذر سے فرمایا: «میں تمہیں اللہ کے تقوی کی وصیت کرتا ہوں، کیونکہ وہ سارے معاملے کی بنیاد ہے»۔ اور لوگوں کو جنت میں سب سے زیادہ داخل کرنے والی چیزوں میں سے اللہ کا تقوی اور حسنِ خلق ہے۔ {cite:ibn-rajab-jami-ulum-hikam p.383}
 
 اس سے [[concept/wara|ورع]] جڑا ہوا ہے۔
+
+## شیخ عمر عبدالکافی کے درسوں میں تقویٰ (قسط چھ)
+شیخ کہتے ہیں کہ تقویٰ مشکل ہے اور مثال سے بہتر سمجھ آتی ہے، اور بیان کرتے ہیں کہ عمر نے ایک شخص سے اس کے بارے میں پوچھا تو اس نے کہا کہ وہ کپڑا اٹھا کر کانٹوں کے درمیان چلتا ہے (needs_source)۔ {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep06 00:04:00} {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep06 00:05:00} {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep06 00:05:30}
+وہ اس مثال کو غیبت کی مجلسوں پر لاگو کرتے ہیں: کسی ایسی مجلس میں جانے پر دل، بدن اور زبان کو اس میں شریک ہونے سے روکنا چاہیے، اور وہ بتاتے ہیں کہ انہوں نے ایک کمرہ چھوڑا جہاں بچے فلم دیکھ رہے تھے (شیخ کی رائے)۔ {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep06 00:06:00} {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep06 00:06:30}
+وہ ایک عالم سے منسوب دعا کا ذکر کرتے ہیں جس میں اللہ سے اس ٹانگ کے توڑنے کی درخواست ہے جو ذکر کی مجلسوں سے دور لے جائے، اور ان کے نزدیک یہ دعا ظلم کے دروازے بند کرنے کا سوال ہے (needs_source)۔ {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep06 00:07:00} {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep06 00:07:30}
+وہ کہتے ہیں کہ تقویٰ کا پہلا اصول تواضع ہے، اور مسلمان کسی کو حقیر نہ جانے (دیکھیں «تواضع»)۔ {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep06 00:08:30}

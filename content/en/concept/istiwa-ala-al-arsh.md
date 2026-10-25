@@ -15,3 +15,12 @@ He holds that the human mind cannot grasp an act related to God's essence, and s
 
 ## Not yet checked
 This is Sha'rawi's reading of the verse. The creedal scholars' positions on istiwa and the positions of other schools are not set out here and are not checked. The edition is unverified.
+
+## Istiwa in Sheikh Omar Abdelkafy's lessons (episode 1)
+The Sheikh cites a well-known saying attributed to Imam Malik on God's istiwa (rising over the Throne): its manner is known, its modality unknown, belief in it is obligatory, and asking about its modality is an innovation (needs_source). {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep01 00:44:00} He presents this saying as what the believer must hold, and says belief in istiwa is obligatory without delving into its modality (his view). {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep01 00:43:30}
+:::perspectives
+- **Sunni view: not yet sourced**: not yet sourced.
+- **speaker's view (Omar Abdelkafy)**: He cites Imam Malik's saying on istiwa and affirms it: affirmation without delving into its modality, and asking about the modality is an innovation (needs_source). {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep01 00:44:00}
+- **academic view: not yet sourced**: not yet sourced.
+- **other view: not yet sourced**: not yet sourced.
+:::
