@@ -4,7 +4,7 @@ name: Deploy islam.museum to Cloudflare
 # A deploy does not build: it downloads the `dist` artifact of a build run (build.yml,
 # "Build islam.museum") and publishes it. Empty build_run_id means the latest successful
 # build of main; a run id redeploys that build (nothing is sent to R2 twice: the manifest
-# diff finds no change).
+# diff finds no change but the deploy stamp, api/v1/meta/deploy.json).
 on:
   workflow_dispatch:
     inputs:
@@ -106,6 +106,17 @@ jobs:
           path: dist
           run-id: ${{ steps.build.outputs.run_id }}
           github-token: ${{ github.token }}
+      - name: Stamp the deploy time (the landing page's "Last updated" line reads it)
+        # The only file a deploy adds to the build; it goes to R2 with the rest of api/ below.
+        env:
+          RUN_ID: ${{ steps.build.outputs.run_id }}
+          SHA: ${{ steps.build.outputs.sha }}
+        run: |
+          set -euo pipefail
+          mkdir -p dist/api/v1/meta
+          jq -n --arg t "$(date -u +%Y-%m-%dT%H:%M:%SZ)" --arg sha "$SHA" --argjson run "$RUN_ID" \
+            '{deployed_at: $t, commit: $sha, build_run: $run}' > dist/api/v1/meta/deploy.json
+          cat dist/api/v1/meta/deploy.json
       - name: Install R2 sync Worker dependencies
         run: npm ci --prefix workers/r2-sync
       - name: Deploy R2 sync Workers (production bucket, seven copies)
