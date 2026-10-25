@@ -1,0 +1,43 @@
+id: person/waleed-ismail
+class: person
+label:
+  ar: وليد إسماعيل
+  en: Waleed Ismail
+  ur: ولید اسماعیل
+names:
+  - { value: "وليد إسماعيل محمد إسماعيل", kind: full, lang: ar }
+  - { value: "Walid Ismail Muhammad Ismail", kind: full, lang: en }
+  - { value: "أبو عائشة", kind: kunya, lang: ar }
+  - { value: "الدافع", kind: laqab, lang: ar }
+gender: male
+summary:
+  ar: "وليد إسماعيل (وُلد 1975م) داعية مصري سلفي عُرف بمناظراته التلفزيونية والمباشرة في الدفاع عن الصحابة وأهل البيت، وهو عضو ائتلاف التيار الإسلامي للدفاع عن الصحب والآل والمتحدث باسمه، وتُبث مناظراته ودروسه عبر قناته الرسمية على يوتيوب."
+  en: "Waleed Ismail (born 1975) is an Egyptian Salafi preacher known for televised and livestreamed debates in defence of the Companions and the Prophet's household; he is a member and spokesman of the Islamic Current Coalition for the Defense of the Companions and Ahl al-Bayt, and his debates and lessons are carried on his official YouTube channel."
+  ur: "ولید اسماعیل (پیدائش 1975ء) مصری داعی ہیں جو صحابہ و اہل بیت کے دفاع میں ٹیلی وژن اور براہِ راست مناظروں کے لیے جانے جاتے ہیں؛ وہ «ائتلاف الصحب والآل» کے رکن و ترجمان ہیں اور ان کے مناظرے ان کے سرکاری یوٹیوب چینل پر نشر ہوتے ہیں۔"
+roles: [preacher]
+wings: [people, living]
+born:
+  edtf: "1975"
+  hijri: "1395"
+  calendar: gregorian
+  precision: year
+  status: historical
+  derived: true
+  note: "Born 1975 (year only) in al-Hanoville, al-Ajami district, Alexandria, as the Arabic article gives it; the Hijri year is a converter derivation from the Gregorian year. The English Wikipedia article 'Walid Ismail' is a different man — a Lebanese footballer born 1984 — and was not used."
+  sources: [source/wikipedia-waleed-ismail-ar]
+relations:
+  - { type: born_in, target: place/alexandria }
+faith:
+  - value: unknown
+    basis: unknown
+    note: "Not recorded as a school. The Arabic article's infobox gives his creed as 'Sunni Muslim', and its body describes him as a Salafi preacher; no school of law is named anywhere, and one article's infobox is not two independent attestations, so the value stays unknown under the two-source rule."
+    sources: [source/wikipedia-waleed-ismail-ar]
+sources:
+  - source/wikipedia-waleed-ismail-ar
+  - source/youtube-waleedismail1
+provenance:
+  layer: own-research
+  source: "Arabic Wikipedia article 'وليد إسماعيل (داعية)' (revision 72434791) and his own YouTube channel (@waleedismail1), which the article itself cites as his official channel and whose own descriptions name it so; no Wikidata item exists for him and the English Wikipedia article of the same name is a Lebanese footballer, a namesake not used here. Checked 26 October 2026."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: modern-figures-batch-26
+status: { review: published, completeness: 3 }

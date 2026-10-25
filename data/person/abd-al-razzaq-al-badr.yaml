@@ -1,0 +1,42 @@
+id: person/abd-al-razzaq-al-badr
+class: person
+label:
+  ar: عبد الرزاق البدر
+  en: Abd al-Razzaq Al-Badr
+  ur: عبد الرزاق البدر
+names:
+  - { value: "عبد الرزاق بن عبد المحسن البدر", kind: full, lang: ar }
+  - { value: "Abdur-Razzaq ibn Abd al-Muhsin al-Badr", kind: full, lang: en }
+gender: male
+summary:
+  ar: "عبد الرزاق بن عبد المحسن البدر (وُلد 1382هـ/1963م) عالم سعودي وأستاذ العقيدة بالجامعة الإسلامية بالمدينة المنورة يدرّس في المسجد النبوي، ابن العالم عبد المحسن العباد، وله مصنفات كثيرة في أسماء الله الحسنى والأدعية والأذكار، وتُبث دروسه عبر قناته على يوتيوب."
+  en: "Abd al-Razzaq ibn Abd al-Muhsin Al-Badr (born 1382 AH / 1963 CE) is a Saudi scholar, professor of creed at the Islamic University of Madinah who also teaches in the Prophet's Mosque, son of the scholar Abd al-Muhsin Al-Abbad, and author of many works on the names of God, supplication and remembrance; his lessons are carried on his YouTube channel."
+  ur: "عبد الرزاق بن عبد المحسن البدر (پیدائش 1382ھ/1963ء) سعودی عالم، جامعہ اسلامیہ مدینہ منورہ میں عقیدہ کے استاد اور مسجد نبوی کے مدرس ہیں؛ عالم عبد المحسن العباد کے صاحبزادے ہیں اور اسمائے الٰہی و ادعیہ و اذکار پر ان کی کئی تصانیف ہیں۔"
+roles: [scholar, preacher]
+wings: [people, living]
+born:
+  edtf: "1963-04-16"
+  hijri: "1382"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: false
+  note: "Born in al-Zulfi on 22 Dhu al-Qa'da 1382 AH / 16 April 1963, as both Wikipedia articles and Wikidata give it; al-Zulfi has no place record in the museum, so the place is carried here and in the prose rather than as a relation."
+  sources: [source/wikipedia-abd-al-razzaq-al-badr-ar, source/wikipedia-abd-al-razzaq-al-badr-en, source/wikidata-abd-al-razzaq-al-badr]
+faith:
+  - value: unknown
+    basis: unknown
+    note: "Not recorded as a school. The Arabic article's infobox gives his school as Hanbali and his creed as Athari, citing a single source (the Mosannefat author directory); the English article's infobox gives denomination Sunni and jurisprudence Hanbali; Wikidata gives his religion as Islam only. Both infoboxes belong to one source family, and no independent source outside it names the school, so the value stays unknown under the two-source rule and the doubt rule."
+    sources: [source/wikipedia-abd-al-razzaq-al-badr-ar, source/wikipedia-abd-al-razzaq-al-badr-en, source/wikidata-abd-al-razzaq-al-badr]
+external_ids: { wikidata: "Q20426344" }
+sources:
+  - source/wikipedia-abd-al-razzaq-al-badr-ar
+  - source/wikipedia-abd-al-razzaq-al-badr-en
+  - source/wikidata-abd-al-razzaq-al-badr
+  - source/youtube-sheikhalbadr
+provenance:
+  layer: own-research
+  source: "Arabic Wikipedia article (revision 76361814), English Wikipedia article (revision 1367842885, whose YouTuber module identifies his @sheikhalbadr channel and its subscriber figure), and Wikidata item Q20426344 (structured data: birth date; religion Islam only), with his degrees and teachers as the Arabic article cites them to Midad and Al-Shamela; checked 26 October 2026."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: modern-figures-batch-26
+status: { review: published, completeness: 3 }

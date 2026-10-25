@@ -1,0 +1,43 @@
+id: person/khalid-al-musleh
+class: person
+label:
+  ar: خالد المصلح
+  en: Khalid Al-Musleh
+  ur: خالد المصلح
+names:
+  - { value: "خالد بن عبد الله بن محمد المصلح", kind: full, lang: ar }
+  - { value: "Khalid ibn Abdullah ibn Muhammad al-Musleh", kind: full, lang: en }
+gender: male
+summary:
+  ar: "خالد بن عبد الله المصلح (وُلد 1385هـ/1965م) عالم سعودي وأستاذ الفقه بكلية الشريعة في جامعة القصيم، من أبرز تلاميذ محمد بن صالح العثيمين وملازميه، يفتي في برنامج «يستفتونك» على قناة الرسالة، وله مصنفات في الفقه والعقيدة."
+  en: "Khalid ibn Abdullah Al-Musleh (born 1385 AH / 1965 CE) is a Saudi scholar and professor of fiqh at the College of Sharia of Qassim University, a close student and companion of Muhammad ibn Salih Al-Uthaymeen, mufti on Al-Resalah channel's Yastaftunak programme, and author of works on fiqh and creed."
+  ur: "خالد بن عبد اللہ المصلح (پیدائش 1385ھ/1965ء) سعودی عالم اور جامعہ قصیم کے کلیہ الشریعہ میں فقہ کے استاد ہیں، محمد بن صالح العثیمین کے قریبی شاگردوں میں سے ہیں اور چینل الرسالہ کے پروگرام «یستفتونک» میں مفتی ہیں۔"
+roles: [scholar, preacher]
+wings: [people, living]
+born:
+  edtf: "1965"
+  hijri: "1385"
+  calendar: gregorian
+  precision: year
+  status: historical
+  derived: false
+  note: "Born in Mecca in 1385 AH / 1965 CE, as the Arabic article gives both years; Wikidata gives 1965 at year precision."
+  sources: [source/wikipedia-khalid-al-musleh-ar, source/wikidata-khalid-al-musleh]
+relations:
+  - { type: born_in, target: place/mecca }
+faith:
+  - value: unknown
+    basis: unknown
+    note: "Not recorded as a school. The Arabic article names no school of law for him; its category labels (Saudi Salafis, Saudi Sunni scholars) are categories, not attestations, and Wikidata gives his religion as Islam only. His long companionship of Ibn Uthaymeen is recorded as biography; a teacher's school is not an attribution for the student, so the value stays unknown under the two-source rule."
+    sources: [source/wikipedia-khalid-al-musleh-ar, source/wikidata-khalid-al-musleh]
+external_ids: { wikidata: "Q12210031" }
+sources:
+  - source/wikipedia-khalid-al-musleh-ar
+  - source/wikidata-khalid-al-musleh
+  - source/youtube-almosleh
+provenance:
+  layer: own-research
+  source: "Arabic Wikipedia article (revision 75830813) — no English article exists — Wikidata item Q12210031 (structured data: birth year 1965; religion Islam only), and his own YouTube channel (@almosleh), verified as his from his videos' own descriptions; checked 26 October 2026."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: modern-figures-batch-26
+status: { review: published, completeness: 3 }
