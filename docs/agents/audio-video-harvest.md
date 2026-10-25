@@ -122,6 +122,16 @@ Apple's Dictation page says some languages are not available and points to the m
 
 Steps 1–3 were not enough on their own: see the failure table above. The `SFSpeechRecognizer.supportsOnDeviceRecognition` reference says a `false` value means the recognizer needs the network.
 
+## 3a. Video lessons: extract the audio, then harvest the audio (founder's instruction, 25 Oct 2026)
+
+Video lessons are MP4 files. The harvest works on their audio track only, prepared in parallel with the queue:
+
+1. Download each episode's MP4 politely (`download.py`, from the discovered manifest).
+2. Extract the audio with `ffmpeg -vn -ac 1 -ar 16000 -c:a libmp3lame -b:a 64k` to `<series>/audio/epNN.mp3`. This is mono, 16 kHz, with no picture; the transcription library reads MP3 but not AAC in M4A.
+3. Transcribe the MP3 with the working engine (`transcribe_qwen.py`) into the series' `pass5-qwen` folder. The queue skips episodes whose transcript already exists, so the main queue never repeats the work.
+
+`scripts/harvest/audio/prep_video.sh` does all three steps for a list of series, resumably. The first test episode (Ajaeb Al Kulub, ep01, 7 min 18 s) extracted in under two seconds to 3.5 MB and transcribed in 77 seconds. Keep the MP4 files until the founder agrees to delete them; the audio files are what the harvest uses.
+
 ## 4. The pipeline, step by step
 
 Work in the harvest workspace (`~/islam-museum-harvest`, a link to the external drive). Each step is restartable.
