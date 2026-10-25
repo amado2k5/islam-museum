@@ -12,6 +12,8 @@ const F = T.foundation;
 const story = [F.story_1, F.story_2, F.story_3, F.story_4, F.story_5];
 const goals = [F.goal_1, F.goal_2, F.goal_3, F.goal_4, F.goal_5, F.goal_6];
 const elements = [F.logo_star, F.logo_arch, F.logo_book];
+const FOUNDER_PROFILE = "https://www.linkedin.com/in/ahmadit2017/";
+const [founderBefore, founderAfter] = F.founder_line.split("{name}");
 ---
 <BaseLayout lang={lang} title={F.title} description={F.lede} path={`/${lang}/foundation/`}>
   <PageHeader title={F.title} lede={F.lede} crumbs={[{ label: F.breadcrumb, href: `/${lang}/` }, { label: T.nav.foundation }]} crumbsLabel={T.entity.breadcrumb} />
@@ -39,6 +41,7 @@ const elements = [F.logo_star, F.logo_arch, F.logo_book];
 
       <section aria-labelledby="founder-h" class="f-sec">
         <h2 id="founder-h">{F.founder_title}</h2>
+        <p>{founderBefore}<a href={FOUNDER_PROFILE} rel="me noopener">{F.founder_name}</a>{founderAfter}</p>
         <p>{F.founder_body}</p>
       </section>
 

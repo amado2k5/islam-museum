@@ -21,7 +21,7 @@ repository that outlive any hosting provider.
 | Stakeholder | Interest |
 |---|---|
 | Visitors (general public, students, teachers, researchers, Muslims and non-Muslims) | Accurate, neutral, well-sourced content in Arabic, English and Urdu; works on any device |
-| The founder (@amado2k5) | Sole deploy authority; owns governance and the change gates |
+| The founder, [Ahmed Abdel Aal](https://www.linkedin.com/in/ahmadit2017/) (@amado2k5), a Canadian of Egyptian origin, resident in Oakville, Ontario | Sole deploy authority; owns governance and the change gates |
 | Contributing agents (Claude, Devin, Codex, others) and human contributors | Clear lanes, schemas, gates and PR workflow |
 | Reviewers of formal submissions | The DPGA application (GID0094424) and the UNESCO dossier quote repository state; doc claims must stay true (`docs/ai-change-gates.md` §3) |
 | Source institutions (Wikidata, Wikipedia, museums with open collections, Tanzil) | Correct attribution and licence compliance |
