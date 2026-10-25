@@ -18,7 +18,7 @@ function init(root: HTMLElement) {
   const gotoBtns = [...root.querySelectorAll<HTMLButtonElement>("[data-era-goto]")];
   const backBtns = [...root.querySelectorAll<HTMLButtonElement>("[data-travel-back]")];
   const againBtn = root.querySelector<HTMLButtonElement>("[data-tm-again]");
-  const reduceMotion = matchMedia("(prefers-reduced-motion: reduce)").matches;
+  const reduceMotion = (matchMedia("(prefers-reduced-motion: reduce)").matches || document.documentElement.getAttribute("data-motion") === "reduce");
   const scrollOpts: ScrollIntoViewOptions = { block: "start", behavior: reduceMotion ? "auto" : "smooth" };
 
   let visited: string[] = [];

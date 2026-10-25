@@ -13,7 +13,7 @@ const STARS_KEY = "kids-quest-stars";
 
 function init(root: HTMLElement) {
   const payload = JSON.parse(root.querySelector("[data-payload]")!.textContent!) as Payload;
-  const reduceMotion = matchMedia("(prefers-reduced-motion: reduce)").matches;
+  const reduceMotion = (matchMedia("(prefers-reduced-motion: reduce)").matches || document.documentElement.getAttribute("data-motion") === "reduce");
   const scrollOpts: ScrollIntoViewOptions = { block: "nearest", behavior: reduceMotion ? "auto" : "smooth" };
 
   // --- Bloom: tap a flower → show that surah's verses in the bloom panel.

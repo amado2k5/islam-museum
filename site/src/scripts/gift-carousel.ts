@@ -31,8 +31,11 @@ if (root && track && frame && prev && next) {
 
   const stop = () => { if (timer !== undefined) { window.clearInterval(timer); timer = undefined; } };
   const start = () => {
-    if (timer !== undefined || window.matchMedia("(prefers-reduced-motion: reduce)").matches) return;
-    timer = window.setInterval(() => show(index + 1), interval);
+    if (timer !== undefined || (window.matchMedia("(prefers-reduced-motion: reduce)").matches || document.documentElement.getAttribute("data-motion") === "reduce")) return;
+    timer = window.setInterval(() => {
+      if (document.documentElement.getAttribute("data-motion") === "reduce") { stop(); return; }
+      show(index + 1);
+    }, interval);
   };
 
   prev.addEventListener("click", () => { show(index - 1); });

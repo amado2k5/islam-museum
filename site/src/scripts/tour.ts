@@ -132,7 +132,7 @@ function init(
   const { root, enterCard, enterBtn, loading } = opts;
   const t = data.t;
   const lang = data.lang;
-  const REDUCED = matchMedia("(prefers-reduced-motion: reduce)").matches;
+  const REDUCED = (matchMedia("(prefers-reduced-motion: reduce)").matches || document.documentElement.getAttribute("data-motion") === "reduce");
 
   const $ = <T extends HTMLElement = HTMLElement>(sel: string): T =>
     root.querySelector<T>(sel)!;
