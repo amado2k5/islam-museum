@@ -148,7 +148,7 @@ The following merged PRs and commits are ready on `main` for the founder to depl
 | 4 | Seasonal packs (heritage month, Ramadan, back to school, exam season) and the founder's email texts | `/{lang}/learn/teachers/packs/{season}/`, `docs/outreach/education/` | done — `edu/packs.yaml` (4 packs × kit of 8–11 sheets) + pack landing pages + packs index + emails `docs/outreach/education/{heritage-month,ramadan,back-to-school,exam-season}.md`; this PR |
 
 | 5 | Offline packs: one self-contained `.html` per pack per language, inlined CSS, no script or external fetch, ≤ 2 MB, checked in `check-site.ts` | `/{lang}/learn/teachers/offline/{unit}.html` | done — build-time endpoint `site/src/pages/[lang]/learn/teachers/offline/[slug].html.ts` (pack overview + kit + fact archive); linked from each pack page; check-site asserts size/no-script/no-absolute-URL; this PR |
-| 6 | Where am I? (gentle version) | `/{lang}/sighar/explorers/where/` | pending |
+| 6 | Where am I? (gentle version) | `/{lang}/sighar/explorers/where/` | done — `edu/where.yaml` 12 first-person riddles × two choices, always-warm <details> reveals, no JS; linked from the Explorers hub; this PR |
 | 7 | Homework search: 50 topics × three phrasings in ar, en, ur merged into the search synonyms | `edu/homework-topics.yaml`, search zero-result strip | pending |
 | 8 | Explorers map: world SVG (80 KB or less, 12 hot spots), replacing the placeholder on the Explorers hub | `site/src/data/basemap-world.json`, `/{lang}/sighar/explorers/` | pending |
 
