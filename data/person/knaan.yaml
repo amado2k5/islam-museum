@@ -1,0 +1,37 @@
+id: person/knaan
+class: person
+label: { ar: "كينان", en: "K'naan", ur: "کینان" }
+names:
+  - { value: "Keinan Abdi Warsame", kind: full }
+  - { value: "Keynaan Cabdi Warsame", kind: alternate }
+gender: male
+summary:
+  ar: "مغنّي راب ومغنٍّ وكاتب أغانٍ ومخرج صومالي-كندي، وُلد في مقديشو سنة 1978، وفرّ مع أسرته من الحرب الأهلية إلى تورونتو في الثالثة عشرة من عمره. حقق شهرة عالمية بأغنيته «راية متموّجة» التي اختيرت نشيدًا ترويجيًا لكأس العالم 2010، ونال جائزة غرامي سنة 2024 عن أغنية «لاجئ»، وأخرج فيلم «أمّ أُمّ» (2024)."
+  en: "Somali-Canadian rapper, singer-songwriter and filmmaker, born in Mogadishu in 1978, who fled the civil war with his family to Toronto at thirteen. He rose to international fame with 'Wavin' Flag', chosen as Coca-Cola's promotional anthem for the 2010 FIFA World Cup, won a Grammy Award in 2024 for the song 'Refugee', and directed the film Mother Mother (2024)."
+  ur: "صومالی-کینیڈائی ریپر، گلوکار، نغمہ نگار و فلم ساز، 1978 میں موغادیشو میں پیدا ہوئے اور تیرہ برس کی عمر میں خانہ جنگی سے بچ کر خاندان کے ساتھ ٹورنٹو چلے گئے۔ ان کے گیت «ویون فلیگ» کو 2010 کے فیفا ورلڈ کپ کا تشہیری ترانہ چنا گیا، 2024 میں انھیں گیت «ریفیوجی» پر گریمی ایوارڈ ملا، اور انھوں نے فلم «مدر مدر» (2024ء) کی ہدایت کاری کی۔"
+roles: [rapper, singer, songwriter, director]
+wings: [people, living]
+born:
+  edtf: "1978-02-01"
+  hijri: "1398"
+  calendar: gregorian
+  precision: day
+  status: debated
+  derived: true
+  note: "Born Keinan Abdi Warsame in Mogadishu, Somalia; the English article gives 1 February 1978, which the record follows. CONFLICT: his Wikidata item carries three birth-date values — 1 February 1978, 16 April 1978 (marked preferred) and 30 May 1978. The day is therefore carried as debated; the year and place are agreed. The Hijri year (1398) is derived by tabular conversion from the followed date."
+  sources: [source/wikipedia-knaan-en, source/wikidata-knaan]
+relations:
+  - { type: born_in, target: place/mogadishu, sources: [source/wikipedia-knaan-en, source/wikidata-knaan] }
+faith:
+  - value: unknown
+    basis: unknown
+    note: "NOT RECORDED AS DOCUMENTED — no source names a school for him. The English article presents him as a Muslim public voice — it records his support for the Islamic Courts Union as a political position on Somali governance, his songs in Somali and English about his homeland, and his philanthropy — which is public stance and practice, not a school attestation. The short Arabic article and the Urdu stub name no school, and Wikidata gives his religion as 'Muslim' (Q483654) generically. Under the two-source rule and the founder's doubt rule the faith is left unknown."
+    sources: [source/wikipedia-knaan-en, source/wikipedia-knaan-ar, source/wikidata-knaan]
+external_ids: { wikidata: "Q297693" }
+sources: [source/wikipedia-knaan-en, source/wikipedia-knaan-ar, source/wikipedia-knaan-ur, source/wikidata-knaan]
+provenance:
+  layer: own-research
+  source: "English Wikipedia 'K'naan' (revision 1379990902 of 13 October 2026), Arabic Wikipedia «كينان» (revision 76861741 of 4 October 2026), Urdu Wikipedia «کینان (صومالی ہدایت کار)» (revision 11719557 of 27 July 2026) and Wikidata Q297693 (confirmed via the Wikidata API: human, male, born at Mogadishu, citizen of Canada and Somalia, three conflicting birth dates in 1978, religion 'Muslim' generically), all read in full on 25 October 2026. No earlier record for him existed in data/person/ under any spelling (K'naan, Keinan Warsame); this is a new build, not an enrichment."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: century-additions-11
+status: { review: published, completeness: 3, generated_by: "Muse (Muse Spark 1.3)" }

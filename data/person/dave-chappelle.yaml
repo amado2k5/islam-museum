@@ -1,0 +1,34 @@
+id: person/dave-chappelle
+class: person
+label: { ar: "ديف شبيل", en: "Dave Chappelle", ur: "ڈیو چیپل" }
+names:
+  - { value: "David Khari Webber Chappelle", kind: full }
+gender: male
+summary:
+  ar: "كوميدي وقوف وممثل أمريكي، وُلد في واشنطن العاصمة سنة 1973، واعتنق الإسلام في السابعة عشرة من عمره. شارك في ابتكار المسلسل الساخر «عرض شبيل» (2003–2006) وبطولته، ثم تركه في ذروة نجاحه، وعاد بسلسلة عروض خاصة على نتفليكس، ونال جائزة مارك توين للفكاهة الأمريكية سنة 2019 وست جوائز غرامي لأفضل ألبوم كوميدي."
+  en: "American stand-up comedian and actor, born in Washington, D.C. in 1973, who converted to Islam at seventeen. He co-created and starred in the sketch series Chappelle's Show (2003–2006), walked away from it at the height of its success, and returned with a run of Netflix stand-up specials. He received the Mark Twain Prize for American Humor in 2019 and has won six Grammy Awards for Best Comedy Album."
+  ur: "امریکی اسٹینڈ اپ کامیڈین اور اداکار، 1973 میں واشنگٹن ڈی سی میں پیدا ہوئے اور سترہ برس کی عمر میں اسلام قبول کیا۔ انھوں نے اسکیچ سیریز «چیپلس شو» (2003ء–2006ء) کی مشترکہ تخلیق اور اس میں اداکاری کی، عروج کے دور میں اسے چھوڑ دیا، پھر نیٹ فلکس کے خصوصی پروگراموں سے واپسی کی۔ انھیں 2019 میں مارک ٹوین پرائز ملا اور چھ گریمی ایوارڈ مل چکے ہیں۔"
+roles: [comedian, actor, writer]
+wings: [people, living]
+born:
+  edtf: "1973-08-24"
+  hijri: "1393"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "Born on 24 August 1973 in Washington, D.C.; the English, Arabic and Urdu articles and Wikidata agree. No place entity for Washington, D.C. exists in data/place/, so no born_in relation is written. The Hijri year (1393) is derived by tabular conversion."
+  sources: [source/wikipedia-dave-chappelle-en, source/wikidata-dave-chappelle]
+faith:
+  - value: unknown
+    basis: unknown
+    note: "NOT RECORDED AS DOCUMENTED — no source names a school for him in article text. The English article records that he converted to Islam at seventeen and quotes his 2005 statement to Time that he does not normally discuss his religion publicly; conversion and practice are not a school attestation. The Arabic article dates the conversion to 1991 and likewise names no school. Wikidata's religion claim is a single structured-data value, 'Sunni Islam' (Q47740): one structured value is one source family at most, and under the lane's two-source rule and the founder's doubt rule the faith is left unknown."
+    sources: [source/wikipedia-dave-chappelle-en, source/wikipedia-dave-chappelle-ar, source/wikidata-dave-chappelle]
+external_ids: { wikidata: "Q40321" }
+sources: [source/wikipedia-dave-chappelle-en, source/wikipedia-dave-chappelle-ar, source/wikipedia-dave-chappelle-ur, source/wikidata-dave-chappelle]
+provenance:
+  layer: own-research
+  source: "English Wikipedia 'Dave Chappelle' (revision 1378859080 of 6 October 2026), Arabic Wikipedia «ديف شبيل» (revision 76832632 of 1 October 2026), Urdu Wikipedia «ڈیو چیپل» (revision 10144843 of 29 April 2026) and Wikidata Q40321 (confirmed via the Wikidata API: human, male, born 24 August 1973 at Washington, D.C., religion a single structured value 'Sunni Islam'), all read in full on 25 October 2026. No earlier record for him existed in data/person/ under any spelling; this is a new build, not an enrichment."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: century-additions-11
+status: { review: published, completeness: 3, generated_by: "Muse (Muse Spark 1.3)" }
