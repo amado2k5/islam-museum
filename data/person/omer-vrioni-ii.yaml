@@ -1,0 +1,48 @@
+id: person/omer-vrioni-ii
+class: person
+label: { ar: "عمر باشا فريوني الثاني", en: "Omer Pasha Vrioni II", ur: "عمر پاشا وریونی دوم" }
+names:
+  - { value: "عمر باشا فريوني", kind: full }
+  - { value: "Omer Pasha Vrioni", kind: full }
+  - { value: "Ymer Vrioni", kind: variant }
+  - { value: "Omar Vrioni", kind: variant }
+gender: male
+summary:
+  ar: "أرستقراطي وسياسي عثماني-ألباني (1839-1928) من أسرة فريوني أصحاب الأراضي في بيرات وفيير وميزيكيه. ارتبط اسمه بمدينة فيير التي أسسها أبوه — أو أسسها هو بحسب روايات أخرى — وبرابطة بريزرن سنة 1878، وبمجلس الوصاية العالي الألباني الذي جلس فيه ممثلا للطائفة البكتاشية من ديسمبر 1921. وهو غير جدّه وشريكه في الاسم عمر فريوني، القائد العثماني في حرب الاستقلال اليونانية (ت. بعد 1828)."
+  en: "Ottoman-Albanian landowner and politician (1839–1928) of the Vrioni family of Berat, Fier and Myzeqe. His name is tied to the city of Fier — founded by his father, or by him, on conflicting accounts — to the League of Prizren of 1878, and to the Albanian High Council of Regency, where he sat from December 1921 as the representative of the Bektashi community. He is not his grandfather and namesake Omer Vrioni, the Ottoman commander of the Greek War of Independence (d. after 1828)."
+  ur: "عثمانی۔البانوی زمیندار اور سیاست دان (1839-1928)، بیرات، فیئر اور میزیکے کے وریونی خاندان سے۔ ان کا نام شہرِ فیئر سے جڑا ہے — جسے متضاد روایات کے مطابق ان کے والد یا خود انہوں نے قائم کیا — 1878 کی لیگ آف پریزرن سے، اور البانوی مجلسِ وصایتِ عالیہ سے، جہاں وہ دسمبر 1921 سے بکتاشی برادری کے نمائندے کے طور پر بیٹھے۔ یہ یونانی جنگِ آزادی کے عثمانی سپہ سالار، ان کے ہم نام دادا عمر وریونی (وفات 1828 کے بعد) سے الگ شخص ہیں۔"
+roles: [politician]
+wings: [people]
+born:
+  edtf: "1839"
+  hijri: "1254"
+  calendar: gregorian
+  precision: year
+  status: historical
+  derived: true
+  note: "All the articles and Wikidata give the year 1839 only; the Turkish article gives the place as Berat and the Albanian article names his parents, Kahreman Pasha Vrioni and Gjylje Hanëm. No day or month is given. The Hijri year is derived by tabular conversion (1839 opened in 1254 AH)."
+  sources: [source/wikipedia-omer-vrioni-ii-en, source/wikipedia-omer-vrioni-ii-sq, source/wikipedia-omer-vrioni-ii-tr, source/wikidata-omer-vrioni-ii]
+died:
+  edtf: "1928"
+  hijri: "1346"
+  calendar: gregorian
+  precision: year
+  status: historical
+  derived: true
+  note: "All the articles and Wikidata give the year 1928 only; the Albanian article gives the place as Fier. The Hijri year is derived by tabular conversion (1928 opened in 1346 AH)."
+  sources: [source/wikipedia-omer-vrioni-ii-en, source/wikipedia-omer-vrioni-ii-sq, source/wikidata-omer-vrioni-ii]
+relations:
+  - { type: member_of, target: group/bektashiyya, sources: [source/wikipedia-omer-vrioni-ii-en, source/wikipedia-omer-vrioni-ii-sq, source/wikipedia-omer-vrioni-ii-tr] }
+faith:
+  - value: sufi
+    basis: documented
+    note: "Recorded on his attested affiliation with the Bektashiyya, the Sufi order, stated here in full so the reader can judge the basis: three independently edited articles record that he sat on the Albanian High Council of Regency as the Bektashi community's own representative — the English article: 'elected member of Albanian High Council of Regency as a representative of the Bektashi community in December 1921'; the Albanian article: he 'replaced Aqif Pasha Elbasani as representative of the Bektashi element' on the council; the Turkish article: 'elected member of the High Council of Regency as representative of the Bektashi community' (Bektaşi cemaatinin temsilcisi). The regency's four seats were allotted by religious community and held by members of each, so the three statements attest his affiliation with the order, not merely an office he happened to fill; on two-plus independent attestations of the affiliation itself, the sufi segment is recorded, as the lane's counting rule allows. No source names a madhhab or a personal creed for him beyond this, and Wikidata carries no religion statement for him at all. He is not to be confused with his grandfather and namesake Omer Vrioni (d. after 1828), whose own articles (Albanian and Turkish, without the 'II') describe the commander of Alamana, Gravia and the first siege of Missolonghi; the two men have separate articles in both Wikipedias and separate Wikidata items (Q3352014 and Q719844)."
+    sources: [source/wikipedia-omer-vrioni-ii-en, source/wikipedia-omer-vrioni-ii-sq, source/wikipedia-omer-vrioni-ii-tr, source/wikidata-omer-vrioni-ii]
+external_ids: { wikidata: "Q719844" }
+sources: [source/wikipedia-omer-vrioni-ii-en, source/wikipedia-omer-vrioni-ii-sq, source/wikipedia-omer-vrioni-ii-tr, source/wikipedia-omer-vrioni-ii-fr, source/wikidata-omer-vrioni-ii]
+provenance:
+  layer: own-research
+  source: "English Wikipedia 'Omer Pasha Vrioni II' (revision 1359543421), Albanian Wikipedia 'Omer pashë Vrioni II' (revision 2995398), Turkish Wikipedia 'II. Ömer Viryoni Paşa' (revision 36547947), French Wikipedia 'Omer Pacha Vrioni' (revision 209172341), Wikidata Q719844 (verified via the API: human, born 1839, died 1928, no religion statement; a separate item from Q3352014, his grandfather Omer Vrioni of the Greek War of Independence, whose Albanian and Turkish articles were read only to confirm the two men are distinct), checked 25 October 2026. No Urdu Wikipedia article exists; the Urdu prose is the museum's translation."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: century-additions-8
+status: { review: published, completeness: 3, generated_by: "Muse (Muse Spark 1.3)" }
