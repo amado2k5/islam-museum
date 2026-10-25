@@ -1,4 +1,10 @@
 id: person/al-walid-ibn-al-mughira
+education:
+  did_you_know:
+    ar: "الوليد بن المغيرة شيخ بني مخزوم الكبير وأبو خالد؛ شكّلت أحكامه البلاغية ما سمّت به مكة أولاً تلاوة النبي للقرآن."
+    en: "Al-Walid ibn al-Mughira, great shaykh of Banu Makhzum and Khalid's father — it was his rhetorical judgements that shaped the names Mecca first gave the Prophet's recitation."
+    ur: "ولید بن مغیرہ، بنو مخزوم کے بزرگ شیخ اور خالد کے باپ — انہی کی بصیرت مندانہ رائے نے مکہ میں نبی کی تلاوت کے لیے پہلی تسمیے طے کیے۔"
+    sources: [source/ibn-hisham-sira, source/mubarakpuri-raheeq]
 class: person
 label: { en: "al-Walid ibn al-Mughira", ar: "الوليد بن المغيرة" }
 names:
@@ -28,3 +34,9 @@ relations:
   - { type: participated_in, target: event/boycott-of-banu-hashim, sources: [source/ibn-ishaq-guillaume] }
 sources: [source/ibn-sad-tabaqat-bewley, source/ibn-ishaq-guillaume, source/watt-1953-mecca, source/mubarakpuri-raheeq, source/ibn-hisham-sira, source/samhudi-wafa-al-wafa]
 status: { review: draft, completeness: 2, generated_by: "Devin; 2026-10-11" }
+provenance:
+  layer: own-research
+  source: "source/ibn-hisham-sira"
+  generated_by: Devin
+  model: "unknown"
+  run: "education-E3-facts-batch14"

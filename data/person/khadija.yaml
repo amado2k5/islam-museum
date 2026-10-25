@@ -1,4 +1,10 @@
 id: person/khadija
+education:
+  did_you_know:
+    ar: "خديجة تاجرة مكية ناجحة وأول أزواج النبي، وهي في الرواية أول من آمن برسالته حين عاد من غار حراء."
+    en: "Khadija was a successful Meccan merchant, the Prophet's first wife, and by the tradition's account the very first to believe in his message when he returned from the cave of Hira."
+    ur: "خدیجہ مکہ کی ایک کامیاب تاجر، نبی کی پہلی بیوی اور روایت کے مطابق ان کے پیغام پر ایمان لانے والی پہلی شخص تھیں۔"
+    sources: [source/ibn-ishaq-guillaume, source/mubarakpuri-raheeq]
 class: person
 label: { en: Khadija bint Khuwaylid, ar: خديجة بنت خويلد }
 names:
@@ -39,3 +45,9 @@ relations:
 external_ids: { wikidata: "Q42034" }
 sources: [source/ibn-ishaq-guillaume, source/ibn-sad-tabaqat-bewley, source/lings-1983, source/mubarakpuri-raheeq, source/nisa-hawl-alrasul, source/ibn-hisham-sira, source/fiqh-al-sira-al-ghazali, source/sahih-al-bukhari, source/sahih-muslim]
 status: { review: draft, completeness: 2, generated_by: "Devin; 2026-10-11; Nisa' Hawl al-Rasul pp. 35-48 added by Devin (SWE-2 High), lib-nisa-hawl-rasul" }
+provenance:
+  layer: own-research
+  source: "source/ibn-ishaq-guillaume"
+  generated_by: Devin
+  model: "unknown"
+  run: "education-E3-facts-batch5"

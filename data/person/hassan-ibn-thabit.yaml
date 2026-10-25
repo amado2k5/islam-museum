@@ -1,4 +1,10 @@
 id: person/hassan-ibn-thabit
+education:
+  did_you_know:
+    ar: "حسان بن ثابت شاعر الأنصار والمدافع عن النبي بشعره، وكان النبي ينصب له منبراً في المسجد فيقول عليه."
+    en: "Hassan ibn Thabit, poet of the Ansar who defended the Prophet with verse; the Prophet set up a pulpit for him in the mosque to recite from."
+    ur: "حسان بن ثابت، انصار کے شاعر جنھوں نے شعر سے نبی کا دفاع کیا؛ نبی نے ان کے لیے مسجد میں منبر نصب کیا جس پر وہ کلام کہتے۔"
+    sources: [source/mubarakpuri-raheeq, source/sahih-al-bukhari]
 class: person
 label: { en: "Hassan ibn Thabit", ar: "حسان بن ثابت" }
 names:
@@ -36,3 +42,9 @@ relations:
 external_ids: { wikidata: "Q2315457" }
 sources: [source/mubarakpuri-raheeq, source/sahih-al-bukhari, source/ibn-hisham-sira, source/muruj-al-dhahab, source/ibn-hisham-saqqa, source/sahih-muslim]
 status: { review: draft, completeness: 2, generated_by: "Devin; al-Raheeq al-Makhtum pp. 331–334" }
+provenance:
+  layer: own-research
+  source: "source/mubarakpuri-raheeq"
+  generated_by: Devin
+  model: "unknown"
+  run: "education-E3-facts-batch6"

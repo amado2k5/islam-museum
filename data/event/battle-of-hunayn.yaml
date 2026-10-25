@@ -1,4 +1,10 @@
 id: event/battle-of-hunayn
+education:
+  did_you_know:
+    ar: "لقى المسلمون في حنين قرب مكة قبيلتي هوازن وثقيف بُعيد فتح مكة، ويذكر البخاري أن النبي ثبت على بغلته حين التفّت الصفوف."
+    en: "At Hunayn near Mecca, soon after the city's opening, the Muslims met the tribes of Hawazin and Thaqif; Bukhari records the Prophet standing firm on his mule as ranks re-formed."
+    ur: "حنین کے مقام پر، مکہ کے فتح کے فوراً بعد، مسلمانوں کا سامنا ہوازن اور ثقیف قبائل سے ہوا؛ بخاری کے بیان میں نبی اپنے خچر پر ثابت قدم رہے۔"
+    sources: [source/ibn-hisham-saqqa, source/lings-1983]
 class: event
 kind: battle
 label: { en: "The Battle of Hunayn", ar: "غزوة حنين" }
@@ -49,3 +55,9 @@ map:
     - { type: line, role: retreat, from: [21.47, 40.10], to: [21.27, 40.42], label: { ar: "طائفة من فلول هوازن إلى الطائف", en: "Part of the Hawazin fled to Ta'if" }, precision: schematic, source: source/mubarakpuri-raheeq }
 sources: [source/ibn-hisham-saqqa, source/ibn-ishaq-guillaume, source/watt-1956-medina, source/lings-1983, source/mubarakpuri-raheeq, source/sahih-muslim, source/sahih-al-bukhari, source/sallabi-ali-vol1]
 status: { review: draft, completeness: 1, generated_by: "Claude Sonnet 5.5; dates follow the cited tradition and are approximate where marked" }
+provenance:
+  layer: own-research
+  source: "source/ibn-hisham-saqqa"
+  generated_by: Devin
+  model: "unknown"
+  run: "education-E3-facts-batch5"

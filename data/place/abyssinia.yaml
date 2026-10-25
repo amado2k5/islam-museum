@@ -1,4 +1,10 @@
 id: place/abyssinia
+education:
+  did_you_know:
+    ar: "مملكة أكسوم خلف البحر الأحمر: احتلت اليمن مرتين وكانت صاحبة حملة أبرهة بالفيل، ثم صارت مأوى مهاجرة المسلمين الأولى إلى النجاشي."
+    en: "The kingdom of Aksum across the Red Sea occupied Yemen twice and mounted Abraha's elephant campaign, then became the refuge of the Muslims' first emigration to the Negus."
+    ur: "بحیرۂ احمر کے پار مملکتِ اکسوم نے دو بار یمن پر قبضہ کیا اور ابرہہ کی ہاتھی مہم چلائی، پھر یہ نجاشی کے پاس مسلمانوں کی پہلی ہجرت کا پناہ گاہ بنا۔"
+    sources: [source/muruj-al-dhahab, source/mubarakpuri-raheeq]
 class: place
 kind: region
 label: { en: "Abyssinia (Aksum)", ar: "الحبشة" }
@@ -10,3 +16,9 @@ periods: [period/pre-islamic-arabia]
 regions: [east-africa]
 sources: [source/mubarakpuri-raheeq, source/tafhim-al-quran, source/muruj-al-dhahab]
 status: { review: draft, completeness: 1, generated_by: "Devin; al-Raheeq al-Makhtum pp. 23–34 (batch 25b)" }
+provenance:
+  layer: own-research
+  source: "source/muruj-al-dhahab"
+  generated_by: Devin
+  model: "unknown"
+  run: "education-E3-facts-batch9"

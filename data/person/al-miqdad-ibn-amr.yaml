@@ -1,4 +1,10 @@
 id: person/al-miqdad-ibn-amr
+education:
+  did_you_know:
+    ar: "المقداد بن عمرو حليف بهراني تبنّاه الأسود بن عبد يغوث، من السابقين إلى الإسلام؛ كان يوم بدر أحد فارسَي الجيش وقائد ميسرته."
+    en: "Al-Miqdad ibn Amr, the Bahranian ally adopted by al-Aswad ibn Abd Yaghuth, was among the earliest into Islam; at Badr he was one of the army's two horsemen and the left wing's commander."
+    ur: "مقداد بن عمرو، بحرانی حلیف جسے اسود بن عبد یغوث نے بیٹا بنایا، اولین مسلمانوں میں سے؛ بدر میں وہ لشکر کے دو سواروں میں سے ایک اور بائیں بازو کے سردار تھے۔"
+    sources: [source/mubarakpuri-raheeq, source/ibn-hisham-sira]
 class: person
 label: { en: "al-Miqdad ibn Amr", ar: "المقداد بن عمرو" }
 names:
@@ -29,3 +35,9 @@ external_ids:
   wikidata: Q1112728
 sources: [source/mubarakpuri-raheeq, source/ibn-hisham-sira, source/tabaqat-ibn-sad]
 status: { review: draft, completeness: 2, generated_by: "Devin; al-Raheeq al-Makhtum pp. 204-233 (pp. 205, 209)" }
+provenance:
+  layer: own-research
+  source: "source/mubarakpuri-raheeq"
+  generated_by: Devin
+  model: "unknown"
+  run: "education-E3-facts-batch13"

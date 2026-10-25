@@ -1,4 +1,10 @@
 id: place/algiers
+education:
+  did_you_know:
+    ar: "اختطّ بلكين بن زيري الجزائر على عهد أبيه أيام العبيديين بالقيروان، وصارت لاحقاً عاصمة الجهاد البحري في القرن السادس عشر."
+    en: "Bulkin ibn Ziri founded Algiers on his father's orders in the Ubaydi (Fatimid) days at Kairouan; it later became the capital of naval jihad in the sixteenth century."
+    ur: "بلکین بن زیری نے اپنے والد کے حکم پر عبیدیوں کے قیروان زمانے میں الجزائر بسایا؛ بعد میں یہ سولہویں صدی میں بحری جہاد کا دارالحکومت بنا۔"
+    sources: [source/tarikh-ibn-khaldun-ibar, source/dawlat-uthmaniyya-salabi]
 class: place
 kind: city
 label: { ar: "الجزائر", en: "Algiers" }
@@ -13,3 +19,9 @@ coordinate_precision: locality
 external_ids: { wikidata: "Q3561", geonames: "2507480" }
 sources: [source/tarikh-ibn-khaldun-ibar, source/geonames-gazetteer, source/rihla-ibn-battuta-1958, source/dawlat-uthmaniyya-salabi]
 status: { review: draft, completeness: 1, generated_by: "Claude Code; coordinates from GeoNames (modern settlement of the same name); identification with the classical place to be checked" }
+provenance:
+  layer: own-research
+  source: "source/tarikh-ibn-khaldun-ibar"
+  generated_by: Devin
+  model: "unknown"
+  run: "education-E3-facts-batch9"

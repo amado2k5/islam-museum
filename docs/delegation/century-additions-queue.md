@@ -98,26 +98,26 @@ lists' own order. Status markers: [ ] queued · [~] in a writer's hands · [x] m
 - [x] Ibrahim Hooper — 1955–Living
 - [x] Keith Ellison — 1963–Living
 - [x] Andre Carson — 1974–Living
-- [ ] Salima Mazari — 1980–Living
-- [ ] Fawzia Koofi — 1975–Living
-- [ ] Sima Samar — 1957–Living
-- [ ] Habiba Sarābi — 1956–Living
-- [ ] Dr. Hawa Abdi — 1947–2020
-- [ ] Ilwad Elman — 1989–Living
-- [ ] Fartuun Adan — 1969–Living
-- [ ] Ayaan Hirsi Ali (Historical Figure) — 1969–Living
-- [ ] Asisat Oshoala — 1994–Living
-- [ ] Sadio Mané — 1992–Living
-- [ ] Riyad Mahrez — 1991–Living
-- [ ] Karim Benzema — 1987–Living
-- [ ] Zinedine Zidane — 1972–Living
-- [ ] Mesut Özil — 1988–Living
-- [ ] Paul Pogba — 1993–Living
-- [ ] N'Golo Kanté — 1991–Living
-- [ ] Kenia Os — 1999–Living
-- [ ] Sariyah Idan — 1985–Living
-- [ ] Sami Said — 1998–Living
-- [ ] Dina Shihabi — 1989–Living
+- [x] Salima Mazari — 1980–Living
+- [x] Fawzia Koofi — 1975–Living
+- [x] Sima Samar — 1957–Living
+- [x] Habiba Sarābi — 1956–Living
+- [x] Dr. Hawa Abdi — 1947–2020
+- [x] Ilwad Elman — 1989–Living
+- [x] Fartuun Adan — 1969–Living
+- [x] Ayaan Hirsi Ali (Historical Figure) — 1969–Living
+- [x] Asisat Oshoala — 1994–Living
+- [x] Sadio Mané — 1992–Living
+- [x] Riyad Mahrez — 1991–Living
+- [x] Karim Benzema — 1987–Living
+- [x] Zinedine Zidane — 1972–Living
+- [x] Mesut Özil — 1988–Living
+- [x] Paul Pogba — 1993–Living
+- [x] N'Golo Kanté — 1991–Living
+- [x] Kenia Os — 1999–Living
+- [x] Sariyah Idan — 1985–Living
+- [x] Sami Said — 1998–Living
+- [x] Dina Shihabi — 1989–Living
 - [ ] May Calamawy — 1986–Living
 - [ ] Shohreh Aghdashloo — 1952–Living
 - [ ] Asghar Farhadi — 1972–Living

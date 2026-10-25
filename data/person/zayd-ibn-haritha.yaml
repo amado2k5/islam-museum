@@ -1,4 +1,10 @@
 id: person/zayd-ibn-haritha
+education:
+  did_you_know:
+    ar: "زيد بن حارثة مولى النبي وقد تبنّاه يوماً، وهو الصحابي الوحيد المذكور اسمه في القرآن، وقاد غزوة مؤتة."
+    en: "Zayd ibn Haritha, the Prophet's freedman once adopted by him, is the only Companion named in the Qur'an, and led the Mu'ta expedition."
+    ur: "زید بن حارثہ، نبی کے آزاد کردہ غلام جنہیں انہوں نے کبھی لے پالک کیا تھا، قرآن میں نام سے مذکور واحد صحابی اور موتہ کے سردار۔"
+    sources: [source/ibn-ishaq-guillaume, source/lings-1983]
 class: person
 label: { en: Zayd ibn Haritha, ar: زيد بن حارثة }
 names:
@@ -36,3 +42,9 @@ relations:
 external_ids: { wikidata: "Q34418" }
 sources: [source/ibn-ishaq-guillaume, source/ibn-sad-tabaqat-bewley, source/lings-1983, source/mubarakpuri-raheeq, source/ibn-hisham-saqqa, source/ibn-hisham-sira, source/rahma-lil-alamin]
 status: { review: draft, completeness: 2, generated_by: "Devin; 2026-10-11" }
+provenance:
+  layer: own-research
+  source: "source/ibn-ishaq-guillaume"
+  generated_by: Devin
+  model: "unknown"
+  run: "education-E3-facts-batch6"

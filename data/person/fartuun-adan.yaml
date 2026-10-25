@@ -1,0 +1,38 @@
+id: person/fartuun-adan
+class: person
+label: { ar: "فرتون آدن", en: "Fartuun Adan", ur: "فرتون عدن" }
+names:
+  - { value: "Fartuun Abdisalaan Adan", kind: full }
+  - { value: "Fartuun Aadan", kind: alternate }
+  - { value: "فرتون آدن", kind: full }
+gender: female
+summary:
+  ar: "ناشطة اجتماعية صومالية، وُلدت سنة 1969؛ وهي المديرة التنفيذية لمركز علمان للسلام وحقوق الإنسان في مقديشو، الذي أحيته تكريمًا لزوجها الراحل علمان علي أحمد، وشاركت في تأسيس «الأخت الصومال» أول برنامج في البلاد لدعم ضحايا العنف الجنسي، وحصلت على جائزة المرأة الشجاعة الدولية سنة 2013 وعلى جائزة رايت ليفليهود مع ابنتها إلواد علمان سنة 2022."
+  en: "Somali social activist, born in 1969. She is executive director of the Elman Peace and Human Rights Centre in Mogadishu, which she revived in honour of her late husband Elman Ali Ahmed, and co-founder of Sister Somalia, the country's first support programme for survivors of sexual violence. She received the International Women of Courage Award in 2013 and, with her daughter Ilwad Elman, the Right Livelihood Award in 2022."
+  ur: "صومالی سماجی کارکن، 1969 میں پیدا ہوئیں؛ وہ موغادیشو کے علمان امن و انسانی حقوق مرکز کی ایگزیکٹو ڈائریکٹر ہیں، جسے انھوں نے اپنے مرحوم شوہر علمان علی احمد کی یاد میں دوبارہ قائم کیا، اور «سسٹر صومالیہ» کی شریک بانی ہیں، جو جنسی تشدد کے متاثرین کے لیے ملک کا پہلا امدادی پروگرام ہے۔ انھیں 2013 میں بین الاقوامی خواتینِ شجاعت ایوارڈ اور 2022 میں اپنی بیٹی الواد علمان کے ساتھ رائٹ لائیولی ہڈ ایوارڈ ملا۔"
+roles: [activist]
+wings: [people, living]
+born:
+  edtf: "1969-02-02"
+  hijri: "1388"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "The date 2 February 1969 is given by both sources registered here: the English Wikipedia article's infobox gives '(1969-02-02) February 2, 1969, Somalia', and the Right Livelihood Award's laureate page gives the same date with the place as Mogadishu, Somalia. The Hijri year (1388) is derived by tabular conversion."
+  sources: [source/wikipedia-fartuun-adan-en, source/right-livelihood-adan-elman]
+relations:
+  - { type: born_in, target: place/mogadishu, sources: [source/right-livelihood-adan-elman] }
+  - { type: lived_in, target: place/mogadishu, sources: [source/wikipedia-fartuun-adan-en] }
+faith:
+  - value: unknown
+    basis: unknown
+    note: "No source read in this run names a school, madhhab or specific affiliation for Fartuun Adan herself. The English Wikipedia article and the Right Livelihood profile describe her activism, her late husband's peace work and her family's history, and name no religion or school for her. Work for a peace centre, family background and life in a Muslim-majority country are not an attestation of her own school, and any doubt stays unknown under the lane rules, so no faith value is recorded."
+    sources: [source/wikipedia-fartuun-adan-en, source/right-livelihood-adan-elman]
+sources: [source/wikipedia-fartuun-adan-en, source/right-livelihood-adan-elman, source/wikipedia-ilwad-elman-en]
+provenance:
+  layer: own-research
+  source: "English Wikipedia 'Fartuun Adan' and 'Ilwad Elman' and the Right Livelihood Award laureate page 'Fartuun Adan and Ilwad Elman', all read in full on 25 October 2026. No Wikidata QID was verified from a tool result in this run, so no external_ids are recorded. No earlier record for her existed in data/person/ under fartuun-adan, fartun-adan or any other spelling checked; this is a new build, not an enrichment."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: century-additions-14
+status: { review: published, completeness: 3, generated_by: "Muse (Muse Spark 1.3)" }

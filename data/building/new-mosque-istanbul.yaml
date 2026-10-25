@@ -40,6 +40,11 @@ provenance:
   model: claude-sonnet-5-5
   run: building-wikidata-1
 education:
+  did_you_know:
+    ar: "الجامع الجديد بإسطنبول أُرِّخ بناؤه سنة ١٥٩٧م، وهو من مساجد المدينة العثمانية."
+    en: "Istanbul's New Mosque is dated to 1597 CE, one of the city's Ottoman-era mosques."
+    ur: "استنبول کی نئی مسجد 1597ء کی ہے — شہر کی عثمانی دور کی مساجد میں سے۔"
+    sources: [source/wikidata, source/freely-ottoman-architecture-2011]
   levels: [sprouts, explorers, scholars]
   flagged_for_kids: true
   provenance: { generated_by: "Devin", model: "gemini-2.5-pro", run: "education-E2-batch3", note: "Leveled texts drafted from the record's own summary and prose; draft, pending the founder's review and scholar review of the child levels." }

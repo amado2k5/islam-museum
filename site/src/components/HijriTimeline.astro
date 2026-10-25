@@ -11,7 +11,7 @@ import { W, xOf, yearLabel } from "../lib/timeline-layout";
 const { lang } = Astro.props as { lang: Lang };
 const T = ui(lang);
 const model = timelineModel(lang);
-const { MIN, MAX, rtl, bands, early } = model;
+const { MIN, MAX, FLOOR, rtl, bands, early } = model;
 const SHOWN = 120; // markers drawn in the page; the rest are on the events list
 const step = Math.max(1, Math.ceil(model.markers.length / SHOWN));
 const markers = model.markers.filter((_, i) => i % step === 0);

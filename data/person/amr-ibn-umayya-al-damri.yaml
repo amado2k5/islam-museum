@@ -1,4 +1,10 @@
 id: person/amr-ibn-umayya-al-damri
+education:
+  did_you_know:
+    ar: "عمرو بن أمية الضمري فارس عيون من بني ضمرة؛ شهد مأساة بئر معونة وأسره عامر بن الطفيل ثم أعتقه عن نذر كان على أمه فحمل نبأ الفاجعة إلى النبي."
+    en: "Amr ibn Umayya al-Damri, the scout of Banu Damra, witnessed the tragedy of Bi'r Ma'una; freed by Amir ibn al-Tufayl for a vow, he bore the dread news to the Prophet."
+    ur: "عمرو بن امیہ ضمری، بنو ضمرہ کے جاسوس، نے بیر معونہ کا سانحہ دیکھا؛ عامر بن طفیل نے انہیں نذر کے عوض آزاد کیا — اور عمرو فجيع خبر نبی تک پہنچائے۔"
+    sources: [source/mubarakpuri-raheeq, source/ibn-hisham-sira]
 class: person
 label: { en: "Amr ibn Umayya al-Damri", ar: "عمرو بن أمية الضمري" }
 names:
@@ -24,3 +30,9 @@ relations:
   - { type: participated_in, target: event/incident-of-bir-mauna, role: "الناجي الذي حمل الخبر إلى المدينة", sources: [source/mubarakpuri-raheeq, source/sahih-al-bukhari] }
 sources: [source/mubarakpuri-raheeq, source/sahih-al-bukhari, source/ibn-hisham-sira, source/ibn-hisham-saqqa]
 status: { review: draft, completeness: 2, generated_by: "Devin; al-Raheeq al-Makhtum pp. 294, 352" }
+provenance:
+  layer: own-research
+  source: "source/mubarakpuri-raheeq"
+  generated_by: Devin
+  model: "unknown"
+  run: "education-E3-facts-batch14"

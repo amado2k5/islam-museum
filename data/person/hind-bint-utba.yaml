@@ -1,4 +1,10 @@
 id: person/hind-bint-utba
+education:
+  did_you_know:
+    ar: "هند بنت عتبة أم معاوية أوضح صور السيرة خصومة مكة في أحد، ثم أسلمت يوم الفتح وجاءت تبايع النبي."
+    en: "Hind bint Utba, Mu'awiya's mother, stands in the sirah as the clearest face of Meccan opposition at Uhud; she embraced Islam on the day of the conquest."
+    ur: "ہند بنت عتبہ، معاویہ کی ماں، احد میں مکی مخالفت کی نمایاں شکل تھیں؛ فتح کے دن اسلام لائیں اور بیعت کی۔"
+    sources: [source/ibn-ishaq-guillaume, source/watt-1956-medina]
 class: person
 label: { en: "Hind bint Utba", ar: "هند بنت عتبة" }
 names:
@@ -43,3 +49,9 @@ perspectives:
 external_ids: { wikidata: "Q1093767" }
 sources: [source/ibn-ishaq-guillaume, source/watt-1956-medina, source/ibn-sad-tabaqat-bewley, source/nisa-hawl-alrasul, source/bakr-umayyad-state-1134715, source/sahih-al-bukhari]
 status: { review: draft, completeness: 2, generated_by: "Devin; 2026-10-11" }
+provenance:
+  layer: own-research
+  source: "source/ibn-ishaq-guillaume"
+  generated_by: Devin
+  model: "unknown"
+  run: "education-E3-facts-batch6"

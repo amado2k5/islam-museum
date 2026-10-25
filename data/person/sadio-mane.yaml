@@ -1,0 +1,33 @@
+id: person/sadio-mane
+class: person
+label: { ar: "ساديو ماني", en: "Sadio Mané", ur: "سادیو مانے" }
+names:
+  - { value: "Sadio Mané", kind: full }
+gender: male
+summary:
+  ar: "لاعب كرة قدم سنغالي، وُلد في بامبالي بمنطقة سيدهيو سنة 1992؛ جناح النصر السعودي ومنتخب السنغال، ومن أبرز لاعبي جيله الأفارقة: فاز مع ليفربول بالدوري الإنجليزي (2020) ودوري أبطال أوروبا (2019)، وسجل أسرع ثلاثية في تاريخ الدوري الإنجليزي مع ساوثهامبتون (176 ثانية، 2015)، وقاد السنغال إلى أول ألقابها في كأس أمم أفريقيا (2021)، وموّل في قريته بامبالي مسجدًا ومدرسة ومستشفى."
+  en: "Senegalese professional footballer, born in Bambali, in the Sédhiou region, in 1992. A winger for Saudi club Al-Nassr and the Senegal national team, he is among the leading African players of his generation: he won the Premier League (2020) and the UEFA Champions League (2019) with Liverpool, scored the Premier League's fastest hat-trick for Southampton (176 seconds, 2015), led Senegal to their first Africa Cup of Nations title (2021), and funded a mosque, a school and a hospital in his home village of Bambali."
+  ur: "سینیگال کے پیشہ ور فٹبالر، 1992 میں سیدھیو کے علاقے بمبالی میں پیدا ہوئے؛ سعودی کلب النصر اور سینیگال کی قومی ٹیم کے ونگر، وہ اپنی نسل کے نمایاں افریقی کھلاڑیوں میں سے ہیں: لیورپول کے ساتھ پریمیئر لیگ (2020) اور یوئیفا چیمپئنز لیگ (2019) جیتی، ساؤتھمپٹن کے لیے پریمیئر لیگ کی تیز ترین ہیٹ ٹرک (176 سیکنڈ، 2015) کی، سینیگال کو اس کا پہلا افریقہ کپ آف نیشنز خطاب (2021) دلایا، اور اپنے گاؤں بمبالی میں مسجد، اسکول اور اسپتال کی مالی مدد کی۔"
+roles: [athlete]
+wings: [people, living]
+born:
+  edtf: "1992-04-10"
+  hijri: "1412"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "Born 10 April 1992 in Bambali, Sédhiou, Senegal, as given by the English Wikipedia article's infobox and early-life section, which records Guinean parents and a childhood in Bambali. No place entity for Bambali or Sédhiou exists in data/place/, so no born_in relation is written. The Hijri year (1412) is derived by tabular conversion."
+  sources: [source/wikipedia-sadio-mane-en]
+faith:
+  - value: unknown
+    basis: unknown
+    note: "No source read in this run names a school or madhhab for Mané himself. The English Wikipedia article calls him 'a practising Muslim' who is occasionally seen making du'a before a match, and records that he grew up in a religious household and that his father was an imam; the biographical coverage read alongside it likewise describes his public practice — prayer, Ramadan observance, cleaning a Liverpool mosque's ablution area in 2018, and funding a mosque in Bambali. Practice, philanthropy and a father's imamate are not an attestation of his own school: no source names Sunni, Maliki or any other specific value for him, and Senegal's Maliki majority may not be inferred onto an individual. Under the two-source rule, the doubt rule and the brief's own expectation for this group, no faith value beyond unknown is recorded."
+    sources: [source/wikipedia-sadio-mane-en]
+sources: [source/wikipedia-sadio-mane-en]
+provenance:
+  layer: own-research
+  source: "English Wikipedia 'Sadio Mané', read in full on 25 October 2026. No Wikidata QID was verified from a tool result in this run, so no external_ids are recorded. No earlier record for him existed in data/person/ under sadio-mane or any other spelling checked; this is a new build, not an enrichment."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: century-additions-14
+status: { review: published, completeness: 3, generated_by: "Muse (Muse Spark 1.3)" }

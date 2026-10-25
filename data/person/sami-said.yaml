@@ -1,0 +1,33 @@
+id: person/sami-said
+class: person
+label: { ar: "سامي سعيد", en: "Sami Said", ur: "سامی سعید" }
+names:
+  - { value: "Sami Said", kind: full }
+gender: male
+summary:
+  ar: "كاتب وروائي سويدي مولود في إريتريا سنة 1979 في كرن؛ فرّت أسرته طفلًا من الحرب عبر السودان وألمانيا إلى غوتنبرغ، ودرس في جامعة لينشوبينغ، ونال إشادة نقدية واسعة عن رواياته المستمدة من تجربة المهاجر: «فالديغت سالان فين» (2012، جائزة كاتابولت)، و«مونوماني» (2013)، و«مانيسكان إر دن فاكراستي ستادين» (2018، القائمة القصيرة لجائزة أوغست وترشيح لجائزة الأدب لمجلس الشمال 2019)، و«ساتانسفيسكار» (2023)."
+  en: "Eritrean-born Swedish writer and novelist, born in Keren in 1979. His family fled the war in his childhood via Sudan and Germany to Gothenburg, he studied at Linköping University, and his novels drawing on the immigrant experience have won wide critical acclaim: Väldigt sällan fin (2012, Katapult Prize), Monomani (2013), Människan är den vackraste staden (2018, August Prize shortlist and Sweden's nominee for the 2019 Nordic Council Literature Prize), and Satansviskningar (2023)."
+  ur: "اریٹیریا میں پیدا ہونے والے سویڈش مصنف و ناول نگار، 1979 میں کرن میں پیدا ہوئے؛ بچپن میں ان کا خاندان جنگ سے بھاگ کر سوڈان و جرمنی کے راستے گوتنبرگ پہنچا، انھوں نے لنشوپنگ یونیورسٹی میں تعلیم حاصل کی، اور مہاجر تجربے پر مبنی ان کے ناولوں کو وسیع تنقیدی پذیرائی ملی: «ویلدگت سیلان فن» (2012، کیٹاپلٹ انعام)، «مونومانی» (2013)، «مانیسکان ار دن واکراستے اسٹاڈن» (2018، آگسٹ انعام کی مختصر فہرست اور 2019 کے نورڈک کونسل ادب انعام کے لیے سویڈن کی نامزدگی)، اور «ساتانس وسکار» (2023)۔"
+roles: [writer]
+wings: [people, living]
+born:
+  edtf: "1979"
+  hijri: "1399"
+  calendar: gregorian
+  precision: year
+  status: historical
+  derived: true
+  note: "Born in 1979 in Keren, Eritrea, as given by the English Wikipedia article's infobox and early-life section; no source read gives a day or month. The century-list source file (1000_influential_muslims_last_100_years.csv, 'Writer & Novelist, Sweden / Eritrea') gives 1998; that year is a list error and is not followed — this identification and the 1979 year are stated in the writer's report. No place entity for Keren exists in data/place/, so no born_in relation is written. The Hijri year (1399) is derived by tabular conversion from the year alone and is approximate."
+  sources: [source/wikipedia-sami-said-en]
+faith:
+  - value: unknown
+    basis: unknown
+    note: "No source read in this run attests Sami Said's own affiliation with a specific school or path. His semi-autobiographical debut novel's protagonist Noha is described in Granta's profile as having a 'traditional Muslim upbringing' — that is a fictional character's upbringing, and upbringing is family background, which the lane rules never count as the person's own affiliation; the same profile notes Said describes himself as an outsider within his own immigrant community. The English Wikipedia article names no religion for him. Under the two-source rule and the doubt rule, no faith value beyond unknown is recorded, and this evidence is carried here attributed."
+    sources: [source/wikipedia-sami-said-en]
+sources: [source/wikipedia-sami-said-en]
+provenance:
+  layer: own-research
+  source: "English Wikipedia 'Sami Said (writer)', read in full on 25 October 2026, with Granta's 'Best Untranslated Writers: Sami Said' profile read alongside it; identity confirmed against the century-list source file 1000_influential_muslims_last_100_years.csv ('Sami Said, 1998, Living, Writer & Novelist, Sweden / Eritrea'), whose year is erroneous for the 1979-born novelist. No Wikidata QID was verified from a tool result in this run, so no external_ids are recorded. No earlier record for him existed in data/person/ under sami-said or any other spelling checked (sami-frasheri and sami-yusuf are different people); this is a new build, not an enrichment."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: century-additions-15
+status: { review: published, completeness: 3, generated_by: "Muse (Muse Spark 1.3)" }

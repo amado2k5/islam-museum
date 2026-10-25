@@ -1,4 +1,10 @@
 id: event/siege-of-taif
+education:
+  did_you_know:
+    ar: "حاصر المسلمون الطائف بعد حنين ثم انسحبوا دون فتحها، فأسلمت ثقيف بوفودها في العام التالي نفسه كما تروي السيرة."
+    en: "The Muslims besieged Taif after Hunayn, then withdrew without taking it; Thaqif sent delegations and embraced Islam the following year, per the sirah."
+    ur: "حنین کے بعد مسلمانوں نے طائف کا محاصرہ کیا پھر بغیر فتح کے واپس ہوئے؛ اگلے ہی سال ثقیف نے وفود بھیج کر اسلام قبول کیا، جیسا کہ سیرت بیان کرتی ہے۔"
+    sources: [source/ibn-hisham-saqqa, source/lings-1983]
 class: event
 kind: siege
 label: { en: "The siege of Ta'if", ar: "حصار الطائف" }
@@ -36,3 +42,9 @@ sides:
     participants: [group/thaqif]
 sources: [source/ibn-hisham-saqqa, source/ibn-ishaq-guillaume, source/watt-1956-medina, source/lings-1983, source/mubarakpuri-raheeq, source/sahih-muslim, source/sahih-al-bukhari]
 status: { review: draft, completeness: 1, generated_by: "Claude Sonnet 5.5; dates follow the cited tradition and are approximate where marked" }
+provenance:
+  layer: own-research
+  source: "source/ibn-hisham-saqqa"
+  generated_by: Devin
+  model: "unknown"
+  run: "education-E3-facts-batch5"

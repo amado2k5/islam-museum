@@ -1,4 +1,10 @@
 id: person/hudhayfa-ibn-al-yaman
+education:
+  did_you_know:
+    ar: "حذيفة بن اليمان أمين سرّ النبي في المنافقين، وانتدبه ليلة الخندق ليتسلل إلى عدوّهم فيأتيه بالخبر."
+    en: "Hudhayfa ibn al-Yaman, keeper of the Prophet's secret list of hypocrites, was sent into enemy lines on the bitter night of the Trench to bring back word."
+    ur: "حذیفہ بن یمان، نبی کے منافقین کے راز کے امین، خندق کی سخت رات میں دشمن صفوں میں بھیجے گئے اور خبر لے آئے۔"
+    sources: [source/mubarakpuri-raheeq, source/sahih-muslim]
 class: person
 label: { en: "Hudhayfa ibn al-Yaman", ar: "حذيفة بن اليمان" }
 aliases: [person/hudhayfa-ibn-al-yaman-al-absi]
@@ -28,3 +34,9 @@ relations:
 external_ids: { wikidata: "Q1145300" }
 sources: [source/mubarakpuri-raheeq, source/sahih-muslim, source/ibn-hisham-sira, source/futuh-buldan-maarif-1407, source/muruj-al-dhahab, source/sahih-al-bukhari]
 status: { review: draft, completeness: 2, generated_by: "Devin; al-Raheeq al-Makhtum pp. 313–314" }
+provenance:
+  layer: own-research
+  source: "source/mubarakpuri-raheeq"
+  generated_by: Devin
+  model: "unknown"
+  run: "education-E3-facts-batch6"

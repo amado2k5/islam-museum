@@ -1,0 +1,34 @@
+id: person/dina-shihabi
+class: person
+label: { ar: "دينا الشهابي", en: "Dina Shihabi", ur: "دینا شہابی" }
+names:
+  - { value: "Dina Shihabi", kind: full }
+  - { value: "دينا الشهابي", kind: full }
+gender: female
+summary:
+  ar: "ممثلة سعودية تعمل في الولايات المتحدة، وُلدت في الرياض سنة 1989 ونشأت بين السعودية وبيروت ودبي؛ أول امرأة مولودة في الشرق الأوسط تُقبل في برنامجي التمثيل في جوليارد وجامعة نيويورك معًا، وحصلت على ماجستير الفنون الجميلة من جامعة نيويورك (2014)، واشتهرت بأدوار حنين في «جاك رايان» (2018) وديغ 301 في «ألتيرد كاربون» (2020) وميلودي بندراس في «أركايف 81» (2022)."
+  en: "Saudi Arabian actress working in the United States, born in Riyadh in 1989 and raised in Saudi Arabia, Beirut and Dubai. She was the first Middle East-born woman accepted into both the Juilliard and NYU graduate acting programs, took her MFA from NYU in 2014, and is known for playing Hanin in Jack Ryan (2018), Dig 301 in Altered Carbon (2020) and Melody Pendras in Archive 81 (2022)."
+  ur: "سعودی اداکارہ جو امریکا میں کام کرتی ہیں، 1989 میں ریاض میں پیدا ہوئیں اور سعودی عرب، بیروت اور دبئی میں پلی بڑھیں؛ وہ پہلی مشرق وسطیٰ میں پیدا ہونے والی خاتون ہیں جنھیں جولیارڈ اور نیویارک یونیورسٹی دونوں کے گریجویٹ ایکٹنگ پروگرامز میں داخلہ ملا، 2014 میں این وائی یو سے ایم ایف اے کیا، اور «جیک رائن» (2018) میں حنین، «آلٹرڈ کاربن» (2020) میں ڈگ 301 اور «آرکائیو 81» (2022) میں میلوڈی پینڈراس کے کرداروں کے لیے معروف ہیں۔"
+roles: [actress]
+wings: [people, living]
+born:
+  edtf: "1989-09-21"
+  hijri: "1410"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "Born 21 September 1989 in Riyadh, Saudi Arabia, as given by the English Wikipedia article's infobox. Some secondary listings give 22 September; the Wikipedia date, sourced to Gulf News and Arab News coverage, is followed here. No place entity for Riyadh exists in data/place/, so no born_in relation is written. The Hijri year (1410) is derived by tabular conversion."
+  sources: [source/wikipedia-dina-shihabi-en]
+faith:
+  - value: unknown
+    basis: unknown
+    note: "No source read in this run names a school or madhhab for Shihabi herself, and no two independent sources attest a specific personal affiliation. A W Magazine profile says she 'grew up Muslim' — an attestation of upbringing, which the lane rules treat as family background, not as her own affiliation with a specific school or path — while low-quality biography aggregators conflict with each other, variously giving Islam and Christianity. Under the two-source rule and the doubt rule, no faith value beyond unknown is recorded, and this evidence is carried here attributed."
+    sources: [source/wikipedia-dina-shihabi-en]
+sources: [source/wikipedia-dina-shihabi-en]
+provenance:
+  layer: own-research
+  source: "English Wikipedia 'Dina Shihabi', read in full on 25 October 2026, with the W Magazine Archive 81 profile read alongside it. No Wikidata QID was verified from a tool result in this run, so no external_ids are recorded. No earlier record for her existed in data/person/ under dina-shihabi or any other spelling checked; this is a new build, not an enrichment."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: century-additions-15
+status: { review: published, completeness: 3, generated_by: "Muse (Muse Spark 1.3)" }

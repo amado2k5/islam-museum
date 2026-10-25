@@ -1,0 +1,35 @@
+id: person/salima-mazari
+class: person
+label: { ar: "سلیمه مزاری", en: "Salima Mazari", ur: "سلیمہ مزاری" }
+names:
+  - { value: "Salima Mazari", kind: full }
+  - { value: "سلیمه مزاری", kind: full }
+gender: female
+summary:
+  ar: "سياسية أفغانية، وُلدت في إيران سنة 1980 في أسرة لاجئة فرّت من الغزو السوفيتي لأفغانستان، ودرست في جامعة طهران وعملت لدى المنظمة الدولية للهجرة قبل أن تعود إلى أفغانستان. عُيّنت سنة 2018 حاكمة لمديرية تشاركنت (تشهار كنت) في ولاية بلخ، فكانت إحدى ثلاث نساء فقط في هذا المنصب في البلاد، وقادت مقاومة مديريتها لهجوم طالبان سنة 2021 حتى سقوط الجمهورية، ثم نجت ووصلت إلى الولايات المتحدة."
+  en: "Afghan politician, born in Iran in 1980 to a refugee family that had fled the Soviet invasion of Afghanistan. She studied at the University of Tehran and worked for the International Organization for Migration before returning to Afghanistan. Appointed in 2018 as district governor of Charkint (Chahar Kint) in Balkh province — one of only three women district governors in the country — she led her district's resistance to the Taliban's 2021 offensive until the republic collapsed, then escaped to the United States."
+  ur: "افغان سیاست دان، 1980ء میں ایران میں ایک پناہ گزین خاندان میں پیدا ہوئیں جو افغانستان پر سوویت حملے سے فرار ہوا تھا۔ انھوں نے تہران یونیورسٹی سے تعلیم حاصل کی اور افغانستان واپسی سے قبل بین الاقوامی تنظیم برائے مہاجرت میں کام کیا۔ 2018ء میں وہ بلخ صوبے کے ضلع چارکنت کی گورنر مقرر ہوئیں — ملک کی صرف تین خواتین ضلعی گورنروں میں سے ایک — اور 2021ء میں طالبان کے حملے کے خلاف اپنے ضلع کی مزاحمت کی قیادت کی، پھر امریکہ فرار ہونے میں کامیاب ہوئیں۔"
+roles: [politician]
+wings: [people, living]
+born:
+  edtf: "1980"
+  hijri: "1400"
+  calendar: gregorian
+  precision: year
+  status: historical
+  derived: true
+  note: "Born in Iran in 1980; only the year is given by any source. The English Wikipedia article gives 'born in Iran in 1980, a refugee as her family had escaped the Soviet invasion of Afghanistan', and Wikidata gives the birth year 1980 with place of birth Iran (Q794). The Hijri year (1400, covering most of 1980) is derived by tabular conversion."
+  sources: [source/wikipedia-salima-mazari-en, source/wikidata-salima-mazari]
+faith:
+  - value: unknown
+    basis: unknown
+    note: "NOT RECORDED AS DOCUMENTED — no source attests her own affiliation with any school. Wikidata carries no religion (P140) statement for her at all. Borderless Magazine describes her as belonging to 'the Hazara ethnic minority that has been discriminated against for years because of their ethnicity and Shiite religion' — a statement about the Hazara group, not an attestation of Mazari's own affiliation, and Hazara identity is ethnic; under the lane rules it is never converted into a faith segment. No other source consulted names a school or path for her, so under the two-source rule and the doubt rule the faith is left unknown."
+    sources: [source/wikidata-salima-mazari, source/borderless-salima-mazari-2022, source/wikipedia-salima-mazari-en]
+external_ids: { wikidata: "Q108133663" }
+sources: [source/wikipedia-salima-mazari-en, source/wikidata-salima-mazari, source/borderless-salima-mazari-2022]
+provenance:
+  layer: own-research
+  source: "English Wikipedia 'Salima Mazari' and Borderless Magazine's 7 July 2022 as-told-to profile, both read in full on 25 October 2026, and Wikidata Q108133663 (confirmed via the Wikidata API: human, female, born 1980 at year precision, place of birth Iran, occupation politician, no religion statement). No earlier record for her existed in data/person/ under any spelling (salima-mazari and variants checked); this is a new build, not an enrichment."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: century-additions-14
+status: { review: published, completeness: 3, generated_by: "Muse (Muse Spark 1.3)" }

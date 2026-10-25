@@ -1,4 +1,10 @@
 id: person/al-tabari
+education:
+  did_you_know:
+    ar: "الطبري ابن جرير وُلد بآمل سنة ٢٢٤هـ ومات سنة ٣١٠هـ؛ أخذ الحديث عن أهل عصره وصنّف التاريخ والتفسير حتى صار إمام وقته."
+    en: "Al-Tabari, Ibn Jarir, was born at Amul in 224 AH and died in 310; he took hadith from the masters of his time and authored the History and the Tafsir until he stood as the imam of his age."
+    ur: "طبری ابن جریر ۲۲۴ھ میں آمل میں پیدا ہوئے اور ۳۱۰ھ میں فوت ہوئے؛ انہوں نے اپنے زمانے کے اساتذہ سے حدیث لی اور تاریخ و تفسیر لکھے یہاں تک کہ اپنے عہد کے امام بنے۔"
+    sources: [source/tarikh-khulafa-minhaj-1434, source/encyclopaedia-of-islam-2]
 class: person
 label: { ar: "الطبري", en: "al-Tabari" }
 summary:
@@ -8,3 +14,9 @@ died: { hijri: "0310", edtf: "0923~", calendar: julian, precision: year, status:
 external_ids: { wikidata: "Q192124" }
 sources: [source/kamil-ibn-al-athir, source/fihrist-ibn-al-nadim, source/muruj-al-dhahab, source/tabaqat-fuqaha-abbas-1981, source/muntazam-ibn-al-jawzi]
 status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }
+provenance:
+  layer: own-research
+  source: "source/tarikh-khulafa-minhaj-1434"
+  generated_by: Devin
+  model: "unknown"
+  run: "education-E3-facts-batch14"

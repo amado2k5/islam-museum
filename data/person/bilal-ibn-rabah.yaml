@@ -1,4 +1,10 @@
 id: person/bilal-ibn-rabah
+education:
+  did_you_know:
+    ar: "بلال بن رباح حبشي المولد من السابقين إلى الإسلام، أعتقه أبو بكر ويذكره التراث أول مؤذن في الإسلام."
+    en: "Bilal ibn Rabah, born an Abyssinian slave in Mecca, was among the earliest Muslims; Abu Bakr freed him and tradition names him Islam's first muezzin."
+    ur: "بلال بن رباح مکہ میں حبشی غلام پیدا ہوئے اور اولین مسلمانوں میں سے تھے؛ ابوبکر نے انہیں آزاد کیا اور روایت انہیں اسلام کا پہلا مؤذن کہتی ہے۔"
+    sources: [source/ibn-sad-tabaqat-bewley, source/mubarakpuri-raheeq]
 class: person
 label: { en: "Bilal ibn Rabah", ar: "بلال بن رباح" }
 names:
@@ -36,3 +42,9 @@ external_ids:
   wikidata: Q493136
 sources: [source/ibn-sad-tabaqat-bewley, source/ibn-ishaq-guillaume, source/muruj-al-dhahab, source/mubarakpuri-raheeq, source/ibn-hisham-sira, source/sahih-al-bukhari, source/sahih-muslim, source/ibn-hisham-saqqa]
 status: { review: draft, completeness: 2, generated_by: "Devin; 2026-10-11" }
+provenance:
+  layer: own-research
+  source: "source/ibn-sad-tabaqat-bewley"
+  generated_by: Devin
+  model: "unknown"
+  run: "education-E3-facts-batch5"

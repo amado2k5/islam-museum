@@ -1,0 +1,44 @@
+id: person/fawzia-koofi
+education:
+  did_you_know:
+    ar: "فوزية كوفي سياسية أفغانية وُلدت ببدخشان سنة ١٩٧٥، عملت ضابطة لحماية الطفل لدى اليونيسف، وانتُخبت سنة ٢٠٠٥ عضوة في مجلس الشعب فصارت أول امرأة ترأسه."
+    en: "Fawzia Koofi, the Afghan politician born in Badakhshan in 1975, served UNICEF as a child-protection officer, won a seat in the lower house in 2005 — and became its first woman speaker."
+    ur: "فوزیہ کوفی، افغان سیاست دان 1975ء میں بدخشان میں پیدا ہوئیں، یونیسیف میں چائلڈ پروٹیکشن آفیسر رہیں، 2005ء میں ایوانِ زیریں کی رکن منتخب ہوئیں — اور اس کی پہلی خاتون اسپیکر بنیں۔"
+    sources: [source/wikidata, source/encyclopaedia-of-islam-2]
+class: person
+label: { ar: "فوزیه کوفی", en: "Fawzia Koofi", ur: "فوزیہ کوفی" }
+names:
+  - { value: "Fawzia Koofi", kind: full }
+  - { value: "فوزیه کوفی", kind: full }
+gender: female
+summary:
+  ar: "سياسية أفغانية وناشطة في حقوق المرأة وكاتبة، وُلدت سنة 1975 في بدخشان. عملت ضابطة لحماية الطفل لدى اليونيسف (2002–2004)، وانتُخبت سنة 2005 عضوة في مجلس الشعب عن بدخشان فصارت أول امرأة تتولى منصب النائب الثاني لرئيس البرلمان الأفغاني. صاغت مشروع قانون القضاء على العنف ضد المرأة (2009)، ونجت من محاولات اغتيال عدة، وكانت عضوة في فريق الحكومة الأفغانية المفاوض مع طالبان في الدوحة، وتعيش في المنفى في لندن منذ 2021."
+  en: "Afghan politician, women's rights activist and writer, born in 1975 in Badakhshan. She worked as a child protection officer for UNICEF (2002–2004), was elected to the Wolesi Jirga for Badakhshan in 2005 and became the first female Second Deputy Speaker of the Afghan parliament. She drafted the Elimination of Violence Against Women legislation (2009), survived several assassination attempts, sat on the Afghan government's peace negotiation team with the Taliban in Doha, and has lived in exile in London since 2021."
+  ur: "افغان سیاست دان، خواتین کے حقوق کی کارکن اور مصنفہ، 1975ء میں بدخشاں میں پیدا ہوئیں۔ انھوں نے یونیسیف میں چائلڈ پروٹیکشن آفیسر کے طور پر کام کیا (2002ء–2004ء)، 2005ء میں بدخشاں سے ولوسی جرگہ کی رکن منتخب ہوئیں اور افغان پارلیمنٹ کی پہلی خاتون سیکنڈ ڈپٹی اسپیکر بنیں۔ انھوں نے خواتین کے خلاف تشدد کے خاتمے کا قانون تیار کیا (2009ء)، کئی قاتلانہ حملوں میں بچیں، دوحہ میں طالبان کے ساتھ حکومتی مذاکراتی ٹیم کی رکن رہیں، اور 2021ء سے لندن میں جلاوطنی کی زندگی گزار رہی ہیں۔"
+roles: [politician, writer]
+wings: [people, living]
+born:
+  edtf: "1975"
+  hijri: "1395"
+  calendar: gregorian
+  precision: year
+  status: historical
+  derived: true
+  note: "Born in 1975 in Badakhshan; only the year is given by any source. The English Wikipedia article and Wikidata both give 1975, and Wikidata gives the place of birth as Badakhshan Province (Q165376). The Hijri year (1395, covering most of 1975) is derived by tabular conversion."
+  sources: [source/wikipedia-fawzia-koofi-en, source/wikidata-fawzia-koofi]
+relations:
+  - { type: born_in, target: place/badakhshan, sources: [source/wikipedia-fawzia-koofi-en, source/wikidata-fawzia-koofi] }
+  - { type: lived_in, target: place/kabul, sources: [source/wikipedia-fawzia-koofi-en] }
+faith:
+  - value: unknown
+    basis: unknown
+    note: "NOT RECORDED AS DOCUMENTED — only one source names a school for her, and a single source never counts under the lane rules. Wikidata gives her religion as Sunni Islam (Q483654), a lone structured value with no corroboration. The other sources consulted describe her faith only generically: reviews of her memoir speak of the 'Muslim faith' she passes to her daughters, and her own site describes her as an advocate of 'moderate Islam' — a generic Muslim label names no school. With no second independent source attesting her own Sunni affiliation, the segment stays unknown under the two-source rule and the doubt rule, and the Wikidata value is carried here so a later lane can revisit it if a second attestation appears."
+    sources: [source/wikidata-fawzia-koofi, source/wikipedia-fawzia-koofi-en]
+external_ids: { wikidata: "Q3065252" }
+sources: [source/wikipedia-fawzia-koofi-en, source/wikidata-fawzia-koofi, source/pgaction-fawzia-koofi-2024]
+provenance:
+  layer: own-research
+  source: "English Wikipedia 'Fawzia Koofi', read in full on 25 October 2026; Wikidata Q3065252 (confirmed via the Wikidata API: human, female, born 1975 at year precision in Badakhshan Province, religion Sunni Islam as a lone P140 value); and Parliamentarians for Global Action's 2024 Defender of Democracy Award page. The QID was also confirmed by the Wikimedia Commons category authority file (Q3065252). No earlier record for her existed in data/person/ under any spelling (fawzia-koofi, fauzia-koofi checked); this is a new build, not an enrichment."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: century-additions-14
+status: { review: published, completeness: 3, generated_by: "Muse (Muse Spark 1.3)" }

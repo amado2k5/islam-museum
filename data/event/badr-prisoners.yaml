@@ -1,4 +1,10 @@
 id: event/badr-prisoners
+education:
+  did_you_know:
+    ar: "نظر النبي في أسرى بدر بالفداء على مشورة أبي بكر، فكان من الفدية ألف إلى أربعة آلاف درهم أو تعليم الكتابة لعشرة غلمان."
+    en: "The Prophet settled the Badr captives by ransom on Abu Bakr's counsel — one to four thousand dirhams, or teaching ten boys to write."
+    ur: "نبی نے بدر کے قیدیوں کا معاملہ ابوبکر کے مشورے سے فدیے پر طے کیا — ایک ہزار سے چار ہزار درہم یا دس لڑکوں کو لکھنا سکھانا۔"
+    sources: [source/mubarakpuri-raheeq, source/ibn-hisham-sira]
 class: event
 kind: other
 label: { en: "The affair of the Badr prisoners", ar: "قضية أسارى بدر" }
@@ -30,3 +36,9 @@ relations:
   - { type: had_participant, target: person/musab-ibn-umayr, note: "استلم أخاه الأسير أبا عزيز وأمره بإحكام وثاقه", sources: [source/mubarakpuri-raheeq] }
 sources: [source/mubarakpuri-raheeq, source/ibn-hisham-sira, source/sunan-abi-dawud, source/tarikh-umar-ibn-al-jawzi, source/muhammad-qaid-al-aala-azhar, source/sallabi-ali-vol1]
 status: { review: draft, completeness: 2, generated_by: "Devin; al-Raheeq al-Makhtum pp. 228-231" }
+provenance:
+  layer: own-research
+  source: "source/mubarakpuri-raheeq"
+  generated_by: Devin
+  model: "unknown"
+  run: "education-E3-facts-batch7"

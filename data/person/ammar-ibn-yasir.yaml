@@ -1,4 +1,10 @@
 id: person/ammar-ibn-yasir
+education:
+  did_you_know:
+    ar: "عمار بن ياسر ابن سمية مولى بني مخزوم؛ عُذّب مع أبويه والنبي يبشّرهما بالجنة، وعُدّ من مهاجرة الحبشة، وقُتل بصفين في جيش علي."
+    en: "Ammar ibn Yasir, son of Sumayya, a Makhzum ally, was tortured with his parents while the Prophet promised them Paradise; he is counted among the Abyssinia emigrants and fell at Siffin in Ali's army."
+    ur: "عمار بن یاسر، سمیہ کے بیٹے اور بنو مخزوم کے حلیف، اپنے والدین کے ساتھ اذیت سہے جب نبی انہیں جنت کی بشارت دیتے؛ ہجرتِ حبشہ کرنے والوں میں شمار ہیں اور صفین میں علی کے لشکر میں مارے گئے۔"
+    sources: [source/ibn-hisham-sira, source/tabaqat-ibn-sad]
 class: person
 label: { en: "Ammar ibn Yasir", ar: "عمّار بن ياسر" }
 names:
@@ -25,3 +31,9 @@ relations:
 external_ids: { wikidata: "Q1110653" }
 sources: [source/mubarakpuri-raheeq, source/ibn-hisham-sira, source/muruj-al-dhahab]
 status: { review: draft, completeness: 2, generated_by: "Devin; al-Raheeq al-Makhtum pp. 90, 94" }
+provenance:
+  layer: own-research
+  source: "source/ibn-hisham-sira"
+  generated_by: Devin
+  model: "unknown"
+  run: "education-E3-facts-batch14"

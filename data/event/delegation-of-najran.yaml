@@ -1,4 +1,10 @@
 id: event/delegation-of-najran
+education:
+  did_you_know:
+    ar: "قدم ستون راكباً من نصارى نجران المدينة سنة ٩هـ، فلما أبوا الإسلام دعاهم النبي إلى المباهلة فطلبوا الصلح على ألفي حلة في السنة وذمة الله ورسوله وحريتهم في دينهم."
+    en: "Sixty riders of Najran's Christians reached Medina in year 9; declining Islam, invited to the mubahala they chose treaty instead — two thousand garments a year, God's and His messenger's protection, and freedom in their faith."
+    ur: "سن ۹ھ میں نجران کے مسیحیوں کے ساٹھ سوار مدینہ آئے؛ اسلام سے انکار پر نبی نے مباہلہ کی دعوت دی تو انہوں نے صلح چنی — سالانہ دو ہزار کپڑے، اللہ و رسول کی ذمہ اور دین میں آزادی۔"
+    sources: [source/mubarakpuri-raheeq, source/futuh-buldan-maarif-1407]
 class: event
 kind: treaty
 label: { en: "The delegation of Najran", ar: "وفد نجران" }
@@ -23,3 +29,9 @@ relations:
   - { type: part_of, target: event/year-of-delegations }
 sources: [source/mubarakpuri-raheeq, source/ibn-hisham-sira, source/zad-al-maad, source/futuh-buldan-maarif-1407, source/sallabi-ali-vol1]
 status: { review: draft, completeness: 1, generated_by: "Devin; al-Raheeq al-Makhtum pp. 440-454 (batch 22)" }
+provenance:
+  layer: own-research
+  source: "source/mubarakpuri-raheeq"
+  generated_by: Devin
+  model: "unknown"
+  run: "education-E3-facts-batch9"

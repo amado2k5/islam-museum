@@ -1,4 +1,10 @@
 id: person/farwa-ibn-amr-al-judhami
+education:
+  did_you_know:
+    ar: "فروة بن عمرو الجذامي عامل الروم على معان أسلم بعد مؤتة وأهدى للنبي بغلة بيضاء؛ حبسه الروم وخيّروه بين الردة والموت فاختار الموت فصُلب بعفراء."
+    en: "Farwa ibn Amr al-Judhami, the Byzantines' governor over Ma'an, embraced Islam after Mu'ta and gifted the Prophet a white mule; the Byzantines jailed him and offered apostasy or death — he chose death and was crucified at Afra'."
+    ur: "فروہ بن عمرو جذامی، معان پر روم کا حاکم، موتہ کے بعد مسلمان ہوا اور نبی کو سفید خچر بھیجا؛ رومیوں نے دین یا موت میں انتخاب دیا — اس نے موت چنی اور سولی دی گئی۔"
+    sources: [source/mubarakpuri-raheeq, source/ibn-hisham-sira]
 class: person
 label: { en: "Farwa ibn Amr al-Judhami", ar: "فروة بن عمرو الجذامي" }
 names:
@@ -28,3 +34,9 @@ relations:
   - { type: lived_in, target: place/maan, sources: [source/ibn-hisham-saqqa] }
 sources: [source/mubarakpuri-raheeq, source/zad-al-maad, source/ibn-hisham-saqqa]
 status: { review: draft, completeness: 2, generated_by: "Devin; al-Raheeq al-Makhtum pp. 440-454 (batch 22)" }
+provenance:
+  layer: own-research
+  source: "source/mubarakpuri-raheeq"
+  generated_by: Devin
+  model: "unknown"
+  run: "education-E3-facts-batch15"
