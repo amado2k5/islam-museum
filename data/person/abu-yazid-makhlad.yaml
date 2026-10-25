@@ -1,4 +1,10 @@
 id: person/abu-yazid-makhlad
+education:
+  did_you_know:
+    ar: "أبو يزيد مخلد بن كيداد البربري المعروف بصاحب الحمار، خرج على العبيديين بالمغرب فكثر أتباعه وحاصروا القائم في المهدية حتى دارت به الدائرة."
+    en: "Abu Yazid Makhlad ibn Kaydad the Berber — 'the man of the donkey' — rose against the Ubaydi Fatimids in the Maghreb; his followers swelled and besieged al-Qa'im in al-Mahdiyya before the wheel turned on him."
+    ur: "ابویزید مخلد بن کیداد بربری — گدھے والے — نے مغرب میں عبیدیوں کے خلاف بغاوت کی؛ اس کے پیروکار بڑھے اور قائم کو مہدیہ میں گھیر لیا، یہاں تک کہ قسمت کا پھراؤ اس پر پلٹا۔"
+    sources: [source/tarikh-ibn-khaldun-ibar, source/tarikh-khulafa-minhaj-1434]
 class: person
 label: { ar: "أبو يزيد المكلف البربري", en: "Abu Yazid Makhlad" }
 summary:
@@ -7,3 +13,9 @@ summary:
 external_ids: { wikidata: "Q335488" }
 sources: [source/tarikh-ibn-khaldun-ibar, source/kamil-ibn-al-athir, source/fihrist-ibn-al-nadim]
 status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }
+provenance:
+  layer: own-research
+  source: "source/tarikh-ibn-khaldun-ibar"
+  generated_by: Devin
+  model: "unknown"
+  run: "education-E3-facts-batch12"
