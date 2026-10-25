@@ -45,6 +45,8 @@ const defaultId = "scholars";
       .lvl-sec[data-level=explorers]{font-size:1.15rem;line-height:1.9}
       .lvl-note{font-size:.9rem;margin:.5rem 0 0}
       .lvl-remember{font-size:.85rem}
+      .lvl-easy{display:flex;flex-wrap:wrap;gap:8px;align-items:center;margin:0 0 14px}
+      .lvl-easy a{min-height:44px;display:inline-flex;align-items:center;padding:0 14px;border:1px solid var(--gold);border-radius:999px;font-size:.95rem}
       @media print{.lvl [data-level],.lvl-full{display:block!important}}
     </style>
     <script is:inline>
@@ -55,5 +57,8 @@ const defaultId = "scholars";
     </script>
   </div>
 ) : (
-  <slot />
+  <>
+    {kidsHref && <p class="ui lvl-easy no-print"><span class="muted">{E.level_easy}</span> <a href={kidsHref}>{E.level_kids_link}</a></p>}
+    <slot />
+  </>
 )}
