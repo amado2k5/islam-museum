@@ -16,3 +16,8 @@ translators: []
 ## من حلقات الشيخ: السعادة في العلم النافع
 يقول الشيخ إن السعادة ليست في جمع المال، وإنما أن يعطي الله العبد علما ينتفع به {cite:assabile-omar-abdelkafy aadau-al-islam/ep04 00:30:30}.
 ويوصي الشيخ بتوقير أهل العلم واحترامهم، ويذكر أن من تواضع لله رفعه {cite:assabile-omar-abdelkafy aadau-al-islam/ep04 00:32:00}.
+
+## العلم في درس الشيخ عمر عبد الكافي (الحلقات الأولى والثانية والثالثة والتاسعة)
+يذكر الشيخ أن طالب العلم تعترضه ثلاث عقبات: أولها الكذب، وثانيها الحسد الذي يغلق ما بين الناس والعلم، وثالثها أن تكون الدنيا طافحة في القلب (رأيه). {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep01 00:01:00} {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep01 00:04:00} {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep01 00:04:30}
+ويقول الشيخ إن القلب يحتاج إلى درس علم كل ثلاثة أيام، وإن القلب إن ترك الدرس تعصاه الجوارح وتقتحمه الدنيا (needs_source). {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep01 00:25:30} ويذكر أن مجالس العلم خير، وأن الطاعة فيها قد يكون فيها رضوان الله، فلا يحتقر المؤمن منها شيئا (رأيه). {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep02 00:03:00} {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep02 00:03:30}
+ويقول إن من يكثر الكلام فيما لا يعلم لا يُعلم (رأيه). {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep03 00:25:30} ويقول إن الجالس في حلقة العلم أفضل من الملائكة لأنه يجاهد نفسه (رأيه). {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep09 00:42:00}

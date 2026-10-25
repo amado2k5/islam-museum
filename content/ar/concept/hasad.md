@@ -18,3 +18,7 @@ translators: []
 
 ## أمثلة عند الشيخ عمر عبد الكافي
 يعرض الشيخ أمثلة لما يصيب القلب من التمني والمقارنة في النعم، كأن يقول الإنسان إن عنده ولدا صالحا وغيره لا ولد له، أو ولدا سليما وغيره ولد مريض (needs_source: تصنيف هذه الأمثلة بالحسد غير واضح في التسجيل). {cite:assabile-omar-abdelkafy al-hoquq/ep03 00:29:30}
+
+## الحسد في درس الشيخ عمر عبد الكافي (الحلقة الخامسة)
+يقول الشيخ إن الصبر على من حولك، ومنهم أقارب يحسدونك، من الصبر الذي يُحتاج إليه (رأيه). {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep05 00:45:00} ويرى أن الحسد يُكسر بالإحسان إلى من يحسدك، وبزيادة الطيبة معه (رأيه). {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep05 00:45:30}
+ويذكر الشيخ الاستعاذة من وسوسة الشيطان، ودفع السيئة بالتي هي أحسن (needs_source). {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep05 00:46:00} {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep05 00:47:00}

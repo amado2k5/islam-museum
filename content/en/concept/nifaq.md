@@ -23,3 +23,6 @@ He says the hypocrite does not show mercy to believers, and that a heart filled 
 
 ## Hypocrisy of conduct in the lectures
 The speaker distinguishes a person who behaves one way at work and another way at home, and calls this hypocrisy of conduct {cite:assabile-omar-abdelkafy aadau-al-islam/ep03 00:51:00}.
+
+## Hypocrisy in Sheikh Omar Abdelkafy's lessons (episode 3)
+The Sheikh says that the first level is for the disobedient monotheists who died with debts owed to people, and he holds that the punishment of the hypocrites is harsher than that of the Jews. This is a comparison between groups that he presents as his own view, which has not been checked against a source (needs_source, his view). {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep03 00:45:30}

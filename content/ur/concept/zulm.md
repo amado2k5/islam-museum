@@ -22,3 +22,8 @@ translators: ["Claude Haiku 5.5 (claude-haiku-5-5), draft translation"]
 
 ## ابن خلدون کے ہاں
 ابن خلدون اسے عمران کی ویرانی کا اعلان سمجھتے ہیں۔ دیکھیں [[concept/zulm-mukharrib-al-umran|ظلم عمران کے ویران ہونے کی خبر ہے]]۔ {cite:muqaddima-ibn-khaldun p.276-278}
+
+## شیخ عمر عبدالکافی کے درسوں میں ظلم (قسط تین اور چار)
+شیخ کہتے ہیں کہ ظلم دوسروں کے حقوق پر تجاوز ہے، جیسے سیلاب اپنے کناروں سے باہر نکل جائے (needs_source)۔ {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep04 00:21:00} وہ کہتے ہیں کہ ظلم اور والدین کی نافرمانی دنیا میں بھی پھل دیتے ہیں، اور تاریخ میں کوئی ظالم بغیر سزا کے نہیں رہا، اور مکہ کے ان ظالموں کا ذکر کرتے ہیں جنہوں نے بلال اور عمار کو ستایا (needs_source)۔ {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep04 00:22:00} {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep04 00:22:30}
+وہ کہتے ہیں کہ جو کسی کی زمین کا ایک بالشت بھی ناحق لے، اسے سزا ملتی ہے، اور فیصلہ دلائل سے ہوتا ہے، اور بھائی کے حق میں سے بغیر وجہ جو لیا جائے وہ آگ کا ٹکڑا ہے (needs_source)۔ {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep04 00:44:30} {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep04 00:45:00}
+ان کی رائے ہے کہ ظالم کی آگ اسی کی طرف لوٹتی ہے، کیونکہ اس نے دلوں میں آگ بوئی تھی (شیخ کی رائے)۔ {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep03 00:46:00} {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep03 00:46:30} وہ کہتے ہیں کہ ہر شخص کا حساب اس سامان کی طرح ہے جو وہ سپر مارکیٹ سے لیتا ہے، جس کا ہر ایک سے حساب ہوگا (شیخ کی رائے)۔ {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep03 00:47:00}
