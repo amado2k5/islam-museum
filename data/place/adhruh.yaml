@@ -11,5 +11,9 @@ coordinates: [30.3281, 35.5986]
 coordinate_precision: locality
 coordinate_note: "ويكي بيانات Q12179288 (أذرح/Udhruh، بلدة في جنوب الأردن قرب معان)؛ تحديد الموضع التاريخي بالبلدة الحالية على مستوى الناحية."
 external_ids: { wikidata: "Q12179288" }
-sources: [source/ibn-hisham-saqqa]
-status: { review: draft, completeness: 1, generated_by: "Claude Sonnet 5.5; mined from Ibn Hisham juz' 4 pp. 169; coordinates added by Claude Code (subagent), claude-sonnet-5-5" }
+sources: [source/ibn-hisham-saqqa, source/encyclopaedia-of-islam-2]
+provenance:
+  layer: own-research
+  source: "Encyclopaedia of Islam, 2nd ed. (Brill), vol. 1, PDF p. 213 (EI2 enrichment, batch ei2-b003 part 3ap)"
+  generated_by: "Claude Code (claude-haiku-5-5)"
+status: { review: draft, completeness: 2, generated_by: "Claude Sonnet 5.5; mined from Ibn Hisham juz' 4 pp. 169; coordinates added by Claude Code (subagent), claude-sonnet-5-5; EI2 enrichment ei2-b003 part 3ap" }
