@@ -39,6 +39,8 @@ His books include «Kayfa Atub?» ("How Do I Repent?"), his first book, a set of
 ## Impact and audience
 Wikidata records 333,000 subscribers for his YouTube channel on 28 January 2024 — a dated platform figure the museum records only with its date. His lessons are published through his official website and the "Al-Madrasa al-Rabbaniyya" site. {cite:wikidata-mohamed-hussein-yaqoub} {cite:wikipedia-mohamed-hussein-yaqoub-ar}
 
+His own YouTube channel, which describes itself as his official channel and links his official website yaqob.com, recorded 429,587 subscribers on 25 October 2026. {cite:youtube-mohamed-hussein-yaqoub}
+
 ## References
 - The defined sources cited above, registered in `data/source/`.
 - Later translations and edits of this article need periodic review with clear update dates.
