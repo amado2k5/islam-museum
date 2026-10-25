@@ -1,0 +1,46 @@
+id: person/muhammad-ali
+class: person
+label: { ar: "محمد علي", en: "Muhammad Ali", ur: "محمد علی" }
+names:
+  - { value: "محمد علي", kind: full }
+  - { value: "Muhammad Ali", kind: full }
+  - { value: "Cassius Marcellus Clay Jr.", kind: full }
+gender: male
+summary:
+  ar: "ملاكم أمريكي وناشط، وُلد باسم كاسيوس مارسيلوس كلاي الابن في لويفيل بولاية كنتاكي سنة 1942، وفاز ببطولة العالم للوزن الثقيل ثلاث مرات (1964 و1974 و1978)، واعتنق الإسلام في الستينيات ثم انتقل إلى الإسلام السني في السبعينيات، ورفض التجنيد في حرب فيتنام فجُرّد من ألقابه حتى ألغت المحكمة العليا إدانته سنة 1971، وتوفي سنة 2016."
+  en: "American boxer and activist, born Cassius Marcellus Clay Jr. in Louisville, Kentucky, in 1942. He won the world heavyweight championship three times (1964, 1974, 1978), converted to Islam in the 1960s and later moved to Sunni Islam in the 1970s, refused the Vietnam War draft and was stripped of his titles until the Supreme Court overturned his conviction in 1971, and died in 2016."
+  ur: "امریکی باکسر اور سماجی کارکن، جو 1942 میں لوئس ول، کینٹکی میں کیسیئس مارسیلس کلے جونیئر کے نام سے پیدا ہوئے۔ انہوں نے تین بار (1964، 1974، 1978) ورلڈ ہیوی ویٹ چیمپئن شپ جیتی، ساٹھ کی دہائی میں اسلام قبول کیا اور ستر کی دہائی میں سنی اسلام کی طرف منتقل ہوئے، ویتنام جنگ میں بھرتی سے انکار پر ان کے خطابات چھین لیے گئے یہاں تک کہ سپریم کورٹ نے 1971 میں ان کی سزا کالعدم قرار دی، اور 2016 میں وفات پائی۔"
+roles: [boxer, activist]
+wings: [people]
+born:
+  edtf: "1942-01-17"
+  hijri: "1360"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "Gregorian date and Louisville birthplace from English Wikipedia and Wikidata Q36107; the Hijri year (1360) is derived by tabular conversion."
+  sources: [source/wikipedia-muhammad-ali-en, source/wikidata-muhammad-ali]
+died:
+  edtf: "2016-06-03"
+  hijri: "1437"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "Gregorian date and Scottsdale, Arizona place of death from English Wikipedia and Wikidata Q36107; the article records septic shock as the cause. The Hijri year (1437) is derived by tabular conversion."
+  sources: [source/wikipedia-muhammad-ali-en, source/wikidata-muhammad-ali]
+relations: []
+faith:
+  - value: sunni
+    basis: documented
+    note: "English Wikipedia records that Ali joined the Nation of Islam in the early 1960s and transitioned to Sunni Islam in the mid-1970s after the death of Elijah Muhammad, following Warith Deen Muhammad, and his own 2004 autobiography attributes the move to Warith Deen's leadership. IslamiCity independently records that in 1975 he left the Nation of Islam and became part of Sunni Islam. English Wikipedia also records his later interest in Sufism, described in his autobiography The Soul of a Butterfly; the recorded school remains Sunni Islam."
+    sources: [source/wikipedia-muhammad-ali-en, source/islamicity-muhammad-ali]
+external_ids: { wikidata: "Q36107" }
+sources: [source/wikipedia-muhammad-ali-en, source/wikipedia-muhammad-ali-ar, source/wikidata-muhammad-ali, source/islamicity-muhammad-ali]
+provenance:
+  layer: own-research
+  source: "English and Arabic Wikipedia, Wikidata Q36107 and IslamiCity, as cited in those articles and checked in Chrome on 26 Oct 2026. This record is the American boxer Muhammad Ali (born Cassius Marcellus Clay Jr., 1942–2016) — not person/muhammad-ali-lantern, the Muslim Lantern presenter, and not person/muhammad-ali-pasha, the nineteenth-century ruler of Egypt."
+  generated_by: "Claude Code (claude-haiku-5-5)"
+  run: century-additions-1
+status: { review: published, generated_by: "Claude Code (claude-haiku-5-5)" }
