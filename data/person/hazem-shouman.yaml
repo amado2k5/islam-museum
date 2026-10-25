@@ -1,0 +1,35 @@
+id: person/hazem-shouman
+class: person
+label: { ar: "حازم شومان", en: "Hazem Shouman", ur: "حازم شومان" }
+names:
+  - { value: "حازم شومان", kind: full }
+  - { value: "Hazem Shouman", kind: full }
+gender: male
+summary:
+  ar: "داعية وطبيب مصري، وُلد في المنصورة سنة 1974 وتخرج في كلية الطب بجامعة المنصورة. اشتهر بدروسه للشباب في مسجد السلاب بالمنصورة وببرامجه وسلاسله على القنوات الفضائية، وله عدد من الكتب الدعوية."
+  en: "Egyptian preacher and physician, born in Mansoura in 1974 and a graduate of Mansoura University's Faculty of Medicine. He became known for his youth lessons at the Al-Sallab Mosque in Mansoura and for his programmes and series on satellite channels, and has written several devotional books."
+  ur: "مصری مبلغ اور طبیب، جو 1974 میں منصورہ میں پیدا ہوئے اور منصورہ یونیورسٹی کے شعبہ طب سے فارغ التحصیل ہیں۔ وہ منصورہ کی مسجد السلاب میں نوجوانوں کے دروس اور سیٹلائٹ چینلوں پر اپنے پروگراموں اور سلسلوں کے لیے مشہور ہوئے، اور ان کی کئی دعوتی کتابیں ہیں۔"
+roles: [preacher, physician]
+wings: [people, living]
+born:
+  edtf: "1974-12-10"
+  hijri: "1394"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "Born at Mansoura in the Dakahlia Governorate. Gregorian date from Arabic Wikipedia and Wikidata; the Hijri year (1394) is converted and marked derived."
+  sources: [source/wikipedia-hazem-shouman-ar, source/wikidata-hazem-shouman]
+faith:
+  - value: unknown
+    basis: unknown
+    note: "No source names a school for him: the Arabic Wikipedia article has no denomination field, and Wikidata records no religion statement at all. Not recorded."
+    sources: [source/wikipedia-hazem-shouman-ar, source/wikidata-hazem-shouman]
+external_ids: { wikidata: "Q96465113" }
+sources: [source/wikipedia-hazem-shouman-ar, source/wikidata-hazem-shouman]
+provenance:
+  layer: own-research
+  source: "Arabic Wikipedia article «حازم شومان» (revision of 22 September 2026) and Wikidata Q96465113; no English Wikipedia article exists (an Egyptian Arabic article does). Checked 24 October 2026"
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: modern-figures-batch-5
+status: { review: published, completeness: 2, generated_by: "Muse (Muse Spark 1.3)" }
