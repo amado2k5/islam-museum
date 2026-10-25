@@ -24,3 +24,7 @@ He says mercy includes kin, and that a neighbour must not be harmed. {cite:assab
 
 ## His conclusion
 He says God does not show mercy to those who do not show mercy to one another. {cite:assabile-omar-abdelkafy aadau-al-islam/ep03 00:21:00} He says a heart that holds mercy does not find the way of hypocrisy. {cite:assabile-omar-abdelkafy aadau-al-islam/ep03 00:50:00}
+
+## Mercy between spouses and in upbringing
+Between spouses, the Sheikh distinguishes affection from mercy and places affection in the days of engagement, when each adorns themselves for the other. {cite:assabile-omar-abdelkafy al-hoquq/ep02 00:05:30} {cite:assabile-omar-abdelkafy al-hoquq/ep02 00:06:00}
+He recounts that a man told the Prophet he had ten children (needs_source: the number is spoken once in the transcript) and had never kissed one of them, and the Prophet told him that whoever shows no mercy is shown none. {cite:assabile-omar-abdelkafy al-hoquq/ep05 00:09:30} {cite:assabile-omar-abdelkafy al-hoquq/ep05 00:10:00}
