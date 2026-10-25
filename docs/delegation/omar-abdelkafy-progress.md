@@ -41,7 +41,7 @@ Nothing is re-entered without the founder's written authorisation.
 
 | Item | Episode / time | Reason | Gate failed | Override |
 |---|---|---|---|---|
-| (none yet) | | | | |
+| Pilot windows excluded by the two-engine check: 1 of 205 agreed across ep01–ep04 (about 99.5% excluded) | aadau-al-islam ep01–ep04 (ep02 has MP3 decoder warnings) | Qwen and large-v3 gave different words for the same audio | Two-engine agreement check (per 60 s window) | Re-entered by founder authorisation (25 Oct 2026): all four pilot episodes are included from the working engine's output. |
 
 ## Batch log
 
