@@ -28,6 +28,7 @@ const gTicks = ceTicks(MIN, MAX);
 for (const m of markers) if (m.x < 0 || m.x > W) throw new Error(`timeline: marker for year ${m.y} falls off the axis (${m.x})`);
 for (const b of bands) if (b.x0 < 0 || b.x1 > W) throw new Error(`timeline: band ${b.id} falls off the axis`);
 const dual = (y: number) => `${yearLabel(Math.floor(y), lang)}`;
+---
 <section class="tl ui" data-timeline data-cal="h" data-src={`/timeline-data/${lang}.json`} aria-labelledby="tl-title">
   <div class="tl-head">
     <h2 id="tl-title" style="margin:0;font-size:1.3rem">{T.timeline.title}</h2>
