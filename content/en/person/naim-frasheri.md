@@ -1,6 +1,6 @@
 ---
 lang: en
-entity: person/naim-frasheri
+id: person/naim-frasheri
 title: "Naim Frashëri (1846–1900)"
 ---
 

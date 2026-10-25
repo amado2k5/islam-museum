@@ -1,6 +1,6 @@
 ---
 lang: en
-entity: person/ma-al-aynayn
+id: person/ma-al-aynayn
 title: "Ma al-'Aynayn (1831–1910)"
 ---
 

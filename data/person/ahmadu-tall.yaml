@@ -8,7 +8,7 @@ label:
 
 names:
   - { value: "Ahmad al-Madani al-Kabir at-Tijani", lang: en, kind: full }
-  - { value: "Ahmadou Sekou Tall", lang: en, kind: variant }
+  - { value: "Ahmadou Sekou Tall", lang: en, kind: alternate }
 
 summary:
   ar: "حاكم إمبراطورية التوكولور (1836-1897) ونجل الحاج عمر تال الأكبر وخليفته. فتح سيغو سنة 1861 وتولّى الإمبراطورية بعد وفاة أبيه سنة 1864، وصمد نحو ثلاثة عقود أمام الزحف الفرنسي بقيادة أرشينار حتى سقطت سيغو سنة 1890 وباندياغارا سنة 1893، فآثر المنفى شرقا على عرض فرنسا بالتقاعد المريح وتوفي قرب سوكوتو سنة 1897."
@@ -20,39 +20,37 @@ wings: [people]
 
 faith:
   - value: unknown
-    status: unknown
-    basis_sources: [source/wikipedia-ahmadu-tall-en, source/wikipedia-ahmadu-tall-fr, source/wikipedia-ahmadu-tall-ar, source/wikidata-ahmadu-tall]
+    basis: unknown
+    sources: [source/wikipedia-ahmadu-tall-en, source/wikipedia-ahmadu-tall-fr, source/wikipedia-ahmadu-tall-ar, source/wikidata-ahmadu-tall]
     note: "NOT RECORDED AS DOCUMENTED — no fetched source attests Ahmadu Tall's own affiliation to a school or order. His father al-Hajj Umar Tall's Tijani sheikhdom is his father's attestation (it is recorded in the father's own record, person/al-hajj-umar-tal) and can never be transferred to the son; the English article gives Ahmadu's full name as 'Ahmad al-Madani al-Kabir at-Tijani' — a name and nisba, not an attestation of initiation or adherence — and its character sketch from Diafunu tradition ('very calm, sober, pensive, and ascetic') describes temperament, not a school. Wikidata's religion statement is Islam generically (Q432), one structured-data value naming no order or school, and the French and Arabic articles make no statement about his personal affiliation. Under the lane's two-source rule and the founder's doubt rule ('if we have doubt then unclassified') the faith is left unknown."
 
 born:
-  place_text: "in the Sokoto Caliphate (present-day Nigeria), during his father Umar Tall's stay there"
-  date:
-    edtf: "1836-06-21"
-    hijri: "1252"
-    calendar: gregorian
-    precision: day
-    status: historical
-    derived: true
-    note: "Born 21 June 1836; the English, French and Arabic articles agree, and Wikidata carries the same date at day precision alongside a year-precision variant of 1833, recorded here. The English article places the birth during his father Umar Tall's stay in the Sokoto Caliphate; the French article names Sokoto as the birthplace with a citation-needed flag, recorded here rather than silently adopted. The Arabic article pairs 21 June 1836 with 22 Rabi' al-Awwal 1252 AH, which converts to about 8 June 1836 — an internal mismatch; the Hijri year shown is derived by tabular conversion of the Gregorian date the three articles agree on."
+  edtf: "1836-06-21"
+  hijri: "1252"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "Place: in the Sokoto Caliphate (present-day Nigeria), during his father Umar Tall's stay there — Born 21 June 1836; the English, French and Arabic articles agree, and Wikidata carries the same date at day precision alongside a year-precision variant of 1833, recorded here. The English article places the birth during his father Umar Tall's stay in the Sokoto Caliphate; the French article names Sokoto as the birthplace with a citation-needed flag, recorded here rather than silently adopted. The Arabic article pairs 21 June 1836 with 22 Rabi' al-Awwal 1252 AH, which converts to about 8 June 1836 — an internal mismatch; the Hijri year shown is derived by tabular conversion of the Gregorian date the three articles agree on."
   sources: [source/wikipedia-ahmadu-tall-en, source/wikipedia-ahmadu-tall-fr, source/wikidata-ahmadu-tall]
 
 died:
-  place_text: "Maykouki, near Sokoto (present-day Nigeria)"
-  date:
-    edtf: "1897-12-15"
-    hijri: "1315"
-    calendar: gregorian
-    precision: day
-    status: historical
-    derived: true
-    note: "Died 15 December 1897 at Maykouki, near Sokoto, in exile; the English, French and Arabic articles agree, and Wikidata carries the same date at day precision alongside a year-precision variant of 1898, recorded here. The Hijri year is derived by tabular conversion."
+  edtf: "1897-12-15"
+  hijri: "1315"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "Place: Maykouki, near Sokoto (present-day Nigeria) — Died 15 December 1897 at Maykouki, near Sokoto, in exile; the English, French and Arabic articles agree, and Wikidata carries the same date at day precision alongside a year-precision variant of 1898, recorded here. The Hijri year is derived by tabular conversion."
   sources: [source/wikipedia-ahmadu-tall-en, source/wikipedia-ahmadu-tall-fr, source/wikidata-ahmadu-tall]
 
 relations:
-  - predicate: child_of
+  - type: child_of
     target: person/al-hajj-umar-tal
     note: "Eldest son of al-Hajj Umar Tall, founder of the Toucouleur Empire, whom he succeeded in 1864. The father's museum record exists as person/al-hajj-umar-tal (a Wikidata-import draft skeleton under the name al-Hajj Umar ibn Sa'id al-Futi Tal, Q185938), not under the slug umar-tall the brief expected; the identity is confirmed by the QID and by all three articles."
     sources: [source/wikipedia-ahmadu-tall-en, source/wikipedia-ahmadu-tall-fr]
+
+sources: [source/wikidata-ahmadu-tall, source/wikipedia-ahmadu-tall-ar, source/wikipedia-ahmadu-tall-en, source/wikipedia-ahmadu-tall-fr]
 
 external_ids:
   wikidata: Q2740187

@@ -1,6 +1,6 @@
 ---
 lang: ur
-entity: person/sami-frasheri
+id: person/sami-frasheri
 title: "شمس الدین سامی فراشری (1850ء–1904ء)"
 ---
 

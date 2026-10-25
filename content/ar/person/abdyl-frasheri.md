@@ -1,6 +1,6 @@
 ---
 lang: ar
-entity: person/abdyl-frasheri
+id: person/abdyl-frasheri
 title: "عبدول فراشيري (1839–1892)"
 ---
 
