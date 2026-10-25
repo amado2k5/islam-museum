@@ -133,11 +133,11 @@ lists' own order. Status markers: [ ] queued · [~] in a writer's hands · [x] m
 - [x] Humayun Ahmed — 1948–2012
 - [x] Zainul Abedin — 1914–1976
 - [x] SM Sultan — 1923–1994
-- [ ] Feryal Clark — 1979–Living
-- [ ] Shabana Mahmood — 1980–Living
-- [ ] Rushanara Ali — 1975–Living
-- [ ] Yasmin Qureshi — 1963–Living
-- [ ] Humza Yousaf — 1985–Living
+- [x] Feryal Clark — 1979–Living
+- [x] Shabana Mahmood — 1980–Living
+- [x] Rushanara Ali — 1975–Living
+- [x] Yasmin Qureshi — 1963–Living
+- [x] Humza Yousaf — 1985–Living
 - [ ] Anas Sarwar — 1983–Living
 - [ ] Nasser Hussain — 1968–Living
 - [ ] Moeen Ali — 1987–Living

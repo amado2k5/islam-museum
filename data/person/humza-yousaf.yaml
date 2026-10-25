@@ -1,0 +1,35 @@
+id: person/humza-yousaf
+class: person
+label: { ar: "حمزة يوسف", en: "Humza Yousaf", ur: "حمزہ یوسف" }
+names:
+  - { value: "Humza Haroon Yousaf", kind: full }
+  - { value: "حمزة هارون يوسف", kind: full }
+gender: male
+summary:
+  ar: "سياسي إسكتلندي من الحزب الوطني الإسكتلندي، وُلد في غلاسكو سنة 1985 لأبوين مهاجرين من أصول باكستانية وكينية. درس السياسة في جامعة غلاسكو وعمل مساعدا برلمانيا، وانتُخب عضوا في البرلمان الإسكتلندي سنة 2011، فوزيرا للعدل (2018-2021) ثم للصحة والرعاية الاجتماعية (2021-2023)، وفاز بزعامة حزبه سنة 2023 فصار الوزير الأول لإسكتلندا، أولَ مسلم وأصغر شخص يشغل المنصب، واستقال في أبريل 2024."
+  en: "Scottish politician of the Scottish National Party, born in Glasgow in 1985 to immigrant parents of Pakistani and Kenyan background. He studied politics at the University of Glasgow, worked as a parliamentary assistant, was elected to the Scottish Parliament in 2011, served as justice secretary (2018–2021) and health secretary (2021–2023), won his party's leadership in 2023 and became First Minister of Scotland — the first Muslim and the youngest person to hold the office — and resigned in April 2024."
+  ur: "اسکاٹش نیشنل پارٹی کے اسکاٹ لینڈ کے سیاست دان، جو 1985 میں گلاسگو میں پاکستانی اور کینیائی پس منظر کے مہاجر والدین کے ہاں پیدا ہوئے۔ انھوں نے یونیورسٹی آف گلاسگو میں سیاست پڑھی، پارلیمانی معاون رہے، 2011 میں اسکاٹش پارلیمان کے رکن منتخب ہوئے، وزیرِ انصاف (2018ء–2021ء) اور وزیرِ صحت (2021ء–2023ء) رہے، 2023 میں پارٹی قیادت جیت کر اسکاٹ لینڈ کے وزیرِ اول بنے — اس عہدے پر فائز ہونے والے پہلے مسلمان اور سب سے کم عمر شخص — اور اپریل 2024 میں مستعفی ہوئے۔"
+roles: [politician]
+wings: [people, living]
+born:
+  edtf: "1985-04-07"
+  hijri: "1405"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "Born on 7 April 1985 in Glasgow, Scotland, per both Wikipedia articles and Wikidata. No place entity for Glasgow exists in data/place/, so no born_in relation is written. The Hijri year (1405) is derived by tabular conversion."
+  sources: [source/wikipedia-humza-yousaf-en, source/wikipedia-humza-yousaf-ar, source/wikidata-humza-yousaf]
+faith:
+  - value: unknown
+    basis: unknown
+    note: "NOT RECORDED AS DOCUMENTED — no second independent source names a school for him. The Arabic article's infobox gives his religion as مسلم سنّي (Sunni Muslim): a single infobox value inside the Wikipedia family, exactly the Amr Khaled pattern. The English article calls him a practising Muslim who does not legislate on the basis of his faith, and the first Muslim First Minister — practice and a generic Muslim attestation, naming no school in its text. The Scots Wikipedia infobox gives only Islam. Under the two-source rule and the founder's doubt rule the value stays unknown."
+    sources: [source/wikipedia-humza-yousaf-en, source/wikipedia-humza-yousaf-ar, source/wikidata-humza-yousaf]
+external_ids: { wikidata: "Q174924" }
+sources: [source/wikipedia-humza-yousaf-en, source/wikipedia-humza-yousaf-ar, source/wikidata-humza-yousaf]
+provenance:
+  layer: own-research
+  source: "English Wikipedia 'Humza Yousaf' and Arabic Wikipedia «حمزة يوسف (سياسي)», both read on 25 October 2026; Wikidata Q174924 verified from the item's own revision URL as surfaced in search, whose sitelinks include both articles. This record is for the Scottish politician Humza Haroon Yousaf, not the American scholar Hamza Yusuf (a different person, already distinguished in the Arabic article's title by the qualifier سياسي). No earlier record for him existed in data/person/ under humza-yousaf or any other spelling checked; this is a new build, not an enrichment."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: century-additions-18
+status: { review: published, completeness: 3, generated_by: "Muse (Muse Spark 1.3)" }

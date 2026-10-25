@@ -1,0 +1,36 @@
+id: person/shabana-mahmood
+class: person
+label: { ar: "شبانة محمود", en: "Shabana Mahmood", ur: "شبانہ محمود" }
+names:
+  - { value: "Shabana Mahmood", kind: full }
+  - { value: "شبانہ محمود", kind: full }
+gender: female
+summary:
+  ar: "سياسية ومحامية بريطانية من حزب العمال، وُلدت في برمنغهام سنة 1980 لأبوين من أصل باكستاني، وعاشت طفولتها سنوات في الطائف. درست القانون في كلية لينكولن بأوكسفورد وتخصصت محامية في التعويضات المهنية، وانتُخبت سنة 2010 نائبة عن برمنغهام ليديوود ضمن أوائل النائبات المسلمات في بريطانيا، ثم وزيرة للعدل والسيد المستشار (2024-2025) فكانت أول مسلم يشغل منصب السيد المستشار، ثم وزيرة للداخلية منذ سبتمبر 2025."
+  en: "British Labour Party politician and barrister, born in Birmingham in 1980 to parents of Pakistani origin, who spent part of her childhood in Taif. She read law at Lincoln College, Oxford, practised as a barrister specialising in professional indemnity, was elected MP for Birmingham Ladywood in 2010 as one of the UK's first female Muslim MPs, served as Secretary of State for Justice and Lord Chancellor (2024–2025) — the first Muslim to hold the lord chancellorship — and has been Home Secretary since September 2025."
+  ur: "برطانوی لیبر پارٹی کی سیاست دان اور بیرسٹر، جو 1980 میں برمنگھم میں پاکستانی نژاد والدین کے ہاں پیدا ہوئیں اور بچپن کا کچھ حصہ طائف میں گزارا۔ انھوں نے لنکن کالج، آکسفورڈ سے قانون پڑھا اور پیشہ ورانہ معاوضے کے شعبے میں بیرسٹر رہیں، 2010 میں برمنگھم لیڈی وڈ سے رکنِ پارلیمان منتخب ہو کر برطانیہ کی پہلی مسلم خواتین ارکان میں شامل ہوئیں، پھر وزیرِ انصاف اور لارڈ چانسلر (2024ء–2025ء) بنیں — اس عہدے پر فائز ہونے والی پہلی مسلمان — اور ستمبر 2025 سے وزیرِ داخلہ ہیں۔"
+roles: [politician]
+wings: [people, living]
+born:
+  edtf: "1980-09-17"
+  hijri: "1400"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "Born on 17 September 1980 in Birmingham, England, per both Wikipedia articles. No place entity for Birmingham exists in data/place/, so no born_in relation is written. She lived with her family in Taif from 1981 to 1986, and a lived_in relation to place/taif is written. The Hijri year (1400) is derived by tabular conversion."
+  sources: [source/wikipedia-shabana-mahmood-en, source/wikipedia-shabana-mahmood-ar]
+relations:
+  - { type: lived_in, target: place/taif, sources: [source/wikipedia-shabana-mahmood-en] }
+faith:
+  - value: unknown
+    basis: unknown
+    note: "NOT RECORDED AS DOCUMENTED — no two independent sources name a school for her. The English and Arabic articles describe her, with Rushanara Ali and Yasmin Qureshi, as one of the UK's first female Muslim MPs, and the English article as the first Muslim Lord Chancellor; she is quoted (Sunday Times interview, 30 March 2024, via Wikiquote) calling her faith 'the centrepoint of my life'. Those attest a generic Muslim identity and personal practice, not a school. Under the two-source rule and the founder's doubt rule the value stays unknown."
+    sources: [source/wikipedia-shabana-mahmood-en, source/wikipedia-shabana-mahmood-ar]
+sources: [source/wikipedia-shabana-mahmood-en, source/wikipedia-shabana-mahmood-ar]
+provenance:
+  layer: own-research
+  source: "English Wikipedia 'Shabana Mahmood' and Arabic Wikipedia «شبانة محمود», both read on 25 October 2026. No Wikidata source entity is registered for her in this batch: her QID could not be verified from this machine (the Wikidata site is unreachable through Wikimedia's open-proxy block and web search surfaced no verifiable QID for her item), so no QID is recorded rather than guessed. No earlier record for her existed in data/person/ under shabana-mahmood or any other spelling checked; this is a new build, not an enrichment."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: century-additions-18
+status: { review: published, completeness: 3, generated_by: "Muse (Muse Spark 1.3)" }
