@@ -21,5 +21,9 @@ relations:
   - { type: participated_in, target: event/assassination-attempt-of-amir-and-arbad, role: "صاحب المؤامرة", sources: [source/ibn-hisham-saqqa, source/mubarakpuri-raheeq] }
   - { type: participated_in, target: event/death-of-amir-ibn-al-tufayl, role: "المتوفى", sources: [source/ibn-hisham-saqqa] }
   - { type: participated_in, target: event/incident-of-bir-mauna, role: "الغادر بالدعاة", sources: [source/mubarakpuri-raheeq] }
-sources: [source/mubarakpuri-raheeq, source/sahih-al-bukhari, source/zad-al-maad, source/muruj-al-dhahab, source/ibn-hisham-saqqa]
-status: { review: draft, completeness: 2, generated_by: "Devin; al-Raheeq al-Makhtum pp. 440-454 (batch 22)" }
+provenance:
+  layer: own-research
+  source: "Encyclopaedia of Islam, 2nd ed. (Brill), vol. 1, PDF p. 464, EI2 account (batch ei2-b010 part 3ej); the earlier sources are al-Raheeq al-Makhtum pp. 440-454 and the others listed"
+  generated_by: "Claude Code (claude-haiku-5-5)"
+sources: [source/mubarakpuri-raheeq, source/sahih-al-bukhari, source/zad-al-maad, source/muruj-al-dhahab, source/ibn-hisham-saqqa, source/encyclopaedia-of-islam-2]
+status: { review: published, completeness: 2, generated_by: "Devin; al-Raheeq al-Makhtum pp. 440-454 (batch 22); EI2 account added in ei2-b010 part 3ej" }
