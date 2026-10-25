@@ -30,3 +30,12 @@ Ibn Hisham mentions that Abu Talib once saw the Prophet and [[person/ali-ibn-abi
 
 ## His death (The Sealed Nectar, pp.115–116)
 He died in Rajab of the tenth year of the mission, according to the book's preferred dating. At his death the Prophet invited him to say "There is no god but God," but he refused. A verse was revealed about asking forgiveness for him ([[event/death-of-abu-talib|The death of Abu Talib]]) {cite:mubarakpuri-raheeq p.115} {cite:sahih-al-bukhari 1/548}.
+
+## Overview
+Abu Talib b. 'Abd al-Muttalib b. Hashim, whose name was 'Abd Manaf, was the uncle and guardian of Muhammad. The unsigned Encyclopaedia of Islam (2nd ed.) entry says that he inherited from his father the offices of siqaya and rifada, providing water and food for pilgrims. {cite:encyclopaedia-of-islam-2 vol. 1 p. 171}
+
+## Chief of Hashim
+He fell into debt and surrendered the siqaya and rifada to al-'Abbas, but he remained chief of the clan of Hashim, and their quarter of the town was called the shi'b of Abu Talib. When 'Abd al-Muttalib died he looked after Muhammad, and is said to have taken him on trading journeys to Syria. {cite:encyclopaedia-of-islam-2 vol. 1 p. 171}
+
+## The boycott and his death
+He continued to protect Muhammad when he came forward as a prophet, even when most of the other clans of Quraysh boycotted Hashim and al-Muttalib. He died shortly after the end of the boycott, about 619, and was probably succeeded as chief by his brother Abu Lahab. His sons by Fatima bint Asad b. Hashim, 'Ali, who is said to have been brought up by Muhammad, and Ja'far became Muslims; Talib fought against Muhammad at Badr. The article notes that whether Abu Talib himself was a Muslim was much discussed in connection with the fate of those who lived before Muhammad's mission. {cite:encyclopaedia-of-islam-2 vol. 1 p. 171}
