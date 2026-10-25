@@ -1,4 +1,10 @@
 id: event/badr-duel
+education:
+  did_you_know:
+    ar: "افتتحت بدر بالمبارزة: خرج عتبة وشيبة والوليد بن عتبة للقرشيين فبرز لهم عبيدة وحمزة وعلي، فسقط القرشيون الثلاثة."
+    en: "Badr opened with a duel: Utba, Shayba and al-Walid stepped out for Quraysh; Ubayda, Hamza and Ali met them, and the three Qurashis fell."
+    ur: "بدر کا آغاز مبارزے سے ہوا: قریش سے عتبہ، شیبہ اور ولید نکلے؛ ان کا مقابلہ عبیدہ، حمزہ اور علی نے کیا اور تینوں قریشی گرے۔"
+    sources: [source/mubarakpuri-raheeq, source/ibn-hisham-sira]
 class: event
 kind: skirmish
 label: { en: "The duel at Badr", ar: "مبارزة بدر" }
@@ -39,3 +45,9 @@ relations:
   - { type: had_participant, target: person/abdullah-ibn-rawaha, note: "من الأنصاريين الثلاثة الذين خرجوا أولاً", sources: [source/mubarakpuri-raheeq] }
 sources: [source/mubarakpuri-raheeq, source/ibn-hisham-sira, source/mishkat-al-masabih, source/muhammad-qaid-al-aala-azhar, source/sallabi-ali-vol1]
 status: { review: draft, completeness: 2, generated_by: "Devin; al-Raheeq al-Makhtum pp. 216-217" }
+provenance:
+  layer: own-research
+  source: "source/mubarakpuri-raheeq"
+  generated_by: Devin
+  model: "unknown"
+  run: "education-E3-facts-batch7"

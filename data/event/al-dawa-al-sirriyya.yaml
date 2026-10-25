@@ -1,4 +1,10 @@
 id: event/al-dawa-al-sirriyya
+education:
+  did_you_know:
+    ar: "دامت الدعوة سراً ثلاث سنين آمن فيها الرعيل الأول — خديجة وعلي وزيد وأبو بكر في اليوم الأول كما يروي الرحيق."
+    en: "The call stayed private for three years, during which the first band believed — Khadija, Ali, Zayd and Abu Bakr on the very first day, as al-Rahiq relates."
+    ur: "دعوت تین سال خفیہ رہی جس میں پہلا گروہ ایمان لایا — پہلے ہی دن خدیجہ، علی، زید اور ابوبکر، جیسا کہ الرحیق بیان کرتا ہے۔"
+    sources: [source/mubarakpuri-raheeq, source/ibn-hisham-sira]
 class: event
 kind: other
 label: { en: "The three years of the secret call", ar: "ثلاث سنوات من الدعوة السرية" }
@@ -41,3 +47,9 @@ relations:
   - { type: part_of, target: period/prophetic-era }
 sources: [source/mubarakpuri-raheeq, source/ibn-hisham-sira, source/rahma-lil-alamin, source/fiqh-al-sira-al-ghazali, source/mukhtasar-sirat-al-rasul-al-najdi, source/muhadarat-tarikh-al-umam-al-islamiyya]
 status: { review: draft, completeness: 2, generated_by: "Devin; al-Raheeq al-Makhtum pp. 74-77" }
+provenance:
+  layer: own-research
+  source: "source/mubarakpuri-raheeq"
+  generated_by: Devin
+  model: "unknown"
+  run: "education-E3-facts-batch7"
