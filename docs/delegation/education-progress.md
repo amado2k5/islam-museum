@@ -152,6 +152,8 @@ The following merged PRs and commits are ready on `main` for the founder to depl
 | 7 | Homework search: 50 topics × three phrasings in ar, en, ur merged into the search synonyms | `edu/homework-topics.yaml`, search zero-result strip | done — `edu/homework-topics.yaml` (50 topics), phrasings merged into `search-synonyms.{ar,en}.json` in `derive.ts`, zero-result `#hw-strip` on `/{lang}/search/` + teacher-hub strip; merged #1601 |
 | 8 | Explorers map: world SVG (80 KB or less, 12 hot spots), replacing the placeholder on the Explorers hub | `site/src/data/basemap-world.json`, `/{lang}/sighar/explorers/` | done — `basemap-world.json` (Natural Earth 110m land, 61 KB) + `WorldMap.astro` inline SVG, 12 hot spots each opening its city's leveled record (fez/delhi open the plain record), list below the map as the no-JS equivalent; merged #1602 |
 
+**Deploy register (close-out 1e, checked 25 Oct 2026):** merged education PRs since 24 Oct 2026 — #1233 (E1), #1389, #1381, #1450, #1457-#1462 (E2), #1582 (E2 close-out), #1467, #1471, #1477, #1479, #1586, #1590, #1593, #1598, #1601, #1602 (E3 steps), #1605 (validate repair), #1606, #1608 (close-out). `git diff` over every one of them: **none touches `.github/workflows`, `workers/` or any wrangler config** — a plain `main` deploy covers everything, no Worker/workflow restart needed.
+
 **Urdu for the founder's review (E3):** strings landed per step, quoted for review. UI keys live in `i18n/ur.yaml`; content strings in the cited files. None is approved yet — please review and correct in place or send edits.
 
 **Step 3 — fact engine (#1586).** UI keys `fc_*`:
