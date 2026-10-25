@@ -1,4 +1,10 @@
 id: person/abu-salama
+education:
+  did_you_know:
+    ar: "أبو سلمة عبد الله بن عبد الأسد من أوائل المسلمين في الدعوة السرية، وكان من رضاعة النبي إذ أرضعته ثويبة؛ ودعا لآل أبي طالب بعد قتل إبراهيم الإمام عند المسعودي."
+    en: "Abu Salama was among the first Muslims of the secret call and the Prophet's foster-kin, suckled by Thuwayba; per al-Mas'udi he turned to Abu Talib's family after Ibrahim the Imam was killed."
+    ur: "ابو سلمہ عبداللہ بن عبدالاسد دعوتِ خفی کے اولین مسلمانوں میں سے اور نبی کے رضاعی بھائی — ثويبہ نے انہیں دودھ پلایا؛ مسعودی کے مطابق ابراہیم امام کے قتل کے بعد وہ آلِ ابیطالب کی طرف مائل ہوا۔"
+    sources: [source/muruj-al-dhahab, source/tabaqat-ibn-sad]
 class: person
 label: { en: "Abu Salama (Abdullah ibn Abd al-Asad)", ar: "أبو سلمة بن عبد الأسد" }
 names:
@@ -23,3 +29,9 @@ relations:
 external_ids: { wikidata: "Q335355" }
 sources: [source/mubarakpuri-raheeq, source/ibn-hisham-sira, source/muruj-al-dhahab, source/talqih-fuhum-ahl-al-athr, source/mukhtasar-sirat-al-rasul-al-najdi]
 status: { review: draft, completeness: 2, generated_by: "Devin; al-Raheeq al-Makhtum pp. 75-76" }
+provenance:
+  layer: own-research
+  source: "source/muruj-al-dhahab"
+  generated_by: Devin
+  model: "unknown"
+  run: "education-E3-facts-batch12"

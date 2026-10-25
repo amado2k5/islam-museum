@@ -1,4 +1,10 @@
 id: polity/himyarite-kingdom
+education:
+  did_you_know:
+    ar: "غلبت حِمْيَر على سبأ نحو سنة ١١٥ ق.م وملكت من ظفار؛ وفي قرونها الأخيرة انحطاطٌ ثم احتلال حبشي بعد مذبحة ذي نواس لنصارى نجران، ثم تبعية فارسية حتى إسلام باذان."
+    en: "Himyar overran Saba around 115 BCE and ruled from Zafar; its last centuries brought decline, then Abyssinian occupation after Dhu Nuwas's massacre of Najran's Christians, then Persian overlordship until Badhan's Islam."
+    ur: "حمیئر نے تقریباً 115 ق م میں سبأ پر غلبہ پایا اور ظفار سے راج کیا؛ پھر ذونواس کے مظالم کے بعد حبشی قبضہ آیا اور فارسی تابعیت یہاں تک کہ باذان مسلمان ہوا۔"
+    sources: [source/muruj-al-dhahab, source/mubarakpuri-raheeq]
 class: polity
 kind: kingdom
 label: { en: "The Himyarite Kingdom", ar: "مملكة حمير" }
@@ -14,3 +20,9 @@ capitals: [{ place: place/sanaa }]
 regions: [arabia]
 sources: [source/mubarakpuri-raheeq, source/tafhim-al-quran, source/tarikh-ard-al-quran]
 status: { review: draft, completeness: 1, generated_by: "Devin; al-Raheeq al-Makhtum pp. 23–34 (batch 25b)" }
+provenance:
+  layer: own-research
+  source: "source/muruj-al-dhahab"
+  generated_by: Devin
+  model: "unknown"
+  run: "education-E3-facts-batch12"

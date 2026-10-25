@@ -1,4 +1,10 @@
 id: person/abu-sufyan-ibn-al-harith
+education:
+  did_you_know:
+    ar: "أبو سفيان بن الحارث ابن عم النبي وأخوه من الرضاعة رُضع معه في بني سعد عند حليمة وكان يحضنه، وصار لاحقاً من شعراء الإسلام بعد خصومة أولى."
+    en: "Abu Sufyan ibn al-Harith, the Prophet's cousin and foster-brother, was suckled beside him among Banu Sa'd at Halima's and carried in her arms; after an early hostility he became one of Islam's poets."
+    ur: "ابو سفیان بن حارث، نبی کے چچا زاد اور رضاعی بھائی، ان کے ساتھ بنوسعد میں حلیمہ کے پاس دودھ پیا اور ان کی گود میں رہا؛ پہلی دشمنی کے بعد وہ اسلام کے شاعروں میں شمار ہوا۔"
+    sources: [source/tabaqat-ibn-sad, source/ibn-hisham-sira]
 class: person
 label: { en: "Abu Sufyan ibn al-Harith", ar: "أبو سفيان بن الحارث" }
 names:
@@ -23,3 +29,9 @@ relations:
 external_ids: { wikidata: "Q1146625" }
 sources: [source/mubarakpuri-raheeq, source/zad-al-maad, source/tabaqat-ibn-sad]
 status: { review: draft, completeness: 2, generated_by: "Devin; al-Raheeq al-Makhtum p. 55" }
+provenance:
+  layer: own-research
+  source: "source/tabaqat-ibn-sad"
+  generated_by: Devin
+  model: "unknown"
+  run: "education-E3-facts-batch12"

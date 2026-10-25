@@ -1,4 +1,10 @@
 id: person/adnan
+education:
+  did_you_know:
+    ar: "عدنان الجد الذي يقف عنده النسب النبوي، الحادي والعشرون في السلسلة عند المباركفوري؛ وورد أن النبي كان إذا بلغ عدنان أمسك وقال «كذب النسّابون»."
+    en: "Adnan is the forefather where the prophetic lineage stops — the twenty-first in al-Mubarakfuri's chain; it is reported that the Prophet, reaching Adnan in a lineage, would halt and say 'the genealogists lie'."
+    ur: "عدنان وہ جد ہے جہاں نبوی نسب رک جاتا ہے — مبارکپوری کی زنجیر میں اکیسواں؛ منقول ہے کہ نبی جب نسب میں عدنان تک پہنچتے تو رک جاتے اور کہتے «نساب جھوٹے ہیں»۔"
+    sources: [source/mubarakpuri-raheeq, source/ibn-hisham-sira]
 class: person
 label: { en: "Adnan", ar: "عدنان" }
 gender: male
@@ -15,3 +21,9 @@ relations:
   - { type: child_of, target: person/qaydar, note: "من ولد قيدار بن إسماعيل." , sources: [source/mubarakpuri-raheeq] }
 sources: [source/mubarakpuri-raheeq, source/tarikh-al-tabari, source/rahma-lil-alamin]
 status: { review: draft, completeness: 2, generated_by: "Devin; al-Raheeq al-Makhtum pp. 15–34 (batch 25a)" }
+provenance:
+  layer: own-research
+  source: "source/mubarakpuri-raheeq"
+  generated_by: Devin
+  model: "unknown"
+  run: "education-E3-facts-batch12"

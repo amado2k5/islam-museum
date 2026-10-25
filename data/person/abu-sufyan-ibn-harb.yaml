@@ -1,4 +1,10 @@
 id: person/abu-sufyan-ibn-harb
+education:
+  did_you_know:
+    ar: "أبو سفيان بن حرب زعيم مكة في سنين الحرب المعلنة، قائد بأحد والخندق؛ دخل في الإسلام يوم الفتح ومات مسلماً وهو والد أول خلفاء بني أمية."
+    en: "Abu Sufyan ibn Harb, Mecca's leader through the years of open war — its commander at Uhud and the Trench — entered Islam on the day of the Conquest, died a Muslim, and fathered the first Umayyad caliph."
+    ur: "ابو سفیان بن حرب، مکہ کا سردار برسوں کھلی جنگ کے عرصے میں — احد اور خندق کا قائد — فتح کے دن مسلمان ہوا، مسلمان ہی فوت ہوا اور پہلے اموی خلیفہ کا باپ بنا۔"
+    sources: [source/ibn-hisham-sira, source/muruj-al-dhahab]
 class: person
 label: { en: "Abu Sufyan ibn Harb", ar: "أبو سفيان بن حرب" }
 aliases: [person/abu-sufyan]
@@ -57,3 +63,9 @@ external_ids:
 sources: [source/ibn-ishaq-guillaume, source/watt-1956-medina, source/ibn-sad-tabaqat-bewley, source/ibn-hisham-saqqa, source/nihayat-al-arab-nuwayri-vol3-scan]
 sensitivity: contested
 status: { review: draft, completeness: 2, generated_by: "Devin; 2026-10-11" }
+provenance:
+  layer: own-research
+  source: "source/ibn-hisham-sira"
+  generated_by: Devin
+  model: "unknown"
+  run: "education-E3-facts-batch12"
