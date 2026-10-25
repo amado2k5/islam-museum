@@ -1,0 +1,44 @@
+id: person/ousmane-sembene
+class: person
+label: { ar: "عثمان سيمبين", en: "Ousmane Sembène", ur: "عثمان سیمبین" }
+names:
+  - { value: "Ousmane Sembène", kind: full }
+  - { value: "Sembène Ousmane", kind: alternate }
+gender: male
+summary:
+  ar: "كاتب ومخرج سنغالي، وُلد في زيغنشور سنة 1923، وعمل صيادًا وميكانيكيًا وعمّال أرصفة ونقابيًا في مرسيليا، ثم صار من أبرز روائيي إفريقيا الفرنكوفونية وأبا السينما الإفريقية بأفلام مثل «الفتاة السوداء» (1966) و«ماندابي» (1968) و«مولادي» (2004)، وتوفي في داكار سنة 2007."
+  en: "Senegalese writer and film director, born at Ziguinchor in 1923. He worked as a fisherman, a mechanic, a Marseille docker and a trade unionist before becoming a leading francophone African novelist and the founding figure of African cinema, with films such as Black Girl (1966), Mandabi (1968) and Moolaadé (2004); he died at Dakar in 2007."
+  ur: "سینیگالی مصنف اور فلم ہدایت کار، جو 1923 میں زیگینچور میں پیدا ہوئے؛ مچھیرے، میکینک، مارسیلز میں بندرگاہ مزدور اور ٹریڈ یونین کارکن رہے، پھر افریقہ کے ممتاز ناول نگار اور افریقی سینما کے بانی بنے، جن کی معروف فلموں میں «سیاہ لڑکی» (1966) اور «مولادے» (2004) شامل ہیں؛ 2007 میں ڈاکار میں وفات پائی۔"
+roles: [writer, film-director, screenwriter]
+wings: [people]
+born:
+  edtf: "1923-01-01"
+  hijri: "1341"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "Born at Ziguinchor in Casamance on 1 January 1923 (English and Urdu articles, Wikidata and Britannica). The English article's lead also gives 'or 8 January 1923' and the Arabic article's text gives 8 January; 1 January is followed. Ziguinchor has no place entity in the museum yet, so no born_in relation is written. The Hijri year (1341) is derived by tabular conversion."
+  sources: [source/wikipedia-ousmane-sembene-en, source/wikidata-ousmane-sembene, source/britannica-ousmane-sembene]
+died:
+  edtf: "2007-06-09"
+  hijri: "1428"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "Died at his home in Dakar on 9 June 2007 (English article and Wikidata); Britannica gives 'June 9/10, 2007'. The Arabic article records his burial at Yoff, a commune of Dakar. Neither Dakar nor Yoff has a place entity in the museum yet, so no died_in or buried_in relation is written. The Hijri year (1428) is derived by tabular conversion."
+  sources: [source/wikipedia-ousmane-sembene-en, source/wikidata-ousmane-sembene, source/britannica-ousmane-sembene, source/wikipedia-ousmane-sembene-ar]
+faith:
+  - value: unknown
+    basis: unknown
+    note: "No source fetched names a religious school for Sembène, and the sources describe his religious position in ways that do not settle it. The English article records that through his mother he descended from a Serer family and as a child was made a 'cult servant' in the Serer Tuur festival — a role it says he did not take seriously — and that he attended a madrasa 'as was common for many Muslim boys'; it also records his membership of the Communist Party in Marseille, lists 'the failings of religion' among his recurrent themes, and reports that Ceddo was censored in Senegal amid readings of it as anti-Muslim. The same article records that he was buried in a shroud adorned with Qur'anic verses, and the Arabic article places his burial at Yoff. Family milieu, childhood schooling, party membership, the themes of his work and burial custom are not attestations of a school; under the lane's two-source rule his faith is recorded as unknown, and each reported position is carried attributed in the prose."
+    sources: [source/wikipedia-ousmane-sembene-en, source/wikipedia-ousmane-sembene-ar]
+external_ids: { wikidata: "Q314966" }
+sources: [source/wikipedia-ousmane-sembene-en, source/wikipedia-ousmane-sembene-ar, source/wikipedia-ousmane-sembene-ur, source/wikidata-ousmane-sembene, source/britannica-ousmane-sembene]
+provenance:
+  layer: own-research
+  source: "English Wikipedia 'Ousmane Sembène' (revision 1371381496), Arabic Wikipedia «عثمان سيمبين» (revision 75250723), Urdu Wikipedia «عثمان سیمبین» (revision 11720467), Wikidata Q314966 (confirmed via the Wikidata API: human, born 1 January 1923 at Ziguinchor, died 9 June 2007 at Dakar, no religion statement) and Encyclopaedia Britannica's entry 'Ousmane Sembène', checked 24 October 2026"
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: century-additions-6
+status: { review: published, completeness: 3, generated_by: "Muse (Muse Spark 1.3)" }

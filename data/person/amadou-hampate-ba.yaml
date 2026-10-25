@@ -1,0 +1,44 @@
+id: person/amadou-hampate-ba
+class: person
+label: { ar: "أمادو هامباتي با", en: "Amadou Hampâté Bâ", ur: "امادو ہامپاتے با" }
+names:
+  - { value: "Amadou Hampâté Bâ", kind: full }
+  - { value: "أمادو همباطي با", kind: full }
+gender: male
+summary:
+  ar: "كاتب وإثنوغرافي مالي من الفولاني، وُلد في باندياغارا سنة 1901 في ما كان يُعرف بالسودان الفرنسي، وتتلمذ في صباه على الشيخ الصوفي التيجاني تيرنو بوكار، وقضى حياته في جمع التراث الشفهي الإفريقي وتدوينه، وأسس معهد العلوم الإنسانية في باماكو ومثّل مالي في اليونسكو، وتوفي في أبيدجان سنة 1991."
+  en: "Malian Fula writer and ethnographer, born at Bandiagara in 1901 in what was then French Sudan. As a boy he studied under the Tijani Sufi teacher Tierno Bokar; he spent his life collecting and writing down Africa's oral traditions, founded the Institute of Human Sciences in Bamako, represented Mali at UNESCO, and died at Abidjan in 1991."
+  ur: "مالی کے فولانی مصنف اور ماہرِ بشریات، جو 1901 میں باندیاگارا میں پیدا ہوئے؛ بچپن میں تیجانی صوفی استاد تیرنو بوکار کے شاگرد رہے، عمر بھر افریقہ کی زبانی روایت کو جمع اور محفوظ کرنے میں گزاری، باماکو میں انسانی علوم کا ادارہ قائم کیا، یونیسکو میں مالی کی نمائندگی کی اور 1991 میں ابیجان میں وفات پائی۔"
+roles: [writer, ethnographer, historian]
+wings: [people]
+born:
+  edtf: "1901"
+  hijri: "1319"
+  calendar: gregorian
+  precision: year
+  status: historical
+  derived: true
+  note: "Birth year contested across the sources: the English article gives 1900/1901 in its lead, the Arabic article's lead gives 1900 while its infobox gives 1901, Wikidata carries claims for both 1900 and 1899, and the BEROSE encyclopaedia entry gives 1901-1991. The year 1901 is followed (Arabic infobox, BEROSE, and the founder's century list) at year precision, with the variants recorded rather than resolved. Birthplace Bandiagara, then in French Sudan, is agreed by all sources; Bandiagara has no place entity in the museum yet, so no born_in relation is written. The Hijri year (1319) is derived by tabular conversion from the followed Gregorian year; a 1900 birth would fall in 1317-1318."
+  sources: [source/wikipedia-amadou-hampate-ba-en, source/wikipedia-amadou-hampate-ba-ar, source/wikidata-amadou-hampate-ba]
+died:
+  edtf: "1991-05-15"
+  hijri: "1411"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "Died at Abidjan on 15 May 1991: the English article's lead, Wikidata and the World Wisdom author page support 15 May; the English article's infobox gives 13 May and the Arabic article's infobox displays '15 March 1991'. The 15 May date is followed and the variants recorded. Abidjan has no place entity in the museum yet, so no died_in relation is written. The Hijri year (1411) is derived by tabular conversion."
+  sources: [source/wikipedia-amadou-hampate-ba-en, source/wikidata-amadou-hampate-ba, source/world-wisdom-amadou-hampate-ba, source/wikipedia-amadou-hampate-ba-ar]
+faith:
+  - value: sufi
+    basis: documented
+    note: "Recorded on two independent attestations of Sufi discipleship. The English Wikipedia article records that he first attended the Qur'anic school run by Tierno Bokar, a dignitary of the Tijaniyyah brotherhood, that in 1933 he took six months' leave to visit Bokar, 'his spiritual leader', and that he wrote Bokar's life and teaching (Vie et enseignement de Tierno Bokar, 1957; in English, A Spirit of Tolerance). Independently of Wikipedia, World Wisdom — the publisher of that English translation — records that 'from the time of his youth, Mr. Bâ was a student and disciple of an extraordinary Malian Sufi master, Tierno Bokar'. The Arabic article likewise calls Bokar a master of Sufism in Mali and Bâ his pupil from youth. No source fetched names a legal school (madhhab) for him, so no sunni or compound value is recorded. The Tijaniyya has no group entity in the museum yet, so the affiliation is carried here and in the prose rather than as a member_of relation."
+    sources: [source/wikipedia-amadou-hampate-ba-en, source/world-wisdom-amadou-hampate-ba, source/wikipedia-amadou-hampate-ba-ar]
+external_ids: { wikidata: "Q452299" }
+sources: [source/wikipedia-amadou-hampate-ba-en, source/wikipedia-amadou-hampate-ba-ar, source/wikidata-amadou-hampate-ba, source/world-wisdom-amadou-hampate-ba]
+provenance:
+  layer: own-research
+  source: "English Wikipedia 'Amadou Hampâté Bâ' (revision 1347089651), Arabic Wikipedia «أمادو همباطي با» (revision 76542242), Wikidata Q452299 (confirmed via the Wikidata API: human, born at Bandiagara, died 15 May 1991 at Abidjan, no religion statement) and the World Wisdom author page for Amadou Hampâté Bâ, checked 24 October 2026"
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: century-additions-6
+status: { review: published, completeness: 3, generated_by: "Muse (Muse Spark 1.3)" }

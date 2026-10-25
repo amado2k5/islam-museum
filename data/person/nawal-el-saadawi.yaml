@@ -1,0 +1,47 @@
+id: person/nawal-el-saadawi
+class: person
+label: { ar: "نوال السعداوي", en: "Nawal El Saadawi", ur: "نوال السعداوی" }
+names:
+  - { value: "نوال زينب السيد", kind: full }
+  - { value: "Nawal Zeinab El Sayed", kind: full }
+gender: female
+summary:
+  ar: "طبيبة وكاتبة ونسوية مصرية، وُلدت في كفر طحلة سنة 1931، وجمعت بين الطب والأدب في نحو أربعين كتابًا — منها «المرأة والجنس» و«امرأة عند نقطة الصفر» — واجهت فيها ختان الإناث والأبوية والاستبداد، وسُجنت في عهد السادات سنة 1981، وأسست جمعية تضامن المرأة العربية، وتوفيت في القاهرة سنة 2021."
+  en: "Egyptian physician, psychiatrist and feminist writer, born at Kafr Tahla in 1931. In some forty books — among them Women and Sex and Woman at Point Zero — she confronted female genital mutilation, patriarchy and authoritarian rule; she was imprisoned under President Sadat in 1981, founded the Arab Women's Solidarity Association, and died in Cairo in 2021."
+  ur: "مصری طبیبہ، ماہرِ نفسیات اور نسوانی مصنفہ، جو 1931 میں کفر طحلہ میں پیدا ہوئیں؛ «عورت اور جنس» اور «نقطۂ صفر پر عورت» سمیت تقریباً چالیس کتابوں میں نسوانی ختنہ، پدرانہ نظام اور آمریت پر تنقید کی، 1981 میں سادات دور میں قید ہوئیں، عرب خواتین یکجہتی ایسوسی ایشن کی بنیاد رکھی، اور 2021 میں قاہرہ میں وفات پائی۔"
+roles: [physician, psychiatrist, writer, activist]
+wings: [people]
+born:
+  edtf: "1931-10-27"
+  hijri: "1350"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "Born at Kafr Tahla, a village in the Nile Delta, on 27 October 1931 (all three articles, Britannica and Wikidata agree). Kafr Tahla has no place entity in the museum yet, so no born_in relation is written. The Hijri year (1350) is derived by tabular conversion."
+  sources: [source/wikipedia-nawal-el-saadawi-en, source/britannica-nawal-el-saadawi, source/wikidata-nawal-el-saadawi]
+died:
+  edtf: "2021-03-21"
+  hijri: "1442"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "Died at Cairo on 21 March 2021 (English article, Britannica and Wikidata). The Arabic article's infobox gives her place of death as South Giza; Cairo is followed for the died_in relation, and the Arabic article records her burial in the family cemetery at 6th of October City. The Arabic article itself dates her death to 8 Sha'ban 1442, agreeing with the derived Hijri year (1442)."
+  sources: [source/wikipedia-nawal-el-saadawi-en, source/britannica-nawal-el-saadawi, source/wikidata-nawal-el-saadawi, source/wikipedia-nawal-el-saadawi-ar]
+relations:
+  - { type: lived_in, target: place/cairo, sources: [source/wikipedia-nawal-el-saadawi-en, source/wikipedia-nawal-el-saadawi-ar] }
+  - { type: died_in, target: place/cairo, sources: [source/wikipedia-nawal-el-saadawi-en, source/britannica-nawal-el-saadawi] }
+faith:
+  - value: unknown
+    basis: unknown
+    note: "Wikidata records her religion (P140) as atheism, and the Arabic article's infobox likewise gives atheism — but the Arabic infobox field is drawn from Wikidata, so the two are one source family, not two independent attestations. The English article and Encyclopaedia Britannica record no religious affiliation for her at all: they describe a lifelong critic of religious fundamentalism whom opponents accused of apostasy — a hisba suit of 2001-2002 sought to divorce her from her husband on the claim that she had abandoned Islam, and a 2008 attempt to strip her of her nationality also failed — while her own reported statements cut in more than one direction, from describing elements of the Hajj as pre-Islamic in origin to insisting that 'the right religion doesn't cut children's organs'. Under the lane's two-source rule and the founder's doubt rule, no atheist-or-sceptic segment is recorded on a single source family; her stated views are carried exactly as sourced in the prose, and the value stays unknown."
+    sources: [source/wikidata-nawal-el-saadawi, source/wikipedia-nawal-el-saadawi-ar, source/wikipedia-nawal-el-saadawi-en, source/britannica-nawal-el-saadawi]
+external_ids: { wikidata: "Q238514" }
+sources: [source/wikipedia-nawal-el-saadawi-en, source/wikipedia-nawal-el-saadawi-ar, source/wikipedia-nawal-el-saadawi-ur, source/wikidata-nawal-el-saadawi, source/britannica-nawal-el-saadawi]
+provenance:
+  layer: own-research
+  source: "English Wikipedia 'Nawal El Saadawi' (revision 1380913352), Arabic Wikipedia «نوال السعداوي» (revision 76661130), Urdu Wikipedia «نوال السعداوی» (revision 9653893 — its polemical 'beliefs' section not used), Wikidata Q238514 (confirmed via the Wikidata API: human, born 27 October 1931 at Kafr Tahla, died 21 March 2021 at Cairo, religion recorded as atheism) and Encyclopaedia Britannica's entry 'Nawal El Saadawi', checked 24 October 2026"
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: century-additions-6
+status: { review: published, completeness: 3, generated_by: "Muse (Muse Spark 1.3)" }
