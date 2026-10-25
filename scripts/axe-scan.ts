@@ -5,11 +5,11 @@
 import { createServer, type Server } from "node:http";
 import { readFile } from "node:fs/promises";
 import { extname, join } from "node:path";
-import { repoPath } from "./lib/paths";
+import { p } from "./lib";
 import { chromium } from "playwright";
 import { AxeBuilder } from "@axe-core/playwright";
 
-const DIST = repoPath("dist");
+const DIST = p("dist");
 const PORT = 48123;
 
 // One representative route per page family per language — interactive islands get
@@ -62,7 +62,8 @@ function serve(): Promise<Server> {
 const run = async () => {
   const server = await serve();
   const browser = await chromium.launch();
-  const page = await browser.newPage();
+  const context = await browser.newContext();
+  const page = await context.newPage();
   let failed = 0;
   for (const lang of ["ar", "en", "ur"]) {
     for (const r of ROUTES) {
