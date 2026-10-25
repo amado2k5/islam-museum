@@ -23,11 +23,11 @@ lists' own order. Status markers: [ ] queued · [~] in a writer's hands · [x] m
 - [x] Mostafa El-Sayed — 1933–Living
 - [x] Rana Dajani — 1964–Living
 - [x] Uğur Şahin — 1965–Living
-- [~] Özlem Türeci — 1967–Living
-- [~] Anousheh Ansari — 1966–Living
-- [~] Sultan bin Salman Al Saud — 1956–Living
-- [~] Sheikh Muszaphar Shukor — 1972–Living
-- [~] A. P. J. Abdul Kalam — 1931–2015
+- [x] Özlem Türeci — 1967–Living
+- [x] Anousheh Ansari — 1966–Living
+- [x] Sultan bin Salman Al Saud — 1956–Living
+- [x] Sheikh Muszaphar Shukor — 1972–Living
+- [x] A. P. J. Abdul Kalam — 1931–2015
 - [~] Ali Javan — 1926–2016
 - [~] Farouk El-Baz — 1938–Living
 - [~] Omar M. Yaghi — 1965–Living

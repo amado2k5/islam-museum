@@ -1,0 +1,46 @@
+id: person/apj-abdul-kalam
+class: person
+label: { ar: "عبد الكلام", en: "A. P. J. Abdul Kalam", ur: "عبد الکلام" }
+names:
+  - { value: "أبو بكر زين العابدين عبد الكلام", kind: full }
+  - { value: "Avul Pakir Jainulabdeen Abdul Kalam", kind: full }
+gender: male
+summary:
+  ar: "عالم فضاء هندي ورئيس الهند الحادي عشر (2002–2007)، وُلد سنة 1931 في راميشورام لأسرة تاميلية مسلمة فقيرة، كان والدها صاحب قارب وإمام مسجد محلي، فعمل موزعا للصحف في صباه، ثم قاد في منظمة أبحاث الفضاء الهندية مشروع أول مركبة إطلاق أقمار صناعية هندية، وقاد برنامج الصواريخ الموجهة المتكامل فعُرف بـ«رجل الصواريخ»، ولعب دورا محوريا في تجارب بوخران النووية سنة 1998، ونال بهارات راتنا أعلى وسام مدني هندي سنة 1997، وتوفي سنة 2015 أثناء إلقائه محاضرة في شيلونغ."
+  en: "Indian aerospace scientist and the eleventh President of India (2002–2007), born in 1931 in Rameswaram into a poor Tamil Muslim family — his father a boat owner and imam of a local mosque — who delivered newspapers as a boy, then led ISRO's first satellite launch vehicle project, headed the Integrated Guided Missile Development Programme that made him the 'Missile Man of India', played a pivotal role in the 1998 Pokhran-II nuclear tests, received the Bharat Ratna, India's highest civilian honour, in 1997, and died in 2015 while delivering a lecture in Shillong."
+  ur: "بھارتی ایرو اسپیس سائنس دان اور بھارت کے گیارہویں صدر (2002–2007)، جو 1931 میں رامیشورم میں ایک غریب تمل مسلم خاندان میں پیدا ہوئے — ان کے والد کشتی کے مالک اور مقامی مسجد کے امام تھے — بچپن میں اخبار تقسیم کیے، پھر اسرو کے پہلے سیٹلائٹ لانچ وہیکل منصوبے کی قیادت کی، انٹیگریٹڈ گائیڈڈ میزائل پروگرام کی سربراہی پر «میزائل مین» کہلائے، 1998 کے پوکھران-II جوہری تجربات میں مرکزی کردار ادا کیا، 1997 میں بھارت رتن پایا، اور 2015 میں شیلانگ میں لیکچر دیتے ہوئے وفات پائی۔"
+roles: [scientist, politician]
+wings: [people]
+born:
+  edtf: "1931-10-15"
+  hijri: "1350"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "Gregorian date and Rameswaram, Tamil Nadu birthplace from the English and Arabic Wikipedia articles and Wikidata Q9513. Rameswaram has no place entity in the museum yet, so no born_in relation is written. The Hijri year (1350) is derived by tabular conversion."
+  sources: [source/wikipedia-apj-abdul-kalam-en, source/wikipedia-apj-abdul-kalam-ar, source/wikidata-apj-abdul-kalam]
+died:
+  edtf: "2015-07-27"
+  hijri: "1436"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "Gregorian date and Shillong place of death from English Wikipedia and Wikidata Q9513; he collapsed while delivering a lecture at the Indian Institute of Management Shillong and was confirmed dead of a sudden cardiac arrest. The Hijri year (1436) is derived by tabular conversion."
+  sources: [source/wikipedia-apj-abdul-kalam-en, source/wikidata-apj-abdul-kalam]
+relations:
+  - { type: lived_in, target: place/delhi, sources: [source/wikipedia-apj-abdul-kalam-en] }
+faith:
+  - value: sunni
+    basis: documented
+    note: "Two sources independently name Sunni: the English article's 'Religious and spiritual views' section states that he was a practising Sunni Muslim, with daily prayer and fasting in Ramadan integral to his life, and Wikidata records his religion as Sunni Islam (alongside Islam). The Arabic and Urdu articles describe his Tamil Muslim family and upbringing without naming a school. No source names a madhhab, so no compound value is recorded; his wide interfaith engagement, described in his prose with attribution, is not a school attestation either way."
+    sources: [source/wikipedia-apj-abdul-kalam-en, source/wikidata-apj-abdul-kalam, source/wikipedia-apj-abdul-kalam-ar]
+external_ids: { wikidata: "Q9513" }
+sources: [source/wikipedia-apj-abdul-kalam-en, source/wikipedia-apj-abdul-kalam-ar, source/wikipedia-apj-abdul-kalam-ur, source/wikidata-apj-abdul-kalam]
+provenance:
+  layer: own-research
+  source: "English, Arabic and Urdu Wikipedia articles on A. P. J. Abdul Kalam and Wikidata Q9513; checked 24 October 2026"
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: century-additions-3
+status: { review: published, completeness: 3, generated_by: "Muse (Muse Spark 1.3)" }
