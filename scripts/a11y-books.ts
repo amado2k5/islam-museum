@@ -10,6 +10,7 @@ import fs from "node:fs";
 import path from "node:path";
 import zlib from "node:zlib";
 import { execFileSync } from "node:child_process";
+import { createRequire } from "node:module";
 import { p } from "./lib";
 
 const DIST = p("dist");
@@ -24,23 +25,77 @@ const LIBLOUIS_VERSION = "3.2.0"; // must match the liblouis-build wasm in node_
 const esc = (s: string) => s.replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;").replace(/"/g, "&quot;");
 
 // ---- liblouis (JS build) ----
+// easy-api.translateString sizes the output buffer to the input and aborts the
+// whole wasm heap when output overflows (Latin in an Arabic table expands ~2x).
+// Call lou_translateString directly with a 4x output buffer instead.
+const tableDir = p("node_modules", "liblouis", "tables");
+if (!fs.existsSync(path.join(tableDir, "ar-ar-g1.utb"))) {
+  fs.mkdirSync(tableDir, { recursive: true });
+  const tgz = path.join(tableDir, "..", "liblouis-tables.tgz");
+  execFileSync("curl", ["-sL", `https://github.com/liblouis/liblouis/archive/refs/tags/v${LIBLOUIS_VERSION}.tar.gz`, "-o", tgz]);
+  execFileSync("tar", ["xzf", tgz, "-C", path.join(tableDir, ".."), `liblouis-${LIBLOUIS_VERSION}/tables`, "--strip-components=1"]);
+  fs.rmSync(tgz);
+}
+const EasyApi = createRequire(import.meta.url)("liblouis/easy-api").EasyApi;
+const lou = new EasyApi();
+lou.enableOnDemandTableLoading(tableDir);
+function louTranslate(table: string, s: string): string | null {
+  const capi = lou.capi, mem = lou.mem;
+  const inP = mem.transfer(capi, s);
+  const inLen = mem.getBufferLength(s);
+  const outP = capi._malloc(inLen * 8); // blP counts cells; utf16 cells are 2 bytes
+  const blP = capi._malloc(4), slP = capi._malloc(4);
+  capi.setValue(blP, inLen * 4, "i32");
+  capi.setValue(slP, inLen, "i32");
+  const ok = capi.ccall("lou_translateString", "number", ["string", "number", "number", "number", "number", "number", "number"], [table, inP, slP, outP, blP, null, null, 0]);
+  if (!ok) return null;
+  const out = mem.read(capi, outP, blP);
+  capi._free(outP); capi._free(inP); capi._free(blP); capi._free(slP);
+  return mem.buffToString(out);
+}
+
+// Only send the table's own script through: Latin names, digits and symbols
+// pass through verbatim (the BRF convention for uncontracted foreign words).
+const ARABIC_RUN = /[\u0600-\u06FF\u0750-\u077F\u08A0-\u08FF\uFB50-\uFDFF\uFE70-\uFEFF][\u0600-\u06FF\u0750-\u077F\u08A0-\u08FF\uFB50-\uFDFF\uFE70-\uFEFF \t.,;:!?()«»"'’\u0640-]*/g;
+
+// Some tables (ur-pk-g2) emit Unicode braille cells; BRF readers want the
+// NABCC ASCII codes — the fixed cell-pattern-to-ASCII mapping.
+const NABCC = " A1B'K2L@CIF/MSP\"E3H9O6R^DJG>NTQ,*5<-U8V.%[$+X!&;:4\\0Z7(_?W]#Y)=";
+const toBrfAscii = (s: string) => [...s].map((c) => {
+  const cp = c.codePointAt(0)!;
+  return cp >= 0x2800 && cp <= 0x28ff ? NABCC[cp - 0x2800] : c;
+}).join("");
+
 function brailleOf(text: string, lang: string): string {
-  // eslint-disable-next-line @typescript-eslint/no-require-imports
-  const l = require("liblouis");
-  const tableDir = p("node_modules", "liblouis", "tables");
-  if (!fs.existsSync(path.join(tableDir, "ar-ar-g1.utb"))) {
-    fs.mkdirSync(tableDir, { recursive: true });
-    const tgz = path.join(tableDir, "..", "liblouis-tables.tgz");
-    execFileSync("curl", ["-sL", `https://github.com/liblouis/liblouis/archive/refs/tags/v${LIBLOUIS_VERSION}.tar.gz`, "-o", tgz]);
-    execFileSync("tar", ["xzf", tgz, "-C", path.join(tableDir, ".."), `liblouis-${LIBLOUIS_VERSION}/tables`, "--strip-components=1"]);
-    fs.rmSync(tgz);
-  }
-  l.enableOnDemandTableLoading(tableDir);
+  const safe = (s: string): string => {
+    try {
+      return louTranslate(BRL_TABLE[lang], s) ?? s;
+    } catch {
+      if (!/\s/.test(s) || /^\s+$/.test(s)) return s;
+      return s.split(/(\s+)/).map((w) => (/^\s*$/.test(w) ? w : safe(w))).join("");
+    }
+  };
+  // Passthrough must still be valid BRF: Arabic-Indic digits become ASCII
+  // digits, every digit run gets the '#' number indicator, and any remaining
+  // non-ASCII symbol (dashes, emoji, ornaments) collapses to a space.
+  const passthrough = (s: string): string => s
+    .replace(/[\u0660-\u0669\u06F0-\u06F9]/g, (d) => String(("\u0660\u0661\u0662\u0663\u0664\u0665\u0666\u0667\u0668\u0669\u06F0\u06F1\u06F2\u06F3\u06F4\u06F5\u06F6\u06F7\u06F8\u06F9".indexOf(d)) % 10))
+    .replace(/[0-9]+/g, "#$&")
+    .replace(/[^\x20-\x7E]/g, " ");
+  const braillePara = (words: string): string => {
+    if (lang === "en") return toBrfAscii(passthrough(safe(words)));
+    let out = "", last = 0;
+    for (const m of words.matchAll(ARABIC_RUN)) {
+      out += passthrough(words.slice(last, m.index)) + toBrfAscii(safe(m[0]));
+      last = m.index! + m[0].length;
+    }
+    return out + passthrough(words.slice(last));
+  };
   const out: string[] = [];
   for (const para of text.split(/\n{2,}/)) {
     const words = para.replace(/\s+/g, " ").trim();
     if (!words) continue;
-    const dots = l.translateString(BRL_TABLE[lang], words) ?? words;
+    const dots = braillePara(words);
     // 40-cell lines, the BRF convention
     for (let i = 0; i < dots.length; i += 40) out.push(dots.slice(i, i + 40));
     out.push("");
@@ -178,4 +233,4 @@ for (const lang of LANGS) {
   fs.writeFileSync(path.join(DIST, lang, "books", "index.html"),
     `<!doctype html><html lang="${lang}"${dir}><head><meta charset="utf-8"><title>Books — islam.museum</title></head><body><main><h1>Braille and e-books</h1><ul>\n${lis}\n</ul></main></body></html>`);
 }
-console.log(`a11y-books: ${made} books (EPUB + BRF) written to dist/books/, ${skipped} skipped`);
+console.log(`a11y-books: ${made} books (EPUB + BRF) written to dist/<lang>/books/, ${skipped} skipped`);
