@@ -23,3 +23,7 @@ Al-Baladhuri says that Abu Hanifa, together with Sufyan al-Thawri, al-Awza'i, Ma
 The Sheikh says that a former president, king or emperor is called "former" once he is gone, whereas scholars are not spoken of in that way; one does not say "the former Abu Hanifa", although Abu Hanifa died in the year 150 of the Hijra (needs_source) {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep03 00:53:30}.
 
 He holds that rulers die while the people of knowledge live on, and that though people try to kill their memory it stays in people's hearts; he gives Abu Hanifa and Abu Hurayra as examples of men whom people still remember and love {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep03 00:54:00}.
+
+## From Sheikh Omar Abdelkafy's lectures on Sharh Kitab al-Fawa'id
+
+The Sheikh narrates that Abu Hanifa declined the judgeship when al-Mansur asked him to take it. He told the caliph that if he was lying, the caliph would be appointing a liar as judge, and that if he was truthful about being unable to do the work, he asked to be excused (needs_source: narration with no source given in the lecture). {cite:assabile-omar-abdelkafy sharh-ketab-al-fawaed/ep02 01:04:00} {cite:assabile-omar-abdelkafy sharh-ketab-al-fawaed/ep02 01:04:30}

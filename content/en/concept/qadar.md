@@ -34,3 +34,9 @@ This entry presents the positions of the 'Aqida al-Tahawiyya, Ibn Qudama's Lum'a
 The Sheikh holds that if the decrees followed what people wish, the earth would not be built up {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep04 00:24:30}.
 
 The Sheikh asks whether you are the planner or the one planned for: do you arrange your affairs and organise your schedule and life, or does God arrange your matter for you? {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep04 00:28:00}. He calls for patience until what God arranges becomes clear {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep04 00:28:00}.
+
+## From Sheikh Omar Abdelkafy's Sharh Ketab Al Fawaed lectures (episode 4)
+
+The Sheikh says that one should not blame anyone for what God has not let harm him {cite:assabile-omar-abdelkafy sharh-ketab-al-fawaed/ep04 00:19:30}.
+
+He says that what befalls a person happens by the decree of God {cite:assabile-omar-abdelkafy sharh-ketab-al-fawaed/ep04 00:20:00}.

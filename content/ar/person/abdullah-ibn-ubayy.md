@@ -29,3 +29,16 @@ translators: []
 يروي الشيخ أن ابنه طلب من النبي أن يأذن له بقتل أبيه، فلم يأذن له. {cite:assabile-omar-abdelkafy aadau-al-islam/ep03 00:23:00}
 ويذكر الشيخ أن النبي عرض على أهل عبد الله بن أبي كفنا (needs_source: لفظ هذه الجملة غير واضح في النسخة الآلية). {cite:assabile-omar-abdelkafy aadau-al-islam/ep03 00:24:00}
 ويذكر أن النبي قال إنه يستغفر له ولو تكرر الاستغفار كثيرا (needs_source: العدد غير واضح في النسخة الآلية)، ثم نزل النهي عن الصلاة على المنافقين. {cite:assabile-omar-abdelkafy aadau-al-islam/ep03 00:24:30} {cite:assabile-omar-abdelkafy aadau-al-islam/ep03 00:25:30}
+
+## من درس الشيخ عمر عبد الكافي: شرح كتاب الفوائد
+
+يروي الشيخ أن عبد الله بن أُبيّ لما مات طلب الناس من النبي أن يصلي عليه (needs_source: رواية يرويها الشيخ دون مصدر في الدرس). {cite:assabile-omar-abdelkafy sharh-ketab-al-fawaed/ep02 01:21:00}
+
+ويذكر الشيخ آية لم يسمّها، يفهم منها نهيا عن الصلاة على من مات من المنافقين والقيام على قبره. {cite:assabile-omar-abdelkafy sharh-ketab-al-fawaed/ep02 01:23:30} {cite:assabile-omar-abdelkafy sharh-ketab-al-fawaed/ep02 01:24:00}
+
+:::perspectives
+- **أهل السنة: لم يُصدر بعد (not yet sourced)**: لم يُنسب بعد.
+- **speaker's view (Omar Abdelkafy)**: يذكر الشيخ الرواية والآية التي يفهم منها النهي عن الصلاة على المنافقين إذا ماتوا {cite:assabile-omar-abdelkafy sharh-ketab-al-fawaed/ep02 01:21:00} {cite:assabile-omar-abdelkafy sharh-ketab-al-fawaed/ep02 01:23:30}.
+- **academic view: not yet sourced**: لم يُنسب بعد.
+- **other view: not yet sourced**: لم يُنسب بعد.
+:::

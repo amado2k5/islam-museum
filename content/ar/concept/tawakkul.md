@@ -33,3 +33,17 @@ translators: []
 يدعو الشيخ إلى أن يسير المرء تبع ربه لا تبع أحد بحكم القبيلة، وأن يترك أمر الكون لخالقه ويفوّض الأمر إلى ربه {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep10 00:55:30}.
 
 ويدعو إلى الاعتماد على الله لا على قبيلة قوية ولا عائلة فاضلة ولا وزير، ويذكر شباباً يتفاخر كل منهم بأن أباه رئيس الشرطة أو رئيس ديوان أو فلان {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep10 00:56:00}.
+
+## من درس الشيخ عمر عبد الكافي: شرح كتاب الفوائد (الحلقة 3)
+
+يقول الشيخ إن التوكل نوعان: توكل على الله في الحوائج الدنيوية، وتوكل على الله فيما يحبه ويرضاه من الإيمان واليقين والجهاد والدعوة إليه {cite:assabile-omar-abdelkafy sharh-ketab-al-fawaed/ep03 01:04:30} {cite:assabile-omar-abdelkafy sharh-ketab-al-fawaed/ep03 01:05:00}.
+
+ويقول إن النوع الثاني أعظم، وإن من توكل على الله فيه حق توكله كفاه النوع الأول {cite:assabile-omar-abdelkafy sharh-ketab-al-fawaed/ep03 01:05:30}.
+
+ويقول إن أعظم التوكل ما كان في احتمال الأذى، وفي الدعوة إلى الله، وفي متابعة الرسول، وفي جهاد أهل الباطل، ويصف ذلك بأنه أصعب شيء {cite:assabile-omar-abdelkafy sharh-ketab-al-fawaed/ep03 01:06:00} {cite:assabile-omar-abdelkafy sharh-ketab-al-fawaed/ep03 01:06:30}.
+
+ويقول إن التوكل مع الأخذ بالأسباب هو التوكل على مسبب الأسباب لا على الأسباب نفسها، كمن يذاكر ثم يتوكل على الله في النجاح {cite:assabile-omar-abdelkafy sharh-ketab-al-fawaed/ep03 01:19:00}.
+
+ويقول إن حقيقة التوكل اعتماد القلب على الله وحده، فلا يضره مباشرة الأسباب ما دام القلب لا يركن إليها {cite:assabile-omar-abdelkafy sharh-ketab-al-fawaed/ep03 01:21:00}.
+
+ويقول إنه لا ينبغي الاتكال على إنسان قد يموت أو يغيب أو ينسى، وإنما على الله الباقي الذي لا يفنى، ويستشهد بآية لم يسمّها {cite:assabile-omar-abdelkafy sharh-ketab-al-fawaed/ep03 01:02:00} {cite:assabile-omar-abdelkafy sharh-ketab-al-fawaed/ep03 01:02:30}.

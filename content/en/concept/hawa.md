@@ -14,3 +14,15 @@ He notes that some desire produces arbitrariness in opinion, and the preference 
 
 ## Sha'rawi on desire and God's guidance
 Sha'rawi notes that the Jews and the Christians will not be pleased with the Prophet until he follows their creed, and that each of the two communities rejects the other, so they do not share one satisfaction. {cite:tafsir-sharawi-khawatir-scan-pp-501-1000 p.561} He holds that guidance is God's guidance alone, while human guidance splits into many paths according to desire, and that desire is what the self wants when it is false and far from the truth. {cite:tafsir-sharawi-khawatir-scan-pp-501-1000 p.562}
+
+## From Sheikh Omar Abdelkafy's Sharh Ketab Al Fawaed lectures (episode 2)
+
+The Sheikh says that desire darkens the heart, while faith, piety, remembrance of God and circles of knowledge light it {cite:assabile-omar-abdelkafy sharh-ketab-al-fawaed/ep02 00:31:30}.
+
+## From Sheikh Omar Abdelkafy's Sharh Ketab Al Fawaed lectures (episode 5)
+
+The Sheikh says that a heart empty of love for God and longing for Him is filled by desire {cite:assabile-omar-abdelkafy sharh-ketab-al-fawaed/ep05 00:57:30}.
+
+## From Sheikh Omar Abdelkafy's Sharh Ketab Al Fawaed lectures (episode 6)
+
+The Sheikh counts desire among the four enemies of a person, along with Satan, the world and the self, and says they are all his enemies {cite:assabile-omar-abdelkafy sharh-ketab-al-fawaed/ep06 00:16:00}.

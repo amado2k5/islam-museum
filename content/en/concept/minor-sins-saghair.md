@@ -17,3 +17,8 @@ Some scholars list among minor sins a forbidden glance, a kiss, a flirtatious ge
 
 ## What makes a minor sin grave
 A minor sin becomes grave through persistence and habit, through treating the sin lightly, or through delight in it and boasting of it, counting the ability to do it a blessing, and forgetting that it is the cause of misery. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.10381}
+
+## The speaker's view: major and minor sins (Sharh Ketab al-Fawaed, episode 1)
+The Sheikh divides sins into major and minor, and names major sins of the eyes, of the heart, of the private parts and of the belly (his view) {cite:assabile-omar-abdelkafy sharh-ketab-al-fawaed/ep01 01:21:30}.
+The Sheikh says that one should not look at the smallness of a sin but at the greatness of the One who is disobeyed (his view) {cite:assabile-omar-abdelkafy sharh-ketab-al-fawaed/ep01 01:22:00} {cite:assabile-omar-abdelkafy sharh-ketab-al-fawaed/ep01 01:22:30}.
+He says that no minor sin remains minor when it is persisted in, and that no major sin is beyond God's forgiveness when it is followed by seeking forgiveness (his view) (needs_source: the wording in the transcript is garbled and needs checking against the recording) {cite:assabile-omar-abdelkafy sharh-ketab-al-fawaed/ep01 01:29:30}.

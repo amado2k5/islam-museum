@@ -29,3 +29,9 @@ translators: []
 ## من درس الشيخ عمر عبد الكافي: تفسير القرآن (الحلقة 9)
 
 يروي الشيخ أن أبا ذر قال في سنة 36 للهجرة إن الزمان الذي كان وردا لا شوك فيه صار شوكا لا ورد فيه (needs_source) {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep09 00:34:30}.
+
+## من درس الشيخ عمر عبد الكافي: شرح كتاب الفوائد
+
+يروي الشيخ أن أبا ذر قرأ على أعرابي سورة الزلزلة حتى بلغ آخرها، فبكى الأعرابي وسأله أفلا يحاسبنا الله على وزن الذرة يوم القيامة، فأجابه بنعم (needs_source: رواية يرويها الشيخ دون مصدر في الدرس). {cite:assabile-omar-abdelkafy sharh-ketab-al-fawaed/ep05 00:21:30} {cite:assabile-omar-abdelkafy sharh-ketab-al-fawaed/ep05 00:22:00}
+
+ويرى الشيخ أن العلم لا ينفع إلا إذا عُمل به. {cite:assabile-omar-abdelkafy sharh-ketab-al-fawaed/ep05 00:22:00}

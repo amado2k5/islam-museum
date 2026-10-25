@@ -89,3 +89,7 @@ Abu al-Hasan Ali ibn Abi Talib (c. 23 BH – 40 AH / 600–661 CE), the Prophet'
 ## From Sheikh Omar Abdelkafy's Tafsir lectures (episode 9)
 
 The Sheikh relates that before Ibn Umm Maktum gave the call to prayer, Ali would take a short nap, since he appeared tired in the daytime from work, and then wake up; the Sheikh says Ali wanted to prolong his conversation with the Messenger of God {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep09 00:51:30}. He mentions that Ali answered the Messenger of God that our souls are in God's hand, and if He wills He keeps them and if He wills He sends them back {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep09 00:52:00}.
+
+## From Sheikh Omar Abdelkafy's lectures on Sharh Kitab al-Fawa'id
+
+The Sheikh narrates that Ali threw down an enemy who then spat in his face, and Ali did not kill him. Asked why, he said he feared the killing would be for his own anger rather than for God (needs_source: narration with no source given in the lecture). {cite:assabile-omar-abdelkafy sharh-ketab-al-fawaed/ep05 00:42:00} {cite:assabile-omar-abdelkafy sharh-ketab-al-fawaed/ep05 00:42:30}

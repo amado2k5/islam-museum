@@ -24,3 +24,9 @@ The book counts him among those who followed the first vanguard among the earlie
 
 ## The killing of Abu Jahl (al-Raheeq al-Makhtum p.221)
 He found Abu Jahl with a last breath left in him. He cut off his head and brought it to the Prophet ([[event/death-of-abu-jahl|the killing of Abu Jahl]]) {cite:mubarakpuri-raheeq p.221}.
+
+## From Sheikh Omar Abdelkafy's lectures on Sharh Kitab al-Fawa'id
+
+The Sheikh narrates that Ibn Mas'ud sat in a square reciting the Qur'an and that people of the village beat him (needs_source: a narration the lecture gives without a source). {cite:assabile-omar-abdelkafy sharh-ketab-al-fawaed/ep02 01:08:00}
+
+The Sheikh quotes a saying he attributes to Ibn Mas'ud: that if he mocked a dog he would fear becoming one (needs_source: attributed saying with no chain given in the lecture). {cite:assabile-omar-abdelkafy sharh-ketab-al-fawaed/ep04 00:25:30}

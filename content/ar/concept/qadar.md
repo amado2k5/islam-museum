@@ -42,3 +42,9 @@ translators: []
 يرى الشيخ أن الأقدار لو جرت وفق مراد الناس لما عُمرت الأرض {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep04 00:24:30}.
 
 ويسأل الشيخ: هل أنت المدبّر أم المدبَّر لك؟ هل تدبر أمورك وتنظم جدولك وحياتك، أم أن الله يدبر لك أمرك؟ {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep04 00:28:00}. ويدعو إلى الصبر حتى يظهر ما يدبره الله {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep04 00:28:00}.
+
+## من درس الشيخ عمر عبد الكافي: شرح كتاب الفوائد (الحلقة 4)
+
+يقول الشيخ إنه لا ينبغي للمرء أن يلوم أحدا على ما لم يؤذه الله به {cite:assabile-omar-abdelkafy sharh-ketab-al-fawaed/ep04 00:19:30}.
+
+ويقول إن ما يجري على الإنسان من أمور يجري بقدر الله عز وجل {cite:assabile-omar-abdelkafy sharh-ketab-al-fawaed/ep04 00:20:00}.

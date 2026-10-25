@@ -38,3 +38,26 @@ translators: []
 يضرب الشيخ مثلا مألوفا في العائلات: رجل لا يصلي وامرأة ترفض الحجاب، وهما مع ذلك على أخلاق عظيمة {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep04 00:41:30}. ويتساءل: هل يغنيهما حسن الخلق عن الصلاة والحجاب؟ {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep04 00:41:30}.
 
 ويشبه الشيخ ذلك بطالب يُفصل من المدرسة لأنه يرفض بعض المواد، ويقول إن المؤمن يأخذ الدين كاملا {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep04 00:42:00}. ويذكر أن بني إسرائيل عابَ عليهم القرآن أنهم آمنوا ببعض الكتاب وكفروا ببعضه، فكأن أحدهم يؤمن بصفحتين ويكفر بالثالثة، أما نحن فنؤمن بالكتاب كله {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep04 00:42:00}.
+
+## من درس الشيخ عمر عبد الكافي: شرح كتاب الفوائد (الحلقة 3)
+
+يقول الشيخ إن للإيمان ظاهرا وباطنا: فظاهره قول اللسان وعمل الجوارح، وباطنه تصديق القلب {cite:assabile-omar-abdelkafy sharh-ketab-al-fawaed/ep03 00:42:30} {cite:assabile-omar-abdelkafy sharh-ketab-al-fawaed/ep03 00:43:00}.
+
+يقول الشيخ إن كل مؤمن مسلم، وليس كل مسلم مؤمنا، ويستشهد بآية في الأعراب لم يسمّها {cite:assabile-omar-abdelkafy sharh-ketab-al-fawaed/ep03 00:41:30}.
+
+يرى الشيخ أن الباطن لا يظهر إلا بالظاهر إلا في بعض الحالات، كالإكراه والخوف على النفس {cite:assabile-omar-abdelkafy sharh-ketab-al-fawaed/ep03 00:52:30} {cite:assabile-omar-abdelkafy sharh-ketab-al-fawaed/ep03 00:53:00}.
+
+ويرى أن ترك العمل الظاهر مع عدم وجود المانع دليل على فساد الباطن {cite:assabile-omar-abdelkafy sharh-ketab-al-fawaed/ep03 00:53:30}.
+
+يقول الشيخ إن الطاعة تزيد الإيمان والمعصية تنقصه، وإن كل إيمان لا يبعث صاحبه على العمل يكون موضع شك {cite:assabile-omar-abdelkafy sharh-ketab-al-fawaed/ep03 00:55:30} {cite:assabile-omar-abdelkafy sharh-ketab-al-fawaed/ep03 00:56:00}.
+
+## من درس الشيخ عمر عبد الكافي: شرح كتاب الفوائد (الحلقة 6)
+
+يقول الشيخ إن الإيمان يزيد وينقص، فالطاعة تزيده والمعصية تنقصه {cite:assabile-omar-abdelkafy sharh-ketab-al-fawaed/ep06 01:11:30}.
+
+:::perspectives
+- **أهل السنة: لم يُصدر بعد (not yet sourced)**: لم يُنسب بعد.
+- **speaker's view (Omar Abdelkafy)**: يرى الشيخ أن الإيمان يزيد وينقص، تزيده الطاعة وتنقصه المعصية {cite:assabile-omar-abdelkafy sharh-ketab-al-fawaed/ep06 01:11:30}.
+- **academic view: not yet sourced**: لم يُنسب بعد.
+- **other view: not yet sourced**: لم يُنسب بعد.
+:::

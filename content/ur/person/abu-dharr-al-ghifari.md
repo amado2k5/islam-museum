@@ -28,3 +28,9 @@ translators: ["Claude Haiku 5.5 (claude-haiku-5-5), draft translation"]
 ## شیخ عمر عبد الکافی کے تفسیری درس (قسط 9)
 
 شیخ روایت کرتے ہیں کہ ابو ذر نے سن 36 ہجری میں کہا کہ جو زمانہ کانٹوں کے بغیر گلاب تھا وہ گلاب کے بغیر کانٹے بن گیا (needs_source) {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep09 00:34:30}۔
+
+## شیخ عمر عبد الکافی کے درس شرح کتاب الفوائد سے
+
+شیخ روایت کرتے ہیں کہ ابو ذر نے ایک دیہاتی کو سورۃ الزلزلہ آخر تک پڑھ کر سنائی۔ دیہاتی رو پڑا اور پوچھا کہ کیا اللہ ایک ذرے کے وزن کا بھی حساب نہیں لے گا؟ ابو ذر نے ہاں کہا (needs_source: درس میں اس روایت کا ماخذ نہیں دیا گیا)۔ {cite:assabile-omar-abdelkafy sharh-ketab-al-fawaed/ep05 00:21:30} {cite:assabile-omar-abdelkafy sharh-ketab-al-fawaed/ep05 00:22:00}
+
+شیخ کی رائے ہے کہ علم اسی وقت فائدہ دیتا ہے جب اس پر عمل کیا جائے۔ {cite:assabile-omar-abdelkafy sharh-ketab-al-fawaed/ep05 00:22:00}

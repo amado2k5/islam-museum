@@ -37,3 +37,26 @@ translators: ["Claude Haiku 5.5 (claude-haiku-5-5), draft translation"]
 شیخ خاندانوں میں ایک جانا پہچانا نمونہ پیش کرتے ہیں: ایک مرد جو نماز نہیں پڑھتا اور ایک عورت جو حجاب سے انکار کرتی ہے، اور دونوں اس کے باوجود بڑے اچھے اخلاق کے ہیں {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep04 00:41:30}۔ وہ سوال کرتے ہیں کہ کیا ان کا حسنِ اخلاق انہیں نماز اور حجاب سے بے نیاز کر دیتا ہے؟ {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep04 00:41:30}۔
 
 شیخ اسے ایسے طالب علم سے تشبیہ دیتے ہیں جسے بعض مضامین سے انکار پر اسکول سے نکال دیا جاتا ہے، اور کہتے ہیں کہ مومن دین کو پورا لیتا ہے {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep04 00:42:00}۔ وہ ذکر کرتے ہیں کہ بنی اسرائیل پر یہ عیب لگایا گیا کہ انہوں نے کتاب کے ایک حصے پر ایمان رکھا اور ایک حصے کا انکار کیا، گویا کوئی دو صفحوں پر ایمان لائے اور تیسرے کا انکار کرے، جبکہ ہم پوری کتاب پر ایمان رکھتے ہیں {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep04 00:42:00}۔
+
+## شیخ عمر عبد الکافی کے شرح کتاب الفوائد کے درس (قسط 3)
+
+شیخ کہتے ہیں کہ ایمان کا ایک ظاہر ہے اور ایک باطن: ظاہر زبان کا قول اور اعضاء کا عمل ہے، اور باطن دل کی تصدیق ہے {cite:assabile-omar-abdelkafy sharh-ketab-al-fawaed/ep03 00:42:30} {cite:assabile-omar-abdelkafy sharh-ketab-al-fawaed/ep03 00:43:00}۔
+
+شیخ کہتے ہیں کہ ہر مومن مسلمان ہے، مگر ہر مسلمان مومن نہیں، اور وہ اعراب کے بارے میں ایک آیت کا حوالہ دیتے ہیں جس کا نام انہوں نے نہیں لیا {cite:assabile-omar-abdelkafy sharh-ketab-al-fawaed/ep03 00:41:30}۔
+
+شیخ کی رائے ہے کہ باطنی ایمان ظاہر ہونے کے لیے ظاہری عمل کا محتاج ہے، سوائے بعض حالات کے، جیسے جبر یا جان کا خوف {cite:assabile-omar-abdelkafy sharh-ketab-al-fawaed/ep03 00:52:30} {cite:assabile-omar-abdelkafy sharh-ketab-al-fawaed/ep03 00:53:00}۔
+
+وہ کہتے ہیں کہ جب کوئی رکاوٹ نہ ہو اور ظاہری عمل چھوڑ دیا جائے تو یہ باطن کے بگاڑ کی دلیل ہے {cite:assabile-omar-abdelkafy sharh-ketab-al-fawaed/ep03 00:53:30}۔
+
+شیخ کہتے ہیں کہ اطاعت ایمان کو بڑھاتی ہے اور نافرمانی اسے کم کرتی ہے، اور جو ایمان آدمی کو عمل پر نہ ابھارے وہ شک کے دائرے میں ہے {cite:assabile-omar-abdelkafy sharh-ketab-al-fawaed/ep03 00:55:30} {cite:assabile-omar-abdelkafy sharh-ketab-al-fawaed/ep03 00:56:00}۔
+
+## شیخ عمر عبد الکافی کے شرح کتاب الفوائد کے درس (قسط 6)
+
+شیخ کہتے ہیں کہ ایمان بڑھتا بھی ہے اور گھٹتا بھی ہے: اطاعت اسے بڑھاتی ہے اور گناہ اسے گھٹاتا ہے {cite:assabile-omar-abdelkafy sharh-ketab-al-fawaed/ep06 01:11:30}۔
+
+:::perspectives
+- **أهل السنة: ابھی ماخذ نہیں (Sunni view: not yet sourced)**: ابھی منسوب نہیں۔
+- **speaker's view (Omar Abdelkafy)**: شیخ کی رائے ہے کہ ایمان بڑھتا اور گھٹتا ہے، اطاعت سے بڑھتا ہے اور گناہ سے گھٹتا ہے {cite:assabile-omar-abdelkafy sharh-ketab-al-fawaed/ep06 01:11:30}۔
+- **academic view: not yet sourced**: ابھی منسوب نہیں۔
+- **other view: not yet sourced**: ابھی منسوب نہیں۔
+:::
