@@ -24,5 +24,9 @@ relations:
   - { type: ruler_of, target: place/yemen, sources: [source/tabari-bosworth-1999] }
   - { type: participated_in, target: event/year-of-the-elephant-and-birth, role: invader, sources: [source/ibn-ishaq-guillaume, source/tabari-bosworth-1999] }
   - { type: built, target: building/al-qullays-sanaa, note: "Built the cathedral al-Qullays at San'a to draw the Arabs' pilgrimage away from Mecca.", sources: [source/tabari-bosworth-1999] }
-sources: [source/tabari-bosworth-1999, source/ibn-ishaq-guillaume, source/mubarakpuri-raheeq, source/tafhim-al-quran]
+sources: [source/tabari-bosworth-1999, source/ibn-ishaq-guillaume, source/mubarakpuri-raheeq, source/tafhim-al-quran, source/encyclopaedia-of-islam-2]
 status: { review: draft, completeness: 2, generated_by: "Devin; 2026-10-11" }
+provenance:
+  layer: own-research
+  source: "Encyclopaedia of Islam, 2nd ed. (Brill), vol. 1, PDF pp. 121-122 (EI2 enrichment, batch ei2-b002)"
+  generated_by: "Claude Code (claude-haiku-5-5)"
