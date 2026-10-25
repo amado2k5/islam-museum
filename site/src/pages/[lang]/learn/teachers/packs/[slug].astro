@@ -42,6 +42,7 @@ const sheets = p.kit.reduce((a, k) => a + k.sheets, 0);
         ))}
       </ol>
       <p class="muted" style="max-width:var(--measure)">{E.pk_note}</p>
+      <p class="ui"><a href={`/${lang}/learn/teachers/offline/${p.id}.html`}>{E.pk_offline}</a></p>
     </section>
 
     <Qr lang={lang} path={path} />
