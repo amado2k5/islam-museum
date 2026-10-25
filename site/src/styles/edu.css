@@ -65,4 +65,11 @@
   .stamp { filter: none; opacity: 1; border: 2px dashed #333; }
   .stamp.on { border: 2px solid #000; background: #eee; }
   .passport-actions, .share-box, .edu-privacy, .passport-line a { display: none !important; }
+
+  /* Passport fits one A4 page: compact the stamp grid */
+  .passport-grid { grid-template-columns: repeat(4, 1fr); gap: 6px; margin: 6px 0 10px; }
+  .stamp-lg { width: 52px; height: 52px; font-size: 1.4rem; }
+  .passport-grid .lbl { font-size: .78rem; line-height: 1.3; }
+  .edu h1 { font-size: 1.5rem; margin-block: 0.2rem; }
+  .edu h2 { font-size: 1.05rem; margin-block: 0.6rem 0.2rem; }
 }
