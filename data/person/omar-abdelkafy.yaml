@@ -18,18 +18,19 @@ born:
   precision: day
   status: historical
   derived: true
-  note: "Gregorian date from English Wikipedia, the Arabic article and Wikidata; the Arabic article places the birth in the village of Talla, Minya Governorate. The Hijri year (1370) is converter-derived."
-  sources: [source/wikipedia-omar-abdelkafy-en, source/wikipedia-omar-abdelkafy-ar, source/wikidata-omar-abdelkafy]
+  note: "Gregorian date from English Wikipedia, the Arabic article and Wikidata; the Arabic article places the birth in the village of Talla, Minya Governorate. The Hijri year (1370) is converter-derived. Conflict: the Assabile archive biography gives the birth on \"Labour Day\" of 1952 (1 May 1952); the 1951 date above is kept with the Wikipedia and Wikidata sources, and both dates are stated in the prose."
+  sources: [source/wikipedia-omar-abdelkafy-en, source/wikipedia-omar-abdelkafy-ar, source/wikidata-omar-abdelkafy, source/assabile-omar-abdelkafy]
 faith:
   - value: unknown
     basis: unknown
     note: "Neither Wikipedia article gives a school for him. Wikidata gives only 'Islam'. The Arabic article records that he studied with Sunni scholars including Muhammad al-Ghazali, Muhammad Metwalli al-Sha'rawi and Yusuf al-Qaradawi, which is not an attestation of his own school, so it is not recorded."
     sources: [source/wikipedia-omar-abdelkafy-ar, source/wikidata-omar-abdelkafy]
 external_ids: { wikidata: "Q12228454" }
-sources: [source/wikipedia-omar-abdelkafy-en, source/wikipedia-omar-abdelkafy-ar, source/wikidata-omar-abdelkafy]
+sources: [source/wikipedia-omar-abdelkafy-en, source/wikipedia-omar-abdelkafy-ar, source/wikidata-omar-abdelkafy, source/assabile-omar-abdelkafy]
 provenance:
   layer: own-research
   source: "English Wikipedia article 'Omar Abd al-Kafi' (revision of 15 August 2026), Arabic Wikipedia article «عمر عبد الكافي» (revision of 1 August 2026), Wikidata Q12228454; checked 24 Oct 2026"
   generated_by: "Muse (Muse Spark 1.3)"
-  run: modern-figures-batch-4
+  run: modern-figures-batch-4; omar-abdelkafy-lane-pilot-1 (Assabile archive biography and series list added 25 Oct 2026; the archive page text read in the built-in browser; no transcript used)
+  generated_by_added: "Claude Code (claude-haiku-5-5)"
 status: { review: published, generated_by: "Muse (Muse Spark 1.3)" }

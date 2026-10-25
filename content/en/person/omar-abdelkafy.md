@@ -8,6 +8,8 @@ translators: []
 Omar Abdelkafy Shehata is an Egyptian Muslim preacher, born on 1 May 1951 in the village of Talla in Minya Governorate, Upper Egypt. {cite:wikipedia-omar-abdelkafy-ar} {cite:wikipedia-omar-abdelkafy-en} Arab audiences know him from satellite channels through programmes such as "The True Promise" (al-Wa'd al-Haqq) and "This Is Our Religion", and his lessons and books focus on the scientific inimitability of the Qur'an and Sunna and on traditions about the hereafter. {cite:wikipedia-omar-abdelkafy-ar} The English Wikipedia article states that his YouTube channel had over 9.87 million subscribers, a platform figure dated to the article's revision of August 2026, not a fixed number. {cite:wikipedia-omar-abdelkafy-en}
 
 ## Upbringing and education
+The sources differ on his birth year. His biography on the Assabile archive says he was born on "Labour Day" in 1952, and that he had memorised the Qur'an and Sahih al-Bukhari and Sahih Muslim by the age of ten. {cite:assabile-omar-abdelkafy biography} The English Wikipedia article and Wikidata give 1 May 1951. {cite:wikipedia-omar-abdelkafy-en} {cite:wikidata-omar-abdelkafy} Both are shown together and neither is preferred.
+
 He grew up in the village of Talla in Minya Governorate. He took a licence degree in Arabic and Islamic studies and a master's degree in comparative jurisprudence, and also enrolled in the Faculty of Agriculture, taking a doctorate in agricultural sciences; he studied at the Academy of Scientific Research and worked as a researcher at the National Research Centre. {cite:wikipedia-omar-abdelkafy-ar}
 
 From childhood he studied under teachers and scholars in fiqh, tawhid, tafsir, sira, usul al-fiqh and hadith sciences, among them Muhammad al-Ghazali, Muhammad Metwalli al-Sha'rawi and Yusuf al-Qaradawi, and memorised Sahih al-Bukhari and Sahih Muslim with their chains of transmission under his teachers. He studied rhetoric, grammar and morphology and memorised many didactic texts, such as the Alfiyya of Ibn Malik, and was a member of the World Commission on Scientific Signs in the Qur'an and Sunna of the Muslim World League. {cite:wikipedia-omar-abdelkafy-ar}
@@ -26,6 +28,15 @@ Among his Ramadan programmes are "The Lucifer Diaries", "Treasures of the Sunna"
 
 ## Posts and memberships
 He is a member of the Council of Elders of the International Union of Muslim Scholars, a member of the Dubai International Holy Qur'an Award and director of its Qur'anic Studies Centre, a member of the Fiqh Academy of the scholars of India, and a cultural adviser at the Juma Al Majid Centre for Culture and Heritage in Dubai. {cite:wikipedia-omar-abdelkafy-ar}
+
+## Recorded lessons
+The Assabile archive of Sheikh Omar Abdelkafy's recorded lessons lists 25 series, seven of video and eighteen of audio, with 622 lessons in total, according to the site's index. {cite:assabile-omar-abdelkafy series-list} The archive prints the series titles in transliteration. Where its own English pages give an English title, that title is used: "Wonders Heart" for Ajaeb Al Kulub, "The Real Promise" for Alwaad Alhaq, "The Lucifer Diaries" for Modakirate Iblis and "From The Treasures of Sunnah" for Min Kunuz Al Sunnah. {cite:assabile-omar-abdelkafy series-list}
+
+- Video series: Ajaeb Al Kulub (29 lessons), Alwaad Alhaq (44), Modakirate Iblis (30), Min Kunuz Al Sunnah (30), Mawkib Al-Nour (29), Ahl Al Hikma (27) and Al Naba' Al Safi (24). {cite:assabile-omar-abdelkafy series-list}
+- The longest audio series: Sharh Saheeh Al Bukhare (60 lessons), Albuyout Alamena (47), Al Dar Al Akhera (33), Tariq Al Noor (30) and Bustan El Amal (30). {cite:assabile-omar-abdelkafy series-list}
+- Other audio series: Sharh Ketab Al Fawaed, Sharh Al Hekam Al Ataeya, Al Hoquq, Aadau Al Islam, Al Dinu Al Qayem, Tafsir Al Quran Al Qareem, Muktatafat Mena Al Seera, Silsilat Ebadu Al Rahman, Silsilat Qissa Wa Ebra, Al Fawzu Al Moubeen, Nafahat Ramadaneya 1436 h, Wa Nafsun Ma Sawaha and Al Manjeyat. {cite:assabile-omar-abdelkafy series-list}
+
+These counts are the index as it stood on 25 October 2026 and may change as episodes are added. This section does not yet state what any lesson says: each point from a lesson needs checking before it enters the record. {cite:assabile-omar-abdelkafy series-list}
 
 ## Positions and criticism
 This section should be read as an account of positions reported in the sources, not as the museum's judgement on them.
