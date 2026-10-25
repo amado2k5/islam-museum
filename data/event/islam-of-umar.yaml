@@ -1,4 +1,10 @@
 id: event/islam-of-umar
+education:
+  did_you_know:
+    ar: "أسلم عمر بن الخطاب في السنة السادسة بعد ثلاثة أيام من إسلام حمزة، إذ سمع صدر سورة طه في بيت أخته فمال قلبه."
+    en: "Umar ibn al-Khattab embraced Islam in year six, three days after Hamza — moved by hearing the opening of Surah Ta-Ha in his sister's home."
+    ur: "عمر بن خطاب نے چھٹے سال، حمزہ کے ایمان لانے کے تین دن بعد اسلام قبول کیا — اپنی بہن کے گھر سورۃ طہ کے آغاز کو سن کر ان کا دل جھک گیا۔"
+    sources: [source/mubarakpuri-raheeq, source/ibn-hisham-sira]
 class: event
 aliases: [event/conversion-of-umar]   # merged from the earlier English-first stub (same event); the id still resolves
 kind: other
@@ -27,3 +33,9 @@ relations:
   - { type: part_of, target: period/prophetic-era }
 sources: [source/mubarakpuri-raheeq, source/ibn-hisham-sira, source/sahih-al-bukhari, source/tarikh-umar-ibn-al-jawzi, source/ibn-ishaq-guillaume, source/watt-1953-mecca, source/lings-1983]
 status: { review: draft, completeness: 2, generated_by: "Devin; al-Raheeq al-Makhtum pp. 101-106" }
+provenance:
+  layer: own-research
+  source: "source/mubarakpuri-raheeq"
+  generated_by: Devin
+  model: "unknown"
+  run: "education-E3-facts-batch5"

@@ -1,4 +1,10 @@
 id: event/incident-of-the-slander
+education:
+  did_you_know:
+    ar: "بعد واقعة الإفك التي اتهمت فيها عائشة زوراً، نزلت آيات تبرئتها في سورة النور وتجمع مصادر السيرة على حفظ الرواية مطولة."
+    en: "After the Ifk episode falsely accused Aisha, verses of Surah al-Nur exonerated her; the sirah sources preserve the account at length."
+    ur: "افک کے واقعے میں عائشہ پر جھوٹا الزام لگا؛ سورۃ نور کی آیات نے ان کی براءت دی اور سیرت کے مصادر اس قصے کو تفصیل سے محفوظ رکھتے ہیں۔"
+    sources: [source/mubarakpuri-raheeq, source/sahih-al-bukhari]
 class: event
 kind: other
 label: { en: "The Incident of the Slander (Hadith al-Ifk)", ar: "حادثة الإفك" }
@@ -39,3 +45,9 @@ perspectives:
     sources: [source/sallabi-ali-vol1]
 sources: [source/mubarakpuri-raheeq, source/sahih-al-bukhari, source/sahih-muslim, source/ibn-hisham-sira, source/zad-al-maad, source/al-ishaat-al-kadhiba-azhar, source/sallabi-ali-vol1, source/nisaa-annabi-aisha-qadi]
 status: { review: draft, completeness: 2, generated_by: "Devin; al-Raheeq al-Makhtum pp. 331–334" }
+provenance:
+  layer: own-research
+  source: "source/mubarakpuri-raheeq"
+  generated_by: Devin
+  model: "unknown"
+  run: "education-E3-facts-batch5"

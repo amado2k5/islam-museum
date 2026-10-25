@@ -1,4 +1,10 @@
 id: person/husayn-ibn-ali
+education:
+  did_you_know:
+    ar: "الحسين بن علي حفيد النبي الأصغر من ابنته فاطمة، ورفض بيعة يزيد الأول قبل أن يلقى حتفه بكربلاء سنة ٦٨٠م."
+    en: "Al-Husayn ibn Ali, the Prophet's younger grandson through his daughter Fatima, declined allegiance to Yazid I before meeting his death at Karbala in 680 CE."
+    ur: "حسین بن علی نبی کی بیٹی فاطمہ سے چھوٹے نواسے تھے؛ انہوں نے یزید اول کی بیعت سے انکار کیا اور 680ء میں کربلا میں جاں بحق ہوئے۔"
+    sources: [source/madelung-1997, source/momen-1985]
 class: person
 label: { en: Husayn ibn Ali, ar: الحسين بن علي }
 names:
@@ -51,3 +57,9 @@ external_ids:
   wikidata: Q112128
 sources: [source/umayyad-birth-to-fall-2006, source/ibn-sad-tabaqat-bewley, source/madelung-1997, source/momen-1985, source/watt-1956-medina, source/muruj-al-dhahab, source/khudari-umayyad-state, source/bakr-umayyad-state-1134715, source/sahih-muslim, source/sallabi-ali-vol1]
 status: { review: draft, completeness: 2, generated_by: "Devin; 2026-10-11" }
+provenance:
+  layer: own-research
+  source: "source/madelung-1997"
+  generated_by: Devin
+  model: "unknown"
+  run: "education-E3-facts-batch5"

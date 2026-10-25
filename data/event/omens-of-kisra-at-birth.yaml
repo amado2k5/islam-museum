@@ -1,4 +1,10 @@
 id: event/omens-of-kisra-at-birth
+education:
+  did_you_know:
+    ar: "تروي كتب السيرة أن طاق إيوان كسرى انشقّ ليلة مولد النبي، وقرأ الكهنة في ذلك علامة على قرب نبوته."
+    en: "Sirah books tell that the arch of Khosrow's hall split the night the Prophet was born — a portent his soothsayers read as heralding prophecy."
+    ur: "کتبِ سیرت بیان کرتی ہیں کہ نبی کی پیدائش کی رات کسریٰ کے ایوان کا محراب شق ہوئی — مبشرات جو کہنوں نے نبوت کی نشانی پڑھی۔"
+    sources: [source/subul-huda-salihi, source/ibn-hisham-sira]
 class: event
 kind: other
 label: { en: "Omens in the Persian court at the Prophet's birth", ar: "أخبار الإرهاصات في إيوان كسرى عند مولد النبي" }
@@ -17,3 +23,9 @@ relations:
 # Verification: this is a narrative of omens reported by early historians (via Ibn Jarir), not an independently dated event. It needs a second source before any date is stated.
 sources: [source/subul-huda-salihi, source/ibn-hisham-sira, source/mubarakpuri-raheeq, source/tabaqat-ibn-sad, source/fiqh-al-sira-al-ghazali, source/dalail-al-nubuwwa-bayhaqi, source/musnad-ahmad]
 status: { review: draft, completeness: 1, generated_by: "Claude Haiku 5.5; Subul al-Huda vol. 1 pp. 353–354 (OCR)" }
+provenance:
+  layer: own-research
+  source: "source/subul-huda-salihi"
+  generated_by: Devin
+  model: "unknown"
+  run: "education-E3-facts-batch5"
