@@ -143,16 +143,16 @@ lists' own order. Status markers: [ ] queued · [~] in a writer's hands · [x] m
 - [x] Moeen Ali — 1987–Living
 - [x] Adil Rashid — 1988–Living
 - [x] Wasim Akram — 1966–Living
-- [ ] Waqar Younis — 1971–Living
-- [ ] Inzamam-ul-Haq — 1970–Living
-- [ ] Babar Azam — 1994–Living
-- [ ] Imran Khan — 1952–Living
-- [ ] Shoaib Akhtar — 1975–Living
-- [ ] Rashid Khan — 1998–Living
-- [ ] Mohammad Nabi — 1985–Living
-- [ ] Kumar Sangakkara (Friend/Contemporary) — 1977–Living
-- [ ] Hashim Amla — 1983–Living
-- [ ] Tabraiz Shamsi — 1990–Living
+- [x] Waqar Younis — 1971–Living
+- [x] Inzamam-ul-Haq — 1970–Living
+- [x] Babar Azam — 1994–Living
+- [x] Imran Khan — 1952–Living
+- [x] Shoaib Akhtar — 1975–Living
+- [x] Rashid Khan — 1998–Living
+- [x] Mohammad Nabi — 1985–Living
+- [ ] Kumar Sangakkara (Friend/Contemporary) — 1977–Living (flagged: the wave-21 Z1 writer's sources show he is not a Muslim — English Wikipedia's Personal life section, cited to The Guardian (2014) and NDTV Sports, calls him a devout Buddhist, and in his own words in a ThePapare interview: "I'm a Buddhist" — kept queued with this flag per Ahmad's ruling of 25 October 2026, the Guru Nanak / Kabir Das precedent; Ahmad may strike)
+- [x] Hashim Amla — 1983–Living
+- [x] Tabraiz Shamsi — 1990–Living
 - [ ] Farhaan Behardien — 1983–Living
 - [ ] Usman Khawaja — 1986–Living
 - [ ] Fawad Ahmed — 1982–Living
@@ -1023,16 +1023,16 @@ lists' own order. Status markers: [ ] queued · [~] in a writer's hands · [x] m
 - [x] Sayyid Fadl ibn Alawi (1824–1900)
 - [x] Sultan Said bin Sultan (1791–1856)
 - [x] Sultan Majid bin Said (1834–1870)
-- [ ] Emily Ruete (Sayyida Salme) (1844–1924)
-- [ ] Sheikh Uways al-Barawi (1847–1909)
-- [ ] Sultan Kenadid (1845–1929)
-- [ ] Ali Yusuf Kenadid (1880–1940)
-- [ ] Sheikh Mukhtar al-Kunti (1729–1811)
-- [ ] Seku Amadu (1776–1845)
-- [ ] Ba Lobbo (1820–1890)
-- [ ] Mamadou Lamine Dramé (1840–1887)
-- [ ] Lat Dior (1842–1886)
-- [ ] Alboury Ndaye (1845–1901)
+- [x] Emily Ruete (Sayyida Salme) (1844–1924)
+- [x] Sheikh Uways al-Barawi (1847–1909)
+- [x] Sultan Kenadid (1845–1929)
+- [x] Ali Yusuf Kenadid (1880–1940)
+- [x] Sheikh Mukhtar al-Kunti (1729–1811)
+- [x] Seku Amadu (1776–1845)
+- [x] Ba Lobbo (1820–1890)
+- [x] Mamadou Lamine Dramé (1840–1887)
+- [x] Lat Dior (1842–1886)
+- [x] Alboury Ndaye (1845–1901)
 - [ ] Alpha Yaya Diallo (1830–1912)
 - [ ] Almamy Suluku (1820–1906)
 - [ ] Bai Bureh (1840–1908)
@@ -1786,7 +1786,7 @@ lists' own order. Status markers: [ ] queued · [~] in a writer's hands · [x] m
 - [ ] Muhammad al-Kanemi — 1776–1837
 - [ ] Sulayman Bal — 1730–1775
 - [ ] Abdul Kader Kane — 1745–1806
-- [ ] Seku Amadu (Amadu Lobbo) — 1776–1845
+- [x] Seku Amadu (Amadu Lobbo) — 1776–1845
 - [ ] Karamokho Alfa — 1700–1751
 - [ ] Ibrahim Sori — 1725–1784
 - [ ] Shah Abdul Aziz Dehlawi — 1746–1824

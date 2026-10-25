@@ -16,3 +16,6 @@ The reports of al-Tabari about his reign are not given in this entry, and the Ar
 
 ## For young visitors
 Anushirvan was a king of Persia known to the Arabs for justice. He killed Mazdak and restored the king of al-Hira to his place.
+
+## Name
+In Arabic the name Anushirwan is the form of the surname of Chosroes I, from a Persian word meaning 'possessed of an immortal soul', later read as Nushirvan, 'possessed of a sweet soul'. Several Muslims bore it, among them a son of Manuchihr and of a daughter of Mahmud of Ghazni, who was amir of Jurjan from 420/1029 to 434/1042. {cite:encyclopaedia-of-islam-2 vol. 1 p. 546}

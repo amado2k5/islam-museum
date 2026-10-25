@@ -15,6 +15,13 @@ const rules = {
   aliases: JSON.parse(aliasesText),
 };
 
+// R2 objects are HTML pages, except the accessibility downloads under /{lang}/books/.
+const R2_CONTENT_TYPES = { ".epub": "application/epub+zip", ".brf": "text/plain; charset=us-ascii" };
+function r2ContentType(pathname) {
+  const ext = pathname.slice(pathname.lastIndexOf("."));
+  return R2_CONTENT_TYPES[ext] ?? "text/html; charset=utf-8";
+}
+
 // Copies the _headers values for this path onto a response. The response is rebuilt
 // so its headers can be changed.
 function withHeaders(response, blocks, pathname) {
@@ -66,7 +73,7 @@ export default {
     }
     const headers = new Headers();
     object.writeHttpMetadata(headers);
-    headers.set("content-type", "text/html; charset=utf-8");
+    headers.set("content-type", r2ContentType(url.pathname));
     headers.set("etag", object.httpEtag);
     headers.set("cache-control", HTML_CACHE_CONTROL);
     return respond(new Response(request.method === "HEAD" ? null : object.body, { status: 200, headers }));

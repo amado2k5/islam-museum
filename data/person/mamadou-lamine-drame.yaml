@@ -1,0 +1,48 @@
+id: person/mamadou-lamine-drame
+class: person
+label: { ar: "ممدو لامين درامي", en: "Mamadou Lamine Drame", ur: "ممدو لامین درامے" }
+names:
+  - { value: "محمد الأمين درامي", kind: full }
+  - { value: "Mahmadu Lamine Drame", kind: full }
+  - { value: "El Hadj Mamadou Lamine", kind: alternate }
+  - { value: "Ma Lamine Demba Dibassi", kind: alternate }
+  - { value: "الحاج", kind: laqab }
+gender: male
+summary:
+  ar: "الحاج ممدو لامين درامي (محمد الأمين، وُلد بين 1835 و1840 – توفي 9 ديسمبر 1887)، مرابط وعالم مسلم سوننكي من غونديورو قرب كايس بمالي الحالية، قاد بين 1885 و1887 سلسلة انتفاضات ضد الحكم الاستعماري الفرنسي وحاول تأسيس دولة سوننكية في أعالي نهر السنغال. تعلم على أبيه القاضي ومعلم القرآن ثم في كازامانس وباكل، وحج بين 1864 و1874، وسجنه عند عودته أحمدو تال ابن الحاج عمر حتى أطلقه ابنه مدني سنة 1885، فحاصر حصن باكل في أبريل 1886 وأخذ بوليباني وسينوديبو، ثم هُزم عند ديانا وتوباكوتا، فقبض عليه موسى مولو ملك فولاده ومات متأثرا بجراحه في الطريق."
+  en: "Al-Hajj Mamadou Lamine Drame (Mahmadu Lamine, Muhammad al-Amin; born between 1835 and 1840, died 9 December 1887), a Soninke marabout and Muslim scholar from Goundiourou near Kayes in present-day Mali, who between 1885 and 1887 led a series of revolts against French colonial rule and tried to found a Soninke state on the Upper Senegal. Taught first by his father, a qadi and Qur'an teacher, then in Casamance and at Bakel, he made the hajj between 1864 and 1874; on his return Ahmadu Tall, son of al-Hajj Umar, imprisoned him until Tall's son Madani freed him in 1885. He besieged the French fort at Bakel in April 1886 and took Boulibani and Sénoudébou, was defeated at Diana and Toubakouta, was captured by Musa Molo, king of Fuladu, and died of his wounds on the way back."
+  ur: "الحاج ممدو لامین درامے (محمد الامین؛ ولادت 1835ء اور 1840ء کے درمیان – وفات 9 دسمبر 1887ء)، موجودہ مالی کے کایس کے قریب گونڈیورو سے تعلق رکھنے والے سوننکے مرابط اور مسلمان عالم، جنہوں نے 1885ء تا 1887ء فرانسیسی استعماری حکومت کے خلاف بغاوتوں کی قیادت کی اور بالائی سینیگال پر سوننکے ریاست بنانے کی کوشش کی۔ پہلے اپنے والد — قاضی اور قرآن کے استاد — سے، پھر کازامانس اور باکیل میں تعلیم پائی، 1864ء اور 1874ء کے درمیان حج کیا؛ واپسی پر الحاج عمر کے بیٹے احمدو تال نے انہیں قید کر دیا یہاں تک کہ 1885ء میں تال کے بیٹے مدنی نے رہا کیا۔ اپریل 1886ء میں باکیل کے فرانسیسی قلعے کا محاصرہ کیا اور بولیبانی اور سینودےبو لیے، پھر دیانا اور توباکوتا میں شکست کھائی، فولاڈو کے بادشاہ موسیٰ مولو کے ہاتھوں گرفتار ہوئے اور واپسی کے راستے میں زخموں سے جانبر نہ ہو سکے۔"
+roles: [scholar, general]
+wings: [people]
+born:
+  edtf: "1840~"
+  hijri: "1256"
+  calendar: gregorian
+  precision: year
+  status: historical
+  derived: true
+  note: "Born between 1835 and 1840 at Goundiourou, near Kayes in what is now Mali: so both articles' leads, citing Fisher (1970) and Nyambarza (1969). The single years the sources offer disagree — the French article's infobox gives 1840, the English article's infobox gives c. 1835 — and the record shows 1840 as the approximate year, the French infobox's figure and the harvest queue's year, with the full 1835–1840 range stated here and in the prose. The Hijri year (1256) is derived by tabular conversion of 1840. Goundiourou and Kayes have no place entities in the museum yet, so no born_in relation is written."
+  sources: [source/wikipedia-mahmadu-lamine-en, source/wikipedia-mamadou-lamine-drame-fr]
+died:
+  edtf: "1887-12-09"
+  hijri: "1305"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "Died on 9 December 1887: so the English article's lead ('died 9 December 1887'), the French article's infobox, and the title of Roche's study of his capture and death ('la capture et la mort de Mamadu Lamine, marabout du Buundu (9 décembre 1887)'). Wounded when Musa Molo's forces captured him after the fall of Toubakouta (8 December 1887), he died on the way back to Toubakouta, near Ngogo-Soukouta by the Gambia on the French narrative. The English article's infobox instead gives 12 December 1887 — in the French narrative 12 December is the date his corpse was still being carried on the litter, three days after his death — and the infobox date is recorded here as the rejected variant. The Hijri year (1305) is derived by tabular conversion. Ngogo-Soukouta and Toubakouta have no place entities in the museum yet, so no died_in relation is written."
+  sources: [source/wikipedia-mahmadu-lamine-en, source/wikipedia-mamadou-lamine-drame-fr]
+relations:
+  - { type: opposed, target: person/ahmadu-tall, note: "On Lamine's return from the hajj, Ahmadu Tall imprisoned him (so the English article, citing Isichei); Tall's son Madani freed him in 1885. The opposition continued into the next generation: Lamine's son Souaiybou held the tata of Gori against Ahmadu Tall's five-month siege of December 1887–March 1888 and was executed by the Toucouleurs after its fall.", sources: [source/wikipedia-mahmadu-lamine-en] }
+faith:
+  - value: unknown
+    basis: tradition
+    note: "No two independent sources name a school or order for him with the certainty the lane requires, so he is left unclassified (doubt rule). What the sources give, in full: the English article's lead calls him a 'Tijani marabout', without a citation at that point, and the Fula article repeats the phrase in translation from the English, so it is not a second attestation. Behind it stands one source family: Fisher's 1970 study of his early life, which also reports an oral tradition that at Bakel in 1886 he preached an eleven-bead reform of the Tijani dhikr — a report later scholarship on Tijani history calls almost certainly an anachronism, which is doubt on the face of the evidence. The French article, resting on the French archives (Nyambarza 1969), calls him a Muslim scholar and military leader and names no order at all, and his youthful service with El Hadj Omar — whose movement was Tijani — is association and milieu, not an attestation of Lamine personally; he later fought Omar's son's empire as much as the French. The Tijani claim is therefore recorded here as a single-source-family tradition, not as a value."
+    sources: [source/wikipedia-mahmadu-lamine-en, source/wikipedia-mamadou-lamine-drame-fr]
+sources: [source/wikipedia-mahmadu-lamine-en, source/wikipedia-mamadou-lamine-drame-fr]
+provenance:
+  layer: own-research
+  source: "English Wikipedia 'Mahmadu Lamine' and French Wikipedia 'Mamadou Lamine Dramé', both read in full on 25 October 2026; the Tijani-dhikr oral tradition and its scholarly doubt were checked in the secondary discussion of Fisher (1970) the same day. The queue line (§B: 'Mamadou Lamine Dramé (1840–1887)') takes the French infobox's single birth year; the articles' leads give the range 1835–1840, which the record states in full, showing 1840 as the approximate year — a narrowing of the sources' range, disclosed here and in the born note, not a contradiction of the year itself. His teachers (Fodé-Mohammed-Saloum of Bakel), his captor's father al-Hajj Umar Tall's fuller record, Musa Molo and the places Goundiourou, Kayes, Bakel, Diana and Toubakouta have no entities in the museum yet, so the student_of edge and place relations his biography would support are omitted and flagged in the writer's report. No Wikidata identifier was verified in this run, so none is recorded."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: century-additions-21
+status: { review: published, completeness: 3, generated_by: "Muse (Muse Spark 1.3)" }

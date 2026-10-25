@@ -1411,12 +1411,13 @@ accessibility:
   keyboard_2: 'Buttons and links are large enough to tap. The children''s games are designed to be played with the keyboard, and there are no time limits on reading.'
   limits_title: 'Known limitations'
   limits_1: 'This is a self-assessment: the site has not yet been audited by an independent accessibility auditor. The audit and its conformance report (ACR/VPAT) are planned.'
-  limits_2: 'The interactive map, the knowledge graph and the 3D hall are visual by nature; their text equivalents are being completed and tested with screen readers. Many art-gallery descriptions embed Arabic names inside the Urdu text; full Urdu titling is a separate translation effort.'
-  limits_3: 'Some citations link to recorded lectures on other sites, which the museum does not control and which may have no transcript. Braille-ready files (BRF) and accessible e-books (EPUB) of the museum''s texts, and an easy-read level for adult pages, are planned.'
+  limits_2: 'The interactive map, the knowledge graph and the 3D hall are visual by nature; their text equivalents are being completed and tested with screen readers.'
+  limits_3: 'Some citations link to recorded lectures on other sites, which the museum does not control and which may have no transcript. Braille-ready files (BRF) and accessible e-books (EPUB) of the museum''s texts are planned. An easy-read level exists only where a Kids'' Wing version exists; most adult pages do not have one yet.'
   tech_title: 'Technology the site relies on'
   tech_1: 'HTML, CSS and WAI-ARIA, read by any modern browser; JavaScript is optional. The site uses no accessibility overlay or third-party toolbar: such tools add outside scripts and do not make a site accessible, so accessibility is built into the pages themselves.'
   formats_title: 'Other formats'
   formats_body: 'All texts are open (prose CC BY-SA 4.0, data CC0), so they may be converted into braille, large print, audio or any other accessible format and shared freely. If you need a page in another format, write to us and we will help.'
+  formats_books_link: 'Download ready-made books: braille files (BRF) and accessible e-books (EPUB 3) for pathways, kids stories and this page'
   feedback_title: 'Tell us about a barrier'
   feedback_1: 'If something on the site does not work for you, or you need information in a different format, tell us. Please say which page (its address), what you were trying to do and, if you wish, which browser and assistive technology you use.'
   feedback_2: 'We reply within five working days and fix barriers as a priority. You can write to us by email or open a public report on GitHub.'
@@ -1652,6 +1653,7 @@ edu:
   level_full: Full text
   level_remember: Your choice is kept in this browser only.
   level_kids_link: Read it in the Kids' Wing
+  level_easy: 'An easier version is available for young readers:'
   read_eyebrow: Reading at your level
   read_lede: A grown-up reads you the short text; the longer one you read yourself.
   read_sprouts: Read to me (4–6)
