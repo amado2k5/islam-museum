@@ -1,0 +1,61 @@
+id: person/modibo-adama
+class: person
+
+label:
+  ar: "موديبو أداما"
+  en: "Modibo Adama"
+  ur: "مودیبو اداما"
+
+names:
+  - { value: "Adama ɓii Ardo Hassana", lang: en, kind: full }
+  - { value: "Modibbo Adama", lang: en, kind: alternate }
+
+summary:
+  ar: "عالم فولاني (1786-1847) تسلّم من عثمان دان فوديو راية الجهاد في فومبينا («البلاد الجنوبية») سنة 1809 فأسس إمارة فومبينا المعروفة بأداماوا، إحدى أكبر إمارات خلافة صكتو، وجعل عاصمتها يولا، وخلفه ابنه محمدو لول. عُرف بزهده وتواضعه حتى لُقّب ببساطة «موديبو» أي العالم."
+  en: "Fulani scholar (1786–1847) who received from Usman dan Fodio the flag of jihad for Fombina, 'the southlands', in 1809 and founded the emirate of Fombina, known as Adamawa — one of the largest emirates of the Sokoto Caliphate — ruling from Yola, where his son Muhammadu Lawal succeeded him. He was known for ascetic modesty and preferred the simple title Modibbo, 'learned man', to his royal style."
+  ur: "فولانی عالم (1786ء–1847ء) جنھوں نے 1809ء میں عثمان دان فودیو سے فومبینا («جنوبی سرزمین») کے جہاد کا علم حاصل کیا اور فومبینا کی امارت قائم کی جو اداماوا کے نام سے مشہور ہوئی — خلافتِ سوکوٹو کی بڑی امارتوں میں سے ایک — اور یولا سے حکومت کی، جہاں ان کے بیٹے محمدو لول ان کے جانشین ہوئے۔ وہ زہد اور سادگی کے لیے مشہور تھے اور اپنے شاہی لقب پر سادہ «مودیبو» یعنی عالم کہلانا پسند کرتے تھے۔"
+
+roles: [scholar, political leader]
+wings: [people]
+
+faith:
+  - value: unknown
+    basis: unknown
+    sources: [source/wikipedia-modibo-adama-en, source/wikipedia-modibo-adama-fr, source/wikipedia-modibo-adama-ar, source/wikidata-modibo-adama]
+    note: "NOT RECORDED — no fetched source names a school of law or theology, or a Sufi affiliation, for Adama himself. What the sources give is a formation and a milieu: the English article presents a Fulani scholar educated by his father, then under Shehu Muhammad Tahir in Baghirmi and for a decade under Mallam Kiari at Birnin Ngazargamo, who received the Sokoto jihad flag from Usman dan Fodio and administered his emirate on Usman's advice; the French and Arabic articles say no more than this. That Sokoto world was Maliki in law is context about his teachers and his sovereign, not an attestation of the man's own school — a teacher's school never counts, and neither does a movement's. Wikidata carries no religion statement for him at all, not even a generic one. Under the lane's two-source rule and the founder's doubt rule ('if we have doubt then unclassified') the faith is left unknown."
+
+born:
+  edtf: "1786"
+  hijri: "1200"
+  calendar: gregorian
+  precision: year
+  status: historical
+  derived: true
+  note: "Born at Wuro Chekke in 1786; so the leads of the English, French and Arabic articles and Wikidata (year precision), and so the founder's queue. CONFLICTS: the English article's own early-life section says 'born in 1779 in Wuro Chekke', against its own lead; and Samuel Nelle's 2017 book, listed in the French article's bibliography, dates him 1780–1847. The record follows 1786 and records both variants. The two articles also place Wuro Chekke differently — the French in today's Borno State, the English in what is now Adamawa State — and both are recorded in the place text. The Hijri year is derived by tabular conversion (most of 1786 falls in 1200 AH). Birthplace as recorded: Wuro Chekke (the French article: in today's Borno State; the English article: in what is now Adamawa State)."
+  sources: [source/wikipedia-modibo-adama-en, source/wikipedia-modibo-adama-fr, source/wikidata-modibo-adama]
+
+died:
+  edtf: "1847"
+  hijri: "1263"
+  calendar: gregorian
+  precision: year
+  status: historical
+  derived: true
+  note: "Died at Yola in 1847; all three articles and Wikidata (year precision, place of death Yola) agree. He was buried at Yola, where his tomb survives, and was succeeded, after a brief regency, by his son Muhammadu Lawal. The Hijri year is derived by tabular conversion (most of 1847 falls in 1263 AH). Place of death as recorded: Yola (present-day Nigeria)."
+  sources: [source/wikipedia-modibo-adama-en, source/wikipedia-modibo-adama-fr, source/wikidata-modibo-adama]
+
+relations: []
+
+external_ids:
+  wikidata: Q959476
+
+sources: [source/wikipedia-modibo-adama-en, source/wikipedia-modibo-adama-fr, source/wikipedia-modibo-adama-ar, source/wikidata-modibo-adama]
+
+provenance:
+  layer: own-research
+  source: "English Wikipedia 'Modibo Adama', rev. 1365394006 of 2026-07-22; French Wikipedia 'Modibbo Adama', rev. 240486163 of 2026-10-18; Arabic Wikipedia 'موديبو أداما', rev. 61786531 of 2023-03-16 (a stub); Wikidata Q959476 read via the API (verified: human, male, born 1786, died 1847 at Yola, no religion statement). No relations are written: his teachers (Shehu Muhammad Tahir, Mallam Kiari), his father Modibbo Hassana and Usman dan Fodio — from whom he received the flag and to whom his emirate answered — have no museum person records (person/abdullahi-dan-fodio, the Shehu's brother, is not the Shehu), the Adamawa emirate has no polity entity, and no place entities exist for Wuro Chekke or Yola. All read in full on 25 October 2026."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: century-additions-10
+  checked: "2026-10-25"
+
+status: { review: published, completeness: 3 }

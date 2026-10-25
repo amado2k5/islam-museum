@@ -1,0 +1,59 @@
+id: person/ali-dinar
+class: person
+
+label:
+  ar: "علي دينار"
+  en: "Ali Dinar"
+  ur: "علی دینار"
+
+names:
+  - { value: "Muhammad Ali Dinar", lang: en, kind: full }
+
+summary:
+  ar: "آخر سلاطين دارفور من الأسرة الكيراوية (توفي 1916): ولي العرش سنة 1891، وخضع للمهديين في الخرطوم ثم فرّ قبيل معركة أم درمان سنة 1898 فاستعاد سلطنته المستقلة، وحكم ثمانية عشر عاما إلى أن غزته بريطانيا بعد إعلانه التأييد للدولة العثمانية في الحرب العالمية الأولى فقُتل في المعركة في 6 نوفمبر 1916 ودُمجت دارفور في السودان الأنجلو-المصري."
+  en: "The last sultan of Darfur of the Keira dynasty (died 1916): he took the throne in 1891, submitted for years to the Mahdist state at Omdurman, fled home just before the battle of Omdurman in 1898 and restored the independent sultanate, then ruled for eighteen years until, after his declaration for the Ottoman Empire in the First World War, a British invasion killed him in action on 6 November 1916 and Darfur was absorbed into Anglo-Egyptian Sudan."
+  ur: "دارفور کے کیرا خاندان کے آخری سلطان (وفات 1916ء): 1891ء میں تخت پر بیٹھے، برسوں مہدی ریاست کو اومدورمان میں تابع رہے، پھر 1898ء میں ام درمان کی جنگ سے قدرے پہلے فرار ہو کر آزاد سلطنت بحال کی، اور اٹھارہ برس حکومت کی، حتیٰ کہ پہلی عالمی جنگ میں سلطنتِ عثمانیہ کی حمایت کے اعلان کے بعد برطانوی حملے میں 6 نومبر 1916ء کو شہید ہوئے اور دارفور اینگلو-مصری سوڈان میں ضم ہو گیا۔"
+
+roles: [political leader]
+wings: [people]
+
+faith:
+  - value: unknown
+    basis: unknown
+    sources: [source/wikipedia-ali-dinar-en, source/wikipedia-ali-dinar-ar, source/wikipedia-ali-dinar-fr, source/wikidata-ali-dinar]
+    note: "NOT RECORDED — no fetched source names a school of law or theology for Ali Dinar himself. What the sources give is allegiance, office and piety: the Arabic article presents his adherence to the Mahdist revolution, his allegiance to the Khalifa Abdallahi and his annual sending of the Kaaba's Kiswa; the English article presents a sultan who, once restored, 'rooted out Mahdist influence' and built a judiciary. A political-religious allegiance of the era and a sultan's public piety are neither a madhhab nor a creed attested for the man, and the two articles' opposite framings underline how positional such testimony is. Wikidata's religion statement is Islam generically — one structured-data value naming no school. Under the lane's two-source rule and the founder's doubt rule ('if we have doubt then unclassified') the faith is left unknown."
+
+born:
+  edtf: "1856"
+  hijri: "1272"
+  calendar: gregorian
+  precision: year
+  status: historical
+  derived: true
+  note: "Born at the village of al-Shawaya, west of Nyala, in 1856; so the Arabic article's lead, the French article ('vers 1856'), and the founder's queue. CONFLICTS: the English article gives 'c. 1865', and Wikidata gives only the 1860s at decade precision; the record follows 1856 and records both variants. The Hijri year is derived by tabular conversion (most of 1856 falls in 1272 AH). Birthplace as recorded: al-Shawaya village, west of Nyala, Darfur (present-day Sudan)."
+  sources: [source/wikipedia-ali-dinar-ar, source/wikipedia-ali-dinar-fr, source/wikipedia-ali-dinar-en, source/wikidata-ali-dinar]
+
+died:
+  edtf: "1916-11-06"
+  hijri: "1335"
+  calendar: gregorian
+  precision: day
+  status: historical
+  note: "Killed in action on 6 November 1916 during the British invasion of Darfur, at the battle the Arabic article calls al-Baranjiyya; all three articles and Wikidata (day precision) agree on the date. The Arabic article dates it '11 Muharram 1335 AH / 6 November 1916' — the record's Hijri year is the article's own, and the tabular conversion of 6 November 1916 confirms it exactly, so it is not marked derived. Place of death as recorded: at the battle of al-Baranjiyya, Darfur (present-day Sudan)."
+  sources: [source/wikipedia-ali-dinar-en, source/wikipedia-ali-dinar-ar, source/wikipedia-ali-dinar-fr, source/wikidata-ali-dinar]
+
+relations: []
+
+external_ids:
+  wikidata: Q3818737
+
+sources: [source/wikipedia-ali-dinar-en, source/wikipedia-ali-dinar-ar, source/wikipedia-ali-dinar-fr, source/wikidata-ali-dinar]
+
+provenance:
+  layer: own-research
+  source: "English Wikipedia 'Ali Dinar', rev. 1372694403 of 2026-09-01; Arabic Wikipedia 'علي دينار', rev. 73707761 of 2026-03-06; French Wikipedia 'Ali Dinar', rev. 234313702 of 2026-03-22; Wikidata Q3818737 read via the API (verified: human, male, born 1860s at decade precision, died 1916-11-06, religion Islam generically). No relations are written: his father Zakariya ibn Muhammad Fadl has no museum person record, the Keira sultanate of Darfur has no polity entity, and no place entities exist for Nyala, al-Fashir or Darfur. All read in full on 25 October 2026."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: century-additions-10
+  checked: "2026-10-25"
+
+status: { review: published, completeness: 3 }
