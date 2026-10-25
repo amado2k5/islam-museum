@@ -1,0 +1,48 @@
+---
+id: person/omar-abdelkafy
+lang: en
+source_lang: ar
+translators: []
+---
+## Overview
+Omar Abdelkafy Shehata is an Egyptian Muslim preacher, born on 1 May 1951 in the village of Talla in Minya Governorate, Upper Egypt. {cite:wikipedia-omar-abdelkafy-ar} {cite:wikipedia-omar-abdelkafy-en} Arab audiences know him from satellite channels through programmes such as "The True Promise" (al-Wa'd al-Haqq) and "This Is Our Religion", and his lessons and books focus on the scientific inimitability of the Qur'an and Sunna and on traditions about the hereafter. {cite:wikipedia-omar-abdelkafy-ar} The English Wikipedia article states that his YouTube channel had over 9.87 million subscribers, a platform figure dated to the article's revision of August 2026, not a fixed number. {cite:wikipedia-omar-abdelkafy-en}
+
+## Upbringing and education
+He grew up in the village of Talla in Minya Governorate. He took a licence degree in Arabic and Islamic studies and a master's degree in comparative jurisprudence, and also enrolled in the Faculty of Agriculture, taking a doctorate in agricultural sciences; he studied at the Academy of Scientific Research and worked as a researcher at the National Research Centre. {cite:wikipedia-omar-abdelkafy-ar}
+
+From childhood he studied under teachers and scholars in fiqh, tawhid, tafsir, sira, usul al-fiqh and hadith sciences, among them Muhammad al-Ghazali, Muhammad Metwalli al-Sha'rawi and Yusuf al-Qaradawi, and memorised Sahih al-Bukhari and Sahih Muslim with their chains of transmission under his teachers. He studied rhetoric, grammar and morphology and memorised many didactic texts, such as the Alfiyya of Ibn Malik, and was a member of the World Commission on Scientific Signs in the Qur'an and Sunna of the Muslim World League. {cite:wikipedia-omar-abdelkafy-ar}
+
+## Beginnings and career
+He began giving Friday sermons and teaching lessons immediately after graduating from university in 1972, and kept two weekly lessons, on Mondays and Thursdays, for about twenty years. His regular lecture series include "The Final Abode" (al-Dar al-Akhira), an explanation of Sahih al-Bukhari, the Prophet's biography and the stories of the prophets; the Arabic article counts more than 1,200 Friday sermons and about 3,000 lessons of an hour and a half each. {cite:wikipedia-omar-abdelkafy-ar}
+
+From 1994 he devoted himself to his own scholarly research, working on an encyclopaedia of the scientific inimitability of the Qur'an and Sunna, an encyclopaedia of the prophets of God, and other books. {cite:wikipedia-omar-abdelkafy-ar}
+
+He left Egypt in 2000. The Arabic article says this was because of the restrictions he faced under former president Hosni Mubarak, when he was barred from lecturing and preaching in mosques, universities and clubs. He resided in the United Arab Emirates and travelled among many Arab and European countries, then returned to Egypt in 2011. {cite:wikipedia-omar-abdelkafy-ar}
+
+## Programmes and work
+He has presented many television and radio programmes, the best known being "The True Promise" and "This Is Our Religion", and "The Choicest of the Choice" (Safwat al-Safwa), which he co-presented with Muhammad Khaled on the Sharjah satellite channel; these programmes were turned into books. {cite:wikipedia-omar-abdelkafy-ar} The English article notes that he delivered hundreds of lectures on channels such as Iqraa and Al-Resalah, with series including "From the Treasures of the Sunna", "The Lucifer Diaries" and "Wonders of the Heart". {cite:wikipedia-omar-abdelkafy-en}
+
+Among his Ramadan programmes are "The Lucifer Diaries", "Treasures of the Sunna", "Wa Yuzakkihim" and "People of Wisdom", and the channels on which he has presented include Da'wa, Al-Resalah and Al-Nada. {cite:wikipedia-omar-abdelkafy-ar}
+
+## Posts and memberships
+He is a member of the Council of Elders of the International Union of Muslim Scholars, a member of the Dubai International Holy Qur'an Award and director of its Qur'anic Studies Centre, a member of the Fiqh Academy of the scholars of India, and a cultural adviser at the Juma Al Majid Centre for Culture and Heritage in Dubai. {cite:wikipedia-omar-abdelkafy-ar}
+
+## Positions and criticism
+This section should be read as an account of positions reported in the sources, not as the museum's judgement on them.
+
+The Arabic article tells of his departure from Egypt in 2000 as the result of restrictions under Hosni Mubarak — he was barred from sermons and lectures in mosques, universities and clubs — and of his return to Egypt in 2011 after that era. This is the article's account; the sources used here carry no corresponding official account. {cite:wikipedia-omar-abdelkafy-ar}
+
+His preaching, as the sources describe it, concentrates on the scientific inimitability of the Qur'an, the Arabic language, traditions about the hereafter, and the stories of the prophets. {cite:wikipedia-omar-abdelkafy-ar}
+
+## Writings
+He has written dozens of books in Arabic, among them "The True Promise" (al-Wa'd al-Haqq), "Hold Your Tongue" (Amsik Lisanak), "Urgent Messages to My Muslim Daughter", "Sins of the Tongue" (Afat al-Lisan), "The Doors of Goodness" (Abwab al-Khayr), "This Is Our Religion" (Hadha Dinuna), "The Ethics of the Muslim Man and Woman" and "The Final Abode" (al-Dar al-Akhira). {cite:wikipedia-omar-abdelkafy-en} The Arabic article adds the encyclopaedia of scientific inimitability in the Qur'an and Sunna, the encyclopaedia of the prophets of God, "Fiqh of Exile" (Fiqh al-Ghurba) for Muslims living abroad, "Prayer: Worship and Secrets", and "Safwat al-Safwa". {cite:wikipedia-omar-abdelkafy-ar}
+
+## Personal life
+He is married with children; the museum does not publish family detail beyond what understanding his work requires. {cite:wikipedia-omar-abdelkafy-ar}
+
+## Impact and audience
+His lessons and programmes reached a wide audience through Arab satellite channels and then online; the English Wikipedia article states that his YouTube channel had over 9.87 million subscribers. Platform figures change constantly, so this article records them only with the source's revision date of August 2026. {cite:wikipedia-omar-abdelkafy-en}
+
+## References
+- The defined sources cited above, registered in `data/source/`.
+- Later translations and edits of this article need periodic review with clear update dates.

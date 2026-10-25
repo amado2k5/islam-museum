@@ -1,0 +1,38 @@
+id: person/maher-al-muaiqly
+class: person
+label: { ar: "ماهر المعيقلي", en: "Maher al-Muaiqly", ur: "ماہر المعيقلی" }
+names:
+  - { value: "ماهر بن حمد بن معيقل المعيقلي البلوي", kind: full }
+  - { value: "Maher ibn Hamad ibn Muaiqel al-Muaiqly al-Balawi", kind: full }
+gender: male
+summary:
+  ar: "إمام وخطيب المسجد الحرام وقارئ معروف بصوته وقراءته المتقنة، وُلد سنة 1969، عُيّن إماما رسميا للمسجد الحرام عام 1428هـ، وسجّل سنة 2006 المصحف المرتل المشترك لإذاعة وتلفزيون السعودية، وألقى خطبة عرفة بمسجد نمرة عام 1445هـ/2024م، وهو أستاذ مساعد بجامعة أم القرى."
+  en: "Imam and preacher of the Grand Mosque of Mecca and a Qur'an reciter known for his voice and precise recitation, born in 1969. He was appointed an official imam of the Grand Mosque in 1428 AH, recorded the joint murattal mushaf for Saudi radio and television in 2006, delivered the Arafat sermon at Namira Mosque in 1445 AH / 2024, and is an assistant professor at Umm al-Qura University."
+  ur: "مسجد حرام کے امام و خطیب اور اپنی آواز و متقن قرأت کے لیے معروف قاری، جو 1969 میں پیدا ہوئے۔ وہ 1428ھ میں مسجد حرام کے باقاعدہ امام مقرر ہوئے، 2006 میں سعودی ریڈیو و ٹیلی ویژن کے لیے مشترکہ مصحف مرتل ریکارڈ کیا، 1445ھ/2024 میں مسجد نمرہ میں خطبۂ عرفہ دیا، اور جامعہ ام القری میں اسسٹنٹ پروفیسر ہیں۔"
+roles: [reciter, scholar]
+wings: [people, living]
+born:
+  edtf: "1969-01-07"
+  hijri: "1388"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "Gregorian date from English Wikipedia and Wikidata, with the birthplace Medina from Wikidata; the Hijri year (1388) is converter-derived."
+  sources: [source/wikipedia-maher-al-muaiqly-en, source/wikidata-maher-al-muaiqly]
+relations:
+  - { type: born_in, target: place/medina, sources: [source/wikidata-maher-al-muaiqly] }
+  - { type: lived_in, target: place/mecca, sources: [source/wikipedia-maher-al-muaiqly-en, source/wikipedia-maher-al-muaiqly-ar] }
+faith:
+  - value: unknown
+    basis: unknown
+    note: "Neither Wikipedia article gives a school for him, and Wikidata gives only 'Islam'. His master's thesis was in the jurisprudence of Imam Ahmad ibn Hanbal and his doctorate an edition of a Shafi'i fiqh work; thesis subjects are not an attestation of his own school, so it is not recorded."
+    sources: [source/wikipedia-maher-al-muaiqly-ar, source/wikidata-maher-al-muaiqly]
+external_ids: { wikidata: "Q1530120" }
+sources: [source/wikipedia-maher-al-muaiqly-en, source/wikipedia-maher-al-muaiqly-ar, source/wikidata-maher-al-muaiqly]
+provenance:
+  layer: own-research
+  source: "English Wikipedia article 'Maher al-Mu'aiqly' (revision of 10 July 2026), Arabic Wikipedia article «ماهر المعيقلي» (revision of 19 August 2026), Wikidata Q1530120; checked 24 Oct 2026"
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: modern-figures-batch-4
+status: { review: published, generated_by: "Muse (Muse Spark 1.3)" }
