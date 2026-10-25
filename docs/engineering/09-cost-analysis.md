@@ -24,7 +24,7 @@ owned**:
 | Item | Cost |
 |---|---|
 | Founder's Mac (local models via Ollama, DuckDB, Python venvs) | already owned |
-| Speech-to-text for lectures (`mlx-whisper`, open weights, offline) and `ffmpeg` | already owned; $0 per hour of audio (about 13 times real time on the M4 Max) |
+| Speech-to-text for lectures (`mlx-whisper`, Voxtral, Qwen3-ASR; open weights, offline) and `ffmpeg` | already owned; $0 per hour of audio (Whisper large-v3 about 13 times real time, Qwen3-ASR faster on the GPU) |
 | 1 TB external drive (`/Volumes/exmicroSD/islam-museum-harvest`) | ~$60–90 one-time, owned |
 | ~215 GiB of dumps (Wikidata 96 GiB, 35 Wikipedias, OpenITI, GeoNames, Pleiades, Met, Natural Earth, ETOPO1) | bandwidth only |
 | Electricity for multi-hour downloads/renders (caffeinated tmux sessions) | negligible |

@@ -1,0 +1,38 @@
+id: person/yasin-bey
+aliases: [person/yasin-bay]   # same person (same Wikidata id Q38875): the Devin culture-lane draft card person/yasin-bay was merged here
+class: person
+label: { ar: "ياسين باي", en: "Yasin Bey", ur: "یاسین بے" }
+names:
+  - { value: "Dante Terrell Smith", kind: full }
+  - { value: "Yasiin Bey", kind: alternate }
+  - { value: "Mos Def", kind: pen }
+gender: male
+summary:
+  ar: "مغنّي راب وممثل أمريكي، وُلد في بروكلين بنيويورك سنة 1973 باسم دانتي تيريل سميث، وعُرف فنيًا باسم «موس ديف» قبل أن يتخذ اسم ياسين باي سنة 2011. أسس مع طالب كويلي ثنائي «بلاك ستار» (1998)، وحقق ألبومه المنفرد الأول «أسود على الوجهين» (1999) نجاحًا نقديًا واسعًا، ومثّل في أفلام ومسلسلات تلفزيونية بارزة. اعتنق الإسلام في مراهقته."
+  en: "American rapper and actor, born in Brooklyn, New York in 1973 as Dante Terrell Smith, and known professionally as Mos Def before adopting the name Yasiin Bey in 2011. With Talib Kweli he formed the duo Black Star (1998); his solo debut Black on Both Sides (1999) was widely acclaimed, and he has acted in major films and television series. He converted to Islam in his teens."
+  ur: "امریکی ریپر اور اداکار، 1973 میں بروکلین، نیویارک میں دانتے تیریل سمتھ کے نام سے پیدا ہوئے، فنی نام «موس ڈیف» سے مشہور ہوئے پھر 2011 میں یاسین بے کا نام اپنایا۔ طالب کویلی کے ساتھ انھوں نے جوڑی «بلیک اسٹار» (1998ء) بنائی؛ ان کا پہلا سولو البم «بلیک آن بوتھ سائیڈز» (1999ء) بڑی نقدی پذیرائی لایا، اور وہ اہم فلموں اور ٹیلی ویژن سلسلوں میں اداکاری کر چکے ہیں۔ انھوں نے نوجوانی میں اسلام قبول کیا۔"
+roles: [rapper, singer, actor]
+wings: [people, living]
+themes: [music, muslim-minorities-under-non-muslim-rule]
+born:
+  edtf: "1973-12-11"
+  hijri: "1393"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "Born Dante Terrell Smith on 11 December 1973 in Brooklyn, New York City; the English and Arabic articles and Wikidata agree. No place entity for Brooklyn exists in data/place/, so no born_in relation is written. The Hijri year (1393) is derived by tabular conversion."
+  sources: [source/wikipedia-yasin-bey-en, source/wikidata-yasin-bey]
+faith:
+  - value: unknown
+    basis: unknown
+    note: "NOT RECORDED AS DOCUMENTED — no source names a school for Bey himself. The English article records that he was first exposed to Islam at thirteen and converted in his teens; conversion and practice are not a school attestation. The same article says his father was first a member of the Nation of Islam and later followed Imam Warith Deen Mohammed, whose community merged into mainstream Sunni Islam — that is his father's path, and a family member's affiliation never counts for the subject. The Arabic article names no school, and Wikidata gives his religion as Islam (Q432) generically. Under the two-source rule and the founder's doubt rule the faith is left unknown."
+    sources: [source/wikipedia-yasin-bey-en, source/wikipedia-yasin-bey-ar, source/wikidata-yasin-bey]
+external_ids: { wikidata: "Q38875" }
+sources: [source/wikipedia-yasin-bey-en, source/wikipedia-yasin-bey-ar, source/wikidata-yasin-bey]
+provenance:
+  layer: own-research
+  source: "English Wikipedia 'Yasiin Bey' (revision 1381502995 of 22 October 2026), Arabic Wikipedia «ياسين باي» (revision 75980237 of 23 July 2026) and Wikidata Q38875 (confirmed via the Wikidata API: human, male, born 11 December 1973 at Brooklyn, religion Islam generically), all read in full on 25 October 2026. No Urdu article exists. No earlier record for him existed in data/person/ under any spelling (Mos Def, Yasiin Bey, Dante Smith); this is a new build, not an enrichment."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: century-additions-11
+status: { review: published, completeness: 3, generated_by: "Muse (Muse Spark 1.3)" }

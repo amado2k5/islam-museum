@@ -23,7 +23,7 @@ Batches: at most 25 entities per commit; one series or one topic per batch; prog
 ## Rules specific to this lane
 
 - The method, the rights and the checks are in `audio-video-harvest.md`. The transcripts, MP3s and claims tables stay in `~/islam-museum-harvest`; nothing from them enters git except the museum's own cited prose and the `data/` facts.
-- A line from a transcript is written only under the verification rule of `audio-video-harvest.md` §2: a clear line, a second transcription pass that agrees for any name, number or date, or a person's listening recorded at the anchor. The agent cannot listen; unconfirmed points are `needs_source` or left out.
+- A line from a transcript is used from the working engine's output, as the founder authorised on 25 Oct 2026, with the engine and window recorded. Unclear lines are dropped, and single-occurrence names or numbers that look garbled are marked `needs_source`.
 - The Qur'an and hadith texts he recites are never typed: references only (`[[passage/quran-<sura>-<aya>|label]]`), with his explanation cited.
 - Contested matters (creed and madhhab differences, other faiths, politics, historical disputes) get `perspectives` with the Sunni position first; his own positions are attributed to him with the anchor.
 - The Sunni frame is the default; the speaker's school is recorded only as `faith` from two independent sources (the modern-figures rule). A recording in which he states his own school is one attestation, recorded as his statement.
