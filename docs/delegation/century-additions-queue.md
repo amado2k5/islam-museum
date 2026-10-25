@@ -18,11 +18,11 @@ lists' own order. Status markers: [ ] queued · [~] in a writer's hands · [x] m
 - [~] Naguib Mahfouz — 1911–2006
 - [~] Orhan Pamuk — 1952–Living
 - [~] Aziz Sancar — 1946–Living
-- [~] Fazlur Rahman Khan — 1929–1982
-- [~] Zaha Hadid — 1950–2016
-- [~] Mostafa El-Sayed — 1933–Living
-- [~] Rana Dajani — 1964–Living
-- [~] Uğur Şahin — 1965–Living
+- [x] Fazlur Rahman Khan — 1929–1982
+- [x] Zaha Hadid — 1950–2016
+- [x] Mostafa El-Sayed — 1933–Living
+- [x] Rana Dajani — 1964–Living
+- [x] Uğur Şahin — 1965–Living
 - [ ] Özlem Türeci — 1967–Living
 - [ ] Anousheh Ansari — 1966–Living
 - [ ] Sultan bin Salman Al Saud — 1956–Living
