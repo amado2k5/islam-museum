@@ -95,3 +95,15 @@ The Umayyad refugee 'Abd al-Rahman ibn Mu'awiya reached Spain, rallied the clien
 
 ## The collapse of the Caliphate and the partition
 Al-Mansur had brought into Spain a large number of North African Berber mercenaries, who became a centre of agitation against the Andalusians and the Slav bloc. The crisis came when 'Abd al-Rahman Sanchuelo sought designation as heir by Hisham II in 399/1008; he was executed by the supporters of the Umayyad pretender Muhammad ibn Hisham ibn 'Abd al-Jabbar near Cordova on 3 Rajab 399 (3 March 1009). From then on the caliphate suffered pretenders and counter-pretenders, backed by Berbers or against them, until it fell. {cite:encyclopaedia-of-islam-2 vol. 1 p. 520}
+
+## The last caliphs and the Hammudids
+After al-Mansur's death the caliphs were puppets and pretenders. Hisham II was replaced in 400/1010 and restored in 403/1013; then came Muhammad II ibn Hisham, Sulayman, 'Abd al-Rahman IV al-Murtada (408/1018), 'Abd al-Rahman V al-Mustazhir (414/1023-24), Muhammad III al-Mustakfi (414-416/1024-25) and Hisham III al-Mu'tadd (420-422/1029-31). The Hammudids, 'Ali ibn Hammud (407-408/1016-18) and al-Qasim ibn Hammud (408-412/1018-23), also took the title. {cite:encyclopaedia-of-islam-2 vol. 1 p. 520}
+
+## The taifa kingdoms
+The caliphate's collapse split al-Andalus into many small states, most of them short-lived, and only a few large blocs emerged: the 'Abbadids of Seville, the Aftasids of Badajoz, the Dhu 'l-Nunids of Toledo and the Hudids of Saragossa. The taifa history of the eleventh century is one of turmoil, rivalry and constant disputes, in which Andalusians fought Berbers and Slavs fought both. There was no hope of restoring the caliphate, and each state's weakness made the Christian kings more greedy: Alfonso VI levied heavy tribute and, by skilful diplomacy, took Toledo peacefully in 1085 and made himself arbiter among the taifa kings (muluk al-tawa'if). The danger became so great that the taifa kings sought help from the Almoravids. {cite:encyclopaedia-of-islam-2 vol. 1 p. 520-521}
+
+## The Almoravid turning point
+North African troops led by the amir Yusuf ibn Tashfin defeated the forces of Alfonso VI at Sagrajas (al-Zallaqa) on 22 Rajab 479 (2 November 1086). Yusuf, soon tired of the disunity of the Andalusian kings and of their compromises with the Christian monarch, deposed them one after another and annexed most of al-Andalus to his dominions. From then on Muslim Spain was a vassal of the Maghrib. {cite:encyclopaedia-of-islam-2 vol. 1 p. 521}
+
+## Note on the harvest text
+The harvest row for AL-ANDALUS ends in the middle of the section on the taifa kingdoms and the Almoravids, with a bibliography that refers to the separate articles ABBADIDS, AFTASIDS and DHU 'L-NUNIDS. The later sections (the Almohads and the progress of the Reconquista, the Nasrid kingdom of Granada, Islam in al-Andalus, literature and culture, art, and Spanish Arabic) are not in this text, so they are not written here. {cite:encyclopaedia-of-islam-2 vol. 1 p. 521}
