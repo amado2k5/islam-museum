@@ -1,0 +1,35 @@
+id: person/shamail-nadwi
+class: person
+label: { ar: "شمائل الندوي", en: "Shamail Nadwi", ur: "شمائل ندوی" }
+names:
+  - { value: "شمائل أحمد عبد الله الندوي", kind: full }
+  - { value: "Shamail Ahmad Abdullah Nadwi", kind: full }
+  - { value: "Mufti Shamail Nadwi", kind: full }
+gender: male
+summary:
+  ar: "عالم إسلامي هندي ومفتٍ ومؤلف، وُلد في سري نكر سنة 1998 ونشأ في كلكتا، وتخرج في دار العلوم لندوة العلماء لكناو. أسس «مركز الوحيين» للتعليم عبر الإنترنت سنة 2021 و«مؤسسة الوحيين» سنة 2024، وذاع صيته عالميا بمناظرته الأكاديمية مع الشاعر جاويد أختر حول وجود الله في نيودلهي سنة 2025."
+  en: "Indian Islamic scholar, mufti and author, born in Srinagar in 1998 and raised in Kolkata, and a graduate of Darul Uloom Nadwatul Ulama in Lucknow. He founded the online Markaz al-Wahyain in 2021 and the Wahyain Foundation in 2024, and became widely known for his 2025 academic debate on the existence of God with the poet Javed Akhtar in New Delhi."
+  ur: "ہندوستانی اسلامی عالم، مفتی اور مصنف، جو 1998 میں سری نگر میں پیدا ہوئے اور کلکتہ میں پروان چڑھے، اور دارالعلوم ندوۃ العلماء لکھنؤ کے فارغ التحصیل ہیں۔ انہوں نے 2021 میں آن لائن «مرکز الوحیین» اور 2024 میں «وحیین فاؤنڈیشن» قائم کی، اور 2025 میں نئی دہلی میں شاعر جاوید اختر کے ساتھ خدا کے وجود پر اپنے علمی مباحثے سے عالمی شہرت پائی۔"
+roles: [scholar, preacher, writer]
+wings: [people, living]
+born:
+  edtf: "1998-06-07"
+  hijri: "1419"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "Gregorian date from the English and Arabic Wikipedia articles; the Hijri year (1419) is converter-derived."
+  sources: [source/wikipedia-shamail-nadwi-en, source/wikipedia-shamail-nadwi-ar]
+faith:
+  - value: sunni-hanafi
+    basis: documented
+    note: "Two independent articles name the school: the English Wikipedia infobox gives his denomination as Sunni Islam and his jurisprudence as Hanafi (movement: Deobandi, Nadwi), and the Urdu Wikipedia article's lead describes him as considered affiliated with Sunni, Hanafi and Deobandi thought in the subcontinent's scholarly circles. The Deobandi/Nadwi movement affiliation is recorded in this note; the faith value carries the school."
+    sources: [source/wikipedia-shamail-nadwi-en, source/wikipedia-shamail-nadwi-ur]
+sources: [source/wikipedia-shamail-nadwi-en, source/wikipedia-shamail-nadwi-ar, source/wikipedia-shamail-nadwi-ur, source/muftishamail-official]
+provenance:
+  layer: own-research
+  source: "English, Arabic and Urdu Wikipedia articles on Shamail Nadwi (the English article as indexed 5 October 2026, the Urdu as indexed 8 June 2026) and his official website muftishamail.com; no Wikidata item was found for him (searched 24 October 2026), so no wikidata source entity or external ID is recorded. His YouTube channel @muftishamail carried about 720,000 subscribers in the founder's harvest of October 2026. Checked 24 October 2026"
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: modern-figures-batch-5
+status: { review: published, completeness: 3, generated_by: "Muse (Muse Spark 1.3)" }
