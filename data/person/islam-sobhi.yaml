@@ -1,0 +1,33 @@
+id: person/islam-sobhi
+class: person
+label: { ar: "إسلام صبحي", en: "Islam Sobhi", ur: "اسلام صبحی" }
+names:
+  - { value: "إسلام صبحي", kind: full }
+  - { value: "Islam Sobhi", kind: full }
+gender: male
+summary:
+  ar: "قارئ قرآن مصري من مواليد 1998، عرفه الجمهور من تلاوات نشرها على قناته الرسمية في يوتيوب ومنصات التواصل والبودكاست، ويقرأ برواية حفص عن عاصم، وتصفه سير المنصات بأنه طالب طب."
+  en: "Egyptian Quran reciter born in 1998, known to audiences through recitations published on his official YouTube channel, social platforms and podcasts. He recites in the Hafs 'an Asim narration, and platform biographies describe him as a medical student."
+  ur: "مصری قاریِ قرآن، جو 1998 میں پیدا ہوئے اور اپنے سرکاری یوٹیوب چینل، سوشل پلیٹ فارمز اور پوڈکاسٹس پر شائع شدہ تلاوتوں سے مشہور ہوئے۔ وہ روایتِ حفص عن عاصم میں تلاوت کرتے ہیں، اور پلیٹ فارم سوانح انہیں طب کا طالب علم بتاتی ہیں۔"
+roles: [reciter]
+wings: [people, living]
+born:
+  edtf: "1998"
+  calendar: gregorian
+  precision: year
+  status: historical
+  derived: false
+  note: "Birth year from the syndicated podcast-profile biography and an Arabic web biography, which also places his origin in Monufia Governorate (Shebin El-Kom). The Hijri year is omitted: the Gregorian year itself rests on profile biographies, and web sources conflict on finer detail. No Wikipedia article or Wikidata item exists for him."
+  sources: [source/tunein-islam-sobhi-podcast, source/maal7ul-islam-sobhi]
+faith:
+  - value: unknown
+    basis: unknown
+    note: "One unvetted web biography asserts he is Sunni, arguing from the majority school of Egypt rather than from any statement or record of his own; no second source names a school. Not recorded as sunni until a second source confirms it."
+    sources: [source/maal7ul-islam-sobhi]
+sources: [source/youtube-islam-sobhi, source/tunein-islam-sobhi-podcast, source/maal7ul-islam-sobhi]
+provenance:
+  layer: own-research
+  source: "His official YouTube channel @islam_sobhi (identity and reach; 8.19 million subscribers in the founder's channel harvest), the Muslim Central podcast biography as carried by TuneIn, and the Arabic biography at maal7ul.com, checked 24 October 2026. No Wikipedia article (English, Arabic, Egyptian Arabic, Urdu, Indonesian, Malay, Persian) and no Wikidata item for the reciter was found."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: modern-figures-batch-4
+status: { review: published, generated_by: "Muse (Muse Spark 1.3)" }
