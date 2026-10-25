@@ -44,6 +44,8 @@ export const BUDGETS: Budget[] = [
   { family: "classroom quiz", route: "/ar/learn/teachers/quiz/g11-chw3m-rise-of-islam/", html: 120 * KB, js: 15 * KB },
   // E3 step 2: the daily challenge (Century Challenge, five rounds a day) at the child-activity ceiling of plan §3
   { family: "daily challenge", route: "/ar/learn/daily/", html: 120 * KB, js: 12 * KB },
+  { family: "listing", route: "/ar/learn/facts/", html: 600 * KB, js: 10 * KB },
+  { family: "printable pack", route: "/ar/learn/facts/poster/", html: 200 * KB, js: 6 * KB },
 ];
 
 export interface Measure { route: string; html: number; js: number; scripts: string[] }

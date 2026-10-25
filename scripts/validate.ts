@@ -144,6 +144,17 @@ export function checkLeveledReading(prose: Prose[], loaded: { entity: any; file:
     if (!edu) continue;
     if (edu.levels?.length && !present.has(entity.id)) err(file, `education.levels [${edu.levels.join(", ")}] declared but content/ has no leveled section for ${entity.id}`);
     if (edu.flagged_for_kids && !(edu.levels ?? []).includes("explorers")) err(file, "education.flagged_for_kids needs the explorers level: the kids' reader shows the Sprout and Explorer texts");
+    // fact engine (plan §5 E3): authored fact in the three published languages, ≤ 40 words each, ≥ 2 cited sources
+    const fact = edu.did_you_know;
+    if (fact) {
+      for (const l of PUBLISHED_LANGS) {
+        if (!fact[l]) err(file, `education.did_you_know lacks ${l}`);
+        else if (levelWordCount(fact[l]) > 40) err(file, `education.did_you_know.${l} has ${levelWordCount(fact[l])} words; a fact is at most 40 words`);
+      }
+      const fs: string[] = fact.sources ?? [];
+      if (fs.length < 2) err(file, `education.did_you_know needs at least two sources, found ${fs.length}`);
+      for (const s of fs) if (!byId.has(s)) err(file, `education.did_you_know source ${s} does not exist`);
+    }
   }
   return issues;
 }

@@ -20,6 +20,11 @@ relations:
   - { type: caused_by, target: event/hijra }
 sources: [source/mubarakpuri-raheeq, source/sahih-al-bukhari, source/zad-al-maad, source/ibn-ishaq-guillaume, source/watt-1956-medina, source/lings-1983]
 education:
+  did_you_know:
+    ar: "بركت ناقة النبي موضع مسجده في المدينة، فاشترى الأرض من يتيمين وبنى المسجد من لبنٍ وسعف."
+    en: "The Prophet's she-camel knelt where his mosque would stand; he bought the plot from two orphans and built it of mud-brick and palm fronds."
+    ur: "نبی کی اونٹنی اسی جگہ بیٹھی جہاں ان کی مسجد بننی تھی؛ انھوں نے دو یتیموں سے زمین خریدی اور اینٹ اور کھجور کی چھال سے مسجد بنائی۔"
+    sources: [source/mubarakpuri-raheeq, source/sahih-al-bukhari]
   levels: [sprouts, explorers, scholars]
   flagged_for_kids: true
   provenance: { generated_by: "Devin", model: "gemini-2.5-pro", run: "education-E2-batch3", note: "Leveled texts drafted from the record's own summary and prose; draft, pending the founder's review and scholar review of the child levels." }
