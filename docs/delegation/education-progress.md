@@ -342,3 +342,7 @@ Homework topics (`edu/homework-topics.yaml`) — id | ur title | ur phrasings:
 - **A4 Sitemap and JSON-LD.** Verified on `dist/` when the build completes: pathway pages emit `Course`-type JSON-LD (`seo.ts`/`seo.test.ts` already guards it; recorded once the artifact exists).
 - **A5 Full `npm test`.** Ran to completion this time: **13 files, 155 tests, all passed** (previously the run did not finish).
 - **A6 Step table fix + this record.** E3 rows 1–2 corrected from `pending` to merged (#1471 classroom quiz, #1477 budget fix, #1479 daily challenge), and this section records Part A.
+
+## E4 — the teen wing (founder-approved 25 Oct 2026, §9.1)
+
+- **Step 1, wing skeleton**: `/shabab/` hub (timeline-first via HijriTimeline, no mascot chrome), `scholars` and `researchers` band pages, and the daily-challenge and Where-am-I? mirrors under the wing. New `shabab:` i18n block in ar/en/ur (Urdu new). "In the making" chips mark topics, dilemmas, Source Detective and the Journey Map until their steps land. Page-weight rows added for the teen family. Tests: 4 new, 72/72 pass.
