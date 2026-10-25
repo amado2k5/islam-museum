@@ -819,3 +819,37 @@ describe("education: Explorers world map (E3 step 8, plan §5)", () => {
     }
   });
 });
+
+describe("E4 step 1 — the teen wing skeleton (/shabab/)", () => {
+  it("edu/bands.yaml keeps scholars and researchers in the shabab wing with /shabab/ hubs", () => {
+    const bs = bands();
+    const sch = bs.find((b) => b.id === "scholars");
+    const res = bs.find((b) => b.id === "researchers");
+    expect(sch?.wing).toBe("shabab");
+    expect(res?.wing).toBe("shabab");
+    expect(sch?.hub).toBe("/shabab/scholars/");
+    expect(res?.hub).toBe("/shabab/researchers/");
+  });
+
+  it("the sb_* strings exist in all three languages, Urdu different from English", () => {
+    for (const k of Object.keys(i18n("ar").shabab).filter((k) => k.startsWith("sb_"))) {
+      for (const l of LANGS) expect(typeof i18n(l).shabab[k] === "string" && i18n(l).shabab[k].length > 0, `${l} ${k}`).toBe(true);
+      expect(i18n("ur").shabab[k] === i18n("en").shabab[k], `ur repeats en for ${k}`).toBe(false);
+    }
+  });
+
+  it("every /shabab/ page exists, breadcrumbs to the wing and stays free of kids chrome", () => {
+    for (const f of ["index", "scholars", "researchers", "daily", "where"]) {
+      const s = readFileSync(`site/src/pages/[lang]/shabab/${f}.astro`, "utf8");
+      expect(s.includes("/shabab/"), f).toBe(true);
+      expect(s.includes("kids={true}") || s.includes("Hudhud") || s.includes("kids.css"), f).toBe(false);
+    }
+  });
+
+  it("check-weight covers the teen family routes", () => {
+    const cw = readFileSync("scripts/check-weight.ts", "utf8");
+    for (const r of ["/ar/shabab/", "/ar/shabab/scholars/", "/ar/shabab/researchers/", "/ar/shabab/daily/", "/ar/shabab/where/"]) {
+      expect(cw.includes(`route: "${r}"`), r).toBe(true);
+    }
+  });
+});
