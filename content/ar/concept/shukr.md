@@ -32,3 +32,19 @@ translators: []
 
 ## شكر المؤمن ونسبة النعمة
 يقابل الشيخ بين المؤمن الذي ينسب النعمة إلى فضل الله، كما يذكر عن سليمان، وبين من ينسبها إلى نفسه، وبصاحب البستان الذي ظلم نفسه وظن أن بستانه لن يفنى (needs_source). {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep08 00:50:00} {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep08 00:50:30}
+
+## من سلسلة الفوز المبين
+
+يقول الشيخ إن شكر النعم يكون بالإنفاق منها في مرضاة الله، وبعدم استعمالها في معصيته، ويدعو إلى السلامة من التدخين والمخدرات والمسكرات {cite:assabile-omar-abdelkafy al-fawzu-al-moubeen/ep02 00:30:30}.
+
+يفرّق بين المنّ المحمود، الذي يذكر فيه الله نعمه على النبي [[passage/quran-93-6|الضحى 6]] {cite:assabile-omar-abdelkafy al-fawzu-al-moubeen/ep05 00:30:00}، والمنّ المذموم الذي يتعالى فيه صاحبه على غيره {cite:assabile-omar-abdelkafy al-fawzu-al-moubeen/ep05 00:30:00}. ويعرض قول فرعون لموسى في تذكيره بتربيته، ويقيس عليه من يمنّ على ابن أخيه بما أنفق عليه، ويدعو إلى الرفق باليتيم [[passage/quran-93-9|الضحى 9]] {cite:assabile-omar-abdelkafy al-fawzu-al-moubeen/ep05 00:30:30}. ويتمنى لأسرة ولدا صالحا وبنتا ملتزمة بالحجاب، ويرى أن نعمة الإسلام تظهر في الأبناء {cite:assabile-omar-abdelkafy al-fawzu-al-moubeen/ep05 00:33:00}.
+
+ينقل أن الأرض والجبال والبحار والسماء تشكو من كفران الإنسان لنعم الله، وتطلب الإذن في معاقبته {cite:assabile-omar-abdelkafy al-fawzu-al-moubeen/ep06 00:15:00}. ويوصي بأن يبدأ المبتلى بتذكر ما بقي له من صحة وجوارح حتى يصبر {cite:assabile-omar-abdelkafy al-fawzu-al-moubeen/ep07 00:04:00}، ويعدّد نعم الله منذ الجنين، كالحبل السري ولبن الأم، ويشبهها بأبواب تفتح كلما أغلق باب، ويستحضر قول العلماء بعدم نسيان سوالف النعمة {cite:assabile-omar-abdelkafy al-fawzu-al-moubeen/ep07 00:07:00}.
+
+ويضرب مثلا بصاحب دجاج يحمد الله على ما بقي له، ويقول إن الشكر يحفظ النعمة ويزيدها، ويستشهد بعبارة منسوبة إلى النبي في حسن مجاورة نعمة الله (needs_source: anecdote-unnamed) {cite:assabile-omar-abdelkafy al-fawzu-al-moubeen/ep07 00:13:00}.
+
+يقرر الشيخ أن الله أنعم على الإنسان بنعم ظاهرة وباطنة، عامة وخاصة {cite:assabile-omar-abdelkafy al-fawzu-al-moubeen/ep12 00:00:30}، وأن المؤمن يعرف قيمة النعمة في وجودها، وغيره لا يعرفها إلا بعد زوالها، والشاكرون من العباد قليل [[passage/quran-34-13|سبأ 13]] {cite:assabile-omar-abdelkafy al-fawzu-al-moubeen/ep12 00:01:00}. ويلفت إلى نعمة القدرة على الجلوس والحركة، فلا يشكرها الناس إلا عند آلام الظهر، ويعرض وصايا الأطباء كتحديد الأوزان (needs_source: medical-weight-limit-figure) {cite:assabile-omar-abdelkafy al-fawzu-al-moubeen/ep12 00:05:00}.
+
+ويميز بين النعم العامة كالشمس والليل والنوم، التي لا يشكرها إلا المؤمن، والنعم الخاصة كالمال والولد والبيت، التي يشكرها غيره أيضا {cite:assabile-omar-abdelkafy al-fawzu-al-moubeen/ep12 00:08:30}. ويقول إن المبتلى يستحضر ما بقي له من عين ويد ورجل وعقل وأذن ولسان فيقل يأسه، ويضرب مثلا ببلاد لا ترى الشمس شهورا (needs_source: polar-night-claim) {cite:assabile-omar-abdelkafy al-fawzu-al-moubeen/ep12 00:12:30}.
+
+ويحكي حديث الثلاثة الذين ابتلاهم الله بالبرص والصلع والعمى، فمن شكر بقيت نعمته عنده، ومن جحدها زالت، ويعلّق بأن التكبر بالنعمة يزيلها {cite:assabile-omar-abdelkafy al-fawzu-al-moubeen/ep14 00:11:30}.

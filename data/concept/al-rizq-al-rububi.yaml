@@ -9,6 +9,7 @@ wings: [ideas]
 themes: [creed, worship-and-the-pillars]
 periods: [period/prophetic-era]
 regions: [arabia]
+sensitivity: contested
 issue:
   ar: "هل يعطي الله الرزق لكل خلقه، ويقتصر عطاء الإمامة على المؤمنين؟"
   en: "Does God give provision to all His creatures, while the gift of leadership goes only to believers?"
@@ -33,13 +34,23 @@ perspectives:
       ar: "لم تُدخل بعد أقوال المفسرين في تفسير الرزق للكافرين وحدود التمتع، ولا الرأي الأكاديمي أو الآراء الأخرى. {cite:tafsir-sharawi-khawatir-scan-pp-501-1000 p.583}"
       en: "The exegetes' accounts of provision for disbelievers and the limits of enjoyment, the academic view and other views are not yet entered."
     sources: [source/tafsir-sharawi-khawatir-scan-pp-501-1000]
+  - tradition: other
+    id: speaker-omar-abdelkafy-provision
+    stance:
+      ar: "الرزق الحقيقي عند الله، ويصل إلى الكافر أيضا، ولا يكون جزاء على العمل"
+      en: "Real provision is with God; it reaches the disbeliever too and is not a reward for works"
+    holders: [person/omar-abdelkafy]
+    summary:
+      ar: "يقول الشيخ إن الرزق الحقيقي عند الله لا في خزينة الشركة أو البنك {cite:assabile-omar-abdelkafy al-fawzu-al-moubeen/ep04 00:21:00}، وإن الله يرزق الكافر أيضا فلا يكون ذلك دليلا على القبول {cite:assabile-omar-abdelkafy al-fawzu-al-moubeen/ep09 00:14:00}، وإن الرزق ليس جزاء على العمل، كالجنين الذي يُرزق بلا عمل {cite:assabile-omar-abdelkafy al-fawzu-al-moubeen/ep12 00:47:30} {cite:assabile-omar-abdelkafy al-fawzu-al-moubeen/ep12 00:48:00}."
+      en: "He says that real provision is with God and not in a company's treasury or a bank {cite:assabile-omar-abdelkafy al-fawzu-al-moubeen/ep04 00:21:00}; that God gives provision to the disbeliever too, which is no sign of acceptance {cite:assabile-omar-abdelkafy al-fawzu-al-moubeen/ep09 00:14:00}; and that provision is not a reward for works, as with the unborn child who is provided for without work {cite:assabile-omar-abdelkafy al-fawzu-al-moubeen/ep12 00:47:30} {cite:assabile-omar-abdelkafy al-fawzu-al-moubeen/ep12 00:48:00}."
+    sources: [source/assabile-omar-abdelkafy]
 relations:
   - { type: based_on, target: passage/quran-2-126, sources: [source/tafsir-sharawi-khawatir-scan-pp-501-1000] }
-sources: [source/tafsir-sharawi-khawatir-scan-pp-501-1000]
+sources: [source/tafsir-sharawi-khawatir-scan-pp-501-1000, source/assabile-omar-abdelkafy]
 provenance:
   layer: own-research
   source: "تفسير الشعراوي، الصفحات 581 إلى 584 من النسخة الممسوحة (OCR)"
   generated_by: "Claude Haiku 5.5 (Claude Code subagent)"
   model: "claude-haiku-5-5"
-  run: tafsir-sharawi-501-1000-batch-4
+  run: tafsir-sharawi-501-1000-batch-4; omar-abdelkafy-al-fawzu-1
 status: { review: draft, completeness: 1, generated_by: "Claude Haiku 5.5 (Claude Code subagent); OCR pages 581-584 read" }

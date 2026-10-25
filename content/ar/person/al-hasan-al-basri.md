@@ -20,3 +20,17 @@ translators: []
 
 ## الحسن البصري في درس الشيخ عمر عبد الكافي (الحلقتان الثانية والثالثة)
 يروي الشيخ أن الحسن بكى وقال إن امتحان الله لهم يفضحهم ويهتك أستارهم إن هم بُلوا (needs_source). {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep02 00:07:00} وينقل قوله إنهم أكلوا فأكلنا، وخافوا من الغد ونحن آمنون (needs_source). {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep03 00:51:00}
+
+## من سلسلة الفوز المبين
+
+يذكر الشيخ أن الحسن البصري كان يفضّل القراءة من المصحف على القراءة عن ظهر قلب، لأن النظر فيه يعطي العين نصيبا من النور، وأن المصحف يشهد للقارئ ويحاجّ عنه (needs_source: attribution garbled) {cite:assabile-omar-abdelkafy al-fawzu-al-moubeen/ep02 00:33:00}.
+
+ينقل الشيخ عن الحسن البصري قوله إن أهل الدنيا ظلموا أنفسهم ولم يُظلموا، وإن الفقير الصابر والغني الشاكر ينتظران ما عند الله (needs_source: saying source not named) {cite:assabile-omar-abdelkafy al-fawzu-al-moubeen/ep05 00:20:00}.
+
+ويذكر الشيخ أن الناس كانوا يرون النور على وجه محمد بن سيرين، وأن الحسن البصري، وكان أسمر، ظهر عليه النور أيضا، فأجاب بأن قومه خلَوا بالله في ظلام الليل فكساهم جماله، ويخلص إلى أن العبرة بنقاء القلب (needs_source: anecdote unsourced) {cite:assabile-omar-abdelkafy al-fawzu-al-moubeen/ep11 00:04:30}.
+
+ويذكر أن الحسن البصري رأى زنازين صغيرة في البصرة فقال إنها ستُسكن يوما، ويجعل ذلك موعظة في خطر تبعية السلطان (needs_source: anecdote unsourced) {cite:assabile-omar-abdelkafy al-fawzu-al-moubeen/ep11 00:12:00}.
+
+ويروي أن أهل بيت الحسن لم يبق عندهم إلا قليل من البيض، فتصدّقت الفتاة من البيت بتسع بيضات على فقير، ثم أرسل جار غني سلة بيض {cite:assabile-omar-abdelkafy al-fawzu-al-moubeen/ep10 00:13:00}.
+
+ويروي أن الحسن دخل على رجل حزين فسأله هل ما يحدث له بعين الله أم بعيدا عنها، ثم شبّه ذلك بمراقبة الأم لابنها {cite:assabile-omar-abdelkafy al-fawzu-al-moubeen/ep10 00:37:00}.

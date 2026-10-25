@@ -47,3 +47,26 @@ translators: []
 ## إبراهيم في درس الشيخ عمر عبد الكافي (الحلقتان الرابعة والخامسة)
 يتأمل الشيخ في عودة إبراهيم من مكة وإسكانه بعض ذريته في وادٍ لا زرع فيه، ويسأل المستمعين أن يتصوروا مشاعر الأب (needs_source). {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep04 00:26:00} {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep04 00:26:30} {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep04 00:27:00} ويرى أنه لو غلبت مشاعر إبراهيم لما نُفّذ أمر الله، وأن العالم يتبع مزاج الناس (رأيه). {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep04 00:27:30}
 ويذكر أن نوحا وابنه ليس الابن من أهله، وأن مشاعر الدنيا تتبدل في الجنة (needs_source). {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep05 00:10:30} ويذكر دعاء إبراهيم لأبيه الذي مات على الكفر، وأن أباه بقي خارج الجنة، ويضرب مثل النبي وعمه (needs_source). {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep05 00:11:00} {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep05 00:11:30}
+
+## من سلسلة الفوز المبين
+
+يذكر الشيخ أن آزر كان صانع تماثيل، وأن إبراهيم صغيرا كان يجر الأصنام وينادي على من يشتري ما لا ينفع، ثم حطمها يوم احتفالهم، ويعلّق بسخرية تشبه عرض البيع (needs_source: age-nine-tafsir-unnamed) {cite:assabile-omar-abdelkafy al-fawzu-al-moubeen/ep09 00:04:00}.
+
+يروي أن الملك أوقد نارا عظيمة وأُلقي فيها إبراهيم بالمنجنيق (needs_source: firewood-tradition-unnamed) {cite:assabile-omar-abdelkafy al-fawzu-al-moubeen/ep09 00:06:00}، ويقرر أنه أُلقي لأنه أمر بالمعروف ونهى عن المنكر (needs_source: speaker-attribution-garbled) {cite:assabile-omar-abdelkafy al-fawzu-al-moubeen/ep09 00:07:00}. ويذكر أن الله أمر النار أن تكف ضررها عن إبراهيم [[passage/quran-21-69|الأنبياء 69]] {cite:assabile-omar-abdelkafy al-fawzu-al-moubeen/ep09 00:09:00}، وأن جبريل عرض العون فاكتفى بعلم الله بحاله (needs_source: tafsir-narration-unnamed) {cite:assabile-omar-abdelkafy al-fawzu-al-moubeen/ep09 00:09:30}.
+
+ينسب الشيخ إلى إبراهيم دعاء لقومه يفوّض فيه الأمر إلى الله، ويرد الكلام نفسه لاحقا على لسان عيسى [[passage/quran-5-118|المائدة 118]] (needs_source: attribution-differs-from-later-line) {cite:assabile-omar-abdelkafy al-fawzu-al-moubeen/ep09 00:10:30}. ويروي أن الزوجة سألته هل أمره الله بالترك، فأجاب بأن الله أمره (needs_source: garbled-speaker-identity-hajar-or-sarah) {cite:assabile-omar-abdelkafy al-fawzu-al-moubeen/ep09 00:15:00}. ويعيد دعاءه بإسكان ذريته في واد لا زرع فيه [[passage/quran-14-37|إبراهيم 37]] (needs_source: asr-garbled) {cite:assabile-omar-abdelkafy al-fawzu-al-moubeen/ep09 00:19:00}، ويقرر أن الله يرزق المؤمن والكافر، فالرزق لا يدل على القبول [[passage/quran-2-126|البقرة 126]] {cite:assabile-omar-abdelkafy al-fawzu-al-moubeen/ep09 00:14:00}.
+
+ويذكر أن ملكا عاداه لأنه دعا إلى عبادة الله وحده، فلم يتراجع عن قضيته {cite:assabile-omar-abdelkafy al-fawzu-al-moubeen/ep09 00:40:30}. ويعدّ إبراهيم نموذج التسليم بتضحياته: جسده للنار، وولده للقربان، ونفسه وبنيه لبيت الله [[passage/quran-2-131|البقرة 131]] {cite:assabile-omar-abdelkafy al-fawzu-al-moubeen/ep10 00:34:30}.
+
+ويذكر أن إبراهيم ترك هاجر وولدها بأمر الله، فصبرت حتى جاء الفرج، وأن اليسر يأتي في الوقت الذي يريده الله {cite:assabile-omar-abdelkafy al-fawzu-al-moubeen/ep11 00:28:00}. ويرى أن ظلم القريب أشد وقعا من ظلم الغريب، ويعد النبي جامعا لابتلاءات الأنبياء، وقد لقي إبراهيم عداوة قومه حتى أُلقي في النار {cite:assabile-omar-abdelkafy al-fawzu-al-moubeen/ep13 00:07:00}.
+
+ويذكر أن إبراهيم علّم الناس التوحيد ونبذ عبادة الأصنام [[passage/quran-14-36|إبراهيم 36]] {cite:assabile-omar-abdelkafy al-fawzu-al-moubeen/ep13 00:14:00}، وأنه وإسماعيل دعوا حين رفعا قواعد البيت أن يبعث في ذريتهما من يبلّغ رسالته [[passage/quran-2-127|البقرة 127]] {cite:assabile-omar-abdelkafy al-fawzu-al-moubeen/ep13 00:12:30}. ويرى أن الله أكرم هذه الأمة بسلالته، وأن المسلمين يصلون عليه في كل صلاة شكرا لوفائه {cite:assabile-omar-abdelkafy al-fawzu-al-moubeen/ep13 00:20:30}.
+
+ويذكر أن إبراهيم هو من سمّى المسلمين [[passage/quran-22-78|الحج 78]]، ويروي أن النمرود منع الناس البيع له (needs_source: legend-no-source-named) {cite:assabile-omar-abdelkafy al-fawzu-al-moubeen/ep13 00:21:00}، فملأ كيسه رملا حتى لا تحزن زوجته، فصار دقيقا حين فتحته (needs_source: unattributed-miracle-story) {cite:assabile-omar-abdelkafy al-fawzu-al-moubeen/ep13 00:21:30}.
+
+:::perspectives
+- **أهل السنة: لم يُصدر بعد (not yet sourced)**: لم يُنسب بعد.
+- **speaker's view (Omar Abdelkafy)**: يقرر الشيخ أن إبراهيم كان على التوحيد الخالص ولم يكن من أهل الكتاب، ويستشهد بدعائه أن تكون من ذريته جماعة منقادة لله [[passage/quran-2-128|البقرة 128]] {cite:assabile-omar-abdelkafy al-fawzu-al-moubeen/ep09 00:43:00}. ويرد على من يزعم نسبته إلى أهل الكتاب بوصيته لبنيه بالإسلام {cite:assabile-omar-abdelkafy al-fawzu-al-moubeen/ep13 00:12:00}، وبأن إسماعيل جد العرب وإسحاق جد اليهود [[passage/quran-2-133|البقرة 133]] {cite:assabile-omar-abdelkafy al-fawzu-al-moubeen/ep13 00:40:00}.
+- **academic view: not yet sourced**: لم يُنسب بعد.
+- **other view: not yet sourced**: لم يُنسب بعد.
+:::

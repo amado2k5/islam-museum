@@ -1,0 +1,21 @@
+id: person/firawn
+class: person
+gender: male
+sensitivity: polemical
+label:
+  ar: "فرعون"
+  en: "Pharaoh (Firawn)"
+  ur: "فرعون"
+summary:
+  ar: "فرعون كما يذكره الشيخ عمر عبد الكافي في سلسلة «الفوز المبين»: رؤياه التي عبّرتها حاشيته بزوال ملكه على يد غلام من بني إسرائيل، وتكبّره في قوله، ومقارنة إرسال موسى إليه بإرسال الأنبياء إلى أقوامهم، وما يقوله الشيخ عن معاملته لموسى في تذكيره بتربيته."
+  en: "Pharaoh as Sheikh Omar Abdelkafy mentions him in the series 'Al Fawzu Al Moubeen': his dream, which his counsellors read as the loss of his kingdom to a boy from the Children of Israel; his arrogance in what he said; a comparison between the sending of Musa to him and the sending of the prophets to their peoples; and what the Sheikh says of his words to Musa about his upbringing."
+  ur: "فرعون، جیسا کہ شیخ عمر عبدالکافی نے سلسلہ «الفوز المبین» میں ان کا ذکر کیا: ان کا خواب جس کی تعبیر ان کے درباریوں نے بنی اسرائیل کے ایک لڑکے کے ہاتھوں ان کی بادشاہت کے زوال کے طور پر کی، ان کا تکبر، موسیٰ کی ان کی طرف بھیجے جانے کا انبیاء کی اپنی قوموں کی طرف بھیجے جانے سے موازنہ، اور موسیٰ سے ان کی پرورش کے بارے میں کہی گئی بات پر شیخ کا تبصرہ۔"
+wings: [people]
+themes: [prophets, ethics-and-character]
+periods: [period/pre-islamic-arabia]
+regions: [egypt-nile]
+story_roles:
+  - { role: opponent, status: scriptural, sources: [source/tanzil-quran] }
+sources: [source/assabile-omar-abdelkafy, source/tanzil-quran]
+provenance: { layer: copyrighted-reference, source: "Assabile, al-fawzu-al-moubeen (transcripts pass5-qwen; engine Qwen3-ASR, oddadmix/qwen3-asr-1.7b-arabic-dialectal-v2)", generated_by: "Claude Code (claude-haiku-5-5)", model: claude-haiku-5-5, run: omar-abdelkafy-al-fawzu-1 }
+status: { review: published, generated_by: "Claude Code (claude-haiku-5-5); run omar-abdelkafy-al-fawzu-1; needs_source annotations in prose; rant and opinion sections flagged polemical" }
