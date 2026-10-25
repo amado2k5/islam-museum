@@ -10,7 +10,7 @@ const BURST_EMOJI = ["🎉", "✨", "🌟", "💛", "🌸"];
 function init(root: HTMLElement) {
   const payload = JSON.parse(root.querySelector("[data-payload]")!.textContent!) as GardenPayload;
   const reduceMotion = () => (matchMedia("(prefers-reduced-motion: reduce)").matches || document.documentElement.getAttribute("data-motion") === "reduce");
-  const scrollOpts: ScrollIntoViewOptions = { block: "nearest", behavior: reduceMotion ? "auto" : "smooth" };
+  const scrollOpts = (): ScrollIntoViewOptions => ({ block: "nearest", behavior: reduceMotion() ? "auto" : "smooth" });
 
   const bloom = root.querySelector("[data-bloom]") as HTMLElement;
   const bloomWord = root.querySelector("[data-bloom-word]")!;
@@ -46,7 +46,7 @@ function init(root: HTMLElement) {
       bloomSurah.textContent = sh.name;
       bloom.hidden = false;
       burst();
-      bloom.scrollIntoView(scrollOpts);
+      bloom.scrollIntoView(scrollOpts());
     });
   });
 }
