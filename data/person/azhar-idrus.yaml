@@ -1,0 +1,36 @@
+id: person/azhar-idrus
+class: person
+label: { ar: "أزهر إدريس", en: "Azhar Idrus", ur: "اظہر ادریس" }
+names:
+  - { value: "زمرول بن إدريس", kind: full }
+  - { value: "Zamrul bin Idrus", kind: full }
+  - { value: "Ustaz Azhar Idrus", kind: full }
+gender: male
+summary:
+  ar: "داعية ماليزي مستقل، وُلد في كوالا ترينغانو سنة 1964. اشتهر بأسلوبه البسيط المرح في إلقاء المحاضرات الدينية بلهجة ترينغانو، وبانتشار محاضراته المسجلة وعبر الإنترنت في ماليزيا، وله سلسلة كتب في صورة سؤال وجواب."
+  en: "Malaysian independent Islamic preacher, born in Kuala Terengganu in 1964. He is known for his relaxed, humorous lecture style in the Terengganu dialect, for the wide circulation of his recorded and online lectures in Malaysia, and for a series of question-and-answer books."
+  ur: "ملائیشیائی آزاد مبلغ، جو 1964 میں کوالا تیرینگانو میں پیدا ہوئے۔ وہ تیرینگانو لہجے میں سادہ اور پرمزاح اندازِ خطابت، ملائیشیا میں اپنی ریکارڈ شدہ اور آن لائن تقاریر کی وسیع اشاعت، اور سوال و جواب کی کتابوں کے سلسلے کے لیے مشہور ہیں۔"
+roles: [preacher, writer]
+wings: [people, living]
+born:
+  edtf: "1964-02-12"
+  hijri: "1383"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "Gregorian date from Malay Wikipedia and Wikidata; he was born in Kampung Ladang, Kuala Terengganu. The Hijri year (1383) is converter-derived."
+  sources: [source/wikipedia-azhar-idrus-ms, source/wikidata-azhar-idrus]
+faith:
+  - value: unknown
+    basis: unknown
+    note: "The Malay Wikipedia article names no school or denomination for him. Wikidata gives only Islam. Not recorded as sunni until two sources confirm a school."
+    sources: [source/wikipedia-azhar-idrus-ms, source/wikidata-azhar-idrus]
+external_ids: { wikidata: "Q248820" }
+sources: [source/wikipedia-azhar-idrus-ms, source/wikidata-azhar-idrus]
+provenance:
+  layer: own-research
+  source: "Malay Wikipedia article 'Azhar Idrus' (revision of 1 May 2026) and Wikidata Q248820; no English or Arabic Wikipedia article on him exists, so the Malay article is registered as the article source (Deddy Corbuzier precedent) and this is noted here; no place relation written because no Kuala Terengganu place record exists in data/place/; checked 24 October 2026"
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: modern-figures-batch-4
+status: { review: published, generated_by: "Muse (Muse Spark 1.3)" }

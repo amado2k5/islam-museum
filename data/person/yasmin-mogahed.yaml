@@ -1,0 +1,35 @@
+id: person/yasmin-mogahed
+class: person
+label: { ar: "ياسمين مجاهد", en: "Yasmin Mogahed", ur: "یاسمین مجاہد" }
+names:
+  - { value: "ياسمين مجاهد", kind: full }
+  - { value: "Yasmin Mogahed", kind: full }
+gender: female
+summary:
+  ar: "باحثة ومحاضرة أمريكية مسلمة متخصصة في الروحانية وعلم النفس والتنمية الشخصية، وُلدت سنة 1980. وهي أول امرأة تعمل معلّمة في معهد المغرب، وصاحبة كتاب «استعد قلبك» (Reclaim Your Heart)."
+  en: "American Muslim educator and motivational speaker specialising in spirituality, psychology and personal development, born in 1980. She is the first female instructor at the AlMaghrib Institute and the author of Reclaim Your Heart."
+  ur: "امریکی مسلمان معلمہ اور موٹیویشنل اسپیکر، جو روحانیت، نفسیات اور شخصی ترقی میں مہارت رکھتی ہیں، 1980 میں پیدا ہوئیں۔ وہ المغرب انسٹیٹیوٹ کی پہلی خاتون مدرّسہ اور کتاب Reclaim Your Heart کی مصنفہ ہیں۔"
+roles: [teacher, writer]
+wings: [people, living]
+born:
+  edtf: "1980-03-11"
+  hijri: "1400"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "Gregorian date from English Wikipedia; Wikidata records the birth year 1980 at year precision only. The Hijri year (1400) is converter-derived."
+  sources: [source/wikipedia-yasmin-mogahed-en, source/wikidata-yasmin-mogahed]
+faith:
+  - value: unknown
+    basis: unknown
+    note: "Neither Wikipedia article names a school for her: the English article describes her as an American educator and motivational speaker and the Arabic article as a Muslim researcher. Wikidata gives only Islam. Not recorded as sunni until two sources confirm a school."
+    sources: [source/wikipedia-yasmin-mogahed-en, source/wikipedia-yasmin-mogahed-ar, source/wikidata-yasmin-mogahed]
+external_ids: { wikidata: "Q67609811" }
+sources: [source/wikipedia-yasmin-mogahed-en, source/wikipedia-yasmin-mogahed-ar, source/wikidata-yasmin-mogahed]
+provenance:
+  layer: own-research
+  source: "English Wikipedia article 'Yasmin Mogahed' (revision of 4 August 2026), Arabic Wikipedia article «ياسمين مجاهد» (revision of 25 September 2026), Wikidata Q67609811; the articles give no birthplace, so no place relation is written; checked 24 October 2026"
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: modern-figures-batch-4
+status: { review: published, generated_by: "Muse (Muse Spark 1.3)" }
