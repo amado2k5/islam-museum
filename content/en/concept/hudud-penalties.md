@@ -15,3 +15,13 @@ The lash is a supple whip without knots, and the blows are spread over the body 
 ## Sheikh Omar Abdelkafy's view
 He holds that whoever rejects one of God's hudud has rejected all of them, and that whoever breaks one verse of the Book has broken the whole Book. {cite:assabile-omar-abdelkafy aadau-al-islam/ep01 00:17:00} He says that one who accepts some parts of the Book and rejects others has contradicted belief in the Book. {cite:assabile-omar-abdelkafy aadau-al-islam/ep01 00:17:30}
 He says the question of the hudud must be read in light of how people live today, though his wording on this is not clear in the recording (needs_source). {cite:assabile-omar-abdelkafy aadau-al-islam/ep01 00:12:30}
+
+## The speaker's view on the hudud and the role of the state
+The speaker discusses the hadd for highway robbery (hiraba), the hadd for drinking wine and the hadd for unlawful sex, and ties their application to the state; he says the state cannot do everything in this matter (needs_source: the transcript is garbled; re-listening is needed before attributing any single phrase) {cite:assabile-omar-abdelkafy al-hoquq/ep05 00:21:30} {cite:assabile-omar-abdelkafy al-hoquq/ep05 00:23:30} {cite:assabile-omar-abdelkafy al-hoquq/ep05 00:24:00}.
+
+:::perspectives
+- **Sunni view: not yet sourced**: not yet sourced.
+- **speaker's view (Omar Abdelkafy)**: He holds that these hudud are applied in a state that enforces the sharia, and that what falls short does not achieve their purpose {cite:assabile-omar-abdelkafy al-hoquq/ep05 00:23:30} (needs_source: the transcript is garbled).
+- **academic view: not yet sourced**: not yet sourced.
+- **other view: not yet sourced**: not yet sourced.
+:::

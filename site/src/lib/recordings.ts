@@ -1,0 +1,38 @@
+// Details of a citation on a recorded-lesson source: the series title, the episode, the time, and where a direct link
+// exists. Every reference to a recording shows its details; the links are added when the map has them.
+// The map is generated from the download manifests by scripts/harvest/audio/recordings_map.py. A series or episode not
+// in the map still gets its episode page, which follows the archive's own URL pattern (no media link).
+import recordings from "../data/recordings.json";
+
+export interface RecordingRef {
+  series: string;       // archive slug, e.g. aadau-al-islam
+  seriesTitle: string;  // display title, e.g. Aadau Al Islam
+  ep: number;
+  time?: string;        // hh:mm:ss, when the citation gives one
+  page: string;         // the archive's episode page
+  media?: string;       // direct audio file, opened at the time (#t=seconds) when there is a time
+}
+
+// Source ids whose locators name a series, an episode and optionally a time (aadau-al-islam/ep02 00:12:34).
+const SPEAKER_BY_SOURCE: Record<string, string> = { "source/assabile-omar-abdelkafy": "omar-abdelkafy" };
+const LOCATOR = /^([a-z0-9-]+)\/ep(\d+)(?:\s+(\d{1,2}):(\d{2}):(\d{2}))?/;
+
+type Known = Record<string, Record<string, { page: string; media: string }>>;
+
+export const seriesTitle = (slug: string) =>
+  slug.split("-").filter(Boolean).map((w) => w.charAt(0).toUpperCase() + w.slice(1)).join(" ");
+
+export function recordingRef(source: string, locator?: string): RecordingRef | null {
+  const speaker = SPEAKER_BY_SOURCE[source];
+  if (!speaker || !locator) return null;
+  const m = locator.match(LOCATOR);
+  if (!m) return null;
+  const [, series, epRaw, h, mi, s] = m;
+  const ep = Number(epRaw);
+  const time = h !== undefined ? `${h}:${mi}:${s}` : undefined;
+  const seconds = time !== undefined ? Number(h) * 3600 + Number(mi) * 60 + Number(s) : undefined;
+  const known = (recordings as Known)[series]?.[String(ep)];
+  const page = known?.page ?? `https://www.assabile.com/${speaker}/lessons/${series}/episode-${String(ep).padStart(2, "0")}`;
+  const media = known && seconds !== undefined ? `${known.media}#t=${seconds}` : known?.media;
+  return { series, seriesTitle: seriesTitle(series), ep, time, page, media };
+}

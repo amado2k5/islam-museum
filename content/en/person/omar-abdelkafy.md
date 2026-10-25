@@ -57,3 +57,13 @@ His lessons and programmes reached a wide audience through Arab satellite channe
 ## References
 - The defined sources cited above, registered in `data/source/`.
 - Later translations and edits of this article need periodic review with clear update dates.
+
+## Figures and dates in the recordings that need a source
+The speaker gave these figures and dates in the Assabile archive recordings. They are not yet checked and are not treated as facts (needs_source):
+- A date given in a passage about events in a republic, the year 1930 {cite:assabile-omar-abdelkafy al-hoquq/ep03 00:16:30}.
+- The figure 1920 in talk about scholars and events {cite:assabile-omar-abdelkafy al-hoquq/ep03 00:37:00}.
+- The figures "180 dollars" and "73 million dollars" {cite:assabile-omar-abdelkafy al-hoquq/ep03 00:37:30}.
+- The numbers of brothers and sisters in his account of his family, which overlap in the transcript {cite:assabile-omar-abdelkafy aadau-al-islam/ep01 00:42:30}.
+- Unclear money figures in talk about the economy {cite:assabile-omar-abdelkafy aadau-al-islam/ep01 00:43:00}.
+- A sum of 60,000 pounds mentioned in a passage about a loan and a bank {cite:assabile-omar-abdelkafy aadau-al-islam/ep02 00:43:00}.
+- A number of children given as twenty in a passage about family {cite:assabile-omar-abdelkafy aadau-al-islam/ep04 00:43:00}.
