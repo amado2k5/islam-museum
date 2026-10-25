@@ -1,0 +1,43 @@
+---
+// Topic index for the teen wing (E4 step 3): every taught topic with its three doors —
+// the 60-second explainer, the glossary and the practice set — grouped by band.
+import BaseLayout from "../../../layouts/BaseLayout.astro";
+import { ui, LANGS, type Lang } from "../../../lib/i18n";
+import { loadTopics } from "../../../lib/topics";
+import { viewBands } from "../../../lib/edu";
+import "../../../styles/edu.css";
+
+export function getStaticPaths() { return LANGS.map((lang) => ({ params: { lang }, props: { lang } })); }
+const { lang } = Astro.props as { lang: Lang };
+const T = ui(lang);
+const S = T.shabab;
+const bands = viewBands(lang, T.kids);
+const topics = loadTopics();
+const path = `/${lang}/shabab/topics/`;
+---
+<BaseLayout lang={lang} title={S.sb_topics} description={S.sb_topics_lede} path={path}>
+  <div class="wrap edu" style="padding-block:10px 24px">
+    <nav class="ui muted no-print" aria-label="breadcrumb"><a href={`/${lang}/shabab/`}>{S.sb_title}</a> › {S.sb_topics}</nav>
+    <h1>{S.sb_topics}</h1>
+    <p style="max-width:var(--measure)">{S.sb_topics_lede}</p>
+    {bands.map((b) => (
+      <section aria-labelledby={`tp-${b.id}`}>
+        <h2 id={`tp-${b.id}`} class="ui" style="font-size:1.15rem">{b.name}</h2>
+        <ul class="edu-adult">
+          {topics.filter((t) => t.band === b.id).map((t) => (
+            <li>
+              <a href={`/${lang}/shabab/60s/${t.id}/`}>
+                <span>
+                  <h2>{t.title[lang]}</h2>
+                  <p class="ui tp-links">
+                    <span>{S.sb_sixty_title}</span> · <span>{S.sb_glossary_title}</span> · <span>{S.sb_practice_title}</span>
+                  </p>
+                </span>
+              </a>
+            </li>
+          ))}
+        </ul>
+      </section>
+    ))}
+  </div>
+</BaseLayout>
