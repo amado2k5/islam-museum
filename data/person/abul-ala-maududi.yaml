@@ -1,0 +1,47 @@
+id: person/abul-ala-maududi
+class: person
+label: { ar: "أبو الأعلى المودودي", en: "Abul A'la Maududi", ur: "ابو الاعلیٰ مودودی" }
+names:
+  - { value: "سيد أبو الأعلى المودودي", kind: full }
+  - { value: "Syed Abul Ala Maududi", kind: full }
+gender: male
+summary:
+  ar: "عالم ومفكر باكستاني (1903–1979)، وُلد في أورنج آباد بالهند، وأسس جماعة الإسلامية سنة 1941 وقادها في باكستان حتى 1972، ودعا إلى دولة إسلامية تقوم على سيادة الشريعة، وسُجن مرات وحُكم عليه بالإعدام سنة 1953 ثم أُطلق سراحه بضغط شعبي، وألّف عشرات الكتب في مقدمتها تفسيره «تفہیم القرآن»، وتوفي في الولايات المتحدة ودُفن في لاهور."
+  en: "Pakistani scholar and thinker (1903–1979), born in Aurangabad, India. He founded Jamaat-e-Islami in 1941 and led its Pakistani party until 1972, arguing for an Islamic state ordered by God's sovereignty and the sharia; he was repeatedly jailed, sentenced to death in 1953 and released under public pressure. He wrote dozens of books, headed by his Qur'an commentary Tafhim-ul-Quran, died in the United States and was buried in Lahore."
+  ur: "پاکستانی عالم و مفکر (1903–1979)، جو ہندوستان کے شہر اورنگ آباد میں پیدا ہوا۔ اس نے 1941 میں جماعتِ اسلامی کی بنیاد رکھی اور 1972 تک اس کی پاکستانی جماعت کی قیادت کی، حاکمیتِ الٰہی اور شریعت پر قائم اسلامی ریاست کی دعوت دی؛ بار بار قید ہوا، 1953 میں سزائے موت سنائی گئی مگر عوامی دباؤ پر رہا ہو گیا۔ اس نے درجنوں کتابیں لکھیں جن میں سرِ فہرست اس کی تفسیر «تفہیم القرآن» ہے؛ امریکا میں وفات پائی اور لاہور میں دفن ہوا۔"
+roles: [scholar, writer, politician, theologian]
+wings: [people]
+born:
+  edtf: "1903-09-25"
+  hijri: "1321"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "Born at Aurangabad, then in Hyderabad State, British India, on 25 September 1903 (English article and Wikidata agree). Aurangabad has no place entity in the museum yet, so no born_in relation is written. The Hijri year (1321) is derived by tabular conversion."
+  sources: [source/wikipedia-abul-ala-maududi-en, source/wikidata-abul-ala-maududi]
+died:
+  edtf: "1979-09-22"
+  hijri: "1399"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "Died at Buffalo, New York, on 22 September 1979, where he had gone for treatment of his kidney ailment and heart problems; Wikidata's death-place claim points to New York more generally and the English article's Buffalo is followed. Buffalo has no place entity in the museum yet, so no died_in relation is written; he was buried at his residence in Ichhra, Lahore. The Hijri year (1399) is derived by tabular conversion."
+  sources: [source/wikipedia-abul-ala-maududi-en, source/wikidata-abul-ala-maududi]
+relations:
+  - { type: lived_in, target: place/lahore, sources: [source/wikipedia-abul-ala-maududi-en] }
+  - { type: buried_in, target: place/lahore, sources: [source/wikipedia-abul-ala-maududi-en] }
+faith:
+  - value: unknown
+    basis: unknown
+    note: "No source consulted names a legal school (madhhab) as Maududi's own. Wikidata gives his religion as Islam generically. The English article records a formation that crossed several circles — a clerical family of Chishti descent, study of Sufism (tasawwuf) at a Deobandi seminary in Delhi's Fatehpuri Mosque with an ijaza in 1926, and the acknowledged impress of Ibn Taymiyya and Muhammad ibn Abd al-Wahhab on his thought — and the Arabic article describes the milieu of his upbringing as one in which hadith scholarship, the Hanafi school and the Sufi orders stood side by side. Teachers, ancestors, influences and milieu are not an attestation of his own school; his founding and leadership of Jamaat-e-Islami is a political fact, not one either. His argued positions — censure of folk Sufism, later praise of sharia-bound tasawwuf — are carried in the prose as his positions. The value therefore stays unknown."
+    sources: [source/wikipedia-abul-ala-maududi-en, source/wikipedia-abul-ala-maududi-ar, source/wikidata-abul-ala-maududi]
+external_ids: { wikidata: "Q369907" }
+sources: [source/wikipedia-abul-ala-maududi-en, source/wikipedia-abul-ala-maududi-ar, source/wikipedia-abul-ala-maududi-ur, source/wikidata-abul-ala-maududi]
+provenance:
+  layer: own-research
+  source: "English Wikipedia 'Abu al-A'la Mawdudi' (revision 1380047326), Arabic Wikipedia «أبو الأعلى المودودي» (revision 76783744), Urdu Wikipedia «ابو الاعلیٰ مودودی» (revision 11804467) and Wikidata Q369907 (confirmed via the Wikidata API: human, born 25 September 1903, died 22 September 1979, religion Islam generically), checked 24 October 2026"
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: century-additions-7
+status: { review: published, completeness: 3, generated_by: "Muse (Muse Spark 1.3)" }

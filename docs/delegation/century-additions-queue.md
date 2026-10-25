@@ -53,11 +53,11 @@ lists' own order. Status markers: [ ] queued · [~] in a writer's hands · [x] m
 - [x] Nawal El Saadawi — 1931–2021
 - [x] Fatema Mernissi — 1940–2015
 - [x] Edward Said — 1935–2003
-- [~] Taha Hussein — 1889–1973
-- [~] Abul A'la Maududi — 1903–1979
-- [~] Hamza Yusuf — 1958–Living
-- [~] Tariq Ramadan — 1962–Living
-- [~] Fehmida Mirza — 1956–Living
+- [x] Taha Hussein — 1889–1973
+- [x] Abul A'la Maududi — 1903–1979
+- [x] Hamza Yusuf — 1958–Living
+- [x] Tariq Ramadan — 1962–Living
+- [x] Fehmida Mirza — 1956–Living
 - [ ] Benazir Bhutto — 1953–2007
 - [ ] Megawati Sukarnoputri — 1947–Living
 - [ ] Halimah Yacob — 1954–Living

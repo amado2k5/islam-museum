@@ -1,0 +1,35 @@
+id: person/fehmida-mirza
+class: person
+label: { ar: "فهميدة ميرزا", en: "Fehmida Mirza", ur: "فہمیدہ مرزا" }
+names:
+  - { value: "فہمیدہ مرزا", kind: full }
+  - { value: "Fehmida Mirza (also written Fahmida Mirza)", kind: full }
+gender: female
+summary:
+  ar: "طبيبة وسياسية باكستانية وُلدت في كراتشي سنة 1956، انتُخبت لعضوية الجمعية الوطنية خمس مرات عن بدين في السند، وصارت سنة 2008 أول امرأة ترأس الجمعية الوطنية في تاريخ باكستان فبقيت في المنصب حتى 2013، ثم تركت حزب الشعب سنة 2018 وشغلت وزارة التنسيق بين الأقاليم حتى 2022."
+  en: "Pakistani physician and politician born in Karachi in 1956. Elected to the National Assembly five times from Badin in Sindh, she became in 2008 the first woman Speaker of the National Assembly in Pakistan's history, serving until 2013; she left the PPP in 2018 and served as Federal Minister for Inter Provincial Coordination until 2022."
+  ur: "پاکستانی ڈاکٹر و سیاست دان، جو 1956 میں کراچی میں پیدا ہوئی۔ سندھ کے بدین سے پانچ بار قومی اسمبلی کی رکن منتخب ہوئی، 2008 میں پاکستان کی تاریخ میں قومی اسمبلی کی پہلی خاتون اسپیکر بنی اور 2013 تک اس منصب پر رہی؛ 2018 میں پیپلز پارٹی چھوڑی اور 2022 تک بین الصوبائی رابطے کی وفاقی وزیر رہی۔"
+roles: [politician, physician]
+wings: [people, living]
+born:
+  edtf: "1956-12-20"
+  hijri: "1376"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "Born in Karachi on 20 December 1956 (English article and Wikidata agree). Karachi has no place entity in the museum yet, so no born_in relation is written. The Hijri year (1376) is derived by tabular conversion."
+  sources: [source/wikipedia-fehmida-mirza-en, source/wikidata-fehmida-mirza]
+faith:
+  - value: unknown
+    basis: unknown
+    note: "No two independent sources attest a branch or school for Fehmida Mirza personally. Wikidata's structured claims give her religion as Islam and as Shia Islam; the Urdu article describes her as belonging to a Sindhi Shia Muslim political family — the Qazis of Hyderabad — which is a statement about her family's identity. The English article records no religion for her at all. One structured-data claim plus a family's described identity do not meet the founder's two-source rule, family background never counts, and the Shia-mapping rule therefore does not engage; where there is doubt the value stays unclassified, so the segment is unknown with exactly this stated."
+    sources: [source/wikidata-fehmida-mirza, source/wikipedia-fehmida-mirza-ur, source/wikipedia-fehmida-mirza-en]
+external_ids: { wikidata: "Q2371076" }
+sources: [source/wikipedia-fehmida-mirza-en, source/wikipedia-fehmida-mirza-ur, source/wikipedia-fehmida-mirza-ar, source/wikidata-fehmida-mirza]
+provenance:
+  layer: own-research
+  source: "English Wikipedia 'Fahmida Mirza' (revision 1381570096; the founder's queue spells her Fehmida, the English article Fahmida, and the record keeps Fehmida as label with the variant in names), Urdu Wikipedia «فہمیدہ مرزا» (revision 7889697), Arabic Wikipedia «فهميدة ميرزا» (revision 75290614) and Wikidata Q2371076 (confirmed via the Wikidata API: human, born 20 December 1956 at Karachi, religion claims Islam and Shia Islam), checked 24 October 2026"
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: century-additions-7
+status: { review: published, completeness: 3, generated_by: "Muse (Muse Spark 1.3)" }
