@@ -43,6 +43,8 @@ Founder's decisions, 25 October 2026. Each one is also recorded in the progress 
 
 17. **Maps are part of the content.** Whenever a series manifest is added or changed, and before every deploy, run `bash scripts/harvest/audio/regen_map.sh ~/islam-museum-harvest "$PWD" omar-abdelkafy`, which regenerates `site/src/data/recordings.json` from every manifest on disk. Commit the regenerated map in the same commit as the content that links to it. The recording map is what makes each reference link to the audio at its time; a stale map means missing links.
 
+18. **Video lessons: extract the audio and harvest it.** Video episodes are MP4 files; prepare each one with `scripts/harvest/audio/prep_video.sh` (download, extract the MP3 audio track with ffmpeg, transcribe with the working engine into the series' `pass5-qwen` folder). The queue skips episodes already transcribed. Harvest the audio, never the picture.
+
 ## 3. Where everything is (the Mac that did the work)
 
 - **Repository (this worktree):** `/Users/ahmedabdelaal/Documents/GitHub/islam-museum/.claude/worktrees/harvest-omar-abdel-kafi-content-81375c`, branch `claude/harvest-omar-abdel-kafi-content-81375c`. The merged work is on `main` (PRs #1591, #1604, #1616, #1651).
