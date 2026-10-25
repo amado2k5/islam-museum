@@ -1,0 +1,37 @@
+id: person/muhammad-yunus
+class: person
+label: { ar: "محمد يونس", en: "Muhammad Yunus", ur: "محمد یونس" }
+names:
+  - { value: "محمد يونس", kind: full }
+  - { value: "Muhammad Yunus", kind: full }
+gender: male
+summary:
+  ar: "اقتصادي ومصرفي بنغلاديشي، وُلد قرب شيتاجونج سنة 1940، وأسس بنك غرامين سنة 1983 رائدا فكرة القروض متناهية الصغر للفقراء، فنال مع البنك جائزة نوبل للسلام سنة 2006 فكان أول بنغلاديشي ينالها، ثم تولى رئاسة الحكومة المؤقتة في بنغلاديش بصفة كبير المستشارين من أغسطس 2024 إلى فبراير 2026."
+  en: "Bangladeshi economist and banker, born near Chittagong in 1940. He founded Grameen Bank in 1983, pioneering microcredit for the poor, and received the 2006 Nobel Peace Prize jointly with the bank, the first Bangladeshi laureate; he then headed Bangladesh's interim government as Chief Adviser from August 2024 to February 2026."
+  ur: "بنگلہ دیشی ماہرِ معاشیات اور بینکار، جو 1940 میں چٹاگانگ کے قریب پیدا ہوئے۔ انہوں نے 1983 میں گرامین بینک قائم کر کے غریبوں کے لیے چھوٹے قرضوں (مائیکرو کریڈٹ) کی بنیاد رکھی، اور بینک کے ساتھ مشترکہ طور پر 2006 کا امن کا نوبل انعام پایا، جو کسی بنگلہ دیشی کے لیے پہلا تھا؛ پھر اگست 2024 سے فروری 2026 تک بنگلہ دیش کی عبوری حکومت کے سربراہ بطور چیف ایڈوائزر رہے۔"
+roles: [economist, banker, statesman]
+wings: [people, living]
+born:
+  edtf: "1940-06-28"
+  hijri: "1359"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "Gregorian date and Hathazari, Chittagong birthplace from English Wikipedia, the Nobel Prize facts page and Wikidata Q43969; the Hijri year (1359) is derived by tabular conversion."
+  sources: [source/wikipedia-muhammad-yunus-en, source/nobelprize-yunus-facts, source/wikidata-muhammad-yunus]
+relations:
+  - { type: lived_in, target: place/dhaka, sources: [source/wikipedia-muhammad-yunus-en] }
+faith:
+  - value: unknown
+    basis: unknown
+    note: "English Wikipedia records that he was born to a Bengali Muslim family and describes his father as a Sufi jeweller; no source consulted names a school for Yunus himself, and a father's description is not the son's attestation. Not recorded until two independent sources name a school."
+    sources: [source/wikipedia-muhammad-yunus-en, source/wikipedia-muhammad-yunus-ar]
+external_ids: { wikidata: "Q43969" }
+sources: [source/wikipedia-muhammad-yunus-en, source/wikipedia-muhammad-yunus-ar, source/wikidata-muhammad-yunus, source/nobelprize-yunus-facts]
+provenance:
+  layer: own-research
+  source: "English and Arabic Wikipedia, Wikidata Q43969 and the Nobel Prize facts page for the 2006 Peace prize, as cited in those articles and checked in Chrome on 26 Oct 2026"
+  generated_by: "Claude Code (claude-haiku-5-5)"
+  run: century-additions-1
+status: { review: published, generated_by: "Claude Code (claude-haiku-5-5)" }

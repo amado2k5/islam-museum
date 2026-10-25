@@ -1,0 +1,35 @@
+id: person/omar-abdelkafy
+class: person
+label: { ar: "عمر عبد الكافي", en: "Omar Abd al-Kafi", ur: "عمر عبد الکافی" }
+names:
+  - { value: "عمر عبد الكافي شحاتة", kind: full }
+  - { value: "Omar Abd al-Kafi", kind: full }
+gender: male
+summary:
+  ar: "داعية إسلامي مصري، وُلد في قرية تلة بمحافظة المنيا سنة 1951، عُرف ببرامجه التلفزيونية مثل «الوعد الحق» و«هذا ديننا» وبكتبه في الإعجاز العلمي وأحاديث الدار الآخرة، وله جمهور واسع عبر القنوات الفضائية ويوتيوب."
+  en: "Egyptian Muslim preacher, born in the village of Talla in Minya Governorate in 1951. He is known for television programmes such as 'The True Promise' and 'This Is Our Religion', for books on the scientific inimitability of the Qur'an and on the hereafter, and for a wide audience on satellite channels and YouTube."
+  ur: "مصری مسلمان مبلغ، جو 1951 میں محافظہ منیا کے گاؤں تلہ میں پیدا ہوئے۔ وہ «الوعد الحق» اور «هذا ديننا» جیسے ٹیلی ویژن پروگراموں، اعجازِ علمی اور آخرت پر اپنی کتابوں، اور سیٹلائٹ چینلز و یوٹیوب پر وسیع سامعین کی وجہ سے معروف ہیں۔"
+roles: [preacher, writer]
+wings: [people, living]
+born:
+  edtf: "1951-05-01"
+  hijri: "1370"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "Gregorian date from English Wikipedia, the Arabic article and Wikidata; the Arabic article places the birth in the village of Talla, Minya Governorate. The Hijri year (1370) is converter-derived."
+  sources: [source/wikipedia-omar-abdelkafy-en, source/wikipedia-omar-abdelkafy-ar, source/wikidata-omar-abdelkafy]
+faith:
+  - value: unknown
+    basis: unknown
+    note: "Neither Wikipedia article gives a school for him. Wikidata gives only 'Islam'. The Arabic article records that he studied with Sunni scholars including Muhammad al-Ghazali, Muhammad Metwalli al-Sha'rawi and Yusuf al-Qaradawi, which is not an attestation of his own school, so it is not recorded."
+    sources: [source/wikipedia-omar-abdelkafy-ar, source/wikidata-omar-abdelkafy]
+external_ids: { wikidata: "Q12228454" }
+sources: [source/wikipedia-omar-abdelkafy-en, source/wikipedia-omar-abdelkafy-ar, source/wikidata-omar-abdelkafy]
+provenance:
+  layer: own-research
+  source: "English Wikipedia article 'Omar Abd al-Kafi' (revision of 15 August 2026), Arabic Wikipedia article «عمر عبد الكافي» (revision of 1 August 2026), Wikidata Q12228454; checked 24 Oct 2026"
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: modern-figures-batch-4
+status: { review: published, generated_by: "Muse (Muse Spark 1.3)" }

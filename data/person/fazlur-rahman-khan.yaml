@@ -1,0 +1,48 @@
+id: person/fazlur-rahman-khan
+class: person
+label: { ar: "فضل الرحمن خان", en: "Fazlur Rahman Khan", ur: "فضل الرحمان خان" }
+names:
+  - { value: "فضل الرحمن خان", kind: full }
+  - { value: "Fazlur Rahman Khan", kind: full }
+  - { value: "Fazlur R. Khan", kind: variant }
+gender: male
+summary:
+  ar: "مهندس إنشائي بنغلاديشي أمريكي، وُلد في دكا سنة 1929 وتوفي سنة 1982، ابتكر الأنظمة الإنشائية الأنبوبية التي قامت عليها ناطحات السحاب الحديثة، ومن أعماله برج سيرز في شيكاغو (برج ويليس اليوم) ومركز جون هانكوك ومحطة الحج في مطار جدة، ولُقّب «أبا التصاميم الأنبوبية» و«آينشتاين الهندسة الإنشائية»."
+  en: "Bangladeshi-American structural engineer, born in Dhaka in 1929 and died in 1982, who invented the tubular structural systems on which the modern skyscraper rests. His works include the Sears Tower in Chicago (now the Willis Tower), the John Hancock Center and the Hajj terminal at Jeddah airport; he was called the 'father of tubular designs' and the 'Einstein of structural engineering'."
+  ur: "بنگلہ دیشی نژاد امریکی ساختی انجینئر، جو 1929 میں ڈھاکہ میں پیدا ہوئے اور 1982 میں وفات پائی، جنہوں نے ٹیوبی ساختی نظام ایجاد کیے جن پر جدید فلک بوس عمارتیں قائم ہیں۔ ان کے کاموں میں شکاگو کا سیئرز ٹاور (آج کا ولس ٹاور)، جان ہینکاک سینٹر اور جدہ ہوائی اڈے کا حج ٹرمینل شامل ہیں؛ انہیں «ٹیوبی ڈیزائن کا بانی» اور «ساختی انجینئرنگ کا آئن اسٹائن» کہا گیا۔"
+roles: [engineer]
+wings: [people]
+born:
+  edtf: "1929-04-03"
+  hijri: "1347"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "Gregorian date and Dhaka birthplace from English Wikipedia and Wikidata Q62918; the Hijri year (1347) is derived by tabular conversion."
+  sources: [source/wikipedia-fazlur-rahman-khan-en, source/wikidata-fazlur-rahman-khan]
+died:
+  edtf: "1982-03-27"
+  hijri: "1402"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "Died of a heart attack in Jeddah, Saudi Arabia, on 27 March 1982, aged 52, while a general partner at Skidmore, Owings & Merrill; buried at Graceland Cemetery, Chicago. The Hijri year (1402) is derived by tabular conversion."
+  sources: [source/wikipedia-fazlur-rahman-khan-en, source/wikidata-fazlur-rahman-khan]
+relations:
+  - { type: born_in, target: place/dhaka, sources: [source/wikipedia-fazlur-rahman-khan-en, source/wikidata-fazlur-rahman-khan] }
+  - { type: died_in, target: place/jeddah, sources: [source/wikipedia-fazlur-rahman-khan-en] }
+faith:
+  - value: unknown
+    basis: unknown
+    note: "English Wikipedia records that he was born into a Bengali Muslim family and that 'Khan was a Muslim at the time when he died'; Wikidata (P140) records only Islam. No source consulted names a school of Islam, and family background is not a school attestation. Not recorded until two independent sources name a school."
+    sources: [source/wikipedia-fazlur-rahman-khan-en, source/wikidata-fazlur-rahman-khan]
+external_ids: { wikidata: "Q62918" }
+sources: [source/wikipedia-fazlur-rahman-khan-en, source/wikipedia-fazlur-rahman-khan-ar, source/wikipedia-fazlur-rahman-khan-ur, source/wikidata-fazlur-rahman-khan, source/khan-art-of-the-skyscraper-2001]
+provenance:
+  layer: own-research
+  source: "English, Arabic and Urdu Wikipedia articles on Fazlur Rahman Khan, Wikidata Q62918, and Mir M. Ali's Art of the Skyscraper (Rizzoli, 2001) as listed by English Wikipedia; checked 24 October 2026"
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: century-additions-2
+status: { review: published, completeness: 3, generated_by: "Muse (Muse Spark 1.3)" }

@@ -1,0 +1,39 @@
+id: person/mostafa-el-sayed
+class: person
+label: { ar: "مصطفى السيد", en: "Mostafa El-Sayed", ur: "مصطفى السيد" }
+names:
+  - { value: "مصطفى عمرو السيد", kind: full }
+  - { value: "Mostafa Amr El-Sayed", kind: full }
+  - { value: "Mostafa A. El-Sayed", kind: variant }
+gender: male
+summary:
+  ar: "كيميائي فيزيائي مصري أمريكي، وُلد سنة 1933، صاحب «قاعدة السيد» في المطيافية التي تحمل اسمه، وعضو الأكاديمية الوطنية الأمريكية للعلوم، وحائز قلادة العلوم الوطنية الأمريكية سنة 2007 وميدالية بريستلي سنة 2016، ورائد في دراسة الجسيمات النانوية الذهبية وتطبيقاتها في الطب."
+  en: "Egyptian-American physical chemist, born in 1933, author of the spectroscopic 'El-Sayed rule' that bears his name, member of the US National Academy of Sciences, recipient of the US National Medal of Science in 2007 and the Priestley Medal in 2016, and a pioneer of gold nanoparticle research and its medical applications."
+  ur: "مصری نژاد امریکی طبعی کیمیا دان، جو 1933 میں پیدا ہوئے، طیف بینی کی «السید قاعدہ» کے خالق جس پر ان کا نام ہے، امریکی قومی اکادمی آف سائنسز کے رکن، 2007 میں امریکی قومی تمغۂ سائنس اور 2016 میں پریسٹلی میڈل کے حامل، اور سونے کے نینو ذرات کی تحقیق اور اس کے طبی استعمالات کے پیش رو۔"
+roles: [chemist]
+wings: [people, living]
+born:
+  edtf: "1933-05-08"
+  hijri: "1352"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "Date of 8 May 1933 from English Wikipedia and Wikidata Q265310. The birthplace is disputed between the sources: English Wikipedia and Wikidata give Zifta in Gharbia Governorate, while the Arabic article states he was born in Abu Kabir, Sharqia Governorate, the youngest son of a mathematics teacher; the born_in relation follows the English article and Wikidata, and the conflict is recorded here rather than resolved silently. The Hijri year (1352) is derived by tabular conversion."
+  sources: [source/wikipedia-mostafa-el-sayed-en, source/wikipedia-mostafa-el-sayed-ar, source/wikidata-mostafa-el-sayed]
+relations:
+  - { type: born_in, target: place/zifta, sources: [source/wikipedia-mostafa-el-sayed-en, source/wikidata-mostafa-el-sayed] }
+  - { type: lived_in, target: place/cairo, sources: [source/wikipedia-mostafa-el-sayed-en] }
+faith:
+  - value: unknown
+    basis: unknown
+    note: "Wikidata (P140) records only Islam. Neither the English nor the Arabic article names a school of Islam. Not recorded until two independent sources name a school."
+    sources: [source/wikipedia-mostafa-el-sayed-en, source/wikipedia-mostafa-el-sayed-ar, source/wikidata-mostafa-el-sayed]
+external_ids: { wikidata: "Q265310" }
+sources: [source/wikipedia-mostafa-el-sayed-en, source/wikipedia-mostafa-el-sayed-ar, source/wikidata-mostafa-el-sayed, source/amacad-el-sayed]
+provenance:
+  layer: own-research
+  source: "English and Arabic Wikipedia articles on Mostafa El-Sayed, Wikidata Q265310, and the American Academy of Arts and Sciences member page; checked 24 October 2026"
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: century-additions-2
+status: { review: published, completeness: 3, generated_by: "Muse (Muse Spark 1.3)" }

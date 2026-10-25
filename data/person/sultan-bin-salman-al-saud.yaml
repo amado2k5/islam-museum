@@ -1,0 +1,35 @@
+id: person/sultan-bin-salman-al-saud
+class: person
+label: { ar: "سلطان بن سلمان آل سعود", en: "Sultan bin Salman Al Saud", ur: "سلطان بن سلمان آل سعود" }
+names:
+  - { value: "سلطان بن سلمان بن عبد العزيز آل سعود", kind: full }
+  - { value: "Sultan bin Salman Al Saud", kind: full }
+gender: male
+summary:
+  ar: "أمير سعودي وطيار سابق في القوات الجوية الملكية السعودية، وُلد في الرياض سنة 1956 وهو الابن الثاني للملك سلمان، طار سنة 1985 على متن مكوك الفضاء ديسكفري اختصاصي حمولة فصار أول فرد من أسرة ملكية وأول عربي وأول مسلم يطير إلى الفضاء وأصغر من طار على مكوك فضائي، ثم قاد هيئة السياحة والتراث الوطني منذ تأسيسها، ورأس مجلس إدارة الهيئة السعودية للفضاء (2018–2021)، وهو مستشار خاص للملك ورئيس مجلس أمناء مؤسسة الملك سلمان منذ 2021."
+  en: "Saudi prince and former Royal Saudi Air Force pilot, born in Riyadh in 1956 as the second son of King Salman, who flew in 1985 aboard the Space Shuttle Discovery as a payload specialist — the first member of a royal family, the first Arab and the first Muslim to fly in space, and the youngest person to fly on a space shuttle — then led the Saudi tourism and heritage commission from its inception, chaired the Saudi Space Commission (2018–2021), and has been a special advisor to the King and chairman of the King Salman Foundation's board of trustees since 2021."
+  ur: "سعودی شہزادے اور شاہی سعودی فضائیہ کے سابق پائلٹ، جو 1956 میں ریاض میں پیدا ہوئے اور شاہ سلمان کے دوسرے صاحبزادے ہیں، 1985 میں خلائی شٹل ڈسکوری میں پے لوڈ اسپیشلسٹ کی حیثیت سے پرواز کر کے خلا میں جانے والے پہلے شاہی خاندان کے فرد، پہلے عرب اور پہلے مسلمان بنے، پھر سیاحت و قومی ورثہ کمیشن کی قیادت کی، سعودی خلائی کمیشن کے چیئرمین رہے (2018–2021)، اور 2021 سے شاہ کے خصوصی مشیر اور شاہ سلمان فاؤنڈیشن کے بورڈ آف ٹرسٹیز کے چیئرمین ہیں۔"
+roles: [prince, astronaut]
+wings: [people, living]
+born:
+  edtf: "1956-06-27"
+  hijri: "1375"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "Gregorian date and Riyadh birthplace from the English and Arabic Wikipedia articles and Wikidata Q379946. Riyadh has no place entity in the museum yet, and no person entity exists yet for his father King Salman, so no born_in or child_of relation is written. The Hijri year (1375) is derived by tabular conversion."
+  sources: [source/wikipedia-sultan-bin-salman-al-saud-en, source/wikipedia-sultan-bin-salman-al-saud-ar, source/wikidata-sultan-bin-salman-al-saud]
+faith:
+  - value: unknown
+    basis: unknown
+    note: "No source consulted names a school of Islam for him: Wikidata records his religion as Islam in general, and neither the English nor the Arabic article names a school. The English article's account of his post-flight conversation with Abdulaziz ibn Baz — who, it says, trusted him as a Muslim witness on the Earth's rotation — is a narrative about his testimony, not a school attestation, and nothing is inferred from his family's or his state's affiliation. Not recorded until two independent sources name a school."
+    sources: [source/wikipedia-sultan-bin-salman-al-saud-en, source/wikidata-sultan-bin-salman-al-saud]
+external_ids: { wikidata: "Q379946" }
+sources: [source/wikipedia-sultan-bin-salman-al-saud-en, source/wikipedia-sultan-bin-salman-al-saud-ar, source/wikidata-sultan-bin-salman-al-saud]
+provenance:
+  layer: own-research
+  source: "English and Arabic Wikipedia articles on Sultan bin Salman Al Saud and Wikidata Q379946; checked 24 October 2026"
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: century-additions-3
+status: { review: published, completeness: 3, generated_by: "Muse (Muse Spark 1.3)" }

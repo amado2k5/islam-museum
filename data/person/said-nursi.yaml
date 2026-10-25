@@ -32,9 +32,9 @@ died:
 relations:
   - { type: lived_in, target: place/istanbul, sources: [source/wikipedia-said-nursi-en] }
 faith:
-  - value: unknown
-    basis: unknown
-    note: "Wikidata records his religion as Islam and Sunni Islam, and gives the Shafi'i school. The English and Arabic article texts do not state a school. Not recorded as sunni until a second source confirms it."
+  - value: sunni-shafii
+    basis: documented
+    note: "Two sources independently give the school: the English article's infobox (verified 24 October 2026) gives Denomination Sunni, Jurisprudence Shafi'i and Creed Ash'ari; Wikidata records Islam, Sunni Islam and the Shafi'i school. The Ash'ari creed is recorded in this note only — the person schema has no creed compound (fleet precedent, al-Sha'rawi)."
     sources: [source/wikidata-said-nursi, source/wikipedia-said-nursi-en, source/wikipedia-said-nursi-ar]
 external_ids: { wikidata: "Q198770" }
 sources: [source/wikipedia-said-nursi-en, source/wikipedia-said-nursi-ar, source/wikidata-said-nursi]

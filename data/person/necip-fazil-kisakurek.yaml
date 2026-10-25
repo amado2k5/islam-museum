@@ -1,0 +1,48 @@
+id: person/necip-fazil-kisakurek
+class: person
+label: { ar: "نجيب فاضل قصاكورك", en: "Necip Fazıl Kısakürek", ur: "نجیب فاضل قصاکورک" }
+names:
+  - { value: "أحمد نجيب فاضل قصاكورك", kind: full }
+  - { value: "Ahmet Necip Fazıl Kısakürek", kind: full }
+  - { value: "NFK", kind: alt }
+gender: male
+summary:
+  ar: "شاعر وكاتب ومسرحي تركي (1904–1983)، من أبرز منظّري التيار الإسلامي في تركيا الحديثة. اشتهر بديوانه «الأرصفة» وبمجلته «الشرق الكبير» (بويوك دوغو) التي أصدرها من 1943، وبأطروحته في «الإسلامة من الأعلى»، وأثّرت كتاباته في أجيال من الإسلاميين الأتراك."
+  en: "Turkish poet, novelist and playwright (1904–1983), a leading ideologue of the Islamist current in modern Turkey. He is known for his poetry collection Pavements (Kaldırımlar), for the magazine Büyük Doğu (Great East) he published from 1943, and for his doctrine of 'Islamisation from above'; his writings influenced generations of Turkish Islamists."
+  ur: "ترک شاعر، ناول نگار اور ڈراما نویس (1904–1983)، جدید ترکی میں اسلامی رجحان کے نمایاں نظریہ ساز۔ اپنے شعری مجموعے «قالدریملار» (فٹ پاتھ)، 1943 سے جاری کردہ مجلہ «بویوک دوغو» (مشرقِ عظیم) اور «اوپر سے اسلام کاری» کے نظریے کے لیے معروف؛ ان کی تحریروں نے ترک اسلام پسندوں کی نسلوں کو متاثر کیا۔"
+roles: [poet, writer]
+wings: [people]
+born:
+  edtf: "1904-05-26"
+  hijri: "1322"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "Gregorian date from English Wikipedia and Wikidata (born in Istanbul); the Hijri year 1322 is converter-derived."
+  sources: [source/wikipedia-necip-fazil-kisakurek-en, source/wikidata-necip-fazil-kisakurek]
+died:
+  edtf: "1983-05-25"
+  hijri: "1403"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "Gregorian date from English Wikipedia and Wikidata (died at his home in Erenköy, Istanbul); the Hijri year 1403 is converter-derived."
+  sources: [source/wikipedia-necip-fazil-kisakurek-en, source/wikidata-necip-fazil-kisakurek]
+relations:
+  - { type: born_in, target: place/istanbul, sources: [source/wikipedia-necip-fazil-kisakurek-en] }
+  - { type: lived_in, target: place/istanbul, sources: [source/wikipedia-necip-fazil-kisakurek-en] }
+faith:
+  - value: unknown
+    basis: unknown
+    note: "Wikidata gives his religion as Sunni Islam. The English article calls him an Islamist ideologue and a disciple of the Naqshbandi sheikh Abdülhakim Arvasi, and the Arabic article dwells on that Sufi discipleship; neither article states a denomination or a school of law. Not recorded as sunni until a second source gives the school."
+    sources: [source/wikidata-necip-fazil-kisakurek, source/wikipedia-necip-fazil-kisakurek-en, source/wikipedia-necip-fazil-kisakurek-ar]
+external_ids: { wikidata: "Q469840" }
+sources: [source/wikipedia-necip-fazil-kisakurek-en, source/wikipedia-necip-fazil-kisakurek-ar, source/wikidata-necip-fazil-kisakurek]
+provenance:
+  layer: own-research
+  source: "English Wikipedia article 'Necip Fazıl Kısakürek' (revision of 4 July 2026), Arabic Wikipedia article «نجيب فاضل» (revision of 14 June 2026), Wikidata Q469840; checked 24 Oct 2026"
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: modern-figures-batch-2
+status: { review: published, generated_by: "Muse (Muse Spark 1.3)" }

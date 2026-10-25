@@ -1,0 +1,46 @@
+id: person/turgut-ozal
+class: person
+label: { ar: "تورغوت أوزال", en: "Turgut Özal", ur: "تورگت اوزال" }
+names:
+  - { value: "خليل تورغوت أوزال", kind: full }
+  - { value: "Halil Turgut Özal", kind: full }
+gender: male
+summary:
+  ar: "سياسي ومهندس تركي، الرئيس الثامن لجمهورية تركيا من 1989 حتى وفاته في المنصب سنة 1993، ورئيس وزرائها من 1983 إلى 1989 مؤسسا لحزب الوطن الأم. قاد تحول الاقتصاد التركي نحو التحرير والانفتاح، وعُرف بدفاعه عن توافق الإسلام مع الديمقراطية والحداثة."
+  en: "Turkish politician and engineer, the eighth president of Turkey from 1989 until his death in office in 1993, and prime minister from 1983 to 1989 as founder of the Motherland Party. He led the liberalisation and opening of the Turkish economy, and was known for arguing that Islam is compatible with democracy and modernity."
+  ur: "ترک سیاست دان اور انجینئر، 1989 سے 1993 میں عہدے پر وفات تک ترکی کے آٹھویں صدر، اور مدر لینڈ پارٹی کے بانی کی حیثیت سے 1983 سے 1989 تک وزیر اعظم رہے۔ انہوں نے ترک معیشت کو آزاد اور کھلا بنانے کی قیادت کی، اور اسلام کو جمہوریت و جدت کے ہم آہنگ قرار دینے کے لیے معروف تھے۔"
+roles: [politician]
+wings: [people]
+born:
+  edtf: "1927-10-13"
+  hijri: "1346"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "Gregorian date from English Wikipedia and Wikidata (born in Malatya); the Hijri year 1346 is converter-derived."
+  sources: [source/wikipedia-turgut-ozal-en, source/wikidata-turgut-ozal]
+died:
+  edtf: "1993-04-17"
+  hijri: "1413"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "Gregorian date from English Wikipedia and Wikidata (died in Ankara while in office); the Hijri year 1413 is converter-derived. The cause of death remained unclear even after the 2012 exhumation, as the English article reports."
+  sources: [source/wikipedia-turgut-ozal-en, source/wikidata-turgut-ozal]
+relations:
+  - { type: born_in, target: place/malatya, sources: [source/wikipedia-turgut-ozal-en] }
+faith:
+  - value: unknown
+    basis: unknown
+    note: "Wikidata gives his religion only as Islam. The English article describes devout Muslim parents, his own involvement with the İskenderpaşa community of the Naqshbandi order, and his belief that Islam is compatible with democracy and accountability; no source states a denomination or a school of law. Not recorded as sunni."
+    sources: [source/wikidata-turgut-ozal, source/wikipedia-turgut-ozal-en]
+external_ids: { wikidata: "Q180280" }
+sources: [source/wikipedia-turgut-ozal-en, source/wikipedia-turgut-ozal-ar, source/wikidata-turgut-ozal]
+provenance:
+  layer: own-research
+  source: "English Wikipedia article 'Turgut Özal' (revision of 3 October 2026), Arabic Wikipedia article «توركوت أوزال» (revision of 5 June 2026), Wikidata Q180280; checked 24 Oct 2026"
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: modern-figures-batch-2
+status: { review: published, generated_by: "Muse (Muse Spark 1.3)" }

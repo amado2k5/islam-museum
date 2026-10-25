@@ -1,0 +1,35 @@
+id: person/rana-dajani
+class: person
+label: { ar: "رنا الدجاني", en: "Rana Dajani", ur: "رنا دجانی" }
+names:
+  - { value: "رنا باسم محمد ربحي الدجاني", kind: full }
+  - { value: "Rana Dajani", kind: full }
+gender: female
+summary:
+  ar: "عالمة أحياء جزيئية أردنية وأستاذة في الجامعة الهاشمية، متخصصة في وراثة الشركس والشيشان في الأردن ودراسات الارتباط الجينومي وأخلاقيات أبحاث الخلايا الجذعية، ومؤسسة برنامج «نحن نحب القراءة» الذي فاز بجائزة الملك سيجونغ لليونسكو لمحو الأمية سنة 2017، ومن المناصرات لنظرية التطور البيولوجي في إطار إسلامي."
+  en: "Jordanian molecular biologist and professor at the Hashemite University, specialising in the genetics of Circassian and Chechen populations in Jordan, genome-wide association studies and stem-cell research ethics. She founded the We Love Reading programme, which won the UNESCO King Sejong Literacy Prize in 2017, and is an advocate of the theory of biological evolution in relation to Islam."
+  ur: "اردنی سالماتی حیاتیات دان اور جامعہ ہاشمیہ کی پروفیسر، جو اردن میں چرکس اور چیچن آبادیوں کی جینیات، جینوم گیر مطالعات اور سٹیم سیل تحقیق کی اخلاقیات کی ماہر ہیں۔ انہوں نے «نحن نحب القراءة» (We Love Reading) پروگرام قائم کیا جس نے 2017 میں یونیسکو کا کنگ سیجونگ لٹریسی پرائز جیتا، اور وہ اسلام کے تناظر میں حیاتیاتی ارتقا کی نظریے کی حامی ہیں۔"
+roles: [biologist]
+wings: [people, living]
+born:
+  edtf: "1964"
+  hijri: "1383"
+  calendar: gregorian
+  precision: year
+  status: historical
+  derived: true
+  note: "Only the year is recorded, and with caution: the year 1964 is the one given in the founder's century list. Neither Wikipedia article states a birth date, her own published CV gives her place of birth (Dhahran, Saudi Arabia) and her education years without a date, and the Wikidata date-of-birth value is unusable (stored as '+2000' at century precision). The Hijri year is derived by tabular conversion and is approximate at this precision — a 1964 birth can fall in 1383 or 1384 AH. Dhahran has no place entity in the museum yet, and no group entity exists for We Love Reading, so no born_in or founder_of relation is written."
+  sources: [source/wikipedia-rana-dajani-en, source/rana-dajani-cv, source/wikidata-rana-dajani]
+faith:
+  - value: unknown
+    basis: unknown
+    note: "Wikidata records no religion for her at all. The English article describes her advocacy of biological evolution 'in relation to the religion of Islam' and her book Five Scarves, but no source consulted names a school of Islam. Not recorded until two independent sources name a school."
+    sources: [source/wikipedia-rana-dajani-en, source/wikidata-rana-dajani]
+external_ids: { wikidata: "Q20415099" }
+sources: [source/wikipedia-rana-dajani-en, source/wikipedia-rana-dajani-ar, source/wikipedia-rana-dajani-ur, source/wikidata-rana-dajani, source/unesco-we-love-reading, source/rana-dajani-cv]
+provenance:
+  layer: own-research
+  source: "English, Arabic and Urdu Wikipedia articles on Rana Dajani, Wikidata Q20415099, UNESCO's article on We Love Reading, and her own published curriculum vitae (We Love Reading site); checked 24 October 2026"
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: century-additions-2
+status: { review: published, completeness: 3, generated_by: "Muse (Muse Spark 1.3)" }

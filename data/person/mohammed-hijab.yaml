@@ -1,0 +1,35 @@
+id: person/mohammed-hijab
+class: person
+label: { ar: "محمد حجاب", en: "Mohammed Hijab", ur: "محمد حجاب" }
+names:
+  - { value: "محمد نبيل حجاب", kind: full }
+  - { value: "Mohamed Nabil Hegab", kind: full }
+gender: male
+summary:
+  ar: "داعية إسلامي بريطاني وصانع محتوى على يوتيوب، من أصول مصرية، وُلد في لندن سنة 1991. اشتهر بمناظراته ومقابلاته العلنية في قضايا الدين والفلسفة والسياسة، وبمشاركاته الإعلامية حول القضية الفلسطينية."
+  en: "British Islamic preacher and YouTuber of Egyptian origin, born in London in 1991. He is known for public debates and interviews on religion, philosophy and politics, and for media appearances on the Palestinian question."
+  ur: "مصری نژاد برطانوی مسلمان مبلغ اور یوٹیوبر، جو 1991 میں لندن میں پیدا ہوئے۔ وہ مذہب، فلسفہ اور سیاست پر عوامی مباحثوں اور انٹرویوز، اور قضیۂ فلسطین پر میڈیا میں شرکت کے لیے جانے جاتے ہیں۔"
+roles: [preacher, writer]
+wings: [people, living]
+born:
+  edtf: "1991-10-05"
+  hijri: "1412"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "Gregorian date from English Wikipedia and Wikidata; the Arabic Wikipedia article gives his birth year as 1992. The Hijri year (1412) is converter-derived."
+  sources: [source/wikipedia-mohammed-hijab-en, source/wikidata-mohammed-hijab]
+faith:
+  - value: unknown
+    basis: unknown
+    note: "Neither Wikipedia article names a school for him: the English article gives no denomination, and the Arabic article describes him only as a Muslim activist and debater. Wikidata gives only Islam. Not recorded as sunni until two sources confirm a school."
+    sources: [source/wikipedia-mohammed-hijab-en, source/wikipedia-mohammed-hijab-ar, source/wikidata-mohammed-hijab]
+external_ids: { wikidata: "Q110319845" }
+sources: [source/wikipedia-mohammed-hijab-en, source/wikipedia-mohammed-hijab-ar, source/wikidata-mohammed-hijab]
+provenance:
+  layer: own-research
+  source: "English Wikipedia article 'Mohammed Hijab' (revision of 19 October 2026), Arabic Wikipedia article «محمد حجاب» (revision of 17 July 2026), Wikidata Q110319845; no place relation written because no London place record exists in data/place/; checked 24 October 2026"
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: modern-figures-batch-4
+status: { review: published, generated_by: "Muse (Muse Spark 1.3)" }

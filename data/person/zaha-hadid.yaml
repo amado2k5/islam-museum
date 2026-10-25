@@ -1,0 +1,47 @@
+id: person/zaha-hadid
+class: person
+label: { ar: "زها حديد", en: "Zaha Hadid", ur: "زہا حدید" }
+names:
+  - { value: "زها محمد حديد", kind: full }
+  - { value: "Zaha Mohammad Hadid", kind: full }
+  - { value: "Dame Zaha Hadid", kind: variant }
+gender: female
+summary:
+  ar: "معمارية عراقية بريطانية، وُلدت في بغداد سنة 1950 وتوفيت سنة 2016، أسست مكتب «زها حديد للعمارة» في لندن وصممت مباني في أنحاء العالم بخطوطها المنحنية المميزة، وكانت أول امرأة تنال جائزة بريتزكر للعمارة سنة 2004، ولُقّبت «ملكة المنحنيات»."
+  en: "Iraqi-British architect, born in Baghdad in 1950 and died in 2016, who founded Zaha Hadid Architects in London and designed buildings around the world in her signature curving forms. She was the first woman to receive the Pritzker Architecture Prize, in 2004, and was known as the 'Queen of Curves'."
+  ur: "عراقی نژاد برطانوی معمار، جو 1950 میں بغداد میں پیدا ہوئیں اور 2016 میں وفات پائیں، جنہوں نے لندن میں «زہا حدید آرکیٹیکٹس» قائم کیا اور اپنی مخصوص خمیدہ صورتوں میں دنیا بھر میں عمارتیں ڈیزائن کیں۔ وہ 2004 میں پرٹزکر آرکیٹیکچر پرائز پانے والی پہلی خاتون تھیں اور «خموں کی ملکہ» کہلائیں۔"
+roles: [architect]
+wings: [people]
+born:
+  edtf: "1950-10-31"
+  hijri: "1370"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "Gregorian date and Baghdad birthplace from English Wikipedia and Wikidata Q47780; the Hijri year (1370) is derived by tabular conversion."
+  sources: [source/wikipedia-zaha-hadid-en, source/wikidata-zaha-hadid]
+died:
+  edtf: "2016-03-31"
+  hijri: "1437"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "Died of a heart attack in Miami, Florida, on 31 March 2016 while being treated for bronchitis; buried at Brookwood Cemetery, Surrey, between her father and her brother. Miami has no place entity in the museum yet, so no died_in relation is written. The Hijri year (1437) is derived by tabular conversion."
+  sources: [source/wikipedia-zaha-hadid-en, source/wikidata-zaha-hadid]
+relations:
+  - { type: born_in, target: place/baghdad, sources: [source/wikipedia-zaha-hadid-en, source/wikidata-zaha-hadid] }
+faith:
+  - value: unknown
+    basis: unknown
+    note: "Wikidata (P140) records only Islam. Neither the English nor the Arabic article names a school of Islam. Not recorded until two independent sources name a school."
+    sources: [source/wikipedia-zaha-hadid-en, source/wikipedia-zaha-hadid-ar, source/wikidata-zaha-hadid]
+external_ids: { wikidata: "Q47780" }
+sources: [source/wikipedia-zaha-hadid-en, source/wikipedia-zaha-hadid-ar, source/wikipedia-zaha-hadid-ur, source/wikidata-zaha-hadid, source/pritzker-zaha-hadid-2004]
+provenance:
+  layer: own-research
+  source: "English, Arabic and Urdu Wikipedia articles on Zaha Hadid, Wikidata Q47780, and the Pritzker Architecture Prize laureate page for 2004; checked 24 October 2026"
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: century-additions-2
+status: { review: published, completeness: 3, generated_by: "Muse (Muse Spark 1.3)" }

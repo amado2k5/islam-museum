@@ -1,0 +1,47 @@
+id: person/abdul-basit-abd-us-samad
+class: person
+label: { ar: "عبد الباسط عبد الصمد", en: "Abdul Basit 'Abd us-Samad", ur: "عبد الباسط عبد الصمد" }
+names:
+  - { value: "عبد الباسط محمد عبد الصمد سليم داوود", kind: full }
+  - { value: "Abdul Basit Muhammad Abdus-Samad", kind: full }
+gender: male
+summary:
+  ar: "قارئ قرآن مصري (1927–1988) لُقّب بـ«الحنجرة الذهبية» و«صوت مكة»، التحق بالإذاعة المصرية سنة 1951، وكان أول نقيب لقراء مصر سنة 1984، وجاب بلاد العالم بتلاواته المسجلة والمباشرة."
+  en: "Egyptian Quran reciter (1927–1988) known as the 'Golden Throat' and the 'Voice of Mecca'. He joined Egyptian Radio in 1951, became the first president of Egypt's Syndicate of Quran Reciters in 1984, and carried his recitations, recorded and live, around the world."
+  ur: "مصری قاریِ قرآن (1927–1988) جو «سنہری گلے» اور «مکہ کی آواز» کے لقب سے مشہور ہوئے۔ وہ 1951 میں مصری ریڈیو سے وابستہ ہوئے، 1984 میں مصر کے قراء سنڈیکیٹ کے پہلے صدر بنے، اور اپنی ریکارڈ شدہ اور براہِ راست تلاوتوں کے ذریعے دنیا بھر میں پہنچے۔"
+roles: [reciter]
+wings: [people]
+born:
+  edtf: "1927"
+  hijri: "1345"
+  calendar: gregorian
+  precision: year
+  status: historical
+  derived: false
+  note: "Year from both articles and Wikidata; the Arabic article states 1345 AH / 1927 CE, born in the village of al-Mara'za, Armant, then in Qena Governorate."
+  sources: [source/wikipedia-abdul-basit-abd-us-samad-en, source/wikipedia-abdul-basit-abd-us-samad-ar, source/wikidata-abdul-basit-abd-us-samad]
+died:
+  edtf: "1988-11-30"
+  hijri: "1409"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: false
+  note: "Date from both articles and Wikidata; the Arabic article states Wednesday 21 Rabi' al-Thani 1409 AH / 30 November 1988. He was buried in Cairo's City of the Dead near the mausoleum of Imam al-Shafi'i."
+  sources: [source/wikipedia-abdul-basit-abd-us-samad-en, source/wikipedia-abdul-basit-abd-us-samad-ar, source/wikidata-abdul-basit-abd-us-samad]
+relations:
+  - { type: born_in, target: place/armant, sources: [source/wikipedia-abdul-basit-abd-us-samad-en, source/wikipedia-abdul-basit-abd-us-samad-ar] }
+  - { type: lived_in, target: place/cairo, sources: [source/wikipedia-abdul-basit-abd-us-samad-en, source/wikipedia-abdul-basit-abd-us-samad-ar] }
+faith:
+  - value: unknown
+    basis: unknown
+    note: "Wikidata gives Islam with a Sunni Islam qualifier. Neither the English nor the Arabic Wikipedia article names a school. Not recorded as sunni until a second source confirms it."
+    sources: [source/wikidata-abdul-basit-abd-us-samad, source/wikipedia-abdul-basit-abd-us-samad-en, source/wikipedia-abdul-basit-abd-us-samad-ar]
+external_ids: { wikidata: "Q308535" }
+sources: [source/wikipedia-abdul-basit-abd-us-samad-en, source/wikipedia-abdul-basit-abd-us-samad-ar, source/wikidata-abdul-basit-abd-us-samad]
+provenance:
+  layer: own-research
+  source: "English Wikipedia 'Abdul Basit 'Abd us-Samad' (revision of 21 October 2026), Arabic Wikipedia «عبد الباسط عبد الصمد» (revision of 16 September 2026), Wikidata Q308535, checked 24 October 2026"
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: modern-figures-batch-4
+status: { review: published, generated_by: "Muse (Muse Spark 1.3)" }

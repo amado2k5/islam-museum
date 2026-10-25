@@ -1,0 +1,35 @@
+id: person/manaf-tlass
+class: person
+label: { ar: "مناف طلاس", en: "Manaf Tlass", ur: "مناف طلاس" }
+names:
+  - { value: "مناف مصطفى طلاس", kind: full }
+  - { value: "Manaf Mustafa Tlass", kind: full }
+gender: male
+summary:
+  ar: "عميد سوري في الحرس الجمهوري وابن وزير الدفاع الأسبق مصطفى طلاس، كان من الحلقة المقربة من بشار الأسد قبل أن ينشق في يوليو 2012 ويعلن دعمه للمعارضة، فكان أول قائد في الحرس الجمهوري ينشق عن الجيش السوري."
+  en: "Syrian Republican Guard brigadier general and son of former defence minister Mustafa Tlass. A member of Bashar al-Assad's inner circle, he defected in July 2012 and declared support for the opposition, the first Republican Guard commander to do so."
+  ur: "شامی ریپبلکن گارڈ کے بریگیڈیئر جنرل اور سابق وزیر دفاع مصطفى طلاس کے بیٹے۔ بشار الاسد کے قریبی حلقے کے رکن تھے، جولائی 2012 میں منحرف ہو کر حزب اختلاف کی حمایت کا اعلان کیا؛ وہ ایسا کرنے والے ریپبلکن گارڈ کے پہلے کمانڈر تھے۔"
+roles: [general, politician]
+wings: [people, living]
+born:
+  edtf: "1964"
+  calendar: gregorian
+  precision: year
+  status: historical
+  note: "Year only in the sources; born in al-Rastan, Syria. No Hijri year is recorded: a year-only Gregorian date spans two Hijri years (compare the al-Kuftaro enrichment in batch 1, where the Hijri year was likewise omitted)."
+  sources: [source/wikipedia-manaf-tlass-en, source/wikipedia-manaf-tlass-ar, source/wikidata-manaf-tlass]
+relations:
+  - { type: child_of, target: person/mustafa-tlass, sources: [source/wikipedia-manaf-tlass-en, source/wikipedia-manaf-tlass-ar] }
+faith:
+  - value: sunni
+    basis: documented
+    note: "The English article's personal-life section states 'Tlass is a Sunni Muslim'; the Arabic article independently states the same in its personal-life section. Wikidata also records Sunni Islam."
+    sources: [source/wikipedia-manaf-tlass-en, source/wikipedia-manaf-tlass-ar, source/wikidata-manaf-tlass]
+external_ids: { wikidata: "Q1341977" }
+sources: [source/wikipedia-manaf-tlass-en, source/wikipedia-manaf-tlass-ar, source/wikidata-manaf-tlass]
+provenance:
+  layer: own-research
+  source: "English Wikipedia article 'Manaf Tlass' (revision of 13 October 2026), Arabic Wikipedia article «مناف طلاس» (revision of 1 March 2026), Wikidata Q1341977; checked 24 Oct 2026"
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: modern-figures-batch-3
+status: { review: published, generated_by: "Muse (Muse Spark 1.3)" }

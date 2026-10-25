@@ -1,0 +1,35 @@
+id: person/ugur-sahin
+class: person
+label: { ar: "أوغور شاهين", en: "Uğur Şahin", ur: "اوغور شاہین" }
+names:
+  - { value: "أوغور شاهين", kind: full }
+  - { value: "Uğur Şahin", kind: full }
+gender: male
+summary:
+  ar: "طبيب مناعة وأستاذ أورام تركي ألماني، وُلد في إسكندرون سنة 1965 وهاجر طفلا إلى ألمانيا، شارك زوجته أوزليم توريتشي وآخرين في تأسيس شركات غانيميد (2001) وبيوأنتك (2008) وترون (2010)، وقاد تطوير أول لقاح بتقنية الحمض النووي الريبي المرسال ضد كوفيد-19، ونال جائزة مصطفى سنة 2019."
+  en: "Turkish-German immunologist and professor of oncology, born in İskenderun in 1965 and brought to Germany as a child, who co-founded Ganymed Pharmaceuticals (2001), BioNTech (2008) and TRON (2010) with his wife Özlem Türeci and others, led the development of the first mRNA vaccine against COVID-19, and received the Mustafa Prize in 2019."
+  ur: "ترک نژاد جرمن ماہرِ امیونولوجی اور آنکولوجی کے پروفیسر، جو 1965 میں اسکندرون میں پیدا ہوئے اور بچپن میں جرمنی منتقل ہوئے، جنہوں نے اپنی اہلیہ اوزلم تورےچی اور دیگر کے ساتھ گینی میڈ (2001)، بائیو این ٹیک (2008) اور ٹرون (2010) قائم کیں، کووڈ-19 کے خلاف پہلی ایم آر این اے ویکسین کی تیاری کی قیادت کی، اور 2019 میں مصطفی پرائز پایا۔"
+roles: [immunologist]
+wings: [people, living]
+born:
+  edtf: "1965-09-19"
+  hijri: "1385"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "Gregorian date and İskenderun birthplace from English Wikipedia and Wikidata Q2505089. İskenderun, Cologne and Mainz have no place entities in the museum yet, and no person entity exists yet for his wife Özlem Türeci nor group entities for BioNTech, Ganymed or TRON, so no born_in, spouse_of or founder_of relation is written. The Hijri year (1385) is derived by tabular conversion."
+  sources: [source/wikipedia-ugur-sahin-en, source/wikidata-ugur-sahin]
+faith:
+  - value: unknown
+    basis: unknown
+    note: "Wikidata records no religion for him, and neither the English, Arabic nor Turkish article names a school of Islam. His 2019 Mustafa Prize is an Iranian prize awarded to Muslim scientists — an eligibility fact about a prize, not a school attestation. Not recorded until two independent sources name a school."
+    sources: [source/wikipedia-ugur-sahin-en, source/wikipedia-ugur-sahin-ar, source/wikidata-ugur-sahin]
+external_ids: { wikidata: "Q2505089" }
+sources: [source/wikipedia-ugur-sahin-en, source/wikipedia-ugur-sahin-ar, source/wikipedia-ugur-sahin-tr, source/wikidata-ugur-sahin, source/biontech-sahin-cv]
+provenance:
+  layer: own-research
+  source: "English, Arabic and Turkish Wikipedia articles on Uğur Şahin, Wikidata Q2505089, and BioNTech's official management CV for its CEO; checked 24 October 2026"
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: century-additions-2
+status: { review: published, completeness: 3, generated_by: "Muse (Muse Spark 1.3)" }

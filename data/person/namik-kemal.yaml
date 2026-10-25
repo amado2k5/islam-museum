@@ -1,0 +1,47 @@
+id: person/namik-kemal
+class: person
+label: { ar: "نامق كمال", en: "Namık Kemal", ur: "نامق کمال" }
+names:
+  - { value: "محمد نامق كمال", kind: full }
+  - { value: "Mehmed Namık Kemal", kind: full }
+  - { value: "Mehmet Kemal", kind: variant }
+gender: male
+summary:
+  ar: "كاتب وشاعر وصحفي ومصلح عثماني، وُلد في تكيرداغ سنة 1840 وتوفي في خيوس سنة 1888. من أبرز شباب العثمانيين المطالبين بالحكم الدستوري، حرّر صحف «تصوير أفكار» و«حرية» و«عبرة»، ونُفي ثلاث مرات بسبب كتاباته، وألّف مسرحية «الوطن أو سيليسترة» وروايتي «انتباه» و«جزمي»، فصار صوت فكرة الوطن والحرية في الأدب التركي الحديث."
+  en: "Ottoman writer, poet, journalist and reformer, born at Tekirdağ in 1840 and died on Chios in 1888. A leading Young Ottoman campaigner for constitutional government, he edited the newspapers Tasvîr-i Efkâr, Hürriyet and İbret, was exiled three times for his writings, and wrote the play Vatan Yahut Silistre (Homeland or Silistra) and the novels İntibah and Cezmi, becoming the voice of fatherland and freedom in modern Turkish literature."
+  ur: "عثمانی مصنف، شاعر، صحافی اور مصلح، جو 1840 میں تکیرداغ میں پیدا ہوئے اور 1888 میں خیوس میں وفات پائی۔ آئینی حکومت کے علمبردار نوجوان عثمانیوں کے سرکردہ رہنما، انہوں نے «تصویر افکار»، «حریت» اور «عبرت» کی ادارت کی، اپنی تحریروں کی پاداش میں تین بار جلاوطن ہوئے، اور ڈراما «وطن یا سلیسترے» اور ناول «انتباہ» و «جزمی» لکھے۔"
+roles: [poet, writer, politician]
+wings: [people]
+born:
+  edtf: "1840-12-21"
+  hijri: "1256"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "Born at Tekirdağ, then in the Eyalet of Adrianople, Ottoman Empire; his father Mustafa Asım Bey was chief astrologer at the Sultan's palace and his mother was Fatma Zehra Hanım. Gregorian date from the English article and Wikidata; the Hijri year is a conversion, marked derived."
+  sources: [source/wikipedia-namik-kemal-en, source/wikidata-namik-kemal]
+died:
+  edtf: "1888-12-02"
+  hijri: "1306"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "Died on Chios, where he held an administrative post in exile; he was later buried at Bolayır, Gelibolu. Gregorian date from the English article and Wikidata; the Hijri year is a conversion, marked derived."
+  sources: [source/wikipedia-namik-kemal-en, source/wikidata-namik-kemal]
+relations:
+  - { type: lived_in, target: place/istanbul, sources: [source/wikipedia-namik-kemal-en] }
+faith:
+  - value: unknown
+    basis: unknown
+    note: "No source consulted names a school: Wikidata gives his religion as Islam only, and the English, Turkish, Arabic and Urdu articles consulted name no denomination or school. The English article's infobox lists his movements as nationalism, Islamic modernism and romanticism; a movement is not a school, so none is recorded."
+    sources: [source/wikipedia-namik-kemal-en, source/wikipedia-namik-kemal-ar, source/wikidata-namik-kemal]
+external_ids: { wikidata: "Q337500" }
+sources: [source/wikipedia-namik-kemal-en, source/wikipedia-namik-kemal-tr, source/wikipedia-namik-kemal-ar, source/wikipedia-namik-kemal-ur, source/wikidata-namik-kemal]
+provenance:
+  layer: own-research
+  source: "English Wikipedia article 'Namık Kemal' (revision of 26 August 2026), Turkish Wikipedia article 'Namık Kemal' (revision of 15 January 2026), Arabic Wikipedia article «نامق كمال» (revision of 3 August 2026), Urdu Wikipedia article «نامق کمال» (revision of 30 September 2026), Wikidata Q337500; checked 24 October 2026"
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: century-additions-1
+status: { review: published, completeness: 3, generated_by: "Muse (Muse Spark 1.3)" }

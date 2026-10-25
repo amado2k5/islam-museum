@@ -1,0 +1,45 @@
+id: person/abdus-salam
+class: person
+label: { ar: "محمد عبد السلام", en: "Abdus Salam", ur: "عبد السلام" }
+names:
+  - { value: "محمد عبد السلام", kind: full }
+  - { value: "Mohammad Abdus Salam", kind: full }
+gender: male
+summary:
+  ar: "فيزيائي نظري باكستاني، وُلد في جهنك بالبنجاب سنة 1926 لأسرة تدين بالأحمدية، وشارك في جائزة نوبل في الفيزياء سنة 1979 عن نظرية توحيد القوتين الكهرومغناطيسية والضعيفة، فكان أول باكستاني ينال جائزة نوبل، وأسس المركز الدولي للفيزياء النظرية في ترييستي سنة 1964 وهيئة أبحاث الفضاء الباكستانية، وغادر بلاده احتجاجا سنة 1974 بعد أن أعلن برلمانها أعضاء الجماعة الأحمدية غير مسلمين، وتوفي في أكسفورد سنة 1996."
+  en: "Pakistani theoretical physicist, born in Jhang, Punjab, in 1926 into a family professing Ahmadiyya. He shared the 1979 Nobel Prize in Physics for the theory unifying the electromagnetic and weak forces, the first Pakistani to win a Nobel Prize; founded the International Centre for Theoretical Physics in Trieste in 1964 and Pakistan's space agency SUPARCO; left his country in protest in 1974 after its parliament declared members of the Ahmadiyya community non-Muslim; and died in Oxford in 1996."
+  ur: "پاکستانی نظریاتی طبیعیات دان، جو 1926 میں پنجاب کے جھنگ میں ایک احمدی خاندان میں پیدا ہوئے۔ انہوں نے برقی مقناطیسی اور کمزور قوتوں کے اتحاد کے نظریے پر 1979 میں طبیعیات کا نوبل انعام مشترکہ طور پر پایا اور نوبل پانے والے پہلے پاکستانی بنے؛ 1964 میں ٹریسٹے میں بین الاقوامی مرکز برائے نظریاتی طبیعیات اور پاکستان کا خلائی ادارہ سپارکو قائم کیا؛ 1974 میں پارلیمنٹ کے احمدی برادری کو غیر مسلم قرار دینے پر احتجاجاً وطن چھوڑا، اور 1996 میں آکسفورڈ میں وفات پائی۔"
+roles: [physicist]
+wings: [people]
+born:
+  edtf: "1926-01-29"
+  hijri: "1344"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "Gregorian date and Jhang, Punjab birthplace from English Wikipedia; the Hijri year (1344) is derived by tabular conversion."
+  sources: [source/wikipedia-abdus-salam-en]
+died:
+  edtf: "1996-11-21"
+  hijri: "1417"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "Gregorian date and Oxford, England place of death from English Wikipedia; the Hijri year (1417) is derived by tabular conversion."
+  sources: [source/wikipedia-abdus-salam-en]
+relations:
+  - { type: lived_in, target: place/lahore, sources: [source/wikipedia-abdus-salam-en] }
+faith:
+  - value: ahmadiyya
+    basis: documented
+    note: "English Wikipedia records that Salam was born into a Punjabi family professing Ahmadiyya and belonged to the Ahmadiyya Muslim Community, and the Columbia Encyclopedia independently describes Ahmadis as 'the religious group of which he was a member'. In 1974 Pakistan's parliament unanimously declared members of the Ahmadiyya community non-Muslim, and Salam left the country in protest. The museum records his affiliation exactly as the sources give it, and takes no position on the dispute."
+    sources: [source/wikipedia-abdus-salam-en, source/columbia-encyclopedia-abdus-salam]
+sources: [source/wikipedia-abdus-salam-en, source/wikipedia-abdus-salam-ar, source/columbia-encyclopedia-abdus-salam, source/ictp-spirit-of-abdus-salam-award]
+provenance:
+  layer: own-research
+  source: "English and Arabic Wikipedia, the Columbia Encyclopedia entry (via FactMonster) and the ICTP's Spirit of Abdus Salam Award page, as cited and checked in Chrome on 26 Oct 2026. No Wikidata item number is recorded: wikidata.org returned HTTP 403 from this environment and no consulted source confirmed the item number, so external_ids is omitted rather than guessed."
+  generated_by: "Claude Code (claude-haiku-5-5)"
+  run: century-additions-1
+status: { review: published, generated_by: "Claude Code (claude-haiku-5-5)" }
