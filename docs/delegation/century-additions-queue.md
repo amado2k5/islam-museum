@@ -48,11 +48,11 @@ lists' own order. Status markers: [ ] queued · [~] in a writer's hands · [x] m
 - [x] Abdelaziz Bouteflika — 1937–2021
 - [x] Léopold Sédar Senghor (Honored Cultural Contemporary) — 1906–2001
 - [x] Cheikh Anta Diop — 1923–1986
-- [ ] Amadou Hampâté Bâ — 1901–1991
-- [ ] Sembène Ousmane — 1923–2007
-- [ ] Nawal El Saadawi — 1931–2021
-- [ ] Fatema Mernissi — 1940–2015
-- [ ] Edward Said — 1935–2003
+- [~] Amadou Hampâté Bâ — 1901–1991
+- [~] Sembène Ousmane — 1923–2007
+- [~] Nawal El Saadawi — 1931–2021
+- [~] Fatema Mernissi — 1940–2015
+- [~] Edward Said — 1935–2003
 - [ ] Taha Hussein — 1889–1973
 - [ ] Abul A'la Maududi — 1903–1979
 - [ ] Hamza Yusuf — 1958–Living
@@ -982,11 +982,11 @@ lists' own order. Status markers: [ ] queued · [~] in a writer's hands · [x] m
 - [x] Said Halim Pasha (1865–1921)
 - [x] Mirza Kalich Beg (1853–1929)
 - [x] Fatma Aliye Topuz (1862–1936)
-- [ ] Tippu Tip (Hamad ibn Muhammad) (1837–1905)
-- [ ] Muhammad Husayn Haykal (1888–1956)
-- [ ] Ziya Gökalp (1876–1924)
-- [ ] Shibli Nomani (1857–1914)
-- [ ] Chiragh Ali (1844–1895)
+- [x] Tippu Tip (Hamad ibn Muhammad) (1837–1905)
+- [x] Muhammad Husayn Haykal (1888–1956)
+- [x] Ziya Gökalp (1876–1924)
+- [x] Shibli Nomani (1857–1914)
+- [x] Chiragh Ali (1844–1895)
 - [ ] Mahmud Hasan Deobandi (1851–1920)
 - [ ] Samori Ture (1830–1900)
 - [ ] Ali bin Said of Zanzibar (1854–1893)
