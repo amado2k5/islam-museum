@@ -19,3 +19,9 @@ Before the pledge, the Prophet met six men of the Khazraj at the Aqaba of Mina d
 
 ## The two pledges in detail (The Sealed Nectar pp. 143-152)
 The first pledge took place in the season of the twelfth year of the mission, and the second in the season of the thirteenth year. The details of each are in its own entry: [[event/first-pledge-of-aqaba|the first Pledge of al-Aqaba]] and [[event/second-pledge-of-aqaba|the second Pledge of al-Aqaba]]. {cite:mubarakpuri-raheeq p.143} {cite:mubarakpuri-raheeq p.147}
+
+
+## Encyclopaedia of Islam account
+The Encyclopaedia of Islam (2nd ed.), unsigned article on al-'Aqaba, explains that the word means a mountain road or a steep ascent, and that there are many places of that name. The best known lies between Mina and Mecca, where Muhammad, according to tradition, had secret meetings with men from Medina at the pilgrimages of 621 and 622. In 621 twelve men were present and gave the pledge known as the pledge of the women; in 622 seventy-three men and two women promised to defend Muhammad by arms, the pledge of war. {cite:encyclopaedia-of-islam-2 vol. 1 p. 336}
+
+Some Western writers held that there was only one meeting at al-'Aqaba, since al-Tabari mentions only one, and that the wording of the women's pledge is taken from a later Qur'anic passage. The article judges that such delicate negotiations would need more than one meeting. {cite:encyclopaedia-of-islam-2 vol. 1 p. 336}
