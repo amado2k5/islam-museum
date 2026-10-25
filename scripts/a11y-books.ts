@@ -40,7 +40,7 @@ function brailleOf(text: string, lang: string): string {
   for (const para of text.split(/\n{2,}/)) {
     const words = para.replace(/\s+/g, " ").trim();
     if (!words) continue;
-    const dots = l.translateString(`/tables/unicode.dis,${BRL_TABLE[lang]}`, words) ?? words;
+    const dots = l.translateString(BRL_TABLE[lang], words) ?? words;
     // 40-cell lines, the BRF convention
     for (let i = 0; i < dots.length; i += 40) out.push(dots.slice(i, i + 40));
     out.push("");
@@ -152,7 +152,7 @@ for (const lang of LANGS) {
       const parts = pageParts(f);
       if (!parts || parts.text.length < 200) { skipped++; continue; }
       const slug = c.slug(f);
-      const out = path.join(DIST, "books", lang);
+      const out = path.join(DIST, lang, "books");
       fs.mkdirSync(out, { recursive: true });
       fs.writeFileSync(path.join(out, `${slug}.epub`), epubFor(parts.title, lang, `books/${lang}/${slug}`, parts.html));
       fs.writeFileSync(path.join(out, `${slug}.brf`), brailleOf(parts.text, lang), "utf8");
@@ -163,19 +163,19 @@ for (const lang of LANGS) {
 }
 // a browsable index per language + an accessibility-statement chapter
 for (const lang of LANGS) {
-  const out0 = path.join(DIST, "books", lang);
+  const out0 = path.join(DIST, lang, "books");
   fs.mkdirSync(out0, { recursive: true });
   const stmt = path.join(DIST, lang, "accessibility", "index.html");
   const p = fs.existsSync(stmt) ? pageParts(stmt) : null;
   if (p) {
-    const out = path.join(DIST, "books", lang);
+    const out = path.join(DIST, lang, "books");
     fs.writeFileSync(path.join(out, "accessibility.epub"), epubFor(p.title, lang, `books/${lang}/accessibility`, p.html));
     fs.writeFileSync(path.join(out, "accessibility.brf"), brailleOf(p.text, lang), "utf8");
     indexLinks[lang].unshift({ slug: "accessibility", title: p.title });
   }
   const dir = lang === "ar" || lang === "ur" ? ' dir="rtl"' : "";
   const lis = indexLinks[lang].map(({ slug, title }) => `<li>${esc(title)} — <a href="${slug}.epub">EPUB</a> · <a href="${slug}.brf">Braille (BRF)</a></li>`).join("\n");
-  fs.writeFileSync(path.join(DIST, "books", lang, "index.html"),
+  fs.writeFileSync(path.join(DIST, lang, "books", "index.html"),
     `<!doctype html><html lang="${lang}"${dir}><head><meta charset="utf-8"><title>Books — islam.museum</title></head><body><main><h1>Braille and e-books</h1><ul>\n${lis}\n</ul></main></body></html>`);
 }
 console.log(`a11y-books: ${made} books (EPUB + BRF) written to dist/books/, ${skipped} skipped`);
