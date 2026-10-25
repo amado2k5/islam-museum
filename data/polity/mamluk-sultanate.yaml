@@ -36,6 +36,11 @@ external_ids:
 sources:
 - source/petry-mamluk-sultanate-2022
 education:
+  did_you_know:
+    ar: "المماليك حكموا مصر والشام والحجاز من نحو ١٢٥٠م إلى ١٥١٧م، مركزهم القاهرة، وتعاقب فيهم البحري ثم البرجي."
+    en: "The Mamluks ruled Egypt, Syria and the Hijaz from about 1250 to 1517, centred on Cairo — the Bahri then the Burji sultans."
+    ur: "مملوکوں نے مصر، شام اور حجاز پر تقریباً 1250ء سے 1517ء تک حکومت کی، مرکز قاہرہ تھا — پہلے بحری پھر برجی سلاطین۔"
+    sources: [source/petry-mamluk-sultanate-2022, source/hodgson-1974]
   levels: [sprouts, explorers, scholars]
   flagged_for_kids: true
   provenance: { generated_by: "Devin", model: "gemini-2.5-pro", run: "education-E2-batch2", note: "Leveled texts drafted from the record's own summary and prose; draft, pending the founder's review and scholar review of the child levels." }
@@ -43,3 +48,7 @@ status:
   review: draft
   completeness: 1
   generated_by: Claude Code (maintainer session); summary from the publisher's description of Petry (2022) and Wikidata, 19 Oct 2026
+provenance:
+  layer: own-research
+  source: "education fact engine batch 4 — did_you_know fact drafted in three languages from the record's own cited sources"
+  generated_by: Devin

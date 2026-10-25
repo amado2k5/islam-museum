@@ -11,11 +11,19 @@ coordinates: [32.6546, 51.668]
 external_ids: { wikidata: Q42053, geonames: "418863", pleiades: "902990" }
 sources: [source/farghani-elements-astronomy]
 education:
+  did_you_know:
+    ar: "أصفهان في وسط إيران قضى فيها ابن سينا سنواته الأخيرة في بلاط علاء الدولة."
+    en: "Isfahan in central Iran was where Ibn Sina spent his last years at the court of Ala al-Dawla."
+    ur: "اصفہان وسطی ایران کا شہر ہے جہاں ابن سینا نے علاء الدولہ کے دربار میں اپنے آخری سال گزارے۔"
+    sources: [source/farghani-elements-astronomy, source/geonames-gazetteer]
   levels: [sprouts, explorers, scholars]
   flagged_for_kids: true
   provenance: { generated_by: "Devin", model: "gemini-2.5-pro", run: "education-E2-batch3", note: "Leveled texts drafted from the record's own summary and prose; draft, pending the founder's review and scholar review of the child levels." }
 status: { review: draft, completeness: 1, generated_by: "Claude Sonnet 5.5 (scaffold)" }
 
 provenance:
+  layer: own-research
+  source: "farghani-elements-astronomy extraction"
+  generated_by: "Devin (SWE-2 High)"
   model: "claude-haiku-5-5"
   run: "farghani-389-577"

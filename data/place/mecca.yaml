@@ -11,7 +11,16 @@ coordinates: [21.4225, 39.8262]
 external_ids: { wikidata: Q5806, geonames: "104515" }
 sources: [source/bakr-umayyad-state-1134715]
 education:
+  did_you_know:
+    ar: "مكة في الحجاز مسقط رأس النبي محمد وموضع الكعبة ومقصد الحج السنوي."
+    en: "Mecca in the Hijaz is the Prophet Muhammad's birthplace, the site of the Kaaba, and the goal of the yearly hajj."
+    ur: "حجاز کی مکہ نبی محمد کی جائے پیدائش، کعبہ کا مسکن اور سالانہ حج کی منزل ہے۔"
+    sources: [source/bakr-umayyad-state-1134715, source/mubarakpuri-raheeq]
   levels: [sprouts, explorers, scholars]
   flagged_for_kids: true
   provenance: { generated_by: "Devin", model: "gemini-2.5-pro", run: "education-E2-batch3", note: "Leveled texts drafted from the record's own summary and prose; draft, pending the founder's review and scholar review of the child levels." }
 status: { review: draft, completeness: 1, generated_by: "Claude Sonnet 5.5 (scaffold)" }
+provenance:
+  layer: own-research
+  source: "education fact engine batch 4 — did_you_know fact drafted in three languages from the record's own cited sources"
+  generated_by: Devin

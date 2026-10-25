@@ -13,6 +13,11 @@ story_roles:
 provenance: { layer: own-research, source: "صحيح البخاري (طبعة دار ابن كثير، ترقيم فخر الدين)، تصوير Apple Vision OCR", generated_by: "Devin (SWE-2 High) from Apple Vision OCR", run: "hadith-bukhari-anbiya" }
 sources: [source/sahih-al-bukhari]
 education:
+  did_you_know:
+    ar: "نوح أول الرسل إلى أهل الأرض في حديث الشفاعة عند البخاري؛ يأتيه الناس أول المستشفعين يوم القيامة فيحيلهم على إبراهيم."
+    en: "In al-Bukhari's long hadith of intercession, Noah is the first messenger to earth's people; mankind comes to him first and he sends them on to Ibrahim."
+    ur: "بخاری کی طویل شفاعت کی حدیث میں نوح اہلِ زمین کے پہلے رسول ہیں؛ قیامت کے دن لوگ پہلے ان کے پاس آتے ہیں اور وہ انہیں ابراہیم کی طرف بھیجتے ہیں۔"
+    sources: [source/sahih-al-bukhari, source/mubarakpuri-raheeq]
   levels: [sprouts, explorers, scholars]
   flagged_for_kids: true
   provenance: { generated_by: "Devin", model: "gemini-2.5-pro", run: "education-E2-batch3", note: "Leveled texts drafted from the record's own summary and prose; draft, pending the founder's review and scholar review of the child levels." }

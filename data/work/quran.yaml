@@ -20,10 +20,15 @@ text_source:
     - { path: data/work/quran-source/tanzil-simple-clean-v1.1.txt, sha256: 1862ee63c70fbfc6285e0bb0b9587b89beb5b7891109a4d543d9d2cf8283e8c8, use: text_search }
   frozen: "2026-10-11"
   rule: "The text in passage/quran-* files must equal these files exactly; scripts/validate.ts checks it on every build."
-provenance: { layer: by, source: tanzil-quran-v1.1 }
+provenance: { layer: by, source: tanzil-quran-v1.1, generated_by: "frozen Tanzil text" }
 external_ids: { wikidata: "Q428" }
 sources: [source/tanzil-quran]
 education:
+  did_you_know:
+    ar: "القرآن ١١٤ سورة و٦٢٣٦ آية برواية حفص كما في نص تنزيل المجمد في المستودع."
+    en: "The Qur'an holds 114 suras and 6,236 ayat in the Hafs reading, in the frozen Tanzil text kept in this repository."
+    ur: "قرآن میں 114 سورتیں اور 6236 آیات ہیں حفص کی روایت کے مطابق — تنزیل کا مستعملہ متن اسی مستودع میں ہے۔"
+    sources: [source/tanzil-quran, source/sahih-al-bukhari]
   levels: [sprouts, explorers, scholars]
   flagged_for_kids: true
   provenance: { generated_by: "Claude Code", model: "Claude Haiku 5.5 (claude-haiku-5-5)", run: "education-E2-batch1", note: "Leveled texts drafted from the record's own summary; draft, pending the founder's review and scholar review of the child levels." }

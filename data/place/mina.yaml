@@ -12,7 +12,16 @@ coordinate_precision: locality
 external_ids: { wikidata: "Q753276", geonames: "103915" }
 sources: [source/geonames-gazetteer]
 education:
+  did_you_know:
+    ar: "منى وادٍ بين مكة والمشعر الحرام يرمي فيه الحجاج الجمار ويبيتون فيه أيام التشريق."
+    en: "Mina, a valley between Mecca and the Sacred Monument, is where pilgrims stone the jamarat and sleep the days of tashriq."
+    ur: "منیٰ مکہ اور مشعرِ حرام کے درمیان وادی ہے جہاں حجاج جمرات کو کنکریاں مارتے اور ایامِ تشریق میں قیام کرتے ہیں۔"
+    sources: [source/geonames-gazetteer, source/fiqh-mawsua-kuwaitiyya-noor-v3]
   levels: [sprouts, explorers, scholars]
   flagged_for_kids: true
   provenance: { generated_by: "Devin", model: "gemini-2.5-pro", run: "education-E2-batch4", note: "Leveled texts drafted from the record's own summary and prose; draft, pending the founder's review and scholar review of the child levels." }
 status: { review: draft, completeness: 1, generated_by: "Claude Code; coordinates from GeoNames" }
+provenance:
+  layer: own-research
+  source: "education fact engine batch 4 — did_you_know fact drafted in three languages from the record's own cited sources"
+  generated_by: Devin
