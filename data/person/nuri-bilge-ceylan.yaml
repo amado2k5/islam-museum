@@ -1,0 +1,37 @@
+id: person/nuri-bilge-ceylan
+class: person
+label: { ar: "نوري بيلج جيلان", en: "Nuri Bilge Ceylan", ur: "نوری بلجے جیلان" }
+names:
+  - { value: "Nuri Bilge Ceylan", kind: full }
+  - { value: "نوري بيلج جيلان", kind: full }
+gender: male
+summary:
+  ar: "مخرج ومصوّر تركي، وُلد في إسطنبول سنة 1959؛ بدأ مهندسًا ومصوّرًا ثم صنع ثلاثيته الريفية «البلدة الصغيرة» (1997) و«غيوم مايو» (1999) و«بعيد» (2002)، وفاز في كان بالجائزة الكبرى عن «بعيد» و«حدث ذات مرة في الأناضول» (2011) وبجائزة أفضل مخرج عن «ثلاثة قرود» (2008) وبالسعفة الذهبية عن «سبات شتوي» (2014)."
+  en: "Turkish film director and photographer, born in Istanbul in 1959. He began as an engineer and photographer, then made his provincial trilogy The Small Town (1997), Clouds of May (1999) and Distant (2002); at Cannes he won the Grand Prix for Distant and Once Upon a Time in Anatolia (2011), Best Director for Three Monkeys (2008), and the Palme d'Or for Winter Sleep (2014)."
+  ur: "ترک فلم ہدایت کار اور فوٹوگرافر، 1959 میں استنبول میں پیدا ہوئے؛ انجینئر اور فوٹوگرافر کے طور پر آغاز کیا، پھر اپنی دیہی سہ فلم «چھوٹا قصبہ» (1997)، «مئی کے بادل» (1999) اور «دور» (2002) بنائی؛ کان میں «دور» اور «اناطولیہ میں ایک دفعہ» (2011) پر گرینڈ پرکس، «تین بندر» (2008) پر بہترین ہدایت کار اور «سرمائی نیند» (2014) پر پام ڈی اور جیتا۔"
+roles: [film-director, photographer, writer]
+wings: [people, living]
+born:
+  edtf: "1959-01-26"
+  hijri: "1378"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "Born 26 January 1959 in Bakırköy, Istanbul, Turkey, to Mehmet Emin Ceylan, an agricultural engineer, and Fatma Ceylan, as given by the English Wikipedia article. The Hijri year (1378) is derived by tabular conversion."
+  sources: [source/wikipedia-nuri-bilge-ceylan-en]
+relations:
+  - { type: born_in, target: place/istanbul, sources: [source/wikipedia-nuri-bilge-ceylan-en] }
+  - { type: lived_in, target: place/istanbul, sources: [source/wikipedia-nuri-bilge-ceylan-en] }
+faith:
+  - value: unknown
+    basis: unknown
+    note: "No source read in this run attests any personal religion or school for Ceylan himself. The English Wikipedia article records his birth, engineering studies, photography and films, and describes recurring themes of estrangement, existentialism and monotony; a filmmaker's themes, nationality and subjects are not a faith attestation, and no school may be inferred from a Turkish birthplace. Under the two-source rule and the doubt rule, his faith is recorded as unknown, following the Gilles Kepel precedent where no source attests a personal religion."
+    sources: [source/wikipedia-nuri-bilge-ceylan-en]
+sources: [source/wikipedia-nuri-bilge-ceylan-en]
+provenance:
+  layer: own-research
+  source: "English Wikipedia 'Nuri Bilge Ceylan', read in full on 25 October 2026. No Wikidata QID was verified from a tool result in this run, so no external_ids are recorded rather than guessed. No earlier record for him existed in data/person/ under nuri-bilge-ceylan or any other spelling checked; this is a new build, not an enrichment."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: century-additions-16
+status: { review: published, completeness: 3, generated_by: "Muse (Muse Spark 1.3)" }

@@ -28,3 +28,7 @@ al-Raheeq al-Makhtum reports that everything [[person/abdullah-ibn-abd-al-muttal
 
 ## In the journey to Yathrib (al-Raheeq al-Makhtum, p.57)
 The book says that Amina set out from Mecca to Yathrib on a journey it estimates at five hundred kilometres, with her orphan son Muhammad, her servant Umm Ayman, and her guardian Abd al-Muttalib. She stayed a month, then died on the way back at al-Abwa' ([[event/death-of-amina|the death of Amina]]) {cite:mubarakpuri-raheeq p.57} {cite:ibn-hisham-sira 1/168} {cite:fiqh-al-sira-al-ghazali p.50}.
+
+## From Sheikh Omar Abdelkafy's Tafsir lectures (episode 1)
+
+Speaking about language, the Sheikh relates that Umm Ayman, an Abyssinian woman who did not speak Arabic well, called out to the fighters urging them to fight and asking God to make their feet firm, but pronounced the word with a foreign accent, and those who heard her told her she was a non-Arab {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep01 00:12:30}.

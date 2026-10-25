@@ -18,3 +18,19 @@ translators: ["Claude Haiku 5.5 (claude-haiku-5-5), draft translation"]
 شیخ کہتے ہیں کہ ذکر ہر ایسے عمل کو شامل ہے جو اللہ کی رضا کے لیے ہو، سوئی بنانے والے کی سوئی سے خلاباز کی پرواز تک، اور وہ اس کی اقسام گنواتے ہیں: زبان، آنکھ، کان، دل اور اعضاء کا ذکر (شیخ کی رائے)۔ {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep02 01:16:30} {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep02 01:17:00} {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep02 01:17:30}
 ان کی رائے ہے کہ انگلیوں پر تسبیح گننا تسبیح کے دانوں سے بہتر ہے، اور وہ دل کو انگلیوں سے جوڑتے ہیں (شیخ کی رائے)۔ {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep03 00:13:00} {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep03 00:14:00} وہ کہتے ہیں کہ جو اللہ کے ذکر سے منہ موڑے اس کی زندگی تنگ ہوگی (needs_source)۔ {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep02 00:49:30}
 وہ دعویٰ کرتے ہیں کہ جو وضو کر کے سورۂ یوسف سچے دل سے پڑھے وہ تکلیف سے نجات پاتا ہے، ایک ایسا دعویٰ جس کی تصدیق نہیں ہو سکی (needs_source)۔ {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep06 00:18:30}
+
+## شیخ عمر عبد الکافی کے تفسیری درس (قسط 6)
+
+شیخ پوچھتے ہیں کہ جماعت کے ساتھ عشاء کی نماز اور قاری کی پرسوز آواز میں ذکر کی آیات سننے کے برابر کیا ہو سکتا ہے، اور کہتے ہیں کہ اس سے دل نرم ہوتے ہیں {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep06 00:03:00}۔ اور یاد دلاتے ہیں کہ دلوں کا سکون اللہ کے ذکر سے ملتا ہے {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep06 00:03:00}۔
+
+## شیخ عمر عبد الکافی کے تفسیری درس (قسط 7)
+
+شیخ علماء سے نقل کرتے ہیں کہ اہلِ جنت کو کسی چیز پر افسوس نہ ہوگا سوائے اس گھڑی کے جو انہوں نے اللہ کے ذکر کے بغیر گزاری (needs_source) {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep07 00:43:00}۔ وہ ایک روایت کا بھی ذکر کرتے ہیں کہ جنت کے باغات علم کی مجالس ہیں، اور پوچھتے ہیں کہ جس کا سینہ علم کی مجلس میں کھل گیا ہو وہ وہاں سے کیوں اٹھ کر جانا چاہتا ہے (needs_source) {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep07 00:43:00}۔
+
+شیخ کہتے ہیں کہ ہماری نمازوں اور ہمارے استغفار کو بھی استغفار کی ضرورت ہے، اور ہماری عبادت کو درستی کی {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep07 00:44:00}۔ پھر وہ ایک حدیث بیان کرتے ہیں کہ فرشتے ذکر کی مجلس والوں کے لیے اپنے رب کے ہاں سفارش کرتے ہیں اور کہتے ہیں کہ ہم نے ایسے بندوں کو چھوڑا جو تیرا ذکر کرتے، تجھے ایک مانتے اور تیری بڑائی بیان کرتے ہیں؛ اللہ پوچھتا ہے وہ کیا مانگتے ہیں، فرشتے کہتے ہیں تیری جنت، تو اللہ فرماتا ہے کیا انہوں نے میری جنت دیکھی ہے (needs_source) {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep07 00:44:00}۔
+
+حدیث آگے چلتی ہے: اللہ اعلان کرتا ہے کہ اس نے مجلس والوں کو بخش دیا، انہیں وہ دیا جس کی وہ امید رکھتے ہیں اور اس سے امن دیا جس سے وہ ڈرتے ہیں؛ ایک فرشتہ کہتا ہے کہ فلاں ان میں سے نہیں، وہ تو اپنی کسی ضرورت سے آیا تھا، اللہ جواب دیتا ہے کہ یہ ایسے لوگ ہیں جن کے پاس بیٹھنے والا محروم نہیں رہتا (needs_source) {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep07 00:46:00}۔
+
+## شیخ عمر عبد الکافی کے تفسیری درس (قسط 10)
+
+شیخ دعا کرتے ہیں کہ اللہ حاضرین کو اپنے عرش کے سائے میں جمع کرے اس دن جب اس کے سائے کے سوا کوئی سایہ نہ ہوگا {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep10 00:00:30}۔ پھر وہ کہتے ہیں کہ اہلِ جنت پر ایک دن آئے گا جس میں ہر ایک اپنے بھائیوں سے پوچھے گا کہ اللہ نے ہمیں کب بخشا، اور اہلِ علم سے نقل کرتے ہیں کہ اس سوال کا ایک جواب ہے (needs_source) {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep10 00:00:30}۔

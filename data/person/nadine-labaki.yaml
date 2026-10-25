@@ -1,0 +1,36 @@
+id: person/nadine-labaki
+class: person
+label: { ar: "نادين لبكي", en: "Nadine Labaki", ur: "نادین لبکی" }
+names:
+  - { value: "Nadine Antoine Labaki", kind: full }
+  - { value: "نادين لبكي", kind: full }
+gender: female
+summary:
+  ar: "مخرجة وممثلة لبنانية، وُلدت في بعبدات سنة 1974؛ أخرجت ومثّلت في «سكر بنات» (2007) و«وهلأ لوين؟» (2011) و«كفرناحوم» (2018) الذي نال جائزة لجنة التحكيم في كان ورُشّح للأوسكار، فكانت أول مخرجة عربية تُرشَّح لجائزة أوسكار أفضل فيلم بلغة أجنبية."
+  en: "Lebanese film director and actress, born in Baabdat in 1974. She directed and starred in Caramel (2007), Where Do We Go Now? (2011) and Capernaum (2018), which won the Jury Prize at Cannes and was nominated for an Academy Award, making her the first female Arab director nominated for the Oscar for Best Foreign Language Film."
+  ur: "لبنانی فلم ہدایت کار اور اداکارہ، 1974 میں بعبدات میں پیدا ہوئیں؛ انھوں نے «کیرامیل» (2007)، «اب ہم کہاں جائیں؟» (2011) اور «کفرناحوم» (2018) کی ہدایت کاری اور ان میں اداکاری کی — آخری فلم نے کان میں جیوری انعام جیتا اور آسکر کے لیے نامزد ہوئی، یوں وہ بہترین غیر ملکی زبان فلم کے آسکر کے لیے نامزد ہونے والی پہلی عرب خاتون ہدایت کار بنیں۔"
+roles: [film-director, actress, writer]
+wings: [people, living]
+born:
+  edtf: "1974-02-18"
+  hijri: "1394"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "Born Nadine Antoine Labaki on 18 February 1974 in Baabdat, Mount Lebanon Governorate, Lebanon, as given by the English Wikipedia article's infobox and early-life section. Baabdat has no place entity in data/place/, so no born_in relation is written; place/bayrut (Beirut) is a different place and is not substituted for it. The Hijri year (1394) is derived by tabular conversion."
+  sources: [source/wikipedia-nadine-labaki-en]
+relations:
+  - { type: lived_in, target: place/bayrut, sources: [source/wikipedia-nadine-labaki-en] }
+faith:
+  - value: unknown
+    basis: unknown
+    note: "NOT RECORDED AS CHRISTIAN: the credible sources read in this run attest her parents' religion only, which the lane rules expressly exclude. The English Wikipedia article states that she was born 'to Maronite parents Antoine and Antoinette Labaki'; it names no religion for Labaki herself. That is family background, exactly the Sami Frashëri near-miss, and the brief for this group names Labaki's Maronite context as background, not attestation. A single low-authority celebrity-biography listing giving 'Religion: Christianity' was seen in search results; a lone listing of that kind is not two independent sources and itself derives from the family background. The Muslim-Christian village of Where Do We Go Now? is a film subject, not an attestation. Under the two-source rule and the doubt rule, her faith is recorded as unknown, with the Maronite parentage carried attributed in the prose."
+    sources: [source/wikipedia-nadine-labaki-en]
+sources: [source/wikipedia-nadine-labaki-en]
+provenance:
+  layer: own-research
+  source: "English Wikipedia 'Nadine Labaki', read in full on 25 October 2026. No Wikidata QID was verified from a tool result in this run, so no external_ids are recorded rather than guessed. No earlier record for her existed in data/person/ under nadine-labaki or any other spelling checked; this is a new build, not an enrichment."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: century-additions-16
+status: { review: published, completeness: 3, generated_by: "Muse (Muse Spark 1.3)" }

@@ -15,3 +15,7 @@ Al-Suyuti relates that al-Mutawakkil regretted not having reached his time, and 
 
 ## Related works
 The museum's data attribute to him the book [[work/ikhtilaf-al-hadith-shafii|Ikhtilaf al-Hadith]] {cite:kashf-zunun-furqan}, and make him the founder of [[group/shafii-madhhab|the Shafi'i school]].
+
+## From Sheikh Omar Abdelkafy's Tafsir lectures (episode 10)
+
+The Sheikh reports from Imam al-Shafi'i that he thought poetry diminishes the dignity of scholars, and mentions that the Arabs said the most eloquent poetry is the most untrue {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep10 00:30:30}.

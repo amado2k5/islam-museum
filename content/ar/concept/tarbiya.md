@@ -27,3 +27,57 @@ translators: []
 - **academic view: not yet sourced**: لم يُنسب بعد.
 - **other view: not yet sourced**: لم يُنسب بعد.
 :::
+
+## من درس الشيخ عمر عبد الكافي: تفسير القرآن (الحلقة 2)
+
+يقول الشيخ إن بعض الآباء ينسون أبناءهم وهم في الصف الأول الابتدائي، ثم يكتشفون في السنة الثالثة أو الرابعة من الجامعة أن الابن أو البنت غاب عنهم بحضوره {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep02 00:38:30}.
+
+ويرى أن الآباء هم الذين زرعوا هذه العداوة، فيدعو إلى الاستعانة بالله أولا، ويستشهد بآية تتعلق بالأزواج والأولاد {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep02 00:39:00}.
+
+وينصح بأن يصلي الأب ركعتين ويدعو الله أن يقلب قلوب أولاده على طاعته ومحبته {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep02 00:39:30}. وينصح بأن يترك الأب بينه وبين ولده مساحة قبل أن يأمره أو ينهاه، إذا كان يعلم أنه سيرفض {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep02 00:39:30}.
+
+وينصح بألا يأتي الأب بأمره في لحظة المباراة النهائية التي ينتظرها الولد العاشق للكرة طوال السنة، وأن يتركه يستمتع بها {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep02 00:40:00}.
+
+ويروي حكاية أب خرج مع ابنه ذي الخمس سنين إلى حديقة الحيوان، وأخذ الابن يسأل عن الحيوانات {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep02 00:40:30}.
+
+ويقول إن الأب لم يعرف أسماء الحيوانات التي سألها ابنه، وقال لزوجته الخائفة أن تدع الولد يتعلم {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep02 00:41:00}. ويعلق الشيخ بأن هذا الأب متكبر، وأن الولد إن وُصف بالتمرد فالمتمرد في الحقيقة هو الأب {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep02 00:41:00}.
+
+ويقول إن الأولاد يحبون الحنان، ويرى أن البنات يناسبهن الدلال وأسماء التدليل، أما الولد فلا يُدلَّل بأسماء الدلع {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep02 00:41:30}.
+
+ويرى أنه لا داعي لتدليل الولد بالأسماء بعد سن البلوغ، في العشرين والثلاثين، بينما تحب المرأة التدليل في كل سن {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep02 00:43:00}.
+
+وينصح بأن يُترك الولد ذو الخمس أو الست سنوات يشارك في الحوار عندما يزور أبوه أعمامه أو أخواله {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep02 00:46:30}.
+
+## من درس الشيخ عمر عبد الكافي: تفسير القرآن (الحلقة 5)
+
+يقول الشيخ إن تربية الولد على ألا يغش في الامتحان سباحة ضد التيار، وقد ينال علامات أقل بسبب ذلك، لكنه عنده مثاب على ذلك {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep05 00:04:30}.
+
+ويذكر أن الآباء يقولون لأولادهم لا تكذب ولا تغش ولا تغتب ولا تنافق المدير، بينما يتقرب زميله إلى المدير بالمديح فيُرقّى {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep05 00:06:00}.
+
+ويرى أن الأب إذا ربى ولده على الصلاح فقد أطلقه من قيد الركون إلى أساليب الدنيا الذليلة وارتقى به إلى درجة الصالحين {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep05 00:06:30}.
+
+ويرى الشيخ أن المرأة المحجبة أو المنتقبة ليست مقيدة، وإنما لها ضوابط تعرف بها المحرم المؤبد والمحرم المؤقت والأجنبي، وأن المقيدة هي التي ينظر إليها أي إنسان {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep05 00:07:00}.
+
+ويقول إن الأبناء يظنون أن الوالدين يقيدانهم بالحجاب، وإنما أطلقا عنهم قيد الدنيا، ويذكر أن الأسر التي ارتبطت على ذلك تُجمع في الجنة (needs_source) {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep05 00:07:30}.
+
+ويقول إن تمرد الأبناء والبنات علينا إنما هو لكثرة ذنوبنا {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep05 00:21:30}. ويقول إن صلاح الذرية من الله، وإن على الأب أن يطعمهم الحلال {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep05 00:21:30}.
+
+وينتقد الشيخ الأب الذي يستجوب ابنته وابنه في البيت كأنه مراقب في المطار، يسأل كل واحد منهما أين ذهب وماذا يفعل {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep05 00:40:00}.
+
+## من درس الشيخ عمر عبد الكافي: تفسير القرآن (الحلقة 6)
+
+يقول الشيخ إنه كان يدخل المسجد في الخمسينات وهو طفل فلا يجد فيه إلا كبار السن المتقاعدين من أبناء السبعين والثمانين (needs_source) {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep06 00:10:30}.
+
+ويقول إنه منذ السبعينات والثمانينات ملأت المساجد والحرمين ومجالس العلم فتيان وفتيات، ويرجو أن يكون فيهم خير الأمة (needs_source) {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep06 00:11:00}.
+
+ويروي أنه ينظر في قاعة جامعية فيرى أكثر البنات محجبات ولا يرى غير بنتين غير محجبتين، ويرى في ذلك دليلا على أن الحجاب اختيار وطواعية لا قهر فيه {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep06 00:11:30}.
+
+## من درس الشيخ عمر عبد الكافي: تفسير القرآن (الحلقة 7)
+
+ينصح الشيخ الأب أن يكون ذكيا في التربية، فلا يقبل ما يعلم أن أولاده أو زوجته لن يفعلوه، وأن يترك بينه وبين ابنته مساحة محترمة {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep07 00:32:30}.
+
+## من درس الشيخ عمر عبد الكافي: تفسير القرآن (الحلقة 10)
+
+ويتساءل الشيخ: لماذا يلاحقنا الفشل في علاقتنا بزوجاتنا؟ {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep10 00:27:00}.
+
+ويرى أن سبب مشكلات الزواج والأقارب أن كل واحد يضع المفتاح في الباب الخطأ، ولو وضعه في مكانه لانفتح {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep10 00:27:30}. ويذكر في زيارة أم الزوجة أنه لا بد من معاملتها بالحسنى {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep10 00:27:30}.

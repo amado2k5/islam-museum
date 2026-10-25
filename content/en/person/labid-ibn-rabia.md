@@ -19,3 +19,7 @@ The views on this question are many in *al-Isaba*. We present them in the sectio
 
 ## His elegy for his brother Arbad
 Ibn Ishaq relates that [[person/arbad-ibn-qays|Arbad ibn Qays]] was Labid's brother on their mother's side, and gives six elegies by him after [[event/death-of-arbad-ibn-qays|his death by lightning]] on his return from the delegation of the Banu Amir. See [[work/labid-elegies-for-arbad|Labid's elegies for Arbad]]. {cite:ibn-hisham-saqqa 4/215} {cite:ibn-hisham-saqqa 4/219}
+
+## From Sheikh Omar Abdelkafy's Tafsir lectures (episode 10)
+
+The Sheikh distinguishes the speech of God from human speech as the difference between God and His creation, and mentions the Companion Labid ibn Rabi'a, author of a mu'allaqa, who held back from poetry after his Islam {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep10 00:24:00}. He says his ode is among the greatest seven poems in Arab history and was hung on the Kaaba, and that the Prophet asked Labid, 'Where is your poetry?' (needs_source) {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep10 00:24:30}. He relates that Labid said that after hearing the Qur'an he could not compose poetry, because his language felt shallow beside it, and that verse no longer ran on his tongue except like the creeping of ants {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep10 00:30:00}.

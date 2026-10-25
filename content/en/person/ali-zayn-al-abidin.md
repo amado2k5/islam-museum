@@ -14,3 +14,7 @@ Musrif is quoted as saying: "That was not my opinion; my heart was filled with t
 
 ## Notes for researchers
 - The report is from "Muruj al-Dhahab". The other two sources in the entity's data have no pages given; this needs an additional source.
+
+## From Sheikh Omar Abdelkafy's Tafsir lectures (episode 3)
+
+The Sheikh relates that during the pilgrimage season Ibn Abd al-Malik tried to reach the Black Stone but could not because of the crowd, then a man with a radiant face came, the people made room for him and waited in two lines until he kissed the Stone, and Ibn Abd al-Malik asked who this was {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep03 00:52:30}. He says that the man was Ali Zayn al-Abidin ibn al-Husayn of the Family of the Prophet, whom a poet praised in a remarkable poem, and the Sheikh comments on the people's reverence for him {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep03 00:53:00}.

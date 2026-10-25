@@ -37,3 +37,16 @@ The jurists differ on one who wounds himself and is then wounded by another and 
 - One who attempts self-killing and survives is punished; no diya is due if he dies, according to most jurists. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.3431}{cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.3432}
 - Expiation for killing oneself, by error or deliberately, is disputed. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.3432}
 - The self-killer is washed and prayed over by most jurists; some refuse the prayer, and the Hanbalis have the imam refrain while others pray. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.3433}
+
+## Summary of the lecture
+In Sheikh Omar Abdelkafy's lesson the Sheikh asks whether it is permissible to tell a bereaved mother that her son was a suicide, and says that in his view someone who rode a rough sea and died is counted a suicide {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep06 00:30:30}.
+
+## From Sheikh Omar Abdelkafy's Tafsir lectures (episode 6)
+
+The Sheikh asks whether it is permissible to tell a bereaved mother that her son was a suicide, and says that in his understanding the sharia ruling on someone who rode the sea while it was rough and died is that he is a suicide; he adds that prevention is better than cure {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep06 00:30:30}.
+
+:::perspectives
+- **Sunni view (not yet sourced)**: The Sunni position on this question has not yet been sourced.
+- **The speaker's view (opinion)**: The Sheikh holds that someone who rode a rough sea and died is counted a suicide, and asks how far it is permissible to say so to his mother {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep06 00:30:30}.
+- **Academic and other views (not yet sourced)**: Academic and other views on this question have not yet been sourced.
+:::

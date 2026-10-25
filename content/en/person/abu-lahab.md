@@ -30,3 +30,7 @@ Of the nobles of Quraysh, Abu Lahab alone did not go out to Badr. He sent a man 
 
 ## His death after Badr (The Sealed Nectar, pp.225–226)
 When news of the defeat reached him, his wife, Umm al-Fadl, struck him with a pole and split his head. He died seven nights later and was left for three days with no one approaching his body. Then they pushed him into a pit with a stick and pelted him with stones ([[event/badr-aftermath|After Badr]]) {cite:mubarakpuri-raheeq p.226}.
+
+## From Sheikh Omar Abdelkafy's Tafsir lectures (episode 06)
+
+The Sheikh mentions Abu Lahab as the man about whom revelation came, reports on the Prophet's tongue a complaint of being hurt through his family, and says that Abu Lahab was the Prophet's uncle and a disbeliever, yet the Prophet did not like to harm anyone (needs_source) {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep06 00:34:00}.

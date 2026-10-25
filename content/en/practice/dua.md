@@ -15,3 +15,25 @@ Every istighfar is du'a, not every du'a istighfar; dhikr in its widest sense inc
 
 ## Ruling
 Al-Nawawi: the chosen doctrine of the jurists, hadith scholars and the mass of the learned is that du'a is recommended; it can be obligatory, like the supplication inside al-Fatiha in prayer and the janaza supplication. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.8103}
+
+## From Sheikh Omar Abdelkafy's Tafsir lectures (episode 2)
+
+The Sheikh recommends the prayer seeking refuge from worry and grief, and that a person not fret about tomorrow, and says that someone in debt should pray to God sincerely in the last third, so that God will settle his debt {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep02 00:36:30}. He says that someone afraid of illness and its effects should make three supplications alongside pursuing the means: that God guide the doctor to the diagnosis of the illness, guide him to prescribing the medicine, and place the secret of healing in that medicine {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep02 00:37:00}. The Sheikh criticizes what he sees in some government hospitals in some countries of wrong diagnoses and operations on the wrong part of the body, and of medicines that may cause harm even to the point of death (needs_source) {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep02 00:37:30}.
+
+:::perspectives
+- **Sunni view (not yet sourced)**: The Sunni position on this point has not yet been sourced.
+- **The speaker's view (rant)**: The Sheikh criticizes what he sees as wrong diagnoses and operations on the wrong part of the body in some government hospitals, and holds that this is a reason to pray for guidance (needs_source) {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep02 00:37:30}.
+- **Academic and other views (not yet sourced)**: Academic and other views on this point have not yet been sourced.
+:::
+
+He says that hearts are in God's hand, so whoever has a difficult spouse should turn to God to soften the heart of the other party {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep02 00:38:00}.
+
+## From Sheikh Omar Abdelkafy's Tafsir lectures (episode 3)
+
+The Sheikh says that whoever says the greeting of peace upon us and upon the righteous servants of God has his greeting reach millions of souls that have died and millions of living bodies, who in turn pray for him with good, and he describes prayer as a form of connection (needs_source) {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep03 00:54:30}.
+
+## From Sheikh Omar Abdelkafy's Tafsir lectures (episode 4)
+
+The Sheikh says that the prayer of a transgressor may be answered before that of an upright person for one of two reasons: either God wants to draw him towards prayer, or He does not want him to keep standing at His door {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep04 00:23:30}. He mentions a saying attributed to God to the effect of hastening the need of a servant because He dislikes hearing his voice (needs_source) {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep04 00:23:30}. The Sheikh describes mothers whose child falls ill and whose illness worsens, who say, Lord, take what he has and give it to us, and he counts this as emotion in its right place, and then asks God for well-being {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep04 00:51:00}.
+
+The Sheikh advises that whoever goes to the doctor, himself or his child, make three supplications: that God guide the doctor to a sound diagnosis, since an unsound diagnosis can lead the patient to harm, and that He guide him to prescribe the suitable medicine {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep04 00:51:30}. The third supplication is that God not remove the secret of healing from that medicine, and the Sheikh says that God has created no disease without creating a cure for it, except old age {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep04 00:52:00}.

@@ -34,3 +34,8 @@ He tells of a security firm that interviewed young Muslim and non-Muslim candida
 - **academic view: not yet sourced**: not yet sourced.
 - **other view: not yet sourced**: not yet sourced.
 :::
+
+## From Sheikh Omar Abdelkafy's Tafsir lectures (episode 6)
+The Sheikh says that lying leaves a person confused and tense in this world. He claims that the liar uses seven areas of his brain to back up his lie and must then remember it and match it against the next lie, while the truthful person engages only three (needs_source) {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep06 00:43:00}.
+
+The Sheikh relates a hadith to the effect that lying leads to wickedness and wickedness to the Fire, and that a man keeps on lying until he is recorded with God as a liar; he prays that we be truthful in word, deed and work {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep06 00:43:30}. He explains idle talk (laghw) as whatever a sensible person strikes out of his reckoning and does not waste his time on {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep06 00:43:30}.

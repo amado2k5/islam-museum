@@ -24,3 +24,15 @@ He notes the many varieties of hijab among women and calls some of them fashion;
 - **academic view: not yet sourced**: not yet sourced.
 - **other view: not yet sourced**: not yet sourced.
 :::
+
+## From Sheikh Omar Abdelkafy's Tafsir lectures (episode 9)
+
+The Sheikh says that all bliss lies in looking upon the face of the Generous and all torment lies in being veiled from the Lord of lords, and he holds that whoever is veiled from his Lord has veiled himself {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep09 00:40:00}. He relays what some women say, among them older female relatives who have not covered, that the hijab is the hijab of the heart {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep09 00:40:00}. The Sheikh sharply criticizes the statement of a woman who says she will wear the hijab when God permits; he holds that such postponement is itself a veil over the heart from God's light, and he says that God gave the permission and the command some fifteen hundred years ago and that the woman who says this is circling around the matter (needs_source) {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep09 00:40:30}.
+
+:::perspectives
+- **Sunni view (not yet sourced)**: The Sunni position on this point has not yet been sourced.
+- **The speaker's view (rant)**: The Sheikh sharply criticizes the stance of a woman who defers the hijab until God permits; he holds that the command came about fifteen hundred years ago and that deferring it is a way of evading it (needs_source) {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep09 00:40:30}.
+- **Academic and other views (not yet sourced)**: Academic and other views on this point have not yet been sourced.
+:::
+
+According to the Sheikh, Aisha related that she admired the women of the Ansar when the verses of the hijab were revealed: each woman tore her wrap in two and gave half to her sister, and they covered themselves with it and came out of the mosque {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep09 00:41:00}.

@@ -20,3 +20,7 @@ He mentions a house with two doors in which a family died in a fire, and a dream
 - **academic view: not yet sourced**: not yet sourced.
 - **other view: not yet sourced**: not yet sourced.
 :::
+
+## From Sheikh Omar Abdelkafy's Tafsir lectures (episode 02)
+
+The Sheikh speaks of a widow with two or three children and says that she may accept to be half, a third or a quarter of a wife to an already married man, then asks his listeners whether that is so {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep02 00:29:00}.

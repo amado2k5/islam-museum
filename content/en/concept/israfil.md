@@ -27,3 +27,11 @@ He says God commands the Angel of Death to take the souls until none remains but
 
 ## A weak report
 He relates a report that four great angels remain after the first blast, and notes that its chain is weak though other reports support it (needs_source). {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep03 00:28:30}
+
+## From Sheikh Omar Abdelkafy's Tafsir lectures (episode 3)
+
+The Sheikh relates that the Prophet saw Israfil with one foot advanced and the other held back, the trumpet placed to his mouth and his eyes fixed on the Throne {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep03 00:21:30}. The Sheikh describes the blast of the trumpet as a wondrous blast so powerful that it sets the mountains moving {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep03 00:22:30}.
+
+## From Sheikh Omar Abdelkafy's Tafsir lectures (episode 9)
+
+The Sheikh explains the two blasts, noting that the Qur'an names the first blast the rajifa and the second the radifa, that is, the one that follows it {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep09 00:48:30}. He says that all die after the first blast, that God then asks to whom the dominion belongs today and no one answers but Himself, and that God then raises Israfil as the first to be raised, and he sounds the second blast {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep09 00:50:00}.

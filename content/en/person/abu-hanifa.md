@@ -18,3 +18,8 @@ Al-Baladhuri says that Abu Hanifa, together with Sufyan al-Thawri, al-Awza'i, Ma
 
 ## Notes for researchers
 - The page has two sources for the date of death, Ibn al-Nadim and the encyclopaedia; the other sources have not been checked. The two Gregorian dates are converted from the Hijri dates.
+
+## From Sheikh Omar Abdelkafy's Tafsir lectures (episode 3)
+The Sheikh says that a former president, king or emperor is called "former" once he is gone, whereas scholars are not spoken of in that way; one does not say "the former Abu Hanifa", although Abu Hanifa died in the year 150 of the Hijra (needs_source) {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep03 00:53:30}.
+
+He holds that rulers die while the people of knowledge live on, and that though people try to kill their memory it stays in people's hearts; he gives Abu Hanifa and Abu Hurayra as examples of men whom people still remember and love {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep03 00:54:00}.

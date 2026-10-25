@@ -15,3 +15,9 @@ translators: []
 
 ## جوابه على عصماء بنت مروان
 يروي ابن إسحاق أن عصماء بنت مروان قالت شعراً تعيب فيه الإسلام وأهله وتحرّض على النبي، فأجابها حسان بأبيات يجعل فيها بني وائل وواقفاً وخطمة دون بني الخزرج ويصف مقتلها؛ انظر [[work/hassan-reply-to-asma-bint-marwan|الجواب]] و[[event/killing-of-asma-bint-marwan|الخبر]]. {cite:ibn-hisham-saqqa 4/286}
+
+## من درس الشيخ عمر عبد الكافي: تفسير القرآن (الحلقة 7)
+
+يقول الشيخ إن حسان بن ثابت كان شاعرا، وإن النبي كان يضع له الكرسي ويقول له قل وروح القدس يؤيدك (needs_source) {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep07 00:22:00}.
+
+ويقول إن جبريل يؤيده بالإلهام (needs_source) {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep07 00:22:30}. ويمازح الشيخ بجناس الأسماء، فيرى أن اسم الشاعر الأجنبي ينتهي على وزن إبليس، وأن حسان على وزن الوضوء، وأن بينهما فرقا شاسعا {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep07 00:22:30}.

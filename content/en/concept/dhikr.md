@@ -18,3 +18,19 @@ He holds that remembrance is the easiest and most honourable of deeds, and the n
 The Sheikh says remembrance covers every act done for God's sake, from the needle-maker's needle to the astronaut's flight, and lists its kinds: of the tongue, eye, ear, heart and limbs (his view). {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep02 01:16:30} {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep02 01:17:00} {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep02 01:17:30}
 He holds that counting glorification on the fingers is better than the rosary, and ties the heart to the fingers (his view). {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep03 00:13:00} {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep03 00:14:00} He mentions that whoever turns away from God's remembrance has a straitened life (needs_source). {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep02 00:49:30}
 He claims that a believer who performs ablution and recites a particular chapter sincerely in distress is relieved, a claim that could not be checked (needs_source). {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep06 00:18:30}
+
+## From Sheikh Omar Abdelkafy's Tafsir lectures (episode 6)
+
+The Sheikh asks what could equal praying isha in congregation and hearing the verses of remembrance in the reciter's moving voice, and says that this softens hearts {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep06 00:03:00}. He reminds his listeners that the peace of hearts comes through the remembrance of God {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep06 00:03:00}.
+
+## From Sheikh Omar Abdelkafy's Tafsir lectures (episode 7)
+
+The Sheikh reports from scholars that the people of paradise will regret nothing except an hour they spent without remembering God (needs_source) {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep07 00:43:00}. He also mentions a report that the gardens of paradise are the circles of knowledge, and asks the one who feels his chest opened in such a circle why he would want to leave (needs_source) {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep07 00:43:00}.
+
+The Sheikh says that our prayers and our asking for forgiveness themselves need forgiveness, and our worship needs correcting {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep07 00:44:00}. He then relates a hadith of the angels who intercede with their Lord for the people of a gathering of remembrance: they say they left servants who remember, affirm and glorify Him; God asks what they ask for, they answer that they ask for His paradise, and He asks whether they have seen it (needs_source) {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep07 00:44:00}.
+
+The hadith continues: God declares that He has forgiven the people of the gathering, gave them what they hope for and made them safe from what they fear; an angel says that so-and-so is not one of them and only came for a need of his own, and God replies that they are the people by whom no companion is left unhappy (needs_source) {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep07 00:46:00}.
+
+## From Sheikh Omar Abdelkafy's Tafsir lectures (episode 10)
+
+The Sheikh prays that God gather those present in the shade of His throne on the day when there is no shade but His {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep10 00:00:30}. He then says that a day will come for the people of paradise on which each will ask his brothers when God forgave them, and he reports from scholars that this question has an answer (needs_source) {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep10 00:00:30}.

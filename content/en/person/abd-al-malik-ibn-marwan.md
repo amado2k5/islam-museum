@@ -28,3 +28,6 @@ Al-Salabi says that he was the first to set aside a day for hearing complaints o
 
 ## Notes for researchers
 - The judgements on his person are attributed to their authors and do not represent the museum's view. The academic view and other opinions have not yet been added.
+
+## From Sheikh Omar Abdelkafy's Tafsir lectures (episode 3)
+The Sheikh relates that Abd al-Malik ibn Marwan learned that a body was waiting to be washed and wished to see it, so he went in with his servant and found Abu Hazim washing it (needs_source) {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep03 00:51:30}. He says Abd al-Malik looked at his servant and said he wished he had been a washer of the dead and had not governed the affairs of the Muslims for even a single day, and Abu Hazim said to his assistant: look, when they die they wish for our life, and when we die we do not wish for theirs (needs_source) {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep03 00:52:00}.

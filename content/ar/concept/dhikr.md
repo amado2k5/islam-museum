@@ -18,3 +18,19 @@ translators: []
 يقول الشيخ إن الذكر يشمل كل عمل يُراد به وجه الله، من إبرة الخياط إلى رجل الفضاء، ويعدّد أنواعه: ذكر اللسان، والعين، والأذن، والقلب، والجوارح (رأيه). {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep02 01:16:30} {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep02 01:17:00} {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep02 01:17:30}
 ويرى أن عدّ التسبيح بالأصابع أحسن من المسبحة في نظره، ويربط القلب بالأصابع (رأيه). {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep03 00:13:00} {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep03 00:14:00} ويذكر أن من أعرض عن ذكر الله تضيق عليه معيشته (needs_source). {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep02 00:49:30}
 ويذكر أن من قرأ سورة يوسف بوضوء وصدق في الكرب يُكشف عنه، وهذه دعوى لم يُتحقق منها (needs_source). {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep06 00:18:30}
+
+## من درس الشيخ عمر عبد الكافي: تفسير القرآن (الحلقة 6)
+
+يتساءل الشيخ عما تعدله صلاة العشاء في جماعة وسماع آيات الذكر بصوت القارئ الشجي، ويقول إنها ترقق القلوب {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep06 00:03:00}. ويذكّر بأن طمأنينة القلوب تكون بذكر الله {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep06 00:03:00}.
+
+## من درس الشيخ عمر عبد الكافي: تفسير القرآن (الحلقة 7)
+
+ينقل الشيخ عن العلماء أن أهل الجنة لا يندمون على شيء إلا على ساعة مرّت بهم دون ذكر الله (needs_source) {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep07 00:43:00}. ويذكر خبرا في أن رياض الجنة هي مجالس العلم، ثم يسأل من يشعر بانشراح الصدر في مجلس العلم عن سبب رغبته في الانصراف (needs_source) {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep07 00:43:00}.
+
+يقول الشيخ إن صلواتنا واستغفارنا تحتاج إلى استغفار، وعبادتنا إلى تصحيح {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep07 00:44:00}. ثم يروي حديثا عن الملائكة التي تشفع لأهل مجلس الذكر عند ربها، فتقول إنها تركتهم يذكرونه ويوحدونه ويمجدونه، فيسأل الله ماذا يطلبون فتجيب أنهم يطلبون جنته، فيقول هل رأوا جنتي (needs_source) {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep07 00:44:00}.
+
+ويتابع الحديث: يعلن الله أنه غفر لأهل المجلس وأعطاهم ما يرجون وأمّنهم مما يخافون، فيقول ملك إن فلانا ليس منهم وإنما جاء لحاجة له، فيجيب الله بأنهم القوم الذين لا يشقى بهم جليسهم (needs_source) {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep07 00:46:00}.
+
+## من درس الشيخ عمر عبد الكافي: تفسير القرآن (الحلقة 10)
+
+يدعو الشيخ الله أن يجمع الحاضرين في ظل عرشه يوم لا ظل إلا ظله {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep10 00:00:30}. ثم يذكر أن يوما سيأتي على أهل الجنة يسأل فيه كل منهم إخوانه: متى غفر الله لنا؟ وينقل عن أهل العلم أن لهذا السؤال جوابا (needs_source) {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep10 00:00:30}.

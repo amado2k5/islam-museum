@@ -25,3 +25,7 @@ The main degrees are three, following the hadith of Abu Sa'id: by the hand, then
 
 ## Payment for hisba
 Most jurists hold that a pure act of worship, such as the call to prayer or the hajj, may not be hired for; the Hanafis and Hanbalis forbid paying for commanding right. The Shafi'is, Malikis and later Hanafis permit it, citing the hadith that "the most worthy of what you take a fee for is the Book of God". {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.3390}{cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.3391} An officer appointed to hisba may be given his living from the treasury, as a judge is, while a volunteer is not paid. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.3391}
+
+## From Sheikh Omar Abdelkafy's Tafsir lectures (episode 2)
+
+The Sheikh relays a saying that urges doing good and showing kindness both to those who deserve it and to those who do not: whoever does good to the deserving has put it in the right place, and whoever does good to the undeserving is himself a person of kindness {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep02 01:08:30}. The Sheikh closes with a prayer that God make those present among the people of kindness {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep02 01:08:30}.

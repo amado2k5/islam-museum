@@ -1,0 +1,36 @@
+id: person/jehane-noujaim
+class: person
+label: { ar: "جيهان نجيم", en: "Jehane Noujaim", ur: "جیہان نجیم" }
+names:
+  - { value: "Jehane Noujaim", kind: full }
+  - { value: "جيهان نجيم", kind: full }
+gender: female
+summary:
+  ar: "مخرجة أفلام وثائقية أمريكية من أصل مصري، وُلدت في واشنطن العاصمة سنة 1974 ونشأت في الكويت والقاهرة؛ أخرجت «ستارت أب دوت كوم» (2001) و«غرفة التحكم» (2004) عن الجزيرة وقيادة الحرب على العراق، و«الميدان» (2013) عن ثورة مصر الذي رُشّح للأوسكار، وشاركت في إخراج «الاختراق الكبير» (2019) و«العهد» (2020)."
+  en: "American documentary film director of Egyptian origin, born in Washington, D.C. in 1974 and raised in Kuwait and Cairo. She directed Startup.com (2001), Control Room (2004) on Al Jazeera and the command of the Iraq war, and The Square (2013) on Egypt's revolution, which was nominated for an Academy Award, and co-directed The Great Hack (2019) and The Vow (2020)."
+  ur: "مصری نژاد امریکی دستاویزی فلم ہدایت کار، 1974 میں واشنگٹن ڈی سی میں پیدا ہوئیں اور کویت اور قاہرہ میں پلی بڑھیں؛ انھوں نے «اسٹارٹ اپ ڈاٹ کام» (2001)، الجزیرہ اور عراق جنگ کی کمان پر «کنٹرول روم» (2004)، اور مصر کے انقلاب پر «المیدان» (2013) بنائی جو آسکر کے لیے نامزد ہوئی، اور «دی گریٹ ہیک» (2019) اور «دی واؤ» (2020) کی مشترکہ ہدایت کاری کی۔"
+roles: [film-director, writer]
+wings: [people, living]
+born:
+  edtf: "1974-05-17"
+  hijri: "1394"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "Born 17 May 1974 in Washington, D.C., as given by the English Wikipedia article's infobox and lead; the article records that she was raised in Kuwait and Cairo and moved to Boston by the age of 10, in 1984. Washington, D.C. has no place entity in data/place/, so no born_in relation is written. The Hijri year (1394) is derived by tabular conversion."
+  sources: [source/wikipedia-jehane-noujaim-en]
+relations:
+  - { type: lived_in, target: place/cairo, sources: [source/wikipedia-jehane-noujaim-en] }
+faith:
+  - value: unknown
+    basis: unknown
+    note: "No source read in this run attests any personal religion for Noujaim at all, and nothing in this record presents her as a Muslim or as an adherent of any other faith. The English Wikipedia article records her parentage — an Egyptian-Syrian-Lebanese father and an American mother born in Connecticut — her raising in Kuwait and Cairo, and her films on Al Jazeera, the Iraq war and the Egyptian revolution; ancestry, upbringing places and film subjects are not a faith attestation, and no source names a religion or school as her own. Under the two-source rule and the doubt rule her faith is recorded as unknown, following the Gilles Kepel precedent."
+    sources: [source/wikipedia-jehane-noujaim-en]
+sources: [source/wikipedia-jehane-noujaim-en]
+provenance:
+  layer: own-research
+  source: "English Wikipedia 'Jehane Noujaim', read in full on 25 October 2026. No Wikidata QID was verified from a tool result in this run, so no external_ids are recorded rather than guessed. No earlier record for her existed in data/person/ under jehane-noujaim or any other spelling checked; this is a new build, not an enrichment."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: century-additions-16
+status: { review: published, completeness: 3, generated_by: "Muse (Muse Spark 1.3)" }

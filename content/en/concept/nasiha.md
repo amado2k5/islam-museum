@@ -17,3 +17,21 @@ Ibn Rajab relates from Abu Dawud that it is one of the hadiths on which jurispru
 
 ## Sincere advice in Sheikh Omar Abdelkafy's lessons (episode 1)
 The Sheikh recalls that religion is sincere advice, and lists those to whom it is owed: to God, to His messenger, to the leaders of the Muslims and to their common folk (needs_source). {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep01 00:01:30}
+
+## From Sheikh Omar Abdelkafy's Tafsir lectures (episode 2)
+The Sheikh holds that a Muslim who has advice to give should not expose the person; he takes the boy or the girl aside and speaks with them in private {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep02 00:43:30}.
+
+He advises a man whose wife is grieving for her late father to console her with gentle words that open the heart, since the father was her support and part of her, and she may weep for him a week or two {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep02 01:05:00}.
+
+He suggests that the husband speak well of the departed and pray that God grant us a good ending as He granted him, so that the wife feels he loves her and her heart inclines to him, for her father and her son are among the dearest people to her {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep02 01:06:00}.
+
+He says there is a great difference between a tender word such as "may God have mercy on him" and a dry reproach, for the kind word leaves a reserve of affection {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep02 01:07:00}.
+
+He tells a humorous story of a man who was advised to go home after a quarrel, enter the kitchen and make his wife a cup of tea; he took the words literally and ended up sleeping in the hall (needs_source) {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep02 01:07:30}.
+
+## From Sheikh Omar Abdelkafy's Tafsir lectures (episode 6)
+The Sheikh tells of a wife who said to her husband that the faults were hers and that she was the one who should ask forgiveness. He ties this to God's saying about Zakariyya that He set right his wife for him, and understands from it that God sets each spouse right for the other {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep06 00:15:30}.
+
+He compares reform to a triangle with two sides, a base and an apex: one who wants to reform should not go to either side but to the apex, because reconciliation comes from above, that is, from first putting right one's relationship with God and not from changing the other party {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep06 00:16:00}.
+
+He relays a traditional saying of pious people to the effect that they put right what lay between them and their Lord, so God made peace between the wolf and the sheep (needs_source) {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep06 00:16:30}.

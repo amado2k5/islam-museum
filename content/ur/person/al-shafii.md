@@ -15,3 +15,7 @@ translators: ["Claude Haiku 5.5 (claude-haiku-5-5), draft translation"]
 
 ## متعلقہ امور
 ڈیٹا میں ان کی طرف [[work/ikhtilaf-al-hadith-shafii|اختلاف الحدیث]] منسوب ہے {cite:kashf-zunun-furqan}، اور انھیں [[group/shafii-madhhab|شافعی مذہب]] کا بانی شمار کیا گیا ہے۔
+
+## شیخ عمر عبد الکافی کے تفسیری درس (قسط 10)
+
+شیخ امام شافعی سے نقل کرتے ہیں کہ وہ سمجھتے تھے کہ شاعری علماء کے وقار کو کم کرتی ہے، اور ذکر کرتے ہیں کہ عربوں نے کہا کہ سب سے بلیغ شعر سب سے زیادہ جھوٹا ہوتا ہے {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep10 00:30:30}۔

@@ -42,3 +42,7 @@ Tawhid means that God is one, without partner, without anything like Him, and th
 
 ## For Scholars
 Affirming that God is one, without partner or likeness, and denying Him any associate. Al-Tahawi opens his statement of the creed with it, saying that God is one with no partner, nothing like Him, and no god but Him. Scholars of creed divide tawhid into lordship, worship, and names and attributes, a division of later usage, so it is presented here as an explanation of the meaning and not as a sacred text. The museum speaks of tawhid as the creed of Islam, and presents the views of other groups with their attribution. This entry does not judge those who differ on it.
+
+## From Sheikh Omar Abdelkafy's Tafsir lectures (episode 10)
+
+The Sheikh says that the whole creation bears witness to God's oneness and to His Messenger's messengerhood, and then bears witness for the believers that they are the ones who hold the oneness {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep10 00:20:00}. He says that the testimony of oneness belongs specially to the believers, meaning everyone who says that there is no god but God, and not merely those who attend the mosque outwardly {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep10 00:20:00}.

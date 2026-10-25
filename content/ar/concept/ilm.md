@@ -21,3 +21,15 @@ translators: []
 يذكر الشيخ أن طالب العلم تعترضه ثلاث عقبات: أولها الكذب، وثانيها الحسد الذي يغلق ما بين الناس والعلم، وثالثها أن تكون الدنيا طافحة في القلب (رأيه). {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep01 00:01:00} {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep01 00:04:00} {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep01 00:04:30}
 ويقول الشيخ إن القلب يحتاج إلى درس علم كل ثلاثة أيام، وإن القلب إن ترك الدرس تعصاه الجوارح وتقتحمه الدنيا (needs_source). {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep01 00:25:30} ويذكر أن مجالس العلم خير، وأن الطاعة فيها قد يكون فيها رضوان الله، فلا يحتقر المؤمن منها شيئا (رأيه). {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep02 00:03:00} {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep02 00:03:30}
 ويقول إن من يكثر الكلام فيما لا يعلم لا يُعلم (رأيه). {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep03 00:25:30} ويقول إن الجالس في حلقة العلم أفضل من الملائكة لأنه يجاهد نفسه (رأيه). {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep09 00:42:00}
+
+## من درس الشيخ عمر عبد الكافي: تفسير القرآن (الحلقة 3)
+
+ينتقد الشيخ الخوض في علم لا ينفع، ويمثل له بالبحث عن اسم الذئب الذي لم يأكل ابن يعقوب، ويرى أنه دخول في موضوع لا طائل تحته {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep03 00:26:00}.
+
+## من درس الشيخ عمر عبد الكافي: تفسير القرآن (الحلقة 7)
+
+يقول الشيخ إن الإنسان في مجلس العلم كالسمك في الماء، فحياته مضمونة ما دام في بيئته الطبيعية، وإذا بعد عنه كان الهلاك أقرب {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep07 00:43:30}. ويتساءل كيف يتغذى القلب في مثل هذه المجالس {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep07 00:43:30}.
+
+ويشير إلى القول بأن الجلساء الصالحين لا يشقى بهم جليسهم أبدا (needs_source) {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep07 00:46:30}. ويرى أن المسلم الجالس في مجلس العلم يرقى فوق الملائكة، لأن غذاء الملائكة التسبيح والتهليل والتقديس لا يفترون عنه {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep07 00:46:30}.
+
+ويقول إن المؤمن يشبه الملائكة في الصلاة، ويربط بين الأجنحة ذات المثنى والثلاث والرباع وعدد ركعات الصلوات الخمس (needs_source) {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep07 00:47:00}. ويرى أنه خارج الصلاة يفوق الملائكة بجلوسه يستمع إلى الخير وقد نزلت الرحمات {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep07 00:47:00}.

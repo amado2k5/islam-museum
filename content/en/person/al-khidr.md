@@ -8,3 +8,6 @@ translators: ["Claude Haiku 5.5 (claude-haiku-5-5), draft translation"]
 The servant to whom God gave knowledge from Himself, whom [[person/musa|Musa]] accompanied on the journey to the meeting of the two seas. {cite:sahih-al-bukhari-bugha 3219}
 
 What others have said about him is not set out here and needs an additional source.
+
+## Encyclopaedia of Islam note: al-Akhdar
+In North Africa the vulgar form al-Akhdar ("the green") is in common use as a personal name for al-Khidr. Several holy men (santons), especially at Constantine, are known by this name. {cite:encyclopaedia-of-islam-2 vol. 1 p. 343}

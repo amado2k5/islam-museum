@@ -25,3 +25,17 @@ Ibn al-Qayyim holds that curing pride is an individual duty, and the cure has tw
 
 ## Pride in Sheikh Omar Abdelkafy's lessons (episode 1)
 The Sheikh says that pride keeps a person from accepting advice. He gives the example of a man who was told to eat with his right hand, refused, and claimed he could not; he sets against this the humility of Ibn Mas'ud when he was told to sit (needs_source). {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep01 00:02:00} {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep01 00:02:30}
+
+## From Sheikh Omar Abdelkafy's Tafsir lectures (episode 1)
+
+The Sheikh cites the hadith of the three whom God will not look at nor purify, among them the arrogant poor man (needs_source) {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep01 00:39:30}.
+
+## From Sheikh Omar Abdelkafy's Tafsir lectures (episode 2)
+
+The Sheikh says that religion has no place for the I: in prayer we say we worship and we seek help, in the plural, even when praying alone {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep02 01:00:30}. He adds that even on rising from the bowing we say our Lord and not my Lord {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep02 01:00:30}.
+
+He holds that the self is absent from religion even in prayer, that when the self appeared everything was lost, and that the Companions understood the religion because they folded the I into the we {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep02 01:01:00}.
+
+## From Sheikh Omar Abdelkafy's Tafsir lectures (episode 4)
+
+The Sheikh holds that a man who does not pray and a woman who does not wear the hijab are both arrogant towards God if they deny that this is required, unlike the sinner who admits his sin {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep04 00:42:30}.

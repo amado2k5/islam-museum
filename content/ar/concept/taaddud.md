@@ -20,3 +20,7 @@ translators: []
 - **academic view: not yet sourced**: لم يُنسب بعد.
 - **other view: not yet sourced**: لم يُنسب بعد.
 :::
+
+## من درس الشيخ عمر عبد الكافي: تفسير القرآن (الحلقة 02)
+
+يتحدث الشيخ عن امرأة أرملة لها طفلان أو ثلاثة، ويقول إنها قد تقبل أن تكون نصف زوجة أو ثلثها أو ربعها لرجل متزوج، ثم يسأل سامعيه إن كان ذلك صحيحا {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep02 00:29:00}.

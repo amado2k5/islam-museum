@@ -1,0 +1,36 @@
+id: person/haifaa-al-mansour
+class: person
+label: { ar: "هيفاء المنصور", en: "Haifaa al-Mansour", ur: "ہیفاء المنصور" }
+names:
+  - { value: "Haifaa al-Mansour", kind: full }
+  - { value: "هيفاء المنصور", kind: full }
+gender: female
+summary:
+  ar: "مخرجة سعودية، وُلدت في الزلفي سنة 1974 ونشأت في الأحساء؛ من أوائل المخرجات السعوديات وأشهرهن، أخرجت «وجدة» (2012)، أول فيلم روائي يُصوَّر بالكامل في السعودية وأول ترشيح سعودي للأوسكار، ثم «ماري شيلي» (2017) و«المرشحة المثالية» (2019)."
+  en: "Saudi film director, born in Al Zulfi in 1974 and brought up in Al-Hasa. One of the first and best-known female Saudi filmmakers, she directed Wadjda (2012), the first feature shot entirely in Saudi Arabia and Saudi Arabia's first Oscar submission, followed by Mary Shelley (2017) and The Perfect Candidate (2019)."
+  ur: "سعودی فلم ہدایت کار، 1974 میں الزلفی میں پیدا ہوئیں اور الاحساء میں پلی بڑھیں؛ اولین اور معروف ترین سعودی خاتون فلم سازوں میں سے ایک، انھوں نے «وجدہ» (2012) بنائی — پہلی فیچر فلم جو مکمل طور پر سعودی عرب میں فلمائی گئی اور سعودی عرب کی پہلی آسکر نامزدگی — پھر «میری شیلی» (2017) اور «مثالی امیدوار» (2019) بنائیں۔"
+roles: [film-director, screenwriter, writer]
+wings: [people, living]
+born:
+  edtf: "1974-08-10"
+  hijri: "1394"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "Born 10 August 1974 in Al Zulfi, Saudi Arabia, as given by the English Wikipedia article's infobox and lead; the article records that she grew up in Al-Hasa. Al Zulfi has no place entity in data/place/, so no born_in relation is written. The Hijri year (1394) is derived by tabular conversion."
+  sources: [source/wikipedia-haifaa-al-mansour-en]
+relations:
+  - { type: lived_in, target: place/al-ahsa, sources: [source/wikipedia-haifaa-al-mansour-en] }
+faith:
+  - value: unknown
+    basis: unknown
+    note: "No source read in this run names a school, madhhab or path for al-Mansour herself. The English Wikipedia article records that she received hate mail and criticism for being unreligious, which she denies, and that people in her conservative home town condemned filmmaking as haram; a denial of being unreligious, critics' accusations, and the religious subjects and settings of Wadjda and The Perfect Candidate are not an attestation of a specific affiliation, and no value may be inferred from a Saudi birthplace. Under the two-source rule and the doubt rule, her faith is recorded as unknown."
+    sources: [source/wikipedia-haifaa-al-mansour-en]
+sources: [source/wikipedia-haifaa-al-mansour-en]
+provenance:
+  layer: own-research
+  source: "English Wikipedia 'Haifaa al-Mansour', read in full on 25 October 2026. No Wikidata QID was verified from a tool result in this run, so no external_ids are recorded rather than guessed. No earlier record for her existed in data/person/ under haifaa-al-mansour or any other spelling checked; this is a new build, not an enrichment."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: century-additions-16
+status: { review: published, completeness: 3, generated_by: "Muse (Muse Spark 1.3)" }

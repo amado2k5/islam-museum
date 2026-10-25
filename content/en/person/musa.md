@@ -25,3 +25,61 @@ Moses is known as the one who spoke with God, a noble messenger of resolute dete
 
 ## For Scholars
 The interlocutor of God (Kalim Allah) and one of the five resolute messengers, whose prophetic life is the most extensively chronicled in the Qur'an. Raised in Pharaoh's court, he journeyed to Midian before receiving the divine commission in the sacred valley of Tuwa to summon Pharaoh to divine unity and liberate the Israelites. Bestowed with signs including the staff and the parting of the sea, he was given the Torah as guidance and light, leading his community with patience through trials and establishing foundational moral laws.
+
+## From Sheikh Omar Abdelkafy's Tafsir lectures (episode 03)
+
+The Sheikh speaks of the seventy elite whom Musa chose to apologise on behalf of Bani Israel after the affair of al-Samiri and the worship of the calf (needs_source) {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep03 00:30:30}.
+
+He describes them as the purest of his people, compares their standing to that of Abu Bakr, Umar and the ten promised Paradise among the Companions, on the Israelite side, and says that as they drew near they were told to lower their voices because God was about to speak to Musa {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep03 00:31:00}.
+
+He says that even this elite told Musa they would not believe him until they saw God openly, and he finds this astonishing, asking about the state of those who are not among the elite {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep03 00:31:30}.
+
+He mentions that after God raised them up again and they returned to their people, the sun beat down on them in the Sinai desert, so God shaded them with clouds and sent down manna and quails, and then the mountain was lifted over Bani Israel like a canopy and they thought it would fall on them, so that the mountain became a roof instead of standing on the ground {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep03 00:32:30}.
+
+He says that Musa had one hope, to enter the Holy Land and be buried in it, so he sent men to scout out news of the giants (the Amalekites) in Bayt al-Maqdis {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep03 00:33:00}.
+
+He distinguishes between tahassus, which is for good, and tajassus, which is for evil, mentions al-Qa'qa' ibn Amr who led an army at seventeen, and then says the men returned to Musa and told him that a mighty people were in it (needs_source) {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep03 00:33:30}.
+
+He says that Bani Israel refused to enter it while the giants were there, that each of the giants was a colossus who could carry one of them in his hand, and that when fear takes hold of people they cannot say no; Musa answered that he controlled only himself and his brother {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep03 00:34:00}.
+
+He then mentions the going of Musa and Harun to Pharaoh and their fear of his violence, that God reassured them that He was with them, hearing and seeing, and told them to speak to him gently in the hope that he might take heed {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep03 00:34:30}.
+
+He notes that the address was to both men, yet in his reply Pharaoh singled out Musa by name, and the Sheikh thinks the reason may have been that Pharaoh was the one who raised Musa in his house {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep03 00:35:00}.
+
+The Sheikh likens Musa, speaking loosely, to a head of department and Harun to his assistant, and points out that in some verses of the Qur'an Harun's name comes before Musa's while at other times Musa comes before Harun {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep03 00:35:30}.
+
+## From Sheikh Omar Abdelkafy's Tafsir lectures (episode 04)
+
+The Sheikh sets out an imagined picture of Musa's mother, with Satan whispering to her to cast her infant son into the sea and her refusing, then pictures the soldiers entering and killing Musa and the message to Bani Israel ending, and he concludes that the world runs according to God's will and not according to what a person wants {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep04 00:28:30}.
+
+## From Sheikh Omar Abdelkafy's Tafsir lectures (episode 07)
+
+The Sheikh says that Musa received the tablets from God and that when God wished to reveal to him He spoke to him, and he then mentions the Prophet's saying that he will be the first from whom the grave is split open, without boasting, drawing attention to the humility in it (needs_source) {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep07 00:13:30}.
+
+He cites a hadith in which Musa is holding on to a leg of the Throne, and in which the Prophet is unsure whether Musa was struck down with those struck in the first blast or whether God had spared him by the thunderstroke he suffered on the day of the Mountain (needs_source) {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep07 00:14:00}.
+
+He says that Musa is a model of a person who aspired to good: having heard the speech of God, he asked his Lord to let him see Him, and the Sheikh finds courtesy in the way he asked {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep07 00:14:30}.
+
+## From Sheikh Omar Abdelkafy's Tafsir lectures (episode 10)
+
+The Sheikh holds that Musa drew Bani Israel out and pulled them away from Pharaoh, from their materialism and from his disbelief in God, just as the angels draw out and extract the souls of believers and disbelievers from their bodies {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep10 00:37:00}.
+
+He mentions that the sacred valley is named Tuwa, and suggests that God may have sanctified it again and again throughout history, so that it is a sacred tract of land {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep10 00:37:30}.
+
+He says that when Musa left his family it was winter, and he saw a fire, so he told them he would bring them a brand from it or find guidance there, and he was glad when he found the fire {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep10 00:38:00}.
+
+He mentions that Musa was lost in the Sinai desert and wanted someone to show him the way to Egypt, and found the fire moving: when he moved it moved ahead of him and when he stopped it stopped, so he knew the matter was not natural, and then the fire entered a thorn bush with large thorns of the kind that grows in the Sinai desert {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep10 00:38:30}.
+
+He says that the fire entered the dry tree and lit all of it without burning it, and he mentions that he visited Mount Tur and felt a strange awe when he called the history to mind {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep10 00:39:00}.
+
+He says that Musa was called from the right bank of the valley, in the blessed spot by the tree, that God is the Lord of the worlds, and then points out that elsewhere the Qur'an told the Prophet that he was not on the western side {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep10 00:39:30}.
+
+He mentions that Musa was told to take off his sandals in the sacred valley of Tuwa, saying that the place is holy and so wearing sandals does not suit it, and that God knows best the wisdom in that {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep10 00:40:00}.
+
+He says that God called him, holds that among the conditions of prophethood is fatana, meaning intelligence and eloquence, and asks how a messenger could be inarticulate; hence Musa asked that his brother Harun, who was more fluent of tongue, help him {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep10 00:43:00}.
+
+The Sheikh holds that a tongue free of an outward defect in the letters is among the conditions of prophethood, explains what was in Musa's speech by the awe of conversing with God, and likens it to a small child who has heard about a famous scholar and becomes flustered before him as he tests him on the Qur'an {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep10 00:43:30}.
+
+He says that the child, in his confusion, may forget the Fatiha in front of the examiner, and in the same way Musa stumbled before the majesty of God {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep10 00:44:00}.
+
+He says that Musa is the only prophet whom his Lord spoke to, that his halting speech came from the splendour and majesty of the occasion, and he cites al-Husayn, who had an endearing lisp (needs_source) {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep10 00:44:30}.

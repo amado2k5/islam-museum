@@ -33,3 +33,19 @@ Umar ibn Abd al-Aziz was the pious Umayyad caliph often remembered as the fifth 
 
 ## For Scholars
 Abu Hafs Umar ibn Abd al-Aziz (61–101 AH / 681–720 CE), the eighth Umayyad caliph, universally acclaimed for his justice and piety, widely celebrated as the fifth Rightly Guided Caliph and the first historical renewer (mujaddid) of Islam. Raised and educated in Medina among master traditionists, he succeeded to the caliphate in 99 AH (717 CE) and instituted sweeping moral and structural reforms: returning expropriated lands to the state treasury, dismissing corrupt governors, abolishing the jizya tax on converts, and officially ordering the first systematic state codification of Hadith under Ibn Shihab al-Zuhri.
+
+## From Sheikh Omar Abdelkafy's Tafsir lectures (episode 09)
+
+The Sheikh relates that the Umayyads put poison in the food of Umar ibn Abd al-Aziz after they had grown weary of his conduct toward them, and that when he knew the end was near he told his wife Fatima to leave the room (needs_source) {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep09 00:18:30}.
+
+He says that he told her he saw faces in the room that were neither human nor jinn, who neither eat nor drink and love only a sweet fragrance and the remembrance of God, and that Fatima went out but did not wish to miss those historic moments (needs_source) {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep09 00:19:00}.
+
+He then recounts that a shepherd in the desert, not knowing that Umar had died, said that the wolves had attacked the sheep, and the Sheikh concludes that the presence of righteous people is a security for the earth (needs_source) {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep09 00:19:30}.
+
+He relates that Fatima put her ear to the door and heard him welcoming Adam, father of mankind, then Nuh, then Ibrahim, then Musa, one after another (needs_source) {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep09 00:21:00}.
+
+He adds that Umar welcomed Isa and the Prophet, then welcomed the angel of death as a visitor who had come at an appointed time, then pronounced the two testimonies and his soul departed (needs_source) {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep09 00:21:30}.
+
+He tells how Umar ibn Abd al-Aziz, on entering the mosque, stepped on a man's foot, and the man jumped up in fright and seized the Commander of the Faithful by the collar (needs_source) {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep09 00:32:00}.
+
+He says the man asked him, are you blind, and Umar answered no; the members of his retinue wanted to discipline the man, but Umar said he had only asked him a question and he had answered it; the Sheikh then moves on to al-Hasan al-Basri, saying that his fame spread across the horizons (needs_source) {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep09 00:32:30}.
