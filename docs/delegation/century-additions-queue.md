@@ -1028,11 +1028,11 @@ lists' own order. Status markers: [ ] queued · [~] in a writer's hands · [x] m
 - [x] Sultan Kenadid (1845–1929)
 - [x] Ali Yusuf Kenadid (1880–1940)
 - [x] Sheikh Mukhtar al-Kunti (1729–1811)
-- [ ] Seku Amadu (1776–1845)
-- [ ] Ba Lobbo (1820–1890)
-- [ ] Mamadou Lamine Dramé (1840–1887)
-- [ ] Lat Dior (1842–1886)
-- [ ] Alboury Ndaye (1845–1901)
+- [x] Seku Amadu (1776–1845)
+- [x] Ba Lobbo (1820–1890)
+- [x] Mamadou Lamine Dramé (1840–1887)
+- [x] Lat Dior (1842–1886)
+- [x] Alboury Ndaye (1845–1901)
 - [ ] Alpha Yaya Diallo (1830–1912)
 - [ ] Almamy Suluku (1820–1906)
 - [ ] Bai Bureh (1840–1908)
@@ -1786,7 +1786,7 @@ lists' own order. Status markers: [ ] queued · [~] in a writer's hands · [x] m
 - [ ] Muhammad al-Kanemi — 1776–1837
 - [ ] Sulayman Bal — 1730–1775
 - [ ] Abdul Kader Kane — 1745–1806
-- [ ] Seku Amadu (Amadu Lobbo) — 1776–1845
+- [x] Seku Amadu (Amadu Lobbo) — 1776–1845
 - [ ] Karamokho Alfa — 1700–1751
 - [ ] Ibrahim Sori — 1725–1784
 - [ ] Shah Abdul Aziz Dehlawi — 1746–1824
