@@ -119,7 +119,7 @@ function init() {
       disarm();
       try {
         const exact = new Set(rules.filter((r) => !r.rule.startsWith("prefix")).map((r) => r.key));
-        const prefixes = rules.filter((r) => r.rule.startsWith("prefix")).map((r) => r.key).concat(["edu-study:"]);
+        const prefixes = rules.filter((r) => r.rule.startsWith("prefix")).map((r) => r.key).concat(["edu-study:", "edu-practice:", "edu-dilemma:", "edu-detective:"]);
         for (const k of keys()) if (exact.has(k) || prefixes.some((p) => k.startsWith(p))) localStorage.removeItem(k);
         localStorage.removeItem(PP); localStorage.removeItem(SRS);
       } catch { /* storage unavailable */ }

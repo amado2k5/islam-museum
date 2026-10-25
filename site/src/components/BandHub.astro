@@ -20,8 +20,8 @@ const withStamps = band.activities.filter((a) => a.stamps.length > 0);
 const pose = band.id === "sprouts" ? "greet" : band.id === "explorers" ? "greet" : "think";
 const size = band.id === "sprouts" ? 160 : band.id === "explorers" ? 130 : 90;
 const crumbLabel = lang === "ar" ? "مسار التنقل" : lang === "ur" ? "راہ نما" : "breadcrumb";
-const nextHref = band.next ? (band.next.wing === "shabab" ? `/${lang}/learn/trails/` : band.next.hub) : `/${lang}/`;
-const nextReady = band.next ? band.next.wing !== "shabab" : false;
+const nextHref = band.next ? (band.next.wing === "shabab" ? `/${lang}/shabab/` : band.next.hub) : `/${lang}/`;
+const nextReady = band.next !== null;
 ---
 <div class={`kids band-hub band-${band.id}`}>
   <nav aria-label={crumbLabel} class="crumbs">
