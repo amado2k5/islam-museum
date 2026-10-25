@@ -202,7 +202,7 @@ lists' own order. Status markers: [ ] queued · [~] in a writer's hands · [x] m
 - [ ] Fatima Meer — 1928–2010
 - [ ] Amina Cachalia — 1930–2013
 - [ ] Yusuf Dadoo — 1909–1983
-- [ ] Zakir Naik — 1965–Living
+- [x] Zakir Naik — 1965–Living
 - [ ] Dr. Israr Ahmed — 1932–2010
 - [ ] Dr. Tahir-ul-Qadri — 1951–Living
 - [ ] Javed Ahmad Ghamidi — 1951–Living
@@ -1721,3 +1721,196 @@ lists' own order. Status markers: [ ] queued · [~] in a writer's hands · [x] m
 - [ ] Ibn Zuhr (Avenzoar) (1094–1162) — the museum holds his father and his son, but not Avenzoar himself.
 - [ ] Ibn Mada' (1116–1196)
 - [ ] Terken Khatun (1155–1233) — Khwarazmian empress mother; NOT the museum's turkan-khatun (Malik-Shah I's wife).
+
+## F. 1026–1125 additions (3)
+
+- [ ] Al-Zarqali (Arzachel) — 1029–1087
+- [ ] Ibn Abdun — 1070–1134
+- [ ] Abu'l-Fadl Bayhaqi — 995–1077
+
+## G. 1526–1625 additions (36: 33 buildable + 3 excluded)
+
+- [ ] Islam Shah Suri — 1510–1554
+- [ ] Mirza Ghiyas Beg (Itimad-ud-Daulah) — 1540–1622
+- [ ] Asaf Khan IV — 1569–1641
+- [ ] Khan Zaman Ali Quli Khan — 1520–1567
+- [ ] Muqarrab Khan — 1570–1646
+- [ ] Sultan Salima Sultan Begum — 1539–1613
+- [ ] Sinan Reis — 1470–1546
+- [ ] Shah Mohammad Khodabanda — 1532–1595
+- [ ] Shah Abbas the Great (Abbas I) — 1571–1629
+- [ ] Askia Muhammad I (Askia the Great) — 1443–1538
+- [ ] Askia Dawud — 1549–1582
+- [ ] Askia Ishaq II — 1550–1595
+- [ ] Sultan Ali Mughayat Syah — 1480–1530
+- [ ] Sultan Alaudin Riayat Syah of Aceh — 1500–1571
+- [ ] Sultan Iskandar Muda — 1583–1636
+- [ ] Sultan Trenggana of Demak — 1483–1546
+- [ ] Maulana Yusuf of Banten — 1526–1570
+- [ ] Panembahan Ratu — 1540–1650 (CSV lifespan suspect; verify at build)
+- [ ] Sultan Alauddin of Gowa — 1587–1639
+- [ ] Muhammad Shaybani — 1451–1510
+- [ ] Ubaydullah Khan of Bukhara — 1487–1539
+- [ ] Abdullah Khan II — 1533–1598
+- [ ] Mulla Shah Badakhshi — 1584–1661
+- [ ] Ala al-Dawla Simnani's successors — collective/lineage row (1500–1570); resolve subject at build time
+- [ ] Sunan Bonang — 1465–1525
+- [ ] Sunan Giri — 1442–1506
+- [ ] Sunan Muria — 1500–1560
+- [ ] Sunan Drajat — 1470–1522
+- [ ] Yahya Bey Dukaginzade — 1498–1582
+- [ ] Nev'î — 1533–1599
+- [ ] Sadeqi Beg — 1533–1610
+- [ ] Mir Imad Hasani — 1554–1615
+- [ ] Leo Africanus (Al-Hassan al-Wazzan) — 1494–1554
+- EXCLUDED (pending Ahmad's direction; the rows themselves identify Hindu courtiers of Akbar, cf. the Hasdai precedent): Raja Todar Mal — 1500–1589; Tansen (Ramtanu Pandey) — 1506–1589; Birbal (Mahesh Das) — 1528–1586
+
+## H. 1426–1525 additions (20)
+
+- [ ] Kamal al-Din Behzad — 1450–1535
+- [ ] Khondamir — 1475–1535
+- [ ] Ulubatlı Hasan — 1428–1453
+- [ ] Akşemseddin — 1389–1459
+- [ ] Molla Hüsrev — 1400–1480
+- [ ] Necati — 1450–1509
+- [ ] Şeyhi — 1376–1431
+- [ ] Ahmed Pasha (the poet) — 1426–1497
+- [ ] Mahmud Shah Sharqi — 1420–1458
+- [ ] Hussain Shah Sharqi — 1440–1505
+- [ ] Sultan Zain-ul-Abidin — 1420–1470
+- [ ] Rustam Beg — 1465–1497
+- [ ] Sultan Muzaffar Shah of Malacca — 1400–1459
+- [ ] Sultan Mansur Shah of Malacca — 1430–1477
+- [ ] Sultan Mahmud Shah of Malacca — 1480–1528
+- [ ] Tun Perak — 1410–1498
+- [ ] Sonni Ali Ber — 1440–1492
+- [ ] Askia Muhammad I (Askia the Great) — 1443–1538 (also in §G — build once)
+- [ ] Guru Nanak — 1469–1539 (flagged: the list itself annotates him a contemporary interaction, founder of Sikhism — kept per the modern-list honoured-contemporary precedent; Ahmad may strike)
+- [ ] Kabir Das — 1398–1518 (flagged: syncretic mystic poet claimed by multiple traditions — kept per the same precedent; Ahmad may strike)
+
+## I. 826–925 additions (2 rows, 4 persons)
+
+- [ ] Al-Ya'qubi — 812–897
+- [ ] Banu Musa brothers — Muhammad ibn Musa ibn Shakir (805–873), Ahmad ibn Musa ibn Shakir, al-Hasan ibn Musa ibn Shakir (one CSV row; build as three person records)
+
+## J. 1726–1825 additions (51)
+
+- [ ] Usman dan Fodio — 1754–1817
+- [ ] Muhammad Bello — 1781–1837
+- [ ] Nana Asma'u — 1793–1864 (also in §B — in build now, build once)
+- [ ] Muhammad al-Kanemi — 1776–1837
+- [ ] Sulayman Bal — 1730–1775
+- [ ] Abdul Kader Kane — 1745–1806
+- [ ] Seku Amadu (Amadu Lobbo) — 1776–1845
+- [ ] Karamokho Alfa — 1700–1751
+- [ ] Ibrahim Sori — 1725–1784
+- [ ] Shah Abdul Aziz Dehlawi — 1746–1824
+- [ ] Shah Rafiuddin Dehlawi — 1749–1818
+- [ ] Hyder Ali — 1721–1782
+- [ ] Mir Qasim — 1730–1777
+- [ ] Shah Alam II — 1728–1806
+- [ ] Emperor Ahmad Shah Bahadur — 1725–1775
+- [ ] Akbar II — 1760–1837
+- [ ] Bahadur Shah Zafar — 1775–1862
+- [ ] Nawab Asaf-ud-Daula — 1748–1797
+- [ ] Nawab Shuja-ud-Daula — 1732–1775
+- [ ] Mir Nizam Ali Khan (Asaf Jah II) — 1734–1803
+- [ ] Nawab Wajid Ali Shah — 1822–1887
+- [ ] Haji Shariatullah — 1781–1840
+- [ ] Mir Taqi Mir — 1723–1810
+- [ ] Khwaja Mir Dard — 1721–1785
+- [ ] Nazir Akbarabadi — 1735–1830
+- [ ] Insha Allah Khan Insha — 1756–1817
+- [ ] Bulleh Shah — 1680–1757
+- [ ] Waris Shah — 1722–1798
+- [ ] Imam Abdulaziz ibn Muhammad — 1720–1803
+- [ ] Imam Saud ibn Abdulaziz — 1748–1814
+- [ ] Jazzar Pasha (Ahmad al-Jazzar) — 1720–1804
+- [ ] Ali Bey al-Kabir — 1728–1773
+- [ ] As'ad Pasha al-Azm — 1706–1758
+- [ ] Sheikh Abdullah al-Sharkawi — 1737–1812
+- [ ] Sheikh Hassan al-Attar — 1766–1835
+- [ ] Karim Khan Zand — 1705–1779
+- [ ] Lotf Ali Khan Zand — 1769–1794
+- [ ] Fath-Ali Shah Qajar — 1772–1834
+- [ ] Abbas Mirza — 1789–1833
+- [ ] Mirza Abul-Qasem Ghaem-Magham Farahani — 1779–1835
+- [ ] Sultan Moulay Ismail — 1645–1727
+- [ ] Sultan Mohammed ben Abdallah (Mohammed III) — 1710–1790
+- [ ] Sultan Moulay Slimane — 1766–1822
+- [ ] Dey Hussein — 1765–1838
+- [ ] Raja Haji Fisabilillah — 1727–1784
+- [ ] Sultan Hamengkubuwono I — 1717–1792
+- [ ] Mangkunegara I (Raden Mas Said) — 1725–1795
+- [ ] Qırım Giray — 1717–1769
+- [ ] Sheikh Mansur (Ushurma) — 1760–1794
+- [ ] Timur Shah Durrani — 1748–1793
+- [ ] Liu Zhi — 1660–1739
+
+## K. 626–725 additions (0)
+
+All 52 real names in the 3,000-name list are already in the museum; the remaining 2,948 rows are placeholders naming nobody.
+
+## L. 726–825 additions (0)
+
+All 34 real names in the list are already in the museum; the remaining 966 rows are placeholders naming nobody.
+
+## M. 1626–1725 additions (57)
+
+- [ ] Emperor Muhammad Shah — 1702–1748
+- [ ] Prince Murad Baksh — 1624–1661
+- [ ] Princess Jahanara Begum — 1614–1681
+- [ ] Princess Roshanara Begum — 1617–1671
+- [ ] Princess Zeb-un-Nissa — 1638–1702
+- [ ] Nawab Shaista Khan — 1600–1694
+- [ ] Mir Jumla II — 1591–1663
+- [ ] Asad Khan — 1625–1716
+- [ ] Mahabat Khan II — 1610–1678
+- [ ] Ali Mardan Khan — 1590–1657
+- [ ] Ustad Ahmad Lahori — 1580–1649
+- [ ] Mohammad Salih Kanbu — 1608–1675
+- [ ] Inayat Khan (Abul Fazl's successor chronicler) — 1603–1671
+- [ ] Sa'adullah Khan — 1590–1656
+- [ ] Danishmand Khan — 1625–1670
+- [ ] Shah Abbas II — 1632–1666
+- [ ] Mirza Muhammad Tahir Nasab — 1630–1700
+- [ ] Mir Findesiri — 1563–1640
+- [ ] Qazi Sa'id Qomi — 1633–1692
+- [ ] Jamal al-Din Khwansari — 1651–1711
+- [ ] Mohammad-Saleh Khwansari — 1620–1688
+- [ ] Sayyid Nezam al-Din Ahmad — 1610–1675
+- [ ] Sultan Suleiman II — 1642–1691
+- [ ] Kâtip Çelebi (Hacı Halife) — 1609–1657
+- [ ] Nâbî — 1642–1712
+- [ ] Nef'î — 1589–1635
+- [ ] Neşâtî — 1600–1674
+- [ ] Hoca İshak Efendi — 1690–1750 (CSV annotation suggests conflation with the d. 1834 namesake; resolve identity at build)
+- [ ] Mustafa Nâbî — 1642–1712 (identical years to Nâbî above — probable CSV duplicate of one person; verify at build, build once if so)
+- [ ] Şeyhülislam Yahya Efendi — 1553–1644
+- [ ] Abdurrahman Hibri Efendi — 1604–1659
+- [ ] Müneccimbaşı Ahmed Dede — 1631–1702
+- [ ] Sultan Al-Rashid of Morocco — 1631–1672
+- [ ] Sultan Mohammed ibn al-Sharif — 1630–1664
+- [ ] Ahmad ibn Mubarak al-Lamti — 1670–1743
+- [ ] Muhammad al-Mahdi al-Fasi — 1624–1698
+- [ ] Historian Al-Ifrani (Ahmed al-Mansur's successors row) — 1670–1747
+- [ ] Murad III Bey — 1640–1702
+- [ ] Muhammad Bey al-Muradi — 1655–1696
+- [ ] Hussein ben Ali al-Turki — 1669–1735
+- [ ] Sultan Haji of Banten — 1639–1687
+- [ ] Sultan Amangkurat I of Mataram — 1619–1677
+- [ ] Sultan Amangkurat II — 1645–1703
+- [ ] Sultan Amangkurat III — 1669–1734
+- [ ] Pakubuwono I — 1648–1719
+- [ ] Trunojoyo — 1649–1680
+- [ ] Untung Surapati — 1660–1706
+- [ ] Sultan Iskandar Thani — 1610–1641
+- [ ] Sultan Taj al-Alam (female ruler of Aceh) — 1613–1699
+- [ ] Abd al-Ra'uf al-Singkili — 1615–1693
+- [ ] Dato Ri Bandang — 1570–1640
+- [ ] Sultan Kudarat — 1581–1671
+- [ ] Subhan Quli Khan of Bukhara — 1633–1702
+- [ ] Ubaydullah Khan of Bukhara — 1675–1711 (NOT the §G Shaybanid of the same name, 1487–1539)
+- [ ] Anusha Khan of Khiva — 1630–1687
+- [ ] Erekle I of Kakheti (Nazar Ali Khan) — 1642–1709
+- [ ] Shah Quli Khan — 1650–1720

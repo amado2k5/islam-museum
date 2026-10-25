@@ -1,0 +1,38 @@
+id: person/ahmad-al-shugairi
+class: person
+label: { ar: "أحمد الشقيري", en: "Ahmad Al Shugairi", ur: "احمد شقیری" }
+names:
+  - { value: "أحمد مازن أحمد أسعد الشقيري", kind: full }
+  - { value: "Ahmad Mazin Ahmad Asaad Al Shugairi", kind: full }
+gender: male
+summary:
+  ar: "إعلامي وكاتب ومقدم برامج سعودي، وُلد في جدة سنة 1973. اشتهر بسلسلة «خواطر» التي عُرضت في أحد عشر موسمًا رمضانيًا (2005–2015)، وسبقها ببرنامج «يلا شباب» سنة 2002، وله مشروعات ثقافية وتطوعية منها مقهى أندلسية الثقافي وموقع ثقافة وشبكة إحسان."
+  en: "Saudi media presenter, writer and television host, born in Jeddah in 1973. He is best known for Khawater (Reflections), which ran for eleven Ramadan seasons (2005–2015), after his start on Yalla Shabab in 2002; his cultural and volunteering projects include the Andalusiya cultural café, the Thaqafa website and the Ihsan network."
+  ur: "سعودی میڈیا پیش کار، مصنف اور ٹیلی ویژن میزبان، جو 1973 میں جدہ میں پیدا ہوئے۔ وہ «خواطر» سلسلے کے لیے مشہور ہیں جو رمضان کے گیارہ سیزن (2005–2015) چلی، اس سے پہلے 2002 میں «یلا شباب» سے آغاز کیا؛ ان کے ثقافتی و رضاکارانہ منصوبوں میں اندلسیہ ثقافتی کیفے، ثقافہ ویب سائٹ اور احسان نیٹ ورک شامل ہیں۔"
+roles: [presenter, writer]
+wings: [people, living]
+born:
+  edtf: "1973-06-06"
+  hijri: "1393"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "Born at Jeddah on 6 June 1973, from the Arabic Wikipedia article and Wikidata Q4119651; the Hijri year (1393) is a converter derivation from that date. An older English profile (Alchetron, mirroring an earlier revision) gives 19 July 1973; the 6 June date is the one carried by the Arabic article and Wikidata and is the date recorded."
+  sources: [source/wikipedia-ahmad-al-shugairi-ar, source/wikidata-ahmad-al-shugairi]
+relations:
+  - { type: born_in, target: place/jeddah, sources: [source/wikipedia-ahmad-al-shugairi-ar, source/wikidata-ahmad-al-shugairi] }
+  - { type: lived_in, target: place/jeddah, sources: [source/wikipedia-ahmad-al-shugairi-ar] }
+faith:
+  - value: unknown
+    basis: unknown
+    note: "No source names a school for him. The Arabic article's infobox gives his religion as Islam only, and Wikidata likewise gives only Islam. He presents himself, in the line that opened his programmes, as 'not a scholar, not a mufti and not a jurist, but a student of knowledge'. Not recorded as sunni."
+    sources: [source/wikipedia-ahmad-al-shugairi-ar, source/wikidata-ahmad-al-shugairi]
+external_ids: { wikidata: "Q4119651" }
+sources: [source/wikipedia-ahmad-al-shugairi-ar, source/wikidata-ahmad-al-shugairi]
+provenance:
+  layer: own-research
+  source: "Arabic Wikipedia article «أحمد مازن الشقيري» and Wikidata Q4119651, as cited in those pages and checked 24 October 2026. No canonical English Wikipedia article was retrieved in this pass (an older mirrored revision circulates on Alchetron and gives a conflicting birth date, 19 July 1973, which is noted in the born block rather than used). No Wikidata religion statement beyond Islam exists, and no source names a school."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: modern-figures-batch-6
+status: { review: published, completeness: 3, generated_by: "Muse (Muse Spark 1.3)" }
