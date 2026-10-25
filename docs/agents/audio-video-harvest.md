@@ -160,4 +160,6 @@ A recording counts as **completed** only when its claims have passed the verific
 | Doubts | count of `needs_source` annotations and dropped lines |
 | Commit | the commit or PR that carries it |
 
+Every dropped or excluded item is listed under "Excluded items" in the lane's progress file, with the reason, the gate it failed and its override status. Nothing is re-entered without the founder's written authorisation.
+
 Recordings that are downloaded or transcribed but not yet completed are listed separately with their status. Nothing is counted as completed on the strength of a transcript alone.
