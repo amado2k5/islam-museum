@@ -58,3 +58,7 @@ The dower belongs to the wife to use as she wishes; furnishing the house is the 
 
 ## Dower in fatal illness
 A man who marries in his last illness may do so at the proper dower, and if he owes debts she shares among the creditors. An excess over the proper dower is a gift to an heir that needs the heirs' consent, according to the Hanafis and Hanbalis; the Shafi'is and Malikis separate the case of the wife's death from the husband's. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.15176} {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.15177} {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.15178}
+
+## Sheikh Omar Abdelkafy's view
+He holds that the deferred dower is a debt on the husband that must be paid during his life, and that the common view that it falls due only at divorce or death is mistaken. {cite:assabile-omar-abdelkafy aadau-al-islam/ep02 00:26:00} {cite:assabile-omar-abdelkafy aadau-al-islam/ep02 00:27:00}
+He criticises fathers who ask for a large deferred dower to push the husband into divorce. {cite:assabile-omar-abdelkafy aadau-al-islam/ep02 00:26:30} The juristic rules in the sections above stand; this section records the speaker's view.

@@ -18,3 +18,11 @@ Ka'b said part of his repentance was to strip off his wealth as alms — the Pro
 
 ## Sha'rawi on repentance and society
 Sha'rawi holds that Abraham and Isma'il asked repentance for their descendants because they knew those who came after would sin, and that the law of repentance protects the whole society: if a single sin left the sinner in the Fire forever with no repentance, sinners would grow bolder and people would despair of their salvation. He cites the hadith that every child of Adam errs and the best of those who err are those who repent. {cite:tafsir-sharawi-khawatir-scan-pp-501-1000 p.588}
+
+## Sheikh Omar Abdelkafy's account
+He explains the narration that God extends His hand by night to forgive the one who sinned by day, and by day to forgive the one who sinned by night. {cite:assabile-omar-abdelkafy aadau-al-islam/ep04 00:04:00} He says paradise is surrounded by hardships and the Fire by desires. {cite:assabile-omar-abdelkafy aadau-al-islam/ep04 00:04:30}
+He distinguishes the repentant who stays steady and is excused for minor lapses from the one who repents with his body but not his heart and returns to sin. {cite:assabile-omar-abdelkafy aadau-al-islam/ep04 00:05:00} {cite:assabile-omar-abdelkafy aadau-al-islam/ep04 00:05:30}
+He describes a third kind who avoids being reminded of God and flees correction about his sin (needs_source: the wording of this passage is not clear in the automatic transcript). {cite:assabile-omar-abdelkafy aadau-al-islam/ep04 00:06:00}
+He warns against delaying repentance: death does not wait, and no one can bring it forward or push it back by a moment. {cite:assabile-omar-abdelkafy aadau-al-islam/ep04 00:12:00} {cite:assabile-omar-abdelkafy aadau-al-islam/ep04 00:12:30} Only good deeds benefit a person in the grave. {cite:assabile-omar-abdelkafy aadau-al-islam/ep04 00:13:00}
+He says that if a servant sins and regrets it, even for the blink of an eye, the sin falls away. {cite:assabile-omar-abdelkafy aadau-al-islam/ep04 00:14:30}
+He says that the first duty of repentance is to return rights to their owners, and that returning to the truth is better than persisting in falsehood. {cite:assabile-omar-abdelkafy aadau-al-islam/ep04 00:16:30} {cite:assabile-omar-abdelkafy aadau-al-islam/ep04 00:18:30}
