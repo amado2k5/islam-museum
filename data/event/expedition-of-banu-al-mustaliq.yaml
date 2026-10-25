@@ -1,4 +1,10 @@
 id: event/expedition-of-banu-al-mustaliq
+education:
+  did_you_know:
+    ar: "في شعبان ٦هـ خرج النبي إلى بني المصطلق على ماء المريسيع؛ وتزوج برة بنت الحارث (جويرية) فأعتق المسلمون مائة أهل بيت إكراماً لأصهاره."
+    en: "In Sha'ban of year 6 the Prophet marched on Banu al-Mustaliq at al-Muraysi' spring; he then wed Barra bint al-Harith (Juwayriyya), and the Muslims freed a hundred households in honour of his in-laws."
+    ur: "سن ۶ھ شعبان میں نبی مریسیع کے چشمے پر بنو مصطلق پر چلے؛ پھر انہوں نے برہ بنت حارث (جویریہ) سے نکاح کیا اور مسلمانوں نے ان کے سسرالیوں کے اعزاز میں سو گھرانے آزاد کیے۔"
+    sources: [source/mubarakpuri-raheeq, source/ibn-hisham-sira]
 class: event
 kind: skirmish
 label: { en: "The Expedition of Banu al-Mustaliq (al-Muraysi')", ar: "غزوة بني المصطلق (المريسيع)" }
@@ -28,3 +34,9 @@ sides:
 external_ids: { wikidata: "Q2038331" }
 sources: [source/mubarakpuri-raheeq, source/ibn-hisham-sira, source/zad-al-maad, source/sahih-al-bukhari]
 status: { review: draft, completeness: 2, generated_by: "Devin; al-Raheeq al-Makhtum pp. 325–327" }
+provenance:
+  layer: own-research
+  source: "source/mubarakpuri-raheeq"
+  generated_by: Devin
+  model: "unknown"
+  run: "education-E3-facts-batch9"

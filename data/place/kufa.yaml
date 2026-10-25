@@ -1,4 +1,10 @@
 id: place/kufa
+education:
+  did_you_know:
+    ar: "الكوفة مدينة حامية أُسست نحو سنة ٦٣٨م وصارت مقر خلافة علي؛ وكتب عمر أن أهلها «رمح الله وكنز الإيمان وجمجمة العرب»."
+    en: "Kufa, the garrison city founded around 638 CE, became Ali ibn Abi Talib's capital; Umar wrote of its people as 'God's lance, the treasury of faith, and the Arabs' skull'."
+    ur: "کوفہ، تقریباً 638ء میں بنائی گئی گیریزن شہر، علی بن ابی طالب کے خلافت کا دارالحکومت بنا؛ عمر نے اس کے لوگوں کو «اللہ کا نیزہ، ایمان کا خزانہ اور عرب کی کھوپڑی» لکھا۔"
+    sources: [source/futuh-buldan-maarif-1407, source/muruj-al-dhahab]
 class: place
 kind: city
 label: { en: "Kufa", ar: "الكوفة" }
@@ -12,3 +18,9 @@ coordinate_precision: site
 external_ids: { geonames: "99135" }
 sources: [source/muntazam-ibn-al-jawzi, source/geonames-gazetteer, source/muruj-al-dhahab, source/bakr-umayyad-state-1134715]
 status: { review: draft, completeness: 1, generated_by: "Claude Sonnet 5.5; coordinates from GeoNames; descriptive facts to be checked against reference works" }
+provenance:
+  layer: own-research
+  source: "source/futuh-buldan-maarif-1407"
+  generated_by: Devin
+  model: "unknown"
+  run: "education-E3-facts-batch9"

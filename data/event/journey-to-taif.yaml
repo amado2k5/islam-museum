@@ -1,4 +1,10 @@
 id: event/journey-to-taif
+education:
+  did_you_know:
+    ar: "في شوال سنة ١٠ من النبوة خرج النبي ماشياً إلى الطائف يلتمس النصرة من ثقاف فردّه رؤساؤها، فدعا في بستان ابني ربيعة وأسلم عداس، واستمعت الجن للقرآن في وادي نخلة."
+    en: "In Shawwal of year 10 the Prophet walked to al-Ta'if seeking Thaqif's support; its chiefs refused him, he prayed in the Rabi'a brothers' orchard, Addas embraced Islam, and jinn heard the Qur'an at Nakhlah's valley."
+    ur: "نبوت کے دسویں سال شوال میں نبی پیدل طائف گئے ثقیف کی نصرت چاہتے ہوئے؛ سرداروں نے انکار کیا، ربیعہ کے باغ میں دعا کی، عداس مسلمان ہوا اور نخلہ میں جنوں نے قرآن سنا۔"
+    sources: [source/mubarakpuri-raheeq, source/ibn-hisham-sira]
 class: event
 kind: other
 label: { en: "The Prophet's journey to al-Ta'if", ar: "خروج النبي إلى الطائف" }
@@ -22,3 +28,9 @@ relations:
   - { type: caused_by, target: event/year-of-sorrow }
 sources: [source/mubarakpuri-raheeq, source/ibn-hisham-sira, source/zad-al-maad, source/sahih-al-bukhari, source/al-isra-wal-miraj-dar-al-jeel-2003]
 status: { review: draft, completeness: 2, generated_by: "Devin; al-Raheeq al-Makhtum pp. 125-130" }
+provenance:
+  layer: own-research
+  source: "source/mubarakpuri-raheeq"
+  generated_by: Devin
+  model: "unknown"
+  run: "education-E3-facts-batch9"

@@ -1,0 +1,49 @@
+id: person/hawa-abdi
+class: person
+label: { ar: "حواء عبدي", en: "Hawa Abdi", ur: "حوا عبدی" }
+names:
+  - { value: "Hawa Abdi Dhiblawe", kind: full }
+  - { value: "حواء عبدي", kind: full }
+  - { value: "Xaawo Cabdi", kind: alternate }
+  - { value: "Mama Hawa", kind: laqab }
+gender: female
+summary:
+  ar: "طبيبة صومالية ومدافعة عن حقوق الإنسان (17 مايو 1947 – 5 أغسطس 2020)، من أوائل طبيبات النساء والتوليد في الصومال، وحاصلة أيضًا على شهادة في القانون. أسّست سنة 1983 عيادة صغيرة على أرض أسرتها صارت مستشفى من 400 سرير ومركز مجمّع يأوي النازحين؛ وفي ذروة جفاف 2011 آوى مخيم مؤسستها نحو 90 ألف شخص. واجهت حصار الميليشيات المسلحة ورفضت إغلاق مجمّعها، ورُشّحت لجائزة نوبل للسلام سنة 2012، وتوفيت في مقديشو سنة 2020. تُعرف بلقب ماما حوا."
+  en: "Somali physician and human rights activist (17 May 1947 – 5 August 2020), one of Somalia's first female obstetricians and gynaecologists, who also earned a law degree. In 1983 she founded a one-room clinic on family land that grew into a 400-bed hospital and a compound sheltering the displaced; at the height of the 2011 drought her foundation's camp housed some 90,000 people. She faced down armed militants who besieged the compound and refused to close it, was nominated for the Nobel Peace Prize in 2012, and died in Mogadishu in 2020. She was known as Mama Hawa."
+  ur: "صومالی طبیبہ اور انسانی حقوق کی وکیل (17 مئی 1947ء – 5 اگست 2020ء)، صومالیہ کی پہلی خواتین ماہرینِ امراضِ نسواں میں سے ایک، جنھوں نے قانون کی ڈگری بھی حاصل کی۔ 1983ء میں انھوں نے خاندانی زمین پر ایک کمرے کا کلینک قائم کیا جو 400 بستروں کے اسپتال اور بے گھر افراد کی پناہ گاہ میں بدل گیا؛ 2011ء کی قحط سالی میں ان کی فاؤنڈیشن کے کیمپ میں تقریباً 90,000 افراد مقیم تھے۔ انھوں نے مسلح عسکریت پسندوں کے محاصرے کا مقابلہ کیا اور کمپاؤنڈ بند کرنے سے انکار کیا، 2012ء میں نوبل امن انعام کے لیے نامزد ہوئیں، اور 2020ء میں موغادیشو میں انتقال کیا۔ وہ ماما حوا کے نام سے معروف تھیں۔"
+roles: [physician]
+wings: [people]
+born:
+  edtf: "1947-05-17"
+  hijri: "1366"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "Born 17 May 1947 in Mogadishu, as the English Wikipedia article and Wikidata both give it. The Hijri year (1366; 17 May 1947 corresponds to 26 Jumada al-akhira 1366) is derived by tabular conversion."
+  sources: [source/wikipedia-hawa-abdi-en, source/wikidata-hawa-abdi]
+died:
+  edtf: "2020-08-05"
+  hijri: "1441"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "Died 5 August 2020 at her home in Mogadishu, aged 73; the English Wikipedia article, citing the New York Times obituary, records that no cause of death was specified. The Hijri year (1441; 5 August 2020 corresponds to 15 Dhu al-Hijja 1441) is derived by tabular conversion."
+  sources: [source/wikipedia-hawa-abdi-en, source/wikidata-hawa-abdi]
+relations:
+  - { type: born_in, target: place/mogadishu, sources: [source/wikipedia-hawa-abdi-en, source/wikidata-hawa-abdi] }
+  - { type: died_in, target: place/mogadishu, sources: [source/wikipedia-hawa-abdi-en, source/wikidata-hawa-abdi] }
+faith:
+  - value: unknown
+    basis: unknown
+    note: "NOT RECORDED AS DOCUMENTED — no source attests her affiliation with any specific school or path. Wikidata carries no religion (P140) statement for her. She is described generically as a Muslim: Nicholas Kristof's 2010 New York Times column was headlined 'Heroic, Female and Muslim', and in her own memoir, quoted in reporting of the 2010 siege of her compound, she wrote 'My Islam sees women as valued members of society — as equals'. A generic Muslim label names no school, and Somalia's predominantly Sunni-Shafi'i milieu is not an attestation of her own affiliation. Her foundation's stated position, recorded in her article, is that it is 'not affiliated with any government, political movement, religion or clan'. Under the two-source rule and the doubt rule the faith is left unknown."
+    sources: [source/wikidata-hawa-abdi, source/wikipedia-hawa-abdi-en]
+external_ids: { wikidata: "Q3595473" }
+sources: [source/wikipedia-hawa-abdi-en, source/wikidata-hawa-abdi, source/infinite-women-hawa-abdi]
+provenance:
+  layer: own-research
+  source: "English Wikipedia 'Hawa Abdi' and the Infinite Women biography, both read in full on 25 October 2026, and Wikidata Q3595473 (confirmed via the Wikidata API: human, female, born 17 May 1947 in Mogadishu, died 5 August 2020 in Mogadishu, no religion statement). No earlier record for her existed in data/person/ under any spelling; this is a new build, not an enrichment."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: century-additions-14
+status: { review: published, completeness: 3, generated_by: "Muse (Muse Spark 1.3)" }

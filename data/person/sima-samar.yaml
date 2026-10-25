@@ -1,0 +1,37 @@
+id: person/sima-samar
+class: person
+label: { ar: "سیما سمر", en: "Sima Samar", ur: "سیما سمر" }
+names:
+  - { value: "Sima Samar", kind: full }
+  - { value: "سیما سمر", kind: full }
+gender: female
+summary:
+  ar: "طبيبة أفغانية ومدافعة عن حقوق الإنسان، وُلدت في 3 فبراير 1957 في جاغوري بولاية غزني، وحصلت على شهادة الطب من جامعة كابل سنة 1982. فرّت إلى باكستان سنة 1984 بعد اعتقال زوجها واختفائه، وأسّست في كويتا منظمة الشهداء وعيادتها سنة 1989 لخدمة اللاجئات الأفغانيات. صارت أول وزيرة لشؤون المرأة في أفغانستان بعد طالبان (2001–2003)، ورأست اللجنة الأفغانية المستقلة لحقوق الإنسان (2002–2019)، وعملت مقررة خاصة للأمم المتحدة لحقوق الإنسان في السودان (2005–2009)، ونالت جائزة رايت لايفليهود سنة 2012."
+  en: "Afghan physician and human rights advocate, born on 3 February 1957 in Jaghori, Ghazni province, who took her medical degree at Kabul University in 1982. After her husband was arrested and disappeared she fled to Pakistan in 1984, and in Quetta founded the Shuhada Organization and Clinic in 1989 for Afghan refugee women and girls. She became Afghanistan's first post-Taliban Minister of Women's Affairs (2001–2003), chaired the Afghan Independent Human Rights Commission (2002–2019), served as UN Special Rapporteur on human rights in Sudan (2005–2009), and received the Right Livelihood Award in 2012."
+  ur: "افغان طبیبہ اور انسانی حقوق کی وکیل، 3 فروری 1957ء کو غزنی صوبے کے جاغوری میں پیدا ہوئیں اور 1982ء میں کابل یونیورسٹی سے طب کی ڈگری حاصل کی۔ شوہر کی گرفتاری اور گمشدگی کے بعد وہ 1984ء میں پاکستان فرار ہوئیں اور کوئٹہ میں افغان پناہ گزین خواتین کے لیے شہدا آرگنائزیشن اور کلینک قائم کیا (1989ء)۔ وہ طالبان کے بعد افغانستان کی پہلی وزیرِ امورِ خواتین بنیں (2001ء–2003ء)، افغان آزاد انسانی حقوق کمیشن کی سربراہ رہیں (2002ء–2019ء)، سوڈان کے لیے اقوام متحدہ کی خصوصی نمائندہ رہیں (2005ء–2009ء)، اور 2012ء میں رائٹ لائیولی ہڈ ایوارڈ حاصل کیا۔"
+roles: [physician, politician]
+wings: [people, living]
+born:
+  edtf: "1957-02-03"
+  hijri: "1376"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "Born 3 February 1957 in Jaghori, Ghazni province, as the English Wikipedia article, the UN High-Level Panel biography and the International Review of the Red Cross interview all give it. Encyclopedia.com gives 4 February 1957 — a one-day variant, recorded here and not followed. The Hijri year (1376; 3 February 1957 corresponds to 3 Rajab 1376) is derived by tabular conversion."
+  sources: [source/wikipedia-sima-samar-en, source/un-sima-samar-panel, source/encyclopedia-sima-samar]
+relations:
+  - { type: lived_in, target: place/kabul, sources: [source/wikipedia-sima-samar-en] }
+faith:
+  - value: unknown
+    basis: unknown
+    note: "NOT RECORDED AS DOCUMENTED — the attestations do not meet the lane's two-independent-source bar for her own affiliation, so the doubt rule governs. Encyclopedia.com states it as family background: 'Her family is from the Shi'ite Muslim Hazara minority' — a family's affiliation, which the lane rules (the Sami Frashëri near-miss) expressly do not count as the person's own. The U.S. State Department's International Religious Freedom reporting lists her personally among 'Shi'a Hazara' officeholders, but that is a single report series framing her by her ethnic group, and Hazara identity is ethnic and is never by itself converted into a faith segment in this lane. Wikidata gives her religion only as Islam (Q432) generically, naming no school. The evidence is therefore carried here, attributed, and the segment stays unknown; if a second independent source attesting her own Twelver affiliation is found, the Shia-mapping rule would then apply."
+    sources: [source/encyclopedia-sima-samar, source/wikidata-sima-samar, source/wikipedia-sima-samar-en]
+external_ids: { wikidata: "Q262364" }
+sources: [source/wikipedia-sima-samar-en, source/wikidata-sima-samar, source/un-sima-samar-panel, source/encyclopedia-sima-samar]
+provenance:
+  layer: own-research
+  source: "English Wikipedia 'Sima Samar', the UN Secretary-General's High-Level Panel on Internal Displacement biography, and Encyclopedia.com's 'Samar, Sima (1957–)', all read in full on 25 October 2026, and Wikidata Q262364 (confirmed via the Wikidata API: human, female, born 3 February 1957, places of birth Jaghori District and Ghazni, religion Islam generically). No earlier record for her existed in data/person/ under any spelling; this is a new build, not an enrichment. She is a different person from Samar Mubarakmand, who appears separately in the founder's queue."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: century-additions-14
+status: { review: published, completeness: 3, generated_by: "Muse (Muse Spark 1.3)" }

@@ -1,4 +1,10 @@
 id: place/sanaa
+education:
+  did_you_know:
+    ar: "صنعاء عاصمة اليمن، اسمها القديم أزال عند الزجاجي، وعدّها المقدسي من طيبات الهواء، وذكر الهمداني فيها غمدان والقليس آيتيها العظيمتين."
+    en: "Sana'a, Yemen's capital — its ancient name was Azal per al-Zajjaji — is counted by al-Muqaddasi among the sweetest of airs; al-Hamdani names Ghumdan and the Qalis its two great marvels."
+    ur: "صنعاء، یمن کا دارالحکومت — زجاجی کے مطابق قدیم نام ازال تھا — مقدسی اسے پاکیزہ ہواؤں میں شمار کرتا ہے؛ ہمدانی اس کے دو عظیم آثار غمدان اور قلیس گنتا ہے۔"
+    sources: [source/ahsan-al-taqasim, source/sifat-jazirat-al-arab]
 class: place
 kind: city
 label: { en: "Sana'a", ar: "صنعاء" }
@@ -12,3 +18,9 @@ coordinate_precision: site
 external_ids: { wikidata: "Q2471", geonames: "71137" }
 sources: [source/geonames-gazetteer, source/ahsan-al-taqasim, source/sifat-jazirat-al-arab]
 status: { review: draft, completeness: 1, generated_by: "Claude Sonnet 5.5; coordinates from GeoNames; descriptive facts to be checked against reference works" }
+provenance:
+  layer: own-research
+  source: "source/ahsan-al-taqasim"
+  generated_by: Devin
+  model: "unknown"
+  run: "education-E3-facts-batch9"
