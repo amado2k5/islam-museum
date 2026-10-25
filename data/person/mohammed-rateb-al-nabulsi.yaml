@@ -1,0 +1,38 @@
+id: person/mohammed-rateb-al-nabulsi
+class: person
+label: { ar: "محمد راتب النابلسي", en: "Mohammed Rateb al-Nabulsi", ur: "محمد راتب النابلسى" }
+names:
+  - { value: "محمد راتب النابلسي", kind: full }
+  - { value: "Mohammed Rateb al-Nabulsi", kind: full }
+gender: male
+summary:
+  ar: "داعية وكاتب سوري، وُلد في دمشق سنة 1938، عمل أستاذا في جامعة دمشق قرابة ثلاثين عاما، واشتهر بدروسه في الإعجاز العلمي في القرآن والسنة وبسلاسله عن أسماء الله الحسنى والشمائل النبوية، وأسس «موسوعة النابلسي للعلوم الإسلامية» على الإنترنت ومجمعا علميا في دمشق."
+  en: "Syrian preacher and writer, born in Damascus in 1938. He taught at Damascus University for about thirty years, became known for his lectures on the scientific inimitability (i'jaz) of the Quran and the Sunna and for his series on the names of God and the Prophet's character, and founded the online Nabulsi Encyclopedia of Islamic Sciences and a scholarly complex in Damascus."
+  ur: "شامی مبلغ اور مصنف، جو 1938 میں دمشق میں پیدا ہوئے۔ وہ تقریباً تیس برس جامعہ دمشق میں استاد رہے، قرآن و سنت کے علمی اعجاز پر اپنے دروس اور اسمائے حسنیٰ اور شمائلِ نبوی پر اپنی سلاسل کی وجہ سے مشہور ہوئے، اور انہوں نے آن لائن «موسوعہ النابلسی» اور دمشق میں ایک علمی مجمع قائم کیا۔"
+roles: [scholar, preacher, writer]
+wings: [people, living]
+born:
+  edtf: "1938-01-29"
+  hijri: "1356"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "Date from Arabic Wikipedia and Wikidata Q12240469, which agree on 29 January 1938. The English article is internally inconsistent: its infobox gives 26 December 1938 and its lead gives 29 January 1939, and an Indonesian journal article also gives 26 December 1938; the exact day is therefore not fully settled, and the date on which two of the record's sources agree is recorded."
+  sources: [source/wikipedia-mohammed-rateb-al-nabulsi-ar, source/wikidata-mohammed-rateb-al-nabulsi]
+relations:
+  - { type: born_in, target: place/damascus, sources: [source/wikipedia-mohammed-rateb-al-nabulsi-ar] }
+  - { type: lived_in, target: place/amman, sources: [source/wikipedia-mohammed-rateb-al-nabulsi-en] }
+faith:
+  - value: unknown
+    basis: unknown
+    note: "Arabic Wikipedia's infobox gives his school as Ahl al-Sunna wa'l-Jama'a, and the article files him among Syrian Sunni religious scholars. English Wikipedia names no school, and Wikidata gives only Islam. Not recorded as sunni until a second independent source confirms it."
+    sources: [source/wikipedia-mohammed-rateb-al-nabulsi-ar, source/wikipedia-mohammed-rateb-al-nabulsi-en, source/wikidata-mohammed-rateb-al-nabulsi]
+external_ids: { wikidata: "Q12240469" }
+sources: [source/wikipedia-mohammed-rateb-al-nabulsi-en, source/wikipedia-mohammed-rateb-al-nabulsi-ar, source/wikidata-mohammed-rateb-al-nabulsi, source/ipt-nabulsi-2014]
+provenance:
+  layer: own-research
+  source: "English Wikipedia (revision of 7 March 2026), Arabic Wikipedia (revision of 12 August 2026), Wikidata Q12240469, and the Investigative Project on Terrorism's report of his US tour for the attributed criticism, checked 24 October 2026"
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: modern-figures-batch-5
+status: { review: published, completeness: 3, generated_by: "Muse (Muse Spark 1.3)" }
