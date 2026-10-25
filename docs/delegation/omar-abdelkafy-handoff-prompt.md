@@ -141,6 +141,7 @@ For each series once its transcripts exist:
 6. Contested matters: decision 7. Figures and claims: decision 8.
 7. Check with `npm run cite-check -- <class/slug> …` (must pass), then `npm run validate` (0 errors), then `npm test`. Run `npm run graph && npm run coverage` in the same commit as any change to entities, and commit `docs/coverage.md`.
 8. Commit with explicit paths (never `git add -A`), with the trailers `AI-Agent:`, `AI-Model:`, `AI-Editor:` (truthful; for Devin, its own values), in batches of at most 25 entities. Push your branch, open a pull request, and report.
+8a. Before every deploy, regenerate the recording map from every manifest on disk so that references link to the archive's audio: `python3 scripts/harvest/audio/recordings_map.py <manifests> --speaker omar-abdelkafy --out site/src/data/recordings.json`, then commit it. Series without a map entry still get their episode page, but no direct audio link.
 9. Update `docs/delegation/omar-abdelkafy-progress.md`: the series done, the counts, and the excluded-items table (reason, gate, override). Commit it.
 
 Attribution format (from the repository rules): `AI-Agent: <agent>`, `AI-Model: <model>`, `AI-Editor: <editor>`.
