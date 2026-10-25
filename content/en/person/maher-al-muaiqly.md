@@ -28,6 +28,8 @@ His works include "Imam Ahmad ibn Hanbal's Jurisprudential Issues according to t
 ## Impact and audience
 His public standing rests on his imamate of the Grand Mosque since 1428 AH — an imamate in which his recitation reaches the worshippers in the Haram and a wide audience through the broadcast of its prayers — on the Arafat sermon of 1445 AH / 2024 delivered before the assembled pilgrims at Arafat, and on the murattal mushaf he recorded for Saudi radio and television in 2006 and the wide circulation of his recorded recitation that followed. {cite:wikipedia-maher-al-muaiqly-ar} {cite:wikipedia-maher-al-muaiqly-en}
 
+His official YouTube channel (@MaherAlMuaiqly) publishes the official recordings of his recitations and the complete mushaf in his voice; the museum verified on 25 October 2026 that the channel presents itself as 'the official channel of Sheikh Maher al-Muaiqly' and that its description gives his birth on 7 January 1969, his memorisation of the Qur'an and his training at the Teachers College. {cite:youtube-maheralmuaiqly}
+
 ## References
 - The defined sources cited above, registered in `data/source/`.
 - Later translations and edits of this article need periodic review with clear update dates.
