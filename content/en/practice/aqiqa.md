@@ -21,3 +21,10 @@ The speaker mentions the custom of shaving a newborn's hair on the seventh day, 
 - **academic view: not yet sourced**: not yet sourced.
 - **other view: not yet sourced**: not yet sourced.
 :::
+
+## Encyclopaedia of Islam account
+The Encyclopaedia of Islam (2nd ed.), article 'AKIKA (signed Th. W. Juynboll and J. Pedersen), defines the 'akika as the sacrifice on the seventh day after a child's birth. On that day it is recommended to give the child a name, to shave its hair and to slaughter a victim: two rams or two he-goats for a boy, and for a girl one of these according to the Shafi'is, but only one animal for either sex according to the Malikis. If the sacrifice was neglected on the seventh day it may be made later, even by the child itself once grown. The greater part of the meat is given to the poor and needy. {cite:encyclopaedia-of-islam-2 vol. 1 p. 359}
+
+Some older scholars, among them Dawud al-Zahiri, held the 'akika to be a duty; Abu Hanifa held it optional. The shorn hair is also called sakika, and the law recommends giving alms in silver or gold equal in weight to the hair. {cite:encyclopaedia-of-islam-2 vol. 1 p. 359}
+
+The 'akika derives from old Arabian heathenism. The Prophet is reported to have said: "When someone wishes to offer a sacrifice for his new-born child, he may do so." In pre-Islamic times the child's head was wetted with the blood of the animal, and some traditions say that Muhammad allowed the Muslims to do the same; the jurists hold this not to be desirable, although it is still done, for example in Palestine. Doughty observed that the 'akika is among the most frequent sacrifices in the Arabian desert, and that there it is performed only at the birth of a boy, never at that of a girl. Similar customs are recorded in Indonesia. {cite:encyclopaedia-of-islam-2 vol. 1 p. 359}
