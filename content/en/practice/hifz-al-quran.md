@@ -12,3 +12,6 @@ Those who hold the Fatiha a pillar agree it is obligatory on every legally capab
 
 ## Precedence in imamate
 The majority prefer the more learned in fiqh to the best reciter even if a full hafiz, so long as he retains enough Quran for a valid prayer — because the incidents of prayer are unbounded and need knowledge; and because the Prophet put Abu Bakr forward while some Companions knew more of the Quran than he. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.7136}
+
+## A child's memorisation in Sheikh Omar Abdelkafy's lesson
+The Sheikh counts among the best things a parent can leave to his children that they memorise the Qur'an by heart, and says parents are honoured when their son or daughter does so. {cite:assabile-omar-abdelkafy al-hoquq/ep05 00:11:30} {cite:assabile-omar-abdelkafy al-hoquq/ep05 00:12:00}

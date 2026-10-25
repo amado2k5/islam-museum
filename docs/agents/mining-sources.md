@@ -39,6 +39,18 @@ Everything the book says, rewritten. Read the book, copyrighted or not, includin
 - **Sources and stubs:** each classical work the book names that you cite becomes a `source` entity (check it does not exist first); unknown targets go in your lane's `data/_stubs.d/<lane>.yaml`.
 - **Scope of the museum, not of the book:** where the book is polemical, record its position as its own, attributed and labelled, never in the museum's voice.
 
+## 4a. Include everything, and categorise it (founder, 25 Oct 2026)
+
+These rules apply to every harvest, from recordings, books or any other source. They are the founder's standing decisions.
+
+1. **Include everything intelligible, on any topic.** Nothing is dropped as "off-topic". If the topic has no entity yet, create one.
+2. **Opinions and rants are content too.** A passage that is the speaker's own opinion, criticism or rant, and not a fact of a known category, is included. File it where it fits best: a `question` entity (the issue, with the view labelled and any tensions) when it answers a question; a `concept` under the closest category when it is an idea; or the person's record, under a heading that names it as his opinion, when it is about a person. Label the view as "speaker's view (opinion)" or "speaker's view (rant)" in the perspectives block.
+3. **Tag what is contested or polemical.** Set `sensitivity: contested` on a record that holds disputed matter, and `sensitivity: polemical` on one that attacks a group or a person (described and cited, never reproduced in quotation). Both are visible on the site. Contested passages go in a `:::perspectives` block with the speaker's view first.
+4. **Unverifiable figures and claims are kept**, marked `needs_source` in the YAML and the prose note. They are not dropped.
+5. **Garbled or unclear material** cannot be written as content. The founder has decided that it may be discarded. A repetition loop is not speech and is not used.
+6. **Qur'an and hadith wording is never typed as scripture.** Refer to a passage as `[[passage/quran-<sura>-<aya>|label]]` only when the speaker clearly names it, and cite what he says about it.
+7. **Every excluded item is reported** with its reason, the gate it failed and its override, in the lane's progress file and in every progress report to the founder. Nothing is re-entered without the founder's written authorisation.
+
 ## 5. Quality bar for every batch
 
 Every dated fact: cited to this book's page (a second source when cheap, never required). Every claim traceable to a page a reader can open and verify in under a minute. Every doubt marker captured. Every entity: `label.ar`, `summary.ar`, at least one source, a provenance block, `status.review: published`. No sentence stating a fact without a citation; no quotation over 40 words; no honorific; no Qur'an text; no English prose. End each batch with a short report (entities created or updated, claims count, sources used, doubt markers captured, contested points flagged, passages verified on the image) in the commit body or progress file.

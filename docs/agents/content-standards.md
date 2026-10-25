@@ -46,6 +46,10 @@ _These rules describe a good record. Publication itself needs only the bar in `d
 14. **Doubt markers are data.** Every doubt marker the source prints («ويقال»، «قيل»، «يروى»، «ضعيف»، «واه»، «متروك»، «يُشك فيه») becomes `status: debated`, `confidence: low`, a note quoting the marker, or a perspectives entry. Weak chains are recorded as weak, with the critic's verdict attributed. Nothing is silently dropped, and no hadith or report is graded in the museum's own voice.
 15. **Quotations ≤ 40 words**, verbatim, in quotation marks, with page. Everything else is the museum's own words: read any source, copyrighted or not, and write what it says in the docent voice with the page cited (`docs/sources-policy.md`). A claims table keeps every sentence traceable to a page; a page-by-page retelling or a sentence-by-sentence rewording is not the museum's text.
 
+## 4a. Opinions, rants and uncategorised content
+
+Content that is not a fact of a known class is still content. Place it under the closest class: a `question` entity for an issue with views; a `concept` under its nearest category; a person's record under a heading naming it as the speaker's opinion. Label each view "speaker's view (opinion)" or "speaker's view (rant)". Use `sensitivity: polemical` for attacks on groups or people, and `sensitivity: contested` for disputed matter. Never drop an opinion because it has no category. Full rule: `docs/agents/audio-video-harvest.md`, "Include everything, and categorise it".
+
 ## 5. Mistakes that have actually happened
 
 - Overwriting a shared file: `data/_stubs.yaml` was replaced by an 18-line fragment and main went to 183 errors. Shared files are append-only (`docs/agents/workflow.md` §6).

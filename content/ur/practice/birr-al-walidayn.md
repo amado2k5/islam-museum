@@ -21,3 +21,8 @@ translators: ["Claude Haiku 5.5 (claude-haiku-5-5), draft translation"]
 
 ## وفات کے بعد
 وہ والد کی وفات کے بعد کے حقوق میں بتاتے ہیں: ان کی طرف سے حج کرنا، ان کے دوست کا اکرام کرنا، اور نیک اولاد کا ان کے لیے دعا کرنا۔ {cite:assabile-omar-abdelkafy aadau-al-islam/ep02 00:29:30} {cite:assabile-omar-abdelkafy aadau-al-islam/ep02 00:30:00} {cite:assabile-omar-abdelkafy aadau-al-islam/ep02 00:30:30}
+
+## حقوق کے سلسلے کے چوتھے درس میں نیکی
+وہ کہتے ہیں کہ آدمی کا سب سے زیادہ حق دار اس کی ماں ہے۔ {cite:assabile-omar-abdelkafy al-hoquq/ep04 00:18:30}
+وہ والدین کے ساتھ سب سے بڑی نیکی یہ شمار کرتے ہیں کہ بیٹا انہیں راضی رکھے، خواہ وہ زندہ ہوں یا وفات پا چکے ہوں۔ {cite:assabile-omar-abdelkafy al-hoquq/ep04 00:22:30}
+وہ کہتے ہیں کہ نیک بیٹے کی دعا اپنے والد کے جنت میں درجے کو بلند کرتی ہے۔ {cite:assabile-omar-abdelkafy al-hoquq/ep04 00:28:00}

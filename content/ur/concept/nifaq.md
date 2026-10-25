@@ -20,3 +20,6 @@ translators: ["Claude Haiku 5.5 (claude-haiku-5-5), draft translation"]
 وہ نفاق کی تین قسمیں بیان کرتے ہیں: عقیدے میں نفاق، عبادت میں نفاق، اور سلوک میں نفاق۔ {cite:assabile-omar-abdelkafy aadau-al-islam/ep03 00:22:00}
 ان کے نزدیک عبادت میں نفاق یہ ہے کہ انسان لوگوں کے سامنے روزہ یا عمل ظاہر کرے اور تنہائی میں نہ کرے۔ {cite:assabile-omar-abdelkafy aadau-al-islam/ep03 00:27:00} سلوک میں نفاق یہ ہے کہ آدمی ابوبکر کا چہرہ دکھائے اور دل ابوجہل اور ابولہب کا رکھے۔ {cite:assabile-omar-abdelkafy aadau-al-islam/ep03 00:27:30}
 وہ کہتے ہیں کہ منافق مومن پر رحم نہیں کرتا، اور جس دل میں رحمت ہو وہ نفاق کا راستہ نہیں جانتا۔ {cite:assabile-omar-abdelkafy aadau-al-islam/ep03 00:22:00} {cite:assabile-omar-abdelkafy aadau-al-islam/ep03 00:50:00}
+
+## دروس میں عملی نفاق
+شیخ اس شخص کا ذکر کرتے ہیں جس کا کام کی جگہ پر ایک رویہ اور گھر میں دوسرا ہو، اور اسے وہ عملی نفاق قرار دیتے ہیں {cite:assabile-omar-abdelkafy aadau-al-islam/ep03 00:51:00}۔

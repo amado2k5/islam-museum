@@ -21,3 +21,8 @@ He says parents have rights over their children, and wives have rights over thei
 
 ## After death
 He lists duties towards a father after his death: hajj performed on his behalf, honouring his friends, and prayer for him by a righteous child. {cite:assabile-omar-abdelkafy aadau-al-islam/ep02 00:29:30} {cite:assabile-omar-abdelkafy aadau-al-islam/ep02 00:30:00} {cite:assabile-omar-abdelkafy aadau-al-islam/ep02 00:30:30}
+
+## Honouring parents in the fourth lesson of the series on rights
+The Sheikh says the person most deserving of a man's companionship is his mother. {cite:assabile-omar-abdelkafy al-hoquq/ep04 00:18:30}
+He counts among the greatest forms of honour that a son pleases his father and mother, living and dead. {cite:assabile-omar-abdelkafy al-hoquq/ep04 00:22:30}
+He says that a righteous son's prayer for his father raises the father's rank in Paradise. {cite:assabile-omar-abdelkafy al-hoquq/ep04 00:28:00}
