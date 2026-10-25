@@ -1,0 +1,38 @@
+id: person/ali-yusuf-kenadid
+class: person
+label: { ar: "علي يوسف كيناديد", en: "Ali Yusuf Kenadid", ur: "علی یوسف کینادید" }
+names:
+  - { value: "علي يوسف كيناديد", kind: full }
+  - { value: "Cali Yuusuf Keenadiid", kind: full }
+gender: male
+summary:
+  ar: "علي يوسف كيناديد (توفي في مقديشو، انظر خلاف تاريخ وفاته في البيانات)، ثاني سلاطين هوبيو وآخرهم. هو ابن مؤسس السلطنة يوسف علي كيناديد وأخو عثمان يوسف كيناديد مخترع الخط العثماني للغة الصومالية. كان ولي عهد والده، فنُفي معه إلى عدن ثم إريتريا حين ساءت علاقة والده بإيطاليا بعد رفضه إنزال قوة بريطانية في السلطنة لمطاردة الدراويش. خلف والده عند وفاته سنة 1911، وتُوّج في 5 أكتوبر من تلك السنة بحسب مقالته، وحكم من 28 سبتمبر 1911 إلى 1925، حين أنهت حملة إيطاليا على السلطنات حكمه، ودُمجت هوبيو في الصومال الإيطالي سنة 1927 فانتهت السلطنة. لا يذكر أي مصدر مقروء تاريخ ميلاده، وفي سنة وفاته خلاف بين مصادر مقالته نفسها (1927 في المتن و1936 في صندوق المعلومات استنادا إلى صفحة قبره)، والخط الزمني في قائمة الحصاد (1880-1940) لا يؤيده أي مصدر."
+  en: "Ali Yusuf Kenadid (died at Mogadishu; see the death-date conflict in his data), second and last Sultan of Hobyo. He was a son of the sultanate's founder, Yusuf Ali Kenadid, and a brother of Osman Yusuf Kenadid, inventor of the Osmanya script for Somali. As his father's heir apparent he was exiled with him to Aden and then Eritrea when the elder Kenadid's relations with Italy soured over his refusal to let a British contingent land in the sultanate to pursue the Dervishes. He succeeded his father on his death in 1911, was crowned on 5 October of that year according to his article, and reigned from 28 September 1911 to 1925, when Italy's Campaign of the Sultanates ended his rule; Hobyo was integrated into Italian Somaliland in 1927 and the sultanate ceased to exist. No source read gives his birth date, and his own article's sources disagree on his death year (1927 in its lead, 1936 in its infobox on the authority of a page about his tomb); the harvest queue's dates for him (1880–1940) are attested by no source read."
+  ur: "علی یوسف کینادید (وفات مقدیشو؛ تاریخ وفات کے اختلاف کے لیے اعداد و شمار دیکھیں)، ہوبیو کے دوسرے اور آخری سلطان۔ وہ سلطنت کے بانی یوسف علی کینادید کے بیٹے اور صومالی کے عثمانیہ رسم الخط کے موجد عثمان یوسف کینادید کے بھائی تھے۔ ولی عہد کی حیثیت سے والد کے ساتھ عدن پھر اریٹریا جلا وطن ہوئے جب درویشوں کے تعاقب کے لیے برطانوی دستے کو اترنے کی اجازت سے والد کے انکار پر اٹلی سے تعلقات بگڑ گئے۔ 1911ء میں والد کے جانشین بنے اور 28 ستمبر 1911ء سے 1925ء تک حکمران رہے، جب اٹلی کی مہم نے ان کا دور ختم کیا اور 1927ء میں ہوبیو اطالوی صومالی لینڈ میں ضم ہو گئی۔ کسی مأخذ میں ان کی تاریخ پیدائش نہیں ملتی اور ان کی وفات کے سال میں ان کے اپنے مضمون کے مآخذ میں اختلاف ہے (متن میں 1927ء، صندوق اطلاعات میں قبر کے صفحے کے حوالے سے 1936ء)۔"
+roles: [sultan]
+wings: [people]
+died:
+  edtf: "1936"
+  hijri: "1355"
+  calendar: gregorian
+  precision: year
+  status: historical
+  derived: true
+  note: "Death year CONFLICTED, stated in full. His article's infobox gives 'Died: 1936, Mogadishu', citing a page on his tomb ('Tomb of Ali Yusuf, Sultan Obbia'), and a photograph of his tomb appears in the article; its lead, by contrast, states without a citation in the text read that he 'died 1927'. His reign is given as 28 September 1911 – 1925 and his coronation as 5 October (1911). The cited infobox year 1936 is recorded here, with the lead's 1927 stated alongside it; the harvest queue's line for him (1880–1940) is attested by NO source read — no source gives a birth year for him at all, so no born block is written, and 1940 as a death year appears nowhere in the sources. The Hijri year (1355) is derived by tabular conversion of mid-1936; if the lead's 1927 were preferred the Hijri year would be 1345–1346. This entry should be revisited if a dated scholarly source for his death is found."
+  sources: [source/wikipedia-ali-yusuf-kenadid-en]
+relations:
+  - { type: child_of, target: person/sultan-kenadid, sources: [source/wikipedia-ali-yusuf-kenadid-en, source/wikipedia-yusuf-ali-kenadid-en] }
+  - { type: successor_of, target: person/sultan-kenadid, sources: [source/wikipedia-ali-yusuf-kenadid-en, source/wikipedia-yusuf-ali-kenadid-en] }
+  - { type: died_in, target: place/mogadishu, sources: [source/wikipedia-ali-yusuf-kenadid-en] }
+faith:
+  - value: unknown
+    basis: unknown
+    note: "The only attestation of a religion for Ali Yusuf Kenadid in any source read in this run is his own article's infobox line 'Religion: Islam' — a single infobox attestation, which the two-source rule expressly does not accept, and no source read names any school, madhhab or tariqa for him personally. His father's and family's background is not attestation. Under the two-source rule and the doubt rule ('if we have doubt then unclassified') his faith is therefore recorded as unknown, with the single infobox attestation stated here in full."
+    sources: [source/wikipedia-ali-yusuf-kenadid-en]
+sources: [source/wikipedia-ali-yusuf-kenadid-en, source/wikipedia-yusuf-ali-kenadid-en, source/wikipedia-sultanate-of-hobyo-en]
+provenance:
+  layer: own-research
+  source: "English Wikipedia 'Ali Yusuf Kenadid', read in full on 25 October 2026 (citing Metz 1993, Issa-Salwe 1996 and Diringer 1968); English Wikipedia 'Yusuf Ali Kenadid' and 'Sultanate of Hobyo', read the same day, cited for his parentage, succession and the sultanate's end in 1927. No Wikidata identifier was verified in this run, so none is recorded."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: century-additions-20
+status: { review: published, completeness: 3, generated_by: "Muse (Muse Spark 1.3)" }
