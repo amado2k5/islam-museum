@@ -10,7 +10,7 @@ interface Props {
 }
 const { title, lede, crumbs = [], crumbsLabel, wing, titleAttrs = {} } = Astro.props;
 ---
-<header class="page-banner" style={wing ? `--wing: var(--wing-${wing})` : undefined}>
+<div class="page-banner" style={wing ? `--wing: var(--wing-${wing})` : undefined}>
   <div class="wrap">
     {crumbs.length > 0 && (
       <nav aria-label={crumbsLabel}>
@@ -29,4 +29,4 @@ const { title, lede, crumbs = [], crumbsLabel, wing, titleAttrs = {} } = Astro.p
     <slot />
   </div>
   <div class="arch" aria-hidden="true"></div>
-</header>
+</div>
