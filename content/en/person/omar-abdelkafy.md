@@ -67,3 +67,6 @@ The speaker gave these figures and dates in the Assabile archive recordings. The
 - Unclear money figures in talk about the economy {cite:assabile-omar-abdelkafy aadau-al-islam/ep01 00:43:00}.
 - A sum of 60,000 pounds mentioned in a passage about a loan and a bank {cite:assabile-omar-abdelkafy aadau-al-islam/ep02 00:43:00}.
 - A number of children given as twenty in a passage about family {cite:assabile-omar-abdelkafy aadau-al-islam/ep04 00:43:00}.
+
+## The series "Tafsir Al Quran Al Qareem" (Assabile archive)
+The series has ten episodes and covers the first surahs of Juz' 'Amma: Surat An-Naba' and then Surat An-Nazi'at. The Sheikh opens the first episode with Surat An-Naba' and takes its opening as the subject of the lesson. {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep01} He returns to the Great News in later episodes. {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep02} {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep03} The last episodes turn to Surat An-Nazi'at, which he introduces in the eighth episode. {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep08} In the ninth he recaps the series so far. {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep09} The tenth episode also deals with An-Nazi'at. {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep10}

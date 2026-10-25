@@ -26,3 +26,7 @@ translators: []
 ويحذر من تأجيل التوبة، فالموت لا يمهل، ولا يُقدَّم الإنسان ولا يُؤخَّر لحظة. {cite:assabile-omar-abdelkafy aadau-al-islam/ep04 00:12:00} {cite:assabile-omar-abdelkafy aadau-al-islam/ep04 00:12:30} وينبه إلى أن العمل الصالح وحده ينفع في القبر. {cite:assabile-omar-abdelkafy aadau-al-islam/ep04 00:13:00}
 ويقول إن العبد إذا أذنب ثم ندم ولو طرفة عين سقط عنه الذنب. {cite:assabile-omar-abdelkafy aadau-al-islam/ep04 00:14:30}
 ويقول إن أول ما تطلبه التوبة إعادة الحقوق إلى أصحابها، وإن العودة إلى الحق خير من التمادي في الباطل. {cite:assabile-omar-abdelkafy aadau-al-islam/ep04 00:16:30} {cite:assabile-omar-abdelkafy aadau-al-islam/ep04 00:18:30}
+
+## التوبة في درس الشيخ عمر عبد الكافي (الحلقتان الثانية والرابعة)
+يذكر الشيخ أن العبد إذا أذنب ثم ندم واستغفر، غفر الله له، وأن الله يغفر لعبده كلما تاب مرة بعد أخرى (needs_source). {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep02 00:04:00} {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep02 00:05:00} ويقول إن التوبة الحقيقية تبدأ من القلب واللسان معا، وأن من يتوب ثم يعود لا تنفعه كلمة التوبة وحدها (رأيه). {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep02 00:05:30}
+ويضرب مثلا بامتحان على باب المسجد: الثبات في التوبة يحتاج إلى وقت، والله يقبل التائب بعد اختبار (رأيه). {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep02 00:06:00}

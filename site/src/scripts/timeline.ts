@@ -1,6 +1,7 @@
 // Browser side of the Hijri timeline (Part 3, C.2): cards on hover/click, the draggable playhead with a dual-date readout,
 // the هجري/ميلادي toggle, keyboard control (arrows move the playhead; Enter opens a marker), and zoom to an era band.
-// Re-layout uses the same pure functions as the build, from the data embedded in the page. No network.
+// Re-layout uses the same pure functions as the build. The data comes from /timeline-data/<lang>.json, the same origin;
+// without it the page keeps its build-time drawing and every event is still listed without JavaScript.
 import { civilToHijri, hijriToCivil } from "../../../scripts/hijri/convert";
 import { layoutBands, layoutMarkers, W, xOf, yearLabel, type TlEvent } from "../lib/timeline-layout";
 
@@ -15,8 +16,13 @@ const el = <K extends keyof SVGElementTagNameMap>(tag: K, attrs: Record<string, 
   return e;
 };
 
-function init(root: HTMLElement) {
-  const data: Payload = JSON.parse(root.querySelector("script[type='application/json']")!.textContent || "{}");
+async function init(root: HTMLElement) {
+  let data: Payload;
+  try {
+    data = await fetch(root.dataset.src!).then((r) => { if (!r.ok) throw new Error(String(r.status)); return r.json(); });
+  } catch {
+    return; // the page already shows its build-time drawing
+  }
   const svg = root.querySelector<SVGSVGElement>("[data-svg]")!;
   const stage = root.querySelector<HTMLElement>("[data-stage]")!;
   const readout = root.querySelector<HTMLElement>("[data-readout]")!;
@@ -183,4 +189,4 @@ function init(root: HTMLElement) {
   render();
 }
 
-for (const root of document.querySelectorAll<HTMLElement>("[data-timeline]")) init(root);
+for (const root of document.querySelectorAll<HTMLElement>("[data-timeline]")) void init(root);

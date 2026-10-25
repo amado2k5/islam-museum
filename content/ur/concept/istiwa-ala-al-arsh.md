@@ -15,3 +15,12 @@ translators: ["Claude (Haiku 5.5), draft translation"]
 
 ## ابھی زیرِ جائزہ نہیں
 یہ آیت پر شعراوی کی تشریح ہے۔ یہاں علمائے عقیدہ کے اقوال اور دوسرے مذاہب کی آراء نہیں دی گئیں، اور ان کی جانچ نہیں ہوئی۔ طبعِ کتاب غیر مستند ہے۔
+
+## شیخ عمر عبدالکافی کے درسوں میں استواء (قسط اول)
+شیخ امام مالک سے منسوب ایک معروف قول بیان کرتے ہیں جو اللہ کے استواء (عرش پر) کے بارے میں ہے: اس کا معنی معلوم ہے، کیفیت مجہول ہے، اس پر ایمان واجب ہے، اور اس کی کیفیت کے بارے میں سوال بدعت ہے (needs_source)۔ {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep01 00:44:00} وہ اس قول کو وہ چیز بتاتے ہیں جس پر مومن کو ایمان رکھنا ہے، اور کہتے ہیں کہ کیفیت میں گھسے بغیر استواء پر ایمان واجب ہے (شیخ کی رائے)۔ {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep01 00:43:30}
+:::perspectives
+- **Sunni view: not yet sourced**: ابھی تک ماخوذ نہیں۔
+- **speaker's view (Omar Abdelkafy)**: وہ امام مالک کا استواء والا قول بیان کرتے ہیں اور اسے ثابت مانتے ہیں: کیفیت میں گھسے بغیر اثبات، اور کیفیت کے بارے میں سوال بدعت ہے (needs_source)۔ {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep01 00:44:00}
+- **academic view: not yet sourced**: ابھی تک ماخوذ نہیں۔
+- **other view: not yet sourced**: ابھی تک ماخوذ نہیں۔
+:::

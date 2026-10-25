@@ -67,3 +67,6 @@ translators: []
 - أرقام مالية غير واضحة في سياق الكلام عن الاقتصاد {cite:assabile-omar-abdelkafy aadau-al-islam/ep01 00:43:00}.
 - مبلغ 60 ألف جنيه يُذكر في سياق قرض وبنك {cite:assabile-omar-abdelkafy aadau-al-islam/ep02 00:43:00}.
 - عدد الأبناء ويُذكر بوصفه عشرين في سياق عائلة {cite:assabile-omar-abdelkafy aadau-al-islam/ep04 00:43:00}.
+
+## سلسلة «تفسير القرآن الكريم» (أرشيف أسابيل)
+تقع في عشر حلقات، وتتناول أول سور جزء عمّ: سورة النبأ ثم سورة النازعات. يبدأ الشيخ الحلقة الأولى بسورة النبأ وقد اختار أولها موضوعا للدرس. {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep01} ويعود إلى النبأ العظيم في حلقات تالية. {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep02} {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep03} وتتصل الحلقات الأخيرة بسورة النازعات، ويبدأ الشيخ بها في الحلقة الثامنة. {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep08} ويعيد في التاسعة ما سبق من السلسلة. {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep09} وتتناول الحلقة الأخيرة النازعات أيضا. {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep10}

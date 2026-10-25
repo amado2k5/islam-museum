@@ -17,3 +17,9 @@ translators: []
 التقوى وصية الله للأولين والآخرين، ووصية رسوله لأمته. وكان يوصي بها الأمير على السرية. وقال لأبي ذر: «أوصيك بتقوى الله فإنه رأس الأمر كله». ومن أكثر ما يدخل الناس الجنة تقوى الله وحسن الخلق. {cite:ibn-rajab-jami-ulum-hikam p.383}
 
 يرتبط بها [[concept/wara|الورع]].
+
+## التقوى في درس الشيخ عمر عبد الكافي (الحلقة السادسة)
+يقول الشيخ إن التقوى صعبة تُعرف بالمثال، ويروي أن عمر سأل رجلا عنها، فأجابه الرجل بأنه يرفع ثوبه ويمشي بين الشوك (needs_source). {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep06 00:04:00} {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep06 00:05:00} {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep06 00:05:30}
+ويطبّق المثال على مجالس الغيبة: إذا دخل المرء مجلسا يُغتاب فيه الناس فعليه أن يرفع قلبه وبدنه ولسانه عن الخوض، ويذكر أنه ترك غرفة فيها أطفال يشاهدون فيلما (رأيه). {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep06 00:06:00} {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep06 00:06:30}
+ويعرض بعض الأدعية المنسوبة إلى أحد العلماء بأن يكسر الله الساق التي تمشي إلى غير مجالس الذكر، ويرى أن الدعاء يسأل الله أن يغلق أبواب الظلم (needs_source). {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep06 00:07:00} {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep06 00:07:30}
+ويقول إن أول أصول التقوى التواضع، وأن المسلم لا يحتقر أحدا (انظر «التواضع»). {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep06 00:08:30}

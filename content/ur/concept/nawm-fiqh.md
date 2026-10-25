@@ -25,3 +25,7 @@ translators: ["Claude Haiku 5.5 (claude-haiku-5-5), draft translation"]
 
 ## جنایت اور مال کا تلف ہونا
 سوئے ہوئے شخص کا جنایت میں فعل خطا شمار ہوتا ہے، دیت عاقلہ پر اور کفارہ اس پر ہوتا ہے؛ مال تلف کرنے میں وہ جاگنے والے کی طرح ضامن ہے۔ {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.16675} {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.16676}
+
+## شیخ عمر عبدالکافی کے درسوں میں نیند (قسط اول، دوم، نو اور دس)
+شیخ نیند کو نعمتوں میں شمار کرتے ہیں، کہتے ہیں کہ مباح چیزوں میں افراط انسان کو نقصان دیتا ہے، اور دین میں غلو سے خبردار کرتے ہیں (شیخ کی رائے)۔ {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep01 00:40:30} {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep01 00:41:00} وہ کہتے ہیں کہ اگر نماز میں اونگھ آئے تو سو جانا چاہیے یہاں تک کہ نیند جاتی رہے، کیونکہ آدمی بے خبری میں اپنے آپ کو بددعا دے سکتا ہے (needs_source)۔ {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep01 01:09:00}
+وہ کہتے ہیں کہ آدھی رات سے پہلے سونا آدھی رات کے بعد سونے سے زیادہ مفید ہے، اور یہ بات وہ اہل علم سے منسوب کرتے ہیں بغیر تصدیق کے (needs_source)۔ {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep01 01:10:00} وہ کہتے ہیں کہ نیند کا تعلق بڑھوتری کے ہارمون سے ہے، ایک ایسا دعویٰ جس کی تصدیق نہیں ہو سکی (needs_source)۔ {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep01 01:10:30} وہ جلد سونے کی تلقین کرتے ہیں اور کہتے ہیں کہ دیر تک جاگنا صحت ضائع کرتا ہے (شیخ کی رائے)۔ {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep02 00:48:30}

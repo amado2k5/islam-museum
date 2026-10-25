@@ -66,6 +66,25 @@ Full rules are in [`design-and-accessibility.md`](design-and-accessibility.md) a
 - **The map is not MapLibre.** The brief allowed a static or self-hosted basemap, and MapLibre is the Phase 1 plan; the schematic map stays until then.
 - **The proposals (time-wing visualisation, visual anchors, bilingual wordmark) were not implemented.** The wordmark needs the founder's approval first.
 
+## Part 4: teen hub page weight (timeline data moved out of the page, 25 Oct 2026)
+
+**Why.** The build's weight check (`scripts/check-weight.ts`) fails the teen hub `/ar/shabab/`: 1.94 MB of HTML against a 200 KB budget, and its Hijri timeline script at 25.7 KB against 12 KB. Two causes, both in the timeline component (`site/src/components/HijriTimeline.astro`):
+1. The full event data (about 1.07 MB) was written into the page as a JSON block for the browser script.
+2. The SVG drew one marker link for each of the 1,224 dated events.
+
+No event was added by the Omar Abdel Kafi work. The timeline was already showing all events, which made the page too heavy to deploy.
+
+**What changed.**
+- The layout and data code moved to `site/src/lib/timeline-model.ts`, so the page and the data file use the same computation.
+- The full data is served as `/timeline-data/<lang>.json` (`site/src/pages/timeline-data/[lang].json.ts`). The browser script fetches it (`site/src/scripts/timeline.ts`). If the fetch fails, the page keeps its build-time drawing.
+- The page draws 120 markers, spread evenly across the timeline, not all 1,224.
+- A new plain list of every dated event is at `/<lang>/timeline/events/`, and the timeline links to it.
+- Labels were added in English, Arabic and Urdu under `timeline.all_events_*`.
+
+**Why this shape.** `AGENTS.md` requires every page to be readable without JavaScript. Loading the markers on demand would have hidden events from readers without JavaScript, so it was rejected. The compliant version keeps every event readable without JavaScript (through the list page), and it leaves the timeline's behaviour for users with JavaScript unchanged apart from the data now being fetched.
+
+**Trade-off.** The timeline now shows 120 markers instead of 1,224. Each event is still reachable from the list page. If the cap should change, change `SHOWN` in `HijriTimeline.astro` and rebuild.
+
 ## Open items (not fixed; they need source decisions)
 
 - **Month-precision dates sort inside their month.** Burial and the Saqifa (June 632) sort before the death (8 June); the Badr prisoners and Qulayb sort before the battle. Fix the source dates (a day, or a precise range), not the sort. See [`dates-timeline-maps.md`](dates-timeline-maps.md).
