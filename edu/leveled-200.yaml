@@ -1,0 +1,1417 @@
+# The next 200 records proposed for leveled reading in phase E5 (docs/delegation/education-e5-proposal.md section 1,
+# docs/delegation/education-master-plan.md section 5 E5 and section 9.1 decision 5): the agent proposes, the founder
+# approves or edits this list, and only then is any leveled text written (batches of 25). On 25 October 2026 the
+# founder approved E5, including this list as proposed: "E5 approved".
+#
+# Selection repeats the leveled-100 rules (see edu/leveled-100.yaml): real entities only, page classes a child or
+# teen can read, leveled-100 exclusions applied (isnad-dominated transmitters, fiqh-technical concepts,
+# first-fitna figures); the 100 E2 records are not repeated. `inbound` is the edge count in the compiled graph
+# (npm run graph, 66,776 edges, 25 Oct 2026); `prose` lists existing prose languages. `brief` says whether
+# content/ar/<class>/<slug>.md already has the museum's Brief section (`## نبذة` or `## موجز`).
+status: { review: draft, approval: approved, approved_by: "founder", approved_on: "2026-10-25" }
+provenance:
+  generated_by: "Devin"
+  model: "Devin (Cognition)"
+  run: "education-E5-list"
+  note: "Approved list, copied from docs/delegation/education-e5-proposal.md section 1; Arabic labels and brief flags pulled from the data/content files. No leveled text written yet."
+records:
+  - id: event/return-of-abyssinian-emigrants
+    label: { ar: "قدوم مهاجري الحبشة مع جعفر بن أبي طالب", en: "Return of the Abyssinian emigrants with Ja'far ibn Abi Talib" }
+    tier: rank
+    reason: "Inbound-link rank continuation of the leveled-100 selection (demand evidence, 25 Oct 2026)."
+    inbound: 91
+    prose: [ar, en, ur]
+    brief: true
+  - id: place/aksum
+    label: { ar: "أكسوم", en: "Aksum" }
+    tier: rank
+    reason: "Inbound-link rank continuation of the leveled-100 selection (demand evidence, 25 Oct 2026)."
+    inbound: 68
+    prose: [ar, en, ur]
+    brief: true
+  - id: event/battle-of-hunayn
+    label: { ar: "غزوة حنين", en: "The Battle of Hunayn" }
+    tier: rank
+    reason: "Inbound-link rank continuation of the leveled-100 selection (demand evidence, 25 Oct 2026)."
+    inbound: 49
+    prose: [ar, en, ur]
+    brief: true
+  - id: group/early-muslims
+    label: { ar: "الجماعة المسلمة الأولى", en: "The early Muslim community" }
+    tier: rank
+    reason: "Inbound-link rank continuation of the leveled-100 selection (demand evidence, 25 Oct 2026)."
+    inbound: 47
+    prose: [ar, en, ur]
+    brief: true
+  - id: event/expedition-to-tabuk
+    label: { ar: "غزوة تبوك", en: "The expedition to Tabuk" }
+    tier: rank
+    reason: "Inbound-link rank continuation of the leveled-100 selection (demand evidence, 25 Oct 2026)."
+    inbound: 45
+    prose: [ar, en, ur]
+    brief: true
+  - id: person/amr-ibn-al-as
+    label: { ar: "عمرو بن العاص", en: "Amr ibn al-As" }
+    tier: rank
+    reason: "Inbound-link rank continuation of the leveled-100 selection (demand evidence, 25 Oct 2026)."
+    inbound: 38
+    prose: [ar, en, ur]
+    brief: true
+  - id: group/banu-hashim
+    label: { ar: "بنو هاشم", en: "Banu Hashim" }
+    tier: rank
+    reason: "Inbound-link rank continuation of the leveled-100 selection (demand evidence, 25 Oct 2026)."
+    inbound: 38
+    prose: [ar, en, ur]
+    brief: true
+  - id: place/mosul
+    label: { ar: "الموصل", en: "Mosul" }
+    tier: rank
+    reason: "Inbound-link rank continuation of the leveled-100 selection (demand evidence, 25 Oct 2026)."
+    inbound: 37
+    prose: [ar, en, ur]
+    brief: true
+  - id: place/aleppo
+    label: { ar: "حلب", en: "Aleppo" }
+    tier: rank
+    reason: "Inbound-link rank continuation of the leveled-100 selection (demand evidence, 25 Oct 2026)."
+    inbound: 37
+    prose: [ar, en, ur]
+    brief: true
+  - id: person/abu-ubayda-ibn-al-jarrah
+    label: { ar: "أبو عبيدة بن الجراح", en: "Abu Ubayda ibn al-Jarrah" }
+    tier: rank
+    reason: "Inbound-link rank continuation of the leveled-100 selection (demand evidence, 25 Oct 2026)."
+    inbound: 37
+    prose: [ar, en, ur]
+    brief: true
+  - id: place/yemen
+    label: { ar: "اليمن", en: "Yemen" }
+    tier: rank
+    reason: "Inbound-link rank continuation of the leveled-100 selection (demand evidence, 25 Oct 2026)."
+    inbound: 36
+    prose: [ar, en, ur]
+    brief: true
+  - id: practice/dua
+    label: { ar: "الدعاء", en: "Du'a (supplication)" }
+    tier: rank
+    reason: "Inbound-link rank continuation of the leveled-100 selection (demand evidence, 25 Oct 2026)."
+    inbound: 35
+    prose: [ar, en, ur]
+    brief: true
+  - id: place/arafat
+    label: { ar: "عرفات", en: "Arafat" }
+    tier: rank
+    reason: "Inbound-link rank continuation of the leveled-100 selection (demand evidence, 25 Oct 2026)."
+    inbound: 35
+    prose: [ar, en, ur]
+    brief: true
+  - id: concept/ghanima
+    label: { ar: "الغنيمة", en: "Ghanima (spoils of war)" }
+    tier: rank
+    reason: "Inbound-link rank continuation of the leveled-100 selection (demand evidence, 25 Oct 2026)."
+    inbound: 35
+    prose: [ar, en, ur]
+    brief: true
+  - id: work/muwatta-malik
+    label: { ar: "الموطأ", en: "Muwatta of Imam Malik" }
+    tier: rank
+    reason: "Inbound-link rank continuation of the leveled-100 selection (demand evidence, 25 Oct 2026)."
+    inbound: 33
+    prose: [ar, en, ur]
+    brief: true
+  - id: person/fatima
+    label: { ar: "فاطمة بنت محمد", en: "Fatima bint Muhammad" }
+    tier: rank
+    reason: "Inbound-link rank continuation of the leveled-100 selection (demand evidence, 25 Oct 2026)."
+    inbound: 33
+    prose: [ar, en, ur]
+    brief: true
+  - id: person/abbas-ibn-abd-al-muttalib
+    label: { ar: "العباس بن عبد المطلب", en: "al-Abbas ibn Abd al-Muttalib" }
+    tier: rank
+    reason: "Inbound-link rank continuation of the leveled-100 selection (demand evidence, 25 Oct 2026)."
+    inbound: 32
+    prose: [ar, en, ur]
+    brief: true
+  - id: person/al-shafii
+    label: { ar: "محمد بن إدريس الشافعي", en: "Muhammad ibn Idris al-Shafi'i" }
+    tier: rank
+    reason: "Inbound-link rank continuation of the leveled-100 selection (demand evidence, 25 Oct 2026)."
+    inbound: 31
+    prose: [ar, en, ur]
+    brief: true
+  - id: person/abu-sufyan-ibn-harb
+    label: { ar: "أبو سفيان بن حرب", en: "Abu Sufyan ibn Harb" }
+    tier: rank
+    reason: "Inbound-link rank continuation of the leveled-100 selection (demand evidence, 25 Oct 2026)."
+    inbound: 31
+    prose: [ar, en, ur]
+    brief: true
+  - id: group/muhajirun
+    label: { ar: "المهاجرون", en: "The Muhajirun" }
+    tier: rank
+    reason: "Inbound-link rank continuation of the leveled-100 selection (demand evidence, 25 Oct 2026)."
+    inbound: 31
+    prose: [ar, en, ur]
+    brief: true
+  - id: event/death-of-the-prophet
+    label: { ar: "وفاة النبي", en: "The death of the Prophet" }
+    tier: rank
+    reason: "Inbound-link rank continuation of the leveled-100 selection (demand evidence, 25 Oct 2026)."
+    inbound: 31
+    prose: [ar, en, ur]
+    brief: true
+  - id: person/abd-al-muttalib
+    label: { ar: "عبد المطلب بن هاشم", en: "Abd al-Muttalib ibn Hashim" }
+    tier: rank
+    reason: "Inbound-link rank continuation of the leveled-100 selection (demand evidence, 25 Oct 2026)."
+    inbound: 29
+    prose: [ar, en, ur]
+    brief: true
+  - id: event/al-dawa-al-sirriyya
+    label: { ar: "ثلاث سنوات من الدعوة السرية", en: "The three years of the secret call" }
+    tier: rank
+    reason: "Inbound-link rank continuation of the leveled-100 selection (demand evidence, 25 Oct 2026)."
+    inbound: 29
+    prose: [ar, en, ur]
+    brief: true
+  - id: place/armenia
+    label: { ar: "أرمينية", en: "Armenia" }
+    tier: rank
+    reason: "Inbound-link rank continuation of the leveled-100 selection (demand evidence, 25 Oct 2026)."
+    inbound: 28
+    prose: [ar, en, ur]
+    brief: true
+  - id: person/muadh-ibn-jabal
+    label: { ar: "معاذ بن جبل", en: "Mu'adh ibn Jabal" }
+    tier: rank
+    reason: "Inbound-link rank continuation of the leveled-100 selection (demand evidence, 25 Oct 2026)."
+    inbound: 28
+    prose: [ar, en, ur]
+    brief: true
+  - id: event/battle-of-mutah
+    label: { ar: "غزوة مؤتة", en: "The Battle of Mu'tah" }
+    tier: rank
+    reason: "Inbound-link rank continuation of the leveled-100 selection (demand evidence, 25 Oct 2026)."
+    inbound: 28
+    prose: [ar, en, ur]
+    brief: true
+  - id: building/prophets-mosque
+    label: { ar: "المسجد النبوي", en: "Prophet's Mosque" }
+    tier: rank
+    reason: "Inbound-link rank continuation of the leveled-100 selection (demand evidence, 25 Oct 2026)."
+    inbound: 28
+    prose: [ar, en, ur]
+    brief: true
+  - id: place/khaybar
+    label: { ar: "خيبر", en: "Khaybar" }
+    tier: rank
+    reason: "Inbound-link rank continuation of the leveled-100 selection (demand evidence, 25 Oct 2026)."
+    inbound: 27
+    prose: [ar, en, ur]
+    brief: true
+  - id: event/pledges-of-aqaba
+    label: { ar: "بيعتا العقبة", en: "The Pledges of Aqaba" }
+    tier: rank
+    reason: "Inbound-link rank continuation of the leveled-100 selection (demand evidence, 25 Oct 2026)."
+    inbound: 27
+    prose: [ar, en, ur]
+    brief: false
+  - id: concept/iman
+    label: { ar: "الإيمان", en: "Iman (faith)" }
+    tier: rank
+    reason: "Inbound-link rank continuation of the leveled-100 selection (demand evidence, 25 Oct 2026)."
+    inbound: 27
+    prose: [ar, en, ur]
+    brief: true
+  - id: person/abu-jahl
+    label: { ar: "أبو جهل", en: "Abu Jahl (Amr ibn Hisham)" }
+    tier: rank
+    reason: "Inbound-link rank continuation of the leveled-100 selection (demand evidence, 25 Oct 2026)."
+    inbound: 26
+    prose: [ar, en, ur]
+    brief: true
+  - id: group/thamud
+    label: { ar: "ثمود", en: "Thamud" }
+    tier: rank
+    reason: "Inbound-link rank continuation of the leveled-100 selection (demand evidence, 25 Oct 2026)."
+    inbound: 26
+    prose: [ar, en, ur]
+    brief: true
+  - id: person/zayd-ibn-haritha
+    label: { ar: "زيد بن حارثة", en: "Zayd ibn Haritha" }
+    tier: rank
+    reason: "Inbound-link rank continuation of the leveled-100 selection (demand evidence, 25 Oct 2026)."
+    inbound: 25
+    prose: [ar, en, ur]
+    brief: true
+  - id: person/hasan-ibn-ali
+    label: { ar: "الحسن بن علي", en: "Hasan ibn Ali" }
+    tier: rank
+    reason: "Inbound-link rank continuation of the leveled-100 selection (demand evidence, 25 Oct 2026)."
+    inbound: 25
+    prose: [ar, en, ur]
+    brief: true
+  - id: person/hamza
+    label: { ar: "حمزة بن عبد المطلب", en: "Hamza ibn Abd al-Muttalib" }
+    tier: rank
+    reason: "Inbound-link rank continuation of the leveled-100 selection (demand evidence, 25 Oct 2026)."
+    inbound: 25
+    prose: [ar, en, ur]
+    brief: true
+  - id: person/abu-talib
+    label: { ar: "أبو طالب بن عبد المطلب", en: "Abu Talib ibn Abd al-Muttalib" }
+    tier: rank
+    reason: "Inbound-link rank continuation of the leveled-100 selection (demand evidence, 25 Oct 2026)."
+    inbound: 25
+    prose: [ar, en, ur]
+    brief: true
+  - id: person/abd-allah-al-mamun
+    label: { ar: "عبد الله المأمون بن هارون الرشيد", en: "Abd Allah al-Ma'mun ibn Harun al-Rashid" }
+    tier: rank
+    reason: "Inbound-link rank continuation of the leveled-100 selection (demand evidence, 25 Oct 2026)."
+    inbound: 25
+    prose: [ar, en, ur]
+    brief: true
+  - id: person/abd-al-malik-ibn-marwan
+    label: { ar: "عبد الملك بن مروان", en: "Abd al-Malik ibn Marwan" }
+    tier: rank
+    reason: "Inbound-link rank continuation of the leveled-100 selection (demand evidence, 25 Oct 2026)."
+    inbound: 25
+    prose: [ar, en, ur]
+    brief: true
+  - id: event/distribution-of-hunayn-spoils
+    label: { ar: "قسمة غنائم حنين وعطايا المؤلفة بالجعرانة", en: "The distribution of Hunayn spoils at al-Ji'rana" }
+    tier: rank
+    reason: "Inbound-link rank continuation of the leveled-100 selection (demand evidence, 25 Oct 2026)."
+    inbound: 25
+    prose: [ar, en, ur]
+    brief: true
+  - id: concept/tadbir
+    label: { ar: "التدبير", en: "Tadbir (manumission effective after death)" }
+    tier: rank
+    reason: "Inbound-link rank continuation of the leveled-100 selection (demand evidence, 25 Oct 2026)."
+    inbound: 25
+    prose: [ar, en, ur]
+    brief: true
+  - id: concept/nisab
+    label: { ar: "النصاب", en: "Nisab (wealth threshold)" }
+    tier: rank
+    reason: "Inbound-link rank continuation of the leveled-100 selection (demand evidence, 25 Oct 2026)."
+    inbound: 25
+    prose: [ar, en, ur]
+    brief: true
+  - id: concept/nadhr
+    label: { ar: "النَّذْر", en: "The vow (nadhr) and its rulings" }
+    tier: rank
+    reason: "Inbound-link rank continuation of the leveled-100 selection (demand evidence, 25 Oct 2026)."
+    inbound: 25
+    prose: [ar, en, ur]
+    brief: true
+  - id: concept/jizya
+    label: { ar: "الجزية", en: "Jizya (capitation on treaty peoples)" }
+    tier: rank
+    reason: "Inbound-link rank continuation of the leveled-100 selection (demand evidence, 25 Oct 2026)."
+    inbound: 25
+    prose: [ar, en, ur]
+    brief: true
+  - id: concept/ijara
+    label: { ar: "إجارة", en: "Lease and hire (ijara)" }
+    tier: rank
+    reason: "Inbound-link rank continuation of the leveled-100 selection (demand evidence, 25 Oct 2026)."
+    inbound: 25
+    prose: [ar, en, ur]
+    brief: true
+  - id: person/khadija
+    label: { ar: "خديجة بنت خويلد", en: "Khadija bint Khuwaylid" }
+    tier: rank
+    reason: "Inbound-link rank continuation of the leveled-100 selection (demand evidence, 25 Oct 2026)."
+    inbound: 24
+    prose: [ar, en, ur]
+    brief: true
+  - id: person/jafar-ibn-abi-talib
+    label: { ar: "جعفر بن أبي طالب", en: "Ja'far ibn Abi Talib" }
+    tier: rank
+    reason: "Inbound-link rank continuation of the leveled-100 selection (demand evidence, 25 Oct 2026)."
+    inbound: 24
+    prose: [ar, en, ur]
+    brief: true
+  - id: group/banu-tamim
+    label: { ar: "بنو تميم", en: "Banu Tamim" }
+    tier: rank
+    reason: "Inbound-link rank continuation of the leveled-100 selection (demand evidence, 25 Oct 2026)."
+    inbound: 24
+    prose: [ar, en, ur]
+    brief: true
+  - id: event/year-of-delegations
+    label: { ar: "عام الوفود", en: "The Year of Delegations" }
+    tier: rank
+    reason: "Inbound-link rank continuation of the leveled-100 selection (demand evidence, 25 Oct 2026)."
+    inbound: 24
+    prose: [ar, en, ur]
+    brief: true
+  - id: concept/sadaqa
+    label: { ar: "الصدقة", en: "Charity (sadaqa)" }
+    tier: rank
+    reason: "Inbound-link rank continuation of the leveled-100 selection (demand evidence, 25 Oct 2026)."
+    inbound: 24
+    prose: [ar, en, ur]
+    brief: true
+  - id: place/uhud
+    label: { ar: "جبل أحد", en: "Mount Uhud" }
+    tier: rank
+    reason: "Inbound-link rank continuation of the leveled-100 selection (demand evidence, 25 Oct 2026)."
+    inbound: 23
+    prose: [ar, en, ur]
+    brief: true
+  - id: person/ubada-ibn-al-samit
+    label: { ar: "عبادة بن الصامت", en: "Ubada ibn al-Samit" }
+    tier: rank
+    reason: "Inbound-link rank continuation of the leveled-100 selection (demand evidence, 25 Oct 2026)."
+    inbound: 23
+    prose: [ar, en, ur]
+    brief: false
+  - id: person/bilal-ibn-rabah
+    label: { ar: "بلال بن رباح", en: "Bilal ibn Rabah" }
+    tier: rank
+    reason: "Inbound-link rank continuation of the leveled-100 selection (demand evidence, 25 Oct 2026)."
+    inbound: 23
+    prose: [ar, en, ur]
+    brief: true
+  - id: person/zubayr-ibn-al-awwam
+    label: { ar: "الزبير بن العوام", en: "al-Zubayr ibn al-Awwam" }
+    tier: rank
+    reason: "Inbound-link rank continuation of the leveled-100 selection (demand evidence, 25 Oct 2026)."
+    inbound: 22
+    prose: [ar, en, ur]
+    brief: true
+  - id: person/al-mansur
+    label: { ar: "أبو جعفر المنصور", en: "Abu Ja'far al-Mansur" }
+    tier: rank
+    reason: "Inbound-link rank continuation of the leveled-100 selection (demand evidence, 25 Oct 2026)."
+    inbound: 22
+    prose: [ar, en, ur]
+    brief: true
+  - id: group/thaqif
+    label: { ar: "ثقيف", en: "Thaqif" }
+    tier: rank
+    reason: "Inbound-link rank continuation of the leveled-100 selection (demand evidence, 25 Oct 2026)."
+    inbound: 22
+    prose: [ar, en, ur]
+    brief: true
+  - id: event/siege-of-taif
+    label: { ar: "حصار الطائف", en: "The siege of Ta'if" }
+    tier: rank
+    reason: "Inbound-link rank continuation of the leveled-100 selection (demand evidence, 25 Oct 2026)."
+    inbound: 22
+    prose: [ar, en, ur]
+    brief: true
+  - id: event/conquest-of-syria
+    label: { ar: "فتح الشام", en: "The Conquest of Syria" }
+    tier: rank
+    reason: "Inbound-link rank continuation of the leveled-100 selection (demand evidence, 25 Oct 2026)."
+    inbound: 22
+    prose: [ar, en, ur]
+    brief: true
+  - id: event/burial-of-the-prophet
+    label: { ar: "دفن النبي", en: "The burial of the Prophet" }
+    tier: rank
+    reason: "Inbound-link rank continuation of the leveled-100 selection (demand evidence, 25 Oct 2026)."
+    inbound: 22
+    prose: [ar, en, ur]
+    brief: true
+  - id: concept/adab
+    label: { ar: "الأدب النبوي", en: "Prophetic adab (proper conduct)" }
+    tier: rank
+    reason: "Inbound-link rank continuation of the leveled-100 selection (demand evidence, 25 Oct 2026)."
+    inbound: 22
+    prose: [ar, en, ur]
+    brief: true
+  - id: person/husayn-ibn-ali
+    label: { ar: "الحسين بن علي", en: "Husayn ibn Ali" }
+    tier: rank
+    reason: "Inbound-link rank continuation of the leveled-100 selection (demand evidence, 25 Oct 2026)."
+    inbound: 21
+    prose: [ar, en, ur]
+    brief: true
+  - id: person/al-mughira-ibn-shuba
+    label: { ar: "المغيرة بن شعبة", en: "al-Mughira ibn Shu'ba" }
+    tier: rank
+    reason: "Inbound-link rank continuation of the leveled-100 selection (demand evidence, 25 Oct 2026)."
+    inbound: 21
+    prose: [ar, en, ur]
+    brief: true
+  - id: event/persecution-of-mustadafin
+    label: { ar: "اضطهاد المستضعفين", en: "The persecution of the vulnerable Muslims" }
+    tier: rank
+    reason: "Inbound-link rank continuation of the leveled-100 selection (demand evidence, 25 Oct 2026)."
+    inbound: 21
+    prose: [ar, en, ur]
+    brief: true
+  - id: event/delegation-of-banu-tamim
+    label: { ar: "قدوم وفد بني تميم ومفاخرتهم النبي", en: "The delegation of Banu Tamim and the boasting contest" }
+    tier: rank
+    reason: "Inbound-link rank continuation of the leveled-100 selection (demand evidence, 25 Oct 2026)."
+    inbound: 21
+    prose: [ar, en, ur]
+    brief: true
+  - id: event/battle-of-khaybar
+    label: { ar: "غزوة خيبر", en: "The Conquest of Khaybar" }
+    tier: rank
+    reason: "Inbound-link rank continuation of the leveled-100 selection (demand evidence, 25 Oct 2026)."
+    inbound: 21
+    prose: [ar, en, ur]
+    brief: false
+  - id: building/masjid-al-haram
+    label: { ar: "المسجد الحرام", en: "Al-Masjid Al-Haram" }
+    tier: rank
+    reason: "Inbound-link rank continuation of the leveled-100 selection (demand evidence, 25 Oct 2026)."
+    inbound: 21
+    prose: [ar, en, ur]
+    brief: true
+  - id: practice/dafn
+    label: { ar: "الدفن", en: "Burial" }
+    tier: rank
+    reason: "Inbound-link rank continuation of the leveled-100 selection (demand evidence, 25 Oct 2026)."
+    inbound: 20
+    prose: [ar, en, ur]
+    brief: true
+  - id: place/misr
+    label: { ar: "مصر", en: "Misr (Egypt)" }
+    tier: rank
+    reason: "Inbound-link rank continuation of the leveled-100 selection (demand evidence, 25 Oct 2026)."
+    inbound: 20
+    prose: [ar, en, ur]
+    brief: true
+  - id: place/al-sham
+    label: { ar: "بلاد الشام", en: "al-Sham (Greater Syria)" }
+    tier: rank
+    reason: "Inbound-link rank continuation of the leveled-100 selection (demand evidence, 25 Oct 2026)."
+    inbound: 20
+    prose: [ar, en, ur]
+    brief: true
+  - id: person/muhammad-khwarazmshah
+    label: { ar: "خوارزم شاه علاء الدين محمد", en: "person/muhammad-khwarazmshah" }
+    tier: rank
+    reason: "Inbound-link rank continuation of the leveled-100 selection (demand evidence, 25 Oct 2026)."
+    inbound: 20
+    prose: [ar, en, ur]
+    brief: true
+  - id: person/harun-al-rashid
+    label: { ar: "هارون الرشيد", en: "Harun al-Rashid" }
+    tier: rank
+    reason: "Inbound-link rank continuation of the leveled-100 selection (demand evidence, 25 Oct 2026)."
+    inbound: 20
+    prose: [ar, en, ur]
+    brief: true
+  - id: person/al-mahdi
+    label: { ar: "محمد المهدي", en: "Muhammad al-Mahdi" }
+    tier: rank
+    reason: "Inbound-link rank continuation of the leveled-100 selection (demand evidence, 25 Oct 2026)."
+    inbound: 20
+    prose: [ar, en, ur]
+    brief: true
+  - id: person/abu-dharr-al-ghifari
+    label: { ar: "أبو ذر الغفاري", en: "Abu Dharr al-Ghifari" }
+    tier: rank
+    reason: "Inbound-link rank continuation of the leveled-100 selection (demand evidence, 25 Oct 2026)."
+    inbound: 20
+    prose: [ar, en, ur]
+    brief: true
+  - id: practice/salat-al-janaza
+    label: { ar: "صلاة الجنازة", en: "The funeral prayer" }
+    tier: rank
+    reason: "Inbound-link rank continuation of the leveled-100 selection (demand evidence, 25 Oct 2026)."
+    inbound: 19
+    prose: [ar, en, ur]
+    brief: true
+  - id: practice/sai
+    label: { ar: "السعي", en: "Sa'i (walking between Safa and Marwa)" }
+    tier: rank
+    reason: "Inbound-link rank continuation of the leveled-100 selection (demand evidence, 25 Oct 2026)."
+    inbound: 19
+    prose: [ar, en, ur]
+    brief: true
+  - id: place/algiers
+    label: { ar: "الجزائر", en: "Algiers" }
+    tier: rank
+    reason: "Inbound-link rank continuation of the leveled-100 selection (demand evidence, 25 Oct 2026)."
+    inbound: 19
+    prose: [ar, en, ur]
+    brief: true
+  - id: person/musab-ibn-umayr
+    label: { ar: "مصعب بن عمير", en: "Mus'ab ibn Umayr" }
+    tier: rank
+    reason: "Inbound-link rank continuation of the leveled-100 selection (demand evidence, 25 Oct 2026)."
+    inbound: 19
+    prose: [ar, en, ur]
+    brief: true
+  - id: person/al-qadir-billah
+    label: { ar: "القادر بالله أحمد بن إسحاق بن المقتدر", en: "al-Qadir bi-llah Ahmad ibn Ishaq ibn al-Muqtadir" }
+    tier: rank
+    reason: "Inbound-link rank continuation of the leveled-100 selection (demand evidence, 25 Oct 2026)."
+    inbound: 19
+    prose: [ar, en, ur]
+    brief: true
+  - id: person/abdullah-ibn-ubayy
+    label: { ar: "عبد الله بن أبي بن سلول", en: "Abdullah ibn Ubayy" }
+    tier: rank
+    reason: "Inbound-link rank continuation of the leveled-100 selection (demand evidence, 25 Oct 2026)."
+    inbound: 19
+    prose: [ar, en, ur]
+    brief: true
+  - id: concept/al-iqtisad-fi-al-quran
+    label: { ar: "الاقتصاد في القرآن", en: "Economy and balance in the Qur'an" }
+    tier: rank
+    reason: "Inbound-link rank continuation of the leveled-100 selection (demand evidence, 25 Oct 2026)."
+    inbound: 19
+    prose: [ar]
+    brief: false
+  - id: place/taif
+    label: { ar: "الطائف", en: "Ta'if" }
+    tier: rank
+    reason: "Inbound-link rank continuation of the leveled-100 selection (demand evidence, 25 Oct 2026)."
+    inbound: 18
+    prose: [ar, en, ur]
+    brief: true
+  - id: person/usama-ibn-zayd
+    label: { ar: "أسامة بن زيد", en: "Usama ibn Zayd" }
+    tier: rank
+    reason: "Inbound-link rank continuation of the leveled-100 selection (demand evidence, 25 Oct 2026)."
+    inbound: 18
+    prose: [ar, en, ur]
+    brief: true
+  - id: person/sad-ibn-muadh
+    label: { ar: "سعد بن معاذ", en: "Sa'd ibn Mu'adh" }
+    tier: rank
+    reason: "Inbound-link rank continuation of the leveled-100 selection (demand evidence, 25 Oct 2026)."
+    inbound: 18
+    prose: [ar, en, ur]
+    brief: true
+  - id: person/kaab-ibn-malik
+    label: { ar: "كعب بن مالك الأنصاري", en: "Ka'b ibn Malik al-Ansari" }
+    tier: rank
+    reason: "Inbound-link rank continuation of the leveled-100 selection (demand evidence, 25 Oct 2026)."
+    inbound: 18
+    prose: [ar, en, ur]
+    brief: true
+  - id: person/jalal-al-din-khwarazmshah
+    label: { ar: "جلال الدين منكبرتي بن خوارزم شاه", en: "person/jalal-al-din-khwarazmshah" }
+    tier: rank
+    reason: "Inbound-link rank continuation of the leveled-100 selection (demand evidence, 25 Oct 2026)."
+    inbound: 18
+    prose: [ar, en, ur]
+    brief: true
+  - id: person/hassan-ibn-thabit
+    label: { ar: "حسان بن ثابت", en: "Hassan ibn Thabit" }
+    tier: rank
+    reason: "Inbound-link rank continuation of the leveled-100 selection (demand evidence, 25 Oct 2026)."
+    inbound: 18
+    prose: [ar, en, ur]
+    brief: false
+  - id: person/al-mutawakkil
+    label: { ar: "المتوكل على الله", en: "al-Mutawakkil ala Allah" }
+    tier: rank
+    reason: "Inbound-link rank continuation of the leveled-100 selection (demand evidence, 25 Oct 2026)."
+    inbound: 18
+    prose: [ar, en, ur]
+    brief: true
+  - id: person/al-malik-al-adil-ayyub
+    label: { ar: "الملك العادل سيف الدين أبو بكر بن أيوب", en: "al-Malik al-Adil Sayf al-Din Abu Bakr ibn Ayyub" }
+    tier: rank
+    reason: "Inbound-link rank continuation of the leveled-100 selection (demand evidence, 25 Oct 2026)."
+    inbound: 18
+    prose: [ar, en, ur]
+    brief: true
+  - id: person/abu-lahab
+    label: { ar: "أبو لهب", en: "Abu Lahab" }
+    tier: rank
+    reason: "Inbound-link rank continuation of the leveled-100 selection (demand evidence, 25 Oct 2026)."
+    inbound: 18
+    prose: [ar, en, ur]
+    brief: true
+  - id: event/letters-to-rulers-and-kings
+    label: { ar: "مكاتبة الملوك والأمراء", en: "The Letters to Rulers and Kings" }
+    tier: rank
+    reason: "Inbound-link rank continuation of the leveled-100 selection (demand evidence, 25 Oct 2026)."
+    inbound: 18
+    prose: [ar, en, ur]
+    brief: false
+  - id: event/hijra-departure
+    label: { ar: "ليلة الخروج في الهجرة", en: "The departure night of the Hijra" }
+    tier: rank
+    reason: "Inbound-link rank continuation of the leveled-100 selection (demand evidence, 25 Oct 2026)."
+    inbound: 18
+    prose: [ar, en, ur]
+    brief: true
+  - id: building/kaaba
+    label: { ar: "الكعبة", en: "The Kaaba" }
+    tier: rank
+    reason: "Inbound-link rank continuation of the leveled-100 selection (demand evidence, 25 Oct 2026)."
+    inbound: 18
+    prose: [ar, en, ur]
+    brief: true
+  - id: place/alexandria
+    label: { ar: "الإسكندرية", en: "Alexandria" }
+    tier: rank
+    reason: "Inbound-link rank continuation of the leveled-100 selection (demand evidence, 25 Oct 2026)."
+    inbound: 17
+    prose: [ar, en, ur]
+    brief: true
+  - id: person/baybars
+    label: { ar: "السلطان الظاهر ركن الدين بيبرس البندقداري", en: "person/baybars" }
+    tier: rank
+    reason: "Inbound-link rank continuation of the leveled-100 selection (demand evidence, 25 Oct 2026)."
+    inbound: 17
+    prose: [ar, en, ur]
+    brief: true
+  - id: group/khuzaa
+    label: { ar: "خزاعة", en: "Khuza'a" }
+    tier: rank
+    reason: "Inbound-link rank continuation of the leveled-100 selection (demand evidence, 25 Oct 2026)."
+    inbound: 17
+    prose: [ar, en, ur]
+    brief: true
+  - id: event/the-three-left-behind
+    label: { ar: "الثلاثة الذين خُلّفوا بعد تبوك", en: "The three who were left behind after Tabuk" }
+    tier: rank
+    reason: "Inbound-link rank continuation of the leveled-100 selection (demand evidence, 25 Oct 2026)."
+    inbound: 17
+    prose: [ar, en, ur]
+    brief: true
+  - id: event/masjid-al-dirar-builders-ask-the-prophet-to-pray
+    label: { ar: "أصحاب المسجد يطلبون من النبي الصلاة فيه", en: "The builders of the mosque ask the Prophet to pray in it" }
+    tier: rank
+    reason: "Inbound-link rank continuation of the leveled-100 selection (demand evidence, 25 Oct 2026)."
+    inbound: 17
+    prose: [ar, en, ur]
+    brief: true
+  - id: concept/ukhuwwa
+    label: { ar: "الأخوة الإسلامية", en: "Muslim brotherhood" }
+    tier: rank
+    reason: "Inbound-link rank continuation of the leveled-100 selection (demand evidence, 25 Oct 2026)."
+    inbound: 17
+    prose: [ar, en, ur]
+    brief: true
+  - id: concept/iddah
+    label: { ar: "العدة", en: "Iddah (waiting period)" }
+    tier: rank
+    reason: "Inbound-link rank continuation of the leveled-100 selection (demand evidence, 25 Oct 2026)."
+    inbound: 17
+    prose: [ar, en, ur]
+    brief: true
+  - id: place/muzdalifa
+    label: { ar: "المزدلفة", en: "Muzdalifa" }
+    tier: rank
+    reason: "Inbound-link rank continuation of the leveled-100 selection (demand evidence, 25 Oct 2026)."
+    inbound: 16
+    prose: [ar, en, ur]
+    brief: true
+  - id: person/khalid-ibn-said-ibn-al-as
+    label: { ar: "خالد بن سعيد بن العاص", en: "Khalid ibn Sa'id ibn al-As" }
+    tier: rank
+    reason: "Inbound-link rank continuation of the leveled-100 selection (demand evidence, 25 Oct 2026)."
+    inbound: 16
+    prose: [ar, en, ur]
+    brief: true
+  - id: person/jarir-ibn-abd-allah-al-bajali
+    label: { ar: "جرير بن عبد الله البجلي", en: "person/jarir-ibn-abd-allah-al-bajali" }
+    tier: rank
+    reason: "Inbound-link rank continuation of the leveled-100 selection (demand evidence, 25 Oct 2026)."
+    inbound: 16
+    prose: [ar, en, ur]
+    brief: true
+  - id: person/ibn-hajar-al-asqalani
+    label: { ar: "شيخ الإسلام ابن حجر العسقلاني", en: "person/ibn-hajar-al-asqalani" }
+    tier: rank
+    reason: "Inbound-link rank continuation of the leveled-100 selection (demand evidence, 25 Oct 2026)."
+    inbound: 16
+    prose: [ar, en, ur]
+    brief: true
+  - id: person/habib-ibn-maslama
+    label: { ar: "حبيب بن مسلمة الفهري", en: "Habib ibn Maslama al-Fihri" }
+    tier: rank
+    reason: "Inbound-link rank continuation of the leveled-100 selection (demand evidence, 25 Oct 2026)."
+    inbound: 16
+    prose: [ar, en, ur]
+    brief: true
+  - id: person/asma-bint-umays
+    label: { ar: "أسماء بنت عميس", en: "Asma' bint Umays" }
+    tier: rank
+    reason: "Inbound-link rank continuation of the leveled-100 selection (demand evidence, 25 Oct 2026)."
+    inbound: 16
+    prose: [ar, en, ur]
+    brief: true
+  - id: person/al-qaim-billah
+    label: { ar: "القائم بأمر الله عبد الله بن القادر", en: "al-Qa'im bi-Amr Allah Abd Allah ibn al-Qadir" }
+    tier: rank
+    reason: "Inbound-link rank continuation of the leveled-100 selection (demand evidence, 25 Oct 2026)."
+    inbound: 16
+    prose: [ar, en, ur]
+    brief: true
+  - id: person/al-mutadid
+    label: { ar: "المعتضد بالله", en: "al-Mu'tadid bi-llah" }
+    tier: rank
+    reason: "Inbound-link rank continuation of the leveled-100 selection (demand evidence, 25 Oct 2026)."
+    inbound: 16
+    prose: [ar, en, ur]
+    brief: true
+  - id: group/banu-sahm
+    label: { ar: "بنو سهم", en: "Banu Sahm" }
+    tier: rank
+    reason: "Inbound-link rank continuation of the leveled-100 selection (demand evidence, 25 Oct 2026)."
+    inbound: 16
+    prose: [ar, en, ur]
+    brief: true
+  - id: group/banu-jumah
+    label: { ar: "بنو جمح", en: "Banu Jumah" }
+    tier: rank
+    reason: "Inbound-link rank continuation of the leveled-100 selection (demand evidence, 25 Oct 2026)."
+    inbound: 16
+    prose: [ar, en, ur]
+    brief: true
+  - id: group/banu-abd-shams
+    label: { ar: "بنو عبد شمس", en: "Banu Abd Shams" }
+    tier: rank
+    reason: "Inbound-link rank continuation of the leveled-100 selection (demand evidence, 25 Oct 2026)."
+    inbound: 16
+    prose: [ar, en, ur]
+    brief: true
+  - id: group/ahl-al-bayt
+    label: { ar: "أهل البيت", en: "Ahl al-Bayt" }
+    tier: rank
+    reason: "Inbound-link rank continuation of the leveled-100 selection (demand evidence, 25 Oct 2026)."
+    inbound: 16
+    prose: [ar, en, ur]
+    brief: true
+  - id: event/saqifa
+    label: { ar: "اجتماع السقيفة", en: "The meeting at Saqifa" }
+    tier: rank
+    reason: "Inbound-link rank continuation of the leveled-100 selection (demand evidence, 25 Oct 2026)."
+    inbound: 16
+    prose: [ar, en, ur]
+    brief: true
+  - id: event/ridda-wars
+    label: { ar: "حروب الردة", en: "The Ridda Wars" }
+    tier: rank
+    reason: "Inbound-link rank continuation of the leveled-100 selection (demand evidence, 25 Oct 2026)."
+    inbound: 16
+    prose: [ar, en, ur]
+    brief: true
+  - id: event/raid-of-zayd-on-judham
+    label: { ar: "غزوة زيد بن حارثة إلى جذام وردّ النبي ما أُخذ منهم", en: "Zayd ibn Haritha's raid on Judham and the Prophet's restitution" }
+    tier: rank
+    reason: "Inbound-link rank continuation of the leveled-100 selection (demand evidence, 25 Oct 2026)."
+    inbound: 16
+    prose: [ar, en, ur]
+    brief: true
+  - id: event/delegation-of-thaqif
+    label: { ar: "وفد ثقيف", en: "The delegation of Thaqif" }
+    tier: rank
+    reason: "Inbound-link rank continuation of the leveled-100 selection (demand evidence, 25 Oct 2026)."
+    inbound: 16
+    prose: [ar, en, ur]
+    brief: true
+  - id: event/conquest-of-jazira
+    label: { ar: "فتح الجزيرة", en: "The Conquest of the Jazira" }
+    tier: rank
+    reason: "Inbound-link rank continuation of the leveled-100 selection (demand evidence, 25 Oct 2026)."
+    inbound: 16
+    prose: [ar, en, ur]
+    brief: true
+  - id: event/battle-of-yamama
+    label: { ar: "وقعة اليمامة", en: "The Battle of Yamama" }
+    tier: rank
+    reason: "Inbound-link rank continuation of the leveled-100 selection (demand evidence, 25 Oct 2026)."
+    inbound: 16
+    prose: [ar, en, ur]
+    brief: true
+  - id: place/jazira
+    label: { ar: "الجزيرة", en: "The Jazira" }
+    tier: rank
+    reason: "Inbound-link rank continuation of the leveled-100 selection (demand evidence, 25 Oct 2026)."
+    inbound: 15
+    prose: [ar, en, ur]
+    brief: true
+  - id: place/ifriqiya
+    label: { ar: "إفريقية", en: "Ifriqiya" }
+    tier: rank
+    reason: "Inbound-link rank continuation of the leveled-100 selection (demand evidence, 25 Oct 2026)."
+    inbound: 15
+    prose: [ar, en, ur]
+    brief: true
+  - id: place/badr
+    label: { ar: "بدر", en: "Badr" }
+    tier: rank
+    reason: "Inbound-link rank continuation of the leveled-100 selection (demand evidence, 25 Oct 2026)."
+    inbound: 15
+    prose: [ar, en, ur]
+    brief: true
+  - id: place/al-hira
+    label: { ar: "الحيرة", en: "al-Hira" }
+    tier: rank
+    reason: "Inbound-link rank continuation of the leveled-100 selection (demand evidence, 25 Oct 2026)."
+    inbound: 15
+    prose: [ar, en, ur]
+    brief: true
+  - id: person/talha-ibn-ubaydullah
+    label: { ar: "طلحة بن عبيد الله", en: "Talha ibn Ubaydullah" }
+    tier: rank
+    reason: "Inbound-link rank continuation of the leveled-100 selection (demand evidence, 25 Oct 2026)."
+    inbound: 15
+    prose: [ar, en, ur]
+    brief: false
+  - id: person/sulayman-al-qanuni
+    label: { ar: "سليمان القانوني", en: "person/sulayman-al-qanuni" }
+    tier: rank
+    reason: "Inbound-link rank continuation of the leveled-100 selection (demand evidence, 25 Oct 2026)."
+    inbound: 15
+    prose: [ar, en, ur]
+    brief: true
+  - id: person/hasan-ibn-khayr-al-din
+    label: { ar: "حسن بن خير الدين بربروسة", en: "Hasan b. Khayr al-Din Barbarossa" }
+    tier: rank
+    reason: "Inbound-link rank continuation of the leveled-100 selection (demand evidence, 25 Oct 2026)."
+    inbound: 15
+    prose: [ar, en, ur]
+    brief: true
+  - id: person/al-mutasim-abi-ishaq
+    label: { ar: "المعتصم بالله أبو إسحاق بن الرشيد", en: "al-Mu'tasim Abu Ishaq ibn al-Rashid" }
+    tier: rank
+    reason: "Inbound-link rank continuation of the leveled-100 selection (demand evidence, 25 Oct 2026)."
+    inbound: 15
+    prose: [ar, en, ur]
+    brief: true
+  - id: person/abdullah-ibn-abd-al-muttalib
+    label: { ar: "عبد الله بن عبد المطلب", en: "Abdullah ibn Abd al-Muttalib" }
+    tier: rank
+    reason: "Inbound-link rank continuation of the leveled-100 selection (demand evidence, 25 Oct 2026)."
+    inbound: 15
+    prose: [ar, en, ur]
+    brief: true
+  - id: group/banu-hamdan
+    label: { ar: "بنو همدان", en: "Banu Hamdan" }
+    tier: rank
+    reason: "Inbound-link rank continuation of the leveled-100 selection (demand evidence, 25 Oct 2026)."
+    inbound: 15
+    prose: [ar, en, ur]
+    brief: true
+  - id: event/sariyya-of-uyayna-to-banu-tamim
+    label: { ar: "سرية عيينة بن حصن الفزاري إلى بني تميم", en: "Uyayna ibn Hisn's raid on Banu Tamim" }
+    tier: rank
+    reason: "Inbound-link rank continuation of the leveled-100 selection (demand evidence, 25 Oct 2026)."
+    inbound: 15
+    prose: [ar, en, ur]
+    brief: true
+  - id: event/khuzaa-bakr-clash-al-watir
+    label: { ar: "القتال بين بني بكر وخزاعة على الوتير", en: "The Bakr–Khuza'a clash at al-Watir" }
+    tier: rank
+    reason: "Inbound-link rank continuation of the leveled-100 selection (demand evidence, 25 Oct 2026)."
+    inbound: 15
+    prose: [ar, en, ur]
+    brief: true
+  - id: event/badr-prisoners
+    label: { ar: "قضية أسارى بدر", en: "The affair of the Badr prisoners" }
+    tier: rank
+    reason: "Inbound-link rank continuation of the leveled-100 selection (demand evidence, 25 Oct 2026)."
+    inbound: 15
+    prose: [ar, en, ur]
+    brief: true
+  - id: concept/qadar
+    label: { ar: "القدر", en: "Qadar (divine decree)" }
+    tier: rank
+    reason: "Inbound-link rank continuation of the leveled-100 selection (demand evidence, 25 Oct 2026)."
+    inbound: 15
+    prose: [ar, en, ur]
+    brief: true
+  - id: concept/ihdad
+    label: { ar: "إحداد", en: "Mourning of a widow (ihdad)" }
+    tier: rank
+    reason: "Inbound-link rank continuation of the leveled-100 selection (demand evidence, 25 Oct 2026)."
+    inbound: 15
+    prose: [ar, en, ur]
+    brief: true
+  - id: place/hama
+    label: { ar: "حماة", en: "Hama" }
+    tier: rank
+    reason: "Inbound-link rank continuation of the leveled-100 selection (demand evidence, 25 Oct 2026)."
+    inbound: 14
+    prose: [ar, en, ur]
+    brief: true
+  - id: person/ziyad-ibn-abi-sufyan
+    label: { ar: "زياد بن أبي سفيان", en: "person/ziyad-ibn-abi-sufyan" }
+    tier: rank
+    reason: "Inbound-link rank continuation of the leveled-100 selection (demand evidence, 25 Oct 2026)."
+    inbound: 14
+    prose: [ar, en, ur]
+    brief: true
+  - id: person/ubayy-ibn-kab
+    label: { ar: "أبي بن كعب، وعند ابن النديم أن تأليف السور في قراءته كان بالبصرة في قرية الأنصار عند محمد بن عبد الملك الأنصاري وأن مصحفه مائة وست عشرة سورة فيها سورتا الخلع والحفد وأن جميع آي القرآن في قوله ستة آلاف ومائتان وعشر آيات {cite:fihrist-ibn-al-nadim p. 67-68", en: "Ubayy ibn Ka'b" }
+    tier: rank
+    reason: "Inbound-link rank continuation of the leveled-100 selection (demand evidence, 25 Oct 2026)."
+    inbound: 14
+    prose: [ar, en, ur]
+    brief: true
+  - id: person/suhayl-ibn-amr
+    label: { ar: "سهيل بن عمرو", en: "Suhayl ibn Amr" }
+    tier: rank
+    reason: "Inbound-link rank continuation of the leveled-100 selection (demand evidence, 25 Oct 2026)."
+    inbound: 14
+    prose: [ar, en, ur]
+    brief: true
+  - id: person/nur-al-din-mahmud-ibn-zangi
+    label: { ar: "نور الدين محمود بن زنكي", en: "person/nur-al-din-mahmud-ibn-zangi" }
+    tier: rank
+    reason: "Inbound-link rank continuation of the leveled-100 selection (demand evidence, 25 Oct 2026)."
+    inbound: 14
+    prose: [ar, en, ur]
+    brief: true
+  - id: person/musaylima
+    label: { ar: "مسيلمة", en: "Musaylima" }
+    tier: rank
+    reason: "Inbound-link rank continuation of the leveled-100 selection (demand evidence, 25 Oct 2026)."
+    inbound: 14
+    prose: [ar, en, ur]
+    brief: true
+  - id: person/hudhayfa-ibn-al-yaman
+    label: { ar: "حذيفة بن اليمان", en: "Hudhayfa ibn al-Yaman" }
+    tier: rank
+    reason: "Inbound-link rank continuation of the leveled-100 selection (demand evidence, 25 Oct 2026)."
+    inbound: 14
+    prose: [ar, en, ur]
+    brief: false
+  - id: person/ammar-ibn-yasir
+    label: { ar: "عمّار بن ياسر", en: "Ammar ibn Yasir" }
+    tier: rank
+    reason: "Inbound-link rank continuation of the leveled-100 selection (demand evidence, 25 Oct 2026)."
+    inbound: 14
+    prose: [ar, en, ur]
+    brief: false
+  - id: person/al-hajjaj-ibn-yusuf
+    label: { ar: "الحجاج بن يوسف الثقفي", en: "al-Hajjaj ibn Yusuf al-Thaqafi" }
+    tier: rank
+    reason: "Inbound-link rank continuation of the leveled-100 selection (demand evidence, 25 Oct 2026)."
+    inbound: 14
+    prose: [ar, en, ur]
+    brief: true
+  - id: person/abd-allah-ibn-amir
+    label: { ar: "عبد الله بن عامر", en: "Abd Allah ibn Amir" }
+    tier: rank
+    reason: "Inbound-link rank continuation of the leveled-100 selection (demand evidence, 25 Oct 2026)."
+    inbound: 14
+    prose: [ar, en, ur]
+    brief: true
+  - id: group/builders-of-masjid-al-dirar
+    label: { ar: "أصحاب مسجد الضرار", en: "The builders of Masjid al-Dirar" }
+    tier: rank
+    reason: "Inbound-link rank continuation of the leveled-100 selection (demand evidence, 25 Oct 2026)."
+    inbound: 14
+    prose: [ar, en, ur]
+    brief: true
+  - id: group/banu-umayya
+    label: { ar: "بنو أمية بن عبد شمس", en: "Banu Umayya ibn Abd Shams" }
+    tier: rank
+    reason: "Inbound-link rank continuation of the leveled-100 selection (demand evidence, 25 Oct 2026)."
+    inbound: 14
+    prose: [ar, en, ur]
+    brief: true
+  - id: group/banu-makhzum
+    label: { ar: "بنو مخزوم", en: "Banu Makhzum" }
+    tier: rank
+    reason: "Inbound-link rank continuation of the leveled-100 selection (demand evidence, 25 Oct 2026)."
+    inbound: 14
+    prose: [ar, en, ur]
+    brief: true
+  - id: event/mission-of-khalid-to-banu-al-harith
+    label: { ar: "بعث خالد بن الوليد إلى بني الحارث بن كعب وإسلامهم وقدوم وفدهم", en: "Khalid ibn al-Walid's mission to Banu al-Harith ibn Ka'b, their conversion and their delegation" }
+    tier: rank
+    reason: "Inbound-link rank continuation of the leveled-100 selection (demand evidence, 25 Oct 2026)."
+    inbound: 14
+    prose: [ar, en, ur]
+    brief: true
+  - id: event/incident-of-the-slander
+    label: { ar: "حادثة الإفك", en: "The Incident of the Slander (Hadith al-Ifk)" }
+    tier: rank
+    reason: "Inbound-link rank continuation of the leveled-100 selection (demand evidence, 25 Oct 2026)."
+    inbound: 14
+    prose: [ar, en, ur]
+    brief: false
+  - id: concept/maghfira
+    label: { ar: "المغفرة", en: "Divine forgiveness (maghfira)" }
+    tier: rank
+    reason: "Inbound-link rank continuation of the leveled-100 selection (demand evidence, 25 Oct 2026)."
+    inbound: 14
+    prose: [ar, en, ur]
+    brief: true
+  - id: concept/dhikr
+    label: { ar: "الذكر", en: "Remembrance of God (dhikr)" }
+    tier: rank
+    reason: "Inbound-link rank continuation of the leveled-100 selection (demand evidence, 25 Oct 2026)."
+    inbound: 14
+    prose: [ar, en, ur]
+    brief: true
+  - id: practice/zakat-al-fitr
+    label: { ar: "زكاة الفطر", en: "Zakat al-Fitr" }
+    tier: rank
+    reason: "Inbound-link rank continuation of the leveled-100 selection (demand evidence, 25 Oct 2026)."
+    inbound: 13
+    prose: [ar, en, ur]
+    brief: true
+  - id: place/tunis
+    label: { ar: "تونس", en: "Tunis" }
+    tier: rank
+    reason: "Inbound-link rank continuation of the leveled-100 selection (demand evidence, 25 Oct 2026)."
+    inbound: 13
+    prose: [ar, en, ur]
+    brief: true
+  - id: place/tabuk
+    label: { ar: "تبوك", en: "Tabuk" }
+    tier: rank
+    reason: "Inbound-link rank continuation of the leveled-100 selection (demand evidence, 25 Oct 2026)."
+    inbound: 13
+    prose: [ar, en, ur]
+    brief: true
+  - id: place/rayy
+    label: { ar: "الري", en: "Rayy" }
+    tier: rank
+    reason: "Inbound-link rank continuation of the leveled-100 selection (demand evidence, 25 Oct 2026)."
+    inbound: 13
+    prose: [ar, en, ur]
+    brief: true
+  - id: place/quba
+    label: { ar: "قباء", en: "Quba" }
+    tier: rank
+    reason: "Inbound-link rank continuation of the leveled-100 selection (demand evidence, 25 Oct 2026)."
+    inbound: 13
+    prose: [ar, en, ur]
+    brief: true
+  - id: place/mutah
+    label: { ar: "مؤتة", en: "Mu'tah" }
+    tier: rank
+    reason: "Inbound-link rank continuation of the leveled-100 selection (demand evidence, 25 Oct 2026)."
+    inbound: 13
+    prose: [ar, en, ur]
+    brief: true
+  - id: person/uyayna-ibn-hisn
+    label: { ar: "عيينة بن حصن الفزاري", en: "Uyayna ibn Hisn al-Fazari" }
+    tier: rank
+    reason: "Inbound-link rank continuation of the leveled-100 selection (demand evidence, 25 Oct 2026)."
+    inbound: 13
+    prose: [ar, en, ur]
+    brief: true
+  - id: person/selim-i-ottoman
+    label: { ar: "السلطان سليم شاه بن عثمان", en: "person/selim-i-ottoman" }
+    tier: rank
+    reason: "Inbound-link rank continuation of the leveled-100 selection (demand evidence, 25 Oct 2026)."
+    inbound: 13
+    prose: [ar, en, ur]
+    brief: true
+  - id: person/ikrima-ibn-abi-jahl
+    label: { ar: "عكرمة بن أبي جهل", en: "Ikrima ibn Abi Jahl" }
+    tier: rank
+    reason: "Inbound-link rank continuation of the leveled-100 selection (demand evidence, 25 Oct 2026)."
+    inbound: 13
+    prose: [ar, en, ur]
+    brief: true
+  - id: person/ibn-qudama-al-maqdisi
+    label: { ar: "ابن قدامة المقدسي", en: "Ibn Qudama al-Maqdisi" }
+    tier: rank
+    reason: "Inbound-link rank continuation of the leveled-100 selection (demand evidence, 25 Oct 2026)."
+    inbound: 13
+    prose: [ar, en, ur]
+    brief: true
+  - id: person/al-muthanna-ibn-haritha
+    label: { ar: "المثنى بن حارثة", en: "al-Muthanna ibn Haritha" }
+    tier: rank
+    reason: "Inbound-link rank continuation of the leveled-100 selection (demand evidence, 25 Oct 2026)."
+    inbound: 13
+    prose: [ar, en, ur]
+    brief: true
+  - id: person/al-aqra-ibn-habis
+    label: { ar: "الأقرع بن حابس التميمي", en: "al-Aqra' ibn Habis al-Tamimi" }
+    tier: rank
+    reason: "Inbound-link rank continuation of the leveled-100 selection (demand evidence, 25 Oct 2026)."
+    inbound: 13
+    prose: [ar, en, ur]
+    brief: true
+  - id: person/abd-allah-ibn-rawaha
+    label: { ar: "عبد الله بن رواحة", en: "Abd Allah ibn Rawaha" }
+    tier: rank
+    reason: "Inbound-link rank continuation of the leveled-100 selection (demand evidence, 25 Oct 2026)."
+    inbound: 13
+    prose: [ar, en, ur]
+    brief: true
+  - id: period/rashidun
+    label: { ar: "عصر الخلفاء الراشدين", en: "The Rashidun Caliphate" }
+    tier: rank
+    reason: "Inbound-link rank continuation of the leveled-100 selection (demand evidence, 25 Oct 2026)."
+    inbound: 13
+    prose: [ar, en, ur]
+    brief: true
+  - id: group/kinda
+    label: { ar: "كندة", en: "Kinda" }
+    tier: rank
+    reason: "Inbound-link rank continuation of the leveled-100 selection (demand evidence, 25 Oct 2026)."
+    inbound: 13
+    prose: [ar, en, ur]
+    brief: true
+  - id: group/banu-nadir
+    label: { ar: "بنو النضير", en: "Banu Nadir" }
+    tier: rank
+    reason: "Inbound-link rank continuation of the leveled-100 selection (demand evidence, 25 Oct 2026)."
+    inbound: 13
+    prose: [ar, en, ur]
+    brief: true
+  - id: group/al-khazraj
+    label: { ar: "الخزرج", en: "al-Khazraj" }
+    tier: rank
+    reason: "Inbound-link rank continuation of the leveled-100 selection (demand evidence, 25 Oct 2026)."
+    inbound: 13
+    prose: [ar, en, ur]
+    brief: true
+  - id: event/second-migration-to-abyssinia
+    label: { ar: "الهجرة الثانية إلى الحبشة", en: "The second migration to Abyssinia" }
+    tier: rank
+    reason: "Inbound-link rank continuation of the leveled-100 selection (demand evidence, 25 Oct 2026)."
+    inbound: 13
+    prose: [ar, en, ur]
+    brief: false
+  - id: event/journey-to-taif
+    label: { ar: "خروج النبي إلى الطائف", en: "The Prophet's journey to al-Ta'if" }
+    tier: rank
+    reason: "Inbound-link rank continuation of the leveled-100 selection (demand evidence, 25 Oct 2026)."
+    inbound: 13
+    prose: [ar, en, ur]
+    brief: true
+  - id: event/isra-and-miraj
+    label: { ar: "الإسراء والمعراج", en: "The Isra and Mi'raj" }
+    tier: rank
+    reason: "Inbound-link rank continuation of the leveled-100 selection (demand evidence, 25 Oct 2026)."
+    inbound: 13
+    prose: [ar, en, ur]
+    brief: true
+  - id: event/fatrat-al-wahy
+    label: { ar: "فترة الوحي", en: "The pause of revelation (Fatra)" }
+    tier: rank
+    reason: "Inbound-link rank continuation of the leveled-100 selection (demand evidence, 25 Oct 2026)."
+    inbound: 13
+    prose: [ar, en, ur]
+    brief: true
+  - id: event/expedition-of-nakhla
+    label: { ar: "سرية نخلة", en: "Expedition of Nakhla" }
+    tier: rank
+    reason: "Inbound-link rank continuation of the leveled-100 selection (demand evidence, 25 Oct 2026)."
+    inbound: 13
+    prose: [ar, en, ur]
+    brief: true
+  - id: event/battle-of-yarmuk
+    label: { ar: "معركة اليرموك", en: "Battle of the Yarmuk" }
+    tier: rank
+    reason: "Inbound-link rank continuation of the leveled-100 selection (demand evidence, 25 Oct 2026)."
+    inbound: 13
+    prose: [ar, en, ur]
+    brief: true
+  - id: event/badr-duel
+    label: { ar: "مبارزة بدر", en: "The duel at Badr" }
+    tier: rank
+    reason: "Inbound-link rank continuation of the leveled-100 selection (demand evidence, 25 Oct 2026)."
+    inbound: 13
+    prose: [ar, en, ur]
+    brief: true
+  - id: concept/ushr
+    label: { ar: "العُشْر", en: "Tithe on the trade of non-Muslims (ushr)" }
+    tier: rank
+    reason: "Inbound-link rank continuation of the leveled-100 selection (demand evidence, 25 Oct 2026)."
+    inbound: 13
+    prose: [ar, en, ur]
+    brief: true
+  - id: concept/khamr
+    label: { ar: "الخمر", en: "Wine" }
+    tier: rank
+    reason: "Inbound-link rank continuation of the leveled-100 selection (demand evidence, 25 Oct 2026)."
+    inbound: 13
+    prose: [ar, en, ur]
+    brief: true
+  - id: place/harran
+    label: { ar: "حران", en: "Harran" }
+    tier: rank
+    reason: "Inbound-link rank continuation of the leveled-100 selection (demand evidence, 25 Oct 2026)."
+    inbound: 12
+    prose: [ar, en, ur]
+    brief: true
+  - id: place/dhu-al-hulayfa
+    label: { ar: "ذو الحليفة", en: "Dhu al-Hulayfa" }
+    tier: rank
+    reason: "Inbound-link rank continuation of the leveled-100 selection (demand evidence, 25 Oct 2026)."
+    inbound: 12
+    prose: [ar, en, ur]
+    brief: true
+  - id: person/uqba-ibn-abi-muayt
+    label: { ar: "عقبة بن أبي معيط", en: "Uqba ibn Abi Mu'ayt" }
+    tier: rank
+    reason: "Inbound-link rank continuation of the leveled-100 selection (demand evidence, 25 Oct 2026)."
+    inbound: 12
+    prose: [ar, en, ur]
+    brief: true
+  - id: person/umm-habiba-bint-abi-sufyan
+    label: { ar: "أم حبيبة رملة بنت أبي سفيان", en: "Umm Habiba Ramlah bint Abi Sufyan" }
+    tier: rank
+    reason: "Inbound-link rank continuation of the leveled-100 selection (demand evidence, 25 Oct 2026)."
+    inbound: 12
+    prose: [ar, en, ur]
+    brief: true
+  - id: person/umayya-ibn-khalaf
+    label: { ar: "أمية بن خلف", en: "Umayya ibn Khalaf" }
+    tier: rank
+    reason: "Inbound-link rank continuation of the leveled-100 selection (demand evidence, 25 Oct 2026)."
+    inbound: 12
+    prose: [ar, en, ur]
+    brief: true
+  - id: person/sawda-bint-zama
+    label: { ar: "سودة بنت زمعة", en: "Sawda bint Zam'a" }
+    tier: rank
+    reason: "Inbound-link rank continuation of the leveled-100 selection (demand evidence, 25 Oct 2026)."
+    inbound: 12
+    prose: [ar, en, ur]
+    brief: false
+  - id: person/salih-rais
+    label: { ar: "صالح رايس", en: "Salih Reis" }
+    tier: rank
+    reason: "Inbound-link rank continuation of the leveled-100 selection (demand evidence, 25 Oct 2026)."
+    inbound: 12
+    prose: [ar, en, ur]
+    brief: true
+  - id: person/safiyya-bint-huyayy
+    label: { ar: "صفية بنت حيي", en: "Safiyya bint Huyayy" }
+    tier: rank
+    reason: "Inbound-link rank continuation of the leveled-100 selection (demand evidence, 25 Oct 2026)."
+    inbound: 12
+    prose: [ar, en, ur]
+    brief: true
+  - id: person/murad-ii-uthmani
+    label: { ar: "مراد الثاني", en: "person/murad-ii-uthmani" }
+    tier: rank
+    reason: "Inbound-link rank continuation of the leveled-100 selection (demand evidence, 25 Oct 2026)."
+    inbound: 12
+    prose: [ar, en, ur]
+    brief: true
+  - id: person/bayazid-ii
+    label: { ar: "بايزيد الثاني", en: "person/bayazid-ii" }
+    tier: rank
+    reason: "Inbound-link rank continuation of the leveled-100 selection (demand evidence, 25 Oct 2026)."
+    inbound: 12
+    prose: [ar, en, ur]
+    brief: true
+  - id: person/al-hakim-bi-amr-allah
+    label: { ar: "الحاكم بأمر الله منصور بن العزيز", en: "al-Hakim bi-Amr Allah Mansur ibn al-Aziz" }
+    tier: rank
+    reason: "Inbound-link rank continuation of the leveled-100 selection (demand evidence, 25 Oct 2026)."
+    inbound: 12
+    prose: [ar, en, ur]
+    brief: true
+  - id: person/al-bara-ibn-azib
+    label: { ar: "البراء بن عازب", en: "al-Bara' ibn Azib" }
+    tier: rank
+    reason: "Inbound-link rank continuation of the leveled-100 selection (demand evidence, 25 Oct 2026)."
+    inbound: 12
+    prose: [ar, en, ur]
+    brief: true
+  - id: group/himyar
+    label: { ar: "حمير", en: "Himyar" }
+    tier: rank
+    reason: "Inbound-link rank continuation of the leveled-100 selection (demand evidence, 25 Oct 2026)."
+    inbound: 12
+    prose: [ar, en, ur]
+    brief: true
+  - id: group/hawazin
+    label: { ar: "هوازن", en: "Hawazin" }
+    tier: rank
+    reason: "Inbound-link rank continuation of the leveled-100 selection (demand evidence, 25 Oct 2026)."
+    inbound: 12
+    prose: [ar, en, ur]
+    brief: true
+  - id: group/banu-zuhra
+    label: { ar: "بنو زهرة", en: "Banu Zuhra" }
+    tier: rank
+    reason: "Inbound-link rank continuation of the leveled-100 selection (demand evidence, 25 Oct 2026)."
+    inbound: 12
+    prose: [ar, en, ur]
+    brief: true
+  - id: group/banu-taghlib
+    label: { ar: "بنو تغلب بن وائل", en: "Banu Taghlib ibn Wa'il" }
+    tier: rank
+    reason: "Inbound-link rank continuation of the leveled-100 selection (demand evidence, 25 Oct 2026)."
+    inbound: 12
+    prose: [ar, en, ur]
+    brief: true
+  - id: group/bakr-ibn-wail
+    label: { ar: "بكر بن وائل", en: "Bakr ibn Wa'il" }
+    tier: rank
+    reason: "Inbound-link rank continuation of the leveled-100 selection (demand evidence, 25 Oct 2026)."
+    inbound: 12
+    prose: [ar, en, ur]
+    brief: true
+  - id: event/uhud-defense-of-the-prophet
+    label: { ar: "الدفاع عن رسول الله في أحد", en: "Defense of the Prophet at Uhud" }
+    tier: rank
+    reason: "Inbound-link rank continuation of the leveled-100 selection (demand evidence, 25 Oct 2026)."
+    inbound: 12
+    prose: [ar, en, ur]
+    brief: true
+  - id: event/siege-of-ayn-al-tamr
+    label: { ar: "حصار عين التمر وسبي كنيستها", en: "The Siege of Ayn al-Tamr and Its Church Captives" }
+    tier: rank
+    reason: "Inbound-link rank continuation of the leveled-100 selection (demand evidence, 25 Oct 2026)."
+    inbound: 12
+    prose: [ar, en, ur]
+    brief: true
+  - id: event/repentance-of-the-three-accepted
+    label: { ar: "قبول توبة الثلاثة", en: "The acceptance of the repentance of the three" }
+    tier: rank
+    reason: "Inbound-link rank continuation of the leveled-100 selection (demand evidence, 25 Oct 2026)."
+    inbound: 12
+    prose: [ar, en, ur]
+    brief: true
+  - id: event/letter-of-himyar-kings
+    label: { ar: "كتاب ملوك حمير", en: "The letter of the kings of Himyar" }
+    tier: rank
+    reason: "Inbound-link rank continuation of the leveled-100 selection (demand evidence, 25 Oct 2026)."
+    inbound: 12
+    prose: [ar, en, ur]
+    brief: true
+  - id: event/last-quraysh-delegation-to-abu-talib
+    label: { ar: "آخر وفد لقريش إلى أبي طالب", en: "Last Quraysh delegation to Abu Talib" }
+    tier: rank
+    reason: "Inbound-link rank continuation of the leveled-100 selection (demand evidence, 25 Oct 2026)."
+    inbound: 12
+    prose: [ar, en, ur]
+    brief: true
+  - id: event/islam-of-umar
+    label: { ar: "إسلام عمر بن الخطاب", en: "Umar accepts Islam" }
+    tier: rank
+    reason: "Inbound-link rank continuation of the leveled-100 selection (demand evidence, 25 Oct 2026)."
+    inbound: 12
+    prose: [ar, en, ur]
+    brief: true
+  - id: event/farewell-sermon-at-arafat
+    label: { ar: "خطبة عرفة الجامعة", en: "The Farewell Sermon at Arafat" }
+    tier: rank
+    reason: "Inbound-link rank continuation of the leveled-100 selection (demand evidence, 25 Oct 2026)."
+    inbound: 12
+    prose: [ar, en, ur]
+    brief: true
+  - id: event/expedition-of-banu-al-mustaliq
+    label: { ar: "غزوة بني المصطلق (المريسيع)", en: "The Expedition of Banu al-Mustaliq (al-Muraysi')" }
+    tier: rank
+    reason: "Inbound-link rank continuation of the leveled-100 selection (demand evidence, 25 Oct 2026)."
+    inbound: 12
+    prose: [ar, en, ur]
+    brief: false
+  - id: event/dispatch-of-sadaqa-collectors
+    label: { ar: "بعث المُصَدِّقين إلى القبائل", en: "The dispatch of the sadaqa collectors" }
+    tier: rank
+    reason: "Inbound-link rank continuation of the leveled-100 selection (demand evidence, 25 Oct 2026)."
+    inbound: 12
+    prose: [ar, en, ur]
+    brief: true
