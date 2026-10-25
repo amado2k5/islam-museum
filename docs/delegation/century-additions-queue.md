@@ -98,11 +98,11 @@ lists' own order. Status markers: [ ] queued · [~] in a writer's hands · [x] m
 - [x] Ibrahim Hooper — 1955–Living
 - [x] Keith Ellison — 1963–Living
 - [x] Andre Carson — 1974–Living
-- [ ] Salima Mazari — 1980–Living
-- [ ] Fawzia Koofi — 1975–Living
-- [ ] Sima Samar — 1957–Living
-- [ ] Habiba Sarābi — 1956–Living
-- [ ] Dr. Hawa Abdi — 1947–2020
+- [x] Salima Mazari — 1980–Living
+- [x] Fawzia Koofi — 1975–Living
+- [x] Sima Samar — 1957–Living
+- [x] Habiba Sarābi — 1956–Living
+- [x] Dr. Hawa Abdi — 1947–2020
 - [x] Ilwad Elman — 1989–Living
 - [x] Fartuun Adan — 1969–Living
 - [x] Ayaan Hirsi Ali (Historical Figure) — 1969–Living

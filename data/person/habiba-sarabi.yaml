@@ -1,0 +1,39 @@
+id: person/habiba-sarabi
+class: person
+label: { ar: "حبیبه سرابی", en: "Habiba Sarabi", ur: "حبیبہ سرابی" }
+names:
+  - { value: "Habiba Sarabi", kind: full }
+  - { value: "حبیبه سرابی", kind: full }
+  - { value: "Habiba Sarobi", kind: alternate }
+gender: female
+summary:
+  ar: "طبيبة دم أفغانية وسياسية ومصلحة، وُلدت سنة 1956. فرّت مع أطفالها إلى بيشاور في حكم طالبان الأول وعملت سرًّا معلّمة للبنات. خلفت سيما سمر وزيرةً لشؤون المرأة (2002–2004)، ثم عيّنها الرئيس كرزاي سنة 2005 حاكمة لولاية باميان فصارت أول امرأة تتولى حاكمية ولاية في تاريخ أفغانستان، وبقيت في المنصب حتى 2013. نالت جائزة رامون ماغسايساي سنة 2013، وكانت عضوة في فريق الحكومة الأفغانية المفاوض للسلام مع طالبان سنة 2020. اسمها يُكتب أحيانًا ساروبي."
+  en: "Afghan hematologist, politician and reformer, born in 1956. During the first Taliban rule she fled with her children to Peshawar and worked underground as a teacher of girls. She succeeded Sima Samar as Minister of Women's Affairs (2002–2004), and in 2005 President Karzai appointed her Governor of Bamyan province — the first woman to govern an Afghan province — a post she held until 2013. She received the Ramon Magsaysay Award in 2013 and sat on the Afghan government's peace negotiation team with the Taliban in 2020. Her surname is sometimes spelled Sarobi."
+  ur: "افغان ماہرِ امراضِ خون، سیاست دان اور مصلح، 1956ء میں پیدا ہوئیں۔ طالبان کے پہلے دور میں وہ بچوں کے ساتھ پشاور فرار ہوئیں اور خفیہ طور پر لڑکیوں کو پڑھاتی رہیں۔ وہ سیما سمر کے بعد وزیرِ امورِ خواتین بنیں (2002ء–2004ء)، پھر 2005ء میں صدر کرزئی نے انھیں بامیان صوبے کی گورنر مقرر کیا — افغانستان کی تاریخ میں کسی صوبے کی پہلی خاتون گورنر — اور وہ 2013ء تک اس عہدے پر رہیں۔ انھیں 2013ء میں رامون میگسیسے ایوارڈ ملا اور 2020ء میں وہ طالبان کے ساتھ حکومتی مذاکراتی ٹیم کی رکن تھیں۔ ان کا خاندانی نام کبھی ساروبی بھی لکھا جاتا ہے۔"
+roles: [physician, politician]
+wings: [people, living]
+born:
+  edtf: "1956"
+  hijri: "1375"
+  calendar: gregorian
+  precision: year
+  status: debated
+  derived: true
+  note: "Birth year and place are contested and all variants are recorded. The English Wikipedia article, citing the Historical Dictionary of Afghanistan, gives born 1956 in Sarab, Ghazni province. Against this, her European Parliament CV and Wikidata's place of birth give Mazar-i-Sharif (Q130469), and Wikidata carries a second, conflicting birth date of 15 February 1958 alongside 1956. The record follows 1956, attested by the article and its dictionary source, and carries the year as debated. The Hijri year (1375, covering most of 1956) is derived by tabular conversion."
+  sources: [source/wikipedia-habiba-sarabi-en, source/wikidata-habiba-sarabi]
+relations:
+  - { type: lived_in, target: place/kabul, sources: [source/wikipedia-habiba-sarabi-en] }
+  - { type: successor_of, target: person/sima-samar, sources: [source/wikipedia-habiba-sarabi-en, source/wikipedia-sima-samar-en] }
+faith:
+  - value: unknown
+    basis: unknown
+    note: "NOT RECORDED AS DOCUMENTED — no two independent sources attest her own affiliation with a school. Wikidata gives her religion only as Islam (Q432) generically. The Ramon Magsaysay Award Foundation's announcement describes her as 'a member of an ethnic and religious minority in Afghanistan' — a group description, not an attestation of her own school — and the U.S. State Department's religious-freedom reporting lists her among 'Shi'a Hazara' officeholders, the same single report series and ethnic framing discussed in person/sima-samar. Her Hazara identity is ethnic and is never by itself converted into a faith segment in this lane. Under the two-source rule and the doubt rule the faith is left unknown, with the evidence carried here."
+    sources: [source/wikidata-habiba-sarabi, source/magsaysay-habiba-sarabi, source/wikipedia-habiba-sarabi-en]
+external_ids: { wikidata: "Q460159" }
+sources: [source/wikipedia-habiba-sarabi-en, source/wikidata-habiba-sarabi, source/magsaysay-habiba-sarabi, source/unwomen-habiba-sarabi-2020]
+provenance:
+  layer: own-research
+  source: "English Wikipedia 'Habiba Sarābi', the Ramon Magsaysay Award Foundation's awardee profile and UN Women's 19 October 2020 interview, all read in full on 25 October 2026, and Wikidata Q460159 (confirmed via the Wikidata API: human, female, two conflicting birth dates — 1956 and 15 February 1958 — place of birth Mazar-i-Sharif, religion Islam generically). No earlier record for her existed in data/person/ under either spelling (habiba-sarabi, habiba-sarobi checked); this is a new build, not an enrichment."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: century-additions-14
+status: { review: published, completeness: 3, generated_by: "Muse (Muse Spark 1.3)" }
