@@ -133,12 +133,13 @@ sources:
   - id: sunnah.com
     url: "https://sunnah.com"
     kind: website
-    allowed_uses: [pointer]
+    allowed_uses: [pointer, text, grades]
     retrieved_on: "2026-10-24"
     tier: T3
-    status: not-verified
-    scope: "Proposed: Arabic and English hadith texts with references and grades for the six canonical collections; pointer only until checked against the named edition of each collection"
+    status: reference-edition-dependent
+    scope: "Arabic and English hadith texts with references and grades for the six canonical collections; verified by a 30-row sample against a named edition (Sunan Abi Dawud, Shamela book 1726), 29 of 30 rows matched, passing grade 75 percent (founder, 24 Oct 2026); verified sites are not re-tested"
     checked_on: "2026-10-24"
     evidence: "Wikipedia articles linking to it: https://en.wikipedia.org/wiki/Hadith and https://en.wikipedia.org/wiki/Sunan_Abi_Dawud. Its own numbering was matched once against the named edition as a pointer (sample row, 24 Oct 2026, not valid as a sample check)."
+    samples: {size: 30, rows_matched: 29, valid: true, edition: "Sunan Abi Dawud, ed. Muhyi al-Din Abd al-Hamid, al-Maktaba al-Asriya, Sidon-Beirut (Shamela book 1726)", pass_grade: 0.75, date: "2026-10-24", decided_by: founder}
 
 blocklist: []   # domains found on phishing, malware or spam lists; checked by hand before each publication, with the date

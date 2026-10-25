@@ -33,3 +33,12 @@ To move any site above `not-verified`, a founder decision is needed with: the ch
 
 - No `data/source/` entity for any site yet. A prose record may cite a site only after one is defined.
 - No prose written from these sites.
+
+## Founder decisions (24 Oct 2026)
+
+1. **Passing grade for the 30-row test: 75 percent of rows matched in full.** Applies to every site test from now on. The older "no row fails" rule in `docs/delegation/older-books-matching-rule.md` is superseded for website samples.
+2. **A site that passes the 30-row test is verified** and is not tested again. It stays usable for the uses the register records (`allowed_uses`) without a new sample.
+
+Result applied: **sunnah.com** passed. 29 of 30 rows matched in full (96.7 percent) against Sunan Abi Dawud, ed. Muhyi al-Din Abd al-Hamid, al-Maktaba al-Asriya (Shamela book 1726), seed 20261026. Register and ledger now record `allowed_uses: [pointer, text, grades]`, with `samples` in the register.
+
+Recorded in the register as `status: reference-edition-dependent`, because the validator accepts only its listed statuses; the word "verified" is in the scope text and in the samples block. The validator does not yet check the 75 percent grade: it only checks `samples.valid` and the named edition. Adding the grade check to `scripts/check-authenticity.ts` is a separate change under the gates, to be proposed.
