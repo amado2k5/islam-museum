@@ -1,0 +1,34 @@
+id: person/muslim-al-waeli
+class: person
+label: { ar: "مسلم الوائلي", en: "Muslim Al-Waeli", ur: "مسلم الوائلی" }
+names:
+  - { value: "مسلم محمد لفته الوائلي", kind: full }
+  - { value: "Muslim Muhammad Lafta al-Waeli", kind: full }
+gender: male
+summary:
+  ar: "رادود حسيني ومنشد عراقي من محافظة ذي قار، وُلد سنة 1999 في مدينة سوق الشيوخ، وبدأ قراءة القصائد الحسينية صبيا سنة 2008 في مواكب مدينته، ثم صار من أشهر رواديد جيله في العراق، وأدى في العتبات الحسينية والعلوية وفي دول عدة، ونالت قناته على يوتيوب الدرع الذهبي سنة 2021."
+  en: "Iraqi Husayni radud (eulogist) and munshid from Dhi Qar governorate, born in 1999 in Suq al-Shuyukh. He began reciting Husayni eulogies as a boy in 2008 in his town's processions, became one of the best-known raduds of his generation in Iraq, performed at the Husayni and Alawiyya shrines and in several countries, and his YouTube channel received the gold creator award in 2021."
+  ur: "عراقی حسینی رادود اور منشد، جو 1999 میں سوق الشیوخ، محافظہ ذی قار میں پیدا ہوئے۔ انہوں نے 2008 میں بچپن ہی سے اپنے شہر کے مواکب میں حسینی قصائد پڑھنا شروع کیے، عراق میں اپنے دور کے معروف رادودوں میں شامل ہوئے، حسینی و علوی عتبات اور کئی ممالک میں پڑھا، اور 2021 میں ان کے یوٹیوب چینل کو گولڈ کریئیٹر ایوارڈ ملا۔"
+roles: [reciter]
+wings: [people, living]
+born:
+  edtf: "1999-06-22"
+  hijri: "1420"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "Gregorian date from Arabic Wikipedia; the birthplace, Suq al-Shuyukh in Dhi Qar governorate, is given by the article's shorter companion page, citing his published biography (a Jawak profile and his official website). The Hijri year is derived from the Gregorian date."
+  sources: [source/wikipedia-muslim-al-waeli-ar]
+faith:
+  - value: shia-twelver
+    basis: documented
+    note: "Arabic Wikipedia describes him as an Iraqi Shia radud (رادود إسلامي شيعي) who grew up in a religious Shia environment and performs in Twelver Husayni majalis and at the Husayni and Alawiyya shrines; his own channel likewise tags its eulogies as Shia latmiyyat. His whole repertoire is the Twelver Husayni eulogy of Ashura and Arbaeen. The record describes his tradition; it does not rule on it."
+    sources: [source/wikipedia-muslim-al-waeli-ar, source/youtube-muslim-al-waeli]
+sources: [source/wikipedia-muslim-al-waeli-ar, source/youtube-muslim-al-waeli]
+provenance:
+  layer: own-research
+  source: "Arabic Wikipedia (the fuller article 'Muslim al-Waeli (Husayni radud)' and the shorter 'Muslim al-Waeli, munshid', the latter citing a Jawak profile and his official website's published biography) and his official YouTube channel (about 1.31 million subscribers, founder's harvest, October 2026); no Wikidata item was found (searched 24 October 2026). Checked 24 October 2026"
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: modern-figures-batch-5
+status: { review: published, completeness: 3, generated_by: "Muse (Muse Spark 1.3)" }

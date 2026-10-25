@@ -1,0 +1,35 @@
+id: person/muhammad-ali-mirza
+class: person
+label: { ar: "محمد علي مرزا", en: "Muhammad Ali Mirza", ur: "محمد علی مرزا" }
+names:
+  - { value: "محمد علی مرزا", kind: full }
+  - { value: "Muhammad Ali Mirza", kind: full }
+  - { value: "Engineer Muhammad Ali Mirza", kind: alternate }
+gender: male
+summary:
+  ar: "باحث ومحاضر إسلامي باكستاني ومهندس ميكانيكي، وُلد سنة 1977 في جِهلم بالبنجاب، يعمل في محاضرات مصوّرة عبر يوتيوب من أكاديمية بحثية يديرها في مدينته، ويقدّم نفسه ناقدا للفرقة والتعصب المذهبي؛ أثارت آراؤه جدلا واسعا، واعتُقل مرتين (2020 و2025) ونجا من محاولات اغتيال."
+  en: "Pakistani Islamic scholar, lecturer and mechanical engineer, born in 1977 in Jhelum, Punjab. He lectures on video through YouTube from a research academy he runs in his home city, presenting himself as a critic of sectarian division. His views have drawn wide controversy: he was arrested in 2020 and 2025 and survived assassination attempts."
+  ur: "پاکستانی اسلامی محقق، مدرس اور مکینیکل انجینئر، جو 1977 میں جہلم، پنجاب میں پیدا ہوئے۔ وہ اپنے شہر میں قائم ایک تحقیقی اکیڈمی سے یوٹیوب پر لیکچر دیتے ہیں اور خود کو فرقہ واریت کے ناقد کے طور پر پیش کرتے ہیں۔ ان کے افکار پر شدید بحث رہی: وہ 2020 اور 2025 میں گرفتار ہوئے اور قاتلانہ حملوں میں بچ گئے۔"
+roles: [scholar, engineer]
+wings: [people, living]
+born:
+  edtf: "1977-10-04"
+  hijri: "1397"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "Gregorian date and birthplace (Jhelum, Punjab) from English Wikipedia and Urdu Wikipedia, the latter citing his official website's biography; the Kashmiri Wikipedia gives the full Hijri equivalent (20 Shawwal 1397), and the Hijri year here is recorded as derived."
+  sources: [source/wikipedia-muhammad-ali-mirza-en, source/wikipedia-muhammad-ali-mirza-ur]
+faith:
+  - value: unknown
+    basis: unknown
+    note: "English Wikipedia's infobox gives his denomination as 'Non-denominational', citing Dawn; the Urdu and Kashmiri articles give only Islam. His academy's website is named Ahl-e-Sunnat-Pak, but he presents his teaching as standing above the sects and criticises the scholars of every school; no source names a madhhab for him, and a self-chosen non-sectarian stance is not a school attestation. Not recorded as a school."
+    sources: [source/wikipedia-muhammad-ali-mirza-en, source/wikipedia-muhammad-ali-mirza-ur]
+sources: [source/wikipedia-muhammad-ali-mirza-en, source/wikipedia-muhammad-ali-mirza-ur]
+provenance:
+  layer: own-research
+  source: "English and Urdu Wikipedia, both read in full (the English article cites Dawn, BBC Urdu and Independent Urdu for the career and the controversies; the Urdu article cites his official website ahlesunnatpak.com for the birth date); his YouTube channel 'Engineer Muhammad Ali Mirza - Official Channel' (3.19 million subscribers in the English article's platform table of 8 March 2026; founder's harvest, October 2026, agrees). A Wikidata item appears to underlie the Kashmiri Wikipedia's structured infobox but its QID could not be confirmed (searched 24 October 2026). Checked 24 October 2026"
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: modern-figures-batch-5
+status: { review: published, completeness: 3, generated_by: "Muse (Muse Spark 1.3)" }
