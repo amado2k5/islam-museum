@@ -3,23 +3,49 @@ class: person
 label:
   ar: "سليمان بن سليم الله الرحيلي"
   en: "Sulayman al-Ruhayli"
-roles: [scholar]
+  ur: "سلیمان بن سلیم اللہ الرحیلی"
+names:
+  - { value: "سليمان بن سليم الله بن رجاء الله بن بوتي الرحيلي الحربي", kind: full }
+  - { value: "Sulayman bin Salimullah bin Rajaullah bin Buti al-Ruhayli al-Harbi", kind: full }
+  - { value: "Sulayman al-Ruhayli", kind: alternate }
+roles: [scholar, preacher]
 gender: male
 summary:
-  ar: "بطاقة أولية لسليمان بن سليم الله الرحيلي؛ لم تُراجع ترجمته على الصفحة بعد."
-  en: "Draft card for Sulayman al-Ruhayli; the entry is not yet checked on the page."
-wings: [people]
+  ar: "عالم سعودي وأستاذ أصول الفقه بالجامعة الإسلامية بالمدينة المنورة، وإمام مسجد قباء وخطيبه، ومدرّس بالمسجد النبوي، وُلد بالمدينة المنورة في رجب 1386هـ الموافق أكتوبر 1966م، وحفظ القرآن قبل العاشرة وحضر مجالس علماء المدينة منذ طفولته."
+  en: "Saudi scholar and professor of usul al-fiqh at the Islamic University of Madinah, imam and khateeb of Quba Mosque and a teacher in the Prophet's Mosque. He was born in Madinah in Rajab 1386 AH (October 1966), memorised the Quran before the age of ten, and attended the circles of Madinah's scholars from childhood."
+  ur: "سعودی عالم اور جامعہ اسلامیہ مدینہ منورہ میں اصولِ فقہ کے استاد، مسجدِ قباء کے امام و خطیب اور مسجدِ نبوی کے مدرس۔ وہ رجب 1386ھ (اکتوبر 1966) میں مدینہ منورہ میں پیدا ہوئے، دس برس کی عمر سے پہلے قرآن حفظ کیا اور بچپن ہی سے مدینہ کے علما کی مجلسوں میں حاضر ہوتے رہے۔"
+wings: [people, living]
 regions: [arabia]
 periods: [period/contemporary-era]
-sources: [source/al-aalam]
+born:
+  edtf: "1966-10"
+  hijri: "1386"
+  calendar: gregorian
+  precision: month
+  status: historical
+  derived: false
+  note: "Arabic Wikipedia gives his birth as Rajab 1386 AH in Madinah; the English article's infobox gives October 1966, Madinah, Saudi Arabia. The Hijri month (Rajab) is recorded here from the Arabic article."
+  sources: [source/wikipedia-sulayman-al-ruhayli-ar, source/wikipedia-sulayman-al-ruhayli-en]
+relations:
+  - { type: born_in, target: place/medina, sources: [source/wikipedia-sulayman-al-ruhayli-ar, source/wikipedia-sulayman-al-ruhayli-en] }
+  - { type: lived_in, target: place/medina, sources: [source/wikipedia-sulayman-al-ruhayli-ar] }
+  - { type: student_of, target: person/ibn-baz-abd-al-aziz, sources: [source/wikipedia-sulayman-al-ruhayli-en] }
+  - { type: student_of, target: person/al-albani-muhammad-nasir-al-din, sources: [source/wikipedia-sulayman-al-ruhayli-en] }
+  - { type: student_of, target: person/salih-ibn-abd-al-aziz-al-uthaymin, sources: [source/wikipedia-sulayman-al-ruhayli-en] }
+faith:
+  - value: sunni
+    basis: documented
+    note: "English Wikipedia's infobox gives his denomination as Sunni, and Arabic Wikipedia's infobox independently gives Ahl al-Sunna wa'l-Jama'a (أهل السنة والجماعة). Both infoboxes also name Hanbali jurisprudence and Athari creed; the compound sunni-hanbali value is not recorded, the jurisprudence being attested only in the two infoboxes, and the Hanbali jurisprudence is stated here instead."
+    sources: [source/wikipedia-sulayman-al-ruhayli-en, source/wikipedia-sulayman-al-ruhayli-ar]
 external_ids:
   wikidata: Q98091430
+sources: [source/al-aalam, source/wikipedia-sulayman-al-ruhayli-en, source/wikipedia-sulayman-al-ruhayli-ar, source/wikidata-sulayman-al-ruhayli, source/youtube-sualruhaily]
 provenance:
   layer: own-research
-  source: "Wikidata candidate; entry not yet read on the page in a book source"
-  generated_by: "Devin (SWE-2 High)"
-  model: "SWE-2 High"
-  run: wikidata-import-wave2
+  source: "Enrichment of the wikidata-import-wave2 draft skeleton (which carried only source/al-aalam and Wikidata Q98091430, both retained): English and Arabic Wikipedia read in full, Wikidata Q98091430, and his official YouTube channel (@sualruhaily) verified from a video description tying it to his official website. Checked 25 October 2026"
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: modern-figures-batch-22
 status:
-  review: draft
-  completeness: 1
+  review: published
+  completeness: 3
+  generated_by: "Muse (Muse Spark 1.3)"
