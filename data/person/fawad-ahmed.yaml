@@ -1,0 +1,35 @@
+id: person/fawad-ahmed
+class: person
+label: { ar: "فواد أحمد", en: "Fawad Ahmed", ur: "فواد احمد" }
+names:
+  - { value: "Fawad Ahmed Khan", kind: full }
+  - { value: "فواد أحمد خان", kind: full }
+gender: male
+summary:
+  ar: "لاعب كريكت أسترالي سابق، رامي كسر ساق أيمن الذراع وُلد في صوابي بإقليم خيبر بختونخوا في باكستان. غادر باكستان سنة 2010 وطلب اللجوء في أستراليا قائلا إنه اضطُهد من متطرفين دينيين لممارسته الكريكت وتدريبه، فمُنح الإقامة الدائمة في نوفمبر 2012 والجنسية الأسترالية في يوليو 2013، ولعب ثلاث مباريات يوم واحد ومباراتين في العشرينيات الدولية لأستراليا في أغسطس وسبتمبر 2013، وهو أحد اثنين فقط من المولودين في باكستان مثّلا أستراليا. تصفه المصادر بأنه مسلم متدين أُزيل شعار شركة جعة عن قميصه سنة 2013، وأحرز أفضل أرقام رمي في تاريخ نهائيات درع شيفيلد بأخذه 8 ويكيت مقابل 89 جولة في نهائي 2014–15."
+  en: "Australian former cricketer, a right-arm leg-spin bowler born in Swabi, Khyber Pakhtunkhwa, Pakistan. He left Pakistan in 2010 and sought asylum in Australia, saying he had been persecuted by religious extremists for playing and coaching cricket; he was granted permanent residency in November 2012 and Australian citizenship in July 2013, and played three One Day Internationals and two Twenty20 Internationals for Australia in August and September 2013 — one of only two Pakistan-born cricketers to represent Australia. The sources describe him as a devout Muslim who had a beer sponsor's logo removed from his shirt in 2013. In the 2014–15 Sheffield Shield final he took 8 for 89, the best bowling figures in a Shield final."
+  ur: "آسٹریلیا کے سابق کرکٹ کھلاڑی، دائیں ہاتھ کے لیگ اسپن باؤلر، جو صوابی، خیبر پختونخوا، پاکستان میں پیدا ہوئے۔ وہ 2010 میں پاکستان چھوڑ کر آسٹریلیا آئے اور پناہ طلب کی، نومبر 2012 میں مستقل رہائش اور جولائی 2013 میں آسٹریلوی شہریت ملی، اور 2013 میں آسٹریلیا کے لیے تین ایک روزہ اور دو ٹی ٹوئنٹی بین الاقوامی میچ کھیلے۔ ماخذ انھیں پرہیزگار مسلمان قرار دیتا ہے جن کی شرٹ سے 2013 میں شراب ساز کمپنی کا لوگو ہٹایا گیا تھا۔"
+roles: [athlete]
+wings: [people, living]
+born:
+  edtf: "1979-03-10"
+  hijri: "1399"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "Born in Swabi, Khyber Pakhtunkhwa, Pakistan. DATE CONFLICT, recorded in full: the English Wikipedia article (current revision 1381926605, read 25 October 2026) gives 10 March 1979, and this record follows it; Wikidata (Q5438693) gives 5 February 1982, the year the century-additions queue also carried. The conflict is flagged in the run's BRIEF CORRECTIONS for the lane to settle. No place entity for Swabi exists in data/place/, so no born_in relation is written. The Hijri year (1399) is derived by tabular conversion from the recorded Gregorian date."
+  sources: [source/wikipedia-fawad-ahmed-en, source/wikipedia-fawad-ahmed-ur, source/wikidata-fawad-ahmed]
+faith:
+  - value: unknown
+    basis: unknown
+    note: "NOT RECORDED AS DOCUMENTED — no source names a school for him. The attestations, stated in full: the English article says 'A devout Muslim, Ahmed has missed training sessions during Ramadan and is known to leave the field to pray during games', and records that the Victoria Bitter logo was removed from his shirt in 2013 because 'Islam prohibits alcohol' (The Telegraph, 5 July 2013, cited in the article); Wikidata's religion claim (P140) gives Islam. These attest practice and a generic Muslim identity; none names a school (madhhab). His asylum account — persecution by religious extremists for playing and coaching cricket — is recorded in the prose as his stated claim, and says nothing about his own school. Under the two-source rule and the founder's doubt rule the value stays unknown."
+    sources: [source/wikipedia-fawad-ahmed-en, source/wikidata-fawad-ahmed]
+external_ids: { wikidata: "Q5438693" }
+sources: [source/wikipedia-fawad-ahmed-en, source/wikipedia-fawad-ahmed-ur, source/wikidata-fawad-ahmed]
+provenance:
+  layer: own-research
+  source: "English Wikipedia 'Fawad Ahmed' (revision 1381926605) and Urdu Wikipedia «فواد احمد» (revision 11815339), read on 25 October 2026; Wikidata Q5438693 verified from the English article's wikibase_item returned by the Wikipedia API pageprops query on 25 October 2026, with claims read through the Wikidata API the same day. This record is for Fawad Ahmed Khan, the leg-spinner born in Swabi who played for Australia in 2013. No earlier record existed in data/person/ under fawad-ahmed or any other spelling checked; this is a new build, not an enrichment."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: century-additions-22
+status: { review: published, completeness: 3, generated_by: "Muse (Muse Spark 1.3)" }

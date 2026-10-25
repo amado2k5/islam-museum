@@ -1,0 +1,35 @@
+id: person/farhaan-behardien
+class: person
+label: { ar: "فرحان بهاردين", en: "Farhaan Behardien", ur: "فرحان بہاردین" }
+names:
+  - { value: "Farhaan Behardien", kind: full }
+  - { value: "فرحان بهاردين", kind: full }
+gender: male
+summary:
+  ar: "لاعب كريكت جنوب أفريقي دولي سابق، وُلد في جوهانسبرغ سنة 1983. لاعب شامل أيمن الضرب لعب 59 مباراة في اليوم الواحد و38 مباراة في العشرينيات الدولية لجنوب أفريقيا بين 2012 و2018، وعُيّن قائدا لفريق العشرينيات في يناير 2017، وقضى معظم مسيرته المحلية في فريق التيتانز بين 2006 و2020، وأعلن اعتزاله الكريكت الدولية في ديسمبر 2022."
+  en: "South African former international cricketer, born in Johannesburg in 1983. A right-handed all-rounder, he played 59 One Day Internationals and 38 Twenty20 Internationals for South Africa between 2012 and 2018, was appointed T20I captain in January 2017, spent most of his domestic career with the Titans between 2006 and 2020, and announced his retirement from international cricket in December 2022."
+  ur: "جنوبی افریقہ کے سابق بین الاقوامی کرکٹ کھلاڑی، جو 1983 میں جوہانسبرگ میں پیدا ہوئے۔ دائیں ہاتھ کے آل راؤنڈر کی حیثیت سے انھوں نے 2012ء سے 2018ء کے درمیان جنوبی افریقہ کے لیے 59 ایک روزہ اور 38 ٹی ٹوئنٹی بین الاقوامی میچ کھیلے، جنوری 2017 میں ٹی ٹوئنٹی ٹیم کے کپتان مقرر ہوئے، اپنا بیشتر ملکی کیریئر ٹائٹنز کے ساتھ گزارا، اور دسمبر 2022 میں بین الاقوامی کرکٹ سے ریٹائرمنٹ کا اعلان کیا۔"
+roles: [athlete]
+wings: [people, living]
+born:
+  edtf: "1983-10-09"
+  hijri: "1404"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "Born on 9 October 1983 in Johannesburg, Transvaal Province, South Africa, per the English and Urdu Wikipedia articles and Wikidata. No place entity for Johannesburg exists in data/place/, so no born_in relation is written. The Hijri year (1404) is derived by tabular conversion."
+  sources: [source/wikipedia-farhaan-behardien-en, source/wikipedia-farhaan-behardien-ur, source/wikidata-farhaan-behardien]
+faith:
+  - value: unknown
+    basis: unknown
+    note: "NOT RECORDED AS DOCUMENTED — no source names a school for him. The attestations, stated in full: neither the English nor the Urdu Wikipedia article states a religion for him; Wikidata's religion claim (P140) gives Islam — a single structured-data value. A generic Muslim attestation names no school, and no second independent source names one for him. Under the two-source rule and the founder's doubt rule the value stays unknown."
+    sources: [source/wikipedia-farhaan-behardien-en, source/wikipedia-farhaan-behardien-ur, source/wikidata-farhaan-behardien]
+external_ids: { wikidata: "Q5435130" }
+sources: [source/wikipedia-farhaan-behardien-en, source/wikipedia-farhaan-behardien-ur, source/wikidata-farhaan-behardien]
+provenance:
+  layer: own-research
+  source: "English Wikipedia 'Farhaan Behardien' (revision 1369516941) and Urdu Wikipedia «فرحان بہاردین» (revision 7804294), read on 25 October 2026; Wikidata Q5435130 verified from the English article's wikibase_item returned by the Wikipedia API pageprops query on 25 October 2026, with claims read through the Wikidata API the same day. This record is for Farhaan Behardien, the South African all-rounder born in Johannesburg in 1983. No earlier record existed in data/person/ under farhaan-behardien or any other spelling checked; this is a new build, not an enrichment."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: century-additions-22
+status: { review: published, completeness: 3, generated_by: "Muse (Muse Spark 1.3)" }
