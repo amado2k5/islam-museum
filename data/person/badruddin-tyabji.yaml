@@ -1,0 +1,44 @@
+id: person/badruddin-tyabji
+class: person
+label: { ar: "بدر الدين طيبجي", en: "Badruddin Tyabji", ur: "بدرالدین طیب جی" }
+names:
+  - { value: "Badruddin Tyabji", kind: full }
+  - { value: "بدر الدين طيبجي", kind: full }
+gender: male
+summary:
+  ar: "محامٍ وناشط وسياسي هندي (1844-1906) من بومباي، أول هندي يمارس المحاماة أمام محكمة بومباي العليا. كان من مؤسسي المؤتمر الوطني الهندي ورئيسه الثالث (1887-1888) وأول رئيس مسلم له، وأسّس أنجمن إسلام في بومباي سنة 1874، ثم صار قاضيا في محكمة بومباي العليا سنة 1895، أولَ مسلم وثالثَ هندي يتولى هذا المنصب، وعمل لدعم تعليم النساء."
+  en: "Indian lawyer, activist and politician (1844–1906) of Bombay, the first Indian to practise as a barrister of the Bombay High Court. He was a founding member of the Indian National Congress, its third President (1887–1888) and its first Muslim president; he founded the Anjuman-i-Islam in Bombay in 1874, became a judge of the Bombay High Court in 1895 — the first Muslim and third Indian so elevated — and worked for women's education."
+  ur: "ہندوستانی وکیل، کارکن اور سیاست دان (1844ء–1906ء) جن کا تعلق بمبئی سے تھا؛ بمبئی ہائی کورٹ میں بیرسٹر کی حیثیت سے پریکٹس کرنے والے پہلے ہندوستانی۔ وہ انڈین نیشنل کانگریس کے بانی اراکین میں سے تھے، اس کے تیسرے صدر (1887ء–1888ء) اور پہلے مسلم صدر بنے، 1874ء میں بمبئی میں انجمن اسلام قائم کی، اور 1895ء میں بمبئی ہائی کورٹ کے جج بنے۔"
+roles: [jurist, politician, activist]
+wings: [people]
+born:
+  edtf: "1844-10-10"
+  hijri: "1260"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "Born in Bombay on 10 October 1844: the English article and Wikidata agree. Son of Mullah Tyab Ali Bhai Mian. The Hijri year (1260) is derived by tabular conversion (10 October 1844 falls in Shawwal 1260). Bombay has no place entity in the museum yet, so no born_in relation is written."
+  sources: [source/wikipedia-badruddin-tyabji-en, source/wikidata-badruddin-tyabji]
+died:
+  edtf: "1906-08-19"
+  hijri: "1324"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "Died in London, on furlough, of a heart attack. The English article's lead and infobox give 19 August 1906 while its own Death section gives 26 August 1906 — an internal inconsistency; the lead/infobox date is followed and the variant recorded here. Wikidata gives only the year 1906. The Hijri year (1324) is derived by tabular conversion (19 August 1906 falls in Jumada al-Akhira 1324). London has no place entity in the museum yet, so no died_in relation is written."
+  sources: [source/wikipedia-badruddin-tyabji-en, source/wikidata-badruddin-tyabji]
+faith:
+  - value: unknown
+    basis: unknown
+    note: "NOT RECORDED AS DOCUMENTED — no fetched source names a school for Tyabji himself. The English article records that his FATHER was a member of the Sulaimani Bohra community — family background, which never counts as the son's attestation (the lane's near-miss rule and the founder's brief for this group) — and Tyabji's own founding of the Anjuman-i-Islam, his Congress presidency and his Islam Club and Islam Gymkhana work are affiliations, not schools. Wikidata (P140) gives only Islam. No second source attests any school for Tyabji, so no mapping is attempted and the value stays unknown under the two-source rule and the founder's doubt rule."
+    sources: [source/wikipedia-badruddin-tyabji-en, source/wikidata-badruddin-tyabji]
+external_ids: { wikidata: "Q4841139" }
+sources: [source/wikipedia-badruddin-tyabji-en, source/wikidata-badruddin-tyabji]
+provenance:
+  layer: own-research
+  source: "English Wikipedia 'Badruddin Tyabji', rev. 1378372299 of 4 October 2026 (internally inconsistent on the death day: 19 August in the lead/infobox, 26 August in the Death section); Wikidata Q4841139 read via the API. The Urdu Wikipedia article was checked and NOT used: it gives his death as 18 November 1939, which is plainly wrong against every other source. No Arabic Wikipedia article exists for him. All read on 25 October 2026."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: century-additions-18
+status: { review: published, completeness: 3, generated_by: "Muse (Muse Spark 1.3)" }
