@@ -1,0 +1,51 @@
+id: person/fatma-aliye-topuz
+class: person
+label: { ar: "فاطمة عليّة توبوز", en: "Fatma Aliye Topuz", ur: "فاطمہ علیہ توپوز" }
+names:
+  - { value: "فاطمة عليّة توبوز", kind: full }
+  - { value: "Fatma Aliye Topuz", kind: full }
+  - { value: "Fatma Aliye Hanım", kind: alternate }
+  - { value: "Bir Hanım", kind: alternate }
+  - { value: "Mütercime-i Meram", kind: alternate }
+gender: female
+summary:
+  ar: "روائية وكاتبة تركية عثمانية (1862-1936)، ابنة المؤرخ والفقيه أحمد جودت باشا، تُعدّ بخمس روايات أول روائية في الأدب التركي والعالم الإسلامي. بدأت بترجمة «ميرام» (1889) باسم مستعار، وكتبت «محاضرات» (1892) و«عودي» (1899) وغيرهما، ودافعت في مقالاتها وكتابها «نساء الإسلام» عن حقوق المرأة من داخل التقاليد الإسلامية، وأسست جمعية خيرية سنة 1897 وكانت أول امرأة في الهلال الأحمر العثماني. وُضعت صورتها على ورقة الخمسين ليرة التركية سنة 2009."
+  en: "Ottoman Turkish novelist and essayist (1862–1936), daughter of the historian and jurist Ahmed Cevdet Pasha, credited with five novels as the first female novelist in Turkish literature and the Islamic world. She began with the translation Meram (1889) under a pen name, wrote Muhazarat (1892) and Udi (1899) among other novels, defended women's rights from within Islamic tradition in her columns and her book Nisvan-ı İslam ('Women of Islam'), founded an aid association in 1897 and was the first woman member of the Ottoman Red Crescent. Her portrait appeared on Turkey's 50-lira banknote in 2009."
+  ur: "عثمانی ترک ناول نگار و مصنفہ (1862-1936)، مؤرخ و فقیہ احمد جودت پاشا کی بیٹی؛ پانچ ناولوں کے ساتھ ترک ادب اور عالمِ اسلام کی پہلی خاتون ناول نگار تسلیم کی جاتی ہیں۔ آغاز قلمی نام سے ترجمے «میرام» (1889) سے ہوا؛ «محاضرات» (1892) اور «عودی» (1899) لکھیں، اپنے کالموں اور کتاب «نسوانِ اسلام» میں اسلامی روایت کے اندر رہ کر خواتین کے حقوق کی وکالت کی، 1897 میں فلاحی انجمن بنائی اور عثمانی ہلالِ احمر کی پہلی خاتون رکن بنیں۔ 2009 میں ان کی تصویر پچاس لیرے کے نوٹ پر چھپی۔"
+roles: [novelist, writer, activist, translator]
+wings: [people]
+born:
+  edtf: "1862-10-09"
+  hijri: "1279"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "The English and Arabic articles and Wikidata give 9 October 1862 at Istanbul; the Turkish article gives 22 October 1862. The record follows 9 October and records the variant. The Hijri year (1279) is derived by tabular conversion."
+  sources: [source/wikipedia-fatma-aliye-topuz-en, source/wikipedia-fatma-aliye-topuz-ar, source/wikidata-fatma-aliye-topuz, source/wikipedia-fatma-aliye-topuz-tr]
+died:
+  edtf: "1936-07-13"
+  hijri: "1355"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "All three articles and Wikidata give her death on 13 July 1936 at Istanbul; she was buried at Feriköy Cemetery (no entity for the cemetery yet, so no buried_in relation is written). The Hijri year (1355) is derived by tabular conversion."
+  sources: [source/wikipedia-fatma-aliye-topuz-en, source/wikipedia-fatma-aliye-topuz-ar, source/wikipedia-fatma-aliye-topuz-tr, source/wikidata-fatma-aliye-topuz]
+relations:
+  - { type: born_in, target: place/istanbul, sources: [source/wikipedia-fatma-aliye-topuz-en, source/wikidata-fatma-aliye-topuz] }
+  - { type: lived_in, target: place/istanbul, sources: [source/wikipedia-fatma-aliye-topuz-en, source/wikipedia-fatma-aliye-topuz-ar] }
+  - { type: died_in, target: place/istanbul, sources: [source/wikipedia-fatma-aliye-topuz-en, source/wikidata-fatma-aliye-topuz] }
+faith:
+  - value: unknown
+    basis: unknown
+    note: "No source names a school for her. Wikidata records her religion as Islam (Q432) generically. Her book Nisvan-ı İslam explained the position of Muslim women to Western readers and defended Islamic tradition, and the Turkish article describes her defence of women's rights as made without breaking from an Islamic outlook — but authorship and outlook are not a madhhab attestation, so the value stays unknown."
+    sources: [source/wikidata-fatma-aliye-topuz, source/wikipedia-fatma-aliye-topuz-en, source/wikipedia-fatma-aliye-topuz-tr]
+external_ids: { wikidata: "Q1136761" }
+sources: [source/wikipedia-fatma-aliye-topuz-en, source/wikipedia-fatma-aliye-topuz-ar, source/wikipedia-fatma-aliye-topuz-tr, source/wikipedia-fatma-aliye-topuz-ur, source/wikidata-fatma-aliye-topuz]
+provenance:
+  layer: own-research
+  source: "English Wikipedia (revision 1371556950), Arabic Wikipedia «فاطمة توبوز» (revision 76372992), Turkish Wikipedia (revision 38220434), Urdu Wikipedia (revision 11627312), Wikidata Q1136761 (verified via the API: human, born 1862-10-09 and died 1936-07-13 at Istanbul, religion Islam generically), checked 24 October 2026"
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: century-additions-5
+status: { review: published, completeness: 3, generated_by: "Muse (Muse Spark 1.3)" }

@@ -1,0 +1,48 @@
+id: person/muhammad-ahmad
+class: person
+label: { ar: "محمد أحمد المهدي", en: "Muhammad Ahmad", ur: "محمد احمد مہدی" }
+names:
+  - { value: "محمد أحمد بن عبد الله بن فحل", kind: full }
+  - { value: "Muhammad Ahmad ibn Abd Allah ibn Fahal", kind: full }
+  - { value: "Muhammad Ahmad al-Mahdi", kind: alternate }
+  - { value: "the Sudanese Mahdi", kind: alternate }
+gender: male
+summary:
+  ar: "زعيم ديني وسياسي سوداني (1844-1885)، شيخ في الطريقة السمانية، أعلن سنة 1881 أنه المهدي المنتظر — وهو ادّعاء آمن به أتباعه الأنصار ورفضه كثير من علماء عصره — وقاد ثورة أسقطت الحكم التركي المصري في السودان وحررت الخرطوم سنة 1885، وأسس الدولة المهدية وعاصمتها أم درمان، وتوفي بالتيفوس بعد خمسة أشهر من فتح الخرطوم."
+  en: "Sudanese religious and political leader (1844–1885) and a sheikh of the Sammaniyya Sufi order. In 1881 he proclaimed himself the Mahdi — a claim his followers, the Ansar, believed and many scholars of his day rejected — and led the revolt that overthrew Turco-Egyptian rule in Sudan, took Khartoum in 1885 and founded the Mahdist State with its capital at Omdurman. He died of typhus five months after Khartoum fell."
+  ur: "سوڈانی مذہبی و سیاسی رہنما (1844-1885) اور سلسلہ سمانیہ کے شیخ؛ 1881 میں انہوں نے مہدی ہونے کا دعویٰ کیا — جسے ان کے پیروکار انصار نے مانا اور ان کے زمانے کے بہت سے علما نے رد کیا — اور وہ بغاوت قائم کی جس نے سوڈان میں ترک مصری حکومت ختم کی، 1885 میں خرطوم فتح ہوا اور دار الحکومت ام درمان کے ساتھ مہدی ریاست قائم ہوئی؛ خرطوم کی فتح کے پانچ ماہ بعد وہ ٹائیفس سے وفات پا گئے۔"
+roles: [religious-leader, military-leader]
+wings: [people]
+born:
+  edtf: "1844-08-12"
+  hijri: "1260"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "Wikidata gives 12 August 1844, and the day (12 August) is also the English article's; but the year is contested: the English article's lead and the Arabic article give 1843 (the Arabic: 8 August 1843, 'and it is said 1844', with Hijri 1259 'and it is said 1250'), and the Urdu article gives 12 August 1845. The record follows Wikidata's 12 August 1844 and records the variants. Birthplace Labab Island, Dongola, from both Wikipedia articles; neither Labab nor Dongola has a place entity in the museum yet, so no born_in relation is written. The Hijri year (1260) is derived by tabular conversion of the followed date."
+  sources: [source/wikidata-muhammad-ahmad, source/wikipedia-muhammad-ahmad-en, source/wikipedia-muhammad-ahmad-ar]
+died:
+  edtf: "1885-06-22"
+  hijri: "1302"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "The Arabic article gives his death precisely: Monday 9 Ramadan 1302 AH, corresponding to 22 June 1885, of typhus at Omdurman; the English article's body and Wikidata agree on 22 June 1885, though the English lead prints 21 June. Omdurman has no place entity in the museum yet, so no died_in relation is written. The Hijri year (1302) is the Arabic article's own dating, not only a conversion."
+  sources: [source/wikipedia-muhammad-ahmad-ar, source/wikipedia-muhammad-ahmad-en, source/wikidata-muhammad-ahmad]
+relations:
+  - { type: participated_in, target: event/siege-of-khartoum-1885, sources: [source/wikipedia-muhammad-ahmad-en, source/wikipedia-muhammad-ahmad-ar] }
+faith:
+  - value: sufi
+    basis: documented
+    note: "His Sufi affiliation is attested by two independent articles: the English article records his discipleship under the Sammaniyya sheikh Muhammad Sharif Nur al-Da'im, his licensing as a sheikh with permission to give the tariqa, and — after the split — his succession to Sheikh al-Qurashi wad al-Zayn as leader of his Sammaniyya following; the Arabic article independently records his joining the Sammaniyya, his discipleship under Muhammad Sharif and then al-Qurashi (who married him to his daughter), and his succession. His affiliation is therefore recorded as sufi, the order being the Sammaniyya. On the Sunni school: his movement worked inside Sudan's Sunni Sufi milieu and framed itself as a return to the Qur'an and the Prophet's example, but no fetched source separately names the Sunni school or a madhhab for him, so no sunni segment is recorded. Wikidata gives only Islam (Q432)."
+    sources: [source/wikipedia-muhammad-ahmad-en, source/wikipedia-muhammad-ahmad-ar]
+external_ids: { wikidata: "Q298678" }
+sources: [source/wikipedia-muhammad-ahmad-en, source/wikipedia-muhammad-ahmad-ar, source/wikipedia-muhammad-ahmad-ur, source/wikidata-muhammad-ahmad]
+provenance:
+  layer: own-research
+  source: "English Wikipedia (revision 1381619064), Arabic Wikipedia «محمد أحمد المهدي» (revision 76435878), Urdu Wikipedia (revision 11397080 — its al-Azhar claim not used, see its reliability note), Wikidata Q298678 (verified via the API: human, born 1844-08-12, died 1885-06-22 at Omdurman, religion Islam generically), checked 24 October 2026"
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: century-additions-5
+status: { review: published, completeness: 3, generated_by: "Muse (Muse Spark 1.3)" }
