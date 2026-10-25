@@ -158,11 +158,11 @@ lists' own order. Status markers: [ ] queued · [~] in a writer's hands · [x] m
 - [x] Fawad Ahmed — 1982–Living
 - [x] Sania Mirza — 1986–Living
 - [x] Ons Jabeur — 1994–Living
-- [ ] Younes El Aynaoui — 1971–Living
-- [ ] Aisam-ul-Haq Qureshi — 1980–Living
-- [ ] Arshad Nadeem — 1997–Living
-- [ ] Mutaz Essa Barshim — 1991–Living
-- [ ] Sufi Abu Taleb — 1925–2008
+- [x] Younes El Aynaoui — 1971–Living
+- [x] Aisam-ul-Haq Qureshi — 1980–Living
+- [x] Arshad Nadeem — 1997–Living
+- [x] Mutaz Essa Barshim — 1991–Living
+- [x] Sufi Abu Taleb — 1925–2008
 - [ ] Hamza El Din — 1929–2006
 - [ ] Ali Farka Touré — 1939–2006
 - [ ] Vieux Farka Touré — 1981–Living
