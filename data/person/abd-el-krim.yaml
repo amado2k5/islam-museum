@@ -1,0 +1,50 @@
+id: person/abd-el-krim
+class: person
+label: { ar: "محمد بن عبد الكريم الخطابي", en: "Abd el-Krim", ur: "محمد بن عبد الکریم ختابی" }
+names:
+  - { value: "محمد بن عبد الكريم الخطابي الورياغلي", kind: full }
+  - { value: "Mohammed ben Abdelkrim El Khattabi", kind: full }
+  - { value: "Abd el-Krim", kind: alternate }
+  - { value: "مولاي محند", kind: laqab }
+gender: male
+summary:
+  ar: "قائد سياسي وعسكري مغربي (1882–1963)؛ قاضٍ بمليلية ثم قائد ثورة الريف، هزم الإسبان في أنوال سنة 1921 ورأس جمهورية الريف (1921–1926)، واستسلم للفرنسيين سنة 1926 فنُفي إلى جزيرة ريونيون، ثم استقر بالقاهرة منذ 1947 حيث رأس لجنة تحرير المغرب العربي ودعم حركات التحرر حتى وفاته ودُفن بمقبرة الشهداء."
+  en: "Moroccan political and military leader (1882–1963). A judge in Melilla who became leader of the Rif revolt, he defeated the Spanish at Annual in 1921 and headed the Republic of the Rif (1921–1926); he surrendered to the French in 1926 and was exiled to Réunion, then settled in Cairo from 1947, where he headed the Arab Maghreb Liberation Committee and supported liberation movements until his death; he was buried in the Martyrs' Cemetery."
+  ur: "مراکشی سیاسی و عسکری رہنما (1882–1963)؛ ملیلیہ میں قاضی رہے، پھر ریف بغاوت کے قائد بنے، 1921 میں انوال میں ہسپانویوں کو شکست دی اور جمہوریۂ ریف (1921–1926) کے صدر رہے؛ 1926 میں فرانسیسیوں کے سامنے ہتھیار ڈالے تو جزیرۂ ری یونین جلاوطن ہوئے، پھر 1947 سے قاہرہ میں مقیم رہے جہاں عرب مغرب آزادی کمیٹی کے سربراہ بنے اور وفات تک آزادی کی تحریکوں کی حمایت کرتے رہے؛ قاہرہ کے شہداء قبرستان میں دفن ہوئے۔"
+roles: [politician, general]
+wings: [people]
+regions: [maghreb]
+born:
+  edtf: "1882-01-12"
+  hijri: "1299"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "Born at Ajdir on 12 January 1882 (English, Arabic and French articles and Wikidata; the English short description and the Urdu infobox give the vaguer 1882/1883). Ajdir has no place entity, so no born_in edge is written. The Hijri year is the tabular conversion."
+  sources: [source/wikipedia-abd-el-krim-en, source/wikipedia-abd-el-krim-ar, source/wikipedia-abd-el-krim-fr, source/wikidata-abd-el-krim]
+died:
+  edtf: "1963-02-06"
+  hijri: "1382"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "Died in Cairo on 6 February 1963 (all articles and Wikidata) and was buried in the Martyrs' Cemetery there (Arabic article). The Hijri year is the tabular conversion."
+  sources: [source/wikipedia-abd-el-krim-en, source/wikipedia-abd-el-krim-ar, source/wikipedia-abd-el-krim-fr, source/wikidata-abd-el-krim]
+faith:
+  - value: unknown
+    basis: unknown
+    note: "No article text names a school or order for him personally. The French article's infobox gives his religion as Sunni Maliki Islam — a single infobox, which the doubt rule leaves unclassified. The French text describes the reformist state he promoted in the Rif Republic as inspired by Salafism: a description of his political programme, not a personal madhhab attestation, and the enum has no salafi value in any case. The English, Arabic and Urdu texts name no school; his father's office as qadi of the Ait Ouriaghel is family background; Wikidata gives only Islam."
+    sources: [source/wikipedia-abd-el-krim-fr, source/wikipedia-abd-el-krim-en, source/wikipedia-abd-el-krim-ar, source/wikidata-abd-el-krim]
+relations:
+  - { type: died_in, target: place/cairo, sources: [source/wikipedia-abd-el-krim-en, source/wikipedia-abd-el-krim-ar] }
+  - { type: buried_in, target: place/cairo, sources: [source/wikipedia-abd-el-krim-ar] }
+external_ids: { wikidata: "Q202650" }
+sources: [source/wikipedia-abd-el-krim-en, source/wikipedia-abd-el-krim-ar, source/wikipedia-abd-el-krim-fr, source/wikipedia-abd-el-krim-ur, source/wikidata-abd-el-krim]
+provenance:
+  layer: own-research
+  source: "English, Arabic, French and Urdu Wikipedia articles on Abd el-Krim, each fetched by its recorded revision id (EN 1375976902, AR 76814244, FR 240648059, UR 12034172) with the returned id asserted equal before use, and Wikidata item Q202650 (revision 2557615609). Existence checks by name fragments (Khattabi, el-Krim, الخطابي) and by QID across data/person and data/source found no prior record for him; the earlier al-Khattabi namesakes in the graph are different people. The lane queue gives 1882–1963, which the sources confirm. The sibling edge to his younger brother M'hamed, built in this same run, is written once, in M'hamed's record, not here."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: century-additions-59
+status: { review: published, generated_by: "Muse (Muse Spark 1.3)" }
