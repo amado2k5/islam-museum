@@ -1,0 +1,35 @@
+id: person/senol-gunes
+class: person
+label: { ar: "شينول غونيش", en: "Şenol Güneş", ur: "شینول گونیش" }
+names:
+  - { value: "Şenol Güneş", kind: full }
+  - { value: "شينول غونيش", kind: full }
+gender: male
+summary:
+  ar: "مدرب كرة قدم تركي وحارس مرمى سابق، وُلد في طرابزون سنة 1952. لعب لطرابزون سبور اثني عشر عامًا وفاز معه بستة ألقاب دوري، ويحمل الرقم القياسي للدوري التركي في الحفاظ على نظافة الشباك (1,110 دقيقة). كمدرب قاد تركيا إلى المركز الثالث في كأس العالم 2002 — أفضل نتيجة في تاريخها — وفاز بلقبي دوري مع بشكتاش، ودرّب أيضًا منتخب تركيا مجددًا وسيول وطرابزون سبور."
+  en: "Turkish football manager and former goalkeeper, born in Trabzon in 1952. He played for Trabzonspor for twelve years, winning six league titles, and set the Süper Lig clean-sheet record of 1,110 minutes. As a manager he took Turkey to third place at the 2002 FIFA World Cup — their best-ever finish — won two Süper Lig titles with Beşiktaş, and also coached FC Seoul, Trabzonspor and Turkey again."
+  ur: "ترک فٹبال مینیجر اور سابق گول کیپر، 1952 میں ترابزون میں پیدا ہوئے۔ ترابزون سپور کے لیے بارہ سال کھیلے، چھ لیگ خطاب جیتے، اور سپر لیگ میں 1,110 منٹ کا کلین شیٹ ریکارڈ قائم کیا۔ مینیجر کے طور پر ترکی کو 2002 فیفا ورلڈ کپ میں تیسرے مقام تک پہنچایا — اس کی تاریخ کی بہترین کارکردگی — بیشکتاش کے ساتھ دو سپر لیگ خطاب جیتے، اور ایف سی سیول، ترابزون سپور اور دوبارہ ترکی کی کوچنگ بھی کی۔"
+roles: [athlete]
+wings: [people, living]
+born:
+  edtf: "1952-06-01"
+  hijri: "1371"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "Born 1 June 1952 in Trabzon, Turkey, as given by the English Wikipedia article and Wikidata Q388904. The Hijri year (1371) is derived by tabular conversion. No place/trabzon entity exists, so the birthplace is carried in this note only."
+  sources: [source/wikipedia-senol-gunes-en, source/wikipedia-senol-gunes-ar, source/wikidata-senol-gunes]
+faith:
+  - value: unknown
+    basis: unknown
+    note: "No source read for this record states any religion for Güneş. The English Wikipedia article, read in full, makes no statement of his religion anywhere in its text; the Arabic article likewise makes none; and Wikidata Q388904 carries no religion (P140) value at all. Turkey's historic Hanafi tradition is the country's milieu, which under the lane rule may not be inferred onto an individual. Under the two-source rule and the doubt rule, no faith value beyond unknown is recorded."
+    sources: [source/wikipedia-senol-gunes-en, source/wikipedia-senol-gunes-ar, source/wikidata-senol-gunes]
+external_ids: { wikidata: "Q388904" }
+sources: [source/wikipedia-senol-gunes-en, source/wikipedia-senol-gunes-ar, source/wikidata-senol-gunes]
+provenance:
+  layer: own-research
+  source: "English Wikipedia 'Şenol Güneş' (revision 1382011753 of 26 October 2026), Arabic Wikipedia «شينول غونيش» (revision 75242312 of 9 June 2026) and Wikidata Q388904, read on 26 October 2026 and checked against the recorded revisions. No relation edges are written: his birthplace Trabzon has no place entity. No earlier record for him existed in data/person/ under senol-gunes or any other spelling checked (fragment and QID searches both negative); this is a new build, not an enrichment."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: century-additions-40
+status: { review: published, completeness: 2, generated_by: "Muse (Muse Spark 1.3)" }

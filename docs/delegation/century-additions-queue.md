@@ -246,11 +246,11 @@ lists' own order. Status markers: [ ] queued · [~] in a writer's hands · [x] m
 - [x] Xherdan Shaqiri — 1991–Living
 - [x] Miralem Pjanić — 1990–Living
 - [x] Edin Džeko — 1986–Living
-- [ ] Asmir Begović — 1987–Living
-- [ ] Nuri Şahin — 1988–Living
-- [ ] Fatih Terim — 1953–Living
-- [ ] Mustafa Denizli — 1949–Living
-- [ ] Şenol Güneş — 1952–Living
+- [x] Asmir Begović — 1987–Living
+- [x] Nuri Şahin — 1988–Living
+- [x] Fatih Terim — 1953–Living
+- [x] Mustafa Denizli — 1949–Living
+- [x] Şenol Güneş — 1952–Living
 - [ ] Majed Abdullah — 1959–Living
 - [ ] Sami Al-Jaber — 1972–Living
 - [ ] Saeed Al-Owairan — 1967–Living
