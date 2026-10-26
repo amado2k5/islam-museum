@@ -256,11 +256,11 @@ lists' own order. Status markers: [ ] queued · [~] in a writer's hands · [x] m
 - [x] Saeed Al-Owairan — 1967–Living
 - [x] Yasser Al-Qahtani — 1982–Living
 - [x] Salem Al-Dawsari — 1991–Living
-- [ ] Mohamed Aboutrika — 1978–Living
-- [ ] Mido (Ahmed Hossam) — 1983–Living
-- [ ] Essam El Hadary — 1973–Living
-- [ ] Wael Gomaa — 1975–Living
-- [ ] Mahmoud El Khatib (Bibo) — 1954–Living
+- [x] Mohamed Aboutrika — 1978–Living
+- [x] Mido (Ahmed Hossam) — 1983–Living
+- [x] Essam El Hadary — 1973–Living
+- [x] Wael Gomaa — 1975–Living
+- [x] Mahmoud El Khatib (Bibo) — 1954–Living
 - [ ] Hassan Shehata — 1947–Living
 - [ ] Rabah Madjer — 1958–Living
 - [ ] Lakhdar Belloumi — 1958–Living
