@@ -6,20 +6,20 @@ label:
 roles: [scholar]
 gender: male
 summary:
-  ar: "بطاقة أولية لمحمد بن مسعود العياشي السمرقندي، فقيه ومفسر القرن العاشر، توفي سنة ٩٣٢م؛ تذكره كتب التراجم ولم تُراجع ترجمته على الصفحة بعد."
-  en: "Draft card for Muhammad ibn Mas'ud al-Ayyashi al-Samarqandi, the tenth-century jurist and exegete, d. 932; the biographical entry is not yet checked on the page."
+  ar: "محمد بن مسعود بن محمد العياشي، كاتب شيعي من سمرقند من القرن الثالث الهجري، يُنسب إليه أكثر من 200 كتاب، وكان أستاذاً لمحمد بن عمر الكشي {cite:encyclopaedia-of-islam-2 vol. 1 p. 843}."
+  en: "Muhammad b. Mas'ud al-'Ayyashi, a Shi'i writer from Samarkand in the third/ninth century, credited with more than 200 books; teacher of Muhammad b. 'Umar al-Kashshi {cite:encyclopaedia-of-islam-2 vol. 1 p. 843}."
 wings: [people]
 regions: [persia-central-asia]
 periods: [period/abbasid-fragmentation]
-sources: [source/al-aalam]
+sources:
+- source/al-aalam
+- source/encyclopaedia-of-islam-2
 external_ids:
   wikidata: Q11862838
 provenance:
   layer: own-research
-  source: "Wikidata candidate; book source: al-Zirikli, al-A'lam — entry not yet read on the page"
-  generated_by: "Devin (SWE-2 High)"
+  source: "Wikidata candidate; al-Zirikli, al-A'lam (entry not read on the page); Encyclopaedia of Islam, 2nd ed., vol. 1 p. 843, entry AL 'AYYASHI (queue seq 449, batch ei2-b018); the earlier draft death date of 932 is not confirmed"
+  generated_by: "Devin (SWE-2 High); EI2 enrichment by Claude Code (claude-haiku-5-5)"
   model: "SWE-2 High"
   run: wikidata-import-0044
-status:
-  review: draft
-  completeness: 1
+status: { review: published, completeness: 2 }

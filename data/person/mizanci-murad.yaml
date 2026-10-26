@@ -1,0 +1,46 @@
+id: person/mizanci-murad
+class: person
+label:
+  en: "Mizancı Murad"
+  ar: "ميزانجي مراد"
+summary:
+  ar: "صحفي ومؤرخ وسياسي عثماني (1854–1917) من داغستان، اشتهر بصحيفته «ميزان» (من 1886)، وقاد جمعية الاتحاد والترقي من جنيف سنة 1896 ثم عارضها، ودافع عن العثمانية والوحدة الإسلامية، وكتب تاريخه المتعدد الأجزاء «تاريخ أبي الفاروق»."
+  en: "Ottoman journalist, historian and politician (1854-1917) from Dagestan, known for his newspaper Mizan (from 1886), who led the Committee of Union and Progress from Geneva in 1896, then opposed it, defended Ottomanism and Islamic unity, and wrote the multi-volume Tarih-i Ebulfaruk."
+names:
+  - { value: "Mehmed Murad Bey", kind: full }
+  - { value: "محمد مراد بك", kind: full }
+  - { value: "Mizancı Murad", kind: alternate }
+  - { value: "Mizancı Murat", kind: alternate }
+gender: male
+roles: [writer, historian, politician]
+wings: [people]
+regions: [anatolia-balkans]
+born:
+  edtf: "1854"
+  hijri: "1270"
+  calendar: gregorian
+  precision: year
+  status: debated
+  derived: true
+  note: "Dagestan. The year is split in the sources: the Turkish article's lead and infobox and Wikidata give 1854, while the Turkish biography section, following the Osmanlilar Ansiklopedisi, says he was born in 1853 in the village of Huraki (Urakhi) in Dagestan and was named after the Dagestani leader Haci Murat; Wikidata's birthplace is Urakhi. The English article's birthplace, Tbilisi, appears in no other source read - he was schooled at Sevastopol - and is not followed. The record follows the majority 1854 reading with the 1853 reading preserved here. There is no place entity for Urakhi or Dagestan, so no born_in edge is written. The Hijri year is a conversion, marked derived."
+  sources: [source/wikipedia-mizanci-murad-en, source/wikipedia-mizanci-murad-tr, source/wikidata-mizanci-murad]
+died:
+  edtf: "1917-04-15"
+  hijri: "1335"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "Istanbul, at his yalı at Anadolu Hisarı (Turkish article); the Turkish article and Wikidata agree on 15 April 1917. The English article's death year 1912 is supported by no other source read and is not followed. The Hijri year is a conversion, marked derived."
+  sources: [source/wikipedia-mizanci-murad-en, source/wikipedia-mizanci-murad-tr, source/wikidata-mizanci-murad]
+faith:
+  - value: unknown
+    basis: unknown
+    note: "No source read names a school for Mizancı Murad personally. The Turkish article says he held that the state's official ideology should be Ottomanism and its cultural ideology Islamic unity (ümmetçilik), and that after 1908 his line 'shifted Islamic'; the English article calls his stance pan-Islamist. These are political positions argued in his newspaper and books, not an attestation of a personal madhhab. Wikidata's only religion value is Islam (Q432), generic, naming no school, and one structured-data value never suffices on its own."
+    sources: [source/wikipedia-mizanci-murad-en, source/wikipedia-mizanci-murad-tr, source/wikidata-mizanci-murad]
+relations:
+  - { type: died_in, target: place/istanbul, note: "At his yalı at Anadolu Hisarı.", sources: [source/wikipedia-mizanci-murad-tr, source/wikidata-mizanci-murad] }
+external_ids: { wikidata: Q6100914 }
+sources: [source/wikipedia-mizanci-murad-en, source/wikipedia-mizanci-murad-tr, source/wikidata-mizanci-murad]
+provenance: { layer: own-research, source: "Lane brief century-additions-41 (group Z2); grounded from English Wikipedia revision 1365159481, Turkish Wikipedia revision 36703081, and Wikidata item Q6100914 (revision 2521984345), resolved via the Wikipedia API pageprops and Special:EntityData.", generated_by: "Muse (Muse Spark 1.3)", run: century-additions-41 }
+status: { review: published, completeness: 3, generated_by: "Muse (Muse Spark 1.3)" }

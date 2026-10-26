@@ -1,0 +1,37 @@
+id: person/wael-gomaa
+class: person
+label: { ar: "وائل جمعة", en: "Wael Gomaa", ur: "وائل جمعہ" }
+names:
+  - { value: "Wael Kamel Gomaa El Hawty", kind: full }
+  - { value: "وائل كامل جمعة الحوتي", kind: full }
+  - { value: "The Rock", kind: laqab }
+  - { value: "الصخرة", kind: laqab }
+gender: male
+summary:
+  ar: "لاعب كرة قدم مصري معتزل، وُلد في محافظة الغربية سنة 1975 ويُلقب بـ«الصخرة». مدافع أوسط بدأ مع غزل المحلة حتى 2001، ثم قضى ثلاثة عشر عامًا مع النادي الأهلي فاز فيها بدوري أبطال أفريقيا ست مرات، وخاض مع منتخب مصر 114 مباراة دولية وفاز معه بكأس الأمم الأفريقية 2006 و2008 و2010. يُعد من أفضل المدافعين الأفارقة عبر التاريخ."
+  en: "Egyptian retired professional footballer, born in Gharbia Governorate in 1975 and nicknamed 'The Rock'. A centre-back who played for Ghazl El Mahalla until 2001, then spent thirteen years at Al Ahly, winning the CAF Champions League six times; he earned 114 caps for Egypt and won the Africa Cup of Nations in 2006, 2008 and 2010. He is regarded as one of the best African defenders of all time."
+  ur: "مصری ریٹائرڈ پیشہ ور فٹبالر، 1975 میں محافظہ غربیہ میں پیدا ہوئے اور «الصخرہ» (چٹان) کے لقب سے مشہور ہیں۔ سینٹر بیک جنہوں نے 2001 تک غزل المحلہ کے لیے کھیلا، پھر تیرہ سال ال اہلی میں گزارے اور چھ بار کاف چیمپئنز لیگ جیتی؛ مصر کے لیے 114 بین الاقوامی میچ کھیلے اور 2006، 2008 اور 2010 کے افریقہ کپ آف نیشنز جیتے۔ انہیں افریقہ کے بہترین مدافعین میں شمار کیا جاتا ہے۔"
+roles: [athlete]
+wings: [people, living]
+born:
+  edtf: "1975-08-03"
+  hijri: "1395"
+  calendar: gregorian
+  precision: day
+  status: debated
+  derived: true
+  note: "Born 3 August 1975; the date is agreed by the English article, the Arabic article and Wikidata Q937134, and the Hijri year (1395) is derived by tabular conversion, agreeing with the Arabic article's birth-year category (births in 1395 AH). The birthplace is disputed between the sources: the English article's infobox gives Kotoor, Gharbia Governorate; the Arabic article's infobox gives the village of El Shain in Gharbia (a village of the Kotoor district); Wikidata gives El Mahalla El Kubra, which neither article supports and which appears to conflate his birthplace with his first club, Ghazl El Mahalla, and is not followed. The Gharbia readings agree with each other in substance; the record follows them. No place entity for Kotoor, El Shain or El Mahalla El Kubra exists in data/place/ (place/al-mahalla is a medieval town record), so no born_in edge is written."
+  sources: [source/wikipedia-wael-gomaa-en, source/wikipedia-wael-gomaa-ar, source/wikidata-wael-gomaa]
+faith:
+  - value: unknown
+    basis: unknown
+    note: "No source read for this record names a school or madhhab for Gomaa personally. The Arabic Wikipedia article's infobox gives his religion as Islam, generically — a single infobox value; the English article makes no statement of his religion in its text and files him under the category 'Egyptian Muslims'; Wikidata Q937134 carries no religion value at all. A single infobox and a category filing are one weak signal at most, not two independent attestations, and Egypt's Shafi'i and Hanafi milieu may not be inferred onto an individual. Under the two-source rule and the doubt rule, no faith value beyond unknown is recorded."
+    sources: [source/wikipedia-wael-gomaa-en, source/wikipedia-wael-gomaa-ar, source/wikidata-wael-gomaa]
+external_ids: { wikidata: "Q937134" }
+sources: [source/wikipedia-wael-gomaa-en, source/wikipedia-wael-gomaa-ar, source/wikidata-wael-gomaa]
+provenance:
+  layer: own-research
+  source: "English Wikipedia 'Wael Gomaa' (revision 1379044709 of 7 October 2026), Arabic Wikipedia «وائل جمعة» (revision 76907082 of 7 October 2026) and Wikidata Q937134, read on 26 October 2026 and checked against the recorded revisions; each article was fetched by its recorded revision id and the returned revision asserted equal before any claim was drawn. No relation edge is written: his disputed birthplace has no entity in data/place/. No earlier record for him existed in data/person/ under gomaa or any other spelling checked (fragment and QID searches both negative; data/person/ali-gomaa.yaml is the Grand Mufti Ali Gomaa, a different man); this is a new build, not an enrichment."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: century-additions-42
+status: { review: published, completeness: 2, generated_by: "Muse (Muse Spark 1.3)" }

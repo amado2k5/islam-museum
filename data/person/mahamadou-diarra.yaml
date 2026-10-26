@@ -1,0 +1,36 @@
+id: person/mahamadou-diarra
+class: person
+label: { ar: "محمدو ديارا", en: "Mahamadou Diarra", ur: "محمدو دیارا" }
+names:
+  - { value: "Mahamadou Diarra", kind: full }
+  - { value: "محمدو ديارا", kind: full }
+gender: male
+summary:
+  ar: "لاعب كرة قدم مالي معتزل، وُلد في باماكو سنة 1981. لاعب وسط دفاعي فاز بألقاب الدوري في فرنسا مع ليون وفي إسبانيا مع ريال مدريد، ولعب لموناكو وفولهام، وكان قائدًا لمنتخب مالي."
+  en: "Malian retired footballer, born in Bamako in 1981. A defensive midfielder who won league titles in France with Lyon and in Spain with Real Madrid, played for Monaco and Fulham, and captained the Mali national team."
+  ur: "مالی کے ریٹائرڈ فٹبالر، 1981 میں باماکو میں پیدا ہوئے۔ دفاعی مڈفیلڈر جنہوں نے فرانس میں لیون اور اسپین میں ریال میڈرڈ کے ساتھ لیگ خطاب جیتے، موناکو اور فلہم کے لیے کھیلے، اور مالی قومی ٹیم کے کپتان رہے۔"
+roles: [athlete]
+wings: [people, living]
+regions: [west-africa-sahel]
+born:
+  edtf: "1981-05-18"
+  hijri: "1401"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "Born 18 May 1981 in Bamako, Mali, as given by the English Wikipedia article's infobox and by Wikidata Q219768, which agree. No place entity for Bamako exists in data/place/, so no born_in edge is written. The Hijri year (1401) is derived by tabular conversion."
+  sources: [source/wikipedia-mahamadou-diarra-en, source/wikidata-mahamadou-diarra]
+faith:
+  - value: unknown
+    basis: unknown
+    note: "No source read names a school or madhhab for Diarra personally. The English Wikipedia article reports that he fasted during the Islamic month of Ramadan while at Real Madrid — reported practice — and its categories file him under Malian Muslims. The French and Arabic articles, each read in full, make no statement of his religion at all. Wikidata Q219768 gives his religion as Islam (Q432), generically. Reported practice, a category filing and a generic structured value are not two independent sources naming a school. Under the two-source rule and the doubt rule, no faith value beyond unknown is recorded, with what each source gives documented here and in the prose. He is not Lassana Diarra (person/lassana-diarra), the French midfielder who was his Real Madrid teammate in the same fasting reports."
+    sources: [source/wikipedia-mahamadou-diarra-en, source/wikipedia-mahamadou-diarra-fr, source/wikipedia-mahamadou-diarra-ar, source/wikidata-mahamadou-diarra]
+external_ids: { wikidata: "Q219768" }
+sources: [source/wikipedia-mahamadou-diarra-en, source/wikipedia-mahamadou-diarra-fr, source/wikipedia-mahamadou-diarra-ar, source/wikidata-mahamadou-diarra]
+provenance:
+  layer: own-research
+  source: "English Wikipedia 'Mahamadou Diarra' (revision 1381399175 of 22 October 2026), French Wikipedia 'Mahamadou Diarra' (revision 236801866 of 5 June 2026), Arabic Wikipedia «محمدو ديارا» (revision 75427482 of 13 June 2026) and Wikidata Q219768, read on 26 October 2026; each article was fetched by its recorded revision id and the returned revision asserted equal before any claim was drawn. No relation edge is written: his birthplace, Bamako, has no entity in data/place/. No earlier record for him existed in data/person/ (fragment and QID searches both negative; the only diarra record is person/lassana-diarra, a different man); this is a new build, not an enrichment."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: century-additions-46
+status: { review: published, completeness: 2, generated_by: "Muse (Muse Spark 1.3)" }

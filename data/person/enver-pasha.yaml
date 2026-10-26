@@ -1,0 +1,53 @@
+id: person/enver-pasha
+class: person
+label: { ar: "إسماعيل أنور باشا", en: "Enver Pasha", ur: "اسماعیل انور پاشا" }
+names:
+  - { value: "İsmail Enver Paşa", kind: full }
+  - { value: "إسماعيل أنور باشا", kind: full }
+  - { value: "İsmail Enver", kind: given }
+  - { value: "Enver Bey", kind: alternate }
+  - { value: "Enver Efendi", kind: alternate }
+  - { value: "Hürriyet Kahramanı", kind: laqab }
+  - { value: "Edirne Fatihi", kind: laqab }
+gender: male
+summary:
+  ar: "قائد عسكري وسياسي عثماني، أبرز «الباشوات الثلاثة» في جمعية الاتحاد والترقي وناظر الحربية من 1914 إلى 1918 والقائد الفعلي للجيوش العثمانية في الحرب العالمية الأولى. قاد كارثة صاريقاميش، وفرّ بعد الهزيمة وحُكم عليه غيابيًا بالإعدام، ثم قاد حركة البسمجيين ضد البلاشفة في آسيا الوسطى وقُتل سنة 1922، وأُعيد دفن رفاته في إسطنبول سنة 1996."
+  en: "Ottoman military commander and politician, the leading of the 'Three Pashas' of the Committee of Union and Progress, Minister of War from 1914 to 1918 and de facto commander-in-chief in the First World War. He led the Sarikamish disaster, fled after the defeat and was sentenced to death in absentia, then led the Basmachi against the Bolsheviks in Central Asia and was killed in 1922; his remains were reburied at Istanbul in 1996."
+  ur: "عثمانی فوجی کمانڈر اور سیاست دان، جمعیتِ اتحاد و ترقی کے «تین پاشاؤں» میں سرکردہ، 1914 سے 1918 تک وزیرِ حرب اور پہلی جنگِ عظیم میں عملاً سپہ سالار۔ انہوں نے صاریقامش کی تباہی کی قیادت کی، شکست کے بعد فرار ہوئے اور غیر حاضری میں سزائے موت پائی، پھر وسطی ایشیا میں بالشویکوں کے خلاف بسمچی تحریک کی قیادت کی اور 1922 میں مارے گئے؛ ان کی باقیات 1996 میں اسطنبول میں دوبارہ دفن ہوئیں۔"
+roles: [military, politician]
+wings: [people]
+regions: [anatolia-balkans]
+born:
+  edtf: "1881-11-23"
+  hijri: "1299"
+  calendar: gregorian
+  precision: day
+  status: debated
+  derived: true
+  note: "His birth date is given three ways, and the conflict is recorded rather than resolved silently. Both articles' leads and infoboxes give 23 November 1881 at Istanbul (Constantinople), and that reading is followed. Wikidata gives 22 November 1881, referenced to encyclopaedia authority files — and both articles' own death-date templates also compute his age from 22 November, so the one-day difference runs inside the articles themselves. The Turkish article additionally records an alternative of 6 December 1882, noting that his Turkish and German autobiographies give different dates, citing the TDV İslâm Ansiklopedisi. The Hijri year 1299 is the derived conversion of November 1881."
+  sources: [source/wikipedia-enver-pasha-en, source/wikipedia-enver-pasha-tr, source/wikidata-enver-pasha]
+died:
+  edtf: "1922-08-04"
+  hijri: "1340"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "Both articles and Wikidata give 4 August 1922: leading the Basmachi against the Bolsheviks, he was killed by a Red Army cavalry brigade near his headquarters at Ab-i-Derya, by the village of Chaghan (Çeğen) in the Bukharan People's Soviet Republic, in present-day Tajikistan, and first buried there. In 1996 his remains were brought to Turkey and reburied at the Monument of Liberty (Abide-i Hürriyet) cemetery in Şişli, Istanbul, on the anniversary of his death; both articles and Wikidata's burial value (Q320876) agree on that resting place. No museum place entity exists for the place of his death, so no died_in edge is written. The Hijri year 1340 is the derived conversion of 1922."
+  sources: [source/wikipedia-enver-pasha-en, source/wikipedia-enver-pasha-tr, source/wikidata-enver-pasha]
+relations:
+  - { type: born_in, target: place/istanbul, sources: [source/wikipedia-enver-pasha-en, source/wikipedia-enver-pasha-tr] }
+  - { type: buried_in, target: place/istanbul, sources: [source/wikipedia-enver-pasha-en, source/wikipedia-enver-pasha-tr] }
+faith:
+  - value: unknown
+    basis: unknown
+    note: "No two independent sources attest a religion or a school for Ismail Enver Pasha personally, and the value is recorded unknown under the doubt rule. The English article has no religion field and its text makes no statement of his religion; its category 'Turkish Islamists' is a filing category about his political movement, not a personal attestation, and the article's accounts of his pan-Islamic appeals and his golden seal styling him 'Commander-in-Chief of all the Armies of Islam' describe political instruments of his exile years, not an affiliation attested for him personally. The Turkish article's infobox gives his religion (dini) as Islam, generically, and its text names no school. Wikidata gives Sunni Islam (Q483654) with a single URL reference (P854): the only source consulted that names a school at all, and a single structured-data value, which cannot settle a school under the two-source rule. With one generic infobox value in one family and one lone structured school value, his faith is recorded unknown."
+    sources: [source/wikipedia-enver-pasha-en, source/wikipedia-enver-pasha-tr, source/wikidata-enver-pasha]
+external_ids: { wikidata: Q153899 }
+sources: [source/wikipedia-enver-pasha-en, source/wikipedia-enver-pasha-tr, source/wikidata-enver-pasha]
+provenance:
+  layer: own-research
+  source: "English Wikipedia 'Enver Pasha' (revision 1381279868 of 21 October 2026), Turkish Wikipedia 'Enver Paşa' (revision 38311146 of 22 October 2026) and Wikidata item Q153899 (item revision 2557869963 of 17 October 2026), all read directly on 26 October 2026 and both articles re-fetched by revision id with content verified identical. Existence was checked by name fragments over data/person/ and by the grounded QID over data/person/ and data/source/ before building; no record existed. Two edges are written, both to place/istanbul, an existing entity: born there, and buried there at the Monument of Liberty cemetery since the 1996 reburial. No died_in edge is written: no museum place entity exists for Chaghan or Ab-i-Derya. The sibling edge to Nuri Killigil is written ONCE, in Nuri's own record in this same run — in words, Enver is the elder half-brother of Nuri Killigil — and is deliberately not duplicated here, since inverses are computed. His birth date is recorded debated (23 November 1881 followed; 22 November in Wikidata and in the articles' own age computations; 6 December 1882 as the Turkish article's autobiography-based alternative). His faith is unknown, for the reasons stated in the faith note."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: century-additions-46
+status: { review: published, completeness: 2, generated_by: "Muse (Muse Spark 1.3)" }

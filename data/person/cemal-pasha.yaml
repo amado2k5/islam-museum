@@ -1,0 +1,51 @@
+id: person/cemal-pasha
+class: person
+label: { ar: "أحمد جمال باشا", en: "Cemal Pasha", ur: "احمد جمال پاشا" }
+names:
+  - { value: "Ahmed Cemal Paşa", kind: full }
+  - { value: "أحمد جمال باشا", kind: full }
+  - { value: "Djemal Pasha", kind: alternate }
+  - { value: "Ahmed Djemal", kind: alternate }
+  - { value: "as-Saffah", kind: laqab }
+  - { value: "Kasap Cemal", kind: laqab }
+gender: male
+summary:
+  ar: "قائد عسكري وسياسي عثماني، أحد «الباشوات الثلاثة» في جمعية الاتحاد والترقي. كان واليًا على بغداد، ثم ناظرًا للبحرية من 1914 إلى 1918 وقائدًا للجيش الرابع في سوريا وفلسطين، وعُرف في سوريا بألقاب قاسية لشنقه القوميين العرب في دمشق وبيروت. حُكم عليه غيابيًا بالإعدام، واغتاله أعضاء الاتحاد الثوري الأرمني في تبليسي سنة 1922، ودُفن في أرضروم."
+  en: "Ottoman military commander and politician, one of the 'Three Pashas' of the Committee of Union and Progress. He was governor of Baghdad, then Minister of the Navy from 1914 to 1918 and commander of the Fourth Army in Syria and Palestine, where he became known by harsh bynames for the hangings of Arab nationalists at Damascus and Beirut. Sentenced to death in absentia, he was assassinated by Armenian Revolutionary Federation members at Tbilisi in 1922 and buried at Erzurum."
+  ur: "عثمانی فوجی کمانڈر اور سیاست دان، جمعیتِ اتحاد و ترقی کے «تین پاشاؤں» میں سے ایک۔ وہ بغداد کے گورنر رہے، پھر 1914 سے 1918 تک وزیرِ بحریہ اور شام و فلسطین میں چوتھی فوج کے کمانڈر، جہاں دمشق و بیروت میں عرب قوم پرستوں کی پھانسیوں کی وجہ سے سخت القاب سے مشہور ہوئے۔ غیر حاضری میں سزائے موت پانے کے بعد 1922 میں تبلیسی میں آرمینی انقلابی فیڈریشن کے ارکان کے ہاتھوں قتل ہوئے اور ارض روم میں دفن ہوئے۔"
+roles: [military, politician]
+wings: [people]
+regions: [anatolia-balkans]
+born:
+  edtf: "1872-05-06"
+  hijri: "1289"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "Both articles and Wikidata give 6 May 1872 at Mytilene, on Lesbos, the son of the military pharmacist Mehmed Nesib Efendi and Binnaz Hanım. No museum place entity exists for Mytilene, so the birthplace is carried in this note and in prose only, with no born_in edge. The Hijri year 1289 is the derived conversion of 1872."
+  sources: [source/wikipedia-cemal-pasha-en, source/wikipedia-cemal-pasha-tr, source/wikidata-cemal-pasha]
+died:
+  edtf: "1922-07-21"
+  hijri: "1340"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "Both articles and Wikidata give 21 July 1922 at Tbilisi (Tiflis), where he was assassinated by Armenian Revolutionary Federation members as part of Operation Nemesis. The Turkish article adds that Kâzım Karabekir brought his body to Erzurum, where he was buried at the Karskapı Martyrs' Cemetery; the English article likewise says his remains were brought to Erzurum and buried there, and Wikidata's burial value (Q122803) agrees. No museum place entity exists for Tbilisi or Erzurum, so neither a died_in nor a buried_in edge is written; both places are carried in this note and in prose. The Hijri year 1340 is the derived conversion of 1922."
+  sources: [source/wikipedia-cemal-pasha-en, source/wikipedia-cemal-pasha-tr, source/wikidata-cemal-pasha]
+relations:
+  - { type: ruler_of, target: place/baghdad, sources: [source/wikipedia-cemal-pasha-en, source/wikipedia-cemal-pasha-tr] }
+faith:
+  - value: unknown
+    basis: unknown
+    note: "No two independent sources attest a religion or a school for Ahmed Cemal Pasha personally, and the value is recorded unknown under the doubt rule. The English article names no religion for him in its text or infobox. The Turkish article's infobox gives his religion (dini) as Islam, generically, and its text names no school and no order. Wikidata gives Islam (Q432), generically, its reference an import from a Wikimedia project (P143) — the same family as the Turkish infobox value, not a second independent attestation. One infobox family naming only Islam in general cannot settle even a generic value under the two-source rule, and no school is named anywhere; his CUP offices and his Syrian command are office and service facts, not attestation."
+    sources: [source/wikipedia-cemal-pasha-en, source/wikipedia-cemal-pasha-tr, source/wikidata-cemal-pasha]
+external_ids: { wikidata: Q317011 }
+sources: [source/wikipedia-cemal-pasha-en, source/wikipedia-cemal-pasha-tr, source/wikidata-cemal-pasha]
+provenance:
+  layer: own-research
+  source: "English Wikipedia 'Djemal Pasha' (revision 1378610834 of 5 October 2026), Turkish Wikipedia 'Cemal Paşa' (revision 38047268 of 23 September 2026) and Wikidata item Q317011 (item revision 2557611567 of 16 October 2026), all read directly on 26 October 2026 and both articles re-fetched by revision id with content verified identical. Existence was checked by name fragments over data/person/ and by the grounded QID over data/person/ and data/source/ before building; no record existed. One edge is written: ruler_of to place/baghdad, an existing entity — in words, he governed Baghdad as its Ottoman governor from August 1911 to July 1912, as both articles state. No born_in, died_in or buried_in edge is written: no museum place entity exists for Mytilene, Tbilisi or Erzurum, and those places are carried in the date notes and prose. His faith is unknown, for the reasons stated in the faith note: the only religion attestation anywhere is the Turkish infobox's generic Islam, echoed by an imported Wikidata value — one family, naming no school."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: century-additions-46
+status: { review: published, completeness: 2, generated_by: "Muse (Muse Spark 1.3)" }

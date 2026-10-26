@@ -1,0 +1,37 @@
+id: person/franck-ribery
+class: person
+label: { ar: "فرانك ريبيري", en: "Franck Ribéry", ur: "فرانک ریبری" }
+names:
+  - { value: "Franck Henry Pierre Ribéry", kind: full }
+  - { value: "فرانك ريبيري", kind: full }
+  - { value: "Bilal Yusuf Mohammed", kind: alternate }
+gender: male
+summary:
+  ar: "لاعب كرة قدم فرنسي معتزل، وُلد في بولوني سور مير بفرنسا سنة 1983. جناح أمضى اثني عشر موسمًا مع بايرن ميونخ وفاز بدوري أبطال أوروبا 2013 وجائزة أفضل لاعب في أوروبا في العام نفسه، ثم اختتم مسيرته مع فيورنتينا وساليرنيتانا، وخاض 81 مباراة مع منتخب فرنسا. اعتنق الإسلام واتخذ اسم بلال يوسف محمد."
+  en: "French retired footballer, born in Boulogne-sur-Mer, France in 1983. A winger who spent twelve seasons at Bayern Munich, winning the 2013 Champions League and the UEFA Best Player in Europe Award that year, before closing his career at Fiorentina and Salernitana; he won 81 caps for France. A convert to Islam, he adopted the name Bilal Yusuf Mohammed."
+  ur: "فرانسیسی ریٹائرڈ فٹبالر، 1983 میں فرانس کے بولون سور میر میں پیدا ہوئے۔ ونگر جنہوں نے بائرن میونخ کے ساتھ بارہ سیزن گزارے، 2013 کی چیمپئنز لیگ اور اسی سال یورپ کے بہترین کھلاڑی کا اعزاز جیتا، پھر فیورنٹینا اور سالرنیتانا کے ساتھ کیریئر ختم کیا؛ فرانس کے لیے 81 میچ کھیلے۔ اسلام قبول کیا اور بلال یوسف محمد نام اختیار کیا۔"
+roles: [athlete]
+wings: [people, living]
+regions: [andalus-europe]
+born:
+  edtf: "1983-04-07"
+  hijri: "1403"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "Born 7 April 1983 in Boulogne-sur-Mer, France, as given by the English Wikipedia article's infobox and by Wikidata Q1918, which agree. No place entity for Boulogne-sur-Mer exists in data/place/, so no born_in edge is written. The Hijri year (1403) is derived by tabular conversion."
+  sources: [source/wikipedia-franck-ribery-en, source/wikipedia-franck-ribery-ar, source/wikidata-franck-ribery]
+faith:
+  - value: unknown
+    basis: unknown
+    note: "Ribéry's conversion to Islam is documented, but no source read names a school or madhhab for him personally. The English Wikipedia article's personal life section states that he is a convert to Islam and that he afterwards adopted the name Bilal Yusuf Mohammed; the French article dates the conversion to February 2006 and gives the same adopted name; the Arabic article likewise records that he embraced Islam and took the name Bilal Yusuf Mohammed, citing The Independent of 6 October 2006 among its sources. Wikidata Q1918 gives his religion as Islam (Q432), generically. Lane practice does not record a convert's former faith, so no christian segment is written; and a documented conversion plus a generic structured value are not two independent sources naming a school. Under the two-source rule and the doubt rule, no faith value beyond unknown is recorded, with the conversion itself documented here and in the prose."
+    sources: [source/wikipedia-franck-ribery-en, source/wikipedia-franck-ribery-fr, source/wikipedia-franck-ribery-ar, source/wikidata-franck-ribery]
+external_ids: { wikidata: "Q1918" }
+sources: [source/wikipedia-franck-ribery-en, source/wikipedia-franck-ribery-fr, source/wikipedia-franck-ribery-ar, source/wikidata-franck-ribery]
+provenance:
+  layer: own-research
+  source: "English Wikipedia 'Franck Ribéry' (revision 1381393503 of 22 October 2026), French Wikipedia 'Franck Ribéry' (revision 240042944 of 3 October 2026), Arabic Wikipedia «فرانك ريبيري» (revision 77068397 of 25 October 2026) and Wikidata Q1918, read on 26 October 2026; each article was fetched by its recorded revision id and the returned revision asserted equal before any claim was drawn. No relation edge is written: his birthplace, Boulogne-sur-Mer, has no entity in data/place/. No earlier record for him existed in data/person/ under ribery or any other spelling checked (fragment and QID searches both negative); this is a new build, not an enrichment."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: century-additions-44
+status: { review: published, completeness: 2, generated_by: "Muse (Muse Spark 1.3)" }

@@ -1,0 +1,56 @@
+id: person/fahreddin-pasha
+class: person
+label: { ar: "عمر فخر الدين توركان", en: "Fahreddin Pasha", ur: "عمر فخرالدین ترکان" }
+names:
+  - { value: "Ömer Fahreddin Türkkan", kind: full }
+  - { value: "عمر فخر الدين توركان", kind: full }
+  - { value: "Fakhri Pasha", kind: alternate }
+  - { value: "Fahreddin Pasha", kind: alternate }
+  - { value: "Ömer Fahrettin Türkkan", kind: alternate }
+  - { value: "Defender of Medina", kind: laqab }
+  - { value: "Tiger of the Desert", kind: laqab }
+  - { value: "Lion of the Desert", kind: laqab }
+  - { value: "Medine Müdafii", kind: laqab }
+  - { value: "Çöl Kaplanı", kind: laqab }
+gender: male
+summary:
+  ar: "ضابط عثماني وتركي، قائد حامية المدينة المنورة ومحافظها من 1916 إلى 1919، صمد في حصارها حتى بعد هدنة الحرب العالمية الأولى فعُرف بمدافع المدينة ونمر الصحراء. وبعد الحرب كان سفير تركيا في كابول من 1922 إلى 1926. توفي سنة 1948 ودُفن في مقبرة أشيان بإسطنبول."
+  en: "Ottoman and Turkish officer, commander and governor of Medina from 1916 to 1919, who held the city through its siege until after the First World War armistice and became known as the Defender of Medina and the Tiger of the Desert. After the war he was Turkey's ambassador to Kabul from 1922 to 1926. He died in 1948 and was buried at Aşiyan Cemetery, Istanbul."
+  ur: "عثمانی و ترک افسر، 1916 سے 1919 تک مدینہ کے کمانڈر اور گورنر، جنہوں نے پہلی جنگِ عظیم کی جنگ بندی کے بعد تک شہر کے محاصرے میں ثابت قدمی دکھائی اور مدینہ کے محافظ اور صحرا کے شیر کہلائے۔ جنگ کے بعد وہ 1922 سے 1926 تک کابل میں ترکی کے سفیر رہے۔ 1948 میں وفات پائی اور اسطنبول کے آشیان قبرستان میں دفن ہوئے۔"
+roles: [military, politician]
+wings: [people]
+regions: [anatolia-balkans]
+born:
+  edtf: "1868"
+  hijri: "1285"
+  calendar: gregorian
+  precision: year
+  status: historical
+  derived: true
+  note: "Both articles give his birth in the year 1868 at Rusçuk (Ruse), the English article's infobox adding 'November or December', and Wikidata's year-precision value is likewise 1868 with Ruse (Q160173) as birthplace; that reading is followed. Wikidata also carries a day-precision birth value of 4 January 1868 referenced only to an import from a Wikimedia project, which no article supports and which is not followed. No museum place entity exists for Ruse, so the birthplace is carried in this note and in prose only, with no born_in edge. The Hijri year 1285 is the derived conversion of late 1868."
+  sources: [source/wikipedia-fahreddin-pasha-en, source/wikipedia-fahreddin-pasha-tr, source/wikidata-fahreddin-pasha]
+died:
+  edtf: "1948-11-22"
+  hijri: "1368"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "Both articles give 22 November 1948: he suffered a heart attack on a train near Eskişehir and died, and was buried, as he wished, at Aşiyan Cemetery, Istanbul; Wikidata agrees on the day. Wikidata's death-place value is Istanbul (Q406), which matches his burial city rather than the articles' account of the death on the train, and is not followed for the place. No museum place entity exists for Eskişehir, so no died_in edge is written; the burial edge to Istanbul is written. The Hijri year 1368 is the derived conversion of 1948."
+  sources: [source/wikipedia-fahreddin-pasha-en, source/wikipedia-fahreddin-pasha-tr, source/wikidata-fahreddin-pasha]
+relations:
+  - { type: ruler_of, target: place/medina, sources: [source/wikipedia-fahreddin-pasha-en, source/wikipedia-fahreddin-pasha-tr] }
+  - { type: buried_in, target: place/istanbul, sources: [source/wikipedia-fahreddin-pasha-en, source/wikipedia-fahreddin-pasha-tr] }
+faith:
+  - value: unknown
+    basis: unknown
+    note: "No two independent sources attest a religion or a school for Fahreddin Pasha personally, and the value is recorded unknown under the doubt rule. The English article has no religion field; its only faith-adjacent evidence is his own address to his officers, quoted via Peters (1994) — 'I am a Muhammadan. I am an Ottoman. I am the son of Bayer Bay. I am a soldier.' — a general self-identification naming no school and no order. The Turkish article likewise states no religion in infobox or text. Wikidata gives Islam (Q432), generic, with a single URL reference (P854): one structured-data value. His defence of Medina was a military command held under orders — a service fact, not a personal affiliation attestation — and on the standing rule that office, milieu and service are not attestation, no value beyond unknown is recorded."
+    sources: [source/wikipedia-fahreddin-pasha-en, source/wikipedia-fahreddin-pasha-tr, source/wikidata-fahreddin-pasha]
+external_ids: { wikidata: Q2900391 }
+sources: [source/wikipedia-fahreddin-pasha-en, source/wikipedia-fahreddin-pasha-tr, source/wikidata-fahreddin-pasha]
+provenance:
+  layer: own-research
+  source: "English Wikipedia 'Fakhri Pasha' (revision 1380050671 of 13 October 2026), Turkish Wikipedia 'Ömer Fahreddin Türkkan' (revision 38320402 of 24 October 2026, reached through the item's Turkish sitelink, the title 'Fahreddin Paşa' being a stale 2011 redirect) and Wikidata item Q2900391 (item revision 2551914582 of 1 October 2026), all read directly on 26 October 2026 and both articles re-fetched by revision id with content verified identical. Existence was checked by name fragments over data/person/ and by the grounded QID over data/person/ and data/source/ before building; no record existed. Two edges are written: ruler_of to place/medina — in words, he governed Medina as its Ottoman governor from 1916 to 1919, as both articles state — and buried_in to place/istanbul for Aşiyan Cemetery; both targets are existing entities. No born_in or died_in edge is written: no museum place entity exists for Ruse or Eskişehir. Wikidata's unsupported 4 January 1868 birth value and its Istanbul death-place value are disclosed in the date notes and not followed. His faith is unknown, for the reasons stated in the faith note."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: century-additions-46
+status: { review: published, completeness: 2, generated_by: "Muse (Muse Spark 1.3)" }

@@ -1,0 +1,41 @@
+id: person/kolo-toure
+class: person
+label: { ar: "كولو توريه", en: "Kolo Touré", ur: "کولو تورے" }
+names:
+  - { value: "Kolo Abib Touré", kind: full }
+  - { value: "كولو توريه", kind: full }
+gender: male
+summary:
+  ar: "لاعب كرة قدم عاجي معتزل ومدرب، وُلد في بواكي بساحل العاج سنة 1981. مدافع كان ضمن فريق أرسنال «الذي لا يُقهر» الفائز بالدوري الإنجليزي 2003–04، ثم فاز باللقب مع مانشستر سيتي سنة 2012، ولعب لليفربول وسيلتيك، وهو أكثر لاعب أفريقي مشاركة في الدوري الإنجليزي الممتاز (353 مباراة)، وخاض 120 مباراة مع منتخب ساحل العاج وفاز بكأس أمم أفريقيا 2015. وهو الأخ الأكبر ليايا توريه."
+  en: "Ivorian retired footballer and coach, born in Bouaké, Ivory Coast in 1981. A defender who was part of Arsenal's 'Invincibles' Premier League side of 2003–04, then won the title with Manchester City in 2012, and played for Liverpool and Celtic; he is the African player with the most Premier League appearances (353), won 120 caps for Ivory Coast and lifted the 2015 Africa Cup of Nations. He is the elder brother of Yaya Touré."
+  ur: "آئیوریائی ریٹائرڈ فٹبالر اور کوچ، 1981 میں آئیوری کوسٹ کے بواکے میں پیدا ہوئے۔ دفاعی کھلاڑی جو آرسنل کی 2003–04 کی «ناقابلِ تسخیر» پریمیئر لیگ ٹیم کا حصہ تھے، پھر مانچسٹر سٹی کے ساتھ 2012 میں خطاب جیتا، اور لیورپول اور سیلٹک کے لیے کھیلے؛ پریمیئر لیگ میں سب سے زیادہ میچ کھیلنے والے افریقی کھلاڑی ہیں (353)، آئیوری کوسٹ کے لیے 120 میچ کھیلے اور 2015 افریقہ کپ آف نیشنز جیتا۔ وہ یایا تورے کے بڑے بھائی ہیں۔"
+roles: [athlete]
+wings: [people, living]
+regions: [west-africa-sahel]
+born:
+  edtf: "1981-03-19"
+  hijri: "1401"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "Born 19 March 1981 in Bouaké, Ivory Coast, as given by the English Wikipedia article's infobox, the French and Arabic articles, and Wikidata Q147589, which agree. No place entity for Bouaké exists in data/place/, so no born_in edge is written. The Hijri year (1401) is derived by tabular conversion."
+  sources: [source/wikipedia-kolo-toure-en, source/wikipedia-kolo-toure-fr, source/wikipedia-kolo-toure-ar, source/wikidata-kolo-toure]
+faith:
+  - value: unknown
+    basis: unknown
+    note: "No source read names a school or madhhab for Touré personally. The English Wikipedia article's personal life section states that “Touré is Muslim” and that he observes fasting during Ramadan, quoting his own words on belief; its categories file him under “Ivorian Muslims”. The Arabic article states that his religion is Islam and that he is observant in performing the prayers, and notes the Ramadan arrangements made for Muslim players at Arsenal. The French article makes no statement of his religion. Wikidata Q147589 gives his religion as Islam (Q432), generically. Generic identifications joined to practice (fasting, prayer), a category filing and a generic structured value are not two independent sources naming a school. Under the two-source rule and the doubt rule, no faith value beyond unknown is recorded, with what each source gives documented here and in the prose."
+    sources: [source/wikipedia-kolo-toure-en, source/wikipedia-kolo-toure-fr, source/wikipedia-kolo-toure-ar, source/wikidata-kolo-toure]
+relations:
+  - type: sibling_of
+    target: person/yaya-toure
+    note: "Elder brother of Yaya Touré (person/yaya-toure, built in wave 44); the edge is written once, here in Kolo Touré's own record, as the predicates registry directs."
+    sources: [source/wikipedia-kolo-toure-en]
+external_ids: { wikidata: "Q147589" }
+sources: [source/wikipedia-kolo-toure-en, source/wikipedia-kolo-toure-fr, source/wikipedia-kolo-toure-ar, source/wikidata-kolo-toure]
+provenance:
+  layer: own-research
+  source: "English Wikipedia 'Kolo Touré' (revision 1381590214 of 23 October 2026), French Wikipedia 'Kolo Touré' (revision 239658771 of 20 September 2026), Arabic Wikipedia «كولو توريه» (revision 75349830 of 11 June 2026) and Wikidata Q147589, read on 26 October 2026; each article was fetched by its recorded revision id and the returned revision asserted equal before any claim was drawn. Relations: one edge only — sibling_of to person/yaya-toure, which exists (built in wave 44); his birthplace, Bouaké, has no entity in data/place/, so no born_in edge is written. No earlier record for him existed in data/person/ under kolo, toure or any other spelling checked (fragment and QID searches both negative — the Q147589 grep hits were nil); this is a new build, not an enrichment."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: century-additions-45
+status: { review: published, completeness: 2, generated_by: "Muse (Muse Spark 1.3)" }

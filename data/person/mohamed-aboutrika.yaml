@@ -1,0 +1,35 @@
+id: person/mohamed-aboutrika
+class: person
+label: { ar: "محمد أبو تريكة", en: "Mohamed Aboutrika", ur: "محمد ابو تریکا" }
+names:
+  - { value: "Mohamed Mohamed Mohamed Aboutrika", kind: full }
+  - { value: "محمد محمد محمد أبو تريكة", kind: full }
+gender: male
+summary:
+  ar: "لاعب كرة قدم مصري معتزل، وُلد في ناهيا بمحافظة الجيزة سنة 1978. لاعب وسط مهاجم ومهاجم ثانٍ بدأ مع الترسانة ثم انتقل إلى الأهلي سنة 2004 فصار من أبرز نجوم جيله الذهبي، وخاض مع منتخب مصر 100 مباراة دولية سجل فيها 38 هدفًا، وفاز معه بكأس الأمم الأفريقية 2006 و2008 وسجل هدف الفوز في نهائي 2008. درس الفلسفة في جامعة القاهرة، وعُرف خارج الملعب بأعماله الإنسانية والخيرية."
+  en: "Egyptian retired professional footballer, born in Nahia, Giza in 1978. An attacking midfielder and second striker who came through Tersana before joining Al Ahly in 2004, where he became a central figure of the club's dominant side; he earned 100 caps and scored 38 goals for Egypt, winning the Africa Cup of Nations in 2006 and 2008 and scoring the winning goal in the 2008 final. A philosophy graduate of Cairo University, he is also noted for humanitarian work and philanthropy off the pitch."
+  ur: "مصری ریٹائرڈ پیشہ ور فٹبالر، 1978 میں الجیزہ کے علاقے ناہیہ میں پیدا ہوئے۔ حملہ آور مڈفیلڈر اور دوسرے اسٹرائیکر جنہوں نے ترسانہ سے آغاز کیا اور 2004 میں ال اہلی میں شامل ہو کر اس کی غالب ٹیم کے مرکزی کھلاڑی بنے؛ مصر کے لیے 100 بین الاقوامی میچوں میں 38 گول کیے، 2006 اور 2008 کے افریقہ کپ آف نیشنز جیتے اور 2008 کے فائنل کا جیتنے والا گول انہی کا تھا۔ قاہرہ یونیورسٹی سے فلسفے کے فارغ التحصیل، وہ میدان سے باہر انسانی اور فلاحی کاموں کے لیے بھی جانے جاتے ہیں۔"
+roles: [athlete]
+wings: [people, living]
+born:
+  edtf: "1978-11-07"
+  hijri: "1398"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "Born 7 November 1978 in Nahia (Nahya), Giza, Egypt, as given by the English Wikipedia article's infobox and by Wikidata Q1799274; the Arabic article's categories likewise file him under births in Giza city. No place entity for Nahia or for the city of Giza exists in data/place/ (place/al-ahram-giza is the Pyramids site, not the city), so no born_in edge is written. The Hijri year (1398) is derived by tabular conversion and agrees with the Arabic article's birth-year category (births in 1398 AH)."
+  sources: [source/wikipedia-mohamed-aboutrika-en, source/wikipedia-mohamed-aboutrika-ar, source/wikidata-mohamed-aboutrika]
+faith:
+  - value: unknown
+    basis: unknown
+    note: "No source read for this record names a school or madhhab for Aboutrika himself. The English Wikipedia article makes no statement of his religion in its text: it files him under the category 'Egyptian Muslims', recounts his humanitarian work and his own public words about Islam and charity, and reports the allegation of Muslim Brotherhood ties — which he denied — behind the 2015 freezing of his assets and his 2017 placement on a terrorism list; that is a political allegation, not an attestation of a school. The Arabic article likewise files him under the category of Egyptian Muslims, and Wikidata Q1799274 gives his religion as Islam (Q432), generically. His widely reported personal piety is practice and reportage, which under the lane rule is not an attestation. Egypt's Shafi'i and Hanafi milieu may not be inferred onto an individual. Under the two-source rule and the doubt rule, no faith value beyond unknown is recorded."
+    sources: [source/wikipedia-mohamed-aboutrika-en, source/wikipedia-mohamed-aboutrika-ar, source/wikidata-mohamed-aboutrika]
+external_ids: { wikidata: "Q1799274" }
+sources: [source/wikipedia-mohamed-aboutrika-en, source/wikipedia-mohamed-aboutrika-ar, source/wikidata-mohamed-aboutrika]
+provenance:
+  layer: own-research
+  source: "English Wikipedia 'Mohamed Aboutrika' (revision 1381461015 of 22 October 2026), Arabic Wikipedia «محمد أبو تريكة» (revision 76749609 of 24 September 2026) and Wikidata Q1799274, read on 26 October 2026 and checked against the recorded revisions; each article was fetched by its recorded revision id and the returned revision asserted equal before any claim was drawn. No relation edge is written: Aboutrika's birthplace, Nahia in Giza, has no entity in data/place/. No earlier record for him existed in data/person/ under aboutrika or any other spelling checked (fragment and QID searches both negative); this is a new build, not an enrichment."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: century-additions-42
+status: { review: published, completeness: 2, generated_by: "Muse (Muse Spark 1.3)" }

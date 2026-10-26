@@ -1,0 +1,36 @@
+id: person/rabah-madjer
+class: person
+label: { ar: "رابح ماجر", en: "Rabah Madjer", ur: "رابح ماجر" }
+names:
+  - { value: "Rabah Mustapha Madjer", kind: full }
+  - { value: "رابح مصطفى ماجر", kind: full }
+gender: male
+summary:
+  ar: "لاعب كرة قدم جزائري معتزل، وُلد في حسين داي بالجزائر العاصمة سنة 1958. مهاجم بلغ نجوميته مع بورتو البرتغالي في الثمانينيات، ففاز معه بتسعة ألقاب كبرى منها كأس أوروبا 1987، وخاض مع منتخب الجزائر 87 مباراة دولية وشارك في كأسي العالم 1982 و1986 وفاز بكأس الأمم الأفريقية 1990. درّب منتخب الجزائر في فترات متعددة لاحقة."
+  en: "Algerian retired footballer, born in Hussein Dey, Algiers in 1958. A striker who reached stardom with Porto in the 1980s, winning nine major titles including the 1987 European Cup, he won 87 caps for Algeria, played at the 1982 and 1986 World Cups and won the 1990 Africa Cup of Nations. He later coached the Algeria national team in several spells."
+  ur: "الجزائری ریٹائرڈ فٹبالر، 1958 میں حسین دای، الجزائر میں پیدا ہوئے۔ اسٹرائیکر جنہوں نے 1980 کی دہائی میں پورٹو کے ساتھ شہرت پائی اور 1987 کا یورپی کپ سمیت نو بڑے خطاب جیتے؛ الجزائر کے لیے 87 میچ کھیلے، 1982 اور 1986 کے ورلڈ کپ میں شرکت کی اور 1990 کا افریقہ کپ جیتا۔ بعد میں کئی بار الجزائر کی قومی ٹیم کے کوچ رہے۔"
+roles: [athlete]
+wings: [people, living]
+regions: [maghreb]
+born:
+  edtf: "1958-12-15"
+  hijri: "1378"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "Born 15 December 1958 in Hussein Dey, Algiers, Algeria, as given by the English Wikipedia article's infobox and lead and by the Arabic article. Wikidata Q431343 carries two birth-date values — 15 December 1958, which agrees with the articles, and 15 February 1958, which no article supports; the latter is disclosed here and in the Wikidata source's reliability note and is not followed. No place entity for Hussein Dey exists in data/place/, so no born_in edge is written. The Hijri year (1378) is derived by tabular conversion."
+  sources: [source/wikipedia-rabah-madjer-en, source/wikipedia-rabah-madjer-ar, source/wikidata-rabah-madjer]
+faith:
+  - value: unknown
+    basis: unknown
+    note: "No source read for this record names a school or madhhab for Madjer himself, and none states any religion for him at all. Neither the English nor the Arabic Wikipedia article makes any statement of his religion in its text or categories — the word for Muslim does not occur in the Arabic article — and Wikidata Q431343 carries no religion value at all. Nationality, Kabyle family origin and Algeria's milieu may not be inferred onto an individual. Under the two-source rule and the doubt rule, no faith value beyond unknown is recorded."
+    sources: [source/wikipedia-rabah-madjer-en, source/wikipedia-rabah-madjer-ar, source/wikidata-rabah-madjer]
+external_ids: { wikidata: "Q431343" }
+sources: [source/wikipedia-rabah-madjer-en, source/wikipedia-rabah-madjer-ar, source/wikidata-rabah-madjer]
+provenance:
+  layer: own-research
+  source: "English Wikipedia 'Rabah Madjer' (revision 1376010901 of 21 September 2026), Arabic Wikipedia «رابح ماجر» (revision 76244132 of 17 August 2026) and Wikidata Q431343, read on 26 October 2026; each article was fetched by its recorded revision id and the returned revision asserted equal before any claim was drawn. No relation edge is written: Madjer's birthplace, Hussein Dey, has no entity in data/place/. No earlier record for him existed in data/person/ under madjer or any other spelling checked (fragment and QID searches both negative); this is a new build, not an enrichment."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: century-additions-43
+status: { review: published, completeness: 2, generated_by: "Muse (Muse Spark 1.3)" }

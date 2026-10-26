@@ -1,0 +1,50 @@
+id: person/mirza-kuchik-khan
+class: person
+label: { ar: "ميرزا كوجك خان", en: "Mirza Kuchik Khan", ur: "مرزا کوچک خان" }
+names:
+  - { value: "میرزا یونس کوچک خان", kind: full }
+  - { value: "Mirza Younis Kuchik Khan", kind: full }
+  - { value: "یونس استادسرایی", kind: full }
+  - { value: "Yunes Ostadsarai", kind: full }
+  - { value: "Mirza Kuchek Khan", kind: alternate }
+  - { value: "Mirza Kuchak Khan", kind: alternate }
+  - { value: "Jangali", kind: laqab }
+gender: male
+summary:
+  ar: "ثوري إيراني (1880–1921) من رشت في گيلان، درس في الحوزة في شبابه، أسس نهضة جنگل في غابات گيلان سنة 1914-15، وقاتل القوات الروسية والبريطانية والحكومية، وصار سنة 1920 رئيس جمهورية گيلان السوفيتية قصيرة العمر، ثم مات هاربًا في جبال طالش في ديسمبر 1921."
+  en: "Iranian revolutionary (1880–1921) from Rasht in Gilan, seminary-trained in youth, who founded the Jangal (Jungle) movement in the forests of Gilan in 1914-15, fought Russian, British and government forces, and in 1920 became president of the short-lived Soviet Republic of Gilan before dying in flight in the Talesh mountains."
+  ur: "رشت، گیلان کے ایرانی انقلابی (1880–1921)؛ جوانی میں حوزوی تعلیم پائی، 1914-15 میں گیلان کے جنگلوں میں نہضتِ جنگل کی بنیاد رکھی، روسی، برطانوی اور سرکاری افواج سے لڑے، 1920 میں گیلان کی قلیل مدتی سوویت جمہوریہ کے صدر بنے، اور فرار کے دوران طالش کے پہاڑوں میں وفات پائی۔"
+roles: [activist, politician]
+wings: [people]
+regions: [persia-central-asia]
+born:
+  edtf: "1880-10-12"
+  hijri: "1297"
+  calendar: gregorian
+  precision: day
+  status: debated
+  derived: true
+  note: "Born as Yunes, son of Mirza 'Bozorg', a merchant of Gilan, in the Ostadsara quarter of Rasht. The English article and Wikidata give 12 October 1880; the Persian article gives 21 Mehr 1259 Solar Hijri, which converts to 13 October 1880. The record follows 12 October and discloses the one-day split. The Hijri year 1297 is the derived conversion. There is no museum place entity for Rasht, so no born_in edge is written."
+  sources: [source/wikipedia-mirza-kuchik-khan-en, source/wikipedia-mirza-kuchik-khan-fa, source/wikidata-mirza-kuchik-khan]
+died:
+  edtf: "1921-12-02"
+  hijri: "1340"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "Died of exposure on 2 December 1921 (11 Azar 1300 Solar Hijri in the Persian article): fleeing toward Khalkhal to seek refuge with Azmat Khanum Fuladlu, he and his companion Gaouk were caught in a snowstorm at the Alaleh Poshteh summer pasture in the Masal highlands of Talesh and froze to death. His body was beheaded by a local landlord, the head displayed at Rasht and sent to Reza Khan at Tehran; after Reza Shah's exile the head was brought back and buried with the body in his tomb at Soleymandarab, Rasht. The Hijri year 1340 is the derived conversion."
+  sources: [source/wikipedia-mirza-kuchik-khan-en, source/wikipedia-mirza-kuchik-khan-fa]
+faith:
+  - value: unknown
+    basis: unknown
+    note: "No consulted source names a school for Mirza Kuchik Khan personally. The Persian article gives a 'religious family' (background), his hawza studies at Rasht, Qazvin and Tehran — adding that the training could have brought him into the ranks of the clergy but that the country's events turned him to another path — and his abstinence from alcohol and tobacco (practice). The English article records historians' reference to his 'religious and at times somewhat conservative views', his collaboration with the Society of Islamic Union and his leadership of the Unity of Islam party (affiliation and office). Wikidata carries a single structured value, Shia Islam — one family, not an attestation. Under the doubt rule the value is unknown."
+    sources: [source/wikipedia-mirza-kuchik-khan-en, source/wikipedia-mirza-kuchik-khan-fa, source/wikidata-mirza-kuchik-khan]
+external_ids: { wikidata: Q738907 }
+sources: [source/wikipedia-mirza-kuchik-khan-en, source/wikipedia-mirza-kuchik-khan-fa, source/wikidata-mirza-kuchik-khan]
+provenance:
+  layer: own-research
+  source: "English Wikipedia 'Mirza Kuchik Khan' (revision 1370041180 of 18 August 2026), the Persian Wikipedia article (revision 44707214 of 11 October 2026), and Wikidata item Q738907, all read directly on 26 October 2026. The birth day is split by one day across the sources (12 October against the Persian article's 21 Mehr 1259 = 13 October) and is recorded debated. No Encyclopaedia Iranica biographical entry for him could be grounded. His faith is unknown: no source names a school for him personally, and the note states exactly what each source gives."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: century-additions-37
+status: { review: published, completeness: 3, generated_by: "Muse (Muse Spark 1.3)" }

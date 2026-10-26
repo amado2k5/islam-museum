@@ -1,0 +1,47 @@
+id: person/hassan-modarres
+class: person
+label:
+  en: "Sayyid Hassan Modarres"
+  ar: "سید حسن مدرس"
+summary:
+  ar: "فقيه شيعي اثنا عشري وبرلماني إيراني (1870–1937)، قاد معارضة المجلس لرضا شاه وعارض اتفاقية 1919 الأنجلو-فارسية، وقُتل في منفاه بكاشمر."
+  en: "Iranian Twelver Shia cleric and parliamentarian (1870-1937) who led the Majlis opposition to Reza Shah, opposed the 1919 Anglo-Persian Agreement, and was killed in exile at Kashmar."
+names:
+  - { value: "Sayyid Hassan Modarres", kind: full }
+  - { value: "سید حسن مدرس", kind: full }
+  - { value: "Seyyed Hassan Tabatabaei Ardestani", kind: alternate }
+  - { value: "Hassan Modarres", kind: alternate }
+  - { value: "سید حسن طباطبایی اردستانی", kind: alternate }
+gender: male
+roles: [jurist, politician]
+wings: [people]
+regions: [persia-central-asia]
+born:
+  edtf: "1870"
+  hijri: "1287"
+  calendar: gregorian
+  precision: year
+  status: debated
+  derived: false
+  note: "Persian Wikipedia gives 1249 SH = 1287 AH at the village of Sarabeh Kachu near Ardestan and Wikidata gives the year 1870; the English article's text splits the birthplace between the town of Ardestan and the village of Sarabeh, so the year is circa and the place is stated at district level. The Hijri year is the Persian article's own, not a conversion."
+  sources: [source/wikipedia-hassan-modarres-en, source/wikipedia-hassan-modarres-fa, source/wikidata-hassan-modarres]
+died:
+  edtf: "1937-12-01"
+  hijri: "1356"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "Kashmar, where he was killed on Reza Shah's orders after exile in Khaf and Kashmar; Persian Wikipedia gives 10 Azar 1316 SH and English Wikipedia and Wikidata give 1 December 1937."
+  sources: [source/wikipedia-hassan-modarres-en, source/wikipedia-hassan-modarres-fa, source/wikidata-hassan-modarres]
+faith:
+  - value: shia-twelver
+    basis: documented
+    note: "Two independent article texts name his affiliation for him personally: the English lead calls him 'an Iranian Twelver Shi'a cleric', naming the branch directly, and the Persian lead calls him a Shia mojtahed; his seminary formation at Isfahan and Najaf in the Usuli tradition supplies the Twelver branch context, so the mapping is stated here rather than assumed. Wikidata's two religion values (Islam; Shia Islam) are unreferenced and form one source family; they are not counted."
+    sources: [source/wikipedia-hassan-modarres-en, source/wikipedia-hassan-modarres-fa]
+relations:
+  - { type: lived_in, target: place/isfahan, note: "He studied at the Isfahan seminary and later taught there before entering the Majlis.", sources: [source/wikipedia-hassan-modarres-en, source/wikipedia-hassan-modarres-fa] }
+external_ids: { wikidata: Q589068 }
+sources: [source/wikipedia-hassan-modarres-en, source/wikipedia-hassan-modarres-fa, source/wikidata-hassan-modarres]
+provenance: { layer: own-research, source: "Lane brief century-additions-39 (group Z2); grounded from English Wikipedia revision 1378229576, Persian Wikipedia revision 44390979 and Wikidata item Q589068 (revision 2537531057), resolved via the Wikipedia API pageprops and Special:EntityData.", generated_by: "Muse (Muse Spark 1.3)", run: century-additions-39 }
+status: { review: published, completeness: 3, generated_by: "Muse (Muse Spark 1.3)" }

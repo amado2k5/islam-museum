@@ -1,0 +1,36 @@
+id: person/tarik-elyounoussi
+class: person
+label: { ar: "طارق اليونسي", en: "Tarik Elyounoussi", ur: "طارق الیونسی" }
+names:
+  - { value: "Tarik Elyounoussi", kind: full }
+  - { value: "طارق اليونسي", kind: full }
+gender: male
+summary:
+  ar: "لاعب كرة قدم نرويجي، وُلد في الحسيمة بالمغرب سنة 1988. مهاجم وجناح لعب لفريدريكستاد وروزنبورغ في النرويج وهيرنفين في هولندا وأولمبياكوس في اليونان وأيك ستوكهولم في السويد، ومثّل منتخب النرويج."
+  en: "Norwegian footballer, born in Al Hoceima, Morocco in 1988. A forward and winger who played for Fredrikstad and Rosenborg in Norway, Heerenveen in the Netherlands, Olympiacos in Greece and AIK in Sweden, and represented the Norway national team."
+  ur: "نارویجن فٹبالر، 1988 میں مراکش کے الحسائمہ میں پیدا ہوئے۔ فارورڈ اور ونگر جو ناروے میں فریڈرکسٹاڈ اور روزنبرگ، ہالینڈ میں ہیرنوین، یونان میں اولمپیاکوس اور سویڈن میں اے آئی کے کے لیے کھیلے، اور ناروے قومی ٹیم کی نمائندگی کی۔"
+roles: [athlete]
+wings: [people, living]
+regions: [maghreb, andalus-europe]
+born:
+  edtf: "1988-02-23"
+  hijri: "1408"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "Born 23 February 1988 in Al Hoceima, Morocco, as given by the English Wikipedia article's infobox and by Wikidata Q609141, which agree. No place entity for Al Hoceima exists in data/place/, so no born_in edge is written. The Hijri year (1408) is derived by tabular conversion."
+  sources: [source/wikipedia-tarik-elyounoussi-en, source/wikidata-tarik-elyounoussi]
+faith:
+  - value: unknown
+    basis: unknown
+    note: "No article read makes any statement of Elyounoussi's religion: the English, French and Arabic Wikipedia articles, each read in full, contain no mention of it in their text or categories. The only attestation anywhere is Wikidata Q609141's religion value, Islam (Q432), generic and naming no school — a single structured-data value, which never counts alone. His Moroccan birth is not attestation. Under the two-source rule and the doubt rule, his faith is recorded as unknown, with the position documented here and in the prose."
+    sources: [source/wikipedia-tarik-elyounoussi-en, source/wikipedia-tarik-elyounoussi-fr, source/wikipedia-tarik-elyounoussi-ar, source/wikidata-tarik-elyounoussi]
+external_ids: { wikidata: "Q609141" }
+sources: [source/wikipedia-tarik-elyounoussi-en, source/wikipedia-tarik-elyounoussi-fr, source/wikipedia-tarik-elyounoussi-ar, source/wikidata-tarik-elyounoussi]
+provenance:
+  layer: own-research
+  source: "English Wikipedia 'Tarik Elyounoussi' (revision 1374813906 of 14 September 2026), French Wikipedia 'Tarik Elyounoussi' (revision 232517429 of 17 January 2026), Arabic Wikipedia «طارق اليونسي» (revision 76155255 of 9 August 2026) and Wikidata Q609141, read on 26 October 2026; each article was fetched by its recorded revision id and the returned revision asserted equal before any claim was drawn. No relation edge is written: his birthplace, Al Hoceima, has no entity in data/place/. No earlier record for him existed in data/person/ under elyounoussi or any other spelling checked (fragment and QID searches both negative); this is a new build, not an enrichment."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: century-additions-46
+status: { review: published, completeness: 2, generated_by: "Muse (Muse Spark 1.3)" }
