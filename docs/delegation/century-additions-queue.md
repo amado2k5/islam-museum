@@ -366,11 +366,11 @@ lists' own order. Status markers: [ ] queued · [~] in a writer's hands · [x] m
 - [x] Sheikh Abdul Rahman Al-Sudais — 1960–Living
 - [x] Sheikh Saud Al-Shuraim — 1966–Living
 - [x] Sheikh Saad Al-Ghamdi — 1967–Living
-- [ ] Sheikh Ali Jaber — 1953–2005
-- [ ] Sheikh Muhammad Ayyub — 1952–2016
-- [ ] Sheikh Ali Al-Hudhaify — 1947–Living
-- [ ] Sheikh Abdul Bari Al-Thubaiti — 1960–Living
-- [ ] Sheikh Salah Al-Budair — 1970–Living
+- [x] Sheikh Ali Jaber — 1953–2005
+- [x] Sheikh Muhammad Ayyub — 1952–2016
+- [x] Sheikh Ali Al-Hudhaify — 1947–Living
+- [x] Sheikh Abdul Bari Al-Thubaiti — 1960–Living
+- [x] Sheikh Salah Al-Budair — 1970–Living
 - [ ] Sheikh Hussein Al-Sheikh — 1964–Living
 - [ ] Qari Abdul Basit — 1927–1988
 - [ ] Qari Waheed Zafar Qasmi — 1953–Living
