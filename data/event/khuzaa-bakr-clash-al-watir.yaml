@@ -35,3 +35,8 @@ casualties: { value: 1, status: tradition, note: "أصابت بنو الديل �
 provenance: { layer: own-research, source: "sira-ibn-hisham saqqa 1936, juz' 4 pp. 31–33", generated_by: "Devin", run: "ibn-hisham-batch-1a" }
 sources: [source/ibn-hisham-saqqa, source/ibn-ishaq-guillaume]
 status: { review: draft, completeness: 1, generated_by: "Devin; mined from Ibn Hisham juz' 4 pp. 31–33" }
+
+education:
+  levels: [sprouts, explorers, scholars]
+  flagged_for_kids: true
+  provenance: { generated_by: "Devin", model: "Devin (Cognition)", run: "education-E5-leveled-b6", note: "Leveled texts restated from this record's own prose in ar, en and ur; draft, pending the founder's review and scholar review of the child levels." }
