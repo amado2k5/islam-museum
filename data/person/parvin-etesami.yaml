@@ -1,0 +1,47 @@
+id: person/parvin-etesami
+class: person
+label:
+  en: "Parvin E'tesami"
+  ar: "پروین اعتصامی"
+summary:
+  ar: "شاعرة إيرانية (1907–1941) اسمها الأصلي رخشنده اعتصامی؛ صاحبة ديوان يضم 209 قصيدة و5,606 بيتًا اشتهر بقصائد المناظرة والحكايات الرمزية في الأخلاق والعلم والعدالة الاجتماعية، وتُعدّ أشهر شاعرات إيران."
+  en: "Iranian poet (1907-1941), born Rakhshandeh E'tesami; author of a Divan of 209 compositions and 5,606 distiches famed for its debate poems (monazara) and fables on ethics, knowledge and social justice, and counted Iran's most famous woman poet."
+names:
+  - { value: "Rakhshandeh E'tesami", kind: full }
+  - { value: "رخشنده اعتصامی", kind: full }
+  - { value: "Parvin", kind: pen }
+  - { value: "Parvin E'tesami", kind: alternate }
+  - { value: "پروین اعتصامی", kind: alternate }
+gender: female
+roles: [poet]
+wings: [people]
+regions: [persia-central-asia]
+born:
+  edtf: "1907-03-16"
+  hijri: "1325"
+  calendar: gregorian
+  precision: day
+  status: debated
+  derived: true
+  note: "Tabriz. Persian Wikipedia gives 25 Esfand 1285 SH and Encyclopaedia Iranica gives the same date as 16 March 1907; Wikidata also gives 16 March 1907. English Wikipedia gives 17 March 1907, citing the same Persian date. The Hijri year is a conversion, marked derived."
+  sources: [source/wikipedia-parvin-etesami-en, source/wikipedia-parvin-etesami-fa, source/iranica-parvin-etesami, source/wikidata-parvin-etesami]
+died:
+  edtf: "1941-04-04"
+  hijri: "1360"
+  calendar: gregorian
+  precision: day
+  status: debated
+  derived: true
+  note: "Tehran, of typhoid fever; buried beside her father at the shrine of Fatima Masumeh in Qom. English Wikipedia and Persian Wikipedia give 15 Farvardin 1320 SH = 4 April 1941 (a Friday, as the Persian article notes); Encyclopaedia Iranica gives 16 Farvardin 1320 = 5 April 1941 and Wikidata also gives 5 April. The Hijri year is a conversion, marked derived."
+  sources: [source/wikipedia-parvin-etesami-en, source/wikipedia-parvin-etesami-fa, source/iranica-parvin-etesami, source/wikidata-parvin-etesami]
+faith:
+  - value: unknown
+    basis: unknown
+    note: "No source read makes a statement of her religion. English and Persian Wikipedia are silent on it, Encyclopaedia Iranica's entry discusses her life and poetry without naming any affiliation, and Wikidata carries no religion value. The religious and moral themes of her verse are repertoire, not attestation."
+    sources: [source/wikipedia-parvin-etesami-en, source/wikipedia-parvin-etesami-fa, source/iranica-parvin-etesami, source/wikidata-parvin-etesami]
+relations:
+  - { type: born_in, target: place/tabriz, sources: [source/wikipedia-parvin-etesami-en, source/wikipedia-parvin-etesami-fa, source/iranica-parvin-etesami] }
+external_ids: { wikidata: Q271254 }
+sources: [source/wikipedia-parvin-etesami-en, source/wikipedia-parvin-etesami-fa, source/wikidata-parvin-etesami, source/iranica-parvin-etesami]
+provenance: { layer: own-research, source: "Lane brief century-additions-40 (group Z2); grounded from English Wikipedia revision 1372319563, Persian Wikipedia revision 44747103, the Encyclopaedia Iranica entry by Moayyad, and Wikidata item Q271254 (revision 2560642289), resolved via the Wikipedia API pageprops and Special:EntityData.", generated_by: "Muse (Muse Spark 1.3)", run: century-additions-40 }
+status: { review: published, completeness: 3, generated_by: "Muse (Muse Spark 1.3)" }
