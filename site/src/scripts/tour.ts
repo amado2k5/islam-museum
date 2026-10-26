@@ -5,8 +5,8 @@
 // gets a light page with zero WebGL cost.
 //
 // All user-facing strings come from the JSON payload rendered by the component
-// (data.t / data.journeys / data.wingTitles). Only exhibit copy is hardcoded
-// bilingually below. All wing links are relative (/${lang}/${wing}/).
+// (data.t / data.journeys / data.exhibits / data.wingTitles); exhibit labels come
+// from tour/exhibits.yaml joined to their object records. All links are relative.
 
 export {}; // keep this file a module: no globals leak across bundled scripts
 
@@ -19,10 +19,23 @@ interface JourneyView {
   lines: string[];
 }
 
+interface ExhibitData {
+  id: string;
+  build: string; // key into exhibitBuilders
+  label: string;
+  desc: string;
+  material: string;
+  museum: string;
+  date: string;
+  note: string; // derived-date legend, when the date carries †
+  href: string; // the object record page
+}
+
 interface TourData {
   lang: "ar" | "en" | "ur";
   t: Record<string, string>;
   journeys: JourneyView[];
+  exhibits: ExhibitData[];
   wingTitles: Record<string, string>;
 }
 
@@ -73,13 +86,13 @@ function wireStatic(root: HTMLElement, data: TourData): void {
   };
 
   // Wired once; each successful entry replaces the teardown below.
-  // Exit returns to the museum home (two-way nav), after disposing the scene.
+  // Exit asks first; only a confirmed exit disposes the scene and returns to the
+  // museum home (two-way nav). Cancel leaves the visitor where they were.
   let teardown: (() => void) | null = null;
   exitBtn.addEventListener("click", () => {
+    if (!window.confirm(t.exit_confirm || "Leave the 3D tour?")) return;
     teardown?.();
-    if (window.confirm(t.exit_confirm || "Leave the 3D tour?")) {
-      window.location.href = `/${data.lang}/`;
-    }
+    window.location.href = `/${data.lang}/`;
   });
 
   enterBtn.addEventListener("click", async () => {
@@ -139,7 +152,6 @@ function init(
 
   const wingTitle = (id: string): string => data.wingTitles[id] || id;
   const wingHref = (id: string): string => `/${lang}/${id}/`;
-  const objectsHref = `/${lang}/objects/`;
 
   // Listeners registered here are removed by teardown().
   const cleanups: Array<() => void> = [];
@@ -153,7 +165,7 @@ function init(
     cleanups.push(() => el.removeEventListener(type, fn, opts));
   }
 
-  /* ---------------- wings & exhibits (copy lives in code) ---------------- */
+  /* ---------------- wings & exhibits ---------------- */
   interface Wing {
     id: string;
     color: number;
@@ -170,67 +182,12 @@ function init(
     { id: "made", color: 0x9a7b4f },
   ];
 
-  interface Exhibit {
-    id: string;
-    build: string;
-    ar: string;
-    en: string;
-    descAr: string;
-    descEn: string;
+  interface Exhibit extends ExhibitData {
+    x: number;
     spinObj?: THREE.Object3D;
   }
-  const EXHIBITS: Exhibit[] = [
-    {
-      id: "astrolabe",
-      build: "astrolabe",
-      ar: "أسطرلاب",
-      en: "Astrolabe",
-      descAr:
-        "آلة فلكية من النحاس الأصفر — بها قاس العلماء مواقع النجوم وحددوا الأوقات والاتجاهات.",
-      descEn:
-        "A brass instrument for reading the stars — scholars used it to measure positions and find times and directions.",
-    },
-    {
-      id: "manuscript",
-      build: "manuscript",
-      ar: "مخطوطة مزخرفة",
-      en: "Illuminated manuscript",
-      descAr:
-        "صفحات نُسخت بخط جميل وزُيّنت بالذهب — هكذا حُفظ العلم وتناقلته الأجيال.",
-      descEn:
-        "Pages copied in beautiful script and adorned with gold — this is how knowledge was preserved and passed down.",
-    },
-    {
-      id: "vase",
-      build: "vase",
-      ar: "مزهرية خزفية",
-      en: "Glazed vase",
-      descAr: "خزف ملوّن بأيدي حرفيين مهرة — جمال يستعمل في الحياة اليومية.",
-      descEn:
-        "Colored ceramics shaped by skilled hands — beauty made for everyday life.",
-    },
-    {
-      id: "dinar",
-      build: "dinar",
-      ar: "دينار ذهبي",
-      en: "Gold dinar",
-      descAr: "عملة ذهبية من عصور التجارة المزدهرة التي ربطت المشرق بالمغرب.",
-      descEn:
-        "A gold coin from the age of thriving trade that linked East and West.",
-    },
-    {
-      id: "lamp",
-      build: "lamp",
-      ar: "مصباح زيتي",
-      en: "Oil lamp",
-      descAr: "نور البيوت والمساجد قبل الكهرباء — زيت وزجاج ولهب هادئ.",
-      descEn:
-        "The light of homes and mosques before electricity — oil, glass, and a quiet flame.",
-    },
-  ];
-  const exName = (ex: Exhibit): string => (lang === "en" ? ex.en : ex.ar);
-  const exDesc = (ex: Exhibit): string =>
-    lang === "en" ? ex.descEn : ex.descAr;
+  // Stops in order; labels, dates and record links come from the page data.
+  const EXHIBITS: Exhibit[] = (data.exhibits || []).map((e) => ({ ...e, x: 0 }));
 
   /* ---------------- renderer / scene / camera / lights ---------------- */
   const app = $("#app");
@@ -468,11 +425,50 @@ function init(
   /* ---------------- the Grand Hall ---------------- */
   const hall = new THREE.Group();
   scene.add(hall);
+  // Floor waypoints: gold stars to click and jump to. Doorway stars sit 5 m
+  // from the door, outside the 2.2 m walk-through entry.
+  interface Waypoint {
+    scene: "hall" | "gallery";
+    x: number;
+    z: number;
+    yaw: number;
+    wing?: Wing;
+    stop?: number;
+  }
+  const hallWps: Waypoint[] = [];
   type Interactable =
     | { obj: THREE.Object3D; kind: "portal"; wing: Wing; group: THREE.Group }
     | { obj: THREE.Object3D; kind: "exhibit"; ex: Exhibit }
-    | { obj: THREE.Object3D; kind: "back" };
+    | { obj: THREE.Object3D; kind: "back" }
+    | { obj: THREE.Object3D; kind: "waypoint"; wp: Waypoint };
   const interact: Interactable[] = [];
+  const starMat = new THREE.MeshBasicMaterial({
+    map: canvasTex(256, 256, (g, w, h) => {
+      g.translate(w / 2, h / 2);
+      g.fillStyle = "rgba(245,214,123,.9)";
+      for (const r of [0, Math.PI / 4]) {
+        g.save();
+        g.rotate(r);
+        g.fillRect(-72, -72, 144, 144);
+        g.restore();
+      }
+      g.fillStyle = "rgba(13,27,46,.9)";
+      g.beginPath();
+      g.arc(0, 0, 40, 0, Math.PI * 2);
+      g.fill();
+    }),
+    transparent: true,
+    depthWrite: false,
+    opacity: 0.8,
+  });
+  const starGeo = new THREE.PlaneGeometry(1.6, 1.6);
+  function addStar(parent: THREE.Group, wp: Waypoint): void {
+    const m = new THREE.Mesh(starGeo, starMat);
+    m.rotation.x = -Math.PI / 2;
+    m.position.set(wp.x, 0.03, wp.z);
+    parent.add(m);
+    interact.push({ obj: m, kind: "waypoint", wp });
+  }
   const HALL_R = 26;
 
   const floorTex = canvasTex(1024, 1024, (g, w, h) => {
@@ -700,7 +696,12 @@ function init(
     g.add(frame, door, label);
     portalGroup.add(g);
     interact.push({ obj: door, kind: "portal", wing: w, group: g });
+    const wr = HALL_R - 6.5;
+    const wp: Waypoint = { scene: "hall", x: Math.cos(a) * wr, z: Math.sin(a) * wr, yaw: Math.atan2(-Math.cos(a), -Math.sin(a)), wing: w };
+    hallWps.push(wp);
+    addStar(hall, wp);
   });
+  addStar(hall, { scene: "hall", x: 0, z: 6, yaw: 0 });
 
   /* ---------------- columns + muqarnas cornice ---------------- */
   {
@@ -862,10 +863,10 @@ function init(
     v.position.y = -0.55;
     return v;
   }
-  function buildDinar(): THREE.Object3D {
+  function buildDirham(): THREE.Object3D {
     const d = new THREE.Mesh(
       new THREE.CylinderGeometry(0.34, 0.34, 0.06, 28),
-      goldM
+      new THREE.MeshStandardMaterial({ color: 0xc9ccd2, metalness: 0.85, roughness: 0.3 })
     );
     d.rotation.x = Math.PI / 2;
     return d;
@@ -895,15 +896,17 @@ function init(
     astrolabe: buildAstrolabe,
     manuscript: buildManuscript,
     vase: buildVase,
-    dinar: buildDinar,
+    dirham: buildDirham,
     lamp: buildLamp,
   };
   const pedMat = new THREE.MeshStandardMaterial({
     color: 0x6e5b3e,
     roughness: 0.7,
   });
+  const EX_GAP = 6;
   EXHIBITS.forEach((ex, i) => {
-    const x = -12 + i * 6;
+    const x = (i - (EXHIBITS.length - 1) / 2) * EX_GAP;
+    ex.x = x;
     const p = new THREE.Mesh(
       new THREE.CylinderGeometry(0.9, 1.05, 1.2, 20),
       pedMat
@@ -918,7 +921,7 @@ function init(
     });
     gallery.add(art);
     ex.spinObj = art;
-    const label = textSprite(exName(ex), { px: 56 });
+    const label = textSprite(ex.label, { px: 56 });
     label.position.set(x, 3.35, -2);
     gallery.add(label);
     const hit = new THREE.Mesh(
@@ -928,6 +931,7 @@ function init(
     hit.position.set(x, 2, -2);
     gallery.add(hit);
     interact.push({ obj: hit, kind: "exhibit", ex });
+    addStar(gallery, { scene: "gallery", x, z: 2.6, yaw: 0, stop: i });
     const spot = new THREE.SpotLight(0xffe9b8, 60, 12, 0.5, 0.5);
     spot.position.set(x, 7.4, 1);
     spot.target.position.set(x, 1.6, -2);
@@ -1389,7 +1393,15 @@ function init(
   }
 
   type SceneName = "hall" | "gallery" | "journey";
-  function setScene(name: SceneName, ref?: Wing | JourneyView): void {
+  // Stop links: #objects, #objects/<exhibit>, #journey/<id>; the hall clears the hash.
+  function setHash(h: string): void {
+    try {
+      history.replaceState(null, "", h ? `#${h}` : location.pathname + location.search);
+    } catch {
+      /* sandboxed or file: URL — links just don't update */
+    }
+  }
+  function setScene(name: SceneName, ref?: Wing | JourneyView, stop?: number): void {
     fade.style.opacity = "1";
     window.setTimeout(
       () => {
@@ -1398,9 +1410,15 @@ function init(
         gallery.visible = name === "gallery";
         player.scene = name;
         player.target = null;
-        panel.classList.remove("show");
+        closePanel(false);
+        closeMap(false);
         journeyCard.classList.remove("show");
+        nearEx = null;
+        nearDoor = null;
+        stopIdx = -1;
+        setHint(null);
         if (name === "hall") {
+          setHash("");
           player.pos.set(0, 1.7, 16);
           player.yaw = 0;
           player.pitch = 0;
@@ -1415,6 +1433,8 @@ function init(
           wingLabel.textContent = (t.gallery_sub || "{wing}")
             .replace("{wing}", wt)
             .replace("{tour}", t.hall_sub || "");
+          setHash(ref.id);
+          if (stop !== undefined && EXHIBITS[stop]) placeAtStop(stop);
         } else if (name === "journey" && ref && "lines" in ref) {
           const builder = JOURNEY_BUILDERS[ref.build];
           if (!builder) return;
@@ -1428,6 +1448,7 @@ function init(
           }
           if (built.sun !== undefined) sun.intensity = built.sun;
           if (built.hemi !== undefined) hemi.intensity = built.hemi;
+          setHash(`journey/${ref.id}`);
           player.pos.set(0, 1.7, 16);
           player.yaw = 0;
           player.pitch = 0;
@@ -1447,6 +1468,7 @@ function init(
           }
           journeyCard.classList.add("show");
         }
+        refreshStrip();
         fade.style.opacity = "0";
       },
       REDUCED() ? 60 : 700
@@ -1483,12 +1505,270 @@ function init(
     });
   }
 
+  // Label card: one stop at a time, "n of N" with previous/next. Focus moves into
+  // the card when it opens and returns to where it was when it closes.
+  // Western digits, as the record dates use.
+  const numFmt = { format: (n: number): string => String(n) };
+  let stopIdx = -1;
+  let panelReturn: HTMLElement | null = null;
   function showPanel(ex: Exhibit): void {
-    $("#panelTitle").textContent = exName(ex);
-    $("#panelDesc").textContent = exDesc(ex);
-    ($<HTMLAnchorElement>("#panelLink")).href = objectsHref;
+    stopIdx = EXHIBITS.indexOf(ex);
+    $("#panelCount").textContent = (t.stop_of || "{n} / {total}")
+      .replace("{n}", numFmt.format(stopIdx + 1))
+      .replace("{total}", numFmt.format(EXHIBITS.length));
+    $("#panelTitle").textContent = ex.label;
+    $("#panelMeta").textContent = [ex.date, ex.material, ex.museum].filter(Boolean).join(" · ");
+    $("#panelNote").textContent = ex.note || "";
+    $("#panelDesc").textContent = ex.desc;
+    ($<HTMLAnchorElement>("#panelLink")).href = ex.href;
+    if (!panel.classList.contains("show")) {
+      const active = document.activeElement as HTMLElement | null;
+      panelReturn = active && active !== document.body && !panel.contains(active) ? active : null;
+    }
     panel.classList.add("show");
+    setHash(`objects/${ex.id}`);
+    refreshStrip();
+    if (!panel.contains(document.activeElement)) $("#panelTitle").focus({ preventScroll: true });
   }
+  function closePanel(restore = true): void {
+    if (!panel.classList.contains("show")) return;
+    panel.classList.remove("show");
+    if (player.scene === "gallery") setHash("objects");
+    if (restore && panel.contains(document.activeElement)) {
+      (panelReturn && root.contains(panelReturn) ? panelReturn : renderer.domElement).focus({ preventScroll: true });
+    }
+    panelReturn = null;
+  }
+  // Stand in front of exhibit i and open its label.
+  function placeAtStop(i: number): void {
+    const n = EXHIBITS.length;
+    const ex = EXHIBITS[((i % n) + n) % n];
+    player.pos.set(ex.x, 1.7, 2.6);
+    player.yaw = 0;
+    player.pitch = 0;
+    player.target = null;
+    showPanel(ex);
+  }
+  function stepStop(delta: number): void {
+    if (player.scene !== "gallery" || !EXHIBITS.length) return;
+    placeAtStop(stopIdx < 0 ? (delta > 0 ? 0 : EXHIBITS.length - 1) : stopIdx + delta);
+  }
+  // Jump to a floor waypoint: a short fade, instant with reduced motion.
+  function jumpTo(wp: Waypoint): void {
+    if (wp.stop !== undefined) return placeAtStop(wp.stop);
+    const go = (): void => {
+      player.pos.set(wp.x, 1.7, wp.z);
+      player.yaw = wp.yaw;
+      player.pitch = 0;
+      player.target = null;
+    };
+    if (REDUCED()) return go();
+    fade.style.opacity = "1";
+    window.setTimeout(() => {
+      go();
+      fade.style.opacity = "0";
+    }, 300);
+  }
+
+  // Walking up to an exhibit offers its label (keyboard: Enter).
+  const hintEl = $("#hint");
+  const baseHint = (): string =>
+    (document.body.classList.contains("touch") ? t.hint_touch : t.hint_desktop) || "";
+  let nearEx: Exhibit | null = null;
+  let nearDoor: Wing | null = null;
+  function setHint(ex: Exhibit | null): void {
+    const touchUi = document.body.classList.contains("touch");
+    hintEl.textContent = ex
+      ? `${ex.label} · ${(touchUi ? t.near_prompt_touch : t.near_prompt) || ""}`
+      : nearDoor
+        ? `${wingTitle(nearDoor.id)} · ${(touchUi ? t.near_door_touch : t.near_door) || ""}`
+        : baseHint();
+  }
+
+  const helpPanel = $("#helpPanel");
+  let helpReturn: HTMLElement | null = null;
+  function openHelp(): void {
+    closeMap(false);
+    helpReturn = document.activeElement as HTMLElement | null;
+    helpPanel.classList.add("show");
+    requestAnimationFrame(() => $("#helpTitle").focus({ preventScroll: true }));
+  }
+  function closeHelp(): void {
+    if (!helpPanel.classList.contains("show")) return;
+    helpPanel.classList.remove("show");
+    (helpReturn && root.contains(helpReturn) ? helpReturn : $("#helpBtn")).focus({ preventScroll: true });
+    helpReturn = null;
+  }
+
+  /* ---------------- overview map ---------------- */
+  // A 2D plan with the entrance at the bottom (+x right, +z down). The drawing
+  // is decorative; every place on it is a real button, and a text line says
+  // where you are.
+  const mapPanel = $("#mapPanel");
+  const mapPlan = $("#mapPlan");
+  const mapBtn = $<HTMLButtonElement>("#mapBtn");
+  let mapReturn: HTMLElement | null = null;
+  const hex = (c: number): string => "#" + c.toString(16).padStart(6, "0");
+  const doorName = (w: Wing): string => (t.map_door || "{wing}").replace("{wing}", wingTitle(w.id));
+  const stopName = (i: number): string =>
+    (t.map_stop || "{label}")
+      .replace("{label}", EXHIBITS[i].label)
+      .replace("{n}", numFmt.format(i + 1))
+      .replace("{total}", numFmt.format(EXHIBITS.length));
+  const curStop = (): Exhibit | null => nearEx;
+  function mapBox(): { x0: number; z0: number; w: number; h: number } {
+    return player.scene === "gallery"
+      ? { x0: -G_W / 2, z0: -G_D / 2, w: G_W, h: G_D }
+      : { x0: -HALL_R - 1, z0: -HALL_R - 1, w: 2 * HALL_R + 2, h: 2 * HALL_R + 2 };
+  }
+  function mapMark(x: number, z: number, text: string, name: string, key: string, act: () => void): void {
+    const b = mapBox();
+    const el = document.createElement("button");
+    el.type = "button";
+    el.className = "mk";
+    el.textContent = text;
+    if (name !== text) el.setAttribute("aria-label", name);
+    el.dataset.k = key;
+    el.style.left = `${((x - b.x0) / b.w) * 100}%`;
+    el.style.top = `${((z - b.z0) / b.h) * 100}%`;
+    el.addEventListener("click", () => {
+      closeMap(false);
+      renderer.domElement.focus({ preventScroll: true });
+      act();
+    });
+    mapPlan.appendChild(el);
+  }
+  function updateMapDot(): void {
+    const d = mapPlan.querySelector("[data-dot]");
+    d?.setAttribute(
+      "transform",
+      `translate(${player.pos.x.toFixed(2)} ${player.pos.z.toFixed(2)}) rotate(${((-player.yaw * 180) / Math.PI).toFixed(1)})`
+    );
+  }
+  function drawMap(): void {
+    const b = mapBox();
+    const gal = player.scene === "gallery";
+    mapPlan.classList.toggle("gallery", gal);
+    const shape = gal
+      ? `<rect x="${b.x0}" y="${b.z0}" width="${b.w}" height="${b.h}" rx="0.6"/>` +
+        EXHIBITS.map((ex) => `<circle cx="${ex.x}" cy="-2" r="1.1" fill="#d4a017" fill-opacity=".35"/>`).join("") +
+        `<rect x="-2.5" y="${G_D / 2 - 0.7}" width="5" height="0.7" fill="#d4a017"/>`
+      : `<circle cx="0" cy="0" r="${HALL_R}"/><circle cx="0" cy="0" r="2.1" fill="#d4a017" fill-opacity=".35"/>` +
+        WINGS.map((w, i) => {
+          const a = (i / WINGS.length) * Math.PI * 2 + Math.PI / 2;
+          const r = HALL_R - 1.5;
+          return `<circle cx="${(Math.cos(a) * r).toFixed(2)}" cy="${(Math.sin(a) * r).toFixed(2)}" r="1.6" fill="${hex(w.color)}"/>`;
+        }).join("");
+    // Numbers and colours only: no page text goes through innerHTML.
+    mapPlan.innerHTML =
+      `<svg viewBox="${b.x0} ${b.z0} ${b.w} ${b.h}" aria-hidden="true" focusable="false">` +
+      `<g fill="rgba(30,44,74,.6)" stroke="#d4a017" stroke-width="0.3">${shape}</g>` +
+      `<g data-dot><circle r="1" fill="#f5d67b" stroke="#0d1b2e" stroke-width="0.3"/>` +
+      `<path d="M0 -2.8 L1 -1 L-1 -1 Z" fill="#f5d67b"/></g></svg>`;
+    if (gal) {
+      EXHIBITS.forEach((ex, i) =>
+        mapMark(ex.x, -2, numFmt.format(i + 1), stopName(i), ex.id, () => placeAtStop(i))
+      );
+      const back = t.gallery_back || "";
+      mapMark(0, G_D / 2 - 2, back, back, "back", () => setScene("hall"));
+    } else {
+      WINGS.forEach((w, i) =>
+        mapMark(hallWps[i].x, hallWps[i].z, wingTitle(w.id), doorName(w), w.id, () => jumpTo(hallWps[i]))
+      );
+    }
+    syncMap();
+    updateMapDot();
+  }
+  // Keep the location line and the current marker in step as you move.
+  function syncMap(): void {
+    const cur = player.scene === "hall" ? nearDoor : curStop();
+    mapPlan.querySelectorAll<HTMLButtonElement>(".mk").forEach((b) => {
+      if (cur && b.dataset.k === cur.id) b.setAttribute("aria-current", "location");
+      else b.removeAttribute("aria-current");
+    });
+    const here =
+      player.scene === "gallery"
+        ? nearEx
+          ? stopName(EXHIBITS.indexOf(nearEx))
+          : locEl.textContent || ""
+        : nearDoor
+          ? doorName(nearDoor)
+          : t.loc_hall || "";
+    $("#mapHere").textContent = (t.map_here || "{place}").replace("{place}", here);
+  }
+  function openMap(): void {
+    if (player.scene === "journey") return;
+    closeHelp();
+    const active = document.activeElement as HTMLElement | null;
+    mapReturn = active && !panel.contains(active) && !mapPanel.contains(active) ? active : mapBtn;
+    closePanel(false);
+    journeyPanel.classList.remove("show");
+    drawMap();
+    // Sit below the top bar, which wraps to two rows on narrow phones.
+    mapPanel.style.top = `${Math.round($("#topbar").getBoundingClientRect().bottom) + 4}px`;
+    mapPanel.style.maxHeight = `calc(100vh - ${Math.round($("#topbar").getBoundingClientRect().bottom) + 70}px)`;
+    mapPanel.classList.add("show");
+    $("#mapTitle").focus({ preventScroll: true });
+  }
+  function closeMap(restore = true): void {
+    if (!mapPanel.classList.contains("show")) return;
+    mapPanel.classList.remove("show");
+    if (restore) (mapReturn && root.contains(mapReturn) ? mapReturn : mapBtn).focus({ preventScroll: true });
+    mapReturn = null;
+  }
+
+  /* ---------------- room strip ---------------- */
+  const strip = $("#strip");
+  const stripItems = $<HTMLUListElement>("#stripItems");
+  const stripToggle = $<HTMLButtonElement>("#stripToggle");
+  let stripFor: SceneName | null = null;
+  function stripItem(key: string, fill: (b: HTMLButtonElement) => void, act: () => void): void {
+    const li = document.createElement("li");
+    const b = document.createElement("button");
+    b.type = "button";
+    b.dataset.k = key;
+    fill(b);
+    b.addEventListener("click", act);
+    li.appendChild(b);
+    stripItems.appendChild(li);
+  }
+  function refreshStrip(): void {
+    const journey = player.scene === "journey";
+    strip.hidden = journey;
+    mapBtn.hidden = journey;
+    if (stripFor !== player.scene) {
+      stripFor = player.scene;
+      stripItems.textContent = "";
+      if (player.scene === "hall") {
+        WINGS.forEach((w, i) =>
+          stripItem(w.id, (b) => {
+            const sw = document.createElement("span");
+            sw.className = "sw";
+            sw.setAttribute("aria-hidden", "true");
+            sw.style.background = hex(w.color);
+            b.append(sw, wingTitle(w.id));
+          }, () => jumpTo(hallWps[i]))
+        );
+      } else if (player.scene === "gallery") {
+        EXHIBITS.forEach((ex, i) =>
+          stripItem(ex.id, (b) => (b.textContent = `${numFmt.format(i + 1)} · ${ex.label}`), () => placeAtStop(i))
+        );
+        stripItem("back", (b) => (b.textContent = t.gallery_back || ""), () => setScene("hall"));
+      }
+    }
+    const cur = player.scene === "hall" ? nearDoor?.id : curStop()?.id;
+    stripItems.querySelectorAll<HTMLButtonElement>("button").forEach((b) => {
+      if (cur && b.dataset.k === cur) b.setAttribute("aria-current", "location");
+      else b.removeAttribute("aria-current");
+    });
+    if (mapPanel.classList.contains("show")) syncMap();
+  }
+  listen(stripToggle, "click", (() => {
+    const open = stripItems.hidden;
+    stripItems.hidden = !open;
+    stripToggle.setAttribute("aria-expanded", String(open));
+    stripToggle.textContent = (open ? t.strip_hide : t.strip_show) || "";
+  }) as EventListener);
 
   /* ---------------- journey chooser ---------------- */
   function startJourney(j: JourneyView): void {
@@ -1548,8 +1828,16 @@ function init(
   listen(window, "keydown", ((e: KeyboardEvent) => {
     if (e.key === "Escape") {
       // Escape closes open panels — focus is never trapped.
+      if (mapPanel.classList.contains("show")) {
+        closeMap();
+        return;
+      }
+      if (helpPanel.classList.contains("show")) {
+        closeHelp();
+        return;
+      }
       if (panel.classList.contains("show")) {
-        panel.classList.remove("show");
+        closePanel();
         return;
       }
       if (journeyPanel.classList.contains("show")) {
@@ -1562,6 +1850,28 @@ function init(
       }
       return;
     }
+    const onControl = !!(e.target as HTMLElement | null)?.closest?.("button, a, input, select, textarea");
+    if (player.scene === "gallery" && !e.altKey && !e.ctrlKey && !e.metaKey) {
+      if (e.key === "]") return stepStop(1);
+      if (e.key === "[") return stepStop(-1);
+      const digit = /^Digit([1-9])$/.exec(e.code);
+      if (digit && Number(digit[1]) <= EXHIBITS.length) return placeAtStop(Number(digit[1]) - 1);
+      if (e.key === "Enter" && !onControl && nearEx) {
+        e.preventDefault();
+        return showPanel(nearEx);
+      }
+    }
+    if (player.scene === "hall" && !e.altKey && !e.ctrlKey && !e.metaKey) {
+      const digit = /^Digit([1-9])$/.exec(e.code);
+      if (digit && hallWps[Number(digit[1]) - 1]) return jumpTo(hallWps[Number(digit[1]) - 1]);
+      if (e.key === "Enter" && !onControl && nearDoor) {
+        e.preventDefault();
+        return enterPortal(nearDoor);
+      }
+    }
+    if (e.code === "KeyM" && !e.altKey && !e.ctrlKey && !e.metaKey && player.scene !== "journey")
+      return mapPanel.classList.contains("show") ? closeMap() : openMap();
+    if (onControl && (e.code === "Space" || e.key === "Enter")) return;
     keys[e.code] = true;
     if (
       ["ArrowUp", "ArrowDown", "ArrowLeft", "ArrowRight", "Space"].includes(
@@ -1663,9 +1973,11 @@ function init(
     ray.setFromCamera(ndc, camera);
     const targets = interact
       .filter((i) =>
-        player.scene === "hall"
-          ? i.kind === "portal"
-          : i.kind === "exhibit" || i.kind === "back"
+        i.kind === "waypoint"
+          ? i.wp.scene === player.scene
+          : player.scene === "hall"
+            ? i.kind === "portal"
+            : i.kind === "exhibit" || i.kind === "back"
       )
       .map((i) => i.obj);
     const hits = ray.intersectObjects(targets, false);
@@ -1674,6 +1986,7 @@ function init(
       if (it?.kind === "portal") return enterPortal(it.wing);
       if (it?.kind === "exhibit") return showPanel(it.ex);
       if (it?.kind === "back") return setScene("hall");
+      if (it?.kind === "waypoint") return jumpTo(it.wp);
     }
     // Smooth walk to the tapped floor point.
     const pt = new THREE.Vector3();
@@ -1741,6 +2054,15 @@ function init(
           break;
         }
       }
+      let door: Wing | null = null;
+      for (const wp of hallWps)
+        if (wp.wing && Math.hypot(player.pos.x - wp.x, player.pos.z - wp.z) < 3) door = wp.wing;
+      if (door !== nearDoor) {
+        nearDoor = door;
+        setHint(null);
+        setHash(door ? `hall/${door.id}` : "");
+        refreshStrip();
+      }
     } else if (player.scene === "gallery") {
       player.pos.x = Math.max(
         -G_W / 2 + 1.2,
@@ -1752,6 +2074,15 @@ function init(
       );
       if (player.pos.z > G_D / 2 - 2.4 && Math.abs(player.pos.x) < 3)
         setScene("hall");
+      let near: Exhibit | null = null;
+      for (const ex of EXHIBITS) {
+        if (Math.abs(player.pos.x - ex.x) < EX_GAP / 2 && player.pos.z < 4.5) near = ex;
+      }
+      if (near !== nearEx) {
+        nearEx = near;
+        setHint(near);
+        refreshStrip();
+      }
     } else {
       const r = Math.hypot(player.pos.x, player.pos.z);
       const max = 21;
@@ -1765,10 +2096,19 @@ function init(
   }
 
   /* ---------------- panel / journey UI wiring ---------------- */
-  listen($<HTMLButtonElement>("#panelClose"), "click", (() =>
-    panel.classList.remove("show")) as EventListener);
-  listen($<HTMLButtonElement>("#journeyBtn"), "click", (() =>
-    journeyPanel.classList.add("show")) as EventListener);
+  listen($<HTMLButtonElement>("#panelClose"), "click", (() => closePanel()) as EventListener);
+  listen($<HTMLButtonElement>("#panelPrev"), "click", (() => stepStop(-1)) as EventListener);
+  listen($<HTMLButtonElement>("#panelNext"), "click", (() => stepStop(1)) as EventListener);
+  listen($<HTMLButtonElement>("#helpBtn"), "click", (() =>
+    helpPanel.classList.contains("show") ? closeHelp() : openHelp()) as EventListener);
+  listen($<HTMLButtonElement>("#helpClose"), "click", (() => closeHelp()) as EventListener);
+  listen(mapBtn, "click", (() =>
+    mapPanel.classList.contains("show") ? closeMap() : openMap()) as EventListener);
+  listen($<HTMLButtonElement>("#mapClose"), "click", (() => closeMap()) as EventListener);
+  listen($<HTMLButtonElement>("#journeyBtn"), "click", (() => {
+    closeMap(false);
+    journeyPanel.classList.add("show");
+  }) as EventListener);
   listen($<HTMLButtonElement>("#journeyClose"), "click", (() =>
     journeyPanel.classList.remove("show")) as EventListener);
   listen($<HTMLButtonElement>("#jBack"), "click", (() =>
@@ -1802,6 +2142,7 @@ function init(
       });
     }
     updatePlayer(dt);
+    if (mapPanel.classList.contains("show")) updateMapDot();
     renderer.render(scene, camera);
     if (firstFrame) {
       firstFrame = false;
@@ -1813,7 +2154,30 @@ function init(
   player.yaw = 0;
   camera.position.copy(player.pos);
   camera.rotation.set(0, 0, 0);
+  renderer.domElement.setAttribute("role", "img");
+  renderer.domElement.tabIndex = 0;
+  renderer.domElement.setAttribute("aria-label", t.canvas_label || "");
+  refreshStrip();
   animate();
+
+  // Open at the stop named in the link, if any.
+  {
+    const [kind, id] = decodeURIComponent(location.hash.slice(1)).split("/");
+    const objectsWing = WINGS.find((w) => w.id === "objects")!;
+    if (kind === "objects") {
+      const i = EXHIBITS.findIndex((e) => e.id === id);
+      setScene("gallery", objectsWing, i >= 0 ? i : undefined);
+    } else if (kind === "journey") {
+      const j = data.journeys.find((x) => x.id === id);
+      if (j) setScene("journey", j);
+    } else if (kind === "hall") {
+      const wp = hallWps[WINGS.findIndex((w) => w.id === id)];
+      if (wp) {
+        player.pos.set(wp.x, 1.7, wp.z);
+        player.yaw = wp.yaw;
+      }
+    }
+  }
 
   /* ---------------- teardown (Exit button) ---------------- */
   let exited = false;
@@ -1848,6 +2212,9 @@ function init(
     journeyPanel.classList.remove("show");
     journeyCard.classList.remove("show");
     panel.classList.remove("show");
+    helpPanel.classList.remove("show");
+    mapPanel.classList.remove("show");
+    stripItems.textContent = "";
     $("#toast").classList.remove("show");
     enterCard.classList.remove("hide");
     enterBtn.disabled = false;

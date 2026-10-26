@@ -34,3 +34,12 @@ He also relates, with the family of Abu Talib, that money came from Muhammad ibn
 
 ## His death
 He died on Sunday, seven nights before the end of Rabi al-Akhir 289 AH. Al-Mas'udi says his caliphate lasted nine years, nine months and two days. {cite:muruj-al-dhahab p. 595-597}
+
+## For Sprouts
+Al-Mu'tadid Billah was the Abbasid caliph, acclaimed heir in Safar 278 AH, caliph from 279 AH until his death in 289 AH.
+
+## For Explorers
+Al-Mu'tadid Billah, the Abbasid caliph, was acclaimed heir in Safar 278 AH; al-Tabari records that in 279 AH Ja'far al-Mufawwid was deposed from the succession and al-Mu'tadid took office in Muharram. Al-Mas'udi names him Abu al-Abbas Ahmad ibn Talha al-Muwaffaq, his mother a Roman umm walad called Dirar, acclaimed on the day his uncle al-Mu'tamid died — Tuesday, twelve nights remaining of Rajab 279 AH. At al-Tabari he marched on Banu Shayban in 280 AH and fought a battle with the Kurds and Arabs in 281 AH; al-Suyuti records al-Muwaffaq giving him Ibn Tulun's offices after his death in 270 AH and sending him to Egypt, where a great battle with Khumarawayh went to the Egyptians. Al-Mas'udi says he camped against Amid in 286 AH and besieged it until its lord surrendered on terms. He died in 289 AH.
+
+## For Scholars
+Al-Mu'tadid Billah, the Abbasid caliph, was acclaimed heir in Safar 278 AH, held the caliphate from 279 AH and died in 289 AH. Al-Tabari records that in 279 AH Ja'far al-Mufawwid was deposed from the succession and al-Mu'tadid took office in Muharram. Al-Mas'udi names him Abu al-Abbas Ahmad ibn Talha al-Muwaffaq, his mother a Roman umm walad called Dirar; he was acclaimed on the day his uncle al-Mu'tamid died — Tuesday, twelve nights remaining of Rajab 279 AH. At al-Tabari he marched on Banu Shayban in 280 AH and fought a battle with the Kurds and Arabs in 281 AH. Al-Suyuti records al-Muwaffaq giving him Ibn Tulun's offices after his death in 270 AH and sending him to Egypt, where a great battle with Khumarawayh ended in victory for the Egyptians. Al-Mas'udi says he camped against Amid in 286 AH and besieged it until its lord Muhammad ibn Ahmad surrendered on terms.

@@ -13,3 +13,8 @@ coordinate_note: "The village is the GeoNames point; the battlefield lay nearby 
 external_ids: { geonames: "247809" }
 sources: [source/geonames-gazetteer, source/umari-masalik-1924]
 status: { review: draft, completeness: 1, generated_by: "Claude Sonnet 5.5; coordinates from GeoNames" }
+
+education:
+  levels: [sprouts, explorers, scholars]
+  flagged_for_kids: true
+  provenance: { generated_by: "Devin", model: "Devin (Cognition)", run: "education-E5-leveled-b7", note: "Leveled texts restated from this record's own prose in ar, en and ur; draft, pending the founder's review and scholar review of the child levels." }

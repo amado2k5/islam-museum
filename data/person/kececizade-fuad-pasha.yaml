@@ -1,0 +1,48 @@
+id: person/kececizade-fuad-pasha
+class: person
+label: { ar: "محمد فؤاد باشا", en: "Keçecizade Fuad Pasha", ur: "محمد فؤاد پاشا" }
+names:
+  - { value: "محمد فؤاد باشا", kind: full }
+  - { value: "Keçecizade Mehmed Fuad Pasha", kind: full }
+  - { value: "Mehmed Fuad Pasha", kind: alternate }
+  - { value: "Fuad Pasha", kind: alternate }
+gender: male
+summary:
+  ar: "محمد فؤاد باشا (وُلد في إسطنبول سنة 1814 – توفي في نيس بفرنسا في فبراير 1869)، رجل دولة عثماني من أبناء الأعيان العلماء، ابن الشاعر العالم كجّه جي زاده عزت ملا، صدر أعظم مرتين (1861–1863 و1863–1866) ووزير خارجية نحو عشر سنوات عند التركية، وقائد مهمة الباب العالي في سوريا أثناء فتنة جبل لبنان سنة 1860، وأحد ثلاثة رجال كبار قادوا التنظيمات مع رشيد باشا وعالي باشا واشتهر بحدّة ذهنه ونوادره."
+  en: "Mehmed Fuad Pasha (born in Istanbul in 1814 – died at Nice in France in February 1869) was an Ottoman statesman from a prominent ulema family, son of the poet-scholar Keçecizade İzzet Molla, twice Grand Vizier (1861–1863 and 1863–1866) and Foreign Minister for nearly ten years by the Turkish article's count; he led the Porte's mission to Syria during the 1860 Mount Lebanon civil war, stood with Reşid Pasha and Âli Pasha as one of the three great men of the Tanzimat, and was famed for his wit."
+  ur: "محمد فؤاد پاشا (پیدائش: استنبول، 1814ء – وفات: نیس، فرانس، فروری 1869ء)، نامور علما خاندان کے عثمانی سیاست دان، شاعر و عالم عزت ملا کے بیٹے، دو بار صدرِ اعظم (1861–1863ء و 1863–1866ء) رہے اور 1860ء میں شام کی مہم کی قیادت کی۔"
+roles: [statesman, diplomat, poet]
+wings: [people]
+born:
+  edtf: "1814"
+  hijri: "1229"
+  calendar: gregorian
+  precision: year
+  status: historical
+  derived: true
+  note: "The year 1814 at Constantinople is all the English, Turkish and Arabic articles give. Wikidata carries a day-precision birth, 17 January 1814, that no article supports; following the lane's practice the record keeps the articles' year precision and states the value here. The Hijri year 1229 is the tabular conversion (the Gregorian year 1814 spans 1228–1229 AH and its mid-year falls in 1229)."
+  sources: [source/wikipedia-kececizade-fuad-pasha-en, source/wikipedia-kececizade-fuad-pasha-tr, source/wikipedia-kececizade-fuad-pasha-ar, source/wikidata-kececizade-fuad-pasha]
+died:
+  edtf: "1869-02-12"
+  hijri: "1285"
+  calendar: gregorian
+  precision: day
+  status: debated
+  derived: true
+  note: "The English article gives 12 February 1869 at Nice, in both infobox and text (the text sentence itself carries a citation-needed tag). Wikidata gives 13 February 1869 at Nice, one day later. The Turkish article gives the death year as 1868 in both its lead and its infobox, against the English and Arabic articles and Wikidata, which all give 1869; the record follows 1869 and the English article's day, and states both disagreements here. The Hijri year 1285 is the tabular conversion of 12 February 1869. No died_in edge is written: the museum has no place entity for Nice (place/nicea is Nicaea, a different city)."
+  sources: [source/wikipedia-kececizade-fuad-pasha-en, source/wikipedia-kececizade-fuad-pasha-tr, source/wikipedia-kececizade-fuad-pasha-ar, source/wikidata-kececizade-fuad-pasha]
+relations:
+  - { type: born_in, target: place/istanbul, note: "He was born in Constantinople in 1814 (English, Turkish and Arabic articles; Wikidata birthplace Istanbul, Q406).", sources: [source/wikipedia-kececizade-fuad-pasha-en, source/wikipedia-kececizade-fuad-pasha-tr, source/wikidata-kececizade-fuad-pasha] }
+faith:
+  - value: unknown
+    basis: unknown
+    note: "What each source gives, stated exactly: no article names a religion or school for him — the Turkish infobox religion field (dini) is empty, the Arabic infobox religion field (الديانة) is empty, and the English infobox carries no religion field; Wikidata's religion value (P140) is the generic item Islam (Q432), one structured-data value naming no school. He was born into a prominent ulema family and medrese-educated before the medical school, and the English article reports (after Davison) that he was a freemason; family background and education are exactly what never counts under the two-source rule, and a lodge membership names no legal school. His school is therefore left unknown, with the readings preserved here."
+    sources: [source/wikipedia-kececizade-fuad-pasha-en, source/wikipedia-kececizade-fuad-pasha-tr, source/wikipedia-kececizade-fuad-pasha-ar, source/wikidata-kececizade-fuad-pasha]
+external_ids: { wikidata: "Q715917" }
+sources: [source/wikipedia-kececizade-fuad-pasha-en, source/wikipedia-kececizade-fuad-pasha-tr, source/wikipedia-kececizade-fuad-pasha-ar, source/wikidata-kececizade-fuad-pasha]
+provenance:
+  layer: own-research
+  source: "English Wikipedia 'Mehmed Fuad Pasha' (revision 1368717700), Turkish Wikipedia 'Keçecizâde Fuad Paşa' (revision 37932188) and Arabic Wikipedia 'محمد فؤاد باشا' (revision 73521030), read on 26 October 2026, with Wikidata item Q715917. The harvest queue's years (1814–1869) are confirmed. The disagreements are stated in the notes and prose rather than merged: the Turkish article's death year 1868 against 1869 everywhere else; Wikidata's death day 13 February against the English article's 12 February, and its unsupported day-precision birth; and the one-to-two-day differences between the Turkish infobox and the English succession boxes in his grand-vizier terms. The queue's name form Keçecizade is his family name (his father was Keçecizade İzzet Molla, who has no museum person record, so no child_of edge is written). His religion is left unknown under the two-source rule, as the faith note sets out. The patronage edge to Mustafa Reşid Pasha is written once, in Reşid's record, not here."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: century-additions-27
+status: { review: published, completeness: 3, generated_by: "Muse (Muse Spark 1.3)" }

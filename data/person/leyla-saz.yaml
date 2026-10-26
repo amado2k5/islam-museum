@@ -1,0 +1,50 @@
+id: person/leyla-saz
+class: person
+label: { ar: "ليلى ساز", en: "Leyla Saz", ur: "لیلیٰ ساز" }
+names:
+  - { value: "ليلى ساز", kind: full }
+  - { value: "Leyla Saz", kind: full }
+  - { value: "Leylâ Saz", kind: alternate }
+  - { value: "Leyla Hanımefendi", kind: alternate }
+gender: female
+summary:
+  ar: "ملحنة وشاعرة وكاتبة تركية، وُلدت في إسطنبول سنة 1850 وتوفيت فيها سنة 1936. ابنة حكيم إسماعيل باشا طبيب القصر، قضت سبع سنوات من طفولتها في حريم قصر طولمة باغجة، وتعلمت البيانو والموسيقى التركية، وتزوجت كريتلي سري باشا، وألفت نحو مئتي عمل موسيقي، وخلفت مذكرات عن الحريم الإمبراطوري في القرن التاسع عشر تُعد من أهم الشهادات الأولية عنه، واتخذت لقب «ساز» بعد قانون الألقاب سنة 1934."
+  en: "Turkish composer, poet and writer, born at Istanbul in 1850 and died there in 1936. Daughter of Hekim İsmail Pasha, the palace physician, she spent seven childhood years in the harem of Dolmabahçe Palace, learned piano and Turkish music, married Giritli Sırrı Pasha, composed some two hundred works, and left memoirs of the nineteenth-century imperial harem that remain a primary first-hand source on it; she took the surname Saz after the 1934 Surname Law."
+  ur: "ترک موسیقار، شاعرہ اور مصنفہ، 1850ء میں استنبول میں پیدا ہوئیں اور 1936ء میں وہیں وفات پائی۔ محل کے طبیب حکیم اسماعیل پاشا کی بیٹی تھیں؛ بچپن حرمِ سلطانی میں گزرا، اور ان کی یادداشتیں انیسویں صدی کے شاہی حرم کی اہم ترین عینی شہادتوں میں ہیں۔"
+roles: [composer, poet, writer]
+wings: [people]
+regions: [anatolia-balkans]
+born:
+  edtf: "1850"
+  hijri: "1266"
+  calendar: gregorian
+  precision: year
+  status: historical
+  derived: true
+  note: "Born at Istanbul in 1850: the Turkish article's infobox and text and the Arabic article give Istanbul and the year 1850, the English article gives the year 1850, and Wikidata gives the year 1850 with birthplace Istanbul (Q406). The Hijri year 1266 is the tabular conversion of mid-1850 and is marked derived."
+  sources: [source/wikipedia-leyla-saz-en, source/wikipedia-leyla-saz-tr, source/wikipedia-leyla-saz-ar, source/wikidata-leyla-saz]
+died:
+  edtf: "1936-12-06"
+  hijri: "1355"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "Died at Istanbul on 6 December 1936: the English, Turkish and Arabic articles and Wikidata agree. The Hijri year 1355 is the tabular conversion of 6 December 1936 (22 Ramadan 1355) and is marked derived."
+  sources: [source/wikipedia-leyla-saz-en, source/wikipedia-leyla-saz-tr, source/wikipedia-leyla-saz-ar, source/wikidata-leyla-saz]
+relations:
+  - { type: born_in, target: place/istanbul, note: "She was born at Istanbul in 1850 (Turkish article, infobox and text; Arabic article; Wikidata place of birth Istanbul, Q406).", sources: [source/wikipedia-leyla-saz-tr, source/wikidata-leyla-saz] }
+  - { type: died_in, target: place/istanbul, note: "She died at Istanbul on 6 December 1936 (English, Turkish and Arabic articles; Wikidata place of death Istanbul, Q406).", sources: [source/wikipedia-leyla-saz-en, source/wikidata-leyla-saz] }
+faith:
+  - value: unknown
+    basis: unknown
+    note: "What each source gives, stated exactly: no source names a school for Leyla Saz herself, and Wikidata carries no religion (P140) value for her at all. None of the English, Turkish or Arabic articles carries a religion field or discusses her personal affiliation. What the sources do give is her father: the Turkish article calls Hekim İsmail Pasha a palace physician of Rum (Greek) origin who served as the harem's doctor — a father's origin and any conversion of his are family background and never count for the daughter, and her childhood inside the imperial harem and her Ottoman classical repertoire are milieu and work, not attestation. Under the two-source rule and the doubt rule her school is therefore left unknown, with these readings preserved here."
+    sources: [source/wikipedia-leyla-saz-en, source/wikipedia-leyla-saz-tr, source/wikipedia-leyla-saz-ar, source/wikidata-leyla-saz]
+external_ids: { wikidata: "Q545441" }
+sources: [source/wikipedia-leyla-saz-en, source/wikipedia-leyla-saz-tr, source/wikipedia-leyla-saz-ar, source/wikidata-leyla-saz]
+provenance:
+  layer: own-research
+  source: "English Wikipedia 'Leyla Saz' (revision 1342895861), Turkish Wikipedia 'Leylâ Saz' (revision 38278248, reached through the redirect from 'Leyla Saz') and Arabic Wikipedia 'ليلى ساز' (revision 75386172), read on 26 October 2026, with Wikidata item Q545441. The harvest queue's years (1850–1936) are confirmed. Her father (Wikidata Q6063919), her husband Giritli Sırrı Pasha (Q5564309) and her son the architect Vedat Tek (Q7917938) have no museum person records, so no child_of or spouse_of edge is written; a child edge for Vedat Tek would in any case be written in his own record, not his mother's. No record of this person existed in the museum under any spelling, fragment or QID before this build."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: century-additions-29
+status: { review: published, completeness: 3, generated_by: "Muse (Muse Spark 1.3)" }

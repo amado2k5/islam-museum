@@ -10,6 +10,6 @@ wings: [place]
 coordinates: [27.18096, 31.18368]
 coordinate_precision: locality
 external_ids: { geonames: "359783" }
-sources: [source/rihla-ibn-jubayr-1907, source/geonames-gazetteer]
-provenance: { layer: own-research, source: "Rihla of Ibn Jubayr, Gibb Memorial 1907, scan pp. 370-376 (description); coordinates from GeoNames", generated_by: "Claude Code", model: "claude-haiku-5-5", run: "journeys-phase1-jubayr-nile" }
-status: { review: draft, completeness: 1, generated_by: "Claude Code; description from Ibn Jubayr scan pages (OCR, to verify on scan); coordinates from GeoNames" }
+sources: [source/rihla-ibn-jubayr-1907, source/geonames-gazetteer, source/encyclopaedia-of-islam-2]
+provenance: { layer: own-research, source: "Rihla of Ibn Jubayr, Gibb Memorial 1907, scan pp. 370-376 (description); coordinates from GeoNames; Encyclopaedia of Islam, 2nd ed., vol. 1, PDF pp. 777-778, entry ASYUT (unsigned in the harvest) (EI2 entry, batch ei2-b013 part 43, seq 405)", generated_by: "Claude Code", model: "claude-haiku-5-5", run: "journeys-phase1-jubayr-nile" }
+status: { review: published, completeness: 3, generated_by: "Claude Code; description from Ibn Jubayr scan pages (OCR, to verify on scan); coordinates from GeoNames; EI2 sections added by Claude Code (claude-haiku-5-5)" }

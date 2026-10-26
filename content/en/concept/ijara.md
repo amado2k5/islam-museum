@@ -127,3 +127,6 @@ The lease of a shared worker ends on completion and delivery of the work, or the
 
 ## Closing of the headword
 The headword closes at p.1576, where the next headword, إجازة, begins. The subject of the shared worker's lease is finished here at summary level only. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.1576}
+
+## For Scholars
+Ijara in Islamic fiqh is an exchange contract over a known benefit for a known payment; the jurists apply ijara to contracts on the services of persons and goods other than ships and animals, and kira' to the use of land, houses, ships and animals, most treating the two words as one meaning. As a commutative contract the lessor may collect the wage before the lessee benefits, as a seller may take the price before delivery; advanced rent belongs to the lessor by agreement. The fiqh details its conditions: knowledge of the benefit, the wage and the term; the validity of hire for free men, servants and known works and of other exchange contracts like istisna' in the Hanafi school; the common and the dedicated employee; vitiation by defects, ignorance and corrupt conditions; and hire-purchase ending in ownership — which today is a mainstay of Islamic banking.

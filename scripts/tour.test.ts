@@ -65,6 +65,45 @@ describe("3d tour: journeys.yaml", () => {
   });
 });
 
+describe("3d tour: exhibits.yaml", () => {
+  const EXHIBITS = "tour/exhibits.yaml";
+  it("5 stops, known builds, real object records, label/desc in ar/en/ur, published with provenance", () => {
+    const x = parse(readFileSync(EXHIBITS, "utf8")) as {
+      exhibits: any[]; status: { review: string }; provenance: Record<string, string>;
+    };
+    expect(x.status?.review).toBe("published");
+    expect(x.provenance?.generated_by).toBeTruthy();
+    expect(x.exhibits.length).toBe(5);
+    const ids = new Set<string>();
+    for (const e of x.exhibits) {
+      expect(e.id).toMatch(/^[a-z0-9-]+$/);
+      expect(ids.has(e.id)).toBe(false);
+      ids.add(e.id);
+      expect(["astrolabe", "manuscript", "vase", "dirham", "lamp"]).toContain(e.build);
+      expect(e.record).toMatch(/^object\/[a-z0-9-]+$/);
+      expect(existsSync(`data/${e.record}.yaml`), `${e.id}: ${e.record} exists`).toBe(true);
+      expect(Array.isArray(e.sources) && e.sources.length > 0, `${e.id} cites sources`).toBe(true);
+      for (const src of e.sources) expect(existsSync(`data/${src}.yaml`), `${e.id}: ${src} exists`).toBe(true);
+      for (const k of ["label", "desc", "material", "museum"]) {
+        if (k !== "label" && k !== "desc" && e[k] === undefined) continue;
+        for (const l of ["ar", "en", "ur"]) expect(nonempty(e[k]?.[l]), `${e.id}.${k}.${l}`).toBe(true);
+      }
+      const text = JSON.stringify(e);
+      expect(HONORIFIC.test(text), `${e.id} typed honorific`).toBe(false);
+      expect(/[﴿﴾]/.test(text), `${e.id} typed Quran text`).toBe(false);
+    }
+  });
+
+  it("loadExhibits / viewExhibits select the page language", async () => {
+    const { loadExhibits, viewExhibits } = await import("../site/src/lib/tour");
+    const all = loadExhibits();
+    for (const lang of ["ar", "en", "ur"] as const) {
+      for (const v of viewExhibits(all, lang)) expect(nonempty(v.label) && nonempty(v.desc), `${lang} ${v.id}`).toBe(true);
+    }
+    expect(viewExhibits(all, "ur")[0].label).not.toBe(viewExhibits(all, "ar")[0].label);
+  });
+});
+
 describe("3d tour: i18n parity", () => {
   const collect = (obj: any, prefix = ""): Record<string, string> => {
     const out: Record<string, string> = {};
@@ -75,14 +114,17 @@ describe("3d tour: i18n parity", () => {
     }
     return out;
   };
-  it("tour: keys are identical in ar/en and every value is a non-empty string", () => {
+  it("tour: keys are identical in ar/en/ur and every value is a non-empty string", () => {
     const ar = collect(parse(readFileSync("i18n/ar.yaml", "utf8")).tour);
     const en = collect(parse(readFileSync("i18n/en.yaml", "utf8")).tour);
+    const ur = collect(parse(readFileSync("i18n/ur.yaml", "utf8")).tour);
     expect(Object.keys(ar).length).toBeGreaterThan(0);
     expect(Object.keys(en).sort()).toEqual(Object.keys(ar).sort());
+    expect(Object.keys(ur).sort()).toEqual(Object.keys(ar).sort());
     for (const k of Object.keys(ar)) {
       expect(nonempty(ar[k]), `ar tour.${k}`).toBe(true);
       expect(nonempty(en[k]), `en tour.${k}`).toBe(true);
+      expect(nonempty(ur[k]), `ur tour.${k}`).toBe(true);
     }
     // The page, nav link and no-JS fallback strings the template requires.
     for (const k of ["page_title", "page_lede", "nav_label", "nojs_title", "nojs_lede", "nojs_wings", "nojs_journeys"])
@@ -172,6 +214,9 @@ describe("3d tour: page, component and nav", () => {
     expect(src).toContain("t.nojs_journeys");
     expect(src).toContain("wingHref(lang, w)");
     expect(src).toContain("T.wings[w].title");
+    expect(src).toContain("t.nojs_objects");
+    expect(src).toContain("T.entity.dagger");
+    expect(src).toContain("e.href");
   });
 
   it("nav has the tour entry (way in)", () => {
@@ -186,5 +231,31 @@ describe("3d tour: page, component and nav", () => {
     const src = readFileSync("site/src/scripts/tour.ts", "utf8");
     expect(src).toContain("location.href");
     expect(src).toMatch(/\/\$\{data\.lang\}\//);
+    // Cancel keeps the visitor in the scene: the confirm comes before the teardown.
+    expect(src.indexOf("window.confirm(")).toBeLessThan(src.indexOf("teardown?.()"));
   });
 });
+
+describe("3d tour: map, floor waypoints, room strip", () => {
+  it.skipIf(!HAS_COMPONENT || !HAS_SCRIPT)("map dialog, strip nav and waypoints are wired; hidden in journeys", () => {
+    const comp = readFileSync("site/src/components/Tour3D.astro", "utf8");
+    for (const id of ["mapBtn", "mapPanel", "mapTitle", "mapPlan", "mapHere", "mapClose", "strip", "stripToggle", "stripItems"])
+      expect(comp, id).toContain(`id="${id}"`);
+    expect(comp).toContain('<nav id="strip" aria-label={t.strip_label}>');
+    expect(comp).toContain("{t.help_map}");
+    const src = readFileSync("site/src/scripts/tour.ts", "utf8");
+    // One star per doorway, one at the hall centre, one per exhibit stop.
+    expect(src).toContain("hallWps.push(wp);");
+    expect(src).toContain('addStar(hall, { scene: "hall", x: 0, z: 6, yaw: 0 });');
+    expect(src).toContain('addStar(gallery, { scene: "gallery", x, z: 2.6, yaw: 0, stop: i });');
+    expect(src).toContain('kind === "hall"');
+    expect(src).toContain("`hall/${door.id}`");
+    expect(src).toContain('e.code === "KeyM"');
+    expect(src).toContain("mapBtn.hidden = journey;");
+    expect(src).toContain("strip.hidden = journey;");
+    // No page text goes into the SVG through innerHTML.
+    const svg = src.slice(src.indexOf("function drawMap"), src.indexOf("function openMap"));
+    expect(svg).not.toMatch(/innerHTML[^;]*(label|wingTitle|t\.)/);
+  });
+});
+

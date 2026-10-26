@@ -4,6 +4,7 @@ label: { en: "Attab ibn Usayd", ar: "عتّاب بن أسيد" }
 names:
   - { kind: full, lang: ar, value: "عتّاب بن أسيد بن أبي العيص بن أمية بن عبد شمس" }
 gender: male
+died: { edtf: "0634/0644", precision: decade, calendar: julian, status: tradition, derived: true, sources: [source/encyclopaedia-of-islam-2], note: "EI2: the date of death is given variously as between 12 and 23 AH (634-644 CE); the whole range is kept {cite:encyclopaedia-of-islam-2 vol. 1 p. 800}." }
 born: { edtf: "0610~", calendar: julian, precision: decade, status: tradition, note: "وُصف بأنه حدث لم يبزغ له شارب حين استُعمل على مكة سنة 8هـ، فقُدّر مولده نحو 610م.", sources: [source/mubarakpuri-raheeq] }
 roles: [emir, companion]
 summary:
@@ -24,5 +25,9 @@ relations:
   - { type: ruler_of, target: place/mecca, start: { edtf: "0630" }, sources: [source/mubarakpuri-raheeq] }
   - { type: participated_in, target: event/umrah-of-jirana, role: confirmed-governor-of-mecca, sources: [source/mubarakpuri-raheeq] }
   - { type: converted_under, target: person/muhammad, start: { edtf: "0630" }, sources: [source/mubarakpuri-raheeq] }
-sources: [source/mubarakpuri-raheeq, source/ibn-hisham-saqqa]
-status: { review: draft, completeness: 1, generated_by: "Devin; al-Raheeq al-Makhtum pp. 414, 422" }
+provenance:
+  layer: own-research
+  source: "al-Raheeq al-Makhtum (Mubarakpuri); Encyclopaedia of Islam, 2nd ed., vol. 1, PDF p. 800, entry UMAWI (the continuation of the ATTAB B. ASID B. ABI'L-IS B. UMAYYA AL-UMAWI heading that ends the seq 418 row; batch ei2-b013 part 56, seq 419)"
+  generated_by: "Devin; Claude Code (claude-haiku-5-5)"
+sources: [source/mubarakpuri-raheeq, source/ibn-hisham-saqqa, source/encyclopaedia-of-islam-2]
+status: { review: published, completeness: 3, generated_by: "Devin; al-Raheeq al-Makhtum pp. 414, 422; EI2 sections added by Claude Code (claude-haiku-5-5)" }

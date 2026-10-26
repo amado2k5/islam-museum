@@ -1,0 +1,51 @@
+id: person/halit-ziya-usakligil
+class: person
+label: { ar: "خالد ضياء أوشاقلي كيل", en: "Halit Ziya Uşaklıgil", ur: "خالد ضیاء عشاقلی گل" }
+names:
+  - { value: "خالد ضياء أوشاقلي كيل", kind: full }
+  - { value: "Halit Ziya Uşaklıgil", kind: full }
+  - { value: "Halid Ziya Uşaklıgil", kind: alternate }
+  - { value: "Uşakizâde", kind: alternate }
+  - { value: "Mehmet Halid", kind: pen }
+gender: male
+summary:
+  ar: "روائي وكاتب تركي، وُلد في إسطنبول سنة 1866 وتوفي فيها سنة 1945. أسس صحيفة «خدمت» في إزمير سنة 1886، وصار أبرز روائيي حركة «أدبيات جديده» ومجلة «ثروت فنون»، وأشهر أعماله رواية «عشق ممنوع» (1900) التي منعتها الرقابة العثمانية جزئيًا ثم تحولت إلى مسلسل عالمي الشهرة، وكتب «ماي وسياه» و«قيريق حياةلر»."
+  en: "Turkish novelist and writer, born at Istanbul in 1866 and died there in 1945. He founded the newspaper Hizmet at İzmir in 1886, became the leading novelist of the Edebiyat-ı Cedide (New Literature) movement and of the Servet-i Fünun journal, and is best known for the novel Aşk-ı Memnu (Forbidden Love, 1900), partly censored under Abdülhamid II and later adapted into an internationally successful television series; he also wrote Mai ve Siyah and Kırık Hayatlar."
+  ur: "ترک ناول نگار اور مصنف، 1866ء میں استنبول میں پیدا ہوئے اور 1945ء میں وہیں وفات پائی۔ «ثروتِ فنون» تحریک کے سرکردہ ناول نگار تھے؛ ان کا شہرۂ آفاق ناول «عشقِ ممنوع» (1900ء) بعد میں عالمی شہرت یافتہ ٹیلی ویژن سلسلے میں ڈھلا۔"
+roles: [writer, poet]
+wings: [people]
+regions: [anatolia-balkans]
+born:
+  edtf: "1866"
+  hijri: "1283"
+  calendar: gregorian
+  precision: year
+  status: debated
+  derived: true
+  note: "Born at Istanbul in 1866: the English, Turkish and Arabic articles all give the year 1866 at year precision. Wikidata carries three birth values — 12 February 1865, 1 January 1867, and the year 1866 — so the year is recorded as debated with all three readings stated here; the record follows the articles' 1866, as does the harvest queue. The Hijri year 1283 is the tabular conversion of mid-1866 and is marked derived."
+  sources: [source/wikipedia-halit-ziya-usakligil-en, source/wikipedia-halit-ziya-usakligil-tr, source/wikipedia-halit-ziya-usakligil-ar, source/wikidata-halit-ziya-usakligil]
+died:
+  edtf: "1945-03-27"
+  hijri: "1364"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "Died at Istanbul on 27 March 1945: the English and Turkish articles and Wikidata agree. The Hijri year 1364 is the tabular conversion of 27 March 1945 (12 Rabi al-Thani 1364) and is marked derived."
+  sources: [source/wikipedia-halit-ziya-usakligil-en, source/wikipedia-halit-ziya-usakligil-tr, source/wikidata-halit-ziya-usakligil]
+relations:
+  - { type: born_in, target: place/istanbul, note: "He was born at Istanbul in 1866 (English, Turkish and Arabic articles; Wikidata place of birth Istanbul, Q406).", sources: [source/wikipedia-halit-ziya-usakligil-en, source/wikidata-halit-ziya-usakligil] }
+  - { type: died_in, target: place/istanbul, note: "He died at Istanbul on 27 March 1945 (English and Turkish articles; Wikidata place of death Istanbul, Q406).", sources: [source/wikipedia-halit-ziya-usakligil-en, source/wikidata-halit-ziya-usakligil] }
+faith:
+  - value: unknown
+    basis: unknown
+    note: "What each source gives, stated exactly: no source names a school for Halit Ziya himself. None of the English, Turkish, Arabic or Urdu articles carries a religion field or discusses his personal religion, and Wikidata gives his religion (P140) only as the generic item Islam (Q432) — one structured-data value naming no school. Under the two-source rule and the doubt rule his school is therefore left unknown, with this reading preserved here."
+    sources: [source/wikipedia-halit-ziya-usakligil-en, source/wikipedia-halit-ziya-usakligil-tr, source/wikipedia-halit-ziya-usakligil-ar, source/wikipedia-halit-ziya-usakligil-ur, source/wikidata-halit-ziya-usakligil]
+external_ids: { wikidata: "Q1366693" }
+sources: [source/wikipedia-halit-ziya-usakligil-en, source/wikipedia-halit-ziya-usakligil-tr, source/wikipedia-halit-ziya-usakligil-ar, source/wikipedia-halit-ziya-usakligil-ur, source/wikidata-halit-ziya-usakligil]
+provenance:
+  layer: own-research
+  source: "English Wikipedia 'Halid Ziya Uşaklıgil' (revision 1365983322), Turkish Wikipedia 'Halid Ziya Uşaklıgil' (revision 37435693), Arabic Wikipedia 'خالد ضياء أوشاقلي كيل' (revision 76147330) and Urdu Wikipedia 'خالد ضیاء عشاقلی گل' (revision 11936696), read on 26 October 2026, with Wikidata item Q1366693. The harvest queue's years (1866–1945) follow the articles; Wikidata's additional birth values (1865, 1867) are stated in the born note and keep the year debated. His children named in Wikidata (Q28358434, Q6015413) have no museum person records, so no edges to them are written; a child_of edge would in any case be written in the child's record, not the father's. No record of this person existed in the museum under any spelling, fragment or QID before this build."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: century-additions-29
+status: { review: published, completeness: 3, generated_by: "Muse (Muse Spark 1.3)" }

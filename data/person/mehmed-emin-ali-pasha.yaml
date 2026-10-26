@@ -1,0 +1,49 @@
+id: person/mehmed-emin-ali-pasha
+class: person
+label: { ar: "محمد أمين عالي باشا", en: "Mehmed Emin Âli Pasha", ur: "محمد امین عالی پاشا" }
+names:
+  - { value: "محمد أمين عالي باشا", kind: full }
+  - { value: "Mehmed Emin Âli Pasha", kind: full }
+  - { value: "Mehmed Emin Aali", kind: alternate }
+  - { value: "Ali Pasha", kind: alternate }
+gender: male
+summary:
+  ar: "محمد أمين عالي باشا (وُلد في إسطنبول في 5 مارس 1815 – توفي فيها في 7 سبتمبر 1871)، رجل دولة عثماني من أبوين متواضعين، ابن بوّاب عند الإنجليزية وابن بائع عند العربية، ترقّى من دائرة الترجمة حتى صار صدرًا أعظم خمس مرات ووزير خارجية سبع مرات عند الإنجليزية وثماني عند التركية، وهو مهندس فرمان الإصلاحات (الخط الهمايوني) سنة 1856 وممثّل الدولة الأول في مؤتمر باريس الذي أنهى حرب القرم."
+  en: "Mehmed Emin Âli Pasha (born in Istanbul on 5 March 1815 – died there on 7 September 1871) was an Ottoman statesman of modest origins — a doorkeeper's son in the English article, a shopkeeper's son in the Arabic — who rose from the Translation Office to hold the grand vizierate five times and the foreign ministry seven times by the English article's count, eight by the Turkish; he was the architect of the Reform Edict (Hatt-ı Hümayun) of 1856 and the Porte's chief delegate at the Congress of Paris that ended the Crimean War."
+  ur: "محمد امین عالی پاشا (پیدائش: استنبول، 5 مارچ 1815ء – وفات: استنبول، 7 ستمبر 1871ء)، معمولی گھرانے سے اٹھنے والے عثمانی سیاست دان، پانچ بار صدرِ اعظم اور سات بار وزیرِ خارجہ رہے، 1856ء کے فرمانِ اصلاحات کے مصنف اور پیرس کانگریس میں عثمانی ریاست کے سربراہ نمائندے تھے۔"
+roles: [statesman, diplomat]
+wings: [people]
+born:
+  edtf: "1815-03-05"
+  hijri: "1230"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "5 March 1815 at Constantinople is given by the English, Turkish and Arabic articles and by Wikidata's day-precision value; the Turkish article's infobox adds the quarter, Mercanağa in Istanbul. The Hijri year 1230 is the tabular conversion of 5 March 1815."
+  sources: [source/wikipedia-mehmed-emin-ali-pasha-en, source/wikipedia-mehmed-emin-ali-pasha-tr, source/wikipedia-mehmed-emin-ali-pasha-ar, source/wikidata-mehmed-emin-ali-pasha]
+died:
+  edtf: "1871-09-07"
+  hijri: "1288"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "7 September 1871 at Constantinople is given by the English, Turkish and Arabic articles and by Wikidata; the English article adds that he died of tuberculosis after three months of illness, aged 56. The Hijri year 1288 is the tabular conversion of 7 September 1871."
+  sources: [source/wikipedia-mehmed-emin-ali-pasha-en, source/wikipedia-mehmed-emin-ali-pasha-tr, source/wikipedia-mehmed-emin-ali-pasha-ar, source/wikidata-mehmed-emin-ali-pasha]
+relations:
+  - { type: born_in, target: place/istanbul, note: "He was born in Constantinople on 5 March 1815, in the Mercanağa quarter according to the Turkish article's infobox (English and Arabic articles; Wikidata birthplace Istanbul, Q406).", sources: [source/wikipedia-mehmed-emin-ali-pasha-en, source/wikipedia-mehmed-emin-ali-pasha-tr, source/wikidata-mehmed-emin-ali-pasha] }
+  - { type: died_in, target: place/istanbul, note: "He died in Constantinople on 7 September 1871 (English, Turkish and Arabic articles; Wikidata place of death Istanbul, Q406).", sources: [source/wikipedia-mehmed-emin-ali-pasha-en, source/wikipedia-mehmed-emin-ali-pasha-tr, source/wikidata-mehmed-emin-ali-pasha] }
+faith:
+  - value: unknown
+    basis: unknown
+    note: "What each source gives, stated exactly: no article names a religion or school for him — the Turkish infobox religion field (dini) is empty, the Arabic infobox religion field (الديانة) is empty, and the English infobox carries no religion field; Wikidata's religion value (P140) is the generic item Islam (Q432), one structured-data value naming no school. The English article reports Davison's political portrait of him — a monarchist and an Islamic supremacist in politics who favoured equality under the law — and notes that he was a freemason; political characterisations and a lodge membership name no legal school, and neither does his Translation Office formation or his service under Muslim sultans. Under the two-source rule and the doubt rule his school is therefore left unknown, with the readings preserved here."
+    sources: [source/wikipedia-mehmed-emin-ali-pasha-en, source/wikipedia-mehmed-emin-ali-pasha-tr, source/wikipedia-mehmed-emin-ali-pasha-ar, source/wikidata-mehmed-emin-ali-pasha]
+external_ids: { wikidata: "Q439237" }
+sources: [source/wikipedia-mehmed-emin-ali-pasha-en, source/wikipedia-mehmed-emin-ali-pasha-tr, source/wikipedia-mehmed-emin-ali-pasha-ar, source/wikidata-mehmed-emin-ali-pasha]
+provenance:
+  layer: own-research
+  source: "English Wikipedia 'Mehmed Emin Âli Pasha' (revision 1375354879), Turkish Wikipedia 'Mehmed Emin Âlî Paşa' (revision 38159095) and Arabic Wikipedia 'محمد أمين عالي باشا' (revision 71423335), read on 26 October 2026, with Wikidata item Q439237. The harvest queue's years (1815–1871) are confirmed. The one disagreement is stated in the prose rather than merged: the English article counts seven foreign-ministry terms, the Turkish eight. His religion is left unknown under the two-source rule, as the faith note sets out: no source names a school for him. The patronage edge to Mustafa Reşid Pasha is written once, in Reşid's record, not here."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: century-additions-27
+status: { review: published, completeness: 3, generated_by: "Muse (Muse Spark 1.3)" }

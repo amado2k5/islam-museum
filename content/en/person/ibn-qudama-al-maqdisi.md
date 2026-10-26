@@ -18,3 +18,12 @@ He was born in Jammaʿil in 541 AH, and died in [[place/damascus|Damascus]] in 6
 
 ## Ibn Taymiyya's praise
 The editor relays from [[person/ibn-taymiyya|Ibn Taymiyya]] that after al-Awza'i no jurist more learned than al-Muwaffaq had entered Syria. {cite:lumat-al-itiqad-ibn-uraiyir-2022}
+
+## For Sprouts
+Muwaffaq al-Din Ibn Qudama al-Maqdisi the Hanbali, a jurist of the Jerusalem house, author of 'Lum'at al-I'tiqad' on the creed of the Sunna folk in the salaf manner and the book 'al-Mughni'.
+
+## For Explorers
+Muwaffaq al-Din Abu Muhammad Abdullah ibn Ahmad ibn Qudama al-Maqdisi the Hanbali, a jurist of the Jerusalem house. He wrote 'Lum'at al-I'tiqad' on the creed of the Sunna folk in the salaf manner — titled Hanbali on the edition's title page — and the book 'al-Mughni'. Born at Jamma'il in 541 AH, he died at Damascus in 620 AH by the Lum'a editor's introduction, and it is said he died on the day of the Fitr feast and was buried at the foot of Qasyun.
+
+## For Scholars
+Muwaffaq al-Din Abu Muhammad Abdullah ibn Ahmad ibn Qudama al-Maqdisi the Hanbali, a jurist of the Jerusalem house. He wrote 'Lum'at al-I'tiqad' on the creed of the Sunna folk in the salaf manner, titled Hanbali on the edition's title page. And he wrote the book 'al-Mughni'. Born at Jamma'il in 541 AH, he died at Damascus in 620 AH by the Lum'a editor's introduction (2nd ed.); it is said he died on the day of the Fitr feast and was buried at the foot of Qasyun. Both dates rest on one source and need a further source.

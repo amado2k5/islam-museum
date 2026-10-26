@@ -20,3 +20,6 @@ When [[person/umar-ibn-abd-al-aziz|Umar ibn Abd al-Aziz]] came to power, he orde
 Al-Baladhuri states, citing al-Awza'i, that at the beginning in Syria the *jizya* was a *jarib* (measure of grain) and a dinar on each head. He then reports accounts of Umar ibn al-Khattab's assessment of it by the classes of people. {cite:futuh-buldan-maarif-1407 p. 170-171}
 
 See [[concept/kharaj|the land tax]].
+
+## For Scholars
+Jizya in Islamic fiqh is what the People of the Book pay per head under treaty and dhimma, in exchange for remaining on their religion and land under protection — al-Baladhuri records its first collection from the Christians of Najran and the peoples of Ayla, Adhruh and Adhra'at at Tabuk. The schools differ on its amount, on whom it falls and how it is taken: adult free able-bodied men of the People of the Book — not women, children, monks or the poor on the common view; the Hanafis grade it across rich, middling and poor, the Shafi'is set a dinar per head; some allow it on the Zoroastrians and differ on the Arab polytheists. Jurists agree the contract rests on the dhimmi's security — protection of life, property and worship in churches and synagogues under rules — and historians place its emergence inside the fay' arrangements and earlier Byzantine and Sasanian treaties; it is debated today in the fiqh of minorities and citizenship.

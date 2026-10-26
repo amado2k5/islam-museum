@@ -13,3 +13,12 @@ He witnessed the conquests of Iraq and Persia and governed al-Mada'in for Umar i
 ## From Sheikh Omar Abdelkafy's lectures on Sharh Kitab al-Fawa'id
 
 The Sheikh says that Hudhayfa was the keeper of the Prophet's secret, and that the Prophet told him the names of the hypocrites in Medina. {cite:assabile-omar-abdelkafy sharh-ketab-al-fawaed/ep02 01:24:00}
+
+## For Sprouts
+Hudhayfa ibn Hasl al-Absi, a great Companion, 'keeper of the Prophet's secret' on the hypocrites' names and the trials; he saw the Trench, the openings of Iraq and Fars, and governed al-Mada'in.
+
+## For Explorers
+Abu Abdullah Hudhayfa ibn Hasl (al-Yaman) al-Absi, a great Companion and one of the early forerunners, famous as 'keeper of the Prophet's secret' on the names of the hypocrites and the trials. He saw the Trench battle: on the night of gale, cold and darkness the Prophet picked him to slip into the Confederates' camp and bring word, praying he be kept from the cold; Hudhayfa went into Quraysh's camp, sat beside Abu Sufyan, heard him order departure for the wind and the failing horses, and returned unhurt, feeling neither cold nor fear, to tell the Prophet the enemy had fled. He saw the openings of Iraq and Fars and governed al-Mada'in for Umar ibn al-Khattab; known for scruple and austerity, he died at al-Mada'in days after Uthman's killing. Shaykh Omar Abdelkafy says he was 'keeper of the Prophet's secret', told the names of the hypocrites in Medina.
+
+## For Scholars
+Abu Abdullah Hudhayfa ibn Hasl (al-Yaman) al-Absi, a great Companion and one of the early forerunners, famous as 'keeper of the Prophet's secret' on the names of the hypocrites and the trials. He saw the Trench battle: on the night of gale, cold and heavy darkness the Prophet picked him to slip into the Confederates' camp and bring word, praying he be kept from the cold; Hudhayfa went into Quraysh's camp, sat beside Abu Sufyan, heard him order the people to depart for the fierce wind and the failing horses, and returned unhurt, feeling neither cold nor fear, to tell the Prophet the Confederates had fled. He saw the openings of Iraq and Fars and governed al-Mada'in for Umar ibn al-Khattab; known for scruple and austerity, he died at al-Mada'in days after Uthman's killing. Shaykh Omar Abdelkafy says Hudhayfa was 'keeper of the Prophet's secret', and that the Prophet told him the names of the hypocrites in Medina.

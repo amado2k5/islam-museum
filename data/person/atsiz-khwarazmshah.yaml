@@ -5,21 +5,23 @@ label:
   en: "Atsiz, Khwarazmshah"
 roles: [ruler]
 gender: male
+born: { edtf: "1098~", calendar: julian, precision: year, status: tradition, sources: [source/encyclopaedia-of-islam-2], note: "EI2 gives about 1098 (the figure is partly garbled in the scan)" }
+died: { edtf: "1156-07-30", hijri: "0551", calendar: julian, precision: day, status: tradition, sources: [source/encyclopaedia-of-islam-2], note: "9 Jumada II 551 AH (30 July 1156) at Khabushan on the Atrek, per EI2 {cite:encyclopaedia-of-islam-2 vol. 1 p. 798-799}." }
 summary:
   ar: "بطاقة أولية لعلاء الدين أتسز، خوارزمشاه الذي استقل بمملكته عن السلاجقة وحارب السلطان سنجر حتى هزمه، توفي سنة ١١٥٦م؛ تذكره معاجم الدول الإسلامية ولم تُراجع ترجمته على الصفحة بعد."
   en: "Draft card for Ala al-Din Atsiz, the Khwarazmshah who made his realm independent of the Seljuks and warred with Sultan Sanjar, d. 1156; the dynastic handbook entry is not yet checked on the page."
 wings: [people]
 regions: [persia-central-asia]
-periods: [period/crusades-ayyubid-mamluk]
-sources: [source/bosworth-new-islamic-dynasties-1996]
+periods: [period/buyid-seljuk-fatimid-era]
+sources: [source/bosworth-new-islamic-dynasties-1996, source/encyclopaedia-of-islam-2]
 external_ids:
   wikidata: Q889571
 provenance:
   layer: own-research
-  source: "Wikidata candidate; book source: Bosworth, The New Islamic Dynasties (1996) — entry not yet read on the page"
+  source: "Wikidata candidate; book source: Bosworth, The New Islamic Dynasties (1996); Encyclopaedia of Islam, 2nd ed., vol. 1, PDF pp. 798-799, entry ATSIZ B. MUHAMMAD B. ANUSHTIGIN (EI2 entry, batch ei2-b013 part 54, seq 418; the entry is signed W. Barthold and B. Spuler)"
   generated_by: "Devin (SWE-2 High)"
   model: "SWE-2 High"
   run: wikidata-import-0015
 status:
-  review: draft
-  completeness: 1
+  review: published
+  completeness: 3

@@ -16,3 +16,12 @@ The tribes near al-Hira were subject to its king in name rather than in fact {ci
 
 ## For young visitors
 Al-Hira is an old Arab city near Kufa. Its kings served the kings of Persia and guarded their frontiers.
+
+## For Sprouts
+Al-Hira was the capital of the Lakhmids, the Arab kings who served the Persians on the edge of the desert; its people submitted to Ardashir, founder of the Sasanian state, and its last king before the conquest was al-Mundhir al-Ma'rur in 632 CE.
+
+## For Explorers
+Al-Hira, capital of the Lakhmids — the Arab kings who served the Persians on the desert's edge; its people and Anbar submitted to Ardashir, founder of the Sasanian state. In his reign Jadhima al-Abrash governed al-Hira and the Arabs of the Iraqi and Jaziran steppe of Rabi'a and Mudar, Ardashir keeping a Persian unit with its king against the desert Arabs who broke his rule. After Jadhima, Amr ibn Adi, first of the Lakhmid kings, held al-Hira, and the house of Lakhm continued to al-Nu'man ibn al-Mundhir, then Iyas ibn Qabisa, then a Persian governor, then al-Mundhir al-Ma'rur in 632 CE, whom Khalid ibn al-Walid reached with the Muslim armies. The tribes near al-Hira were subject to its king in name more than deed; some of its kings adopted Christianity; and weaving and tanning were among the crafts of Yemen, al-Hira and the fringes of Syria.
+
+## For Scholars
+Al-Hira, capital of the Lakhmids — the Arab kings who served the Persians on the desert's edge; its people and Anbar submitted to Ardashir, founder of the Sasanian state. In Ardashir's reign Jadhima al-Abrash governed al-Hira and all the Arabs of the Iraqi and Jaziran steppe of Rabi'a and Mudar, and Ardashir kept a Persian unit with the king of al-Hira to use against the desert Arabs who broke his rule. After Jadhima, Amr ibn Adi, first of the Lakhmid kings, held al-Hira, and the house of Lakhm continued to al-Nu'man ibn al-Mundhir, then Iyas ibn Qabisa, then a Persian governor, then al-Mundhir al-Ma'rur in 632 CE, whom Khalid ibn al-Walid reached with the Muslim armies. What tribes were near al-Hira were subject to its king in name rather than fact; some of al-Hira's kings adopted Christianity; and weaving and tanning were among the crafts of the people of Yemen, al-Hira and the fringes of Syria.

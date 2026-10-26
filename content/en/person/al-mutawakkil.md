@@ -24,3 +24,12 @@ He made Ubayd Allah ibn Yahya ibn Khaqan his secretary. He sent his son al-Mu'ta
 - Some reports on garbled pages were left out, among them page 188 (his question to Bugha about the affair), and the page images need to be checked.
 - References are to scan page numbers, not to the printed pagination.
 - The entry is very partial; a full biography of his caliphate was not written because the other pages have not been read.
+
+## For Sprouts
+Al-Mutawakkil ala Allah was an Abbasid caliph, acclaimed in a private pledge at the hour of al-Wathiq's death then by the public at midday. He gave his sons charge of the works including prayer, the guard, justice, grievances and the kharaj, and went out to al-Mada'in after the Ibn al-Ba'ith affair ended.
+
+## For Explorers
+Al-Mutawakkil ala Allah, an Abbasid caliph, was acclaimed in a private pledge at the hour of al-Wathiq's death and then by the public at midday, as al-Tabari records. He gave his sons charge of the works and districts named in the book — among them prayer, the guard, justice, grievances and the kharaj. He appointed Ubayd Allah ibn Yahya ibn Khaqan as secretary, and sent his son al-Mu'tazz with Bugha al-Sharabi to visit Ishaq ibn Ibrahim in his illness. He went out to al-Mada'in in Jumada al-Ula after the Ibn al-Ba'ith affair ended.
+
+## For Scholars
+Al-Mutawakkil ala Allah, an Abbasid caliph, was acclaimed in a private pledge at the hour of al-Wathiq's death and then by the public at midday, as al-Tabari records. Al-Mutawakkil gave his sons charge of the works and districts named in the book — among them prayer, the guard, justice, grievances and the kharaj. He appointed Ubayd Allah ibn Yahya ibn Khaqan as secretary, and sent his son al-Mu'tazz with Bugha al-Sharabi to visit Ishaq ibn Ibrahim in his illness. Al-Mutawakkil went out to al-Mada'in in Jumada al-Ula after the Ibn al-Ba'ith affair ended.

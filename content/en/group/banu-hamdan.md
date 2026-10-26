@@ -19,3 +19,12 @@ Shortly before Islam, Hamdan struck [[group/murad|Murad]] at [[event/battle-of-a
 
 ## For young visitors
 Hamdan is a large Yemeni tribe. Its rivalry with Himyar helped the Abyssinians occupy Yemen for the first time.
+
+## For Sprouts
+Hamdan, the best-known of the Qahtani tribe Kahlan's branches in Yemen; its delegation came to the Prophet on his return from Tabuk and he wrote them a letter.
+
+## For Explorers
+Hamdan, first of the famous Qahtani Kahlan branches in Yemen named by al-Raheeq. In the era of troubles the author opens at 300 CE the Romans entered Aden and, with their help, the Abyssinians occupied Yemen in 340 CE for the first time, exploiting the rivalry between Hamdan and Himyar — the occupation lasting to 378 CE. Before Islam Hamdan routed Murad on the Day of al-Radm, led by al-Ajda' ibn Malik per Ibn Ishaq or Malik ibn Huraym per Ibn Hisham. Its delegation came to the Prophet on his return from Tabuk — Malik ibn al-Namt of the marks, Malik ibn Ayfa', Dimam ibn Malik al-Salmani and Umayra ibn Malik al-Kharifi of the Kharif, Yam and Shakir districts — and the Prophet wrote them a letter; the kings of Himyar numbered al-Nu'man Qayl Dhu Ra'in, Ma'afir and Hamdan.
+
+## For Scholars
+Hamdan, first of the famous Qahtani Kahlan branches in Yemen named by al-Raheeq. In the era of troubles the author opens at 300 CE the Romans entered Aden and, with their help, the Abyssinians occupied Yemen in 340 CE for the first time, exploiting the rivalry between Hamdan and Himyar — the occupation lasting to 378 CE. Before Islam Hamdan routed Murad on the Day of al-Radm, led by al-Ajda' ibn Malik per Ibn Ishaq or Malik ibn Huraym per Ibn Hisham. Its delegation came to the Prophet on his return from Tabuk — Malik ibn al-Namt of the marks, Malik ibn Ayfa', Dimam ibn Malik al-Salmani and Umayra ibn Malik al-Kharifi of the Kharif, Yam and Shakir districts — and the Prophet wrote them a letter. The kings of Himyar numbered al-Nu'man Qayl Dhu Ra'in, Ma'afir and Hamdan; its entry into Islam was at Ali's hands in al-Raheeq.

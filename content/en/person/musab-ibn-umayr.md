@@ -29,3 +29,12 @@ Mus'ab ibn Umayr was a young man who was wealthy in Mecca. When he embraced Isla
 
 ## The leadership of the army at Badr (*al-Rahiq al-Makhtum*, p. 205)
 The Prophet gave him the banner of the general command, which was white, when the army went out to Badr ([[event/badr-expedition-setup|the preparations before Badr]]). {cite:mubarakpuri-raheeq p.205}
+
+## For Sprouts
+Mus'ab ibn Umayr was one of the first Muslims and the first envoy the Prophet sent to Yathrib — known as 'the Reciter' because he taught people the Qur'an. He carried the Muhajirun's banner at Badr and Uhud, where he fell in 3 AH.
+
+## For Explorers
+Mus'ab ibn Umayr al-Abdari al-Qurashi was among the earliest to enter Islam. When his mother learned of it she starved him and cast him out — he had been one of the softest-living of men — until his skin roughened. After the pledge of Aqaba the Prophet sent him with the pledgers to Yathrib to teach the Muslims the laws of Islam; he stayed with As'ad ibn Zurara and the two spread Islam with zeal — he was known as 'the Reciter' — until hardly an Ansar house lacked Muslim men and women. He carried the army's general banner at Badr and the Muhajirun battalion's banner at Uhud, where he fell; he was shrouded in a cloak that left his feet bare when it covered his head, and Abd al-Rahman ibn Awf said he had been better than himself.
+
+## For Scholars
+Mus'ab ibn Umayr al-Abdari al-Qurashi was among the earliest to enter Islam. When his mother learned of it she starved him and cast him out — he had been one of the softest-living of men — until his skin roughened. After the pledge of Aqaba the Prophet sent him with the pledgers to Yathrib to teach the Muslims the laws of Islam; he stayed with As'ad ibn Zurara and the two spread Islam with zeal — he was known as 'the Reciter' — until no Ansar house lacked Muslim men and women save Banu Umayya ibn Zayd, Khatma and Wa'il up to the year of the Trench. At Badr the army's general banner was placed in his hand; at Uhud the Prophet made him banner-bearer of the Muhajirun battalion; he fell that day and was shrouded in a cloak that bared his feet when it covered his head and his head when it covered his feet — Abd al-Rahman ibn Awf saying 'Mus'ab ibn Umayr was killed though better than I'.

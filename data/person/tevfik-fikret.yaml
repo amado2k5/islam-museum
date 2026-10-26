@@ -1,0 +1,48 @@
+id: person/tevfik-fikret
+class: person
+label: { ar: "توفيق فكرت", en: "Tevfik Fikret", ur: "توفیق فکرت" }
+names:
+  - { value: "محمد توفيق", kind: full }
+  - { value: "Mehmed Tevfik", kind: full }
+  - { value: "Tevfik Fikret", kind: pen }
+gender: male
+summary:
+  ar: "توفيق فكرت (وُلد في إسطنبول في 24 ديسمبر 1867 – توفي فيها في 19 أغسطس 1915)، واسمه الأصلي محمد توفيق، شاعر عثماني ومعلّم يُعد مؤسس المدرسة الحديثة في الشعر التركي وقائد جماعة «ثروة الفنون»، صاحب «الرباب المحطّم» و«دفتر خالوق»، عُرف بنقده الصريح للاستبداد الحميدي ودفاعه عن حرية التعبير والحكم الدستوري."
+  en: "Tevfik Fikret (born in Istanbul on 24 December 1867 – died there on 19 August 1915), the pen name of Mehmed Tevfik, was an Ottoman poet and educator considered the founder of the modern school of Turkish poetry and the leader of the Servet-i Fünun circle; author of Rubab-ı Şikeste (1900) and Haluk'un Defteri (1911), he was an open critic of Abdülhamid II's absolutism and an advocate of free speech and constitutional government."
+  ur: "توفیق فکرت (پیدائش: استنبول، 24 دسمبر 1867ء – وفات: استنبول، 19 اگست 1915ء)، اصل نام محمد توفیق، عثمانی شاعر اور معلم؛ جدید ترکی شاعری کے بانی اور «ثروتِ فنون» حلقے کے قائد شمار ہوتے ہیں، «رَبابِ شکستہ» اور «خالوق کا دفتر» کے مصنف۔"
+roles: [poet, teacher]
+wings: [people]
+born:
+  edtf: "1867-12-24"
+  hijri: "1284"
+  calendar: gregorian
+  precision: day
+  status: debated
+  derived: true
+  note: "The English and Turkish articles both give 24 December 1867 at Istanbul. Wikidata gives 26 December 1867, and the English article's own death-age template internally computes from 26 December; the record follows the two articles. The Hijri year 1284 is the tabular conversion of 24 December 1867."
+  sources: [source/wikipedia-tevfik-fikret-en, source/wikipedia-tevfik-fikret-tr, source/wikidata-tevfik-fikret]
+died:
+  edtf: "1915-08-19"
+  hijri: "1333"
+  calendar: gregorian
+  precision: day
+  status: debated
+  derived: true
+  note: "The English and Turkish articles and Wikidata give 19 August 1915 at Istanbul; the Arabic article's infobox gives 17 August 1915. The record follows the two main articles with Wikidata. The Hijri year 1333 is the tabular conversion of 19 August 1915."
+  sources: [source/wikipedia-tevfik-fikret-en, source/wikipedia-tevfik-fikret-tr, source/wikipedia-tevfik-fikret-ar, source/wikidata-tevfik-fikret]
+relations:
+  - { type: born_in, target: place/istanbul, note: "He was born at Istanbul on 24 December 1867 (English and Turkish articles; Wikidata birthplace Istanbul, Q406).", sources: [source/wikipedia-tevfik-fikret-en, source/wikipedia-tevfik-fikret-tr, source/wikidata-tevfik-fikret] }
+  - { type: died_in, target: place/istanbul, note: "He died at Istanbul on 19 August 1915 (English and Turkish articles; Wikidata place of death Istanbul, Q406).", sources: [source/wikipedia-tevfik-fikret-en, source/wikipedia-tevfik-fikret-tr, source/wikidata-tevfik-fikret] }
+faith:
+  - value: unknown
+    basis: unknown
+    note: "No consulted source names a school for him, and Wikidata carries no religion (P140) value at all. The English article records that he was critical of Islamic conservatism — a political and intellectual position, not an affiliation — and that his mother was a Greek convert to Islam from Chios, which is family background and never counts; the Turkish article says he was raised in a very religious environment, which is upbringing. His own school is nowhere attested by two independent sources, so under the doubt rule his faith is recorded unknown."
+    sources: [source/wikipedia-tevfik-fikret-en, source/wikipedia-tevfik-fikret-tr, source/wikidata-tevfik-fikret]
+external_ids: { wikidata: "Q948861" }
+sources: [source/wikipedia-tevfik-fikret-en, source/wikipedia-tevfik-fikret-tr, source/wikipedia-tevfik-fikret-ar, source/wikipedia-tevfik-fikret-ur, source/wikidata-tevfik-fikret]
+provenance:
+  layer: own-research
+  source: "English Wikipedia 'Tevfik Fikret' (revision 1372333355), Turkish Wikipedia 'Tevfik Fikret' (revision 37825743), Arabic Wikipedia 'توفيق فكرت' (revision 72787388) and Urdu Wikipedia 'توفيق فكرت' (revision 12070292), read on 26 October 2026, with Wikidata item Q948861. The harvest queue's years (1867–1915) are confirmed; the day-level disagreements (Wikidata's 26 December birth; the Arabic infobox's 17 August death) are stated in the notes rather than merged. His faith is left unknown under the doubt rule, as the faith note sets out."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: century-additions-28
+status: { review: published, completeness: 3, generated_by: "Muse (Muse Spark 1.3)" }

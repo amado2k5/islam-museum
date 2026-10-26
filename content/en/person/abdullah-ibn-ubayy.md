@@ -40,3 +40,12 @@ He quotes a verse, not named by him, which he presents as a prohibition on prayi
 - **academic view: not yet sourced**: not yet attributed.
 - **other view: not yet sourced**: not yet attributed.
 :::
+
+## For Sprouts
+Abdullah ibn Ubayy was a Khazraj man of Yathrib whose people nearly crowned him king before the Prophet arrived and the crown was lost. He professed Islam but kept working against the Prophet from within — the Sunni tradition remembers him as chief of the hypocrites. He died in 631 CE; the Prophet prayed over him and gave him his shirt.
+
+## For Explorers
+Abdullah ibn Ubayy ibn Salul al-Khazraji. The sources say the Aws and Khazraj had agreed on his leadership after the war of Bu'ath and had strung the beads to crown him; when the Prophet came his people turned to him, and he saw his kingship taken — so he professed Islam after Badr while concealing disbelief, and the Sunni tradition remembers him as the hypocrites' chief, the enemy from within. He withdrew with a third of the army on the eve of Uhud; the Ifk affair and Surat al-Munafiqun are read against him. He died early in 631 CE, and the tradition preserves that the Prophet prayed over him and gave him his shirt — an ending the sources tell without softening the man.
+
+## For Scholars
+Abdullah ibn Ubayy ibn Salul al-Khazraji, a chief of his people. The sources say Yathrib's warring tribes had agreed to crown him after the war of Bu'ath and strung the beads for it; when the Prophet arrived the crown evaporated and his people turned to the Prophet, so he saw his kingship wrested from him — he professed Islam after Badr while concealing disbelief, and worked against the Prophet from within; the Sunni tradition names him chief of the hypocrites. He withdrew with a third of the army on the eve of Uhud; the Ifk affair and Surat al-Munafiqun are read against him. He died early in 631 CE, and the tradition preserves that the Prophet prayed over him and gave him his shirt — an ending the sources tell without softening the man.

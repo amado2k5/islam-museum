@@ -23,3 +23,12 @@ The page number in al-Baladhuri's account is not given in the data file, and it 
 The speaker recounts that Khalid ibn al-Walid's cap, in which he kept some of the Prophet's hair, fell in the thick of the battle of Yarmuk. Khalid left the fighting and the command, and people began searching for it {cite:assabile-omar-abdelkafy al-dinu-al-qayem/ep12 00:15:30}.
 
 In the judge's sermon that the speaker recites, "the epics of Yarmuk" are named among the army's deeds {cite:assabile-omar-abdelkafy al-dinu-al-qayem/ep07 00:29:30}.
+
+## For Sprouts
+The battle of Yarmuk: the great battle between the Muslims and the Byzantines on the Yarmuk river, part of the opening of Syria, with Abu Ubayda ibn al-Jarrah commanding the Muslims.
+
+## For Explorers
+The battle of Yarmuk: the great battle between the Muslims and the Byzantines on the Yarmuk river, part of the opening of Syria, with Abu Ubayda ibn al-Jarrah commanding the Muslims. Al-Baladhuri says Heraclius gathered hosts of Byzantines and the people of Syria, the Jazira and Armenia near two hundred thousand, putting Jabala ibn al-Ayham al-Ghassani over their vanguard, while the Muslims were twenty-four thousand; they fought the hardest fight and the Byzantine hosts broke, women of the Muslims fighting that day among them Hind bint Utba, and the eyes of al-Ash'ath ibn Qays and Hashim ibn Utba were lost. The dating is disputed: al-Waqidi says 15 AH, al-Tabari's Sayf telling 13 AH, and al-Baladhuri Rajab 15 AH.
+
+## For Scholars
+The great battle between the Muslims and the Byzantines on the Yarmuk river, part of the opening of Syria. The Muslims' commander was Abu Ubayda ibn al-Jarrah. Al-Waqidi says it was in 15 AH, al-Tabari reports Sayf's telling that it was 13 AH, and al-Baladhuri says Rajab 15 AH. Heraclius gathered hosts of Byzantines and the people of Syria, the Jazira and Armenia near two hundred thousand, putting Jabala ibn al-Ayham al-Ghassani over their vanguard. The Muslims were twenty-four thousand. They fought the hardest fight and some seventy thousand of the Byzantines fell. Women of the Muslims fought that day, among them Hind bint Utba. And the eyes of al-Ash'ath ibn Qays and Hashim ibn Utba were lost.

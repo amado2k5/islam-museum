@@ -183,27 +183,27 @@ lists' own order. Status markers: [ ] queued · [~] in a writer's hands · [x] m
 - [x] Ali Shaheed Muhammad — 1968–Living
 - [x] French Montana (Karim Kharbouch) — 1984–Living
 - [x] DJ Khaled (Khaled Mohamed Khaled) — 1975–Living
-- [ ] Maher Arar — 1970–Living
-- [ ] Monia Mazigh — 1970–Living
-- [ ] Omar Khadr — 1986–Living
-- [ ] Naheed Nenshi — 1972–Living
-- [ ] Salma Lakhani — 1952–Living
-- [ ] Omar Alghabra — 1969–Living
-- [ ] Maryam Monsef — 1985–Living
-- [ ] Ahmed Hussen — 1975–Living
-- [ ] Yasir Naqvi — 1973–Living
-- [ ] Iqra Khalid — 1985–Living
-- [ ] Zubeida Jaffer — 1958–Living
-- [ ] Ebrahim Rasool — 1962–Living
-- [ ] Ahmed Kathrada — 1929–2017
-- [ ] Dullah Omar — 1934–2004
-- [ ] Imtiaz Sooliman — 1962–Living
-- [ ] Fatima Meer — 1928–2010
-- [ ] Amina Cachalia — 1930–2013
-- [ ] Yusuf Dadoo — 1909–1983
+- [x] Maher Arar — 1970–Living
+- [x] Monia Mazigh — 1970–Living
+- [x] Omar Khadr — 1986–Living
+- [x] Naheed Nenshi — 1972–Living
+- [x] Salma Lakhani — 1952–Living
+- [x] Omar Alghabra — 1969–Living
+- [x] Maryam Monsef — 1985–Living
+- [x] Ahmed Hussen — 1975–Living
+- [x] Yasir Naqvi — 1973–Living
+- [x] Iqra Khalid — 1985–Living
+- [x] Zubeida Jaffer — 1958–Living
+- [x] Ebrahim Rasool — 1962–Living
+- [x] Ahmed Kathrada — 1929–2017
+- [x] Dullah Omar — 1934–2004
+- [x] Imtiaz Sooliman — 1962–Living
+- [x] Fatima Meer — 1928–2010
+- [x] Amina Cachalia — 1930–2013
+- [x] Yusuf Dadoo — 1909–1983
 - [x] Zakir Naik — 1965–Living
-- [ ] Dr. Israr Ahmed — 1932–2010
-- [ ] Dr. Tahir-ul-Qadri — 1951–Living
+- [x] Dr. Israr Ahmed — 1932–2010
+- [x] Dr. Tahir-ul-Qadri — 1951–Living
 - [x] Javed Ahmad Ghamidi — 1951–Living (built under Batch 7 O1, Ghamidi Center channel)
 - [x] Omar Suleiman — 1986–Living
 - [ ] Suhaib Webb — 1972–Living
@@ -1057,26 +1057,26 @@ lists' own order. Status markers: [ ] queued · [~] in a writer's hands · [x] m
 - [x] Imam Azzan bin Qais (1840–1871)
 - [x] Sheikh Abdallah bin Qasim Al Thani (1871–1957)
 - [x] Sheikh Jassim bin Mohammed Al Thani (1825–1913)
-- [ ] Mustafa Reşid Pasha (1800–1858)
-- [ ] Mehmed Emin Âli Pasha (1815–1871)
-- [ ] Keçecizade Fuad Pasha (1814–1869)
-- [ ] Ahmet Cevdet Pasha (1822–1895)
-- [ ] Ahmed Rıza (1858–1930)
-- [ ] Prince Sabahaddin (1879–1948)
-- [ ] Ibrahim Edhem Pasha (1819–1893)
-- [ ] Ibrahim Şinasi (1826–1871)
-- [ ] Tevfik Fikret (1867–1915)
-- [ ] Cenap Şahabettin (1870–1934)
-- [ ] Yahya Kemal Beyatlı (1884–1958)
-- [ ] Ömer Seyfettin (1884–1920)
-- [ ] Halit Ziya Uşaklıgil (1866–1945)
-- [ ] Nigâr Hanım (1862–1918)
-- [ ] Leyla Saz (1850–1936)
-- [ ] Şefika Gasprinskaya (1886–1975)
-- [ ] Ismail Gasprinsky (1851–1914)
-- [ ] Yusuf Akçura (1876–1935)
-- [ ] Sadri Maksudi Arsal (1879–1957)
-- [ ] Musa Bigiev (1875–1949)
+- [x] Mustafa Reşid Pasha (1800–1858)
+- [x] Mehmed Emin Âli Pasha (1815–1871)
+- [x] Keçecizade Fuad Pasha (1814–1869)
+- [x] Ahmet Cevdet Pasha (1822–1895)
+- [x] Ahmed Rıza (1858–1930)
+- [x] Prince Sabahaddin (1879–1948)
+- [x] Ibrahim Edhem Pasha (1819–1893)
+- [x] Ibrahim Şinasi (1826–1871)
+- [x] Tevfik Fikret (1867–1915)
+- [x] Cenap Şahabettin (1870–1934)
+- [x] Yahya Kemal Beyatlı (1884–1958)
+- [x] Ömer Seyfettin (1884–1920)
+- [x] Halit Ziya Uşaklıgil (1866–1945)
+- [x] Nigâr Hanım (1862–1918)
+- [x] Leyla Saz (1850–1936)
+- [x] Şefika Gasprinskaya (1886–1975)
+- [x] Ismail Gasprinsky (1851–1914)
+- [x] Yusuf Akçura (1876–1935)
+- [x] Sadri Maksudi Arsal (1879–1957)
+- [x] Musa Bigiev (1875–1949)
 - [ ] Rizaeddin bin Fakhraddin (1859–1936)
 - [ ] Galimjan Barudi (1857–1921)
 - [ ] Abdurreshid Ibrahim (1857–1944)
