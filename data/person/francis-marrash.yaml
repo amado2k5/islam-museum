@@ -1,0 +1,50 @@
+id: person/francis-marrash
+class: person
+label: { ar: "فرنسيس مراش", en: "Francis Marrash", ur: "فرنسیس مراش" }
+names:
+  - { value: "فرنسيس بن فتح الله بن نصر الله مراش", kind: full }
+  - { value: "Francis bin Fathallah bin Nasrallah Marrash", kind: full }
+  - { value: "Francis al-Marrash", kind: alternate }
+  - { value: "Francis Marrash al-Halabi", kind: alternate }
+gender: male
+summary:
+  ar: "كاتب وشاعر وطبيب سوري من حلب (1836–1874)، من أعلام النهضة العربية؛ صاحب «غابة الحق» (نحو 1865) و«رحلة باريس» (1867)، ومن أوائل من كتبوا الشعر المنثور وقصيدة النثر في الأدب العربي الحديث، وداعية إلى الإصلاح والتعليم وحرية الإنسان."
+  en: "Syrian writer, poet and physician from Aleppo (1836–1874), a leading figure of the Nahda; author of Ghabat al-haqq (c. 1865) and Rihlat Baris (1867), among the first to write prose poetry in modern Arabic literature, and an advocate of reform, education and human liberty."
+  ur: "حلب سے تعلق رکھنے والے سوری مصنف، شاعر اور طبیب (1836–1874)، نہضہ کی سرکردہ شخصیت؛ «غابة الحق» (تقریباً 1865) اور «رحلة باريس» (1867) کے مصنف، جدید عربی ادب میں نثری شاعری کے اولین لکھنے والوں میں سے ایک، اور اصلاح، تعلیم اور انسانی آزادی کے داعی۔"
+roles: [scholar, poet, writer, physician]
+wings: [people]
+regions: [levant-iraq]
+born:
+  edtf: "1836-06-29"
+  hijri: "1252"
+  calendar: gregorian
+  precision: day
+  status: debated
+  derived: true
+  note: "Born at Aleppo. The 1897 obituary in Al-Hilal gives 29 June 1836, a date Jurji Zaydan's Tarajim quotes from it; Qustaki al-Himsi gives the year 1835 instead. The Arabic article's birth category pairs 1836 with 1252 AH."
+  sources: [source/wikipedia-francis-marrash-en, source/wikipedia-francis-marrash-ar, source/wikidata-francis-marrash]
+died:
+  edtf: "1874"
+  hijri: "1291"
+  calendar: gregorian
+  precision: year
+  status: debated
+  derived: true
+  note: "Died at Aleppo. The 1897 Al-Hilal obituary and the Arabic article's lead give about 1873, but the elegy his sister Maryana published in Bint fikr, Qustaki al-Himsi, and Abu-Uksa support 1874, and his writings were still appearing in Al-Jinan in 1874; Wikidata carries both years. The Gregorian year 1874 spans 1290–1291 AH."
+  sources: [source/wikipedia-francis-marrash-en, source/wikipedia-francis-marrash-ar, source/wikidata-francis-marrash]
+relations:
+  - { type: born_in, target: place/aleppo, sources: [source/wikipedia-francis-marrash-en, source/wikipedia-francis-marrash-ar] }
+  - { type: died_in, target: place/aleppo, sources: [source/wikipedia-francis-marrash-en, source/wikipedia-francis-marrash-ar] }
+faith:
+  - value: unknown
+    basis: unknown
+    note: "FLAGGED for a founder ruling; both readings preserved. The family framing: the English article, citing Wielandt and Zeidan, says he was born in Aleppo to an old Melkite family of merchants, and the Arabic article says he was born to an old family of Melkite merchants — family background, which never attests. The filings: the English article files him under 'Syrian Melkite Greek Catholics', the Arabic article under 'Syrian Greek Catholics' and 'Syrian Christians', and the Urdu article under 'Syrian Christians' and 'Christian Arabs' — category filings, which never attest. Beyond family and filings, the English article's cited scholarship describes his own thought in Christian terms: Hawi, as quoted there, says he tried to reconcile his understanding of liberty with his belief in the benevolence of the Catholic Church's authority, and Jayyusi describes his blending of European thought with his own reading of the Christian belief in universal love. These describe his personal belief but name no affiliation for him, so the value is unknown under the two-source bar; a founder could rule that the two scholarly descriptions, with the family framing and the filings, amount to christian/documented."
+    sources: [source/wikipedia-francis-marrash-en, source/wikipedia-francis-marrash-ar, source/wikipedia-francis-marrash-ur, source/wikidata-francis-marrash]
+external_ids: { wikidata: "Q4899" }
+sources: [source/wikipedia-francis-marrash-en, source/wikipedia-francis-marrash-ar, source/wikipedia-francis-marrash-ur, source/wikidata-francis-marrash]
+provenance:
+  layer: own-research
+  source: "English, Arabic and Urdu Wikipedia and Wikidata Q4899, each read at the revision recorded in its source file and checked on 26 October 2026"
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: century-additions-51
+status: { review: published, generated_by: "Muse (Muse Spark 1.3)" }
