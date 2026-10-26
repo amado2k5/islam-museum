@@ -321,11 +321,11 @@ lists' own order. Status markers: [ ] queued · [~] in a writer's hands · [x] m
 - [x] Akram Afif — 1996–Living
 - [x] Almoez Ali — 1996–Living
 - [x] Abderrazak Hamdallah — 1990–Living
-- [ ] Badr Hari — 1984–Living
-- [ ] Rico Verhoeven (Contemporary) — 1989–Living
-- [ ] Gökhan Saki — 1983–Living
-- [ ] Ernosto Hoost (Contemporary) — 1965–Living
-- [ ] Semmy Schult (Contemporary) — 1973–Living
+- [x] Badr Hari — 1984–Living
+- [x] Rico Verhoeven (Contemporary) — 1989–Living
+- [x] Gökhan Saki — 1983–Living
+- [x] Ernosto Hoost (Contemporary) — 1965–Living
+- [x] Semmy Schult (Contemporary) — 1973–Living
 - [ ] Buakaw Banchamek (Contemporary) — 1982–Living
 - [ ] Superbon Singha Mawynn — 1990–Living
 - [ ] Rodtang Jitmuangnon — 1997–Living
