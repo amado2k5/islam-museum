@@ -77,21 +77,27 @@ Founder's decisions, 25 October 2026. Each one is also recorded in the progress 
   - Media: `https://media.assabile.com/assabile/lessons_8234632432/mp3/omar-abdel-kafy/…` (audio) and `…/mp4/…` (video). Both are linked from the pages.
   - `robots.txt` at `https://www.assabile.com/robots.txt` does not disallow the lesson pages or the media host (checked 25 October 2026).
 
-## 4. What is done, and the queue order (status 25 Oct 2026, 15:20)
+## 4. What is done, and the queue order (status 25 Oct 2026, 20:25)
 
-**Totals.** 622 lessons in 25 series (video 7 series, 213 lessons; audio 18 series, 409 lessons). Transcribed: 43 lessons (Aadau Al Islam 4, Al Hoquq 5, Tafsir Al Quran Al Qareem 10, Al Fawzu Al Moubeen 14, Sharh Ketab Al Fawaed 10). Remaining: 579 lessons (video 213; audio 366), across 20 series. Al Dinu Al Qayem (13 lessons) is being transcribed by the queue.
+**Totals.** 622 lessons in 25 series (video 7 series, 213 lessons; audio 18 series, 409 lessons). Transcribed: 81 lessons (audio 64, video 17). Remaining: 541 lessons (audio 345, video 196).
 
-**Extraction on `main` (PRs merged).** Aadau Al Islam: PRs #1591, #1651 (pilot prose and the text-use override). Al Hoquq: PR #1717 (with Tafsir), commit `635866fe8`. Tafsir Al Quran Al Qareem: PR #1717, and its write-up of the remaining intelligible windows in PR #1780 (749 windows cited; 206 skipped, listed in `docs/delegation/omar-abdelkafy-excluded-tafsir-writeup.md`). Al Fawzu Al Moubeen: PR #1755 (batch 2 in commit `e405b02bf`; exclusions in `docs/delegation/omar-abdelkafy-excluded-al-fawzu.md`). `concept/time-as-resource`: English and Urdu added in PR #1762. Totals on `main` at 15:14: 185 entities, 555 prose files, 5,964 citation markers, 1,540 distinct windows.
+**Series done in full (transcribed):** aadau-al-islam (4), al-hoquq (5), tafsir-al-quran-al-qareem (10), al-fawzu-al-moubeen (14), sharh-ketab-al-fawaed (10), al-dinu-al-qayem (13).
 
-**Extraction in progress.** Sharh Ketab Al Fawaed (10 episodes, all transcribed): an extraction agent is writing it; commit its output when it reports (rule 16 and section 7).
+**Extraction on `main` (merged PRs).** Aadau Al Islam: PRs #1591, #1651. Al Hoquq: PR #1717 and commit `635866fe8`. Tafsir Al Quran Al Qareem: PR #1717, write-up in PR #1780 (749 windows cited; 206 skipped, in `docs/delegation/omar-abdelkafy-excluded-tafsir-writeup.md`). Al Fawzu Al Moubeen: PR #1755 (exclusions in `docs/delegation/omar-abdelkafy-excluded-al-fawzu.md`). Sharh Ketab Al Fawaed: PR #1813 (15 new, 28 extended; 917 windows still to write, 421 skipped ranges in `docs/delegation/omar-abdelkafy-excluded-sharh-ketab.md`). `concept/time-as-resource`: English and Urdu in PR #1762. Totals on `main` at 15:14: 185 entities, 555 prose files, 5,964 citation markers, 1,540 distinct windows (before Sharh Ketab merged).
 
-**Queue order** (the queue runs them in this order; a series with a file in `pass5-qwen` is transcribed):
+**Extraction in progress.** Al Dinu Al Qayem (13 episodes, transcribed): an extraction agent is writing it; commit its output when it reports (rule 16, section 7).
+
+**Two audio queues now run on the Mac (both share the GPU).**
+- The main queue goes forward through the list in section 3's order. Its current series is Sharh Al Hekam Al Ataeya (2 of 17 done).
+- A reverse queue goes from the end of the audio list back: `caffeinate -dims bash scripts/harvest/audio/run_queue.sh omar-abdelkafy ~/islam-museum-harvest "$PWD" sharh-saheeh-al-bukhare albuyout-alamena muktatafat-mena-al-seera silsilat-ebadu-al-rahman al-dar-al-akhera bustan-el-amal tariq-al-noor wa-nafsun-ma-sawaha al-manjeyat silsilat-qissa-wa-ebra nafahat-ramadaneya-1436-h sharh-al-hekam-al-ataeya`. Its current series is Sharh Saheeh Al Bukhare (7 of 60 done). Both skip episodes whose transcript exists.
+
+**Video (rule 18).** Preparation runs `scripts/harvest/audio/prep_video.sh` for the seven video series in order: al-naba-al-safi (24 episodes; 17 transcribed, episode 18 in progress), then ahl-al-hikma, mawkib-al-nour, ajaeb-al-kulub, min-kunuz-al-sunnah, modakirate-iblis, alwaad-alhaq. Each episode's MP4 is downloaded, its audio extracted to MP3, and the MP3 transcribed.
+
+**Queue order** (the main queue runs them in this order):
 
 | Series | Type | Lessons | Status |
 |---|---|---|---|
-| sharh-ketab-al-fawaed | audio | 10 | transcribed; extraction in progress |
-| al-dinu-al-qayem | audio | 13 | transcribing |
-| sharh-al-hekam-al-ataeya | audio | 17 | queued |
+| sharh-al-hekam-al-ataeya | audio | 17 | transcribing (main queue) |
 | nafahat-ramadaneya-1436-h | audio | 6 | queued |
 | silsilat-qissa-wa-ebra | audio | 22 | queued |
 | al-manjeyat | audio | 27 | queued |
@@ -102,16 +108,16 @@ Founder's decisions, 25 October 2026. Each one is also recorded in the progress 
 | silsilat-ebadu-al-rahman | audio | 28 | queued |
 | muktatafat-mena-al-seera | audio | 24 | queued |
 | albuyout-alamena | audio | 47 | queued |
-| sharh-saheeh-al-bukhare | audio | 60 | queued |
-| al-naba-al-safi | video | 24 | queued |
-| ahl-al-hikma | video | 27 | queued |
-| mawkib-al-nour | video | 29 | queued |
-| ajaeb-al-kulub | video | 29 | queued |
-| min-kunuz-al-sunnah | video | 30 | queued |
-| modakirate-iblis | video | 30 | queued |
-| alwaad-alhaq | video | 44 | queued |
+| sharh-saheeh-al-bukhare | audio | 60 | transcribing (reverse queue, 7 of 60) |
+| al-naba-al-safi | video | 24 | 17 transcribed (preparation) |
+| ahl-al-hikma | video | 27 | queued (preparation) |
+| mawkib-al-nour | video | 29 | queued (preparation) |
+| ajaeb-al-kulub | video | 29 | queued (preparation) |
+| min-kunuz-al-sunnah | video | 30 | queued (preparation) |
+| modakirate-iblis | video | 30 | queued (preparation) |
+| alwaad-alhaq | video | 44 | queued (preparation) |
 
-Done in full: aadau-al-islam, al-hoquq, tafsir-al-quran-al-qareem, al-fawzu-al-moubeen.
+Done in full: aadau-al-islam, al-hoquq, tafsir-al-quran-al-qareem, al-fawzu-al-moubeen, sharh-ketab-al-fawaed, al-dinu-al-qayem.
 
 ## 5. Known problems and their fixes (learned the hard way)
 
@@ -137,6 +143,13 @@ Done in full: aadau-al-islam, al-hoquq, tafsir-al-quran-al-qareem, al-fawzu-al-m
 - **Subagent prose from noisy text.** Subagents have written prose from garbled ASR and been wrong. The Tafsir bet-story payments and a Hikma daughter clause were corrected by spot-checks. Spot-check about ten windows per series before merging, and check every number against its window.
 - **Skipped windows.** Keep the per-window lists in the scratchpad and copy the ranges into a committed `docs/delegation/omar-abdelkafy-excluded-<series>.md`, with reason, gate and override.
 - **Map.** Regenerate `site/src/data/recordings.json` whenever a manifest changes (rule 17). Last regenerated for six series (PR #1725).
+
+- **Two audio queues share the GPU.** Running two transcriptions in parallel does not shorten the total time; it changes the order. The reverse queue must stop at the main queue's position (the duplicates are harmless but wasteful).
+- **Audio for transcription must be MP3, not M4A.** The transcription library reads MP3 but not AAC in M4A. `prep_video.sh` writes MP3.
+- **Slow transcription on a busy GPU.** With both queues and the video preparation running, speed drops to about 3 to 4 times real time (about 9 times alone).
+- **Stale subagent notifications.** A finished agent sometimes re-sends its old report, with "uncommitted" or test failures that are out of date. Check git status and the repository directly; stop the agent with `TaskStop` if it keeps repeating.
+- **The pipeline test is flaky.** `scripts/pipeline.test.ts` sometimes reports "no data file for concept/…" for files that exist, and once a worker timeout. Run it alone; it passed 32 of 32 in isolation.
+- **Pending write-up gaps.** Tafsir: 206 windows skipped, all others written. Sharh Ketab: 917 windows still to write, in a second writing pass. Subagent prose from noisy ASR needs a spot-check of about ten windows per series before merging.
 
 ## 6. If the Mac is not reachable (fallback for Devin on another machine)
 
