@@ -51,5 +51,9 @@ translators: []
 ان کے اعلان کردہ ذاتی اصولوں میں: اپنی اکیڈمی میں وہ ان عرب امیدواروں کو مسترد کرتے جن کا تجربہ دس سال سے زیادہ ہو، ان کے ہاں خود ترقی کے نظام کی عدم موجودگی کی وجہ سے؛ اور اس نے اپنی بیٹی کو «یہ تمہارا بندر ہے» کے اصول سے ہوم ورک کی ذمہ داری سنبھالنا سکھائی بجائے اس کے لیے حل کرنے کے۔ {cite:assabile-tareq-al-suwaidan administrative-processus-abilities/ep03 00:41:30} {cite:assabile-tareq-al-suwaidan administrative-processus-abilities/ep03 00:37:30}
 اور وہ صراحت کرتے ہیں کہ ڈسک تجزیے میں ان کی اپنی طرز «با» ہے — مؤثر، لوگوں کی اہتمام کرنے والا اور تیز — دوسرے حرف سے پندرہ نکات آگے۔ {cite:assabile-tareq-al-suwaidan administrative-processus-abilities/ep03 01:37:30}
 
+## اس کے دروس سے: تحفيز اور اداروں کی تبدیلی
+چوتھی قسط میں سویدان اپنے بارے میں بتاتے ہیں: وہ اپنے بچوں کو کامیابی کے لمحے میں انعام نہیں دیتے بلکہ نظریے اور ہدف سے جوڑتے ہیں؛ انہوں نے امریکن کرییٹوٹی اکیڈمی میں طلبہ کے لیے «نقاط کا بینک» بنایا — درجات، سلوک اور سرگرمیوں پر نقاط جو سفر کے ٹکٹوں اور حصص سمیت انعامات میں بدلے جاتے، اور سب سے زیادہ بہتری لانے والے کے لیے انعام — صرف ممتاز طلبہ کو نوازنے کے بجائے؛ انہوں نے تین سالوں میں اکیڈمی کا ڈھانچہ چھ بار بدلا جب نتائج منصوبے سے بڑھ گئے؛ اور انہوں نے «مثالی ملازم» کی تنقید اسٹیفن کووی سے سیکھی۔ {cite:assabile-tareq-al-suwaidan administrative-processus-abilities/ep04 00:37:30} {cite:assabile-tareq-al-suwaidan administrative-processus-abilities/ep04 00:42:00} {cite:assabile-tareq-al-suwaidan administrative-processus-abilities/ep04 01:41:30} {cite:assabile-tareq-al-suwaidan administrative-processus-abilities/ep04 00:41:00}
+اور وہ بیان کرتے ہیں کہ فوجی خدمت کے دوران انہوں نے ایک افسر کی گالی قبول کرنے سے انکار کیا اور اس سے کہا کہ جو انہیں گالی دے گا اسے جواباً گالی ملے گی، اور انہوں نے اپنی خدمت بلا اہانت گزاری (ذاتی واقعہ)۔ {cite:assabile-tareq-al-suwaidan administrative-processus-abilities/ep04 00:27:30}
+
 ## ماخذ
 - اوپر حوالہ دیے گئے متعین ماخذ، جو `data/source/` میں درج ہیں۔

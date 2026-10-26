@@ -83,5 +83,9 @@ translators: []
 ومن قواعده الشخصية المعلنة: أنه كان في أكاديميته يرفض توظيف العرب ممن تجاوزت خبرتهم عشر سنوات لغياب نظام التطوير الذاتي عندهم، وأنه درّب ابنته على تحمّل مسؤولية واجبها بقاعدة «القرد قردك» لا أن يحل عنها. {cite:assabile-tareq-al-suwaidan administrative-processus-abilities/ep03 00:41:30} {cite:assabile-tareq-al-suwaidan administrative-processus-abilities/ep03 00:37:30}
 ويصرّح أن نمطه في تحليل ديسك هو «باء» — مؤثر يهتم بالناس وسريع — بفارق خمس عشرة نقطة عن الثانية. {cite:assabile-tareq-al-suwaidan administrative-processus-abilities/ep03 01:37:30}
 
+## من دروسه: التحفيز وتغيير المنظمات
+في الحلقة الرابعة يذكر السويدان عن نفسه: أنه لا يكافئ أولاده على النجاح في لحظته بل يربطهم بالفكرة والهدف؛ وأنه صنع في أكاديمية الإبداع «بنك نقاط» للطلبة — نقاط على الدرجات والسلوك والنشاط تُستبدل بجوائز بينها تذاكر سفر وأسهم، مع مكافأة لأكثر طالب تطوراً — بديلاً عن تكريم المتفوقين وحدهم؛ وأنه غيّر هيكل الأكاديمية ست مرات في ثلاث سنوات لتجاوز النتائج الخطة؛ وأنه تعلّم نقد «الموظف المثالي» من ستيفن كوفي. {cite:assabile-tareq-al-suwaidan administrative-processus-abilities/ep04 00:37:30} {cite:assabile-tareq-al-suwaidan administrative-processus-abilities/ep04 00:42:00} {cite:assabile-tareq-al-suwaidan administrative-processus-abilities/ep04 01:41:30} {cite:assabile-tareq-al-suwaidan administrative-processus-abilities/ep04 00:41:00}
+ويحكي أنه في الخدمة العسكرية رفض أن يُسبّ من ضابط وأخبره أن من يسبه سيُسبّ مثله فقضى خدمته دون إهانة (قصة شخصية). {cite:assabile-tareq-al-suwaidan administrative-processus-abilities/ep04 00:27:30}
+
 ## المراجع
 - المصادر المعرّفة المستشهد بها أعلاه، وهي مسجلة في `data/source/`.
