@@ -1,0 +1,38 @@
+id: person/maryam-monsef
+class: person
+label:
+  ar: "مريم منصف"
+  en: "Maryam Monsef"
+  ur: "مریم منصف"
+summary:
+  ar: "سياسية كندية من أصل أفغاني وُلدت في مشهد بإيران، مثّلت دائرة بيتربورو—كاوارثا في مجلس العموم الكندي من 2015 إلى 2021، وتولّت حقائب المؤسسات الديمقراطية والمرأة والمساواة بين الجنسين والتنمية الدولية والتنمية الاقتصادية الريفية."
+  en: "Afghan-Canadian politician born in Mashhad, Iran, who represented Peterborough—Kawartha in Canada's House of Commons from 2015 to 2021 and held the federal portfolios of democratic institutions, women and gender equality, international development and rural economic development."
+  ur: "افغان نژاد کینیڈین سیاست دان جو مشہد، ایران میں پیدا ہوئیں، 2015 سے 2021 تک ایوانِ زیریں میں پیٹربورو—کاوارتھا کی نمائندگی کی اور جمہوری اداروں، خواتین و صنفی مساوات، بین الاقوامی ترقی اور دیہی اقتصادی ترقی کی وفاقی وزارتیں سنبھالیں۔"
+names:
+  - { value: "Maryam Monsef", kind: full }
+  - { value: "مریم منصف", kind: full }
+  - { value: "Maryam Monsefzadeh", kind: alternate }
+  - { value: "مریم منصف‌زاده", kind: alternate }
+born:
+  edtf: "1984-11-07"
+  hijri: "1405"
+  calendar: gregorian
+  precision: day
+  status: debated
+  derived: true
+  note: "Born at the Imam Reza Hospital in Mashhad, Iran, to Afghan parents; the English article gives 7 November 1984 in its lead and infobox. Wikidata still gives 7 November 1985 at day precision and the queue gave 1985; the record follows the article's 1984, so the date is marked debated. Hijri year 1405 derived from the Gregorian date."
+  sources: [source/wikipedia-maryam-monsef-en, source/wikidata-maryam-monsef]
+gender: female
+roles: [politician]
+faith:
+  - value: unknown
+    basis: unknown
+    note: "No source names a school or branch for Monsef herself. Wikidata gives only Islam (Q432) generically — a single structured-data value. The Persian article's infobox likewise gives 'Islam', citing a Muslim Link list of Muslim MPs elected in 2015. The English article names no religion in its text; it records that she travelled to Iran on pilgrimage visas in 2010, 2013 and 2014 to visit the Imam Reza shrine in Mashhad, which is personal practice and does not attest a school. The Persian article describes her parents as Hazara Afghans; family and ethnic background never counts. Under the two-source rule, and the doubt rule, the value stays unknown."
+    sources: [source/wikipedia-maryam-monsef-en, source/wikipedia-maryam-monsef-fa, source/wikidata-maryam-monsef]
+relations:
+  - { type: born_in, target: place/mashhad }
+wings: [people, living]
+external_ids: { wikidata: Q21162694 }
+sources: [source/wikipedia-maryam-monsef-en, source/wikipedia-maryam-monsef-fa, source/wikipedia-maryam-monsef-ur, source/wikidata-maryam-monsef]
+provenance: { layer: own-research, source: "Wikipedia (EN/FA/UR) and Wikidata Q21162694, consulted directly 26 Oct 2026", generated_by: "Muse (Muse Spark 1.3)", run: "century-additions-29" }
+status: { review: published, completeness: 3, generated_by: "Muse (Muse Spark 1.3)" }

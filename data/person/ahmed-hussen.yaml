@@ -1,0 +1,37 @@
+id: person/ahmed-hussen
+class: person
+label:
+  ar: "أحمد حسين"
+  en: "Ahmed Hussen"
+  ur: "احمد حسین"
+summary:
+  ar: "محامٍ وسياسي ليبرالي صومالي كندي، أول صومالي كندي يُنتخب لبرلمان كندا، يمثّل دائرة يورك الجنوبية—وستون (يورك الجنوبية—وستون—إتوبيكوك منذ 2025) منذ 2015، وتولّى وزارات الهجرة والعائلات والإسكان والتنمية الدولية بين 2017 و2025."
+  en: "Somali-Canadian lawyer and Liberal politician, the first Somali-Canadian elected to Canada's Parliament, who has represented York South—Weston (York South—Weston—Etobicoke since 2025) since 2015 and served as minister of immigration, families and social development, housing and diversity and inclusion, and international development between 2017 and 2025."
+  ur: "صومالی نژاد کینیڈین وکیل اور لبرل سیاست دان، کینیڈا کی پارلیمنٹ کے لیے منتخب ہونے والے پہلے صومالی کینیڈین، جو 2015 سے یارک ساؤتھ—ویسٹن (2025 سے یارک ساؤتھ—ویسٹن—ایٹوبیکوک) کی نمائندگی کر رہے ہیں اور 2017 سے 2025 کے درمیان امیگریشن، خاندان، ہاؤسنگ اور بین الاقوامی ترقی کے وزیر رہے۔"
+names:
+  - { value: "Ahmed Hussen", kind: full }
+  - { value: "Axmed Xuseen", kind: full }
+  - { value: "أحمد حسين", kind: full }
+born:
+  edtf: "1976"
+  hijri: "1396"
+  calendar: gregorian
+  precision: year
+  status: historical
+  derived: true
+  note: "The English article, citing the Library of Parliament, gives the birth year 1976 and the birthplace Mogadishu, Somalia; the queue's year 1975 is supported by no consulted source. Hijri year 1396 derived from the Gregorian year."
+  sources: [source/wikipedia-ahmed-hussen-en, source/wikidata-ahmed-hussen]
+gender: male
+roles: [lawyer, politician]
+faith:
+  - value: unknown
+    basis: unknown
+    note: "No source names a school or branch for Hussen himself. Wikidata gives only Islam (Q432) generically — a single structured-data value. The English article names no religion in its text and files him under 'Somali Muslims' and 'Canadian Muslims'; the Arabic and Urdu articles likewise classify him by category only. Generic identification is not a school attestation, so under the two-source rule the value stays unknown."
+    sources: [source/wikipedia-ahmed-hussen-en, source/wikidata-ahmed-hussen]
+relations:
+  - { type: born_in, target: place/mogadishu }
+wings: [people, living]
+external_ids: { wikidata: Q16211070 }
+sources: [source/wikipedia-ahmed-hussen-en, source/wikipedia-ahmed-hussen-ar, source/wikipedia-ahmed-hussen-ur, source/wikidata-ahmed-hussen]
+provenance: { layer: own-research, source: "Wikipedia (EN/AR/UR) and Wikidata Q16211070, consulted directly 26 Oct 2026", generated_by: "Muse (Muse Spark 1.3)", run: "century-additions-29" }
+status: { review: published, completeness: 3, generated_by: "Muse (Muse Spark 1.3)" }
