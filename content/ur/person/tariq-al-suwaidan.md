@@ -96,3 +96,6 @@ translators: []
 
 ## «الوسطیہ» میں — مغرب کی طرف ہجرت کی قسط
 سویدان نے «مغرب کی طرف ہجرت: امید یا درد» کی قسط ووٹوں اور دماغی ہجرت کے ان کے اپنے پیش کردہ اعداد کے ساتھ چلائی {cite:assabile-tareq-al-suwaidan al-wassitiya/ep11 00:09:00} {cite:assabile-tareq-al-suwaidan al-wassitiya/ep11 00:16:00} {cite:assabile-tareq-al-suwaidan al-wassitiya/ep11 00:38:00}۔ انہوں نے اختتام کیا کہ علاج ایک کھینچنے والا ماحول ہے نہ کہ رجھانے والا — رشید حکومت، قانون کی حکمرانی، رفاہ {cite:assabile-tareq-al-suwaidan al-wassitiya/ep11 01:17:00} {cite:assabile-tareq-al-suwaidan al-wassitiya/ep11 01:20:00}۔
+
+## «الوسطیہ» میں — سیٹلائٹ چینلوں کی قسط
+سویدان نے عرب سیٹلائٹ تجربے کا جائزہ اپنے پیش کردہ اعداد (79 تفریحی، 37 سرکاری، 52% تشدد بچوں کے اوقات میں) اور ووٹوں کے ساتھ لیا {cite:assabile-tareq-al-suwaidan al-wassitiya/ep12 00:15:00} {cite:assabile-tareq-al-suwaidan al-wassitiya/ep12 00:34:00} {cite:assabile-tareq-al-suwaidan al-wassitiya/ep12 00:50:00} {cite:assabile-tareq-al-suwaidan al-wassitiya/ep12 01:05:00}۔
