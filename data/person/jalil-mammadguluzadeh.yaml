@@ -1,0 +1,47 @@
+id: person/jalil-mammadguluzadeh
+class: person
+label: { ar: "جليل ممدقولوزاده", en: "Jalil Mammadguluzadeh", ur: "جلیل محمد قلی زادہ" }
+names:
+  - { value: "Jalil Huseyngulu oghlu Mammadguluzadeh", kind: full }
+  - { value: "Cəlil Hüseynqulu oğlu Məmmədquluzadə", kind: full }
+  - { value: "Mirza Jalil", kind: alternate }
+  - { value: "Jalil Mohammadqolizadeh", kind: alternate }
+gender: male
+summary:
+  ar: "كاتب ساخر ومربٍّ أذربيجاني (1869–1932؛ سنة مولده متنازع عليها)، مؤسس مجلة «ملا نصر الدين» الساخرة (1906) ومحررها، التي هاجمت الجهل والفساد والتعصب الديني بلغة الشعب، فصارت أوسع مجلات العالم الإسلامي انتشارًا في عصرها وشكّلت النثر الأذربيجاني الحديث."
+  en: "Azerbaijani satirist, writer and teacher (1869–1932; his birth year is disputed), founder and editor of the satirical magazine Molla Nasreddin (1906), which attacked ignorance, corruption and religious fanaticism in the language of ordinary people and became the most widely read Muslim periodical of its era."
+  ur: "آذربائیجانی طنز نگار، ادیب اور استاد (1869–1932؛ سالِ پیدائش متنازع ہے)، ساتری رسالے «ملا نصرالدین» (1906) کے بانی و مدیر، جس نے عوامی زبان میں جہالت، بدعنوانی اور مذہبی تعصب پر کاری ضرب لگائی۔"
+roles: [writer, teacher, activist]
+wings: [people]
+regions: [persia-central-asia]
+born:
+  edtf: "1869-02-22"
+  hijri: "1285"
+  calendar: gregorian
+  precision: day
+  status: debated
+  derived: true
+  note: "Born at Nakhchivan. The English article and the Azerbaijani article's main text give 22 February 1869 (10 February Old Style), and the Azerbaijani article states that recent research has established 1869. The older year 1866 — the queue's year — is given by the Russian article, is preserved in the Azerbaijani article as a reading of some sources, and is implied by his Gori seminary certificate, quoted verbatim in the Azerbaijani article, which in 1887 describes him as aged 21; the English article's statement that he died in 1932 'aged 65' likewise fits 1866 rather than 1869. The record follows 1869 with the dispute stated, not merged. The Hijri year 1285 is the tabular conversion of the recorded date (the 1866 reading would convert to 1282). The museum has no place entity for Nakhchivan, so no born_in edge is written."
+  sources: [source/wikipedia-jalil-mammadguluzadeh-en, source/wikipedia-jalil-mammadguluzadeh-az, source/wikipedia-jalil-mammadguluzadeh-ru, source/wikidata-jalil-mammadguluzadeh]
+died:
+  edtf: "1932-01-04"
+  hijri: "1350"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "Died at Baku on 4 January 1932; the English, Azerbaijani and Russian articles and Wikidata agree. The Hijri year 1350 is the tabular conversion. The museum has no place entity for Baku, so no died_in edge is written."
+  sources: [source/wikipedia-jalil-mammadguluzadeh-en, source/wikipedia-jalil-mammadguluzadeh-az, source/wikipedia-jalil-mammadguluzadeh-ru, source/wikidata-jalil-mammadguluzadeh]
+faith:
+  - value: unknown
+    basis: unknown
+    note: "Exactly one attestation of an affiliation exists, and it is a single document. The Azerbaijani article quotes verbatim his 1887 graduation certificate (attestat) from the Transcaucasian Teachers Seminary at Gori, which describes the 21-year-old graduate as 'belonging to the Shia madhhab of Islam' (müsəlman şiə məzhəbinə mənsub): a contemporary administrative record of his registered confession, quoted in one article. No second independent source names any affiliation for him: the English article's 'Religious views' section calls his views disputed — the Azerbaijani philosopher Agalar Mammedov claimed he was an atheist, others read him as a modernist and advocate of Islamic democracy — and concludes that no definitive evidence supports either the atheist or the religious-liberal reading. His father is described in the Azerbaijani article as a devout man, which is family background, and his lifelong satire of clerics and religious fanaticism is a position, not unbelief. Under the Shia-mapping rule and the doubt rule, one document cannot carry a shia-twelver value: his faith is recorded unknown, with the attestat wording preserved here in full. One independent second source attesting Shia affiliation would change this value."
+    sources: [source/wikipedia-jalil-mammadguluzadeh-az, source/wikipedia-jalil-mammadguluzadeh-en]
+external_ids: { wikidata: "Q2656636" }
+sources: [source/wikipedia-jalil-mammadguluzadeh-en, source/wikipedia-jalil-mammadguluzadeh-az, source/wikipedia-jalil-mammadguluzadeh-ru, source/wikipedia-jalil-mammadguluzadeh-ar, source/wikidata-jalil-mammadguluzadeh]
+provenance:
+  layer: own-research
+  source: "English Wikipedia 'Jalil Mammadguluzadeh' (revision 1379011282), Azerbaijani Wikipedia 'Cəlil Məmmədquluzadə' (9041519), Russian Wikipedia 'Мамедкулизаде, Джалил Гусейнкули оглы' (152359995) and Arabic Wikipedia 'جليل ممادقولوزاده' (76471058, a short article whose birthplace wording is flagged in its source file), all read on 26 October 2026, with Wikidata item Q2656636. The queue gives 1866–1932; the record follows the sources' better-supported 1869 at debated status and discloses the 1866 tradition in full. His faith is recorded unknown: the only affiliation attestation is the single 1887 seminary certificate quoted in the Azerbaijani article, as the faith note sets out."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: century-additions-32
+status: { review: published, completeness: 3, generated_by: "Muse (Muse Spark 1.3)" }

@@ -1,0 +1,36 @@
+id: person/suhaib-webb
+class: person
+label:
+  ar: "صهيب ويب"
+  en: "Suhaib Webb"
+  ur: "صہیب ویب"
+summary:
+  ar: "إمام وداعية أمريكي، وُلد في أوكلاهوما سنة 1972 باسم ويليام ويب في أسرة مسيحية، واعتنق الإسلام سنة 1992، ودرس الشريعة في جامعة الأزهر، وتولّى إمامة المركز الثقافي للجمعية الإسلامية في بوسطن، وأسّس معهدًا إلكترونيًا لتدريس العلوم الشرعية."
+  en: "American imam and preacher, born in Oklahoma in 1972 as William Webb to a Christian family. He converted to Islam in 1992, studied Islamic law at al-Azhar University, served as imam of the Islamic Society of Boston Cultural Center, and founded an online institute for the Islamic sciences."
+  ur: "امریکی امام اور مبلغ، جو 1972 میں اوکلاہوما میں ولیم ویب کے نام سے ایک عیسائی خاندان میں پیدا ہوئے۔ انہوں نے 1992 میں اسلام قبول کیا، جامعہ ازہر میں شریعت کی تعلیم حاصل کی، بوسٹن کلچرل سینٹر کی اسلامی سوسائٹی کے امام رہے، اور اسلامی علوم کی آن لائن تدریس کے لیے ایک ادارہ قائم کیا۔"
+names:
+  - { value: "Suhaib Webb", kind: full }
+  - { value: "صهيب ويب", kind: full }
+  - { value: "William Webb", kind: alternate }
+born:
+  edtf: "1972-06-29"
+  hijri: "1392"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "The English and Arabic articles and Wikidata give 29 June 1972; the English article gives the birthplace as Oklahoma and Wikidata specifies Oklahoma City (Q1649). There is no place entity for Oklahoma City, so no born_in edge is written. Hijri year 1392 derived from the Gregorian date."
+  sources: [source/wikipedia-suhaib-webb-en, source/wikipedia-suhaib-webb-ar, source/wikidata-suhaib-webb]
+gender: male
+roles: [imam, educator]
+faith:
+  - value: unknown
+    basis: unknown
+    note: "No source names a school for Webb himself. The English article makes no statement of a school in its text; the Arabic article's infobox gives his religion with the single generic word 'Islam' (الإسلام); Wikidata's only religion value is Islam (Q432). His degree in Islamic law from al-Azhar and his private study under a Senegalese sheikh are education, not an attestation of a school. A generic attestation, one infobox and one structured-data value never suffice."
+    sources: [source/wikipedia-suhaib-webb-en, source/wikipedia-suhaib-webb-ar, source/wikidata-suhaib-webb]
+wings: [people, living]
+regions: [americas-oceania]
+external_ids: { wikidata: "Q4119332" }
+sources: [source/wikipedia-suhaib-webb-en, source/wikipedia-suhaib-webb-ar, source/wikipedia-suhaib-webb-ur, source/wikidata-suhaib-webb]
+provenance: { layer: own-research, source: "Wikipedia (EN/AR/UR) and Wikidata Q4119332, consulted directly 26 Oct 2026", generated_by: "Muse (Muse Spark 1.3)", run: "century-additions-32" }
+status: { review: published, completeness: 3, generated_by: "Muse (Muse Spark 1.3)" }
