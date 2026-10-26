@@ -1,0 +1,41 @@
+id: person/badr-al-mashari
+class: person
+label: { ar: "بدر المشاري", en: "Badr Al-Mashari", ur: "بدر المشاری" }
+names:
+  - { value: "بدر بن نادر بن سليمان المشاري الدوسري", kind: full }
+  - { value: "Badr ibn Nadir ibn Sulayman al-Mashari al-Dosari", kind: full }
+  - { value: "بدر نادر المشاري", kind: alternate }
+  - { value: "Badr almeshari", kind: alternate }
+gender: male
+summary:
+  ar: "داعية إسلامي سعودي وإمام جامع حطين بالحرس الوطني في الرياض، وُلد في الرياض سنة 1973، تخرج من كلية الشريعة بجامعة الإمام محمد بن سعود الإسلامية، وطلب العلم على عبد العزيز بن باز ومحمد بن صالح العثيمين وغيرهما، واشتهر بسلاسل دروسه التلفزيونية على قناتي بداية واقرأ وبمحاضراته ودروسه المسجلة."
+  en: "Saudi Islamic preacher and imam of the Hatin Mosque of the National Guard in Riyadh, born in Riyadh in 1973. He graduated from the College of Sharia at Imam Muhammad ibn Saud Islamic University, studied under Abd al-Aziz ibn Baz and Muhammad ibn Salih al-Uthaymeen among others, and became known for his televised lesson series on the Bedaya and Iqraa channels and for his recorded lectures and lessons."
+  ur: "سعودی اسلامی مبلغ اور ریاض میں نیشنل گارڈ کی حطین مسجد کے امام، جو 1973 میں ریاض میں پیدا ہوئے۔ انہوں نے امام محمد بن سعود اسلامی یونیورسٹی کے کالج آف شریعہ سے گریجویشن کیا، عبد العزیز بن باز اور محمد بن صالح العثیمین سمیت دیگر علما سے علم حاصل کیا، اور بداية اور اقرأ چینلوں پر اپنی ٹیلی ویژن درسی سلسلوں اور ریکارڈ شدہ لیکچرز اور دروس کے لیے جانے گئے۔"
+roles: [preacher]
+wings: [people, living]
+regions: [arabia]
+born:
+  edtf: "1973"
+  hijri: "1393"
+  calendar: gregorian
+  precision: year
+  status: historical
+  derived: false
+  note: "Year and birthplace (Riyadh) from the Arabic Wikipedia lead and infobox, which pair 1973 CE with 1393 AH; Wikidata likewise gives 1973 (year precision). No day or month is published in either source."
+  sources: [source/wikipedia-badr-al-mashari-ar, source/wikidata-badr-al-mashari]
+relations:
+  - { type: student_of, target: person/ibn-baz-abd-al-aziz, sources: [source/wikipedia-badr-al-mashari-ar] }
+  - { type: student_of, target: person/saleh-al-fawzan, sources: [source/wikipedia-badr-al-mashari-ar] }
+faith:
+  - value: unknown
+    basis: unknown
+    note: "No source names a school for him personally. The Arabic Wikipedia article names none in its text or infobox; its categories file him under Saudi Salafis, which is a category filing, not an attestation. Wikidata gives his religion only as Islam (Q432). His teachers included Ibn Baz and Ibn Uthaymeen, but a teacher's school is not the student's attestation. Not recorded as any school until two independent sources name his own."
+    sources: [source/wikipedia-badr-al-mashari-ar, source/wikidata-badr-al-mashari]
+external_ids: { wikidata: "Q20383945" }
+sources: [source/wikipedia-badr-al-mashari-ar, source/wikidata-badr-al-mashari]
+provenance:
+  layer: own-research
+  source: "Arabic Wikipedia article «بدر المشاري» (revision 76361572 of 28 August 2026) and Wikidata item Q20383945 (item revision 2545637780 of 14 September 2026), each fetched by its recorded revision via the MediaWiki API with the revision asserted before any claim was drawn, and checked on 26 October 2026. No English Wikipedia article exists; the English and Urdu prose are written from the Arabic article and Wikidata under the Arabic-first house rule."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: modern-figures-batch-68
+status: { review: published, generated_by: "Muse (Muse Spark 1.3)" }
