@@ -119,3 +119,6 @@ translators: []
 
 ## في «الوسطية» — حلقة التكفير الثانية
 في تتمة التكفير أدار السويدان جدل «الحكم مفتوح أم مغلق» وثلاثة استطلاعات {cite:assabile-tareq-al-suwaidan al-wassitiya/ep08 00:07:30} {cite:assabile-tareq-al-suwaidan al-wassitiya/ep08 00:45:30} {cite:assabile-tareq-al-suwaidan al-wassitiya/ep08 01:05:30} — وكانت النتيجة الأبرز: 88% يقصرون إصدار حكم التكفير على هيئة شرعية رسمية لا على عالم ولا قاضٍ منفرد {cite:assabile-tareq-al-suwaidan al-wassitiya/ep08 00:46:00}.
+
+## في «الوسطية» — حلقة الولاء والبراء
+أدار السويدان حلقة الولاء والبراء بين المسلمين — أخطر تطبيقات المفهوم — بعدة استطلاعات بينها البراء من دعاة السلام مع إسرائيل (63%) والحاجة لضبط المفهوم (63%) {cite:assabile-tareq-al-suwaidan al-wassitiya/ep09 00:04:00} {cite:assabile-tareq-al-suwaidan al-wassitiya/ep09 00:48:30} {cite:assabile-tareq-al-suwaidan al-wassitiya/ep09 01:03:30}. وبلورت الحلقة قاعدته: البراء من الفعل لا من الشخص {cite:assabile-tareq-al-suwaidan al-wassitiya/ep09 00:14:00}.

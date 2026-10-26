@@ -119,3 +119,6 @@ Al-Suwaidan steered the programme's most sensitive episode — kufr and takfir �
 
 ## In 'Al-Wasatiyya' — the second takfir episode
 In the takfir sequel al-Suwaidan steered 'is the ruling open or closed' with three polls {cite:assabile-tareq-al-suwaidan al-wassitiya/ep08 00:07:30} {cite:assabile-tareq-al-suwaidan al-wassitiya/ep08 00:45:30} {cite:assabile-tareq-al-suwaidan al-wassitiya/ep08 01:05:30} — the standout result: 88% confine issuing takfir to an official sharia body, not a single scholar or judge {cite:assabile-tareq-al-suwaidan al-wassitiya/ep08 00:46:00}.
+
+## In 'Al-Wasatiyya' — the wala' and bara' episode
+Al-Suwaidan steered the wala'-and-bara'-among-Muslims episode — the concept's most sensitive application — with several polls including disavowal of peace-with-Israel advocates (63%) and the need to regulate the concept (63%) {cite:assabile-tareq-al-suwaidan al-wassitiya/ep09 00:04:00} {cite:assabile-tareq-al-suwaidan al-wassitiya/ep09 00:48:30} {cite:assabile-tareq-al-suwaidan al-wassitiya/ep09 01:03:30}. The episode distilled its rule: bara' from the act, not the person {cite:assabile-tareq-al-suwaidan al-wassitiya/ep09 00:14:00}.
