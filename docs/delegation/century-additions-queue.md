@@ -406,11 +406,11 @@ lists' own order. Status markers: [ ] queued · [~] in a writer's hands · [x] m
 - [x] Sheikh Kabir Gombe — 1968–Living
 - [x] Sanusi Lamido Sanusi (Muhammadu Sanusi II) — 1961–Living
 - [x] Attahiru Jega — 1957–Living
-- [ ] Nuhu Ribadu — 1960–Living
-- [ ] Ngozi Okonjo-Iweala (Contemporary Leader) — 1954–Living
-- [ ] Aminu Tambuwal — 1966–Living
-- [ ] Bukola Saraki — 1962–Living
-- [ ] Atiku Abubakar — 1946–Living
+- [x] Nuhu Ribadu — 1960–Living
+- [x] Ngozi Okonjo-Iweala (Contemporary Leader) — 1954–Living
+- [x] Aminu Tambuwal — 1966–Living
+- [x] Bukola Saraki — 1962–Living
+- [x] Atiku Abubakar — 1946–Living
 - [ ] Moshood Abiola — 1937–1998
 - [ ] Ahmadu Bello — 1910–1966
 - [ ] Abubakar Tafawa Balewa — 1912–1966
