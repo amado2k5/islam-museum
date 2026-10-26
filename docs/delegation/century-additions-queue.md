@@ -193,11 +193,11 @@ lists' own order. Status markers: [ ] queued · [~] in a writer's hands · [x] m
 - [x] Ahmed Hussen — 1975–Living
 - [x] Yasir Naqvi — 1973–Living
 - [x] Iqra Khalid — 1985–Living
-- [ ] Zubeida Jaffer — 1958–Living
-- [ ] Ebrahim Rasool — 1962–Living
-- [ ] Ahmed Kathrada — 1929–2017
-- [ ] Dullah Omar — 1934–2004
-- [ ] Imtiaz Sooliman — 1962–Living
+- [x] Zubeida Jaffer — 1958–Living
+- [x] Ebrahim Rasool — 1962–Living
+- [x] Ahmed Kathrada — 1929–2017
+- [x] Dullah Omar — 1934–2004
+- [x] Imtiaz Sooliman — 1962–Living
 - [ ] Fatima Meer — 1928–2010
 - [ ] Amina Cachalia — 1930–2013
 - [ ] Yusuf Dadoo — 1909–1983
@@ -1067,16 +1067,16 @@ lists' own order. Status markers: [ ] queued · [~] in a writer's hands · [x] m
 - [x] Ibrahim Şinasi (1826–1871)
 - [x] Tevfik Fikret (1867–1915)
 - [x] Cenap Şahabettin (1870–1934)
-- [ ] Yahya Kemal Beyatlı (1884–1958)
-- [ ] Ömer Seyfettin (1884–1920)
-- [ ] Halit Ziya Uşaklıgil (1866–1945)
-- [ ] Nigâr Hanım (1862–1918)
-- [ ] Leyla Saz (1850–1936)
-- [ ] Şefika Gasprinskaya (1886–1975)
-- [ ] Ismail Gasprinsky (1851–1914)
-- [ ] Yusuf Akçura (1876–1935)
-- [ ] Sadri Maksudi Arsal (1879–1957)
-- [ ] Musa Bigiev (1875–1949)
+- [x] Yahya Kemal Beyatlı (1884–1958)
+- [x] Ömer Seyfettin (1884–1920)
+- [x] Halit Ziya Uşaklıgil (1866–1945)
+- [x] Nigâr Hanım (1862–1918)
+- [x] Leyla Saz (1850–1936)
+- [x] Şefika Gasprinskaya (1886–1975)
+- [x] Ismail Gasprinsky (1851–1914)
+- [x] Yusuf Akçura (1876–1935)
+- [x] Sadri Maksudi Arsal (1879–1957)
+- [x] Musa Bigiev (1875–1949)
 - [ ] Rizaeddin bin Fakhraddin (1859–1936)
 - [ ] Galimjan Barudi (1857–1921)
 - [ ] Abdurreshid Ibrahim (1857–1944)

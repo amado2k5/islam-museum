@@ -1,0 +1,48 @@
+id: person/ismail-gasprinsky
+class: person
+label: { ar: "إسماعيل غسبرينسكي", en: "Ismail Gasprinsky", ur: "اسماعیل گاسپرنسکی" }
+names:
+  - { value: "İsmail bey Gaspıralı", kind: full }
+  - { value: "إسماعيل بك غسبرينسكي", kind: full }
+  - { value: "Исмаил Гаспринский", kind: full }
+  - { value: "Ismail Gaspirali", kind: alternate }
+  - { value: "Ismail Gasprinski", kind: latinized }
+gender: male
+summary:
+  ar: "معلم وناشر وسياسي قرِمي تاتاري (1851–1914)، مؤسس صحيفة «ترجمان» ومبتكر إصلاح «أصول جديد» (الأسلوب الجديد) في مدارس المسلمين، والملهم الأبرز لحركة الجديد بين مسلمي الإمبراطورية الروسية. دعا إلى لغة أدبية تركية مشتركة وإلى وحدة الشعوب التركية والمسلمة وتحديثها عبر التعليم."
+  en: "Crimean Tatar educator, publisher and politician (1851–1914), founder of the newspaper Terciman and of the usul-ü cedit (new method) reform of Muslim schooling, and the leading inspiration of the Jadid movement among the Muslims of the Russian Empire. He campaigned for a common Turkic literary language and for the unity and modernisation of the Turkic and Muslim peoples of the empire through education."
+  ur: "قریمی تاتار معلم، ناشر اور سیاست دان (1851–1914)، اخبار «ترجمان» کے بانی اور مسلم مکاتب کی اصلاح «اصولِ جدید» کے موجد، اور سلطنتِ روس کے مسلمانوں میں تحریکِ جدید کے سب سے بڑے محرک۔ انہوں نے مشترکہ ترک ادبی زبان اور تعلیم کے ذریعے ترک و مسلم اقوام کے اتحاد اور تجدید کی دعوت دی۔"
+roles: [writer, journalist, teacher, politician]
+wings: [people]
+regions: [anatolia-balkans]
+born:
+  edtf: "1851-03-20"
+  hijri: "1267"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "The English article gives 20 March [O.S. 8 March] 1851 and the Arabic stub 20 March 1851; Wikidata carries both calendar values. Wikidata's place of birth is Avdzhikoy (Avcıköy), a village near Bakhchysarai in Crimea; the museum has no place entity for it or for Bakhchysarai, so no born_in edge is written. The Hijri year 1267 is the tabular conversion."
+  sources: [source/wikipedia-ismail-gasprinsky-en, source/wikipedia-ismail-gasprinsky-ar, source/wikidata-ismail-gasprinsky]
+died:
+  edtf: "1914-09-24"
+  hijri: "1332"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "The English article gives 24 September [O.S. 11 September] 1914 at Bakhchysarai (Wikidata's place of death); the Arabic stub prints 11 September 1914, the Old Style date, without flagging it as such. The Hijri year 1332 is the tabular conversion. No died_in edge is written: the museum has no place entity for Bakhchysarai."
+  sources: [source/wikipedia-ismail-gasprinsky-en, source/wikipedia-ismail-gasprinsky-ar, source/wikidata-ismail-gasprinsky]
+faith:
+  - value: unknown
+    basis: unknown
+    note: "Wikidata carries two religion values for Gasprinsky — Islam (Q432) and Sunni Islam (Q483654) — but both sit inside the one structured-data item: a single source family, not two independent sources. No article's text names a school for him: the English article describes his programme (education reform, a common literary language, the unity of the Turkic peoples) without discussing his personal madhhab, and the Arabic stub calls him a Crimean thinker, educator, publisher and politician. His founding role in the Jadid movement is movement leadership, not a school attestation. Under the two-source rule and the doubt rule his faith is recorded unknown, with the Wikidata readings preserved here."
+    sources: [source/wikidata-ismail-gasprinsky, source/wikipedia-ismail-gasprinsky-en, source/wikipedia-ismail-gasprinsky-ar]
+external_ids: { wikidata: "Q335495" }
+sources: [source/wikipedia-ismail-gasprinsky-en, source/wikipedia-ismail-gasprinsky-ar, source/wikidata-ismail-gasprinsky]
+provenance:
+  layer: own-research
+  source: "English Wikipedia 'Ismail Gasprinsky' (revision 1375169067) and Arabic Wikipedia 'إسماعيل غسبرينسكي' (revision 68916787), read on 26 October 2026, with Wikidata item Q335495. The harvest queue's years (1851–1914) are confirmed in the Gregorian calendar; the Old Style equivalents (8 March 1851 – 11 September 1914) are stated in the date notes. His daughter Şefika's child_of edge is written in her record, not here. His faith is left unknown under the two-source rule, as the faith note sets out in full."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: century-additions-30
+status: { review: published, completeness: 3, generated_by: "Muse (Muse Spark 1.3)" }
