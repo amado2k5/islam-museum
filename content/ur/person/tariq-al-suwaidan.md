@@ -87,3 +87,6 @@ translators: []
 
 ## «الوسطیہ» میں — تکفیر کی دوسری قسط
 تکفیر کے تتمہ میں سویدان نے «حکم کھلا یا بند» کی بحث تین ووٹوں کے ساتھ چلائی {cite:assabile-tareq-al-suwaidan al-wassitiya/ep08 00:07:30} {cite:assabile-tareq-al-suwaidan al-wassitiya/ep08 00:45:30} {cite:assabile-tareq-al-suwaidan al-wassitiya/ep08 01:05:30} — نمایاں نتیجہ: 88% تکفیر کا حکم ایک سرکاری شرعی ادارے تک محدود رکھتے ہیں، نہ منفرد عالم نہ قاضی {cite:assabile-tareq-al-suwaidan al-wassitiya/ep08 00:46:00}۔
+
+## «الوسطیہ» میں — ولاء و براء کی قسط
+سویدان نے مسلمانوں میں ولاء اور براء کی قسط — تصور کا سب سے حساس اطلاق — کئی ووٹوں کے ساتھ چلائی جن میں اسرائیل سے صلح کے داعیوں سے براءت (63%) اور تصور کو ضبط کرنے کی ضرورت (63%) تھے {cite:assabile-tareq-al-suwaidan al-wassitiya/ep09 00:04:00} {cite:assabile-tareq-al-suwaidan al-wassitiya/ep09 00:48:30} {cite:assabile-tareq-al-suwaidan al-wassitiya/ep09 01:03:30}۔ قسط نے اپنا اصول بیان کیا: براءت شخص سے نہیں بلکہ فعل سے {cite:assabile-tareq-al-suwaidan al-wassitiya/ep09 00:14:00}۔
