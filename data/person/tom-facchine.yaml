@@ -1,0 +1,34 @@
+id: person/tom-facchine
+class: person
+label: { ar: "توم فاكين", en: "Tom Facchine", ur: "ٹام فیکین" }
+names:
+  - { value: "توم فاكين", kind: full }
+  - { value: "Tom Facchine", kind: full }
+gender: male
+summary:
+  ar: "إمام وباحث أمريكي. اعتنق الإسلام سنة 2010 وهو طالب في كلية فاسار، ثم درس في الجامعة الإسلامية بالمدينة المنورة (2015-2020) وتخرّج في كلية الشريعة فيها. وهو مدير أبحاث الإسلام والمجتمع في معهد يقين، وإمام وباحث مقيم في مسجد يوتيكا بنيويورك، ومدرّس في مدرسة ليغاسي الدولية الإلكترونية."
+  en: "American imam and scholar. He accepted Islam in 2010 while a student at Vassar College, then studied at the Islamic University of Madinah (2015-2020), graduating from its Faculty of Shariah. He is Research Director of Islam and Society at the Yaqeen Institute, resident scholar and imam of Utica Masjid in New York, and an instructor at Legacy International Online High School."
+  ur: "امریکی امام و محقق۔ انہوں نے 2010 میں واسار کالج کے طالب علم ہوتے ہوئے اسلام قبول کیا، پھر جامعہ اسلامیہ مدینہ منورہ میں تعلیم حاصل کی (2015-2020) اور کلیہ شریعہ سے فارغ ہوئے۔ وہ یقین انسٹی ٹیوٹ میں اسلام و معاشرہ کے شعبے کے ڈائریکٹر تحقیق، نیویارک کی مسجد یوٹیکا کے امام و مقیم عالم، اور لیگیسی انٹرنیشنل آن لائن ہائی اسکول میں مدرس ہیں۔"
+roles: [scholar, teacher]
+wings: [people, living]
+regions: [americas-oceania]
+born:
+  edtf: "1989"
+  calendar: gregorian
+  precision: year
+  status: historical
+  note: "Year from Wikidata item Q135510030 (date of birth, year precision); the same item gives his birthplace as New Jersey. No fuller date in any consulted source."
+  sources: [source/wikidata-tom-facchine]
+faith:
+  - value: unknown
+    basis: unknown
+    note: "He is a convert: The Thinking Muslim's episode biography states that he accepted Islam in 2010. Wikidata's only religion value is Islam (Q432), generic, naming no school, and neither the MAC Convention biography nor the Yaqeen appointment coverage consulted names a school for him. His former faith is not recorded (the lane's convert practice), and his school stays unknown until two independent sources name one."
+    sources: [source/wikidata-tom-facchine, source/thinking-muslim-tom-facchine, source/macconvention-tom-facchine]
+external_ids: { wikidata: "Q135510030" }
+sources: [source/wikidata-tom-facchine, source/macconvention-tom-facchine, source/thinking-muslim-tom-facchine]
+provenance:
+  layer: own-research
+  source: "Row 267 of the handoff section-2 list. Wikidata item Q135510030 consulted 26 October 2026 (born 1989; birthplace New Jersey; educated at Vassar College and the Islamic University of Madinah; religion Islam, generic); MAC Convention speaker biography for the Yaqeen directorship, the Legacy instructorship and the degree dates; The Thinking Muslim episode page for the 2010 conversion and the Utica Masjid role. No English Wikipedia article exists (API returned missing); the item's only sitelink is the Indonesian article, which was not used."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: "modern-figures-batch-50"
+status: { review: published, completeness: 2, generated_by: "Muse (Muse Spark 1.3)" }
