@@ -1,0 +1,37 @@
+id: person/hamza-choudhury
+class: person
+label: { ar: "حمزة تشودهاري", en: "Hamza Choudhury", ur: "حمزہ چودھری" }
+names:
+  - { value: "Hamza Dewan Choudhury", kind: full }
+  - { value: "حمزة تشودهاري", kind: full }
+  - { value: "حمزہ چودھری", kind: full }
+gender: male
+summary:
+  ar: "لاعب وسط إنجليزي من أصل بنغلاديشي وغرينادي (وُلد سنة 1997 في لوفبرا)، نشأ في أكاديمية ليستر سيتي وفاز معه بكأس الاتحاد الإنجليزي 2021، ثم انتقل إلى شيفيلد يونايتد، وبدّل ولاءه الدولي من إنجلترا إلى بنغلاديش سنة 2025."
+  en: "English midfielder of Bangladeshi and Grenadian descent (born 1997 in Loughborough) who came through the Leicester City academy, won the FA Cup with the club in 2021, moved to Sheffield United, and switched his international allegiance from England to Bangladesh in 2025."
+  ur: "بنگلہ دیشی اور گریناڈی نژاد انگریز مڈفیلڈر (پیدائش 1997، لوفبرو)، جو لیسٹر سٹی اکیڈمی سے ابھرے، کلب کے ساتھ 2021 میں ایف اے کپ جیتا، شیفیلڈ یونائیٹڈ منتقل ہوئے، اور 2025 میں اپنی بین الاقوامی وفاداری انگلستان سے بنگلہ دیش کی طرف منتقل کی۔"
+roles: [athlete]
+wings: [people, living]
+regions: [south-asia]
+born:
+  edtf: "1997-10-01"
+  hijri: "1418"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "The English, Arabic and Urdu articles and Wikidata (Q23771218) all give 1 October 1997, born in Loughborough, England; the Arabic article's categories pair the year with 1418 AH. No museum place entity exists for Loughborough, so the birthplace is carried here and in the prose, with no born_in edge. The Hijri year 1418 agrees with the Arabic article's pairing."
+  sources: [source/wikipedia-hamza-choudhury-en, source/wikipedia-hamza-choudhury-ar, source/wikipedia-hamza-choudhury-ur, source/wikidata-hamza-choudhury]
+faith:
+  - value: unknown
+    basis: unknown
+    note: "Choudhury's case is the one-infobox configuration in a stronger dress, and it still does not meet the two-independent-sources bar. The English article's personal-life section calls him a Sunni Muslim, but that statement cites a single 2019 web article; it also records his upbringing in a traditional Bangladeshi Muslim household and his evening madrasa attendance, which are family background and practice. Wikidata (Q23771218) gives Sunni Islam (Q483654), a single structured-data value in the same Wikipedia ecosystem and an echo of the same attestation, not an independent source. The Arabic and Urdu articles' texts say nothing about his religion; their categories file him among Sunni Muslims, and category filings never attest. One source family naming the school is not two independent sources, so the value is unknown."
+    sources: [source/wikipedia-hamza-choudhury-en, source/wikipedia-hamza-choudhury-ar, source/wikipedia-hamza-choudhury-ur, source/wikidata-hamza-choudhury]
+external_ids: { wikidata: "Q23771218" }
+sources: [source/wikipedia-hamza-choudhury-en, source/wikipedia-hamza-choudhury-ar, source/wikipedia-hamza-choudhury-ur, source/wikidata-hamza-choudhury]
+provenance:
+  layer: own-research
+  source: "English Wikipedia (revision 1380361051 of 15 October 2026), Arabic Wikipedia (revision 75587630 of 19 June 2026), Urdu Wikipedia (revision 11425887 of 3 July 2026) and Wikidata Q23771218, each read on 26 October 2026; every article fetched by its recorded revision id and the returned revision asserted equal before any claim was drawn. No earlier record for Choudhury existed in data/person/ (no hit under 'choudhury' in data/person/ or data/source/), and his QID was searched across data/person/ and data/source/ with no hit; this is a new build. RELATION DIRECTION: no relations are written — his birthplace, Loughborough, has no museum place entity, so it is carried in the born note and the prose only."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: century-additions-51
+status: { review: published, generated_by: "Muse (Muse Spark 1.3)" }
