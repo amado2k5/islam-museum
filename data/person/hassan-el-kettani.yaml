@@ -1,0 +1,42 @@
+id: person/hassan-el-kettani
+class: person
+label: { ar: "الحسن الكتاني", en: "Hassan El Kettani", ur: "حسن کتانی" }
+names:
+  - { value: "محمد حسن الشريف الكتاني", kind: full }
+  - { value: "Mohamed Hassan Echerif El Kettani", kind: full }
+  - { value: "الحسن بن علي بن المنتصر الكتاني", kind: full }
+  - { value: "أبو محمد", kind: kunya }
+gender: male
+summary:
+  ar: "عالم وفقيه مغربي، وُلد في سلا في 16 أغسطس 1972 لأسرة الكتاني العلمية، ودرس على محمد أبو خبزة وعبد الله وعبد العزيز الغماري وغيرهم، ونال الماجستير في الفقه وأصوله من جامعة آل البيت والدكتوراه في أصول الفقه. اعتُقل في فبراير 2003 وحُكم عليه بالسجن عشرين سنة في قضية تفجيرات الدار البيضاء، وأنكر التهم، ثم أُفرج عنه بعفو ملكي في 5 فبراير 2012، ومنذ ذلك نبذ العنف وانتقده. له مصنفات وشرح كثيرة في الفقه والحديث."
+  en: "Moroccan Muslim scholar and jurist, born at Salé on 16 August 1972 into the scholarly Kettani family. He studied under Muhammad Abu Khubza, Abdullah and Abd al-Aziz al-Ghumari and others, and took a master's in fiqh and its principles at Al al-Bayt University and a doctorate in usul al-fiqh. Arrested in February 2003, he was sentenced to twenty years in the Casablanca bombings case, denied the charges, and was released by royal pardon on 5 February 2012; since then he has denounced extremism. He has written many works and recorded commentaries in fiqh and hadith."
+  ur: "مراکشی مسلمان عالم اور فقیہ، 16 اگست 1972ء کو سلا میں علمی کتانی خاندان میں پیدا ہوئے۔ انھوں نے محمد ابو خبزہ، عبد اللہ اور عبد العزیز غماری اور دیگر سے تعلیم حاصل کی، جامعہ آل البیت سے فقہ و اصول میں ماسٹرز اور اصولِ فقہ میں ڈاکٹریٹ کیا۔ فروری 2003ء میں گرفتار ہوئے، کاسا بلانکا بم دھماکوں کے مقدمے میں بیس سال قید کی سزا پائی، الزامات سے انکار کیا، اور 5 فروری 2012ء کو شاہی عفو سے رہا ہوئے؛ اس کے بعد سے وہ انتہا پسندی کی مذمت کرتے ہیں۔ فقہ و حدیث میں ان کی بہت سی تصانیف اور شرحیں ہیں۔"
+roles: [scholar, jurist, preacher, writer]
+wings: [people, living]
+regions: [maghreb]
+born:
+  edtf: "1972-08-16"
+  hijri: "1392"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: false
+  note: "Born at Salé on 16 August 1972: the Arabic article gives the day directly as 7 Rajab 1392, and the English article's lead, body and birth category and Wikidata give 16 August 1972. The English article's infobox birth-date template carries the year 1976 against its own lead and body, and the queue line's 1964 is attested in no source read; neither discrepancy is carried. Salé has no place entity in the museum yet, so no born_in relation is written."
+  sources: [source/wikipedia-hassan-el-kettani-en, source/wikipedia-hassan-el-kettani-ar, source/wikidata-hassan-el-kettani]
+relations:
+  - { type: student_of, target: person/muhammad-abu-khubzah, sources: [source/wikipedia-hassan-el-kettani-en] }
+  - { type: student_of, target: person/abd-allah-ibn-al-siddiq-al-ghumari, sources: [source/wikipedia-hassan-el-kettani-en] }
+  - { type: student_of, target: person/abd-al-aziz-al-ghumari, sources: [source/wikipedia-hassan-el-kettani-en] }
+faith:
+  - value: unknown
+    basis: unknown
+    note: "No two independent sources name a school for him. The English article's infobox, a single unreferenced infobox family, gives denomination Sunni, jurisprudence Maliki, creed Athari and movement Salafi. Its text reports that he and fellow detainees saw themselves as 'normal Sunni Muslims with a Salafist orientation', a movement description for which the museum's faith values have no entry, and calls him an expert in both the Zahiri and Maliki schools of law, which is expertise in a subject, not an affiliation. The Arabic article's infobox leaves the religion field empty and its text names no school; the Urdu article is a translation of the Arabic; the French stub's only affiliation word is 'salafiste' inside a cited headline; Wikidata gives Islam only. The Maliki value therefore rests on one infobox family and the Salafi description names no madhhab, so the value is recorded unknown."
+    sources: [source/wikipedia-hassan-el-kettani-en, source/wikipedia-hassan-el-kettani-ar, source/wikipedia-hassan-el-kettani-fr, source/wikidata-hassan-el-kettani]
+external_ids: { wikidata: "Q3128132" }
+sources: [source/wikipedia-hassan-el-kettani-en, source/wikipedia-hassan-el-kettani-ar, source/wikipedia-hassan-el-kettani-fr, source/wikipedia-hassan-el-kettani-ur, source/wikidata-hassan-el-kettani]
+provenance:
+  layer: own-research
+  source: "The English Wikipedia article 'Hassan Kettani' at revision 1361433747, the Arabic article «الحسن الكتاني» at revision 76676151 (reached through the redirect from «حسن الكتاني»), the French article 'Hassan El Kettani' at revision 238208480 and the Urdu article «حسن کتانی» at revision 12142825, each fetched by revision id through the MediaWiki API with the returned revid asserted equal before use, and Wikidata item Q3128132 (item revision 2521929684), all read on 26 October 2026. Identity is grounded on the full name Mohamed Hassan Echerif El Kettani, the birth at Salé on 16 August 1972 and the 2003–2012 imprisonment biography, matching the queue line 'Sheikh Hassan El-Kettani — 1964–Living' except for the birth year, which no source supports (see the born note). Existence was checked before writing by filename fragments (kettani, kattani, ketani), by Arabic label and by QID across data/person/: no record existed for him; data/person/muhammad-ibn-abd-al-kabir-al-kettani.yaml is the earlier Moroccan scholar Muhammad ibn Abd al-Kabir al-Kettani (d. 1909), a different man of the same family. Relations are written only where the target exists: of the teachers the English article names, Muhammad Abu Khubza and the two al-Ghumari brothers have museum records, while Muhammad ibn al-Uthaymin, Abu Bakr al-Jazaeri and Abdul Qader Arnaoot do not, so no student_of edge is written for them; the edges are written in Kettani's own record, Kettani being the student and each named man his teacher."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: century-additions-68
+status: { review: published, generated_by: "Muse (Muse Spark 1.3)" }

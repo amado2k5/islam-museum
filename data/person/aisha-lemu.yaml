@@ -1,0 +1,49 @@
+id: person/aisha-lemu
+class: person
+label: { ar: "عائشة ليمو", en: "Aisha Lemu", ur: "عائشہ لیمو" }
+names:
+  - { value: "عائشة ليمو", kind: full }
+  - { value: "Aisha Lemu", kind: full }
+  - { value: "Bridget Aisha Honey", kind: alternate }
+  - { value: "Bridget Honey", kind: alternate }
+gender: female
+summary:
+  ar: "كاتبة ومربية بريطانية، وُلدت في بول بدورست سنة 1940 باسم بريدجيت هوني، واعتنقت الإسلام سنة 1961 أثناء دراستها في كلية الدراسات الشرقية والأفريقية بلندن، وتزوجت العالم النيجيري أحمد ليمو سنة 1968 وانتقلت إلى نيجيريا، فدرّست في كانو وصكتو ومينا، وأسست مع زوجها صندوق التعليم الإسلامي، وأسست سنة 1985 اتحاد جمعيات المرأة المسلمة في نيجيريا وكانت أول أميرة وطنية له. لها كتب مدرسية ومؤلفات كثيرة في التربية الإسلامية والمرأة في الإسلام. توفيت في مينا في 5 يناير 2019."
+  en: "British author and religious educator, born at Poole, Dorset, in 1940 as Bridget Honey. She converted to Islam in 1961 while studying at SOAS in London, married the Nigerian scholar Ahmed Lemu in 1968 and moved to Nigeria, where she taught at Kano, Sokoto and Minna, co-founded the Islamic Educational Trust with her husband, and in 1985 founded the Federation of Muslim Women's Associations of Nigeria, serving as its first national Amirah. She wrote textbooks and many works on Islamic education and women in Islam. She died at Minna on 5 January 2019."
+  ur: "برطانوی مصنفہ اور دینی معلمہ، 1940ء میں ڈورسٹ کے شہر پول میں برجٹ ہنی کے نام سے پیدا ہوئیں۔ انھوں نے 1961ء میں لندن کے اسکول آف اورینٹل اینڈ افریقن اسٹڈیز میں تعلیم کے دوران اسلام قبول کیا، 1968ء میں نائیجیریا کے عالم احمد لیمو سے شادی کی اور نائیجیریا منتقل ہو گئیں، جہاں انھوں نے کانو، سکوٹو اور منا میں تدریس کی، اپنے شوہر کے ساتھ اسلامک ایجوکیشن ٹرسٹ کی بنیاد رکھی، اور 1985ء میں فیڈریشن آف مسلم ویمن ایسوسی ایشن آف نائجیریا قائم کی اور اس کی پہلی قومی امیرہ رہیں۔ انھوں نے درسی کتب اور اسلامی تعلیم اور اسلام میں خواتین پر بہت سی کتابیں لکھیں۔ ان کا انتقال 5 جنوری 2019ء کو منا میں ہوا۔"
+roles: [writer, teacher]
+wings: [people]
+regions: [west-africa-sahel]
+born:
+  edtf: "1940"
+  hijri: "1359"
+  calendar: gregorian
+  precision: year
+  status: historical
+  derived: true
+  note: "Born at Poole, Dorset, in 1940 as Bridget Honey: the English article and Wikidata give the year only; a tribute cited in the article (Sheroes, 11 January 2019) gives 14 October 1940, a day-level date the article's own text does not carry, so the record keeps year precision. The Hijri year is a conversion (most of 1940 falls in 1359 AH). Poole has no place entity in the museum yet, so no born_in relation is written."
+  sources: [source/wikipedia-aisha-lemu-en, source/wikidata-aisha-lemu]
+died:
+  edtf: "2019-01-05"
+  hijri: "1440"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "Died at Minna, Niger State, on 5 January 2019: the English article gives the day, citing the Daily Nigerian of the same day, and Wikidata gives the same date and Minna as the place of death. The Hijri year is a conversion (5 January 2019 falls in 1440 AH). Minna has no place entity in the museum yet, so no died_in relation is written."
+  sources: [source/wikipedia-aisha-lemu-en, source/wikidata-aisha-lemu]
+relations:
+  - { type: spouse_of, target: person/ahmed-lemu, sources: [source/wikipedia-aisha-lemu-en, source/wikipedia-ahmed-lemu-en] }
+faith:
+  - value: unknown
+    basis: unknown
+    note: "The sources attest her Islam but name no school for her. The English article's text states that she converted to Islam in 1961 at the Islamic Cultural Centre in London during her first year at SOAS, citing Suraiya Nawab's 1997 study of her autobiographical writings; the Arabic and Urdu articles are translations of the English, one source family; Wikidata gives the structured value Islam. No source read names a madhhab, order or branch for her, and her husband's affiliation, which is itself unrecorded, could not attest hers in any case. Under the doubt rule the value is recorded unknown; her conversion is stated in the prose."
+    sources: [source/wikipedia-aisha-lemu-en, source/wikipedia-aisha-lemu-ar, source/wikidata-aisha-lemu]
+external_ids: { wikidata: "Q15781919" }
+sources: [source/wikipedia-aisha-lemu-en, source/wikipedia-aisha-lemu-ar, source/wikipedia-aisha-lemu-ur, source/wikidata-aisha-lemu]
+provenance:
+  layer: own-research
+  source: "The English Wikipedia article 'Aisha Lemu' at revision 1372658354, the Arabic article «عائشة ليمو» at revision 75550861 and the Urdu article «عائشہ لیمو» at revision 10008005, each fetched by revision id through the MediaWiki API with the returned revid asserted equal before use, and Wikidata item Q15781919 (item revision 2554162313), all read on 26 October 2026. Identity is grounded on the birth at Poole in 1940 as Bridget Honey, the conversion of 1961, the marriage to Ahmed Lemu and the founding of FOMWAN, matching the queue line 'Aisha Lemu — 1940–2019'. Existence was checked before writing by filename fragments (lemu), by Arabic label and by QID across data/person/: no record existed for her; she is not her daughter Maryam Lemu (data/person/maryam-lemu.yaml, a different and younger Nigerian preacher), whose record describes her as 'his British wife Bridget Aisha Lemu'. The spouse relation is written once, in this record: Aisha Lemu is the wife, Ahmed Lemu the husband (spouse_of is self-inverse). Poole and Minna have no place entities in the museum yet, so no born_in or died_in relation is written."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: century-additions-68
+status: { review: published, generated_by: "Muse (Muse Spark 1.3)" }

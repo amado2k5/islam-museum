@@ -386,11 +386,11 @@ lists' own order. Status markers: [ ] queued · [~] in a writer's hands · [x] m
 - [x] Abdullah Awad Al-Juhany — 1976–Living
 - [x] Al-Hassan Al-Daddow — 1963–Living
 - [ ] Sheikh Omar Al-Khabsawi — 1950–Living
-- [ ] Sheikh Ahmed Raissouni — 1953–Living
-- [ ] Sheikh Hassan El-Kettani — 1964–Living
-- [ ] Sheikh Mustafa Benhamza — 1949–Living
-- [ ] Sheikh Ahmed Lemu — 1929–2021
-- [ ] Aisha Lemu — 1940–2019
+- [x] Sheikh Ahmed Raissouni — 1953–Living
+- [x] Sheikh Hassan El-Kettani — 1964–Living
+- [x] Sheikh Mustafa Benhamza — 1949–Living
+- [x] Sheikh Ahmed Lemu — 1929–2021
+- [x] Aisha Lemu — 1940–2019
 - [ ] Sheikh Abubakar Gumi — 1922–1992
 - [ ] Sheikh Dahiru Bauchi — 1927–Living
 - [ ] Sheikh Ibrahim Niass — 1900–1975
