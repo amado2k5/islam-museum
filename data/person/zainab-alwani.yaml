@@ -1,0 +1,37 @@
+id: person/zainab-alwani
+class: person
+label: { ar: "زينب علواني", en: "Zainab Alwani", ur: "زینب علوانی" }
+names:
+  - { value: "زينب علواني", kind: full }
+  - { value: "Zainab Alwani", kind: full }
+gender: female
+summary:
+  ar: "عالمة وفقيهة أمريكية من أصل عراقي، وُلدت في بغداد سنة 1962، وهي أول أستاذة مشاركة للدراسات الإسلامية في كلية اللاهوت بجامعة هوارد وأول امرأة تجلس في مجلس الفقه لأمريكا الشمالية، وتشغل اليوم نائب رئاسته؛ حصلت على الدكتوراه في أصول الفقه من الجامعة الإسلامية العالمية في ماليزيا، وتعمل على تدبّر القرآن وقضايا المرأة والأسرة في الفقه."
+  en: "American Islamic scholar and jurist of Iraqi origin, born in Baghdad in 1962. She is the first Associate Professor of Islamic Studies at Howard University School of Divinity and the first female jurist to sit on the board of the Fiqh Council of North America, whose Vice-Chair she now is; she took her PhD in Islamic jurisprudence from the International Islamic University Malaysia and works on Quranic contemplation (tadabbur) and on women and the family in Islamic law."
+  ur: "امریکی مسلمان عالمہ اور فقیہہ، عراقی نژاد، 1962 میں بغداد میں پیدا ہوئیں۔ وہ ہاورڈ یونیورسٹی کے سکول آف ڈیوینیٹی میں اسلامی مطالعات کی پہلی ایسوسی ایٹ پروفیسر اور فقہ کونسل آف نارتھ امریکہ کے بورڈ میں شامل ہونے والی پہلی خاتون فقیہہ ہیں، جس کی وہ اب نائب صدر ہیں؛ انہوں نے ملائیشیا کی بین الاقوامی اسلامی یونیورسٹی سے اصول فقہ میں پی ایچ ڈی کی، اور ان کا کام تدبرِ قرآن اور فقہ میں خواتین و خاندان کے مسائل پر ہے۔"
+roles: [scholar, jurist, teacher, writer, activist]
+wings: [people, living]
+regions: [levant-iraq, americas-oceania]
+born:
+  edtf: "1962"
+  hijri: "1381"
+  calendar: gregorian
+  precision: year
+  status: historical
+  derived: true
+  note: "Year only, from English Wikipedia (citing published scholarly sources) and repeated in profiles of her. The month is unpublished, so the Hijri year is a tabular conversion spanning 1381–1382 AH. Baghdad as birthplace is given by Wikipedia and by the Middle East Forum scholar spotlight."
+  sources: [source/wikipedia-zainab-alwani-en]
+relations:
+  - { type: born_in, target: place/baghdad, sources: [source/wikipedia-zainab-alwani-en] }
+faith:
+  - value: unknown
+    basis: unknown
+    note: "No consulted source names a madhhab or sect affiliation for her personally. English Wikipedia describes her as an American activist and Islamic scholar specialising in jurisprudence, Quranic studies and women and the family; Howard University's profile records her posts and her PhD in Islamic sciences and jurisprudence. Her father's school is not hers, and her Fiqh Council of North America office is an institutional role, not an attestation. Not recorded as sunni or any school."
+    sources: [source/wikipedia-zainab-alwani-en, source/howard-zainab-alwani-profile]
+sources: [source/wikipedia-zainab-alwani-en, source/howard-zainab-alwani-profile]
+provenance:
+  layer: own-research
+  source: "Channel-batch row 311 ('Zainab Alwani Archives') resolved to Zainab Alwani herself under the no-skip rule: her Howard University CV documents her own YouTube channel carrying her Arabic Tadabbur al-Quran lecture series (2022–2024), and the archive channels circulate those same lectures. Sources are English Wikipedia (consulted 26 October 2026; the reading route exposed no revision id and the Wikidata API was unreachable, so no revision and no Wikidata item are recorded) and her Howard University faculty profile, both checked in this session. No source publishes more than her birth year, so no fuller born block is written."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: modern-figures-batch-55
+status: { review: published, generated_by: "Muse (Muse Spark 1.3)" }
