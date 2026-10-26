@@ -1,0 +1,49 @@
+id: person/hisham-kabbani
+class: person
+label: { ar: "محمد هشام قباني", en: "Hisham Kabbani", ur: "ہشام کبانی" }
+names:
+  - { value: "Muhammad Hisham Kabbani", kind: full }
+  - { value: "Hisham Kabbani", kind: alternate }
+  - { value: "محمد هشام قباني", kind: full }
+gender: male
+summary:
+  ar: "عالم وشيخ صوفي لبناني أمريكي (28 يناير 1945 – 4 ديسمبر 2024)، من أعلام الطريقة النقشبندية الحقانية في الولايات المتحدة؛ وُلد في بيروت ودرس الكيمياء في الجامعة الأميركية فيها والفقه في دمشق، وتزوّج ابنة مرشد الطريقة محمد ناظم الحقاني وحمل إجازة منه بتدريسها، وانتقل إلى الولايات المتحدة سنة 1990 فأسّس المجلس الإسلامي الأعلى في أمريكا، واشتهر بتحذيره من التطرف وبفتاويه وكتبه الكثيرة."
+  en: "Lebanese-American Sufi scholar and shaykh (28 January 1945 – 4 December 2024) of the Naqshbandi Haqqani order in the United States. Born in Beirut, he studied chemistry at the American University of Beirut and fiqh in Damascus, married the daughter of the order's guide Nazim Al-Haqqani and holds his ijaza to teach the order, moved to the United States in 1990 and founded the Islamic Supreme Council of America; he was known for his warnings against violent extremism, his fatwas and his many books."
+  ur: "لبنانی-امریکی صوفی عالم و شیخ (28 جنوری 1945 – 4 دسمبر 2024)، امریکا میں نقشبندی حقانی سلسلے کی نمایاں شخصیت؛ بیروت میں پیدا ہوئے، امریکی یونیورسٹی بیروت سے کیمسٹری اور دمشق سے فقہ پڑھی، شیخ ناظم الحقانی کی صاحبزادی سے شادی کی اور ان سے سلسلے کی تدریس کی اجازت پائی، 1990 میں امریکا منتقل ہو کر مجلسِ اعلیٰ اسلامی قائم کی۔"
+roles: [mystic, scholar, writer]
+wings: [people]
+regions: [levant-iraq, americas-oceania]
+born:
+  edtf: "1945-01-28"
+  hijri: "1364"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "Born 28 January 1945 in Beirut (English article's infobox and Wikidata; the Arabic article's categories pair his birth with the year 1364 AH)."
+  sources: [source/wikipedia-hisham-kabbani-en, source/wikipedia-hisham-kabbani-ar, source/wikidata-hisham-kabbani]
+died:
+  edtf: "2024-12-04"
+  hijri: "1446"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "Died 4 December 2024 at Fenton, Michigan, aged 79 (English article's text and infobox and Wikidata; the Arabic article's categories pair his death with 1446 AH). Fenton has no place entity, so no died_in edge is written. The lane queue's framing of him as living is outdated; he is built as deceased."
+  sources: [source/wikipedia-hisham-kabbani-en, source/wikipedia-hisham-kabbani-ar, source/wikidata-hisham-kabbani]
+faith:
+  - value: sufi
+    basis: documented
+    note: "Two independent article texts name his Sufi affiliation personally. The English lead calls him a Sunni Sufi Muslim scholar belonging to the Naqshbandi Haqqani Sufi order. The Arabic text calls him a scholar and Sufi shaykh from Lebanon and states that he holds an ijaza from Shaykh Nazim al-Haqqani to teach the Naqshbandi order. No sunni segment is recorded: 'Sunni' is named only by the English lead and by the Urdu lead, which is a translation of the English article, so the two are one source family; the Arabic text names no school for him, and Wikidata gives his religion as Islam generically."
+    sources: [source/wikipedia-hisham-kabbani-en, source/wikipedia-hisham-kabbani-ar]
+relations:
+  - { type: born_in, target: place/bayrut, sources: [source/wikipedia-hisham-kabbani-en, source/wikidata-hisham-kabbani] }
+  - { type: student_of, target: person/nazim-al-haqqani, sources: [source/wikipedia-hisham-kabbani-ar, source/wikipedia-hisham-kabbani-en] }
+external_ids: { wikidata: "Q2744388" }
+sources: [source/wikipedia-hisham-kabbani-en, source/wikipedia-hisham-kabbani-ar, source/wikipedia-hisham-kabbani-ur, source/wikidata-hisham-kabbani]
+provenance:
+  layer: own-research
+  source: "English, Arabic and Urdu Wikipedia articles on Hisham Kabbani, each fetched by its recorded revision id (EN 1362862600, AR 68836106, UR 12029123) with the returned id asserted equal before use, and Wikidata item Q2744388 (revision 2545053837). Existence checks by name fragments (Kabbani, قباني, کبانی) and by QID across data/person and data/source found no prior record. The student_of edge to Nazim Al-Haqqani, built in this same wave, rests on the Arabic article's statement that he holds Nazim's ijaza (licence) to teach the order — the documentary form of the murshid-disciple relation — together with the English article's statement that he relocated to the United States in 1990 upon Shaykh Nazim's order; his marriage to Nazim's daughter Naziha Adil is carried in prose, there being no in-law predicate. The lane queue lists him as living (born 1945); the sources record his death on 4 December 2024, and he is built as deceased."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: century-additions-60
+status: { review: published, generated_by: "Muse (Muse Spark 1.3)" }

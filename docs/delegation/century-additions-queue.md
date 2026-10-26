@@ -346,11 +346,11 @@ lists' own order. Status markers: [ ] queued · [~] in a writer's hands · [x] m
 - [x] Hazrat Inayat Khan — 1882–1927
 - [x] Noor Inayat Khan — 1914–1944
 - [x] Vilayat Inayat Khan — 1916–2004
-- [ ] Pir Zia Inayat Khan — 1971–Living
-- [ ] Bawa Muhaiyaddeen — 1900–1986
-- [ ] Shaykh Nazim Al-Haqqani — 1922–2014
-- [ ] Shaykh Hisham Kabbani — 1945–Living
-- [ ] Shaykh Nuh Keller — 1954–Living
+- [x] Pir Zia Inayat Khan — 1971–Living
+- [x] Bawa Muhaiyaddeen — 1900–1986
+- [x] Shaykh Nazim Al-Haqqani — 1922–2014
+- [x] Shaykh Hisham Kabbani — 1945–Living
+- [x] Shaykh Nuh Keller — 1954–Living
 - [ ] Shaykh Abdallah Bin Bayyah — 1935–Living
 - [ ] Sheikh Shawki Allam — 1961–Living
 - [ ] Sheikh Habib Umar bin Hafiz — 1963–Living
