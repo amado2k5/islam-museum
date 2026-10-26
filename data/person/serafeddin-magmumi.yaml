@@ -1,0 +1,49 @@
+id: person/serafeddin-magmumi
+class: person
+label: { ar: "شرف الدين مغمومي", en: "Şerafeddin Mağmumi", ur: "شرف الدین مغمومی" }
+names:
+  - { value: "Şerafeddin Mağmumi", kind: full }
+  - { value: "شرف الدين مغمومي", kind: full }
+  - { value: "Şerefeddin Mağmumi", kind: alternate }
+gender: male
+summary:
+  ar: "طبيب وكاتب عثماني (1860–1931، والتاريخان محل خلاف)، تذكره المقالتان في عداد مؤسسي جمعية الاتحاد والترقي. نُفي في عهد عبد الحميد الثاني ففرّ إلى باريس ثم استقر في القاهرة، حيث مارس الطب — وبحسب طبعة مذكراته صار طبيبًا للملك فاروق — وكتب مذكرات رحلاته في الأناضول وسوريا وأوروبا."
+  en: "Ottoman physician and writer (1860–1931, both dates debated) whom the articles name among the founders of the Committee of Union and Progress. Exiled under Abdülhamid II, he fled to Paris and then settled in Cairo, where he practised medicine — by the memoir edition's account as a physician to King Farouk — and wrote travel memoirs of Anatolia, Syria and Europe."
+  ur: "عثمانی طبیب اور مصنف (1860–1931، دونوں تواریخ متنازع) جنھیں مضامین جمعیت اتحاد و ترقی کے بانیوں میں شمار کرتے ہیں۔ عبد الحمید ثانی کے دور میں جلاوطن ہوئے، پیرس بھاگے اور پھر قاہرہ میں سکونت اختیار کی، جہاں طب کی مشق کی — یادداشتوں کی طباعت کے مطابق وہ شاہ فاروق کے طبیب رہے — اور اناطولیہ، شام اور یورپ کے سفرنامے لکھے۔"
+roles: [physician, writer]
+wings: [people]
+regions: [anatolia-balkans]
+born:
+  edtf: "1860"
+  hijri: "1276"
+  calendar: gregorian
+  precision: year
+  status: debated
+  derived: true
+  note: "Born at Istanbul. The year is debated: the English and Turkish articles, resting on İhsan Işık's encyclopedia of Turkish authors (via Biyografya) and on Cahit Kayra's edition of Mağmumi's own memoir, which gives '1860?' with a question mark, give 1860; the BnF authority record carried by Wikidata with day precision gives 9 November 1869. The articles' reading is followed and the alternative is preserved here. The Hijri year 1276 is the derived conversion of 1860; the BnF date would convert to 1286."
+  sources: [source/wikipedia-serafeddin-magmumi-en, source/wikipedia-serafeddin-magmumi-tr, source/wikidata-serafeddin-magmumi]
+died:
+  edtf: "1931"
+  hijri: "1350"
+  calendar: gregorian
+  precision: year
+  status: debated
+  derived: true
+  note: "Died at Cairo, where he had settled after his Paris exile. The year is debated on the same split as the birth: the articles give 1931, while the BnF authority record carried by Wikidata gives 20 July 1927. The articles' reading is followed and the alternative is preserved here. The Hijri year 1350 is the derived conversion of 1931."
+  sources: [source/wikipedia-serafeddin-magmumi-en, source/wikipedia-serafeddin-magmumi-tr, source/wikidata-serafeddin-magmumi]
+relations:
+  - { type: born_in, target: place/istanbul, sources: [source/wikipedia-serafeddin-magmumi-en, source/wikipedia-serafeddin-magmumi-tr, source/wikidata-serafeddin-magmumi] }
+  - { type: died_in, target: place/cairo, sources: [source/wikipedia-serafeddin-magmumi-en, source/wikidata-serafeddin-magmumi] }
+faith:
+  - value: unknown
+    basis: unknown
+    note: "No source read makes any statement of Mağmumi's religion. The English and Turkish articles are two short stubs and say nothing of a religion or a school in text or infobox, and Wikidata carries no religion value for his item. His Hamidian exile, his Paris years and his Cairo medical career are biography, not attestation, so the value is recorded unknown."
+    sources: [source/wikipedia-serafeddin-magmumi-en, source/wikipedia-serafeddin-magmumi-tr, source/wikidata-serafeddin-magmumi]
+external_ids: { wikidata: Q105720760 }
+sources: [source/wikipedia-serafeddin-magmumi-en, source/wikipedia-serafeddin-magmumi-tr, source/wikidata-serafeddin-magmumi]
+provenance:
+  layer: own-research
+  source: "Lane brief century-additions-42 (group Z2); grounded from English Wikipedia revision 1366554991 of 28 July 2026, Turkish Wikipedia revision 37815646 of 22 August 2026, and Wikidata item Q105720760 (item revision 2544564678 of 12 September 2026), resolved via the Wikipedia API pageprops and Special:EntityData and re-fetched by revision id with content verified identical. The Biyografya page behind both articles (İhsan Işık's encyclopedia of Turkish authors) was read directly and gives 1860 Istanbul – 1931 Cairo; the BnF authority record behind the Wikidata values (BnF identifier 14605769v) gives 9 November 1869 – 20 July 1927 at the same two places. The dates are recorded debated on the articles' reading. Edges written once here: he was born at Istanbul and died at Cairo."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: century-additions-42
+status: { review: published, completeness: 3, generated_by: "Muse (Muse Spark 1.3)" }
