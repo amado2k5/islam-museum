@@ -64,5 +64,12 @@ translators: []
 ## الأثر والجمهور
 تقدم برامجه على عدد من القنوات العربية، وألّف عشرات الكتب المترجمة، وأدرج في قوائم «المسلمون الخمسمئة» الأكثر تأثيرًا ثلاث سنوات متتالية (2022–2024)، وهي أرقام ومراتب تنقلها المصادر بتاريخها. {cite:wikipedia-tariq-al-suwaidan-en} وتحيل مقاطعه المنشورة بنفسه مشاهديها إلى قناته الرسمية على يوتيوب (@dralsuwaidan) إلى جانب موقعه الرسمي، وهي القناة التي تنشر برامجه في التاريخ والإدارة والقيادة. {cite:youtube-dralsuwaidan}
 
+## من دروسه: الإدارة العملية
+في الحلقة الأولى من دورته «الإدارة العملية» على موقع أصابيل يعرض السويدان مشروعه العلمي في الإدارة: أنه يكتب، ولم ينشر بعد، إعادةَ كتابة لعلم الإدارة على فلسفة التوحيد ومبدأ اتباع الرسول، مستعيناً بتصنيف أدوار النبي الثلاثة عشر عند محمد الأشقر في كتابه «أفعال الرسول ودلالتها على الأحكام الشرعية». {cite:assabile-tareq-al-suwaidan administrative-processus-abilities/ep01 00:12:30} {cite:assabile-tareq-al-suwaidan administrative-processus-abilities/ep01 00:14:00}
+ويذكر أنه كتب في السنوات الثلاث الأخيرة نحو سبع خطط استراتيجية للشركات، وأنه يعدّل طريقة فايفر في التخطيط الاستراتيجي بخبرته العملية. {cite:assabile-tareq-al-suwaidan administrative-processus-abilities/ep01 01:13:00}
+ومن القيم التي يقول إنه زرعها في منظماته: الديمقراطية في القرارات (صوته كصوت أي عضو في اللجنة التنفيذية)، والشفافية الكاملة (لا رواتب أو مكافآت سرية، والميزانيات مكشوفة)، ومبدأ الباب المفتوح لأي موظف، وأن الإنتاجية هي الحكم لا الدوام، وألا تفرقة على أساس طائفي أو جندري. {cite:assabile-tareq-al-suwaidan administrative-processus-abilities/ep01 01:44:30} {cite:assabile-tareq-al-suwaidan administrative-processus-abilities/ep01 01:45:30} {cite:assabile-tareq-al-suwaidan administrative-processus-abilities/ep01 01:48:00}
+ويصف طريقته في الاستشارات: أسئلة يجمع إجاباتها من الناس في المنظمة، ثم يعيد صياغتها في نموذج بتشخيص وحلول وخطوات تنفيذ ومؤشرات؛ ويقول إن الإجابات والحلول تأتي من الناس أنفسهم. {cite:assabile-tareq-al-suwaidan administrative-processus-abilities/ep01 01:22:00} {cite:assabile-tareq-al-suwaidan administrative-processus-abilities/ep01 01:23:30}
+ويذكر أن له كتاباً وألبوماً في موضوع «المنظمة المتعلمة»، وأن الدورة قدّمها بعد عودته من كندا، ومن سياقها — ذكر كتاب «Know How» الصادر في 2007 والإعلان عن الآيفون قبل أيام — أنها تعود إلى نحو سنة 2007. {cite:assabile-tareq-al-suwaidan administrative-processus-abilities/ep01 01:01:00} {cite:assabile-tareq-al-suwaidan administrative-processus-abilities/ep01 00:03:30} {cite:assabile-tareq-al-suwaidan administrative-processus-abilities/ep01 01:34:30}
+
 ## المراجع
 - المصادر المعرّفة المستشهد بها أعلاه، وهي مسجلة في `data/source/`.

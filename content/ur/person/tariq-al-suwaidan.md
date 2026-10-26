@@ -32,5 +32,12 @@ translators: []
 
 ان کی از خود شائع کردہ ویڈیوز اپنے ناظرین کو ان کے سرکاری یوٹیوب چینل (@dralsuwaidan) کی طرف بھی رہنمائی کرتی ہیں، جس پر ان کے تاریخ، انتظام اور قیادت کے پروگرام نشر ہوتے ہیں۔ {cite:youtube-dralsuwaidan}
 
+## اس کے دروس سے: عملی انتظامیہ
+اصابیل پر اپنے کورس «عملی انتظامیہ» کی پہلی قسط میں سویدان انتظام میں اپنے علمی منصوبے کا ذکر کرتے ہیں: وہ — ابھی unpublished — علمِ انتظام کو توحید کے فلسفے اور اتباعِ رسول کے اصول پر ازسرنو لکھ رہے ہیں، اور اس میں محمد الأشقر کی کتاب «أفعال الرسول ودلالتها على الأحكام الشرعية» میں رسول کے تیرہ کرداروں کی تقسیم سے مدد لیتے ہیں۔ {cite:assabile-tareq-al-suwaidan administrative-processus-abilities/ep01 00:12:30} {cite:assabile-tareq-al-suwaidan administrative-processus-abilities/ep01 00:14:00}
+وہ بتاتے ہیں کہ گذشتہ تین سالوں میں انہوں نے کمپنیوں کے لیے تقریباً سات سٹریٹجک منصوبے لکھے، اور وہ فائفر کے سٹریٹجک منصوبہ بندی کے طریقے کو اپنے عملی تجربے سے ڈھالتے ہیں۔ {cite:assabile-tareq-al-suwaidan administrative-processus-abilities/ep01 01:13:00}
+ان اقدار میں جنہیں وہ اپنے اداروں میں رائج کرنے کا ذکر کرتے ہیں: فیصلوں میں جمہوریت (ان کا ووٹ ایگزیکٹو کمیٹی کے ہر رکن کے برابر)، مکمل شفافیت (کوئی خفیہ تنخواہ یا انعام نہیں، بجٹ کھلے)، ہر ملازم کے لیے کھلے دروازے کا اصول، حاضری کے بجائے پیداواریت کو معیار بنانا، اور کوئی فرق نہیں — نہ طائفی نہ صنفی۔ {cite:assabile-tareq-al-suwaidan administrative-processus-abilities/ep01 01:44:30} {cite:assabile-tareq-al-suwaidan administrative-processus-abilities/ep01 01:45:30} {cite:assabile-tareq-al-suwaidan administrative-processus-abilities/ep01 01:48:00}
+اپنے مشاورتی طریقے کے بارے میں کہتے ہیں: سوالوں کا ایک مجموعہ جس کے جواب ادارے کے لوگوں سے لیے جاتے ہیں، پھر انہیں ایک ماڈل میں ڈھالا جاتا ہے جس میں تشخیص، حل، نفاذ کے مراحل اور اشاریے ہوں — جواب اور حل خود لوگوں سے آتے ہیں۔ {cite:assabile-tareq-al-suwaidan administrative-processus-abilities/ep01 01:22:00} {cite:assabile-tareq-al-suwaidan administrative-processus-abilities/ep01 01:23:30}
+«سیکھنے والے ادارے» پر ان کی اپنی ایک کتاب اور البم کا ذکر کرتے ہیں، اور یہ کورس انہوں نے کینیڈا سے واپسی کے بعد دیا؛ اندرونی اشارے — 2007 کی کتاب Know How اور اسی زمانے کا اعلان ہوا آئی فون — اسے تقریباً 2007 میں رکھتے ہیں۔ {cite:assabile-tareq-al-suwaidan administrative-processus-abilities/ep01 01:01:00} {cite:assabile-tareq-al-suwaidan administrative-processus-abilities/ep01 00:03:30} {cite:assabile-tareq-al-suwaidan administrative-processus-abilities/ep01 01:34:30}
+
 ## ماخذ
 - اوپر حوالہ دیے گئے متعین ماخذ، جو `data/source/` میں درج ہیں۔
