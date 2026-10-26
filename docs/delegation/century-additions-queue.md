@@ -401,11 +401,11 @@ lists' own order. Status markers: [ ] queued · [~] in a writer's hands · [x] m
 - [x] Serigne Mountakha Mbacké — 1933–Living
 - [x] Sheikh Osman Nuhu Sharubutu — 1919–Living
 - [x] Sheikh Aminu Daurawa — 1969–Living
-- [ ] Sheikh Isa Ali Pantami — 1972–Living
-- [ ] Sheikh Ja'afar Mahmud Adam — 1960–2007
-- [ ] Sheikh Kabir Gombe — 1968–Living
-- [ ] Sanusi Lamido Sanusi (Muhammadu Sanusi II) — 1961–Living
-- [ ] Attahiru Jega — 1957–Living
+- [x] Sheikh Isa Ali Pantami — 1972–Living
+- [x] Sheikh Ja'afar Mahmud Adam — 1960–2007
+- [x] Sheikh Kabir Gombe — 1968–Living
+- [x] Sanusi Lamido Sanusi (Muhammadu Sanusi II) — 1961–Living
+- [x] Attahiru Jega — 1957–Living
 - [ ] Nuhu Ribadu — 1960–Living
 - [ ] Ngozi Okonjo-Iweala (Contemporary Leader) — 1954–Living
 - [ ] Aminu Tambuwal — 1966–Living

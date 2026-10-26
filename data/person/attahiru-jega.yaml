@@ -1,0 +1,36 @@
+id: person/attahiru-jega
+class: person
+label: { ar: "أتاهيرو جيغا", en: "Attahiru Jega", ur: "عطاہیرو جیگا" }
+names:
+  - { value: "Attahiru Muhammadu Jega", kind: full }
+  - { value: "Attahiru Jega", kind: alternate }
+gender: male
+summary:
+  ar: "أكاديمي نيجيري وُلد في جيغا سنة 1957، عالم سياسة درّس في جامعة بايرو بكانو وصار نائبا لمستشارها (2005)، وعُرف قبل ذلك رئيسا لنقابة أساتذة الجامعات. ترأس اللجنة الانتخابية الوطنية المستقلة (2010–2015) وأشرف على انتخابات 2011 و2015 التي شهدت أول انتقال ديمقراطي للسلطة إلى المعارضة في نيجيريا. عُيّن سنة 2025 مستشارا خاصا للرئيس تينوبو في إصلاحات الثروة الحيوانية."
+  en: "Nigerian academic born in Jega in 1957, a political scientist who taught at Bayero University Kano and became its vice-chancellor in 2005, after earlier prominence as president of the Academic Staff Union of Universities. He chaired the Independent National Electoral Commission (2010–2015), conducting the 2011 and 2015 elections, the latter producing Nigeria's first democratic transfer of power to an opposition party. In 2025 he was appointed Special Adviser to President Tinubu on livestock reforms."
+  ur: "نائجریائی ماہرِ تعلیم، 1957 میں جیگا میں پیدا ہوئے؛ سیاسیات کے استاد، بایرو یونیورسٹی کانو میں پڑھایا اور 2005 میں اس کے وائس چانسلر بنے، اس سے پہلے یونیورسٹی اساتذہ کی یونین کے صدر کے طور پر جانے جاتے تھے۔ وہ قومی انتخابی کمیشن کے چیئرمین رہے (2010ء–2015ء) اور 2011 و 2015 کے انتخابات کرائے، جن میں سے موخر الذکر سے نائجریا میں پہلی بار جمہوری طور پر اقتدار حزبِ اختلاف کو منتقل ہوا۔ 2025 میں وہ صدر تینوبو کے خصوصی مشیر برائے اصلاحاتِ مال مویشی مقرر ہوئے۔"
+roles: [academic, politician]
+wings: [people, living]
+regions: [west-africa-sahel]
+born:
+  edtf: "1957-01-11"
+  hijri: "1376"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "The English article and Wikidata both give 11 January 1957, at Jega in the Northern Region (now Kebbi State). The date falls in Jumada al-awwal 1376 AH; the Hijri year is a conversion. No place entity exists for Jega, so no born_in edge is written."
+  sources: [source/wikipedia-attahiru-jega-en, source/wikidata-attahiru-jega]
+faith:
+  - value: unknown
+    basis: unknown
+    note: "No source used names a school for him, and the English article — a full career biography — makes no statement of his religion at all: it records his union presidency, his left-leaning political activity, his university posts and his INEC chairmanship without any religious framing. Wikidata's single religion value is Islam only. Office-holding and public reputation are not attestations, so the value is unknown, unflagged: there is no reading standing one attestation short, only an absence."
+    sources: [source/wikipedia-attahiru-jega-en, source/wikidata-attahiru-jega]
+external_ids: { wikidata: "Q4818062" }
+sources: [source/wikipedia-attahiru-jega-en, source/wikidata-attahiru-jega]
+provenance:
+  layer: own-research
+  source: "English Wikipedia 'Attahiru Jega' (revision 1360630864) and Wikidata item Q4818062 (item revision 2559160694), read via the MediaWiki API on 26 October 2026; the article was fetched by its recorded revision id and the returned id asserted equal before any claim was drawn. Existence was checked by filename fragments under all spellings (jega, attahiru), by Arabic label, by biography and by the QID route across data/person/ — no earlier record exists. His INEC predecessor Maurice Iwu has no person record and no group record exists for INEC, and no place entity exists for Jega, so no successor_of, member_of or born_in edges are written."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: century-additions-71
+status: { review: published, generated_by: "Muse (Muse Spark 1.3)" }
