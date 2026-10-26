@@ -1,0 +1,52 @@
+id: person/muhammad-tawfiq-pasha
+class: person
+label: { ar: "محمد توفيق باشا", en: "Tewfik Pasha", ur: "خدیوی توفیق" }
+names:
+  - { value: "محمد توفيق باشا", kind: full }
+  - { value: "Muhammad Tawfiq Pasha", kind: full }
+  - { value: "Tewfik Pasha", kind: alternate }
+  - { value: "Mohamed Tewfik Pasha", kind: alternate }
+  - { value: "Tawfiq Pacha", kind: alternate }
+  - { value: "Tawfiq of Egypt", kind: alternate }
+gender: male
+summary:
+  ar: "خديوي مصر والسودان من 1879 إلى 1892، سادس حكام الأسرة العلوية والابن الأكبر للخديوي إسماعيل. شهد عهده ثورة عرابي وقصف الإسكندرية سنة 1882 وبداية الاحتلال البريطاني، وتوفي في حلوان سنة 1892 فخلفه ابنه عباس حلمي الثاني."
+  en: "Khedive of Egypt and Sudan from 1879 to 1892, the sixth ruler of the Muhammad Ali dynasty and the eldest son of Khedive Isma'il. His reign saw the Urabi revolt, the British bombardment of Alexandria in 1882 and the start of the British occupation. He died at Helwan in 1892 and was succeeded by his son Abbas Hilmi II."
+  ur: "مصر اور سوڈان کے خدیو 1879 سے 1892 تک، اسرۂ علویہ کے چھٹے حکمران اور خدیو اسماعیل کے بڑے بیٹے۔ ان کے عہد میں عرابی بغاوت، 1882 میں اسکندریہ پر برطانوی گولہ باری اور برطانوی قبضے کا آغاز ہوا۔ وہ 1892 میں حلوان میں وفات پا گئے اور ان کے بیٹے عباس حلمی ثانی جانشین ہوئے۔"
+roles: [ruler]
+wings: [people]
+regions: [egypt-nile]
+born:
+  edtf: "1852-11-15"
+  hijri: "1269"
+  calendar: gregorian
+  precision: day
+  status: debated
+  derived: true
+  note: "His birth date is debated inside the English article itself: its lead gives 'April 30 or 15 November 1852', while its infobox, the Arabic article's lead, the French article and Wikidata's day-precision value all give 15 November 1852, at Cairo. The 15 November date is followed and the 30 April reading is preserved here. The Hijri year 1269 is the derived conversion of November 1852."
+  sources: [source/wikipedia-tewfik-pasha-en, source/wikipedia-tewfik-pasha-ar, source/wikipedia-tewfik-pasha-fr, source/wikidata-tewfik-pasha]
+died:
+  edtf: "1892-01-07"
+  hijri: "1309"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "All sources agree on 7 January 1892. The English and Arabic articles place his death at Helwan (Helwan Palace, of influenza, per the English article), and the English infobox gives his burial place as Qubbat Afandina in Cairo. No museum place entity exists for Helwan, so no died_in edge is written. The Hijri year 1309 is the derived conversion of January 1892."
+  sources: [source/wikipedia-tewfik-pasha-en, source/wikipedia-tewfik-pasha-ar, source/wikipedia-tewfik-pasha-fr, source/wikidata-tewfik-pasha]
+relations:
+  - { type: born_in, target: place/cairo, sources: [source/wikipedia-tewfik-pasha-en, source/wikipedia-tewfik-pasha-fr] }
+  - { type: buried_in, target: place/cairo, sources: [source/wikipedia-tewfik-pasha-en] }
+faith:
+  - value: unknown
+    basis: unknown
+    note: "No source names a school for him personally. The English article's infobox has no religion field and its text makes no statement of his faith; it files him only under the category 'Egyptian Muslims', a category filing, which never attests. The French article's infobox gives Islam, generic, naming no school. The Arabic article names no religion (its occurrences of the word الدين are the public debt and a personal name). Wikidata (Q374306) has no religion property at all. Under the two-source rule the value stays unknown."
+    sources: [source/wikipedia-tewfik-pasha-en, source/wikipedia-tewfik-pasha-ar, source/wikipedia-tewfik-pasha-fr, source/wikidata-tewfik-pasha]
+external_ids: { wikidata: "Q374306" }
+sources: [source/wikipedia-tewfik-pasha-en, source/wikipedia-tewfik-pasha-ar, source/wikipedia-tewfik-pasha-fr, source/wikidata-tewfik-pasha]
+provenance:
+  layer: own-research
+  source: "English Wikipedia 'Tewfik Pasha' (revision 1381435373 of 22 October 2026), Arabic Wikipedia 'الخديوي توفيق' (revision 76819137 of 30 September 2026), French Wikipedia 'Tawfiq Pacha' (revision 238912358 of 24 August 2026; title taken from the Wikidata sitelink) and Wikidata item Q374306 (item revision 2547782709 of 19 September 2026), all read directly on 26 October 2026 and all articles fetched by revision id with the returned revisions asserted equal. Existence was checked by name fragments over data/person/ and by the grounded QID over data/person/ and data/source/ before building; no record existed. Edges are written only to place/cairo, an existing entity: born there, and buried there at Qubbat Afandina. No died_in edge: Helwan has no place entity. No child_of or successor_of edge to his father Isma'il: no museum record for Khedive Isma'il (Q159378) exists. His faith is unknown for the reasons stated in the faith note."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: century-additions-48
+status: { review: published, completeness: 2, generated_by: "Muse (Muse Spark 1.3)" }
