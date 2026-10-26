@@ -44,7 +44,8 @@ Series `administrative-processus-abilities`: ep01–ep05 written and merged — 
 | al-mubdioune/ep17 | 0:25:33 | ibn-al-nafis ext ×3 | — | — | — | person ext + sources | ~24 cited windows | 8db3668d3 (PR #2108) |
 | al-mubdioune/ep18 | 0:26:33 | nur-al-din-mahmud-ibn-zangi ext ×3 (pt 1 of 2) | — | — | 1 labelled speaker-opinion (greater than Salah al-Din) | person ext + sources | ~22 cited windows | df256c292 (PR #2109) |
 | al-mubdioune/ep19 | 0:26:18 | nur-al-din ext ×3 (pt 2 of 2) | — | — | — | person ext | ~26 cited windows | 568ebc819 (PR #2112) |
-| al-mubdioune/ep20 | 0:25:21 | abd-al-qadir-al-jilani ext ×3 | — | — | — | person ext + sources | ~24 cited windows | pending |
+| al-mubdioune/ep20 | 0:25:21 | abd-al-qadir-al-jilani ext ×3 | — | — | — | person ext + sources | ~24 cited windows | c1212164d (PR #2113) |
+| al-mubdioune/ep21 | 0:26:22 | ibn-taymiyya ext ×3 (pt 1 of 2) | — | — | — | person ext + sources | ~24 cited windows | pending |
 
 ## Excluded items (standing rule, founder's instruction, 25 Oct 2026)
 
@@ -69,6 +70,7 @@ Every dropped or left-out item is listed here with item, reason, the gate it fai
 
 - `devin-tareq-al-suwaidan-admin-1` — ep01 of `administrative-processus-abilities` (13 new entities + 1 extension). Course self-dates to ~2007 (mentions the 2007 book *Know How* and the just-announced iPhone).
 - `devin-tareq-al-suwaidan-admin-2` — ep02 (4 new concepts: vision/mission, KPI, LOB/SBU, family businesses [contested: women's-intervention claim, labelled speaker's view + needs_source]).
+- `devin-tareq-al-suwaidan-mubdioune-21` — al-mubdioune ep21 (ibn-taymiyya pt1: named for grandmother Taymiyya, >90% family-environment stat labelled, 661 AH Harran birth, 200 shaykhs, fatwa at 20, Bazzar/Daqiq/Suyuti/Dhahabi testimony, dawn-dhikr session, boy refuses Quran wages, garment to beggar, generous answers).
 - `devin-tareq-al-suwaidan-mubdioune-20` — al-mubdioune ep20 (abd-al-qadir-al-jilani ext: Hasani/Husayni/Siddiqi lineage, 470 AH Gilan birth, mother's 40 dinars + bandit-chief conversion, Baghdad hardship, Ghazali method, 521 AH preaching + 70k estimate, mufti on two madhhabs, Nawawi/Ibn Taymiyya/Nadwi testimony).
 - `devin-tareq-al-suwaidan-mubdioune-19` — al-mubdioune ep19 (nur-al-din pt2: Damascus annexation 549 AH, Egypt race, Buqay'a defeat -> Harim victory + 'no roof' vow, Shirkuh/Salah al-Din vizierate, Fatimid end, madrasas/hospitals/Dar al-Adl, adhan reform, death 569 AH preparing for Palestine).
 - `devin-tareq-al-suwaidan-mubdioune-18` — al-mubdioune ep18 (nur-al-din pt1: 'greater than Salah al-Din' claim labelled, Imad al-Din's Ruha + Assassin martyrdom, Aleppo/Mosul split, Second Crusade failure at Damascus, Raymond of Poitiers defeated 544 AH, Unur/Abaq tribute).
