@@ -1,0 +1,44 @@
+id: person/khan-bahadur-khan-rohilla
+class: person
+label: { ar: "خان بهادر خان روهيلا", en: "Khan Bahadur Khan Rohilla", ur: "خان بہادر خان روہیلہ" }
+names:
+  - { value: "Bahadur Khan Rohilla", kind: alternate }
+gender: male
+summary:
+  ar: "زعيم روهيلي هندي (1823–1860)، حفيد حافظ رحمة خان نائب روهيلكهند. أثناء ثورة 1857 شكّل حكومة ثورية في بريلي، وبعد استعادة البريطانيين المدينة فرّ إلى نيبال، فقبضت عليه القوات النيبالية وسلّمته للبريطانيين؛ حُوكم وحُكم عليه بالإعدام وشُنق في كوتوالي بريلي في 24 فبراير 1860."
+  en: "Indian Rohilla leader (1823–1860), grandson of Hafiz Rahmat Khan, the regent of Rohilkhand. During the Indian Rebellion of 1857 he formed a rebel government in Bareilly; after the British retook the city he escaped to Nepal, where the Nepalese army captured him and handed him to the British. He was tried, sentenced to death, and hanged at the Kotwali in Bareilly on 24 February 1860."
+  ur: "ہندوستانی روہیلہ سردار (1823ء–1860ء)، روہیل کھنڈ کے نائب حافظ رحمت خاں کے پوتے۔ 1857ء کی جنگِ آزادی کے دوران میں بریلی میں اپنی حکومت قائم کی؛ انگریزوں کے دوبارہ قبضے کے بعد نیپال فرار ہوئے، جہاں نیپالی فوج نے انھیں پکڑ کر انگریزوں کے حوالے کر دیا۔ مقدمے کے بعد سزائے موت ہوئی اور 24 فروری 1860ء کو بریلی کی کوتوالی میں پھانسی دی گئی۔"
+roles: [ruler]
+wings: [people]
+regions: [south-asia]
+born:
+  edtf: "1823"
+  hijri: "1238"
+  calendar: gregorian
+  precision: year
+  status: historical
+  derived: true
+  note: "Born in 1823 (English article's lead and Wikidata, both at year precision; the Urdu article's categories agree). No source read gives a day or a birthplace. The queue line's 1823 agrees. The Hijri year is derived by tabular conversion."
+  sources: [source/wikipedia-khan-bahadur-khan-rohilla-en, source/wikipedia-khan-bahadur-khan-rohilla-ur, source/wikidata-khan-bahadur-khan-rohilla]
+died:
+  edtf: "1860-02-24"
+  hijri: "1276"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "Tried, sentenced to death and hanged at the Kotwali police station in Bareilly on 24 February 1860 (English and Urdu articles, both citing The News International, 2016; Wikidata gives the same date and hanging as the cause of death). Bareilly has no place entity in the museum yet, so no died_in relation is written. The Hijri year is derived by tabular conversion."
+  sources: [source/wikipedia-khan-bahadur-khan-rohilla-en, source/wikipedia-khan-bahadur-khan-rohilla-ur, source/wikidata-khan-bahadur-khan-rohilla]
+faith:
+  - value: unknown
+    basis: unknown
+    note: "No source read names his religion or any school: the English and Urdu articles make no statement about his faith, and his Wikidata item carries no religion value at all. His Rohilla (Pashtun) descent, his descent from Hafiz Rahmat Khan, and his rebel government at Bareilly in 1857 are context, not attestation of a personal affiliation or school, so under the doubt rule he is recorded unknown."
+    sources: [source/wikipedia-khan-bahadur-khan-rohilla-en, source/wikipedia-khan-bahadur-khan-rohilla-ur, source/wikidata-khan-bahadur-khan-rohilla]
+external_ids: { wikidata: "Q6400044" }
+sources: [source/wikipedia-khan-bahadur-khan-rohilla-en, source/wikipedia-khan-bahadur-khan-rohilla-ur, source/wikidata-khan-bahadur-khan-rohilla]
+provenance:
+  layer: own-research
+  source: "English Wikipedia 'Bahadur Khan Rohilla' (revision 1349591376 — the title 'Khan Bahadur Khan Rohilla' redirects to it), Urdu Wikipedia 'Khan Bahadur Khan Rohilla' (revision 5694391) and Wikidata item Q6400044 (item revision 2514258687), read via the MediaWiki API on 26 October 2026; both articles were fetched by their recorded revision ids and the returned ids asserted equal before any claim was drawn. No Arabic Wikipedia article on him exists, so the Arabic prose is the museum's own, written from the English and Urdu articles. The English article's short description wrongly calls him 'Regent of the Kingdom of Rohilkhand from 1749 to 1774': that regency was his grandfather Hafiz Rahmat Khan's, as the article's own text states. His grandfather's record (hafiz-rahmat-khan) exists, but the predicate registry has no grandparent predicate, so the descent is recorded in the prose and here, not as a relation. The queue line's dates (1823–1860) match the sources."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: century-additions-66
+status: { review: published, generated_by: "Muse (Muse Spark 1.3)" }

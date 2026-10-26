@@ -1,0 +1,46 @@
+id: person/begum-hazrat-mahal
+class: person
+label: { ar: "بيجوم حضرة محل", en: "Begum Hazrat Mahal", ur: "بیگم حضرت محل" }
+names:
+  - { value: "Muhammadi Khanum", kind: alternate }
+  - { value: "محمدي خانم", kind: alternate }
+  - { value: "Iftikhar-un-Nisa", kind: alternate }
+gender: female
+summary:
+  ar: "ملكة ووصية هندية (نحو 1820–1879)، الزوجة الثانية لنواب أوده واجد علي شاه وأم برجس قادر. بعد ضم البريطانيين لأوده سنة 1856 ونفي زوجها، قادت في تمرد 1857 المقاومة في لكناو بوصفها وصية على ابنها القاصر الذي أعلنته حاكمًا لأوده، حتى استعاد البريطانيون المدينة، فلجأت إلى نيبال وتوفيت في كاتماندو في 7 أبريل 1879."
+  en: "Indian queen and regent (c. 1820–1879), second wife of Wajid Ali Shah, Nawab of Awadh, and mother of Birjis Qadr. After the British annexed Awadh in 1856 and exiled her husband, she led the resistance at Lucknow in the rebellion of 1857 as regent for her minor son, whom she had proclaimed ruler of Awadh, until the British retook the city; she took asylum in Nepal and died at Kathmandu on 7 April 1879."
+  ur: "ہندوستانی ملکہ و نائب السلطنت (تقریباً 1820ء–1879ء)، نوابِ اودھ واجد علی شاہ کی دوسری بیوی اور برجیس قدر کی والدہ۔ 1856ء میں اودھ کے انگریزی قبضے اور شوہر کی جلاوطنی کے بعد 1857ء کی جنگ میں لکھنؤ کی مزاحمت کی قیادت کی، اپنے نابالغ بیٹے کی نائب کی حیثیت سے، جسے انھوں نے اودھ کا حکمران قرار دیا تھا؛ شہر کے دوبارہ قبضے کے بعد نیپال میں پناہ لی اور 7 اپریل 1879ء کو کھٹمنڈو میں وفات پائی۔"
+roles: [ruler, activist]
+wings: [people]
+regions: [south-asia]
+born:
+  edtf: "1820~"
+  hijri: "1235"
+  calendar: gregorian
+  precision: year
+  status: historical
+  derived: true
+  note: "Born about 1820 at Faizabad, the former capital of Awadh; the English article's lead gives c. 1820 and its infobox's bare 1820 carries a 'citation needed' tag, the Arabic and Urdu articles give 1820, and Wikidata gives 1820 at year precision. Her birth name is given as Muhammadi Khanum by the English and Arabic articles; the Urdu article reports, from some English writers, the name Iftikhar-un-Nisa. Faizabad has no place entity in the museum yet, so no born_in relation is written. The Hijri year is derived by tabular conversion of the approximate year."
+  sources: [source/wikipedia-begum-hazrat-mahal-en, source/wikipedia-begum-hazrat-mahal-ar, source/wikipedia-begum-hazrat-mahal-ur, source/wikidata-begum-hazrat-mahal]
+died:
+  edtf: "1879-04-07"
+  hijri: "1296"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "Died at Kathmandu, in the Kingdom of Nepal, on 7 April 1879 (English article and Wikidata; the Arabic and Urdu articles give the year 1879), and was buried in an unmarked grave in the grounds of Kathmandu's Jama Masjid, where her tomb is now looked after by the mosque's central committee. Kathmandu has no place entity in the museum yet, so no died_in or buried_in relation is written. The Hijri year is derived by tabular conversion."
+  sources: [source/wikipedia-begum-hazrat-mahal-en, source/wikipedia-begum-hazrat-mahal-ar, source/wikipedia-begum-hazrat-mahal-ur, source/wikidata-begum-hazrat-mahal]
+faith:
+  - value: unknown
+    basis: unknown
+    note: "The reading 'Shia' rests on one source family and a filing. The English article's infobox gives her religion as Shia Islam, referenced to a single popular biography page (Maps of India, 2018); the Arabic article — which substantially follows the English article, citing the same authorities — gives 'Muslim, Shia' in its infobox without a reference; the Urdu article files her under 'Indian Shia personalities', a category filing; no article text discusses her own religion, and Wikidata gives only Islam. The royal house of Awadh she married into was Twelver Shia, but marriage into a dynasty is family and community context, which never counts as personal attestation; born Muhammadi Khanum and sold into the court, she was not born into that house. One infobox family plus a filing does not meet the two-independent-source bar of the Shia-mapping rule, and under the doubt rule her faith is recorded unknown, with the readings preserved here."
+    sources: [source/wikipedia-begum-hazrat-mahal-en, source/wikipedia-begum-hazrat-mahal-ar, source/wikipedia-begum-hazrat-mahal-ur, source/wikidata-begum-hazrat-mahal]
+external_ids: { wikidata: "Q717960" }
+sources: [source/wikipedia-begum-hazrat-mahal-en, source/wikipedia-begum-hazrat-mahal-ar, source/wikipedia-begum-hazrat-mahal-ur, source/wikidata-begum-hazrat-mahal]
+provenance:
+  layer: own-research
+  source: "English Wikipedia 'Begum Hazrat Mahal' (revision 1376726574), Arabic Wikipedia 'Begum Hazrat Mahal' (revision 74163806), Urdu Wikipedia 'Begum Hazrat Mahal' (revision 11801312) and Wikidata item Q717960 (item revision 2547317005), read via the MediaWiki API on 26 October 2026; every article was fetched by its recorded revision id and the returned id asserted equal before any claim was drawn. The queue line's dates (1820–1879) match the sources. Her husband Wajid Ali Shah and her son Birjis Qadr have no person records in the museum yet, so no spouse_of relation is written; Faizabad and Kathmandu have no place entities yet, so no born_in or died_in relation is written."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: century-additions-66
+status: { review: published, generated_by: "Muse (Muse Spark 1.3)" }
