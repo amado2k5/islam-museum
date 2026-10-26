@@ -21,6 +21,15 @@ Abu Sufyan fought the Muslims for six years. Then he made peace, joined them, an
 ## The Rabigh detachment (The Sealed Nectar, p.198)
 [[person/ubayda-ibn-al-harith|Ubayda ibn al-Harith]] met him at Batn Rabigh with two hundred men, and no fighting took place ([[event/expedition-of-rabigh|the Rabigh detachment]]) {cite:mubarakpuri-raheeq p.198}.
 
+## From Sheikh Omar Abdelkafy's lecture series Al Dinu Al Qayem
+
+Sheikh Omar Abdelkafy mentions Abu Sufyan ibn Harb in several places in the series. He recounts Abu Sufyan's remark that he never saw anyone loved by others as the Companions loved Muhammad {cite:assabile-omar-abdelkafy al-dinu-al-qayem/ep02 00:43:00}, and that a word from Abu Sufyan steadied the people at Hunayn {cite:assabile-omar-abdelkafy al-dinu-al-qayem/ep03 00:46:30}.
+
+He tells that Hind bint Utba complained to the Prophet that Abu Sufyan was somewhat stingy, and the Prophet told her to take from his wealth in a fair manner {cite:assabile-omar-abdelkafy al-dinu-al-qayem/ep09 01:07:00}.
+
+In his account of Badr, he says Abu Sufyan secured the caravan by taking another route and succeeded, while Abu Jahl pressed on toward Badr {cite:assabile-omar-abdelkafy al-dinu-al-qayem/ep10 00:03:30}.
+
+In another account of the enemy camp, Abu Sufyan called out to the men, asking each for his name and tribe, and suspicion spread among them {cite:assabile-omar-abdelkafy al-dinu-al-qayem/ep10 00:16:30}. He recounts that Hudhayfa was within a spear's reach of Abu Sufyan and held back, because the Prophet had charged him to create no disturbance among them {cite:assabile-omar-abdelkafy al-dinu-al-qayem/ep10 00:17:00}.
 ## For Sprouts
 Abu Sufyan Sakhr ibn Harb was a chief of Quraysh who led its caravans and armies against the Muslims at Badr and the Trench. He accepted Islam at the conquest of Mecca, witnessed Hunayn and Ta'if with the Muslims, lost his eye at the Yarmuk, and died an old man in Medina.
 

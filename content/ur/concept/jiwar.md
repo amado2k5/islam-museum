@@ -35,3 +35,20 @@ translators: ["Claude Haiku 5.5, draft translation"]
 - **academic view: not yet sourced**: ابھی تک ماخوذ نہیں۔
 - **other view: not yet sourced**: ابھی تک ماخوذ نہیں۔
 :::
+
+## شیخ عمر عبدالکافی کے درس سے: الدین القیم
+
+شیخ سوال کرتے ہیں کہ کیا جار وہ ایک ملاصق فرد ہے، یا جماعت، یا ریاست؟ اور کہتے ہیں کہ پرانے زمانے میں جار وہ تھا جو ساتھ لگ کر رہتا تھا {cite:assabile-omar-abdelkafy al-dinu-al-qayem/ep09 00:19:00}۔ وہ تین قسم کے ہمسایوں کا ذکر کرتے ہیں: قریب کے مسلمان ہمسائے کے تین حقوق ہیں، یعنی حقِ ہمسائیگی، حقِ رشتہ داری اور حقِ اسلام؛ ایک ہمسائے کے دو حقوق ہیں، اور ایک کا ایک حق {cite:assabile-omar-abdelkafy al-dinu-al-qayem/ep09 00:19:30} {cite:assabile-omar-abdelkafy al-dinu-al-qayem/ep09 00:20:00}۔
+
+شیخ کہتے ہیں کہ ہمسایہ ہمسایہ ہی رہتا ہے، اگرچہ وہ ظلم کرے {cite:assabile-omar-abdelkafy al-dinu-al-qayem/ep09 00:25:00}۔ وہ ابوحنیفہ کا واقعہ بیان کرتے ہیں کہ ایک ہمسایہ جو رات کو شراب پیتا اور گاتا تھا، ابوحنیفہ نے اس کی غیر حاضری محسوس کی تو تھانے جا کر اس کی سفارش کی، وہ رہا ہو گیا، توبہ کی اور ابوحنیفہ کے پیچھے نماز پڑھی، شیخ کے بیان کے مطابق {cite:assabile-omar-abdelkafy al-dinu-al-qayem/ep09 00:25:30} {cite:assabile-omar-abdelkafy al-dinu-al-qayem/ep09 00:26:00}۔
+
+شیخ کی رائے ہے کہ ہمسائے کا حق یہ ہے کہ اسے تکلیف نہ دی جائے، نہ اس پر ظلم کیا جائے، اس کے غم اور خوشی میں شریک ہوا جائے، اور اس کی مصیبت پہنچنے سے پہلے اس کی خبر لی جائے، کیونکہ اللہ کے نزدیک اس کا حق بڑا ہے {cite:assabile-omar-abdelkafy al-dinu-al-qayem/ep09 00:57:30}۔ وہ ذکر کرتے ہیں کہ سعد نے اس پڑوسی عورت کے خلاف دعا کی جس نے ان پر بہتان لگایا تھا کہ اللہ اسے اندھا کر دے (needs_source: واقعے کی تفصیل) {cite:assabile-omar-abdelkafy al-dinu-al-qayem/ep09 00:41:00}۔
+
+شیخ اپنی ذاتی رائے کے طور پر کہتے ہیں کہ آج کی ہمسائیگی میں امیر اور غریب دونوں شامل ہیں، اور ہمسایہ اپنے پڑوسیوں سے وہ چیز نہ چھپائے جو اس کے پاس ہے {cite:assabile-omar-abdelkafy al-dinu-al-qayem/ep09 00:27:00}۔ وہ کہتے ہیں کہ اگر ہمسایہ نہ رکے اور نصیحت قبول نہ کرے تو آدمی کو صبر کرنا چاہیے، اس سے ملنا چاہیے، اور نرمی سے نصیحت کرنی چاہیے {cite:assabile-omar-abdelkafy al-dinu-al-qayem/ep09 01:14:00}۔
+
+:::perspectives
+- **Sunni view: not yet sourced**: ابھی منسوب نہیں۔
+- **speaker's view (opinion)**: شیخ کی رائے ہے کہ ہمسائے کے حق میں اسے تکلیف نہ دینا شامل ہے، نصیحت نرمی سے کی جائے، اور آج کی ہمسائیگی میں امیر اور غریب دونوں شامل ہیں {cite:assabile-omar-abdelkafy al-dinu-al-qayem/ep09 00:57:30} {cite:assabile-omar-abdelkafy al-dinu-al-qayem/ep09 01:14:00} {cite:assabile-omar-abdelkafy al-dinu-al-qayem/ep09 00:27:00}۔
+- **academic view: not yet sourced**: ابھی منسوب نہیں۔
+- **other view: not yet sourced**: ابھی منسوب نہیں۔
+:::

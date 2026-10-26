@@ -29,3 +29,11 @@ Mut'im spoke to those who had summoned him, blaming them for agreeing with Quray
 
 ## On the offer of Islam to him (*The Sealed Nectar*, pp. 128–129)
 After the Prophet's return from Ta'if, he entered Mecca under Mut'im's protection. Mut'im said, "Yes, I am a protector," and ordered his sons and his people to put on their arms at the corners of the House. The Prophet entered, touched the corner, prayed two units of prayer, and departed {cite:mubarakpuri-raheeq p.128} {cite:mubarakpuri-raheeq p.129}. The Prophet remembered this conduct. He said of the prisoners of Badr: "If Mut'im were alive and had spoken to me about these foul ones, I would have left them to him" {cite:mubarakpuri-raheeq p.129}.
+
+## From Sheikh Omar Abdelkafy's lecture series Al Dinu Al Qayem
+
+In the account of the Prophet's proposal for Aisha, Sheikh Omar Abdelkafy says that the son of Mut'im ibn Adi had earlier made a proposal for her, which received no answer {cite:assabile-omar-abdelkafy al-dinu-al-qayem/ep08 00:37:00}.
+
+He recounts that after the Prophet's proposal, Abu Bakr went to Mut'im ibn Adi, who said that Abu Bakr had come three months earlier to propose Aisha for his son, and that he had given no reply {cite:assabile-omar-abdelkafy al-dinu-al-qayem/ep08 00:37:30}.
+
+He says Mut'im's wife feared that a marriage of their son to Abu Bakr's daughter would lead him to convert to Muhammad's religion {cite:assabile-omar-abdelkafy al-dinu-al-qayem/ep08 00:38:00}.

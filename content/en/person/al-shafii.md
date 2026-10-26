@@ -20,6 +20,13 @@ The museum's data attribute to him the book [[work/ikhtilaf-al-hadith-shafii|Ikh
 
 The Sheikh reports from Imam al-Shafi'i that he thought poetry diminishes the dignity of scholars, and mentions that the Arabs said the most eloquent poetry is the most untrue {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep10 00:30:30}.
 
+## From Sheikh Omar Abdelkafy's lecture series Al Dinu Al Qayem
+
+Sheikh Omar Abdelkafy recounts that Ahmad ibn Hanbal prayed for al-Shafi'i after every prayer (needs_source: a report the sheikh gives) {cite:assabile-omar-abdelkafy al-dinu-al-qayem/ep01 00:18:00}. He recounts that critics faulted al-Shafi'i for visiting Ahmad often, and that he answered that the favour lies in both visits {cite:assabile-omar-abdelkafy al-dinu-al-qayem/ep01 00:18:30}.
+
+He recounts that when Ahmad fell ill, al-Shafi'i feared that Ahmad would die and the knowledge he held would die with him; al-Shafi'i himself fell ill from that fear, and then Ahmad forced himself to visit him (needs_source) {cite:assabile-omar-abdelkafy al-dinu-al-qayem/ep01 00:19:00}. He recites two lines of al-Shafi'i on this theme, in which the sick friend is healed by seeing his friend (needs_source: the lines are as the sheikh recites them) {cite:assabile-omar-abdelkafy al-dinu-al-qayem/ep01 00:19:30}.
+
+He recounts that the young al-Shafi'i, about nine years old by the sheikh's account, attended Malik's assembly in the Prophet's mosque. A man swore divorce on his wife and asked Malik; the young al-Shafi'i answered first, and Malik ruled that the divorce did not take effect (needs_source: the answer and the ruling are unclear in the automatic transcript) {cite:assabile-omar-abdelkafy al-dinu-al-qayem/ep13 00:46:00} {cite:assabile-omar-abdelkafy al-dinu-al-qayem/ep13 00:46:30} {cite:assabile-omar-abdelkafy al-dinu-al-qayem/ep13 00:47:00} {cite:assabile-omar-abdelkafy al-dinu-al-qayem/ep13 00:47:30}.
 ## For Sprouts
 Muhammad ibn Idris al-Shafi'i was a great scholar who lived more than twelve hundred years ago; he gathered learning in Mecca, Medina, Iraq and Egypt and wrote the foundations of fiqh. Many Muslims follow his school today, and among his books are al-Risala and al-Umm.
 

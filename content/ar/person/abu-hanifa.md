@@ -27,3 +27,13 @@ translators: []
 ## من درس الشيخ عمر عبد الكافي: شرح كتاب الفوائد
 
 يروي الشيخ أن أبا حنيفة امتنع عن تولي القضاء حين طلبه المنصور، فقال للخليفة إنه إن كان كاذبا فالخليفة يولي قاضيا كاذبا، وإن كان صادقا فإنه لا يحسن القضاء ويطلب إعفاءه (needs_source: رواية يرويها الشيخ دون مصدر في الدرس). {cite:assabile-omar-abdelkafy sharh-ketab-al-fawaed/ep02 01:04:00} {cite:assabile-omar-abdelkafy sharh-ketab-al-fawaed/ep02 01:04:30}
+
+## من درس الشيخ عمر عبد الكافي: الدين القيم
+
+يذكر الشيخ أن شباب أبي حنيفة كان قبل أن ينتشر فقهه، وأنه يؤرّخ ذلك بنحو سنة 80هـ (needs_source: التاريخ والعمر من الشيخ) {cite:assabile-omar-abdelkafy al-dinu-al-qayem/ep01 00:12:30}.
+
+ويروي الشيخ قصة في القضاء: رجلان تنازعا في جرّة فيها ذهب وجدها أحدهما في بيت اشتراه، وحكم أبو حنيفة بأن يُزوَّج أبناء الطرفين وتكون الجرة مهرهم (needs_source: القصة كما يرويها الشيخ) {cite:assabile-omar-abdelkafy al-dinu-al-qayem/ep03 00:54:30} {cite:assabile-omar-abdelkafy al-dinu-al-qayem/ep03 00:55:00} {cite:assabile-omar-abdelkafy al-dinu-al-qayem/ep03 00:55:30}. ويروي أنه رفض أن يبيع ثوبًا بأربعمئة وهو لا يساوي إلا مئة، فأخذ الثوب ورجع إلى متجره، والرجل يمشي خلفه يظن أنه لص (needs_source) {cite:assabile-omar-abdelkafy al-dinu-al-qayem/ep08 00:40:30}.
+
+ويروي الشيخ قصة جاره الذي كان يشرب الخمر ويغني ليلًا، فلما افتقده أبو حنيفة ذهب في الصباح إلى مخفر الشرطة يشفع فيه، فأُفرج عنه، فتاب الجار وصلى خلفه الظهر (needs_source: القصة كما يرويها الشيخ) {cite:assabile-omar-abdelkafy al-dinu-al-qayem/ep09 00:25:00} {cite:assabile-omar-abdelkafy al-dinu-al-qayem/ep09 00:25:30} {cite:assabile-omar-abdelkafy al-dinu-al-qayem/ep09 00:26:00}.
+
+ويروي الشيخ قول أبي حنيفة في الخلاف: رأينا صواب يحتمل الخطأ، ورأي غيرنا خطأ نحتمله (needs_source) {cite:assabile-omar-abdelkafy al-dinu-al-qayem/ep01 00:19:30}.

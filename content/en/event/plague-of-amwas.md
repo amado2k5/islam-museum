@@ -17,3 +17,9 @@ al-Baladhuri reports that Abu Ubayda appointed a successor when he was dying, an
 He reports, quoting Abdallah ibn Qays, that he was among those who met [[person/umar-ibn-al-khattab|Umar]] with Abu Ubayda when Umar came to al-Sham. The people of Adhri'at, who were the muqallisun, met him with swords and sweet basil. Umar wanted to stop them. Abu Ubayda said that this was their custom, and that stopping them might be understood as a breach of their covenant. Umar said: "Leave them." {cite:futuh-buldan-maarif-1407}
 
 The date is derived from the Hijri year, and the data record no specific page for this text.
+
+## From Sheikh Omar Abdelkafy's lecture series Al Dinu Al Qayem
+
+The speaker recounts that Umar, in his last days as he says, intended to spend two months in Syria and two in Egypt to see the conditions for himself rather than rely on reports (needs_source) {cite:assabile-omar-abdelkafy al-dinu-al-qayem/ep13 01:11:00}.
+
+He recounts that when Umar reached Syria, the plague had spread there, and people hesitated over entering. Ibn Umar then reported that he had heard the Prophet say: if plague is in a land and you are outside it, do not enter it; if it is in a land and you are within it, do not leave it. Umar turned back {cite:assabile-omar-abdelkafy al-dinu-al-qayem/ep13 01:11:00}.

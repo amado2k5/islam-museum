@@ -39,3 +39,20 @@ He holds that harming a neighbour is harming oneself, and recalls that the Arabs
 - **academic view: not yet sourced**: not yet sourced.
 - **other view: not yet sourced**: not yet sourced.
 :::
+
+## From Sheikh Omar Abdelkafy's lecture series Al Dinu Al Qayem
+
+The Sheikh asks whether the neighbour is the single adjoining person, the community or the state, and says that in earlier times the neighbour was the one adjoining the house {cite:assabile-omar-abdelkafy al-dinu-al-qayem/ep09 00:19:00}. He describes three kinds of neighbour: a near Muslim neighbour has three rights, namely the right of neighbourhood, the right of kinship and the right of Islam; another has two rights, and another has one {cite:assabile-omar-abdelkafy al-dinu-al-qayem/ep09 00:19:30} {cite:assabile-omar-abdelkafy al-dinu-al-qayem/ep09 00:20:00}.
+
+He says that a neighbour remains a neighbour even if he wrongs you {cite:assabile-omar-abdelkafy al-dinu-al-qayem/ep09 00:25:00}. He recounts Abu Hanifa and a neighbour who drank and sang at night: when Abu Hanifa noticed his absence, he went to the police station to intercede for him, the neighbour was released, repented and prayed behind Abu Hanifa, in the Sheikh's telling {cite:assabile-omar-abdelkafy al-dinu-al-qayem/ep09 00:25:30} {cite:assabile-omar-abdelkafy al-dinu-al-qayem/ep09 00:26:00}.
+
+He holds that a neighbour's right is not to harm or wrong him, to share his sorrow and his joy, and to ask after him before his trouble reaches you, because his right is great before God {cite:assabile-omar-abdelkafy al-dinu-al-qayem/ep09 00:57:30}. He says that Sa'd prayed against a neighbour woman who spread accusations against him, that she be struck with blindness (needs_source: the details of the report) {cite:assabile-omar-abdelkafy al-dinu-al-qayem/ep09 00:41:00}.
+
+The Sheikh holds, as his own opinion, that neighbourliness today includes both rich and poor, and that a neighbour should not hide from his neighbours what he has {cite:assabile-omar-abdelkafy al-dinu-al-qayem/ep09 00:27:00}. He says that if a neighbour does not refrain or accept counsel, one should bear with him, visit him and advise him gently {cite:assabile-omar-abdelkafy al-dinu-al-qayem/ep09 01:14:00}.
+
+:::perspectives
+- **Sunni view: not yet sourced**: not yet sourced.
+- **speaker's view (opinion)**: The Sheikh holds that a neighbour's right includes not being harmed, that advice is given to him gently, and that neighbourliness today includes rich and poor {cite:assabile-omar-abdelkafy al-dinu-al-qayem/ep09 00:57:30} {cite:assabile-omar-abdelkafy al-dinu-al-qayem/ep09 01:14:00} {cite:assabile-omar-abdelkafy al-dinu-al-qayem/ep09 00:27:00}.
+- **academic view: not yet sourced**: not yet sourced.
+- **other view: not yet sourced**: not yet sourced.
+:::

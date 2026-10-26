@@ -53,3 +53,9 @@ The Sheikh advises that a person should not be a hundred per cent sure that he h
 ## From Sheikh Omar Abdelkafy's Sharh Ketab al-Fawaed lectures (episode 4)
 In a question-and-answer, the Sheikh recounts that he asked about the reality of repentance and was told that it is to forget one's sin (needs_source: the wording of the question and the identity of the speaker of the answer are unclear in the transcript) {cite:assabile-omar-abdelkafy sharh-ketab-al-fawaed/ep04 00:28:30}.
 In the same exchange he explains repentance as a move from a state of dryness, meaning estrangement and hardness of heart, to a state of fidelity to God (his view) (needs_source: some words of the transcript are garbled) {cite:assabile-omar-abdelkafy sharh-ketab-al-fawaed/ep04 00:29:00} {cite:assabile-omar-abdelkafy sharh-ketab-al-fawaed/ep04 00:29:30}.
+
+## From Sheikh Omar Abdelkafy's lecture series Al Dinu Al Qayem
+
+The Sheikh says that every undertaking needs repentance, and that the basis of repentance is returning rights to their owners, so that justice and mercy spread among people {cite:assabile-omar-abdelkafy al-dinu-al-qayem/ep10 00:07:30}. He explains repentance as a return to God, and says that God loves those who repent often {cite:assabile-omar-abdelkafy al-dinu-al-qayem/ep13 00:06:30}. He says that God replaces the sins of the repentant with good deeds {cite:assabile-omar-abdelkafy al-dinu-al-qayem/ep02 00:38:30}.
+
+He says that God forgives sins but does not forgive associating partners with Him, and forgives what lies below that as He wills {cite:assabile-omar-abdelkafy al-dinu-al-qayem/ep13 00:08:30} {cite:assabile-omar-abdelkafy al-dinu-al-qayem/ep13 00:17:30}.

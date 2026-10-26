@@ -94,3 +94,22 @@ translators: ["Claude Haiku 5.5 (claude-haiku-5-5), draft translation"]
 ## شیخ عمر عبد الکافی کے درس شرح کتاب الفوائد سے
 
 شیخ روایت کرتے ہیں کہ علی نے ایک دشمن کو زمین پر گرا دیا، پھر اس نے ان کے چہرے پر تھوک دیا تو علی نے اسے قتل نہیں کیا۔ پوچھا گیا تو انہوں نے کہا کہ انہیں ڈر تھا کہ یہ قتل اللہ کے لیے نہ ہو کر ان کے اپنے غصے کے لیے ہو گا (needs_source: درس میں اس روایت کا ماخذ نہیں دیا گیا)۔ {cite:assabile-omar-abdelkafy sharh-ketab-al-fawaed/ep05 00:42:00} {cite:assabile-omar-abdelkafy sharh-ketab-al-fawaed/ep05 00:42:30}
+
+## شیخ عمر عبدالکافی کے درس سے: الدین القیم
+
+شیخ عمر عبدالکافی علی بن ابی طالب کا ذکر اس شوریٰ کے سیاق میں کرتے ہیں جو عمر نے چھ افراد پر مشتمل بنائی تھی۔ وہ بیان کرتے ہیں کہ انتخاب عثمان اور علی کے درمیان رہ گیا، اور عبدالرحمن بن عوف کے ذمے تھا کہ ان دونوں میں سے کسی ایک کا انتخاب کریں (needs_source: ترتیب شیخ کے بیان کے مطابق ہے) {cite:assabile-omar-abdelkafy al-dinu-al-qayem/ep03 00:42:00}، اور یہ کہ علی نے کہا کہ وہ کتاب اللہ اور سنت کے مطابق حکومت کریں گے، اور دونوں صاحبین کا اپنا طریقہ تھا اور ان کا اپنا (needs_source) {cite:assabile-omar-abdelkafy al-dinu-al-qayem/ep03 00:43:00}۔
+
+شیخ بیان کرتے ہیں کہ عبدالرحمن بن عوف نے علی سے کہا کہ وہ لوگوں میں کتاب اللہ، سنت اور ابوبکر و عمر کی سیرت کے مطابق چلیں، تو علی نے انکار کیا اور عثمان نے قبول کیا (needs_source: گفتگو خودکار نقل میں مبہم ہے) {cite:assabile-omar-abdelkafy al-dinu-al-qayem/ep10 00:51:30}۔ وہ بتاتے ہیں کہ طلحہ، زبیر اور سعد دستبردار ہو گئے، اور عبدالرحمن علی اور عثمان کے ساتھ رہ گئے {cite:assabile-omar-abdelkafy al-dinu-al-qayem/ep10 00:51:00}۔ شیخ کے نزدیک اس موقع پر علی کی بات منطقی اور قابلِ قبول تھی (شیخ کی رائے) {cite:assabile-omar-abdelkafy al-dinu-al-qayem/ep10 00:52:00}۔
+
+وہ علی کا ایک قول بیان کرتے ہیں کہ دوست اپنے ساتھی کے لیے سچ بات کہنا نہیں چھوڑتا، اور شیخ کے نزدیک سچ بات لوگوں کو پسند نہ بھی آئے (شیخ کی رائے) {cite:assabile-omar-abdelkafy al-dinu-al-qayem/ep06 00:28:30}۔ وہ بیان کرتے ہیں کہ علی نے ایک شخص کے صدقہ مانگنے پر اپنے خادم سے چراغ دور کرنے کو کہا تاکہ سوال خاموشی سے ہو، پھر اسے وہ دے دیا جو اس نے مانگا تھا (needs_source) {cite:assabile-omar-abdelkafy al-dinu-al-qayem/ep05 00:19:30}۔
+
+وہ بیان کرتے ہیں کہ عمر نے کہا: اگر ابوالحسن (علی) نہ ہوتے تو ہم ہلاک ہو جاتے، اس کے بعد کہ علی نے پوچھا کہ کیا امیرِ المؤمنین کو بھی وہی گواہ درکار ہیں جو کسی تہمت کے معاملے میں درکار ہوتے ہیں (needs_source: روایت خودکار نقل میں مبہم ہے) {cite:assabile-omar-abdelkafy al-dinu-al-qayem/ep13 00:27:00} {cite:assabile-omar-abdelkafy al-dinu-al-qayem/ep13 00:27:30}۔ صحابہ کی فتوحات کے بیان میں وہ علی کی فتوحات کا ذکر کرتے ہیں اور انہیں پہلی صف کا جنگجو کہتے ہیں (needs_source) {cite:assabile-omar-abdelkafy al-dinu-al-qayem/ep07 00:30:30}، اور ایک خطیب کی دعا میں انہیں شرک مٹانے اور بتوں کو توڑنے والا کہا گیا (needs_source) {cite:assabile-omar-abdelkafy al-dinu-al-qayem/ep07 00:20:30}۔
+
+وہ بیان کرتے ہیں کہ علی حسن اور حسین کے ساتھ ایک مردہ گدھے کے پاس سے گزرے اور دنیا پر تبصرہ کیا، اور یہ تبصرہ خودکار نقل میں واضح نہیں (needs_source) {cite:assabile-omar-abdelkafy al-dinu-al-qayem/ep12 00:45:00} {cite:assabile-omar-abdelkafy al-dinu-al-qayem/ep12 00:45:30}۔
+
+:::perspectives
+- **Sunni view: not yet sourced**: not yet attributed.
+- **speaker's view (opinion)**: شیخ کے نزدیک علی کی شرائطِ حکومت کے بارے میں بات منطقی اور قابلِ قبول تھی، اور دوست سے سچ بات نہیں چھوڑی جانی چاہیے {cite:assabile-omar-abdelkafy al-dinu-al-qayem/ep10 00:52:00} {cite:assabile-omar-abdelkafy al-dinu-al-qayem/ep06 00:28:30}۔
+- **academic view: not yet sourced**: not yet attributed.
+- **other view: not yet sourced**: not yet attributed.
+:::

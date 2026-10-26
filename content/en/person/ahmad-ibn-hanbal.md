@@ -13,3 +13,11 @@ The book mentions that the Musnad contains thirty thousand hadiths {cite:madkhal
 
 ## The creeds
 In its first division the book presents the creeds transmitted from Imam Ahmad {cite:madkhal-ibn-badran-turki p. 47}.
+
+## From Sheikh Omar Abdelkafy's lecture series Al Dinu Al Qayem
+
+Sheikh Omar Abdelkafy recounts that Ahmad ibn Hanbal prayed for al-Shafi'i after every prayer (needs_source: a report the sheikh gives) {cite:assabile-omar-abdelkafy al-dinu-al-qayem/ep01 00:18:00}. He recounts that critics faulted al-Shafi'i for visiting Ahmad often, and that al-Shafi'i answered that the favour lies in both visits {cite:assabile-omar-abdelkafy al-dinu-al-qayem/ep01 00:18:30}.
+
+He recounts that when Ahmad fell ill, al-Shafi'i feared for Ahmad's life and for the knowledge that would be lost with him; al-Shafi'i himself fell ill from that fear, and then Ahmad forced himself to go and visit him (needs_source) {cite:assabile-omar-abdelkafy al-dinu-al-qayem/ep01 00:19:00}.
+
+Sheikh Omar Abdelkafy holds, as his own opinion, that the community should study its own history, and he names Ahmad ibn Hanbal's ordeal among the matters to be studied; the word is unclear in the automatic transcript (needs_source) {cite:assabile-omar-abdelkafy al-dinu-al-qayem/ep06 01:16:00}.

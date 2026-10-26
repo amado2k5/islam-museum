@@ -33,8 +33,14 @@ relations:
   - { type: participated_in, target: event/mission-of-muadh-to-yemen, role: "أمير رسل النبي إلى اليمن", sources: [source/ibn-hisham-saqqa] }
 external_ids:
   wikidata: Q1147464
-sources: [source/ibn-sad-tabaqat-bewley, source/ibn-ishaq-guillaume, source/ibn-hisham-saqqa, source/sahih-al-bukhari]
+sources: [source/ibn-sad-tabaqat-bewley, source/ibn-ishaq-guillaume, source/ibn-hisham-saqqa, source/sahih-al-bukhari, source/assabile-omar-abdelkafy]
 status: { review: draft, completeness: 2, generated_by: "Devin; 2026-10-11" }
+provenance:
+  layer: own-research
+  source: "source/assabile-omar-abdelkafy"
+  generated_by: "Claude Haiku 5.5"
+  model: "claude-haiku-5-5"
+  run: "omar-abdelkafy-al-dinu-al-qayem-person-extension"
 education:
   levels: [sprouts, explorers, scholars]
   flagged_for_kids: true

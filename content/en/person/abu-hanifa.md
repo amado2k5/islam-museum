@@ -27,3 +27,13 @@ He holds that rulers die while the people of knowledge live on, and that though 
 ## From Sheikh Omar Abdelkafy's lectures on Sharh Kitab al-Fawa'id
 
 The Sheikh narrates that Abu Hanifa declined the judgeship when al-Mansur asked him to take it. He told the caliph that if he was lying, the caliph would be appointing a liar as judge, and that if he was truthful about being unable to do the work, he asked to be excused (needs_source: narration with no source given in the lecture). {cite:assabile-omar-abdelkafy sharh-ketab-al-fawaed/ep02 01:04:00} {cite:assabile-omar-abdelkafy sharh-ketab-al-fawaed/ep02 01:04:30}
+
+## From Sheikh Omar Abdelkafy's lecture series Al Dinu Al Qayem
+
+Sheikh Omar Abdelkafy places Abu Hanifa's youth before his jurisprudence became widely known, and dates it to around 80 AH (needs_source: the dates and his age are the sheikh's own) {cite:assabile-omar-abdelkafy al-dinu-al-qayem/ep01 00:12:30}.
+
+He recounts a judgement in which two parties disputed a jar of gold found in a house that one of them had bought. Abu Hanifa ruled that the children of the two parties should be married to each other, with the jar as the dowry (needs_source: the story as the sheikh tells it) {cite:assabile-omar-abdelkafy al-dinu-al-qayem/ep03 00:54:30} {cite:assabile-omar-abdelkafy al-dinu-al-qayem/ep03 00:55:00} {cite:assabile-omar-abdelkafy al-dinu-al-qayem/ep03 00:55:30}. He recounts that Abu Hanifa refused to sell a cloth for four hundred when it was worth one hundred; he took the cloth back to his shop while the buyer followed him, thinking he was a thief (needs_source) {cite:assabile-omar-abdelkafy al-dinu-al-qayem/ep08 00:40:30}.
+
+He recounts a neighbour who drank wine and sang at night. When Abu Hanifa noticed the man was missing, he went at dawn to a police station to intercede for him, the man was released, repented, and prayed the noon prayer behind Abu Hanifa (needs_source: the story as the sheikh tells it) {cite:assabile-omar-abdelkafy al-dinu-al-qayem/ep09 00:25:00} {cite:assabile-omar-abdelkafy al-dinu-al-qayem/ep09 00:25:30} {cite:assabile-omar-abdelkafy al-dinu-al-qayem/ep09 00:26:00}.
+
+He recounts Abu Hanifa's principle in disagreement: our view is correct but may be wrong, and the view of others, which we judge to be wrong, we bear with (needs_source) {cite:assabile-omar-abdelkafy al-dinu-al-qayem/ep01 00:19:30}.

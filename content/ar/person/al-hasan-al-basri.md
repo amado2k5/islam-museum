@@ -23,17 +23,17 @@ translators: []
 
 ## من سلسلة الفوز المبين
 
-يذكر الشيخ أن الحسن البصري كان يفضّل القراءة من المصحف على القراءة عن ظهر قلب، لأن النظر فيه يعطي العين نصيبا من النور، وأن المصحف يشهد للقارئ ويحاجّ عنه (needs_source: attribution garbled) {cite:assabile-omar-abdelkafy al-fawzu-al-moubeen/ep02 00:33:00}.
+يذكر الشيخ أن الحسن البصري كان يفضّل القراءة من المصحف على القراءة عن ظهر قلب، لأن النظر فيه يعطي العين نصيبا من النور، وأن المصحف يشهد للقارئ ويحاجّ عنه (needs_source: attribution garbled) {cite:assabile-omar-abdelkafy al-fawzu-al-moubeen/ep02 00:32:30} {cite:assabile-omar-abdelkafy al-fawzu-al-moubeen/ep02 00:33:00}.
 
-ينقل الشيخ عن الحسن البصري قوله إن أهل الدنيا ظلموا أنفسهم ولم يُظلموا، وإن الفقير الصابر والغني الشاكر ينتظران ما عند الله (needs_source: saying source not named) {cite:assabile-omar-abdelkafy al-fawzu-al-moubeen/ep05 00:20:00}.
+ينقل الشيخ عن الحسن البصري مقارنةً بين المؤمنين وأهل الدنيا في المأكل والملبس والمشرب، ويقول إن الغني الشاكر أفضل من الفقير الصابر، وإن العبد ينتظر ما عند الله (needs_source: saying source not named) {cite:assabile-omar-abdelkafy al-fawzu-al-moubeen/ep05 00:20:00}.
 
-ويذكر الشيخ أن الناس كانوا يرون النور على وجه محمد بن سيرين، وأن الحسن البصري، وكان أسمر، ظهر عليه النور أيضا، فأجاب بأن قومه خلَوا بالله في ظلام الليل فكساهم جماله، ويخلص إلى أن العبرة بنقاء القلب (needs_source: anecdote unsourced) {cite:assabile-omar-abdelkafy al-fawzu-al-moubeen/ep11 00:04:30}.
+ويذكر الشيخ أن الناس كانوا يرون النور على وجه محمد بن سيرين، وأن الحسن البصري، وكان أسمر، ظهر عليه النور أيضا، فأجاب بأن قومه خلَوا بالله في ظلام الليل فكساهم جماله، ويخلص إلى أن العبرة بنقاء القلب (needs_source: anecdote unsourced) {cite:assabile-omar-abdelkafy al-fawzu-al-moubeen/ep11 00:04:30} {cite:assabile-omar-abdelkafy al-fawzu-al-moubeen/ep11 00:05:00}.
 
-ويذكر أن الحسن البصري رأى زنازين صغيرة في البصرة فقال إنها ستُسكن يوما، ويجعل ذلك موعظة في خطر تبعية السلطان (needs_source: anecdote unsourced) {cite:assabile-omar-abdelkafy al-fawzu-al-moubeen/ep11 00:12:00}.
+ويذكر أن الحسن البصري رأى زنازين صغيرة فقال إنها ستُسكن يوما، ويجعل ذلك موعظة في خطر تبعية السلطان (needs_source: anecdote unsourced) {cite:assabile-omar-abdelkafy al-fawzu-al-moubeen/ep11 00:12:00}.
 
-ويروي أن أهل بيت الحسن لم يبق عندهم إلا قليل من البيض، فتصدّقت الفتاة من البيت بتسع بيضات على فقير، ثم أرسل جار غني سلة بيض {cite:assabile-omar-abdelkafy al-fawzu-al-moubeen/ep10 00:13:00}.
+ويروي أن أهل بيت الحسن لم يبق عندهم إلا قليل من البيض، فتصدّقت الفتاة من البيت بتسع بيضات على فقير، ثم أرسل جار غني سلة بيض {cite:assabile-omar-abdelkafy al-fawzu-al-moubeen/ep10 00:13:00} {cite:assabile-omar-abdelkafy al-fawzu-al-moubeen/ep10 00:13:30}.
 
-ويروي أن الحسن دخل على رجل حزين فسأله هل ما يحدث له بعين الله أم بعيدا عنها، ثم شبّه ذلك بمراقبة الأم لابنها {cite:assabile-omar-abdelkafy al-fawzu-al-moubeen/ep10 00:37:00}.
+ويروي أن الحسن دخل على رجل حزين فسأله هل ما يحدث له بعين الله أم بعيدا عنها، ثم شبّه ذلك بمراقبة الأم لابنها {cite:assabile-omar-abdelkafy al-fawzu-al-moubeen/ep10 00:36:30} {cite:assabile-omar-abdelkafy al-fawzu-al-moubeen/ep10 00:37:00}.
 
 ## من درس الشيخ عمر عبد الكافي: تفسير القرآن (الحلقة 2)
 ينقل الشيخ عن الحسن البصري نصيحة بأن يفتح المرء المصحف ولو لم يقرأ فيه ويقول: أجدد عهدي مع الله، فتقع عينه على آية، ويدعو إلى فتح صفحة كل يوم قبل العمل، ويشبّه ذلك بتسجيل الحضور ببصمة العين أو اليد عند دخول المؤسسة (needs_source) {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep02 00:11:30}.
@@ -45,3 +45,9 @@ translators: []
 يذكر الشيخ أن من أراد الذهاب إلى العراق أو الكوفة أو البصرة كان لا بد أن يحضر مجلس الحسن {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep09 00:33:00}. ويقول إنه سُمّي رضيع أم سلمة، وإن أم سلمة كانت في الثمانين من عمرها حين أرضعته وهو طفل يبكي، فأجرى الله اللبن في ثديها، ويعدّه معجزة، ويقول إنه كان لا ينطق إلا بالحكمة (needs_source) {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep09 00:33:00}.
 
 ويقول إن الحسن عاش مع الصحابة والتابعين ودرس عنهم وعلى أيديهم، ومنهم سعيد بن المسيب وعطاء بن رباح، حتى وصل الأمر إلى رجل كبير عظيم كأبي ذر في سنة 36 هجرية، ويبدأ بنقل قول له عن حال الناس (needs_source) {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep09 00:34:00}. ويروي أنه سُئل: ماذا تصنع مع الشيطان يا إمام؟ فقال إن طاعته لا تنفع ومعصيته لا تضر، ويعلّق الشيخ بأن الأمر صبر ساعة (needs_source) {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep09 00:35:30}. ويدعو إلى أن يعيش المرء يومه: فأمس شيك قد صُرف، وغدا شيك مؤجل لم يحن وقته، فلا يحمل المؤمن هم الغد {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep09 00:36:00}.
+
+## من درس الشيخ عمر عبد الكافي: الدين القيم
+
+يحكي الشيخ حكاية عن الحسن البصري مع أحد الولاة، يقارن فيها بين السارق الصغير ومن يسرق المال العام {cite:assabile-omar-abdelkafy al-dinu-al-qayem/ep01 00:29:30}.
+
+ويقتبس الشيخ قول الحسن البصري: «نحن في نعمة لو عظّمها الملوك لقاتلوا عليها بالسيوف»، ويعني بها نعمة المؤمن {cite:assabile-omar-abdelkafy al-dinu-al-qayem/ep12 01:09:00}.

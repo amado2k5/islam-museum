@@ -38,3 +38,15 @@ Ibn Ishaq gives the list of martyrs: of the Muhajirun, [[person/jafar-ibn-abi-ta
 
 ## For young visitors
 A small army went out from Medina to distant al-Sham and found an army far larger than itself. The commanders did not flee; each fought knowing he might not return, one after another, until the fighting ended and those who remained came home.
+
+## From Sheikh Omar Abdelkafy's lecture series Al Dinu Al Qayem
+
+The speaker says Khalid ibn al-Walid entered a hundred battles in jihad and Islam without being defeated in one. At Mu'ta, he says, the Muslims numbered about thirty thousand against about two hundred and forty thousand Romans (needs_source) {cite:assabile-omar-abdelkafy al-dinu-al-qayem/ep11 00:46:30}.
+
+He recounts that after the three senior commanders fell, Ja'far ibn Abi Talib, Abdullah ibn Rawaha and Zayd ibn Haritha, the army chose Khalid to lead, and that Khalid described himself as recently converted to Islam {cite:assabile-omar-abdelkafy al-dinu-al-qayem/ep11 00:47:00}.
+
+He says Khalid reorganised the army by night, moving the rear to the front and the front to the rear to deceive the enemy {cite:assabile-omar-abdelkafy al-dinu-al-qayem/ep11 00:47:30}. He describes Khalid's withdrawal as a planned retreat that saved the rest of the army {cite:assabile-omar-abdelkafy al-dinu-al-qayem/ep11 00:48:00}.
+
+The speaker's view (opinion): the decision to withdraw was right, and Khalid was a commander, not a hired soldier {cite:assabile-omar-abdelkafy al-dinu-al-qayem/ep11 00:48:30} {cite:assabile-omar-abdelkafy al-dinu-al-qayem/ep11 00:50:00}. He recounts that Abu Bakr called Khalid "the drawn sword of God", and he urges that Khalid's battles be studied strategically {cite:assabile-omar-abdelkafy al-dinu-al-qayem/ep11 00:50:00}.
+
+He says Khalid was not defeated in a battle before Islam or after it, and asks what Islam added to him {cite:assabile-omar-abdelkafy al-dinu-al-qayem/ep11 00:49:00}. He says Khalid was about thirty, and that the Companions were young, and he urges the study of their lives (needs_source) {cite:assabile-omar-abdelkafy al-dinu-al-qayem/ep11 00:50:30}.

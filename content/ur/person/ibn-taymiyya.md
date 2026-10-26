@@ -20,4 +20,17 @@ translators: ["Claude Haiku 5.5 (claude-haiku-5-5), draft translation"]
 ابن العماد بیان کرتے ہیں کہ [[person/ghazan-khan|غازان]] اپنے لشکر کے ساتھ فرات عبور کر کے حلب کی طرف بڑھا۔ ابن تیمیہ نے ڈاک کے ذریعے قاہرہ کی طرف پیغام بھیج کر لوگوں کو جہاد پر ابھارا، اور بڑے امراء سے ملاقات کی۔ اہلِ دمشق خوفزدہ ہوئے اور قلعے میں جمع ہو گئے، پھر غازان کی واپسی سے خوف کم ہو گیا۔ {cite:shadharat-dhahab p.429}
 
 ## شیخ عمر عبد الکافی کے تفسیری درس (قسط 8)
-شیخ روایت کرتے ہیں کہ ابن تیمیہ سے پوچھا گیا کہ کیا آپ مومن ہیں، اور یہ سوال جواب دینے میں مشکل تھا، تو انہوں نے پہلے جواب دیا کہ اگر ایمان اللہ، اس کے فرشتوں، کتابوں، رسولوں، یومِ آخرت اور تقدیر پر یقین کا نام ہے تو میں مومن ہوں (needs_source) {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep08 00:26:00}۔ وہ بتاتے ہیں کہ انہوں نے دوسرا جواب دیا کہ اگر ایمان یہ ہے کہ اللہ کے ذکر پر دل کانپ اٹھے تو بھی میں مومن ہوں [[passage/quran-8-2|الانفال 2]] {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep08 00:26:30}۔ شیخ ابو بکر کا قول یاد کرتے ہیں کہ اگر ان کا ایک پاؤں جنت میں اور دوسرا باہر ہو تو بھی وہ اللہ کی تدبیر سے بے خوف نہ ہوں (needs_source) {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep08 00:26:30}۔
+شیخ روایت کرتے ہیں کہ ابن تیمیہ سے پوچھا گیا کہ کیا آپ مومن ہیں، اور یہ سوال جواب دینے میں مشکل تھا، تو انہوں نے پہلے جواب دیا کہ اگر ایمان اللہ، اس کے فرشتوں، کتابوں، رسولوں، یومِ آخرت اور تقدیر پر یقین کا نام ہے تو میں مومن ہوں (needs_source) {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep08 00:26:00}۔ وہ بتاتے ہیں کہ انہوں نے دوسرا جواب دیا کہ اگر ایمان یہ ہے کہ اللہ کے ذکر پر دل کانپ اٹھے تو بھی میں مومن ہوں [[passage/quran-8-2|الانفال 2]] {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep08 00:26:30}۔ شیخ ابو بکر کا قول یاد کرتے ہیں کہ اگر ان کا ایک پاؤں جنت میں اور دوسرا باہر ہو تو بھی وہ اللہ کی تدبیر سے بے خوف نہ ہوں (needs_source) {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep08 00:26:30} {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep08 00:27:00}۔
+
+## شیخ عمر عبدالکافی کے درس سے: الدین القیم
+
+شیخ بیان کرتے ہیں کہ ابن القیم نے اپنے استاد ابن تیمیہ کو ایسا بیان کیا کہ انہوں نے اپنی خواہش کو اس حد تک مغلوب کیا کہ خواہش ان پر حاکم نہ رہی (needs_source: بیان مفہوم کے طور پر ہے) {cite:assabile-omar-abdelkafy al-dinu-al-qayem/ep03 01:13:00} {cite:assabile-omar-abdelkafy al-dinu-al-qayem/ep06 00:39:00}۔
+
+وہ ابن تیمیہ کا ایک قول نقل کرتے ہیں کہ اللہ عادل ریاست کو فتح دیتا ہے اگرچہ وہ غیر مسلم ہو، اور شیخ اس قول کو اس قسط میں دہراتے ہیں (needs_source: قول شیخ کے بیان کے مطابق ہے، اس قسط میں اس کا ماخذ درج نہیں) {cite:assabile-omar-abdelkafy al-dinu-al-qayem/ep09 00:43:30}۔
+
+:::perspectives
+- **Sunni view: not yet sourced**: not yet attributed.
+- **speaker's view (opinion)**: شیخ کے نزدیک، ابن تیمیہ کے قول سے استدلال کرتے ہوئے، عادل ریاست کو فتح دی جا سکتی ہے اگرچہ وہ مسلم نہ ہو {cite:assabile-omar-abdelkafy al-dinu-al-qayem/ep09 00:43:30}۔
+- **academic view: not yet sourced**: not yet attributed.
+- **other view: not yet sourced**: not yet attributed.
+:::

@@ -61,3 +61,18 @@ He says that faith increases and decreases: obedience increases it and sin reduc
 - **academic view: not yet sourced**: not yet attributed.
 - **other view: not yet sourced**: not yet attributed.
 :::
+
+## From Sheikh Omar Abdelkafy's lecture series Al Dinu Al Qayem
+
+The Sheikh speaks of the branches of faith. He says faith has some sixty branches, the highest of which is the testimony that there is no god but God and the lowest of which is removing harm from the road, and that shame is one of its branches (needs_source: the number) {cite:assabile-omar-abdelkafy al-dinu-al-qayem/ep01 00:05:30}. He holds that the Muslim society must return to the branches of faith, that the first of them is the testimony, and that Abu Jahl understood its meaning {cite:assabile-omar-abdelkafy al-dinu-al-qayem/ep01 00:39:00}.
+
+The Sheikh says that faith requires the unseen, so that one cannot linguistically say "I believe" of what stands visibly before one's eyes {cite:assabile-omar-abdelkafy al-dinu-al-qayem/ep02 00:03:30}. He likens faith to a ray of light that fills a vessel, and he cites a report that the Prophet described Mu'adh as filled with faith to the marrow of his heart {cite:assabile-omar-abdelkafy al-dinu-al-qayem/ep02 00:07:00}. He holds that the first step of faith is to love one's Lord, since He is most worthy of love, and that faith is a security for a person in this world that continues into the next {cite:assabile-omar-abdelkafy al-dinu-al-qayem/ep02 00:09:00}.
+
+He places the measure of faith in outward submission to God's law and inward surrender to His decree {cite:assabile-omar-abdelkafy al-dinu-al-qayem/ep02 01:07:30}, and says that faith is not appearance but what settles in the heart and is made true by deeds {cite:assabile-omar-abdelkafy al-dinu-al-qayem/ep02 00:53:00}. The Sheikh holds, as his own opinion, that the most refined hearts are the most faithful, and that the believer's heart is soft {cite:assabile-omar-abdelkafy al-dinu-al-qayem/ep04 00:49:30}.
+
+:::perspectives
+- **Sunni view: not yet sourced**: not yet sourced.
+- **speaker's view (opinion)**: The Sheikh criticizes separating faith from works, that is, the claim that sin does no harm to faith; he calls it a Murji'a idea and counts the Murji'a among the obstacles that led Muslims into confusion {cite:assabile-omar-abdelkafy al-dinu-al-qayem/ep05 00:06:30}.
+- **academic view: not yet sourced**: not yet sourced.
+- **other view: not yet sourced**: not yet sourced.
+:::

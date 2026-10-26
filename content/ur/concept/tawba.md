@@ -53,3 +53,9 @@ translators: ["Claude Haiku 5.5 (claude-haiku-5-5), draft translation"]
 ## شیخ عمر عبد الکافی کے شرح کتاب الفوائد کے درس (قسط 4)
 شیخ ایک سوال و جواب میں بیان کرتے ہیں کہ انہوں نے توبہ کی حقیقت پوچھی تو جواب یہ ملا کہ بندہ اپنا گناہ بھول جائے (needs_source: سوال اور جواب دینے والے کے الفاظ متن میں واضح نہیں) {cite:assabile-omar-abdelkafy sharh-ketab-al-fawaed/ep04 00:28:30}۔
 اسی گفتگو میں شیخ توبہ کی وضاحت کرتے ہیں کہ یہ جفا کی حالت، یعنی اللہ سے دوری اور دل کی سختی، سے وفا کی حالت، یعنی اللہ کے ساتھ وفاداری، کی طرف انتقال ہے (شیخ کی رائے) (needs_source: متن کے بعض الفاظ مبہم ہیں) {cite:assabile-omar-abdelkafy sharh-ketab-al-fawaed/ep04 00:29:00} {cite:assabile-omar-abdelkafy sharh-ketab-al-fawaed/ep04 00:29:30}۔
+
+## شیخ عمر عبدالکافی کے درس سے: الدین القیم
+
+شیخ کہتے ہیں کہ ہر کام کے لیے توبہ ضروری ہے، اور توبہ کی بنیاد یہ ہے کہ حقوق ان کے مالکوں کو لوٹائے جائیں، تاکہ لوگوں میں انصاف اور رحمت عام ہو {cite:assabile-omar-abdelkafy al-dinu-al-qayem/ep10 00:07:30}۔ وہ توبہ کو اللہ کی طرف لوٹنا بیان کرتے ہیں، اور کہتے ہیں کہ اللہ توبہ کرنے والوں سے محبت رکھتا ہے {cite:assabile-omar-abdelkafy al-dinu-al-qayem/ep13 00:06:30}۔ ان کے مطابق اللہ توبہ کرنے والوں کے گناہوں کو نیکیوں سے بدل دیتا ہے {cite:assabile-omar-abdelkafy al-dinu-al-qayem/ep02 00:38:30}۔
+
+شیخ کہتے ہیں کہ اللہ گناہ معاف کرتا ہے مگر شرک کو معاف نہیں کرتا، اور اس کے سوا جسے چاہے معاف کر دیتا ہے {cite:assabile-omar-abdelkafy al-dinu-al-qayem/ep13 00:08:30} {cite:assabile-omar-abdelkafy al-dinu-al-qayem/ep13 00:17:30}۔

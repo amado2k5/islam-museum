@@ -17,3 +17,9 @@ al-Waqidi says it was in 15 AH, and al-Tabari gives the report of Sayf that it w
 In al-Tabari's account, Abu Ubayda called for the march after the defeat, and the Muslims halted at Marj al-Saffar, and then at Damascus. {cite:tabari-tarikh-abu-al-fadl j.3 p.404}
 
 The page number in al-Baladhuri's account is not given in the data file, and it needs review.
+
+## From Sheikh Omar Abdelkafy's lecture series Al Dinu Al Qayem
+
+The speaker recounts that Khalid ibn al-Walid's cap, in which he kept some of the Prophet's hair, fell in the thick of the battle of Yarmuk. Khalid left the fighting and the command, and people began searching for it {cite:assabile-omar-abdelkafy al-dinu-al-qayem/ep12 00:15:30}.
+
+In the judge's sermon that the speaker recites, "the epics of Yarmuk" are named among the army's deeds {cite:assabile-omar-abdelkafy al-dinu-al-qayem/ep07 00:29:30}.

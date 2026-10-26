@@ -23,17 +23,17 @@ The Sheikh relates that al-Hasan wept and said that if God tests them He would e
 
 ## From the series Al Fawzu Al Moubeen
 
-The Sheikh relates that al-Hasan preferred reading from the mushaf to reciting from memory, because looking into it gives the eye a share of light, and that the mushaf testifies for the reader and pleads on his behalf (needs_source: attribution garbled) {cite:assabile-omar-abdelkafy al-fawzu-al-moubeen/ep02 00:33:00}.
+The Sheikh relates that al-Hasan preferred reading from the mushaf to reciting from memory, because looking into it gives the eye a share of light, and that the mushaf testifies for the reader and pleads on his behalf (needs_source: attribution garbled) {cite:assabile-omar-abdelkafy al-fawzu-al-moubeen/ep02 00:32:30} {cite:assabile-omar-abdelkafy al-fawzu-al-moubeen/ep02 00:33:00}.
 
-He transmits al-Hasan's saying that the people of the world wronged themselves and were not wronged, and that the patient poor man and the grateful rich man both await what is with God (needs_source: source of the saying not named) {cite:assabile-omar-abdelkafy al-fawzu-al-moubeen/ep05 00:20:00}.
+He transmits al-Hasan's comparison between the believers and the people of the world in food, clothing and drink; the Sheikh says the grateful rich man is better than the patient poor man, and that the servant awaits what is with God (needs_source: source of the saying not named) {cite:assabile-omar-abdelkafy al-fawzu-al-moubeen/ep05 00:20:00}.
 
-He relates that people saw a light on the face of Muhammad ibn Sirin, and that al-Hasan, who was dark-complexioned, also showed a light. Asked about it, al-Hasan answered that his people had been alone with God in the dark of night, so He clothed them in beauty; the Sheikh concludes that what counts is the purity of the heart (needs_source: anecdote unsourced) {cite:assabile-omar-abdelkafy al-fawzu-al-moubeen/ep11 00:04:30}.
+He relates that people saw a light on the face of Muhammad ibn Sirin, and that al-Hasan, who was dark-complexioned, also showed a light. Asked about it, al-Hasan answered that his people had been alone with God in the dark of night, so He clothed them in beauty; the Sheikh concludes that what counts is the purity of the heart (needs_source: anecdote unsourced) {cite:assabile-omar-abdelkafy al-fawzu-al-moubeen/ep11 00:04:30} {cite:assabile-omar-abdelkafy al-fawzu-al-moubeen/ep11 00:05:00}.
 
-He relates that al-Hasan saw small cells in Basra and said they would one day be inhabited, and he draws from this a warning about the danger of following the ruler (needs_source: anecdote unsourced) {cite:assabile-omar-abdelkafy al-fawzu-al-moubeen/ep11 00:12:00}.
+He relates that al-Hasan saw small cells and said they would one day be inhabited, and he draws from this a warning about the danger of following the ruler (needs_source: anecdote unsourced) {cite:assabile-omar-abdelkafy al-fawzu-al-moubeen/ep11 00:12:00}.
 
-He relates that the household of al-Hasan had only a little egg left, that a girl of the house gave nine eggs in charity to a poor man, and that a rich neighbour then sent a basket of eggs {cite:assabile-omar-abdelkafy al-fawzu-al-moubeen/ep10 00:13:00}.
+He relates that the household of al-Hasan had only a little egg left, that a girl of the house gave nine eggs in charity to a poor man, and that a rich neighbour then sent a basket of eggs {cite:assabile-omar-abdelkafy al-fawzu-al-moubeen/ep10 00:13:00} {cite:assabile-omar-abdelkafy al-fawzu-al-moubeen/ep10 00:13:30}.
 
-He relates that al-Hasan visited a sad man and asked whether what was happening to him was in God's sight or far from it, and then compared this to a mother watching over her son {cite:assabile-omar-abdelkafy al-fawzu-al-moubeen/ep10 00:37:00}.
+He relates that al-Hasan visited a sad man and asked whether what was happening to him was in God's sight or far from it, and then compared this to a mother watching over her son {cite:assabile-omar-abdelkafy al-fawzu-al-moubeen/ep10 00:36:30} {cite:assabile-omar-abdelkafy al-fawzu-al-moubeen/ep10 00:37:00}.
 
 ## From Sheikh Omar Abdelkafy's Tafsir lectures (episode 2)
 The Sheikh relays from al-Hasan al-Basri the advice that a person open the mushaf even if he does not read from it and say: I renew my covenant with God, so that his eye falls on a verse; he calls on people to open a page every day before work, and likens this to recording attendance with an eye or hand fingerprint on entering a workplace (needs_source) {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep02 00:11:30}.
@@ -45,3 +45,9 @@ The Sheikh says that happiness is inside the heart and not in what the eye sees,
 The Sheikh mentions that anyone going to Iraq, Kufa or Basra had to attend al-Hasan's session {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep09 00:33:00}. He says he was called the nursling of Umm Salama, that Umm Salama was eighty years old when she nursed him as a crying child, that God made milk flow in her breast, and he counts this a miracle; he says al-Hasan spoke only wisdom (needs_source) {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep09 00:33:00}.
 
 He says al-Hasan lived among the Companions and the Followers and studied from them and under them, among them Sa'id ibn al-Musayyib and Ata ibn Abi Rabah, until the matter reached a great elder such as Abu Dharr in the year 36 AH, and he begins to quote a saying of his about the condition of the people (needs_source) {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep09 00:34:00}. He relates that al-Hasan was asked: what do you do with Satan, imam? He replied that obeying him brings no benefit and disobeying him does no harm, and the Sheikh remarks that it is only a matter of an hour's patience (needs_source) {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep09 00:35:30}. He calls on people to live their day: yesterday is a cheque already cashed, tomorrow is a postdated cheque whose time has not come, so the believer should not carry tomorrow's worry {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep09 00:36:00}.
+
+## From Sheikh Omar Abdelkafy's lecture series Al Dinu Al Qayem
+
+Sheikh Omar Abdelkafy recounts an anecdote about al-Hasan al-Basri and a governor, in which al-Hasan contrasts a petty thief with one who steals public funds {cite:assabile-omar-abdelkafy al-dinu-al-qayem/ep01 00:29:30}.
+
+He quotes al-Hasan al-Basri's saying that the believers possess a blessing which kings would fight over with swords, and he applies it to the blessing of faith {cite:assabile-omar-abdelkafy al-dinu-al-qayem/ep12 01:09:00}.

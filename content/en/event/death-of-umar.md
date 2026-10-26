@@ -15,3 +15,15 @@ al-Suyuti relates that Umar told his companions that the slave had threatened hi
 
 ## Dating
 al-Tabari's index places the account in the fourth volume, in 23 AH. {cite:tabari-tarikh-abu-al-fadl j.4}
+
+## From Sheikh Omar Abdelkafy's lecture series Al Dinu Al Qayem
+
+The speaker recounts that Abu Lu'lu'a, a Persian man, complained to Umar about a daily tax his master took from him, which he said was seven dirhams (needs_source). Umar asked him his trade; he said carpenter, smith and stonemason, and Umar judged that the tax was not much {cite:assabile-omar-abdelkafy al-dinu-al-qayem/ep10 00:43:00} {cite:assabile-omar-abdelkafy al-dinu-al-qayem/ep10 00:43:30}.
+
+He recounts that Umar heard Abu Lu'lu'a was making a wind-powered mill, and then heard that Abu Lu'lu'a had threatened to make him a mill that the whole world would talk about. Umar took the threat seriously {cite:assabile-omar-abdelkafy al-dinu-al-qayem/ep10 00:44:00} {cite:assabile-omar-abdelkafy al-dinu-al-qayem/ep10 00:44:30}. He recalls that Abu Lu'lu'a used to pass Persian captives in the days of Qadisiyya (partly unclear) {cite:assabile-omar-abdelkafy al-dinu-al-qayem/ep10 00:44:30}.
+
+He recounts Umar's dream, in which someone pecked him three times, and then a foreign boy stabbed him three times at the dawn prayer while he was straightening the rows {cite:assabile-omar-abdelkafy al-dinu-al-qayem/ep10 00:45:00} {cite:assabile-omar-abdelkafy al-dinu-al-qayem/ep10 00:45:30}.
+
+He says the assailant killed nine worshippers and wounded thirteen before he was seized (needs_source) {cite:assabile-omar-abdelkafy al-dinu-al-qayem/ep10 00:46:00}. He recounts that Abd al-Rahman ibn Awf threw a cloak over the assailant, who then stabbed himself and died {cite:assabile-omar-abdelkafy al-dinu-al-qayem/ep10 00:46:30}.
+
+He remarks that three of the four caliphs were killed, yet the creed and its ideas remained {cite:assabile-omar-abdelkafy al-dinu-al-qayem/ep10 00:47:00}. He says that as soon as Umar fell, he named the six men for the council {cite:assabile-omar-abdelkafy al-dinu-al-qayem/ep10 00:47:00}.

@@ -34,3 +34,9 @@ Some Shafi'is allow a guardian to marry a woman to a non-equal out of necessity 
 
 ## A mother's speech about her daughter's marriage
 The Malikis say a mother may object to her former husband's marriage of their rich daughter to a poor man when harm is clear; the Mudawwana gives two reports and the scholars differ on how to reconcile them {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.13304}.
+
+## From Sheikh Omar Abdelkafy's lecture series Al Dinu Al Qayem
+
+The Sheikh speaks of equality in marriage (kafa'a). He says that material wealth is a loan that goes and returns, that some daughters bear hardship and ease alike, and that a woman raised in comfort can live at any level afterwards {cite:assabile-omar-abdelkafy al-dinu-al-qayem/ep08 00:16:00} {cite:assabile-omar-abdelkafy al-dinu-al-qayem/ep08 00:16:30}.
+
+He reports that Abd al-Rahman ibn Awf offered his sister in marriage to Bilal ibn Rabah (needs_source: the details of the report) {cite:assabile-omar-abdelkafy al-dinu-al-qayem/ep08 00:18:30}. The Sheikh holds, as his own view, that the Companions judged people by their piety rather than their standing (needs_source) {cite:assabile-omar-abdelkafy al-dinu-al-qayem/ep08 00:20:00}. He cites the saying "choose the woman of religion, and may your hands be rubbed with dust", and says that true beauty is of the soul rather than of appearance {cite:assabile-omar-abdelkafy al-dinu-al-qayem/ep08 00:24:00}.

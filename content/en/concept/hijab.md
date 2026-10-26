@@ -36,3 +36,20 @@ The Sheikh says that all bliss lies in looking upon the face of the Generous and
 :::
 
 According to the Sheikh, Aisha related that she admired the women of the Ansar when the verses of the hijab were revealed: each woman tore her wrap in two and gave half to her sister, and they covered themselves with it and came out of the mosque {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep09 00:41:00}.
+
+## From Sheikh Omar Abdelkafy's lecture series Al Dinu Al Qayem
+
+The Sheikh says, as his own opinion, that he defended the hijab in a lecture in Paris, comparing the turban of a leader with a headscarf to show what he sees as an inconsistency in the French position; he also says that Muslim girls in Paris came first in the national secondary exams (needs_source) {cite:assabile-omar-abdelkafy al-dinu-al-qayem/ep01 00:51:30} {cite:assabile-omar-abdelkafy al-dinu-al-qayem/ep01 00:52:00}.
+
+He compares dress to uniform: as police and soldiers are known by their uniforms, he says, the Muslim is known only by the hijab {cite:assabile-omar-abdelkafy al-dinu-al-qayem/ep03 00:26:00}. He advises a woman to keep her lawful dress and not to surrender her religion for a job, since provision comes from God {cite:assabile-omar-abdelkafy al-dinu-al-qayem/ep07 01:14:00} {cite:assabile-omar-abdelkafy al-dinu-al-qayem/ep07 01:14:30}.
+
+The Sheikh holds, as his own opinion, that a husband who wants his wife to wear the hijab should first set a good example in his own conduct {cite:assabile-omar-abdelkafy al-dinu-al-qayem/ep08 01:07:30}. If a wife refuses the hijab, he advises the husband to be patient with her and to pray for her guidance, rather than to divorce her {cite:assabile-omar-abdelkafy al-dinu-al-qayem/ep08 01:08:30}. He advises the mother of a daughter who gave up the hijab to pray for her and to look for the gap through which Satan entered the household {cite:assabile-omar-abdelkafy al-dinu-al-qayem/ep04 01:06:30} {cite:assabile-omar-abdelkafy al-dinu-al-qayem/ep04 01:07:00}.
+
+He describes a schoolgirl whose veil was lifted gradually, step by step, and says the story may be symbolic (needs_source) {cite:assabile-omar-abdelkafy al-dinu-al-qayem/ep11 01:17:00}.
+
+:::perspectives
+- **Sunni view: not yet sourced**: not yet sourced.
+- **speaker's view (opinion)**: The Sheikh holds that the hijab is how a Muslim is recognized, that a husband should set an example before asking his wife to wear it, and that patience and prayer are better than divorce when a wife refuses {cite:assabile-omar-abdelkafy al-dinu-al-qayem/ep03 00:26:00} {cite:assabile-omar-abdelkafy al-dinu-al-qayem/ep08 01:07:30} {cite:assabile-omar-abdelkafy al-dinu-al-qayem/ep08 01:08:30}.
+- **academic view: not yet sourced**: not yet sourced.
+- **other view: not yet sourced**: not yet sourced.
+:::

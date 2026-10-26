@@ -63,3 +63,16 @@ The Sheikh states a principle of legal theory: a disputed matter does not become
 - **The speaker's view (opinion)**: The Sheikh holds that a disputed matter does not become a binding ruling on others, so neither Abu Hanifa's view nor al-Shafi'i's is binding, and nobody is bound beyond what a clear verse shows; he adds that hadith scholars may weaken some hadiths and that matters of creed need what comes from the Book of God {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep07 00:27:30} {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep07 00:28:00} {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep07 00:28:30}.
 - **Academic and other views (not yet sourced)**: Academic and other views have not yet been sourced.
 :::
+
+## From Sheikh Omar Abdelkafy's lecture series Al Dinu Al Qayem
+
+The presenter asks how to handle the disagreement among jurists, and the fact that some judge others to be wrong {cite:assabile-omar-abdelkafy al-dinu-al-qayem/ep01 00:16:30}. The Sheikh holds, as his own opinion, that a scholar may argue by evidence, that argument is not in itself forbidden, and he says that Arabs have not raised their children in the manners of disagreement and dialogue (needs_source) {cite:assabile-omar-abdelkafy al-dinu-al-qayem/ep01 00:17:00}.
+
+The Sheikh poses the question whether conspiracy, or internal disputes among believers, explains the defeat of Muslims in Iraq (needs_source) {cite:assabile-omar-abdelkafy al-dinu-al-qayem/ep10 00:39:00}.
+
+:::perspectives
+- **Sunni view: not yet sourced**: not yet sourced.
+- **speaker's view (opinion)**: The Sheikh holds that disagreement among scholars is addressed by argument and dialogue, not by judging the one who disagrees to be wrong, and that a scholar may argue by evidence {cite:assabile-omar-abdelkafy al-dinu-al-qayem/ep01 00:17:00}.
+- **academic view: not yet sourced**: not yet sourced.
+- **other view: not yet sourced**: not yet sourced.
+:::

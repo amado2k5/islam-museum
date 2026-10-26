@@ -56,3 +56,18 @@ A man of the Ansar said: "I am its rubbed stump and its tall palm; from us a lea
 - The account of the portico comes from Umar through the chain of Ibn Abbas and Ibn Awf; Ibn Ishaq relays the report from al-Zuhri from Urwa. Several chains exist for the event. {cite:ibn-hisham-saqqa 4/307}
 - Ibn Hisham's margin explains "al-taghra" as fear that the two would be killed for being alone away from the group. {cite:ibn-hisham-saqqa 4/309}
 - In the first copy "zaghat" appears in place of "zallat"; in the margins "al-murajjab" comes from "al-rajba". {cite:ibn-hisham-saqqa 4/308}
+
+## From Sheikh Omar Abdelkafy's lecture series Al Dinu Al Qayem
+
+The speaker recounts that after the Prophet's death, Abu Bakr and Umar went to the Saqifa of Bani Sa'ida {cite:assabile-omar-abdelkafy al-dinu-al-qayem/ep01 01:08:00}.
+
+He recounts that Umar called on Abu Bakr to be pledged allegiance, and Abu Bakr asked Umar to pledge to him instead. Each put the other's merit first: Umar said Abu Bakr was better than he, and Abu Bakr said his merit lay in Umar's strength {cite:assabile-omar-abdelkafy al-dinu-al-qayem/ep01 01:08:30}.
+
+He says the Prophet gave signs toward Abu Bakr but left the choice to the Companions {cite:assabile-omar-abdelkafy al-dinu-al-qayem/ep05 00:34:30}. He recounts that when the Ansar wanted a ruler from among themselves, Abu Bakr told them not to be the first to convert and the last to change, and that the matter was settled at that first moment {cite:assabile-omar-abdelkafy al-dinu-al-qayem/ep05 00:35:00}.
+
+:::perspectives
+- **Sunni view: not yet sourced**: not yet attributed.
+- **speaker's view (Omar Abdelkafy)**: The speaker recounts that the Prophet gave signs toward Abu Bakr and left the choice to the Companions, and that Abu Bakr's words to the Ansar settled the matter at the first moment {cite:assabile-omar-abdelkafy al-dinu-al-qayem/ep05 00:34:30} {cite:assabile-omar-abdelkafy al-dinu-al-qayem/ep05 00:35:00}.
+- **academic view: not yet sourced**: not yet attributed.
+- **other view: not yet sourced**: not yet attributed.
+:::

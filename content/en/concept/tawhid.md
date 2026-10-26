@@ -46,3 +46,9 @@ Affirming that God is one, without partner or likeness, and denying Him any asso
 ## From Sheikh Omar Abdelkafy's Tafsir lectures (episode 10)
 
 The Sheikh says that the whole creation bears witness to God's oneness and to His Messenger's messengerhood, and then bears witness for the believers that they are the ones who hold the oneness {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep10 00:20:00}. He says that the testimony of oneness belongs specially to the believers, meaning everyone who says that there is no god but God, and not merely those who attend the mosque outwardly {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep10 00:20:00}.
+
+## From Sheikh Omar Abdelkafy's lecture series Al Dinu Al Qayem
+
+The Sheikh says that the angels thank the believers who brought the pure fruit of monotheism (tawhid) to this House and spread the sanctification and glorification of God {cite:assabile-omar-abdelkafy al-dinu-al-qayem/ep07 00:38:30}. He holds, as his own opinion, that al-Aqsa will return only through pure monotheism in all its parts, lordship, divinity, names and attributes, free of shirk and innovation (needs_source) {cite:assabile-omar-abdelkafy al-dinu-al-qayem/ep07 01:08:00}.
+
+He relays Ibn 'Ata's saying that what veils the servant from God is his imagining that something shares in His power (needs_source) {cite:assabile-omar-abdelkafy al-dinu-al-qayem/ep11 00:03:30}.

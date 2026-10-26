@@ -34,6 +34,17 @@ The battle set down important principles. It broke the last armed polytheist gat
 ## For young visitors
 The Muslims went out with a large army, and the enemy surprised them with an ambush in the valley early in the morning, so some of them fell back. But the Prophet stood firm and called to his Companions bravely; they came back and won. Afterwards he forgave many of those who had fought him.
 
+## From Sheikh Omar Abdelkafy's lecture series Al Dinu Al Qayem
+
+The speaker says Hunayn was the battle in which the Muslims outnumbered the enemy and were nonetheless defeated. He gives the figures as about twelve thousand Muslims and four thousand of the enemy (needs_source) {cite:assabile-omar-abdelkafy al-dinu-al-qayem/ep02 00:24:30}.
+
+He says the Muslims fought about twenty-eight expeditions in the Prophet's lifetime and were defeated only at the start of Hunayn (needs_source) {cite:assabile-omar-abdelkafy al-dinu-al-qayem/ep10 00:30:30}. The speaker's view (opinion): the tide turned when the Muslims understood "there is no god but God". This is his reading of the event, not a historical report {cite:assabile-omar-abdelkafy al-dinu-al-qayem/ep10 00:31:00}.
+
+He recounts that the army fled from around the Prophet at Hunayn, and sets this beside the archers at Uhud who left the gap that Khalid ibn al-Walid then entered {cite:assabile-omar-abdelkafy al-dinu-al-qayem/ep11 00:45:30}.
+
+He says Abu Sufyan had noble conduct before Islam, and that Islam added to it: on the day of Hunayn a word of his steadied the people {cite:assabile-omar-abdelkafy al-dinu-al-qayem/ep03 00:46:30}.
+
+He returns to the sizes of the armies: about twelve thousand Muslims, of whom ten thousand were from Medina at the conquest of Mecca, against about four thousand of Hawazin (needs_source) {cite:assabile-omar-abdelkafy al-dinu-al-qayem/ep13 01:15:30}.
 ## For Sprouts
 In year 8 of the Hijra the Muslims set out from Mecca with a large army, and in the valley of Hunayn between Mecca and Ta'if they met the armies of the tribes Hawazin and Thaqif. The enemy's ambush worked at first, but the Prophet stood firm and called the Muslims back, and they returned and won. From the spoils of this battle the Prophet gave gifts to many people to soften their hearts.
 

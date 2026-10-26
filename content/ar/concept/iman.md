@@ -61,3 +61,18 @@ translators: []
 - **academic view: not yet sourced**: لم يُنسب بعد.
 - **other view: not yet sourced**: لم يُنسب بعد.
 :::
+
+## من درس الشيخ عمر عبد الكافي: الدين القيم
+
+يتناول الشيخ شُعَب الإيمان، فيقول إن الإيمان بضعٌ وستون شعبة، أعلاها قول «لا إله إلا الله»، وأدناها إماطة الأذى عن الطريق، وإن الحياء شعبة منه (needs_source: العدد) {cite:assabile-omar-abdelkafy al-dinu-al-qayem/ep01 00:05:30}. ويرى أن المجتمع المسلم يحتاج أن يعود إلى شعب الإيمان، وأن أولاها الشهادة، وأن أبا جهل فهم معناها {cite:assabile-omar-abdelkafy al-dinu-al-qayem/ep01 00:39:00}.
+
+ويقول الشيخ إن الإيمان لا يكون إلا بالغيب، فلا يصح لغةً أن يقول المرء «أؤمن» بما يراه أمام عينيه {cite:assabile-omar-abdelkafy al-dinu-al-qayem/ep02 00:03:30}. ويشبّه الإيمان بالنور الذي يملأ الإناء، ويذكر أن النبي وصف معاذا بأن الإيمان امتلأ به إلى مشاشة قلبه {cite:assabile-omar-abdelkafy al-dinu-al-qayem/ep02 00:07:00}. ويرى أن أول خطوات الإيمان أن يحب الإنسان ربه لأنه أولى بالمحبة، وأن الإيمان أمن للإنسان في الدنيا فيستمر في الآخرة {cite:assabile-omar-abdelkafy al-dinu-al-qayem/ep02 00:09:00}.
+
+ويجعل الشيخ ميزان الإيمان في امتثال الشرع ظاهرا والاستسلام لقضاء الله وقدره باطنا {cite:assabile-omar-abdelkafy al-dinu-al-qayem/ep02 01:07:30}، ويقول إن الإيمان ليس مظهرا، وإنما ما استقر في القلب وصدق فيه العمل {cite:assabile-omar-abdelkafy al-dinu-al-qayem/ep02 00:53:00}. ويرى، وهذا رأي شخصي له، أن أرقى الناس أفئدةً أكثرُهم إيمانا، وأن قلب المؤمن رقيق {cite:assabile-omar-abdelkafy al-dinu-al-qayem/ep04 00:49:30}.
+
+:::perspectives
+- **أهل السنة: لم يُصدر بعد (not yet sourced)**: لم يُنسب بعد.
+- **speaker's view (opinion)**: ينتقد الشيخ الفصل بين الإيمان والعمل، أي القول بأن المعصية لا تضر مع الإيمان، ويصفه بأنه فكر إرجائي، ويعدّ الإرجاء من العقبات التي أدخلت المسلمين في التيه {cite:assabile-omar-abdelkafy al-dinu-al-qayem/ep05 00:06:30}.
+- **academic view: not yet sourced**: لم يُنسب بعد.
+- **other view: not yet sourced**: لم يُنسب بعد.
+:::

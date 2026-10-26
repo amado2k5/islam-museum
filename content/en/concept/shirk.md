@@ -16,3 +16,9 @@ The author states that all intercession belongs to God, that an intercessor inte
 
 ## For the reader
 This is the author's view. A general definition of shirk from the wider tradition is not yet included and needs its own sources.
+
+## From Sheikh Omar Abdelkafy's lecture series Al Dinu Al Qayem
+
+The Sheikh relates that the Prophet ordered the tree of Ridwan to be cut down, to uproot the seed of shirk, lest people one day sit beneath it and say that the Messenger of God sat there {cite:assabile-omar-abdelkafy al-dinu-al-qayem/ep03 00:38:30} {cite:assabile-omar-abdelkafy al-dinu-al-qayem/ep03 00:39:00}. He recounts Umar's life before Islam and an idol that he worshipped, and a boy who mocked an idol that could neither eat nor answer (needs_source: the details of the story) {cite:assabile-omar-abdelkafy al-dinu-al-qayem/ep03 00:37:30} {cite:assabile-omar-abdelkafy al-dinu-al-qayem/ep03 00:38:00}.
+
+He says that Abraham mocked those who buy what neither benefits nor harms (needs_source) {cite:assabile-omar-abdelkafy al-dinu-al-qayem/ep04 01:09:30} {cite:assabile-omar-abdelkafy al-dinu-al-qayem/ep04 01:10:00}. He says that God does not forgive shirk, and forgives what lies below it to whomever He wills {cite:assabile-omar-abdelkafy al-dinu-al-qayem/ep13 00:17:30}.

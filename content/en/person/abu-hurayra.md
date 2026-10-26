@@ -30,3 +30,13 @@ Abu Hurayra (c. 19 BH – 57 AH / 603–678 CE), the foremost narrator of Hadith
 
 ## Abu Hurayra in Sheikh Omar Abdelkafy's lessons (episode 3)
 The Sheikh relates that a man asked Abu Hurayra about the interval between the two blasts; Abu Hurayra gave a figure and then drew back, and the telling is broken off (needs_source). {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep03 00:24:30} {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep03 00:25:00}
+
+## From Sheikh Omar Abdelkafy's lecture series Al Dinu Al Qayem
+
+Sheikh Omar Abdelkafy holds, as his own opinion, that accountability weakens when people hesitate to scrutinise officials, and he tells of Abu Hurayra, who was placed over Bahrain and was charged with trade {cite:assabile-omar-abdelkafy al-dinu-al-qayem/ep05 00:17:00}.
+
+He says Umar checked the matter and found the trade was far from his office. When Abu Hurayra's innocence was established, Abu Hurayra asked to be relieved, and Umar told him to return to his work (partly unclear) {cite:assabile-omar-abdelkafy al-dinu-al-qayem/ep05 00:17:30}.
+
+Sheikh Omar Abdelkafy holds, as his own opinion, that the Companions did not compete for seats of power, and that such ethics come from "la ilaha illa Allah"; he mentions Abu Hurayra in this context {cite:assabile-omar-abdelkafy al-dinu-al-qayem/ep05 00:18:30}.
+
+He sets the responses of Umar and Abu Hurayra to office against each other as opposite attitudes {cite:assabile-omar-abdelkafy al-dinu-al-qayem/ep05 00:25:30}, and says these ethics bore fruit because God's tree was planted in the heart {cite:assabile-omar-abdelkafy al-dinu-al-qayem/ep05 00:29:30}.

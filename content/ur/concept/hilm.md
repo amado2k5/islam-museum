@@ -18,3 +18,9 @@ translators: ["Claude Haiku 5.5 (claude-haiku-5-5), draft translation"]
 شیخ بیان کرتے ہیں کہ کچھ لوگوں نے ایک عرب شخص کو اشتعال دلانے کی شرط لگائی: انہوں نے ایک بکری ذبح کی اور اس کی کھال اتاری اس کے سامنے، مگر وہ ساکن رہا (needs_source)۔ {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep05 00:42:00} {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep05 00:42:30} {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep05 00:43:00}
 وہ بتاتے ہیں کہ انہوں نے سو اونٹ کی پیشکش کی، پھر ہزاروں تک کی رقمیں بتائیں، اور وہ شخص مشتعل نہ ہوا (needs_source)۔ {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep05 00:42:30} {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep05 00:44:30}
 وہ کہتے ہیں کہ فضل اللہ کا ہے نہ کہ نفس کا (needs_source)۔ {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep05 00:44:00}
+
+## شیخ عمر عبدالکافی کے درس سے: الدین القیم
+
+شیخ بیان کرتے ہیں کہ اللہ نے ان باتوں کا ذکر کیا جو مشرکین نبی کے بارے میں کہتے تھے، کہ وہ مجنون ہیں، جادوگر، کاہن اور شاعر ہیں، اور نبی صبر کرتے اور اسی طرح جواب نہیں دیتے تھے {cite:assabile-omar-abdelkafy al-dinu-al-qayem/ep06 00:40:00}۔ شیخ اپنی ذاتی رائے کے طور پر کہتے ہیں کہ لوگوں کو دل کی نرمی کی ضرورت ہے، اور باپ، بھائی یا ہمسائے کے ساتھ سختی سے کچھ حاصل نہیں ہوتا، اور سخت ہمسایہ نیکی چھپاتا اور برائی پھیلاتا ہے {cite:assabile-omar-abdelkafy al-dinu-al-qayem/ep09 00:34:30}۔
+
+شیخ بیان کرتے ہیں کہ عمر بن خطاب جب عباس سے ناراض ہوئے تو خاموش رہے، اور بعد میں عباس نے اپنا گھر بیت اللہ کے لیے وقف کر دیا (needs_source: واقعے کی تفصیل) {cite:assabile-omar-abdelkafy al-dinu-al-qayem/ep09 00:54:00}۔ وہ کہتے ہیں کہ اگر ہمسایہ نہ رکے اور نصیحت قبول نہ کرے تو آدمی کو صبر کرنا چاہیے اور نرمی سے نصیحت کرنی چاہیے {cite:assabile-omar-abdelkafy al-dinu-al-qayem/ep09 01:14:00}۔

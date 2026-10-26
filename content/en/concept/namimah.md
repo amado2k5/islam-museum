@@ -36,3 +36,9 @@ He continues that Musa repeated his plea, saying the sinner had not left; the do
 He says God answered that the man had repented in what lay between him and his Lord; Musa wanted to know the penitent in order to learn from him, and God said that He had concealed him while he sinned and would not expose him now that he had repented, and that since He forbids tale-bearing He would not be a tale-bearer Himself (needs_source) {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep05 00:18:30}.
 
 The Sheikh holds that carrying words in order to harm people is a trait we should be rid of, and that when a believer sees a sin he should dislike the sin without hating the sinner as a person {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep05 00:19:00}.
+
+## From Sheikh Omar Abdelkafy's lecture series Al Dinu Al Qayem
+
+The Sheikh holds, as his own opinion, that each person is answerable for what he says, and he asks whether people realise they will be held to account for all of it, naming gossip among the harms that speech does to people (needs_source: the examples) {cite:assabile-omar-abdelkafy al-dinu-al-qayem/ep07 00:55:00}. He recounts that Sa'd prayed against a man who spread lies about him, asking God to reveal the truth if the man was truthful and to show a sign against him if he was lying (needs_source: the details of the episode) {cite:assabile-omar-abdelkafy al-dinu-al-qayem/ep09 00:40:00}.
+
+He holds, as his own opinion, that slander, mockery and defamation are trials that keep the heart attached to God alone {cite:assabile-omar-abdelkafy al-dinu-al-qayem/ep06 00:39:30}.

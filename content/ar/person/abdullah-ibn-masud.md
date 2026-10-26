@@ -32,3 +32,15 @@ translators: []
 يروي الشيخ أن عبد الله بن مسعود جلس في ساحة يقرأ القرآن، فضربه أهل القرية (needs_source: رواية يرويها الشيخ دون مصدر في الدرس). {cite:assabile-omar-abdelkafy sharh-ketab-al-fawaed/ep02 01:08:00}
 
 يذكر الشيخ قولا ينسبه إلى ابن مسعود مفاده أنه لو سخر من كلب لخشي أن يصير كلبا (needs_source: قول منسوب دون إسناد في الدرس). {cite:assabile-omar-abdelkafy sharh-ketab-al-fawaed/ep04 00:25:30}
+
+## من درس الشيخ عمر عبد الكافي: الدين القيم
+
+يذكر الشيخ عبد الله بن مسعود في عدة مواضع. يعدّده في ثمار دار الأرقم بأنه مغني القرآن والصادق بكتاب الله {cite:assabile-omar-abdelkafy al-dinu-al-qayem/ep02 00:14:30} {cite:assabile-omar-abdelkafy al-dinu-al-qayem/ep02 00:15:00}، ويقول إن لكل صحابي صفة غالبة: لأبي بكر إنكار الذات، ولعمر قول الحق، ولابن مسعود القرآن {cite:assabile-omar-abdelkafy al-dinu-al-qayem/ep02 00:47:30}.
+
+ويروي الشيخ حديثًا يقول فيه النبي إن من أراد أن يسمع القرآن غضًّا كما أُنزل فليسمعه من ابن مسعود، ويذكر أنه كان الصحابي الوحيد المأذون له بالدخول على النبي في أي وقت دون إذن {cite:assabile-omar-abdelkafy al-dinu-al-qayem/ep06 00:27:00}. ويذكر أن ابن مسعود كان قصير القامة، ويقول إنه يُوزن يوم القيامة بما يفوق جبلًا {cite:assabile-omar-abdelkafy al-dinu-al-qayem/ep06 00:26:30} {cite:assabile-omar-abdelkafy al-dinu-al-qayem/ep06 00:27:00} (needs_source).
+
+ويحكي الشيخ قول ابن مسعود في الفتوى: ينسب إليه أنه كان يسمع في اليوم عشرًا أو عشرين فتوى (needs_source) {cite:assabile-omar-abdelkafy al-dinu-al-qayem/ep12 00:54:00}.
+
+ويرى الشيخ، رأيًا شخصيًا، أن كثيرًا من الناس يتكلمون ويفتون بغير علم، ولو عُرضت عليهم مسائلهم على ابن مسعود وابن عباس لتراجعوا كثيرًا قبل أن يفتوا {cite:assabile-omar-abdelkafy al-dinu-al-qayem/ep03 00:09:00}.
+
+ويذكر الشيخ أن بعض الصحابة تبعوا ابن مسعود فأمرهم بالرجوع، ويرويه قوله إن أتباعه ظلال خطأ لهم وفتنة له {cite:assabile-omar-abdelkafy al-dinu-al-qayem/ep11 00:29:30} {cite:assabile-omar-abdelkafy al-dinu-al-qayem/ep11 00:30:00}. ويرى الشيخ، رأيًا شخصيًا، أن الداعية الذي يطلب الأتباع والشهرة قد يضل الناس {cite:assabile-omar-abdelkafy al-dinu-al-qayem/ep11 00:29:30}.

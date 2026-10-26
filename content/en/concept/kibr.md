@@ -39,3 +39,7 @@ He holds that the self is absent from religion even in prayer, that when the sel
 ## From Sheikh Omar Abdelkafy's Tafsir lectures (episode 4)
 
 The Sheikh holds that a man who does not pray and a woman who does not wear the hijab are both arrogant towards God if they deny that this is required, unlike the sinner who admits his sin {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep04 00:42:30}.
+
+## From Sheikh Omar Abdelkafy's lecture series Al Dinu Al Qayem
+
+The Sheikh cites a saying that the arrogant person will not enter Paradise (needs_source: the wording of the saying) {cite:assabile-omar-abdelkafy al-dinu-al-qayem/ep08 00:25:00}. He holds, as his own opinion, that pride in Arab ethnicity is vain, and that no Arab has any superiority over others except by piety {cite:assabile-omar-abdelkafy al-dinu-al-qayem/ep05 00:23:30}. He offers popular proverbs about how fortune turns between people, and warns against a person being arrogant over what he has been given (needs_source) {cite:assabile-omar-abdelkafy al-dinu-al-qayem/ep09 01:10:00}.

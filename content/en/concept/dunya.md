@@ -24,3 +24,11 @@ The Sheikh says that the world is not a house of honour but a house of trial, an
 ## From Sheikh Omar Abdelkafy's Sharh Ketab al-Fawaed lectures (episode 5)
 He relates a saying, attributed to an unnamed person who was asked how he had found the world, that it is a house with two doors: he entered by one and left by the other (needs_source: the transcript does not make clear to whom the saying is attributed) {cite:assabile-omar-abdelkafy sharh-ketab-al-fawaed/ep05 00:29:00}.
 He quotes a saying of the Prophet: the believer is a stranger in this world, neither grieving over its glory nor despairing at its hardship {cite:assabile-omar-abdelkafy sharh-ketab-al-fawaed/ep05 01:02:00}.
+
+## From Sheikh Omar Abdelkafy's lecture series Al Dinu Al Qayem
+
+The Sheikh cites a saying in which the Prophet says that he does not fear poverty for his community, but fears that the world will be opened to them so that they compete for it and forget one another {cite:assabile-omar-abdelkafy al-dinu-al-qayem/ep06 00:06:00}. He says that whoever wakes up safe in his home, healthy in his body, with his daily food, has as it were been given the world in its entirety {cite:assabile-omar-abdelkafy al-dinu-al-qayem/ep07 00:50:30}.
+
+The Sheikh holds, as his own opinion, that worldly fortune is divided as a test and the fortune of the Hereafter as a reward, and that success must be met with gratitude {cite:assabile-omar-abdelkafy al-dinu-al-qayem/ep03 00:45:00}. He describes the world, for those who seek it, as a carcass, while the righteous see it for what it is {cite:assabile-omar-abdelkafy al-dinu-al-qayem/ep12 00:45:30}.
+
+The Sheikh holds, as his own view, that when the Companions honoured the Hereafter the world served them rather than ruling them, and that a person should use the world rather than serve it {cite:assabile-omar-abdelkafy al-dinu-al-qayem/ep12 00:49:00}. He quotes the saying: "O world, serve whoever serves you" {cite:assabile-omar-abdelkafy al-dinu-al-qayem/ep07 00:51:00}.

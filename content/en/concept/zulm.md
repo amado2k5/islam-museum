@@ -33,3 +33,11 @@ He holds that the tyrant's fire returns to him, since he planted fire in people'
 The Sheikh says that whoever bears injustice fails, whether it is injustice to the children of Adam, to society, to the community or to Islam, that his end is disappointment, and he asks God that we not be among the disappointed {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep07 00:39:30}.
 
 The Sheikh holds that any oppressor or criminal who kept before him on his desk the verse that tells of the request to return to the world after death might perhaps be restrained by it {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep07 00:42:30}.
+
+## From Sheikh Omar Abdelkafy's lecture series Al Dinu Al Qayem
+
+The Sheikh cites a sacred saying in which God says: "O My servants, I have forbidden injustice to Myself and made it forbidden among you, so do not wrong one another" {cite:assabile-omar-abdelkafy al-dinu-al-qayem/ep01 00:47:00}. He warns against wronging the weak, and names among them the orphan, the widow, the divorced woman, the wife and the sister {cite:assabile-omar-abdelkafy al-dinu-al-qayem/ep01 00:47:00}.
+
+He defines injustice as exceeding what is right, and urges people to measure themselves against the Qur'an and the Sunna, since many people do not know that they are wronging others {cite:assabile-omar-abdelkafy al-dinu-al-qayem/ep01 00:48:30}. He holds, as his own opinion, that answering ignorance with ignorance and injustice with injustice makes us ignorant and unjust ourselves {cite:assabile-omar-abdelkafy al-dinu-al-qayem/ep09 00:23:00}.
+
+He holds, as his own opinion, that the oppressor sees only himself, and does not imagine that the child he shelters will grow up to confront him; he gives the example of Pharaoh and the child of the Israelites {cite:assabile-omar-abdelkafy al-dinu-al-qayem/ep04 00:31:30}.

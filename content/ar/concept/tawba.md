@@ -53,3 +53,9 @@ translators: []
 ## من درس الشيخ عمر عبد الكافي: شرح كتاب الفوائد (الحلقة 4)
 يروي الشيخ في سؤال وجواب أنه سأل عن حقيقة التوبة، فكان الجواب أن ينسى العبد ذنبه (needs_source: لفظ السؤال والمجيب غير واضح في النص) {cite:assabile-omar-abdelkafy sharh-ketab-al-fawaed/ep04 00:28:30}.
 ويشرح الشيخ، في الحوار نفسه، أن التوبة انتقال من حال الجفاء، أي البعد وقسوة القلب، إلى حال الوفاء لله (رأيه) (needs_source: بعض ألفاظ النص مضطربة) {cite:assabile-omar-abdelkafy sharh-ketab-al-fawaed/ep04 00:29:00} {cite:assabile-omar-abdelkafy sharh-ketab-al-fawaed/ep04 00:29:30}.
+
+## من درس الشيخ عمر عبد الكافي: الدين القيم
+
+يقول الشيخ إن كل عمل يحتاج إلى التوبة، وإن أساس التوبة رد الحقوق إلى أصحابها، وإن العدل والرحمة يشيعان بين الناس بذلك {cite:assabile-omar-abdelkafy al-dinu-al-qayem/ep10 00:07:30}. ويشرح التوبة بأنها الرجوع إلى الله، ويقول إن الله يحب التوابين {cite:assabile-omar-abdelkafy al-dinu-al-qayem/ep13 00:06:30}. ويذكر أن الله يبدل سيئات التائبين حسنات {cite:assabile-omar-abdelkafy al-dinu-al-qayem/ep02 00:38:30}.
+
+ويقول الشيخ إن الله يغفر الذنوب، ولا يغفر الشرك به، ويغفر ما دون ذلك لمن يشاء {cite:assabile-omar-abdelkafy al-dinu-al-qayem/ep13 00:08:30} {cite:assabile-omar-abdelkafy al-dinu-al-qayem/ep13 00:17:30}.

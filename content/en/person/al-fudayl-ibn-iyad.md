@@ -14,3 +14,9 @@ He asked to be excused from the "badra" (the purse of money). When Sufyan ibn Uy
 
 ## In al-Dhahabi's Siyar
 Al-Dhahabi narrates the account of his audience with Harun al-Rashid and his counsel to him, including what Salim ibn 'Abdallah, Muhammad ibn Ka'b and Raja' ibn Haywa had advised 'Umar ibn 'Abd al-'Aziz upon his accession; Harun wept until he fainted, and al-Fudayl refused the thousand dinars offered him, saying "I am pointing you to the path of salvation and you reward me with this?" — whereupon Harun said: "This is the master of the Muslims." {cite:siyar-alam-nubala-ideas-house p.3045}
+
+## From Sheikh Omar Abdelkafy's lecture series Al Dinu Al Qayem
+
+Sheikh Omar Abdelkafy recounts the repentance of al-Fudayl ibn Iyad. In one account he was about to climb the wall of a house to reach a woman he loved; in another he was robbing a house. He turned back after hearing a verse (partly unclear) {cite:assabile-omar-abdelkafy al-dinu-al-qayem/ep13 00:19:00}.
+
+He cites a Qur'anic verse about hearts softening at the remembrance of God and links it to Fudayl's repentance, which he describes as taking place in a mosque after hearing travellers in a caravan speak of their journey {cite:assabile-omar-abdelkafy al-dinu-al-qayem/ep13 00:19:30}.

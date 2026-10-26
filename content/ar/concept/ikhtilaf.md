@@ -63,3 +63,16 @@ translators: []
 - **رأي الشيخ عمر عبد الكافي (رأي شخصي)**: يرى الشيخ أن الأمر المختلف فيه لا يصير حكما ملزما للغير، فلا رأي أبي حنيفة ولا رأي الشافعي ملزم، ولا يُلزَم أحد بغير ما تدل عليه الآية الواضحة، ويضيف أن علماء الحديث قد يضعّفون بعض الأحاديث وأن العقائد تحتاج إلى ما هو من كتاب الله {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep07 00:27:30} {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep07 00:28:00} {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep07 00:28:30}.
 - **رأي أكاديمي أو آراء أخرى (لم يُسنَد بعد)**: لم تُسنَد الآراء الأكاديمية والآراء الأخرى بعد.
 :::
+
+## من درس الشيخ عمر عبد الكافي: الدين القيم
+
+يطرح المقدّم سؤالا عن الخلاف بين الفقهاء، وعن الحكم على بعضهم بالخطأ، وكيف يُعالج ذلك {cite:assabile-omar-abdelkafy al-dinu-al-qayem/ep01 00:16:30}. ويرى الشيخ، وهذا رأي شخصي له، أن العالم يجوز له الجدال بالحجة، وأن الجدال نفسه ليس منهيا عنه، ويذكر أن العرب لم تُربَّ أبناءها على آداب الخلاف والحوار (needs_source) {cite:assabile-omar-abdelkafy al-dinu-al-qayem/ep01 00:17:00}.
+
+ويطرح الشيخ سؤالا: هل المؤامرة، أم الخلافات الداخلية بين المؤمنين، سبب هزيمة المسلمين في العراق؟ (needs_source) {cite:assabile-omar-abdelkafy al-dinu-al-qayem/ep10 00:39:00}.
+
+:::perspectives
+- **أهل السنة: لم يُصدر بعد (not yet sourced)**: لم يُنسب بعد.
+- **speaker's view (opinion)**: يرى الشيخ أن الخلاف بين العلماء يُعالج بالحجة والحوار، لا بالحكم على المخالف بالخطأ، وأن الجدال بالحجة جائز للعالم {cite:assabile-omar-abdelkafy al-dinu-al-qayem/ep01 00:17:00}.
+- **academic view: not yet sourced**: لم يُنسب بعد.
+- **other view: not yet sourced**: لم يُنسب بعد.
+:::

@@ -36,3 +36,20 @@ translators: ["Devin (SWE-2 Medium), draft translation"]
 :::
 
 شیخ کے مطابق عائشہ نے بیان کیا کہ حجاب کی آیات اترنے پر انہیں انصار کی خواتین پسند آئیں، کیونکہ ہر ایک نے اپنی اوڑھنی دو حصوں میں پھاڑ کر آدھی اپنی بہن کو دی، اور وہ اسے اوڑھ کر مسجد سے نکلیں {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep09 00:41:00}۔
+
+## شیخ عمر عبدالکافی کے درس سے: الدین القیم
+
+شیخ اپنی ذاتی رائے کے طور پر کہتے ہیں کہ انہوں نے پیرس کے ایک لیکچر میں حجاب کا دفاع کیا، اور ایک رہنما کی پگڑی کو سر کے دوپٹے سے تشبیہ دے کر فرانسیسی موقف میں اپنے نزدیک تضاد دکھایا؛ وہ یہ بھی کہتے ہیں کہ پیرس کی مسلمان لڑکیاں ملک بھر کے ثانوی امتحانات میں سرِفہرست رہیں (needs_source) {cite:assabile-omar-abdelkafy al-dinu-al-qayem/ep01 00:51:30} {cite:assabile-omar-abdelkafy al-dinu-al-qayem/ep01 00:52:00}۔
+
+شیخ لباس کی مثال دیتے ہیں: جیسے پولیس اور فوج اپنی وردی سے پہچانی جاتی ہے، ان کے کہنے کے مطابق مسلمان بھی حجاب ہی سے پہچانا جاتا ہے {cite:assabile-omar-abdelkafy al-dinu-al-qayem/ep03 00:26:00}۔ وہ عورت کو نصیحت کرتے ہیں کہ وہ اپنا شرعی لباس قائم رکھے اور نوکری کے لیے اپنا دین نہ چھوڑے، کیونکہ رزق اللہ کی طرف سے ہے {cite:assabile-omar-abdelkafy al-dinu-al-qayem/ep07 01:14:00} {cite:assabile-omar-abdelkafy al-dinu-al-qayem/ep07 01:14:30}۔
+
+شیخ اپنی ذاتی رائے کے طور پر کہتے ہیں کہ جو شوہر چاہتا ہے کہ بیوی حجاب کرے، اسے پہلے اپنے طرزِ عمل میں اچھی مثال قائم کرنی چاہیے {cite:assabile-omar-abdelkafy al-dinu-al-qayem/ep08 01:07:30}۔ اگر بیوی حجاب سے انکار کرے تو وہ شوہر کو صبر کرنے اور اس کی ہدایت کی دعا کرنے کی نصیحت کرتے ہیں، نہ کہ طلاق دینے کی {cite:assabile-omar-abdelkafy al-dinu-al-qayem/ep08 01:08:30}۔ وہ اس لڑکی کی ماں کو نصیحت کرتے ہیں جس نے حجاب چھوڑ دیا، کہ وہ اس کے لیے دعا کرے اور گھر میں اس خلا کو تلاش کرے جہاں سے شیطان داخل ہوا {cite:assabile-omar-abdelkafy al-dinu-al-qayem/ep04 01:06:30} {cite:assabile-omar-abdelkafy al-dinu-al-qayem/ep04 01:07:00}۔
+
+شیخ ایک اسکول کی لڑکی کا ذکر کرتے ہیں جس کا حجاب آہستہ آہستہ قدم بہ قدم اتروایا گیا، اور کہتے ہیں کہ یہ واقعہ علامتی ہو سکتا ہے (needs_source) {cite:assabile-omar-abdelkafy al-dinu-al-qayem/ep11 01:17:00}۔
+
+:::perspectives
+- **Sunni view: not yet sourced**: ابھی منسوب نہیں۔
+- **speaker's view (opinion)**: شیخ کی رائے ہے کہ حجاب سے مسلمان پہچانا جاتا ہے، شوہر کو بیوی سے حجاب کا مطالبہ کرنے سے پہلے اچھی مثال قائم کرنی چاہیے، اور بیوی انکار کرے تو طلاق سے پہلے صبر اور دعا بہتر ہے {cite:assabile-omar-abdelkafy al-dinu-al-qayem/ep03 00:26:00} {cite:assabile-omar-abdelkafy al-dinu-al-qayem/ep08 01:07:30} {cite:assabile-omar-abdelkafy al-dinu-al-qayem/ep08 01:08:30}۔
+- **academic view: not yet sourced**: ابھی منسوب نہیں۔
+- **other view: not yet sourced**: ابھی منسوب نہیں۔
+:::

@@ -74,3 +74,7 @@ Malik ibn Anas, known as the Imam of Medina, was one of the four great jurists o
 
 ## For Scholars
 Abu Abd Allah Malik ibn Anas (93–179 AH / 711–795 CE), the Imam of Dar al-Hijra (Medina) and founder of the Maliki school of law, standing as one of the formative figures of 8th-century Islamic jurisprudence and Hadith scholarship. Studying under premier Successors such as Ibn Shihab al-Zuhri and Nafi, he compiled 'al-Muwatta', the earliest extant standardized legal and Hadith compendium. His jurisprudential methodology is notable for treating the continuous communal praxis of Medina ('amal ahl al-Madina) as a vital normative source alongside the Qur'an, Sunna, and consensus.
+
+## From Sheikh Omar Abdelkafy's lecture series Al Dinu Al Qayem
+
+Sheikh Omar Abdelkafy recounts that al-Shafi'i, then about nine years old by his account, attended Malik's assembly in the Prophet's mosque. He recounts that a man swore divorce on his wife and then asked Malik; the young al-Shafi'i answered first, and Malik ruled that the wife was not divorced (needs_source: the answer and the ruling are unclear in the automatic transcript) {cite:assabile-omar-abdelkafy al-dinu-al-qayem/ep13 00:46:00} {cite:assabile-omar-abdelkafy al-dinu-al-qayem/ep13 00:46:30} {cite:assabile-omar-abdelkafy al-dinu-al-qayem/ep13 00:47:00} {cite:assabile-omar-abdelkafy al-dinu-al-qayem/ep13 00:47:30}.

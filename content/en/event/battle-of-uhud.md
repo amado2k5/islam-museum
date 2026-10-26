@@ -55,3 +55,13 @@ A battle near Mount Uhud in which Quraysh had the upper hand at first, after som
 The Sheikh says, with wonder, that worms, which we assume have no mind, do not come near the body of a martyr, and he mentions that the flow of the valley at Uhud came down on the martyrs of Uhud forty years after the battle (needs_source) {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep09 00:05:00}.
 
 He relates that the Companions consulted one another and decided to move the bodies of the martyrs away from the course of the valley out of respect for them, and that as the digging began one of them struck with his axe, which fell on Hamza's foot, and blood flowed from it forty years later (needs_source) {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep09 00:05:30}.
+
+## From Sheikh Omar Abdelkafy's lecture series Al Dinu Al Qayem
+
+The speaker presents four images from history, two of victory and two of defeat, and seeks a single cause that explains them all. He offers Uhud as one of these images {cite:assabile-omar-abdelkafy al-dinu-al-qayem/ep10 00:02:00} {cite:assabile-omar-abdelkafy al-dinu-al-qayem/ep10 00:12:30}.
+
+He recounts that the archers left their post at Uhud despite the order of their commander, Abdullah ibn Jubayr, to hold the gap. The order was that he and the fifty men with him should stay where they were, whether the army won or lost {cite:assabile-omar-abdelkafy al-dinu-al-qayem/ep10 00:12:30} {cite:assabile-omar-abdelkafy al-dinu-al-qayem/ep11 00:46:00}.
+
+He says Khalid ibn al-Walid entered through the gap the archers had left, and the Prophet was wounded. He sets this beside the flight of the army from around the Prophet at Hunayn {cite:assabile-omar-abdelkafy al-dinu-al-qayem/ep11 00:45:30}.
+
+He recounts a woman called Nusayba who stood as a shield over the Prophet at Uhud; her back was wounded and her hand was later cut off. He says her hand went ahead of her into Paradise. In the caliphate of Umar, people who did not know her story asked her where her hand had gone, and Umar was listening {cite:assabile-omar-abdelkafy al-dinu-al-qayem/ep11 00:51:00} {cite:assabile-omar-abdelkafy al-dinu-al-qayem/ep11 00:51:30}.

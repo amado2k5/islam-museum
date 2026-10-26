@@ -19,3 +19,11 @@ Ibn Sa'd and Ibn Abi Khaythama relate from Hammad from Ali ibn Zayd from Sa'id i
 Al-Humaydi and al-Tabarani transmit through his own family that he said: "The Prophet never witnessed an occasion but I was present at it, never gave a pledge but I was present at it … and I never put him between me and the enemy until he died." {cite:ibn-hajar-isaba p.705}
 
 When Umar died he instructed that Suhayb pray over him and lead the people in prayer until the Muslims agreed on an imam, as al-Bukhari records in his Tarikh. Suhayb died in year thirty-eight; it was also said year nine. {cite:ibn-hajar-isaba p.706}
+
+## From Sheikh Omar Abdelkafy's lecture series Al Dinu Al Qayem
+
+Sheikh Omar Abdelkafy names Suhayb al-Rumi among the non-Arab figures who advanced Islam {cite:assabile-omar-abdelkafy al-dinu-al-qayem/ep09 00:08:30}.
+
+He recounts that Suhayb left his wealth in Mecca when he wished to migrate, and that the Meccans told him in effect to take the wealth and let them go; Suhayb then set out for Medina {cite:assabile-omar-abdelkafy al-dinu-al-qayem/ep12 00:50:30} {cite:assabile-omar-abdelkafy al-dinu-al-qayem/ep12 00:51:00}. He says Suhayb covered about five hundred kilometres barefoot on the journey and reached the Prophet after three days of hunger (needs_source) {cite:assabile-omar-abdelkafy al-dinu-al-qayem/ep12 00:51:00}.
+
+He recounts that the Prophet said to Suhayb, as he ate, "you have profited in the sale, Abu Yahya" {cite:assabile-omar-abdelkafy al-dinu-al-qayem/ep12 00:51:30}, and presents this as the reward for giving up worldly wealth.

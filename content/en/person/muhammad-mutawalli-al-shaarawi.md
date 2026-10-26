@@ -91,3 +91,9 @@ His lessons and reflections remain in circulation after his death: he has an off
 ## References
 - The defined sources cited above, recorded in `data/source/`.
 - Later translations and revisions of the article need periodic re-checking with clear update dates.
+
+## From Sheikh Omar Abdelkafy's lecture series Al Dinu Al Qayem
+
+Sheikh Omar Abdelkafy mentions Muhammad Mutawalli al-Sha'rawi in two places. He tells a story of Sheikh al-Sha'rawi stopping on the Algerian road for a man who was seeking justice from a provincial governor, and taking him along (needs_source) {cite:assabile-omar-abdelkafy al-dinu-al-qayem/ep07 01:00:30}.
+
+He says that al-Sha'rawi and al-Ghazali were among the scholars he was close to, and that these scholars asked after him whenever they met him {cite:assabile-omar-abdelkafy al-dinu-al-qayem/ep11 01:00:00}.

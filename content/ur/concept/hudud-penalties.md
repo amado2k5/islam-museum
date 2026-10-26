@@ -25,3 +25,20 @@ translators: []
 - **academic view: not yet sourced**: ابھی تک ماخوذ نہیں۔
 - **other view: not yet sourced**: ابھی تک ماخوذ نہیں۔
 :::
+
+## شیخ عمر عبدالکافی کے درس سے: الدین القیم
+
+شیخ حدود کے باب کو اس قانون کے طور پر پیش کرتے ہیں جو اللہ کے منہج سے نکلنے والوں پر لاگو ہوتا ہے، اور جو انسانی زندگی کو منظم کرنے کے لیے ہے {cite:assabile-omar-abdelkafy al-dinu-al-qayem/ep01 00:24:30}۔ پروگرام کے میزبان حدود کی سختی کے بارے میں سوال کرتے ہیں، جیسے سنگساری، کوڑے اور ہاتھ کاٹنا، اور پوچھتے ہیں کہ کیا یہ زندگی کو منظم کر سکتی ہیں؛ یہ سوالات میزبان کے ہیں، شیخ کے نہیں {cite:assabile-omar-abdelkafy al-dinu-al-qayem/ep01 00:28:00} {cite:assabile-omar-abdelkafy al-dinu-al-qayem/ep01 00:28:30}۔
+
+شیخ کی رائے ہے کہ زمین پر ایک حد کا قائم ہونا امت کے لیے طویل بارش سے زیادہ نفع بخش ہے، اور وہ اس کی مثال ایک ایسی تنخواہ سے دیتے ہیں جو گھر جاتے ہوئے کسی شخص کی جیب سے چرا لی جائے {cite:assabile-omar-abdelkafy al-dinu-al-qayem/ep01 00:29:00}۔ وہ معمولی چور اور سرکاری مال ہڑپ کرنے یا رشوت لینے والے میں فرق کرتے ہیں، اور حسن بصری کا ایک واقعہ ایک گورنر کے ساتھ بیان کرتے ہیں (needs_source: واقعے کی تفصیل) {cite:assabile-omar-abdelkafy al-dinu-al-qayem/ep01 00:29:30}۔
+
+شیخ کہتے ہیں کہ قصاص میں زندگی ہے، کیونکہ قتل کا ارادہ رکھنے والا جانتا ہے کہ اس سے قصاص لیا جائے گا تو وہ رک جاتا ہے، اور چوری کا ارادہ رکھنے والا جانتا ہے کہ اس کا ہاتھ کاٹا جائے گا تو وہ رک جاتا ہے {cite:assabile-omar-abdelkafy al-dinu-al-qayem/ep01 00:30:00}۔ وہ یہ قول بھی نقل کرتے ہیں کہ جو سزا سے بے خوف ہو وہ اچھا عمل نہیں کرتا {cite:assabile-omar-abdelkafy al-dinu-al-qayem/ep01 00:31:00}۔
+
+شیخ کی رائے ہے کہ حدود نافذ کرنے سے پہلے ماحول اور معاشرتی فضا تیار کرنا ضروری ہے، اور قانون لوگوں کو سمجھانے سے پہلے اسے نافذ نہیں کرنا چاہیے۔ وہ کہتے ہیں کہ کچھ ناقدین انسانی حقوق کی بنیاد پر اعتراض کرتے ہیں (needs_source) {cite:assabile-omar-abdelkafy al-dinu-al-qayem/ep01 00:32:00}۔ وہ ماعز اور غامدیہ عورت کے واقعات بیان کرتے ہیں جنہوں نے نبی کے سامنے اعتراف کیا اور پھر ان پر حد جاری کی گئی {cite:assabile-omar-abdelkafy al-dinu-al-qayem/ep01 00:33:00}۔
+
+:::perspectives
+- **Sunni view: not yet sourced**: ابھی منسوب نہیں۔
+- **speaker's view (opinion)**: شیخ کی رائے ہے کہ حدود ڈر کے ذریعے حقوق اور جان کی حفاظت کرتی ہیں، اور انہیں معاشرے کی تیاری اور لوگوں کو قانون سمجھانے سے پہلے نافذ نہیں کرنا چاہیے {cite:assabile-omar-abdelkafy al-dinu-al-qayem/ep01 00:29:00} {cite:assabile-omar-abdelkafy al-dinu-al-qayem/ep01 00:30:00} {cite:assabile-omar-abdelkafy al-dinu-al-qayem/ep01 00:32:00}۔
+- **academic view: not yet sourced**: ابھی منسوب نہیں۔
+- **other view: not yet sourced**: ابھی منسوب نہیں۔
+:::

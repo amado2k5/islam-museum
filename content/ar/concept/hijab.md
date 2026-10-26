@@ -36,3 +36,20 @@ translators: []
 :::
 
 وتروي عائشة، بحسب الشيخ، أنها أعجبت بنساء الأنصار لما نزلت آيات الحجاب، فقد شققن أخمرتهن نصفين وأعطت كل واحدة أختها نصفاً وتغطين بها وخرجن من المسجد {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep09 00:41:00}.
+
+## من درس الشيخ عمر عبد الكافي: الدين القيم
+
+يقول الشيخ، وهو رأي شخصي له، إنه دافع عن الحجاب في محاضرة له في باريس، وشبّه عمامة زعيم بالحجاب، ليُظهر ما يراه من تناقض في موقف الفرنسيين، ويذكر أن الفتيات المسلمات في باريس تصدّرن نتائج الثانوية العامة (needs_source) {cite:assabile-omar-abdelkafy al-dinu-al-qayem/ep01 00:51:30} {cite:assabile-omar-abdelkafy al-dinu-al-qayem/ep01 00:52:00}.
+
+ويضرب الشيخ مثلا بالزي: كما يُعرف رجل الشرطة والجندي بزيّهما، لا يُعرف المسلم إلا بالحجاب، بحسب قوله {cite:assabile-omar-abdelkafy al-dinu-al-qayem/ep03 00:26:00}. وينصح المرأة أن تلتزم بزيّها الشرعي، وألا تفرّط في دينها من أجل عمل، لأن الرزق من الله {cite:assabile-omar-abdelkafy al-dinu-al-qayem/ep07 01:14:00} {cite:assabile-omar-abdelkafy al-dinu-al-qayem/ep07 01:14:30}.
+
+ويرى الشيخ، رأيا شخصيا، أن الزوج الذي يريد من زوجته أن تلتزم بالحجاب عليه أن يبدأ بالقدوة الحسنة في سلوكه قبل ذلك {cite:assabile-omar-abdelkafy al-dinu-al-qayem/ep08 01:07:30}. وإذا رفضت الزوجة الحجاب، فينصح الشيخ الزوج بالصبر عليها والدعاء لها بالهداية، لا بالطلاق {cite:assabile-omar-abdelkafy al-dinu-al-qayem/ep08 01:08:30}. وينصح أم الفتاة التي تركت الحجاب بأن تدعو لها، وأن تبحث عن الثغرة التي دخل منها الشيطان في البيت {cite:assabile-omar-abdelkafy al-dinu-al-qayem/ep04 01:06:30} {cite:assabile-omar-abdelkafy al-dinu-al-qayem/ep04 01:07:00}.
+
+ويذكر الشيخ قصة فتاة في المدرسة تدرّج بها الأمر حتى رُفع عنها الحجاب خطوة خطوة، ويقول إنها قد تكون قصة رمزية (needs_source) {cite:assabile-omar-abdelkafy al-dinu-al-qayem/ep11 01:17:00}.
+
+:::perspectives
+- **أهل السنة: لم يُصدر بعد (not yet sourced)**: لم يُنسب بعد.
+- **speaker's view (opinion)**: يرى الشيخ أن الحجاب هو ما يُعرف به المسلم، وأن الزوج يبدأ بالقدوة قبل أن يطلب من زوجته الحجاب، وأن الصبر والدعاء أولى من الطلاق عند رفض الزوجة {cite:assabile-omar-abdelkafy al-dinu-al-qayem/ep03 00:26:00} {cite:assabile-omar-abdelkafy al-dinu-al-qayem/ep08 01:07:30} {cite:assabile-omar-abdelkafy al-dinu-al-qayem/ep08 01:08:30}.
+- **academic view: not yet sourced**: لم يُنسب بعد.
+- **other view: not yet sourced**: لم يُنسب بعد.
+:::
