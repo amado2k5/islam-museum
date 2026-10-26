@@ -1,0 +1,24 @@
+---
+id: concept/al-tahfiz
+lang: ur
+source_lang: ar
+translators: ["Devin (SWE-2 High)"]
+---
+## خلاصہ
+طارق السویدان تحفيز کی تعریف کرتے ہیں: انسان کو انعام ملنا — زبانی، منصب یا مالی — اور ان کے نزدیک اس میں ترغیب اور ترہیب دونوں آتے ہیں {cite:assabile-tareq-al-suwaidan administrative-processus-abilities/ep04 00:03:00} {cite:assabile-tareq-al-suwaidan administrative-processus-abilities/ep04 00:32:00}۔
+وہ اپنا درس «چھ چار ایک» کے کھیل سے کھولتے ہیں تاکہ ثابت ہو کہ تحفيز ہمیشہ مؤثر نہیں: جوشیلا کھلاڑی جو کھیل کے اصول نہیں جانتا جتنا بھی حوصلہ پائے ہارتا ہے؛ تحفيز داخلی خواہش کے بغیر نہیں چلتا اور نہ ہی علم، منصوبہ بندی اور تجربے کے بغیر {cite:assabile-tareq-al-suwaidan administrative-processus-abilities/ep04 00:10:30} {cite:assabile-tareq-al-suwaidan administrative-processus-abilities/ep04 00:11:00} {cite:assabile-tareq-al-suwaidan administrative-processus-abilities/ep04 00:14:30}۔
+
+## کامیابی کی شرائط
+وہ تحفيز کی کامیابی کی تین شرائط بتاتے ہیں: سامنے والے کی داخلی خواہش — جو نہیں چاہتا اس پر نہ سخت ترغیب چلتی ہے نہ ترہیب، اور تشدد میں مارے گئے مگر راضی نہ ہونے والے مسلمانوں کی مثال دیتے ہیں — پھر علم اور منصوبہ بندی، پھر تجربہ؛ تحفيز کا اثر اس سب کے بعد شروع ہوتا ہے {cite:assabile-tareq-al-suwaidan administrative-processus-abilities/ep04 00:11:30} {cite:assabile-tareq-al-suwaidan administrative-processus-abilities/ep04 00:15:00}۔
+اور ان کے نزدیک امت کو ماضی کی شان سے جوش دلانے والے خطابات — بغیر منصوبے، علم، قیادت اور تجربے کے — کوئی نشاۃ ثانیہ نہیں بناتے؛ اسلامی لشکر تیاری، تربیت اور منصوبہ بندی کرتے تھے اور جوش میدان میں آتا تھا (مقرر کی رائے) {cite:assabile-tareq-al-suwaidan administrative-processus-abilities/ep04 00:15:30} {cite:assabile-tareq-al-suwaidan administrative-processus-abilities/ep04 00:16:30}۔
+
+## محرکات کے درجے
+وہ محرکات کی ترتیب بتاتے ہیں: مال تحفيز دیتا ہے، ستائش تحفيز دیتا ہے، خواہش، اطمینان اور خود احترام بھی؛ دوسرا بلند ترین ذمہ داری سنبھالنا ہے مناسب اختیار کے ساتھ؛ اور ان کے نزدیک تحفيز کی بلند ترین درجہ کسی نظریے، قضیے یا عقیدے پر ایمان ہے — جو نظریے پر مؤمن ہو اسے دوسروں کے حوصلے کی ضرورت نہیں اور اس کے نہ ہونے پر بھی وہ نہیں رکتا {cite:assabile-tareq-al-suwaidan administrative-processus-abilities/ep04 00:28:30} {cite:assabile-tareq-al-suwaidan administrative-processus-abilities/ep04 00:29:00} {cite:assabile-tareq-al-suwaidan administrative-processus-abilities/ep04 00:30:00} {cite:assabile-tareq-al-suwaidan administrative-processus-abilities/ep04 00:32:00}۔
+وہ اصول کو ہر گہرے ایمان پر عام کرتے ہیں — حق ہو یا باطل — مثالیں دیتے ہیں: اپنے قضیے پر مؤمن فلسطینی نوجوان، جاپانی ریڈ آرمی، باسک اور تامل — اور ان کی قراءت میں ابو جهل بطور ایسے شخص کے جو بتوں پر نہیں بلکہ قومی عصبیت پر ایمان رکھتا تھا {cite:assabile-tareq-al-suwaidan administrative-processus-abilities/ep04 00:35:30} {cite:assabile-tareq-al-suwaidan administrative-processus-abilities/ep04 00:36:30}۔
+نظریے کو دلوں میں راسخ کرنے کے وسائل وہ گنواتے ہیں: اقناع، منطق اور مکالمہ؛ قصے اور مثلیں؛ حاضر اور ماضی کے اسوے — اور یہیں سے انبیاء کے قصے آتے ہیں — اور بعض اوقات گہرے نقصان کی دھمکی {cite:assabile-tareq-al-suwaidan administrative-processus-abilities/ep04 00:33:30} {cite:assabile-tareq-al-suwaidan administrative-processus-abilities/ep04 00:34:00}۔
+
+## «مثالی ملازم» کی تنقید
+وہ سال کے آخر میں ایک ہی «مثالی ملازم» یا «ممتاز طالب» کے اعزاز کو ناکام فلسفہ قرار دیتے ہیں: اگر وہی دوبارہ نوازا جائے تو باقی ناراض ہوں گے، اور اگر کسی اور کو نوازا جائے تو وہ خود ٹوٹ جائے گا {cite:assabile-tareq-al-suwaidan administrative-processus-abilities/ep04 00:12:30} {cite:assabile-tareq-al-suwaidan administrative-processus-abilities/ep04 00:13:30}۔
+اسٹیفن کووی سے وہ یہ واقعہ منسوب کرتے ہیں: ایک کمپنی نے اپنی سالانہ تقریب میں اپنے 980 میں سے 50 ملازمین کو اعزاز دیا، تو کووی نے اس کے سربراہ سے پوچھا: کیا تم نے کامیاب لوگ بھرتی کیے تھے یا ناکام؟ اور اگر کامیاب چنے تھے تو تم نے ان پر کیا گزاری کہ وہ ناکام بن گئے {cite:assabile-tareq-al-suwaidan administrative-processus-abilities/ep04 00:41:00}۔
+اور وہ امریکن کرییٹوٹی اکیڈمی کا اپنا تجربہ بیان کرتے ہیں: طلبہ کا بینک جو رقم کے بجائے نقاط میں کاروبار کرتا تھا — ہر A پر چھ نقاط، ہر B پر پانچ، اور سلوک اور سرگرمیوں پر بھی نقاط — اور سال کے آخر میں انعامات جن میں سفر کے ٹکٹ اور حصص بھی تھے، سب سے زیادہ بہتری لانے والے طالب کے لیے خصوصی انعام، اور نقاط اگلے سال تک بچانے کی سہولت؛ اس طرح ایک نہیں بلکہ سب انعام پاتے ہیں {cite:assabile-tareq-al-suwaidan administrative-processus-abilities/ep04 00:41:30} {cite:assabile-tareq-al-suwaidan administrative-processus-abilities/ep04 00:44:00}۔
+اپنے بچوں کے بارے میں وہ کہتے ہیں کہ وہ کامیابی کے لمحے میں انعام نہیں دیتے بلکہ انھیں نظریے اور ہدف سے جوڑتے ہیں نہ کہ انعام سے (ان کی رائے جس کے روایات سے مختلف ہونے کا وہ خود اعتراف کرتے ہیں) {cite:assabile-tareq-al-suwaidan administrative-processus-abilities/ep04 00:37:30} {cite:assabile-tareq-al-suwaidan administrative-processus-abilities/ep04 00:38:30}۔
