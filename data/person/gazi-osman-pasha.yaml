@@ -1,0 +1,51 @@
+id: person/gazi-osman-pasha
+class: person
+label: { ar: "غازي عثمان باشا", en: "Gazi Osman Pasha", ur: "غازی عثمان پاشا" }
+names:
+  - { value: "Osman Nuri Pasha", kind: full }
+  - { value: "عثمان نوري باشا", kind: full }
+  - { value: "Gazi Osman Paşa", kind: alternate }
+  - { value: "غازي عثمان باشا", kind: alternate }
+  - { value: "Gazi", kind: laqab }
+gender: male
+summary:
+  ar: "عثمان نوري باشا (1832 – 5 أبريل 1900)، المعروف بغازی عثمان باشا، مشير عثماني من طوقاد، خلّدته قيادته الدفاع عن بلفنة خمسة أشهر في وجه القوات الروسية الرومانية المتفوقة أثناء حرب 1877–1878 حتى اضطر إلى الاستسلام، فمنحه السلطان عبد الحميد الثاني لقب «غازي» ورقّاه مشيرًا، وتولى وزارة الحرب أربع مرات."
+  en: "Osman Nuri Pasha (1832 – 5 April 1900), known as Gazi Osman Pasha, was an Ottoman field marshal from Tokat remembered for holding Plevna for five months against superior Russo-Romanian forces in the Russo-Turkish War of 1877–78 before surrendering. Sultan Abdul Hamid II gave him the title Gazi and the rank of field marshal; he later served four times as Minister of War."
+  ur: "عثمان نوری پاشا (1832ء – 5 اپریل 1900ء)، جو غازی عثمان پاشا کے نام سے معروف ہیں، طوقاد سے تعلق رکھنے والے عثمانی مشیر تھے؛ 1877–1878ء کی جنگ میں انھوں نے پانچ ماہ تک پلیونہ کا دفاع کیا، سلطان عبدالحمید ثانی نے انھیں «غازی» کا لقب اور مشیر کا عہدہ دیا، اور وہ چار بار وزیرِ جنگ رہے۔"
+roles: [military]
+wings: [people]
+regions: [anatolia-balkans]
+born:
+  edtf: "1832"
+  hijri: "1248"
+  calendar: gregorian
+  precision: year
+  status: debated
+  derived: true
+  note: "Both articles and Wikidata give his birth year as 1832, at Tokat, and the record follows them; but two monographs listed in the English article's own bibliography are titled with the years 1833–1900 (Hülagü's Gazi Osman Paşa, 1833–1900 and Yenice and Fidan's Plevne kahramanı Gazi Osman Paşa, 1833–1900), so the year is stated as debated. The Hijri year 1248 is the tabular conversion of mid-1832. No born_in edge is written: the museum has no place entity for Tokat."
+  sources: [source/wikipedia-gazi-osman-pasha-en, source/wikipedia-gazi-osman-pasha-tr, source/wikidata-gazi-osman-pasha]
+died:
+  edtf: "1900-04-05"
+  hijri: "1317"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "He died at Istanbul on the night of 4 to 5 April 1900 (the English article's wording); the Turkish article, the English infobox and Wikidata all date the death 5 April 1900. He was buried beside the Fatih Mosque in Istanbul, as he had requested. The Hijri year 1317 is the tabular conversion of 5 April 1900."
+  sources: [source/wikipedia-gazi-osman-pasha-en, source/wikipedia-gazi-osman-pasha-tr, source/wikidata-gazi-osman-pasha]
+relations:
+  - { type: died_in, target: place/istanbul, note: "He died at Istanbul on the night of 4–5 April 1900.", sources: [source/wikipedia-gazi-osman-pasha-en, source/wikipedia-gazi-osman-pasha-tr] }
+  - { type: buried_in, target: place/istanbul, note: "He was buried beside the Fatih Mosque in Istanbul, in a tomb commissioned by Abdul Hamid II.", sources: [source/wikipedia-gazi-osman-pasha-en, source/wikipedia-gazi-osman-pasha-tr] }
+faith:
+  - value: unknown
+    basis: unknown
+    note: "What each source gives, stated exactly. The English article's early-life text says Osman Nuri was born into the prominent Muslim Turkish Yağcıoğulları family of Tokat — that is his family's description, and under the lane rules family background never counts as the man's own attested affiliation. Neither the English nor the Turkish article names a religion or school for him personally, neither infobox carries a religion field, and Wikidata (Q546595) carries no religion (P140) value at all. His service to the caliphate and his title Gazi are office and honour, not attestation. With no source attesting a faith for him personally, the value is recorded unknown under the two-source rule and the doubt rule."
+    sources: [source/wikipedia-gazi-osman-pasha-en, source/wikipedia-gazi-osman-pasha-tr, source/wikidata-gazi-osman-pasha]
+external_ids: { wikidata: "Q546595" }
+sources: [source/wikipedia-gazi-osman-pasha-en, source/wikipedia-gazi-osman-pasha-tr, source/wikidata-gazi-osman-pasha]
+provenance:
+  layer: own-research
+  source: "English Wikipedia 'Osman Nuri Pasha' (revision 1379835605 of 12 October 2026), Turkish Wikipedia 'Gazi Osman Paşa' (revision 37745204 of 12 August 2026) and Wikidata item Q546595 (item revision 2549238623 of 25 September 2026), all read directly on 26 October 2026 and the articles re-fetched by revision id with content verified identical. The harvest queue's years are 1832–1900, confirmed by both articles and Wikidata, subject to the 1833 birth year carried in the titles of two monographs in the English bibliography, stated in the born note. The died_in edge records that he died at Istanbul and the buried_in edge that he was buried beside the Fatih Mosque there; his birthplace Tokat has no place entity, so it is carried in the born note only. His faith is left unknown under the two-source rule, as the faith note sets out in full."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: century-additions-44
+status: { review: published, completeness: 3, generated_by: "Muse (Muse Spark 1.3)" }
