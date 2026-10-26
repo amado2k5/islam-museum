@@ -1,0 +1,48 @@
+id: person/saadat-hasan-manto
+class: person
+label: { ar: "سعادت حسن منتو", en: "Saadat Hasan Manto", ur: "سعادت حسن منٹو" }
+names:
+  - { value: "سعادت حسن منٹو", kind: full }
+  - { value: "Saadat Hassan Manto", kind: alternate }
+gender: male
+summary:
+  ar: "كاتب قصصي أردي (1912–1955) يُعد أعظم كتّاب القصة القصيرة في الأدب الأردي. وُلد في سامرالا بالبنجاب، وعمل في بومباي كاتب سيناريو وصحفيًا، وحُوكم ست مرات بتهمة الفحش دون إدانة، وهاجر إلى لاهور سنة 1948 حيث كتب أشهر قصصه عن تقسيم الهند ومنها «توبه تيك سينغ» و«كول دو» و«تهندا غوشت»، وتوفي شابًا متأثرًا بإدمانه الخمر."
+  en: "Urdu short-story writer (1912–1955) regarded as the greatest short-story author in Urdu literature. Born at Samrala in Punjab, he worked in Bombay as a screenwriter and journalist, was tried six times for obscenity and never convicted, and migrated to Lahore in 1948, where he wrote his most famous stories of the Partition of India — 'Toba Tek Singh', 'Khol Do' and 'Thanda Gosht' — before dying young of alcoholism."
+  ur: "اردو افسانہ نگار (1912ء–1955ء) جنھیں اردو ادب کا سب سے بڑا افسانہ نویس مانا جاتا ہے۔ ضلع لدھیانہ کے سامرالہ میں پیدا ہوئے، بمبئی میں منظر نویس اور صحافی رہے، فحاشی کے الزام میں چھ مرتبہ مقدمے چلے مگر کبھی سزا نہ ہوئی، 1948ء میں لاہور ہجرت کی جہاں تقسیم ہند پر ان کی مشہور کہانیاں ’ٹوبہ ٹیک سنگھ‘، ’کھول دو‘ اور ’ٹھنڈا گوشت‘ لکھی گئیں؛ شراب نوشی کے باعث کم عمری میں انتقال ہوا۔"
+roles: [writer]
+wings: [people]
+regions: [south-asia]
+born:
+  edtf: "1912-05-11"
+  hijri: "1330"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "The English and Urdu articles and Wikidata all give his birth on 11 May 1912, at Paprodi village near Samrala in Ludhiana district. The lane queue line for him read '(Ancestry) (1890–1950)'; those dates are wrong and are corrected here from the sources (see the brief corrections in the run report). No place entity exists for Samrala, so no born_in edge is written. The Hijri year 1330, in which the date falls, is a conversion."
+  sources: [source/wikipedia-saadat-hasan-manto-en, source/wikipedia-saadat-hasan-manto-ur, source/wikidata-saadat-hasan-manto]
+died:
+  edtf: "1955-01-18"
+  hijri: "1374"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "The English and Urdu articles and Wikidata all give his death at Lahore on 18 January 1955, from cirrhosis of the liver after years of alcoholism. He was buried in the Miani Sahib graveyard at Lahore. The Hijri year 1374, in which the date falls, is a conversion."
+  sources: [source/wikipedia-saadat-hasan-manto-en, source/wikipedia-saadat-hasan-manto-ur, source/wikidata-saadat-hasan-manto]
+relations:
+  - { type: died_in, target: place/lahore, sources: [source/wikipedia-saadat-hasan-manto-en, source/wikidata-saadat-hasan-manto] }
+  - { type: buried_in, target: place/lahore, sources: [source/wikipedia-saadat-hasan-manto-en] }
+faith:
+  - value: unknown
+    basis: unknown
+    note: "The Khan configuration: the English article attests the man personally as a Muslim — it quotes The Guardian's appreciation calling him 'a Muslim journalist, short-story author and Indian film screenwriter', counts him in 1948 among 'the millions of Muslims who left present-day India' for Pakistan, and gives his Punjabi Muslim family of Kashmiri ancestry — and Wikidata records his religion as Islam only. No source read names a legal school, order or branch for him. His six obscenity trials, his drinking and his irreverent public persona are biography and attitude, never faith attestations; and no source describes him as an unbeliever, so the bar for atheist-or-sceptic is not engaged. The value therefore stays unknown: a Muslim attested in text, with no school named anywhere."
+    sources: [source/wikipedia-saadat-hasan-manto-en, source/wikipedia-saadat-hasan-manto-ur, source/wikidata-saadat-hasan-manto]
+external_ids: { wikidata: "Q156501" }
+sources: [source/wikipedia-saadat-hasan-manto-en, source/wikipedia-saadat-hasan-manto-ur, source/wikidata-saadat-hasan-manto]
+provenance:
+  layer: own-research
+  source: "English Wikipedia 'Saadat Hasan Manto' (revision 1378889703), Urdu Wikipedia 'سعادت حسن منٹو' (revision 12099935) and Wikidata item Q156501 (item revision 2561052552), read via the MediaWiki API on 26 October 2026; every article was fetched by its recorded revision id and the returned id asserted equal before any claim was drawn. No Arabic Wikipedia edition exists for him (only an Egyptian-dialect one). Existence was checked by filename fragments under all spellings (manto, saadat, mantto), by Arabic label, by biography and by the QID route across data/person/ — no earlier record exists. No place entity exists for Samrala, so no born_in edge is written."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: century-additions-72
+status: { review: published, generated_by: "Muse (Muse Spark 1.3)" }

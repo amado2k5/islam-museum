@@ -1,0 +1,47 @@
+id: person/aruna-asaf-ali
+class: person
+label: { ar: "أرونا آصف علي", en: "Aruna Asaf Ali", ur: "ارونا آصف علی" }
+names:
+  - { value: "أرونا غانغولي", kind: full }
+  - { value: "Aruna Ganguly", kind: full }
+gender: female
+summary:
+  ar: "معلمة وناشرة ومناضلة استقلال هندية (1909–1996)، وُلدت باسم أرونا غانغولي في أسرة بنغالية براهمية، وتزوجت آصف علي سنة 1928. اشتهرت برفعها علم المؤتمر الوطني في ميدان غواليا تانك ببومباي في آب 1942 إذ ترأست بقية دورة «اتركوا الهند»، ثم عملت زمنًا في العمل السري، وأصبحت أول عمدة لدلهي سنة 1958، ونالت بهارات راتنا بعد وفاتها."
+  en: "Indian educator, publisher and independence activist (1909–1996), born Aruna Ganguly into a Bengali Brahmin family; she married Asaf Ali in 1928. She is remembered for hoisting the Congress flag at Gowalia Tank Maidan in Bombay in August 1942 as she presided over the remainder of the Quit India session, then worked underground, became Delhi's first mayor in 1958, and received the Bharat Ratna posthumously."
+  ur: "ہندوستانی معلمہ، پبلشر اور مجاہد آزادی (1909ء–1996ء)، پیدائشی نام ارونا گنگولی، ایک بنگالی براہمن خاندان میں پیدا ہوئیں؛ 1928ء میں آصف علی سے شادی کی۔ وہ اگست 1942ء میں بمبئی کے گووالیا ٹینک میدان میں کانگریس کا پرچم لہرانے کے لیے مشہور ہیں، جب انھوں نے ’ہندوستان چھوڑ دو‘ اجلاس کی بقیہ کارروائی کی صدارت کی؛ بعد میں وہ روپوش رہیں، 1958ء میں دہلی کی پہلی میئر بنیں اور بعد از مرگ بھارت رتن سے نوازی گئیں۔"
+roles: [activist, politician]
+wings: [people]
+regions: [south-asia]
+born:
+  edtf: "1909-07-16"
+  hijri: "1327"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "All three articles and Wikidata give her birth on 16 July 1909 at Kalka in Punjab. No place entity exists for Kalka (the only Kalka entity is a river), so no born_in edge is written. The Hijri year 1327, in which the date falls, is a conversion."
+  sources: [source/wikipedia-aruna-asaf-ali-en, source/wikipedia-aruna-asaf-ali-ar, source/wikipedia-aruna-asaf-ali-ur, source/wikidata-aruna-asaf-ali]
+died:
+  edtf: "1996-07-29"
+  hijri: "1417"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "All three articles and Wikidata give her death at New Delhi on 29 July 1996. The Hijri year 1417, in which the date falls, is a conversion."
+  sources: [source/wikipedia-aruna-asaf-ali-en, source/wikipedia-aruna-asaf-ali-ar, source/wikipedia-aruna-asaf-ali-ur, source/wikidata-aruna-asaf-ali]
+relations:
+  - { type: died_in, target: place/delhi, sources: [source/wikipedia-aruna-asaf-ali-en, source/wikidata-aruna-asaf-ali] }
+faith:
+  - value: unknown
+    basis: unknown
+    note: "FLAGGED — one attestation short of hindu/documented. What the sources give, exactly: the English article on her husband states, of their 1928 marriage, that 'Asaf Ali was a Muslim while Aruna was a Hindu' (cited to India Today), and the Urdu article on him repeats the sentence in translation — an article and its translation family are ONE source. Her own articles state her family background only: born into a Bengali Brahmin family, her maternal grandfather Trailokyanath Sanyal a renowned Brahmo leader, and the English article files her under the category 'Brahmos' — family background and category filings never count as personal attestation. Her own articles' infobox religion fields are empty in Arabic and Urdu, no edition records any conversion by her (to Islam or anything else) or any later affiliation, and Wikidata carries no religion value for her at all. Marriage to a Muslim is not conversion evidence. Her faith therefore stays unknown, with the single Hindu attestation preserved here for a founder ruling: one further independent attestation of her own Hindu affiliation settles hindu/documented."
+    sources: [source/wikipedia-asaf-ali-en, source/wikipedia-asaf-ali-ur, source/wikipedia-aruna-asaf-ali-en, source/wikipedia-aruna-asaf-ali-ar, source/wikipedia-aruna-asaf-ali-ur, source/wikidata-aruna-asaf-ali]
+external_ids: { wikidata: "Q467207" }
+sources: [source/wikipedia-aruna-asaf-ali-en, source/wikipedia-aruna-asaf-ali-ar, source/wikipedia-aruna-asaf-ali-ur, source/wikidata-aruna-asaf-ali, source/wikipedia-asaf-ali-en]
+provenance:
+  layer: own-research
+  source: "English Wikipedia 'Aruna Asaf Ali' (revision 1378324513), Arabic Wikipedia 'أرونا آصف علي' (revision 76465002), Urdu Wikipedia 'ارونا آصف علی' (revision 6759705), the English Wikipedia article on her husband 'Asaf Ali' (revision 1377833104) for the one passage that names her religion, and Wikidata item Q467207 (item revision 2558022007), read via the MediaWiki API on 26 October 2026; every article was fetched by its recorded revision id and the returned id asserted equal before any claim was drawn. Existence was checked by filename fragments under all spellings (aruna, ganguly, ganguli), by Arabic label, by biography and by the QID route across data/person/ — no earlier record exists. The marriage edge is written once, in her husband's record (spouse_of is its own inverse), not duplicated here. No place entity exists for Kalka, so no born_in edge is written."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: century-additions-72
+status: { review: published, generated_by: "Muse (Muse Spark 1.3)" }
