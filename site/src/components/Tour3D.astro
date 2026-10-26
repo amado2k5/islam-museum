@@ -60,6 +60,7 @@ const payloadJson = JSON.stringify({ lang, t, journeys, exhibits, wingTitles }).
     <div id="topbar">
       <div id="brand">🏛️ {t.brand_name}<small id="wingLabel">{t.hall_sub}</small></div>
       <div id="topBtns">
+        <button type="button" id="mapBtn" aria-haspopup="dialog" aria-controls="mapPanel">{t.map_button}</button>
         <button type="button" id="helpBtn" aria-haspopup="dialog" aria-controls="helpPanel">{t.help_button}</button>
         <button type="button" id="journeyBtn" aria-label={t.journey_button}>{t.journey_button}</button>
         <button type="button" id="exitBtn" aria-label={t.exit_button}>{t.exit_button}</button>
@@ -107,10 +108,23 @@ const payloadJson = JSON.stringify({ lang, t, journeys, exhibits, wingTitles }).
       <li>{t.help_look}</li>
       <li>{t.help_go}</li>
       <li>{t.help_stops}</li>
+      <li>{t.help_map}</li>
       <li>{t.help_esc}</li>
     </ul>
     <button type="button" id="helpClose" class="close">{t.help_close}</button>
   </div>
+
+  <div id="mapPanel" role="dialog" aria-labelledby="mapTitle">
+    <h2 id="mapTitle" tabindex="-1">{t.map_title}</h2>
+    <div id="mapPlan" dir="ltr"></div>
+    <p id="mapHere"></p>
+    <button type="button" id="mapClose" class="close">{t.map_close}</button>
+  </div>
+
+  <nav id="strip" aria-label={t.strip_label}>
+    <button type="button" id="stripToggle" aria-expanded="true" aria-controls="stripItems">{t.strip_hide}</button>
+    <ul id="stripItems"></ul>
+  </nav>
 
   <div id="toast" role="status"></div>
   <div id="fade" aria-hidden="true"></div>
@@ -166,6 +180,7 @@ body:has(#tour3d-root) { overflow: hidden; }
 #tour3d-root #brand { color: #f5d67b; font-weight: 800; font-size: 1.05rem; text-shadow: 0 2px 8px #000; }
 #tour3d-root #brand small { display: block; color: #cfe0f5; font-weight: 400; font-size: .75rem; }
 #tour3d-root #exitBtn,
+#tour3d-root #mapBtn,
 #tour3d-root #helpBtn,
 #tour3d-root #journeyBtn {
   pointer-events: auto; cursor: pointer;
@@ -175,15 +190,25 @@ body:has(#tour3d-root) { overflow: hidden; }
 }
 @media (hover: hover) {
   #tour3d-root #exitBtn:hover,
+  #tour3d-root #mapBtn:hover,
   #tour3d-root #helpBtn:hover,
   #tour3d-root #journeyBtn:hover { background: #d4a017; color: #1a1206; }
 }
 #tour3d-root #exitBtn:active,
+#tour3d-root #mapBtn:active,
 #tour3d-root #helpBtn:active,
 #tour3d-root #journeyBtn:active { background: #d4a017; color: #1a1206; }
-#tour3d-root #topBtns { display: flex; gap: 8px; }
+#tour3d-root #topBtns { display: flex; gap: 8px; flex-wrap: wrap; justify-content: flex-end; }
+#tour3d-root #mapBtn[hidden] { display: none; }
+@media (max-width: 480px) {
+  #tour3d-root #topBtns { gap: 6px; }
+  #tour3d-root #exitBtn,
+  #tour3d-root #mapBtn,
+  #tour3d-root #helpBtn,
+  #tour3d-root #journeyBtn { font-size: .8rem; padding: 6px 12px; }
+}
 #tour3d-root #hint {
-  position: absolute; bottom: 14px; right: 50%; transform: translateX(50%);
+  position: absolute; bottom: 64px; right: 50%; transform: translateX(50%);
   color: #e8eefb; background: rgba(8,14,28,.62);
   border: 1px solid rgba(212,160,23,.45);
   padding: 8px 18px; border-radius: 999px; font-size: .82rem; white-space: nowrap;
@@ -214,7 +239,7 @@ body:has(#tour3d-root) { overflow: hidden; }
 #tour3d-root #loading p { color: #cfe0f5; font-size: .9rem; }
 
 #tour3d-root #panel {
-  position: absolute; z-index: 30; bottom: 70px; right: 50%;
+  position: absolute; z-index: 30; bottom: 84px; right: 50%;
   transform: translateX(50%) translateY(20px);
   width: min(420px, calc(100vw - 32px));
   background: rgba(13,22,40,.94);
@@ -246,12 +271,66 @@ body:has(#tour3d-root) { overflow: hidden; }
   padding: 18px 20px; color: #f2f5fc;
   opacity: 0; visibility: hidden; pointer-events: none; transition: opacity .3s, transform .3s, visibility .3s;
 }
-#tour3d-root #helpPanel.show { opacity: 1; visibility: visible; pointer-events: auto; transform: translateX(50%) translateY(0); }
+#tour3d-root #helpPanel.show { opacity: 1; visibility: visible; pointer-events: auto; transform: translateX(50%) translateY(0); transition: opacity .3s, transform .3s, visibility 0s; }
 #tour3d-root #helpPanel h2 { color: #f5d67b; font-size: 1.2rem; margin: 0 0 8px; }
 #tour3d-root #helpPanel ul { margin: 0 0 12px; padding-inline-start: 1.2em; line-height: 1.9; font-size: .92rem; color: #dbe4f5; }
 #tour3d-root #helpPanel .close {
   width: 100%; border: 2px solid #5a6b8c; background: transparent;
   color: #dbe4f5; border-radius: 12px; padding: 10px; cursor: pointer; font-weight: 700;
+}
+#tour3d-root #mapPanel {
+  position: absolute; z-index: 32; top: 64px; right: 50%;
+  transform: translateX(50%) translateY(-12px);
+  width: min(420px, calc(100vw - 32px)); max-height: calc(100vh - 140px); overflow: auto;
+  background: rgba(13,22,40,.96); border: 2px solid #d4a017; border-radius: 18px;
+  padding: 16px 18px; color: #f2f5fc;
+  opacity: 0; visibility: hidden; pointer-events: none; transition: opacity .3s, transform .3s, visibility .3s;
+}
+#tour3d-root #mapPanel.show { opacity: 1; visibility: visible; pointer-events: auto; transform: translateX(50%) translateY(0); transition: opacity .3s, transform .3s, visibility 0s; }
+#tour3d-root #mapPanel h2 { color: #f5d67b; font-size: 1.2rem; margin: 0 0 8px; }
+#tour3d-root #mapPanel h2:focus { outline: none; }
+#tour3d-root #mapPanel h2:focus-visible,
+#tour3d-root #helpPanel h2:focus-visible { outline: 3px solid #f5d67b; outline-offset: 2px; }
+#tour3d-root #mapPlan { position: relative; width: 100%; aspect-ratio: 1; margin: 0 0 10px; }
+#tour3d-root #mapPlan.gallery { aspect-ratio: 34 / 20; margin-top: 18px; }
+#tour3d-root #mapPlan svg { position: absolute; inset: 0; width: 100%; height: 100%; }
+#tour3d-root #mapPlan .mk {
+  position: absolute; transform: translate(-50%, -50%);
+  min-width: 26px; min-height: 26px; padding: 3px 8px; white-space: nowrap;
+  border: 1.5px solid #d4a017; border-radius: 999px; background: rgba(10,18,34,.92);
+  color: #f5d67b; font-size: .74rem; font-weight: 700; cursor: pointer;
+}
+#tour3d-root #mapPlan .mk[aria-current],
+#tour3d-root #mapPlan .mk:active { background: #d4a017; color: #1a1206; }
+#tour3d-root #mapHere { color: #dbe4f5; font-size: .88rem; line-height: 1.7; margin: 0 0 10px; }
+#tour3d-root #mapPanel .close {
+  width: 100%; border: 2px solid #5a6b8c; background: transparent;
+  color: #dbe4f5; border-radius: 12px; padding: 10px; cursor: pointer; font-weight: 700;
+}
+#tour3d-root #strip {
+  position: absolute; z-index: 15; bottom: 0; left: 0; right: 0;
+  display: flex; align-items: center; gap: 8px; padding: 8px 10px;
+  background: linear-gradient(to top, rgba(5,10,20,.8), transparent);
+}
+#tour3d-root #strip[hidden] { display: none; }
+#tour3d-root #stripItems {
+  display: flex; gap: 6px; list-style: none; margin: 0; padding: 2px;
+  flex: 1; min-width: 0; overflow-x: auto; scroll-snap-type: x proximity; scrollbar-width: thin;
+}
+#tour3d-root #stripItems[hidden] { display: none; }
+#tour3d-root #stripItems li { flex: none; scroll-snap-align: start; }
+#tour3d-root #strip button {
+  display: inline-flex; align-items: center; gap: 6px; white-space: nowrap; cursor: pointer;
+  border: 1.5px solid #5a6b8c; background: rgba(30,44,74,.88); color: #eef2fb;
+  border-radius: 999px; padding: 6px 12px; font-size: .8rem; font-weight: 700;
+}
+#tour3d-root #strip #stripToggle { flex: none; }
+#tour3d-root #strip button[aria-current],
+#tour3d-root #strip button:active { border-color: #d4a017; color: #f5d67b; background: rgba(60,46,10,.92); }
+#tour3d-root #strip .sw { width: 10px; height: 10px; border-radius: 50%; flex: none; }
+@media (hover: hover) {
+  #tour3d-root #mapPlan .mk:hover { background: #d4a017; color: #1a1206; }
+  #tour3d-root #strip button:hover { border-color: #d4a017; color: #f5d67b; }
 }
 #tour3d-root #panel a.more {
   flex: 1; text-align: center; background: #d4a017; color: #1a1206; font-weight: 800;
@@ -275,7 +354,7 @@ body:has(#tour3d-root) { overflow: hidden; }
 
 /* ---------- touch joystick ---------- */
 #tour3d-root #joy {
-  position: absolute; z-index: 20; bottom: 70px; left: 22px;
+  position: absolute; z-index: 20; bottom: 84px; left: 22px;
   width: 120px; height: 120px; border-radius: 50%;
   border: 2px solid rgba(212,160,23,.6); background: rgba(10,18,34,.4);
   display: none; touch-action: none;
@@ -285,7 +364,7 @@ body:has(#tour3d-root) { overflow: hidden; }
   border-radius: 50%; background: rgba(212,160,23,.85); box-shadow: 0 4px 14px rgba(0,0,0,.5);
 }
 body.touch #tour3d-root #joy { display: block; }
-body.touch #tour3d-root #hint { bottom: 200px; }
+body.touch #tour3d-root #hint { bottom: 214px; }
 
 /* ---------- entry card ---------- */
 #tour3d-root #enterCard {
@@ -317,7 +396,7 @@ body.touch #tour3d-root #hint { bottom: 200px; }
 
 /* ---------- journey chooser + narration card ---------- */
 #tour3d-root #journeyPanel {
-  position: absolute; z-index: 30; bottom: 70px; right: 50%;
+  position: absolute; z-index: 30; bottom: 84px; right: 50%;
   transform: translateX(50%) translateY(20px);
   width: min(460px, calc(100vw - 32px)); max-height: 60vh; overflow: auto;
   background: rgba(13,22,40,.96); border: 2px solid #d4a017; border-radius: 18px;
@@ -362,6 +441,7 @@ body.touch #tour3d-root #hint { bottom: 200px; }
   #tour3d-root #fade,
   #tour3d-root #panel,
   #tour3d-root #helpPanel,
+  #tour3d-root #mapPanel,
   #tour3d-root #enterCard { transition: none; }
   #tour3d-root #enterBtn:hover { transform: none; }
 }
