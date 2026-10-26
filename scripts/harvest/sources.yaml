@@ -275,4 +275,16 @@ sources:
       robots_txt: checked 25 Oct 2026; lesson pages and media host not disallowed
       youtube: not downloaded (YouTube terms)
     status: enabled
+  assabile-tareq-al-suwaidan:
+    name: Assabile archive of Tareq al-Suwaidan's lectures (video)
+    url: https://www.assabile.com/tareq-al-suwaidan
+    media_host: https://media.assabile.com/
+    licence: no licence statement found on the site (checked 25 Oct 2026); treated exactly like a book by the founder's decision of 25 Oct 2026: full details and full prose in the museum's own words, cited by series, episode and timestamp; video and audio never republished
+    layer: copyrighted-reference
+    method: discovery of series and episode pages with scripts/harvest/audio/discover_series.py (media links read from the page); scripts/harvest/audio/download.py (sequential, two-second pause, identified User-Agent, SHA-256 per file); audio extracted from MP4 with ffmpeg; scripts/harvest/audio/transcribe_qwen.py (oddadmix/qwen3-asr-1.7b-arabic-dialectal-v2, local)
+    limits:
+      pause_seconds: 2
+      robots_txt: checked 25 Oct 2026; lesson pages and media host not disallowed
+      youtube: not downloaded (YouTube terms)
+    status: enabled
 workspace: /Volumes/exmicroSD/islam-museum-harvest (symlinked from ~/islam-museum-harvest)

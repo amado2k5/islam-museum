@@ -212,10 +212,10 @@ lists' own order. Status markers: [ ] queued · [~] in a writer's hands · [x] m
 - [x] Mahmoud Abdul-Rauf (Chris Jackson) — 1969–Living
 - [x] Shareef Abdur-Rahim — 1976–Living
 - [ ] Gilles Sissoko — 1978–Living
-- [ ] Kareem Abdul-Jabbar — 1947–Living
-- [ ] Bernard Hopkins — 1965–Living
-- [ ] Mike Tyson (Malik Abdul Aziz) — 1966–Living
-- [ ] Hasim Rahman — 1972–Living
+- [x] Kareem Abdul-Jabbar — 1947–Living
+- [x] Bernard Hopkins — 1965–Living
+- [x] Mike Tyson (Malik Abdul Aziz) — 1966–Living
+- [x] Hasim Rahman — 1972–Living
 - [ ] Nazim Richardson — 1965–2020
 - [ ] Naseem Hamed (Prince Naseem) — 1974–Living
 - [ ] Amir Khan — 1986–Living
@@ -1082,11 +1082,11 @@ lists' own order. Status markers: [ ] queued · [~] in a writer's hands · [x] m
 - [x] Abdurreshid Ibrahim (1857–1944)
 - [x] Mirsaid Sultan-Galiev (1892–1940)
 - [x] Ahmet Ağaoğlu (1869–1939)
-- [ ] Mirza Fatali Akhundov (1812–1878)
-- [ ] Hasan Bey Zardabi (1837–1907)
-- [ ] Jalil Mammadguluzadeh (1866–1932)
-- [ ] Mirza Alakbar Sabir (1862–1911)
-- [ ] Mammed Amin Rasulzade (1884–1955)
+- [x] Mirza Fatali Akhundov (1812–1878)
+- [x] Hasan Bey Zardabi (1837–1907)
+- [x] Jalil Mammadguluzadeh (1866–1932)
+- [x] Mirza Alakbar Sabir (1862–1911)
+- [x] Mammed Amin Rasulzade (1884–1955)
 - [ ] Fatali Khan Khoyski (1875–1920)
 - [ ] Nasib Bey Yusifbeyli (1881–1920)
 - [ ] Zeynalabdin Taghiyev (1823–1924)
