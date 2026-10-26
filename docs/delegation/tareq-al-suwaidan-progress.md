@@ -28,7 +28,8 @@ Series `administrative-processus-abilities`: ep01–ep05 written and merged — 
 | al-mubdioune/ep01 | 0:25:22 | 6 files (ar/en/ur) + person ext | tariq ext | — | — | 1 concept (rubaiyyat-sinaat-al-mubdiin) + 1 work (al-mubdioune-program) | ~45 cited windows | 13a147b65 (PR #2076) |
 | al-mubdioune/ep02 | 0:28:38 | jafar-al-sadiq ext ×3 | — | — | — | person ext only | ~20 cited windows | 9f61f01f8 (PR #2077) |
 | al-mubdioune/ep03 | 0:25:22 | al-awzai ext ×3 | — | — | — | person ext only | ~20 cited windows | 9ccda86b2 (PR #2079) |
-| al-mubdioune/ep04 | 0:27:09 | abd-allah-ibn-al-mubarak ext ×3 (pt 1 of 2) | — | — | — | person ext only | ~25 cited windows | pending |
+| al-mubdioune/ep04 | 0:27:09 | abd-allah-ibn-al-mubarak ext ×3 (pt 1 of 2) | — | — | — | person ext only | ~25 cited windows | 36833c66b (PR #2082) |
+| al-mubdioune/ep05 | 0:28:43 | abd-allah-ibn-al-mubarak ext ×3 (pt 2 of 2) | — | — | — | person ext only | ~25 cited windows | pending |
 
 ## Excluded items (standing rule, founder's instruction, 25 Oct 2026)
 
@@ -53,6 +54,7 @@ Every dropped or left-out item is listed here with item, reason, the gate it fai
 
 - `devin-tareq-al-suwaidan-admin-1` — ep01 of `administrative-processus-abilities` (13 new entities + 1 extension). Course self-dates to ~2007 (mentions the 2007 book *Know How* and the just-announced iPhone).
 - `devin-tareq-al-suwaidan-admin-2` — ep02 (4 new concepts: vision/mission, KPI, LOB/SBU, family businesses [contested: women's-intervention claim, labelled speaker's view + needs_source]).
+- `devin-tareq-al-suwaidan-mubdioune-5` — al-mubdioune ep05 (ibn-mubarak ext pt2: scholars' testimony, masked champion, Hashimite hadith story, fitna rule, four-fears maxim, Abu Hanifa prayer joke, Fudayl verses, deathbed talqin fiqh).
 - `devin-tareq-al-suwaidan-mubdioune-4` — al-mubdioune ep04 (ibn-al-mubarak ext pt1: amir-al-muminin fi-l-hadith, father's scrupulousness, Kufa famine/hajj story, Raqqa/Harun crowd).
 - `devin-tareq-al-suwaidan-mubdioune-3` — al-mubdioune ep03 (al-awzai ext: orphanhood secret, Malik/Thawri reception, 70k fatwas, Damascus governor confrontation, 70k dinars given away).
 - `devin-tareq-al-suwaidan-mubdioune-1` — al-mubdioune ep01 (concept rubaiyyat-sinaat-al-mubdiin; work al-mubdioune-program; person ext). Series intro: quartets methodology.
