@@ -76,3 +76,12 @@ He places the measure of faith in outward submission to God's law and inward sur
 - **academic view: not yet sourced**: not yet sourced.
 - **other view: not yet sourced**: not yet sourced.
 :::
+
+## For Sprouts
+Iman in Islam means truly believing in God, His angels, His books, His messengers, the Last Day and God's decree. When the angel Gabriel asked the Prophet about iman, he answered with these pillars — they are the root of everything a Muslim does.
+
+## For Explorers
+In the famous hadith of Gabriel, the angel asked the Prophet about iman and he answered: 'to believe in God, His angels, His book, the meeting with Him, His messengers, and to believe in the resurrection.' Muslims thus count six pillars of faith named in the Qur'an and Sunna: belief in God, His angels, His books, His messengers, the Last Day, and the decree, its good and its hard side. Early scholars differed on whether deeds are part of the word 'iman': most Sunnis held that faith is word and deed, increasing and decreasing; the Murji'a separated deeds from the name; the Khawarij were stricter. Iman is tied in theology to islam and ihsan — the three divisions of the religion in the same hadith.
+
+## For Scholars
+Iman is one of the three divisions of religion in the hadith of Gabriel — islam, iman, ihsan — whose six pillars the Prophet named: belief in God, His angels, His books, His messengers, the Last Day, and the decree in its good and its hardship, as transmitted by al-Bukhari, Muslim and Ibn Khuzayma. The theological schools disputed its essence: the Murji'a made it heart-assent and deferred deeds, while scholars of hadith and fiqh answered that iman is statement, action and belief, increasing through obedience and decreasing through sin in the common Sunni formulation; the Khawarij and Mu'tazila drew harder conclusions for the grave sinner — exit from faith for the first, an in-between rank for the second. The question branched into disputes over istithna' (saying 'God willing' on one's faith), the complete believer, the hypocrite and the original unbeliever, filling the creed books — Tahawiyya, Wasitiyya, Lum'a. The 'branches of faith' hadiths, numbering them seventy-some, root daily practice: modesty, prayer and removing harm from the path are all branches of iman.

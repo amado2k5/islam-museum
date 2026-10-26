@@ -21,3 +21,6 @@ The Shafi'is, and one narration of Ahmad, hold that he may be sold generally, fo
 
 ## What voids it
 The killing of the owner by the tadbir slave, and debts that consume the estate, void tadbir. The book notes that the detailed rules of the schools need not be given, since slavery no longer exists. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.4896}
+
+## For Scholars
+Tadbir in Islamic fiqh is the freeing of a slave 'after one's back' — manumission taking effect at the owner's death, from duber meaning what comes after a thing. It is a form of emancipation, which the scholars agree is among the greatest acts of nearness to God; the mudabbar slave is freed at the owner's death out of the third of his estate in the view of most scholars — with the school debates when no third remains. The fiqh books study its rules: what the mudabbar owns during the owner's life and what attaches to his person in children and property, when emancipation is lost by the owner's disposals or debts, and the cases of the woman's mudabbar and of the mudabbar who becomes Muslim. Tadbir stands beside kitaba (contracted emancipation) and conditional freeing in the chapter of slavery, and its rules fill the school books and the fatwa literature on bondage and freedom in Islamic history.

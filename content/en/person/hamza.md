@@ -26,3 +26,12 @@ Hamza was the Prophet's uncle and his strongest protector. When he died in the b
 
 ## The expedition of Sif al-Bahr (al-Raheeq al-Makhtum p.197)
 The Prophet put him in command of thirty men of the emigrants who were to intercept a caravan of Quraysh carrying [[person/abu-jahl|Abu Jahl]]. When the two groups met, Majdi ibn Amr al-Juhani came between them, and they did not fight. Hamza's banner was the first banner the Prophet tied ([[event/expedition-of-sif-al-bahr|the expedition of Sif al-Bahr]]) {cite:mubarakpuri-raheeq p.197}.
+
+## For Sprouts
+Hamza ibn Abd al-Muttalib was the Prophet's uncle and the bravest horseman of Quraysh. One day he heard that Abu Jahl had harmed the Prophet, so he answered him and declared his Islam — and his faith strengthened the first Muslims. He fought as a champion at Badr and was martyred at Uhud in 625 CE; Muslims call him the master of martyrs.
+
+## For Explorers
+Hamza ibn Abd al-Muttalib, the Prophet's uncle, was the fiercest man of Quraysh before his Islam. Ibn Hisham tells how he came back from hunting and heard that Abu Jahl had insulted the Prophet, so he struck him with his bow and declared the religion on the spot — and his conversion gave strength to the vulnerable early Muslims. At Badr in 2 AH he fought in the front, and at Uhud in 3 AH (625 CE) Wahshi threw his spear from afar and he was martyred; his body was mutilated in the incident that grieved the Muslims. Muslims call him the Lion of God and the master of martyrs.
+
+## For Scholars
+Hamza ibn Abd al-Muttalib ibn Hashim, the Prophet's uncle and foster-brother, was one of Quraysh's hardest men before Islam and among its earliest converts of the elders. The sira tells his conversion: returning from the hunt he heard from a slave woman that Abu Jahl had insulted the Prophet, went to him, struck him with his bow and said 'do you curse him when I am on his religion?' — declaring a faith not yet settled in his heart, which God then made true in the historians' reading. He emigrated to Medina, where the Prophet paired him in brotherhood with Zayd ibn Haritha; at Badr in 2 AH he fought among the champions and received a banner. At Uhud in 3 AH (625 CE) Wahshi ibn Harb — promised freedom by Jubayr ibn Mut'im for Hamza's death — speared him from a distance and he was martyred; Hind bint Utba then mutilated his body in the act the sira treats as its bitterest wound for the Prophet and his companions. For Muslims he is 'the Lion of God and of His messenger' and 'master of the martyrs'; his grave at Uhud is visited today.

@@ -50,3 +50,12 @@ The Sheikh cites a narration that the lightest punishment in the Fire will be fo
 - **academic view: not yet sourced**: not yet attributed.
 - **other view: not yet sourced**: not yet attributed.
 :::
+
+## For Sprouts
+Abu Talib was the Prophet's uncle and raised him after his grandfather Abd al-Muttalib died while he was still a boy. The Prophet loved him deeply, and Abu Talib shielded him from Quraysh's harm through the years of the call until he died around 619 CE. Muslims agree on his goodness and differ on his Islam.
+
+## For Explorers
+Abu Talib ibn Abd al-Muttalib, the Prophet's uncle and Ali's father, was the chief of Banu Hashim in Mecca. He took in the orphaned Prophet after his grandfather's death around 578 CE — the famous accounts take the boy with him on trade journeys to Syria — then remained his protector when the call was declared: the sira records him defending his nephew against Quraysh's delegations demanding him, and sharing the Muslims' three-year blockade in the quarter of Abu Talib. He died around 619 CE in the Year of Sorrow, the year Khadija also died. His faith is the oldest dispute in the books: the Shia hold he became Muslim and ascribe to him poetry of support; Sunnis read his protection as kinship loyalty and cite the accounts of his dying on his fathers' way.
+
+## For Scholars
+Abu Talib ibn Abd al-Muttalib ibn Hashim — his name Abd Manaf — was the Prophet's uncle, who fostered him after Abd al-Muttalib's death about 578 CE in fulfilment of his father's will; the boy grew in his care and accompanied him on the Busra journey of the Bahira the monk accounts. He became chief of Banu Hashim and shielded his nephew through all the years of the call: the sira records his rebuttals of Quraysh's delegations demanding or complaining of the Prophet, his carrying Banu Hashim and al-Muttalib into the quarter of Abu Talib for the three-year boycott, and the poetry of support ascribed to him. He died about year ten of the mission (619 CE), the Year of Sorrow. His faith is the oldest sectarian dispute of the memory: the Shia affirm his Islam on his defense and the poems ascribed to him; Sunnis distinguish protection from belief on the reports of his dying on his fathers' way and the Two Sandals hadith of the two Sahihs — historians reading the quarrel itself as a mirror of kinship and call in Mecca.
