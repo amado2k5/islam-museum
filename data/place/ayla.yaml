@@ -11,5 +11,12 @@ coordinates: [29.5699, 34.9873]
 coordinate_precision: site
 coordinate_note: "ويكي بيانات Q407451 (أيلة، موقع العقبة القديمة في الأردن)."
 external_ids: { wikidata: "Q407451" }
-sources: [source/ibn-hisham-saqqa]
-status: { review: draft, completeness: 1, generated_by: "Claude Sonnet 5.5; mined from Ibn Hisham juz' 4 pp. 169; coordinates added by Claude Code (subagent), claude-sonnet-5-5" }
+sources:
+- source/ibn-hisham-saqqa
+- source/encyclopaedia-of-islam-2
+status: { review: published, completeness: 2 }
+provenance:
+  layer: own-research
+  source: "Ibn Hisham (Saqqa) juz' 4 p. 169; Encyclopaedia of Islam, 2nd ed. (Brill), vol. 1, pp. 832-833, entry AYLA (queue seq 441, batch ei2-b018)"
+  generated_by: "Claude Sonnet 5.5 (mined from Ibn Hisham); coordinates added by Claude Code (subagent); EI2 enrichment by Claude Code (claude-haiku-5-5)"
+  model: claude-haiku-5-5
