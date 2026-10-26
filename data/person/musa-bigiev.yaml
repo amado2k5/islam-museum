@@ -1,0 +1,51 @@
+id: person/musa-bigiev
+class: person
+label: { ar: "موسى جار الله", en: "Musa Bigiev", ur: "موسیٰ بیگی" }
+names:
+  - { value: "Musa Jarullah Bigiev", kind: full }
+  - { value: "موسى جار الله بيغييف", kind: full }
+  - { value: "Муса Яруллович Бигеев", kind: full }
+  - { value: "Musa Jarullah", kind: pen }
+  - { value: "Musa Carullah", kind: alternate }
+  - { value: "Musa Bigi", kind: alternate }
+gender: male
+summary:
+  ar: "عالم وفيلسوف وناشر تاتاري (توفي 1949)، من أبرز مفكري حركة الجديد وأكثرهم إثارة للجدل. تعلّم في مدارس قازان وبخارى والقاهرة، ودرّس في المدرسة الحسينية بأورنبورغ، واعتقلته السلطة السوفيتية سنة 1923، ثم فرّ من الاتحاد السوفيتي سنة 1930 فقضى منفاه متنقلًا وكاتبًا في أوروبا والشرق الأوسط وآسيا، وتوفي في القاهرة."
+  en: "Tatar theologian, philosopher and publicist (died 1949), one of the leading and most controversial thinkers of the Jadid movement. Educated at madrasas in Kazan, Bukhara and Cairo, he taught at the Husayniya madrasa in Orenburg, was arrested by the Soviet authorities in 1923, and fled the USSR in 1930, spending his exile travelling and writing across Europe, the Middle East and Asia; he died at Cairo."
+  ur: "تاتار عالمِ دین، فلسفی اور مصنف (وفات 1949)، تحریکِ جدید کے نمایاں اور سب سے متنازع مفکرین میں سے ایک۔ قازان، بخارا اور قاہرہ کے مدارس میں تعلیم پائی، اورنبرگ کی مدرسہ حسینیہ میں پڑھایا، 1923 میں سوویت حکومت نے گرفتار کیا، 1930 میں سوویت یونین سے فرار ہو کر جلاوطنی یورپ، مشرقِ وسطیٰ اور ایشیا میں سفر و تصنیف میں گزاری، اور قاہرہ میں وفات پائی۔"
+roles: [theologian, scholar, writer, philosopher]
+wings: [people]
+regions: [anatolia-balkans]
+born:
+  edtf: "1875"
+  hijri: "1292"
+  calendar: gregorian
+  precision: year
+  status: debated
+  derived: true
+  note: "His birth date and place are stated by the English article itself to be disputed, and no reading is followed silently. The readings: the English article's lead gives 25 December 1873, while its text lists 1870, 1875 and 1873 as the opinions; the Urdu article's lead gives 24 September 1873 and its text 24 September 1874, at Rostov; Wikidata carries three values — 24 September 1874, the year 1875, and the year 1878 — with Kikino as birthplace; the Arabic article dates him 1295–1369 AH / 1878–1949 CE, born at Rostov-on-Don. The scholarly literature cited by the English article uses 1875–1949 in its very titles (Kanlidere's 1988 monograph 'Musa Carullah Bigi (1875–1949)'; Akhmetova's 2008 study 'Musa Jerullah Bigiev (1875–1949)'), and the harvest queue also gives 1875; the record therefore follows 1875, at year precision, status debated. The birthplace is likewise disputed — the village of Mishar or Novocherkassk (English article), Rostov (Urdu and Arabic articles), Kikino (Wikidata) — and the museum has no place entity for any of them, so no born_in edge is written. The Hijri year 1292 is the tabular conversion of 1875."
+  sources: [source/wikipedia-musa-bigiev-en, source/wikipedia-musa-bigiev-ar, source/wikipedia-musa-bigiev-ur, source/wikidata-musa-bigiev]
+died:
+  edtf: "1949-10-28"
+  hijri: "1369"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "The English article and Wikidata agree he died at Cairo on 28 October 1949, buried in the royal cemetery of the Khedives of Egypt; the Arabic article's own Hijri year for his death, 1369, matches the tabular conversion."
+  sources: [source/wikipedia-musa-bigiev-en, source/wikipedia-musa-bigiev-ar, source/wikidata-musa-bigiev]
+relations:
+  - { type: died_in, target: place/cairo, note: "He died at Cairo on 28 October 1949.", sources: [source/wikipedia-musa-bigiev-en, source/wikidata-musa-bigiev] }
+faith:
+  - value: unknown
+    basis: unknown
+    note: "Wikidata's only religion value is Islam (Q432), generic. The Arabic article calls Bigiev Shaykh al-Islam of Russia before and during the Bolshevik revolution — an office, not a school — and the Urdu article does the same. The English article calls him a Tatar Muslim scholar and theologian, and, characterising his polemical writings, one of the 'most notorious Sunnite polemicists against Shiism': that is one article's description of his books' stance, not two independent sources naming a school for the man himself, and the schools his reform programme engaged with are context. His theological positions — above all his argument, in Rahmet-i Ilahiye Burhanlari, that God's mercy and forgiveness extend also to unbelievers — are positions recorded in the prose, not a school attestation. Under the two-source rule and the doubt rule his faith is recorded unknown, with the readings preserved here."
+    sources: [source/wikidata-musa-bigiev, source/wikipedia-musa-bigiev-en, source/wikipedia-musa-bigiev-ar, source/wikipedia-musa-bigiev-ur]
+external_ids: { wikidata: "Q2640707" }
+sources: [source/wikipedia-musa-bigiev-en, source/wikipedia-musa-bigiev-ar, source/wikipedia-musa-bigiev-ur, source/wikidata-musa-bigiev]
+provenance:
+  layer: own-research
+  source: "English Wikipedia 'Musa Bigiev' (revision 1371375176), Arabic Wikipedia 'موسى جار الله' (revision 73527949) and Urdu Wikipedia 'موسیٰ بیگی' (revision 8777352), read on 26 October 2026, with Wikidata item Q2640707 (a second item, Q13202745, duplicates it and is not used). The harvest queue gives his years as 1875–1949: the death is confirmed by all sources, and 1875 is followed for the birth year from the scholarly literature amid five competing readings, all preserved in the born note. His faith is left unknown under the two-source rule, as the faith note sets out in full."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: century-additions-30
+status: { review: published, completeness: 3, generated_by: "Muse (Muse Spark 1.3)" }
