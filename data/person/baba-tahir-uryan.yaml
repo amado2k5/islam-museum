@@ -3,24 +3,32 @@ class: person
 label:
   ar: "بابا طاهر عريان"
   en: "Baba Tahir"
-roles: [poet]
+roles: [poet, mystic]
 gender: male
 summary:
-  ar: "بطاقة أولية لبابا طاهر عريان الهمذاني، الشاعر الصوفي الفارسي صاحب الرباعيات المشهورة بدوبيتي؛ توفي نحو سنة ١٠١٠م ولم تُراجع ترجمته على الصفحة بعد."
-  en: "Draft card for Baba Tahir Uryan of Hamadan, the Persian Sufi poet famed for his dubayti quatrains; he died around 1010 and his entry is not yet checked on the page."
+  ar: "بابا طاهر عريان الهمذاني، صوفي شاعر كتب الرباعيات (الدوبيتي) بلهجة فارسية مختلطة فيها ملامح لورية وكردية، وتذكر الموسوعة الإسلامية وفاته سنة 401هـ/1010م عن رواية متأخرة غير موثقة، وأول خبر تاريخي عنه يضعه بعد دخول طغرل همذان سنة 447هـ/1055م {cite:encyclopaedia-of-islam-2 vol. 1 p. 896-897}."
+  en: "Baba Tahir 'Uryan of Hamadan, a mystic who wrote quatrains (du-bayti) in a Persian dialect with Lur and Kurdish traits; the Encyclopaedia of Islam gives his death as 401/1010 on a late, unsourced authority, while the earliest historical notice places him after Tughril's entry into Hamadan in 447/1055 {cite:encyclopaedia-of-islam-2 vol. 1 p. 896-897}."
 wings: [people]
 regions: [persia-central-asia]
 periods: [period/buyid-seljuk-fatimid-era]
-died: { edtf: "1010~", precision: decade, status: tradition, derived: true }
-sources: [source/al-aalam]
+died:
+  edtf: "1010"
+  hijri: "0401"
+  calendar: julian
+  precision: year
+  status: tradition
+  derived: true
+  sources: [source/encyclopaedia-of-islam-2]
+  note: "EI2 gives death in 401/1010 on the authority of Rida Quli Khan, who gives no source. The only early historical notice (Rahat al-Sudur, c. 601/1204) places him after Tughril's entry into Hamadan in 447/1055, so the date is a tradition rather than a verified fact. The earlier draft gave a decade (1010~); the year is EI2's."
+sources: [source/al-aalam, source/encyclopaedia-of-islam-2]
 external_ids:
   wikidata: Q558486
 provenance:
   layer: own-research
-  source: "Wikidata candidate; entry not yet read on the page in a book source"
-  generated_by: "Devin (SWE-2 High)"
-  model: "SWE-2 High"
-  run: wikidata-import-wave2
+  source: "Wikidata candidate (Q558486); prose enriched from Encyclopaedia of Islam, 2nd ed. (Brill), vol. 1, pp. 896-899, entry 'BABA-TAHIR' (signed V. Minorsky; queue seq 479, batch ei2-b020); the original draft provenance is kept"
+  generated_by: "Devin (SWE-2 High); EI2 enrichment by Claude Code (claude-haiku-5-5)"
+  model: "SWE-2 High; claude-haiku-5-5"
+  run: "wikidata-import-wave2; ei2-b020"
 status:
-  review: draft
-  completeness: 1
+  review: published
+  completeness: 3
