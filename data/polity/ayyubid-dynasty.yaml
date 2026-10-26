@@ -5,8 +5,8 @@ label:
   ar: الدولة الأيوبية
   en: Ayyubid dynasty
 summary:
-  ar: سلالة حاكمة قامت سنة 1171م، وحكمت مصر حتى سنة 1250م، وعاصمتها القاهرة. والسجل مقصور على مصر.
-  en: A ruling dynasty established in 1171 CE that governed Egypt until 1250 CE; its capital was Cairo. This record covers Egypt only.
+  ar: "سلالة حاكمة قامت سنة 1171م وحكمت مصر حتى سنة 1250م، وامتدت سلطتها إلى الشام والجزيرة واليمن؛ عاصمتها القاهرة. والسجل مستكمل الآن من دائرة المعارف الإسلامية حتى وفاة الكامل سنة 635هـ (1238م)."
+  en: "A ruling dynasty founded in 1171 CE that governed Egypt until 1250 CE and extended its power over Syria, the Jazira and Yemen; its capital was Cairo. The record now also draws on the Encyclopaedia of Islam up to the death of al-Kamil in 635 AH (1238)."
 wings: []
 periods:
 - period/crusades-ayyubid-mamluk
@@ -39,13 +39,11 @@ sources:
 - source/khitat-maqrizi-1998
 - source/tarikh-islam-hasan-ibrahim
 - source/wikidata
+- source/encyclopaedia-of-islam-2
 provenance:
   layer: cc0
   source: Wikidata (CC0), local subset built 12 Oct 2026 from the 96 GiB dump (ids and capital); the Egypt start and end from al-Maqrizi's Khitat and Hasan Ibrahim's Tarikh al-Islam (local scans)
   generated_by: Claude (maintainer session); Claude Haiku 5.5 (showcase-prose lane, Khitat sections)
   model: claude-sonnet-5-5
   run: polity-wikidata-1, showcase-prose-phase2-egypt-batch4, showcase-prose-phase2-egypt-batch5
-status:
-  review: published
-  completeness: 3
-  generated_by: "Claude Haiku 5.5; the takeover of 567 AH, the residence in Cairo and the end of Ayyubid rule in Egypt in 648 AH (1250 CE) are read from al-Maqrizi's Khitat (local scan, pp. 290, 1001, 1912) and Hasan Ibrahim's Tarikh al-Islam (local scan, pp. 494, 698). The record is narrowed to Egypt, so the Wikidata end date (1341 CE) is not used"
+status: { review: published, completeness: 2 }
