@@ -18,6 +18,8 @@
 //   enter_button, logo_alt, loading, failed,
 //   stop_of ("{n} / {total}"), stop_prev, stop_next, near_prompt, near_prompt_touch,
 //   help_button, help_title, help_walk, help_look, help_go, help_stops, help_esc, help_close, canvas_label
+// halls: the other eight wings' stops (tour/halls.yaml), same shape as exhibits plus
+//   art/artAlt (an existing site illustration, or "" for a name plaque); t.art_note labels illustrations.
 // exhibits: Objects-hall stops from tour/exhibits.yaml, joined to their object records in 3d.astro.
 // journeys[].kind must be one of: "event" | "place" | "time".
 import { ARABIC_SCRIPT, type Lang } from "../lib/i18n";
@@ -39,19 +41,22 @@ interface ExhibitView {
   date: string;
   note: string;
   href: string;
+  art?: string;
+  artAlt?: string;
 }
 interface Props {
   lang: Lang;
   t: Record<string, string>;
   journeys: JourneyView[];
   exhibits: ExhibitView[];
+  halls: Array<{ wing: string; stops: ExhibitView[] }>;
   wingTitles: Record<string, string>;
 }
-const { lang, t, journeys, exhibits, wingTitles } = Astro.props;
+const { lang, t, journeys, exhibits, halls, wingTitles } = Astro.props;
 const dir = ARABIC_SCRIPT.includes(lang) ? "rtl" : "ltr";
 // Defensive: journeys carry no HTML, but never let a stray "<" break the
 // JSON script block (in particular "</script>").
-const payloadJson = JSON.stringify({ lang, t, journeys, exhibits, wingTitles }).replace(/</g, "\\u003c");
+const payloadJson = JSON.stringify({ lang, t, journeys, exhibits, halls, wingTitles }).replace(/</g, "\\u003c");
 ---
 <div id="tour3d-root" dir={dir} lang={lang}>
   <div id="app"></div>
@@ -73,11 +78,12 @@ const payloadJson = JSON.stringify({ lang, t, journeys, exhibits, wingTitles }).
 
   <div id="joy" aria-label={t.joy_label}><div id="joyKnob"></div></div>
 
-  <div id="panel" role="dialog" aria-labelledby="panelTitle" aria-describedby="panelMeta panelNote panelDesc">
+  <div id="panel" role="dialog" aria-labelledby="panelTitle" aria-describedby="panelMeta panelNote panelArt panelDesc">
     <div class="count" id="panelCount"></div>
     <h2 id="panelTitle" tabindex="-1"></h2>
     <p id="panelMeta" class="meta"></p>
     <p id="panelNote" class="note"></p>
+    <p id="panelArt" class="note"></p>
     <p id="panelDesc"></p>
     <div class="row nav">
       <button type="button" id="panelPrev">{t.stop_prev}</button>

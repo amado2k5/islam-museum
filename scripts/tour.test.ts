@@ -247,7 +247,7 @@ describe("3d tour: map, floor waypoints, room strip", () => {
     // One star per doorway, one at the hall centre, one per exhibit stop.
     expect(src).toContain("hallWps.push(wp);");
     expect(src).toContain('addStar(hall, { scene: "hall", x: 0, z: 6, yaw: 0 });');
-    expect(src).toContain('addStar(gallery, { scene: "gallery", x, z: 2.6, yaw: 0, stop: i });');
+    expect(src).toContain('addStar(objectsRoom, { scene: "gallery", x, z: 2.6, yaw: 0, stop: i });');
     expect(src).toContain('kind === "hall"');
     expect(src).toContain("`hall/${door.id}`");
     expect(src).toContain('e.code === "KeyM"');
@@ -259,3 +259,52 @@ describe("3d tour: map, floor waypoints, room strip", () => {
   });
 });
 
+
+describe("3d tour: halls.yaml", () => {
+  const HALLS = "tour/halls.yaml";
+  it.skipIf(!existsSync(HALLS))("8 halls x 6 stops, real records and illustrations, ar/en/ur, published with provenance", () => {
+    const raw = parse(readFileSync(HALLS, "utf8")) as {
+      status: { review: string }; provenance: Record<string, string>;
+      halls: Array<{ wing: string; stops: Array<{ id: string; record: string; sources: string[]; art?: string; label: Record<string, string>; desc: Record<string, string> }> }>;
+    };
+    expect(raw.status.review).toBe("published");
+    for (const k of ["generated_by", "model", "run", "source"]) expect(raw.provenance[k], k).toBeTruthy();
+    expect(raw.halls.map((h) => h.wing)).toEqual(["time", "place", "people", "ideas", "words", "living", "today", "made"]);
+    const art = new Set((JSON.parse(readFileSync("site/src/data/architecture-art.json", "utf8")) as Array<{ slug: string }>).map((a) => a.slug));
+    for (const h of raw.halls) {
+      expect(h.stops.length, h.wing).toBe(6);
+      expect(new Set(h.stops.map((s) => s.id)).size, h.wing).toBe(6);
+      for (const s of h.stops) {
+        const where = `${h.wing}/${s.id}`;
+        const [cls, slug] = s.record.split("/");
+        expect(existsSync(`data/${cls}/${slug}.yaml`), `${where} record`).toBe(true);
+        const rec = parse(readFileSync(`data/${cls}/${slug}.yaml`, "utf8")) as { sources?: string[] };
+        expect(s.sources, `${where} sources match the record`).toEqual(rec.sources);
+        if (s.art) expect(art.has(s.art), `${where} art`).toBe(true);
+        if (cls === "person") expect(s.art, `${where}: no illustration for a person`).toBeUndefined();
+        for (const l of ["ar", "en", "ur"]) {
+          expect(s.label[l], `${where} label.${l}`).toBeTruthy();
+          expect(s.desc[l], `${where} desc.${l}`).toBeTruthy();
+        }
+        const text = JSON.stringify([s.label, s.desc]);
+        expect(HONORIFIC.test(text), `${where} typed honorific`).toBe(false);
+        expect(/[﴿﴾]/.test(text), `${where} typed Quran text`).toBe(false);
+      }
+    }
+  });
+  it.skipIf(!existsSync(HALLS))("loadHalls / viewHalls select the page language", async () => {
+    const { loadHalls, viewHalls } = await import("../site/src/lib/tour");
+    const v = viewHalls(loadHalls(), "ur");
+    expect(v).toHaveLength(8);
+    expect(v[1].stops[0].label).toBe("مکہ مکرمہ");
+    expect(v[1].stops[0].art).toBe("masjid-al-haram-kaaba");
+    expect(v[2].stops.every((s) => s.art === "")).toBe(true);
+  });
+  it("every wing doorway opens a hall and stop links name the wing", () => {
+    const src = readFileSync("site/src/scripts/tour.ts", "utf8");
+    expect(src).toContain("if (stopsOf(wing.id).length)");
+    expect(src).toContain("setHash(`${curWing.id}/${ex.id}`)");
+    expect(src).toContain("freeHallRoom()");
+    expect(readFileSync("site/src/pages/[lang]/3d.astro", "utf8")).toContain("t.nojs_halls");
+  });
+});

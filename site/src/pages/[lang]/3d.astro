@@ -5,9 +5,10 @@
 import BaseLayout from "../../layouts/BaseLayout.astro";
 import Tour3D from "../../components/Tour3D.astro";
 import { ui, LANGS, WINGS, wingHref, type Lang } from "../../lib/i18n";
-import { loadJourneys, viewJourneys, loadExhibits, viewExhibits } from "../../lib/tour";
+import { loadJourneys, viewJourneys, loadExhibits, viewExhibits, loadHalls, viewHalls } from "../../lib/tour";
 import { byId, href } from "../../lib/graph";
-import { formatDate } from "../../lib/dates";
+import { formatDate, startOf } from "../../lib/dates";
+import artItems from "../../data/architecture-art.json";
 
 export function getStaticPaths() { return LANGS.map((lang) => ({ params: { lang }, props: { lang } })); }
 const { lang } = Astro.props as { lang: Lang };
@@ -22,6 +23,26 @@ const exhibits = viewExhibits(loadExhibits(), lang).map((e) => {
   const d = formatDate(n.data?.made, lang);
   return { ...e, date: d.text, note: d.derived ? T.entity.dagger : "", href: href(lang, e.record) };
 });
+// The other eight wings' halls: each stop links its record and shows its date
+// (a person's life span); stops with `art` frame an existing site illustration.
+const artBySlug = new Map((artItems as Array<{ slug: string; alt: Record<string, string> }>).map((a) => [a.slug, a]));
+const halls = viewHalls(loadHalls(), lang).map((h) => ({
+  wing: h.wing,
+  stops: h.stops.map((s) => {
+    const n = byId.get(s.record);
+    if (!n) throw new Error(`tour/halls.yaml: record ${s.record} is not in the graph`);
+    const a = s.art ? artBySlug.get(s.art) : undefined;
+    if (s.art && !a) throw new Error(`tour/halls.yaml: art ${s.art} is not a site illustration`);
+    const ends = n.data?.born && n.data?.died ? [n.data.born, n.data.died] : [startOf(n.data)];
+    const ds = ends.map((x) => formatDate(x, lang)).filter((d) => d.text);
+    return {
+      id: s.id, build: "", label: s.label, desc: s.desc, material: "", museum: "",
+      date: ds.map((d) => d.text).join(" – "), note: ds.some((d) => d.derived) ? T.entity.dagger : "",
+      href: href(lang, s.record),
+      art: a ? `/media/architecture-art/${a.slug}.webp` : "", artAlt: a ? (a.alt[lang] ?? a.alt.ar) : "",
+    };
+  }),
+}));
 const crumbLabel = lang === "ar" ? "مسار التنقل" : "breadcrumb";
 ---
 <BaseLayout lang={lang} title={t.page_title} description={t.page_lede} path={`/${lang}/3d/`}>
@@ -30,7 +51,7 @@ const crumbLabel = lang === "ar" ? "مسار التنقل" : "breadcrumb";
     <span aria-hidden="true"> / </span>
     <span aria-current="page">{t.page_title}</span>
   </nav>
-  <Tour3D lang={lang} t={t} journeys={journeys} exhibits={exhibits} wingTitles={Object.fromEntries(WINGS.map(w => [w, T.wings[w].title]))} />
+  <Tour3D lang={lang} t={{ ...t, art_note: T.art.badge }} journeys={journeys} exhibits={exhibits} halls={halls} wingTitles={Object.fromEntries(WINGS.map(w => [w, T.wings[w].title]))} />
   <section class="tour-nojs">
     <!-- The tour component renders the page's real h1; the no-JS fallback
          title is an h2 visually identical to an h1 (single-h1 outline). -->
@@ -47,6 +68,18 @@ const crumbLabel = lang === "ar" ? "مسار التنقل" : "breadcrumb";
       ))}
     </ul>
     {exhibits.some((e) => e.note) && <p>{T.entity.dagger}</p>}
+    <h2>{t.nojs_halls}</h2>
+    {halls.map((h) => (
+      <>
+        <h3>{T.wings[h.wing].title}</h3>
+        <ul>
+          {h.stops.map((s) => (
+            <li><a href={s.href}>{s.label}</a>{s.date ? ` (${s.date})` : ""} — {s.desc}</li>
+          ))}
+        </ul>
+      </>
+    ))}
+    {halls.some((h) => h.stops.some((s) => s.note)) && <p>{T.entity.dagger}</p>}
     <h2>{t.nojs_journeys}</h2>
     <ul>
       {journeys.map((j) => (

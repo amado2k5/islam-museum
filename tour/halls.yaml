@@ -1,0 +1,422 @@
+# Halls for the eight wings beyond Objects in the 3D tour (/{lang}/3d/). Each hall
+# has six stops; `record` is the graph entity whose page the label links to (and
+# whose date it shows), `sources` are that record's own sources, and `art`, where
+# given, is an existing site illustration (site/src/data/architecture-art.json)
+# framed on the wall. Stops without `art` (people, ideas, books, practices) show
+# their name on a plaque under a geometric panel: no portraits or figures.
+# The Objects hall keeps its exhibits in tour/exhibits.yaml.
+status:
+  review: published
+provenance:
+  generated_by: Devin
+  model: unknown
+  run: 3d-tour-step3
+  source: "data records named in each stop's `record`; labels and one-line descriptions are written from those records and cite the same sources"
+
+halls:
+  - wing: time
+    stops:
+      - id: hijra
+        record: event/hijra
+        sources: [source/ibn-ishaq-guillaume, source/watt-1956-medina, source/mubarakpuri-raheeq, source/ibn-hisham-sira, source/sahih-al-bukhari, source/zad-al-maad, source/muruj-al-dhahab, source/assabile-omar-abdelkafy]
+        label: { ar: "الهجرة النبوية", en: "The Hijra", ur: "ہجرت نبوی" }
+        desc:
+          ar: "انتقال النبي محمد وأصحابه من مكة إلى المدينة سنة 622م، ومنه يبدأ التقويم الهجري."
+          en: "The migration of the Prophet Muhammad and his followers from Mecca to Medina in 622 CE, from which the Islamic calendar is counted."
+          ur: "622ء میں نبی محمد اور ان کے ساتھیوں کی مکہ سے مدینہ ہجرت، جس سے ہجری تقویم شروع ہوتی ہے۔"
+      - id: hudaybiyya
+        record: event/treaty-of-hudaybiyya
+        sources: [source/mubarakpuri-raheeq, source/sahih-al-bukhari, source/ibn-hisham-sira, source/zad-al-maad, source/sallabi-ali-vol1, source/assabile-omar-abdelkafy]
+        label: { ar: "صلح الحديبية", en: "The Treaty of Hudaybiyya", ur: "صلح حدیبیہ" }
+        desc:
+          ar: "في ذي القعدة سنة 6هـ خرج النبي في نحو ألف وأربعمائة معتمرًا، فلما صدّته قريش انتهت المفاوضات بصلح مدته عشر سنين."
+          en: "In Dhu al-Qa'da 6 AH the Prophet set out for Umrah with about 1,400 companions; when Quraysh barred the way, talks ended in a ten-year peace."
+          ur: "ذوالقعدہ 6ھ میں نبی تقریباً چودہ سو ساتھیوں کے ساتھ عمرے کو نکلے؛ قریش نے روکا تو مذاکرات دس سالہ صلح پر ختم ہوئے۔"
+      - id: mecca
+        record: event/conquest-of-mecca
+        sources: [source/mubarakpuri-raheeq, source/sahih-al-bukhari, source/sahih-muslim, source/zad-al-maad, source/ibn-hisham-saqqa, source/sallabi-ali-vol1]
+        label: { ar: "فتح مكة", en: "The Conquest of Mecca", ur: "فتح مکہ" }
+        desc:
+          ar: "في رمضان سنة 8هـ، بعد نقض صلح الحديبية، دخل النبي مكة في عشرة آلاف خافضًا رأسه تواضعًا."
+          en: "In Ramadan 8 AH, after the Hudaybiyya peace was broken, the Prophet entered Mecca with ten thousand, his head bowed in humility."
+          ur: "رمضان 8ھ میں صلح حدیبیہ ٹوٹنے کے بعد نبی دس ہزار کے لشکر کے ساتھ عاجزی سے سر جھکائے مکہ میں داخل ہوئے۔"
+      - id: farewell
+        record: event/farewell-pilgrimage
+        sources: [source/ibn-ishaq-guillaume, source/watt-1956-medina, source/lings-1983, source/mubarakpuri-raheeq, source/sahih-muslim, source/sahih-al-bukhari, source/zad-al-maad, source/ibn-hisham-saqqa, source/sallabi-ali-vol1]
+        label: { ar: "حجة الوداع", en: "The Farewell Pilgrimage", ur: "حجۃ الوداع" }
+        desc:
+          ar: "الحجة الوحيدة التي قادها النبي، وفيها ألقى الخطبة المعروفة بخطبة الوداع."
+          en: "The only pilgrimage the Prophet led, in which he gave the sermon known as the Farewell Sermon."
+          ur: "وہ واحد حج جس کی قیادت نبی نے کی، اور اسی میں خطبۂ حجۃ الوداع دیا۔"
+      - id: baghdad
+        record: event/founding-of-baghdad
+        sources: [source/futuh-buldan-maarif-1407, source/tarikh-khulafa-minhaj-1434]
+        label: { ar: "تأسيس بغداد", en: "The founding of Baghdad", ur: "بغداد کی بنیاد" }
+        desc:
+          ar: "ابتدأ الخليفة المنصور بناء مدينة السلام بغداد سنة 145هـ، كما يروي البلاذري."
+          en: "The caliph al-Mansur began building Madinat al-Salam, Baghdad, in 145 AH, as al-Baladhuri records."
+          ur: "بلاذری کے مطابق خلیفہ منصور نے 145ھ میں مدینۃ السلام بغداد کی تعمیر شروع کی۔"
+      - id: constantinople
+        record: event/conquest-constantinople-857
+        sources: [source/shadharat-dhahab, source/dawlat-uthmaniyya-salabi, source/stoddard-arslan-hadir-1923]
+        label: { ar: "فتح القسطنطينية", en: "The conquest of Constantinople", ur: "فتح قسطنطنیہ" }
+        desc:
+          ar: "فتحها السلطان محمد الفاتح سنة 857هـ (1453م) بعد حصار دام خمسين يومًا، وقد نُقلت سفنه برًّا إلى القرن الذهبي."
+          en: "Sultan Mehmed II took the city in 857 AH (1453 CE) after a fifty-day siege, having moved his ships overland into the Golden Horn."
+          ur: "سلطان محمد فاتح نے پچاس دن کے محاصرے کے بعد 857ھ (1453ء) میں یہ شہر فتح کیا؛ ان کے جہاز خشکی کے راستے شاخ زریں میں اتارے گئے۔"
+  - wing: place
+    stops:
+      - id: mecca
+        record: place/mecca
+        sources: [source/bakr-umayyad-state-1134715]
+        art: masjid-al-haram-kaaba
+        label: { ar: "مكة المكرمة", en: "Mecca", ur: "مکہ مکرمہ" }
+        desc:
+          ar: "مدينة في الحجاز، مسقط رأس النبي محمد وموضع الكعبة ومقصد الحج كل عام."
+          en: "City in the Hejaz, birthplace of the Prophet Muhammad, site of the Kaaba and goal of the yearly Hajj."
+          ur: "حجاز کا شہر، نبی محمد کی جائے پیدائش، کعبہ کا مقام اور سالانہ حج کی منزل۔"
+      - id: medina
+        record: place/medina
+        sources: [source/bakr-umayyad-state-1134715, source/samhudi-wafa-al-wafa, source/sahih-al-bukhari]
+        art: masjid-al-nabawi
+        label: { ar: "المدينة المنورة", en: "Medina", ur: "مدینہ منورہ" }
+        desc:
+          ar: "مدينة في الحجاز هاجر إليها النبي سنة 622م، وفيها المسجد النبوي وأول مجتمع إسلامي."
+          en: "City in the Hejaz to which the Prophet migrated in 622 CE, home of the Prophet's Mosque and the first Muslim community."
+          ur: "حجاز کا شہر جہاں نبی نے 622ء میں ہجرت کی؛ یہاں مسجد نبوی اور پہلا مسلم معاشرہ ہے۔"
+      - id: jerusalem
+        record: place/jerusalem
+        sources: [source/farghani-elements-astronomy, source/geonames-gazetteer, source/ahsan-al-taqasim]
+        art: dome-of-the-rock
+        label: { ar: "القدس", en: "Jerusalem", ur: "بیت المقدس" }
+        desc:
+          ar: "مدينة مقدسة عند اليهود والمسيحيين والمسلمين، أولى القبلتين، وسُلّمت للمسلمين سنة 637م."
+          en: "City sacred to Jews, Christians and Muslims, the first qibla of Islam, surrendered to the Muslims in 637 CE."
+          ur: "یہودیوں، مسیحیوں اور مسلمانوں کے ہاں مقدس شہر، مسلمانوں کا قبلۂ اول، جو 637ء میں مسلمانوں کے سپرد ہوا۔"
+      - id: damascus
+        record: place/damascus
+        sources: [source/farghani-elements-astronomy, source/geonames-gazetteer, source/muruj-al-dhahab]
+        art: umayyad-mosque-damascus
+        label: { ar: "دمشق", en: "Damascus", ur: "دمشق" }
+        desc:
+          ar: "عاصمة الخلافة الأموية (661–750م)، وفيها الجامع الأموي."
+          en: "Capital of the Umayyad caliphate (661–750 CE) and home of the Umayyad Mosque."
+          ur: "اموی خلافت (661–750ء) کا دار الحکومت اور جامع اموی کا شہر۔"
+      - id: cairo
+        record: place/cairo
+        sources: [source/khitat-maqrizi-1998, source/geonames-gazetteer, source/tarikh-khulafa-minhaj-1434, source/ahsan-al-taqasim, source/farghani-elements-astronomy]
+        art: al-azhar-mosque
+        label: { ar: "القاهرة", en: "Cairo", ur: "قاہرہ" }
+        desc:
+          ar: "أسسها الفاطميون سنة 969م بجوار الفسطاط، وفيها الجامع الأزهر."
+          en: "Founded by the Fatimids in 969 CE beside Fustat, and home of al-Azhar."
+          ur: "فاطمیوں نے 969ء میں فسطاط کے پہلو میں اسے بسایا؛ یہیں جامع ازہر ہے۔"
+      - id: cordoba
+        record: place/cordoba
+        sources: [source/nafh-tib-maqqari, source/geonames-gazetteer, source/futuh-buldan-maarif-1407]
+        art: great-mosque-of-cordoba
+        label: { ar: "قرطبة", en: "Cordoba", ur: "قرطبہ" }
+        desc:
+          ar: "عاصمة الإمارة ثم الخلافة الأموية في الأندلس، وفيها المسجد الجامع."
+          en: "Capital of the Umayyad emirate, then caliphate, of al-Andalus, with its Great Mosque."
+          ur: "اندلس کی اموی امارت اور پھر خلافت کا دار الحکومت، جہاں جامع مسجد قرطبہ ہے۔"
+  - wing: people
+    stops:
+      - id: malik
+        record: person/malik-ibn-anas
+        sources: [source/fihrist-ibn-al-nadim, source/muwatta-maruf-1997, source/siyar-alam-nubala-ideas-house, source/umayyad-birth-to-fall-2006, source/assabile-omar-abdelkafy]
+        label: { ar: "مالك بن أنس", en: "Malik ibn Anas", ur: "مالک بن انس" }
+        desc:
+          ar: "إمام دار الهجرة وصاحب الموطأ، علّم بالمدينة حتى وفاته سنة 179هـ، وإليه يُنسب المذهب المالكي."
+          en: "Imam of Medina and author of the Muwatta, who taught there until his death in 179 AH; the Maliki school bears his name."
+          ur: "امام دار الہجرہ اور موطأ کے مصنف، جو 179ھ میں وفات تک مدینہ میں پڑھاتے رہے؛ مالکی مذہب انہی سے منسوب ہے۔"
+      - id: ibn-sina
+        record: person/ibn-sina
+        sources: [source/gohlman-1974, source/gutas-2014, source/shadharat-dhahab, source/min-al-falsafa-al-yunaniyya-azhar, source/farghani-elements-astronomy]
+        label: { ar: "ابن سينا", en: "Ibn Sina (Avicenna)", ur: "ابن سینا" }
+        desc:
+          ar: "عالم موسوعي (نحو 980–1037م) أثّر كتاباه القانون في الطب والشفاء في الطب والفلسفة في العالم الإسلامي وأوروبا قرونًا."
+          en: "Polymath (c. 980–1037) whose Canon of Medicine and Book of Healing shaped medicine and philosophy in the Islamic world and Europe for centuries."
+          ur: "ہمہ جہت عالم (تقریباً 980–1037ء) جن کی القانون فی الطب اور الشفاء نے صدیوں تک عالم اسلام اور یورپ میں طب و فلسفہ کو متاثر کیا۔"
+      - id: khwarizmi
+        record: person/al-khwarizmi
+        sources: [source/muruj-al-dhahab, source/mawsuat-a3lam-ulama-adaba]
+        label: { ar: "الخوارزمي", en: "al-Khwarizmi", ur: "خوارزمی" }
+        desc:
+          ar: "محمد بن موسى الخوارزمي، عدّه المسعودي فيمن عُني بعلوم الهيئة بعد ظهور الإسلام."
+          en: "Muhammad ibn Musa al-Khwarizmi, counted by al-Mas'udi among the scholars of astronomy after the rise of Islam."
+          ur: "محمد بن موسیٰ خوارزمی، جنہیں مسعودی نے ظہور اسلام کے بعد علم ہیئت کے علما میں شمار کیا۔"
+      - id: ibn-khaldun
+        record: person/ibn-khaldun
+        sources: [source/muqaddima-ibn-khaldun, source/tarikh-ibn-khaldun-ibar, source/mawsuat-a3lam-ulama-adaba, source/al-mutun-al-ilmiyya-azhar]
+        label: { ar: "ابن خلدون", en: "Ibn Khaldun", ur: "ابن خلدون" }
+        desc:
+          ar: "عبد الرحمن بن محمد بن خلدون الحضرمي، مؤلف المقدمة وكتاب العبر، توفي سنة 808هـ."
+          en: "Abd al-Rahman ibn Muhammad ibn Khaldun al-Hadrami, author of the Muqaddima and the Kitab al-'Ibar, who died in 808 AH."
+          ur: "عبد الرحمن بن محمد بن خلدون حضرمی، مقدمہ اور کتاب العبر کے مصنف، جن کی وفات 808ھ میں ہوئی۔"
+      - id: fatima-al-fihri
+        record: person/fatima-al-fihri
+        sources: [source/wikidata]
+        label: { ar: "فاطمة الفهري", en: "Fatima al-Fihri", ur: "فاطمہ الفہری" }
+        desc:
+          ar: "وقفت مالها على بناء جامع القرويين بفاس نحو سنة 859م."
+          en: "She gave her wealth to build the Qarawiyyin mosque in Fez around 859 CE."
+          ur: "انہوں نے تقریباً 859ء میں اپنا مال فاس کی جامع القرویین کی تعمیر کے لیے وقف کیا۔"
+      - id: sinan
+        record: person/mimar-sinan
+        sources: [source/goodwin-ottoman-architecture-1971]
+        label: { ar: "المعمار سنان", en: "Mimar Sinan", ur: "معمار سنان" }
+        desc:
+          ar: "كبير معماري الدولة العثمانية في القرن العاشر الهجري، ومن أبرز أعماله جامع السليمية في أدرنة."
+          en: "Chief architect of the Ottoman Empire in the sixteenth century; among his works is the Selimiye Mosque in Edirne."
+          ur: "سولہویں صدی عیسوی میں سلطنت عثمانیہ کے معمار اعلیٰ؛ ادرنہ کی سلیمیہ مسجد ان کے نمایاں کاموں میں ہے۔"
+  - wing: ideas
+    stops:
+      - id: tawhid
+        record: concept/tawhid
+        sources: [source/aqida-tahawiyya, source/lumat-al-itiqad, source/aqida-wasitiyya, source/maqalat-islamiyyin, source/sallabi-ali-vol1, source/assabile-omar-abdelkafy]
+        label: { ar: "التوحيد", en: "Tawhid (the oneness of God)", ur: "توحید" }
+        desc:
+          ar: "إفراد الله بالألوهية ونفي الشريك والمثيل عنه، وبه يبدأ الطحاوي بيان العقيدة."
+          en: "Affirming that God is one, without partner or likeness; al-Tahawi opens his statement of the creed with it."
+          ur: "اللہ کو الوہیت میں یکتا ماننا اور اس سے شریک و مثل کی نفی؛ طحاوی اپنے بیان عقیدہ کا آغاز اسی سے کرتے ہیں۔"
+      - id: shahada
+        record: concept/shahada
+        sources: [source/sahih-al-bukhari, source/sahih-ibn-khuzayma, source/tanzil-quran, source/ibn-rajab-jami-ulum-hikam, source/assabile-omar-abdelkafy]
+        label: { ar: "الشهادتان", en: "The shahada", ur: "شہادتین" }
+        desc:
+          ar: "شهادة أن لا إله إلا الله وأن محمدًا رسول الله، وهي أول ما ذُكر في حديث «بُني الإسلام على خمس»."
+          en: "The testimony that there is no god but God and that Muhammad is God's messenger, named first in the hadith 'Islam is built on five'."
+          ur: "یہ گواہی کہ اللہ کے سوا کوئی معبود نہیں اور محمد اللہ کے رسول ہیں؛ حدیث «اسلام کی بنیاد پانچ چیزوں پر ہے» میں اس کا ذکر سب سے پہلے ہے۔"
+      - id: five-pillars
+        record: concept/five-pillars
+        sources: [source/sahih-al-bukhari-bugha, source/sahih-ibn-khuzayma, source/tanzil-quran, source/ibn-rajab-jami-ulum-hikam]
+        label: { ar: "أركان الإسلام الخمسة", en: "The five pillars of Islam", ur: "اسلام کے پانچ ارکان" }
+        desc:
+          ar: "الأعمال الخمسة التي بُني عليها الإسلام: الشهادتان، وإقام الصلاة، وإيتاء الزكاة، والحج، وصوم رمضان."
+          en: "The five acts on which Islam is built: the testimony of faith, prayer, zakat, pilgrimage and the fast of Ramadan."
+          ur: "وہ پانچ اعمال جن پر اسلام کی بنیاد ہے: شہادتین، نماز، زکوٰۃ، حج اور رمضان کے روزے۔"
+      - id: iman
+        record: concept/iman
+        sources: [source/sahih-al-bukhari-bugha, source/sahih-ibn-khuzayma, source/tanzil-quran, source/aqida-tahawiyya, source/lumat-al-itiqad, source/aqida-wasitiyya, source/maqalat-islamiyyin, source/sharh-tahawiyya-ibn-abi-al-izz, source/ibn-rajab-jami-ulum-hikam, source/assabile-omar-abdelkafy]
+        label: { ar: "الإيمان", en: "Iman (faith)", ur: "ایمان" }
+        desc:
+          ar: "الإيمان بالله وملائكته وكتابه ولقائه ورسله والبعث، كما في حديث جبريل."
+          en: "Belief in God, His angels, His book, meeting Him, His messengers and the resurrection, as in the hadith of Jibril."
+          ur: "اللہ، اس کے فرشتوں، اس کی کتاب، اس سے ملاقات، اس کے رسولوں اور دوبارہ اٹھائے جانے پر ایمان، جیسا کہ حدیث جبریل میں ہے۔"
+      - id: sadaqa
+        record: concept/sadaqa
+        sources: [source/ibn-rajab-jami-ulum-hikam, source/usul-iqtisad-islami-0660]
+        label: { ar: "الصدقة", en: "Charity (sadaqa)", ur: "صدقہ" }
+        desc:
+          ar: "الصدقة أوسع من بذل المال؛ فقد دلّ النبي فقراء أصحابه على صدقات في وسعهم كالتسبيح وفعل المعروف."
+          en: "Charity is wider than giving money: the Prophet pointed his poorer companions to charities within their reach, such as glorifying God and doing good."
+          ur: "صدقہ مال دینے سے وسیع تر ہے؛ نبی نے نادار ساتھیوں کو ایسی نیکیاں بتائیں جو ان کے بس میں تھیں، جیسے تسبیح اور بھلائی۔"
+      - id: dhikr
+        record: concept/dhikr
+        sources: [source/ibn-rajab-jami-ulum-hikam, source/assabile-omar-abdelkafy]
+        label: { ar: "الذكر", en: "Remembrance of God (dhikr)", ur: "ذکر" }
+        desc:
+          ar: "ذكر الله، وفي الحديث الخمسين من جامع العلوم والحكم: «لا يزال لسانك رطبًا من ذكر الله»."
+          en: "Remembrance of God; the fiftieth hadith in Ibn Rajab's collection says: 'keep your tongue moist with the remembrance of God'."
+          ur: "اللہ کا ذکر؛ ابن رجب کے مجموعے کی پچاسویں حدیث میں ہے: «تمہاری زبان اللہ کے ذکر سے تر رہے»۔"
+  - wing: words
+    stops:
+      - id: bukhari
+        record: work/sahih-al-bukhari
+        sources: [source/sahih-al-bukhari, source/manhaj-tawthiq-al-sunna-azhar, source/sunnah-com]
+        label: { ar: "صحيح البخاري", en: "Sahih al-Bukhari", ur: "صحیح بخاری" }
+        desc:
+          ar: "الجامع المسند الصحيح، جمعه محمد بن إسماعيل البخاري الجعفي."
+          en: "The Jami' al-Musnad al-Sahih, compiled by Muhammad ibn Isma'il al-Bukhari al-Ju'fi."
+          ur: "الجامع المسند الصحیح، جسے محمد بن اسماعیل بخاری جعفی نے مرتب کیا۔"
+      - id: fihrist
+        record: work/al-fihrist
+        sources: [source/fihrist-ibn-al-nadim]
+        label: { ar: "الفهرست", en: "al-Fihrist", ur: "الفہرست" }
+        desc:
+          ar: "فهرست ابن النديم، موسوعة من القرن الرابع الهجري في الكتب والمؤلفين والعلوم، في عشر مقالات."
+          en: "Ibn al-Nadim's tenth-century encyclopaedia of books, authors and sciences, in ten discourses."
+          ur: "ابن ندیم کی دسویں صدی عیسوی کی کتابوں، مصنفین اور علوم کی دائرۃ المعارف، دس مقالات میں۔"
+      - id: qanun
+        record: work/al-qanun-fi-al-tibb
+        sources: [source/canon-ibn-sina-print-v1, source/canon-ibn-sina-print-v2, source/canon-ibn-sina-print-v3]
+        label: { ar: "القانون في الطب", en: "The Canon of Medicine", ur: "القانون فی الطب" }
+        desc:
+          ar: "موسوعة ابن سينا الطبية في خمسة كتب، أولها في الأصول العامة للطب وثانيها في الأدوية المفردة."
+          en: "Ibn Sina's encyclopaedia of medicine in five books, opening with general principles and simple drugs."
+          ur: "ابن سینا کی طبی دائرۃ المعارف، پانچ کتابوں میں، جس کا آغاز طب کے عمومی اصولوں اور مفرد ادویہ سے ہوتا ہے۔"
+      - id: jabr
+        record: work/al-jabr-wal-muqabala
+        sources: [source/khwarizmi-jabr-cairo-1939]
+        label: { ar: "كتاب الجبر والمقابلة", en: "The Algebra of al-Khwarizmi", ur: "کتاب الجبر والمقابلہ" }
+        desc:
+          ar: "رسالة الخوارزمي في الجبر والمقابلة، قدّمها محررو طبعة القاهرة سنة 1939 على سائر ما اختاروا نشره من كتب العلوم."
+          en: "Al-Khwarizmi's treatise on al-jabr and al-muqabala, placed first by the editors of the 1939 Cairo edition among the scientific books they chose to publish."
+          ur: "الجبر والمقابلہ پر خوارزمی کا رسالہ، جسے 1939ء کے قاہرہ ایڈیشن کے مرتبین نے اپنی منتخب سائنسی کتابوں میں سب سے پہلے رکھا۔"
+      - id: muqaddima
+        record: work/al-muqaddima
+        sources: [source/muqaddima-ibn-khaldun]
+        label: { ar: "مقدمة ابن خلدون", en: "The Muqaddima", ur: "مقدمہ ابن خلدون" }
+        desc:
+          ar: "مقدمة ابن خلدون في طبيعة العمران والعصبية والدول والصنائع والعلوم."
+          en: "Ibn Khaldun's prolegomenon on the nature of civilisation, group feeling (asabiyya), dynasties, crafts and sciences."
+          ur: "تمدن کی فطرت، عصبیت، سلطنتوں، صنعتوں اور علوم پر ابن خلدون کا مقدمہ۔"
+      - id: ihya
+        record: work/ihya-ulum-al-din
+        sources: [source/kashf-zunun-furqan]
+        label: { ar: "إحياء علوم الدين", en: "Ihya' 'Ulum al-Din", ur: "احیاء علوم الدین" }
+        desc:
+          ar: "كتاب الغزالي في أربعة أرباع وأربعين كتابًا: العبادات والعادات والمهلكات والمنجيات."
+          en: "Al-Ghazali's work in four quarters of forty books: worship, daily life, the destroyers and the saviours."
+          ur: "غزالی کی کتاب، چار حصوں اور چالیس کتابوں میں: عبادات، عادات، مہلکات اور منجیات۔"
+  - wing: living
+    stops:
+      - id: adhan
+        record: practice/adhan
+        sources: [source/sahih-al-bukhari, source/tanzil-quran, source/assabile-omar-abdelkafy]
+        label: { ar: "الأذان", en: "The call to prayer (adhan)", ur: "اذان" }
+        desc:
+          ar: "النداء العلني إلى الصلاة بألفاظ ثابتة: التكبير والشهادتان والحيعلتان، وتُزاد عبارة في الفجر."
+          en: "The public call to prayer in a fixed formula: Allahu akbar, the two testimonies, 'hurry to prayer' and 'hurry to success', with an added phrase at dawn."
+          ur: "مقررہ الفاظ میں نماز کی عام پکار: تکبیر، شہادتین، حی علی الصلاۃ اور حی علی الفلاح، اور فجر میں ایک اضافی جملہ۔"
+      - id: eid-al-fitr
+        record: practice/eid-al-fitr
+        sources: [source/fiqh-mawsua-kuwaitiyya-noor-v3, source/wikidata]
+        label: { ar: "عيد الفطر", en: "Eid al-Fitr", ur: "عید الفطر" }
+        desc:
+          ar: "العيد الذي يختم رمضان في الأول من شوال: صلاة العيد وزكاة الفطر والولائم والزيارات."
+          en: "The festival closing Ramadan on 1 Shawwal: the Eid prayer, zakat al-fitr, feasts and visits."
+          ur: "یکم شوال کو رمضان کے اختتام کی عید: نماز عید، صدقۂ فطر، دعوتیں اور ملاقاتیں۔"
+      - id: iftar
+        record: practice/iftar
+        sources: [source/gulfnews-unesco-iftar, source/hurriyet-unesco-iftar, source/fiqh-mawsua-kuwaitiyya-noor-v3]
+        label: { ar: "الإفطار", en: "Iftar", ur: "افطار" }
+        desc:
+          ar: "وجبة الإفطار عند الغروب في رمضان، تجمع الأهل والجيران، ويبدؤها كثيرون بالتمر."
+          en: "The meal that breaks the fast at sunset in Ramadan, gathering family and neighbours; many open it with dates."
+          ur: "رمضان میں غروب آفتاب پر روزہ کھولنے کا کھانا، جو گھر والوں اور پڑوسیوں کو جمع کرتا ہے؛ بہت سے لوگ کھجور سے افطار کرتے ہیں۔"
+      - id: hajj
+        record: practice/hajj
+        sources: [source/fiqh-mawsua-kuwaitiyya-noor-v3, source/sahih-al-bukhari, source/tanzil-quran, source/assabile-omar-abdelkafy]
+        label: { ar: "الحج", en: "Hajj", ur: "حج" }
+        desc:
+          ar: "قصد البيت الحرام بمكة لأداء مناسك مخصوصة، وهو أحد أركان الإسلام الخمسة على من استطاع."
+          en: "The journey to the Sacred House at Mecca to perform its rites, one of the five pillars for those who are able."
+          ur: "مقررہ مناسک کی ادائیگی کے لیے مکہ میں بیت اللہ کا سفر، جو استطاعت رکھنے والوں پر اسلام کے پانچ ارکان میں سے ایک ہے۔"
+      - id: guest
+        record: practice/ikram-al-dayf
+        sources: [source/assabile-omar-abdelkafy]
+        label: { ar: "إكرام الضيف", en: "Honouring the guest", ur: "مہمان نوازی" }
+        desc:
+          ar: "إكرام الضيف عند العرب: ترحيب بلا سؤال، وكرم بلا تكلّف، ومشاركة المضيف ضيفه طعامه."
+          en: "Honouring the guest among the Arabs: welcome without questions, generosity without pretence, and the host sharing his food."
+          ur: "عربوں میں مہمان کی تکریم: بلا سوال خوش آمدید، بلا تکلف سخاوت، اور میزبان کا مہمان کے ساتھ کھانا بانٹنا۔"
+      - id: hifz
+        record: practice/hifz-al-quran
+        sources: [source/tanzil-quran, source/assabile-omar-abdelkafy]
+        label: { ar: "حفظ القرآن", en: "Memorising the Qur'an (hifz)", ur: "حفظ قرآن" }
+        desc:
+          ar: "حفظ القرآن كاملًا عن ظهر قلب."
+          en: "Learning the whole Qur'an by heart."
+          ur: "پورا قرآن زبانی یاد کرنا۔"
+  - wing: today
+    stops:
+      - id: oic
+        record: group/organisation-of-islamic-cooperation
+        sources: [source/oic-official-site]
+        label: { ar: "منظمة التعاون الإسلامي", en: "Organisation of Islamic Cooperation", ur: "اسلامی تعاون تنظیم" }
+        desc:
+          ar: "هيئة حكومية دولية تضم دولًا ذات أغلبية مسلمة، مقرها جدة، وتصف نفسها بأنها الصوت الجماعي للعالم الإسلامي."
+          en: "An intergovernmental body of Muslim-majority states, seated in Jeddah, which describes itself as the collective voice of the Muslim world."
+          ur: "مسلم اکثریتی ممالک کی بین الحکومتی تنظیم، جس کا صدر دفتر جدہ میں ہے، اور جو خود کو عالم اسلام کی اجتماعی آواز کہتی ہے۔"
+      - id: sabri
+        record: group/sabri-brothers
+        sources: [source/wikidata]
+        label: { ar: "الأخوان صابري", en: "The Sabri Brothers", ur: "صابری برادران" }
+        desc:
+          ar: "فرقة قوّالي باكستانية اشتهرت بقصيدة «تاجدار حرم»."
+          en: "The Pakistani qawwali ensemble known for 'Tajdar-e-Haram'."
+          ur: "پاکستانی قوالی گروپ، جو «تاجدارِ حرم» سے مشہور ہوا۔"
+      - id: junoon
+        record: group/junoon-band
+        sources: [source/wikidata]
+        label: { ar: "جنون", en: "Junoon", ur: "جنون" }
+        desc:
+          ar: "فرقة «روك صوفي» باكستانية رائدة، صاحبة أغنية «سيوني»."
+          en: "Pakistan's pioneering 'Sufi rock' band, known for 'Sayyoni'."
+          ur: "پاکستان کا صوفی راک کا اولین بینڈ، جو «سیونی» سے مشہور ہوا۔"
+      - id: native-deen
+        record: group/native-deen
+        sources: [source/wikidata]
+        label: { ar: "نيتف دين", en: "Native Deen", ur: "نیٹو دین" }
+        desc:
+          ar: "ثلاثي أمريكي للأناشيد تُسمع ألبوماته في المدارس الإسلامية في الولايات المتحدة."
+          en: "An American nasheed trio whose albums are heard in Islamic schools across the US."
+          ur: "امریکی نشید سہ رکنی گروپ، جس کے البم امریکہ کے اسلامی اسکولوں میں سنے جاتے ہیں۔"
+      - id: raihan
+        record: group/raihan-band
+        sources: [source/wikidata]
+        label: { ar: "ريحان", en: "Raihan", ur: "ریحان" }
+        desc:
+          ar: "فرقة ماليزية رسمت ملامح فن النشيد، وجعل ألبومها «بوجي بوجيان» النشيد شائعًا في جنوب شرق آسيا."
+          en: "The Malaysian group that shaped the nasyid genre; their album Puji-Pujian brought it into the mainstream in Southeast Asia."
+          ur: "ملائیشیا کا گروپ جس نے نشید کی صنف کو شکل دی؛ ان کے البم «پوجی پوجیان» نے اسے جنوب مشرقی ایشیا میں عام کیا۔"
+      - id: ajr-al-mithl
+        record: concept/ajr-al-mithl
+        sources: [source/usul-iqtisad-islami-0660]
+        label: { ar: "أجر المثل", en: "Ajr al-mithl (customary wage)", ur: "اجر المثل" }
+        desc:
+          ar: "الأجرة التي يستحقها مثلُ ذلك العمل في عرف الناس."
+          en: "The wage that work of the same kind earns by custom."
+          ur: "وہ اجرت جو اس جیسے کام پر عرف میں ملتی ہے۔"
+  - wing: made
+    stops:
+      - id: turab-al-sagha
+        record: concept/turab-al-sagha
+        sources: [source/fiqh-mawsua-kuwaitiyya-noor-v3]
+        label: { ar: "تراب الصاغة", en: "Goldsmiths' dust", ur: "تراب الصاغہ" }
+        desc:
+          ar: "الرماد الذي يوجد في دكاكين الصاغة ولا يُعلم ما فيه من ذهب أو فضة، وقد اختلفت المذاهب في بيعه."
+          en: "The ash found in goldsmiths' workshops, holding unknown gold or silver; the schools of law differ on selling it."
+          ur: "سناروں کی دکانوں میں ملنے والی راکھ، جس میں نامعلوم مقدار میں سونا یا چاندی ہوتی ہے؛ اس کی بیع میں مذاہب کا اختلاف ہے۔"
+      - id: suftaja
+        record: concept/suftaja-in-islam
+        sources: [source/usul-iqtisad-islami-0660]
+        label: { ar: "السفتجة", en: "Suftaja (bill of exchange)", ur: "سفتجہ" }
+        desc:
+          ar: "ورقة مكتوبة يُستوفى بها في بلد آخر مالٌ أُقرض في بلد."
+          en: "A written note letting a sum lent in one town be repaid in another."
+          ur: "ایک تحریری دستاویز جس سے ایک شہر میں دیا گیا قرض دوسرے شہر میں وصول ہو۔"
+      - id: horse-colours
+        record: concept/horse-colours-in-timurid-painting
+        sources: [source/fayed-horse-colours-timurid-painting]
+        label: { ar: "ألوان الخيل في التصوير التيموري", en: "Horse colours in Timurid painting", ur: "تیموری مصوری میں گھوڑوں کے رنگ" }
+        desc:
+          ar: "رسم مصورو المخطوطات التيموريون الخيل بألوان وشيات مميزة، ويقرأ فايد ذلك دليلًا على سلالات حقيقية في سمرقند وهراة وشيراز."
+          en: "Timurid manuscript painters gave horses distinct colours and markings, which Fayed reads as evidence of real horse types in Samarkand, Herat and Shiraz."
+          ur: "تیموری مخطوطہ مصوروں نے گھوڑوں کو الگ الگ رنگوں اور نشانات میں بنایا، جسے فاید سمرقند، ہرات اور شیراز کی حقیقی نسلوں کا ثبوت سمجھتے ہیں۔"
+      - id: bakdash
+        record: listing/bakdash-damascus
+        sources: [source/wikidata]
+        label: { ar: "بوظة بكداش", en: "Bakdash", ur: "بکداش" }
+        desc:
+          ar: "محل بوظة شهير في سوق الحميدية بدمشق منذ 1885، تشتهر بوظته المدقوقة بالمستكة."
+          en: "A famous ice-cream parlour in Damascus's al-Hamidiyah souq since 1885, known for its pounded mastic ice cream."
+          ur: "دمشق کے سوق الحمیدیہ میں 1885ء سے مشہور آئس کریم کی دکان، جو مصطکی والی کوٹی ہوئی آئس کریم کے لیے معروف ہے۔"
+      - id: fishawy
+        record: listing/el-fishawy-cafe
+        sources: [source/wikidata]
+        label: { ar: "مقهى الفيشاوي", en: "El-Fishawy Café", ur: "فیشاوی کیفے" }
+        desc:
+          ar: "أقدم مقاهي خان الخليلي بالقاهرة (نحو 1773)، يفتح ليلًا ونهارًا منذ قرنين ونصف."
+          en: "The oldest café in Cairo's Khan el-Khalili (c. 1773), open day and night for two and a half centuries."
+          ur: "قاہرہ کے خان الخلیلی کا قدیم ترین قہوہ خانہ (تقریباً 1773ء)، جو ڈھائی صدیوں سے دن رات کھلا ہے۔"
+      - id: paris-mosque-cafe
+        record: listing/cafe-mosquee-paris
+        sources: [source/wikidata]
+        label: { ar: "مقهى مسجد باريس", en: "Le Café de la Mosquée de Paris", ur: "پیرس مسجد کیفے" }
+        desc:
+          ar: "المقهى والمطعم والحمّام في حديقة مسجد باريس الكبير (1926)."
+          en: "The café-restaurant and hammam in the garden of the Grand Mosque of Paris (1926)."
+          ur: "پیرس کی جامع مسجد کے باغ میں قہوہ خانہ، ریستوران اور حمام (1926ء)۔"

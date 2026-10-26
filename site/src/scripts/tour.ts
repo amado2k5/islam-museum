@@ -28,7 +28,9 @@ interface ExhibitData {
   museum: string;
   date: string;
   note: string; // derived-date legend, when the date carries †
-  href: string; // the object record page
+  href: string; // the record page
+  art?: string; // framed site illustration URL; "" or absent = name plaque
+  artAlt?: string;
 }
 
 interface TourData {
@@ -36,6 +38,7 @@ interface TourData {
   t: Record<string, string>;
   journeys: JourneyView[];
   exhibits: ExhibitData[];
+  halls?: Array<{ wing: string; stops: ExhibitData[] }>;
   wingTitles: Record<string, string>;
 }
 
@@ -187,7 +190,14 @@ function init(
     spinObj?: THREE.Object3D;
   }
   // Stops in order; labels, dates and record links come from the page data.
-  const EXHIBITS: Exhibit[] = (data.exhibits || []).map((e) => ({ ...e, x: 0 }));
+  // EXHIBITS is the stop list of the hall the visitor is in (Objects or a data-built hall).
+  const OBJECT_EXHIBITS: Exhibit[] = (data.exhibits || []).map((e) => ({ ...e, x: 0 }));
+  const HALL_STOPS = new Map<string, Exhibit[]>(
+    (data.halls || []).map((h) => [h.wing, h.stops.map((s) => ({ ...s, x: 0 }))])
+  );
+  const stopsOf = (id: string): Exhibit[] => (id === "objects" ? OBJECT_EXHIBITS : HALL_STOPS.get(id) || []);
+  let curWing: Wing = WINGS.find((w) => w.id === "objects")!;
+  let EXHIBITS: Exhibit[] = OBJECT_EXHIBITS;
 
   /* ---------------- renderer / scene / camera / lights ---------------- */
   const app = $("#app");
@@ -738,13 +748,25 @@ function init(
     }
   }
 
-  /* ---------------- the objects gallery (one wing, 3D) ---------------- */
+  /* ---------------- wing halls: one room shape for all nine wings ----------------
+     Objects keeps its procedural exhibits; the other eight halls are built from
+     the page data when entered and freed when left. */
   const gallery = new THREE.Group();
   gallery.visible = false;
   scene.add(gallery);
   const G_W = 34;
   const G_D = 20;
   const G_H = 8;
+  const trimM = new THREE.MeshStandardMaterial({ color: 0xd4a017, emissive: 0x6b4d08, emissiveIntensity: 0.4 });
+  const backM = new THREE.MeshStandardMaterial({ color: 0x0e1830, emissive: 0xd4a017, emissiveIntensity: 0.25 });
+  // The wing's colour on the cornice trim and the way back.
+  function paintGallery(w: Wing): void {
+    trimM.color.setHex(w.color);
+    trimM.emissive.setHex(w.color).multiplyScalar(0.5);
+    backM.emissive.setHex(w.color);
+  }
+  const objectsRoom = new THREE.Group();
+  gallery.add(objectsRoom);
   {
     const gf = new THREE.Mesh(
       new THREE.PlaneGeometry(G_W, G_D),
@@ -781,24 +803,10 @@ function init(
     ceil.rotation.x = Math.PI / 2;
     ceil.position.y = G_H;
     gallery.add(ceil);
-    const trim = new THREE.Mesh(
-      new THREE.BoxGeometry(G_W, 0.3, G_D),
-      new THREE.MeshStandardMaterial({
-        color: 0xd4a017,
-        emissive: 0x6b4d08,
-        emissiveIntensity: 0.4,
-      })
-    );
+    const trim = new THREE.Mesh(new THREE.BoxGeometry(G_W, 0.3, G_D), trimM);
     trim.position.y = G_H - 0.4;
     gallery.add(trim);
-    const back = new THREE.Mesh(
-      new THREE.PlaneGeometry(5, 7.4),
-      new THREE.MeshStandardMaterial({
-        color: 0x0e1830,
-        emissive: 0xd4a017,
-        emissiveIntensity: 0.25,
-      })
-    );
+    const back = new THREE.Mesh(new THREE.PlaneGeometry(5, 7.4), backM);
     back.position.set(0, 3.7, G_D / 2 - 0.05);
     back.rotation.y = Math.PI;
     gallery.add(back);
@@ -913,30 +921,144 @@ function init(
     );
     p.position.set(x, 0.6, -2);
     p.castShadow = p.receiveShadow = true;
-    gallery.add(p);
+    objectsRoom.add(p);
     const art = exhibitBuilders[ex.build]();
     art.position.set(x, 2.15, -2);
     art.traverse((o) => {
       if ((o as THREE.Mesh).isMesh) (o as THREE.Mesh).castShadow = true;
     });
-    gallery.add(art);
+    objectsRoom.add(art);
     ex.spinObj = art;
     const label = textSprite(ex.label, { px: 56 });
     label.position.set(x, 3.35, -2);
-    gallery.add(label);
+    objectsRoom.add(label);
     const hit = new THREE.Mesh(
       new THREE.BoxGeometry(2.2, 2.6, 2.2),
       new THREE.MeshBasicMaterial({ visible: false })
     );
     hit.position.set(x, 2, -2);
-    gallery.add(hit);
+    objectsRoom.add(hit);
     interact.push({ obj: hit, kind: "exhibit", ex });
-    addStar(gallery, { scene: "gallery", x, z: 2.6, yaw: 0, stop: i });
+    addStar(objectsRoom, { scene: "gallery", x, z: 2.6, yaw: 0, stop: i });
     const spot = new THREE.SpotLight(0xffe9b8, 60, 12, 0.5, 0.5);
     spot.position.set(x, 7.4, 1);
     spot.target.position.set(x, 1.6, -2);
-    gallery.add(spot, spot.target);
+    objectsRoom.add(spot, spot.target);
   });
+
+  // A data-built hall: a stop with `art` frames a site illustration on the back
+  // wall; any other stop shows its name on a plaque under a geometric panel.
+  const frameM = new THREE.MeshStandardMaterial({ color: 0x8a6a2a, metalness: 0.6, roughness: 0.4 });
+  const panelM = new THREE.MeshStandardMaterial({
+    map: girihTex,
+    emissive: 0xffffff,
+    emissiveMap: girihTex,
+    emissiveIntensity: 0.35,
+    roughness: 0.8,
+  });
+  const SHARED = new Set<unknown>([girihTex, starMat, starGeo, pedMat, frameM, panelM]);
+  const texLoader = new THREE.TextureLoader();
+  function plaqueTex(text: string, color: number): THREE.CanvasTexture {
+    return canvasTex(1024, 360, (g, w, h) => {
+      g.fillStyle = "#0e1830";
+      g.fillRect(0, 0, w, h);
+      g.strokeStyle = "#" + color.toString(16).padStart(6, "0");
+      g.lineWidth = 14;
+      g.strokeRect(14, 14, w - 28, h - 28);
+      let px = 120;
+      g.font = FONT(px);
+      while (px > 40 && g.measureText(text).width > w - 110) g.font = FONT((px -= 6));
+      g.fillStyle = "#f5d67b";
+      g.textAlign = "center";
+      g.textBaseline = "middle";
+      g.direction = lang === "en" ? "ltr" : "rtl";
+      g.fillText(text, w / 2, h / 2 + px * 0.08);
+    });
+  }
+  let hallRoom: THREE.Group | null = null;
+  function freeHallRoom(): void {
+    if (!hallRoom) return;
+    const room = hallRoom;
+    hallRoom = null;
+    gallery.remove(room);
+    for (let i = interact.length - 1; i >= 0; i--) {
+      let o: THREE.Object3D | null = interact[i].obj;
+      while (o && o !== room) o = o.parent;
+      if (o) interact.splice(i, 1);
+    }
+    room.traverse((o) => {
+      const m = o as THREE.Mesh;
+      if (!m.isMesh && !(o as THREE.Sprite).isSprite) return;
+      if (!SHARED.has(m.geometry)) m.geometry?.dispose();
+      const mat = m.material as THREE.MeshStandardMaterial;
+      if (!mat || SHARED.has(mat)) return;
+      if (mat.map && !SHARED.has(mat.map)) mat.map.dispose();
+      mat.dispose();
+    });
+  }
+  function buildHallRoom(w: Wing, stops: Exhibit[]): void {
+    const room = new THREE.Group();
+    stops.forEach((ex, i) => {
+      const x = (i - (stops.length - 1) / 2) * EX_GAP;
+      ex.x = x;
+      let hitY = 2;
+      let hitZ = -2;
+      if (ex.art) {
+        const z = -G_D / 2 + 0.1;
+        const frame = new THREE.Mesh(new THREE.BoxGeometry(4.3, 3.0, 0.14), frameM);
+        frame.position.set(x, 3.6, z);
+        const tex = texLoader.load(ex.art);
+        tex.colorSpace = THREE.SRGBColorSpace;
+        const pic = new THREE.Mesh(
+          new THREE.PlaneGeometry(3.9, 2.6),
+          new THREE.MeshStandardMaterial({ map: tex, roughness: 0.9 })
+        );
+        pic.position.set(x, 3.6, z + 0.08);
+        room.add(frame, pic);
+        const label = textSprite(ex.label, { px: 56 });
+        label.position.set(x, 5.75, z + 0.3);
+        room.add(label);
+        hitY = 3.6;
+        hitZ = z + 1;
+      } else {
+        const pnl = new THREE.Mesh(new THREE.PlaneGeometry(3.6, 3.6), panelM);
+        pnl.position.set(x, 4.6, -G_D / 2 + 0.06);
+        const plinth = new THREE.Mesh(new THREE.BoxGeometry(2.2, 1.1, 1.1), pedMat);
+        plinth.position.set(x, 0.55, -2);
+        plinth.castShadow = plinth.receiveShadow = true;
+        const plaque = new THREE.Mesh(
+          new THREE.PlaneGeometry(2.6, 0.92),
+          new THREE.MeshStandardMaterial({ map: plaqueTex(ex.label, w.color), roughness: 0.5 })
+        );
+        plaque.position.set(x, 1.65, -1.75);
+        plaque.rotation.x = -0.35;
+        room.add(pnl, plinth, plaque);
+      }
+      const hit = new THREE.Mesh(
+        new THREE.BoxGeometry(ex.art ? 4.4 : 2.6, ex.art ? 3.2 : 2.6, 2.2),
+        new THREE.MeshBasicMaterial({ visible: false })
+      );
+      hit.position.set(x, hitY, hitZ);
+      room.add(hit);
+      interact.push({ obj: hit, kind: "exhibit", ex });
+      addStar(room, { scene: "gallery", x, z: 2.6, yaw: 0, stop: i });
+      const spot = new THREE.SpotLight(0xffe9b8, 60, 12, 0.5, 0.5);
+      spot.position.set(x, 7.4, 1);
+      spot.target.position.set(x, ex.art ? 3.4 : 1.6, ex.art ? -G_D / 2 : -2);
+      room.add(spot, spot.target);
+    });
+    gallery.add(room);
+    hallRoom = room;
+  }
+  // Show wing w's hall: its stops, its colour, and only its own room contents.
+  function openWingRoom(w: Wing): void {
+    freeHallRoom();
+    curWing = w;
+    EXHIBITS = stopsOf(w.id);
+    objectsRoom.visible = w.id === "objects";
+    if (w.id !== "objects") buildHallRoom(w, EXHIBITS);
+    paintGallery(w);
+  }
 
   /* ---------------- time journeys: imagined scenes ----------------
      Architecture and places only — no depictions of people.        */
@@ -1393,7 +1515,7 @@ function init(
   }
 
   type SceneName = "hall" | "gallery" | "journey";
-  // Stop links: #objects, #objects/<exhibit>, #journey/<id>; the hall clears the hash.
+  // Stop links: #<wing>, #<wing>/<stop>, #journey/<id>, #hall/<wing>; the hall clears the hash.
   function setHash(h: string): void {
     try {
       history.replaceState(null, "", h ? `#${h}` : location.pathname + location.search);
@@ -1406,6 +1528,8 @@ function init(
     window.setTimeout(
       () => {
         clearJourney();
+        if (name === "gallery" && ref && "color" in ref) openWingRoom(ref);
+        else freeHallRoom();
         hall.visible = name === "hall";
         gallery.visible = name === "gallery";
         player.scene = name;
@@ -1494,7 +1618,7 @@ function init(
   }
 
   function enterPortal(wing: Wing): void {
-    if (wing.id === "objects") {
+    if (stopsOf(wing.id).length) {
       setScene("gallery", wing);
       return;
     }
@@ -1519,6 +1643,7 @@ function init(
     $("#panelTitle").textContent = ex.label;
     $("#panelMeta").textContent = [ex.date, ex.material, ex.museum].filter(Boolean).join(" · ");
     $("#panelNote").textContent = ex.note || "";
+    $("#panelArt").textContent = ex.art ? t.art_note || "" : "";
     $("#panelDesc").textContent = ex.desc;
     ($<HTMLAnchorElement>("#panelLink")).href = ex.href;
     if (!panel.classList.contains("show")) {
@@ -1526,14 +1651,14 @@ function init(
       panelReturn = active && active !== document.body && !panel.contains(active) ? active : null;
     }
     panel.classList.add("show");
-    setHash(`objects/${ex.id}`);
+    setHash(`${curWing.id}/${ex.id}`);
     refreshStrip();
     if (!panel.contains(document.activeElement)) $("#panelTitle").focus({ preventScroll: true });
   }
   function closePanel(restore = true): void {
     if (!panel.classList.contains("show")) return;
     panel.classList.remove("show");
-    if (player.scene === "gallery") setHash("objects");
+    if (player.scene === "gallery") setHash(curWing.id);
     if (restore && panel.contains(document.activeElement)) {
       (panelReturn && root.contains(panelReturn) ? panelReturn : renderer.domElement).focus({ preventScroll: true });
     }
@@ -1971,7 +2096,12 @@ function init(
   function handleTap(x: number, y: number): void {
     ndc.set((x / innerWidth) * 2 - 1, -(y / innerHeight) * 2 + 1);
     ray.setFromCamera(ndc, camera);
+    const shown = (o: THREE.Object3D | null): boolean => {
+      for (; o; o = o.parent) if (!o.visible) return false;
+      return true;
+    };
     const targets = interact
+      .filter((i) => shown(i.obj))
       .filter((i) =>
         i.kind === "waypoint"
           ? i.wp.scene === player.scene
@@ -2163,10 +2293,10 @@ function init(
   // Open at the stop named in the link, if any.
   {
     const [kind, id] = decodeURIComponent(location.hash.slice(1)).split("/");
-    const objectsWing = WINGS.find((w) => w.id === "objects")!;
-    if (kind === "objects") {
-      const i = EXHIBITS.findIndex((e) => e.id === id);
-      setScene("gallery", objectsWing, i >= 0 ? i : undefined);
+    const wing = WINGS.find((w) => w.id === kind);
+    if (wing && stopsOf(wing.id).length) {
+      const i = stopsOf(wing.id).findIndex((e) => e.id === id);
+      setScene("gallery", wing, i >= 0 ? i : undefined);
     } else if (kind === "journey") {
       const j = data.journeys.find((x) => x.id === id);
       if (j) setScene("journey", j);
