@@ -78,3 +78,6 @@ translators: []
 
 ## «الوسطیہ» میں — سیکولرازم کی قسط
 سویدان نے «سیکولرازم اور اسلام: تصادم یا اتفاق؟» کی قسط ایک نخبے کے ساتھ — عمر الشوبکی، عمار علی حسن، محمد جمال حشمہ اور معاون مہمان — اور چار ووٹوں کے ساتھ چلائی جن میں ناظرین کا ایس ایم ایس ووٹ تھا {cite:assabile-tareq-al-suwaidan al-wassitiya/ep05 00:03:00} {cite:assabile-tareq-al-suwaidan al-wassitiya/ep05 00:04:00} {cite:assabile-tareq-al-suwaidan al-wassitiya/ep05 00:27:00} {cite:assabile-tareq-al-suwaidan al-wassitiya/ep05 00:45:30}۔ انہوں نے اختتام پر یہ نتیجہ نکالا کہ مشترک بات خود اسلام میں اصلی ہے، اور «وسطی اسلام ہمیں سیکولرازم سے بے نیاز کرتا ہے» {cite:assabile-tareq-al-suwaidan al-wassitiya/ep05 01:18:30} {cite:assabile-tareq-al-suwaidan al-wassitiya/ep05 01:20:00}۔
+
+## «الوسطیہ» میں — وطن پرستی کی قسط
+سویدان نے وطن پرستی اور قومیت کی قسط تین ماہرین اور تین ووٹوں کے ساتھ چلائی {cite:assabile-tareq-al-suwaidan al-wassitiya/ep06 00:03:30} {cite:assabile-tareq-al-suwaidan al-wassitiya/ep06 00:30:00} {cite:assabile-tareq-al-suwaidan al-wassitiya/ep06 00:54:00}۔ اختتام پر انہوں نے اپنی عروبت پر ذاتی فخر کا اعتراف کیا — «میں قرآن سمجھتا ہوں» — اور قسط کا اصول قائم کیا: تعصب کے بغیر تضاد نہیں {cite:assabile-tareq-al-suwaidan al-wassitiya/ep06 01:16:00} {cite:assabile-tareq-al-suwaidan al-wassitiya/ep06 01:18:00} {cite:assabile-tareq-al-suwaidan al-wassitiya/ep06 01:18:30}۔
