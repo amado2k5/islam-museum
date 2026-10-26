@@ -90,3 +90,6 @@ translators: []
 
 ## «الوسطیہ» میں — ولاء و براء کی قسط
 سویدان نے مسلمانوں میں ولاء اور براء کی قسط — تصور کا سب سے حساس اطلاق — کئی ووٹوں کے ساتھ چلائی جن میں اسرائیل سے صلح کے داعیوں سے براءت (63%) اور تصور کو ضبط کرنے کی ضرورت (63%) تھے {cite:assabile-tareq-al-suwaidan al-wassitiya/ep09 00:04:00} {cite:assabile-tareq-al-suwaidan al-wassitiya/ep09 00:48:30} {cite:assabile-tareq-al-suwaidan al-wassitiya/ep09 01:03:30}۔ قسط نے اپنا اصول بیان کیا: براءت شخص سے نہیں بلکہ فعل سے {cite:assabile-tareq-al-suwaidan al-wassitiya/ep09 00:14:00}۔
+
+## «الوسطیہ» میں — انسانی حقوق کی قسط
+سویدان نے عرب دنیا میں انسانی حقوق کے ملف کی قسط تین ووٹوں کے ساتھ چلائی {cite:assabile-tareq-al-suwaidan al-wassitiya/ep10 00:07:00} {cite:assabile-tareq-al-suwaidan al-wassitiya/ep10 00:36:30} {cite:assabile-tareq-al-suwaidan al-wassitiya/ep10 00:57:00} — نمایاں نتائج: 69% نے معاہدوں کو بے قیمت اور صرف 9% نے بین الاقوامی مداخلت کی تائید کی۔
