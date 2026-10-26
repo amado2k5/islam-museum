@@ -341,11 +341,11 @@ lists' own order. Status markers: [ ] queued · [~] in a writer's hands · [x] m
 - [ ] Suleyman Mammadov — 1992–Living
 - [x] Rafael Aghayev — 1985–Living
 - [x] Aghasi Mammadov — 1980–Living
-- [ ] Togrul Asgarov — 1992–Living
-- [ ] Sharif Sharifov — 1988–Living
-- [ ] Hazrat Inayat Khan — 1882–1927
-- [ ] Noor Inayat Khan — 1914–1944
-- [ ] Vilayat Inayat Khan — 1916–2004
+- [x] Togrul Asgarov — 1992–Living
+- [x] Sharif Sharifov — 1988–Living
+- [x] Hazrat Inayat Khan — 1882–1927
+- [x] Noor Inayat Khan — 1914–1944
+- [x] Vilayat Inayat Khan — 1916–2004
 - [ ] Pir Zia Inayat Khan — 1971–Living
 - [ ] Bawa Muhaiyaddeen — 1900–1986
 - [ ] Shaykh Nazim Al-Haqqani — 1922–2014
@@ -1322,10 +1322,10 @@ lists' own order. Status markers: [ ] queued · [~] in a writer's hands · [x] m
 - [ ] Ustad Alauddin Khan (1862–1972)
 - [ ] Hafiz Ali Khan (1888–1972)
 - [ ] Enayet Khan (1894–1938)
-- [ ] Hazrat Inayat Khan (1882–1927)
+- [x] Hazrat Inayat Khan (1882–1927)
 - [ ] Pir-o-Murshid Ali Khan (1881–1958)
-- [ ] Noor Inayat Khan (1914–1944)
-- [ ] Vilayat Inayat Khan (1916–2004)
+- [x] Noor Inayat Khan (1914–1944)
+- [x] Vilayat Inayat Khan (1916–2004)
 - [ ] Khwaja Hasan Nizami (1878–1955)
 - [ ] Waris Ali Shah (1823–1905)
 - [ ] Meher Ali Shah (1859–1937)
