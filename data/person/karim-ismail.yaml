@@ -1,0 +1,27 @@
+id: person/karim-ismail
+class: person
+label: { ar: "كريم إسماعيل", en: "Karim Ismail", ur: "كريم إسماعيل" }
+names:
+  - { value: "كريم إسماعيل", kind: full }
+  - { value: "Karim Ismail", kind: full }
+  - { value: "Kareem Esmail", kind: latinized }
+gender: male
+summary:
+  ar: "مدرّب ومحاضر مصري في الصحة النفسية وبناء الوعي، مؤسس منصة Mental Health Hub ومؤلف كتاب «استراحة نفسية». يجمع محتواه بين علم النفس الحديث والقيم الروحية الإسلامية، وتشمل أعماله دورات مسجلة وبودكاست «بهدوء» و«سكون» وسلسلة «وعي»، ويتابعه ملايين عبر منصات التواصل وقناته على يوتيوب."
+  en: "Egyptian trainer and lecturer in mental health and awareness-building, founder of the Mental Health Hub platform and author of the book 'Istiraha Nafsiyya' (A Psychological Break). His content joins modern psychology to Islamic spiritual values; his work includes recorded courses, the podcasts 'Behudoo' (Calmly) and 'Sukoon', and the 'Wa'i' (Awareness) series, and millions follow him across social platforms and his YouTube channel."
+  ur: "مصری مدرّب اور ذہنی صحت و آگاہی کے لیکچرر، Mental Health Hub پلیٹ فارم کے بانی اور کتاب «استراحة نفسية» کے مصنف۔ ان کا مواد جدید نفسیات کو اسلامی روحانی اقدار سے جوڑتا ہے؛ ان کے کاموں میں ریکارڈ شدہ کورسز، پوڈکاسٹ «بهدوء» و «سكون» اور سلسلہ «وعي» شامل ہیں، اور لاکھوں افراد سوشل پلیٹ فارمز اور ان کے یوٹیوب چینل پر ان کی پیروی کرتے ہیں۔"
+roles: [teacher, writer]
+wings: [people, living]
+regions: [egypt-nile]
+faith:
+  - value: unknown
+    basis: unknown
+    note: "No source checked names a school or madhhab for him. His own platform describes his mental-health training work and lists coaching accreditations; the Manjmy profile describes the spiritual dimension of his content, including Qur'an-based series. The themes of a man's content are not an attestation of his own school. Under the lane's two-source rule and the doubt rule the value stays unknown."
+    sources: [source/mental-health-hub-karim-ismail, source/manjmy-karim-ismail]
+sources: [source/mental-health-hub-karim-ismail, source/manjmy-karim-ismail]
+provenance:
+  layer: own-research
+  source: "Channel-batch row 60 ('Karim Ismail', §3 of the handoff list). The name is common, so the row was pinned by biography before building: web searches in Arabic and English on 26 October 2026 surfaced exactly one documented bearer in the channel/dawah-content space — the Egyptian mental-health trainer who brands himself 'Kareem Esmail', founder of Mental Health Hub and author of «استراحة نفسية», whose videos mix psychology with Islamic spiritual values — and no competing dawah bearer of the name; a book-summary blog's statement that he began as a professional footballer (Egypt under-20) concerns the same man's early life, not a second person. He has no Wikipedia article in any language and no Wikidata item that the searches could find. The record is therefore built, under the founder's sourcing ladder, from his own platform (Mental Health MENA / Mental Health Hub, whose course page carries his platform biography) and the Manjmy Islamic profile of his work, both read on 26 October 2026. Neither source publishes a birth date or birthplace, so no born block is written (salah-bukhatir precedent, Batch 67). Existence checks before building: filename-fragment sweeps over data/person/ (karim, ismail, esmail) and an Arabic-label grep for «كريم إسماعيل» found no existing record, and no other record carries his exact Arabic label, so no data/_homonyms.yaml entry is needed."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: modern-figures-batch-75
+status: { review: published, generated_by: "Muse (Muse Spark 1.3)" }

@@ -1,0 +1,37 @@
+id: person/aseel-hameem
+class: person
+label: { ar: "أصيل هميم", en: "Aseel Hameem", ur: "أصيل هميم" }
+names:
+  - { value: "أصيل كريم هميم", kind: full }
+  - { value: "Aseel Karim Hameem", kind: full }
+gender: female
+summary:
+  ar: "مغنية عراقية وُلدت في بغداد سنة 1984، وهي ابنة الموسيقار كريم هميم. احترفت الغناء في الثانية والعشرين بعد مشاركتها في برنامج «نجوم العرب» على إم بي سي 1، وقدمت عشرات الأغاني الفردية والجماعية بلهجات عربية مختلفة وغنّت شارات مسلسلات كثيرة، وصارت أغنيتها «سر الحياة» (2019) الأكثر استماعًا لفنانة عربية على يوتيوب."
+  en: "Iraqi singer born in Baghdad in 1984, the daughter of the musician Karim Hameem. She turned professional at twenty-two after competing in the Arab Stars programme on MBC 1, has released dozens of solo and joint songs in several Arabic dialects and sung the theme songs of many television series, and her 2019 song 'Ser Alhayah' became the most streamed song on YouTube by a female Arab artist."
+  ur: "عراقی گلوکارہ، جو 1984 میں بغداد میں پیدا ہوئیں اور موسیقار كريم هميم کی بیٹی ہیں۔ انہوں نے ایم بی سی 1 کے پروگرام «نجوم العرب» میں شرکت کے بعد بائیس برس کی عمر میں پیشہ ورانہ گائیکی شروع کی، مختلف عربی لہجوں میں درجنوں انفرادی اور مشترکہ گانے پیش کیے اور کئی ٹیلی ویژن سلسلوں کے عنوانی گانے گائے، اور ان کا 2019 کا گانا «سر الحياة» یوٹیوب پر کسی عرب خاتون فنکار کا سب سے زیادہ سنا جانے والا گانا بن گیا۔"
+roles: [musician, artist]
+wings: [people, living]
+regions: [levant-iraq]
+born:
+  edtf: "1984-10-06"
+  hijri: "1405"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "Born 6 October 1984: the English article places the birth in Adhamiyah, Baghdad; the Arabic article gives Baghdad. The Hijri year (1405) is derived by tabular conversion."
+  sources: [source/wikipedia-aseel-hameem-en, source/wikipedia-aseel-hameem-ar]
+relations:
+  - { type: born_in, target: place/baghdad, sources: [source/wikipedia-aseel-hameem-en, source/wikipedia-aseel-hameem-ar] }
+faith:
+  - value: unknown
+    basis: unknown
+    note: "Neither Wikipedia article names a religion for her: the English article makes no statement of her religion in text or infobox, and the Arabic article's infobox gives citizenship and occupation only. Entertainment-biography websites describe her as Muslim, but those pages reproduce one shared biographical text — one source family — and in any case name no school. Under the lane's two-source rule and the doubt rule the value stays unknown."
+    sources: [source/wikipedia-aseel-hameem-en, source/wikipedia-aseel-hameem-ar]
+sources: [source/wikipedia-aseel-hameem-en, source/wikipedia-aseel-hameem-ar]
+provenance:
+  layer: own-research
+  source: "Channel-batch row 58 ('Aseel Hameem', §3 of the handoff list): the row names the artist herself, a professional singer rather than a dawah preacher, and the record is built for the person named, on her own documented work (the mis-pair precedent: suma-din, Batch 58; noha-alshugairi, Batch 67). Built from the English and Arabic Wikipedia articles on Aseel Hameem, read in full on 26 October 2026; this writer's text-fetch route does not expose revision ids, so the two source files are recorded on the consultation-date pattern (Salah Bukhatir, Batch 67; Hasim Rahman) and no revision id or Wikidata identifier has been invented. Existence checks before building: filename-fragment sweeps over data/person/ (aseel, hameem, hamim) and an Arabic-label grep for «أصيل هميم» found no existing record, and no other record carries her exact Arabic label, so no data/_homonyms.yaml entry is needed."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: modern-figures-batch-75
+status: { review: published, generated_by: "Muse (Muse Spark 1.3)" }
