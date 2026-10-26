@@ -1,0 +1,46 @@
+id: person/abdelkader-hadj-ali
+class: person
+label: { ar: "عبد القادر الحاج علي", en: "Abdelkader Hadj Ali", ur: "عبد القادر حاج علی" }
+names:
+  - { value: "عبد القادر الحاج علي", kind: full }
+  - { value: "Abdelkader Hadj Ali", kind: full }
+  - { value: "Hadj Ali Abdelkader", kind: alternate }
+gender: male
+summary:
+  ar: "مناضل شيوعي فرنسي-جزائري (1883–1957)؛ هاجر إلى فرنسا شابًا، وانضم إلى الحزب الشيوعي الفرنسي منذ تأسيسه 1920 وصار عضوًا في لجنته المركزية، وكان من مؤسسي نجم شمال إفريقيا (1926) وأول رئيس له قبل أن يسلم القيادة إلى مصالي الحاج."
+  en: "Franco-Algerian communist militant (1883–1957). He emigrated to France as a young man, joined the French Communist Party at its creation in 1920 and sat on its central committee, and was a co-founder and the first president of the Étoile nord-africaine (1926) before handing its leadership to Messali Hadj."
+  ur: "فرانسیسی-جزائری کمیونسٹ کارکن (1883–1957)؛ جوانی میں فرانس ہجرت کی، 1920 میں فرانسیسی کمیونسٹ پارٹی کے قیام کے وقت اس میں شامل ہوئے اور اس کی مرکزی کمیٹی کے رکن بنے، اور نجم شمال افریقہ (1926) کے بانیوں اور پہلے صدر میں سے تھے، بعد ازاں قیادت مصالی الحاج کے حوالے کی۔"
+roles: [politician, activist]
+wings: [people]
+regions: [maghreb]
+born:
+  edtf: "1883-12-23"
+  hijri: "1301"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "Born at the douar Sidi Saada near Relizane in western Algeria; the place has no entity, so no born_in edge is written."
+  sources: [source/wikipedia-abdelkader-hadj-ali-fr, source/wikipedia-abdelkader-hadj-ali-ar, source/wikidata-abdelkader-hadj-ali]
+died:
+  edtf: "1957-05-17"
+  hijri: "1376"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "The French article gives only the year 1957 and the Paris region (its categories place the death in the former Seine département, in May 1957); the exact day, 17 May 1957, and Paris itself are Wikidata's values. There is no place entity for Paris, so no died_in edge is written."
+  sources: [source/wikipedia-abdelkader-hadj-ali-fr, source/wikidata-abdelkader-hadj-ali]
+faith:
+  - value: unknown
+    basis: unknown
+    note: "No consulted source says anything about his religion. The French article, resting on the Maitron dictionary, and the Arabic article both describe a communist militant and co-founder of the Étoile nord-africaine, and Wikidata carries no religion value. Communist or nationalist movement membership is not a faith attestation, and the element 'Hadj' in his name is a name element, not evidence."
+    sources: [source/wikipedia-abdelkader-hadj-ali-fr, source/wikipedia-abdelkader-hadj-ali-ar, source/wikidata-abdelkader-hadj-ali]
+external_ids: { wikidata: "Q19951589" }
+sources: [source/wikipedia-abdelkader-hadj-ali-fr, source/wikipedia-abdelkader-hadj-ali-ar, source/wikidata-abdelkader-hadj-ali]
+provenance:
+  layer: own-research
+  source: "French and Arabic Wikipedia articles on Abdelkader Hadj Ali, each fetched by its recorded revision id (FR 237838888, AR 75611937) with the returned id asserted equal before use, and Wikidata Q19951589; no English article exists. Existence checks by name fragments (Latin and Arabic) and by QID across data/person and data/source found no prior record. The French article says he emigrated at 18 while the Arabic article places his departure in 1905 after work and a marriage at Mascara; the prose follows neither silently."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: century-additions-57
+status: { review: published, generated_by: "Muse (Muse Spark 1.3)" }
