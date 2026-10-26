@@ -1,0 +1,48 @@
+id: person/nishatunnisa-mohani
+class: person
+label: { ar: "نشاة النساء موهاني", en: "Nishatunnisa Mohani", ur: "نشاة النساء موہانی" }
+names:
+  - { value: "نشاة النساء موهاني", kind: full }
+  - { value: "Nishatunnisha Mohani", kind: alternate }
+  - { value: "Begum Hasrat Mohani", kind: alternate }
+gender: female
+summary:
+  ar: "صحفية ومناضلة استقلال هندية (1884–1937)، زوجة حسرت موهاني. تعلمت في البيت وأتقنت الأردية والعربية والفارسية والإنجليزية، وعملت في حركتي عدم التعاون والخلافة، وافتتحت أول متجر خادي باسم «متجر عليكرة خلافت» ودعمت منه مجلة غاندي «الهند الشابة»، وواصلت إصدار صحيفة زوجها «أردو معلى» في غيابه، وانتقدت غاندي لعدم تبنّيه قرار الاستقلال التام الذي اقترحه زوجها."
+  en: "Indian journalist and independence activist (1884–1937), wife of Hasrat Mohani. Educated at home, she was proficient in Urdu, Arabic, Persian and English, worked in the non-cooperation and Khilafat movements, opened the first khadi shop, the Aligarh Khilafat Store, whose income supported Gandhi's Young India, kept her husband's newspaper Urdu-e-Mualla publishing, and criticised Gandhi for not backing her husband's complete-independence resolution."
+  ur: "ہندوستانی صحافی اور مجاہد آزادی (1884ء–1937ء)، حسرت موہانی کی اہلیہ۔ گھر پر تعلیم پائیں اور اردو، عربی، فارسی اور انگریزی میں مہارت رکھتی تھیں؛ عدم تعاون اور خلافت تحریکوں میں کام کیا، کھادی کی پہلی دکان ’علی گڑھ خلافت اسٹور‘ کھولی جس کی آمدنی سے گاندھی کے رسالے ’ینگ انڈیا‘ کی مدد کی، اپنے شوہر کے اخبار ’اردوئے معلى‘ کی اشاعت جاری رکھی، اور گاندھی کو اپنے شوہر کی مکمل آزادی کی قرارداد کی حمایت نہ کرنے پر تنقید کا نشانہ بنایا۔"
+roles: [activist, writer]
+wings: [people]
+regions: [south-asia]
+born:
+  edtf: "1884"
+  hijri: "1301"
+  calendar: gregorian
+  precision: year
+  status: debated
+  derived: true
+  note: "Her birth year is split between the article's own parts: its infobox and lead give 1884 and Wikidata gives 1884 (year precision), while its Early life section says 'Born in Lucknow in 1885' and the Jane Addams Digital Edition entry it cites styles her 'Mohani, Begum Hasrat (1885-1937)'. The record keeps 1884, the infobox and Wikidata year, at year precision with the conflict stated. No place entity exists for Lucknow, so no born_in edge is written. The Hijri year 1301, in which most of 1884 fell, is a conversion."
+  sources: [source/wikipedia-nishatunnisa-mohani-en, source/wikidata-nishatunnisa-mohani]
+died:
+  edtf: "1937-04-18"
+  hijri: "1356"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "The English article's infobox, lead and death section give her death on 18 April 1937; Wikidata gives only the year 1937. The article names no place of death, so no died_in edge is written. The Hijri year 1356, in which the date falls, is a conversion."
+  sources: [source/wikipedia-nishatunnisa-mohani-en, source/wikidata-nishatunnisa-mohani]
+relations:
+  - { type: spouse_of, target: person/hasrat-mohani, sources: [source/wikipedia-nishatunnisa-mohani-en] }
+faith:
+  - value: unknown
+    basis: unknown
+    note: "No source read names her religion or any school. The English article — the only Wikipedia edition for her in any language — presents her Khilafat and non-cooperation work as movement activity and never states her own affiliation; Wikidata carries no religion value for her. Her marriage to Hasrat Mohani is not evidence of her affiliation, and movement work never attests a school. The value therefore stays unknown, on thinner evidence than the usual Khan configuration: not even a personal attestation of Islam appears in the sources read, and none is inferred from her name, her marriage or her causes."
+    sources: [source/wikipedia-nishatunnisa-mohani-en, source/wikidata-nishatunnisa-mohani]
+external_ids: { wikidata: "Q124796496" }
+sources: [source/wikipedia-nishatunnisa-mohani-en, source/wikidata-nishatunnisa-mohani]
+provenance:
+  layer: own-research
+  source: "English Wikipedia 'Nishatunnisa Mohani' (revision 1368117049) and Wikidata item Q124796496 (item revision 2514255056), read via the MediaWiki API on 26 October 2026; the article was fetched by its recorded revision id and the returned id asserted equal before any claim was drawn. No Arabic or Urdu Wikipedia edition exists for her (Wikidata's sitelinks give only English and Telugu). Existence was checked by filename fragments under all spellings (nishat, nisha, mohani, hasrat), by Arabic label, by biography and by the QID route across data/person/ — no earlier record exists; her husband's record (hasrat-mohani, wave 70 §B) exists, carries no relations, and the marriage edge is therefore written once, here. No place entity exists for Lucknow, so no born_in edge is written."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: century-additions-72
+status: { review: published, generated_by: "Muse (Muse Spark 1.3)" }
