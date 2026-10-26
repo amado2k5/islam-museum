@@ -25,3 +25,12 @@ From this clan came [[person/fatima-bint-amr|Fatima bint Amr]] ibn A'idh ibn Imr
 
 ## Among the allies at Hilf al-Fudul (al-Raheeq al-Makhtum, p. 60)
 Al-Raheeq al-Makhtum counts this clan among the "allies" against whom a man of Zubayd (al-Zubaydi) sought redress when [[person/al-as-ibn-wail|al-As ibn Wa'il]] withheld his right. They were Abd al-Dar, Makhzum, Jumah, Sahm and Adi, and they paid him no heed. That was the cause of [[event/hilf-al-fudul|the Pact of al-Fudul]], which Banu Hashim, Banu al-Muttalib, Asad, Zuhra and Taym formed {cite:mubarakpuri-raheeq p.60} {cite:mukhtasar-sirat-al-rasul-al-najdi p.30-31}.
+
+## For Sprouts
+Banu Makhzum, a clan of Quraysh by their line 'Makhzum ibn Yaqza ibn Murra ibn Ka'b'; Ibn Ishaq brings them in the lists of the Abyssinia emigrants.
+
+## For Explorers
+Banu Makhzum ibn Yaqza ibn Murra ibn Ka'b, a clan of Quraysh; Ibn Ishaq brings them by their line in the lists of the Abyssinia emigrants, counting among them in that chapter Habbar ibn Sufyan, Abdullah ibn Sufyan al-Makhzumi and Hisham ibn Abi Hudhayfa of the rest of the emigrants.
+
+## For Scholars
+Banu Makhzum ibn Yaqza ibn Murra ibn Ka'b, a clan of Quraysh; Ibn Ishaq brings this clan in the lists of the Abyssinia emigrants by its line 'Makhzum ibn Yaqza ibn Murra ibn Ka'b', counting of it in that chapter Habbar ibn Sufyan, Abdullah ibn Sufyan al-Makhzumi and Hisham ibn Abi Hudhayfa among the rest of the emigrants.

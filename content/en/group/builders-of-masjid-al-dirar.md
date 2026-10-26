@@ -16,3 +16,12 @@ Ibn Ishaq describes the mosque — on the Prophet's tongue — as "the mosque wh
 ## Source notes and markers of doubt
 - Ibn Ishaq's phrase "its builders" enumerates twelve men (p. 174); the name count matches if Jariya and his two sons are counted as three.
 - Wadi'a ibn Thabit: "of Banu Umayya [ibn Zayd]" — the bracketed addition is from manuscript (a) per the editors.
+
+## For Sprouts
+Twelve men of Medina's people, named by Ibn Ishaq as the builders of the mosque the Prophet ordered razed — 'the mosque whose people wronged' on the Prophet's tongue.
+
+## For Explorers
+Twelve men Ibn Ishaq names as the builders of the mosque the Prophet ordered razed, of Medina's people and quarters: Khudham ibn Khalid, Tha'laba ibn Hatib, Mu'attib ibn Qushayr, Abu Habiba ibn al-Az'ar, Abbad ibn Hunayf, Jariya ibn Amir and his sons Mujammi' and Zayd, Nabtal ibn al-Harith, Bahzaj, Bijad ibn Uthman and Wadi'a ibn Thabit. Ibn Ishaq describes the mosque as 'the mosque whose people wronged' on the Prophet's tongue and records that a verse came down about them; the judgement on their intentions is quoted from the account, not the museum's word.
+
+## For Scholars
+Twelve men Ibn Ishaq names as the builders of the mosque the Prophet ordered razed, of Medina's people and quarters: Khudham ibn Khalid, Tha'laba ibn Hatib, Mu'attib ibn Qushayr, Abu Habiba ibn al-Az'ar, Abbad ibn Hunayf, Jariya ibn Amir and his sons Mujammi' and Zayd, Nabtal ibn al-Harith, Bahzaj, Bijad ibn Uthman and Wadi'a ibn Thabit. Ibn Ishaq describes the mosque as 'the mosque whose people wronged' on the Prophet's tongue, and records that a verse came down about them; the judgement on their intentions in the book is quoted from the account, not the museum's word.
