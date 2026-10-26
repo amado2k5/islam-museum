@@ -1055,3 +1055,64 @@ describe("E5 step 3 — edu/story-cards/*.yaml (story in 12 cards)", () => {
     }
   });
 });
+
+describe("E5 step 4 — the Little Studio (sighar/studio)", () => {
+  it("the studio page and script exist; drawing is client-side, export-only, nothing uploaded", () => {
+    expect(existsSync("site/src/pages/[lang]/sighar/studio.astro")).toBe(true);
+    const src = readFileSync("site/src/scripts/studio.ts", "utf8");
+    expect(src.includes("pointerdown")).toBe(true);
+    expect(src.includes("toBlob")).toBe(true);
+    for (const bad of ["fetch(", "XMLHttpRequest", "sendBeacon", "localStorage", "sessionStorage", "upload"])
+      expect(src.includes(bad), bad).toBe(false);
+    const page = readFileSync("site/src/pages/[lang]/sighar/studio.astro", "utf8");
+    for (const id of ["studio-girih", "studio-trace", "studio-coin", "studio-manuscript"])
+      expect(page.includes(`id="${id}"`), id).toBe(true);
+    expect(page.includes("<noscript>")).toBe(true);
+  });
+  it("the studio strings exist in all three languages", () => {
+    for (const l of ["ar", "en", "ur"]) {
+      const d = parse(readFileSync(`i18n/${l}.yaml`, "utf8")).kids;
+      for (const k of [
+        "studio_title", "studio_lede", "studio_girih_title", "studio_trace_title",
+        "studio_coin_title", "studio_ms_title", "studio_clear", "studio_export_png",
+        "studio_note", "studio_nojs",
+      ])
+        expect(typeof d[k] === "string" && d[k].length > 0, `${l}.${k}`).toBe(true);
+    }
+  });
+  it("the sighar hub links the studio", () => {
+    const hub = readFileSync("site/src/pages/[lang]/sighar/index.astro", "utf8");
+    expect(hub.includes("/sighar/studio/")).toBe(true);
+  });
+});
+
+describe("E5 step 5 — librarians page + video specs", () => {
+  it("the librarians route exists, shows the three citation styles and links a LibGuides set", () => {
+    const f = "site/src/pages/[lang]/learn/teachers/librarians/index.astro";
+    expect(existsSync(f)).toBe(true);
+    const p = readFileSync(f, "utf8");
+    for (const k of ["lb_apa", "lb_mla", "lb_chicago"]) expect(p.includes(k), k).toBe(true);
+    for (const l of ["ar", "en", "ur"]) {
+      const d = parse(readFileSync(`i18n/${l}.yaml`, "utf8")).edu;
+      for (const k of ["lb_title", "lb_lede", "lb_cite_title", "lb_links_title", "lb_licence"])
+        expect(typeof d[k] === "string" && d[k].length > 0, `${l}.${k}`).toBe(true);
+    }
+    const hub = readFileSync("site/src/pages/[lang]/learn/teachers/index.astro", "utf8");
+    expect(hub.includes("/learn/teachers/librarians/")).toBe(true);
+  });
+  it("the video specs document lists a trailer per band and per pathway with no-people rules", () => {
+    const d = readFileSync("docs/outreach/education/video-specs.md", "utf8");
+    expect(d.includes("No people")).toBe(true);
+    for (const b of ["Sprouts", "Explorers", "Storytellers", "Scholars", "Researchers"])
+      expect(d.includes(`### T-B`), b).toBe(true) && expect(d.includes(b), b).toBe(true);
+    for (const s of [
+      "pathway-g4-social-studies-four-cities", "pathway-g6-social-studies-hajj-network",
+      "pathway-g11-chw3m-al-andalus", "pathway-g11-chw3m-baghdad-and-the-silk-roads",
+      "pathway-g11-chw3m-crusades-muslim-side", "pathway-g11-chw3m-mongols-and-after",
+      "pathway-g11-chw3m-rise-of-islam", "pathway-g11-hrf3o-five-pillars-daily-life",
+      "pathway-g11-hrt3m-islamic-art-architecture", "pathway-g11-hrt3m-life-of-the-prophet",
+      "pathway-g11-hrt3m-quran-as-a-text", "pathway-g12-chy4u-ottomans-gunpowder-empires",
+    ]) expect(d.includes(s), s).toBe(true);
+    expect(d.includes("QR")).toBe(true);
+  });
+});
