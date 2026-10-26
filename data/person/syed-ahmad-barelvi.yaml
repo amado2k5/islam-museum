@@ -1,0 +1,55 @@
+id: person/syed-ahmad-barelvi
+class: person
+label: { ar: "أحمد بن عرفان البريلوي", en: "Syed Ahmad Barelvi", ur: "سید احمد بریلوی" }
+names:
+  - { value: "Syed Ahmad ibn Muhammad Irfan al-Barelvi", kind: full }
+  - { value: "أحمد بن محمد عرفان بن نور الشريف الحسني البريلوي", kind: full }
+  - { value: "Sayyid Ahmad Shahid", kind: alternate }
+  - { value: "Shaheed-e-Balakot", kind: laqab }
+  - { value: "Imam-ul-Mujahidin", kind: laqab }
+gender: male
+summary:
+  ar: "عالم مصلح هندي وقائد عسكري (1786–1831)، وُلد في رائي بريلي وتتلمذ على الشاه عبد العزيز الدهلوي، وقاد حركة «الطريقة المحمدية» الإصلاحية التي حاربت تقديس الأولياء والعادات المتأثرة بالشيعة. بعد حجه (1821–1823) قاد المجاهدين إلى وادي بيشاور، وبويع إمامًا وخليفة في يناير 1827، وحارب إمبراطورية السيخ حتى قُتل في بالاكوت في 6 مايو 1831؛ ويُعدّ شهيدًا وسلفًا لحركتي أهل الحديث وديوبند."
+  en: "Indian revivalist scholar and military commander (1786–1831), born at Rae Bareli and a disciple of Shah Abdul Aziz Dehlavi, who founded and led the reform movement Tariqah-i-Muhammadiya, campaigning against saint veneration and Shi'i-influenced customs. After his Hajj (1821–1823) he led the mujahidin to the Peshawar valley, was proclaimed imam and caliph in January 1827, fought the Sikh Empire, and was killed at Balakot on 6 May 1831. He is revered as a shahid (martyr) and claimed as a forerunner by the Ahl-i Hadith and Deobandi movements."
+  ur: "ہندوستانی مصلح عالم اور عسکری قائد (1786ء–1831ء)، رائے بریلی میں پیدا ہوئے اور شاہ عبدالعزیز دہلوی کے شاگرد تھے؛ اصلاحی تحریک «طریقۂ محمدیہ» کے بانی و قائد کے طور پر انہوں نے اولیاء پرستی اور شیعہ اثرات والی رسوم کے خلاف مہم چلائی۔ حج (1821ء–1823ء) کے بعد مجاہدین کو وادیِ پشاور لے گئے، جنوری 1827ء میں امام و خلیفہ قرار پائے، سکھ سلطنت سے لڑے اور 6 مئی 1831ء کو بالاکوٹ میں مارے گئے۔ انہیں شہید مانا جاتا ہے اور اہلِ حدیث و دیوبندی تحریکیں انہیں اپنا پیش رو کہتی ہیں۔"
+roles: [scholar, mystic, military-leader]
+wings: [people]
+regions: [south-asia]
+born:
+  edtf: "1786-11-29"
+  hijri: "1201"
+  calendar: gregorian
+  precision: day
+  status: debated
+  derived: false
+  note: "All four sources agree that he was born on 6 Safar 1201 AH, but they pair that Hijri date with two different Gregorian days: the English article (infobox and text) and the Urdu article give 29 November 1786, while the Arabic article and Wikidata give 28 November 1786. The record follows 29 November and marks the date debated. He was born at Rae Bareli — the Urdu article specifies Daira Shah Alamullah, a locality of Rae Bareli — into a Syed family. Rae Bareli has no place entity in the museum yet, so no born_in relation is written."
+  sources: [source/wikipedia-syed-ahmad-barelvi-en, source/wikipedia-ahmad-irfan-ar, source/wikipedia-syed-ahmad-barelvi-ur, source/wikidata-syed-ahmad-barelvi]
+died:
+  edtf: "1831-05-06"
+  hijri: "1246"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: false
+  note: "Killed at Balakot, in the Mansehra district, on Friday 6 May 1831, agreed as a Gregorian date by the English, Arabic and Urdu articles and by Wikidata, fighting the Sikh forces of Sher Singh alongside Shah Ismail Dehlvi and the movement's other leaders. The Hijri day is given as 24 Dhu al-Qa'da 1246 by the Arabic and Urdu articles and as 23 Dhu al-Qa'da 1246 by the English article; the record carries the Hijri year 1246, on which all agree. Balakot has no place entity in the museum yet, so no died_in relation is written."
+  sources: [source/wikipedia-syed-ahmad-barelvi-en, source/wikipedia-ahmad-irfan-ar, source/wikipedia-syed-ahmad-barelvi-ur, source/wikidata-syed-ahmad-barelvi]
+relations:
+  - { type: student_of, target: person/shah-abd-al-aziz-dihlawi, sources: [source/wikipedia-syed-ahmad-barelvi-en, source/wikipedia-ahmad-irfan-ar, source/wikipedia-syed-ahmad-barelvi-ur] }
+  - { type: lived_in, target: place/delhi, sources: [source/wikipedia-syed-ahmad-barelvi-en, source/wikipedia-ahmad-irfan-ar] }
+faith:
+  - value: sunni-hanafi
+    basis: documented
+    note: "The English article's text states that he was 'a traditional Sunni who adhered to the Hanafi school', citing Juan Campo's Encyclopedia of Islam entry (2009), and quotes Waleed Ziad (Hidden Caliphate, Harvard University Press, 2021) that Sayyid Ahmad 'consistently called himself a staunch Sunni and follower of the Hanafi school of law'; the article's infobox jurisprudence field (Hanafi) is referenced to Ziad and to Mukhtar Ahmad Ali (2000: the two leaders 'strictly remained within the Hanafi School'). The counter-reading is preserved here, not suppressed: the same infobox carries a second value, 'Independent', referenced to Muhammad Hedayetullah's McGill thesis (1968), which holds that he rejected taqlid, condemned the muqallidin and declared himself a ghayr muqallid, rejecting the authority of the four schools. The Arabic and Urdu articles name no madhhab in their texts (both file him in Hanafi categories, which are filings and do not count), and Wikidata gives only Islam. The value is recorded on the two independent scholarly attestations stated in the English article's text, with the debate carried in this note."
+    sources: [source/wikipedia-syed-ahmad-barelvi-en]
+  - value: sufi
+    basis: documented
+    note: "Independent article texts attest his personal Sufi standing as both disciple and murshid. The English article's lead calls him a 'Naqshbandi Sufi murshid', and its text (Metcalf 1982; Gaborieau 2021; Ziad 2021) says he was a Sufi saint and guide who initiated his followers into the traditional Sufi orders — the Chishtiyya, Qadiriyya, Naqshbandiyya and Naqshbandiyya-Mujaddidiyya — that his Mujaddidi credentials were well established, and that he was a disciple of Shah Abdul Aziz Dehlvi. The Arabic article records that he gave bay'ah to Shah Abdul Aziz and took the tariqa from him. The Urdu article calls him a Sufi in its lead and prints his spiritual chain (silsila) running from him through Shah Abdul Aziz and Shah Waliullah back to Ahmad Sirhindi. On those texts his personal Sufi affiliation is documented."
+    sources: [source/wikipedia-syed-ahmad-barelvi-en, source/wikipedia-ahmad-irfan-ar, source/wikipedia-syed-ahmad-barelvi-ur]
+external_ids: { wikidata: "Q4165463" }
+sources: [source/wikipedia-syed-ahmad-barelvi-en, source/wikipedia-ahmad-irfan-ar, source/wikipedia-syed-ahmad-barelvi-ur, source/wikidata-syed-ahmad-barelvi]
+provenance:
+  layer: own-research
+  source: "English Wikipedia 'Syed Ahmad Barelvi' (revision 1381617371), Arabic Wikipedia 'Ahmad Irfan' (revision 75793247), Urdu Wikipedia 'Syed Ahmad Barelvi' (revision 12014865) and Wikidata item Q4165463 (item revision 2557349202), read via the MediaWiki API on 26 October 2026. He is not the museum's ahmed-raza-khan-barelvi (Ahmed Raza Khan, 1856–1921) and not syed-ahmad-khan (Sir Syed Ahmad Khan, 1817–1898): the English article itself carries a distinguish note against both, and the biographies are entirely distinct. The queue line's dates (1820–1880) are wrong in both years, and its parenthetical '(Legacy Movement)' is a gloss; this record is built for Syed Ahmad Barelvi himself on the sources' dates, 1786–1831. Rae Bareli and Balakot have no place entities in the museum yet, so no born_in or died_in relation is written."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: century-additions-65
+status: { review: published, generated_by: "Muse (Muse Spark 1.3)" }
