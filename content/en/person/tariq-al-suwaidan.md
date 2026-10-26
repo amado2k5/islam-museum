@@ -77,5 +77,11 @@ He recounts that an asset-management company he worked for bought a profitable M
 He says the strategic plan of al-Resalah channel was written on his model in a single day, nine to nine, by the nominal-group method. {cite:assabile-tareq-al-suwaidan administrative-processus-abilities/ep02 01:29:00}
 Among his rules of reward: a manager's share of profits is usually three to five per cent, half to one per cent in listed companies, and never exceeds ten per cent for someone entrusted with the whole business (needs_source: the figures are from his experience). {cite:assabile-tareq-al-suwaidan administrative-processus-abilities/ep02 00:59:00}
 
+## From his lessons: leadership
+In the third episode al-Suwaidan gives his personal rules of leadership: a leader does not attend more than fifty per cent of working hours; he accepts no job description for himself so that he remains a reference entitled to intervene in anything; and he keeps the financial decision — signing cheques — because watching the money reveals everything that goes on. {cite:assabile-tareq-al-suwaidan administrative-processus-abilities/ep03 00:16:00} {cite:assabile-tareq-al-suwaidan administrative-processus-abilities/ep03 00:53:30} {cite:assabile-tareq-al-suwaidan administrative-processus-abilities/ep03 00:57:30}
+He mentions that he studied under Ken Blanchard, and that he ran some seventy projects in his life, all with other people's money, not his own — some won and some lost. {cite:assabile-tareq-al-suwaidan administrative-processus-abilities/ep03 00:27:30} {cite:assabile-tareq-al-suwaidan administrative-processus-abilities/ep03 00:26:30}
+Among his declared personal rules: at his academy he rejected Arab applicants with more than ten years' experience for want of a self-development system, and he trained his daughter to own her homework by the 'your monkey' rule rather than solve it for her. {cite:assabile-tareq-al-suwaidan administrative-processus-abilities/ep03 00:41:30} {cite:assabile-tareq-al-suwaidan administrative-processus-abilities/ep03 00:37:30}
+He declares that his own DISC pattern is 'ba' — an influencer, people-focused and fast — fifteen points ahead of his second letter. {cite:assabile-tareq-al-suwaidan administrative-processus-abilities/ep03 01:37:30}
+
 ## Sources
 - The defined source entities cited above, recorded in `data/source/`.
