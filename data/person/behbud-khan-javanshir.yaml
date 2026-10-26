@@ -1,0 +1,48 @@
+id: person/behbud-khan-javanshir
+class: person
+label: { ar: "بهبود خان جوانشير", en: "Behbud Khan Javanshir", ur: "بہبود خان جوانشیر" }
+names:
+  - { value: "Behbud Khan Azad Khan oghlu Javanshir", kind: full }
+  - { value: "Behbud xan Azad xan oğlu Cavanşir", kind: full }
+  - { value: "Behboud Khan Javanshir", kind: alternate }
+gender: male
+summary:
+  ar: "مهندس وسياسي ودبلوماسي أذربيجاني (1878–1921)، من أحفاد مؤسس خانية قره باغ، وزير داخلية جمهورية أذربيجان الديمقراطية (1918) ونائب وزير تجارتها وصناعتها، عمل مهندسًا في صناعة النفط ثم ممثلًا سوفيتيًا في برلين والقسطنطينية، حيث اغتاله مسلح أرمني سنة 1921 ضمن «عملية نمسيس»."
+  en: "Azerbaijani engineer, politician and diplomat (1878–1921), a descendant of the founder of the Karabakh Khanate; Minister of Internal Affairs of the Azerbaijan Democratic Republic (1918) and deputy minister of trade and industry. He worked as an oil engineer, then represented the Soviet government in Berlin and Constantinople, where an Armenian gunman assassinated him in 1921 in Operation Nemesis."
+  ur: "آذربائیجانی انجینئر، سیاست دان اور سفارت کار (1878–1921)، خاناتِ قاراباغ کے بانی کی نسل سے؛ آذربائیجان جمہوری جمہوریہ کے وزیرِ داخلہ (1918) اور تجارت و صنعت کے نائب وزیر۔ انہوں نے تیل کی صنعت میں انجینئر کے طور پر کام کیا، پھر برلن اور قسطنطنیہ میں سوویت حکومت کی نمائندگی کی، جہاں 1921 میں «آپریشن نیمیسس» کے تحت ایک آرمینیائی حملہ آور نے انہیں قتل کر دیا۔"
+roles: [politician, engineer, diplomat]
+wings: [people]
+regions: [persia-central-asia]
+born:
+  edtf: "1878-07-24"
+  hijri: "1295"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "Born at Azad Qaraqoyunlu, Javanshir uyezd, Elizavetpol Governorate. The Azerbaijani and Russian articles give 12 [24] July 1878 — one day in Old Style and New Style — the English article gives 24 July 1878, and Wikidata carries both calendar readings as two values. The record follows the New Style day. The Hijri year 1295 is the tabular conversion. The museum has no place entity for Azad Qaraqoyunlu, so no born_in edge is written."
+  sources: [source/wikipedia-behbud-khan-javanshir-en, source/wikipedia-behbud-khan-javanshir-az, source/wikipedia-behbud-khan-javanshir-ru, source/wikidata-behbud-khan-javanshir]
+died:
+  edtf: "1921-07-18"
+  hijri: "1339"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "Assassinated at Constantinople (Istanbul) on 18 July 1921, shot by Misak Torlakian near the Pera Palace Hotel in Operation Nemesis; the Azerbaijani article adds that his funeral at the Yahya Efendi lodge in Beşiktaş on 20 July 1921 turned into a mass demonstration. All articles and Wikidata agree on the date. The Hijri year 1339 is the tabular conversion."
+  sources: [source/wikipedia-behbud-khan-javanshir-en, source/wikipedia-behbud-khan-javanshir-az, source/wikipedia-behbud-khan-javanshir-ru, source/wikidata-behbud-khan-javanshir]
+relations:
+  - { type: died_in, target: place/istanbul, sources: [source/wikipedia-behbud-khan-javanshir-en, source/wikipedia-behbud-khan-javanshir-az] }
+faith:
+  - value: unknown
+    basis: unknown
+    note: "No consulted source names any affiliation for him, and this note states exactly what the sources give: the English, Azerbaijani and Russian articles are silent on his religion throughout, the Persian article (a translation of the same material, checked but not registered) is likewise silent, and Wikidata carries no religion value at all. His descent from Panah Ali Khan, founder of the Karabakh Khanate, and his Democratic Republic offices are background; the Azerbaijani article's long narrative of the March 1918 events describes the Baku Muslim community's funerals at the Tazapir mosque — communal rites reported as history, not his personal belief. His faith is therefore recorded unknown."
+    sources: [source/wikipedia-behbud-khan-javanshir-en, source/wikipedia-behbud-khan-javanshir-az, source/wikipedia-behbud-khan-javanshir-ru, source/wikidata-behbud-khan-javanshir]
+external_ids: { wikidata: "Q2084494" }
+sources: [source/wikipedia-behbud-khan-javanshir-en, source/wikipedia-behbud-khan-javanshir-az, source/wikipedia-behbud-khan-javanshir-ru, source/wikidata-behbud-khan-javanshir]
+provenance:
+  layer: own-research
+  source: "English Wikipedia 'Behbud Khan Javanshir' (revision 1350867971), Azerbaijani Wikipedia 'Behbud xan Cavanşir' (9126458) and Russian Wikipedia 'Джаваншир, Бехбуд хан Азад хан оглы' (154703154), all read on 26 October 2026, with Wikidata item Q2084494; the Persian article was also checked and is silent on religion, so it is not registered. The queue gives 1878–1921, confirmed exactly (the 12/24 July birth is one day in two calendars, the record following New Style). The died_in edge to place/istanbul is written because that place entity exists. His faith is recorded unknown: no source names any affiliation for him, as the faith note sets out."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: century-additions-34
+status: { review: published, completeness: 3, generated_by: "Muse (Muse Spark 1.3)" }
