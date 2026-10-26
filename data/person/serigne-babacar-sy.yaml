@@ -1,0 +1,48 @@
+id: person/serigne-babacar-sy
+class: person
+label: { ar: "سيدي أبابكر سي", en: "Serigne Babacar Sy", ur: "سیدی ابابکر سی" }
+names:
+  - { value: "أبابكر سي", kind: full }
+  - { value: "Ababacar Sy", kind: full }
+  - { value: "Serigne Babacar", kind: alternate }
+gender: male
+summary:
+  ar: "عالم سنغالي (1885–1957)، ابن الحاج مالك سي وخليفته العام الأول على التيجانية في السنغال من سنة 1922 حتى وفاته. أسس في تيفاوان جماعات «الداهرة» (1932) التي نظمت أتباع الطريقة، وله قصائد ومؤلفات في السيرة وفي مدح أحمد التيجاني ووالده."
+  en: "Senegalese scholar (1885-1957), son of El Hadj Malick Sy and his first khalifa-general over the Tijaniyya in Senegal, from 1922 until his death. At Tivaouane he founded the dahira associations (1932) that organised the order's followers, and he wrote poems and works on the Prophet's life, on Ahmad Tijani and on his father."
+  ur: "سینیگال کے عالم (1885ء–1957ء)، الحاج مالک سی کے فرزند اور سینیگال میں تیجانیہ پر ان کے پہلے خلیفہ عام، 1922ء سے اپنی وفات تک۔ انہوں نے تیوان میں «داہرہ» انجمنیں (1932ء) قائم کیں جنہوں نے طریقے کے پیروکاروں کو منظم کیا، اور سیرت، احمد تیجانی اور اپنے والد پر نظمیں اور کتابیں لکھیں۔"
+roles: [scholar, writer]
+wings: [people]
+regions: [west-africa-sahel]
+born:
+  edtf: "1885"
+  hijri: "1302"
+  calendar: gregorian
+  precision: year
+  status: historical
+  derived: true
+  note: "The French article and Wikidata give only the year 1885, at Saint-Louis, Senegal. The Hijri year is derived by tabular conversion of the Gregorian year. No place entity exists for Saint-Louis, so no born_in edge is written."
+  sources: [source/wikipedia-serigne-babacar-sy-fr, source/wikidata-serigne-babacar-sy]
+died:
+  edtf: "1957-03-25"
+  hijri: "1376"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "The French article and Wikidata agree on 25 March 1957, at Tivaouane, during one of his regular spiritual retreats there. The Hijri year is derived by tabular conversion. No place entity exists for Tivaouane, so no died_in edge is written."
+  sources: [source/wikipedia-serigne-babacar-sy-fr, source/wikidata-serigne-babacar-sy]
+relations:
+  - { type: child_of, target: person/el-hadj-malik-sy, sources: [source/wikipedia-serigne-babacar-sy-fr] }
+faith:
+  - value: unknown
+    basis: unknown
+    note: "FLAGGED — headship only (the Ahmed Sharif as-Senussi configuration, wave 59 §B); one founder word settles him sufi/documented on the analogy of an order's hereditary head, or confirms unknown. What the sources give: the French article — the only Wikipedia article on him in any language — describes him throughout by office and descent: an eminent community head and Tidjane leader, his father Malick Sy's khalifa from 1922 and the first khalifa-general of the Tijaniyya in Senegal, founder in 1932 of the dahiras where the order's followers gathered to deepen their practice. No sentence in it states his own initiation, bay'a or discipleship in the order; his poems and works on Ahmad Tijani and on his father are authorship, not an attestation; and being the founder's son never counts by itself. Wikidata carries no religion value at all. Under the headship line the value stands unknown, with this reading preserved for the founder's ruling."
+    sources: [source/wikipedia-serigne-babacar-sy-fr, source/wikidata-serigne-babacar-sy]
+external_ids: { wikidata: "Q3480996" }
+sources: [source/wikipedia-serigne-babacar-sy-fr, source/wikidata-serigne-babacar-sy]
+provenance:
+  layer: own-research
+  source: "French Wikipedia 'Serigne Babacar Sy' (revision 235977121) and Wikidata item Q3480996 (item revision 2528244197), read via the MediaWiki API on 26 October 2026; the article was fetched by its recorded revision id and the returned id asserted equal before any claim was drawn. It is the only Wikipedia article on him in any language, so the Arabic, English and Urdu prose are all written from the French source and Wikidata. Existence was checked by filename fragments under all spellings (babacar, sy), by Arabic label and by the QID route across data/person/; no earlier record of him exists. The child_of edge is written in his record pointing at his father, El Hadj Malick Sy, whose record exists; his sons who later held the khalifa (Mansour Sy, Cheikh Ahmed Tidiane Sy, Abdoul Aziz Sy, Pape Malick Sy) have no museum records, so no edges are written for them. His Arabic label here (سيدي أبابكر سي) follows the form used in his father's record and does not collide with any existing label."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: century-additions-69
+status: { review: published, generated_by: "Muse (Muse Spark 1.3)" }

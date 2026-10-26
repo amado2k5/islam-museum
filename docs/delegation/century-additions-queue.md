@@ -391,11 +391,11 @@ lists' own order. Status markers: [ ] queued · [~] in a writer's hands · [x] m
 - [x] Sheikh Mustafa Benhamza — 1949–Living
 - [x] Sheikh Ahmed Lemu — 1929–2021
 - [x] Aisha Lemu — 1940–2019
-- [ ] Sheikh Abubakar Gumi — 1922–1992
-- [ ] Sheikh Dahiru Bauchi — 1927–Living
-- [ ] Sheikh Ibrahim Niass — 1900–1975
-- [ ] Serigne Babacar Sy — 1885–1957
-- [ ] Serigne Fallou Mbacké — 1888–1968
+- [x] Sheikh Abubakar Gumi — 1922–1992
+- [x] Sheikh Dahiru Bauchi — 1927–Living
+- [x] Sheikh Ibrahim Niass — 1900–1975
+- [x] Serigne Babacar Sy — 1885–1957
+- [x] Serigne Fallou Mbacké — 1888–1968
 - [ ] Serigne Abdou Ahad Mbacké — 1914–1989
 - [ ] Serigne Saliou Mbacké — 1915–2007
 - [ ] Serigne Mountakha Mbacké — 1933–Living
