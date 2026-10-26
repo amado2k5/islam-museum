@@ -99,3 +99,6 @@ translators: []
 
 ## «الوسطیہ» میں — سیٹلائٹ چینلوں کی قسط
 سویدان نے عرب سیٹلائٹ تجربے کا جائزہ اپنے پیش کردہ اعداد (79 تفریحی، 37 سرکاری، 52% تشدد بچوں کے اوقات میں) اور ووٹوں کے ساتھ لیا {cite:assabile-tareq-al-suwaidan al-wassitiya/ep12 00:15:00} {cite:assabile-tareq-al-suwaidan al-wassitiya/ep12 00:34:00} {cite:assabile-tareq-al-suwaidan al-wassitiya/ep12 00:50:00} {cite:assabile-tareq-al-suwaidan al-wassitiya/ep12 01:05:00}۔
+
+## «الوسطیہ» میں — سیٹلائٹ فتویٰ کی قسط
+سویدان نے سیٹلائٹ فتویٰ کی قسط علماء اور ووٹوں کے ساتھ چلائی — اور انہوں نے حیرت کا اظہار کیا کہ صرف 15% چینلوں کے سب سے بڑے عالم سے رجوع کرتے ہیں بمقابلہ 42% مجامع سے {cite:assabile-tareq-al-suwaidan al-wassitiya/ep13 00:32:30} {cite:assabile-tareq-al-suwaidan al-wassitiya/ep13 01:08:30}۔

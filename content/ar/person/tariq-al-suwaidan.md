@@ -131,3 +131,6 @@ translators: []
 
 ## في «الوسطية» — حلقة الفضائيات العربية
 قيّم السويدان تجربة الفضائيات بإحصاءات عرضها (79 منوعة، 37 حكومية، 52% عنف بفترات الأطفال) واستطلاعات {cite:assabile-tareq-al-suwaidan al-wassitiya/ep12 00:15:00} {cite:assabile-tareq-al-suwaidan al-wassitiya/ep12 00:34:00} {cite:assabile-tareq-al-suwaidan al-wassitiya/ep12 00:50:00} {cite:assabile-tareq-al-suwaidan al-wassitiya/ep12 01:05:00}.
+
+## في «الوسطية» — حلقة فتوى الفضائيات
+أدار السويدان حلقة فتوى الفضائيات بعلماء واستطلاعات — ولاحظ مفاجأة أن 15% فقط يرجعون لأعلم الفضائيات مقابل 42% للمجامع {cite:assabile-tareq-al-suwaidan al-wassitiya/ep13 00:32:30} {cite:assabile-tareq-al-suwaidan al-wassitiya/ep13 01:08:30}.
