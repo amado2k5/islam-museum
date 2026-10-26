@@ -286,11 +286,11 @@ lists' own order. Status markers: [ ] queued · [~] in a writer's hands · [x] m
 - [x] Adama Traoré — 1996–Living
 - [x] Iñaki Williams — 1994–Living
 - [x] Nordin Amrabat — 1987–Living
-- [ ] Munir El Haddadi — 1995–Living
-- [ ] Noussair Mazraoui — 1997–Living
-- [ ] Ismaël Bennacer — 1997–Living
-- [ ] Ramy Bensebaini — 1995–Living
-- [ ] Yacine Brahimi — 1990–Living
+- [x] Munir El Haddadi — 1995–Living
+- [x] Noussair Mazraoui — 1997–Living
+- [x] Ismaël Bennacer — 1997–Living
+- [x] Ramy Bensebaini — 1995–Living
+- [x] Yacine Brahimi — 1990–Living
 - [ ] Islam Slimani — 1988–Living
 - [ ] Wahbi Khazri — 1991–Living
 - [ ] Youssef Msakni — 1990–Living

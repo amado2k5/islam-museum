@@ -1,0 +1,39 @@
+id: person/ramy-bensebaini
+class: person
+label: { ar: "رامي بن سبعيني", en: "Ramy Bensebaini", ur: "رامی بن سبعینی" }
+names:
+  - { value: "Amir Selmane Rami Bensebaini", kind: full }
+  - { value: "رامي أمير سلمان بن سبعيني", kind: full }
+  - { value: "Ramy Bensebaini", kind: alternate }
+gender: male
+summary:
+  ar: "لاعب كرة قدم جزائري محترف (وُلد سنة 1995 في قسنطينة)، مدافع تخرّج في أكاديمية بارادو ولعب لرين الفرنسي وبوروسيا مونشنغلادباخ ثم بوروسيا دورتموند منذ 2023، وخاض نحو تسعين مباراة دولية مع الجزائر وفاز بكأس الأمم الأفريقية 2019."
+  en: "Algerian professional footballer (born 1995 in Constantine). A defender who came through the Paradou academy and played for Rennes and Borussia Mönchengladbach before joining Borussia Dortmund in 2023, he has won around ninety caps for Algeria and won the 2019 Africa Cup of Nations with them."
+  ur: "الجزائری پیشہ ور فٹبالر (پیدائش 1995، قسنطینہ)۔ دفاعی کھلاڑی جو پارادو اکیڈمی سے آئے، رین اور بوروسیا منشن گلاڈباخ کے لیے کھیلے اور 2023 میں بوروسیا ڈورٹمنڈ میں شامل ہوئے؛ انہوں نے الجزائر کے لیے تقریباً نوے بین الاقوامی میچ کھیلے اور 2019 افریقہ کپ آف نیشنز جیتا۔"
+roles: [athlete]
+wings: [people, living]
+regions: [maghreb, andalus-europe]
+born:
+  edtf: "1995-04-16"
+  hijri: "1415"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "The English and Arabic articles and Wikidata all give 16 April 1995, born in Constantine, Algeria. Hijri year 1415 derived from the Gregorian date."
+  sources: [source/wikipedia-ramy-bensebaini-en, source/wikipedia-ramy-bensebaini-ar, source/wikidata-ramy-bensebaini]
+relations:
+  - { type: born_in, target: place/constantine, sources: [source/wikipedia-ramy-bensebaini-en, source/wikipedia-ramy-bensebaini-ar] }
+faith:
+  - value: unknown
+    basis: unknown
+    note: "Complete absence: no source says anything at all about Ramy Bensebaini's religion. The English article's text, infobox and categories carry no religion field and no statement of religion; the Arabic article is likewise silent, with no religion field in its infobox; Wikidata (Q17484446) has no religion value at all. With nothing attested anywhere, the value is unknown."
+    sources: [source/wikipedia-ramy-bensebaini-en, source/wikipedia-ramy-bensebaini-ar, source/wikidata-ramy-bensebaini]
+external_ids: { wikidata: "Q17484446" }
+sources: [source/wikipedia-ramy-bensebaini-en, source/wikipedia-ramy-bensebaini-ar, source/wikidata-ramy-bensebaini]
+provenance:
+  layer: own-research
+  source: "English Wikipedia (revision 1381884328 of 25 October 2026), Arabic Wikipedia (revision 76838833 of 2 October 2026) and Wikidata Q17484446, each read in full on 26 October 2026; every article fetched by its recorded revision id and the returned revision asserted equal before any claim was drawn. No earlier record for Bensebaini existed in data/person/ (no hit under 'bensebaini'), and his QID was searched across data/person/ and data/source/ with no hit; this is a new build. RELATION DIRECTION: Ramy Bensebaini was born in Constantine; the birthplace edge is written once, here in his own record, as Ramy Bensebaini born_in place/constantine (the place entity exists in the graph). No other relations are written."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: century-additions-48
+status: { review: published, generated_by: "Muse (Muse Spark 1.3)" }
