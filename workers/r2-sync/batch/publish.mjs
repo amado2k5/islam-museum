@@ -7,7 +7,7 @@
 //
 // The manifest is written after every batch, so a failed run resumes from the
 // batch that failed on the next run. Applying an operation twice is harmless.
-import { readFileSync, readdirSync, statSync, writeFileSync, mkdtempSync, existsSync } from "node:fs";
+import { readFileSync, readdirSync, statSync, writeFileSync, mkdtempSync, existsSync, rmSync } from "node:fs";
 import { fileURLToPath } from "node:url";
 import { createHash } from "node:crypto";
 import { execFileSync } from "node:child_process";
@@ -63,7 +63,9 @@ function walk(dir) {
   });
 }
 
-// key -> { bytes, sha, cacheControl } for every file the site serves from R2
+// key -> { path, sha, md5, cacheControl } for every file the site serves from R2.
+// Only the hashes are kept: holding the bytes of the whole site (about 300,000 files)
+// ran the runner out of memory, so each batch reads its own files when it is packed.
 function desiredFiles() {
   const files = new Map();
   for (const t of activeTargets) {
@@ -72,7 +74,7 @@ function desiredFiles() {
     for (const full of walk(root)) {
       const rel = relative(root, full).split(sep).join("/");
       const bytes = readFileSync(full);
-      files.set(`${t.prefix}/${rel}`, { bytes, sha: sha(bytes), cacheControl: t.cacheControl });
+      files.set(`${t.prefix}/${rel}`, { path: full, sha: sha(bytes), md5: createHash("md5").update(bytes).digest("hex"), cacheControl: t.cacheControl });
     }
   }
   if (files.size === 0) throw new Error("no files to publish: refusing to delete the whole bucket section");
@@ -113,7 +115,7 @@ function listBucket(prefixes) {
 // A stored object whose ETag equals the MD5 of the local file already holds the build's
 // bytes. An ETag is an MD5 only for single-part uploads, which is how the sync Worker
 // writes every file; anything else counts as a difference and is simply uploaded again.
-const sameBytes = (local, etag) => Boolean(local) && createHash("md5").update(local.bytes).digest("hex") === etag;
+const sameBytes = (local, etag) => Boolean(local) && local.md5 === etag;
 
 // Bootstrap when no manifest exists: the bucket already holds the files from an earlier
 // publish. Matching objects are recorded as published, so only different or missing files
@@ -147,12 +149,17 @@ export function reconcile(desired, previous, stored) {
 export function diff(desired, previous) {
   const ops = [];
   for (const [key, f] of desired) {
-    if (previous[key] !== f.sha) ops.push({ op: "COPY", localBytes: f.bytes, dst: key, cacheControl: f.cacheControl });
+    if (previous[key] !== f.sha) ops.push({ op: "COPY", localPath: f.path, dst: key, cacheControl: f.cacheControl });
   }
   for (const key of Object.keys(previous)) {
     if (!desired.has(key)) ops.push({ op: "DELETE", dst: key });
   }
   return ops;
+}
+
+// Reads the bytes of a batch's COPY operations, just before the batch is packed.
+export function loadBatch(batchOps) {
+  return batchOps.map((op) => (op.op === "COPY" ? { ...op, localBytes: readFileSync(op.localPath) } : op));
 }
 
 // Node's AggregateError (from a failed connect across several addresses) has an empty
@@ -168,9 +175,16 @@ async function applyArchive(archive, dir, workerUrl, progress) {
   const file = join(dir, archive.name);
   writeFileSync(file, archive.bytes);
   const stagedKey = `${STAGING_PREFIX}${archive.name}`;
-  await withRetry(archive.name, "staging upload", () => {
-    execFileSync("aws", ["s3", "cp", file, `s3://${bucket}/${stagedKey}`, "--endpoint-url", endpoint, "--only-show-errors"], { stdio: "inherit" });
-  });
+  try {
+    await withRetry(archive.name, "staging upload", () => {
+      execFileSync("aws", ["s3", "cp", file, `s3://${bucket}/${stagedKey}`, "--endpoint-url", endpoint, "--only-show-errors"], { stdio: "inherit" });
+    });
+  } finally {
+    // The Worker reads the staged copy, so the local zip is not needed once it is uploaded.
+    rmSync(file, { force: true });
+  }
+  // Retries below resend only the staged key; drop the archive's bytes now.
+  archive.bytes = null;
   const { status, report } = await postWithRetry(workerUrl, stagedKey, archive.name);
   if (status !== 200) throw new Error(`${archive.name}: worker answered ${status} ${JSON.stringify(report)}`);
   log(`${progress} ${archive.name} via ${workerUrl} in ${Date.now() - started} ms: ${JSON.stringify(report.summary)}`);
@@ -344,7 +358,7 @@ async function main() {
   let applied = 0;
   for (let b = 0; b < batches; b += 1) {
     const batchOps = ops.slice(b * BATCH_OPS, (b + 1) * BATCH_OPS);
-    const archives = packArchives(batchOps, { namePrefix: `publish-${stamp}-b${b}` });
+    const archives = packArchives(loadBatch(batchOps), { namePrefix: `publish-${stamp}-b${b}` });
     const total = archives.length;
     let nextArchive = 0;
     log(`batch ${b + 1}/${batches}: ${batchOps.length} operations in ${total} archives, ${parallel} in parallel across ${workerUrls.length} workers`);
