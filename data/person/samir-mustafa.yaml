@@ -1,0 +1,40 @@
+id: person/samir-mustafa
+class: person
+label: { ar: "سمير مصطفى", en: "Samir Mustafa", ur: "سمیر مصطفیٰ" }
+names:
+  - { value: "سمير بن مصطفى السيوطي", kind: full }
+  - { value: "Samir ibn Mustafa al-Suyuti", kind: full }
+  - { value: "أبو عبد الرحمن", kind: kunya }
+gender: male
+summary:
+  ar: "داعية وواعظ وخطيب مصري من حلوان جنوب القاهرة، وُلد في نحو سنة 1976، عُرف بخطبه وسلاسل دروسه في التزكية وأعمال القلوب من منبر مسجد الحق بحلوان، واعتُقل سنة 2017 وما زال محتجَزا على ذمة قضية لم يُفصَل فيها بحكم."
+  en: "Egyptian preacher and sermon-giver from Helwan, south of Cairo, born in about 1976. He became known for his sermons and lesson series on devotion and the works of the heart from the pulpit of the al-Haqq Mosque in Helwan; he was arrested in 2017 and remains detained in a case in which no verdict has been issued."
+  ur: "قاہرہ کے جنوب میں حلوان سے تعلق رکھنے والے مصری مبلغ و خطیب، جو تقریباً 1976 میں پیدا ہوئے۔ وہ حلوان کی مسجد الحق کے منبر سے تزکیہ و اعمالِ قلوب پر اپنے خطبات اور درسی سلسلوں کے لیے مشہور ہوئے؛ 2017 میں گرفتار ہوئے اور ایک مقدمے میں زیرِ حراست ہیں جس میں اب تک کوئی فیصلہ نہیں آیا۔"
+roles: [preacher]
+wings: [people, living]
+regions: [egypt-nile]
+born:
+  edtf: "1976"
+  hijri: "1396~"
+  calendar: gregorian
+  precision: year
+  status: historical
+  derived: true
+  note: "The Alsiyars biography gives his birth in Egypt in about the year 1976, with no month, day or birthplace city; the year is approximate in the source itself, and the Hijri year is an approximate conversion, marked derived."
+  sources: [source/alsiyars-samir-mustafa]
+relations:
+  - { type: lived_in, target: place/cairo, sources: [source/alsiyars-samir-mustafa] }
+  - { type: student_of, target: person/abu-ishaq-al-heweny, sources: [source/alsiyars-samir-mustafa] }
+  - { type: student_of, target: person/mohamed-hussein-yaqoub, sources: [source/alsiyars-samir-mustafa] }
+faith:
+  - value: unknown
+    basis: unknown
+    note: "FLAGGED (one personal text attestation only). The Alsiyars biography states his madhhab in both its info table and its text — al-Shafi'i — and describes his affiliation as that of an independent Salafi. That is ONE source: no second, independent source consulted names his school, his official channel names none, and his teachers' schools never count. Both readings are preserved here: on a founder ruling that one encyclopedia text attestation suffices, this segment settles as sunni-shafii/documented; under the two-source rule as applied in this lane it stands unknown."
+    sources: [source/alsiyars-samir-mustafa, source/youtube-samir-moustafa]
+sources: [source/alsiyars-samir-mustafa, source/youtube-samir-moustafa]
+provenance:
+  layer: own-research
+  source: "Channel-batch row 31 ('Samir Mustafa', §3 of the handoff list). Identity pinned by the row's Arabic name سمير مصطفى plus the documented biography of the preacher it denotes: Samir ibn Mustafa al-Suyuti of Helwan — filename-fragment sweeps over data/person/ (samir, mustafa) found records only for other bearers, and no Wikipedia article or Wikidata item exists for him (Arabic Wikipedia search and Wikidata wbsearchentities return none; the one Wikidata near-match is a namesake Egyptian poet of an earlier generation). The record is built from the Alsiyars biographical encyclopedia's biography of him (read in full on 26 October 2026; the same encyclopedia is a registered source family in this lane) and his official YouTube channel @samirmoustafa (verified 26 October 2026). Relations are written once here: he is the student in both student_of edges — he read part of Sahih al-Bukhari under Abu Ishaq al-Heweny and kept the company of Mohamed Hussein Yaqoub for ten years; his other named teachers (Hasan Abu al-Ashbal al-Zuhayri, Muhammad Abd al-Maqsud al-Afifi, Ata ibn Abd al-Latif) have no museum records. lived_in points to Cairo, whose governorate contains his home city of Helwan; the museum holds no Helwan place entity."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: modern-figures-batch-71
+status: { review: published, generated_by: "Muse (Muse Spark 1.3)" }
