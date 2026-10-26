@@ -1,0 +1,48 @@
+id: person/jaafar-mahmud-adam
+class: person
+label: { ar: "جعفر محمود آدم", en: "Ja'afar Mahmud Adam", ur: "جعفر محمود آدم" }
+names:
+  - { value: "Ja'afar Mahmud Adam", kind: full }
+  - { value: "Ja'far Mahmud Adam", kind: alternate }
+  - { value: "Sheikh Ja'afar", kind: laqab }
+gender: male
+summary:
+  ar: "عالم نيجيري (1960–2007) من داورا، درس في الجامعة الإسلامية بالمدينة المنورة، وكان عضوا في جماعة إزالة البدعة وإقامة السنة (إزالا) وأشهر واعظي الشمال النيجيري، عُرف بتفسيره الرمضاني السنوي في مايدوغوري وتسجيلات دروسه المنتشرة. اغتيل بالرصاص أثناء صلاة الفجر في مسجده بكانو في 13 أبريل 2007."
+  en: "Nigerian scholar (1960–2007) from Daura who studied at the Islamic University of Madinah. A member of the Izala Society and one of northern Nigeria's best-known preachers, he was famed for his annual Ramadan tafsir in Maiduguri and his widely distributed recorded lessons. He was shot dead during the dawn prayer in his Kano mosque on 13 April 2007."
+  ur: "نائجریائی عالم (1960ء–2007ء)، دورہ سے تعلق، جامعہ اسلامیہ مدینہ منورہ کے فاضل۔ جماعتِ إزالہ کے رکن اور شمالی نائجریا کے مشہور ترین واعظوں میں سے ایک تھے؛ میدوگوری میں ان کی سالانہ رمضان تفسیر اور ریکارڈ شدہ دروس دور دور تک پھیلے۔ 13 اپریل 2007 کو کانو کی اپنی مسجد میں نمازِ فجر کے دوران گولی مار کر شہید کر دیے گئے۔"
+roles: [scholar, preacher]
+wings: [people]
+regions: [west-africa-sahel]
+born:
+  edtf: "1960-02-12"
+  hijri: "1379"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "The English and Arabic articles and Wikidata all give 12 February 1960, at Daura in Katsina State; the Arabic article's categories file him under births of 1379 AH, and the date falls in Ramadan 1379 AH. Brigaglia's scholarly study cited in the English article dates him 'ca. 1961/1962' in its title, a variant preserved here; the day-level date follows the articles and Wikidata. No place entity exists for Daura, so no born_in edge is written."
+  sources: [source/wikipedia-jaafar-mahmud-adam-en, source/wikipedia-jaafar-mahmud-adam-ar, source/wikidata-jaafar-mahmud-adam]
+died:
+  edtf: "2007-04-13"
+  hijri: "1428"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "The English and Arabic articles and Wikidata all give his assassination in Kano on 13 April 2007, shot during the dawn (Subh) prayer in his mosque; the Arabic article's categories file him under deaths of 1428 AH, and the date falls in Rabi' al-awwal 1428 AH."
+  sources: [source/wikipedia-jaafar-mahmud-adam-en, source/wikipedia-jaafar-mahmud-adam-ar, source/wikidata-jaafar-mahmud-adam]
+relations:
+  - { type: died_in, target: place/kano, sources: [source/wikipedia-jaafar-mahmud-adam-en, source/wikipedia-jaafar-mahmud-adam-ar] }
+faith:
+  - value: unknown
+    basis: unknown
+    note: "FLAGGED — the Maliki reading stands one attestation short, for the founder's word (the Dedew / El-Kettani / Daurawa movement-without-school configuration). The English article's text calls the man himself 'a Nigerian Salafi Islamic scholar and a member of the Izala Society', citing Chouin, and the Arabic article's text repeats the same description on the same citation — one family: Salafism is his movement, and there is no salafi value in the enum. A school is named only inside one structured family: the English infobox's denomination 'Salafi, and Sunni' (on the same Chouin citation) and its uncited jurisprudence 'Maliki'; the Arabic infobox gives his religion as Muslim only, its Sunni and Salafi entries being category filings; Wikidata's single religion value is Sunni Islam, plausibly an echo of the English infobox. Two independent sources therefore name no madhhab for him, so the value stays unknown with the Maliki infobox reading preserved here."
+    sources: [source/wikipedia-jaafar-mahmud-adam-en, source/wikipedia-jaafar-mahmud-adam-ar, source/wikidata-jaafar-mahmud-adam]
+external_ids: { wikidata: "Q6109466" }
+sources: [source/wikipedia-jaafar-mahmud-adam-en, source/wikipedia-jaafar-mahmud-adam-ar, source/wikidata-jaafar-mahmud-adam]
+provenance:
+  layer: own-research
+  source: "English Wikipedia 'Ja'afar Mahmud Adam' (revision 1375195587), Arabic Wikipedia 'جعفر محمود آدم' (revision 76497063) and Wikidata item Q6109466 (item revision 2546624183), read via the MediaWiki API on 26 October 2026; every article was fetched by its recorded revision id and the returned id asserted equal before any claim was drawn. Existence was checked by filename fragments under all spellings (jaafar, jafar, adam), by Arabic label, by biography and by the QID route across data/person/ — the many classical Ja'far records are different men and no earlier record of the Nigerian scholar exists. His teacher Ahmad Bamba has no person record (amadou-bamba is a different man) and no group record exists for the Izala Society, so no student_of or member_of edge is written; his influence from Abubakar Gumi is not a student_of relation and is not written as one."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: century-additions-71
+status: { review: published, generated_by: "Muse (Muse Spark 1.3)" }

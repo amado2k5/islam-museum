@@ -1,0 +1,37 @@
+id: person/kabiru-gombe
+class: person
+label: { ar: "محمد كبير هارونا", en: "Kabiru Gombe", ur: "محمد کبیر ہارونا" }
+names:
+  - { value: "Muhammad Kabir Haruna", kind: full }
+  - { value: "Kabiru Gombe", kind: alternate }
+  - { value: "Kabir Muhammad Haruna", kind: alternate }
+gender: male
+summary:
+  ar: "عالم وداعية نيجيري وُلد في يامالتو/ديبا بولاية غومبي. بدأ في مجموعة الإسعافات الشبابية التابعة لجماعة إزالة البدعة وإقامة السنة (إزالا)، ودرس في السعودية، وصار الأمين العام الوطني للجماعة منذ ديسمبر 2011. يُعرف بتفسيره الرمضاني ودروسه في أنحاء نيجيريا وخارجها وبنقده للتصوف والتشيع."
+  en: "Nigerian scholar and preacher born at Yamaltu/Deba in Gombe State. He began in the youth first-aid group of the Izala Society, studied in Saudi Arabia, and has been the society's National Secretary General since December 2011. He is known for his Ramadan tafsir and preaching tours across Nigeria and abroad, and for his criticism of Sufism and Shi'ism."
+  ur: "نائجریائی عالم اور مبلغ، ریاست گومبے کے یامالتو/دیبا میں پیدا ہوئے۔ انھوں نے جماعتِ إزالہ کی نوجوان فرسٹ ایڈ ٹیم سے آغاز کیا، سعودی عرب میں تعلیم حاصل کی، اور دسمبر 2011 سے جماعت کے قومی سیکرٹری جنرل ہیں۔ وہ اپنی رمضان تفسیر، نائجریا اور بیرونِ ملک دعوتی دوروں، اور تصوف و تشیع پر تنقید کے لیے معروف ہیں۔"
+roles: [scholar, preacher]
+wings: [people, living]
+regions: [west-africa-sahel]
+born:
+  edtf: "1969-06-01"
+  hijri: "1389"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "The English article's infobox date template and Wikidata both give 1 June 1969; no other source used gives a birth date — the Hausa article gives none, and the English article is even filed under 'Year of birth missing (living people)' — so the date rests on that one structured family. The queue for this batch gave 1968, which no source supports. The date falls in Rabi' al-awwal 1389 AH; the Hijri year is a conversion. No place entity exists for Yamaltu/Deba or Gombe, so no born_in edge is written."
+  sources: [source/wikipedia-kabiru-gombe-en, source/wikidata-kabiru-gombe]
+faith:
+  - value: unknown
+    basis: unknown
+    note: "FLAGGED — the Maliki reading stands one attestation short, for the founder's word (the Dedew / El-Kettani / Daurawa movement-without-school configuration). The English article's text situates the man personally in the Izala movement — he rose from its youth first-aid group to its National Secretary General — and calls the society 'the largest Salafiyyah movement in Nigeria'; it also records his strong stance against Sufism and Shi'ism and names Malik ibn Anas and Abubakar Gumi among his influences, none of which is an affiliation attestation for a school. A school is named only inside one structured family: the infobox's uncited denomination 'Sunni' and jurisprudence 'Maliki'; Wikidata records Islam only. Two independent sources therefore name no madhhab for him, so the value stays unknown with the Maliki infobox reading preserved here."
+    sources: [source/wikipedia-kabiru-gombe-en, source/wikidata-kabiru-gombe]
+external_ids: { wikidata: "Q91194186" }
+sources: [source/wikipedia-kabiru-gombe-en, source/wikidata-kabiru-gombe]
+provenance:
+  layer: own-research
+  source: "English Wikipedia 'Kabiru Gombe' (revision 1359324433), Hausa Wikipedia 'Kabiru Gombe' (revision 619131, read for the birth-date check; it gives none) and Wikidata item Q91194186 (item revision 2556217884), read via the MediaWiki API on 26 October 2026; every article was fetched by its recorded revision id and the returned id asserted equal before any claim was drawn. Existence was checked by filename fragments under all spellings (gombe, kabiru, kabir, haruna), by Arabic label, by biography and by the QID route across data/person/ — no earlier record exists. No group record exists for the Izala Society and no place entity exists for Gombe, so no member_of or born_in edge is written; his named influences are not teachers of record and no student_of edge is written."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: century-additions-71
+status: { review: published, generated_by: "Muse (Muse Spark 1.3)" }

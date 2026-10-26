@@ -1,0 +1,39 @@
+id: person/sanusi-lamido-sanusi
+class: person
+label: { ar: "سانوسي لاميدو سانوسي", en: "Sanusi Lamido Sanusi", ur: "سانوسی لامیدو سانوسی" }
+names:
+  - { value: "Sanusi Lamido Sanusi", kind: full }
+  - { value: "Muhammadu Sanusi II", kind: regnal }
+  - { value: "Khalifa Sanusi II", kind: laqab }
+gender: male
+summary:
+  ar: "مصرفي واقتصادي نيجيري وُلد في كانو سنة 1961، من أسرة فولانية حاكمة وحفيد الأمير محمد السنوسي الأول. كان محافظا للبنك المركزي النيجيري (2009–2014) وقاد إصلاحات مصرفية واسعة، ثم صار أمير كانو سنة 2014 باسم محمد السنوسي الثاني، فخُلع سنة 2020 وأُعيد سنة 2024. وهو الخليفة الروحي للطريقة التيجانية في نيجيريا منذ 2021."
+  en: "Nigerian banker and economist born in Kano in 1961, of a Fulani ruling family and grandson of Emir Muhammadu Sanusi I. He was Governor of the Central Bank of Nigeria (2009–2014), where he led sweeping banking reforms, then Emir of Kano from 2014 under the regnal name Muhammadu Sanusi II; deposed in 2020, he was reinstated in 2024. Since 2021 he has also been the spiritual leader (khalifa) of the Tijaniyyah order in Nigeria."
+  ur: "نائجریائی بینکار اور ماہرِ معاشیات، 1961 میں کانو میں پیدا ہوئے؛ فلانی حکمران خاندان سے تعلق اور امیر محمد سنوسی اول کے پوتے ہیں۔ وہ نائجریا کے مرکزی بینک کے گورنر رہے (2009ء–2014ء) جہاں انھوں نے وسیع بینکاری اصلاحات کیں، پھر 2014 میں ’محمد سنوسی ثانی‘ کے نام سے امیرِ کانو بنے؛ 2020 میں معزول ہوئے اور 2024 میں بحال کر دیے گئے۔ 2021 سے وہ نائجریا میں سلسلہ تیجانیہ کے روحانی پیشوا (خلیفہ) بھی ہیں۔"
+roles: [banker, economist, ruler, writer]
+wings: [people, living]
+regions: [west-africa-sahel]
+born:
+  edtf: "1961-07-31"
+  hijri: "1381"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "The English and French articles and Wikidata all give 31 July 1961, at Kano. The date falls in Safar 1381 AH; the Hijri year is a conversion."
+  sources: [source/wikipedia-sanusi-lamido-sanusi-en, source/wikipedia-sanusi-lamido-sanusi-fr, source/wikidata-sanusi-lamido-sanusi]
+relations:
+  - { type: born_in, target: place/kano, sources: [source/wikipedia-sanusi-lamido-sanusi-en] }
+faith:
+  - value: unknown
+    basis: unknown
+    note: "FLAGGED — the Tijani reading rests on headship and investiture, for the founder's word (the headship line of waves 69–70: Ahmed Sharif as-Senussi and the Mbacké khalifas stand unknown on office and descent). The English article's text states personally that he 'is the spiritual leader (khalifa) of the Tijanniyah Sufi order in Nigeria', bears the religious title Khalifa Sanusi II, and records that on 10 May 2021 he was appointed khalifa of the order — a position his grandfather had held — and was turbaned in Senegal, citing TheCable; the French article says that as emir he leads Nigeria's Sufi community gathered in the Tijaniyya branch; the English infobox gives tariqa Tijaniyyah and denomination Sunni. That is stronger than descent alone — the khalifate was conferred on him personally, by the order's own leadership, four years after his deposition as emir — but no text used states his own initiation, discipleship or wird in so many words, and the office came to him within his family's line. Under the headship line the value therefore stays unknown, flagged, with the Tijani reading preserved here in full; one founder word settles a sufi segment. His Sunni reading rests on the same single infobox family and is likewise note-only. Wikidata records Islam only."
+    sources: [source/wikipedia-sanusi-lamido-sanusi-en, source/wikipedia-sanusi-lamido-sanusi-fr, source/wikidata-sanusi-lamido-sanusi]
+external_ids: { wikidata: "Q3791488" }
+sources: [source/wikipedia-sanusi-lamido-sanusi-en, source/wikipedia-sanusi-lamido-sanusi-fr, source/wikidata-sanusi-lamido-sanusi]
+provenance:
+  layer: own-research
+  source: "English Wikipedia 'Sanusi Lamido Sanusi' (revision 1380316514), French Wikipedia 'Sanusi Lamido Sanusi' (revision 237599530) and Wikidata item Q3791488 (item revision 2558145418), read via the MediaWiki API on 26 October 2026; every article was fetched by its recorded revision id and the returned id asserted equal before any claim was drawn. Existence was checked by filename fragments under all spellings (sanusi, lamido), by Arabic label, by biography and by the QID route across data/person/ — the Senussi records (muhammad-ibn-ali-al-sanusi, muhammad-al-mahdi-al-sanusi, idris-senussi and family) are the Libyan lineage and al-sanusi is the Andalusi scholar Muhammad ibn Yusuf al-Sanusi; none is this man, whose biography (Kano 1961, central bank, emirate) fixes Q3791488. The successor_of edge to Ado Bayero is NOT written: no person record for Ado Bayero exists in data/person/ at the time of writing, so the succession is stated in the prose and in this note instead."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: century-additions-71
+status: { review: published, generated_by: "Muse (Muse Spark 1.3)" }
