@@ -1,0 +1,37 @@
+id: person/rza
+class: person
+label: { ar: "آر زد إيه", en: "RZA", ur: "آر زیڈ اے" }
+names:
+  - { value: "Robert Fitzgerald Diggs", kind: full }
+  - { value: "روبرت فيتزجيرالد ديغز", kind: full }
+  - { value: "RZA", kind: pen }
+  - { value: "Bobby Digital", kind: pen }
+gender: male
+summary:
+  ar: "مغنّي راب ومنتج أمريكي، اسمه الأصلي روبرت فيتزجيرالد ديغز، وُلد في حيّ براونزفيل ببروكلين في 5 يوليو 1969. أسّس فرقة «وو-تانغ كلان» وقاد إنتاجها، وأصدر ألبومات منفردة باسم «بوبي ديجيتال»، وألّف موسيقى فيلمي «اقتل بيل» (2003–2004)، وأخرج فيلم «الرجل ذو القبضتين الحديديتين» (2012)."
+  en: "American rapper and producer, born Robert Fitzgerald Diggs in the Brownsville neighbourhood of Brooklyn on 5 July 1969. He founded the Wu-Tang Clan and led its production, released solo albums under the alter ego Bobby Digital, composed the scores for Kill Bill: Volume 1 (2003) and Volume 2 (2004), and directed The Man with the Iron Fists (2012)."
+  ur: "امریکی ریپر و پروڈیوسر، اصل نام رابرٹ فٹزجیرالڈ ڈگز، جو 5 جولائی 1969 کو بروکلین کے براؤنزویل محلے میں پیدا ہوئے۔ انہوں نے «وو ٹینگ کلین» کی بنیاد رکھی اور اس کی پروڈکشن کی قیادت کی، «بابی ڈیجیٹل» کے نام سے سولو البم جاری کیے، فلموں «کل بل» (2003–2004) کی موسیقی ترتیب دی، اور فلم «دی مین وتھ دی آئرن فسٹس» (2012) کی ہدایت کاری کی۔"
+roles: [rapper, producer, musician, actor]
+wings: [people, living]
+born:
+  edtf: "1969-07-05"
+  hijri: "1389"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "Born in the Brownsville neighbourhood of Brooklyn, New York City. The Hijri year (1389) is derived by tabular conversion. Brooklyn has no place entity in the museum, so no born_in relation is written."
+  sources: [source/wikipedia-rza-en, source/wikidata-rza]
+faith:
+  - value: unknown
+    basis: unknown
+    note: "The English article describes him as a former member of the Five-Percent Nation (the Nation of Gods and Earths), and reports that in January 2024 he and Cappadonna accompanied Tareef Michael to Mecca and pronounced the shahada at the Grand Mosque there, citing a video post by Michael; Wikidata's religion value remains the Five-Percent Nation. The Five-Percent Nation is a movement, not a legal school (madhhab); the 2024 report rests on a single social-media citation inside one article; and no source names a school for him. His faith is therefore recorded as unknown, with the attestations stated exactly as the sources give them and neither forced into a school value."
+    sources: [source/wikipedia-rza-en, source/wikidata-rza]
+external_ids: { wikidata: "Q52447" }
+sources: [source/wikipedia-rza-en, source/wikipedia-rza-ar, source/wikipedia-rza-ur, source/wikidata-rza]
+provenance:
+  layer: own-research
+  source: "English Wikipedia 'RZA' (revision 1381392704 of 22 October 2026), Arabic Wikipedia «روبرت فيتزجيرالد ديغز» (revision 75980189 of 23 July 2026), Urdu Wikipedia «آر زیڈ اے» (revision 10140057 of 29 April 2026), and Wikidata Q52447 read through the Wikidata API, all checked 26 October 2026. No earlier record existed in data/person/ under any spelling (Diggs/RZA/Bobby Digital variants searched); this is a new build, not an enrichment. No relations are written: Brooklyn has no place entity in the museum, and no group entity exists for the Wu-Tang Clan or the Five-Percent Nation."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: century-additions-26
+status: { review: published, completeness: 3, generated_by: "Muse (Muse Spark 1.3)" }
