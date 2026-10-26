@@ -46,3 +46,12 @@ translators: []
 - **academic view: not yet sourced**: ابھی تک ماخوذ نہیں۔
 - **other view: not yet sourced**: ابھی تک ماخوذ نہیں۔
 :::
+
+## «الوسطیہ» کی قسط — نوجوانوں کا مطالعہ بحران
+«الوسطیہ» کی ایک قسط نے اپنا موضوع نوجوانوں کے مطالعہ بحران کو دیا — «عرب نہیں پڑھتے» یہاں تک کہ ایک لطیفہ ہے کہ تم اپنا جنگی منصوبہ بھی چھاپ سکتے ہو {cite:assabile-tareq-al-suwaidan al-wassitiya/ep19 00:01:30} {cite:assabile-tareq-al-suwaidan al-wassitiya/ep19 00:02:00}۔
+
+### بحران کا حجم اعداد میں
+عرب دنیا کی آبادی کا 5% ہیں مگر اس کی کتب کا صرف 1% پیدا کرتے ہیں؛ عناوین کی گنتی میں 29 بمقابلہ 726؛ اور بیس جرمین سالانہ 140 کتابیں پڑھتے ہیں {cite:assabile-tareq-al-suwaidan al-wassitiya/ep19 00:32:00}۔ عربوں کی اوسط رفتارِ مطالعہ فی منٹ 150 الفاظ ہے بمقابلہ عالمی 200، 75% فہم کے ساتھ {cite:assabile-tareq-al-suwaidan al-wassitiya/ep19 00:52:30} {cite:assabile-tareq-al-suwaidan al-wassitiya/ep19 00:53:00}۔ پینل کا اصول: مہینے میں دو کتابوں سے کم آپ کو «زندگی کے مارجن» پر رکھتا ہے نہ کہ مثقف {cite:assabile-tareq-al-suwaidan al-wassitiya/ep19 00:15:00}۔
+
+### اسباب — مصروفیت نہیں، خراب تحریر
+نوجوانوں نے مصروفیت اور وقت کی کمی کو سب سے کمزور عذر (12%) اور سب سے بڑا سبب عربی تحریر کی خرابی مانا؛ {cite:assabile-tareq-al-suwaidan al-wassitiya/ep19 00:36:30} {cite:assabile-tareq-al-suwaidan al-wassitiya/ep19 00:37:00} اور کتاب کی معیشت سے: ممتاز مصنف اپنی کتاب کی آمدنی کا 14% پاتا ہے جب کہ 86% ناشر، تقسیم کار اور چھپائی کو جاتا ہے {cite:assabile-tareq-al-suwaidan al-wassitiya/ep19 00:41:30} — اور ایک دار کی 60% فروخت صرف سعودی عرب میں ہے {cite:assabile-tareq-al-suwaidan al-wassitiya/ep19 00:41:00}。

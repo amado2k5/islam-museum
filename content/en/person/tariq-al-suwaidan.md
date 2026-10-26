@@ -149,3 +149,6 @@ Al-Suwaidan steered the resistance-versus-terrorism episode, closing with his eq
 
 ## In 'Al-Wasatiyya' — the youth-culture-crisis episode
 Al-Suwaidan steered the youth cultural crisis episode with polls and figures — 71% a real crisis, and the 47%/43% split on the satellites-and-internet effect {cite:assabile-tareq-al-suwaidan al-wassitiya/ep18 00:06:00} {cite:assabile-tareq-al-suwaidan al-wassitiya/ep18 00:35:30} {cite:assabile-tareq-al-suwaidan al-wassitiya/ep18 00:59:00}.
+
+## In 'Al-Wasatiyya' — the reading-crisis episode
+Al-Suwaidan devoted an episode to the youth reading crisis and its figures — 5% of the world and 1% of its books — and a poll finding busyness the weakest excuse (12%) against bad writing {cite:assabile-tareq-al-suwaidan al-wassitiya/ep19 00:32:00} {cite:assabile-tareq-al-suwaidan al-wassitiya/ep19 00:36:30} {cite:assabile-tareq-al-suwaidan al-wassitiya/ep19 00:53:00}.
