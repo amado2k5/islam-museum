@@ -20,3 +20,12 @@ Ibn Ishaq said: the Prophet said to his companions "speak to none of these three
 - Describing the others who stayed behind as hypocrites is Ibn Ishaq's phrasing; none of them is named here.
 - "And neither God nor His Messenger excused them" (p. 175): the verb's vowelling on the page is not settled, and the phrase attaches to the excusers in context; to be reviewed.
 - "Eighty-odd men", the number of the excusers, is on Ka'b's tongue (p. 177).
+
+## For Sprouts
+After Tabuk, three Muslims stayed behind 'without doubt or hypocrisy': Ka'b ibn Malik, Murara ibn al-Rabi' and Hilal ibn Umayya. The Muslims kept away from them for fifty nights, then their repentance was accepted.
+
+## For Explorers
+The Prophet returned to Medina after Tabuk, a band of hypocrites having stayed behind in Ibn Ishaq's account — and three Muslims who stayed back 'without doubt or hypocrisy': Ka'b ibn Malik, Murara ibn al-Rabi' and Hilal ibn Umayya. The Prophet told his Companions 'Do not speak to any of these three'; the laggard hypocrites came swearing and excusing and he pardoned them, and the Muslims kept away from speaking to the three. Ka'b told the story himself through Ibn Ishaq's chain from al-Zuhri: the return and the laggards' excuses, Ka'b's delayed preparations, his truthfulness to the Prophet, the boycott of the three with its episodes — Abu Qatada on the garden wall, the Ghassanid king's letter, the order to keep apart from their wives — then the accepted repentance and Ka'b's vow of truthfulness.
+
+## For Scholars
+The Prophet returned to Medina after Tabuk, a band of hypocrites having stayed behind in Ibn Ishaq's account — and three Muslims who stayed back 'without doubt or hypocrisy': Ka'b ibn Malik, Murara ibn al-Rabi' and Hilal ibn Umayya. Ibn Ishaq says the Prophet told his Companions 'Do not speak to any of these three'; the laggard hypocrites came swearing and excusing and he pardoned them, 'and the Muslims kept apart from speaking to those three men'. The full story is Ka'b ibn Malik's own account through Ibn Ishaq's chain from al-Zuhri: the return and the laggards' excuses, Ka'b's delayed preparations, his truthfulness to the Prophet, the boycott of the three and what happened in it — Abu Qatada on the garden wall, the Ghassanid king's letter, the order to keep apart from their wives — then the accepted repentance and Ka'b's offering of his wealth and vow of truthfulness. Its concepts: repentance, the social boycott, and truthfulness in speech.

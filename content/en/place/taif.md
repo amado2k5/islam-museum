@@ -41,3 +41,12 @@ This page gathers what the museum links to the place: events, people and buildin
 
 ## From the introduction to al-Rahiq al-Makhtum
 [[group/thaqif|Thaqif]] settled al-Ta'if in the distribution of the Adnanite tribes. {cite:mubarakpuri-raheeq p.22} The Arabs took [[object/al-lat|al-Lat]] in al-Ta'if after Manat. {cite:mubarakpuri-raheeq p.35} {cite:mukhtasar-sirat-al-rasul p.12}.
+
+## For Sprouts
+Taif is a mountain city southeast of Mecca. The Prophet visited it in 619 CE seeking support, it was besieged in 630 CE, and the idol al-Lat was demolished there after its opening. Its coordinates are about 21.27 N, 40.42 E.
+
+## For Explorers
+Taif is a mountain city southeast of Mecca, at roughly 21.27 N, 40.42 E. The Prophet visited it in 619 CE on his journey seeking support; it was besieged in 630 CE after Hunayn, and the idol al-Lat was demolished the year it opened. The museum's holdings on it gather the events that took place there — the Prophet's journey to Taif, the battle of Hunayn, the siege of Taif and the demolition of al-Lat — with those born there, those who died there, those who sought it and the community that lived in it.
+
+## For Scholars
+Taif is a mountain city southeast of Mecca, at roughly 21.27 N, 40.42 E. The Prophet visited it in 619 CE on his journey seeking support and refuge; it was besieged in 630 CE in the wake of Hunayn, and the idol al-Lat was demolished the year it opened. The museum's holdings on it gather the four events that took place there — the Prophet's journey to Taif, the battle of Hunayn, the siege of Taif and the demolition of al-Lat — together with those born in it, those who died in it, those who sought it and the community that settled it.

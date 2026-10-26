@@ -25,3 +25,12 @@ Among the Companions, Abu Hurayra and Ibn Abbas transmitted from him. Among the 
 
 ## “Who will be your guarantor of la ilaha illa Allah?”
 Ibn Ishaq reports from Usama that he met [[person/mirdas-ibn-nahik|Mirdas ibn Nahik]] during [[event/raid-of-ghalib-on-banu-murra|the raid of Ghalib ibn Abdullah on the land of Banu Murra]], together with a man from the Ansar. The man said, “I bear witness that there is no god but God,” and they killed him. When they told the Prophet, he said, “O Usama, who will be your guarantor of la ilaha illa Allah?” He kept repeating it until Usama wished that his own Islam had begun on that day and that he had not killed the man. He swore to God that he would never kill a man who said it again. {cite:ibn-hisham-saqqa 4/271}.
+
+## For Sprouts
+Usama ibn Zayd ibn Haritha, 'the dear son of the dear', son of Umm Ayman the Prophet's nursemaid. Born into Islam, he was about twenty when the Prophet died; the Prophet gave him command of a great army but died before it set out, and Abu Bakr dispatched it. He held himself apart from the strife and died in 54 AH.
+
+## For Explorers
+Usama ibn Zayd ibn Haritha al-Kalbi, 'the dear son of the dear', kunyah Abu Muhammad or Abu Zayd, son of Umm Ayman the Prophet's nursemaid. Ibn Sa'd says he was born into Islam and was twenty when the Prophet died — Ibn Abi Khaythama says eighteen. The Prophet gave him command of a great army but died before it set out, and Abu Bakr dispatched it. Umar revered and honored him, preferring him in stipend over his own son Abdullah ibn Umar. He held himself apart from the strife after Uthman's death, living at al-Mizza near Damascus, then Wadi al-Qura, then settling in Medina where he died at al-Jurf in 54 AH on Ibn Abd al-Barr's dating.
+
+## For Scholars
+Usama ibn Zayd ibn Haritha al-Kalbi, 'the dear son of the dear', kunyah Abu Muhammad or Abu Zayd, son of Umm Ayman the Prophet's nursemaid. Ibn Sa'd says Usama was born into Islam and was twenty when the Prophet died; Ibn Abi Khaythama says eighteen. The Prophet gave him command of a great army and died before it set out; Abu Bakr dispatched it. Umar revered and honored him and preferred him in stipend over his own son Abdullah ibn Umar. Usama held himself apart from the strife after Uthman's death until he died late in Mu'awiya's caliphate: he lived at al-Mizza in the Damascus countryside, then returned to Wadi al-Qura, then came down to Medina and died there at al-Jurf — Ibn Abd al-Barr establishing 54 AH.

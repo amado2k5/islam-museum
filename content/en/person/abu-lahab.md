@@ -40,3 +40,12 @@ The Sheikh mentions Abu Lahab as the man about whom revelation came, reports on 
 Sheikh Omar Abdelkafy recounts remarks by Abu Lahab about the Prophet, and notes that his people had known the Prophet for forty years before the mission (needs_source: the exchange is garbled in the automatic transcript, and Abu Lahab's words are not repeated here) {cite:assabile-omar-abdelkafy al-dinu-al-qayem/ep02 00:12:30}.
 
 He recounts that Abu Lahab, the Prophet's uncle, confronted him sharply; the sheikh describes this as an attack made with heat, which is his own judgement, and the Prophet's reply is not clear in the automatic transcript (needs_source) {cite:assabile-omar-abdelkafy al-dinu-al-qayem/ep06 00:34:30}.
+
+## For Sprouts
+Abu Lahab — Abd al-Uzza ibn Abd al-Muttalib — was the Prophet's uncle who publicly turned against him, he and his wife Umm Jamil. The sira records him following the Prophet through Mecca's markets telling people not to believe him, and Surat al-Masad names his household. He died shortly after Badr.
+
+## For Explorers
+Abu Lahab — Abd al-Uzza ibn Abd al-Muttalib — son of Abd al-Muttalib and brother of Abu Talib, the Prophet's uncle who publicly turned against him, he and his wife Umm Jamil; the tradition preserves their hostility until Surat al-Masad named their house — the only sura in the Book aimed at an opponent. The sira records him following Muhammad through Mecca's markets telling people not to believe him, and in the boycott of Banu Hashim he sided against his own clan. He died of illness shortly after Badr, and the tradition reads the sura's fulfillment in him. His story is the starkest example of one house divided: a nephew proclaiming and an uncle renouncing, inside Banu Hashim itself.
+
+## For Scholars
+Abu Lahab — Abd al-Uzza ibn Abd al-Muttalib — son of Abd al-Muttalib and brother of Abu Talib, the Prophet's uncle who publicly turned against him, he and his wife Umm Jamil; the tradition preserves their hostility until Surat al-Masad named their house — the only sura in the Book aimed at an opponent on the commentators' consensus. The sira records him among those nearest the Prophet yet singled out in the story: he followed Muhammad through Mecca's markets telling people not to believe him, and in the boycott of Banu Hashim he sided against his own clan. He died of illness shortly after Badr, and the tradition reads the sura's fulfillment in him. His story is the starkest example of one house divided: a nephew proclaiming and an uncle renouncing, inside Banu Hashim itself.

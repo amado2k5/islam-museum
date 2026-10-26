@@ -16,3 +16,12 @@ He said: I am on the wing of a journey and a state of business — "or as he sai
 ## Source notes and markers of doubt
 - "Or as he said" (p. 173): Ibn Ishaq conveys the sense of the Prophet's words, not their wording with certainty.
 - The book's text does not say anyone was given leave to pray in the mosque before the journey.
+
+## For Sprouts
+The builders of the Dirar mosque asked the Prophet, as he prepared for Tabuk, to pray for them in the mosque they had built; he excused himself by the journey and deferred them to his return. The building is the Dirar mosque, and what came later is the demolition event.
+
+## For Explorers
+The builders of the Dirar mosque came to the Prophet while he was preparing for Tabuk and asked him to pray for them in the mosque they had built. Ibn Ishaq records them saying: 'We built a mosque for the sick and the needy and the rainy night and the wintry night, and we would love you to come and pray in it.' The Prophet excused himself — he was on the wing of a journey and busy, 'or as he said' — and if they returned, God willing, they would come and pray in it. The building is the Dirar mosque; what came later is its demolition, and the text does not say anyone was permitted to pray in it before the journey.
+
+## For Scholars
+The builders of the Dirar mosque came to the Prophet while he was preparing for Tabuk and asked him to pray for them in the mosque they had built. Ibn Ishaq records that the Dirar mosque's people had come to the Prophet saying: 'We built a mosque for the sick and the needy and the rainy night and the wintry night, and we would love you to come and pray in it.' He said he was on the wing of a journey and busy — 'or as he said', Ibn Ishaq conveying the sense of the Prophet's words rather than their exact wording — and if they returned, God willing, they would come and pray in it. The building is the Dirar mosque, and what came later is the demolition event; the text does not say anyone was permitted to pray in it before the journey.

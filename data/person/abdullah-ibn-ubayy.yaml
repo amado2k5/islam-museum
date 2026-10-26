@@ -44,3 +44,8 @@ sources: [source/ibn-ishaq-guillaume, source/ibn-sad-tabaqat-bewley, source/watt
 sensitivity: contested
 status: { review: draft, completeness: 2, generated_by: "Devin; 2026-10-11; run omar-abdelkafy-sharh-ketab-1" }
 provenance: { layer: copyrighted-reference, source: "Assabile, Aadau Al Islam ep01 and ep03 (transcripts pass5-qwen; engine Qwen3-ASR, oddadmix/qwen3-asr-1.7b-arabic-dialectal-v2); the record had no provenance block before this addition", generated_by: "Claude Code (claude-haiku-5-5)", model: claude-haiku-5-5, run: omar-abdelkafy-pilot-qwen-1 }
+
+education:
+  levels: [sprouts, explorers, scholars]
+  flagged_for_kids: true
+  provenance: { generated_by: "Devin", model: "Devin (Cognition)", run: "education-E5-leveled-b4", note: "Leveled texts restated from this record's own prose in ar, en and ur; draft, pending the founder's review and scholar review of the child levels." }
