@@ -216,11 +216,11 @@ lists' own order. Status markers: [ ] queued · [~] in a writer's hands · [x] m
 - [x] Bernard Hopkins — 1965–Living
 - [x] Mike Tyson (Malik Abdul Aziz) — 1966–Living
 - [x] Hasim Rahman — 1972–Living
-- [ ] Nazim Richardson — 1965–2020
-- [ ] Naseem Hamed (Prince Naseem) — 1974–Living
-- [ ] Amir Khan — 1986–Living
-- [ ] Artur Beterbiev — 1985–Living
-- [ ] Islam Makhachev — 1991–Living
+- [x] Nazim Richardson — 1965–2020
+- [x] Naseem Hamed (Prince Naseem) — 1974–Living
+- [x] Amir Khan — 1986–Living
+- [x] Artur Beterbiev — 1985–Living
+- [x] Islam Makhachev — 1991–Living
 - [ ] Khamzat Chimaev — 1994–Living
 - [ ] Belal Muhammad — 1988–Living
 - [ ] Kamaru Usman — 1987–Living
