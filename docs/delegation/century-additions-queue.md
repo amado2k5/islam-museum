@@ -193,11 +193,11 @@ lists' own order. Status markers: [ ] queued · [~] in a writer's hands · [x] m
 - [x] Ahmed Hussen — 1975–Living
 - [x] Yasir Naqvi — 1973–Living
 - [x] Iqra Khalid — 1985–Living
-- [ ] Zubeida Jaffer — 1958–Living
-- [ ] Ebrahim Rasool — 1962–Living
-- [ ] Ahmed Kathrada — 1929–2017
-- [ ] Dullah Omar — 1934–2004
-- [ ] Imtiaz Sooliman — 1962–Living
+- [x] Zubeida Jaffer — 1958–Living
+- [x] Ebrahim Rasool — 1962–Living
+- [x] Ahmed Kathrada — 1929–2017
+- [x] Dullah Omar — 1934–2004
+- [x] Imtiaz Sooliman — 1962–Living
 - [ ] Fatima Meer — 1928–2010
 - [ ] Amina Cachalia — 1930–2013
 - [ ] Yusuf Dadoo — 1909–1983
