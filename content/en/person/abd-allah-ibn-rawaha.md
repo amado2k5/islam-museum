@@ -31,3 +31,12 @@ Abd Allah ibn Rawaha was one of the Ansar of Medina. He attended the Aqaba, Badr
 
 ## His sending to al-Yasir ibn Rizam
 Ibn Ishaq relates that the Prophet sent him with a few of his companions to [[person/al-yasir-ibn-rizam|al-Yasir ibn Rizam]], the Jew of Khaybar, when he learned that he was gathering Ghatafan to attack the Prophet; they lured him down with a promise and then killed him on the road; see [[event/killing-of-al-yasir-ibn-rizam|the account]]. {cite:ibn-hisham-saqqa 4/266}
+
+## For Sprouts
+Abdullah ibn Rawaha the Ansari of Khazraj, kunya Abu Muhammad; he witnessed the Aqaba as a deputy and Badr, Uhud and every witness field but the conquest, and was one of the commanders at Mu'tah.
+
+## For Explorers
+Abdullah ibn Rawaha the Ansari of Khazraj, kunya Abu Muhammad; he witnessed the Aqaba as the deputy of Banu al-Harith ibn al-Khazraj, and witnessed Badr, Uhud, the Trench, Hudaybiyya, Khaybar and the umra of fulfillment and every witness field with the Prophet save the conquest and after — he had fallen before it — and was one of the commanders at Mu'tah. His mother was Kabsha bint Waqid ibn Amr ibn al-Itnaba of Banu al-Harith ibn al-Khazraj, and he was the uncle of al-Nu'man ibn Bashir.
+
+## For Scholars
+Abdullah ibn Rawaha the Ansari of Khazraj, kunya Abu Muhammad, witnessed the Aqaba as a deputy and witnessed Badr, Uhud, the Trench, Hudaybiyya, Khaybar and the umra of fulfillment, and was one of the commanders at Mu'tah. His mother was Kabsha bint Waqid ibn Amr ibn al-Itnaba of Banu al-Harith ibn al-Khazraj, and he was the uncle of al-Nu'man ibn Bashir. He was of those who witnessed the Aqaba, the deputy of Banu al-Harith ibn al-Khazraj, and he witnessed Badr, Uhud, the Trench, Hudaybiyya, Khaybar and the umra of fulfillment and every witness field with the Prophet save the conquest and after, for he had been killed before it.

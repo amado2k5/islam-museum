@@ -33,3 +33,12 @@ The museum's material on this place includes events that took place here: 5; peo
 
 ## What this page covers
 This page gathers what the museum links to the place: events, people and buildings. It is not a full historical description of the place. A description of the place and its history will be added from primary sources in the coming batches.
+
+## For Sprouts
+Mu'tah, a village in southern Jordan, near whose site the Muslims fought a Byzantine army in 629 CE.
+
+## For Explorers
+Mu'tah, a village in southern Jordan, near whose site the Muslims fought a Byzantine army in 629 CE. Its rough coordinates are 31.0925 north, 35.6944 east.
+
+## For Scholars
+Mu'tah, a village in southern Jordan, near whose site the Muslims fought a Byzantine army in 629 CE. Its rough coordinates are 31.0925 north, 35.6944 east.

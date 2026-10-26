@@ -19,3 +19,12 @@ They clapped their hands and said: "Do you want to make the gods a single god?" 
 
 ## For young visitors
 Quraysh's men offered the Prophet's uncle that they would leave the Prophet alone if he said one word. The Prophet said: "Say: there is no god but God." They refused and went away.
+
+## For Sprouts
+Quraysh's chiefs offered the Prophet's uncle to leave the Prophet be if he said one word; the Prophet said 'say there is no god but God', and they refused and left.
+
+## For Explorers
+When Abu Talib's illness grew heavy, Quraysh sent about twenty-five of its chiefs — among them Utba ibn Rabi'a, Shayba, Abu Jahl, Umayya ibn Khalaf and Abu Sufyan — asking him to take from the Prophet a pledge for them and for himself. Abu Talib told the Prophet his people's chiefs wanted to give and take; the Prophet said: 'what if I give you a word by which you would rule the Arabs?' Abu Jahl answered 'we would give you it and ten like it'; the Prophet said: 'you say there is no god but God and cast down what you worship beside Him'. They clapped their hands, asked 'do you mean to make the gods one god?', told one another he would give them nothing of what they wanted, and scattered. On this occasion the opening of Surat Sad was revealed.
+
+## For Scholars
+When Abu Talib's illness grew heavy, Quraysh feared he would die and they would be struck by his nephew after him, so it sent a delegation of its chiefs, about twenty-five men — among them Utba ibn Rabi'a, Shayba, Abu Jahl, Umayya ibn Khalaf and Abu Sufyan — asking Abu Talib to take from the Prophet a pledge for them and for himself. Abu Talib told the Prophet his people's chiefs had gathered to give him and take from him, and the Prophet said: 'what if I give you a word by which you would rule the Arabs and the non-Arabs would serve you?' Abu Jahl said 'what is it? we would give you it and ten like it'; the Prophet said: 'you say there is no god but God and cast down what you worship beside Him'. They clapped their hands and said 'do you mean to make the gods one god?', then told one another he would give them nothing of what they wanted, and scattered. On this occasion the opening of Surat Sad was revealed. The accounts give the word in different phrasings; the book fixes Ibn Ishaq's wording and notes the multiplicity of the texts.
