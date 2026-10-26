@@ -1,0 +1,29 @@
+id: person/noha-alshugairi
+class: person
+label: { ar: "نهى الشقيري", en: "Noha Alshugairi", ur: "نہا الشقيري" }
+names:
+  - { value: "Noha Alshugairi", kind: full }
+  - { value: "نهى الشقيري", kind: full }
+  - { value: "Noha AlShugairi", kind: alternate }
+gender: female
+summary:
+  ar: "معالجة أمريكية مرخّصة في علاج الزواج والأسرة، وصاحبة عيادة «سكينة كاونسلنغ» في مقاطعة أورانج بكاليفورنيا الموجهة للمجتمع المسلم؛ تُدرّس التربية الإسلامية من خلال منهج الانضباط الإيجابي الذي تحمل فيه صفة مدرّبة قيادية معتمدة، وشاركت في تأليف كتاب «التربية الإيجابية في البيت المسلم» (2017)، وتنشر ورشها ومحاضراتها عبر قناة عيادتها على يوتيوب."
+  en: "American licensed marriage and family therapist and the practitioner behind Sakina Counseling, a private practice in Orange County, California serving the Muslim community. She teaches Islamic parenting through Positive Discipline, in which she is a certified lead trainer, co-authored Positive Parenting in the Muslim Home (2017), and publishes her workshops and talks on her practice's YouTube channel."
+  ur: "امریکی مرخص شادی و خاندانی معالجہ اور مقاطعہ اورنج، کیلیفورنیا میں مسلم کمیونٹی کی خدمت کرنے والی نجی عيادت «سکینہ کاؤنسلنگ» کی صاحبہ؛ وہ مثبت نظم و ضبط (پازیٹو ڈسپلن) کے ذریعے اسلامی تربیت پڑھاتی ہیں جس میں وہ مصدقہ لیڈ ٹرینر ہیں، انہوں نے کتاب «پازیٹو پیرنٹنگ ان دی مسلم ہوم» (2017) کی تصنیف میں حصہ لیا، اور اپنی ورکشاپس اور تقاریر اپنی عيادت کے یوٹیوب چینل پر شائع کرتی ہیں۔"
+roles: [teacher, writer]
+wings: [people, living]
+regions: [americas-oceania]
+relations:
+  - { type: born_in, target: place/cairo, sources: [source/sakinacounseling-noha-alshugairi] }
+faith:
+  - value: unknown
+    basis: unknown
+    note: "No consulted source names a madhhab or sect affiliation for her personally. Her own website states that her philosophy is grounded in Islam and that her foundation in the Islamic sciences guides her work, and her doctorate is in Islamic Studies; a practitioner's orientation and field of study are not attestations of a school, so no school is recorded."
+    sources: [source/sakinacounseling-noha-alshugairi, source/youtube-sakina-counseling]
+sources: [source/sakinacounseling-noha-alshugairi, source/youtube-sakina-counseling]
+provenance:
+  layer: own-research
+  source: "Channel-batch row 402 ('Sakina Counseling for Muslim Women'). Existence checks: name-fragment sweeps over data/person/ and data/source/ found no prior record under Alshugairi, Shugairi or Sakina (the only Sakina hits are the historical Sakina bint al-Husayn and a source on Ahmad al-Shugairi, a different person); web and Wikidata searches found no Wikipedia article or Wikidata item for her, so no external_ids are recorded. CHAIN: the row names a platform, Sakina Counseling. The platform's own YouTube channel description states 'Sakina Counseling is the private practice of Noha Alshugairi, Licensed Marriage & Family Therapist', her practice website presents her as its therapist, and the website links to that channel as its own; she is therefore built as the platform's named practitioner and owner. GLOSS DISCREPANCY, FLAGGED: the row's suffix 'for Muslim Women' is narrower than her documented practice, which serves individuals, couples, families and teens across the Muslim community, though her lecturing interests centre on women and family issues; the record follows the documented practice, not the gloss. Her education and career facts are corroborated by the publisher's author biography of her book Positive Parenting in the Muslim Home (Izza Publishing, 2017), a separate text from her website. No birth date is published in any consulted source, so no born block is written. Checked 26 October 2026."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: modern-figures-batch-67
+status: { review: published, generated_by: "Muse (Muse Spark 1.3)" }
