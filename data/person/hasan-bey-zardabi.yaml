@@ -1,0 +1,47 @@
+id: person/hasan-bey-zardabi
+class: person
+label: { ar: "حسن بك زردابي", en: "Hasan bey Zardabi", ur: "حسن بے زردابی" }
+names:
+  - { value: "Hasan bey Salim bey oghlu Malikov", kind: full }
+  - { value: "Həsən bəy Səlim bəy oğlu Məlikov", kind: full }
+  - { value: "Hasan bey Malikov", kind: alternate }
+  - { value: "Gasanbek Zardabi", kind: alternate }
+gender: male
+summary:
+  ar: "صحفي ومربٍّ أذربيجاني (1837–1907)، وُلد باسم ماليكوف؛ أسس سنة 1875 صحيفة «أكينجي» (الفلّاح)، أول صحيفة باللغة الأذربيجانية، وكان من أبرز رموز حركة التنوير عند مسلمي القوقاز، وداعية إلى التعليم الحديث والمسرح الوطني."
+  en: "Azerbaijani journalist, educator and enlightener (1837–1907), born Malikov. In 1875 he founded Akinchi (The Ploughman), the first newspaper in the Azerbaijani language, staged the first Azerbaijani theatrical production, and spent his life campaigning for modern education among the Muslims of the Caucasus."
+  ur: "آذربائیجانی صحافی، ماہرِ تعلیم اور روشن خیال رہنما (1837–1907)، ولدیت کا نام ماليکوف۔ 1875 میں انہوں نے «اکینچی» (کسان) جاری کیا جو آذربائیجانی زبان کا پہلا اخبار تھا؛ قفقاز کے مسلمانوں میں جدید تعلیم کی تحریک کے اہم رہنما رہے۔"
+roles: [writer, teacher, activist]
+wings: [people]
+regions: [persia-central-asia]
+born:
+  edtf: "1837-06-28"
+  hijri: "1253"
+  calendar: gregorian
+  precision: day
+  status: debated
+  derived: true
+  note: "Born at Zardab village in Baku Governorate. The Azerbaijani article gives 28 June 1837 and itself notes that some sources give 1842 (citing the Azerbaijan Soviet Encyclopedia); the Russian article's lead agrees on 28 June 1837, though its biography section gives 12 November 1837, citing Efendi-zade (1961). The English article and its Arabic translation give 28 June 1842, and Wikidata carries both years. The record follows 1837, the year of the Azerbaijani scholarly tradition and of the queue, with the split disclosed. The Hijri year 1253 is the tabular conversion of the recorded date. The museum has no place entity for Zardab, so no born_in edge is written."
+  sources: [source/wikipedia-hasan-bey-zardabi-az, source/wikipedia-hasan-bey-zardabi-ru, source/wikipedia-hasan-bey-zardabi-en, source/wikidata-hasan-bey-zardabi]
+died:
+  edtf: "1907-11-28"
+  hijri: "1325"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "Died at Baku. The Russian article gives 28 November 1907; the English article and its Arabic translation print 15 November 1907, which is the same day in the Old Style calendar then in use in the Russian Empire, and Wikidata carries both values. The record gives the New Style date with the calendar split disclosed. The Hijri year 1325 is the tabular conversion. The museum has no place entity for Baku, so no died_in edge is written."
+  sources: [source/wikipedia-hasan-bey-zardabi-ru, source/wikipedia-hasan-bey-zardabi-en, source/wikidata-hasan-bey-zardabi]
+faith:
+  - value: sunni
+    basis: documented
+    note: "Two independent sources name Sunni Islam for Zardabi himself. The Russian article states, of his confession, that he 'was a Muslim-Sunni', citing the contemporary survey Periodical Press in the Caucasus (Tiflis, 1901, p. 50). Independently, the English article quotes Tadeusz Swietochowski (Russia and Azerbaijan, Cambridge University Press, 1985) describing the circle of contributors to Zardabi's newspaper Akinchi as 'mainly Sunnis like Zardabi'. Neither source names a legal school within Sunni Islam, so the value is recorded as sunni without a madhhab qualifier. His advocacy of secularism and of modern schooling, set out in the prose, is a position he argued, not a counter-attestation of affiliation."
+    sources: [source/wikipedia-hasan-bey-zardabi-ru, source/wikipedia-hasan-bey-zardabi-en]
+external_ids: { wikidata: "Q2275525" }
+sources: [source/wikipedia-hasan-bey-zardabi-en, source/wikipedia-hasan-bey-zardabi-az, source/wikipedia-hasan-bey-zardabi-ru, source/wikipedia-hasan-bey-zardabi-ar, source/wikidata-hasan-bey-zardabi]
+provenance:
+  layer: own-research
+  source: "English Wikipedia 'Hasan bey Zardabi' (revision 1372855046), Azerbaijani Wikipedia 'Həsən bəy Zərdabi' (9000789), Russian Wikipedia 'Зардаби, Гасан-бек' (154702405) and Arabic Wikipedia 'حسن بك زردابي' (76972723, a translation of the English article), all read on 26 October 2026, with Wikidata item Q2275525. The queue gives his years as 1837–1907; the birth year is genuinely split (1837 in the Azerbaijani and Russian articles, 1842 in the English article and some older sources) and is recorded debated at 1837. His faith is recorded sunni/documented on the two independent attestations set out in the faith note."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: century-additions-32
+status: { review: published, completeness: 3, generated_by: "Muse (Muse Spark 1.3)" }
