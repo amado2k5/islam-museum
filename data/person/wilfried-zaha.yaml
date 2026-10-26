@@ -1,0 +1,36 @@
+id: person/wilfried-zaha
+class: person
+label: { ar: "ويلفريد زاها", en: "Wilfried Zaha", ur: "ولفریڈ زاہا" }
+names:
+  - { value: "Dazet Wilfried Armel Zaha", kind: full }
+  - { value: "ويلفريد زاها", kind: full }
+gender: male
+summary:
+  ar: "لاعب كرة قدم عاجي، وُلد في أبيدجان بساحل العاج سنة 1992 ونشأ في إنجلترا. جناح من ناشئي كريستال بالاس، كان آخر صفقات أليكس فيرغسون مع مانشستر يونايتد سنة 2013، ثم عاد إلى بالاس فصار هدّافه التاريخي في الدوري الإنجليزي الممتاز، ولعب لغلطة سراي وتشارلوت. خاض مباراتين وديتين مع إنجلترا ثم اختار منتخب ساحل العاج سنة 2017."
+  en: "Ivorian footballer, born in Abidjan, Ivory Coast in 1992 and raised in England. A Crystal Palace academy winger who was Alex Ferguson's last signing for Manchester United in 2013, then returned to Palace and became the club's record Premier League goalscorer; he later played for Galatasaray and Charlotte FC. He won two friendly caps for England before switching to the Ivory Coast national team in 2017."
+  ur: "آئیوریائی فٹبالر، 1992 میں آئیوری کوسٹ کے عابدجان میں پیدا ہوئے اور انگلستان میں پلے بڑھے۔ کرسٹل پیلس اکیڈمی کے ونگر، 2013 میں مانچسٹر یونائیٹڈ کے لیے ایلکس فرگوسن کی آخری خریداری تھے، پھر پیلس واپس آ کر کلب کے پریمیئر لیگ کے سب سے بڑے گول اسکورر بنے؛ بعد میں غلطہ سرائے اور شارلٹ کے لیے کھیلے۔ انگلستان کے لیے دو دوستانہ میچ کھیلنے کے بعد 2017 میں آئیوری کوسٹ کی قومی ٹیم اختیار کی۔"
+roles: [athlete]
+wings: [people, living]
+regions: [west-africa-sahel, andalus-europe]
+born:
+  edtf: "1992-11-10"
+  hijri: "1413"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "Born 10 November 1992 in Abidjan, Ivory Coast, as given by the English Wikipedia article's infobox and Wikidata Q713711, which agree; he was raised in England from early childhood. No place entity for Abidjan exists in data/place/, so no born_in edge is written. The Hijri year (1413) is derived by tabular conversion."
+  sources: [source/wikipedia-wilfried-zaha-en, source/wikipedia-wilfried-zaha-fr, source/wikipedia-wilfried-zaha-ar, source/wikidata-wilfried-zaha]
+faith:
+  - value: unknown
+    basis: unknown
+    note: "No source read makes any statement of Zaha's religion at all. The English, French and Arabic Wikipedia articles were each read in full: none mentions religion in its text or categories (the only 'Christian' in the English article is another player's name, Christian Benteke). Wikidata Q713711 carries no religion (P140) value. His public statements about faith, where profile coverage reports them, are deliberately general and name no affiliation; none of the sources consulted here carries one, and no affiliation is inferred from coverage, background or upbringing. Under the two-source rule and the doubt rule, no faith value beyond unknown is recorded."
+    sources: [source/wikipedia-wilfried-zaha-en, source/wikipedia-wilfried-zaha-fr, source/wikipedia-wilfried-zaha-ar, source/wikidata-wilfried-zaha]
+external_ids: { wikidata: "Q713711" }
+sources: [source/wikipedia-wilfried-zaha-en, source/wikipedia-wilfried-zaha-fr, source/wikipedia-wilfried-zaha-ar, source/wikidata-wilfried-zaha]
+provenance:
+  layer: own-research
+  source: "English Wikipedia 'Wilfried Zaha' (revision 1368824905 of 11 August 2026), French Wikipedia 'Wilfried Zaha' (revision 240642425 of 23 October 2026), Arabic Wikipedia «ويلفريد زاها» (revision 76866617 of 4 October 2026) and Wikidata Q713711, read on 26 October 2026; each article was fetched by its recorded revision id and the returned revision asserted equal before any claim was drawn. No relation edge is written: his birthplace, Abidjan, has no entity in data/place/. No earlier record for him existed in data/person/ under zaha or any other spelling checked — the only zaha records are for the architect Zaha Hadid, a different person (fragment and QID searches both negative for Q713711); this is a new build, not an enrichment."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: century-additions-45
+status: { review: published, completeness: 2, generated_by: "Muse (Muse Spark 1.3)" }
