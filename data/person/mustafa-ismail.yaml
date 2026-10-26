@@ -1,0 +1,47 @@
+id: person/mustafa-ismail
+class: person
+label: { ar: "مصطفى إسماعيل", en: "Mustafa Ismail", ur: "مصطفی اسماعیل" }
+names:
+  - { value: "مصطفى محمد مرسي إسماعيل", kind: full }
+  - { value: "Mustafa Muhammad Mursi Ismail", kind: full }
+gender: male
+roles: [reciter]
+summary:
+  ar: "قارئ قرآن مصري (1905–1978) وُلد في قرية ميت غزال بالغربية، أتقن المقامات والقراءات، وكان أول قارئ يُسجَّل في الإذاعة المصرية، واختاره الملك فاروق قارئا للقصر الملكي، وقرأ في المسجد الأقصى، وسجّل المصحف كاملا مرتلا، وترك أكثر من 1300 تلاوة ما تزال تُبث."
+  en: "Egyptian Qur'an reciter (1905–1978), born in the village of Mit Gazal in Gharbia. He mastered the maqamat and the recitation modes, was the first reciter recorded by Egyptian Radio without examination, was chosen by King Farouk as reciter of the royal palace, recited at Al-Aqsa Mosque, recorded the whole Qur'an in tartil, and left more than 1,300 recitations still broadcast."
+  ur: "مصری قاریِ قرآن (1905ء–1978ء)، جو غربية کے گاؤں میت غزال میں پیدا ہوئے۔ انہوں نے مقامات اور قراءتوں میں مہارت حاصل کی، مصری ریڈیو میں ریکارڈ ہونے والے پہلے قاری بنے، شاہ فاروق نے انہیں شاہی محل کا قارئ مقرر کیا، مسجد اقصیٰ میں تلاوت کی، پورا قرآن مرتل ریکارڈ کیا اور 1300 سے زائد تلاوتیں چھوڑیں جو آج بھی نشر ہوتی ہیں۔"
+wings: [people]
+regions: [egypt-nile]
+born:
+  edtf: "1905-06-17"
+  hijri: "1323"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: false
+  note: "Born at Mit Gazal, a village near Tanta in Gharbia; the Arabic article pairs 17 June 1905 with Rabi' al-Thani 1323 AH. The museum holds no place entity for Mit Gazal, so the birthplace is carried here and in the prose, with no born_in edge."
+  sources: [source/wikipedia-mustafa-ismail-en, source/wikipedia-mustafa-ismail-ar, source/wikidata-mustafa-ismail]
+died:
+  edtf: "1978-12-26"
+  hijri: "1398"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "Died at Alexandria, at the university hospital, after a cerebral haemorrhage, and was buried at Mit Gazal in accordance with his will (Arabic article). The Hijri year is from the Arabic article's categorisation of his death under 1398 AH."
+  sources: [source/wikipedia-mustafa-ismail-en, source/wikipedia-mustafa-ismail-ar, source/wikidata-mustafa-ismail]
+relations:
+  - { type: died_in, target: place/alexandria, note: "Died at Alexandria (both articles and Wikidata agree). The edge is written here, in his own record, only.", sources: [source/wikipedia-mustafa-ismail-en, source/wikipedia-mustafa-ismail-ar] }
+faith:
+  - value: unknown
+    basis: unknown
+    note: "The English article's embedded infobox gives his religion as Islam and his sect as Sunni; the Arabic article's reciter infobox gives his religion as Islam and his sect as Ahl al-Sunna wa-l-Jama'a; the Urdu article names no school and its infobox stands empty; Wikidata gives only Islam. No article text names a school for him and no madhhab is given anywhere. Two infoboxes and a structured value are one structured tradition, not two independent attestations, so his school is not recorded."
+    sources: [source/wikipedia-mustafa-ismail-en, source/wikipedia-mustafa-ismail-ar, source/wikipedia-mustafa-ismail-ur, source/wikidata-mustafa-ismail]
+external_ids: { wikidata: "Q4116099" }
+sources: [source/wikipedia-mustafa-ismail-en, source/wikipedia-mustafa-ismail-ar, source/wikipedia-mustafa-ismail-ur, source/wikidata-mustafa-ismail]
+status: { review: published, completeness: 2, generated_by: "Muse (Muse Spark 1.3)" }
+provenance:
+  layer: own-research
+  source: "English, Arabic and Urdu Wikipedia articles on Mustafa Ismail and Wikidata item Q4116099, each fetched by its recorded revision id and read in full, the returned revision ids asserted equal to the recorded ones before any claim was drawn."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: century-additions-63

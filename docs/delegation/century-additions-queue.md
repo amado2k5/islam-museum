@@ -361,11 +361,11 @@ lists' own order. Status markers: [ ] queued · [~] in a writer's hands · [x] m
 - [x] Sheikh Abd el-Halim Mahmud — 1910–1978
 - [x] Sheikh Mohamed Siddiq El-Minshawi — 1920–1969
 - [x] Sheikh Mahmoud Khalil Al-Hussary — 1917–1980
-- [ ] Sheikh Mustafa Ismail — 1905–1978
-- [ ] Sheikh Muhammad Rifat — 1882–1950
-- [ ] Sheikh Abdul Rahman Al-Sudais — 1960–Living
-- [ ] Sheikh Saud Al-Shuraim — 1966–Living
-- [ ] Sheikh Saad Al-Ghamdi — 1967–Living
+- [x] Sheikh Mustafa Ismail — 1905–1978
+- [x] Sheikh Muhammad Rifat — 1882–1950
+- [x] Sheikh Abdul Rahman Al-Sudais — 1960–Living
+- [x] Sheikh Saud Al-Shuraim — 1966–Living
+- [x] Sheikh Saad Al-Ghamdi — 1967–Living
 - [ ] Sheikh Ali Jaber — 1953–2005
 - [ ] Sheikh Muhammad Ayyub — 1952–2016
 - [ ] Sheikh Ali Al-Hudhaify — 1947–Living

@@ -1,0 +1,38 @@
+id: person/saud-al-shuraim
+class: person
+label: { ar: "سعود الشريم", en: "Saud Al-Shuraim", ur: "سعود الشریم" }
+names:
+  - { value: "سعود بن إبراهيم بن محمد بن إبراهيم آل شريم", kind: full }
+  - { value: "Saud ibn Ibrahim ibn Muhammad ibn Ibrahim Al Shuraim", kind: full }
+gender: male
+roles: [reciter, scholar, teacher]
+summary:
+  ar: "قارئ وعالم سعودي، إمام وخطيب المسجد الحرام من 1991 حتى اعتزاله سنة 2022. وُلد بالرياض سنة 1966، وحفظ القرآن في شبابه، ونال الماجستير في الفقه المقارن من المعهد العالي للقضاء والدكتوراه من جامعة أم القرى، وعمل قاضيا بالمحكمة الشرعية الكبرى بمكة وأستاذا وعميدا بكليات الشريعة والدراسات القضائية بجامعة أم القرى، وله نحو خمسة عشر مؤلفا."
+  en: "Saudi reciter and scholar, imam and khatib of the Grand Mosque from 1991 until his retirement in 2022. Born at Riyadh in 1966, he memorised the Qur'an in his youth, took a master's in comparative jurisprudence at the Higher Judicial Institute and a doctorate at Umm al-Qura University, served as a judge of the Grand Sharia Court in Mecca and as professor and dean at Umm al-Qura, and wrote some fifteen works."
+  ur: "سعودی قارئ اور عالم، 1991 سے 2022 میں ریٹائرمنٹ تک مسجد حرام کے امام و خطیب رہے۔ 1966 میں ریاض میں پیدا ہوئے، جوانی میں قرآن حفظ کیا، انسیٹی ٹیوٹ آف جوڈیشری سے فقہ مقارن میں ماسٹرز اور جامعہ ام القریٰ سے ڈاکٹریٹ حاصل کی، مکہ کی بڑی شرعی عدالت کے جج اور ام القریٰ میں استاد و ڈین رہے، اور تقریباً پندرہ کتابیں لکھیں۔"
+wings: [people, living]
+regions: [arabia]
+born:
+  edtf: "1966-01-19"
+  hijri: "1386"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: false
+  note: "Born at Riyadh; the Arabic article pairs 1386 AH with 19 January 1966, the English article agrees, and Wikidata agrees. The Urdu infobox gives 19 January 1964 and the Arabic article's categories also file him under 1383 AH and 1965 births — stray values against the three-way agreement, disclosed here. The museum holds no place entity for Riyadh, so no born_in edge is written."
+  sources: [source/wikipedia-saud-al-shuraim-en, source/wikipedia-saud-al-shuraim-ar, source/wikidata-saud-al-shuraim, source/wikipedia-saud-al-shuraim-ur]
+relations:
+  - { type: student_of, target: person/saleh-al-fawzan, note: "The Arabic article's list of his teachers names Salih al-Fawzan, under whom he studied the fiqh of sales at the Higher Judicial Institute in 1410 AH. The edge is written here, in the student's record, only; his other named teachers (Ibn Baz, Ibn Jibrin, Ibn Aqeel, al-Barrak, al-Rajihi, al-Ghudayyan and others) have no records in the museum yet.", sources: [source/wikipedia-saud-al-shuraim-ar] }
+faith:
+  - value: unknown
+    basis: unknown
+    note: "The English article's embedded infobox gives his denomination as Sunni, creed Athari, jurisprudence Hanbali and movement Salafism, all unreferenced; the Arabic infobox gives his religion as Islam, Ahl al-Sunna wa-l-Jama'a, with the fiqh field left empty; the Urdu infobox gives Ahl al-Sunna and school Hanbali; the French infobox gives 'Sunnite, Hanbalite'; the articles' categories file him among Hanbalis and Saudi Salafis; Wikidata gives only Islam. No article text names a school for him personally: the Arabic article records that he read a Hanbali commentary under a teacher and specialised in comparative fiqh, which is formation and teaching, not attestation. One structured tradition throughout, so his school is not recorded."
+    sources: [source/wikipedia-saud-al-shuraim-en, source/wikipedia-saud-al-shuraim-ar, source/wikipedia-saud-al-shuraim-ur, source/wikipedia-saud-al-shuraim-fr, source/wikidata-saud-al-shuraim]
+external_ids: { wikidata: "Q270540" }
+sources: [source/wikipedia-saud-al-shuraim-en, source/wikipedia-saud-al-shuraim-ar, source/wikipedia-saud-al-shuraim-ur, source/wikipedia-saud-al-shuraim-fr, source/wikidata-saud-al-shuraim]
+status: { review: published, completeness: 2, generated_by: "Muse (Muse Spark 1.3)" }
+provenance:
+  layer: own-research
+  source: "English, Arabic, Urdu and French Wikipedia articles on Saud Al-Shuraim and Wikidata item Q270540, each fetched by its recorded revision id and read in full, the returned revision ids asserted equal to the recorded ones before any claim was drawn."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: century-additions-63

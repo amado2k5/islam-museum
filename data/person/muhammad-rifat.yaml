@@ -1,0 +1,50 @@
+id: person/muhammad-rifat
+class: person
+label: { ar: "محمد رفعت", en: "Muhammad Rifat", ur: "محمد رفعت" }
+names:
+  - { value: "محمد بن محمود رفعت", kind: full }
+  - { value: "Muhammad bin Mahmud Rif'at", kind: full }
+  - { value: "قيثارة السماء", kind: laqab }
+  - { value: "Qitharat al-Sama", kind: laqab }
+gender: male
+roles: [reciter]
+summary:
+  ar: "قارئ قرآن مصري (1882–1950) وُلد في حي المغربلين بالقاهرة وفقد بصره صغيرا، وهو أول من قرأ القرآن في الإذاعة المصرية عند افتتاحها سنة 1934، وقارئ مسجد فاضل باشا من 1918 حتى أقعده مرض الحنجرة سنة 1943. لُقّب «قيثارة السماء»، وحفظت أسطوانات زكريا باشا مهران معظم تراثه الصوتي."
+  en: "Egyptian Qur'an reciter (1882–1950), born in Cairo's al-Maghreblin quarter and blinded in early childhood. He was the first to recite the Qur'an on Egyptian Radio at its inauguration in 1934 and was reciter of Fadil Pasha Mosque from 1918 until a throat illness ended his public recitation in 1943. Admirers called him the 'Harp of Heaven', and Zakariyya Pasha Mahran's gramophone discs preserved most of his recorded legacy."
+  ur: "مصری قاریِ قرآن (1882ء–1950ء)، جو قاہرہ کے محلہ مغربلین میں پیدا ہوئے اور بچپن میں بینائی سے محروم ہو گئے۔ وہ 1934 میں مصری ریڈیو کے افتتاح پر قرآن پڑھنے والے پہلے قاری تھے اور 1918 سے جامع فاضل پاشا کے قاری رہے، یہاں تک کہ 1943 میں حلق کی بیماری نے ان کی عوامی تلاوت روک دی۔ انہیں «قیثارۃ السماء» کہا جاتا ہے، اور زکریا پاشا مہران کے گراموفون ریکارڈوں نے ان کا بیشتر صوتی ورثہ محفوظ رکھا۔"
+wings: [people]
+regions: [egypt-nile]
+born:
+  edtf: "1882-05-09"
+  hijri: "1299"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "Born at Darb al-Aghawat in the al-Maghreblin quarter of Cairo. The Hijri year is from the Arabic article's categorisation of his birth under 1299 AH."
+  sources: [source/wikipedia-muhammad-rifat-en, source/wikipedia-muhammad-rifat-ar, source/wikidata-muhammad-rifat]
+died:
+  edtf: "1950-05-09"
+  hijri: "1369"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "Died at Cairo on his sixty-eighth birthday and was buried beside the Sayyida Nafisa Mosque, as he had wished. The Arabic article's death line misprints the Hijri year as 1339; its own categories file him among deaths of 1369 AH, and 9 May 1950 is 22 Rajab 1369 AH, so 1369 is recorded and the misprint disclosed here."
+  sources: [source/wikipedia-muhammad-rifat-en, source/wikipedia-muhammad-rifat-ar, source/wikidata-muhammad-rifat]
+relations:
+  - { type: born_in, target: place/cairo, note: "Born at Cairo (both articles and Wikidata agree). The edge is written here, in his own record, only.", sources: [source/wikipedia-muhammad-rifat-en, source/wikipedia-muhammad-rifat-ar] }
+  - { type: died_in, target: place/cairo, note: "Died at Cairo (both articles and Wikidata agree). The edge is written here, in his own record, only.", sources: [source/wikipedia-muhammad-rifat-en, source/wikipedia-muhammad-rifat-ar] }
+faith:
+  - value: sufi
+    basis: documented
+    note: "Recorded sufi on two independent article texts that attest his personal affiliation to the Naqshbandi Sufi order. The English article's Personal life section states that he 'is described as a follower of the Naqshbandi Sufi tradition', citing Ahram Online; the Arabic article's Personality section describes him in its own words as «زاهداً صوفي النزعة نقشبندي الطريقة» (ascetic, of Sufi inclination, Naqshbandi in tariqa), citing a Tahrir News interview with his granddaughter. Sunni stands only in the two infoboxes (the English denomination field; the Arabic madhhab field, Ahl al-Sunna wa-l-Jama'a), one structured tradition, so no sunni segment is recorded, and no madhhab is named in any text."
+    sources: [source/wikipedia-muhammad-rifat-en, source/wikipedia-muhammad-rifat-ar]
+external_ids: { wikidata: "Q4166061" }
+sources: [source/wikipedia-muhammad-rifat-en, source/wikipedia-muhammad-rifat-ar, source/wikidata-muhammad-rifat]
+status: { review: published, completeness: 2, generated_by: "Muse (Muse Spark 1.3)" }
+provenance:
+  layer: own-research
+  source: "English and Arabic Wikipedia articles on Muhammad Rifat and Wikidata item Q4166061, each fetched by its recorded revision id and read in full, the returned revision ids asserted equal to the recorded ones before any claim was drawn. No Urdu article exists; the Urdu prose is written from the English and Arabic sources."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: century-additions-63
