@@ -1,0 +1,29 @@
+id: person/tamara-gray
+class: person
+label: { ar: "تمارا غراي", en: "Tamara Gray", ur: "تمارا گرے" }
+names:
+  - { value: "تمارا غراي", kind: full }
+  - { value: "Tamara Gray", kind: full }
+  - { value: "Tamara L. Gray", kind: alternate }
+gender: female
+summary:
+  ar: "عالمة ومربية أمريكية، مؤسسة منظمة رابطة التعليمية النسائية في مينيسوتا ورئيستها التنفيذية ورئيسة جامعة رباط التابعة لها؛ قضت عشرين سنة في دمشق تدرس العلوم الإسلامية والقرآن والعربية، وتحمل دكتوراه في القيادة وماجستيرا في نظريات المناهج والتعليم، ولها كتابا «قطرات الفرح» و«مشروع لينا» وترجمات مشتركة لنصوص تراثية."
+  en: "American Islamic scholar and educator, founder and CEO of Rabata, the women's educational nonprofit in Minnesota, and President of its Ribat University. She spent twenty years in Damascus studying Islamic sciences, Quran and Arabic, holds a doctorate in leadership and a master's in Curriculum Theory and Instruction, and is the author of Joy Jots and Project Lina and a co-translator of classical texts."
+  ur: "امریکی مسلمان عالمہ اور معلمہ، مینیسوٹا میں خواتین کی تعلیمی غیر منفعتی تنظیم رابطہ کی بانی و سربراہ اور اس کی رباط یونیورسٹی کی صدر؛ انہوں نے دمشق میں بیس سال اسلامی علوم، قرآن اور عربی کی تعلیم حاصل کی، قیادت میں ڈاکٹریٹ اور نصاب و تعلیم میں ماسٹرز کیا، اور وہ «جوائے جاٹس» اور «پروجیکٹ لینا» کی مصنفہ اور کلاسیکی متون کی شریک مترجم ہیں۔"
+roles: [scholar, teacher, writer]
+wings: [people, living]
+regions: [americas-oceania]
+relations:
+  - { type: lived_in, target: place/damascus, sources: [source/rabata-tamara-gray-bio] }
+faith:
+  - value: unknown
+    basis: unknown
+    note: "No consulted source names a madhhab or sect affiliation for her personally. Rabata's biography gives her twenty years of traditional study in Damascus, her ijazas and her teaching; that is training and institutional work, not a school attestation, and the tradition of her teachers is not hers to inherit in the record. Not recorded as sunni or any school."
+    sources: [source/rabata-tamara-gray-bio, source/youtube-rabata]
+sources: [source/rabata-tamara-gray-bio, source/youtube-rabata]
+provenance:
+  layer: own-research
+  source: "Channel-batch row 308 ('Dr. Tamara Gray (Rabata Official)') resolved to Tamara Gray herself under the no-skip rule: the row names the Rabata YouTube channel, and Rabata's own biography and press materials name her its founder and CEO, so the channel resolves to its FOUNDER. No Wikipedia article and no Wikidata item were found for her (checked 26 October 2026; the Wikidata API was unreachable from this session, so the QID sweep ran through web search and the repo), and no source publishes a birth date, so no born block is written."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: modern-figures-batch-55
+status: { review: published, generated_by: "Muse (Muse Spark 1.3)" }
