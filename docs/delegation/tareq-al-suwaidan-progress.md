@@ -51,7 +51,8 @@ Series `administrative-processus-abilities`: ep01–ep05 written and merged — 
 | al-mubdioune/ep24 | 0:26:35 | yusuf-ibn-tashfin ext ×3 (pt 2 of 2) | — | — | — | person ext | ~24 cited windows | 463f183e6 (PR #2123) |
 | al-mubdioune/ep25 | 0:26:15 | al-razi-abu-bakr ext ×3 | — | — | — | person ext + sources | ~24 cited windows | ee516e342 (PR #2125) |
 | al-mubdioune/ep26 | 0:25:53 | al-farabi ext ×3 | — | — | 1 misquote flagged (death 950->339 AH) | person ext + sources | ~22 cited windows | f8fb680bf (PR #2128) |
-| al-mubdioune/ep27 | 0:26:22 | ibn-sina ext ×3 | — | — | — | person ext + sources | ~30 cited windows | pending |
+| al-mubdioune/ep27 | 0:26:22 | ibn-sina ext ×3 | — | — | — | person ext + sources | ~30 cited windows | 09674745f (PR #2132) |
+| al-mubdioune/ep28 | 0:26:11 | al-ghazali-abu-hamid ext ×3 (pt 1 of N) | — | — | — | person ext + sources | ~28 cited windows | pending |
 
 ## Excluded items (standing rule, founder's instruction, 25 Oct 2026)
 
@@ -76,6 +77,7 @@ Every dropped or left-out item is listed here with item, reason, the gate it fai
 
 - `devin-tareq-al-suwaidan-admin-1` — ep01 of `administrative-processus-abilities` (13 new entities + 1 extension). Course self-dates to ~2007 (mentions the 2007 book *Know How* and the just-announced iPhone).
 - `devin-tareq-al-suwaidan-admin-2` — ep02 (4 new concepts: vision/mission, KPI, LOB/SBU, family businesses [contested: women's-intervention claim, labelled speaker's view + needs_source]).
+- `devin-tareq-al-suwaidan-mubdioune-28` — al-mubdioune ep28 (al-ghazali pt1: closing figure, the praying father, the highwayman's lesson, Nizamiyya/Juwayni 'drowning sea', Baghdad chair at 34, the four-sect quest, doubt, 10-year seclusion, Ihya begun at Dome of the Rock).
 - `devin-tareq-al-suwaidan-mubdioune-27` — al-mubdioune ep27 (ibn-sina ext: Safar 370 birth, rejects Isma'ili family creed, medicine at 16 'not a hard science', Metaphysics 40x -> al-Farabi key, mosque prayer when stuck, Mansur b. Nuh cure -> library, hidden retreat at Ibn Ghalib's, Jubba'i language challenge, medical firsts, education theory, Qanun to 17th c., death 428 self-refusal).
 - `devin-tareq-al-suwaidan-mubdioune-26` — al-mubdioune ep26 (al-farabi ext: Second Teacher, Ibn al-Sarraj/ibn Khaylan, Aristotle trust story, Ibn Sina testimony, Sayf al-Dawla refusal 4 dirhams/day, Madina Fadila + 16 ruler traits, Plato-Aristotle reconciliation, ~40 works of 100+, death Damascus).
 - `devin-tareq-al-suwaidan-mubdioune-25` — al-mubdioune ep25 (al-razi ext: early-learning equation, 20k sheets/year, Mansuri + Tibb Ruhani, Mu'tadidi hospital, jarayat stipends, empirical research, smallpox/measles, Hawi printed 1486, 15-yr Jami', Euclid refuted pre-Ibn al-Haytham, old-woman faith).
