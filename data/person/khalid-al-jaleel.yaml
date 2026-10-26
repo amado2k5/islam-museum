@@ -1,0 +1,36 @@
+id: person/khalid-al-jaleel
+class: person
+label: { ar: "خالد الجليل", en: "Khalid Al-Jaleel", ur: "خالد الجلیل" }
+names:
+  - { value: "خالد بن فهد الجليل المطيري", kind: full }
+  - { value: "Khalid bin Fahd Al-Jaleel Al-Mutairi", kind: full }
+  - { value: "Khalid Al-Jalil", kind: alternate }
+gender: male
+summary:
+  ar: "قارئ قرآن سعودي وُلد في الرياض سنة 1963. حاصل على شهادات في إتقان القراءات العشر وله مصحف كامل مسجل برواية حفص عن عاصم، وهو منذ رمضان 2008 إمام وخطيب مسجد الملك خالد في الرياض."
+  en: "Saudi Qur'an reciter born in Riyadh in 1963. He holds certificates in mastery of the ten Qur'anic readings and has a complete recorded recitation of the Qur'an in the Hafs reading; since Ramadan 2008 he has been imam and khateeb of the King Khalid Mosque in Riyadh."
+  ur: "سعودی قاریِ قرآن، جو 1963ء میں ریاض میں پیدا ہوئے۔ وہ قراءاتِ عشرہ میں مہارت کی اسناد رکھتے ہیں اور روایتِ حفص میں ان کا مکمل مصحف ریکارڈ شدہ ہے؛ رمضان 2008ء سے وہ ریاض کی مسجدِ ملک خالد کے امام و خطیب ہیں۔"
+roles: [reciter]
+wings: [people, living]
+regions: [arabia]
+born:
+  edtf: "1963"
+  hijri: "1382~"
+  calendar: gregorian
+  precision: year
+  status: historical
+  derived: true
+  note: "Year and city from Mawdoo3's biography: born in Riyadh in 1963. The Hijri year is an approximate conversion of the Gregorian year. Riyadh has no place entity in the museum yet (a known gap, also noted on other Riyadh records), so no born_in relation is written."
+  sources: [source/mawdoo3-khalid-al-jaleel-ar]
+faith:
+  - value: unknown
+    basis: unknown
+    note: "No source read names a school, madhhab or creed for him. Mawdoo3 records his recitation certificates, his complete Hafs recording and his imamate at the King Khalid Mosque in Riyadh; an imamate is an office and never attests a school. Not recorded until a source names a school for him."
+    sources: [source/mawdoo3-khalid-al-jaleel-ar]
+sources: [source/mawdoo3-khalid-al-jaleel-ar]
+provenance:
+  layer: own-research
+  source: "Mawdoo3's Arabic article 'Khalid Al-Jaleel (a reciter from the Kingdom of Saudi Arabia)' and its companion short article on the same site (one source family), read in full on 26 October 2026. No Wikipedia article in any language and no Wikidata item exists for him (Arabic, English, Urdu, Indonesian and Malay Wikipedia and Wikidata searched on 26 October 2026; the one Wikidata hit for his name, Q12209895, is a different man, Khalid al-Jalili). His identity is grounded on Mawdoo3's full name (Khalid bin Fahd Al-Jaleel Al-Mutairi), birth in Riyadh in 1963 and his imamate of the King Khalid Mosque in Riyadh since 2008, matching the queue line 'Khalid Al-Jaleel — 1963–Living'."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: century-additions-66
+status: { review: published, generated_by: "Muse (Muse Spark 1.3)" }
