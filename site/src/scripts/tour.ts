@@ -66,6 +66,15 @@ function wireStatic(root: HTMLElement, data: TourData): void {
   // page's own fallback content is what visitors see.
   root.style.display = "block";
 
+  // The tour starts in the look that matches the site theme.
+  const theme = document.documentElement.getAttribute("data-theme");
+  const dark = theme ? theme === "dark" : matchMedia("(prefers-color-scheme: dark)").matches;
+  root.setAttribute("data-look", dark ? "evening" : "day");
+  // Lighter graphics start on when the browser asks to save data or reports little memory.
+  const nav = navigator as Navigator & { connection?: { saveData?: boolean }; deviceMemory?: number };
+  const liteEnter = root.querySelector<HTMLInputElement>("#liteEnter");
+  if (liteEnter) liteEnter.checked = !!nav.connection?.saveData || (nav.deviceMemory !== undefined && nav.deviceMemory <= 2);
+
   const touch = matchMedia("(pointer: coarse)").matches;
   if (touch) {
     document.body.classList.add("touch");
@@ -199,18 +208,46 @@ function init(
   let curWing: Wing = WINGS.find((w) => w.id === "objects")!;
   let EXHIBITS: Exhibit[] = OBJECT_EXHIBITS;
 
+  /* ---------------- looks: daytime and evening ---------------- */
+  type Look = "day" | "evening";
+  interface Palette {
+    bg: number; fog: [number, number]; hemiSky: number; hemiGround: number; hemi: number; sun: number;
+    floor: string; grid: string; gold: string; wall: string; niche: string; band: string; dome: string; rib: string;
+    girih: string; girihFill: string; starHole: string; plaqueBg: string; plaqueFg: string; panelGlow: number;
+    stone: number; hallPed: number; rings: [number, number]; gFloor: number; gWall: number; gCeil: number; back: number; ped: number;
+  }
+  const LOOKS: Record<Look, Palette> = {
+    evening: {
+      bg: 0x0d1b2e, fog: [30, 95], hemiSky: 0xbcd0f0, hemiGround: 0x3a2c18, hemi: 0.55, sun: 1.15,
+      floor: "#1b2b4a", grid: "rgba(212,160,23,.16)", gold: "#d4a017", wall: "#22345c", niche: "#182747", band: "#2a3f6e",
+      dome: "#1d2c4f", rib: "rgba(212,160,23,.4)", girih: "#131e38", girihFill: "rgba(212,160,23,.12)",
+      starHole: "rgba(13,27,46,.9)", plaqueBg: "#0e1830", plaqueFg: "#f5d67b", panelGlow: 0.35,
+      stone: 0x9a8a68, hallPed: 0x8a6f4d, rings: [0x9a7f58, 0x8a6f4d], gFloor: 0x2b3a58, gWall: 0x24345a, gCeil: 0x182442, back: 0x0e1830, ped: 0x6e5b3e,
+    },
+    day: {
+      bg: 0xf1e6cf, fog: [45, 140], hemiSky: 0xfff6e0, hemiGround: 0xb89a6a, hemi: 0.95, sun: 1.5,
+      floor: "#d9c7a3", grid: "rgba(122,86,30,.22)", gold: "#a8741a", wall: "#e6d6b4", niche: "#d2bc92", band: "#c9ad7c",
+      dome: "#efe2c4", rib: "rgba(150,105,30,.45)", girih: "#e9dcbf", girihFill: "rgba(168,116,26,.14)",
+      starHole: "rgba(90,61,12,.85)", plaqueBg: "#f5eedd", plaqueFg: "#5a3d0c", panelGlow: 0.08,
+      stone: 0xd8c8a4, hallPed: 0xb59a70, rings: [0xd6c098, 0xc8b088], gFloor: 0xcdb994, gWall: 0xeadcbf, gCeil: 0xf3ead6, back: 0xd9c6a0, ped: 0xa88c62,
+    },
+  };
+  let look: Look = root.getAttribute("data-look") === "day" ? "day" : "evening";
+  let P: Palette = LOOKS[look];
+  let lite = !!root.querySelector<HTMLInputElement>("#liteEnter")?.checked;
+
   /* ---------------- renderer / scene / camera / lights ---------------- */
   const app = $("#app");
   const renderer = new THREE.WebGLRenderer({ antialias: true });
-  renderer.setPixelRatio(Math.min(devicePixelRatio, 2));
+  renderer.setPixelRatio(lite ? 1 : Math.min(devicePixelRatio, 2));
   renderer.setSize(innerWidth, innerHeight);
-  renderer.shadowMap.enabled = true;
+  renderer.shadowMap.enabled = !lite;
   renderer.shadowMap.type = THREE.PCFSoftShadowMap;
   app.appendChild(renderer.domElement);
 
   const scene = new THREE.Scene();
-  scene.background = new THREE.Color(0x0d1b2e);
-  const fog = new THREE.Fog(0x0d1b2e, 30, 95);
+  scene.background = new THREE.Color(P.bg);
+  const fog = new THREE.Fog(P.bg, P.fog[0], P.fog[1]);
   scene.fog = fog;
 
   const camera = new THREE.PerspectiveCamera(
@@ -221,7 +258,8 @@ function init(
   );
   camera.rotation.order = "YXZ";
 
-  const hemi = new THREE.HemisphereLight(0xbcd0f0, 0x3a2c18, 0.55);
+  const hemi = new THREE.HemisphereLight(P.hemiSky, P.hemiGround, P.hemi);
+  if (lite) hemi.intensity += 0.4;
   scene.add(hemi);
   const sun = new THREE.DirectionalLight(0xffe9b8, 1.15);
   sun.position.set(6, 26, 4);
@@ -235,7 +273,7 @@ function init(
 
   // Shared materials used by several builders.
   const stoneMat = new THREE.MeshStandardMaterial({
-    color: 0x9a8a68,
+    color: P.stone,
     roughness: 0.8,
   });
   const brass = new THREE.MeshStandardMaterial({
@@ -289,6 +327,24 @@ function init(
     draw(c.getContext("2d")!, w, h);
     const tex = new THREE.CanvasTexture(c);
     tex.colorSpace = THREE.SRGBColorSpace;
+    return tex;
+  }
+  // Textures drawn from the palette; a look switch redraws them on the same canvas.
+  const repaints: Array<() => void> = [];
+  function lookTex(
+    w: number,
+    h: number,
+    draw: (g: CanvasRenderingContext2D, w: number, h: number) => void,
+    list: Array<() => void> = repaints
+  ): THREE.CanvasTexture {
+    const tex = canvasTex(w, h, draw);
+    list.push(() => {
+      const g = (tex.image as HTMLCanvasElement).getContext("2d")!;
+      g.setTransform(1, 0, 0, 1, 0, 0);
+      g.clearRect(0, 0, w, h);
+      draw(g, w, h);
+      tex.needsUpdate = true;
+    });
     return tex;
   }
   const FONT = (px: number): string =>
@@ -361,10 +417,10 @@ function init(
     return new THREE.ExtrudeGeometry(s, { depth: 1.1, bevelEnabled: false });
   }
   function girihTexture(): THREE.CanvasTexture {
-    return canvasTex(512, 512, (g, w, h) => {
-      g.fillStyle = "#131e38";
+    return lookTex(512, 512, (g, w, h) => {
+      g.fillStyle = P.girih;
       g.fillRect(0, 0, w, h);
-      g.strokeStyle = "#d4a017";
+      g.strokeStyle = P.gold;
       g.lineWidth = 4;
       const n = 4;
       const s = w / n;
@@ -383,16 +439,16 @@ function init(
           }
           g.closePath();
           g.stroke();
-          g.fillStyle = "rgba(212,160,23,.12)";
+          g.fillStyle = P.girihFill;
           g.fill();
         }
     });
   }
   const girihTex = girihTexture();
-  const domeTex = canvasTex(1024, 512, (g, w, h) => {
-    g.fillStyle = "#1d2c4f";
+  const domeTex = lookTex(1024, 512, (g, w, h) => {
+    g.fillStyle = P.dome;
     g.fillRect(0, 0, w, h);
-    g.strokeStyle = "rgba(212,160,23,.4)";
+    g.strokeStyle = P.rib;
     g.lineWidth = 3;
     for (let i = 0; i <= 32; i++) {
       const x = (i / 32) * w;
@@ -401,7 +457,7 @@ function init(
       g.lineTo(w / 2 + (x - w / 2) * 0.12, h);
       g.stroke();
     }
-    g.strokeStyle = "#d4a017";
+    g.strokeStyle = P.gold;
     g.lineWidth = 6;
     g.beginPath();
     g.arc(w / 2, h, 70, 0, 7);
@@ -453,7 +509,7 @@ function init(
     | { obj: THREE.Object3D; kind: "waypoint"; wp: Waypoint };
   const interact: Interactable[] = [];
   const starMat = new THREE.MeshBasicMaterial({
-    map: canvasTex(256, 256, (g, w, h) => {
+    map: lookTex(256, 256, (g, w, h) => {
       g.translate(w / 2, h / 2);
       g.fillStyle = "rgba(245,214,123,.9)";
       for (const r of [0, Math.PI / 4]) {
@@ -462,7 +518,7 @@ function init(
         g.fillRect(-72, -72, 144, 144);
         g.restore();
       }
-      g.fillStyle = "rgba(13,27,46,.9)";
+      g.fillStyle = P.starHole;
       g.beginPath();
       g.arc(0, 0, 40, 0, Math.PI * 2);
       g.fill();
@@ -481,10 +537,10 @@ function init(
   }
   const HALL_R = 26;
 
-  const floorTex = canvasTex(1024, 1024, (g, w, h) => {
-    g.fillStyle = "#1b2b4a";
+  const floorTex = lookTex(1024, 1024, (g, w, h) => {
+    g.fillStyle = P.floor;
     g.fillRect(0, 0, w, h);
-    g.strokeStyle = "rgba(212,160,23,.16)";
+    g.strokeStyle = P.grid;
     g.lineWidth = 2;
     for (let i = 0; i <= 16; i++) {
       const p = (i / 16) * w;
@@ -499,7 +555,7 @@ function init(
     }
     g.save();
     g.translate(w / 2, h / 2);
-    g.strokeStyle = "#d4a017";
+    g.strokeStyle = P.gold;
     g.lineWidth = 10;
     g.beginPath();
     for (let i = 0; i < 32; i++) {
@@ -532,11 +588,11 @@ function init(
   floor.receiveShadow = true;
   hall.add(floor);
 
-  const wallTex = canvasTex(1024, 256, (g, w, h) => {
-    g.fillStyle = "#22345c";
+  const wallTex = lookTex(1024, 256, (g, w, h) => {
+    g.fillStyle = P.wall;
     g.fillRect(0, 0, w, h);
     for (let x = 0; x < w; x += 128) {
-      g.fillStyle = "#182747";
+      g.fillStyle = P.niche;
       g.beginPath();
       g.moveTo(x + 16, h - 58);
       g.lineTo(x + 16, h - 140);
@@ -545,7 +601,7 @@ function init(
       g.lineTo(x + 112, h - 58);
       g.closePath();
       g.fill();
-      g.strokeStyle = "#d4a017";
+      g.strokeStyle = P.gold;
       g.lineWidth = 3;
       g.stroke();
       g.fillStyle = "rgba(212,160,23,.45)";
@@ -553,7 +609,7 @@ function init(
       g.arc(x + 64, h - 120, 8, 0, 7);
       g.fill();
     }
-    g.fillStyle = "#2a3f6e";
+    g.fillStyle = P.band;
     g.fillRect(0, h - 58, w, 58);
     g.strokeStyle = "rgba(212,160,23,.6)";
     g.lineWidth = 2;
@@ -566,7 +622,7 @@ function init(
       g.closePath();
       g.stroke();
     }
-    g.strokeStyle = "#d4a017";
+    g.strokeStyle = P.gold;
     g.lineWidth = 5;
     g.beginPath();
     g.moveTo(0, 8);
@@ -627,7 +683,7 @@ function init(
   // Central medallion with the museum mark.
   const ped = new THREE.Mesh(
     new THREE.CylinderGeometry(1.6, 2, 1.1, 24),
-    new THREE.MeshStandardMaterial({ color: 0x8a6f4d, roughness: 0.7 })
+    new THREE.MeshStandardMaterial({ color: P.hallPed, roughness: 0.7 })
   );
   ped.position.y = 0.55;
   ped.castShadow = ped.receiveShadow = true;
@@ -676,6 +732,7 @@ function init(
       opacity: 0.55,
     })
   );
+  dust.visible = !lite;
   hall.add(dust);
 
   /* ---------------- the nine wing portals ---------------- */
@@ -713,6 +770,12 @@ function init(
   });
   addStar(hall, { scene: "hall", x: 0, z: 6, yaw: 0 });
 
+  // Materials whose colour comes from the palette.
+  const tints: Array<[THREE.MeshStandardMaterial, (q: Palette) => number]> = [
+    [stoneMat, (q) => q.stone],
+    [ped.material as THREE.MeshStandardMaterial, (q) => q.hallPed],
+  ];
+
   /* ---------------- columns + muqarnas cornice ---------------- */
   {
     const colGeo = new THREE.CylinderGeometry(0.55, 0.68, 9, 12);
@@ -738,13 +801,14 @@ function init(
       const ring = new THREE.Mesh(
         new THREE.CylinderGeometry(r, r - 1.4, 1.1, 48, 1, true),
         new THREE.MeshStandardMaterial({
-          color: i % 2 ? 0x8a6f4d : 0x9a7f58,
+          color: P.rings[i % 2],
           side: THREE.DoubleSide,
           roughness: 0.8,
         })
       );
       ring.position.y = 12.4 - i * 1.05;
       hall.add(ring);
+      tints.push([ring.material as THREE.MeshStandardMaterial, (q) => q.rings[i % 2]]);
     }
   }
 
@@ -758,7 +822,8 @@ function init(
   const G_D = 20;
   const G_H = 8;
   const trimM = new THREE.MeshStandardMaterial({ color: 0xd4a017, emissive: 0x6b4d08, emissiveIntensity: 0.4 });
-  const backM = new THREE.MeshStandardMaterial({ color: 0x0e1830, emissive: 0xd4a017, emissiveIntensity: 0.25 });
+  const backM = new THREE.MeshStandardMaterial({ color: P.back, emissive: 0xd4a017, emissiveIntensity: 0.25 });
+  tints.push([backM, (q) => q.back]);
   // The wing's colour on the cornice trim and the way back.
   function paintGallery(w: Wing): void {
     trimM.color.setHex(w.color);
@@ -770,15 +835,17 @@ function init(
   {
     const gf = new THREE.Mesh(
       new THREE.PlaneGeometry(G_W, G_D),
-      new THREE.MeshStandardMaterial({ color: 0x2b3a58, roughness: 0.6 })
+      new THREE.MeshStandardMaterial({ color: P.gFloor, roughness: 0.6 })
     );
+    tints.push([gf.material as THREE.MeshStandardMaterial, (q) => q.gFloor]);
     gf.rotation.x = -Math.PI / 2;
     gf.receiveShadow = true;
     gallery.add(gf);
     const wallM = new THREE.MeshStandardMaterial({
-      color: 0x24345a,
+      color: P.gWall,
       roughness: 0.9,
     });
+    tints.push([wallM, (q) => q.gWall]);
     const mkWall = (
       w: number,
       h: number,
@@ -798,8 +865,9 @@ function init(
     mkWall(G_D, G_H, G_W / 2, G_H / 2, 0, -Math.PI / 2);
     const ceil = new THREE.Mesh(
       new THREE.PlaneGeometry(G_W, G_D),
-      new THREE.MeshStandardMaterial({ color: 0x182442 })
+      new THREE.MeshStandardMaterial({ color: P.gCeil })
     );
+    tints.push([ceil.material as THREE.MeshStandardMaterial, (q) => q.gCeil]);
     ceil.rotation.x = Math.PI / 2;
     ceil.position.y = G_H;
     gallery.add(ceil);
@@ -908,9 +976,10 @@ function init(
     lamp: buildLamp,
   };
   const pedMat = new THREE.MeshStandardMaterial({
-    color: 0x6e5b3e,
+    color: P.ped,
     roughness: 0.7,
   });
+  tints.push([pedMat, (q) => q.ped]);
   const EX_GAP = 6;
   EXHIBITS.forEach((ex, i) => {
     const x = (i - (EXHIBITS.length - 1) / 2) * EX_GAP;
@@ -941,6 +1010,7 @@ function init(
     interact.push({ obj: hit, kind: "exhibit", ex });
     addStar(objectsRoom, { scene: "gallery", x, z: 2.6, yaw: 0, stop: i });
     const spot = new THREE.SpotLight(0xffe9b8, 60, 12, 0.5, 0.5);
+    spot.visible = !lite;
     spot.position.set(x, 7.4, 1);
     spot.target.position.set(x, 1.6, -2);
     objectsRoom.add(spot, spot.target);
@@ -953,14 +1023,15 @@ function init(
     map: girihTex,
     emissive: 0xffffff,
     emissiveMap: girihTex,
-    emissiveIntensity: 0.35,
+    emissiveIntensity: P.panelGlow,
     roughness: 0.8,
   });
   const SHARED = new Set<unknown>([girihTex, starMat, starGeo, pedMat, frameM, panelM]);
   const texLoader = new THREE.TextureLoader();
+  let roomRepaints: Array<() => void> = [];
   function plaqueTex(text: string, color: number): THREE.CanvasTexture {
-    return canvasTex(1024, 360, (g, w, h) => {
-      g.fillStyle = "#0e1830";
+    return lookTex(1024, 360, (g, w, h) => {
+      g.fillStyle = P.plaqueBg;
       g.fillRect(0, 0, w, h);
       g.strokeStyle = "#" + color.toString(16).padStart(6, "0");
       g.lineWidth = 14;
@@ -968,18 +1039,19 @@ function init(
       let px = 120;
       g.font = FONT(px);
       while (px > 40 && g.measureText(text).width > w - 110) g.font = FONT((px -= 6));
-      g.fillStyle = "#f5d67b";
+      g.fillStyle = P.plaqueFg;
       g.textAlign = "center";
       g.textBaseline = "middle";
       g.direction = lang === "en" ? "ltr" : "rtl";
       g.fillText(text, w / 2, h / 2 + px * 0.08);
-    });
+    }, roomRepaints);
   }
   let hallRoom: THREE.Group | null = null;
   function freeHallRoom(): void {
     if (!hallRoom) return;
     const room = hallRoom;
     hallRoom = null;
+    roomRepaints = [];
     gallery.remove(room);
     for (let i = interact.length - 1; i >= 0; i--) {
       let o: THREE.Object3D | null = interact[i].obj;
@@ -1043,6 +1115,7 @@ function init(
       interact.push({ obj: hit, kind: "exhibit", ex });
       addStar(room, { scene: "gallery", x, z: 2.6, yaw: 0, stop: i });
       const spot = new THREE.SpotLight(0xffe9b8, 60, 12, 0.5, 0.5);
+      spot.visible = !lite;
       spot.position.set(x, 7.4, 1);
       spot.target.position.set(x, ex.art ? 3.4 : 1.6, ex.art ? -G_D / 2 : -2);
       room.add(spot, spot.target);
@@ -1501,16 +1574,57 @@ function init(
   const journeyCard = $("#journeyCard");
 
   let journeyGroup: THREE.Group | null = null;
+  // Museum lighting for the current look; journeys bring their own.
+  function applyLight(): void {
+    (scene.background as THREE.Color).setHex(P.bg);
+    fog.color.setHex(P.bg);
+    fog.near = P.fog[0];
+    fog.far = P.fog[1];
+    sun.intensity = P.sun;
+    hemi.color.setHex(P.hemiSky);
+    hemi.groundColor.setHex(P.hemiGround);
+    // Lighter graphics swap the stop spotlights for brighter even light.
+    hemi.intensity = P.hemi + (lite ? 0.4 : 0);
+  }
+  function setLook(next: Look): void {
+    look = next;
+    P = LOOKS[look];
+    root.setAttribute("data-look", look);
+    lookBtn.setAttribute("aria-pressed", String(look === "day"));
+    for (const [m, pick] of tints) m.color.setHex(pick(P));
+    panelM.emissiveIntensity = P.panelGlow;
+    repaints.forEach((f) => f());
+    roomRepaints.forEach((f) => f());
+    if (!journeyGroup) applyLight();
+  }
+  function setLite(on: boolean): void {
+    lite = on;
+    for (const el of liteBoxes) el.checked = on;
+    renderer.shadowMap.enabled = !on;
+    renderer.setPixelRatio(on ? 1 : Math.min(devicePixelRatio, 2));
+    renderer.setSize(innerWidth, innerHeight);
+    dust.visible = !on;
+    scene.traverse((o) => {
+      if ((o as THREE.SpotLight).isSpotLight) o.visible = !on;
+      const m = (o as THREE.Mesh).material;
+      if (m) (Array.isArray(m) ? m : [m]).forEach((x) => (x.needsUpdate = true));
+    });
+    if (!journeyGroup) applyLight();
+  }
+  const lookBtn = $<HTMLButtonElement>("#lookBtn");
+  lookBtn.setAttribute("aria-pressed", String(look === "day"));
+  listen(lookBtn, "click", (() => setLook(look === "day" ? "evening" : "day")) as EventListener);
+  const liteBoxes = [$<HTMLInputElement>("#liteEnter"), $<HTMLInputElement>("#liteHelp")];
+  for (const el of liteBoxes) {
+    el.checked = lite;
+    listen(el, "change", (() => setLite(el.checked)) as EventListener);
+  }
   function clearJourney(): void {
     if (journeyGroup) {
       scene.remove(journeyGroup);
       journeyGroup = null;
     }
-    fog.color.setHex(0x0d1b2e);
-    fog.near = 30;
-    fog.far = 95;
-    sun.intensity = 1.15;
-    hemi.intensity = 0.55;
+    applyLight();
     journeyCard.classList.remove("show");
   }
 
@@ -1615,6 +1729,26 @@ function init(
     el.classList.add("show");
     window.clearTimeout(toastTimer);
     toastTimer = window.setTimeout(() => el.classList.remove("show"), 5000);
+  }
+
+  // Offer lighter graphics once, with a button, when the first seconds run slowly.
+  function offerLite(): void {
+    const el = $("#toast");
+    el.textContent = "";
+    const span = document.createElement("span");
+    span.textContent = t.lite_offer || "";
+    const b = document.createElement("button");
+    b.type = "button";
+    b.textContent = t.lite_offer_btn || "";
+    b.addEventListener("click", () => {
+      setLite(true);
+      el.classList.remove("show");
+      renderer.domElement.focus({ preventScroll: true });
+    });
+    el.append(span, document.createElement("br"), b);
+    el.classList.add("show");
+    window.clearTimeout(toastTimer);
+    toastTimer = window.setTimeout(() => el.classList.remove("show"), 12000);
   }
 
   function enterPortal(wing: Wing): void {
@@ -1995,6 +2129,8 @@ function init(
         return enterPortal(nearDoor);
       }
     }
+    if (e.code === "KeyL" && !e.altKey && !e.ctrlKey && !e.metaKey && !(e.target as HTMLElement | null)?.closest?.("input"))
+      return setLook(look === "day" ? "evening" : "day");
     if (e.code === "KeyM" && !e.altKey && !e.ctrlKey && !e.metaKey && player.scene !== "journey")
       return mapPanel.classList.contains("show") ? closeMap() : openMap();
     if (onControl && (e.code === "Space" || e.key === "Enter")) return;
@@ -2259,6 +2395,8 @@ function init(
   const clock = new THREE.Clock();
   let raf = 0;
   let firstFrame = true;
+  let fpsWatch = !lite;
+  let fpsFrames = 0;
   function animate(): void {
     raf = requestAnimationFrame(animate);
     const dt = Math.min(clock.getDelta(), 0.05);
@@ -2279,6 +2417,14 @@ function init(
     updatePlayer(dt);
     if (mapPanel.classList.contains("show")) updateMapDot();
     renderer.render(scene, camera);
+    if (fpsWatch && !lite && !document.hidden) {
+      // Measure frames between 1 s and 5 s after the first one.
+      if (tsec > 1) fpsFrames++;
+      if (tsec > 5) {
+        fpsWatch = false;
+        if (fpsFrames / (tsec - 1) < 24) offerLite();
+      }
+    }
     if (firstFrame) {
       firstFrame = false;
       loading.style.display = "none";
