@@ -1,3 +1,10 @@
+---
+id: concept/faqr-al-rumuz-al-nisaiyya
+lang: ur
+source_lang: ar
+translators: ["Devin (SWE-2), draft translation"]
+---
+
 # تاریخ میں خواتین کی علامتوں کی قلت
 
 ## قسط اور سوال

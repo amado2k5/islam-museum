@@ -1,3 +1,10 @@
+---
+id: concept/faqr-al-rumuz-al-nisaiyya
+lang: en
+source_lang: ar
+translators: ["Devin (SWE-2), draft translation"]
+---
+
 # The scarcity of female symbols across history
 
 ## The episode and the question

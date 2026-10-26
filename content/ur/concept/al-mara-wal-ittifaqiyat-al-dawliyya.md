@@ -1,3 +1,10 @@
+---
+id: concept/al-mara-wal-ittifaqiyat-al-dawliyya
+lang: ur
+source_lang: ar
+translators: ["Devin (SWE-2), draft translation"]
+---
+
 # عرب خاتون اور بین الاقوامی معاہدے
 
 ## قسط اور ووٹ
