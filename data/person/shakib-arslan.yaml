@@ -1,0 +1,47 @@
+id: person/shakib-arslan
+class: person
+label: { ar: "شكيب أرسلان", en: "Shakib Arslan", ur: "شکیب ارسلان" }
+names:
+  - { value: "شكيب بن حمود بن حسن بن يونس أرسلان", kind: full }
+  - { value: "Shakib Arslan", kind: full }
+  - { value: "أمير البيان", kind: laqab }
+  - { value: "Amir al-Bayan", kind: laqab }
+gender: male
+summary:
+  ar: "كاتب وشاعر ومؤرخ وسياسي لبناني (1869–1946)، أمير من آل أرسلان، لُقّب «أمير البيان» لغزارة كتابته؛ من دعاة الجامعة الإسلامية والوحدة العربية، قضى سنوات المنفى في جنيف ممثلاً غير رسمي لسورية وفلسطين لدى عصبة الأمم، ومن أشهر كتبه «لماذا تأخر المسلمون وتقدم غيرهم؟»."
+  en: "Lebanese writer, poet, historian and politician (1869–1946), an emir of the Arslan family nicknamed Amir al-Bayan (Prince of Eloquence) for his prolific pen; an advocate of Islamic unity and Arab unity who spent his exile years in Geneva as the unofficial representative of Syria and Palestine to the League of Nations. His best-known book asks why the Muslims declined while others advanced."
+  ur: "لبنانی مصنف، شاعر، مؤرخ اور سیاست دان (1869–1946)، آل ارسلان کے امیر، اپنی پُراثر تحریروں کی وجہ سے «امیر البیان» کہلائے؛ اسلامی وحدت اور عرب وحدت کے داعی، جنہوں نے جلاوطنی کے برس جنیوا میں شام و فلسطین کے غیر سرکاری نمائندے کی حیثیت سے گزارے۔ ان کی مشہور ترین کتاب «لماذا تأخر المسلمون وتقدم غيرهم؟» ہے۔"
+roles: [writer, poet, historian, politician]
+wings: [people]
+regions: [levant-iraq]
+born:
+  edtf: "1869-12-25"
+  hijri: "1286"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "Born at Choueifat, near Beirut (all three articles and Wikidata). No place entity exists for Choueifat, so the birthplace is carried here and in the prose. The Arabic article pairs the date with 1 Ramadan 1286 AH."
+  sources: [source/wikipedia-shakib-arslan-en, source/wikipedia-shakib-arslan-ar, source/wikipedia-shakib-arslan-ur, source/wikidata-shakib-arslan]
+died:
+  edtf: "1946-12-09"
+  hijri: "1366"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "Died on 9 December 1946 (all three articles and Wikidata), three months after returning to Lebanon. The place is disputed: the English article's infobox and Wikidata give Beirut, while the Arabic article's infobox gives Choueifat; no place entity exists for either Beirut or Choueifat in this museum, so no died_in relation is written and the dispute is carried here and in the prose. The Arabic article pairs the date with 15 Muharram 1366 AH."
+  sources: [source/wikipedia-shakib-arslan-en, source/wikipedia-shakib-arslan-ar, source/wikipedia-shakib-arslan-ur, source/wikidata-shakib-arslan]
+faith:
+  - value: sunni
+    basis: documented
+    note: "Recorded as his current affiliation; his Druze birth is background, stated here, not the value. He was born into a Druze family (English article; its short description calls him a Druze prince). The English article, citing William L. Cleveland's biography Islam Against the West (1985, p. 49), states that he later converted to Sunni Islam, 'establishing himself as an orthodox Muslim serving the interests of Sunni Islam' — a personal attestation from an independent scholarly biography. The Urdu article, citing an Arabic biography of Arslan, states independently that he worshipped in the manner of Ahl al-Sunnah; the Arabic article's infobox gives his sect as Ahl al-Sunna wa-l-Jama'a and describes him as formerly Druze, and Wikidata carries both Islam and Druze values. The museum's faith enum has no druze value; the recorded value is the documented current affiliation."
+    sources: [source/wikipedia-shakib-arslan-en, source/wikipedia-shakib-arslan-ur, source/wikipedia-shakib-arslan-ar, source/wikidata-shakib-arslan]
+external_ids: { wikidata: "Q2474371" }
+sources: [source/wikipedia-shakib-arslan-en, source/wikipedia-shakib-arslan-ar, source/wikipedia-shakib-arslan-ur, source/wikidata-shakib-arslan]
+provenance:
+  layer: own-research
+  source: "English, Arabic and Urdu Wikipedia and Wikidata Q2474371, each read at the revision recorded in its source file and checked on 26 October 2026"
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: century-additions-51
+status: { review: published, generated_by: "Muse (Muse Spark 1.3)" }
