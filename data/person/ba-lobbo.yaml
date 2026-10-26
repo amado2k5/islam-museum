@@ -1,0 +1,31 @@
+id: person/ba-lobbo
+class: person
+label: { ar: "با لبو", en: "Ba Lobbo", ur: "با لوبو" }
+names:
+  - { value: "با لبو", kind: full }
+  - { value: "Ba Lobbo", kind: full }
+  - { value: "Baa Lobbo", kind: alternate }
+  - { value: "Balobbo", kind: alternate }
+  - { value: "Bokari Lobbo", kind: alternate }
+gender: male
+summary:
+  ar: "با لبو، ابن أخي شيخو أحمدو مؤسس إمبراطورية ماسينا وقائدها العسكري البارز. رُشح لخلافة عمه عند وفاته سنة 1845 فاختار المجلس ابن المؤسس أحمدو سيكو (أحمدو الثاني)، ورُشح ثانية عند وفاة أحمدو الثاني سنة 1853 فدعم ابن أخيه أحمدو أحمدو (أحمدو الثالث) وصار قائد الجيش. وبعد سقوط حمد الله بيد عمر تال سنة 1862 وإعدام أحمدو الثالث، قاد بقايا قوات ماسينا، فجمع الفولاني والكنتة وطرد عمر تال من حمد الله سنة 1864 إلى جروف دوغون قرب باندياغارا حيث مات عمر، ثم قمع ابن أخيه تيدياني تال مقاومته، وتسرده قوائم الحكام إماما لماسينا في 1863-1867. لا يذكر أي مصدر مقروء تاريخ ولادته ولا وفاته."
+  en: "Ba Lobbo, nephew of Seku Amadu, founder of the Massina Empire, and the empire's able general. Considered as his uncle's successor in 1845, he was passed over by the council for the founder's son Amadu Seku (Amadu II); considered again on Amadu II's death in 1853, he backed his nephew Amadu Amadu (Amadu III) and served as the army's leading general. After Hamdullahi fell to Umar Tall in 1862 and Amadu III was executed, Ba Lobbo led the remaining Massina forces, assembled Fulas and Kountas, and in 1864 drove Umar Tall from Hamdullahi into the Dogon cliffs near Bandiagara, where Umar died; Umar's nephew Tidiani Tall then suppressed his resistance. Ruler lists give him as Massina's almami in 1863–1867. No source read gives his birth or death date."
+  ur: "با لوبو، سلطنتِ ماسینا کے بانی شیکھو احمدو کے بھتیجے اور سلطنت کے مایہ ناز سپہ سالار۔ 1845ء میں چچا کی جانشینی کے امیدوار تھے مگر مجلس نے بانی کے بیٹے احمدو سیکو (احمدو ثانی) کو چنا؛ 1853ء میں احمدو ثانی کی وفات پر دوبارہ امیدوار ہوئے تو اپنے بھتیجے احمدو احمدو (احمدو ثالث) کی حمایت کی اور فوج کے بڑے سالار بنے۔ 1862ء میں حمد اللہ عمر تال کے ہاتھوں گرنے اور احمدو ثالث کے قتل کے بعد انہوں نے ماسینا کی باقی فوج کی قیادت کی، فولانی اور کُنتہ کو جمع کر کے 1864ء میں عمر تال کو حمد اللہ سے نکال کر بانڈیاگارا کے قریب دوگون چٹانوں تک دھکیلا جہاں عمر کی موت واقع ہوئی؛ پھر عمر کے بھتیجے تیدیانی تال نے ان کی مزاحمت کچل دی۔ حکمرانوں کی فہرستیں انہیں 1863ء–1867ء میں ماسینا کا المامی بتاتی ہیں۔ کسی پڑھے گئے ماخذ میں ان کی ولادت یا وفات کی تاریخ نہیں ملتی۔"
+roles: [ruler, general]
+wings: [people]
+relations:
+  - { type: related_to, target: person/seku-amadu, note: "Nephew of Seku Amadu: so the English biographical article expressly, citing Bâ and Daget, L'empire peul du Macina (1975), chapter 2, and so the French article on Seku Amadu ('Balobo, neveu de Sékou Amadou'). The English Massina Empire article's decline narrative loosely calls him Amadu III's brother; the biographical article's sourced nephew relationship is followed and the loose wording is stated here. He did NOT succeed Seku Amadu: he was passed over in 1845 and again in 1853, so no successor_of edge to Seku Amadu is written — that edge would be false.", sources: [source/wikipedia-ba-lobbo-en, source/wikipedia-seku-amadu-fr] }
+  - { type: opposed, target: person/al-hajj-umar-tal, note: "After the fall of Hamdullahi in 1862 Ba Lobbo assembled a force of Fulas and Kountas and drove Umar Tall from Hamdullahi into the cliffs of Dogon country near Bandiagara in 1864, where Umar died; Umar's nephew Tidiani Tall then suppressed Ba Lobbo's resistance.", sources: [source/wikipedia-ba-lobbo-en] }
+faith:
+  - value: unknown
+    basis: unknown
+    note: "No source read names a school, order or affiliation for Ba Lobbo personally. His short English biographical article (resting wholly on Bâ and Daget's L'empire peul du Macina) presents him only as a general and succession figure; the French article on his uncle and the Massina Empire articles add nothing about his own affiliation. That the Massina state he served, and briefly led in its ruins, was a Qadiriyya state is the state's character and his milieu, which by the lane rule never counts as a personal attestation. With no attestation at all — let alone two independent ones — his faith is left unknown under the two-source rule and the doubt rule ('if we have doubt then unclassified'), and that position is stated here in full."
+    sources: [source/wikipedia-ba-lobbo-en, source/wikipedia-massina-empire-en]
+sources: [source/wikipedia-ba-lobbo-en, source/wikipedia-massina-empire-en, source/wikipedia-seku-amadu-fr]
+provenance:
+  layer: own-research
+  source: "English Wikipedia 'Ba Lobbo' (sole cited source Bâ and Daget, L'empire peul du Macina, 1818–1853, 1975), English Wikipedia 'Caliphate of Hamdullahi' (almami list: Ba Lobbo 1863–1867) and French Wikipedia 'Sékou Amadou', all read on 25 October 2026. QUEUE MISMATCH, stated in full: the harvest queue line (§B: 'Ba Lobbo (1820–1890)') gives him the dates 1820–1890, but no source read gives him ANY birth or death date — his biographical article has neither, and no French biographical article on him was found — so the record deliberately carries no born or died block rather than adopting the queue's unsupported dates, which have the same synthetic character the brief warns the century lists carry. The brief's framing of him as Seku Amadu's successor is likewise corrected by the sources: he was considered and passed over in 1845 (for Amadu II) and in 1853 (when he backed Amadu III), led the Massina resistance from 1862 and is listed as almami 1863–1867; a successor_of edge to Amadu III cannot be written because Amadu III (and Amadu II) have no person records yet — flagged for the committer in the writer's report. No Wikidata identifier was verified in this run, so none is recorded."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: century-additions-21
+status: { review: published, completeness: 3, generated_by: "Muse (Muse Spark 1.3)" }

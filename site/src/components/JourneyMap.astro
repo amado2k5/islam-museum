@@ -21,8 +21,9 @@ interface Props {
   doneLabel: string;
   todoLabel: string;
   printLabel: string;
+  listLabel: string;
 }
-const { lang, topics, dilemmas, detective, titleLabel, legendLabel, topicLabel, dilemmaLabel, detectiveLabel, doneLabel, todoLabel, printLabel } = Astro.props;
+const { lang, topics, dilemmas, detective, titleLabel, legendLabel, topicLabel, dilemmaLabel, detectiveLabel, doneLabel, todoLabel, printLabel, listLabel } = Astro.props;
 const W = 26, H = 16, GAP = 2; // tile box
 const rows = (n: number, per: number) => Math.ceil(n / per);
 ---
@@ -50,6 +51,12 @@ const rows = (n: number, per: number) => Math.ceil(n / per);
         ))}
       </svg>
       <p class="ui muted"><span data-jm-count>{zone.items.length}</span></p>
+      <details class="jm-text ui" data-jm-text>
+        <summary>{listLabel}</summary>
+        <ol>
+          {zone.items.map((it) => <li data-jm-key={it.key}>{it.name} <span class="muted" data-jm-state hidden>— {doneLabel}</span></li>)}
+        </ol>
+      </details>
     </section>
   ))}
 </section>
@@ -58,9 +65,6 @@ const rows = (n: number, per: number) => Math.ceil(n / per);
   .jm .jm-chip.jm-on { background:var(--accent,#2a7) }
   .jm rect[data-on] { fill:var(--accent,#2a7) }
   .jm-legend { display:flex; gap:1rem; align-items:center; flex-wrap:wrap }
-  @media print { .jm rect { fill: none; stroke:#999 } .jm rect[data-on] { fill:#9c9 } }
+  @media print { .jm rect { fill: none; stroke:#999 } .jm rect[data-on] { fill:#9c9 } .jm .jm-text:not([open]) > ol { display:block; content-visibility:visible } }
 </style>
-<script type="module">
-  import { initJourneyMap } from "../scripts/journeymap";
-  initJourneyMap();
-</script>
+<script src="../scripts/journeymap.ts"></script>

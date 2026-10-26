@@ -6,6 +6,7 @@ label:
 names:
   - { kind: full, lang: ar, value: أبو بردة بن أبي موسى الأشعري }
 gender: male
+died: { edtf: "0721~", hijri: "0103", calendar: julian, precision: year, status: tradition, derived: true, sources: [source/encyclopaedia-of-islam-2], note: "EI2 also gives 101 AH (722-723 CE); the first account is kept here {cite:encyclopaedia-of-islam-2 vol. 1 p. 742-743}." }
 roles: [scholar]
 traditions: [sunni]
 summary:
@@ -18,7 +19,8 @@ provenance:
   run: lib-jami-ulum-hikam-batch-16
 sources:
 - source/ibn-rajab-jami-ulum-hikam
+- source/encyclopaedia-of-islam-2
 status:
-  review: draft
-  completeness: 1
+  review: published
+  completeness: 3
   generated_by: "Devin (SWE-2 High); narration and the Bit'/Mizr glosses verified against OCR of printed p. 881"

@@ -1,0 +1,52 @@
+id: person/kazi-nazrul-islam
+class: person
+label: { ar: "قاضي نذر الإسلام", en: "Kazi Nazrul Islam", ur: "قاضی نذر الاسلام" }
+names:
+  - { value: "Kazi Nazrul Islam", kind: full }
+  - { value: "قاضي نذر الإسلام", kind: full }
+  - { value: "Nazrul", kind: alternate }
+  - { value: "Dukhu Mia", kind: alternate }
+  - { value: "Bidrohi Kobi", kind: laqab }
+  - { value: "Dhumketu", kind: pen }
+gender: male
+summary:
+  ar: "شاعر وكاتب وموسيقي بنغالي (1899–1976)، لُقّب بـ«الشاعر المتمرد» بعد قصيدته «بيدروهي» (المتمرد) سنة 1922، وهو الشاعر الوطني لبنغلاديش. وُلد في تشوروليا بالبنغال، وتلقى تعليمًا دينيًا وعمل مؤذنًا، وخدم في الجيش البريطاني الهندي، ثم صار صحفيًا في كلكتا حارب الاستعمار بقلمه وسُجن بتهمة التحريض. كتب وغنّى ما يقارب أربعة آلاف أغنية عُرفت بـ«نذر الغيتي»، وفقد صوته وذاكرته بمرض عضال من سنة 1942، وانتقل إلى دكا سنة 1972 وتوفي فيها سنة 1976."
+  en: "Bengali poet, writer and musician (1899–1976), titled the 'Rebel Poet' after his 1922 poem 'Bidrohi' (The Rebel), and national poet of Bangladesh. Born at Churulia in Bengal, he received religious education and worked as a muezzin, served in the British Indian Army, then became a journalist in Calcutta who attacked colonial rule and was jailed for sedition. He wrote and composed nearly 4,000 songs known as Nazrul Geeti, lost his voice and memory to an incurable illness from 1942, moved to Dhaka in 1972, and died there in 1976."
+  ur: "بنگالی شاعر، ادیب اور موسیقار (1899ء–1976ء)، جنھیں ان کی 1922 کی نظم «بیدروہی» (باغی) کے بعد «باغی شاعر» کہا گیا، اور وہ بنگلہ دیش کے قومی شاعر ہیں۔ چورولیا میں پیدا ہوئے، دینی تعلیم پائی اور مؤذن رہے، برطانوی ہندوستانی فوج میں خدمات انجام دیں، پھر کلکتہ میں صحافی بن کر نوآبادیاتی راج کے خلاف لکھا اور بغاوت کے الزام میں قید ہوئے۔ انھوں نے تقریباً چار ہزار گیت لکھے اور ترتیب دیے جو «نذرل گیتی» کہلاتے ہیں، 1942 سے لاعلاج بیماری میں آواز اور حافظہ کھو بیٹھے، 1972 میں ڈھاکہ منتقل ہوئے اور 1976 میں وہیں وفات پائی۔"
+roles: [poet, writer, musician]
+wings: [people]
+born:
+  edtf: "1899-05-24"
+  hijri: "1317"
+  calendar: gregorian
+  precision: day
+  status: debated
+  derived: true
+  note: "Born at Churulia, Asansol, Bengal Presidency, British India. DAY CONFLICT: the English and Arabic Wikipedia articles both give 24 May 1899, and the record follows them; many secondary listings (encyclopaedia mirrors, exam and biography sites) give 25 May 1899. The day is therefore carried as debated. No place entity for Churulia or Asansol exists in data/place/, so no born_in relation is written. The Hijri year (1317) is derived by tabular conversion."
+  sources: [source/wikipedia-kazi-nazrul-islam-en, source/wikipedia-kazi-nazrul-islam-ar, source/wikidata-kazi-nazrul-islam]
+died:
+  edtf: "1976-08-29"
+  hijri: "1396"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "Died on 29 August 1976 in Dhaka, Bangladesh, per both Wikipedia articles. The Hijri year (1396) is derived by tabular conversion."
+  sources: [source/wikipedia-kazi-nazrul-islam-en, source/wikipedia-kazi-nazrul-islam-ar, source/wikidata-kazi-nazrul-islam]
+relations:
+  - { type: died_in, target: place/dhaka, sources: [source/wikipedia-kazi-nazrul-islam-en, source/wikipedia-kazi-nazrul-islam-ar] }
+  - { type: buried_in, target: place/dhaka, sources: [source/wikipedia-kazi-nazrul-islam-en, source/wikipedia-kazi-nazrul-islam-ar] }
+  - { type: lived_in, target: place/dhaka, sources: [source/wikipedia-kazi-nazrul-islam-en] }
+faith:
+  - value: unknown
+    basis: unknown
+    note: "NOT RECORDED AS DOCUMENTED — no two independent sources name his own school. The English article's religious-beliefs section describes him as born a Muslim and as a pluralist who opposed bigotry and fundamentalism, and names no school; the Arabic article names none, and the Wikidata item is not read as a school attestation. Older Wikipedia mirrors and copies of a former philosopher infobox call him 'Sunni' or 'Hanafi Sunni', but those derive from this same Wikipedia article family and count as one source, not two; press reports that he was born into an orthodox Sunni family attest his family's background, not his own school. Under the two-source rule and the founder's doubt rule the faith is left unknown. His devotional writing for both Muslim and Hindu audiences is work, not an attestation of a school."
+    sources: [source/wikipedia-kazi-nazrul-islam-en, source/wikipedia-kazi-nazrul-islam-ar, source/wikidata-kazi-nazrul-islam]
+external_ids: { wikidata: "Q334818" }
+sources: [source/wikipedia-kazi-nazrul-islam-en, source/wikipedia-kazi-nazrul-islam-ar, source/wikidata-kazi-nazrul-islam]
+provenance:
+  layer: own-research
+  source: "English Wikipedia 'Kazi Nazrul Islam' and Arabic Wikipedia «نذر الإسلام», both read in full on 25 October 2026, and Wikidata Q334818 (QID confirmed from Wikidata's Mix'n'match report listing; the item itself is unreachable from this machine through the Wikimedia proxy block). This person is built once, here, for queue §A; he also appears later in queue §B and must not be built again. No earlier record existed in data/person/ under kazi-nazrul-islam, nazrul-islam or any other spelling checked."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: century-additions-17
+status: { review: published, completeness: 3, generated_by: "Muse (Muse Spark 1.3)" }

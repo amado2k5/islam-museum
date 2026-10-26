@@ -53,7 +53,7 @@ export function honorify(html: string, lang: Lang, state: HonState = newHonState
     let t = text.replace(prophet, (x) => {
       if (state.prophet) return x;
       state.prophet = true;
-      return `${x} ﷺ`;
+      return `${x} <span lang="ar">ﷺ</span>`;
     });
     for (const c of companions) {
       if (state.companions.has(c.name)) continue;

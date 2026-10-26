@@ -10,6 +10,7 @@ import { ui, fmt, WINGS, wingHref, NUM_LOCALE, ARABIC_SCRIPT, type Lang } from "
 import { href, graph, labelOf, summaryOf, realNodes } from "../lib/graph";
 import { wingCountLabel, explorePages, num } from "../lib/nav";
 import { featuredPool } from "../../../scripts/wings";
+import { a11yLd } from "../lib/a11y";
 const { lang, path } = Astro.props as { lang: Lang; path: string };
 const T = ui(lang);
 const L = T.learn;
@@ -32,7 +33,7 @@ const featLang = (w: string) => featured[w].g === lang ? {} : { lang: featured[w
 const featJson = JSON.stringify(Object.fromEntries(Object.entries(featured).map(([w, f]) => [w, f.x]))).replace(/</g, "\\u003c");
 const stats = fmt(T.landing.stats, { items: num(realNodes.length, lang), pages: num(Math.round(pages / 1000) * 1000, lang) });
 ---
-<BaseLayout lang={lang} title={T.tagline} path={path} jsonld={{ "@context": "https://schema.org", "@type": "WebSite", name: "islam.museum", url: "https://islam.museum/", inLanguage: ["en", "ar"], license: "https://creativecommons.org/licenses/by-sa/4.0/", sameAs: "https://www.wikidata.org/wiki/Q141801006" }}>
+<BaseLayout lang={lang} title={T.tagline} path={path} jsonld={{ "@context": "https://schema.org", "@type": "WebSite", name: "islam.museum", url: "https://islam.museum/", inLanguage: ["en", "ar"], license: "https://creativecommons.org/licenses/by-sa/4.0/", sameAs: "https://www.wikidata.org/wiki/Q141801006", ...a11yLd(lang) }}>
   <section class="lhero" aria-labelledby="hero-title">
     <Logo size={300} class="lhero-star" variant="mono" alt={T.name} />
     <div class="wrap" style="position:relative">

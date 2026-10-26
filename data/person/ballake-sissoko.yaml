@@ -1,0 +1,35 @@
+id: person/ballake-sissoko
+class: person
+label: { ar: "بالاكي سيسوكو", en: "Ballaké Sissoko", ur: "بالاکے سسوکو" }
+names:
+  - { value: "Ballaké Sissoko", kind: full }
+  - { value: "بالاكي سيسوكو", kind: full }
+gender: male
+summary:
+  ar: "عازف كورا وملحّن مالي من أسرة جلي (غريو)، وُلد في باماكو سنة 1967. خلف أباه في «المجموعة الآلية الوطنية» بمالي وهو في الثالثة عشرة، وذاعت شهرته بدويتو «أوتار قديمة جديدة» (1999) مع توماني دياباتي، ثم بأعماله مع التشيللو الفرنسي فانسان سيغال، وبفرقة 3MA، وبألبومات مثل «جورو» (2021)."
+  en: "Malian kora player and composer from a djeli (griot) family, born at Bamako in 1967. He took his father's place in Mali's Ensemble Instrumental National at thirteen, came to fame with the duet album New Ancient Strings (1999) with Toumani Diabaté, and went on to work with the French cellist Vincent Ségal, the trio 3MA, and albums such as Djourou (2021)."
+  ur: "مالی کے کورا نواز و موسیقی ساز، جو جیلی (گریو) خاندان سے ہیں اور 1967 میں بماکو میں پیدا ہوئے۔ تیرہ سال کی عمر میں اپنے والد کی جگہ مالی کے قومی ساز گروپ میں لی، 1999 میں تومانی دیاباتے کے ساتھ دو گانوں کے البم «نیو اینشینٹ سٹرنگز» سے شہرت پائی، اور پھر فرانسیسی چیلو نواز وینسنٹ سیگال اور سہ رخی گروپ 3MA کے ساتھ کام کیا۔"
+roles: [musician, composer]
+wings: [people, living]
+born:
+  edtf: "1967"
+  hijri: "1387"
+  calendar: gregorian
+  precision: year
+  status: debated
+  derived: true
+  note: "Born at Bamako, Mali. The French Wikipedia article and Wikidata give the year 1967; the English article's lead gives 1968. The record follows 1967 (also the queue's year) and states the conflict; his age of 13 at his father's death in 1981 fits either year. The tabular Hijri conversion is derived: 1967 spans 1386–1387 AH, and 1387 covers the greater part of it. Bamako has no place entity in the museum, so no born_in relation is written."
+  sources: [source/wikipedia-ballake-sissoko-fr, source/wikidata-ballake-sissoko, source/wikipedia-ballake-sissoko-en]
+faith:
+  - value: unknown
+    basis: unknown
+    note: "No source consulted names a religion or a school for him. The English and French Wikipedia articles state none, and Wikidata (Q330419) carries no religion claim at all. His birth into a djeli family, his father's career in a state orchestra, and the Mandé repertoire he plays are background and work, not an attestation of a personal school. Under the two-source rule his faith is recorded as unknown."
+    sources: [source/wikipedia-ballake-sissoko-en, source/wikipedia-ballake-sissoko-fr, source/wikidata-ballake-sissoko]
+external_ids: { wikidata: "Q330419" }
+sources: [source/wikipedia-ballake-sissoko-en, source/wikipedia-ballake-sissoko-fr, source/wikidata-ballake-sissoko]
+provenance:
+  layer: own-research
+  source: "English Wikipedia 'Ballaké Sissoko' (revision 1368686694 of 10 August 2026), French Wikipedia 'Ballaké Sissoko' (revision 232829597 of 28 January 2026), and Wikidata Q330419 read through the Wikidata API, all checked 25 October 2026. No earlier record existed in data/person/ under any spelling (Sissoko/Sissokho and Ballaké/Balake variants searched); this is a new build, not an enrichment. No relations are written: Bamako has no place entity, his father Djelimady Sissoko has no person record, and his duo partner Toumani Diabaté's record is written in the same run without a collaboration predicate being used by this lane."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: century-additions-25
+status: { review: published, completeness: 3, generated_by: "Muse (Muse Spark 1.3)" }

@@ -1,0 +1,53 @@
+id: person/zakaullah-of-dehli
+class: person
+label: { ar: "محمد ذكاء الله الدهلوي", en: "Zakaullah of Dehli", ur: "ذکاء اللہ دہلوی" }
+names:
+  - { value: "Maulvi Mohammad Zakaullah", kind: full }
+  - { value: "Munshi Zakaullah", kind: alternate }
+  - { value: "Zakaullah Dehlvi", kind: alternate }
+  - { value: "مولوی محمد ذکاء اللہ دہلوی", kind: full }
+  - { value: "Munshi", kind: laqab }
+  - { value: "Khan Bahadur", kind: laqab }
+  - { value: "Shams-ul-Ulema", kind: laqab }
+gender: male
+summary:
+  ar: "كاتب ومترجم وأستاذ باللغة الأردية (1832-1910) من دلهي، تلميذ كلية دلهي وأستاذها. ترجم نصوص العلوم والفلسفة الغربية إلى الأردية لرابطة الترجمة العامية ثم للجمعية العلمية التابعة لسيد أحمد خان، وكان من أنصار حركة عليكرة الأوائل، وأنهى خدمته أستاذا في كلية موير المركزية بالله آباد. ألّف «تاريخ هندستان»، مجموع تاريخ الهند في أربعة عشر مجلدا بالأردية، وله مؤلفات كثيرة في التاريخ والأخلاق والعلوم."
+  en: "Urdu writer, translator and professor (1832–1910) of Delhi, educated at Delhi College, where he later taught. He translated Western science, history and philosophy into Urdu for the Vernacular Translation Society and then for Syed Ahmad Khan's Scientific Society, was an early supporter of the Aligarh Movement, and ended his service as professor at Muir Central College, Allahabad. His Tarikh-e-Hindustan is a fourteen-volume history of India in Urdu, among many works on history, ethics and science."
+  ur: "اردو کے مصنف، مترجم اور استاد (1832ء–1910ء) جن کا تعلق دلی سے تھا؛ دلی کالج میں تعلیم پائی اور وہیں پڑھایا بھی۔ انھوں نے مغربی علوم، تاریخ اور فلسفے کے متن اردو میں ترجمہ کیے، سر سید احمد خان کی سائنٹفک سوسائٹی کے لیے کام کیا، علی گڑھ تحریک کے ابتدائی حامی رہے اور میور سنٹرل کالج الٰہ آباد میں پروفیسر کی حیثیت سے ریٹائر ہوئے۔ ان کی «تاریخ ہندستان» اردو میں ہندوستان کی چودہ جلدوں پر مشتمل تاریخ ہے۔"
+roles: [writer, teacher, historian, mathematician]
+wings: [people]
+born:
+  edtf: "1832-04-20"
+  hijri: "1247"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "Born in Delhi on 20 April 1832: the English article and Wikidata agree. The Urdu article gives 1 April 1832 — a variant recorded here. His father Mohammad Sanaullah was tutor to one of the Mughal princes. The Hijri year (1247) is derived by tabular conversion (20 April 1832 falls in Dhu al-Hijja 1247)."
+  sources: [source/wikipedia-zakaullah-of-dehli-en, source/wikipedia-zakaullah-of-dehli-ur, source/wikidata-zakaullah-of-dehli]
+died:
+  edtf: "1910-11-07"
+  hijri: "1328"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "Died at Delhi on 7 November 1910, aged 78: the English and Urdu articles and Wikidata agree. The Hijri year (1328) is derived by tabular conversion (7 November 1910 falls in Dhu al-Qa'da 1328)."
+  sources: [source/wikipedia-zakaullah-of-dehli-en, source/wikipedia-zakaullah-of-dehli-ur, source/wikidata-zakaullah-of-dehli]
+relations:
+  - { type: born_in, target: place/delhi, sources: [source/wikipedia-zakaullah-of-dehli-en] }
+  - { type: died_in, target: place/delhi, sources: [source/wikipedia-zakaullah-of-dehli-en] }
+  - { type: lived_in, target: place/delhi, sources: [source/wikipedia-zakaullah-of-dehli-en] }
+faith:
+  - value: unknown
+    basis: unknown
+    note: "NOT RECORDED AS DOCUMENTED — no fetched source names a school for Zakaullah himself. The English and Urdu articles name no school or affiliation; Wikidata carries no religion claim at all. His teachers included Mamluk Ali Nanautawi — a teacher's school is not the student's attestation — and his translation work for Sir Syed Ahmad Khan's Scientific Society and his early support of the Aligarh Movement are affiliations and milieu, not schools (the lane's near-miss rule). Under the lane's two-source rule and the founder's doubt rule the value stays unknown."
+    sources: [source/wikipedia-zakaullah-of-dehli-en, source/wikipedia-zakaullah-of-dehli-ur, source/wikidata-zakaullah-of-dehli]
+external_ids: { wikidata: "Q6811881" }
+sources: [source/wikipedia-zakaullah-of-dehli-en, source/wikipedia-zakaullah-of-dehli-ur, source/wikidata-zakaullah-of-dehli]
+provenance:
+  layer: own-research
+  source: "English Wikipedia 'Zakaullah Dehlvi', rev. 1372305607 of 31 August 2026; Urdu Wikipedia «ذکاء اللہ دہلوی», rev. 6031439 of 9 February 2024 (birth day differs: 1 April against 20 April); Wikidata Q6811881 read via the API. No Arabic Wikipedia article exists for him (only an Egyptian-Arabic stub link). All read in full on 25 October 2026."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: century-additions-18
+status: { review: published, completeness: 3, generated_by: "Muse (Muse Spark 1.3)" }

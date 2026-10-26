@@ -20,7 +20,7 @@ She has written columns for the Huffington Post, and was an Islam section staff 
 - *Healing the Emptiness: A Guide to emotional and spiritual well-being*. {cite:wikipedia-yasmin-mogahed-en}
 
 ## Impact and audience
-Her lectures and books address a wide English-speaking Muslim audience on spirituality, emotional well-being and personal development, and the encyclopedia describes her as internationally known for her motivational lectures. {cite:wikipedia-yasmin-mogahed-en}
+Her lectures and books address a wide English-speaking Muslim audience on spirituality, emotional well-being and personal development, and the encyclopedia describes her as internationally known for her motivational lectures. {cite:wikipedia-yasmin-mogahed-en} Her own YouTube channel, @YasminMogahedOnline, carries her lectures and had about 467,000 subscribers in October 2026, a dated platform figure. {cite:youtube-yasminmogahedonline}
 
 ## References
 - The defined sources cited above, registered in `data/source/`.

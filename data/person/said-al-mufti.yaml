@@ -1,0 +1,51 @@
+id: person/said-al-mufti
+class: person
+label: { ar: "سعيد المفتي", en: "Sa'id al-Mufti", ur: "سعید المفتی" }
+names:
+  - { value: "سعيد المفتي", kind: full }
+  - { value: "Sa'id al-Mufti", kind: full }
+  - { value: "سعيد باشا المفتي", kind: alternate }
+  - { value: "Sa'id Pasha al-Mufti", kind: alternate }
+  - { value: "Хьэбжьокъуэ Сайд", kind: alternate }
+gender: male
+summary:
+  ar: "سعيد المفتي (26 يونيو 1898 – 25 مارس 1989)، سياسي ودبلوماسي أردني من أصل شركسي، من أسرة حبجوقة المنتمية إلى قبيلة القبرطاي، ترأس حكومة الأردن ثلاث مرات بين 1950 و1956، وتولى وزارتي الداخلية والمالية، وترأس مجلس الأعيان فترتين (1956–1963 و1965–1974). كان من زعماء الأردن المؤسسين: استضاف الأمير عبد الله في بيته عند وصوله من الحجاز سنة 1921، وقاد سنة 1920 قوة من ألف مقاتل شركسي إلى سوريا نصرة للملك فيصل بعد ميسلون، وكان عضوًا في مجلس الشورى في العشرين من عمره ومن مؤسسي حزب الشعب الأردني سنة 1927، وتقاعد سنة 1974 وتوفي ودُفن في عمان."
+  en: "Sa'id al-Mufti (26 June 1898 – 25 March 1989) was a Jordanian politician and diplomat of Circassian origin, of the Habjoka family of the Kabarday tribe, who served three terms as Prime Minister of Jordan between 1950 and 1956, held the interior and finance portfolios, and presided over the Senate in two periods (1956–1963 and 1965–1974). He was one of Jordan's founding notables: he hosted the Emir Abdullah at his house on his arrival from the Hejaz in 1921, led a force of a thousand Circassian fighters to Syria in 1920 in support of King Faisal after Maysalun, sat on the Consultative Council at the age of twenty, co-founded the Jordan People's Party in 1927, retired in 1974, and died and was buried in Amman."
+  ur: "سعید المفتی (26 جون 1898ء – 25 مارچ 1989ء) اردنی سیاست دان اور سفارت کار تھے، اصلًا چرکسی، قبیلہ قبرطای کے خاندان حبجوقہ سے؛ وہ 1950ء اور 1956ء کے درمیان تین مرتبہ اردن کے وزیرِ اعظم رہے، وزارتِ داخلہ و خزانہ سنبھالیں اور دو ادوار (1956ء–1963ء اور 1965ء–1974ء) میں مجلس اعیان کے صدر رہے۔ وہ اردن کے بانی زعما میں سے تھے: 1921ء میں امیر عبداللہ کی حجاز سے آمد پر ان کی اپنے گھر میزبانی کی، 1920ء میں میسلون کے بعد شاہ فیصل کی حمایت میں ایک ہزار چرکسی جنگجوؤں کی قیادت کرتے ہوئے شام گئے، بیس سال کی عمر میں مجلس شوریٰ کے رکن بنے اور 1927ء میں حزب الشعب الاردنی کے بانیوں میں شامل ہوئے؛ 1974ء میں سبکدوش ہوئے اور عمان ہی میں وفات پائی اور دفن ہوئے۔"
+roles: [politician]
+wings: [people]
+born:
+  edtf: "1898-06-26"
+  hijri: "1316"
+  calendar: gregorian
+  precision: day
+  status: debated
+  derived: true
+  note: "The English article gives his birth as 26 June 1898; Wikidata carries both a year-only value (1898) and a day-precision statement of 28 June 1898; the Arabic article gives the year 1898 and the place, Amman, only. The record follows the English article's day and states the two-day conflict here rather than merging it. The Hijri year (1316) is derived by tabular conversion of 26 June 1898 (6 Safar 1316). Amman is his birthplace on the Arabic article and on Wikidata (place of birth Q3805), so the born_in relation is written."
+  sources: [source/wikipedia-said-al-mufti-en, source/wikipedia-said-al-mufti-ar, source/wikidata-said-al-mufti]
+died:
+  edtf: "1989-03-25"
+  hijri: "1409"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "The English article and Wikidata give his death as 25 March 1989; the Arabic article gives the year 1989 and says he died in Amman and was buried in it, which supports the died_in and buried_in relations to Amman. The Hijri year (1409) is derived by tabular conversion of that date (17 Sha'ban 1409)."
+  sources: [source/wikipedia-said-al-mufti-en, source/wikipedia-said-al-mufti-ar, source/wikidata-said-al-mufti]
+relations:
+  - { type: born_in, target: place/amman, sources: [source/wikipedia-said-al-mufti-ar, source/wikidata-said-al-mufti] }
+  - { type: died_in, target: place/amman, sources: [source/wikipedia-said-al-mufti-ar, source/wikidata-said-al-mufti] }
+  - { type: buried_in, target: place/amman, sources: [source/wikipedia-said-al-mufti-ar] }
+faith:
+  - value: unknown
+    basis: unknown
+    note: "No source read states a religion for Sa'id al-Mufti at all. In full: the English article gives his Circassian origin and his career and names no religion; the Arabic article gives his origin in the Habjoka family of the Kabarday tribe, his schooling in the kuttabs and at Damascus, and his career, and names no religion; the Wikidata item carries no religion value whatever. His Circassian ethnicity is not a religious attestation, and his public career in a Muslim-majority state is a milieu, which by the lane rule never counts; with no source naming even Islam for the man himself, let alone a school attested by two independent sources, his faith is left unknown under the two-source rule and the doubt rule ('if we have doubt then unclassified')."
+    sources: [source/wikipedia-said-al-mufti-en, source/wikipedia-said-al-mufti-ar, source/wikidata-said-al-mufti]
+external_ids: { wikidata: "Q979812" }
+sources: [source/wikipedia-said-al-mufti-en, source/wikipedia-said-al-mufti-ar, source/wikidata-said-al-mufti]
+provenance:
+  layer: own-research
+  source: "English Wikipedia 'Sa'id Mufti' (revision 1347337109), Arabic Wikipedia 'سعيد المفتي' (revision 77009886) and Wikidata item Q979812, all read in full on 25 October 2026. The queue's years (1898–1989) agree with the sources. Two disagreements are stated in the prose rather than merged: the birth day (26 June in the English article against Wikidata's day-precision 28 June) and the count of his governments (the English article's three terms as prime minister against the Arabic article's four governments formed, two under Abdullah I and two under King Hussein, between 1950 and 1955). No Urdu Wikipedia article exists; the Urdu summary and prose are the museum's translations. The Jordan People's Party he co-founded has no group entity in the museum yet, so no founder_of relation is written."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: century-additions-23
+status: { review: published, completeness: 3, generated_by: "Muse (Muse Spark 1.3)" }

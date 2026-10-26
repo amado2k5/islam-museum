@@ -1,0 +1,51 @@
+id: person/muhammad-husain-azad
+class: person
+label: { ar: "محمد حسين آزاد", en: "Muhammad Husain Azad", ur: "محمد حسین آزاد" }
+names:
+  - { value: "Muhammad Husain Azad", kind: full }
+  - { value: "Mohammed Hussain Azad", kind: alternate }
+  - { value: "محمد حسين آزاد", kind: full }
+  - { value: "Azad", kind: pen }
+  - { value: "Shams-ul-Ulama", kind: laqab }
+gender: male
+summary:
+  ar: "كاتب وشاعر باللغة الأردية (1830-1910) من دلهي، استقر في لاهور بعد مقتل والده الصحفي مولوي محمد باقر في أحداث 1857. درّس في كلية الحكومة والكلية الشرقية بلاهور وصار أمين أنجمن بنجاب، وقاد مع ألطاف حسين حالي حركة «الشعر الطبيعي» لإصلاح الشعر الأردي. أشهر آثاره «آب حيات» (1880)، تاريخ الشعر الأردي وشعرائه، ويُعدّ من خيرة كتّاب النثر الأردي."
+  en: "Urdu writer and poet (1830–1910) of Delhi who settled in Lahore after his father, the journalist Moulvi Muhammad Baqir, was executed in the aftermath of the 1857 rebellion. He taught at Government College and Oriental College, Lahore, became secretary of the Anjuman-e-Punjab, and with Altaf Hussain Hali led the 'natural poetry' movement to reform Urdu verse. His best-known work is Aab-e-Hayat (1880), a history of Urdu poetry and its poets; he is counted among the finest prose writers in Urdu."
+  ur: "اردو کے مصنف اور شاعر (1830ء–1910ء) جن کا تعلق دلی سے تھا اور جو اپنے والد، صحافی مولوی محمد باقر کی 1857ء کے بعد پھانسی کے بعد لاہور آ بسے۔ انھوں نے گورنمنٹ کالج اور اورینٹل کالج لاہور میں پڑھایا، انجمن پنجاب کے سیکرٹری بنے اور الطاف حسین حالی کے ساتھ اردو شاعری کی اصلاح کی «قدرتی شاعری» تحریک کی قیادت کی۔ ان کی مشہور ترین تصنیف «آب حیات» (1880ء) اردو شاعری اور شعرا کی تاریخ ہے۔"
+roles: [writer, poet, teacher]
+wings: [people]
+born:
+  edtf: "1830-05-05"
+  hijri: "1245"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "Born in Delhi to a Persian immigrant family. The English article, resting on Frances Pritchett's Columbia profile, gives 5 May 1830; the Urdu article and Wikidata give 10 June 1830 and Rekhta gives 5 September 1830 — variants recorded here, with the English article's date followed. The Hijri year (1245) is derived by tabular conversion (5 May 1830 falls in Dhu al-Hijja 1245)."
+  sources: [source/wikipedia-muhammad-husain-azad-en, source/wikipedia-muhammad-husain-azad-ur, source/wikidata-muhammad-husain-azad]
+died:
+  edtf: "1910-01-22"
+  hijri: "1328"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "Died at Lahore on 22 January 1910, aged 79: the English and Urdu articles and Wikidata agree. The Hijri year (1328) is derived by tabular conversion (22 January 1910 falls in Muharram 1328)."
+  sources: [source/wikipedia-muhammad-husain-azad-en, source/wikipedia-muhammad-husain-azad-ur, source/wikidata-muhammad-husain-azad]
+relations:
+  - { type: born_in, target: place/delhi, sources: [source/wikipedia-muhammad-husain-azad-en] }
+  - { type: died_in, target: place/lahore, sources: [source/wikipedia-muhammad-husain-azad-en] }
+  - { type: lived_in, target: place/lahore, sources: [source/wikipedia-muhammad-husain-azad-en] }
+faith:
+  - value: unknown
+    basis: unknown
+    note: "NOT RECORDED AS DOCUMENTED — no fetched source names a school for Azad himself. The English and Urdu articles name no school or affiliation; the Arabic stub names none; Wikidata (P140) gives only Islam. His Persian immigrant family background, his father's career, and Sir Syed Ahmad Khan's encouragement and support of his and Hali's literary reform are milieu and patronage, not attestations of Azad's own school (the lane's near-miss rule). Under the lane's two-source rule and the founder's doubt rule the value stays unknown."
+    sources: [source/wikipedia-muhammad-husain-azad-en, source/wikipedia-muhammad-husain-azad-ur, source/wikidata-muhammad-husain-azad]
+external_ids: { wikidata: "Q1067276" }
+sources: [source/wikipedia-muhammad-husain-azad-en, source/wikipedia-muhammad-husain-azad-ar, source/wikipedia-muhammad-husain-azad-ur, source/wikidata-muhammad-husain-azad]
+provenance:
+  layer: own-research
+  source: "English Wikipedia 'Muhammad Husain Azad', rev. 1372513218 of 1 September 2026; Arabic Wikipedia «محمد حسين آزاد», rev. 75606032 of 20 June 2026; Urdu Wikipedia «محمد حسین آزاد», rev. 11800514 of 18 August 2026; Wikidata Q1067276 read via the API (its birth date conflicts with the English article and is recorded as a variant). All read in full on 25 October 2026."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: century-additions-18
+status: { review: published, completeness: 3, generated_by: "Muse (Muse Spark 1.3)" }

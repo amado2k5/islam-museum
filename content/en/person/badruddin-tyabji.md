@@ -1,0 +1,26 @@
+---
+id: person/badruddin-tyabji
+lang: en
+source_lang: ar
+translators: []
+---
+## Summary
+Badruddin Tyabji (10 October 1844 – 19 August 1906) was an Indian lawyer, activist and politician during the British Raj, the first Indian to practice as a barrister of the High Court of Bombay, and the third President of the Indian National Congress, of which he was a founding member and the first Muslim president. {cite:wikipedia-badruddin-tyabji-en} He founded the Anjuman-i-Islam College in Bombay in 1874, which started with one school and today has more than eighty institutions, and he is often referred to as the most prominent member of the Tyabji family. {cite:wikipedia-badruddin-tyabji-en} The English article is internally inconsistent about his death: its lead and infobox give 19 August 1906 while its Death section gives 26 August 1906; the variant is recorded in the entity data and the lead date is followed. {cite:wikipedia-badruddin-tyabji-en}
+
+## Early life and education
+Tyabji was born on 10 October 1844 in Bombay, the son of Mullah Tyab Ali Bhai Mian, a member of the Sulaimani Bohra community and a scion of an old Cambay emigrant Arab family; that community membership is his father's and is family background, not an attestation of Badruddin's own school, which is therefore recorded as unknown in the entity data. {cite:wikipedia-badruddin-tyabji-en} His father sent all seven of his sons to Europe for further studies, at a time when English education was considered anathema for Muslims in India, and his elder brother Camruddin, the first Indian solicitor admitted in England and Wales, inspired the 15-year-old Badruddin to join the Bar. {cite:wikipedia-badruddin-tyabji-en} After learning Urdu and Persian at Dada Makhra's Madrassa, Tyabji joined the Elphinstone Institution in Bombay, was sent to France for eye treatment, joined Newbury High Park College in London in 1860, enrolled at University College London and the Middle Temple in 1863, returned to Bombay in late 1864 with deteriorating eyesight, resumed his studies in late 1865 and was called to the Bar in April 1867. {cite:wikipedia-badruddin-tyabji-en}
+
+## Legal and municipal career
+On his return to Bombay in December 1867, Tyabji became the first Indian barrister in the High Court of Bombay. {cite:wikipedia-badruddin-tyabji-en} He was nominated to the Bombay Municipal Corporation in 1873, was a member of the University of Bombay senate between 1875 and 1905, and was appointed to the Bombay Legislative Council in 1882, resigning in 1886 owing to ill health. {cite:wikipedia-badruddin-tyabji-en} Along with Pherozeshah Mehta and Kashinath Trimbak Telang, he was largely responsible for forming the Bombay Presidency Association in 1885, which championed Indian interests and hosted the first meeting of the Indian National Congress in Bombay at the end of 1885. {cite:wikipedia-badruddin-tyabji-en}
+
+## The Indian National Congress
+Badruddin and his elder brother Camruddin were deeply involved in the founding of the Indian National Congress, and as its President between 1887 and 1888 Tyabji focused on uniting the Muslim community and gaining support from both Hindus and Muslims. {cite:wikipedia-badruddin-tyabji-en} To promote social interaction among Bombay's Muslims, he was instrumental in founding both the Islam Club and the Islam Gymkhana. {cite:wikipedia-badruddin-tyabji-en} In response to criticisms that Muslims should boycott the Congress, Tyabji declared that he had denounced all communal and sectarian prejudices, and at the 1888 Allahabad Congress he introduced Resolution No. XIII, providing that no subject be discussed to which Hindu or Muslim delegates as a body objected. {cite:wikipedia-badruddin-tyabji-en} Syed Ahmad Khan, chief among the Muslim critics of Congress, challenged Tyabji in an open letter to name the fundamental political principles of Congress that were not opposed to Muslim interests. {cite:wikipedia-badruddin-tyabji-en} In his Presidential Address to the 1887 Madras Congress, Tyabji said that, representing the Anjuman-i-Islam of Bombay, he saw nothing in the position of India's communities — Hindus, Musalmans, Parsis or Christians — that should induce any community's leaders to stand aloof from the common effort for general reforms and rights. {cite:wikipedia-badruddin-tyabji-en}
+
+## Judgeship and social work
+In June 1895 Tyabji was made a judge of the Bombay High Court, the first Muslim and the third Indian to be so elevated, and in 1902 he became, according to the article, the first Indian to hold the post of Chief Justice of the Bombay High Court. {cite:wikipedia-badruddin-tyabji-en} He was active in women's emancipation, worked to weaken the zenana system, sent all his daughters to be educated in Bombay, and in 1904 sent two of them to boarding school in Haslemere, England. {cite:wikipedia-badruddin-tyabji-en}
+
+## Death and family
+While on a year's furlough in London in 1906, Tyabji died suddenly of a heart attack. {cite:wikipedia-badruddin-tyabji-en} He was married to Rahat-un-Nafs and together they had eighteen children; his nephew was Abbas Tyabji. {cite:wikipedia-badruddin-tyabji-en}
+
+## References
+- The defined sources cited above, registered in `data/source/`.

@@ -12,8 +12,8 @@ relations:
   - { type: site_of, target: event/conquest-of-egypt, sources: [source/futuh-buldan-maarif-1407] }
 provenance:
   layer: own-research
-  source: "فتوح البلدان (ط مؤسسة المعارف 1407هـ/1987م) ص 298"
-  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  source: "Encyclopaedia of Islam, 2nd ed. (Brill), vol. 1, PDF p. 678, entry 'AL-'ARISH' (EI2 seq 344, batch ei2-b013 part 10); فتوح البلدان (ط مؤسسة المعارف 1407هـ/1987م) ص 298"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR; EI2 section added by Claude Code (claude-haiku-5-5)"
   run: lib-futuh-buldan-batch-19
-sources: [source/futuh-buldan-maarif-1407]
-status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }
+sources: [source/futuh-buldan-maarif-1407, source/encyclopaedia-of-islam-2]
+status: { review: published, completeness: 3 }

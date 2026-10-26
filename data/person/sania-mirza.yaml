@@ -1,0 +1,35 @@
+id: person/sania-mirza
+class: person
+label: { ar: "سانيا ميرزا", en: "Sania Mirza", ur: "ثانیہ مرزا" }
+names:
+  - { value: "Sania Mirza", kind: full }
+  - { value: "سانيا ميرزا", kind: full }
+gender: female
+summary:
+  ar: "لاعبة تنس هندية محترفة سابقة، وُلدت في مومباي سنة 1986 ونشأت في حيدر آباد. مصنفة أولى عالميا سابقة في الزوجي بلغت القمة في أبريل 2015 وقضت 91 أسبوعا في الصدارة، وفازت بستة ألقاب كبرى — ثلاثة في زوجي السيدات (ويمبلدون وأمريكا المفتوحة 2015 وأستراليا المفتوحة 2016) وثلاثة في الزوجي المختلط — ولقب نهائيات رابطة المحترفات للزوجي في 2014 و2015، و43 لقبا في الزوجي إجمالا. وفي الفردي بلغت التصنيف 27 عالميا سنة 2007 وهو الأعلى للاعبة هندية، قبل أن تدفعها إصابة في المعصم إلى التخصص في الزوجي، واعتزلت التنس الاحترافي في فبراير 2023."
+  en: "Indian former professional tennis player, born in Mumbai in 1986 and raised in Hyderabad. A former doubles world No. 1 who reached the top ranking in April 2015 and spent 91 weeks there, she won six major titles — three in women's doubles (Wimbledon and the US Open in 2015, the Australian Open in 2016) and three in mixed doubles — the WTA Finals doubles title in 2014 and 2015, and 43 doubles titles in all. In singles she reached world No. 27 in 2007, the highest ranking achieved by an Indian woman, before a wrist injury shifted her career to doubles. She retired from professional tennis in February 2023."
+  ur: "بھارت کی سابق پیشہ ور ٹینس کھلاڑی، جو 1986 میں ممبئی میں پیدا ہوئیں اور حیدر آباد میں پلی بڑھیں۔ سابق ڈبلز عالمی نمبر ایک، جو اپریل 2015 میں سرفہرست ہوئیں اور 91 ہفتے اس مقام پر رہیں؛ انھوں نے چھ بڑے خطاب جیتے — تین خواتین ڈبلز اور تین مکسڈ ڈبلز میں — اور مجموعی طور پر 43 ڈبلز خطاب حاصل کیے۔ سنگلز میں وہ 2007 میں عالمی نمبر 27 تک پہنچیں، جو کسی بھارتی خاتون کا بلند ترین درجہ ہے، اور فروری 2023 میں پیشہ ور ٹینس سے ریٹائر ہوئیں۔"
+roles: [athlete]
+wings: [people, living]
+born:
+  edtf: "1986-11-15"
+  hijri: "1407"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "Born on 15 November 1986 in Mumbai, Maharashtra, India, per the English, Arabic and Urdu Wikipedia articles and Wikidata; she was raised in Hyderabad. No place entity for Mumbai exists in data/place/, and the only Hyderabad entity on disk is place/hyderabad-deccan, the princely-state province, not the modern city, so no born_in or lived_in relation is written. The Hijri year (1407) is derived by tabular conversion."
+  sources: [source/wikipedia-sania-mirza-en, source/wikipedia-sania-mirza-ar, source/wikipedia-sania-mirza-ur, source/wikidata-sania-mirza]
+faith:
+  - value: unknown
+    basis: unknown
+    note: "NOT RECORDED AS DOCUMENTED — no source names a school for her herself. The attestations, stated in full: the English article's Early life section says she 'was born ... to Hyderabadi Muslim parents' and that the sisters 'were raised in a Sunni Muslim family' — a description of her family's background. Family background never counts under the lane rules (the founder's settlements for Ilhan Omar and Fehmida Mirza stand on exactly this point: a family's Sunni description is not the person's own attested school). Wikidata's religion claim (P140) gives only Islam. No independent source names a school for Mirza herself, so under the two-source rule and the founder's doubt rule the value stays unknown."
+    sources: [source/wikipedia-sania-mirza-en, source/wikidata-sania-mirza]
+external_ids: { wikidata: "Q132147" }
+sources: [source/wikipedia-sania-mirza-en, source/wikipedia-sania-mirza-ar, source/wikipedia-sania-mirza-ur, source/wikidata-sania-mirza]
+provenance:
+  layer: own-research
+  source: "English Wikipedia 'Sania Mirza' (revision 1375465745), Arabic Wikipedia «سانيا ميرزا» (revision 76060323) and Urdu Wikipedia «ثانیہ مرزا» (revision 12135762), read on 25 October 2026; Wikidata Q132147 verified from the English article's wikibase_item returned by the Wikipedia API pageprops query on 25 October 2026, with claims read through the Wikidata API the same day. Her former husband Shoaib Malik has no record in data/person/, so no spouse_of relation is written. This record is for Sania Mirza, the Indian tennis player born in Mumbai in 1986; the mirza-* records on disk are other people (fehmida-mirza is a different person, a Pakistani politician). No earlier record existed under sania-mirza or any other spelling checked; this is a new build, not an enrichment."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: century-additions-22
+status: { review: published, completeness: 3, generated_by: "Muse (Muse Spark 1.3)" }

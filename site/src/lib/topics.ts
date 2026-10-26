@@ -6,6 +6,7 @@ import { readFileSync } from "node:fs";
 import { parse } from "yaml";
 import { repoPath } from "./paths";
 import { byId, SITE } from "./graph";
+import { a11yLd } from "./a11y";
 import type { Tri } from "./edu";
 
 export interface TopicOption { text: Tri; correct: boolean; why: Tri }
@@ -70,5 +71,6 @@ export function courseLd(t: Topic, lang: (typeof LANGS)[number]) {
     license: "https://creativecommons.org/licenses/by-sa/4.0/",
     provider: { "@type": "Organization", name: "islam.museum", url: SITE },
     isPartOf: { "@type": "WebSite", name: "islam.museum", url: SITE },
+    ...a11yLd(lang),
   };
 }

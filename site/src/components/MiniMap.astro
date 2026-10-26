@@ -62,7 +62,7 @@ const landD = (basemap.rings as number[][][]).filter(inFrame).map(simplifyRing).
   .map((r) => "M" + r.map(([x, y]) => `${x.toFixed(2)},${y.toFixed(2)}`).join("L") + "Z").join("");
 ---
 {pts.length > 0 && (
-  <svg viewBox={`0 0 ${width} ${height}`} role="img" aria-label={pts.map((p) => labelOf(p, lang)).join(", ")} style="width:100%;height:auto;display:block;background:var(--panel);border-radius:10px;direction:ltr">
+  <svg viewBox={`0 0 ${width} ${height}`} role="group" aria-label={pts.map((p) => labelOf(p, lang)).join(", ")} style="width:100%;height:auto;display:block;background:var(--panel);border-radius:10px;direction:ltr">
     <path d={landD} fill="currentColor" fill-opacity=".12" stroke="currentColor" stroke-opacity=".35" stroke-width=".15" style="color:var(--fg)" />
     {pts.length > 1 && <polyline points={pts.map((p) => `${X(p.coordinates![1])},${Y(p.coordinates![0])}`).join(" ")} fill="none" stroke="var(--gold)" stroke-width=".4" stroke-dasharray="1 1" opacity=".9" />}
     {pts.map((p, i) => {

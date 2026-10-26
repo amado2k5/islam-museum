@@ -23,7 +23,7 @@ const L = (x: { ar: string; en: string; ur?: string }) => (x[lang] ?? x.ar);
             <h3>{L(it.title)}</h3>
             <p>{L(it.body)}</p>
             {it.ref && <p class="fd-ref ui">{it.ref}</p>}
-            {it.verify && <p class="fd-verify ui">⚠ {it.verify}</p>}
+            {it.verify && <p class="fd-verify ui"><span aria-hidden="true">⚠</span> {it.verify}</p>}
           </div>
         </div>
       </article>

@@ -18,8 +18,8 @@ function init(root: HTMLElement) {
   const gotoBtns = [...root.querySelectorAll<HTMLButtonElement>("[data-era-goto]")];
   const backBtns = [...root.querySelectorAll<HTMLButtonElement>("[data-travel-back]")];
   const againBtn = root.querySelector<HTMLButtonElement>("[data-tm-again]");
-  const reduceMotion = matchMedia("(prefers-reduced-motion: reduce)").matches;
-  const scrollOpts: ScrollIntoViewOptions = { block: "start", behavior: reduceMotion ? "auto" : "smooth" };
+  const reduceMotion = () => (matchMedia("(prefers-reduced-motion: reduce)").matches || document.documentElement.getAttribute("data-motion") === "reduce");
+  const scrollOpts = (): ScrollIntoViewOptions => ({ block: "start", behavior: reduceMotion() ? "auto" : "smooth" });
 
   let visited: string[] = [];
   try {
@@ -50,7 +50,7 @@ function init(root: HTMLElement) {
     paint();
     const target = slug !== null ? screens.get(slug) ?? select : select;
     if (scroll) {
-      target.scrollIntoView(scrollOpts);
+      target.scrollIntoView(scrollOpts());
       const h = target.querySelector("h2");
       if (h instanceof HTMLElement && slug !== null) h.focus({ preventScroll: true });
     }
@@ -58,7 +58,7 @@ function init(root: HTMLElement) {
 
   const travel = (slug: string) => {
     markVisited(slug);
-    if (reduceMotion || !screens.has(slug)) { show(slug); return; }
+    if (reduceMotion() || !screens.has(slug)) { show(slug); return; }
     overlay.hidden = false;
     window.setTimeout(() => { overlay.hidden = true; show(slug); }, TRAVEL_MS);
   };

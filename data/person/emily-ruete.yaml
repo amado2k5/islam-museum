@@ -1,0 +1,53 @@
+id: person/emily-ruete
+class: person
+label: { ar: "سلمة بنت سعيد (إميلي رويته)", en: "Emily Ruete (Sayyida Salme)", ur: "سلمہ بنت سعید (ایملی روئٹے)" }
+names:
+  - { value: "سلمة بنت سعيد بن سلطان البوسعيدي", kind: full }
+  - { value: "Salme bint Said Sultan", kind: full }
+  - { value: "Emily Ruete", kind: alternate }
+  - { value: "Sayyida Salme", kind: alternate }
+gender: female
+summary:
+  ar: "سلمة بنت سعيد سلطان (30 أغسطس 1844 في زنجبار – 29 فبراير 1924 في يينا)، المعروفة بعد زواجها باسم إميلي رويته، أميرة زنجبار وعُمان وأصغر أبناء سلطان عُمان سعيد بن سلطان الستة والثلاثين. علّمت نفسها الكتابة سرا في صباها، وشاركت فتاةً في نزاع أخويها ماجد وبرغش على الحكم، ثم عُرفت بحبها للتاجر الألماني رودولف هاينريش رويته ففرّت سنة 1866 على سفينة بريطانية إلى عدن، حيث تعمّدت باسم إميلي وتزوجته سنة 1867. عاشت أرملة فقيرة في ألمانيا بعد وفاة زوجها سنة 1870، وكتبت «مذكرات أميرة عربية» (1886) فكانت أول سيرة ذاتية منشورة لامرأة عربية، وزارَت زنجبار مرتين (1885 و1888)، وعاشت سنوات في يافا وبيروت، وتوفيت في يينا."
+  en: "Salme bint Said Sultan (30 August 1844 at Zanzibar – 29 February 1924 at Jena), known after her marriage as Emily Ruete, Princess of Zanzibar and Oman and the youngest of the 36 children of Said bin Sultan, Sultan of Oman. She secretly taught herself to write as a girl, took part as a teenager in her brothers Majid's and Barghash's struggle for the throne, then fell in love with the German merchant Rudolph Heinrich Ruete, fled in 1866 on a British ship to Aden, where she was baptized Emily and married him in 1867. Widowed and poor in Germany after her husband's death in 1870, she wrote her Memoirs of an Arabian Princess (1886), the first published autobiography of an Arab woman, revisited Zanzibar twice (1885 and 1888), lived for years in Jaffa and Beirut, and died at Jena."
+  ur: "سلمہ بنت سعید سلطان (30 اگست 1844ء زنجبار – 29 فروری 1924ء یینا)، جو شادی کے بعد ایملی روئٹے کے نام سے معروف ہوئیں، زنجبار و عمان کی شہزادی اور عمان کے سلطان سعید بن سلطان کے چھتیس بچوں میں سب سے چھوٹی تھیں۔ انہوں نے بچپن میں چھپ کر لکھنا سیکھا، بھائیوں ماجد و برغش کی کشمکش میں حصہ لیا، پھر جرمن تاجر روڈولف ہائنرش روئٹے سے محبت کے سبب 1866ء میں برطانوی جہاز سے عدن فرار ہوئیں، جہاں بپتسمہ لے کر ایملی نام پایا اور 1867ء میں ان سے شادی کی۔ 1870ء میں شوہر کی وفات کے بعد جرمنی میں تنگ دستی میں زندگی گزاری، «ایک عرب شہزادی کی یادداشتیں» (1886ء) لکھیں جو کسی عرب خاتون کی پہلی شائع شدہ آپ بیتی ہے، دو بار زنجبار گئیں، برسوں یافا و بیروت میں رہیں اور یینا میں وفات پائی۔"
+roles: [writer]
+wings: [people]
+born:
+  edtf: "1844-08-30"
+  hijri: "1260"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "Born on 30 August 1844 at Zanzibar, daughter of Said bin Sultan and Jilfidan, a Circassian concubine (some accounts say Georgian): the English article and van Donzel's editorial biography agree on the day, the place and the parentage. The Hijri year (1260) is derived by tabular conversion (30 August 1844 falls in Sha'ban 1260)."
+  sources: [source/wikipedia-emily-ruete-en, source/van-donzel-arabian-princess-1992]
+died:
+  edtf: "1924-02-29"
+  hijri: "1342"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "Died at Jena on 29 February 1924, aged 79, of severe pneumonia: the English article; van Donzel's biography likewise gives her death at Jena in 1924. The Hijri year (1342) is derived by tabular conversion (29 February 1924 falls in Rajab 1342). Jena has no place entity in the museum yet, so no died_in relation is written."
+  sources: [source/wikipedia-emily-ruete-en, source/van-donzel-arabian-princess-1992]
+relations:
+  - { type: child_of, target: person/said-bin-sultan, sources: [source/wikipedia-emily-ruete-en, source/van-donzel-arabian-princess-1992] }
+  - { type: born_in, target: place/zanzibar, sources: [source/wikipedia-emily-ruete-en, source/van-donzel-arabian-princess-1992] }
+  - { type: lived_in, target: place/zanzibar, sources: [source/wikipedia-emily-ruete-en] }
+faith:
+  - value: unknown
+    basis: unknown
+    note: "Birth segment (1844–1867), stated in full under the two-source rule and the doubt rule. She was born and raised a Muslim princess of the Al Bu Said house of Zanzibar: her own article's infobox names her first religion personally as 'Ibadi Islam' (later Roman Catholicism), and her father's personal Ibadi affiliation is documented in his own record. But no second independent source read in this run names Ibadi Islam as Salme's own religion personally — the academic accounts read (van Donzel's biography; Prestholdt's chapter; Topan's chapter) describe her as a born Muslim princess who converted to Christianity, without naming the Ibadi school for her personally — and her father's documented affiliation is family background, which the lane rules say does not count. The birth segment is therefore left unknown, with the single infobox attestation of Ibadi Islam stated here verbatim; if a second independent personal attestation is found, this segment should be revisited."
+    sources: [source/wikipedia-emily-ruete-en, source/britannica-said-ibn-sultan]
+  - value: christian
+    basis: documented
+    note: "Later segment (from her baptism at Aden in 1867 until her death in 1924), attested of her personally by independent sources. (1) Her article records that at Aden she took Christian instruction and was baptised before her marriage on 30 May 1867, and its infobox gives her later religion as Roman Catholicism. (2) Van Donzel's editorial biography in the Brill edition of her writings states that at Aden she 'was baptized with the Christian name Emily' and there married Rudolph Heinrich Ruete. (3) Prestholdt's academic chapter states that she eloped with a German merchant and converted to Christianity. The generic value christian is recorded because the sources disagree on the denomination (the current infobox says Roman Catholicism; an older form of the article said Protestantism), and no denomination is asserted."
+    sources: [source/wikipedia-emily-ruete-en, source/van-donzel-arabian-princess-1992, source/prestholdt-salme-2014]
+sources: [source/wikipedia-emily-ruete-en, source/van-donzel-arabian-princess-1992, source/prestholdt-salme-2014, source/britannica-said-ibn-sultan]
+provenance:
+  layer: own-research
+  source: "English Wikipedia 'Emily Ruete', read in full on 25 October 2026; E. J. van Donzel (ed.), An Arabian Princess Between Two Worlds (Brill, 1992), editorial biography as given in the publisher's description; Jeremy Prestholdt, 'From Zanzibar to Beirut' (2014), read on 25 October 2026; Encyclopaedia Britannica on her father Said bin Sultan, cited in the birth-segment faith note only. No Wikidata identifier was verified in this run, so none is recorded."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: century-additions-20
+status: { review: published, completeness: 3, generated_by: "Muse (Muse Spark 1.3)" }

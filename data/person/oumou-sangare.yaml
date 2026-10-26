@@ -1,0 +1,37 @@
+id: person/oumou-sangare
+class: person
+label: { ar: "أومو سانغاري", en: "Oumou Sangaré", ur: "اومو سانگارے" }
+names:
+  - { value: "Oumou Sangaré", kind: full }
+  - { value: "أومو سانغاري", kind: full }
+  - { value: "أومو سنغاري", kind: alternate }
+  - { value: "The Songbird of Wassoulou", kind: laqab }
+gender: female
+summary:
+  ar: "مغنية مالية من منطقة واسولو، وُلدت في باماكو سنة 1968 لأم مغنية، وغنّت في الشارع طفلةً لإعالة أسرتها بعد رحيل أبيها، ثم صارت بألبومها الأول «موسولو» (1990) نجمة في غرب أفريقيا. تُلقّب بـ«طائر واسولو المغرد»، وتدور كثير من أغانيها على نقد اجتماعي ولا سيما مكانة المرأة، وهي سفيرة نوايا حسنة لدى منظمة الفاو وحائزة على جائزة غرامي سنة 2011."
+  en: "Malian singer of the Wassoulou region, born at Bamako in 1968 to a singer mother; she sang in the streets as a child to support her family after her father left, and her first album Moussolou (1990) made her a star across West Africa. Called 'The Songbird of Wassoulou', she writes songs of social criticism, above all on the status of women; she is an FAO goodwill ambassador and won a Grammy Award in 2011."
+  ur: "مالی کی واسولو خطے کی گلوکارہ، جو 1968 میں بماکو میں ایک گلوکارہ ماں کے ہاں پیدا ہوئیں؛ والد کے چلے جانے کے بعد بچپن میں خاندان کی کفالت کے لیے گلیوں میں گایا، اور پہلے البم «موسولو» (1990) نے انہیں مغربی افریقہ کی ستارہ بنا دیا۔ «واسولو کی گاتی چڑیا» کہلاتی ہیں، ان کے گیت سماجی تنقید — خصوصاً خواتین کے مقام — پر مبنی ہیں؛ وہ ایف اے او کی خیرسگالی سفیر ہیں اور 2011 میں گریمی ایوارڈ جیتا۔"
+roles: [singer, songwriter]
+wings: [people, living]
+born:
+  edtf: "1968-02-25"
+  hijri: "1387"
+  calendar: gregorian
+  precision: day
+  status: debated
+  derived: true
+  note: "Born at Bamako, Mali. The day is disputed between the sources and is recorded as debated: the English and Arabic Wikipedia articles give 25 February 1968, the French article gives 2 February 1968, and Wikidata carries two claims, 12 February and 25 February 1968. This record follows 25 February, on the two independent language editions. The Hijri year (1387) is derived by tabular conversion and is the same on any of the February dates. Bamako has no place entity in the museum, so no born_in relation is written."
+  sources: [source/wikipedia-oumou-sangare-en, source/wikipedia-oumou-sangare-ar, source/wikipedia-oumou-sangare-fr, source/wikidata-oumou-sangare]
+faith:
+  - value: unknown
+    basis: unknown
+    note: "No source consulted names a religion or a school for her. The English, French and Arabic Wikipedia articles are all silent on her personal religion, and Wikidata (Q467094) carries no religion claim at all. Her Fulani descent, her Wassoulou upbringing and the traditional song repertoire she performs are background and work, not an attestation of a personal school. Under the two-source rule her faith is recorded as unknown."
+    sources: [source/wikipedia-oumou-sangare-en, source/wikipedia-oumou-sangare-fr, source/wikipedia-oumou-sangare-ar, source/wikidata-oumou-sangare]
+external_ids: { wikidata: "Q467094" }
+sources: [source/wikipedia-oumou-sangare-en, source/wikipedia-oumou-sangare-fr, source/wikipedia-oumou-sangare-ar, source/wikidata-oumou-sangare]
+provenance:
+  layer: own-research
+  source: "English Wikipedia 'Oumou Sangaré' (revision 1363967117 of 13 July 2026), French Wikipedia 'Oumou Sangaré' (revision 237518920 of 2 July 2026), Arabic Wikipedia «أومو سانغاري» (revision 76168236 of 10 August 2026), and Wikidata Q467094 read through the Wikidata API, all checked 25 October 2026. No earlier record existed in data/person/ under any spelling (sangare / sangaré / sangari variants searched); this is a new build, not an enrichment. The birth-day conflict (25 vs 2 February, with Wikidata carrying 12 and 25 February) is recorded in the born block and stated in the prose rather than merged."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: century-additions-24
+status: { review: published, completeness: 3, generated_by: "Muse (Muse Spark 1.3)" }

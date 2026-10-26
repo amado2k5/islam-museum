@@ -1,0 +1,36 @@
+id: person/salif-keita
+class: person
+label: { ar: "ساليف كيتا", en: "Salif Keita", ur: "سلیف کیتا" }
+names:
+  - { value: "Salif Keïta", kind: full }
+  - { value: "سالیف کیتا", kind: full }
+  - { value: "Golden Voice of Africa", kind: laqab }
+gender: male
+summary:
+  ar: "مغنٍّ ومؤلف أغانٍ مالي، وُلد في قرية جوليبا سنة 1949، من أسرة كيتا الملكية التي تنتسب إلى سوندياتا كيتا مؤسس إمبراطورية مالي. نبذه أهله ومجتمعه بسبب مهقه وانتقاله إلى الغناء المحفوظ لطبقة الغريوت، فصار من أشهر أصوات أفريقيا ولُقّب بـ«صوت أفريقيا الذهبي»، وكرّس جانبًا من عمله للدفاع عن المصابين بالمهق."
+  en: "Malian singer-songwriter, born in the village of Djoliba in 1949, of the Keita royal family that traces its descent to Sundiata Keita, founder of the Mali Empire. Cast out by his family and community over his albinism and over taking up singing, a griot-caste occupation, he became one of Africa's best-known voices — the 'Golden Voice of Africa' — and has devoted part of his work to the defence of people with albinism."
+  ur: "مالی کے گلوکار و نغمہ نگار، جو 1949 میں گاؤں جولیبا میں پیدا ہوئے، کیتا شاہی خاندان سے ہیں جو مالی سلطنت کے بانی سندیاتا کیتا کی نسل بتایا جاتا ہے۔ بْرص (البنیت) اور گریو ذات کے پیشے یعنی گائیکی اپنانے پر خاندان و برادری نے انہیں ٹھکرا دیا، مگر وہ افریقہ کی معروف ترین آوازوں میں سے ایک بنے اور «افریقہ کی سنہری آواز» کہلائے، اور اپنے کام کا ایک حصہ البنیت کے شکار افراد کے دفاع کے لیے وقف کیا۔"
+roles: [singer, songwriter]
+wings: [people, living]
+born:
+  edtf: "1949-08-25"
+  hijri: "1368"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "Born in the village of Djoliba, Mali, on 25 August 1949; the English, French and Arabic articles and Wikidata all agree. The Hijri year (1368) is derived by tabular conversion. Djoliba has no place entity in the museum, so no born_in relation is written."
+  sources: [source/wikipedia-salif-keita-en, source/wikipedia-salif-keita-fr, source/wikipedia-salif-keita-ar, source/wikidata-salif-keita]
+faith:
+  - value: unknown
+    basis: unknown
+    note: "The only religious statement in any source is family background: the English Wikipedia article says he was 'raised in a Muslim family' and 'went to an Islamic school where he was influenced by his Qur'an teacher's singing'. Family background and schooling never count as an attestation of a person's own school. The French and Arabic articles state no religion for him, and Wikidata (Q313318) carries no religion claim at all; no source names a school for Keita himself. Under the two-source rule and the doubt rule his faith is recorded as unknown."
+    sources: [source/wikipedia-salif-keita-en, source/wikipedia-salif-keita-fr, source/wikipedia-salif-keita-ar, source/wikidata-salif-keita]
+external_ids: { wikidata: "Q313318" }
+sources: [source/wikipedia-salif-keita-en, source/wikipedia-salif-keita-fr, source/wikipedia-salif-keita-ar, source/wikidata-salif-keita]
+provenance:
+  layer: own-research
+  source: "English Wikipedia 'Salif Keita' (revision 1371757390 of 28 August 2026), French Wikipedia 'Salif Keïta (musicien)' (revision 239981968 of 1 October 2026), Arabic Wikipedia «سالف كيتا» (revision 75203511 of 8 June 2026), and Wikidata Q313318 read through the Wikidata API, all checked 25 October 2026. No earlier record existed in data/person/ under any spelling; this is a new build, not an enrichment. Caution recorded: the Arabic article «ساليف كيتا» (with a long vowel) is Salif Keïta the footballer (1946–2023, Wikidata Q964530), a different man, and nothing from it is used here. The French article dates Soro to 1986 where the English article dates the breakthrough album to 1987, and the Arabic article dates his move to Bamako to 1968 where the English article has him leave Djoliba in 1967; both disagreements are stated in the prose rather than merged."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: century-additions-24
+status: { review: published, completeness: 3, generated_by: "Muse (Muse Spark 1.3)" }

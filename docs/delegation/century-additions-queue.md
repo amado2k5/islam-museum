@@ -128,62 +128,61 @@ lists' own order. Status markers: [ ] queued · [~] in a writer's hands · [x] m
 - [x] Haifaa al-Mansour — 1974–Living
 - [x] Nadine Labaki — 1974–Living
 - [x] Jehane Noujaim — 1974–Living
-- [ ] Academy Award Winner Sharmeen Obaid-Chinoy — 1978–Living
-- [ ] Kazi Nazrul Islam — 1899–1976
-- [ ] Humayun Ahmed — 1948–2012
-- [ ] Zainul Abedin — 1914–1976
-- [ ] SM Sultan — 1923–1994
-- [ ] Feryal Clark — 1979–Living
-- [ ] Shabana Mahmood — 1980–Living
-- [ ] Rushanara Ali — 1975–Living
-- [ ] Yasmin Qureshi — 1963–Living
-- [ ] Humza Yousaf — 1985–Living
-- [ ] Anas Sarwar — 1983–Living
-- [ ] Nasser Hussain — 1968–Living
-- [ ] Moeen Ali — 1987–Living
-- [ ] Adil Rashid — 1988–Living
-- [ ] Wasim Akram — 1966–Living
-- [ ] Waqar Younis — 1971–Living
-- [ ] Inzamam-ul-Haq — 1970–Living
-- [ ] Babar Azam — 1994–Living
-- [ ] Imran Khan — 1952–Living
-- [ ] Shoaib Akhtar — 1975–Living
-- [ ] Rashid Khan — 1998–Living
-- [ ] Mohammad Nabi — 1985–Living
-- [ ] Kumar Sangakkara (Friend/Contemporary) — 1977–Living
-- [ ] Hashim Amla — 1983–Living
-- [ ] Tabraiz Shamsi — 1990–Living
-- [ ] Farhaan Behardien — 1983–Living
-- [ ] Usman Khawaja — 1986–Living
-- [ ] Fawad Ahmed — 1982–Living
-- [ ] Sania Mirza — 1986–Living
-- [ ] Ons Jabeur — 1994–Living
-- [ ] Younes El Aynaoui — 1971–Living
-- [ ] Aisam-ul-Haq Qureshi — 1980–Living
-- [ ] Arshad Nadeem — 1997–Living
-- [ ] Mutaz Essa Barshim — 1991–Living
-- [ ] Sufi Abu Taleb — 1925–2008
-- [ ] Hamza El Din — 1929–2006
-- [ ] Ali Farka Touré — 1939–2006
-- [ ] Vieux Farka Touré — 1981–Living
-- [ ] Salif Keita — 1949–Living
-- [ ] Oumou Sangaré — 1968–Living
-- [ ] Ballaké Sissoko — 1967–Living
-- [ ] Toumani Diabaté — 1965–2024
-- [ ] Baaba Maal — 1953–Living
-- [ ] Youssou N'Dour — 1959–Living
-- [ ] Ismaël Lô — 1956–Living
-- [ ] Alpha Blondy — 1953–Living
-- [ ] K'Naan Warsame — 1978–Living
-- [ ] Akon (Aliaune Badara Akon Thiam) — 1973–Living
-- [ ] Swizz Beatz (Kasseem Daoud Dean) — 1978–Living
-- [ ] Busta Rhymes (Trevor George Smith Jr.) — 1972–Living
-- [ ] Big Dad RZA / RZA (Robert Fitzgerald Diggs) — 1969–Living
-- [ ] Brother Ali (Ali Newman) — 1977–Living
-- [ ] Q-Tip (Kamaal Ibn John Fareed) — 1970–Living
-- [ ] Ali Shaheed Muhammad — 1968–Living
-- [ ] French Montana (Karim Kharbouch) — 1984–Living
-- [ ] DJ Khaled (Khaled Mohamed Khaled) — 1975–Living
+- [x] Academy Award Winner Sharmeen Obaid-Chinoy — 1978–Living
+- [x] Kazi Nazrul Islam — 1899–1976
+- [x] Humayun Ahmed — 1948–2012
+- [x] Zainul Abedin — 1914–1976
+- [x] SM Sultan — 1923–1994
+- [x] Feryal Clark — 1979–Living
+- [x] Shabana Mahmood — 1980–Living
+- [x] Rushanara Ali — 1975–Living
+- [x] Yasmin Qureshi — 1963–Living
+- [x] Humza Yousaf — 1985–Living
+- [x] Anas Sarwar — 1983–Living
+- [x] Nasser Hussain — 1968–Living
+- [x] Moeen Ali — 1987–Living
+- [x] Adil Rashid — 1988–Living
+- [x] Wasim Akram — 1966–Living
+- [x] Waqar Younis — 1971–Living
+- [x] Inzamam-ul-Haq — 1970–Living
+- [x] Babar Azam — 1994–Living
+- [x] Imran Khan — 1952–Living
+- [x] Shoaib Akhtar — 1975–Living
+- [x] Rashid Khan — 1998–Living
+- [x] Mohammad Nabi — 1985–Living
+- [ ] Kumar Sangakkara (Friend/Contemporary) — 1977–Living (flagged: the wave-21 Z1 writer's sources show he is not a Muslim — English Wikipedia's Personal life section, cited to The Guardian (2014) and NDTV Sports, calls him a devout Buddhist, and in his own words in a ThePapare interview: "I'm a Buddhist" — kept queued with this flag per Ahmad's ruling of 25 October 2026, the Guru Nanak / Kabir Das precedent; Ahmad may strike)
+- [x] Hashim Amla — 1983–Living
+- [x] Tabraiz Shamsi — 1990–Living
+- [x] Farhaan Behardien — 1983–Living
+- [x] Usman Khawaja — 1986–Living
+- [x] Fawad Ahmed — 1982–Living
+- [x] Sania Mirza — 1986–Living
+- [x] Ons Jabeur — 1994–Living
+- [x] Younes El Aynaoui — 1971–Living
+- [x] Aisam-ul-Haq Qureshi — 1980–Living
+- [x] Arshad Nadeem — 1997–Living
+- [x] Mutaz Essa Barshim — 1991–Living
+- [x] Sufi Abu Taleb — 1925–2008
+- [x] Hamza El Din — 1929–2006
+- [x] Ali Farka Touré — 1939–2006
+- [x] Vieux Farka Touré — 1981–Living
+- [x] Salif Keita — 1949–Living
+- [x] Oumou Sangaré — 1968–Living
+- [x] Ballaké Sissoko — 1967–Living
+- [x] Toumani Diabaté — 1965–2024
+- [x] Baaba Maal — 1953–Living
+- [x] Youssou N'Dour — 1959–Living
+- [x] Ismaël Lô — 1956–Living
+- [x] Alpha Blondy — 1953–Living
+- [x] Akon (Aliaune Badara Akon Thiam) — 1973–Living
+- [x] Swizz Beatz (Kasseem Daoud Dean) — 1978–Living
+- [x] Busta Rhymes (Trevor George Smith Jr.) — 1972–Living
+- [x] Big Dad RZA / RZA (Robert Fitzgerald Diggs) — 1969–Living
+- [x] Brother Ali (Ali Newman) — 1977–Living
+- [x] Q-Tip (Kamaal Ibn John Fareed) — 1970–Living
+- [x] Ali Shaheed Muhammad — 1968–Living
+- [x] French Montana (Karim Kharbouch) — 1984–Living
+- [x] DJ Khaled (Khaled Mohamed Khaled) — 1975–Living
 - [ ] Maher Arar — 1970–Living
 - [ ] Monia Mazigh — 1970–Living
 - [ ] Omar Khadr — 1986–Living
@@ -333,7 +332,6 @@ lists' own order. Status markers: [ ] queued · [~] in a writer's hands · [x] m
 - [ ] Anissa Meksen — 1988–Living
 - [ ] Ruqsana Begum — 1983–Living
 - [ ] Kallie Knoetze (Contemporary) — 1953–Living
-- [ ] Muhammad Ali (Laila Ali's father) — 1942–2016
 - [ ] Laila Ali — 1977–Living
 - [ ] Riddick Bowe — 1967–Living
 - [ ] Dwight Muhammad Qawi — 1953–Living
@@ -440,7 +438,6 @@ lists' own order. Status markers: [ ] queued · [~] in a writer's hands · [x] m
 - [ ] Mohamed Ould Abdel Aziz — 1956–Living
 - [ ] Mohamed Ould Ghazouani — 1956–Living
 - [ ] Lamine Diack — 1933–2021
-- [ ] Léopold Sédar Senghor — 1906–2001
 - [ ] Abdou Diouf — 1935–Living
 - [ ] Abdoulaye Wade — 1926–Living
 - [ ] Macky Sall — 1961–Living
@@ -684,7 +681,6 @@ lists' own order. Status markers: [ ] queued · [~] in a writer's hands · [x] m
 - [ ] Wan Muhamad Noor Matha — 1944–Living
 - [ ] Surin Pitsuwan — 1949–2017
 - [ ] Azza Karam — 1968–Living
-- [ ] Dr. Sima Samar — 1957–Living
 - [ ] Dr. Sania Nishtar — 1963–Living
 - [ ] Dr. Zubaida Sirang — 1990–Living
 - [ ] Dr. Abdul Samad — 1980–Living
@@ -886,7 +882,6 @@ lists' own order. Status markers: [ ] queued · [~] in a writer's hands · [x] m
 - [ ] Rageh Omaar — 1967–Living
 - [ ] Asad Ahmad — 1969–Living
 - [ ] Adnan Nawaz — 1968–Living
-- [ ] Sharmeen Obaid-Chinoy — 1978–Living
 - [ ] Shazia Mirza — 1972–Living
 - [ ] Nabil Abdulrashid — 1985–Living
 - [ ] Tez Ilyas — 1983–Living
@@ -1012,56 +1007,56 @@ lists' own order. Status markers: [ ] queued · [~] in a writer's hands · [x] m
 - [x] Ashraf Ali Thanwi (1863–1943)
 - [x] Nawab Khwaja Abdul Ghani (1813–1896)
 - [x] Nawab Salimullah (1871–1915)
-- [ ] Syed Nawab Ali Chowdhury (1863–1929)
-- [ ] Nawab Faizunnesa Choudhurani (1834–1903)
-- [ ] Rokeya Sakhawat Hossain (1880–1932)
-- [ ] Kazi Nazrul Islam (1899–1976)
-- [ ] Ismail Hossain Siraji (1880–1931)
-- [ ] Meer Mosharraf Hossain (1847–1912)
-- [ ] Muhammad Husain Azad (1830–1910)
-- [ ] Zakaullah of Dehli (1832–1910)
-- [ ] Badruddin Tyabji (1844–1906)
-- [ ] Justice Syed Mahmood (1850–1903)
-- [ ] Vakkom Moulavi (1873–1932)
-- [ ] Sanaullah Amritsari (1868–1948)
-- [ ] Agha Khan III (1877–1957)
-- [ ] Sayyid Fadl ibn Alawi (1824–1900)
-- [ ] Sultan Said bin Sultan (1791–1856)
-- [ ] Sultan Majid bin Said (1834–1870)
-- [ ] Emily Ruete (Sayyida Salme) (1844–1924)
-- [ ] Sheikh Uways al-Barawi (1847–1909)
-- [ ] Sultan Kenadid (1845–1929)
-- [ ] Ali Yusuf Kenadid (1880–1940)
-- [ ] Sheikh Mukhtar al-Kunti (1729–1811)
-- [ ] Seku Amadu (1776–1845)
-- [ ] Ba Lobbo (1820–1890)
-- [ ] Mamadou Lamine Dramé (1840–1887)
-- [ ] Lat Dior (1842–1886)
-- [ ] Alboury Ndaye (1845–1901)
-- [ ] Alpha Yaya Diallo (1830–1912)
-- [ ] Almamy Suluku (1820–1906)
-- [ ] Bai Bureh (1840–1908)
-- [ ] Sundiata Keita Successors (Oral Scholars) (1800–1900)
-- [ ] Modibo Keita's Ancestoral Reformers (1850–1920)
+- [x] Syed Nawab Ali Chowdhury (1863–1929)
+- [x] Nawab Faizunnesa Choudhurani (1834–1903)
+- [x] Rokeya Sakhawat Hossain (1880–1932)
+- [x] Kazi Nazrul Islam (1899–1976) (built under §A)
+- [x] Ismail Hossain Siraji (1880–1931)
+- [x] Meer Mosharraf Hossain (1847–1912)
+- [x] Muhammad Husain Azad (1830–1910)
+- [x] Zakaullah of Dehli (1832–1910)
+- [x] Badruddin Tyabji (1844–1906)
+- [x] Justice Syed Mahmood (1850–1903)
+- [x] Vakkom Moulavi (1873–1932)
+- [x] Sanaullah Amritsari (1868–1948)
+- [x] Agha Khan III (1877–1957)
+- [x] Sayyid Fadl ibn Alawi (1824–1900)
+- [x] Sultan Said bin Sultan (1791–1856)
+- [x] Sultan Majid bin Said (1834–1870)
+- [x] Emily Ruete (Sayyida Salme) (1844–1924)
+- [x] Sheikh Uways al-Barawi (1847–1909)
+- [x] Sultan Kenadid (1845–1929)
+- [x] Ali Yusuf Kenadid (1880–1940)
+- [x] Sheikh Mukhtar al-Kunti (1729–1811)
+- [x] Seku Amadu (1776–1845)
+- [x] Ba Lobbo (1820–1890)
+- [x] Mamadou Lamine Dramé (1840–1887)
+- [x] Lat Dior (1842–1886)
+- [x] Alboury Ndaye (1845–1901)
+- [x] Alpha Yaya Diallo (1830–1912)
+- [x] Almamy Suluku (1820–1906)
+- [x] Bai Bureh (1840–1908)
+- [x] Sundiata Keita Successors (Oral Scholars) (1800–1900) (resolved editorially — collective row: no identifiable individuals denote this entry; resolution recorded in the modern-figures progress log, wave 22 §B; nothing built)
+- [x] Modibo Keita's Ancestoral Reformers (1850–1920) (resolved editorially — collective row: no identifiable individuals denote this entry; resolution recorded in the modern-figures progress log, wave 22 §B; nothing built)
 - [ ] Cheikh Ahmadou Tidiane Sy (Elders) (1880–1950)
-- [ ] Said al-Mufti (1898–1989)
-- [ ] Sharif Hussein ibn Ali (1854–1931)
-- [ ] King Faisal I (1885–1933)
-- [ ] King Abdullah I (1882–1951)
-- [ ] Ali bin Hussein (1879–1935)
-- [ ] Ibn Saud (Abdulaziz Al Saud) (1875–1953)
-- [ ] Muhammad ibn Abd al-Wahhab's Lineage (Al ash-Sheikh) (1800–1920)
-- [ ] Sheikh Mubarak Al-Sabah (1837–1915)
-- [ ] Sheikh Jaber II Al-Sabah (1860–1917)
-- [ ] Sheikh Salim Al-Mubarak Al-Sabah (1864–1921)
-- [ ] Sheikh Zayed bin Khalifa Al Nahyan (1835–1909)
-- [ ] Sheikh Saqr bin Khalid Al Qasimi (1875–1914)
-- [ ] Sultan Turki bin Said (1832–1888)
-- [ ] Sultan Faisal bin Turki (1864–1913)
-- [ ] Sultan Taimur bin Feisal (1886–1965)
-- [ ] Imam Azzan bin Qais (1840–1871)
-- [ ] Sheikh Abdallah bin Qasim Al Thani (1871–1957)
-- [ ] Sheikh Jassim bin Mohammed Al Thani (1825–1913)
+- [x] Said al-Mufti (1898–1989)
+- [x] Sharif Hussein ibn Ali (1854–1931)
+- [x] King Faisal I (1885–1933)
+- [x] King Abdullah I (1882–1951)
+- [x] Ali bin Hussein (1879–1935)
+- [x] Ibn Saud (Abdulaziz Al Saud) (1875–1953)
+- [x] Muhammad ibn Abd al-Wahhab's Lineage (Al ash-Sheikh) (1800–1920) (resolved editorially — lineage row, not a person: no collective record built; individually buildable Al ash-Sheikh candidates named in the modern-figures progress log, wave 25 §B, for the founder to queue or decline)
+- [x] Sheikh Mubarak Al-Sabah (1837–1915)
+- [x] Sheikh Jaber II Al-Sabah (1860–1917)
+- [x] Sheikh Salim Al-Mubarak Al-Sabah (1864–1921)
+- [x] Sheikh Zayed bin Khalifa Al Nahyan (1835–1909)
+- [x] Sheikh Saqr bin Khalid Al Qasimi (1875–1914)
+- [x] Sultan Turki bin Said (1832–1888)
+- [x] Sultan Faisal bin Turki (1864–1913)
+- [x] Sultan Taimur bin Feisal (1886–1965)
+- [x] Imam Azzan bin Qais (1840–1871)
+- [x] Sheikh Abdallah bin Qasim Al Thani (1871–1957)
+- [x] Sheikh Jassim bin Mohammed Al Thani (1825–1913)
 - [ ] Mustafa Reşid Pasha (1800–1858)
 - [ ] Mehmed Emin Âli Pasha (1815–1871)
 - [ ] Keçecizade Fuad Pasha (1814–1869)
@@ -1069,7 +1064,6 @@ lists' own order. Status markers: [ ] queued · [~] in a writer's hands · [x] m
 - [ ] Ahmed Rıza (1858–1930)
 - [ ] Prince Sabahaddin (1879–1948)
 - [ ] Ibrahim Edhem Pasha (1819–1893)
-- [ ] Şemseddin Sami (1850–1904)
 - [ ] Ibrahim Şinasi (1826–1871)
 - [ ] Tevfik Fikret (1867–1915)
 - [ ] Cenap Şahabettin (1870–1934)
@@ -1108,7 +1102,6 @@ lists' own order. Status markers: [ ] queued · [~] in a writer's hands · [x] m
 - [ ] Sheikh Hamdullah Efendi (1850–1922)
 - [ ] Sami Efendi (1838–1912)
 - [ ] Hasan Riza Efendi (1849–1920)
-- [ ] Şevki Efendi (1829–1887)
 - [ ] Mehmed Şevket Eygi (Ancestors) (1880–1940)
 - [ ] Sheikh Fazlollah Nouri (1843–1909)
 - [ ] Sayyid Jamal al-Din Va'iz (1862–1908)
@@ -1177,11 +1170,8 @@ lists' own order. Status markers: [ ] queued · [~] in a writer's hands · [x] m
 - [ ] Abbas II of Egypt (1874–1944)
 - [ ] Hussein Kamel of Egypt (1853–1917)
 - [ ] King Fuad I (1868–1936)
-- [ ] Yaqub Sanu (1839–1912)
 - [ ] Abdullah al-Nadim (1845–1896)
-- [ ] Qasim Amin (1863–1908)
 - [ ] Ahmed Lutfi al-Sayyid (1872–1963)
-- [ ] Taha Hussein (1889–1973)
 - [ ] Abbas al-Aqqad (1889–1964)
 - [ ] Salama Moussa (1887–1958)
 - [ ] Mustafa Sadiq al-Rafi'i (1880–1937)
@@ -1280,9 +1270,7 @@ lists' own order. Status markers: [ ] queued · [~] in a writer's hands · [x] m
 - [ ] Mustafa Khan Shefta (1804–1869)
 - [ ] Dagh Dehlvi (1831–1905)
 - [ ] Ameer Meenai (1828–1900)
-- [ ] Akbar Allahabadi (1846–1921)
 - [ ] Badr al-Din al-Aini (Descendants) (1830–1900)
-- [ ] Mahmud al-Hasan (Sheikh al-Hind) (1851–1920)
 - [ ] Hussain Ahmad Madani (1879–1957)
 - [ ] Kifayatullah Dehlvi (1875–1952)
 - [ ] Abdul Bari Firangi Mahali (1878–1926)
@@ -1306,7 +1294,7 @@ lists' own order. Status markers: [ ] queued · [~] in a writer's hands · [x] m
 - [ ] Nawab Mohsin-ul-Mulk (1837–1907)
 - [ ] Nawab Viqar-ul-Mulk (1841–1917)
 - [ ] Justice Shah Sulaiman (1891–1941)
-- [ ] Syed Mahmood (Judge) (1850–1903)
+- [x] Syed Mahmood (Judge) (1850–1903) (built under §B as Justice Syed Mahmood)
 - [ ] Justice Karamat Husain (1854–1917)
 - [ ] Muhammad Inayatullah Khan Mashriqi (1888–1963)
 - [ ] Obaidullah Sindhi (1872–1944)
@@ -1349,7 +1337,6 @@ lists' own order. Status markers: [ ] queued · [~] in a writer's hands · [x] m
 - [ ] Abdul Aleem Siddiqui (1892–1954)
 - [ ] Shah Ahmad Noorani (1926–2003)
 - [ ] Muhammad Shafee Okarvi (1929–1984)
-- [ ] Sayyid Abul A'la Maududi (1903–1979)
 - [ ] Manzoor Nomani (1905–1997)
 - [ ] Muhammad Ilyas Kandhlawi (1885–1944)
 - [ ] Muhammad Zakariya Kandhlawi (1898–1982)
@@ -1384,7 +1371,6 @@ lists' own order. Status markers: [ ] queued · [~] in a writer's hands · [x] m
 - [ ] Zehra Faizi (1880–1940)
 - [ ] Suhrawardy Art Guild Founders (1890–1930)
 - [ ] Syed Ross Masood (1889–1937)
-- [ ] Sultan Kaikhusrau Jahan (1858–1930)
 - [ ] Shah Jahan Begum (1838–1901)
 - [ ] Sikandar Begum (1817–1868)
 - [ ] Qudsia Begum (1801–1881)
@@ -1626,7 +1612,6 @@ lists' own order. Status markers: [ ] queued · [~] in a writer's hands · [x] m
 - [ ] Vehbi Dibra (1867–1937)
 - [ ] Hafiz Ali Korça (1873–1956)
 - [ ] Salih Safvet Bašić (1886–1948)
-- [ ] Mehmed Džemaludin Čaušević (1870–1938)
 - [ ] Safvet-beg Bašagić (1870–1934)
 - [ ] Edhem Mulabdić (1862–1954)
 - [ ] Osman Nuri Hadžić (1869–1937)
@@ -1801,7 +1786,7 @@ lists' own order. Status markers: [ ] queued · [~] in a writer's hands · [x] m
 - [ ] Muhammad al-Kanemi — 1776–1837
 - [ ] Sulayman Bal — 1730–1775
 - [ ] Abdul Kader Kane — 1745–1806
-- [ ] Seku Amadu (Amadu Lobbo) — 1776–1845
+- [x] Seku Amadu (Amadu Lobbo) — 1776–1845
 - [ ] Karamokho Alfa — 1700–1751
 - [ ] Ibrahim Sori — 1725–1784
 - [ ] Shah Abdul Aziz Dehlawi — 1746–1824
@@ -1879,7 +1864,6 @@ All 34 real names in the list are already in the museum; the remaining 966 rows 
 - [ ] Jamal al-Din Khwansari — 1651–1711
 - [ ] Mohammad-Saleh Khwansari — 1620–1688
 - [ ] Sayyid Nezam al-Din Ahmad — 1610–1675
-- [ ] Sultan Suleiman II — 1642–1691
 - [ ] Kâtip Çelebi (Hacı Halife) — 1609–1657
 - [ ] Nâbî — 1642–1712
 - [ ] Nef'î — 1589–1635
@@ -1927,9 +1911,7 @@ All 34 real names in the list are already in the museum; the remaining 966 rows 
 - [ ] Sheikh Farid al-Din Ganjshakar (Baba Farid) — 1173–1266
 - [ ] Lal Shahbaz Qalandar — 1177–1274
 - [ ] Fakhr al-Din 'Iraqi — 1213–1289
-- [ ] Ibn al-Farid — 1181–1235
 - [ ] Amir Khusrow — 1253–1325
-- [ ] Abu Yusuf Yaqub ibn Abd al-Haqq — 1212–1286
 - [ ] Abu Yaqub Yusuf an-Nasr — 1260–1307
 - [ ] Muhammad II al-Faqih of Granada — 1235–1302
 - [ ] Oldjaitu (Muhammad Khodabandeh) — 1280–1316

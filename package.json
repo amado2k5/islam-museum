@@ -21,9 +21,11 @@
     "daily": "tsx scripts/edu-daily.ts",
     "dashboard": "node tools/dashboard/generate.mjs && open http://localhost:8899",
     "test": "vitest run",
+    "axe": "tsx scripts/axe-scan.ts",
+    "books": "tsx scripts/a11y-books.ts",
     "prebuild": "npm run validate && npm run graph && npm run derive && npm run api && npm run daily",
     "dev": "npm run graph && npm run derive && npm run api && npm --prefix site run dev",
-    "build": "npm --prefix site run build && npm run check:site && npm run check:weight",
+    "build": "npm --prefix site run build && npm run check:site && npm run check:weight && npm run books",
     "check:static": "tsx scripts/check-static.ts",
     "check:site": "tsx scripts/check-site.ts",
     "check:weight": "tsx scripts/check-weight.ts"
@@ -38,8 +40,11 @@
     "yaml": "^2.6.0"
   },
   "devDependencies": {
+    "@axe-core/playwright": "^4.14.0",
     "@types/node": "^22.0.0",
     "@types/qrcode-generator": "^0.0.16",
+    "liblouis": "^0.4.0",
+    "playwright": "^1.64.1",
     "tsx": "^4.19.0",
     "typescript": "^5.6.0",
     "vitest": "^3.0.0"

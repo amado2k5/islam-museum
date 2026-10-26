@@ -1,0 +1,37 @@
+id: person/saqr-bin-khalid-al-qasimi
+class: person
+label: { ar: "صقر بن خالد القاسمي", en: "Saqr bin Khalid Al Qasimi", ur: "صقر بن خالد القاسمی" }
+names:
+  - { value: "صقر بن خالد القاسمي", kind: full }
+  - { value: "Saqr bin Khalid Al Qasimi", kind: full }
+gender: male
+summary:
+  ar: "صقر بن خالد القاسمي (لا تاريخ ولادة له في أي مصدر – توفي سنة 1914)، حاكم إمارة الشارقة من أسرة آل قاسمي من 1883 إلى وفاته، وحاكم رأس الخيمة من 1900. استولى على الحكم انقلابًا أثناء غياب عمه الحاكم سالم بن سلطان، ثم صافاه بتسوية معاش سنة 1884، وواجه محاولات انفصال حميرية وشعم، ونجا من مؤامرات عمه المتكررة، وضمّ رأس الخيمة سنة 1900 وحكمها بالولاة، حتى إذا أحكم عمه سالم قبضته عليها سنة 1910 بقي صقر حاكمًا اسميًا لها حتى وفاته، وخلفه في الشارقة خالد بن أحمد، ومن أبنائه سلطان الثاني ومحمد اللذين حكما الشارقة في القرن العشرين."
+  en: "Saqr bin Khalid Al Qasimi (no birth date is given by any source read – died in 1914) was ruler of Sharjah of the Al Qasimi family from 1883 until his death, and ruler of Ras Al Khaimah from 1900. Left in charge of Sharjah, he seized power in a coup during the absence of his uncle, the ruler Salim bin Sultan, then settled with him under the pension agreement of 1884; he faced the secession attempts of Hamriyah and Sha'am, survived his uncle's repeated plots, annexed Ras Al Khaimah in 1900 and governed it through deputies, and remained its nominal ruler until his death even after his uncle Salim consolidated real power there in 1910. He was succeeded in Sharjah by Khalid bin Ahmad; his sons Sultan II and Muhammad later ruled Sharjah in the twentieth century."
+  ur: "صقر بن خالد القاسمی (تاریخِ ولادت کسی ماخذ میں نہیں – وفات: 1914ء)، 1883ء سے وفات تک شارجہ اور 1900ء سے راس الخیمہ کے حکمران تھے۔ انہوں نے چچا سلیم بن سلطان کی غیر موجودگی میں حکومت سنبھالی، 1884ء میں پنشن کا معاہدہ کیا، حمیریہ و شعم کی علاحدگی کی کوششیں ناکام بنائیں، 1900ء میں راس الخیمہ ضم کیا اور نائبین کے ذریعے حکومت کی؛ 1910ء کے بعد وہاں اصل اقتدار چچا سلیم کے پاس چلا گیا مگر صقر وفات تک برائے نام حکمران رہے۔"
+roles: [ruler]
+wings: [people]
+died:
+  edtf: "1914"
+  hijri: "1332"
+  calendar: gregorian
+  precision: year
+  status: historical
+  derived: true
+  note: "He died in 1914, the year given by the English and Arabic articles' texts and by Wikidata. One of the Arabic article's categories instead files him under 'deaths 1913' — a stray category reading, stated here and not followed. Wikidata places both his birth and his death in the Emirate of Sharjah (Q188810), where the English article gives no places at all; the museum has no place entity for Sharjah, so no died_in edge is written. The Hijri year (1332) is derived by tabular conversion: the Gregorian year 1914 spans 1332–1333 AH and its mid-year falls in 1332."
+  sources: [source/wikipedia-saqr-bin-khalid-al-qasimi-en, source/wikipedia-saqr-bin-khalid-al-qasimi-ar, source/wikidata-saqr-bin-khalid-al-qasimi]
+relations:
+  - { type: member_of, target: group/al-qasimi, note: "Ruler of Sharjah, and from 1900 of Ras Al Khaimah, of the Al Qasimi house (English and Arabic articles); the edge is written to the house group as the museum models it.", sources: [source/wikipedia-saqr-bin-khalid-al-qasimi-en, source/wikipedia-saqr-bin-khalid-al-qasimi-ar] }
+faith:
+  - value: unknown
+    basis: unknown
+    note: "No source read names a religion or a school for Saqr himself. The English, Arabic and Urdu articles state no religion for him at all, and his Wikidata item carries no religion (P140) value whatever — an absence the record states rather than fills. His family's and his emirates' milieu is family background and never counts. With no source naming a school for the man himself, let alone two independent sources naming the same school, his faith is left unknown under the two-source rule and the doubt rule ('if we have doubt then unclassified')."
+    sources: [source/wikipedia-saqr-bin-khalid-al-qasimi-en, source/wikipedia-saqr-bin-khalid-al-qasimi-ar, source/wikipedia-saqr-bin-khalid-al-qasimi-ur, source/wikidata-saqr-bin-khalid-al-qasimi]
+external_ids: { wikidata: "Q57164220" }
+sources: [source/wikipedia-saqr-bin-khalid-al-qasimi-en, source/wikipedia-saqr-bin-khalid-al-qasimi-ar, source/wikipedia-saqr-bin-khalid-al-qasimi-ur, source/wikidata-saqr-bin-khalid-al-qasimi]
+provenance:
+  layer: own-research
+  source: "English Wikipedia 'Saqr bin Khalid Al Qasimi' (revision 1363741826), Arabic Wikipedia 'صقر بن خالد القاسمي' (revision 70718207) and Urdu Wikipedia 'صقر بن خالد القاسمی' (revision 7358687), read on 26 October 2026, with Wikidata item Q57164220. NO born block is written: no source read gives him a birth date — the English infobox's birth_date field is empty and Wikidata has no birth value — so the harvest queue's birth year 1875 is unsupported and is not recorded (see the brief corrections in the run report); the '(1883–1914)' printed in the English and Arabic leads is his reign, not his life span. His father is identified by Wikidata as Khalid bin Sultan Al Qasimi (Q60785755) — on the English Zayed article's account the Sharjah ruler whom Zayed bin Khalifa killed in single combat in 1868 — but no child_of edge is written, because Khalid has no museum person record. The sources' disagreements are stated in the notes and prose rather than merged: the Arabic category's death year 1913 against 1914 everywhere else; the Arabic infobox's Ras Al Khaimah reign ending in 1910 against the English article's nominal rule until 1914; and the Urdu translation's errors (Sha'am dated December 1855 for 1885, and Saqr's name garbled as Khalid)."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: century-additions-25
+status: { review: published, completeness: 3, generated_by: "Muse (Muse Spark 1.3)" }

@@ -38,6 +38,15 @@ a11y:
   theme_light: Switch to light theme
   theme: Toggle dark mode
   menu: Main navigation
+  prefs: Accessibility
+  prefs_text: Text size
+  prefs_smaller: Smaller text
+  prefs_larger: Larger text
+  prefs_leading: Roomier line spacing
+  prefs_contrast: Higher contrast
+  prefs_motion: Reduce motion
+  prefs_links: Underline all links
+  prefs_note: 'Saved on this device only — nothing is sent anywhere.'
 landing:
   eyebrow: A digital museum · open to everyone
   title_pre: A museum for the
@@ -368,6 +377,9 @@ surahmap:
   family_stories: Stories
   family_law: Law
   row_map: Map
+  zoom_in: 'Zoom in'
+  zoom_out: 'Zoom out'
+  zoom_reset: 'Reset zoom'
 reader:
   title: The Mushaf
   lede: The full Qur'an for continuous reading, surah by surah — from the frozen Tanzil text, every verse a door to its museum page.
@@ -519,6 +531,7 @@ footer:
   news: Museum news
   contact: Contact
   privacy_policy: Privacy policy
+  accessibility: 'Accessibility'
   authenticity: How we decide what to show
   no_tracking: No tracking, no ads
   changelog: Change log
@@ -1160,6 +1173,7 @@ kids:
   stories_talk: Talk about it
   stories_all: All stories
   stories_listen: Listen
+  stories_transcript: 'The full text of this story is printed above.'
   grownups_stories: The bedtime stories are gentle retellings of the five journey tales — not copies of them. Each ends with one calm question for family discussion.
   sprouts_garden_title: Sprouts' Garden
   sprouts_garden_lede: Big beautiful flowers! Tap a flower and watch it bloom.
@@ -1364,6 +1378,59 @@ privacy:
   adr_link: Decision 0002
   contact_cta: Email us
   report_cta: Report an error
+accessibility:
+  title: 'Accessibility'
+  lede: 'The museum is for everyone. This statement explains how the site is built to be used by people who are blind or have low vision, who are Deaf or hard of hearing, who do not speak, and who use a keyboard or other assistive technology, and how to tell us when something does not work.'
+  updated: 'Last updated: 25 October 2026'
+  commit_title: 'Our commitment'
+  commit_body: 'Access to culture is a right of every person, including persons with disabilities (UN Convention on the Rights of Persons with Disabilities, articles 9 and 30). islam.museum is free, has no accounts and no paywall, and is built so that the same pages can be read with the eyes, by ear through a screen reader, and by touch on a refreshable braille display, in Arabic, English and Urdu. We welcome every visitor, of every ability, language and background.'
+  status_title: 'Conformance status'
+  status_1: 'The museum''s target is the Web Content Accessibility Guidelines (WCAG) 2.2, level AA, published by the World Wide Web Consortium (W3C) and adopted as the international standard ISO/IEC 40500. The site is partially conformant: most pages meet the target, and the known gaps are listed below with the work under way to close them.'
+  status_2: 'This assessment is our own (a self-assessment), made with automated checks on every change and with manual testing. An independent audit is planned, and its report will be published on this page.'
+  standards_title: 'Standards and laws we follow'
+  standards_1: 'International: W3C WCAG 2.2 AA and WAI-ARIA 1.2; the UN Convention on the Rights of Persons with Disabilities; the Marrakesh Treaty on accessible formats for blind and print-disabled readers; the UNESCO 2015 Recommendation on museums and collections and the ICOM museum definition, which call for museums that are accessible and inclusive.'
+  standards_2: 'Canada, where the museum is operated: the Accessible Canada Act and the standard CAN/ASC-EN 301 549, and the Accessibility for Ontarians with Disabilities Act (AODA) and its Integrated Accessibility Standards.'
+  standards_3: 'United States: the Americans with Disabilities Act (ADA) and Section 508 of the Rehabilitation Act.'
+  standards_4: 'European Union and United Kingdom: the European Accessibility Act (Directive 2019/882), the Web Accessibility Directive (2016/2102) and the harmonised standard EN 301 549; the UK Equality Act 2010. This statement follows the European Commission''s model accessibility statement.'
+  blind_title: 'Blind and low-vision visitors, screen readers and braille'
+  blind_1: 'Every page is real text in a clear structure: one main heading, headings in order, landmarks (header, navigation, main content, footer), a "Skip to content" link as the first item, and lists and tables marked up as such. Screen readers such as NVDA, JAWS, VoiceOver, TalkBack and Orca can read and navigate it.'
+  blind_2: 'Braille: the website does not draw braille itself. A screen reader sends the page text to a refreshable braille display, which shows it in braille. For this to work in three languages, every page declares its language and direction, so the screen reader and the braille display switch to Arabic braille, English braille (Unified English Braille) or Urdu braille.'
+  blind_3: 'Images carry a text alternative (alt text); decorative patterns and icons are hidden from screen readers so that they do not interrupt reading.'
+  blind_4: 'Every page can be read with JavaScript turned off. Interactive features are added on top of the text and never hide it.'
+  vision_title: 'Low vision, colour and reading comfort'
+  vision_1: 'Text and controls meet the WCAG contrast ratios (4.5:1 for text, 3:1 for large text and borders) in both the light and the dark theme, and colour is never the only way information is given. Pages reflow on small phone screens without sideways scrolling.'
+  vision_2: 'From the header you can switch between a light and a dark theme and between two typefaces, and the "Accessibility" menu lets you enlarge the text, widen the line spacing, raise the contrast, stop motion and underline every link. These choices are kept on your device only. The site also follows your device''s light or dark setting, high-contrast (forced colours) mode and reduced-motion setting.'
+  deaf_title: 'Deaf and hard-of-hearing visitors'
+  deaf_1: 'The museum is written, not spoken: nothing on the site is available only as sound. Where a children''s story offers narration, the full text of the story is printed on the same page above the player, and audio never plays by itself.'
+  deaf_2: 'Any audio or video added to the museum must come with captions or a full transcript in Arabic, English and Urdu.'
+  deaf_3: 'Sign-language versions of the welcome, the guide to the museum and this statement are planned, signed by Deaf signers in American Sign Language, Quebec Sign Language (LSQ), British Sign Language, International Sign, Arabic sign language and Pakistan Sign Language. They will be added to this page as they are made.'
+  speech_title: 'Visitors who do not speak'
+  speech_1: 'Nothing on the site needs your voice: there is no voice input, no microphone, no phone line and no spoken test. Every way to reach us is written (email or a form on GitHub).'
+  keyboard_title: 'Keyboard, switch and touch'
+  keyboard_1: 'Everything can be done with a keyboard alone: Tab and Shift+Tab move between links and buttons, Enter and Space activate them, and Escape closes the phone menu and returns you to the button that opened it. Focus is always visible.'
+  keyboard_2: 'Buttons and links are large enough to tap. The children''s games are designed to be played with the keyboard, and there are no time limits on reading.'
+  limits_title: 'Known limitations'
+  limits_1: 'This is a self-assessment: the site has not yet been audited by an independent accessibility auditor. The audit and its conformance report (ACR/VPAT) are planned.'
+  limits_2: 'The interactive map, the knowledge graph and the 3D hall are visual by nature; their text equivalents are being completed and tested with screen readers.'
+  limits_3: 'Some citations link to recorded lectures on other sites, which the museum does not control and which may have no transcript. Braille-ready files (BRF) and accessible e-books (EPUB) of the museum''s texts are planned. An easy-read level exists only where a Kids'' Wing version exists; most adult pages do not have one yet.'
+  tech_title: 'Technology the site relies on'
+  tech_1: 'HTML, CSS and WAI-ARIA, read by any modern browser; JavaScript is optional. The site uses no accessibility overlay or third-party toolbar: such tools add outside scripts and do not make a site accessible, so accessibility is built into the pages themselves.'
+  formats_title: 'Other formats'
+  formats_body: 'All texts are open (prose CC BY-SA 4.0, data CC0), so they may be converted into braille, large print, audio or any other accessible format and shared freely. If you need a page in another format, write to us and we will help.'
+  formats_books_link: 'Download ready-made books: braille files (BRF) and accessible e-books (EPUB 3) for pathways, kids stories and this page'
+  feedback_title: 'Tell us about a barrier'
+  feedback_1: 'If something on the site does not work for you, or you need information in a different format, tell us. Please say which page (its address), what you were trying to do and, if you wish, which browser and assistive technology you use.'
+  feedback_2: 'We reply within five working days and fix barriers as a priority. You can write to us by email or open a public report on GitHub.'
+  feedback_cta: 'Email us about accessibility'
+  feedback_issue: 'Report an accessibility barrier'
+  law_title: 'If you are not satisfied'
+  law_body: 'If our reply does not resolve the problem, you may contact the body responsible where you live: in Canada, the Accessibility Commissioner (Canadian Human Rights Commission) or, in Ontario, the Accessibility Directorate of Ontario; in the European Union, the enforcement body of your member state; in the United Kingdom, the Equality Advisory and Support Service; in the United States, the Department of Justice ADA information line.'
+  method_title: 'How this statement was prepared'
+  method_body: 'This statement was prepared on 25 October 2026 from a self-assessment of the site against WCAG 2.2 AA, with automated checks (a Lighthouse accessibility score of 100 is required on every pull request) and manual review. It is reviewed at least once a year and whenever the site changes in a way that affects access.'
+  more_title: 'Further reading'
+  more_body: 'The design and accessibility rules that every contributor follows are published in the public repository.'
+  more_link_rules: 'Design and accessibility rules'
+  ld_summary: 'Text-first page: every visual element has a text equivalent. Keyboard, screen readers and braille displays are supported; no audio, flashing or motion is required.'
 support:
   title: Support the museum
   lede: This museum is free and open, with no ads and no tracking. If it is useful to you, your support keeps it that way and helps it grow faster.
@@ -1586,6 +1653,7 @@ edu:
   level_full: Full text
   level_remember: Your choice is kept in this browser only.
   level_kids_link: Read it in the Kids' Wing
+  level_easy: 'An easier version is available for young readers:'
   read_eyebrow: Reading at your level
   read_lede: A grown-up reads you the short text; the longer one you read yourself.
   read_sprouts: Read to me (4–6)
@@ -1791,3 +1859,4 @@ shabab:
   sb_journey_done: done
   sb_journey_todo: still to try
   sb_journey_print: Print my map
+  sb_journey_list: 'List the items in words'

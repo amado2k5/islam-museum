@@ -34,6 +34,7 @@ The splitter output is checked by reading each entry before it is written. Its n
 - Every record: `label.ar`, `summary.ar` (required), `summary.en`, `summary.ur`, `sources: [source/encyclopaedia-of-islam-2, …]`, `provenance` (`layer: own-research`, the entry's volume and PDF pages, `generated_by`, `run: ei2-batch-<n>`), `status: { review: published }`.
 - Contested entries (Shi'i, Ibadi, Isma'ili or Zaydi topics, polemical or Orientalist positions, the Sunni frame of the museum) carry `perspectives` in the order the content standards set: Sunni position first where one exists, then the academic view, then other views, each labelled and cited, no verdict.
 - Where the encyclopaedia's own view is the only one, it is attributed to the author's signature (e.g. "V. Minorsky writes…") and not presented as the museum's.
+- Birth and death dates with secondary accounts: where sources give different dates, keep the primary account in the `born` or `died` field and its source in that field's `sources`. Save the secondary account in the field's `note`, with its own citation to the source that gives it (for example `{cite:encyclopaedia-of-islam-2 vol. 1 p. 290}`). Save both; never drop one to make the record agree.
 - Skip-and-log: an entry that is only a cross-reference, a bibliography line, a list of contributors or an OCR artefact is logged in the progress file with the reason, never forced into a record.
 
 ## Checks before each push

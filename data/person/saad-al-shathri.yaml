@@ -1,0 +1,37 @@
+id: person/saad-al-shathri
+class: person
+label: { ar: "سعد الشثري", en: "Saad al-Shathri", ur: "سعد الشثری" }
+names:
+  - { value: "سعد بن ناصر بن عبد العزيز أبو حبيب الشثري", kind: full, lang: ar }
+  - { value: "Saad ibn Nasir ibn Abd al-Aziz Abu Habib al-Shathri", kind: full, lang: en }
+  - { value: "Saad al-Shithri", kind: alternate, lang: en }
+gender: male
+summary:
+  ar: "عالم سعودي في أصول الفقه، وُلد في الرياض سنة 1387هـ، وهو ابن المستشار ناصر الشثري. درّس في كلية الشريعة بجامعة الإمام محمد بن سعود ثم في كلية الحقوق والعلوم السياسية بجامعة الملك سعود، وعُيّن عضوا في هيئة كبار العلماء ومستشارا في الديوان الملكي برتبة وزير، وخطب بعرفة سنة 1438هـ، وله أكثر من ستين مؤلفا."
+  en: "Saudi scholar of usul al-fiqh, born in Riyadh in 1387 AH, son of the royal advisor Nasir al-Shathri. He taught at the College of Sharia of Imam Muhammad ibn Saud University and then at King Saud University's College of Law and Political Science, was appointed to the Council of Senior Scholars and as an advisor in the Royal Court with the rank of minister, delivered the Arafat sermon in 1438 AH, and has written more than sixty books."
+  ur: "اصولِ فقہ کے سعودی عالم، 1387ھ میں ریاض میں پیدا ہوئے، مشیر ناصر الشثری کے صاحبزادے ہیں۔ جامعہ امام محمد بن سعود کے کلیہ الشریعہ اور پھر جامعہ شاہ سعود کے کالج آف لا میں تدریس کی، ہیئتِ کبار العلماء کے رکن اور دیوانِ شاہی میں وزیر کے درجے کے مشیر مقرر ہوئے، 1438ھ میں خطبہ عرفہ دیا، اور ان کی ساٹھ سے زائد تصانیف ہیں۔"
+roles: [scholar]
+wings: [people, living]
+born:
+  edtf: "1967~"
+  hijri: "1387"
+  calendar: gregorian
+  precision: year
+  status: historical
+  derived: true
+  note: "Born in Riyadh in 1387 AH, as the Arabic Wikipedia article and his official-site CV behind it give it; 1387 AH spans April 1967 to March 1968, so the Gregorian year is a conversion and is marked approximate. The English Wikipedia article gives 1964/65, which matches neither the Hijri year nor any source consulted; the conflict is recorded here and the Hijri year is followed. Riyadh has no place record in the museum, so the place is carried here and in the prose rather than as a relation."
+  sources: [source/wikipedia-saad-al-shathri-ar, source/wikipedia-saad-al-shathri-en]
+relations:
+  - { type: child_of, target: person/nasir-al-shathri, sources: [source/wikipedia-saad-al-shathri-ar, source/saudipedia-saad-al-shathri] }
+faith:
+  - value: unknown
+    basis: unknown
+    note: "No two independent sources name a school for him. The Arabic article's infobox gives his creed as 'Muslim, Ahl al-Sunna wa'l-Jama'a' — a broad affiliation, not a school of law; the English article, Saudipedia and his King Saud University CV name no school at all. His book 'Al-Maslahah inda al-Hanabila' (Public Interest according to the Hanbalis) is a research subject, not an affiliation, and his teachers' schools never count. The value therefore stays unknown under the two-source rule and the doubt rule."
+    sources: [source/wikipedia-saad-al-shathri-ar, source/wikipedia-saad-al-shathri-en, source/saudipedia-saad-al-shathri]
+sources: [source/wikipedia-saad-al-shathri-ar, source/wikipedia-saad-al-shathri-en, source/saudipedia-saad-al-shathri, source/youtube-drsuadtv]
+provenance:
+  layer: own-research
+  source: "§3 row 91 of the founder's harvest (channel name only: 'Saad Al-Shathri'). Built from the Arabic Wikipedia article (revision consulted 25 October 2026: birth 1387 AH in Riyadh, career sequence, teachers, book list, the 1438 AH Arafat sermon commission), the English Wikipedia article (revision consulted the same day; its conflicting birth year 1964/65), the Saudipedia entry (posts and teachers) and his official YouTube channel @DrSuadTV. No Wikidata item was identified for him from the sources consulted (checked 25 October 2026). The child_of relation points from this record to his father Nasir al-Shathri's existing record: the subject is the child, the target is the father."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: modern-figures-batch-28
+status: { review: published, completeness: 3, generated_by: "Muse (Muse Spark 1.3)" }

@@ -11,8 +11,11 @@ regions: [levant-iraq]
 relations: []
 provenance:
   layer: own-research
-  source: "فتوح البلدان (ط مؤسسة المعارف 1407هـ/1987م) ص 272–273، 277"
-  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  source: "Encyclopaedia of Islam, 2nd ed. (Brill), vol. 1, PDF pp. 682-683, entry 'ARMINIYA' (EI2 seq 347, batch ei2-b013 part 11; parts 1 onward); فتوح البلدان (ط مؤسسة المعارف 1407هـ/1987م) ص 272–273، 277"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR; EI2 sections (ARMINIYA parts 1 onward) added by Claude Code (claude-haiku-5-5)"
   run: lib-futuh-buldan-batch-16
-sources: [source/futuh-buldan-maarif-1407]
-status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }
+sources: [source/futuh-buldan-maarif-1407, source/encyclopaedia-of-islam-2]
+status: { review: published, completeness: 3 }
+education:
+  levels: [sprouts, explorers, scholars]
+  flagged_for_kids: true

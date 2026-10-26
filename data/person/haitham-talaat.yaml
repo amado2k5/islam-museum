@@ -1,0 +1,35 @@
+id: person/haitham-talaat
+class: person
+label: { ar: "هيثم طلعت", en: "Haitham Talaat", ur: "ہیثم طلعت" }
+names:
+  - { value: "هيثم بن طلعت بن علي سرور", kind: full }
+  - { value: "Haitham ibn Talaat ibn Ali Srour", kind: full }
+  - { value: "Haytham Talaat", kind: alternate }
+gender: male
+summary:
+  ar: "طبيب مصري وباحث وداعية في نقد الإلحاد، وُلد سنة 1981 في صعيد مصر، وحصل على بكالوريوس الطب والجراحة سنة 2004، وكان مدير قسم العلوم الإنسانية بمركز براهين، وله عشرات الكتب في الرد على الإلحاد والشبهات، وقناة عربية على يوتيوب تحمل مناظراته ومحاضراته وتصل مقاطعها إلى ملايين المشاهدات."
+  en: "Egyptian physician, researcher and preacher known for his critique of atheism, born in 1981 in Upper Egypt. He took his bachelor's degree in medicine and surgery in 2004, formerly directed the Humanities Department at the Braheen Center, has written dozens of books answering atheism and religious doubts, and runs an Arabic YouTube channel carrying his debates and lectures, whose videos reach millions of views."
+  ur: "مصری طبیب، محقق اور مبلغ جو الحاد کی تنقید کے لیے معروف ہیں، 1981 میں صعید مصر میں پیدا ہوئے۔ انہوں نے 2004 میں طب و جراحی میں بیچلر کی ڈگری پائی، مرکز براہین میں شعبۂ علومِ انسانیہ کے ڈائریکٹر رہے، الحاد اور شبہات کے جواب میں درجنوں کتابیں لکھیں، اور ایک عربی یوٹیوب چینل چلاتے ہیں جس پر ان کے مناظرے اور محاضرات ہیں اور جس کی ویڈیوز لاکھوں ناظرین تک پہنچتی ہیں۔"
+roles: [preacher, writer, physician]
+wings: [people, living]
+born:
+  edtf: "1981"
+  hijri: "1401"
+  calendar: gregorian
+  precision: year
+  status: historical
+  derived: true
+  note: "Both sources give the year 1981 and the 2004 medical degree, but they conflict on the birthplace: the Alsiyars biography's information table gives Minya in Upper Egypt, while the Samarra Journal study gives Asyut Governorate. The place is therefore not recorded, and no born_in relation is written. The Hijri year is derived by tabular conversion."
+  sources: [source/alsiyars-haitham-talaat, source/samarra-journal-haitham-talaat]
+faith:
+  - value: unknown
+    basis: unknown
+    note: "NOT RECORDED AS DOCUMENTED — the only school attestation found is the Alsiyars biography's own categorisation, which files him under «أهل السنة» (Ahl al-Sunna) in its information table: one source family. The Samarra Journal study describes his scriptural method and his use of Qur'an and Sunna in argument without naming a school for him, and no source names a madhhab. His defence of the Sunna against its deniers is his subject matter, not an attestation of his own school. Under the two-source rule and the doubt rule the value stays unknown."
+    sources: [source/alsiyars-haitham-talaat, source/samarra-journal-haitham-talaat]
+sources: [source/alsiyars-haitham-talaat, source/samarra-journal-haitham-talaat, source/youtube-haitham-talaat]
+provenance:
+  layer: own-research
+  source: "The Alsiyars biographical encyclopedia entry «هيثم طلعت» (full name, Minya birth claim, 2004 degree, book list, Ababeel Academy and Tahsin al-Aql al-Muslim course), the Samarra Journal for Human Studies study «الدكتور هيثم طلعت ودوره في معالجة الإلحاد» (Asyut birth claim, 2004 MB BCh, former directorship of the Humanities Department at the Braheen Center, researcher at the al-Minhaj Center's creeds department, and his YouTube channel IDs in three languages), and his Arabic YouTube channel (channel ID UCLj8UFOcdFrvlh24Lw7jrgA, as listed by the study; About and uploads read 25 October 2026). No Wikipedia article and no Wikidata item for him were found in this pass (searched 25 October 2026). Built for §3 row 63 of the channel harvest."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: modern-figures-batch-24
+status: { review: published, completeness: 3, generated_by: "Muse (Muse Spark 1.3)" }

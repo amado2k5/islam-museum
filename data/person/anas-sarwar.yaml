@@ -1,0 +1,35 @@
+id: person/anas-sarwar
+class: person
+label: { ar: "أنس سرور", en: "Anas Sarwar", ur: "انس سرور" }
+names:
+  - { value: "Anas Sarwar", kind: full }
+  - { value: "Baron Sarwar", kind: laqab }
+gender: male
+summary:
+  ar: "سياسي إسكتلندي من حزب العمال، وُلد في غلاسكو سنة 1983 لأبوين باكستانيين مسلمين. درس طب الأسنان في جامعة غلاسكو وعمل طبيب أسنان في بيزلي، وانتُخب سنة 2010 نائبا عن غلاسكو الوسطى خلفا لوالده محمد سرور، أول نائب مسلم في بريطانيا، ثم عضوا في البرلمان الإسكتلندي منذ 2016، وزعيما لحزب العمال الإسكتلندي (2021-2026) فكان أول مسلم وأول شخص من أصل آسيوي يزعم حزبا سياسيا كبيرا في بريطانيا، ثم وزير دولة للتجارة منذ يوليو 2026 ونال لقب بارون سرور."
+  en: "Scottish Labour politician, born in Glasgow in 1983 to Pakistani Muslim parents. He studied dentistry at the University of Glasgow and worked as a dentist in Paisley, was elected MP for Glasgow Central in 2010 succeeding his father Mohammad Sarwar, Britain's first Muslim MP, has been a Member of the Scottish Parliament since 2016, led the Scottish Labour Party from 2021 to 2026 as the first Muslim and the first person of Asian descent to lead a major UK political party, and has been Minister of State for Trade since July 2026, created Baron Sarwar."
+  ur: "اسکاٹش لیبر سیاست دان، جو 1983 میں گلاسگو میں پاکستانی مسلم والدین کے ہاں پیدا ہوئے۔ انھوں نے یونیورسٹی آف گلاسگو سے دندان سازی پڑھی اور پیزلی میں دندان ساز رہے، 2010 میں اپنے والد محمد سرور — برطانیہ کے پہلے مسلم رکنِ پارلیمان — کے جانشین کے طور پر گلاسگو سینٹرل سے رکنِ پارلیمان منتخب ہوئے، 2016 سے اسکاٹش پارلیمان کے رکن ہیں، 2021ء سے 2026ء تک اسکاٹش لیبر پارٹی کے قائد رہے — کسی بڑی برطانوی سیاسی جماعت کی قیادت کرنے والے پہلے مسلمان اور پہلے ایشیائی نژاد شخص — اور جولائی 2026 سے وزیرِ مملکت برائے تجارت ہیں اور بیرن سرور بنائے گئے۔"
+roles: [politician]
+wings: [people, living]
+born:
+  edtf: "1983-03-14"
+  hijri: "1403"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "Born on 14 March 1983 in Glasgow, Scotland, per the English Wikipedia article and Wikidata. No place entity for Glasgow exists in data/place/, so no born_in relation is written. The Hijri year (1403) is derived by tabular conversion."
+  sources: [source/wikipedia-anas-sarwar-en, source/wikidata-anas-sarwar]
+faith:
+  - value: unknown
+    basis: unknown
+    note: "NOT RECORDED AS DOCUMENTED — no source names a school for him. The English article says he was born to British-Pakistani Muslim parents — family background, which does not count — and records, with The Guardian and The Spectator, that reporters described him on his 2021 election as the first Muslim and the first person of Asian descent to lead a major UK political party; he also received awards at the British Muslim Awards. Those attest a generic Muslim identity, naming no school. Under the two-source rule and the founder's doubt rule the value stays unknown."
+    sources: [source/wikipedia-anas-sarwar-en, source/wikidata-anas-sarwar]
+external_ids: { wikidata: "Q478812" }
+sources: [source/wikipedia-anas-sarwar-en, source/wikidata-anas-sarwar]
+provenance:
+  layer: own-research
+  source: "English Wikipedia 'Anas Sarwar', read in full on 25 October 2026; Wikidata Q478812 verified from the English article's wikibase_item (Q478812) returned by the Wikipedia API pageprops query on 25 October 2026 (the Wikidata site itself is unreachable from this machine through Wikimedia's open-proxy block). No Arabic or Urdu Wikipedia article for him was found (the English article's langlinks for ar and ur are empty, checked via the API on 25 October 2026), so no ar/ur source entities are registered. This record is for Anas Sarwar, the Scottish Labour politician born in 1983, son of Mohammad Sarwar; no record for his father exists in data/person/, so the child_of relation that would be carried on this record pointing at the father's record is omitted and flagged. No earlier record for him existed in data/person/ under anas-sarwar or any other spelling checked; this is a new build, not an enrichment."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: century-additions-19
+status: { review: published, completeness: 3, generated_by: "Muse (Muse Spark 1.3)" }

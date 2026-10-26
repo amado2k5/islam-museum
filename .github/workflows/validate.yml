@@ -46,6 +46,10 @@ jobs:
         with:
           args: --offline --no-progress --root-dir "${{ github.workspace }}/dist" "dist/**/*.html"
           fail: true
+      - name: axe accessibility audit (route matrix, all languages)
+        run: |
+          npx playwright install --with-deps chromium
+          npm run axe
       - name: Lighthouse budget (performance >= 95, accessibility = 100)
         uses: treosh/lighthouse-ci-action@v12
         with:

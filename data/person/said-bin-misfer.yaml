@@ -1,0 +1,35 @@
+id: person/said-bin-misfer
+class: person
+label: { ar: "سعيد بن مسفر", en: "Said bin Misfer", ur: "سعید بن مسفر" }
+names:
+  - { value: "سعيد بن مسفر بن مفرح القحطاني", kind: full }
+  - { value: "Said bin Misfer bin Mufrih al-Qahtani", kind: full }
+  - { value: "سعيد بن مسفر", kind: alternate }
+gender: male
+summary:
+  ar: "داعية إسلامي سعودي من مواليد أبها سنة 1364هـ (1944م)، حصل على الدكتوراه في العقيدة من جامعة أم القرى، وانتشرت دروسه عبر مكتبة صوتية تضم أكثر من خمسمئة شريط، وله كتب ومطويات ومحاضرات في عدد من الدول الإسلامية."
+  en: "Saudi Islamic preacher born in Abha in 1364 AH (1944). He earned a doctorate in aqida from Umm al-Qura University, and his lessons spread through an audio library of more than five hundred cassettes; he has written books and pamphlets and lectured in several Muslim countries."
+  ur: "سعودی اسلامی مبلغ، جو 1364ھ (1944) میں ابہا میں پیدا ہوئے۔ انہوں نے جامعہ ام القریٰ سے عقیدہ میں ڈاکٹریٹ حاصل کی، اور ان کے دروس پانچ سو سے زائد کیسٹوں کی صوتی لائبریری سے پھیلے؛ انہوں نے کتابیں اور رسالے لکھے اور کئی مسلم ممالک میں لیکچر دیے۔"
+roles: [preacher, scholar, writer]
+wings: [people, living]
+born:
+  edtf: "1944"
+  hijri: "1364"
+  calendar: gregorian
+  precision: year
+  status: historical
+  derived: false
+  note: "Gregorian year 1944 from the Arabic Wikipedia infobox; the article's lead gives the Hijri year 1364 and the birthplace Abha, Saudi Arabia. No place relation is written because no place/abha record exists in the museum graph."
+  sources: [source/wikipedia-said-bin-misfer-ar]
+faith:
+  - value: unknown
+    basis: unknown
+    note: "The Arabic Wikipedia infobox gives his religion as Islam only and names no school; no second source names a school either. His doctorate in aqida is an academic qualification, not a school attestation. Not recorded as sunni until two independent sources name a school."
+    sources: [source/wikipedia-said-bin-misfer-ar]
+sources: [source/wikipedia-said-bin-misfer-ar, source/islamweb-said-bin-misfer]
+provenance:
+  layer: own-research
+  source: "Arabic Wikipedia (as read 25 October 2026), citing IslamWay for his birth and lessons, a Sayd al-Fawa'id interview for his upbringing and education, al-Shamela for his lessons and press reports for his reported 2018 arrest and release; and the IslamWeb audio library index of his lecture series, checked 25 October 2026. No English Wikipedia article and no Wikidata item were found. No YouTube channel of his own could be verified: his lectures circulate through the IslamWeb archive and third-party uploads, so no channel source is registered."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: modern-figures-batch-23
+status: { review: published, completeness: 3, generated_by: "Muse (Muse Spark 1.3)" }

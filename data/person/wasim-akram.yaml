@@ -1,0 +1,37 @@
+id: person/wasim-akram
+class: person
+label: { ar: "وسيم أكرم", en: "Wasim Akram", ur: "وسیم اکرم" }
+names:
+  - { value: "Wasim Akram", kind: full }
+  - { value: "Sultan of Swing", kind: laqab }
+gender: male
+summary:
+  ar: "لاعب كريكت باكستاني سابق وقائد سابق لمنتخب باكستان، وُلد في لاهور سنة 1966 لأسرة بنجابية. رامٍ سريع بالذراع اليسرى لُقّب بسلطان التأرجح، لعب لباكستان بين 1984 و2003 في 104 مباريات اختبار أخذ فيها 414 ويكيت و356 مباراة ليوم واحد أخذ فيها 502 ويكيت فكان أول رامٍ يبلغ 500 ويكيت في مباريات اليوم الواحد، وفاز مع باكستان بكأس العالم 1992 ونال جائزة لاعب المباراة في النهائي، ولعب للانكشير في إنجلترا (1988-1998)، ودخل قاعة مشاهير المجلس الدولي للكريكت سنة 2009 ونال وسام هلال الامتياز سنة 2019، وشُخّص بالسكري في الثلاثين من عمره فصار من وجوه التوعية به."
+  en: "Pakistani former cricketer and captain of the Pakistan national team, born in Lahore in 1966 to a Punjabi family. A left-arm fast bowler known as the Sultan of Swing, he played for Pakistan from 1984 to 2003, taking 414 wickets in 104 Tests and 502 wickets in 356 One Day Internationals — the first bowler to reach 500 ODI wickets — won the 1992 Cricket World Cup with Pakistan and was Player of the Match in the final, played for Lancashire in England (1988–1998), was inducted into the ICC Cricket Hall of Fame in 2009, received the Hilal-e-Imtiaz in 2019, and, diagnosed with diabetes at thirty, became a prominent diabetes-awareness campaigner."
+  ur: "پاکستان کے سابق کرکٹ کھلاڑی اور قومی ٹیم کے سابق کپتان، جو 1966 میں لاہور میں ایک پنجابی خاندان میں پیدا ہوئے۔ بائیں ہاتھ کے تیز گیند باز، جو «سلطان آف سوئنگ» کے لقب سے مشہور ہیں، انھوں نے 1984ء سے 2003ء تک پاکستان کے لیے کھیلا، 104 ٹیسٹ میچوں میں 414 وکٹیں اور 356 ایک روزہ میچوں میں 502 وکٹیں لیں — ایک روزہ کرکٹ میں 500 وکٹیں مکمل کرنے والے پہلے گیند باز — پاکستان کے ساتھ 1992ء کرکٹ ورلڈ کپ جیتا اور فائنل میں میچ کے بہترین کھلاڑی رہے، انگلینڈ میں لنکاشائر کے لیے کھیلے (1988ء–1998ء)، 2009 میں آئی سی سی کرکٹ ہال آف فیم میں شامل ہوئے، 2019 میں ہلالِ امتیاز ملا، اور تیس برس کی عمر میں ذیابیطس کی تشخیص کے بعد اس مرض سے آگاہی کے ممتاز کارکن بنے۔"
+roles: [athlete]
+wings: [people, living]
+born:
+  edtf: "1966-06-03"
+  hijri: "1386"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "Born on 3 June 1966 in Lahore, West Pakistan, per the English, Arabic and Urdu Wikipedia articles and Wikidata. The Hijri year (1386) is derived by tabular conversion."
+  sources: [source/wikipedia-wasim-akram-en, source/wikipedia-wasim-akram-ar, source/wikipedia-wasim-akram-ur, source/wikidata-wasim-akram]
+relations:
+  - { type: born_in, target: place/lahore, sources: [source/wikipedia-wasim-akram-en] }
+faith:
+  - value: unknown
+    basis: unknown
+    note: "NOT RECORDED AS DOCUMENTED — no source names a school for him. The English article says he was born to a Punjabi family in Lahore and, in its fuller text, to a Punjabi Muslim Arain family — family background, which does not count — and names no religion or school for Akram himself in its own attestation; low-quality biography sites give only a generic 'Islam' / 'Muslim' label, naming no school. Under the two-source rule and the founder's doubt rule the value stays unknown."
+    sources: [source/wikipedia-wasim-akram-en, source/wikidata-wasim-akram]
+external_ids: { wikidata: "Q982801" }
+sources: [source/wikipedia-wasim-akram-en, source/wikipedia-wasim-akram-ar, source/wikipedia-wasim-akram-ur, source/wikidata-wasim-akram]
+provenance:
+  layer: own-research
+  source: "English Wikipedia 'Wasim Akram', read in full on 25 October 2026; Arabic Wikipedia «وسيم أكرم» and Urdu Wikipedia «وسیم اکرم», read on 25 October 2026; Wikidata Q982801 verified from the English article's wikibase_item (Q982801) returned by the Wikipedia API pageprops query on 25 October 2026 (the Wikidata site itself is unreachable from this machine). This record is for Wasim Akram, the Pakistani fast bowler born in Lahore in 1966. No earlier record for him existed in data/person/ under wasim-akram, waseem-akram or any other spelling checked; this is a new build, not an enrichment."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: century-additions-19
+status: { review: published, completeness: 3, generated_by: "Muse (Muse Spark 1.3)" }

@@ -43,3 +43,12 @@ This section reports what the sources attribute to Ameer Ali and how scholarship
 - Wikipedia (Urdu), «سید امیر علی», revision 11485529 (8 July 2026) — source/wikipedia-syed-ameer-ali-ur.
 - Wikidata, Q2525731 — source/wikidata-syed-ameer-ali.
 - David Lelyveld, "Ameer Ali, Syed", Encyclopedia of Religion (1987), via Encyclopedia.com — source/encyclopedia-of-religion-syed-ameer-ali.
+
+## Encyclopaedia of Islam account
+The Encyclopaedia of Islam (2nd ed.) describes Sayyid Amir 'Ali (1849-1928) as an Indian jurist and writer from a Shi'i family that had come from Khurasan with Nadir Shah. He was educated at the Muhsiniyya College at Hooghly, near Calcutta, where he learned Arabic and came into contact with English literature and law. He was in England in 1869-73, was called to the Bar in 1873, and settled there with his English wife on retiring from the Bengal High Court in 1904. {cite:encyclopaedia-of-islam-2 vol. 1 p. 464}
+
+## Public life
+He was a professor of Islamic law, a barrister and judge, and a social and political figure. In 1883 he became one of the three Indian members of the Viceroy's Council, the only Muslim among them, and in 1909 the first Indian member of the Judicial Committee of the Privy Council. In 1877 he founded the National Mohammedan Association, which aimed to promote good feeling between Indian races and creeds and to protect Muslim interests. He sensed the political self-consciousness of Indian Islam and disagreed with Sir Sayyid Ahmad Khan about the adequacy of Western education. He resigned from the London branch of the Muslim League in 1913 over its alliance with the Congress for Home Rule. {cite:encyclopaedia-of-islam-2 vol. 1 p. 464-465}
+
+## Writing and the Khilafat
+His basic contribution was as a writer. His study of Islam, written in answer to a Western account of Muhammad's life, was published in London in 1873 and was revised and reissued throughout his life as The Spirit of Islam (editions 1891, 1922, 1953); its liberal modernist interpretation remained influential in the West. After the First World War he became a London champion of the Khilafat movement. {cite:encyclopaedia-of-islam-2 vol. 1 p. 465}

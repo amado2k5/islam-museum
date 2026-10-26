@@ -11,8 +11,8 @@ function init(root: HTMLElement) {
   const starsT = root.dataset.i18nStars || "{n}";
   const eraseBtn = root.querySelector("[data-erase]") as HTMLButtonElement;
   const eraseMsg = root.querySelector("[data-erase-msg]") as HTMLElement;
-  const reduceMotion = matchMedia("(prefers-reduced-motion: reduce)").matches;
-  const scrollOpts: ScrollIntoViewOptions = { block: "start", behavior: reduceMotion ? "auto" : "smooth" };
+  const reduceMotion = () => (matchMedia("(prefers-reduced-motion: reduce)").matches || document.documentElement.getAttribute("data-motion") === "reduce");
+  const scrollOpts: ScrollIntoViewOptions = { block: "start", behavior: reduceMotion() ? "auto" : "smooth" };
 
   let earned: string[] = [];
   try { earned = JSON.parse(localStorage.getItem(STARS_KEY) || "[]"); } catch { earned = []; }

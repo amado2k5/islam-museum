@@ -1,0 +1,44 @@
+id: person/toumani-diabate
+class: person
+label: { ar: "توماني دياباتاي", en: "Toumani Diabaté", ur: "تومانی دیابتائی" }
+names:
+  - { value: "Toumani Diabaté", kind: full }
+  - { value: "توماني دياباتاي", kind: full }
+gender: male
+summary:
+  ar: "عازف كورا وملحّن مالي (10 أغسطس 1965 – 19 يوليو 2024)، من سلالة طويلة من عازفي الكورا في أسرة غريو؛ تروي تقاليد الأسرة الشفوية أن سبعين جيلًا سبقوه. نال ألبومه «في قلب القمر» (2005) مع علي فاركا توري جائزة غرامي، وتعاون عبر الثقافات مع الفلامنكو والبلوز والجاز، وعُدّ من أبرز من عرّف العالم بآلة الكورا."
+  en: "Malian kora player and composer (10 August 1965 – 19 July 2024), from a long patrilineal line of kora players in a griot family whose oral tradition counts seventy generations before him. His album In the Heart of the Moon (2005) with Ali Farka Touré won a Grammy Award; he collaborated across flamenco, blues and jazz, and is among the players who introduced the kora to the world."
+  ur: "مالی کے کورا نواز و موسیقی ساز (10 اگست 1965 – 19 جولائی 2024)، جو گریو خاندان میں کورا نوازوں کی طویل پدری نسل سے تھے؛ خاندان کی زبانی روایت ان سے پہلے ستر نسلیں گنتی ہے۔ علی فارکا تورے کے ساتھ ان کے البم «ان دی ہارٹ آف دی مون» (2005) نے گریمی ایوارڈ جیتا، اور انہوں نے فلیمینکو، بلوز و جاز کے ساتھ بین الثقافتی اشتراک کیے۔"
+roles: [musician, composer]
+wings: [people]
+born:
+  edtf: "1965-08-10"
+  hijri: "1385"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "Born at Bamako, Mali. The Hijri year (1385) is derived by tabular conversion. Bamako has no place entity in the museum, so no born_in relation is written."
+  sources: [source/wikipedia-toumani-diabate-en, source/wikipedia-toumani-diabate-fr, source/wikidata-toumani-diabate]
+died:
+  edtf: "2024-07-19"
+  hijri: "1446"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "Died at Bamako after a short illness, aged 58. The Hijri year (1446) is derived by tabular conversion. Bamako has no place entity in the museum, so no died_in relation is written."
+  sources: [source/wikipedia-toumani-diabate-en, source/wikipedia-toumani-diabate-fr, source/wikidata-toumani-diabate]
+faith:
+  - value: unknown
+    basis: unknown
+    note: "No source consulted names a school for him. The English, French and Arabic Wikipedia articles state no religion; Wikidata (Q380711) gives only Islam (Q432) generically — one structured-data value naming no school. His griot lineage, which the French article counts at seventy-one generations, and the devotional material inside his repertoire — including the song whose Arabic lyrics used verses of the Qur'an — are lineage and work, not an attestation of a personal school. Under the two-source rule his faith is recorded as unknown."
+    sources: [source/wikipedia-toumani-diabate-en, source/wikipedia-toumani-diabate-fr, source/wikipedia-toumani-diabate-ar, source/wikidata-toumani-diabate]
+external_ids: { wikidata: "Q380711" }
+sources: [source/wikipedia-toumani-diabate-en, source/wikipedia-toumani-diabate-fr, source/wikipedia-toumani-diabate-ar, source/wikidata-toumani-diabate]
+provenance:
+  layer: own-research
+  source: "English Wikipedia 'Toumani Diabaté' (revision 1348459926 of 12 April 2026), French Wikipedia 'Toumani Diabaté' (revision 238498150 of 9 August 2026), Arabic Wikipedia «توماني دياباتاي» (revision 75035894 of 5 June 2026), and Wikidata Q380711 read through the Wikidata API, all checked 25 October 2026. No earlier record existed in data/person/ under any spelling (Diabaté/Diabate/Jabate variants searched); this is a new build, not an enrichment, and it is the kora master's record — not that of the Malian taekwondo athlete of the same name (Q55186345) nor of his son Sidiki Diabaté. No relations are written: Bamako has no place entity, and his father Sidiki Diabaté (Q112145781) has no person record in the museum."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: century-additions-25
+status: { review: published, completeness: 3, generated_by: "Muse (Muse Spark 1.3)" }

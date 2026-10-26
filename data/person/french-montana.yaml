@@ -1,0 +1,37 @@
+id: person/french-montana
+class: person
+label: { ar: "فرنتش مونتانا", en: "French Montana", ur: "فرنچ مونٹانا" }
+names:
+  - { value: "Karim Kharbouch", kind: full }
+  - { value: "كريم خربوش", kind: full }
+  - { value: "French Montana", kind: pen }
+  - { value: "Young French", kind: pen }
+gender: male
+summary:
+  ar: "مغنّي راب مغربي أمريكي، وُلد باسم كريم خربوش في الدار البيضاء سنة 1984، وهاجر مع عائلته إلى نيويورك في الثالثة عشرة من عمره. بنى شهرته بسلسلة أقراص «مدينة الكوكايين»، ووقّع سنة 2012 مع باد بوي ومايباك ميوزيك، وبلغت أغنيته «لا تُنسى» (Unforgettable) سنة 2017 الشهادة الماسية، وهو أكثر فنان مولود في أفريقيا استماعًا على منصات البث."
+  en: "Moroccan-American rapper, born Karim Kharbouch in Casablanca in 1984, who immigrated with his family to New York City at the age of 13. He built his reputation with the Cocaine City DVD series, signed with Bad Boy and Maybach Music in 2012, and earned a diamond certification for his 2017 single \"Unforgettable\"; he is the most-streamed African-born musical artist."
+  ur: "مراکش نژاد امریکی ریپر، جو 1984 میں کاسا بلانکا میں کریم خربوش کے نام سے پیدا ہوئے اور تیرہ سال کی عمر میں خاندان کے ساتھ نیویارک منتقل ہوئے۔ انہوں نے «کوکین سٹی» ڈی وی ڈی سلسلے سے شہرت پائی، 2012 میں بیڈ بوائے اور مے بیک میوزک سے معاہدہ کیا، اور ان کے 2017 کے گانے «ان فارگیٹیبل» کو ڈائمنڈ سند ملی؛ وہ افریقہ میں پیدا ہونے والے سب سے زیادہ سنے جانے والے فنکار ہیں۔"
+roles: [rapper, singer, producer]
+wings: [people, living]
+born:
+  edtf: "1984-11-09"
+  hijri: "1405"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "Born in Casablanca, Morocco. The Hijri year (1405) is derived by tabular conversion. Casablanca has no place entity in the museum, so no born_in relation is written."
+  sources: [source/wikipedia-french-montana-en, source/wikipedia-french-montana-ar, source/wikidata-french-montana]
+faith:
+  - value: unknown
+    basis: unknown
+    note: "The English article's personal-life section states: \"He is a practicing Sunni Muslim\", citing three pieces: an artist-biography page (TheVogue — it returned only a page shell when fetched on 26 October 2026, so its exact wording could not be verified); a Vibe report of 21 April 2023 on his Arab-American heritage and Ramadan observance, which was checked directly and speaks of his identifying as a Muslim, of Islamic values, and of his fasting and reading the Qur'an in Ramadan, naming no school; and a Power 105.1 piece of 23 September 2019 on his \"Muslim roots\" on an album cover. The word \"Sunni\" thus rests on the English article's own wording — one source family — and the verifiable cited pieces attest Muslim identity and practice generically. The Arabic article names no school in its text; its categories (Sunni Muslims of America; Moroccan Sunni Muslims) are values inside the same Wikipedia family. Wikidata's only religion value is Islam (Q432) generically. Under the two-source rule the label is not recorded: his faith stands as unknown, with the attestations stated exactly as the sources give them, for any future sourced enrichment."
+    sources: [source/wikipedia-french-montana-en, source/wikipedia-french-montana-ar, source/wikidata-french-montana]
+external_ids: { wikidata: "Q1455261" }
+sources: [source/wikipedia-french-montana-en, source/wikipedia-french-montana-ar, source/wikidata-french-montana]
+provenance:
+  layer: own-research
+  source: "English Wikipedia 'French Montana' (revision 1379963563 of 12 October 2026), Arabic Wikipedia «فرنتش مونتانا» (revision 75282057 of 10 June 2026), and Wikidata Q1455261 read through the Wikidata API, all checked 26 October 2026; the Vibe report cited by the English article was also read directly on the same date. No earlier record existed in data/person/ under any spelling (Kharbouch/Montana variants searched); this is a new build, not an enrichment. No relations are written: Casablanca and the Bronx have no place entities in the museum."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: century-additions-27
+status: { review: published, completeness: 3, generated_by: "Muse (Muse Spark 1.3)" }

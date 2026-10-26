@@ -14,8 +14,8 @@ relations:
   - { type: child_of, target: person/alp-arslan, sources: [source/shadharat-dhahab] }
 provenance:
   layer: own-research
-  source: "شذرات الذهب لابن العماد — الجزء الثالث، ممسوح مكتبة الحصاد (AAlexandrina-223861)، قراءة آبل فيجن"
+  source: "Encyclopaedia of Islam, 2nd ed. vol. 1 PDF p. 711, entry 'ARSLAN-ARGHUN' (EI2 seq 354, batch ei2-b013 part 25); شذرات الذهب لابن العماد — الجزء الثالث، ممسوح مكتبة الحصاد (AAlexandrina-223861)، قراءة آبل فيجن"
   generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
   run: lib-shadharat-batch-109
-sources: [source/shadharat-dhahab]
-status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }
+sources: [source/shadharat-dhahab, source/encyclopaedia-of-islam-2]
+status: { review: published, completeness: 2 }

@@ -29,3 +29,11 @@ The Prophet's letter to the kings of Himyar names him as the commander of its en
 Sheikh Omar Abdelkafy recounts that the Prophet described Mu'adh as filled with faith to the marrow of his heart {cite:assabile-omar-abdelkafy al-dinu-al-qayem/ep02 00:07:00}.
 
 He recounts that Mu'adh, on returning from Persia, bowed before the Prophet, and Sheikh Omar Abdelkafy holds, as his own opinion, that only God is to be bowed to, which is the dignity of the believer {cite:assabile-omar-abdelkafy al-dinu-al-qayem/ep06 01:08:30}.
+## For Sprouts
+Mu'adh ibn Jabal was a young man of the Ansar who accepted Islam early and loved the Qur'an until he became among the most learned Companions. The Prophet sent him as a teacher to Yemen, and he served in the conquests in Syria until he died young of the plague.
+
+## For Explorers
+Mu'adh ibn Jabal ibn Amr al-Awsi al-Khazraji of the Ansar accepted Islam young at the second pledge of Aqaba and witnessed Badr, Uhud and every event. He was famed for his knowledge of the Qur'an and the lawful and unlawful — the Prophet said he was the most learned of his community in halal and haram — and he was among the scribes of revelation. The Prophet sent him to Yemen as teacher and judge; in the conquests he was among the leaders and scholars of the Syrian armies, and he died in the plague of Amwas in 18 AH, a young man of about thirty-eight, and was buried in Jordan.
+
+## For Scholars
+Mu'adh ibn Jabal ibn Amr al-Awsi al-Khazraji is among the most learned of the Ansar: he accepted Islam young at the second pledge of Aqaba, among its youngest witnesses, and witnessed Badr, Uhud and every event; he was among the scribes of revelation and those who collected the Qur'an in the Prophet's era. His standing in knowledge is famous — the Prophet called him the most learned of his community in the lawful and unlawful — and the Prophet sent him to Sanaa and its neighbours to teach. He was sent to Yemen as teacher, judge and collector, and he taught, judged and collected in his charge; the sira books preserve the famous account of his dispatch and his reports on the night prayer. In the conquests he was among the senior scholars and leaders of Syria; he died in the plague of Amwas in 18 AH, about thirty-eight, and was buried in a Jordan valley — the biographical works give his life, reports and virtues in detail.

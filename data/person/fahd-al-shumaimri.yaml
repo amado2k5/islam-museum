@@ -1,0 +1,36 @@
+id: person/fahd-al-shumaimri
+class: person
+label: { ar: "فهد الشميمري", en: "Fahd Al-Shumaimri", ur: "فہد الشمیمری" }
+names:
+  - { value: "فهد عبد الرحمن ناصر الشميمري", kind: full }
+  - { value: "Fahd Abdulrahman Nasser Al-Shumaimri", kind: full }
+gender: male
+summary:
+  ar: "رجل أعمال وكاتب سعودي، وُلد في مكة المكرمة سنة 1390هـ (1970م)، أسّس شبكة المجد الفضائية ذات التوجه الإسلامي وكان رئيس مجلس إدارتها ورئيسها التنفيذي عشر سنوات، وفي عهده تأسست قناة المجد العلمية وغيرها من قنوات الباقة، ثم باع حصته كاملة في المشروع سنة 2009."
+  en: "Saudi businessman and writer, born in Makkah in 1390 AH (1970). He founded the Islamic-oriented Al-Majd satellite network and was its chairman of the board and chief executive for ten years; the Al-Majd Scientific Channel and the bouquet's other channels were founded in his tenure, and he sold his entire stake in the project in 2009."
+  ur: "سعودی کاروباری شخصیت اور مصنف، جو 1390ھ (1970) میں مکہ مکرمہ میں پیدا ہوئے؛ انہوں نے اسلامی رجحان کے حامل المجد سیٹلائٹ نیٹ ورک کی بنیاد رکھی اور دس سال اس کے چیئرمین اور چیف ایگزیکٹو رہے؛ ان کے دور میں المجد العلمية سمیت بکے کے دیگر چینلز قائم ہوئے، اور 2009 میں انہوں نے منصوبے میں اپنا پورا حصہ فروخت کر دیا۔"
+roles: [businessman, writer]
+wings: [people, living]
+born:
+  edtf: "1970"
+  hijri: "1390"
+  calendar: gregorian
+  precision: year
+  status: historical
+  derived: true
+  note: "The Arabic Wikipedia biography states both years together: born in Makkah in 1390 AH, corresponding to 1970 CE; year precision only."
+  sources: [source/wikipedia-fahd-al-shumaimri-ar]
+relations:
+  - { type: born_in, target: place/mecca, sources: [source/wikipedia-fahd-al-shumaimri-ar] }
+faith:
+  - value: unknown
+    basis: unknown
+    note: "No source consulted names a school of law or a creed for him. The Arabic Wikipedia biography covers his business and media career only; that the network he founded is described as Islamic-oriented is a property of the network, not an attestation of its founder's own school. Not recorded as sunni."
+    sources: [source/wikipedia-fahd-al-shumaimri-ar, source/wikipedia-almajd-network-ar]
+sources: [source/wikipedia-fahd-al-shumaimri-ar, source/wikipedia-almajd-network-ar, source/wikipedia-almajd-scientific-ar, source/youtube-almajdchannels]
+provenance:
+  layer: own-research
+  source: "The Al-Majd Scientific Channel harvest row (§3 row 97) resolves to the channel's network founder: Arabic Wikipedia's articles on Fahd Al-Shumaimri (oldid 76871675), on the Al-Majd satellite network (oldid 77043331, which names him as owner and dates the launch to 6 November 2002) and on Al-Majd Scientific (oldid 75737197), and the network's own YouTube channel @almajdchannels, all checked 26 October 2026. His biography article states that the Scientific Channel was founded during his chairmanship, and that he sold his entire stake in 2009, so he is recorded as the network's founder and former chairman, not its present owner. No Wikipedia article exists in English and no Wikidata item was found for him (searched 26 October 2026), so no external identifier is recorded. Checked 26 October 2026"
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: modern-figures-batch-29
+status: { review: published, completeness: 3, generated_by: "Muse (Muse Spark 1.3)" }

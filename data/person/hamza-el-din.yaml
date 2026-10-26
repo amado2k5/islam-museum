@@ -1,0 +1,47 @@
+id: person/hamza-el-din
+class: person
+label: { ar: "حمزة علاء الدين", en: "Hamza El Din", ur: "حمزہ علاء الدین" }
+names:
+  - { value: "حمزة علاء الدين", kind: full }
+  - { value: "Hamza Alaa El Din", kind: full }
+  - { value: "Hamza El Din", kind: alternate }
+gender: male
+summary:
+  ar: "موسيقي نوبي مصري، عازف عود وتار ومغنٍّ وملحّن، وُلد في قرية توشكي بجنوب مصر سنة 1929 وتوفي في بيركلي بكاليفورنيا سنة 2006. درس هندسة الكهرباء ثم الموسيقى في القاهرة وروما، وجمع الأغاني النوبية القديمة قبل أن يغمر السد العالي قرى النوبة، وحمل الموسيقى النوبية إلى المسارح والجامعات في الغرب، ويُعرف بأبي الموسيقى النوبية الحديثة."
+  en: "Egyptian Nubian musician — oud and tar player, vocalist and composer — born in the village of Toshka in southern Egypt in 1929 and died at Berkeley, California, in 2006. Trained first as an electrical engineer, he studied music in Cairo and Rome, collected the old songs of Nubia before the Aswan High Dam flooded its villages, and carried Nubian music to Western stages and universities; he is known as the father of modern Nubian music."
+  ur: "مصری نوبی موسیقار، عود و تار نواز، گلوکار و موسیقی ساز، جو 1929 میں جنوبی مصر کے گاؤں توشکا میں پیدا ہوئے اور 2006 میں برکلے، کیلیفورنیا میں وفات پائی۔ پہلے برقی انجینئر بنے، پھر قاہرہ اور روم میں موسیقی کی تعلیم حاصل کی، اسوان بند کے نوبیا کے گاؤں ڈبونے سے پہلے وہاں کے قدیم گیت جمع کیے اور نوبی موسیقی کو مغربی اسٹیجوں اور جامعات تک پہنچایا؛ انہیں جدید نوبی موسیقی کا بانی کہا جاتا ہے۔"
+roles: [composer, singer, musician]
+wings: [people]
+born:
+  edtf: "1929-07-10"
+  hijri: "1348"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "Born in the village of Toshka, Aswan governorate, near Wadi Halfa; the date 10 July 1929 is given by all three Wikipedia articles and by Wikidata. The Hijri year (1348) is derived by tabular conversion. Toshka has no place entity in the museum, so no born_in relation is written."
+  sources: [source/wikipedia-hamza-el-din-en, source/wikipedia-hamza-el-din-ar, source/wikipedia-hamza-el-din-fr, source/wikidata-hamza-el-din]
+died:
+  edtf: "2006-05-22"
+  hijri: "1427"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "Died at a hospital in Berkeley, California, on 22 May 2006, from complications after gallbladder surgery; all three articles and Wikidata agree. The Hijri year (1427) is derived by tabular conversion."
+  sources: [source/wikipedia-hamza-el-din-en, source/wikipedia-hamza-el-din-ar, source/wikipedia-hamza-el-din-fr, source/wikidata-hamza-el-din]
+relations:
+  - { type: lived_in, target: place/cairo, sources: [source/wikipedia-hamza-el-din-en, source/wikipedia-hamza-el-din-ar] }
+faith:
+  - value: unknown
+    basis: unknown
+    note: "No source consulted names a religion or a school for him. The English article states none; the Arabic article states none; the French article states none; Wikidata (Q690474) carries no religion claim at all. His Nubian-Egyptian origin, his collecting of Nubian folk song and his album Muwashshah (1996) — a classical Arabic song form — are his background and his work, not an attestation of a personal school. Under the two-source rule his faith is recorded as unknown."
+    sources: [source/wikipedia-hamza-el-din-en, source/wikipedia-hamza-el-din-ar, source/wikipedia-hamza-el-din-fr, source/wikidata-hamza-el-din]
+external_ids: { wikidata: "Q690474" }
+sources: [source/wikipedia-hamza-el-din-en, source/wikipedia-hamza-el-din-ar, source/wikipedia-hamza-el-din-fr, source/wikidata-hamza-el-din]
+provenance:
+  layer: own-research
+  source: "English Wikipedia 'Hamza El Din' (revision 1367334867 of 2 August 2026), Arabic Wikipedia «حمزة علاء الدين» (revision 76763446 of 25 September 2026), French Wikipedia 'Hamza El Din' (revision 210579951 of 15 December 2023), and Wikidata Q690474 read through the Wikidata API, all checked 25 October 2026. No earlier record existed in data/person/ under any spelling (searched el-din / alaa / toshka variants); this is a new build, not an enrichment. The French article dates the recording of Escalay to 1968 where the English article dates its Nonesuch release to 1971; both are stated in the prose rather than merged."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: century-additions-24
+status: { review: published, completeness: 3, generated_by: "Muse (Muse Spark 1.3)" }

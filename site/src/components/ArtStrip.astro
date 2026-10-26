@@ -23,7 +23,7 @@ const pick = shuffled.slice(0, 4);
       {pick.map((i) => (
         <li>
           <a class="card" href={`/${lang}/art/`} style="padding:0;overflow:hidden;display:block">
-            <img src={`/media/architecture-art/${i.slug}.webp`} alt={i.alt.ar} width="1280" height="853" loading="lazy" style="width:100%;height:auto;aspect-ratio:4/5;object-fit:cover;object-position:center;display:block" />
+            <img src={`/media/architecture-art/${i.slug}.webp`} alt={i.alt[lang] ?? i.alt.ar} width="1280" height="853" loading="lazy" style="width:100%;height:auto;aspect-ratio:4/5;object-fit:cover;object-position:center;display:block" />
           </a>
         </li>
       ))}

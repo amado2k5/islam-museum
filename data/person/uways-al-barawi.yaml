@@ -1,0 +1,47 @@
+id: person/uways-al-barawi
+class: person
+label: { ar: "أويس البراوي", en: "Uways al-Barawi", ur: "اویس البراوی" }
+names:
+  - { value: "أويس بن محمد البراوي", kind: full }
+  - { value: "Uways b. Muhammad al-Barawi", kind: full }
+  - { value: "Sheikh Uways al-Qadiri", kind: alternate }
+gender: male
+summary:
+  ar: "الشيخ أويس البراوي (1847-1909)، عالم صومالي يُنسب إليه إحياء الإسلام في شرق أفريقيا في القرن التاسع عشر. وُلد في براوة على ساحل بنادر لمعلّم دين محلي، ودرس العلوم الشرعية والصوفية عند الشيخ الشاشي، ثم رحل نحو سنة 1870 إلى بغداد فأخذ القادرية عن مصطفى بن سلمان الجيلاني وحجّ، وعاد سنة 1883 فصار قائد القادرية في الصومال وأسس فرعها الأويسية المنسوب إليه، وانتشرت دعوته من الصومال وزنجبار إلى كينيا وموزمبيق وشرق الكونغو، وطوّر كتابة الصومالية بالحرف العربي، وكتب قصائد دينية كثيرة. اشتد نزاعه مع الطريقة الصالحية بقيادة محمد عبد الله حسن، فقُتل على أيدي الدراويش سنة 1909 في بيولي."
+  en: "Sheikh Uways al-Barawi (1847–1909), Somali scholar credited with reviving Islam in 19th-century East Africa. Born at Barawa on the Benadir coast to a local religious teacher, he studied the religious sciences and Sufism under Sheikh al-Shashi, travelled about 1870 to Baghdad, where he took the Qadiriyya from Mustafa b. Salman al-Jilani and made the Hajj, and returned in 1883 to become leader of the Qadiriyya in Somalia and founder of its Uwaysiyya branch, named after him. His mission spread from Somalia and Zanzibar to Kenya, Mozambique and the eastern Congo; he improved the writing of Somali in Arabic script and composed many religious poems. His conflict with the rival Salihiyya of Mohammed Abdullah Hassan intensified until the Dervishes killed him at Biyoole in 1909."
+  ur: "شیخ اویس البراوی (1847ء–1909ء)، صومالی عالم جنہیں انیسویں صدی میں مشرقی افریقا میں اسلام کی احیائی کوششوں کا سرخیل مانا جاتا ہے۔ بنادر ساحل کے براوہ میں ایک مقامی دینی استاد کے گھر پیدا ہوئے، شیخ الشاشی سے علوم و تصوف پڑھے، تقریباً 1870ء میں بغداد جا کر مصطفی بن سلمان الجیلانی سے سلسلہ قادریہ کی اجازت لی اور حج کیا، اور 1883ء میں واپس آ کر صومالیہ میں قادریہ کے قائد اور اس کی شاخ اویسیہ کے بانی بنے۔ ان کی دعوت صومالیہ و زنجبار سے کینیا، موزمبیق اور مشرقی کانگو تک پھیلی، انہوں نے صومالی کو عربی رسم الخط میں لکھنے کو بہتر بنایا اور بہت سی دینی نظمیں کہیں۔ محمد عبد اللہ حسن کی صالحیہ سے کشمکش بڑھی تو 1909ء میں درویشوں نے انہیں بیولے میں قتل کر دیا۔"
+roles: [scholar, teacher, mystic, poet]
+wings: [people]
+born:
+  edtf: "1847"
+  hijri: "1263"
+  calendar: gregorian
+  precision: year
+  status: historical
+  derived: true
+  note: "Born at Barawa (Brava) on the Benadir coast, in the Geledi Sultanate period, son of the local religious teacher al-Hajj Muhammad b. Bashiir and Fatima b. Bahra, of the Tunni sub-group of the Rahanweyn: the English article, citing Samatar (1992). The article's lead and Samatar's chapter title ('Sheikh Uways Muhammad of Baraawe, 1847–1909') give 1847, while its infobox gives 1846; the lead dating is followed and the difference is stated here. The Hijri year (1263) is derived by tabular conversion of mid-1847. Barawa has no place entity in the museum yet, so no born_in relation is written."
+  sources: [source/wikipedia-uways-al-barawi-en]
+died:
+  edtf: "1909"
+  hijri: "1327"
+  calendar: gregorian
+  precision: year
+  status: historical
+  derived: true
+  note: "Killed in 1909 at Biyoole in Italian Somaliland by the Dervishes of Mohammed Abdullah Hassan, after an exchange of takfir and polemical poems between Uways and the Sayyid: the English article and Martin (1969) agree that he was assassinated in 1909 by representatives of the rival Salihiyya brotherhood. No source read gives a day or month. The Hijri year (1327) is derived by tabular conversion of mid-1909. Biyoole has no place entity in the museum yet, so no died_in relation is written."
+  sources: [source/wikipedia-uways-al-barawi-en, source/martin-qadiriyya-east-africa-1969]
+relations:
+  - { type: lived_in, target: place/baghdad, sources: [source/wikipedia-uways-al-barawi-en] }
+  - { type: member_of, target: group/qadiriyya, sources: [source/wikipedia-uways-al-barawi-en, source/martin-qadiriyya-east-africa-1969] }
+faith:
+  - value: sufi
+    basis: documented
+    note: "Attested of Uways personally by two independent sources. (1) Martin (1969), a peer-reviewed study devoted to him, describes him as 'an important leader of the Qadiriya brotherhood in southern Somalia, on Zanzibar, and along the East African coast' who 'founded his own branch of Qadiriya, the Uwaysiya'. (2) His English article records that he was introduced to the Qadiriyya by his teacher, studied in Baghdad under the Qadiri Sayyid Mustafa b. Salman al-Jilani and received an ijaza from him, returned to lead the Qadiriyya in Somalia, and that the sub-branch was named Uwaysiyya after him; its infobox gives his creed as 'Qadiriyya, Uwaysiyya'. No sunni segment is recorded: the only attestation of a school for him personally is his article's infobox line giving his jurisprudence as Shafi'i, a single attestation which the two-source rule does not accept, and it is stated here in full rather than recorded as a value."
+    sources: [source/martin-qadiriyya-east-africa-1969, source/wikipedia-uways-al-barawi-en]
+sources: [source/wikipedia-uways-al-barawi-en, source/martin-qadiriyya-east-africa-1969]
+provenance:
+  layer: own-research
+  source: "English Wikipedia 'Uways al-Barawi', read in full on 25 October 2026 (resting chiefly on Said Sheikh Samatar, 1992, and Scott Reese, 2001); B. G. Martin, 'Muslim Politics and Resistance to Colonial Rule' (Journal of African History, 1969), catalogue record and abstract read on 25 October 2026. No Wikidata identifier was verified in this run, so none is recorded."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: century-additions-20
+status: { review: published, completeness: 3, generated_by: "Muse (Muse Spark 1.3)" }

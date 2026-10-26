@@ -1,0 +1,50 @@
+id: person/turki-bin-said
+class: person
+label: { ar: "تركي بن سعيد البوسعيدي", en: "Turki bin Said", ur: "ترکی بن سعید" }
+names:
+  - { value: "تركي بن سعيد بن سلطان البوسعيدي", kind: full }
+  - { value: "Turki bin Said bin Sultan Al Busaidi", kind: full }
+  - { value: "Turki bin Said", kind: alternate }
+gender: male
+summary:
+  ar: "تركي بن سعيد بن سلطان البوسعيدي (وُلد في مسقط سنة 1832 – توفي فيها في 4 يونيو 1888)، سلطان مسقط وعمان من 30 يناير 1871 إلى وفاته، وابن السلطان سعيد بن سلطان من أم إثيوبية. عُيّن واليًا على صحار سنة 1854، وثار على أخيه السلطان ثويني سنة 1861 فسُجن مرتين وتدخلت بريطانيا لإطلاقه، ونُفي إلى بومباي على معاش، ثم عاد بأموال أخيه ماجد سلطان زنجبار وتحالفات القبائل فهزم الإمام عزان بن قيس في معركة ضنك ودخل مسقط سنة 1871، وأعاد بناء إدارة الدولة بعد مرضه وإنابة أخيه عبد العزيز، وحكم حتى وفاته فخلفه ابنه الثاني فيصل."
+  en: "Turki bin Said bin Sultan Al Busaidi (born at Muscat in 1832 – died there on 4 June 1888) was Sultan of Muscat and Oman from 30 January 1871 until his death, a son of Sultan Said bin Sultan by an Ethiopian mother. Appointed Wali of Sohar in 1854, he revolted against his brother Sultan Thuwaini in 1861, was twice imprisoned and twice released through British intervention, and lived in exile in Bombay on an annuity; he then returned with money from his brother Majid, Sultan of Zanzibar, and tribal alliances, defeated Imam Azzan bin Qais at the Battle of Dhank and entered Muscat in 1871, rebuilt the state's administration after his illness and his brother Abd al-Aziz's deputyship, and ruled until his death, when his second son Faisal succeeded him."
+  ur: "ترکی بن سعید بن سلطان البوسعیدی (پیدائش: مسقط، 1832ء – وفات: مسقط، 4 جون 1888ء)، 30 جنوری 1871ء سے وفات تک مسقط و عمان کے سلطان اور سلطان سعید بن سلطان کے بیٹے تھے۔ وہ 1854ء میں صحار کے والی بنے، بھائی ثوینی سے بغاوت پر دو بار قید ہوئے، بمبئی میں جلاوطنی گزاری، پھر بھائی ماجد کی مالی مدد سے واپس آ کر امام عزان بن قیس کو ضنک میں شکست دی اور 1871ء میں مسقط میں داخل ہوئے؛ ان کے بعد ان کے بیٹے فیصل سلطان بنے۔"
+roles: [ruler]
+wings: [people]
+born:
+  edtf: "1832"
+  hijri: "1248"
+  calendar: gregorian
+  precision: year
+  status: historical
+  derived: true
+  note: "The year 1832 is given by the English article (born at Muscat), by the Arabic article's own categories (births 1832 and 1248 AH) and by the Urdu article's lead, and Wikidata's year agrees. The Arabic article's body text instead says he was born in 1837 and 'took power in 1863' — a paragraph at war with its own categories, with the English article and with the reign (1871–1888) its infobox implies; it is stated here and in the prose and not followed, and the Urdu article's early-life section merely copies the same paragraph, so it is not an independent witness. Wikidata carries a day-precision birth, 4 June 1832, that no article supports and that exactly mirrors his death day; the record keeps year precision. The Hijri year (1248) matches the Arabic category and is derived by tabular conversion (the Gregorian year 1832 spans 1247–1248 AH and its mid-year falls in 1248)."
+  sources: [source/wikipedia-turki-bin-said-en, source/wikipedia-turki-bin-said-ar, source/wikipedia-turki-bin-said-ur, source/wikidata-turki-bin-said]
+died:
+  edtf: "1888-06-04"
+  hijri: "1305"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "He died at Muscat on 4 June 1888, the date given by the English article, the Arabic article's infobox and the Urdu article's lead, with Wikidata's place of death Muscat (Q3826) agreeing; the Arabic article's categories (deaths 1305 AH / 1888) agree with the tabular conversion (24 Ramadan 1305). His second son Faisal succeeded him peacefully, as the Arabic article notes."
+  sources: [source/wikipedia-turki-bin-said-en, source/wikipedia-turki-bin-said-ar, source/wikipedia-turki-bin-said-ur, source/wikidata-turki-bin-said]
+relations:
+  - { type: child_of, target: person/said-bin-sultan, note: "He was a son of Sultan Said bin Sultan (English and Arabic articles; Wikidata father Q506193), by an Ethiopian mother (English article: an Ethiopian concubine); the edge is written here, in the son's record, and his father's record carries none back.", sources: [source/wikipedia-turki-bin-said-en, source/wikipedia-turki-bin-said-ar, source/wikidata-turki-bin-said] }
+  - { type: born_in, target: place/muscat, note: "He was born at Muscat in 1832 (English article); Wikidata's birthplace item is the polity 'Muscat and Oman' (Q157734) where the article names the city itself.", sources: [source/wikipedia-turki-bin-said-en] }
+  - { type: died_in, target: place/muscat, note: "He died at Muscat on 4 June 1888 (English and Arabic articles; Wikidata place of death Muscat, Q3826).", sources: [source/wikipedia-turki-bin-said-en, source/wikipedia-turki-bin-said-ar, source/wikidata-turki-bin-said] }
+  - { type: member_of, target: group/al-bu-said, note: "Sultan of Muscat and Oman of the Al Bu Said dynasty (English article's house field and the Arabic article); the edge is written to the house group as the museum models it.", sources: [source/wikipedia-turki-bin-said-en, source/wikipedia-turki-bin-said-ar] }
+faith:
+  - value: unknown
+    basis: unknown
+    note: "What each source gives, stated exactly: the English article's infobox religion field gives 'Ibadi Islam' and its categories file him under 'Omani Ibadi Muslims'; the Arabic article's infobox religion field gives 'Ibadi Muslim' (مسلم إباضي); the Urdu article files him in the corresponding category. But no article's TEXT discusses his personal religion, neither infobox value is cited to any source within its article, and Wikidata carries no religion (P140) value at all — so the whole attestation is uncited infobox and category values inside one Wikipedia family, of exactly the kind the doubt rule leaves unclassified ('if we have doubt then unclassified'), and the two-source rule requires two independent sources naming the school for the man himself. The Ibadi character of Oman's interior and of the imamate of Azzan bin Qais, the rival he defeated, is the state's and his opponent's context, not an attestation of Turki's own school; his dynasty's background likewise never counts. His faith is therefore left unknown, with the infobox readings preserved here for any future sourced enrichment."
+    sources: [source/wikipedia-turki-bin-said-en, source/wikipedia-turki-bin-said-ar, source/wikipedia-turki-bin-said-ur, source/wikidata-turki-bin-said]
+external_ids: { wikidata: "Q580930" }
+sources: [source/wikipedia-turki-bin-said-en, source/wikipedia-turki-bin-said-ar, source/wikipedia-turki-bin-said-ur, source/wikidata-turki-bin-said]
+provenance:
+  layer: own-research
+  source: "English Wikipedia 'Turki bin Said' (revision 1358746575), Arabic Wikipedia 'تركي بن سعيد بن سلطان' (revision 74536716) and Urdu Wikipedia 'ترکی بن سعید' (revision 9455440), read on 26 October 2026, with Wikidata item Q580930. The harvest queue's years (1832–1888) are confirmed. The disagreements are stated in the notes and prose rather than merged: the Arabic body text's birth year 1837 and accession year 1863 (against its own categories, the English article and the Urdu lead); Wikidata's unsupported day precision for the birth (4 June 1832, mirroring the death day) and its polity-valued birthplace; and the Ibadi attestation, which rests only on uncited infobox fields and categories and is left unrecorded under the doubt rule, as the faith note sets out. His son and successor Faisal bin Turki of Oman has no museum person record (the existing person/faysal-ibn-turki is the Saudi amir of the same name, d. 1865), so no edge to the son is written; no ruler_of edge is written, following the wave's practice of modelling these rulers by house membership and places."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: century-additions-25
+status: { review: published, completeness: 3, generated_by: "Muse (Muse Spark 1.3)" }

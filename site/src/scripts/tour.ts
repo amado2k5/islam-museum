@@ -132,7 +132,7 @@ function init(
   const { root, enterCard, enterBtn, loading } = opts;
   const t = data.t;
   const lang = data.lang;
-  const REDUCED = matchMedia("(prefers-reduced-motion: reduce)").matches;
+  const REDUCED = () => (matchMedia("(prefers-reduced-motion: reduce)").matches || document.documentElement.getAttribute("data-motion") === "reduce");
 
   const $ = <T extends HTMLElement = HTMLElement>(sel: string): T =>
     root.querySelector<T>(sel)!;
@@ -1449,7 +1449,7 @@ function init(
         }
         fade.style.opacity = "0";
       },
-      REDUCED ? 60 : 700
+      REDUCED() ? 60 : 700
     );
   }
 
@@ -1788,7 +1788,7 @@ function init(
     raf = requestAnimationFrame(animate);
     const dt = Math.min(clock.getDelta(), 0.05);
     const tsec = clock.elapsedTime;
-    if (!REDUCED) {
+    if (!REDUCED()) {
       medal.rotation.y = tsec * 0.35;
       medal.position.y = 3.3 + Math.sin(tsec * 1.2) * 0.15;
       dust.rotation.y = tsec * 0.012;

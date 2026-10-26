@@ -1,0 +1,36 @@
+id: person/swizz-beatz
+class: person
+label: { ar: "سويز بيتز", en: "Swizz Beatz", ur: "سوئز بیٹز" }
+names:
+  - { value: "Kasseem Daoud Dean", kind: full }
+  - { value: "قاسم داود دين", kind: full }
+  - { value: "Swizz Beatz", kind: pen }
+gender: male
+summary:
+  ar: "منتج تسجيلات ومغنّي راب أمريكي، اسمه الأصلي قاسم داود دين، وُلد في حيّ برونكس بنيويورك في 13 سبتمبر 1978. برز عبر شركة عائلته «راف رايدرز» وإنتاجه لفنّانها دي إم إكس، وأسس سنة 2001 شركة «فول سيرفيس»، وأنتج أعمالًا لبيونسيه وكانييه ويست وغيرهما، وفاز بجائزة غرامي، وشارك سنة 2020 في تأسيس سلسلة «فيرزوز» مع تيمبالاند."
+  en: "American record producer and rapper, born Kasseem Daoud Dean in the Bronx, New York City, on 13 September 1978. He rose through his family's Ruff Ryders label and his production for its artist DMX, founded Full Surface Records in 2001, produced hits for Beyoncé, Kanye West and many others, won a Grammy Award, and co-created the Verzuz webcast series with Timbaland in 2020."
+  ur: "امریکی ریکارڈ پروڈیوسر و ریپر، اصل نام قاسم داؤد ڈین، جو 13 ستمبر 1978 کو نیویارک کے برونکس میں پیدا ہوئے۔ وہ اپنے خاندان کے لیبل «رف رائیڈرز» اور اس کے فنکار ڈی ایم ایکس کے لیے اپنی پروڈکشن سے ابھرے، 2001 میں «فل سرفیس» لیبل قائم کیا، بیونسے اور کانیے ویسٹ سمیت کئی فنکاروں کے مقبول گیت پروڈیوس کیے، گریمی ایوارڈ جیتا، اور 2020 میں ٹمبالینڈ کے ساتھ «ورزوز» سلسلے کی مشترکہ بنیاد رکھی۔"
+roles: [producer, rapper, musician]
+wings: [people, living]
+born:
+  edtf: "1978-09-13"
+  hijri: "1398"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "Born in the Bronx, New York City. The Hijri year (1398) is derived by tabular conversion. The Bronx has no place entity in the museum, so no born_in relation is written."
+  sources: [source/wikipedia-swizz-beatz-en, source/wikidata-swizz-beatz]
+faith:
+  - value: unknown
+    basis: unknown
+    note: "No article states a religion for him: neither the English nor the Arabic Wikipedia article mentions Islam or any affiliation of his anywhere. Wikidata's religion (P140) value is Islam generically — one structured-data value naming no school, which under the lane rule never counts as an attestation. No source names a madhhab for him, so his faith is recorded as unknown, and the absence in the articles is stated rather than filled."
+    sources: [source/wikipedia-swizz-beatz-en, source/wikipedia-swizz-beatz-ar, source/wikidata-swizz-beatz]
+external_ids: { wikidata: "Q240523" }
+sources: [source/wikipedia-swizz-beatz-en, source/wikipedia-swizz-beatz-ar, source/wikidata-swizz-beatz]
+provenance:
+  layer: own-research
+  source: "English Wikipedia 'Swizz Beatz' (revision 1379206716 of 8 October 2026), Arabic Wikipedia «سويز بيتز» (revision 75980184 of 23 July 2026), and Wikidata Q240523 read through the Wikidata API, all checked 26 October 2026. No earlier record existed in data/person/ under any spelling (Dean/Swizz variants searched); this is a new build, not an enrichment. No relations are written: the Bronx has no place entity in the museum."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: century-additions-26
+status: { review: published, completeness: 3, generated_by: "Muse (Muse Spark 1.3)" }

@@ -1,0 +1,35 @@
+id: person/baaba-maal
+class: person
+label: { ar: "بابا مال", en: "Baaba Maal", ur: "بابا مال" }
+names:
+  - { value: "Baaba Maal", kind: full }
+  - { value: "بابا مال", kind: full }
+gender: male
+summary:
+  ar: "مغنٍّ وعازف غيتار وملحّن سنغالي، وُلد في بودور على نهر السنغال سنة 1953 (تختلف المصادر بين 12 نوفمبر و13 يونيو). يغني أساسًا بلغة البولار ويروّج لتقاليد الناطقين بها في فوتا تورو، ودمج موسيقاه بالريغي والسالسا والإلكترونيكا، وغنّى في موسيقى فيلم «النمر الأسود»، وله نشاط إنساني مع برنامج الأمم المتحدة الإنمائي ومنظمة مكافحة التصحر."
+  en: "Senegalese singer, guitarist and composer, born at Podor on the Senegal River in 1953 (the sources divide between 12 November and 13 June). He sings primarily in Pulaar and promotes the traditions of its speakers in Futa Tooro, fused his music with ragga, salsa and electronica, sang on the Black Panther film scores, and works with the UNDP and the UNCCD on development and desertification."
+  ur: "سینیگال کے گلوکار، گٹار نواز و موسیقی ساز، جو 1953 میں دریائے سینیگال کے کنارے پودور میں پیدا ہوئے (مآخذ 12 نومبر اور 13 جون میں منقسم ہیں)۔ بنیادی طور پر پولار زبان میں گاتے ہیں اور فوتا تورو کی روایات کو فروغ دیتے ہیں؛ ان کی آواز «بلیک پینتھر» فلموں کی موسیقی میں شامل ہے، اور وہ اقوام متحدہ کے ترقیاتی پروگرام کے ساتھ انسانی خدمت میں سرگرم ہیں۔"
+roles: [singer, musician, composer]
+wings: [people, living]
+born:
+  edtf: "1953-11-12"
+  hijri: "1373"
+  calendar: gregorian
+  precision: day
+  status: debated
+  derived: true
+  note: "Born at Podor, on the Senegal River, Senegal. The date is debated: the Arabic Wikipedia article and Wikidata give 12 November 1953, while the English and French articles give 13 June 1953. The record follows the Arabic article and Wikidata, and states the conflict; the Hijri year (1373) is derived by tabular conversion from the followed date. Podor has no place entity in the museum, so no born_in relation is written."
+  sources: [source/wikipedia-baaba-maal-ar, source/wikidata-baaba-maal, source/wikipedia-baaba-maal-en, source/wikipedia-baaba-maal-fr]
+faith:
+  - value: unknown
+    basis: unknown
+    note: "No source consulted names a religion or a school for him. The English, French and Arabic Wikipedia articles state none, and Wikidata (Q684021) carries no religion claim at all. The French article's account of his upbringing — Qur'an learning in a daara as a child, a father who became a muezzin, a namesake ancestor described as a disciple of Maodo Malick Sy — is family background and childhood schooling, which never count as an attestation of his own school. Under the two-source rule his faith is recorded as unknown."
+    sources: [source/wikipedia-baaba-maal-en, source/wikipedia-baaba-maal-fr, source/wikipedia-baaba-maal-ar, source/wikidata-baaba-maal]
+external_ids: { wikidata: "Q684021" }
+sources: [source/wikipedia-baaba-maal-en, source/wikipedia-baaba-maal-fr, source/wikipedia-baaba-maal-ar, source/wikidata-baaba-maal]
+provenance:
+  layer: own-research
+  source: "English Wikipedia 'Baaba Maal' (revision 1361718516 of 29 June 2026), French Wikipedia 'Baaba Maal' (revision 240495926 of 18 October 2026), Arabic Wikipedia «بابا مال» (revision 76341486 of 26 August 2026), and Wikidata Q684021 read through the Wikidata API, all checked 25 October 2026. No earlier record existed in data/person/ under any spelling (Maal/Mall variants searched); this is a new build, not an enrichment. No relations are written: Podor and Dakar have no place entities in the museum, and his teacher Mansour Seck has no person record."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: century-additions-25
+status: { review: published, completeness: 3, generated_by: "Muse (Muse Spark 1.3)" }

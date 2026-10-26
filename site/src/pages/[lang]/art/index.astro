@@ -26,7 +26,7 @@ const labelFor = (i: (typeof items)[number]) => i.label[lang as "ar" | "en"] ?? 
           {items.filter((i) => i.group === g.key).map((i) => (
             <li>
               <figure class="card" style="margin:0">
-                <a href={`/${lang}/art/${i.slug}/`}><img src={`/media/architecture-art/${i.slug}.webp`} alt={i.alt.ar} width="1280" height="853" loading="lazy" style="width:100%;height:auto;border-radius:8px" /></a>
+                <a href={`/${lang}/art/${i.slug}/`}><img src={`/media/architecture-art/${i.slug}.webp`} alt={i.alt[lang] ?? i.alt.ar} width="1280" height="853" loading="lazy" style="width:100%;height:auto;border-radius:8px" /></a>
                 <figcaption style="padding-top:8px">
                   <strong>{labelFor(i)}</strong>
                   <span class="ui muted" style="display:block;font-size:.85rem">{i.source === "met" ? T.art.badge_met : T.art.badge}</span>

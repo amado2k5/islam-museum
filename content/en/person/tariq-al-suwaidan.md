@@ -62,7 +62,7 @@ The English article reports, citing media outlets and BBC News Arabic of 7 Decem
 He has six children, including Mafaz Al-Suwaidan, as the sources state; the museum publishes no further family detail. {cite:wikipedia-tariq-al-suwaidan-en} {cite:wikipedia-tariq-al-suwaidan-ar}
 
 ## Reach and audience
-His programmes aired on several Arab channels, he has written dozens of books, several translated, and he was listed among The Muslim 500 for three consecutive years (2022–2024) — ranks and figures the sources carry with their dates. {cite:wikipedia-tariq-al-suwaidan-en}
+His programmes aired on several Arab channels, he has written dozens of books, several translated, and he was listed among The Muslim 500 for three consecutive years (2022–2024) — ranks and figures the sources carry with their dates. {cite:wikipedia-tariq-al-suwaidan-en} His own published videos direct viewers to his official YouTube channel, @dralsuwaidan, alongside his official website — the channel that carries his history, management and leadership programmes. {cite:youtube-dralsuwaidan}
 
 ## Sources
 - The defined source entities cited above, recorded in `data/source/`.

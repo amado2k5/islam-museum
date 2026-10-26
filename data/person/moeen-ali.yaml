@@ -1,0 +1,34 @@
+id: person/moeen-ali
+class: person
+label: { ar: "معين علي", en: "Moeen Ali", ur: "معین علی" }
+names:
+  - { value: "Moeen Munir Ali", kind: full }
+gender: male
+summary:
+  ar: "لاعب كريكت إنجليزي، وُلد في برمنغهام سنة 1987 من أصل كشميري وإنجليزي. لاعب شامل يضرب باليسرى ويرمي دورانا باليمنى، لعب لإنجلترا بين 2014 و2024 في 68 مباراة اختبار و138 مباراة ليوم واحد و92 مباراة دولية عشرينية، وكان نائب قائد إنجلترا في الكريكت المحدود، وفاز معها بكأس العالم 2019 وكأس العالم للعشرينيات 2022، وسجّل في مباريات الاختبار 3094 جولة وأخذ 204 ويكيت، واعتزل الكريكت الدولي في سبتمبر 2024، ونشر سيرته الذاتية «معين» سنة 2018."
+  en: "English cricketer, born in Birmingham in 1987 of Kashmiri and English descent. A left-handed batting, right-arm off-spin all-rounder, he played for England from 2014 to 2024 in 68 Tests, 138 One Day Internationals and 92 Twenty20 Internationals, was England's vice-captain in limited-overs cricket, won the 2019 Cricket World Cup and the 2022 T20 World Cup with England, scored 3,094 Test runs and took 204 Test wickets, retired from international cricket in September 2024, and published his autobiography Moeen in 2018."
+  ur: "انگلش کرکٹ کھلاڑی، جو 1987 میں برمنگھم میں کشمیری اور انگریز نسل سے پیدا ہوئے۔ بائیں ہاتھ سے بلے بازی اور دائیں ہاتھ سے آف اسپن کرنے والے آل راؤنڈر کی حیثیت سے انھوں نے 2014ء سے 2024ء تک انگلینڈ کے لیے 68 ٹیسٹ، 138 ایک روزہ اور 92 ٹی ٹوئنٹی بین الاقوامی میچ کھیلے، محدود اوورز کرکٹ میں انگلینڈ کے نائب کپتان رہے، انگلینڈ کے ساتھ 2019ء کرکٹ ورلڈ کپ اور 2022ء ٹی ٹوئنٹی ورلڈ کپ جیتا، ٹیسٹ کرکٹ میں 3,094 رنز بنائے اور 204 وکٹیں لیں، ستمبر 2024 میں بین الاقوامی کرکٹ سے ریٹائر ہوئے، اور 2018 میں اپنی خودنوشت «معین» شائع کی۔"
+roles: [athlete, writer]
+wings: [people, living]
+born:
+  edtf: "1987-06-18"
+  hijri: "1407"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "Born on 18 June 1987 in Sparkhill, Birmingham, England, per the English and Urdu Wikipedia articles and Wikidata. No place entity for Birmingham exists in data/place/, so no born_in relation is written. The Hijri year (1407) is derived by tabular conversion."
+  sources: [source/wikipedia-moeen-ali-en, source/wikipedia-moeen-ali-ur, source/wikidata-moeen-ali]
+faith:
+  - value: unknown
+    basis: unknown
+    note: "NOT RECORDED AS DOCUMENTED — no source names a school for him. The sources attest practice, not a school: the English article and the reporting it cites describe a publicly practising Muslim — he is reported (BBC News, 23 November 2017, cited in the article) under the headline 'I want people to think Muslims are not all bad', performed Hajj at twenty-two and a later Umrah in preference to league cricket in press reporting, and had an alcohol brand's logo removed from his Chennai Super Kings jersey because his faith forbids promoting alcohol. Practice and a generic Muslim attestation name no school. Under the two-source rule and the founder's doubt rule the value stays unknown."
+    sources: [source/wikipedia-moeen-ali-en, source/wikipedia-moeen-ali-ur, source/wikidata-moeen-ali]
+external_ids: { wikidata: "Q6890053" }
+sources: [source/wikipedia-moeen-ali-en, source/wikipedia-moeen-ali-ur, source/wikidata-moeen-ali]
+provenance:
+  layer: own-research
+  source: "English Wikipedia 'Moeen Ali', read in full on 25 October 2026, and Urdu Wikipedia «معین علی», read on 25 October 2026; no Arabic Wikipedia article for him was found (the English article's ar langlink is empty, checked via the API on 25 October 2026), so no Arabic source entity is registered. Wikidata Q6890053 verified from the English article's wikibase_item (Q6890053) returned by the Wikipedia API pageprops query on 25 October 2026 (the Wikidata site itself is unreachable from this machine). No earlier record for him existed in data/person/ under moeen-ali or any other spelling checked; this is a new build, not an enrichment."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: century-additions-19
+status: { review: published, completeness: 3, generated_by: "Muse (Muse Spark 1.3)" }

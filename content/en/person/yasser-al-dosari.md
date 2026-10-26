@@ -27,7 +27,10 @@ After completing his first four-year contract he was excused from the post in Oc
 ## Writings
 Al-Dawsari has more than thirty-three authored works, studies and papers in Quranic sciences, comparative fiqh and sales law, including his master's thesis "Al-Dawabit al-Fiqhiyya fi al-Sabq wa'l-Ja'ala" and his doctoral thesis "Al-Furuq al-Fiqhiyya 'inda al-Hanafiyya fi al-Buyu'", and he has taken part in scholarly conferences and chaired Quran and scholarly competition committees inside and outside Saudi Arabia. {cite:wikipedia-yasser-al-dosari-ar}
 
+His official YouTube channel, @Yasseraldosry, whose About page names it as the official channel of Yasser ibn Rashid Al-Dosari, imam and khatib of Masjid al-Haram, publishes his recitations and lessons; the founder's channel harvest recorded 2,610,000 subscribers for it in October 2026, a dated platform figure. {cite:youtube-yasseraldosry}
+
 ## References
 - English Wikipedia, "Yasir al-Dawsari", revision of 18 October 2026.
 - Arabic Wikipedia, «ياسر الدوسري», revision of 14 October 2026.
 - Wikidata item Q12251502.
+- His official YouTube channel (@Yasseraldosry).

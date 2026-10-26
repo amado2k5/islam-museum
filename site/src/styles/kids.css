@@ -736,6 +736,7 @@ html[dir="rtl"] .kids .crumbs > * + *::before {
    ========================================================================== */
 .kids-topbar {
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-between;
   align-items: center;
   gap: 12px;

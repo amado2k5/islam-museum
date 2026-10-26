@@ -1,0 +1,30 @@
+id: person/mutlaq-al-jaser
+class: person
+label: { ar: "مطلق الجاسر", en: "Mutlaq Al-Jaser", ur: "مطلق الجاسر" }
+names:
+  - { value: "مطلق بن جاسر بن مطلق بن فارس الجاسر", kind: full }
+  - { value: "Mutlaq ibn Jasir ibn Mutlaq ibn Faris Al-Jaser", kind: full }
+  - { value: "أبو عبد الله", kind: kunya }
+  - { value: "Abu Abd Allah", kind: kunya }
+gender: male
+summary:
+  ar: "باحث وداعية كويتي وأستاذ مشارك في الفقه المقارن والسياسة الشرعية بكلية الشريعة والدراسات الإسلامية في جامعة الكويت، متخصص في الاقتصاد الإسلامي والصيرفة الإسلامية، عمل مراقبا شرعيا في بيت التمويل الكويتي وعميدا مساعدا في كليته، ويرأس مجلس جمعية مرتقى العلمية."
+  en: "Kuwaiti researcher and preacher and associate professor of comparative fiqh and Sharia politics at the College of Sharia and Islamic Studies, Kuwait University; a specialist in Islamic economics and Islamic banking who worked as a Sharia controller at Kuwait Finance House and as an assistant dean of his college, and chairs the board of the Murtaqa Scientific Society."
+  ur: "کویتی محقق اور مبلغ، جامعہ کویت کے کلیہ الشریعہ میں فقہِ مقارن اور سیاستِ شرعیہ کے مشارک استاد، اسلامی معاشیات اور اسلامی بینکاری کے ماہر، بیت التمويل الكويتي میں شرعی نگراں اور اپنے کلیہ کے معاون عمید رہے، اور جمعیہ مرتقیٰ علمیہ کے بورڈ کے صدر ہیں۔"
+roles: [scholar, teacher]
+wings: [people, living]
+relations:
+  - { type: student_of, target: person/saad-al-shathri, sources: [source/wikipedia-mutlaq-al-jaser-ar] }
+faith:
+  - value: unknown
+    basis: unknown
+    note: "The Arabic Wikipedia infobox names his ta'ifa as Ahl al-Sunna wa'l-Jama'a, his madhhab as Hanbali and his creed as Athari, but the madhhab value is cited in the article to Wikidata, so infobox and structured data are a single source family; his own official CV names no school, and Wikidata's only religion statement is a generic Islam value (P140), the same one family. A single infobox family does not meet the two-source rule (the Sami Frashëri and al-Shuwair precedents). Not recorded as sunni-hanbali."
+    sources: [source/wikipedia-mutlaq-al-jaser-ar, source/wikidata-mutlaq-al-jaser, source/website-mutlaq-al-jaser]
+external_ids: { wikidata: "Q123594631" }
+sources: [source/wikipedia-mutlaq-al-jaser-ar, source/wikidata-mutlaq-al-jaser, source/website-mutlaq-al-jaser]
+provenance:
+  layer: own-research
+  source: "Arabic Wikipedia's article on him (oldid 77037952), Wikidata item Q123594631 read through the API, and his own CV on his official website (dr-mutlaq.com), all checked 26 October 2026. The relation records that Al-Jaser (subject) studied under Sa'd al-Shathri (target), one of the teachers listed in the article; the edge is written once, here. His doctorate is in Islamic economics from Yarmouk University (2014); his earlier master's is in Sharia from Cairo University (2008), as both the article and his CV agree. Checked 26 October 2026"
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: modern-figures-batch-29
+status: { review: published, completeness: 3, generated_by: "Muse (Muse Spark 1.3)" }

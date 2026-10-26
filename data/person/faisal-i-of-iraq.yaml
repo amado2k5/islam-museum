@@ -1,0 +1,52 @@
+id: person/faisal-i-of-iraq
+class: person
+label: { ar: "فيصل الأول", en: "Faisal I of Iraq", ur: "فیصل اول" }
+names:
+  - { value: "فيصل بن حسين بن علي الهاشمي", kind: full }
+  - { value: "Faisal bin Hussein bin Ali al-Hashimi", kind: full }
+  - { value: "أبو غازي", kind: kunya }
+  - { value: "Abu Ghazi", kind: kunya }
+  - { value: "فيصل الأول", kind: regnal }
+  - { value: "Faisal I", kind: regnal }
+gender: male
+summary:
+  ar: "فيصل الأول بن الحسين (20 مايو 1885 – 8 سبتمبر 1933)، ثالث أبناء الشريف حسين بن علي، وقائد الجيش الشمالي في الثورة العربية الكبرى (1916–1918) الذي دخل دمشق في أكتوبر 1918 وقاد الوفد العربي في مؤتمر باريس للسلام سنة 1919 ووقّع اتفاقًا مع حاييم وايزمان. نادى به المؤتمر السوري العام ملكًا على المملكة العربية السورية في 8 مارس 1920، فأزاحه الفرنسيون بعد معركة ميسلون في 24 يوليو 1920؛ ثم صار ملكًا على العراق في 23 أغسطس 1921 برعاية بريطانية، ورعى الوحدة بين السنة والشيعة وسياسة عربية جامعة، وأشرف على استقلال العراق ودخوله عصبة الأمم سنة 1932، وتوفي بأزمة قلبية في برن فخلفه ابنه غازي."
+  en: "Faisal I bin Hussein (20 May 1885 – 8 September 1933) was the third son of Sharif Hussein bin Ali and commander of the Northern Army in the Great Arab Revolt (1916–1918), who entered Damascus in October 1918, led the Arab delegation at the Paris Peace Conference in 1919 and signed an agreement with Chaim Weizmann. Proclaimed King of the Arab Kingdom of Syria by the Syrian National Congress on 8 March 1920, he was expelled by the French after the Battle of Maysalun on 24 July 1920; he then became King of Iraq on 23 August 1921 under British sponsorship, fostered unity between Sunni and Shia Muslims in a pan-Arab policy, presided over Iraq's independence and entry into the League of Nations in 1932, and died of a heart attack at Bern, succeeded by his son Ghazi."
+  ur: "فیصل اول بن حسین (20 مئی 1885ء – 8 ستمبر 1933ء) شریف حسین بن علی کے تیسرے بیٹے اور ثورۂ عربیہ کبریٰ (1916ء–1918ء) میں شمالی فوج کے سالار تھے؛ اکتوبر 1918ء میں دمشق میں داخل ہوئے، 1919ء میں پیرس امن کانفرنس میں عرب وفد کی قیادت کی اور حائیم وائزمین سے معاہدہ کیا۔ 8 مارچ 1920ء کو سوری قومی کانگریس نے انہیں مملکتِ عربیہ سوریہ کا بادشاہ قرار دیا، مگر میسلون کی لڑائی (24 جولائی 1920ء) کے بعد فرانسیسیوں نے انہیں نکال دیا؛ پھر 23 اگست 1921ء کو برطانوی سرپرستی میں عراق کے بادشاہ بنے، سنی و شیعہ اتحاد اور پان عرب پالیسی کو فروغ دیا، 1932ء میں عراق کی آزادی کی نگرانی کی، اور برن میں دل کے دورے سے وفات پائی؛ جانشین ان کے بیٹے غازی ہوئے۔"
+roles: [ruler, politician]
+wings: [people]
+born:
+  edtf: "1885-05-20"
+  hijri: "1302"
+  calendar: gregorian
+  precision: day
+  status: debated
+  derived: true
+  note: "The English article gives his birth as 20 May 1885 at Mecca, and the Arabic article gives the same Gregorian dates, 20 May 1885 – 8 September 1933, but places the birth at Taif and his upbringing among the Utayba in the Hejaz desert; the Urdu article also gives Taif but the year 1883; Wikidata carries all three years (1883, 1885, 1886, each at 20 May) and both places (Taif, Mecca). The record follows the English and Arabic articles' Gregorian date (20 May 1885), and because the articles disagree on the place — Mecca against Taif — no born_in relation is written; the disagreement is stated here in full. The Arabic article's own Hijri birth year (1300 AH) corresponds to 1882–83 CE and so matches the Urdu 1883 variant, not the 1885 both articles print. The Hijri year in this block (1302) is derived by tabular conversion of the recorded date (20 May 1885 = 5 Sha'ban 1302)."
+  sources: [source/wikipedia-faisal-i-en, source/wikipedia-faisal-i-ar, source/wikipedia-faisal-i-ur, source/wikidata-faisal-i]
+died:
+  edtf: "1933-09-08"
+  hijri: "1352"
+  calendar: gregorian
+  precision: day
+  status: debated
+  derived: true
+  note: "The English article gives his death as a heart attack on 8 September 1933 at Bern, Switzerland, and the Urdu article agrees on the day; Wikidata also carries a 7 September statement, so the day is recorded as debated between the two, following the articles. The Arabic article pairs 8 September 1933 with 19 Jumada al-awwal 1352; tabular conversion of the date gives 18 Jumada al-awwal 1352, and the Hijri year (1352) is so derived. Bern has no place entity in the museum yet, so no died_in relation is written; the English article records his remains passing through Haifa on their way to Baghdad."
+  sources: [source/wikipedia-faisal-i-en, source/wikipedia-faisal-i-ar, source/wikipedia-faisal-i-ur, source/wikidata-faisal-i]
+relations:
+  - { type: child_of, target: person/hussein-bin-ali-al-hashimi, note: "Faisal is the son: the edge runs from Faisal (subject, the child) to Hussein (the father), the third of Hussein's sons, by his first wife Abdiyya bint Abdullah on the English Hussein article's family account. The edge lives here in the child's record, as the lane rule requires.", sources: [source/wikipedia-faisal-i-en, source/wikipedia-hussein-bin-ali-en] }
+  - { type: sibling_of, target: person/abdullah-i-of-jordan, note: "Faisal and Abdullah are brothers, the third and second sons of Hussein bin Ali; the sibling edge is written once, here in Faisal's record, and is not repeated in Abdullah's.", sources: [source/wikipedia-faisal-i-en, source/wikipedia-abdullah-i-en] }
+  - { type: participated_in, target: event/arab-revolt-1334, note: "He commanded the revolt's Northern Army from 1916 to 1918 and led the entry into Damascus on 1 October 1918.", sources: [source/wikipedia-faisal-i-en, source/wikipedia-faisal-i-ar] }
+faith:
+  - value: unknown
+    basis: unknown
+    note: "No source read names a school for Faisal personally. In full: the English article describes his state policy — fostering unity between Sunni Muslims and Shia Muslims to encourage common loyalty and promote pan-Arabism — and quotes Amin al-Rihani that Faisal's faith 'reflected all Islamic dominations' [denominations], which made him respectful and tolerant toward all religions; it also records that Iraq's Shia had ignored the revolt because they considered his father 'a Sunni Muslim from the Hejaz' — a perception of the father, not an attestation of the son. The Arabic and Urdu articles name no school for him, and Wikidata's only religion value is Islam generically. Practice, policy and family background never count under the lane rule; with no source naming a school for the man himself, his faith is left unknown under the two-source rule and the doubt rule ('if we have doubt then unclassified')."
+    sources: [source/wikipedia-faisal-i-en, source/wikipedia-faisal-i-ar, source/wikipedia-faisal-i-ur, source/wikidata-faisal-i]
+external_ids: { wikidata: "Q212486" }
+sources: [source/wikipedia-faisal-i-en, source/wikipedia-faisal-i-ar, source/wikipedia-faisal-i-ur, source/wikidata-faisal-i]
+provenance:
+  layer: own-research
+  source: "English Wikipedia 'Faisal I' (revision 1381807247), Arabic Wikipedia 'فيصل الأول' (revision 76000198) and Urdu Wikipedia 'فیصل بن حسین' (revision 8907274), all read on 25 October 2026, with Wikidata item Q212486. The queue's years (1885–1933) agree with the English and Arabic articles. The birthplace disagreement (Mecca in the English article against Taif in the Arabic and Urdu) and the birth-year variants (1883 in the Urdu article and in Wikidata, matching the Arabic article's Hijri year 1300) are stated in the born note and prose rather than merged, and the Urdu article's 'eldest son' is an error against both other articles — he was the third son. His son and successor Ghazi has no person record in this run, so no child edge is written for him; no kingdom-of-Iraq or kingdom-of-Syria polity entity exists in the museum, so no ruler_of edge is written."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: century-additions-23
+status: { review: published, completeness: 3, generated_by: "Muse (Muse Spark 1.3)" }
