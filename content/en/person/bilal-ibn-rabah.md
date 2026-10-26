@@ -42,3 +42,12 @@ Sheikh Omar Abdelkafy recounts that Abd al-Rahman ibn Awf offered Bilal ibn Raba
 He recounts that the Companions asked Bilal to give the call to prayer at al-Aqsa; when he did, it moved everyone present to tears and brought the Prophet to their minds (needs_source) {cite:assabile-omar-abdelkafy al-dinu-al-qayem/ep08 00:19:30}. He recounts that the Prophet told Bilal that he had heard Bilal's footsteps ahead of him in Paradise (needs_source: parts of the saying are unclear in the transcription) {cite:assabile-omar-abdelkafy al-dinu-al-qayem/ep08 01:12:30}.
 
 The sheikh says Islam made Khabbab ibn al-Aratt equal, in everything, to the son of Umar ibn al-Khattab (needs_source: the list of names is as the sheikh gives it) {cite:assabile-omar-abdelkafy al-dinu-al-qayem/ep09 00:29:00}.
+
+## For Sprouts
+Bilal ibn Rabah was one of the first Muslims, born in Mecca to an Abyssinian mother. His people hurt him for his faith and he kept saying 'One, One' until Abu Bakr bought him and freed him. The Prophet chose him as the muezzin — the first voice to call Muslims to prayer — and his call is still heard around the world today.
+
+## For Explorers
+Bilal ibn Rabah was an Abyssinian born in Mecca about 580 CE who became Muslim while a slave of Umayya ibn Khalaf, who hurt him on the burning sands of Mecca; the account says he kept saying 'One, One' until Abu Bakr bought and freed him. In Medina the Prophet chose him as muezzin; he was at Badr, and is remembered calling the adhan on the Ka'ba itself the day Mecca was conquered. After the Prophet's death he served in Syria, and the sources differ whether he died there or in Medina about 640 CE. Bilal stands where three histories meet: slavery and freedom, Africa and Arabia, and the sound of Islam — every adhan is traced in memory to his voice.
+
+## For Scholars
+Bilal ibn Rabah was an Abyssinian-born slave in Mecca (c. 580 CE) and among the first Muslims; he became Muslim while owned by Umayya ibn Khalaf, who tortured him on the midday sands while he said 'One, One', until Abu Bakr bought and freed him — as Ibn Ishaq and al-Raheeq record. The Prophet chose him as the community's muezzin, the first to call to prayer; he witnessed Badr and is remembered calling the adhan on the Ka'ba at the conquest. After the Prophet's death he served in Syria, and the sources differ on whether he died there or in Medina c. 640 CE. Historians read him where three histories meet — slavery and freedom, Africa and Arabia, and the sound of Islam; every adhan in the world is traced in memory to his voice.

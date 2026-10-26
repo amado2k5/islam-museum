@@ -23,3 +23,12 @@ The polytheists tortured [[person/khabbab-ibn-al-aratt|Khabbab]] by plucking out
 
 ## For young visitors
 The polytheists tortured the poor and the enslaved among those who had embraced Islam. Bilal was tortured with stones in the desert. Ammar and his family were tortured, and Sumayya died as the first martyr of Islam. Abu Bakr bought them and freed them.
+
+## For Sprouts
+In Mecca Quraysh hurt the weak among the first Muslims — the best known were Bilal, Ammar, Yasir, Sumayya and Khabbab. The Prophet passed the family of Yasir and said, 'Patience, family of Yasir, your appointment is Paradise,' and Abu Bakr bought Bilal and the women who were being hurt and freed them.
+
+## For Explorers
+Quraysh harmed the weak among those who became Muslim in Mecca after the first methods failed: each tribe mistreated its own converts, and those without a tribe suffered every kind of persecution. Abu Jahl would shame a convert of rank and beat a weak one; Umayya ibn Khalaf laid Bilal on the burning valley floor at noon while he said 'One, One' until Abu Bakr bought and freed him. Yasir, Ammar and Sumayya were taken out to al-Abthah, and the Prophet passed them saying 'Patience, family of Yasir, your appointment is Paradise'; Khabbab was hurt with burning coals; and Abu Bakr bought and freed the Muslim slave-women — Zinnira, al-Nahdiya, Umm Ubays. Sumayya is remembered as the first martyr of Islam.
+
+## For Scholars
+Quraysh tortured the weak among the Meccan converts once the first methods failed: each tribe tormented its own converts, and the tribeless suffered every form of persecution. Abu Jahl's procedure: shame and disgrace a convert of rank, beat and incite against a weak one; Uthman ibn Affan's uncle wrapped him in a palm mat and smoked him from below; Mus'ab ibn Umayr's mother starved him and expelled him. The detail: Umayya ibn Khalaf laid Bilal on the noon sands with the stone on his chest while he said 'One, One' until Abu Bakr bought him; the family of Yasir were taken to al-Abthah in the heat and the Prophet passed saying 'Patience, family of Yasir, your appointment is Paradise' — Yasir died under torture and Sumayya was speared, the first martyr of Islam; Khabbab with plucked hair, burning coals and a stone; Abu Fakiha dragged on the ground; Zinnira, al-Nahdiya and her daughter and Umm Ubays — slave-women given the like; a slave girl of Banu Mu'mmil beaten by Umar, then still a polytheist, until he tired. Abu Bakr bought these and freed them, as he freed Bilal and Amir ibn Fuhayra.

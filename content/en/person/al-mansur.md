@@ -27,3 +27,12 @@ Al-Mas'udi says that he died at Bir Maymun on his way to the Sacred Sanctuary, a
 
 ## Notes for researchers
 - The rulings attributed here are the views of their owners, and do not express the museum's view.
+
+## For Sprouts
+Abu Ja'far al-Mansur was the second Abbasid caliph. He built Baghdad — al-Mas'udi says fifty thousand men worked on it each day — and in his days Ibn Ishaq wrote the sira and books were translated from other languages into Arabic. He died on the road to the Sanctuary.
+
+## For Explorers
+Abu Ja'far Abd Allah ibn Muhammad al-Mansur, second Abbasid caliph, was born in 95 AH to Salama the Berber. Al-Suyuti describes him as the most dignified, brave and resolute of the Abbasids, nicknamed Abu al-Dawaniq for counting workmen to the last grain. He built Baghdad — al-Mas'udi says fifty thousand men each day — and al-Rusafa in 151 AH, and returned Cyprus to Mu'awiya's old treaty. Al-Mas'udi's 'firsts' for him: the first caliph to court astrologers, the first to have books translated from foreign tongues into Arabic — Kalila wa-Dimna and Euclid — the first to employ his clients over the Arabs, and in his days Ibn Ishaq composed the sira. He died at Bi'r Maymun on the road to the Sanctuary.
+
+## For Scholars
+Abu Ja'far Abd Allah ibn Muhammad ibn Ali ibn Abd Allah ibn al-Abbas al-Mansur, second Abbasid caliph, was born in 95 AH — in the year of al-Hajjaj's death, on al-Mas'udi's account — to Salama the Berber, an umm walad. Al-Suyuti calls him the most dignified, brave and resolute of the Abbasids and a gatherer of wealth, nicknamed Abu al-Dawaniq for reckoning workmen to the last grains. His works: Baghdad — fifty thousand men daily per al-Mas'udi — al-Rusafa in 151 AH, Cyprus returned to Mu'awiya's old treaty in al-Baladhuri, and grants to his brother Sulayman after the Umayyad confiscations. His account carries the Abu Hanifa case: al-Suyuti says he had him beaten over the judgeship then jailed until he died — 'it was said' by poison for a fatwa of rebellion, the 'it was said' keeping it contested. Al-Mas'udi's firsts attach to him: courting astrologers, translating foreign books (Kalila wa-Dimna, Euclid), preferring clients over Arabs, and Ibn Ishaq's sira composed in his reign. He died at Bi'r Maymun on the road to the Sanctuary leaving a great treasury on al-Mas'udi's count.

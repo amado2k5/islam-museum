@@ -29,3 +29,8 @@ relations:
   - { type: caused_by, target: event/death-of-the-prophet }
 sources: [source/ibn-ishaq-guillaume, source/ibn-hisham-saqqa, source/watt-1956-medina, source/lings-1983, source/mubarakpuri-raheeq, source/sahih-al-bukhari, source/sahih-muslim, source/sallabi-ali-vol1]
 status: { review: draft, completeness: 1, generated_by: "Claude Sonnet 5.5; dates follow the cited tradition and are approximate where marked" }
+
+education:
+  levels: [sprouts, explorers, scholars]
+  flagged_for_kids: true
+  provenance: { generated_by: "Devin", model: "Devin (Cognition)", run: "education-E5-leveled-b3", note: "Leveled texts restated from this record's own prose in ar, en and ur; draft, pending the founder's review and scholar review of the child levels." }

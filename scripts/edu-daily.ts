@@ -65,7 +65,10 @@ export function buildSchedule(pool: PoolEvent[]): Schedule {
       // Three distractors: the centuries of other pool events at fixed hash-ordered offsets; each must be new.
       for (let j = 1; options.length < CHOICES; j++) {
         if (j > N) throw new Error(`no ${CHOICES} distinct centuries for ${e.id}`);
-        const c = century(at(k + j * 37 + 1).year);
+        // The hash stride alone can revisit a handful of residues (e.g. when N is a multiple
+        // of it); after those, fall back to a linear walk so every pool position is scanned.
+        const step = j <= 8 ? j * 37 + 1 : j - 7;
+        const c = century(at(k + step).year);
         if (!options.includes(c)) options.push(c);
       }
       // Present the four choices in hash order of (id, century), so the correct answer is not always in one place.
