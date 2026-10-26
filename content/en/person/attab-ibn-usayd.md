@@ -15,3 +15,6 @@ When the Prophet finished dividing the spoils and performed [[event/umrah-of-jir
 
 ## For young visitors
 The Prophet chose a young man to be responsible for the great city of Mecca because he knew and had memorised the Qur'an — proving knowledge and trustworthiness matter more than age.
+
+## Encyclopaedia of Islam: the companion al-Umawi
+'Attab ibn Usayd ibn Abi'l-'Is ibn Umayya, al-Umawi, was converted on the day Mecca was taken. Shortly afterwards, at the battle of Hunayn in 8 AH (629), Muhammad appointed him governor of Mecca, and he continued in that post under Abu Bakr. He agreed to marry Juwayriya bint Abi Jahl so as to prevent 'Ali ibn Abi Talib from taking a second wife in addition to Fatima. The date of his death is given variously as between 12 and 23 AH (634-644); the entry keeps the whole range. {cite:encyclopaedia-of-islam-2 vol. 1 p. 800}
