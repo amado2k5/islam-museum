@@ -1015,3 +1015,41 @@ describe("E4 step 6 — Journey Map + teen doors", () => {
     expect(src.includes("fetch(")).toBe(false);
   });
 });
+
+describe("E5 step 3 — edu/story-cards/*.yaml (story in 12 cards)", () => {
+  it("20 stories load, each with exactly 12 trilingual cards and whitelisted motifs", async () => {
+    const { listStoryCards, loadStoryCards, MOTIFS } = await import("../site/src/lib/story-cards.ts");
+    const list = listStoryCards();
+    expect(list.length).toBe(20);
+    for (const s of list) {
+      const d = loadStoryCards(s.slug);
+      expect(d.cards.length, s.slug).toBe(12);
+      for (const c of d.cards) expect(MOTIFS.includes(c.motif), `${s.slug}:${c.motif}`).toBe(true);
+    }
+  });
+  it("every file is trilingual and carries provenance + published status", () => {
+    for (const f of readdirSync("edu/story-cards").filter((x) => x.endsWith(".yaml"))) {
+      const d = parse(readFileSync(`edu/story-cards/${f}`, "utf8"));
+      expect(d.status?.review, f).toBe("published");
+      expect(d.provenance?.generated_by, f).toBeTruthy();
+      expect(d.provenance?.source, f).toBeTruthy();
+    }
+  });
+  it("no typed honorifics or Qur'an text in story-card data", () => {
+    for (const f of readdirSync("edu/story-cards"))
+      expect(HONORIFIC.test(readFileSync(`edu/story-cards/${f}`, "utf8")), f).toBe(false);
+  });
+  it("the routes + player script exist and auto-play stops on pointer and key", () => {
+    expect(existsSync("site/src/pages/[lang]/sighar/storytellers/stories/index.astro")).toBe(true);
+    expect(existsSync("site/src/pages/[lang]/sighar/storytellers/stories/[slug].astro")).toBe(true);
+    const src = readFileSync("site/src/scripts/story-cards.ts", "utf8");
+    expect(src.includes("pointerdown")).toBe(true);
+    expect(src.includes("keydown")).toBe(true);
+    expect(src.includes("2800")).toBe(true);
+    for (const l of ["ar", "en", "ur"]) {
+      const d = parse(readFileSync(`i18n/${l}.yaml`, "utf8")).storycards;
+      for (const k of ["title", "lede", "play", "stop", "prev", "next", "all_cards", "cards_count"])
+        expect(typeof d[k] === "string" && d[k].length > 0, `${l}.${k}`).toBe(true);
+    }
+  });
+});
