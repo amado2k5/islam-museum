@@ -1,0 +1,47 @@
+id: person/saleh-al-ali
+class: person
+label: { ar: "صالح العلي", en: "Saleh al-Ali", ur: "صالح العلی" }
+names:
+  - { value: "الشيخ صالح أحمد العلي", kind: full }
+  - { value: "Sheikh Saleh Ahmad Ali", kind: full }
+  - { value: "Salih al-Ali", kind: alternate }
+  - { value: "Saleh al-Ali", kind: alternate }
+gender: male
+summary:
+  ar: "شيخ وزعيم عسكري سوري (1883–1950) من أعيان العلويين في جبال الساحل، قاد ثورة الساحل ضد الانتداب الفرنسي (1919–1921)، ورفض مشروع الدولة العلوية المنفصلة، واعتزل السياسة بعد عفو 1922 حتى وفاته في طرطوس."
+  en: "Syrian sheikh and military leader (1883–1950), an Alawite notable of the coastal mountains who led the revolt of the Syrian coast against the French Mandate (1919–1921), refused the project of a separate Alawite state, and withdrew from politics after the amnesty of 1922 until his death at Tartus."
+  ur: "شامی شیخ اور عسکری رہنما (1883–1950)، ساحلی پہاڑوں کے علوی اعیان میں سے، جنہوں نے فرانسیسی مینڈیٹ کے خلاف ساحلی بغاوت (1919–1921) کی قیادت کی، الگ علوی ریاست کے منصوبے کو مسترد کیا، اور 1922 کی عام معافی کے بعد طرطوس میں اپنی وفات تک سیاست سے کنارہ کش رہے۔"
+roles: [general, activist]
+wings: [people]
+regions: [levant-iraq]
+born:
+  edtf: "1883"
+  hijri: "1300"
+  calendar: gregorian
+  precision: year
+  status: debated
+  derived: true
+  note: "Born at al-Shaykh Badr in the Syrian coastal mountains; no place entity exists for al-Shaykh Badr, so the birthplace is carried here and in the prose. The year is disputed: the English article's lead and infobox, the Arabic article and the Urdu article's body give 1883, while the Urdu article's lead gives 1884, the English article's death-age template computes from 1884 and files him under '1884 births', and Wikidata carries both 1883 and 1884. The 1883 of the article texts is followed."
+  sources: [source/wikipedia-saleh-al-ali-en, source/wikipedia-saleh-al-ali-ar, source/wikipedia-saleh-al-ali-ur, source/wikidata-saleh-al-ali]
+died:
+  edtf: "1950-04-13"
+  hijri: "1369"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "Died at Tartus on 13 April 1950; no place entity exists for Tartus, so the place of death is carried here and in the prose."
+  sources: [source/wikipedia-saleh-al-ali-en, source/wikipedia-saleh-al-ali-ar, source/wikipedia-saleh-al-ali-ur, source/wikidata-saleh-al-ali]
+faith:
+  - value: unknown
+    basis: unknown
+    note: "His community is documented; no affiliation value is recorded, exactly as the sources give it. Personal attestation versus communal role, stated separately: as communal role and background, the English article's lead calls him a Syrian Alawite military commander and its background section says he was born to a family of Alawite notables of al-Shaykh Badr; the Arabic article says his father was one of the known sheikhs of the Alawite ta'ifa, and Saleh himself bore the title Sheikh and led his community's revolt. As affiliation-shaped attestations there are only two, and both are single structured values: the Arabic article's infobox, which gives his religion as Islam and his creed as Alawite, and Wikidata's religion (P140) field, which carries Islam and Alawites. No article text names an affiliation for him personally beyond his community and office, no source attests 'Shia' for him, and the museum's faith enum has no alawite value; the Shia mapping is therefore not engaged and none is forced. The recorded value is unknown, with the community stated here in full."
+    sources: [source/wikipedia-saleh-al-ali-en, source/wikipedia-saleh-al-ali-ar, source/wikipedia-saleh-al-ali-ur, source/wikidata-saleh-al-ali]
+external_ids: { wikidata: "Q4165808" }
+sources: [source/wikipedia-saleh-al-ali-en, source/wikipedia-saleh-al-ali-ar, source/wikipedia-saleh-al-ali-ur, source/wikidata-saleh-al-ali]
+provenance:
+  layer: own-research
+  source: "English, Arabic and Urdu Wikipedia and Wikidata Q4165808, each read at the revision recorded in its source file and checked on 26 October 2026"
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: century-additions-52
+status: { review: published, generated_by: "Muse (Muse Spark 1.3)" }
