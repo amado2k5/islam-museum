@@ -34,3 +34,12 @@ The hadith continues: God declares that He has forgiven the people of the gather
 ## From Sheikh Omar Abdelkafy's Tafsir lectures (episode 10)
 
 The Sheikh prays that God gather those present in the shade of His throne on the day when there is no shade but His {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep10 00:00:30}. He then says that a day will come for the people of paradise on which each will ask his brothers when God forgave them, and he reports from scholars that this question has an answer (needs_source) {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep10 00:00:30}.
+
+## For Sprouts
+Dhikr (remembrance) for Ibn Rajab is the all-gathering gate to hold to when the laws grew many: 'let your tongue stay moist with the remembrance of God'.
+
+## For Explorers
+Ibn Rajab treats dhikr in the fiftieth hadith, the cap of his additions to the Forty, as the all-gathering gate to hold to when the laws grew many. The hadith's text: 'let your tongue stay moist with the remembrance of God', and in Mu'adh's hadith 'that you die with your tongue moist from God's remembrance'. He says many of remembrance's merits came scattered through the book and he here gives the merit of keeping it up and doing it much, citing the verses commanding much remembrance and praising the men and women who remember with forgiveness and a great wage.
+
+## For Scholars
+Ibn Rajab treats dhikr in the fiftieth hadith, the cap of his additions to the Forty, as the all-gathering gate to hold to when the laws grew many. The hadith's text: 'let your tongue stay moist with the remembrance of God', and in Mu'adh's hadith 'that you die with your tongue moist from God's remembrance'. Ibn Rajab says many of remembrance's merits came scattered through the book, and he gives here the merit of keeping it up and doing it much; he cites the verses commanding much remembrance and praising the men and women who remember with forgiveness and a great wage.

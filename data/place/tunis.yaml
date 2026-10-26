@@ -12,3 +12,8 @@ coordinate_precision: locality
 external_ids: { wikidata: "Q3572", geonames: "2464470" }
 sources: [source/geonames-gazetteer, source/rihla-ibn-battuta-1958, source/salabi-umayyad-state-2020, source/umayyad-birth-to-fall-2006]
 status: { review: draft, completeness: 1, generated_by: "Claude Code; coordinates from GeoNames (modern settlement of the same name); identification with the classical place to be checked" }
+
+education:
+  levels: [sprouts, explorers, scholars]
+  flagged_for_kids: true
+  provenance: { generated_by: "Devin", model: "Devin (Cognition)", run: "education-E5-leveled-b6", note: "Leveled texts restated from this record's own prose in ar, en and ur; draft, pending the founder's review and scholar review of the child levels." }
