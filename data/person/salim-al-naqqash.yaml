@@ -1,0 +1,39 @@
+id: person/salim-al-naqqash
+class: person
+label: { ar: "سليم النقاش", en: "Salim al-Naqqash", ur: "سلیم النقاش" }
+names:
+  - { value: "سليم بن خليل النقاش", kind: full }
+  - { value: "Salim al-Naqqash", kind: full }
+  - { value: "Salīm al-Naqqāsh", kind: latinized }
+gender: male
+summary:
+  ar: "أديب وصحفي لبناني (توفي 1884)؛ وُلد في بيروت وانتقل إلى الإسكندرية سنة 1876، فأصدر مع صديقه أديب إسحاق جرائد «مصر» (1877) و«التجارة» (1878) و«المحروسة» (1880)، وألّف كتاب «مصر للمصريين أو حوادث الفتنة العرابية» في تسعة أجزاء، وتوفي في الإسكندرية."
+  en: "Lebanese writer and journalist (died 1884). Born in Beirut, he moved to Alexandria in 1876 and with his friend Adib Ishaq published the newspapers Misr (1877), al-Tijara (1878) and al-Mahrousa (1880); he wrote Misr lil-Misriyyin ('Egypt for the Egyptians'), an account of the Urabi revolt in nine parts, and died in Alexandria."
+  ur: "لبنانی ادیب اور صحافی (وفات 1884)؛ بیروت میں پیدا ہوئے اور 1876 میں اسکندریہ منتقل ہو گئے، جہاں انہوں نے اپنے دوست ادیب اسحاق کے ساتھ اخبارات «مصر» (1877)، «التجارہ» (1878) اور «المحروسہ» (1880) جاری کیے؛ انہوں نے عرابی بغاوت پر نو حصوں میں کتاب «مصر للمصریین» لکھی، اور اسکندریہ ہی میں انتقال ہوا۔"
+roles: [writer]
+wings: [people]
+regions: [levant-iraq]
+died:
+  edtf: "1884"
+  hijri: "1301"
+  calendar: gregorian
+  precision: year
+  status: historical
+  derived: true
+  note: "Died at Alexandria. The Arabic article, citing al-Zirikli's al-A'lam, pairs his death with 1301 AH / 1884 CE, and Wikidata carries the same year. No source consulted gives a birth year for him — the lane queue's 1850 appears in neither the article nor Wikidata — so no born block is written. Beirut, his birthplace, has no place entity, so no born_in edge is written."
+  sources: [source/wikipedia-salim-al-naqqash-ar, source/wikidata-salim-al-naqqash]
+relations:
+  - { type: died_in, target: place/alexandria, sources: [source/wikipedia-salim-al-naqqash-ar] }
+faith:
+  - value: unknown
+    basis: unknown
+    note: "No source consulted says anything about his religion at all: the Arabic article — the only Wikipedia article on him in any language — makes no religion statement and files him under no religion category, and Wikidata carries no religion value. His faith is unknown by complete absence of evidence, and nothing is inferred from his family name or his milieu. He is not his namesake Marun al-Naqqash, the theatre pioneer of Beirut, whose record is a separate queue entry."
+    sources: [source/wikipedia-salim-al-naqqash-ar, source/wikidata-salim-al-naqqash]
+external_ids: { wikidata: "Q16119744" }
+sources: [source/wikipedia-salim-al-naqqash-ar, source/wikidata-salim-al-naqqash]
+provenance:
+  layer: own-research
+  source: "Arabic Wikipedia and Wikidata Q16119744, each read at the revision recorded in its source file and checked on 26 October 2026"
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: century-additions-54
+status: { review: published, generated_by: "Muse (Muse Spark 1.3)" }

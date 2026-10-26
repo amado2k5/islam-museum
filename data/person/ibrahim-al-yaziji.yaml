@@ -1,0 +1,49 @@
+id: person/ibrahim-al-yaziji
+class: person
+label: { ar: "إبراهيم اليازجي", en: "Ibrahim al-Yaziji", ur: "ابراہیم الیازجی" }
+names:
+  - { value: "إبراهيم بن ناصيف بن عبد الله بن ناصيف بن جنبلاط اليازجي", kind: full }
+  - { value: "Ibrahim al-Yaziji", kind: full }
+gender: male
+summary:
+  ar: "لغوي وأديب وصحفي لبناني (1847–1906)، ابن الشاعر ناصيف اليازجي؛ من رواد النهضة العربية، حرّر «النجاح» و«الطبيب» وأسس مجلة «الضياء» في القاهرة (1898)، وترجم الكتاب المقدس إلى العربية بتكليف من اليسوعيين، وبسّط أشكال الحروف العربية تمهيدًا للآلة الكاتبة، ودعا إلى هوية عربية تجمعها اللغة فوق الدين."
+  en: "Lebanese philologist, writer and journalist (1847–1906), son of the poet Nasif al-Yaziji and a leading figure of the Nahda. He edited al-Najah and al-Tabib, founded the magazine Ad-Diya in Cairo (1898), translated the Bible into Arabic on a Jesuit commission, simplified the forms of the Arabic letters towards the typewriter, and championed an Arab identity bound by language above religion."
+  ur: "لبنانی ماہرِ لسانیات، ادیب اور صحافی (1847–1906)، شاعر ناصیف الیازجی کے بیٹے اور نہضہ کی سرکردہ شخصیت؛ انہوں نے «النجاح» اور «الطبیب» کی ادارت کی، قاہرہ میں مجلہ «الضیاء» (1898) قائم کیا، یسوعیوں کے سپرد کردہ کام کے طور پر بائبل کا عربی ترجمہ کیا، عربی حروف کی شکلیں ٹائپ رائٹر کی طرف سادہ کیں، اور مذہب سے بالاتر زبان کی بنیاد پر عرب شناخت کی وکالت کی۔"
+roles: [scholar, poet, writer]
+wings: [people]
+regions: [levant-iraq]
+born:
+  edtf: "1847-03-02"
+  hijri: "1263"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "Born at Beirut. Both articles give 2 March 1847, the English citing Jurji Zaydan's biographies; the Arabic article's birth category pairs 1847 with 1263 AH. Beirut has no place entity, so no born_in edge is written."
+  sources: [source/wikipedia-ibrahim-al-yaziji-en, source/wikipedia-ibrahim-al-yaziji-ar, source/wikidata-ibrahim-al-yaziji]
+died:
+  edtf: "1906"
+  hijri: "1324"
+  calendar: gregorian
+  precision: year
+  status: historical
+  derived: true
+  note: "Died at Cairo in 1906, where he had lived since 1894. The articles give the year only; Wikidata carries a full date, 28 December 1906, which no article gives and which is recorded here in the note rather than the date. The Arabic article's death category pairs 1906 with 1324 AH."
+  sources: [source/wikipedia-ibrahim-al-yaziji-en, source/wikipedia-ibrahim-al-yaziji-ar, source/wikidata-ibrahim-al-yaziji]
+relations:
+  - { type: child_of, target: person/nasif-al-yaziji, sources: [source/wikipedia-ibrahim-al-yaziji-en, source/wikipedia-ibrahim-al-yaziji-ar] }
+  - { type: lived_in, target: place/cairo, sources: [source/wikipedia-ibrahim-al-yaziji-ar] }
+  - { type: died_in, target: place/cairo, sources: [source/wikipedia-ibrahim-al-yaziji-en, source/wikipedia-ibrahim-al-yaziji-ar] }
+faith:
+  - value: unknown
+    basis: unknown
+    note: "FLAGGED for a founder ruling, configuration (ii); both readings preserved. The family framing: the English article says his father Nasif was born into a Melkite Catholic family from Homs — a statement about his father — and no text names an affiliation for Ibrahim himself in so many words. One personal description: the Arabic article quotes his contemporary Muhammad Rashid Rida placing him 'in the first rank of the Christian literati of the Levant' — one text, quoting one contemporary. His Jesuit-commissioned translation of the Bible into Arabic (1876–1880) is a work commission, not an attestation, and his famous advocacy of a secular Arab identity bound by language over religion (Yasir Suleiman, in the English article) describes his politics, not an affiliation or an unbelief. The Arabic article also repeats an unsourced claim that he was a Freemason, and its categories file him under 'Lebanese Freemasons' — a claim and a filing, neither an attestation. Wikidata's single structured value, Islam, contradicts every textual source on the family and is treated as erroneous. One personal description plus family framing stands unknown under the founder's two-source bar, as with May Ziade; a founder could rule Rida's description, with the family framing, amounts to christian/documented."
+    sources: [source/wikipedia-ibrahim-al-yaziji-en, source/wikipedia-ibrahim-al-yaziji-ar, source/wikidata-ibrahim-al-yaziji]
+external_ids: { wikidata: "Q1399375" }
+sources: [source/wikipedia-ibrahim-al-yaziji-en, source/wikipedia-ibrahim-al-yaziji-ar, source/wikidata-ibrahim-al-yaziji]
+provenance:
+  layer: own-research
+  source: "English and Arabic Wikipedia and Wikidata Q1399375, each read at the revision recorded in its source file and checked on 26 October 2026"
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: century-additions-54
+status: { review: published, generated_by: "Muse (Muse Spark 1.3)" }

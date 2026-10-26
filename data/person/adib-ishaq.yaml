@@ -1,0 +1,50 @@
+id: person/adib-ishaq
+class: person
+label: { ar: "أديب إسحاق", en: "Adib Ishaq", ur: "ادیب اسحاق" }
+names:
+  - { value: "أديب إسحاق", kind: full }
+  - { value: "Adib Ishaq", kind: full }
+  - { value: "أديب زالماتيان", kind: alternate }
+  - { value: "Adib Zalmatian", kind: alternate }
+gender: male
+summary:
+  ar: "كاتب وصحفي وشاعر سوري من أصل أرمني (1856–1885)؛ تعلّم في مدرسة اللعازريين بدمشق، وعمل في الجمارك ثم الصحافة في بيروت ومصر، وتتلمذ على جمال الدين الأفغاني، وأصدر في باريس جريدة «مصر القاهرة» (1879)، وجُمعت آثاره في «الدرر» بعد وفاته في قرية الحدث بلبنان."
+  en: "Syrian writer, journalist and poet of Armenian origin (1856–1885). Schooled at the Lazarist school in Damascus, he worked in the customs houses and then in journalism in Beirut and Egypt, became a disciple of Jamal al-Din al-Afghani, founded the Paris journal Misr al-Qahira (1879), and died at al-Hadath in Lebanon; his works were collected as Al-Durar after his death."
+  ur: "آرمینی نژاد سوری مصنف، صحافی اور شاعر (1856–1885)؛ دمشق کے لعازری اسکول میں تعلیم پائی، کسٹم ہاؤسز اور پھر بیروت و مصر میں صحافت سے وابستہ رہے، جمال الدین افغانی کے شاگرد بنے، پیرس میں اخبار «مصر القاہرہ» (1879) جاری کیا، اور لبنان کے گاؤں الحدث میں انتقال ہوا؛ ان کی تحریریں بعد از وفات «الدرر» میں جمع ہوئیں۔"
+roles: [writer, poet]
+wings: [people]
+regions: [levant-iraq]
+born:
+  edtf: "1856-01-21"
+  hijri: "1272"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "Born at Damascus. The English article and Wikidata give 21 January 1856; the Arabic article's lead pairs 1856 with 1272 AH."
+  sources: [source/wikipedia-adib-ishaq-en, source/wikipedia-adib-ishaq-ar, source/wikidata-adib-ishaq]
+died:
+  edtf: "1885-06-12"
+  hijri: "1302"
+  calendar: gregorian
+  precision: day
+  status: debated
+  derived: true
+  note: "Died at al-Hadath in Lebanon, at his summer estate. The year is contested: the English article's lead gives 12 June 1885 citing Khayati, and Wikidata gives 12 June 1885, but the English article's own infobox and categories give 1884, and the Arabic article carries both an 1884 and an 1885 death category while its lead and infobox give 1885 (1302 AH). The 1885 tradition is followed and the 1884 reading preserved here. The Lebanese village of al-Hadath is not the museum's place/al-hadath (the Abbasid frontier fortress), so no died_in edge is written."
+  sources: [source/wikipedia-adib-ishaq-en, source/wikipedia-adib-ishaq-ar, source/wikidata-adib-ishaq]
+relations:
+  - { type: born_in, target: place/damascus, sources: [source/wikipedia-adib-ishaq-en, source/wikipedia-adib-ishaq-ar] }
+  - { type: student_of, target: person/jamal-al-din-al-afghani, sources: [source/wikipedia-adib-ishaq-en] }
+faith:
+  - value: unknown
+    basis: unknown
+    note: "FLAGGED for a founder ruling, configuration (i); both readings preserved. The family framing: the Arabic article says he was born in Damascus to an Armenian family — his Armenian name was Adib Zalmatian — and the English article calls him a Syrian-Armenian; both record his schooling at the Lazarists' school in Damascus, which is education, never attestation. No text in any language names an affiliation for him personally. The filings: the Arabic article files him under 'Christian poets' and 'Syrian Christians', and the Urdu stub under 'Syrian Christians' and 'Christian poets' — category filings, which never attest. Wikidata carries one structured value, Armenian Catholic Church. Family framing plus filings plus one structured value is configuration (i), the Salama Moussa and Jurji Zaydan configuration, which stands unknown. On the other side, the English article's bibliography lists Mustapha Khayati's study of him as 'a free-thinking disciple of al-Afghani': a description of his thought by one scholar, which does not meet the bar for atheist-or-sceptic any more than the filings meet the bar for christian."
+    sources: [source/wikipedia-adib-ishaq-en, source/wikipedia-adib-ishaq-ar, source/wikipedia-adib-ishaq-ur, source/wikidata-adib-ishaq]
+external_ids: { wikidata: "Q3605297" }
+sources: [source/wikipedia-adib-ishaq-en, source/wikipedia-adib-ishaq-ar, source/wikipedia-adib-ishaq-ur, source/wikidata-adib-ishaq]
+provenance:
+  layer: own-research
+  source: "English, Arabic and Urdu Wikipedia and Wikidata Q3605297, each read at the revision recorded in its source file and checked on 26 October 2026"
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: century-additions-54
+status: { review: published, generated_by: "Muse (Muse Spark 1.3)" }

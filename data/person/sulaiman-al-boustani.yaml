@@ -1,0 +1,49 @@
+id: person/sulaiman-al-boustani
+class: person
+label: { ar: "سليمان البستاني", en: "Sulaiman al-Boustani", ur: "سلیمان البستانی" }
+names:
+  - { value: "سليمان خطار البستاني", kind: full }
+  - { value: "Suleyman al-Boustani", kind: full }
+  - { value: "Sulaiman al-Boustani", kind: alternate }
+  - { value: "Süleyman el-Büstani", kind: alternate }
+gender: male
+summary:
+  ar: "أديب وشاعر ورجل دولة لبناني (1856–1925)، ابن أخي بطرس البستاني؛ علّم وكتب في «الجنان» و«دائرة المعارف»، وأتقن أكثر من عشر لغات، واشتهر بترجمته «الإلياذة» لهوميروس شعرًا إلى العربية (القاهرة، 1904)، وكان وزيرًا للمالية في آخر حكومة عثمانية."
+  en: "Lebanese writer, poet and statesman (1856–1925), a nephew of Butrus al-Bustani. He taught, wrote for al-Jinan and the Dairat al-Ma'arif encyclopaedia, mastered more than ten languages, and is best known for his verse translation of Homer's Iliad into Arabic (Cairo, 1904); he served as finance minister in the last Ottoman government."
+  ur: "لبنانی ادیب، شاعر اور سیاست دان (1856–1925)، بطرس البستانی کے بھتیجے؛ انہوں نے تدریس کی، «الجنان» اور «دائرة المعارف» میں لکھا، دس سے زائد زبانیں سیکھیں، اور ہومر کی «ایلیاڈ» کے عربی منظوم ترجمے (قاہرہ، 1904) سے شہرت پائی؛ وہ آخری عثمانی حکومت میں وزیرِ خزانہ رہے۔"
+roles: [writer, poet, politician, teacher]
+wings: [people]
+regions: [levant-iraq]
+born:
+  edtf: "1856-05-22"
+  hijri: "1272"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "Born at Bkheshtin in Iqlim al-Kharroub, in the Chouf. Both articles give 22 May 1856; Wikidata also carries a conflicting 22 February 1856 value, not followed. The Arabic article's birth category pairs 1856 with 1272 AH. Bkheshtin has no place entity, so no born_in edge is written."
+  sources: [source/wikipedia-sulaiman-al-boustani-en, source/wikipedia-sulaiman-al-boustani-ar, source/wikidata-sulaiman-al-boustani]
+died:
+  edtf: "1925-06-01"
+  hijri: "1343"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "Died at New York on 1 June 1925, where he had travelled for treatment; the Arabic article adds that his body was carried back to Bkheshtin for burial. Both articles and Wikidata give 1925 — the lane queue's 1913 death year is an error and is corrected here. The Arabic article's death category pairs 1925 with 1343 AH. New York has no place entity, so no died_in edge is written."
+  sources: [source/wikipedia-sulaiman-al-boustani-en, source/wikipedia-sulaiman-al-boustani-ar, source/wikidata-sulaiman-al-boustani]
+relations:
+  - { type: lived_in, target: place/cairo, sources: [source/wikipedia-sulaiman-al-boustani-ar] }
+faith:
+  - value: unknown
+    basis: unknown
+    note: "FLAGGED for a founder ruling, configuration (ii); both readings preserved. One personal text attestation: the English article states of him personally, 'He was a Maronite Catholic.' The Arabic article's text names no religion for him — he was taught Syriac and Arabic by his father's uncle, Bishop Abdullah, which is family background and schooling — and its categories file him under 'Lebanese Maronites', a filing. Wikidata carries one structured value, Christianity. That is one text attestation plus filings and one structured value, the May Ziade configuration, which stands unknown under the founder's two-source bar; a founder could rule that the English article's personal statement, with the filing and the structured value, amounts to christian/documented."
+    sources: [source/wikipedia-sulaiman-al-boustani-en, source/wikipedia-sulaiman-al-boustani-ar, source/wikidata-sulaiman-al-boustani]
+external_ids: { wikidata: "Q4119737" }
+sources: [source/wikipedia-sulaiman-al-boustani-en, source/wikipedia-sulaiman-al-boustani-ar, source/wikidata-sulaiman-al-boustani]
+provenance:
+  layer: own-research
+  source: "English and Arabic Wikipedia and Wikidata Q4119737, each read at the revision recorded in its source file and checked on 26 October 2026"
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: century-additions-54
+status: { review: published, generated_by: "Muse (Muse Spark 1.3)" }
