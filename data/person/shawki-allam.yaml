@@ -1,0 +1,26 @@
+id: person/shawki-allam
+class: person
+label: { ar: "شوقي علام", en: "Shawki Allam" }
+names:
+  - { kind: full, lang: ar, value: "شوقي إبراهيم عبد الكريم علام" }
+  - { kind: full, lang: en, value: "Shawki Ibrahim Abdel-Karim Allam" }
+  - { kind: full, lang: ur, value: "شوقی ابراہیم عبد الکریم علام" }
+  - { kind: alternate, lang: en, value: "Shawky Allam" }
+gender: male
+roles: [scholar, jurist, teacher]
+born: { edtf: "1961-08-12", hijri: "1381", calendar: gregorian, precision: day, status: historical, derived: true, note: "Born on 12 August 1961 in the village of Zawiyat Abu Shusha, El Delengat district, Beheira Governorate (Arabic article; the English article gives El Delengat, Beheira). No Hijri date is stated in the sources, so 1381 is a derived conversion.", sources: [source/wikipedia-shawki-allam-en, source/wikipedia-shawki-allam-ar, source/wikidata-shawki-allam] }
+summary:
+  ar: "فقيه مصري (ولد 12 أغسطس 1961 في محافظة البحيرة)، أستاذ الفقه بجامعة الأزهر، تولى منصب مفتي مصر من 2013 حتى 11 أغسطس 2024 خلفًا لعلي جمعة وخلفه نظير عياد؛ ومنذ 2025 عميد المعهد العالي للدراسات الإسلامية وعضو مجلس الشيوخ المصري."
+  en: "Egyptian jurist (born 12 August 1961 in Beheira Governorate), professor of jurisprudence at Al-Azhar University, who served as Grand Mufti of Egypt from 2013 until 11 August 2024, succeeding Ali Gomaa and succeeded by Nazir Ayyad; since 2025 he has been dean of the Higher Institute of Islamic Studies and a member of the Egyptian Senate."
+wings: [people, living]
+themes: [scripture-and-its-sciences, development-of-law-theology-institutions]
+regions: [egypt-nile]
+relations:
+  - { type: born_in, target: place/al-buhayra, note: "Born in the village of Zawiyat Abu Shusha, El Delengat district, Beheira Governorate; the governorate is the smallest museum place entity covering his birthplace, the village and district being named in the birth note and the prose.", sources: [source/wikipedia-shawki-allam-ar, source/wikipedia-shawki-allam-en] }
+faith:
+  - { value: unknown, basis: unknown, note: "No school is recorded, because each reading rests on a single attestation of a kind this lane does not accept alone. For Sufism, the English article's text states 'Allam is a Sufi', citing an Egypt Independent report of 25 February 2013 — one personal text attestation, with only category filings behind it. For the Maliki madhhab, the Arabic infobox gives Maliki fiqh referenced to a Mubtada news headline ('the new mufti is Maliki by madhhab') — a referenced infobox alone; Al-Ahram's description of him (12 February 2013) as a professor of Maliki fiqh attests his teaching specialisation, not his personal madhhab. His Grand Mufti office (2013–2024) and his Al-Azhar posts are offices and never attest, and Wikidata gives only generic Islam (Q432). Both readings, Sufi and Maliki, are preserved here pending a second independent attestation of either.", sources: [source/wikipedia-shawki-allam-en, source/wikipedia-shawki-allam-ar, source/wikidata-shawki-allam] }
+external_ids:
+  wikidata: Q4664230
+sources: [source/wikipedia-shawki-allam-en, source/wikipedia-shawki-allam-ar, source/wikipedia-shawki-allam-ur, source/wikidata-shawki-allam]
+status: { review: published, completeness: 2, generated_by: "Muse (Muse Spark 1.3)" }
+provenance: { layer: own-research, source: "English, Arabic and Urdu Wikipedia articles on Shawki Allam and Wikidata item Q4664230, each fetched by its recorded revision id and read in full, the returned revision ids asserted equal to the recorded ones before any claim was drawn. The queue's 'Grand Mufti of Egypt (office from 2013)' is corrected by the sources — the tenure closed on 11 August 2024.", generated_by: "Muse (Muse Spark 1.3)", run: century-additions-61 }
