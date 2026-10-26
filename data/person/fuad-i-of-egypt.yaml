@@ -1,0 +1,53 @@
+id: person/fuad-i-of-egypt
+class: person
+label: { ar: "فؤاد الأول", en: "Fuad I of Egypt", ur: "شاہ فؤاد اول" }
+names:
+  - { value: "أحمد فؤاد", kind: full }
+  - { value: "Ahmad Fuad", kind: full }
+  - { value: "Fuad I", kind: regnal }
+  - { value: "Ahmed Fouad", kind: alternate }
+  - { value: "Fouad Ier", kind: alternate }
+gender: male
+summary:
+  ar: "سلطان مصر من 1917 إلى 1922 ثم أول ملوكها من 1922 إلى 1936، وهو الابن الأصغر للخديوي إسماعيل وخلف أخاه السلطان حسين كامل. لعب دورًا رئيسًا في تأسيس الجامعة المصرية وكان أول رئيس لها (1908–1913)، وفي عهده جاء تصريح الاستقلال 1922 ودستور 1923، وأنشأ الأرشيف الملكي."
+  en: "Sultan of Egypt from 1917 to 1922 and then its first king, from 1922 to 1936; the youngest son of Khedive Isma'il, he succeeded his brother Sultan Hussein Kamel. He played a major part in founding the Egyptian University and was its first rector (1908–1913); his reign brought the 1922 declaration of independence and the 1923 constitution, and he created the Royal Archives."
+  ur: "مصر کے سلطان 1917 سے 1922 تک اور پھر اس کے پہلے بادشاہ 1922 سے 1936 تک؛ خدیو اسماعیل کے سب سے چھوٹے بیٹے، وہ اپنے بھائی سلطان حسین کامل کے جانشین ہوئے۔ انہوں نے مصری یونیورسٹی کی بنیاد میں اہم کردار ادا کیا اور اس کے پہلے ریکٹر رہے (1908–1913)؛ ان کے عہد میں 1922 کا اعلانِ آزادی اور 1923 کا آئین آیا، اور انہوں نے شاہی آرکائیو قائم کیا۔"
+roles: [ruler]
+wings: [people]
+regions: [egypt-nile]
+born:
+  edtf: "1868-03-26"
+  hijri: "1284"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "All three articles give 26 March 1868, at Giza Palace in Cairo, and Wikidata's day-precision value agrees. Wikidata also carries a stray year-precision birth value of 1869, which is not followed and is disclosed in the Wikidata source record. The Hijri year 1284 is the derived conversion of March 1868."
+  sources: [source/wikipedia-fuad-i-en, source/wikipedia-fuad-i-ar, source/wikipedia-fuad-i-fr, source/wikidata-fuad-i]
+died:
+  edtf: "1936-04-28"
+  hijri: "1355"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "All sources agree on 28 April 1936, at Qubbah Palace in Cairo. The English article gives his burial place as the Khedival mausoleum in the al-Rifai Mosque in Cairo. The Hijri year 1355 is the derived conversion of April 1936."
+  sources: [source/wikipedia-fuad-i-en, source/wikipedia-fuad-i-ar, source/wikipedia-fuad-i-fr, source/wikidata-fuad-i]
+relations:
+  - { type: born_in, target: place/cairo, sources: [source/wikipedia-fuad-i-en] }
+  - { type: died_in, target: place/cairo, sources: [source/wikipedia-fuad-i-en, source/wikipedia-fuad-i-ar] }
+  - { type: buried_in, target: place/cairo, sources: [source/wikipedia-fuad-i-en] }
+  - { type: successor_of, target: person/hussein-kamel-of-egypt, sources: [source/wikipedia-fuad-i-en, source/wikipedia-fuad-i-ar, source/wikipedia-fuad-i-fr] }
+faith:
+  - value: unknown
+    basis: unknown
+    note: "The English article's infobox gives his religion as Sunni Islam, uncited, and Wikidata carries Sunni Islam (Q483654) as one of two religion values on the same item (the other is Islam, Q432): the infobox and the structured values are one source family, not two independent sources. The French article's infobox gives Islam, generic. The Arabic article names no religion for him. The English text names no school for him personally either: it describes a role he sought in 1911, to establish himself as the Arab Muslim ruler of Libya under the Italian crown, and a 1913 proposal that he take Albania's throne because Albanian Muslims wanted a Muslim king — political descriptions of thrones, not an attestation of a school. Under the two-source rule the value stays unknown, with the infobox reading preserved here."
+    sources: [source/wikipedia-fuad-i-en, source/wikipedia-fuad-i-ar, source/wikipedia-fuad-i-fr, source/wikidata-fuad-i]
+external_ids: { wikidata: "Q311839" }
+sources: [source/wikipedia-fuad-i-en, source/wikipedia-fuad-i-ar, source/wikipedia-fuad-i-fr, source/wikidata-fuad-i]
+provenance:
+  layer: own-research
+  source: "English Wikipedia 'Fuad I of Egypt' (revision 1381439357 of 22 October 2026), Arabic Wikipedia 'فؤاد الأول' (revision 76476681 of 8 September 2026) and French Wikipedia 'Fouad Ier' (revision 234990949 of 10 April 2026), both non-English titles taken from the Wikidata sitelinks, and Wikidata item Q311839 (item revision 2557888596 of 17 October 2026), all read directly on 26 October 2026 and all articles fetched by revision id with the returned revisions asserted equal. Existence was checked by name fragments over data/person/ and by the grounded QID over data/person/ and data/source/ before building; no record existed. Edges, in words: he was born at Giza Palace in Cairo, died at Qubbah Palace in Cairo and is buried at the al-Rifai Mosque in Cairo (place/cairo, existing), and he succeeded his elder brother Hussein Kamel on the throne in 1917 (successor_of person/hussein-kamel-of-egypt, built in this same batch). No child_of edge to his father Isma'il: no museum record for Khedive Isma'il (Q159378) exists. His faith is unknown for the reasons stated in the faith note."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: century-additions-48
+status: { review: published, completeness: 2, generated_by: "Muse (Muse Spark 1.3)" }

@@ -1,0 +1,52 @@
+id: person/hussein-kamel-of-egypt
+class: person
+label: { ar: "حسين كامل", en: "Hussein Kamel of Egypt", ur: "حسین کامل" }
+names:
+  - { value: "حسين كامل", kind: full }
+  - { value: "Hussein Kamel", kind: full }
+  - { value: "Hussein Kamal", kind: alternate }
+gender: male
+summary:
+  ar: "سلطان مصر من 19 ديسمبر 1914 إلى 9 أكتوبر 1917، الابن الثاني للخديوي إسماعيل. نصبته بريطانيا بعد عزل ابن أخيه الخديوي عباس حلمي الثاني، ونجا من محاولتي اغتيال سنة 1915، ولما توفي رفض ابنه كمال الدين حسين أن يخلفه فاعتلى أخوه أحمد فؤاد العرش باسم فؤاد الأول."
+  en: "Sultan of Egypt from 19 December 1914 to 9 October 1917, the second son of Khedive Isma'il. Britain installed him after deposing his nephew, Khedive Abbas Hilmi II; he survived two assassination attempts in 1915, and on his death his son Kamal el Dine Hussein declined the throne, so his brother Ahmed Fuad succeeded him as Fuad I."
+  ur: "مصر کے سلطان 19 دسمبر 1914 سے 9 اکتوبر 1917 تک، خدیو اسماعیل کے دوسرے بیٹے۔ برطانیہ نے انہیں اپنے بھتیجے خدیو عباس حلمی ثانی کو معزول کر کے بٹھایا؛ وہ 1915 میں قتل کی دو کوششوں سے بچ گئے، اور ان کی وفات پر ان کے بیٹے کمال الدین حسین نے تخت سے انکار کر دیا تو ان کے بھائی احمد فؤاد، فؤاد اول کے نام سے، جانشین ہوئے۔"
+roles: [ruler]
+wings: [people]
+regions: [egypt-nile]
+born:
+  edtf: "1853-11-21"
+  hijri: "1270"
+  calendar: gregorian
+  precision: day
+  status: debated
+  derived: true
+  note: "The English, Arabic and French articles all give 21 November 1853, at Cairo; Wikidata's day-precision value gives 21 October 1853. The articles are followed and the Wikidata reading is preserved here. The Arabic article's categories independently give his birth year as 1270 AH, matching the derived conversion."
+  sources: [source/wikipedia-hussein-kamel-en, source/wikipedia-hussein-kamel-ar, source/wikipedia-hussein-kamel-fr, source/wikidata-hussein-kamel]
+died:
+  edtf: "1917-10-09"
+  hijri: "1335"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "All sources agree on 9 October 1917, at Cairo. The English article gives his burial place as the Al-Rifai Mosque in Cairo. The Arabic article's categories independently give his death year as 1335 AH, matching the derived conversion."
+  sources: [source/wikipedia-hussein-kamel-en, source/wikipedia-hussein-kamel-ar, source/wikipedia-hussein-kamel-fr, source/wikidata-hussein-kamel]
+relations:
+  - { type: born_in, target: place/cairo, sources: [source/wikipedia-hussein-kamel-en, source/wikipedia-hussein-kamel-ar] }
+  - { type: died_in, target: place/cairo, sources: [source/wikipedia-hussein-kamel-en, source/wikipedia-hussein-kamel-ar] }
+  - { type: buried_in, target: place/cairo, sources: [source/wikipedia-hussein-kamel-en] }
+  - { type: successor_of, target: person/abbas-hilmi-ii, sources: [source/wikipedia-hussein-kamel-en, source/wikipedia-hussein-kamel-ar] }
+  - { type: sibling_of, target: person/fuad-i-of-egypt, sources: [source/wikipedia-hussein-kamel-en] }
+faith:
+  - value: unknown
+    basis: unknown
+    note: "Wikidata (Q365930) carries a single religion value, Sunni Islam (Q483654) — one structured-data value. No article supports a school: the English article's infobox has no religion field and its text makes no statement of his faith (its only religious trace is the category 'Egyptian Muslims', a filing, which never attests), and the Arabic and French articles name no religion for him. A single structured value beside silent articles is one source family, not two independent sources, so the value stays unknown and the Sunni reading is preserved here."
+    sources: [source/wikipedia-hussein-kamel-en, source/wikipedia-hussein-kamel-ar, source/wikipedia-hussein-kamel-fr, source/wikidata-hussein-kamel]
+external_ids: { wikidata: "Q365930" }
+sources: [source/wikipedia-hussein-kamel-en, source/wikipedia-hussein-kamel-ar, source/wikipedia-hussein-kamel-fr, source/wikidata-hussein-kamel]
+provenance:
+  layer: own-research
+  source: "English Wikipedia 'Hussein Kamel of Egypt' (revision 1381436939 of 22 October 2026), Arabic Wikipedia 'حسين كامل (سلطان)' (revision 76072197 of 2 August 2026) and French Wikipedia 'Hussein Kamal' (revision 237233414 of 21 June 2026), both non-English titles taken from the Wikidata sitelinks, and Wikidata item Q365930 (item revision 2536662875 of 26 August 2026), all read directly on 26 October 2026 and all articles fetched by revision id with the returned revisions asserted equal. Existence was checked by name fragments over data/person/ and by the grounded QID over data/person/ and data/source/ before building; no record existed (the existing kamil-pasha is Mehmed Kamil Pasha, Q367997, an Ottoman grand vizier, a different man). Edges, in words: he was born, died and is buried in Cairo (place/cairo, existing); he succeeded Abbas Hilmi II as ruler of Egypt on 19 December 1914, the title changing from Khedive to Sultan (successor_of person/abbas-hilmi-ii, existing); and he was an elder brother of Fuad I (sibling_of person/fuad-i-of-egypt, written once here and built in this same batch). No child_of edge to his father Isma'il: no museum record for Khedive Isma'il (Q159378) exists. His faith is unknown for the reasons stated in the faith note."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: century-additions-48
+status: { review: published, completeness: 2, generated_by: "Muse (Muse Spark 1.3)" }
