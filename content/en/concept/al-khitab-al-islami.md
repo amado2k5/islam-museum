@@ -1,3 +1,10 @@
+---
+id: concept/al-khitab-al-islami
+lang: en
+source_lang: ar
+translators: ["Devin (SWE-2), draft translation"]
+---
+
 # The contemporary Islamic discourse — maturity versus reactivity
 
 ## The episode and the definition

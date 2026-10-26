@@ -1,0 +1,53 @@
+id: person/mustafa-khan-shefta
+class: person
+label: { ar: "مصطفى خان شيفتة", en: "Mustafa Khan Shefta", ur: "مصطفٰی خان شیفتہ" }
+names:
+  - { value: "مصطفى خان شيفتة", kind: full }
+  - { value: "Nawab Mustafa Khan Shefta", kind: full }
+  - { value: "Shefta", kind: pen }
+  - { value: "Hasrati", kind: pen }
+gender: male
+summary:
+  ar: "شاعر وناقد أردي من دلهي (1809–1869)، من أسرة بانغاش من ملّاك الأراضي. كان صديق ميرزا غالب وراعيه، ومن أركان الحلقة الأدبية في دلهي، وألّف «گلشن بی خار»، وهو من أوائل تواريخ الشعر الأردي. سُجن سبع سنوات بعد ثورة 1857 وصودرت أملاكه، ثم أُعيد إليه نصفها."
+  en: "Delhi Urdu poet and critic (1809–1869) of a Bangash Pathan landowning family. He was Mirza Ghalib's friend and patron and a pillar of Delhi's literary circle, and wrote Gulshan-e-be-khaar, an early history of Urdu poetry. Imprisoned for seven years after the 1857 rebellion, he had his estates seized and half restored on appeal."
+  ur: "دہلی کے اردو شاعر و نقاد (1809ء–1869ء)، بنگش پٹھان جاگیردار خاندان سے۔ مرزا غالب کے دوست اور سرپرست، دہلی کے ادبی حلقے کے رکن، اور «گلشنِ بے خار» کے مصنف جو اردو شاعری کی اولین تواریخ میں سے ہے۔ 1857ء کے بعد سات سال قید رہے اور جاگیر ضبط ہوئی، جس کا نصف حصہ اپیل پر بحال ہوا۔"
+roles: [poet, writer]
+wings: [people]
+regions: [south-asia]
+born:
+  edtf: "1809"
+  hijri: "1224"
+  calendar: gregorian
+  precision: year
+  status: historical
+  derived: true
+  note: "The English article's lead gives 1809–1869, and the Urdu and Arabic articles file him under 1809 births; Wikidata gives 27 December 1809 at day precision, a day no article states, so the record keeps year precision and derives the Hijri year by tabular conversion from Wikidata's day date. The queue's 1804 is attested by no source read. He was born in Delhi."
+  sources: [source/wikipedia-mustafa-khan-shefta-en, source/wikipedia-mustafa-khan-shefta-ur, source/wikidata-mustafa-khan-shefta]
+died:
+  edtf: "1869"
+  hijri: "1286"
+  calendar: gregorian
+  precision: year
+  status: historical
+  derived: true
+  note: "The English article gives his death in 1869 at his residence in Kucha Chelaan, Delhi, and his burial in the family graveyard near the Nizamuddin shrine; Wikidata gives 11 July 1869 at day precision, a day no article states. The Hijri year is derived by tabular conversion from Wikidata's day date."
+  sources: [source/wikipedia-mustafa-khan-shefta-en, source/wikidata-mustafa-khan-shefta]
+relations:
+  - { type: born_in, target: place/delhi, sources: [source/wikipedia-mustafa-khan-shefta-en] }
+  - { type: died_in, target: place/delhi, sources: [source/wikipedia-mustafa-khan-shefta-en] }
+  - { type: patron_of, target: person/mirza-ghalib, sources: [source/wikipedia-mustafa-khan-shefta-en] }
+  - { type: student_of, target: person/momin-khan-momin, sources: [source/wikipedia-mustafa-khan-shefta-en] }
+  - { type: student_of, target: person/mirza-ghalib, sources: [source/wikipedia-mustafa-khan-shefta-en] }
+faith:
+  - value: unknown
+    basis: unknown
+    note: "No source read names his religion or school. The English article (and its Arabic translation, one family) record that in middle life he performed the Hajj, after which his writing became spiritual and abstemious in tone, and that among his early teachers was Haji Muhammad Nur Naqshbandi — a teacher's affiliation never attests, and practice is not a school. The Urdu article likewise makes no statement, and Wikidata carries no religion value for him at all. Recorded unknown until two independent sources name a school for the man himself."
+    sources: [source/wikipedia-mustafa-khan-shefta-en, source/wikipedia-mustafa-khan-shefta-ur, source/wikidata-mustafa-khan-shefta]
+external_ids: { wikidata: "Q6803939" }
+sources: [source/wikipedia-mustafa-khan-shefta-en, source/wikipedia-mustafa-khan-shefta-ur, source/wikipedia-mustafa-khan-shefta-ar, source/wikidata-mustafa-khan-shefta]
+provenance:
+  layer: own-research
+  source: "English Wikipedia 'Nawab Mustafa Khan Shefta' (revision 1365714742), Urdu Wikipedia 'مصطفٰی خان شیفتہ' (revision 10950792), Arabic Wikipedia 'نواب مصطفى خان شفت' (revision 73570167) and Wikidata item Q6803939 (item revision 2518716097), read via the MediaWiki API on 26 October 2026; every article was fetched by its recorded revision id and the returned id asserted equal before any claim was drawn. Existence was checked by filename fragments under all spellings (shefta, shifta, shafta), by Arabic label and by the QID route across data/person/; no earlier record of the poet exists. The Arabic article is a translation of the English and is counted as one attestation family with it."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: century-additions-68
+status: { review: published, generated_by: "Muse (Muse Spark 1.3)" }

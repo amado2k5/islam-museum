@@ -1,3 +1,10 @@
+---
+id: concept/al-wataniyya-wal-qawmiyya
+lang: ur
+source_lang: ar
+translators: ["Devin (SWE-2), draft translation"]
+---
+
 # وطن پرستی، قوم پرستی اور عروبت — اسلام سے سرحد
 
 ## قسط اور ووٹ

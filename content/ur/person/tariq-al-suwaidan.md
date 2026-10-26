@@ -81,3 +81,24 @@ translators: []
 
 ## «الوسطیہ» میں — وطن پرستی کی قسط
 سویدان نے وطن پرستی اور قومیت کی قسط تین ماہرین اور تین ووٹوں کے ساتھ چلائی {cite:assabile-tareq-al-suwaidan al-wassitiya/ep06 00:03:30} {cite:assabile-tareq-al-suwaidan al-wassitiya/ep06 00:30:00} {cite:assabile-tareq-al-suwaidan al-wassitiya/ep06 00:54:00}۔ اختتام پر انہوں نے اپنی عروبت پر ذاتی فخر کا اعتراف کیا — «میں قرآن سمجھتا ہوں» — اور قسط کا اصول قائم کیا: تعصب کے بغیر تضاد نہیں {cite:assabile-tareq-al-suwaidan al-wassitiya/ep06 01:16:00} {cite:assabile-tareq-al-suwaidan al-wassitiya/ep06 01:18:00} {cite:assabile-tareq-al-suwaidan al-wassitiya/ep06 01:18:30}۔
+
+## «الوسطیہ» میں — کفر و تکفیر کی قسط
+سویدان نے پروگرام کی سب سے حساس قسط — کفر اور تکفیر — عقیدہ کے علماء اور دعاۃ کے ساتھ اور دو ووٹوں کے ساتھ چلائی {cite:assabile-tareq-al-suwaidan al-wassitiya/ep07 00:04:30} {cite:assabile-tareq-al-suwaidan al-wassitiya/ep07 00:44:30}۔ انہوں نے اختتام پر زور دیا: استثناء اصول کو ختم نہیں کرتے — اسلام مذہبی آزادی سے نہیں ٹکراتا، اور ثابت نص کی عزت اور استطاعت کے ادب سے اطلاق {cite:assabile-tareq-al-suwaidan al-wassitiya/ep07 01:21:30} {cite:assabile-tareq-al-suwaidan al-wassitiya/ep07 01:22:00} {cite:assabile-tareq-al-suwaidan al-wassitiya/ep07 01:22:30}۔
+
+## «الوسطیہ» میں — تکفیر کی دوسری قسط
+تکفیر کے تتمہ میں سویدان نے «حکم کھلا یا بند» کی بحث تین ووٹوں کے ساتھ چلائی {cite:assabile-tareq-al-suwaidan al-wassitiya/ep08 00:07:30} {cite:assabile-tareq-al-suwaidan al-wassitiya/ep08 00:45:30} {cite:assabile-tareq-al-suwaidan al-wassitiya/ep08 01:05:30} — نمایاں نتیجہ: 88% تکفیر کا حکم ایک سرکاری شرعی ادارے تک محدود رکھتے ہیں، نہ منفرد عالم نہ قاضی {cite:assabile-tareq-al-suwaidan al-wassitiya/ep08 00:46:00}۔
+
+## «الوسطیہ» میں — ولاء و براء کی قسط
+سویدان نے مسلمانوں میں ولاء اور براء کی قسط — تصور کا سب سے حساس اطلاق — کئی ووٹوں کے ساتھ چلائی جن میں اسرائیل سے صلح کے داعیوں سے براءت (63%) اور تصور کو ضبط کرنے کی ضرورت (63%) تھے {cite:assabile-tareq-al-suwaidan al-wassitiya/ep09 00:04:00} {cite:assabile-tareq-al-suwaidan al-wassitiya/ep09 00:48:30} {cite:assabile-tareq-al-suwaidan al-wassitiya/ep09 01:03:30}۔ قسط نے اپنا اصول بیان کیا: براءت شخص سے نہیں بلکہ فعل سے {cite:assabile-tareq-al-suwaidan al-wassitiya/ep09 00:14:00}۔
+
+## «الوسطیہ» میں — انسانی حقوق کی قسط
+سویدان نے عرب دنیا میں انسانی حقوق کے ملف کی قسط تین ووٹوں کے ساتھ چلائی {cite:assabile-tareq-al-suwaidan al-wassitiya/ep10 00:07:00} {cite:assabile-tareq-al-suwaidan al-wassitiya/ep10 00:36:30} {cite:assabile-tareq-al-suwaidan al-wassitiya/ep10 00:57:00} — نمایاں نتائج: 69% نے معاہدوں کو بے قیمت اور صرف 9% نے بین الاقوامی مداخلت کی تائید کی۔
+
+## «الوسطیہ» میں — مغرب کی طرف ہجرت کی قسط
+سویدان نے «مغرب کی طرف ہجرت: امید یا درد» کی قسط ووٹوں اور دماغی ہجرت کے ان کے اپنے پیش کردہ اعداد کے ساتھ چلائی {cite:assabile-tareq-al-suwaidan al-wassitiya/ep11 00:09:00} {cite:assabile-tareq-al-suwaidan al-wassitiya/ep11 00:16:00} {cite:assabile-tareq-al-suwaidan al-wassitiya/ep11 00:38:00}۔ انہوں نے اختتام کیا کہ علاج ایک کھینچنے والا ماحول ہے نہ کہ رجھانے والا — رشید حکومت، قانون کی حکمرانی، رفاہ {cite:assabile-tareq-al-suwaidan al-wassitiya/ep11 01:17:00} {cite:assabile-tareq-al-suwaidan al-wassitiya/ep11 01:20:00}۔
+
+## «الوسطیہ» میں — سیٹلائٹ چینلوں کی قسط
+سویدان نے عرب سیٹلائٹ تجربے کا جائزہ اپنے پیش کردہ اعداد (79 تفریحی، 37 سرکاری، 52% تشدد بچوں کے اوقات میں) اور ووٹوں کے ساتھ لیا {cite:assabile-tareq-al-suwaidan al-wassitiya/ep12 00:15:00} {cite:assabile-tareq-al-suwaidan al-wassitiya/ep12 00:34:00} {cite:assabile-tareq-al-suwaidan al-wassitiya/ep12 00:50:00} {cite:assabile-tareq-al-suwaidan al-wassitiya/ep12 01:05:00}۔
+
+## «الوسطیہ» میں — سیٹلائٹ فتویٰ کی قسط
+سویدان نے سیٹلائٹ فتویٰ کی قسط علماء اور ووٹوں کے ساتھ چلائی — اور انہوں نے حیرت کا اظہار کیا کہ صرف 15% چینلوں کے سب سے بڑے عالم سے رجوع کرتے ہیں بمقابلہ 42% مجامع سے {cite:assabile-tareq-al-suwaidan al-wassitiya/ep13 00:32:30} {cite:assabile-tareq-al-suwaidan al-wassitiya/ep13 01:08:30}۔

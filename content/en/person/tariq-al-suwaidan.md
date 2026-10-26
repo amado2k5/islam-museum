@@ -113,3 +113,24 @@ Al-Suwaidan steered 'secularism and Islam: conflict or concord?' with a panel �
 
 ## In 'Al-Wasatiyya' — the patriotism episode
 Al-Suwaidan steered the patriotism-and-nationalism episode with three specialists and three polls {cite:assabile-tareq-al-suwaidan al-wassitiya/ep06 00:03:30} {cite:assabile-tareq-al-suwaidan al-wassitiya/ep06 00:30:00} {cite:assabile-tareq-al-suwaidan al-wassitiya/ep06 00:54:00}. In closing he confessed personal pride in his Arabness — 'I understand the Qur'an' — fixing the episode's rule: no conflict without fanaticism {cite:assabile-tareq-al-suwaidan al-wassitiya/ep06 01:16:00} {cite:assabile-tareq-al-suwaidan al-wassitiya/ep06 01:18:00} {cite:assabile-tareq-al-suwaidan al-wassitiya/ep06 01:18:30}.
+
+## In 'Al-Wasatiyya' — the takfir episode
+Al-Suwaidan steered the programme's most sensitive episode — kufr and takfir — with aqida scholars and du'at, and two polls {cite:assabile-tareq-al-suwaidan al-wassitiya/ep07 00:04:30} {cite:assabile-tareq-al-suwaidan al-wassitiya/ep07 00:44:30}. He closed affirming: the exceptions do not cancel the rule — Islam does not collide with religious freedom, and the established text is revered and applied with the etiquette of capability {cite:assabile-tareq-al-suwaidan al-wassitiya/ep07 01:21:30} {cite:assabile-tareq-al-suwaidan al-wassitiya/ep07 01:22:00} {cite:assabile-tareq-al-suwaidan al-wassitiya/ep07 01:22:30}.
+
+## In 'Al-Wasatiyya' — the second takfir episode
+In the takfir sequel al-Suwaidan steered 'is the ruling open or closed' with three polls {cite:assabile-tareq-al-suwaidan al-wassitiya/ep08 00:07:30} {cite:assabile-tareq-al-suwaidan al-wassitiya/ep08 00:45:30} {cite:assabile-tareq-al-suwaidan al-wassitiya/ep08 01:05:30} — the standout result: 88% confine issuing takfir to an official sharia body, not a single scholar or judge {cite:assabile-tareq-al-suwaidan al-wassitiya/ep08 00:46:00}.
+
+## In 'Al-Wasatiyya' — the wala' and bara' episode
+Al-Suwaidan steered the wala'-and-bara'-among-Muslims episode — the concept's most sensitive application — with several polls including disavowal of peace-with-Israel advocates (63%) and the need to regulate the concept (63%) {cite:assabile-tareq-al-suwaidan al-wassitiya/ep09 00:04:00} {cite:assabile-tareq-al-suwaidan al-wassitiya/ep09 00:48:30} {cite:assabile-tareq-al-suwaidan al-wassitiya/ep09 01:03:30}. The episode distilled its rule: bara' from the act, not the person {cite:assabile-tareq-al-suwaidan al-wassitiya/ep09 00:14:00}.
+
+## In 'Al-Wasatiyya' — the human-rights episode
+Al-Suwaidan steered the Arab-world human-rights episode with three polls {cite:assabile-tareq-al-suwaidan al-wassitiya/ep10 00:07:00} {cite:assabile-tareq-al-suwaidan al-wassitiya/ep10 00:36:30} {cite:assabile-tareq-al-suwaidan al-wassitiya/ep10 00:57:00} — the standouts: 69% judged the covenants worthless and only 9% endorsed international intervention.
+
+## In 'Al-Wasatiyya' — the emigration episode
+Al-Suwaidan steered 'emigration to the West: hope or pain' with polls and brain-drain statistics he presented himself {cite:assabile-tareq-al-suwaidan al-wassitiya/ep11 00:09:00} {cite:assabile-tareq-al-suwaidan al-wassitiya/ep11 00:16:00} {cite:assabile-tareq-al-suwaidan al-wassitiya/ep11 00:38:00}. He closed with the cure being an attracting, not repelling, environment — good governance, rule of law, welfare {cite:assabile-tareq-al-suwaidan al-wassitiya/ep11 01:17:00} {cite:assabile-tareq-al-suwaidan al-wassitiya/ep11 01:20:00}.
+
+## In 'Al-Wasatiyya' — the satellite-channels episode
+Al-Suwaidan evaluated the Arab satellite experiment with statistics he presented (79 variety, 37 government, 52% violence in children's slots) and polls {cite:assabile-tareq-al-suwaidan al-wassitiya/ep12 00:15:00} {cite:assabile-tareq-al-suwaidan al-wassitiya/ep12 00:34:00} {cite:assabile-tareq-al-suwaidan al-wassitiya/ep12 00:50:00} {cite:assabile-tareq-al-suwaidan al-wassitiya/ep12 01:05:00}.
+
+## In 'Al-Wasatiyya' — the satellite-fatwa episode
+Al-Suwaidan steered the satellite-fatwa episode with scholars and polls — noting the surprise that only 15% turn to the channels' most-learned versus 42% to the academies {cite:assabile-tareq-al-suwaidan al-wassitiya/ep13 00:32:30} {cite:assabile-tareq-al-suwaidan al-wassitiya/ep13 01:08:30}.

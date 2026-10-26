@@ -1,0 +1,52 @@
+id: person/husain-ahmad-madani
+class: person
+label: { ar: "حسين أحمد المدني", en: "Husain Ahmad Madani", ur: "حسین احمد مدنی" }
+names:
+  - { value: "حسين أحمد المدني", kind: full }
+  - { value: "Sayyid Husain Ahmad Madani", kind: full }
+  - { value: "Hussain Ahmad Madani", kind: alternate }
+  - { value: "Shaykh al-Islam", kind: laqab }
+gender: male
+summary:
+  ar: "عالم حديث هندي (1879–1957) ومناضل من أجل استقلال الهند. تخرج في دار العلوم ديوبند ودرّس ثمانية عشر عامًا في المدينة المنورة، ثم صار شيخ الحديث ومدير دار العلوم من 1927 حتى وفاته، ورئيس جمعية علماء الهند من 1940. أُسر في مالطا مع شيخه محمود حسن الديوبندي، وألّف «القومية المتحدة والإسلام» (1938) مدافعًا عن وحدة الهند ضد التقسيم، ونال وسام بادما بهوشان سنة 1954."
+  en: "Indian hadith scholar (1879–1957) and independence activist. A graduate of Darul Uloom Deoband, he taught for eighteen years in Medina, then served as the seminary's Shaykh al-Hadith and principal from 1927 until his death, and as president of Jamiat Ulama-e-Hind from 1940. Imprisoned in Malta with his teacher Mahmud Hasan Deobandi, he wrote Composite Nationalism and Islam (1938) for a united India against partition, and received the Padma Bhushan in 1954."
+  ur: "ہندوستانی محدث (1879ء–1957ء) اور تحریک آزادی کے رہنما۔ دار العلوم دیوبند کے فاضل، مدینہ منورہ میں اٹھارہ سال تدریس کی، پھر 1927ء سے وفات تک دار العلوم کے شیخ الحدیث و صدر مدرس اور 1940ء سے جمعیت علماء ہند کے صدر رہے۔ شیخ الہند محمود حسن دیوبندی کے ساتھ مالٹا میں اسیر رہے، «متحدہ قومیت اور اسلام» (1938ء) میں متحدہ ہندوستان کی حمایت کی، اور 1954ء میں پدم بھوشن ملا۔"
+roles: [scholar, teacher, activist, writer]
+wings: [people]
+regions: [south-asia]
+born:
+  edtf: "1879-10-06"
+  hijri: "1296"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: false
+  note: "The English article and the Arabic article's lead give 6 October 1879; the Urdu article gives the paired date itself, 19 Shawwal 1296 AH, so the Hijri year is the sources' own and not a conversion. He was born at Bangarmau in Unnao district; no place entity exists for Bangarmau, so no born_in edge is written."
+  sources: [source/wikipedia-husain-ahmad-madani-en, source/wikipedia-husain-ahmad-madani-ur, source/wikidata-husain-ahmad-madani]
+died:
+  edtf: "1957-12-05"
+  hijri: "1377"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: false
+  note: "The English article gives 5 December 1957 at Deoband; the Urdu article gives the paired date itself, 13 Jumada al-awwal 1377 AH, so the Hijri year is the sources' own. Wikidata also carries a stray day-precision value of 5 October 1957, which no article supports and which is not followed; the Arabic article's body gives the Hijri year as 1363, contradicting its own lead's 1377 — a typographical error in that article. No place entity exists for Deoband town, so no died_in edge is written."
+  sources: [source/wikipedia-husain-ahmad-madani-en, source/wikipedia-husain-ahmad-madani-ur, source/wikidata-husain-ahmad-madani]
+relations:
+  - { type: student_of, target: person/mahmud-hasan-deobandi, sources: [source/wikipedia-husain-ahmad-madani-en, source/wikipedia-husain-ahmad-madani-ar] }
+  - { type: student_of, target: person/rashid-ahmad-gangohi, sources: [source/wikipedia-husain-ahmad-madani-ur] }
+  - { type: member_of, target: group/deobandiyya, sources: [source/wikipedia-husain-ahmad-madani-en] }
+  - { type: lived_in, target: place/medina, sources: [source/wikipedia-husain-ahmad-madani-en] }
+faith:
+  - value: unknown
+    basis: unknown
+    note: "FLAGGED — two readings preserved, each one attestation short of the bar. (1) Sunni-Hanafi: the English article's embedded religious-biography infobox gives denomination Sunni, jurisprudence Hanafi and creed Maturidi, with no citations on those fields, and the Urdu and Arabic articles' categories and navboxes file him under Hanafis, Hanafi fiqh and Maturidis; but no article TEXT names a school for the man himself, his principalship of Darul Uloom Deoband and presidency of Jamiat Ulama-e-Hind are institutional and never attest, and Wikidata's religion value is Islam only — that is one infobox family plus filings. (2) Sufi: the Urdu article's Tasawwuf section states in text that, directed by Mahmud Hasan, he took bay'ah from Rashid Ahmad Gangohi and became his authorised khalifa — one discipleship TEXT — and the same English infobox lists his tariqas as Chishti (Sabiri-Imdadi), Naqshbandi, Qadri and Suhrawardi. Recorded unknown under the doubt rule (the Shawki Allam configuration: one text and one infobox, each a source short); a founder word settles either reading — sunni-hanafi/documented if the infobox family should count beside the texts' Deobandi framing, or a sufi segment if the one discipleship text plus the infobox tariqa list should suffice."
+    sources: [source/wikipedia-husain-ahmad-madani-en, source/wikipedia-husain-ahmad-madani-ur, source/wikipedia-husain-ahmad-madani-ar, source/wikidata-husain-ahmad-madani]
+external_ids: { wikidata: "Q4846312" }
+sources: [source/wikipedia-husain-ahmad-madani-en, source/wikipedia-husain-ahmad-madani-ur, source/wikipedia-husain-ahmad-madani-ar, source/wikidata-husain-ahmad-madani]
+provenance:
+  layer: own-research
+  source: "English Wikipedia 'Husain Ahmad Madani' (revision 1381964014), Urdu Wikipedia 'حسین احمد مدنی' (revision 10899314), Arabic Wikipedia 'حسين أحمد المدني' (revision 73521231) and Wikidata item Q4846312 (item revision 2521626774), read via the MediaWiki API on 26 October 2026; every article was fetched by its recorded revision id and the returned id asserted equal before any claim was drawn. Existence was checked by filename fragments under all spellings (madani, husain/hussain ahmad), by Arabic label, by biography and by the QID route across data/person/ — the corpus's other Madanis (madani-el-glaoui, abdul-azeez-madani, yousef-madani-tabrizi and others) are different men — and no earlier record of the Deoband scholar exists."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: century-additions-68
+status: { review: published, generated_by: "Muse (Muse Spark 1.3)" }

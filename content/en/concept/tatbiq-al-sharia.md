@@ -1,3 +1,10 @@
+---
+id: concept/tatbiq-al-sharia
+lang: en
+source_lang: ar
+translators: ["Devin (SWE-2), draft translation"]
+---
+
 # Implementing the sharia — totality versus stages
 
 ## The episode and the vote

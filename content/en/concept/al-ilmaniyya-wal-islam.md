@@ -1,3 +1,10 @@
+---
+id: concept/al-ilmaniyya-wal-islam
+lang: en
+source_lang: ar
+translators: ["Devin (SWE-2), draft translation"]
+---
+
 # Secularism and Islam — conflict or concord
 
 ## The episode and the votes

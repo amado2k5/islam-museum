@@ -113,3 +113,24 @@ translators: []
 
 ## في «الوسطية» — حلقة الوطنية والقومية
 أدار السويدان حلقة الوطنية والقومية مقابل الإسلام بثلاثة مختصين وثلاثة استطلاعات {cite:assabile-tareq-al-suwaidan al-wassitiya/ep06 00:03:30} {cite:assabile-tareq-al-suwaidan al-wassitiya/ep06 00:30:00} {cite:assabile-tareq-al-suwaidan al-wassitiya/ep06 00:54:00}. واعترف في الختام بفخره الشخصي بعروبته — «أفهم القرآن» — مرسّخاً قاعدة الحلقة: لا تعارض بلا تعصب {cite:assabile-tareq-al-suwaidan al-wassitiya/ep06 01:16:00} {cite:assabile-tareq-al-suwaidan al-wassitiya/ep06 01:18:00} {cite:assabile-tareq-al-suwaidan al-wassitiya/ep06 01:18:30}.
+
+## في «الوسطية» — حلقة الكفر والتكفير
+أدار السويدان أخطر حلقات البرنامج — الكفر والتكفير — بعلماء عقيدة ودعاة، وباستطلاعين {cite:assabile-tareq-al-suwaidan al-wassitiya/ep07 00:04:30} {cite:assabile-tareq-al-suwaidan al-wassitiya/ep07 00:44:30}. وختم مؤكداً: الاستثناءات لا تلغي الأصل — الإسلام لا يصادم الحرية الدينية، والنص الثابت يُحترم ويُنزَّل على الواقع بأدب الاستطاعة {cite:assabile-tareq-al-suwaidan al-wassitiya/ep07 01:21:30} {cite:assabile-tareq-al-suwaidan al-wassitiya/ep07 01:22:00} {cite:assabile-tareq-al-suwaidan al-wassitiya/ep07 01:22:30}.
+
+## في «الوسطية» — حلقة التكفير الثانية
+في تتمة التكفير أدار السويدان جدل «الحكم مفتوح أم مغلق» وثلاثة استطلاعات {cite:assabile-tareq-al-suwaidan al-wassitiya/ep08 00:07:30} {cite:assabile-tareq-al-suwaidan al-wassitiya/ep08 00:45:30} {cite:assabile-tareq-al-suwaidan al-wassitiya/ep08 01:05:30} — وكانت النتيجة الأبرز: 88% يقصرون إصدار حكم التكفير على هيئة شرعية رسمية لا على عالم ولا قاضٍ منفرد {cite:assabile-tareq-al-suwaidan al-wassitiya/ep08 00:46:00}.
+
+## في «الوسطية» — حلقة الولاء والبراء
+أدار السويدان حلقة الولاء والبراء بين المسلمين — أخطر تطبيقات المفهوم — بعدة استطلاعات بينها البراء من دعاة السلام مع إسرائيل (63%) والحاجة لضبط المفهوم (63%) {cite:assabile-tareq-al-suwaidan al-wassitiya/ep09 00:04:00} {cite:assabile-tareq-al-suwaidan al-wassitiya/ep09 00:48:30} {cite:assabile-tareq-al-suwaidan al-wassitiya/ep09 01:03:30}. وبلورت الحلقة قاعدته: البراء من الفعل لا من الشخص {cite:assabile-tareq-al-suwaidan al-wassitiya/ep09 00:14:00}.
+
+## في «الوسطية» — حلقة حقوق الإنسان
+أدار السويدان حلقة ملف حقوق الإنسان في العالم العربي بثلاثة استطلاعات {cite:assabile-tareq-al-suwaidan al-wassitiya/ep10 00:07:00} {cite:assabile-tareq-al-suwaidan al-wassitiya/ep10 00:36:30} {cite:assabile-tareq-al-suwaidan al-wassitiya/ep10 00:57:00} — وكانت الأبرز: 69% يرون المواثيق بلا قيمة و9% فقط يؤيدون التدخل الدولي.
+
+## في «الوسطية» — حلقة الهجرة إلى الغرب
+أدار السويدان حلقة «الهجرة إلى الغرب: أمل أم ألم» باستطلاعات وإحصاءات عرضها بنفسه عن هجرة العقول {cite:assabile-tareq-al-suwaidan al-wassitiya/ep11 00:09:00} {cite:assabile-tareq-al-suwaidan al-wassitiya/ep11 00:16:00} {cite:assabile-tareq-al-suwaidan al-wassitiya/ep11 00:38:00}. وختم بأن الحل بيئة جاذبة لا طاردة — حكم رشيد ودولة قانون ورفاه {cite:assabile-tareq-al-suwaidan al-wassitiya/ep11 01:17:00} {cite:assabile-tareq-al-suwaidan al-wassitiya/ep11 01:20:00}.
+
+## في «الوسطية» — حلقة الفضائيات العربية
+قيّم السويدان تجربة الفضائيات بإحصاءات عرضها (79 منوعة، 37 حكومية، 52% عنف بفترات الأطفال) واستطلاعات {cite:assabile-tareq-al-suwaidan al-wassitiya/ep12 00:15:00} {cite:assabile-tareq-al-suwaidan al-wassitiya/ep12 00:34:00} {cite:assabile-tareq-al-suwaidan al-wassitiya/ep12 00:50:00} {cite:assabile-tareq-al-suwaidan al-wassitiya/ep12 01:05:00}.
+
+## في «الوسطية» — حلقة فتوى الفضائيات
+أدار السويدان حلقة فتوى الفضائيات بعلماء واستطلاعات — ولاحظ مفاجأة أن 15% فقط يرجعون لأعلم الفضائيات مقابل 42% للمجامع {cite:assabile-tareq-al-suwaidan al-wassitiya/ep13 00:32:30} {cite:assabile-tareq-al-suwaidan al-wassitiya/ep13 01:08:30}.

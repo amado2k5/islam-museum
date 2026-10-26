@@ -1,3 +1,10 @@
+---
+id: concept/al-wataniyya-wal-qawmiyya
+lang: en
+source_lang: ar
+translators: ["Devin (SWE-2), draft translation"]
+---
+
 # Patriotism, nationalism and Arabness — the boundary with Islam
 
 ## The episode and the votes

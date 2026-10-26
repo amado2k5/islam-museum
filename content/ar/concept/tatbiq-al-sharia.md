@@ -1,3 +1,10 @@
+---
+id: concept/tatbiq-al-sharia
+lang: ar
+source_lang: ar
+translators: []
+---
+
 # تطبيق الشريعة — بين الكلية والمرحلة
 
 ## الحلقة والتصويت

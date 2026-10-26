@@ -1,3 +1,10 @@
+---
+id: concept/al-ilmaniyya-wal-islam
+lang: ur
+source_lang: ar
+translators: ["Devin (SWE-2), draft translation"]
+---
+
 # سیکولرازم اور اسلام — تصادم یا اتفاق
 
 ## قسط اور ووٹ
