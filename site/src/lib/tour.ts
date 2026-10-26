@@ -1,4 +1,4 @@
-// 3D Virtual Tour data helpers: time-journeys loaded from tour/journeys.yaml.
+// 3D Virtual Tour data helpers: time-journeys (tour/journeys.yaml) and Objects-hall exhibits (tour/exhibits.yaml).
 // Follows site/src/lib/kids.ts conventions: data files hold bilingual strings,
 // the loader validates shape/count, view*() selects the page language.
 import { readFileSync } from "node:fs";
@@ -68,5 +68,62 @@ export function viewJourneys(journeys: Journey[], lang: Lang): JourneyView[] {
     title: pick(j.title),
     sub: pick(j.sub),
     lines: pick(j.lines),
+  }));
+}
+
+export interface Trilingual { ar: string; en: string; ur: string }
+
+/** One Objects-hall stop: a procedural mesh (`build`) labelled from an object record. */
+export interface Exhibit {
+  id: string;
+  build: string;
+  record: string;
+  label: Trilingual;
+  desc: Trilingual;
+  material?: Trilingual;
+  museum?: Trilingual;
+}
+
+export interface ExhibitView {
+  id: string;
+  build: string;
+  record: string;
+  label: string;
+  desc: string;
+  material: string;
+  museum: string;
+}
+
+export const EXHIBIT_BUILDS = ["astrolabe", "manuscript", "vase", "dirham", "lamp"];
+const LANGS3 = ["ar", "en", "ur"] as const;
+const full = (b: unknown): b is Trilingual =>
+  !!b && LANGS3.every((l) => typeof (b as any)[l] === "string" && (b as any)[l].length > 0);
+
+export function loadExhibits(): Exhibit[] {
+  const raw = parse(readFileSync(repoPath("tour/exhibits.yaml"), "utf8")) as { exhibits?: Exhibit[] };
+  const list = raw?.exhibits;
+  if (!list || list.length !== EXHIBIT_BUILDS.length)
+    throw new Error(`tour/exhibits.yaml: expected exactly ${EXHIBIT_BUILDS.length} exhibits`);
+  if (new Set(list.map((e) => e.id)).size !== list.length) throw new Error("tour/exhibits.yaml: exhibit ids must be unique");
+  for (const e of list) {
+    const where = `tour/exhibits.yaml: exhibit ${e.id || "?"}`;
+    if (!e.id || !EXHIBIT_BUILDS.includes(e.build)) throw new Error(`${where} has a missing id or unknown build`);
+    if (!/^object\/[a-z0-9-]+$/.test(e.record || "")) throw new Error(`${where} needs an object/<slug> record`);
+    if (!full(e.label) || !full(e.desc)) throw new Error(`${where} needs label and desc in ar, en and ur`);
+    for (const k of ["material", "museum"] as const)
+      if (e[k] !== undefined && !full(e[k])) throw new Error(`${where}: ${k} must have ar, en and ur`);
+  }
+  return list;
+}
+
+export function viewExhibits(list: Exhibit[], lang: Lang): ExhibitView[] {
+  return list.map((e) => ({
+    id: e.id,
+    build: e.build,
+    record: e.record,
+    label: e.label[lang],
+    desc: e.desc[lang],
+    material: e.material?.[lang] ?? "",
+    museum: e.museum?.[lang] ?? "",
   }));
 }
