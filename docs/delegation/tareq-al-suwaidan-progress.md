@@ -57,7 +57,8 @@ Series `administrative-processus-abilities`: ep01–ep05 written and merged — 
 | al-wassitiya/ep01 | 1:21:33 | islamufubiya NEW + tariq ext ×3 | 1 | 3 panel perspectives | — | concept + person ext | ~40 cited windows | 14c78afbf (PR #2148) |
 | al-wassitiya/ep02 | 1:08:10 | al-khitab-al-islami NEW + tariq ext ×3 | 1 | 3 panel perspectives | — | concept + person ext | ~40 cited windows | ec8d1a9e8 (PR #2156) |
 | al-wassitiya/ep03 | 1:18:00 | al-dimuqratiyya-wal-sharia NEW + tariq ext ×3 | 1 | 3 panel perspectives | — | concept + person ext | ~40 cited windows | e3fc6e937 (PR #2160) |
-| al-wassitiya/ep04 | ~1:16 | tatbiq-al-sharia NEW + tariq ext ×3 | 1 | 3 panel perspectives | — | concept + person ext | ~45 cited windows | pending |
+| al-wassitiya/ep04 | ~1:16 | tatbiq-al-sharia NEW + tariq ext ×3 | 1 | 3 panel perspectives | — | concept + person ext | ~45 cited windows | ebc6d0731 (PR #2207) |
+| al-wassitiya/ep05 | ~1:20 | al-ilmaniyya-wal-islam NEW + tariq ext ×3 | 1 | 2 panel perspectives | — | concept + person ext | ~45 cited windows | pending |
 
 ## Excluded items (standing rule, founder's instruction, 25 Oct 2026)
 
@@ -82,6 +83,7 @@ Every dropped or left-out item is listed here with item, reason, the gate it fai
 
 - `devin-tareq-al-suwaidan-admin-1` — ep01 of `administrative-processus-abilities` (13 new entities + 1 extension). Course self-dates to ~2007 (mentions the 2007 book *Know How* and the just-announced iPhone).
 - `devin-tareq-al-suwaidan-admin-2` — ep02 (4 new concepts: vision/mission, KPI, LOB/SBU, family businesses [contested: women's-intervention claim, labelled speaker's view + needs_source]).
+- `devin-tareq-al-suwaidan-wassitiya-05` — al-wassitiya ep05 (secularism vs Islam: NEW concept/al-ilmaniyya-wal-islam + tariq ext; 3 models FR/AngloSaxon/Turkish; polls 43/57 define, 24/42 spread, 65/35 meet; 'al-islam al-wasati yughnina').
 - `devin-tareq-al-suwaidan-wassitiya-04` — al-wassitiya ep04 (sharia implementation totality-vs-stages: NEW concept/tatbiq-al-sharia + tariq ext; polls 28/69/3 clarity, 3-paths; Nawfal 'ta'sil rabbani tafsil insani', Khatib missing codes, Omar-b-AbdulAziz gradualism story).
 - `devin-tareq-al-suwaidan-wassitiya-03` — al-wassitiya ep03 (democracy-vs-sharia: NEW concept/al-dimuqratiyya-wal-sharia with 3 perspectives + tariq ext; polls 16/42/42 conflict, 40/60 islamist success; Tamimi procedural-vs-philosophical, Bayati adopt-vs-engage).
 - `devin-tareq-al-suwaidan-wassitiya-02` — al-wassitiya ep02 (Islamic discourse mature/reactive: NEW concept/al-khitab-al-islami with 3 perspectives + tariq ext; 4 polls 51/49, 67/33 content, 51/49 internal, 76/24 two-discourses; Jurshi's 4 defects, Rashdan's optimism, mosque/official discourse critique).
