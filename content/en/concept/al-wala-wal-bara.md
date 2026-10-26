@@ -1,3 +1,10 @@
+---
+id: concept/al-wala-wal-bara
+lang: en
+source_lang: ar
+translators: ["Devin (SWE-2), draft translation"]
+---
+
 # Wala' and bara' among Muslims
 
 ## The episode and the question

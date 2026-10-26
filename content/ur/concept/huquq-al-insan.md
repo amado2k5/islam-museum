@@ -1,3 +1,10 @@
+---
+id: concept/huquq-al-insan
+lang: ur
+source_lang: ar
+translators: ["Devin (SWE-2), draft translation"]
+---
+
 # انسانی حقوق — عرب دنیا میں خلاف ورزیوں کا ملف
 
 ## قسط اور ووٹ

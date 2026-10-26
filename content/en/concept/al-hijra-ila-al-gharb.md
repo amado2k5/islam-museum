@@ -1,3 +1,10 @@
+---
+id: concept/al-hijra-ila-al-gharb
+lang: en
+source_lang: ar
+translators: ["Devin (SWE-2), draft translation"]
+---
+
 # Emigration to the West — hope or pain (the brain drain)
 
 ## The episode and the votes

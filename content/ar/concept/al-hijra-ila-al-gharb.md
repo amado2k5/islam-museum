@@ -1,3 +1,10 @@
+---
+id: concept/al-hijra-ila-al-gharb
+lang: ar
+source_lang: ar
+translators: []
+---
+
 # الهجرة إلى الغرب — أمل أم ألم (هجرة العقول)
 
 ## الحلقة والتصويت

@@ -1,3 +1,10 @@
+---
+id: concept/al-fatwa-ala-al-fadaiyyat
+lang: en
+source_lang: ar
+translators: ["Devin (SWE-2), draft translation"]
+---
+
 # Fatwa on the satellite channels — its benefit and harm
 
 ## The episode and the question

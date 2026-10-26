@@ -1,3 +1,10 @@
+---
+id: concept/tamkin-al-mara
+lang: en
+source_lang: ar
+translators: ["Devin (SWE-2), draft translation"]
+---
+
 # Women's empowerment — between support and rejection
 
 ## The episode and the votes

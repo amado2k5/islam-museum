@@ -1,3 +1,10 @@
+---
+id: concept/tamkin-al-mara
+lang: ur
+source_lang: ar
+translators: ["Devin (SWE-2), draft translation"]
+---
+
 # خواتین کا بااختیار بنانا — تائید اور رد کے درمیان
 
 ## قسط اور ووٹ

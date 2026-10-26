@@ -1,3 +1,10 @@
+---
+id: concept/al-fadaiyyat-al-arabiyya
+lang: en
+source_lang: ar
+translators: ["Devin (SWE-2), draft translation"]
+---
+
 # Arab satellite channels — evaluating the experiment
 
 ## The episode and the votes

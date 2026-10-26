@@ -1,3 +1,10 @@
+---
+id: concept/al-wala-wal-bara
+lang: ar
+source_lang: ar
+translators: []
+---
+
 # الولاء والبراء بين المسلمين
 
 ## الحلقة والسؤال

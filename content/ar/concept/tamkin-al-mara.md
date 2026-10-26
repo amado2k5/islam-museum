@@ -1,3 +1,10 @@
+---
+id: concept/tamkin-al-mara
+lang: ar
+source_lang: ar
+translators: []
+---
+
 # تمكين المرأة — بين التأييد والرفض
 
 ## الحلقة والتصويت
