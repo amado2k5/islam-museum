@@ -351,10 +351,10 @@ lists' own order. Status markers: [ ] queued · [~] in a writer's hands · [x] m
 - [x] Shaykh Nazim Al-Haqqani — 1922–2014
 - [x] Shaykh Hisham Kabbani — 1945–Living
 - [x] Shaykh Nuh Keller — 1954–Living
-- [ ] Shaykh Abdallah Bin Bayyah — 1935–Living
-- [ ] Sheikh Shawki Allam — 1961–Living
-- [ ] Sheikh Habib Umar bin Hafiz — 1963–Living
-- [ ] Sheikh Habib Ali al-Jifri — 1971–Living
+- [x] Shaykh Abdallah Bin Bayyah — 1935–Living
+- [x] Sheikh Shawki Allam — 1961–Living
+- [x] Sheikh Habib Umar bin Hafiz — 1963–Living
+- [x] Sheikh Habib Ali al-Jifri — 1971–Living
 - [ ] Shaykh Said Ramadan al-Bouti — 1929–2013
 - [ ] Shaykh Wahba Zuhayli — 1932–2015
 - [ ] Sheikh Mustafa al-Zarqa — 1904–1999

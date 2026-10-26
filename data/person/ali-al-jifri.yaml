@@ -1,0 +1,28 @@
+id: person/ali-al-jifri
+class: person
+label: { ar: "علي الجفري", en: "Habib Ali al-Jifri" }
+names:
+  - { kind: full, lang: ar, value: "علي زين العابدين الجفري" }
+  - { kind: full, lang: en, value: "Ali Zain al-Abidin al-Jifri" }
+  - { kind: full, lang: ur, value: "حبیب علی زین العابدین الجفری" }
+  - { kind: alternate, lang: en, value: "Habib Ali al-Jufri" }
+gender: male
+roles: [scholar, teacher, writer]
+born: { edtf: "1971-04-16", hijri: "1391", calendar: gregorian, precision: day, status: historical, derived: false, note: "Born in Jeddah, Saudi Arabia; the English article (citing Thomas Pierret, Religion and State in Syria, p. 127) and the Arabic article pair 16 April 1971 with 20 Safar 1391 AH, so the Hijri year is sourced, not derived.", sources: [source/wikipedia-ali-al-jifri-en, source/wikipedia-ali-al-jifri-ar, source/wikidata-ali-al-jifri] }
+summary:
+  ar: "عالم يمني (ولد 16 أبريل 1971 في جدة) من طريقة آل باعلوي، تلميذ عمر بن حفيظ في تريم، يقيم في القاهرة؛ مؤسس مؤسسة طابة وحائز جائزة أويغن بيسر عن عمله في مبادرة كلمة سواء."
+  en: "Yemeni scholar (born 16 April 1971 in Jeddah) of the Ba 'Alawi tradition, a student of Umar bin Hafiz in Tarim, based in Cairo; founder of the Tabah Foundation and a recipient of the Eugen Biser Award for his work on A Common Word."
+wings: [people, living]
+themes: [scripture-and-its-sciences, development-of-law-theology-institutions]
+regions: [arabia, egypt-nile]
+relations:
+  - { type: born_in, target: place/jeddah, note: "Born in Jeddah, Saudi Arabia (English and Arabic articles; Wikidata gives Jeddah as place of birth).", sources: [source/wikipedia-ali-al-jifri-en, source/wikipedia-ali-al-jifri-ar] }
+  - { type: lived_in, target: place/cairo, note: "A Yemeni scholar based in Cairo, Egypt (English article lead).", sources: [source/wikipedia-ali-al-jifri-en] }
+  - { type: student_of, target: person/umar-bin-hafiz, note: "The Arabic article's list of his teachers names Umar bin Hafiz, dean of Dar al-Mustafa, under whom he read and attended extensively (Bukhari, the Ihya, Adab Suluk al-Murid and other works), and its narrative places him in Tarim in Umar bin Hafiz's company (suhba) from 1993 to 2003. The edge is written here, in the student's record, only.", sources: [source/wikipedia-ali-al-jifri-ar] }
+faith:
+  - { value: sufi, basis: documented, note: "The Arabic article carries a dedicated section on his Sufism, reporting that those concerned with Sufism, especially the scholars of Syria, Yemen, Egypt and the Maghreb, count him among the figures of the 'moderate Sufism' preached by the early imams, and its criticism passage attests that he adopts the Ash'ari method and adheres to the teachings of Sufism; the Urdu article's lead calls him a Yemeni Sunni and Sufi scholar in its own text, and his decade of discipleship in Tarim under Umar bin Hafiz (1993–2003) is attested in the Arabic text. Wikidata's religion value, Sufism, is the same family's structured echo and is not counted. No madhhab segment is recorded — the Shafi'i madhhab and Ash'ari creed rest on the Arabic and Urdu infoboxes, which share one template family, plus English category filings, a single infobox family that the two-source rule does not accept; both values are preserved in this note.", sources: [source/wikipedia-ali-al-jifri-ar, source/wikipedia-ali-al-jifri-ur, source/wikipedia-ali-al-jifri-en] }
+external_ids:
+  wikidata: Q4120565
+sources: [source/wikipedia-ali-al-jifri-en, source/wikipedia-ali-al-jifri-ar, source/wikipedia-ali-al-jifri-ur, source/wikidata-ali-al-jifri]
+status: { review: published, completeness: 2, generated_by: "Muse (Muse Spark 1.3)" }
+provenance: { layer: own-research, source: "English, Arabic and Urdu Wikipedia articles on Ali al-Jifri and Wikidata item Q4120565, each fetched by its recorded revision id and read in full, the returned revision ids asserted equal to the recorded ones before any claim was drawn. Wikidata's English label spells the name 'al-Jufri'; the articles' 'al-Jifri' spelling governs the slug and label, the variant being kept as an alternate name.", generated_by: "Muse (Muse Spark 1.3)", run: century-additions-61 }
