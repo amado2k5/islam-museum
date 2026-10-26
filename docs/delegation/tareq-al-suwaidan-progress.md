@@ -30,7 +30,8 @@ Series `administrative-processus-abilities`: ep01–ep05 written and merged — 
 | al-mubdioune/ep03 | 0:25:22 | al-awzai ext ×3 | — | — | — | person ext only | ~20 cited windows | 9ccda86b2 (PR #2079) |
 | al-mubdioune/ep04 | 0:27:09 | abd-allah-ibn-al-mubarak ext ×3 (pt 1 of 2) | — | — | — | person ext only | ~25 cited windows | 36833c66b (PR #2082) |
 | al-mubdioune/ep05 | 0:28:43 | abd-allah-ibn-al-mubarak ext ×3 (pt 2 of 2) | — | — | — | person ext only | ~25 cited windows | dfa6ab022 (PR #2083) |
-| al-mubdioune/ep06 | 0:26:35 | izz-al-din-ibn-abd-al-salam ext ×3 (pt 1 of 2) | — | — | 1 contested-adjacent (open denunciation rules; labelled) | person ext only | ~25 cited windows | pending |
+| al-mubdioune/ep06 | 0:26:35 | izz-al-din-ibn-abd-al-salam ext ×3 (pt 1 of 2) | — | — | 1 contested-adjacent (open denunciation rules; labelled) | person ext only | ~25 cited windows | df3cb2a1a (PR #2085) |
+| al-mubdioune/ep07 | 0:28:21 | izz-al-din-ibn-abd-al-salam ext ×3 (pt 2 of 2) | — | — | — | person ext only | ~25 cited windows | pending |
 
 ## Excluded items (standing rule, founder's instruction, 25 Oct 2026)
 
@@ -55,6 +56,7 @@ Every dropped or left-out item is listed here with item, reason, the gate it fai
 
 - `devin-tareq-al-suwaidan-admin-1` — ep01 of `administrative-processus-abilities` (13 new entities + 1 extension). Course self-dates to ~2007 (mentions the 2007 book *Know How* and the just-announced iPhone).
 - `devin-tareq-al-suwaidan-admin-2` — ep02 (4 new concepts: vision/mission, KPI, LOB/SBU, family businesses [contested: women's-intervention claim, labelled speaker's view + needs_source]).
+- `devin-tareq-al-suwaidan-mubdioune-7` — al-mubdioune ep07 (izz ext pt2: Egypt stands — Eid-procession 'ya Ayyub' wine fatwa, al-Baji 'saw the sultan as a cat', mamluk emancipation fatwa + 'seller of kings', Ayn Jalut mobilisation, scholars' solidarity).
 - `devin-tareq-al-suwaidan-mubdioune-6` — al-mubdioune ep06 (izz ext pt1: open denunciation rules + benefits, Salih Ismail/Crusader alliance story, no-hand-kiss answer, Crusader lords' retort, arms-sale fatwa).
 - `devin-tareq-al-suwaidan-mubdioune-5` — al-mubdioune ep05 (ibn-mubarak ext pt2: scholars' testimony, masked champion, Hashimite hadith story, fitna rule, four-fears maxim, Abu Hanifa prayer joke, Fudayl verses, deathbed talqin fiqh).
 - `devin-tareq-al-suwaidan-mubdioune-4` — al-mubdioune ep04 (ibn-al-mubarak ext pt1: amir-al-muminin fi-l-hadith, father's scrupulousness, Kufa famine/hajj story, Raqqa/Harun crowd).
