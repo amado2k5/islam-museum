@@ -276,11 +276,11 @@ lists' own order. Status markers: [ ] queued · [~] in a writer's hands · [x] m
 - [x] Wilfried Zaha — 1992–Living
 - [x] Sebastien Haller — 1994–Living
 - [x] Salif Keïta (Footballer) — 1946–2023
-- [ ] Frederic Kanoute — 1977–Living
-- [ ] Seydou Keita — 1980–Living
-- [ ] Mahamadou Diarra — 1981–Living
-- [ ] George Weah (Honored African Icon) — 1966–Living
-- [ ] Tarik Elyounoussi — 1988–Living
+- [x] Frederic Kanoute — 1977–Living
+- [x] Seydou Keita — 1980–Living
+- [x] Mahamadou Diarra — 1981–Living
+- [x] George Weah (Honored African Icon) — 1966–Living
+- [x] Tarik Elyounoussi — 1988–Living
 - [ ] Omar Elabdellaoui — 1991–Living
 - [ ] Ansu Fati — 2002–Living
 - [ ] Adama Traoré — 1996–Living
