@@ -137,3 +137,6 @@ Al-Suwaidan steered the satellite-fatwa episode with scholars and polls — noti
 
 ## In 'Al-Wasatiyya' — the women's-empowerment episode
 Al-Suwaidan steered the women's-empowerment episode with polls — the standout: only 35% fully endorsed government support while most confined it outside politics {cite:assabile-tareq-al-suwaidan al-wassitiya/ep14 00:55:00}.
+
+## In 'Al-Wasatiyya' — the women-and-conventions episode
+Al-Suwaidan steered the Arab-woman-and-international-conventions episode, closing with his rule: take what lifts injustice from women, reject what collides with religion — 'and this is the wasatiyya' {cite:assabile-tareq-al-suwaidan al-wassitiya/ep15 01:15:00} {cite:assabile-tareq-al-suwaidan al-wassitiya/ep15 01:16:30} {cite:assabile-tareq-al-suwaidan al-wassitiya/ep15 01:17:00}.
