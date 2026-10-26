@@ -21,7 +21,7 @@ const exhibits = viewExhibits(loadExhibits(), lang).map((e) => {
   const n = byId.get(e.record);
   if (!n) throw new Error(`tour/exhibits.yaml: record ${e.record} is not in the graph`);
   const d = formatDate(n.data?.made, lang);
-  return { ...e, date: d.text, note: d.derived ? T.entity.dagger : "", href: href(lang, e.record) };
+  return { ...e, date: d.text, note: d.derived ? T.entity.dagger : "", href: href(lang, e.record), photos: n.data?.iiif_manifest ? href(lang, e.record) : "" };
 });
 // The other eight wings' halls: each stop links its record and shows its date
 // (a person's life span); stops with `art` frame an existing site illustration.
