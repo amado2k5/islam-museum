@@ -137,3 +137,6 @@ translators: []
 
 ## في «الوسطية» — حلقة تمكين المرأة
 أدار السويدان حلقة تمكين المرأة باستطلاعات — أبرزها أن 35% فقط يؤيدون الدعم الحكومي مطلقاً والأغلبية قصرته على غير السياسة {cite:assabile-tareq-al-suwaidan al-wassitiya/ep14 00:55:00}.
+
+## في «الوسطية» — حلقة المرأة والاتفاقيات
+أدار السويدان حلقة المرأة العربية والاتفاقيات الدولية وختم بقاعدته: نأخذ ما يرفع الظلم عن المرأة ونرفض ما يصادم الدين — «وهذه الوسطية» {cite:assabile-tareq-al-suwaidan al-wassitiya/ep15 01:15:00} {cite:assabile-tareq-al-suwaidan al-wassitiya/ep15 01:16:30} {cite:assabile-tareq-al-suwaidan al-wassitiya/ep15 01:17:00}.
