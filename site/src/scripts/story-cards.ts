@@ -35,7 +35,8 @@ function init(root: HTMLElement) {
   player.querySelector("[data-sc-next]")!.addEventListener("click", () => { stopPlay(); show(i + 1); });
   player.addEventListener("pointerdown", (e) => { if (e.target !== playBtn) stopPlay(); });
   player.addEventListener("keydown", (e) => {
-    if (e.target !== playBtn) stopPlay();
+    // Enter/Space on the play button toggles via click — don't stop there.
+    if (e.target !== playBtn || e.key === "ArrowLeft" || e.key === "ArrowRight") stopPlay();
     if (e.key === "ArrowLeft") show(i + 1);
     if (e.key === "ArrowRight") show(i - 1);
   });
