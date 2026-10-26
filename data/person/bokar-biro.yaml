@@ -1,0 +1,37 @@
+id: person/bokar-biro
+class: person
+label: { ar: "بوكار بيرو باري", en: "Bokar Biro Barry", ur: "بوکار بیرو باری" }
+names:
+  - { value: "Bokar Biro Barry", kind: full }
+  - { value: "Boubacar Biro", kind: alternate }
+  - { value: "Bokar Biro", kind: alternate }
+gender: male
+summary:
+  ar: "آخر ألمامي مستقل لإمامة فوتا جالون في غينيا الحالية (توفي في 13 نوفمبر 1896). من فصيل صوريا ومقره تيمبو، استولى على السلطة سنة 1890 بعد قتل أخيه الأكبر، فحكم حتى 1892 ثم عاد سنة 1894، ورفض المطالب الفرنسية وكتب «بسم الله» مكان توقيعه على المعاهدة، وقُتل بعد معركة بوريداكا حين دمّرت المدفعية الفرنسية جيشه فأسره رجال خصمه وقطعوا رأسه."
+  en: "The last independent Almami of the Imamate of Futa Jallon in present-day Guinea (died 13 November 1896). Of the Soriya faction, based at Timbo, he seized power in 1890 after assassinating his elder brother, ruled until 1892 and again from 1894, refused the French demands and wrote 'Bismillah' in place of his signature on the treaty, and was killed after the battle of Porédaka, when French artillery destroyed his army and his enemy's soldiers captured and decapitated him."
+  ur: "موجودہ گنی میں امامتِ فوتا جالون کے آخری آزاد المامی (وفات 13 نومبر 1896ء)۔ صوریا گروہ سے تعلق رکھنے والے اور تیمبو کو مرکز بنانے والے بوکار بیرو نے 1890ء میں اپنے بڑے بھائی کو قتل کر کے اقتدار حاصل کیا، 1892ء تک حکومت کی اور 1894ء میں دوبارہ لوٹے، فرانسیسی مطالبات مسترد کیے اور معاہدے پر دستخط کی جگہ «بسم اللہ» لکھا، اور پوریداکا کی لڑائی کے بعد مارے گئے جب فرانسیسی توپ خانے نے ان کی فوج تباہ کر دی اور ان کے دشمن کے سپاہیوں نے انہیں پکڑ کر سر قلم کر دیا۔"
+roles: [ruler, military-leader]
+wings: [people]
+regions: [west-africa-sahel]
+died:
+  edtf: "1896-11-13"
+  hijri: "1314"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "Died 13 November 1896, the date given by the leads and bodies of both articles and by Wikidata: his army was destroyed by French artillery on the plain of Porédaka that day; he escaped the battle, was soon captured by soldiers of his enemy Sori Illili and decapitated, and his son died with him (Barry 1998; Roche 2011, as cited in both articles). The French article's infobox alone gives 18 November 1896 at Botôre, contradicting its own lead and body; that variant is recorded here and not followed. Porédaka has no place entity in the museum yet, so no died_in relation is written. The Hijri year is derived by tabular conversion. No birth date is recorded: both articles leave his birth year unknown (the English article's category is 'Year of birth unknown'), the queue's 1850 is attested by no source read, and Wikidata's birth value, the year 1900, postdates his death and is an error."
+  sources: [source/wikipedia-bokar-biro-en, source/wikipedia-bokar-biro-fr, source/wikidata-bokar-biro]
+faith:
+  - value: unknown
+    basis: unknown
+    note: "No source read names a school, order or personal affiliation for Bokar Biro. What the sources give is his office: he was Almami, head of the Imamate of Futa Jallon, a theocratic state founded in a jihad in 1725. Headship of a Muslim state is an office, not a personal attestation, and neither article describes his own belief or practice; Wikidata records no religion value for him at all. Under the doubt rule he is left unclassified."
+    sources: [source/wikipedia-bokar-biro-en, source/wikipedia-bokar-biro-fr, source/wikidata-bokar-biro]
+external_ids: { wikidata: "Q4938717" }
+sources: [source/wikipedia-bokar-biro-en, source/wikipedia-bokar-biro-fr, source/wikidata-bokar-biro]
+provenance:
+  layer: own-research
+  source: "English Wikipedia 'Bokar Biro' (revision 1369797248), French Wikipedia 'Bokar Biro' (revision 234599259) and Wikidata item Q4938717 (item revision 2415223070), read via the MediaWiki API on 26 October 2026. No Arabic or Urdu Wikipedia article on him exists, so the Arabic and Urdu prose are the museum's own, written from the English and French articles. The Imamate of Futa Jallon has no polity entity and Timbo and Porédaka have no place entities in the museum yet, so no ruler_of or died_in relation is written."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: century-additions-65
+status: { review: published, generated_by: "Muse (Muse Spark 1.3)" }
