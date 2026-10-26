@@ -1,0 +1,59 @@
+id: person/abdur-raheem-green
+class: person
+label:
+  ar: "عبد الرحيم غرين"
+  en: "Abdur Raheem Green"
+  ur: "عبد الرحیم گرین"
+summary:
+  ar: "داعية بريطاني، ومؤسس منظمة آيَرا (أكاديمية التعليم والبحث الإسلامي) ورئيس مجلس إدارتها. وُلد باسم أنتوني واتسواف غافن غرين في دار السلام في سبتمبر 1964 لأبٍ إداري في الإمبراطورية البريطانية وأم بولندية، ونشأ كاثوليكيًا وتعلّم في كلية أمبلفورث، واعتنق الإسلام سنة 1988. اشتهر بالدعوة في ركن الخطباء في هايد بارك وفي البرامج التلفزيونية، وأسّس سنة 2009 منظمة آيَرا الدعوية التي يرأس مجلس إدارتها."
+  en: "A British dawah preacher, and the founder and chairman of iERA, the Islamic Education and Research Academy. Born Anthony Waclaw Gavin Green in Dar es Salaam in September 1964 to a father who was a colonial administrator in the British Empire and a Polish mother, he was raised a Roman Catholic, educated at Ampleforth College, and embraced Islam in 1988. He became known for dawah at Speakers' Corner in Hyde Park and in televised settings, and in 2009 he founded iERA, the dawah charity whose chairmanship he holds."
+  ur: "برطانوی داعی، اور iERA (اسلامی تعلیم و تحقیق اکیڈمی) کے بانی و چیئرمین۔ ستمبر 1964 میں دارالسلام میں اینتھونی واٹسلاف گیون گرین کے نام سے پیدا ہوئے؛ والد برطانوی سلطنت کے نوآبادیاتی افسر اور والدہ پولش تھیں۔ کیتھولک ماحول میں پرورش پائی، ایمپل فورتھ کالج میں تعلیم حاصل کی اور 1988 میں اسلام قبول کیا۔ ہائیڈ پارک کے اسپیکرز کارنر اور ٹیلی ویژن پر دعوت سے شہرت ملی، اور 2009 میں دعوتی خیراتی تنظیم iERA کی بنیاد رکھی جس کی صدارت ان کے پاس ہے۔"
+names:
+  - value: "Abdur Raheem Green"
+    kind: full
+  - value: "عبد الرحيم غرين"
+    kind: full
+  - value: "Anthony Waclaw Gavin Green"
+    kind: alternate
+  - value: "Abdurraheem Green"
+    kind: alternate
+  - value: "Anthony Green"
+    kind: alternate
+gender: male
+roles:
+  - preacher
+wings:
+  - people
+  - living
+regions:
+  - east-africa
+  - andalus-europe
+born:
+  edtf: "1964-09"
+  hijri: "1384"
+  calendar: gregorian
+  precision: month
+  status: historical
+  derived: true
+  note: "Born September 1964 in Dar es Salaam, Tanganyika (now Tanzania), as given by the English Wikipedia article, which cites Companies House for the birth name and month, and by Wikidata Q3595388's September 1964 value at month precision, which agree. Wikidata also carries a rival value of 1 January 1962 at day precision; it is not followed and is disclosed in the Wikidata source file. No place entity for Dar es Salaam exists in data/place/, so no born_in edge is written. The Hijri year (1384) is derived by tabular conversion."
+  sources: [source/wikipedia-abdur-raheem-green-en, source/wikidata-abdur-raheem-green]
+faith:
+  - value: unknown
+    basis: unknown
+    note: "Recorded as unknown, and FLAGGED for a founder ruling (movement-without-school configuration). What each source gives: (1) the English Wikipedia article's infobox gives his denomination as 'Sunni', an uncited infobox value, and the same article's categories file him under 'British Sunni Muslims' and 'Converts to Sunni Islam from Catholicism' — one article family naming a school, and category filings are not attestation. (2) The same article's text quotes the academic Innes Bowen (Medina in Birmingham, Najaf in Brent) — 'He remained a Salafi but became a popular speaker at events organised by a wide range of Islamic organizations' — and cites Sadek Hamid's Sufis, Salafis and Islamists for him: two academic works situating him personally in Salafism, a movement, naming no legal school, and the faith enum has no Salafi value. (3) Wikidata Q3595388 gives his religion as Islam (Q432), generic. Unlike Bilal Philips (Batch 47), where two independent sources named Sunni itself, here 'Sunni' rests on a single article's infobox and categories, so under the two-source rule and the doubt rule no school value is recorded; all readings are preserved in this note. His embrace of Islam in 1988 is documented by the article; his former Roman Catholicism is his past, not a current affiliation, and is not recorded as a faith value."
+    sources:
+      - source/wikipedia-abdur-raheem-green-en
+      - source/wikidata-abdur-raheem-green
+external_ids: { wikidata: "Q3595388" }
+sources:
+  - source/wikipedia-abdur-raheem-green-en
+  - source/wikidata-abdur-raheem-green
+  - source/wikipedia-iera-en
+status:
+  review: published
+  completeness: 3
+provenance:
+  layer: own-research
+  source: "He is the founder named at §2 row 286 of the handoff ('iERA (International Extensive Dawah)' / 'iERA International Extensive Dawah'). Existence checks first, all on 26 October 2026: name-fragment searches over data/person/ and data/source/ (green / abdur / raheem) returned no record of him, and a search for his Wikidata identifier Q3595388 over both trees was likewise negative, so this is a new build, not an enrichment; iERA's current chief executive, Subboor Ahmad (person/subboor-ahmad, Batch 51), already has his own record and is not the organisation's founder. Identification chain, all checked 26 October 2026: (1) the English Wikipedia article 'iERA' (revision 1381703176 of 24 October 2026), fetched by revision id with the returned revision asserted equal, states in its lead, citing The Telegraph of 24 May 2014, that iERA was founded in the United Kingdom by Anthony ('Abdur Raheem') Green in 2009; (2) the article on Green himself (revision 1381910576 of 25 October 2026, asserted equal) gives his birth name as Anthony Waclaw Gavin Green, his birth as September 1964 in Dar es Salaam, his embrace of Islam in 1988 and his chairmanship of iERA; (3) Wikidata Q3595388 agrees on the September 1964 birth and adds a rival 1962 value, disclosed and not followed. No relations are recorded: iERA has no group entity in the graph and Dar es Salaam no place entity. His faith is recorded unknown and flagged: see the faith note."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: "modern-figures-batch-52"
