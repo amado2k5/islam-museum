@@ -1,0 +1,37 @@
+id: person/youssou-ndour
+class: person
+label: { ar: "يوسو ندور", en: "Youssou N'Dour", ur: "یوسو نڈور" }
+names:
+  - { value: "Youssou Madjiguène N'Dour", kind: full }
+  - { value: "يوسو ندور", kind: full }
+  - { value: "Youssou Ndour", kind: alternate }
+  - { value: "Roi du mbalax", kind: laqab }
+gender: male
+summary:
+  ar: "مغنٍّ ومؤلف أغانٍ وسياسي سنغالي، وُلد في داكار في 1 أكتوبر 1959. ساهم في تطوير موسيقى «المبالاكس»، وبلغت شهرته العالمية بأغنية «سبع ثوانٍ» (1994) مع نيني شيري وبألبومه التعبدي «مصر» (2004) الحائز على غرامي، وأسس مجموعة «فوتور ميديا» الصحفية، وشغل منصب وزير الثقافة والسياحة في السنغال (2012–2013) بعد ترشح رئاسي أُبطل."
+  en: "Senegalese singer, songwriter and politician, born at Dakar on 1 October 1959. He helped develop mbalax, reached a worldwide audience with '7 Seconds' (1994), a duet with Neneh Cherry, and the devotional album Egypt (2004), which won a Grammy Award, founded the Groupe Futurs Médias press group, and served as Senegal's Minister of Culture and Tourism (2012–2013) after a disqualified presidential candidacy."
+  ur: "سینیگال کے گلوکار، گیت نگار و سیاست دان، جو 1 اکتوبر 1959 کو ڈاکار میں پیدا ہوئے۔ انہوں نے مبالاکس موسیقی کی ترقی میں حصہ لیا، نینی چیری کے ساتھ «سیون سیکنڈز» (1994) اور گریمی یافتہ مذہبی البم «مصر» (2004) سے عالمی شہرت پائی، میڈیا گروپ «گروپ فوتور میڈیا» قائم کیا، اور 2012 تا 2013 سینیگال کے وزیرِ ثقافت و سیاحت رہے۔"
+roles: [singer, songwriter, musician, politician]
+wings: [people, living]
+born:
+  edtf: "1959-10-01"
+  hijri: "1379"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "Born at Dakar, Senegal. The Hijri year (1379) is derived by tabular conversion. Dakar has no place entity in the museum, so no born_in relation is written."
+  sources: [source/wikipedia-youssou-ndour-en, source/wikipedia-youssou-ndour-fr, source/wikidata-youssou-ndour]
+faith:
+  - value: sufi
+    basis: documented
+    note: "Two independent sources attest his own affiliation with the Murīdiyya (Mouride brotherhood), a Sufi order. The English Wikipedia article describes him as a Mouride disciple (taalibé), 'a Muslim of the Mouride brotherhood, one of the large four Sufi orders in Senegambia'. The French Wikipedia article, in a different section and in different words, states that he is of Muslim confession and a member of the Mouride brotherhood of Senegal. The segment therefore records sufi on the basis documented. No source names a madhhab for him, so no sunni-* value is recorded; Wikidata's religion value is only Islam generically, and the devotional character of albums such as Egypt is his work, not the attestation relied on."
+    sources: [source/wikipedia-youssou-ndour-en, source/wikipedia-youssou-ndour-fr, source/wikidata-youssou-ndour]
+external_ids: { wikidata: "Q210734" }
+sources: [source/wikipedia-youssou-ndour-en, source/wikipedia-youssou-ndour-fr, source/wikipedia-youssou-ndour-ar, source/wikipedia-youssou-ndour-ur, source/wikidata-youssou-ndour]
+provenance:
+  layer: own-research
+  source: "English Wikipedia 'Youssou N'Dour' (revision 1375680222 of 19 September 2026), French Wikipedia 'Youssou N'Dour' (revision 239192568 of 3 September 2026), Arabic Wikipedia «يوسو ندور» (revision 75534877 of 15 June 2026), Urdu Wikipedia «یوسو نڈور» (revision 10384197 of 13 May 2026), and Wikidata Q210734 read through the Wikidata API, all checked 25 October 2026. No earlier record existed in data/person/ under any spelling (N'Dour/Ndour/Nduur variants searched); this is a new build, not an enrichment. No relations are written: Dakar has no place entity in the museum, and no group entity for the Mouride brotherhood exists, so the affiliation is carried in the faith segment only."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: century-additions-25
+status: { review: published, completeness: 3, generated_by: "Muse (Muse Spark 1.3)" }

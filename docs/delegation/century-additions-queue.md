@@ -168,11 +168,11 @@ lists' own order. Status markers: [ ] queued · [~] in a writer's hands · [x] m
 - [x] Vieux Farka Touré — 1981–Living
 - [x] Salif Keita — 1949–Living
 - [x] Oumou Sangaré — 1968–Living
-- [ ] Ballaké Sissoko — 1967–Living
-- [ ] Toumani Diabaté — 1965–2024
-- [ ] Baaba Maal — 1953–Living
-- [ ] Youssou N'Dour — 1959–Living
-- [ ] Ismaël Lô — 1956–Living
+- [x] Ballaké Sissoko — 1967–Living
+- [x] Toumani Diabaté — 1965–2024
+- [x] Baaba Maal — 1953–Living
+- [x] Youssou N'Dour — 1959–Living
+- [x] Ismaël Lô — 1956–Living
 - [ ] Alpha Blondy — 1953–Living
 - [ ] Akon (Aliaune Badara Akon Thiam) — 1973–Living
 - [ ] Swizz Beatz (Kasseem Daoud Dean) — 1978–Living
