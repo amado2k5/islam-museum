@@ -198,12 +198,12 @@ lists' own order. Status markers: [ ] queued · [~] in a writer's hands · [x] m
 - [x] Ahmed Kathrada — 1929–2017
 - [x] Dullah Omar — 1934–2004
 - [x] Imtiaz Sooliman — 1962–Living
-- [ ] Fatima Meer — 1928–2010
-- [ ] Amina Cachalia — 1930–2013
-- [ ] Yusuf Dadoo — 1909–1983
+- [x] Fatima Meer — 1928–2010
+- [x] Amina Cachalia — 1930–2013
+- [x] Yusuf Dadoo — 1909–1983
 - [x] Zakir Naik — 1965–Living
-- [ ] Dr. Israr Ahmed — 1932–2010
-- [ ] Dr. Tahir-ul-Qadri — 1951–Living
+- [x] Dr. Israr Ahmed — 1932–2010
+- [x] Dr. Tahir-ul-Qadri — 1951–Living
 - [x] Javed Ahmad Ghamidi — 1951–Living (built under Batch 7 O1, Ghamidi Center channel)
 - [x] Omar Suleiman — 1986–Living
 - [ ] Suhaib Webb — 1972–Living
