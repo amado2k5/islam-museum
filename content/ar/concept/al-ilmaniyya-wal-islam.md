@@ -1,3 +1,10 @@
+---
+id: concept/al-ilmaniyya-wal-islam
+lang: ar
+source_lang: ar
+translators: []
+---
+
 # العلمانية والإسلام — صدام أم وئام
 
 ## الحلقة والتصويت

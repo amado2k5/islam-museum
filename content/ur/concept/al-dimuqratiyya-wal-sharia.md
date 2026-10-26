@@ -1,3 +1,10 @@
+---
+id: concept/al-dimuqratiyya-wal-sharia
+lang: ur
+source_lang: ar
+translators: ["Devin (SWE-2), draft translation"]
+---
+
 # جمہوریت اور شریعت — توافق اور تعارض
 
 ## قسط اور ووٹ

@@ -1,3 +1,10 @@
+---
+id: concept/al-dimuqratiyya-wal-sharia
+lang: ar
+source_lang: ar
+translators: []
+---
+
 # الديمقراطية والشريعة — التوافق والتعارض
 
 ## الحلقة والتصويت

@@ -1,3 +1,10 @@
+---
+id: concept/al-khitab-al-islami
+lang: ur
+source_lang: ar
+translators: ["Devin (SWE-2), draft translation"]
+---
+
 # عصری اسلامی خطاب — پختگی بمقابلہ جوش
 
 ## قسط اور تعریف

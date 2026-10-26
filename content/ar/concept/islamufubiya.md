@@ -1,3 +1,10 @@
+---
+id: concept/islamufubiya
+lang: ar
+source_lang: ar
+translators: []
+---
+
 # الإسلاموفوبيا (الرهاب من الإسلام)
 
 ## حلقة «الوسطية» — جدل الظاهرة والمصطلح

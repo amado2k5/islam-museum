@@ -1,3 +1,10 @@
+---
+id: concept/al-dimuqratiyya-wal-sharia
+lang: en
+source_lang: ar
+translators: ["Devin (SWE-2), draft translation"]
+---
+
 # Democracy and the Sharia — compatibility and conflict
 
 ## The episode and the vote

@@ -1,3 +1,10 @@
+---
+id: concept/tatbiq-al-sharia
+lang: ur
+source_lang: ar
+translators: ["Devin (SWE-2), draft translation"]
+---
+
 # شریعت کا نفاذ — کلیت اور مرحلہ وار
 
 ## قسط اور ووٹ

@@ -9,37 +9,22 @@ issue:
 summary:
   ar: "نقاش برنامج «الوسطية» لطارق السويدان حول ظاهرة الخوف أو التوجس الغربي من الإسلام. انقسم جمهور الحلقة بين 51% يرونها حقيقية منتشرة و49% يرونها محدودة مضخَّمة إعلامياً. {cite:assabile-tareq-al-suwaidan al-wassitiya/ep01 00:05:30} وفي سببها الأكبر اختار 55% «الأصابع اليهودية» و25% تصرفات بعض المسلمين و20% الميراث التاريخي — نتيجة فاجأت المقدم نفسه. {cite:assabile-tareq-al-suwaidan al-wassitiya/ep01 00:32:00} وفرّق الضيوف بين فوبيا كمصطلح طبي نفسي لا وجود له في المعاجم الطبية، وبين الظاهرة السياسية الإعلامية. {cite:assabile-tareq-al-suwaidan al-wassitiya/ep01 00:08:00}"
   en: "Tareq al-Suwaidan's 'Al-Wasatiyya' programme's discussion of the Western fear or wariness of Islam. The episode's audience split 51% seeing a real widespread phenomenon and 49% a limited media-inflated one. {cite:assabile-tareq-al-suwaidan al-wassitiya/ep01 00:05:30} On its greatest cause, 55% chose 'Jewish fingers', 25% the conduct of some Muslims, 20% historical inheritance — a result that surprised the host himself. {cite:assabile-tareq-al-suwaidan al-wassitiya/ep01 00:32:00} Panelists distinguished between phobia as a clinical term absent from medical dictionaries and the political-media phenomenon. {cite:assabile-tareq-al-suwaidan al-wassitiya/ep01 00:08:00}"
-perspectives:
-- tradition: other
-  id: limited-and-inflated
-  stance:
-    ar: "محدودة ومضخَّمة إعلامياً"
-  summary:
-    ar: "رأى عادل درويش أن الظاهرة ليست منتشرة بين الشعوب بل ردّة فعل على تصرفات بعض المسلمين، وأن الحكومات والمفكرين الغربيين أعدل — بل وقّع مثقفون بينهم يهود بيانات ضدها. {cite:assabile-tareq-al-suwaidan al-wassitiya/ep01 00:10:30}{cite:assabile-tareq-al-suwaidan al-wassitiya/ep01 00:13:00} ورأى عريب الرنتاوي أنها «صناعة» تقوم بها مراكز قوى ونخب سياسية لأجندات صراع، تصاعدت بعد الحرب الباردة. {cite:assabile-tareq-al-suwaidan al-wassitiya/ep01 00:21:30}{cite:assabile-tareq-al-suwaidan al-wassitiya/ep01 00:23:30}"
-  holders: []
-  evidence:
-  - ref: source/assabile-tareq-al-suwaidan
-    note: al-wassitiya ep01, 00:10:30-00:24:30
-- tradition: other
-  id: real-and-growing
-  stance:
-    ar: "حقيقية متنامية"
-  summary:
-    ar: "رأى الباحث أنها مرض فكري وثقافي وتاريخي متنامٍ، يشيطن المسلم ويجرّده من إنسانيته كما فعلت لجنة ما بعد الحملة الصليبية الأولى؛ وشهد بتجربته اليومية في مستشفى بريطاني. {cite:assabile-tareq-al-suwaidan al-wassitiya/ep01 00:25:30}{cite:assabile-tareq-al-suwaidan al-wassitiya/ep01 00:28:00}"
-  holders: []
-  evidence:
-  - ref: source/assabile-tareq-al-suwaidan
-    note: al-wassitiya ep01, 00:25:30-00:29:30
-- tradition: other
-  id: reject-the-term
-  stance:
-    ar: "الرفض أصلاً"
-  summary:
-    ar: "رفض عزام التميمي المصطلح كلياً: «أسوأ ما حصل للمسلمين في الغرب ظهور هذا المصطلح» — لم يفسر الظاهرة بل زاد نقمة المخاصمين؛ الخوف من الآخر المجهول طبيعي لكنه ليس «رهاباً». {cite:assabile-tareq-al-suwaidan al-wassitiya/ep01 00:15:30}{cite:assabile-tareq-al-suwaidan al-wassitiya/ep01 00:16:00}"
-  holders: []
-  evidence:
-  - ref: source/assabile-tareq-al-suwaidan
-    note: al-wassitiya ep01, 00:15:30-00:16:30
+tensions:
+- id: real-or-inflated
+  kind: tradition-and-modernity
+  status: debated
+  statement:
+    ar: "هل الخوف الغربي من الإسلام ظاهرة حقيقية منتشرة أم محدودة ومضخَّمة إعلامياً، وما أسبابها؟"
+  responses:
+  - tradition: other
+    summary: "محدودة ومضخَّمة إعلامياً: رأى عادل درويش أن الظاهرة ليست منتشرة بين الشعوب بل ردّة فعل على تصرفات بعض المسلمين، وأن الحكومات والمفكرين الغربيين أعدل — بل وقّع مثقفون بينهم يهود بيانات ضدها. {cite:assabile-tareq-al-suwaidan al-wassitiya/ep01 00:10:30}{cite:assabile-tareq-al-suwaidan al-wassitiya/ep01 00:13:00} ورأى عريب الرنتاوي أنها «صناعة» تقوم بها مراكز قوى ونخب سياسية لأجندات صراع، تصاعدت بعد الحرب الباردة. {cite:assabile-tareq-al-suwaidan al-wassitiya/ep01 00:21:30}{cite:assabile-tareq-al-suwaidan al-wassitiya/ep01 00:23:30}"
+    sources: [source/assabile-tareq-al-suwaidan]
+  - tradition: other
+    summary: "حقيقية متنامية: رأى الباحث أنها مرض فكري وثقافي وتاريخي متنامٍ، يشيطن المسلم ويجرّده من إنسانيته كما فعلت لجنة ما بعد الحملة الصليبية الأولى؛ وشهد بتجربته اليومية في مستشفى بريطاني. {cite:assabile-tareq-al-suwaidan al-wassitiya/ep01 00:25:30}{cite:assabile-tareq-al-suwaidan al-wassitiya/ep01 00:28:00}"
+    sources: [source/assabile-tareq-al-suwaidan]
+  - tradition: other
+    summary: "الرفض أصلاً: رفض عزام التميمي المصطلح كلياً: «أسوأ ما حصل للمسلمين في الغرب ظهور هذا المصطلح» — لم يفسر الظاهرة بل زاد نقمة المخاصمين؛ الخوف من الآخر المجهول طبيعي لكنه ليس «رهاباً». {cite:assabile-tareq-al-suwaidan al-wassitiya/ep01 00:15:30}{cite:assabile-tareq-al-suwaidan al-wassitiya/ep01 00:16:00}"
+    sources: [source/assabile-tareq-al-suwaidan]
 wings:
 - ideas
 themes:
