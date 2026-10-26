@@ -1,0 +1,55 @@
+id: person/shah-ismail-dehlvi
+class: person
+label: { ar: "إسماعيل بن عبد الغني الدهلوي", en: "Shah Ismail Dehlvi", ur: "شاہ اسماعیل دہلوی" }
+names:
+  - { value: "Shah Muhammad Ismail ibn Abd al-Ghani al-Dehlvi", kind: full }
+  - { value: "إسماعيل بن عبد الغني بن ولي الله بن عبد الرحيم العمري الدهلوي", kind: full }
+  - { value: "Shah Ismail Shahid", kind: alternate }
+  - { value: "Muhammad Ismail Shahid", kind: alternate }
+gender: male
+summary:
+  ar: "عالم مصلح هندي (1779–1831)، حفيد الشاه ولي الله الدهلوي وابن أخ الشاه عبد العزيز، وشريك سيد أحمد بريلوي في تأسيس حركة «الطريقة المحمدية» الإصلاحية وقيادتها؛ ألّف «تقوية الإيمان» و«الصراط المستقيم»، وقاد مع سيد أحمد الجهاد ضد إمبراطورية السيخ حتى قُتل معه في بالاكوت في 6 مايو 1831، ويُعدّ سلفًا مؤثرًا في حركتي أهل الحديث وديوبند."
+  en: "Indian revivalist scholar (1779–1831), grandson of Shah Waliullah Dehlvi and nephew of Shah Abdul Aziz, and Syed Ahmad Barelvi's partner in founding and leading the reform movement Tariqah-i-Muhammadiyah. He wrote Taqwiyat al-Iman and Sirat al-Mustaqim, campaigned with Syed Ahmad in the jihad against the Sikh Empire, and was killed beside him at Balakot on 6 May 1831; he is regarded as a formative influence on the Ahl-i Hadith and Deobandi movements."
+  ur: "ہندوستانی مصلح عالم (1779ء–1831ء)، شاہ ولی اللہ دہلوی کے پوتے اور شاہ عبدالعزیز کے بھتیجے؛ سید احمد بریلوی کے ساتھ اصلاحی تحریک «طریقۂ محمدیہ» کے بانی و قائد۔ «تقویۃ الایمان» اور «صراطِ مستقیم» کے مصنف؛ سکھ سلطنت کے خلاف جہاد میں سید احمد کے ساتھ شریک رہے اور 6 مئی 1831ء کو بالاکوٹ میں ان کے ساتھ مارے گئے۔ اہلِ حدیث اور دیوبندی تحریکوں پر ان کے گہرے اثرات مانے جاتے ہیں۔"
+roles: [scholar, jurist, mystic, writer]
+wings: [people]
+regions: [south-asia]
+born:
+  edtf: "1779-04-29"
+  hijri: "1193"
+  calendar: gregorian
+  precision: day
+  status: debated
+  derived: false
+  note: "The Arabic article gives his birth as 12 Rabi' al-Akhir 1193 AH = 29 April 1779 (the Urdu article gives the same Gregorian day with the Hijri month as Rabi' al-Awwal, and Wikidata gives 29 April 1779), while the English article gives 26 April 1779 in its infobox and text. The record follows 29 April and marks the day debated. He was born at Muzaffarnagar (English and Arabic articles and Wikidata); the Urdu article's text places his birth in Delhi. Muzaffarnagar has no place entity in the museum yet, so no born_in relation is written."
+  sources: [source/wikipedia-shah-ismail-dehlvi-en, source/wikipedia-shah-ismail-dehlvi-ar, source/wikipedia-shah-ismail-dehlvi-ur, source/wikidata-shah-ismail-dehlvi]
+died:
+  edtf: "1831-05-06"
+  hijri: "1246"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: false
+  note: "Killed at Balakot on 6 May 1831 (24 Dhu al-Qa'da 1246 AH, per the Arabic article), fighting the Sikh Empire's forces alongside Syed Ahmad Barelvi; all four sources agree on the Gregorian date. Balakot has no place entity in the museum yet, so no died_in relation is written."
+  sources: [source/wikipedia-shah-ismail-dehlvi-en, source/wikipedia-shah-ismail-dehlvi-ar, source/wikipedia-shah-ismail-dehlvi-ur, source/wikidata-shah-ismail-dehlvi]
+relations:
+  - { type: student_of, target: person/shah-abd-al-aziz-dihlawi, sources: [source/wikipedia-shah-ismail-dehlvi-ar, source/wikipedia-shah-ismail-dehlvi-ur] }
+  - { type: student_of, target: person/syed-ahmad-barelvi, sources: [source/wikipedia-shah-ismail-dehlvi-ar, source/wikipedia-shah-ismail-dehlvi-ur] }
+  - { type: lived_in, target: place/delhi, sources: [source/wikipedia-shah-ismail-dehlvi-en] }
+faith:
+  - value: sunni-hanafi
+    basis: documented
+    note: "The English article's lead calls him a 'Hanafi jurist', citing Mukhtar Ahmad Ali (2000: Shah Ismail 'strictly remained within the Hanafi School'), and its infobox quotes M. Reza Pirbhai (2023) that, operating amid British and Sikh ascendancy, he narrowed the field of legal opinion to acknowledge only Abu Hanifa's rulings when primary textual sources were not specific; the article's infobox jurisprudence field gives Hanafi referenced to those two works, alongside a second value, 'Independent', referenced to Julia Stephens (2018). The counter-reading is preserved here, not suppressed: the article's Jurisprudence section states that he has been identified varyingly as a Hanafi or as a ghayr muqallid, that it has been argued he repudiated taqlid (adherence to a school), and that Ashraf Ali Thanwi cited him as performing raf' al-yadayn, a practice alien to the Hanafi school. The Arabic and Urdu articles name no madhhab in their texts (both file him in Hanafi categories, which are filings and do not count), and Wikidata gives only Islam. The value is recorded on the scholarly attestations stated in the English article's text, with the debate carried in this note; this is the same text-plus-referenced-infobox configuration as syed-ahmad-barelvi's Hanafi segment."
+    sources: [source/wikipedia-shah-ismail-dehlvi-en]
+  - value: sufi
+    basis: documented
+    note: "Independent article texts attest his personal Sufi affiliation. The English article's lead calls him a 'Naqshbandi Sufi reformer', citing Reifeld and Jafri (2006), for whom Syed Ahmad and his chief associate Shah Ismail 'belonged to the Chishti and Naqshbandi orders, respectively'; its infobox tariqa field (Naqshbandi) is also referenced to the Oxford Encyclopedia of the Modern Islamic World (1995: 'affiliated to a branch of the activist Naqshbandi Sufi order'), and Pirbhai (2023) calls him 'a Naqshbandi Sufi'. The Urdu article independently records that, after completing his studies, he kept the company of Syed Ahmad Barelvi and completed the path of suluk (the Sufi path) under him, calling Barelvi his pir and murshid. On those texts his personal Sufi affiliation — Naqshbandi — is documented; it is attested as discipleship, not inferred from his leadership of the movement."
+    sources: [source/wikipedia-shah-ismail-dehlvi-en, source/wikipedia-shah-ismail-dehlvi-ur]
+external_ids: { wikidata: "Q4116907" }
+sources: [source/wikipedia-shah-ismail-dehlvi-en, source/wikipedia-shah-ismail-dehlvi-ar, source/wikipedia-shah-ismail-dehlvi-ur, source/wikidata-shah-ismail-dehlvi]
+provenance:
+  layer: own-research
+  source: "English Wikipedia 'Shah Ismail Dehlvi' (revision 1381433853), Arabic Wikipedia 'Ismail ibn Abd al-Ghani al-Dehlvi' (revision 72261622), Urdu Wikipedia 'Shah Ismail Dehlvi' (revision 9403921) and Wikidata item Q4116907 (item revision 2514296654), read via the MediaWiki API on 26 October 2026; every article was fetched by its recorded revision id and the returned id asserted equal before any claim was drawn. He is not Shah Ismail I of Safavid Persia (the museum's ismail-i-safavi) and not any other Ismail Dehlvi. The queue line's parenthetical '(Legacy)' is a gloss and its dates (1800–1860) are wrong in both years; this record is built for Shah Ismail Dehlvi himself on the sources' dates, 1779–1831. Muzaffarnagar and Balakot have no place entities in the museum yet, so no born_in or died_in relation is written. His descent from Shah Waliullah is family background and is recorded in the prose, never used as faith evidence."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: century-additions-66
+status: { review: published, generated_by: "Muse (Muse Spark 1.3)" }
