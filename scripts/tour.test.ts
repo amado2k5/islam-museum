@@ -235,3 +235,27 @@ describe("3d tour: page, component and nav", () => {
     expect(src.indexOf("window.confirm(")).toBeLessThan(src.indexOf("teardown?.()"));
   });
 });
+
+describe("3d tour: map, floor waypoints, room strip", () => {
+  it.skipIf(!HAS_COMPONENT || !HAS_SCRIPT)("map dialog, strip nav and waypoints are wired; hidden in journeys", () => {
+    const comp = readFileSync("site/src/components/Tour3D.astro", "utf8");
+    for (const id of ["mapBtn", "mapPanel", "mapTitle", "mapPlan", "mapHere", "mapClose", "strip", "stripToggle", "stripItems"])
+      expect(comp, id).toContain(`id="${id}"`);
+    expect(comp).toContain('<nav id="strip" aria-label={t.strip_label}>');
+    expect(comp).toContain("{t.help_map}");
+    const src = readFileSync("site/src/scripts/tour.ts", "utf8");
+    // One star per doorway, one at the hall centre, one per exhibit stop.
+    expect(src).toContain("hallWps.push(wp);");
+    expect(src).toContain('addStar(hall, { scene: "hall", x: 0, z: 6, yaw: 0 });');
+    expect(src).toContain('addStar(gallery, { scene: "gallery", x, z: 2.6, yaw: 0, stop: i });');
+    expect(src).toContain('kind === "hall"');
+    expect(src).toContain("`hall/${door.id}`");
+    expect(src).toContain('e.code === "KeyM"');
+    expect(src).toContain("mapBtn.hidden = journey;");
+    expect(src).toContain("strip.hidden = journey;");
+    // No page text goes into the SVG through innerHTML.
+    const svg = src.slice(src.indexOf("function drawMap"), src.indexOf("function openMap"));
+    expect(svg).not.toMatch(/innerHTML[^;]*(label|wingTitle|t\.)/);
+  });
+});
+

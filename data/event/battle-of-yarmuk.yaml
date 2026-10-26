@@ -22,3 +22,8 @@ external_ids: { wikidata: "Q194226" }
 sources: [source/tabari-tarikh-abu-al-fadl, source/futuh-buldan-maarif-1407, source/assabile-omar-abdelkafy]
 provenance: { layer: own-research, source: "source/tabari-tarikh-abu-al-fadl", generated_by: "Claude (Haiku 5.5) from Apple Vision OCR of Tabari, Tarikh al-Rusul wa'l-Muluk (Dar al-Ma'arif), batch 1; enriched by Devin (SWE-2 High) from Apple Vision OCR of Futuh al-Buldan (Mu'assasat al-Ma'arif 1407), batch 9", sources: [source/tabari-tarikh-abu-al-fadl, source/futuh-buldan-maarif-1407, source/assabile-omar-abdelkafy] }
 status: { review: draft, completeness: 2, generated_by: "Claude (Haiku 5.5) + Devin (SWE-2 High); cites juz'/page of the scan (printed page = scan page)" }
+
+education:
+  levels: [sprouts, explorers, scholars]
+  flagged_for_kids: true
+  provenance: { generated_by: "Devin", model: "Devin (Cognition)", run: "education-E5-leveled-b7", note: "Leveled texts restated from this record's own prose in ar, en and ur; draft, pending the founder's review and scholar review of the child levels." }

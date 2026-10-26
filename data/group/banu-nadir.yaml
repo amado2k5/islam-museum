@@ -23,3 +23,8 @@ relations:
   - { type: fought, target: group/early-muslims, start: { edtf: "0625" }, end: { edtf: "0625" }, sources: [source/ibn-ishaq-guillaume] }
 sources: [source/ibn-ishaq-guillaume, source/watt-1956-medina, source/ibn-sad-tabaqat-bewley, source/mubarakpuri-raheeq, source/qalb-jazirat-al-arab]
 status: { review: draft, completeness: 2, generated_by: "Devin; 2026-10-11" }
+
+education:
+  levels: [sprouts, explorers, scholars]
+  flagged_for_kids: true
+  provenance: { generated_by: "Devin", model: "Devin (Cognition)", run: "education-E5-leveled-b7", note: "Leveled texts restated from this record's own prose in ar, en and ur; draft, pending the founder's review and scholar review of the child levels." }
