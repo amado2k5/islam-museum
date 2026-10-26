@@ -206,11 +206,11 @@ lists' own order. Status markers: [ ] queued · [~] in a writer's hands · [x] m
 - [x] Dr. Tahir-ul-Qadri — 1951–Living
 - [x] Javed Ahmad Ghamidi — 1951–Living (built under Batch 7 O1, Ghamidi Center channel)
 - [x] Omar Suleiman — 1986–Living
-- [ ] Suhaib Webb — 1972–Living
-- [ ] Warith Deen Mohammed — 1933–2008
-- [ ] Clara Muhammad — 1899–1972
-- [ ] Mahmoud Abdul-Rauf (Chris Jackson) — 1969–Living
-- [ ] Shareef Abdur-Rahim — 1976–Living
+- [x] Suhaib Webb — 1972–Living
+- [x] Warith Deen Mohammed — 1933–2008
+- [x] Clara Muhammad — 1899–1972
+- [x] Mahmoud Abdul-Rauf (Chris Jackson) — 1969–Living
+- [x] Shareef Abdur-Rahim — 1976–Living
 - [ ] Gilles Sissoko — 1978–Living
 - [ ] Kareem Abdul-Jabbar — 1947–Living
 - [ ] Bernard Hopkins — 1965–Living
