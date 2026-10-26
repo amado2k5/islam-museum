@@ -1,0 +1,51 @@
+id: person/maryana-marrash
+class: person
+label: { ar: "مريانا مراش", en: "Maryana Marrash", ur: "مریانا مراش" }
+names:
+  - { value: "مريانا بنت فتح الله بن نصر الله مراش", kind: full }
+  - { value: "Maryana bint Fathallah bin Nasrallah Marrash", kind: full }
+  - { value: "Maryana al-Marrash", kind: alternate }
+  - { value: "Maryana Marrash al-Halabiyah", kind: alternate }
+gender: female
+summary:
+  ar: "كاتبة وشاعرة سورية من حلب (1848–1919)، من أعلام النهضة العربية؛ أول سورية نشرت مجموعة شعرية («بنت فكر»، 1893)، ومن أوائل النساء اللواتي كتبن في الصحف العربية، وأحيت بصالونها الأدبي في حلب تقليد الصالونات الأدبية في العالم العربي."
+  en: "Syrian writer and poet from Aleppo (1848–1919), a figure of the Nahda; the first Syrian woman to publish a collection of poetry (Bint fikr, 1893), among the first women to write in the Arabic-language press, and host of the Aleppo literary salon that revived the salon tradition in the Arab world."
+  ur: "حلب سے تعلق رکھنے والی سوری مصنفہ اور شاعرہ (1848–1919)، نہضہ کی اہم شخصیت؛ شاعری کا مجموعہ («بنت فكر»، 1893) شائع کرنے والی پہلی سوری خاتون، عربی صحافت میں لکھنے والی اولین خواتین میں سے ایک، اور اپنے حلبی ادبی صالون کی میزبان۔"
+roles: [poet, writer]
+wings: [people]
+regions: [levant-iraq]
+born:
+  edtf: "1848-08"
+  hijri: "1264"
+  calendar: gregorian
+  precision: month
+  status: historical
+  derived: true
+  note: "Born at Aleppo. The English and Arabic articles give only the year 1848; Wikidata gives August 1848 at month precision. The Arabic article's birth category pairs the year with 1264 AH."
+  sources: [source/wikipedia-maryana-marrash-en, source/wikipedia-maryana-marrash-ar, source/wikidata-maryana-marrash]
+died:
+  edtf: "1919"
+  hijri: "1337"
+  calendar: gregorian
+  precision: year
+  status: historical
+  derived: true
+  note: "Died at Aleppo in 1919 (both articles and Wikidata). The Gregorian year 1919 spans 1337–1338 AH; the Hijri year recorded is the derived year in which most of 1919 falls."
+  sources: [source/wikipedia-maryana-marrash-en, source/wikipedia-maryana-marrash-ar, source/wikidata-maryana-marrash]
+relations:
+  - { type: born_in, target: place/aleppo, sources: [source/wikipedia-maryana-marrash-en, source/wikipedia-maryana-marrash-ar] }
+  - { type: died_in, target: place/aleppo, sources: [source/wikipedia-maryana-marrash-en, source/wikipedia-maryana-marrash-ar] }
+  - { type: sibling_of, target: person/francis-marrash, sources: [source/wikipedia-maryana-marrash-en, source/wikipedia-maryana-marrash-ar] }
+faith:
+  - value: unknown
+    basis: unknown
+    note: "FLAGGED for a founder ruling; both readings preserved. The family framing: the English article, citing Wielandt and Zeidan, says she was born in Aleppo to an old Melkite family of merchants, and the Arabic article says she was born to a family following the Melkite sect — family background in both traditions, which never attests. The filings: the English article files her under 'Syrian Melkite Greek Catholics', the Arabic article under 'Syrian Christians', and the Urdu article under 'Syrian Christians' and 'Christian feminists' — category filings, which never attest. No text names a church affiliation for Maryana personally; her schooling (a Maronite school, then the nuns of St Joseph in Aleppo) is education, and her husband came from a local Christian family. This is the family-origins configuration of Salama Moussa and Jurji Zaydan, not the Yacoub Artin configuration of two sources naming the person's own affiliation, so the value is unknown."
+    sources: [source/wikipedia-maryana-marrash-en, source/wikipedia-maryana-marrash-ar, source/wikipedia-maryana-marrash-ur, source/wikidata-maryana-marrash]
+external_ids: { wikidata: "Q3296283" }
+sources: [source/wikipedia-maryana-marrash-en, source/wikipedia-maryana-marrash-ar, source/wikipedia-maryana-marrash-ur, source/wikidata-maryana-marrash]
+provenance:
+  layer: own-research
+  source: "English, Arabic and Urdu Wikipedia and Wikidata Q3296283, each read at the revision recorded in its source file and checked on 26 October 2026"
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: century-additions-51
+status: { review: published, generated_by: "Muse (Muse Spark 1.3)" }

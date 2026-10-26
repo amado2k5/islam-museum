@@ -91,3 +91,35 @@ The Sheikh says the Prophet used to climb the minbar, which had three steps, fro
 ## From Sheikh Omar Abdelkafy's lectures on Sharh Kitab al-Fawa'id
 
 The Sheikh says that Abu Bakr was named al-Siddiq from that day on, because he told the Prophet that he had spoken truly (needs_source: the Sheikh's statement; the lecture gives no source for the episode). {cite:assabile-omar-abdelkafy sharh-ketab-al-fawaed/ep04 00:51:00}
+
+## From Sheikh Omar Abdelkafy's lectures: Abu Bakr on anger, humility and the self
+
+The Sheikh relays a saying attributed to Abu Bakr: whoever sees him angry should keep away from him, since a forbearing man who is angry is like a violent wind (needs_source). {cite:assabile-omar-abdelkafy al-naba-al-safi/ep16 00:07:30}
+
+He says that Abu Bakr told people that he was their leader but not the best of them, and asked them to obey him only so long as he obeyed God (needs_source). {cite:assabile-omar-abdelkafy al-naba-al-safi/ep21 00:20:30}
+
+He quotes Abu Bakr describing being afflicted by the devil, the world, his own soul and his desire, and asks how one may be saved from them (needs_source). {cite:assabile-omar-abdelkafy al-naba-al-safi/ep18 00:34:00}
+
+## From Sheikh Omar Abdelkafy's lectures: Abu Bakr and the guide on the road
+
+He recounts that when Abu Bakr was asked about the Prophet on a journey, he said that this man was his guide along the road, and people took the answer to mean that he would guide them through the desert. {cite:assabile-omar-abdelkafy al-naba-al-safi/ep17 00:20:30}
+
+He draws out that Abu Bakr's answer was true in meaning, since the Prophet guides all people (needs_source). {cite:assabile-omar-abdelkafy al-naba-al-safi/ep17 00:21:30}
+
+## From Sheikh Omar Abdelkafy's lectures: Abu Bakr and Umar
+
+He recounts Abu Bakr's advice to Umar that God has duties by night and by day, and that none of them is accepted outside its time (needs_source). {cite:assabile-omar-abdelkafy al-naba-al-safi/ep07 00:15:00}
+
+He cites a hadith in which the Prophet asked who had fed a poor man that morning: Umar said he had been with the Prophet all morning, and Abu Bakr said he had been on his way to the mosque (needs_source). {cite:assabile-omar-abdelkafy al-naba-al-safi/ep07 00:18:00}
+
+## From Sheikh Omar Abdelkafy's lectures: Permitted lies and doubtful food
+
+The Sheikh divides lies into kinds according to their colours, says that lying to reconcile people is permitted, and cites Abu Bakr's answer to the Quraysh as an example of a permitted lie (needs_source). {cite:assabile-omar-abdelkafy al-naba-al-safi/ep20 00:30:30}
+
+:::perspectives
+- **Sunni view (not yet sourced)**: The Sunni position on this question has not yet been sourced.
+- **The speaker's view (personal opinion)**: The Sheikh holds that lying to reconcile people is permitted, and cites Abu Bakr's answer in support (needs_source). {cite:assabile-omar-abdelkafy al-naba-al-safi/ep20 00:30:30}
+- **Academic or other views (not yet sourced)**: Academic and other views have not yet been sourced.
+:::
+
+He recounts that Abu Bakr vomited milk after doubting where it came from, and says that doubtful food is a main reason why prayers are not answered (needs_source). {cite:assabile-omar-abdelkafy al-naba-al-safi/ep21 00:32:30}

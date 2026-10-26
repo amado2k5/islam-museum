@@ -301,11 +301,11 @@ lists' own order. Status markers: [ ] queued · [~] in a writer's hands · [x] m
 - [x] Mustapha Hadji — 1971–Living
 - [x] Noureddine Naybet — 1970–Living
 - [x] Marouane Chamakh — 1984–Living
-- [ ] Medhi Benatia — 1987–Living
-- [ ] Mbark Boussoufa — 1984–Living
-- [ ] Hassan El Fakiri — 1977–Living
-- [ ] Zesh Rehman — 1983–Living
-- [ ] Hamza Choudhury — 1997–Living
+- [x] Medhi Benatia — 1987–Living
+- [x] Mbark Boussoufa — 1984–Living
+- [x] Hassan El Fakiri — 1977–Living
+- [x] Zesh Rehman — 1983–Living
+- [x] Hamza Choudhury — 1997–Living
 - [ ] Yan Dhanda — 1998–Living
 - [ ] Zidane Iqbal — 2003–Living
 - [ ] Ali Al-Habsi — 1981–Living
@@ -1175,16 +1175,16 @@ lists' own order. Status markers: [ ] queued · [~] in a writer's hands · [x] m
 - [x] Abbas al-Aqqad (1889–1964)
 - [x] Salama Moussa (1887–1958)
 - [x] Mustafa Sadiq al-Rafi'i (1880–1937)
-- [ ] Hafiz Ibrahim (1872–1932)
-- [ ] Ahmed Shawqi (1868–1932)
-- [ ] Jurji Zaydan (1861–1914)
-- [ ] May Ziade (1886–1941)
-- [ ] Labiba Ahmad (1870–1951)
-- [ ] Maryana Marrash (1848–1919)
-- [ ] Francis Marrash (1836–1874)
-- [ ] Shakib Arslan (1869–1946)
-- [ ] Muhammad Kurd Ali (1876–1953)
-- [ ] Hashim al-Atassi (1875–1960)
+- [x] Hafiz Ibrahim (1872–1932)
+- [x] Ahmed Shawqi (1868–1932)
+- [x] Jurji Zaydan (1861–1914)
+- [x] May Ziade (1886–1941)
+- [x] Labiba Ahmad (1870–1951)
+- [x] Maryana Marrash (1848–1919)
+- [x] Francis Marrash (1836–1874)
+- [x] Shakib Arslan (1869–1946)
+- [x] Muhammad Kurd Ali (1876–1953)
+- [x] Hashim al-Atassi (1875–1960)
 - [ ] Ibrahim Hanano (1869–1935)
 - [ ] Sultan al-Atrash (1891–1982)
 - [ ] Saleh al-Ali (1884–1950)
@@ -1196,7 +1196,7 @@ lists' own order. Status markers: [ ] queued · [~] in a writer's hands · [x] m
 - [ ] Musa al-Husayni (1853–1934)
 - [ ] Amin al-Husseini (1897–1974)
 - [ ] Khalil al-Sakakini (1878–1953)
-- [ ] May Ziade (1886–1941)
+- [x] May Ziade (1886–1941)
 - [ ] Sulaiman al-Boustani (1856–1913)
 - [ ] Ibrahim al-Yazigi (1847–1906)
 - [ ] Adib Ishaq (1856–1885)

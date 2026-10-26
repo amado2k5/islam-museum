@@ -72,3 +72,49 @@ He says Ibrahim is the one who named the Muslims [[passage/quran-22-78|Qur'an 22
 
 ## From Sheikh Omar Abdelkafy's Tafsir lectures (episode 4)
 The Sheikh says that God loves the servant who often returns to Him (awwab), setting against him the one who worships God on the edge, piece by piece. He mentions that God described His friend Ibrahim as tender-hearted and turning back to God (awwah, munib), and explains that the word mathaba, used of the Sacred House, means a return {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep04 00:24:00}.
+
+## From Sheikh Omar Abdelkafy's lectures: Hospitality
+
+He says that Ibrahim loved to honour his guests, and that when three days passed without a guest arriving, he feared that some sin had kept them away (needs_source). {cite:assabile-omar-abdelkafy al-naba-al-safi/ep19 00:12:00}
+
+He describes Ibrahim bringing a roasted calf for his guests, and says that the usual offer of a host would be a small goat or half a sheep; he compares the two generosities (needs_source). {cite:assabile-omar-abdelkafy al-naba-al-safi/ep19 00:16:30}
+
+He says that Ibrahim hurried to prepare a calf for his guests, and that scholars of etiquette regard this as a model of hospitality (needs_source). {cite:assabile-omar-abdelkafy al-naba-al-safi/ep12 00:10:30}
+
+## From Sheikh Omar Abdelkafy's lectures: Ibrahim and his family in the valley
+
+He mentions Ibrahim's prayer after he left Hajar and Isma'il in a barren valley near the sacred house, and says that this is the highest form of servanthood. {cite:assabile-omar-abdelkafy al-naba-al-safi/ep12 00:10:00}
+
+He cites the Qur'an's account of Ibrahim being told in a dream to sacrifice his son, and says that Ibrahim submitted (the surah is not named). {cite:assabile-omar-abdelkafy al-naba-al-safi/ep12 00:09:30}
+
+He recounts Ibrahim's submission to God, the prayer and the sacrifice he offered, and God's praise of him (the surah is not named). {cite:assabile-omar-abdelkafy al-naba-al-safi/ep17 00:17:30}
+
+He cites a Qur'an verse that the covenant does not reach wrongdoers, in the context of Ibrahim's covenant (the surah is not named) (needs_source). {cite:assabile-omar-abdelkafy al-naba-al-safi/ep17 00:18:30}
+
+## From Sheikh Omar Abdelkafy's lectures: Offspring and prayer
+
+He says the Qur'an is the true history, and that Ibrahim's wife Sarah was barren and gave Hagar to Ibrahim to marry, hoping for a child; he gives this as a narrative from the Qur'an (the surah is not named) (needs_source). {cite:assabile-omar-abdelkafy al-naba-al-safi/ep19 00:02:30}
+
+He says that God gave Ibrahim a forbearing son in answer to the prayer of this righteous man (the surah is not named). {cite:assabile-omar-abdelkafy al-naba-al-safi/ep19 00:04:00}
+
+He says that Ibrahim prayed for righteous offspring without specifying a kind, leaving the matter to God's power, and he compares a specific request with the matter of Noah's son (needs_source). {cite:assabile-omar-abdelkafy al-naba-al-safi/ep19 00:04:30}
+
+He says that the Qur'an gives the news of the forbearing boy directly after Ibrahim's prayer, and he draws out the means: prayer, humility and worship. {cite:assabile-omar-abdelkafy al-naba-al-safi/ep19 00:06:30}
+
+He says that Ibrahim was about eighty-six when God answered his prayer, and that God's causes are not bound by ordinary means (needs_source). {cite:assabile-omar-abdelkafy al-naba-al-safi/ep19 00:03:30}
+
+## From Sheikh Omar Abdelkafy's lectures: Time, age and good news
+
+He says that the son came about thirteen years after that prayer, and he takes this as a sign that God answers in His own time (needs_source). {cite:assabile-omar-abdelkafy al-naba-al-safi/ep19 00:11:00}
+
+He gives Ibrahim's age as ninety-nine and Sarah's as eighty-six, and says that Sarah was past childbearing (needs_source: the figure differs from the figure for Ibrahim's age given earlier in this series). {cite:assabile-omar-abdelkafy al-naba-al-safi/ep19 00:11:30}
+
+He recounts Ibrahim thanking God for the sons given to him in his old age (needs_source). {cite:assabile-omar-abdelkafy al-naba-al-safi/ep19 00:35:30}
+
+He says that the angels brought Ibrahim the good news of Ishaq, and after him of Ya'qub, and he says that good news is something good that appears (needs_source). {cite:assabile-omar-abdelkafy al-naba-al-safi/ep10 00:17:30}
+
+## From Sheikh Omar Abdelkafy's lectures: Counsel with respect
+
+He cites Ibrahim's words to his father as a model of counsel that is respectful and based on knowledge. {cite:assabile-omar-abdelkafy al-naba-al-safi/ep09 00:36:00}
+
+He calls for gentle counsel to elders who act wrongly, and cites Ibrahim's address to his father as a model of advice without direct rebuke (the surah is not named). {cite:assabile-omar-abdelkafy al-naba-al-safi/ep21 00:44:00}

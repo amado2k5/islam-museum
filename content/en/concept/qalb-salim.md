@@ -37,3 +37,38 @@ He describes the sound heart as fearing God, hoping in Him, trusting Him, sincer
 He criticises the habit of spending the day in front of screens, songs and films, which he says makes prayer heavy and lets the lesson of knowledge pass quickly {cite:assabile-omar-abdelkafy al-fawzu-al-moubeen/ep09 00:47:00}.
 
 He calls on each person to examine his heart: if it is sick, he should treat it; if sound, he should guard it; if dead, he should revive it by reciting the Qur'an and attending sessions of knowledge {cite:assabile-omar-abdelkafy al-fawzu-al-moubeen/ep09 00:47:30}.
+
+## From the series Al Naba Al Safi: the heart God looks at
+The Sheikh cites a saying that God does not look at bodies or forms, but at hearts and deeds. {cite:assabile-omar-abdelkafy al-naba-al-safi/ep11 00:17:00}
+He says that people clean their homes to receive guests, and that they should also clean their hearts. {cite:assabile-omar-abdelkafy al-naba-al-safi/ep11 00:16:30}
+He says that a sincere intention comes before the deed, and that even sleep may be counted as an act for God. {cite:assabile-omar-abdelkafy al-naba-al-safi/ep11 00:04:00}
+He cites a hadith qudsi in which the angels report a person's outward deeds, and God says He is the watcher of the inner heart. Sincerity is known only between the servant and God. {cite:assabile-omar-abdelkafy al-naba-al-safi/ep16 00:40:30}
+
+## Diseases of the heart
+The Sheikh lists among the sins of the heart envy, hatred, pride, showing off, feeling secure of God's plan, and despair of God's mercy. {cite:assabile-omar-abdelkafy al-naba-al-safi/ep03 00:20:00}
+He says that a soul not covered by faith and its rules is exposed to any harm, and that when dismay is not treated it becomes despair. {cite:assabile-omar-abdelkafy al-naba-al-safi/ep24 00:10:00}
+He recaps his thesis: once grief is planted in the heart it grows into worry, sorrow, distress and constriction, and its cure is love of God and right action. {cite:assabile-omar-abdelkafy al-naba-al-safi/ep13 00:33:00}
+He says that the stage of the heart is reached when its diseases, such as envy, pride and grudges, are treated, and he cites a saying on the equality of people except by piety. {cite:assabile-omar-abdelkafy al-naba-al-safi/ep07 00:21:30}
+He gives as a sign of a dead heart a person who, for weeks, finds no humility in his prayer. {cite:assabile-omar-abdelkafy al-naba-al-safi/ep18 00:08:00}
+
+## Purifying the heart
+The Sheikh says that the heart must be filled with sincerity, humility and goodwill, that the Prophet's heart is the model in this, and that grudges and envy empty the heart of kindness. {cite:assabile-omar-abdelkafy al-naba-al-safi/ep14 00:18:30}
+He explains that changing a wrong by words is gentle advice, and that disliking the wrong in the heart is a level of faith when a person can do nothing more. He cites a saying on this. {cite:assabile-omar-abdelkafy al-naba-al-safi/ep05 00:44:00}
+The Sheikh says that a person whose heart is at rest plans his children's education and future while keeping his heart connected to God. {cite:assabile-omar-abdelkafy al-naba-al-safi/ep11 00:00:30}
+He says that great souls aim at the highest matters, and that worldly ambition alone is not the goal. {cite:assabile-omar-abdelkafy al-naba-al-safi/ep11 00:02:00}
+He advises building a barrier between oneself and grief, and listening to the stories of the righteous. He tells of a woman who did not let grief spread into her heart. {cite:assabile-omar-abdelkafy al-naba-al-safi/ep24 00:18:30}
+He cites a saying that the Prophet liked to go out to his companions with a clear heart. {cite:assabile-omar-abdelkafy al-naba-al-safi/ep15 00:30:30}
+He says that a person should free his heart of resentment, because grief harms the body, and that a balanced person who loves people and is loved finds contentment (needs_source: this statement is not sourced in the recording). {cite:assabile-omar-abdelkafy al-naba-al-safi/ep12 00:41:00}
+
+## The speaker's view: sincerity is the soul of the deed
+The Sheikh says that sincerity is the soul of every deed, and that work done without it is show, pride and self-admiration. {cite:assabile-omar-abdelkafy al-naba-al-safi/ep16 00:21:00}
+He criticises employees and managers who work without sincerity, and holds that the condition of the nation would change if people were sincere. {cite:assabile-omar-abdelkafy al-naba-al-safi/ep16 00:20:30}
+He reports a saying attributed to a wise man: would that people were created for knowledge, that they worked by what they knew and were sincere in it (needs_source: the saying is not sourced in the recording). {cite:assabile-omar-abdelkafy al-naba-al-safi/ep16 00:20:00}
+He says that sincerity is to act for God without expecting thanks or return, and he advises keeping ties with kin even when a relative is harsh. {cite:assabile-omar-abdelkafy al-naba-al-safi/ep17 00:33:00}
+He gives forms of sincerity as doing good to all, keeping ties with relatives, and respecting one's spouse. {cite:assabile-omar-abdelkafy al-naba-al-safi/ep17 00:32:30}
+He tells of a man who gave his employee twenty years of help, and then saw that it left no trace. He says that the good was not done sincerely. {cite:assabile-omar-abdelkafy al-naba-al-safi/ep17 00:37:00}
+
+## The speaker's view: intention and sincerity before God
+The Sheikh holds that truth lies in intention as in speech, and that a visit to a sick man made to win a place with people is not sincere. {cite:assabile-omar-abdelkafy al-naba-al-safi/ep20 00:23:00}
+He says that sincerity towards God requires no flaw in belief, no doubt about provision, and no defect in deeds. {cite:assabile-omar-abdelkafy al-naba-al-safi/ep20 00:41:00}
+He says that the Muslim lives between ease and hardship, and that an open heart begins with certainty in what God has decreed. He cites a verse (sura not named) that hardship is accompanied by ease. {cite:assabile-omar-abdelkafy al-naba-al-safi/ep22 00:05:00}

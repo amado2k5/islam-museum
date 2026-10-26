@@ -21,3 +21,23 @@ On al-Baqara 254 he holds that one spends from God's provision: the mind, the li
 
 ## Not yet checked
 These are Sha'rawi's readings. The classical jurists' and exegetes' discussion of the good loan, the academic view and any non-Sunni view have not been checked, so none is attributed to them.
+
+## Lending to God and wealth as a loan
+The Sheikh cites a verse on lending God a goodly loan, and mentions a hadith in which an angel calls each day for a return for the giver and loss for the one who withholds. {cite:assabile-omar-abdelkafy al-naba-al-safi/ep16 00:29:30}
+He says that scholars called the world a loan to be returned, like a borrowed book, and that God lends us our lives, wealth and health. {cite:assabile-omar-abdelkafy al-naba-al-safi/ep12 00:07:30}
+He says that God owns a person's health and wealth for a time, and that a person who truly believes in God's ownership says so. {cite:assabile-omar-abdelkafy al-naba-al-safi/ep12 00:12:30}
+He says that wealth is lent and returned, that it passes between people, and that whoever respects a person only for his wealth does not respect him. {cite:assabile-omar-abdelkafy al-naba-al-safi/ep17 00:13:00}
+
+## The speaker's view: buying from God
+The Sheikh cites a verse stating that God bought from believers their selves and their wealth in exchange for paradise, and calls this a serious question of ownership. {cite:assabile-omar-abdelkafy al-naba-al-safi/ep12 00:13:00}
+He says that a sale implies two sides, asks how God could buy back what He gave, and holds that this needs explanation. {cite:assabile-omar-abdelkafy al-naba-al-safi/ep12 00:13:30}
+
+## Abu al-Dahdah
+The Sheikh recounts Abu al-Dahdah's response when the verse on the good loan was revealed: he gave away his garden and moved his family out of it (needs_source: the account of the story is not sourced in the recording). {cite:assabile-omar-abdelkafy al-naba-al-safi/ep12 00:15:30}
+
+## A monthly sum
+The Sheikh describes a resolve to set aside a monthly sum for relatives and for debts, small but steady. {cite:assabile-omar-abdelkafy al-naba-al-safi/ep20 00:25:00}
+He gives the example of setting aside a hundred from a salary of two thousand each month, and says this is a true resolve (needs_source: the figures in the example are not sourced in the recording). {cite:assabile-omar-abdelkafy al-naba-al-safi/ep20 00:25:30}
+
+## Principles of trade and lending with God
+The Sheikh says that the principle of trade with God is love for Him, then love for the Prophet, then waiting for His reward. {cite:assabile-omar-abdelkafy al-naba-al-safi/ep12 00:37:30}

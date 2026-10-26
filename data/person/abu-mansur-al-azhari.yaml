@@ -11,8 +11,18 @@ summary:
 wings: [people]
 regions: [levant-iraq]
 periods: [period/buyid-seljuk-fatimid-era]
-died: { edtf: "0980", precision: year, status: tradition, derived: true }
-sources: [source/al-aalam]
+died:
+  edtf: "0980"
+  hijri: "0370"
+  calendar: julian
+  precision: year
+  status: tradition
+  derived: true
+  sources: [source/encyclopaedia-of-islam-2]
+  note: "EI2 gives death at Herat in 370 AH (980)."
+sources:
+- source/al-aalam
+- source/encyclopaedia-of-islam-2
 external_ids:
   wikidata: Q6820795
 provenance:
@@ -21,6 +31,13 @@ provenance:
   generated_by: "Devin (SWE-2 High)"
   model: "SWE-2 High"
   run: wikidata-import-wave2
-status:
-  review: draft
-  completeness: 1
+status: { review: published, completeness: 2 }
+born:
+  edtf: "0895"
+  hijri: "0282"
+  calendar: julian
+  precision: year
+  status: tradition
+  derived: true
+  sources: [source/encyclopaedia-of-islam-2]
+  note: "EI2 gives birth at Herat in 282 AH (895)."
