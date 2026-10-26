@@ -1,0 +1,51 @@
+id: person/ahmet-agaoglu
+class: person
+label: { ar: "أحمد آغا أوغلي", en: "Ahmet Ağaoğlu", ur: "احمد آغا اوغلو" }
+names:
+  - { value: "Ahmet Ağaoğlu", kind: full }
+  - { value: "Əhməd bəy Ağaoğlu", kind: full }
+  - { value: "أحمد آغا أوغلي", kind: full }
+  - { value: "Ahmet Ağayev", kind: alternate }
+  - { value: "Ahmed Akif Aghaoghlu", kind: alternate }
+  - { value: "Ahmed Bey Aghaoghlu", kind: latinized }
+gender: male
+summary:
+  ar: "كاتب وسياسي وحقوقي أذربيجاني-تركي (1869–1939)، وُلد في شوشة ودرس في بطرسبرغ وباريس. حرّر صحف «الحياة» و«إرشاد» في باكو، وأسس حزب «دفاعي» السري، ثم انتقل إلى إسطنبول فنُفي إلى مالطا، وصار نائبًا في المجلس الوطني التركي ومستشارًا لأتاتورك، وهو مؤسس «الكمالية الليبرالية» ومنظّر الحزب الجمهوري الحر سنة 1930."
+  en: "Azerbaijani-Turkish writer, politician and jurist (1869–1939), born at Shusha and educated at St Petersburg and Paris. He edited the Baku newspapers Hayat and Irshad, founded the secret Difai party, moved to Istanbul and was exiled to Malta, then sat in the Turkish Grand National Assembly and advised Atatürk; he was the founder of liberal Kemalism and the theorist of the Free Republican Party of 1930."
+  ur: "آذربائجانی-ترک مصنف، سیاست دان اور حقوق دان (1869–1939)، شوشا میں پیدا ہوئے اور سینٹ پیٹرزبرگ اور پیرس میں پڑھے۔ باکو میں «حیات» اور «ارشاد» اخبارات کی ادارت کی، خفیہ جماعت «دفاعی» بنائی، پھر استنبول گئے اور مالٹا جلاوطن ہوئے، بعد میں ترک قومی اسمبلی کے رکن اور اتاترک کے مشیر رہے؛ وہ لبرل کیمالزم کے بانی اور 1930 کی آزاد جمہوری جماعت کے نظریہ ساز تھے۔"
+roles: [politician, journalist, writer, jurist]
+wings: [people]
+regions: [anatolia-balkans]
+born:
+  edtf: "1869-12"
+  hijri: "1286"
+  calendar: gregorian
+  precision: month
+  status: historical
+  derived: true
+  note: "Born at Shusha in Karabakh, into a family of the town's notable and scholarly class; all three articles and Wikidata give December 1869, at month precision, and the queue gives the year 1869. His birth name was Ahmet Ağayev. The Hijri year 1286 is the tabular conversion of December 1869. The museum has no place entity for Shusha, so no born_in edge is written."
+  sources: [source/wikipedia-ahmet-agaoglu-en, source/wikipedia-ahmet-agaoglu-ar, source/wikipedia-ahmet-agaoglu-tr, source/wikidata-ahmet-agaoglu]
+died:
+  edtf: "1939-05-19"
+  hijri: "1358"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "Died at Istanbul on 19 May 1939 of liver inflammation and heart failure; all three articles and Wikidata agree. The English article adds that his funeral was taken from his house in Nişantaşı to the Teşvikiye Mosque and, after the funeral prayer, he was buried beside his wife at Feriköy cemetery. The Hijri year 1358 is the tabular conversion."
+  sources: [source/wikipedia-ahmet-agaoglu-en, source/wikipedia-ahmet-agaoglu-ar, source/wikipedia-ahmet-agaoglu-tr, source/wikidata-ahmet-agaoglu]
+relations:
+  - { type: died_in, target: place/istanbul, note: "He died at Istanbul on 19 May 1939.", sources: [source/wikipedia-ahmet-agaoglu-en, source/wikidata-ahmet-agaoglu] }
+faith:
+  - value: unknown
+    basis: unknown
+    note: "Wikidata's only religion value is Islam (Q432), generic, and no article names a school for him. Everything the sources offer is background or practice: the English article, citing Raymond Kévorkian, describes descent from a dönme family — one scholar's claim about his ancestors, not the man; his uncle's plan that he become a mujtahid and the Turkish article's picture of Karabakh Azerbaijanis attached in faith to Iran are his upbringing and milieu; his own adult career was that of a secular liberal nationalist thinker; and the funeral prayer at Teşvikiye Mosque recorded by the English article is practice, not an attestation of a school. Under the two-source rule and the doubt rule his faith is recorded unknown, with the readings preserved here."
+    sources: [source/wikidata-ahmet-agaoglu, source/wikipedia-ahmet-agaoglu-en, source/wikipedia-ahmet-agaoglu-tr]
+external_ids: { wikidata: "Q401773" }
+sources: [source/wikipedia-ahmet-agaoglu-en, source/wikipedia-ahmet-agaoglu-ar, source/wikipedia-ahmet-agaoglu-tr, source/wikidata-ahmet-agaoglu]
+provenance:
+  layer: own-research
+  source: "English Wikipedia 'Ahmet Ağaoğlu' (revision 1379010846), Arabic Wikipedia 'أحمد آغا أوغلي' (revision 76966017) and Turkish Wikipedia 'Ahmet Ağaoğlu (siyasetçi)' (revision 37650865), read on 26 October 2026, with Wikidata item Q401773. The queue gives his years as 1869–1939, confirmed by all sources, with the articles and Wikidata refining the birth to December 1869. His faith is left unknown under the two-source rule, as the faith note sets out in full."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: century-additions-31
+status: { review: published, completeness: 3, generated_by: "Muse (Muse Spark 1.3)" }
