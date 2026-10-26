@@ -1,0 +1,47 @@
+id: person/hussein-rushdi-pasha
+class: person
+label: { ar: "حسين رشدي باشا", en: "Hussein Rushdi Pasha", ur: "حسین رشدی پاشا" }
+names:
+  - { value: "حسين رشدي باشا", kind: full }
+  - { value: "Hussein Roshdy Pasha", kind: full }
+  - { value: "Husayn Rushdi", kind: alternate }
+  - { value: "Hussein Pasha Roshdy", kind: alternate }
+gender: male
+summary:
+  ar: "سياسي مصري، رئيس وزراء مصر أربع مرات بين 1914 و1919 في عهود عباس حلمي الثاني وحسين كامل وفؤاد الأول، وكان قبلها وزيرًا للعدل والخارجية، وترأس لجنة دستور 1922 ورأس مجلس الشيوخ من 1926 حتى وفاته سنة 1928."
+  en: "Egyptian politician who was prime minister of Egypt four times between 1914 and 1919, under Abbas Hilmi II, Hussein Kamel and Fuad I. He had earlier been minister of justice and of foreign affairs, chaired the committee that drafted the 1922 constitution, and presided over the Senate from 1926 until his death in 1928."
+  ur: "مصری سیاست دان، جو 1914 اور 1919 کے درمیان عباس حلمی ثانی، حسین کامل اور فؤاد اول کے عہد میں چار مرتبہ مصر کے وزیرِ اعظم رہے۔ اس سے پہلے وہ وزیرِ انصاف اور وزیرِ خارجہ رہے، 1922 کے آئین کی مسودہ کمیٹی کی صدارت کی، اور 1926 سے 1928 میں اپنی وفات تک سینیٹ کے صدر رہے۔"
+roles: [politician]
+wings: [people]
+regions: [egypt-nile]
+born:
+  edtf: "1863"
+  hijri: "1280"
+  calendar: gregorian
+  precision: year
+  status: historical
+  derived: true
+  note: "All three sources give the year 1863 only. The Gregorian year 1863 spans 1279–1280 AH; 1280 is recorded as the Hijri year covering most of it. Neither article states his birthplace: the English article gives his family's origin as Kavala and his descent from a janissary officer who came with Muhammad Ali, while the Arabic article describes the family as an Albanian family that came to Egypt with Muhammad Ali — the English text, citing Goldschmidt, calls him of Turkish origin. The discrepancy is recorded, not resolved, and no born_in edge is written."
+  sources: [source/wikipedia-hussein-rushdi-en, source/wikipedia-hussein-rushdi-ar, source/wikidata-hussein-rushdi]
+died:
+  edtf: "1928-03-14"
+  hijri: "1346"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "The Arabic article states that he died on 14 March 1928 and dates the end of his presidency of the Senate to the same day; the English article and Wikidata give only the year 1928. No article states the place of his death, so no died_in edge is written. The Hijri year 1346 is the derived conversion of March 1928."
+  sources: [source/wikipedia-hussein-rushdi-ar, source/wikipedia-hussein-rushdi-en, source/wikidata-hussein-rushdi]
+faith:
+  - value: unknown
+    basis: unknown
+    note: "Complete absence. No source names a religion for him at all: neither the English nor the Arabic article has a religion field or any statement of faith in its text, the English article's categories carry no religious filing, and Wikidata (Q1994270) has no religion property. Nothing is inferred from his offices, his era, or his family's origin."
+    sources: [source/wikipedia-hussein-rushdi-en, source/wikipedia-hussein-rushdi-ar, source/wikidata-hussein-rushdi]
+external_ids: { wikidata: "Q1994270" }
+sources: [source/wikipedia-hussein-rushdi-en, source/wikipedia-hussein-rushdi-ar, source/wikidata-hussein-rushdi]
+provenance:
+  layer: own-research
+  source: "English Wikipedia 'Hussein Roshdy Pasha' (revision 1357841415 of 5 June 2026; the queue title 'Hussein Rushdi Pasha' redirects to it), Arabic Wikipedia 'حسين رشدي باشا' (revision 75785626 of 3 July 2026) and Wikidata item Q1994270 (item revision 2537170216 of 27 August 2026), all read directly on 26 October 2026 and both articles fetched by revision id with the returned revisions asserted equal. Existence was checked by name fragments over data/person/ and by the grounded QID over data/person/ and data/source/ before building; no record existed (the existing muterjim-rushdi-pasha is a different, Ottoman, grand vizier who died in 1882). No relations are written: neither article states a birth or death place, and no predicate covers his ministries. His faith is unknown by complete absence, as stated in the faith note."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: century-additions-48
+status: { review: published, completeness: 2, generated_by: "Muse (Muse Spark 1.3)" }
