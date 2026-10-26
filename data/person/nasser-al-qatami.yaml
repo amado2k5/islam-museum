@@ -1,0 +1,37 @@
+id: person/nasser-al-qatami
+class: person
+label: { ar: "ناصر بن علي القطامي", en: "Nasser Al-Qatami", ur: "ناصر بن علی قطامی" }
+names:
+  - { value: "ناصر بن علي القطامي", kind: full }
+  - { value: "Nasser ibn Ali Al-Qatami", kind: full }
+  - { value: "Nasser Al Qatami", kind: alternate }
+gender: male
+summary:
+  ar: "قارئ قرآن سعودي ومؤلف، إمام وخطيب جامع عبد الله بن ناصر المهيني بالرياض. بدأ الإمامة في الرابعة عشرة من عمره، وأشرف ودرّس في حلقات تحفيظ القرآن أكثر من أحد عشر عاماً، وصدر له أكثر من عشرين إصداراً صوتياً وعدد من المؤلفات في تدبر القرآن."
+  en: "Saudi Qur'an reciter and author, imam and khatib of the Abdullah ibn Nasser Al-Muhaini Mosque in Riyadh. He began leading prayer at the age of fourteen, supervised and taught Qur'an memorisation circles for more than eleven years, and has issued more than twenty audio releases and several books on contemplation of the Qur'an."
+  ur: "سعودی قاریِ قرآن اور مصنف، ریاض میں جامع عبد اللہ بن ناصر مہینی کے امام و خطیب۔ انھوں نے چودہ برس کی عمر میں امامت کا آغاز کیا، گیارہ سال سے زائد عرصہ حفظِ قرآن کے حلقات کی نگرانی و تدریس کی، اور ان کی بیس سے زائد آڈیو ریلیزز اور تدبرِ قرآن پر کئی کتب شائع ہو چکی ہیں۔"
+roles: [reciter, writer]
+wings: [people, living]
+regions: [arabia]
+born:
+  edtf: "1980"
+  hijri: "1400"
+  calendar: gregorian
+  precision: year
+  status: historical
+  derived: false
+  note: "Both articles' leads state the paired years 1400 AH / 1980 CE and Wikidata gives 1980. No article text states a birthplace — the Urdu article's categories file him among Riyadh births, a filing only — and the museum holds no place entity for Riyadh, so no born_in or lived_in edge is written."
+  sources: [source/wikipedia-nasser-al-qatami-ar, source/wikipedia-nasser-al-qatami-ur, source/wikidata-nasser-al-qatami]
+faith:
+  - value: unknown
+    basis: unknown
+    note: "No source read names a school for him. The Arabic article leaves its infobox religion field blank and its text gives only his posts, studies and works; the Urdu article is a translation of the Arabic, the same source family; Wikidata gives religion as Islam only. His mosque imamates are offices, which never attest. Not recorded as any school until two independent sources name one."
+    sources: [source/wikipedia-nasser-al-qatami-ar, source/wikipedia-nasser-al-qatami-ur, source/wikidata-nasser-al-qatami]
+external_ids: { wikidata: "Q6880178" }
+sources: [source/wikipedia-nasser-al-qatami-ar, source/wikipedia-nasser-al-qatami-ur, source/wikidata-nasser-al-qatami]
+provenance:
+  layer: own-research
+  source: "Arabic Wikipedia «ناصر القطامي» (revision 76687055 of 23 September 2026), Urdu Wikipedia «ناصر قطامی» (revision 12161927 of 19 October 2026) and Wikidata Q6880178 (item revision 2495976596 of 22 May 2026), each fetched by its recorded revision id with the returned revision asserted equal before any claim was drawn, checked 26 October 2026. No English article exists for him, and no record of him existed under any spelling or under his QID."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: century-additions-65
+status: { review: published, generated_by: "Muse (Muse Spark 1.3)" }

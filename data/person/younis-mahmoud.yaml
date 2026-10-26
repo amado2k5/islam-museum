@@ -1,0 +1,37 @@
+id: person/younis-mahmoud
+class: person
+label: { ar: "يونس محمود", en: "Younis Mahmoud", ur: "یونس محمود" }
+names:
+  - { value: "Younis Mahmoud Khalaf", kind: full }
+  - { value: "يونس محمود خلف", kind: full }
+  - { value: "یونس محمود خلف", kind: full }
+gender: male
+summary:
+  ar: "مهاجم عراقي وُلد سنة 1983 في الدبس بمحافظة كركوك، قاد منتخب العراق إلى لقبه الوحيد في كأس آسيا سنة 2007 مسجلاً هدف الفوز في النهائي ونال جائزة أفضل لاعب في البطولة، ولعب لأندية في العراق والإمارات وقطر أطولها الغرافة، واعتزل سنة 2016."
+  en: "Iraqi striker, born in 1983 in Dibis, Kirkuk Governorate, who captained Iraq to its only AFC Asian Cup title in 2007, scoring the winning goal in the final and winning the tournament's most valuable player award. He played club football in Iraq, the Emirates and Qatar — longest with Al-Gharafa — and retired in 2016."
+  ur: "عراقی اسٹرائیکر، 1983 میں محافظہ کرکوک کے الدبس میں پیدا ہوئے، جنہوں نے 2007 میں عراق کی قیادت کرتے ہوئے اسے اس کا واحد اے ایف سی ایشیائی کپ خطاب دلایا، فائنل میں جیت کا گول کیا اور ٹورنامنٹ کے بہترین کھلاڑی کا اعزاز حاصل کیا۔ انہوں نے عراق، امارات اور قطر کے کلبوں کے لیے کھیلا — سب سے طویل عرصہ الغرافہ کے ساتھ — اور 2016 میں ریٹائر ہوئے۔"
+roles: [athlete]
+wings: [people, living]
+regions: [levant-iraq]
+born:
+  edtf: "1983-02-03"
+  hijri: "1403"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "The English article, citing the FIFA profile, gives 3 February 1983, born in Dibis in Kirkuk Governorate; the Arabic article's categories pair his birth year with 1403 AH, which agrees with the Hijri year recorded here. Wikidata carries two birth-date values, 3 February 1983 and the transposed 2 March 1983; the articles are followed and the variant is recorded here. No museum place entity exists for Dibis or Kirkuk, so the birthplace is carried here and in the prose, with no born_in edge."
+  sources: [source/wikipedia-younis-mahmoud-en, source/wikipedia-younis-mahmoud-ar, source/wikidata-younis-mahmoud]
+faith:
+  - value: sunni
+    basis: documented
+    note: "Two independent sources name Mahmoud's affiliation personally, in contemporary reporting of Iraq's 2007 Asian Cup victory. The Washington Post (30 July 2007) wrote: 'Mahmoud, a Sunni Turkmen, scored the winning goal'. Al Jazeera English (2007), reporting independently, wrote that the team 'was captained by a Sunni Turkman from Kirkuk — Younis Mahmoud'. Both quotations were verified directly in the archived articles on 26 October 2026. The English article's personal-life section states the same Sunni fact, though its ethnic label ('Arab') differs from its own sources, which call him a Turkmen; the museum records the Sunni attestation, on which both sources agree, and does not adopt the contested ethnic label. The Arabic article's text says only that he is a Muslim, and its 'Iraqi Sunni Muslims' category is a filing, which never attests; neither is counted. Wikidata gives only generic Islam, which is not counted either."
+    sources: [source/wikipedia-younis-mahmoud-en, source/wikipedia-younis-mahmoud-ar, source/wikidata-younis-mahmoud]
+external_ids: { wikidata: "Q318780" }
+sources: [source/wikipedia-younis-mahmoud-en, source/wikipedia-younis-mahmoud-ar, source/wikidata-younis-mahmoud]
+provenance:
+  layer: own-research
+  source: "English Wikipedia (revision 1368064752 of 6 August 2026), Arabic Wikipedia (revision 77047682 of 23 October 2026) and Wikidata Q318780, each read on 26 October 2026; every article fetched by its recorded revision id and the returned revision asserted equal before any claim was drawn. The two 2007 reports the English article cites for his Sunni affiliation (the Washington Post of 30 July 2007 and Al Jazeera English of 2007) were also read directly in their archived form on 26 October 2026 and the quoted words verified. No earlier record for Mahmoud existed in data/person/ (the 'mahmoud' hits are other people), and his QID was searched across data/person/ and data/source/ with no hit; this is a new build. RELATION DIRECTION: no relations are written — his birthplace, Dibis in Kirkuk Governorate, has no museum place entity, so it is carried in the born note and the prose only."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: century-additions-52
+status: { review: published, generated_by: "Muse (Muse Spark 1.3)" }

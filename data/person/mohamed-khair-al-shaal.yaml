@@ -1,0 +1,40 @@
+id: person/mohamed-khair-al-shaal
+class: person
+label: { ar: "محمد خير الشعال", en: "Mohamed Khair al-Shaal", ur: "محمد خیر الشعال" }
+names:
+  - { value: "محمد خير بن محيي الدين الشعال", kind: full }
+  - { value: "Muhammad Khayr ibn Muhyi al-Din al-Sha'al", kind: full }
+gender: male
+summary:
+  ar: "طبيب أسنان وداعية وكاتب سوري، وُلد في حي الصالحية بدمشق سنة 1970، يجمع بين ممارسة طب الأسنان في عيادته والخطابة والتدريس الشرعي والبرامج التلفزيونية والإذاعية، وله مؤلفات واسعة الانتشار."
+  en: "Syrian dentist, preacher and writer, born in the al-Salihiyya district of Damascus in 1970. He combines a private dental practice with Friday preaching, religious teaching and television and radio programmes, and his books are widely distributed."
+  ur: "سوری دندان ساز، مبلغ اور مصنف، جو 1970 میں دمشق کے محلہ الصالحیہ میں پیدا ہوئے۔ وہ اپنے کلینک میں دندان سازی کے ساتھ خطابت، دینی تدریس اور ٹیلی ویژن و ریڈیو پروگراموں کو جمع کیے ہوئے ہیں، اور ان کی کتابیں وسیع پیمانے پر پھیلی ہوئی ہیں۔"
+roles: [dentist, preacher, writer, teacher]
+wings: [people, living]
+regions: [levant-iraq]
+born:
+  edtf: "1970"
+  hijri: "1390"
+  calendar: gregorian
+  precision: year
+  status: historical
+  derived: true
+  note: "The Arabic article gives his birth in the al-Salihiyya district of Damascus in 1970, with no month or day; Wikidata gives 1970 at year precision. The Hijri year is the tabular conversion for most of that Gregorian year and is marked derived."
+  sources: [source/wikipedia-mohamed-khair-al-shaal-ar, source/wikidata-mohamed-khair-al-shaal]
+relations:
+  - { type: born_in, target: place/damascus, sources: [source/wikipedia-mohamed-khair-al-shaal-ar] }
+  - { type: student_of, target: person/ahmed-kuftaro, sources: [source/wikipedia-mohamed-khair-al-shaal-ar] }
+  - { type: student_of, target: person/nur-al-din-itr, sources: [source/wikipedia-mohamed-khair-al-shaal-ar] }
+faith:
+  - value: unknown
+    basis: unknown
+    note: "No consulted source names a school for him. The Arabic article's text and infobox name no religion or madhhab, its categories file him under Syrian Sunni scholars — a category filing, not an attestation — and Wikidata records his religion only as Islam (Q432). His study of dawah and education under Ahmed Kuftaro and his hadith ijazas under Nur al-Din Itr are his teachers' affiliations and formation, which never count as his own school. Not recorded as any school until two independent sources name his own."
+    sources: [source/wikipedia-mohamed-khair-al-shaal-ar, source/wikidata-mohamed-khair-al-shaal]
+external_ids: { wikidata: "Q107062588" }
+sources: [source/wikipedia-mohamed-khair-al-shaal-ar, source/wikidata-mohamed-khair-al-shaal]
+provenance:
+  layer: own-research
+  source: "Channel-batch row 30 ('Mohamed Khair Al-Shaal', §3 of the handoff list). Arabic Wikipedia article «محمد خير الشعال» (revision 76256780 of 18 August 2026), fetched by its recorded revision via the MediaWiki API with the returned revid asserted equal before any claim was drawn, and Wikidata item Q107062588 at item revision 2527708296 of 5 August 2026; checked 26 October 2026. Existence checks before building: filename-fragment sweeps over data/person/ (shaal, shaaal) found no record, a grep for Q107062588 across data/person/ found nothing, and an Arabic-label grep for «محمد خير الشعال» found no record. No English or Urdu Wikipedia article exists; the English and Urdu prose are written from the Arabic article and Wikidata under the Arabic-first house rule. Relations are written once here: he is the student in both student_of edges — Ahmed Kuftaro taught him dawah and education, and Nur al-Din Itr was his teacher in hadith whose narrations and books he holds ijazas in."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: modern-figures-batch-71
+status: { review: published, generated_by: "Muse (Muse Spark 1.3)" }

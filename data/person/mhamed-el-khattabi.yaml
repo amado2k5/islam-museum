@@ -1,0 +1,48 @@
+id: person/mhamed-el-khattabi
+class: person
+label: { ar: "امحمد بن عبد الكريم الخطابي", en: "M'hamed el-Khattabi", ur: "امحمد بن عبد الکریم خطابی" }
+names:
+  - { value: "امحمد بن عبد الكريم الخطابي", kind: full }
+  - { value: "M'hamed ben Abdelkrim El Khattabi", kind: full }
+  - { value: "Mhamed Abd el-Krim", kind: alternate }
+gender: male
+summary:
+  ar: "قائد عسكري ريفي (1892–1967)؛ الأخ الأصغر لعبد الكريم الخطابي، درس هندسة المناجم بمدريد، وكان القائد الأعلى لجيش جمهورية الريف ونائب رئيسها، وقاد حملات شفشاون وتطوان ووادي ورغة، ونُفي مع أسرته إلى ريونيون ثم القاهرة، وعاد إلى المغرب فتوفي بالرباط ودُفن بأجدير."
+  en: "Riffian military leader (1892–1967), the younger brother of Abd el-Krim. He studied mine engineering in Madrid, was supreme chief of the Republic of the Rif's army and its vice-president, and led the Chefchaouen, Tetouan and Ouergha campaigns; exiled with his family to Réunion and then Cairo, he returned to Morocco and died in Rabat, and was buried at Ajdir."
+  ur: "ریفی عسکری قائد (1892–1967)؛ عبد الکریم خطابی کے چھوٹے بھائی، میڈرڈ میں کان کنی کی انجینئرنگ پڑھی، جمہوریۂ ریف کی فوج کے سپریم کمانڈر اور نائب صدر رہے، شفشاون، تطوان اور ورغہ کی مہمات کی قیادت کی؛ خاندان کے ساتھ ری یونین اور پھر قاہرہ جلاوطن رہے، مراکش واپس آئے تو رباط میں وفات پائی اور اخدیر میں دفن ہوئے۔"
+roles: [general, politician]
+wings: [people]
+regions: [maghreb]
+born:
+  edtf: "1892"
+  hijri: "1309"
+  calendar: gregorian
+  precision: year
+  status: debated
+  derived: true
+  note: "Born at Ajdir. The French and Spanish articles and Wikidata give 1892, the Spanish article noting that some sources give 1897 and that 1892 is the more accepted figure, he being ten years younger than his brother Abd el-Krim (born 1882). The lane queue gives 1886, which no source supports; it is not followed. Ajdir has no place entity, so no born_in edge is written. The Hijri year is the tabular conversion of the Gregorian year."
+  sources: [source/wikipedia-mhamed-el-khattabi-fr, source/wikipedia-mhamed-el-khattabi-es, source/wikidata-mhamed-el-khattabi]
+died:
+  edtf: "1967-12-17"
+  hijri: "1387"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "Died of a heart attack in Rabat on 17 December 1967 (Spanish article and Wikidata; the French article gives Rabat, 1967) and was buried in his home town of Ajdir with honours. Neither Rabat nor Ajdir has a place entity, so no died_in or buried_in edge is written. The Hijri year is the tabular conversion."
+  sources: [source/wikipedia-mhamed-el-khattabi-es, source/wikipedia-mhamed-el-khattabi-fr, source/wikidata-mhamed-el-khattabi]
+faith:
+  - value: unknown
+    basis: unknown
+    note: "No source names a school or order for him personally. The French article's infobox gives his religion as Islam, without a branch; the Spanish article carries no religion field and files him under Muslims of Morocco, a category. His father was qadi of the Ait Ouriaghel — family background and office, which never count. Recorded unknown under the doubt rule."
+    sources: [source/wikipedia-mhamed-el-khattabi-fr, source/wikipedia-mhamed-el-khattabi-es, source/wikidata-mhamed-el-khattabi]
+relations:
+  - { type: sibling_of, target: person/abd-el-krim, sources: [source/wikipedia-mhamed-el-khattabi-fr, source/wikipedia-mhamed-el-khattabi-es] }
+external_ids: { wikidata: "Q97961898" }
+sources: [source/wikipedia-mhamed-el-khattabi-fr, source/wikipedia-mhamed-el-khattabi-es, source/wikidata-mhamed-el-khattabi]
+provenance:
+  layer: own-research
+  source: "French and Spanish Wikipedia articles on M'hamed el-Khattabi, each fetched by its recorded revision id (FR 235431596, ES 172286255) with the returned id asserted equal before use, and Wikidata item Q97961898 (revision 2402136902). He has no English, Arabic or Urdu Wikipedia article; the Arabic and Urdu prose are written from the French and Spanish articles. Existence checks by name fragments (Khattabi, Mhamed, الخطابي) and by QID across data/person and data/source found no prior record for him. The lane queue gives 1886–1967: the death year is confirmed, but no source supports 1886 for his birth — the articles give 1892 (with a 1897 variant noted) — and the record follows the sources, with the discrepancy disclosed in the born note. The sibling_of edge to his elder brother Abd el-Krim, built in this same run, is written here in his record only."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: century-additions-59
+status: { review: published, generated_by: "Muse (Muse Spark 1.3)" }

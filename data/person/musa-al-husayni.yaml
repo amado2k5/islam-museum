@@ -1,0 +1,58 @@
+id: person/musa-al-husayni
+class: person
+label:
+  ar: "موسى كاظم الحسيني"
+  en: "Musa al-Husayni"
+summary:
+  ar: "سياسي فلسطيني (1853–1934)، والٍ عثماني ورئيس بلدية القدس (1918–1920)، ترأّس اللجنة التنفيذية العربية للمؤتمر العربي الفلسطيني من 1920 حتى وفاته."
+  en: "Palestinian politician (1853–1934), an Ottoman governor and mayor of Jerusalem (1918–1920) who chaired the Executive Committee of the Palestine Arab Congress from 1920 until his death."
+names:
+  - { value: "Musa Kazim Pasha al-Husayni", kind: full }
+  - { value: "موسى كاظم الحسيني", kind: full }
+  - { value: "Musa", kind: given }
+  - { value: "Pasha", kind: laqab }
+born:
+  edtf: "1853"
+  hijri: "1269"
+  calendar: gregorian
+  precision: year
+  status: historical
+  derived: false
+  note: "Born in Jerusalem in 1853 {cite:wikipedia-musa-al-husayni-en} {cite:wikipedia-musa-al-husayni-ar}."
+  sources: [source/wikipedia-musa-al-husayni-en, source/wikipedia-musa-al-husayni-ar, source/wikidata-musa-al-husayni]
+died:
+  edtf: "1934-03-27"
+  hijri: "1352"
+  calendar: gregorian
+  precision: day
+  status: debated
+  derived: false
+  note: "The English article and Wikidata give his death in Jerusalem on 27 March 1934 {cite:wikipedia-musa-al-husayni-en} {cite:wikidata-musa-al-husayni}; the Arabic and Urdu articles, one source family, give 26 March 1934 and death at Jaffa, with burial at Bab al-Hadid west of the Haram al-Sharif {cite:wikipedia-musa-al-husayni-ar} {cite:wikipedia-musa-al-husayni-ur}. The English article's date and place are recorded with the other tradition stated. His death was widely believed at the time to have resulted from injuries sustained during an anti-British demonstration {cite:wikipedia-musa-al-husayni-en}."
+  sources: [source/wikipedia-musa-al-husayni-en, source/wikipedia-musa-al-husayni-ar, source/wikipedia-musa-al-husayni-ur, source/wikidata-musa-al-husayni]
+faith:
+  - value: unknown
+    basis: unknown
+    note: "None of the three articles states his religion, and the Wikidata item carries no religion value {cite:wikipedia-musa-al-husayni-en} {cite:wikipedia-musa-al-husayni-ar} {cite:wikidata-musa-al-husayni}. Under the lane rule the affiliation stays unknown."
+    sources: [source/wikipedia-musa-al-husayni-en, source/wikipedia-musa-al-husayni-ar, source/wikidata-musa-al-husayni]
+roles: [politician]
+wings: [people]
+regions: [levant-iraq]
+relations:
+  - type: born_in
+    target: place/jerusalem
+    note: "Born in Jerusalem, then in the Ottoman Empire {cite:wikipedia-musa-al-husayni-en} {cite:wikipedia-musa-al-husayni-ar}."
+    sources: [source/wikipedia-musa-al-husayni-en, source/wikipedia-musa-al-husayni-ar, source/wikidata-musa-al-husayni]
+  - type: died_in
+    target: place/jerusalem
+    note: "Died in Jerusalem per the English article and Wikidata; the Arabic and Urdu articles give Jaffa — see the died note {cite:wikipedia-musa-al-husayni-en} {cite:wikidata-musa-al-husayni}."
+    sources: [source/wikipedia-musa-al-husayni-en, source/wikidata-musa-al-husayni]
+external_ids: { wikidata: "Q2662234" }
+sources: [source/wikipedia-musa-al-husayni-en, source/wikipedia-musa-al-husayni-ar, source/wikipedia-musa-al-husayni-ur, source/wikidata-musa-al-husayni]
+status: { review: published }
+provenance:
+  layer: own-research
+  source: "English, Arabic and Urdu Wikipedia and Wikidata Q2662234, each read at the revision recorded in its source file and checked on 26 October 2026"
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: century-additions-53
+  created: "2026-10-26"
+  note: "Built 2026-10-26 (wave 53, group B) from the English article (revision 1380105996), the Arabic article «موسى كاظم الحسيني» (revision 72070942), the Urdu article (revision 11734872) and Wikidata item Q2662234. Existence checked both routes: no Musa al-Husayni person record by name fragments, and no record citing Q2662234; the museum's classical al-Husayni records are different, earlier men. His father Salim, his brother Hussein and his son Abd al-Qader al-Husseini have no museum records, so their kinship is carried in the prose only."

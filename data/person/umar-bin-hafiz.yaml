@@ -1,0 +1,29 @@
+id: person/umar-bin-hafiz
+class: person
+label: { ar: "عمر بن حفيظ", en: "Umar bin Hafiz" }
+names:
+  - { kind: full, lang: ar, value: "عمر بن محمد بن سالم بن حفيظ" }
+  - { kind: full, lang: en, value: "Umar bin Muhammad bin Salim bin Hafiz" }
+  - { kind: full, lang: ur, value: "حبیب عمر بن محمد بن سالم بن حفیظ" }
+  - { kind: alternate, lang: en, value: "Habib Umar bin Hafiz" }
+  - { kind: alternate, lang: en, value: "Umar bin Hafidz" }
+gender: male
+roles: [scholar, teacher, writer]
+born: { edtf: "1963-05-27", hijri: "1383", calendar: gregorian, precision: day, status: historical, derived: false, note: "Born in Tarim, Hadhramaut, Yemen; the English and Arabic articles pair 27 May 1963 with 4 Muharram 1383 AH, so the Hijri year is sourced, not derived.", sources: [source/wikipedia-umar-bin-hafiz-en, source/wikipedia-umar-bin-hafiz-ar, source/wikidata-umar-bin-hafiz] }
+summary:
+  ar: "معلم يمني (ولد 27 مايو 1963 في تريم بحضرموت) من طريقة آل باعلوي، مؤسس دار المصطفى بتريم، تصدّر قائمة الخمسمئة مسلم في طبعة 2024."
+  en: "Yemeni teacher (born 27 May 1963 in Tarim, Hadhramaut) of the Ba 'Alawi tradition, founder of Dar al-Mustafa in Tarim, ranked first in The Muslim 500's 2024 edition."
+wings: [people, living]
+themes: [scripture-and-its-sciences, development-of-law-theology-institutions]
+regions: [arabia]
+relations:
+  - { type: born_in, target: place/tarim, note: "Born in Tarim, Hadhramaut (English and Arabic articles; Wikidata gives Tarim as place of birth).", sources: [source/wikipedia-umar-bin-hafiz-en, source/wikipedia-umar-bin-hafiz-ar] }
+  - { type: lived_in, target: place/tarim, note: "He lives and teaches in Tarim, where he founded and heads Dar al-Mustafa (Arabic article).", sources: [source/wikipedia-umar-bin-hafiz-ar, source/wikipedia-umar-bin-hafiz-en] }
+faith:
+  - { value: sunni-shafii, basis: documented, note: "The English article's religious infobox and its 'Religious views' passage give denomination Sunni, jurisprudence Shafi'i, creed Ash'ari and tariqa Ba 'Alawiyya, both resting on The Muslim 500 and so counting as one family; the Arabic infobox independently gives the same values — Ahl al-Sunna wal-Jama'a, the Ash'ari creed and the Shafi'i madhhab — a second attestation of the same configuration that recorded Zaid Shakir's school (a referenced infobox plus an independent naming). The Ash'ari creed has no compound value in the faith enum and is recorded in this note only. That his teacher Zain bin Sumait was a Shafi'i jurist is a teacher's school and was not used as evidence.", sources: [source/wikipedia-umar-bin-hafiz-en, source/wikipedia-umar-bin-hafiz-ar] }
+  - { value: sufi, basis: documented, note: "Membership of the Ba 'Alawi tradition is attested of him personally in text. The Arabic lead places him among those pointed to as foremost in the science of spiritual wayfaring (ilm al-suluk), 'especially in the Ba 'Alawi tariqa', citing a 1999 biographical work; the English text associates him with the Ba 'Alawiyya Sufi tradition and lists his occupation as Sufi scholar. Both articles also attest his own discipleship under Ba 'Alawi masters — his father Muhammad bin Salim bin Hafiz, Muhammad bin Abd-Allah al-Haddar of Ribat al-Bayda and Abdul Qadir bin Ahmad al-Saqqaf — so the segment rests on his documented discipleship and teaching, not on his family's standing in the tradition.", sources: [source/wikipedia-umar-bin-hafiz-ar, source/wikipedia-umar-bin-hafiz-en] }
+external_ids:
+  wikidata: Q4678423
+sources: [source/wikipedia-umar-bin-hafiz-en, source/wikipedia-umar-bin-hafiz-ar, source/wikipedia-umar-bin-hafiz-ur, source/wikidata-umar-bin-hafiz]
+status: { review: published, completeness: 2, generated_by: "Muse (Muse Spark 1.3)" }
+provenance: { layer: own-research, source: "English, Arabic and Urdu Wikipedia articles on Umar bin Hafiz and Wikidata item Q4678423, each fetched by its recorded revision id and read in full, the returned revision ids asserted equal to the recorded ones before any claim was drawn. The English article dates the founding of Dar al-Mustafa to 1993 and the Arabic article to 1414 AH (1994); the prose carries both.", generated_by: "Muse (Muse Spark 1.3)", run: century-additions-61 }

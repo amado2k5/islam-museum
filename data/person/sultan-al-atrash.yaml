@@ -1,0 +1,47 @@
+id: person/sultan-al-atrash
+class: person
+label: { ar: "سلطان الأطرش", en: "Sultan al-Atrash", ur: "سلطان الاطرش" }
+names:
+  - { value: "سلطان الأطرش", kind: full }
+  - { value: "Sultan al-Atrash", kind: full }
+  - { value: "سلطان باشا الأطرش", kind: laqab }
+  - { value: "Sultan Pasha al-Atrash", kind: laqab }
+gender: male
+summary:
+  ar: "قائد وطني سوري (1891–1982) من زعماء جبل الدروز، قاد الثورة السورية الكبرى ضد الانتداب الفرنسي (1925–1927) وكان قائدها العام، ورفض كل منصب سياسي بعد استقلال سورية، واشتهر بشعاره «الدين لله والوطن للجميع»."
+  en: "Syrian national leader (1891–1982) and paramount chief of the Druze Mountain who commanded the Great Syrian Revolt against the French Mandate (1925–1927); he refused every political office after Syrian independence and is remembered for his slogan: Religion is for God, the fatherland is for all."
+  ur: "شامی قومی رہنما (1891–1982) اور جبل الدروز کے سربراہ، جنہوں نے فرانسیسی مینڈیٹ کے خلاف عظیم شامی بغاوت (1925–1927) کی عمومی قیادت کی؛ شام کی آزادی کے بعد انہوں نے ہر سیاسی عہدہ ٹھکرا دیا اور اپنے نعرے «دین اللہ کے لیے، وطن سب کے لیے» سے مشہور ہوئے۔"
+roles: [general, activist]
+wings: [people]
+regions: [levant-iraq]
+born:
+  edtf: "1891-03-05"
+  hijri: "1308"
+  calendar: gregorian
+  precision: day
+  status: debated
+  derived: true
+  note: "Born at al-Qrayya (al-Qurayya), south of Suwayda, into the Druze family of al-Atrash; no place entity exists for al-Qrayya, so the birthplace is carried here and in the prose. The day and month (5 March) agree across the articles, but the year is disputed: the English article, the Arabic article's infobox and Wikidata give 1891, while the Arabic article's body text and the Urdu article's lead give 1888 (the Urdu article citing a family website). The 1891 of the English article and the infoboxes is followed."
+  sources: [source/wikipedia-sultan-al-atrash-en, source/wikipedia-sultan-al-atrash-ar, source/wikipedia-sultan-al-atrash-ur, source/wikidata-sultan-al-atrash]
+died:
+  edtf: "1982-03-26"
+  hijri: "1402"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "Died at al-Qrayya on 26 March 1982, of a heart attack according to the English article; no place entity exists for al-Qrayya, so the place of death is carried here and in the prose."
+  sources: [source/wikipedia-sultan-al-atrash-en, source/wikipedia-sultan-al-atrash-ar, source/wikipedia-sultan-al-atrash-ur, source/wikidata-sultan-al-atrash]
+faith:
+  - value: unknown
+    basis: unknown
+    note: "His community is documented; no affiliation value is recorded, exactly as the sources give it. The English article says he was born at al-Qrayya into the famous Druze family of al-Atrash, which had nominally governed the region since 1879, calls him one of the most influential figures in Syrian and Druze history, and files him under 'Syrian Druze people'. The Arabic article's lead describes him as a Syrian leader belonging to the Druze ta'ifa (the Unitarians), and its body says he was born into the famous Druze al-Atrash family. The Urdu article mirrors the English. What these sources attest is his birth into, and leadership of, the Druze community — a communal identity and role, not a personal profession recorded apart from it — and Wikidata carries no religion (P140) value for him. The museum's faith enum has no druze value, and no mapping is forced: the recorded value is unknown, with the community stated here in full."
+    sources: [source/wikipedia-sultan-al-atrash-en, source/wikipedia-sultan-al-atrash-ar, source/wikipedia-sultan-al-atrash-ur, source/wikidata-sultan-al-atrash]
+external_ids: { wikidata: "Q403646" }
+sources: [source/wikipedia-sultan-al-atrash-en, source/wikipedia-sultan-al-atrash-ar, source/wikipedia-sultan-al-atrash-ur, source/wikidata-sultan-al-atrash]
+provenance:
+  layer: own-research
+  source: "English, Arabic and Urdu Wikipedia and Wikidata Q403646, each read at the revision recorded in its source file and checked on 26 October 2026"
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: century-additions-52
+status: { review: published, generated_by: "Muse (Muse Spark 1.3)" }

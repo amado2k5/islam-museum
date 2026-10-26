@@ -1,0 +1,52 @@
+id: person/mirza-ghalib
+class: person
+label: { ar: "ميرزا غالب", en: "Mirza Ghalib", ur: "مرزا غالب" }
+names:
+  - { value: "Mirza Asadullah Baig Khan", kind: full }
+  - { value: "Ghalib", kind: pen }
+  - { value: "Asad", kind: pen }
+  - { value: "Dabir-ul-Mulk", kind: laqab }
+  - { value: "Najm-ud-Daula", kind: laqab }
+gender: male
+summary:
+  ar: "شاعر الأردية والفارسية الأبرز في أواخر عصر المغول (1797–1869). وُلد في أغرة وانتقل صغيرًا إلى دلهي، وعاش معظم عمره في فقر منازعًا على معاش أسرته. ألّف ديوانين بالأردية والفارسية، وكان شاعر بلاط بهادر شاه ظفر وأستاذه في الشعر، وتُعدّ غزلياته ذروة الشعر الأردي."
+  en: "The pre-eminent Urdu and Persian poet of the late Mughal age (1797–1869). Born in Agra, he settled in Delhi as a boy and lived most of his life in straitened circumstances, contesting his family pension. He wrote divans in both Urdu and Persian, served Bahadur Shah Zafar as court poet and poetry tutor, and his ghazals are regarded as the summit of Urdu poetry."
+  ur: "متاخر مغل دور کے سب سے بڑے اردو و فارسی شاعر (1797ء–1869ء)۔ آگرہ میں پیدا ہوئے، بچپن میں دہلی آ بسے، اور بیشتر زندگی تنگ دستی میں خاندانی وظیفے کے مقدمے میں گزاری۔ اردو و فارسی دونوں میں دیوان چھوڑے، بہادر شاہ ظفر کے درباری شاعر اور استاد رہے، اور ان کی غزلیں اردو شاعری کی معراج سمجھی جاتی ہیں۔"
+roles: [poet, writer]
+wings: [people]
+regions: [south-asia]
+born:
+  edtf: "1797-12-27"
+  hijri: "1212"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "The English and Arabic articles and Wikidata agree on 27 December 1797; the English article gives his birth at Kala Mahal, Agra. The Hijri year is derived by tabular conversion."
+  sources: [source/wikipedia-ghalib-en, source/wikipedia-ghalib-ar, source/wikidata-ghalib]
+died:
+  edtf: "1869-02-15"
+  hijri: "1285"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "The English and Arabic articles and Wikidata agree on 15 February 1869, at Delhi; he is buried there in the family enclosure near the shrine quarter of Nizamuddin. The Hijri year is derived by tabular conversion."
+  sources: [source/wikipedia-ghalib-en, source/wikipedia-ghalib-ar, source/wikidata-ghalib]
+relations:
+  - { type: born_in, target: place/agra, sources: [source/wikipedia-ghalib-en] }
+  - { type: lived_in, target: place/delhi, sources: [source/wikipedia-ghalib-en] }
+  - { type: died_in, target: place/delhi, sources: [source/wikipedia-ghalib-en] }
+faith:
+  - value: shia-twelver
+    basis: documented
+    note: "Recorded as Shia, mapped to Twelver, on the English article's text, which states that he 'followed Shia theology and had said many verses in praise of Ali ibn Abi Talib', citing Zahra Sabri's study 'Three Shi'a Poets: Sect-Related Themes in Pre-Modern Urdu Poetry' (Indian Ocean World Centre Working Paper Series, 2016) among its references; Wikidata's religion value is likewise Shia Islam. The mapping is stated here as the rule requires: what is attested is Shia theology centred on devotion to Ali, and elegies on Karbala (marsiya) form part of his recorded output — the Twelver tradition. Counter-readings are preserved, not suppressed: the Urdu article's categories file him under 'Indian Sunni Muslims', which is a filing and never an attestation, and the same English article stresses that he placed the seeking of God above ritual practice and was sceptical of some clerical readings of scripture; the Arabic article makes no statement of his affiliation. His poetry's Sufi imagery is not used as evidence either way: imagery is not affiliation."
+    sources: [source/wikipedia-ghalib-en, source/wikipedia-ghalib-ur, source/wikidata-ghalib]
+external_ids: { wikidata: "Q107000" }
+sources: [source/wikipedia-ghalib-en, source/wikipedia-ghalib-ar, source/wikipedia-ghalib-ur, source/wikidata-ghalib]
+provenance:
+  layer: own-research
+  source: "English Wikipedia 'Ghalib' (revision 1371879243), Arabic Wikipedia 'ميرزا غالب' (revision 75459875), Urdu Wikipedia 'مرزا غالب' (revision 12110132) and Wikidata item Q107000 (item revision 2558173195), read via the MediaWiki API on 26 October 2026; every article was fetched by its recorded revision id and the returned id asserted equal before any claim was drawn. Existence was checked by filename fragments under all spellings (the corpus's other Ghalibs — ghalib-ibn-abd-al-rahman-al-nasir, shaykh-ghalib and others — are different men), by Arabic label and by the QID route; no earlier record of the poet exists."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: century-additions-67
+status: { review: published, generated_by: "Muse (Muse Spark 1.3)" }

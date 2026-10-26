@@ -1,0 +1,38 @@
+id: person/hasan-al-husseini
+class: person
+label: { ar: "حسن الحسيني", en: "Hasan al-Husseini", ur: "حسن الحسینی" }
+names:
+  - { value: "حسن بن محمد سعيد الحسيني", kind: full }
+  - { value: "Hasan ibn Muhammad Sa'id al-Husseini", kind: full }
+gender: male
+summary:
+  ar: "عالم وداعية بحريني من أصل أفغاني، وُلد في مكة سنة 1976 ويقيم في المحرق، حافظ للقرآن وحاصل على الدكتوراه في الحديث، قدّم برامج تلفزيونية في التفسير والسيرة والتاريخ."
+  en: "Bahraini scholar and preacher of Afghan origin, born in Mecca in 1976 and resident at Muharraq. A memoriser of the Qur'an with a doctorate in hadith, he has presented television programmes on exegesis, biography and history."
+  ur: "افغان نژاد بحرینی عالم و مبلغ، جو 1976 میں مکہ میں پیدا ہوئے اور محرق میں مقیم ہیں۔ حافظِ قرآن اور حدیث میں ڈاکٹریٹ یافتہ؛ انھوں نے تفسیر، سیرت اور تاریخ پر ٹیلی ویژن پروگرام پیش کیے ہیں۔"
+roles: [scholar, preacher, presenter]
+wings: [people, living]
+regions: [arabia]
+born:
+  edtf: "1976-08-23"
+  hijri: "1396"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: false
+  note: "The Arabic article gives his birth in Mecca as Monday 27 Sha'ban 1396 AH paired with 23 August 1976 CE; Wikidata gives 23 August 1976 at day precision. The article itself pairs the two dates, so the Hijri year is not a conversion."
+  sources: [source/wikipedia-hasan-al-husseini-ar, source/wikidata-hasan-al-husseini]
+relations:
+  - { type: born_in, target: place/mecca, sources: [source/wikipedia-hasan-al-husseini-ar] }
+faith:
+  - value: sunni-shafii
+    basis: documented
+    note: "FLAGGED (text tradition + infobox family configuration). The Arabic article's text calls him a Bahraini scholar of Ahl al-Sunna wa'l-Jama'a, Shafi'i in madhhab, and its infobox gives the same creed (Ahl al-Sunna wa'l-Jama'a) and the same madhhab (Shafi'i); the article's biography is sourced in part to his Midad scholar-directory profile and his official website's CV. Wikidata records no religion statement for him at all. This is the configuration of one text tradition reinforced by its own article's infobox, which awaits the founder's ruling: if an infobox family does not count as the second attestation, this segment downgrades to unknown, with both readings preserved here."
+    sources: [source/wikipedia-hasan-al-husseini-ar, source/wikidata-hasan-al-husseini]
+external_ids: { wikidata: "Q16127121" }
+sources: [source/wikipedia-hasan-al-husseini-ar, source/wikidata-hasan-al-husseini]
+provenance:
+  layer: own-research
+  source: "Channel-batch row 29 ('Hasan Al-Husseini', §3 of the handoff list). Arabic Wikipedia article «حسن الحسيني» (revision 76706777 of 24 September 2026), fetched by its recorded revision via the MediaWiki API with the returned revid asserted equal before any claim was drawn, and Wikidata item Q16127121 at item revision 2526952047 of 4 August 2026; checked 26 October 2026. Existence checks before building: filename-fragment sweeps over data/person/ (husseini, husayni, hussaini) found records only for other bearers, a grep for Q16127121 across data/person/ found nothing, an Arabic-label grep for «حسن الحسيني» found no record, and the biography (Bahraini scholar born in Mecca on 23 August 1976) matched no existing record. No English Wikipedia article exists; the English and Urdu prose are written from the Arabic article and Wikidata under the Arabic-first house rule. Relations: born_in Mecca is written once here; the museum holds no place entity for Muharraq or Bahrain, and his father and brother have no museum records, so no further edges are written."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: modern-figures-batch-71
+status: { review: published, generated_by: "Muse (Muse Spark 1.3)" }

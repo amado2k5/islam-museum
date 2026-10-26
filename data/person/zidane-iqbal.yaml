@@ -1,0 +1,37 @@
+id: person/zidane-iqbal
+class: person
+label: { ar: "زيدان إقبال", en: "Zidane Iqbal", ur: "زیدان اقبال" }
+names:
+  - { value: "Zidane Aamar Iqbal", kind: full }
+  - { value: "زيدان عمار إقبال", kind: full }
+  - { value: "زیدان اقبال", kind: full }
+gender: male
+summary:
+  ar: "لاعب وسط وُلد في مانشستر سنة 2003 لأب باكستاني وأم عراقية، وهو من خريجي أكاديمية مانشستر يونايتد وأول بريطاني من جنوب آسيا يلعب للنادي في دوري أبطال أوروبا، ثم انتقل إلى أوتريخت الهولندي ودندي يونايتد، ويمثّل منتخب العراق الأول."
+  en: "Midfielder born in Manchester in 2003 to a Pakistani father and an Iraqi mother. A Manchester United academy product, he became the first British South Asian to play for the club in the Champions League, then moved to Utrecht in the Netherlands and to Dundee United. He represents Iraq at senior level."
+  ur: "2003 میں مانچسٹر میں پاکستانی والد اور عراقی والدہ کے ہاں پیدا ہونے والے مڈفیلڈر۔ مانچسٹر یونائیٹڈ اکیڈمی کی پیداوار کے طور پر وہ چیمپئنز لیگ میں کلب کے لیے کھیلنے والے پہلے برطانوی جنوبی ایشیائی بنے، پھر نیدرلینڈز کے اوتریخت اور ڈنڈی یونائیٹڈ منتقل ہوئے۔ وہ سینئر سطح پر عراق کی نمائندگی کرتے ہیں۔"
+roles: [athlete]
+wings: [people, living]
+regions: [levant-iraq]
+born:
+  edtf: "2003-04-27"
+  hijri: "1424"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "The English and Arabic articles and Wikidata (Q107882685) all give 27 April 2003, born in Manchester. No museum place entity exists for Manchester, so the birthplace is carried here and in the prose, with no born_in edge. The Hijri year 1424 is the tabular conversion of the Gregorian date."
+  sources: [source/wikipedia-zidane-iqbal-en, source/wikipedia-zidane-iqbal-ar, source/wikipedia-zidane-iqbal-ur, source/wikidata-zidane-iqbal]
+faith:
+  - value: unknown
+    basis: unknown
+    note: "One text names Islam for Iqbal, generically, and nothing names a school. The English article's personal-life section states that he is Muslim, citing a Manchester United interview and the Manchester Evening News, and records that he cites Mesut Özil as an inspiration. The Arabic article's text says nothing about his religion; its categories file him among English Muslims and Iraqi Muslims, and the English article's categories do the same — category filings never attest. The Urdu article is a bot stub, and Wikidata carries no religion value. One source naming Islam generically is not two independent sources naming a school, so his faith is recorded as unknown."
+    sources: [source/wikipedia-zidane-iqbal-en, source/wikipedia-zidane-iqbal-ar, source/wikipedia-zidane-iqbal-ur, source/wikidata-zidane-iqbal]
+external_ids: { wikidata: "Q107882685" }
+sources: [source/wikipedia-zidane-iqbal-en, source/wikipedia-zidane-iqbal-ar, source/wikipedia-zidane-iqbal-ur, source/wikidata-zidane-iqbal]
+provenance:
+  layer: own-research
+  source: "English Wikipedia (revision 1381994010 of 25 October 2026), Arabic Wikipedia (revision 76870667 of 5 October 2026), Urdu Wikipedia (revision 11576492 of 16 July 2026) and Wikidata Q107882685, each read on 26 October 2026; every article fetched by its recorded revision id and the returned revision asserted equal before any claim was drawn. The QID was pinned by description and biography (Iraqi association football player, born 27 April 2003 in Manchester) and is not Zinedine Zidane's item. No earlier record for Iqbal existed in data/person/ (the 'iqbal' hits are Muhammad Iqbal and unrelated records), and his QID was searched across data/person/ and data/source/ with no hit; this is a new build. RELATION DIRECTION: no relations are written — his birthplace, Manchester, has no museum place entity, so it is carried in the born note and the prose only."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: century-additions-52
+status: { review: published, generated_by: "Muse (Muse Spark 1.3)" }

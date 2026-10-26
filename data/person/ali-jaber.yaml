@@ -1,0 +1,33 @@
+id: person/ali-jaber
+class: person
+label: { ar: "علي عبد الله جابر", en: "Ali Abdullah Jaber", ur: "علی عبداللہ جابر" }
+names:
+  - { value: "علي عبد الله صالح علي جابر السعيدي", kind: full }
+  - { value: "Ali Abdullah Saleh Ali Jaber Al-Saeedi", kind: full }
+  - { value: "علي جابر", kind: alternate }
+  - { value: "Ali Jaber", kind: alternate }
+  - { value: "إمام الملك", kind: laqab }
+  - { value: "King's Imam", kind: laqab }
+gender: male
+summary:
+  ar: "قارئ وعالم سعودي (1953–2005)، إمام المسجد الحرام رسمياً بين 1981 و1983 وضيفاً في رمضان بين 1986 و1989، ومحاضر في الفقه المقارن بجامعة الملك عبد العزيز بجدة، لُقّب بإمام الملك واشتهر بتلاوته الشجية."
+  en: "Saudi reciter and scholar (1953–2005), official imam of Masjid al-Haram from 1981 to 1983 and Ramadan guest imam from 1986 to 1989, lecturer in comparative fiqh at King Abdulaziz University in Jeddah, known as the King's Imam and famed for his melodic recitation."
+  ur: "سعودی قاری اور عالم (1953ء–2005ء)، 1981ء سے 1983ء تک مسجد الحرام کے سرکاری امام اور 1986ء سے 1989ء تک رمضان کے مہمان امام، جدہ کی کنگ عبدالعزیز یونیورسٹی میں فقہ مقارن کے مدرس، بادشاہ کے امام کے لقب اور دلکش تلاوت کے لیے مشہور۔"
+wings: [people]
+regions: [arabia]
+roles: [reciter, scholar, teacher]
+born: { edtf: "1953-08-27", hijri: "1372", calendar: gregorian, precision: day, status: debated, derived: false, note: "Date as carried here is the Arabic article's: its infobox, lead and lineage section give 18 Dhu al-Hijjah 1372 AH = 27 August 1953 at Jeddah, and the English article's own categories file him under 1953 births. The English article's text and infobox instead give August 1954 (Dhu al-Hijjah 1373), the Urdu article follows it, and Wikidata gives August 1954; the year therefore stands debated.", sources: [source/wikipedia-ali-jaber-ar, source/wikipedia-ali-jaber-en, source/wikidata-ali-jaber] }
+died: { edtf: "2005-12-14", hijri: "1426", calendar: gregorian, precision: day, status: historical, derived: false, note: "Died at Bugshan Hospital in Jeddah on 14 December 2005 (12 Dhu al-Qi'dah 1426) after an illness, and was buried the same day at al-Sharayea cemetery in Mecca after funeral prayers at Masjid al-Haram; all three articles and Wikidata agree on the date.", sources: [source/wikipedia-ali-jaber-en, source/wikipedia-ali-jaber-ar, source/wikidata-ali-jaber] }
+relations:
+  - { type: born_in, target: place/jeddah, note: "Born at Jeddah: the Arabic article's account of the family's Jeddah origin and the English article's text place the birth there, and Wikidata gives Jeddah; only the English infobox says Mecca.", sources: [source/wikipedia-ali-jaber-ar, source/wikidata-ali-jaber] }
+  - { type: died_in, target: place/jeddah, note: "Died at Bugshan Hospital, Jeddah.", sources: [source/wikipedia-ali-jaber-en, source/wikipedia-ali-jaber-ar] }
+  - { type: buried_in, target: place/mecca, note: "Buried at al-Sharayea cemetery in Mecca; no entity exists for the cemetery itself.", sources: [source/wikipedia-ali-jaber-en] }
+faith:
+  - value: unknown
+    basis: unknown
+    note: "No two independent sources name a school for him personally. The English article's unreferenced infobox gives Sunni, Hanbali and Athari; the Arabic infobox leaves its fiqh field empty (creed: Islam) and its text speaks of his family's adherence to the Book, the Sunna and the creed of the righteous predecessors and of his own preaching of their path — family background and method, not a school named for him; the Urdu article names no school, though its categories file him among Hanbalis; Wikidata gives Islam only. One structured tradition, so his school is not recorded."
+    sources: [source/wikipedia-ali-jaber-en, source/wikipedia-ali-jaber-ar, source/wikipedia-ali-jaber-ur, source/wikidata-ali-jaber]
+external_ids: { wikidata: "Q3093361" }
+sources: [source/wikipedia-ali-jaber-en, source/wikipedia-ali-jaber-ar, source/wikipedia-ali-jaber-ur, source/wikidata-ali-jaber]
+provenance: { layer: own-research, source: "Wikipedia EN/AR/UR articles and Wikidata item Q3093361, each read at its recorded revision 26 October 2026", generated_by: "Muse (Muse Spark 1.3)", run: century-additions-64 }
+status: { review: published, completeness: 2, generated_by: "Muse (Muse Spark 1.3)" }

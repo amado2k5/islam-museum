@@ -1,0 +1,28 @@
+id: person/salah-al-budair
+class: person
+label: { ar: "صلاح البدير", en: "Salah Al-Budair", ur: "صلاح البدیر" }
+names:
+  - { value: "صلاح بن محمد البدير", kind: full }
+  - { value: "Salah bin Muhammad Al-Budair", kind: full }
+  - { value: "صلاح البدير", kind: alternate }
+gender: male
+summary:
+  ar: "إمام وقاضٍ سعودي (وُلد 1970 بالهفوف)، إمام وخطيب المسجد النبوي منذ 1998 وإمام ضيف بالمسجد الحرام في 2005–2006، وقاضي محكمة المدينة العليا، حاصل على الدكتوراه في الفقه من جامعة الملك فيصل (2023)."
+  en: "Saudi imam and judge (born 1970 in Hofuf), imam and khatib of the Prophet's Mosque since 1998 and guest imam at Masjid al-Haram in 2005–06, judge of the Medina High Court, with a doctorate in fiqh from King Faisal University (2023)."
+  ur: "سعودی امام اور قاضی (پیدائش 1970ء، ہفوف)، 1998ء سے مسجد نبوی کے امام و خطیب اور 2005ء–2006ء میں مسجد الحرام کے مہمان امام، مدینہ کی ہائی کورٹ کے جج، کنگ فیصل یونیورسٹی سے فقہ میں ڈاکٹریٹ (2023ء)۔"
+wings: [people, living]
+regions: [arabia]
+roles: [reciter, scholar]
+born: { edtf: "1970-01-07", hijri: "1389", calendar: gregorian, precision: day, status: debated, derived: true, note: "The English article (citing People of Madina) and the French article give 7 January 1970 at Hofuf, the French pairing it with 1389 AH; the Arabic article pairs his January birth with 1390 AH alongside 1970, a loose year pairing since January 1970 falls in 1389 AH. Wikidata gives only the year 1971. The record carries 7 January 1970, with the year debated.", sources: [source/wikipedia-salah-al-budair-en, source/wikipedia-salah-al-budair-fr, source/wikipedia-salah-al-budair-ar, source/wikidata-salah-al-budair] }
+relations:
+  - { type: born_in, target: place/al-ahsa, note: "Born at Hofuf, in the Al-Ahsa governorate; no place entity exists for Hofuf itself.", sources: [source/wikipedia-salah-al-budair-en, source/wikipedia-salah-al-budair-ar] }
+  - { type: lived_in, target: place/medina, note: "Imam of the Prophet's Mosque and judge of the Medina High Court; the French article gives his domicile as Medina.", sources: [source/wikipedia-salah-al-budair-en, source/wikipedia-salah-al-budair-fr] }
+faith:
+  - value: unknown
+    basis: unknown
+    note: "No source names a school for him. The English infobox gives religion Islam only and its categories file him among Sunni imams and Saudi Sunni clerics; the Arabic infobox gives Muslim; the French article names no religion or school; the Urdu article names none in its text, though its categories likewise file him among Sunni imams; Wikidata carries no religion value at all. His doctorate examines a Hanafi author's compilation — scholarship on a school's text, not an attestation of the school, and his imamate and judgeship are offices. His school is not recorded."
+    sources: [source/wikipedia-salah-al-budair-en, source/wikipedia-salah-al-budair-ar, source/wikipedia-salah-al-budair-fr, source/wikipedia-salah-al-budair-ur, source/wikidata-salah-al-budair]
+external_ids: { wikidata: "Q3469504" }
+sources: [source/wikipedia-salah-al-budair-en, source/wikipedia-salah-al-budair-ar, source/wikipedia-salah-al-budair-fr, source/wikipedia-salah-al-budair-ur, source/wikidata-salah-al-budair]
+provenance: { layer: own-research, source: "Wikipedia EN/AR/FR/UR articles and Wikidata item Q3469504, each read at its recorded revision 26 October 2026", generated_by: "Muse (Muse Spark 1.3)", run: century-additions-64 }
+status: { review: published, completeness: 2, generated_by: "Muse (Muse Spark 1.3)" }

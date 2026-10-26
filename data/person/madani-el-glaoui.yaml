@@ -1,0 +1,49 @@
+id: person/madani-el-glaoui
+class: person
+label: { ar: "المدني الكلاوي", en: "Madani El Glaoui", ur: "مدنی الکلاوی" }
+names:
+  - { value: "المدني المزواري الكلاوي", kind: full }
+  - { value: "Madani El Mezouari El Glaoui", kind: full }
+  - { value: "Si El Madani El Glaoui", kind: alternate }
+  - { value: "الفقيه", kind: laqab }
+gender: male
+summary:
+  ar: "قائد مخزني مغربي (1860–1918) من أسرة الكلاوي بتلوات في الأطلس الكبير؛ عيّنه الحسن الأول خليفة على أقاليم الجنوب، وقاد صعود عبد الحفيظ إلى العرش سنة 1907، فصار الصدر الأعظم (1908–1911) قبل أن يُقال بضغط فرنسي، وهو الذي أسس نفوذ أسرته في المغرب."
+  en: "Moroccan Makhzen caid (1860–1918) of the Glaoui family of Telouet in the High Atlas. Appointed khalifa over the southern provinces by Hassan I, he led Abdelhafid's rise to the throne in 1907 and became Grand Vizier (1908–1911) before being dismissed under French pressure; he established his family's power in Morocco."
+  ur: "مراکشی مخزن قائد (1860–1918) جو اطلسِ کبیر کے تلوات کے الکلاوی خاندان سے تھے؛ حسن اول نے انہیں جنوبی صوبوں پر خلیفہ مقرر کیا، انہوں نے 1907 میں عبد الحفیظ کے عروج کی قیادت کی اور صدرِ اعظم (1908–1911) بنے، پھر فرانسیسی دباؤ پر برطرف ہوئے؛ مراکش میں اپنے خاندان کے اقتدار کی بنیاد انہی نے رکھی۔"
+roles: [vizier, politician]
+wings: [people]
+regions: [maghreb]
+born:
+  edtf: "1860"
+  hijri: "1276"
+  calendar: gregorian
+  precision: year
+  status: debated
+  derived: true
+  note: "Born at Telouet in the High Atlas (the Arabic article's infobox gives Tifoulatout). The English, Arabic and Wikidata give 1860; the French article gives 1860 or 1866, so the year is recorded as debated. Telouet has no place entity, so no born_in edge is written. The Hijri year is the tabular conversion."
+  sources: [source/wikipedia-madani-el-glaoui-en, source/wikipedia-madani-el-glaoui-fr, source/wikipedia-madani-el-glaoui-ar, source/wikidata-madani-el-glaoui]
+died:
+  edtf: "1918-08-14"
+  hijri: "1336"
+  calendar: gregorian
+  precision: day
+  status: debated
+  derived: true
+  note: "The French article's infobox and text give his death at Marrakech on 14 August 1918, and the Arabic infobox also places his death at Marrakech; the English lead gives only July 1918, so the day is recorded as debated. The Hijri year is the tabular conversion."
+  sources: [source/wikipedia-madani-el-glaoui-fr, source/wikipedia-madani-el-glaoui-ar, source/wikipedia-madani-el-glaoui-en]
+faith:
+  - value: unknown
+    basis: unknown
+    note: "No source names a school or affiliation for him personally. The Arabic infobox gives his religion as Islam only; Wikidata carries no religion value. The French text records that his political programme for the Hafidiya included defending religion, which is a programme, not a personal attestation, and the English article's nickname for him, 'the Faqih' (the Literate), is a laqab for his literacy, recorded in names and not an attestation. Morocco's Maliki rite is context, not evidence."
+    sources: [source/wikipedia-madani-el-glaoui-ar, source/wikipedia-madani-el-glaoui-fr, source/wikipedia-madani-el-glaoui-en, source/wikidata-madani-el-glaoui]
+relations:
+  - { type: died_in, target: place/marrakesh, sources: [source/wikipedia-madani-el-glaoui-fr, source/wikipedia-madani-el-glaoui-ar] }
+external_ids: { wikidata: "Q17344718" }
+sources: [source/wikipedia-madani-el-glaoui-en, source/wikipedia-madani-el-glaoui-fr, source/wikipedia-madani-el-glaoui-ar, source/wikidata-madani-el-glaoui]
+provenance:
+  layer: own-research
+  source: "English, French and Arabic Wikipedia articles on Madani El Glaoui, each fetched by its recorded revision id (EN 1361576219, FR 237448298, AR 74198727) with the returned id asserted equal before use, and Wikidata item Q17344718 (revision 2468958262). Existence checks by name fragments (Glaoui, el-Glaoui, Glawi, الكلاوي) and by QID across data/person and data/source found no prior record for him. The lane queue gives 1860–1918; the French article's alternative birth year 1866 and the English lead's July 1918 death month are disclosed as debated. No Urdu article exists; the Urdu prose is written from the three articles read (Labiba Ahmad precedent). The sibling edge to his brother Thami is written once, in Thami's record, not here."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: century-additions-60
+status: { review: published, generated_by: "Muse (Muse Spark 1.3)" }

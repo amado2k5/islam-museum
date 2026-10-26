@@ -1,0 +1,29 @@
+id: person/taimiyyah-zubair
+class: person
+label: { ar: "تيمية زبير", en: "Taimiyyah Zubair", ur: "تیمیہ زبیر" }
+names:
+  - { value: "Taimiyyah Zubair", kind: full }
+  - { value: "تيمية زبير", kind: full }
+gender: female
+summary:
+  ar: "معلمة قرآن وتفسير، وهي ابنة الدكتور إدريس زبير والدكتورة فرحت هاشمي مؤسسي منظمة الهدى العالمية. أكملت في منتصف مراهقتها أول دراسة لترجمة القرآن وتفسيره، ودرست النحو والفقه والتفسير، وتدرّس دراسات القرآن والحديث في معهد الهدى، وتنتشر محاضراتها عبر منصة مسلم سنترال."
+  en: "Teacher of Qur'an and tafsir, and the daughter of Dr Idrees Zubair and Dr Farhat Hashmi, the founders of Al Huda International. She completed her first study of the translation and tafseer of the Qur'an in her mid teens, studied Arabic grammar, fiqh and tafseer, and teaches Qur'an and Hadith studies at the AlHuda Institute; her lectures are carried by Muslim Central."
+  ur: "قرآن و تفسیر کی معلمہ، اور ڈاکٹر ادریس زبیر اور ڈاکٹر فرحت ہاشمی — الہدیٰ انٹرنیشنل کے بانیوں — کی بیٹی۔ انہوں نے کم عمری میں قرآن کے ترجمے و تفسیر کا پہلا مطالعہ مکمل کیا، عربی قواعد، فقہ اور تفسیر پڑھی، اور الہدیٰ انسٹیٹیوٹ میں قرآن و حدیث کی تعلیم دیتی ہیں؛ ان کے دروس مسلم سینٹرل پر شائع ہوتے ہیں۔"
+roles: [teacher]
+wings: [people, living]
+regions: [americas-oceania]
+relations:
+  - { type: child_of, target: person/farhat-hashmi, sources: [source/listennotes-taimiyyah-zubair] }
+  - { type: student_of, target: person/farhat-hashmi, sources: [source/listennotes-taimiyyah-zubair] }
+faith:
+  - value: unknown
+    basis: unknown
+    note: "No consulted source names a madhhab or sect affiliation for her personally. The Muslim Central biography names her teachers (her parents) and the subjects she studied and teaches; teachers and a course of study are not attestations, so no school is recorded."
+    sources: [source/listennotes-taimiyyah-zubair]
+sources: [source/listennotes-taimiyyah-zubair, source/podcastapp-taimiyyah-zubair]
+provenance:
+  layer: own-research
+  source: "Channel-batch row 338 ('Ustadha Taimiyyah Zubair'). Existence checks: name-fragment sweeps over data/person/ and data/source/ found no prior record (the zubair hits are other people); the grounded-QID sweep ran via web search and no Wikipedia article or Wikidata item was found for her, so no external_ids are recorded. SOURCING LIMIT, disclosed: every directory biography of her consulted (Listen Notes, TuneIn, The Podcast App, Audible) replicates the single biography published with her Muslim Central lecture feed, so the two registered sources are ONE text family, counted once, and every fact in this record traces to it. Relations direction: she is the child of Farhat Hashmi (person/farhat-hashmi) and studied under her; both edges are written once, here in her own record. Her father, Dr Idrees Zubair, has no museum record, so that kinship is carried in the prose only. No birth date is published in any consulted source, so no born block is written. Checked 26 October 2026."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: modern-figures-batch-59
+status: { review: published, generated_by: "Muse (Muse Spark 1.3)" }

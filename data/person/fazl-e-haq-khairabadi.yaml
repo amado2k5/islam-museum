@@ -1,0 +1,49 @@
+id: person/fazl-e-haq-khairabadi
+class: person
+label: { ar: "فضل حق خير آبادي", en: "Fazl-e-Haq Khairabadi", ur: "فضل حق خیر آبادی" }
+names:
+  - { value: "Fazl-e-Haq ibn Fazl-e-Imam Khairabadi", kind: full }
+  - { value: "فضل حق بن فضل إمام خير آبادي", kind: full }
+  - { value: "Fazle Haq Khairabadi", kind: alternate }
+  - { value: "Allama Fazl-e-Haq Khairabadi", kind: laqab }
+gender: male
+summary:
+  ar: "عالم وفيلسوف وشاعر هندي (1797–1861) من خير آباد، مفتٍ ومتكلم، درس الحديث على الشاه عبد القادر والشاه عبد العزيز الدهلويين، وحرّر أول ديوان لميرزا غالب، وردّ على «تقوية الإيمان» للشاه إسماعيل الدهلوي بكتابه «تحقيق الفتوى في إبطال الطغوى». في سنة 1857 أصدر من دلهي فتوى مؤيدة للجهاد ضد الحكم البريطاني، فحُكم عليه بالسجن المؤبد في جزر أندمان حيث توفي."
+  en: "Indian scholar, philosopher and poet (1797–1861) of Khairabad, a mufti and theologian who studied hadith under Shah Abd al-Qadir and Shah Abd al-Aziz Dehlvi, edited the first diwan of Mirza Ghalib, and answered Shah Ismail Dehlvi's Taqwiyat al-Iman with his Tahqeeq al-Fatwa fi Ibtal al-Taghwa. In 1857 he issued from Delhi a fatwa supporting jihad against British rule; he was sentenced to life imprisonment in the Andaman Islands, where he died."
+  ur: "ہندوستانی عالم، فلسفی اور شاعر (1797ء–1861ء)، خیرآباد سے تعلق؛ مفتی و متکلم، جنھوں نے شاہ عبدالقادر اور شاہ عبدالعزیز دہلوی سے حدیث پڑھی، مرزا غالب کے پہلے دیوان کی تدوین کی، اور شاہ اسماعیل دہلوی کی «تقویۃ الایمان» کا رد «تحقیق الفتویٰ فی ابطال الطغویٰ» میں لکھا۔ 1857ء میں دہلی سے انگریز حکومت کے خلاف جہاد کا فتویٰ دیا؛ کالا پانی کی سزا ہوئی اور جزائرِ انڈمان میں وفات پائی۔"
+roles: [scholar, jurist, theologian, philosopher, poet, activist]
+wings: [people]
+regions: [south-asia]
+born:
+  edtf: "1797"
+  hijri: "1212"
+  calendar: gregorian
+  precision: year
+  status: debated
+  derived: true
+  note: "Born at Khairabad in Awadh. The English article gives 1796 or 1797 — 1796 per the Indian History Congress, 1797 per Asir Adrawi and other sources, as its own note states; the Arabic and Urdu articles and Wikidata give 1797. The record follows 1797 and marks the year debated. The queue line's 1797 agrees with the majority. Khairabad has no place entity in the museum yet, so no born_in relation is written. The Hijri year is derived by tabular conversion."
+  sources: [source/wikipedia-fazl-e-haq-khairabadi-en, source/wikipedia-fazl-e-haq-khairabadi-ar, source/wikipedia-fazl-e-haq-khairabadi-ur, source/wikidata-fazl-e-haq-khairabadi]
+died:
+  edtf: "1861-08-19"
+  hijri: "1278"
+  calendar: gregorian
+  precision: day
+  status: debated
+  derived: true
+  note: "Died in exile in the Andaman Islands, where he had been imprisoned since October 1859. The English article gives 19 August 1861, citing Asir Adrawi's Tazkirah Mashaikh-e-Hind; the Arabic article and Wikidata give 20 August 1861. The record follows 19 August and marks the day debated. The Urdu article carries, from a single devotional website, a claim that he was hanged on 12 February 1861; no other source read supports it, and it is not followed. The Andaman Islands have no place entity in the museum yet, so no died_in relation is written. The Hijri year is derived by tabular conversion."
+  sources: [source/wikipedia-fazl-e-haq-khairabadi-en, source/wikipedia-fazl-e-haq-khairabadi-ar, source/wikipedia-fazl-e-haq-khairabadi-ur, source/wikidata-fazl-e-haq-khairabadi]
+relations:
+  - { type: student_of, target: person/shah-abd-al-aziz-dihlawi, sources: [source/wikipedia-fazl-e-haq-khairabadi-en] }
+faith:
+  - value: sunni-hanafi
+    basis: documented
+    note: "The English article's lead calls him a 'Hanafi mufti' and a 'Maturidi theologian', and its text states that he 'followed the Hanafi school of thought and was a theologian of the Maturidi school', citing his own al-Rawdh al-Mucawwad and Siddiq Hasan Khan's Abjad al-Ulum (Dar Ibn Hazm edition, 2002, p. 714); its infobox gives denomination Sunni, jurisprudence Hanafi and creed Maturidi. The Urdu article's infobox likewise gives his fiqh as Hanafi and his denomination as Sunni, and its lead places him among the scholars of Ahl al-Sunnah. The Arabic article names no school in its text (its Hanafi and Maturidi categories are filings and do not count), and Wikidata gives only Islam. The Maturidi creed named by the English article is recorded here in this note only: the museum's faith values have no Maturidi value and no compound sunni-maturidi value. His Sufi discipleship is also preserved here rather than segmented: the English article records, on a single institute website, that in Sufism he was a student of Hafiz Muhammad Ali Khairabadi, a Chishti khalifa in the line of Shah Sulaiman Tonswi, and Anil Sehgal (2001) — repeated by the Arabic article from the same book, one source family — says he was venerated as a great Sufi; a single attestation family does not meet the two-source bar for a sufi segment."
+    sources: [source/wikipedia-fazl-e-haq-khairabadi-en, source/wikipedia-fazl-e-haq-khairabadi-ur]
+external_ids: { wikidata: "Q5439206" }
+sources: [source/wikipedia-fazl-e-haq-khairabadi-en, source/wikipedia-fazl-e-haq-khairabadi-ar, source/wikipedia-fazl-e-haq-khairabadi-ur, source/wikidata-fazl-e-haq-khairabadi]
+provenance:
+  layer: own-research
+  source: "English Wikipedia 'Fazl-e-Haq Khairabadi' (revision 1375208763), Arabic Wikipedia 'Fazl-e-Haq Khairabadi' (revision 72262576), Urdu Wikipedia 'Fazl-e-Haq Khairabadi' (revision 12105672) and Wikidata item Q5439206 (item revision 2554570316), read via the MediaWiki API on 26 October 2026; every article was fetched by its recorded revision id and the returned id asserted equal before any claim was drawn. The queue line's dates (1797–1861) match the sources' majority on the years. Khairabad and the Andaman Islands have no place entities in the museum yet, so no born_in or died_in relation is written. His other named teachers — his father Fazl-e-Imam, Shah Abd al-Qadir Dehlvi and Hafiz Muhammad Ali Khairabadi — and his son Abdul Haq Khairabadi have no person records in the museum yet, so no further student_of or child relations are written."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: century-additions-66
+status: { review: published, generated_by: "Muse (Muse Spark 1.3)" }

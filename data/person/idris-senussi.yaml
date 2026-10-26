@@ -1,0 +1,51 @@
+id: person/idris-senussi
+class: person
+label: { ar: "محمد إدريس السنوسي", en: "Idris of Libya", ur: "محمد ادریس سنوسی" }
+names:
+  - { value: "محمد إدريس بن محمد المهدي السنوسي", kind: full }
+  - { value: "Muhammad Idris bin Muhammad al-Mahdi as-Senussi", kind: full }
+  - { value: "Idris I", kind: regnal }
+  - { value: "إدريس الأول", kind: regnal }
+gender: male
+summary:
+  ar: "ملك ليبيا (1889–1983)؛ وُلد بالجغبوب، وخلف ابن عمه أحمد الشريف في زعامة الطريقة السنوسية 1916، وصار أمير برقة ثم طرابلس، فنُفي إلى مصر زمن الاستعمار الإيطالي، ثم أُعلن ملكًا على المملكة الليبية المتحدة في 24 ديسمبر 1951 حتى أطاح به انقلاب 1 سبتمبر 1969، فعاش منفيًا في القاهرة حيث توفي ودُفن بالبقيع في المدينة المنورة."
+  en: "King of Libya (1889–1983). Born at Jaghbub, he succeeded his cousin Ahmed Sharif as head of the Senussi order in 1916, became Emir of Cyrenaica and then of Tripolitania, spent the Italian colonial period in exile in Egypt, and was proclaimed king of the United Kingdom of Libya on 24 December 1951; deposed by the coup of 1 September 1969, he lived in exile in Cairo, where he died, and was buried in Al-Baqi Cemetery, Medina."
+  ur: "لیبیا کے بادشاہ (1889–1983)؛ جغبوب میں پیدا ہوئے، 1916 میں اپنے چچا زاد احمد الشریف کے بعد سنوسی سلسلے کے سربراہ بنے، برقہ اور پھر طرابلس کے امیر ہوئے، اطالوی دور میں مصر میں جلاوطنی گزاری، اور 24 دسمبر 1951 کو متحدہ مملکتِ لیبیا کے بادشاہ قرار پائے؛ یکم ستمبر 1969 کی بغاوت میں معزول ہو کر قاہرہ میں جلاوطنی میں وفات پائی اور مدینہ کے جنت البقیع میں دفن ہوئے۔"
+roles: [politician, emir]
+wings: [people]
+regions: [maghreb]
+born:
+  edtf: "1889-03-12"
+  hijri: "1306"
+  calendar: gregorian
+  precision: day
+  status: debated
+  derived: true
+  note: "The English and French articles' texts give 12 March 1889 at Jaghbub, noting that some sources give the year as 1890; the Urdu article's infobox also gives 12 March 1889. Both other infoboxes, the Arabic article's lead and its life section give 1890, the Arabic pairing the day with 20 Rajab 1307 AH (12 March 1890), and Wikidata carries both 1889-03-12 and 1890-03-12. The English and French body-text date is followed, with the 1890 tradition disclosed; the lane queue also gives 1889. Jaghbub has no place entity, so no born_in edge is written."
+  sources: [source/wikipedia-idris-senussi-en, source/wikipedia-idris-senussi-fr, source/wikipedia-idris-senussi-ar, source/wikipedia-idris-senussi-ur, source/wikidata-idris-senussi]
+died:
+  edtf: "1983-05-25"
+  hijri: "1403"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "Died in Cairo on 25 May 1983 (all articles); buried in Al-Baqi Cemetery in Medina (English and Arabic articles)."
+  sources: [source/wikipedia-idris-senussi-en, source/wikipedia-idris-senussi-ar, source/wikipedia-idris-senussi-fr]
+faith:
+  - value: sufi
+    basis: documented
+    note: "Two independent article texts name his order membership personally, in the Talat Pasha pattern. The English text states that he was born into the Senussi Order and headed it from 1916; the Arabic text likewise states that he was born a member of the Senussi order and became its leader on his cousin's abdication. Both articles describe the Senusiyya as a Sufi order. His hereditary headship alone would not suffice; the membership statements carry this recording. No school is recorded alongside it: the English and French infoboxes give Sunni Islam, but no article text names a school for him personally — the texts call the Senussi themselves a revivalist Sunni movement, a description of the order as a body."
+    sources: [source/wikipedia-idris-senussi-en, source/wikipedia-idris-senussi-ar]
+relations:
+  - { type: died_in, target: place/cairo, sources: [source/wikipedia-idris-senussi-en, source/wikipedia-idris-senussi-ar] }
+  - { type: buried_in, target: place/medina, sources: [source/wikipedia-idris-senussi-en, source/wikipedia-idris-senussi-ar] }
+  - { type: child_of, target: person/muhammad-al-mahdi-al-sanusi, sources: [source/wikipedia-idris-senussi-en, source/wikipedia-idris-senussi-ar] }
+external_ids: { wikidata: "Q116430" }
+sources: [source/wikipedia-idris-senussi-fr, source/wikipedia-idris-senussi-ar, source/wikipedia-idris-senussi-en, source/wikipedia-idris-senussi-ur, source/wikidata-idris-senussi]
+provenance:
+  layer: own-research
+  source: "English, French, Arabic and Urdu Wikipedia articles on Idris of Libya, each fetched by its recorded revision id (EN 1377749507, FR 240485727, AR 76339850, UR 11477398) with the returned id asserted equal before use, and Wikidata item Q116430 (revision 2558581482). Existence checks by name fragments (Senussi, al-Sanusi, Idris, السنوسي, إدريس) and by QID across data/person and data/source found no prior record for Idris himself; his father Muhammad al-Mahdi al-Sanusi and his grandfather Muhammad ibn Ali al-Sanusi, founder of the order, already have records and are different people. The lane queue gives 1889–1983; the birth year is contested (1890 in several witnesses) and is recorded as debated."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: century-additions-58
+status: { review: published, generated_by: "Muse (Muse Spark 1.3)" }

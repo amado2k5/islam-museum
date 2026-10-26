@@ -1,0 +1,50 @@
+id: person/khalil-sakakini
+class: person
+label: { ar: "خليل السكاكيني", en: "Khalil Sakakini", ur: "خلیل السکاکینی" }
+names:
+  - { value: "خليل السكاكيني", kind: full }
+  - { value: "Khalil Sakakini", kind: full }
+  - { value: "Khalil al-Sakakini", kind: alternate }
+gender: male
+summary:
+  ar: "معلّم وكاتب وشاعر فلسطيني من القدس (1878–1953)، من رواد التربية الحديثة في العالم العربي؛ أسس المدرسة الدستورية في القدس سنة 1909 ومنع فيها العقاب البدني، وقاد حركة إصلاح الكنيسة الأرثوذكسية في فلسطين فحُرم كنسيًا، ولجأ إلى القاهرة سنة 1948 وتوفي فيها."
+  en: "Palestinian teacher, writer and poet from Jerusalem (1878–1953), a pioneer of modern education in the Arab world. He founded the Dusturiyyah school in Jerusalem in 1909 and banned corporal punishment there, led a movement to reform the Orthodox Church in Palestine and was excommunicated for it, and fled to Cairo in 1948, where he died."
+  ur: "یروشلم سے تعلق رکھنے والے فلسطینی معلم، مصنف اور شاعر (1878–1953)، عرب دنیا میں جدید تعلیم کے بانیوں میں سے ایک؛ انہوں نے 1909 میں یروشلم میں الدستوریہ اسکول قائم کیا اور وہاں جسمانی سزا پر پابندی لگائی، فلسطین میں آرتھوڈوکس کلیسا کی اصلاح کی تحریک چلائی جس پر انہیں کلیسا سے خارج کیا گیا، اور 1948 میں قاہرہ پناہ لی جہاں ان کا انتقال ہوا۔"
+roles: [teacher, scholar, poet, writer]
+wings: [people]
+regions: [levant-iraq]
+born:
+  edtf: "1878-01-23"
+  hijri: "1295"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "Born at Jerusalem. Both articles and Wikidata agree on 23 January 1878; the Arabic article's birth category pairs 1878 with 1295 AH."
+  sources: [source/wikipedia-khalil-sakakini-en, source/wikipedia-khalil-sakakini-ar, source/wikidata-khalil-sakakini]
+died:
+  edtf: "1953-08-13"
+  hijri: "1372"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "Died at Cairo, where he had lived since fleeing Jerusalem in 1948. Both articles and Wikidata agree on 13 August 1953; the Arabic article's death category pairs 1953 with 1372 AH."
+  sources: [source/wikipedia-khalil-sakakini-en, source/wikipedia-khalil-sakakini-ar, source/wikidata-khalil-sakakini]
+relations:
+  - { type: born_in, target: place/jerusalem, sources: [source/wikipedia-khalil-sakakini-en, source/wikipedia-khalil-sakakini-ar] }
+  - { type: lived_in, target: place/cairo, sources: [source/wikipedia-khalil-sakakini-en] }
+  - { type: died_in, target: place/cairo, sources: [source/wikipedia-khalil-sakakini-en, source/wikidata-khalil-sakakini] }
+faith:
+  - value: christian
+    basis: documented
+    note: "Recorded christian on two independent text traditions, following the Yacoub Artin settlement. The Arabic article names him personally in its lead — a Palestinian educator from Jerusalem, 'a Christian and an Arab nationalist' — and records his own campaign inside his church: the 1913 pamphlet 'The Orthodox Renaissance in Palestine', his founding of the Orthodox Brotherhood society, and his excommunication by the Orthodox church. The English article says he was born into a Palestinian Christian Orthodox family — family framing — and independently records the same personal membership acts: he led a movement to reform the Greek Orthodox Church of Jerusalem, published the 1913 pamphlet, and was excommunicated by that church; an excommunication is an act directed at a member personally. Each tradition thus attests him personally, the Arabic by naming, the English by his recorded membership and its formal withdrawal. The branch is not separately recorded: the value is christian, with the Orthodox church of Jerusalem the church both texts describe him in. The filings agree (the English article's 'Greek Orthodox Christians from Palestine', the Arabic article's 'Palestinian Eastern Orthodox'), and Wikidata carries one structured value, Eastern Orthodoxy — neither counted, both consistent."
+    sources: [source/wikipedia-khalil-sakakini-en, source/wikipedia-khalil-sakakini-ar, source/wikidata-khalil-sakakini]
+external_ids: { wikidata: "Q2777797" }
+sources: [source/wikipedia-khalil-sakakini-en, source/wikipedia-khalil-sakakini-ar, source/wikidata-khalil-sakakini]
+provenance:
+  layer: own-research
+  source: "English and Arabic Wikipedia and Wikidata Q2777797, each read at the revision recorded in its source file and checked on 26 October 2026"
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: century-additions-54
+status: { review: published, generated_by: "Muse (Muse Spark 1.3)" }

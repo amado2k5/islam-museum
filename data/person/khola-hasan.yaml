@@ -1,0 +1,26 @@
+id: person/khola-hasan
+class: person
+label: { ar: "خولة حسن", en: "Khola Hasan", ur: "خولہ حسن" }
+names:
+  - { value: "Khola Hasan", kind: full }
+  - { value: "خولة حسن", kind: full }
+gender: female
+summary:
+  ar: "كاتبة ومذيعة بريطانية ومديرة مكتب المجلس الشرعي الإسلامي في لندن ومستشارة فيه. وُلدت في السعودية ودرست المرحلة الابتدائية في كينيا وقضت معظم حياتها في لندن، وألّفت في السابعة عشرة كتاب «مآذن إسبانيا المتهاوية»، وشاركت في مناظرات ومحافل إعلامية منها مناظرة راديو بي بي سي 4 سنة 2005 ومناظرات الدوحة."
+  en: "British writer and broadcaster, and Office Director and Counsellor at the Islamic Shariah Council in London. Born in Saudi Arabia and primary-schooled in Kenya, she has spent most of her life in London; at seventeen she authored The Crumbling Minarets of Spain, and she has taken part in broadcast debates including the BBC Radio 4 'Women in Islam' debate of 2005 and the Doha Debates."
+  ur: "برطانوی مصنفہ و نشریاتی شخصیت، اور لندن میں اسلامی شریعہ کونسل کی دفتر ڈائریکٹر و مشیر۔ سعودی عرب میں پیدا ہوئیں، ابتدائی تعلیم کینیا میں حاصل کی اور بیشتر زندگی لندن میں گزاری؛ سترہ برس کی عمر میں کتاب «The Crumbling Minarets of Spain» لکھی، اور 2005 کی بی بی سی ریڈیو 4 مناظرے اور دوحہ ڈیبیٹس سمیت نشریاتی مباحثوں میں حصہ لیا۔"
+roles: [writer, teacher]
+wings: [people, living]
+regions: [andalus-europe]
+faith:
+  - value: unknown
+    basis: unknown
+    note: "No consulted source names a madhhab or sect affiliation for her personally. The Islamic Sharia Council profile names her teachers and studies, and the publisher's catalogue lists her books; teachers, studies and institutional office are not attestations, so no school is recorded."
+    sources: [source/islamic-sharia-khola-hasan]
+sources: [source/islamic-sharia-khola-hasan, source/darussalam-catalogue-khola-hasan]
+provenance:
+  layer: own-research
+  source: "Channel-batch row 340 ('Ustadha Khola Hasan'). Existence checks: name-fragment sweeps over data/person/ and data/source/ found no prior record (the hasan hits are classical namesakes); the grounded-QID sweep ran via web search and no Wikipedia article or Wikidata item was found for her, so no external_ids are recorded. The record rests on her Islamic Sharia Council team profile, read in full on 26 October 2026, and on the Darussalam books catalogue's entries for her works. No birth date is published in any consulted source, so no born block is written; the Council profile says she authored her first book at seventeen, which is recorded as such and not converted into a birth year."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: modern-figures-batch-59
+status: { review: published, generated_by: "Muse (Muse Spark 1.3)" }

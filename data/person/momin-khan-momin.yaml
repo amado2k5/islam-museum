@@ -1,0 +1,48 @@
+id: person/momin-khan-momin
+class: person
+label: { ar: "مؤمن خان مؤمن", en: "Momin Khan Momin", ur: "مومن خان مومن" }
+names:
+  - { value: "Momin", kind: pen }
+  - { value: "Hakeem Khan", kind: alternate }
+gender: male
+summary:
+  ar: "شاعر أردي وحكيم (طبيب يوناني) من أواخر عصر المغول في دلهي (1800–1852). وُلد في دلهي لأسرة من أصل كشميري احترفت الطب، فتدرّب حكيمًا ثم غلب عليه الشعر. كان معاصرًا لغالب وذوق وأقلّ منهما شهرة، وخلّف ديوانًا وست مثنويات، ويُروى أن غالبًا عرض ديوانه كله مقابل بيت واحد من أبياته."
+  en: "Urdu poet and hakim (Unani physician) of late Mughal Delhi (1800–1852). Born in Delhi to a family of Kashmiri origin that practised medicine, he trained as a hakim before poetry took over his life. A less famous contemporary of Ghalib and Zauq, he left a divan and six masnavis; legend has Ghalib offering his whole divan in exchange for a single verse of Momin's."
+  ur: "متاخر مغل دہلی کے اردو شاعر اور حکیم (1800ء–1852ء)۔ دہلی میں کشمیری اصل کے ایک طبیب خاندان میں پیدا ہوئے، حکیمی کی تربیت پائی مگر شاعری غالب آ گئی۔ غالب اور ذوق کے کم مشہور ہم عصر تھے؛ ایک دیوان اور چھ مثنویاں چھوڑے، اور روایت ہے کہ غالب نے ان کے ایک شعر کے بدلے اپنا پورا دیوان پیش کیا تھا۔"
+roles: [poet, physician]
+wings: [people]
+regions: [south-asia]
+born:
+  edtf: "1800"
+  hijri: "1215"
+  calendar: gregorian
+  precision: year
+  status: debated
+  derived: true
+  note: "The English and Arabic articles give his birth in 1800 at Delhi; Wikidata gives 1801. The record follows 1800, on the two articles, and marks the year debated. The Hijri year is derived by tabular conversion."
+  sources: [source/wikipedia-momin-khan-momin-en, source/wikipedia-momin-khan-momin-ar, source/wikidata-momin-khan-momin]
+died:
+  edtf: "1852-05-14"
+  hijri: "1268"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: false
+  note: "The English article states that he died on 24 Rajab 1268 AH, which it pairs with 14 May 1852, after falling from the roof of his house in Delhi; the Arabic article's lead and Wikidata give the same Gregorian day. The Arabic article's infobox gives 1854, at odds with its own lead, and is not followed. He is buried in the Mehdiyan cemetery in Delhi. The queue line's death year, 1851, is attested by no source read."
+  sources: [source/wikipedia-momin-khan-momin-en, source/wikipedia-momin-khan-momin-ar, source/wikidata-momin-khan-momin]
+relations:
+  - { type: born_in, target: place/delhi, sources: [source/wikipedia-momin-khan-momin-en, source/wikipedia-momin-khan-momin-ar] }
+  - { type: died_in, target: place/delhi, sources: [source/wikipedia-momin-khan-momin-en] }
+faith:
+  - value: unknown
+    basis: unknown
+    note: "No source read names a school or order for him. The English and Arabic articles state that he was born into a Muslim family of Kashmiri origin; the English article's categories file him under 'Indian Sufi saints' and the Urdu article's categories under the Sufi saints of India — filings, not attestations, and no text in any article describes a personal Sufi affiliation or discipleship. His second marriage, to a relative of the Sufi poet Khwaja Mir Dard, is a family connection, not an affiliation. Wikidata gives Islam only. Muslim identity is attested and no school is named, so under the doubt rule the value is recorded unknown, with the evidence preserved here."
+    sources: [source/wikipedia-momin-khan-momin-en, source/wikipedia-momin-khan-momin-ar, source/wikipedia-momin-khan-momin-ur, source/wikidata-momin-khan-momin]
+external_ids: { wikidata: "Q3635814" }
+sources: [source/wikipedia-momin-khan-momin-en, source/wikipedia-momin-khan-momin-ar, source/wikipedia-momin-khan-momin-ur, source/wikidata-momin-khan-momin]
+provenance:
+  layer: own-research
+  source: "English Wikipedia 'Momin Khan Momin' (revision 1371374343), Arabic Wikipedia 'مؤمن خان مؤمن' (revision 73831002), Urdu Wikipedia 'مومن خان مومن' (revision 11800331) and Wikidata item Q3635814 (item revision 2559748681), read via the MediaWiki API on 26 October 2026; every article was fetched by its recorded revision id and the returned id asserted equal before any claim was drawn. The queue line's dates (1800–1851) carry a wrong death year: the sources give 14 May 1852. Existence was checked by filename fragments, by Arabic label and by the QID route; no earlier record exists."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: century-additions-67
+status: { review: published, generated_by: "Muse (Muse Spark 1.3)" }

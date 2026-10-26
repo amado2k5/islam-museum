@@ -1,0 +1,29 @@
+id: person/almoez-ali
+class: person
+label: { ar: "المعز علي", en: "Almoez Ali", ur: "المعز علی" }
+names:
+  - { value: "Almoez Ali", kind: full }
+  - { value: "Almoez Ali Zainalabedeen Mohamed Abdulla", kind: full }
+  - { value: "المعز علي زين العابدين عبد الله", kind: full }
+gender: male
+summary:
+  ar: "مهاجم وُلد في الخرطوم بالسودان سنة 1996 وانتقل إلى قطر طفلًا، وهو قائد الدحيل والهداف التاريخي لمنتخب قطر. سجل تسعة أهداف قياسية في نسخة واحدة من كأس آسيا (2019) ونال جائزة أفضل لاعب في تلك البطولة، وهو اللاعب الوحيد الذي سجل في كأس آسيا وكوبا أمريكا والكأس الذهبية."
+  en: "Striker born in Khartoum, Sudan, in 1996 who moved to Qatar as a child; he captains Al-Duhail and is Qatar's all-time top scorer. He scored a record nine goals in a single AFC Asian Cup edition (2019) and was named that tournament's best player, and he is the only footballer to have scored at the Asian Cup, the Copa América and the CONCACAF Gold Cup."
+  ur: "اسٹرائیکر، 1996 میں خرطوم، سوڈان میں پیدا ہوئے اور بچپن میں قطر منتقل ہوئے؛ وہ الدحیل کے کپتان اور قطر کے ہم وقتی سب سے بڑے گول اسکورر ہیں۔ انہوں نے ایشین کپ کے ایک ہی ایڈیشن میں ریکارڈ نو گول کیے (2019) اور اس ٹورنامنٹ کے بہترین کھلاڑی قرار پائے؛ وہ واحد فٹبالر ہیں جنہوں نے ایشین کپ، کوپا امریکا اور کونکاکاف گولڈ کپ تینوں میں گول کیا۔"
+roles: [athlete]
+wings: [people, living]
+regions: [arabia]
+born: { edtf: "1996-08-19", hijri: "1417", calendar: gregorian, precision: day, status: historical, derived: true, note: "Born on 19 August 1996 in Khartoum, Sudan, and moved to Qatar at an early age, per the English article; Wikidata gives the same date and the Khartoum birthplace. The Hijri year is a tabular conversion. The museum has no place entity for Khartoum, so no born_in edge is written.", sources: [source/wikipedia-almoez-ali-en, source/wikidata-almoez-ali] }
+faith:
+  - value: unknown
+    basis: unknown
+    note: "No affiliation is recorded: none of the English, Arabic or Urdu articles states his religion in text or categories, and Wikidata has no religion value for him at all. His Sudanese birth and descent are nationality and family background, which never attest a personal affiliation, and no source names a school for him."
+    sources: [source/wikipedia-almoez-ali-en, source/wikipedia-almoez-ali-ar, source/wikipedia-almoez-ali-ur, source/wikidata-almoez-ali]
+external_ids: { wikidata: "Q21011188" }
+sources: [source/wikipedia-almoez-ali-en, source/wikipedia-almoez-ali-ar, source/wikipedia-almoez-ali-ur, source/wikidata-almoez-ali]
+provenance:
+  layer: own-research
+  source: "English Wikipedia (revision 1379236913 of 8 October 2026), Arabic Wikipedia (revision 77009284 of 18 October 2026), Urdu Wikipedia (revision 11496636 of 8 July 2026, a bot stub) and Wikidata Q21011188, each read on 26 October 2026; every article was fetched by its recorded revision id and the returned revision asserted equal before any claim was drawn. Existence checked both routes: no Almoez record by name-fragment sweep over data/person/, and Q21011188 was searched across data/person/ and data/source/ with no hit; the QID was pinned by biography (Qatari footballer, born 19 August 1996 at Khartoum). This is a new build. Region is arabia for his Qatar career and national team, his Sudanese birth being carried in the born note and prose. No relations are written: the museum has no place entity for Khartoum."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: century-additions-54
+status: { review: published, generated_by: "Muse (Muse Spark 1.3)" }

@@ -1,0 +1,51 @@
+id: person/abd-al-hafid-of-morocco
+class: person
+label: { ar: "عبد الحفيظ بن الحسن", en: "Abd al-Hafid of Morocco", ur: "عبد الحفیظ بن الحسن" }
+names:
+  - { value: "عبد الحفيظ بن الحسن العلوي", kind: full }
+  - { value: "Abd al-Hafid ibn al-Hasan al-Alawi", kind: full }
+  - { value: "Moulay Abdelhafid", kind: alternate }
+  - { value: "الغازي", kind: laqab }
+gender: male
+summary:
+  ar: "سلطان المغرب من الأسرة العلوية (حكم 1908–1912)؛ ابن الحسن الأول، كان خليفة بمراكش وعالِمًا وشاعرًا ومؤلفًا، قاد «الحفيظية» ضد أخيه عبد العزيز، ثم وقّع معاهدة فاس 1912 التي قامت بها الحماية الفرنسية وتنازل عن العرش، وقضى سنواته الأخيرة بين طنجة وفرنسا حتى توفي بأنجيان لي بان ودُفن بفاس."
+  en: "Sultan of Morocco of the Alawi dynasty (reigned 1908–1912). A son of Hassan I, he was governor of Marrakesh and a scholar, poet and author; he led the Hafidiya against his brother Abdelaziz, then signed the Treaty of Fes in 1912, which established the French protectorate, and abdicated; he spent his last years between Tangier and France, dying at Enghien-les-Bains and being buried at Fez."
+  ur: "علوی سلسلے کے سلطانِ مراکش (دورِ حکومت 1908–1912)؛ حسن اول کے صاحبزادے، مراکش کے خلیفہ اور عالم، شاعر و مصنف تھے؛ اپنے بھائی عبد العزیز کے خلاف «حفیظیہ» کی قیادت کی، پھر 1912 میں معاہدۂ فاس پر دستخط کیے جس سے فرانسیسی زیرِ حمایت نظام قائم ہوا اور تخت سے دستبردار ہو گئے؛ آخری سال طنجہ و فرانس میں گزارے اور اینگیاں لے بان میں وفات پا کر فاس میں دفن ہوئے۔"
+roles: [sultan, scholar, poet, writer]
+wings: [people]
+regions: [maghreb]
+born:
+  edtf: "1875~"
+  hijri: "1292"
+  calendar: gregorian
+  precision: year
+  status: debated
+  derived: true
+  note: "Born at Fez. The English article, citing Britannica and Burke's encyclopaedia entry, gives only 'between 1875 and 1880'; the Arabic article gives the precise 24 February 1876, the French article 1876, and the Urdu article 24 February 1875 while noting that some sources give 1875 or 1880 without a day. Wikidata and the lane queue give 1875. The year 1875 is recorded as approximate with the full spread disclosed. The Hijri year is the tabular conversion."
+  sources: [source/wikipedia-abd-al-hafid-of-morocco-en, source/wikipedia-abd-al-hafid-of-morocco-ar, source/wikipedia-abd-al-hafid-of-morocco-fr, source/wikipedia-abd-al-hafid-of-morocco-ur, source/wikidata-abd-al-hafid-of-morocco]
+died:
+  edtf: "1937-04-04"
+  hijri: "1356"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "Died at Enghien-les-Bains, France, on 4 April 1937 (all articles; the Arabic article's classification gives the year 1356 AH, which the tabular conversion confirms). His body was taken to Fez and buried in the royal mausoleum of the Moulay Abdallah Mosque (English article). Enghien-les-Bains has no place entity, so no died_in edge is written."
+  sources: [source/wikipedia-abd-al-hafid-of-morocco-en, source/wikipedia-abd-al-hafid-of-morocco-ar, source/wikipedia-abd-al-hafid-of-morocco-fr]
+faith:
+  - value: sufi
+    basis: documented
+    note: "Recorded for his final affiliation. Two independent article texts name his personal affiliation with the Tijaniyya, a Sufi order: the English text, citing Abun-Nasr, states that after abdicating he turned to Sufism, joining the Tijaniyya, and in 1922 wrote a volume of verse on the order's history praising the Sufis, published at Tunis in 1930; the French text states that he became a master of the Tariqa Tijaniyya. His earlier phase is not recorded: the English text and infobox describe Salafiyya influence on him before 1912 and his book against the Sufi orders, but the enum has no salafi value and a movement affiliation naming no school is not recorded (the lane's movement-without-school pattern); the French infobox gives only Sunni Islam, the Arabic article files him under Moroccan Salafis (a category filing), and Wikidata gives only Islam. No madhhab is named for him personally in any text."
+    sources: [source/wikipedia-abd-al-hafid-of-morocco-en, source/wikipedia-abd-al-hafid-of-morocco-fr]
+relations:
+  - { type: born_in, target: place/fez, sources: [source/wikipedia-abd-al-hafid-of-morocco-en, source/wikipedia-abd-al-hafid-of-morocco-ar] }
+  - { type: buried_in, target: place/fez, sources: [source/wikipedia-abd-al-hafid-of-morocco-en] }
+  - { type: child_of, target: person/hassan-i-of-morocco, sources: [source/wikipedia-abd-al-hafid-of-morocco-en, source/wikipedia-abd-al-hafid-of-morocco-ar, source/wikipedia-abd-al-hafid-of-morocco-fr] }
+external_ids: { wikidata: "Q276936" }
+sources: [source/wikipedia-abd-al-hafid-of-morocco-en, source/wikipedia-abd-al-hafid-of-morocco-ar, source/wikipedia-abd-al-hafid-of-morocco-fr, source/wikipedia-abd-al-hafid-of-morocco-ur, source/wikidata-abd-al-hafid-of-morocco]
+provenance:
+  layer: own-research
+  source: "English, Arabic, French and Urdu Wikipedia articles on Abd al-Hafid of Morocco, each fetched by its recorded revision id (EN 1375713159, AR 75540862, FR 236362054, UR 7712587) with the returned id asserted equal before use, and Wikidata item Q276936 (revision 2533218347). Existence checks by name fragments (Abdelhafid, Abd al-Hafid, عبد الحفيظ) and by QID across data/person and data/source found no prior record for him. The lane queue gives 1875–1937; the birth year is genuinely unsettled in the sources (1875–1880 spread) and is recorded as approximate with the variants disclosed. The child_of edge to his father Hassan I, built in this same run, is written here in the son's record only."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: century-additions-59
+status: { review: published, generated_by: "Muse (Muse Spark 1.3)" }

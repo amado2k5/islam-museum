@@ -1,0 +1,51 @@
+id: person/hassan-i-of-morocco
+class: person
+label: { ar: "الحسن الأول بن محمد", en: "Hassan I of Morocco", ur: "الحسن بن محمد" }
+names:
+  - { value: "أبو علي الحسن بن محمد", kind: full }
+  - { value: "Abu Ali al-Hasan ibn Muhammad", kind: full }
+  - { value: "Hassan I", kind: regnal }
+  - { value: "الحسن الأول", kind: regnal }
+  - { value: "مولاي الحسن", kind: laqab }
+gender: male
+summary:
+  ar: "سلطان المغرب من الأسرة العلوية (حكم 1873–1894)؛ وُلد بفاس، وخلف أباه محمد الرابع، فحدّث الجيش والإدارة وقاد حملات سنوية لتوحيد البلاد، وحافظ على استقلال المغرب أمام الأطماع الأوروبية فانعقد في عهده مؤتمر مدريد 1880، وتوفي أثناء حملة بتادلة ودُفن بالرباط."
+  en: "Sultan of Morocco of the Alawi dynasty (reigned 1873–1894). Born at Fez, he succeeded his father Muhammad IV, modernised the army and administration, campaigned yearly to hold the country together, and preserved Morocco's independence against European encroachment, the Madrid Conference of 1880 falling in his reign; he died on campaign in the Tadla region and was buried in Rabat."
+  ur: "علوی سلسلے کے سلطانِ مراکش (دورِ حکومت 1873–1894)؛ فاس میں پیدا ہوئے، والد محمد چہارم کے جانشین بنے، فوج و انتظامیہ کو جدید خطوط پر استوار کیا، ملک کو متحد رکھنے کے لیے سالانہ مہمات چلائیں، یورپی تجاوزات کے مقابل مراکش کی آزادی برقرار رکھی؛ انہی کے دور میں 1880 کی میڈرڈ کانفرنس ہوئی، اور تادلہ کی مہم کے دوران وفات پا کر رباط میں دفن ہوئے۔"
+roles: [sultan]
+wings: [people]
+regions: [maghreb]
+born:
+  edtf: "1836"
+  hijri: "1252"
+  calendar: gregorian
+  precision: year
+  status: debated
+  derived: true
+  note: "The Arabic, French and Urdu articles and Wikidata give 1836, at Fez. The English article gives '1836 or 1857', the 1857 figure resting on Britannica; the 1836 tradition, carried by four witnesses and the lane queue, is followed and the variant disclosed. The Hijri year is the tabular conversion of the Gregorian year."
+  sources: [source/wikipedia-hassan-i-of-morocco-ar, source/wikipedia-hassan-i-of-morocco-fr, source/wikipedia-hassan-i-of-morocco-ur, source/wikidata-hassan-i-of-morocco, source/wikipedia-hassan-i-of-morocco-en]
+died:
+  edtf: "1894-06-09"
+  hijri: "1311"
+  calendar: gregorian
+  precision: day
+  status: debated
+  derived: true
+  note: "Died on campaign near Wadi al-Ubayd in the Tadla region. The English article gives 9 June 1894; the French article and Wikidata give 7 June 1894; the Arabic article, citing al-Nasiri's al-Istiqsa, dates his death to the night of 3 Dhu al-Hijja 1311 AH, which it equates to 6 June 1894. The English date is followed with both variants disclosed. He was buried at the Dar al-Makhzen in Rabat; Rabat has no place entity, so no buried_in edge is written."
+  sources: [source/wikipedia-hassan-i-of-morocco-en, source/wikipedia-hassan-i-of-morocco-ar, source/wikipedia-hassan-i-of-morocco-fr, source/wikidata-hassan-i-of-morocco]
+faith:
+  - value: unknown
+    basis: unknown
+    note: "The English article's infobox gives his religion as Maliki (Sunni Islam) and the French article's infobox gives Sunni Islam; no article text names a school for him personally, and Wikidata carries no religion value at all. Two structured values of differing specificity with no text attestation do not meet the two-source rule; Morocco's Maliki rite and his royal style Amir al-Mu'minin are context and office, not personal attestation. Recorded unknown under the doubt rule."
+    sources: [source/wikipedia-hassan-i-of-morocco-en, source/wikipedia-hassan-i-of-morocco-fr, source/wikidata-hassan-i-of-morocco]
+relations:
+  - { type: born_in, target: place/fez, sources: [source/wikipedia-hassan-i-of-morocco-en, source/wikipedia-hassan-i-of-morocco-ar] }
+  - { type: died_in, target: place/tadla, sources: [source/wikipedia-hassan-i-of-morocco-en, source/wikipedia-hassan-i-of-morocco-ar] }
+external_ids: { wikidata: "Q496845" }
+sources: [source/wikipedia-hassan-i-of-morocco-en, source/wikipedia-hassan-i-of-morocco-ar, source/wikipedia-hassan-i-of-morocco-fr, source/wikipedia-hassan-i-of-morocco-ur, source/wikidata-hassan-i-of-morocco]
+provenance:
+  layer: own-research
+  source: "English, Arabic, French and Urdu Wikipedia articles on Hassan I of Morocco, each fetched by its recorded revision id (EN 1375711629, AR 76964863, FR 240182676, UR 10231241) with the returned id asserted equal before use, and Wikidata item Q496845 (revision 2503113552). Existence checks by name fragments (Hassan, al-Hasan, الحسن) and by QID across data/person and data/source found no prior record for him. The lane queue gives 1836–1894; the sources contest both ends (birth 1836 or 1857; death 6, 7 or 9 June 1894) and the record follows the best-attested readings with all variants disclosed in the notes. His son Abd al-Hafid, built in this same run, carries the child_of edge to this record."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: century-additions-59
+status: { review: published, generated_by: "Muse (Muse Spark 1.3)" }

@@ -1,0 +1,30 @@
+---
+id: person/shah-ismail-dehlvi
+lang: en
+source_lang: ar
+translators: []
+---
+# Shah Ismail Dehlvi
+
+## Summary
+Shah Ismail Dehlvi (1779–1831), full name Shah Muhammad Ismail ibn Abd al-Ghani al-Dehlvi, was an Indian Sunni scholar, Naqshbandi Sufi reformer and jurist, and, alongside Syed Ahmad Barelvi, a founding figure of the Tariqah-i-Muhammadiyah, the reform and jihad movement that fought the Sikh Empire and later fed into decades of anti-colonial uprisings in British India. He is regarded as an important influence on both the Ahl-i Hadith and the Deobandi movements, and is revered as a shahid (martyr). He is not Shah Ismail I, the founder of Safavid Persia. {cite:wikipedia-shah-ismail-dehlvi-en} {cite:wikidata-shah-ismail-dehlvi}
+
+His birth date carries a disagreement of days: the Arabic and Urdu articles and Wikidata give 29 April 1779 (the Arabic article gives the Hijri date as 12 Rabi' al-Akhir 1193 AH), while the English article gives 26 April 1779. The record follows 29 April and marks the day debated. His birthplace is given as Muzaffarnagar by the English and Arabic articles and Wikidata; the Urdu article's text says Delhi. {cite:wikipedia-shah-ismail-dehlvi-en} {cite:wikipedia-shah-ismail-dehlvi-ar} {cite:wikipedia-shah-ismail-dehlvi-ur} {cite:wikidata-shah-ismail-dehlvi}
+
+## Early life and education
+He was the grandson of Shah Waliullah Dehlvi through his son Shah Abdul Ghani. His father died in his childhood, and he was raised under his uncle Abd al-Qadir, with whom he read the curriculum books; he also studied at length with his uncles Rafi' al-Din and Abd al-Aziz, and the Urdu article records that he took his hadith licence (sanad) from Shah Abd al-Aziz. He was educated at the Madrasah-i Rahimiyah in Delhi. {cite:wikipedia-shah-ismail-dehlvi-en} {cite:wikipedia-shah-ismail-dehlvi-ar} {cite:wikipedia-shah-ismail-dehlvi-ur}
+
+He then attached himself to Syed Ahmad of Rae Bareli: the Arabic article says he accompanied him constantly, travelled with him to the Hijaz in 1237 AH (1821–1823) and toured the country preaching by his order for two years, and the Urdu article records that he completed the path of suluk — the Sufi path — under Syed Ahmad, calling him his pir and murshid. In the movement he served, in the Arabic article's phrase, like a vizier to the imam, organising the armies and fighting in the great battles in person. {cite:wikipedia-shah-ismail-dehlvi-ar} {cite:wikipedia-shah-ismail-dehlvi-ur}
+
+## The movement and his writings
+The teachings of the Tariqah-i-Muhammadiyah were set out in two works associated with him: Sirat al-Mustaqim (The Straight Path), compiled by Shah Ismail in 1819 from Syed Ahmad's teaching, first in Persian and then translated into Urdu, and Taqwiyat al-Iman (Strengthening of the Faith), written directly in Urdu. According to Barbara Metcalf, the two works emphasised the centrality of tawhid and condemned the practices and beliefs held to compromise it; the movement's followers identified three sources of threat: false Sufism, Shi'a doctrines and practices, and popular customs. In Sirat al-Mustaqim he wrote that a large part of Hindustan had become dar al-harb (the abode of war), so that jihad was obligatory for its Muslims. {cite:wikipedia-shah-ismail-dehlvi-en}
+
+His other works include Idah al-Haqq al-Sarih on the true nature of the Sunna and of innovation, Mansab-i Imamat on the office of prophethood and imamate, Tanwir al-Aynayn on raising the hands in prayer, and the Abaqat on philosophy and wisdom, besides treatises in logic. {cite:wikipedia-shah-ismail-dehlvi-ar}
+
+## Faith
+In this museum his faith is recorded in two documented segments. For the Sufi affiliation: the English article calls him a Naqshbandi Sufi reformer, citing scholarship for whom he and Syed Ahmad "belonged to the Chishti and Naqshbandi orders, respectively", and the Oxford Encyclopedia of the Modern Islamic World describes him as affiliated to a branch of the activist Naqshbandi order; the Urdu article independently records his completion of the Sufi path under Syed Ahmad Barelvi. For the legal school: the English article calls him a Hanafi jurist, citing Mukhtar Ahmad Ali's statement that he "strictly remained within the Hanafi School", and quotes M. Reza Pirbhai that he narrowed legal opinion to acknowledge only Abu Hanifa's rulings where the texts were not specific. The counter-reading is recorded in his data, not suppressed: the same article reports that he has been identified varyingly as a Hanafi or as a ghayr muqallid (one who follows no school), that it has been argued he repudiated taqlid, and that Ashraf Ali Thanwi cited him as performing raf' al-yadayn, a practice alien to the Hanafi school. The museum records the Hanafi value on the scholarly attestations in the article's text and preserves the debate in the note, exactly as for Syed Ahmad Barelvi. {cite:wikipedia-shah-ismail-dehlvi-en} {cite:wikipedia-shah-ismail-dehlvi-ur}
+
+## Balakot and legacy
+In 1826 he went with Syed Ahmad to the Peshawar valley, where the mujahidin established their short-lived Islamic state, fought the Sikhs at Akora Khattak and took Peshawar in 1830, before tribal uprisings and Sikh pressure forced a retreat to the hills. On 6 May 1831 Shah Ismail and Syed Ahmad were both killed at Balakot, fighting the army of Ranjit Singh. {cite:wikipedia-shah-ismail-dehlvi-en} {cite:wikipedia-shah-ismail-dehlvi-ar}
+
+Their opponents labelled the movement's followers "Wahhabis"; the followers themselves used the name Tariqah-i-Muhammadiyah. The movement's own self-understanding was Sufi: Sufism was integral to its doctrine, it presented itself as standing in the school of Shah Waliullah and the Madrasah-i Rahimiyah tradition, and its teachings were widely adopted by the Indian Naqshbandis of the period. Historians trace the roots of the Ahl-i Hadith movement to the jihad movement of Shah Ismail and Syed Ahmad, and Deobandi scholars continue to refer to Shah Ismail's treatises for theological guidance. {cite:wikipedia-shah-ismail-dehlvi-en}

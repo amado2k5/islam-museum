@@ -1,0 +1,29 @@
+id: person/ali-mabkhout
+class: person
+label: { ar: "علي مبخوت", en: "Ali Mabkhout", ur: "علی مبخوت" }
+names:
+  - { value: "Ali Mabkhout", kind: full }
+  - { value: "Ali Ahmed Mabkhout Mohsen Imran Al Hajeri", kind: full }
+  - { value: "علي أحمد مبخوت محسن عمران الهاجري", kind: full }
+gender: male
+summary:
+  ar: "مهاجم إماراتي وُلد في أبو ظبي سنة 1990. قضى ستة عشر عامًا مع نادي الجزيرة (2008–2024) مسجلًا 218 هدفًا في الدوري، ثم انتقل إلى النصر، وهو الهداف التاريخي لمنتخب الإمارات بخمسة وثمانين هدفًا دوليًا."
+  en: "Emirati striker born in Abu Dhabi in 1990. He spent sixteen years with Al Jazira (2008–2024), scoring 218 league goals, before moving to Al-Nasr; he is the United Arab Emirates' all-time top scorer with 85 international goals."
+  ur: "اماراتی اسٹرائیکر، 1990 میں ابوظہبی میں پیدا ہوئے۔ انہوں نے الجزیرہ کے ساتھ سولہ برس (2008–2024) گزارے اور لیگ میں 218 گول کیے، پھر النصر منتقل ہوئے؛ وہ 85 بین الاقوامی گولوں کے ساتھ متحدہ عرب امارات کے ہم وقتی سب سے بڑے گول اسکورر ہیں۔"
+roles: [athlete]
+wings: [people, living]
+regions: [arabia]
+born: { edtf: "1990-10-05", hijri: "1411", calendar: gregorian, precision: day, status: historical, derived: true, note: "Born on 5 October 1990 in Abu Dhabi, United Arab Emirates; the English article's infobox cites the FIFA Club World Cup 2017 squad list for the date and the Global Sports Archive for the place. The Hijri year is a tabular conversion. The museum has no place entity for Abu Dhabi, so no born_in edge is written.", sources: [source/wikipedia-ali-mabkhout-en, source/wikidata-ali-mabkhout] }
+faith:
+  - value: unknown
+    basis: unknown
+    note: "No affiliation is recorded. Neither the English nor the Arabic article states his religion in its text, and none of their categories is a religion category. Wikidata carries a single religion value, Islam (Q432) — one structured-data value, which never counts as an attestation, and no source names a school for him."
+    sources: [source/wikipedia-ali-mabkhout-en, source/wikipedia-ali-mabkhout-ar, source/wikidata-ali-mabkhout]
+external_ids: { wikidata: "Q1089907" }
+sources: [source/wikipedia-ali-mabkhout-en, source/wikipedia-ali-mabkhout-ar, source/wikidata-ali-mabkhout]
+provenance:
+  layer: own-research
+  source: "English Wikipedia (revision 1381538321 of 23 October 2026), Arabic Wikipedia (revision 75990724 of 24 July 2026) and Wikidata Q1089907, each read on 26 October 2026; every article was fetched by its recorded revision id and the returned revision asserted equal before any claim was drawn. Existence checked both routes: no Mabkhout record by name-fragment sweep over data/person/, and Q1089907 was searched across data/person/ and data/source/ with no hit; the QID was pinned by biography (Emirati footballer, born 5 October 1990 at Abu Dhabi). This is a new build. No relations are written: the museum has no place entity for Abu Dhabi, and no other predicate target exists for him."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: century-additions-54
+status: { review: published, generated_by: "Muse (Muse Spark 1.3)" }

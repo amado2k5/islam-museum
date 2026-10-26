@@ -301,90 +301,90 @@ lists' own order. Status markers: [ ] queued · [~] in a writer's hands · [x] m
 - [x] Mustapha Hadji — 1971–Living
 - [x] Noureddine Naybet — 1970–Living
 - [x] Marouane Chamakh — 1984–Living
-- [ ] Medhi Benatia — 1987–Living
-- [ ] Mbark Boussoufa — 1984–Living
-- [ ] Hassan El Fakiri — 1977–Living
-- [ ] Zesh Rehman — 1983–Living
-- [ ] Hamza Choudhury — 1997–Living
-- [ ] Yan Dhanda — 1998–Living
-- [ ] Zidane Iqbal — 2003–Living
-- [ ] Ali Al-Habsi — 1981–Living
-- [ ] Younis Mahmoud — 1983–Living
-- [ ] Nashat Akram — 1984–Living
-- [ ] Hawar Mulla Mohammed — 1981–Living
-- [ ] Omar Al Somah — 1989–Living
-- [ ] Omar Khribin — 1994–Living
-- [ ] Ismail Matar — 1983–Living
-- [ ] Omar Abdulrahman (Amoory) — 1991–Living
-- [ ] Ali Mabkhout — 1990–Living
-- [ ] Khalfan Ibrahim — 1988–Living
-- [ ] Akram Afif — 1996–Living
-- [ ] Almoez Ali — 1996–Living
-- [ ] Abderrazak Hamdallah — 1990–Living
-- [ ] Badr Hari — 1984–Living
-- [ ] Rico Verhoeven (Contemporary) — 1989–Living
-- [ ] Gökhan Saki — 1983–Living
-- [ ] Ernosto Hoost (Contemporary) — 1965–Living
-- [ ] Semmy Schult (Contemporary) — 1973–Living
-- [ ] Buakaw Banchamek (Contemporary) — 1982–Living
-- [ ] Superbon Singha Mawynn — 1990–Living
-- [ ] Rodtang Jitmuangnon — 1997–Living
-- [ ] Anissa Meksen — 1988–Living
-- [ ] Ruqsana Begum — 1983–Living
-- [ ] Kallie Knoetze (Contemporary) — 1953–Living
-- [ ] Laila Ali — 1977–Living
-- [ ] Riddick Bowe — 1967–Living
-- [ ] Dwight Muhammad Qawi — 1953–Living
-- [ ] Eddie Mustafa Muhammad — 1952–Living
-- [ ] Matthew Saad Muhammad — 1954–2014
-- [ ] Mustafa Hamsho — 1953–Living
+- [x] Medhi Benatia — 1987–Living
+- [x] Mbark Boussoufa — 1984–Living
+- [x] Hassan El Fakiri — 1977–Living
+- [x] Zesh Rehman — 1983–Living
+- [x] Hamza Choudhury — 1997–Living
+- [x] Yan Dhanda — 1998–Living
+- [x] Zidane Iqbal — 2003–Living
+- [x] Ali Al-Habsi — 1981–Living
+- [x] Younis Mahmoud — 1983–Living
+- [x] Nashat Akram — 1984–Living
+- [x] Hawar Mulla Mohammed — 1981–Living
+- [x] Omar Al Somah — 1989–Living
+- [x] Omar Khribin — 1994–Living
+- [x] Ismail Matar — 1983–Living
+- [x] Omar Abdulrahman (Amoory) — 1991–Living
+- [x] Ali Mabkhout — 1990–Living
+- [x] Khalfan Ibrahim — 1988–Living
+- [x] Akram Afif — 1996–Living
+- [x] Almoez Ali — 1996–Living
+- [x] Abderrazak Hamdallah — 1990–Living
+- [x] Badr Hari — 1984–Living
+- [x] Rico Verhoeven (Contemporary) — 1989–Living
+- [x] Gökhan Saki — 1983–Living
+- [x] Ernosto Hoost (Contemporary) — 1965–Living
+- [x] Semmy Schult (Contemporary) — 1973–Living
+- [x] Buakaw Banchamek (Contemporary) — 1982–Living
+- [x] Superbon Singha Mawynn — 1990–Living
+- [x] Rodtang Jitmuangnon — 1997–Living
+- [x] Anissa Meksen — 1988–Living
+- [x] Ruqsana Begum — 1983–Living
+- [x] Kallie Knoetze (Contemporary) — 1953–Living
+- [x] Laila Ali — 1977–Living
+- [x] Riddick Bowe — 1967–Living
+- [x] Dwight Muhammad Qawi — 1953–Living
+- [x] Eddie Mustafa Muhammad — 1952–Living
+- [x] Matthew Saad Muhammad — 1954–2014
+- [x] Mustafa Hamsho — 1953–Living
 - [ ] Suleyman Mammadov — 1992–Living
-- [ ] Rafael Aghayev — 1985–Living
-- [ ] Aghasi Mammadov — 1980–Living
-- [ ] Togrul Asgarov — 1992–Living
-- [ ] Sharif Sharifov — 1988–Living
-- [ ] Hazrat Inayat Khan — 1882–1927
-- [ ] Noor Inayat Khan — 1914–1944
-- [ ] Vilayat Inayat Khan — 1916–2004
-- [ ] Pir Zia Inayat Khan — 1971–Living
-- [ ] Bawa Muhaiyaddeen — 1900–1986
-- [ ] Shaykh Nazim Al-Haqqani — 1922–2014
-- [ ] Shaykh Hisham Kabbani — 1945–Living
-- [ ] Shaykh Nuh Keller — 1954–Living
-- [ ] Shaykh Abdallah Bin Bayyah — 1935–Living
-- [ ] Sheikh Shawki Allam — 1961–Living
-- [ ] Sheikh Habib Umar bin Hafiz — 1963–Living
-- [ ] Sheikh Habib Ali al-Jifri — 1971–Living
+- [x] Rafael Aghayev — 1985–Living
+- [x] Aghasi Mammadov — 1980–Living
+- [x] Togrul Asgarov — 1992–Living
+- [x] Sharif Sharifov — 1988–Living
+- [x] Hazrat Inayat Khan — 1882–1927
+- [x] Noor Inayat Khan — 1914–1944
+- [x] Vilayat Inayat Khan — 1916–2004
+- [x] Pir Zia Inayat Khan — 1971–Living
+- [x] Bawa Muhaiyaddeen — 1900–1986
+- [x] Shaykh Nazim Al-Haqqani — 1922–2014
+- [x] Shaykh Hisham Kabbani — 1945–Living
+- [x] Shaykh Nuh Keller — 1954–Living
+- [x] Shaykh Abdallah Bin Bayyah — 1935–Living
+- [x] Sheikh Shawki Allam — 1961–Living
+- [x] Sheikh Habib Umar bin Hafiz — 1963–Living
+- [x] Sheikh Habib Ali al-Jifri — 1971–Living
 - [ ] Shaykh Said Ramadan al-Bouti — 1929–2013
-- [ ] Shaykh Wahba Zuhayli — 1932–2015
-- [ ] Sheikh Mustafa al-Zarqa — 1904–1999
-- [ ] Sheikh Abd el-Halim Mahmud — 1910–1978
-- [ ] Sheikh Mohamed Siddiq El-Minshawi — 1920–1969
-- [ ] Sheikh Mahmoud Khalil Al-Hussary — 1917–1980
-- [ ] Sheikh Mustafa Ismail — 1905–1978
-- [ ] Sheikh Muhammad Rifat — 1882–1950
-- [ ] Sheikh Abdul Rahman Al-Sudais — 1960–Living
-- [ ] Sheikh Saud Al-Shuraim — 1966–Living
-- [ ] Sheikh Saad Al-Ghamdi — 1967–Living
-- [ ] Sheikh Ali Jaber — 1953–2005
-- [ ] Sheikh Muhammad Ayyub — 1952–2016
-- [ ] Sheikh Ali Al-Hudhaify — 1947–Living
-- [ ] Sheikh Abdul Bari Al-Thubaiti — 1960–Living
-- [ ] Sheikh Salah Al-Budair — 1970–Living
-- [ ] Sheikh Hussein Al-Sheikh — 1964–Living
-- [ ] Qari Abdul Basit — 1927–1988
-- [ ] Qari Waheed Zafar Qasmi — 1953–Living
-- [ ] Qari Syed Sadaqat Ali — 1952–Living
-- [ ] Nasser Al-Qatami — 1980–Living
-- [ ] Yasser Al-Qurashi — 1976–Living
-- [ ] Hazaa Al-Balushi — 1995–Living
-- [ ] Fatih Seferagic — 1995–Living
-- [ ] Idrees Abkar — 1975–Living
-- [ ] Khalid Al-Jaleel — 1963–Living
-- [ ] Salah Bukhatir — 1970–Living
-- [ ] Bandar Baleela — 1975–Living
-- [ ] Abdullah Awad Al-Juhany — 1976–Living
-- [ ] Al-Hassan Al-Daddow — 1963–Living
+- [x] Shaykh Wahba Zuhayli — 1932–2015
+- [x] Sheikh Mustafa al-Zarqa — 1904–1999
+- [x] Sheikh Abd el-Halim Mahmud — 1910–1978
+- [x] Sheikh Mohamed Siddiq El-Minshawi — 1920–1969
+- [x] Sheikh Mahmoud Khalil Al-Hussary — 1917–1980
+- [x] Sheikh Mustafa Ismail — 1905–1978
+- [x] Sheikh Muhammad Rifat — 1882–1950
+- [x] Sheikh Abdul Rahman Al-Sudais — 1960–Living
+- [x] Sheikh Saud Al-Shuraim — 1966–Living
+- [x] Sheikh Saad Al-Ghamdi — 1967–Living
+- [x] Sheikh Ali Jaber — 1953–2005
+- [x] Sheikh Muhammad Ayyub — 1952–2016
+- [x] Sheikh Ali Al-Hudhaify — 1947–Living
+- [x] Sheikh Abdul Bari Al-Thubaiti — 1960–Living
+- [x] Sheikh Salah Al-Budair — 1970–Living
+- [x] Sheikh Hussein Al-Sheikh — 1964–Living
+- [x] Qari Abdul Basit — 1927–1988
+- [x] Qari Waheed Zafar Qasmi — 1953–Living
+- [x] Qari Syed Sadaqat Ali — 1952–Living
+- [x] Nasser Al-Qatami — 1980–Living
+- [x] Yasser Al-Qurashi — 1976–Living
+- [x] Hazaa Al-Balushi — 1995–Living
+- [x] Fatih Seferagic — 1995–Living
+- [x] Idrees Abkar — 1975–Living
+- [x] Khalid Al-Jaleel — 1963–Living
+- [x] Salah Bukhatir — 1970–Living
+- [x] Bandar Baleela — 1975–Living
+- [x] Abdullah Awad Al-Juhany — 1976–Living
+- [x] Al-Hassan Al-Daddow — 1963–Living
 - [ ] Sheikh Omar Al-Khabsawi — 1950–Living
 - [ ] Sheikh Ahmed Raissouni — 1953–Living
 - [ ] Sheikh Hassan El-Kettani — 1964–Living
@@ -1180,93 +1180,93 @@ lists' own order. Status markers: [ ] queued · [~] in a writer's hands · [x] m
 - [x] Jurji Zaydan (1861–1914)
 - [x] May Ziade (1886–1941)
 - [x] Labiba Ahmad (1870–1951)
-- [ ] Maryana Marrash (1848–1919)
-- [ ] Francis Marrash (1836–1874)
-- [ ] Shakib Arslan (1869–1946)
-- [ ] Muhammad Kurd Ali (1876–1953)
-- [ ] Hashim al-Atassi (1875–1960)
-- [ ] Ibrahim Hanano (1869–1935)
-- [ ] Sultan al-Atrash (1891–1982)
-- [ ] Saleh al-Ali (1884–1950)
-- [ ] Abd al-Rahman Shahbandar (1879–1940)
-- [ ] Youssef al-Azma (1883–1920)
-- [ ] Fawzi al-Qawuqji (1890–1977)
-- [ ] Izz ad-Din al-Qassam (1882–1935)
-- [ ] Raghib al-Nashashibi (1881–1951)
-- [ ] Musa al-Husayni (1853–1934)
-- [ ] Amin al-Husseini (1897–1974)
-- [ ] Khalil al-Sakakini (1878–1953)
+- [x] Maryana Marrash (1848–1919)
+- [x] Francis Marrash (1836–1874)
+- [x] Shakib Arslan (1869–1946)
+- [x] Muhammad Kurd Ali (1876–1953)
+- [x] Hashim al-Atassi (1875–1960)
+- [x] Ibrahim Hanano (1869–1935)
+- [x] Sultan al-Atrash (1891–1982)
+- [x] Saleh al-Ali (1884–1950)
+- [x] Abd al-Rahman Shahbandar (1879–1940)
+- [x] Youssef al-Azma (1883–1920)
+- [x] Fawzi al-Qawuqji (1890–1977)
+- [x] Izz ad-Din al-Qassam (1882–1935)
+- [x] Raghib al-Nashashibi (1881–1951)
+- [x] Musa al-Husayni (1853–1934)
+- [x] Amin al-Husseini (1897–1974)
+- [x] Khalil al-Sakakini (1878–1953)
 - [x] May Ziade (1886–1941)
-- [ ] Sulaiman al-Boustani (1856–1913)
-- [ ] Ibrahim al-Yazigi (1847–1906)
-- [ ] Adib Ishaq (1856–1885)
-- [ ] Salim al-Naqqash (1850–1884)
-- [ ] Marun al-Naqqash (1817–1855)
+- [x] Sulaiman al-Boustani (1856–1913)
+- [x] Ibrahim al-Yazigi (1847–1906)
+- [x] Adib Ishaq (1856–1885)
+- [x] Salim al-Naqqash (1850–1884)
+- [x] Marun al-Naqqash (1817–1855)
 - [ ] Ali Al-Yousef (1870–1930)
 - [ ] Mustafa al-Siba'i (Ancestors) (1880–1940)
-- [ ] Sheikh Badreddin al-Hasani (1850–1935)
-- [ ] Salim al-Bishri (1832–1916)
-- [ ] Hassanein Muhammad al-Makhlouf (1890–1990)
-- [ ] Muhammad al-Tahir ibn Ashur (1879–1973)
-- [ ] Ali Bach Hamba (1876–1918)
-- [ ] Abdelaziz Thâalbi (1876–1944)
-- [ ] Bechir Sfar (1856–1917)
-- [ ] Tahar Haddad (1899–1935)
-- [ ] Abdelkader Hadj Ali (1883–1957)
-- [ ] Messali Hadj (1898–1983)
-- [ ] Tayeb el-Oqbi (1889–1960)
-- [ ] Mohamed Bachir El Ibrahimi (1889–1965)
-- [ ] Ferhat Abbas (1899–1985)
-- [ ] Lalla Fatma N'Soumer (1830–1863)
-- [ ] Cheikh Bouamama (1840–1908)
-- [ ] Sulaiman al-Barouni (1872–1940)
-- [ ] Muhammad Idris al-Senussi (King Idris) (1889–1983)
-- [ ] Ahmed Sharif as-Senussi (1873–1933)
-- [ ] Sultan Hassan I of Morocco (1836–1894)
-- [ ] Sultan Abdelhafid of Morocco (1875–1937)
-- [ ] Abd el-Krim el-Khattabi (1882–1963)
-- [ ] M'hamed el-Khattabi (1886–1967)
-- [ ] Madani al-Glaoui (1860–1918)
-- [ ] Thami al-Glaoui (1879–1956)
+- [x] Sheikh Badreddin al-Hasani (1850–1935)
+- [x] Salim al-Bishri (1832–1916)
+- [x] Hassanein Muhammad al-Makhlouf (1890–1990)
+- [x] Muhammad al-Tahir ibn Ashur (1879–1973)
+- [x] Ali Bach Hamba (1876–1918)
+- [x] Abdelaziz Thâalbi (1876–1944)
+- [x] Bechir Sfar (1856–1917)
+- [x] Tahar Haddad (1899–1935)
+- [x] Abdelkader Hadj Ali (1883–1957)
+- [x] Messali Hadj (1898–1983)
+- [x] Tayeb el-Oqbi (1889–1960)
+- [x] Mohamed Bachir El Ibrahimi (1889–1965)
+- [x] Ferhat Abbas (1899–1985)
+- [x] Lalla Fatma N'Soumer (1830–1863)
+- [x] Cheikh Bouamama (1840–1908)
+- [x] Sulaiman al-Barouni (1872–1940)
+- [x] Muhammad Idris al-Senussi (King Idris) (1889–1983)
+- [x] Ahmed Sharif as-Senussi (1873–1933)
+- [x] Sultan Hassan I of Morocco (1836–1894)
+- [x] Sultan Abdelhafid of Morocco (1875–1937)
+- [x] Abd el-Krim el-Khattabi (1882–1963)
+- [x] M'hamed el-Khattabi (1886–1967)
+- [x] Madani al-Glaoui (1860–1918)
+- [x] Thami al-Glaoui (1879–1956)
 - [ ] Muhammad ibn al-Arabi al-Alami (1830–1899)
-- [ ] Ahmad ibn Khalid al-Nasiri (1835–1897)
-- [ ] Abu Shu'ayb al-Doukkali (1878–1937)
+- [x] Ahmad ibn Khalid al-Nasiri (1835–1897)
+- [x] Abu Shu'ayb al-Doukkali (1878–1937)
 - [ ] Al-Haj Thami (1870–1940)
-- [ ] Sidi Ahsan al-Baqili (1880–1948)
+- [x] Sidi Ahsan al-Baqili (1880–1948)
 - [ ] Modibo Mohammadou Alim (1850–1912)
-- [ ] Sultan Njoya (1860–1933)
-- [ ] Ibrahim Njoya (Lineage) (1880–1940)
+- [x] Sultan Njoya (1860–1933)
+- [x] Ibrahim Njoya (Lineage) (1880–1940)
 - [ ] Usman Dan Fodio's Grandchildren (1830–1900)
-- [ ] Muhammadu Attahiru I (1860–1903)
-- [ ] Muhammadu Attahiru II (1870–1915)
+- [x] Muhammadu Attahiru I (1860–1903)
+- [x] Muhammadu Attahiru II (1870–1915)
 - [ ] Ahmadu Bello's Forebears (1850–1910)
-- [ ] Abdur-Rahman ibn Ibrahim Sori (1762–1829)
-- [ ] Omar ibn Said (1770–1864)
-- [ ] Bilali Muhammad (1770–1857)
+- [x] Abdur-Rahman ibn Ibrahim Sori (1762–1829)
+- [x] Omar ibn Said (1770–1864)
+- [x] Bilali Muhammad (1770–1857)
 - [ ] Salih Bilali (1765–1846)
-- [ ] Nicholas Said (Mohammed Ali ben Said) (1836–1882)
+- [x] Nicholas Said (Mohammed Ali ben Said) (1836–1882)
 - [ ] Ayuba Suleiman Diallo (Legacy keepers) (1820–1880)
 - [ ] Al-Hajj Muhammad Kumasi (1830–1895)
-- [ ] Imam Samori (1850–1920)
-- [ ] Cheikh Hamallah (1883–1943)
-- [ ] Yacouba Sylla (1880–1988)
-- [ ] Alfa Yaya of Labe (1850–1912)
+- [x] Imam Samori (1850–1920)
+- [x] Cheikh Hamallah (1883–1943)
+- [x] Yacouba Sylla (1880–1988)
+- [x] Alfa Yaya of Labe (1850–1912)
 - [ ] Karamoko Alfa's Descendants (1830–1900)
-- [ ] Bokar Biro (1850–1896)
-- [ ] Mamadou Racine Sy (1838–1902)
-- [ ] Blaise Diagne (Muslim associates) (1872–1934)
-- [ ] Maba Diakhou Bâ (1809–1867)
-- [ ] Syed Ahmad Barelvi (Legacy Movement) (1820–1880)
-- [ ] Shah Ismail Dehlvi (Legacy) (1800–1860)
-- [ ] Fazl-e-Haq Khairabadi (1797–1861)
-- [ ] Begum Hazrat Mahal (1820–1879)
-- [ ] Bakht Khan (1779–1859)
-- [ ] Khan Bahadur Khan Rohilla (1823–1860)
-- [ ] Maulvi Ahmadullah Shah (1787–1858)
-- [ ] Bahadur Shah Zafar (1775–1862)
-- [ ] Zeenat Mahal (1823–1886)
-- [ ] Mirza Ghalib (1797–1869)
-- [ ] Momin Khan Momin (1800–1851)
+- [x] Bokar Biro (1850–1896)
+- [x] Mamadou Racine Sy (1838–1902)
+- [x] Blaise Diagne (Muslim associates) (1872–1934)
+- [x] Maba Diakhou Bâ (1809–1867)
+- [x] Syed Ahmad Barelvi (Legacy Movement) (1820–1880)
+- [x] Shah Ismail Dehlvi (Legacy) (1800–1860)
+- [x] Fazl-e-Haq Khairabadi (1797–1861)
+- [x] Begum Hazrat Mahal (1820–1879)
+- [x] Bakht Khan (1779–1859)
+- [x] Khan Bahadur Khan Rohilla (1823–1860)
+- [x] Maulvi Ahmadullah Shah (1787–1858)
+- [x] Bahadur Shah Zafar (1775–1862)
+- [x] Zeenat Mahal (1823–1886)
+- [x] Mirza Ghalib (1797–1869)
+- [x] Momin Khan Momin (1800–1851)
 - [ ] Mustafa Khan Shefta (1804–1869)
 - [ ] Dagh Dehlvi (1831–1905)
 - [ ] Ameer Meenai (1828–1900)
@@ -1322,10 +1322,10 @@ lists' own order. Status markers: [ ] queued · [~] in a writer's hands · [x] m
 - [ ] Ustad Alauddin Khan (1862–1972)
 - [ ] Hafiz Ali Khan (1888–1972)
 - [ ] Enayet Khan (1894–1938)
-- [ ] Hazrat Inayat Khan (1882–1927)
+- [x] Hazrat Inayat Khan (1882–1927)
 - [ ] Pir-o-Murshid Ali Khan (1881–1958)
-- [ ] Noor Inayat Khan (1914–1944)
-- [ ] Vilayat Inayat Khan (1916–2004)
+- [x] Noor Inayat Khan (1914–1944)
+- [x] Vilayat Inayat Khan (1916–2004)
 - [ ] Khwaja Hasan Nizami (1878–1955)
 - [ ] Waris Ali Shah (1823–1905)
 - [ ] Meher Ali Shah (1859–1937)
@@ -1650,7 +1650,7 @@ lists' own order. Status markers: [ ] queued · [~] in a writer's hands · [x] m
 - [ ] Sheikh Suleiman al-Taji al-Faruqi (1882–1958)
 - [ ] As'ad Qaddura (1880–1959)
 - [ ] Sheikh Muhammad al-Sa'id (1870–1930)
-- [ ] Haj Amin al-Husseini (1897–1974)
+- [x] Haj Amin al-Husseini (1897–1974)
 - [ ] Jamal al-Husayni (1893–1982)
 - [ ] Fawzi al-Mulki (1910–1962)
 - [ ] Tawfiq Abu al-Huda (1894–1956)
@@ -1796,7 +1796,7 @@ lists' own order. Status markers: [ ] queued · [~] in a writer's hands · [x] m
 - [ ] Shah Alam II — 1728–1806
 - [ ] Emperor Ahmad Shah Bahadur — 1725–1775
 - [ ] Akbar II — 1760–1837
-- [ ] Bahadur Shah Zafar — 1775–1862
+- [x] Bahadur Shah Zafar — 1775–1862
 - [ ] Nawab Asaf-ud-Daula — 1748–1797
 - [ ] Nawab Shuja-ud-Daula — 1732–1775
 - [ ] Mir Nizam Ali Khan (Asaf Jah II) — 1734–1803
