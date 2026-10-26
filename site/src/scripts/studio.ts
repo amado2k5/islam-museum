@@ -91,6 +91,26 @@ function girih() {
     }
     if (best) { best.color = color; drawGirih(c, polys, strap()); }
   });
+  // Keyboard: Tab-focus the canvas, arrows move the selection between tiles,
+  // Enter/Space paints the selected tile with the current colour.
+  let sel = 0;
+  const highlight = () => {
+    drawGirih(c, polys, strap());
+    const p = polys[sel];
+    c.beginPath();
+    p.pts.forEach(([x, y], i) => (i ? c.lineTo(x, y) : c.moveTo(x, y)));
+    c.closePath();
+    c.strokeStyle = "#1f4e79";
+    c.lineWidth = 4;
+    c.stroke();
+  };
+  cv.addEventListener("keydown", (e) => {
+    if (e.key === "ArrowRight" || e.key === "ArrowDown") { sel = (sel + 1) % polys.length; highlight(); e.preventDefault(); }
+    else if (e.key === "ArrowLeft" || e.key === "ArrowUp") { sel = (sel - 1 + polys.length) % polys.length; highlight(); e.preventDefault(); }
+    else if (e.key === "Enter" || e.key === " ") { polys[sel].color = color; highlight(); e.preventDefault(); }
+  });
+  cv.addEventListener("focus", highlight);
+  cv.addEventListener("blur", () => drawGirih(c, polys, strap()));
   strapSel?.addEventListener("change", () => drawGirih(c, polys, strap()));
   document.getElementById("girih-clear")?.addEventListener("click", () => {
     polys.forEach((p) => (p.color = "#e8e0cd"));
@@ -157,8 +177,37 @@ function tracing() {
   ["pointerup", "pointerleave"].forEach((ev) =>
     cv.addEventListener(ev, () => { drawing = false; })
   );
+  // Keyboard: arrows move a small pen; hold Space while pressing arrows to draw.
+  let px = cv.width / 2, py = cv.height / 2, penDown = false;
+  cv.addEventListener("keydown", (e) => {
+    const step = 8;
+    let moved = true;
+    if (e.key === "ArrowLeft") px -= step;
+    else if (e.key === "ArrowRight") px += step;
+    else if (e.key === "ArrowUp") py -= step;
+    else if (e.key === "ArrowDown") py += step;
+    else if (e.key === " ") { penDown = !penDown; e.preventDefault(); return; }
+    else moved = false;
+    if (!moved) return;
+    e.preventDefault();
+    if (penDown) {
+      c.strokeStyle = "#1f4e79";
+      c.lineWidth = 6;
+      c.lineCap = "round";
+      c.beginPath();
+      c.moveTo(px - (e.key === "ArrowRight" ? step : e.key === "ArrowLeft" ? -step : 0),
+               py - (e.key === "ArrowDown" ? step : e.key === "ArrowUp" ? -step : 0));
+      c.lineTo(px, py);
+      c.stroke();
+    }
+  });
+  const traceBrand = cv.dataset.brand || "islam.museum";
   document.getElementById("trace-clear")?.addEventListener("click", base);
-  document.getElementById("trace-png")?.addEventListener("click", () => exportPNG(cv, "calligraphy-trace.png"));
+  document.getElementById("trace-png")?.addEventListener("click", () => {
+    footer(c, cv.width, cv.height, traceBrand);
+    exportPNG(cv, "calligraphy-trace.png");
+    base();
+  });
 }
 
 /* ---------- 3. Design a coin ---------- */
@@ -241,12 +290,17 @@ function manuscript() {
     } else if (b === "zigzag") {
       c.lineWidth = 4; c.strokeRect(30, 30, W - 60, H - 60);
       c.save();
-      c.beginPath(); c.rect(30, 30, W - 60, H - 60); c.clip();
+      // clip to the border ring only: outer rect minus the writing area
+      c.beginPath();
+      c.rect(30, 30, W - 60, H - 60);
+      c.rect(58, 58, W - 116, H - 116);
+      c.clip("evenodd");
       c.beginPath();
       for (let x = -H; x < W + H; x += 24) { c.moveTo(x, 0); c.lineTo(x + H, H); }
       c.strokeStyle = "#c9b37e"; c.lineWidth = 1.5; c.stroke();
       c.restore();
       c.strokeStyle = "#8a6d3b"; c.lineWidth = 4; c.strokeRect(30, 30, W - 60, H - 60);
+      c.lineWidth = 2; c.strokeRect(58, 58, W - 116, H - 116);
     } else {
       // corners: geometric rosette in each corner
       c.lineWidth = 4; c.strokeRect(30, 30, W - 60, H - 60);

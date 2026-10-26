@@ -68,48 +68,48 @@ to the pathway URL. The hook line below is the opening on-screen text.
 
 ### T-P1 `pathway-g4-social-studies-four-cities` — grade 4, four cities
 - **Hook:** "Four cities, one civilization — a first journey through the museum's places."
-- **QR end:** `https://islam.museum/en/learn/teachers/pathways/pathway-g4-social-studies-four-cities/`
+- **QR end:** `https://islam.museum/en/learn/teachers/pathways/g4-social-studies-four-cities/`
 
 ### T-P2 `pathway-g6-social-studies-hajj-network` — grade 6, the Hajj network
 - **Hook:** "Follow the routes pilgrims walked — geography through the Hajj."
-- **QR end:** `https://islam.museum/en/learn/teachers/pathways/pathway-g6-social-studies-hajj-network/`
+- **QR end:** `https://islam.museum/en/learn/teachers/pathways/g6-social-studies-hajj-network/`
 
 ### T-P3 `pathway-g11-chw3m-rise-of-islam` — grade 11, the rise of Islam
 - **Hook:** "The seventh century, told with sources — not summaries."
-- **QR end:** `https://islam.museum/en/learn/teachers/pathways/pathway-g11-chw3m-rise-of-islam/`
+- **QR end:** `https://islam.museum/en/learn/teachers/pathways/g11-chw3m-rise-of-islam/`
 
 ### T-P4 `pathway-g11-chw3m-baghdad-and-the-silk-roads` — grade 11, Baghdad and the Silk Roads
 - **Hook:** "Paper, books and trade: how Baghdad became the world's library."
-- **QR end:** `https://islam.museum/en/learn/teachers/pathways/pathway-g11-chw3m-baghdad-and-the-silk-roads/`
+- **QR end:** `https://islam.museum/en/learn/teachers/pathways/g11-chw3m-baghdad-and-the-silk-roads/`
 
 ### T-P5 `pathway-g11-chw3m-crusades-muslim-side` — grade 11, the Crusades from the Muslim side
 - **Hook:** "The Crusades, from the chronicles that lived through them."
-- **QR end:** `https://islam.museum/en/learn/teachers/pathways/pathway-g11-chw3m-crusades-muslim-side/`
+- **QR end:** `https://islam.museum/en/learn/teachers/pathways/g11-chw3m-crusades-muslim-side/`
 
 ### T-P6 `pathway-g11-chw3m-mongols-and-after` — grade 11, the Mongols and after
 - **Hook:** "After the fall of Baghdad: how a civilization rebuilt itself."
-- **QR end:** `https://islam.museum/en/learn/teachers/pathways/pathway-g11-chw3m-mongols-and-after/`
+- **QR end:** `https://islam.museum/en/learn/teachers/pathways/g11-chw3m-mongols-and-after/`
 
 ### T-P7 `pathway-g11-chw3m-al-andalus` — grade 11, al-Andalus
 - **Hook:** "Seven centuries of al-Andalus — cities, sciences and the people who kept them."
-- **QR end:** `https://islam.museum/en/learn/teachers/pathways/pathway-g11-chw3m-al-andalus/`
+- **QR end:** `https://islam.museum/en/learn/teachers/pathways/g11-chw3m-al-andalus/`
 
 ### T-P8 `pathway-g11-hrt3m-life-of-the-prophet` — grade 11, life of the Prophet
 - **Hook:** "The Sira, mapped and dated — the life of the Prophet with its evidence."
-- **QR end:** `https://islam.museum/en/learn/teachers/pathways/pathway-g11-hrt3m-life-of-the-prophet/`
+- **QR end:** `https://islam.museum/en/learn/teachers/pathways/g11-hrt3m-life-of-the-prophet/`
 
 ### T-P9 `pathway-g11-hrt3m-quran-as-a-text` — grade 11, the Qur'an as a text
 - **Hook:** "How a recitation became a book — the history of the Qur'an as a text."
-- **QR end:** `https://islam.museum/en/learn/teachers/pathways/pathway-g11-hrt3m-quran-as-a-text/`
+- **QR end:** `https://islam.museum/en/learn/teachers/pathways/g11-hrt3m-quran-as-a-text/`
 
 ### T-P10 `pathway-g11-hrt3m-islamic-art-architecture` — grade 11, Islamic art and architecture
 - **Hook:** "Geometry, calligraphy, stone — reading Islamic art like a text."
-- **QR end:** `https://islam.museum/en/learn/teachers/pathways/pathway-g11-hrt3m-islamic-art-architecture/`
+- **QR end:** `https://islam.museum/en/learn/teachers/pathways/g11-hrt3m-islamic-art-architecture/`
 
 ### T-P11 `pathway-g11-hrf3o-five-pillars-daily-life` — grade 11, the five pillars in daily life
 - **Hook:** "The five pillars, lived — a course in everyday practice."
-- **QR end:** `https://islam.museum/en/learn/teachers/pathways/pathway-g11-hrf3o-five-pillars-daily-life/`
+- **QR end:** `https://islam.museum/en/learn/teachers/pathways/g11-hrf3o-five-pillars-daily-life/`
 
 ### T-P12 `pathway-g12-chy4u-ottomans-gunpowder-empires` — grade 12, the Ottomans and gunpowder empires
 - **Hook:** "Three empires, one age — the Ottomans among the gunpowder powers."
-- **QR end:** `https://islam.museum/en/learn/teachers/pathways/pathway-g12-chy4u-ottomans-gunpowder-empires/`
+- **QR end:** `https://islam.museum/en/learn/teachers/pathways/g12-chy4u-ottomans-gunpowder-empires/`

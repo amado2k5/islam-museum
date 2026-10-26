@@ -47,7 +47,7 @@ const words = ["بغداد", "قرطبة", "سمرقند", "علم", "سلام"]
         <button type="button" id="girih-png" class="kids-btn">{t.studio_export_png}</button>
         <button type="button" id="girih-svg" class="kids-btn">{t.studio_export_svg}</button>
       </div>
-      <canvas id="studio-girih" width="640" height="640" data-brand={brand}></canvas>
+      <canvas id="studio-girih" width="640" height="640" data-brand={brand} tabindex="0" role="application" aria-label={t.studio_girih_title}></canvas>
     </section>
 
     <section class="studio-tool">
@@ -62,7 +62,7 @@ const words = ["بغداد", "قرطبة", "سمرقند", "علم", "سلام"]
         <button type="button" id="trace-clear" class="kids-btn">{t.studio_clear}</button>
         <button type="button" id="trace-png" class="kids-btn">{t.studio_export_png}</button>
       </div>
-      <canvas id="studio-trace" width="640" height="320"></canvas>
+      <canvas id="studio-trace" width="640" height="320" data-brand={brand} tabindex="0" role="application" aria-label={t.studio_trace_title}></canvas>
     </section>
 
     <section class="studio-tool">
