@@ -1,0 +1,39 @@
+id: person/nashat-akram
+class: person
+label: { ar: "نشأت أكرم", en: "Nashat Akram", ur: "نشأت اکرم" }
+names:
+  - { value: "Nashat Akram Abid Ali Al-Eissa", kind: full }
+  - { value: "نشأت أكرم عبد علي العيسى", kind: full }
+  - { value: "نشأت اکرم", kind: full }
+gender: male
+summary:
+  ar: "صانع ألعاب عراقي وُلد سنة 1984 في الحلة ولُقّب «المايسترو»، وكان من أبرز لاعبي منتخب العراق الفائز بكأس آسيا 2007، وانهارت صفقته مع مانشستر سيتي سنة 2008 لرفض تصريح العمل، ثم لعب لتفينتي الهولندي في موسم فوزه بالدوري، ولأندية في العراق والسعودية والإمارات وقطر والصين."
+  en: "Iraqi playmaker, born in 1984 in Hillah and nicknamed 'the Maestro'. A leading figure in the Iraq side that won the 2007 AFC Asian Cup, he saw a 2008 move to Manchester City collapse when he was refused a work permit, then played for FC Twente in their Dutch title-winning season and for clubs in Iraq, Saudi Arabia, the Emirates, Qatar and China."
+  ur: "عراقی پلے میکر، 1984 میں حلہ میں پیدا ہوئے اور «استاد» (المايسترو) کے لقب سے مشہور ہوئے۔ 2007 کا اے ایف سی ایشیائی کپ جیتنے والی عراقی ٹیم کے نمایاں کھلاڑی تھے؛ 2008 میں مانچسٹر سٹی سے ان کا معاہدہ ورک پرمٹ مسترد ہونے سے ختم ہو گیا، پھر انہوں نے ایف سی ٹوینٹے کے لیے اس کے ڈچ خطاب والے سیزن میں اور عراق، سعودی عرب، امارات، قطر اور چین کے کلبوں کے لیے کھیلا۔"
+roles: [athlete]
+wings: [people, living]
+regions: [levant-iraq]
+born:
+  edtf: "1984-09-12"
+  hijri: "1404"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "The English and Arabic articles and Wikidata (Q443185) all give 12 September 1984, born in Al Hillah (Hillah), Babylon Governorate. The Hijri year 1404 is the tabular conversion of the Gregorian date."
+  sources: [source/wikipedia-nashat-akram-en, source/wikipedia-nashat-akram-ar, source/wikidata-nashat-akram]
+relations:
+  - { type: born_in, target: place/hilla, sources: [source/wikipedia-nashat-akram-en, source/wikipedia-nashat-akram-ar] }
+faith:
+  - value: unknown
+    basis: unknown
+    note: "Complete absence: neither the English nor the Arabic article says anything about Akram's religion in its text, neither files him under a religion category, and Wikidata carries no religion value. With no source naming an affiliation for him, his faith is recorded as unknown."
+    sources: [source/wikipedia-nashat-akram-en, source/wikipedia-nashat-akram-ar, source/wikidata-nashat-akram]
+external_ids: { wikidata: "Q443185" }
+sources: [source/wikipedia-nashat-akram-en, source/wikipedia-nashat-akram-ar, source/wikidata-nashat-akram]
+provenance:
+  layer: own-research
+  source: "English Wikipedia (revision 1370412496 of 21 August 2026), Arabic Wikipedia (revision 73496400 of 13 February 2026) and Wikidata Q443185, each read on 26 October 2026; every article fetched by its recorded revision id and the returned revision asserted equal before any claim was drawn. No earlier record for Akram existed in data/person/ (the 'akram' hits belong to Wasim Akram, a different person), and his QID was searched across data/person/ and data/source/ with no hit; this is a new build. RELATION DIRECTION: the born_in edge is written in Akram's own record and points from him to place/hilla — Akram was born in Hillah."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: century-additions-52
+status: { review: published, generated_by: "Muse (Muse Spark 1.3)" }

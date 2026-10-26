@@ -1,0 +1,37 @@
+id: person/yan-dhanda
+class: person
+label: { ar: "يان داندا", en: "Yan Dhanda", ur: "یان ڈھنڈا" }
+names:
+  - { value: "Yan Joseph Dhanda", kind: full }
+  - { value: "يان داندا", kind: full }
+  - { value: "یان ڈھنڈا", kind: full }
+gender: male
+summary:
+  ar: "لاعب وسط مهاجم إنجليزي من أصل بنجابي، وُلد في برمنغهام سنة 1998، تدرّب في أكاديميتي وست بروميتش ألبيون وليفربول، ولعب لسوونزي سيتي وروس كاونتي وهارت أوف ميدلوثيان مع إعارة إلى دندي، وكان دولياً إنجليزياً في منتخبات الشباب وعبّر عن رغبته في تمثيل الهند."
+  en: "English attacking midfielder of Punjabi descent, born in Birmingham in 1998. He came through the West Bromwich Albion and Liverpool academies and played for Swansea City, Ross County and Heart of Midlothian, with a loan at Dundee. A former England youth international, he has said he wants to represent India."
+  ur: "پنجابی نژاد انگریز حملہ آور مڈفیلڈر، 1998 میں برمنگہم میں پیدا ہوئے۔ ویسٹ برومویچ البیون اور لیورپول کی اکیڈمیوں سے ابھر کر سوانزی سٹی، راس کاؤنٹی اور ہارٹ آف مڈلوتھیان کے لیے کھیلے اور ڈنڈی میں ادھار رہے۔ انگلستان کے سابق یوتھ انٹرنیشنل کے طور پر انہوں نے بھارت کی نمائندگی کی خواہش ظاہر کی ہے۔"
+roles: [athlete]
+wings: [people, living]
+regions: [south-asia]
+born:
+  edtf: "1998-12-14"
+  hijri: "1419"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "The English article and Wikidata (Q56043350) give 14 December 1998, born in Birmingham; Wikidata also carries Dudley as a second birthplace value. No museum place entity exists for Birmingham or Dudley, so the birthplace is carried here and in the prose, with no born_in edge. The Hijri year 1419 is the tabular conversion of the Gregorian date."
+  sources: [source/wikipedia-yan-dhanda-en, source/wikipedia-yan-dhanda-ur, source/wikidata-yan-dhanda]
+faith:
+  - value: unknown
+    basis: unknown
+    note: "No source names a religion for Dhanda himself. The English article's personal-life section says he is of Punjabi Sikh heritage through his father, quoting Sky Sports: his father is Sikh-Punjabi, and his mother is English. A father's religion and a heritage description are family background, which never attests the person's own affiliation. The Urdu article is a bot stub that says nothing about religion, and Wikidata carries no religion value. His faith is therefore recorded as unknown."
+    sources: [source/wikipedia-yan-dhanda-en, source/wikipedia-yan-dhanda-ur, source/wikidata-yan-dhanda]
+external_ids: { wikidata: "Q56043350" }
+sources: [source/wikipedia-yan-dhanda-en, source/wikipedia-yan-dhanda-ur, source/wikidata-yan-dhanda]
+provenance:
+  layer: own-research
+  source: "English Wikipedia (revision 1381957535 of 25 October 2026), Urdu Wikipedia (revision 12069514 of 30 September 2026) and Wikidata Q56043350, each read on 26 October 2026; every article fetched by its recorded revision id and the returned revision asserted equal before any claim was drawn. No earlier record for Dhanda existed in data/person/ (no hit under 'dhanda' in data/person/ or data/source/), and his QID was searched across data/person/ and data/source/ with no hit; this is a new build. RELATION DIRECTION: no relations are written — his birthplace, Birmingham, has no museum place entity, so it is carried in the born note and the prose only."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: century-additions-52
+status: { review: published, generated_by: "Muse (Muse Spark 1.3)" }
