@@ -331,11 +331,11 @@ lists' own order. Status markers: [ ] queued · [~] in a writer's hands · [x] m
 - [x] Rodtang Jitmuangnon — 1997–Living
 - [x] Anissa Meksen — 1988–Living
 - [x] Ruqsana Begum — 1983–Living
-- [ ] Kallie Knoetze (Contemporary) — 1953–Living
-- [ ] Laila Ali — 1977–Living
-- [ ] Riddick Bowe — 1967–Living
-- [ ] Dwight Muhammad Qawi — 1953–Living
-- [ ] Eddie Mustafa Muhammad — 1952–Living
+- [x] Kallie Knoetze (Contemporary) — 1953–Living
+- [x] Laila Ali — 1977–Living
+- [x] Riddick Bowe — 1967–Living
+- [x] Dwight Muhammad Qawi — 1953–Living
+- [x] Eddie Mustafa Muhammad — 1952–Living
 - [ ] Matthew Saad Muhammad — 1954–2014
 - [ ] Mustafa Hamsho — 1953–Living
 - [ ] Suleyman Mammadov — 1992–Living
