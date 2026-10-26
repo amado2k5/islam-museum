@@ -188,11 +188,11 @@ lists' own order. Status markers: [ ] queued · [~] in a writer's hands · [x] m
 - [x] Omar Khadr — 1986–Living
 - [x] Naheed Nenshi — 1972–Living
 - [x] Salma Lakhani — 1952–Living
-- [ ] Omar Alghabra — 1969–Living
-- [ ] Maryam Monsef — 1985–Living
-- [ ] Ahmed Hussen — 1975–Living
-- [ ] Yasir Naqvi — 1973–Living
-- [ ] Iqra Khalid — 1985–Living
+- [x] Omar Alghabra — 1969–Living
+- [x] Maryam Monsef — 1985–Living
+- [x] Ahmed Hussen — 1975–Living
+- [x] Yasir Naqvi — 1973–Living
+- [x] Iqra Khalid — 1985–Living
 - [ ] Zubeida Jaffer — 1958–Living
 - [ ] Ebrahim Rasool — 1962–Living
 - [ ] Ahmed Kathrada — 1929–2017
