@@ -1643,7 +1643,8 @@ function init(
     $("#panelTitle").textContent = ex.label;
     $("#panelMeta").textContent = [ex.date, ex.material, ex.museum].filter(Boolean).join(" · ");
     $("#panelNote").textContent = ex.note || "";
-    $("#panelArt").textContent = ex.art ? t.art_note || "" : "";
+    // Illustrated stops: the AI-illustration note plus the illustration's alt text.
+    $("#panelArt").textContent = ex.art ? [t.art_note, ex.artAlt].filter(Boolean).join(": ") : "";
     $("#panelDesc").textContent = ex.desc;
     ($<HTMLAnchorElement>("#panelLink")).href = ex.href;
     if (!panel.classList.contains("show")) {
