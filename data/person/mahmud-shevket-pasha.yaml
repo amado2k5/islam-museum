@@ -1,0 +1,49 @@
+id: person/mahmud-shevket-pasha
+class: person
+label: { ar: "محمود شوكت باشا", en: "Mahmud Shevket Pasha", ur: "محمود شوکت پاشا" }
+names:
+  - { value: "Mahmud Shevket Pasha", kind: full }
+  - { value: "محمود شوكت پاشا", kind: full }
+  - { value: "Mahmut Şevket Paşa", kind: alternate }
+gender: male
+summary:
+  ar: "مشير ورجل دولة عثماني، والرجل القوي في السنوات التي تلت انقلاب 1909 المضاد، والصدر الأعظم من يناير 1913 حتى اغتياله في يونيو من العام نفسه. وُلد في بغداد، وقاد جيش الحركة الذي قمع حادثة 31 مارس وخلع عبد الحميد الثاني، وتولى وزارة الحربية، ثم أُطلق عليه النار في سيارته بميدان بايزيد من خصوم جمعية الاتحاد والترقي."
+  en: "Ottoman field marshal and statesman, the strongman of the years after the 1909 counter-coup, and Grand Vizier from January 1913 until his assassination that June. Born in Baghdad, he commanded the Action Army that suppressed the 31 March Incident and deposed Abdul Hamid II, served as Minister of War, and was shot in his car at Beyazıt Square by opponents of the Committee of Union and Progress."
+  ur: "عثمانی مشیر اور مدبر، 1909 کی جوابی بغاوت کے بعد کے برسوں کے طاقتور شخص، اور جنوری 1913 سے اسی سال جون میں اپنے قتل تک صدرِ اعظم۔ بغداد میں پیدا ہوئے، 31 مارچ واقعے کو کچلنے اور عبدالحمید ثانی کو معزول کرنے والی حرکت فوج کی قیادت کی، وزیرِ جنگ رہے، اور بایزید چوک میں اپنی گاڑی میں جمعیتِ اتحاد و ترقی کے مخالفوں کے ہاتھوں گولی مار کر ہلاک ہوئے۔"
+roles: [vizier, military]
+wings: [people]
+regions: [anatolia-balkans]
+born:
+  edtf: "1856"
+  hijri: "1272"
+  calendar: gregorian
+  precision: year
+  status: historical
+  derived: true
+  note: "Born in Baghdad in 1856, a son of Kethüdazade Süleyman Faik Bey, governor of Basra, and grandson of Hacı Talib Ağa, who had moved from Tbilisi to Baghdad; both articles give 1856. Wikidata carries a second, unreferenced birth-year value of 1858, which is not followed. His ancestry is variously given in the sources as Georgian, Chechen, Circassian or Arab. The Hijri year 1272 is the derived conversion of 1856."
+  sources: [source/wikipedia-mahmud-shevket-pasha-en, source/wikipedia-mahmud-shevket-pasha-tr, source/wikidata-mahmud-shevket-pasha]
+died:
+  edtf: "1913-06-11"
+  hijri: "1331"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "Assassinated on 11 June 1913, shot in his car at Beyazıt Square, Istanbul, by partisans of the Freedom and Accord Party in a counter-coup attempt against the Committee of Union and Progress; he was buried at the Monument of Liberty (Âbide-i Hürriyet) in Istanbul. The Hijri year 1331 is the derived conversion of 1913."
+  sources: [source/wikipedia-mahmud-shevket-pasha-en, source/wikipedia-mahmud-shevket-pasha-tr, source/wikidata-mahmud-shevket-pasha]
+relations:
+  - { type: born_in, target: place/baghdad, sources: [source/wikipedia-mahmud-shevket-pasha-en, source/wikipedia-mahmud-shevket-pasha-tr] }
+  - { type: died_in, target: place/istanbul, sources: [source/wikipedia-mahmud-shevket-pasha-en, source/wikipedia-mahmud-shevket-pasha-tr] }
+faith:
+  - value: unknown
+    basis: unknown
+    note: "No source consulted names a school — or any affiliation — for Mahmud Shevket Pasha personally, and the value is recorded unknown under the doubt rule. The English article has no religion field and names no religion for him anywhere in its text; its long ancestry discussion (Georgian, Chechen, Circassian or Arab descent on competing cited sources) is family origin, which never counts. The Turkish article's infobox carries a religion field (dini) reading only 'İslam' (Islam), generic and uncited, and Wikidata carries Islam (Q432) generically, without references — one structured-data family giving a generic value only. Nothing in either text attests a school for him personally, so no value beyond unknown is recorded."
+    sources: [source/wikipedia-mahmud-shevket-pasha-en, source/wikipedia-mahmud-shevket-pasha-tr, source/wikidata-mahmud-shevket-pasha]
+external_ids: { wikidata: Q722306 }
+sources: [source/wikipedia-mahmud-shevket-pasha-en, source/wikipedia-mahmud-shevket-pasha-tr, source/wikidata-mahmud-shevket-pasha]
+provenance:
+  layer: own-research
+  source: "English Wikipedia 'Mahmud Shevket Pasha' (revision 1378320399 of 3 October 2026), Turkish Wikipedia 'Mahmud Şevket Paşa' (revision 38078948 of 28 September 2026) and Wikidata item Q722306 (item revision 2549635462 of 26 September 2026), all read directly on 26 October 2026 and the articles re-fetched by revision id with content verified identical. No succession edge is written for his grand vizierate: he succeeded Kâmil Pasha in that office on 23 January 1913, but Kâmil Pasha had no record in the museum when this record was written, so the succession is carried in prose only, following the lane's link-only-to-existing-entities rule. His father has no record, so the descent is likewise prose only. His faith is unknown: only a generic Islam value exists, in the Turkish infobox and in Wikidata, one source family, and no text names a school for him."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: century-additions-43
+status: { review: published, completeness: 3, generated_by: "Muse (Muse Spark 1.3)" }
