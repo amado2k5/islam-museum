@@ -1,3 +1,10 @@
+---
+id: concept/al-hijra-ila-al-gharb
+lang: ur
+source_lang: ar
+translators: ["Devin (SWE-2), draft translation"]
+---
+
 # مغرب کی طرف ہجرت — امید یا درد (دماغ کی ہجرت)
 
 ## قسط اور ووٹ

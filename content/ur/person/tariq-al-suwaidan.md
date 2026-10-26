@@ -102,3 +102,12 @@ translators: []
 
 ## «الوسطیہ» میں — سیٹلائٹ فتویٰ کی قسط
 سویدان نے سیٹلائٹ فتویٰ کی قسط علماء اور ووٹوں کے ساتھ چلائی — اور انہوں نے حیرت کا اظہار کیا کہ صرف 15% چینلوں کے سب سے بڑے عالم سے رجوع کرتے ہیں بمقابلہ 42% مجامع سے {cite:assabile-tareq-al-suwaidan al-wassitiya/ep13 00:32:30} {cite:assabile-tareq-al-suwaidan al-wassitiya/ep13 01:08:30}۔
+
+## «الوسطیہ» میں — خواتین کے بااختیار بنانے کی قسط
+سویدان نے خواتین کے بااختیار بنانے کی قسط ووٹوں کے ساتھ چلائی — نمایاں نتیجہ: صرف 35% نے سرکاری معاونت کی مکمل تائید کی جبکہ اکثریت نے اسے سیاست سے باہر رکھا {cite:assabile-tareq-al-suwaidan al-wassitiya/ep14 00:55:00}۔
+
+## «الوسطیہ» میں — خاتون اور معاہدوں کی قسط
+سویدان نے عرب خاتون اور بین الاقوامی معاہدوں کی قسط چلائی اور اپنے اصول پر اختتام کیا: ظلم اٹھانے والا حصہ لیں اور دین سے ٹکرانے والا رد کریں — «اور یہی وسطیہ ہے» {cite:assabile-tareq-al-suwaidan al-wassitiya/ep15 01:15:00} {cite:assabile-tareq-al-suwaidan al-wassitiya/ep15 01:16:30} {cite:assabile-tareq-al-suwaidan al-wassitiya/ep15 01:17:00}۔
+
+## «الوسطیہ» میں — خاتون علامتوں کی قلت کی قسط
+سویدان نے تاریخ میں خاتون علامتوں کی قلت کی قسط چلائی — زور دیتے ہوئے کہ مقصد خاتون کو کمزور کرنا نہیں بلکہ رکاوٹ توڑنے کا مطالعہ ہے {cite:assabile-tareq-al-suwaidan al-wassitiya/ep16 00:03:00} {cite:assabile-tareq-al-suwaidan al-wassitiya/ep16 00:03:30} {cite:assabile-tareq-al-suwaidan al-wassitiya/ep16 00:08:30}۔

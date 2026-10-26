@@ -1,3 +1,10 @@
+---
+id: concept/al-fadaiyyat-al-arabiyya
+lang: ur
+source_lang: ar
+translators: ["Devin (SWE-2), draft translation"]
+---
+
 # عرب سیٹلائٹ چینل — تجربے کا جائزہ
 
 ## قسط اور ووٹ

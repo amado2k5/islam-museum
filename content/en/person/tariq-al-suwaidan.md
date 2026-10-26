@@ -134,3 +134,12 @@ Al-Suwaidan evaluated the Arab satellite experiment with statistics he presented
 
 ## In 'Al-Wasatiyya' — the satellite-fatwa episode
 Al-Suwaidan steered the satellite-fatwa episode with scholars and polls — noting the surprise that only 15% turn to the channels' most-learned versus 42% to the academies {cite:assabile-tareq-al-suwaidan al-wassitiya/ep13 00:32:30} {cite:assabile-tareq-al-suwaidan al-wassitiya/ep13 01:08:30}.
+
+## In 'Al-Wasatiyya' — the women's-empowerment episode
+Al-Suwaidan steered the women's-empowerment episode with polls — the standout: only 35% fully endorsed government support while most confined it outside politics {cite:assabile-tareq-al-suwaidan al-wassitiya/ep14 00:55:00}.
+
+## In 'Al-Wasatiyya' — the women-and-conventions episode
+Al-Suwaidan steered the Arab-woman-and-international-conventions episode, closing with his rule: take what lifts injustice from women, reject what collides with religion — 'and this is the wasatiyya' {cite:assabile-tareq-al-suwaidan al-wassitiya/ep15 01:15:00} {cite:assabile-tareq-al-suwaidan al-wassitiya/ep15 01:16:30} {cite:assabile-tareq-al-suwaidan al-wassitiya/ep15 01:17:00}.
+
+## In 'Al-Wasatiyya' — the female-symbols episode
+Al-Suwaidan steered the episode on the scarcity of female symbols across history — stressing the aim was not to weaken woman but to explore how the barrier is broken {cite:assabile-tareq-al-suwaidan al-wassitiya/ep16 00:03:00} {cite:assabile-tareq-al-suwaidan al-wassitiya/ep16 00:03:30} {cite:assabile-tareq-al-suwaidan al-wassitiya/ep16 00:08:30}.

@@ -1,3 +1,10 @@
+---
+id: concept/al-fatwa-ala-al-fadaiyyat
+lang: ar
+source_lang: ar
+translators: []
+---
+
 # الفتوى على الفضائيات — نفعها وضررها
 
 ## الحلقة والسؤال

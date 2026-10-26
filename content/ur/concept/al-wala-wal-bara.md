@@ -1,3 +1,10 @@
+---
+id: concept/al-wala-wal-bara
+lang: ur
+source_lang: ar
+translators: ["Devin (SWE-2), draft translation"]
+---
+
 # مسلمانوں میں ولاء اور براء
 
 ## قسط اور سوال

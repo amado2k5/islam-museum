@@ -1,3 +1,10 @@
+---
+id: concept/huquq-al-insan
+lang: ar
+source_lang: ar
+translators: []
+---
+
 # حقوق الإنسان — ملف الانتهاكات في العالم العربي
 
 ## الحلقة والتصويت

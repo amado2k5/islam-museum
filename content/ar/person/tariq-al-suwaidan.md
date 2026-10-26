@@ -134,3 +134,12 @@ translators: []
 
 ## في «الوسطية» — حلقة فتوى الفضائيات
 أدار السويدان حلقة فتوى الفضائيات بعلماء واستطلاعات — ولاحظ مفاجأة أن 15% فقط يرجعون لأعلم الفضائيات مقابل 42% للمجامع {cite:assabile-tareq-al-suwaidan al-wassitiya/ep13 00:32:30} {cite:assabile-tareq-al-suwaidan al-wassitiya/ep13 01:08:30}.
+
+## في «الوسطية» — حلقة تمكين المرأة
+أدار السويدان حلقة تمكين المرأة باستطلاعات — أبرزها أن 35% فقط يؤيدون الدعم الحكومي مطلقاً والأغلبية قصرته على غير السياسة {cite:assabile-tareq-al-suwaidan al-wassitiya/ep14 00:55:00}.
+
+## في «الوسطية» — حلقة المرأة والاتفاقيات
+أدار السويدان حلقة المرأة العربية والاتفاقيات الدولية وختم بقاعدته: نأخذ ما يرفع الظلم عن المرأة ونرفض ما يصادم الدين — «وهذه الوسطية» {cite:assabile-tareq-al-suwaidan al-wassitiya/ep15 01:15:00} {cite:assabile-tareq-al-suwaidan al-wassitiya/ep15 01:16:30} {cite:assabile-tareq-al-suwaidan al-wassitiya/ep15 01:17:00}.
+
+## في «الوسطية» — حلقة فقر الرموز النسائية
+أدار السويدان حلقة فقر الرموز النسائية عبر التاريخ — مؤكداً أن الهدف ليس إضعاف المرأة بل استكشاف كسر الحاجز {cite:assabile-tareq-al-suwaidan al-wassitiya/ep16 00:03:00} {cite:assabile-tareq-al-suwaidan al-wassitiya/ep16 00:03:30} {cite:assabile-tareq-al-suwaidan al-wassitiya/ep16 00:08:30}.

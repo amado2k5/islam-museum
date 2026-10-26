@@ -1,3 +1,10 @@
+---
+id: concept/al-fadaiyyat-al-arabiyya
+lang: ar
+source_lang: ar
+translators: []
+---
+
 # الفضائيات العربية — تقييم التجربة
 
 ## الحلقة والتصويت
