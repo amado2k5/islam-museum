@@ -1588,6 +1588,7 @@ function init(
   const helpPanel = $("#helpPanel");
   let helpReturn: HTMLElement | null = null;
   function openHelp(): void {
+    closeMap(false);
     helpReturn = document.activeElement as HTMLElement | null;
     helpPanel.classList.add("show");
     requestAnimationFrame(() => $("#helpTitle").focus({ preventScroll: true }));
@@ -1688,6 +1689,7 @@ function init(
     const active = document.activeElement as HTMLElement | null;
     mapReturn = active && !panel.contains(active) && !mapPanel.contains(active) ? active : mapBtn;
     closePanel(false);
+    journeyPanel.classList.remove("show");
     drawMap();
     // Sit below the top bar, which wraps to two rows on narrow phones.
     mapPanel.style.top = `${Math.round($("#topbar").getBoundingClientRect().bottom) + 4}px`;
@@ -2089,8 +2091,10 @@ function init(
   listen(mapBtn, "click", (() =>
     mapPanel.classList.contains("show") ? closeMap() : openMap()) as EventListener);
   listen($<HTMLButtonElement>("#mapClose"), "click", (() => closeMap()) as EventListener);
-  listen($<HTMLButtonElement>("#journeyBtn"), "click", (() =>
-    journeyPanel.classList.add("show")) as EventListener);
+  listen($<HTMLButtonElement>("#journeyBtn"), "click", (() => {
+    closeMap(false);
+    journeyPanel.classList.add("show");
+  }) as EventListener);
   listen($<HTMLButtonElement>("#journeyClose"), "click", (() =>
     journeyPanel.classList.remove("show")) as EventListener);
   listen($<HTMLButtonElement>("#jBack"), "click", (() =>
