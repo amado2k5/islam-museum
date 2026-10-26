@@ -1,0 +1,54 @@
+id: person/ali-bin-hussein-al-hashimi
+class: person
+label: { ar: "علي بن الحسين الهاشمي", en: "Ali bin Hussein al-Hashimi", ur: "علی بن حسین ہاشمی" }
+names:
+  - { value: "علي بن الحسين بن علي بن محمد بن عبد المعين بن عون الهاشمي", kind: full }
+  - { value: "Ali bin Hussein bin Ali bin Muhammad bin Abd al-Mu'in bin Awn al-Hashimi", kind: full }
+  - { value: "الشريف علي بن الحسين", kind: alternate }
+  - { value: "Ali of Hejaz", kind: alternate }
+  - { value: "Ali, King of Hejaz", kind: alternate }
+gender: male
+summary:
+  ar: "علي بن الحسين الهاشمي (وُلد في مكة سنة 1879 – توفي في بغداد في 13 فبراير 1935)، أكبر أبناء الشريف حسين بن علي من الشريفة عابدية بنت عبد الله. تلقى دروسه في مكة ثم إسطنبول، وكان من قادة الثورة العربية الكبرى، وظل وليًا لعهد أبيه في الحجاز بينما صار أخواه عبد الله وفيصل ملكين على شرق الأردن والعراق. تنازل له أبوه عن ألقابه الدنيوية في أكتوبر 1924 بعد تقدم ابن سعود، فصار ثاني وآخر ملوك المملكة الحجازية الهاشمية وشريف مكة، ودافع عن جدة والمدينة حتى سقطت المملكة في ديسمبر 1925، فغادر إلى الهند ثم العراق واستقر في بغداد حتى وفاته، ودُفن في المقبرة الملكية بالأعظمية. ابنه عبد الإله صار وصيًا على عرش العراق، وابنته عالية صارت ملكة العراق بزواجها من الملك غازي."
+  en: "Ali bin Hussein al-Hashimi (born at Mecca in 1879 – died at Baghdad on 13 February 1935) was the eldest son of Sharif Hussein bin Ali by Sharifa Abdiyya bint Abdullah. Educated at Mecca and then Istanbul, he was one of the leaders of the Great Arab Revolt and remained his father's heir in the Hejaz while his brothers Abdullah and Faisal became kings of Transjordan and Iraq. His father abdicated his secular titles to him in October 1924 as Ibn Saud advanced, making him the second and last King of the Hashemite Kingdom of Hejaz and Grand Sharif of Mecca; he defended Jeddah and Medina until the kingdom fell in December 1925, then left for India and Iraq and settled at Baghdad until his death, and was buried in the royal cemetery at Adhamiyah. His son Abd al-Ilah became regent of Iraq, and his daughter Aliya became Queen of Iraq by her marriage to King Ghazi."
+  ur: "علی بن حسین ہاشمی (ولادت: مکہ، 1879ء – وفات: بغداد، 13 فروری 1935ء) شریف حسین بن علی کے سب سے بڑے بیٹے تھے۔ انہوں نے مکہ اور استنبول میں تعلیم پائی، ثورۂ عربیہ کے قائدین میں سے تھے، اور اکتوبر 1924ء میں والد کی دست برداری پر حجاز کے دوسرے اور آخری بادشاہ بنے؛ دسمبر 1925ء میں مملکت کے خاتمے پر عراق چلے گئے اور بغداد ہی میں وفات پا کر اعظمیہ کے شاہی قبرستان میں دفن ہوئے۔ ان کے بیٹے عبد الالٰہ عراق کے وصی بنے۔"
+roles: [ruler]
+wings: [people]
+born:
+  edtf: "1879"
+  hijri: "1296"
+  calendar: gregorian
+  precision: year
+  status: historical
+  derived: true
+  note: "Born at Mecca in 1879, the year given by the English and Arabic articles and by Wikidata (place Mecca, Q5806); no source read gives a month or day. The Hijri year (1296) is derived by tabular conversion: the Gregorian year 1879 spans 1296–1297 AH and its mid-year falls in 1296."
+  sources: [source/wikipedia-ali-bin-hussein-en, source/wikipedia-ali-bin-hussein-ar, source/wikidata-ali-bin-hussein]
+died:
+  edtf: "1935-02-13"
+  hijri: "1353"
+  calendar: gregorian
+  precision: day
+  status: debated
+  derived: true
+  note: "He died at Baghdad on 13 February 1935 on the English article's lead and the Arabic article, the Arabic article adding that he was buried in the royal cemetery at Adhamiyah in Baghdad; Wikidata gives 14 February 1935 (place Baghdad, Q1530), one day later — the record follows the two articles and records the item's reading here rather than merging them, so the date is marked debated. The two-sentence Urdu stub gives no dates. The Hijri year (1353) is derived by tabular conversion of 13 February 1935 (9 Dhu al-Qa'da 1353)."
+  sources: [source/wikipedia-ali-bin-hussein-en, source/wikipedia-ali-bin-hussein-ar, source/wikidata-ali-bin-hussein]
+relations:
+  - { type: born_in, target: place/mecca, sources: [source/wikipedia-ali-bin-hussein-en, source/wikipedia-ali-bin-hussein-ar, source/wikidata-ali-bin-hussein] }
+  - { type: died_in, target: place/baghdad, sources: [source/wikipedia-ali-bin-hussein-en, source/wikipedia-ali-bin-hussein-ar, source/wikidata-ali-bin-hussein] }
+  - { type: buried_in, target: place/baghdad, note: "The Arabic article states he was buried in the royal cemetery at Adhamiyah, Baghdad.", sources: [source/wikipedia-ali-bin-hussein-ar] }
+  - { type: child_of, target: person/hussein-bin-ali-al-hashimi, note: "He was the eldest son of Hussein bin Ali by Sharifa Abdiyya bint Abdullah, who died in 1887 (Arabic article); the edge is written here, in the son's record, and his father's record carries none back.", sources: [source/wikipedia-ali-bin-hussein-en, source/wikipedia-ali-bin-hussein-ar, source/wikidata-ali-bin-hussein] }
+  - { type: member_of, target: group/banu-hashim, note: "The English article calls him a scion of the Hashemite family and the Arabic article traces his lineage through the Al Awn branch of the Ashraf to Hasan ibn Ali; the edge is written to the clan's house group as the museum models it, as in his father's record.", sources: [source/wikipedia-ali-bin-hussein-en, source/wikipedia-ali-bin-hussein-ar] }
+  - { type: participated_in, target: event/arab-revolt-1334, note: "The English article counts him among the leaders of the Arab Revolt of 1916.", sources: [source/wikipedia-ali-bin-hussein-en] }
+faith:
+  - value: unknown
+    basis: unknown
+    note: "No source read names a religion or a school for Ali himself. In full: the English, Arabic and Urdu articles state no religion for him at all; the English article notes only that with the kingship he also became heir to his father's title of caliph but did not adopt the office or the style — a claim to an office, not an attestation of a school — and the two-sentence Urdu stub likewise states no religion, giving no dates and erring only in calling him the first king of the Hejaz kingdom where the fuller articles make his father the first and Ali the second. Wikidata's only religion value is Islam (Q432) generically — one structured-data value naming no school. His Hashemite descent is family background and never counts. With no source naming a school for the man himself, let alone two independent sources naming the same school, his faith is left unknown under the two-source rule and the doubt rule ('if we have doubt then unclassified')."
+    sources: [source/wikipedia-ali-bin-hussein-en, source/wikipedia-ali-bin-hussein-ar, source/wikipedia-ali-bin-hussein-ur, source/wikidata-ali-bin-hussein]
+external_ids: { wikidata: "Q2304055" }
+sources: [source/wikipedia-ali-bin-hussein-en, source/wikipedia-ali-bin-hussein-ar, source/wikipedia-ali-bin-hussein-ur, source/wikidata-ali-bin-hussein]
+provenance:
+  layer: own-research
+  source: "English Wikipedia 'Ali bin Hussein, King of Hejaz' (revision 1368926184), Arabic Wikipedia 'علي بن الحسين' (revision 75513515) and Urdu Wikipedia 'علی بن حسین حجازی' (revision 9770562), all read in full on 25 October 2026, with Wikidata item Q2304055. The sources' disagreements are stated in the notes and prose rather than merged: the death day (13 February in the English and Arabic articles against Wikidata's 14 February; the Urdu article is a two-sentence stub that gives no dates and calls him, in error, the first king of the Hejaz kingdom), and the reign's opening (the Arabic article dates his kingship from 2 October 1924, the English article his father's abdication to 3 October 1924). His wife Nafissa Khanum and his children, including the regent Abd al-Ilah, have no museum person records in this run, and no kingdom-of-Hejaz polity entity exists, so no spouse, parent-of or ruler_of edge is written; the child_of edge to his father's record is written here, in his own record."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: century-additions-24
+status: { review: published, completeness: 3, generated_by: "Muse (Muse Spark 1.3)" }
