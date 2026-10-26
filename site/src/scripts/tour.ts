@@ -261,7 +261,7 @@ function init(
   const hemi = new THREE.HemisphereLight(P.hemiSky, P.hemiGround, P.hemi);
   if (lite) hemi.intensity += 0.4;
   scene.add(hemi);
-  const sun = new THREE.DirectionalLight(0xffe9b8, 1.15);
+  const sun = new THREE.DirectionalLight(0xffe9b8, P.sun);
   sun.position.set(6, 26, 4);
   sun.castShadow = true;
   sun.shadow.mapSize.set(1024, 1024);
