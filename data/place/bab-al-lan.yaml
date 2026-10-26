@@ -1,7 +1,7 @@
 id: place/bab-al-lan
 class: place
 kind: site
-label: { ar: "باب اللان", en: "Bab al-Lan" }
+label: { ar: "باب اللان", en: "Bab al-Lan (Darial)", ur: "باب اللان (دریال)" }
 summary:
   ar: "باب اللان ثغر بأعالي القوقاز تجاوره أرض شروان وإليه سد اللبن الذي بناه قباذ؛ دخل منه مروان بن محمد أرض الخزر يدلّه أسيد بن زافر السلمي ومعه ملوك الجبال من ناحية الباب والأبواب، وفتحه يزيد بن أسيد السلمي في ولايته لأرمينية ورتّب فيه رابطة من أهل الديوان."
   en: "Bab al-Lan, a pass of the upper Caucasus adjoining Shirwan's land, near the wall of al-Lubn that Qubadh built; through it Marwan ibn Muhammad entered the Khazar land, guided by Asid ibn Zafir al-Sulami with the mountain kings by way of Bab wa-l-Abwab, and Yazid ibn Asid al-Sulami opened it in his governorship of Armenia, stationing there a ribat of diwan men."
@@ -9,12 +9,12 @@ wings: [place]
 periods: [period/umayyad]
 regions: [levant-iraq]
 relations:
-  - { type: site_of, target: event/marwan-caucasus-expedition, sources: [source/futuh-buldan-maarif-1407] }
-  - { type: site_of, target: event/yazid-ibn-asid-armenia, sources: [source/futuh-buldan-maarif-1407] }
+  - { type: site_of, target: event/marwan-caucasus-expedition, sources: [source/futuh-buldan-maarif-1407, source/encyclopaedia-of-islam-2] }
+  - { type: site_of, target: event/yazid-ibn-asid-armenia, sources: [source/futuh-buldan-maarif-1407, source/encyclopaedia-of-islam-2] }
 provenance:
   layer: own-research
   source: "فتوح البلدان (ط مؤسسة المعارف 1407هـ/1987م) ص 292، 295"
   generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
   run: lib-futuh-buldan-batch-18
-sources: [source/futuh-buldan-maarif-1407]
+sources: [source/futuh-buldan-maarif-1407, source/encyclopaedia-of-islam-2]
 status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }
