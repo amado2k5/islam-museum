@@ -25,3 +25,12 @@ The author notes that most of the crafts found among the Arabs, such as weaving,
 
 ## For young visitors
 Yemen is an ancient land in the south of the peninsula. Many tribes left it for every direction, and kingdoms followed one another there before Islam.
+
+## For Sprouts
+Yemen is a land in the south of Arabia with a very old history. It held old civilizations like Sheba, which the Qur'an mentions, and the famous dam of Ma'rib. The Prophet sent letters and envoys to its people, and some of them accepted Islam in delegations.
+
+## For Explorers
+Yemen is a land in southern Arabia famous in antiquity for the kingdoms of Sheba, Himyar, Ma'in and Hadramawt, and it reached fame through the dam of Ma'rib, which the Qur'an mentions in the story of Sheba. Successive powers ruled it, from Abyssinia to Persia; then the Prophet sent letters and envoys to its people — Ali ibn Abi Talib, Mu'adh ibn Jabal and al-Bara' ibn Azib on different occasions — and Yemen's delegations accepted Islam, among them al-Ash'ath ibn Qays. Within Islam Yemen joined the conquests: families and armies went out from it, and among the seats of its towns are Sanaa, Zabid, Ta'izz and Aden.
+
+## For Scholars
+Yemen is the region of southern Arabia with the deepest pre-Islamic civilizational record in the peninsula: the kingdoms of Sheba, Ma'in, Hadramawt, Qataban and Himyar, and an agricultural prosperity built on the Ma'rib dam and others. It is bound to early mythology in the Qur'an (the story of Sheba) and in the historical sources, and the Aksumite and Sasanian powers ruled it before Islam. In the sira Yemen appears as senders, emigrants and converts: the Prophet's letter to its rulers, its people's Islam at the hands of Ali ibn Abi Talib, Mu'adh ibn Jabal and others, and delegations in the Year of Delegations including al-Ash'ath ibn Qays al-Kindi. After the conquests it entered the Islamic expanse: among its towns Sanaa, Zabid, Ta'izz, Aden and Abiyan; its later Zaydi imamate formed a historic entity, and its schools include Zaydi and Shafi'i fiqh. Historians read Yemen as a bridge between Arabia and the Horn of Africa and a centre of seafaring, aromatics and copper.

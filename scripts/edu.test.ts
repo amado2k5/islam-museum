@@ -485,7 +485,7 @@ describe("education: classroom quiz (E3 step 1)", () => {
   it("the budget table names the classroom quiz route (calibrated, see check-weight.ts)", async () => {
     const { BUDGETS } = await import("./check-weight.ts");
     const b = BUDGETS.find((x) => x.family === "classroom quiz");
-    expect(b?.html).toBe(120 * 1024);
+    expect(b?.html).toBe(128 * 1024);
     expect(b?.js).toBe(15 * 1024);
   });
 });

@@ -33,3 +33,12 @@ Ibn Ishaq relates from Ibn Abbas that Ali came out from the Prophet on the day o
 
 ## His capture at Badr (al-Raheeq al-Makhtum p.219)
 An Ansari man took him captive. Al-Abbas said that the man who captured him was a bald man on a piebald horse. The Prophet said to the Ansari: "Be silent; God has supported you with a noble angel" ([[event/badr-battle-day|the day of Badr]]) {cite:mubarakpuri-raheeq p.219}.
+
+## For Sprouts
+Al-Abbas ibn Abd al-Muttalib was the Prophet's uncle and the oldest of the uncles who lived in his time. He accepted Islam before the conquest of Mecca, stood with the Prophet at Hunayn when the army wavered, and from his line came the Abbasid state many years later.
+
+## For Explorers
+Al-Abbas ibn Abd al-Muttalib ibn Hashim was the Prophet's uncle, the eldest of his uncles alive in the prophetic era, who held the office of watering the pilgrims with his brother Abu Talib before Islam. The sira books record that he was captured at Badr with the polytheists and ransomed himself and his sons, that he accepted Islam before or at the conquest of Mecca, and that he was the Prophet's eye on the Meccans. At Hunayn he stood firm with the Prophet when the army broke, and called with his loud voice to the men of the tree until they returned. From his line came the Abbasids whose call overthrew the Umayyads in 132 AH; he died in Medina in Uthman's caliphate.
+
+## For Scholars
+Al-Abbas ibn Abd al-Muttalib ibn Hashim was the Prophet's uncle, the eldest of the uncles living in the prophetic era, who with his brother Abu Talib held the watering of the pilgrims before Islam. The sira books record his capture at Badr with the polytheists and his ransom of himself and his sons Aqil and Nawfal, then his Islam before or at the conquest of Mecca — some accounts have him writing Meccan news to the Prophet. At Hunayn he stood firm when the army broke, and his loud voice called the men of the tree and of the pledge back to the Prophet. He has standing in the mubahala hadith and in the Siffin episode when the polytheists raised the masahif. From his line came the Abbasids whose call brought down the Umayyads in 132 AH and founded a five-century state. He died in Medina in Uthman's caliphate around 32 AH, outliving his father by two years; Umar loved him, and the accounts preserve the famous prayer for rain made through him.
