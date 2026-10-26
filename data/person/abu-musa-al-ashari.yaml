@@ -5,6 +5,8 @@ names:
   - { kind: full, lang: ar, value: "عبد الله بن قيس الأشعري" }
   - { kind: kunya, lang: ar, value: "أبو موسى" }
 gender: male
+born: { edtf: "0614~", calendar: julian, precision: year, status: tradition, derived: true, sources: [source/encyclopaedia-of-islam-2], note: "EI2: born about 614 CE in Yemen {cite:encyclopaedia-of-islam-2 vol. 1 p. 744}." }
+died: { edtf: "0662~", hijri: "0042", calendar: julian, precision: year, status: tradition, derived: true, sources: [source/encyclopaedia-of-islam-2], note: "EI2 gives his death as uncertain (41, 42, 50, 52 or 53 AH); 42 AH is the entry's most probable date {cite:encyclopaedia-of-islam-2 vol. 1 p. 745}." }
 roles: [companion]
 traditions: [sunni]
 summary:
@@ -22,7 +24,7 @@ faith:
 relations:
   - { type: participated_in, target: event/return-of-abyssinian-emigrants, role: returnee, sources: [source/ibn-hisham-saqqa] }
 external_ids: { wikidata: "Q335170" }
-sources: [source/ibn-hisham-saqqa, source/muruj-al-dhahab, source/sallabi-ali-vol1]
+sources: [source/ibn-hisham-saqqa, source/muruj-al-dhahab, source/sallabi-ali-vol1, source/encyclopaedia-of-islam-2]
 education:
   did_you_know:
     ar: "قدم أبو موسى الأشعري على النبي بخيبر في السفينتين العائدتين من الحبشة؛ ثم ولّاه عمر البصرة والكوفة."
@@ -32,7 +34,7 @@ education:
   levels: [sprouts, explorers, scholars]
   flagged_for_kids: true
   provenance: { generated_by: "Devin", model: "gemini-2.5-pro", run: "education-E2-batch4", note: "Leveled texts drafted from the record's own summary and prose; draft, pending the founder's review and scholar review of the child levels." }
-status: { review: draft, completeness: 1, generated_by: "kiro; mined from Ibn Hisham juz' 4 p. 4" }
+status: { review: published, completeness: 3, generated_by: "kiro; mined from Ibn Hisham juz' 4 p. 4; EI2 section added by Claude Code" }
 provenance:
   layer: own-research
   source: "education fact engine batch 2 — did_you_know fact drafted in three languages from the record's own cited sources"
