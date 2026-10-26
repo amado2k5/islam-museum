@@ -131,3 +131,6 @@ Al-Suwaidan steered 'emigration to the West: hope or pain' with polls and brain-
 
 ## In 'Al-Wasatiyya' — the satellite-channels episode
 Al-Suwaidan evaluated the Arab satellite experiment with statistics he presented (79 variety, 37 government, 52% violence in children's slots) and polls {cite:assabile-tareq-al-suwaidan al-wassitiya/ep12 00:15:00} {cite:assabile-tareq-al-suwaidan al-wassitiya/ep12 00:34:00} {cite:assabile-tareq-al-suwaidan al-wassitiya/ep12 00:50:00} {cite:assabile-tareq-al-suwaidan al-wassitiya/ep12 01:05:00}.
+
+## In 'Al-Wasatiyya' — the satellite-fatwa episode
+Al-Suwaidan steered the satellite-fatwa episode with scholars and polls — noting the surprise that only 15% turn to the channels' most-learned versus 42% to the academies {cite:assabile-tareq-al-suwaidan al-wassitiya/ep13 00:32:30} {cite:assabile-tareq-al-suwaidan al-wassitiya/ep13 01:08:30}.
