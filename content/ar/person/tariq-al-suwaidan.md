@@ -110,3 +110,6 @@ translators: []
 
 ## في «الوسطية» — حلقة العلمانية
 أدار السويدان حلقة «العلمانية والإسلام: صدام أم وئام» بنخبة — عمر الشوبكي وعمار علي حسن ومحمد جمال حشمة وضيوف مساندين — وأربعة استطلاعات بينها تصويت المشاهدين بالرسائل {cite:assabile-tareq-al-suwaidan al-wassitiya/ep05 00:03:00} {cite:assabile-tareq-al-suwaidan al-wassitiya/ep05 00:04:00} {cite:assabile-tareq-al-suwaidan al-wassitiya/ep05 00:27:00} {cite:assabile-tareq-al-suwaidan al-wassitiya/ep05 00:45:30}. وخلُص في الختام إلى أن المشترك بين النماذج أصيل في الإسلام، وأن «الإسلام الوسطي يغنينا عن العلمانية» {cite:assabile-tareq-al-suwaidan al-wassitiya/ep05 01:18:30} {cite:assabile-tareq-al-suwaidan al-wassitiya/ep05 01:20:00}.
+
+## في «الوسطية» — حلقة الوطنية والقومية
+أدار السويدان حلقة الوطنية والقومية مقابل الإسلام بثلاثة مختصين وثلاثة استطلاعات {cite:assabile-tareq-al-suwaidan al-wassitiya/ep06 00:03:30} {cite:assabile-tareq-al-suwaidan al-wassitiya/ep06 00:30:00} {cite:assabile-tareq-al-suwaidan al-wassitiya/ep06 00:54:00}. واعترف في الختام بفخره الشخصي بعروبته — «أفهم القرآن» — مرسّخاً قاعدة الحلقة: لا تعارض بلا تعصب {cite:assabile-tareq-al-suwaidan al-wassitiya/ep06 01:16:00} {cite:assabile-tareq-al-suwaidan al-wassitiya/ep06 01:18:00} {cite:assabile-tareq-al-suwaidan al-wassitiya/ep06 01:18:30}.
