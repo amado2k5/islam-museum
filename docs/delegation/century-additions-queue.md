@@ -376,11 +376,11 @@ lists' own order. Status markers: [ ] queued · [~] in a writer's hands · [x] m
 - [x] Qari Waheed Zafar Qasmi — 1953–Living
 - [x] Qari Syed Sadaqat Ali — 1952–Living
 - [x] Nasser Al-Qatami — 1980–Living
-- [ ] Yasser Al-Qurashi — 1976–Living
-- [ ] Hazaa Al-Balushi — 1995–Living
-- [ ] Fatih Seferagic — 1995–Living
-- [ ] Idrees Abkar — 1975–Living
-- [ ] Khalid Al-Jaleel — 1963–Living
+- [x] Yasser Al-Qurashi — 1976–Living
+- [x] Hazaa Al-Balushi — 1995–Living
+- [x] Fatih Seferagic — 1995–Living
+- [x] Idrees Abkar — 1975–Living
+- [x] Khalid Al-Jaleel — 1963–Living
 - [ ] Salah Bukhatir — 1970–Living
 - [ ] Bandar Baleela — 1975–Living
 - [ ] Abdullah Awad Al-Juhany — 1976–Living
