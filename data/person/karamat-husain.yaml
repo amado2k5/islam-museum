@@ -1,0 +1,46 @@
+id: person/karamat-husain
+class: person
+label: { ar: "كرامت حسين", en: "Karamat Husain", ur: "کرامت حسین" }
+names:
+  - { value: "سيد كرامت حسين", kind: full }
+  - { value: "Syed Karamat Husain", kind: full }
+  - { value: "Sayyid Karamat Hussain", kind: alternate }
+  - { value: "Justice Karamat Husain", kind: laqab }
+gender: male
+summary:
+  ar: "قاضٍ ومصلح تعليمي هندي (1854–1917). دَرّس القانون في الكلية المحمدية الأنجلو-شرقية بعليكرة من سنة 1891، وصار قاضيًا في المحكمة العليا بألاهاباد، وقضى سنواته الأخيرة في الدعوة إلى تعليم النساء المسلمات؛ فأسّس سنة 1912 مدرسة البنات المسلمات في لكناو، التي تحمل اليوم اسمه كليةً للبنات."
+  en: "Indian judge and education reformer (1854–1917). He taught law at the Muhammadan Anglo-Oriental College, Aligarh, from 1891, became a judge of the Allahabad High Court, and spent his later years campaigning for the education of Muslim women; in 1912 he founded the Muslim Girls' School at Lucknow, which today bears his name as a girls' college."
+  ur: "ہندوستانی جج اور تعلیمی مصلح (1854ء–1917ء)۔ انھوں نے 1891ء سے علی گڑھ کے محمڈن اینگلو اورینٹل کالج میں قانون پڑھایا، الہ آباد ہائی کورٹ کے جج بنے، اور اپنی آخری عمر مسلمان خواتین کی تعلیم کی تحریک میں گزاری؛ 1912ء میں انھوں نے لکھنؤ میں مسلم گرلز اسکول قائم کیا جو آج ان کے نام سے لڑکیوں کا کالج ہے۔"
+roles: [jurist, teacher]
+wings: [people]
+regions: [south-asia]
+born:
+  edtf: "1854"
+  hijri: "1270"
+  calendar: gregorian
+  precision: year
+  status: historical
+  derived: true
+  note: "Year only. The Journal of Indian Studies article gives 'Sayyid Karamat Hussain, (1854-1917) a scholar and a judge', and the biographical scholarship on Syed Mahmood gives the same years; no source consulted gives a day or month, and no place entity exists for his birthplace, so no born_in edge is written. The Hijri year is a conversion of the Gregorian year and is marked derived."
+  sources: [source/journal-indian-studies-karamat-husain]
+died:
+  edtf: "1917"
+  hijri: "1335"
+  calendar: gregorian
+  precision: year
+  status: historical
+  derived: true
+  note: "Year only, from the same sources as his birth; no source consulted gives a day, month or place of death, so no died_in edge is written. The Hijri year is a conversion of the Gregorian year and is marked derived."
+  sources: [source/journal-indian-studies-karamat-husain]
+faith:
+  - value: unknown
+    basis: unknown
+    note: "FLAGGED — one text attestation of Shia affiliation, standing one attestation short under the Shia-mapping rule. The Allahabad High Court judgment of 11 December 1997 states in its text: 'Justice Karamat Husain as well as Raja of Mahmoodabad, no doubt belonged to Shia community' — one source (the same judgment is mirrored on several legal websites and counts once). The branch-supporting context is strong and is preserved here: the suit concerned his waqf deeds (6 August 1908 and 1912) and the jurisdiction of the Shia Central Board of Waqfs over the institution he founded, and the biographical scholarship records that he studied with his uncle Sayyid Hamid Husayn, described as a learned mujtahid — but an uncle's scholarship is family background and formation, and never counts as the man's own attestation. No second independent source naming his affiliation was found: the college's founder page and the journal article call him a Muslim reformer and name no branch. If a second attestation is accepted, the mapping rule settles this segment as shia-twelver/documented with the mapping stated; on the founder's word it can also be settled from the judgment alone."
+    sources: [source/allahabad-hc-karamat-husain-1997, source/journal-indian-studies-karamat-husain, source/karamat-girls-college-founder]
+sources: [source/karamat-girls-college-founder, source/allahabad-hc-karamat-husain-1997, source/journal-indian-studies-karamat-husain]
+provenance:
+  layer: own-research
+  source: "The Karamat Husain Muslim Girls P. G. College founder page (institutional biography, consulted 26 October 2026), the Allahabad High Court judgment of 11 December 1997 in Managing Committee, Karamat Husain Muslim Girls Degree College v. Shia Central Board of Waqfs (Indian Kanoon doc 9748), and the Journal of Indian Studies (University of the Punjab) article on Muslim women's education, all read on 26 October 2026. No Wikipedia article and no Wikidata item exist for this man in any language checked (English, Arabic, Urdu and Hindi searches, and a Wikidata search, all empty; the only Wikidata item, Q95184670, is his Lucknow college, not the man), so no revision ids exist and the sources are recorded in consultation-date form; no identifier has been invented. Existence was checked by filename fragments under all spellings (karamat, husain/hussain), by Arabic label, by biography and by the QID route across data/person/ — no earlier record exists. No relation edges are written: no place entity exists for Lucknow or Allahabad, and his uncle Sayyid Hamid Hussain has no record."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: century-additions-71
+status: { review: published, generated_by: "Muse (Muse Spark 1.3)" }

@@ -1,0 +1,52 @@
+id: person/obaidullah-sindhi
+class: person
+label: { ar: "عبيد الله السندي", en: "Obaidullah Sindhi", ur: "عبیداللہ سندھی" }
+names:
+  - { value: "عبيد الله السندي", kind: full }
+  - { value: "Ubaidullah Sindhi", kind: full }
+  - { value: "Buta Singh Uppal", kind: alternate }
+  - { value: "بوتا سينغ أوبال", kind: alternate }
+  - { value: "Maulana Ubaidullah Sindhi", kind: laqab }
+gender: male
+summary:
+  ar: "عالم وناشط سياسي هندي (1872–1944). وُلد في أسرة سيخية في سيالكوت باسم بوتا سينغ أوبال، واعتنق الإسلام في الخامسة عشرة، ودرس في دار العلوم ديوبند، وصار من قادة حركة رسائل الحرير ووزير الداخلية في حكومة الهند المؤقتة في كابل (1915)، وأمضى سنوات في روسيا وتركيا والحجاز قبل عودته إلى الهند."
+  en: "Indian scholar and political activist (1872–1944). Born at Sialkot in a Sikh family as Buta Singh Uppal, he converted to Islam at fifteen, studied at Darul Uloom Deoband, became a leader of the Silk Letter movement and home minister of the Provisional Government of India at Kabul (1915), and spent years in Russia, Turkey and the Hijaz before returning to India."
+  ur: "ہندوستانی عالم اور سیاسی کارکن (1872ء–1944ء)۔ سیالکوٹ کے ایک سکھ گھرانے میں بوٹا سنگھ اپل کے نام سے پیدا ہوئے، پندرہ برس کی عمر میں اسلام قبول کیا، دار العلوم دیوبند میں تعلیم پائی، تحریک ریشمی رومال کے رہنما اور کابل کی عبوری حکومت ہند (1915ء) کے وزیر داخلہ بنے، اور روس، ترکی اور حجاز میں برسوں گزار کر ہندوستان لوٹے۔"
+roles: [scholar, activist, writer]
+wings: [people]
+regions: [south-asia]
+born:
+  edtf: "1872-03-10"
+  hijri: "1289"
+  calendar: gregorian
+  precision: day
+  status: debated
+  derived: false
+  note: "The English article and Wikidata give 10 March 1872, at Sialkot, and the Arabic article pairs the same day with the year 1289 AH; the Urdu article's own birth section likewise pairs 12 Muharram 1289 with 10 March 1872, although its lead gives 22 March — the day is therefore marked debated and the record follows the English, Arabic and structured agreement on 10 March. The Hijri year 1289 is the sources' own pairing, not a conversion. He was born at Sialkot; no place entity exists for Sialkot, so no born_in edge is written."
+  sources: [source/wikipedia-sindhi-en, source/wikipedia-sindhi-ar, source/wikipedia-sindhi-ur, source/wikidata-sindhi]
+died:
+  edtf: "1944-08-21"
+  hijri: "1363"
+  calendar: gregorian
+  precision: day
+  status: debated
+  derived: false
+  note: "The English article and Wikidata give 21 August 1944, at Deen Pur near Khanpur in Rahim Yar Khan district, and the Urdu lead agrees on 21 August, although the Urdu infobox pairs 2 Ramadan 1363 AH with 22 August; the day is marked debated and the record follows 21 August. The Hijri year 1363 is the Urdu source's own pairing, not a conversion. No place entity exists for Deen Pur or Rahim Yar Khan, so no died_in edge is written."
+  sources: [source/wikipedia-sindhi-en, source/wikipedia-sindhi-ur, source/wikidata-sindhi]
+relations:
+  - { type: student_of, target: person/mahmud-hasan-deobandi, sources: [source/wikipedia-sindhi-en, source/wikipedia-sindhi-ar] }
+  - { type: student_of, target: person/rashid-ahmad-gangohi, sources: [source/wikipedia-sindhi-ar] }
+  - { type: member_of, target: group/deobandiyya, sources: [source/wikipedia-sindhi-en, source/wikipedia-sindhi-ar] }
+faith:
+  - value: unknown
+    basis: unknown
+    note: "FLAGGED — the Hanafi reading rests on two edition infoboxes with no text attestation, the Begum Hazrat Mahal configuration, and stands one attestation short. What the sources give, exactly: his conversion to Islam from Sikhism at fifteen is attested in the Arabic and Urdu texts, and his Deobandi affiliation is attested in TEXT repeatedly — the English article places him among the leaders of the Deoband School, the Arabic article calls him one of the leaders of the Deobandi school who left India under Mahmud Hasan Deobandi, and the Urdu article files and templates him as a Deobandi personality — but Deobandi is a movement, not a legal-school value. The school itself is named only in structured fields: the English article's Islamic-biography infobox (denomination Sunni, jurisprudence Hanafi, creed Maturidi, the creed cited to his own At-Tamheed) and the Arabic article's shaykh infobox (madhhab: Hanafi) — two infoboxes in two editions, which the lane counts as one infobox family until the founder rules otherwise; the Urdu article names no school in text, carrying only the Maturidi and Deobandi navigation templates and category filings, and Wikidata gives Islam only. His Deoband formation is formation and was never counted. If the founder counts the two edition infoboxes as two attestations, this segment settles as sunni-hanafi/documented; the Maturidi creed would remain note-only in any case."
+    sources: [source/wikipedia-sindhi-en, source/wikipedia-sindhi-ar, source/wikipedia-sindhi-ur, source/wikidata-sindhi]
+external_ids: { wikidata: "Q7876387" }
+sources: [source/wikipedia-sindhi-en, source/wikipedia-sindhi-ar, source/wikipedia-sindhi-ur, source/wikidata-sindhi]
+provenance:
+  layer: own-research
+  source: "English Wikipedia 'Ubaidullah Sindhi' (revision 1373921667), Arabic Wikipedia 'عبيد الله السندي' (revision 71802235), Urdu Wikipedia 'عبیداللہ سندھی' (revision 12024727) and Wikidata item Q7876387 (item revision 2559622827), read via the MediaWiki API on 26 October 2026; every article was fetched by its recorded revision id and the returned id asserted equal before any claim was drawn. Existence was checked by filename fragments under all spellings (sindhi, ubaidullah/obaidullah), by Arabic label, by biography and by the QID route across data/person/ — no earlier record exists; the museum's husain-ahmad-madani, kifayatullah-dehlvi and hakim-ajmal-khan are his associates, not the man. The student_of edges follow the texts: the Arabic article states he received knowledge at the hands of Rashid Ahmad Gangohi and Mahmud Hasan Deobandi, and the English article names both among those he took lessons from; both target records exist. His birth name, Buta Singh Uppal, is recorded as an alternate name kind, and his conversion is recorded in the faith note rather than as a faith value, the current affiliation being what the sources attest."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: century-additions-71
+status: { review: published, generated_by: "Muse (Muse Spark 1.3)" }

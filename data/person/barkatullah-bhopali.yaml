@@ -1,0 +1,47 @@
+id: person/barkatullah-bhopali
+class: person
+label: { ar: "بركت الله البهوبالي", en: "Barkatullah Bhopali", ur: "برکت اللہ بھوپالی" }
+names:
+  - { value: "عبد الحافظ محمد بركت الله", kind: full }
+  - { value: "Abdul Hafiz Mohamed Barakatullah", kind: full }
+  - { value: "Mohamed Barakatullah Bhopali", kind: alternate }
+  - { value: "Maulana Barkatullah", kind: laqab }
+gender: male
+summary:
+  ar: "ثوري هندي (1854–1927) من بوبال. عمل من المنفى في إنجلترا وأمريكا واليابان، حيث عُيّن أستاذًا للهندوستانية في جامعة طوكيو وأسلم على يده أوائل اليابانيين، وكان من مؤسسي حزب غدر في سان فرانسيسكو (1913)، ثم أول رئيس وزراء لحكومة الهند المؤقتة في كابل (1915)، وتوفي في سان فرانسيسكو ودُفن في ساكرامنتو."
+  en: "Indian revolutionary (1854–1927) from Bhopal. He worked in exile in England, America and Japan — where he was appointed Professor of Hindustani at the University of Tokyo and the first Japanese converts to Islam are said to have come through him — was a founder of the Ghadar Party at San Francisco (1913), became the first prime minister of the Provisional Government of India at Kabul (1915), and died in San Francisco and was buried at Sacramento."
+  ur: "بھوپال کے ہندوستانی انقلابی (1854ء–1927ء)۔ انھوں نے انگلستان، امریکا اور جاپان میں جلاوطنی سے کام کیا — جاپان میں وہ ٹوکیو یونیورسٹی میں ہندوستانی کے پروفیسر بنے اور کہا جاتا ہے کہ پہلے جاپانی ان کے ہاتھ پر مسلمان ہوئے — سان فرانسسکو میں غدر پارٹی (1913ء) کے بانیوں میں شامل ہوئے، کابل کی عبوری حکومت ہند (1915ء) کے پہلے وزیر اعظم بنے، اور سان فرانسسکو میں وفات پا کر ساکرامنٹو میں دفن ہوئے۔"
+roles: [activist, writer, teacher]
+wings: [people]
+regions: [south-asia]
+born:
+  edtf: "1854-07-07"
+  hijri: "1270"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "The English and Urdu articles and Wikidata agree on 7 July 1854, at Itawra mohalla, Bhopal; no place entity exists for Bhopal, so no born_in edge is written. The Hijri year is a conversion and is marked derived."
+  sources: [source/wikipedia-barkatullah-en, source/wikipedia-barkatullah-ur, source/wikidata-barkatullah]
+died:
+  edtf: "1927-09-20"
+  hijri: "1346"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "The English and Urdu articles and Wikidata agree on 20 September 1927; the English article gives his death at San Francisco and his burial in the Old City Cemetery at Sacramento, California. No place entity exists for either city, so no died_in or buried_in edge is written. The Hijri year is a conversion and is marked derived."
+  sources: [source/wikipedia-barkatullah-en, source/wikipedia-barkatullah-ur, source/wikidata-barkatullah]
+faith:
+  - value: unknown
+    basis: unknown
+    note: "The Khan configuration: Muslim is attested in the texts — the English article shows him at the Muslim Patriotic League's meetings, defines in his 1907 letter the two chief duties of Muslims, records his paper El Islam and his converting three Japanese to Islam at Tokyo in December 1911, and files him under 20th-century Indian Muslims — but no source names a denomination or legal school for him: the English officeholder infobox has no religion field, the Urdu infobox is empty, and Wikidata gives Islam only. His Ghadar Party and Provisional Government roles are political affiliations, which never count. The segment therefore stays unknown, unflagged."
+    sources: [source/wikipedia-barkatullah-en, source/wikipedia-barkatullah-ur, source/wikidata-barkatullah]
+external_ids: { wikidata: "Q4665362" }
+sources: [source/wikipedia-barkatullah-en, source/wikipedia-barkatullah-ur, source/wikidata-barkatullah]
+provenance:
+  layer: own-research
+  source: "English Wikipedia 'Mohamed Barakatullah Bhopali' (revision 1374523700), Urdu Wikipedia 'برکت اللہ بھوپالی' (revision 11801335) and Wikidata item Q4665362 (item revision 2430227398), read via the MediaWiki API on 26 October 2026; every article was fetched by its recorded revision id and the returned id asserted equal before any claim was drawn. No Arabic Wikipedia article exists for this man (the Wikidata item has no Arabic sitelink); the Arabic prose is written from the English and Urdu articles and says so. Existence was checked by filename fragments under all spellings (barkatullah, barakatullah, bhopali), by Arabic label, by biography and by the QID route across data/person/ — no earlier record exists. No relation edges are written: no place entity exists for Bhopal, San Francisco or Sacramento, and Mahendra Pratap, his president in the Kabul government, has no person record."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: century-additions-71
+status: { review: published, generated_by: "Muse (Muse Spark 1.3)" }
