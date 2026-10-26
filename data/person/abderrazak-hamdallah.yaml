@@ -1,0 +1,30 @@
+id: person/abderrazak-hamdallah
+class: person
+label: { ar: "عبد الرزاق حمد الله", en: "Abderrazak Hamdallah", ur: "عبد الرزاق حمد اللہ" }
+names:
+  - { value: "Abderrazak Hamdallah", kind: full }
+  - { value: "عبد الرزاق حمد الله", kind: full }
+  - { value: "The Executioner", kind: laqab }
+  - { value: "الجلاد", kind: laqab }
+gender: male
+summary:
+  ar: "مهاجم مغربي وُلد في آسفي سنة 1990 ويلعب للتعاون السعودي. بدأ مع أولمبيك آسفي، واحترف في النرويج والصين وقطر قبل أن يصبح من أبرز هدافي الدوري السعودي مع النصر والاتحاد، وكان هداف العالم في سنة 2019، وفاز مع المغرب بكأس العرب 2025 ثم اعتزل دوليًا."
+  en: "Moroccan striker born in Safi in 1990 who plays for Saudi club Al-Taawoun. He began with Olympic Safi, played in Norway, China and Qatar, then became one of the Saudi Pro League's leading scorers with Al-Nassr and Al-Ittihad; he was the world's leading goalscorer of 2019, won the 2025 FIFA Arab Cup with Morocco and then retired from international football."
+  ur: "مراکشی اسٹرائیکر، 1990 میں آسفی میں پیدا ہوئے، سعودی کلب التعاون کے لیے کھیلتے ہیں۔ انہوں نے اولمپک آسفی سے آغاز کیا، ناروے، چین اور قطر میں کھیلے، پھر النصر اور الاتحاد کے ساتھ سعودی پرو لیگ کے نمایاں گول اسکورروں میں شامل ہوئے؛ وہ 2019 میں دنیا کے سب سے بڑے گول اسکورر تھے، مراکش کے ساتھ 2025 فیفا عرب کپ جیتا اور پھر بین الاقوامی فٹبال سے ریٹائر ہو گئے۔"
+roles: [athlete]
+wings: [people, living]
+regions: [maghreb]
+born: { edtf: "1990-12-17", hijri: "1411", calendar: gregorian, precision: day, status: historical, derived: true, note: "Born on 17 December 1990 in Safi, Morocco, the youngest of seven children, per the English article's early-life section; Wikidata gives the same date and place. The Hijri year is a tabular conversion. The museum has no place entity for Safi, so no born_in edge is written.", sources: [source/wikipedia-abderrazak-hamdallah-en, source/wikidata-abderrazak-hamdallah] }
+faith:
+  - value: unknown
+    basis: unknown
+    note: "No affiliation is recorded. The English article's personal-life section calls him 'a practicing Muslim' and says he has often been seen performing Umrah — public practice naming Islam generically, with no school named (the Chamakh pattern). The Arabic article states no religion, none of the articles' categories is a religion category, and Wikidata has no religion value for him. No two independent sources name a school or affiliation for him personally."
+    sources: [source/wikipedia-abderrazak-hamdallah-en, source/wikipedia-abderrazak-hamdallah-ar, source/wikidata-abderrazak-hamdallah]
+external_ids: { wikidata: "Q2821281" }
+sources: [source/wikipedia-abderrazak-hamdallah-en, source/wikipedia-abderrazak-hamdallah-ar, source/wikidata-abderrazak-hamdallah]
+provenance:
+  layer: own-research
+  source: "English Wikipedia (revision 1381509668 of 23 October 2026), Arabic Wikipedia (revision 76309825 of 23 August 2026) and Wikidata Q2821281, each read on 26 October 2026; every article was fetched by its recorded revision id and the returned revision asserted equal before any claim was drawn. Existence checked both routes: the name-fragment sweep over data/person/ found only Hamdallah Mustawfi, the medieval historian, a different person; and Q2821281 was searched across data/person/ and data/source/ with no hit; the QID was pinned by biography (Moroccan footballer, born 17 December 1990 at Safi). This is a new build. No relations are written: the museum has no place entity for Safi."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: century-additions-54
+status: { review: published, generated_by: "Muse (Muse Spark 1.3)" }
