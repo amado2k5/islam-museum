@@ -1,0 +1,36 @@
+id: person/eric-abidal
+class: person
+label: { ar: "إريك أبيدال", en: "Eric Abidal", ur: "ایریک ابیدال" }
+names:
+  - { value: "Éric Sylvain Abidal", kind: full }
+  - { value: "إريك أبيدال", kind: full }
+gender: male
+summary:
+  ar: "لاعب كرة قدم فرنسي معتزل، وُلد في سان جوني لافال بفرنسا سنة 1979. ظهير أيسر وقلب دفاع لعب أساسًا لليون وبرشلونة، وفاز مع الناديين بـ19 لقبًا منها دوري أبطال أوروبا مرتين مع برشلونة، وخاض 67 مباراة مع منتخب فرنسا. وطبع أواخر مسيرته ورم في الكبد وزراعة كبد. نشأ في عائلة كاثوليكية واعتنق الإسلام في عشرينياته."
+  en: "French retired footballer, born in Saint-Genis-Laval, France in 1979. A left-back and centre-back who played mainly for Lyon and Barcelona, winning 19 trophies with the two clubs, including two Champions Leagues with Barcelona, and winning 67 caps for France. His later career was marked by a liver tumour and a transplant. Raised in a Catholic family, he converted to Islam in his twenties."
+  ur: "فرانسیسی ریٹائرڈ فٹبالر، 1979 میں فرانس کے سینٹ جینس لاوال میں پیدا ہوئے۔ لیفٹ بیک اور سینٹر بیک جنہوں نے زیادہ تر لیون اور بارسلونا کے لیے کھیلا، دونوں کلبوں کے ساتھ 19 ٹرافیاں جیتیں جن میں بارسلونا کے ساتھ دو چیمپئنز لیگ شامل ہیں، اور فرانس کے لیے 67 میچ کھیلے۔ ان کے بعد کے کیریئر پر جگر کے رسولی اور پیوندکاری کا سایہ رہا۔ کیتھولک خاندان میں پرورش پائی اور بیس کی دہائی میں اسلام قبول کیا۔"
+roles: [athlete]
+wings: [people, living]
+regions: [andalus-europe]
+born:
+  edtf: "1979-09-11"
+  hijri: "1399"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "Born 11 September 1979 in Saint-Genis-Laval, France, as given by the English Wikipedia article's infobox and by Wikidata Q1935, which agree; the Arabic article's infobox names Lyon, the metropolis within which Saint-Genis-Laval lies. No place entity for Saint-Genis-Laval or Lyon exists in data/place/, so no born_in edge is written. The Hijri year (1399) is derived by tabular conversion."
+  sources: [source/wikipedia-eric-abidal-en, source/wikipedia-eric-abidal-ar, source/wikidata-eric-abidal]
+faith:
+  - value: unknown
+    basis: unknown
+    note: "Abidal's conversion to Islam is documented, but no source read names a school or madhhab for him personally. The English Wikipedia article, citing L'Obs (14 January 2011) and Libération (21 October 2014), says he was raised in a Catholic family and converted to Islam in his 20s; the French article dates the conversion to 2007 and the Arabic article repeats the in-his-twenties account from the same L'Obs piece. The English article's categories file him under “Converts to Sunni Islam from Roman Catholicism”, but a category filing is not a statement in a source's text, and it stands alone in one article. Wikidata Q1935 gives his religion as Islam (Q432), generically. Lane practice does not record a convert's former faith, so no christian segment is written; and a documented conversion, a category filing and a generic structured value are not two independent sources naming a school. Under the two-source rule and the doubt rule, no faith value beyond unknown is recorded, with the conversion itself documented here and in the prose."
+    sources: [source/wikipedia-eric-abidal-en, source/wikipedia-eric-abidal-fr, source/wikipedia-eric-abidal-ar, source/wikidata-eric-abidal]
+external_ids: { wikidata: "Q1935" }
+sources: [source/wikipedia-eric-abidal-en, source/wikipedia-eric-abidal-fr, source/wikipedia-eric-abidal-ar, source/wikidata-eric-abidal]
+provenance:
+  layer: own-research
+  source: "English Wikipedia 'Eric Abidal' (revision 1381392943 of 22 October 2026), French Wikipedia 'Éric Abidal' (revision 238245877 of 31 July 2026), Arabic Wikipedia «إريك أبيدال» (revision 76126342 of 7 August 2026) and Wikidata Q1935, read on 26 October 2026; each article was fetched by its recorded revision id and the returned revision asserted equal before any claim was drawn. No relation edge is written: his birthplace, Saint-Genis-Laval, has no entity in data/place/. No earlier record for him existed in data/person/ under abidal or any other spelling checked (fragment and QID searches both negative); this is a new build, not an enrichment."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: century-additions-44
+status: { review: published, completeness: 2, generated_by: "Muse (Muse Spark 1.3)" }

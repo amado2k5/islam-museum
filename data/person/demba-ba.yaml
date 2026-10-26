@@ -1,0 +1,36 @@
+id: person/demba-ba
+class: person
+label: { ar: "دمبا با", en: "Demba Ba", ur: "ڈیمبا با" }
+names:
+  - { value: "Demba Ba", kind: full }
+  - { value: "دمبا با", kind: full }
+gender: male
+summary:
+  ar: "لاعب كرة قدم سنغالي معتزل، وُلد في سيفر بفرنسا سنة 1985. مهاجم لعب لهوفنهايم ووست هام يونايتد ونيوكاسل يونايتد وتشيلسي وبشكتاش وشنغهاي شينهوا وإسطنبول باشاك شهير، وخاض 22 مباراة مع منتخب السنغال. مسلم ممارس معروف بصيام رمضان وباحتفال السجود عند تسجيل الأهداف."
+  en: "Senegalese retired footballer, born in Sèvres, France in 1985. A striker who played for Hoffenheim, West Ham United, Newcastle United, Chelsea, Beşiktaş, Shanghai Shenhua and İstanbul Başakşehir, and won 22 caps for Senegal. A practising Muslim, he is known for fasting during Ramadan and for the sujud goal celebration."
+  ur: "سینیگالی ریٹائرڈ فٹبالر، 1985 میں فرانس کے سیور میں پیدا ہوئے۔ اسٹرائیکر جنہوں نے ہو فن ہائم، ویسٹ ہیم یونائیٹڈ، نیو کیسل یونائیٹڈ، چیلسی، بیشکتاش، شنگھائی شینہوا اور استنبول باشاک شہر کے لیے کھیلا، اور سینیگال کے لیے 22 میچ کھیلے۔ باعمل مسلمان ہیں، رمضان کے روزوں اور گول پر سجدۂ شکر کے لیے معروف ہیں۔"
+roles: [athlete]
+wings: [people, living]
+regions: [andalus-europe, west-africa-sahel]
+born:
+  edtf: "1985-05-25"
+  hijri: "1405"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "Born 25 May 1985 in Sèvres, France, as given by the English Wikipedia article's infobox and by Wikidata Q296341, which agree; he was born and raised in France and played internationally for Senegal. No place entity for Sèvres exists in data/place/, so no born_in edge is written. The Hijri year (1405) is derived by tabular conversion and agrees with the Arabic article's birth-year category."
+  sources: [source/wikipedia-demba-ba-en, source/wikipedia-demba-ba-ar, source/wikidata-demba-ba]
+faith:
+  - value: unknown
+    basis: unknown
+    note: "No source read names a school or madhhab for Ba personally. The English Wikipedia article calls him a practising Muslim and records his Ramadan fasting, his sujud goal celebration and his 2013 refusal to wear the Wonga sponsor's name — observed practice and public stance, not a school attestation. The Arabic article states that he professes Islam and likewise records the fasting and the sujud, and files him under the categories “Senegalese Muslims” and “French Muslims”. The French article describes him speaking as a Muslim in the sponsor dispute and quotes his own words “Je suis musulman” after the January 2015 Paris attacks — a generic self-identification. Wikidata Q296341 gives his religion as Islam (Q432), generically. Generic identifications and observed practice, repeated across articles, are not two independent sources naming a school. Under the two-source rule and the doubt rule, no faith value beyond unknown is recorded, with what each source gives documented here and in the prose."
+    sources: [source/wikipedia-demba-ba-en, source/wikipedia-demba-ba-fr, source/wikipedia-demba-ba-ar, source/wikidata-demba-ba]
+external_ids: { wikidata: "Q296341" }
+sources: [source/wikipedia-demba-ba-en, source/wikipedia-demba-ba-fr, source/wikipedia-demba-ba-ar, source/wikidata-demba-ba]
+provenance:
+  layer: own-research
+  source: "English Wikipedia 'Demba Ba' (revision 1379904973 of 12 October 2026), French Wikipedia 'Demba Ba' (revision 238642307 of 15 August 2026), Arabic Wikipedia «دمبا با» (revision 75138588 of 7 June 2026) and Wikidata Q296341, read on 26 October 2026; each article was fetched by its recorded revision id and the returned revision asserted equal before any claim was drawn. No relation edge is written: his birthplace, Sèvres, has no entity in data/place/. No earlier record for him existed in data/person/ under demba or ba or any other spelling checked (fragment and QID searches both negative); this is a new build, not an enrichment."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: century-additions-44
+status: { review: published, completeness: 2, generated_by: "Muse (Muse Spark 1.3)" }
