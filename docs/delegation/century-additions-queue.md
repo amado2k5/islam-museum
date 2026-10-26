@@ -281,11 +281,11 @@ lists' own order. Status markers: [ ] queued · [~] in a writer's hands · [x] m
 - [x] Mahamadou Diarra — 1981–Living
 - [x] George Weah (Honored African Icon) — 1966–Living
 - [x] Tarik Elyounoussi — 1988–Living
-- [ ] Omar Elabdellaoui — 1991–Living
-- [ ] Ansu Fati — 2002–Living
-- [ ] Adama Traoré — 1996–Living
-- [ ] Iñaki Williams — 1994–Living
-- [ ] Nordin Amrabat — 1987–Living
+- [x] Omar Elabdellaoui — 1991–Living
+- [x] Ansu Fati — 2002–Living
+- [x] Adama Traoré — 1996–Living
+- [x] Iñaki Williams — 1994–Living
+- [x] Nordin Amrabat — 1987–Living
 - [ ] Munir El Haddadi — 1995–Living
 - [ ] Noussair Mazraoui — 1997–Living
 - [ ] Ismaël Bennacer — 1997–Living
