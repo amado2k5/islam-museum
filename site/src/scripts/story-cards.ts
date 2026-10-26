@@ -35,7 +35,7 @@ function init(root: HTMLElement) {
   player.querySelector("[data-sc-next]")!.addEventListener("click", () => { stopPlay(); show(i + 1); });
   player.addEventListener("pointerdown", (e) => { if (e.target !== playBtn) stopPlay(); });
   player.addEventListener("keydown", (e) => {
-    stopPlay();
+    if (e.target !== playBtn) stopPlay();
     if (e.key === "ArrowLeft") show(i + 1);
     if (e.key === "ArrowRight") show(i - 1);
   });

@@ -1033,6 +1033,8 @@ describe("E5 step 3 — edu/story-cards/*.yaml (story in 12 cards)", () => {
       expect(d.status?.review, f).toBe("published");
       expect(d.provenance?.generated_by, f).toBeTruthy();
       expect(d.provenance?.source, f).toBeTruthy();
+      expect(Array.isArray(d.sources) && d.sources.length > 0, f).toBe(true);
+      for (const s of d.sources) expect(existsSync(`data/${s}.yaml`), `${f}:${s}`).toBe(true);
     }
   });
   it("no typed honorifics or Qur'an text in story-card data", () => {

@@ -23,11 +23,5 @@ Al-Maqrizi reports, from al-Musabbihi, that in Muharram 415 AH a man of the Banu
 
 This is an account of al-Suyuti's report alone, which is one of the Sunni sources. The academic view and the view of the Isma'ilis of him still need to be added.
 
-## For Sprouts
-Al-Hakim bi-Amr Allah, the sixth ruler of the Ubaydi state per al-Suyuti, who took over after his father al-Aziz; he vanished in Shawwal 411 AH.
-
-## For Explorers
-Al-Hakim bi-Amr Allah Mansur ibn al-Aziz, the sixth ruler of the Ubaydi state per al-Suyuti, who took over after his father. Al-Suyuti records that he did away with a group of notables, ordered curses on the Companions written on mosque doors and streets, ordered dogs destroyed and forbade foods including scaleless fish, demolished the Church of the Resurrection and Egypt's churches then allowed their rebuilding, and barred women from going out night or day. Al-Maqrizi records that he vanished in the last two nights of Shawwal 411 AH at thirty-six years seven months, and that he pursued the ancients' sciences, observed the stars, built an observatory, and founded Cairo's House of Knowledge.
-
 ## For Scholars
 Al-Hakim bi-Amr Allah Mansur ibn al-Aziz, the sixth ruler of the Ubaydi state per al-Suyuti, who took over after his father and was titled al-Hakim bi-Amr Allah. Al-Suyuti records that he killed a group of notables, ordered curses on the Companions written on mosque doors and streets, ordered dogs killed and forbade foods including scaleless fish, demolished the Church of the Resurrection and Egypt's churches then allowed their rebuilding, barred women from going out night or day, and says he was killed at Helwan in 411 AH. Al-Maqrizi records that he vanished in the last two nights of Shawwal 411 AH at thirty-six years seven months with a twenty-five-year-and-month caliphate, that he pursued the ancients' sciences, observed the stars, built an observatory, kept a retreat on the Muqattam and founded Cairo's House of Knowledge; he calls him 'a shedder of blood who killed countless numbers'. And al-Maqrizi transmits from al-Musabbihi that a man of Banu al-Husayn rose in the Sa'id in 415 AH and confessed to killing him among four souls — this the telling al-Maqrizi judges sound, not the tale that his sister killed him.
