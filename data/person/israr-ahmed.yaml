@@ -1,0 +1,83 @@
+id: person/israr-ahmed
+class: person
+label:
+  ar: إسرار أحمد
+  en: Israr Ahmed
+  ur: اسرار احمد
+summary:
+  ar: عالم دين باكستاني وخطيب، وُلد في حصار سنة 1932 وتوفي في لاهور سنة 2010. طبيب تدرّب في لاهور وكراچي، غادر الجماعة الإسلامية لخلافه مع دخولها السياسة الانتخابية، وأسّس أنجمن خدام القرآن (1972) وتنظيم إسلامي (1975) داعيًا إلى إحياء قرآني وإلى إقامة الخلافة، ونال وسام ستارة امتياز سنة 1981.
+  en: Pakistani Islamic scholar and orator, born in Hisar in 1932 and died in Lahore in 2010. A physician trained in Lahore and Karachi, he left Jamaat-e-Islami over its turn to electoral politics and founded Anjuman Khuddam-ul-Quran (1972) and Tanzeem-e-Islami (1975), preaching a Qur'an-centred revival and the restoration of the caliphate. He received the Sitara-i-Imtiaz in 1981.
+  ur: پاکستانی عالمِ دین اور خطیب، جو 1932 میں حصار میں پیدا ہوئے اور 2010 میں لاہور میں وفات پائے۔ وہ لاہور اور کراچی سے تعلیم یافتہ معالج تھے؛ جماعتِ اسلامی کی انتخابی سیاست سے اختلاف پر اسے چھوڑا، انجمن خدام القرآن (1972) اور تنظیم اسلامی (1975) کی بنیاد رکھی، اور 1981 میں ستارۂ امتیاز ملا۔
+names:
+- value: Israr Ahmed
+  kind: full
+- value: Israr Ahmad
+  kind: alternate
+- value: اسرار احمد
+  kind: full
+gender: male
+roles:
+- scholar
+- theologian
+- writer
+born:
+  edtf: '1932-04-26'
+  hijri: '1350'
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: Born in Hisar, Punjab, British India (now in Haryana, India), into a Ranghar Rajput family, as the English and Urdu articles and Wikidata agree. There is no place entity for Hisar, so no born_in edge is written. Hijri year 1350 derived from the Gregorian date.
+  sources:
+  - source/wikipedia-israr-ahmed-en
+  - source/wikipedia-israr-ahmed-ur
+  - source/wikidata-israr-ahmed
+died:
+  edtf: '2010-04-14'
+  hijri: '1431'
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: Died in Lahore, as the English and Urdu articles and Wikidata agree. Hijri year 1431 derived from the Gregorian date.
+  sources:
+  - source/wikipedia-israr-ahmed-en
+  - source/wikipedia-israr-ahmed-ur
+  - source/wikidata-israr-ahmed
+relations:
+- type: died_in
+  target: place/lahore
+  sources:
+  - source/wikipedia-israr-ahmed-en
+  - source/wikidata-israr-ahmed
+- type: buried_in
+  target: place/lahore
+  sources:
+  - source/wikipedia-israr-ahmed-ur
+faith:
+- value: unknown
+  basis: unknown
+  note: No source names a madhhab for Israr Ahmed himself. The Urdu article's infobox gives his sect as Ahl-e-Sunnat (اہل سنت) — a single infobox, which never suffices. The English article groups him, as a class, among "Sunni Islamic activists/revivalists" and files him under "Pakistani Sunni Muslim scholars of Islam", and quotes his own organisation calling him in Qur'anic exegesis "a firm traditionalist of the genre of Mahmud Hasan Deobandi and Shabbir Ahmad Usmani" — the tradition of his teachers, not his own attested school. The Arabic article files him under "Pakistani Sunni scholars" by category only, and Wikidata's only religion value is Islam (Q432), generic. Founding and leading Tanzeem-e-Islami is organisational leadership, not a school. All readings are preserved here; under the doubt rule the value stays unknown.
+  sources:
+  - source/wikipedia-israr-ahmed-en
+  - source/wikipedia-israr-ahmed-ar
+  - source/wikipedia-israr-ahmed-ur
+  - source/wikidata-israr-ahmed
+wings:
+- people
+external_ids:
+  wikidata: Q3155657
+sources:
+- source/wikipedia-israr-ahmed-en
+- source/wikipedia-israr-ahmed-ar
+- source/wikipedia-israr-ahmed-ur
+- source/wikidata-israr-ahmed
+provenance:
+  layer: own-research
+  source: English, Arabic and Urdu Wikipedia and Wikidata Q3155657, consulted directly 26 Oct 2026
+  generated_by: Muse (Muse Spark 1.3)
+  run: century-additions-31
+status:
+  review: published
+  completeness: 3
+  generated_by: Muse (Muse Spark 1.3)
