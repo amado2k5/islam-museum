@@ -1,0 +1,51 @@
+id: person/khalid-latif
+class: person
+label:
+  ar: "خالد لطيف"
+  en: "Khalid Latif"
+  ur: "خالد لطیف"
+summary:
+  ar: "إمام أمريكي وقسيس جامعي، وُلد في إديسون بنيوجيرسي سنة 1982. كان أول قسيس مسلم في جامعة نيويورك (2005) وأصغر قسيس في تاريخ شرطة مدينة نيويورك (2007)، وشغل منصب المدير التنفيذي وإمام المركز الإسلامي في جامعة نيويورك نحو عشرين عامًا، ثم أصبح سنة 2025 مدير المركز الإسلامي لمدينة نيويورك ومؤسسًا مشاركًا له، وهو صاحب مطعم «أونست تشوبس» للحوم الحلال."
+  en: "An American imam and university chaplain, born in Edison, New Jersey in 1982. He was New York University's first Muslim chaplain (2005) and the youngest chaplain in New York City Police Department history (2007), served as executive director and imam of the Islamic Center at NYU for almost twenty years, and in 2025 became director and co-founder of the Islamic Center of New York City; he also owns the halal butcher Honest Chops."
+  ur: "امریکی امام اور یونیورسٹی چیپلن، 1982 میں ایڈیسن، نیوجرسی میں پیدا ہوئے۔ وہ نیویارک یونیورسٹی کے پہلے مسلم چیپلن (2005) اور نیویارک پولیس ڈیپارٹمنٹ کی تاریخ کے کم عمر ترین چیپلن (2007) رہے، تقریباً بیس سال این وائی یو کے اسلامک سینٹر کے ایگزیکٹو ڈائریکٹر اور امام رہے، اور 2025 میں اسلامک سینٹر آف نیویارک سٹی کے ڈائریکٹر اور شریک بانی بنے؛ وہ حلال قصاب خانے «آنسٹ چوپس» کے مالک بھی ہیں۔"
+names:
+  - value: "Khalid Latif"
+    kind: full
+  - value: "خالد لطيف"
+    kind: full
+gender: male
+roles:
+  - preacher
+wings:
+  - people
+  - living
+regions:
+  - americas-oceania
+born:
+  edtf: "1982-10-18"
+  hijri: "1402"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "Born in Edison, New Jersey, on 18 October 1982, per the English Wikipedia article, which cites his own birthday post for the date; Wikidata Q6399529 carries no birth date. No place entity for Edison exists in data/place/, so no born_in edge is written. The Hijri year (1402) is derived by tabular conversion."
+  sources: [source/wikipedia-khalid-latif-en]
+faith:
+  - value: unknown
+    basis: unknown
+    note: "Recorded as unknown. What each source gives: (1) The English Wikipedia article names no legal school, order or movement affiliation for him anywhere in its text — a full-text search of the recorded revision for school and movement terms returns nothing — and its categories file him only under American imams and Muslim chaplains, which are offices, not attestation. (2) Wikidata Q6399529 gives his religion as Islam (Q432), generic. His two decades leading the Islamic Center at NYU are an institution he served, and an institution never attests. No two independent sources name a school for him, so under the two-source rule and the doubt rule no faith value is recorded."
+    sources:
+      - source/wikipedia-khalid-latif-en
+      - source/wikidata-khalid-latif
+external_ids: { wikidata: "Q6399529" }
+sources:
+  - source/wikipedia-khalid-latif-en
+  - source/wikidata-khalid-latif
+status:
+  review: published
+  completeness: 3
+provenance:
+  layer: own-research
+  source: "He is the speaker named at §2 row 295 of the handoff ('Imam Khalid Latif (ICNYU Archives)' / 'Khalid Latif ICNYU'), the row's channel being the archive of his lectures at the Islamic Center at NYU. Existence checks first, all on 26 October 2026: name-fragment searches over data/person/ and data/source/ (khalid-latif / latif) returned no record of him — the latif hits are classical namesakes — and his Wikidata identifier Q6399529, grounded via the article's pageprops, was likewise absent from both trees, so this is a new build, not an enrichment. Identity care: the plain Wikipedia title 'Khalid Latif' is a disambiguation page (Q6399527) covering the imam, a Pakistani cricketer and K. L. Gauba; the imam's article is 'Khalid Latif (imam)', read in full on 26 October 2026 by its recorded revision (oldid=1378403269, revision equality asserted), and the Wikidata item Q6399529 was verified via Special:EntityData. No relations are recorded: the Islamic Center at NYU and the Islamic Center of New York City have no group entities in the graph and Edison no place entity. His faith is recorded unknown: see the faith note."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: "modern-figures-batch-53"

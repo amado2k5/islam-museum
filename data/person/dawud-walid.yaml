@@ -1,0 +1,56 @@
+id: person/dawud-walid
+class: person
+label:
+  ar: "داود وليد"
+  en: "Dawud Walid"
+  ur: "داؤد ولید"
+summary:
+  ar: "إمام ومؤلف وناشط أمريكي من ديترويت، والمدير التنفيذي لفرع ميشيغان من مجلس العلاقات الأمريكية الإسلامية (كير) — أول أمريكي من أصل أفريقي يتولى هذا المنصب. وُلد في ديترويت سنة 1971 واعتنق الإسلام في أواخر مراهقته وخدم في البحرية الأمريكية، ودرس الإسلام والعربية في ديترويت وسافر للطلب إلى غانا ومالي والسنغال. من كتبه «السواد والإسلام» و«نحو نشاط مقدس» و«الفتوة وتربية الرجال إلى رجولة مقدسة»."
+  en: "An American imam, author and activist from Detroit, and the executive director of the Michigan chapter of the Council on American-Islamic Relations (CAIR) — the first African American to hold that post. Born in Detroit in 1971, he embraced Islam in his late adolescence, served in the United States Navy, studied Islam and Arabic in Detroit and travelled for study to Ghana, Mali and Senegal. His books include Blackness and Islam, Towards Sacred Activism and Futuwwah and Raising Males Into Sacred Manhood."
+  ur: "ڈیٹرائٹ سے تعلق رکھنے والے امریکی امام، مصنف اور کارکن، اور کونسل آن امریکن اسلامک ریلیشنز (CAIR) کے مشی گن چیپٹر کے ایگزیکٹو ڈائریکٹر — اس منصب پر فائز ہونے والے پہلے افریقی امریکی۔ 1971 میں ڈیٹرائٹ میں پیدا ہوئے، نوجوانی کے اواخر میں اسلام قبول کیا، امریکی بحریہ میں خدمت کی، ڈیٹرائٹ میں اسلام اور عربی کی تعلیم حاصل کی اور طلبِ علم کے لیے گھانا، مالی اور سینیگال کا سفر کیا۔ ان کی کتابوں میں «اسلام میں سیاہ فام شناخت»، «مقدس سرگرمی کی جانب» اور «فتوّہ» شامل ہیں۔"
+names:
+  - value: "Dawud Walid"
+    kind: full
+  - value: "داود وليد"
+    kind: full
+gender: male
+roles:
+  - preacher
+  - writer
+  - activist
+wings:
+  - people
+  - living
+regions:
+  - americas-oceania
+born:
+  edtf: "1971-11-22"
+  hijri: "1391"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "Born in Detroit, Michigan, on 22 November 1971, per his own oral-history testimony recorded for Western Michigan University's Dream Storytelling Project (interviews of 5 and 25 October 2020). No place entity for Detroit exists in data/place/, so no born_in edge is written. The Hijri year (1391) is derived by tabular conversion."
+  sources: [source/wmich-dawud-walid-oral-history]
+faith:
+  - value: unknown
+    basis: unknown
+    note: "Recorded as unknown. What each source gives: (1) The Journey podcast episode description says he teaches on the relationship of tasawwuf (Sufism) with sacred activism and anti-racism work, and names individual teachers he has learned from and his study travels to Ghana, Mali and Senegal — engagement with Sufism as a teacher and student, but it does not name him personally as a Sufi or name any order for him. (2) His Muslim Central biography stresses his advocacy on civil rights, anti-racism and Islamic spirituality and lists his books, including works on futuwwah (spiritual chivalry); it names no school and no order. (3) The Wayne State University profile gives his offices (CAIR-Michigan executive director; assistant imam of Masjid Wali Muhammad) and names no affiliation; an office never attests. (4) His oral history records that after 1998 he attended Historic Masjid Wali Muhammad — a mosque affiliation, which never attests — and that he embraced Islam from Christianity in his late adolescence; that former faith is his past and is not recorded as a value. No two independent sources name a personal Sufi affiliation or any school for him, so under the two-source rule and the doubt rule no faith value is recorded; the Sufi-inflected teaching the sources do document is preserved in this note."
+    sources:
+      - source/listennotes-dawud-walid-journey
+      - source/listennotes-dawud-walid-muslim-central
+      - source/wayne-state-dawud-walid-2010
+      - source/wmich-dawud-walid-oral-history
+sources:
+  - source/wmich-dawud-walid-oral-history
+  - source/wayne-state-dawud-walid-2010
+  - source/listennotes-dawud-walid-muslim-central
+  - source/listennotes-dawud-walid-journey
+status:
+  review: published
+  completeness: 3
+provenance:
+  layer: own-research
+  source: "He is the speaker named at §2 row 289 of the handoff ('Imam Dawud Walid' / 'Dawud Walid'), whose own lecture channel is carried by Muslim Central. Existence checks first, all on 26 October 2026: name-fragment searches over data/person/ and data/source/ (dawud-walid / walid) returned no record of him — the walid hits are the classical al-Walid ibn Abd al-Malik and others, different men; English Wikipedia has no article on him (title missing, checked via the API) and a Wikidata entity search for his name returns nothing, so there is no external_ids and no Wikidata source file. Identification rests on his own oral history at Western Michigan University, the Wayne State University profile of 2010, his Muslim Central podcast page (the row's channel, in audio form) and The Journey podcast episode page, all read on 26 October 2026; the consultation-date precedent is used for the web profiles, which expose no revision ids. No relations are recorded: CAIR and Masjid Wali Muhammad have no group entities in the graph and Detroit no place entity. His faith is recorded unknown: see the faith note — in particular, no source names him personally a Sufi, and his CAIR office was not used as attestation."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: "modern-figures-batch-53"

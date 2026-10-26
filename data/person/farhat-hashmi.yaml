@@ -1,0 +1,57 @@
+id: person/farhat-hashmi
+class: person
+label:
+  ar: "فرحت هاشمي"
+  en: "Farhat Hashmi"
+  ur: "فرحت ہاشمی"
+summary:
+  ar: "عالمة وداعية باكستانية كندية، وُلدت في سرغودا سنة 1957، وحصلت على الدكتوراه في الدراسات الإسلامية من جامعة غلاسكو، ودرّست في الجامعة الإسلامية العالمية في إسلام آباد، ثم أسّست سنة 1994 مؤسسة الهدى الدولية التي تدير شبكة مدارس ومعاهد لتعليم النساء القرآن والحديث في باكستان وكندا والخارج. هاجرت إلى كندا سنة 2005 وقدّمت برامج دينية على قناة جيو."
+  en: "A Pakistani-Canadian Islamic scholar and preacher, born in Sargodha in 1957. She took her PhD in Islamic studies at the University of Glasgow, taught at the International Islamic University in Islamabad, and in 1994 founded the Al-Huda International Welfare Foundation, which runs a network of schools and institutes teaching women the Qur'an and Hadith in Pakistan, Canada and abroad. She emigrated to Canada in 2005 and has presented religious programmes on Geo TV."
+  ur: "پاکستانی کینیڈیائی عالمہ اور داعیہ، 1957 میں سرگودھا میں پیدا ہوئیں۔ انہوں نے گلاسگو یونیورسٹی سے اسلامی علوم میں پی ایچ ڈی کی، بین الاقوامی اسلامی یونیورسٹی اسلام آباد میں تدریس کی، اور 1994 میں الہدٰی انٹرنیشنل ویلفیئر فاؤنڈیشن کی بنیاد رکھی جو پاکستان، کینیڈا اور دیگر ممالک میں خواتین کو قرآن و حدیث کی تعلیم دینے والے مدارس اور اداروں کا جال چلاتی ہے۔ وہ 2005 میں کینیڈا منتقل ہوئیں اور جیو ٹی وی پر دینی پروگرام پیش کر چکی ہیں۔"
+names:
+  - value: "Farhat Hashmi"
+    kind: full
+  - value: "فرحت ہاشمی"
+    kind: full
+  - value: "فرحت هاشمي"
+    kind: full
+gender: female
+roles:
+  - scholar
+  - preacher
+wings:
+  - people
+  - living
+regions:
+  - south-asia
+  - americas-oceania
+born:
+  edtf: "1957-12-22"
+  hijri: "1377"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "Born in Sargodha, Punjab, Pakistan, on 22 December 1957; the English and Urdu Wikipedia articles and Wikidata Q5435184 agree at day precision. No place entity for Sargodha exists in data/place/, so no born_in edge is written. The Hijri year (1377) is derived by tabular conversion."
+  sources: [source/wikipedia-farhat-hashmi-en, source/wikipedia-farhat-hashmi-ur, source/wikidata-farhat-hashmi]
+faith:
+  - value: unknown
+    basis: unknown
+    note: "Recorded as unknown. What each source gives: (1) The English Wikipedia article's infobox gives her religion as Islam with the creed field blank, and its text names no school for her; the same article's categories file her under 'Canadian Salafis' and 'Pakistani Salafis' — category filings, which are never attestation. (2) The article reports that liberal critics, among them Raheel Raza, have termed her a 'Wahhabi' — an opponents' label, not attestation — and, citing Akbar Ahmed's Journey into Islam (2007), that Hashmi and Al-Huda state that they do not follow any particular sect of contemporary Islam and refer to themselves simply as Muslims. (3) Her father is described as a scholar and a local leader of Jamaat-e-Islami Pakistan — family background, which never counts. (4) The Urdu article names no school, and Wikidata gives Islam (Q432) generically. No two independent sources name a school or affiliation for her personally, and her own stated position is non-sectarian, so under the two-source rule and the doubt rule no faith value is recorded; all readings are preserved in this note."
+    sources:
+      - source/wikipedia-farhat-hashmi-en
+      - source/wikipedia-farhat-hashmi-ur
+      - source/wikidata-farhat-hashmi
+external_ids: { wikidata: "Q5435184" }
+sources:
+  - source/wikipedia-farhat-hashmi-en
+  - source/wikipedia-farhat-hashmi-ur
+  - source/wikidata-farhat-hashmi
+status:
+  review: published
+  completeness: 3
+provenance:
+  layer: own-research
+  source: "She is the founder named at §2 row 293 of the handoff ('Al Huda International English (Dr. Farhat Hashmi Pro)' / 'Al Huda International English Farhat Hashmi'), the channel being the English arm of her organisation, Al-Huda International. The list files the row under male hosts; she is a woman, and the mis-filing is recorded in the batch report's brief corrections. Existence checks first, all on 26 October 2026: name-fragment searches over data/person/ and data/source/ (farhat / hashmi / al-huda) returned no record of her — the hashmi hits are classical namesakes and huda-shaarawi is a different woman — and her Wikidata identifier Q5435184, grounded via the English article's pageprops, was likewise absent from both trees, so this is a new build, not an enrichment. The English Wikipedia article was read in full on 26 October 2026 by its recorded revision (oldid=1360933955, revision equality asserted), the Urdu article likewise (oldid=6850777), and the Wikidata item verified via Special:EntityData. Founder chain: both articles state she founded Al-Huda International in 1994 and its Canadian institute in 2004, and the handoff row's channel is that organisation's English channel, so the row resolves to her. No relations are recorded: Al-Huda has no group entity in the graph and Sargodha no place entity. Her faith is recorded unknown: see the faith note."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: "modern-figures-batch-53"
