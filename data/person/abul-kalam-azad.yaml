@@ -1,0 +1,50 @@
+id: person/abul-kalam-azad
+class: person
+label: { ar: "أبو الكلام آزاد", en: "Abul Kalam Azad", ur: "ابو الکلام آزاد" }
+names:
+  - { value: "محيي الدين أحمد بن خير الدين", kind: full }
+  - { value: "Abul Kalam Ghulam Muhiyuddin", kind: full }
+  - { value: "Maulana Azad", kind: alternate }
+  - { value: "Azad", kind: pen }
+gender: male
+summary:
+  ar: "عالم وكاتب وسياسي هندي (1888–1958)، وُلد في مكة ونشأ فيها وفي المدينة، وأتقن العربية والأردية والفارسية والإنجليزية. أسس مجلة «الهلال» (1912) فصارت منبرًا إصلاحيًا وسياسيًا، واعتُقل في رانشي ثلاث سنوات ونصفًا. تولى رئاسة المؤتمر الوطني الهندي سنة 1923 — وهو أصغر من تولاها — ثم 1940–1946، وعارض تقسيم الهند، وصار بعد الاستقلال أول وزير للتعليم في الهند (1947–1958) فأسس أول معهد هندي للتكنولوجيا ولجنة المنح الجامعية. من كتبه «ترجمان القرآن» و«غبار خاطر» و«الهند تفوز بالاستقلال»."
+  en: "Indian scholar, writer and statesman (1888–1958), born in Mecca and raised between Mecca and Medina, master of Arabic, Urdu, Persian and English. He founded the journal Al-Hilal (1912), which became a leading reformist and political voice, and was interned at Ranchi for three and a half years. He presided over the Indian National Congress in 1923 — its youngest president — and again from 1940 to 1946, opposed the partition of India, and after independence became India's first Minister of Education (1947–1958), founding the first Indian Institute of Technology and the University Grants Commission. His books include Tarjuman-ul-Quran, Ghubar-e-Khatir and India Wins Freedom."
+  ur: "ہندوستانی عالم، مصنف اور سیاست دان (1888ء–1958ء)، مکہ میں پیدا ہوئے اور مکہ و مدینہ میں پرورش پائی، عربی، اردو، فارسی اور انگریزی پر عبور حاصل تھا۔ مجلہ «الہلال» (1912ء) جاری کیا جو اصلاحی اور سیاسی آواز کا بڑا منبر بنا، رانچی میں ساڑھے تین سال نظر بند رہے۔ 1923ء میں انڈین نیشنل کانگریس کے سب سے کم عمر صدر بنے اور پھر 1940ء–1946ء صدر رہے، تقسیم ہند کی مخالفت کی، اور آزادی کے بعد ہندوستان کے پہلے وزیر تعلیم (1947ء–1958ء) بنے اور پہلا انڈین انسٹی ٹیوٹ آف ٹیکنالوجی اور یونیورسٹی گرانٹس کمیشن قائم کیا۔ ان کی کتابوں میں «ترجمان القرآن»، «غبار خاطر» اور «انڈیا ونس فریڈم» شامل ہیں۔"
+roles: [scholar, writer, politician, activist]
+wings: [people]
+regions: [south-asia]
+born:
+  edtf: "1888-11-11"
+  hijri: "1306"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: false
+  note: "The Arabic article pairs the years itself — 1306 AH with 1888 — and the English article and Wikidata give 11 November 1888 at Mecca, so the Hijri year is the sources' own pairing, not a conversion."
+  sources: [source/wikipedia-abul-kalam-azad-en, source/wikipedia-abul-kalam-azad-ar, source/wikidata-abul-kalam-azad]
+died:
+  edtf: "1958-02-22"
+  hijri: "1377"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: false
+  note: "The Arabic article pairs the date itself — 3 Sha'ban 1377 AH with 22 February 1958 — so the Hijri year is the source's own. The English article gives his death at Delhi, of a stroke, and his resting place by the Jama Masjid."
+  sources: [source/wikipedia-abul-kalam-azad-en, source/wikipedia-abul-kalam-azad-ar, source/wikidata-abul-kalam-azad]
+relations:
+  - { type: born_in, target: place/mecca, sources: [source/wikipedia-abul-kalam-azad-en, source/wikipedia-abul-kalam-azad-ur] }
+  - { type: died_in, target: place/delhi, sources: [source/wikipedia-abul-kalam-azad-en] }
+faith:
+  - value: unknown
+    basis: unknown
+    note: "FLAGGED — a Sunni reading rests on one structured family only, and no text names his school. The Arabic article's Muslim-scholar infobox gives his sect (al-ta'ifa) as Ahl al-Sunna wa'l-Jama'a (Sunni), uncited, and Wikidata's religion values are Islam and Sunni Islam — the structured value and the infobox are one attestation family, the second plausibly an echo of the first (the one-family configuration). Against any narrower reading, the English article's text states that he was trained in the madhhabs of Hanafi, Maliki, Shafi'i and Hanbali fiqh by tutors hired by his family — a formation across all four schools, which is education, not affiliation — and the Arabic article says he was raised in a Sufi upbringing, which is likewise formation, never an attestation; his being influenced by Rashid Rida is a teacher's position and never counts. His modernist exegesis in Tarjuman-ul-Quran is theological positioning in his own works; no source read describes a departure from Islam, and the Akhundov bar is nowhere near met. Recorded unknown under the doubt rule; a founder word on whether the Arabic infobox plus Wikidata should count as two attestations settles sunni/documented."
+    sources: [source/wikipedia-abul-kalam-azad-en, source/wikipedia-abul-kalam-azad-ar, source/wikipedia-abul-kalam-azad-ur, source/wikidata-abul-kalam-azad]
+external_ids: { wikidata: "Q196617" }
+sources: [source/wikipedia-abul-kalam-azad-en, source/wikipedia-abul-kalam-azad-ar, source/wikipedia-abul-kalam-azad-ur, source/wikidata-abul-kalam-azad]
+provenance:
+  layer: own-research
+  source: "English Wikipedia 'Maulana Azad' (revision 1379623518; 'Abul Kalam Azad' redirects to it), Arabic Wikipedia 'أبو الكلام آزاد' (revision 74206349), Urdu Wikipedia 'ابو الکلام آزاد' (revision 11801485) and Wikidata item Q196617 (item revision 2559064924), read via the MediaWiki API on 26 October 2026; every article was fetched by its recorded revision id and the returned id asserted equal before any claim was drawn. Existence was checked by filename fragments under all spellings (azad, abul kalam, maulana azad), by Arabic label, by biography and by the QID route across data/person/ — no earlier record exists; A.P.J. Abdul Kalam, Muhammad Husain Azad and Azad Bilgrami in the corpus are different men."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: century-additions-69
+status: { review: published, generated_by: "Muse (Muse Spark 1.3)" }

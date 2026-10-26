@@ -1,0 +1,48 @@
+id: person/shaukat-ali
+class: person
+label: { ar: "شوكت علي", en: "Shaukat Ali", ur: "شوکت علی" }
+names:
+  - { value: "شوكت علي", kind: full }
+  - { value: "Shaukat Ali Khan", kind: full }
+  - { value: "Maulana Shaukat Ali", kind: alternate }
+gender: male
+summary:
+  ar: "سياسي هندي (1873–1938) من قادة حركة الخلافة، وهو الأخ الأكبر لمحمد علي جوهر. تعلم في جامعة عليكرة الإسلامية وعمل في الخدمة المدنية سبعة عشر عامًا، وساعد أخاه في إصدار «همدرد» و«كومريد»، وانتُخب آخر رئيس لمؤتمر الخلافة سنة 1919 وهو في السجن، وسُجن 1921–1923. عارض تقرير نهرو، وحضر مؤتمري المائدة المستديرة، ونظم المؤتمر الإسلامي العالمي في القدس بعد وفاة أخيه، وانضم إلى العصبة الإسلامية سنة 1936 وكان عضوًا في الجمعية المركزية حتى وفاته في دلهي."
+  en: "Indian politician (1873–1938), a leader of the Khilafat movement and the elder brother of Muhammad Ali Jauhar. Educated at Aligarh Muslim University, he served seventeen years in the civil service, helped his brother publish Hamdard and Comrade, was elected the last president of the Khilafat Conference in 1919 while in jail, and was imprisoned again from 1921 to 1923. He opposed the Nehru Report, attended the Round Table Conferences, organised the World Muslim Conference in Jerusalem after his brother's death, joined the Muslim League in 1936, and sat in the Central Assembly until his death at Delhi."
+  ur: "ہندوستانی سیاست دان (1873ء–1938ء)، تحریک خلافت کے رہنما اور محمد علی جوہر کے بڑے بھائی۔ جامعہ علی گڑھ سے تعلیم پائی اور سترہ سال سرکاری ملازمت کی، بھائی کے «ہمدرد» اور «کامریڈ» کی اشاعت میں مدد کی، 1919ء میں قید کے دوران خلافت کانفرنس کے آخری صدر منتخب ہوئے اور 1921ء سے 1923ء تک پھر قید رہے۔ نہرو رپورٹ کی مخالفت کی، گول میز کانفرنسوں میں شریک ہوئے، بھائی کی وفات کے بعد بیت المقدس میں عالمی مسلم کانفرنس منعقد کی، 1936ء میں مسلم لیگ میں شامل ہوئے اور دہلی میں وفات تک مرکزی اسمبلی کے رکن رہے۔"
+roles: [politician, activist]
+wings: [people]
+regions: [south-asia]
+born:
+  edtf: "1873-03-10"
+  hijri: "1290"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "Gregorian date from the English and Urdu articles and Wikidata; the Arabic article's categories pair his birth with 1290 AH, and the Hijri year is recorded as derived from that pairing. He was born at Rampur; no place entity exists for Rampur, so no born_in edge is written. The English article's death-date template internally repeats his birth day as 19 October, against its own infobox and text; not followed."
+  sources: [source/wikipedia-shaukat-ali-en, source/wikipedia-shaukat-ali-ur, source/wikidata-shaukat-ali]
+died:
+  edtf: "1938-11-26"
+  hijri: "1357"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "Gregorian date from the English and Urdu articles and Wikidata; the Arabic article's categories pair his death with 1357 AH, and the Hijri year is recorded as derived from that pairing. The Arabic article's infobox gives his death as 4 January 1939, a conflation with his brother's death date, against its own text and categories; not followed. He died at Karol Bagh in Delhi and was buried near the Jama Masjid."
+  sources: [source/wikipedia-shaukat-ali-en, source/wikipedia-shaukat-ali-ur, source/wikidata-shaukat-ali]
+relations:
+  - { type: died_in, target: place/delhi, sources: [source/wikipedia-shaukat-ali-en, source/wikipedia-shaukat-ali-ur] }
+faith:
+  - value: unknown
+    basis: unknown
+    note: "The Khan configuration: the articles' texts attest the man as a Muslim — the English article calls him an Indian Muslim member of the Khilafat Movement, the Arabic stub calls him an Indian Muslim leader, the Urdu article presents his life inside the Khilafat and Pakistan movements — but no source read names a legal school, order or branch for him, and Wikidata gives Islam only. His Khilafat leadership and Muslim League membership are political and never attest a school."
+    sources: [source/wikipedia-shaukat-ali-en, source/wikipedia-shaukat-ali-ar, source/wikipedia-shaukat-ali-ur, source/wikidata-shaukat-ali]
+external_ids: { wikidata: "Q3595825" }
+sources: [source/wikipedia-shaukat-ali-en, source/wikipedia-shaukat-ali-ar, source/wikipedia-shaukat-ali-ur, source/wikidata-shaukat-ali]
+provenance:
+  layer: own-research
+  source: "English Wikipedia 'Shaukat Ali (politician)' (revision 1374827673), Arabic Wikipedia 'شوكت علي' (revision 70712798, an unsourced stub), Urdu Wikipedia 'شوکت علی (سیاست دان)' (revision 11800861) and Wikidata item Q3595825 (item revision 2545068916), read via the MediaWiki API on 26 October 2026; every article was fetched by its recorded revision id and the returned id asserted equal before any claim was drawn. Existence was checked by filename fragments under all spellings (shaukat/shawkat/shoukat), by Arabic label, by biography and by the QID route across data/person/ — no earlier record exists. The sibling edge from his younger brother Muhammad Ali Jauhar is written once, in Jauhar's record, not here."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: century-additions-69
+status: { review: published, generated_by: "Muse (Muse Spark 1.3)" }

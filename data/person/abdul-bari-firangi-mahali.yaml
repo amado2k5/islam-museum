@@ -1,0 +1,46 @@
+id: person/abdul-bari-firangi-mahali
+class: person
+label: { ar: "عبد الباري الفرنجي محلي", en: "Abdul Bari Firangi Mahali", ur: "عبد الباری فرنگی محلی" }
+names:
+  - { value: "عبد الباري الفرنجي محلي", kind: full }
+  - { value: "Abdul Bari Firangi Mahali", kind: full }
+  - { value: "Abdul Bari Firangi Mahli", kind: alternate }
+gender: male
+summary:
+  ar: "عالم هندي (1878–1926) من فرنجي محل في لكهنؤ، ألّف 111 كتابًا في الحديث والتفسير والفقه والتصوف وغيرها. أسس مدرسة نظامية لكهنؤ وجمعية خدام الكعبة (1914)، وكان عضوًا مؤسسًا في دار المصنفين (أكاديمية شبلي) وفي الجامعة الملية الإسلامية (1920). نشط في حركة الخلافة، وأصدر فتوى بالجهاد ضد الإنجليز، ودعا إلى الوحدة بين الهندوس والمسلمين، وكان من مراسلي غاندي ومحترميه."
+  en: "Indian scholar (1878–1926) of Firangi Mahal in Lucknow, author of 111 books across hadith, exegesis, jurisprudence, Sufism and other fields. He founded Lucknow's Madarsa-i-Nizamia and the Anjuman-i-Khuddam-i-Kabba (1914), and was a founder member of Darul Musannefin (the Shibli Academy) and of Jamia Millia Islamia (1920). Active in the Khilafat movement, he issued a fatwa of jihad against the British, preached Hindu-Muslim unity, and corresponded with Gandhi, who held him in regard."
+  ur: "ہندوستانی عالم (1878ء–1926ء) جن کا تعلق لکھنؤ کے فرنگی محل سے تھا اور جنھوں نے حدیث، تفسیر، فقہ، تصوف اور دیگر علوم میں 111 کتابیں لکھیں۔ لکھنؤ میں مدرسہ نظامیہ اور انجمن خدام کعبہ (1914ء) قائم کی، دار المصنفین شبلی اکیڈمی اور جامعہ ملیہ اسلامیہ (1920ء) کے بانی ارکان میں سے تھے۔ تحریک خلافت میں سرگرم رہے، انگریزوں کے خلاف جہاد کا فتویٰ دیا، ہندو مسلم اتحاد کی دعوت دی، اور گاندھی جی سے خط کتابت اور احترام کا رشتہ رکھا۔"
+roles: [scholar, writer, teacher, activist]
+wings: [people]
+regions: [south-asia]
+born:
+  edtf: "1878-04-12"
+  hijri: "1295"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: false
+  note: "The Urdu article pairs the date itself — 10 Rabi' al-thani 1295 AH, a Friday, with 12 April 1878 — at Firangi Mahal in Lucknow, so the Hijri year is the source's own. The English and Arabic articles give only the year 1878. No place entity exists for Lucknow, so no born_in edge is written."
+  sources: [source/wikipedia-abdul-bari-firangi-mahali-ur, source/wikipedia-abdul-bari-firangi-mahali-en]
+died:
+  edtf: "1926-01-19"
+  hijri: "1344"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: false
+  note: "The Urdu article pairs the date itself — 4 Rajab 1344 AH, a Wednesday, with 19 January 1926 — so the Hijri year is the source's own. The English article and Wikidata give only the year 1926."
+  sources: [source/wikipedia-abdul-bari-firangi-mahali-ur, source/wikipedia-abdul-bari-firangi-mahali-en]
+faith:
+  - value: unknown
+    basis: unknown
+    note: "FLAGGED — one attestation short on the Sufi reading, and no attestation at all on any legal school. No source read names a madhhab for the man himself: the English article's infobox gives Islam only, the Arabic article calls him a Muslim scholar of Firangi Mahal, Wikidata gives Islam only, and the English article's Maturidi category and Hanafi-scholars navbox are filings; the Firangi Mahal tradition of his family and institution is context, never an attestation. The one personal affiliation text is Sufi: the Urdu article states that he entered the Qadiriyya order as a disciple (murid) of Shah Abdul Razzaq Hansvi and received authorisation and succession (ijaza and khilafa) in all the orders, and that he was among the close friends of Haji Waris Ali Shah — ONE discipleship text, with no second attestation (the Ameer Meenai configuration, wave 68 §B). A founder word promotes a sufi segment to documented on that text; the record otherwise stands unknown under the doubt rule."
+    sources: [source/wikipedia-abdul-bari-firangi-mahali-en, source/wikipedia-abdul-bari-firangi-mahali-ar, source/wikipedia-abdul-bari-firangi-mahali-ur, source/wikidata-abdul-bari-firangi-mahali]
+external_ids: { wikidata: "Q4665305" }
+sources: [source/wikipedia-abdul-bari-firangi-mahali-en, source/wikipedia-abdul-bari-firangi-mahali-ar, source/wikipedia-abdul-bari-firangi-mahali-ur, source/wikidata-abdul-bari-firangi-mahali]
+provenance:
+  layer: own-research
+  source: "English Wikipedia 'Abdul Bari Firangi Mahali' (revision 1362560319), Arabic Wikipedia 'عبد الباري الفرنجي محلي' (revision 75250016), Urdu Wikipedia 'عبد الباری فرنگی محلی' (revision 11800778; the no-space sitelink title is a redirect to it) and Wikidata item Q4665305 (item revision 2494969396), read via the MediaWiki API on 26 October 2026; every article was fetched by its recorded revision id and the returned id asserted equal before any claim was drawn. Existence was checked by filename fragments under all spellings (bari, firangi, mahal), by Arabic label, by biography and by the QID route across data/person/ — no earlier record exists. No relations are written: his teachers Shaykh Abd al-Baqi al-Firangi Mahali and Shah Abdul Razzaq Hansvi have no records, and no place entity exists for Lucknow."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: century-additions-69
+status: { review: published, generated_by: "Muse (Muse Spark 1.3)" }
