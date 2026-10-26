@@ -226,11 +226,11 @@ lists' own order. Status markers: [ ] queued · [~] in a writer's hands · [x] m
 - [x] Kamaru Usman — 1987–Living
 - [x] Israel Adesanya (Contemporary) — 1989–Living
 - [x] Demetrious Johnson — 1986–Living
-- [ ] Kalidou Koulibaly — 1991–Living
-- [ ] Edouard Mendy — 1992–Living
-- [ ] Hakim Ziyech — 1993–Living
-- [ ] Achraf Hakimi — 1998–Living
-- [ ] Yassine Bounou (Bono) — 1991–Living
+- [x] Kalidou Koulibaly — 1991–Living
+- [x] Edouard Mendy — 1992–Living
+- [x] Hakim Ziyech — 1993–Living
+- [x] Achraf Hakimi — 1998–Living
+- [x] Yassine Bounou (Bono) — 1991–Living
 - [ ] Sofyan Amrabat — 1996–Living
 - [ ] Walid Regragui — 1975–Living
 - [ ] Djamel Belmadi — 1976–Living
