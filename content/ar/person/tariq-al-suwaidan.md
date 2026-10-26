@@ -113,3 +113,6 @@ translators: []
 
 ## في «الوسطية» — حلقة الوطنية والقومية
 أدار السويدان حلقة الوطنية والقومية مقابل الإسلام بثلاثة مختصين وثلاثة استطلاعات {cite:assabile-tareq-al-suwaidan al-wassitiya/ep06 00:03:30} {cite:assabile-tareq-al-suwaidan al-wassitiya/ep06 00:30:00} {cite:assabile-tareq-al-suwaidan al-wassitiya/ep06 00:54:00}. واعترف في الختام بفخره الشخصي بعروبته — «أفهم القرآن» — مرسّخاً قاعدة الحلقة: لا تعارض بلا تعصب {cite:assabile-tareq-al-suwaidan al-wassitiya/ep06 01:16:00} {cite:assabile-tareq-al-suwaidan al-wassitiya/ep06 01:18:00} {cite:assabile-tareq-al-suwaidan al-wassitiya/ep06 01:18:30}.
+
+## في «الوسطية» — حلقة الكفر والتكفير
+أدار السويدان أخطر حلقات البرنامج — الكفر والتكفير — بعلماء عقيدة ودعاة، وباستطلاعين {cite:assabile-tareq-al-suwaidan al-wassitiya/ep07 00:04:30} {cite:assabile-tareq-al-suwaidan al-wassitiya/ep07 00:44:30}. وختم مؤكداً: الاستثناءات لا تلغي الأصل — الإسلام لا يصادم الحرية الدينية، والنص الثابت يُحترم ويُنزَّل على الواقع بأدب الاستطاعة {cite:assabile-tareq-al-suwaidan al-wassitiya/ep07 01:21:30} {cite:assabile-tareq-al-suwaidan al-wassitiya/ep07 01:22:00} {cite:assabile-tareq-al-suwaidan al-wassitiya/ep07 01:22:30}.
