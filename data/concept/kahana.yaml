@@ -1,9 +1,16 @@
 class: concept
+sensitivity: polemical
 id: concept/kahana
 label: { ar: "الكهانة والعرافة", en: "Soothsaying & Augury" }
 kind: belief
 
 summary: { ar: "الكهانة والعرافة وتقليب البيتات: بضاعة الجاهلية لكشف المغيبات بالجن والنجوم وحكايا الحدثان؛ الضرب كلها نهى عنها النبي. وعند المسعودي تنازع الناس فيها فذهب حكماء اليونانيين والروم إلى التكهن وزعم صنف أن نفوسهم صفت فاطلعت على أسرار الطبيعة وصنف أن الأرواح المنفردة وهي الجن تخبرهم، وذهبت الصابئة إلى أن أوريايس الأول والثاني وهما هرمس وأغاثيمون كانوا يعلمون الغيب ومنعوا أن تكون الجن أخبرتهم، وقال كثيرون إنها من شيطان يكون مع الكاهن يسترق السمع ويلقيه على ألسنة الكهان، وذهب آخرون إلى الوحي الفلكي عند ثبوت عطارد على شرفه أو في القرانات الكبار، وقال قوم إنها علل نفسانية فالنفس إذا قويت قهرت الطبيعة وأبانت كل سر لطيف، والكهانة لليمن والزجر لبني أسد والقيافة لبني مدلج {cite:muruj-al-dhahab p. 483-484}", en: "Kahāna, ‘irāfa and sand-reading: the pagan trade in the unseen through jinn and stars — all forbidden by the Prophet." }
 themes: [tradition-versus-culture]
-sources: [source/mubarakpuri-raheeq, source/mirqat-al-mafatih, source/muruj-al-dhahab, source/sharh-sahih-muslim-al-nawawi]
+provenance:
+  layer: copyrighted-reference
+  source: "Mubarakpuri, al-Raheeq al-Makhtum pp. 35–47 (existing prose, Devin); Assabile, al-naba-al-safi, transcripts pass5-qwen (engine Qwen3-ASR, oddadmix/qwen3-asr-1.7b-arabic-dialectal-v2) (appended sections)"
+  generated_by: "Devin (existing prose); Claude Code (claude-haiku-5-5) (appended sections)"
+  model: claude-haiku-5-5
+  run: omar-abdelkafy-al-naba-1
+sources: [source/mubarakpuri-raheeq, source/mirqat-al-mafatih, source/muruj-al-dhahab, source/sharh-sahih-muslim-al-nawawi, source/assabile-omar-abdelkafy]
 status: { review: draft, completeness: 1, generated_by: "Devin; al-Raheeq al-Makhtum pp. 35–47" }

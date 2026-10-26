@@ -19,3 +19,19 @@ The hadith forbidding going to soothsayers and the rulings on soothsaying in jur
 
 ## For young visitors
 The soothsayers of the Jahiliyya claimed to know the unseen through jinn and stars. Islam forbade asking them and believing them.
+
+## The speaker's view: fortune-tellers in the media
+The speaker describes fortune-tellers who buy advertising, with sums in the millions, to mislead people (needs_source: the figure of millions is not sourced from the recording). {cite:assabile-omar-abdelkafy al-naba-al-safi/ep01 00:03:30} He holds that channels of astrology and fortune-telling should be shut because of the harm they do, that Muslims should not engage with them, and that the world advances in research while Muslims lag behind. {cite:assabile-omar-abdelkafy al-naba-al-safi/ep01 00:05:30}
+
+## On believing the soothsayer
+The speaker recalls a hadith about the one who goes to a soothsayer and believes him, and counts cup-reading, palm-reading and the reading of horoscopes as belonging to this category; he stresses the severity of the warning. {cite:assabile-omar-abdelkafy al-naba-al-safi/ep01 00:04:30} He recalls another hadith about the one who goes to a soothsayer, and says that his prayer is not accepted for forty nights (needs_source: the number and the source of the hadith were not stated in the passage). He says that the answers of such people are mostly false, and warns of what it costs to seek them. {cite:assabile-omar-abdelkafy al-naba-al-safi/ep01 00:16:30}
+
+## The speaker's view: why people turn to them
+The speaker says that weak knowledge, weak religious upbringing and absence from mosques push people towards such figures, who cost them this world and the next; the real remedy, he says, is taqwa and righteousness. {cite:assabile-omar-abdelkafy al-naba-al-safi/ep01 00:28:00}
+
+## Perspectives on soothsaying and augury
+:::perspectives
+- **Sunni view (not yet sourced)**: The Sunni position on this question has not yet been sourced.
+- **The speaker's view (personal opinion)**: The speaker holds that going to fortune-tellers and believing them harms people, that fortune-telling channels should be shut, and that those who turn to them lose this world and the next. {cite:assabile-omar-abdelkafy al-naba-al-safi/ep01 00:05:30} {cite:assabile-omar-abdelkafy al-naba-al-safi/ep01 00:28:00}
+- **Academic or other views (not yet sourced)**: Academic and other views have not yet been sourced.
+:::

@@ -83,3 +83,39 @@ The Sheikh holds that a tongue free of an outward defect in the letters is among
 He says that the child, in his confusion, may forget the Fatiha in front of the examiner, and in the same way Musa stumbled before the majesty of God {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep10 00:44:00}.
 
 He says that Musa is the only prophet whom his Lord spoke to, that his halting speech came from the splendour and majesty of the occasion, and he cites al-Husayn, who had an endearing lisp (needs_source) {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep10 00:44:30}.
+
+## From Sheikh Omar Abdelkafy's lectures: Calling and prayer
+
+In his account, Musa went to the fire seeking a brand and came back with prophethood, and he says that one should hope for more than one thinks possible. {cite:assabile-omar-abdelkafy al-naba-al-safi/ep10 00:29:00}
+
+He continues the story and says that the unexpected is possible with God. {cite:assabile-omar-abdelkafy al-naba-al-safi/ep10 00:30:00}
+
+He cites Sura Ta-Ha (the verse is not named) on Musa's staff, his commission to go to Pharaoh, and his request to God to widen his chest, and he concludes that one whose chest is widened is not shaken by trials (needs_source). {cite:assabile-omar-abdelkafy al-naba-al-safi/ep13 00:08:00}
+
+He mentions Musa's prayer: that God widen his chest, ease his affair, make his speech easy to follow, and make his brother Harun a helper to him (the surah is not named). {cite:assabile-omar-abdelkafy al-naba-al-safi/ep19 00:25:30}
+
+He analyses this prayer: relief, ease, speech understood and help, and says that the answer came (needs_source). {cite:assabile-omar-abdelkafy al-naba-al-safi/ep19 00:26:00}
+
+## From Sheikh Omar Abdelkafy's lectures: Speaking with God
+
+He says that Musa asked his Lord how he could thank Him, and that God replied that Musa had already thanked Him, since admitting inability to thank is itself a form of thanks. {cite:assabile-omar-abdelkafy al-naba-al-safi/ep12 00:38:00}
+
+He says that Musa asked God for forgiveness and was forgiven, and that God forgives those who turn back to Him (needs_source). {cite:assabile-omar-abdelkafy al-naba-al-safi/ep14 00:14:00}
+
+He ties true haste to words attributed to Musa about hastening to his Lord to win His pleasure (the surah is not named) (needs_source). {cite:assabile-omar-abdelkafy al-naba-al-safi/ep17 00:13:30}
+
+He says that Pharaoh claimed the highest possible rank, and that God told Musa and Harun to speak to him gently (the verse number is not given), and he sets this against praising God every day (needs_source). {cite:assabile-omar-abdelkafy al-naba-al-safi/ep06 00:32:30}
+
+## From Sheikh Omar Abdelkafy's lectures: The community and a wish
+
+He says that Musa asked his Lord to make him one of the community of Muhammad, and he cites a hadith that lists eleven traits of that community (needs_source). {cite:assabile-omar-abdelkafy al-naba-al-safi/ep05 00:27:30}
+
+He cites a hadith, as he attributes it to Sahih Muslim, in which Musa wishes that the Prophet's community were greater in number (needs_source). {cite:assabile-omar-abdelkafy al-naba-al-safi/ep05 00:28:30}
+
+## From Sheikh Omar Abdelkafy's lectures: Provision and trial
+
+He cites a saying that God's treasuries are full, that Musa need not fear losing his provision, and he says that one should ask God for His bounty (needs_source). {cite:assabile-omar-abdelkafy al-naba-al-safi/ep22 00:21:00}
+
+He cites another saying that God's dominion endures and His treasuries are never exhausted, so Musa need not fear the loss of his provision (needs_source). {cite:assabile-omar-abdelkafy al-naba-al-safi/ep24 00:29:00}
+
+He says that Jacob told his sons not to despair of God's mercy, then recounts that Musa was a shepherd for ten years before his mission, and names Pharaoh and Qarun among the hardest trials to bear (needs_source). {cite:assabile-omar-abdelkafy al-naba-al-safi/ep08 00:30:00}

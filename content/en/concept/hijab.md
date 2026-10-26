@@ -53,3 +53,18 @@ He describes a schoolgirl whose veil was lifted gradually, step by step, and say
 - **academic view: not yet sourced**: not yet sourced.
 - **other view: not yet sourced**: not yet sourced.
 :::
+
+## From the lecture series Al Naba Al Safi: the hijab of older women
+A caller asks whether a woman past the age of childbearing may loosen her covering when it hinders her. The Sheikh says that God's ease allows women past childbearing age to do so, criticises older women who seek youth through cosmetics, and cites a verse about women past the age of desire for marriage (needs_source: the sura is not named in the recording). {cite:assabile-omar-abdelkafy al-naba-al-safi/ep05 00:44:30}
+
+## From the lecture series Al Naba Al Safi: the niqab
+The Sheikh addresses a woman who wears the niqab, tells her not to step back, says that following a particular school of law is acceptable, and counts her commitment as a sign of God's generosity. {cite:assabile-omar-abdelkafy al-naba-al-safi/ep05 00:47:00}
+
+:::perspectives
+- **Sunni view (not yet sourced)**: The Sunni position on this question has not yet been sourced.
+- **The speaker's view (personal opinion)**: The Sheikh holds that covering may be loosened for older women when it hinders them, advises a niqab-wearing woman not to step back, and counts her commitment as a sign of God's generosity {cite:assabile-omar-abdelkafy al-naba-al-safi/ep05 00:44:30} {cite:assabile-omar-abdelkafy al-naba-al-safi/ep05 00:47:00}.
+- **Academic or other views (not yet sourced)**: Academic and other views on this question have not yet been sourced.
+:::
+
+## From the lecture series Al Naba Al Safi: covering in the sense of faith
+The Sheikh explains that hasra, in the language, means scraping off a covering so that the surface is left bare, and says that when the faith which protects a person is uncovered he is exposed to trials, like a child who takes off what protects him. {cite:assabile-omar-abdelkafy al-naba-al-safi/ep24 00:08:00} {cite:assabile-omar-abdelkafy al-naba-al-safi/ep24 00:08:30}

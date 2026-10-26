@@ -123,3 +123,81 @@ The sheikh quotes Umar that he would not show a wicked man a favour, lest he com
 - **academic view: not yet sourced**: not yet attributed.
 - **other view: not yet sourced**: The sheikh recounts a Western orientalist's reading that Umar's remark about Egypt shows it was a gateway for plundering its wealth, and he disputes that reading (needs_source: the reading is reported by the speaker) {cite:assabile-omar-abdelkafy al-dinu-al-qayem/ep03 00:18:00}.
 :::
+
+## From Sheikh Omar Abdelkafy's lectures: Governance and fairness
+
+The Sheikh relays a saying attributed to Umar that he feared God would hold him to account for a mule that stumbled on the Euphrates (needs_source). {cite:assabile-omar-abdelkafy al-naba-al-safi/ep02 00:04:00}
+
+He recounts that Umar sent away a man who sought office, then later found him on all fours with his children on his back, and Umar said that one who is not merciful to his own family cannot be merciful to people (needs_source). {cite:assabile-omar-abdelkafy al-naba-al-safi/ep02 00:05:30}
+
+He says that Umar set a cap on dowries, and a woman answered him with a Qur'anic verse about a large dowry (the surah is not named), and Umar admitted he was wrong (needs_source). {cite:assabile-omar-abdelkafy al-naba-al-safi/ep21 00:24:30}
+
+He says that Umar, in Jerusalem, prayed the afternoon prayer on the steps of a church rather than inside it (needs_source). {cite:assabile-omar-abdelkafy al-naba-al-safi/ep02 00:17:00}
+
+:::perspectives
+- **Sunni view (not yet sourced)**: The Sunni position on this question has not yet been sourced.
+- **The speaker's view (personal opinion)**: The Sheikh presents the episode as Umar's wish that his prayer not be taken as a precedent against him (needs_source). {cite:assabile-omar-abdelkafy al-naba-al-safi/ep02 00:17:00}
+- **Academic or other views (not yet sourced)**: Academic and other views have not yet been sourced.
+:::
+
+## From Sheikh Omar Abdelkafy's lectures: Scrupulousness and public property
+
+He says that Umar sometimes refrained from cold water, as a voluntary stage of scrupulousness, a personal discipline and not a rule he imposed on others (needs_source). {cite:assabile-omar-abdelkafy al-naba-al-safi/ep05 00:40:30}
+
+He recounts that Ali asked Umar whether he had come about a matter of the Muslims or about his own affairs, and Umar was impressed by the question (needs_source). {cite:assabile-omar-abdelkafy al-naba-al-safi/ep15 00:07:00}
+
+He recounts that Umar put out a lamp in a private meeting, because its oil had by then become the property of the heirs (needs_source). {cite:assabile-omar-abdelkafy al-naba-al-safi/ep15 00:08:00}
+
+He mentions a supplication of Umar that he not be held to account in the grave for wealth enjoyed by his heirs, and says that an unjust will punishes its writer (needs_source). {cite:assabile-omar-abdelkafy al-naba-al-safi/ep14 00:28:00}
+
+## From Sheikh Omar Abdelkafy's lectures: Anger, forbearance and the household
+
+He says that Umar's anger was strong but not oppressive, and he relates Bilal's account that, had he been present at Umar's anger, he would have recited the Qur'an to calm him (needs_source). {cite:assabile-omar-abdelkafy al-naba-al-safi/ep16 00:09:30}
+
+He cites a hadith on the reward for kindness to every living creature, and recounts that Umar did not let his anger take the rights of a Jewish man who said that he did not love Umar (needs_source). {cite:assabile-omar-abdelkafy al-naba-al-safi/ep16 00:23:00}
+
+He recounts a narration of Umar testing his patience against fire, and of the Prophet speaking to Bilal (needs_source). {cite:assabile-omar-abdelkafy al-naba-al-safi/ep11 00:05:30}
+
+He says the biographies record that Ibn Abbas consoled Umar after he was stabbed, and he quotes a Qur'an line (the surah is not named) that patience and panic alike do not change what has been decreed (needs_source). {cite:assabile-omar-abdelkafy al-naba-al-safi/ep13 00:15:30}
+
+He repeats the same account in another episode: Ibn Abbas and others comforted Umar after he was stabbed, saying that whether one feels dismay or patience, the outcome does not change (needs_source). {cite:assabile-omar-abdelkafy al-naba-al-safi/ep24 00:06:00}
+
+He cites Umar's sayings on three kinds of wives: one who helps, one who is only a child-bearer and one who is a burden, and on the wife who magnifies faults and hides good (needs_source). {cite:assabile-omar-abdelkafy al-naba-al-safi/ep09 00:16:00}
+
+:::perspectives
+- **Sunni view (not yet sourced)**: The Sunni position on this question has not yet been sourced.
+- **The speaker's view (personal opinion)**: The Sheikh presents these as sayings of Umar and does not add a ruling of his own on them (needs_source). {cite:assabile-omar-abdelkafy al-naba-al-safi/ep09 00:16:00}
+- **Academic or other views (not yet sourced)**: Academic and other views have not yet been sourced.
+:::
+
+## From Sheikh Omar Abdelkafy's lectures: Islam and companionship
+
+He says that Umar set out to kill the Prophet and then his heart opened, and he uses this to show that God can open a heart that people regard as lost (needs_source). {cite:assabile-omar-abdelkafy al-naba-al-safi/ep15 00:34:30}
+
+He recounts that when Umar was told that his sister and her husband Sa'id ibn Zayd had become Muslims, he went to them, then to the house of al-Arqam, where he converted (needs_source). {cite:assabile-omar-abdelkafy al-naba-al-safi/ep15 00:35:00}
+
+He recounts that Umar announced his Islam, and that Jamil ibn Mamar spread the news that Umar was truthful in this, so a report that had been false became true (needs_source). {cite:assabile-omar-abdelkafy al-naba-al-safi/ep20 00:46:00}
+
+He cites a hadith in which the Prophet asked who had fed a poor man that morning: Umar said he had been with the Prophet all morning, and Abu Bakr said he had been on his way to the mosque (needs_source). {cite:assabile-omar-abdelkafy al-naba-al-safi/ep07 00:18:00}
+
+He recounts Abu Bakr's advice to Umar that God has duties by night and by day, each accepted only in its time (needs_source). {cite:assabile-omar-abdelkafy al-naba-al-safi/ep07 00:15:00}
+
+He says that Umar, on his way to the Hajj, asked the Prophet not to forget him in his prayers, and that praying for an absent brother is a mercy from God (needs_source). {cite:assabile-omar-abdelkafy al-naba-al-safi/ep08 00:15:30}
+
+He says that the Prophet smiled at his companions, and that Umar laughed heartily when something pleased him (needs_source). {cite:assabile-omar-abdelkafy al-naba-al-safi/ep10 00:21:00}
+
+He recounts Umar's objection to the Prophet asking forgiveness for the hypocrites, and says that the Prophet's mercy is wide (needs_source). {cite:assabile-omar-abdelkafy al-naba-al-safi/ep10 00:32:00}
+
+He cites a hadith in which Umar wept at the marks of the Prophet's bed on his side, and the Prophet said that the time was the time of prophethood, not of kingship (needs_source). {cite:assabile-omar-abdelkafy al-naba-al-safi/ep21 00:21:00}
+
+## From Sheikh Omar Abdelkafy's lectures: Knowledge and legal opinion
+
+He says that Umar directed a questioner about inheritance to Mu'adh ibn Jabal, a questioner about recitation to Ubay ibn Ka'b, and sent others to Ibn Mas'ud and Ali, saying that he himself was only a distributor (needs_source). {cite:assabile-omar-abdelkafy al-naba-al-safi/ep21 00:23:30}
+
+He recounts that a Bedouin asked Umar about a word in the Qur'an, Umar admitted he did not know it, and Ibn Abbas answered (needs_source). {cite:assabile-omar-abdelkafy al-naba-al-safi/ep21 00:24:00}
+
+He cites a hadith on putting love of God and His Messenger above everything, and says that revelation seems to have confirmed Umar's opinions (needs_source). {cite:assabile-omar-abdelkafy al-naba-al-safi/ep18 00:16:30}
+
+He says that earlier nations had inspired people who were not prophets, and that in this nation that person is Umar; he says that God demands the duties and the Prophet demands the sunna (needs_source). {cite:assabile-omar-abdelkafy al-naba-al-safi/ep18 00:17:00}
+
+He quotes a supplication attributed to Umar, asking God for deeds that are sincere and right (needs_source). {cite:assabile-omar-abdelkafy al-naba-al-safi/ep17 00:39:30}

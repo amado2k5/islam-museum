@@ -42,3 +42,16 @@ The Sheikh holds that carrying words in order to harm people is a trait we shoul
 The Sheikh holds, as his own opinion, that each person is answerable for what he says, and he asks whether people realise they will be held to account for all of it, naming gossip among the harms that speech does to people (needs_source: the examples) {cite:assabile-omar-abdelkafy al-dinu-al-qayem/ep07 00:55:00}. He recounts that Sa'd prayed against a man who spread lies about him, asking God to reveal the truth if the man was truthful and to show a sign against him if he was lying (needs_source: the details of the episode) {cite:assabile-omar-abdelkafy al-dinu-al-qayem/ep09 00:40:00}.
 
 He holds, as his own opinion, that slander, mockery and defamation are trials that keep the heart attached to God alone {cite:assabile-omar-abdelkafy al-dinu-al-qayem/ep06 00:39:30}.
+
+## Tale-bearing in Sheikh Omar Abdelkafy's lessons
+The Sheikh says that our scholars advised guarding the tongue, and that tale-bearing and backbiting breed resentment and envy among relatives, neighbours and colleagues. {cite:assabile-omar-abdelkafy al-naba-al-safi/ep01 00:01:30}
+He defines namimah as carrying words between people so as to cause corruption, and says that Muslim homes now broadcast one another's affairs. {cite:assabile-omar-abdelkafy al-naba-al-safi/ep15 00:29:00}
+
+## Avoiding the carrying of speech
+He criticises gossip and slander, and cites a hadith on the believer who eats what is good and does not harm what he touches. {cite:assabile-omar-abdelkafy al-naba-al-safi/ep07 00:25:30}
+He says that much talk drifts into tale-bearing, and that speech which harms no one is permissible. {cite:assabile-omar-abdelkafy al-naba-al-safi/ep15 00:46:00}
+A listener asks whether discussing what others cook or buy is backbiting; the Sheikh answers that one should avoid talk that harms anyone and speak only of what benefits. {cite:assabile-omar-abdelkafy al-naba-al-safi/ep15 00:45:00}
+He criticises those who collect news about their colleagues and managers at work. {cite:assabile-omar-abdelkafy al-naba-al-safi/ep21 00:36:00}
+
+## The speaker's view: speaking of the absent
+The speaker's view is that one who has spoken about an absent person should pray for him, and that such prayers are entered in the good deeds of the one who prays. {cite:assabile-omar-abdelkafy al-naba-al-safi/ep15 00:26:30}

@@ -112,3 +112,31 @@ He recounts Ali walking with Hasan and Husayn past a dead donkey and remarking o
 - **academic view: not yet sourced**: not yet attributed.
 - **other view: not yet sourced**: not yet attributed.
 :::
+
+## From Sheikh Omar Abdelkafy's lectures: God-consciousness and piety
+
+The Sheikh relays a definition of piety attributed to Ali: that God does not find you where He forbade, and does not miss you where He commanded (needs_source). {cite:assabile-omar-abdelkafy al-naba-al-safi/ep03 00:06:00}
+
+He says that Ali gave four elements of piety: fear of the Majestic, acting on what was revealed, contentment with little, and readiness for the final departure. {cite:assabile-omar-abdelkafy al-naba-al-safi/ep11 00:30:00}
+
+He quotes Ali saying that he lives on hope: if the hope is fulfilled, it is by God's favour, and if it is not, he has still lived by it (needs_source). {cite:assabile-omar-abdelkafy al-naba-al-safi/ep08 00:34:30}
+
+He says that among the signs of a dead heart is that a person feels no humility in prayer for weeks; he recounts that Ali leaned on his staff in prayer, and was asked whether he knew before whom he stood (needs_source). {cite:assabile-omar-abdelkafy al-naba-al-safi/ep18 00:08:00}
+
+## From Sheikh Omar Abdelkafy's lectures: Ali's counsel to his sons
+
+He relays Ali's counsel to his son al-Harith to join the scholars, since God's mercy does not leave them, and he calls these remedies for anxiety, grief, despair and regret (needs_source). {cite:assabile-omar-abdelkafy al-naba-al-safi/ep13 00:35:30}
+
+He relays Ali's counsel to his son Hasan to stay close to the scholars, because God's mercy is with them (needs_source). {cite:assabile-omar-abdelkafy al-naba-al-safi/ep24 00:26:30}
+
+## The speaker's view: faults in others and in oneself
+
+The Sheikh cites a saying attributed to Ali that a person sees a small fault in his brother but not a large one in himself (needs_source). {cite:assabile-omar-abdelkafy al-naba-al-safi/ep19 00:34:00}
+
+## From Sheikh Omar Abdelkafy's lectures: Patience, questions and prayer
+
+He quotes Ali saying that he will be patient until patience itself tires, and that his patience is itself a form of patience (needs_source). {cite:assabile-omar-abdelkafy al-naba-al-safi/ep24 00:21:30}
+
+He recounts that a poor man asked Ali, and was given a written answer on the sand, which was erased before others could see it (needs_source). {cite:assabile-omar-abdelkafy al-naba-al-safi/ep23 00:38:30}
+
+He cites a hadith in which Ali and Fatima asked the Prophet for a servant, and were taught by the Prophet a dhikr to say at bedtime instead (needs_source). {cite:assabile-omar-abdelkafy al-naba-al-safi/ep22 00:28:00}

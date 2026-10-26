@@ -52,3 +52,30 @@ The Sheikh says the first level of the first half of faith, which is the patienc
 
 ## From Sheikh Omar Abdelkafy's Tafsir lectures (episode 6)
 The Sheikh proposes that reckless young drivers spend two months as shepherds instead of having their licences withdrawn, so that they learn patience {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep06 00:29:30}. He holds that shepherding teaches manners and patience, and he laments the case of a young man who drives at a hundred and ninety, whose car overturns and who dies, leaving his mother bereaved (needs_source) {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep06 00:30:00}.
+
+## The speaker's view: beautiful patience
+He says that beautiful patience is patience without complaint to people, and that complaint is made to God alone. {cite:assabile-omar-abdelkafy al-naba-al-safi/ep23 00:05:30} {cite:assabile-omar-abdelkafy al-naba-al-safi/ep22 00:19:00}
+He says that the Qur'an speaks of beautiful forgiveness and beautiful parting, and that beautiful patience means not complaining to people. {cite:assabile-omar-abdelkafy al-naba-al-safi/ep23 00:32:00}
+He distinguishes patience from gratitude: gratitude to God means submitting to His commands, such as prayer, while beautiful patience is patience without complaint. {cite:assabile-omar-abdelkafy al-naba-al-safi/ep15 00:05:30}
+
+## The speaker's view: patience as steadiness on the road
+He likens patience to a steady mount that does not stumble and carries a person to Paradise, and he says contentment and thanks come with it. {cite:assabile-omar-abdelkafy al-naba-al-safi/ep08 00:21:30}
+He says that the hasty person who drives his mount too hard arrives at no destination, whereas patience steadies the nerves and lets a person solve his problems step by step. {cite:assabile-omar-abdelkafy al-naba-al-safi/ep23 00:06:30}
+He holds that impatience restores nothing: if a person loses wealth, health or standing, fretting gains him nothing. {cite:assabile-omar-abdelkafy al-naba-al-safi/ep23 00:02:00}
+
+## The speaker's view: patience in trial and with God
+He holds that a person should know that God loves the one He tests, and cites the Qur'anic praise of Ayyub for his patience (the verse is not cited by number in the recording). {cite:assabile-omar-abdelkafy al-naba-al-safi/ep08 00:02:00}
+He cites a hadith that the prophets are tested most, then the righteous, and that trial is in proportion to a person's faith, so a strong believer is tested more. {cite:assabile-omar-abdelkafy al-naba-al-safi/ep08 00:08:00}
+He says that one should be patient in obedience to God, with God and for God, and that this must never come at God's expense. {cite:assabile-omar-abdelkafy al-naba-al-safi/ep23 00:15:30}
+He says that patience with the envious is required, since their envy consumes them as fire does. {cite:assabile-omar-abdelkafy al-naba-al-safi/ep23 00:36:30}
+
+## The speaker's view: the ruler, the subjects and children
+He says that the patience of the ruled follows the patience of the ruler, and that the reward for patience after a loss is greater than the loss itself. {cite:assabile-omar-abdelkafy al-naba-al-safi/ep22 00:14:00}
+He holds that children should be taught patience through the examples of earlier generations, who had less and endured more. {cite:assabile-omar-abdelkafy al-naba-al-safi/ep23 00:44:30}
+
+## Contested matter: patience in marriage
+:::perspectives
+- **Sunni view (not yet sourced)**: No Sunni position on this question has been sourced yet.
+- **The speaker's view (personal opinion)**: The Sheikh says that a wife should keep patience and smile, and that consulting her should not be a show while decisions are made alone. {cite:assabile-omar-abdelkafy al-naba-al-safi/ep09 00:07:30} He urges spouses to ask what the Prophet would do, rather than react harshly. {cite:assabile-omar-abdelkafy al-naba-al-safi/ep23 00:41:00}
+- **Academic or other views (not yet sourced)**: Academic and other views have not yet been sourced.
+:::
