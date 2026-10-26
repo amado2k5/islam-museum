@@ -19,3 +19,12 @@ The author gives the wars of Bakr and Taghlib, along with those of the Aws and a
 
 ## For young visitors
 Bakr ibn Wa'il is a large tribe that lived in the east of the Arabian Peninsula, up to the edges of Iraq. Among its branches were Banu Shayban, who defeated the Persians at the day of Dhu Qar.
+
+## For Sprouts
+Bakr ibn Wa'il, a large tribe of Rabi'a ibn Nizar that settled the Peninsula's east to the edges of Iraq; among its branches are Banu Shayban, the victors of Dhu Qar.
+
+## For Explorers
+Bakr ibn Wa'il, a tribe of Rabi'a ibn Nizar; the Raheeq counts among Rabi'a Asad, Anaza, Abd al-Qays and Wa'il's two sons Bakr and Taghlib and Hanifa. When Adnan's sons scattered, clans of Bakr migrated with Abd al-Qays and Tamim to Bahrayn, while Banu Hanifa went to Yamama and settled its capital Hajar; the rest of Bakr held the land's length from Yamama to Bahrayn to the coast of Kazima to the sea — the edges of Iraq's Sawad — while Taghlib settled the Euphrates Jazira. Of Bakr are Banu Shayban: al-Nu'man ibn al-Mundhir deposited his family and wealth with them, and when Kisra demanded it, Hani' ibn Mas'ud refused to hand it over — hence the battle of Dhu Qar which Banu Shayban won, counted by the author the first day the Arabs defeated the Persians.
+
+## For Scholars
+Bakr ibn Wa'il, a tribe of Rabi'a ibn Nizar; the Raheeq counts among Rabi'a Asad ibn Rabi'a, Anaza, Abd al-Qays and Wa'il's two sons Bakr, Taghlib and Hanifa. When Adnan's sons scattered, clans of Bakr ibn Wa'il migrated with Abd al-Qays and clans of Tamim to Bahrayn, and Banu Hanifa ibn Sa'b ibn Ali ibn Bakr went out to Yamama settling its capital Hajar. The rest of Bakr ibn Wa'il held the land's length from Yamama to Bahrayn to the coast of Kazima to the sea, then the edges of Iraq's Sawad, al-Abla and Hit. Taghlib settled the Euphrates Jazira, with clans that neighbored Bakr. Of Bakr ibn Wa'il are Banu Shayban, on whom al-Nu'man ibn al-Mundhir descended depositing his family and wealth; when Kisra demanded it, Hani' ibn Mas'ud refused to hand it over — hence the battle of Dhu Qar which Banu Shayban won, counted by the author the first day the Arabs defeated the Persians. The author takes the wars of Bakr and Taghlib, with Aws and Khazraj and Abs and Dhubyan, as his example that rivalry in honor often ended in wars between tribes sharing one father.
